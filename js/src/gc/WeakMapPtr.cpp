@@ -290,13 +290,14 @@ V
 :
 BarrieredType
 ;
-typedef
+using
+Type
+=
 WeakMap
 <
 KeyType
 ValueType
 >
-Type
 ;
 using
 PtrType
@@ -715,7 +716,9 @@ K
 key
 )
 {
-typedef
+using
+Map
+=
 typename
 WeakMapDetails
 :
@@ -728,7 +731,6 @@ V
 :
 :
 Type
-Map
 ;
 using
 Ptr

@@ -519,7 +519,9 @@ edges
 ;
 }
 ;
-typedef
+using
+NodeMap
+=
 HashMap
 <
 Cell
@@ -533,7 +535,6 @@ Cell
 >
 SystemAllocPolicy
 >
-NodeMap
 ;
 /
 *
@@ -2978,13 +2979,14 @@ nullptr
 struct
 GCChunkHasher
 {
-typedef
+using
+Lookup
+=
 gc
 :
 :
 TenuredChunk
 *
-Lookup
 ;
 /
 *

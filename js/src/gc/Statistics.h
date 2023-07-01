@@ -1813,14 +1813,15 @@ None
 }
 }
 ;
-typedef
+using
+SliceDataVector
+=
 Vector
 <
 SliceData
 8
 SystemAllocPolicy
 >
-SliceDataVector
 ;
 const
 SliceDataVector
