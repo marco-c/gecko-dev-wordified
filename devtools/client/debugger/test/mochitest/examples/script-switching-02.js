@@ -57,6 +57,9 @@ foo
 )
 ;
 }
+return
+44
+;
 }
 var
 x

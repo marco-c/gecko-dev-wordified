@@ -1819,6 +1819,9 @@ frameActor
 :
 frameId
 selectedTargetFront
+disableBreaks
+:
+true
 }
 )
 ;

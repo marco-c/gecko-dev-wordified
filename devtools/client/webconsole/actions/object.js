@@ -169,6 +169,9 @@ evalString
 selectedObjectActor
 :
 actor
+disableBreaks
+:
+true
 }
 )
 ;
@@ -330,6 +333,9 @@ _self
 selectedObjectActor
 :
 actor
+disableBreaks
+:
+true
 }
 )
 ;
