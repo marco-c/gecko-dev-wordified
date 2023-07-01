@@ -133,6 +133,8 @@ actors
 "
 LayoutDebugChild
 .
-jsm
+sys
+.
+mjs
 "
 ]
