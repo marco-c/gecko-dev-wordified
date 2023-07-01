@@ -763,14 +763,6 @@ Priority
 "
 Highest
 "
-"
-DNS
-Resolution
-"
-:
-"
-System
-"
 }
 null
 "

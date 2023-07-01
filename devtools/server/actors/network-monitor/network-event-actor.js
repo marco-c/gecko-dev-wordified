@@ -2692,11 +2692,6 @@ channel
 .
 responseStatusText
 waitingTime
-isResolvedByTRR
-:
-channel
-.
-isResolvedByTRR
 }
 )
 ;
