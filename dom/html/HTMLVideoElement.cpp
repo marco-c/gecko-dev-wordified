@@ -1672,7 +1672,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+VideoElementMozFrames
 )
 )
 {
@@ -1753,7 +1753,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+VideoElementMozFrames
 )
 )
 {
@@ -1833,7 +1833,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+VideoElementMozFrames
 )
 )
 {
@@ -1919,7 +1919,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+VideoElementMozFrames
 )
 )
 {
@@ -2006,7 +2006,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+VideoElementMozFrameDelay
 )
 )
 {
@@ -2260,7 +2260,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+VideoElementPlaybackQuality
 )
 )
 {
