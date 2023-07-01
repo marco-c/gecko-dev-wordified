@@ -323,12 +323,14 @@ used
 for
 testing
 fullscreen
-:
 /
 /
+by
+passing
 "
 allowfullscreen
 "
+.
 function
 test_feature_availability
 (
