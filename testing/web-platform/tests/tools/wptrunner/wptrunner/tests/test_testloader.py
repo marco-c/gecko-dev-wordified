@@ -921,6 +921,13 @@ html
 "
 :
 [
+#
+will
+have
+test
+-
+include
+tag
                         
 "
 uvwxyz987654
@@ -1079,6 +1086,15 @@ n
 "
 )
         
+#
+Check
+:
+no
+filter
+loads
+all
+tests
+        
 loader
 =
 TestLoader
@@ -1117,6 +1133,22 @@ testharness
 =
 =
 2
+        
+#
+Check
+:
+specifying
+a
+single
+test
+-
+include
+inclusion
+yields
+/
+a
+/
+bar
         
 loader
 =
