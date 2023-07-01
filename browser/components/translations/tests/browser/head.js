@@ -1888,6 +1888,13 @@ l10nId
 ]
 )
 ;
+console
+.
+log
+(
+doc
+)
+;
 if
 (
 elements
