@@ -532,6 +532,7 @@ SELECT
 1
 FROM
 Directories
+INNER
 JOIN
 Entries
 USING
@@ -843,6 +844,7 @@ SELECT
 1
 FROM
 Files
+INNER
 JOIN
 Entries
 USING
@@ -8514,6 +8516,9 @@ Entries
 handle
 FROM
 Directories
+"
+"
+INNER
 JOIN
 Entries
 USING
@@ -8553,6 +8558,7 @@ Entries
 handle
 FROM
 Files
+INNER
 JOIN
 Entries
 USING
