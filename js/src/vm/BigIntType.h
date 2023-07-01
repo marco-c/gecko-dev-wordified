@@ -3524,6 +3524,8 @@ bool
 resultNegative
 )
 ;
+public
+:
 /
 /
 If
@@ -3566,6 +3568,8 @@ BigInt
 rhs
 )
 ;
+private
+:
 static
 int8_t
 compare
