@@ -3761,6 +3761,7 @@ nursery
 )
 ;
 auto
+*
 dst
 =
 allocTenured
@@ -4380,6 +4381,7 @@ allocKindForTenure
 )
 ;
 auto
+*
 dst
 =
 allocTenured

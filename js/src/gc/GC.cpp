@@ -8750,6 +8750,7 @@ const
 {
 for
 (
+const
 auto
 &
 marker
@@ -9487,6 +9488,7 @@ const
 {
 for
 (
+const
 auto
 &
 p
@@ -32644,6 +32646,7 @@ cell
 )
 ;
 auto
+*
 runtime
 =
 cell
@@ -32883,7 +32886,9 @@ this
 in
 CellIsMarkedGrayIfKnown
 .
+const
 auto
+*
 tc
 =
 &

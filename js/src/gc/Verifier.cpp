@@ -7199,6 +7199,7 @@ dump
 if
 (
 auto
+*
 delegate
 =
 MaybeGetDelegate

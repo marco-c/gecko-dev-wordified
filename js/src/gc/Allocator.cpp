@@ -2970,6 +2970,7 @@ kind
 ifdef
 DEBUG
 auto
+*
 old
 =
 freeLists_

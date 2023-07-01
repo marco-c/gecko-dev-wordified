@@ -1592,6 +1592,7 @@ Expand
 )
 ;
 auto
+*
 marker
 =
 GCMarker
