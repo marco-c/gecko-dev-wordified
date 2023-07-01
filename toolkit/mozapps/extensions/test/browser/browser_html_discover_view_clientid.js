@@ -376,9 +376,7 @@ clientid
 see
 Discovery
 .
-sys
-.
-mjs
+jsm
 for
 the
 first

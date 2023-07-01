@@ -40,7 +40,7 @@ TabUnloader
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -52,9 +52,7 @@ modules
 /
 TabUnloader
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

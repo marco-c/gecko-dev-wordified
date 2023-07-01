@@ -55,7 +55,7 @@ AboutNewTab
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -67,9 +67,7 @@ modules
 /
 AboutNewTab
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

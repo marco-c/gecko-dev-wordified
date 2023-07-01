@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 lazy
 =
@@ -86,6 +91,15 @@ mjs
 "
 }
 )
+;
+var
+EXPORTED_SYMBOLS
+=
+[
+"
+TabsPanel
+"
+]
 ;
 const
 TAB_DROP_TYPE
@@ -1296,7 +1310,6 @@ PanelMultiViewHidden
 "
 }
 ;
-export
 class
 TabsPanel
 extends

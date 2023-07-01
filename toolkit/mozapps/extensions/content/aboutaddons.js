@@ -3828,9 +3828,7 @@ prefs
 match
 Discovery
 .
-sys
-.
-mjs
+jsm
 for
 enabling
 clientId

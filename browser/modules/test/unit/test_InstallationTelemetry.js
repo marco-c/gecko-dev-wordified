@@ -91,7 +91,7 @@ BrowserUsageTelemetry
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -103,9 +103,7 @@ modules
 /
 BrowserUsageTelemetry
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

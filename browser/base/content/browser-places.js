@@ -8309,9 +8309,7 @@ Prevent
 loading
 AboutNewTab
 .
-sys
-.
-mjs
+jsm
 during
 startup
 path
@@ -8334,7 +8332,7 @@ newTabURL
 =
 Cu
 .
-isESModuleLoaded
+isModuleLoaded
 (
 "
 resource
@@ -8346,9 +8344,7 @@ modules
 /
 AboutNewTab
 .
-sys
-.
-mjs
+jsm
 "
 )
 ?

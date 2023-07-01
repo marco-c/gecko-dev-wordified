@@ -81,9 +81,9 @@ from
 the
 prefs
 window
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -99,9 +99,7 @@ modules
 /
 BrowserWindowTracker
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

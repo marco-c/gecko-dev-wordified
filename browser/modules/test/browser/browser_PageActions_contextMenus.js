@@ -12,9 +12,7 @@ test
 for
 PageActions
 .
-sys
-.
-mjs
+jsm
 specifically
 the
 context
