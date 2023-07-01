@@ -1438,7 +1438,10 @@ mDestroyed
 ifdef
 XP_WIN
 bool
-mUseWebRenderDCompVideoOverlayWin
+mUseWebRenderDCompVideoHwOverlayWin
+;
+bool
+mUseWebRenderDCompVideoSwOverlayWin
 ;
 #
 endif

@@ -941,6 +941,17 @@ DUMMY_TEXTURE
 22
 /
 /
+Software
+decoded
+video
+SOFTWARE_DECODED_VIDEO
+=
+1
+<
+<
+22
+/
+/
 OR
 union
 of

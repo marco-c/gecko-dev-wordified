@@ -620,6 +620,17 @@ return
 nullptr
 ;
 }
+client
+-
+>
+AddFlags
+(
+TextureFlags
+:
+:
+SOFTWARE_DECODED_VIDEO
+)
+;
 /
 /
 The

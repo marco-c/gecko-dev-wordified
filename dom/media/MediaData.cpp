@@ -2342,7 +2342,7 @@ gfx
 gfxVars
 :
 :
-UseWebRenderDCompSwVideoOverlayWin
+UseWebRenderDCompVideoSwOverlayWin
 (
 )
 &
