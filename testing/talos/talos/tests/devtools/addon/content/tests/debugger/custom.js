@@ -182,6 +182,9 @@ react
 '
 ;
 "
+threadsCount
+:
+2
 }
 ;
 const

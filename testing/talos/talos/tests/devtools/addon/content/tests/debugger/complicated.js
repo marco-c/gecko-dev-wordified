@@ -133,6 +133,9 @@ name
 b
 }
 "
+threadsCount
+:
+7
 }
 ;
 module
