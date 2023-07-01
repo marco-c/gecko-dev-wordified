@@ -756,6 +756,9 @@ text
 "
 CUSTOM
 "
+doNotClose
+:
+true
 }
 )
 ;

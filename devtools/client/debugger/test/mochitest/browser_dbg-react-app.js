@@ -190,10 +190,7 @@ size
 expression
 :
 "
-_this
-.
 fields
-;
 "
 }
 )
