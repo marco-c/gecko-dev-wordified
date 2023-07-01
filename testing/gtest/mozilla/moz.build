@@ -218,11 +218,6 @@ MozHelpers
 .
 h
 "
-"
-WaitFor
-.
-h
-"
 ]
 SOURCES
 +
@@ -250,11 +245,6 @@ cpp
 "
 "
 SanityTest
-.
-cpp
-"
-"
-WaitFor
 .
 cpp
 "

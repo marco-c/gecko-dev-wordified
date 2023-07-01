@@ -320,11 +320,6 @@ TestSnappyStreams
 cpp
 "
 "
-TestStateMirroring
-.
-cpp
-"
-"
 TestStateWatching
 .
 cpp

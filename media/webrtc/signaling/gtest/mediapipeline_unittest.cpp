@@ -262,6 +262,13 @@ PeerConnectionCtx
 h
 "
 #
+include
+"
+WaitFor
+.
+h
+"
+#
 define
 GTEST_HAS_RTTI
 0

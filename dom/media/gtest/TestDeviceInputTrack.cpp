@@ -160,10 +160,6 @@ h
 #
 include
 "
-mozilla
-/
-gtest
-/
 WaitFor
 .
 h
