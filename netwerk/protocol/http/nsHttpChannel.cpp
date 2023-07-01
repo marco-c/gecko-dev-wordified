@@ -26747,9 +26747,6 @@ not
 be
 weakly
 framed
-or
-marked
-immutable
 /
 /
 /
@@ -26800,10 +26797,6 @@ LoadCustomConditionalRequest
 &
 !
 weaklyFramed
-&
-&
-!
-isImmutable
 &
 &
 (
