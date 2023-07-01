@@ -7811,6 +7811,7 @@ ImmediateSweepWeakCacheTask
 &
 other
 )
+noexcept
 :
 GCParallelTask
 (

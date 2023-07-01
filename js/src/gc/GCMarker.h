@@ -950,6 +950,7 @@ MarkStack
 &
 other
 )
+noexcept
 ;
 MarkStack
 &
@@ -961,6 +962,7 @@ MarkStack
 &
 other
 )
+noexcept
 ;
 /
 /
