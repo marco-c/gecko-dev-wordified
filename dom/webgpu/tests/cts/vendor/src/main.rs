@@ -564,7 +564,7 @@ Mercurial
 repository
 (
 .
-hgrc
+hg
 )
 in
 any
