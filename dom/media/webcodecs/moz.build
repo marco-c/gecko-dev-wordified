@@ -120,6 +120,11 @@ VideoFrame
 .
 h
 "
+"
+WebCodecsUtils
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -137,6 +142,11 @@ cpp
 "
 "
 VideoFrame
+.
+cpp
+"
+"
+WebCodecsUtils
 .
 cpp
 "
