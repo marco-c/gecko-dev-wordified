@@ -27448,6 +27448,7 @@ JS
 :
 ToBigInt64
 (
+const
 JS
 :
 :
@@ -27472,6 +27473,7 @@ JS
 :
 ToBigUint64
 (
+const
 JS
 :
 :
@@ -27496,6 +27498,7 @@ JS
 :
 BigIntToNumber
 (
+const
 JS
 :
 :
@@ -27520,6 +27523,7 @@ JS
 :
 BigIntIsNegative
 (
+const
 BigInt
 *
 bi
@@ -27549,6 +27553,7 @@ JS
 :
 BigIntFitsNumber
 (
+const
 BigInt
 *
 bi
@@ -27736,6 +27741,7 @@ detail
 :
 BigIntIsInt64
 (
+const
 BigInt
 *
 bi
@@ -27764,6 +27770,7 @@ detail
 :
 BigIntIsUint64
 (
+const
 BigInt
 *
 bi
