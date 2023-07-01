@@ -547,9 +547,18 @@ and
 2
 .
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -594,7 +603,7 @@ first_caret_location
 )
         
 #
-Tap
+Click
 the
 front
 of
@@ -607,12 +616,23 @@ caret
 appear
 .
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 cursor0_x
 cursor0_y
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 #
@@ -740,7 +760,7 @@ content
 content_to_add
         
 #
-Tap
+Click
 the
 front
 of
@@ -753,9 +773,18 @@ caret
 appear
 .
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -765,16 +794,27 @@ move_cursor_to_front
 (
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 #
@@ -947,9 +987,18 @@ the
 front
 .
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -969,7 +1018,7 @@ first_caret_location
 )
         
 #
-Tap
+Click
 to
 make
 first
@@ -1012,9 +1061,18 @@ bug
 perhaps
 .
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1034,16 +1092,27 @@ backward
 True
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 src_x
@@ -1165,9 +1234,18 @@ string
 .
 ascii_letters
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1421,9 +1499,18 @@ Y
 axis
 .
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1433,16 +1520,27 @@ move_cursor_to_front
 (
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 x
@@ -1619,9 +1717,18 @@ Y
 axis
 .
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -1641,16 +1748,27 @@ backward
 True
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 x
@@ -1804,7 +1922,7 @@ content
 .
         
 #
-Tap
+Click
 to
 make
 the
@@ -1832,14 +1950,23 @@ image
 "
 )
         
-before_image_1
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+before_image_1
+)
+.
+perform
 (
 )
         
 #
-Tap
+Click
 the
 front
 of
@@ -1858,16 +1985,27 @@ move_cursor_to_front
 (
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 src_x
@@ -2089,9 +2227,18 @@ the
 front
 .
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -2130,7 +2277,7 @@ content_to_add_2
 )
         
 #
-Tap
+Click
 to
 make
 first
@@ -2138,9 +2285,18 @@ caret
 appear
 .
         
-el
+self
 .
-tap
+actions
+.
+click
+(
+element
+=
+el
+)
+.
+perform
 (
 )
         
@@ -2160,16 +2316,27 @@ backward
 True
 )
         
-el
+self
 .
-tap
+actions
+.
+move
 (
+el
 *
 sel
 .
 cursor_location
 (
 )
+)
+.
+click
+(
+)
+.
+perform
+(
 )
         
 src_x
