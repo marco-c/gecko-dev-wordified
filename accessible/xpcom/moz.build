@@ -135,11 +135,6 @@ xpcAccessibleImage
 cpp
 "
 "
-xpcAccessiblePivot
-.
-cpp
-"
-"
 xpcAccessibleSelectable
 .
 cpp
