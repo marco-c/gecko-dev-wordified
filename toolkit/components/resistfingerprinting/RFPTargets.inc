@@ -587,6 +587,14 @@ FontVisibilityLangPack
 <
 43
 )
+ITEM_VALUE
+(
+DeviceSensors
+1llu
+<
+<
+44
+)
 /
 /
 !
