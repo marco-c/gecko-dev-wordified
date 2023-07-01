@@ -2586,6 +2586,14 @@ target
 =
 =
 targetDocument
+|
+|
+target
+-
+>
+IsNonInteractive
+(
+)
 )
 {
 /
