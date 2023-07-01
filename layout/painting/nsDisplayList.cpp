@@ -40877,6 +40877,11 @@ mScale
 aProperties
 .
 mMotion
+.
+ptrOr
+(
+nullptr
+)
 aProperties
 .
 mTransform

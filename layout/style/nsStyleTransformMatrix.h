@@ -210,6 +210,10 @@ ResolvedMotionPathData
 ;
 }
 /
+/
+namespace
+mozilla
+/
 *
 *
 *
@@ -1117,14 +1121,8 @@ const
 mozilla
 :
 :
-Maybe
-<
-mozilla
-:
-:
 ResolvedMotionPathData
->
-&
+*
 aMotion
 const
 mozilla
