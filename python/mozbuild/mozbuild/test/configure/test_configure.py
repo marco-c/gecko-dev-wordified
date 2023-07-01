@@ -2565,10 +2565,17 @@ sandbox
         
 )
         
+with
 self
 .
-assertIs
+assertRaises
 (
+Exception
+)
+as
+e
+:
+            
 sandbox
 [
 "
@@ -2577,11 +2584,23 @@ foo
 ]
 (
 )
-six
+        
+self
 .
-moves
+assertEqual
+(
+str
+(
+e
 .
-builtins
+exception
+)
+"
+Importing
+__builtin__
+is
+forbidden
+"
 )
         
 exec_
@@ -2672,7 +2691,9 @@ close
         
 #
 This
-unlocks
+used
+to
+unlock
 the
 sandbox
         
@@ -2725,10 +2746,17 @@ sandbox
         
 )
         
+with
 self
 .
-assertIs
+assertRaises
 (
+Exception
+)
+as
+e
+:
+            
 sandbox
 [
 "
@@ -2737,7 +2765,23 @@ foo
 ]
 (
 )
-sys
+        
+self
+.
+assertEqual
+(
+str
+(
+e
+.
+exception
+)
+"
+Importing
+__builtin__
+is
+forbidden
+"
 )
         
 exec_
