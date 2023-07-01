@@ -2035,9 +2035,11 @@ thisAcc
 )
 ;
 }
+if
+(
 Accessible
 *
-hittestMatch
+doc
 =
 nsAccUtils
 :
@@ -2046,6 +2048,13 @@ DocumentFor
 (
 thisAcc
 )
+)
+{
+Accessible
+*
+hittestMatch
+=
+doc
 -
 >
 ChildAtPoint
@@ -2067,6 +2076,9 @@ DeepestChild
 ;
 if
 (
+hittestMatch
+&
+&
 thisAcc
 =
 =
@@ -2081,6 +2093,7 @@ Parent
 return
 0
 ;
+}
 }
 return
 -
