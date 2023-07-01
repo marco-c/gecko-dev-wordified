@@ -277,8 +277,7 @@ fillText
 '
 EE
 '
--
-50
+0
 37
 .
 5
@@ -289,8 +288,8 @@ _assertPixelApprox
 canvas
 25
 25
-0
 255
+0
 0
 255
 2
