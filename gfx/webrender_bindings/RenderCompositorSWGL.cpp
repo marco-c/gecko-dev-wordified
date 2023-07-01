@@ -394,7 +394,7 @@ GetClientSize
 ;
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 if
 (
 mLastRenderWidgetSize
@@ -2160,7 +2160,7 @@ true
 endif
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 /
 /
 We
@@ -2216,7 +2216,7 @@ Resume
 {
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 mRequestFullRender
 =
 true

@@ -325,7 +325,7 @@ h
 endif
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 class
 DMABufSurface
 ;
@@ -393,7 +393,7 @@ MacIOSurfaceImage
 endif
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 class
 DMABUFSurfaceImage
 ;
@@ -1311,7 +1311,7 @@ const
 endif
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 bool
 Blit
 (
