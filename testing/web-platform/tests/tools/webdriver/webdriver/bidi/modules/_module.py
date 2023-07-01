@@ -1,4 +1,6 @@
 import
+asyncio
+import
 functools
 from
 typing
@@ -587,6 +589,27 @@ conversion
 function
 defined
                 
+if
+asyncio
+.
+iscoroutinefunction
+(
+result_fn
+)
+:
+                    
+result
+=
+await
+result_fn
+(
+self
+result
+)
+                
+else
+:
+                    
 result
 =
 result_fn
