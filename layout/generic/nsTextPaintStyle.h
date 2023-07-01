@@ -393,7 +393,7 @@ with
 aHighlightName
 .
 bool
-GetCustomHighlightColors
+GetCustomHighlightTextColor
 (
 const
 nsAtom
@@ -402,6 +402,15 @@ aHighlightName
 nscolor
 *
 aForeColor
+)
+;
+bool
+GetCustomHighlightBackgroundColor
+(
+const
+nsAtom
+*
+aHighlightName
 nscolor
 *
 aBackColor
