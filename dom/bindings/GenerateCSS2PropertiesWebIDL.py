@@ -251,6 +251,21 @@ prop
 .
                 
 continue
+            
+propId
+=
+p
+.
+prop_id
+        
+else
+:
+            
+propId
+=
+p
+.
+id
         
 #
 Unfortunately
@@ -277,6 +292,19 @@ nsComputedDOMStyle
 extendedAttrs
 =
 [
+            
+"
+BindingTemplate
+=
+(
+CSS2Property
+eCSSProperty_
+%
+s
+)
+"
+%
+propId
             
 "
 CEReactions
