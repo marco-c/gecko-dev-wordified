@@ -10758,6 +10758,9 @@ mips32
 "
 mips64
 "
+"
+riscv64
+"
 )
 or
 target

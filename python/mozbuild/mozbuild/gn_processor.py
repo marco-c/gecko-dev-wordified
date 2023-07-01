@@ -4882,13 +4882,16 @@ for
 attrs
 in
 (
+            
 (
 )
+            
 (
 "
 OS_TARGET
 "
 )
+            
 (
 "
 OS_TARGET
@@ -4897,6 +4900,19 @@ OS_TARGET
 CPU_ARCH
 "
 )
+            
+(
+"
+OS_TARGET
+"
+"
+CPU_ARCH
+"
+"
+MOZ_X11
+"
+)
+        
 )
 :
             
@@ -5828,11 +5844,16 @@ linux
                 
 target_cpus
 .
-append
+extend
 (
+[
 "
 ppc64
 "
+"
+riscv64
+"
+]
 )
             
 for
