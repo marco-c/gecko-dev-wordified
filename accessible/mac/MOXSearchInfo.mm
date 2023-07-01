@@ -153,17 +153,6 @@ nsAccessibilityService
 .
 h
 "
-#
-include
-"
-mozilla
-/
-a11y
-/
-DocAccessiblePlatformExtParent
-.
-h
-"
 using
 namespace
 mozilla

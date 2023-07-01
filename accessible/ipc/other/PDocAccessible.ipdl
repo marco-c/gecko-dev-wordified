@@ -116,10 +116,6 @@ protocol
 PBrowser
 ;
 include
-protocol
-PDocAccessiblePlatformExt
-;
-include
 DocAccessibleTypes
 ;
 include
@@ -392,16 +388,8 @@ PDocAccessible
 manager
 PBrowser
 ;
-manages
-PDocAccessiblePlatformExt
-;
 parent
 :
-async
-PDocAccessiblePlatformExt
-(
-)
-;
 async
 Shutdown
 (
