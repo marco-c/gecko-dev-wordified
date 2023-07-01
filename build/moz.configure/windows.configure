@@ -2596,6 +2596,9 @@ lib_path_for
 (
 target
 )
+when
+=
+target_is_windows
 )
 imports
 (
@@ -2656,6 +2659,9 @@ host
 depends_if
 (
 lib_path_for_host
+when
+=
+host_is_windows
 )
 imports
 (
@@ -2700,6 +2706,9 @@ libs
 depends_if
 (
 lib_path_for_host
+when
+=
+host_is_windows
 )
 imports
 (
