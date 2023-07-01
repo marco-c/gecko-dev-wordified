@@ -814,7 +814,7 @@ fog_internal_glean_handle_client_inactive
 ShutdownPhase
 :
 :
-XPCOMWillShutdown
+AppShutdownConfirmed
 )
 ;
 return
