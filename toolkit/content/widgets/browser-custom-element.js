@@ -391,14 +391,16 @@ modules
 /
 ProcessHangMonitor
 .
-jsm
+sys
+.
+mjs
 "
 ;
 if
 (
 Cu
 .
-isModuleLoaded
+isESModuleLoaded
 (
 kURL
 )
@@ -411,7 +413,7 @@ ProcessHangMonitor
 =
 ChromeUtils
 .
-import
+importESModule
 (
 kURL
 )

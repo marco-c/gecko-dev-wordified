@@ -41,7 +41,7 @@ PingCentreConstants
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -53,7 +53,9 @@ modules
 /
 PingCentre
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

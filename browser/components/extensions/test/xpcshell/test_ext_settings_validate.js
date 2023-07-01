@@ -107,7 +107,7 @@ AboutNewTab
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -119,7 +119,9 @@ modules
 /
 AboutNewTab
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -169,7 +171,7 @@ HomePage
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -181,7 +183,9 @@ modules
 /
 HomePage
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

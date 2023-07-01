@@ -104,7 +104,7 @@ Discovery
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -116,7 +116,9 @@ modules
 /
 Discovery
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

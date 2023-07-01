@@ -109,15 +109,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-this
-{
 HomePage
 :
 "
@@ -130,7 +121,9 @@ modules
 /
 HomePage
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
