@@ -1057,7 +1057,11 @@ attempted
 *
 /
 virtual
-nsresult
+Result
+<
+FileId
+QMResult
+>
 EnsureFileId
 (
 const

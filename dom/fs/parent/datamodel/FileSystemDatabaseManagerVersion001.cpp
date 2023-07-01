@@ -5807,7 +5807,11 @@ Value
 )
 ;
 }
-nsresult
+Result
+<
+FileId
+QMResult
+>
 FileSystemDatabaseManagerVersion001
 :
 :
@@ -5820,7 +5824,10 @@ aEntryId
 )
 {
 return
-NS_OK
+FileId
+(
+aEntryId
+)
 ;
 }
 nsresult
