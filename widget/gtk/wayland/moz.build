@@ -203,11 +203,6 @@ widget
 =
 [
 "
-gbm
-.
-h
-"
-"
 idle
 -
 inhibit
@@ -264,11 +259,6 @@ v1
 client
 -
 protocol
-.
-h
-"
-"
-va_drmcommon
 .
 h
 "
