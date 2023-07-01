@@ -37911,14 +37911,6 @@ identifier
 "
 NonEnumerable
 "
-            
-or
-identifier
-=
-=
-"
-BindingTemplate
-"
         
 )
 :
@@ -37974,18 +37966,6 @@ handleExtendedAttribute
 self
 attr
 )
-    
-def
-getExtendedAttributes
-(
-self
-)
-:
-        
-return
-self
-.
-_extendedAttrDict
     
 def
 resolve
