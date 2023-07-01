@@ -635,6 +635,14 @@ MediaError
 <
 49
 )
+ITEM_VALUE
+(
+DOMStyleOsxFontSmoothing
+1llu
+<
+<
+50
+)
 /
 /
 !
