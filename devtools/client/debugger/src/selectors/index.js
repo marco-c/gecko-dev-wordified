@@ -178,15 +178,6 @@ from
 "
 .
 /
-preview
-"
-;
-export
-*
-from
-"
-.
-/
 project
 -
 text
