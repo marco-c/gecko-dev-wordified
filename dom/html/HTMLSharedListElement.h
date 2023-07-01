@@ -185,6 +185,7 @@ aNodeInfo
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
+virtual
 bool
 ParseAttribute
 (
@@ -206,6 +207,7 @@ aResult
 )
 override
 ;
+virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -227,6 +229,7 @@ aAttribute
 const
 override
 ;
+virtual
 nsresult
 Clone
 (
@@ -442,7 +445,11 @@ static
 void
 MapAttributesIntoRule
 (
-MappedDeclarationsBuilder
+const
+nsMappedAttributes
+*
+aAttributes
+MappedDeclarations
 &
 )
 ;
@@ -450,7 +457,11 @@ static
 void
 MapOLAttributesIntoRule
 (
-MappedDeclarationsBuilder
+const
+nsMappedAttributes
+*
+aAttributes
+MappedDeclarations
 &
 )
 ;

@@ -2543,7 +2543,11 @@ static
 void
 MapAttributesIntoRule
 (
-MappedDeclarationsBuilder
+const
+nsMappedAttributes
+*
+aAttributes
+MappedDeclarations
 &
 )
 ;

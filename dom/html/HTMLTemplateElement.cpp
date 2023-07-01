@@ -150,6 +150,15 @@ h
 #
 include
 "
+mozilla
+/
+MappedDeclarations
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

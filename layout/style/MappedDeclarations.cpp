@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-MappedDeclarationsBuilder
+MappedDeclarations
 .
 h
 "
@@ -157,7 +157,7 @@ namespace
 mozilla
 {
 void
-MappedDeclarationsBuilder
+MappedDeclarations
 :
 :
 SetIdentAtomValue
@@ -171,10 +171,7 @@ aValue
 {
 Servo_DeclarationBlock_SetIdentStringValue
 (
-&
-EnsureDecls
-(
-)
+mDecl
 aId
 aValue
 )
@@ -252,7 +249,8 @@ place
 anyway
 .
 mDocument
-.
+-
+>
 ForceCacheLang
 (
 aValue
@@ -261,7 +259,7 @@ aValue
 }
 }
 void
-MappedDeclarationsBuilder
+MappedDeclarations
 :
 :
 SetBackgroundImage
@@ -311,14 +309,12 @@ utf8
 ;
 Servo_DeclarationBlock_SetBackgroundImage
 (
-&
-EnsureDecls
-(
-)
+mDecl
 &
 utf8
 mDocument
-.
+-
+>
 DefaultStyleAttrURLData
 (
 )

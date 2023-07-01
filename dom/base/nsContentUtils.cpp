@@ -2935,6 +2935,13 @@ h
 #
 include
 "
+nsMappedAttributes
+.
+h
+"
+#
+include
+"
 nsMargin
 .
 h
@@ -12086,6 +12093,13 @@ pref
 ;
 }
 TextControlState
+:
+:
+Shutdown
+(
+)
+;
+nsMappedAttributes
 :
 :
 Shutdown
