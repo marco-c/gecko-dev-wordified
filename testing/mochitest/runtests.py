@@ -17660,6 +17660,19 @@ s
             
 s
 .
+setsockopt
+(
+socket
+.
+SOL_SOCKET
+socket
+.
+SO_REUSEADDR
+1
+)
+            
+s
+.
 bind
 (
 (
@@ -17674,19 +17687,6 @@ bind
 "
 0
 )
-)
-            
-s
-.
-setsockopt
-(
-socket
-.
-SOL_SOCKET
-socket
-.
-SO_REUSEADDR
-1
 )
             
 return
