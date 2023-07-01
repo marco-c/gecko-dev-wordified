@@ -542,6 +542,14 @@ NavigatorConnection
 <
 39
 )
+ITEM_VALUE
+(
+WindowDevicePixelRatio
+1llu
+<
+<
+40
+)
 /
 /
 !
