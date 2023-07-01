@@ -203,6 +203,8 @@ ipc
 IPCResult
 RecvClose
 (
+bool
+aAbort
 CloseResolver
 &
 &
@@ -247,6 +249,8 @@ mClosed
 void
 Close
 (
+bool
+aAbort
 )
 ;
 const

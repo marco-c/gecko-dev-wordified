@@ -269,6 +269,8 @@ FileSystemWritableFileStreamParent
 :
 RecvClose
 (
+bool
+aAbort
 CloseResolver
 &
 &
@@ -277,6 +279,7 @@ aResolver
 {
 Close
 (
+aAbort
 )
 ;
 aResolver
@@ -329,6 +332,12 @@ IsClosed
 {
 Close
 (
+/
+*
+aAbort
+*
+/
+true
 )
 ;
 }
@@ -381,6 +390,12 @@ FileSystemWritableFileStreamParent
 :
 Close
 (
+bool
+/
+*
+aAbort
+*
+/
 )
 {
 LOG
