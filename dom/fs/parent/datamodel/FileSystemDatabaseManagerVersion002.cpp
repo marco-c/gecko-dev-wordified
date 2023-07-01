@@ -2796,7 +2796,7 @@ QMResult
 FileSystemDatabaseManagerVersion002
 :
 :
-FindDescendants
+FindFilesUnderEntry
 (
 const
 EntryId

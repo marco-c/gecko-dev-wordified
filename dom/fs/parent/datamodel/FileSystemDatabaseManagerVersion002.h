@@ -355,7 +355,7 @@ FileId
 >
 QMResult
 >
-FindDescendants
+FindFilesUnderEntry
 (
 const
 EntryId
