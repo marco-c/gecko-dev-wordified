@@ -1122,10 +1122,6 @@ actions
 .
 selectThread
 (
-getContext
-(
-dbg
-)
 iframeThread
 )
 ;

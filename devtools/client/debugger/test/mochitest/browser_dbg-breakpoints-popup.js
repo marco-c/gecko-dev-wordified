@@ -1236,10 +1236,6 @@ actions
 .
 selectThread
 (
-getContext
-(
-dbg
-)
 firstThread
 )
 ;

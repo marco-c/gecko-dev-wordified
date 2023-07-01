@@ -296,10 +296,6 @@ actions
 .
 selectThread
 (
-getContext
-(
-dbg
-)
 thread1
 )
 ;
@@ -532,10 +528,6 @@ actions
 .
 selectThread
 (
-getContext
-(
-dbg
-)
 mainThread
 )
 ;
@@ -683,10 +675,6 @@ actions
 .
 selectThread
 (
-getContext
-(
-dbg
-)
 thread1
 )
 ;
@@ -723,10 +711,6 @@ actions
 .
 selectThread
 (
-getContext
-(
-dbg
-)
 thread2
 )
 ;
@@ -819,10 +803,6 @@ actions
 .
 selectThread
 (
-getContext
-(
-dbg
-)
 thread1
 )
 ;
@@ -858,10 +838,6 @@ actions
 .
 selectThread
 (
-getContext
-(
-dbg
-)
 thread2
 )
 ;
