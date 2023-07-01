@@ -55,7 +55,7 @@ PublicKey
 field
 :
 :
-FieldElement
+FftFriendlyFieldElement
 polynomial
 :
 :
@@ -139,7 +139,7 @@ Client
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 {
 dimension
@@ -271,7 +271,7 @@ impl
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 Client
 <
@@ -793,7 +793,7 @@ impl
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 ClientMemory
 <
@@ -1001,7 +1001,7 @@ impl
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 ClientMemory
 <
@@ -1165,7 +1165,7 @@ encode_simple
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 (
 data
@@ -1234,7 +1234,7 @@ interpolate_and_evaluate_at_2n
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 (
 n
@@ -1367,7 +1367,7 @@ construct_proof
 <
 F
 :
-FieldElement
+FftFriendlyFieldElement
 >
 (
 data
@@ -1705,7 +1705,7 @@ crate
 field
 :
 :
-Field32
+FieldPrio2
 ;
 let
 pub_key1
@@ -1784,7 +1784,7 @@ map
 |
 x
 |
-Field32
+FieldPrio2
 :
 :
 from
@@ -1800,7 +1800,7 @@ collect
 <
 Vec
 <
-Field32
+FieldPrio2
 >
 >
 (

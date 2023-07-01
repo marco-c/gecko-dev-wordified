@@ -2246,6 +2246,11 @@ Clause
 "
 :
 [
+            
+"
+subtle
+"
+        
 ]
     
 }
@@ -3967,7 +3972,7 @@ load
 fh
 )
                 
-path
+relative_path
 =
 path
 .
@@ -4038,7 +4043,7 @@ key
 path2
 "
 :
-path
+relative_path
                             
 "
 crate
@@ -4089,7 +4094,7 @@ crates
 key
 ]
 =
-path
+relative_path
         
 for
 package
@@ -4141,12 +4146,10 @@ key
         
 for
 (
-(
 name
 version
 )
 path
-)
 in
 crates
 .
