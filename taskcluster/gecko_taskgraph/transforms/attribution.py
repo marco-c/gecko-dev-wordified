@@ -275,6 +275,37 @@ exe
 "
             
 ]
+            
+job
+[
+"
+attributes
+"
+]
+[
+"
+release_artifacts
+"
+]
+.
+append
+(
+                
+"
+public
+/
+build
+/
+target
+.
+stub
+-
+installer
+.
+exe
+"
+            
+)
         
 yield
 job
