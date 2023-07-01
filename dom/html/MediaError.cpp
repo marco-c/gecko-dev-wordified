@@ -565,7 +565,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+MediaError
 )
 )
 {
