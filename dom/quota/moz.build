@@ -380,6 +380,11 @@ StorageHelpers
 h
 "
 "
+StreamUtils
+.
+h
+"
+"
 UsageInfo
 .
 h
@@ -551,6 +556,11 @@ cpp
 "
 "
 StorageManager
+.
+cpp
+"
+"
+StreamUtils
 .
 cpp
 "
