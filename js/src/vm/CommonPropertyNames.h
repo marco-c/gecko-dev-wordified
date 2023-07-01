@@ -1072,6 +1072,15 @@ currencySign
 \
 MACRO_
 (
+dateAdd
+dateAdd
+"
+dateAdd
+"
+)
+\
+MACRO_
+(
 dateFromFields
 dateFromFields
 "
