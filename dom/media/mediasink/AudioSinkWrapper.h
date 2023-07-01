@@ -588,7 +588,7 @@ Paused
 static
 already_AddRefed
 <
-nsISerialEventTarget
+TaskQueue
 >
 CreateAsyncInitTaskQueue
 (
@@ -944,9 +944,9 @@ AbstractThread
 mOwnerThread
 ;
 const
-nsCOMPtr
+RefPtr
 <
-nsISerialEventTarget
+TaskQueue
 >
 mAsyncInitTaskQueue
 ;
