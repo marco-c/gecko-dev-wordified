@@ -245,6 +245,15 @@ source
 #
 Bug
 1658310
+        
+"
+iterator
+-
+helpers
+"
+#
+Bug
+1568906
     
 ]
 )
@@ -340,11 +349,9 @@ grouping
 :
 "
 !
-Array
+Object
 .
-prototype
-.
-group
+groupBy
 "
 #
 Bug
