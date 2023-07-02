@@ -5490,12 +5490,6 @@ automatically
         
 if
 "
-windows7
-"
-in
-platform
-or
-"
 windows10
 -
 32
