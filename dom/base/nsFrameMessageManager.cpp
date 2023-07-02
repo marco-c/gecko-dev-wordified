@@ -1141,7 +1141,7 @@ aIsSync
 {
 aWriter
 .
-StringProperty
+UniqueStringProperty
 (
 "
 name
@@ -1210,7 +1210,7 @@ MS
 Format
 :
 :
-String
+UniqueString
 MS
 :
 :
