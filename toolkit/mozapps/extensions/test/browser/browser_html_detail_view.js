@@ -329,7 +329,12 @@ if
 (
 row
 .
+getAttribute
+(
+"
 role
+"
+)
 =
 =
 =
@@ -611,7 +616,12 @@ is
 (
 row
 .
+getAttribute
+(
+"
 role
+"
+)
 "
 group
 "
