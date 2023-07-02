@@ -4642,7 +4642,10 @@ of
 the
 resize
 region
-int32_t
+mozilla
+:
+:
+LayoutDeviceIntCoord
 mHorResizeMargin
 ;
 /
@@ -4658,7 +4661,10 @@ of
 the
 resize
 region
-int32_t
+mozilla
+:
+:
+LayoutDeviceIntCoord
 mVertResizeMargin
 ;
 /
@@ -4669,7 +4675,10 @@ the
 caption
 plus
 border
-int32_t
+mozilla
+:
+:
+LayoutDeviceIntCoord
 mCaptionHeight
 ;
 /

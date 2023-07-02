@@ -2931,6 +2931,8 @@ kUnwriteableMarginTopTwips
 margin
 .
 top
+.
+value
 )
 &
 &
@@ -2941,6 +2943,8 @@ kUnwriteableMarginRightTwips
 margin
 .
 right
+.
+value
 )
 &
 &
@@ -2951,6 +2955,8 @@ kUnwriteableMarginBottomTwips
 margin
 .
 bottom
+.
+value
 )
 &
 &
@@ -2961,6 +2967,8 @@ kUnwriteableMarginLeftTwips
 margin
 .
 left
+.
+value
 )
 ;
 if
@@ -3007,6 +3015,8 @@ aPrinterName
 margin
 .
 top
+.
+value
 )
 &
 &
@@ -3020,6 +3030,8 @@ aPrinterName
 margin
 .
 left
+.
+value
 )
 &
 &
@@ -3033,6 +3045,8 @@ aPrinterName
 margin
 .
 bottom
+.
+value
 )
 &
 &
@@ -3046,6 +3060,8 @@ aPrinterName
 margin
 .
 right
+.
+value
 )
 ;
 }
@@ -3167,6 +3183,8 @@ aPrinterName
 margin
 .
 top
+.
+value
 )
 ;
 prefRead
@@ -3181,6 +3199,8 @@ aPrinterName
 margin
 .
 left
+.
+value
 )
 |
 |
@@ -3198,6 +3218,8 @@ aPrinterName
 margin
 .
 bottom
+.
+value
 )
 |
 |
@@ -3215,6 +3237,8 @@ aPrinterName
 margin
 .
 right
+.
+value
 )
 |
 |
@@ -3300,6 +3324,8 @@ aPrinterName
 margin
 .
 top
+.
+value
 )
 ;
 prefRead
@@ -3314,6 +3340,8 @@ aPrinterName
 margin
 .
 left
+.
+value
 )
 |
 |
@@ -3331,6 +3359,8 @@ aPrinterName
 margin
 .
 bottom
+.
+value
 )
 |
 |
@@ -3348,6 +3378,8 @@ aPrinterName
 margin
 .
 right
+.
+value
 )
 |
 |

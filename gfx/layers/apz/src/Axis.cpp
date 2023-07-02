@@ -4512,7 +4512,7 @@ mAsyncPanZoomController
 >
 FuzzyGreater
 (
-aFixedLayerMargins
+fixedLayerMargins
 .
 bottom
 +
