@@ -449,7 +449,6 @@ event
 const
 {
 group
-cx
 }
 =
 this
@@ -472,7 +471,6 @@ showFrameContextMenu
 (
 event
 frame
-cx
 true
 )
 ;
