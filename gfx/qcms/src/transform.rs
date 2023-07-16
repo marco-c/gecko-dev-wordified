@@ -2791,7 +2791,6 @@ crate
 fn
 set_rgb_colorants
 (
-mut
 profile
 :
 &
@@ -10800,7 +10799,6 @@ C
 fn
 qcms_profile_precache_output_transform
 (
-mut
 profile
 :
 &
