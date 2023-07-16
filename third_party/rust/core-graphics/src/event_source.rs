@@ -69,6 +69,11 @@ doc
 hidden
 )
 ]
+pub
+unsafe
+type
+CGEventSource
+{
 type
 CType
 =
@@ -113,14 +118,7 @@ as
 mut
 _
 ;
-pub
-struct
-CGEventSource
-;
-pub
-struct
-CGEventSourceRef
-;
+}
 }
 impl
 CGEventSource
