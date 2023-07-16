@@ -7700,6 +7700,7 @@ scope
 .
 firstMessage
 ;
+}
 switch
 (
 scope
@@ -7747,6 +7748,8 @@ OutOfMemory
 ;
 break
 ;
+/
+/
 case
 dom
 :
@@ -7756,6 +7759,8 @@ GPUErrorFilter
 :
 Internal
 :
+/
+/
 ret
 .
 resultType
@@ -7765,6 +7770,8 @@ PopErrorScopeResultType
 :
 InternalError
 ;
+/
+/
 break
 ;
 case
@@ -7784,7 +7791,6 @@ GPUErrorFilter
 "
 )
 ;
-}
 }
 return
 ret
