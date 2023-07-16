@@ -1282,6 +1282,7 @@ isPrivate
 state
 queryContext
 details
+controller
 )
 =
 >
@@ -1290,10 +1291,6 @@ onEngagementCallCount
 +
 +
 ;
-queryContext
-.
-view
-.
 controller
 .
 removeResult
