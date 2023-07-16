@@ -488,10 +488,7 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
-rtc
-:
-:
-Thread
+TaskQueueBase
 *
 network_thread
 uint32_t
