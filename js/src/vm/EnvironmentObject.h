@@ -2320,7 +2320,7 @@ same
 global
 as
 *
-components
+JSMs
 with
 a
 NonSyntacticVariablesObject
@@ -2395,7 +2395,7 @@ in
 js
 :
 :
-ExecuteInScopeChainAndReturnNewScope
+ExecuteInFrameScriptEnvironment
 .
 *
 *
@@ -2470,7 +2470,7 @@ same
 global
 as
 *
-components
+JSMs
 with
 a
 with
@@ -2544,7 +2544,10 @@ wrapping
 messageManager
 (
 qualified
-names
+'
+var
+'
+s
 )
 *
 |
