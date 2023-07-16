@@ -498,6 +498,7 @@ location
 )
 )
 ;
+}
 /
 /
 Fetch
@@ -517,11 +518,10 @@ dispatch
 (
 fetchScopes
 (
-selectedFrame
+cx
 )
 )
 ;
-}
 /
 /
 Run

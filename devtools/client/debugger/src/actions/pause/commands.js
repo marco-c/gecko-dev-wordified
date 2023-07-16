@@ -387,7 +387,7 @@ be
 cancelled
 )
 const
-selectedFrame
+frame
 =
 getSelectedFrame
 (
@@ -399,7 +399,7 @@ thread
 ;
 if
 (
-selectedFrame
+frame
 )
 {
 serverRequests
@@ -411,7 +411,7 @@ dispatch
 selectLocation
 (
 threadcx
-selectedFrame
+frame
 .
 location
 )
@@ -439,7 +439,7 @@ dispatch
 (
 fetchScopes
 (
-selectedFrame
+threadcx
 )
 )
 )

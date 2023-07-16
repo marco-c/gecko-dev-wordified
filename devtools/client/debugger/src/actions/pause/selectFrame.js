@@ -273,7 +273,6 @@ location
 )
 )
 ;
-await
 dispatch
 (
 evaluateExpressions
@@ -282,12 +281,11 @@ cx
 )
 )
 ;
-await
 dispatch
 (
 fetchScopes
 (
-frame
+cx
 )
 )
 ;
