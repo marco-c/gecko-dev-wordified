@@ -1758,7 +1758,7 @@ of
 padding
 bytes
 .
-uint32_t
+size_t
 packets
 ;
 /
