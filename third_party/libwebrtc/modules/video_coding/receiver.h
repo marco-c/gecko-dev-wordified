@@ -119,7 +119,7 @@ video_coding
 /
 deprecated
 /
-packet
+event_wrapper
 .
 h
 "
@@ -130,7 +130,9 @@ modules
 /
 video_coding
 /
-event_wrapper
+deprecated
+/
+packet
 .
 h
 "

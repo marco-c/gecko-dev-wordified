@@ -169,7 +169,7 @@ video_coding
 /
 deprecated
 /
-jitter_buffer_common
+event_wrapper
 .
 h
 "
@@ -180,7 +180,9 @@ modules
 /
 video_coding
 /
-event_wrapper
+deprecated
+/
+jitter_buffer_common
 .
 h
 "
