@@ -898,7 +898,7 @@ length
 void
 Copy
 (
-byte
+uint8_t
 *
 a
 )
@@ -925,7 +925,7 @@ kInitialBufferSize
 ;
 ZoneVector
 <
-byte
+uint8_t
 >
 buffer_
 ;

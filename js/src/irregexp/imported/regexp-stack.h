@@ -674,7 +674,7 @@ kStackLimitSlack
 *
 kSystemPointerSize
 ;
-byte
+uint8_t
 static_stack_
 [
 kStaticStackSize
@@ -766,13 +766,13 @@ stack_pointer_
 <
 =
 memory_top_
-byte
+uint8_t
 *
 memory_
 =
 nullptr
 ;
-byte
+uint8_t
 *
 memory_top_
 =
@@ -783,7 +783,7 @@ memory_size_
 =
 0
 ;
-byte
+uint8_t
 *
 stack_pointer_
 =

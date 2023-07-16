@@ -901,7 +901,7 @@ bool
 CheckArguments
 (
 const
-byte
+uint8_t
 *
 bytecode
 int
@@ -1422,7 +1422,7 @@ bool
 OptimizeBytecode
 (
 const
-byte
+uint8_t
 *
 bytecode
 int
@@ -1456,7 +1456,7 @@ memory
 void
 CopyOptimizedBytecode
 (
-byte
+uint8_t
 *
 to_address
 )
@@ -1536,7 +1536,7 @@ int
 TryOptimizeSequence
 (
 const
-byte
+uint8_t
 *
 bytecode
 int
@@ -1587,7 +1587,7 @@ EmitOptimization
 int
 start_pc
 const
-byte
+uint8_t
 *
 bytecode
 const
@@ -1791,7 +1791,7 @@ void
 CopyRangeToOutput
 (
 const
-byte
+uint8_t
 *
 orig_bytecode
 int
@@ -1803,7 +1803,7 @@ length
 void
 SetRange
 (
-byte
+uint8_t
 value
 int
 count
@@ -1815,7 +1815,7 @@ EmitArgument
 int
 start_pc
 const
-byte
+uint8_t
 *
 bytecode
 BytecodeArgumentMapping
@@ -1837,7 +1837,7 @@ const
 ;
 ZoneVector
 <
-byte
+uint8_t
 >
 optimized_bytecode_buffer_
 ;
@@ -2103,7 +2103,7 @@ T
 GetValue
 (
 const
-byte
+uint8_t
 *
 buffer
 int
@@ -2149,7 +2149,7 @@ int32_t
 GetArgumentValue
 (
 const
-byte
+uint8_t
 *
 bytecode
 int
@@ -2169,7 +2169,7 @@ case
 return
 GetValue
 <
-byte
+uint8_t
 >
 (
 bytecode
@@ -2806,7 +2806,7 @@ BytecodeSequenceNode
 CheckArguments
 (
 const
-byte
+uint8_t
 *
 bytecode
 int
@@ -4593,7 +4593,7 @@ RegExpBytecodePeephole
 OptimizeBytecode
 (
 const
-byte
+uint8_t
 *
 bytecode
 int
@@ -4696,7 +4696,7 @@ RegExpBytecodePeephole
 :
 CopyOptimizedBytecode
 (
-byte
+uint8_t
 *
 to_address
 )
@@ -4784,7 +4784,7 @@ RegExpBytecodePeephole
 TryOptimizeSequence
 (
 const
-byte
+uint8_t
 *
 bytecode
 int
@@ -4937,7 +4937,7 @@ EmitOptimization
 int
 start_pc
 const
-byte
+uint8_t
 *
 bytecode
 const
@@ -6452,7 +6452,7 @@ one
 of
 them
 .
-byte
+uint8_t
 jump_bc
 =
 optimized_bytecode_buffer_
@@ -6555,13 +6555,13 @@ end
 )
 )
 ;
-byte
+uint8_t
 *
 value_byte_iter
 =
 reinterpret_cast
 <
-byte
+uint8_t
 *
 >
 (
@@ -6605,13 +6605,13 @@ T
 value
 )
 {
-byte
+uint8_t
 *
 value_byte_iter
 =
 reinterpret_cast
 <
-byte
+uint8_t
 *
 >
 (
@@ -6619,7 +6619,7 @@ byte
 value
 )
 ;
-byte
+uint8_t
 *
 value_byte_iter_end
 =
@@ -6658,7 +6658,7 @@ RegExpBytecodePeephole
 CopyRangeToOutput
 (
 const
-byte
+uint8_t
 *
 orig_bytecode
 int
@@ -6713,7 +6713,7 @@ RegExpBytecodePeephole
 :
 SetRange
 (
-byte
+uint8_t
 value
 int
 count
@@ -6762,7 +6762,7 @@ EmitArgument
 int
 start_pc
 const
-byte
+uint8_t
 *
 bytecode
 BytecodeArgumentMapping
@@ -6802,7 +6802,7 @@ EmitValue
 (
 GetValue
 <
-byte
+uint8_t
 >
 (
 bytecode
@@ -7255,7 +7255,7 @@ String
 >
 source
 const
-byte
+uint8_t
 *
 bytecode
 int

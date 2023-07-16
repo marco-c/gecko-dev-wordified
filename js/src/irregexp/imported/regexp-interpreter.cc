@@ -493,11 +493,11 @@ void
 MaybeTraceInterpreter
 (
 const
-byte
+uint8_t
 *
 code_base
 const
-byte
+uint8_t
 *
 pc
 int
@@ -625,7 +625,7 @@ int32_t
 Load32Aligned
 (
 const
-byte
+uint8_t
 *
 pc
 )
@@ -672,7 +672,7 @@ uint32_t
 Load16Aligned
 (
 const
-byte
+uint8_t
 *
 pc
 )
@@ -708,7 +708,7 @@ int32_t
 Load16AlignedSigned
 (
 const
-byte
+uint8_t
 *
 pc
 )
@@ -1604,12 +1604,12 @@ ByteArray
 *
 code_array_out
 const
-byte
+uint8_t
 *
 *
 code_base_out
 const
-byte
+uint8_t
 *
 *
 pc_out
@@ -1759,7 +1759,7 @@ String
 *
 subject_string_out
 const
-byte
+uint8_t
 *
 *
 code_base_out
@@ -1774,7 +1774,7 @@ Char
 *
 subject_string_vector_out
 const
-byte
+uint8_t
 *
 *
 pc_out
@@ -2107,7 +2107,7 @@ const
 uint32_t
 current_char
 const
-byte
+uint8_t
 *
 const
 table
@@ -3103,7 +3103,7 @@ endif
 /
 V8_USE_COMPUTED_GOTO
 const
-byte
+uint8_t
 *
 pc
 =
@@ -3114,7 +3114,7 @@ GetDataStartAddress
 )
 ;
 const
-byte
+uint8_t
 *
 code_base
 =
@@ -3171,7 +3171,7 @@ true
 )
 {
 const
-byte
+uint8_t
 *
 next_pc
 =
@@ -6434,7 +6434,7 @@ pc
 )
 ;
 const
-byte
+uint8_t
 *
 table
 =
@@ -6545,7 +6545,7 @@ pc
 )
 ;
 const
-byte
+uint8_t
 *
 table
 =
