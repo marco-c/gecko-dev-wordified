@@ -753,13 +753,6 @@ numCSRCs
 =
 0
 ;
-rtp_header
--
->
-payload_type_frequency
-=
-kSampleRateHz
-;
 }
 void
 Forward
