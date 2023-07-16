@@ -14003,7 +14003,7 @@ Attached
 fallback
 -
 >
-setHasFoldedStub
+setMayHaveFoldedStub
 (
 )
 ;
@@ -15508,7 +15508,7 @@ if
 stub
 -
 >
-hasFoldedStub
+mayHaveFoldedStub
 (
 )
 &
