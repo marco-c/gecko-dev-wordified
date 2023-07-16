@@ -1106,7 +1106,7 @@ Safari
 let
 panelItem
 =
-shadow
+wizard
 .
 querySelector
 (
@@ -2156,7 +2156,7 @@ Safari
 let
 panelItem
 =
-shadow
+wizard
 .
 querySelector
 (
