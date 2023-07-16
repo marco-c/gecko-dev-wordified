@@ -2102,7 +2102,7 @@ BrowserTestUtils
 openNewForegroundTab
 (
 gBrowser
-BLANK_PAGE
+TRANSLATIONS_TESTER_EN
 true
 /
 /
