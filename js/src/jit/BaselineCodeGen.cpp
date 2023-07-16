@@ -41625,10 +41625,10 @@ takeUnchecked
 BaselineSecondScratchReg
 )
 ;
-masm
-.
-setSecondScratchReg
+AutoNonDefaultSecondScratchRegister
+andssr
 (
+masm
 BaselineSecondScratchReg
 )
 ;
