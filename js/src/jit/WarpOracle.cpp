@@ -6839,6 +6839,19 @@ icEntryForStub
 fallbackStub
 )
 ;
+if
+(
+entry
+-
+>
+firstStub
+(
+)
+=
+=
+stub
+)
+{
 fallbackStub
 -
 >
@@ -6861,6 +6874,7 @@ nullptr
 stub
 )
 ;
+}
 targetScript
 -
 >
