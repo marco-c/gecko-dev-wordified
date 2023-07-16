@@ -12997,6 +12997,13 @@ contents
 get
 (
 )
+JS
+:
+:
+NewArrayBufferOutOfMemory
+:
+:
+CallerMustFreeMemory
 )
 ;
 if
@@ -13059,6 +13066,7 @@ nbytes
 void
 *
 data
+NewArrayBufferOutOfMemory
 )
 {
 AssertHeapIsIdle
