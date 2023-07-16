@@ -300,6 +300,14 @@ uint32_t
 stubOffset
 )
 ;
+Shape
+*
+getWeakShapeField
+(
+uint32_t
+stubOffset
+)
+;
 GetterSetter
 *
 getGetterSetterField

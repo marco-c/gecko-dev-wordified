@@ -3134,6 +3134,7 @@ jitZone
 traceWeak
 (
 trc
+zone
 )
 ;
 }
