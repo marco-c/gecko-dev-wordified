@@ -1456,11 +1456,8 @@ cacheHeader
 {
 if
 (
+!
 cacheHeader
-=
-=
-=
-undefined
 )
 {
 lazy
@@ -1476,7 +1473,7 @@ cache
 control
 header
 is
-undefined
+empty
 "
 )
 ;
