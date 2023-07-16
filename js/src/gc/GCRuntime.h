@@ -5245,6 +5245,11 @@ sweepUniqueIds
 )
 ;
 void
+sweepObjectsWithWeakPointers
+(
+)
+;
+void
 sweepDebuggerOnMainThread
 (
 JS
