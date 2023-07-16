@@ -306,6 +306,12 @@ const
 ;
 protected
 :
+void
+AssertIfInvalid
+(
+)
+const
+;
 /
 /
 Whole
