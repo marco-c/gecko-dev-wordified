@@ -1130,7 +1130,7 @@ UniquePtr
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 >
 aTrials
 )
@@ -3201,7 +3201,7 @@ UniquePtr
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 >
 trials
 =
