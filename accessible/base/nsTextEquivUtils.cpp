@@ -120,13 +120,6 @@ h
 include
 "
 LocalAccessible
-.
-h
-"
-#
-include
-"
-LocalAccessible
 -
 inl
 .
@@ -165,13 +158,6 @@ mozilla
 dom
 /
 Text
-.
-h
-"
-#
-include
-"
-nsIContentInlines
 .
 h
 "

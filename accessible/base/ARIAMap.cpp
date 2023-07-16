@@ -161,13 +161,6 @@ h
 #
 include
 "
-nsGenericHTMLElement
-.
-h
-"
-#
-include
-"
 nsWhitespaceTokenizer
 .
 h

@@ -124,13 +124,6 @@ TextRange
 .
 h
 "
-#
-include
-"
-HyperTextAccessible
-.
-h
-"
 namespace
 mozilla
 {
