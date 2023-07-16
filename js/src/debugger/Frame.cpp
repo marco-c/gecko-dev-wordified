@@ -386,19 +386,6 @@ include
 "
 frontend
 /
-BytecodeCompilation
-.
-h
-"
-/
-/
-for
-CompileEvalScript
-#
-include
-"
-frontend
-/
 BytecodeCompiler
 .
 h
@@ -407,6 +394,7 @@ h
 /
 for
 CompileGlobalScript
+CompileEvalScript
 #
 include
 "

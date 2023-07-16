@@ -172,10 +172,13 @@ include
 "
 frontend
 /
-BytecodeCompilation
+BytecodeCompiler
 .
 h
 "
+/
+/
+CompileEvalScript
 #
 include
 "
