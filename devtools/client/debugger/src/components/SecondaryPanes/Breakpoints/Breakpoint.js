@@ -509,6 +509,7 @@ event
 {
 const
 {
+cx
 removeBreakpoint
 breakpoint
 }
@@ -525,6 +526,7 @@ stopPropagation
 ;
 removeBreakpoint
 (
+cx
 breakpoint
 )
 ;
@@ -539,6 +541,7 @@ handleBreakpointCheckbox
 {
 const
 {
+cx
 breakpoint
 enableBreakpoint
 disableBreakpoint
@@ -557,6 +560,7 @@ disabled
 {
 enableBreakpoint
 (
+cx
 breakpoint
 )
 ;
@@ -565,6 +569,7 @@ else
 {
 disableBreakpoint
 (
+cx
 breakpoint
 )
 ;

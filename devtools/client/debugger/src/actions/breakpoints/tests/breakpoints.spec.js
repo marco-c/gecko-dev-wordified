@@ -792,6 +792,7 @@ actions
 .
 disableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -1330,6 +1331,7 @@ actions
 .
 removeBreakpoint
 (
+cx
 bp
 )
 )
@@ -1627,6 +1629,7 @@ actions
 .
 disableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -1836,6 +1839,7 @@ actions
 .
 disableBreakpoint
 (
+cx
 bp
 )
 )
@@ -1891,6 +1895,7 @@ actions
 .
 enableBreakpoint
 (
+cx
 bp
 )
 )
@@ -2170,6 +2175,7 @@ actions
 .
 toggleAllBreakpoints
 (
+cx
 true
 )
 )
@@ -2237,6 +2243,7 @@ actions
 .
 toggleAllBreakpoints
 (
+cx
 false
 )
 )
@@ -2639,6 +2646,7 @@ actions
 .
 toggleDisabledBreakpoint
 (
+cx
 bp
 )
 )
@@ -3064,6 +3072,7 @@ actions
 .
 disableBreakpoint
 (
+cx
 bp
 )
 )
@@ -3356,6 +3365,7 @@ actions
 .
 removeBreakpoint
 (
+cx
 breakpoint
 )
 )

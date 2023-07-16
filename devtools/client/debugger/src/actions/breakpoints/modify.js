@@ -228,7 +228,7 @@ mapScopes
 ;
 import
 {
-validateBreakpoint
+validateNavigateContext
 }
 from
 "
@@ -520,6 +520,7 @@ function
 clientSetBreakpoint
 (
 client
+cx
 {
 getState
 dispatch
@@ -587,6 +588,7 @@ dispatch
 (
 updateBreakpointSourceMapping
 (
+cx
 breakpoint
 )
 )
@@ -634,6 +636,7 @@ export
 function
 enableBreakpoint
 (
+cx
 initialBreakpoint
 )
 {
@@ -750,6 +753,7 @@ type
 "
 SET_BREAKPOINT
 "
+cx
 breakpoint
 :
 createBreakpoint
@@ -771,6 +775,7 @@ PROMISE
 clientSetBreakpoint
 (
 client
+cx
 thunkArgs
 breakpoint
 )
@@ -827,7 +832,12 @@ dispatch
 (
 setBreakpointPositions
 (
+{
+cx
+location
+:
 initialLocation
+}
 )
 )
 ;
@@ -1017,6 +1027,7 @@ type
 "
 SET_BREAKPOINT
 "
+cx
 breakpoint
 /
 /
@@ -1062,6 +1073,7 @@ generatedLocation
 clientSetBreakpoint
 (
 client
+cx
 thunkArgs
 breakpoint
 )
@@ -1093,6 +1105,7 @@ export
 function
 removeBreakpoint
 (
+cx
 initialBreakpoint
 )
 {
@@ -1154,6 +1167,7 @@ type
 "
 REMOVE_BREAKPOINT
 "
+cx
 breakpoint
 /
 /
@@ -1241,6 +1255,7 @@ export
 function
 removeBreakpointAtGeneratedLocation
 (
+cx
 target
 )
 {
@@ -1340,6 +1355,7 @@ type
 "
 REMOVE_BREAKPOINT
 "
+cx
 breakpoint
 [
 PROMISE
@@ -1417,6 +1433,7 @@ type
 "
 REMOVE_PENDING_BREAKPOINT
 "
+cx
 pendingBreakpoint
 }
 )
@@ -1451,6 +1468,7 @@ export
 function
 disableBreakpoint
 (
+cx
 initialBreakpoint
 )
 {
@@ -1510,6 +1528,7 @@ type
 "
 SET_BREAKPOINT
 "
+cx
 breakpoint
 :
 createBreakpoint
@@ -1695,6 +1714,7 @@ type
 "
 SET_BREAKPOINT
 "
+cx
 breakpoint
 [
 PROMISE
@@ -1703,6 +1723,7 @@ PROMISE
 clientSetBreakpoint
 (
 client
+cx
 thunkArgs
 breakpoint
 )
@@ -1788,6 +1809,7 @@ expression
 function
 updateBreakpointSourceMapping
 (
+cx
 breakpoint
 )
 {
@@ -1890,44 +1912,12 @@ logValue
 )
 ;
 }
-/
-/
-As
-we
-waited
-for
-lots
-of
-asynchronous
-operations
-/
-/
-verify
-that
-the
-breakpoint
-is
-still
-valid
-before
-/
-/
-trying
-to
-set
-/
-update
-it
-on
-the
-server
-.
-validateBreakpoint
+validateNavigateContext
 (
 getState
 (
 )
-breakpoint
+cx
 )
 ;
 return

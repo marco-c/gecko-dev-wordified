@@ -329,6 +329,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 hiddenBreakpoint
 )
 )
@@ -497,6 +498,7 @@ location
 )
 )
 ;
+}
 /
 /
 Fetch
@@ -516,7 +518,7 @@ dispatch
 (
 fetchScopes
 (
-selectedFrame
+cx
 )
 )
 ;
@@ -577,11 +579,10 @@ dispatch
 (
 evaluateExpressions
 (
-selectedFrame
+cx
 )
 )
 ;
-}
 }
 }
 ;

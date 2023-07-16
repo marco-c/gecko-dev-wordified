@@ -131,6 +131,7 @@ getSelectedSource
 getBreakpointAtLocation
 getBreakpointsForSource
 getBreakpointsAtLine
+getContext
 }
 from
 "
@@ -313,6 +314,7 @@ export
 function
 disableBreakpointsInSource
 (
+cx
 source
 )
 {
@@ -361,6 +363,7 @@ dispatch
 (
 disableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -394,6 +397,7 @@ export
 function
 enableBreakpointsInSource
 (
+cx
 source
 )
 {
@@ -441,6 +445,7 @@ dispatch
 (
 enableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -471,6 +476,7 @@ export
 function
 toggleAllBreakpoints
 (
+cx
 shouldDisableBreakpoints
 )
 {
@@ -513,6 +519,7 @@ dispatch
 (
 disableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -524,6 +531,7 @@ dispatch
 (
 enableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -553,6 +561,7 @@ export
 function
 toggleBreakpoints
 (
+cx
 shouldDisableBreakpoints
 breakpoints
 )
@@ -583,6 +592,7 @@ dispatch
 (
 disableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -591,6 +601,7 @@ dispatch
 (
 enableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -611,6 +622,7 @@ export
 function
 toggleBreakpointsAtLine
 (
+cx
 shouldDisableBreakpoints
 line
 )
@@ -642,6 +654,7 @@ dispatch
 (
 toggleBreakpoints
 (
+cx
 shouldDisableBreakpoints
 breakpoints
 )
@@ -685,6 +698,16 @@ getState
 >
 {
 const
+cx
+=
+getContext
+(
+getState
+(
+)
+)
+;
+const
 breakpointList
 =
 getBreakpointsList
@@ -710,6 +733,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 bp
 )
 )
@@ -750,6 +774,7 @@ export
 function
 removeBreakpoints
 (
+cx
 breakpoints
 )
 {
@@ -779,6 +804,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 bp
 )
 )
@@ -812,6 +838,7 @@ export
 function
 removeBreakpointsInSource
 (
+cx
 source
 )
 {
@@ -852,6 +879,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -1130,6 +1158,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 bp
 )
 )
@@ -1232,6 +1261,7 @@ dispatch
 (
 removeBreakpoint
 (
+cx
 bp
 )
 )
@@ -1360,6 +1390,7 @@ export
 function
 removeBreakpointsAtLine
 (
+cx
 sourceId
 line
 )
@@ -1391,6 +1422,7 @@ dispatch
 (
 removeBreakpoints
 (
+cx
 breakpointsAtLine
 )
 )
@@ -1402,6 +1434,7 @@ export
 function
 disableBreakpointsAtLine
 (
+cx
 sourceId
 line
 )
@@ -1433,6 +1466,7 @@ dispatch
 (
 toggleBreakpoints
 (
+cx
 true
 breakpointsAtLine
 )
@@ -1445,6 +1479,7 @@ export
 function
 enableBreakpointsAtLine
 (
+cx
 sourceId
 line
 )
@@ -1476,6 +1511,7 @@ dispatch
 (
 toggleBreakpoints
 (
+cx
 false
 breakpointsAtLine
 )
@@ -1488,6 +1524,7 @@ export
 function
 toggleDisabledBreakpoint
 (
+cx
 breakpoint
 )
 {
@@ -1514,6 +1551,7 @@ dispatch
 (
 disableBreakpoint
 (
+cx
 breakpoint
 )
 )
@@ -1524,6 +1562,7 @@ dispatch
 (
 enableBreakpoint
 (
+cx
 breakpoint
 )
 )
