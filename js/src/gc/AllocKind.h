@@ -1141,7 +1141,7 @@ Tenured
 1
 }
 ;
-inline
+constexpr
 bool
 IsAllocKind
 (
@@ -1168,7 +1168,7 @@ AllocKind
 LIMIT
 ;
 }
-inline
+constexpr
 bool
 IsValidAllocKind
 (
@@ -1204,7 +1204,7 @@ AllocKind
 kind
 )
 ;
-inline
+constexpr
 bool
 IsObjectAllocKind
 (
@@ -1231,7 +1231,7 @@ AllocKind
 OBJECT_LAST
 ;
 }
-inline
+constexpr
 bool
 IsShapeAllocKind
 (
@@ -1272,7 +1272,7 @@ all
 alloc
 kinds
 .
-inline
+constexpr
 auto
 AllAllocKinds
 (
@@ -1319,7 +1319,7 @@ object
 alloc
 kinds
 .
-inline
+constexpr
 auto
 ObjectAllocKinds
 (
@@ -1373,7 +1373,7 @@ limit
 |
 exclusive
 .
-inline
+constexpr
 auto
 SomeAllocKinds
 (
@@ -1843,8 +1843,7 @@ SHAPE
 ;
 }
 ;
-static
-inline
+constexpr
 JS
 :
 :
@@ -1855,8 +1854,7 @@ AllocKind
 kind
 )
 {
-static
-const
+constexpr
 JS
 :
 :
@@ -1932,8 +1930,7 @@ kind
 ]
 ;
 }
-static
-inline
+constexpr
 bool
 IsNurseryAllocable
 (
@@ -1949,8 +1946,7 @@ kind
 )
 )
 ;
-static
-const
+constexpr
 bool
 map
 [
@@ -2008,8 +2004,7 @@ kind
 ]
 ;
 }
-static
-inline
+constexpr
 bool
 IsBackgroundFinalized
 (
@@ -2025,8 +2020,7 @@ kind
 )
 )
 ;
-static
-const
+constexpr
 bool
 map
 [
@@ -2084,8 +2078,7 @@ kind
 ]
 ;
 }
-static
-inline
+constexpr
 bool
 IsForegroundFinalized
 (
@@ -2101,8 +2094,7 @@ kind
 )
 ;
 }
-static
-inline
+constexpr
 bool
 IsCompactingKind
 (
@@ -2118,8 +2110,7 @@ kind
 )
 )
 ;
-static
-const
+constexpr
 bool
 map
 [
@@ -2177,8 +2168,7 @@ kind
 ]
 ;
 }
-static
-inline
+constexpr
 bool
 IsMovableKind
 (
