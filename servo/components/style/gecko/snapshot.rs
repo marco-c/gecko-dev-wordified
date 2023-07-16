@@ -746,13 +746,10 @@ snapshot_helpers
 :
 attr_matches
 (
+&
 self
 .
 mAttrs
-.
-iter
-(
-)
 ns
 local_name
 operation
