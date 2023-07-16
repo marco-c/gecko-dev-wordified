@@ -521,7 +521,6 @@ selectedFrame
 )
 )
 ;
-}
 /
 /
 Run
@@ -579,10 +578,11 @@ dispatch
 (
 evaluateExpressions
 (
-cx
+selectedFrame
 )
 )
 ;
+}
 }
 }
 ;
