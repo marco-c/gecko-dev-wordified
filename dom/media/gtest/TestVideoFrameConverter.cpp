@@ -305,6 +305,12 @@ using
 VideoFrameConverter
 :
 :
+RegisterListener
+;
+using
+VideoFrameConverter
+:
+:
 QueueForProcessing
 ;
 }
@@ -383,6 +389,13 @@ VideoFrameConvertedEvent
 )
 )
 {
+mConverter
+-
+>
+RegisterListener
+(
+)
+;
 }
 void
 TearDown

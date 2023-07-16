@@ -5315,10 +5315,10 @@ else
 Video
 mConverter
 =
-MakeAndAddRef
-<
 VideoFrameConverter
->
+:
+:
+Create
 (
 GetTimestampMaker
 (
