@@ -2638,6 +2638,11 @@ ReadyToSendData
 (
 )
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 return
 ready_to_send_data_
 ;
@@ -3804,6 +3809,11 @@ OnClosed
 (
 )
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 RTC_DLOG
 (
 LS_INFO
