@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-GPU_OutOfMemoryError_H_
+GPU_InternalError_H_
 #
 define
-GPU_OutOfMemoryError_H_
+GPU_InternalError_H_
 #
 include
 "
@@ -127,7 +127,7 @@ namespace
 webgpu
 {
 class
-OutOfMemoryError
+InternalError
 final
 :
 public
@@ -137,9 +137,9 @@ public
 :
 GPU_DECL_JS_WRAP
 (
-OutOfMemoryError
+InternalError
 )
-OutOfMemoryError
+InternalError
 (
 nsIGlobalObject
 *
@@ -158,7 +158,7 @@ aMessage
 )
 {
 }
-OutOfMemoryError
+InternalError
 (
 nsIGlobalObject
 *
@@ -180,7 +180,7 @@ aMessage
 private
 :
 ~
-OutOfMemoryError
+InternalError
 (
 )
 override
@@ -192,7 +192,7 @@ public
 static
 already_AddRefed
 <
-OutOfMemoryError
+InternalError
 >
 Constructor
 (
@@ -228,4 +228,4 @@ mozilla
 endif
 /
 /
-GPU_OutOfMemoryError_H_
+GPU_InternalError_H_

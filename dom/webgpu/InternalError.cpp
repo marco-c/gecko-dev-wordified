@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-ValidationError
+InternalError
 .
 h
 "
@@ -119,13 +119,13 @@ webgpu
 {
 GPU_IMPL_JS_WRAP
 (
-ValidationError
+InternalError
 )
 already_AddRefed
 <
-ValidationError
+InternalError
 >
-ValidationError
+InternalError
 :
 :
 Constructor
@@ -169,7 +169,7 @@ global
 return
 MakeAndAddRef
 <
-ValidationError
+InternalError
 >
 (
 global
