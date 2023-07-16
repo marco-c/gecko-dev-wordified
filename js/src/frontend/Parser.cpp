@@ -53107,6 +53107,10 @@ Nothing
 ;
 if
 (
+!
+isStatic
+&
+&
 handler_
 .
 isPrivateName
