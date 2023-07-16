@@ -1271,8 +1271,6 @@ GetTextEditorValue
 nsAString
 &
 aValue
-bool
-aIgnoreWrap
 )
 const
 override

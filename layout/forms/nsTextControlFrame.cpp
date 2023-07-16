@@ -2282,7 +2282,6 @@ textControlElement
 GetTextEditorValue
 (
 val
-true
 )
 ;
 position
@@ -7808,7 +7807,6 @@ textControlElement
 GetTextEditorValue
 (
 value
-true
 )
 ;
 }
