@@ -127,7 +127,6 @@ export
 function
 setOverrideSource
 (
-cx
 source
 path
 )
@@ -180,7 +179,6 @@ type
 "
 SET_OVERRIDE
 "
-cx
 url
 path
 }
@@ -193,7 +191,6 @@ export
 function
 removeOverrideSource
 (
-cx
 source
 )
 {
@@ -244,7 +241,6 @@ type
 "
 REMOVE_OVERRIDE
 "
-cx
 url
 }
 )
