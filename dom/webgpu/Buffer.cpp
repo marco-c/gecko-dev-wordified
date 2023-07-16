@@ -601,7 +601,7 @@ isNothing
 {
 aRv
 .
-ThrowAbortError
+ThrowRangeError
 (
 nsPrintfCString
 (
