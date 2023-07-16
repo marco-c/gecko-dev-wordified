@@ -4973,6 +4973,13 @@ if
 loadExtraCustomElements
 )
 {
+/
+/
+Lazily
+load
+the
+following
+elements
 for
 (
 let
@@ -5529,6 +5536,13 @@ error
 ;
 }
 ;
+/
+/
+Immediately
+load
+the
+following
+elements
 for
 (
 let
