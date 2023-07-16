@@ -3493,9 +3493,10 @@ frame
 colorSpace
 .
 primaries
+!
 =
 =
-null
+undefined
 '
 color
 primaries
@@ -3509,9 +3510,10 @@ frame
 colorSpace
 .
 transfer
+!
 =
 =
-null
+undefined
 '
 color
 transfer
@@ -3525,9 +3527,10 @@ frame
 colorSpace
 .
 matrix
+!
 =
 =
-null
+undefined
 '
 color
 matrix
@@ -3541,9 +3544,10 @@ frame
 colorSpace
 .
 fullRange
+!
 =
 =
-null
+undefined
 '
 color
 range
@@ -3554,7 +3558,8 @@ range
 '
 Test
 planar
-constructed
+can
+construct
 I420
 VideoFrame
 with
