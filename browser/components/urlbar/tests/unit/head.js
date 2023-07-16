@@ -5193,8 +5193,6 @@ trending
 ;
 result
 .
-payload
-.
 isRichSuggestion
 =
 isRichSuggestion

@@ -539,8 +539,6 @@ equal
 (
 result
 .
-payload
-.
 isRichSuggestion
 featureEnabled
 )
