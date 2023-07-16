@@ -23977,6 +23977,11 @@ scrollPos
 .
 x
 =
+static_cast
+<
+int32_t
+>
+(
 mozilla
 :
 :
@@ -23988,6 +23993,7 @@ mLeft
 .
 Value
 (
+)
 )
 )
 ;
@@ -24007,6 +24013,11 @@ scrollPos
 .
 y
 =
+static_cast
+<
+int32_t
+>
+(
 mozilla
 :
 :
@@ -24018,6 +24029,7 @@ mTop
 .
 Value
 (
+)
 )
 )
 ;
@@ -24463,6 +24475,11 @@ scrollDelta
 .
 x
 =
+static_cast
+<
+int32_t
+>
+(
 mozilla
 :
 :
@@ -24474,6 +24491,7 @@ mLeft
 .
 Value
 (
+)
 )
 )
 ;
@@ -24493,6 +24511,11 @@ scrollDelta
 .
 y
 =
+static_cast
+<
+int32_t
+>
+(
 mozilla
 :
 :
@@ -24504,6 +24527,7 @@ mTop
 .
 Value
 (
+)
 )
 )
 ;
