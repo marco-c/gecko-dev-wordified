@@ -276,7 +276,6 @@ getSource
 getFirstSourceActorForGeneratedSource
 getSourceByURL
 getSelectedLocation
-getThreadContext
 }
 from
 "
@@ -2154,16 +2153,6 @@ newPrettySource
 )
 )
 ;
-const
-threadcx
-=
-getThreadContext
-(
-getState
-(
-)
-)
-;
 /
 /
 Update
@@ -2187,7 +2176,9 @@ dispatch
 (
 mapFrames
 (
-threadcx
+sourceActor
+.
+thread
 )
 )
 ;

@@ -442,7 +442,7 @@ dispatch
 (
 fetchFrames
 (
-threadcx
+thread
 )
 )
 )

@@ -394,7 +394,7 @@ dispatch
 (
 fetchFrames
 (
-cx
+thread
 )
 )
 ;
@@ -444,7 +444,7 @@ dispatch
 (
 mapFrames
 (
-cx
+thread
 )
 )
 ;
