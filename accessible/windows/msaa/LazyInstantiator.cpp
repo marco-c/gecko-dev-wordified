@@ -3273,7 +3273,7 @@ here
 return
 :
 :
-AccessibleObjectFromWindow
+CreateStdAccessibleObject
 (
 mHwnd
 OBJID_WINDOW
