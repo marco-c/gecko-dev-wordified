@@ -216,7 +216,7 @@ this
 Thread
 interface
 void
-BlockingCall
+BlockingCallImpl
 (
 rtc
 :
@@ -228,6 +228,10 @@ void
 )
 >
 functor
+const
+Location
+&
+location
 )
 override
 ;
