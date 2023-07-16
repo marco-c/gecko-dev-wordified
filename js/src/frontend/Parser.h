@@ -8219,10 +8219,12 @@ classInitializedMembers
 FunctionNodeType
 synthesizeAccessorBody
 (
+TaggedParserAtomIndex
+funNameAtom
 TokenPos
 propNamePos
 TaggedParserAtomIndex
-atom
+propNameAtom
 FunctionSyntaxKind
 syntaxKind
 )

@@ -3470,17 +3470,6 @@ needsHomeObject
 {
 MOZ_ASSERT
 (
-propertyState_
-=
-=
-PropertyState
-:
-:
-Start
-)
-;
-MOZ_ASSERT
-(
 classState_
 =
 =

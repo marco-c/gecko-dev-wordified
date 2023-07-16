@@ -4903,6 +4903,13 @@ ListNode
 obj
 FieldPlacement
 placement
+#
+ifdef
+ENABLE_DECORATORS
+bool
+hasHeritage
+#
+endif
 )
 ;
 const
