@@ -279,18 +279,7 @@ total_buffered_amount_low_threshold
 :
 log_prefix_
 (
-std
-:
-:
-string
-(
 log_prefix
-)
-+
-"
-fcfs
-:
-"
 )
 callbacks_
 (
@@ -307,6 +296,7 @@ default_priority
 )
 scheduler_
 (
+log_prefix_
 mtu
 )
 total_buffered_amount_

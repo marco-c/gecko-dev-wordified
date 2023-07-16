@@ -1904,10 +1904,10 @@ max_size
 )
 ;
 const
-std
+absl
 :
 :
-string
+string_view
 log_prefix_
 ;
 DcSctpSocketCallbacks

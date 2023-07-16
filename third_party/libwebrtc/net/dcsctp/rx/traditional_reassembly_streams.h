@@ -740,10 +740,10 @@ next_ssn_
 }
 ;
 const
-std
+absl
 :
 :
-string
+string_view
 log_prefix_
 ;
 /
