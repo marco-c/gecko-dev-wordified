@@ -705,7 +705,7 @@ set_color
 ColorType
 :
 :
-Rgba
+RGBA
 )
 ;
 encoder

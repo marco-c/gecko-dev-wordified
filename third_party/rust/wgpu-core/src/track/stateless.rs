@@ -44,10 +44,7 @@ crate
 :
 :
 {
-hal_api
-:
-:
-HalApi
+hub
 id
 :
 :
@@ -55,8 +52,6 @@ id
 TypedId
 Valid
 }
-resource
-storage
 track
 :
 :
@@ -113,7 +108,7 @@ impl
 <
 T
 :
-resource
+hub
 :
 :
 Resource
@@ -315,7 +310,7 @@ storage
 &
 '
 a
-storage
+hub
 :
 :
 Storage
@@ -404,6 +399,9 @@ StatelessTracker
 <
 A
 :
+hub
+:
+:
 HalApi
 T
 Id
@@ -431,10 +429,13 @@ impl
 <
 A
 :
+hub
+:
+:
 HalApi
 T
 :
-resource
+hub
 :
 :
 Resource
@@ -842,7 +843,7 @@ storage
 &
 '
 a
-storage
+hub
 :
 :
 Storage
