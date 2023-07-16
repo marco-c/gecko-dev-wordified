@@ -111,6 +111,15 @@ MIR
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmFeatures
+.
+h
+"
 using
 namespace
 js

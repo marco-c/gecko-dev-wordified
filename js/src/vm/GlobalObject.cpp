@@ -703,6 +703,15 @@ include
 "
 wasm
 /
+WasmFeatures
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmJS
 .
 h

@@ -181,7 +181,7 @@ include
 "
 wasm
 /
-WasmJS
+WasmFeatures
 .
 h
 "

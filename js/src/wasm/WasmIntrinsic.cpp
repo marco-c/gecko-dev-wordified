@@ -209,6 +209,15 @@ include
 "
 wasm
 /
+WasmFeatures
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmGenerator
 .
 h

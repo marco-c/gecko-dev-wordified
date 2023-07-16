@@ -264,6 +264,15 @@ include
 "
 wasm
 /
+WasmFeatures
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmGenerator
 .
 h
@@ -740,8 +749,6 @@ cx
 ;
 JS_FOR_WASM_FEATURES
 (
-WASM_FEATURE
-WASM_FEATURE
 WASM_FEATURE
 )
 ;
