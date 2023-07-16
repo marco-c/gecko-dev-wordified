@@ -1531,7 +1531,9 @@ patterns
 "
 httpd
 .
-js
+sys
+.
+mjs
 "
 ]
             

@@ -119,7 +119,9 @@ EXTRA_COMPONENTS
 "
 httpd
 .
-js
+sys
+.
+mjs
 "
 ]
 TESTING_JS_MODULES
@@ -129,6 +131,8 @@ TESTING_JS_MODULES
 "
 httpd
 .
-js
+sys
+.
+mjs
 "
 ]
