@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-mozilla_webcodecs_Utils
+MOZILLA_DOM_WEBCODECS_WEBCODECSUTILS_H
 #
 define
-mozilla_webcodecs_Utils
+MOZILLA_DOM_WEBCODECS_WEBCODECSUTILS_H
 #
 include
 <
@@ -719,4 +719,4 @@ mozilla
 endif
 /
 /
-mozilla_webcodecs_Utils
+MOZILLA_DOM_WEBCODECS_WEBCODECSUTILS_H
