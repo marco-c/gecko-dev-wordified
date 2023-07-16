@@ -2345,8 +2345,9 @@ pattern
 :
 "
 distro
-.
-py
+/
+*
+*
 "
         
 }
