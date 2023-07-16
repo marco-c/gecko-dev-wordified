@@ -1751,14 +1751,10 @@ pc_factory_
 >
 CreateVideoTrack
 (
+video_track_source
 "
 v
 "
-video_track_source
-.
-get
-(
-)
 )
 )
 ;

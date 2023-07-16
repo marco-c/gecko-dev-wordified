@@ -251,14 +251,10 @@ nativeFactory
 >
 CreateVideoTrack
 (
-nativeId
 source
 .
 nativeVideoSource
-.
-get
-(
-)
+nativeId
 )
 ;
 if

@@ -2863,12 +2863,8 @@ g_peer_connection_factory
 >
 CreateVideoTrack
 (
-kVideoLabel
 source
-.
-release
-(
-)
+kVideoLabel
 )
 )
 ;
@@ -2920,12 +2916,8 @@ g_peer_connection_factory
 >
 CreateVideoTrack
 (
-kVideoLabel
 video_device
-.
-get
-(
-)
+kVideoLabel
 )
 )
 ;

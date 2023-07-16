@@ -4484,14 +4484,10 @@ factory_
 >
 CreateVideoTrack
 (
+source
 "
 testlabel
 "
-source
-.
-get
-(
-)
 )
 )
 ;

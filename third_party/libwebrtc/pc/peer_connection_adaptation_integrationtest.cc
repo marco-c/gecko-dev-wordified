@@ -516,14 +516,10 @@ factory
 >
 CreateVideoTrack
 (
+periodic_track_source
 "
 PeriodicTrack
 "
-periodic_track_source
-.
-get
-(
-)
 )
 ;
 track_with_source
