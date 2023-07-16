@@ -468,6 +468,7 @@ static
 double
 ParseNumber
 (
+const
 nsAString
 &
 aValue
