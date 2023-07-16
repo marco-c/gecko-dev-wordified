@@ -733,7 +733,7 @@ flags
 CONFIG
 [
 '
-VPX_ASFLAGS
+NEON_FLAGS
 '
 ]
 if
