@@ -462,10 +462,6 @@ TenuringTracer
 namespace
 gc
 class
-alignas
-(
-TypicalCacheLineSize
-)
 Nursery
 {
 public
