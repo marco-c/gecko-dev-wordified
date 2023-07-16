@@ -309,6 +309,13 @@ tryCatch_
 >
 emitCatch
 (
+TryEmitter
+:
+:
+ExceptionStack
+:
+:
+Yes
 )
 )
 {
@@ -322,6 +329,7 @@ ITER
 .
 .
 EXCEPTION
+STACK
 return
 false
 ;
@@ -364,6 +372,7 @@ ITER
 .
 .
 EXCEPTION
+STACK
 ITER
 return
 false
@@ -392,6 +401,7 @@ ITER
 .
 .
 EXCEPTION
+STACK
 }
 if
 (
@@ -404,7 +414,7 @@ emit1
 JSOp
 :
 :
-Throw
+ThrowWithStack
 )
 )
 {
