@@ -374,12 +374,6 @@ kAnalyzerMaxThreadsCount
 ;
 constexpr
 int
-kMaxFramesInFlightPerStream
-=
-10
-;
-constexpr
-int
 kFrameWidth
 =
 320
@@ -415,12 +409,6 @@ options
 adjust_cropping_before_comparing_frames
 =
 false
-;
-options
-.
-max_frames_in_flight_per_stream_count
-=
-kMaxFramesInFlightPerStream
 ;
 options
 .
