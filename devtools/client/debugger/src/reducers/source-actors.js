@@ -512,7 +512,9 @@ delete
 (
 action
 .
-sourceActorId
+sourceActor
+.
+id
 )
 )
 {
