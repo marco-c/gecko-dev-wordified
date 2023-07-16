@@ -925,7 +925,9 @@ content
 return
 anonymousContent
 .
-getTextContentForElement
+root
+.
+getElementById
 (
 {
 this
@@ -936,6 +938,8 @@ prefix
 id
 }
 )
+.
+textContent
 ;
 }
 /
