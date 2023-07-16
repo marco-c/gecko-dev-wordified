@@ -309,13 +309,6 @@ tryCatch_
 >
 emitCatch
 (
-TryEmitter
-:
-:
-ExceptionStack
-:
-:
-Yes
 )
 )
 {
@@ -329,7 +322,6 @@ ITER
 .
 .
 EXCEPTION
-STACK
 return
 false
 ;
@@ -372,7 +364,6 @@ ITER
 .
 .
 EXCEPTION
-STACK
 ITER
 return
 false
@@ -401,7 +392,6 @@ ITER
 .
 .
 EXCEPTION
-STACK
 }
 if
 (
@@ -414,7 +404,7 @@ emit1
 JSOp
 :
 :
-ThrowWithStack
+Throw
 )
 )
 {
@@ -489,7 +479,7 @@ exception
 resumeindex
 value
 (
-third
+second
 value
 on
 /
@@ -561,8 +551,7 @@ ITER
 .
 .
 FVALUE
-FSTACK
-FTHROWING
+FTYPE
 InternalIfEmitter
 ifGeneratorClosing
 (
@@ -575,9 +564,12 @@ if
 bce
 -
 >
-emitPickN
+emit1
 (
-2
+JSOp
+:
+:
+Swap
 )
 )
 {
@@ -590,8 +582,7 @@ ITER
 .
 .
 .
-FSTACK
-FTHROWING
+FTYPE
 FVALUE
 return
 false
@@ -621,8 +612,7 @@ ITER
 .
 .
 .
-FSTACK
-FTHROWING
+FTYPE
 FVALUE
 CLOSING
 return
@@ -648,8 +638,7 @@ ITER
 .
 .
 .
-FSTACK
-FTHROWING
+FTYPE
 FVALUE
 return
 false
@@ -678,8 +667,7 @@ ITER
 .
 .
 .
-FSTACK
-FTHROWING
+FTYPE
 FVALUE
 ITER
 return
@@ -708,8 +696,7 @@ ITER
 .
 .
 .
-FSTACK
-FTHROWING
+FTYPE
 FVALUE
 return
 false
@@ -734,8 +721,7 @@ ITER
 .
 .
 .
-FSTACK
-FTHROWING
+FTYPE
 FVALUE
 return
 false
@@ -747,9 +733,12 @@ if
 bce
 -
 >
-emitUnpickN
+emit1
 (
-2
+JSOp
+:
+:
+Swap
 )
 )
 {
@@ -763,8 +752,7 @@ ITER
 .
 .
 FVALUE
-FSTACK
-FTHROWING
+FTYPE
 return
 false
 ;

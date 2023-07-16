@@ -13345,6 +13345,10 @@ AsyncFunctionResolve
 cx
 generator
 vp
+AsyncFunctionResolveKind
+:
+:
+Fulfill
 )
 )
 {

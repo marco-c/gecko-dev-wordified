@@ -1954,12 +1954,6 @@ case
 JSOp
 :
 :
-ThrowWithStack
-:
-case
-JSOp
-:
-:
 ThrowMsg
 :
 case

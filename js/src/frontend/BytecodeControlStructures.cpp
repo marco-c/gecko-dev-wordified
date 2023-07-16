@@ -1932,14 +1932,11 @@ index
 or
 -
 exception
-exception
--
-stack
 throwing
 ]
-*
-triple
+pair
 on
+*
 the
 stack
 that
@@ -1984,7 +1981,7 @@ noScriptRval
 npops
 +
 =
-3
+2
 ;
 }
 else
@@ -1992,7 +1989,7 @@ else
 npops
 +
 =
-4
+3
 ;
 }
 }
