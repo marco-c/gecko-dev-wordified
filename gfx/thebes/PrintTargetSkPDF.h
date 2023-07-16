@@ -271,6 +271,10 @@ override
 nsresult
 BeginPage
 (
+const
+IntSize
+&
+aSizeInPoints
 )
 override
 ;
