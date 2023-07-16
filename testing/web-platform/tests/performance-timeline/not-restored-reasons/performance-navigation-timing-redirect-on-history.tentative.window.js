@@ -258,15 +258,12 @@ redirected
 URL
 .
 let
-[
 rc1_redirected
-saveUrl
-]
 =
 await
 rcHelper
 .
-createContextWithUrl
+createContext
 (
 /
 *
@@ -309,7 +306,9 @@ location
 {
 encodeURIComponent
 (
-saveUrl
+rc1_redirected
+.
+url
 )
 }
 ;
