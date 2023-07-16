@@ -1050,9 +1050,7 @@ const
 uint32_t
 kMaxLog2Minus4
 =
-32
--
-4
+12
 ;
 /
 /

@@ -1747,7 +1747,7 @@ GenerateFakeSps
 320u
 180u
 1
-28
+12
 0
 &
 buffer
@@ -1810,7 +1810,7 @@ id
 ;
 EXPECT_EQ
 (
-32u
+16u
 sps
 -
 >
@@ -1822,7 +1822,7 @@ GenerateFakeSps
 320u
 180u
 1
-29
+13
 0
 &
 buffer
@@ -1952,7 +1952,7 @@ GenerateFakeSps
 180u
 1
 0
-28
+12
 &
 buffer
 )
@@ -2014,7 +2014,7 @@ id
 ;
 EXPECT_EQ
 (
-32u
+16u
 sps
 -
 >
@@ -2027,7 +2027,7 @@ GenerateFakeSps
 180u
 1
 0
-29
+13
 &
 buffer
 )
