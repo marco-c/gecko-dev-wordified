@@ -386,7 +386,7 @@ ffi
 WGPUErrorBufferType_None
 ;
 char
-mUtf8
+mMessageUtf8
 [
 BUFFER_SIZE
 ]
@@ -405,7 +405,7 @@ ErrorBuffer
 (
 )
 {
-mUtf8
+mMessageUtf8
 [
 0
 ]
@@ -455,7 +455,7 @@ errorBuf
 {
 &
 mType
-mUtf8
+mMessageUtf8
 BUFFER_SIZE
 }
 ;
@@ -693,7 +693,7 @@ Error
 filterType
 nsCString
 {
-mUtf8
+mMessageUtf8
 }
 }
 )
