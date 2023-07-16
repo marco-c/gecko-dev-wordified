@@ -1187,6 +1187,8 @@ SR
 .
 uint32_t
 last_remote_rtp_timestamp
+=
+0
 ;
 /
 /
@@ -1232,6 +1234,8 @@ identifier
 .
 uint32_t
 packets_sent
+=
+0
 ;
 /
 /
@@ -1293,6 +1297,8 @@ identifier
 .
 uint64_t
 bytes_sent
+=
+0
 ;
 /
 /
@@ -1331,6 +1337,8 @@ reportssent
 .
 uint64_t
 reports_count
+=
+0
 ;
 }
 ;
