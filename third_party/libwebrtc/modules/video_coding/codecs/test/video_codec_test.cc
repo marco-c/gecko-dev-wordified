@@ -871,8 +871,6 @@ static_cast
 int
 >
 (
-video_info_
-.
 framerate
 .
 millihertz
@@ -887,6 +885,8 @@ static_cast
 int
 >
 (
+video_info_
+.
 framerate
 .
 millihertz
