@@ -254,18 +254,6 @@ include
 "
 frontend
 /
-BytecodeCompilation
-.
-h
-"
-/
-/
-InstantiateStencils
-#
-include
-"
-frontend
-/
 BytecodeCompiler
 .
 h
@@ -273,6 +261,7 @@ h
 /
 /
 CompileGlobalScriptToStencil
+InstantiateStencils
 CanLazilyParse
 ParseModuleToStencil
 #
