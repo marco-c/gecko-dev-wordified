@@ -260,7 +260,6 @@ h
 "
 /
 /
-CanLazilyParse
 CompileGlobalScriptToStencil
 #
 include
@@ -273,6 +272,7 @@ h
 "
 /
 /
+CanLazilyParse
 ParseModuleToStencil
 #
 include
