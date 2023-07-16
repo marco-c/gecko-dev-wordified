@@ -17973,7 +17973,7 @@ collections
 the
 sweep
 phase
-will
+may
 /
 /
 also
@@ -17984,6 +17984,10 @@ code
 discardJITCodeForGC
 (
 )
+;
+haveDiscardedJITCodeThisSlice
+=
+true
 ;
 /
 *
@@ -23258,6 +23262,10 @@ ShouldUseBackgroundThreads
 isIncremental
 reason
 )
+;
+haveDiscardedJITCodeThisSlice
+=
+false
 ;
 #
 ifdef
