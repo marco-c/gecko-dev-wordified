@@ -8509,6 +8509,11 @@ BrushFlags
 :
 :
 SEGMENT_REPEAT_X
+|
+BrushFlags
+:
+:
+SEGMENT_REPEAT_X_CENTERED
 ;
 }
 else
@@ -8551,6 +8556,11 @@ BrushFlags
 :
 :
 SEGMENT_REPEAT_Y
+|
+BrushFlags
+:
+:
+SEGMENT_REPEAT_Y_CENTERED
 ;
 }
 else
