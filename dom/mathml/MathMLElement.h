@@ -359,6 +359,17 @@ MappedDeclarationsBuilder
 ;
 static
 void
+MapMiAttributesInto
+(
+mozilla
+:
+:
+MappedDeclarationsBuilder
+&
+)
+;
+static
+void
 MapMTableAttributesInto
 (
 mozilla
