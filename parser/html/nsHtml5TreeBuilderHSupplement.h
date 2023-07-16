@@ -415,6 +415,9 @@ cases
 bool
 mGenerateSpeculativeLoads
 ;
+bool
+mHasSeenImportMap
+;
 #
 ifdef
 DEBUG
