@@ -13070,6 +13070,14 @@ return
 false
 ;
 }
+gc
+:
+:
+ReadBarrier
+(
+shape
+)
+;
 if
 (
 !
@@ -13280,7 +13288,7 @@ StubField
 Type
 :
 :
-Shape
+WeakShape
 )
 {
 /
@@ -14349,7 +14357,7 @@ StubField
 Type
 :
 :
-Shape
+WeakShape
 )
 ;
 Shape

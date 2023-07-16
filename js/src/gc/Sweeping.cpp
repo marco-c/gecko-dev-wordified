@@ -9285,6 +9285,7 @@ traceWeak
 (
 &
 trc
+zone
 )
 ;
 }

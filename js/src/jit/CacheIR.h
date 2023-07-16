@@ -1586,6 +1586,7 @@ word
 RawInt32
 RawPointer
 Shape
+WeakShape
 GetterSetter
 JSObject
 Symbol
