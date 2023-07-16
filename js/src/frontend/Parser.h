@@ -8196,7 +8196,7 @@ propNamePos
 #
 ifdef
 ENABLE_DECORATORS
-Node
+ClassMethodType
 synthesizeAccessor
 (
 Node
@@ -8211,8 +8211,6 @@ bool
 isStatic
 FunctionSyntaxKind
 syntaxKind
-ListNodeType
-decorators
 ClassInitializedMembers
 &
 classInitializedMembers
