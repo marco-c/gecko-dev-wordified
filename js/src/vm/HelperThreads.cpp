@@ -200,7 +200,6 @@ frontend
 :
 {
 CompileGlobalScriptToExtensibleStencil
-FireOnNewScript
 }
 #
 include
