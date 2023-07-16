@@ -413,6 +413,7 @@ Assert
 equal
 (
 CURRENT_SCHEMA
+await
 getDBVersion
 (
 dbFile

@@ -298,6 +298,7 @@ Assert
 equal
 (
 999
+await
 getDBVersion
 (
 destFile
@@ -476,6 +477,7 @@ Assert
 equal
 (
 CURRENT_SCHEMA
+await
 getDBVersion
 (
 destFile
