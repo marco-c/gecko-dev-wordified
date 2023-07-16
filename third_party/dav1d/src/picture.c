@@ -885,7 +885,7 @@ i
 +
 +
 )
-free
+dav1d_free
 (
 itut_t35_ctx
 -
@@ -898,7 +898,7 @@ i
 payload
 )
 ;
-free
+dav1d_free
 (
 itut_t35_ctx
 -
@@ -906,7 +906,7 @@ itut_t35_ctx
 itut_t35
 )
 ;
-free
+dav1d_free
 (
 itut_t35_ctx
 )
@@ -1913,7 +1913,7 @@ const
 src
 )
 {
-validate_input
+assert
 (
 dst
 !
@@ -1921,7 +1921,7 @@ dst
 NULL
 )
 ;
-validate_input
+assert
 (
 dst
 -
@@ -1935,7 +1935,7 @@ data
 NULL
 )
 ;
-validate_input
+assert
 (
 src
 !
@@ -1951,7 +1951,7 @@ src
 ref
 )
 {
-validate_input
+assert
 (
 src
 -
@@ -2092,7 +2092,7 @@ const
 src
 )
 {
-validate_input
+assert
 (
 dst
 !
@@ -2100,7 +2100,7 @@ dst
 NULL
 )
 ;
-validate_input
+assert
 (
 dst
 -
@@ -2114,7 +2114,7 @@ data
 NULL
 )
 ;
-validate_input
+assert
 (
 src
 !
@@ -2129,7 +2129,7 @@ src
 >
 ref
 )
-validate_input
+assert
 (
 src
 -
