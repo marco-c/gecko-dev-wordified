@@ -348,18 +348,6 @@ mozilla
 -
 esr115
 "
-                    
-"
-esr102
-"
-:
-"
-releases
-/
-mozilla
--
-esr102
-"
                 
 }
                 
