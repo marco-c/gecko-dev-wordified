@@ -4343,9 +4343,10 @@ set
 ;
 /
 /
-Unlike
-on
-other
+On
+link
+-
+register
 platforms
 it
 is
@@ -4400,9 +4401,8 @@ calls
 .
 masm
 .
-push
+pushReturnAddress
 (
-lr
 )
 ;
 /
