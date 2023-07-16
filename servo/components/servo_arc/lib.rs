@@ -5735,9 +5735,7 @@ ptr
 =
 self
 .
-data
-.
-as_mut_ptr
+data_mut
 (
 )
 ;
