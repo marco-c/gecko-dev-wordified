@@ -431,6 +431,13 @@ recovered_from_overuse
 (
 false
 )
+delay_detector_state
+(
+BandwidthUsage
+:
+:
+kBwNormal
+)
 {
 }
 DelayBasedBwe
