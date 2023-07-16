@@ -13359,7 +13359,7 @@ return
 false
 ;
 }
-uint32_t
+int32_t
 fieldIndex
 ;
 if
@@ -13368,7 +13368,7 @@ if
 JS
 :
 :
-ToUint32
+ToInt32
 (
 cx
 args
@@ -13378,6 +13378,11 @@ args
 &
 fieldIndex
 )
+|
+|
+fieldIndex
+<
+0
 )
 {
 ReportUsageErrorASCII
@@ -13389,7 +13394,10 @@ Second
 argument
 must
 be
-an
+a
+non
+-
+negative
 integer
 "
 )
