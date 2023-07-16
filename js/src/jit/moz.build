@@ -338,6 +338,11 @@ JitFrames
 cpp
 "
 "
+JitHints
+.
+cpp
+"
+"
 JitOptions
 .
 cpp
