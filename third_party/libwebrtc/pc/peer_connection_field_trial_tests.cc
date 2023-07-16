@@ -1972,7 +1972,7 @@ std
 vector
 <
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 *
 >
 outbound_rtp_stats
@@ -1987,7 +1987,7 @@ GetStats
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )

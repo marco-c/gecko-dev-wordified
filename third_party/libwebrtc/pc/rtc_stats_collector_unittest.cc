@@ -1006,7 +1006,7 @@ void
 PrintTo
 (
 const
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 &
 stats
 :
@@ -1034,7 +1034,7 @@ void
 PrintTo
 (
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 &
 stats
 :
@@ -6300,7 +6300,7 @@ outbound_rtp_id
 >
 cast_to
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -6424,7 +6424,7 @@ inbound_rtp_id
 >
 cast_to
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -7425,7 +7425,7 @@ outbound_rtp_id
 >
 cast_to
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -7545,7 +7545,7 @@ inbound_rtp_id
 >
 cast_to
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -8794,7 +8794,7 @@ report
 >
 GetStatsOfType
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -8807,7 +8807,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -20308,7 +20308,7 @@ DEPRECATED_RTCMediaStreamTrackStats
 TEST_F
 (
 RTCStatsCollectorTest
-CollectRTCInboundRTPStreamStats_Audio
+CollectRTCInboundRtpStreamStats_Audio
 )
 {
 cricket
@@ -20881,7 +20881,7 @@ size
 )
 )
 ;
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 expected_audio
 (
 "
@@ -21201,7 +21201,7 @@ id
 >
 cast_to
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -21317,7 +21317,7 @@ id
 >
 cast_to
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -21370,7 +21370,7 @@ codec_id
 TEST_F
 (
 RTCStatsCollectorTest
-CollectRTCInboundRTPStreamStats_Audio_PlayoutId
+CollectRTCInboundRtpStreamStats_Audio_PlayoutId
 )
 {
 cricket
@@ -21566,7 +21566,7 @@ ITTransportName1A1
 >
 cast_to
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -21665,7 +21665,7 @@ ITTransportName1A1
 >
 cast_to
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -21697,7 +21697,7 @@ AP
 TEST_F
 (
 RTCStatsCollectorTest
-CollectRTCInboundRTPStreamStats_Video
+CollectRTCInboundRtpStreamStats_Video
 )
 {
 cricket
@@ -22322,7 +22322,7 @@ GetStatsReport
 (
 )
 ;
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 expected_video
 (
 "
@@ -22668,7 +22668,7 @@ id
 >
 cast_to
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -22861,7 +22861,7 @@ id
 >
 cast_to
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -23309,7 +23309,7 @@ report
 >
 GetStatsOfType
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -23372,7 +23372,7 @@ goog_timing_frame_info
 TEST_F
 (
 RTCStatsCollectorTest
-CollectRTCOutboundRTPStreamStats_Audio
+CollectRTCOutboundRtpStreamStats_Audio
 )
 {
 cricket
@@ -23650,7 +23650,7 @@ GetStatsReport
 (
 )
 ;
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 expected_audio
 (
 "
@@ -23829,7 +23829,7 @@ id
 >
 cast_to
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -23868,7 +23868,7 @@ id
 >
 cast_to
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -23921,7 +23921,7 @@ codec_id
 TEST_F
 (
 RTCStatsCollectorTest
-CollectRTCOutboundRTPStreamStats_Video
+CollectRTCOutboundRtpStreamStats_Video
 )
 {
 cricket
@@ -24447,7 +24447,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -24485,7 +24485,7 @@ size
 )
 )
 ;
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 expected_video
 (
 stats_of_my_type
@@ -24826,7 +24826,7 @@ id
 >
 cast_to
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -24997,7 +24997,7 @@ id
 >
 cast_to
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -26863,7 +26863,7 @@ RTCTransportStats
 TEST_F
 (
 RTCStatsCollectorTest
-CollectNoStreamRTCOutboundRTPStreamStats_Audio
+CollectNoStreamRTCOutboundRtpStreamStats_Audio
 )
 {
 cricket
@@ -27145,7 +27145,7 @@ GetStatsReport
 (
 )
 ;
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 expected_audio
 (
 "
@@ -27311,7 +27311,7 @@ id
 >
 cast_to
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -29916,7 +29916,7 @@ local_id
 >
 cast_to
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -32673,7 +32673,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -32848,7 +32848,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )

@@ -339,7 +339,7 @@ const
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 *
 >
 &

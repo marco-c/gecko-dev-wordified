@@ -2578,7 +2578,7 @@ stats_types
 .
 insert
 (
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 :
 :
 kType
@@ -2588,7 +2588,7 @@ stats_types
 .
 insert
 (
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 :
 :
 kType
@@ -3031,7 +3031,7 @@ type
 )
 =
 =
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 :
 :
 kType
@@ -3046,7 +3046,7 @@ stats
 .
 cast_to
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -3063,7 +3063,7 @@ type
 )
 =
 =
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 :
 :
 kType
@@ -3078,7 +3078,7 @@ stats
 .
 cast_to
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -5478,7 +5478,7 @@ type
 )
 =
 =
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 :
 :
 kType
@@ -5491,7 +5491,7 @@ type
 )
 =
 =
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 :
 :
 kType
@@ -5609,7 +5609,7 @@ bool
 VerifyRTCInboundRtpStreamStats
 (
 const
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 &
 inbound_stream
 )
@@ -6940,7 +6940,7 @@ bool
 VerifyRTCOutboundRtpStreamStats
 (
 const
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 &
 outbound_stream
 )
@@ -7821,7 +7821,7 @@ TestMemberIsIDReference
 remote_inbound_stream
 .
 local_id
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 :
 :
 kType
@@ -7911,7 +7911,7 @@ TestMemberIsIDReference
 remote_outbound_stream
 .
 local_id
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 :
 :
 kType
@@ -9070,7 +9070,7 @@ RTCRtpContributingSourceStats
 when
 implemented
 .
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 :
 :
 kType
@@ -9224,7 +9224,7 @@ RTCRtpContributingSourceStats
 when
 implemented
 .
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 :
 :
 kType

@@ -1506,7 +1506,7 @@ const
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 *
 >
 &
@@ -4459,7 +4459,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -4575,7 +4575,7 @@ GetAs
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 rtp_stats_id_

@@ -11084,7 +11084,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -11307,7 +11307,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -11638,7 +11638,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -12033,7 +12033,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -12183,7 +12183,7 @@ result
 in
 two
 "
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 "
 but
 /
@@ -12909,7 +12909,7 @@ we
 have
 two
 "
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 "
 as
 expected
@@ -12981,7 +12981,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -24675,7 +24675,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )
@@ -31093,7 +31093,7 @@ report
 >
 GetStatsOfType
 <
-RTCOutboundRTPStreamStats
+RTCOutboundRtpStreamStats
 >
 (
 )
@@ -31184,7 +31184,7 @@ report
 >
 GetStatsOfType
 <
-RTCInboundRTPStreamStats
+RTCInboundRtpStreamStats
 >
 (
 )

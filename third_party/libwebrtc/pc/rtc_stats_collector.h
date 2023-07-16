@@ -1617,8 +1617,8 @@ const
 /
 /
 Produces
-RTCInboundRTPStreamStats
-RTCOutboundRTPStreamStats
+RTCInboundRtpStreamStats
+RTCOutboundRtpStreamStats
 /
 /
 RTCRemoteInboundRtpStreamStats
