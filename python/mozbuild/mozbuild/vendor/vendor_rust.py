@@ -2220,14 +2220,6 @@ arrayref
 "
             
 "
-cloudabi
-"
-            
-"
-Inflector
-"
-            
-"
 mach
 "
             
