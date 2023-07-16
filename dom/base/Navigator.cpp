@@ -14121,12 +14121,15 @@ mLocks
 {
 mLocks
 =
-new
 dom
 :
 :
 LockManager
+:
+:
+Create
 (
+*
 GetWindow
 (
 )

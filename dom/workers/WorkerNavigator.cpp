@@ -1506,12 +1506,15 @@ global
 ;
 mLocks
 =
-new
 dom
 :
 :
 LockManager
+:
+:
+Create
 (
+*
 global
 )
 ;
