@@ -1304,7 +1304,7 @@ allowing
 to
 choose
 the
-loggin
+logging
 output
 (
 console
@@ -1444,7 +1444,7 @@ avoid
 having
 to
 support
-chaging
+changing
 tracing
 config
 "

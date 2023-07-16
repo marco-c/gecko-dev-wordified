@@ -65,6 +65,15 @@ from
 .
 /
 breakpoint
+"
+;
+export
+*
+from
+"
+.
+/
+breakpoint
 -
 heading
 "
