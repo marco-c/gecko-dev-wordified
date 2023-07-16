@@ -167,6 +167,10 @@ scoped_refptr
 PendingTaskSafetyFlag
 >
 alive_flag
+const
+Location
+&
+location
 )
 ;
 RepeatingTask
@@ -224,6 +228,10 @@ Clock
 *
 const
 clock_
+;
+const
+Location
+location_
 ;
 absl
 :
@@ -301,6 +309,10 @@ scoped_refptr
 PendingTaskSafetyFlag
 >
 alive_flag
+const
+Location
+&
+location
 )
 :
 task_queue_
@@ -314,6 +326,10 @@ precision
 clock_
 (
 clock
+)
+location_
+(
+location
 )
 task_
 (
@@ -502,6 +518,7 @@ move
 this
 )
 delay
+location_
 )
 ;
 }
@@ -536,6 +553,10 @@ precision
 Clock
 *
 clock
+const
+Location
+&
+location
 )
 {
 auto
@@ -579,7 +600,9 @@ closure
 )
 clock
 alive_flag
+location
 )
+location
 )
 ;
 return
@@ -649,6 +672,10 @@ precision
 Clock
 *
 clock
+const
+Location
+&
+location
 )
 {
 auto
@@ -688,8 +715,10 @@ closure
 )
 clock
 alive_flag
+location
 )
 first_delay
+location
 )
 ;
 return
