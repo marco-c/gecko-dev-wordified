@@ -5392,7 +5392,7 @@ header_extensions
 transceiver
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 ;

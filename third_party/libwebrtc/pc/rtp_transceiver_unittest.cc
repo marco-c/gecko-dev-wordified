@@ -1866,7 +1866,7 @@ EXPECT_EQ
 transceiver_
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 extensions_
@@ -1954,7 +1954,7 @@ EXPECT_TRUE
 transceiver_
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )
@@ -1969,7 +1969,7 @@ EXPECT_EQ
 transceiver_
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 modified_extensions
@@ -1992,7 +1992,7 @@ EXPECT_TRUE
 transceiver_
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )
@@ -2007,7 +2007,7 @@ EXPECT_EQ
 transceiver_
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 modified_extensions
@@ -2030,7 +2030,7 @@ EXPECT_TRUE
 transceiver_
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )
@@ -2045,7 +2045,7 @@ EXPECT_EQ
 transceiver_
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 modified_extensions
@@ -2068,7 +2068,7 @@ EXPECT_TRUE
 transceiver_
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )
@@ -2083,7 +2083,7 @@ EXPECT_EQ
 transceiver_
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 modified_extensions
@@ -2171,7 +2171,7 @@ EXPECT_TRUE
 transceiver_
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )
@@ -2186,7 +2186,7 @@ EXPECT_EQ
 transceiver_
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 modified_extensions
@@ -2281,7 +2281,7 @@ EXPECT_THAT
 transceiver_
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )
@@ -2304,7 +2304,7 @@ EXPECT_EQ
 transceiver_
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 extensions_
@@ -2408,7 +2408,7 @@ EXPECT_THAT
 transceiver_
 -
 >
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 modified_extensions
 )
@@ -2431,7 +2431,7 @@ EXPECT_EQ
 transceiver_
 -
 >
-HeaderExtensionsToOffer
+GetHeaderExtensionsToNegotiate
 (
 )
 extensions_
@@ -2502,7 +2502,7 @@ EXPECT_THAT
 transceiver_
 -
 >
-HeaderExtensionsNegotiated
+GetNegotiatedHeaderExtensions
 (
 )
 ElementsAre
@@ -2754,7 +2754,7 @@ EXPECT_THAT
 transceiver_
 -
 >
-HeaderExtensionsNegotiated
+GetNegotiatedHeaderExtensions
 (
 )
 ElementsAre
@@ -3075,7 +3075,7 @@ EXPECT_THAT
 transceiver_
 -
 >
-HeaderExtensionsNegotiated
+GetNegotiatedHeaderExtensions
 (
 )
 ElementsAre
@@ -3239,7 +3239,7 @@ EXPECT_THAT
 transceiver_
 -
 >
-HeaderExtensionsNegotiated
+GetNegotiatedHeaderExtensions
 (
 )
 ElementsAre
@@ -3319,7 +3319,7 @@ EXPECT_THAT
 transceiver_
 -
 >
-HeaderExtensionsNegotiated
+GetNegotiatedHeaderExtensions
 (
 )
 ElementsAre

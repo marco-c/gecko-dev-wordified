@@ -1844,13 +1844,13 @@ with
 RtpTransceiverInterface
 :
 :
-HeaderExtensionsToOffer
+SetHeaderExtensionsToNegotiate
 (
 )
 and
 /
 /
-SetOfferedRtpHeaderExtensions
+SetHeaderExtensionsToNegotiate
 (
 )
 .
