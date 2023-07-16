@@ -169,14 +169,6 @@ iter
 >
 iter
 .
-asIndexedPairs
-(
-)
-iter
-=
->
-iter
-.
 flatMap
 (
 x
@@ -233,7 +225,9 @@ iterHelper
 .
 return
 (
-0
+"
+ignored
+"
 )
 ;
 assertEq
@@ -257,7 +251,7 @@ assertEq
 result
 .
 value
-0
+undefined
 )
 ;
 }
@@ -300,7 +294,9 @@ iterHelper
 .
 return
 (
-0
+"
+ignored
+"
 )
 ;
 assertEq
@@ -324,7 +320,7 @@ assertEq
 result
 .
 value
-0
+undefined
 )
 ;
 }

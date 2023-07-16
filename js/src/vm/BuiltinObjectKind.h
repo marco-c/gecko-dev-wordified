@@ -128,10 +128,6 @@ jstypes
 .
 h
 "
-class
-JS_PUBLIC_API
-JSAtom
-;
 struct
 JS_PUBLIC_API
 JSContext
@@ -191,7 +187,6 @@ constructors
 Array
 ArrayBuffer
 Int32Array
-Iterator
 Map
 Promise
 RegExp
@@ -206,6 +201,7 @@ in
 prototypes
 .
 FunctionPrototype
+IteratorPrototype
 ObjectPrototype
 RegExpPrototype
 StringPrototype

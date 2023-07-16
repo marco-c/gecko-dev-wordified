@@ -30,9 +30,9 @@ pending
 description
 :
 TypeError
-is
+not
 thrown
-if
+when
 this
 is
 an
@@ -52,12 +52,6 @@ iterator
 -
 *
 /
-assertThrowsInstanceOf
-(
-(
-)
-=
->
 Iterator
 .
 prototype
@@ -72,8 +66,6 @@ x
 =
 >
 x
-)
-TypeError
 )
 ;
 if
