@@ -831,6 +831,11 @@ resume
 dbg
 )
 ;
+assertNotPaused
+(
+dbg
+)
+;
 await
 dbg
 .
@@ -843,6 +848,11 @@ thread2
 ;
 await
 resume
+(
+dbg
+)
+;
+assertNotPaused
 (
 dbg
 )
@@ -1174,6 +1184,12 @@ threadsPaneItemPause
 "
 index
 )
+Thread
+{
+index
+}
+is
+paused
 )
 ;
 }
