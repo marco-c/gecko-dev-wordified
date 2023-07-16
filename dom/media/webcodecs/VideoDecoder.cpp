@@ -1080,12 +1080,6 @@ WasPassed
 )
 )
 {
-RefPtr
-<
-MediaByteBuffer
->
-buf
-;
 auto
 rv
 =
