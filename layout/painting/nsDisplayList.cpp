@@ -15482,10 +15482,7 @@ mDepth
 ;
 }
 return
-this
-<
-&
-aOther
+false
 ;
 }
 bool
@@ -15572,7 +15569,7 @@ return
 }
 aSource
 .
-Sort
+StableSort
 (
 )
 ;
@@ -16029,7 +16026,7 @@ neverUsed
 /
 /
 Start
-gethering
+gathering
 leaves
 of
 the
