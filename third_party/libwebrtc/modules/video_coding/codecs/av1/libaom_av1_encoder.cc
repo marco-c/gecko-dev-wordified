@@ -2908,7 +2908,6 @@ passed
 to
 SetEncoderControlParameters
 (
-(
 AV1E_SET_SVC_PARAMS
 )
 .
