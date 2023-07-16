@@ -108,7 +108,6 @@ Popup
 ;
 import
 {
-getThreadContext
 getIsCurrentThreadPaused
 }
 from
@@ -190,13 +189,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 editor
 :
 PropTypes
@@ -458,7 +450,6 @@ tokenId
 ;
 const
 {
-cx
 editor
 getPreview
 getExceptionPreview
@@ -493,7 +484,6 @@ preview
 await
 getExceptionPreview
 (
-cx
 target
 tokenPos
 editor
@@ -524,7 +514,6 @@ preview
 await
 getPreview
 (
-cx
 target
 tokenPos
 editor
@@ -761,12 +750,6 @@ state
 {
 return
 {
-cx
-:
-getThreadContext
-(
-state
-)
 isPaused
 :
 getIsCurrentThreadPaused
