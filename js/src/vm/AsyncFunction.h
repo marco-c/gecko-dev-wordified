@@ -128,18 +128,6 @@ include
 "
 vm
 /
-AsyncFunctionResolveKind
-.
-h
-"
-/
-/
-AsyncFunctionResolveKind
-#
-include
-"
-vm
-/
 GeneratorObject
 .
 h
@@ -617,7 +605,6 @@ generator
 /
 /
 AsyncResolve
-0
 #
 PROMISE
 /
@@ -2424,9 +2411,7 @@ AsyncFunctionGeneratorObject
 >
 generator
 HandleValue
-valueOrReason
-AsyncFunctionResolveKind
-resolveKind
+value
 )
 ;
 /

@@ -16883,8 +16883,6 @@ JOF_BYTE
 *
 *
 Resolve
-or
-reject
 the
 current
 async
@@ -16894,9 +16892,8 @@ s
 result
 promise
 with
-*
 '
-valueOrReason
+value
 '
 .
 *
@@ -16942,8 +16939,6 @@ call
 *
 as
 resolving
-/
-rejecting
 an
 already
 resolved
@@ -16952,7 +16947,6 @@ rejected
 promise
 is
 not
-*
 permitted
 .
 *
@@ -17054,12 +17048,10 @@ functions
 *
 Operands
 :
-AsyncFunctionResolveKind
-fulfillOrReject
 *
 Stack
 :
-valueOrReason
+value
 gen
 =
 >
@@ -17072,10 +17064,10 @@ MACRO
 AsyncResolve
 async_resolve
 NULL
-2
+1
 2
 1
-JOF_UINT8
+JOF_BYTE
 )
 \
 /
