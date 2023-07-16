@@ -188,7 +188,7 @@ namespace
 {
 constexpr
 char
-kFieldTrialString
+kFieldTrialEnabledString
 [
 ]
 =
@@ -198,6 +198,21 @@ WebRTC
 SendPacketsOnWorkerThread
 /
 Enabled
+/
+"
+;
+constexpr
+char
+kFieldTrialDisabledString
+[
+]
+=
+"
+WebRTC
+-
+SendPacketsOnWorkerThread
+/
+Disabled
 /
 "
 ;
@@ -213,7 +228,7 @@ test
 ExplicitKeyValueConfig
 field_trial
 (
-kFieldTrialString
+kFieldTrialEnabledString
 )
 ;
 RealTimeController
@@ -283,8 +298,7 @@ test
 ExplicitKeyValueConfig
 field_trial
 (
-"
-"
+kFieldTrialDisabledString
 )
 ;
 RealTimeController
@@ -368,7 +382,7 @@ test
 ExplicitKeyValueConfig
 field_trial
 (
-kFieldTrialString
+kFieldTrialEnabledString
 )
 ;
 RealTimeController
@@ -438,8 +452,7 @@ test
 ExplicitKeyValueConfig
 field_trial
 (
-"
-"
+kFieldTrialDisabledString
 )
 ;
 RealTimeController
@@ -546,8 +559,7 @@ test
 ExplicitKeyValueConfig
 field_trial
 (
-"
-"
+kFieldTrialDisabledString
 )
 ;
 RealTimeController
@@ -670,7 +682,7 @@ test
 ExplicitKeyValueConfig
 field_trial
 (
-kFieldTrialString
+kFieldTrialEnabledString
 )
 ;
 RealTimeController
@@ -756,8 +768,7 @@ test
 ExplicitKeyValueConfig
 field_trial
 (
-"
-"
+kFieldTrialDisabledString
 )
 ;
 RealTimeController
@@ -819,7 +830,7 @@ test
 ExplicitKeyValueConfig
 field_trial
 (
-kFieldTrialString
+kFieldTrialEnabledString
 )
 ;
 RealTimeController
@@ -934,8 +945,7 @@ test
 ExplicitKeyValueConfig
 field_trial
 (
-"
-"
+kFieldTrialDisabledString
 )
 ;
 RealTimeController
@@ -990,7 +1000,7 @@ test
 ExplicitKeyValueConfig
 field_trial
 (
-kFieldTrialString
+kFieldTrialEnabledString
 )
 ;
 RealTimeController
