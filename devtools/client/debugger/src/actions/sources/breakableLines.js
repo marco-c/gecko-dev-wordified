@@ -224,10 +224,7 @@ dispatch
 (
 setBreakpointPositions
 (
-{
-cx
 location
-}
 )
 )
 ;
