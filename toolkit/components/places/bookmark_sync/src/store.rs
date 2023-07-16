@@ -8475,6 +8475,7 @@ url
 keyword
 position
 tagFolderName
+unknownFields
 )
 {
 }
@@ -8570,6 +8571,7 @@ url
 keyword
 position
 tagFolderName
+unknownFields
 )
 {
 }
@@ -9980,6 +9982,9 @@ place
 )
 AS
 tagFolderName
+v
+.
+unknownFields
 FROM
 moz_bookmarks
 {
@@ -10012,6 +10017,20 @@ id
 }
 .
 fk
+LEFT
+JOIN
+items
+v
+ON
+v
+.
+guid
+=
+{
+0
+}
+.
+guid
 "
 self
 .
