@@ -296,13 +296,6 @@ BytecodeCompiler
 .
 h
 *
-and
-*
-BytecodeCompilation
-.
-h
-.
-*
 This
 is
 the
