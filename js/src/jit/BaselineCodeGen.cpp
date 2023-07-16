@@ -9828,6 +9828,7 @@ info
 >
 compilerWarmUpThreshold
 (
+cx
 script
 pc
 )
