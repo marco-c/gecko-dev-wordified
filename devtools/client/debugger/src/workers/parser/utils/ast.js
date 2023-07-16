@@ -59,9 +59,13 @@ MPL
 *
 /
 import
+{
 parseScriptTags
+}
 from
 "
+.
+/
 parse
 -
 script
