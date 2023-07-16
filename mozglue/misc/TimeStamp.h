@@ -3997,6 +3997,7 @@ return
 this
 ;
 }
+constexpr
 bool
 operator
 <
@@ -4050,6 +4051,7 @@ aOther
 mValue
 ;
 }
+constexpr
 bool
 operator
 <
@@ -4105,6 +4107,7 @@ aOther
 mValue
 ;
 }
+constexpr
 bool
 operator
 >
@@ -4160,6 +4163,7 @@ aOther
 mValue
 ;
 }
+constexpr
 bool
 operator
 >
