@@ -710,10 +710,10 @@ true
 ;
 let
 [
-isPrivate
 state
 queryContext
 details
+controller
 ]
 =
 await
@@ -723,6 +723,10 @@ Assert
 .
 equal
 (
+controller
+.
+input
+.
 isPrivate
 expectedIsPrivate
 "
@@ -842,10 +846,10 @@ endEngagement
 }
 ;
 [
-isPrivate
 state
 queryContext
 details
+controller
 ]
 =
 await
@@ -855,6 +859,10 @@ Assert
 .
 equal
 (
+controller
+.
+input
+.
 isPrivate
 expectedIsPrivate
 "

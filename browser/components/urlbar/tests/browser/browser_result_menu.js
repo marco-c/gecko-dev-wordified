@@ -1278,7 +1278,6 @@ provider
 onEngagement
 =
 (
-isPrivate
 state
 queryContext
 details

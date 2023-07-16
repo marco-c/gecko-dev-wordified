@@ -4083,7 +4083,6 @@ UrlbarProviderWeather
 .
 onEngagement
 (
-false
 "
 engagement
 "

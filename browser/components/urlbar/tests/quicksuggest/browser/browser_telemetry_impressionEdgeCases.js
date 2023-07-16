@@ -3192,7 +3192,7 @@ call
 .
 args
 [
-1
+0
 ]
 ;
 return

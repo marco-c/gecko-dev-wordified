@@ -999,7 +999,6 @@ UrlbarProviderQuickSuggest
 .
 onEngagement
 (
-false
 state
 context
 |
