@@ -845,7 +845,7 @@ Global
 wgc
 :
 :
-hub
+global
 :
 :
 Global
@@ -871,7 +871,7 @@ Target
 wgc
 :
 :
-hub
+global
 :
 :
 Global
@@ -1027,7 +1027,7 @@ Global
 wgc
 :
 :
-hub
+global
 :
 :
 Global
@@ -3256,7 +3256,7 @@ A
 wgc
 :
 :
-hub
+hal_api
 :
 :
 HalApi
@@ -3995,7 +3995,7 @@ A
 wgc
 :
 :
-hub
+hal_api
 :
 :
 HalApi
@@ -4081,7 +4081,7 @@ A
 wgc
 :
 :
-hub
+hal_api
 :
 :
 HalApi

@@ -218,6 +218,11 @@ doc
 hidden
 )
 ]
+pub
+unsafe
+type
+CGGradient
+{
 type
 CType
 =
@@ -262,14 +267,7 @@ as
 mut
 _
 ;
-pub
-struct
-CGGradient
-;
-pub
-struct
-CGGradientRef
-;
+}
 }
 impl
 CGGradient

@@ -80,7 +80,7 @@ struct
 App
 {
 pub
-device
+_device
 :
 Device
 pub
@@ -731,6 +731,8 @@ unwrap
 ;
 Self
 {
+_device
+:
 device
 command_queue
 layer
