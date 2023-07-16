@@ -29594,7 +29594,7 @@ data_channel_controller
 )
 -
 >
-HasDataChannels
+HasUsedDataChannels
 (
 )
 ;
@@ -31278,15 +31278,16 @@ section
 if
 we
 have
+requested
 local
 data
 channels
 and
 an
+/
+/
 m
 section
-/
-/
 does
 not
 already
@@ -31308,7 +31309,7 @@ data_channel_controller
 )
 -
 >
-HasDataChannels
+HasUsedDataChannels
 (
 )
 )

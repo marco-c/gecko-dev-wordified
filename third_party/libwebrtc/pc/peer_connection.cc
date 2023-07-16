@@ -9508,7 +9508,7 @@ first_datachannel
 !
 data_channel_controller_
 .
-HasDataChannels
+HasUsedDataChannels
 (
 )
 ;
