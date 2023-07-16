@@ -1843,14 +1843,6 @@ JSTracer
 trc
 )
 ;
-void
-traceWeak
-(
-JSTracer
-*
-trc
-)
-;
 static
 inline
 size_t

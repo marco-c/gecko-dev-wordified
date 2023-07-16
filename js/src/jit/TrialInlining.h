@@ -558,14 +558,6 @@ JSTracer
 trc
 )
 ;
-void
-traceWeak
-(
-JSTracer
-*
-trc
-)
-;
 bool
 addInlinedScript
 (
