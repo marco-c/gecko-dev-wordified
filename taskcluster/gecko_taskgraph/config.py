@@ -533,6 +533,19 @@ bool
 }
             
 }
+            
+Optional
+(
+"
+rebuild
+-
+kinds
+"
+)
+:
+[
+str
+]
         
 }
         
