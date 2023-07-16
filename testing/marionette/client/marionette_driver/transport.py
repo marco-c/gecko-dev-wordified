@@ -1421,8 +1421,20 @@ recv_bytes
 )
                 
 except
-OSError
+socket
+.
+timeout
 :
+                    
+#
+Lets
+handle
+it
+with
+our
+own
+timeout
+check
                     
 continue
                 
