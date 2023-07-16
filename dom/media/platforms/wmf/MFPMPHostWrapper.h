@@ -193,11 +193,15 @@ public
 MFPMPHostWrapper
 (
 )
+=
+default
 ;
 ~
 MFPMPHostWrapper
 (
 )
+=
+default
 ;
 HRESULT
 RuntimeClassInitialize
@@ -244,11 +248,6 @@ void
 aActivatedClass
 )
 override
-;
-void
-Shutdown
-(
-)
 ;
 private
 :

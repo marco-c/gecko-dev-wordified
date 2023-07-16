@@ -157,7 +157,13 @@ IMFContentDecryptionModule
 *
 aCDM
 )
-;
+:
+mCDM
+(
+aCDM
+)
+{
+}
 public
 :
 /
@@ -358,6 +364,8 @@ private
 MFCDMProxy
 (
 )
+=
+default
 ;
 Microsoft
 :
