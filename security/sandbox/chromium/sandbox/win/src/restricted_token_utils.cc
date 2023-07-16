@@ -571,6 +571,11 @@ push_back
 SE_CHANGE_NOTIFY_NAME
 )
 ;
+if
+(
+use_restricting_sids
+)
+{
 restricted_token
 .
 AddRestrictingSid
@@ -618,6 +623,7 @@ AddRestrictingSidLogonSession
 (
 )
 ;
+}
 break
 ;
 }
