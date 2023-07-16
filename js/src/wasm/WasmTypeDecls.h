@@ -298,6 +298,17 @@ WasmInstanceObject
 >
 ;
 using
+WasmMemoryObjectVector
+=
+GCVector
+<
+WasmMemoryObject
+*
+0
+SystemAllocPolicy
+>
+;
+using
 WasmTableObjectVector
 =
 GCVector
