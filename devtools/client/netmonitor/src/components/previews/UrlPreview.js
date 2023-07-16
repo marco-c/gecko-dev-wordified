@@ -535,6 +535,11 @@ address
 PropTypes
 .
 string
+proxyStatus
+:
+PropTypes
+.
+string
 shouldExpandPreview
 :
 PropTypes
@@ -1333,6 +1338,7 @@ const
 {
 method
 address
+proxyStatus
 }
 =
 this
@@ -1569,7 +1575,7 @@ makes
 sure
 the
 remote
-adress
+address
 section
 is
 expanded
@@ -1598,6 +1604,16 @@ L10N
 .
 getStr
 (
+proxyStatus
+?
+"
+netmonitor
+.
+headers
+.
+proxyAddress
+"
+:
 "
 netmonitor
 .
