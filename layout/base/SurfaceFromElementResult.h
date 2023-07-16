@@ -182,6 +182,10 @@ class
 ImageBitmap
 ;
 }
+/
+/
+namespace
+dom
 namespace
 gfx
 {
