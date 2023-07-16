@@ -264,6 +264,9 @@ endif
 class
 TimeStamp
 ;
+class
+TimeStampTests
+;
 /
 *
 *
@@ -1981,6 +1984,7 @@ class
 BaseTimeDuration
 ;
 static
+constexpr
 BaseTimeDuration
 FromTicks
 (
@@ -3112,6 +3116,7 @@ null
 moment
 *
 /
+constexpr
 bool
 IsNull
 (
@@ -4358,6 +4363,11 @@ friend
 struct
 TimeStampInitialization
 ;
+friend
+class
+TimeStampTests
+;
+constexpr
 MOZ_IMPLICIT
 TimeStamp
 (
