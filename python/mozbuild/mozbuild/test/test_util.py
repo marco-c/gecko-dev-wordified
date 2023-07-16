@@ -6536,15 +6536,11 @@ self
 )
 :
         
-class
 CompilerType
-(
-EnumString
-)
-:
-            
-POSSIBLE_VALUES
 =
+EnumString
+.
+subclass
 (
 "
 gcc
