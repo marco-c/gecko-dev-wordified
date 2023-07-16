@@ -1878,6 +1878,13 @@ nullptr
 nsCString
 contentTypeWithCharset
 ;
+contentTypeWithCharset
+.
+SetIsVoid
+(
+true
+)
+;
 nsCOMPtr
 <
 nsIInputStream
