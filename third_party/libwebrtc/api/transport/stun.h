@@ -4903,6 +4903,15 @@ Not
 yet
 implemented
 .
+STUN_ATTR_GOOG_DELTA_SYNC_REQ
+=
+0xC05E
+/
+/
+Not
+yet
+implemented
+.
 /
 /
 MESSAGE
