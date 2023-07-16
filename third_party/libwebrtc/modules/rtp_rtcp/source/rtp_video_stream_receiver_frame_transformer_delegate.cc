@@ -404,6 +404,17 @@ return
 metadata_
 ;
 }
+VideoFrameMetadata
+Metadata
+(
+)
+const
+override
+{
+return
+metadata_
+;
+}
 void
 SetMetadata
 (
