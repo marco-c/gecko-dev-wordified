@@ -303,6 +303,8 @@ emitInitialize
 (
 uint32_t
 forPos
+bool
+isIteratorMethodOnStack
 )
 {
 MOZ_ASSERT
@@ -329,22 +331,7 @@ stack
 ]
 #
 if
-AllowContentWithNext
-/
-/
-[
-stack
-]
-NEXT
-ITER
-/
-/
-[
-stack
-]
-#
-elif
-AllowContentWith
+isIteratorMethodOnStack
 /
 /
 [
@@ -361,6 +348,7 @@ stack
 ]
 #
 else
+isIteratorMethodOnStack
 /
 /
 [
@@ -387,6 +375,7 @@ bce_
 emitAsyncIterator
 (
 selfHostedIter_
+isIteratorMethodOnStack
 )
 )
 {
@@ -413,6 +402,7 @@ bce_
 emitIterator
 (
 selfHostedIter_
+isIteratorMethodOnStack
 )
 )
 {
