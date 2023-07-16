@@ -478,15 +478,6 @@ h
 #
 include
 "
-mozilla
-/
-MozPromiseInlines
-.
-h
-"
-#
-include
-"
 nsDocShell
 .
 h
