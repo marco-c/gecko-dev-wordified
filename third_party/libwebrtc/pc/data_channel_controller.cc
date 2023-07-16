@@ -598,6 +598,11 @@ the
 network
 thread
 .
+auto
+copy
+=
+sctp_data_channels_
+;
 for
 (
 const
@@ -605,7 +610,7 @@ auto
 &
 channel
 :
-sctp_data_channels_
+copy
 )
 {
 if
@@ -698,6 +703,11 @@ the
 network
 thread
 .
+auto
+copy
+=
+sctp_data_channels_
+;
 for
 (
 const
@@ -705,7 +715,7 @@ auto
 &
 channel
 :
-sctp_data_channels_
+copy
 )
 {
 if
@@ -951,6 +961,11 @@ data_channel_transport_ready_to_send_
 =
 true
 ;
+auto
+copy
+=
+sctp_data_channels_
+;
 for
 (
 const
@@ -958,7 +973,7 @@ auto
 &
 channel
 :
-sctp_data_channels_
+copy
 )
 channel
 -
@@ -2826,6 +2841,11 @@ signaling_thread
 )
 )
 ;
+auto
+copy
+=
+sctp_data_channels_
+;
 for
 (
 const
@@ -2833,7 +2853,7 @@ auto
 &
 channel
 :
-sctp_data_channels_
+copy
 )
 {
 channel
