@@ -2459,11 +2459,6 @@ props
 .
 toggleSourceMapIgnoreList
 (
-this
-.
-props
-.
-cx
 !
 prefs
 .
