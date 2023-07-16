@@ -6912,12 +6912,12 @@ polygon_offset
 (
 bias
 .
+slope_scale
+bias
+.
 constant
 as
 f32
-bias
-.
-slope_scale
 )
 }
 ;

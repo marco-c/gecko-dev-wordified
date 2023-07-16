@@ -80,7 +80,7 @@ wgc
 :
 :
 {
-hub
+identity
 :
 :
 IdentityManager
