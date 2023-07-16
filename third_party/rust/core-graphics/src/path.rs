@@ -204,6 +204,11 @@ doc
 hidden
 )
 ]
+pub
+unsafe
+type
+CGPath
+{
 type
 CType
 =
@@ -248,14 +253,7 @@ as
 mut
 _
 ;
-pub
-struct
-CGPath
-;
-pub
-struct
-CGPathRef
-;
+}
 }
 impl
 CGPath
@@ -310,6 +308,9 @@ CGAffineTransform
 }
 ;
 CGPath
+:
+:
+from_ptr
 (
 CGPathCreateWithRect
 (
