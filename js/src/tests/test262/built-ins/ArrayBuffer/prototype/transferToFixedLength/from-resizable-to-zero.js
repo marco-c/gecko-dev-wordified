@@ -9,9 +9,6 @@ skip
 resizable
 -
 arraybuffer
-arraybuffer
--
-transfer
 is
 not
 supported

@@ -6,9 +6,6 @@ reftest
 skip
 -
 -
-arraybuffer
--
-transfer
 resizable
 -
 arraybuffer
