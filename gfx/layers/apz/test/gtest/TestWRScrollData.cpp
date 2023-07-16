@@ -1355,10 +1355,8 @@ GetPlatform
 ;
 mManager
 =
+new
 APZCTreeManager
-:
-:
-Create
 (
 LayersId
 {
