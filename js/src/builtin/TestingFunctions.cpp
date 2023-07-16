@@ -446,10 +446,6 @@ frontend
 :
 :
 CompileGlobalScriptToExtensibleStencil
-frontend
-:
-:
-DelazifyCanonicalScriptedFunction
 #
 include
 "
