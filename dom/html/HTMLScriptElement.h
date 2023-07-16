@@ -253,6 +253,7 @@ virtual
 void
 FreezeExecutionAttrs
 (
+const
 Document
 *
 aOwnerDoc

@@ -112738,6 +112738,7 @@ Document
 ModuleScriptsEnabled
 (
 )
+const
 {
 return
 nsContentUtils
@@ -112764,6 +112765,7 @@ Document
 ImportMapsEnabled
 (
 )
+const
 {
 return
 nsContentUtils
