@@ -371,6 +371,9 @@ CompilationGCOutput
 struct
 CompilationInput
 ;
+struct
+PreallocatedCompilationGCOutput
+;
 }
 /
 /
@@ -622,9 +625,9 @@ instead
 of
 UniquePtr
 because
-CompilationGCOutput
 /
 /
+PreallocatedCompilationGCOutput
 is
 opaque
 .
@@ -634,7 +637,7 @@ js
 frontend
 :
 :
-CompilationGCOutput
+PreallocatedCompilationGCOutput
 *
 gcOutput_
 =
@@ -793,14 +796,6 @@ return
 gcOutput_
 ;
 }
-void
-trace
-(
-JSTracer
-*
-trc
-)
-;
 }
 ;
 }

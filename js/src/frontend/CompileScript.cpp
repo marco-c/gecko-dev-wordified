@@ -1518,7 +1518,7 @@ js
 frontend
 :
 :
-CompilationGCOutput
+PreallocatedCompilationGCOutput
 >
 (
 )
