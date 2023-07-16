@@ -147,6 +147,8 @@ modules
 /
 video_coding
 /
+deprecated
+/
 frame_buffer
 .
 h
