@@ -14,12 +14,10 @@ correct
 static
 scope
 .
-options
-(
-'
-strict_mode
-'
-)
+"
+use
+strict
+"
 ;
 var
 g
