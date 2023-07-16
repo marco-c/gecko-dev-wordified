@@ -541,7 +541,6 @@ handleBreakpointCheckbox
 {
 const
 {
-cx
 breakpoint
 enableBreakpoint
 disableBreakpoint
@@ -560,7 +559,6 @@ disabled
 {
 enableBreakpoint
 (
-cx
 breakpoint
 )
 ;
@@ -569,7 +567,6 @@ else
 {
 disableBreakpoint
 (
-cx
 breakpoint
 )
 ;

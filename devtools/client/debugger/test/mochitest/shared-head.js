@@ -6299,10 +6299,6 @@ actions
 .
 disableBreakpoint
 (
-getContext
-(
-dbg
-)
 bp
 )
 ;
