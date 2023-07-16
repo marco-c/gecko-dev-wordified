@@ -320,12 +320,9 @@ message
 includes
 (
 "
-Could
-not
-restore
-object
-using
+Invalid
 sessionId
+:
 not
 -
 a
