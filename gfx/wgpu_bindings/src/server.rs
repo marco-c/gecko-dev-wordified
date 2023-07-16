@@ -932,6 +932,9 @@ warn
 (
 "
 Error
+message
+'
+s
 length
 {
 }
@@ -939,6 +942,7 @@ reached
 capacity
 {
 }
+truncating
 "
 message
 .
