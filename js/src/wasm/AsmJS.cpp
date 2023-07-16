@@ -12049,9 +12049,7 @@ options
 (
 )
 .
-throwOnAsmJSValidationFailure
-(
-)
+throwOnAsmJSValidationFailureOption
 )
 {
 ReportCompileErrorLatin1
@@ -44177,13 +44175,12 @@ false
 ;
 options
 .
-setAsmJSOption
-(
+asmJSOption
+=
 AsmJSOption
 :
 :
 DisabledByLinker
-)
 ;
 /
 /
@@ -44782,9 +44779,7 @@ options
 (
 )
 .
-throwOnAsmJSValidationFailure
-(
-)
+throwOnAsmJSValidationFailureOption
 )
 {
 parser
@@ -44936,8 +44931,6 @@ options
 )
 .
 asmJSOption
-(
-)
 )
 {
 case
