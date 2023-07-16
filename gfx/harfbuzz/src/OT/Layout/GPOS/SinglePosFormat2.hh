@@ -567,6 +567,9 @@ position_single
 hb_font_t
 *
 font
+hb_blob_t
+*
+table_blob
 hb_direction_t
 direction
 hb_codepoint_t
@@ -649,6 +652,7 @@ c
 font
 &
 buffer
+table_blob
 )
 ;
 valueFormat

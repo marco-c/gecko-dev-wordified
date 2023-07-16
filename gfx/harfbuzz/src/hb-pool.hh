@@ -413,9 +413,8 @@ chunk
 chunk_t
 *
 )
-hb_calloc
+hb_malloc
 (
-1
 sizeof
 (
 chunk_t

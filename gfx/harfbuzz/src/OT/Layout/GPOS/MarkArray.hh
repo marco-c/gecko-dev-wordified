@@ -165,6 +165,7 @@ anchors
 .
 get_anchor
 (
+c
 glyph_index
 mark_class
 class_count

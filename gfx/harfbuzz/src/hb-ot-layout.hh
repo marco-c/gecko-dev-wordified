@@ -2536,9 +2536,6 @@ info
 )
 {
 return
-!
-!
-(
 info
 -
 >
@@ -2547,7 +2544,6 @@ lig_props
 )
 &
 IS_LIG_BASE
-)
 ;
 }
 static
@@ -2741,9 +2737,6 @@ info
 )
 {
 return
-!
-!
-(
 info
 -
 >
@@ -2752,7 +2745,6 @@ glyph_props
 )
 &
 HB_OT_LAYOUT_GLYPH_PROPS_BASE_GLYPH
-)
 ;
 }
 static
@@ -2767,9 +2759,6 @@ info
 )
 {
 return
-!
-!
-(
 info
 -
 >
@@ -2778,7 +2767,6 @@ glyph_props
 )
 &
 HB_OT_LAYOUT_GLYPH_PROPS_LIGATURE
-)
 ;
 }
 static
@@ -2793,9 +2781,6 @@ info
 )
 {
 return
-!
-!
-(
 info
 -
 >
@@ -2804,7 +2789,6 @@ glyph_props
 )
 &
 HB_OT_LAYOUT_GLYPH_PROPS_MARK
-)
 ;
 }
 static
@@ -2819,9 +2803,6 @@ info
 )
 {
 return
-!
-!
-(
 info
 -
 >
@@ -2830,7 +2811,6 @@ glyph_props
 )
 &
 HB_OT_LAYOUT_GLYPH_PROPS_SUBSTITUTED
-)
 ;
 }
 static
@@ -2845,9 +2825,6 @@ info
 )
 {
 return
-!
-!
-(
 info
 -
 >
@@ -2856,7 +2833,6 @@ glyph_props
 )
 &
 HB_OT_LAYOUT_GLYPH_PROPS_LIGATED
-)
 ;
 }
 static
@@ -2871,9 +2847,6 @@ info
 )
 {
 return
-!
-!
-(
 info
 -
 >
@@ -2882,7 +2855,6 @@ glyph_props
 )
 &
 HB_OT_LAYOUT_GLYPH_PROPS_MULTIPLIED
-)
 ;
 }
 static

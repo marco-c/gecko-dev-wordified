@@ -4890,7 +4890,7 @@ num_clusters
 utf8
 )
 {
-memset
+hb_memset
 (
 (
 void

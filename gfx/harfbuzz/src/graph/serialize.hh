@@ -1413,6 +1413,16 @@ total_size_in_bytes
 if
 (
 !
+size
+)
+return
+hb_blob_get_empty
+(
+)
+;
+if
+(
+!
 buffer
 .
 alloc

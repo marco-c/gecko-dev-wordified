@@ -1240,7 +1240,7 @@ text
 .
 length
 ;
-memcpy
+hb_memcpy
 (
 buffer
 -

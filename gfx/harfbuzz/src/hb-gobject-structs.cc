@@ -205,7 +205,6 @@ HAVE_GOBJECT
 /
 *
 *
-*
 SECTION
 :
 hb

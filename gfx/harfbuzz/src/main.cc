@@ -1543,7 +1543,7 @@ d
 "
 )
 ;
-hb_font_get_glyph_shape
+hb_font_draw_glyph
 (
 font
 layers
@@ -1813,7 +1813,7 @@ f
 =
 f
 ;
-hb_font_get_glyph_shape
+hb_font_draw_glyph
 (
 font
 gid

@@ -1329,7 +1329,7 @@ length
 num_points
 )
 ;
-memset
+hb_memset
 (
 rec_points
 0

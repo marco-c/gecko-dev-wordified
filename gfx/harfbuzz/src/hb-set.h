@@ -263,13 +263,7 @@ Since
 #
 define
 HB_SET_VALUE_INVALID
-(
-(
-hb_codepoint_t
-)
--
-1
-)
+HB_CODEPOINT_INVALID
 /
 *
 *

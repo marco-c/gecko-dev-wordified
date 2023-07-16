@@ -294,7 +294,7 @@ hb
 -
 ot
 -
-cff1
+cff2
 -
 table
 .
@@ -307,7 +307,7 @@ hb
 -
 ot
 -
-cff2
+cff1
 -
 table
 .
@@ -678,10 +678,11 @@ cmap_cache
 goto
 out
 ;
+new
+(
 cmap_cache
--
->
-init
+)
+hb_ot_font_cmap_cache_t
 (
 )
 ;
@@ -1316,12 +1317,11 @@ goto
 out
 ;
 }
-cache
--
->
-init
+new
 (
+cache
 )
+hb_ot_font_advance_cache_t
 ;
 if
 (
@@ -1471,7 +1471,7 @@ ot_font
 advance_cache
 -
 >
-init
+clear
 (
 )
 ;
@@ -2613,7 +2613,7 @@ if
 ot_face
 -
 >
-cff1
+cff2
 -
 >
 get_extents
@@ -2631,7 +2631,7 @@ if
 ot_face
 -
 >
-cff2
+cff1
 -
 >
 get_extents
@@ -3111,7 +3111,7 @@ face
 >
 table
 .
-cff1
+cff2
 -
 >
 get_path
@@ -3132,7 +3132,7 @@ face
 >
 table
 .
-cff2
+cff1
 -
 >
 get_path
@@ -3413,7 +3413,7 @@ face
 >
 table
 .
-cff1
+cff2
 -
 >
 paint_glyph
@@ -3437,7 +3437,7 @@ face
 >
 table
 .
-cff2
+cff1
 -
 >
 paint_glyph

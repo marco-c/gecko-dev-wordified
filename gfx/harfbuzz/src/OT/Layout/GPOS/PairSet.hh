@@ -264,6 +264,13 @@ firstPairValueRecord
 ;
 return_trace
 (
+c
+-
+>
+lazy_some_gpos
+|
+|
+(
 closure
 -
 >
@@ -320,6 +327,7 @@ closure
 -
 >
 stride
+)
 )
 )
 ;

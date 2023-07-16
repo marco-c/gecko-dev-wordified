@@ -4862,7 +4862,7 @@ OT
 cff1
 :
 :
-accelerator_t
+accelerator_subset_t
 *
 _cff
 )
@@ -4893,7 +4893,7 @@ OT
 cff1
 :
 :
-accelerator_t
+accelerator_subset_t
 *
 cff
 ;
@@ -5018,7 +5018,7 @@ OT
 cff1
 :
 :
-accelerator_t
+accelerator_subset_t
 :
 :
 get_seac_components

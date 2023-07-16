@@ -938,11 +938,7 @@ operator
 <
 (
 const
-hb_pair_t
-<
-hb_codepoint_t
-hb_codepoint_t
->
+hb_codepoint_pair_t
 &
 range
 )
@@ -1540,11 +1536,7 @@ operator
 <
 (
 const
-hb_pair_t
-<
-hb_codepoint_t
-hb_codepoint_t
->
+hb_codepoint_pair_t
 &
 range
 )

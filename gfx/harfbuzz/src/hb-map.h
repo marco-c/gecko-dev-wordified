@@ -272,13 +272,7 @@ Since
 #
 define
 HB_MAP_VALUE_INVALID
-(
-(
-hb_codepoint_t
-)
--
-1
-)
+HB_CODEPOINT_INVALID
 /
 *
 *

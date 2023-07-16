@@ -403,7 +403,7 @@ size
 return
 CAIRO_STATUS_READ_ERROR
 ;
-memcpy
+hb_memcpy
 (
 data
 d
@@ -4495,7 +4495,7 @@ span
 ;
 span
 =
-fabs
+fabsf
 (
 span
 )

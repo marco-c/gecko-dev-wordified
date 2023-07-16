@@ -2928,6 +2928,10 @@ convert
 *
 language
 :
+(
+nullable
+)
+:
 an
 #
 hb_language_t

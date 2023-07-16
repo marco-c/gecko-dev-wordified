@@ -326,6 +326,12 @@ DEFINE_SIZE_UNION
 format
 )
 ;
+#
+ifndef
+HB_OPTIMIZE_SIZE
+HB_ALWAYS_INLINE
+#
+endif
 bool
 sanitize
 (

@@ -322,6 +322,9 @@ c
 1
 font
 buffer
+hb_blob_get_empty
+(
+)
 )
 ;
 c

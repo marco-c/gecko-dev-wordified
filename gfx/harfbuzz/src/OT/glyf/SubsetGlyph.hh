@@ -81,6 +81,7 @@ hb_subset_plan_t
 *
 plan
 )
+const
 {
 TRACE_SERIALIZE
 (
@@ -194,6 +195,9 @@ pad_length
 0
 )
 {
+(
+void
+)
 c
 -
 >
