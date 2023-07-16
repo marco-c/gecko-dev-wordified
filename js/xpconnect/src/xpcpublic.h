@@ -4720,6 +4720,7 @@ automation
 .
 #
 if
+(
 defined
 (
 XP_DARWIN
@@ -4729,6 +4730,13 @@ XP_DARWIN
 defined
 (
 __aarch64__
+)
+)
+|
+|
+defined
+(
+__loongarch__
 )
 const
 size_t
