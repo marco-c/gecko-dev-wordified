@@ -4965,6 +4965,8 @@ cx
 Instance
 *
 instance
+uint32_t
+memoryIndex
 I
 dstOffset
 uint32_t
@@ -5051,7 +5053,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 ;
 const
@@ -5288,6 +5290,8 @@ uint32_t
 len
 uint32_t
 segIndex
+uint32_t
+memIndex
 )
 {
 MOZ_ASSERT
@@ -5341,6 +5345,7 @@ MemoryInit
 (
 cx
 instance
+memIndex
 dstOffset
 srcOffset
 len
@@ -5376,6 +5381,8 @@ uint32_t
 len
 uint32_t
 segIndex
+uint32_t
+memIndex
 )
 {
 MOZ_ASSERT
@@ -5429,6 +5436,7 @@ MemoryInit
 (
 cx
 instance
+memIndex
 dstOffset
 srcOffset
 len

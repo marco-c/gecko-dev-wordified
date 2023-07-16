@@ -1569,9 +1569,10 @@ SymbolicAddress
 MemInitM32
 _VOID
 _FailOnNegI32
-5
+6
 {
 _PTR
+_I32
 _I32
 _I32
 _I32
@@ -1591,10 +1592,11 @@ SymbolicAddress
 MemInitM64
 _VOID
 _FailOnNegI32
-5
+6
 {
 _PTR
 _I64
+_I32
 _I32
 _I32
 _I32
@@ -8755,7 +8757,7 @@ MemInitM32
 *
 abiType
 =
-Args_Int32_GeneralInt32Int32Int32Int32
+Args_Int32_GeneralInt32Int32Int32Int32Int32
 ;
 MOZ_ASSERT
 (
@@ -8789,7 +8791,7 @@ MemInitM64
 *
 abiType
 =
-Args_Int32_GeneralInt64Int32Int32Int32
+Args_Int32_GeneralInt64Int32Int32Int32Int32
 ;
 MOZ_ASSERT
 (
