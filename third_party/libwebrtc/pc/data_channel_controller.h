@@ -320,7 +320,7 @@ Implements
 /
 SctpDataChannelProviderInterface
 .
-bool
+RTCError
 SendData
 (
 StreamId
@@ -336,12 +336,6 @@ rtc
 CopyOnWriteBuffer
 &
 payload
-cricket
-:
-:
-SendDataResult
-*
-result
 )
 override
 ;
@@ -829,7 +823,7 @@ data_channel_transport
 is
 true
 .
-bool
+RTCError
 DataChannelSendData
 (
 StreamId
@@ -845,12 +839,6 @@ rtc
 CopyOnWriteBuffer
 &
 payload
-cricket
-:
-:
-SendDataResult
-*
-result
 )
 ;
 /

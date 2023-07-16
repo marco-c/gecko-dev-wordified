@@ -7978,14 +7978,6 @@ rtx_time
 ;
 }
 ;
-enum
-SendDataResult
-{
-SDR_SUCCESS
-SDR_ERROR
-SDR_BLOCK
-}
-;
 }
 /
 /
