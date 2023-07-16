@@ -260,7 +260,7 @@ h
 "
 /
 /
-CompileGlobalScriptToStencil
+InstantiateStencils
 #
 include
 "
@@ -272,6 +272,7 @@ h
 "
 /
 /
+CompileGlobalScriptToStencil
 CanLazilyParse
 ParseModuleToStencil
 #
