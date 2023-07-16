@@ -5190,12 +5190,12 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
+Core
 "
 "
+DOM
+:
 Notifications
-and
-Alerts
 "
 )
 with

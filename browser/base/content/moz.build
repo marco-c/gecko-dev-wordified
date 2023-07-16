@@ -191,9 +191,8 @@ BUG_COMPONENT
 Toolkit
 "
 "
-Notifications
-and
 Alerts
+Service
 "
 )
 with
@@ -533,9 +532,10 @@ BUG_COMPONENT
 Toolkit
 "
 "
-Notifications
+PopupNotifications
 and
-Alerts
+Notification
+Bars
 "
 )
 with
