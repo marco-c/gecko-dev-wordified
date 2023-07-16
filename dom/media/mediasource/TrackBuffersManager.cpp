@@ -19971,8 +19971,9 @@ i
 ;
 }
 }
-MOZ_CRASH
+MOZ_ASSERT
 (
+false
 "
 FindSampleIndex
 called
@@ -20204,7 +20205,7 @@ Find
 aTime
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 index
 !
