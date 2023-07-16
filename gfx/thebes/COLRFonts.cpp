@@ -4116,13 +4116,6 @@ aStops
 .
 StableSort
 (
-nsDefaultComparator
-<
-GradientStop
-GradientStop
->
-(
-)
 )
 ;
 if
