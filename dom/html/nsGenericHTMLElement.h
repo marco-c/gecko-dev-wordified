@@ -1228,7 +1228,7 @@ MOZ_CAN_RUN_SCRIPT
 void
 ShowPopoverInternal
 (
-nsGenericHTMLFormControlElementWithState
+Element
 *
 aInvoker
 ErrorResult
