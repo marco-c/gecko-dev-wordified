@@ -341,16 +341,6 @@ opus
 ;
 const
 char
-kIsacCodecName
-[
-]
-=
-"
-ISAC
-"
-;
-const
-char
 kL16CodecName
 [
 ]

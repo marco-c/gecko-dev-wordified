@@ -243,13 +243,6 @@ kOpusCodecName
 extern
 const
 char
-kIsacCodecName
-[
-]
-;
-extern
-const
-char
 kL16CodecName
 [
 ]
