@@ -17925,6 +17925,8 @@ AsElement
 }
 bool
 wasRestyled
+=
+false
 ;
 Unused
 <
@@ -20021,6 +20023,8 @@ Servo
 .
 bool
 wasRestyled
+=
+false
 ;
 nsChangeHint
 changeHint
