@@ -361,7 +361,6 @@ by
 timeCreated
 *
 /
-async
 function
 verifyLogins
 (
@@ -374,7 +373,6 @@ expectedLogins
 let
 allLogins
 =
-await
 Services
 .
 logins
@@ -1724,7 +1722,6 @@ aOrigin
 )
 ;
 }
-async
 function
 checkOnlyLoginWasUsedTwice
 (
@@ -1762,7 +1759,6 @@ test
 let
 logins
 =
-await
 Services
 .
 logins

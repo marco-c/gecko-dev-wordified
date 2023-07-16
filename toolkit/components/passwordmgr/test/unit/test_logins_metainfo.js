@@ -819,7 +819,6 @@ retrieveLoginMatching
 gLoginInfo3
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -924,7 +923,6 @@ the
 previous
 call
 .
-await
 LoginTestUtils
 .
 checkLogins
@@ -1555,7 +1553,6 @@ exception
 /
 add_task
 (
-async
 function
 test_modifyLogin_nsIProperyBag_metainfo_duplicate
 (
@@ -1595,7 +1592,6 @@ exists
 /
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins
@@ -1856,7 +1852,6 @@ reloadData
 (
 )
 ;
-await
 LoginTestUtils
 .
 checkLogins

@@ -2796,7 +2796,6 @@ exist
 let
 logins
 =
-await
 Services
 .
 logins
@@ -2899,7 +2898,6 @@ uris
 ;
 logins
 =
-await
 Services
 .
 logins
@@ -3000,7 +2998,6 @@ clean
 up
 registerCleanupFunction
 (
-async
 (
 )
 =
@@ -3016,7 +3013,6 @@ removeAllUserFacingLogins
 ;
 logins
 =
-await
 Services
 .
 logins
@@ -3150,7 +3146,6 @@ exist
 let
 logins
 =
-await
 Services
 .
 logins
@@ -3313,7 +3308,6 @@ uris
 ;
 logins
 =
-await
 Services
 .
 logins

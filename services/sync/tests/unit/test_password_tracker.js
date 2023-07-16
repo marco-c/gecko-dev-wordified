@@ -1139,8 +1139,9 @@ Services
 .
 logins
 .
-getAllLogins
+getAllLoginsAsync
 (
+true
 )
 ;
 for

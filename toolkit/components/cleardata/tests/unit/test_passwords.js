@@ -130,7 +130,6 @@ Assert
 .
 equal
 (
-await
 countLogins
 (
 URL
@@ -217,7 +216,6 @@ Assert
 .
 equal
 (
-await
 countLogins
 (
 URL
@@ -312,7 +310,6 @@ Assert
 .
 equal
 (
-await
 countLogins
 (
 URL
@@ -365,7 +362,6 @@ Assert
 .
 equal
 (
-await
 countLogins
 (
 URL
@@ -382,7 +378,6 @@ clearData
 }
 )
 ;
-async
 function
 countLogins
 (
@@ -397,7 +392,6 @@ count
 const
 logins
 =
-await
 Services
 .
 logins
