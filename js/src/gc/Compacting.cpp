@@ -3081,14 +3081,6 @@ traceWeakMaps
 trc
 )
 ;
-zone
--
->
-sweepObjectsWithWeakPointers
-(
-trc
-)
-;
 traceWeakFinalizationObserverEdges
 (
 trc
@@ -3142,7 +3134,6 @@ jitZone
 traceWeak
 (
 trc
-zone
 )
 ;
 }
