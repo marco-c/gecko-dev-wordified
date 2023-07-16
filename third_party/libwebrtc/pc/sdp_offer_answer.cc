@@ -23940,7 +23940,7 @@ data_channel_controller
 )
 -
 >
-HasSctpDataChannels
+HasDataChannels
 (
 )
 )
