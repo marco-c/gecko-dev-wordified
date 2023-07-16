@@ -2530,6 +2530,7 @@ stat
 .
 qpSum
 >
+=
 0
 {
 stat
