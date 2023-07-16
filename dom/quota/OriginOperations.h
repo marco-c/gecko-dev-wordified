@@ -185,7 +185,7 @@ typename
 T
 >
 class
-ResolvableOriginOp
+ResolvableNormalOriginOp
 ;
 class
 UsageRequestParams
@@ -227,7 +227,7 @@ aTimestamp
 ;
 RefPtr
 <
-ResolvableOriginOp
+ResolvableNormalOriginOp
 <
 bool
 >
@@ -238,7 +238,7 @@ CreateClearPrivateRepositoryOp
 ;
 RefPtr
 <
-ResolvableOriginOp
+ResolvableNormalOriginOp
 <
 bool
 >
