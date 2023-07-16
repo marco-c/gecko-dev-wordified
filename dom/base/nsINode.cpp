@@ -9868,6 +9868,7 @@ AdoptNode
 *
 aNode
 aError
+true
 )
 ;
 #
@@ -17838,6 +17839,12 @@ newContent
 OwnerDoc
 (
 )
+&
+&
+nodeType
+!
+=
+DOCUMENT_FRAGMENT_NODE
 )
 {
 AdoptNodeIntoOwnerDoc
