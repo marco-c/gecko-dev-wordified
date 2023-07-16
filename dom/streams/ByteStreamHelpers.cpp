@@ -534,12 +534,16 @@ qualify
 as
 having
 an
-undefined
 [
 [
 ArrayBufferDetachKey
 ]
 ]
+which
+is
+not
+undefined
+.
 bool
 hasDefinedArrayBufferDetachKey
 =
