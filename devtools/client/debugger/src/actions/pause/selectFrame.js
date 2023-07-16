@@ -240,12 +240,6 @@ type
 "
 SELECT_FRAME
 "
-cx
-thread
-:
-cx
-.
-thread
 frame
 }
 )

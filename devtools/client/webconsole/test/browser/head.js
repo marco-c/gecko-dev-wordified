@@ -9054,13 +9054,6 @@ actions
 .
 selectFrame
 (
-dbg
-.
-selectors
-.
-getThreadContext
-(
-)
 frame
 )
 ;

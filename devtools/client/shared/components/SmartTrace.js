@@ -1644,7 +1644,6 @@ frames
 selectFrame
 :
 (
-cx
 {
 generatedLocation
 }

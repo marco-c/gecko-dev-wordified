@@ -393,6 +393,14 @@ selectedFrame
 ?
 .
 thread
+|
+|
+action
+.
+frame
+?
+.
+thread
 ;
 if
 (
@@ -958,7 +966,7 @@ PAUSED
 const
 {
 thread
-frame
+topFrame
 why
 }
 =
@@ -1002,7 +1010,7 @@ isWaitingOnBreak
 false
 selectedFrameId
 :
-frame
+topFrame
 .
 id
 isPaused
@@ -1033,7 +1041,7 @@ action
 frames
 :
 [
-frame
+topFrame
 ]
 framesLoading
 :
