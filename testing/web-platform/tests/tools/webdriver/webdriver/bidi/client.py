@@ -748,11 +748,11 @@ module
         
 self
 .
-session
+browser
 =
 modules
 .
-Session
+Browser
 (
 self
 )
@@ -786,6 +786,17 @@ script
 modules
 .
 Script
+(
+self
+)
+        
+self
+.
+session
+=
+modules
+.
+Session
 (
 self
 )

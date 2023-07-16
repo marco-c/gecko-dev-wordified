@@ -4,9 +4,9 @@ flake8
 noqa
 from
 .
-session
+browser
 import
-Session
+Browser
 from
 .
 browsing_context
@@ -22,3 +22,8 @@ from
 script
 import
 Script
+from
+.
+session
+import
+Session
