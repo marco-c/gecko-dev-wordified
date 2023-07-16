@@ -251,7 +251,7 @@ struct
 OBJECT_NAME_INFORMATION
 {
 UNICODE_STRING
-mName
+Name
 ;
 }
 ;
