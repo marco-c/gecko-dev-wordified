@@ -1039,11 +1039,6 @@ alignment
 ;
 }
 using
-byte
-=
-uint8_t
-;
-using
 Address
 =
 uintptr_t
@@ -5194,7 +5189,7 @@ Isolate
 isolate
 )
 ;
-byte
+uint8_t
 get
 (
 uint32_t
@@ -5218,7 +5213,7 @@ set
 (
 uint32_t
 index
-byte
+uint8_t
 val
 )
 {
@@ -5249,7 +5244,7 @@ inner
 length
 ;
 }
-byte
+uint8_t
 *
 GetDataStartAddress
 (
