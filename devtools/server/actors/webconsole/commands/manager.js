@@ -788,7 +788,11 @@ return
 !
 dbgGlobal
 .
-getOwnPropertyDescriptor
+asEnvironment
+(
+)
+.
+find
 (
 name
 )
