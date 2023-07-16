@@ -193,15 +193,11 @@ public
 MFPMPHostWrapper
 (
 )
-=
-default
 ;
 ~
 MFPMPHostWrapper
 (
 )
-=
-default
 ;
 HRESULT
 RuntimeClassInitialize
