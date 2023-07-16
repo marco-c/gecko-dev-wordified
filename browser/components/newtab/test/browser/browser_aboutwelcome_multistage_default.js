@@ -856,8 +856,10 @@ if
 (
 win7Content
 )
+{
 return
 ;
+}
 await
 test_screen_content
 (
@@ -1750,8 +1752,10 @@ if
 (
 win7Content
 )
+{
 return
 ;
+}
 let
 browser
 =
@@ -2179,8 +2183,10 @@ if
 (
 win7Content
 )
+{
 return
 ;
+}
 let
 browser
 =
@@ -3127,8 +3133,10 @@ if
 (
 win7Content
 )
+{
 return
 ;
+}
 let
 browser
 =

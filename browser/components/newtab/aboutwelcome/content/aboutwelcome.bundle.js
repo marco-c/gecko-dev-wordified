@@ -5386,6 +5386,7 @@ if
 (
 current
 )
+{
 requestAnimationFrame
 (
 (
@@ -5438,6 +5439,7 @@ short
 )
 )
 ;
+}
 }
 )
 ;
@@ -5612,6 +5614,7 @@ text
 .
 args
 )
+{
 props
 [
 "
@@ -5632,6 +5635,7 @@ text
 args
 )
 ;
+}
 }
 else
 if
@@ -5800,6 +5804,7 @@ style
 =
 undefined
 )
+{
 props
 .
 style
@@ -5812,6 +5817,7 @@ text
 style
 ]
 ;
+}
 }
 )
 ;
@@ -7107,6 +7113,7 @@ if
 (
 isVideoOnboarding
 )
+{
 return
 "
 with
@@ -7114,6 +7121,7 @@ with
 video
 "
 ;
+}
 return
 {
 isFirstScreen
@@ -10219,8 +10227,10 @@ if
 (
 hasReverted
 )
+{
 return
 ;
+}
 /
 /
 Spoofing
