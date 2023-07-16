@@ -323,7 +323,7 @@ nsIAlertAction
 mActions
 ;
 nsString
-mLaunchURL
+mOpaqueRelaunchData
 ;
 }
 ;
