@@ -149,17 +149,6 @@ gre
 /
 modules
 /
-Services
-"
-"
-resource
-:
-/
-/
-gre
-/
-modules
-/
 XPCOMUtils
 "
 "
