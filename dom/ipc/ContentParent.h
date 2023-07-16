@@ -3191,16 +3191,6 @@ CancelContentJSOptions
 aCancelContentJSOptions
 )
 ;
-void
-SetMainThreadQoSPriority
-(
-nsIThread
-:
-:
-QoSPriority
-aQoSPriority
-)
-;
 /
 /
 This
