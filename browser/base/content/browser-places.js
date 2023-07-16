@@ -3456,9 +3456,8 @@ try
 return
 SessionStore
 .
-getClosedTabCountForWindow
+getClosedTabCount
 (
-window
 )
 ;
 }

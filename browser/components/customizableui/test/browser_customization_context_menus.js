@@ -468,9 +468,8 @@ closedTabsAvailable
 =
 SessionStore
 .
-getClosedTabCountForWindow
+getClosedTabCount
 (
-window
 )
 =
 =
