@@ -5101,6 +5101,7 @@ percentage
 [
 inline
 ]
+pub
 fn
 resolve
 (
