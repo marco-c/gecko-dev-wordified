@@ -1377,15 +1377,7 @@ return
 shape
 -
 >
-IsInset
-(
-)
-|
-|
-shape
--
->
-IsXywh
+IsRect
 (
 )
 |
