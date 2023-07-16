@@ -3688,7 +3688,11 @@ support
 uint32_t
 mLastUniqueID
 ;
+Atomic
+<
 uint32_t
+Relaxed
+>
 mSessionStartTime
 {
 0
