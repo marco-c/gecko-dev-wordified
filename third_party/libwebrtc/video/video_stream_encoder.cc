@@ -9669,7 +9669,11 @@ i
 <
 encoder_config_
 .
-number_of_streams
+simulcast_layers
+.
+size
+(
+)
 ;
 +
 +
