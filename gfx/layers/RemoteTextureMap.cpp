@@ -4358,6 +4358,15 @@ expected
 <
 size
 ;
+if
+(
+!
+owner
+-
+>
+mIsContextLost
+)
+{
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -4368,6 +4377,7 @@ called
 "
 )
 ;
+}
 }
 }
 else
