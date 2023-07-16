@@ -637,15 +637,6 @@ images
 "
 :
 true
-"
-gfx
-.
-webrender
-.
-enabled
-"
-:
-false
 }
 )
 )

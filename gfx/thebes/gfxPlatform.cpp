@@ -16834,14 +16834,6 @@ StaticPrefs
 gfx_webrender_all_AtStartup
 (
 )
-|
-|
-StaticPrefs
-:
-:
-gfx_webrender_enabled_AtStartup_DoNotUseDirectly
-(
-)
 ;
 }
 /
