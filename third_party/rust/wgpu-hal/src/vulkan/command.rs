@@ -1090,7 +1090,7 @@ range
 conv
 :
 :
-map_subresource_range_combined_aspect
+map_subresource_range
 (
 &
 bar
@@ -1101,12 +1101,6 @@ bar
 texture
 .
 format
-&
-self
-.
-device
-.
-private_caps
 )
 ;
 let
