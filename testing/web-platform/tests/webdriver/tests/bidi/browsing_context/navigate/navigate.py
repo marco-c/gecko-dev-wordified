@@ -273,8 +273,6 @@ bidi
 /
 browsing_context
 /
-navigate
-/
 support
 /
 empty
@@ -293,8 +291,6 @@ tests
 bidi
 /
 browsing_context
-/
-navigate
 /
 support
 /
@@ -623,8 +619,6 @@ tests
 bidi
 /
 browsing_context
-/
-navigate
 /
 support
 /

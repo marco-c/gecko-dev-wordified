@@ -244,7 +244,7 @@ Make
 sure
 that
 the
-sesond
+second
 frame
 hasn
 '
