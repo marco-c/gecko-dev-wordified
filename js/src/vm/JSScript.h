@@ -15461,8 +15461,6 @@ js
 :
 ImmutableScriptFlags
 flags
-bool
-isMultiDecode
 )
 ;
 void
