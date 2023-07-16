@@ -393,6 +393,16 @@ bug
 348763
 "
 .
+appref
+-
+ms
+"
+/
+/
+ClickOnce
+link
+"
+.
 asp
 "
 "

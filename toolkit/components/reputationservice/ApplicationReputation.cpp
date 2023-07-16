@@ -1497,12 +1497,15 @@ exec
 /
 MS
 ClickOnce
+/
+/
 "
 .
 appref
 -
 ms
 "
+exec
 /
 /
 MS
