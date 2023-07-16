@@ -2789,6 +2789,10 @@ inline
 bool
 isMem32
 (
+uint32_t
+memoryIndex
+=
+0
 )
 const
 ;
@@ -2796,6 +2800,10 @@ inline
 bool
 isMem64
 (
+uint32_t
+memoryIndex
+=
+0
 )
 const
 ;

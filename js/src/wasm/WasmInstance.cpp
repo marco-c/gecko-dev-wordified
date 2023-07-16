@@ -3315,6 +3315,8 @@ Instance
 instance
 uint32_t
 delta
+uint32_t
+memoryIndex
 )
 {
 MOZ_ASSERT
@@ -3365,7 +3367,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 )
 ;
@@ -3443,7 +3445,10 @@ MOZ_RELEASE_ASSERT
 instance
 -
 >
-memoryBase_
+memoryBase
+(
+memoryIndex
+)
 =
 =
 instance
@@ -3451,7 +3456,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 -
 >
@@ -3484,6 +3489,8 @@ Instance
 instance
 uint64_t
 delta
+uint32_t
+memoryIndex
 )
 {
 MOZ_ASSERT
@@ -3534,7 +3541,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 )
 ;
@@ -3572,7 +3579,10 @@ MOZ_RELEASE_ASSERT
 instance
 -
 >
-memoryBase_
+memoryBase
+(
+memoryIndex
+)
 =
 =
 instance
@@ -3580,7 +3590,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 -
 >
@@ -3611,6 +3621,8 @@ memorySize_m32
 Instance
 *
 instance
+uint32_t
+memoryIndex
 )
 {
 MOZ_ASSERT
@@ -3693,7 +3705,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 -
 >
@@ -3755,6 +3767,8 @@ memorySize_m64
 Instance
 *
 instance
+uint32_t
+memoryIndex
 )
 {
 MOZ_ASSERT
@@ -3837,7 +3851,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 -
 >
