@@ -90132,6 +90132,10 @@ other_values
 auto
 1px
 "
+"
+auto
+none
+"
 ]
 invalid_values
 :
@@ -90139,10 +90143,6 @@ invalid_values
 "
 auto
 auto
-"
-"
-auto
-none
 "
 "
 auto
@@ -90197,6 +90197,10 @@ other_values
 auto
 1px
 "
+"
+auto
+none
+"
 ]
 invalid_values
 :
@@ -90204,10 +90208,6 @@ invalid_values
 "
 auto
 auto
-"
-"
-auto
-none
 "
 "
 auto
@@ -90267,6 +90267,10 @@ other_values
 auto
 1px
 "
+"
+auto
+none
+"
 ]
 invalid_values
 :
@@ -90274,10 +90278,6 @@ invalid_values
 "
 auto
 auto
-"
-"
-auto
-none
 "
 "
 auto
@@ -90337,6 +90337,10 @@ other_values
 auto
 1px
 "
+"
+auto
+none
+"
 ]
 invalid_values
 :
@@ -90344,10 +90348,6 @@ invalid_values
 "
 auto
 auto
-"
-"
-auto
-none
 "
 "
 auto
