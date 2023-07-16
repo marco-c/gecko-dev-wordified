@@ -438,12 +438,14 @@ H264
 high
 profile
 )
-and
 H264
 (
 baseline
 profile
 )
+AV1
+and
+H265
 .
 for
 (
@@ -467,6 +469,9 @@ H264
 VideoCodecMimeType
 .
 AV1
+VideoCodecMimeType
+.
+H265
 }
 )
 {

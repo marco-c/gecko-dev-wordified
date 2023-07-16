@@ -589,6 +589,9 @@ VP9
 case
 AV1
 :
+case
+H265
+:
 return
 new
 HashMap
