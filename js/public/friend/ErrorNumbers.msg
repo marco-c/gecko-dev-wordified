@@ -11998,15 +11998,6 @@ value
 returned
 from
 decorator
-:
-decorators
-can
-only
-return
-undefined
-or
-a
-callable
 "
 )
 /
