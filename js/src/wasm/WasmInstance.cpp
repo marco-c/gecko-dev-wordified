@@ -2502,6 +2502,8 @@ PerformWait
 Instance
 *
 instance
+uint32_t
+memoryIndex
 PtrT
 byteOffset
 ValT
@@ -2529,7 +2531,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 -
 >
@@ -2588,7 +2590,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 -
 >
@@ -2677,7 +2679,7 @@ instance
 >
 sharedMemoryBuffer
 (
-0
+memoryIndex
 )
 size_t
 (
@@ -2765,6 +2767,8 @@ int32_t
 value
 int64_t
 timeout_ns
+uint32_t
+memoryIndex
 )
 {
 MOZ_ASSERT
@@ -2784,6 +2788,7 @@ return
 PerformWait
 (
 instance
+memoryIndex
 byteOffset
 value
 timeout_ns
@@ -2810,6 +2815,8 @@ int32_t
 value
 int64_t
 timeout_ns
+uint32_t
+memoryIndex
 )
 {
 MOZ_ASSERT
@@ -2829,6 +2836,7 @@ return
 PerformWait
 (
 instance
+memoryIndex
 byteOffset
 value
 timeout_ns
@@ -2855,6 +2863,8 @@ int64_t
 value
 int64_t
 timeout_ns
+uint32_t
+memoryIndex
 )
 {
 MOZ_ASSERT
@@ -2874,6 +2884,7 @@ return
 PerformWait
 (
 instance
+memoryIndex
 byteOffset
 value
 timeout_ns
@@ -2900,6 +2911,8 @@ int64_t
 value
 int64_t
 timeout_ns
+uint32_t
+memoryIndex
 )
 {
 MOZ_ASSERT
@@ -2919,6 +2932,7 @@ return
 PerformWait
 (
 instance
+memoryIndex
 byteOffset
 value
 timeout_ns
@@ -2941,6 +2955,8 @@ PtrT
 byteOffset
 int32_t
 count
+uint32_t
+memoryIndex
 )
 {
 JSContext
@@ -3027,7 +3043,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 -
 >
@@ -3055,7 +3071,7 @@ instance
 >
 memory
 (
-0
+memoryIndex
 )
 -
 >
@@ -3092,7 +3108,7 @@ instance
 >
 sharedMemoryBuffer
 (
-0
+memoryIndex
 )
 size_t
 (
@@ -3147,6 +3163,8 @@ uint32_t
 byteOffset
 int32_t
 count
+uint32_t
+memoryIndex
 )
 {
 MOZ_ASSERT
@@ -3168,6 +3186,7 @@ PerformWake
 instance
 byteOffset
 count
+memoryIndex
 )
 ;
 }
@@ -3189,6 +3208,8 @@ uint64_t
 byteOffset
 int32_t
 count
+uint32_t
+memoryIndex
 )
 {
 MOZ_ASSERT
@@ -3210,6 +3231,7 @@ PerformWake
 instance
 byteOffset
 count
+memoryIndex
 )
 ;
 }

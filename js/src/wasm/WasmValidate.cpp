@@ -14296,6 +14296,16 @@ I32
 ;
 #
 else
+limits
+-
+>
+indexType
+=
+IndexType
+:
+:
+I32
+;
 if
 (
 flags

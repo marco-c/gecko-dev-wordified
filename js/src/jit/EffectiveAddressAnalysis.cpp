@@ -1425,7 +1425,7 @@ end
 mir_
 -
 >
-minWasmHeapLength
+minWasmMemory0Length
 (
 )
 )

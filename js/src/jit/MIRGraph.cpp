@@ -309,7 +309,7 @@ canNurseryAllocateBigInts
 :
 false
 )
-minWasmHeapLength_
+minWasmMemory0Length_
 (
 0
 )

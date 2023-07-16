@@ -458,9 +458,13 @@ elimination
 on
 wasm
 memory
+0
 not
 /
 /
+other
+memories
+or
 tables
 .
 See
@@ -473,7 +477,7 @@ if
 bc
 -
 >
-isMemory
+isMemory0
 (
 )
 )
@@ -584,7 +588,7 @@ toInt32
 mir
 -
 >
-minWasmHeapLength
+minWasmMemory0Length
 (
 )
 )
@@ -628,7 +632,7 @@ toInt64
 mir
 -
 >
-minWasmHeapLength
+minWasmMemory0Length
 (
 )
 )
