@@ -891,9 +891,6 @@ y
 )
 )
 ;
-return
-true
-;
 }
 void
 Clamp
