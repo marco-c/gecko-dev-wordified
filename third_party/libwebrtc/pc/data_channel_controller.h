@@ -323,7 +323,7 @@ SctpDataChannelProviderInterface
 bool
 SendData
 (
-int
+StreamId
 sid
 const
 SendDataParams
@@ -348,7 +348,7 @@ override
 void
 AddSctpDataStream
 (
-int
+StreamId
 sid
 )
 override
@@ -356,7 +356,7 @@ override
 void
 RemoveSctpDataStream
 (
-int
+StreamId
 sid
 )
 override
@@ -832,7 +832,7 @@ true
 bool
 DataChannelSendData
 (
-int
+StreamId
 sid
 const
 SendDataParams

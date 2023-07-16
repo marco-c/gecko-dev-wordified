@@ -1341,10 +1341,6 @@ controller_
 AddSctpDataStream
 (
 id_
-.
-stream_id_int
-(
-)
 )
 ;
 }
@@ -2164,10 +2160,6 @@ controller_
 AddSctpDataStream
 (
 sid
-.
-stream_id_int
-(
-)
 )
 ;
 }
@@ -2414,10 +2406,6 @@ controller_
 AddSctpDataStream
 (
 id_
-.
-stream_id_int
-(
-)
 )
 ;
 }
@@ -3574,10 +3562,6 @@ controller_
 RemoveSctpDataStream
 (
 id_
-.
-stream_id_int
-(
-)
 )
 ;
 }
@@ -4026,10 +4010,6 @@ controller_
 SendData
 (
 id_
-.
-stream_id_int
-(
-)
 send_params
 buffer
 .
@@ -4513,10 +4493,6 @@ controller_
 SendData
 (
 id_
-.
-stream_id_int
-(
-)
 send_params
 buffer
 &
