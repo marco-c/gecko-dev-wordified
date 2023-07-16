@@ -2307,7 +2307,7 @@ icon
 )
 ;
 let
-successText
+messageText
 =
 progressGroup
 .
@@ -2315,7 +2315,7 @@ querySelector
 (
 "
 .
-success
+message
 -
 text
 "
@@ -2423,7 +2423,7 @@ Assert
 .
 notEqual
 (
-successText
+messageText
 .
 indexOf
 (
@@ -2443,7 +2443,7 @@ of
 history
 :
 {
-successText
+messageText
 }
 )
 ;
@@ -2484,7 +2484,7 @@ as
 /
 /
 the
-success
+message
 string
 rather
 than
@@ -2496,7 +2496,7 @@ Assert
 .
 equal
 (
-successText
+messageText
 "
 Form
 history
@@ -2508,7 +2508,7 @@ data
 string
 :
 {
-successText
+messageText
 }
 )
 ;
@@ -2552,7 +2552,7 @@ Assert
 .
 stringMatches
 (
-successText
+messageText
 "
 1
 extension
@@ -2566,7 +2566,7 @@ Assert
 .
 notEqual
 (
-successText
+messageText
 .
 indexOf
 (
@@ -2578,11 +2578,11 @@ Found
 expected
 quantity
 in
-success
+message
 string
 :
 {
-successText
+messageText
 }
 )
 ;
@@ -2655,7 +2655,7 @@ Assert
 .
 equal
 (
-successText
+messageText
 "
 "
 "
