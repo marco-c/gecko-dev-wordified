@@ -3835,8 +3835,6 @@ add_pointer
 <
 element_type
 >
-class
-DeleterType
 >
 constexpr
 Span
@@ -3848,7 +3846,6 @@ mozilla
 UniquePtr
 <
 ArrayElementType
-DeleterType
 >
 &
 aPtr

@@ -2136,11 +2136,6 @@ freeUserData
 nullptr
 )
 {
-MOZ_ASSERT
-(
-freeFunc
-)
-;
 return
 BufferContents
 (
