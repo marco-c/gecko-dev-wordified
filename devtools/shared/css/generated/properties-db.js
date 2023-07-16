@@ -49718,11 +49718,6 @@ line
 "
 :
 :
-highlight
-"
-"
-:
-:
 selection
 "
 "
