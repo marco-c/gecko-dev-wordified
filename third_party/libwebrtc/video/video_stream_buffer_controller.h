@@ -160,7 +160,7 @@ video_coding
 /
 timing
 /
-inter_frame_delay
+inter_frame_delay_variation_calculator
 .
 h
 "
@@ -559,8 +559,8 @@ RTC_GUARDED_BY
 worker_sequence_checker_
 )
 ;
-InterFrameDelay
-inter_frame_delay_
+InterFrameDelayVariationCalculator
+ifdv_calculator_
 RTC_GUARDED_BY
 (
 &

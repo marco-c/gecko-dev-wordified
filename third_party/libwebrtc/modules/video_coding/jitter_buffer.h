@@ -215,7 +215,7 @@ video_coding
 /
 timing
 /
-inter_frame_delay
+inter_frame_delay_variation_calculator
 .
 h
 "
@@ -1729,7 +1729,7 @@ for
 jitter
 calculations
 .
-InterFrameDelay
+InterFrameDelayVariationCalculator
 inter_frame_delay_
 ;
 VCMJitterSample
