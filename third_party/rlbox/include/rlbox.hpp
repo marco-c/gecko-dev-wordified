@@ -1034,9 +1034,9 @@ decltype
 raw_rhs
 )
 >
+|
+|
 \
-|
-|
 std
 :
 :
