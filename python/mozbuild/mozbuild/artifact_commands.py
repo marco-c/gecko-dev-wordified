@@ -812,12 +812,15 @@ return
 artifacts
 ArtifactSubCommand
 (
+    
 "
 artifact
 "
+    
 "
 install
 "
+    
 "
 Install
 a
@@ -1245,9 +1248,11 @@ return
 0
 SubCommand
 (
+    
 "
 artifact
 "
+    
 "
 toolchain
 "
