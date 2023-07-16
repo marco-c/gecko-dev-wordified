@@ -1509,8 +1509,6 @@ RemoveSctpDataStream
 void
 OnClosingProcedureComplete
 (
-int
-sid
 )
 ;
 /
