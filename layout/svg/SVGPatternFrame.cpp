@@ -1525,7 +1525,7 @@ patternTransform
 ;
 patternMatrix
 .
-PostScale
+PreScale
 (
 scale
 scale
