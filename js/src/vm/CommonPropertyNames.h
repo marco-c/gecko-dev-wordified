@@ -2949,6 +2949,16 @@ IterableToList
 \
 MACRO_
 (
+IteratorHelper
+IteratorHelper
+"
+Iterator
+Helper
+"
+)
+\
+MACRO_
+(
 IteratorNext
 IteratorNext
 "
