@@ -2459,6 +2459,16 @@ JSObject
 *
 )
 ;
+static
+bool
+IsSizeToContentEnabled
+(
+JSContext
+*
+JSObject
+*
+)
+;
 bool
 DoResolve
 (
