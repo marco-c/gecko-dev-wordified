@@ -3409,14 +3409,6 @@ sh_type
 =
 =
 SHT_NOBITS
-|
-|
-self
-.
-sh_size
-=
-=
-0
 {
 return
 Ok

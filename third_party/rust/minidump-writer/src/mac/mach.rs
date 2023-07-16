@@ -1958,17 +1958,6 @@ arch
 ;
 }
 }
-#
-[
-repr
-(
-C
-align
-(
-8
-)
-)
-]
 pub
 struct
 ThreadState
