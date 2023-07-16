@@ -319,7 +319,6 @@ items
 [
 removeBreakpointItem
 (
-cx
 breakpoint
 dispatch
 )
@@ -381,7 +380,6 @@ separator
 }
 removeBreakpointsOnLineItem
 (
-cx
 selectedLocation
 dispatch
 )
@@ -663,7 +661,6 @@ const
 removeBreakpointItem
 =
 (
-cx
 breakpoint
 dispatch
 )
@@ -721,7 +718,6 @@ dispatch
 (
 removeBreakpoint
 (
-cx
 breakpoint
 )
 )
@@ -1513,7 +1509,6 @@ dispatch
 (
 removeBreakpointsAtLine
 (
-cx
 location
 .
 source
