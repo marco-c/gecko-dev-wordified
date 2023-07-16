@@ -139,6 +139,17 @@ include
 "
 api
 /
+task_queue
+/
+pending_task_safety_flag
+.
+h
+"
+#
+include
+"
+api
+/
 transport
 /
 data_channel_transport_interface
@@ -1209,6 +1220,9 @@ weak_factory_
 {
 this
 }
+;
+ScopedTaskSafety
+signaling_safety_
 ;
 }
 ;
