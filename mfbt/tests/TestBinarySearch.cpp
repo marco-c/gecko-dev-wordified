@@ -1442,8 +1442,6 @@ MOZ_RELEASE_ASSERT
 bounds
 .
 first
-(
-)
 <
 =
 sortedArray
@@ -1458,8 +1456,6 @@ MOZ_RELEASE_ASSERT
 bounds
 .
 second
-(
-)
 <
 =
 sortedArray
@@ -1474,15 +1470,11 @@ MOZ_RELEASE_ASSERT
 bounds
 .
 first
-(
-)
 <
 =
 bounds
 .
 second
-(
-)
 )
 ;
 if
@@ -1490,8 +1482,6 @@ if
 bounds
 .
 first
-(
-)
 =
 =
 0
@@ -1515,8 +1505,6 @@ if
 bounds
 .
 first
-(
-)
 =
 =
 sortedArray
@@ -1552,8 +1540,6 @@ sortedArray
 bounds
 .
 first
-(
-)
 -
 1
 ]
@@ -1568,8 +1554,6 @@ sortedArray
 bounds
 .
 first
-(
-)
 ]
 >
 =
@@ -1582,8 +1566,6 @@ if
 bounds
 .
 second
-(
-)
 =
 =
 0
@@ -1606,8 +1588,6 @@ if
 bounds
 .
 second
-(
-)
 =
 =
 sortedArray
@@ -1644,8 +1624,6 @@ sortedArray
 bounds
 .
 second
-(
-)
 -
 1
 ]
@@ -1661,8 +1639,6 @@ sortedArray
 bounds
 .
 second
-(
-)
 ]
 >
 i

@@ -5131,14 +5131,10 @@ if
 bounds
 .
 second
-(
-)
 -
 bounds
 .
 first
-(
-)
 !
 =
 1
@@ -5155,8 +5151,6 @@ mLocations
 bounds
 .
 first
-(
-)
 ]
 .
 second
