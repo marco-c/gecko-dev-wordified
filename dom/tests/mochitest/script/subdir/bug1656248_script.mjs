@@ -22,7 +22,7 @@ import
 /
 bug1656248_import
 .
-js
+mjs
 "
 )
 .
