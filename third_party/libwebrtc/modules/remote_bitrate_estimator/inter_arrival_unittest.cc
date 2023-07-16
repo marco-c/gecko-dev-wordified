@@ -208,7 +208,6 @@ kTimestampGroupLengthUs
 1
 .
 0
-true
 )
 )
 ;
@@ -224,7 +223,6 @@ MakeRtpTimestamp
 kTimestampGroupLengthUs
 )
 kRtpTimestampToMs
-true
 )
 )
 ;
@@ -240,7 +238,6 @@ MakeAbsSendTime
 kTimestampGroupLengthUs
 )
 kAstToMs
-true
 )
 )
 ;

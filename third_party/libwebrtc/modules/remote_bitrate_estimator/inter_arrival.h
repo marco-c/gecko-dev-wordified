@@ -227,8 +227,6 @@ uint32_t
 timestamp_group_length_ticks
 double
 timestamp_to_ms_coeff
-bool
-enable_burst_grouping
 )
 ;
 InterArrival
@@ -534,9 +532,6 @@ prev_timestamp_group_
 ;
 double
 timestamp_to_ms_coeff_
-;
-bool
-burst_grouping_
 ;
 int
 num_consecutive_reordered_packets_
