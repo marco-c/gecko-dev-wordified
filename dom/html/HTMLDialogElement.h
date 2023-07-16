@@ -371,6 +371,12 @@ FocusDialog
 (
 )
 ;
+int32_t
+TabIndexDefault
+(
+)
+override
+;
 nsString
 mReturnValue
 ;
