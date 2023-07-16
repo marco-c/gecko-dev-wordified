@@ -2520,12 +2520,7 @@ toLanguages
 }
 =
 await
-this
-.
-#
-getTranslationsActor
-(
-)
+TranslationsParent
 .
 getSupportedLanguages
 (
