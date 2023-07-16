@@ -507,7 +507,7 @@ Global
 crate
 :
 :
-global
+hub
 :
 :
 Global
@@ -552,7 +552,7 @@ Storage
 crate
 :
 :
-storage
+hub
 :
 :
 Storage

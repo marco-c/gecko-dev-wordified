@@ -3745,6 +3745,12 @@ module
 .
 types
 &
+frontend
+.
+module
+.
+constants
+&
 mut
 frontend
 .
