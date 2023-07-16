@@ -3878,7 +3878,7 @@ suspendDelay_ms
 StaticPrefs
 :
 :
-media_suspend_bkgnd_video_delay_ms
+media_suspend_background_video_delay_ms
 (
 )
 ;

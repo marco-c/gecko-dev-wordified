@@ -567,7 +567,7 @@ media
 .
 suspend
 -
-bkgnd
+background
 -
 video
 .
@@ -581,7 +581,7 @@ media
 .
 suspend
 -
-bkgnd
+background
 -
 video
 .
@@ -597,7 +597,7 @@ media
 .
 resume
 -
-bkgnd
+background
 -
 video
 -
