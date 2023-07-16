@@ -302,14 +302,6 @@ MOZ_DIAGNOSTIC_ASSERT
 mExtensionBrowser
 )
 ;
-RefPtr
-<
-ExtensionEventManager
->
-self
-=
-this
-;
 mozilla
 :
 :
