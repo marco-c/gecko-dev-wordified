@@ -187,6 +187,11 @@ utils
 js
 "
 "
+mochitestListingsUtils
+.
+js
+"
+"
 redirect
 .
 html
@@ -712,6 +717,11 @@ js
 mochitest_options
 .
 py
+"
+"
+mochitestListingsUtils
+.
+js
 "
 "
 pywebsocket_wrapper
