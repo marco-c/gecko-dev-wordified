@@ -3155,19 +3155,13 @@ worker
 type
 "
 ]
-in
-[
+=
+=
 "
 b
 -
 win2012
 "
-"
-b
--
-win2022
-"
-]
 :
             
 job_description
