@@ -11587,7 +11587,7 @@ cache
 value
 ]
 .
-get
+deref
 (
 )
 ;
