@@ -3015,7 +3015,7 @@ appear
 let
 panelList
 =
-shadow
+wizard
 .
 querySelector
 (
@@ -3418,7 +3418,7 @@ node
 let
 panelItem
 =
-shadow
+wizard
 .
 querySelector
 (
