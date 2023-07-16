@@ -2873,7 +2873,7 @@ toFallbackStub
 )
 -
 >
-clearHasFoldedStub
+clearMayHaveFoldedStub
 (
 )
 ;

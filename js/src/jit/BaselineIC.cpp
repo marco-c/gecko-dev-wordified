@@ -1551,7 +1551,7 @@ numOptimizedStubs
 fallbackStub
 -
 >
-hasFoldedStub
+mayHaveFoldedStub
 (
 )
 )
@@ -1559,7 +1559,7 @@ hasFoldedStub
 fallbackStub
 -
 >
-clearHasFoldedStub
+clearMayHaveFoldedStub
 (
 )
 ;
@@ -4135,7 +4135,7 @@ next
 )
 ;
 }
-clearHasFoldedStub
+clearMayHaveFoldedStub
 (
 )
 ;
