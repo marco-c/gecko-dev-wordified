@@ -611,7 +611,6 @@ breakpoint
 {
 removeBreakpoint
 (
-cx
 columnBreakpoint
 .
 breakpoint

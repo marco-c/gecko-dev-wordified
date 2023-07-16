@@ -329,7 +329,6 @@ dispatch
 (
 removeBreakpoint
 (
-cx
 hiddenBreakpoint
 )
 )

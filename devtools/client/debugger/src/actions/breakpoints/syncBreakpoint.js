@@ -766,7 +766,6 @@ dispatch
 (
 removeBreakpointAtGeneratedLocation
 (
-cx
 sourceGeneratedLocation
 )
 )
@@ -824,7 +823,6 @@ dispatch
 (
 removeBreakpointAtGeneratedLocation
 (
-cx
 sourceGeneratedLocation
 )
 )
