@@ -2708,7 +2708,7 @@ DataMessageType
 kText
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3812,7 +3812,7 @@ ordered
 =
 true
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -4387,7 +4387,7 @@ if
 retval
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
