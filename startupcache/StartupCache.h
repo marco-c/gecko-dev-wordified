@@ -1588,6 +1588,10 @@ void
 StartPrefetchMemory
 (
 )
+MOZ_REQUIRES
+(
+mTableLock
+)
 ;
 static
 nsresult
@@ -1615,6 +1619,11 @@ MaybeWriteOffMainThread
 void
 ThreadedPrefetch
 (
+uint8_t
+*
+aStart
+size_t
+aSize
 )
 ;
 Monitor
