@@ -245,6 +245,11 @@ aActivatedClass
 )
 override
 ;
+void
+Shutdown
+(
+)
+;
 private
 :
 Microsoft
