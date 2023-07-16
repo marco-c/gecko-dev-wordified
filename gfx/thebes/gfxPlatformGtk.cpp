@@ -6589,6 +6589,14 @@ silently
 .
 if
 (
+StaticPrefs
+:
+:
+gfx_x11_glx_sgi_video_sync_AtStartup
+(
+)
+&
+&
 gfxConfig
 :
 :
