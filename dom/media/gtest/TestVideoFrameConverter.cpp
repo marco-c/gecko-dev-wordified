@@ -305,13 +305,13 @@ using
 VideoFrameConverter
 :
 :
-RegisterListener
+QueueForProcessing
 ;
 using
 VideoFrameConverter
 :
 :
-QueueForProcessing
+RegisterListener
 ;
 }
 ;
