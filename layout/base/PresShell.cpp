@@ -55426,6 +55426,14 @@ mouseEvent
 IsShift
 (
 )
+&
+&
+StaticPrefs
+:
+:
+dom_event_contextmenu_shift_suppresses_event
+(
+)
 )
 {
 aEvent
