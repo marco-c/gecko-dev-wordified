@@ -408,7 +408,9 @@ const
 TEST_FIELD_NAME
 =
 "
-PostalCode
+postal
+-
+code
 "
 ;
 add_setup
