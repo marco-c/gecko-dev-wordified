@@ -731,9 +731,11 @@ static
 void
 CreateOrUpdatePurgeList
 (
+nsCOMPtr
+<
 nsIArray
-*
-*
+>
+&
 aPurgedList
 nsICookie
 *
