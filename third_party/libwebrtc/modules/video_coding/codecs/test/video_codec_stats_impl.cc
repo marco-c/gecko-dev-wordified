@@ -1828,6 +1828,21 @@ std
 :
 string
 test_case_name
+std
+:
+:
+map
+<
+std
+:
+:
+string
+std
+:
+:
+string
+>
+metadata
 )
 const
 {
@@ -1857,6 +1872,7 @@ ImprovementDirection
 :
 :
 kBiggerIsBetter
+metadata
 )
 ;
 logger
@@ -1885,6 +1901,7 @@ ImprovementDirection
 :
 :
 kBiggerIsBetter
+metadata
 )
 ;
 logger
@@ -1913,6 +1930,7 @@ ImprovementDirection
 :
 :
 kNeitherIsBetter
+metadata
 )
 ;
 logger
@@ -1941,6 +1959,7 @@ ImprovementDirection
 :
 :
 kSmallerIsBetter
+metadata
 )
 ;
 logger
@@ -1969,6 +1988,7 @@ ImprovementDirection
 :
 :
 kSmallerIsBetter
+metadata
 )
 ;
 logger
@@ -1997,6 +2017,7 @@ ImprovementDirection
 :
 :
 kSmallerIsBetter
+metadata
 )
 ;
 logger
@@ -2025,6 +2046,7 @@ ImprovementDirection
 :
 :
 kSmallerIsBetter
+metadata
 )
 ;
 logger
@@ -2053,6 +2075,7 @@ ImprovementDirection
 :
 :
 kBiggerIsBetter
+metadata
 )
 ;
 logger
@@ -2081,6 +2104,7 @@ ImprovementDirection
 :
 :
 kBiggerIsBetter
+metadata
 )
 ;
 logger
@@ -2109,6 +2133,7 @@ ImprovementDirection
 :
 :
 kBiggerIsBetter
+metadata
 )
 ;
 logger
@@ -2137,6 +2162,7 @@ ImprovementDirection
 :
 :
 kBiggerIsBetter
+metadata
 )
 ;
 logger
@@ -2165,6 +2191,7 @@ ImprovementDirection
 :
 :
 kSmallerIsBetter
+metadata
 )
 ;
 logger
@@ -2193,6 +2220,7 @@ ImprovementDirection
 :
 :
 kSmallerIsBetter
+metadata
 )
 ;
 logger
@@ -2221,6 +2249,7 @@ ImprovementDirection
 :
 :
 kSmallerIsBetter
+metadata
 )
 ;
 logger
@@ -2251,6 +2280,7 @@ ImprovementDirection
 :
 :
 kBiggerIsBetter
+metadata
 )
 ;
 logger
@@ -2281,6 +2311,7 @@ ImprovementDirection
 :
 :
 kBiggerIsBetter
+metadata
 )
 ;
 logger
@@ -2311,6 +2342,7 @@ ImprovementDirection
 :
 :
 kBiggerIsBetter
+metadata
 )
 ;
 }
