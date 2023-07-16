@@ -538,7 +538,6 @@ zeroed
 )
 ;
 let
-mut
 cc
 =
 &
