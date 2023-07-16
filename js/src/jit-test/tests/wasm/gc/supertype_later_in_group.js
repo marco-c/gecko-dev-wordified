@@ -59,12 +59,15 @@ rec
 type
 a
 (
+sub
+(
 struct
 (
 field
 (
 ref
 notParsedYet
+)
 )
 )
 )
@@ -91,7 +94,10 @@ notParsedYet2
 type
 notParsedYet
 (
+sub
+(
 struct
+)
 )
 )
 (

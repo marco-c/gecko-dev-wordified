@@ -79,7 +79,10 @@ preamble
 type
 s1
 (
+sub
+(
 struct
+)
 )
 )
 (
@@ -101,11 +104,14 @@ i32
 type
 a1
 (
+sub
+(
 array
 (
 ref
 null
 s1
+)
 )
 )
 )
@@ -166,6 +172,9 @@ preambleTypesV5
 kind
 :
 StructCode
+final
+:
+false
 fields
 :
 [
@@ -175,6 +184,9 @@ fields
 kind
 :
 StructCode
+final
+:
+false
 sub
 :
 0
@@ -188,6 +200,9 @@ I32Code
 kind
 :
 ArrayCode
+final
+:
+false
 elem
 :
 [
@@ -205,6 +220,9 @@ varU32
 kind
 :
 ArrayCode
+final
+:
+false
 sub
 :
 2
