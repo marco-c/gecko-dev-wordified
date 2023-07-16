@@ -1099,6 +1099,11 @@ UpdateNegotiationNeeded
 (
 )
 ;
+void
+AllocateSctpSids
+(
+)
+;
 /
 /
 Destroys

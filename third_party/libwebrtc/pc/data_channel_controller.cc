@@ -1791,6 +1791,15 @@ additional
 hops
 )
 .
+/
+/
+Use
+GetSctpSslRole_n
+on
+the
+network
+thread
+.
 if
 (
 pc_
