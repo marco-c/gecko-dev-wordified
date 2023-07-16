@@ -47638,11 +47638,6 @@ initial
 lowercase
 "
 "
-math
--
-auto
-"
-"
 none
 "
 "

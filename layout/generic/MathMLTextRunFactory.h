@@ -203,16 +203,6 @@ aSSTYScriptLevel
 )
 {
 }
-static
-uint32_t
-MathVariant
-(
-uint32_t
-aCh
-StyleMathVariant
-aMathVar
-)
-;
 virtual
 void
 RebuildTextRun
