@@ -110,14 +110,7 @@ h
 #
 include
 "
-DocAccessible
-.
-h
-"
-#
-include
-"
-nsAccUtils
+nsCoreUtils
 .
 h
 "
