@@ -255,6 +255,13 @@ h
 #
 include
 "
+nsIWebProgressListener
+.
+h
+"
+#
+include
+"
 nsIXULRuntime
 .
 h
@@ -2770,6 +2777,11 @@ nsIWebProgressListener
 :
 :
 STATE_HTTPS_ONLY_MODE_UPGRADE_FAILED
+|
+nsIWebProgressListener
+:
+:
+STATE_HTTPS_ONLY_MODE_UPGRADED_FIRST
 )
 )
 =
