@@ -1005,16 +1005,6 @@ false
 ;
 SctpSidAllocator
 sid_allocator_
-/
-*
-RTC_GUARDED_BY
-(
-signaling_thread
-(
-)
-)
-*
-/
 ;
 std
 :
