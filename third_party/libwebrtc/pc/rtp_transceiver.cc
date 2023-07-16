@@ -5353,7 +5353,11 @@ webrtc
 extensions
 /
 #
-methods
+dom
+-
+rtcrtptransceiver
+-
+setheaderextensionstonegotiate
 if
 (
 header_extensions
