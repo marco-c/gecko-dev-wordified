@@ -110,13 +110,6 @@ h
 #
 include
 "
-LocalAccessible
-.
-h
-"
-#
-include
-"
 xpcAccessibleDocument
 .
 h

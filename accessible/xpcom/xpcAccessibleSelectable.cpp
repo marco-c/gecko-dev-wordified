@@ -114,13 +114,6 @@ MPL
 #
 include
 "
-Accessible
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
