@@ -1659,8 +1659,6 @@ std
 :
 min
 (
-parameters
-.
 total_bitrate
 parameters
 .
@@ -1744,8 +1742,6 @@ num_spatial_layers
 =
 FindNumEnabledLayers
 (
-parameters
-.
 total_bitrate
 )
 ;
