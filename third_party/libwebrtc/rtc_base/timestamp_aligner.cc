@@ -914,15 +914,6 @@ int64_t
 system_time_us
 )
 {
-const
-int64_t
-kMinFrameIntervalUs
-=
-rtc
-:
-:
-kNumMicrosecsPerMillisec
-;
 /
 /
 Clip
