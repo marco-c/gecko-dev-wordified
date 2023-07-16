@@ -8508,7 +8508,7 @@ wasm
 Instance
 :
 :
-offsetOfMemoryBase
+offsetOfMemory0Base
 (
 )
 )

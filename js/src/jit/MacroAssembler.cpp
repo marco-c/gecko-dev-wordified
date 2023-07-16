@@ -36530,7 +36530,7 @@ wasm
 Instance
 :
 :
-offsetOfMemoryBase
+offsetOfMemory0Base
 (
 )
 <
@@ -36587,7 +36587,7 @@ wasm
 Instance
 :
 :
-offsetOfMemoryBase
+offsetOfMemory0Base
 (
 )
 )

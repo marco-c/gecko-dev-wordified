@@ -720,7 +720,7 @@ memory
 .
 uint8_t
 *
-memoryBase
+base
 ;
 /
 /
