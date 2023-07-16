@@ -1716,7 +1716,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleSenderReport
 (
 const
@@ -1735,7 +1735,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleReceiverReport
 (
 const
@@ -1775,7 +1775,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleSdes
 (
 const
@@ -1794,7 +1794,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleXr
 (
 const
@@ -1876,7 +1876,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleNack
 (
 const
@@ -1895,7 +1895,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleApp
 (
 const
@@ -1914,7 +1914,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleBye
 (
 const
@@ -1930,7 +1930,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandlePli
 (
 const
@@ -1968,7 +1968,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleTmmbr
 (
 const
@@ -1987,7 +1987,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleTmmbn
 (
 const
@@ -2006,7 +2006,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleSrReq
 (
 const
@@ -2025,7 +2025,7 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 rtcp_receiver_lock_
 )
 ;
-void
+bool
 HandleFir
 (
 const
