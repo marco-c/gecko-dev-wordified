@@ -4720,7 +4720,14 @@ thread_checker_
 )
 ;
 int64_t
-last_stats_log_ms_
+last_send_stats_log_ms_
+RTC_GUARDED_BY
+(
+thread_checker_
+)
+;
+int64_t
+last_receive_stats_log_ms_
 RTC_GUARDED_BY
 (
 thread_checker_
