@@ -146,7 +146,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -182,7 +181,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -203,7 +201,6 @@ actions
 .
 closeTab
 (
-cx
 fooSource
 )
 )
@@ -259,7 +256,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -316,7 +312,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -338,7 +333,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -359,7 +353,6 @@ actions
 .
 closeTab
 (
-cx
 fooSource
 )
 )
@@ -429,7 +422,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -465,7 +457,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -486,7 +477,6 @@ actions
 .
 closeTab
 (
-cx
 fooSource
 )
 )
@@ -542,7 +532,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -599,7 +588,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -621,7 +609,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -643,7 +630,6 @@ actions
 .
 closeTab
 (
-cx
 barSource
 )
 )
@@ -713,7 +699,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -791,7 +776,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -813,7 +797,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -835,7 +818,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -892,7 +874,6 @@ actions
 .
 closeTabs
 (
-cx
 tabs
 )
 )
@@ -965,7 +946,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -1043,7 +1023,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -1065,7 +1044,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -1087,7 +1065,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -1145,7 +1122,6 @@ actions
 .
 closeTabs
 (
-cx
 tabs
 )
 )
@@ -1215,7 +1191,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -1272,7 +1247,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -1294,7 +1268,6 @@ actions
 .
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -1316,7 +1289,6 @@ actions
 .
 closeTabs
 (
-cx
 [
 "
 http

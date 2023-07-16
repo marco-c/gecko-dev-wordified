@@ -546,10 +546,6 @@ foo
 ;
 return
 {
-cx
-:
-{
-}
 disableBreakpoint
 :
 (

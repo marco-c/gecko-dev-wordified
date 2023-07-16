@@ -162,11 +162,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
 breakpoints
 :
 PropTypes
@@ -191,7 +186,6 @@ render
 {
 const
 {
-cx
 breakpoints
 selectedSource
 editor
@@ -237,11 +231,6 @@ return
 (
 <
 Breakpoint
-cx
-=
-{
-cx
-}
 key
 =
 {

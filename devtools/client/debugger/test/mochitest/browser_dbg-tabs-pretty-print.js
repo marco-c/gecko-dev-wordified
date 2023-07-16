@@ -334,10 +334,6 @@ actions
 .
 showSource
 (
-getContext
-(
-dbg
-)
 source
 .
 id

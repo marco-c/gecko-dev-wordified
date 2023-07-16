@@ -469,10 +469,6 @@ actions
 .
 selectLocation
 (
-getContext
-(
-dbg
-)
 createLocation
 (
 {
@@ -1071,10 +1067,6 @@ actions
 .
 selectLocation
 (
-getContext
-(
-dbg
-)
 createLocation
 (
 {
@@ -1218,10 +1210,6 @@ actions
 .
 jumpToMappedSelectedLocation
 (
-getContext
-(
-dbg
-)
 )
 ;
 /
@@ -1294,10 +1282,6 @@ actions
 .
 selectLocation
 (
-getContext
-(
-dbg
-)
 createLocation
 (
 {

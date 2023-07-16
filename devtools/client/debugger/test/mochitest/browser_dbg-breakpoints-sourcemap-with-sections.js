@@ -185,10 +185,6 @@ actions
 .
 jumpToMappedSelectedLocation
 (
-getContext
-(
-dbg
-)
 )
 ;
 info

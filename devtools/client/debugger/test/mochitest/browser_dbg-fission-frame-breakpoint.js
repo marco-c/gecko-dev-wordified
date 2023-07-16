@@ -340,10 +340,6 @@ actions
 .
 stepIn
 (
-getThreadContext
-(
-dbg
-)
 )
 ;
 assertNotPaused

@@ -159,7 +159,6 @@ getShouldPauseOnExceptions
 getShouldPauseOnCaughtExceptions
 getThreads
 getCurrentThread
-getThreadContext
 getPauseReason
 getShouldBreakpointsPaneOpenOnPause
 getSkipPausing
@@ -466,13 +465,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 evaluateExpressionsForCurrentContext
 :
 PropTypes
@@ -2518,12 +2510,6 @@ thread
 ;
 return
 {
-cx
-:
-getThreadContext
-(
-state
-)
 expressions
 :
 getExpressions

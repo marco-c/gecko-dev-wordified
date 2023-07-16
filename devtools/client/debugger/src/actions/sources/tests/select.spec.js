@@ -224,7 +224,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -300,7 +299,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -323,7 +321,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -346,7 +343,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -371,7 +367,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -402,7 +397,6 @@ actions
 .
 closeTab
 (
-cx
 fooSource
 )
 )
@@ -475,7 +469,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -508,7 +501,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -593,7 +585,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -665,7 +656,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -684,7 +674,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -703,7 +692,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -722,7 +710,6 @@ actions
 .
 closeTab
 (
-cx
 bazSource
 )
 )
@@ -797,7 +784,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -873,7 +859,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -896,7 +881,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -919,7 +903,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -944,7 +927,6 @@ actions
 .
 selectLocation
 (
-cx
 initialLocation
 (
 "
@@ -963,7 +945,6 @@ actions
 .
 closeTab
 (
-cx
 bazSource
 )
 )
@@ -1128,7 +1109,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -1175,7 +1155,6 @@ actions
 .
 setSelectedLocation
 (
-cx
 location
 )
 )
@@ -1400,7 +1379,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 store
@@ -1464,7 +1442,6 @@ actions
 .
 selectLocation
 (
-cx
 location
 )
 )
@@ -1534,7 +1511,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -1641,7 +1617,6 @@ actions
 .
 selectSource
 (
-cx
 baseSources
 [
 0
@@ -1656,7 +1631,6 @@ actions
 .
 selectSpecificLocation
 (
-cx
 createLocation
 (
 {

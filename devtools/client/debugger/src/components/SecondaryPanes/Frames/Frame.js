@@ -476,11 +476,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
 disableContextMenu
 :
 PropTypes
@@ -660,11 +655,6 @@ props
 .
 selectFrame
 (
-this
-.
-props
-.
-cx
 frame
 )
 ;
@@ -697,11 +687,6 @@ props
 .
 selectFrame
 (
-this
-.
-props
-.
-cx
 frame
 )
 ;

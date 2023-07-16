@@ -190,10 +190,6 @@ actions
 .
 stepIn
 (
-getThreadContext
-(
-dbg
-)
 )
 ;
 /

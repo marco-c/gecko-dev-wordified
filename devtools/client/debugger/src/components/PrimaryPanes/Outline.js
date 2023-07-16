@@ -161,7 +161,6 @@ getSelectedLocation
 getSelectedSource
 getSymbols
 getCursorPosition
-getContext
 }
 from
 "
@@ -464,13 +463,6 @@ cursorPosition
 PropTypes
 .
 object
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 flashLineRange
 :
 PropTypes
@@ -757,7 +749,6 @@ selectedItem
 {
 const
 {
-cx
 selectedSource
 selectLocation
 }
@@ -781,7 +772,6 @@ return
 }
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -1880,12 +1870,6 @@ state
 ;
 return
 {
-cx
-:
-getContext
-(
-state
-)
 symbols
 selectedSource
 cursorPosition

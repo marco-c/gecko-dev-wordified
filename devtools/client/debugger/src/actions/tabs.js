@@ -190,7 +190,6 @@ export
 function
 closeTab
 (
-cx
 source
 reason
 =
@@ -254,7 +253,6 @@ dispatch
 (
 selectSource
 (
-cx
 newSource
 )
 )
@@ -278,7 +276,6 @@ export
 function
 closeTabs
 (
-cx
 urls
 )
 {
@@ -369,7 +366,6 @@ dispatch
 (
 selectSource
 (
-cx
 source
 )
 )

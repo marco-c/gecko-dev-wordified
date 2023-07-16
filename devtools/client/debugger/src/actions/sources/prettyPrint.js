@@ -1689,7 +1689,6 @@ prettySource
 function
 selectPrettyLocation
 (
-cx
 prettySource
 )
 {
@@ -1789,7 +1788,6 @@ dispatch
 (
 selectSpecificLocation
 (
-cx
 createLocation
 (
 {
@@ -1811,7 +1809,6 @@ dispatch
 (
 selectSource
 (
-cx
 prettySource
 )
 )
@@ -1845,10 +1842,6 @@ javascript
 files
 .
 *
-*
-param
-Object
-cx
 *
 param
 String
@@ -1888,7 +1881,6 @@ export
 function
 togglePrettyPrint
 (
-cx
 sourceId
 )
 {
@@ -2012,7 +2004,6 @@ dispatch
 (
 selectPrettyLocation
 (
-cx
 prettySource
 )
 )
@@ -2150,7 +2141,6 @@ dispatch
 (
 selectPrettyLocation
 (
-cx
 newPrettySource
 )
 )

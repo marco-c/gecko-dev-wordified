@@ -246,7 +246,6 @@ hasSourceActor
 getSourceByActorId
 getPendingSelectedLocation
 getPendingBreakpointsForSource
-getContext
 }
 from
 "
@@ -756,7 +755,6 @@ it
 function
 checkSelectedSource
 (
-cx
 sourceId
 )
 {
@@ -867,7 +865,6 @@ dispatch
 (
 togglePrettyPrint
 (
-cx
 source
 .
 id
@@ -891,7 +888,6 @@ dispatch
 (
 selectLocation
 (
-cx
 createLocation
 (
 {
@@ -1286,14 +1282,6 @@ url
 )
 ;
 }
-const
-cx
-=
-getContext
-(
-state
-)
-;
 /
 /
 Add
@@ -1404,7 +1392,6 @@ dispatch
 (
 checkNewSources
 (
-cx
 sources
 )
 )
@@ -1732,16 +1719,6 @@ values
 newSourcesObj
 )
 ;
-const
-cx
-=
-getContext
-(
-getState
-(
-)
-)
-;
 dispatch
 (
 {
@@ -1769,7 +1746,6 @@ dispatch
 (
 checkNewSources
 (
-cx
 newSources
 )
 )
@@ -1961,7 +1937,6 @@ id
 function
 checkNewSources
 (
-cx
 sources
 )
 {
@@ -1988,7 +1963,6 @@ dispatch
 (
 checkSelectedSource
 (
-cx
 source
 .
 id

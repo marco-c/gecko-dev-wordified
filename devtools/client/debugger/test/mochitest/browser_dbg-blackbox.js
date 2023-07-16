@@ -2830,9 +2830,12 @@ dbg
 const
 prevThreadPauseCounter
 =
+dbg
+.
+selectors
+.
 getThreadContext
 (
-dbg
 )
 .
 pauseCounter
@@ -2850,9 +2853,12 @@ waitFor
 )
 =
 >
+dbg
+.
+selectors
+.
 getThreadContext
 (
-dbg
 )
 .
 pauseCounter

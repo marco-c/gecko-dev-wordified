@@ -101,7 +101,6 @@ getSelectedSource
 getSourcesForTabs
 getIsPaused
 getCurrentThread
-getContext
 getBlackBoxRanges
 }
 from
@@ -393,13 +392,6 @@ propTypes
 {
 return
 {
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 endPanelCollapsed
 :
 PropTypes
@@ -821,7 +813,6 @@ source
 {
 const
 {
-cx
 selectSource
 }
 =
@@ -846,7 +837,6 @@ onClick
 >
 selectSource
 (
-cx
 source
 )
 ;
@@ -1631,12 +1621,6 @@ state
 {
 return
 {
-cx
-:
-getContext
-(
-state
-)
 selectedSource
 :
 getSelectedSource

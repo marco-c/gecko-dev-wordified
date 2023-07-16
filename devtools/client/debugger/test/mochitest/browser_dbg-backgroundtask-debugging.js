@@ -698,7 +698,6 @@ expandAllScopes
 findElement
 findElementWithSelector
 getSelector
-getThreadContext
 getVisibleSelectedFrameLine
 isPaused
 resume
