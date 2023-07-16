@@ -1093,13 +1093,10 @@ incAllocCount
 ;
 if
 (
-MOZ_UNLIKELY
-(
 allocCount
 =
 =
 1
-)
 )
 {
 pretenuringNursery
