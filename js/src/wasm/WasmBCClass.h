@@ -2782,6 +2782,10 @@ inline
 bool
 usesSharedMemory
 (
+uint32_t
+memoryIndex
+=
+0
 )
 const
 ;
@@ -10682,6 +10686,10 @@ check
 void
 pushHeapBase
 (
+uint32_t
+memoryIndex
+=
+0
 )
 ;
 /
@@ -14035,6 +14043,8 @@ nodiscard
 bool
 memFillCall
 (
+uint32_t
+memoryIndex
 )
 ;
 void
