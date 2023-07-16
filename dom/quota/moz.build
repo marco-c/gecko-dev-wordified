@@ -545,6 +545,11 @@ QuotaResults
 cpp
 "
 "
+QuotaUsageRequestBase
+.
+cpp
+"
+"
 RemoteQuotaObject
 .
 cpp
