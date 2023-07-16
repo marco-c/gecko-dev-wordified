@@ -156,9 +156,9 @@ modules
 /
 video_coding
 /
-include
+deprecated
 /
-video_coding
+packet
 .
 h
 "
@@ -169,7 +169,9 @@ modules
 /
 video_coding
 /
-packet
+include
+/
+video_coding
 .
 h
 "

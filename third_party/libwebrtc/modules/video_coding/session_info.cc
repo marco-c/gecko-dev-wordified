@@ -180,7 +180,9 @@ modules
 /
 video_coding
 /
-jitter_buffer_common
+deprecated
+/
+packet
 .
 h
 "
@@ -191,7 +193,7 @@ modules
 /
 video_coding
 /
-packet
+jitter_buffer_common
 .
 h
 "

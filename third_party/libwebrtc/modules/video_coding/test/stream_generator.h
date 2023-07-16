@@ -110,6 +110,8 @@ modules
 /
 video_coding
 /
+deprecated
+/
 packet
 .
 h
