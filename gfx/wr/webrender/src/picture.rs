@@ -40536,6 +40536,11 @@ world_scale_factors
 .
 1
 )
+.
+min
+(
+max_scale
+)
 )
 ;
 (
