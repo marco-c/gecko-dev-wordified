@@ -729,6 +729,12 @@ bool
 enabled
 )
 ;
+bool
+IsSinglecastOrAllNonFirstLayersInactive
+(
+)
+const
+;
 /
 /
 Public
