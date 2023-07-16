@@ -196,6 +196,10 @@ class
 T
 class
 Sub
+class
+Coord
+=
+T
 >
 struct
 BaseSize
@@ -239,9 +243,9 @@ height
 constexpr
 BaseSize
 (
-T
+Coord
 aWidth
-T
+Coord
 aHeight
 )
 :
@@ -848,6 +852,7 @@ BaseSize
 <
 T
 Sub
+Coord
 >
 &
 aSize

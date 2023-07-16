@@ -387,6 +387,8 @@ typename
 T
 typename
 Sub
+typename
+Coord
 >
 static
 AspectRatio
@@ -400,6 +402,7 @@ BaseSize
 <
 T
 Sub
+Coord
 >
 &
 aSize
