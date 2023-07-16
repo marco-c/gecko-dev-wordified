@@ -109,9 +109,9 @@ head_servers
 js
 *
 /
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -128,7 +128,9 @@ modules
 /
 ObjectUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

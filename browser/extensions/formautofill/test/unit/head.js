@@ -50,7 +50,7 @@ ObjectUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -63,7 +63,9 @@ modules
 /
 ObjectUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
