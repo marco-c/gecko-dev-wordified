@@ -36983,6 +36983,15 @@ PromiseObject
 resultPromise
 HandleValue
 reason
+JS
+:
+:
+Handle
+<
+SavedFrame
+*
+>
+unwrappedRejectionStack
 )
 {
 if
@@ -37132,6 +37141,7 @@ RejectPromiseInternal
 cx
 resultPromise
 reason
+unwrappedRejectionStack
 )
 ;
 }
