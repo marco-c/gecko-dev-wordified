@@ -7834,6 +7834,15 @@ Type
 :
 JSObject
 :
+case
+StubField
+:
+:
+Type
+:
+:
+WeakObject
+:
 {
 JSObject
 *

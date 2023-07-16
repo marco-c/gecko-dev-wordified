@@ -4596,7 +4596,7 @@ JSObject
 *
 proto
 =
-objectStubField
+weakObjectStubField
 (
 protoOffset
 )
@@ -5093,7 +5093,7 @@ JSObject
 *
 expected
 =
-objectStubField
+weakObjectStubField
 (
 expectedOffset
 )

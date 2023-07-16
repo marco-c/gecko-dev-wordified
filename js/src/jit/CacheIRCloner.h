@@ -324,6 +324,14 @@ uint32_t
 stubOffset
 )
 ;
+JSObject
+*
+getWeakObjectField
+(
+uint32_t
+stubOffset
+)
+;
 JSString
 *
 getStringField
