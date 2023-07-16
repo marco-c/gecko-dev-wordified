@@ -1245,6 +1245,11 @@ IsValid
 )
 )
 ;
+RTC_DCHECK
+(
+controller_
+)
+;
 switch
 (
 config
