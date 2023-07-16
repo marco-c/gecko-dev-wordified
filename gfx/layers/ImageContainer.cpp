@@ -399,17 +399,6 @@ MacIOSurfaceImage
 h
 "
 #
-include
-"
-mozilla
-/
-gfx
-/
-QuartzSupport
-.
-h
-"
-#
 endif
 #
 ifdef
