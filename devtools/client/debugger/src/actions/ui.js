@@ -68,7 +68,6 @@ getSourceTextContent
 getIgnoreListSourceUrls
 getSourceByURL
 getBreakpointsForSource
-getContext
 }
 from
 "
@@ -1140,16 +1139,6 @@ getState
 thunkArgs
 ;
 const
-cx
-=
-getContext
-(
-getState
-(
-)
-)
-;
-const
 ignoreListSourceUrls
 =
 getIgnoreListSourceUrls
@@ -1223,7 +1212,6 @@ dispatch
 (
 toggleBreakpoints
 (
-cx
 shouldEnable
 breakpoints
 )
