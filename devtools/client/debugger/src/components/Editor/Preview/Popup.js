@@ -873,6 +873,15 @@ this
 .
 onMouseOutException
 }
+clearPreview
+=
+{
+this
+.
+props
+.
+clearPreview
+}
 /
 >
 )
