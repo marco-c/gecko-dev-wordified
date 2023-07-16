@@ -14128,7 +14128,7 @@ true
 ;
 }
 bool
-isSpecialAboutURI
+isContentAccessibleAboutURI
 ;
 Unused
 <
@@ -14139,11 +14139,12 @@ aPrincipal
 IsContentAccessibleAboutURI
 (
 &
-isSpecialAboutURI
+isContentAccessibleAboutURI
 )
 ;
 return
-isSpecialAboutURI
+!
+isContentAccessibleAboutURI
 ;
 }
 const
