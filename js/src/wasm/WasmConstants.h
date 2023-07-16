@@ -4435,6 +4435,13 @@ MaxTables
 static
 const
 unsigned
+MaxMemories
+=
+100000
+;
+static
+const
+unsigned
 MaxImports
 =
 100000
