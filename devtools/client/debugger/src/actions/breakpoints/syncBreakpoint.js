@@ -399,7 +399,6 @@ export
 function
 syncPendingBreakpoint
 (
-cx
 sourceId
 pendingBreakpoint
 )
@@ -628,7 +627,6 @@ dispatch
 (
 addBreakpoint
 (
-cx
 sourceGeneratedLocation
 pendingBreakpoint
 .
@@ -828,7 +826,6 @@ dispatch
 (
 addBreakpoint
 (
-cx
 newGeneratedLocation
 pendingBreakpoint
 .

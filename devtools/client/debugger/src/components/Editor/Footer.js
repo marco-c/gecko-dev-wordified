@@ -666,7 +666,6 @@ blackBoxButton
 {
 const
 {
-cx
 selectedSource
 isSelectedSourceBlackBoxed
 toggleBlackBox
@@ -763,7 +762,6 @@ onClick
 >
 toggleBlackBox
 (
-cx
 selectedSource
 )
 }

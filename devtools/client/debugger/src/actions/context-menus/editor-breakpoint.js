@@ -149,7 +149,6 @@ source
 ;
 import
 {
-getThreadContext
 getSelectedSource
 getBlackBoxRanges
 isSourceMapIgnoreListEnabled
@@ -253,14 +252,6 @@ getState
 )
 ;
 const
-cx
-=
-getThreadContext
-(
-state
-)
-;
-const
 selectedSource
 =
 getSelectedSource
@@ -324,7 +315,6 @@ dispatch
 )
 toggleDisabledBreakpointItem
 (
-cx
 breakpoint
 blackboxedRangesForSelectedSource
 isSelectedSourceOnIgnoreList
@@ -359,7 +349,6 @@ separator
 }
 toggleDbgStatementItem
 (
-cx
 selectedLocation
 breakpoint
 dispatch
@@ -389,7 +378,6 @@ disabled
 ?
 enableBreakpointsOnLineItem
 (
-cx
 selectedLocation
 blackboxedRangesForSelectedSource
 isSelectedSourceOnIgnoreList
@@ -398,7 +386,6 @@ dispatch
 :
 disableBreakpointsOnLineItem
 (
-cx
 selectedLocation
 dispatch
 )
@@ -465,21 +452,10 @@ getState
 >
 {
 const
-cx
-=
-getThreadContext
-(
-getState
-(
-)
-)
-;
-const
 items
 =
 createBreakpointItems
 (
-cx
 location
 lineText
 dispatch
@@ -498,7 +474,6 @@ export
 function
 createBreakpointItems
 (
-cx
 location
 lineText
 dispatch
@@ -510,7 +485,6 @@ items
 [
 addBreakpointItem
 (
-cx
 location
 dispatch
 )
@@ -561,7 +535,6 @@ push
 (
 toggleDbgStatementItem
 (
-cx
 location
 null
 dispatch
@@ -577,7 +550,6 @@ const
 addBreakpointItem
 =
 (
-cx
 location
 dispatch
 )
@@ -635,7 +607,6 @@ dispatch
 (
 addBreakpoint
 (
-cx
 location
 )
 )
@@ -1167,7 +1138,6 @@ const
 toggleDisabledBreakpointItem
 =
 (
-cx
 breakpoint
 blackboxedRangesForSelectedSource
 isSelectedSourceOnIgnoreList
@@ -1285,7 +1255,6 @@ const
 toggleDbgStatementItem
 =
 (
-cx
 location
 breakpoint
 dispatch
@@ -1351,7 +1320,6 @@ dispatch
 (
 setBreakpointOptions
 (
-cx
 location
 {
 .
@@ -1409,7 +1377,6 @@ dispatch
 (
 setBreakpointOptions
 (
-cx
 location
 {
 condition
@@ -1445,7 +1412,6 @@ const
 removeBreakpointsOnLineItem
 =
 (
-cx
 location
 dispatch
 )
@@ -1526,7 +1492,6 @@ const
 enableBreakpointsOnLineItem
 =
 (
-cx
 location
 blackboxedRangesForSelectedSource
 isSelectedSourceOnIgnoreList
@@ -1616,7 +1581,6 @@ const
 disableBreakpointsOnLineItem
 =
 (
-cx
 location
 dispatch
 )

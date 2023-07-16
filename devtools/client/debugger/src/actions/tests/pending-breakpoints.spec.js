@@ -443,7 +443,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -509,10 +508,7 @@ actions
 .
 loadGeneratedSourceText
 (
-{
-cx
 sourceActor
-}
 )
 )
 ;
@@ -537,7 +533,6 @@ actions
 .
 addBreakpoint
 (
-cx
 bp
 .
 location
@@ -667,7 +662,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -748,10 +742,7 @@ actions
 .
 loadGeneratedSourceText
 (
-{
-cx
 sourceActor
-}
 )
 )
 ;
@@ -762,7 +753,6 @@ actions
 .
 addBreakpoint
 (
-cx
 bar
 .
 location
@@ -817,7 +807,6 @@ const
 {
 dispatch
 getState
-cx
 }
 =
 createStore
@@ -895,10 +884,7 @@ actions
 .
 loadGeneratedSourceText
 (
-{
-cx
 sourceActor
-}
 )
 )
 ;
@@ -909,7 +895,6 @@ actions
 .
 addBreakpoint
 (
-cx
 bp
 .
 location
@@ -1007,7 +992,6 @@ const
 {
 getState
 dispatch
-cx
 }
 =
 store
@@ -1055,10 +1039,7 @@ actions
 .
 loadGeneratedSourceText
 (
-{
-cx
 sourceActor
-}
 )
 )
 ;
@@ -1270,7 +1251,6 @@ const
 {
 getState
 dispatch
-cx
 }
 =
 store
@@ -1335,10 +1315,7 @@ actions
 .
 loadGeneratedSourceText
 (
-{
-cx
 sourceActor
-}
 )
 )
 ;
@@ -1683,7 +1660,6 @@ const
 {
 getState
 dispatch
-cx
 }
 =
 store
@@ -1776,12 +1752,7 @@ actions
 .
 loadGeneratedSourceText
 (
-{
-cx
-sourceActor
-:
 sourceActor1
-}
 )
 )
 ;
@@ -1792,12 +1763,7 @@ actions
 .
 loadGeneratedSourceText
 (
-{
-cx
-sourceActor
-:
 sourceActor2
-}
 )
 )
 ;

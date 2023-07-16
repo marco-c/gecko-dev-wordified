@@ -90,7 +90,6 @@ import
 {
 getSelectedSource
 visibleColumnBreakpoints
-getContext
 isSourceBlackBoxed
 }
 from
@@ -183,13 +182,6 @@ PropTypes
 array
 .
 isRequired
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 editor
 :
 PropTypes
@@ -211,7 +203,6 @@ render
 {
 const
 {
-cx
 editor
 columnBreakpoints
 selectedSource
@@ -271,11 +262,6 @@ breakpoint
 (
 <
 ColumnBreakpoint
-cx
-=
-{
-cx
-}
 key
 =
 {
@@ -417,12 +403,6 @@ return
 }
 return
 {
-cx
-:
-getContext
-(
-state
-)
 selectedSource
 columnBreakpoints
 :

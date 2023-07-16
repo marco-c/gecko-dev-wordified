@@ -6135,10 +6135,6 @@ actions
 .
 addBreakpoint
 (
-getContext
-(
-dbg
-)
 createLocation
 (
 {

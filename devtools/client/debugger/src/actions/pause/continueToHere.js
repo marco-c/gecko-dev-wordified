@@ -347,7 +347,6 @@ dispatch
 (
 addHiddenBreakpoint
 (
-cx
 createLocation
 (
 {

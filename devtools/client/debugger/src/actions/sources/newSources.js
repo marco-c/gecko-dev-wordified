@@ -986,7 +986,6 @@ dispatch
 (
 loadSourceText
 (
-cx
 source
 sourceActor
 )
@@ -1026,7 +1025,6 @@ dispatch
 (
 syncPendingBreakpoint
 (
-cx
 source
 .
 id
@@ -1044,7 +1042,6 @@ pendingBp
 function
 restoreBlackBoxedSources
 (
-cx
 sources
 )
 {
@@ -1128,7 +1125,6 @@ dispatch
 (
 toggleBlackBox
 (
-cx
 source
 true
 ranges
@@ -2035,7 +2031,6 @@ dispatch
 (
 restoreBlackBoxedSources
 (
-cx
 sources
 )
 )

@@ -235,10 +235,6 @@ actions
 .
 addBreakpoint
 (
-getContext
-(
-dbg
-)
 createLocation
 (
 {
@@ -465,10 +461,6 @@ actions
 .
 addBreakpoint
 (
-getContext
-(
-dbg
-)
 createLocation
 (
 {
@@ -648,10 +640,6 @@ actions
 .
 addBreakpoint
 (
-getContext
-(
-dbg
-)
 createLocation
 (
 {

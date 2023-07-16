@@ -1634,11 +1634,6 @@ props
 .
 toggleBreakpointAtLine
 (
-this
-.
-props
-.
-cx
 line
 )
 ;
@@ -2393,7 +2388,6 @@ return
 }
 addBreakpointAtLine
 (
-cx
 sourceLine
 ev
 .

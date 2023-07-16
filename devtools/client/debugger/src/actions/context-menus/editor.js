@@ -572,7 +572,6 @@ event
 .
 createBreakpointItems
 (
-cx
 location
 lineText
 dispatch
@@ -600,7 +599,6 @@ separator
 }
 blackBoxLineMenuItem
 (
-cx
 source
 editor
 blackboxedRanges
@@ -1071,7 +1069,6 @@ const
 blackBoxMenuItem
 =
 (
-cx
 selectedSource
 blackboxedRanges
 isSourceOnIgnoreList
@@ -1177,7 +1174,6 @@ dispatch
 (
 toggleBlackBox
 (
-cx
 selectedSource
 )
 )
@@ -1189,7 +1185,6 @@ const
 blackBoxLineMenuItem
 =
 (
-cx
 selectedSource
 editor
 blackboxedRanges
@@ -1562,7 +1557,6 @@ dispatch
 (
 toggleBlackBox
 (
-cx
 selectedSource
 !
 selectedLineIsBlackBoxed
@@ -1587,7 +1581,6 @@ const
 blackBoxLinesMenuItem
 =
 (
-cx
 selectedSource
 editor
 blackboxedRanges
@@ -1794,7 +1787,6 @@ dispatch
 (
 toggleBlackBox
 (
-cx
 selectedSource
 !
 selectedLinesAreBlackBoxed
@@ -2292,7 +2284,6 @@ separator
 }
 blackBoxMenuItem
 (
-cx
 source
 blackboxedRanges
 isSourceOnIgnoreList
@@ -2459,7 +2450,6 @@ push
 (
 blackBoxSourceLinesMenuItem
 (
-cx
 source
 editor
 blackboxedRanges

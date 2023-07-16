@@ -398,13 +398,6 @@ PropTypes
 object
 .
 isRequired
-cx
-:
-PropTypes
-.
-object
-.
-isRequired
 source
 :
 PropTypes
@@ -564,7 +557,6 @@ preventDefault
 ;
 const
 {
-cx
 columnBreakpoint
 toggleDisabledBreakpoint
 removeBreakpoint
@@ -621,7 +613,6 @@ else
 {
 addBreakpoint
 (
-cx
 columnBreakpoint
 .
 location
