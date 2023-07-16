@@ -339,7 +339,6 @@ CachedDisplayItem
 )
 {
 let
-mut
 entry
 =
 &
@@ -381,7 +380,6 @@ ItemKey
 )
 {
 let
-mut
 entry
 =
 &

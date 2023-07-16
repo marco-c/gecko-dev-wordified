@@ -8320,7 +8320,6 @@ is_empty
 )
 ;
 let
-mut
 tile
 =
 &
