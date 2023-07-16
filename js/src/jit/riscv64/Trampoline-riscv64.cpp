@@ -353,7 +353,7 @@ ra
 /
 See
 :
-CodeGeneratorLOONG64
+CodeGeneratorRiscv64
 :
 :
 generateOutOfLineCode
@@ -5875,7 +5875,7 @@ MOZ_CRASH
 "
 NYI
 :
-LOONG64
+riscv
 callVM
 should
 not

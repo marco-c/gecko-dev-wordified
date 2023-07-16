@@ -458,7 +458,7 @@ c
 /
 TODO
 (
-loong64
+riscv
 )
 :
 32
@@ -6615,7 +6615,7 @@ Uint32
 /
 TODO
 (
-loong64
+riscv
 )
 :
 Why
@@ -35728,7 +35728,7 @@ overflow
 /
 TODO
 (
-loong64
+riscv
 )
 :
 Check

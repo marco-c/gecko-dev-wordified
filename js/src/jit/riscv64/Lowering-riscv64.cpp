@@ -3271,7 +3271,7 @@ TrueExprIndex
 /
 /
 On
-loong64
+riscv
 we
 specialize
 the
@@ -6321,7 +6321,7 @@ sign
 -
 extended
 on
-loongarch64
+riscv64
 platform
 and
 we
@@ -6335,6 +6335,10 @@ to
 64
 -
 bit
+by
+zero
+-
+extension
 when
 use
 it
@@ -6344,6 +6348,8 @@ index
 register
 in
 memory
+/
+/
 accesses
 .
 MOZ_ASSERT

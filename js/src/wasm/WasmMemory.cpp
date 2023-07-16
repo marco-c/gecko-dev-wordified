@@ -1965,8 +1965,9 @@ huge
 memory
 on
 x64
-and
 arm64
+and
+riscv64
 .
 #
 if
@@ -1981,6 +1982,13 @@ JS_CODEGEN_X64
 defined
 (
 JS_CODEGEN_ARM64
+)
+|
+|
+\
+defined
+(
+JS_CODEGEN_RISCV64
 )
 )
 #
