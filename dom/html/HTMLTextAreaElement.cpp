@@ -1055,6 +1055,13 @@ GetValue
 (
 aValue
 aIgnoreWrap
+/
+*
+aForDisplay
+=
+*
+/
+true
 )
 ;
 }
@@ -6188,6 +6195,7 @@ GetDefaultValueFromContent
 nsAString
 &
 aValue
+bool
 )
 {
 GetDefaultValue
@@ -6238,6 +6246,13 @@ aValue
 /
 *
 aIgnoreWrap
+=
+*
+/
+true
+/
+*
+aForDisplay
 =
 *
 /
