@@ -372,7 +372,7 @@ iterator
 across
 auxv
 pairs
-froom
+from
 procfs
 .
 pub

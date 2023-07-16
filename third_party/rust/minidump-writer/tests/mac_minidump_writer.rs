@@ -1432,7 +1432,7 @@ symbols
 let
 provider
 =
-minidump_processor
+minidump_unwind
 :
 :
 Symbolizer
@@ -1440,7 +1440,7 @@ Symbolizer
 :
 new
 (
-minidump_processor
+minidump_unwind
 :
 :
 simple_symbol_supplier

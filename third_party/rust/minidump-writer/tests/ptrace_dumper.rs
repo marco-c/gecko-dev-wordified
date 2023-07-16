@@ -347,7 +347,7 @@ index
 ;
 let
 (
-_stack_ptr
+_valid_stack_ptr
 stack_len
 )
 =
@@ -2059,7 +2059,9 @@ assert
 (
 mapping_info
 .
-executable
+is_executable
+(
+)
 )
 ;
 /
