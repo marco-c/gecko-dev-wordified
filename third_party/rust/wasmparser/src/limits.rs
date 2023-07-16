@@ -408,7 +408,7 @@ MAX_WASM_INSTANTIATION_EXPORTS
 :
 usize
 =
-1000
+100_000
 ;
 pub
 const
@@ -424,7 +424,7 @@ MAX_WASM_INSTANTIATION_ARGS
 :
 usize
 =
-1000
+100_000
 ;
 pub
 const

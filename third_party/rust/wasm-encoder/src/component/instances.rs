@@ -11,6 +11,7 @@ crate
 {
 encode_section
 ComponentExportKind
+ComponentExternName
 ComponentSection
 ComponentSectionId
 Encode
@@ -770,6 +771,7 @@ wasm_encoder
 Component
 ComponentInstanceSection
 ComponentExportKind
+ComponentExternName
 }
 ;
 /
@@ -798,9 +800,15 @@ export_items
 (
 [
 (
+ComponentExternName
+:
+:
+Kebab
+(
 "
 foo
 "
+)
 ComponentExportKind
 :
 :
@@ -1183,10 +1191,11 @@ IntoIterator
 Item
 =
 (
-&
+ComponentExternName
+<
 '
 a
-str
+>
 ComponentExportKind
 u32
 )

@@ -1129,10 +1129,6 @@ read
 (
 )
 ?
-url
-:
-"
-"
 kind
 :
 reader

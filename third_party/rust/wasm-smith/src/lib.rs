@@ -540,7 +540,7 @@ use
 wasmparser
 :
 :
-types
+names
 :
 :
 {

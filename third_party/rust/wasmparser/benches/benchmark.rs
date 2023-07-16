@@ -1411,6 +1411,9 @@ true
 memory_control
 :
 true
+gc
+:
+true
 }
 )
 }
