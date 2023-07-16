@@ -231,10 +231,6 @@ ICScript
 ;
 enum
 class
-TailCallVMFunctionId
-;
-enum
-class
 VMFunctionId
 ;
 /
