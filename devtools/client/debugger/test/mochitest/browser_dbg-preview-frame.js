@@ -260,17 +260,6 @@ secondCall
 }
 )
 ;
-await
-new
-Promise
-(
-res
-=
->
-{
-}
-)
-;
 is
 (
 dbg
