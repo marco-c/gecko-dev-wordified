@@ -25725,6 +25725,9 @@ standalone
 "
 legacy
 "
+"
+embedded
+"
 .
 pref
 (
@@ -25744,7 +25747,7 @@ welcome
 behavior
 "
 "
-legacy
+embedded
 "
 )
 ;
