@@ -275,6 +275,11 @@ FileStreams
 h
 "
 "
+FileUtils
+.
+h
+"
+"
 FirstInitializationAttempts
 .
 h
@@ -456,6 +461,11 @@ cpp
 "
 "
 FileStreams
+.
+cpp
+"
+"
+FileUtils
 .
 cpp
 "
