@@ -1048,6 +1048,10 @@ if
 fast_xyb_srgb8_conversion
 )
 {
+#
+if
+!
+JXL_HIGH_PRECISION
 JXL_ASSERT
 (
 !
@@ -1145,6 +1149,8 @@ alpha_c
 )
 )
 ;
+#
+endif
 }
 else
 {

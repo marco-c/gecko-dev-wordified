@@ -107,9 +107,9 @@ include
 "
 lib
 /
-jxl
+extras
 /
-enc_butteraugli_pnorm
+metrics
 .
 h
 "
@@ -2181,7 +2181,7 @@ get
 (
 )
 frame_settings
-3600
+3000
 false
 )
 ;

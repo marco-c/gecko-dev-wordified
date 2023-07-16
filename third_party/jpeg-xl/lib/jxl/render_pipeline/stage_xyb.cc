@@ -950,6 +950,10 @@ output_encoding_info
 )
 ;
 }
+#
+if
+!
+JXL_HIGH_PRECISION
 namespace
 {
 class
@@ -1278,6 +1282,8 @@ alpha_c
 )
 ;
 }
+#
+endif
 }
 /
 /

@@ -372,7 +372,7 @@ JxlBitDepth
 output_bitdepth
 =
 {
-JXL_BIT_DEPTH_FROM_PIXEL_FORMAT
+JXL_BIT_DEPTH_FROM_CODESTREAM
 0
 0
 }

@@ -311,6 +311,11 @@ intensity_target
 =
 0
 ;
+int
+already_downsampled
+=
+1
+;
 /
 /
 Overrides

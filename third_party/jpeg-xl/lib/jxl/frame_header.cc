@@ -648,6 +648,12 @@ return
 true
 ;
 }
+#
+if
+JXL_DEBUG_V_LEVEL
+>
+=
+1
 std
 :
 :
@@ -829,6 +835,8 @@ str
 )
 ;
 }
+#
+endif
 AnimationFrame
 :
 :
@@ -1379,6 +1387,12 @@ return
 true
 ;
 }
+#
+if
+JXL_DEBUG_V_LEVEL
+>
+=
+1
 std
 :
 :
@@ -1568,6 +1582,8 @@ str
 )
 ;
 }
+#
+endif
 FrameHeader
 :
 :
@@ -3498,6 +3514,12 @@ EndExtensions
 )
 ;
 }
+#
+if
+JXL_DEBUG_V_LEVEL
+>
+=
+1
 std
 :
 :
@@ -4152,6 +4174,8 @@ str
 )
 ;
 }
+#
+endif
 }
 /
 /

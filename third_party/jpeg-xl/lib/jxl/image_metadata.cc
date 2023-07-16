@@ -479,6 +479,12 @@ return
 true
 ;
 }
+#
+if
+JXL_DEBUG_V_LEVEL
+>
+=
+1
 std
 :
 :
@@ -539,6 +545,8 @@ str
 )
 ;
 }
+#
+endif
 CustomTransformData
 :
 :
@@ -2970,6 +2978,12 @@ return
 true
 ;
 }
+#
+if
+JXL_DEBUG_V_LEVEL
+>
+=
+1
 std
 :
 :
@@ -3135,6 +3149,8 @@ str
 )
 ;
 }
+#
+endif
 ImageMetadata
 :
 :
@@ -4446,6 +4462,12 @@ modular_16_bit_buffer_sufficient
 false
 ;
 }
+#
+if
+JXL_DEBUG_V_LEVEL
+>
+=
+1
 std
 :
 :
@@ -4709,6 +4731,8 @@ str
 )
 ;
 }
+#
+endif
 }
 /
 /

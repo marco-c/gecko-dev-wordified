@@ -47,9 +47,9 @@ include
 "
 lib
 /
-jxl
+extras
 /
-enc_butteraugli_pnorm
+metrics
 .
 h
 "
@@ -81,9 +81,9 @@ HWY_TARGET_INCLUDE
 "
 lib
 /
-jxl
+extras
 /
-enc_butteraugli_pnorm
+metrics
 .
 cc
 "

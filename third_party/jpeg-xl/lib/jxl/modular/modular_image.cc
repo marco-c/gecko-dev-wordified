@@ -467,6 +467,12 @@ return
 c
 ;
 }
+#
+if
+JXL_DEBUG_V_LEVEL
+>
+=
+1
 std
 :
 :
@@ -627,6 +633,8 @@ str
 )
 ;
 }
+#
+endif
 }
 /
 /
