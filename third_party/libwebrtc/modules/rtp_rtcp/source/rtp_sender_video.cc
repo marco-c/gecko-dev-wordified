@@ -1158,12 +1158,6 @@ rtp_sender_
 Csrcs
 (
 )
-rtp_sender_
--
->
-Rid
-(
-)
 config
 .
 task_queue_factory

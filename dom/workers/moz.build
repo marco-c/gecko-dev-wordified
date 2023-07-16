@@ -138,11 +138,6 @@ ChromeWorker
 h
 "
 "
-EventWithOptionsRunnable
-.
-h
-"
-"
 JSExecutionManager
 .
 h
@@ -304,11 +299,6 @@ cpp
 "
 "
 ChromeWorkerScope
-.
-cpp
-"
-"
-EventWithOptionsRunnable
 .
 cpp
 "
