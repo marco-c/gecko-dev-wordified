@@ -1472,16 +1472,6 @@ for
 menubar
 item
 text
-.
-MozMenubartext
-/
-/
-/
-Used
-for
-menubar
-item
-text
 when
 hovered
 .

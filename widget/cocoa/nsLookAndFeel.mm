@@ -1479,12 +1479,6 @@ ColorID
 :
 Infotext
 :
-case
-ColorID
-:
-:
-MozMenubartext
-:
 color
 =
 GetColorFromNSColor
