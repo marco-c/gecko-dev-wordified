@@ -27,7 +27,7 @@ HttpServer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -40,7 +40,9 @@ common
 /
 httpd
 .
-js
+sys
+.
+mjs
 "
 )
 ;
