@@ -53298,9 +53298,15 @@ if
 ShapeUtils
 :
 :
-ComputeInsetRadii
+ComputeRectRadii
 (
 shape
+.
+AsInset
+(
+)
+.
+round
 refBox
 insetRect
 radii
