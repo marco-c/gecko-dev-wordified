@@ -347,7 +347,7 @@ listed
 let
 browserMigratorItems
 =
-wizard
+shadow
 .
 querySelectorAll
 (
@@ -405,7 +405,7 @@ listed
 let
 fileMigratorItems
 =
-wizard
+shadow
 .
 querySelectorAll
 (
