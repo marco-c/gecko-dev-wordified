@@ -719,7 +719,6 @@ undoCloseTab
 (
 window
 0
-window
 )
 ;
 await
@@ -737,7 +736,6 @@ undoCloseTab
 (
 window
 0
-window
 )
 ;
 await
@@ -758,18 +756,6 @@ ss
 getBrowserState
 (
 )
-)
-;
-console
-.
-log
-(
-"
-examining
-state
-:
-"
-state
 )
 ;
 is
