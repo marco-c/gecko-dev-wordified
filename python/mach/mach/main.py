@@ -118,6 +118,12 @@ List
 Optional
 Union
 from
+mach
+.
+site
+import
+CommandSiteManager
+from
 .
 base
 import
@@ -1144,7 +1150,9 @@ command_site_name
 if
 command_site_name
 else
-None
+"
+common
+"
 class
 Mach
 (
@@ -1425,10 +1433,20 @@ command
 def
 __init__
 (
+        
 self
 cwd
 :
 str
+command_site_manager
+:
+Optional
+[
+CommandSiteManager
+]
+=
+None
+    
 )
 :
         
@@ -1481,6 +1499,12 @@ settings_paths
 =
 [
 ]
+        
+self
+.
+command_site_manager
+=
+command_site_manager
         
 if
 "
@@ -3503,6 +3527,10 @@ _run_command_handler
 handler
                 
 context
+                
+self
+.
+command_site_manager
                 
 debug_command
 =
