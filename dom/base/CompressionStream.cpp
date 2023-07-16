@@ -918,6 +918,12 @@ kBufferSize
 UniquePtr
 <
 uint8_t
+[
+]
+JS
+:
+:
+FreePolicy
 >
 buffer
 (
@@ -1340,7 +1346,13 @@ MoveBufferAsUint8Array
 (
 aCx
 written
+std
+:
+:
+move
+(
 buffer
+)
 )
 )
 ;
