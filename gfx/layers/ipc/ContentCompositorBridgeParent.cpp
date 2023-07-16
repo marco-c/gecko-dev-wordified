@@ -700,8 +700,10 @@ APZCTreeManager
 >
 temp
 =
-new
 APZCTreeManager
+:
+:
+Create
 (
 dummyId
 )

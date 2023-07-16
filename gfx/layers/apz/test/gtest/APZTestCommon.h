@@ -1744,6 +1744,10 @@ mcc
 aMcc
 )
 {
+Init
+(
+)
+;
 }
 RefPtr
 <
