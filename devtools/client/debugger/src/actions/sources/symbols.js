@@ -140,7 +140,6 @@ async
 function
 doSetSymbols
 (
-cx
 location
 {
 dispatch
@@ -172,7 +171,6 @@ type
 "
 SET_SYMBOLS
 "
-cx
 location
 [
 PROMISE
@@ -205,9 +203,7 @@ setSymbols
 getValue
 :
 (
-{
 location
-}
 {
 getState
 parserWorker
@@ -264,11 +260,7 @@ symbols
 }
 createKey
 :
-(
-{
 location
-}
-)
 =
 >
 location
@@ -279,17 +271,13 @@ id
 action
 :
 (
-{
-cx
 location
-}
 thunkArgs
 )
 =
 >
 doSetSymbols
 (
-cx
 location
 thunkArgs
 )

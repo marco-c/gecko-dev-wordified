@@ -1400,10 +1400,7 @@ dispatch
 (
 setSymbols
 (
-{
-cx
 location
-}
 )
 )
 ;
