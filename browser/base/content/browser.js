@@ -59583,6 +59583,15 @@ getVariable
 enabled
 "
 )
+&
+&
+!
+PrivateBrowsingUtils
+.
+isWindowPrivate
+(
+window
+)
 ;
 if
 (
