@@ -1880,24 +1880,6 @@ self
 .
 _virtualenv_manager
     
-virtualenv_manager
-.
-setter
-    
-def
-virtualenv_manager
-(
-self
-command_site_manager
-)
-:
-        
-self
-.
-_virtualenv_manager
-=
-command_site_manager
-    
 staticmethod
     
 memoize

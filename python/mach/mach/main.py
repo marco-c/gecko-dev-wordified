@@ -115,14 +115,7 @@ typing
 import
 Dict
 List
-Optional
 Union
-from
-mach
-.
-site
-import
-CommandSiteManager
 from
 .
 base
@@ -1110,9 +1103,7 @@ Path
 def
 __init__
 (
-        
 self
-        
 module
 :
 Union
@@ -1120,16 +1111,6 @@ Union
 str
 Path
 ]
-        
-command_site_name
-:
-Optional
-[
-str
-]
-=
-None
-    
 )
 :
         
@@ -1141,18 +1122,6 @@ Path
 (
 module
 )
-        
-self
-.
-site_name
-=
-command_site_name
-if
-command_site_name
-else
-"
-common
-"
 class
 Mach
 (
@@ -1433,20 +1402,10 @@ command
 def
 __init__
 (
-        
 self
 cwd
 :
 str
-command_site_manager
-:
-Optional
-[
-CommandSiteManager
-]
-=
-None
-    
 )
 :
         
@@ -1499,12 +1458,6 @@ settings_paths
 =
 [
 ]
-        
-self
-.
-command_site_manager
-=
-command_site_manager
         
 if
 "
@@ -3527,10 +3480,6 @@ _run_command_handler
 handler
                 
 context
-                
-self
-.
-command_site_manager
                 
 debug_command
 =
