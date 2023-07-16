@@ -7700,7 +7700,6 @@ scope
 .
 firstMessage
 ;
-}
 switch
 (
 scope
@@ -7785,6 +7784,7 @@ GPUErrorFilter
 "
 )
 ;
+}
 }
 return
 ret
