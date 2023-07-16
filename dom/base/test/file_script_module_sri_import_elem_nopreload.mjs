@@ -8,7 +8,7 @@ from
 /
 file_script_module_sri_import_elem_nopreload_imported
 .
-js
+mjs
 "
 ;
 f
@@ -70,7 +70,7 @@ src
 "
 file_script_module_sri_import_elem_nopreload_imported
 .
-js
+mjs
 "
 )
 ;
