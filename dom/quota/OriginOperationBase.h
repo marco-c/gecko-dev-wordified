@@ -302,11 +302,6 @@ mState
 bool
 mActorDestroyed
 ;
-protected
-:
-bool
-mNeedsStorageInit
-;
 public
 :
 void
@@ -403,10 +398,6 @@ mState
 State_Initial
 )
 mActorDestroyed
-(
-false
-)
-mNeedsStorageInit
 (
 false
 )
