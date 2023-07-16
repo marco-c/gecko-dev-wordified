@@ -1025,6 +1025,13 @@ eBasicEventClass
 )
 EVENT
 (
+cancel
+eCancel
+EventNameType_HTMLXUL
+eBasicEventClass
+)
+EVENT
+(
 canplay
 eCanPlay
 EventNameType_HTML

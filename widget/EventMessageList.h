@@ -2417,6 +2417,10 @@ NS_EVENT_MESSAGE
 (
 eClose
 )
+NS_EVENT_MESSAGE
+(
+eCancel
+)
 /
 /
 Marquee
