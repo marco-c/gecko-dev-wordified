@@ -5545,15 +5545,15 @@ logger
 .
 debug
 (
+f
 "
 Got
 action
 :
-%
-s
-"
-%
+{
 action
+}
+"
 )
         
 try
@@ -5575,14 +5575,14 @@ KeyError
 raise
 ValueError
 (
+f
 "
 Unknown
 action
-%
-s
-"
-%
+{
 action
+}
+"
 )
         
 try
@@ -5649,15 +5649,15 @@ complete
 "
 error
 "
+f
 "
 Action
-%
-s
+{
+action
+}
 not
 implemented
 "
-%
-action
 )
         
 except
@@ -5672,18 +5672,18 @@ logger
 .
 debug
 (
+f
 "
 Action
-%
-s
+{
+action
+}
 failed
 with
 an
 expected
 exception
 "
-%
-action
 )
             
 self
@@ -5697,6 +5697,14 @@ complete
 "
 error
 "
+f
+"
+Action
+{
+action
+}
+failed
+"
 )
         
 except
@@ -5709,14 +5717,14 @@ logger
 .
 warning
 (
+f
 "
 Action
-%
-s
+{
+action
+}
 failed
 "
-%
-action
 )
             
 self
