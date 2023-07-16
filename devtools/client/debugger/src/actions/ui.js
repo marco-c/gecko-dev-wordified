@@ -68,7 +68,6 @@ getSourceTextContent
 getIgnoreListSourceUrls
 getSourceByURL
 getBreakpointsForSource
-getContext
 }
 from
 "
@@ -1122,6 +1121,7 @@ export
 function
 toggleSourceMapIgnoreList
 (
+cx
 shouldEnable
 )
 {
@@ -1138,16 +1138,6 @@ getState
 }
 =
 thunkArgs
-;
-const
-cx
-=
-getContext
-(
-getState
-(
-)
-)
 ;
 const
 ignoreListSourceUrls
