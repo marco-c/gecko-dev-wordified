@@ -8237,6 +8237,16 @@ GetSwapChainFormat
 (
 )
 ;
+bool
+useTripleBuffering
+=
+StaticPrefs
+:
+:
+gfx_webrender_dcomp_video_force_triple_buffering
+(
+)
+;
 DXGI_SWAP_CHAIN_DESC1
 desc
 =
@@ -8283,6 +8293,10 @@ desc
 .
 BufferCount
 =
+useTripleBuffering
+?
+3
+:
 2
 ;
 desc
