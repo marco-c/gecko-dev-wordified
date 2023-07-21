@@ -4816,7 +4816,7 @@ videoStreams
 ]
 .
 width
-160U
+320U
 )
 ;
 ASSERT_EQ
@@ -4827,7 +4827,7 @@ videoStreams
 ]
 .
 height
-90U
+180U
 )
 ;
 ASSERT_EQ
@@ -4838,7 +4838,7 @@ videoStreams
 ]
 .
 width
-320U
+160U
 )
 ;
 ASSERT_EQ
@@ -4849,7 +4849,7 @@ videoStreams
 ]
 .
 height
-180U
+90U
 )
 ;
 }
@@ -5879,7 +5879,7 @@ rids
 0
 ]
 "
-2
+1
 "
 )
 ;
@@ -5900,7 +5900,7 @@ rids
 1
 ]
 "
-1
+2
 "
 )
 ;
@@ -7305,7 +7305,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 width
@@ -7316,7 +7316,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 height
@@ -7349,7 +7349,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-0
+2
 ]
 .
 width
@@ -7360,7 +7360,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-0
+2
 ]
 .
 height
@@ -7781,7 +7781,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 width
@@ -7792,7 +7792,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 height
@@ -7825,7 +7825,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-0
+2
 ]
 .
 width
@@ -7836,7 +7836,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-0
+2
 ]
 .
 height
@@ -7904,7 +7904,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 width
@@ -7915,7 +7915,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 height
@@ -7948,7 +7948,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-0
+2
 ]
 .
 width
@@ -7959,7 +7959,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-0
+2
 ]
 .
 height
@@ -8027,7 +8027,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 width
@@ -8038,7 +8038,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 height
@@ -8071,7 +8071,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-0
+2
 ]
 .
 width
@@ -8082,7 +8082,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-0
+2
 ]
 .
 height
@@ -8236,7 +8236,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 width
@@ -8247,7 +8247,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 height
@@ -8280,7 +8280,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-0
+2
 ]
 .
 width
@@ -8291,7 +8291,7 @@ EXPECT_EQ
 (
 videoStreams
 [
-0
+2
 ]
 .
 height
@@ -16485,7 +16485,7 @@ ASSERT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 width
@@ -16496,7 +16496,7 @@ ASSERT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 height
@@ -16576,7 +16576,7 @@ ASSERT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 width
@@ -16587,7 +16587,7 @@ ASSERT_EQ
 (
 videoStreams
 [
-2
+0
 ]
 .
 height
@@ -17621,15 +17621,7 @@ stream
 =
 videoStreams
 [
-scales
-.
-size
-(
-)
--
 i
--
-1
 ]
 ;
 const
@@ -17974,14 +17966,6 @@ stream
 =
 videoStreams
 [
-videoStreams
-.
-size
-(
-)
--
-1
--
 i
 ]
 ;
