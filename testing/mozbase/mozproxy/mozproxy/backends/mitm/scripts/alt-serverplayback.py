@@ -170,6 +170,8 @@ id
 import
 hashlib
 import
+traceback
+import
 urllib
 from
 collections
@@ -1601,19 +1603,28 @@ io
 .
 read_flows_from_paths
 (
+                    
 ctx
 .
 options
 .
 alt_server_replay
+[
+0
+]
+.
+split
+(
+"
+"
+)
+                
 )
             
 except
 exceptions
 .
 FlowReadException
-as
-e
 :
                 
 raise
@@ -1623,7 +1634,11 @@ OptionsError
 (
 str
 (
-e
+traceback
+.
+print_exc
+(
+)
 )
 )
             
