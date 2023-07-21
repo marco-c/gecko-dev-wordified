@@ -666,7 +666,7 @@ trc
 NanosecondsToDays
 (
 nanoseconds
-relativeTo
+zonedRelativeTo
 )
 *
 /
@@ -691,7 +691,7 @@ ZonedDateTimeObject
 *
 >
 >
-relativeTo
+zonedRelativeTo
 JS
 :
 :
