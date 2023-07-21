@@ -977,14 +977,6 @@ Warning
 Report
 )
 ;
-void
-linkWithJSContext
-(
-JSContext
-*
-cx
-)
-;
 mozilla
 :
 :
