@@ -554,6 +554,12 @@ cmake
 "
 vcpkg
 "
+    
+"
+windows
+-
+targets
+"
 ]
 #
 Historically
