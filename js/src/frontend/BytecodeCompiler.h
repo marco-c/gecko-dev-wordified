@@ -2091,6 +2091,14 @@ JSFunction
 fun
 )
 ;
+enum
+class
+DelazifyFailureReason
+{
+Compressed
+Other
+}
+;
 extern
 already_AddRefed
 <
@@ -2119,6 +2127,9 @@ CompilationStencil
 context
 ScriptIndex
 scriptIndex
+DelazifyFailureReason
+*
+failureReason
 )
 ;
 /
