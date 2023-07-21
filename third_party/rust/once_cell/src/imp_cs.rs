@@ -532,6 +532,11 @@ and
 access
 synchronized
 .
+crate
+:
+:
+unwrap_unchecked
+(
 self
 .
 value
@@ -549,9 +554,6 @@ new
 get
 (
 )
-.
-unwrap_unchecked
-(
 )
 }
 #

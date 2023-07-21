@@ -3,11 +3,6 @@ The
 Duration
 type
 .
-Duration
-=
-datetime
-.
-timedelta
 #
 There
 is

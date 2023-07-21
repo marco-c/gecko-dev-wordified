@@ -3,11 +3,6 @@ The
 Timestamp
 type
 .
-Timestamp
-=
-datetime
-.
-datetime
 #
 There
 is

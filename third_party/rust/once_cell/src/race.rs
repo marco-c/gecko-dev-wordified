@@ -2835,11 +2835,13 @@ Acquire
 )
 ;
 if
-exchange
-.
-is_err
+let
+Err
 (
+_
 )
+=
+exchange
 {
 let
 value

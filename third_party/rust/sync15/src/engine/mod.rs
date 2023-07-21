@@ -399,6 +399,9 @@ mod
 bridged_engine
 ;
 mod
+changeset
+;
+mod
 request
 ;
 mod
@@ -412,7 +415,16 @@ bridged_engine
 {
 ApplyResults
 BridgedEngine
-BridgedEngineAdaptor
+}
+;
+pub
+use
+changeset
+:
+:
+{
+IncomingChangeset
+OutgoingChangeset
 }
 ;
 #

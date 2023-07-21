@@ -406,11 +406,8 @@ uint64_t
 aHandle
 uint32_t
 aMethod
-uint8_t
-*
-argsData
-int32_t
-argsLen
+RustBuffer
+aArgs
 RustBuffer
 *
 aOutBuffer
@@ -498,8 +495,7 @@ cbi
 }
 aHandle
 aMethod
-argsData
-argsLen
+aArgs
 )
 ;
 return

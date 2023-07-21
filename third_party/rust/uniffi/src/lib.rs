@@ -77,7 +77,14 @@ use
 uniffi_macros
 :
 :
-*
+{
+export
+include_scaffolding
+Enum
+Error
+Object
+Record
+}
 ;
 #
 [
@@ -212,7 +219,7 @@ cfg
 feature
 =
 "
-bindgen
+cli
 "
 )
 ]
@@ -222,10 +229,6 @@ uniffi_bindgen
 :
 :
 {
-bindings
-:
-:
-TargetLanguage
 generate_bindings
 generate_component_scaffolding
 print_json

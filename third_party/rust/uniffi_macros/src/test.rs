@@ -624,10 +624,6 @@ parse
 :
 :
 ParseStream
-<
-'
-_
->
 )
 -
 >

@@ -52,6 +52,7 @@ syn
 :
 {
 Attribute
+Ident
 Lit
 LitBool
 Meta
@@ -1387,7 +1388,7 @@ self
 ident
 :
 &
-TokenStream
+Ident
 )
 -
 >

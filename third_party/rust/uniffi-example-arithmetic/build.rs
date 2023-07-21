@@ -67,6 +67,8 @@ uniffi
 generate_scaffolding
 (
 "
+.
+/
 src
 /
 arithmetic

@@ -83,6 +83,12 @@ use
 [
 repeat_display
 ]
+(
+sql_support
+:
+:
+repeat_display
+)
 or
 one
 of
