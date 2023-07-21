@@ -118,6 +118,14 @@ jar
 mn
 "
 ]
+DIRS
++
+=
+[
+"
+bouncetrackingprotection
+"
+]
 XPIDL_SOURCES
 +
 =
