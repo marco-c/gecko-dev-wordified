@@ -344,6 +344,13 @@ vector
 uint32_t
 >
 csrcs
+const
+std
+:
+:
+string
+&
+rid
 TaskQueueFactory
 *
 send_transport_queue
@@ -599,6 +606,13 @@ vector
 uint32_t
 >
 csrcs_
+;
+const
+std
+:
+:
+string
+rid_
 ;
 /
 /
