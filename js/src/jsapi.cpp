@@ -9613,16 +9613,6 @@ activation
 )
 )
 ;
-MOZ_ASSERT
-(
-cx
--
->
-isMainThreadContext
-(
-)
-)
-;
 if
 (
 !

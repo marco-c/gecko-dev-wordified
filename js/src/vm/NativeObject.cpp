@@ -2774,16 +2774,6 @@ from
 the
 finalizer
 .
-MOZ_ASSERT
-(
-cx
--
->
-isMainThreadContext
-(
-)
-)
-;
 if
 (
 obj

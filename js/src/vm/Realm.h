@@ -5771,16 +5771,6 @@ ifdef
 DEBUG
 MOZ_ASSERT
 (
-cx
--
->
-isMainThreadContext
-(
-)
-)
-;
-MOZ_ASSERT
-(
 !
 cx
 -
