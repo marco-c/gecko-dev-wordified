@@ -2355,8 +2355,7 @@ zonedDateTime
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -14410,8 +14409,7 @@ Steps
 4
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (

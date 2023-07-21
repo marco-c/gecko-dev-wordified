@@ -439,6 +439,12 @@ obj
 ;
 }
 ;
+using
+TimeZoneValue
+=
+JSObject
+*
+;
 struct
 Instant
 ;
@@ -687,8 +693,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 const
@@ -728,8 +733,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 JS
@@ -769,8 +773,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 const
@@ -805,8 +808,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 JS
@@ -851,8 +853,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 JS
@@ -891,8 +892,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 JS
@@ -934,8 +934,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 const
@@ -984,8 +983,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 JS
@@ -1047,8 +1045,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 JS
@@ -1152,8 +1149,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 )

@@ -1431,8 +1431,7 @@ Steps
 .
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -1584,8 +1583,7 @@ Steps
 .
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (

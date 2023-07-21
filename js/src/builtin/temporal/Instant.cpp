@@ -6266,8 +6266,7 @@ InstantObject
 instant
 Handle
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 Precision
@@ -6298,8 +6297,7 @@ Steps
 .
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 outputTimeZone
 (
@@ -10004,8 +10002,7 @@ InstantObject
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -10534,8 +10531,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -10709,8 +10705,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -11130,8 +11125,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -11314,8 +11308,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (

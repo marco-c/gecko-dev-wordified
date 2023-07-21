@@ -3869,8 +3869,7 @@ zonedRelativeTo
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -4473,8 +4472,7 @@ unwrappedZonedDateTime
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -5878,8 +5876,7 @@ relativeTo
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -9721,8 +9718,7 @@ unwrappedRelativeTo
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -18015,8 +18011,7 @@ unwrappedRelativeTo
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -19370,8 +19365,7 @@ unwrappedRelativeTo
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
@@ -22431,8 +22425,7 @@ cx
 ;
 Rooted
 <
-JSObject
-*
+TimeZoneValue
 >
 timeZone
 (
