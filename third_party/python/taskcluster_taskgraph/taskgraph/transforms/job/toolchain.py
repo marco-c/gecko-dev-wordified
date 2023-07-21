@@ -72,7 +72,6 @@ scripts
 from
 voluptuous
 import
-ALLOW_EXTRA
 Any
 Optional
 Required
@@ -439,10 +438,6 @@ workdir
 str
     
 }
-    
-extra
-=
-ALLOW_EXTRA
 )
 def
 get_digest_data

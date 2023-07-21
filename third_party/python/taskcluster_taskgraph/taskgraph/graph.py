@@ -55,15 +55,11 @@ MPL
 .
 import
 collections
-from
-dataclasses
 import
-dataclass
-from
-typing
-import
-FrozenSet
-dataclass
+attr
+attr
+.
+s
 (
 frozen
 =
@@ -206,12 +202,26 @@ right
 "
     
 nodes
-:
-FrozenSet
+=
+attr
+.
+ib
+(
+converter
+=
+frozenset
+)
     
 edges
-:
-FrozenSet
+=
+attr
+.
+ib
+(
+converter
+=
+frozenset
+)
     
 def
 transitive_closure

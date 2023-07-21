@@ -56,22 +56,11 @@ MPL
 import
 re
 from
-dataclasses
-import
-dataclass
-field
-from
 typing
 import
-Dict
-List
-Union
-from
-taskgraph
-.
-task
+AnyStr
 import
-Task
+attr
 from
 .
 .
@@ -101,7 +90,9 @@ schema
 import
 Schema
 validate_schema
-dataclass
+attr
+.
+s
 (
 frozen
 =
@@ -112,61 +103,121 @@ RepoConfig
 :
     
 prefix
-:
+=
+attr
+.
+ib
+(
+type
+=
 str
+)
     
 name
-:
+=
+attr
+.
+ib
+(
+type
+=
 str
+)
     
 base_repository
-:
+=
+attr
+.
+ib
+(
+type
+=
 str
+)
     
 head_repository
-:
+=
+attr
+.
+ib
+(
+type
+=
 str
+)
     
 head_ref
-:
+=
+attr
+.
+ib
+(
+type
+=
 str
+)
     
 type
-:
+=
+attr
+.
+ib
+(
+type
+=
 str
+)
     
 path
-:
+=
+attr
+.
+ib
+(
+type
+=
 str
+default
 =
 "
 "
+)
     
 head_rev
-:
-Union
-[
+=
+attr
+.
+ib
+(
+type
+=
 str
-None
-]
+default
 =
 None
+)
     
 ssh_secret_name
-:
-Union
-[
+=
+attr
+.
+ib
+(
+type
+=
 str
-None
-]
+default
 =
 None
-dataclass
+)
+attr
+.
+s
 (
 frozen
 =
 True
-eq
+cmp
 =
 False
 )
@@ -212,8 +263,12 @@ current
 kind
     
 kind
-:
-str
+=
+attr
+.
+ib
+(
+)
     
 #
 the
@@ -225,8 +280,15 @@ configuration
 directory
     
 path
-:
-str
+=
+attr
+.
+ib
+(
+type
+=
+AnyStr
+)
     
 #
 the
@@ -238,8 +300,15 @@ kind
 yml
     
 config
-:
-Dict
+=
+attr
+.
+ib
+(
+type
+=
+dict
+)
     
 #
 the
@@ -253,8 +322,15 @@ generation
 run
     
 params
-:
+=
+attr
+.
+ib
+(
+type
+=
 Parameters
+)
     
 #
 a
@@ -276,12 +352,15 @@ current
 kind
     
 kind_dependencies_tasks
-:
-Dict
-[
-str
-Task
-]
+=
+attr
+.
+ib
+(
+type
+=
+dict
+)
     
 #
 Global
@@ -291,8 +370,15 @@ the
 taskgraph
     
 graph_config
-:
+=
+attr
+.
+ib
+(
+type
+=
 GraphConfig
+)
     
 #
 whether
@@ -306,8 +392,15 @@ decision
 task
     
 write_artifacts
-:
+=
+attr
+.
+ib
+(
+type
+=
 bool
+)
     
 property
     
@@ -676,7 +769,9 @@ current_prefix
         
 return
 repo_configs
-dataclass
+attr
+.
+s
 (
 )
 class
@@ -764,12 +859,12 @@ sequence
 "
     
 _transforms
-:
-List
 =
-field
+attr
+.
+ib
 (
-default_factory
+factory
 =
 list
 )
@@ -861,14 +956,23 @@ ValidateSchema
 schema
 )
 )
-dataclass
+attr
+.
+s
 class
 ValidateSchema
 :
     
 schema
-:
+=
+attr
+.
+ib
+(
+type
+=
 Schema
+)
     
 def
 __call__

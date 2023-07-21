@@ -62,18 +62,8 @@ abc
 import
 ABC
 abstractmethod
-from
-dataclasses
 import
-dataclass
-field
-from
-typing
-import
-Callable
-Dict
-List
-Union
+attr
 from
 taskgraph
 .
@@ -116,7 +106,9 @@ getLogger
 (
 __name__
 )
-dataclass
+attr
+.
+s
 (
 frozen
 =
@@ -130,8 +122,12 @@ ABC
 :
     
 func
-:
-Callable
+=
+attr
+.
+ib
+(
+)
     
 abstractmethod
     
@@ -149,7 +145,9 @@ None
 :
         
 pass
-dataclass
+attr
+.
+s
 (
 frozen
 =
@@ -192,7 +190,9 @@ self
 func
 (
 )
-dataclass
+attr
+.
+s
 (
 frozen
 =
@@ -219,14 +219,10 @@ object
 "
     
 run_on_projects
-:
-Union
-[
-List
-None
-]
 =
-field
+attr
+.
+ib
 (
 default
 =
@@ -325,7 +321,9 @@ parameters
 parameters
         
 )
-dataclass
+attr
+.
+s
 (
 frozen
 =
@@ -368,7 +366,9 @@ func
 (
 parameters
 )
-dataclass
+attr
+.
+s
 (
 frozen
 =
@@ -408,7 +408,9 @@ func
 (
 kinds
 )
-dataclass
+attr
+.
+s
 (
 frozen
 =
@@ -484,12 +486,12 @@ task
 "
     
 _verifications
-:
-Dict
 =
-field
+attr
+.
+ib
 (
-default_factory
+factory
 =
 dict
 )
