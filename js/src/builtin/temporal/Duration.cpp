@@ -6544,15 +6544,15 @@ true
 *
 *
 *
-BalanceDuration
+BalanceTimeDuration
 (
 days
 hours
 minutes
 seconds
 milliseconds
-microseconds
 *
+microseconds
 nanoseconds
 largestUnit
 [
@@ -6561,7 +6561,7 @@ relativeTo
 )
 *
 *
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 days
 hours
@@ -6580,7 +6580,7 @@ relativeTo
 /
 static
 TimeDuration
-BalanceDuration
+BalanceTimeDuration
 (
 double
 days
@@ -7280,7 +7280,7 @@ nanoseconds
 *
 *
 *
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 days
 hours
@@ -7299,7 +7299,7 @@ relativeTo
 /
 static
 bool
-BalancePossiblyInfiniteDurationSlow
+BalancePossiblyInfiniteTimeDurationSlow
 (
 JSContext
 *
@@ -8190,15 +8190,15 @@ result
 *
 *
 *
-BalanceDuration
+BalanceTimeDuration
 (
 days
 hours
 minutes
 seconds
 milliseconds
-microseconds
 *
+microseconds
 nanoseconds
 largestUnit
 [
@@ -8207,7 +8207,7 @@ relativeTo
 )
 *
 *
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 days
 hours
@@ -8226,7 +8226,7 @@ relativeTo
 /
 static
 TimeDuration
-BalanceDuration
+BalanceTimeDuration
 (
 int64_t
 nanoseconds
@@ -8331,7 +8331,7 @@ Steps
 return
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 days
 nanoseconds
@@ -8343,7 +8343,7 @@ largestUnit
 *
 *
 *
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 days
 hours
@@ -8362,7 +8362,7 @@ relativeTo
 /
 static
 bool
-BalancePossiblyInfiniteDurationSlow
+BalancePossiblyInfiniteTimeDurationSlow
 (
 JSContext
 *
@@ -8579,7 +8579,7 @@ result
 =
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 days
 nanos
@@ -8612,7 +8612,7 @@ Steps
 return
 :
 :
-BalancePossiblyInfiniteDurationSlow
+BalancePossiblyInfiniteTimeDurationSlow
 (
 cx
 days
@@ -8626,15 +8626,15 @@ result
 *
 *
 *
-BalanceDuration
+BalanceTimeDuration
 (
 days
 hours
 minutes
 seconds
 milliseconds
-microseconds
 *
+microseconds
 nanoseconds
 largestUnit
 [
@@ -8645,7 +8645,7 @@ relativeTo
 /
 static
 bool
-BalanceDurationSlow
+BalanceTimeDurationSlow
 (
 JSContext
 *
@@ -8671,7 +8671,7 @@ Step
 if
 (
 !
-BalancePossiblyInfiniteDurationSlow
+BalancePossiblyInfiniteTimeDurationSlow
 (
 cx
 nanoseconds
@@ -8708,15 +8708,15 @@ toDuration
 *
 *
 *
-BalanceDuration
+BalanceTimeDuration
 (
 days
 hours
 minutes
 seconds
 milliseconds
-microseconds
 *
+microseconds
 nanoseconds
 largestUnit
 [
@@ -8727,7 +8727,7 @@ relativeTo
 /
 static
 bool
-BalanceDuration
+BalanceTimeDuration
 (
 JSContext
 *
@@ -8854,7 +8854,7 @@ result
 =
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 nanoseconds
 .
@@ -8964,7 +8964,7 @@ Steps
 15
 .
 return
-BalanceDurationSlow
+BalanceTimeDurationSlow
 (
 cx
 nanoseconds
@@ -8977,15 +8977,15 @@ result
 *
 *
 *
-BalanceDuration
+BalanceTimeDuration
 (
 days
 hours
 minutes
 seconds
 milliseconds
-microseconds
 *
+microseconds
 nanoseconds
 largestUnit
 [
@@ -8996,7 +8996,7 @@ relativeTo
 /
 static
 bool
-BalanceDuration
+BalanceTimeDuration
 (
 JSContext
 *
@@ -9162,7 +9162,7 @@ result
 =
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 nanoseconds
 .
@@ -9332,7 +9332,7 @@ Steps
 15
 .
 return
-BalanceDurationSlow
+BalanceTimeDurationSlow
 (
 cx
 nanoseconds
@@ -9345,7 +9345,7 @@ result
 *
 *
 *
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 days
 hours
@@ -9364,7 +9364,7 @@ relativeTo
 /
 static
 bool
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 JSContext
 *
@@ -9455,7 +9455,7 @@ result
 =
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 *
 nanoseconds
@@ -9507,7 +9507,7 @@ Steps
 return
 :
 :
-BalancePossiblyInfiniteDurationSlow
+BalancePossiblyInfiniteTimeDurationSlow
 (
 cx
 nanoseconds
@@ -9520,15 +9520,15 @@ result
 *
 *
 *
-BalanceDuration
+BalanceTimeDuration
 (
 days
 hours
 minutes
 seconds
 milliseconds
-microseconds
 *
+microseconds
 nanoseconds
 largestUnit
 [
@@ -9544,7 +9544,7 @@ js
 temporal
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 JSContext
 *
@@ -9565,7 +9565,7 @@ if
 !
 :
 :
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 cx
 duration
@@ -9595,7 +9595,7 @@ toDuration
 *
 *
 *
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 days
 hours
@@ -9614,7 +9614,7 @@ relativeTo
 /
 static
 bool
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 JSContext
 *
@@ -10070,7 +10070,7 @@ result
 =
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 days
 nanos
@@ -10113,7 +10113,7 @@ false
 return
 :
 :
-BalancePossiblyInfiniteDurationSlow
+BalancePossiblyInfiniteTimeDurationSlow
 (
 cx
 days
@@ -10165,7 +10165,7 @@ result
 =
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 days
 nanos
@@ -10208,7 +10208,7 @@ false
 return
 :
 :
-BalancePossiblyInfiniteDurationSlow
+BalancePossiblyInfiniteTimeDurationSlow
 (
 cx
 days
@@ -10222,15 +10222,15 @@ result
 *
 *
 *
-BalanceDuration
+BalanceTimeDuration
 (
 days
 hours
 minutes
 seconds
 milliseconds
-microseconds
 *
+microseconds
 nanoseconds
 largestUnit
 [
@@ -10241,7 +10241,7 @@ relativeTo
 /
 static
 bool
-BalanceDuration
+BalanceTimeDuration
 (
 JSContext
 *
@@ -10269,7 +10269,7 @@ result
 if
 (
 !
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 cx
 duration
@@ -10300,15 +10300,15 @@ toDuration
 *
 *
 *
-BalanceDuration
+BalanceTimeDuration
 (
 days
 hours
 minutes
 seconds
 milliseconds
-microseconds
 *
+microseconds
 nanoseconds
 largestUnit
 [
@@ -10324,7 +10324,7 @@ js
 temporal
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 JSContext
 *
@@ -10398,7 +10398,7 @@ result
 =
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 nanos
 .
@@ -10447,7 +10447,7 @@ Steps
 return
 :
 :
-BalanceDurationSlow
+BalanceTimeDurationSlow
 (
 cx
 nanos
@@ -10631,7 +10631,7 @@ maxSafeInteger
 *
 *
 *
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 years
 months
@@ -10645,7 +10645,7 @@ relativeTo
 /
 static
 bool
-UnbalanceDurationRelativeSlow
+UnbalanceDateDurationRelativeSlow
 (
 JSContext
 *
@@ -12687,7 +12687,7 @@ result
 *
 *
 *
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 years
 months
@@ -12701,7 +12701,7 @@ relativeTo
 /
 static
 bool
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 JSContext
 *
@@ -13245,7 +13245,7 @@ months
 )
 {
 return
-UnbalanceDurationRelativeSlow
+UnbalanceDateDurationRelativeSlow
 (
 cx
 {
@@ -13421,7 +13421,7 @@ oneYearMonths
 )
 {
 return
-UnbalanceDurationRelativeSlow
+UnbalanceDateDurationRelativeSlow
 (
 cx
 {
@@ -13609,7 +13609,7 @@ days
 )
 {
 return
-UnbalanceDurationRelativeSlow
+UnbalanceDateDurationRelativeSlow
 (
 cx
 {
@@ -13711,7 +13711,7 @@ oneYearDays
 )
 {
 return
-UnbalanceDurationRelativeSlow
+UnbalanceDateDurationRelativeSlow
 (
 cx
 {
@@ -13842,7 +13842,7 @@ oneMonthDays
 )
 {
 return
-UnbalanceDurationRelativeSlow
+UnbalanceDateDurationRelativeSlow
 (
 cx
 {
@@ -14074,7 +14074,7 @@ days
 )
 {
 return
-UnbalanceDurationRelativeSlow
+UnbalanceDateDurationRelativeSlow
 (
 cx
 {
@@ -14180,7 +14180,7 @@ oneYearDays
 )
 {
 return
-UnbalanceDurationRelativeSlow
+UnbalanceDateDurationRelativeSlow
 (
 cx
 {
@@ -14319,7 +14319,7 @@ oneMonthDays
 )
 {
 return
-UnbalanceDurationRelativeSlow
+UnbalanceDateDurationRelativeSlow
 (
 cx
 {
@@ -14458,7 +14458,7 @@ oneWeekDays
 )
 {
 return
-UnbalanceDurationRelativeSlow
+UnbalanceDateDurationRelativeSlow
 (
 cx
 {
@@ -14537,7 +14537,7 @@ result
 *
 *
 *
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 years
 months
@@ -14551,7 +14551,7 @@ relativeTo
 /
 static
 bool
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 JSContext
 *
@@ -14825,7 +14825,7 @@ true
 }
 static
 bool
-BalanceDurationRelativeSlow
+BalanceDateDurationRelativeSlow
 (
 JSContext
 *
@@ -15234,13 +15234,14 @@ true
 *
 *
 *
-BalanceDurationRelative
+BalanceDateDurationRelative
 (
 years
 months
 weeks
 days
 largestUnit
+*
 relativeTo
 *
 )
@@ -15248,7 +15249,7 @@ relativeTo
 /
 static
 bool
-BalanceDurationRelative
+BalanceDateDurationRelative
 (
 JSContext
 *
@@ -16361,7 +16362,7 @@ slowMonths
 if
 (
 !
-BalanceDurationRelativeSlow
+BalanceDateDurationRelativeSlow
 (
 cx
 largestUnit
@@ -16538,7 +16539,7 @@ slowMonths
 if
 (
 !
-BalanceDurationRelativeSlow
+BalanceDateDurationRelativeSlow
 (
 cx
 largestUnit
@@ -17427,7 +17428,7 @@ result
 if
 (
 !
-BalanceDuration
+BalanceTimeDuration
 (
 cx
 one
@@ -17887,7 +17888,7 @@ result
 if
 (
 !
-BalanceDuration
+BalanceTimeDuration
 (
 cx
 dateDifference
@@ -19176,7 +19177,7 @@ if
 !
 :
 :
-BalanceDurationSlow
+BalanceTimeDurationSlow
 (
 cx
 timeRemainderNs
@@ -19848,7 +19849,7 @@ adjustedTimeDuration
 =
 :
 :
-BalanceDuration
+BalanceTimeDuration
 (
 roundedTimeRemainderNs
 .
@@ -25243,7 +25244,7 @@ also
 /
 the
 following
-BalanceDuration
+BalanceTimeDuration
 call
 .
 /
@@ -40477,7 +40478,7 @@ relativeTo
 if
 (
 !
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 cx
 one
@@ -40501,7 +40502,7 @@ else
 if
 (
 !
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 cx
 one
@@ -40553,7 +40554,7 @@ relativeTo
 if
 (
 !
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 cx
 two
@@ -40577,7 +40578,7 @@ else
 if
 (
 !
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 cx
 two
@@ -44240,7 +44241,7 @@ relativeTo
 if
 (
 !
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 cx
 duration
@@ -44261,7 +44262,7 @@ else
 if
 (
 !
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 cx
 duration
@@ -44485,7 +44486,7 @@ zonedRelativeTo
 if
 (
 !
-BalanceDuration
+BalanceTimeDuration
 (
 cx
 adjustResult
@@ -44506,7 +44507,7 @@ else
 if
 (
 !
-BalanceDuration
+BalanceTimeDuration
 (
 cx
 adjustResult
@@ -44550,7 +44551,7 @@ result
 if
 (
 !
-BalanceDurationRelative
+BalanceDateDurationRelative
 (
 cx
 balanceInput
@@ -45109,7 +45110,7 @@ relativeTo
 if
 (
 !
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 cx
 duration
@@ -45130,7 +45131,7 @@ else
 if
 (
 !
-UnbalanceDurationRelative
+UnbalanceDateDurationRelative
 (
 cx
 duration
@@ -45257,7 +45258,7 @@ Step
 if
 (
 !
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 cx
 balanceInput
@@ -45283,7 +45284,7 @@ Step
 if
 (
 !
-BalancePossiblyInfiniteDuration
+BalancePossiblyInfiniteTimeDuration
 (
 cx
 balanceInput

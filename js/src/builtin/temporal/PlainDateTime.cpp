@@ -5102,7 +5102,7 @@ b
 if
 (
 !
-BalanceDuration
+BalanceTimeDuration
 (
 cx
 {
@@ -5436,7 +5436,7 @@ balanceResult
 if
 (
 !
-BalanceDuration
+BalanceTimeDuration
 (
 cx
 {
@@ -6296,7 +6296,7 @@ result
 if
 (
 !
-BalanceDuration
+BalanceTimeDuration
 (
 cx
 roundResult

@@ -4549,15 +4549,15 @@ microseconds
 *
 *
 *
-BalanceDuration
+BalanceTimeDuration
 (
 days
 hours
 minutes
 seconds
 milliseconds
-microseconds
 *
+microseconds
 nanoseconds
 largestUnit
 [

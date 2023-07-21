@@ -5965,7 +5965,7 @@ balanced
 if
 (
 !
-BalanceDuration
+BalanceTimeDuration
 (
 cx
 roundResult
