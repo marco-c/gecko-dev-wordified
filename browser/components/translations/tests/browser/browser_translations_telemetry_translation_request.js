@@ -470,6 +470,9 @@ translationRequest
 expectedEventCount
 :
 1
+expectNewFlowId
+:
+true
 finalValuePredicates
 :
 [
@@ -779,6 +782,9 @@ translationRequest
 expectedEventCount
 :
 1
+expectNewFlowId
+:
+true
 finalValuePredicates
 :
 [

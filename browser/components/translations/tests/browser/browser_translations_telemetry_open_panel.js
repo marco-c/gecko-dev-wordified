@@ -194,6 +194,9 @@ open
 expectedEventCount
 :
 1
+expectNewFlowId
+:
+true
 finalValuePredicates
 :
 [
@@ -293,6 +296,9 @@ open
 expectedEventCount
 :
 2
+expectNewFlowId
+:
+true
 allValuePredicates
 :
 [
