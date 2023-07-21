@@ -540,7 +540,7 @@ unit
 value
 :
 "
-msec
+ms
 "
 unit
 :
@@ -601,7 +601,7 @@ unit
 value
 :
 "
-sec
+s
 "
 unit
 :
@@ -618,7 +618,6 @@ literal
 value
 :
 "
-and
 "
 }
 {
@@ -663,7 +662,7 @@ unit
 value
 :
 "
-nsec
+ns
 "
 unit
 :
