@@ -2137,9 +2137,9 @@ content
 bool
 CallerCanRead
 (
-JSContext
-*
-aCx
+nsIPrincipal
+&
+aPrincipal
 )
 const
 ;
