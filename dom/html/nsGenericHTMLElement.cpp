@@ -22328,6 +22328,10 @@ aFireEvents
 wasShowingOrHiding
 )
 ;
+AssertPopoverAttributeStateCorrespondsToAttributePresence
+(
+)
+;
 if
 (
 GetPopoverAttributeState
@@ -22526,6 +22530,10 @@ given
 element
 .
 FocusPopover
+(
+)
+;
+AssertPopoverAttributeStateCorrespondsToAttributePresence
 (
 )
 ;

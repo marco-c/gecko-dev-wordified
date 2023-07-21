@@ -21206,6 +21206,13 @@ GetPopoverTargetElement
 )
 )
 {
+popover
+-
+>
+AssertPopoverAttributeStateCorrespondsToAttributePresence
+(
+)
+;
 if
 (
 popover
