@@ -834,6 +834,9 @@ defined
 __hppa
 )
 #
+ifndef
+BYTE_ORDER
+#
 define
 BYTE_ORDER
 BIG_ENDIAN
@@ -857,6 +860,8 @@ NT
 risc
 *
 /
+#
+endif
 #
 endif
 #
