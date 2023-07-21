@@ -2670,6 +2670,18 @@ target
 "
 :
                 
+self
+.
+_link_library
+(
+context
+obj
+variable
+"
+pure_virtual
+"
+)
+                
 for
 lib
 in
