@@ -543,13 +543,6 @@ prefix
 /
 DEFINE_KEYNAME_INTERNAL
 (
-PrintableKey
-"
-MozPrintableKey
-"
-)
-DEFINE_KEYNAME_INTERNAL
-(
 SoftLeft
 "
 MozSoftLeft
@@ -2889,6 +2882,10 @@ MailReply
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
 MailSend
+)
+DEFINE_KEYNAME_WITH_SAME_NAME
+(
+MediaClose
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
