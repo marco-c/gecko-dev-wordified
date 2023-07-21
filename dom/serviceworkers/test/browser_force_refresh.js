@@ -244,16 +244,6 @@ true
 ]
 [
 "
-dom
-.
-caches
-.
-enabled
-"
-true
-]
-[
-"
 browser
 .
 cache
