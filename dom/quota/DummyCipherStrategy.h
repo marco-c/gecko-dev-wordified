@@ -389,7 +389,10 @@ return
 ;
 }
 static
+Maybe
+<
 KeyType
+>
 DeserializeKey
 (
 const
@@ -402,8 +405,12 @@ uint8_t
 )
 {
 return
+Some
+(
+KeyType
 {
 }
+)
 ;
 }
 }
