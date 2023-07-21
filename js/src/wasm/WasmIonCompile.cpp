@@ -28623,11 +28623,11 @@ nodiscard
 ]
 MDefinition
 *
-isRefSubtypeOf
+isGcObjectSubtypeOf
 (
 MDefinition
 *
-ref
+object
 RefType
 sourceType
 RefType
@@ -28678,7 +28678,7 @@ typeIndex
 ;
 isSubTypeOf
 =
-MWasmRefIsSubtypeOfConcrete
+MWasmGcObjectIsSubtypeOfConcrete
 :
 :
 New
@@ -28686,7 +28686,7 @@ New
 alloc
 (
 )
-ref
+object
 superSuperTypeVector
 sourceType
 destType
@@ -28697,7 +28697,7 @@ else
 {
 isSubTypeOf
 =
-MWasmRefIsSubtypeOfAbstract
+MWasmGcObjectIsSubtypeOfAbstract
 :
 :
 New
@@ -28705,7 +28705,7 @@ New
 alloc
 (
 )
-ref
+object
 sourceType
 destType
 )
@@ -28802,7 +28802,7 @@ MDefinition
 *
 success
 =
-isRefSubtypeOf
+isGcObjectSubtypeOf
 (
 ref
 sourceType
@@ -28900,7 +28900,7 @@ destType
 )
 {
 return
-isRefSubtypeOf
+isGcObjectSubtypeOf
 (
 ref
 sourceType
@@ -29109,7 +29109,7 @@ MDefinition
 *
 success
 =
-isRefSubtypeOf
+isGcObjectSubtypeOf
 (
 ref
 sourceType
