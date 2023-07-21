@@ -675,7 +675,7 @@ AllocKind
 FUNCTION_EXTENDED
 :
 return
-6
+7
 ;
 case
 AllocKind
