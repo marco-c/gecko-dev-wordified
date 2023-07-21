@@ -206,6 +206,15 @@ test_specialAction
 (
 )
 {
+const
+sandbox
+=
+sinon
+.
+createSandbox
+(
+)
+;
 let
 message
 =
@@ -237,7 +246,7 @@ MULTISTAGE_SPOTLIGHT_MESSAGE
 let
 dispatchStub
 =
-sinon
+sandbox
 .
 stub
 (
@@ -259,7 +268,7 @@ selectedBrowser
 let
 specialActionStub
 =
-sinon
+sandbox
 .
 stub
 (
@@ -353,7 +362,7 @@ action
 "
 )
 ;
-specialActionStub
+sandbox
 .
 restore
 (
