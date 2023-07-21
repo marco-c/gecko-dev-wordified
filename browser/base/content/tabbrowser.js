@@ -113,7 +113,7 @@ loading
 them
 faster
 than
-ContentLinkHandler
+FaviconLoader
 would
 normally
 find
