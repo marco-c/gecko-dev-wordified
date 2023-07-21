@@ -192,6 +192,11 @@ mozmemory_wrap
 .
 cpp
 "
+"
+Mutex
+.
+cpp
+"
 ]
 else
 :
@@ -238,11 +243,6 @@ SOURCES
 +
 =
 [
-"
-Mutex
-.
-cpp
-"
 "
 zone
 .
