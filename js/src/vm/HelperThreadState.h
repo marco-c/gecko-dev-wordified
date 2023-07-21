@@ -4186,6 +4186,13 @@ JS
 ContextOptions
 contextOptions
 ;
+const
+JS
+:
+:
+PrefableCompileOptions
+initialPrefableOptions
+;
 /
 /
 Queue
@@ -4334,6 +4341,13 @@ JS
 ContextOptions
 &
 options
+const
+JS
+:
+:
+PrefableCompileOptions
+&
+initialPrefableOptions
 )
 ;
 ~

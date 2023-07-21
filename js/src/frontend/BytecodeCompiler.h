@@ -220,6 +220,10 @@ JS
 :
 :
 ReadOnlyCompileOptions
+JS
+:
+:
+PrefableCompileOptions
 #
 include
 "
@@ -2100,6 +2104,13 @@ cx
 FrontendContext
 *
 fc
+const
+JS
+:
+:
+PrefableCompileOptions
+&
+prefableOptions
 ScopeBindingCache
 *
 scopeCache
