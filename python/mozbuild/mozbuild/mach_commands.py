@@ -119,6 +119,13 @@ SettingsProvider
     
 SubCommand
 )
+from
+voluptuous
+import
+All
+Boolean
+Required
+Schema
 import
 mozbuild
 .
@@ -723,14 +730,6 @@ _cargo_config_yaml_schema
 (
 )
 :
-    
-from
-voluptuous
-import
-All
-Boolean
-Required
-Schema
     
 def
 starts_with_cargo
