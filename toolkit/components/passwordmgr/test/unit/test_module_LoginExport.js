@@ -394,7 +394,7 @@ Services
 logins
 =
 {
-getAllLoginsAsync
+getAllLogins
 :
 sinon
 .
@@ -636,7 +636,7 @@ Services
 .
 logins
 .
-getAllLoginsAsync
+getAllLogins
 .
 returns
 (
@@ -801,7 +801,7 @@ Services
 .
 logins
 .
-getAllLoginsAsync
+getAllLogins
 .
 returns
 (
@@ -976,7 +976,7 @@ Services
 .
 logins
 .
-getAllLoginsAsync
+getAllLogins
 .
 returns
 (
@@ -1136,7 +1136,7 @@ Services
 .
 logins
 .
-getAllLoginsAsync
+getAllLogins
 .
 returns
 (

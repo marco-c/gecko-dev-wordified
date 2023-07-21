@@ -894,6 +894,7 @@ clear
 ;
 finalLogins
 =
+await
 Services
 .
 logins
@@ -972,6 +973,7 @@ next
 "
 )
 ;
+await
 verifyLogins
 (
 testData

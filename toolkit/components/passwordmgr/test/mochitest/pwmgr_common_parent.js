@@ -309,6 +309,7 @@ logins
 var
 logins
 =
+await
 pwmgr
 .
 getAllLogins
@@ -489,6 +490,7 @@ sanity
 check
 logins
 =
+await
 pwmgr
 .
 getAllLogins
@@ -572,6 +574,7 @@ registerRunTests
 )
 ;
 }
+async
 function
 dumpLogins
 (
@@ -580,6 +583,7 @@ dumpLogins
 let
 logins
 =
+await
 Services
 .
 logins

@@ -707,6 +707,7 @@ histogram
 1
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -951,6 +952,7 @@ throws
 "
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -1090,6 +1092,7 @@ throws
 "
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -1256,6 +1259,7 @@ error
 "
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -1366,6 +1370,7 @@ error
 "
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -1482,6 +1487,7 @@ importFromCSV
 csvFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -1693,6 +1699,7 @@ importFromCSV
 tmpFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -1805,6 +1812,7 @@ importFromCSV
 csvFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2043,6 +2051,7 @@ importFromCSV
 csvFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2242,6 +2251,7 @@ importFromCSV
 csvFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2433,6 +2443,7 @@ importFromCSV
 csvFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2632,6 +2643,7 @@ importFromCSV
 csvFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2835,6 +2847,7 @@ importFromCSV
 csvFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -3013,6 +3026,7 @@ importFromCSV
 csvFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -3176,6 +3190,7 @@ importFromCSV
 csvFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -3370,6 +3385,7 @@ importFromCSV
 csvFilePath
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -3773,6 +3789,7 @@ guid
 data
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -4058,6 +4075,7 @@ same
 guid
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -4662,6 +4680,7 @@ error
 "
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -4761,6 +4780,7 @@ error
 "
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -4870,12 +4890,15 @@ realm
 let
 initialLoginCount
 =
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length
@@ -4894,12 +4917,15 @@ csvFilePath
 let
 afterImportLoginCount
 =
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length
@@ -5098,12 +5124,15 @@ d7d281bb0004
 let
 initialLoginCount
 =
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length
@@ -5122,12 +5151,15 @@ csvFilePath
 let
 afterImportLoginCount
 =
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length
@@ -5308,12 +5340,15 @@ password
 let
 initialLoginCount
 =
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length
@@ -5332,12 +5367,15 @@ csvFilePath
 let
 afterImportLoginCount
 =
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length
@@ -5527,12 +5565,15 @@ asdasd123123
 let
 initialLoginCount
 =
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length
@@ -5551,12 +5592,15 @@ csvFilePath
 let
 afterImportLoginCount
 =
+(
+await
 Services
 .
 logins
 .
 getAllLogins
 (
+)
 )
 .
 length

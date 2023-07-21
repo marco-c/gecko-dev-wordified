@@ -1184,6 +1184,7 @@ meta
 timePasswordChanged
 ;
 }
+await
 verifyLogins
 (
 [

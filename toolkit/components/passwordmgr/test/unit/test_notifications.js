@@ -547,6 +547,7 @@ addLoginAsync
 testuser1
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -638,6 +639,7 @@ expectedNotification
 null
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -709,6 +711,7 @@ expectedNotification
 null
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -778,6 +781,7 @@ expectedNotification
 null
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -870,6 +874,7 @@ expectedNotification
 null
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -1172,6 +1177,7 @@ expectedNotification
 null
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -1264,6 +1270,7 @@ expectedNotification
 null
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins

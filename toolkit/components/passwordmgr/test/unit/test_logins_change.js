@@ -175,6 +175,7 @@ aLoginInfo
 aExpectedError
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -332,6 +333,7 @@ the
 previous
 calls
 .
+await
 LoginTestUtils
 .
 checkLogins
@@ -541,6 +543,7 @@ loginList
 )
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -631,6 +634,7 @@ loginInfo
 )
 ;
 }
+await
 LoginTestUtils
 .
 checkLogins
@@ -1894,6 +1898,7 @@ removeAllUserFacingLogins
 (
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2086,6 +2091,7 @@ the
 second
 login
 .
+await
 LoginTestUtils
 .
 checkLogins
@@ -2144,6 +2150,7 @@ updatedLoginInfo
 differentLoginInfo
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2180,6 +2187,7 @@ addLoginAsync
 loginInfo
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2228,6 +2236,7 @@ exists
 /
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2491,6 +2500,7 @@ the
 second
 login
 .
+await
 LoginTestUtils
 .
 checkLogins
@@ -2621,6 +2631,7 @@ updatedLoginInfo
 differentLoginProperties
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2657,6 +2668,7 @@ addLoginAsync
 loginInfo
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -2705,6 +2717,7 @@ exists
 /
 )
 ;
+await
 LoginTestUtils
 .
 checkLogins
@@ -3617,6 +3630,8 @@ Assert
 .
 equal
 (
+(
+await
 Services
 .
 logins
@@ -3624,12 +3639,14 @@ logins
 getAllLogins
 (
 )
+)
 .
 length
 0
 )
 ;
 }
+await
 LoginTestUtils
 .
 checkLogins
