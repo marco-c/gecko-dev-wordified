@@ -82,6 +82,14 @@ taskgraph
 .
 util
 .
+dependencies
+import
+get_primary_dependency
+from
+taskgraph
+.
+util
+.
 treeherder
 import
 join_symbol
@@ -128,25 +136,11 @@ jobs
         
 dep_job
 =
+get_primary_dependency
+(
+config
 job
-[
-"
-primary
--
-dependency
-"
-]
-        
-job
-[
-"
-depname
-"
-]
-=
-dep_job
-.
-label
+)
         
 #
 add
@@ -253,14 +247,11 @@ jobs
         
 dep_job
 =
+get_primary_dependency
+(
+config
 job
-[
-"
-primary
--
-dependency
-"
-]
+)
         
 upstream_artifact_task
 =
@@ -279,15 +270,24 @@ dep_job
 )
         
 job
-[
+.
+setdefault
+(
 "
 attributes
 "
-]
-=
+{
+}
+)
+.
+update
+(
+            
 copy_attributes_from_dependent_job
 (
 dep_job
+)
+        
 )
         
 if

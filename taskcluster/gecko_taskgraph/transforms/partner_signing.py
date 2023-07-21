@@ -78,6 +78,14 @@ base
 import
 TransformSequence
 from
+taskgraph
+.
+util
+.
+dependencies
+import
+get_primary_dependency
+from
 gecko_taskgraph
 .
 util
@@ -128,14 +136,11 @@ jobs
         
 dep_job
 =
+get_primary_dependency
+(
+config
 job
-[
-"
-primary
--
-dependency
-"
-]
+)
         
 if
 "
@@ -248,36 +253,31 @@ jobs
         
 dep_job
 =
+get_primary_dependency
+(
+config
 job
-[
-"
-primary
--
-dependency
-"
-]
+)
         
 job
-[
-"
-depname
-"
-]
-=
-dep_job
 .
-label
-        
-job
-[
+setdefault
+(
 "
 attributes
 "
-]
-=
+{
+}
+)
+.
+update
+(
+            
 copy_attributes_from_dependent_job
 (
 dep_job
+)
+        
 )
         
 repack_ids
@@ -326,12 +326,9 @@ if
 notarization
 "
 in
-job
-[
-"
-depname
-"
-]
+dep_job
+.
+label
 or
 "
 mac
@@ -339,12 +336,9 @@ mac
 signing
 "
 in
-job
-[
-"
-depname
-"
-]
+dep_job
+.
+label
 :
             
 task_type
