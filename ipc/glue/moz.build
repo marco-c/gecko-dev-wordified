@@ -281,11 +281,6 @@ LaunchError
 h
 "
 "
-LibrarySandboxPreload
-.
-h
-"
-"
 MessageChannel
 .
 h
@@ -969,11 +964,6 @@ cpp
 "
 "
 LaunchError
-.
-cpp
-"
-"
-LibrarySandboxPreload
 .
 cpp
 "
