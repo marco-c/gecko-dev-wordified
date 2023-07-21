@@ -657,7 +657,7 @@ left
 aLeft
 ;
 }
-T
+Coord
 LeftRight
 (
 )
@@ -669,7 +669,7 @@ left
 right
 ;
 }
-T
+Coord
 TopBottom
 (
 )
