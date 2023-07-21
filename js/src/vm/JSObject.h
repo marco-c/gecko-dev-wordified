@@ -5498,7 +5498,7 @@ fslots
 }
 ;
 struct
-JSObject_Slots6
+JSObject_Slots7
 :
 JSObject
 {
@@ -5515,7 +5515,7 @@ required
 to
 have
 exactly
-six
+seven
 /
 /
 fixed
@@ -5538,7 +5538,7 @@ js
 Value
 fslots
 [
-6
+7
 ]
 ;
 }
