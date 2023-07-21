@@ -77,7 +77,6 @@ sources
 /
 import
 {
-isOriginalId
 originalToGeneratedId
 }
 from
@@ -221,12 +220,9 @@ files
 .
 if
 (
-isOriginalId
-(
 source
 .
-id
-)
+isOriginal
 )
 {
 sourceId
