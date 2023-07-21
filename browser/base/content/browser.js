@@ -17993,6 +17993,10 @@ filterXML
 nsIFilePicker
 .
 filterHTML
+|
+nsIFilePicker
+.
+filterPDF
 )
 ;
 fp
