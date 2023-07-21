@@ -6272,8 +6272,6 @@ selectors
 getBreakpointsForSource
 (
 source
-.
-id
 line
 )
 [
@@ -6317,8 +6315,6 @@ selectors
 getBreakpointsForSource
 (
 source
-.
-id
 line
 )
 ;

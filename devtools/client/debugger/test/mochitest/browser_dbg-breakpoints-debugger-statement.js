@@ -699,8 +699,6 @@ selectors
 getBreakpointsForSource
 (
 source
-.
-id
 line
 )
 ;
