@@ -3870,9 +3870,6 @@ OS_LIBS
 "
 advapi32
 "
-"
-winmm
-"
 ]
 UNIFIED_SOURCES
 +
