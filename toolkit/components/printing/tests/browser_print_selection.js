@@ -589,7 +589,7 @@ ok
 !
 browser
 .
-isRemote
+isRemoteBrowser
 "
 Page
 loaded
