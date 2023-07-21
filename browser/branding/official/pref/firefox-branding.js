@@ -356,7 +356,7 @@ utm_medium
 =
 firefox
 -
-browser
+desktop
 &
 utm_campaign
 =
@@ -534,7 +534,7 @@ utm_medium
 =
 firefox
 -
-browser
+desktop
 &
 utm_campaign
 =
@@ -708,7 +708,7 @@ utm_medium
 =
 firefox
 -
-browser
+desktop
 &
 utm_campaign
 =
@@ -814,7 +814,7 @@ utm_medium
 =
 firefox
 -
-browser
+desktop
 &
 utm_campaign
 =
