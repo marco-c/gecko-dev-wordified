@@ -208,7 +208,7 @@ unsigned
 long
 ROLE_MENUBAR
 =
-2
+1
 ;
 /
 *
@@ -242,7 +242,7 @@ unsigned
 long
 ROLE_SCROLLBAR
 =
-3
+2
 ;
 /
 *
@@ -314,7 +314,7 @@ unsigned
 long
 ROLE_ALERT
 =
-8
+3
 ;
 /
 *
@@ -340,7 +340,7 @@ unsigned
 long
 ROLE_INTERNAL_FRAME
 =
-10
+4
 ;
 /
 *
@@ -386,7 +386,7 @@ unsigned
 long
 ROLE_MENUPOPUP
 =
-11
+5
 ;
 /
 *
@@ -439,7 +439,7 @@ unsigned
 long
 ROLE_MENUITEM
 =
-12
+6
 ;
 /
 *
@@ -460,7 +460,7 @@ unsigned
 long
 ROLE_TOOLTIP
 =
-13
+7
 ;
 /
 *
@@ -496,7 +496,7 @@ unsigned
 long
 ROLE_APPLICATION
 =
-14
+8
 ;
 /
 *
@@ -535,7 +535,7 @@ unsigned
 long
 ROLE_DOCUMENT
 =
-15
+9
 ;
 /
 *
@@ -619,7 +619,7 @@ unsigned
 long
 ROLE_PANE
 =
-16
+10
 ;
 /
 *
@@ -654,7 +654,7 @@ unsigned
 long
 ROLE_DIALOG
 =
-18
+11
 ;
 /
 *
@@ -709,7 +709,7 @@ unsigned
 long
 ROLE_GROUPING
 =
-20
+12
 ;
 /
 *
@@ -766,7 +766,7 @@ unsigned
 long
 ROLE_SEPARATOR
 =
-21
+13
 ;
 /
 *
@@ -819,7 +819,7 @@ unsigned
 long
 ROLE_TOOLBAR
 =
-22
+14
 ;
 /
 *
@@ -885,7 +885,7 @@ unsigned
 long
 ROLE_STATUSBAR
 =
-23
+15
 ;
 /
 *
@@ -944,7 +944,7 @@ unsigned
 long
 ROLE_TABLE
 =
-24
+16
 ;
 /
 *
@@ -996,7 +996,7 @@ unsigned
 long
 ROLE_COLUMNHEADER
 =
-25
+17
 ;
 /
 *
@@ -1038,7 +1038,7 @@ unsigned
 long
 ROLE_ROWHEADER
 =
-26
+18
 ;
 /
 *
@@ -1064,7 +1064,7 @@ unsigned
 long
 ROLE_ROW
 =
-28
+19
 ;
 /
 *
@@ -1102,7 +1102,7 @@ unsigned
 long
 ROLE_CELL
 =
-29
+20
 ;
 /
 *
@@ -1161,7 +1161,7 @@ unsigned
 long
 ROLE_LINK
 =
-30
+21
 ;
 /
 *
@@ -1211,7 +1211,7 @@ unsigned
 long
 ROLE_LIST
 =
-33
+22
 ;
 /
 *
@@ -1235,7 +1235,7 @@ unsigned
 long
 ROLE_LISTITEM
 =
-34
+23
 ;
 /
 *
@@ -1287,7 +1287,7 @@ unsigned
 long
 ROLE_OUTLINE
 =
-35
+24
 ;
 /
 *
@@ -1321,7 +1321,7 @@ unsigned
 long
 ROLE_OUTLINEITEM
 =
-36
+25
 ;
 /
 *
@@ -1367,7 +1367,7 @@ unsigned
 long
 ROLE_PAGETAB
 =
-37
+26
 ;
 /
 *
@@ -1399,7 +1399,7 @@ unsigned
 long
 ROLE_PROPERTYPAGE
 =
-38
+27
 ;
 /
 *
@@ -1427,7 +1427,7 @@ unsigned
 long
 ROLE_GRAPHIC
 =
-40
+28
 ;
 /
 *
@@ -1487,7 +1487,7 @@ unsigned
 long
 ROLE_STATICTEXT
 =
-41
+29
 ;
 /
 *
@@ -1513,7 +1513,7 @@ unsigned
 long
 ROLE_TEXT_LEAF
 =
-42
+30
 ;
 /
 *
@@ -1549,7 +1549,7 @@ unsigned
 long
 ROLE_PUSHBUTTON
 =
-43
+31
 ;
 /
 *
@@ -1590,7 +1590,7 @@ unsigned
 long
 ROLE_CHECKBUTTON
 =
-44
+32
 ;
 /
 *
@@ -1670,7 +1670,7 @@ unsigned
 long
 ROLE_RADIOBUTTON
 =
-45
+33
 ;
 /
 *
@@ -1727,7 +1727,7 @@ unsigned
 long
 ROLE_COMBOBOX
 =
-46
+34
 ;
 /
 *
@@ -1772,7 +1772,7 @@ unsigned
 long
 ROLE_PROGRESSBAR
 =
-48
+35
 ;
 /
 *
@@ -1820,7 +1820,7 @@ unsigned
 long
 ROLE_SLIDER
 =
-51
+36
 ;
 /
 *
@@ -1880,7 +1880,7 @@ unsigned
 long
 ROLE_SPINBUTTON
 =
-52
+37
 ;
 /
 *
@@ -1910,7 +1910,7 @@ unsigned
 long
 ROLE_DIAGRAM
 =
-53
+38
 ;
 /
 *
@@ -1947,7 +1947,7 @@ unsigned
 long
 ROLE_ANIMATION
 =
-54
+39
 ;
 /
 *
@@ -1971,7 +1971,7 @@ unsigned
 long
 ROLE_BUTTONDROPDOWN
 =
-56
+40
 ;
 /
 *
@@ -1993,7 +1993,7 @@ unsigned
 long
 ROLE_BUTTONMENU
 =
-57
+41
 ;
 /
 *
@@ -2013,7 +2013,7 @@ unsigned
 long
 ROLE_WHITESPACE
 =
-59
+42
 ;
 /
 *
@@ -2055,7 +2055,7 @@ unsigned
 long
 ROLE_PAGETABLIST
 =
-60
+43
 ;
 /
 *
@@ -2092,7 +2092,7 @@ unsigned
 long
 ROLE_CANVAS
 =
-66
+44
 ;
 /
 *
@@ -2114,7 +2114,7 @@ unsigned
 long
 ROLE_CHECK_MENU_ITEM
 =
-67
+45
 ;
 /
 *
@@ -2141,7 +2141,7 @@ unsigned
 long
 ROLE_DATE_EDITOR
 =
-69
+46
 ;
 /
 *
@@ -2183,7 +2183,7 @@ unsigned
 long
 ROLE_CHROME_WINDOW
 =
-75
+47
 ;
 /
 *
@@ -2206,7 +2206,7 @@ unsigned
 long
 ROLE_LABEL
 =
-79
+48
 ;
 /
 *
@@ -2241,7 +2241,7 @@ unsigned
 long
 ROLE_PASSWORD_TEXT
 =
-82
+49
 ;
 /
 *
@@ -2263,7 +2263,7 @@ unsigned
 long
 ROLE_RADIO_MENU_ITEM
 =
-84
+50
 ;
 /
 *
@@ -2286,7 +2286,7 @@ unsigned
 long
 ROLE_TEXT_CONTAINER
 =
-92
+51
 ;
 /
 *
@@ -2326,7 +2326,7 @@ unsigned
 long
 ROLE_TOGGLE_BUTTON
 =
-93
+52
 ;
 /
 *
@@ -2373,7 +2373,7 @@ unsigned
 long
 ROLE_TREE_TABLE
 =
-94
+53
 ;
 /
 *
@@ -2391,7 +2391,7 @@ unsigned
 long
 ROLE_PARAGRAPH
 =
-98
+54
 ;
 /
 *
@@ -2418,7 +2418,7 @@ unsigned
 long
 ROLE_ENTRY
 =
-102
+55
 ;
 /
 *
@@ -2437,7 +2437,7 @@ unsigned
 long
 ROLE_CAPTION
 =
-103
+56
 ;
 /
 *
@@ -2504,7 +2504,7 @@ unsigned
 long
 ROLE_NON_NATIVE_DOCUMENT
 =
-104
+57
 ;
 /
 *
@@ -2519,7 +2519,7 @@ unsigned
 long
 ROLE_HEADING
 =
-105
+58
 ;
 /
 *
@@ -2555,7 +2555,7 @@ unsigned
 long
 ROLE_SECTION
 =
-107
+59
 ;
 /
 *
@@ -2591,7 +2591,7 @@ unsigned
 long
 ROLE_FORM
 =
-109
+60
 ;
 /
 *
@@ -2609,7 +2609,7 @@ unsigned
 long
 ROLE_APP_ROOT
 =
-111
+61
 ;
 /
 *
@@ -2644,7 +2644,7 @@ unsigned
 long
 ROLE_PARENT_MENUITEM
 =
-112
+62
 ;
 /
 *
@@ -2667,7 +2667,7 @@ unsigned
 long
 ROLE_COMBOBOX_LIST
 =
-114
+63
 ;
 /
 *
@@ -2690,7 +2690,7 @@ unsigned
 long
 ROLE_COMBOBOX_OPTION
 =
-115
+64
 ;
 /
 *
@@ -2714,7 +2714,7 @@ unsigned
 long
 ROLE_IMAGE_MAP
 =
-116
+65
 ;
 /
 *
@@ -2732,7 +2732,7 @@ unsigned
 long
 ROLE_OPTION
 =
-117
+66
 ;
 /
 *
@@ -2758,7 +2758,7 @@ unsigned
 long
 ROLE_RICH_OPTION
 =
-118
+67
 ;
 /
 *
@@ -2775,7 +2775,7 @@ unsigned
 long
 ROLE_LISTBOX
 =
-119
+68
 ;
 /
 *
@@ -2796,7 +2796,7 @@ unsigned
 long
 ROLE_FLAT_EQUATION
 =
-120
+69
 ;
 /
 *
@@ -2845,7 +2845,7 @@ unsigned
 long
 ROLE_GRID_CELL
 =
-121
+70
 ;
 /
 *
@@ -2881,7 +2881,7 @@ unsigned
 long
 ROLE_NOTE
 =
-123
+71
 ;
 /
 *
@@ -2905,7 +2905,7 @@ unsigned
 long
 ROLE_FIGURE
 =
-124
+72
 ;
 /
 *
@@ -2927,7 +2927,7 @@ unsigned
 long
 ROLE_CHECK_RICH_OPTION
 =
-125
+73
 ;
 /
 *
@@ -2947,7 +2947,7 @@ unsigned
 long
 ROLE_DEFINITION_LIST
 =
-126
+74
 ;
 /
 *
@@ -2967,7 +2967,7 @@ unsigned
 long
 ROLE_TERM
 =
-127
+75
 ;
 /
 *
@@ -2986,7 +2986,7 @@ unsigned
 long
 ROLE_DEFINITION
 =
-128
+76
 ;
 /
 *
@@ -3005,7 +3005,7 @@ unsigned
 long
 ROLE_KEY
 =
-129
+77
 ;
 /
 *
@@ -3023,7 +3023,7 @@ unsigned
 long
 ROLE_SWITCH
 =
-130
+78
 ;
 /
 *
@@ -3045,7 +3045,7 @@ unsigned
 long
 ROLE_MATHML_MATH
 =
-131
+79
 ;
 /
 *
@@ -3067,7 +3067,7 @@ unsigned
 long
 ROLE_MATHML_IDENTIFIER
 =
-132
+80
 ;
 /
 *
@@ -3089,7 +3089,7 @@ unsigned
 long
 ROLE_MATHML_NUMBER
 =
-133
+81
 ;
 /
 *
@@ -3111,7 +3111,7 @@ unsigned
 long
 ROLE_MATHML_OPERATOR
 =
-134
+82
 ;
 /
 *
@@ -3133,7 +3133,7 @@ unsigned
 long
 ROLE_MATHML_TEXT
 =
-135
+83
 ;
 /
 *
@@ -3156,7 +3156,7 @@ unsigned
 long
 ROLE_MATHML_STRING_LITERAL
 =
-136
+84
 ;
 /
 *
@@ -3178,7 +3178,7 @@ unsigned
 long
 ROLE_MATHML_GLYPH
 =
-137
+85
 ;
 /
 *
@@ -3200,7 +3200,7 @@ unsigned
 long
 ROLE_MATHML_ROW
 =
-138
+86
 ;
 /
 *
@@ -3222,7 +3222,7 @@ unsigned
 long
 ROLE_MATHML_FRACTION
 =
-139
+87
 ;
 /
 *
@@ -3245,7 +3245,7 @@ unsigned
 long
 ROLE_MATHML_SQUARE_ROOT
 =
-140
+88
 ;
 /
 *
@@ -3267,7 +3267,7 @@ unsigned
 long
 ROLE_MATHML_ROOT
 =
-141
+89
 ;
 /
 *
@@ -3290,7 +3290,7 @@ unsigned
 long
 ROLE_MATHML_ENCLOSED
 =
-143
+90
 ;
 /
 *
@@ -3313,7 +3313,7 @@ unsigned
 long
 ROLE_MATHML_STYLE
 =
-144
+91
 ;
 /
 *
@@ -3335,7 +3335,7 @@ unsigned
 long
 ROLE_MATHML_SUB
 =
-145
+92
 ;
 /
 *
@@ -3357,7 +3357,7 @@ unsigned
 long
 ROLE_MATHML_SUP
 =
-146
+93
 ;
 /
 *
@@ -3381,7 +3381,7 @@ unsigned
 long
 ROLE_MATHML_SUB_SUP
 =
-147
+94
 ;
 /
 *
@@ -3403,7 +3403,7 @@ unsigned
 long
 ROLE_MATHML_UNDER
 =
-148
+95
 ;
 /
 *
@@ -3425,7 +3425,7 @@ unsigned
 long
 ROLE_MATHML_OVER
 =
-149
+96
 ;
 /
 *
@@ -3449,7 +3449,7 @@ unsigned
 long
 ROLE_MATHML_UNDER_OVER
 =
-150
+97
 ;
 /
 *
@@ -3476,7 +3476,7 @@ unsigned
 long
 ROLE_MATHML_MULTISCRIPTS
 =
-151
+98
 ;
 /
 *
@@ -3498,7 +3498,7 @@ unsigned
 long
 ROLE_MATHML_TABLE
 =
-152
+99
 ;
 /
 *
@@ -3522,7 +3522,7 @@ unsigned
 long
 ROLE_MATHML_LABELED_ROW
 =
-153
+100
 ;
 /
 *
@@ -3545,7 +3545,7 @@ unsigned
 long
 ROLE_MATHML_TABLE_ROW
 =
-154
+101
 ;
 /
 *
@@ -3570,7 +3570,7 @@ unsigned
 long
 ROLE_MATHML_CELL
 =
-155
+102
 ;
 /
 *
@@ -3593,7 +3593,7 @@ unsigned
 long
 ROLE_MATHML_ACTION
 =
-156
+103
 ;
 /
 *
@@ -3616,7 +3616,7 @@ unsigned
 long
 ROLE_MATHML_ERROR
 =
-157
+104
 ;
 /
 *
@@ -3644,7 +3644,7 @@ unsigned
 long
 ROLE_MATHML_STACK
 =
-158
+105
 ;
 /
 *
@@ -3668,7 +3668,7 @@ unsigned
 long
 ROLE_MATHML_LONG_DIVISION
 =
-159
+106
 ;
 /
 *
@@ -3691,7 +3691,7 @@ unsigned
 long
 ROLE_MATHML_STACK_GROUP
 =
-160
+107
 ;
 /
 *
@@ -3714,7 +3714,7 @@ unsigned
 long
 ROLE_MATHML_STACK_ROW
 =
-161
+108
 ;
 /
 *
@@ -3741,7 +3741,7 @@ unsigned
 long
 ROLE_MATHML_STACK_CARRIES
 =
-162
+109
 ;
 /
 *
@@ -3769,7 +3769,7 @@ unsigned
 long
 ROLE_MATHML_STACK_CARRY
 =
-163
+110
 ;
 /
 *
@@ -3794,7 +3794,7 @@ unsigned
 long
 ROLE_MATHML_STACK_LINE
 =
-164
+111
 ;
 /
 *
@@ -3812,7 +3812,7 @@ unsigned
 long
 ROLE_RADIO_GROUP
 =
-165
+112
 ;
 /
 *
@@ -3840,7 +3840,7 @@ unsigned
 long
 ROLE_TEXT
 =
-166
+113
 ;
 /
 *
@@ -3868,7 +3868,7 @@ unsigned
 long
 ROLE_DETAILS
 =
-167
+114
 ;
 /
 *
@@ -3896,7 +3896,7 @@ unsigned
 long
 ROLE_SUMMARY
 =
-168
+115
 ;
 /
 *
@@ -3918,7 +3918,7 @@ unsigned
 long
 ROLE_LANDMARK
 =
-169
+116
 ;
 /
 *
@@ -3965,7 +3965,7 @@ unsigned
 long
 ROLE_NAVIGATION
 =
-170
+117
 ;
 /
 *
@@ -3988,7 +3988,7 @@ unsigned
 long
 ROLE_FOOTNOTE
 =
-171
+118
 ;
 /
 *
@@ -4033,7 +4033,7 @@ unsigned
 long
 ROLE_ARTICLE
 =
-172
+119
 ;
 /
 *
@@ -4093,7 +4093,7 @@ unsigned
 long
 ROLE_REGION
 =
-173
+120
 ;
 /
 *
@@ -4138,7 +4138,7 @@ unsigned
 long
 ROLE_EDITCOMBOBOX
 =
-174
+121
 ;
 /
 *
@@ -4162,7 +4162,7 @@ unsigned
 long
 ROLE_BLOCKQUOTE
 =
-175
+122
 ;
 /
 *
@@ -4199,7 +4199,7 @@ unsigned
 long
 ROLE_CONTENT_DELETION
 =
-176
+123
 ;
 /
 *
@@ -4236,7 +4236,7 @@ unsigned
 long
 ROLE_CONTENT_INSERTION
 =
-177
+124
 ;
 /
 *
@@ -4287,7 +4287,7 @@ unsigned
 long
 ROLE_FORM_LANDMARK
 =
-178
+125
 ;
 /
 *
@@ -4320,7 +4320,7 @@ unsigned
 long
 ROLE_MARK
 =
-179
+126
 ;
 /
 *
@@ -4340,7 +4340,7 @@ unsigned
 long
 ROLE_SUGGESTION
 =
-180
+127
 ;
 /
 *
@@ -4360,7 +4360,7 @@ unsigned
 long
 ROLE_COMMENT
 =
-181
+128
 ;
 /
 *
@@ -4387,7 +4387,7 @@ unsigned
 long
 ROLE_CODE
 =
-182
+129
 ;
 /
 *
@@ -4414,7 +4414,7 @@ unsigned
 long
 ROLE_TIME_EDITOR
 =
-183
+130
 ;
 /
 *
@@ -4453,7 +4453,7 @@ unsigned
 long
 ROLE_LISTITEM_MARKER
 =
-184
+131
 ;
 /
 *
@@ -4490,7 +4490,7 @@ unsigned
 long
 ROLE_METER
 =
-185
+132
 ;
 /
 *
@@ -4536,7 +4536,7 @@ unsigned
 long
 ROLE_SUBSCRIPT
 =
-186
+133
 ;
 /
 *
@@ -4579,7 +4579,7 @@ unsigned
 long
 ROLE_SUPERSCRIPT
 =
-187
+134
 ;
 }
 ;
