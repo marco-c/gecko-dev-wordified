@@ -864,15 +864,6 @@ set
 this
 )
 ;
-currentThread_
-=
-ThreadId
-:
-:
-ThisThreadId
-(
-)
-;
 nativeStackBase_
 .
 emplace
@@ -6155,10 +6146,6 @@ options_
 (
 this
 options
-)
-freeUnusedMemory
-(
-false
 )
 measuringExecutionTime_
 (
