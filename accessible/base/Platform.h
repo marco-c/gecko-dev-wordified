@@ -679,7 +679,7 @@ endif
 ifdef
 MOZ_WIDGET_COCOA
 class
-TextRangeData
+TextRange
 ;
 void
 PlatformTextSelectionChangeEvent
@@ -690,7 +690,7 @@ aTarget
 const
 nsTArray
 <
-TextRangeData
+TextRange
 >
 &
 aSelection
