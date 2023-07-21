@@ -909,7 +909,7 @@ RemoteChildAt
 newChildIdx
 )
 ;
-ProxyShowHideEvent
+PlatformShowHideEvent
 (
 target
 parent
@@ -1993,7 +1993,7 @@ RemoteParent
 (
 )
 ;
-ProxyShowHideEvent
+PlatformShowHideEvent
 (
 root
 parent
@@ -2455,7 +2455,7 @@ false
 )
 ;
 }
-ProxyEvent
+PlatformEvent
 (
 aAcc
 aEventType
@@ -2660,7 +2660,7 @@ nullptr
 )
 ;
 }
-ProxyStateChangeEvent
+PlatformStateChangeEvent
 (
 target
 aState
@@ -2957,7 +2957,7 @@ aOffset
 )
 ;
 }
-ProxyCaretMoveEvent
+PlatformCaretMoveEvent
 (
 proxy
 aOffset
@@ -3154,7 +3154,7 @@ IPC_OK
 )
 ;
 }
-ProxyTextChangeEvent
+PlatformTextChangeEvent
 (
 target
 aStr
@@ -3348,7 +3348,7 @@ IPC_OK
 )
 ;
 }
-ProxySelectionEvent
+PlatformSelectionEvent
 (
 target
 widget
@@ -3533,7 +3533,7 @@ defined
 (
 ANDROID
 )
-ProxyVirtualCursorChangeEvent
+PlatformVirtualCursorChangeEvent
 (
 target
 oldPosition
@@ -3714,7 +3714,7 @@ defined
 (
 ANDROID
 )
-ProxyScrollingEvent
+PlatformScrollingEvent
 (
 target
 aType
@@ -3726,7 +3726,7 @@ aMaxScrollY
 ;
 #
 else
-ProxyEvent
+PlatformEvent
 (
 target
 aType
@@ -4267,7 +4267,7 @@ defined
 (
 ANDROID
 )
-ProxyAnnouncementEvent
+PlatformAnnouncementEvent
 (
 target
 aAnnouncement
@@ -4451,7 +4451,7 @@ aSelection
 #
 ifdef
 MOZ_WIDGET_COCOA
-ProxyTextSelectionChangeEvent
+PlatformTextSelectionChangeEvent
 (
 target
 aSelection
@@ -4459,7 +4459,7 @@ aSelection
 ;
 #
 else
-ProxyEvent
+PlatformEvent
 (
 target
 nsIAccessibleEvent
@@ -4611,7 +4611,7 @@ aRoleMapEntryIndex
 #
 ifdef
 MOZ_WIDGET_COCOA
-ProxyRoleChangedEvent
+PlatformRoleChangedEvent
 (
 this
 aRole
@@ -6691,7 +6691,7 @@ mFocus
 =
 aID
 ;
-ProxyFocusEvent
+PlatformFocusEvent
 (
 proxy
 aCaretRect

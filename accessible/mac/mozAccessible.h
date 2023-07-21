@@ -540,7 +540,7 @@ in
 Platform
 :
 :
-ProxyEvent
+PlatformEvent
 or
 AccessibleWrap
 :
