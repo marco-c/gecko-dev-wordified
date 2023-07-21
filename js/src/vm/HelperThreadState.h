@@ -4552,9 +4552,6 @@ nodiscard
 bool
 runTask
 (
-JSContext
-*
-cx
 )
 ;
 ThreadType
