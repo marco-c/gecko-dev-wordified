@@ -1586,6 +1586,14 @@ return
 cnt
 ;
 }
+using
+HasThreadSafeRefCnt
+=
+std
+:
+:
+true_type
+;
 /
 /
 Compatibility
