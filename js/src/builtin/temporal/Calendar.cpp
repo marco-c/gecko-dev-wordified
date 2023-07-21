@@ -12852,6 +12852,9 @@ calendar
 fields
 [
 options
+[
+dateFromFields
+]
 ]
 )
 *
@@ -13014,6 +13017,11 @@ maybeOptions
 )
 ;
 }
+/
+/
+Step
+4
+.
 Rooted
 <
 Value
@@ -13107,7 +13115,7 @@ nullptr
 /
 /
 Step
-4
+5
 .
 if
 (
@@ -13156,7 +13164,7 @@ nullptr
 /
 /
 Step
-5
+6
 .
 return
 &
@@ -13177,6 +13185,9 @@ calendar
 fields
 [
 options
+[
+dateFromFields
+]
 ]
 )
 *
@@ -13215,7 +13226,7 @@ fields
 Steps
 1
 -
-4
+6
 .
 return
 :
@@ -13239,6 +13250,9 @@ calendar
 fields
 [
 options
+[
+dateFromFields
+]
 ]
 )
 *
@@ -13283,7 +13297,7 @@ options
 Steps
 1
 -
-4
+6
 .
 return
 :
