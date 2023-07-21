@@ -329,6 +329,14 @@ base
 )
 s
     
+sync
+:
+%
+(
+sync
+)
+s
+    
 methods
 :
 %
@@ -583,6 +591,24 @@ base
 base
                 
 "
+sync
+"
+:
+"
+true
+"
+if
+iface
+.
+attributes
+.
+rust_sync
+else
+"
+false
+"
+                
+"
 methods
 "
 :
@@ -636,6 +662,14 @@ base
 "
 :
 base
+                
+"
+sync
+"
+:
+"
+false
+"
                 
 "
 methods
