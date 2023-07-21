@@ -625,7 +625,7 @@ cx
 *
 *
 *
-ToTemporalTimeZone
+ToTemporalTimeZoneSlotValue
 (
 temporalTimeZoneLike
 )
@@ -662,7 +662,7 @@ result
 *
 *
 *
-ToTemporalTimeZone
+ToTemporalTimeZoneSlotValue
 (
 temporalTimeZoneLike
 )
