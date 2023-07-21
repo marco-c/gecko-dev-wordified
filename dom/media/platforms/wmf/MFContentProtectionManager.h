@@ -241,8 +241,6 @@ public
 MFContentProtectionManager
 (
 )
-=
-default
 ;
 ~
 MFContentProtectionManager
