@@ -82,6 +82,14 @@ taskgraph
 .
 util
 .
+dependencies
+import
+get_primary_dependency
+from
+taskgraph
+.
+util
+.
 treeherder
 import
 join_symbol
@@ -109,14 +117,14 @@ jobs
         
 dep_job
 =
+get_primary_dependency
+(
+config
 job
-[
-"
-primary
--
-dependency
-"
-]
+)
+        
+assert
+dep_job
         
 locale
 =
@@ -189,36 +197,24 @@ label
 ]
             
 "
-primary
--
-dependency
-"
-:
-dep_job
-            
-"
-dependent
--
-tasks
+attributes
 "
 :
 job
 [
 "
-dependent
--
-tasks
+attributes
 "
 ]
             
 "
-attributes
+dependencies
 "
 :
 job
 [
 "
-attributes
+dependencies
 "
 ]
             
@@ -246,21 +242,6 @@ job
 shipping
 -
 phase
-"
-]
-            
-"
-shipping
--
-product
-"
-:
-job
-[
-"
-shipping
--
-product
 "
 ]
         
