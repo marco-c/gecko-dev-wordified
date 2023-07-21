@@ -866,6 +866,14 @@ pid
 )
 ;
 }
+mChannel
+-
+>
+SetOtherPid
+(
+aNewPid
+)
+;
 }
 #
 ifdef

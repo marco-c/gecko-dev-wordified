@@ -140,6 +140,11 @@ Thread
 :
 Options
 options
+base
+:
+:
+ProcessId
+parent_pid
 )
 :
 Thread
@@ -164,6 +169,10 @@ current
 options_
 (
 options
+)
+parent_pid_
+(
+parent_pid
 )
 {
 DCHECK
@@ -309,6 +318,7 @@ Channel
 :
 :
 MODE_CLIENT
+parent_pid_
 )
 ;
 #
@@ -373,6 +383,7 @@ move
 (
 channel
 )
+parent_pid_
 )
 ;
 }

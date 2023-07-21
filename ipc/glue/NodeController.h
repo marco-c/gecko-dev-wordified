@@ -959,11 +959,11 @@ IPC
 Channel
 >
 aChannel
-int32_t
+base
+:
+:
+ProcessId
 aParentPid
-=
--
-1
 )
 ;
 /
