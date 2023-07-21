@@ -6771,6 +6771,13 @@ StructuredCloneScope
 :
 :
 SameProcess
+&
+&
+aCloneDataPolicy
+.
+areIntraClusterClonableSharedObjectsAllowed
+(
+)
 )
 {
 JS
@@ -8244,6 +8251,13 @@ StructuredCloneScope
 :
 :
 SameProcess
+&
+&
+aCloneDataPolicy
+.
+areIntraClusterClonableSharedObjectsAllowed
+(
+)
 )
 {
 MOZ_ASSERT
