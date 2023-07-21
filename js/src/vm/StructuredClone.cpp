@@ -20669,6 +20669,7 @@ readTransfer
 (
 cx
 this
+cloneDataPolicy
 tag
 content
 extraData

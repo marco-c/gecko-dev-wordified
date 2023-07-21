@@ -560,6 +560,13 @@ aCx
 JSStructuredCloneReader
 *
 aReader
+const
+JS
+:
+:
+CloneDataPolicy
+&
+aCloneDataPolicy
 uint32_t
 aTag
 void
@@ -1818,6 +1825,13 @@ aCx
 JSStructuredCloneReader
 *
 aReader
+const
+JS
+:
+:
+CloneDataPolicy
+&
+aCloneDataPolicy
 uint32_t
 aTag
 void
