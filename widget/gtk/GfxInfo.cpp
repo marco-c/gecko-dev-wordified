@@ -9363,13 +9363,6 @@ ret
 bool
 probeHWDecode
 =
-false
-;
-#
-ifdef
-MOZ_WAYLAND
-probeHWDecode
-=
 mIsAccelerated
 &
 &
@@ -9400,8 +9393,6 @@ media_ffmpeg_vaapi_enabled_AtStartup
 )
 )
 ;
-#
-endif
 if
 (
 probeHWDecode
