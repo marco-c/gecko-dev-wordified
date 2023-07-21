@@ -376,6 +376,12 @@ reject_bytes
 '
 :
 True
+    
+'
+escape_forward_slashes
+'
+:
+False
 }
 _json_dump_dist_kwargs
 :
