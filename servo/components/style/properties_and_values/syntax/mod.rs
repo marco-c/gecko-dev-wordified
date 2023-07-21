@@ -171,6 +171,10 @@ style_traits
 :
 :
 {
+arc_slice
+:
+:
+ArcSlice
 CssWriter
 ParseError
 as
@@ -194,6 +198,7 @@ DataType
 mod
 ascii
 ;
+pub
 mod
 data_type
 ;
@@ -251,9 +256,7 @@ ignore_malloc_size_of
 arc
 "
 ]
-crate
-:
-:
+pub
 ArcSlice
 <
 Component
@@ -602,9 +605,6 @@ Ok
 (
 Self
 (
-crate
-:
-:
 ArcSlice
 :
 :

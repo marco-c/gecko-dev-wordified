@@ -9236,6 +9236,12 @@ Servo_RegisterCustomProperty
 RawData
 (
 )
+mDocument
+-
+>
+DefaultStyleAttrURLData
+(
+)
 &
 aDefinition
 .
