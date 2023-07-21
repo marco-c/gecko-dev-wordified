@@ -3402,7 +3402,11 @@ mRootNode
 =
 nullptr
 ;
-mAsyncZoomContainerSubtree
+Maybe
+<
+LayersId
+>
+asyncZoomContainerSubtree
 =
 Nothing
 (
@@ -3602,7 +3606,7 @@ haveNestedAsyncZoomContainers
 true
 ;
 }
-mAsyncZoomContainerSubtree
+asyncZoomContainerSubtree
 =
 Some
 (
@@ -4660,7 +4664,7 @@ n
 MOZ_ASSERT
 (
 !
-mAsyncZoomContainerSubtree
+asyncZoomContainerSubtree
 |
 |
 !
@@ -4669,7 +4673,7 @@ subtreesWithRootContentOutsideAsyncZoomContainer
 Contains
 (
 *
-mAsyncZoomContainerSubtree
+asyncZoomContainerSubtree
 )
 "
 If
