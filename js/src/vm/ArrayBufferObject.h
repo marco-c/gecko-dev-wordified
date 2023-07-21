@@ -3526,7 +3526,8 @@ indexType
 (
 )
 .
-bool
+ArrayBufferObjectMaybeShared
+*
 CreateWasmBuffer
 (
 JSContext
@@ -3539,12 +3540,6 @@ wasm
 MemoryDesc
 &
 memory
-MutableHandle
-<
-ArrayBufferObjectMaybeShared
-*
->
-buffer
 )
 ;
 /
