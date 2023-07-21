@@ -53,6 +53,15 @@ MPL
 0
 /
 .
+__version__
+=
+"
+5
+.
+6
+.
+1
+"
 #
 Maximum
 number

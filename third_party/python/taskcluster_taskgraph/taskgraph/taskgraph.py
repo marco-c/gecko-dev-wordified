@@ -53,8 +53,14 @@ MPL
 0
 /
 .
+from
+dataclasses
 import
-attr
+dataclass
+from
+typing
+import
+List
 from
 .
 graph
@@ -65,9 +71,7 @@ from
 task
 import
 Task
-attr
-.
-s
+dataclass
 (
 frozen
 =
@@ -147,23 +151,18 @@ dependents
 "
     
 tasks
-=
-attr
-.
-ib
-(
-)
+:
+List
+[
+Task
+]
     
 graph
-=
-attr
-.
-ib
-(
-)
+:
+Graph
     
 def
-__attrs_post_init__
+__post_init__
 (
 self
 )
