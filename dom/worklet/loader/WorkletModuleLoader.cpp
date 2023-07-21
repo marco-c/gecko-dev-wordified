@@ -565,6 +565,9 @@ ModuleLoaderBase
 (
 aScriptLoader
 aGlobalObject
+GetCurrentSerialEventTarget
+(
+)
 )
 {
 /
