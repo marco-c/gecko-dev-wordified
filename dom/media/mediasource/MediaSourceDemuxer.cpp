@@ -2637,6 +2637,11 @@ result
 sample
 )
 ;
+if
+(
+sample
+)
+{
 mNextSample
 =
 Some
@@ -2644,6 +2649,7 @@ Some
 sample
 )
 ;
+}
 mReset
 =
 false
@@ -3030,6 +3036,11 @@ __func__
 ;
 }
 }
+MOZ_DIAGNOSTIC_ASSERT
+(
+sample
+)
+;
 RefPtr
 <
 SamplesHolder
