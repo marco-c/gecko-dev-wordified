@@ -600,6 +600,15 @@ RunTestsGenericUtility
 this
 )
 ;
+RunTestsUtilityAudioDecoder
+(
+this
+s
+-
+>
+mSandbox
+)
+;
 break
 ;
 #
