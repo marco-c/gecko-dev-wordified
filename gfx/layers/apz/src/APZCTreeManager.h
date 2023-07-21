@@ -5712,9 +5712,9 @@ aNode
 '
 s
 coordinates
+/
+/
 to
-/
-/
 the
 coordinates
 of
@@ -5731,9 +5731,9 @@ hit
 testing
 tree
 .
-/
-/
 Requires
+/
+/
 the
 caller
 to
@@ -5741,7 +5741,7 @@ hold
 mTreeLock
 .
 LayerToParentLayerMatrix4x4
-ComputeTransformForNode
+ComputeTransformForScrollThumbNode
 (
 const
 HitTestingTreeNode
