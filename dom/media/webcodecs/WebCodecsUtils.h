@@ -251,7 +251,7 @@ followings
 are
 helpers
 for
-VideoDecoder
+WebCodecs
 methods
 *
 /
