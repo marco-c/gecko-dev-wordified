@@ -792,6 +792,15 @@ aTarget
 }
 )
 ;
+mHandledResult
+-
+>
+mOverscrollDirections
+=
+ScrollDirections
+(
+)
+;
 return
 ;
 }
@@ -2660,6 +2669,9 @@ Unhandled
 :
 if
 (
+aTarget
+&
+&
 aPopulateDirectionsForUnhandled
 )
 {
