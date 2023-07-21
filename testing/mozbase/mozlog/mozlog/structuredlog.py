@@ -2958,13 +2958,27 @@ test
             
 return
         
-if
+test_key
+=
+(
+data
+.
+get
+(
+"
+subsuite
+"
+)
 data
 [
 "
 test
 "
 ]
+)
+        
+if
+test_key
 in
 self
 .
@@ -3007,12 +3021,7 @@ running_tests
 .
 add
 (
-data
-[
-"
-test
-"
-]
+test_key
 )
         
 self
@@ -3328,13 +3337,27 @@ expected
 "
 ]
         
-if
+test_key
+=
+(
+data
+.
+get
+(
+"
+subsuite
+"
+)
 data
 [
 "
 test
 "
 ]
+)
+        
+if
+test_key
 not
 in
 self
@@ -3688,13 +3711,27 @@ expected
 "
 ]
         
-if
+test_key
+=
+(
+data
+.
+get
+(
+"
+subsuite
+"
+)
 data
 [
 "
 test
 "
 ]
+)
+        
+if
+test_key
 not
 in
 self
@@ -3759,12 +3796,7 @@ running_tests
 .
 remove
 (
-data
-[
-"
-test
-"
-]
+test_key
 )
             
 self
