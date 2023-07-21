@@ -7099,7 +7099,7 @@ hostgetsupportedimportassertions
 js
 :
 :
-MainThreadOrParseData
+MainThreadData
 <
 JS
 :

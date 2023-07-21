@@ -882,11 +882,6 @@ MaybeGetJSContext
 (
 )
 ;
-bool
-CurrentThreadIsParseThread
-(
-)
-;
 #
 endif
 enum
