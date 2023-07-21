@@ -1856,6 +1856,13 @@ eBasicEventClass
 )
 WINDOW_EVENT
 (
+rtctransform
+eRTCTransform
+EventNameType_None
+eBasicEventClass
+)
+WINDOW_EVENT
+(
 messageerror
 eMessageError
 EventNameType_HTMLBodyOrFramesetOnly
