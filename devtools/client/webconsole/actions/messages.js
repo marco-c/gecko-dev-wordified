@@ -194,6 +194,9 @@ packets
 idGenerator
 =
 null
+persistLogs
+=
+false
 )
 {
 if
@@ -223,6 +226,7 @@ prepareMessage
 (
 packet
 idGenerator
+persistLogs
 )
 )
 ;
@@ -242,6 +246,12 @@ sort
 getNaturalOrder
 )
 ;
+if
+(
+!
+persistLogs
+)
+{
 for
 (
 let
@@ -302,6 +312,7 @@ i
 ]
 )
 ;
+}
 }
 }
 /
