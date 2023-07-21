@@ -12670,7 +12670,7 @@ Step
 if
 (
 !
-RejectObjectWithCalendarOrTimeZone
+RejectTemporalLikeObject
 (
 cx
 temporalTimeLike

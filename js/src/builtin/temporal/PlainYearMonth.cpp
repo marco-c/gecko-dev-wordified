@@ -6061,7 +6061,7 @@ Step
 if
 (
 !
-RejectObjectWithCalendarOrTimeZone
+RejectTemporalLikeObject
 (
 cx
 temporalYearMonthLike

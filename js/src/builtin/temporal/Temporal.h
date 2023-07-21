@@ -1218,8 +1218,6 @@ fractional
 seconds
 .
 *
-*
-*
 /
 class
 Precision
@@ -1763,14 +1761,14 @@ result
 *
 *
 *
-RejectObjectWithCalendarOrTimeZone
+RejectTemporalLikeObject
 (
 object
 )
 *
 /
 bool
-RejectObjectWithCalendarOrTimeZone
+RejectTemporalLikeObject
 (
 JSContext
 *
