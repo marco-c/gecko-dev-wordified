@@ -475,9 +475,12 @@ cx
 *
 *
 *
-ToTemporalCalendar
+ToTemporalCalendarSlotValue
 (
 temporalCalendarLike
+[
+default
+]
 )
 *
 /
@@ -512,9 +515,12 @@ result
 *
 *
 *
-ToTemporalCalendarWithISODefault
+ToTemporalCalendarSlotValue
 (
 temporalCalendarLike
+[
+default
+]
 )
 *
 /
