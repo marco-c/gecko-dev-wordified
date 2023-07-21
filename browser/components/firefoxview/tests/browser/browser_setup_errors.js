@@ -93,6 +93,10 @@ type
 "
 desktop
 "
+tabs
+:
+[
+]
 }
 {
 id
@@ -109,6 +113,10 @@ type
 "
 desktop
 "
+tabs
+:
+[
+]
 }
 ]
 }
