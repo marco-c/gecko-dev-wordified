@@ -9,6 +9,13 @@ window
 /
 META
 :
+timeout
+=
+long
+/
+/
+META
+:
 title
 =
 Fetch
