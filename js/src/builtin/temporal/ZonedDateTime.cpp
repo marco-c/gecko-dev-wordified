@@ -7815,7 +7815,7 @@ false
 Steps
 4
 -
-7
+6
 .
 Rooted
 <
@@ -7882,10 +7882,10 @@ Step
 .
 resolvedOptions
 =
-NewPlainObjectWithProto
+CopyOptions
 (
 cx
-nullptr
+options
 )
 ;
 if
@@ -7902,26 +7902,6 @@ false
 /
 Step
 5
-.
-if
-(
-!
-CopyDataProperties
-(
-cx
-resolvedOptions
-options
-)
-)
-{
-return
-false
-;
-}
-/
-/
-Step
-6
 .
 if
 (
@@ -7955,7 +7935,7 @@ false
 /
 /
 Step
-7
+6
 .
 Rooted
 <
@@ -8007,7 +7987,7 @@ else
 Steps
 4
 -
-6
+5
 .
 settings
 =
@@ -8033,7 +8013,7 @@ Increment
 /
 /
 Step
-7
+6
 .
 (
 Not
@@ -8047,7 +8027,7 @@ implementation
 /
 /
 Step
-8
+7
 .
 if
 (
@@ -8076,7 +8056,7 @@ largestUnit
 /
 /
 Step
-8
+7
 .
 a
 .
@@ -8115,7 +8095,7 @@ false
 /
 /
 Step
-8
+7
 .
 b
 .
@@ -8213,7 +8193,7 @@ issues
 /
 /
 Step
-9
+8
 .
 if
 (
@@ -8233,7 +8213,7 @@ false
 /
 /
 Step
-10
+9
 .
 Duration
 difference
@@ -8300,7 +8280,7 @@ false
 /
 /
 Step
-11
+10
 .
 Duration
 roundResult
@@ -8341,7 +8321,7 @@ false
 /
 /
 Step
-12
+11
 .
 Duration
 result
@@ -8375,7 +8355,7 @@ false
 /
 /
 Step
-13
+12
 .
 if
 (
