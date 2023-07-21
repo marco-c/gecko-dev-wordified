@@ -512,6 +512,13 @@ ini
 "
 test
 /
+mochitest_media_engine
+.
+ini
+"
+"
+test
+/
 mochitest_media_recorder
 .
 ini
