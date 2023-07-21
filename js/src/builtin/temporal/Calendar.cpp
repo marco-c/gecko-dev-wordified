@@ -11855,7 +11855,7 @@ true
 *
 *
 *
-ResolveISOMonth
+ISOResolveMonth
 (
 fields
 )
@@ -11863,7 +11863,7 @@ fields
 /
 static
 bool
-ResolveISOMonth
+ISOResolveMonth
 (
 JSContext
 *
@@ -12014,8 +12014,10 @@ true
 }
 /
 /
-Step
+Steps
 6
+-
+7
 .
 (
 Not
@@ -12028,7 +12030,7 @@ implementation
 /
 /
 Step
-7
+8
 .
 if
 (
@@ -12095,11 +12097,6 @@ return
 false
 ;
 }
-/
-/
-Step
-8
-.
 char16_t
 chars
 [
@@ -12133,9 +12130,9 @@ latin1OrTwoByteChar
 /
 /
 Steps
-8
+9
 -
-10
+11
 .
 (
 Partial
@@ -12212,7 +12209,7 @@ false
 /
 /
 Step
-11
+12
 .
 int
 monthCodeNumber
@@ -12238,7 +12235,7 @@ chars
 /
 /
 Step
-10
+11
 .
 (
 Partial
@@ -12288,7 +12285,7 @@ false
 /
 /
 Step
-12
+13
 .
 (
 Not
@@ -12301,7 +12298,7 @@ implementation
 /
 /
 Step
-13
+14
 .
 if
 (
@@ -12354,7 +12351,7 @@ false
 /
 /
 Step
-14
+15
 .
 *
 result
@@ -12452,7 +12449,7 @@ month
 if
 (
 !
-ResolveISOMonth
+ISOResolveMonth
 (
 cx
 fields
@@ -13606,7 +13603,7 @@ month
 if
 (
 !
-ResolveISOMonth
+ISOResolveMonth
 (
 cx
 fields
@@ -14558,7 +14555,7 @@ Step
 if
 (
 !
-ResolveISOMonth
+ISOResolveMonth
 (
 cx
 fields
