@@ -528,10 +528,10 @@ feature
 "
 nightly
 "
-target_arch
+target_family
 =
 "
-wasm32
+wasm
 "
 target_feature
 =

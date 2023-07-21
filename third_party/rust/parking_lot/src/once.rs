@@ -1878,8 +1878,6 @@ the
 /
 lock
 .
-unsafe
-{
 let
 addr
 =
@@ -1933,6 +1931,8 @@ unreachable
 (
 )
 ;
+unsafe
+{
 parking_lot_core
 :
 :
@@ -2059,8 +2059,6 @@ PARKED_BIT
 =
 0
 {
-unsafe
-{
 let
 addr
 =
@@ -2072,6 +2070,8 @@ _
 as
 usize
 ;
+unsafe
+{
 parking_lot_core
 :
 :
@@ -2195,8 +2195,6 @@ PARKED_BIT
 =
 0
 {
-unsafe
-{
 let
 addr
 =
@@ -2208,6 +2206,8 @@ _
 as
 usize
 ;
+unsafe
+{
 parking_lot_core
 :
 :
