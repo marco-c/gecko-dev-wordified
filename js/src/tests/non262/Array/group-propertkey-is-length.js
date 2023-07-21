@@ -20,11 +20,9 @@ skip
 if
 (
 !
-Array
+Object
 .
-prototype
-.
-group
+groupBy
 )
 var
 array
@@ -36,10 +34,11 @@ array
 var
 grouped
 =
-array
+Object
 .
-group
+groupBy
 (
+array
 (
 )
 =

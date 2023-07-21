@@ -1503,7 +1503,7 @@ true
 /
 GetBuiltinConstructor
 in
-ArrayGroupToMap
+MapGroupBy
 if
 (
 fun

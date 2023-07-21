@@ -1378,6 +1378,13 @@ staticProperties
 [
 ]
 ;
+static
+const
+JSFunctionSpec
+staticMethods
+[
+]
+;
 PreBarrieredTable
 *
 nurseryTable
