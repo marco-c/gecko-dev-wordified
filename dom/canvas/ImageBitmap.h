@@ -287,6 +287,9 @@ class
 CreateImageBitmapFromBlobWorkerTask
 ;
 class
+ImageBitmapShutdownObserver
+;
+class
 File
 ;
 class
@@ -297,9 +300,6 @@ HTMLImageElement
 ;
 class
 HTMLVideoElement
-;
-class
-ImageBitmapShutdownObserver
 ;
 class
 ImageData
@@ -325,6 +325,9 @@ SVGImageElement
 ;
 class
 VideoFrame
+;
+class
+SendShutdownToWorkerThread
 ;
 struct
 ImageBitmapCloneData
@@ -782,6 +785,9 @@ CreateImageBitmapFromBlobTask
 ;
 friend
 CreateImageBitmapFromBlobWorkerTask
+;
+friend
+ImageBitmapShutdownObserver
 ;
 size_t
 GetAllocatedSize
@@ -1623,9 +1629,9 @@ mAlphaType
 ;
 RefPtr
 <
-ImageBitmapShutdownObserver
+SendShutdownToWorkerThread
 >
-mShutdownObserver
+mShutdownRunnable
 ;
 /
 *
