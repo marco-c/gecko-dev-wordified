@@ -614,10 +614,6 @@ ModuleLoaderBase
 (
 aScriptLoader
 aGlobalObject
-new
-SyncEventTarget
-(
-)
 )
 {
 }
