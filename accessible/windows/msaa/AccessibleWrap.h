@@ -257,16 +257,6 @@ public
 /
 LocalAccessible
 virtual
-nsresult
-HandleAccEvent
-(
-AccEvent
-*
-aEvent
-)
-override
-;
-virtual
 void
 Shutdown
 (
