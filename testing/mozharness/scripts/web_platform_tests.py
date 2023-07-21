@@ -2582,6 +2582,40 @@ xpi
 "
             
 )
+            
+#
+Ensure
+that
+we
+don
+'
+t
+get
+a
+Python
+traceback
+from
+handlers
+that
+will
+be
+            
+#
+added
+to
+the
+log
+summary
+            
+"
+-
+-
+suppress
+-
+handler
+-
+traceback
+"
         
 ]
         
