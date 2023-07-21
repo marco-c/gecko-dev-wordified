@@ -14710,6 +14710,11 @@ TimeZoneValue
 timeZone
 (
 cx
+)
+;
+if
+(
+!
 ToTemporalTimeZone
 (
 cx
@@ -14719,13 +14724,9 @@ get
 (
 0
 )
-)
-)
-;
-if
-(
-!
+&
 timeZone
+)
 )
 {
 return
