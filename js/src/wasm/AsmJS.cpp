@@ -43824,7 +43824,11 @@ length
 1
 )
 ;
-RootedArrayBufferObject
+Rooted
+<
+ArrayBufferObject
+*
+>
 buffer
 (
 cx

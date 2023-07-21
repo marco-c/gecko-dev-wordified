@@ -6699,7 +6699,11 @@ return
 false
 ;
 }
-RootedArrayBufferObject
+Rooted
+<
+ArrayBufferObject
+*
+>
 buffer
 (
 cx

@@ -47430,10 +47430,10 @@ bytes
 (
 )
 ;
-RootedArrayBufferObject
+auto
+*
 buffer
-(
-cx
+=
 ArrayBufferObject
 :
 :
@@ -47444,7 +47444,6 @@ bytes
 .
 length
 (
-)
 )
 )
 ;
