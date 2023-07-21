@@ -127,11 +127,6 @@ utility
 >
 #
 include
-<
-type_traits
->
-#
-include
 "
 mozilla
 /
@@ -554,14 +549,6 @@ Release
 void
 )
 override
-;
-using
-HasThreadSafeRefCnt
-=
-std
-:
-:
-true_type
 ;
 /
 /

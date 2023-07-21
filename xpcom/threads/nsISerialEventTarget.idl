@@ -258,7 +258,6 @@ it
 [
 builtinclass
 scriptable
-rust_sync
 uuid
 (
 9f982380

@@ -154,7 +154,6 @@ thread
 [
 builtinclass
 scriptable
-rust_sync
 uuid
 (
 a3a72e5f

@@ -292,7 +292,6 @@ threads
 [
 builtinclass
 scriptable
-rust_sync
 uuid
 (
 5801d193
