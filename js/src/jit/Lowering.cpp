@@ -40075,8 +40075,6 @@ temp
 register
 for
 TypedArray
-or
-TypedObject
 stubs
 .
 LDefinition

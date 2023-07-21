@@ -43,7 +43,7 @@ fit
 in
 an
 inline
-TypedObject
+WasmGcObject
 and
 the
 write

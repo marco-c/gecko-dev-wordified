@@ -530,7 +530,8 @@ to
 fit
 in
 an
-InlineTypedObject
+inline
+WasmGcObject
 .
 (
 type

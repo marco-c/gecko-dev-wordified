@@ -1464,7 +1464,7 @@ JSObject
 *
 representing
 some
-TypedObject
+WasmGcObject
 /
 /
 instance

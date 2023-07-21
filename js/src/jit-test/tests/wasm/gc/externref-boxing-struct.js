@@ -101,7 +101,7 @@ file
 /
 /
 -
-TypedObject
+WasmGcObject
 fields
 when
 we
