@@ -174,11 +174,6 @@ EnumVariant
 cpp
 "
 "
-HyperTextAccessibleWrap
-.
-cpp
-"
-"
 IUnknownImpl
 .
 cpp
