@@ -2664,6 +2664,15 @@ else
 if
 (
 !
+StaticPrefs
+:
+:
+dom_webnotifications_allowinsecure
+(
+)
+&
+&
+!
 mWindow
 -
 >
