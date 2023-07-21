@@ -175,7 +175,7 @@ a11y
 :
 PlatformEvent
 (
-RemoteAccessible
+Accessible
 *
 uint32_t
 )
@@ -187,7 +187,7 @@ a11y
 :
 PlatformStateChangeEvent
 (
-RemoteAccessible
+Accessible
 *
 uint64_t
 bool
@@ -200,7 +200,7 @@ a11y
 :
 PlatformFocusEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 const
@@ -216,7 +216,7 @@ a11y
 :
 PlatformCaretMoveEvent
 (
-RemoteAccessible
+Accessible
 *
 aTarget
 int32_t
@@ -238,7 +238,7 @@ a11y
 :
 PlatformTextChangeEvent
 (
-RemoteAccessible
+Accessible
 *
 const
 nsAString
@@ -256,9 +256,9 @@ a11y
 :
 PlatformShowHideEvent
 (
-RemoteAccessible
+Accessible
 *
-RemoteAccessible
+Accessible
 *
 bool
 bool
@@ -271,9 +271,9 @@ a11y
 :
 PlatformSelectionEvent
 (
-RemoteAccessible
+Accessible
 *
-RemoteAccessible
+Accessible
 *
 uint32_t
 )
