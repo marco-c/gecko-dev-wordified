@@ -6792,7 +6792,7 @@ code
 js
 :
 :
-MainThreadOrParseOrIonCompileData
+MainThreadOrIonCompileData
 <
 js
 :
