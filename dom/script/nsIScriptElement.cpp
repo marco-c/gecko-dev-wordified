@@ -448,14 +448,6 @@ IsEmpty
 {
 if
 (
-aOwnerDoc
--
->
-ModuleScriptsEnabled
-(
-)
-&
-&
 type
 .
 LowerCaseEqualsASCII

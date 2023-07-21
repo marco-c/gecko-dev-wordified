@@ -24944,12 +24944,6 @@ FeaturePolicy
 const
 ;
 bool
-ModuleScriptsEnabled
-(
-)
-const
-;
-bool
 ImportMapsEnabled
 (
 )
