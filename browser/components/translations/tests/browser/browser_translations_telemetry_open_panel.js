@@ -88,7 +88,7 @@ translationsPanel
 .
 open
 {
-expectedLength
+expectedEventCount
 :
 0
 }
@@ -191,7 +191,7 @@ translationsPanel
 .
 open
 {
-expectedLength
+expectedEventCount
 :
 1
 finalValuePredicates
@@ -290,7 +290,7 @@ translationsPanel
 .
 open
 {
-expectedLength
+expectedEventCount
 :
 2
 allValuePredicates

@@ -247,7 +247,7 @@ translations
 .
 translationRequest
 {
-expectedLength
+expectedEventCount
 :
 0
 }
@@ -452,7 +452,7 @@ translations
 .
 error
 {
-expectedLength
+expectedEventCount
 :
 1
 finalValuePredicates
@@ -495,7 +495,7 @@ translations
 .
 translationRequest
 {
-expectedLength
+expectedEventCount
 :
 1
 finalValuePredicates
@@ -763,7 +763,7 @@ translations
 .
 error
 {
-expectedLength
+expectedEventCount
 :
 1
 finalValuePredicates
@@ -806,7 +806,7 @@ translations
 .
 translationRequest
 {
-expectedLength
+expectedEventCount
 :
 1
 finalValuePredicates
