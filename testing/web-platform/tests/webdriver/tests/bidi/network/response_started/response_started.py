@@ -974,9 +974,22 @@ foo
 value
 "
 :
+{
+"
+type
+"
+:
+"
+string
+"
+"
+value
+"
+:
 "
 bar
 "
+}
 }
             
 {
@@ -991,9 +1004,22 @@ baz
 value
 "
 :
+{
+"
+type
+"
+:
+"
+string
+"
+"
+value
+"
+:
 "
 biz
 "
+}
 }
         
 )
