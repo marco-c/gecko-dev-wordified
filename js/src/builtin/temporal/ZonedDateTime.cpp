@@ -908,8 +908,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1592,8 +1591,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2970,8 +2968,7 @@ JSObject
 timeZone
 MutableHandle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -3105,8 +3102,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -3320,8 +3316,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -3962,8 +3957,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4051,8 +4045,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 const
@@ -4457,8 +4450,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 const
@@ -4733,8 +4725,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6384,8 +6375,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 TemporalUnit
@@ -6825,8 +6815,7 @@ JSObject
 timeZone
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 TemporalUnit
@@ -7523,8 +7512,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -7570,8 +7558,7 @@ cx
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -8360,8 +8347,7 @@ Reordered
 )
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -8756,8 +8742,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -8997,8 +8982,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -9701,8 +9685,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -9908,8 +9891,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -10115,8 +10097,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -10322,8 +10303,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -12213,8 +12193,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -12420,8 +12399,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -12627,8 +12605,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -12834,8 +12811,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -13514,8 +13490,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -13721,8 +13696,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -13928,8 +13902,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -14135,8 +14108,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -14342,8 +14314,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -15068,8 +15039,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -15804,8 +15774,7 @@ Reordered
 )
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -16117,8 +16086,7 @@ zonedDateTime
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -16165,8 +16133,7 @@ date
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 plainDateCalendar
 (
@@ -16474,8 +16441,7 @@ zonedDateTime
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -16706,8 +16672,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -17360,8 +17325,7 @@ Reordered
 )
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -18311,8 +18275,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -18345,8 +18308,7 @@ cx
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -19472,8 +19434,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -19916,8 +19877,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -20136,8 +20096,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -20353,8 +20312,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -20550,8 +20508,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -20855,8 +20812,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -21186,8 +21142,7 @@ Reordered
 )
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (

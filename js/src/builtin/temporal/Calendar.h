@@ -256,6 +256,12 @@ classSpec_
 ;
 }
 ;
+using
+CalendarValue
+=
+JSObject
+*
+;
 struct
 Duration
 ;
@@ -591,8 +597,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 std
@@ -646,8 +651,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -703,8 +707,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -777,8 +780,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -845,8 +847,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -913,8 +914,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -972,8 +972,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1043,8 +1042,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1123,8 +1121,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1196,8 +1193,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1265,8 +1261,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1322,8 +1317,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1372,8 +1366,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1422,8 +1415,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1472,8 +1464,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1522,8 +1513,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1572,8 +1562,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1622,8 +1611,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1672,8 +1660,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1722,8 +1709,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1772,8 +1758,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1822,8 +1807,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1872,8 +1856,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1922,8 +1905,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1979,8 +1961,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -2023,8 +2004,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -2076,8 +2056,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -2120,8 +2099,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -2173,8 +2151,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -2217,8 +2194,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -2263,8 +2239,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 one
 JS
@@ -2272,8 +2247,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 two
 bool
@@ -2303,8 +2277,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 one
 JS
@@ -2312,8 +2285,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 two
 )
@@ -2341,8 +2313,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 one
 JS
@@ -2350,8 +2321,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 two
 )
@@ -2381,8 +2351,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendarObject
 CalendarOption
@@ -2465,8 +2434,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )

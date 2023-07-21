@@ -1484,8 +1484,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1638,8 +1637,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1987,8 +1985,7 @@ vp
 Step
 1
 .
-JSObject
-*
+CalendarValue
 calendar
 =
 GetISO8601Calendar
@@ -2203,8 +2200,7 @@ vp
 Step
 1
 .
-JSObject
-*
+CalendarValue
 calendar
 =
 GetISO8601Calendar
@@ -2361,8 +2357,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2466,8 +2461,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2624,8 +2618,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (

@@ -3885,8 +3885,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4236,8 +4235,7 @@ JSContext
 cx
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -4491,8 +4489,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -9740,8 +9737,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -10727,8 +10723,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -13059,8 +13054,7 @@ date
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -14817,8 +14811,7 @@ PlainDateObject
 newRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -15545,8 +15538,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -17495,8 +17487,7 @@ false
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -18040,8 +18031,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -19396,8 +19386,7 @@ timeZone
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -22433,8 +22422,7 @@ dateTime
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -22568,8 +22556,7 @@ dateTime
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -27890,8 +27877,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -28176,8 +28162,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -28593,8 +28578,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -28953,8 +28937,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -29065,8 +29048,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -29202,8 +29184,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 ComputeRemainder
@@ -31186,8 +31167,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -31689,8 +31669,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -32040,8 +32019,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -32290,8 +32268,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 ComputeRemainder
@@ -34149,8 +34126,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -34650,8 +34626,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 ComputeRemainder
@@ -34980,8 +34955,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Handle
@@ -35230,8 +35204,7 @@ PlainDateObject
 dateRelativeTo
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 ComputeRemainder
@@ -37568,8 +37541,7 @@ c
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (

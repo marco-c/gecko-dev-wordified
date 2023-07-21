@@ -128,6 +128,17 @@ builtin
 /
 temporal
 /
+Calendar
+.
+h
+"
+#
+include
+"
+builtin
+/
+temporal
+/
 TemporalTypes
 .
 h
@@ -461,8 +472,7 @@ toInt32
 )
 ;
 }
-JSObject
-*
+CalendarValue
 calendar
 (
 )
@@ -812,8 +822,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -927,8 +936,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 Precision
@@ -997,8 +1005,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1047,8 +1054,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 JS
@@ -1115,8 +1121,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 TemporalUnit
@@ -1176,8 +1181,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 TemporalUnit

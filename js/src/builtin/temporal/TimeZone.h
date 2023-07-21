@@ -135,6 +135,17 @@ builtin
 /
 temporal
 /
+Calendar
+.
+h
+"
+#
+include
+"
+builtin
+/
+temporal
+/
 Wrapped
 .
 h
@@ -689,8 +700,7 @@ JS
 :
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )

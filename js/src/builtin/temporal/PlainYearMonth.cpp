@@ -777,8 +777,7 @@ double
 isoDay
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -1057,8 +1056,7 @@ PlainDate
 date
 Handle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -1374,8 +1372,7 @@ b
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1638,8 +1635,7 @@ calendarString
 }
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -1804,8 +1800,7 @@ PlainDate
 result
 MutableHandle
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 )
@@ -1998,8 +1993,7 @@ Reordered
 )
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -2616,8 +2610,7 @@ otherYearMonth
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -2663,8 +2656,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -3648,8 +3640,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4239,8 +4230,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4510,8 +4500,7 @@ yearMonth
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -4977,8 +4966,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5126,8 +5114,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5275,8 +5262,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5424,8 +5410,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5573,8 +5558,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5722,8 +5706,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -5871,8 +5854,7 @@ PlainYearMonthObject
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6155,8 +6137,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6941,8 +6922,7 @@ yearMonth
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
@@ -6965,8 +6945,7 @@ other
 ;
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 otherCalendar
 (
@@ -7847,8 +7826,7 @@ Step
 .
 Rooted
 <
-JSObject
-*
+CalendarValue
 >
 calendar
 (
