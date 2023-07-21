@@ -5561,6 +5561,10 @@ mInInvalidSubtree
 "
 )
 ;
+mCurrentContainerASR
+=
+nullptr
+;
 mActiveScrolledRoots
 .
 Clear
