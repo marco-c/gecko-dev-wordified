@@ -905,6 +905,9 @@ bool
 casting_fully_typed_format_supported
 :
 bool
+suballocation_supported
+:
+bool
 }
 #
 [
