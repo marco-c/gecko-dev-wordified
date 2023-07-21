@@ -313,7 +313,7 @@ device
 d3d12
 :
 :
-WeakPtr
+ComPtr
 :
 :
 <
@@ -679,12 +679,6 @@ device2
 =
 >
 {
-device
-.
-destroy
-(
-)
-;
 return
 Some
 (
@@ -767,12 +761,6 @@ device1
 =
 >
 {
-device
-.
-destroy
-(
-)
-;
 return
 Some
 (

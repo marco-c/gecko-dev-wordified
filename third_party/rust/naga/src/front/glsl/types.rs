@@ -28,7 +28,6 @@ proc
 :
 ResolveContext
 Bytes
-Constant
 Expression
 Handle
 ImageClass
@@ -2207,7 +2206,7 @@ Result
 <
 Handle
 <
-Constant
+Expression
 >
 >
 {
@@ -2241,6 +2240,15 @@ self
 module
 .
 constants
+const_expressions
+:
+&
+mut
+self
+.
+module
+.
+const_expressions
 }
 ;
 solver

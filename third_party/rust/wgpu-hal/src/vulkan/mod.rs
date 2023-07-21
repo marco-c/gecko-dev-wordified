@@ -1597,6 +1597,10 @@ spv
 :
 :
 Options
+<
+'
+static
+>
 #
 [
 cfg

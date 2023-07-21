@@ -810,7 +810,7 @@ lower
 :
 :
 {
-ExpressionContext
+RuntimeExpressionContext
 StatementContext
 }
 ;
@@ -1064,7 +1064,7 @@ and
 /
 /
 [
-ExpressionContext
+RuntimeExpressionContext
 :
 :
 local_table
@@ -1140,13 +1140,13 @@ local_table
 /
 /
 [
-ExpressionContext
+RuntimeExpressionContext
 :
 :
 local_table
 ]
 :
-ExpressionContext
+RuntimeExpressionContext
 :
 :
 local_table

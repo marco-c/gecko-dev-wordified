@@ -148,7 +148,7 @@ use
 d3d12
 :
 :
-WeakPtr
+ComPtr
 ;
 use
 parking_lot
@@ -444,7 +444,7 @@ resource
 :
 &
 mut
-WeakPtr
+ComPtr
 <
 ID3D12Resource
 >
@@ -824,7 +824,7 @@ resource
 :
 &
 mut
-WeakPtr
+ComPtr
 <
 ID3D12Resource
 >
@@ -1508,7 +1508,7 @@ use
 d3d12
 :
 :
-WeakPtr
+ComPtr
 ;
 use
 parking_lot
@@ -1719,7 +1719,7 @@ resource
 :
 &
 mut
-WeakPtr
+ComPtr
 <
 ID3D12Resource
 >
@@ -1968,7 +1968,7 @@ resource
 :
 &
 mut
-WeakPtr
+ComPtr
 <
 ID3D12Resource
 >

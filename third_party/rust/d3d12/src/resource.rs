@@ -11,7 +11,7 @@ crate
 com
 :
 :
-WeakPtr
+ComPtr
 D3DResult
 Rect
 }
@@ -72,7 +72,7 @@ pub
 type
 Resource
 =
-WeakPtr
+ComPtr
 <
 d3d12
 :

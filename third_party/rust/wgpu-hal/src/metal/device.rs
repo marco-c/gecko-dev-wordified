@@ -759,7 +759,10 @@ bounds_check_policy
 buffer
 :
 bounds_check_policy
-image
+image_load
+:
+bounds_check_policy
+image_store
 :
 bounds_check_policy
 /
@@ -804,7 +807,7 @@ msl
 :
 PipelineOptions
 {
-allow_point_size
+allow_and_force_point_size
 :
 match
 primitive_class

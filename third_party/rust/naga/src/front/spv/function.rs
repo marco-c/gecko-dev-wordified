@@ -861,6 +861,13 @@ mut
 module
 .
 constants
+const_expressions
+:
+&
+mut
+module
+.
+const_expressions
 type_arena
 :
 &
@@ -3820,6 +3827,11 @@ constants
 self
 .
 const_arena
+const_expressions
+:
+self
+.
+const_expressions
 }
 }
 /
