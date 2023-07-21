@@ -2539,18 +2539,6 @@ default
 =
 =
 0
-and
-nargs
-not
-in
-(
-"
-?
-"
-"
-*
-"
-)
 :
                 
 raise
