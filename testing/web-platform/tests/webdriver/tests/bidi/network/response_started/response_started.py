@@ -470,6 +470,8 @@ wait_for_event
 RESPONSE_STARTED_EVENT
 )
     
+result
+=
 await
 bidi_session
 .
@@ -597,6 +599,15 @@ expected_request
 expected_response
 =
 expected_response
+        
+navigation
+=
+result
+[
+"
+navigation
+"
+]
         
 redirect_count
 =

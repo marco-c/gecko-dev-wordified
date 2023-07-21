@@ -574,6 +574,10 @@ context
 =
 None
     
+navigation
+=
+None
+    
 redirect_count
 =
 None
@@ -644,6 +648,24 @@ context
 context
     
 if
+navigation
+is
+not
+None
+:
+        
+assert
+event
+[
+"
+navigation
+"
+]
+=
+=
+navigation
+    
+if
 redirect_count
 is
 not
@@ -690,6 +712,10 @@ assert_before_request_sent_event
 event
     
 context
+=
+None
+    
+navigation
 =
 None
     
@@ -749,6 +775,10 @@ event
 context
 =
 context
+        
+navigation
+=
+navigation
         
 redirect_count
 =
@@ -944,6 +974,10 @@ context
 =
 None
     
+navigation
+=
+None
+    
 redirect_count
 =
 None
@@ -1004,6 +1038,10 @@ event
 context
 =
 context
+        
+navigation
+=
+navigation
         
 redirect_count
 =
