@@ -1685,6 +1685,11 @@ lock
 mutex_
 )
 ;
+if
+(
+rtp_packet_pacer_
+)
+{
 rtp_packet_pacer_
 -
 >
@@ -1699,6 +1704,7 @@ packets
 )
 )
 ;
+}
 }
 void
 RemovePacketsForSsrc
@@ -1715,6 +1721,11 @@ lock
 mutex_
 )
 ;
+if
+(
+rtp_packet_pacer_
+)
+{
 rtp_packet_pacer_
 -
 >
@@ -1723,6 +1734,7 @@ RemovePacketsForSsrc
 ssrc
 )
 ;
+}
 }
 private
 :
