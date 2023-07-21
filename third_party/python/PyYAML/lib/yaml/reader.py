@@ -170,6 +170,7 @@ ReaderError
 '
 ]
 from
+.
 error
 import
 YAMLError
@@ -177,14 +178,6 @@ Mark
 import
 codecs
 re
-sys
-has_ucs4
-=
-sys
-.
-maxunicode
->
-0xffff
 class
 ReaderError
 (
@@ -247,7 +240,7 @@ isinstance
 self
 .
 character
-str
+bytes
 )
 :
             
@@ -382,7 +375,9 @@ and
 converts
 it
 to
+a
 unicode
+string
     
 #
 -
@@ -413,13 +408,13 @@ accepts
 #
 -
 a
-str
+bytes
 object
     
 #
 -
 a
-unicode
+str
 object
     
 #
@@ -497,7 +492,6 @@ self
 .
 buffer
 =
-u
 '
 '
         
@@ -547,7 +541,7 @@ if
 isinstance
 (
 stream
-unicode
+str
 )
 :
             
@@ -575,7 +569,6 @@ buffer
 =
 stream
 +
-u
 '
 \
 0
@@ -585,7 +578,7 @@ elif
 isinstance
 (
 stream
-str
+bytes
 )
 :
             
@@ -595,6 +588,7 @@ name
 =
 "
 <
+byte
 string
 >
 "
@@ -647,8 +641,7 @@ self
 .
 raw_buffer
 =
-'
-'
+None
             
 self
 .
@@ -824,7 +817,6 @@ index
 if
 ch
 in
-u
 '
 \
 n
@@ -842,7 +834,6 @@ or
 ch
 =
 =
-u
 '
 \
 r
@@ -858,7 +849,6 @@ pointer
 ]
 !
 =
-u
 '
 \
 n
@@ -883,7 +873,6 @@ elif
 ch
 !
 =
-u
 '
 \
 uFEFF
@@ -977,6 +966,13 @@ self
 .
 eof
 and
+(
+self
+.
+raw_buffer
+is
+None
+or
 len
 (
 self
@@ -985,6 +981,7 @@ raw_buffer
 )
 <
 2
+)
 :
             
 self
@@ -994,13 +991,12 @@ update_raw
 )
         
 if
-not
 isinstance
 (
 self
 .
 raw_buffer
-unicode
+bytes
 )
 :
             
@@ -1098,13 +1094,12 @@ update
 1
 )
     
-if
-has_ucs4
-:
-        
 NON_PRINTABLE
 =
-u
+re
+.
+compile
+(
 '
 [
 ^
@@ -1138,171 +1133,6 @@ U00010000
 U0010ffff
 ]
 '
-    
-elif
-sys
-.
-platform
-.
-startswith
-(
-'
-java
-'
-)
-:
-        
-#
-Jython
-doesn
-'
-t
-support
-lone
-surrogates
-https
-:
-/
-/
-bugs
-.
-jython
-.
-org
-/
-issue2048
-        
-NON_PRINTABLE
-=
-u
-'
-[
-^
-\
-x09
-\
-x0A
-\
-x0D
-\
-x20
--
-\
-x7E
-\
-x85
-\
-xA0
--
-\
-uD7FF
-\
-uE000
--
-\
-uFFFD
-]
-'
-    
-else
-:
-        
-#
-Need
-to
-use
-eval
-here
-due
-to
-the
-above
-Jython
-issue
-        
-NON_PRINTABLE
-=
-eval
-(
-r
-"
-u
-'
-[
-^
-\
-x09
-\
-x0A
-\
-x0D
-\
-x20
--
-\
-x7E
-\
-x85
-\
-xA0
--
-\
-uFFFD
-]
-|
-(
-?
-:
-^
-|
-[
-^
-\
-uD800
--
-\
-uDBFF
-]
-)
-[
-\
-uDC00
--
-\
-uDFFF
-]
-|
-[
-\
-uD800
--
-\
-uDBFF
-]
-(
-?
-:
-[
-^
-\
-uDC00
--
-\
-uDFFF
-]
-|
-)
-'
-"
-)
-    
-NON_PRINTABLE
-=
-re
-.
-compile
-(
-NON_PRINTABLE
 )
     
 def
@@ -1480,14 +1310,15 @@ eof
                 
 except
 UnicodeDecodeError
+as
 exc
 :
                     
 character
 =
-exc
+self
 .
-object
+raw_buffer
 [
 exc
 .
@@ -1599,7 +1430,6 @@ self
 buffer
 +
 =
-u
 '
 \
 0
@@ -1619,7 +1449,7 @@ update_raw
 self
 size
 =
-1024
+4096
 )
 :
         
@@ -1635,7 +1465,20 @@ size
 )
         
 if
+self
+.
+raw_buffer
+is
+None
+:
+            
+self
+.
+raw_buffer
+=
 data
+        
+else
 :
             
 self
@@ -1644,7 +1487,7 @@ raw_buffer
 +
 =
 data
-            
+        
 self
 .
 stream_pointer
@@ -1655,7 +1498,9 @@ len
 data
 )
         
-else
+if
+not
+data
 :
             
 self

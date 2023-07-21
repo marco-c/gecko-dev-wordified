@@ -9,10 +9,12 @@ Resolver
 '
 ]
 from
+.
 error
 import
 *
 from
+.
 nodes
 import
 *
@@ -28,14 +30,10 @@ YAMLError
 pass
 class
 BaseResolver
-(
-object
-)
 :
     
 DEFAULT_SCALAR_TAG
 =
-u
 '
 tag
 :
@@ -49,7 +47,6 @@ str
     
 DEFAULT_SEQUENCE_TAG
 =
-u
 '
 tag
 :
@@ -63,7 +60,6 @@ seq
     
 DEFAULT_MAPPING_TAG
 =
-u
 '
 tag
 :
@@ -105,6 +101,8 @@ resolver_prefix_paths
 =
 [
 ]
+    
+classmethod
     
 def
 add_implicit_resolver
@@ -198,12 +196,7 @@ regexp
 )
 )
     
-add_implicit_resolver
-=
 classmethod
-(
-add_implicit_resolver
-)
     
 def
 add_path_resolver
@@ -534,7 +527,7 @@ not
 isinstance
 (
 node_check
-basestring
+str
 )
 \
                     
@@ -566,7 +559,7 @@ isinstance
 (
 index_check
 (
-basestring
+str
 int
 )
 )
@@ -679,13 +672,6 @@ kind
 ]
 =
 tag
-    
-add_path_resolver
-=
-classmethod
-(
-add_path_resolver
-)
     
 def
 descend_resolver
@@ -910,7 +896,7 @@ if
 isinstance
 (
 node_check
-basestring
+str
 )
 :
             
@@ -980,7 +966,7 @@ if
 isinstance
 (
 index_check
-basestring
+str
 )
 :
             
@@ -1057,7 +1043,6 @@ if
 value
 =
 =
-u
 '
 '
 :
@@ -1070,7 +1055,6 @@ yaml_implicit_resolvers
 .
 get
 (
-u
 '
 '
 [
@@ -1222,7 +1206,6 @@ Resolver
 add_implicit_resolver
 (
         
-u
 '
 tag
 :
@@ -1238,7 +1221,7 @@ re
 .
 compile
 (
-ur
+r
 '
 '
 '
@@ -1294,7 +1277,6 @@ X
         
 list
 (
-u
 '
 yYnNtTfFoO
 '
@@ -1305,7 +1287,6 @@ Resolver
 add_implicit_resolver
 (
         
-u
 '
 tag
 :
@@ -1321,7 +1302,7 @@ re
 .
 compile
 (
-ur
+r
 '
 '
 '
@@ -1382,9 +1363,14 @@ eE
 [
 0
 -
+9
+]
+[
+0
+-
 9_
 ]
-+
+*
 (
 ?
 :
@@ -1488,7 +1474,6 @@ X
         
 list
 (
-u
 '
 -
 +
@@ -1502,7 +1487,6 @@ Resolver
 add_implicit_resolver
 (
         
-u
 '
 tag
 :
@@ -1518,7 +1502,7 @@ re
 .
 compile
 (
-ur
+r
 '
 '
 '
@@ -1640,7 +1624,6 @@ X
         
 list
 (
-u
 '
 -
 +
@@ -1653,7 +1636,6 @@ Resolver
 add_implicit_resolver
 (
         
-u
 '
 tag
 :
@@ -1669,7 +1651,7 @@ re
 .
 compile
 (
-ur
+r
 '
 ^
 (
@@ -1682,7 +1664,6 @@ ur
 )
         
 [
-u
 '
 <
 '
@@ -1693,7 +1674,6 @@ Resolver
 add_implicit_resolver
 (
         
-u
 '
 tag
 :
@@ -1709,7 +1689,7 @@ re
 .
 compile
 (
-ur
+r
 '
 '
 '
@@ -1737,19 +1717,15 @@ X
 )
         
 [
-u
 '
 ~
 '
-u
 '
 n
 '
-u
 '
 N
 '
-u
 '
 '
 ]
@@ -1759,7 +1735,6 @@ Resolver
 add_implicit_resolver
 (
         
-u
 '
 tag
 :
@@ -1775,7 +1750,7 @@ re
 .
 compile
 (
-ur
+r
 '
 '
 '
@@ -1991,7 +1966,6 @@ X
         
 list
 (
-u
 '
 0123456789
 '
@@ -2002,7 +1976,6 @@ Resolver
 add_implicit_resolver
 (
         
-u
 '
 tag
 :
@@ -2018,7 +1991,7 @@ re
 .
 compile
 (
-ur
+r
 '
 ^
 (
@@ -2030,7 +2003,6 @@ ur
 )
         
 [
-u
 '
 =
 '
@@ -2072,7 +2044,6 @@ Resolver
 add_implicit_resolver
 (
         
-u
 '
 tag
 :
@@ -2088,7 +2059,7 @@ re
 .
 compile
 (
-ur
+r
 '
 ^
 (
@@ -2106,7 +2077,6 @@ ur
         
 list
 (
-u
 '
 !
 &

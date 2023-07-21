@@ -127,10 +127,12 @@ ScannerError
 '
 ]
 from
+.
 error
 import
 MarkedYAMLError
 from
+.
 tokens
 import
 *
@@ -144,9 +146,6 @@ MarkedYAMLError
 pass
 class
 SimpleKey
-(
-object
-)
 :
     
 #
@@ -207,9 +206,6 @@ mark
 mark
 class
 Scanner
-(
-object
-)
 :
     
 def
@@ -1140,7 +1136,6 @@ if
 ch
 =
 =
-u
 '
 \
 0
@@ -1165,7 +1160,6 @@ if
 ch
 =
 =
-u
 '
 %
 '
@@ -1196,7 +1190,6 @@ if
 ch
 =
 =
-u
 '
 -
 '
@@ -1227,7 +1220,6 @@ if
 ch
 =
 =
-u
 '
 .
 '
@@ -1262,7 +1254,6 @@ if
 ch
 =
 =
-u
 '
 \
 uFEFF
@@ -1310,7 +1301,6 @@ if
 ch
 =
 =
-u
 '
 [
 '
@@ -1337,7 +1327,6 @@ if
 ch
 =
 =
-u
 '
 {
 '
@@ -1364,7 +1353,6 @@ if
 ch
 =
 =
-u
 '
 ]
 '
@@ -1391,7 +1379,6 @@ if
 ch
 =
 =
-u
 '
 }
 '
@@ -1417,7 +1404,6 @@ if
 ch
 =
 =
-u
 '
 '
 :
@@ -1442,7 +1428,6 @@ if
 ch
 =
 =
-u
 '
 -
 '
@@ -1473,7 +1458,6 @@ if
 ch
 =
 =
-u
 '
 ?
 '
@@ -1504,7 +1488,6 @@ if
 ch
 =
 =
-u
 '
 :
 '
@@ -1534,7 +1517,6 @@ if
 ch
 =
 =
-u
 '
 *
 '
@@ -1558,7 +1540,6 @@ if
 ch
 =
 =
-u
 '
 &
 '
@@ -1582,7 +1563,6 @@ if
 ch
 =
 =
-u
 '
 !
 '
@@ -1607,7 +1587,6 @@ if
 ch
 =
 =
-u
 '
 |
 '
@@ -1637,7 +1616,6 @@ if
 ch
 =
 =
-u
 '
 >
 '
@@ -1668,7 +1646,6 @@ if
 ch
 =
 =
-u
 '
 \
 '
@@ -1695,7 +1672,6 @@ if
 ch
 =
 =
-u
 '
 \
 "
@@ -1777,18 +1753,9 @@ start
 any
 token
 "
-                
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
+                
 self
 .
 get_mark
@@ -2002,12 +1969,11 @@ though
 for
 level
 in
+list
+(
 self
 .
 possible_simple_keys
-.
-keys
-(
 )
 :
             
@@ -4694,7 +4660,6 @@ prefix
 )
 =
 =
-u
 '
 -
 -
@@ -4710,7 +4675,6 @@ peek
 3
 )
 in
-u
 '
 \
 0
@@ -4778,7 +4742,6 @@ prefix
 )
 =
 =
-u
 '
 .
 .
@@ -4794,7 +4757,6 @@ peek
 3
 )
 in
-u
 '
 \
 0
@@ -4849,7 +4811,6 @@ peek
 1
 )
 in
-u
 '
 \
 0
@@ -4925,7 +4886,6 @@ peek
 1
 )
 in
-u
 '
 \
 0
@@ -5001,7 +4961,6 @@ peek
 1
 )
 in
-u
 '
 \
 0
@@ -5187,7 +5146,6 @@ return
 ch
 not
 in
-u
 '
 \
 0
@@ -5234,7 +5192,6 @@ peek
 )
 not
 in
-u
 '
 \
 0
@@ -5257,7 +5214,6 @@ and
 ch
 =
 =
-u
 '
 -
 '
@@ -5270,7 +5226,6 @@ flow_level
 and
 ch
 in
-u
 '
 ?
 :
@@ -5501,7 +5456,6 @@ peek
 )
 =
 =
-u
 '
 \
 uFEFF
@@ -5531,7 +5485,6 @@ peek
 )
 =
 =
-u
 '
 '
 :
@@ -5550,7 +5503,6 @@ peek
 )
 =
 =
-u
 '
 #
 '
@@ -5564,7 +5516,6 @@ peek
 )
 not
 in
-u
 '
 \
 0
@@ -5661,7 +5612,6 @@ if
 name
 =
 =
-u
 '
 YAML
 '
@@ -5688,7 +5638,6 @@ elif
 name
 =
 =
-u
 '
 TAG
 '
@@ -5730,7 +5679,6 @@ peek
 )
 not
 in
-u
 '
 \
 0
@@ -5799,7 +5747,6 @@ length
 )
         
 while
-u
 '
 0
 '
@@ -5808,12 +5755,10 @@ u
 ch
 <
 =
-u
 '
 9
 '
 or
-u
 '
 A
 '
@@ -5822,12 +5767,10 @@ A
 ch
 <
 =
-u
 '
 Z
 '
 or
-u
 '
 a
 '
@@ -5836,7 +5779,6 @@ a
 ch
 <
 =
-u
 '
 z
 '
@@ -5845,7 +5787,6 @@ z
 or
 ch
 in
-u
 '
 -
 _
@@ -5896,15 +5837,6 @@ r
                     
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 self
 .
 get_mark
@@ -5940,7 +5872,6 @@ if
 ch
 not
 in
-u
 '
 \
 0
@@ -5982,15 +5913,6 @@ r
                     
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 self
 .
 get_mark
@@ -6025,7 +5947,6 @@ peek
 )
 =
 =
-u
 '
 '
 :
@@ -6082,21 +6003,11 @@ found
 %
 r
 "
-                    
 %
 self
 .
 peek
 (
-)
-.
-encode
-(
-'
-utf
--
-8
-'
 )
                     
 self
@@ -6129,7 +6040,6 @@ peek
 )
 not
 in
-u
 '
 \
 0
@@ -6169,21 +6079,11 @@ found
 %
 r
 "
-                    
 %
 self
 .
 peek
 (
-)
-.
-encode
-(
-'
-utf
--
-8
-'
 )
                     
 self
@@ -6226,7 +6126,6 @@ peek
 if
 not
 (
-u
 '
 0
 '
@@ -6235,7 +6134,6 @@ u
 ch
 <
 =
-u
 '
 9
 '
@@ -6264,16 +6162,6 @@ r
 "
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-                    
 self
 .
 get_mark
@@ -6286,7 +6174,6 @@ length
 0
         
 while
-u
 '
 0
 '
@@ -6300,7 +6187,6 @@ length
 )
 <
 =
-u
 '
 9
 '
@@ -6357,7 +6243,6 @@ peek
 )
 =
 =
-u
 '
 '
 :
@@ -6385,7 +6270,6 @@ peek
 )
 =
 =
-u
 '
 '
 :
@@ -6451,7 +6335,6 @@ if
 ch
 !
 =
-u
 '
 '
 :
@@ -6478,16 +6361,6 @@ r
 "
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-                    
 self
 .
 get_mark
@@ -6538,7 +6411,6 @@ if
 ch
 not
 in
-u
 '
 \
 0
@@ -6577,16 +6449,6 @@ r
 "
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-                    
 self
 .
 get_mark
@@ -6621,7 +6483,6 @@ peek
 )
 =
 =
-u
 '
 '
 :
@@ -6640,7 +6501,6 @@ peek
 )
 =
 =
-u
 '
 #
 '
@@ -6654,7 +6514,6 @@ peek
 )
 not
 in
-u
 '
 \
 0
@@ -6689,7 +6548,6 @@ if
 ch
 not
 in
-u
 '
 \
 0
@@ -6733,15 +6591,6 @@ r
                         
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 self
 .
 get_mark
@@ -6855,7 +6704,6 @@ if
 indicator
 =
 =
-u
 '
 *
 '
@@ -6896,7 +6744,6 @@ length
 )
         
 while
-u
 '
 0
 '
@@ -6905,12 +6752,10 @@ u
 ch
 <
 =
-u
 '
 9
 '
 or
-u
 '
 A
 '
@@ -6919,12 +6764,10 @@ A
 ch
 <
 =
-u
 '
 Z
 '
 or
-u
 '
 a
 '
@@ -6933,7 +6776,6 @@ a
 ch
 <
 =
-u
 '
 z
 '
@@ -6942,7 +6784,6 @@ z
 or
 ch
 in
-u
 '
 -
 _
@@ -6996,15 +6837,6 @@ r
                     
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 self
 .
 get_mark
@@ -7040,7 +6872,6 @@ if
 ch
 not
 in
-u
 '
 \
 0
@@ -7092,15 +6923,6 @@ r
                     
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 self
 .
 get_mark
@@ -7160,7 +6982,6 @@ if
 ch
 =
 =
-u
 '
 <
 '
@@ -7197,7 +7018,6 @@ peek
 )
 !
 =
-u
 '
 >
 '
@@ -7230,15 +7050,6 @@ self
 peek
 (
 )
-.
-encode
-(
-'
-utf
--
-8
-'
-)
                         
 self
 .
@@ -7256,7 +7067,6 @@ forward
 elif
 ch
 in
-u
 '
 \
 0
@@ -7281,7 +7091,6 @@ None
             
 suffix
 =
-u
 '
 !
 '
@@ -7307,7 +7116,6 @@ while
 ch
 not
 in
-u
 '
 \
 0
@@ -7328,7 +7136,6 @@ if
 ch
 =
 =
-u
 '
 !
 '
@@ -7356,7 +7163,6 @@ length
             
 handle
 =
-u
 '
 !
 '
@@ -7382,7 +7188,6 @@ else
                 
 handle
 =
-u
 '
 !
 '
@@ -7417,7 +7222,6 @@ if
 ch
 not
 in
-u
 '
 \
 0
@@ -7456,16 +7260,6 @@ r
 "
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-                    
 self
 .
 get_mark
@@ -7655,7 +7449,6 @@ indent
         
 line_break
 =
-u
 '
 '
         
@@ -7685,7 +7478,6 @@ peek
 )
 !
 =
-u
 '
 \
 0
@@ -7708,7 +7500,6 @@ peek
 )
 not
 in
-u
 '
 \
 t
@@ -7727,7 +7518,6 @@ length
 )
 not
 in
-u
 '
 \
 0
@@ -7801,7 +7591,6 @@ peek
 )
 !
 =
-u
 '
 \
 0
@@ -7835,7 +7624,6 @@ and
 line_break
 =
 =
-u
 '
 \
 n
@@ -7852,7 +7640,6 @@ peek
 )
 not
 in
-u
 '
 \
 t
@@ -7868,7 +7655,6 @@ chunks
 .
 append
 (
-u
 '
 '
 )
@@ -7911,7 +7697,6 @@ and
 line_break
 =
 =
-u
 '
 \
 n
@@ -7944,7 +7729,6 @@ chunks
 .
 append
 (
-u
 '
 '
 )
@@ -8020,7 +7804,6 @@ done
 return
 ScalarToken
 (
-u
 '
 '
 .
@@ -8070,7 +7853,6 @@ peek
 if
 ch
 in
-u
 '
 +
 -
@@ -8114,7 +7896,6 @@ peek
 if
 ch
 in
-u
 '
 0123456789
 '
@@ -8177,7 +7958,6 @@ forward
 elif
 ch
 in
-u
 '
 0123456789
 '
@@ -8248,7 +8028,6 @@ peek
 if
 ch
 in
-u
 '
 +
 -
@@ -8293,7 +8072,6 @@ if
 ch
 not
 in
-u
 '
 \
 0
@@ -8333,18 +8111,9 @@ found
 %
 r
 "
-                        
+                    
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 self
 .
 get_mark
@@ -8380,7 +8149,6 @@ peek
 )
 =
 =
-u
 '
 '
 :
@@ -8399,7 +8167,6 @@ peek
 )
 =
 =
-u
 '
 #
 '
@@ -8413,7 +8180,6 @@ peek
 )
 not
 in
-u
 '
 \
 0
@@ -8448,7 +8214,6 @@ if
 ch
 not
 in
-u
 '
 \
 0
@@ -8490,18 +8255,9 @@ found
 %
 r
 "
-                        
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
+                    
 self
 .
 get_mark
@@ -8554,7 +8310,6 @@ peek
 (
 )
 in
-u
 '
 \
 r
@@ -8577,7 +8332,6 @@ peek
 )
 !
 =
-u
 '
 '
 :
@@ -8672,7 +8426,6 @@ peek
 )
 =
 =
-u
 '
 '
 :
@@ -8690,7 +8443,6 @@ peek
 (
 )
 in
-u
 '
 \
 r
@@ -8738,7 +8490,6 @@ peek
 )
 =
 =
-u
 '
 '
 :
@@ -8950,7 +8701,6 @@ get_mark
 return
 ScalarToken
 (
-u
 '
 '
 .
@@ -8969,200 +8719,164 @@ ESCAPE_REPLACEMENTS
 =
 {
         
-u
 '
 0
 '
 :
-u
 '
 \
 0
 '
         
-u
 '
 a
 '
 :
-u
 '
 \
 x07
 '
         
-u
 '
 b
 '
 :
-u
 '
 \
 x08
 '
         
-u
 '
 t
 '
 :
-u
 '
 \
 x09
 '
         
-u
 '
 \
 t
 '
 :
-u
 '
 \
 x09
 '
         
-u
 '
 n
 '
 :
-u
 '
 \
 x0A
 '
         
-u
 '
 v
 '
 :
-u
 '
 \
 x0B
 '
         
-u
 '
 f
 '
 :
-u
 '
 \
 x0C
 '
         
-u
 '
 r
 '
 :
-u
 '
 \
 x0D
 '
         
-u
 '
 e
 '
 :
-u
 '
 \
 x1B
 '
         
-u
 '
 '
 :
-u
 '
 \
 x20
 '
         
-u
 '
 \
 "
 '
 :
-u
 '
 \
 "
 '
         
-u
 '
 \
 \
 '
 :
-u
 '
 \
 \
 '
         
-u
 '
 /
 '
 :
-u
 '
 /
 '
         
-u
 '
 N
 '
 :
-u
 '
 \
 x85
 '
         
-u
 '
 _
 '
 :
-u
 '
 \
 xA0
 '
         
-u
 '
 L
 '
 :
-u
 '
 \
 u2028
 '
         
-u
 '
 P
 '
 :
-u
 '
 \
 u2029
@@ -9174,21 +8888,18 @@ ESCAPE_CODES
 =
 {
         
-u
 '
 x
 '
 :
 2
         
-u
 '
 u
 '
 :
 4
         
-u
 '
 U
 '
@@ -9236,7 +8947,6 @@ length
 )
 not
 in
-u
 '
 \
 '
@@ -9304,7 +9014,6 @@ and
 ch
 =
 =
-u
 '
 \
 '
@@ -9318,7 +9027,6 @@ peek
 )
 =
 =
-u
 '
 \
 '
@@ -9329,7 +9037,6 @@ chunks
 .
 append
 (
-u
 '
 \
 '
@@ -9350,7 +9057,6 @@ and
 ch
 =
 =
-u
 '
 \
 '
@@ -9363,7 +9069,6 @@ double
 and
 ch
 in
-u
 '
 \
 "
@@ -9392,7 +9097,6 @@ and
 ch
 =
 =
-u
 '
 \
 \
@@ -9480,7 +9184,6 @@ k
 )
 not
 in
-u
 '
 0123456789ABCDEFabcdef
 '
@@ -9507,7 +9210,7 @@ sequence
 of
 %
 d
-hexdecimal
+hexadecimal
 numbers
 but
 found
@@ -9523,15 +9226,6 @@ self
 peek
 (
 k
-)
-.
-encode
-(
-'
-utf
--
-8
-'
 )
 )
 self
@@ -9558,7 +9252,7 @@ chunks
 .
 append
 (
-unichr
+chr
 (
 code
 )
@@ -9574,7 +9268,6 @@ length
 elif
 ch
 in
-u
 '
 \
 r
@@ -9635,15 +9328,6 @@ r
 "
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 self
 .
 get_mark
@@ -9691,7 +9375,6 @@ peek
 length
 )
 in
-u
 '
 \
 t
@@ -9731,7 +9414,6 @@ if
 ch
 =
 =
-u
 '
 \
 0
@@ -9767,7 +9449,6 @@ get_mark
 elif
 ch
 in
-u
 '
 \
 r
@@ -9804,7 +9485,6 @@ if
 line_break
 !
 =
-u
 '
 \
 n
@@ -9827,7 +9507,6 @@ chunks
 .
 append
 (
-u
 '
 '
 )
@@ -9906,7 +9585,6 @@ if
 prefix
 =
 =
-u
 '
 -
 -
@@ -9916,7 +9594,6 @@ or
 prefix
 =
 =
-u
 '
 .
 .
@@ -9933,7 +9610,6 @@ peek
 3
 )
 in
-u
 '
 \
 0
@@ -9984,7 +9660,6 @@ peek
 (
 )
 in
-u
 '
 \
 t
@@ -10004,7 +9679,6 @@ peek
 (
 )
 in
-u
 '
 \
 r
@@ -10188,7 +9862,6 @@ peek
 )
 =
 =
-u
 '
 #
 '
@@ -10212,7 +9885,6 @@ length
 if
 ch
 in
-u
 '
 \
 0
@@ -10236,7 +9908,6 @@ or
 ch
 =
 =
-u
 '
 :
 '
@@ -10251,7 +9922,6 @@ length
 1
 )
 in
-u
 '
 \
 0
@@ -10298,7 +9968,6 @@ flow_level
 and
 ch
 in
-u
 '
 ?
 [
@@ -10386,7 +10055,6 @@ peek
 )
 =
 =
-u
 '
 #
 '
@@ -10412,7 +10080,6 @@ break
 return
 ScalarToken
 (
-u
 '
 '
 .
@@ -10487,7 +10154,6 @@ peek
 length
 )
 in
-u
 '
 '
 :
@@ -10524,7 +10190,6 @@ peek
 if
 ch
 in
-u
 '
 \
 r
@@ -10567,7 +10232,6 @@ if
 prefix
 =
 =
-u
 '
 -
 -
@@ -10577,7 +10241,6 @@ or
 prefix
 =
 =
-u
 '
 .
 .
@@ -10594,7 +10257,6 @@ peek
 3
 )
 in
-u
 '
 \
 0
@@ -10627,7 +10289,6 @@ peek
 (
 )
 in
-u
 '
 \
 r
@@ -10688,7 +10349,6 @@ if
 prefix
 =
 =
-u
 '
 -
 -
@@ -10698,7 +10358,6 @@ or
 prefix
 =
 =
-u
 '
 .
 .
@@ -10715,7 +10374,6 @@ peek
 3
 )
 in
-u
 '
 \
 0
@@ -10740,7 +10398,6 @@ if
 line_break
 !
 =
-u
 '
 \
 n
@@ -10763,7 +10420,6 @@ chunks
 .
 append
 (
-u
 '
 '
 )
@@ -10844,7 +10500,6 @@ if
 ch
 !
 =
-u
 '
 !
 '
@@ -10876,16 +10531,6 @@ r
 "
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-                    
 self
 .
 get_mark
@@ -10910,13 +10555,11 @@ if
 ch
 !
 =
-u
 '
 '
 :
             
 while
-u
 '
 0
 '
@@ -10925,12 +10568,10 @@ u
 ch
 <
 =
-u
 '
 9
 '
 or
-u
 '
 A
 '
@@ -10939,12 +10580,10 @@ A
 ch
 <
 =
-u
 '
 Z
 '
 or
-u
 '
 a
 '
@@ -10953,7 +10592,6 @@ a
 ch
 <
 =
-u
 '
 z
 '
@@ -10962,7 +10600,6 @@ z
 or
 ch
 in
-u
 '
 -
 _
@@ -10987,7 +10624,6 @@ if
 ch
 !
 =
-u
 '
 !
 '
@@ -11026,16 +10662,6 @@ r
 "
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-                        
 self
 .
 get_mark
@@ -11118,7 +10744,6 @@ length
 )
         
 while
-u
 '
 0
 '
@@ -11127,12 +10752,10 @@ u
 ch
 <
 =
-u
 '
 9
 '
 or
-u
 '
 A
 '
@@ -11141,12 +10764,10 @@ A
 ch
 <
 =
-u
 '
 Z
 '
 or
-u
 '
 a
 '
@@ -11155,7 +10776,6 @@ a
 ch
 <
 =
-u
 '
 z
 '
@@ -11164,7 +10784,6 @@ z
 or
 ch
 in
-u
 '
 -
 ;
@@ -11193,7 +10812,6 @@ if
 ch
 =
 =
-u
 '
 %
 '
@@ -11308,16 +10926,6 @@ r
 "
 %
 ch
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-                    
 self
 .
 get_mark
@@ -11326,7 +10934,6 @@ get_mark
 )
         
 return
-u
 '
 '
 .
@@ -11352,7 +10959,7 @@ for
 details
 .
         
-bytes
+codes
 =
 [
 ]
@@ -11373,7 +10980,6 @@ peek
 )
 =
 =
-u
 '
 %
 '
@@ -11403,7 +11009,6 @@ k
 )
 not
 in
-u
 '
 0123456789ABCDEFabcdef
 '
@@ -11430,31 +11035,20 @@ escape
 sequence
 of
 2
-hexdecimal
+hexadecimal
 numbers
 but
 found
 %
 r
 "
+                            
 %
-                                
-(
 self
 .
 peek
 (
 k
-)
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 )
 self
 .
@@ -11463,11 +11057,9 @@ get_mark
 )
 )
             
-bytes
+codes
 .
 append
-(
-chr
 (
 int
 (
@@ -11478,7 +11070,6 @@ prefix
 2
 )
 16
-)
 )
 )
             
@@ -11494,15 +11085,13 @@ try
             
 value
 =
-unicode
-(
-'
-'
-.
-join
-(
 bytes
+(
+codes
 )
+.
+decode
+(
 '
 utf
 -
@@ -11512,6 +11101,7 @@ utf
         
 except
 UnicodeDecodeError
+as
 exc
 :
             
@@ -11633,7 +11223,6 @@ peek
 if
 ch
 in
-u
 '
 \
 r
@@ -11653,7 +11242,6 @@ prefix
 )
 =
 =
-u
 '
 \
 r
@@ -11679,7 +11267,6 @@ forward
 )
             
 return
-u
 '
 \
 n
@@ -11688,7 +11275,6 @@ n
 elif
 ch
 in
-u
 '
 \
 u2028
@@ -11707,6 +11293,5 @@ return
 ch
         
 return
-u
 '
 '

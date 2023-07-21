@@ -27,16 +27,21 @@ ConstructorError
 '
 ]
 from
+.
 error
 import
 *
 from
+.
 nodes
 import
 *
 import
+collections
+.
+abc
 datetime
-import
+base64
 binascii
 re
 sys
@@ -50,179 +55,7 @@ MarkedYAMLError
     
 pass
 class
-timezone
-(
-datetime
-.
-tzinfo
-)
-:
-    
-def
-__init__
-(
-self
-offset
-)
-:
-        
-self
-.
-_offset
-=
-offset
-        
-seconds
-=
-abs
-(
-offset
-)
-.
-total_seconds
-(
-)
-        
-self
-.
-_name
-=
-'
-UTC
-%
-s
-%
-02d
-:
-%
-02d
-'
-%
-(
-            
-'
--
-'
-if
-offset
-.
-days
-<
-0
-else
-'
-+
-'
-            
-seconds
-/
-/
-3600
-            
-seconds
-%
-3600
-/
-/
-60
-        
-)
-    
-def
-tzname
-(
-self
-dt
-=
-None
-)
-:
-        
-return
-self
-.
-_name
-    
-def
-utcoffset
-(
-self
-dt
-=
-None
-)
-:
-        
-return
-self
-.
-_offset
-    
-def
-dst
-(
-self
-dt
-=
-None
-)
-:
-        
-return
-datetime
-.
-timedelta
-(
-0
-)
-    
-def
-__copy__
-(
-self
-)
-:
-        
-return
-self
-.
-__deepcopy__
-(
-)
-    
-def
-__deepcopy__
-(
-self
-memodict
-=
-{
-}
-)
-:
-        
-return
-self
-.
-__class__
-(
-self
-.
-utcoffset
-(
-)
-)
-    
-__repr__
-=
-__str__
-=
-tzname
-class
 BaseConstructor
-(
-object
-)
 :
     
 yaml_constructors
@@ -817,10 +650,9 @@ data
             
 data
 =
-generator
-.
 next
 (
+generator
 )
             
 if
@@ -1065,17 +897,17 @@ deep
 deep
 )
             
-try
-:
-                
-hash
+if
+not
+isinstance
 (
 key
+collections
+.
+abc
+.
+Hashable
 )
-            
-except
-TypeError
-exc
 :
                 
 raise
@@ -1093,15 +925,9 @@ start_mark
                         
 "
 found
-unacceptable
+unhashable
 key
-(
-%
-s
-)
 "
-%
-exc
 key_node
 .
 start_mark
@@ -1226,6 +1052,8 @@ value
 return
 pairs
     
+classmethod
+    
 def
 add_constructor
 (
@@ -1267,12 +1095,7 @@ tag
 =
 constructor
     
-add_constructor
-=
 classmethod
-(
-add_constructor
-)
     
 def
 add_multi_constructor
@@ -1314,13 +1137,6 @@ tag_prefix
 ]
 =
 multi_constructor
-    
-add_multi_constructor
-=
-classmethod
-(
-add_multi_constructor
-)
 class
 SafeConstructor
 (
@@ -1359,7 +1175,6 @@ key_node
 tag
 =
 =
-u
 '
 tag
 :
@@ -1381,11 +1196,12 @@ value_node
 )
         
 return
-BaseConstructor
+super
+(
+)
 .
 construct_scalar
 (
-self
 node
 )
     
@@ -1433,7 +1249,6 @@ key_node
 tag
 =
 =
-u
 '
 tag
 :
@@ -1625,7 +1440,6 @@ key_node
 tag
 =
 =
-u
 '
 tag
 :
@@ -1642,7 +1456,6 @@ key_node
 .
 tag
 =
-u
 '
 tag
 :
@@ -1708,11 +1521,12 @@ node
 )
         
 return
-BaseConstructor
+super
+(
+)
 .
 construct_mapping
 (
-self
 node
 deep
 =
@@ -1741,42 +1555,36 @@ bool_values
 =
 {
         
-u
 '
 yes
 '
 :
 True
         
-u
 '
 no
 '
 :
 False
         
-u
 '
 true
 '
 :
 True
         
-u
 '
 false
 '
 :
 False
         
-u
 '
 on
 '
 :
 True
         
-u
 '
 off
 '
@@ -1824,14 +1632,11 @@ node
         
 value
 =
-str
-(
 self
 .
 construct_scalar
 (
 node
-)
 )
         
 value
@@ -2093,14 +1898,11 @@ node
         
 value
 =
-str
-(
 self
 .
 construct_scalar
 (
 node
-)
 )
         
 value
@@ -2280,6 +2082,9 @@ node
 )
 :
         
+try
+:
+            
 value
 =
 self
@@ -2288,30 +2093,83 @@ construct_scalar
 (
 node
 )
-        
-try
-:
-            
-return
-str
-(
-value
-)
 .
-decode
+encode
 (
 '
-base64
+ascii
 '
 )
         
 except
+UnicodeEncodeError
+as
+exc
+:
+            
+raise
+ConstructorError
 (
+None
+None
+                    
+"
+failed
+to
+convert
+base64
+data
+into
+ascii
+:
+%
+s
+"
+%
+exc
+                    
+node
+.
+start_mark
+)
+        
+try
+:
+            
+if
+hasattr
+(
+base64
+'
+decodebytes
+'
+)
+:
+                
+return
+base64
+.
+decodebytes
+(
+value
+)
+            
+else
+:
+                
+return
+base64
+.
+decodestring
+(
+value
+)
+        
+except
 binascii
 .
 Error
-UnicodeEncodeError
-)
+as
 exc
 :
             
@@ -2345,7 +2203,7 @@ re
 compile
 (
             
-ur
+r
 '
 '
 '
@@ -2848,6 +2706,8 @@ delta
             
 tzinfo
 =
+datetime
+.
 timezone
 (
 delta
@@ -2864,15 +2724,11 @@ tz
             
 tzinfo
 =
-timezone
-(
 datetime
 .
-timedelta
-(
-0
-)
-)
+timezone
+.
+utc
         
 return
 datetime
@@ -3357,34 +3213,13 @@ node
 )
 :
         
-value
-=
+return
 self
 .
 construct_scalar
 (
 node
 )
-        
-try
-:
-            
-return
-value
-.
-encode
-(
-'
-ascii
-'
-)
-        
-except
-UnicodeEncodeError
-:
-            
-return
-value
     
 def
 construct_yaml_seq
@@ -3547,15 +3382,6 @@ r
 node
 .
 tag
-.
-encode
-(
-'
-utf
--
-8
-'
-)
                 
 node
 .
@@ -3566,7 +3392,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3587,7 +3412,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3608,7 +3432,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3629,7 +3452,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3650,7 +3472,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3671,7 +3492,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3692,7 +3512,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3713,7 +3532,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3734,7 +3552,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3755,7 +3572,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3776,7 +3592,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3797,7 +3612,6 @@ SafeConstructor
 add_constructor
 (
         
-u
 '
 tag
 :
@@ -3946,15 +3760,6 @@ construct_scalar
 (
 node
 )
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
 def
 construct_python_unicode
@@ -3973,6 +3778,128 @@ node
 )
     
 def
+construct_python_bytes
+(
+self
+node
+)
+:
+        
+try
+:
+            
+value
+=
+self
+.
+construct_scalar
+(
+node
+)
+.
+encode
+(
+'
+ascii
+'
+)
+        
+except
+UnicodeEncodeError
+as
+exc
+:
+            
+raise
+ConstructorError
+(
+None
+None
+                    
+"
+failed
+to
+convert
+base64
+data
+into
+ascii
+:
+%
+s
+"
+%
+exc
+                    
+node
+.
+start_mark
+)
+        
+try
+:
+            
+if
+hasattr
+(
+base64
+'
+decodebytes
+'
+)
+:
+                
+return
+base64
+.
+decodebytes
+(
+value
+)
+            
+else
+:
+                
+return
+base64
+.
+decodestring
+(
+value
+)
+        
+except
+binascii
+.
+Error
+as
+exc
+:
+            
+raise
+ConstructorError
+(
+None
+None
+                    
+"
+failed
+to
+decode
+base64
+data
+:
+%
+s
+"
+%
+exc
+node
+.
+start_mark
+)
+    
+def
 construct_python_long
 (
 self
@@ -3981,14 +3908,11 @@ node
 :
         
 return
-long
-(
 self
 .
 construct_yaml_int
 (
 node
-)
 )
     
 def
@@ -4086,6 +4010,7 @@ name
             
 except
 ImportError
+as
 exc
 :
                 
@@ -4115,15 +4040,6 @@ s
 %
 (
 name
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 exc
 )
 mark
@@ -4160,15 +4076,6 @@ imported
 "
 %
 name
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 mark
 )
         
@@ -4224,7 +4131,6 @@ mark
 )
         
 if
-u
 '
 .
 '
@@ -4251,7 +4157,7 @@ else
 module_name
 =
 '
-__builtin__
+builtins
 '
             
 object_name
@@ -4272,6 +4178,7 @@ module_name
             
 except
 ImportError
+as
 exc
 :
                 
@@ -4301,15 +4208,6 @@ s
 %
 (
 module_name
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 exc
 )
 mark
@@ -4346,15 +4244,6 @@ imported
 "
 %
 module_name
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 mark
 )
         
@@ -4399,19 +4288,10 @@ module
 %
 r
 "
+                    
 %
 (
 object_name
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-                        
 module
 .
 __name__
@@ -4474,16 +4354,6 @@ r
 "
 %
 value
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-                    
 node
 .
 start_mark
@@ -4548,16 +4418,6 @@ r
 "
 %
 value
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-                    
 node
 .
 start_mark
@@ -4573,11 +4433,6 @@ node
 .
 start_mark
 )
-    
-class
-classobj
-:
-pass
     
 def
 make_python_instance
@@ -4643,17 +4498,6 @@ isinstance
 cls
 type
 )
-or
-isinstance
-(
-cls
-type
-(
-self
-.
-classobj
-)
-)
 )
 :
             
@@ -4692,46 +4536,6 @@ start_mark
 )
         
 if
-newobj
-and
-isinstance
-(
-cls
-type
-(
-self
-.
-classobj
-)
-)
-\
-                
-and
-not
-args
-and
-not
-kwds
-:
-            
-instance
-=
-self
-.
-classobj
-(
-)
-            
-instance
-.
-__class__
-=
-cls
-            
-return
-instance
-        
-elif
 newobj
 and
 isinstance
@@ -5348,7 +5152,6 @@ FullConstructor
 add_constructor
 (
     
-u
 '
 tag
 :
@@ -5371,7 +5174,6 @@ FullConstructor
 add_constructor
 (
     
-u
 '
 tag
 :
@@ -5394,7 +5196,6 @@ FullConstructor
 add_constructor
 (
     
-u
 '
 tag
 :
@@ -5417,7 +5218,6 @@ FullConstructor
 add_constructor
 (
     
-u
 '
 tag
 :
@@ -5440,7 +5240,28 @@ FullConstructor
 add_constructor
 (
     
-u
+'
+tag
+:
+yaml
+.
+org
+2002
+:
+python
+/
+bytes
+'
+    
+FullConstructor
+.
+construct_python_bytes
+)
+FullConstructor
+.
+add_constructor
+(
+    
 '
 tag
 :
@@ -5463,7 +5284,6 @@ FullConstructor
 add_constructor
 (
     
-u
 '
 tag
 :
@@ -5486,7 +5306,6 @@ FullConstructor
 add_constructor
 (
     
-u
 '
 tag
 :
@@ -5509,7 +5328,6 @@ FullConstructor
 add_constructor
 (
     
-u
 '
 tag
 :
@@ -5532,7 +5350,6 @@ FullConstructor
 add_constructor
 (
     
-u
 '
 tag
 :
@@ -5555,7 +5372,6 @@ FullConstructor
 add_constructor
 (
     
-u
 '
 tag
 :
@@ -5578,7 +5394,6 @@ FullConstructor
 add_constructor
 (
     
-u
 '
 tag
 :
@@ -5601,7 +5416,6 @@ FullConstructor
 add_multi_constructor
 (
     
-u
 '
 tag
 :
@@ -5745,7 +5559,6 @@ UnsafeConstructor
 add_multi_constructor
 (
     
-u
 '
 tag
 :
@@ -5769,7 +5582,6 @@ UnsafeConstructor
 add_multi_constructor
 (
     
-u
 '
 tag
 :
@@ -5793,7 +5605,6 @@ UnsafeConstructor
 add_multi_constructor
 (
     
-u
 '
 tag
 :
@@ -5819,7 +5630,6 @@ UnsafeConstructor
 add_multi_constructor
 (
     
-u
 '
 tag
 :

@@ -9,14 +9,17 @@ ComposerError
 '
 ]
 from
+.
 error
 import
 MarkedYAMLError
 from
+.
 events
 import
 *
 from
+.
 nodes
 import
 *
@@ -30,9 +33,6 @@ MarkedYAMLError
 pass
 class
 Composer
-(
-object
-)
 :
     
 def
@@ -384,15 +384,6 @@ r
                         
 %
 anchor
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 event
 .
 start_mark
@@ -451,15 +442,6 @@ occurrence
                         
 %
 anchor
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 self
 .
 anchors
@@ -579,7 +561,6 @@ or
 tag
 =
 =
-u
 '
 !
 '
@@ -671,7 +652,6 @@ or
 tag
 =
 =
-u
 '
 !
 '
@@ -809,7 +789,6 @@ or
 tag
 =
 =
-u
 '
 !
 '
