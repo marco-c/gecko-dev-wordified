@@ -2837,7 +2837,6 @@ msg
 return
 ;
 }
-}
 if
 (
 StringEndsWith
@@ -2877,6 +2876,8 @@ be
 a
 power
 of
+"
+"
 two
 "
 "
@@ -2913,6 +2914,7 @@ msg
 ;
 return
 ;
+}
 }
 }
 SetLimit
