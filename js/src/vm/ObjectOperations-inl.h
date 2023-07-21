@@ -654,17 +654,6 @@ ProxyObject
 )
 )
 {
-MOZ_ASSERT
-(
-!
-cx
--
->
-isHelperThreadContext
-(
-)
-)
-;
 return
 Proxy
 :

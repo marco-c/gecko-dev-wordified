@@ -13589,14 +13589,6 @@ if
 (
 !
 cx
-|
-|
-cx
--
->
-isHelperThreadContext
-(
-)
 )
 {
 return
