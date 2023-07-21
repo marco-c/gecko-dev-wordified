@@ -1576,6 +1576,16 @@ IPCIdentityCredential
 identityCredential
 )
 ;
+async
+HasStorageAccessPermission
+(
+)
+returns
+(
+bool
+granted
+)
+;
 child
 :
 async
