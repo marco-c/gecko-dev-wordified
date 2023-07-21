@@ -16344,7 +16344,11 @@ byteLength
 )
 )
 {
-RootedSharedArrayBufferObject
+Rooted
+<
+SharedArrayBufferObject
+*
+>
 newBuffer
 (
 cx
@@ -18501,7 +18505,11 @@ isShared
 )
 )
 {
-RootedSharedArrayBufferObject
+Rooted
+<
+SharedArrayBufferObject
+*
+>
 buf
 (
 cx
