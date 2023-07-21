@@ -149,12 +149,15 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .
 h
 "
+/
+/
+AtomToId
 using
 namespace
 js

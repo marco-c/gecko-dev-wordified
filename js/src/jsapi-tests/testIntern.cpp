@@ -99,10 +99,13 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
+/
+/
+Atomize
 #
 include
 "

@@ -3160,7 +3160,7 @@ cpp
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 cpp
 "

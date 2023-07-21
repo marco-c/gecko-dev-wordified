@@ -658,10 +658,13 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
+/
+/
+AtomizeString
 #
 include
 "

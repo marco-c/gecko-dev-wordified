@@ -747,7 +747,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
@@ -755,6 +755,7 @@ h
 /
 for
 Atomize
+AtomizeUTF8Chars
 #
 include
 "

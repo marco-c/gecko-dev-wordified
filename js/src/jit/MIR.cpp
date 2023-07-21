@@ -403,12 +403,15 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .
 h
 "
+/
+/
+TypeName
 #
 include
 "

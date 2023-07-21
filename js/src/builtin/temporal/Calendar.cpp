@@ -827,12 +827,15 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .
 h
 "
+/
+/
+PrimitiveValueToId
 #
 include
 "

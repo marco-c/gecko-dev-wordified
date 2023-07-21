@@ -401,12 +401,15 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .
 h
 "
+/
+/
+BackfillIndexInCharBuffer
 #
 include
 "

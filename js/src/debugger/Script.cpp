@@ -665,7 +665,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .
@@ -674,7 +674,7 @@ h
 /
 /
 for
-ValueToId
+PrimitiveValueToId
 #
 include
 "

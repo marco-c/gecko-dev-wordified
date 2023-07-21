@@ -136,10 +136,13 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
+/
+/
+AtomizeString
 BEGIN_TEST
 (
 testStringBuffer_finishString

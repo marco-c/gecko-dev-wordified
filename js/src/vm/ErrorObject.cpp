@@ -388,10 +388,13 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
+/
+/
+ClassName
 #
 include
 "

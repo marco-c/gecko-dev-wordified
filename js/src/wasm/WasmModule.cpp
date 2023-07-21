@@ -430,12 +430,15 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .
 h
 "
+/
+/
+AtomToId
 #
 include
 "

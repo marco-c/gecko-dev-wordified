@@ -110,16 +110,16 @@ MPL
 /
 #
 ifndef
-vm_JSAtom_inl_h
+vm_JSAtomUtils_inl_h
 #
 define
-vm_JSAtom_inl_h
+vm_JSAtomUtils_inl_h
 #
 include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
@@ -1062,6 +1062,6 @@ js
 endif
 /
 *
-vm_JSAtom_inl_h
+vm_JSAtomUtils_inl_h
 *
 /

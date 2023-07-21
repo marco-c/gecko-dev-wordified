@@ -397,7 +397,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .
@@ -405,6 +405,10 @@ h
 "
 /
 /
+js
+:
+:
+PrimitiveValueToId
 js
 :
 :

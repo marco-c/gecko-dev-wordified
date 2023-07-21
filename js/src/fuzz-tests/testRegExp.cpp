@@ -161,10 +161,13 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
+/
+/
+AtomizeUTF8Chars
 #
 include
 "

@@ -353,13 +353,12 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
 /
 /
-JSAtom
 js
 :
 :
@@ -465,6 +464,7 @@ h
 "
 /
 /
+JSAtom
 js
 :
 :
@@ -474,7 +474,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .

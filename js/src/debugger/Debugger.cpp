@@ -1203,7 +1203,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
@@ -1211,6 +1211,9 @@ h
 /
 for
 Atomize
+AtomizeUTF8Chars
+AtomIsMarked
+AtomToId
 ClassName
 #
 include
@@ -1670,7 +1673,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .

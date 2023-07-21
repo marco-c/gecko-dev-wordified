@@ -247,10 +247,14 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
+/
+/
+AtomizeString
+PinAtom
 #
 include
 "

@@ -539,12 +539,16 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 -
 inl
 .
 h
 "
+/
+/
+PrimitiveValueToId
+IndexToId
 #
 include
 "

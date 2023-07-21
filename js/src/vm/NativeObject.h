@@ -250,10 +250,13 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
+/
+/
+AtomIsMarked
 #
 include
 "

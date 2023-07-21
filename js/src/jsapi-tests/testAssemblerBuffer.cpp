@@ -85,15 +85,6 @@ tests
 .
 h
 "
-#
-include
-"
-vm
-/
-JSAtom
-.
-h
-"
 /
 /
 Tests

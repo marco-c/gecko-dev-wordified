@@ -682,7 +682,7 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
@@ -690,6 +690,7 @@ h
 /
 for
 Atomize
+AtomizeString
 #
 include
 "

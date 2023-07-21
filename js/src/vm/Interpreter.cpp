@@ -487,10 +487,13 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
+/
+/
+AtomToPrintableString
 #
 include
 "

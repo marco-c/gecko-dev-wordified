@@ -110,10 +110,10 @@ MPL
 /
 #
 ifndef
-vm_JSAtom_h
+vm_JSAtomUtils_h
 #
 define
-vm_JSAtom_h
+vm_JSAtomUtils_h
 #
 include
 "
@@ -705,6 +705,6 @@ js
 endif
 /
 *
-vm_JSAtom_h
+vm_JSAtomUtils_h
 *
 /

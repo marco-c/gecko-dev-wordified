@@ -1829,10 +1829,15 @@ include
 "
 vm
 /
-JSAtom
+JSAtomUtils
 .
 h
 "
+/
+/
+AtomizeUTF8Chars
+AtomizeString
+ToAtom
 #
 include
 "
