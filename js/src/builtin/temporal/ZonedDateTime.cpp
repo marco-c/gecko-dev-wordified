@@ -7843,7 +7843,7 @@ Step
 .
 resolvedOptions
 =
-CopyOptions
+SnapshotOwnProperties
 (
 cx
 options
