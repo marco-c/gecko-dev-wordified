@@ -131,6 +131,11 @@ PermissionStatus
 .
 h
 "
+"
+StorageAccessPermissionStatus
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -158,6 +163,11 @@ cpp
 "
 "
 PermissionUtils
+.
+cpp
+"
+"
+StorageAccessPermissionStatus
 .
 cpp
 "
