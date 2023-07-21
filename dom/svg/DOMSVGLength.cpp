@@ -2824,10 +2824,11 @@ aSVGElement
 {
 if
 (
+!
 SVGLength
 :
 :
-IsAbsoluteUnit
+IsFontRelativeUnit
 (
 aUnitType
 )
