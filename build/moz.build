@@ -180,14 +180,6 @@ DIRS
 unix
 "
 ]
-DIRS
-+
-=
-[
-"
-pure_virtual
-"
-]
 if
 CONFIG
 [
