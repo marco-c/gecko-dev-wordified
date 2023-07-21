@@ -308,6 +308,13 @@ ParsingMode
 :
 :
 ALLOW_ALL_NUMERIC_VALUES
+ParsingMode_DisallowFontRelative
+=
+>
+ParsingMode
+:
+:
+DISALLOW_FONT_RELATIVE
 }
 }
 /
