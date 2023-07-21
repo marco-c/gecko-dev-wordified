@@ -499,7 +499,7 @@ temporal
 ;
 static
 bool
-DefaultTimeZoneOffset
+SystemTimeZoneOffset
 (
 JSContext
 *
@@ -641,7 +641,7 @@ rev
 static
 JSString
 *
-DefaultTimeZone
+SystemTimeZoneIdentifier
 (
 JSContext
 *
@@ -808,7 +808,7 @@ try
 to
 represent
 the
-default
+system
 time
 zone
 using
@@ -836,7 +836,7 @@ offset
 if
 (
 !
-DefaultTimeZoneOffset
+SystemTimeZoneOffset
 (
 cx
 &
@@ -1721,14 +1721,14 @@ Temporal
 .
 Now
 .
-timeZone
+timeZoneId
 (
 )
 *
 /
 static
 bool
-Temporal_Now_timeZone
+Temporal_Now_timeZoneId
 (
 JSContext
 *
@@ -1758,7 +1758,7 @@ auto
 *
 result
 =
-SystemTimeZone
+SystemTimeZoneIdentifier
 (
 cx
 )
@@ -1779,9 +1779,8 @@ rval
 (
 )
 .
-setObject
+setString
 (
-*
 result
 )
 ;
@@ -2717,9 +2716,9 @@ TemporalNow_methods
 JS_FN
 (
 "
-timeZone
+timeZoneId
 "
-Temporal_Now_timeZone
+Temporal_Now_timeZoneId
 0
 0
 )
