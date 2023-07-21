@@ -1111,7 +1111,7 @@ split
 Cargo
 1
 .
-68
+71
 .
 0
 changed
@@ -1163,7 +1163,7 @@ LooseVersion
 "
 1
 .
-68
+71
 .
 0
 "
@@ -1178,7 +1178,7 @@ minimum_rust_version
 "
 1
 .
-68
+71
 .
 0
 "
