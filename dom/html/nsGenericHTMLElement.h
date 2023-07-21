@@ -1092,12 +1092,6 @@ return
 false
 ;
 }
-void
-AssertPopoverAttributeStateCorrespondsToAttributePresence
-(
-)
-const
-;
 mozilla
 :
 :
