@@ -54,12 +54,6 @@ MPL
 /
 .
 import
-concurrent
-.
-futures
-as
-futures
-import
 copy
 import
 logging
@@ -67,6 +61,10 @@ import
 os
 import
 re
+from
+concurrent
+import
+futures
 from
 functools
 import
@@ -1195,10 +1193,6 @@ tasks
     
 if
 suffix
-!
-=
-"
-"
 :
         
 suffix
