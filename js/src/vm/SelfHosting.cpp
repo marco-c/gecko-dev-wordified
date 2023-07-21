@@ -11224,7 +11224,7 @@ internalNames
 =
 {
 "
-IsTypedArrayEnsuringArrayBuffer
+EnsureTypedArrayWithArrayBuffer
 "
 "
 RegExpSearchSlowPath
