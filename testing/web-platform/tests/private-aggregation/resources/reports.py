@@ -32,6 +32,7 @@ import
 List
 Optional
 Tuple
+Union
 import
 urllib
 .
@@ -97,10 +98,14 @@ str
 ]
 Status
 =
+Union
+[
+int
 Tuple
 [
 int
 str
+]
 ]
 Response
 =
