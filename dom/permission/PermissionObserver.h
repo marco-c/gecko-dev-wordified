@@ -237,16 +237,6 @@ PermissionObserver
 (
 )
 ;
-void
-Notify
-(
-PermissionName
-aName
-nsIPrincipal
-&
-aPrincipal
-)
-;
 nsTArray
 <
 PermissionStatus

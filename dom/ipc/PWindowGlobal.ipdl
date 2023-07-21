@@ -1576,6 +1576,15 @@ IPCIdentityCredential
 identityCredential
 )
 ;
+child
+:
+async
+NotifyPermissionChange
+(
+nsCString
+type
+)
+;
 }
 ;
 }
