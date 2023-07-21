@@ -2057,12 +2057,6 @@ case
 roles
 :
 :
-ACCEL_LABEL
-:
-case
-roles
-:
-:
 EDITCOMBOBOX
 :
 case
