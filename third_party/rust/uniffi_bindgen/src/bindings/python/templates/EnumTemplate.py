@@ -59,24 +59,6 @@ do
 }
 {
 %
--
-let
-e
-=
-ci
-.
-get_enum_definition
-(
-name
-)
-.
-unwrap
-(
-)
-%
-}
-{
-%
 if
 e
 .
@@ -213,9 +195,6 @@ name
 enum_variant_py
 }
 }
-(
-object
-)
 :
         
 def
@@ -621,6 +600,9 @@ var_name
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -784,6 +766,10 @@ type_name
 {
 }
 )
+#
+type
+:
+ignore
 {
 %
 endfor

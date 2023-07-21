@@ -395,7 +395,6 @@ uniffi_bindgen
 generate_component_scaffolding
 (
 udl_file
-None
 Some
 (
 out_dir

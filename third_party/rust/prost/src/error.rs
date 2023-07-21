@@ -63,7 +63,7 @@ input
 buffer
 does
 not
-caontain
+contain
 a
 valid
 /
@@ -842,7 +842,7 @@ failed
 to
 encode
 Protobuf
-messsage
+message
 ;
 insufficient
 buffer

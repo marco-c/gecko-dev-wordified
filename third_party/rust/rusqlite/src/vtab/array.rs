@@ -287,6 +287,7 @@ from
 rarray
 (
 ?
+1
 )
 ;
 "
@@ -1545,6 +1546,7 @@ from
 rarray
 (
 ?
+1
 )
 ;
 "
@@ -1558,7 +1560,6 @@ stmt
 .
 query_map
 (
-&
 [
 &
 ptr

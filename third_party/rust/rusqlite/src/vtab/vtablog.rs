@@ -1035,6 +1035,7 @@ delete
 {
 }
 {
+arg
 :
 ?
 }
@@ -1043,7 +1044,6 @@ delete
 self
 .
 i_inst
-arg
 )
 ;
 Ok
@@ -1122,8 +1122,6 @@ Ok
 self
 .
 n_row
-as
-i64
 )
 }
 fn
@@ -1643,11 +1641,11 @@ format
 (
 "
 {
+i
 }
 {
 }
 "
-i
 self
 .
 row_id
@@ -1907,6 +1905,7 @@ WHERE
 a
 =
 ?
+1
 "
 [
 "
@@ -1932,8 +1931,11 @@ c
 VALUES
 (
 ?
+1
 ?
+2
 ?
+3
 )
 "
 [
@@ -1961,13 +1963,16 @@ SET
 b
 =
 ?
+1
 c
 =
 ?
+2
 WHERE
 a
 =
 ?
+3
 "
 [
 "
