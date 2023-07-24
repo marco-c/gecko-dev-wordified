@@ -642,7 +642,7 @@ viewBox
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 this
 )
@@ -703,7 +703,7 @@ us
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 this
 )

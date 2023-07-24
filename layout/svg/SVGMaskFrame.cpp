@@ -1053,7 +1053,7 @@ maskContentUnits
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 this
 )

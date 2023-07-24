@@ -204,6 +204,11 @@ aPresContext
 kClassID
 )
 {
+AddStateBits
+(
+NS_STATE_SVG_RENDERING_OBSERVER_CONTAINER
+)
+;
 }
 public
 :

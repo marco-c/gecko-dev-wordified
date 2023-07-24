@@ -551,7 +551,7 @@ spreadMethod
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 this
 )
@@ -613,7 +613,7 @@ us
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 this
 )
@@ -3072,7 +3072,7 @@ y2
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 this
 )
@@ -3870,7 +3870,7 @@ fy
 SVGObserverUtils
 :
 :
-InvalidateDirectRenderingObservers
+InvalidateRenderingObservers
 (
 this
 )
