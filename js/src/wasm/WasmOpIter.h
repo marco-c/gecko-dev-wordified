@@ -5505,7 +5505,6 @@ bool
 readBrOnCast
 (
 bool
-*
 onSuccess
 uint32_t
 *
@@ -23346,7 +23345,6 @@ Policy
 readBrOnCast
 (
 bool
-*
 onSuccess
 uint32_t
 *
@@ -23427,21 +23425,6 @@ flags
 <
 <
 1
-)
-;
-*
-onSuccess
-=
-!
-(
-flags
-&
-(
-1
-<
-<
-2
-)
 )
 ;
 if
@@ -23617,7 +23600,6 @@ immediateSourceType
 RefType
 typeOnBranch
 =
-*
 onSuccess
 ?
 typeOnSuccess
@@ -23627,7 +23609,6 @@ typeOnFail
 RefType
 typeOnFallthrough
 =
-*
 onSuccess
 ?
 typeOnFail

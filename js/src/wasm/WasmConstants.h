@@ -2265,6 +2265,9 @@ RefCastNull
 0x49
 BrOnCast
 =
+0x4e
+BrOnCastFail
+=
 0x4f
 /
 /

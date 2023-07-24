@@ -14487,6 +14487,8 @@ nodiscard
 bool
 emitBrOnCast
 (
+bool
+onSuccess
 )
 ;
 [
