@@ -984,7 +984,7 @@ report
 ;
 }
 static
-void
+bool
 ReportError
 (
 JSContext
@@ -1017,6 +1017,7 @@ reportp
 )
 ;
 return
+true
 ;
 }
 /
@@ -1045,6 +1046,7 @@ an
 associated
 exception
 .
+return
 ErrorToException
 (
 cx
@@ -2993,6 +2995,9 @@ return
 false
 ;
 }
+if
+(
+!
 ReportError
 (
 cx
@@ -3001,7 +3006,12 @@ report
 callback
 userRef
 )
+)
+{
+return
+false
 ;
+}
 return
 report
 .
@@ -3220,6 +3230,9 @@ return
 false
 ;
 }
+if
+(
+!
 ReportError
 (
 cx
@@ -3228,7 +3241,12 @@ report
 callback
 userRef
 )
+)
+{
+return
+false
 ;
+}
 return
 report
 .
@@ -3518,6 +3536,9 @@ cx
 report
 )
 ;
+if
+(
+!
 ReportError
 (
 cx
@@ -3526,7 +3547,12 @@ report
 nullptr
 nullptr
 )
+)
+{
+return
+false
 ;
+}
 return
 report
 .

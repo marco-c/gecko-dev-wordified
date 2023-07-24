@@ -2158,7 +2158,7 @@ cx
 )
 ;
 }
-void
+bool
 js
 :
 :
@@ -2275,6 +2275,7 @@ generatingError
 )
 {
 return
+false
 ;
 }
 cx
@@ -2333,6 +2334,7 @@ messageStr
 )
 {
 return
+false
 ;
 }
 Rooted
@@ -2387,6 +2389,7 @@ fileName
 )
 {
 return
+false
 ;
 }
 }
@@ -2473,6 +2476,7 @@ stack
 )
 {
 return
+false
 ;
 }
 UniquePtr
@@ -2494,6 +2498,7 @@ report
 )
 {
 return
+false
 ;
 }
 ErrorObject
@@ -2530,6 +2535,7 @@ errObject
 )
 {
 return
+false
 ;
 }
 /
@@ -2585,6 +2591,9 @@ setPendingException
 errValue
 nstack
 )
+;
+return
+true
 ;
 }
 using
