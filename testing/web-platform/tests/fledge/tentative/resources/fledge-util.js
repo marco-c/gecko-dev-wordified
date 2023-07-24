@@ -1587,13 +1587,11 @@ interestGroupOverrides
 =
 {
 }
-)
-{
-const
-INTEREST_GROUP_LIFETIME_SECS
+durationSeconds
 =
 60
-;
+)
+{
 let
 interestGroup
 =
@@ -1653,7 +1651,7 @@ navigator
 joinAdInterestGroup
 (
 interestGroup
-INTEREST_GROUP_LIFETIME_SECS
+durationSeconds
 )
 ;
 test
