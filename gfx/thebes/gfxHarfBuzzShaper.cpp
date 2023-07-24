@@ -6972,12 +6972,9 @@ static
 void
 AddOpenTypeFeature
 (
-const
 uint32_t
-&
 aTag
 uint32_t
-&
 aValue
 void
 *
