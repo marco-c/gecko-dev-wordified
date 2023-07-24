@@ -6813,11 +6813,6 @@ PromiseRejectionEvent
 webidl
 "
 "
-RTCTransformEvent
-.
-webidl
-"
-"
 ScrollViewChangeEvent
 .
 webidl
@@ -6932,6 +6927,11 @@ webidl
 "
 "
 RTCTrackEvent
+.
+webidl
+"
+"
+RTCTransformEvent
 .
 webidl
 "
