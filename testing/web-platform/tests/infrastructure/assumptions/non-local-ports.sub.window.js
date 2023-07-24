@@ -64,7 +64,7 @@ used
 to
 test
 the
-Local
+Private
 Network
 Access
 specification
@@ -81,7 +81,7 @@ github
 .
 io
 /
-local
+private
 -
 network
 -
@@ -99,7 +99,7 @@ found
 in
 fetch
 /
-local
+private
 -
 network
 -
