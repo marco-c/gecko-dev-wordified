@@ -2995,7 +2995,6 @@ u
 "
 "
 _ns
-false
 )
 )
 {
@@ -3173,7 +3172,6 @@ u
 "
 "
 _ns
-false
 )
 &
 &
@@ -3192,7 +3190,6 @@ u
 "
 "
 _ns
-false
 )
 )
 {
@@ -3852,7 +3849,6 @@ allows
 aDirective
 CSP_NONCE
 aNonce
-aParserCreated
 )
 )
 {
@@ -4002,7 +3998,6 @@ u
 "
 "
 _ns
-aParserCreated
 )
 ;
 /
@@ -4085,7 +4080,6 @@ allows
 aDirective
 CSP_HASH
 content
-aParserCreated
 )
 )
 {
@@ -4151,7 +4145,6 @@ u
 "
 "
 _ns
-aParserCreated
 )
 )
 {
@@ -5347,7 +5340,6 @@ u
 "
 "
 _ns
-false
 )
 )
 {
