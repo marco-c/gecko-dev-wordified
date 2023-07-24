@@ -1021,6 +1021,10 @@ deepEqual
 decodedRequest
 .
 headerNames
+.
+sort
+(
+)
 [
 "
 Accept
