@@ -15,6 +15,8 @@ META
 :
 variant
 =
+?
+default
 /
 /
 META
