@@ -522,7 +522,6 @@ is_first_entry
 true
 ;
 for
-mut
 entry
 in
 cpu_info_table
