@@ -1510,11 +1510,12 @@ browser
 ownerGlobal
 ;
 const
-{
 tab
-}
 =
 window
+?
+.
+tab
 ;
 if
 (
