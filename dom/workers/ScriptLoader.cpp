@@ -687,6 +687,15 @@ JS
 loader
 :
 :
+ParserMetadata
+;
+using
+JS
+:
+:
+loader
+:
+:
 ScriptKind
 ;
 using
@@ -4291,6 +4300,10 @@ u
 "
 "
 _ns
+ParserMetadata
+:
+:
+NotParserInserted
 nullptr
 )
 ;
