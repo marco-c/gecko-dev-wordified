@@ -268,12 +268,11 @@ BUG_COMPONENT
 =
 (
 "
-Firefox
-Build
-System
+Developer
+Infrastructure
 "
 "
-Generated
+Source
 Documentation
 "
 )
