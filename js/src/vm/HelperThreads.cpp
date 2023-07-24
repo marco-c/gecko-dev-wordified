@@ -13408,6 +13408,9 @@ token
 )
 )
 ;
+if
+(
+!
 parseTask
 -
 >
@@ -13417,7 +13420,12 @@ convertToRuntimeError
 (
 cx
 )
+)
+{
+return
+nullptr
 ;
+}
 if
 (
 cx

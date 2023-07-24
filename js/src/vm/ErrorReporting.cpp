@@ -316,7 +316,7 @@ reportp
 ;
 }
 }
-void
+bool
 js
 :
 :
@@ -344,6 +344,7 @@ this
 )
 ;
 return
+true
 ;
 }
 /
@@ -372,7 +373,7 @@ exception
 .
 For
 errors
-occuring
+occurring
 at
 /
 /
@@ -387,6 +388,7 @@ be
 a
 JSEXN_SYNTAXERR
 .
+return
 ErrorToException
 (
 cx
