@@ -894,6 +894,13 @@ owner
 attaches
 it
 .
+element
+-
+>
+FlushOffscreenCanvas
+(
+)
+;
 nsHTMLCanvasFrame
 *
 canvasFrame

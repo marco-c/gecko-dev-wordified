@@ -1927,6 +1927,11 @@ return
 mOffscreenCanvas
 ;
 }
+void
+FlushOffscreenCanvas
+(
+)
+;
 layers
 :
 :
