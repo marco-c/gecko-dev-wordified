@@ -11353,7 +11353,6 @@ alloc
 elements
 index
 length
-obj
 )
 ;
 add
