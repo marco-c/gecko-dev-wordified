@@ -60,6 +60,8 @@ logging
 import
 os
 import
+sys
+import
 mozpack
 .
 path
@@ -3302,6 +3304,25 @@ utf
 -
 8
 "
+            
+#
+Let
+Gradle
+get
+the
+right
+Python
+path
+on
+Windows
+            
+"
+GRADLE_MACH_PYTHON
+"
+:
+sys
+.
+executable
         
 }
     
