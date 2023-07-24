@@ -1047,6 +1047,10 @@ aMedia
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 ReferrerPolicy
 aReferrerPolicy
