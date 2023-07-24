@@ -968,6 +968,7 @@ core
 >
 (
 )
+?
 {
 /
 /
@@ -1020,6 +1021,7 @@ func
 >
 (
 )
+?
 {
 Ok
 (
@@ -1052,6 +1054,7 @@ value
 >
 (
 )
+?
 {
 Ok
 (
@@ -1086,6 +1089,7 @@ type
 >
 (
 )
+?
 {
 Ok
 (
@@ -1118,6 +1122,7 @@ component
 >
 (
 )
+?
 {
 Ok
 (
@@ -1150,6 +1155,7 @@ instance
 >
 (
 )
+?
 {
 Ok
 (
@@ -1200,7 +1206,10 @@ Cursor
 )
 -
 >
+Result
+<
 bool
+>
 {
 let
 cursor
@@ -1211,6 +1220,7 @@ cursor
 lparen
 (
 )
+?
 {
 Some
 (
@@ -1223,7 +1233,10 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -1235,6 +1248,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -1253,6 +1267,7 @@ c
 keyword
 (
 )
+?
 {
 Some
 (
@@ -1270,7 +1285,10 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 Some
 (
@@ -1328,7 +1346,10 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 Index
@@ -1485,6 +1506,7 @@ Self
 >
 (
 )
+?
 {
 names
 .
@@ -1555,7 +1577,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 let
 cursor
@@ -1566,6 +1591,7 @@ cursor
 lparen
 (
 )
+?
 {
 Some
 (
@@ -1578,7 +1604,10 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -1590,6 +1619,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -1607,7 +1637,10 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 /
@@ -1633,16 +1666,21 @@ cursor
 string
 (
 )
+?
 {
 return
+Ok
+(
 cursor
 .
 rparen
 (
 )
+?
 .
 is_some
 (
+)
 )
 ;
 }
@@ -1666,6 +1704,7 @@ cursor
 lparen
 (
 )
+?
 {
 Some
 (
@@ -1678,7 +1717,10 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -1690,6 +1732,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -1707,7 +1750,10 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -1719,6 +1765,7 @@ cursor
 string
 (
 )
+?
 {
 Some
 (
@@ -1734,7 +1781,10 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
 let
@@ -1746,6 +1796,7 @@ cursor
 rparen
 (
 )
+?
 {
 Some
 (
@@ -1758,17 +1809,24 @@ _
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
+Ok
+(
 cursor
 .
 rparen
 (
 )
+?
 .
 is_some
 (
+)
 )
 }
 fn

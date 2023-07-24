@@ -353,13 +353,15 @@ function
 .
 locals
 :
-Vec
+Box
 <
+[
 Local
 <
 '
 a
 >
+]
 >
 /
 /
@@ -523,6 +525,10 @@ parse_remainder
 parser
 )
 ?
+.
+into
+(
+)
 ;
 (
 ty
@@ -759,6 +765,7 @@ local
 >
 (
 )
+?
 {
 parser
 .

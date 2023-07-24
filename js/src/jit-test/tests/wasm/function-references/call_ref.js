@@ -37,6 +37,7 @@ works
 (
 elem
 declare
+func
 plusOneRef
 )
 (
@@ -330,6 +331,7 @@ i32
 (
 elem
 declare
+func
 plusOneRef
 )
 (
@@ -510,6 +512,7 @@ i32
 (
 elem
 declare
+func
 0
 )
 (

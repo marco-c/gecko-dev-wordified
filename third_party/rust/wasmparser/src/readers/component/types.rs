@@ -22,7 +22,7 @@ FuncType
 Import
 Result
 SectionLimited
-Type
+SubType
 TypeRef
 ValType
 }
@@ -302,7 +302,7 @@ type
 .
 Type
 (
-Type
+SubType
 )
 /
 /

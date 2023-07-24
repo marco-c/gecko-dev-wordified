@@ -462,6 +462,7 @@ module
 >
 (
 )
+?
 {
 parser
 .
@@ -783,6 +784,7 @@ type
 >
 (
 )
+?
 {
 Ok
 (
@@ -815,6 +817,7 @@ alias
 >
 (
 )
+?
 {
 Ok
 (
@@ -849,6 +852,7 @@ import
 >
 (
 )
+?
 {
 Ok
 (
@@ -881,6 +885,7 @@ export
 >
 (
 )
+?
 {
 parser
 .
@@ -1525,6 +1530,7 @@ LParen
 >
 (
 )
+?
 {
 parser
 .
@@ -1558,6 +1564,7 @@ func
 >
 (
 )
+?
 {
 parser
 .
@@ -1605,6 +1612,7 @@ component
 >
 (
 )
+?
 {
 parser
 .
@@ -1652,6 +1660,7 @@ instance
 >
 (
 )
+?
 {
 parser
 .
@@ -1699,6 +1708,7 @@ resource
 >
 (
 )
+?
 {
 parser
 .
@@ -1888,6 +1898,7 @@ bool_
 >
 (
 )
+?
 {
 parser
 .
@@ -1927,6 +1938,7 @@ s8
 >
 (
 )
+?
 {
 parser
 .
@@ -1966,6 +1978,7 @@ u8
 >
 (
 )
+?
 {
 parser
 .
@@ -2005,6 +2018,7 @@ s16
 >
 (
 )
+?
 {
 parser
 .
@@ -2044,6 +2058,7 @@ u16
 >
 (
 )
+?
 {
 parser
 .
@@ -2083,6 +2098,7 @@ s32
 >
 (
 )
+?
 {
 parser
 .
@@ -2122,6 +2138,7 @@ u32
 >
 (
 )
+?
 {
 parser
 .
@@ -2161,6 +2178,7 @@ s64
 >
 (
 )
+?
 {
 parser
 .
@@ -2200,6 +2218,7 @@ u64
 >
 (
 )
+?
 {
 parser
 .
@@ -2239,6 +2258,7 @@ float32
 >
 (
 )
+?
 {
 parser
 .
@@ -2278,6 +2298,7 @@ float64
 >
 (
 )
+?
 {
 parser
 .
@@ -2317,6 +2338,7 @@ char
 >
 (
 )
+?
 {
 parser
 .
@@ -2356,6 +2378,7 @@ string
 >
 (
 )
+?
 {
 parser
 .
@@ -2417,8 +2440,13 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
+Ok
+(
 matches
 !
 (
@@ -2427,6 +2455,7 @@ cursor
 keyword
 (
 )
+?
 Some
 (
 (
@@ -2554,6 +2583,7 @@ Some
 string
 "
 _
+)
 )
 )
 )
@@ -2700,6 +2730,7 @@ _
 >
 (
 )
+?
 {
 Ok
 (
@@ -2769,8 +2800,13 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
+Ok
+(
 Index
 :
 :
@@ -2778,6 +2814,7 @@ peek
 (
 cursor
 )
+?
 |
 |
 ComponentDefinedType
@@ -2786,6 +2823,8 @@ ComponentDefinedType
 peek
 (
 cursor
+)
+?
 )
 }
 fn
@@ -2906,6 +2945,7 @@ LParen
 >
 (
 )
+?
 {
 parser
 .
@@ -3140,6 +3180,7 @@ record
 >
 (
 )
+?
 {
 Ok
 (
@@ -3172,6 +3213,7 @@ variant
 >
 (
 )
+?
 {
 Ok
 (
@@ -3204,6 +3246,7 @@ list
 >
 (
 )
+?
 {
 Ok
 (
@@ -3236,6 +3279,7 @@ tuple
 >
 (
 )
+?
 {
 Ok
 (
@@ -3268,6 +3312,7 @@ flags
 >
 (
 )
+?
 {
 Ok
 (
@@ -3300,6 +3345,7 @@ enum_
 >
 (
 )
+?
 {
 Ok
 (
@@ -3332,6 +3378,7 @@ union
 >
 (
 )
+?
 {
 Ok
 (
@@ -3364,6 +3411,7 @@ option
 >
 (
 )
+?
 {
 Ok
 (
@@ -3396,6 +3444,7 @@ result
 >
 (
 )
+?
 {
 Ok
 (
@@ -3428,6 +3477,7 @@ own
 >
 (
 )
+?
 {
 parser
 .
@@ -3475,6 +3525,7 @@ borrow
 >
 (
 )
+?
 {
 parser
 .
@@ -3577,7 +3628,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 if
 PrimitiveValType
@@ -3587,17 +3641,24 @@ peek
 (
 cursor
 )
+?
 {
 return
+Ok
+(
 true
+)
 ;
 }
+Ok
+(
 match
 cursor
 .
 lparen
 (
 )
+?
 {
 Some
 (
@@ -3613,6 +3674,7 @@ cursor
 keyword
 (
 )
+?
 Some
 (
 (
@@ -3728,6 +3790,7 @@ None
 >
 false
 }
+)
 }
 fn
 display
@@ -5498,6 +5561,7 @@ LParen
 >
 (
 )
+?
 {
 Some
 (
@@ -5744,6 +5808,7 @@ param
 >
 (
 )
+?
 {
 params
 .
@@ -5796,6 +5861,7 @@ result
 >
 (
 )
+?
 {
 results
 .
@@ -6628,6 +6694,7 @@ core
 >
 (
 )
+?
 {
 Ok
 (
@@ -6662,6 +6729,7 @@ type
 >
 (
 )
+?
 {
 Ok
 (
@@ -6696,6 +6764,7 @@ alias
 >
 (
 )
+?
 {
 Ok
 (
@@ -6728,6 +6797,7 @@ import
 >
 (
 )
+?
 {
 Ok
 (
@@ -6760,6 +6830,7 @@ export
 >
 (
 )
+?
 {
 Ok
 (
@@ -7143,6 +7214,7 @@ core
 >
 (
 )
+?
 {
 Ok
 (
@@ -7177,6 +7249,7 @@ type
 >
 (
 )
+?
 {
 Ok
 (
@@ -7211,6 +7284,7 @@ alias
 >
 (
 )
+?
 {
 Ok
 (
@@ -7243,6 +7317,7 @@ export
 >
 (
 )
+?
 {
 Ok
 (
@@ -7875,6 +7950,7 @@ LParen
 >
 (
 )
+?
 &
 &
 parser
@@ -7897,6 +7973,7 @@ type
 >
 (
 )
+?
 {
 Ok
 (
@@ -8156,6 +8233,7 @@ LParen
 >
 (
 )
+?
 &
 &
 parser
@@ -8178,6 +8256,7 @@ type
 >
 (
 )
+?
 {
 Ok
 (

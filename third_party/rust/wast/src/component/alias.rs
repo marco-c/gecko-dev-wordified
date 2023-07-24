@@ -673,6 +673,7 @@ outer
 >
 (
 )
+?
 {
 parser
 .
@@ -778,6 +779,7 @@ export
 >
 (
 )
+?
 {
 parser
 .
@@ -885,6 +887,7 @@ core
 >
 (
 )
+?
 {
 parser
 .
@@ -1190,6 +1193,7 @@ core
 >
 (
 )
+?
 {
 parser
 .
@@ -1230,6 +1234,7 @@ module
 >
 (
 )
+?
 {
 parser
 .
@@ -1281,6 +1286,7 @@ func
 >
 (
 )
+?
 {
 parser
 .
@@ -1320,6 +1326,7 @@ value
 >
 (
 )
+?
 {
 parser
 .
@@ -1361,6 +1368,7 @@ type
 >
 (
 )
+?
 {
 parser
 .
@@ -1402,6 +1410,7 @@ component
 >
 (
 )
+?
 {
 parser
 .
@@ -1441,6 +1450,7 @@ instance
 >
 (
 )
+?
 {
 parser
 .
@@ -1609,6 +1619,7 @@ core
 >
 (
 )
+?
 {
 parser
 .
@@ -1649,6 +1660,7 @@ module
 >
 (
 )
+?
 {
 parser
 .
@@ -1690,6 +1702,7 @@ type
 >
 (
 )
+?
 {
 parser
 .
@@ -1745,6 +1758,7 @@ type
 >
 (
 )
+?
 {
 parser
 .
@@ -1786,6 +1800,7 @@ component
 >
 (
 )
+?
 {
 parser
 .

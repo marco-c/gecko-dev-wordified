@@ -250,6 +250,7 @@ WastDirectiveToken
 >
 (
 )
+?
 {
 while
 !
@@ -348,7 +349,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 let
 kw
@@ -359,6 +363,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -374,9 +379,14 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
+Ok
+(
 kw
 .
 starts_with
@@ -417,6 +427,7 @@ kw
 "
 invoke
 "
+)
 }
 fn
 display
@@ -956,6 +967,7 @@ module
 >
 (
 )
+?
 |
 |
 l
@@ -971,6 +983,7 @@ component
 >
 (
 )
+?
 {
 Ok
 (
@@ -1003,6 +1016,7 @@ assert_malformed
 >
 (
 )
+?
 {
 let
 span
@@ -1074,6 +1088,7 @@ assert_invalid
 >
 (
 )
+?
 {
 let
 span
@@ -1145,6 +1160,7 @@ register
 >
 (
 )
+?
 {
 let
 span
@@ -1208,6 +1224,7 @@ invoke
 >
 (
 )
+?
 {
 Ok
 (
@@ -1240,6 +1257,7 @@ assert_trap
 >
 (
 )
+?
 {
 let
 span
@@ -1311,6 +1329,7 @@ assert_return
 >
 (
 )
+?
 {
 let
 span
@@ -1418,6 +1437,7 @@ assert_exhaustion
 >
 (
 )
+?
 {
 let
 span
@@ -1489,6 +1509,7 @@ assert_unlinkable
 >
 (
 )
+?
 {
 let
 span
@@ -1553,6 +1574,7 @@ assert_exception
 >
 (
 )
+?
 {
 let
 span
@@ -1731,6 +1753,7 @@ invoke
 >
 (
 )
+?
 {
 Ok
 (
@@ -1763,6 +1786,7 @@ module
 >
 (
 )
+?
 |
 |
 l
@@ -1778,6 +1802,7 @@ component
 >
 (
 )
+?
 {
 Ok
 (
@@ -1809,6 +1834,7 @@ get
 >
 (
 )
+?
 {
 parser
 .
@@ -1980,6 +2006,7 @@ component
 >
 (
 )
+?
 {
 Ok
 (
@@ -2578,6 +2605,7 @@ quote
 >
 (
 )
+?
 {
 let
 ctor
@@ -2596,6 +2624,7 @@ component
 >
 (
 )
+?
 {
 parser
 .
@@ -2826,6 +2855,7 @@ _
 >
 (
 )
+?
 {
 Ok
 (
@@ -2952,6 +2982,7 @@ _
 >
 (
 )
+?
 {
 Ok
 (

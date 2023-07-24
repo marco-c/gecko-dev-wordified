@@ -16,6 +16,7 @@ f1
 (
 elem
 declare
+func
 f1
 )
 (
@@ -118,6 +119,7 @@ funcref
 elem
 e1
 declare
+func
 f1
 )
 (
@@ -211,6 +213,7 @@ funcref
 elem
 e1
 declare
+func
 f1
 )
 (
@@ -264,6 +267,7 @@ funcref
 (
 elem
 declare
+func
 f1
 )
 (

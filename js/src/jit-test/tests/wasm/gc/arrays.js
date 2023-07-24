@@ -4214,7 +4214,7 @@ funcref
 (
 elem
 e
-funcref
+func
 f1
 f2
 f3
@@ -4362,7 +4362,7 @@ f64
 (
 elem
 e
-funcref
+func
 f1
 f2
 f3
@@ -4507,7 +4507,7 @@ f32
 (
 elem
 e
-funcref
+func
 f1
 f2
 f3
@@ -4648,7 +4648,7 @@ eqref
 (
 elem
 e
-funcref
+func
 f1
 )
 (
@@ -4788,7 +4788,7 @@ funcref
 (
 elem
 e
-funcref
+func
 f1
 f2
 f3
@@ -4971,7 +4971,7 @@ const
 0
 )
 )
-funcref
+func
 f1
 f2
 f3
@@ -5159,7 +5159,7 @@ const
 0
 )
 )
-funcref
+func
 f1
 f2
 f3
@@ -5347,7 +5347,7 @@ const
 0
 )
 )
-funcref
+func
 f1
 f2
 f3
@@ -5494,7 +5494,7 @@ funcref
 (
 elem
 e
-funcref
+func
 f1
 f2
 f3
@@ -5647,7 +5647,7 @@ funcref
 (
 elem
 e
-funcref
+func
 f1
 f2
 f3

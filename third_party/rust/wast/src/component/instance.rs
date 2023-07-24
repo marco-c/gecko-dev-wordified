@@ -430,6 +430,7 @@ LParen
 >
 (
 )
+?
 &
 &
 parser
@@ -445,6 +446,7 @@ instantiate
 >
 (
 )
+?
 {
 parser
 .
@@ -1747,6 +1749,7 @@ LParen
 >
 (
 )
+?
 &
 &
 parser
@@ -1762,6 +1765,7 @@ instantiate
 >
 (
 )
+?
 {
 parser
 .

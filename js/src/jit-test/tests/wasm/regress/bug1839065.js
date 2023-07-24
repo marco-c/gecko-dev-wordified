@@ -91,7 +91,7 @@ funcref
 (
 elem
 e
-funcref
+func
 f1
 f2
 f3

@@ -329,6 +329,7 @@ true_
 >
 (
 )
+?
 {
 p
 .
@@ -368,6 +369,7 @@ false_
 >
 (
 )
+?
 {
 p
 .
@@ -1398,6 +1400,7 @@ c
 keyword
 (
 )
+?
 {
 if
 let
@@ -1493,7 +1496,10 @@ _
 )
 -
 >
+Result
+<
 bool
+>
 {
 let
 kw
@@ -1504,6 +1510,7 @@ cursor
 keyword
 (
 )
+?
 {
 Some
 (
@@ -1519,9 +1526,14 @@ None
 =
 >
 return
+Ok
+(
 false
+)
 }
 ;
+Ok
+(
 CASES
 .
 iter
@@ -1541,6 +1553,7 @@ name
 =
 =
 kw
+)
 )
 }
 fn
