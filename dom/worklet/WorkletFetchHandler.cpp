@@ -337,6 +337,15 @@ JS
 loader
 :
 :
+ParserMetadata
+;
+using
+JS
+:
+:
+loader
+:
+:
 ScriptFetchOptions
 ;
 using
@@ -791,6 +800,10 @@ u
 "
 "
 _ns
+ParserMetadata
+:
+:
+NotParserInserted
 /
 *
 triggeringPrincipal
