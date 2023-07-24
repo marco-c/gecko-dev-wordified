@@ -82,6 +82,14 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+.
+dependencies
+import
+get_primary_dependency
 transforms
 =
 TransformSequence
@@ -135,6 +143,16 @@ in
 jobs
 :
         
+if
+"
+primary
+-
+dependency
+"
+in
+job
+:
+            
 dep_job
 =
 job
@@ -145,6 +163,17 @@ primary
 dependency
 "
 ]
+        
+else
+:
+            
+dep_job
+=
+get_primary_dependency
+(
+config
+job
+)
         
 attr
 =
