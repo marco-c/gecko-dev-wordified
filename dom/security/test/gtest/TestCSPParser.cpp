@@ -1969,6 +1969,11 @@ sha256
 siVR8
 '
 '
+strict
+-
+dynamic
+'
+'
 unsafe
 -
 inline
