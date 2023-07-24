@@ -30469,6 +30469,15 @@ MDefinition
 Opcode
 :
 :
+LoadElementHole
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 StoreElement
 :
 case
