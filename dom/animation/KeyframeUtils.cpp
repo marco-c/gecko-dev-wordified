@@ -5034,6 +5034,10 @@ ParseProperty
 aProperty
 aStringValue
 env
+StyleParsingMode
+:
+:
+DEFAULT
 )
 ;
 if

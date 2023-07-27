@@ -1945,6 +1945,13 @@ Eq
 PartialEq
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 ParsingMode

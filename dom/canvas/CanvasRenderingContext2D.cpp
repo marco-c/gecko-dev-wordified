@@ -14806,6 +14806,10 @@ ParseProperty
 aProperty
 aPropertyValue
 env
+StyleParsingMode
+:
+:
+DEFAULT
 )
 ;
 if
@@ -14883,10 +14887,10 @@ false
 env
 .
 mUrlExtraData
-ParsingMode
+StyleParsingMode
 :
 :
-Default
+DEFAULT
 env
 .
 mCompatMode
@@ -15364,10 +15368,10 @@ eCSSProperty_font_size
 computedFontSize
 false
 nullptr
-ParsingMode
+StyleParsingMode
 :
 :
-Default
+DEFAULT
 eCompatibility_FullStandards
 nullptr
 StyleCssRuleType

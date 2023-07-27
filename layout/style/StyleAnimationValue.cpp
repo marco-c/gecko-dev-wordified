@@ -1226,6 +1226,10 @@ GetParsingEnvironment
 (
 doc
 )
+StyleParsingMode
+:
+:
+DEFAULT
 )
 ;
 if

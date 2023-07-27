@@ -1652,10 +1652,10 @@ aIsImportant
 env
 .
 mUrlExtraData
-ParsingMode
+StyleParsingMode
 :
 :
-Default
+DEFAULT
 env
 .
 mCompatMode
@@ -1767,10 +1767,10 @@ aIsImportant
 env
 .
 mUrlExtraData
-ParsingMode
+StyleParsingMode
 :
 :
-Default
+DEFAULT
 env
 .
 mCompatMode

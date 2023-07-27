@@ -567,10 +567,10 @@ is_important
 /
 false
 data
-ParsingMode
+StyleParsingMode
 :
 :
-Default
+DEFAULT
 eCompatibility_FullStandards
 nullptr
 STYLE_RULE
@@ -682,10 +682,10 @@ is_important
 /
 false
 data
-ParsingMode
+StyleParsingMode
 :
 :
-Default
+DEFAULT
 eCompatibility_FullStandards
 nullptr
 STYLE_RULE
