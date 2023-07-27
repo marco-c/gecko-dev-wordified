@@ -205,15 +205,6 @@ ToString
 h
 "
 #
-include
-"
-mozilla
-/
-WindowsVersion
-.
-h
-"
-#
 ifndef
 IME_PROP_ACCEPT_WIDE_VKEY
 #
@@ -1990,11 +1981,6 @@ reports
 .
 if
 (
-IsWin8OrLater
-(
-)
-&
-&
 (
 IsATOK2006Active
 (
