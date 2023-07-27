@@ -2292,7 +2292,7 @@ metaKey
 aEvent
 aEvent
 .
-mozInputSource
+inputSource
 )
 ;
 node

@@ -1812,7 +1812,7 @@ uint16_t
 MouseEvent
 :
 :
-MozInputSource
+InputSource
 (
 )
 const

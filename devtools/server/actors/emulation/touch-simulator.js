@@ -868,7 +868,7 @@ button
 |
 evt
 .
-mozInputSource
+inputSource
 !
 =
 evt

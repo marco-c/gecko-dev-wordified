@@ -972,7 +972,7 @@ metaKey
 event
 event
 .
-mozInputSource
+inputSource
 )
 ;
 node

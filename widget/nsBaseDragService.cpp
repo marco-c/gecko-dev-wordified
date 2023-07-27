@@ -3009,7 +3009,7 @@ mInputSource
 aDragEvent
 -
 >
-MozInputSource
+InputSource
 (
 )
 ;
@@ -3318,7 +3318,7 @@ mInputSource
 aDragEvent
 -
 >
-MozInputSource
+InputSource
 (
 )
 ;
@@ -3486,7 +3486,7 @@ mInputSource
 aDragEvent
 -
 >
-MozInputSource
+InputSource
 (
 )
 ;

@@ -21500,7 +21500,7 @@ _fullyOpen
 triggeringEvent
 ?
 .
-mozInputSource
+inputSource
 =
 =
 MouseEvent

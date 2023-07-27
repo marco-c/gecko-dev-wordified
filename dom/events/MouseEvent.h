@@ -594,7 +594,7 @@ MozPressure
 const
 ;
 uint16_t
-MozInputSource
+InputSource
 (
 )
 const
