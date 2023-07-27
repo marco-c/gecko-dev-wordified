@@ -756,7 +756,7 @@ ResolveLocalRef
 (
 nsIURI
 *
-aURI
+aBase
 )
 const
 {
@@ -796,7 +796,7 @@ rv
 =
 NS_MutateURI
 (
-aURI
+aBase
 )
 .
 SetRef
@@ -832,7 +832,7 @@ URI
 .
 result
 =
-aURI
+aBase
 ;
 }
 }
@@ -9719,34 +9719,28 @@ nsChangeHint_ReconstructFrame
 }
 if
 (
-(
 mCaptionSide
 =
 =
 aNewData
 .
 mCaptionSide
-)
 &
 &
-(
 mBorderSpacingCol
 =
 =
 aNewData
 .
 mBorderSpacingCol
-)
 &
 &
-(
 mBorderSpacingRow
 =
 =
 aNewData
 .
 mBorderSpacingRow
-)
 )
 {
 if
@@ -9770,12 +9764,9 @@ return
 NS_STYLE_HINT_VISUAL
 ;
 }
-else
-{
 return
 NS_STYLE_HINT_REFLOW
 ;
-}
 }
 template
 <
@@ -10196,6 +10187,7 @@ Nothing
 )
 ;
 }
+const
 auto
 &
 rect
@@ -10923,6 +10915,7 @@ IsResolved
 return
 ;
 }
+const
 auto
 *
 old
@@ -10938,6 +10931,7 @@ GetImageRequestURLValue
 :
 nullptr
 ;
+const
 auto
 *
 url
@@ -12703,13 +12697,16 @@ IsExplicitSize
 )
 )
 ;
+const
 auto
 &
 size
 =
 aSize
 .
-explicit_size
+AsExplicitSize
+(
+)
 ;
 /
 /
@@ -13885,6 +13882,7 @@ StyleImage
 aOtherImage
 )
 {
+const
 auto
 *
 url
@@ -13895,6 +13893,7 @@ GetImageRequestURLValue
 (
 )
 ;
+const
 auto
 *
 other
@@ -15611,6 +15610,7 @@ IsImage
 )
 )
 {
+const
 auto
 *
 old
@@ -19385,6 +19385,7 @@ Length
 i
 )
 {
+const
 auto
 &
 item
@@ -19407,6 +19408,7 @@ IsImage
 continue
 ;
 }
+const
 auto
 &
 image
@@ -19417,6 +19419,7 @@ AsImage
 (
 )
 ;
+const
 auto
 *
 oldImage
@@ -21290,6 +21293,7 @@ Length
 i
 )
 {
+const
 auto
 &
 cursor
@@ -22746,6 +22750,7 @@ return
 false
 ;
 }
+const
 auto
 &
 oldRect
@@ -22756,6 +22761,7 @@ AsRect
 (
 )
 ;
+const
 auto
 &
 newRect
@@ -23371,6 +23377,7 @@ Tag
 Translate3D
 :
 {
+const
 auto
 &
 translate
@@ -23431,6 +23438,7 @@ Tag
 Translate
 :
 {
+const
 auto
 &
 translate
@@ -23470,6 +23478,7 @@ Tag
 AccumulateMatrix
 :
 {
+const
 auto
 &
 accum
@@ -23509,6 +23518,7 @@ Tag
 InterpolateMatrix
 :
 {
+const
 auto
 &
 interpolate
@@ -23814,6 +23824,7 @@ Tag
 Leaf
 :
 {
+const
 auto
 &
 leaf
@@ -23878,6 +23889,7 @@ Tag
 Clamp
 :
 {
+const
 auto
 &
 clamp
@@ -23992,6 +24004,7 @@ MinMax
 {
 for
 (
+const
 auto
 &
 child
@@ -24025,6 +24038,7 @@ Sum
 {
 for
 (
+const
 auto
 &
 child
