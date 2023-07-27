@@ -1201,7 +1201,7 @@ visitor
 )
 override
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 JPEG
@@ -1431,7 +1431,7 @@ jpeg_data
 /
 )
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 JPEG

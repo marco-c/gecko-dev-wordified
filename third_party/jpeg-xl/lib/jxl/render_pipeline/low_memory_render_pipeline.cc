@@ -2559,7 +2559,7 @@ SwitchToImageDimensions
 )
 )
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Cannot

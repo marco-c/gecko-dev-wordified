@@ -181,7 +181,13 @@ subnormal
 )
 *
 (
+static_cast
+<
+float
+>
+(
 mantissa
+)
 *
 (
 1

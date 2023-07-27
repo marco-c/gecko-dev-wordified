@@ -141,6 +141,11 @@ SizeConstraints
 namespace
 extras
 {
+bool
+CanDecodeEXR
+(
+)
+;
 /
 /
 Decodes

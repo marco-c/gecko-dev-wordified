@@ -7445,7 +7445,7 @@ break
 ;
 default
 :
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Unknown

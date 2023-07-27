@@ -2540,7 +2540,7 @@ fields
 )
 )
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Init
@@ -2577,7 +2577,7 @@ fields
 )
 )
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 SetDefault
@@ -2615,7 +2615,7 @@ fields
 )
 )
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 AllDefault

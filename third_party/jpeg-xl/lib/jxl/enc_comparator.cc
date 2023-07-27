@@ -554,6 +554,8 @@ diffmap
 ThreadPool
 *
 pool
+bool
+ignore_alpha
 )
 {
 /
@@ -680,6 +682,10 @@ Butteraugli
 .
 if
 (
+ignore_alpha
+|
+|
+(
 !
 rgb0
 .
@@ -693,6 +699,7 @@ rgb1
 .
 HasAlpha
 (
+)
 )
 )
 {

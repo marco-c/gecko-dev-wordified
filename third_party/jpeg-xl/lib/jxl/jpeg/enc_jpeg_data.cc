@@ -1792,6 +1792,13 @@ move
 (
 icc_profile
 )
+/
+*
+cms
+=
+*
+/
+nullptr
 )
 ;
 }

@@ -472,6 +472,8 @@ distmap
 ThreadPool
 *
 pool
+bool
+ignore_alpha
 )
 {
 JxlButteraugliComparator
@@ -491,6 +493,7 @@ comparator
 cms
 distmap
 pool
+ignore_alpha
 )
 ;
 }

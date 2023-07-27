@@ -1274,7 +1274,7 @@ a
 programming
 error
 .
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Invalid

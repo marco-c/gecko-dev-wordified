@@ -4151,7 +4151,7 @@ Type
 :
 kNumValidStrategies
 :
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Invalid
@@ -5421,7 +5421,7 @@ Type
 :
 kNumValidStrategies
 :
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Invalid

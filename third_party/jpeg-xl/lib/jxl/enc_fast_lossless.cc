@@ -1483,6 +1483,9 @@ nb_chans
 4
 )
 ;
+#
+if
+FJXL_STANDALONE
 if
 (
 add_image_header
@@ -2180,6 +2183,16 @@ ZeroPadToByte
 )
 ;
 }
+#
+else
+assert
+(
+!
+add_image_header
+)
+;
+#
+endif
 /
 /
 Handcrafted
@@ -30516,6 +30529,9 @@ extern
 C
 "
 {
+#
+if
+FJXL_STANDALONE
 size_t
 JxlFastLosslessEncode
 (
@@ -30649,6 +30665,8 @@ return
 total
 ;
 }
+#
+endif
 JxlFastLosslessFrameState
 *
 JxlFastLosslessPrepareFrame

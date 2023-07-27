@@ -224,6 +224,13 @@ jxl
 {
 namespace
 {
+#
+if
+!
+JXL_IS_DEBUG_BUILD
+constexpr
+#
+endif
 bool
 ans_fuzzer_friendly_
 =
@@ -11861,7 +11868,7 @@ tokens_lz77
 }
 else
 {
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Not

@@ -1099,6 +1099,15 @@ ppf
 icc
 )
 ;
+const
+JxlCmsInterface
+&
+cms
+=
+GetJxlCms
+(
+)
+;
 if
 (
 !
@@ -1120,6 +1129,8 @@ move
 (
 icc
 )
+&
+cms
 )
 )
 {

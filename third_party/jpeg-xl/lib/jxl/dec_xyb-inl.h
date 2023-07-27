@@ -3003,7 +3003,7 @@ void
 )
 xsize
 ;
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Unreachable

@@ -414,6 +414,10 @@ ThreadPool
 pool
 =
 nullptr
+bool
+ignore_alpha
+=
+false
 )
 ;
 }

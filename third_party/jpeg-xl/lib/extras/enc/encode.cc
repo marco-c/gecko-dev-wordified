@@ -61,9 +61,6 @@ include
 locale
 >
 #
-if
-JPEGXL_ENABLE_APNG
-#
 include
 "
 lib
@@ -76,11 +73,6 @@ apng
 .
 h
 "
-#
-endif
-#
-if
-JPEGXL_ENABLE_EXR
 #
 include
 "
@@ -95,11 +87,6 @@ exr
 h
 "
 #
-endif
-#
-if
-JPEGXL_ENABLE_JPEG
-#
 include
 "
 lib
@@ -112,8 +99,6 @@ jpg
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1061,9 +1046,6 @@ classic
 }
 )
 ;
-#
-if
-JPEGXL_ENABLE_APNG
 if
 (
 extension
@@ -1088,11 +1070,6 @@ GetAPNGEncoder
 (
 )
 ;
-#
-endif
-#
-if
-JPEGXL_ENABLE_JPEG
 if
 (
 extension
@@ -1123,8 +1100,6 @@ GetJPEGEncoder
 (
 )
 ;
-#
-endif
 if
 (
 extension
@@ -1215,9 +1190,6 @@ GetPFMEncoder
 (
 )
 ;
-#
-if
-JPEGXL_ENABLE_EXR
 if
 (
 extension
@@ -1233,8 +1205,6 @@ GetEXREncoder
 (
 )
 ;
-#
-endif
 return
 nullptr
 ;

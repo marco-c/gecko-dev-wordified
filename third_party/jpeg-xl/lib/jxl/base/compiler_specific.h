@@ -312,7 +312,7 @@ if
 JXL_COMPILER_MSVC
 #
 define
-JXL_UNREACHABLE
+JXL_UNREACHABLE_BUILTIN
 __assume
 (
 false
@@ -328,7 +328,7 @@ JXL_COMPILER_GCC
 405
 #
 define
-JXL_UNREACHABLE
+JXL_UNREACHABLE_BUILTIN
 __builtin_unreachable
 (
 )
@@ -336,7 +336,7 @@ __builtin_unreachable
 else
 #
 define
-JXL_UNREACHABLE
+JXL_UNREACHABLE_BUILTIN
 #
 endif
 #

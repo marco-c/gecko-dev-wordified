@@ -150,6 +150,11 @@ SizeConstraints
 namespace
 extras
 {
+bool
+CanDecodeJPG
+(
+)
+;
 struct
 JPGDecompressParams
 {

@@ -788,6 +788,9 @@ cinfo
 .
 in_color_space
 =
+(
+J_COLOR_SPACE
+)
 input
 .
 color_space

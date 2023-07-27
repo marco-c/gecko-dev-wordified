@@ -148,6 +148,11 @@ SizeConstraints
 namespace
 extras
 {
+bool
+CanDecodeAPNG
+(
+)
+;
 /
 /
 Decodes

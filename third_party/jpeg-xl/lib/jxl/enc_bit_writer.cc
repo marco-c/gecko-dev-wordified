@@ -235,7 +235,7 @@ not
 be
 reclaimed
 .
-JXL_ABORT
+JXL_UNREACHABLE
 (
 "
 Did

@@ -150,15 +150,6 @@ hwy
 HWY_NAMESPACE
 :
 :
-ShiftRight
-;
-using
-hwy
-:
-:
-HWY_NAMESPACE
-:
-:
 Vec
 ;
 using
