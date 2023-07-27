@@ -21719,9 +21719,6 @@ browser
 mt
 /
 .
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -21734,8 +21731,6 @@ enable
 true
 )
 ;
-#
-endif
 /
 /
 Telemetry
