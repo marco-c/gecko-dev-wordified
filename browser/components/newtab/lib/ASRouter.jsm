@@ -1139,6 +1139,9 @@ pbNewtab
 "
 spotlight
 "
+"
+featureCallout
+"
 ]
 ;
 /
@@ -1214,6 +1217,9 @@ infobar
 "
 "
 spotlight
+"
+"
+featureCallout
 "
 ]
 ;
