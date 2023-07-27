@@ -923,11 +923,8 @@ between
 shape
 -
 outside
-clip
--
-path
 and
-offset
+clip
 -
 path
 .
