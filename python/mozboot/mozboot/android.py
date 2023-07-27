@@ -326,7 +326,7 @@ JAVA_VERSION_MINOR
 "
 0
 .
-7
+8
 "
 JAVA_VERSION_PATCH
 =
@@ -5775,7 +5775,7 @@ jdk
 .
 0
 .
-7
+8
 %
 2B7
 /
@@ -5785,7 +5785,7 @@ jre_x64_linux_hotspot_17
 .
 0
 .
-7_7
+8_7
 .
 tar
 .
@@ -5931,7 +5931,7 @@ jdk
 .
 0
 .
-7
+8
 +
 7
     
