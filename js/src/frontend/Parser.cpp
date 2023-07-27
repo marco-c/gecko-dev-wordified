@@ -4985,7 +4985,11 @@ go
 through
 "
 "
-tryDeclareVarForAnnexBLexicalFunction
+addPossibleAnnexBFunctionBox
+and
+"
+"
+propagateAndMarkAnnexBFunctionBoxes
 "
 )
 ;
