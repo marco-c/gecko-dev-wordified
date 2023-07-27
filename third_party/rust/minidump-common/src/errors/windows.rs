@@ -15,10 +15,10 @@ non_upper_case_globals
 )
 ]
 use
-enum_primitive_derive
+num_derive
 :
 :
-Primitive
+FromPrimitive
 ;
 /
 /
@@ -92,7 +92,7 @@ Clone
 PartialEq
 Eq
 Debug
-Primitive
+FromPrimitive
 )
 ]
 pub
@@ -470,7 +470,7 @@ Clone
 PartialEq
 Eq
 Debug
-Primitive
+FromPrimitive
 )
 ]
 pub
@@ -713,7 +713,7 @@ Clone
 PartialEq
 Eq
 Debug
-Primitive
+FromPrimitive
 )
 ]
 pub
@@ -9457,7 +9457,7 @@ Clone
 PartialEq
 Eq
 Debug
-Primitive
+FromPrimitive
 )
 ]
 pub
@@ -18205,7 +18205,7 @@ Clone
 PartialEq
 Eq
 Debug
-Primitive
+FromPrimitive
 )
 ]
 pub
@@ -18506,7 +18506,7 @@ Clone
 PartialEq
 Eq
 Debug
-Primitive
+FromPrimitive
 )
 ]
 pub
@@ -18612,7 +18612,7 @@ Clone
 PartialEq
 Eq
 Debug
-Primitive
+FromPrimitive
 )
 ]
 pub
