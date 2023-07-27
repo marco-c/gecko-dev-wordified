@@ -2197,15 +2197,6 @@ IsWin10OrLater
 (
 )
 )
-&
-&
-!
-StaticPrefs
-:
-:
-media_wmf_low_latency_force_disabled
-(
-)
 ;
 if
 (
