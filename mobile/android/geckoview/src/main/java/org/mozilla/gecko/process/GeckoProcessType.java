@@ -199,7 +199,6 @@ mGeckoName
 WrapForJNI
 private
 static
-final
 GeckoProcessType
 fromInt
 (
