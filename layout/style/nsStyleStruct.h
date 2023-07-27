@@ -1007,9 +1007,6 @@ mozilla
 Length
 mScriptMinSize
 ;
-float
-mScriptSizeMultiplier
-;
 RefPtr
 <
 nsAtom
