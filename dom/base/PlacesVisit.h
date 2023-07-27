@@ -304,6 +304,15 @@ aPageGuid
 mPageGuid
 ;
 }
+uint64_t
+Frecency
+(
+)
+{
+return
+mFrecency
+;
+}
 bool
 Hidden
 (
@@ -404,6 +413,9 @@ mTransitionType
 ;
 nsCString
 mPageGuid
+;
+int64_t
+mFrecency
 ;
 bool
 mHidden

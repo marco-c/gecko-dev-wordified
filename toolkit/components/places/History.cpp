@@ -3488,6 +3488,15 @@ guid
 visitEvent
 -
 >
+mFrecency
+=
+aPlace
+.
+frecency
+;
+visitEvent
+-
+>
 mHidden
 =
 aPlace

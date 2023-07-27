@@ -607,6 +607,8 @@ const
 nsAString
 &
 aLastKnownTitle
+int64_t
+aFrecency
 )
 ;
 void
@@ -2438,7 +2440,7 @@ for
 URI
 nodes
 .
-int32_t
+int64_t
 mFrecency
 ;
 /
@@ -4073,8 +4075,20 @@ PRTime
 aTime
 uint32_t
 aTransitionType
+const
+nsACString
+&
+aGUID
 bool
 aHidden
+uint32_t
+aVisitCount
+const
+nsAString
+&
+aLastKnownTitle
+int64_t
+aFrecency
 uint32_t
 *
 aAdded
@@ -4556,6 +4570,8 @@ int64_t
 aVisitId
 PRTime
 aTime
+int64_t
+aFrecency
 )
 ;
 virtual

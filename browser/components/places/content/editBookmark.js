@@ -2368,7 +2368,7 @@ showOrCollapse
 "
 tagsRow
 "
-isURI
+isBookmark
 |
 |
 bulkTagging
