@@ -7460,7 +7460,10 @@ HelperThreadTaskHandler
 :
 Task
 (
-false
+Kind
+:
+:
+OffMainThreadOnly
 EventQueuePriority
 :
 :
