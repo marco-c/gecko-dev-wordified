@@ -14061,6 +14061,9 @@ load
 -
 insecure
 "
+forcedHTTP
+:
+true
 }
 ;
 gSubDialog
