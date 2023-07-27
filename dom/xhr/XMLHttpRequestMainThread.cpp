@@ -8214,7 +8214,7 @@ WarnOnceAbout
 DeprecatedOperations
 :
 :
-eSyncXMLHttpRequest
+eSyncXMLHttpRequestDeprecated
 )
 ;
 }
