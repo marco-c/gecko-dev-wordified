@@ -219,7 +219,7 @@ split
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
