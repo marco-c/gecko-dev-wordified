@@ -2137,6 +2137,16 @@ return
 invalidateEpilogueDataOffset_
 ;
 }
+uint32_t
+numFixableBailouts
+(
+)
+const
+{
+return
+numFixableBailouts_
+;
+}
 void
 incNumFixableBailouts
 (
