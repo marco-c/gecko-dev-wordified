@@ -68,6 +68,9 @@ ffi
 mod
 resource
 ;
+mod
+text_elements
+;
 pub
 use
 bundle
