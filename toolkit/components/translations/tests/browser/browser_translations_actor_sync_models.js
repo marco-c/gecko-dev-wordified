@@ -117,9 +117,6 @@ toLang
 "
 es
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -132,9 +129,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 ]
 }
@@ -471,9 +465,6 @@ toLang
 "
 es
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -486,9 +477,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 ]
 }
@@ -754,9 +742,6 @@ toLang
 "
 es
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -769,9 +754,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 ]
 }

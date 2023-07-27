@@ -106,9 +106,6 @@ toLang
 "
 fr
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -121,9 +118,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 /
 /
@@ -147,9 +141,6 @@ toLang
 "
 en
 "
-isBeta
-:
-true
 }
 ]
 runInPage
@@ -720,9 +711,6 @@ toLang
 "
 fr
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -735,9 +723,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 ]
 prefs
@@ -1146,9 +1131,6 @@ toLang
 "
 fr
 "
-isBeta
-:
-false
 }
 {
 fromLang
@@ -1161,9 +1143,6 @@ toLang
 "
 en
 "
-isBeta
-:
-false
 }
 ]
 prefs
