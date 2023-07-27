@@ -1179,9 +1179,10 @@ main
 from
 mach
 .
-main
+command_util
 import
 MachCommandReference
+load_commands_from_spec
     
 #
 Centralized
@@ -1777,8 +1778,6 @@ might
 not
 exist
     
-mach
-.
 load_commands_from_spec
 (
 MACH_COMMANDS
