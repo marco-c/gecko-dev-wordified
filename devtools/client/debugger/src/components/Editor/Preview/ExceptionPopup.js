@@ -437,9 +437,9 @@ e
 /
 When
 the
-stacktrace
+stactrace
 is
-expanded
+expaned
 the
 exception
 popup
@@ -465,13 +465,6 @@ closest
 (
 POPUP_SELECTOR
 )
-&
-&
-this
-.
-props
-.
-clearPreview
 )
 {
 this
