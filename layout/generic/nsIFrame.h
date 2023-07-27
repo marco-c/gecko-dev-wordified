@@ -3064,8 +3064,7 @@ level
 indicating
 nonexistence
 .
-static
-const
+constexpr
 mozilla
 :
 :
@@ -3074,14 +3073,6 @@ intl
 :
 BidiEmbeddingLevel
 kBidiLevelNone
-=
-mozilla
-:
-:
-intl
-:
-:
-BidiEmbeddingLevel
 (
 0xff
 )
