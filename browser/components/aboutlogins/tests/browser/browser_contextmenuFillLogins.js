@@ -393,6 +393,15 @@ edit
 button
 "
 )
+.
+shadowRoot
+.
+querySelector
+(
+"
+button
+"
+)
 ;
 editButton
 .
