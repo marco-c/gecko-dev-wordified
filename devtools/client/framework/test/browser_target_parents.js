@@ -744,7 +744,7 @@ initialize
 )
 |
 |
-targetFront
+workerDescriptorFront
 .
 isDestroyed
 (
