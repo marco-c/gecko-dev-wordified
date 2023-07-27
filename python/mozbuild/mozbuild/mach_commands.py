@@ -100,8 +100,6 @@ mozpack
 path
 as
 mozpath
-import
-yaml
 from
 mach
 .
@@ -1384,6 +1382,9 @@ subcommand_args
 ]
 )
 :
+    
+import
+yaml
     
 from
 mozbuild
