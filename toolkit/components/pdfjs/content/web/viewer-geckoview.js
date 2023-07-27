@@ -2448,7 +2448,7 @@ args
 fallback
 )
 {
-var
+const
 i
 =
 key
@@ -2460,7 +2460,7 @@ lastIndexOf
 "
 )
 ;
-var
+let
 name
 property
 ;
@@ -2507,7 +2507,7 @@ textContent
 "
 ;
 }
-var
+const
 data
 =
 getL10nData
@@ -2515,13 +2515,12 @@ getL10nData
 name
 )
 ;
-var
+const
 value
 =
 data
-&
-&
-data
+?
+.
 [
 property
 ]
@@ -2567,10 +2566,7 @@ if
 (
 !
 element
-|
-|
-!
-element
+?
 .
 dataset
 )
@@ -2578,7 +2574,7 @@ dataset
 return
 ;
 }
-var
+const
 key
 =
 element
@@ -2587,7 +2583,7 @@ dataset
 .
 l10nId
 ;
-var
+const
 data
 =
 getL10nData
@@ -2604,7 +2600,7 @@ data
 return
 ;
 }
-var
+let
 args
 ;
 if
@@ -2660,7 +2656,7 @@ key
 }
 for
 (
-var
+const
 k
 in
 data
@@ -2689,10 +2685,9 @@ element
 )
 {
 element
+|
+|
 =
-element
-|
-|
 document
 .
 querySelector
@@ -2702,7 +2697,7 @@ html
 "
 )
 ;
-var
+const
 children
 =
 element
@@ -2721,7 +2716,7 @@ id
 "
 )
 ;
-var
+const
 elementCount
 =
 children
@@ -2730,7 +2725,7 @@ length
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2789,7 +2784,7 @@ getDirection
 (
 )
 {
-var
+const
 rtlList
 =
 [
@@ -2810,7 +2805,7 @@ ur
 "
 ]
 ;
-var
+const
 shortCode
 =
 gLanguage
@@ -20240,10 +20235,6 @@ kind
 OptionKind
 .
 VIEWER
-+
-OptionKind
-.
-PREFERENCE
 }
 viewerCssTheme
 :
@@ -23123,7 +23114,6 @@ zoomArg
 ;
 }
 else
-{
 if
 (
 zoomArg
@@ -23328,7 +23318,6 @@ value
 .
 )
 ;
-}
 }
 }
 if
@@ -28391,7 +28380,6 @@ true
 }
 }
 else
-{
 if
 (
 JSON
@@ -28414,7 +28402,6 @@ prevQuery
 return
 true
 ;
-}
 }
 switch
 (
@@ -37688,7 +37675,7 @@ viewerVersion
 .
 9
 .
-104
+130
 '
 ;
 if
@@ -58667,11 +58654,6 @@ textLayerMode
 :
 1
 "
-useOnlyCssZoom
-"
-:
-false
-"
 viewerCssTheme
 "
 :
@@ -59696,14 +59678,14 @@ pdfjsVersion
 .
 9
 .
-104
+130
 '
 ;
 const
 pdfjsBuild
 =
 '
-2a508b95e
+71f113bf8
 '
 ;
 const

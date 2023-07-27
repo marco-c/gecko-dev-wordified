@@ -729,7 +729,7 @@ workerVersion
 .
 9
 .
-104
+130
 '
 ;
 if
@@ -2832,6 +2832,14 @@ ensureDoc
 startXRef
 "
 )
+pdfManager
+.
+ensureDoc
+(
+"
+linearization
+"
+)
 ]
 ;
 const
@@ -3083,6 +3091,7 @@ stream
 acroForm
 acroFormRef
 startXRef
+linearization
 .
 .
 .
@@ -3483,6 +3492,10 @@ ID
 |
 |
 null
+startXRef
+:
+linearization
+?
 startXRef
 :
 xref
@@ -17673,7 +17686,6 @@ length
 }
 }
 else
-{
 if
 (
 start
@@ -17691,7 +17703,6 @@ ensureByte
 start
 )
 ;
-}
 }
 function
 ChunkedStreamSubstream
@@ -37558,6 +37569,28 @@ false
 ;
 }
 const
+isUsingOwnCanvas
+=
+!
+!
+(
+this
+.
+data
+.
+hasOwnCanvas
+&
+&
+intent
+&
+_util
+.
+RenderingIntentFlag
+.
+DISPLAY
+)
+;
+const
 matrix
 =
 [
@@ -37703,7 +37736,7 @@ getRotationMatrix
 (
 annotationStorage
 )
-false
+isUsingOwnCanvas
 ]
 )
 ;
@@ -37783,7 +37816,7 @@ separateForm
 false
 separateCanvas
 :
-false
+isUsingOwnCanvas
 }
 ;
 }
@@ -41079,6 +41112,12 @@ return
 this
 .
 appearance
+&
+&
+!
+this
+.
+_needAppearances
 ;
 }
 _getCombAppearance
@@ -41692,7 +41731,6 @@ i
 }
 }
 else
-{
 if
 (
 currentWidth
@@ -41777,7 +41815,6 @@ currentWidth
 =
 glyphWidth
 ;
-}
 }
 }
 if
@@ -57926,7 +57963,6 @@ key
 }
 }
 else
-{
 if
 (
 !
@@ -57974,7 +58010,6 @@ bpc
 0
 )
 ;
-}
 }
 if
 (
@@ -236409,7 +236444,6 @@ i
 ;
 }
 else
-{
 if
 (
 flags
@@ -236458,7 +236492,6 @@ i
 +
 ]
 ;
-}
 }
 if
 (
@@ -262272,7 +262305,6 @@ size
 }
 }
 else
-{
 if
 (
 !
@@ -262315,7 +262347,6 @@ size
 =
 2
 ;
-}
 }
 return
 size
@@ -262390,7 +262421,6 @@ ARG_1_AND_2_ARE_WORDS
 }
 }
 else
-{
 if
 (
 !
@@ -262435,7 +262465,6 @@ flags
 =
 ARG_1_AND_2_ARE_WORDS
 ;
-}
 }
 buf
 .
@@ -325214,7 +325243,6 @@ i
 }
 }
 else
-{
 if
 (
 t
@@ -325252,7 +325280,6 @@ i
 =
 1
 ;
-}
 }
 }
 let
@@ -340349,6 +340376,9 @@ hasXfa
 |
 !
 xfaDatasetsRef
+|
+|
+hasXfaDatasetsEntry
 )
 )
 {
@@ -399401,7 +399431,6 @@ strokeWidth
 ;
 }
 else
-{
 if
 (
 this
@@ -399459,7 +399488,6 @@ y2
 0
 ]
 ;
-}
 }
 const
 line
@@ -454260,6 +454288,11 @@ __w_pdfjs_require__
 class
 XRef
 {
+#
+firstXRefStmPos
+=
+null
+;
 constructor
 (
 stream
@@ -457872,6 +457905,15 @@ push
 obj
 )
 ;
+this
+.
+#
+firstXRefStmPos
+?
+?
+=
+obj
+;
 }
 }
 else
@@ -458155,6 +458197,13 @@ lastXRefStreamPos
 return
 this
 .
+#
+firstXRefStmPos
+?
+?
+(
+this
+.
 _xrefStms
 .
 size
@@ -458174,6 +458223,7 @@ _xrefStms
 )
 :
 null
+)
 ;
 }
 getEntry
@@ -462905,14 +462955,14 @@ pdfjsVersion
 .
 9
 .
-104
+130
 '
 ;
 const
 pdfjsBuild
 =
 '
-2a508b95e
+71f113bf8
 '
 ;
 }
