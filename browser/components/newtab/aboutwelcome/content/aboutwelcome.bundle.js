@@ -3181,6 +3181,11 @@ negotiatedLanguage
 langPackInstallPhase
 :
 langPackInstallPhase
+forceHideStepsIndicator
+:
+screen
+.
+force_hide_steps_indicator
 }
 )
 :
@@ -4960,6 +4965,13 @@ this
 props
 .
 autoAdvance
+forceHideStepsIndicator
+:
+this
+.
+props
+.
+forceHideStepsIndicator
 }
 )
 ;
@@ -6535,6 +6547,11 @@ langPackInstallPhase
 props
 .
 langPackInstallPhase
+forceHideStepsIndicator
+:
+props
+.
+forceHideStepsIndicator
 }
 )
 ;
@@ -8750,6 +8767,7 @@ isTheme
 isFirstScreen
 isLastScreen
 isSingleScreen
+forceHideStepsIndicator
 }
 =
 this
@@ -8823,6 +8841,9 @@ video_container
 |
 |
 isSingleScreen
+|
+|
+forceHideStepsIndicator
 ;
 const
 textColorClass
