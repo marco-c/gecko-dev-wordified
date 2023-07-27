@@ -2379,6 +2379,10 @@ id
 "
 a
 "
+href
+=
+"
+"
 aria
 -
 label
@@ -2472,6 +2476,10 @@ id
 a
 -
 img
+"
+href
+=
+"
 "
 aria
 -

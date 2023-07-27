@@ -348,6 +348,17 @@ return
 false
 ;
 }
+/
+/
+LocalAccessible
+virtual
+role
+NativeRole
+(
+)
+const
+override
+;
 protected
 :
 /
