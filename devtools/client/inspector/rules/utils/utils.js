@@ -909,14 +909,13 @@ type
 VIEW_NODE_CSS_QUERY_CONTAINER
 ;
 const
-li
+containerQueryEl
 =
 node
 .
 closest
 (
 "
-li
 .
 container
 -
@@ -929,7 +928,7 @@ value
 {
 ancestorIndex
 :
-li
+containerQueryEl
 .
 getAttribute
 (
