@@ -106,6 +106,15 @@ STRIPPED_PERMS
 "
 cookie
 "
+"
+https
+-
+only
+-
+load
+-
+insecure
+"
 ]
 ;
 let
@@ -1063,9 +1072,6 @@ ALLOW_ACTION
 )
 ;
 }
-}
-)
-;
 /
 /
 Cleanup
@@ -1073,6 +1079,9 @@ pm
 .
 removeAll
 (
+)
+;
+}
 )
 ;
 }
