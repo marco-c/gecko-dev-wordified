@@ -4796,7 +4796,7 @@ manage
 -
 language
 -
-download
+install
 -
 button
 "
@@ -4824,7 +4824,7 @@ manage
 -
 language
 -
-delete
+remove
 -
 button
 "
@@ -4864,7 +4864,7 @@ manage
 -
 language
 -
-download
+install
 -
 button
 "
@@ -4892,7 +4892,7 @@ manage
 -
 language
 -
-delete
+remove
 -
 button
 "
