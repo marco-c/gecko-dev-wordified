@@ -198,7 +198,6 @@ import
 {
 getTestState
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -237,10 +236,6 @@ setupTestBrowserHooks
 (
 )
 ;
-setupTestPageAndContextHooks
-(
-)
-;
 it
 (
 '
@@ -265,6 +260,7 @@ const
 browser
 }
 =
+await
 getTestState
 (
 )
@@ -397,6 +393,7 @@ page
 context
 }
 =
+await
 getTestState
 (
 )
@@ -462,6 +459,7 @@ const
 browser
 }
 =
+await
 getTestState
 (
 )
@@ -541,6 +539,7 @@ page
 browser
 }
 =
+await
 getTestState
 (
 )
@@ -674,6 +673,7 @@ server
 context
 }
 =
+await
 getTestState
 (
 )
@@ -853,6 +853,7 @@ server
 context
 }
 =
+await
 getTestState
 (
 )
@@ -1187,6 +1188,7 @@ server
 context
 }
 =
+await
 getTestState
 (
 )
@@ -1393,6 +1395,7 @@ server
 context
 }
 =
+await
 getTestState
 (
 )
@@ -1520,6 +1523,7 @@ server
 context
 }
 =
+await
 getTestState
 (
 )
@@ -1668,6 +1672,7 @@ server
 context
 }
 =
+await
 getTestState
 (
 )
@@ -1792,6 +1797,7 @@ const
 context
 }
 =
+await
 getTestState
 (
 )
@@ -2006,6 +2012,7 @@ server
 context
 }
 =
+await
 getTestState
 (
 )
@@ -2256,6 +2263,7 @@ server
 context
 }
 =
+await
 getTestState
 (
 )
@@ -2417,6 +2425,7 @@ browser
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2622,6 +2631,7 @@ browser
 server
 }
 =
+await
 getTestState
 (
 )

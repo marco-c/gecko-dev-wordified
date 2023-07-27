@@ -358,9 +358,8 @@ internal
 *
 /
 export
-type
+interface
 ResolvedLaunchArgs
-=
 {
 isTempUserDataDir
 :
@@ -381,7 +380,6 @@ string
 ]
 ;
 }
-;
 /
 *
 *
@@ -724,6 +722,7 @@ timeout
 protocolTimeout
 slowMo
 defaultViewport
+ignoreHTTPSErrors
 }
 )
 ;
@@ -795,6 +794,7 @@ timeout
 protocolTimeout
 slowMo
 defaultViewport
+ignoreHTTPSErrors
 }
 )
 ;
@@ -1485,6 +1485,11 @@ Viewport
 |
 null
 ;
+ignoreHTTPSErrors
+?
+:
+boolean
+;
 }
 )
 :
@@ -1563,6 +1568,11 @@ defaultViewport
 opts
 .
 defaultViewport
+ignoreHTTPSErrors
+:
+opts
+.
+ignoreHTTPSErrors
 }
 )
 ;
@@ -1610,6 +1620,11 @@ defaultViewport
 Viewport
 |
 null
+;
+ignoreHTTPSErrors
+?
+:
+boolean
 ;
 }
 )
@@ -1686,6 +1701,7 @@ BiDi
 .
 Connection
 (
+browserWSEndpoint
 transport
 opts
 .
@@ -1727,6 +1743,11 @@ defaultViewport
 opts
 .
 defaultViewport
+ignoreHTTPSErrors
+:
+opts
+.
+ignoreHTTPSErrors
 }
 )
 ;

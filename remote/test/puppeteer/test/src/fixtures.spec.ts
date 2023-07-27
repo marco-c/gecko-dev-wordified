@@ -164,6 +164,7 @@ expect
 import
 {
 getTestState
+setupTestBrowserHooks
 }
 from
 '
@@ -198,6 +199,10 @@ function
 (
 )
 {
+setupTestBrowserHooks
+(
+)
+;
 it
 (
 '
@@ -222,6 +227,7 @@ puppeteerPath
 headless
 }
 =
+await
 getTestState
 (
 )
@@ -418,6 +424,7 @@ defaultBrowserOptions
 puppeteerPath
 }
 =
+await
 getTestState
 (
 )
@@ -594,6 +601,7 @@ puppeteerPath
 puppeteer
 }
 =
+await
 getTestState
 (
 )

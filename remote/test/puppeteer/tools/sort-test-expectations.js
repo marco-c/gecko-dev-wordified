@@ -170,6 +170,8 @@ require
 (
 '
 prettier
+/
+sync
 '
 )
 ;

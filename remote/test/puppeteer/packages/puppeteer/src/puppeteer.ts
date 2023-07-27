@@ -254,6 +254,14 @@ public
 *
 /
 launch
+/
+*
+*
+*
+public
+*
+/
+trimCache
 }
 =
 puppeteer

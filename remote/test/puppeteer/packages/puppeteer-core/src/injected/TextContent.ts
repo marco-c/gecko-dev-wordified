@@ -330,9 +330,8 @@ internal
 *
 /
 export
-type
+interface
 TextContent
-=
 {
 /
 /
@@ -365,7 +364,6 @@ string
 ]
 ;
 }
-;
 /
 *
 *

@@ -133,7 +133,7 @@ License
 /
 import
 {
-createDeferredPromise
+Deferred
 }
 from
 '
@@ -142,7 +142,7 @@ from
 /
 util
 /
-DeferredPromise
+Deferred
 .
 js
 '
@@ -326,7 +326,7 @@ util
 .
 .
 XPathQuerySelector
-createDeferredPromise
+Deferred
 createFunction
 createTextContent
 IntervalPoller

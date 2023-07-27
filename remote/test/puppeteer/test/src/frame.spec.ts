@@ -140,6 +140,25 @@ expect
 ;
 import
 {
+Frame
+}
+from
+'
+puppeteer
+-
+core
+/
+internal
+/
+api
+/
+Frame
+.
+js
+'
+;
+import
+{
 CDPSession
 }
 from
@@ -159,28 +178,8 @@ js
 ;
 import
 {
-Frame
-}
-from
-'
-puppeteer
--
-core
-/
-internal
-/
-common
-/
-Frame
-.
-js
-'
-;
-import
-{
 getTestState
 setupTestBrowserHooks
-setupTestPageAndContextHooks
 }
 from
 '
@@ -224,10 +223,6 @@ setupTestBrowserHooks
 (
 )
 ;
-setupTestPageAndContextHooks
-(
-)
-;
 describe
 (
 '
@@ -257,6 +252,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -563,6 +559,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -652,6 +649,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -770,6 +768,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -906,6 +905,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -979,6 +979,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1150,6 +1151,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1440,6 +1442,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1531,6 +1534,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1617,6 +1621,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1715,6 +1720,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -1943,6 +1949,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2174,6 +2181,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2329,6 +2337,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2516,6 +2525,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2647,6 +2657,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2821,6 +2832,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -2926,6 +2938,7 @@ page
 server
 }
 =
+await
 getTestState
 (
 )
@@ -3035,6 +3048,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )

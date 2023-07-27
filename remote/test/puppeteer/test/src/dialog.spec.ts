@@ -148,7 +148,6 @@ sinon
 import
 {
 getTestState
-setupTestPageAndContextHooks
 setupTestBrowserHooks
 }
 from
@@ -179,10 +178,6 @@ setupTestBrowserHooks
 (
 )
 ;
-setupTestPageAndContextHooks
-(
-)
-;
 it
 (
 '
@@ -200,6 +195,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -353,6 +349,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )
@@ -534,6 +531,7 @@ const
 page
 }
 =
+await
 getTestState
 (
 )

@@ -215,7 +215,7 @@ handler
 Handler
 )
 :
-CommonEventEmitter
+this
 ;
 off
 (
@@ -227,7 +227,7 @@ handler
 Handler
 )
 :
-CommonEventEmitter
+this
 ;
 /
 *
@@ -274,7 +274,7 @@ handler
 Handler
 )
 :
-CommonEventEmitter
+this
 ;
 removeListener
 (
@@ -286,7 +286,7 @@ handler
 Handler
 )
 :
-CommonEventEmitter
+this
 ;
 emit
 (
@@ -311,7 +311,7 @@ handler
 Handler
 )
 :
-CommonEventEmitter
+this
 ;
 listenerCount
 (
@@ -330,7 +330,7 @@ event
 EventType
 )
 :
-CommonEventEmitter
+this
 ;
 }
 /
@@ -544,7 +544,7 @@ any
 >
 )
 :
-EventEmitter
+this
 {
 this
 .
@@ -624,7 +624,7 @@ any
 >
 )
 :
-EventEmitter
+this
 {
 this
 .
@@ -676,7 +676,7 @@ any
 >
 )
 :
-EventEmitter
+this
 {
 this
 .
@@ -726,7 +726,7 @@ any
 >
 )
 :
-EventEmitter
+this
 {
 this
 .
@@ -904,7 +904,7 @@ any
 >
 )
 :
-EventEmitter
+this
 {
 const
 onceHandler
@@ -1056,7 +1056,7 @@ event
 EventType
 )
 :
-EventEmitter
+this
 {
 if
 (

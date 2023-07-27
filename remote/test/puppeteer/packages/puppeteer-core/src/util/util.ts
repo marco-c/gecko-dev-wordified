@@ -148,7 +148,7 @@ from
 '
 .
 /
-DebuggableDeferredPromise
+DebuggableDeferred
 .
 js
 '
@@ -159,7 +159,7 @@ from
 '
 .
 /
-DeferredPromise
+Deferred
 .
 js
 '

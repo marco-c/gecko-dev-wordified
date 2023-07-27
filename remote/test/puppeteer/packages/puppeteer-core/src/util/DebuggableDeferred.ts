@@ -14,14 +14,13 @@ js
 ;
 import
 {
-DeferredPromise
-createDeferredPromise
+Deferred
 }
 from
 '
 .
 /
-DeferredPromise
+Deferred
 .
 js
 '
@@ -58,7 +57,7 @@ internal
 /
 export
 function
-createDebuggableDeferredPromise
+createDebuggableDeferred
 <
 T
 >
@@ -68,7 +67,7 @@ message
 string
 )
 :
-DeferredPromise
+Deferred
 <
 T
 >
@@ -81,7 +80,9 @@ DEFERRED_PROMISE_DEBUG_TIMEOUT
 )
 {
 return
-createDeferredPromise
+Deferred
+.
+create
 (
 {
 message
@@ -93,7 +94,9 @@ DEFERRED_PROMISE_DEBUG_TIMEOUT
 ;
 }
 return
-createDeferredPromise
+Deferred
+.
+create
 (
 )
 ;

@@ -203,13 +203,6 @@ ElementHandle
 js
 '
 ;
-declare
-const
-__JSHandleSymbol
-:
-unique
-symbol
-;
 /
 *
 *
@@ -380,9 +373,8 @@ JSHandle
 .
 *
 /
-[
-__JSHandleSymbol
-]
+declare
+_
 ?
 :
 T

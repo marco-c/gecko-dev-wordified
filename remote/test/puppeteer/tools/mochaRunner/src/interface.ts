@@ -541,7 +541,9 @@ comment
 /
 ts
 -
-ignore
+expect
+-
+error
 context
 [
 '
@@ -635,7 +637,9 @@ comment
 /
 ts
 -
-ignore
+expect
+-
+error
 suite
 .
 parent
@@ -809,7 +813,9 @@ comment
 /
 ts
 -
-ignore
+expect
+-
+error
 context
 .
 it

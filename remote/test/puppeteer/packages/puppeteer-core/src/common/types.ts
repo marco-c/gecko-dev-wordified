@@ -187,9 +187,8 @@ internal
 *
 /
 export
-type
+interface
 BindingPayload
-=
 {
 type
 :
@@ -230,7 +229,6 @@ isTrivial
 boolean
 ;
 }
-;
 /
 *
 *
