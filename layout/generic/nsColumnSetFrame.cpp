@@ -1471,15 +1471,6 @@ borders
 !
 nsStyleBorder
 border
-(
-*
-pc
--
->
-Document
-(
-)
-)
 ;
 Sides
 skipSides
