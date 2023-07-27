@@ -8347,10 +8347,12 @@ mOriginalDisplay
 )
 ;
 return
-origDisplay
-.
-Inside
+nsStyleDisplay
+:
+:
+DisplayInside
 (
+origDisplay
 )
 =
 =
