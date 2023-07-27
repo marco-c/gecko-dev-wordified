@@ -89,6 +89,9 @@ GeckoCppUnitTests
 (
 [
 "
+TestDllBlocklistAssumptions
+"
+"
 TestDllInterceptor
 "
 "
