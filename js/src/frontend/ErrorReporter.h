@@ -980,7 +980,7 @@ offset
 return
 ;
 }
-ReportCompileErrorLatin1
+ReportCompileErrorLatin1VA
 (
 getContext
 (
@@ -1811,7 +1811,7 @@ return
 false
 ;
 }
-ReportCompileErrorLatin1
+ReportCompileErrorLatin1VA
 (
 getContext
 (

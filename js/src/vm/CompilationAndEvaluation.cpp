@@ -706,7 +706,7 @@ false
 js
 :
 :
-ReportCompileErrorLatin1
+ReportCompileErrorLatin1VA
 (
 fc
 std
