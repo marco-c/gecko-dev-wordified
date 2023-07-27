@@ -2488,6 +2488,16 @@ logLevel
 All
 "
 ]
+[
+"
+browser
+.
+translations
+.
+panelShown
+"
+true
+]
 .
 .
 .

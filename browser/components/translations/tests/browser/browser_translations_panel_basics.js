@@ -129,7 +129,7 @@ urlbar
 -
 translations
 -
-button
+button2
 "
 )
 ;
