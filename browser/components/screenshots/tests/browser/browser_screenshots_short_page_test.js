@@ -139,15 +139,12 @@ dragOverlay
 )
 ;
 let
-{
-scrollWidth
-scrollHeight
-}
+dimensions
 =
 await
 helper
 .
-getScreenshotsOverlayDimensions
+getSelectionLayerDimensions
 (
 )
 ;
@@ -155,6 +152,8 @@ Assert
 .
 equal
 (
+dimensions
+.
 scrollWidth
 contentInfo
 .
@@ -175,6 +174,8 @@ Assert
 .
 equal
 (
+dimensions
+.
 scrollHeight
 contentInfo
 .
@@ -395,7 +396,7 @@ dimensions
 await
 helper
 .
-getScreenshotsOverlayDimensions
+getSelectionLayerDimensions
 (
 )
 ;
@@ -478,7 +479,7 @@ dimensions
 await
 helper
 .
-getScreenshotsOverlayDimensions
+getSelectionLayerDimensions
 (
 )
 ;
@@ -603,7 +604,7 @@ dimensions
 await
 helper
 .
-getScreenshotsOverlayDimensions
+getSelectionLayerDimensions
 (
 )
 ;
