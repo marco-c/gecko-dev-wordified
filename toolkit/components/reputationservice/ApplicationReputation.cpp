@@ -4404,10 +4404,13 @@ xldm
 /
 MS
 Excel
+/
+/
 "
 .
 xll
 "
+exec
 /
 /
 MS

@@ -959,6 +959,17 @@ wsf
 .
 wsh
 "
+"
+.
+xll
+"
+/
+/
+MS
+Excel
+dynamic
+link
+library
 /
 /
 clang
