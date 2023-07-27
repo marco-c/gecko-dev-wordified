@@ -95,6 +95,9 @@ InstallTrigger
 farthestViewportElement
 "
 "
+mozInputSource
+"
+"
 mozPressure
 "
 "
