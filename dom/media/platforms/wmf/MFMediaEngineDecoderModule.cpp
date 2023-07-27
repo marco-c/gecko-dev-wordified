@@ -999,7 +999,7 @@ VPX_USABLE_BUILD
 ;
 if
 (
-IsWindows10BuildOrLater
+IsWindowsBuildOrLater
 (
 VPX_USABLE_BUILD
 )

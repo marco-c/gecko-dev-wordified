@@ -151,6 +151,13 @@ h
 #
 include
 "
+MediaManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -1532,6 +1539,13 @@ DecoderDoctorLogger
 :
 :
 Init
+(
+)
+;
+MediaManager
+:
+:
+StartupInit
 (
 )
 ;

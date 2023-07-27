@@ -195,6 +195,11 @@ InvokeHTTPOpenAsVerb
 (
 )
 ;
+nsresult
+LaunchHTTPHandlerPane
+(
+)
+;
 }
 ;
 #

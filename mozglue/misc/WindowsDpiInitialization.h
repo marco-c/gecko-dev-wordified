@@ -135,6 +135,7 @@ FindSetProcessDpiAwarenessContextFailed
 SetProcessDpiAwarenessContextFailed
 FindSetProcessDpiAwarenessFailed
 SetProcessDpiAwarenessFailed
+SetProcessDPIAwareFailed
 }
 ;
 /
@@ -222,6 +223,18 @@ SetProcessDpiAwarenessFailed
 return
 "
 SetProcessDpiAwareness
+failed
+"
+;
+case
+WindowsDpiInitializationResult
+:
+:
+SetProcessDPIAwareFailed
+:
+return
+"
+SetProcessDPIAware
 failed
 "
 ;

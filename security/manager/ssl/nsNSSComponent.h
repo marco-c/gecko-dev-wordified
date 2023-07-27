@@ -620,6 +620,13 @@ bool
 getRoots
 )
 ;
+bool
+ShouldEnableEnterpriseRootsForFamilySafety
+(
+uint32_t
+familySafetyMode
+)
+;
 nsresult
 MaybeEnableIntermediatePreloadingHealer
 (

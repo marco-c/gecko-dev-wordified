@@ -1227,7 +1227,7 @@ if
 mozilla
 :
 :
-IsWindows10BuildOrLater
+IsWindowsBuildOrLater
 (
 14965
 )

@@ -398,6 +398,7 @@ PreXULSkeletonUIError
 uint32_t
 {
 None
+Ineligible
 Disabled
 EnabledKeyDoesNotExist
 OOM
@@ -447,6 +448,18 @@ return
 L
 "
 None
+"
+;
+case
+PreXULSkeletonUIError
+:
+:
+Ineligible
+:
+return
+L
+"
+Ineligible
 "
 ;
 case
