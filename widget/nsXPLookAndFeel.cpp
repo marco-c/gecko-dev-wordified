@@ -1015,16 +1015,6 @@ windowsAccentColorInTitlebar
 "
 ui
 .
-windowsDefaultTheme
-"
-"
-ui
-.
-macGraphiteTheme
-"
-"
-ui
-.
 macBigSurTheme
 "
 "
