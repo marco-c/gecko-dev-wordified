@@ -923,8 +923,11 @@ between
 shape
 -
 outside
-and
 clip
+-
+path
+and
+offset
 -
 path
 .
