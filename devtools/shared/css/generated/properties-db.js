@@ -8111,6 +8111,9 @@ path
 polygon
 "
 "
+rect
+"
+"
 revert
 "
 "
@@ -24480,6 +24483,9 @@ path
 polygon
 "
 "
+rect
+"
+"
 revert
 "
 "
@@ -38416,6 +38422,9 @@ polygon
 ray
 "
 "
+rect
+"
+"
 reverse
 "
 "
@@ -38654,6 +38663,9 @@ polygon
 "
 "
 ray
+"
+"
+rect
 "
 "
 revert
@@ -44747,6 +44759,9 @@ polygon
 radial
 -
 gradient
+"
+"
+rect
 "
 "
 repeating
