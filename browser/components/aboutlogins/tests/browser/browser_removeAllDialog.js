@@ -371,6 +371,15 @@ button
 "
 )
 .
+shadowRoot
+.
+querySelector
+(
+"
+button
+"
+)
+.
 click
 (
 )
