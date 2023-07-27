@@ -20967,11 +20967,13 @@ StyleDisplay
 )
 -
 >
-mDisplay
+DisplayInside
+(
+)
 )
 {
 case
-StyleDisplay
+StyleDisplayInside
 :
 :
 TableCell
@@ -20999,7 +21001,7 @@ t
 break
 ;
 case
-StyleDisplay
+StyleDisplayInside
 :
 :
 TableRow

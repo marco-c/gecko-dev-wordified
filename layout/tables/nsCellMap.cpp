@@ -14649,11 +14649,13 @@ switch
 display
 -
 >
-mDisplay
+DisplayInside
+(
+)
 )
 {
 case
-StyleDisplay
+StyleDisplayInside
 :
 :
 TableHeaderGroup
@@ -14668,7 +14670,7 @@ thead
 break
 ;
 case
-StyleDisplay
+StyleDisplayInside
 :
 :
 TableFooterGroup
@@ -14683,7 +14685,7 @@ tfoot
 break
 ;
 case
-StyleDisplay
+StyleDisplayInside
 :
 :
 TableRowGroup
