@@ -3473,14 +3473,6 @@ redirectEnd
 =
 mRedirectEnd
 ;
-args
-.
-protocolVersion
-(
-)
-=
-mProtocolVersion
-;
 return
 args
 ;
