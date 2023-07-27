@@ -3517,6 +3517,7 @@ denominator
 is
 zero
 .
+pub
 fn
 rational_scale
 <
