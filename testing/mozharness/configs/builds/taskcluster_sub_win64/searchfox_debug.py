@@ -94,35 +94,6 @@ and
 -
 abort
 "
-        
-#
-Disable
-sccache
-because
-otherwise
-we
-won
-'
-t
-index
-the
-files
-that
-        
-#
-sccache
-optimizes
-away
-compilation
-for
-        
-"
-SCCACHE_DISABLE
-"
-:
-"
-1
-"
     
 }
     

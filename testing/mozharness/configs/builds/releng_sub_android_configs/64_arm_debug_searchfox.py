@@ -70,22 +70,6 @@ debug
 "
     
 "
-env
-"
-:
-{
-        
-"
-SCCACHE_DISABLE
-"
-:
-"
-1
-"
-    
-}
-    
-"
 src_mozconfig
 "
 :
