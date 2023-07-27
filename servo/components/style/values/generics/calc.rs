@@ -9782,6 +9782,17 @@ abs
 )
 }
 )
+;
+replace_self_with
+!
+(
+&
+mut
+*
+*
+child
+)
+;
 }
 }
 Self
