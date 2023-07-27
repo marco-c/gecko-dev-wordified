@@ -164,16 +164,6 @@ Localization
 cpp
 "
 ]
-TESTING_JS_MODULES
-+
-=
-[
-"
-FluentSyntax
-.
-jsm
-"
-]
 TEST_DIRS
 +
 =
