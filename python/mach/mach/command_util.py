@@ -3419,18 +3419,8 @@ return
         
 if
 potential_sub_command_name
-and
-not
-potential_sub_command_name
-.
-startswith
-(
-            
-"
--
-"
-        
-)
+in
+module_dict
 :
             
 all_sub_commands_dict
