@@ -141,7 +141,10 @@ use
 selectors
 :
 :
-NthIndexCache
+matching
+:
+:
+SelectorCaches
 ;
 /
 /
@@ -1035,11 +1038,11 @@ StyleBloom
 <
 E
 >
-nth_index_cache
+selector_caches
 :
 &
 mut
-NthIndexCache
+SelectorCaches
 )
 -
 >
@@ -1066,7 +1069,7 @@ revalidation_match_results
 (
 stylist
 bloom
-nth_index_cache
+selector_caches
 )
 ;
 let
@@ -1078,7 +1081,7 @@ revalidation_match_results
 (
 stylist
 bloom
-nth_index_cache
+selector_caches
 )
 ;
 /

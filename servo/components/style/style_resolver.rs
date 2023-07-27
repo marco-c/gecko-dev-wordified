@@ -2438,7 +2438,7 @@ filter
 )
 ;
 let
-nth_index_cache
+selector_caches
 =
 &
 mut
@@ -2448,7 +2448,7 @@ context
 .
 thread_local
 .
-nth_index_cache
+selector_caches
 ;
 let
 mut
@@ -2467,7 +2467,7 @@ Some
 (
 bloom_filter
 )
-nth_index_cache
+selector_caches
 visited_handling
 self
 .
@@ -2964,7 +2964,7 @@ filter
 )
 ;
 let
-nth_index_cache
+selector_caches
 =
 &
 mut
@@ -2974,7 +2974,7 @@ context
 .
 thread_local
 .
-nth_index_cache
+selector_caches
 ;
 let
 mut
@@ -3003,7 +3003,7 @@ Some
 (
 bloom_filter
 )
-nth_index_cache
+selector_caches
 visited_handling
 self
 .

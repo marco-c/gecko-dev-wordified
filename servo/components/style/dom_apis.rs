@@ -192,6 +192,7 @@ IgnoreNthChildForInvalidation
 MatchingContext
 MatchingMode
 NeedsSelectorFlags
+SelectorCaches
 }
 ;
 use
@@ -292,9 +293,9 @@ Element
 {
 let
 mut
-nth_index_cache
+selector_caches
 =
-Default
+SelectorCaches
 :
 :
 default
@@ -317,7 +318,7 @@ Normal
 None
 &
 mut
-nth_index_cache
+selector_caches
 quirks_mode
 NeedsSelectorFlags
 :
@@ -436,9 +437,9 @@ Element
 {
 let
 mut
-nth_index_cache
+selector_caches
 =
-Default
+SelectorCaches
 :
 :
 default
@@ -461,7 +462,7 @@ Normal
 None
 &
 mut
-nth_index_cache
+selector_caches
 quirks_mode
 NeedsSelectorFlags
 :
@@ -4374,9 +4375,9 @@ TreeStyleInvalidator
 ;
 let
 mut
-nth_index_cache
+selector_caches
 =
-Default
+SelectorCaches
 :
 :
 default
@@ -4412,7 +4413,7 @@ Normal
 None
 &
 mut
-nth_index_cache
+selector_caches
 quirks_mode
 NeedsSelectorFlags
 :
