@@ -1081,12 +1081,6 @@ case
 ColorID
 :
 :
-MozDragtargetzone
-:
-case
-ColorID
-:
-:
 MozMacChromeActive
 :
 case

@@ -174,12 +174,7 @@ eUXButton
 0
 eUXEdit
 eUXRebar
-eUXMediaRebar
-eUXCommunicationsRebar
-eUXBrowserTabBarRebar
 eUXToolbar
-eUXMediaToolbar
-eUXCommunicationsToolbar
 eUXProgress
 eUXTab
 eUXTrackbar

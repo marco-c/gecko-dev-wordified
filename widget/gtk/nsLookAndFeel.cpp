@@ -3519,12 +3519,6 @@ case
 ColorID
 :
 :
-MozDragtargetzone
-:
-case
-ColorID
-:
-:
 Highlight
 :
 /
