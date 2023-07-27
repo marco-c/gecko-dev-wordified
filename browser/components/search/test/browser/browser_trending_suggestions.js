@@ -260,6 +260,14 @@ updateRemoteSettingsConfig
 CONFIG_DEFAULT
 )
 ;
+Services
+.
+telemetry
+.
+clearScalars
+(
+)
+;
 registerCleanupFunction
 (
 async
