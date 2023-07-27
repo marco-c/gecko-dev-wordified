@@ -163,7 +163,7 @@ firstCall
 )
 ;
 await
-assertPreviewTooltip
+assertPreviewTextValue
 (
 dbg
 8
@@ -239,7 +239,7 @@ js
 )
 ;
 await
-assertPreviewTooltip
+assertPreviewTextValue
 (
 dbg
 8

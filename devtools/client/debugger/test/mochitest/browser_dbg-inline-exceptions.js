@@ -138,7 +138,7 @@ dbg
 85
 10
 {
-text
+result
 :
 '
 TypeError
