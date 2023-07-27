@@ -243,15 +243,6 @@ button
 "
 )
 .
-shadowRoot
-.
-querySelector
-(
-"
-button
-"
-)
-.
 focus
 (
 )

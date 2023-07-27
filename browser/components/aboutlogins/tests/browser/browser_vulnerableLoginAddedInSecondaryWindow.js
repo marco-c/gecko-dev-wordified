@@ -572,15 +572,6 @@ login
 button
 "
 )
-.
-shadowRoot
-.
-querySelector
-(
-"
-button
-"
-)
 ;
 createButton
 .
