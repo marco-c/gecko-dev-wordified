@@ -3046,7 +3046,6 @@ last_sid
 +
 1
 )
-{
 subset_charset_ranges
 .
 push
@@ -3096,7 +3095,6 @@ glyph
 -
 old_glyph
 ;
-}
 }
 last_sid
 =

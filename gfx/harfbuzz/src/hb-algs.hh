@@ -2360,8 +2360,6 @@ h
 )
 (
 \
-void
-(
 (
 h
 )
@@ -2373,17 +2371,13 @@ h
 >
 >
 23
-)
 \
-void
-(
 (
 h
 )
 *
 =
 0x2127599bf4325c37ULL
-)
 \
 (
 h
@@ -2977,6 +2971,9 @@ const
 HB_RETURN
 (
 uint32_t
+(
+uint32_t
+)
 v
 *
 2654435761u
@@ -3036,6 +3033,9 @@ const
 HB_RETURN
 (
 uint32_t
+(
+uint32_t
+)
 (
 v
 ^
