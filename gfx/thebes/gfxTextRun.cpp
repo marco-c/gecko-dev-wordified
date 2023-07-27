@@ -14244,7 +14244,7 @@ gfxFontGroup
 :
 GetFontAt
 (
-int32_t
+uint32_t
 i
 uint32_t
 aCh
@@ -14255,10 +14255,7 @@ aLoading
 {
 if
 (
-uint32_t
-(
 i
-)
 >
 =
 mFonts
