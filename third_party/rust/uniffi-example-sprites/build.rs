@@ -67,8 +67,6 @@ uniffi
 generate_scaffolding
 (
 "
-.
-/
 src
 /
 sprites

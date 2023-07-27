@@ -64,7 +64,6 @@ backend
 :
 :
 {
-CodeOracle
 CodeType
 Literal
 }
@@ -93,11 +92,6 @@ paste
 fn
 render_literal
 (
-oracle
-:
-&
-dyn
-CodeOracle
 literal
 :
 &
@@ -110,11 +104,6 @@ String
 fn
 typed_number
 (
-oracle
-:
-&
-dyn
-CodeOracle
 type_
 :
 &
@@ -226,7 +215,10 @@ num_str
 }
 )
 "
-oracle
+super
+:
+:
+SwiftCodeOracle
 .
 find
 (
@@ -235,7 +227,6 @@ type_
 .
 type_label
 (
-oracle
 )
 )
 }
@@ -316,7 +307,6 @@ type_
 >
 typed_number
 (
-oracle
 type_
 match
 radix
@@ -387,7 +377,6 @@ type_
 >
 typed_number
 (
-oracle
 type_
 match
 radix
@@ -457,7 +446,6 @@ type_
 >
 typed_number
 (
-oracle
 type_
 string
 .
@@ -495,6 +483,13 @@ literal
 paste
 !
 {
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 T
@@ -509,11 +504,6 @@ type_label
 (
 &
 self
-_oracle
-:
-&
-dyn
-CodeOracle
 )
 -
 >
@@ -530,11 +520,6 @@ literal
 (
 &
 self
-oracle
-:
-&
-dyn
-CodeOracle
 literal
 :
 &
@@ -546,7 +531,6 @@ String
 {
 render_literal
 (
-oracle
 &
 literal
 )
@@ -571,6 +555,15 @@ impl_code_type_for_primitive
 StringCodeType
 "
 String
+"
+)
+;
+impl_code_type_for_primitive
+!
+(
+BytesCodeType
+"
+Data
 "
 )
 ;

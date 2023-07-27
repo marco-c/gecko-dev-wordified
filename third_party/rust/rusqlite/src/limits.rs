@@ -408,7 +408,10 @@ triggers
 .
 SQLITE_LIMIT_TRIGGER_DEPTH
 =
-10
+ffi
+:
+:
+SQLITE_LIMIT_TRIGGER_DEPTH
 /
 /
 /
@@ -432,7 +435,10 @@ start
 .
 SQLITE_LIMIT_WORKER_THREADS
 =
-11
+ffi
+:
+:
+SQLITE_LIMIT_WORKER_THREADS
 }
 impl
 Connection
@@ -655,8 +661,6 @@ ffi
 :
 :
 SQLITE_LIMIT_LENGTH
-as
-i32
 )
 ;
 assert_eq
@@ -672,8 +676,6 @@ ffi
 :
 :
 SQLITE_LIMIT_SQL_LENGTH
-as
-i32
 )
 ;
 assert_eq
@@ -689,8 +691,6 @@ ffi
 :
 :
 SQLITE_LIMIT_COLUMN
-as
-i32
 )
 ;
 assert_eq
@@ -706,8 +706,6 @@ ffi
 :
 :
 SQLITE_LIMIT_EXPR_DEPTH
-as
-i32
 )
 ;
 assert_eq
@@ -723,8 +721,6 @@ ffi
 :
 :
 SQLITE_LIMIT_COMPOUND_SELECT
-as
-i32
 )
 ;
 assert_eq
@@ -740,8 +736,6 @@ ffi
 :
 :
 SQLITE_LIMIT_VDBE_OP
-as
-i32
 )
 ;
 assert_eq
@@ -757,8 +751,6 @@ ffi
 :
 :
 SQLITE_LIMIT_FUNCTION_ARG
-as
-i32
 )
 ;
 assert_eq
@@ -774,8 +766,6 @@ ffi
 :
 :
 SQLITE_LIMIT_ATTACHED
-as
-i32
 )
 ;
 assert_eq
@@ -791,8 +781,6 @@ ffi
 :
 :
 SQLITE_LIMIT_LIKE_PATTERN_LENGTH
-as
-i32
 )
 ;
 assert_eq
@@ -808,8 +796,6 @@ ffi
 :
 :
 SQLITE_LIMIT_VARIABLE_NUMBER
-as
-i32
 )
 ;
 #
@@ -836,8 +822,6 @@ ffi
 :
 :
 SQLITE_LIMIT_TRIGGER_DEPTH
-as
-i32
 )
 ;
 #
@@ -864,8 +848,6 @@ ffi
 :
 :
 SQLITE_LIMIT_WORKER_THREADS
-as
-i32
 )
 ;
 }
