@@ -47,7 +47,7 @@ ERROR_UNKNOWN
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -60,9 +60,7 @@ modules
 /
 FxAccountsCommon
 .
-sys
-.
-mjs
+js
 "
 )
 ;

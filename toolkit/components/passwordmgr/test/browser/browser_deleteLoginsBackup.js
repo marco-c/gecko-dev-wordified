@@ -17,9 +17,9 @@ deleted
 .
 *
 /
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -36,9 +36,7 @@ modules
 /
 FxAccountsCommon
 .
-sys
-.
-mjs
+js
 "
 FXA_PWDMGR_REALM
 :
@@ -53,9 +51,7 @@ modules
 /
 FxAccountsCommon
 .
-sys
-.
-mjs
+js
 "
 }
 )

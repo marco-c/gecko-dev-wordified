@@ -123,7 +123,7 @@ ON_DEVICELIST_UPDATED
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -136,9 +136,7 @@ modules
 /
 FxAccountsCommon
 .
-sys
-.
-mjs
+js
 "
 )
 ;

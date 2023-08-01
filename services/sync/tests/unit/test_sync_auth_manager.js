@@ -198,7 +198,7 @@ ONVERIFIED_NOTIFICATION
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -211,9 +211,7 @@ modules
 /
 FxAccountsCommon
 .
-sys
-.
-mjs
+js
 "
 )
 ;

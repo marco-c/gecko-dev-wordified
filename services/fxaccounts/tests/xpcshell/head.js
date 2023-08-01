@@ -146,7 +146,7 @@ SCOPE_OLD_SYNC
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -159,9 +159,7 @@ modules
 /
 FxAccountsCommon
 .
-sys
-.
-mjs
+js
 "
 )
 ;

@@ -74,7 +74,7 @@ PREF_ACCOUNT_ROOT
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -87,9 +87,7 @@ modules
 /
 FxAccountsCommon
 .
-sys
-.
-mjs
+js
 "
 )
 ;
