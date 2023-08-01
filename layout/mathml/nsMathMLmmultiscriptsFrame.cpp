@@ -1065,7 +1065,7 @@ return
 aFrame
 -
 >
-PlaceForError
+PlaceAsMrow
 (
 aDrawTarget
 aPlaceOrigin
@@ -2265,7 +2265,7 @@ return
 aFrame
 -
 >
-PlaceForError
+PlaceAsMrow
 (
 aDrawTarget
 aPlaceOrigin
@@ -2319,7 +2319,7 @@ return
 aFrame
 -
 >
-PlaceForError
+PlaceAsMrow
 (
 aDrawTarget
 aPlaceOrigin
@@ -2353,7 +2353,7 @@ return
 aFrame
 -
 >
-PlaceForError
+PlaceAsMrow
 (
 aDrawTarget
 aPlaceOrigin
@@ -3691,7 +3691,7 @@ return
 aFrame
 -
 >
-PlaceForError
+PlaceAsMrow
 (
 aDrawTarget
 aPlaceOrigin
