@@ -16369,6 +16369,9 @@ static
 bool
 IsWidgetNonNative
 (
+nsIFrame
+*
+aFrame
 StyleAppearance
 aAppearance
 )
@@ -16390,6 +16393,23 @@ StyleAppearance
 :
 :
 FocusOutline
+|
+|
+aFrame
+-
+>
+StyleUI
+(
+)
+-
+>
+mMozTheme
+=
+=
+StyleMozTheme
+:
+:
+NonNative
 ;
 }
 NS_IMETHODIMP
@@ -16424,6 +16444,7 @@ if
 (
 IsWidgetNonNative
 (
+aFrame
 aAppearance
 )
 )
@@ -17857,6 +17878,7 @@ if
 (
 IsWidgetNonNative
 (
+aFrame
 aAppearance
 )
 )
@@ -18991,6 +19013,7 @@ if
 (
 IsWidgetNonNative
 (
+aFrame
 aAppearance
 )
 )
@@ -19334,6 +19357,7 @@ if
 (
 IsWidgetNonNative
 (
+aFrame
 aAppearance
 )
 )
@@ -20452,6 +20476,7 @@ if
 (
 IsWidgetNonNative
 (
+aFrame
 aAppearance
 )
 )
