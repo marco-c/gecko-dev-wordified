@@ -67,7 +67,7 @@ PACKAGE_VERSION
 "
 2
 .
-5
+6
 .
 0
 "
