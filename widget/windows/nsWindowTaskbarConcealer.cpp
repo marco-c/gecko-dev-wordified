@@ -3095,15 +3095,6 @@ minimized
 window
 /
 /
-if
-(
-:
-:
-IsWin10OrLater
-(
-)
-)
-{
 static
 UINT
 const
@@ -3190,7 +3181,6 @@ LPARAM
 hwnd
 )
 ;
-}
 }
 }
 void

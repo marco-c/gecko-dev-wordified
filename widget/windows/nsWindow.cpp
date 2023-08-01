@@ -64718,13 +64718,6 @@ return
 }
 if
 (
-:
-:
-IsWin10OrLater
-(
-)
-&
-&
 StaticPrefs
 :
 :
