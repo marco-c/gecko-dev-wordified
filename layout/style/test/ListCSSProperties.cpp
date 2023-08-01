@@ -522,6 +522,12 @@ appearance
 -
 moz
 -
+theme
+"
+"
+-
+moz
+-
 inert
 "
 "
