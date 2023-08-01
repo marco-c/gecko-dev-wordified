@@ -3251,7 +3251,9 @@ replace_parent_selector
 &
 parent
 .
-0
+to_shared
+(
+)
 )
 ;
 }
