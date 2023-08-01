@@ -210,7 +210,7 @@ matching
 :
 :
 {
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 MatchingContext
 MatchingMode
 NeedsSelectorFlags
@@ -2482,7 +2482,7 @@ NeedsSelectorFlags
 :
 :
 Yes
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 No
@@ -3018,7 +3018,7 @@ NeedsSelectorFlags
 :
 :
 Yes
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 No

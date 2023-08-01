@@ -137,7 +137,7 @@ matching
 :
 :
 {
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 SelectorCaches
 }
 ;
@@ -15006,7 +15006,7 @@ NeedsSelectorFlags
 :
 :
 No
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 No
