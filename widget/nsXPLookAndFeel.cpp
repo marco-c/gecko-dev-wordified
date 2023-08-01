@@ -3310,6 +3310,16 @@ _ns
 }
 {
 "
+mathml
+.
+ms_lquote_rquote_attributes
+.
+disabled
+"
+_ns
+}
+{
+"
 dom
 .
 element
