@@ -9606,6 +9606,11 @@ role
 "
 alertdialog
 "
+layout
+:
+content
+.
+layout
 pos
 :
 content
