@@ -192,13 +192,6 @@ Bug
 1670026
         
 "
-decorators
-"
-#
-Bug
-1435869
-        
-"
 regexp
 -
 duplicate
@@ -360,6 +353,25 @@ with
 #
 Bug
 1811054
+    
+"
+decorators
+"
+:
+"
+!
+getBuildConfiguration
+(
+)
+[
+'
+decorators
+'
+]
+"
+#
+Bug
+1435869
     
 "
 Array
