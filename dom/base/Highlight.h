@@ -259,7 +259,6 @@ HighlightSelectionData
 {
 RefPtr
 <
-const
 nsAtom
 >
 mHighlightName
@@ -602,7 +601,6 @@ Selection
 >
 CreateHighlightSelection
 (
-const
 nsAtom
 *
 aHighlightName

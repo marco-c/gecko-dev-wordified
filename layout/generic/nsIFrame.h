@@ -6557,7 +6557,6 @@ ComputedStyle
 >
 ComputeHighlightSelectionStyle
 (
-const
 nsAtom
 *
 aHighlightName

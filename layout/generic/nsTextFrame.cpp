@@ -39284,7 +39284,6 @@ GetSelectionTextColors
 (
 SelectionType
 aSelectionType
-const
 nsAtom
 *
 aHighlightName
@@ -39957,7 +39956,6 @@ nsTArray
 <
 RefPtr
 <
-const
 nsAtom
 >
 >
@@ -40130,7 +40128,6 @@ nsTArray
 <
 RefPtr
 <
-const
 nsAtom
 >
 >
@@ -42983,7 +42980,6 @@ AutoTArray
 <
 RefPtr
 <
-const
 nsAtom
 >
 1
@@ -43532,7 +43528,6 @@ AutoTArray
 <
 RefPtr
 <
-const
 nsAtom
 >
 1
@@ -44306,7 +44301,6 @@ AutoTArray
 <
 RefPtr
 <
-const
 nsAtom
 >
 1

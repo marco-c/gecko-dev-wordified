@@ -920,7 +920,6 @@ CompactPair
 <
 RefPtr
 <
-const
 nsAtom
 >
 RefPtr

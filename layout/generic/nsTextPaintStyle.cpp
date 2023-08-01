@@ -1298,7 +1298,6 @@ nsTextPaintStyle
 :
 GetCustomHighlightTextColor
 (
-const
 nsAtom
 *
 aHighlightName
@@ -1437,7 +1436,6 @@ nsTextPaintStyle
 :
 GetCustomHighlightBackgroundColor
 (
-const
 nsAtom
 *
 aHighlightName

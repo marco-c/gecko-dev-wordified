@@ -6519,7 +6519,6 @@ GetSelectionTextColors
 (
 SelectionType
 aSelectionType
-const
 nsAtom
 *
 aHighlightName
