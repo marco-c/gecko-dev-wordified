@@ -178,7 +178,6 @@ eUXToolbar
 eUXProgress
 eUXTab
 eUXTrackbar
-eUXSpin
 eUXCombobox
 eUXHeader
 eUXListview

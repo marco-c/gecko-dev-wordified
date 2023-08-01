@@ -450,15 +450,6 @@ Trackbar
 "
 ;
 case
-eUXSpin
-:
-return
-L
-"
-Spin
-"
-;
-case
 eUXCombobox
 :
 return
