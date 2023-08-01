@@ -66842,7 +66842,7 @@ return
 false
 ;
 }
-InternalWhileEmitter
+WhileEmitter
 wh
 (
 this
@@ -66891,6 +66891,9 @@ wh
 .
 emitCond
 (
+0
+0
+0
 )
 )
 {
