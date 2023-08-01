@@ -2673,6 +2673,10 @@ selector_list_specificity_and_flags
 (
 list
 .
+slice
+(
+)
+.
 iter
 (
 )

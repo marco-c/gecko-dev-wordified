@@ -14512,7 +14512,9 @@ replace_parent_selector
 &
 s
 .
-0
+to_shared
+(
+)
 )
 None
 =
