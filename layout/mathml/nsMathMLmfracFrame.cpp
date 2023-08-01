@@ -1063,7 +1063,7 @@ ReportChildCountError
 ;
 }
 return
-PlaceAsMrow
+PlaceForError
 (
 aDrawTarget
 aPlaceOrigin
