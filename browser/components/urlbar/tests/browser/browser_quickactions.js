@@ -1405,10 +1405,10 @@ return
 screenshotsChild
 ?
 .
-_overlay
+overlay
 ?
 .
-_initialized
+initialized
 ;
 }
 )
