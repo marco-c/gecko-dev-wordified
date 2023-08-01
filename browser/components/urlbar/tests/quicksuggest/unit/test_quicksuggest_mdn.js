@@ -1339,11 +1339,11 @@ chrome
 :
 /
 /
-devtools
+global
 /
 skin
 /
-images
+icons
 /
 mdn
 .
