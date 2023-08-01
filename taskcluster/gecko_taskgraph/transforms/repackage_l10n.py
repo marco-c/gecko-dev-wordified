@@ -78,6 +78,14 @@ base
 import
 TransformSequence
 from
+taskgraph
+.
+util
+.
+dependencies
+import
+get_primary_dependency
+from
 gecko_taskgraph
 .
 util
@@ -109,14 +117,14 @@ jobs
         
 dep_job
 =
+get_primary_dependency
+(
+config
 job
-[
-"
-primary
--
-dependency
-"
-]
+)
+        
+assert
+dep_job
         
 for
 locale
