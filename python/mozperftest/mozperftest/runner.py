@@ -342,7 +342,7 @@ bin
 bash
 "
 def
-_activate_mach_virtualenv
+_activate_virtualenvs
 (
 )
 :
@@ -512,6 +512,8 @@ site
 import
 (
         
+CommandSiteManager
+        
 ExternalPythonSite
         
 MachSiteManager
@@ -521,6 +523,14 @@ SitePackagesSource
 resolve_requirements
     
 )
+    
+from
+mach
+.
+util
+import
+get_state_dir
+get_virtualenv_base_dir
     
 mach_site
 =
@@ -559,6 +569,58 @@ NONE
 )
     
 mach_site
+.
+activate
+(
+)
+    
+command_site_manager
+=
+CommandSiteManager
+.
+from_environment
+(
+        
+str
+(
+SRC_ROOT
+)
+        
+lambda
+:
+os
+.
+path
+.
+normpath
+(
+get_state_dir
+(
+True
+topsrcdir
+=
+str
+(
+SRC_ROOT
+)
+)
+)
+        
+"
+common
+"
+        
+get_virtualenv_base_dir
+(
+str
+(
+SRC_ROOT
+)
+)
+    
+)
+    
+command_site_manager
 .
 activate
 (
@@ -1650,7 +1712,7 @@ shell
 "
 "
     
-_activate_mach_virtualenv
+_activate_virtualenvs
 (
 )
     
