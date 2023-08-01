@@ -73,7 +73,16 @@ client
 await_css
 (
 SITE_CSS
+timeout
+=
+120
 )
+#
+the
+site
+can
+be
+slow
 pytest
 .
 mark
@@ -101,4 +110,7 @@ URL
 await_console_message
 =
 ERROR_MSG
+timeout
+=
+10
 )
