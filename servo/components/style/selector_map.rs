@@ -4609,10 +4609,6 @@ len
 find_bucket
 (
 list
-.
-slice
-(
-)
 [
 0
 ]
@@ -4629,11 +4625,10 @@ else
 for
 selector
 in
+&
+*
+*
 list
-.
-slice
-(
-)
 {
 let
 bucket
