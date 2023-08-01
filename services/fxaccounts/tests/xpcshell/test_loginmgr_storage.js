@@ -105,7 +105,7 @@ FXA_PWDMGR_REALM
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -118,7 +118,9 @@ modules
 /
 FxAccountsCommon
 .
-js
+sys
+.
+mjs
 "
 )
 ;

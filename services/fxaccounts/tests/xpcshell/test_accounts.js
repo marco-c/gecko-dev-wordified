@@ -125,7 +125,7 @@ PREF_LAST_FXA_USER
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -138,7 +138,9 @@ modules
 /
 FxAccountsCommon
 .
-js
+sys
+.
+mjs
 "
 )
 ;
