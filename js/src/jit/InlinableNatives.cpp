@@ -1109,6 +1109,12 @@ case
 InlinableNative
 :
 :
+RegExpHasCaptureGroups
+:
+case
+InlinableNative
+:
+:
 RegExpPrototypeOptimizable
 :
 case

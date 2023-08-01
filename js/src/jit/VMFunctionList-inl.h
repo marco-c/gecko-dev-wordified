@@ -2941,6 +2941,15 @@ RegExpBuiltinExecTestFromJit
 \
 _
 (
+RegExpHasCaptureGroups
+js
+:
+:
+RegExpHasCaptureGroups
+)
+\
+_
+(
 RegExpMatcherRaw
 js
 :

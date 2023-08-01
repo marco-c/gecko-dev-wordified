@@ -3120,6 +3120,11 @@ tryAttachRegExpSearcherLastLimit
 )
 ;
 AttachDecision
+tryAttachRegExpHasCaptureGroups
+(
+)
+;
+AttachDecision
 tryAttachRegExpPrototypeOptimizable
 (
 )
