@@ -78758,6 +78758,15 @@ StringToCORSMode
 (
 aCrossOriginAttr
 )
+/
+*
+aNonce
+*
+/
+u
+"
+"
+_ns
 aIntegrity
 )
 ;
