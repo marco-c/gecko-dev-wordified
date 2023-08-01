@@ -1398,6 +1398,9 @@ Element
 &
 aOriginatingElement
 PseudoStyleType
+nsAtom
+*
+aFunctionalPseudoParameter
 ComputedStyle
 *
 aParentStyle
@@ -1424,6 +1427,9 @@ Element
 aOriginatingElement
 PseudoStyleType
 aType
+nsAtom
+*
+aFunctionalPseudoParameter
 ComputedStyle
 *
 aParentStyle
@@ -1434,6 +1440,7 @@ ResolvePseudoElementStyle
 (
 aOriginatingElement
 aType
+aFunctionalPseudoParameter
 aParentStyle
 IsProbe
 :
@@ -1581,6 +1588,11 @@ PseudoStyleType
 :
 :
 NotPseudo
+nsAtom
+*
+aFunctionalPseudoParameter
+=
+nullptr
 StyleRuleInclusion
 =
 StyleRuleInclusion

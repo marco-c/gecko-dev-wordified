@@ -47217,6 +47217,7 @@ PseudoStyleType
 :
 :
 firstLetter
+nullptr
 parentStyle
 )
 ;
@@ -62156,6 +62157,7 @@ PseudoStyleType
 :
 :
 firstLine
+nullptr
 parentStyle
 )
 ;
@@ -63543,6 +63545,7 @@ PseudoStyleType
 :
 :
 firstLetter
+nullptr
 Style
 (
 )

@@ -575,16 +575,16 @@ ErrorResult
 &
 )
 {
-Maybe
-<
-PseudoStyleType
->
+auto
+[
 pseudo
+functionalPseudoParameter
+]
 =
 nsCSSPseudoElements
 :
 :
-GetPseudoType
+ParsePseudoElement
 (
 aPseudoElt
 CSSEnabledState
@@ -667,6 +667,7 @@ nsComputedDOMStyle
 aElement
 *
 pseudo
+functionalPseudoParameter
 aDocument
 aStyleType
 returnEmpty
@@ -2134,6 +2135,9 @@ Element
 aElement
 PseudoStyleType
 aPseudo
+nsAtom
+*
+aFunctionalPseudoParameter
 Document
 *
 aDocument
@@ -2162,6 +2166,10 @@ nullptr
 mPseudo
 (
 aPseudo
+)
+mFunctionalPseudoParameter
+(
+aFunctionalPseudoParameter
 )
 mStyleType
 (
@@ -3122,6 +3130,9 @@ Element
 aElement
 PseudoStyleType
 aPseudo
+nsAtom
+*
+aFunctionalPseudoParameter
 StyleType
 aStyleType
 )
@@ -3157,6 +3168,7 @@ GetComputedStyleNoFlush
 (
 aElement
 aPseudo
+aFunctionalPseudoParameter
 aStyleType
 )
 ;
@@ -3420,6 +3432,9 @@ Element
 aElement
 PseudoStyleType
 aPseudo
+nsAtom
+*
+aFunctionalPseudoParameter
 PresShell
 *
 aPresShell
@@ -3826,6 +3841,7 @@ ResolveStyleLazily
 *
 aElement
 aPseudo
+aFunctionalPseudoParameter
 rules
 )
 ;
@@ -3852,6 +3868,9 @@ Element
 aElement
 PseudoStyleType
 aPseudo
+nsAtom
+*
+aFunctionalPseudoParameter
 )
 {
 RefPtr
@@ -3865,6 +3884,7 @@ GetComputedStyleNoFlush
 (
 aElement
 aPseudo
+aFunctionalPseudoParameter
 )
 ;
 if
@@ -6694,6 +6714,7 @@ DoGetComputedStyleNoFlush
 (
 mElement
 mPseudo
+mFunctionalPseudoParameter
 presShellForContent
 ?
 presShellForContent

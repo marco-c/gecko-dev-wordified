@@ -559,6 +559,9 @@ nsComputedDOMStyle
 Element
 *
 PseudoStyleType
+nsAtom
+*
+aFunctionalPseudoParameter
 Document
 *
 StyleType
@@ -611,6 +614,11 @@ PseudoStyleType
 :
 :
 NotPseudo
+nsAtom
+*
+aFunctionalPseudoParameter
+=
+nullptr
 StyleType
 =
 StyleType
@@ -638,6 +646,11 @@ PseudoStyleType
 :
 :
 NotPseudo
+nsAtom
+*
+aFunctionalPseudoParameter
+=
+nullptr
 StyleType
 aStyleType
 =
@@ -652,6 +665,7 @@ DoGetComputedStyleNoFlush
 (
 aElement
 aPseudo
+aFunctionalPseudoParameter
 nsContentUtils
 :
 :
@@ -679,6 +693,11 @@ PseudoStyleType
 :
 :
 NotPseudo
+nsAtom
+*
+aFunctionalPseudoParameter
+=
+nullptr
 )
 ;
 /
@@ -989,6 +1008,9 @@ const
 Element
 *
 PseudoStyleType
+nsAtom
+*
+aFunctionalPseudoParameter
 mozilla
 :
 :
@@ -2178,6 +2200,12 @@ mPresShell
 ;
 PseudoStyleType
 mPseudo
+;
+RefPtr
+<
+nsAtom
+>
+mFunctionalPseudoParameter
 ;
 /
 *

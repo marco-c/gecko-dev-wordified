@@ -509,6 +509,9 @@ Element
 aElement
 PseudoStyleType
 aPseudo
+nsAtom
+*
+aFunctionalPseudoParameter
 )
 {
 MOZ_ASSERT
@@ -594,6 +597,7 @@ GetComputedStyle
 (
 aElement
 aPseudo
+aFunctionalPseudoParameter
 )
 ;
 }
@@ -1548,16 +1552,16 @@ CSSStyleRule
 aResult
 )
 {
-Maybe
-<
-PseudoStyleType
->
+auto
+[
 type
+functionalPseudoParameter
+]
 =
 nsCSSPseudoElements
 :
 :
-GetPseudoType
+ParsePseudoElement
 (
 aPseudo
 CSSEnabledState
@@ -1588,6 +1592,7 @@ GetCleanComputedStyleForElement
 aElement
 *
 type
+functionalPseudoParameter
 )
 ;
 if

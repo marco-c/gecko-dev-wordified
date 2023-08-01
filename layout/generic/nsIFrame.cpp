@@ -16770,6 +16770,7 @@ PseudoStyleType
 :
 :
 selection
+nullptr
 Style
 (
 )

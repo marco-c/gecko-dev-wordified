@@ -1207,6 +1207,7 @@ PseudoStyleType
 :
 :
 mozFocusInner
+nullptr
 mFrame
 -
 >

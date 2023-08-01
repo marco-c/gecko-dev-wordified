@@ -8062,6 +8062,7 @@ PseudoStyleType
 :
 :
 backdrop
+nullptr
 /
 *
 aParentStyle
@@ -13434,6 +13435,7 @@ ProbePseudoElementStyle
 (
 aOriginatingElement
 aPseudoElement
+nullptr
 &
 aStyle
 )
@@ -60693,6 +60695,7 @@ PseudoStyleType
 :
 :
 firstLetter
+nullptr
 aComputedStyle
 )
 ;
@@ -60745,6 +60748,7 @@ PseudoStyleType
 :
 :
 firstLine
+nullptr
 aComputedStyle
 )
 ;
