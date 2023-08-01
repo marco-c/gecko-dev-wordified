@@ -11762,12 +11762,6 @@ StyleAppearance
 :
 Tabpanels
 :
-case
-StyleAppearance
-:
-:
-Groupbox
-:
 /
 /
 these
