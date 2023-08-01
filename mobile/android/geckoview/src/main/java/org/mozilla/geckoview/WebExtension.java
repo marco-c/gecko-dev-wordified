@@ -11149,6 +11149,16 @@ installState
 StateCodes
 .
 STATE_CANCELED
+&
+&
+bundle
+.
+getBoolean
+(
+"
+cancelledByUser
+"
+)
 )
 {
 errorCode
