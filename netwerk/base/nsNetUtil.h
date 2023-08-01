@@ -6504,6 +6504,9 @@ nsString
 mTitle
 ;
 nsString
+mNonce
+;
+nsString
 mIntegrity
 ;
 nsString

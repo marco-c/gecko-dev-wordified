@@ -760,6 +760,10 @@ aType
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 const
 nsAString
@@ -831,16 +835,7 @@ u
 _ns
 aSrcset
 aSizes
-/
-*
 aNonce
-=
-*
-/
-u
-"
-"
-_ns
 aIntegrity
 aCORS
 aReferrerPolicy

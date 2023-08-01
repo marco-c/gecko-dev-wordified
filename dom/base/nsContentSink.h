@@ -759,6 +759,10 @@ aMedia
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 const
 nsAString
@@ -795,6 +799,10 @@ const
 nsAString
 &
 aMedia
+const
+nsAString
+&
+aNonce
 const
 nsAString
 &
