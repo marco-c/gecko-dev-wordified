@@ -14487,7 +14487,7 @@ RegExpSearcher
 0
 RegExpSearcher
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 RegExpSearcherLastLimit
@@ -14495,6 +14495,7 @@ RegExpSearcherLastLimit
 RegExpSearcherLastLimit
 0
 0
+RegExpSearcherLastLimit
 )
 JS_INLINABLE_FN
 (

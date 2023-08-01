@@ -10974,6 +10974,15 @@ Label
 notFoundZeroLastIndex
 )
 ;
+void
+loadAndClearRegExpSearcherLastLimit
+(
+Register
+result
+Register
+scratch
+)
+;
 /
 /
 =

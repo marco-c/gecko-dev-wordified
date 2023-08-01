@@ -3115,6 +3115,11 @@ native
 )
 ;
 AttachDecision
+tryAttachRegExpSearcherLastLimit
+(
+)
+;
+AttachDecision
 tryAttachRegExpPrototypeOptimizable
 (
 )
