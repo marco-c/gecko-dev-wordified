@@ -314,7 +314,7 @@ findElement
 (
 dbg
 "
-tooltip
+previewPopup
 "
 )
 ;

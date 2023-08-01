@@ -721,7 +721,7 @@ dbg
 expression
 :
 VARIABLE_NAME
-text
+result
 :
 "
 CUSTOM
