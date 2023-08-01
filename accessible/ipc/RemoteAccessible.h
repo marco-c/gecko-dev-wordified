@@ -2489,9 +2489,6 @@ RemoteAccessible
 (
 uint64_t
 aID
-RemoteAccessible
-*
-aParent
 DocAccessibleParent
 *
 aDoc
@@ -2513,12 +2510,7 @@ aRoleMapEntryIndex
 )
 mParent
 (
-aParent
--
->
-ID
-(
-)
+kNoParent
 )
 mDoc
 (

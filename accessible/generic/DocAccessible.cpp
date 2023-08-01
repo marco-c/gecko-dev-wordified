@@ -11778,14 +11778,12 @@ ipcDoc
 >
 InsertIntoIpcTree
 (
-this
 mChildren
 .
 ElementAt
 (
 idx
 )
-idx
 true
 )
 ;
