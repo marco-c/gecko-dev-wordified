@@ -127,6 +127,15 @@ h
 #
 include
 "
+LocalAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h

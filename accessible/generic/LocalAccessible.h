@@ -996,6 +996,7 @@ roles
 .
 *
 /
+inline
 mozilla
 :
 :
@@ -1494,6 +1495,7 @@ accessible
 .
 *
 /
+inline
 void
 SetRoleMapEntry
 (
@@ -1606,6 +1608,7 @@ destroyed
 .
 *
 /
+inline
 bool
 InsertAfter
 (
@@ -3800,6 +3803,7 @@ defunct
 .
 *
 /
+inline
 bool
 IsDefunct
 (
@@ -3928,6 +3932,7 @@ value
 .
 *
 /
+inline
 bool
 NativeHasNumericValue
 (
@@ -3951,6 +3956,7 @@ value
 .
 *
 /
+inline
 bool
 ARIAHasNumericValue
 (

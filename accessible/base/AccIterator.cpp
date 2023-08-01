@@ -82,6 +82,15 @@ h
 #
 include
 "
+LocalAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 XULTreeAccessible
 .
 h
