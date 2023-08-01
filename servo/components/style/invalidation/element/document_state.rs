@@ -166,7 +166,7 @@ matching
 :
 :
 {
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 MatchingContext
 MatchingMode
 NeedsSelectorFlags
@@ -394,7 +394,7 @@ NeedsSelectorFlags
 :
 :
 No
-IgnoreNthChildForInvalidation
+MatchingForInvalidation
 :
 :
 No
