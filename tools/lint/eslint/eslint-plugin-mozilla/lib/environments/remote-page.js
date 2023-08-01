@@ -105,7 +105,7 @@ false
 RPMGetBoolPref
 :
 false
-RPMSetBoolPref
+RPMSetPref
 :
 false
 RPMGetFormatURLPref
