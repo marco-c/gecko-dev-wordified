@@ -59,8 +59,6 @@ import
 sys
 import
 traceback
-import
-six
 __all__
 =
 [
@@ -1825,8 +1823,6 @@ self
 .
 token
 =
-six
-.
 next
 (
 self
@@ -1885,8 +1881,6 @@ self
 .
 token
 =
-six
-.
 next
 (
 self
@@ -1923,8 +1917,6 @@ self
 .
 token
 =
-six
-.
 next
 (
 self
@@ -2007,8 +1999,6 @@ self
 .
 token
 =
-six
-.
 next
 (
 self
@@ -2053,16 +2043,11 @@ ex
 )
 )
             
-six
-.
-reraise
-(
-                
-ParseError
-                
+pe
+=
 ParseError
 (
-                    
+                
 "
 could
 not
@@ -2079,7 +2064,7 @@ svariables
 %
 s
 "
-                    
+                
 %
 (
 self
@@ -2090,11 +2075,15 @@ self
 .
 valuemapping
 )
-                
-)
-                
-tb
             
+)
+            
+raise
+pe
+.
+with_traceback
+(
+tb
 )
     
 __call__

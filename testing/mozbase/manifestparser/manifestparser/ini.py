@@ -59,10 +59,6 @@ import
 os
 import
 sys
-from
-six
-import
-string_types
 __all__
 =
 [
@@ -94,7 +90,7 @@ if
 isinstance
 (
 fp
-string_types
+str
 )
 :
             
@@ -365,7 +361,7 @@ if
 isinstance
 (
 fp
-string_types
+str
 )
 :
         
@@ -390,10 +386,23 @@ read
 the
 lines
     
+section
+=
+default
+    
+current_section
+=
+{
+}
+    
 current_section_name
 =
 "
 "
+    
+key_indent
+=
+0
     
 for
 (
@@ -524,7 +533,7 @@ next_prefixes
             
 for
 prefix
-index
+i
 in
 inline_prefixes
 .
@@ -540,7 +549,7 @@ stripped
 find
 (
 prefix
-index
+i
 +
 1
 )
@@ -674,9 +683,11 @@ key
 =
 value
 =
+None
+            
 key_indent
 =
-None
+0
             
 #
 deal

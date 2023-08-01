@@ -67,7 +67,7 @@ PACKAGE_VERSION
 "
 2
 .
-1
+2
 .
 0
 "
@@ -85,14 +85,14 @@ mozlog
 "
     
 "
-six
+tomlkit
 >
 =
-1
-.
-13
-.
 0
+.
+11
+.
+8
 "
 ]
 setup

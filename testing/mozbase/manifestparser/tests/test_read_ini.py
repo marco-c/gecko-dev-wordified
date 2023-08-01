@@ -67,6 +67,10 @@ html
 "
 "
 from
+io
+import
+StringIO
+from
 textwrap
 import
 dedent
@@ -78,10 +82,6 @@ from
 manifestparser
 import
 read_ini
-from
-six
-import
-StringIO
 pytest
 .
 fixture
