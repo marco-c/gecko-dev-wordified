@@ -136,6 +136,28 @@ comm
 -
 esr115
 "
+    
+#
+bug
+1845368
+:
+pine
+is
+a
+permanent
+project
+branch
+used
+for
+testing
+    
+#
+nightly
+updates
+    
+"
+pine
+"
 }
 RELEASE_PROMOTION_PROJECTS
 =
@@ -147,10 +169,6 @@ jamun
     
 "
 maple
-"
-    
-"
-pine
 "
     
 "
