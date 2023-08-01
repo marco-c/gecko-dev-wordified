@@ -316,10 +316,6 @@ MathML_DeprecatedMathSpaceValue
 )
 DEPRECATED_OPERATION
 (
-MathML_DeprecatedMathVariant
-)
-DEPRECATED_OPERATION
-(
 MathML_DeprecatedStixgeneralOperatorStretching
 )
 DEPRECATED_OPERATION
