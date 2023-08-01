@@ -4870,6 +4870,12 @@ StackLimitChecker
 Collection
 of
 caches
+(
+And
+cache
+-
+likes
+)
 for
 speeding
 up
