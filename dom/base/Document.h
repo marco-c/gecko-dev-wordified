@@ -18586,6 +18586,10 @@ aReferrerPolicy
 const
 nsAString
 &
+aNonce
+const
+nsAString
+&
 aIntegrity
 css
 :

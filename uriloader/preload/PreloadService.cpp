@@ -1224,6 +1224,15 @@ PreloadReferrerPolicy
 (
 aReferrerPolicy
 )
+/
+*
+aNonce
+*
+/
+u
+"
+"
+_ns
 aIntegrity
 aFromHeader
 ?

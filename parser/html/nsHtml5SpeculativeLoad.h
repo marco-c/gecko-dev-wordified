@@ -1185,6 +1185,13 @@ SetIsVoid
 true
 )
 ;
+mNonce
+.
+SetIsVoid
+(
+true
+)
+;
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 .
 SetIsVoid
@@ -1207,6 +1214,8 @@ nsHtml5String
 aMedia
 nsHtml5String
 aReferrerPolicy
+nsHtml5String
+aNonce
 nsHtml5String
 aIntegrity
 bool
@@ -1300,6 +1309,13 @@ IsHTMLWhitespace
 (
 referrerPolicy
 )
+)
+;
+aNonce
+.
+ToString
+(
+mNonce
 )
 ;
 aIntegrity
