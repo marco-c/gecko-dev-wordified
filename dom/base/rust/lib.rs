@@ -2121,6 +2121,13 @@ bits
 Self
 :
 :
+INDETERMINATE
+.
+bits
+|
+Self
+:
+:
 FOCUS
 .
 bits

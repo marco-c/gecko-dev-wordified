@@ -1892,6 +1892,13 @@ bool
 aNotify
 )
 ;
+void
+UpdateIndeterminateState
+(
+bool
+aNotify
+)
+;
 /
 /
 Update
