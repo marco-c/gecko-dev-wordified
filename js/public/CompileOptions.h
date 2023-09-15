@@ -2977,7 +2977,7 @@ character
 origin
 )
 .
-unsigned
+uint32_t
 lineno
 =
 1
@@ -3002,7 +3002,7 @@ units
 origin
 )
 .
-unsigned
+uint32_t
 column
 =
 0
@@ -3944,7 +3944,7 @@ CompileOptions
 &
 setLine
 (
-unsigned
+uint32_t
 l
 )
 {
@@ -3965,7 +3965,7 @@ const
 char
 *
 f
-unsigned
+uint32_t
 l
 )
 {
@@ -4028,7 +4028,7 @@ CompileOptions
 &
 setColumn
 (
-unsigned
+uint32_t
 c
 )
 {
@@ -4229,7 +4229,7 @@ const
 char
 *
 intro
-unsigned
+uint32_t
 line
 uint32_t
 offset
@@ -4725,7 +4725,7 @@ introductionType
 =
 nullptr
 ;
-unsigned
+uint32_t
 introductionLineno
 =
 0
