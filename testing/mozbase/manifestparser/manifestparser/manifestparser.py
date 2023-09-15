@@ -1269,22 +1269,6 @@ type
 1
 ]
             
-self
-.
-logger
-.
-debug_ci
-(
-f
-"
-INCLUDE
-:
-{
-include_file
-}
-"
-)
-            
 include_file
 =
 normalize_path
@@ -1373,7 +1357,7 @@ self
 .
 logger
 .
-debug_ci
+info
 (
                             
 f
@@ -1636,7 +1620,7 @@ self
 .
 logger
 .
-debug_ci
+info
 (
 f
 "
@@ -1659,7 +1643,7 @@ self
 .
 logger
 .
-debug_ci
+info
 (
                             
 f
@@ -1682,7 +1666,7 @@ self
 .
 logger
 .
-debug_ci
+info
 (
 f
 "
@@ -1702,7 +1686,7 @@ self
 .
 logger
 .
-debug_ci
+info
 (
 f
 "
@@ -1733,7 +1717,7 @@ self
 .
 logger
 .
-debug_ci
+info
 (
 f
 "
@@ -2052,6 +2036,23 @@ include
 "
 )
 :
+                
+self
+.
+logger
+.
+info
+(
+f
+"
+ManifestParser
+INCLUDE
+:
+{
+section
+}
+"
+)
                 
 include_file
 =
