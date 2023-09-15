@@ -17597,7 +17597,7 @@ object
 .
 *
 /
-AnyThread
+UiThread
 public
 NonNull
 GeckoResult
@@ -17703,7 +17703,7 @@ recommendations
 .
 *
 /
-AnyThread
+UiThread
 public
 NonNull
 GeckoResult
