@@ -2226,7 +2226,7 @@ if
 !
 cx
 .
-in_ua_or_chrome_sheet
+chrome_rules_enabled
 (
 )
 {
