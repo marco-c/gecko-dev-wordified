@@ -1509,6 +1509,11 @@ ATTR_FENCE
 static
 nsHtml5AttributeName
 *
+ATTR_FETCHPRIORITY
+;
+static
+nsHtml5AttributeName
+*
 ATTR_NONCE
 ;
 static
