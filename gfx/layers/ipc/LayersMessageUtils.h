@@ -3241,7 +3241,7 @@ WriteParam
 aWriter
 aParam
 .
-mStart
+mDirection
 )
 ;
 WriteParam
@@ -3249,7 +3249,7 @@ WriteParam
 aWriter
 aParam
 .
-mEnd
+mSnapArea
 )
 ;
 WriteParam
@@ -3281,7 +3281,7 @@ aReader
 aResult
 -
 >
-mStart
+mDirection
 )
 &
 &
@@ -3292,7 +3292,7 @@ aReader
 aResult
 -
 >
-mEnd
+mSnapArea
 )
 &
 &
