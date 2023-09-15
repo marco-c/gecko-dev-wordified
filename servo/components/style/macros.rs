@@ -357,7 +357,7 @@ ident
 =
 input
 .
-expect_ident_cloned
+expect_ident
 (
 )
 ?
