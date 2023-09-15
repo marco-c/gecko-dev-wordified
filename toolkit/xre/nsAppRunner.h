@@ -555,11 +555,6 @@ WriteConsoleLog
 (
 )
 ;
-void
-OverrideDefaultLocaleIfNeeded
-(
-)
-;
 /
 *
 *
