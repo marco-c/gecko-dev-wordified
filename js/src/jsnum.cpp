@@ -8120,7 +8120,7 @@ names
 (
 )
 .
-NegativeInfinity
+NegativeInfinity_
 )
 ;
 return
@@ -8604,7 +8604,7 @@ names
 (
 )
 .
-NegativeInfinity
+NegativeInfinity_
 )
 ;
 return
@@ -9033,7 +9033,7 @@ names
 (
 )
 .
-NegativeInfinity
+NegativeInfinity_
 )
 ;
 return

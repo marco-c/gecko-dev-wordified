@@ -2658,7 +2658,7 @@ names
 (
 )
 .
-emptyRegExp
+emptyRegExp_
 ;
 }
 /
