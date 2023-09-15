@@ -211,6 +211,7 @@ popup
 )
 ;
 }
+assertPanelUnsupportedLanguageView
 )
 ;
 await
@@ -323,6 +324,17 @@ shown
 "
 )
 ;
+await
+waitForTranslationsPopupEvent
+(
+"
+popupshown
+"
+(
+)
+=
+>
+{
 click
 (
 getByL10nId
@@ -345,6 +357,10 @@ the
 languages
 .
 "
+)
+;
+}
+assertPanelFirstShowView
 )
 ;
 info
@@ -713,6 +729,7 @@ popup
 )
 ;
 }
+assertPanelUnsupportedLanguageView
 )
 ;
 await

@@ -186,6 +186,7 @@ popup
 )
 ;
 }
+assertPanelUnsupportedLanguageView
 )
 ;
 ok
@@ -267,6 +268,17 @@ available
 "
 )
 ;
+await
+waitForTranslationsPopupEvent
+(
+"
+popupshown
+"
+(
+)
+=
+>
+{
 click
 (
 getByL10nId
@@ -289,6 +301,10 @@ the
 languages
 .
 "
+)
+;
+}
+assertPanelDefaultView
 )
 ;
 info

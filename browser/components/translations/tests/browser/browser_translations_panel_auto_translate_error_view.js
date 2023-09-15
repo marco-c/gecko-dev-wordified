@@ -710,6 +710,10 @@ Mancha
 }
 )
 ;
+assertPanelErrorView
+(
+)
+;
 info
 (
 "

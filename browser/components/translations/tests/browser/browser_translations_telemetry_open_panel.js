@@ -138,6 +138,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 await
@@ -328,6 +329,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 await

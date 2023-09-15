@@ -275,6 +275,7 @@ popup
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 await
@@ -480,6 +481,10 @@ Mancha
 )
 ;
 }
+)
+;
+assertPanelErrorView
+(
 )
 ;
 await
@@ -1020,6 +1025,10 @@ Mancha
 )
 ;
 }
+)
+;
+assertPanelErrorView
+(
 )
 ;
 await

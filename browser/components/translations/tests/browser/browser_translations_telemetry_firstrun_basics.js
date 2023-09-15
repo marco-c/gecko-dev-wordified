@@ -175,6 +175,7 @@ popup
 )
 ;
 }
+assertPanelFirstShowView
 )
 ;
 await
@@ -374,6 +375,7 @@ popup
 )
 ;
 }
+assertPanelFirstShowView
 )
 ;
 await

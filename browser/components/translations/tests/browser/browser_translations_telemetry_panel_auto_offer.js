@@ -306,6 +306,7 @@ domain
 )
 ;
 }
+assertPanelDefaultView
 )
 ;
 await
