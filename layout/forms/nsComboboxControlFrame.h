@@ -551,10 +551,14 @@ final
 #
 endif
 void
-Destroy
+DestroyFrom
 (
-DestroyContext
+nsIFrame
+*
+aDestructRoot
+PostDestroyData
 &
+aPostDestroyData
 )
 final
 ;

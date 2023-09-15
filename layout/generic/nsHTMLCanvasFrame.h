@@ -285,9 +285,11 @@ aLists
 override
 ;
 void
-Destroy
+DestroyFrom
 (
-DestroyContext
+nsIFrame
+*
+PostDestroyData
 &
 )
 override
