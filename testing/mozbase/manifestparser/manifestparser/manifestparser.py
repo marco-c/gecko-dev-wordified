@@ -272,7 +272,7 @@ True
         
 use_toml
 =
-False
+True
     
 )
 :
@@ -1385,7 +1385,7 @@ self
 .
 logger
 .
-debug
+info
 (
                             
 f
@@ -1520,6 +1520,18 @@ _get_fp_filename
 filename
 )
         
+manifest_defaults_filename
+=
+filename
+#
+does
+not
+change
+if
+TOML
+is
+present
+        
 if
 filename
 is
@@ -1636,12 +1648,15 @@ self
 .
 logger
 .
-debug
+info
 (
 f
 "
 Reading
 TOML
+instead
+of
+INI
 :
 {
 filename
@@ -1656,7 +1671,7 @@ self
 .
 logger
 .
-debug
+info
 (
                             
 f
@@ -1679,7 +1694,7 @@ self
 .
 logger
 .
-debug
+info
 (
 f
 "
@@ -1699,7 +1714,7 @@ self
 .
 logger
 .
-debug
+info
 (
 f
 "
@@ -1730,7 +1745,7 @@ self
 .
 logger
 .
-debug
+info
 (
 f
 "
@@ -1931,6 +1946,27 @@ self
 .
 manifest_defaults
 [
+                
+(
+parentmanifest
+manifest_defaults_filename
+)
+            
+]
+=
+defaults
+            
+if
+manifest_defaults_filename
+!
+=
+filename
+:
+                
+self
+.
+manifest_defaults
+[
 (
 parentmanifest
 filename
@@ -1942,6 +1978,22 @@ defaults
 else
 :
             
+self
+.
+manifest_defaults
+[
+manifest_defaults_filename
+]
+=
+defaults
+            
+if
+manifest_defaults_filename
+!
+=
+filename
+:
+                
 self
 .
 manifest_defaults
@@ -2017,7 +2069,7 @@ self
 .
 logger
 .
-debug
+info
 (
 f
 "

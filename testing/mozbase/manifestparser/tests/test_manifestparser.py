@@ -165,6 +165,9 @@ parser
 =
 ManifestParser
 (
+use_toml
+=
+False
 )
         
 mozmill_example
@@ -916,6 +919,9 @@ manifests
 (
 include_example
 )
+use_toml
+=
+False
 )
         
 #
@@ -2411,6 +2417,9 @@ noinclude_example
 rootdir
 =
 here
+use_toml
+=
+False
         
 )
         
@@ -2798,7 +2807,7 @@ parser
 manifest_defaults
 )
         
-ancestor_ini
+ancestor_toml
 =
 os
 .
@@ -2817,7 +2826,7 @@ self
 assertTrue
 (
 (
-ancestor_ini
+ancestor_toml
 bar_path
 )
 in
@@ -2831,7 +2840,7 @@ self
 assertTrue
 (
 (
-ancestor_ini
+ancestor_toml
 foo_path
 )
 in
@@ -2992,6 +3001,9 @@ False
 rootdir
 =
 here
+use_toml
+=
+False
         
 )
         
@@ -3557,6 +3569,7 @@ parser
 =
 ManifestParser
 (
+            
 manifests
 =
 (
@@ -3566,6 +3579,10 @@ included_foo
 rootdir
 =
 here
+use_toml
+=
+False
+        
 )
         
 self
@@ -3745,6 +3762,7 @@ parser
 =
 ManifestParser
 (
+            
 manifests
 =
 (
@@ -3754,6 +3772,10 @@ include_example
 rootdir
 =
 here
+use_toml
+=
+False
+        
 )
         
 self
@@ -4907,6 +4929,9 @@ manifests
 (
 include_example
 )
+use_toml
+=
+False
 )
         
 manifest
@@ -6905,6 +6930,9 @@ parser
 =
 ManifestParser
 (
+use_toml
+=
+False
 )
         
 manifest

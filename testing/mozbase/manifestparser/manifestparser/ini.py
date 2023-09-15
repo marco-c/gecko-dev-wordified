@@ -1325,6 +1325,22 @@ n
 %
 s
 "
+#
+consider
+implicit
+logical
+OR
+:
+"
+%
+s
+|
+|
+\
+n
+%
+s
+"
         
 "
 support
