@@ -2633,6 +2633,11 @@ event
 "
 onDownloadCancelled
 "
+error
+:
+"
+ERROR_INCOMPATIBLE
+"
 }
 ]
 ;
