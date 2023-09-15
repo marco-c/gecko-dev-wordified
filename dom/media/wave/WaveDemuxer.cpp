@@ -551,7 +551,7 @@ false
 ;
 }
 uint32_t
-aChunkName
+chunkName
 =
 mHeaderParser
 .
@@ -564,7 +564,7 @@ ChunkName
 )
 ;
 uint32_t
-aChunkSize
+chunkSize
 =
 mHeaderParser
 .
@@ -578,7 +578,7 @@ ChunkSize
 ;
 if
 (
-aChunkName
+chunkName
 =
 =
 FRMT_CODE
@@ -600,7 +600,7 @@ false
 else
 if
 (
-aChunkName
+chunkName
 =
 =
 LIST_CODE
@@ -623,7 +623,7 @@ uint64_t
 mOffset
 )
 +
-aChunkSize
+chunkSize
 ;
 if
 (
@@ -641,7 +641,7 @@ if
 !
 ListChunkParserInit
 (
-aChunkSize
+chunkSize
 )
 )
 {
@@ -654,7 +654,7 @@ endOfListChunk
 else
 if
 (
-aChunkName
+chunkName
 =
 =
 DATA_CODE
@@ -662,7 +662,7 @@ DATA_CODE
 {
 mDataLength
 =
-aChunkSize
+chunkSize
 ;
 if
 (
@@ -685,7 +685,7 @@ else
 mOffset
 +
 =
-aChunkSize
+chunkSize
 ;
 /
 /
@@ -1092,7 +1092,7 @@ false
 ;
 }
 BufferReader
-HeaderReader
+headerReader
 (
 header
 -
@@ -1110,7 +1110,7 @@ mHeaderParser
 .
 Parse
 (
-HeaderReader
+headerReader
 )
 ;
 return
