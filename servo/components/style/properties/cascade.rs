@@ -2662,7 +2662,9 @@ resolve_to_absolute
 AbsoluteColor
 :
 :
-BLACK
+black
+(
+)
 )
 .
 alpha

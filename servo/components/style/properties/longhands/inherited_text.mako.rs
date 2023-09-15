@@ -125,7 +125,9 @@ color
 AbsoluteColor
 :
 :
-BLACK
+black
+(
+)
 "
 engines
 =
