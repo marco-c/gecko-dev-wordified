@@ -3129,6 +3129,10 @@ void
 runInPage
 (
 callback
+data
+=
+{
+}
 )
 {
 /
@@ -3250,6 +3254,18 @@ content
 }
 )
 ;
+const
+data
+=
+{
+JSON
+.
+stringify
+(
+data
+)
+}
+;
 return
 (
 {
@@ -3262,6 +3278,7 @@ toString
 )
 (
 TranslationsTest
+data
 )
 ;
 )
