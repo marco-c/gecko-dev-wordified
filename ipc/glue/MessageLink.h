@@ -236,6 +236,15 @@ ChildSide
 UnknownSide
 }
 ;
+const
+char
+*
+StringFromIPCSide
+(
+Side
+side
+)
+;
 class
 MessageLink
 {
