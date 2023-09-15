@@ -11319,7 +11319,7 @@ nsIEventListenerInfo
 aList
 )
 {
-RefPtr
+nsCOMPtr
 <
 EventTarget
 >

@@ -2428,13 +2428,13 @@ aVisitor
 private
 :
 const
-RefPtr
+nsCOMPtr
 <
 EventTarget
 >
 mTarget
 ;
-RefPtr
+nsCOMPtr
 <
 EventTarget
 >
@@ -2646,7 +2646,7 @@ non
 -
 null
 .
-RefPtr
+nsCOMPtr
 <
 EventTarget
 >
@@ -5545,7 +5545,7 @@ IsInStableOrMetaStableState
 NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
-RefPtr
+nsCOMPtr
 <
 EventTarget
 >
@@ -5644,7 +5644,7 @@ IsInNativeAnonymousSubtree
 )
 )
 {
-RefPtr
+nsCOMPtr
 <
 EventTarget
 >
