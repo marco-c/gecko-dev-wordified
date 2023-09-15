@@ -814,6 +814,11 @@ mNoListenerForEvents
 ]
 ;
 uint16_t
+mMayHaveDOMActivateEventListener
+:
+1
+;
+uint16_t
 mMayHavePaintEventListener
 :
 1
@@ -880,7 +885,7 @@ mMayHaveListenersForUntrustedEvents
 ;
 /
 /
-3
+2
 unused
 flags
 .
@@ -3005,6 +3010,16 @@ nsAtom
 aEvent
 )
 ;
+bool
+MayHaveDOMActivateListeners
+(
+)
+const
+{
+return
+mMayHaveDOMActivateEventListener
+;
+}
 /
 *
 *

@@ -25561,6 +25561,12 @@ RecomputeResistFingerprinting
 (
 )
 ;
+bool
+MayHaveDOMActivateListeners
+(
+)
+const
+;
 protected
 :
 /

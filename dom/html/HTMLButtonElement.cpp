@@ -1286,6 +1286,16 @@ mouseEvent
 IsLeftClickEvent
 (
 )
+&
+&
+OwnerDoc
+(
+)
+-
+>
+MayHaveDOMActivateListeners
+(
+)
 )
 {
 /
