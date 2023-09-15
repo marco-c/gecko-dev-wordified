@@ -298,7 +298,7 @@ not
 full
 :
         
-blacklisted_tasks
+excluded_tasks
 =
 [
             
@@ -327,7 +327,7 @@ label
 for
 task
 in
-blacklisted_tasks
+excluded_tasks
 :
             
 tg
