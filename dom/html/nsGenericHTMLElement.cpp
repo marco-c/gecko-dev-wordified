@@ -5482,14 +5482,6 @@ nsGkAtoms
 :
 :
 inert
-&
-&
-StaticPrefs
-:
-:
-html5_inert_enabled
-(
-)
 )
 {
 if
