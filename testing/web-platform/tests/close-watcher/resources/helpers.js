@@ -226,7 +226,7 @@ keypress
 as
 our
 close
-signal
+request
 .
 In
 /
@@ -248,7 +248,7 @@ similar
 for
 the
 close
-signal
+request
 which
 would
 allow
@@ -261,7 +261,7 @@ platforms
 with
 different
 close
-signals
+requests
 .
 In
 that
@@ -284,7 +284,7 @@ above
 .
 window
 .
-sendCloseSignal
+sendCloseRequest
 =
 window
 .
