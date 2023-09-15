@@ -421,13 +421,6 @@ aResult
 const
 override
 ;
-ElementState
-IntrinsicState
-(
-)
-const
-override
-;
 /
 /
 WebIDL
