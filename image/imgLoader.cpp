@@ -15134,14 +15134,6 @@ first
 .
 if
 (
-StaticPrefs
-:
-:
-network_preload
-(
-)
-&
-&
 !
 aLinkPreload
 &

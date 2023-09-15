@@ -913,14 +913,6 @@ send_after_paint_to_content
 True
             
 "
-network
-.
-preload
-"
-:
-True
-            
-"
 browser
 .
 tabs
