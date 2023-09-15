@@ -732,8 +732,6 @@ addonCard
 querySelector
 (
 "
-moz
--
 message
 -
 bar
@@ -905,8 +903,6 @@ addonCard
 querySelector
 (
 "
-moz
--
 message
 -
 bar
@@ -1041,8 +1037,6 @@ item
 querySelector
 (
 "
-moz
--
 message
 -
 bar
@@ -1315,8 +1309,6 @@ addonCard
 querySelector
 (
 "
-moz
--
 message
 -
 bar

@@ -4415,8 +4415,6 @@ document
 querySelector
 (
 "
-moz
--
 message
 -
 bar
@@ -4456,8 +4454,6 @@ document
 querySelector
 (
 "
-moz
--
 message
 -
 bar
@@ -4484,7 +4480,7 @@ view
 ;
 messageBar
 .
-closeButtonEl
+closeButton
 .
 click
 (
@@ -4499,8 +4495,6 @@ document
 querySelector
 (
 "
-moz
--
 message
 -
 bar
@@ -4542,8 +4536,6 @@ document
 querySelector
 (
 "
-moz
--
 message
 -
 bar
