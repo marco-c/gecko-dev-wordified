@@ -1200,7 +1200,7 @@ don
 t
 forget
 to
-udate
+update
 kNumMediaTypes
 if
 you
