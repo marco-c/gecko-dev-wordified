@@ -2951,7 +2951,16 @@ if
 builder_
 -
 >
-isMonomorphicInlined
+info
+(
+)
+.
+inlineScriptTree
+(
+)
+-
+>
+hasSharedICScript
 (
 )
 )
