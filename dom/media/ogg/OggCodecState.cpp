@@ -2011,6 +2011,14 @@ if
 !
 duration
 .
+IsValid
+(
+)
+|
+|
+!
+duration
+.
 IsPositiveOrZero
 (
 )
