@@ -23251,7 +23251,7 @@ nsAHtml5TreeBuilderState
 snapshot
 )
 {
-mCurrentHtmlScriptIsAsyncOrDefer
+mCurrentHtmlScriptCannotDocumentWriteOrBlock
 =
 false
 ;

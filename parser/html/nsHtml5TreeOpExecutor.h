@@ -896,6 +896,8 @@ RunScript
 nsIContent
 *
 aScriptElement
+bool
+aMayDocumentWriteOrBlock
 )
 ;
 /
@@ -1060,8 +1062,6 @@ bool
 aAsync
 bool
 aDefer
-bool
-aNoModule
 bool
 aLinkPreload
 )

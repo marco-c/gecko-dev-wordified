@@ -32514,7 +32514,7 @@ SAXException
 /
 CPPONLY
 :
-mCurrentHtmlScriptIsAsyncOrDefer
+mCurrentHtmlScriptCannotDocumentWriteOrBlock
 =
 false
 ;
