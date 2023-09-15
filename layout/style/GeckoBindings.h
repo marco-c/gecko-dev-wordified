@@ -3531,6 +3531,12 @@ mozilla
 Length
 mAscent
 ;
+mozilla
+:
+:
+Length
+mComputedEmSize
+;
 float
 mScriptPercentScaleDown
 ;

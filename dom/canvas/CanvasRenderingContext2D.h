@@ -5835,6 +5835,14 @@ NeedToApplyFilter
 /
 /
 text
+public
+:
+gfxFontGroup
+*
+GetCurrentFontStyle
+(
+)
+;
 protected
 :
 enum
@@ -5847,12 +5855,6 @@ FILL
 STROKE
 MEASURE
 }
-;
-gfxFontGroup
-*
-GetCurrentFontStyle
-(
-)
 ;
 /
 *

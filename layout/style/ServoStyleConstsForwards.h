@@ -294,6 +294,9 @@ gfxFontFeatureValueSet
 struct
 gfxFontFeature
 ;
+struct
+GeckoFontMetrics
+;
 namespace
 mozilla
 {
