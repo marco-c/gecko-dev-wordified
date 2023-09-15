@@ -722,6 +722,10 @@ IdValuePair
 properties
 size_t
 nproperties
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 /
@@ -760,6 +764,10 @@ IdValuePair
 properties
 size_t
 nproperties
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 }

@@ -1688,6 +1688,8 @@ IdValuePair
 properties
 size_t
 nproperties
+NewObjectKind
+newKind
 )
 {
 auto
@@ -1761,6 +1763,7 @@ createWithShape
 (
 cx
 shapeRoot
+newKind
 )
 ;
 if
@@ -1847,6 +1850,7 @@ NewPlainObjectWithAllocKind
 (
 cx
 allocKind
+newKind
 )
 )
 ;
@@ -2213,6 +2217,8 @@ IdValuePair
 properties
 size_t
 nproperties
+NewObjectKind
+newKind
 )
 {
 return
@@ -2227,6 +2233,7 @@ UniqueNames
 cx
 properties
 nproperties
+newKind
 )
 ;
 }
@@ -2245,6 +2252,8 @@ IdValuePair
 properties
 size_t
 nproperties
+NewObjectKind
+newKind
 )
 {
 return
@@ -2259,6 +2268,7 @@ Unknown
 cx
 properties
 nproperties
+newKind
 )
 ;
 }
