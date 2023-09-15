@@ -1162,7 +1162,7 @@ StartUp
 nsCSSProps
 :
 :
-AddRefTable
+Init
 (
 )
 ;
@@ -2076,13 +2076,6 @@ of
 our
 atoms
 nsColorNames
-:
-:
-ReleaseTable
-(
-)
-;
-nsCSSProps
 :
 :
 ReleaseTable
