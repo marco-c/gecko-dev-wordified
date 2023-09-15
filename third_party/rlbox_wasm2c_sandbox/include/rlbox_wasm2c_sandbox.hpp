@@ -2037,7 +2037,7 @@ only
 if
 defined
 (
-_MSC_VER
+_WIN32
 )
 __declspec
 (
