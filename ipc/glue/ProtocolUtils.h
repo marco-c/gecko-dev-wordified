@@ -3739,6 +3739,14 @@ const
 char
 *
 aTopLevelProtocol
+mozilla
+:
+:
+ipc
+:
+:
+Side
+aSide
 const
 char
 *
@@ -3755,6 +3763,14 @@ const
 char
 *
 aTopLevelProtocol
+mozilla
+:
+:
+ipc
+:
+:
+Side
+aSide
 )
 {
 #
@@ -3773,6 +3789,7 @@ return
 LoggingEnabledFor
 (
 aTopLevelProtocol
+aSide
 PR_GetEnv
 (
 "
