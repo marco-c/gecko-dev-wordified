@@ -5335,6 +5335,11 @@ session
 "
 )
 ;
+bool
+cleanly
+=
+false
+;
 /
 /
 TODO
@@ -5434,6 +5439,10 @@ status
 .
 _0
 ;
+cleanly
+=
+true
+;
 }
 else
 {
@@ -5468,6 +5477,10 @@ Length
 (
 )
 )
+;
+cleanly
+=
+true
 ;
 }
 LOG
@@ -5514,6 +5527,7 @@ wt
 >
 OnSessionClosed
 (
+cleanly
 status
 reason
 )

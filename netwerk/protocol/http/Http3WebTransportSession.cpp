@@ -2065,6 +2065,10 @@ mListener
 >
 OnSessionClosed
 (
+NS_SUCCEEDED
+(
+aResult
+)
 0
 "
 "
@@ -2120,6 +2124,8 @@ Http3WebTransportSession
 :
 OnSessionClosed
 (
+bool
+aCleanly
 uint32_t
 aStatus
 const
@@ -2156,6 +2162,7 @@ mListener
 >
 OnSessionClosed
 (
+aCleanly
 aStatus
 aReason
 )

@@ -348,6 +348,8 @@ aReason
 void
 OnSessionClosed
 (
+bool
+aCleanly
 uint32_t
 aStatus
 const
