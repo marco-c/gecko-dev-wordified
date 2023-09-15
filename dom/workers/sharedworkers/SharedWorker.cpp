@@ -1596,7 +1596,7 @@ loadInfo
 mUseRegularPrincipal
 loadInfo
 .
-mHasStorageAccessPermissionGranted
+mUsingStorageAccess
 cjsData
 loadInfo
 .

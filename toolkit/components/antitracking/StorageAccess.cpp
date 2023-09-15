@@ -3936,7 +3936,7 @@ false
 Document
 :
 :
-HasStoragePermission
+UsingStorageAccess
 first
 checks
 if
@@ -3974,7 +3974,7 @@ allowed
 document
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 ;
@@ -4010,7 +4010,7 @@ Debug
 aWindow
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 )
@@ -5239,7 +5239,7 @@ channel
 .
 /
 /
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 only
 applies
 to
@@ -5302,7 +5302,7 @@ inner
 inner
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 )

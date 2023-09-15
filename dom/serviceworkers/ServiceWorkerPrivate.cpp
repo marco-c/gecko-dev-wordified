@@ -3616,7 +3616,7 @@ needed
 .
 /
 *
-hasStorageAccessPermissionGranted
+usingStorageAccess
 *
 /
 false

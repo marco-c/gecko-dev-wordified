@@ -8907,7 +8907,7 @@ SetTriggeringStorageAccess
 parentInnerWin
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 )

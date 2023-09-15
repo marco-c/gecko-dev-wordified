@@ -618,7 +618,7 @@ mUseRegularPrincipal
 (
 false
 )
-mHasStorageAccessPermissionGranted
+mUsingStorageAccess
 (
 false
 )
