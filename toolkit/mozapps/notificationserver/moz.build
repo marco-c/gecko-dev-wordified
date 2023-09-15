@@ -211,6 +211,9 @@ advapi32
 kernel32
 "
 "
+runtimeobject
+"
+"
 user32
 "
 ]
