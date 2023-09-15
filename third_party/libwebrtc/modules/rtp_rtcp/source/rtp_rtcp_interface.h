@@ -856,15 +856,6 @@ are
 read
 from
 field_trials
-otherwise
-/
-/
-defaults
-to
-webrtc
-:
-:
-FieldTrialBasedConfig
 .
 const
 FieldTrialsView
