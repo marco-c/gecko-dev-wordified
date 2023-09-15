@@ -1715,14 +1715,6 @@ BundledMids
 bundledMids
 )
 ;
-nsresult
-EnableOfferMsection
-(
-SdpMediaSection
-*
-msection
-)
-;
 mozilla
 :
 :
