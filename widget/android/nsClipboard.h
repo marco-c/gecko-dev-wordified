@@ -117,16 +117,12 @@ private
 nsClipboard
 (
 )
-=
-default
 ;
 public
 :
 nsClipboard
 (
 )
-=
-default
 ;
 NS_DECL_ISUPPORTS_INHERITED
 /
