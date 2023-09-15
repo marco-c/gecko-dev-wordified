@@ -103,17 +103,10 @@ TEST_SUITES
 TestManifestLoader
 TestResolver
 from
-taskgraph
-.
-util
-.
-yaml
-import
-load_yaml
-from
 gecko_taskgraph
 import
 GECKO
+TEST_VARIANTS
 from
 gecko_taskgraph
 .
@@ -911,36 +904,15 @@ new_ver
             
 break
     
-test_variants
-=
-load_yaml
-(
-GECKO
-"
-taskcluster
-"
-"
-ci
-"
-"
-test
-"
-"
-variants
-.
-yml
-"
-)
-    
 for
 variant
 in
-test_variants
+TEST_VARIANTS
 :
         
 tag
 =
-test_variants
+TEST_VARIANTS
 [
 variant
 ]
