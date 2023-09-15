@@ -737,9 +737,6 @@ species
 "
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Array
@@ -1148,5 +1145,3 @@ return
 map
 ;
 }
-#
-endif
