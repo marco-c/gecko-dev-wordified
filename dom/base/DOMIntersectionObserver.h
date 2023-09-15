@@ -906,7 +906,7 @@ aRootMargin
 ;
 enum
 class
-IgnoreContentVisibility
+IsContentVisibilityObserver
 :
 bool
 {
@@ -923,9 +923,9 @@ IntersectionInput
 &
 Element
 &
-IgnoreContentVisibility
+IsContentVisibilityObserver
 =
-IgnoreContentVisibility
+IsContentVisibilityObserver
 :
 :
 No
