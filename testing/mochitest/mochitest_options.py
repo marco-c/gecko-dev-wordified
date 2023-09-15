@@ -3989,7 +3989,7 @@ tests
 with
 accessibility
 checks
-disabled
+enabled
 .
 "
             
