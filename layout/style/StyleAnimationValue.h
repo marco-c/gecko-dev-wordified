@@ -624,6 +624,12 @@ GetOffsetPositionProperty
 )
 const
 ;
+bool
+IsOffsetPathUrl
+(
+)
+const
+;
 /
 /
 Return
