@@ -618,10 +618,10 @@ body
 null
 function
 (
-chan
+channel
 )
 {
-chan
+channel
 .
 resetInterception
 (
@@ -728,10 +728,10 @@ body
 null
 function
 (
-chan
+channel
 )
 {
-chan
+channel
 .
 resetInterception
 (
@@ -967,7 +967,7 @@ body
 null
 function
 (
-chan
+channel
 )
 {
 do_timeout
@@ -977,7 +977,7 @@ function
 (
 )
 {
-chan
+channel
 .
 resetInterception
 (
@@ -1256,10 +1256,10 @@ body
 null
 function
 (
-chan
+channel
 )
 {
-chan
+channel
 .
 resetInterception
 (
@@ -1280,7 +1280,7 @@ false
 ;
 try
 {
-chan
+channel
 .
 cancelInterception
 (
@@ -1645,7 +1645,7 @@ body
 null
 function
 (
-chan
+channel
 )
 {
 throw
