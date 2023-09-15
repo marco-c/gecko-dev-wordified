@@ -117,7 +117,7 @@ stateFile
 .
 append
 (
-SSS_STATE_FILE_NAME
+SSS_STATE_OLD_FILE_NAME
 )
 ;
 /
