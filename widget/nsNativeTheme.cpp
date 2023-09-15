@@ -3810,6 +3810,15 @@ StyleAppearance
 FocusOutline
 |
 |
+aAppearance
+=
+=
+StyleAppearance
+:
+:
+Menuarrow
+|
+|
 (
 aFrame
 &
