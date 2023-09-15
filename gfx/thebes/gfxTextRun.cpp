@@ -14145,7 +14145,6 @@ faceList
 for
 (
 auto
-*
 face
 :
 faceList
