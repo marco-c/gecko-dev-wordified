@@ -724,6 +724,17 @@ override
 MOCK_METHOD
 (
 void
+OnBatchComplete
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
+void
 SetFecProtectionParams
 (
 const
