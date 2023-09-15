@@ -15434,7 +15434,10 @@ script
 jsbytecode
 *
 pc
-unsigned
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 *
 columnp
 =
@@ -15447,7 +15450,10 @@ PCToLineNumber
 (
 unsigned
 startLine
-unsigned
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 startCol
 SrcNote
 *
@@ -15458,7 +15464,10 @@ code
 jsbytecode
 *
 pc
-unsigned
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
 *
 columnp
 =
