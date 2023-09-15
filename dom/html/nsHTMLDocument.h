@@ -320,6 +320,12 @@ virtual
 nsresult
 Init
 (
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 override
 ;

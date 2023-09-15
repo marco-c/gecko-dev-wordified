@@ -843,6 +843,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -912,6 +914,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -981,6 +985,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1062,6 +1068,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1135,6 +1143,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1342,6 +1352,8 @@ getter_AddRefs
 (
 blankDoc
 )
+nullptr
+nullptr
 )
 ;
 if

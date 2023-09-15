@@ -1614,6 +1614,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -1916,6 +1918,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -2218,6 +2222,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -2520,6 +2526,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -2832,6 +2840,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -3142,6 +3152,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -3453,6 +3465,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -3826,6 +3840,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -4132,6 +4148,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -4441,6 +4459,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -4767,6 +4787,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -5100,6 +5122,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -5440,6 +5464,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -5752,6 +5778,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -6152,6 +6180,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -6558,6 +6588,8 @@ getter_AddRefs
 (
 doc
 )
+nullptr
+nullptr
 )
 ;
 EXPECT_TRUE

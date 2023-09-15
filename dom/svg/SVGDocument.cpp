@@ -471,6 +471,12 @@ Document
 *
 *
 aInstancePtrResult
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 {
 RefPtr
@@ -492,6 +498,8 @@ doc
 >
 Init
 (
+aPrincipal
+aPartitionedPrincipal
 )
 ;
 if

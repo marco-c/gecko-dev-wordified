@@ -640,6 +640,12 @@ MediaDocument
 :
 Init
 (
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 {
 nsresult
@@ -650,6 +656,8 @@ nsHTMLDocument
 :
 Init
 (
+aPrincipal
+aPartitionedPrincipal
 )
 ;
 NS_ENSURE_SUCCESS

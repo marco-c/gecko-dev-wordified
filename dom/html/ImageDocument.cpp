@@ -965,6 +965,12 @@ ImageDocument
 :
 Init
 (
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 {
 nsresult
@@ -975,6 +981,8 @@ MediaDocument
 :
 Init
 (
+aPrincipal
+aPartitionedPrincipal
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4854,6 +4862,12 @@ Document
 *
 *
 aResult
+nsIPrincipal
+*
+aPrincipal
+nsIPrincipal
+*
+aPartitionedPrincipal
 )
 {
 auto
@@ -4884,6 +4898,8 @@ doc
 >
 Init
 (
+aPrincipal
+aPartitionedPrincipal
 )
 ;
 if
