@@ -77,6 +77,10 @@ pub
 mod
 mix
 ;
+pub
+mod
+parsing
+;
 use
 cssparser
 :
@@ -4436,7 +4440,7 @@ ToCss
 to_css
 (
 &
-cssparser_color
+parsing
 :
 :
 RgbaLegacy
@@ -4502,7 +4506,7 @@ ToCss
 to_css
 (
 &
-cssparser_color
+parsing
 :
 :
 Lab
@@ -4532,7 +4536,7 @@ ToCss
 to_css
 (
 &
-cssparser_color
+parsing
 :
 :
 Lch
@@ -4562,7 +4566,7 @@ ToCss
 to_css
 (
 &
-cssparser_color
+parsing
 :
 :
 Oklab
@@ -4592,7 +4596,7 @@ ToCss
 to_css
 (
 &
-cssparser_color
+parsing
 :
 :
 Oklch
@@ -4753,7 +4757,7 @@ syntax
 let
 color_function
 =
-cssparser_color
+parsing
 :
 :
 ColorFunction
@@ -4776,7 +4780,7 @@ maybe_alpha
 let
 color
 =
-cssparser_color
+parsing
 :
 :
 Color

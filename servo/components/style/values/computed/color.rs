@@ -120,7 +120,13 @@ GenericColorOrAuto
 }
 ;
 use
-cssparser_color
+crate
+:
+:
+color
+:
+:
+parsing
 :
 :
 Color

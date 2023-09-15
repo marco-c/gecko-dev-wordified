@@ -185,7 +185,13 @@ CustomIdent
 }
 ;
 use
-cssparser_color
+crate
+:
+:
+color
+:
+:
+parsing
 :
 :
 {
@@ -195,6 +201,7 @@ as
 CSSParserColor
 NumberOrPercentage
 FromParsedColor
+self
 }
 ;
 use
@@ -3172,7 +3179,7 @@ i
 '
 a
 >
-cssparser_color
+parsing
 :
 :
 ColorParser
@@ -3944,7 +3951,7 @@ try_parse
 |
 i
 |
-cssparser_color
+parsing
 :
 :
 parse_color_with

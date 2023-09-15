@@ -100,16 +100,6 @@ support
 and
 integration
 .
-#
-[
-cfg
-(
-test
-)
-]
-mod
-tests
-;
 use
 cssparser
 :
