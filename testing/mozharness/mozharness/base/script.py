@@ -16337,7 +16337,22 @@ hg
 "
 )
             
-git_dir
+#
+.
+git
+might
+be
+a
+directory
+or
+a
+file
+for
+a
+git
+worktree
+            
+git_path
 =
 os
 .
@@ -16366,9 +16381,9 @@ os
 .
 path
 .
-isdir
+exists
 (
-git_dir
+git_path
 )
 :
                 
