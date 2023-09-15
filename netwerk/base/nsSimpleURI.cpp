@@ -2102,7 +2102,7 @@ SetHostPort
 const
 nsACString
 &
-result
+aValue
 )
 {
 return

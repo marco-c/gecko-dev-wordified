@@ -398,7 +398,7 @@ SetScheme
 const
 nsACString
 &
-scheme
+input
 )
 ;
 virtual
