@@ -27725,6 +27725,11 @@ CSSPixel
 :
 ToAppUnits
 (
+ViewAs
+<
+CSSPixel
+>
+(
 aCursor
 .
 mHotspot
@@ -27733,10 +27738,16 @@ x
 /
 zoom
 )
+)
 CSSPixel
 :
 :
 ToAppUnits
+(
+ViewAs
+<
+CSSPixel
+>
 (
 aCursor
 .
@@ -27745,6 +27756,7 @@ mHotspot
 y
 /
 zoom
+)
 )
 )
 ;

@@ -560,6 +560,8 @@ WheelEvent_Binding
 :
 DOM_DELTA_PIXEL
 ?
+CSSCoord
+(
 DevToCssPixels
 (
 ev
@@ -567,6 +569,7 @@ ev
 >
 OverriddenDeltaX
 (
+)
 )
 )
 :
@@ -701,6 +704,8 @@ WheelEvent_Binding
 :
 DOM_DELTA_PIXEL
 ?
+CSSCoord
+(
 DevToCssPixels
 (
 ev
@@ -708,6 +713,7 @@ ev
 >
 OverriddenDeltaY
 (
+)
 )
 )
 :
