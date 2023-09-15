@@ -87,11 +87,10 @@ json
 mozlz4
 *
 /
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

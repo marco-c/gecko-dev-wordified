@@ -790,11 +790,10 @@ await
 focusPromise
 ;
 }
-add_task
+add_setup
 (
 async
 function
-testSetup
 (
 )
 {

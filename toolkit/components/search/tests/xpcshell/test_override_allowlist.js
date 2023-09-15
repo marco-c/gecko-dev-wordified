@@ -951,11 +951,10 @@ baseExtension
 let
 remoteSettingsStub
 ;
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {
