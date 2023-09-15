@@ -405,10 +405,6 @@ stream
 foobar
 "
 ]
-/
-/
-Bug
-781693
 [
 "
 data
@@ -432,7 +428,9 @@ text
 plain
 "
 "
-test
+dGVzdA
+=
+=
 "
 ]
 [
