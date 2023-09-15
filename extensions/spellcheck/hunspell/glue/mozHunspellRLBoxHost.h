@@ -256,10 +256,7 @@ default
 bool
 GetLine
 (
-std
-:
-:
-string
+nsACString
 &
 aResult
 )
@@ -335,7 +332,7 @@ nsresult
 >
 ReadLine
 (
-nsCString
+nsACString
 &
 aLine
 )
