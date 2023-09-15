@@ -177,8 +177,8 @@ _
 _name
 )
 static
-const
-nsCString
+constexpr
+nsLiteralCString
 gKeyName
 [
 ]
