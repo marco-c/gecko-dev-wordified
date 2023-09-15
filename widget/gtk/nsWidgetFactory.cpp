@@ -471,9 +471,6 @@ nsAppShellShutdown
 (
 )
 ;
-#
-ifdef
-MOZ_ENABLE_DBUS
 WakeLockListener
 :
 :
@@ -481,6 +478,4 @@ Shutdown
 (
 )
 ;
-#
-endif
 }
