@@ -55,6 +55,10 @@ selected_result_subtype
 /
 /
 -
+selected_position
+/
+/
+-
 provider
 /
 /
@@ -175,6 +179,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -303,6 +310,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -390,6 +400,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -479,6 +492,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -593,6 +609,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+3
 provider
 :
 "
@@ -714,6 +733,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -818,6 +840,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -892,6 +917,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -1010,6 +1038,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -1154,6 +1185,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+3
 provider
 :
 "
@@ -1232,6 +1266,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -1329,6 +1366,9 @@ selected_result_subtype
 "
 addons
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -1441,6 +1481,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+4
 provider
 :
 "
@@ -1538,6 +1581,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -1630,6 +1676,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -1809,6 +1858,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -1907,6 +1959,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -2025,6 +2080,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -2151,6 +2209,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -2334,6 +2395,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -2651,6 +2715,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -2745,6 +2812,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -2836,6 +2906,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -2883,6 +2956,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+0
 provider
 :
 null
@@ -3038,6 +3114,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -3180,6 +3259,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -3345,6 +3427,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
@@ -3505,6 +3590,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+0
 provider
 :
 null
@@ -3782,6 +3870,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -4145,6 +4236,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+1
 provider
 :
 "
@@ -4421,6 +4515,9 @@ selected_result_subtype
 :
 "
 "
+selected_position
+:
+2
 provider
 :
 "
