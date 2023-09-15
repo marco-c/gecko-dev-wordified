@@ -2776,7 +2776,7 @@ siblings
 *
 /
 void
-RestyleSiblings
+RestyleSiblingsForNthOf
 (
 dom
 :
