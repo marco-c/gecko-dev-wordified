@@ -78,7 +78,7 @@ x
 }
 }
 1
-28
+29
 )
 ;
 /
@@ -137,7 +137,7 @@ y
 }
 }
 1
-28
+29
 )
 ;
 assertLineAndColumn
@@ -147,7 +147,7 @@ this
 #
 x
 1
-5
+6
 )
 ;
 /
@@ -190,7 +190,7 @@ this
 #
 z
 1
-5
+6
 )
 ;
 assertLineAndColumn
@@ -211,7 +211,7 @@ x
 }
 }
 2
-18
+19
 )
 ;
 assertLineAndColumn
@@ -243,7 +243,7 @@ y
 }
 }
 3
-18
+19
 )
 ;
 if

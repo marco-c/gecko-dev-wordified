@@ -2528,6 +2528,14 @@ nsAString
 aSpecifier
 )
 ;
+/
+/
+aColumnNumber
+is
+0
+-
+origin
+.
 nsresult
 HandleResolveFailure
 (

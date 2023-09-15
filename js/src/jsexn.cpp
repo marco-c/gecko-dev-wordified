@@ -4659,7 +4659,7 @@ getLine
 /
 /
 Follow
-FixupColumnForDisplay
+FixupMaybeWASMColumnForDisplay
 and
 set
 column
@@ -4813,7 +4813,7 @@ ownedReport
 .
 column
 =
-FixupColumnForDisplay
+FixupMaybeWASMColumnForDisplay
 (
 column
 )
