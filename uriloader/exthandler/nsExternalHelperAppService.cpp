@@ -4709,8 +4709,6 @@ referrer
 )
 )
 ;
-Maybe
-<
 mozilla
 :
 :
@@ -4718,7 +4716,6 @@ net
 :
 :
 LoadInfoArgs
->
 loadInfoArgs
 ;
 MOZ_ALWAYS_SUCCEEDS
