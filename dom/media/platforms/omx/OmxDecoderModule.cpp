@@ -365,10 +365,9 @@ return
 media
 :
 :
-DecodeSupport
-:
-:
-Unsupported
+DecodeSupportSet
+{
+}
 ;
 }
 }
