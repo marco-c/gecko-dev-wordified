@@ -2525,10 +2525,6 @@ fileName
 sourceId
 lineNumber
 columnNumber
-.
-oneOriginValue
-(
-)
 std
 :
 :
@@ -5215,7 +5211,10 @@ lineNumber
 (
 )
 ;
-uint32_t
+JS
+:
+:
+ColumnNumberOneOrigin
 columnNumber
 =
 err
@@ -5378,10 +5377,6 @@ fileName
 0
 lineNumber
 columnNumber
-.
-oneOriginValue
-(
-)
 std
 :
 :
