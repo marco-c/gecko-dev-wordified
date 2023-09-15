@@ -3371,7 +3371,6 @@ parse_mdhd
 mut
 stream
 &
-mut
 super
 :
 :
@@ -8365,7 +8364,6 @@ read_stsd
 mut
 stream
 &
-mut
 super
 :
 :
