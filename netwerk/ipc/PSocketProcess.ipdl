@@ -123,6 +123,10 @@ PInputChannelThrottleQueue
 ;
 include
 protocol
+PBackgroundStarter
+;
+include
+protocol
 PAltService
 ;
 include
@@ -144,10 +148,6 @@ PNativeDNSResolverOverride
 include
 protocol
 PProxyAutoConfig
-;
-include
-protocol
-PSocketProcessBackground
 ;
 #
 if
@@ -181,6 +181,9 @@ NeckoChannelParams
 ;
 include
 PrefsTypes
+;
+include
+PSMIPCTypes
 ;
 include
 "
@@ -787,11 +790,11 @@ aExtraStringData
 )
 ;
 async
-InitSocketBackground
+InitBackground
 (
 Endpoint
 <
-PSocketProcessBackgroundParent
+PBackgroundStarterParent
 >
 aEndpoint
 )

@@ -110,7 +110,7 @@ override
 ;
 already_AddRefed
 <
-nsISerialEventTarget
+nsIThread
 >
 GetBackgroundThread
 (
@@ -155,7 +155,7 @@ mChannelID
 ;
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIThread
 >
 mBackgroundThread
 ;

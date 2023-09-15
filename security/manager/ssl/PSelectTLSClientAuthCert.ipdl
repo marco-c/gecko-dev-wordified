@@ -115,6 +115,10 @@ MPL
 *
 /
 include
+protocol
+PBackground
+;
+include
 PSMIPCTypes
 ;
 namespace
@@ -126,6 +130,9 @@ psm
 protocol
 PSelectTLSClientAuthCert
 {
+manager
+PBackground
+;
 child
 :
 async

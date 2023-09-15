@@ -416,7 +416,7 @@ mListener
 ;
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 mBackgroundThread
 ;
