@@ -967,11 +967,13 @@ rootMessageHandler
 once
 (
 "
-message
+window
+-
+global
 -
 handler
 -
-event
+created
 "
 )
 ;
