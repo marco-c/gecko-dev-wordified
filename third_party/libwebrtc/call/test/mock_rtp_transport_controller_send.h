@@ -455,9 +455,9 @@ override
 ;
 MOCK_METHOD
 (
-RtcpBandwidthObserver
+NetworkLinkRtcpObserver
 *
-GetBandwidthObserver
+GetRtcpObserver
 (
 )
 (
