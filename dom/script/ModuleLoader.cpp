@@ -1187,7 +1187,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )

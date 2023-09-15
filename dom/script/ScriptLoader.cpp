@@ -7611,7 +7611,7 @@ if
 request
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -7769,7 +7769,7 @@ if
 request
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -8037,7 +8037,7 @@ if
 request
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -8079,7 +8079,7 @@ if
 request
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 &
@@ -11015,7 +11015,7 @@ IsModuleRequest
 aRequest
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -12768,7 +12768,7 @@ NS_ASSERTION
 aRequest
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 "
@@ -15209,7 +15209,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -18940,7 +18940,7 @@ mParserBlockingRequest
 mParserBlockingRequest
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 &
@@ -18995,7 +18995,7 @@ getFirst
 )
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -19084,7 +19084,7 @@ getFirst
 )
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -19204,7 +19204,7 @@ getFirst
 )
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -24785,7 +24785,7 @@ if
 aRequest
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -24825,7 +24825,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )

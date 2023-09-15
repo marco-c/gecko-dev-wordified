@@ -438,7 +438,7 @@ return
 }
 if
 (
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -484,7 +484,7 @@ SetReady
 MOZ_ASSERT
 (
 !
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -526,7 +526,7 @@ the
 modules
 instantiated
 .
-AssertAllImportsReady
+AssertAllImportsFinished
 (
 )
 ;
@@ -795,7 +795,7 @@ return
 MOZ_ASSERT
 (
 !
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -817,7 +817,7 @@ CancelImports
 ;
 if
 (
-IsReadyToRun
+IsFinished
 (
 )
 )
@@ -1166,7 +1166,7 @@ void
 ModuleLoadRequest
 :
 :
-AssertAllImportsReady
+AssertAllImportsFinished
 (
 )
 const
@@ -1189,7 +1189,7 @@ MOZ_ASSERT
 request
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )

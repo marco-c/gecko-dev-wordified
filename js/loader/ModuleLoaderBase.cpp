@@ -6064,7 +6064,7 @@ if
 parent
 -
 >
-IsReadyToRun
+IsFinished
 (
 )
 )

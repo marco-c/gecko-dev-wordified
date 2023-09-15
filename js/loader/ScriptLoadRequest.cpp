@@ -808,7 +808,7 @@ SetReady
 MOZ_ASSERT
 (
 !
-IsReadyToRun
+IsFinished
 (
 )
 )
