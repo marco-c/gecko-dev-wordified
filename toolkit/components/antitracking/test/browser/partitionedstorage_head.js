@@ -136,6 +136,9 @@ name
 callback
 cleanupFunction
 extraPrefs
+runInSecure
+=
+true
 )
 {
 /
@@ -151,6 +154,9 @@ callback
 cleanupFunction
 extraPrefs
 {
+runInSecureContext
+:
+runInSecure
 runInPrivateWindow
 :
 false
@@ -170,6 +176,9 @@ callback
 cleanupFunction
 extraPrefs
 {
+runInSecureContext
+:
+runInSecure
 runInPrivateWindow
 :
 true
@@ -189,7 +198,7 @@ runInPrivateWindow
 false
 runInSecureContext
 =
-false
+true
 }
 =
 {
