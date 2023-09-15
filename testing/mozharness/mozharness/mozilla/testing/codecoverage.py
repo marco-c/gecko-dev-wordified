@@ -2167,10 +2167,32 @@ jsvm_dir
 )
 ]
         
+appdir
+=
+self
+.
+config
+.
+get
+(
+"
+appdir
+"
+"
+dist
+/
+bin
+/
+browser
+/
+"
+)
+        
 rewriter
 =
 LcovFileRewriter
 (
+            
 os
 .
 path
@@ -2188,6 +2210,8 @@ map
 json
 "
 )
+appdir
+        
 )
         
 rewriter
