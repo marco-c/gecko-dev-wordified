@@ -449,6 +449,16 @@ MACRO
 (
 NonIdleMajorGC
 )
+\
+MACRO
+(
+A11Y_DoInitialUpdate
+)
+\
+MACRO
+(
+A11Y_ProcessQueuedCacheUpdate
+)
 namespace
 mozilla
 {
