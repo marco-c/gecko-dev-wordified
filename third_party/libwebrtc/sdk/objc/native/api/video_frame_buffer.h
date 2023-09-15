@@ -88,6 +88,9 @@ SDK_OBJC_NATIVE_API_VIDEO_FRAME_BUFFER_H_
 #
 define
 SDK_OBJC_NATIVE_API_VIDEO_FRAME_BUFFER_H_
+/
+/
+import
 #
 import
 "
@@ -97,6 +100,9 @@ RTCVideoFrameBuffer
 .
 h
 "
+/
+/
+include
 #
 include
 "
