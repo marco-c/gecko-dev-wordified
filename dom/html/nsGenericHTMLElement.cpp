@@ -5803,7 +5803,6 @@ dom_forms_inputmode
 )
 |
 |
-(
 aName
 =
 =
@@ -5811,15 +5810,6 @@ nsGkAtoms
 :
 :
 enterkeyhint
-&
-&
-StaticPrefs
-:
-:
-dom_forms_enterkeyhint
-(
-)
-)
 )
 {
 nsPIDOMWindowOuter
