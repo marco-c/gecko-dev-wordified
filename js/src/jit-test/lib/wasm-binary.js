@@ -377,6 +377,11 @@ ReturnCallIndirectCode
 0x13
 ;
 const
+ReturnCallRefCode
+=
+0x15
+;
+const
 DelegateCode
 =
 0x18
