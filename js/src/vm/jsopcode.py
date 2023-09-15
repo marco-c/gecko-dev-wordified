@@ -2164,7 +2164,7 @@ format
                         
 opcode
 .
-op_camel
+op
 expected_snake
 opcode
 .
