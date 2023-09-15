@@ -1415,11 +1415,21 @@ server
 "
         
 if
-"
-id
-"
-in
 data
+[
+"
+type
+"
+]
+in
+[
+"
+error
+"
+"
+success
+"
+]
 :
             
 #
@@ -1475,12 +1485,30 @@ id
 )
             
 if
+data
+[
+"
+type
+"
+]
+=
+=
+"
+success
+"
+:
+                
+assert
+isinstance
+(
+data
+[
 "
 result
 "
-in
-data
-:
+]
+dict
+)
                 
 future
 .
@@ -1494,18 +1522,7 @@ result
 ]
 )
             
-elif
-"
-error
-"
-in
-data
-and
-"
-message
-"
-in
-data
+else
 :
                 
 assert
@@ -1566,38 +1583,19 @@ set_exception
 (
 exception
 )
-            
-else
-:
-                
-raise
-ValueError
-(
-f
-"
-Unexpected
-message
-:
-{
-data
-!
-r
-}
-"
-)
         
 elif
-"
-method
-"
-in
 data
-and
+[
 "
-params
+type
 "
-in
-data
+]
+=
+=
+"
+event
+"
 :
             
 #
@@ -1606,23 +1604,29 @@ is
 an
 event
             
-method
-=
+assert
+isinstance
+(
 data
 [
 "
 method
 "
 ]
+str
+)
             
-params
-=
+assert
+isinstance
+(
 data
 [
 "
 params
 "
 ]
+dict
+)
             
 listeners
 =
@@ -1632,7 +1636,12 @@ event_listeners
 .
 get
 (
+data
+[
+"
 method
+"
+]
 [
 ]
 )
@@ -1664,8 +1673,18 @@ listeners
 await
 listener
 (
+data
+[
+"
 method
+"
+]
+data
+[
+"
 params
+"
+]
 )
         
 else

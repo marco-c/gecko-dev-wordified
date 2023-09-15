@@ -53,6 +53,9 @@ top_context
 )
 :
     
+#
+test
+    
 await
 bidi_session
 .
