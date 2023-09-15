@@ -152,9 +152,6 @@ TestTranslationsTelemetry
 .
 assertEvent
 (
-"
-OpenPanel
-"
 Glean
 .
 translationsPanel
@@ -229,9 +226,6 @@ TestTranslationsTelemetry
 .
 assertEvent
 (
-"
-OpenPanel
-"
 Glean
 .
 translationsPanel
@@ -329,9 +323,6 @@ TestTranslationsTelemetry
 .
 assertEvent
 (
-"
-AlwaysOfferTranslations
-"
 Glean
 .
 translationsPanel
@@ -396,9 +387,6 @@ TestTranslationsTelemetry
 .
 assertEvent
 (
-"
-OpenPanel
-"
 Glean
 .
 translationsPanel
@@ -479,9 +467,6 @@ TestTranslationsTelemetry
 .
 assertEvent
 (
-"
-CancelButton
-"
 Glean
 .
 translationsPanel
@@ -502,9 +487,6 @@ TestTranslationsTelemetry
 .
 assertEvent
 (
-"
-ClosePanel
-"
 Glean
 .
 translationsPanel
@@ -554,9 +536,6 @@ TestTranslationsTelemetry
 .
 assertEvent
 (
-"
-OpenPanel
-"
 Glean
 .
 translationsPanel
