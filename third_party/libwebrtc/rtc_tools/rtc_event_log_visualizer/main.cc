@@ -3061,7 +3061,7 @@ float
 return
 block
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 ;
