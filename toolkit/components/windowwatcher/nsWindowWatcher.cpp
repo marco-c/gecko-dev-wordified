@@ -194,7 +194,7 @@ h
 #
 include
 "
-nsGlobalWindow
+nsGlobalWindowOuter
 .
 h
 "
@@ -642,13 +642,6 @@ h
 include
 "
 nsIXULBrowserWindow
-.
-h
-"
-#
-include
-"
-nsGlobalWindow
 .
 h
 "

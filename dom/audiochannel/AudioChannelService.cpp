@@ -178,6 +178,13 @@ h
 #
 include
 "
+nsIObserverService
+.
+h
+"
+#
+include
+"
 nsISupportsPrimitives
 .
 h
@@ -200,13 +207,6 @@ h
 include
 "
 nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
-nsGlobalWindow
 .
 h
 "

@@ -657,7 +657,7 @@ Event
 #
 include
 "
-nsGlobalWindow
+nsGlobalWindowInner
 .
 h
 "
@@ -11229,7 +11229,7 @@ We
 must
 not
 call
-nsGlobalWindow
+nsGlobalWindowInner
 :
 :
 NotifyHasXRSession

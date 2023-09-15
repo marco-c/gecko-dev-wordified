@@ -184,13 +184,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

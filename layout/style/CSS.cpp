@@ -165,13 +165,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

@@ -388,13 +388,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

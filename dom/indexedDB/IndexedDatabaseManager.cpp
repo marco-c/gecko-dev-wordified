@@ -359,13 +359,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Logging

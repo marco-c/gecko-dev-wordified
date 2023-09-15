@@ -846,13 +846,6 @@ nsIObserverService
 .
 h
 "
-#
-include
-"
-nsGlobalWindow
-.
-h
-"
 /
 /
 input

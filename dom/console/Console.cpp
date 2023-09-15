@@ -465,7 +465,7 @@ h
 #
 include
 "
-nsGlobalWindow
+nsGlobalWindowInner
 .
 h
 "

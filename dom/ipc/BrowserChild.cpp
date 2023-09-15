@@ -1010,7 +1010,7 @@ h
 #
 include
 "
-nsGlobalWindow
+nsGlobalWindowOuter
 .
 h
 "
@@ -3043,7 +3043,7 @@ new
 window
 root
 in
-nsGlobalWindow
+nsGlobalWindowOuter
 :
 :
 SetDocShell
