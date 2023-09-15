@@ -351,6 +351,14 @@ and
 destructor
 NormalOriginOperationBase
 (
+MovingNotNull
+<
+RefPtr
+<
+QuotaManager
+>
+>
+aQuotaManager
 const
 char
 *
