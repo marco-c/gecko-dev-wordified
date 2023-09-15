@@ -8173,9 +8173,6 @@ p
 "
 section
 "
-"
-search
-"
 or
 "
 span
@@ -8376,15 +8373,6 @@ nsGkAtoms
 :
 :
 section
-|
-|
-nameAtom
-=
-=
-nsGkAtoms
-:
-:
-search
 |
 |
 nameAtom

@@ -7018,7 +7018,6 @@ ol
 p
 pre
 table
-search
 section
 summary
 ul
@@ -8352,14 +8351,6 @@ GROUP_HEAD_CONTENT
 |
 GROUP_SPECIAL
 GROUP_LEAF
-)
-ELEM
-(
-search
-true
-true
-GROUP_BLOCK
-GROUP_FLOW_ELEMENT
 )
 ELEM
 (
