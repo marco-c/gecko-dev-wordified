@@ -126,13 +126,6 @@ code
 undef
 LogSeverity
 #
-undef
-NTDDI_VERSION
-#
-define
-NTDDI_VERSION
-NTDDI_WINBLUE
-#
 include
 <
 emi
