@@ -29,6 +29,12 @@ whatwg
 org
 /
 "
+SharedWorker
+"
+"
+CanvasPath
+"
+"
 SharedWorkerGlobalScope
 "
 "

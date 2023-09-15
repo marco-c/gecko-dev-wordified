@@ -24,6 +24,15 @@ whatwg
 org
 /
 "
+ApplicationCache
+"
+"
+SharedWorker
+"
+"
+CanvasPath
+"
+"
 DedicatedWorkerGlobalScope
 "
 "

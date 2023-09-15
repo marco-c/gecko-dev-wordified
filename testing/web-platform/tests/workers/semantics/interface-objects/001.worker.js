@@ -38,9 +38,6 @@ DedicatedWorkerGlobalScope
 Worker
 "
 "
-SharedWorker
-"
-"
 MessagePort
 "
 "
@@ -66,9 +63,6 @@ CanvasGradient
 "
 "
 CanvasPattern
-"
-"
-CanvasPath
 "
 "
 TextMetrics

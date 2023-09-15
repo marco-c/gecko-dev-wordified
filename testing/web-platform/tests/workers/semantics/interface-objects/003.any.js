@@ -24,9 +24,6 @@ whatwg
 org
 /
 "
-ApplicationCache
-"
-"
 WorkerGlobalScope
 "
 "
@@ -34,9 +31,6 @@ SharedWorkerGlobalScope
 "
 "
 Worker
-"
-"
-SharedWorker
 "
 "
 MessagePort
@@ -64,9 +58,6 @@ CanvasGradient
 "
 "
 CanvasPattern
-"
-"
-CanvasPath
 "
 "
 Path2D
