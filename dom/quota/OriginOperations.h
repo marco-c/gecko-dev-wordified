@@ -297,7 +297,10 @@ CreateTemporaryStorageInitializedOp
 ;
 RefPtr
 <
-QuotaRequestBase
+ResolvableNormalOriginOp
+<
+bool
+>
 >
 CreateInitOp
 (
