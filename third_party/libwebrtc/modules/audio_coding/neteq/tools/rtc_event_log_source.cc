@@ -705,7 +705,7 @@ optional
 NetEqInput
 :
 :
-SetMinimumDelay
+SetMinimumDelayInfo
 >
 RtcEventLogSource
 :

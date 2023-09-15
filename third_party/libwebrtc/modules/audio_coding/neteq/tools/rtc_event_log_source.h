@@ -393,7 +393,7 @@ optional
 NetEqInput
 :
 :
-SetMinimumDelay
+SetMinimumDelayInfo
 >
 NextSetMinimumDelayEvent
 (
@@ -464,7 +464,7 @@ vector
 NetEqInput
 :
 :
-SetMinimumDelay
+SetMinimumDelayInfo
 >
 minimum_delay_
 ;
