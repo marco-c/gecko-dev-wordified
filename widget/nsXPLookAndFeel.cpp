@@ -1202,6 +1202,11 @@ ui
 .
 panelAnimations
 "
+"
+ui
+.
+hideCursorWhileTyping
+"
 }
 ;
 static_assert
