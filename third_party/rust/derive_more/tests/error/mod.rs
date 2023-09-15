@@ -1,8 +1,5 @@
 use
-std
-:
-:
-error
+derive_more
 :
 :
 Error
@@ -181,7 +178,7 @@ f
 mut
 :
 :
-std
+core
 :
 :
 fmt
@@ -197,7 +194,7 @@ _
 >
 :
 :
-std
+core
 :
 :
 fmt
@@ -226,7 +223,7 @@ ident
 impl
 :
 :
-std
+core
 :
 :
 fmt
@@ -268,7 +265,7 @@ type_parameters
 >
 :
 :
-std
+core
 :
 :
 fmt
@@ -310,11 +307,15 @@ derives_for_structs_with_source
 [
 cfg
 (
+all
+(
 feature
 =
 "
-nightly
+std
 "
+nightly
+)
 )
 ]
 mod
