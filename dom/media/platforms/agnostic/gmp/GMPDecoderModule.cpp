@@ -527,9 +527,10 @@ return
 media
 :
 :
-DecodeSupportSet
-{
-}
+DecodeSupport
+:
+:
+Unsupported
 ;
 }
 /
@@ -582,9 +583,10 @@ SoftwareDecode
 media
 :
 :
-DecodeSupportSet
-{
-}
+DecodeSupport
+:
+:
+Unsupported
 ;
 }
 media
