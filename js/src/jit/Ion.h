@@ -291,14 +291,6 @@ JSScript
 script
 )
 ;
-bool
-CanIonInlineScript
-(
-JSScript
-*
-script
-)
-;
 [
 [
 nodiscard
