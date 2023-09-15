@@ -760,6 +760,9 @@ MediaDecoder
 MediaFormatReader
 :
 5
+GMP
+:
+5
 "
 l10nIds
 :
