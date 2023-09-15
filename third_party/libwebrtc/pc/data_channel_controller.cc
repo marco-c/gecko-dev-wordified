@@ -266,7 +266,7 @@ bool
 DataChannelController
 :
 :
-HasDataChannels
+HasDataChannelsForTest
 (
 )
 const
