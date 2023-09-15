@@ -4658,6 +4658,16 @@ PlatformFontList
 GetForceGDIClassicMaxFontSize
 (
 )
+&
+&
+GetAdjustedSize
+(
+)
+>
+=
+6
+.
+0
 ;
 }
 DWRITE_MEASURING_MODE
