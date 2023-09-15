@@ -2894,7 +2894,7 @@ computedPlaybackRate
 =
 aPlaybackRate
 *
-exp2
+fdlibm_exp2f
 (
 aDetune
 /

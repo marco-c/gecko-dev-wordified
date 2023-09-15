@@ -311,6 +311,13 @@ math
 .
 h
 >
+#
+include
+"
+fdlibm
+.
+h
+"
 namespace
 WebCore
 {
@@ -807,7 +814,7 @@ filter
 double
 g
 =
-pow
+fdlibm_pow
 (
 10
 .
@@ -830,7 +837,7 @@ cutoff
 double
 cos_w0
 =
-cos
+fdlibm_cos
 (
 w0
 )
@@ -842,7 +849,7 @@ alpha
 .
 5
 *
-sin
+fdlibm_sin
 (
 w0
 )
@@ -1034,7 +1041,7 @@ filter
 double
 g
 =
-pow
+fdlibm_pow
 (
 10
 .
@@ -1057,7 +1064,7 @@ cutoff
 double
 cos_w0
 =
-cos
+fdlibm_cos
 (
 w0
 )
@@ -1069,7 +1076,7 @@ alpha
 .
 5
 *
-sin
+fdlibm_sin
 (
 w0
 )
@@ -1312,7 +1319,7 @@ frequency
 double
 A
 =
-pow
+fdlibm_pow
 (
 10
 .
@@ -1391,7 +1398,7 @@ alpha
 .
 5
 *
-sin
+fdlibm_sin
 (
 w0
 )
@@ -1420,7 +1427,7 @@ S
 double
 k
 =
-cos
+fdlibm_cos
 (
 w0
 )
@@ -1618,7 +1625,7 @@ frequency
 double
 A
 =
-pow
+fdlibm_pow
 (
 10
 .
@@ -1693,7 +1700,7 @@ alpha
 .
 5
 *
-sin
+fdlibm_sin
 (
 w0
 )
@@ -1722,7 +1729,7 @@ S
 double
 k
 =
-cos
+fdlibm_cos
 (
 w0
 )
@@ -1955,7 +1962,7 @@ Q
 double
 A
 =
-pow
+fdlibm_pow
 (
 10
 .
@@ -1994,7 +2001,7 @@ frequency
 double
 alpha
 =
-sin
+fdlibm_sin
 (
 w0
 )
@@ -2008,7 +2015,7 @@ Q
 double
 k
 =
-cos
+fdlibm_cos
 (
 w0
 )
@@ -2269,7 +2276,7 @@ frequency
 double
 alpha
 =
-sin
+fdlibm_sin
 (
 w0
 )
@@ -2283,7 +2290,7 @@ Q
 double
 k
 =
-cos
+fdlibm_cos
 (
 w0
 )
@@ -2534,7 +2541,7 @@ frequency
 double
 alpha
 =
-sin
+fdlibm_sin
 (
 w0
 )
@@ -2548,7 +2555,7 @@ Q
 double
 k
 =
-cos
+fdlibm_cos
 (
 w0
 )
@@ -2780,7 +2787,7 @@ Q
 double
 alpha
 =
-sin
+fdlibm_sin
 (
 w0
 )
@@ -2794,7 +2801,7 @@ Q
 double
 k
 =
-cos
+fdlibm_cos
 (
 w0
 )
@@ -3384,11 +3391,11 @@ z
 =
 Complex
 (
-cos
+fdlibm_cos
 (
 omega
 )
-sin
+fdlibm_sin
 (
 omega
 )
@@ -3580,7 +3587,7 @@ static_cast
 float
 >
 (
-atan2
+fdlibm_atan2
 (
 imag
 (

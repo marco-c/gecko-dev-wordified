@@ -194,7 +194,7 @@ t
 return
 v0
 *
-powf
+fdlibm_powf
 (
 v1
 /
@@ -259,7 +259,7 @@ v0
 v1
 )
 *
-expf
+fdlibm_expf
 (
 -
 (

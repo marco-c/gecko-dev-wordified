@@ -865,7 +865,7 @@ gk
 float
 r1
 =
-expf
+fdlibm_expf
 (
 -
 f1
@@ -876,7 +876,7 @@ M_PI
 float
 r2
 =
-expf
+fdlibm_expf
 (
 -
 f2

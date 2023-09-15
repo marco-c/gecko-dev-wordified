@@ -2523,7 +2523,7 @@ aDistance
 )
 {
 return
-pow
+fdlibm_pow
 (
 std
 :
@@ -3141,7 +3141,7 @@ gain
 .
 gainL
 =
-cos
+fdlibm_cos
 (
 0
 .
@@ -3154,7 +3154,7 @@ normalizedAzimuth
 ;
 gainR
 =
-sin
+fdlibm_sin
 (
 0
 .
@@ -3827,7 +3827,7 @@ gain
 float
 gainL
 =
-cos
+fdlibm_cos
 (
 0
 .
@@ -3841,7 +3841,7 @@ normalizedAzimuth
 float
 gainR
 =
-sin
+fdlibm_sin
 (
 0
 .
@@ -4093,7 +4093,7 @@ aElevation
 -
 180
 *
-acos
+fdlibm_acos
 (
 upProjection
 )
@@ -4199,7 +4199,7 @@ aAzimuth
 =
 180
 *
-acos
+fdlibm_acos
 (
 projection
 )
@@ -4417,7 +4417,7 @@ angle
 =
 180
 *
-acos
+fdlibm_acos
 (
 dotProduct
 )
