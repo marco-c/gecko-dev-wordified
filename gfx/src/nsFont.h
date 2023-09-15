@@ -390,9 +390,7 @@ mozilla
 StyleAbsoluteColor
 :
 :
-Transparent
-(
-)
+TRANSPARENT
 ;
 /
 /

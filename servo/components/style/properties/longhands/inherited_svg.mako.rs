@@ -409,9 +409,7 @@ computed
 SVGPaint
 :
 :
-black
-(
-)
+BLACK
 "
 engines
 =
