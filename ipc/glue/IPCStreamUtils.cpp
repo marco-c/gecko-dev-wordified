@@ -593,7 +593,10 @@ stream
 =
 RemoteLazyInputStreamParams
 (
+WrapNotNull
+(
 lazyStream
+)
 )
 ;
 return

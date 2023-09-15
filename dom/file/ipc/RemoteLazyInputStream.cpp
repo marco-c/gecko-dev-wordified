@@ -5180,7 +5180,10 @@ ipc
 :
 RemoteLazyInputStreamParams
 (
+WrapNotNull
+(
 this
+)
 )
 ;
 }
