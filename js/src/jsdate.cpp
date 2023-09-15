@@ -9555,6 +9555,7 @@ Spaces
 ASCII
 control
 characters
+periods
 and
 commas
 are
@@ -9567,6 +9568,14 @@ c
 <
 =
 '
+'
+|
+|
+c
+=
+=
+'
+.
 '
 |
 |
