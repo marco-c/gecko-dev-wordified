@@ -4613,12 +4613,7 @@ set_aec_debug
 bool
 enable
 )
-{
-aec_debug_
-=
-enable
 ;
-}
 static
 void
 set_aec_debug_size
