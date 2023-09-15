@@ -436,6 +436,12 @@ this
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+mRegistered
+)
+;
 }
 void
 FileSystemManagerParent
