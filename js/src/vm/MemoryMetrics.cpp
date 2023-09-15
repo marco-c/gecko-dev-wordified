@@ -1723,10 +1723,6 @@ savedStacksSet
 realmStats
 .
 nonSyntacticLexicalScopesTable
-&
-realmStats
-.
-jitRealm
 )
 ;
 }
