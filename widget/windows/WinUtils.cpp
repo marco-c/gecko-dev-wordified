@@ -482,6 +482,13 @@ h
 #
 include
 <
+shellscalingapi
+.
+h
+>
+#
+include
+<
 shlobj
 .
 h
