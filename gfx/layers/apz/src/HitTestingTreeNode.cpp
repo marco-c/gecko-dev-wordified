@@ -1448,6 +1448,8 @@ HitTestingTreeNode
 :
 GetTransformToGecko
 (
+LayersId
+aRemoteLayersId
 )
 const
 {
@@ -1476,7 +1478,7 @@ thisToParent
 *
 ViewAs
 <
-ParentLayerToParentLayerMatrix4x4
+AsyncTransformComponentMatrix
 >
 (
 mApzc
@@ -1484,6 +1486,8 @@ mApzc
 >
 GetTransformToLastDispatchedPaint
 (
+LayoutAndVisual
+aRemoteLayersId
 )
 )
 ;
@@ -1501,6 +1505,7 @@ mParent
 >
 GetTransformToGecko
 (
+aRemoteLayersId
 )
 PixelCastJustification
 :
@@ -1553,6 +1558,8 @@ HitTestingTreeNode
 :
 GetRemoteDocumentScreenRect
 (
+LayersId
+aRemoteDocumentLayersId
 )
 const
 {
@@ -1563,6 +1570,7 @@ TransformBy
 (
 GetTransformToGecko
 (
+aRemoteDocumentLayersId
 )
 IntRectToRect
 (
@@ -1663,6 +1671,12 @@ GetParent
 >
 GetTransformToGecko
 (
+node
+-
+>
+GetLayersId
+(
+)
 )
 :
 LayerToScreenMatrix4x4
