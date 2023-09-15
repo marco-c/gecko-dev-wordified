@@ -141,13 +141,6 @@ h
 >
 #
 include
-<
-versionhelpers
-.
-h
->
-#
-include
 "
 2D
 .
@@ -1446,9 +1439,6 @@ CompositionOp
 :
 OP_SOURCE
 :
-return
-true
-;
 /
 /
 case
@@ -1464,9 +1454,7 @@ CompositionOp
 OP_ADD
 :
 return
-IsWindows8Point1OrGreater
-(
-)
+true
 ;
 default
 :
