@@ -5070,6 +5070,8 @@ const
 HitTestingTreeNode
 *
 aNode
+AsyncTransformConsumer
+aMode
 )
 const
 ;
@@ -5080,6 +5082,8 @@ const
 StickyPositionInfo
 &
 aStickyInfo
+AsyncTransformConsumer
+aMode
 const
 MutexAutoLock
 &
