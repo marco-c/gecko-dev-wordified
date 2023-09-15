@@ -649,16 +649,6 @@ packet_sender_
 Send
 (
 builder
-/
-*
-write_checksum
-=
-*
-/
-!
-capabilities_
-.
-zero_checksum
 )
 ;
 }
