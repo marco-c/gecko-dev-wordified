@@ -168,6 +168,11 @@ TestForwardDecls
 cpp
 "
 "
+TestOriginParser
+.
+cpp
+"
+"
 TestPersistenceType
 .
 cpp
