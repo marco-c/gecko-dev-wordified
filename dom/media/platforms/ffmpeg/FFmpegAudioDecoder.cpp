@@ -2726,6 +2726,7 @@ stream
 )
 )
 ;
+}
 default
 :
 FFMPEG_LOG
@@ -2765,7 +2766,6 @@ error
 )
 )
 ;
-}
 }
 if
 (
