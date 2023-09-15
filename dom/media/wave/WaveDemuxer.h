@@ -378,9 +378,14 @@ mRaw
 [
 RIFF_CHUNK_SIZE
 ]
+=
+{
+}
 ;
 int
 mPos
+=
+0
 ;
 }
 ;
@@ -479,9 +484,14 @@ mRaw
 [
 CHUNK_HEAD_SIZE
 ]
+=
+{
+}
 ;
 int
 mPos
+=
+0
 ;
 }
 ;
@@ -632,6 +642,8 @@ private
 :
 int
 mPos
+=
+0
 ;
 /
 /
@@ -959,7 +971,7 @@ aTime
 )
 const
 ;
-uint32_t
+int64_t
 Read
 (
 uint8_t
@@ -967,7 +979,7 @@ uint8_t
 aBuffer
 int64_t
 aOffset
-int32_t
+int64_t
 aSize
 )
 ;
