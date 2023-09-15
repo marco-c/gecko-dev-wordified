@@ -357,7 +357,7 @@ events
 TEST_URL_CLOSED_PORT
 firstNavigation
 .
-id
+navigationId
 navigableId
 )
 ;
@@ -580,7 +580,7 @@ events
 TEST_URL_WRONG_URI
 firstNavigation
 .
-id
+navigationId
 navigableId
 )
 ;

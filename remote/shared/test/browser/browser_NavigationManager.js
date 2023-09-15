@@ -436,7 +436,7 @@ events
 SECOND_URL
 firstNavigation
 .
-id
+navigationId
 navigableId
 )
 ;
@@ -491,7 +491,7 @@ events
 THIRD_URL
 secondNavigation
 .
-id
+navigationId
 navigableId
 )
 ;
@@ -804,7 +804,7 @@ events
 FIRST_URL
 nav1
 .
-id
+navigationId
 navigableId1
 )
 ;
@@ -843,7 +843,7 @@ events
 SECOND_URL
 nav2
 .
-id
+navigationId
 navigableId2
 )
 ;
@@ -935,7 +935,7 @@ events
 FIRST_URL
 nav3
 .
-id
+navigationId
 navigableId1
 )
 ;
@@ -976,7 +976,7 @@ events
 SECOND_URL
 nav4
 .
-id
+navigationId
 navigableId2
 )
 ;
@@ -1218,7 +1218,7 @@ events
 url
 navigation
 .
-id
+navigationId
 navigable
 )
 ;
@@ -1323,7 +1323,7 @@ events
 url
 navigation
 .
-id
+navigationId
 navigable
 )
 ;
@@ -1527,7 +1527,7 @@ events
 SECOND_COOP_URL
 coopNavigation
 .
-id
+navigationId
 navigableId
 )
 ;
@@ -1796,7 +1796,7 @@ hash
 "
 hashNavigation
 .
-id
+navigationId
 navigableId
 true
 )
@@ -1851,7 +1851,7 @@ events
 url
 regularNavigation
 .
-id
+navigationId
 navigableId
 )
 ;
@@ -2002,7 +2002,7 @@ foo
 "
 sameHashNavigation
 .
-id
+navigationId
 navigableId
 true
 )
