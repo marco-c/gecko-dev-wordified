@@ -1273,7 +1273,7 @@ loadUnknownHost
 TODO
 :
 Bug
-1673954
+1849060
 assumeThat
 (
 sessionRule
@@ -1314,24 +1314,6 @@ loadExternalDenied
 (
 )
 {
-/
-/
-TODO
-:
-Bug
-1673954
-assumeThat
-(
-sessionRule
-.
-env
-.
-isFission
-equalTo
-(
-false
-)
-)
 testLoadExpectError
 (
 TestLoader
@@ -1511,7 +1493,7 @@ loadUntrusted
 TODO
 :
 Bug
-1673954
+1849060
 assumeThat
 (
 sessionRule
@@ -5664,7 +5646,7 @@ safebrowsingPhishing
 TODO
 :
 Bug
-1673954
+1849060
 assumeThat
 (
 sessionRule
@@ -5837,7 +5819,7 @@ safebrowsingMalware
 TODO
 :
 Bug
-1673954
+1849060
 assumeThat
 (
 sessionRule
@@ -5996,7 +5978,7 @@ safebrowsingUnwanted
 TODO
 :
 Bug
-1673954
+1849060
 assumeThat
 (
 sessionRule
@@ -6151,7 +6133,7 @@ safebrowsingHarmful
 TODO
 :
 Bug
-1673954
+1849060
 assumeThat
 (
 sessionRule
@@ -14386,7 +14368,7 @@ purgeHistory
 TODO
 :
 Bug
-1648158
+1837551
 assumeThat
 (
 sessionRule
@@ -16315,7 +16297,7 @@ goBackFromHistory
 TODO
 :
 Bug
-1673954
+1837551
 assumeThat
 (
 sessionRule

@@ -1402,7 +1402,7 @@ capturePixelsWhileSessionDeactivated
 TODO
 :
 Bug
-1673955
+1837551
 assumeThat
 (
 sessionRule

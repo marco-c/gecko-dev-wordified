@@ -2470,7 +2470,7 @@ saveAndRestoreStateNewSession
 TODO
 :
 Bug
-1648158
+1837551
 assumeThat
 (
 sessionRule
@@ -2735,12 +2735,6 @@ saveAndRestoreState
 {
 /
 /
-TODO
-:
-Bug
-1648158
-/
-/
 Bug
 1662035
 -
@@ -2761,6 +2755,12 @@ equalTo
 false
 )
 )
+/
+/
+TODO
+:
+Bug
+1837551
 assumeThat
 (
 sessionRule
@@ -2971,7 +2971,7 @@ flushSessionState
 TODO
 :
 Bug
-1648158
+1837551
 assumeThat
 (
 sessionRule
@@ -3183,7 +3183,7 @@ noHistoryDelegateOnSessionStateChange
 TODO
 :
 Bug
-1648158
+1837551
 assumeThat
 (
 sessionRule
