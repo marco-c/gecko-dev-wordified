@@ -51532,7 +51532,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-defineDataPropertyIntrinsic
+DefineDataProperty
 (
 )
 &
