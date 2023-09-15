@@ -1126,6 +1126,9 @@ SctpPacket
 Parse
 (
 payload
+DcSctpOptions
+(
+)
 )
 ;
 if
@@ -4099,6 +4102,9 @@ SctpPacket
 Parse
 (
 payload
+DcSctpOptions
+(
+)
 )
 )
 ;

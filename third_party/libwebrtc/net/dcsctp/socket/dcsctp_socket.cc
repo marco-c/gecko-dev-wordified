@@ -5887,8 +5887,6 @@ Parse
 (
 data
 options_
-.
-disable_checksum_verification
 )
 ;
 if
@@ -6157,6 +6155,7 @@ SctpPacket
 Parse
 (
 payload
+options_
 )
 ;
 RTC_DCHECK
