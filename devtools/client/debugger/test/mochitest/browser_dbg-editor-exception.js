@@ -210,7 +210,7 @@ dbg
 .
 store
 "
-CLOSE_TAB
+CLOSE_TABS
 "
 )
 ;
