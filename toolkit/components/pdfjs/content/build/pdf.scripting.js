@@ -28331,14 +28331,14 @@ pdfjsVersion
 .
 11
 .
-16
+42
 '
 ;
 const
 pdfjsBuild
 =
 '
-87ea2ed4e
+cf7efdb04
 '
 ;
 }
