@@ -10742,7 +10742,7 @@ MaybePokeCC
 TimeStamp
 :
 :
-Now
+NowLoRes
 (
 )
 nsCycleCollector_suspectedCount
