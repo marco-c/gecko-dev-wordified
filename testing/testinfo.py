@@ -2626,7 +2626,11 @@ path
 manifest
 >
 .
+{
 ini
+|
+toml
+}
 :
 <
 path
@@ -2646,8 +2650,6 @@ path
 split
 (
 "
-.
-ini
 :
 "
 )

@@ -610,6 +610,19 @@ group
 name
                     
 if
+(
+                        
+test_path
+.
+endswith
+(
+"
+.
+toml
+"
+)
+                        
+or
 test_path
 .
 endswith
@@ -619,6 +632,7 @@ endswith
 ini
 "
 )
+                        
 or
 test_path
 .
@@ -628,6 +642,8 @@ endswith
 .
 list
 "
+)
+                    
 )
 :
                         
@@ -813,6 +829,19 @@ group
 name
                     
 if
+(
+                        
+test_path
+.
+endswith
+(
+"
+.
+toml
+"
+)
+                        
+or
 test_path
 .
 endswith
@@ -822,6 +851,7 @@ endswith
 ini
 "
 )
+                        
 or
 test_path
 .
@@ -831,6 +861,8 @@ endswith
 .
 list
 "
+)
+                    
 )
 :
                         

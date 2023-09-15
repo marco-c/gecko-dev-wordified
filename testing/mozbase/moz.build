@@ -96,7 +96,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozcrash
