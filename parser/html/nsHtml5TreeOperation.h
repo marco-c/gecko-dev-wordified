@@ -1386,7 +1386,7 @@ aResult
 }
 ;
 struct
-opRunScriptThatMayDocumentWriteOrBlock
+opRunScript
 {
 nsIContent
 *
@@ -1401,7 +1401,7 @@ int32_t
 mLineNumber
 ;
 explicit
-opRunScriptThatMayDocumentWriteOrBlock
+opRunScript
 (
 nsIContentHandle
 *
@@ -1437,7 +1437,7 @@ aElement
 }
 ;
 struct
-opRunScriptThatCannotDocumentWriteOrBlock
+opRunScriptAsyncDefer
 {
 nsIContent
 *
@@ -1445,7 +1445,7 @@ nsIContent
 mElement
 ;
 explicit
-opRunScriptThatCannotDocumentWriteOrBlock
+opRunScriptAsyncDefer
 (
 nsIContentHandle
 *
@@ -2235,8 +2235,8 @@ on
 pop
 ops
 opMarkAsBroken
-opRunScriptThatMayDocumentWriteOrBlock
-opRunScriptThatCannotDocumentWriteOrBlock
+opRunScript
+opRunScriptAsyncDefer
 opPreventScriptExecution
 opDoneAddingChildren
 opDoneCreatingElement
@@ -2764,7 +2764,7 @@ aOperation
 }
 inline
 bool
-IsRunScriptThatMayDocumentWriteOrBlock
+IsRunScript
 (
 )
 {
@@ -2773,7 +2773,7 @@ mOperation
 .
 is
 <
-opRunScriptThatMayDocumentWriteOrBlock
+opRunScript
 >
 (
 )
@@ -2807,9 +2807,9 @@ int32_t
 aLine
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
-IsRunScriptThatMayDocumentWriteOrBlock
+IsRunScript
 (
 )
 "
@@ -2841,14 +2841,14 @@ snapshot
 "
 )
 ;
-opRunScriptThatMayDocumentWriteOrBlock
+opRunScript
 data
 =
 mOperation
 .
 as
 <
-opRunScriptThatMayDocumentWriteOrBlock
+opRunScript
 >
 (
 )
