@@ -3157,13 +3157,6 @@ if
 2
 not
 available
-and
-WebRTC
--
-IPv6NetworkResolutionFixes
-enabled
-/
-/
 return
 local
 link
