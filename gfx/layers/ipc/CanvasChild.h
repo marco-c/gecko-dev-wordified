@@ -457,8 +457,16 @@ end
 transaction
 .
 *
+returns
+false
+on
+failure
+to
+begin
+transaction
+*
 /
-void
+bool
 EnsureBeginTransaction
 (
 )

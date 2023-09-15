@@ -1405,7 +1405,7 @@ mLastTransactionExternalSurfaces
 )
 ;
 }
-void
+bool
 CanvasChild
 :
 :
@@ -1433,6 +1433,7 @@ mRecorder
 )
 {
 return
+false
 ;
 }
 if
@@ -1516,6 +1517,7 @@ mRecorder
 nullptr
 ;
 return
+false
 ;
 }
 }
@@ -1534,6 +1536,9 @@ mIsInTransaction
 true
 ;
 }
+return
+true
+;
 }
 void
 CanvasChild
@@ -1971,10 +1976,18 @@ mTransactionsSinceGetDataSurface
 0
 ;
 }
+if
+(
+!
 EnsureBeginTransaction
 (
 )
+)
+{
+return
+nullptr
 ;
+}
 mRecorder
 -
 >
