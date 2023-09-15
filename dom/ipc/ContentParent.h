@@ -2862,10 +2862,6 @@ nsID
 >
 &
 aAgentClusterId
-const
-nsCString
-&
-aPartitionKey
 ContentParent
 *
 aIgnoreThisCP
@@ -2918,10 +2914,6 @@ nsID
 >
 &
 aAgentCluster
-const
-nsCString
-&
-aPartitionKey
 )
 ;
 mozilla
@@ -3965,10 +3957,6 @@ nsID
 >
 &
 aAgentClusterId
-const
-nsCString
-&
-aPartitionKey
 BlobURLDataRequestResolver
 &
 &
