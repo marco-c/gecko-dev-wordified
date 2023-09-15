@@ -36,6 +36,10 @@ text
 measure
 .
 fontBoundingBox
+-
+reduced
+-
+ascent
 /
 /
 Description
@@ -44,6 +48,10 @@ Testing
 fontBoundingBox
 for
 OffscreenCanvas
+with
+reduced
+ascent
+metric
 /
 /
 Note
@@ -88,6 +96,10 @@ Testing
 fontBoundingBox
 for
 OffscreenCanvas
+with
+reduced
+ascent
+metric
 "
 )
 ;
@@ -159,6 +171,8 @@ FontFace
 (
 "
 CanvasTest
+-
+ascent256
 "
 "
 url
@@ -168,6 +182,8 @@ url
 fonts
 /
 CanvasTest
+-
+ascent256
 .
 ttf
 '
@@ -222,6 +238,8 @@ font
 '
 40px
 CanvasTest
+-
+ascent256
 '
 ;
 ctx
@@ -251,7 +269,7 @@ A
 )
 .
 fontBoundingBoxAscent
-30
+10
 "
 ctx
 .
@@ -265,7 +283,7 @@ A
 fontBoundingBoxAscent
 "
 "
-30
+10
 "
 )
 ;
@@ -311,7 +329,7 @@ ABCD
 )
 .
 fontBoundingBoxAscent
-30
+10
 "
 ctx
 .
@@ -325,7 +343,7 @@ ABCD
 fontBoundingBoxAscent
 "
 "
-30
+10
 "
 )
 ;
