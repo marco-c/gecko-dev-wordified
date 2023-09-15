@@ -2409,6 +2409,20 @@ kind
 fission
 "
             
+subsuites
+=
+testloader
+.
+load_subsuites
+(
+logger
+run_info
+None
+set
+(
+)
+)
+            
 test_loader
 =
 testloader
@@ -2417,10 +2431,17 @@ TestLoader
 (
                 
 test_manifests
+                
 wpttest
 .
 enabled_tests
+                
 run_info
+                
+subsuites
+=
+subsuites
+                
 manifest_filters
 =
 [
@@ -2450,6 +2471,12 @@ test_loader
 .
 iter_tests
 (
+                    
+run_info
+test_loader
+.
+manifest_filters
+                
 )
                 
 if
