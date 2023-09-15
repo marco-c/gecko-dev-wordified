@@ -2243,7 +2243,7 @@ EXPECT_EQ
 0
 rb
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )

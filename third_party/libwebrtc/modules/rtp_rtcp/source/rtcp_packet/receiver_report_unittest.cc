@@ -392,7 +392,7 @@ EXPECT_EQ
 kCumulativeLost
 rb
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 )

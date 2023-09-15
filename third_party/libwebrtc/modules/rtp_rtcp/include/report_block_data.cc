@@ -175,7 +175,7 @@ packets_lost
 =
 report_block
 .
-cumulative_lost_signed
+cumulative_lost
 (
 )
 ;
