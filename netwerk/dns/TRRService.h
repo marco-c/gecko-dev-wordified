@@ -354,6 +354,7 @@ net
 :
 TypeRecordResultType
 &
+TRRSkippedReason
 uint32_t
 bool
 pb

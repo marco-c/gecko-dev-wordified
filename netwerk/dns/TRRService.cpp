@@ -9003,6 +9003,14 @@ net
 TypeRecordResultType
 &
 aResult
+mozilla
+:
+:
+net
+:
+:
+TRRSkippedReason
+aReason
 uint32_t
 aTtl
 bool
