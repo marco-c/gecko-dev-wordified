@@ -391,13 +391,6 @@ equal
 (
 messageBar
 .
-querySelector
-(
-"
-span
-"
-)
-.
 getAttribute
 (
 "
@@ -415,6 +408,7 @@ warning
 {
 expectedWarningType
 }
+2
 "
 expected
 correct

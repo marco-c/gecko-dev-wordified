@@ -174,6 +174,8 @@ messageBar
 .
 localName
 "
+moz
+-
 message
 -
 bar
@@ -184,6 +186,8 @@ message
 bar
 is
 a
+moz
+-
 message
 -
 bar
