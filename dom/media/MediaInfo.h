@@ -3721,7 +3721,7 @@ mBitDepth
 Codec
 profile
 .
-int8_t
+uint8_t
 mProfile
 ;
 /
@@ -3730,7 +3730,7 @@ Extended
 codec
 profile
 .
-int8_t
+uint8_t
 mExtendedProfile
 ;
 AudioCodecSpecificVariant
