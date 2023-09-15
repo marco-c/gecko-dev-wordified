@@ -68,7 +68,7 @@ headers
 .
 3
 .
-8
+9
 "
 )
 ]
@@ -637,14 +637,6 @@ value
 extern
 crate
 base64
-;
-#
-[
-macro_use
-]
-extern
-crate
-bitflags
 ;
 extern
 crate

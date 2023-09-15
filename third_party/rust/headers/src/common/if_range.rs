@@ -588,6 +588,7 @@ entity
 )
 =
 >
+{
 etag
 .
 map
@@ -610,6 +611,7 @@ unwrap_or
 (
 true
 )
+}
 }
 }
 }
