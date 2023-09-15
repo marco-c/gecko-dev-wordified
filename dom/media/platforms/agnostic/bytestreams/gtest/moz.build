@@ -90,7 +90,7 @@ UNIFIED_SOURCES
 =
 [
 "
-TestAnnexB
+TestByteStreams
 .
 cpp
 "
