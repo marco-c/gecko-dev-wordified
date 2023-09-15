@@ -5077,7 +5077,7 @@ EventDispatcher
 :
 Dispatch
 (
-nsISupports
+EventTarget
 *
 aTarget
 nsPresContext
@@ -5263,8 +5263,6 @@ nsCOMPtr
 EventTarget
 >
 target
-=
-do_QueryInterface
 (
 aTarget
 )
@@ -8499,7 +8497,7 @@ EventDispatcher
 :
 DispatchDOMEvent
 (
-nsISupports
+EventTarget
 *
 aTarget
 WidgetEvent

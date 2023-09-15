@@ -2448,12 +2448,6 @@ SetTrusted
 true
 )
 ;
-/
-/
-TODO
-:
-Bug
-1506441
 if
 (
 NS_FAILED
@@ -2463,13 +2457,7 @@ EventDispatcher
 :
 DispatchDOMEvent
 (
-MOZ_KnownLive
-(
-ToSupports
-(
 globalScope
-)
-)
 nullptr
 event
 nullptr
