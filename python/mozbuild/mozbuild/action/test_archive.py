@@ -253,6 +253,12 @@ ssltunnel
 "
 xpcshell
 "
+    
+"
+plugin
+-
+container
+"
 ]
 TEST_HARNESS_DLLS
 =

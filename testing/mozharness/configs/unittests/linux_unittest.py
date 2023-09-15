@@ -120,6 +120,13 @@ XPCSHELL_NAME
 "
 xpcshell
 "
+PLUGIN_CONTAINER_NAME
+=
+"
+plugin
+-
+container
+"
 HTTP3SERVER_NAME
 =
 "
@@ -356,6 +363,12 @@ xpcshell_name
 "
 :
 XPCSHELL_NAME
+    
+"
+plugin_container_name
+"
+:
+PLUGIN_CONTAINER_NAME
     
 "
 http3server_name
