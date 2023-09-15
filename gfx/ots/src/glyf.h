@@ -233,6 +233,8 @@ xmax
 int16_t
 &
 ymax
+bool
+is_tricky_font
 )
 ;
 bool
