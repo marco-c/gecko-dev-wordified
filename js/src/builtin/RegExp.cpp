@@ -1073,6 +1073,16 @@ ResultTemplateKind
 Indices
 )
 ;
+if
+(
+!
+indicesTemplate
+)
+{
+return
+false
+;
+}
 indices
 =
 NewDenseFullyAllocatedArrayWithTemplate
