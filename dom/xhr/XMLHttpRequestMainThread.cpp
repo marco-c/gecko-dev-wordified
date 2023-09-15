@@ -12019,6 +12019,15 @@ else
 if
 (
 !
+type
+.
+IsEmpty
+(
+)
+&
+&
+(
+!
 (
 type
 .
@@ -12052,6 +12061,7 @@ type
 xml
 "
 _ns
+)
 )
 )
 )
