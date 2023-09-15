@@ -588,6 +588,9 @@ mozilla
 "
 import
 "
+"
+json
+"
 ]
 overrides
 :
