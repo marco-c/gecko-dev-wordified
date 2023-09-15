@@ -96,6 +96,14 @@ transforms
 base
 import
 TransformSequence
+from
+taskgraph
+.
+util
+.
+dependencies
+import
+get_primary_dependency
 transforms
 =
 TransformSequence
@@ -120,24 +128,14 @@ jobs
         
 dep_task
 =
+get_primary_dependency
+(
+config
 job
-[
-"
-primary
--
-dependency
-"
-]
+)
         
-del
-job
-[
-"
-primary
--
-dependency
-"
-]
+assert
+dep_task
         
 #
 Add
@@ -443,6 +441,26 @@ optimization
 dep_task
 .
 optimization
+        
+job
+[
+"
+shipping
+-
+product
+"
+]
+=
+dep_task
+.
+attributes
+.
+get
+(
+"
+shipping_product
+"
+)
         
 yield
 job
