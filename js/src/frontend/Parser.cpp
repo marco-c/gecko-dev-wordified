@@ -23565,7 +23565,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-useStrict
+use_strict_
 (
 )
 &
@@ -23624,7 +23624,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-useAsm
+use_asm_
 (
 )
 &
@@ -56460,7 +56460,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-useAsm
+use_asm_
 (
 )
 )
