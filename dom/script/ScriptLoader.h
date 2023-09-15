@@ -649,9 +649,6 @@ implementation
 /
 /
 class
-OffThreadCompilationCompleteRunnable
-;
-class
 ScriptLoader
 final
 :
@@ -3454,7 +3451,7 @@ aCouldCompileOut
 )
 ;
 nsresult
-StartOffThreadCompilation
+CreateOffThreadTask
 (
 JSContext
 *
@@ -3468,9 +3465,10 @@ JS
 CompileOptions
 &
 aOptions
-OffThreadCompilationCompleteRunnable
+CompileOrDecodeTask
 *
-aRunnable
+*
+aCompileOrDecodeTask
 )
 ;
 nsresult
