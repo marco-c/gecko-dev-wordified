@@ -1933,7 +1933,7 @@ string
 #
 define
 SDP_MAX_PAYLOAD_TYPES
-30
+23
 /
 *
 Max
