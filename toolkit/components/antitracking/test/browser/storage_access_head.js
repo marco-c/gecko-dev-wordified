@@ -1693,7 +1693,7 @@ setPreferences
 (
 alwaysPartitionStorage
 =
-false
+true
 )
 {
 await
