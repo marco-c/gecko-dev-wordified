@@ -688,7 +688,7 @@ EXPECT_FALSE
 (
 dcc
 .
-HasDataChannelsForTest
+HasDataChannels
 (
 )
 )
@@ -742,7 +742,7 @@ EXPECT_TRUE
 (
 dcc
 .
-HasDataChannelsForTest
+HasDataChannels
 (
 )
 )
@@ -773,7 +773,7 @@ EXPECT_FALSE
 (
 dcc
 .
-HasDataChannelsForTest
+HasDataChannels
 (
 )
 )
