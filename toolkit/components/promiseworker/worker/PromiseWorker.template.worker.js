@@ -62,11 +62,6 @@ eslint
 -
 env
 commonjs
-mozilla
-/
-chrome
--
-worker
 *
 /
 /
