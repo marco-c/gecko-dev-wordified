@@ -4056,7 +4056,7 @@ names
 (
 )
 .
-selfHosted
+self_hosted_
 ;
 }
 bool
@@ -9598,7 +9598,7 @@ names
 (
 )
 .
-selfHosted
+self_hosted_
 )
 ;
 }
