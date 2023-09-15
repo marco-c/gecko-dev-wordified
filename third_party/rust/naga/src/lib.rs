@@ -9320,7 +9320,17 @@ derive
 (
 Clone
 Debug
+)
+]
+#
+[
+cfg_attr
+(
+test
+derive
+(
 PartialEq
+)
 )
 ]
 #

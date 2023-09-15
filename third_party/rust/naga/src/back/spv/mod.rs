@@ -3108,10 +3108,6 @@ Vec
 Word
 >
 }
-ZeroValue
-(
-Word
-)
 }
 #
 [
