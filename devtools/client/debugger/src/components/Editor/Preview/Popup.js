@@ -598,13 +598,8 @@ MODE
 .
 LONG
 :
-MODE
-.
-SHORT
+null
 disableWrap
-:
-true
-displayRootNodeAsHeader
 :
 true
 focusable
