@@ -5428,6 +5428,15 @@ nsresult
 aStatus
 )
 ;
+nsresult
+LogConsoleError
+(
+const
+char
+*
+aTag
+)
+;
 void
 SetHTTPSSVCRecord
 (
