@@ -91914,14 +91914,6 @@ FULLSCREEN
 ;
 if
 (
-StaticPrefs
-:
-:
-dom_fullscreen_modal
-(
-)
-&
-&
 !
 IsInChromeDocShell
 (
