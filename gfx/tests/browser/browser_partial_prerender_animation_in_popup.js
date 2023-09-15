@@ -614,7 +614,10 @@ in
 frames
 .
 const
+[
 markers
+counter
+]
 =
 await
 observeStylingInTargetWindow
@@ -623,6 +626,16 @@ panel
 .
 ownerGlobal
 5
+)
+;
+Assert
+.
+equal
+(
+markers
+.
+length
+counter
 )
 ;
 /
