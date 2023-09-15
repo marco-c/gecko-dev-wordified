@@ -117,6 +117,15 @@ findOutOfScopeLocations
 "
 ;
 import
+findBestMatchExpression
+from
+"
+.
+/
+findBestMatchExpression
+"
+;
+import
 {
 hasSyntaxError
 }
@@ -196,6 +205,7 @@ workerHandler
 (
 {
 findOutOfScopeLocations
+findBestMatchExpression
 getSymbols
 getScopes
 clearSources
