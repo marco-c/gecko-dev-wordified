@@ -62213,7 +62213,7 @@ gFocusWindow
 #
 ifdef
 MOZ_WAYLAND
-void
+bool
 nsWindow
 :
 :
@@ -62234,6 +62234,7 @@ GdkIsWaylandDisplay
 )
 {
 return
+true
 ;
 }
 /
@@ -62257,6 +62258,11 @@ is
 not
 destroyed
 .
+bool
+paint
+=
+false
+;
 /
 /
 See
@@ -62341,6 +62347,8 @@ height
 scale
 )
 ;
+paint
+=
 moz_container_wayland_egl_window_set_size
 (
 mContainer
@@ -62360,6 +62368,9 @@ Unlock
 )
 ;
 }
+return
+paint
+;
 }
 #
 endif

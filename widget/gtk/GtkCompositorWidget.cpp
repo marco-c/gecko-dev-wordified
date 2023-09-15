@@ -918,7 +918,7 @@ return
 window
 ;
 }
-void
+bool
 GtkCompositorWidget
 :
 :
@@ -941,6 +941,7 @@ if
 mWidget
 )
 {
+return
 mWidget
 -
 >
@@ -952,6 +953,9 @@ aEGLWindowSize
 }
 #
 endif
+return
+true
+;
 }
 LayoutDeviceIntRegion
 GtkCompositorWidget
