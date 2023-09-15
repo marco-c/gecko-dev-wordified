@@ -5065,6 +5065,10 @@ RefType
 i31
 (
 )
+.
+asNonNullable
+(
+)
 )
 &
 nothing

@@ -2196,7 +2196,7 @@ I31
 heapType
 =
 "
-eq
+i31
 "
 ;
 break
