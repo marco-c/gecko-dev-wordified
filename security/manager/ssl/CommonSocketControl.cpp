@@ -351,8 +351,11 @@ mPeerId
 )
 {
 #
-ifdef
-DEBUG
+if
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
 mOwningThread
 =
 PR_GetCurrentThread
