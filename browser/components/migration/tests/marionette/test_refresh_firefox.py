@@ -1801,9 +1801,7 @@ loginInfo
 =
 self
 .
-marionette
-.
-execute_script
+runAsyncCode
 (
             
 "
@@ -1811,15 +1809,23 @@ execute_script
 "
           
 let
-ary
+[
+resolve
+]
 =
+arguments
+;
+          
 Services
 .
 logins
 .
-findLogins
+searchLoginsAsync
 (
+{
             
+origin
+:
 "
 test
 .
@@ -1830,6 +1836,8 @@ mozilla
 com
 "
             
+formActionOrigin
+:
 "
 http
 :
@@ -1848,14 +1856,17 @@ some
 form
 /
 "
-            
-null
-{
+          
 }
 )
-;
-          
-return
+.
+then
+(
+ary
+=
+>
+resolve
+(
 ary
 .
 length
@@ -1874,6 +1885,8 @@ password
 null
 "
 }
+)
+)
 ;
         
 "
