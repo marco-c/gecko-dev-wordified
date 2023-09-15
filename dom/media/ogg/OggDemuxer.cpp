@@ -4237,6 +4237,13 @@ endTime
 IsValid
 (
 )
+&
+&
+endTime
+.
+IsPositive
+(
+)
 )
 {
 mInfo
