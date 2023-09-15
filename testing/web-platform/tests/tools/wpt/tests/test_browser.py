@@ -892,6 +892,18 @@ Chrome
 logger
 )
     
+#
+Versions
+should
+be
+an
+exact
+match
+to
+be
+compatible
+.
+    
 chrome
 .
 webdriver_version
@@ -905,9 +917,9 @@ return_value
 '
 70
 .
-0
-.
 1
+.
+5
 '
 )
     
@@ -1040,35 +1052,17 @@ stable
 )
     
 #
-The
-dev
-channel
-switches
-between
-beta
-and
-ToT
 ChromeDriver
-so
-is
-sometimes
-    
-#
-a
 version
-behind
-its
-ChromeDriver
+should
+match
+for
+MAJOR
 .
-As
-such
-we
-accept
-browser
+MINOR
+.
+BUILD
 version
-+
-1
-there
 .
     
 chrome
@@ -1096,6 +1090,8 @@ return_value
 0
 .
 1
+.
+0
 '
 )
     
@@ -1112,9 +1108,12 @@ return_value
 '
 70
 .
+0
+.
 1
 .
-0
+1
+dev
 '
 )
     
@@ -1144,6 +1143,15 @@ dev
 '
 )
     
+#
+Mismatching
+minor
+version
+should
+not
+match
+.
+    
 chrome
 .
 webdriver_version
@@ -1155,15 +1163,16 @@ MagicMock
 return_value
 =
 '
-71
+70
 .
-0
+9
 .
 1
 '
 )
     
 assert
+not
 chrome
 .
 webdriver_supports_browser
