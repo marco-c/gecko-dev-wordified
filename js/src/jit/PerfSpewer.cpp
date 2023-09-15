@@ -5709,10 +5709,6 @@ srcInfo
 colno
 =
 colno
-.
-zeroOriginValue
-(
-)
 ;
 srcInfo
 -
@@ -6050,7 +6046,13 @@ srcInfo
 >
 colno
 =
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
+(
 colno
+)
 ;
 srcInfo
 -
