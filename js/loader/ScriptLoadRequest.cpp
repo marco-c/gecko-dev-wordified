@@ -434,14 +434,6 @@ const
 nsAString
 &
 aNonce
-mozilla
-:
-:
-dom
-:
-:
-RequestPriority
-aFetchPriority
 const
 ParserMetadata
 aParserMetadata
@@ -470,10 +462,6 @@ aReferrerPolicy
 mNonce
 (
 aNonce
-)
-mFetchPriority
-(
-aFetchPriority
 )
 mParserMetadata
 (

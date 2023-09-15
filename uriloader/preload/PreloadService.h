@@ -588,10 +588,6 @@ aNonce
 const
 nsAString
 &
-aFetchPriority
-const
-nsAString
-&
 aIntegrity
 bool
 aScriptFromHead
@@ -768,10 +764,6 @@ const
 nsAString
 &
 aReferrerPolicy
-const
-nsAString
-&
-aFetchPriority
 bool
 aFromHeader
 uint64_t
