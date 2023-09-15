@@ -466,6 +466,18 @@ defined
 (
 POLICY_KIND
 )
+if
+(
+__builtin_available
+(
+macOS
+10
+.
+14
+*
+)
+)
+{
 TRY_CALL_PTHREADS
 (
 pthread_mutexattr_setpolicy_np
@@ -493,6 +505,7 @@ failed
 "
 )
 ;
+}
 #
 endif
 attrp
