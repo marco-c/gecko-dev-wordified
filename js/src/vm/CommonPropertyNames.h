@@ -4223,7 +4223,7 @@ star
 \
 MACRO_
 (
-starNamespaceStar
+star_namespace_star_
 "
 *
 namespace

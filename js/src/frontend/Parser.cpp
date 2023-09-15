@@ -12379,7 +12379,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-starNamespaceStar
+star_namespace_star_
 (
 )
 DeclarationKind
@@ -12410,7 +12410,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-starNamespaceStar
+star_namespace_star_
 (
 )
 )
