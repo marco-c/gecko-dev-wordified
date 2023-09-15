@@ -486,6 +486,9 @@ rt
 }
 ;
 class
+JitZone
+;
+class
 CompileZone
 {
 friend
@@ -514,6 +517,13 @@ JS
 Zone
 *
 zone
+)
+;
+const
+JitZone
+*
+jitZone
+(
 )
 ;
 CompileRuntime
@@ -614,9 +624,6 @@ siteKind
 }
 ;
 class
-JitRealm
-;
-class
 CompileRealm
 {
 JS
@@ -678,13 +685,6 @@ non_crypto
 XorShift128PlusRNG
 *
 addressOfRandomNumberGenerator
-(
-)
-;
-const
-JitRealm
-*
-jitRealm
 (
 )
 ;

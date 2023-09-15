@@ -25473,7 +25473,7 @@ MacroAssembler
 &
 masm
 size_t
-jitRealmStubOffset
+jitZoneStubOffset
 Register
 temp
 Label
@@ -25487,12 +25487,12 @@ Call
 cx
 -
 >
-realm
+zone
 (
 )
 -
 >
-jitRealm
+jitZone
 (
 )
 -
@@ -25600,7 +25600,7 @@ temp
 JSContext
 :
 :
-offsetOfRealm
+offsetOfZone
 (
 )
 )
@@ -25614,10 +25614,10 @@ loadPtr
 Address
 (
 temp
-Realm
+Zone
 :
 :
-offsetOfJitRealm
+offsetOfJitZone
 (
 )
 )
@@ -25631,7 +25631,7 @@ loadPtr
 Address
 (
 temp
-jitRealmStubOffset
+jitZoneStubOffset
 )
 temp
 )
@@ -25996,7 +25996,7 @@ vmCallNoMatches
 CallRegExpStub
 (
 masm
-JitRealm
+JitZone
 :
 :
 offsetOfRegExpMatcherStub
@@ -26328,7 +26328,7 @@ vmCallNoMatches
 CallRegExpStub
 (
 masm
-JitRealm
+JitZone
 :
 :
 offsetOfRegExpSearcherStub
@@ -26636,7 +26636,7 @@ vmCallNoMatches
 CallRegExpStub
 (
 masm
-JitRealm
+JitZone
 :
 :
 offsetOfRegExpExecMatchStub
@@ -26941,7 +26941,7 @@ vmCall
 CallRegExpStub
 (
 masm
-JitRealm
+JitZone
 :
 :
 offsetOfRegExpExecTestStub

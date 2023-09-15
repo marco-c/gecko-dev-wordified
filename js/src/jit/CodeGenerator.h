@@ -2220,7 +2220,7 @@ perfSpewer_
 Bit
 mask
 of
-JitRealm
+JitZone
 stubs
 that
 are
@@ -2231,7 +2231,7 @@ read
 barriered
 .
 uint32_t
-realmStubsToReadBarrier_
+zoneStubsToReadBarrier_
 ;
 #
 ifdef

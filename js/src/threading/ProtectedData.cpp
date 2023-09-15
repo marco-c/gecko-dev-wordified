@@ -441,6 +441,16 @@ IonCompile
 >
 ;
 template
+class
+CheckMainThread
+<
+AllowedHelperThread
+:
+:
+GCTaskOrIonCompile
+>
+;
+template
 <
 GlobalLock
 Lock

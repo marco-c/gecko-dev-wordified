@@ -3222,14 +3222,6 @@ traceWeakDebugEnvironmentEdges
 trc
 )
 ;
-r
--
->
-traceWeakEdgesInJitRealm
-(
-trc
-)
-;
 }
 }
 }
