@@ -2644,6 +2644,16 @@ panelShown
 "
 true
 ]
+[
+"
+browser
+.
+translations
+.
+automaticallyPopup
+"
+true
+]
 .
 .
 .
