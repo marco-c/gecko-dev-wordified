@@ -90,7 +90,7 @@ mjs
 var
 {
 HiddenExtensionPage
-promiseExtensionViewLoaded
+promiseBackgroundViewLoaded
 watchExtensionWorkerContextLoaded
 }
 =
@@ -772,7 +772,7 @@ browser
 let
 contextPromise
 =
-promiseExtensionViewLoaded
+promiseBackgroundViewLoaded
 (
 this
 .
