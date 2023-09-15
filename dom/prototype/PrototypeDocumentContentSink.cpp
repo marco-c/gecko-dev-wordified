@@ -2481,9 +2481,8 @@ now
 aPINode
 -
 >
-SetEnableUpdates
+DisableUpdates
 (
-false
 )
 ;
 aPINode
@@ -2539,14 +2538,6 @@ StealNSResult
 )
 ;
 }
-aPINode
--
->
-SetEnableUpdates
-(
-true
-)
-;
 /
 /
 load
@@ -2566,7 +2557,7 @@ result
 aPINode
 -
 >
-UpdateStyleSheet
+EnableUpdatesAndUpdateStyleSheet
 (
 this
 )
