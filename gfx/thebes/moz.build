@@ -393,11 +393,6 @@ gfx
 =
 [
 "
-AllOfDcomp
-.
-h
-"
-"
 D3D11Checks
 .
 h
@@ -1278,11 +1273,6 @@ D3D11Checks
 .
 cpp
 "
-]
-SOURCES
-+
-=
-[
 "
 DeviceManagerDx
 .

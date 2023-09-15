@@ -303,13 +303,6 @@ FxROutputHandler
 h
 "
 #
-undef
-NTDDI_VERSION
-#
-define
-NTDDI_VERSION
-NTDDI_WIN8
-#
 include
 <
 d3d11
