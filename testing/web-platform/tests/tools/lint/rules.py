@@ -1420,11 +1420,12 @@ content
 attribute
 must
 be
-the
+a
+non
 empty
 string
         
-or
+and
 start
 with
 '

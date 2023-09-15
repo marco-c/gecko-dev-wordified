@@ -1675,6 +1675,8 @@ META
 :
 variant
 =
+?
+default
 /
 /
 META
@@ -1794,6 +1796,8 @@ suffix
 in
 [
 "
+?
+default
 "
 "
 ?
@@ -1858,6 +1862,8 @@ META
 :
 variant
 =
+?
+default
 /
 /
 META
@@ -1977,6 +1983,8 @@ suffix
 in
 [
 "
+?
+default
 "
 "
 ?
@@ -2944,6 +2952,8 @@ META
 :
 variant
 =
+?
+default
 /
 /
 META
@@ -3142,6 +3152,8 @@ suffix
 in
 [
 "
+?
+default
 "
 "
 ?
@@ -6640,6 +6652,8 @@ META
 :
 variant
 =
+?
+default
 /
 /
 META
@@ -6722,6 +6736,8 @@ test
 any
 .
 html
+?
+default
 '
                                             
 '
@@ -6752,6 +6768,8 @@ any
 serviceworker
 .
 html
+?
+default
 '
                                             
 '
@@ -6784,6 +6802,8 @@ any
 sharedworker
 .
 html
+?
+default
 '
                                             
 '
@@ -6816,6 +6836,8 @@ any
 worker
 .
 html
+?
+default
 '
                                             
 '
