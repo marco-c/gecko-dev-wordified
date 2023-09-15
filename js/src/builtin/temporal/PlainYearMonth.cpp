@@ -8501,7 +8501,7 @@ RootedVector
 <
 PropertyKey
 >
-mergedFieldNames
+concatenatedFieldNames
 (
 cx
 )
@@ -8509,11 +8509,11 @@ cx
 if
 (
 !
-MergeTemporalFieldNames
+ConcatTemporalFieldNames
 (
 receiverFieldNames
 inputFieldNames
-mergedFieldNames
+concatenatedFieldNames
 .
 get
 (
@@ -8536,7 +8536,7 @@ PrepareTemporalFields
 (
 cx
 mergedFields
-mergedFieldNames
+concatenatedFieldNames
 )
 ;
 if
