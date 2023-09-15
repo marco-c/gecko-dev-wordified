@@ -101,10 +101,6 @@ com
 /
 "
 ;
-add_virtual_authenticator
-(
-)
-;
 function
 getTelemetryForScalar
 (
@@ -487,13 +483,9 @@ is
 "
 "
 +
-(
 attestation
 .
 flags
-&
-flag_TUP
-)
 "
 "
 +
