@@ -144,7 +144,6 @@ location
 import
 {
 getPrettySourceURL
-isGenerated
 isJavaScript
 }
 from
@@ -1935,10 +1934,10 @@ pretty_print
 }
 assert
 (
-isGenerated
-(
+!
 source
-)
+.
+isOriginal
 "
 Pretty
 -

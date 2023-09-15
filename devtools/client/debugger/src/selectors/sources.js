@@ -70,7 +70,6 @@ reselect
 import
 {
 getPrettySourceURL
-isGenerated
 isPretty
 isJavaScript
 }
@@ -443,10 +442,10 @@ null
 }
 if
 (
-isGenerated
-(
+!
 source
-)
+.
+isOriginal
 )
 {
 return
