@@ -187,8 +187,8 @@ namespace
 mozilla
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 class
@@ -397,12 +397,10 @@ mHelper
 /
 /
 namespace
-widget
-}
-/
-/
-namespace
 mozilla
+:
+:
+widget
 #
 endif
 /
