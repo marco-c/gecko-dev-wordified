@@ -394,17 +394,6 @@ needs_analysis_response
 json
 "
 ;
-/
-/
-Start
-with
-OHTTP
-disabled
-.
-disableOHTTP
-(
-)
-;
 const
 TEST_AID
 =
