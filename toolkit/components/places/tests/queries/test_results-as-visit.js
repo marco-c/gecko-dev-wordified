@@ -770,7 +770,7 @@ Assert
 .
 ok
 (
-isInResult
+nodeInResult
 (
 change2
 root
@@ -910,7 +910,7 @@ Assert
 ok
 (
 !
-isInResult
+nodeInResult
 (
 {
 uri
@@ -939,7 +939,7 @@ Assert
 .
 ok
 (
-isInResult
+nodeInResult
 (
 {
 uri
@@ -1026,7 +1026,7 @@ Assert
 ok
 (
 !
-isInResult
+nodeInResult
 (
 change4
 root

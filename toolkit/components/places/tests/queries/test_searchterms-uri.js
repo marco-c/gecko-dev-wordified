@@ -738,7 +738,7 @@ Assert
 ok
 (
 !
-isInResult
+nodeInResult
 (
 {
 uri
@@ -796,7 +796,7 @@ Assert
 .
 ok
 (
-isInResult
+nodeInResult
 (
 {
 uri
