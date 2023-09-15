@@ -177,7 +177,7 @@ _LAST
 MaxComputeWorkgroupsPerDimension
 }
 ;
-double
+uint64_t
 GetLimit
 (
 const
