@@ -5396,6 +5396,10 @@ mHFlip
 =
 false
 ;
+mConstrainedByLayout
+=
+false
+;
 mAlignmentOffset
 =
 0
@@ -7075,6 +7079,10 @@ false
 mHFlip
 =
 mVFlip
+=
+false
+;
+mConstrainedByLayout
 =
 false
 ;
@@ -11057,6 +11065,12 @@ constraintRect
 height
 ;
 }
+result
+.
+mConstrainedByLayout
+=
+true
+;
 }
 if
 (
@@ -12336,6 +12350,12 @@ mVFlip
 aRects
 .
 mVFlip
+;
+mConstrainedByLayout
+=
+aRects
+.
+mConstrainedByLayout
 ;
 /
 /
