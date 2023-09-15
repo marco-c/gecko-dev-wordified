@@ -422,7 +422,7 @@ if
 (
 propertyView
 .
-_propertyInfo
+propertyInfo
 .
 name
 =

@@ -149,13 +149,7 @@ width
 ;
 propertyView
 .
-buildMain
-(
-)
-;
-propertyView
-.
-buildSelectorContainer
+createElements
 (
 )
 ;
