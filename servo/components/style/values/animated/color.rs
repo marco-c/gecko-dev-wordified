@@ -563,9 +563,7 @@ current_color
 AbsoluteColor
 :
 :
-transparent
-(
-)
+TRANSPARENT
 ;
 self
 .
@@ -622,9 +620,7 @@ Absolute
 AbsoluteColor
 :
 :
-transparent
-(
-)
+TRANSPARENT
 )
 )
 }

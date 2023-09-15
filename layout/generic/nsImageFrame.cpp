@@ -12401,9 +12401,7 @@ side
 StyleColor
 :
 :
-Black
-(
-)
+BLACK
 ;
 mBorder
 .

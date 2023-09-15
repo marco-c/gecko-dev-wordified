@@ -5277,9 +5277,7 @@ from_absolute_color
 AbsoluteColor
 :
 :
-transparent
-(
-)
+TRANSPARENT
 )
 }
 /
@@ -6596,9 +6594,7 @@ resolve_to_absolute
 AbsoluteColor
 :
 :
-transparent
-(
-)
+TRANSPARENT
 )
 }
 fn
