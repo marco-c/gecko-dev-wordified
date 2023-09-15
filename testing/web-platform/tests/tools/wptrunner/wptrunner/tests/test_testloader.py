@@ -2026,6 +2026,11 @@ yields
 a
 /
 bar
+and
+/
+b
+/
+baz
         
 loader
 =
@@ -2061,6 +2066,8 @@ test
 include
 "
 }
+{
+}
 )
 ]
 )
@@ -2079,7 +2086,7 @@ testharness
 )
 =
 =
-1
+2
         
 assert
 loader
@@ -2186,6 +2193,11 @@ b
 test
 -
 include
+"
+"
+test
+-
+exclude
 "
 }
         
@@ -2486,7 +2498,6 @@ include
 )
         
 assert
-(
 len
 (
 loader
@@ -2497,11 +2508,10 @@ tests
 testharness
 "
 ]
+)
 =
 =
 0
-)
-)
         
 loader
 =
@@ -2528,7 +2538,6 @@ None
 test_filters
 =
 [
-                                
 TagFilter
 (
 {
@@ -2551,7 +2560,6 @@ include
 "
 }
 )
-                            
 ]
 )
         
@@ -2569,66 +2577,7 @@ testharness
 )
 =
 =
-1
-        
-assert
-loader
-.
-tests
-[
-"
-testharness
-"
-]
-[
 0
-]
-.
-id
-=
-=
-"
-/
-b
-/
-baz
-.
-html
-"
-        
-assert
-loader
-.
-tests
-[
-"
-testharness
-"
-]
-[
-0
-]
-.
-tags
-=
-=
-{
-"
-dir
-:
-b
-"
-"
-test
--
-include
-"
-"
-test
--
-exclude
-"
-}
 def
 test_chunk_hash
 (
