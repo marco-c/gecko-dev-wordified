@@ -8387,7 +8387,9 @@ get
 )
 )
 (
-tee_local
+local
+.
+tee
 0
 (
 i32
@@ -8410,7 +8412,9 @@ get
 )
 )
 (
-tee_local
+local
+.
+tee
 0
 (
 i32

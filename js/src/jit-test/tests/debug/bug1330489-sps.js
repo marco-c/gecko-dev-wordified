@@ -221,7 +221,9 @@ type
 v2i
 )
 (
-get_local
+local
+.
+get
 0
 )
 )

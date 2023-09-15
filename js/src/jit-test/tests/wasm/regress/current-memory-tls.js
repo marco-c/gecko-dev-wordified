@@ -223,7 +223,9 @@ const
 i32
 .
 add
-tee_local
+local
+.
+tee
 i
 i64
 .

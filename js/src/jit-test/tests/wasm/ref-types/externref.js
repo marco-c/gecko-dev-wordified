@@ -1126,7 +1126,9 @@ const
 i32
 .
 add
-tee_local
+local
+.
+tee
 i
 i32
 .
@@ -1167,7 +1169,9 @@ const
 i32
 .
 add
-tee_local
+local
+.
+tee
 i
 i32
 .
@@ -1218,7 +1222,9 @@ const
 i32
 .
 add
-tee_local
+local
+.
+tee
 i
 i32
 .
@@ -1270,7 +1276,9 @@ const
 i32
 .
 add
-tee_local
+local
+.
+tee
 i
 br_table
 unreachable
@@ -3067,7 +3075,9 @@ ref
 .
 is_null
 (
-get_local
+local
+.
+get
 0
 )
 )
