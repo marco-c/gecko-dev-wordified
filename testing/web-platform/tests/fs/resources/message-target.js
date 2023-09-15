@@ -890,15 +890,6 @@ file_handle
 .
 createSyncAccessHandle
 (
-{
-mode
-:
-"
-in
--
-place
-"
-}
 )
 ;
 access_handle
