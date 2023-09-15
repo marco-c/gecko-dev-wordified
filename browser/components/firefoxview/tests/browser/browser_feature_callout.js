@@ -1234,7 +1234,9 @@ span
 .
 brand
 -
-icon
+feature
+-
+name
 "
 ;
 const

@@ -1930,7 +1930,9 @@ selector
 .
 brand
 -
-icon
+feature
+-
+name
 "
 arrow_position
 :
@@ -2034,7 +2036,9 @@ height
 .
 brand
 -
-icon
+feature
+-
+name
 has
 a
 height
@@ -2140,7 +2144,9 @@ querySelector
 .
 brand
 -
-icon
+feature
+-
+name
 "
 )
 ;
