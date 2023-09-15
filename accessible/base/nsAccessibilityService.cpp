@@ -5021,10 +5021,10 @@ fields
 >
 SetAttribute
 (
-nsGkAtoms
+CacheKey
 :
 :
-resolution
+Resolution
 aResolution
 )
 ;
@@ -5133,10 +5133,10 @@ fields
 >
 SetAttribute
 (
-nsGkAtoms
+CacheKey
 :
 :
-_moz_device_pixel_ratio
+AppUnitsPerDevPixel
 aAppUnitsPerDevPixel
 )
 ;

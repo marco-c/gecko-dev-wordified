@@ -2871,10 +2871,10 @@ mCachedFields
 >
 GetAttribute
 (
-nsGkAtoms
+CacheKey
 :
 :
-html
+InnerHTML
 innerHTML
 )
 ;

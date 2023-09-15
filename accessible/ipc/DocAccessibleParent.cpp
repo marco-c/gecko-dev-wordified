@@ -7450,10 +7450,10 @@ mCachedFields
 >
 GetAttribute
 (
-nsGkAtoms
+CacheKey
 :
 :
-headerContentType
+MimeType
 aMime
 )
 ;

@@ -9970,10 +9970,10 @@ int32_t
 >
 >
 (
-nsGkAtoms
+CacheKey
 :
 :
-spelling
+SpellingErrors
 )
 ;
 if
@@ -10615,10 +10615,10 @@ int32_t
 >
 >
 (
-nsGkAtoms
+CacheKey
 :
 :
-spelling
+SpellingErrors
 )
 ;
 if
