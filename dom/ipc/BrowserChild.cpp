@@ -5598,14 +5598,6 @@ dispatcher
 (
 *
 sourceDocument
-printSettings
-/
-*
-aIsTop
-=
-*
-/
-false
 )
 ;
 nsAutoScriptBlocker

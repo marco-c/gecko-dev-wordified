@@ -35148,14 +35148,6 @@ dispatcher
 (
 *
 docToPrint
-ps
-/
-*
-aIsTop
-=
-*
-/
-true
 )
 ;
 nsAutoScriptBlocker
