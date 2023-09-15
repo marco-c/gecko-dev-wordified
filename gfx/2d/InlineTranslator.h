@@ -572,7 +572,7 @@ SourceSurface
 *
 aSurface
 )
-final
+override
 {
 mSourceSurfaces
 .
