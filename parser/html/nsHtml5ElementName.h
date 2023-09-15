@@ -1628,6 +1628,11 @@ ELT_TH
 static
 nsHtml5ElementName
 *
+ELT_SEARCH
+;
+static
+nsHtml5ElementName
+*
 ELT_SWITCH
 ;
 static
