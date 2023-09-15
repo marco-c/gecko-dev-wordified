@@ -1449,6 +1449,25 @@ notification_enable_delay
 0
         
 #
+Do
+not
+download
+intermediate
+certificates
+        
+"
+security
+.
+remote_settings
+.
+intermediates
+.
+enabled
+"
+:
+False
+        
+#
 Ensure
 blocklist
 updates
