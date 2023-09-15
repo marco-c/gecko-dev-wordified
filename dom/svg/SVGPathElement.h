@@ -550,6 +550,13 @@ aOutput
 )
 override
 ;
+bool
+IsClosedLoop
+(
+)
+const
+override
+;
 /
 /
 nsIContent

@@ -2512,7 +2512,7 @@ if
 (
 data
 .
-mIsClosedIntervals
+mIsClosedLoop
 )
 {
 /
@@ -3439,7 +3439,7 @@ shift
 static
 inline
 bool
-IsClosedPath
+IsClosedLoop
 (
 const
 StyleSVGPathData
@@ -4057,7 +4057,7 @@ forget
 )
 {
 }
-IsClosedPath
+IsClosedLoop
 (
 pathData
 )
@@ -4797,7 +4797,7 @@ forget
 )
 {
 }
-IsClosedPath
+IsClosedLoop
 (
 pathData
 )
