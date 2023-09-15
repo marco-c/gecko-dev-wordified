@@ -653,7 +653,6 @@ observer
 )
 remote_rate_
 (
-&
 field_trials_
 )
 {
@@ -2495,7 +2494,6 @@ remote_rate_
 .
 Update
 (
-&
 input
 now
 )
