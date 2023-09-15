@@ -3886,8 +3886,14 @@ report
 .
 column
 =
+JS
+:
+:
+ColumnNumberOneOrigin
+(
 columnNumber
 (
+)
 )
 ;
 /
