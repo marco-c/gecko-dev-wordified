@@ -299,7 +299,7 @@ much
 .
 MAX_PERF_TASKS
 =
-300
+600
 #
 Name
 of
