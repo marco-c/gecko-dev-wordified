@@ -1572,4 +1572,14 @@ GlobalIdentityHandlerFactory
 for
 IdentityRecyclerFactory
 {
+fn
+ids_are_generated_in_wgpu
+(
+)
+-
+>
+bool
+{
+false
+}
 }

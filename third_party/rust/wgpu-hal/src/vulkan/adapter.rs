@@ -4920,6 +4920,15 @@ max_compute_workgroup_sizes
 ]
 max_compute_workgroups_per_dimension
 max_buffer_size
+max_non_sampler_bindings
+:
+std
+:
+:
+u32
+:
+:
+MAX
 }
 }
 fn

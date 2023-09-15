@@ -141,6 +141,13 @@ d3d12
 :
 :
 CommandQueue
+limits
+:
+&
+wgt
+:
+:
+Limits
 private_caps
 :
 super
@@ -562,7 +569,11 @@ Tier
 let
 capacity_views
 =
-1_000_000
+limits
+.
+max_non_sampler_bindings
+as
+u64
 ;
 let
 capacity_samplers

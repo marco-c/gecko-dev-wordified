@@ -5587,6 +5587,15 @@ max_buffer_size
 self
 .
 max_buffer_size
+max_non_sampler_bindings
+:
+std
+:
+:
+u32
+:
+:
+MAX
 }
 alignments
 :
