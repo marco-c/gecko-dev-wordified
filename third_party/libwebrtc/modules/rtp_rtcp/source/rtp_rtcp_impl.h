@@ -808,8 +808,13 @@ override
 bool
 TrySendPacket
 (
+std
+:
+:
+unique_ptr
+<
 RtpPacketToSend
-*
+>
 packet
 const
 PacedPacketInfo
