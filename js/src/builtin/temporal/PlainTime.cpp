@@ -10473,8 +10473,10 @@ other
 ;
 /
 /
-Step
+Steps
 6
+-
+7
 .
 Duration
 roundedDuration
@@ -10515,7 +10517,7 @@ false
 /
 /
 Step
-7
+8
 .
 auto
 balancedDuration
@@ -10531,7 +10533,7 @@ largestUnit
 /
 /
 Step
-8
+9
 .
 if
 (

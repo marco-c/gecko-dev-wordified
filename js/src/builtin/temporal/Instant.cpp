@@ -5911,8 +5911,10 @@ duration
 ;
 /
 /
-Step
+Steps
 6
+-
+7
 .
 Duration
 roundResult
@@ -5942,7 +5944,7 @@ false
 /
 /
 Step
-7
+8
 .
 MOZ_ASSERT
 (
@@ -5957,7 +5959,7 @@ days
 /
 /
 Step
-8
+9
 .
 TimeDuration
 balanced
