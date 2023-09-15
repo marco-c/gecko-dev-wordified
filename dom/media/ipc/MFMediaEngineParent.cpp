@@ -638,11 +638,14 @@ if
 mMediaEngine
 )
 {
+LOG_IF_FAILED
+(
 mMediaEngine
 -
 >
 Shutdown
 (
+)
 )
 ;
 mMediaEngine
