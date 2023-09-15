@@ -1477,9 +1477,11 @@ test_type
 ]
 :
                 
+skip_reason
+=
+None
+                
 if
-(
-(
 test
 .
 testdriver
@@ -1488,10 +1490,21 @@ not
 executor_cls
 .
 supports_testdriver
-)
-or
-                        
-(
+:
+                    
+skip_reason
+=
+"
+Executor
+does
+not
+support
+testdriver
+.
+js
+"
+                
+elif
 test
 .
 jsshell
@@ -1500,8 +1513,20 @@ not
 executor_cls
 .
 supports_jsshell
-)
-)
+:
+                    
+skip_reason
+=
+"
+Executor
+does
+not
+support
+jsshell
+"
+                
+if
+skip_reason
 :
                     
 logger
@@ -1525,6 +1550,9 @@ status
 "
 SKIP
 "
+message
+=
+skip_reason
 )
                     
 test_status
