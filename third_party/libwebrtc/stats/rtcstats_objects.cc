@@ -2367,8 +2367,6 @@ track_id
 transport_id
 &
 codec_id
-&
-media_type
 )
 /
 /
@@ -2429,12 +2427,6 @@ codec_id
 (
 "
 codecId
-"
-)
-media_type
-(
-"
-mediaType
 "
 )
 {
