@@ -32344,6 +32344,12 @@ aSourceCoord
 =
 aClipOriginCoord
 ;
+relativeCoord
+=
+0
+.
+0
+;
 }
 double
 delta
