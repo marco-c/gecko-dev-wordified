@@ -1705,7 +1705,6 @@ const
 NonOwningAnimationTarget
 &
 aTarget
-const
 nsAtom
 *
 aName
@@ -2138,7 +2137,6 @@ timeline
 -
 property
 .
-const
 nsAtom
 *
 name

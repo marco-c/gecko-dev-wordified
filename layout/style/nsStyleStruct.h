@@ -7921,7 +7921,6 @@ SetInitialValues
 )
 {
 }
-const
 nsAtom
 *
 GetName
@@ -8075,7 +8074,6 @@ SetInitialValues
 )
 {
 }
-const
 nsAtom
 *
 GetName

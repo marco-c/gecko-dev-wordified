@@ -2449,7 +2449,7 @@ mIteratingDefaults
 ;
 nsTHashSet
 <
-nsRefPtrHashKey
+RefPtr
 <
 nsAtom
 >

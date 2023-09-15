@@ -123,13 +123,6 @@ mozilla_CounterStyleManager_h_
 #
 include
 "
-nsAtom
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -2227,7 +2220,7 @@ mPresContext
 ;
 nsTHashMap
 <
-nsRefPtrHashKey
+RefPtr
 <
 nsAtom
 >

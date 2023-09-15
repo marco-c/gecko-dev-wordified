@@ -180,7 +180,7 @@ h
 #
 include
 "
-nsAtom
+nsAtomHashKeys
 .
 h
 "
@@ -476,10 +476,8 @@ MapType
 =
 nsTHashMap
 <
-nsPtrHashKey
-<
 nsAtom
->
+*
 MiscContainer
 *
 >
@@ -4568,10 +4566,8 @@ filter
 ;
 nsTHashSet
 <
-nsPtrHashKey
-<
 nsAtom
->
+*
 >
 hash
 ;

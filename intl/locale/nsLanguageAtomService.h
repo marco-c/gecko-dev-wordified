@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsAtom
+nsAtomHashKeys
 .
 h
 "
@@ -465,7 +465,7 @@ private
 :
 nsTHashMap
 <
-nsRefPtrHashKey
+RefPtr
 <
 nsAtom
 >

@@ -216,6 +216,13 @@ class
 #
 include
 "
+nsAtomHashKeys
+.
+h
+"
+#
+include
+"
 nsIHTMLCollection
 .
 h
@@ -1238,7 +1245,7 @@ element
 /
 nsTHashMap
 <
-nsRefPtrHashKey
+RefPtr
 <
 nsAtom
 >

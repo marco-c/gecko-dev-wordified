@@ -150,7 +150,7 @@ h
 #
 include
 "
-nsAtom
+nsAtomHashKeys
 .
 h
 "
@@ -688,7 +688,6 @@ nsTHashMap
 <
 RefPtr
 <
-const
 nsAtom
 >
 RefPtr

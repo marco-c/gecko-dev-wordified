@@ -424,7 +424,6 @@ AddToHighlightRegistry
 HighlightRegistry
 &
 aHighlightRegistry
-const
 nsAtom
 &
 aHighlightName
@@ -454,7 +453,6 @@ RemoveFromHighlightRegistry
 HighlightRegistry
 &
 aHighlightRegistry
-const
 nsAtom
 &
 aHighlightName

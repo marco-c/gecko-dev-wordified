@@ -159,6 +159,13 @@ h
 #
 include
 "
+nsAtomHashKeys
+.
+h
+"
+#
+include
+"
 nsTHashMap
 .
 h
@@ -241,9 +248,8 @@ TimelineMap
 =
 nsTHashMap
 <
-nsRefPtrHashKey
+RefPtr
 <
-const
 nsAtom
 >
 RefPtr
@@ -290,7 +296,6 @@ TimelineType
 >
 Lookup
 (
-const
 nsAtom
 *
 aName
@@ -316,7 +321,6 @@ TimelineType
 >
 Extract
 (
-const
 nsAtom
 *
 aName
