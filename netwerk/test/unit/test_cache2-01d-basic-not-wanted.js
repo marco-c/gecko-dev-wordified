@@ -49,7 +49,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 /
@@ -90,7 +89,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 /
@@ -134,7 +132,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 /
@@ -180,7 +177,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

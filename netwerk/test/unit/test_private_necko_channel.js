@@ -292,14 +292,14 @@ loadContextInfo
 private
 function
 (
-count
+count1
 )
 {
 Assert
 .
 equal
 (
-count
+count1
 1
 )
 ;

@@ -105,7 +105,6 @@ v1d
 "
 function
 (
-entry
 )
 {
 /
@@ -157,7 +156,6 @@ v2d
 "
 function
 (
-entry
 )
 {
 /
@@ -198,7 +196,6 @@ v2d
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

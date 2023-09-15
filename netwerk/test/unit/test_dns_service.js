@@ -547,7 +547,7 @@ defaultOriginAttributes
 ;
 let
 [
-inStatus
+inStatus1
 ]
 =
 await
@@ -557,7 +557,7 @@ Assert
 .
 equal
 (
-inStatus
+inStatus1
 Cr
 .
 NS_ERROR_UNKNOWN_HOST

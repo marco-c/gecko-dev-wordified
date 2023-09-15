@@ -76,7 +76,6 @@ p1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -114,7 +113,6 @@ p1d
 "
 function
 (
-entry
 )
 {
 /

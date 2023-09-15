@@ -49,7 +49,6 @@ NEW
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -83,7 +82,6 @@ NORMAL
 "
 function
 (
-entry
 )
 {
 /

@@ -62,7 +62,6 @@ meta
 "
 function
 (
-entry
 )
 {
 /
@@ -131,7 +130,6 @@ meta
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

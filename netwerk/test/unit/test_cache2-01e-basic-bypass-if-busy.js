@@ -54,7 +54,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 var
@@ -96,7 +95,6 @@ NOTFOUND
 "
 function
 (
-entry
 )
 {
 Assert

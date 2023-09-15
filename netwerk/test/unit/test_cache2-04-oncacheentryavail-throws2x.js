@@ -48,7 +48,6 @@ null
 null
 function
 (
-entry
 )
 {
 /
@@ -89,7 +88,6 @@ null
 null
 function
 (
-entry
 )
 {
 /
@@ -130,7 +128,6 @@ d1d
 "
 function
 (
-entry
 )
 {
 /
@@ -171,7 +168,6 @@ d1d
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

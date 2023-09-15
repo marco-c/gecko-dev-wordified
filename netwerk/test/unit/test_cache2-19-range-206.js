@@ -50,7 +50,6 @@ NEW
 "
 function
 (
-entry
 )
 {
 /
@@ -136,10 +135,10 @@ part2
 "
 function
 (
-entry
+entry1
 )
 {
-entry
+entry1
 .
 setValid
 (

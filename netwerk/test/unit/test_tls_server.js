@@ -555,14 +555,14 @@ asyncWait
 {
 onInputStreamReady
 (
-input
+input1
 )
 {
 NetUtil
 .
 asyncCopy
 (
-input
+input1
 output
 )
 ;
@@ -751,7 +751,7 @@ handler
 {
 onTransportStatus
 (
-transport
+transport1
 status
 )
 {
@@ -786,7 +786,7 @@ currentThread
 }
 onInputStreamReady
 (
-input
+input1
 )
 {
 try
@@ -798,8 +798,8 @@ NetUtil
 .
 readInputStreamToString
 (
-input
-input
+input1
+input1
 .
 available
 (
@@ -819,7 +819,7 @@ received
 "
 )
 ;
-input
+input1
 .
 close
 (
@@ -909,7 +909,7 @@ tls
 "
 )
 ;
-input
+input1
 .
 close
 (
@@ -965,7 +965,7 @@ tls
 "
 )
 ;
-input
+input1
 .
 close
 (
@@ -998,12 +998,12 @@ e
 }
 onOutputStreamReady
 (
-output
+output1
 )
 {
 try
 {
-output
+output1
 .
 write
 (

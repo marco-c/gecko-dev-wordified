@@ -1365,7 +1365,7 @@ chan
 function
 socketAccepted
 (
-socket
+socket1
 transport
 )
 {
@@ -1488,8 +1488,6 @@ e
 function
 stopListening
 (
-socket
-status
 )
 {
 if

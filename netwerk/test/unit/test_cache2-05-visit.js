@@ -265,7 +265,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -299,7 +298,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 mc
@@ -347,7 +345,6 @@ b1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -381,7 +378,6 @@ b1d
 "
 function
 (
-entry
 )
 {
 mc
@@ -429,7 +425,6 @@ c1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -463,7 +458,6 @@ c1d
 "
 function
 (
-entry
 )
 {
 mc
@@ -511,7 +505,6 @@ d1d
 "
 function
 (
-entry
 )
 {
 asyncOpenCacheEntry
@@ -545,7 +538,6 @@ d1d
 "
 function
 (
-entry
 )
 {
 mc

@@ -63,7 +63,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 /
@@ -143,7 +142,6 @@ a1d
 "
 function
 (
-entry
 )
 {
 /
@@ -204,7 +202,6 @@ NEW
 "
 function
 (
-entry
 )
 {
 finish_cache2_test

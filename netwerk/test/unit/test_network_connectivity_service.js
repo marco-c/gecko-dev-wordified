@@ -77,7 +77,7 @@ param
 {
 String
 }
-topic
+topicName
 The
 notification
 topic
@@ -102,7 +102,7 @@ fired
 function
 promiseObserverNotification
 (
-topic
+topicName
 matchFunc
 )
 {
@@ -177,7 +177,7 @@ data
 )
 ;
 }
-topic
+topicName
 )
 ;
 }
