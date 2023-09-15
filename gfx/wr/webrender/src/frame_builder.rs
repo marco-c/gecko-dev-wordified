@@ -2185,6 +2185,7 @@ mut
 scene
 .
 clip_tree
+rg_builder
 }
 ;
 /

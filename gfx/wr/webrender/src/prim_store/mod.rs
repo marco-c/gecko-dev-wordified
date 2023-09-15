@@ -4077,6 +4077,10 @@ pub
 tile_rect
 :
 LayoutRect
+pub
+task_id
+:
+RenderTaskId
 }
 #
 [

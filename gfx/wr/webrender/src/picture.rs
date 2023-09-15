@@ -15225,6 +15225,9 @@ frame_state
 data_stores
 .
 clip
+frame_state
+.
+rg_builder
 true
 )
 ;
