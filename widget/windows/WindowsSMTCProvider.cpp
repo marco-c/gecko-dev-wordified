@@ -160,6 +160,13 @@ h
 #
 include
 <
+winsdkver
+.
+h
+>
+#
+include
+<
 wrl
 .
 h
