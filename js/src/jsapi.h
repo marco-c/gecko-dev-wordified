@@ -7572,7 +7572,10 @@ uint32_t
 lineno
 =
 nullptr
-uint32_t
+JS
+:
+:
+ColumnNumberZeroOrigin
 *
 column
 =
