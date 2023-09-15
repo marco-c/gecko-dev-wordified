@@ -677,7 +677,7 @@ value
 =
 =
 "
-https
+http
 :
 /
 /
