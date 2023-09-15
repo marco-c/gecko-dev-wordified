@@ -382,11 +382,6 @@ type
 "
 extension
 "
-rating
-:
-"
-5
-"
 description
 :
 "
@@ -469,13 +464,6 @@ type
 :
 "
 extension
-"
-rating
-:
-"
-3
-.
-5
 "
 description
 :
