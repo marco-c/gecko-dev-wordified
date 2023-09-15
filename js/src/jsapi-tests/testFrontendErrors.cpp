@@ -711,6 +711,7 @@ JS
 GetFrontendErrorReport
 (
 fc
+options
 )
 ;
 CHECK
@@ -1235,6 +1236,7 @@ GetFrontendWarningAt
 (
 fc
 0
+options
 )
 ;
 CHECK
