@@ -5030,8 +5030,6 @@ querySelector
 navigator
 -
 toolbox
--
-background
 "
 )
 ;
