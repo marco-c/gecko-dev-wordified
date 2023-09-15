@@ -161,6 +161,10 @@ custom
 /
 debugger
 /
+app
+-
+build
+/
 static
 /
 js
@@ -207,6 +211,10 @@ PAGES_BASE_URL
 custom
 /
 debugger
+/
+app
+-
+build
 /
 index
 .
@@ -1105,6 +1113,10 @@ custom
 /
 debugger
 /
+app
+-
+build
+/
 static
 /
 js
@@ -1489,6 +1501,10 @@ IFRAME_BASE_URL
 custom
 /
 debugger
+/
+app
+-
+build
 /
 static
 /
