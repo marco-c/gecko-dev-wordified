@@ -2156,6 +2156,13 @@ Self
 VALUE_EMPTY
 .
 bits
+|
+Self
+:
+:
+INCREMENT_SCRIPT_LEVEL
+.
+bits
 ;
 const
 INTRINSIC_STATES
