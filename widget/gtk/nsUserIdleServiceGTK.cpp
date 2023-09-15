@@ -1556,6 +1556,9 @@ break
 ;
 #
 endif
+#
+ifdef
+MOZ_X11
 case
 IDLE_SERVICE_XSCREENSAVER
 :
@@ -1569,6 +1572,8 @@ this
 ;
 break
 ;
+#
+endif
 default
 :
 return
