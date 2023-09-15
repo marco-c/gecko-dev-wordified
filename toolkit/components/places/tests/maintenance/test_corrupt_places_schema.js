@@ -58,7 +58,7 @@ setupPlacesDatabase
 migration
 "
 "
-places_v52
+places_v43
 .
 sqlite
 "
@@ -101,6 +101,14 @@ openConnection
 {
 path
 }
+)
+;
+await
+db
+.
+setSchemaVersion
+(
+43
 )
 ;
 await

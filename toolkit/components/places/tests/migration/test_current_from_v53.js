@@ -27,7 +27,7 @@ await
 setupPlacesDatabase
 (
 "
-places_v52
+places_v43
 .
 sqlite
 "
