@@ -245,14 +245,10 @@ aFlagsToUpdate
 override
 ;
 void
-DestroyFrom
+Destroy
 (
-nsIFrame
-*
-aRoot
-PostDestroyData
+DestroyContext
 &
-aPostDestroyData
 )
 override
 ;
