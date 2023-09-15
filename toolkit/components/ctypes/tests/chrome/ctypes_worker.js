@@ -86,10 +86,6 @@ MPL
 eslint
 -
 env
-mozilla
-/
-chrome
--
 worker
 *
 /

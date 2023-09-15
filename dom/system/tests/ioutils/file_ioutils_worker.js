@@ -84,12 +84,7 @@ MIT
 eslint
 -
 env
-mozilla
-/
-chrome
--
 worker
-node
 *
 /
 "

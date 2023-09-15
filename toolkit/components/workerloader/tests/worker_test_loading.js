@@ -32,10 +32,6 @@ zero
 eslint
 -
 env
-mozilla
-/
-chrome
--
 worker
 *
 /
