@@ -92,7 +92,7 @@ let
 url
 =
 "
-http
+https
 :
 /
 /
@@ -327,7 +327,7 @@ permissions
 :
 [
 "
-http
+https
 :
 /
 /
@@ -375,7 +375,7 @@ tab
 .
 url
 "
-http
+https
 :
 /
 /
@@ -500,7 +500,7 @@ urls
 :
 [
 "
-http
+https
 :
 /
 /
@@ -573,7 +573,7 @@ let
 url
 =
 "
-http
+https
 :
 /
 /
