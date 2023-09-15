@@ -13608,8 +13608,6 @@ load
 32
 pixels
 of
-/
-/
 ARGB
 "
 xvor
@@ -13655,8 +13653,6 @@ t
 32
 processed
 per
-/
-/
 loop
 .
 "
@@ -14240,8 +14236,6 @@ load
 32
 pixels
 of
-/
-/
 RGBA
 "
 xvor
@@ -14287,8 +14281,6 @@ t
 32
 processed
 per
-/
-/
 loop
 .
 "
@@ -14963,8 +14955,6 @@ load
 32
 pixels
 of
-/
-/
 RGB
 "
 xvor
@@ -15022,8 +15012,6 @@ t
 32
 processed
 per
-/
-/
 loop
 .
 "
