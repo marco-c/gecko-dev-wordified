@@ -181,6 +181,8 @@ SctpPacket
 Builder
 &
 builder
+bool
+write_checksum
 )
 {
 if
@@ -209,6 +211,7 @@ builder
 .
 Build
 (
+write_checksum
 )
 ;
 SendPacketStatus

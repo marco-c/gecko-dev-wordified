@@ -713,6 +713,12 @@ true
 ;
 capabilities_
 .
+zero_checksum
+=
+true
+;
+capabilities_
+.
 reconfig
 =
 true
@@ -764,6 +770,7 @@ capabilities
 PR
 IL
 Reconfig
+ZeroChecksum
 max_in
 =
 1000
