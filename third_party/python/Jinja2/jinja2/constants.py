@@ -1,16 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
 :
 list
 of
@@ -27,7 +15,6 @@ helper
 function
 LOREM_IPSUM_WORDS
 =
-u
 "
 "
 "

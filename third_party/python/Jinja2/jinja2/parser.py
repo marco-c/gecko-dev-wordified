@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -27,15 +15,16 @@ compiler
 "
 "
 "
+import
+typing
+import
+typing
+as
+t
 from
 .
 import
 nodes
-from
-.
-_compat
-import
-imap
 from
 .
 exceptions
@@ -56,6 +45,54 @@ from
 lexer
 import
 describe_token_expr
+if
+t
+.
+TYPE_CHECKING
+:
+    
+import
+typing_extensions
+as
+te
+    
+from
+.
+environment
+import
+Environment
+_ImportInclude
+=
+t
+.
+TypeVar
+(
+"
+_ImportInclude
+"
+nodes
+.
+Import
+nodes
+.
+Include
+)
+_MacroCall
+=
+t
+.
+TypeVar
+(
+"
+_MacroCall
+"
+nodes
+.
+Macro
+nodes
+.
+CallBlock
+)
 _statement_keywords
 =
 frozenset
@@ -139,6 +176,21 @@ gteq
 ]
 )
 _math_nodes
+:
+t
+.
+Dict
+[
+str
+t
+.
+Type
+[
+nodes
+.
+Expr
+]
+]
 =
 {
     
@@ -192,9 +244,6 @@ Mod
 }
 class
 Parser
-(
-object
-)
 :
     
 "
@@ -234,19 +283,56 @@ statements
 def
 __init__
 (
+        
 self
+        
 environment
+:
+"
+Environment
+"
+        
 source
+:
+str
+        
 name
+:
+t
+.
+Optional
+[
+str
+]
 =
 None
+        
 filename
+:
+t
+.
+Optional
+[
+str
+]
 =
 None
+        
 state
+:
+t
+.
+Optional
+[
+str
+]
 =
 None
+    
 )
+-
+>
+None
 :
         
 self
@@ -290,6 +376,41 @@ False
 self
 .
 extensions
+:
+t
+.
+Dict
+[
+            
+str
+t
+.
+Callable
+[
+[
+"
+Parser
+"
+]
+t
+.
+Union
+[
+nodes
+.
+Node
+t
+.
+List
+[
+nodes
+.
+Node
+]
+]
+]
+        
+]
 =
 {
 }
@@ -332,6 +453,13 @@ _last_identifier
 self
 .
 _tag_stack
+:
+t
+.
+List
+[
+str
+]
 =
 [
 ]
@@ -339,6 +467,21 @@ _tag_stack
 self
 .
 _end_token_stack
+:
+t
+.
+List
+[
+t
+.
+Tuple
+[
+str
+.
+.
+.
+]
+]
 =
 [
 ]
@@ -346,15 +489,43 @@ _end_token_stack
 def
 fail
 (
+        
 self
+        
 msg
+:
+str
+        
 lineno
+:
+t
+.
+Optional
+[
+int
+]
 =
 None
+        
 exc
+:
+t
+.
+Type
+[
+TemplateSyntaxError
+]
 =
 TemplateSyntaxError
+    
 )
+-
+>
+"
+te
+.
+NoReturn
+"
 :
         
 "
@@ -423,17 +594,66 @@ filename
 def
 _fail_ut_eof
 (
+        
 self
+        
 name
+:
+t
+.
+Optional
+[
+str
+]
+        
 end_token_stack
+:
+t
+.
+List
+[
+t
+.
+Tuple
+[
+str
+.
+.
+.
+]
+]
+        
 lineno
+:
+t
+.
+Optional
+[
+int
+]
+    
 )
+-
+>
+"
+te
+.
+NoReturn
+"
 :
         
 expected
-=
+:
+t
+.
+Set
 [
+str
 ]
+=
+set
+(
+)
         
 for
 exprs
@@ -443,9 +663,9 @@ end_token_stack
             
 expected
 .
-extend
+update
 (
-imap
+map
 (
 describe_token_expr
 exprs
@@ -457,6 +677,13 @@ end_token_stack
 :
             
 currently_looking
+:
+t
+.
+Optional
+[
+str
+]
 =
 "
 or
@@ -465,25 +692,19 @@ or
 join
 (
                 
-"
-'
-%
-s
-'
-"
-%
-describe_token_expr
+map
 (
-expr
-)
-for
-expr
-in
+repr
+map
+(
+describe_token_expr
 end_token_stack
 [
 -
 1
 ]
+)
+)
             
 )
         
@@ -518,18 +739,18 @@ else
 message
 =
 [
+f
 "
 Encountered
 unknown
 tag
-'
-%
-s
-'
+{
+name
+!
+r
+}
 .
 "
-%
-name
 ]
         
 if
@@ -561,26 +782,23 @@ nesting
 mistake
 .
 Jinja
-"
-                    
-"
 is
 expecting
 this
 tag
+"
+                    
+f
+"
 but
 currently
 looking
-"
-                    
-"
 for
-%
-s
+{
+currently_looking
+}
 .
 "
-%
-currently_looking
                 
 )
             
@@ -592,6 +810,7 @@ message
 append
 (
                     
+f
 "
 Jinja
 was
@@ -601,15 +820,11 @@ the
 following
 tags
 :
-"
-                    
-"
-%
-s
+{
+currently_looking
+}
 .
 "
-%
-currently_looking
                 
 )
         
@@ -632,18 +847,13 @@ that
 needs
 to
 be
-"
-                
-"
 closed
 is
-'
-%
-s
-'
-.
 "
-%
+                
+f
+"
+{
 self
 .
 _tag_stack
@@ -651,6 +861,11 @@ _tag_stack
 -
 1
 ]
+!
+r
+}
+.
+"
             
 )
         
@@ -671,12 +886,30 @@ lineno
 def
 fail_unknown_tag
 (
+        
 self
 name
+:
+str
 lineno
+:
+t
+.
+Optional
+[
+int
+]
 =
 None
+    
 )
+-
+>
+"
+te
+.
+NoReturn
+"
 :
         
 "
@@ -715,7 +948,6 @@ problem
 "
 "
         
-return
 self
 .
 _fail_ut_eof
@@ -730,14 +962,47 @@ lineno
 def
 fail_eof
 (
+        
 self
+        
 end_tokens
+:
+t
+.
+Optional
+[
+t
+.
+Tuple
+[
+str
+.
+.
+.
+]
+]
 =
 None
+        
 lineno
+:
+t
+.
+Optional
+[
+int
+]
 =
 None
+    
 )
+-
+>
+"
+te
+.
+NoReturn
+"
 :
         
 "
@@ -779,7 +1044,6 @@ append
 end_tokens
 )
         
-return
 self
 .
 _fail_ut_eof
@@ -792,11 +1056,31 @@ lineno
 def
 is_tuple_end
 (
+        
 self
 extra_end_rules
+:
+t
+.
+Optional
+[
+t
+.
+Tuple
+[
+str
+.
+.
+.
+]
+]
 =
 None
+    
 )
+-
+>
+bool
 :
         
 "
@@ -858,6 +1142,10 @@ test_any
 (
 extra_end_rules
 )
+#
+type
+:
+ignore
         
 return
 False
@@ -867,9 +1155,21 @@ free_identifier
 (
 self
 lineno
+:
+t
+.
+Optional
+[
+int
+]
 =
 None
 )
+-
+>
+nodes
+.
+InternalName
 :
         
 "
@@ -920,15 +1220,15 @@ Node
 __init__
 (
 rv
+f
 "
 fi
-%
-d
-"
-%
+{
 self
 .
 _last_identifier
+}
+"
 lineno
 =
 lineno
@@ -942,6 +1242,24 @@ parse_statement
 (
 self
 )
+-
+>
+t
+.
+Union
+[
+nodes
+.
+Node
+t
+.
+List
+[
+nodes
+.
+Node
+]
+]
 :
         
 "
@@ -1015,14 +1333,15 @@ in
 _statement_keywords
 :
                 
-return
+f
+=
 getattr
 (
 self
+f
 "
 parse_
-"
-+
+{
 self
 .
 stream
@@ -1030,9 +1349,18 @@ stream
 current
 .
 value
+}
+"
 )
+                
+return
+f
 (
 )
+#
+type
+:
+ignore
             
 if
 token
@@ -1172,12 +1500,36 @@ pop
 def
 parse_statements
 (
+        
 self
 end_tokens
+:
+t
+.
+Tuple
+[
+str
+.
+.
+.
+]
 drop_needle
+:
+bool
 =
 False
+    
 )
+-
+>
+t
+.
+List
+[
+nodes
+.
+Node
+]
 :
         
 "
@@ -1442,6 +1794,19 @@ parse_set
 (
 self
 )
+-
+>
+t
+.
+Union
+[
+nodes
+.
+Assign
+nodes
+.
+AssignBlock
+]
 :
         
 "
@@ -1556,6 +1921,11 @@ parse_for
 (
 self
 )
+-
+>
+nodes
+.
+For
 :
         
 "
@@ -1764,6 +2134,11 @@ parse_if
 (
 self
 )
+-
+>
+nodes
+.
+If
 :
         
 "
@@ -1805,7 +2180,7 @@ lineno
 )
         
 while
-1
+True
 :
             
 node
@@ -1955,6 +2330,11 @@ parse_with
 (
 self
 )
+-
+>
+nodes
+.
+With
 :
         
 node
@@ -1976,11 +2356,29 @@ lineno
 )
         
 targets
+:
+t
+.
+List
+[
+nodes
+.
+Expr
+]
 =
 [
 ]
         
 values
+:
+t
+.
+List
+[
+nodes
+.
+Expr
+]
 =
 [
 ]
@@ -2101,6 +2499,11 @@ parse_autoescape
 (
 self
 )
+-
+>
+nodes
+.
+Scope
 :
         
 node
@@ -2176,6 +2579,11 @@ parse_block
 (
 self
 )
+-
+>
+nodes
+.
+Block
 :
         
 node
@@ -2227,6 +2635,23 @@ skip_if
 name
 :
 scoped
+"
+)
+        
+node
+.
+required
+=
+self
+.
+stream
+.
+skip_if
+(
+"
+name
+:
+required
 "
 )
         
@@ -2298,20 +2723,17 @@ to
 be
 valid
 Python
-"
-                
-"
 identifiers
 and
 may
 not
+"
+                
+"
 contain
 hyphens
 use
 an
-"
-                
-"
 underscore
 instead
 .
@@ -2339,6 +2761,98 @@ drop_needle
 True
 )
         
+#
+enforce
+that
+required
+blocks
+only
+contain
+whitespace
+or
+comments
+        
+#
+by
+asserting
+that
+the
+body
+if
+not
+empty
+is
+just
+TemplateData
+nodes
+        
+#
+with
+whitespace
+data
+        
+if
+node
+.
+required
+and
+not
+all
+(
+            
+isinstance
+(
+child
+nodes
+.
+TemplateData
+)
+and
+child
+.
+data
+.
+isspace
+(
+)
+            
+for
+body
+in
+node
+.
+body
+            
+for
+child
+in
+body
+.
+nodes
+#
+type
+:
+ignore
+        
+)
+:
+            
+self
+.
+fail
+(
+"
+Required
+blocks
+can
+only
+contain
+comments
+or
+whitespace
+"
+)
+        
 self
 .
 stream
@@ -2363,6 +2877,11 @@ parse_extends
 (
 self
 )
+-
+>
+nodes
+.
+Extends
 :
         
 node
@@ -2399,10 +2918,19 @@ node
 def
 parse_import_context
 (
+        
 self
 node
+:
+_ImportInclude
 default
+:
+bool
+    
 )
+-
+>
+_ImportInclude
 :
         
 if
@@ -2489,6 +3017,11 @@ parse_include
 (
 self
 )
+-
+>
+nodes
+.
+Include
 :
         
 node
@@ -2593,6 +3126,11 @@ parse_import
 (
 self
 )
+-
+>
+nodes
+.
+Import
 :
         
 node
@@ -2665,6 +3203,11 @@ parse_from
 (
 self
 )
+-
+>
+nodes
+.
+FromImport
 :
         
 node
@@ -2719,6 +3262,9 @@ def
 parse_context
 (
 )
+-
+>
+bool
 :
             
 if
@@ -2730,7 +3276,7 @@ current
 .
 value
 in
-(
+{
                 
 "
 with
@@ -2740,7 +3286,7 @@ with
 without
 "
             
-)
+}
 and
 self
 .
@@ -2793,7 +3339,7 @@ return
 False
         
 while
-1
+True
 :
             
 if
@@ -3003,22 +3549,27 @@ parse_signature
 (
 self
 node
+:
+_MacroCall
 )
+-
+>
+None
 :
         
-node
-.
 args
 =
+node
+.
 args
 =
 [
 ]
         
-node
-.
 defaults
 =
+node
+.
 defaults
 =
 [
@@ -3151,6 +3702,11 @@ parse_call_block
 (
 self
 )
+-
+>
+nodes
+.
+CallBlock
 :
         
 node
@@ -3210,9 +3766,7 @@ defaults
 [
 ]
         
-node
-.
-call
+call_node
 =
 self
 .
@@ -3224,9 +3778,7 @@ if
 not
 isinstance
 (
-node
-.
-call
+call_node
 nodes
 .
 Call
@@ -3245,6 +3797,12 @@ node
 .
 lineno
 )
+        
+node
+.
+call
+=
+call_node
         
 node
 .
@@ -3274,6 +3832,11 @@ parse_filter_block
 (
 self
 )
+-
+>
+nodes
+.
+FilterBlock
 :
         
 node
@@ -3307,6 +3870,10 @@ start_inline
 =
 True
 )
+#
+type
+:
+ignore
         
 node
 .
@@ -3336,6 +3903,11 @@ parse_macro
 (
 self
 )
+-
+>
+nodes
+.
+Macro
 :
         
 node
@@ -3406,6 +3978,11 @@ parse_print
 (
 self
 )
+-
+>
+nodes
+.
+Output
 :
         
 node
@@ -3481,6 +4058,53 @@ parse_expression
 return
 node
     
+typing
+.
+overload
+    
+def
+parse_assign_target
+(
+        
+self
+with_tuple
+:
+bool
+=
+.
+.
+.
+name_only
+:
+"
+te
+.
+Literal
+[
+True
+]
+"
+=
+.
+.
+.
+    
+)
+-
+>
+nodes
+.
+Name
+:
+        
+.
+.
+.
+    
+typing
+.
+overload
+    
 def
 parse_assign_target
 (
@@ -3488,22 +4112,125 @@ parse_assign_target
 self
         
 with_tuple
+:
+bool
 =
 True
         
 name_only
+:
+bool
 =
 False
         
 extra_end_rules
+:
+t
+.
+Optional
+[
+t
+.
+Tuple
+[
+str
+.
+.
+.
+]
+]
 =
 None
         
 with_namespace
+:
+bool
 =
 False
     
 )
+-
+>
+t
+.
+Union
+[
+nodes
+.
+NSRef
+nodes
+.
+Name
+nodes
+.
+Tuple
+]
+:
+        
+.
+.
+.
+    
+def
+parse_assign_target
+(
+        
+self
+        
+with_tuple
+:
+bool
+=
+True
+        
+name_only
+:
+bool
+=
+False
+        
+extra_end_rules
+:
+t
+.
+Optional
+[
+t
+.
+Tuple
+[
+str
+.
+.
+.
+]
+]
+=
+None
+        
+with_namespace
+:
+bool
+=
+False
+    
+)
+-
+>
+t
+.
+Union
+[
+nodes
+.
+NSRef
+nodes
+.
+Name
+nodes
+.
+Tuple
+]
 :
         
 "
@@ -3593,6 +4320,12 @@ parsed
 "
 "
 "
+        
+target
+:
+nodes
+.
+Expr
         
 if
 with_namespace
@@ -3760,25 +4493,28 @@ self
 fail
 (
                 
+f
 "
 can
 '
 t
 assign
 to
-%
-r
-"
-%
+{
+type
+(
 target
-.
-__class__
+)
 .
 __name__
 .
 lower
 (
 )
+!
+r
+}
+"
 target
 .
 lineno
@@ -3787,15 +4523,26 @@ lineno
         
 return
 target
+#
+type
+:
+ignore
     
 def
 parse_expression
 (
 self
 with_condexpr
+:
+bool
 =
 True
 )
+-
+>
+nodes
+.
+Expr
 :
         
 "
@@ -3856,6 +4603,11 @@ parse_condexpr
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 lineno
@@ -3875,6 +4627,17 @@ self
 parse_or
 (
 )
+        
+expr3
+:
+t
+.
+Optional
+[
+nodes
+.
+Expr
+]
         
 while
 self
@@ -3961,6 +4724,11 @@ parse_or
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 lineno
@@ -4035,6 +4803,11 @@ parse_and
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 lineno
@@ -4109,6 +4882,11 @@ parse_not
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 if
@@ -4166,6 +4944,11 @@ parse_compare
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 lineno
@@ -4192,7 +4975,7 @@ ops
 ]
         
 while
-1
+True
 :
             
 token_type
@@ -4373,6 +5156,11 @@ parse_math1
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 lineno
@@ -4469,6 +5257,11 @@ parse_concat
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 lineno
@@ -4556,6 +5349,11 @@ parse_math2
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 lineno
@@ -4658,6 +5456,11 @@ parse_pow
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 lineno
@@ -4739,9 +5542,16 @@ parse_unary
 (
 self
 with_filter
+:
+bool
 =
 True
 )
+-
+>
+nodes
+.
+Expr
 :
         
 token_type
@@ -4763,6 +5573,12 @@ stream
 current
 .
 lineno
+        
+node
+:
+nodes
+.
+Expr
         
 if
 token_type
@@ -4871,6 +5687,11 @@ parse_primary
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 token
@@ -4880,6 +5701,12 @@ self
 stream
 .
 current
+        
+node
+:
+nodes
+.
+Expr
         
 if
 token
@@ -5204,18 +6031,18 @@ self
 .
 fail
 (
+f
 "
 unexpected
-'
-%
-s
-'
-"
-%
+{
 describe_token
 (
 token
 )
+!
+r
+}
+"
 token
 .
 lineno
@@ -5231,22 +6058,56 @@ parse_tuple
 self
         
 simplified
+:
+bool
 =
 False
         
 with_condexpr
+:
+bool
 =
 True
         
 extra_end_rules
+:
+t
+.
+Optional
+[
+t
+.
+Tuple
+[
+str
+.
+.
+.
+]
+]
 =
 None
         
 explicit_parentheses
+:
+bool
 =
 False
     
 )
+-
+>
+t
+.
+Union
+[
+nodes
+.
+Tuple
+nodes
+.
+Expr
+]
 :
         
 "
@@ -5466,6 +6327,11 @@ def
 parse
 (
 )
+-
+>
+nodes
+.
+Expr
 :
                 
 return
@@ -5479,6 +6345,15 @@ False
 )
         
 args
+:
+t
+.
+List
+[
+nodes
+.
+Expr
+]
 =
 [
 ]
@@ -5488,7 +6363,7 @@ is_tuple
 False
         
 while
-1
+True
 :
             
 if
@@ -5634,14 +6509,12 @@ fail
 Expected
 an
 expression
-got
-'
-%
-s
-'
 "
                     
-%
+f
+"
+got
+{
 describe_token
 (
 self
@@ -5650,6 +6523,10 @@ stream
 .
 current
 )
+!
+r
+}
+"
                 
 )
         
@@ -5672,6 +6549,11 @@ parse_list
 (
 self
 )
+-
+>
+nodes
+.
+List
 :
         
 token
@@ -5688,6 +6570,15 @@ lbracket
 )
         
 items
+:
+t
+.
+List
+[
+nodes
+.
+Expr
+]
 =
 [
 ]
@@ -5779,6 +6670,11 @@ parse_dict
 (
 self
 )
+-
+>
+nodes
+.
+Dict
 :
         
 token
@@ -5795,6 +6691,15 @@ lbrace
 )
         
 items
+:
+t
+.
+List
+[
+nodes
+.
+Pair
+]
 =
 [
 ]
@@ -5920,11 +6825,20 @@ parse_postfix
 (
 self
 node
+:
+nodes
+.
+Expr
 )
+-
+>
+nodes
+.
+Expr
 :
         
 while
-1
+True
 :
             
 token_type
@@ -6015,11 +6929,20 @@ parse_filter_expr
 (
 self
 node
+:
+nodes
+.
+Expr
 )
+-
+>
+nodes
+.
+Expr
 :
         
 while
-1
+True
 :
             
 token_type
@@ -6049,6 +6972,10 @@ parse_filter
 (
 node
 )
+#
+type
+:
+ignore
             
 elif
 token_type
@@ -6132,9 +7059,28 @@ node
 def
 parse_subscript
 (
+        
 self
 node
+:
+nodes
+.
+Expr
+    
 )
+-
+>
+t
+.
+Union
+[
+nodes
+.
+Getattr
+nodes
+.
+Getitem
+]
 :
         
 token
@@ -6145,6 +7091,12 @@ self
 .
 stream
 )
+        
+arg
+:
+nodes
+.
+Expr
         
 if
 token
@@ -6275,6 +7227,15 @@ lbracket
 :
             
 args
+:
+t
+.
+List
+[
+nodes
+.
+Expr
+]
 =
 [
 ]
@@ -6404,6 +7365,11 @@ parse_subscribed
 (
 self
 )
+-
+>
+nodes
+.
+Expr
 :
         
 lineno
@@ -6415,6 +7381,22 @@ stream
 current
 .
 lineno
+        
+args
+:
+t
+.
+List
+[
+t
+.
+Optional
+[
+nodes
+.
+Expr
+]
+]
         
 if
 self
@@ -6635,11 +7617,15 @@ args
 )
     
 def
-parse_call
+parse_call_args
 (
 self
-node
 )
+-
+>
+t
+.
+Tuple
 :
         
 token
@@ -6667,6 +7653,8 @@ kwargs
         
 dyn_args
 =
+None
+        
 dyn_kwargs
 =
 None
@@ -6679,7 +7667,12 @@ def
 ensure
 (
 expr
+:
+bool
 )
+-
+>
+None
 :
             
 if
@@ -6978,17 +7971,71 @@ rparen
 "
 )
         
-if
-node
-is
-None
-:
-            
 return
 args
 kwargs
 dyn_args
 dyn_kwargs
+    
+def
+parse_call
+(
+self
+node
+:
+nodes
+.
+Expr
+)
+-
+>
+nodes
+.
+Call
+:
+        
+#
+The
+lparen
+will
+be
+expected
+in
+parse_call_args
+but
+the
+lineno
+        
+#
+needs
+to
+be
+recorded
+before
+the
+stream
+is
+advanced
+.
+        
+token
+=
+self
+.
+stream
+.
+current
+        
+args
+kwargs
+dyn_args
+dyn_kwargs
+=
+self
+.
+parse_call_args
+(
+)
         
 return
 nodes
@@ -7010,12 +8057,35 @@ lineno
 def
 parse_filter
 (
+        
 self
 node
+:
+t
+.
+Optional
+[
+nodes
+.
+Expr
+]
 start_inline
+:
+bool
 =
 False
+    
 )
+-
+>
+t
+.
+Optional
+[
+nodes
+.
+Expr
+]
 :
         
 while
@@ -7130,9 +8200,8 @@ dyn_kwargs
 =
 self
 .
-parse_call
+parse_call_args
 (
-None
 )
             
 else
@@ -7187,7 +8256,16 @@ parse_test
 (
 self
 node
+:
+nodes
+.
+Expr
 )
+-
+>
+nodes
+.
+Expr
 :
         
 token
@@ -7324,9 +8402,8 @@ dyn_kwargs
 =
 self
 .
-parse_call
+parse_call_args
 (
-None
 )
         
 elif
@@ -7338,7 +8415,7 @@ current
 .
 type
 in
-(
+{
             
 "
 name
@@ -7368,7 +8445,7 @@ lbracket
 lbrace
 "
         
-)
+}
 and
 not
 self
@@ -7505,19 +8582,64 @@ node
 def
 subparse
 (
+        
 self
 end_tokens
+:
+t
+.
+Optional
+[
+t
+.
+Tuple
+[
+str
+.
+.
+.
+]
+]
 =
 None
+    
 )
+-
+>
+t
+.
+List
+[
+nodes
+.
+Node
+]
 :
         
 body
+:
+t
+.
+List
+[
+nodes
+.
+Node
+]
 =
 [
 ]
         
 data_buffer
+:
+t
+.
+List
+[
+nodes
+.
+Node
+]
 =
 [
 ]
@@ -7548,6 +8670,9 @@ def
 flush_data
 (
 )
+-
+>
+None
 :
             
 if
@@ -7819,6 +8944,11 @@ parse
 (
 self
 )
+-
+>
+nodes
+.
+Template
 :
         
 "
