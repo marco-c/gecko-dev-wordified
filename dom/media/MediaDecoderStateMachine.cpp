@@ -14922,6 +14922,14 @@ mTarget
 GetTime
 (
 )
+.
+ToBase
+(
+aAudio
+-
+>
+mTime
+)
 aAudio
 -
 >
