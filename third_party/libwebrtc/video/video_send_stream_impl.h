@@ -967,11 +967,6 @@ VideoStreamEncoderInterface
 const
 video_stream_encoder_
 ;
-RtcpBandwidthObserver
-*
-const
-bandwidth_observer_
-;
 RtpVideoSenderInterface
 *
 const
