@@ -540,6 +540,12 @@ GetBaseFile
 )
 ;
 \
+if
+(
+file
+)
+{
+\
 file
 -
 >
@@ -548,6 +554,8 @@ GetNativeLeafName
 mmapScopeFilename
 )
 ;
+\
+}
 \
 }
 \
