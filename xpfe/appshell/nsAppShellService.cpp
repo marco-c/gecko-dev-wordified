@@ -3992,8 +3992,10 @@ UsePrivateBrowsing
 }
 if
 (
+RefPtr
+<
 nsDocShell
-*
+>
 docShell
 =
 window

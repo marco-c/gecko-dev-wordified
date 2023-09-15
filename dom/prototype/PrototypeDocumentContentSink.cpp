@@ -4469,7 +4469,15 @@ SetDelayFrameLoaderInitialization
 false
 )
 ;
+RefPtr
+<
+Document
+>
+doc
+=
 mDocument
+;
+doc
 -
 >
 MaybeInitializeFinalizeFrameLoaders
@@ -4503,7 +4511,7 @@ on
 the
 views
 .
-mDocument
+doc
 -
 >
 SetScrollToRef
@@ -4516,7 +4524,7 @@ GetDocumentURI
 )
 )
 ;
-mDocument
+doc
 -
 >
 EndLoad
