@@ -592,7 +592,7 @@ is
 empty
 .
 function
-createBiddingScriptUrl
+createBiddingScriptURL
 (
 params
 =
@@ -1581,9 +1581,9 @@ let
 interestGroupOverrides
 =
 {
-biddingLogicUrl
+biddingLogicURL
 :
-createBiddingScriptUrl
+createBiddingScriptURL
 (
 {
 generateBid

@@ -424,9 +424,9 @@ joinInterestGroup
 test
 uuid
 {
-biddingLogicUrl
+biddingLogicURL
 :
-createBiddingScriptUrl
+createBiddingScriptURL
 (
 {
 bid

@@ -285,9 +285,9 @@ const
 interestGroupOverrides
 =
 {
-biddingLogicUrl
+biddingLogicURL
 :
-createBiddingScriptUrl
+createBiddingScriptURL
 (
 {
 generateBid

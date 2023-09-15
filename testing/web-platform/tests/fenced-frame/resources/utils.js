@@ -854,7 +854,7 @@ owner
 location
 .
 origin
-biddingLogicUrl
+biddingLogicURL
 :
 new
 URL
@@ -896,14 +896,14 @@ ad_components_list
 }
 ;
 let
-biddingUrlParams
+biddingURLParams
 =
 new
 URLSearchParams
 (
 interestGroup
 .
-biddingLogicUrl
+biddingLogicURL
 .
 search
 )
@@ -912,7 +912,7 @@ if
 (
 requested_size
 )
-biddingUrlParams
+biddingURLParams
 .
 set
 (
@@ -940,7 +940,7 @@ if
 (
 ad_with_size
 )
-biddingUrlParams
+biddingURLParams
 .
 set
 (
@@ -958,7 +958,7 @@ if
 (
 automatic_beacon
 )
-biddingUrlParams
+biddingURLParams
 .
 set
 (
@@ -972,11 +972,11 @@ beacon
 ;
 interestGroup
 .
-biddingLogicUrl
+biddingLogicURL
 .
 search
 =
-biddingUrlParams
+biddingURLParams
 ;
 if
 (

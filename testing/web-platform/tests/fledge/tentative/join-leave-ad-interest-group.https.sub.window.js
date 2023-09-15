@@ -836,7 +836,7 @@ false
 /
 /
 "
-biddingLogicUrl
+biddingLogicURL
 "
 tests
 {
@@ -853,7 +853,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-biddingLogicUrl
+biddingLogicURL
 :
 null
 }
@@ -872,7 +872,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-biddingLogicUrl
+biddingLogicURL
 :
 '
 https
@@ -910,7 +910,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-biddingLogicUrl
+biddingLogicURL
 :
 '
 data
@@ -936,7 +936,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-biddingLogicUrl
+biddingLogicURL
 :
 {
 window
@@ -965,7 +965,7 @@ interestGroup
 .
 .
 BASE_INTEREST_GROUP
-biddingLogicUrl
+biddingLogicURL
 :
 '
 relative
@@ -2781,7 +2781,7 @@ joinInterestGroup
 test
 uuid
 {
-biddingLogicUrl
+biddingLogicURL
 :
 null
 }
@@ -2923,7 +2923,7 @@ joinInterestGroup
 test
 uuid
 {
-biddingLogicUrl
+biddingLogicURL
 :
 null
 }
