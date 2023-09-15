@@ -226,6 +226,15 @@ h
 #
 include
 "
+jit
+/
+JitOptions
+.
+h
+"
+#
+include
+"
 util
 /
 Text

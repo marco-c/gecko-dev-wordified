@@ -6649,6 +6649,13 @@ shape
 "
 )
 ;
+regExpRealm
+.
+trace
+(
+trc
+)
+;
 if
 (
 regExpStatics

@@ -2236,7 +2236,7 @@ object
 .
 *
 /
-WeakHeapPtr
+HeapPtr
 <
 SharedShape
 *
@@ -2380,7 +2380,7 @@ data
 property
 *
 /
-WeakHeapPtr
+HeapPtr
 <
 Shape
 *
@@ -2413,7 +2413,7 @@ RegExp
 prototype
 *
 /
-WeakHeapPtr
+HeapPtr
 <
 Shape
 *
@@ -2439,7 +2439,7 @@ RegExpRealm
 )
 ;
 void
-traceWeak
+trace
 (
 JSTracer
 *

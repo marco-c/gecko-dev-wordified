@@ -17458,12 +17458,14 @@ shape
 cx
 -
 >
-realm
+global
 (
 )
 -
 >
-regExps
+regExpRealm
+(
+)
 .
 getOrCreateMatchResultShape
 (
