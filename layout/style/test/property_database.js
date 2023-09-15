@@ -33271,7 +33271,7 @@ initial_values
 :
 [
 "
-border
+view
 -
 box
 "
@@ -33285,7 +33285,7 @@ fill
 box
 "
 "
-view
+border
 -
 box
 "
