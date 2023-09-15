@@ -100,6 +100,13 @@ macro_use
 mod
 sqrte
 ;
+#
+[
+macro_use
+]
+mod
+tanh
+;
 macro_rules
 !
 impl_float_category

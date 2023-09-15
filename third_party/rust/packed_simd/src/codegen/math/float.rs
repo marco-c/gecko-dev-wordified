@@ -121,3 +121,10 @@ crate
 mod
 sqrte
 ;
+pub
+(
+crate
+)
+mod
+tanh
+;
