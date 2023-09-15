@@ -19606,11 +19606,6 @@ variantSubSuper
 NS_FONT_VARIANT_POSITION_NORMAL
 &
 &
-mStyle
-.
-useSyntheticPosition
-&
-&
 (
 aTextRun
 -

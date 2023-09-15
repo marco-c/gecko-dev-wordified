@@ -33420,10 +33420,6 @@ allowSyntheticSmallCaps
 (
 true
 )
-useSyntheticPosition
-(
-true
-)
 noFallbackVariantFeatures
 (
 true
@@ -33457,8 +33453,6 @@ bool
 aAllowStyleSynthesis
 bool
 aAllowSmallCapsSynthesis
-bool
-aUsePositionSynthesis
 uint32_t
 aLanguageOverride
 )
@@ -33530,10 +33524,6 @@ aAllowStyleSynthesis
 allowSyntheticSmallCaps
 (
 aAllowSmallCapsSynthesis
-)
-useSyntheticPosition
-(
-aUsePositionSynthesis
 )
 noFallbackVariantFeatures
 (
