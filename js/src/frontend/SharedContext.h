@@ -3893,10 +3893,6 @@ extent_
 column
 =
 column
-.
-zeroOriginValue
-(
-)
 ;
 }
 void
