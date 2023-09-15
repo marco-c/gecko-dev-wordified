@@ -108,6 +108,11 @@ TestHttpFuzzing
 cpp
 "
 "
+TestJARFuzzing
+.
+cpp
+"
+"
 TestURIFuzzing
 .
 cpp
