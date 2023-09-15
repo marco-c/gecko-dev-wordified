@@ -120,7 +120,7 @@ GenericColorOrAuto
 }
 ;
 use
-cssparser
+cssparser_color
 :
 :
 Color
