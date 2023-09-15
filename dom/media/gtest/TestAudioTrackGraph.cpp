@@ -224,8 +224,6 @@ using
 namespace
 mozilla
 ;
-namespace
-{
 /
 /
 Short
@@ -314,6 +312,8 @@ m
 args
 )
 )
+namespace
+{
 #
 ifdef
 MOZ_WEBRTC
@@ -19197,3 +19197,12 @@ endif
 /
 /
 MOZ_WEBRTC
+#
+undef
+Invoke
+#
+undef
+DispatchFunction
+#
+undef
+DispatchMethod
