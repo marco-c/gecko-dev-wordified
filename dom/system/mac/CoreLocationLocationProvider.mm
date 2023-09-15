@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsCocoaFeatures
-.
-h
-"
-#
-include
-"
 prtime
 .
 h

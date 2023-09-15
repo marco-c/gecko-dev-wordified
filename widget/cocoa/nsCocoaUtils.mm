@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsCocoaFeatures
-.
-h
-"
-#
-include
-"
 nsCocoaWindow
 .
 h

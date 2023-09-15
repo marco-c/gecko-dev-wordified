@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsCocoaFeatures
-.
-h
-"
-#
-include
-"
 SDKDeclarations
 .
 h
