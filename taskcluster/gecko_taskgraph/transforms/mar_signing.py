@@ -91,6 +91,14 @@ taskgraph
 .
 util
 .
+dependencies
+import
+get_primary_dependency
+from
+taskgraph
+.
+util
+.
 taskcluster
 import
 get_artifact_prefix
@@ -467,14 +475,14 @@ jobs
         
 dep_job
 =
+get_primary_dependency
+(
+config
 job
-[
-"
-primary
--
-dependency
-"
-]
+)
+        
+assert
+dep_job
         
 locale
 =
