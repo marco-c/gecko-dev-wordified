@@ -1631,8 +1631,8 @@ move
 mPathOps
 )
 mFillRule
-mBeginPoint
 mCurrentPoint
+mBeginPoint
 )
 ;
 }
