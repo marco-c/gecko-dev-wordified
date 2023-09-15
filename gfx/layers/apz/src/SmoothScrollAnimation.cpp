@@ -183,13 +183,7 @@ GenericScrollAnimation
 (
 aApzc
 aInitialPosition
-apz
-:
-:
-ComputeBezierAnimationSettingsForOrigin
-(
 aOrigin
-)
 )
 mOrigin
 (
