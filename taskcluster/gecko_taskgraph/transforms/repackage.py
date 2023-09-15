@@ -636,6 +636,15 @@ product
 str
             
 )
+            
+Optional
+(
+"
+vendor
+"
+)
+:
+str
         
 }
         
@@ -1241,6 +1250,20 @@ name
 "
 -
 -
+vendor
+"
+            
+"
+{
+msix
+-
+vendor
+}
+"
+            
+"
+-
+-
 arch
 "
             
@@ -1424,6 +1447,20 @@ msix
 identity
 -
 name
+}
+"
+            
+"
+-
+-
+vendor
+"
+            
+"
+{
+msix
+-
+vendor
 }
 "
             
@@ -3727,6 +3764,10 @@ publisher
 display
 -
 name
+"
+                
+"
+vendor
 "
             
 )
