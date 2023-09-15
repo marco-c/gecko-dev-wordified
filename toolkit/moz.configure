@@ -12063,7 +12063,6 @@ c_compiler
 extra_toolchain_flags
 linker_ldflags
 readelf
-configure_cache
 when
 =
 may_use_pack_relative_relocs
@@ -12130,7 +12129,6 @@ c_compiler
 extra_toolchain_flags
 linker_ldflags
 readelf
-configure_cache
 )
 :
 try
@@ -12172,7 +12170,21 @@ if
 (
 try_invoke_compiler
 (
+#
+No
 configure_cache
+because
+it
+would
+not
+create
+the
+#
+expected
+output
+file
+.
+None
 [
 c_compiler
 .
