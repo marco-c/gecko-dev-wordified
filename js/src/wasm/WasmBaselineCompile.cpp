@@ -27515,7 +27515,9 @@ params
 tagType
 -
 >
-argTypes_
+argTypes
+(
+)
 ;
 const
 TagOffsetVector
@@ -27525,7 +27527,9 @@ offsets
 tagType
 -
 >
-argOffsets_
+argOffsets
+(
+)
 ;
 /
 /
@@ -29792,7 +29796,9 @@ tagDesc
 type
 -
 >
-argOffsets_
+argOffsets
+(
+)
 ;
 /
 /

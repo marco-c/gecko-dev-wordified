@@ -490,6 +490,11 @@ WasmTableObject
 maybeObject
 )
 ;
+~
+Table
+(
+)
+;
 void
 trace
 (
