@@ -1519,14 +1519,6 @@ bottomright
 rightcenter
 topright
 "
-"
-bottomcenter
-topcenter
-"
-"
-rightcenter
-leftcenter
-"
 ]
 test
 (
