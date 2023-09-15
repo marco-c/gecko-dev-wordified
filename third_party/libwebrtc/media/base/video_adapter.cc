@@ -109,6 +109,11 @@ cmath
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstdlib
 >
 #
@@ -273,7 +278,13 @@ numerator
 *
 numerator
 *
+static_cast
+<
+int64_t
+>
+(
 input_pixels
+)
 )
 /
 (
