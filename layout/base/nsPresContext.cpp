@@ -11549,7 +11549,13 @@ DispatchEventOnlyToChrome
 Document
 (
 )
+nsGlobalWindowInner
+:
+:
+Cast
+(
 win
+)
 u
 "
 nativethemechange

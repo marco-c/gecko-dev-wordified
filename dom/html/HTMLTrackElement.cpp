@@ -3106,14 +3106,7 @@ nsContentUtils
 DispatchTrustedEvent
 (
 doc
-static_cast
-<
-nsIContent
-*
->
-(
 this
-)
 aName
 CanBubble
 :

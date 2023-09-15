@@ -19413,7 +19413,13 @@ nsContentUtils
 DispatchEventOnlyToChrome
 (
 doc
+nsGlobalWindowInner
+:
+:
+Cast
+(
 win
+)
 isActivateEvent
 ?
 u

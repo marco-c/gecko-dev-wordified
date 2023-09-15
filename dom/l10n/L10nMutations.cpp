@@ -1450,10 +1450,7 @@ nsContentUtils
 DispatchEventOnlyToChrome
 (
 doc
-ToSupports
-(
 doc
-)
 u
 "
 L10nMutationsFinished

@@ -5721,10 +5721,7 @@ nsContentUtils
 DispatchChromeEvent
 (
 aDoc
-ToSupports
-(
 aDoc
-)
 u
 "
 DOMDocElementInserted

@@ -1898,14 +1898,7 @@ inputElement
 OwnerDoc
 (
 )
-static_cast
-<
-nsINode
-*
->
-(
 inputElement
-)
 u
 "
 change

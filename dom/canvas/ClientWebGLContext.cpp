@@ -1364,14 +1364,7 @@ mCanvasElement
 OwnerDoc
 (
 )
-static_cast
-<
-nsIContent
-*
->
-(
 mCanvasElement
-)
 eventName
 kCanBubble
 kIsCancelable

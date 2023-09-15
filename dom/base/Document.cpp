@@ -35939,10 +35939,7 @@ nsContentUtils
 DispatchEventOnlyToChrome
 (
 this
-ToSupports
-(
 this
-)
 u
 "
 DOMDocFetchSuccess
@@ -48853,10 +48850,7 @@ nsContentUtils
 DispatchTrustedEvent
 (
 this
-ToSupports
-(
 this
-)
 u
 "
 DOMContentLoaded
@@ -56425,10 +56419,7 @@ nsContentUtils
 DispatchChromeEvent
 (
 this
-ToSupports
-(
 this
-)
 u
 "
 DOMTitleChanged
@@ -89798,10 +89789,7 @@ nsContentUtils
 DispatchEventOnlyToChrome
 (
 aDoc
-ToSupports
-(
 aDoc
-)
 u
 "
 MozDOMFullscreen
@@ -90525,10 +90513,7 @@ nsContentUtils
 DispatchEventOnlyToChrome
 (
 mLeaf
-ToSupports
-(
 mLeaf
-)
 u
 "
 MozDOMFullscreen
@@ -96710,10 +96695,7 @@ nsContentUtils
 DispatchEventOnlyToChrome
 (
 self
-ToSupports
-(
 self
-)
 u
 "
 MozDOMFullscreen
@@ -97964,10 +97946,7 @@ nsContentUtils
 DispatchEventOnlyToChrome
 (
 this
-ToSupports
-(
 elem
-)
 u
 "
 MozDOMFullscreen
@@ -98279,10 +98258,7 @@ nsContentUtils
 DispatchTrustedEvent
 (
 this
-ToSupports
-(
 this
-)
 u
 "
 visibilitychange

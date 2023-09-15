@@ -2747,14 +2747,7 @@ DispatchTrustedEvent
 OwnerDoc
 (
 )
-static_cast
-<
-nsIContent
-*
->
-(
 this
-)
 u
 "
 change
