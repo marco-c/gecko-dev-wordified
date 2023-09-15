@@ -198,11 +198,6 @@ MOZILLA_INTERNAL_API
 )
 #
 if
-NTDDI_VERSION
-<
-NTDDI_WINBLUE
-|
-|
 defined
 (
 __MINGW32__
@@ -251,9 +246,10 @@ ppAgileReference
 endif
 /
 /
-NTDDI_VERSION
-<
-NTDDI_WINBLUE
+defined
+(
+__MINGW32__
+)
 namespace
 mozilla
 {
