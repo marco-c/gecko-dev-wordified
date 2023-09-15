@@ -235,7 +235,7 @@ if
 (
 prop
 .
-nightly
+isNightly
 =
 =
 =
