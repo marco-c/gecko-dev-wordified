@@ -3171,7 +3171,7 @@ max_decode
 =
 timings
 .
-max_decode_duration
+estimated_max_decode_time
 ;
 /
 /
