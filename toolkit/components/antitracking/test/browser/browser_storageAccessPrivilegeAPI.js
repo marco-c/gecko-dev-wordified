@@ -1545,7 +1545,7 @@ await
 insertSubFrame
 (
 browser
-TEST_4TH_PARTY_PAGE
+TEST_4TH_PARTY_PAGE_HTTPS
 "
 test
 "
@@ -1642,7 +1642,7 @@ storagePermissionPromise
 waitStoragePermission
 (
 "
-http
+https
 :
 /
 /
@@ -1746,7 +1746,7 @@ document
 requestStorageAccessForOrigin
 (
 "
-http
+https
 :
 /
 /
@@ -1921,7 +1921,7 @@ await
 insertSubFrame
 (
 browser
-TEST_4TH_PARTY_PAGE
+TEST_4TH_PARTY_PAGE_HTTPS
 "
 test2
 "
@@ -2066,7 +2066,7 @@ await
 clearStoragePermission
 (
 "
-http
+https
 :
 /
 /
