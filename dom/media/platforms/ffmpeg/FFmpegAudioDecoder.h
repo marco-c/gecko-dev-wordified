@@ -307,9 +307,6 @@ DecodeUsingFFmpeg
 AVPacket
 *
 aPacket
-int
-&
-aOutBytesConsumed
 bool
 &
 aDecoded
@@ -338,8 +335,6 @@ aResults
 bool
 *
 aGotFrame
-size_t
-aSamplePositionOffset
 )
 ;
 const
