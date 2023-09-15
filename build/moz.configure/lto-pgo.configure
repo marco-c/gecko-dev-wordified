@@ -2526,7 +2526,7 @@ instr
 -
 limit
 =
-30
+10
 "
 )
 elif
@@ -2555,7 +2555,7 @@ instr
 -
 limit
 =
-30
+10
 "
 )
 elif
@@ -2587,7 +2587,7 @@ instr
 -
 limit
 =
-30
+10
 "
 )
 #
