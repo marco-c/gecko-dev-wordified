@@ -193,7 +193,7 @@ sizeof
 y
 )
 "
-what
+foo
 "
 )
 ;
@@ -202,7 +202,7 @@ snprintf
 x
 50
 "
-what
+foo
 "
 )
 ;
@@ -220,7 +220,7 @@ snprintf
 x
 nothundred
 "
-what
+foo
 "
 )
 ;
@@ -422,7 +422,7 @@ sizeof
 y
 )
 "
-what
+foo
 "
 args
 )
@@ -432,7 +432,7 @@ vsnprintf
 x
 50
 "
-what
+foo
 "
 args
 )
@@ -451,7 +451,7 @@ vsnprintf
 x
 nothundred
 "
-what
+foo
 "
 args
 )
