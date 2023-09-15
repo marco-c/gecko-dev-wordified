@@ -47790,7 +47790,7 @@ isAnyHierarchy
 )
 {
 RegPtr
-superSuperTypeVector
+superSTV
 ;
 if
 (
@@ -47821,7 +47821,7 @@ typeDef
 )
 )
 ;
-superSuperTypeVector
+superSTV
 =
 loadSuperTypeVector
 (
@@ -47882,7 +47882,7 @@ sourceType
 destType
 label
 onSuccess
-superSuperTypeVector
+superSTV
 scratch1
 scratch2
 )
@@ -47919,7 +47919,7 @@ scratch1
 }
 if
 (
-superSuperTypeVector
+superSTV
 .
 isValid
 (
@@ -47928,7 +47928,7 @@ isValid
 {
 freePtr
 (
-superSuperTypeVector
+superSTV
 )
 ;
 }
@@ -47944,7 +47944,7 @@ isFuncHierarchy
 )
 {
 RegPtr
-superSuperTypeVector
+superSTV
 ;
 RegI32
 scratch1
@@ -47978,7 +47978,7 @@ typeDef
 )
 )
 ;
-superSuperTypeVector
+superSTV
 =
 loadSuperTypeVector
 (
@@ -48023,7 +48023,7 @@ sourceType
 destType
 label
 onSuccess
-superSuperTypeVector
+superSTV
 scratch1
 scratch2
 )
@@ -48060,7 +48060,7 @@ scratch1
 }
 if
 (
-superSuperTypeVector
+superSTV
 .
 isValid
 (
@@ -48069,7 +48069,7 @@ isValid
 {
 freePtr
 (
-superSuperTypeVector
+superSTV
 )
 ;
 }

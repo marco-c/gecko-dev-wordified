@@ -25602,7 +25602,7 @@ typeIndex
 )
 {
 uint32_t
-superTypeVectorOffset
+stvOffset
 =
 moduleEnv
 (
@@ -25629,7 +25629,7 @@ MIRType
 :
 :
 Pointer
-superTypeVectorOffset
+stvOffset
 /
 *
 isConst
@@ -29329,7 +29329,7 @@ typeDef
 ;
 MDefinition
 *
-superSuperTypeVector
+superSTV
 =
 loadSuperTypeVector
 (
@@ -29347,7 +29347,7 @@ alloc
 (
 )
 ref
-superSuperTypeVector
+superSTV
 sourceType
 destType
 )

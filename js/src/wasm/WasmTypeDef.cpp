@@ -2646,10 +2646,10 @@ size_t
 SuperTypeVector
 :
 :
-offsetOfTypeDefInVector
+offsetOfSTVInVector
 (
 uint32_t
-typeDefDepth
+subTypingDepth
 )
 {
 return
@@ -2665,7 +2665,7 @@ void
 *
 )
 *
-typeDefDepth
+subTypingDepth
 ;
 }
 /

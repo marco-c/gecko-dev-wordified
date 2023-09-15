@@ -23654,7 +23654,7 @@ Ref
 static
 constexpr
 uint32_t
-SuperSuperTypeVector
+SuperSTV
 =
 1
 ;
@@ -23683,7 +23683,7 @@ ref
 const
 LAllocation
 &
-superSuperTypeVector
+superSTV
 const
 LDefinition
 &
@@ -23727,8 +23727,8 @@ ref
 ;
 setOperand
 (
-SuperSuperTypeVector
-superSuperTypeVector
+SuperSTV
+superSTV
 )
 ;
 setTemp
@@ -23815,14 +23815,14 @@ Ref
 const
 LAllocation
 *
-superSuperTypeVector
+superSTV
 (
 )
 {
 return
 getOperand
 (
-SuperSuperTypeVector
+SuperSTV
 )
 ;
 }
