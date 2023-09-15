@@ -9198,13 +9198,10 @@ ColorSchemeMode
 Preferred
 |
 |
-nsContentUtils
-:
-:
-IsChromeDoc
-(
-&
 aDoc
+.
+ChromeRulesEnabled
+(
 )
 )
 {
