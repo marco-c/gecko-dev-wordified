@@ -3046,8 +3046,12 @@ a
 load
 for
 a
-module
 script
+(
+module
+or
+classic
+)
 URI
 .
 *
