@@ -165,6 +165,7 @@ wrapper
 /
 class
 nsAppShell
+final
 :
 public
 nsBaseAppShell
@@ -293,6 +294,11 @@ LPARAM
 ;
 protected
 :
+nsresult
+InitHiddenWindow
+(
+)
+;
 HWND
 mEventWnd
 ;
