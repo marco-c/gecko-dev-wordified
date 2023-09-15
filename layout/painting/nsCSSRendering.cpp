@@ -8237,7 +8237,7 @@ if
 pc
 -
 >
-IsPrintingOrPrintPreview
+IsRootPaginatedDocument
 (
 )
 )
@@ -8264,8 +8264,11 @@ GetPageSequenceFrame
 ;
 if
 (
+NS_WARN_IF
+(
 !
 ps
+)
 )
 {
 return

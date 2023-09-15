@@ -12865,7 +12865,7 @@ ComputeCanvasBackground
 (
 )
 .
-mColor
+mViewportColor
 ;
 }
 nsStyleUtil
