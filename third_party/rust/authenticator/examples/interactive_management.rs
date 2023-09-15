@@ -3549,7 +3549,7 @@ Some
 BioEnrollmentResult
 :
 :
-DeleteSucess
+DeleteSuccess
 (
 info
 )

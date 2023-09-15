@@ -19,6 +19,7 @@ get_assertion
 :
 {
 GetAssertion
+GetAssertionExtensions
 GetAssertionOptions
 }
 ;
@@ -34,15 +35,6 @@ PinUvAuthCommand
 RequestCtap1
 Retryable
 }
-;
-use
-crate
-:
-:
-authenticatorservice
-:
-:
-GetAssertionExtensions
 ;
 use
 crate
@@ -1613,7 +1605,7 @@ credential_ids
 =
 response
 .
-0
+assertions
 .
 iter
 (

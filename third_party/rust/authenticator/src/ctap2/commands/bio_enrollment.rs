@@ -3838,7 +3838,7 @@ Vec
 EnrollmentInfo
 >
 )
-DeleteSucess
+DeleteSuccess
 (
 AuthenticatorInfo
 )

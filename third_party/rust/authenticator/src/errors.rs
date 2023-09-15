@@ -158,6 +158,7 @@ pub
 enum
 UnsupportedOption
 {
+CredProtect
 EmptyAllowList
 MaxPinLength
 PubCredParams
