@@ -7676,11 +7676,6 @@ mNeedsFakeNoStencil
 false
 ;
 bool
-mNeedsFakeNoStencil_UserFBs
-=
-false
-;
-bool
 mDriverDepthTest
 =
 false
