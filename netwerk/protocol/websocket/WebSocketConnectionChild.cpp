@@ -139,7 +139,7 @@ mozilla
 /
 net
 /
-SocketProcessbackgroundChild
+SocketProcessBackgroundChild
 .
 h
 "
