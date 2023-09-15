@@ -318,7 +318,7 @@ FileUtilsWin
 h
 "
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -345,7 +345,7 @@ nsLocalFileUnix
 h
 "
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -730,7 +730,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 "
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
