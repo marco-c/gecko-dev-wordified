@@ -753,7 +753,7 @@ workerVersion
 .
 10
 .
-70
+80
 '
 ;
 if
@@ -4871,6 +4871,9 @@ AnnotationEditorParamsType
 RESIZE
 :
 1
+CREATE
+:
+2
 FREETEXT_SIZE
 :
 11
@@ -462842,14 +462845,14 @@ pdfjsVersion
 .
 10
 .
-70
+80
 '
 ;
 const
 pdfjsBuild
 =
 '
-1d523d3ec
+690b87389
 '
 ;
 }
