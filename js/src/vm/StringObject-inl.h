@@ -288,6 +288,15 @@ StringObject
 cx
 proto
 newKind
+ObjectFlags
+(
+{
+ObjectFlag
+:
+:
+NeedsProxyGetSetResultValidation
+}
+)
 )
 )
 ;
