@@ -88,8 +88,6 @@ abstractmethod
 import
 mozinfo
 import
-mozprocess
-import
 mozproxy
 .
 utils
@@ -6440,36 +6438,37 @@ version
                     
 proc
 =
-mozprocess
-.
-ProcessHandler
-(
-command
-)
-                    
-proc
+subprocess
 .
 run
 (
+                        
+command
 timeout
 =
 10
-outputTimeout
+capture_output
 =
-10
-)
+True
+text
+=
+True
                     
-proc
-.
-wait
-(
 )
                     
 bmeta
 =
 proc
 .
-output
+stdout
+.
+split
+(
+"
+\
+n
+"
+)
                     
 meta_re
 =
@@ -6523,15 +6522,6 @@ bmeta
 [
 0
 ]
-.
-decode
-(
-"
-utf
--
-8
-"
-)
 )
                         
 if
