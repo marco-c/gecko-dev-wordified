@@ -828,6 +828,12 @@ return
 ;
 }
 }
+const
+bool
+updatesWereEnabled
+=
+mUpdatesEnabled
+;
 DisableUpdates
 (
 )
@@ -844,6 +850,11 @@ aTextContent
 true
 )
 ;
+if
+(
+updatesWereEnabled
+)
+{
 mTriggeringPrincipal
 =
 aScriptedPrincipal
@@ -856,6 +867,7 @@ EnableUpdatesAndUpdateStyleSheet
 nullptr
 )
 ;
+}
 }
 void
 HTMLStyleElement
