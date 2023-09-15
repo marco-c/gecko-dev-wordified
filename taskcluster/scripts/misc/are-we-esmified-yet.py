@@ -601,27 +601,6 @@ jsm
 "
     
 #
-Testcase
-for
-test
-harness
-.
-    
-"
-testing
-/
-mochitest
-/
-tests
-/
-Harness_sanity
-/
-ImportTesting
-.
-jsm
-"
-    
-#
 EXPORTED_SYMBOLS
 inside
 testcase
