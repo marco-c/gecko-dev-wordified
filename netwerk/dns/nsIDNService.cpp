@@ -1681,15 +1681,7 @@ eStringPrepForDNS
 ?
 info
 .
-HasErrors
-(
-)
-&
-&
-!
-info
-.
-HasInvalidHyphen
+HasErrorsIgnoringInvalidHyphen
 (
 )
 :
