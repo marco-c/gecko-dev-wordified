@@ -217,10 +217,10 @@ step_timeout
 {
 assert_equals
 (
-frame
+window
 .
-contentDocument
-null
+frameLoaded
+undefined
 )
 ;
 t
