@@ -742,6 +742,15 @@ l
 test
 "
 ]
+.
+split
+(
+"
+"
+)
+[
+0
+]
                     
 #
 tests
@@ -778,35 +787,6 @@ split
 [
 -
 1
-]
-                    
-if
-"
-=
-=
-"
-in
-test_path
-or
-"
-!
-=
-"
-in
-test_path
-:
-                        
-test_path
-=
-test_path
-.
-split
-(
-"
-"
-)
-[
-0
 ]
                     
 #
@@ -865,6 +845,15 @@ list
                     
 )
 :
+                        
+#
+TODO
+:
+consider
+running
+just
+the
+manifest
                         
 continue
                     
