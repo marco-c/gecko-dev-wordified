@@ -58,7 +58,7 @@ setupPlacesDatabase
 migration
 "
 "
-places_v43
+places_v52
 .
 sqlite
 "
