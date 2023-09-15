@@ -287,11 +287,13 @@ assertNotRestoredReasonsEquals
 rc1
 /
 *
-blocked
+preventedBackForwardCache
 =
 *
 /
-true
+"
+yes
+"
 /
 *
 url
