@@ -87,7 +87,7 @@ include
 "
 video
 /
-receive_statistics_proxy2
+receive_statistics_proxy
 .
 h
 "
@@ -321,7 +321,7 @@ lacking
 unittesting
 .
 class
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 :
 public
 :
@@ -333,7 +333,7 @@ Test
 {
 public
 :
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 (
 )
 :
@@ -380,7 +380,7 @@ GetMainThread
 ;
 }
 ~
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 (
 )
 override
@@ -713,7 +713,7 @@ statistics_proxy_
 ;
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 OnDecodedFrameIncreasesFramesDecoded
 )
 {
@@ -795,7 +795,7 @@ frames_decoded
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 DecodedFpsIsReported
 )
 {
@@ -944,7 +944,7 @@ hertz
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 DecodedFpsIsNotReportedForTooFewSamples
 )
 {
@@ -1072,7 +1072,7 @@ DecodedFramesPerSecond
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 OnDecodedFrameWithQpDoesNotResetFramesDecodedOrTotalDecodeTime
 )
 {
@@ -1287,7 +1287,7 @@ total_decode_time
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 OnDecodedFrameIncreasesProcessingDelay
 )
 {
@@ -1609,7 +1609,7 @@ total_processing_delay
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 OnDecodedFrameIncreasesAssemblyTime
 )
 {
@@ -2282,7 +2282,7 @@ frames_assembled_from_multiple_packets
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 OnDecodedFrameIncreasesQpSum
 )
 {
@@ -2375,7 +2375,7 @@ qp_sum
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 OnDecodedFrameIncreasesTotalDecodeTime
 )
 {
@@ -2478,7 +2478,7 @@ ms
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ReportsContentType
 )
 {
@@ -2610,7 +2610,7 @@ content_type
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ReportsMaxInterframeDelay
 )
 {
@@ -2849,7 +2849,7 @@ interframe_delay_max_ms
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ReportInterframeDelayInWindow
 )
 {
@@ -3106,7 +3106,7 @@ interframe_delay_max_ms
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ReportsFreezeMetrics
 )
 {
@@ -3260,7 +3260,7 @@ total_freezes_duration_ms
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ReportsPauseMetrics
 )
 {
@@ -3379,7 +3379,7 @@ total_pauses_duration_ms
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 PauseBeforeFirstAndAfterLastFrameIgnored
 )
 {
@@ -3536,7 +3536,7 @@ total_pauses_duration_ms
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ReportsTotalInterFrameDelay
 )
 {
@@ -3692,7 +3692,7 @@ total_inter_frame_delay
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ReportsTotalSquaredInterFrameDelay
 )
 {
@@ -3813,7 +3813,7 @@ total_squared_inter_frame_delay
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 OnDecodedFrameWithoutQpQpSumWontExist
 )
 {
@@ -3883,7 +3883,7 @@ qp_sum
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 OnDecodedFrameWithoutQpResetsQpSum
 )
 {
@@ -3982,7 +3982,7 @@ qp_sum
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 OnRenderedFrameIncreasesFramesRendered
 )
 {
@@ -4056,7 +4056,7 @@ frames_rendered
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsSsrc
 )
 {
@@ -4076,7 +4076,7 @@ ssrc
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsIncomingPayloadType
 )
 {
@@ -4122,7 +4122,7 @@ current_payload_type
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsDecoderInfo
 )
 {
@@ -4226,7 +4226,7 @@ power_efficient_decoder
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsOnCompleteFrame
 )
 {
@@ -4293,7 +4293,7 @@ delta_frames
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsOnDroppedFrame
 )
 {
@@ -4354,7 +4354,7 @@ frames_dropped
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsDecodeTimingStats
 )
 {
@@ -4482,7 +4482,7 @@ render_delay_ms
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsRtcpPacketTypeCounts
 )
 {
@@ -4580,7 +4580,7 @@ nack_packets
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsNoRtcpPacketTypeCountsForUnknownSsrc
 )
 {
@@ -4622,7 +4622,7 @@ fir_packets
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsFrameCounts
 )
 {
@@ -4734,7 +4734,7 @@ delta_frames
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsCName
 )
 {
@@ -4776,7 +4776,7 @@ c_str
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsNoCNameForUnknownSsrc
 )
 {
@@ -4821,7 +4821,7 @@ c_str
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ReportsLongestTimingFrameInfo
 )
 {
@@ -4979,7 +4979,7 @@ rtp_timestamp
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 RespectsReportingIntervalForTimingFrames
 )
 {
@@ -5112,7 +5112,7 @@ result
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 LifetimeHistogramIsUpdated
 )
 {
@@ -5219,7 +5219,7 @@ seconds
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 LifetimeHistogramNotReportedForEmptyStreams
 )
 {
@@ -5284,7 +5284,7 @@ ReceiveStreamLifetimeInSeconds
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 BadCallHistogramsAreUpdated
 )
 {
@@ -5552,7 +5552,7 @@ Qp
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 PacketLossHistogramIsUpdated
 )
 {
@@ -5669,7 +5669,7 @@ ReceivedPacketsLostInPercent
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsPlayoutTimestamp
 )
 {
@@ -5790,7 +5790,7 @@ estimated_playout_ntp_timestamp_ms
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsAvSyncOffset
 )
 {
@@ -5861,7 +5861,7 @@ sync_offset_ms
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 AvSyncOffsetHistogramIsUpdated
 )
 {
@@ -5964,7 +5964,7 @@ kSyncOffsetMs
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 RtpToNtpFrequencyOffsetHistogramIsUpdated
 )
 {
@@ -6167,7 +6167,7 @@ RtpToNtpFreqOffsetInKhz
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 Vp8QpHistogramIsUpdated
 )
 {
@@ -6261,7 +6261,7 @@ kQp
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 Vp8QpHistogramIsNotUpdatedForTooFewSamples
 )
 {
@@ -6337,7 +6337,7 @@ Qp
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 Vp8QpHistogramIsNotUpdatedIfNoQpValue
 )
 {
@@ -6406,7 +6406,7 @@ Qp
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 KeyFrameHistogramNotUpdatedForTooFewSamples
 )
 {
@@ -6520,7 +6520,7 @@ KeyFramesReceivedInPermille
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 KeyFrameHistogramUpdatedForMinRequiredSamples
 )
 {
@@ -6649,7 +6649,7 @@ KeyFramesReceivedInPermille
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 KeyFrameHistogramIsUpdated
 )
 {
@@ -6800,7 +6800,7 @@ KeyFramesReceivedInPermille
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 TimingHistogramsNotUpdatedForTooFewSamples
 )
 {
@@ -6980,7 +6980,7 @@ OnewayDelayInMs
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 TimingHistogramsAreUpdated
 )
 {
@@ -7213,7 +7213,7 @@ kTargetDelayMs
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 DoesNotReportStaleFramerates
 )
 {
@@ -7463,7 +7463,7 @@ render_frame_rate
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 GetStatsReportsReceivedFrameStats
 )
 {
@@ -7563,7 +7563,7 @@ frames_rendered
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ReceivedFrameHistogramsAreNotUpdatedForTooFewSamples
 )
 {
@@ -7691,7 +7691,7 @@ RenderSqrtPixelsPerSecond
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ReceivedFrameHistogramsAreUpdated
 )
 {
@@ -7855,7 +7855,7 @@ kHeight
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 ZeroDelayReportedIfFrameNotDelayed
 )
 {
@@ -8018,7 +8018,7 @@ DelayedFramesToRenderer_AvgDelayInMs
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 DelayedFrameHistogramsAreNotUpdatedIfMinRuntimeHasNotPassed
 )
 {
@@ -8172,7 +8172,7 @@ DelayedFramesToRenderer_AvgDelayInMs
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 DelayedFramesHistogramsAreNotUpdatedIfNoRenderedFrames
 )
 {
@@ -8294,7 +8294,7 @@ DelayedFramesToRenderer_AvgDelayInMs
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 DelayReportedIfFrameIsDelayed
 )
 {
@@ -8481,7 +8481,7 @@ DelayedFramesToRenderer_AvgDelayInMs
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 AverageDelayOfDelayedFramesIsReported
 )
 {
@@ -8725,7 +8725,7 @@ DelayedFramesToRenderer_AvgDelayInMs
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 RtcpHistogramsNotUpdatedIfMinRuntimeHasNotPassed
 )
 {
@@ -8853,7 +8853,7 @@ NackPacketsSentPerMinute
 }
 TEST_F
 (
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 RtcpHistogramsAreUpdated
 )
 {
@@ -9086,10 +9086,10 @@ kMinRunTimeInSeconds
 ;
 }
 class
-ReceiveStatisticsProxy2TestWithFreezeDuration
+ReceiveStatisticsProxyTestWithFreezeDuration
 :
 public
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 public
 :
 :
@@ -9295,7 +9295,7 @@ make_tuple
 INSTANTIATE_TEST_SUITE_P
 (
 _
-ReceiveStatisticsProxy2TestWithFreezeDuration
+ReceiveStatisticsProxyTestWithFreezeDuration
 :
 :
 testing
@@ -9312,7 +9312,7 @@ kFreezeDetectionCond2NotFreeze
 ;
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithFreezeDuration
+ReceiveStatisticsProxyTestWithFreezeDuration
 FreezeDetection
 )
 {
@@ -9500,10 +9500,10 @@ expected_freeze_count_
 ;
 }
 class
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 :
 public
-ReceiveStatisticsProxy2Test
+ReceiveStatisticsProxyTest
 public
 :
 :
@@ -9537,7 +9537,7 @@ GetParam
 INSTANTIATE_TEST_SUITE_P
 (
 ContentTypes
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 :
 :
 testing
@@ -9558,7 +9558,7 @@ SCREENSHARE
 ;
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 InterFrameDelaysAreReported
 )
 {
@@ -9810,7 +9810,7 @@ InterframeDelayMaxInMs
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 InterFrameDelaysPercentilesAreReported
 )
 {
@@ -10075,7 +10075,7 @@ InterframeDelay95PercentileInMs
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 MaxInterFrameDelayOnlyWithValidAverage
 )
 {
@@ -10267,7 +10267,7 @@ InterframeDelayMaxInMs
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 MaxInterFrameDelayOnlyWithPause
 )
 {
@@ -10651,7 +10651,7 @@ InterframeDelayMaxInMs
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 FreezesAreReported
 )
 {
@@ -11024,7 +11024,7 @@ NumberFreezesPerMinute
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 HarmonicFrameRateIsReported
 )
 {
@@ -11406,7 +11406,7 @@ HarmonicFrameRate
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 PausesAreIgnored
 )
 {
@@ -11756,7 +11756,7 @@ MeanTimeBetweenFreezesMs
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 ManyPausesAtTheBeginning
 )
 {
@@ -11972,7 +11972,7 @@ MeanFreezeDurationMs
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 TimeInHdReported
 )
 {
@@ -12260,7 +12260,7 @@ TimeInHdPercentage
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 TimeInBlockyVideoReported
 )
 {
@@ -12556,7 +12556,7 @@ TimeInBlockyVideoPercentage
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 DownscalesReported
 )
 {
@@ -12785,7 +12785,7 @@ NumberResolutionDownswitchesPerMinute
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 DecodeTimeReported
 )
 {
@@ -12904,7 +12904,7 @@ ms
 }
 TEST_P
 (
-ReceiveStatisticsProxy2TestWithContent
+ReceiveStatisticsProxyTestWithContent
 StatsAreSlicedOnSimulcastAndExperiment
 )
 {
