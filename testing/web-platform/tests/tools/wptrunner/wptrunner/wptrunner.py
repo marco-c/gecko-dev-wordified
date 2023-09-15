@@ -1091,7 +1091,7 @@ run_info
 recording
 test_environment
 product
-run_test_kwargs
+kwargs
 )
 :
     
@@ -1133,21 +1133,30 @@ test_loader
 test_types
 :
         
-tests_by_type
-[
-test_type
-]
-.
-extend
-(
+type_tests_active
+=
 test_loader
 .
 tests
 [
 test_type
 ]
-)
         
+type_tests_disabled
+=
+test_loader
+.
+disabled_tests
+[
+test_type
+]
+        
+if
+type_tests_active
+or
+type_tests_disabled
+:
+            
 tests_by_type
 [
 test_type
@@ -1155,12 +1164,17 @@ test_type
 .
 extend
 (
-test_loader
-.
-disabled_tests
+type_tests_active
+)
+            
+tests_by_type
 [
 test_type
 ]
+.
+extend
+(
+type_tests_disabled
 )
     
 try
@@ -1172,7 +1186,6 @@ test_source_cls
 .
 tests_by_group
 (
-            
 tests_by_type
 *
 *
@@ -1224,7 +1237,7 @@ extra
 run_by_dir
 "
 :
-run_test_kwargs
+kwargs
 [
 "
 run_by_dir
@@ -1241,13 +1254,22 @@ test_implementation_by_type
 for
 test_type
 in
-run_test_kwargs
+kwargs
 [
 "
 test_types
 "
 ]
 :
+        
+if
+test_type
+not
+in
+tests_by_type
+:
+            
+continue
         
 executor_cls
 =
@@ -1306,7 +1328,7 @@ run_info
                                                       
 *
 *
-run_test_kwargs
+kwargs
 )
         
 browser_cls
@@ -1345,7 +1367,7 @@ test_groups
                                                     
 *
 *
-run_test_kwargs
+kwargs
 )
         
 test_implementation_by_type
@@ -1560,7 +1582,7 @@ pause
     
 retry_counts
 =
-run_test_kwargs
+kwargs
 [
 "
 retry_unexpected
@@ -1586,7 +1608,7 @@ i
             
 if
 not
-run_test_kwargs
+kwargs
 [
 "
 fail_on_unexpected_pass
@@ -1683,7 +1705,7 @@ extra
 run_by_dir
 "
 :
-run_test_kwargs
+kwargs
 [
 "
 run_by_dir
@@ -1709,35 +1731,35 @@ test_source_kwargs
                           
 test_implementation_by_type
                           
-run_test_kwargs
+kwargs
 [
 "
 rerun
 "
 ]
                           
-run_test_kwargs
+kwargs
 [
 "
 pause_after_test
 "
 ]
                           
-run_test_kwargs
+kwargs
 [
 "
 pause_on_unexpected
 "
 ]
                           
-run_test_kwargs
+kwargs
 [
 "
 restart_on_unexpected
 "
 ]
                           
-run_test_kwargs
+kwargs
 [
 "
 debug_info
@@ -1745,14 +1767,14 @@ debug_info
 ]
                           
 not
-run_test_kwargs
+kwargs
 [
 "
 no_capture_stdio
 "
 ]
                           
-run_test_kwargs
+kwargs
 [
 "
 restart_on_new_group
@@ -1937,7 +1959,9 @@ def
 evaluate_runs
 (
 test_status
-run_test_kwargs
+*
+*
+kwargs
 )
 :
     
@@ -1995,7 +2019,7 @@ else
 :
             
 if
-run_test_kwargs
+kwargs
 [
 "
 default_exclude
@@ -2040,7 +2064,7 @@ test_status
 unexpected
 and
 not
-run_test_kwargs
+kwargs
 [
 "
 fail_on_unexpected
@@ -2090,7 +2114,7 @@ if
 all_unexpected_passed
 and
 not
-run_test_kwargs
+kwargs
 [
 "
 fail_on_unexpected_pass
@@ -3365,6 +3389,8 @@ return
 evaluate_runs
 (
 test_status
+*
+*
 kwargs
 )
 test_status
