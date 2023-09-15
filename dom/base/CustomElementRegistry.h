@@ -331,7 +331,10 @@ attribute
 changed
 callback
 .
-nsString
+RefPtr
+<
+nsAtom
+>
 mName
 ;
 nsString
