@@ -1921,6 +1921,17 @@ rv2
 )
 )
 ;
+if
+(
+mSendState
+!
+=
+WAITING_DATA
+)
+{
+break
+;
+}
 }
 [
 [

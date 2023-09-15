@@ -2106,6 +2106,11 @@ mSendState
 =
 SEND_DONE
 ;
+if
+(
+mSession
+)
+{
 mSession
 -
 >
@@ -2117,6 +2122,7 @@ mSession
 =
 nullptr
 ;
+}
 }
 void
 Http3WebTransportSession
