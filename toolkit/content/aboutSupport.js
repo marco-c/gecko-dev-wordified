@@ -8309,6 +8309,9 @@ macosx
 "
 linux
 "
+"
+android
+"
 ]
 .
 includes
