@@ -5940,7 +5940,13 @@ aStatus
 )
 closeReason
 (
+std
+:
+:
+move
+(
 closeReason
+)
 )
 cleanly
 (
