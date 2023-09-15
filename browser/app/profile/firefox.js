@@ -32650,12 +32650,6 @@ Turn
 on
 interaction
 measurements
-in
-Nightly
-only
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -32670,8 +32664,6 @@ enabled
 true
 )
 ;
-#
-endif
 /
 /
 If
