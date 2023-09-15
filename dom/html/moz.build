@@ -276,11 +276,6 @@ ElementInternals
 h
 "
 "
-FetchPriority
-.
-h
-"
-"
 HTMLAllCollection
 .
 h
@@ -687,11 +682,6 @@ cpp
 "
 "
 ElementInternals
-.
-cpp
-"
-"
-FetchPriority
 .
 cpp
 "
