@@ -840,11 +840,6 @@ classList
 add
 (
 "
-theme
--
-comment
-"
-"
 devtools
 -
 tooltip
@@ -1035,9 +1030,6 @@ div
 className
 =
 "
-theme
--
-comment
 devtools
 -
 tooltip
