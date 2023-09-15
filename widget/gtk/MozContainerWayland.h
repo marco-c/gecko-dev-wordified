@@ -504,7 +504,7 @@ MozContainer
 container
 )
 ;
-void
+bool
 moz_container_wayland_egl_window_set_size
 (
 MozContainer
