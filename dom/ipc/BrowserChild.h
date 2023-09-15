@@ -3220,7 +3220,7 @@ RepaintRequest
 aRequest
 )
 ;
-bool
+void
 NotifyAPZStateChange
 (
 const
