@@ -1063,7 +1063,7 @@ RemoteTextureOwnerId
 :
 HashFn
 >
-mCanvasMap
+mPresentationDataMap
 ;
 RefPtr
 <
