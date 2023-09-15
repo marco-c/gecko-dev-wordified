@@ -630,6 +630,8 @@ Self
 VALID
 .
 bits
+(
+)
 |
 Self
 :
@@ -637,6 +639,8 @@ Self
 INVALID
 .
 bits
+(
+)
 |
 Self
 :
@@ -644,6 +648,8 @@ Self
 USER_VALID
 .
 bits
+(
+)
 |
 Self
 :
@@ -651,6 +657,8 @@ Self
 USER_INVALID
 .
 bits
+(
+)
 ;
 /
 /
@@ -899,6 +907,8 @@ Self
 VISITED
 .
 bits
+(
+)
 |
 Self
 :
@@ -906,6 +916,8 @@ Self
 UNVISITED
 .
 bits
+(
+)
 ;
 /
 /
@@ -1188,6 +1200,8 @@ Self
 OPTIMUM
 .
 bits
+(
+)
 |
 Self
 :
@@ -1195,6 +1209,8 @@ Self
 SUB_OPTIMUM
 .
 bits
+(
+)
 |
 Self
 :
@@ -1202,6 +1218,8 @@ Self
 SUB_SUB_OPTIMUM
 .
 bits
+(
+)
 ;
 /
 /
@@ -1811,6 +1829,8 @@ Self
 LTR
 .
 bits
+(
+)
 |
 Self
 :
@@ -1818,6 +1838,8 @@ Self
 RTL
 .
 bits
+(
+)
 ;
 const
 DIR_ATTR_STATES
@@ -1828,6 +1850,8 @@ Self
 HAS_DIR_ATTR
 .
 bits
+(
+)
 |
 Self
 :
@@ -1835,6 +1859,8 @@ Self
 HAS_DIR_ATTR_LTR
 .
 bits
+(
+)
 |
 Self
 :
@@ -1842,6 +1868,8 @@ Self
 HAS_DIR_ATTR_RTL
 .
 bits
+(
+)
 |
 Self
 :
@@ -1849,6 +1877,8 @@ Self
 HAS_DIR_ATTR_LIKE_AUTO
 .
 bits
+(
+)
 ;
 const
 DISABLED_STATES
@@ -1859,6 +1889,8 @@ Self
 DISABLED
 .
 bits
+(
+)
 |
 Self
 :
@@ -1866,6 +1898,8 @@ Self
 ENABLED
 .
 bits
+(
+)
 ;
 const
 REQUIRED_STATES
@@ -1876,6 +1910,8 @@ Self
 REQUIRED
 .
 bits
+(
+)
 |
 Self
 :
@@ -1883,6 +1919,8 @@ Self
 OPTIONAL_
 .
 bits
+(
+)
 ;
 }
 }
@@ -1987,6 +2025,8 @@ Self
 LTR_LOCALE
 .
 bits
+(
+)
 |
 Self
 :
@@ -1994,6 +2034,8 @@ Self
 RTL_LOCALE
 .
 bits
+(
+)
 ;
 }
 }

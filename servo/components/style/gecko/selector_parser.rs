@@ -286,6 +286,8 @@ NonTSPseudoClassFlag
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 .
 bits
+(
+)
 |
 NonTSPseudoClassFlag
 :
@@ -293,6 +295,8 @@ NonTSPseudoClassFlag
 PSEUDO_CLASS_ENABLED_IN_CHROME
 .
 bits
+(
+)
 ;
 }
 }

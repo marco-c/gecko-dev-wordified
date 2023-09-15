@@ -1245,6 +1245,8 @@ Self
 LENGTH
 .
 bits
+(
+)
 |
 Self
 :
@@ -1252,6 +1254,8 @@ Self
 PERCENTAGE
 .
 bits
+(
+)
 ;
 /
 /
@@ -1287,6 +1291,8 @@ Self
 LENGTH
 .
 bits
+(
+)
 |
 Self
 :
@@ -1294,6 +1300,8 @@ Self
 PERCENTAGE
 .
 bits
+(
+)
 |
 Self
 :
@@ -1301,6 +1309,8 @@ Self
 ANGLE
 .
 bits
+(
+)
 |
 Self
 :
@@ -1308,6 +1318,8 @@ Self
 TIME
 .
 bits
+(
+)
 |
 Self
 :
@@ -1315,6 +1327,8 @@ Self
 RESOLUTION
 .
 bits
+(
+)
 ;
 }
 }

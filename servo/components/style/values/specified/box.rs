@@ -8295,6 +8295,8 @@ Contain
 INLINE_SIZE
 .
 bits
+(
+)
 |
 Contain
 :
@@ -8302,6 +8304,8 @@ Contain
 BLOCK_SIZE
 .
 bits
+(
+)
 ;
 /
 /
@@ -8328,6 +8332,8 @@ Contain
 LAYOUT
 .
 bits
+(
+)
 |
 Contain
 :
@@ -8335,6 +8341,8 @@ Contain
 STYLE
 .
 bits
+(
+)
 |
 Contain
 :
@@ -8342,6 +8350,8 @@ Contain
 PAINT
 .
 bits
+(
+)
 ;
 /
 /
@@ -8368,6 +8378,8 @@ Contain
 LAYOUT
 .
 bits
+(
+)
 |
 Contain
 :
@@ -8375,6 +8387,8 @@ Contain
 STYLE
 .
 bits
+(
+)
 |
 Contain
 :
@@ -8382,6 +8396,8 @@ Contain
 PAINT
 .
 bits
+(
+)
 |
 Contain
 :
@@ -8389,6 +8405,8 @@ Contain
 SIZE
 .
 bits
+(
+)
 ;
 }
 }
