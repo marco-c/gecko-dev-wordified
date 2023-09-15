@@ -274,6 +274,11 @@ servo_restyle_damage
 reflow
 rebuild_and_reflow_inline
 "
+affects
+=
+"
+layout
+"
 )
 }
 %
@@ -374,6 +379,10 @@ animation_value_type
 =
 "
 NonNegativeLengthPercentageOrAuto
+"
+affects
+=
+"
 "
 )
 }

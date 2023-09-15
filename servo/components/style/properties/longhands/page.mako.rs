@@ -189,6 +189,11 @@ none
 rule_types_allowed
 =
 PAGE_RULE
+affects
+=
+"
+layout
+"
 )
 }
 {
@@ -248,6 +253,11 @@ animation_value_type
 =
 "
 discrete
+"
+affects
+=
+"
+layout
 "
 )
 }
@@ -336,5 +346,10 @@ none
 rule_types_allowed
 =
 PAGE_RULE
+affects
+=
+"
+layout
+"
 )
 }
