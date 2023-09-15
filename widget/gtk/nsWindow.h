@@ -2261,7 +2261,6 @@ SetDrawsInTitlebar
 bool
 aState
 )
-override
 ;
 mozilla
 :

@@ -173,13 +173,6 @@ GetWindowWidget
 )
 ;
 void
-SetDrawsInTitlebar
-(
-bool
-aState
-)
-;
-void
 SetDrawsTitle
 (
 bool
