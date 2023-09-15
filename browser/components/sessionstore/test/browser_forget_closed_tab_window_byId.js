@@ -600,7 +600,11 @@ closedTabs
 ]
 .
 closedId
+{
+includePrivate
+:
 false
+}
 )
 ;
 }

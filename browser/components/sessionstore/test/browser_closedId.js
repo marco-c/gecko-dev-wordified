@@ -415,7 +415,7 @@ out
 /
 this
 .
-_resetClosedIds
+_resetClosedTabsIds
 in
 SessionStore
 .
