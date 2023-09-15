@@ -783,11 +783,11 @@ obj
 isSharedMemory
 )
 )
-JS_GetTypedArrayByteOffset
+JS_GetArrayBufferViewByteOffset
 (
 obj
 )
-JS_GetTypedArrayByteLength
+JS_GetArrayBufferViewByteLength
 (
 obj
 )
