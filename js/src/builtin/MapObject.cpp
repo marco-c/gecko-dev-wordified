@@ -1843,7 +1843,7 @@ names
 (
 )
 .
-MapIterator
+Map_Iterator_
 )
 )
 {
@@ -7772,7 +7772,7 @@ names
 (
 )
 .
-SetIterator
+Set_Iterator_
 )
 )
 {

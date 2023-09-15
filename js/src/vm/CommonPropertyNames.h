@@ -380,7 +380,7 @@ ArgumentsLength
 \
 MACRO_
 (
-ArrayIterator
+Array_Iterator_
 "
 Array
 Iterator
@@ -461,7 +461,7 @@ async
 \
 MACRO_
 (
-AsyncFromSyncIterator
+Async_from_Sync_Iterator_
 "
 Async
 -
@@ -2866,7 +2866,7 @@ MapConstructorInit
 \
 MACRO_
 (
-MapIterator
+Map_Iterator_
 "
 Map
 Iterator
@@ -3847,7 +3847,7 @@ reason
 \
 MACRO_
 (
-RegExpStringIterator
+RegExp_String_Iterator_
 "
 RegExp
 String
@@ -4118,7 +4118,7 @@ SetIsInlinableLargeFunction
 \
 MACRO_
 (
-SetIterator
+Set_Iterator_
 "
 Set
 Iterator
@@ -4289,7 +4289,7 @@ sticky
 \
 MACRO_
 (
-StringIterator
+String_Iterator_
 "
 String
 Iterator
