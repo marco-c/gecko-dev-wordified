@@ -125,7 +125,9 @@ f
 "
 function
 "
-null
+"
+global
+"
 null
 ]
 )
@@ -163,7 +165,9 @@ lexical
 "
 function
 "
-null
+"
+global
+"
 null
 ]
 )
@@ -209,7 +213,9 @@ lexical
 "
 function
 "
-null
+"
+global
+"
 null
 ]
 )
