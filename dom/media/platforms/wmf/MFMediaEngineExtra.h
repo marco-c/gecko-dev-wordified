@@ -76,6 +76,13 @@ mfmediaengine
 .
 h
 >
+#
+include
+<
+mfapi
+.
+h
+>
 /
 /
 Currently
