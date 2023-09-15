@@ -158,6 +158,10 @@ JS
 :
 :
 TaggedColumnNumberOneOrigin
+JS
+:
+:
+ColumnNumberOneOrigin
 #
 include
 "
@@ -10757,10 +10761,16 @@ JSEXN_ERR
 stack
 fileName
 line
+JS
+:
+:
+ColumnNumberOneOrigin
+(
 column
 .
 oneOriginValue
 (
+)
 )
 nullptr
 message

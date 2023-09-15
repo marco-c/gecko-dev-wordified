@@ -258,6 +258,10 @@ JS
 :
 :
 ColumnNumberZeroOrigin
+JS
+:
+:
+ColumnNumberOneOrigin
 #
 include
 "
@@ -6585,10 +6589,12 @@ JSEXN_SYNTAXERR
 nullptr
 filename
 line
-column
-.
-oneOriginValue
+JS
+:
+:
+ColumnNumberOneOrigin
 (
+column
 )
 nullptr
 message
