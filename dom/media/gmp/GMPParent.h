@@ -374,6 +374,7 @@ NotLoaded
 Loaded
 Unloading
 Closing
+Closed
 }
 ;
 class
