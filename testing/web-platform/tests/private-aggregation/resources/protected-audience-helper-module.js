@@ -799,7 +799,7 @@ is
 empty
 .
 function
-createDecisionScriptUrl
+createDecisionScriptURL
 (
 uuid
 params
@@ -1606,9 +1606,9 @@ runBasicFledgeAuctionAndNavigate
 test
 uuid
 {
-decisionLogicUrl
+decisionLogicURL
 :
-createDecisionScriptUrl
+createDecisionScriptURL
 (
 uuid
 {

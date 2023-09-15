@@ -638,7 +638,7 @@ test
 >
 {
 let
-decisionLogicUrl
+decisionLogicURL
 =
 {
 BASE_URL
@@ -665,9 +665,9 @@ test
 auctionConfigOverrides
 :
 {
-decisionLogicUrl
+decisionLogicURL
 :
-decisionLogicUrl
+decisionLogicURL
 }
 }
 )

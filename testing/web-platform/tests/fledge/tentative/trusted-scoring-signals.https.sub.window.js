@@ -169,9 +169,9 @@ auctionConfigOverrides
 trustedScoringSignalsUrl
 :
 TRUSTED_SCORING_SIGNALS_URL
-decisionLogicUrl
+decisionLogicURL
 :
-createDecisionScriptUrl
+createDecisionScriptURL
 (
 uuid
 {
@@ -379,9 +379,9 @@ const
 auctionConfigOverrides
 =
 {
-decisionLogicUrl
+decisionLogicURL
 :
-createDecisionScriptUrl
+createDecisionScriptURL
 (
 uuid
 {
@@ -733,7 +733,7 @@ test
 const
 decisionLogicScriptUrl
 =
-createDecisionScriptUrl
+createDecisionScriptURL
 (
 uuid
 {
@@ -768,7 +768,7 @@ uuid
 auctionConfigOverrides
 :
 {
-decisionLogicUrl
+decisionLogicURL
 :
 decisionLogicScriptUrl
 }
@@ -2841,9 +2841,9 @@ trustedScoringSignals
 .
 auctionConfigOverrides
 .
-decisionLogicUrl
+decisionLogicURL
 =
-createDecisionScriptUrl
+createDecisionScriptURL
 (
 uuid
 {
@@ -2952,9 +2952,9 @@ trustedScoringSignals
 .
 auctionConfigOverrides
 .
-decisionLogicUrl
+decisionLogicURL
 =
-createDecisionScriptUrl
+createDecisionScriptURL
 (
 uuid
 {

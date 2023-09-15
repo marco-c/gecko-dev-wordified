@@ -410,9 +410,9 @@ const
 auctionConfigOverrides
 =
 {
-decisionLogicUrl
+decisionLogicURL
 :
-createDecisionScriptUrl
+createDecisionScriptURL
 (
 uuid
 {
