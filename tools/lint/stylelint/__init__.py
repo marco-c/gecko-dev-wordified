@@ -658,7 +658,7 @@ bin
 "
 stylelint
 .
-js
+mjs
 "
             
 )
