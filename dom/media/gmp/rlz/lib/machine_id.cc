@@ -314,7 +314,7 @@ int
 std
 :
 :
-basic_string
+vector
 <
 unsigned
 char
@@ -668,7 +668,7 @@ Generate
 (
 id_binary
 .
-c_str
+data
 (
 )
 kSizeWithoutChecksum
@@ -687,7 +687,7 @@ BytesToString
 (
 id_binary
 .
-c_str
+data
 (
 )
 kSizeWithoutChecksum
