@@ -16666,11 +16666,21 @@ optional
 properties
             
 if
+(
+                
+test
+.
+get
+(
 "
 alert_change_type
 "
-in
-test
+None
+)
+is
+not
+None
+                
 and
 "
 alertChangeType
@@ -16678,6 +16688,8 @@ alertChangeType
 not
 in
 suite
+            
+)
 :
                 
 suite

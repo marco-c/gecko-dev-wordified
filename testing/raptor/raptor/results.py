@@ -6324,6 +6324,25 @@ fore_window
 None
 )
                     
+new_result
+[
+"
+alert_change_type
+"
+]
+=
+test
+.
+get
+(
+                        
+"
+alert_change_type
+"
+None
+                    
+)
+                    
 #
 All
 Browsertime
