@@ -242,6 +242,13 @@ h
 #
 include
 "
+nsGlobalWindowOuter
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h

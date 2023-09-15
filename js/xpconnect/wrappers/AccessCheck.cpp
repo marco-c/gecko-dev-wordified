@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 XPCWrapper
 .
 h

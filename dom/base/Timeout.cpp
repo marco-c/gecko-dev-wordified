@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h

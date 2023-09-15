@@ -199,13 +199,6 @@ h
 #
 include
 "
-nsGlobalWindowOuter
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx

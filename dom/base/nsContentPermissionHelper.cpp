@@ -301,6 +301,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

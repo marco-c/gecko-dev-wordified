@@ -169,13 +169,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h

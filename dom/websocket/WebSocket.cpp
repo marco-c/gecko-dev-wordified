@@ -370,13 +370,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h

@@ -155,13 +155,6 @@ CookieJarSettings
 .
 h
 "
-#
-include
-"
-nsGlobalWindowInner
-.
-h
-"
 mozilla
 :
 :

@@ -165,13 +165,6 @@ h
 #
 include
 "
-nsGlobalWindowOuter
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -194,13 +187,6 @@ h
 include
 "
 nsUnicharUtils
-.
-h
-"
-#
-include
-"
-nsGlobalWindowInner
 .
 h
 "

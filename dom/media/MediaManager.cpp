@@ -509,13 +509,6 @@ h
 #
 include
 "
-nsGlobalWindowOuter
-.
-h
-"
-#
-include
-"
 nsHashPropertyBag
 .
 h

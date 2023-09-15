@@ -162,13 +162,6 @@ nsGlobalWindowInner
 .
 h
 "
-#
-include
-"
-nsGlobalWindowOuter
-.
-h
-"
 namespace
 mozilla
 :

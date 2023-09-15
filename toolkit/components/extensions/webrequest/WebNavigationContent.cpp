@@ -309,13 +309,6 @@ h
 #
 include
 "
-nsGlobalWindowOuter
-.
-h
-"
-#
-include
-"
 nsQueryObject
 .
 h

@@ -354,6 +354,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsGlobalWindowOuter
 .
 h

@@ -296,13 +296,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-#
-include
-"
-nsGlobalWindowInner
-.
-h
-"
 using
 namespace
 JS
