@@ -15128,7 +15128,7 @@ mOffsetPosition
 StyleOffsetPosition
 :
 :
-Auto
+Normal
 (
 )
 )

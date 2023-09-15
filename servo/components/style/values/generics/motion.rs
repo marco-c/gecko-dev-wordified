@@ -1315,7 +1315,7 @@ Returns
 the
 initial
 value
-auto
+normal
 .
 #
 [
@@ -1323,7 +1323,7 @@ inline
 ]
 pub
 fn
-auto
+normal
 (
 )
 -
@@ -1333,6 +1333,6 @@ Self
 Self
 :
 :
-Auto
+Normal
 }
 }

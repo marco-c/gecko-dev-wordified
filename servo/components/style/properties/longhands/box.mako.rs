@@ -2022,7 +2022,7 @@ computed
 OffsetPosition
 :
 :
-auto
+normal
 (
 )
 "
