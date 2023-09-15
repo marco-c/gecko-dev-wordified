@@ -441,6 +441,17 @@ operation
 url
 :
 href
+reportingMetadata
+:
+{
+'
+reserved
+.
+top_navigation
+'
+:
+BEACON_URL
+}
 }
 ]
 {
