@@ -31572,7 +31572,7 @@ JS
 AutoFilename
 filename
 ;
-unsigned
+uint32_t
 lineno
 ;
 /
@@ -31661,7 +31661,7 @@ the
 content
 process
 .
-unsigned
+uint32_t
 *
 linenop
 =

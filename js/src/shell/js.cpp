@@ -25440,7 +25440,7 @@ JS
 AutoFilename
 filename
 ;
-unsigned
+uint32_t
 lineno
 ;
 DescribeScriptedCaller

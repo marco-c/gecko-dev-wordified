@@ -2058,12 +2058,12 @@ JS
 AutoFilename
 scriptFilename
 ;
-unsigned
+uint32_t
 lineNo
 =
 0
 ;
-unsigned
+uint32_t
 colNo
 =
 0

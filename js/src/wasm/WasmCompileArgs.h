@@ -674,7 +674,7 @@ encoded
 bool
 filenameIsURL
 ;
-unsigned
+uint32_t
 line
 ;
 ScriptedCaller

@@ -8088,7 +8088,7 @@ MOZ_ASSERT
 workerPrivate
 )
 ;
-unsigned
+uint32_t
 lineno
 column
 ;
@@ -9578,7 +9578,7 @@ MOZ_ASSERT
 aCx
 )
 ;
-unsigned
+uint32_t
 lineno
 column
 ;

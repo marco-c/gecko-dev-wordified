@@ -12494,7 +12494,7 @@ const
 char
 *
 filename
-unsigned
+uint32_t
 lineno
 const
 char
@@ -19224,7 +19224,7 @@ char
 *
 *
 file
-unsigned
+uint32_t
 *
 linenop
 uint32_t
@@ -19456,7 +19456,7 @@ char
 *
 *
 file
-unsigned
+uint32_t
 *
 linenop
 uint32_t
