@@ -923,6 +923,8 @@ false
 for
 s
 in
+vec
+!
 [
 snapshot
 snapshot2
