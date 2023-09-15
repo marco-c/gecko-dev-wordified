@@ -2808,6 +2808,9 @@ responseStart
 TimeStamp
 responseEnd
 ;
+TimeStamp
+transactionPending
+;
 }
 ;
 struct

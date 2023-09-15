@@ -46447,7 +46447,9 @@ else
 *
 _retval
 =
-mTransactionPendingTime
+mTransactionTimings
+.
+transactionPending
 ;
 }
 return
@@ -51396,15 +51398,6 @@ mTransaction
 -
 >
 Timings
-(
-)
-;
-mTransactionPendingTime
-=
-mTransaction
--
->
-GetPendingTime
 (
 )
 ;
