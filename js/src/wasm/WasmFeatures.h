@@ -216,9 +216,6 @@ methods
 bool
 HasPlatformSupport
 (
-JSContext
-*
-cx
 )
 ;
 /
