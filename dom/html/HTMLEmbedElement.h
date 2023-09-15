@@ -305,6 +305,12 @@ aTabIndex
 )
 override
 ;
+int32_t
+TabIndexDefault
+(
+)
+override
+;
 bool
 ParseAttribute
 (
