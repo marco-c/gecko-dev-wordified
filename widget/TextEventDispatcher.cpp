@@ -4358,6 +4358,13 @@ keyEvent
 IsMeta
 (
 )
+|
+|
+keyEvent
+.
+IsOS
+(
+)
 )
 )
 {

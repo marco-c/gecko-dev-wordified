@@ -4613,7 +4613,7 @@ VK_RWIN
 mModifiers
 |
 =
-MODIFIER_META
+MODIFIER_OS
 ;
 }
 if
@@ -5056,7 +5056,7 @@ return
 (
 mModifiers
 &
-MODIFIER_META
+MODIFIER_OS
 )
 !
 =

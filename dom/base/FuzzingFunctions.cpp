@@ -649,6 +649,12 @@ false
 )
 ModifierKey
 (
+MODIFIER_OS
+KEY_NAME_INDEX_OS
+false
+)
+ModifierKey
+(
 MODIFIER_SHIFT
 KEY_NAME_INDEX_Shift
 false
@@ -1588,6 +1594,11 @@ SET_MODIFIER
 (
 ModifierNumLock
 MODIFIER_NUMLOCK
+)
+SET_MODIFIER
+(
+ModifierOS
+MODIFIER_OS
 )
 SET_MODIFIER
 (
