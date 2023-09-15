@@ -120387,7 +120387,7 @@ memberInfo
 )
 :
         
-_
+member
 conversionInfo
 =
 memberInfo
@@ -120409,6 +120409,30 @@ conversionInfo
 holderType
 is
 None
+        
+if
+member
+.
+getExtendedAttribute
+(
+"
+BinaryType
+"
+)
+:
+            
+return
+member
+.
+getExtendedAttribute
+(
+"
+BinaryType
+"
+)
+[
+0
+]
         
 declType
 =
