@@ -76,8 +76,6 @@ distutils
 spawn
 import
 find_executable
-import
-six
 here
 =
 os
@@ -185,9 +183,7 @@ if
 isinstance
 (
 hooktype
-six
-.
-binary_type
+bytes
 )
 :
         

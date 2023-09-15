@@ -104,6 +104,8 @@ os
 import
 re
 import
+shlex
+import
 subprocess
 import
 sys
@@ -121,8 +123,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozlint
 import
@@ -428,11 +428,9 @@ cmd
 .
 join
 (
-six
+shlex
 .
-moves
-.
-shlex_quote
+quote
 (
 arg
 )

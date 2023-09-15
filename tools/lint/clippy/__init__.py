@@ -65,8 +65,6 @@ import
 subprocess
 import
 sys
-import
-six
 from
 mozlint
 import
@@ -127,12 +125,7 @@ json
 .
 loads
 (
-six
-.
-ensure_text
-(
 line
-)
 )
         
 if
