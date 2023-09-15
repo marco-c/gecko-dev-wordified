@@ -184,16 +184,6 @@ set
 [
 [
 "
-permissions
-.
-delegation
-.
-enabled
-"
-true
-]
-[
-"
 dom
 .
 security

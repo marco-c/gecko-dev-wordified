@@ -662,16 +662,6 @@ enabled
 "
 true
 ]
-[
-"
-permissions
-.
-delegation
-.
-enabled
-"
-true
-]
 /
 /
 This

@@ -105,16 +105,6 @@ set
 [
 [
 "
-permissions
-.
-delegation
-.
-enabled
-"
-true
-]
-[
-"
 dom
 .
 vibrator

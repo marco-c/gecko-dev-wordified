@@ -4741,7 +4741,7 @@ false
 }
 /
 /
-If
+when
 we
 delegate
 permission
@@ -4757,16 +4757,6 @@ level
 /
 /
 window
-if
-(
-StaticPrefs
-:
-:
-permissions_delegation_enabled
-(
-)
-)
-{
 RefPtr
 <
 dom
@@ -4802,7 +4792,6 @@ GetCurrentWindowGlobal
 (
 )
 ;
-}
 /
 /
 Return
