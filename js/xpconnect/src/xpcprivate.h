@@ -16887,8 +16887,6 @@ bool
 aForceUTC
 bool
 aAlwaysUseFdlibm
-bool
-aLocaleEnUS
 )
 ;
 /

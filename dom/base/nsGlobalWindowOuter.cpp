@@ -14852,16 +14852,6 @@ RFPTarget
 :
 JSMathFdlibm
 )
-aDocument
--
->
-ShouldResistFingerprinting
-(
-RFPTarget
-:
-:
-JSLocale
-)
 )
 ;
 /
