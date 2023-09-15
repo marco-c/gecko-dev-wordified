@@ -313,6 +313,7 @@ representation
 of
 this
 cursor
+.
 param
 aCursor
 the
@@ -1483,6 +1484,8 @@ repeatedly
 with
 the
 same
+/
+/
 aCursorImage
 if
 (

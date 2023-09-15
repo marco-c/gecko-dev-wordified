@@ -141,11 +141,11 @@ if
 there
 is
 more
+/
+/
 than
 one
 .
-/
-/
 The
 determination
 of
@@ -159,6 +159,8 @@ beyond
 the
 scope
 of
+/
+/
 this
 comment
 .
@@ -208,6 +210,8 @@ nil
 meaning
 no
 matching
+/
+/
 app
 was
 found
@@ -330,6 +334,8 @@ wasnt
 launched
 for
 some
+/
+/
 reason
 .
 BOOL

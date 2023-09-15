@@ -667,9 +667,9 @@ on
 0
 but
 the
+/
+/
 signs
-/
-/
 are
 different
 (
@@ -726,6 +726,8 @@ have
 the
 same
 axis
+/
+/
 polarities
 /
 /
@@ -772,10 +774,10 @@ is
 for
 a
 match
+/
+/
 to
 the
-/
-/
 beginning
 of
 the
@@ -790,11 +792,11 @@ record
 with
 model
 name
+/
+/
 "
 MacBook
 "
-/
-/
 matches
 computer
 models
@@ -834,11 +836,11 @@ fails
 then
 try
 each
+/
+/
 model
 -
 independent
-/
-/
 access
 method
 in
@@ -1309,6 +1311,8 @@ LED
 backlight
 introduced
 June
+/
+/
 '
 07
 .
@@ -1534,6 +1538,8 @@ Looks
 like
 the
 X
+/
+/
 and
 Y
 axes
@@ -1887,6 +1893,8 @@ least
 on
 early
 MacBookPro
+/
+/
 15
 "
 )
@@ -1930,6 +1938,8 @@ Specific
 MB
 and
 MBP
+/
+/
 models
 /
 /
@@ -2445,6 +2455,7 @@ ONEG_NAME
 (
 a
 )
+\
 [
 NSString
 stringWithFormat
@@ -2564,6 +2575,7 @@ logObject
 performSelector
 :
 logSelector
+\
 withObject
 :
 [
@@ -2594,6 +2606,7 @@ logObject
 \
 [
 logObject
+\
 performSelector
 :
 logSelector
@@ -2630,6 +2643,7 @@ logObject
 \
 [
 logObject
+\
 performSelector
 :
 logSelector

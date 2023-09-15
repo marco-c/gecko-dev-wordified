@@ -354,10 +354,10 @@ layouts
 are
 saved
 by
+/
+/
 macOS
 .
-/
-/
 If
 this
 changes
@@ -370,6 +370,8 @@ be
 reset
 to
 the
+/
+/
 default
 layout
 .
@@ -557,9 +559,9 @@ in
 mappedLayoutItems
 with
 this
+/
+/
 identifier
-/
-/
 that
 means
 updateItem
@@ -568,10 +570,10 @@ before
 this
 initialization
 .
+/
+/
 The
 input
-/
-/
 cached
 by
 updateItem
@@ -583,6 +585,8 @@ we
 should
 use
 that
+/
+/
 one
 .
 if
@@ -2382,6 +2386,8 @@ for
 image
 -
 only
+/
+/
 buttons
 .
 [
@@ -3838,6 +3844,8 @@ if
 there
 was
 no
+/
+/
 check
 .
 if

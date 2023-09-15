@@ -1241,6 +1241,8 @@ color
 .
 HARDCODING
 to
+/
+/
 the
 appropriate
 color
@@ -1274,12 +1276,12 @@ implementation
 for
 visited
 links
+/
+/
 which
 in
 turn
 uses
-/
-/
 systemPurpleColor
 so
 we

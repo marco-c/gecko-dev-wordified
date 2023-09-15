@@ -208,6 +208,8 @@ window
 The
 parent
 takes
+/
+/
 ownership
 .
 static_cast

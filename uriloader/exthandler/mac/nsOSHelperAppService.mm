@@ -240,6 +240,7 @@ s
 #
 define
 HELPERAPPLAUNCHER_BUNDLE_URL
+\
 "
 chrome
 :
@@ -1170,6 +1171,8 @@ t
 get
 an
 app
+/
+/
 bundle
 .
 rv

@@ -384,11 +384,11 @@ result
 .
 It
 will
+/
+/
 be
 run
 below
-/
-/
 directly
 in
 this
@@ -397,6 +397,8 @@ thread
 After
 creating
 this
+/
+/
 request
 .
 VNRecognizeTextRequest
@@ -463,6 +465,8 @@ for
 a
 recognized
 text
+/
+/
 string
 .
 VNRecognizedText
@@ -684,10 +688,10 @@ of
 this
 thread
 with
+/
+/
 an
 expensive
-/
-/
 CPU
 call
 .

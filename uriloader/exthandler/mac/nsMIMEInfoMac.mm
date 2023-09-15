@@ -144,6 +144,8 @@ pretty
 name
 (
 without
+/
+/
 .
 app
 suffix

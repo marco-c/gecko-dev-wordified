@@ -509,9 +509,9 @@ by
 a
 window
 displayed
+/
+/
 on
-/
-/
 the
 screen
 .
@@ -526,10 +526,10 @@ of
 the
 screen
 so
+/
+/
 we
 use
-/
-/
 the
 largest
 depth

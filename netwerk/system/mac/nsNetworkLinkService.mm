@@ -1231,6 +1231,7 @@ sa_len
 1
 )
 |
+\
 (
 sizeof
 (
@@ -1920,9 +1921,9 @@ not
 in
 arp
 table
+/
+/
 append
-/
-/
 ifname
 and
 IP
@@ -3077,6 +3078,8 @@ route
 to
 the
 predefine
+"
+"
 destincation
 "
 )
@@ -3151,6 +3154,8 @@ d
 %
 d
 )
+"
+"
 rtm_seq
 :
 %
@@ -3463,10 +3468,10 @@ be
 in
 the
 same
+/
+/
 order
 .
-/
-/
 We
 want
 to
@@ -3479,6 +3484,8 @@ consistent
 Regardless
 of
 the
+/
+/
 interface
 order
 .

@@ -1127,6 +1127,8 @@ to
 get
 the
 height
+/
+/
 calculated
 for
 us
@@ -1147,10 +1149,10 @@ t
 truncate
 the
 vast
+/
+/
 majority
 of
-/
-/
 things
 that
 might
@@ -1189,9 +1191,9 @@ sizes
 with
 kAccessoryViewPadding
 pix
+/
+/
 padding
-/
-/
 on
 each
 side
@@ -1200,6 +1202,8 @@ pix
 horizontal
 padding
 between
+/
+/
 controls
 float
 greatestHeight
@@ -1728,6 +1732,8 @@ user
 presses
 OK
 in
+/
+/
 the
 dialog
 .
@@ -2366,6 +2372,8 @@ user
 presses
 OK
 in
+/
+/
 the
 dialog
 .
@@ -3298,10 +3306,10 @@ see
 if
 the
 file
+/
+/
 exists
 .
-/
-/
 The
 user
 could
@@ -3315,6 +3323,8 @@ meant
 to
 replace
 the
+/
+/
 file
 .
 if
@@ -3411,6 +3421,8 @@ Using
 the
 first
 index
+"
+"
 instead
 .
 "

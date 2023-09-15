@@ -278,6 +278,8 @@ rectangle
 hole
 in
 the
+/
+/
 icon
 .
 [
@@ -933,6 +935,8 @@ MOZProgressDockOverlayView
 -
 draws
 the
+/
+/
 progress
 bar
 mDockTileWrapperView
@@ -1313,6 +1317,8 @@ apps
 /
 /
 See
+/
+/
 https
 :
 /

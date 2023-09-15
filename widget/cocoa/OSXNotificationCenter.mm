@@ -760,6 +760,8 @@ if
 a
 user
 clicks
+/
+/
 the
 close
 button
@@ -1555,10 +1557,10 @@ alert
 show
 additional
 actions
+/
+/
 dealing
 with
-/
-/
 permissions
 .
 bool
@@ -2159,9 +2161,9 @@ is
 no
 icon
 URL
+/
+/
 or
-/
-/
 notification
 icons
 are
@@ -3119,6 +3121,8 @@ to
 support
 context
 paint
+/
+/
 properties
 nsCocoaUtils
 :

@@ -228,12 +228,12 @@ need
 to
 tell
 the
+/
+/
 vibrancy
 effect
 to
 look
-/
-/
 active
 regardless
 of

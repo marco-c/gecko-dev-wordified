@@ -273,6 +273,8 @@ turn
 contains
 command
 line
+/
+/
 arguments
 void
 nsMacRemoteServer
@@ -599,9 +601,9 @@ us
 about
 command
 line
+/
+/
 arguments
-/
-/
 passed
 to
 them
@@ -614,11 +616,11 @@ process
 is
 restarting
 we
+/
+/
 still
 need
 to
-/
-/
 register
 for
 notifications

@@ -375,11 +375,11 @@ observers
 of
 our
 effectiveAppearance
+/
+/
 property
 whenever
 the
-/
-/
 pref
 or
 the

@@ -2026,8 +2026,8 @@ os
 device
 features
 blockOn
-DRIVER_COMPARISON_IGNORED
 \
+DRIVER_COMPARISON_IGNORED
 V
 (
 0
@@ -2036,6 +2036,7 @@ V
 0
 )
 ruleId
+\
 "
 "
 )
@@ -2148,9 +2149,9 @@ s
 broken
 in
 some
+/
+/
 configurations
-/
-/
 and
 we
 want
@@ -2404,6 +2405,8 @@ re
 evaluating
 the
 downloaded
+/
+/
 blocklist
 .
 if

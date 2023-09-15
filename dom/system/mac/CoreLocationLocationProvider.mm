@@ -492,12 +492,12 @@ to
 GeoIP
 so
 use
+/
+/
 NetworkGeolocationProvider
 for
 this
 .
-/
-/
 The
 concept
 here
@@ -506,6 +506,8 @@ is
 on
 error
 hand
+/
+/
 off
 geolocation
 to
@@ -514,8 +516,6 @@ which
 will
 then
 report
-/
-/
 back
 a
 location
@@ -1063,6 +1063,8 @@ failure
 )
 is
 not
+/
+/
 guaranteed
 [
 mCLObjects

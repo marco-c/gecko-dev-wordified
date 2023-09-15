@@ -436,10 +436,10 @@ error
 occurred
 while
 loading
+/
+/
 it
 .
-/
-/
 An
 icon
 might
@@ -501,12 +501,12 @@ space
 for
 the
 icon
+/
+/
 during
 the
 load
 and
-/
-/
 there
 is
 no
@@ -516,6 +516,8 @@ once
 the
 icon
 finishes
+/
+/
 loading
 .
 NSSize

@@ -506,9 +506,9 @@ run
 By
 setting
 the
+/
+/
 target
-/
-/
 blocks
 should
 still
@@ -516,10 +516,10 @@ run
 on
 DISPATH_QUEUE_PRIORITY_DEFAULT
 rather
+/
+/
 than
 creating
-/
-/
 a
 new
 thread
