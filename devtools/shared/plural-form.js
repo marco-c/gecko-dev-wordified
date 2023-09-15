@@ -69,6 +69,10 @@ a
 slight
 modification
 of
+the
+now
+removed
+*
 intl
 /
 locale
@@ -77,12 +81,12 @@ PluralForm
 .
 jsm
 that
-*
 removes
 dependencies
 on
 chrome
 privileged
+*
 APIs
 .
 To
@@ -91,7 +95,6 @@ maintenance
 easier
 this
 file
-*
 is
 kept
 as
@@ -99,6 +102,7 @@ close
 as
 possible
 to
+*
 the
 original
 in
@@ -106,7 +110,6 @@ terms
 of
 implementation
 .
-*
 The
 modified
 methods

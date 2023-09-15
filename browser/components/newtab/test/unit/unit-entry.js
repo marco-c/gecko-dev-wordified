@@ -1835,15 +1835,6 @@ removeListener
 }
 }
 }
-PluralForm
-:
-{
-get
-(
-)
-{
-}
-}
 Preferences
 :
 FakePrefs
