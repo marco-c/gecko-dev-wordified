@@ -1705,9 +1705,9 @@ last_ack_seq_num_
 0
 since
 any
+/
+/
 valid
-/
-/
 sequence
 number
 is
@@ -1895,9 +1895,9 @@ history
 because
 they
 might
+/
+/
 be
-/
-/
 reported
 as
 received

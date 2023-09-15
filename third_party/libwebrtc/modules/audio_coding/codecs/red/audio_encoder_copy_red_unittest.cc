@@ -292,6 +292,9 @@ last
 element
 .
 }
+/
+/
+namespace
 class
 AudioEncoderCopyRedTest
 :

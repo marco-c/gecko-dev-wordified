@@ -282,13 +282,6 @@ on
 #
 include
 <
-string
-.
-h
->
-#
-include
-<
 comdef
 .
 h
@@ -311,6 +304,13 @@ h
 include
 <
 mmsystem
+.
+h
+>
+#
+include
+<
+string
 .
 h
 >

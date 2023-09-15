@@ -87,6 +87,13 @@ tree
 /
 #
 include
+<
+immintrin
+.
+h
+>
+#
+include
 "
 modules
 /
@@ -98,13 +105,6 @@ adaptive_fir_filter_erl
 .
 h
 "
-#
-include
-<
-immintrin
-.
-h
->
 namespace
 webrtc
 {

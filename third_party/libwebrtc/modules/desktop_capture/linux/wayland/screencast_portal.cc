@@ -182,6 +182,12 @@ using
 xdg_portal
 :
 :
+RequestResponseFromPortalResponse
+;
+using
+xdg_portal
+:
+:
 RequestSessionProxy
 ;
 using
@@ -207,12 +213,6 @@ xdg_portal
 :
 :
 TearDownSession
-;
-using
-xdg_portal
-:
-:
-RequestResponseFromPortalResponse
 ;
 }
 /
