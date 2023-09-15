@@ -4042,6 +4042,7 @@ FFCodec
 ff_libvpx_vp9_encoder
 ;
 extern
+const
 FFCodec
 ff_libvpx_vp9_decoder
 ;
