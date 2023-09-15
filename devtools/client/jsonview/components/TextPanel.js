@@ -260,10 +260,7 @@ errorMessage
 :
 PropTypes
 .
-instanceOf
-(
-Text
-)
+string
 data
 :
 PropTypes
