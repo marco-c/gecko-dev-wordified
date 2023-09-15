@@ -1609,6 +1609,12 @@ delayed_packet_outage_samples
 =
 num_samples
 ;
++
++
+lifetime_stats_
+.
+delayed_packet_outage_events
+;
 }
 void
 StatisticsCalculator

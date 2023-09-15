@@ -551,6 +551,11 @@ delayed_packet_outage_samples
 =
 0
 ;
+uint64_t
+delayed_packet_outage_events
+=
+0
+;
 /
 /
 This
