@@ -388,7 +388,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 if
@@ -3466,7 +3466,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -3505,7 +3505,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 )
 ;
@@ -3540,7 +3540,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -3579,7 +3579,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 )
 ;
@@ -3614,7 +3614,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -3653,7 +3653,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 )
 ;
@@ -3688,7 +3688,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -3727,7 +3727,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 )
 ;
@@ -3762,7 +3762,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -3801,7 +3801,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 )
 ;
@@ -4130,7 +4130,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -4283,7 +4283,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -4374,7 +4374,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_TRUE
@@ -4454,7 +4454,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_TRUE
@@ -4533,7 +4533,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_TRUE
@@ -5019,7 +5019,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -5117,7 +5117,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_TRUE
@@ -5197,7 +5197,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_TRUE
@@ -5276,7 +5276,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_TRUE
@@ -6222,7 +6222,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -6298,7 +6298,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_NE
@@ -6340,7 +6340,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -6515,7 +6515,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -6603,7 +6603,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -6622,7 +6622,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -6675,7 +6675,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -6691,7 +6691,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -6729,7 +6729,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -6816,7 +6816,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -6840,7 +6840,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_GT
@@ -6869,7 +6869,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 mcc
@@ -6921,7 +6921,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -6960,7 +6960,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -6976,7 +6976,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 scrollOffset
@@ -6989,7 +6989,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -7068,7 +7068,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -7092,7 +7092,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -7111,7 +7111,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 mcc
@@ -7198,7 +7198,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -7217,7 +7217,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 scrollOffset
@@ -7230,7 +7230,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 mcc
@@ -7329,7 +7329,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -7736,7 +7736,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -7809,7 +7809,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_NE
@@ -7917,7 +7917,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -7936,7 +7936,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -7986,7 +7986,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -8005,7 +8005,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -8021,7 +8021,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -8108,7 +8108,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -8147,7 +8147,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -8173,7 +8173,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -8191,7 +8191,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -8219,7 +8219,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 mcc
@@ -8271,7 +8271,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -8309,7 +8309,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -8348,7 +8348,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -8364,7 +8364,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 currentScrollOffset
@@ -8377,7 +8377,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -8456,7 +8456,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -8481,7 +8481,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -8506,7 +8506,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -8525,7 +8525,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 mcc
@@ -8613,7 +8613,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -8638,7 +8638,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -8657,7 +8657,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 currentScrollOffset
@@ -8670,7 +8670,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 mcc
@@ -8758,7 +8758,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -8795,7 +8795,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
@@ -9193,7 +9193,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -9269,7 +9269,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_NE
@@ -9302,7 +9302,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -9320,7 +9320,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -9495,7 +9495,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -9583,7 +9583,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -9602,7 +9602,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -9655,7 +9655,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -9671,7 +9671,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -9709,7 +9709,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -9797,7 +9797,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -9821,7 +9821,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_EQ
@@ -9860,7 +9860,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -9877,7 +9877,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 mcc
@@ -9929,7 +9929,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -9983,7 +9983,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -9999,7 +9999,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -10079,7 +10079,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -10120,7 +10120,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -10136,7 +10136,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 mcc
@@ -10173,7 +10173,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -10212,7 +10212,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -10228,7 +10228,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 PanGesture
@@ -10307,7 +10307,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _41
@@ -10326,7 +10326,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 _42
@@ -10342,7 +10342,7 @@ GetOverscrollTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 mcc
@@ -12889,7 +12889,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_GT

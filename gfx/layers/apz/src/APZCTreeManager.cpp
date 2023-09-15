@@ -9643,7 +9643,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 )
 ;
@@ -25090,7 +25090,7 @@ GetCurrentAsyncTransform
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 AsyncTransformComponents
 {
 AsyncTransformComponent

@@ -1163,7 +1163,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_EQ
@@ -1523,7 +1523,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -1922,7 +1922,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_EQ
@@ -2199,7 +2199,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_EQ
@@ -2319,7 +2319,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 QueueMockHitResult
@@ -2616,7 +2616,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_GT
@@ -3484,7 +3484,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 /
@@ -3718,7 +3718,7 @@ GetCurrentAsyncScrollOffset
 AsyncPanZoomController
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 if
@@ -4331,7 +4331,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_GT
@@ -4375,7 +4375,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_EQ
@@ -4644,7 +4644,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_GT
@@ -4681,7 +4681,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_EQ
@@ -4864,7 +4864,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 ;
 EXPECT_EQ

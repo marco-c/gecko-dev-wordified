@@ -23127,7 +23127,7 @@ overscrollTransform
 =
 GetOverscrollTransform
 (
-eForHitTesting
+eForEventHandling
 )
 ;
 ParentLayerPoint
@@ -33809,7 +33809,7 @@ result
 *
 GetCurrentAsyncTransformWithOverscroll
 (
-eForHitTesting
+eForEventHandling
 aComponents
 )
 ;

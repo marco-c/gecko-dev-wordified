@@ -875,7 +875,7 @@ AsyncPanZoomController
 AsyncTransformConsumer
 :
 :
-eForHitTesting
+eForEventHandling
 )
 .
 y
