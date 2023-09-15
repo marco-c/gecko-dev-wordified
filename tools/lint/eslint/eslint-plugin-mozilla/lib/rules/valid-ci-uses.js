@@ -147,6 +147,14 @@ windows
 ]
 [
 "
+nsIDefaultAgent
+"
+"
+windows
+"
+]
+[
+"
 nsIJumpListItem
 "
 "
