@@ -3691,6 +3691,11 @@ mLoading
 :
 1
 ;
+bool
+mBroken
+:
+1
+;
 /
 *
 *

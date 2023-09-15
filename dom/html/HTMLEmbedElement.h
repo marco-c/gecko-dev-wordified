@@ -353,6 +353,13 @@ aAttribute
 const
 override
 ;
+ElementState
+IntrinsicState
+(
+)
+const
+override
+;
 void
 DestroyContent
 (

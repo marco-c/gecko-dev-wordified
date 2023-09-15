@@ -24013,7 +24013,7 @@ NS_ERROR_INVALID_ARG
 aElement
 -
 >
-AddStates
+AddManuallyManagedStates
 (
 state
 )
@@ -24071,7 +24071,7 @@ NS_ERROR_INVALID_ARG
 aElement
 -
 >
-RemoveStates
+RemoveManuallyManagedStates
 (
 state
 )

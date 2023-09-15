@@ -3086,6 +3086,14 @@ aNotify
 )
 override
 ;
+void
+UpdateEditableState
+(
+bool
+aNotify
+)
+override
+;
 bool
 ParseAttribute
 (
