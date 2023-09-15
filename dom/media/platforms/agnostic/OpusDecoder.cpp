@@ -165,13 +165,6 @@ VorbisLayout
 #
 include
 "
-VorbisUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 EndianUtils
