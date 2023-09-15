@@ -255,12 +255,6 @@ LogSinkImpl
 >
 sSink
 ;
-void
-GetWebRtcLogPrefs
-(
-)
-{
-}
 mozilla
 :
 :
@@ -618,10 +612,6 @@ Disabled
 return
 ;
 }
-GetWebRtcLogPrefs
-(
-)
-;
 mozilla
 :
 :
@@ -643,10 +633,6 @@ EnableWebRtcLog
 (
 )
 {
-GetWebRtcLogPrefs
-(
-)
-;
 mozilla
 :
 :
@@ -889,10 +875,6 @@ return
 _ns
 ;
 }
-GetWebRtcLogPrefs
-(
-)
-;
 CheckOverrides
 (
 )
