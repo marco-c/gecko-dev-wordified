@@ -763,7 +763,7 @@ nonexistent
 *
 .
 test
-~
+^
 NOTFOUND
 MAP
 *
