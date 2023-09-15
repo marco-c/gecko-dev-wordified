@@ -1907,22 +1907,12 @@ path
 .
 join
 (
-        
+GECKO
 "
-/
-builds
-/
-worker
-/
-checkouts
-/
-gecko
-/
 taskcluster
 /
 scripts
 "
-    
 )
     
 run_task_file_path
