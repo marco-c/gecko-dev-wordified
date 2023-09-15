@@ -6614,10 +6614,9 @@ new
 Error
 (
 "
-implement
-support
-for
-QUERY_TYPE_UNIFIED
+Unknown
+query
+type
 "
 )
 ;
