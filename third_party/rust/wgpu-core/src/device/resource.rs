@@ -8034,9 +8034,6 @@ module
 info
 self
 .
-features
-self
-.
 limits
 .
 clone
