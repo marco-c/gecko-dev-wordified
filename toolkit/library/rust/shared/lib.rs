@@ -184,10 +184,6 @@ cubeb_pulse
 ;
 extern
 crate
-data_storage
-;
-extern
-crate
 encoding_glue
 ;
 extern
