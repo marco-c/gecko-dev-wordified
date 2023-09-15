@@ -35841,6 +35841,15 @@ clasp
 )
 ;
 void
+debugAssertGCThingIsTenured
+(
+Register
+ptr
+Register
+temp
+)
+;
+void
 branchArrayIsNotPacked
 (
 Register
