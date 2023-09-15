@@ -31519,6 +31519,12 @@ IsRootScrollbarContainer
 const
 ;
 bool
+IsScrollbarLayerForRoot
+(
+)
+const
+;
+bool
 IsZoomingLayer
 (
 )
