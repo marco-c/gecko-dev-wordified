@@ -624,10 +624,9 @@ JS
 :
 ToUint32
 ;
+static
+inline
 bool
-js
-:
-:
 ObjectMayHaveExtraIndexedOwnProperties
 (
 JSObject
@@ -870,10 +869,8 @@ chain
 .
 *
 /
+static
 bool
-js
-:
-:
 ObjectMayHaveExtraIndexedProperties
 (
 JSObject
