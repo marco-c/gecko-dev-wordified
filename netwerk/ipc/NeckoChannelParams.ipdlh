@@ -2291,6 +2291,7 @@ IPCStream
 uploadStream
 ;
 LoadInfoArgs
+?
 loadInfo
 ;
 uint32_t
@@ -2708,6 +2709,7 @@ ReplacementChannelConfigInit
 init
 ;
 LoadInfoArgs
+?
 loadInfo
 ;
 uint64_t
@@ -3171,6 +3173,7 @@ IPCStream
 uploadStream
 ;
 LoadInfoArgs
+?
 loadInfo
 ;
 uint32_t

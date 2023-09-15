@@ -243,7 +243,10 @@ PNeckoChild
 nsIURI
 *
 const
+Maybe
+<
 LoadInfoArgs
+>
 &
 )
 ;

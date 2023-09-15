@@ -4395,7 +4395,13 @@ IPCResult
 RecvReportFrameTimingData
 (
 const
+mozilla
+:
+:
+Maybe
+<
 LoadInfoArgs
+>
 &
 loadInfoArgs
 const
