@@ -448,7 +448,7 @@ Start
 (
 )
 ;
-webrtc_data_channel_
+inner_channel_
 =
 controller_
 -
@@ -461,6 +461,19 @@ test
 init_
 )
 ;
+channel_
+=
+webrtc
+:
+:
+SctpDataChannel
+:
+:
+CreateProxy
+(
+inner_channel_
+)
+;
 }
 ~
 SctpDataChannelTest
@@ -471,6 +484,26 @@ override
 run_loop_
 .
 Flush
+(
+)
+;
+inner_channel_
+=
+nullptr
+;
+channel_
+=
+nullptr
+;
+controller_
+.
+reset
+(
+)
+;
+observer_
+.
+reset
 (
 )
 ;
@@ -494,7 +527,7 @@ set_transport_available
 true
 )
 ;
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnTransportChannelCreated
@@ -504,7 +537,7 @@ OnTransportChannelCreated
 if
 (
 !
-webrtc_data_channel_
+inner_channel_
 -
 >
 sid_s
@@ -518,7 +551,7 @@ HasValue
 {
 SetChannelSid
 (
-webrtc_data_channel_
+inner_channel_
 StreamId
 (
 0
@@ -678,7 +711,7 @@ FakeDataChannelObserver
 )
 )
 ;
-webrtc_data_channel_
+channel_
 -
 >
 RegisterObserver
@@ -731,7 +764,16 @@ scoped_refptr
 <
 SctpDataChannel
 >
-webrtc_data_channel_
+inner_channel_
+;
+rtc
+:
+:
+scoped_refptr
+<
+DataChannelInterface
+>
+channel_
 ;
 }
 ;
@@ -743,7 +785,7 @@ VerifyConfigurationGetters
 {
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 label
@@ -756,7 +798,7 @@ test
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 protocol
@@ -821,7 +863,7 @@ maxRetransmitTime
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 reliable
@@ -834,7 +876,7 @@ reliable
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 ordered
@@ -847,7 +889,7 @@ ordered
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 negotiated
@@ -860,7 +902,7 @@ negotiated
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 priority
@@ -874,7 +916,7 @@ kLow
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 maxRetransmitTime
@@ -892,7 +934,7 @@ uint16_t
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 maxPacketLifeTime
@@ -905,7 +947,7 @@ maxRetransmitTime
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 maxRetransmits
@@ -923,7 +965,7 @@ uint16_t
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 maxRetransmitsOpt
@@ -948,7 +990,7 @@ configuration
 .
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 id
@@ -961,7 +1003,7 @@ id
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+inner_channel_
 -
 >
 sid_s
@@ -978,7 +1020,7 @@ SetChannelReady
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+channel_
 -
 >
 id
@@ -989,7 +1031,7 @@ id
 ;
 EXPECT_EQ
 (
-webrtc_data_channel_
+inner_channel_
 -
 >
 sid_s
@@ -1151,7 +1193,7 @@ DataChannelInterface
 :
 :
 kConnecting
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -1180,7 +1222,7 @@ DataChannelInterface
 :
 :
 kOpen
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -1216,7 +1258,7 @@ then
 /
 kClose
 .
-webrtc_data_channel_
+channel_
 -
 >
 Close
@@ -1276,7 +1318,7 @@ DataChannelInterface
 :
 :
 kClosed
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -1297,7 +1339,7 @@ on_state_change_count
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -1328,7 +1370,7 @@ controller_
 >
 IsConnected
 (
-webrtc_data_channel_
+inner_channel_
 .
 get
 (
@@ -1381,7 +1423,7 @@ abcd
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -1398,7 +1440,7 @@ successful_send_count
 EXPECT_EQ
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 buffered_amount
@@ -1449,7 +1491,7 @@ i
 {
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -1470,7 +1512,7 @@ size
 )
 *
 number_of_packets
-webrtc_data_channel_
+channel_
 -
 >
 buffered_amount
@@ -1505,7 +1547,7 @@ number_of_packets
 EXPECT_EQ
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 buffered_amount
@@ -1577,7 +1619,7 @@ true
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -1612,7 +1654,7 @@ SetChannelReady
 EXPECT_EQ
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 buffered_amount
@@ -1686,7 +1728,7 @@ true
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -1728,7 +1770,7 @@ buffer
 size
 (
 )
-webrtc_data_channel_
+channel_
 -
 >
 buffered_amount
@@ -1778,7 +1820,7 @@ SetChannelReady
 EXPECT_EQ
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 buffered_amount
@@ -1906,7 +1948,7 @@ values
 EXPECT_EQ
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 messages_sent
@@ -1917,7 +1959,7 @@ messages_sent
 EXPECT_EQ
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 bytes_sent
@@ -1944,7 +1986,7 @@ false
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -1958,7 +2000,7 @@ buffers
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -1972,7 +2014,7 @@ buffers
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -2017,7 +2059,7 @@ size
 EXPECT_EQ_WAIT
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 buffered_amount
@@ -2029,7 +2071,7 @@ kDefaultTimeout
 EXPECT_EQ
 (
 3U
-webrtc_data_channel_
+channel_
 -
 >
 messages_sent
@@ -2040,7 +2082,7 @@ messages_sent
 EXPECT_EQ
 (
 bytes_sent
-webrtc_data_channel_
+channel_
 -
 >
 bytes_sent
@@ -2069,7 +2111,7 @@ true
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -2083,7 +2125,7 @@ buffers
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -2097,7 +2139,7 @@ buffers
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -2142,7 +2184,7 @@ size
 EXPECT_EQ
 (
 bytes_queued
-webrtc_data_channel_
+channel_
 -
 >
 buffered_amount
@@ -2153,7 +2195,7 @@ buffered_amount
 EXPECT_EQ
 (
 3U
-webrtc_data_channel_
+channel_
 -
 >
 messages_sent
@@ -2164,7 +2206,7 @@ messages_sent
 EXPECT_EQ
 (
 bytes_sent
-webrtc_data_channel_
+channel_
 -
 >
 bytes_sent
@@ -2193,7 +2235,7 @@ false
 EXPECT_EQ_WAIT
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 buffered_amount
@@ -2210,7 +2252,7 @@ bytes_queued
 EXPECT_EQ
 (
 6U
-webrtc_data_channel_
+channel_
 -
 >
 messages_sent
@@ -2221,7 +2263,7 @@ messages_sent
 EXPECT_EQ
 (
 bytes_sent
-webrtc_data_channel_
+channel_
 -
 >
 bytes_sent
@@ -2263,7 +2305,7 @@ EXPECT_EQ
 (
 -
 1
-webrtc_data_channel_
+channel_
 -
 >
 id
@@ -2277,7 +2319,7 @@ SetChannelReady
 ;
 EXPECT_GE
 (
-webrtc_data_channel_
+channel_
 -
 >
 id
@@ -2310,7 +2352,7 @@ controller_
 last_sid
 (
 )
-webrtc_data_channel_
+channel_
 -
 >
 id
@@ -2369,7 +2411,7 @@ controller_
 last_sid
 (
 )
-webrtc_data_channel_
+channel_
 -
 >
 id
@@ -2858,7 +2900,7 @@ DataChannelInterface
 :
 :
 kConnecting
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -2880,7 +2922,7 @@ DataChannelInterface
 :
 :
 kOpen
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -2952,7 +2994,7 @@ DataChannelInterface
 :
 :
 kConnecting
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -2974,7 +3016,7 @@ DataChannelInterface
 :
 :
 kOpen
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -2991,7 +3033,7 @@ set_send_blocked
 true
 )
 ;
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -2999,7 +3041,7 @@ Send
 buffer
 )
 ;
-webrtc_data_channel_
+channel_
 -
 >
 Close
@@ -3020,7 +3062,7 @@ DataChannelInterface
 :
 :
 kClosed
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -3031,7 +3073,7 @@ state
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -3080,7 +3122,7 @@ SendDataId
 {
 SetChannelSid
 (
-webrtc_data_channel_
+inner_channel_
 StreamId
 (
 1
@@ -3101,7 +3143,7 @@ data
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -3143,7 +3185,7 @@ ReceiveDataWithValidId
 {
 SetChannelSid
 (
-webrtc_data_channel_
+inner_channel_
 StreamId
 (
 1
@@ -3166,7 +3208,7 @@ abcd
 "
 )
 ;
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnDataReceived
@@ -3396,7 +3438,7 @@ beast
 ;
 SetChannelSid
 (
-webrtc_data_channel_
+inner_channel_
 StreamId
 (
 1
@@ -3411,7 +3453,7 @@ values
 EXPECT_EQ
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 messages_received
@@ -3422,7 +3464,7 @@ messages_received
 EXPECT_EQ
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 bytes_received
@@ -3443,7 +3485,7 @@ isn
 t
 open
 .
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnDataReceived
@@ -3460,7 +3502,7 @@ buffers
 data
 )
 ;
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnDataReceived
@@ -3477,7 +3519,7 @@ buffers
 data
 )
 ;
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnDataReceived
@@ -3508,7 +3550,7 @@ messages_received
 EXPECT_EQ
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 messages_received
@@ -3519,7 +3561,7 @@ messages_received
 EXPECT_EQ
 (
 0U
-webrtc_data_channel_
+channel_
 -
 >
 bytes_received
@@ -3586,7 +3628,7 @@ messages_received
 EXPECT_EQ
 (
 3U
-webrtc_data_channel_
+channel_
 -
 >
 messages_received
@@ -3597,7 +3639,7 @@ messages_received
 EXPECT_EQ
 (
 bytes_received
-webrtc_data_channel_
+channel_
 -
 >
 bytes_received
@@ -3613,7 +3655,7 @@ buffers
 while
 open
 .
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnDataReceived
@@ -3630,7 +3672,7 @@ buffers
 data
 )
 ;
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnDataReceived
@@ -3647,7 +3689,7 @@ buffers
 data
 )
 ;
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnDataReceived
@@ -3708,7 +3750,7 @@ messages_received
 EXPECT_EQ
 (
 6U
-webrtc_data_channel_
+channel_
 -
 >
 messages_received
@@ -3719,7 +3761,7 @@ messages_received
 EXPECT_EQ
 (
 bytes_received
-webrtc_data_channel_
+channel_
 -
 >
 bytes_received
@@ -4015,7 +4057,7 @@ i
 {
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -4039,7 +4081,7 @@ false
 .
 EXPECT_FALSE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -4056,7 +4098,7 @@ DataChannelInterface
 kOpen
 =
 =
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -4104,7 +4146,7 @@ set_transport_error
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -4119,7 +4161,7 @@ DataChannelInterface
 :
 :
 kClosed
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -4129,7 +4171,7 @@ state
 ;
 EXPECT_FALSE
 (
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4147,7 +4189,7 @@ RTCErrorType
 :
 :
 NETWORK_ERROR
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4165,7 +4207,7 @@ RTCErrorDetailType
 :
 :
 NONE
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4260,7 +4302,7 @@ i
 i
 )
 {
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnDataReceived
@@ -4279,7 +4321,7 @@ DataChannelInterface
 :
 :
 kClosed
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -4289,7 +4331,7 @@ state
 ;
 EXPECT_FALSE
 (
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4307,7 +4349,7 @@ RTCErrorType
 :
 :
 RESOURCE_EXHAUSTED
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4325,7 +4367,7 @@ RTCErrorDetailType
 :
 :
 NONE
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4362,7 +4404,7 @@ SendEmptyData
 {
 SetChannelSid
 (
-webrtc_data_channel_
+inner_channel_
 StreamId
 (
 1
@@ -4379,7 +4421,7 @@ DataChannelInterface
 :
 :
 kOpen
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -4396,7 +4438,7 @@ buffer
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -4411,7 +4453,7 @@ DataChannelInterface
 :
 :
 kOpen
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -4451,14 +4493,14 @@ set_transport_available
 true
 )
 ;
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnTransportChannelCreated
 (
 )
 ;
-webrtc_data_channel_
+channel_
 -
 >
 Close
@@ -4507,7 +4549,7 @@ SctpDataChannelTest
 UnusedTransitionsDirectlyToClosed
 )
 {
-webrtc_data_channel_
+channel_
 -
 >
 Close
@@ -4520,7 +4562,7 @@ DataChannelInterface
 :
 :
 kClosed
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -4629,7 +4671,7 @@ true
 ;
 EXPECT_TRUE
 (
-webrtc_data_channel_
+channel_
 -
 >
 Send
@@ -4699,7 +4741,7 @@ RTCErrorDetailType
 SCTP_FAILURE
 )
 ;
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnTransportChannelClosed
@@ -4720,7 +4762,7 @@ DataChannelInterface
 :
 :
 kClosed
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -4731,7 +4773,7 @@ kDefaultTimeout
 ;
 EXPECT_FALSE
 (
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4749,7 +4791,7 @@ RTCErrorType
 :
 :
 OPERATION_ERROR_WITH_DATA
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4767,7 +4809,7 @@ RTCErrorDetailType
 :
 :
 SCTP_FAILURE
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4862,7 +4904,7 @@ kProtocolViolation
 )
 )
 ;
-webrtc_data_channel_
+inner_channel_
 -
 >
 OnTransportChannelClosed
@@ -4883,7 +4925,7 @@ DataChannelInterface
 :
 :
 kClosed
-webrtc_data_channel_
+channel_
 -
 >
 state
@@ -4894,7 +4936,7 @@ kDefaultTimeout
 ;
 EXPECT_FALSE
 (
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4912,7 +4954,7 @@ RTCErrorType
 :
 :
 OPERATION_ERROR_WITH_DATA
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4930,7 +4972,7 @@ RTCErrorDetailType
 :
 :
 SCTP_FAILURE
-webrtc_data_channel_
+channel_
 -
 >
 error
@@ -4957,7 +4999,7 @@ SctpErrorCauseCode
 :
 kProtocolViolation
 )
-webrtc_data_channel_
+channel_
 -
 >
 error
