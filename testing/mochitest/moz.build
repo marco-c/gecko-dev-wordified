@@ -495,7 +495,7 @@ plain
 /
 mochitest
 .
-ini
+toml
 "
 "
 tests
@@ -512,7 +512,7 @@ tests
 /
 mochitest
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS
@@ -526,14 +526,14 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 "
 chrome
 /
 chrome
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS
@@ -547,7 +547,7 @@ browser_chrome
 /
 browser
 .
-ini
+toml
 "
 ]
 TEST_HARNESS_FILES
