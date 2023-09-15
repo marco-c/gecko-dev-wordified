@@ -607,6 +607,9 @@ AV_CODEC_CAP_SMALL_LAST_FRAME
 <
 6
 )
+#
+if
+FF_API_SUBFRAMES
 /
 *
 *
@@ -727,6 +730,8 @@ AV_CODEC_CAP_SUBFRAMES
 <
 8
 )
+#
+endif
 /
 *
 *

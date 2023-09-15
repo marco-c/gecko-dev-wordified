@@ -218,6 +218,13 @@ h
 #
 include
 "
+packet
+.
+h
+"
+#
+include
+"
 cbs
 .
 h
@@ -338,6 +345,10 @@ cbc
 CodedBitstreamFragment
 current_obu
 ;
+AVPacket
+*
+pkt
+;
 AVBufferRef
 *
 seq_ref
@@ -398,6 +409,9 @@ AV1_NUM_REF_FRAMES
 ;
 AV1Frame
 cur_frame
+;
+int
+nb_unit
 ;
 /
 /

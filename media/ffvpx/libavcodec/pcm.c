@@ -3665,6 +3665,8 @@ p
 capabilities
 =
 AV_CODEC_CAP_DR1
+|
+AV_CODEC_CAP_PARAM_CHANGE
 \
 .
 p

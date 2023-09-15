@@ -614,7 +614,7 @@ h
 #
 include
 "
-dct
+fdctdsp
 .
 h
 "

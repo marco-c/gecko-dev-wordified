@@ -172,13 +172,6 @@ h
 #
 include
 "
-dct
-.
-h
-"
-#
-include
-"
 faandct
 .
 h

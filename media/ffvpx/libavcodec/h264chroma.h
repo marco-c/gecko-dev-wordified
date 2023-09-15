@@ -298,6 +298,16 @@ int
 bit_depth
 )
 ;
+void
+ff_h264chroma_init_riscv
+(
+H264ChromaContext
+*
+c
+int
+bit_depth
+)
+;
 #
 endif
 /
