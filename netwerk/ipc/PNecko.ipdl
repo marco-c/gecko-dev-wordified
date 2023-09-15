@@ -874,6 +874,7 @@ nullable
 nsIURI
 uri
 LoadInfoArgs
+?
 loadInfo
 )
 returns
@@ -890,6 +891,7 @@ nullable
 nsIURI
 uri
 LoadInfoArgs
+?
 loadInfo
 )
 returns

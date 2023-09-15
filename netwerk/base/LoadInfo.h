@@ -295,6 +295,8 @@ nsresult
 LoadInfoArgsToLoadInfo
 (
 const
+Maybe
+<
 mozilla
 :
 :
@@ -302,6 +304,7 @@ net
 :
 :
 LoadInfoArgs
+>
 &
 aLoadInfoArgs
 const
@@ -1657,6 +1660,8 @@ ipc
 LoadInfoArgsToLoadInfo
 (
 const
+Maybe
+<
 mozilla
 :
 :
@@ -1664,6 +1669,7 @@ net
 :
 :
 LoadInfoArgs
+>
 &
 aLoadInfoArgs
 const
