@@ -16638,6 +16638,13 @@ sMaxInit
 )
 )
 {
+this
+-
+>
+reportAllocOverflow
+(
+)
+;
 return
 false
 ;
