@@ -8972,11 +8972,14 @@ xdr
 >
 codeUint32
 (
-&
 source
 -
 >
 startColumn_
+.
+addressOfValueForTranscode
+(
+)
 )
 )
 ;
