@@ -1090,6 +1090,8 @@ to
 indicate
 invalid
 credentials
+/
+/
 authorization
 =
 metadata
@@ -1444,12 +1446,6 @@ ntlmTypeTwoCount
 ;
 response
 .
-finish
-(
-)
-;
-response
-.
 seizePower
 (
 )
@@ -1459,6 +1455,12 @@ response
 bodyOutPutStream
 .
 close
+(
+)
+;
+response
+.
+finish
 (
 )
 ;
