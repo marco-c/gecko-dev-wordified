@@ -631,7 +631,7 @@ privacy
 .
 partition
 .
-bloburl_per_agent_cluster
+bloburl_per_partition_key
 "
 false
 ]
