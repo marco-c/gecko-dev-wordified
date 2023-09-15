@@ -19655,15 +19655,6 @@ bff
 config
 "
 "
-US
-DE
-CA
-GB
-IE
-CH
-AT
-BE
-IN
 FR
 IT
 ES
