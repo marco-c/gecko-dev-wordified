@@ -6070,6 +6070,12 @@ _WIN32_WINNT
 <
 0x0A00
 )
+|
+|
+defined
+(
+__MINGW32__
+)
 WINBASEAPI
 BOOL
 WINAPI
