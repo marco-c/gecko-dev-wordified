@@ -697,9 +697,6 @@ void
 pArg
 )
 {
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 /
 /
 Persist
@@ -819,8 +816,6 @@ return
 SQLITE_OK
 ;
 }
-#
-endif
 BaseFile
 *
 p
