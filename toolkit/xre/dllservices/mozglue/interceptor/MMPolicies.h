@@ -230,6 +230,7 @@ defined
 (
 __MINGW32__
 )
+WINBASEAPI
 PVOID
 WINAPI
 VirtualAlloc2
@@ -251,6 +252,7 @@ ULONG
 ParameterCount
 )
 ;
+WINBASEAPI
 PVOID
 WINAPI
 MapViewOfFile3
