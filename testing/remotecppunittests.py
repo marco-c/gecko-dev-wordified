@@ -1032,14 +1032,23 @@ run_one_test
 (
         
 self
+        
 prog
+        
 env
+        
 symbols_path
 =
 None
+        
+utility_path
+=
+None
+        
 interactive
 =
 False
+        
 timeout_factor
 =
 1
