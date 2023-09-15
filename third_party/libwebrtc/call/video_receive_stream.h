@@ -1080,6 +1080,15 @@ rtp_stats
 RtcpPacketTypeCounter
 rtcp_packet_type_counts
 ;
+absl
+:
+:
+optional
+<
+RtpReceiveStats
+>
+rtx_rtp_stats
+;
 /
 /
 Mozilla

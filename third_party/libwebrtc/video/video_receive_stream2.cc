@@ -3722,6 +3722,7 @@ if
 (
 rtx_statistician
 )
+{
 stats
 .
 total_bitrate_bps
@@ -3734,6 +3735,18 @@ BitrateReceived
 (
 )
 ;
+stats
+.
+rtx_rtp_stats
+=
+rtx_statistician
+-
+>
+GetStats
+(
+)
+;
+}
 }
 /
 /
