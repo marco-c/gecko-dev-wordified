@@ -4798,6 +4798,12 @@ CurrentState
 font
 ;
 }
+bool
+GetEffectiveWillReadFrequently
+(
+)
+const
+;
 /
 /
 Member
