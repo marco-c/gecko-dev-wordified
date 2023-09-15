@@ -25356,7 +25356,7 @@ CreateWebAppsStoreConnection
 )
 /
 /
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 will
 fallback
 to
@@ -25985,7 +25985,7 @@ void
 QuotaManager
 :
 :
-AssertStorageIsInitialized
+AssertStorageIsInitializedInternal
 (
 )
 const
@@ -25996,7 +25996,7 @@ AssertIsOnIOThread
 ;
 MOZ_ASSERT
 (
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 )
@@ -27668,7 +27668,7 @@ nsresult
 QuotaManager
 :
 :
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 {

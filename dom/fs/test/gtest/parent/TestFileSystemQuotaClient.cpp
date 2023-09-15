@@ -612,7 +612,7 @@ NS_OK
 qm
 -
 >
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 )

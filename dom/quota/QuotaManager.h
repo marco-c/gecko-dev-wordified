@@ -1863,7 +1863,7 @@ aPredicate
 )
 ;
 bool
-IsStorageInitialized
+IsStorageInitializedInternal
 (
 )
 const
@@ -1883,7 +1883,7 @@ mStorageConnection
 ;
 }
 void
-AssertStorageIsInitialized
+AssertStorageIsInitializedInternal
 (
 )
 const
@@ -1898,7 +1898,7 @@ else
 #
 endif
 nsresult
-EnsureStorageIsInitialized
+EnsureStorageIsInitializedInternal
 (
 )
 ;
