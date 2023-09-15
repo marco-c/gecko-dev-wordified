@@ -1029,7 +1029,7 @@ rtc
 :
 :
 SampleCounter
-delay_counter_
+oneway_delay_counter_
 RTC_GUARDED_BY
 (
 main_thread_
