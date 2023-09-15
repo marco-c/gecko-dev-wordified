@@ -6133,7 +6133,7 @@ const
 ;
 protected
 :
-ContentIteratorBase
+SafeContentIteratorBase
 *
 mIter
 ;

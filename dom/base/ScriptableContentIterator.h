@@ -203,7 +203,7 @@ mIteratorType
 ;
 UniquePtr
 <
-ContentIteratorBase
+SafeContentIteratorBase
 >
 mContentIterator
 ;
