@@ -16870,6 +16870,8 @@ ImageQuery
 :
 NumLevels
 ctx
+.
+expressions
 block_id
 )
 ?
@@ -16902,6 +16904,8 @@ ImageQuery
 :
 NumSamples
 ctx
+.
+expressions
 block_id
 )
 ?
