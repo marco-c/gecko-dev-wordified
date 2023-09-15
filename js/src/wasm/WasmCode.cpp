@@ -2361,6 +2361,13 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 +
+stackMaps
+.
+sizeOfExcludingThis
+(
+mallocSizeOf
+)
++
 funcImports
 .
 sizeOfExcludingThis

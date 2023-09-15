@@ -1085,6 +1085,12 @@ shrinkStorageToFit
 )
 ;
 size_t
+sumOfLengths
+(
+)
+const
+;
+size_t
 sizeOfExcludingThis
 (
 mozilla
