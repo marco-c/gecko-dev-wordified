@@ -4665,12 +4665,7 @@ char
 *
 filename
 )
-{
-aec_filename_base_
-=
-filename
 ;
-}
 private
 :
 friend
