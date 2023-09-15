@@ -1042,7 +1042,6 @@ return
 mDestroyed
 ;
 }
-const
 TabId
 GetTabId
 (

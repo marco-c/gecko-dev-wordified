@@ -22799,6 +22799,7 @@ true
 if
 (
 auto
+*
 embedderFrame
 =
 embedderElement

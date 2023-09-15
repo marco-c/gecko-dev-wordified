@@ -15053,10 +15053,8 @@ RecvDestroy
 {
 MOZ_ASSERT
 (
+!
 mDestroyed
-=
-=
-false
 )
 ;
 mDestroyed
@@ -15104,6 +15102,7 @@ childArray
 )
 {
 auto
+*
 child
 =
 static_cast
@@ -16844,6 +16843,7 @@ return
 ;
 }
 auto
+*
 cbc
 =
 CompositorBridgeChild
@@ -17059,7 +17059,7 @@ aEffects
 {
 /
 /
-if
+If
 we
 are
 staying
@@ -17095,6 +17095,8 @@ if
 needInvalidate
 )
 {
+if
+(
 nsCOMPtr
 <
 nsIDocShell
@@ -17107,10 +17109,6 @@ WebNavigation
 (
 )
 )
-;
-if
-(
-docShell
 )
 {
 /
@@ -17176,6 +17174,8 @@ viewer
 exists
 yet
 .
+if
+(
 RefPtr
 <
 PresShell
@@ -17188,10 +17188,6 @@ docShell
 GetPresShell
 (
 )
-;
-if
-(
-presShell
 )
 {
 if
