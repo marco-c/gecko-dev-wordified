@@ -253,6 +253,14 @@ WavDumper
 h
 "
 namespace
+soundtouch
+{
+class
+MOZ_EXPORT
+SoundTouch
+;
+}
+namespace
 mozilla
 {
 struct
@@ -285,9 +293,6 @@ FrameHistory
 ;
 class
 AudioConfig
-;
-class
-RLBoxSoundTouch
 ;
 /
 /
@@ -2251,7 +2256,10 @@ AssertIsOnAudioThread
 )
 const
 ;
-RLBoxSoundTouch
+soundtouch
+:
+:
+SoundTouch
 *
 mTimeStretcher
 ;
