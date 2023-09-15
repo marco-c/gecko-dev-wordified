@@ -1037,7 +1037,7 @@ last_decoded_length
 size_t
 sample_rate
 bool
-count_dtx_waiting_time
+count_waiting_time
 )
 const
 ;

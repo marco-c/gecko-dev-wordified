@@ -7635,14 +7635,14 @@ GetSpanSamples
 (
 decoder_frame_length_
 last_output_sample_rate_hz_
-true
+false
 )
 ;
 status
 .
 packet_buffer_info
 .
-span_samples_no_dtx
+span_samples_wait_time
 =
 packet_buffer_
 -
@@ -7651,7 +7651,7 @@ GetSpanSamples
 (
 decoder_frame_length_
 last_output_sample_rate_hz_
-false
+true
 )
 ;
 status
