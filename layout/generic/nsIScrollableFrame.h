@@ -356,9 +356,6 @@ ScrollSnapInfo
 mozilla
 :
 :
-layers
-:
-:
 ScrollSnapInfo
 ;
 using

@@ -1017,6 +1017,11 @@ ScrollPositionUpdate
 h
 "
 "
+ScrollSnapInfo
+.
+h
+"
+"
 ScrollSnapTargetId
 .
 h
@@ -1362,6 +1367,11 @@ cpp
 "
 "
 ScrollSnap
+.
+cpp
+"
+"
+ScrollSnapInfo
 .
 cpp
 "

@@ -53115,9 +53115,6 @@ Size
 )
 ;
 }
-layers
-:
-:
 ScrollSnapInfo
 nsHTMLScrollFrame
 :
@@ -53239,9 +53236,6 @@ return
 result
 ;
 }
-layers
-:
-:
 ScrollSnapInfo
 nsHTMLScrollFrame
 :
