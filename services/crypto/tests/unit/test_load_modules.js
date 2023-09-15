@@ -35,12 +35,16 @@ modules
 "
 utils
 .
-js
+sys
+.
+mjs
 "
 "
 WeaveCrypto
 .
-js
+sys
+.
+mjs
 "
 ]
 ;
@@ -87,7 +91,7 @@ resource
 ;
 ChromeUtils
 .
-import
+importESModule
 (
 resource
 )
