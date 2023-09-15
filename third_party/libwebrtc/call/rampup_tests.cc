@@ -281,15 +281,6 @@ gtest
 .
 h
 "
-#
-include
-"
-test
-/
-video_test_constants
-.
-h
-"
 ABSL_FLAG
 (
 std
@@ -502,7 +493,7 @@ EndToEndTest
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kLongTimeout
@@ -975,14 +966,14 @@ CreateVideoStreams
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kDefaultWidth
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kDefaultHeight
@@ -1082,7 +1073,7 @@ rtp_history_ms
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kNackRtpHistoryMs
@@ -1113,7 +1104,7 @@ payload_type
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kSendRtxPayloadType
@@ -1147,7 +1138,7 @@ ulpfec_payload_type
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kUlpfecPayloadType
@@ -1164,7 +1155,7 @@ red_payload_type
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kRedPayloadType
@@ -1186,7 +1177,7 @@ red_rtx_payload_type
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kRtxRedPayloadType
@@ -1421,7 +1412,7 @@ payload_type
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kFlexfecPayloadType
@@ -1438,7 +1429,7 @@ ssrc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kFlexfecSendSsrc
@@ -1598,7 +1589,7 @@ payload_type
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kFlexfecPayloadType
@@ -1618,7 +1609,7 @@ remote_ssrc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kFlexfecSendSsrc

@@ -151,15 +151,6 @@ file_utils
 .
 h
 "
-#
-include
-"
-test
-/
-video_test_constants
-.
-h
-"
 ABSL_DECLARE_FLAG
 (
 int
@@ -593,7 +584,7 @@ SendCodecSpec
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kAudioSendPayloadType

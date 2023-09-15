@@ -398,6 +398,15 @@ include
 "
 test
 /
+call_test
+.
+h
+"
+#
+include
+"
+test
+/
 encoder_settings
 .
 h
@@ -496,15 +505,6 @@ video_renderer
 .
 h
 "
-#
-include
-"
-test
-/
-video_test_constants
-.
-h
-"
 /
 /
 Flag
@@ -522,7 +522,7 @@ webrtc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kPayloadTypeVP8
@@ -551,7 +551,7 @@ webrtc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kRedPayloadType
@@ -580,7 +580,7 @@ webrtc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kUlpfecPayloadType
@@ -609,7 +609,7 @@ webrtc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kFlexfecPayloadType
@@ -630,7 +630,7 @@ webrtc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kSendRtxPayloadType
@@ -653,7 +653,7 @@ webrtc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kRtxRedPayloadType
@@ -685,7 +685,7 @@ webrtc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kVideoSendSsrcs
@@ -708,7 +708,7 @@ webrtc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kSendRtxSsrcs
@@ -732,7 +732,7 @@ webrtc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kFlexfecSendSsrc

@@ -265,15 +265,6 @@ h
 #
 include
 "
-test
-/
-video_test_constants
-.
-h
-"
-#
-include
-"
 video
 /
 config
@@ -342,7 +333,7 @@ VideoCodecType
 kVideoCodecGeneric
 :
 return
-VideoTestConstants
+CallTest
 :
 :
 kFakeVideoSendPayloadType
@@ -354,7 +345,7 @@ VideoCodecType
 kVideoCodecVP8
 :
 return
-VideoTestConstants
+CallTest
 :
 :
 kPayloadTypeVP8
@@ -366,7 +357,7 @@ VideoCodecType
 kVideoCodecVP9
 :
 return
-VideoTestConstants
+CallTest
 :
 :
 kPayloadTypeVP9
@@ -378,7 +369,7 @@ VideoCodecType
 kVideoCodecH264
 :
 return
-VideoTestConstants
+CallTest
 :
 :
 kPayloadTypeH264
@@ -782,7 +773,7 @@ rtx
 .
 payload_type
 =
-VideoTestConstants
+CallTest
 :
 :
 kSendRtxPayloadType
@@ -815,7 +806,7 @@ flexfec
 .
 payload_type
 =
-VideoTestConstants
+CallTest
 :
 :
 kFlexfecPayloadType
@@ -828,7 +819,7 @@ flexfec
 .
 ssrc
 =
-VideoTestConstants
+CallTest
 :
 :
 kFlexfecSendSsrc
@@ -861,7 +852,7 @@ ulpfec
 .
 red_payload_type
 =
-VideoTestConstants
+CallTest
 :
 :
 kRedPayloadType
@@ -874,7 +865,7 @@ ulpfec
 .
 ulpfec_payload_type
 =
-VideoTestConstants
+CallTest
 :
 :
 kUlpfecPayloadType
@@ -887,7 +878,7 @@ ulpfec
 .
 red_rtx_payload_type
 =
-VideoTestConstants
+CallTest
 :
 :
 kRtxRedPayloadType
@@ -2407,7 +2398,7 @@ rtp
 .
 rtx_associated_payload_types
 [
-VideoTestConstants
+CallTest
 :
 :
 kSendRtxPayloadType
@@ -2438,7 +2429,7 @@ rtp
 .
 red_payload_type
 =
-VideoTestConstants
+CallTest
 :
 :
 kRedPayloadType
@@ -2449,7 +2440,7 @@ rtp
 .
 ulpfec_payload_type
 =
-VideoTestConstants
+CallTest
 :
 :
 kUlpfecPayloadType
@@ -2460,13 +2451,13 @@ rtp
 .
 rtx_associated_payload_types
 [
-VideoTestConstants
+CallTest
 :
 :
 kRtxRedPayloadType
 ]
 =
-VideoTestConstants
+CallTest
 :
 :
 kRedPayloadType
@@ -4162,7 +4153,7 @@ flexfec
 .
 payload_type
 =
-VideoTestConstants
+CallTest
 :
 :
 kFlexfecPayloadType
@@ -4173,7 +4164,7 @@ rtp
 .
 remote_ssrc
 =
-VideoTestConstants
+CallTest
 :
 :
 kFlexfecSendSsrc

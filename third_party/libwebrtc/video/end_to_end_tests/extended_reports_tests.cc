@@ -350,15 +350,6 @@ h
 #
 include
 "
-test
-/
-video_test_constants
-.
-h
-"
-#
-include
-"
 video
 /
 config
@@ -456,7 +447,7 @@ EndToEndTest
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kDefaultTimeout
@@ -739,7 +730,7 @@ sender_ssrc
 test
 :
 :
-VideoTestConstants
+CallTest
 :
 :
 kVideoSendSsrcs
