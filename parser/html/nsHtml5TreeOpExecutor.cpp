@@ -7753,10 +7753,6 @@ nsAString
 aImageReferrerPolicy
 bool
 aLinkPreload
-const
-TimeStamp
-&
-aInitTimestamp
 )
 {
 nsCOMPtr
@@ -7830,7 +7826,6 @@ aImageReferrerPolicy
 )
 isImgSet
 aLinkPreload
-aInitTimestamp
 )
 ;
 }
