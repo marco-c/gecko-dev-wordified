@@ -70767,12 +70767,7 @@ quotaManager
 >
 CreateDirectoryLock
 (
-mFileManager
--
->
-Type
-(
-)
+{
 mFileManager
 -
 >
@@ -70786,6 +70781,7 @@ Client
 :
 :
 IDB
+}
 /
 *
 aExclusive
@@ -82798,12 +82794,13 @@ quotaManager
 >
 CreateDirectoryLock
 (
-persistenceType
+{
 mOriginMetadata
 Client
 :
 :
 IDB
+}
 /
 *
 aExclusive

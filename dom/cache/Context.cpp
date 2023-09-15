@@ -2653,7 +2653,7 @@ quotaManager
 >
 CreateDirectoryLock
 (
-PERSISTENCE_TYPE_DEFAULT
+{
 *
 mDirectoryMetadata
 quota
@@ -2663,6 +2663,7 @@ Client
 :
 :
 DOMCACHE
+}
 /
 *
 aExclusive

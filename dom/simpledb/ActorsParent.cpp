@@ -6322,14 +6322,7 @@ quotaManager
 >
 CreateDirectoryLock
 (
-GetConnection
-(
-)
--
->
-GetPersistenceType
-(
-)
+{
 mOriginMetadata
 mozilla
 :
@@ -6344,6 +6337,7 @@ Client
 :
 :
 SDB
+}
 /
 *
 aExclusive
