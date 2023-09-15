@@ -628,9 +628,6 @@ Origin
 quirks_mode
 :
 QuirksMode
-line_number_offset
-:
-u32
 should_record_use_counters
 :
 bool
@@ -663,9 +660,6 @@ Origin
 quirks_mode
 :
 QuirksMode
-line_number_offset
-:
-u32
 should_record_use_counters
 :
 bool
@@ -684,7 +678,6 @@ extra_data
 bytes
 origin
 quirks_mode
-line_number_offset
 should_record_use_counters
 allow_import_rules
 }
@@ -818,9 +811,6 @@ quirks_mode
 into
 (
 )
-self
-.
-line_number_offset
 use_counters
 .
 as_deref

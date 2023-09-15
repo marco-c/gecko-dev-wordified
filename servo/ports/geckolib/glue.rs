@@ -9177,7 +9177,6 @@ QuirksMode
 :
 :
 NoQuirks
-0
 /
 *
 use_counters
@@ -9290,9 +9289,6 @@ extra_data
 *
 mut
 URLExtraData
-line_number_offset
-:
-u32
 quirks_mode
 :
 nsCompatibility
@@ -9527,7 +9523,6 @@ quirks_mode
 into
 (
 )
-line_number_offset
 use_counters
 allow_import_rules
 sanitization_data
@@ -9602,9 +9597,6 @@ nsACString
 mode
 :
 SheetParsingMode
-line_number_offset
-:
-u32
 quirks_mode
 :
 nsCompatibility
@@ -9676,7 +9668,6 @@ quirks_mode
 into
 (
 )
-line_number_offset
 should_record_use_counters
 allow_import_rules
 )

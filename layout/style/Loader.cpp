@@ -2074,10 +2074,6 @@ mURI
 (
 aURI
 )
-mLineNumber
-(
-1
-)
 mSheet
 (
 aSheet
@@ -2294,10 +2290,6 @@ nullptr
 mURI
 (
 aURI
-)
-mLineNumber
-(
-1
 )
 mSheet
 (
@@ -2541,10 +2533,6 @@ nullptr
 mURI
 (
 aURI
-)
-mLineNumber
-(
-1
 )
 mSheet
 (
@@ -10411,9 +10399,6 @@ this
 aBytes
 &
 aLoadData
-aLoadData
-.
-mLineNumber
 )
 ;
 aLoadData
@@ -11492,8 +11477,6 @@ const
 nsAString
 &
 aBuffer
-uint32_t
-aLineNumber
 nsICSSLoaderObserver
 *
 aObserver
@@ -12133,13 +12116,6 @@ aInfo
 .
 mContent
 )
-;
-data
--
->
-mLineNumber
-=
-aLineNumber
 ;
 if
 (

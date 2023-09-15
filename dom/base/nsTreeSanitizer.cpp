@@ -11066,13 +11066,6 @@ extraData
 get
 (
 )
-/
-*
-line_number_offset
-=
-*
-/
-0
 aDocument
 -
 >

@@ -852,8 +852,6 @@ css
 SheetLoadData
 *
 aLoadData
-uint32_t
-aLineNumber
 css
 :
 :
