@@ -4063,7 +4063,7 @@ IsInOrBeyond
 ShutdownPhase
 :
 :
-XPCOMShutdownThreads
+XPCOMShutdown
 )
 )
 {
