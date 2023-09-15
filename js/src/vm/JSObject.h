@@ -2136,6 +2136,13 @@ maybeHasInterestingSymbolProperty
 )
 const
 ;
+inline
+bool
+needsProxyGetSetResultValidation
+(
+)
+const
+;
 /
 *
 GC
