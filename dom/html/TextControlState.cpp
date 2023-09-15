@@ -5739,9 +5739,6 @@ u
 select
 "
 _ns
-&
-aSelection
-aReason
 )
 ;
 }
@@ -6867,11 +6864,6 @@ const
 nsAString
 &
 aCommandsToUpdate
-Selection
-*
-aSelection
-int16_t
-aReason
 )
 {
 nsIContent
@@ -6954,8 +6946,6 @@ domWindow
 UpdateCommands
 (
 aCommandsToUpdate
-aSelection
-aReason
 )
 ;
 return

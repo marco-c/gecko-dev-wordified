@@ -273,6 +273,8 @@ lazily
 void
 HandleValueChanged
 (
+TextEditor
+&
 )
 ;
 /
@@ -305,7 +307,6 @@ OnEditActionHandled
 (
 TextEditor
 &
-aTextEditor
 )
 ;
 /
@@ -404,18 +405,6 @@ const
 nsAString
 &
 aCommandsToUpdate
-dom
-:
-:
-Selection
-*
-aSelection
-=
-nullptr
-int16_t
-aReason
-=
-0
 )
 ;
 protected

@@ -18065,8 +18065,6 @@ u
 select
 "
 _ns
-selection
-aReason
 )
 ;
 mSelectionWasCollapsed

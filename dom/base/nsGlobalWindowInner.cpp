@@ -25606,11 +25606,6 @@ const
 nsAString
 &
 anAction
-Selection
-*
-aSel
-int16_t
-aReason
 )
 {
 if
@@ -25628,8 +25623,6 @@ GetOuterWindowInternal
 UpdateCommands
 (
 anAction
-aSel
-aReason
 )
 ;
 }
