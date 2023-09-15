@@ -6607,7 +6607,7 @@ addons
 .
 featureGate
 "
-false
+true
 )
 ;
 /
