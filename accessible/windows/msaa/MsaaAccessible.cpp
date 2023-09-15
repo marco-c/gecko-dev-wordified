@@ -156,6 +156,15 @@ h
 #
 include
 "
+LocalAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 a11y
