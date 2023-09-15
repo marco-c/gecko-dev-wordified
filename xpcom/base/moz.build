@@ -140,11 +140,6 @@ nsIMemoryReporter
 idl
 "
 "
-nsIMessageLoop
-.
-idl
-"
-"
 nsISecurityConsoleMessage
 .
 idl
@@ -939,11 +934,6 @@ cpp
 "
 "
 nsMemoryReporterManager
-.
-cpp
-"
-"
-nsMessageLoop
 .
 cpp
 "
