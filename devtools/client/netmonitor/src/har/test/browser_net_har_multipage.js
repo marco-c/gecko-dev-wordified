@@ -32,6 +32,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 const
 MULTIPAGE_IFRAME_URL
 =
