@@ -21713,6 +21713,10 @@ nsID
 &
 aAgentClusterId
 const
+nsCString
+&
+aPartitionKey
+const
 nsACString
 &
 aURI
@@ -21844,6 +21848,10 @@ aURI
 ipcBlob
 aPrincipal
 aAgentClusterId
+nsCString
+(
+aPartitionKey
+)
 aRevoked
 )
 )
@@ -40351,6 +40359,10 @@ nsID
 >
 &
 aAgentClusterId
+const
+nsCString
+&
+aPartitionKey
 ContentParent
 *
 aIgnoreThisCP
@@ -40487,6 +40499,7 @@ uri
 ipcBlob
 aPrincipal
 aAgentClusterId
+aPartitionKey
 )
 ;
 }
@@ -40620,6 +40633,10 @@ nsID
 >
 &
 aAgentClusterId
+const
+nsCString
+&
+aPartitionKey
 )
 {
 if
@@ -40705,6 +40722,7 @@ AddDataEntry
 aURI
 aPrincipal
 aAgentClusterId
+aPartitionKey
 blobImpl
 )
 ;
@@ -40714,6 +40732,7 @@ aURI
 blobImpl
 aPrincipal
 aAgentClusterId
+aPartitionKey
 this
 )
 ;
@@ -42108,6 +42127,10 @@ nsID
 &
 aAgentClusterId
 const
+nsCString
+&
+aPartitionKey
+const
 nsACString
 &
 aURI
@@ -42208,6 +42231,10 @@ aURI
 ipcBlob
 aBlobPrincipal
 aAgentClusterId
+nsCString
+(
+aPartitionKey
+)
 aRevoked
 )
 )
@@ -50126,6 +50153,10 @@ nsID
 >
 &
 aAgentClusterId
+const
+nsCString
+&
+aPartitionKey
 BlobURLDataRequestResolver
 &
 &
@@ -50187,6 +50218,7 @@ aTriggeringPrincipal
 aOriginAttributes
 aInnerWindowId
 aAgentClusterId
+aPartitionKey
 true
 /
 *
