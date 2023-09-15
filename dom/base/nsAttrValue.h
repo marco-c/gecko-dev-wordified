@@ -1946,6 +1946,14 @@ aValue
 )
 ;
 void
+ParseAtomArray
+(
+nsAtom
+*
+aValue
+)
+;
+void
 ParseStringOrAtom
 (
 const

@@ -16556,11 +16556,11 @@ nsresult
 Element
 :
 :
-SetSingleClassFromParser
+SetClassAttrFromParser
 (
 nsAtom
 *
-aSingleClassName
+aValue
 )
 {
 /
@@ -16577,8 +16577,12 @@ below
 .
 nsAttrValue
 value
+;
+value
+.
+ParseAtomArray
 (
-aSingleClassName
+aValue
 )
 ;
 Document

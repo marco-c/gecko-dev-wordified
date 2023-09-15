@@ -2599,7 +2599,7 @@ klass
 aElement
 -
 >
-SetSingleClassFromParser
+SetClassAttrFromParser
 (
 klass
 )
@@ -3498,7 +3498,7 @@ klass
 newContent
 -
 >
-SetSingleClassFromParser
+SetClassAttrFromParser
 (
 klass
 )
@@ -3829,7 +3829,7 @@ klass
 newContent
 -
 >
-SetSingleClassFromParser
+SetClassAttrFromParser
 (
 klass
 )

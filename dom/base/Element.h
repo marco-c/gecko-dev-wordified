@@ -5032,13 +5032,6 @@ Sets
 the
 class
 attribute
-to
-a
-value
-that
-contains
-no
-whitespace
 .
 *
 Assumes
@@ -5062,11 +5055,11 @@ previously
 *
 /
 nsresult
-SetSingleClassFromParser
+SetClassAttrFromParser
 (
 nsAtom
 *
-aSingleClassName
+aValue
 )
 ;
 /
