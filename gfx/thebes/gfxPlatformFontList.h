@@ -756,19 +756,15 @@ false
 ;
 }
 return
-static_cast
-<
-const
-SharedBitSet
-*
->
-(
 mCharMap
 .
 ToPtr
+<
+const
+SharedBitSet
+>
 (
 mList
-)
 )
 -
 >
@@ -2812,6 +2808,7 @@ virtual
 bool
 ReadFaceNames
 (
+const
 mozilla
 :
 :
@@ -2821,6 +2818,7 @@ fontlist
 Family
 *
 aFamily
+const
 mozilla
 :
 :
@@ -6907,6 +6905,7 @@ nsRefPtrHashtable
 <
 nsPtrHashKey
 <
+const
 mozilla
 :
 :
