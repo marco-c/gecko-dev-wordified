@@ -857,17 +857,6 @@ attribute
 AString
 appId
 ;
-[
-must_use
-]
-readonly
-attribute
-Array
-<
-octet
->
-appIdHash
-;
 /
 /
 Options
