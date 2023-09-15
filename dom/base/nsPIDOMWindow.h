@@ -655,7 +655,7 @@ aFrom
 NS_IMPL_FROMEVENTTARGET_HELPER_WITH_GETTER
 (
 nsPIDOMWindowInner
-GetAsWindowInner
+GetAsInnerWindow
 (
 )
 )
@@ -4715,7 +4715,7 @@ NS_PIDOMWINDOWOUTER_IID
 NS_IMPL_FROMEVENTTARGET_HELPER_WITH_GETTER
 (
 nsPIDOMWindowOuter
-GetAsWindowOuter
+GetAsOuterWindow
 (
 )
 )

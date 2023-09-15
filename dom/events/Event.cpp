@@ -2089,7 +2089,7 @@ w
 aGlobal
 -
 >
-GetAsWindowInner
+GetAsInnerWindow
 (
 )
 )
@@ -5226,7 +5226,7 @@ w
 aOwner
 -
 >
-GetAsWindowInner
+GetAsInnerWindow
 (
 )
 )
