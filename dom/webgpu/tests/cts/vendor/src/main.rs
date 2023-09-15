@@ -935,6 +935,7 @@ tests
 dir
 (
 {
+child
 }
 )
 does
@@ -943,7 +944,6 @@ appear
 to
 exist
 "
-child
 )
 ;
 child
@@ -2915,6 +2915,7 @@ js
 \
 (
 {
+expected_wpt_script_tag
 :
 ?
 }
@@ -2926,7 +2927,6 @@ change
 upstream
 ?
 "
-expected_wpt_script_tag
 )
 ;
 boilerplate
@@ -3142,9 +3142,9 @@ n
 \
 n
 {
+cts_boilerplate
 }
 "
-cts_boilerplate
 )
 ;
 ensure
