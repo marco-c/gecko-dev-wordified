@@ -697,6 +697,12 @@ void
 pArg
 )
 {
+#
+if
+defined
+(
+MOZ_SQLITE_PERSIST_AUXILIARY_FILES
+)
 /
 /
 Persist
@@ -816,6 +822,8 @@ return
 SQLITE_OK
 ;
 }
+#
+endif
 BaseFile
 *
 p
