@@ -186,7 +186,7 @@ def
 test_split_variants
 (
 monkeypatch
-run_transform
+run_full_config_transform
 make_test_task
 )
 :
@@ -553,12 +553,14 @@ run_split_variants
 =
 partial
 (
-run_transform
+        
+run_full_config_transform
 test_transforms
 .
 variant
 .
 split_variants
+    
 )
     
 #
