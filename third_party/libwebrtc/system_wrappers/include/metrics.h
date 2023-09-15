@@ -199,7 +199,15 @@ Ts
 {
 }
 }
+/
+/
+namespace
+metrics_impl
 }
+/
+/
+namespace
+webrtc
 #
 if
 RTC_METRICS_ENABLED
@@ -314,6 +322,7 @@ val1
 val2
 timeout
 )
+\
 webrtc
 :
 :
@@ -368,6 +377,7 @@ EXPECT_METRIC_TRUE
 (
 condition
 )
+\
 webrtc
 :
 :
@@ -387,6 +397,7 @@ EXPECT_METRIC_FALSE
 (
 condition
 )
+\
 webrtc
 :
 :
@@ -407,6 +418,7 @@ EXPECT_METRIC_THAT
 value
 matcher
 )
+\
 webrtc
 :
 :
@@ -1950,6 +1962,7 @@ RTC_HISTOGRAM_COUNTS_100
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -1968,6 +1981,7 @@ RTC_HISTOGRAM_COUNTS_200
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -1986,6 +2000,7 @@ RTC_HISTOGRAM_COUNTS_500
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2004,6 +2019,7 @@ RTC_HISTOGRAM_COUNTS_1000
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2022,6 +2038,7 @@ RTC_HISTOGRAM_COUNTS_10000
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2040,6 +2057,7 @@ RTC_HISTOGRAM_COUNTS_100000
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2108,6 +2126,7 @@ RTC_HISTOGRAM_COUNTS_SPARSE_100
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2126,6 +2145,7 @@ RTC_HISTOGRAM_COUNTS_SPARSE_200
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2144,6 +2164,7 @@ RTC_HISTOGRAM_COUNTS_SPARSE_500
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2162,6 +2183,7 @@ RTC_HISTOGRAM_COUNTS_SPARSE_1000
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2180,6 +2202,7 @@ RTC_HISTOGRAM_COUNTS_SPARSE_10000
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2198,6 +2221,7 @@ RTC_HISTOGRAM_COUNTS_SPARSE_100000
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2241,6 +2265,7 @@ RTC_HISTOGRAM_PERCENTAGE_SPARSE
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2259,6 +2284,7 @@ RTC_HISTOGRAM_BOOLEAN_SPARSE
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2298,6 +2324,7 @@ RTC_HISTOGRAM_PERCENTAGE
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2316,6 +2343,7 @@ RTC_HISTOGRAM_BOOLEAN
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2399,6 +2427,7 @@ index
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2419,6 +2448,7 @@ index
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2439,6 +2469,7 @@ index
 name
 sample
 )
+\
 webrtc
 :
 :
@@ -2545,6 +2576,7 @@ index
 name
 sample
 )
+\
 webrtc
 :
 :
