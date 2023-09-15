@@ -310,7 +310,7 @@ if
 transformBox
 =
 =
-StyleGeometryBox
+StyleTransformBox
 :
 :
 ViewBox
@@ -319,7 +319,7 @@ ViewBox
 transformBox
 =
 =
-StyleGeometryBox
+StyleTransformBox
 :
 :
 BorderBox

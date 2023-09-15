@@ -47925,6 +47925,11 @@ border
 box
 "
 "
+content
+-
+box
+"
+"
 fill
 -
 box
@@ -47942,6 +47947,11 @@ revert
 revert
 -
 layer
+"
+"
+stroke
+-
+box
 "
 "
 unset

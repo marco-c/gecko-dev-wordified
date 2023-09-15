@@ -1108,6 +1108,7 @@ transform
 :
 :
 {
+TransformBox
 TransformOrigin
 TransformStyle
 Translate
