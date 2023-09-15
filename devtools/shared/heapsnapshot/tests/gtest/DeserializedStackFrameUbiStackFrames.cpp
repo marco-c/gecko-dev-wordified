@@ -534,7 +534,10 @@ line
 frameLine
 )
 ;
-uint32_t
+JS
+:
+:
+TaggedColumnNumberOneOrigin
 frameColumn
 ;
 ASSERT_EQ
@@ -562,10 +565,6 @@ frameColumn
 EXPECT_EQ
 (
 column
-.
-oneOriginValue
-(
-)
 frameColumn
 )
 ;
