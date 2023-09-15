@@ -105,10 +105,6 @@ Security
 "
 )
 ;
-add_virtual_authenticator
-(
-)
-;
 add_task
 (
 async
@@ -295,13 +291,9 @@ is
 "
 "
 +
-(
 attestation
 .
 flags
-&
-flag_TUP
-)
 "
 "
 +
