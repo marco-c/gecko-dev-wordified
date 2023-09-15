@@ -520,13 +520,6 @@ is
 OK
 for
 us
-ElementState
-IntrinsicState
-(
-)
-const
-override
-;
 /
 *
 *
@@ -770,11 +763,6 @@ by
 UpdateValidity
 (
 )
-and
-IntrinsicState
-(
-)
-!
 *
 /
 int32_t
