@@ -463,11 +463,9 @@ cum_loss
 report_block_data
 -
 >
-report_block
+cumulative_lost
 (
 )
-.
-packets_lost
 <
 <
 "
@@ -485,11 +483,9 @@ max_ext_seq
 report_block_data
 -
 >
-report_block
+extended_highest_sequence_number
 (
 )
-.
-extended_highest_sequence_number
 <
 <
 "
