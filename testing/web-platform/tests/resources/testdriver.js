@@ -2245,9 +2245,9 @@ fulfilled
 with
 the
 previous
-{
-link
+WindowRect
 *
+<
 https
 :
 /
@@ -2268,9 +2268,8 @@ dfn
 windowrect
 -
 object
-|
-WindowRect
-}
+>
+_
 *
 value
 after
@@ -2364,9 +2363,9 @@ Object
 rect
 -
 A
-{
-link
+WindowRect
 *
+<
 https
 :
 /
@@ -2387,9 +2386,8 @@ dfn
 windowrect
 -
 object
-|
-WindowRect
-}
+>
+_
 *
 param
 {
