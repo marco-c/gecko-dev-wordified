@@ -20668,12 +20668,6 @@ case
 StyleAppearance
 :
 :
-RadioContainer
-:
-case
-StyleAppearance
-:
-:
 MozMacHelpButton
 :
 case
