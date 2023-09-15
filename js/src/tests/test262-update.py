@@ -364,22 +364,6 @@ Bug
 1435869
     
 "
-Array
-.
-fromAsync
-"
-:
-"
-!
-Array
-.
-fromAsync
-"
-#
-Bug
-1746209
-    
-"
 String
 .
 prototype
@@ -507,24 +491,6 @@ enable
 array
 -
 grouping
-"
-    
-"
-Array
-.
-fromAsync
-"
-:
-"
--
--
-enable
--
-array
--
-from
--
-async
 "
     
 "

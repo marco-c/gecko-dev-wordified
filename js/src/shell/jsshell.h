@@ -776,10 +776,6 @@ enableArrayGrouping
 ;
 extern
 bool
-enableArrayFromAsync
-;
-extern
-bool
 enableWellFormedUnicodeStrings
 ;
 extern
