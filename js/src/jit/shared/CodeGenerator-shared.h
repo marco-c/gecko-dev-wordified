@@ -1270,6 +1270,8 @@ def
 uint32_t
 *
 startIndex
+bool
+hasSideEffects
 )
 ;
 /
