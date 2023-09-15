@@ -122,7 +122,7 @@ it
 s
 not
 called
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -398,7 +398,7 @@ TESTS
 *
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

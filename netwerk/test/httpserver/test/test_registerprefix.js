@@ -105,7 +105,7 @@ tests
 the
 registerPrefixHandler
 API
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -249,7 +249,7 @@ magic
 }
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

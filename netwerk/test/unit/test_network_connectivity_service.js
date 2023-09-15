@@ -299,7 +299,7 @@ httpserverv6
 =
 null
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -335,7 +335,7 @@ content
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

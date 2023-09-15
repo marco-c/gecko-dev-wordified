@@ -110,7 +110,7 @@ state
 -
 preservation
 API
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -594,7 +594,7 @@ TESTS
 *
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

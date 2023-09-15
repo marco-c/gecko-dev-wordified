@@ -1481,7 +1481,7 @@ jsm
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2523,7 +2523,7 @@ false
 }
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2546,7 +2546,7 @@ isAppLocaleRTL
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2584,7 +2584,7 @@ properties
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2622,7 +2622,7 @@ properties
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2670,7 +2670,7 @@ window
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2698,7 +2698,7 @@ toolbox
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2938,7 +2938,7 @@ urlbar
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2988,7 +2988,7 @@ of
 the
 window
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -3078,7 +3078,7 @@ tabNotifications
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -3126,7 +3126,7 @@ InlineSpellChecker
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -3579,7 +3579,7 @@ null
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -3634,7 +3634,7 @@ nsIMacUserActivityUpdater
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -15718,7 +15718,7 @@ null
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

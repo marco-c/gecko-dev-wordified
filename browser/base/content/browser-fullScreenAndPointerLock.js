@@ -6032,7 +6032,7 @@ aEnterFS
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

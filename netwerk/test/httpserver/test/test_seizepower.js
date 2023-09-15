@@ -112,7 +112,7 @@ correctly
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -840,7 +840,7 @@ TESTS
 *
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

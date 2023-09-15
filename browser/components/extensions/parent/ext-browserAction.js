@@ -321,7 +321,7 @@ WeakMap
 (
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

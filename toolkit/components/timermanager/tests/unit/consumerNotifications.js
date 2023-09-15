@@ -929,7 +929,7 @@ gUTM
 var
 gNextFunc
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

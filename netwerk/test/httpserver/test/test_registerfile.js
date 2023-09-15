@@ -105,7 +105,7 @@ tests
 the
 registerFile
 API
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -199,7 +199,7 @@ fileSize
 )
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

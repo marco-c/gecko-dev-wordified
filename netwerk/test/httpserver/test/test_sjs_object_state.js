@@ -116,7 +116,7 @@ correctly
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

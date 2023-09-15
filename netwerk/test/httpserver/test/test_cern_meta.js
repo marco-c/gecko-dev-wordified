@@ -115,7 +115,7 @@ modification
 var
 srv
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -146,7 +146,7 @@ primaryPort
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

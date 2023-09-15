@@ -167,7 +167,7 @@ ping
 type
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -115,7 +115,7 @@ other
 args
 to
 strings
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

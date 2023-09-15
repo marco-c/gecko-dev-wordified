@@ -978,7 +978,7 @@ createBundle
 URI_UPDATES_PROPERTIES
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1085,7 +1085,7 @@ nsIUpdateChecker
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1111,7 +1111,7 @@ null
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

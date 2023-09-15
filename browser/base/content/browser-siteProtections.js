@@ -608,7 +608,7 @@ strings
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -639,7 +639,7 @@ label
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -669,7 +669,7 @@ title
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -699,7 +699,7 @@ title
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -728,7 +728,7 @@ View
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -759,7 +759,7 @@ heading
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -790,7 +790,7 @@ list
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -2433,7 +2433,7 @@ overwrite
 the
 getter
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -3760,7 +3760,7 @@ null
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -3802,7 +3802,7 @@ overwrite
 the
 getter
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -3839,7 +3839,7 @@ permission
 state
 label
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6734,7 +6734,7 @@ enabled
 false
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6764,7 +6764,7 @@ section
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6796,7 +6796,7 @@ separator
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6826,7 +6826,7 @@ switch
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6852,7 +6852,7 @@ cookieBannerView
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -6878,7 +6878,7 @@ site
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

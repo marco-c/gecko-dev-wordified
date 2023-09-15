@@ -677,7 +677,7 @@ gClient
 lazily
 too
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -169,7 +169,7 @@ ignoreEvent
 =
 ExtensionCommon
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

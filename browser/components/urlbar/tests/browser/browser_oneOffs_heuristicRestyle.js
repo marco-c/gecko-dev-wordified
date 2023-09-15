@@ -58,7 +58,7 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

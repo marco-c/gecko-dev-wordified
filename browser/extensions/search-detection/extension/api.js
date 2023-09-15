@@ -181,7 +181,7 @@ ChannelWrapper
 ]
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

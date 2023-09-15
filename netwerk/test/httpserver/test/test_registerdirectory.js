@@ -105,7 +105,7 @@ tests
 the
 registerDirectory
 API
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -372,7 +372,7 @@ actualFile
 )
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

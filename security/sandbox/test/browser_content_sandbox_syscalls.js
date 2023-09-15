@@ -95,7 +95,7 @@ on
 nix
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

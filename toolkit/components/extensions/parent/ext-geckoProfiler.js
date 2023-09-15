@@ -137,7 +137,7 @@ ExtensionError
 =
 ExtensionUtils
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

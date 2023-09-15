@@ -95,7 +95,7 @@ ip
 ]
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

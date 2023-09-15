@@ -1679,7 +1679,7 @@ search
 service
 initializes
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

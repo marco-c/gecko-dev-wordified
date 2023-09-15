@@ -66,10 +66,9 @@ strict
 global
 ExtensionAPI
 Services
-XPCOMUtils
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

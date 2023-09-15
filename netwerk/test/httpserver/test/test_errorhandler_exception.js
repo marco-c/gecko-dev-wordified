@@ -125,7 +125,7 @@ proper
 error
 codes
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -139,7 +139,7 @@ be
 the
 default
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

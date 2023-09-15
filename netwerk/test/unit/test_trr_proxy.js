@@ -223,7 +223,7 @@ DIRECT
 "
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -1635,7 +1635,7 @@ bool
 ;
 }
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

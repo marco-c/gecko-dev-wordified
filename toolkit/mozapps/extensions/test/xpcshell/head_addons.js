@@ -702,7 +702,7 @@ overrideCertDB
 (
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

@@ -547,7 +547,7 @@ _view
 =
 aView
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

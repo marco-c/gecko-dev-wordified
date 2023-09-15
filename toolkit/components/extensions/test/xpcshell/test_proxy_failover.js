@@ -81,7 +81,7 @@ in
 compile
 config
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

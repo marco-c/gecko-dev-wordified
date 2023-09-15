@@ -469,7 +469,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -501,7 +501,7 @@ setInputStream
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -535,7 +535,7 @@ initWithPath
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

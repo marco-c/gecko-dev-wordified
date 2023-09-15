@@ -354,7 +354,7 @@ to
 lazy
 load
 them
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

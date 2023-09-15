@@ -358,7 +358,7 @@ services
 passwordSavingEnabled
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

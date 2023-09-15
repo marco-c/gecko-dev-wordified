@@ -431,7 +431,7 @@ TESTS
 *
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

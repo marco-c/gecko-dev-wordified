@@ -321,7 +321,7 @@ do_test_finished
 }
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -522,7 +522,7 @@ listener_3
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

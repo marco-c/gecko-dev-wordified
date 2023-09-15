@@ -400,7 +400,7 @@ start
 1
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

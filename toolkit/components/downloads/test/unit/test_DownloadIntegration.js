@@ -326,7 +326,7 @@ return
 cleanup
 ;
 }
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

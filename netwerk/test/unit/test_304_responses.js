@@ -48,7 +48,7 @@ mjs
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -104,7 +104,7 @@ testFileName
 /
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

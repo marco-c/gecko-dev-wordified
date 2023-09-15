@@ -144,7 +144,7 @@ XPConnect
 .
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

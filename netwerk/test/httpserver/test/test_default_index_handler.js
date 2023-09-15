@@ -135,7 +135,7 @@ srv
 dir
 gDirEntries
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -1642,7 +1642,7 @@ TESTS
 *
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

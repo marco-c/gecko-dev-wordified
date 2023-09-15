@@ -626,7 +626,7 @@ nsIMacSharingService
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
