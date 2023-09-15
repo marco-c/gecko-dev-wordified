@@ -2157,6 +2157,9 @@ obj
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 /
 /
 Array
@@ -2574,3 +2577,5 @@ return
 obj
 ;
 }
+#
+endif
