@@ -10979,6 +10979,9 @@ JSFunction
 (
 )
 ;
+ObjOperandId
+trapHolderId
+=
 EmitReadSlotGuard
 (
 writer
@@ -10994,7 +10997,7 @@ EmitLoadSlot
 (
 writer
 trapHolder
-handlerObjId
+trapHolderId
 trapSlot
 )
 ;
