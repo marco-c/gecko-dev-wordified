@@ -1483,12 +1483,6 @@ mConnection
 false
 )
 ;
-dbus_connection_setup_with_g_main
-(
-mConnection
-nullptr
-)
-;
 DBusError
 err
 ;
