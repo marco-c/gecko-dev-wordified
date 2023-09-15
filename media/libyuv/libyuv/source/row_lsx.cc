@@ -11433,6 +11433,8 @@ load
 16
 pixels
 of
+/
+/
 ARGB
 "
 vor
@@ -11478,6 +11480,8 @@ t
 16
 processed
 per
+/
+/
 loop
 .
 "
@@ -12011,6 +12015,8 @@ load
 16
 pixels
 of
+/
+/
 RGBA
 "
 vor
@@ -12056,6 +12062,8 @@ t
 16
 processed
 per
+/
+/
 loop
 .
 "
@@ -12648,6 +12656,8 @@ load
 16
 pixels
 of
+/
+/
 RGB
 "
 vor
@@ -12693,6 +12703,8 @@ t
 16
 processed
 per
+/
+/
 loop
 .
 "
