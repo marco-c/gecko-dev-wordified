@@ -23381,6 +23381,11 @@ CheckArg
 "
 kiosk
 "
+nullptr
+CheckArgFlag
+:
+:
+None
 )
 ;
 const
