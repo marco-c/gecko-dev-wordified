@@ -281,6 +281,14 @@ extern
 bool
 gIsGtest
 ;
+extern
+bool
+gKioskMode
+;
+extern
+int
+gKioskMonitor
+;
 namespace
 mozilla
 {
