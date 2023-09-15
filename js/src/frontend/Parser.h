@@ -1955,6 +1955,17 @@ compilationState_
 alloc
 ;
 }
+const
+UsedNameTracker
+&
+usedNames
+(
+)
+{
+return
+usedNames_
+;
+}
 #
 if
 defined
