@@ -2598,6 +2598,10 @@ const
 TRRSkippedReason
 &
 aTrrSkipReason
+const
+uint32_t
+&
+aCaps
 )
 {
 mEventQ
@@ -2649,6 +2653,7 @@ aHTTPSSVCReceivedStage
 aSupportsHttp3
 aMode
 aTrrSkipReason
+aCaps
 ]
 (
 )
@@ -2679,6 +2684,7 @@ aHTTPSSVCReceivedStage
 aSupportsHttp3
 aMode
 aTrrSkipReason
+aCaps
 )
 ;
 }
@@ -2924,6 +2930,10 @@ const
 TRRSkippedReason
 &
 aSkipReason
+const
+uint32_t
+&
+aCaps
 )
 {
 LOG
@@ -2997,6 +3007,10 @@ aMode
 mTRRSkipReason
 =
 aSkipReason
+;
+mCaps
+=
+aCaps
 ;
 mSecurityInfo
 =
@@ -3766,10 +3780,6 @@ TimeStamp
 &
 aLastActiveTabOptHit
 const
-uint32_t
-&
-aCaps
-const
 HttpConnectionInfoCloneArgs
 &
 aArgs
@@ -3876,7 +3886,6 @@ move
 aTransactionObserverResult
 )
 }
-aCaps
 cinfo
 {
 std
@@ -3909,7 +3918,6 @@ move
 (
 aTransactionObserverResult
 )
-aCaps
 cinfo
 )
 ;
@@ -3959,10 +3967,6 @@ TransactionObserverResult
 &
 &
 aTransactionObserverResult
-const
-uint32_t
-&
-aCaps
 nsHttpConnectionInfo
 *
 aConnInfo
@@ -4061,10 +4065,6 @@ ref
 )
 ;
 }
-mCaps
-=
-aCaps
-;
 mConnInfo
 =
 aConnInfo
