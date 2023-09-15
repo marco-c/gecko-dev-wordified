@@ -236,7 +236,7 @@ h
 js
 :
 :
-StencilCache
+DelazificationCache
 #
 include
 "
