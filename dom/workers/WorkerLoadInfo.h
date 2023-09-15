@@ -817,7 +817,7 @@ bool
 mUseRegularPrincipal
 ;
 bool
-mUsingStorageAccess
+mHasStorageAccessPermissionGranted
 ;
 bool
 mServiceWorkersTestingInWindow

@@ -1469,10 +1469,6 @@ uint32_t
 aSandboxFlags
 uint32_t
 aTriggeringSandboxFlags
-uint64_t
-aTriggeringWindowId
-bool
-aTriggeringStorageAccess
 nsContentPolicyType
 aContentPolicyType
 LoadTainting
@@ -2013,16 +2009,6 @@ uint32_t
 mTriggeringSandboxFlags
 =
 0
-;
-uint64_t
-mTriggeringWindowId
-=
-0
-;
-bool
-mTriggeringStorageAccess
-=
-false
 ;
 nsContentPolicyType
 mInternalContentPolicyType

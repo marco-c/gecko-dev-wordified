@@ -6729,7 +6729,7 @@ if
 aDocument
 -
 >
-UsingStorageAccess
+HasStorageAccessPermissionGranted
 (
 )
 )

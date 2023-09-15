@@ -1152,12 +1152,6 @@ occur
 uint32_t
 TriggeringSandboxFlags
 ;
-uint64_t
-TriggeringWindowId
-;
-bool
-TriggeringStorageAccess
-;
 int32_t
 ?
 CancelContentJSEpoch
