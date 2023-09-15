@@ -355,8 +355,6 @@ TRRMode
 trrMode
 TRRSkippedReason
 trrSkipReason
-uint32_t
-caps
 )
 ;
 async
@@ -403,6 +401,8 @@ TransactionObserverResult
 transactionObserverResult
 TimeStamp
 lastActiveTabOptimization
+uint32_t
+caps
 HttpConnectionInfoCloneArgs
 connInfoArgs
 )

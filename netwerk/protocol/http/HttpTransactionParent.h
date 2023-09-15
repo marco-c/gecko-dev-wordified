@@ -362,10 +362,6 @@ const
 TRRSkippedReason
 &
 aSkipReason
-const
-uint32_t
-&
-aCaps
 )
 ;
 mozilla
@@ -464,6 +460,10 @@ const
 TimeStamp
 &
 aLastActiveTabOptHit
+const
+uint32_t
+&
+aCaps
 const
 HttpConnectionInfoCloneArgs
 &
@@ -669,10 +669,6 @@ const
 TRRSkippedReason
 &
 aSkipReason
-const
-uint32_t
-&
-aCaps
 )
 ;
 void
@@ -725,6 +721,10 @@ TransactionObserverResult
 &
 &
 aTransactionObserverResult
+const
+uint32_t
+&
+aCaps
 nsHttpConnectionInfo
 *
 aConnInfo
