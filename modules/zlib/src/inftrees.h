@@ -553,8 +553,6 @@ codetype
 int
 ZLIB_INTERNAL
 inflate_table
-OF
-(
 (
 codetype
 type
@@ -580,6 +578,5 @@ short
 FAR
 *
 work
-)
 )
 ;
