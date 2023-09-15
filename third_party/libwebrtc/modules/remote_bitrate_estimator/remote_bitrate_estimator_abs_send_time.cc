@@ -651,11 +651,6 @@ observer_
 (
 observer
 )
-detector_
-(
-&
-field_trials_
-)
 remote_rate_
 (
 &
