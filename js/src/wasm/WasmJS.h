@@ -1772,7 +1772,7 @@ const
 wasm
 :
 :
-ElemSegmentVector
+ModuleElemSegmentVector
 &
 elemSegments
 uint32_t
