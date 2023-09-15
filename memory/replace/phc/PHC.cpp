@@ -3491,7 +3491,7 @@ mozilla
 phc
 :
 :
-Enabled
+OnlyFree
 /
 /
 The
