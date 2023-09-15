@@ -2169,7 +2169,7 @@ value
 }
 }
 }
-secondary_button
+additional_button
 :
 {
 label
@@ -2188,7 +2188,17 @@ now
 -
 button
 "
+marginInline
+:
+"
+100px
+"
 }
+style
+:
+"
+link
+"
 action
 :
 {

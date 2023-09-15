@@ -1996,7 +1996,7 @@ break
 ;
 case
 "
-secondary_button
+additional_button
 "
 :
 /
