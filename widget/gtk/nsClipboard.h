@@ -874,6 +874,8 @@ virtual
 nsClipboard
 (
 )
+=
+default
 ;
 /
 /
