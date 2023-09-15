@@ -436,9 +436,10 @@ progressFillRect
 ]
 ;
 [
-ControlAccentColor
-(
-)
+[
+NSColor
+controlAccentColor
+]
 setFill
 ]
 ;
