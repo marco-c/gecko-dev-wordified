@@ -1696,16 +1696,10 @@ err
 .
 columnNumber
 =
-(
 *
 column
 +
 offset
-)
-.
-zeroOriginValue
-(
-)
 ;
 }
 else
@@ -1785,10 +1779,6 @@ err
 columnNumber
 =
 columnNumber
-.
-zeroOriginValue
-(
-)
 ;
 }
 }
