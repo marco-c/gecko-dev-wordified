@@ -562,7 +562,7 @@ dom
 :
 GPUCanvasConfiguration
 &
-aDesc
+aConfig
 )
 {
 Unconfigure
@@ -580,7 +580,7 @@ the
 spec
 switch
 (
-aDesc
+aConfig
 .
 mFormat
 )
@@ -673,7 +673,7 @@ dom
 :
 GPUCanvasConfiguration
 (
-aDesc
+aConfig
 )
 )
 ;
@@ -694,14 +694,14 @@ GetNext
 ;
 mTexture
 =
-aDesc
+aConfig
 .
 mDevice
 -
 >
 InitSwapChain
 (
-aDesc
+aConfig
 *
 mRemoteTextureOwnerId
 mGfxFormat
@@ -730,7 +730,7 @@ this
 ;
 mBridge
 =
-aDesc
+aConfig
 .
 mDevice
 -
