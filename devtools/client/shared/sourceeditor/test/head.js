@@ -951,7 +951,9 @@ test
 /
 CodeMirrorTestActors
 .
-jsm
+sys
+.
+mjs
 "
 ;
 const
@@ -961,7 +963,7 @@ CodeMirrorTestParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 actorURI
 )
@@ -977,14 +979,14 @@ CodeMirrorTest
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 actorURI
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 actorURI
 events
