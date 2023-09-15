@@ -220,7 +220,7 @@ ctx
 font
 =
 '
-50px
+40px
 CanvasTest
 '
 ;
@@ -251,9 +251,7 @@ A
 )
 .
 emHeightAscent
-37
-.
-5
+30
 "
 ctx
 .
@@ -267,9 +265,7 @@ A
 emHeightAscent
 "
 "
-37
-.
-5
+30
 "
 )
 ;
@@ -285,9 +281,7 @@ A
 )
 .
 emHeightDescent
-12
-.
-5
+10
 "
 ctx
 .
@@ -301,9 +295,7 @@ A
 emHeightDescent
 "
 "
-12
-.
-5
+10
 "
 )
 ;
@@ -330,7 +322,7 @@ A
 )
 .
 emHeightAscent
-50
+40
 "
 ctx
 .
@@ -355,7 +347,7 @@ A
 emHeightAscent
 "
 "
-50
+40
 "
 )
 ;
@@ -371,9 +363,7 @@ ABCD
 )
 .
 emHeightAscent
-37
-.
-5
+30
 "
 ctx
 .
@@ -387,9 +377,7 @@ ABCD
 emHeightAscent
 "
 "
-37
-.
-5
+30
 "
 )
 ;
@@ -405,9 +393,7 @@ ABCD
 )
 .
 emHeightDescent
-12
-.
-5
+10
 "
 ctx
 .
@@ -421,9 +407,7 @@ ABCD
 emHeightDescent
 "
 "
-12
-.
-5
+10
 "
 )
 ;
@@ -450,7 +434,7 @@ ABCD
 )
 .
 emHeightAscent
-50
+40
 "
 ctx
 .
@@ -475,7 +459,7 @@ ABCD
 emHeightAscent
 "
 "
-50
+40
 "
 )
 ;
