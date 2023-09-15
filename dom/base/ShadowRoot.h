@@ -1618,7 +1618,6 @@ AddToRadioGroup
 (
 aName
 aRadio
-this
 )
 ;
 }
