@@ -5428,7 +5428,7 @@ WarpCacheIRTranspiler
 :
 emitLoadScriptedProxyHandler
 (
-ValOperandId
+ObjOperandId
 resultId
 ObjOperandId
 objId
