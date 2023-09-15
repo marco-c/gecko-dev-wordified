@@ -515,7 +515,7 @@ i
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 index
@@ -541,7 +541,7 @@ value
 {
 is
 (
-getScopeValue
+getScopeNodeValue
 (
 dbg
 index
@@ -648,7 +648,7 @@ i
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 index
@@ -674,7 +674,7 @@ value
 {
 is
 (
-getScopeValue
+getScopeNodeValue
 (
 dbg
 index

@@ -475,16 +475,11 @@ text
 )
 {
 return
-findElement
+getScopeNodeValue
 (
 dbg
-"
-scopeValue
-"
 index
 )
-.
-innerText
 ;
 }
 }

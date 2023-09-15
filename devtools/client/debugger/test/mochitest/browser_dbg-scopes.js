@@ -162,7 +162,7 @@ ready
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 1
@@ -174,7 +174,7 @@ secondCall
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 2
@@ -188,7 +188,7 @@ this
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 4
@@ -209,7 +209,7 @@ dbg
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 5
@@ -227,7 +227,7 @@ dbg
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 4
@@ -241,7 +241,7 @@ foo
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 5
@@ -253,7 +253,7 @@ Window
 ;
 is
 (
-getScopeValue
+getScopeNodeValue
 (
 dbg
 5

@@ -479,7 +479,7 @@ index
 ;
 is
 (
-getScopeLabel
+getScopeNodeLabel
 (
 dbg
 index
