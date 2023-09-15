@@ -668,6 +668,7 @@ Role
 role
 (
 )
+const
 {
 return
 role_
