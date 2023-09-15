@@ -739,13 +739,11 @@ reftest_screenshots
 ]
                 
 if
-type
+isinstance
 (
 item
-)
-=
-=
 dict
+)
             
 }
         

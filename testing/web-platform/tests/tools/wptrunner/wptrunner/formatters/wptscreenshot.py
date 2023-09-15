@@ -335,13 +335,12 @@ reftest_screenshots
 :
             
 if
-type
+not
+isinstance
 (
 item
-)
-!
-=
 dict
+)
 :
                 
 #

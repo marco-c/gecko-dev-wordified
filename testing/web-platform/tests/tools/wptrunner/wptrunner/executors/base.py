@@ -734,13 +734,12 @@ log_data
 :
         
 if
-type
+not
+isinstance
 (
 item
-)
-!
-=
 dict
+)
 :
             
 #
