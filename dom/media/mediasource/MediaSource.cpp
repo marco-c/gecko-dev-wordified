@@ -152,6 +152,13 @@ h
 #
 include
 "
+MP4Decoder
+.
+h
+"
+#
+include
+"
 MediaContainerType
 .
 h
@@ -628,10 +635,10 @@ aDiagnostics
 bool
 mp4supported
 =
-DecoderTraits
+MP4Decoder
 :
 :
-IsMP4SupportedType
+IsSupportedType
 (
 MediaContainerType
 (

@@ -204,9 +204,6 @@ nsMimeTypes
 h
 "
 #
-ifdef
-MOZ_FMP4
-#
 include
 "
 AtomType
@@ -241,8 +238,6 @@ SampleIterator
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2236,9 +2231,6 @@ mLastMapping
 ;
 }
 ;
-#
-ifdef
-MOZ_FMP4
 DDLoggedTypeDeclNameAndBase
 (
 MP4Stream
@@ -4271,14 +4263,6 @@ mParser
 ;
 }
 ;
-#
-endif
-/
-/
-MOZ_FMP4
-#
-ifdef
-MOZ_FMP4
 DDLoggedTypeDeclNameAndBase
 (
 ADTSContainerParser
@@ -5279,11 +5263,6 @@ return
 }
 }
 ;
-#
-endif
-/
-/
-MOZ_FMP4
 /
 *
 static
@@ -5342,9 +5321,6 @@ aType
 )
 ;
 }
-#
-ifdef
-MOZ_FMP4
 if
 (
 aType
@@ -5412,8 +5388,6 @@ aType
 )
 ;
 }
-#
-endif
 return
 MakeUnique
 <
