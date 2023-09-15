@@ -627,7 +627,7 @@ call
 n
 .
 *
-add
+lea
 .
 *
 %
@@ -679,7 +679,7 @@ call
 n
 .
 *
-add
+lea
 .
 *
 %
@@ -743,7 +743,7 @@ call
 n
 .
 *
-add
+lea
 .
 *
 %
@@ -807,7 +807,7 @@ call
 n
 .
 *
-add
+lea
 .
 *
 %
