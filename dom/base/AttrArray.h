@@ -1291,8 +1291,6 @@ aOther
 =
 delete
 ;
-private
-:
 bool
 GrowBy
 (
@@ -1300,6 +1298,15 @@ uint32_t
 aGrowSize
 )
 ;
+bool
+GrowTo
+(
+uint32_t
+aCapacity
+)
+;
+private
+:
 /
 /
 Tries
