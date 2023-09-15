@@ -2754,7 +2754,7 @@ mValue
 ;
 mProperties
 .
-RemoveElementAt
+RemoveElementAtUnsafe
 (
 index
 )
@@ -2839,7 +2839,7 @@ aFrame
 ;
 mProperties
 .
-RemoveElementAt
+RemoveElementAtUnsafe
 (
 index
 )

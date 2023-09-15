@@ -559,12 +559,14 @@ list
 >
 mEntries
 .
-ElementAt
+Elements
 (
+)
+[
 len
 -
 1
-)
+]
 ;
 if
 (
@@ -585,7 +587,7 @@ list
 >
 mEntries
 .
-RemoveElementAt
+RemoveElementAtUnsafe
 (
 len
 -

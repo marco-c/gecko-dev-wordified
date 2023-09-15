@@ -535,6 +535,10 @@ nsFontMetrics
 fm
 =
 mFontMetrics
+.
+Elements
+(
+)
 [
 i
 ]
@@ -624,7 +628,7 @@ the
 cache
 mFontMetrics
 .
-RemoveElementAt
+RemoveElementAtUnsafe
 (
 i
 )
