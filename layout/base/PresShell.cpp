@@ -55631,8 +55631,10 @@ mDefaultPrevented
 {
 if
 (
+RefPtr
+<
 Document
-*
+>
 doc
 =
 GetDocument
@@ -55643,7 +55645,7 @@ GetDocument
 doc
 -
 >
-TryCancelDialog
+HandleEscKey
 (
 )
 ;

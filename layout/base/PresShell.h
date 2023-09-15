@@ -16944,6 +16944,7 @@ event
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 FinalizeHandlingEvent
 (
