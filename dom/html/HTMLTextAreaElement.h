@@ -599,6 +599,11 @@ InitializeKeyboardEventListeners
 override
 ;
 void
+UpdatePlaceholderShownState
+(
+)
+;
+void
 OnValueChanged
 (
 ValueChangeKind

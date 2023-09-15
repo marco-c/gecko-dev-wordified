@@ -1880,6 +1880,11 @@ UpdateBadInputValidityState
 (
 )
 ;
+void
+UpdatePlaceholderShownState
+(
+)
+;
 /
 /
 Update

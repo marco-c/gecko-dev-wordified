@@ -2208,6 +2208,13 @@ Self
 INCREMENT_SCRIPT_LEVEL
 .
 bits
+|
+Self
+:
+:
+PLACEHOLDER_SHOWN
+.
+bits
 ;
 const
 INTRINSIC_STATES
