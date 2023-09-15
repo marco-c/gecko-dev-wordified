@@ -2275,6 +2275,9 @@ id
 "
 SHOPPING_MICROSURVEY_SCREEN_1
 "
+above_button_steps_indicator
+:
+true
 content
 :
 {
@@ -2568,6 +2571,9 @@ id
 "
 SHOPPING_MICROSURVEY_SCREEN_2
 "
+above_button_steps_indicator
+:
+true
 content
 :
 {
