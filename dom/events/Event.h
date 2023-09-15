@@ -467,6 +467,11 @@ WidgetEvent
 aEvent
 )
 ;
+void
+UpdateDefaultPreventedOnContentForDragEvent
+(
+)
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
