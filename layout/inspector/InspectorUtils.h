@@ -663,7 +663,7 @@ uint8_t
 aG
 uint8_t
 aB
-nsAString
+nsACString
 &
 aResult
 )
