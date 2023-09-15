@@ -270,17 +270,7 @@ CtapArgs
 cpp
 "
 "
-CtapResults
-.
-cpp
-"
-"
 PublicKeyCredential
-.
-cpp
-"
-"
-U2FSoftTokenTransport
 .
 cpp
 "
