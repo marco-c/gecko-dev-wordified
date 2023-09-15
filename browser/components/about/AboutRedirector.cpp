@@ -804,9 +804,6 @@ nsIAboutModule
 :
 IS_SECURE_CHROME_UI
 }
-#
-ifdef
-NIGHTLY_BUILD
 {
 "
 shoppingsidebar
@@ -856,8 +853,6 @@ nsIAboutModule
 :
 IS_SECURE_CHROME_UI
 }
-#
-endif
 {
 "
 tabcrashed
