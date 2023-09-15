@@ -7952,7 +7952,7 @@ GetScriptLoadContext
 )
 -
 >
-mOffThreadToken
+mCompileOrDecodeTask
 )
 ;
 ModuleScript
