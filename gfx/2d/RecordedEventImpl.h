@@ -10693,6 +10693,16 @@ Size
 mFormat
 )
 ;
+if
+(
+!
+newDT
+)
+{
+return
+false
+;
+}
 newDT
 =
 gfx
