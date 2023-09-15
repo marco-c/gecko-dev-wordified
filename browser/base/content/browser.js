@@ -59473,16 +59473,6 @@ _updateVisibility
 (
 )
 {
-if
-(
-window
-.
-closed
-)
-{
-return
-;
-}
 let
 optedOut
 =
