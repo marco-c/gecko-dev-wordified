@@ -280,10 +280,7 @@ self
 =
 this
 ;
-Maybe
-<
 LoadInfoArgs
->
 loadInfoArgs
 ;
 nsresult
