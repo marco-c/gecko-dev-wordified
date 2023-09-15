@@ -719,6 +719,11 @@ sourceId
 Source
 line
 number
+(
+1
+-
+origin
+)
 .
 unsigned
 lineno
@@ -726,7 +731,7 @@ lineno
 /
 /
 Column
-index
+number
 in
 line
 (

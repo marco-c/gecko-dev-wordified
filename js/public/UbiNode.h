@@ -2492,6 +2492,11 @@ frame
 s
 line
 number
+(
+1
+-
+origin
+)
 .
 virtual
 uint32_t
@@ -2511,6 +2516,11 @@ frame
 s
 column
 number
+(
+1
+-
+origin
+)
 .
 virtual
 uint32_t

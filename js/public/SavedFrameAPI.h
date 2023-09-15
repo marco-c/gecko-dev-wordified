@@ -551,7 +551,13 @@ get
 its
 line
 property
+(
+1
+-
+origin
+)
 .
+*
 Defaults
 to
 0
@@ -599,7 +605,13 @@ get
 its
 column
 property
+(
+1
+-
+origin
+)
 .
+*
 Defaults
 to
 0

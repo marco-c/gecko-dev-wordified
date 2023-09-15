@@ -567,6 +567,14 @@ message
 /
 property
 .
+/
+/
+columnNumber
+is
+1
+-
+origin
+.
 static
 ErrorObject
 *

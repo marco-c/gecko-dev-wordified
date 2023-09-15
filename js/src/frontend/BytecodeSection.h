@@ -2210,9 +2210,9 @@ currentLine_
 ;
 /
 /
-Zero
+0
 -
-based
+origin
 column
 index
 on
@@ -2315,6 +2315,11 @@ lastSeparatorColumn_
 =
 0
 ;
+/
+/
+0
+-
+origin
 /
 /
 -

@@ -545,6 +545,11 @@ mLineNumber
 /
 JSError
 only
+(
+1
+-
+origin
+)
 uint32_t
 mColumn
 =
@@ -554,6 +559,11 @@ mColumn
 /
 JSError
 only
+(
+1
+-
+origin
+)
 uint32_t
 mTokenOffset
 =
