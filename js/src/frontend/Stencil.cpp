@@ -447,6 +447,10 @@ JS
 :
 :
 DecodeOptions
+JS
+:
+:
+ReadOnlyDecodeOptions
 #
 include
 "
@@ -35333,7 +35337,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const
@@ -35391,7 +35395,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const

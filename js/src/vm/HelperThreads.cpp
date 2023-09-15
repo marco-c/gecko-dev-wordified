@@ -266,7 +266,7 @@ CompileOptions
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 JS
 :
 :
@@ -7013,7 +7013,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const

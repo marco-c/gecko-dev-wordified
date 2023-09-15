@@ -8377,7 +8377,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 *
 maybeOptions
 RefPtr
@@ -9011,6 +9011,8 @@ maybeOptions
 -
 >
 introducerFilename
+(
+)
 )
 {
 if
@@ -9026,6 +9028,8 @@ maybeOptions
 -
 >
 introducerFilename
+(
+)
 .
 c_str
 (
@@ -9092,7 +9096,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 *
 maybeOptions
 RefPtr
@@ -9125,7 +9129,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 *
 maybeOptions
 RefPtr
@@ -9626,7 +9630,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 *
 maybeOptions
 RefPtr
@@ -9994,7 +9998,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 frontend

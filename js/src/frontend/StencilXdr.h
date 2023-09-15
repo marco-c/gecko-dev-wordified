@@ -171,7 +171,7 @@ namespace
 JS
 {
 class
-DecodeOptions
+ReadOnlyDecodeOptions
 ;
 }
 /
@@ -572,7 +572,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 *
 maybeOptions
 RefPtr
@@ -1070,7 +1070,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 frontend
@@ -1085,7 +1085,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 (
@@ -1107,7 +1107,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 *
 options_
 =

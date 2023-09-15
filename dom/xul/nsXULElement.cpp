@@ -11458,7 +11458,7 @@ const
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 aOptions
 JS

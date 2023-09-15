@@ -156,7 +156,7 @@ h
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 JS
 :
 :
@@ -354,7 +354,7 @@ JSContext
 *
 cx
 const
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 size_t

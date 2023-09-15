@@ -286,7 +286,7 @@ InstantiateOptions
 JS
 :
 :
-DecodeOptions
+ReadOnlyDecodeOptions
 #
 include
 "
@@ -2113,7 +2113,7 @@ JSContext
 *
 cx
 const
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const
@@ -2138,7 +2138,7 @@ FrontendContext
 *
 fc
 const
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const
@@ -2583,7 +2583,7 @@ JSContext
 *
 cx
 const
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const
@@ -2648,7 +2648,7 @@ JSContext
 *
 cx
 const
-DecodeOptions
+ReadOnlyDecodeOptions
 &
 options
 const
