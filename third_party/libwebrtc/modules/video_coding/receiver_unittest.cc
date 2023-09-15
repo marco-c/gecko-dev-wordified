@@ -155,7 +155,9 @@ modules
 /
 video_coding
 /
-encoded_frame
+deprecated
+/
+stream_generator
 .
 h
 "
@@ -166,9 +168,7 @@ modules
 /
 video_coding
 /
-test
-/
-stream_generator
+encoded_frame
 .
 h
 "
