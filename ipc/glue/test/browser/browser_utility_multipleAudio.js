@@ -112,7 +112,7 @@ utility
 ;
 if
 (
-isNightly
+isNightlyOrEalyBeta
 (
 )
 )
@@ -244,7 +244,7 @@ removed
 if
 (
 !
-isNightly
+isNightlyOrEalyBeta
 (
 )
 )
