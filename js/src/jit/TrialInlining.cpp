@@ -752,6 +752,10 @@ script
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 frame
 -
 >
@@ -3784,6 +3788,10 @@ baseScript
 -
 >
 column
+(
+)
+.
+zeroOriginValue
 (
 )
 :

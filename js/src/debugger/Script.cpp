@@ -2643,6 +2643,10 @@ s
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 ;
 }
 [

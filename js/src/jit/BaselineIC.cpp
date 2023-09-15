@@ -1164,6 +1164,10 @@ script
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 script
 -
 >
