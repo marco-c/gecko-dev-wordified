@@ -4718,7 +4718,10 @@ httpsOnlyStatus
 nsILoadInfo
 :
 :
-HTTPS_ONLY_EXEMPT_NEXT_LOAD
+HTTPS_FIRST_EXEMPT_NEXT_LOAD
+&
+&
+isHttpsFirst
 )
 {
 httpsOnlyStatus
@@ -4728,7 +4731,7 @@ httpsOnlyStatus
 nsILoadInfo
 :
 :
-HTTPS_ONLY_EXEMPT_NEXT_LOAD
+HTTPS_FIRST_EXEMPT_NEXT_LOAD
 ;
 httpsOnlyStatus
 |

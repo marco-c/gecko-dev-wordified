@@ -14577,7 +14577,7 @@ upgrade
 loadState
 -
 >
-SetIsExemptFromHTTPSOnlyMode
+SetIsExemptFromHTTPSFirstMode
 (
 true
 )

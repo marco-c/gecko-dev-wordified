@@ -1148,7 +1148,7 @@ if
 aLoadState
 -
 >
-IsExemptFromHTTPSOnlyMode
+IsExemptFromHTTPSFirstMode
 (
 )
 )
@@ -1169,7 +1169,7 @@ httpsOnlyStatus
 nsILoadInfo
 :
 :
-HTTPS_ONLY_EXEMPT_NEXT_LOAD
+HTTPS_FIRST_EXEMPT_NEXT_LOAD
 ;
 loadInfo
 -
@@ -15946,7 +15946,7 @@ loop
 loadState
 -
 >
-SetIsExemptFromHTTPSOnlyMode
+SetIsExemptFromHTTPSFirstMode
 (
 true
 )
