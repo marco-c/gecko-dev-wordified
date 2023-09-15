@@ -202,7 +202,7 @@ function
 observe
 (
 subject
-topic1
+topic
 data
 )
 {

@@ -51,7 +51,7 @@ a1d
 "
 function
 (
-entry1
+entry
 )
 {
 /
@@ -65,7 +65,7 @@ Assert
 .
 equal
 (
-entry1
+entry
 .
 dataSize
 3
@@ -102,7 +102,7 @@ a1d
 "
 function
 (
-entry2
+entry
 )
 {
 /
@@ -122,7 +122,7 @@ Assert
 .
 equal
 (
-entry2
+entry
 .
 dataSize
 3
@@ -161,7 +161,7 @@ a2d
 "
 function
 (
-entry3
+entry
 )
 {
 /
@@ -175,7 +175,7 @@ Assert
 .
 equal
 (
-entry3
+entry
 .
 dataSize
 3
@@ -212,14 +212,14 @@ a2d
 "
 function
 (
-entry4
+entry
 )
 {
 Assert
 .
 equal
 (
-entry4
+entry
 .
 dataSize
 3
