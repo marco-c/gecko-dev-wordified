@@ -145,11 +145,7 @@ properties
 [
 derive
 (
-Clone
-Copy
-Eq
 MallocSizeOf
-PartialEq
 ToComputedValue
 ToResolvedValue
 ToShmem

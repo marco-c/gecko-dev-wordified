@@ -1585,11 +1585,7 @@ bitflags
 [
 derive
 (
-Clone
-Copy
-Eq
 MallocSizeOf
-PartialEq
 Parse
 Serialize
 SpecifiedValueInfo
@@ -2658,11 +2654,7 @@ bitflags
 [
 derive
 (
-Clone
-Copy
-Eq
 MallocSizeOf
-PartialEq
 Parse
 Serialize
 SpecifiedValueInfo
@@ -4638,11 +4630,7 @@ bitflags
 [
 derive
 (
-Clone
-Copy
-Eq
 MallocSizeOf
-PartialEq
 Parse
 Serialize
 SpecifiedValueInfo
@@ -5539,11 +5527,7 @@ bitflags
 [
 derive
 (
-Clone
-Copy
-Eq
 MallocSizeOf
-PartialEq
 SpecifiedValueInfo
 ToComputedValue
 ToResolvedValue

@@ -182,11 +182,7 @@ bitflags
 [
 derive
 (
-Clone
-Copy
-Eq
 MallocSizeOf
-PartialEq
 Serialize
 )
 ]

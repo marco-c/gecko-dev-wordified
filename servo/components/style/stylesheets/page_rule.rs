@@ -804,14 +804,6 @@ page
 selectors
 #
 [
-derive
-(
-Clone
-Copy
-)
-]
-#
-[
 repr
 (
 C

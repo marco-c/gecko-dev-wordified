@@ -1353,11 +1353,7 @@ Gradient
 [
 derive
 (
-Clone
-Copy
-Default
 MallocSizeOf
-PartialEq
 ToComputedValue
 ToResolvedValue
 ToShmem

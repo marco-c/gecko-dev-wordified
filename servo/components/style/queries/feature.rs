@@ -952,8 +952,6 @@ evaluated
 [
 derive
 (
-Clone
-Copy
 ToShmem
 )
 ]

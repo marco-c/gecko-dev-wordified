@@ -1152,16 +1152,6 @@ other
 /
 units
 .
-#
-[
-derive
-(
-Clone
-Copy
-PartialEq
-Eq
-)
-]
 pub
 struct
 CalcUnits

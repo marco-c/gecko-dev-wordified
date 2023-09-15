@@ -1489,12 +1489,7 @@ we
 [
 derive
 (
-Clone
-Copy
-Debug
 Default
-Eq
-PartialEq
 ToShmem
 )
 ]
