@@ -794,10 +794,6 @@ extern
 bool
 enablePrivateClassMethods
 ;
-extern
-bool
-enableChangeArrayByCopy
-;
 #
 ifdef
 ENABLE_NEW_SET_METHODS

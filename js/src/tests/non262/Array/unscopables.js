@@ -161,9 +161,6 @@ includes
 keys
 "
 "
-values
-"
-"
 toReversed
 "
 "
@@ -171,6 +168,9 @@ toSorted
 "
 "
 toSpliced
+"
+"
+values
 "
 ]
 ;

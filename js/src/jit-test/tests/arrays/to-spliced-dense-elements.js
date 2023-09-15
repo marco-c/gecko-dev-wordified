@@ -5,17 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-change
--
-array
--
-by
--
-copy
 for
 (
 let
