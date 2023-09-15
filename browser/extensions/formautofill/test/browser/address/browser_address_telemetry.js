@@ -1760,7 +1760,6 @@ parent
 )
 SCALAR_AUTOFILL_PROFILE_COUNT
 expectChanged
-"
 There
 should
 be
@@ -1773,7 +1772,6 @@ s
 )
 stored
 .
-"
 )
 ;
 }
@@ -2200,7 +2198,6 @@ parent
 )
 SCALAR_AUTOFILL_PROFILE_COUNT
 expectChanged
-"
 There
 should
 be
@@ -2213,7 +2210,6 @@ s
 )
 stored
 .
-"
 )
 ;
 }
