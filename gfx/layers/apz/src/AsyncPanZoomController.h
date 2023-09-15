@@ -11123,7 +11123,7 @@ origin
 void
 SmoothScrollTo
 (
-CSSSnapTarget
+CSSSnapDestination
 &
 &
 aDestination
@@ -11163,7 +11163,7 @@ snapping
 void
 SmoothMsdScrollTo
 (
-CSSSnapTarget
+CSSSnapDestination
 &
 &
 aDestination
@@ -13685,7 +13685,7 @@ found
 .
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 MaybeAdjustDeltaForScrollSnapping
 (
@@ -13715,7 +13715,7 @@ ScrollWheelInput
 .
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 MaybeAdjustDeltaForScrollSnappingOnWheelInput
 (
@@ -13733,7 +13733,7 @@ aStartPosition
 ;
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 MaybeAdjustDestinationForScrollSnapping
 (
@@ -13893,7 +13893,7 @@ scroll
 .
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 FindSnapPointNear
 (

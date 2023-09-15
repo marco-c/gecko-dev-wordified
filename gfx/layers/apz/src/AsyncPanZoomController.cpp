@@ -14899,9 +14899,9 @@ mType
 ;
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
-snapTarget
+snapDestination
 =
 MaybeAdjustDestinationForScrollSnapping
 (
@@ -15132,7 +15132,7 @@ KEYBOARD_SCROLL
 }
 if
 (
-snapTarget
+snapDestination
 )
 {
 {
@@ -15149,7 +15149,7 @@ std
 :
 move
 (
-snapTarget
+snapDestination
 -
 >
 mTargetIds
@@ -15208,7 +15208,7 @@ mRecursiveMutex
 ;
 if
 (
-snapTarget
+snapDestination
 )
 {
 /
@@ -15287,7 +15287,7 @@ std
 move
 (
 *
-snapTarget
+snapDestination
 )
 ScrollTriggeredByScript
 :
@@ -17889,9 +17889,9 @@ GetVisualScrollOffset
 }
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
-snapTarget
+snapDestination
 =
 MaybeAdjustDeltaForScrollSnappingOnWheelInput
 (
@@ -18024,7 +18024,7 @@ WHEEL_SCROLL
 }
 if
 (
-snapTarget
+snapDestination
 )
 {
 {
@@ -18041,7 +18041,7 @@ std
 :
 move
 (
-snapTarget
+snapDestination
 -
 >
 mTargetIds
@@ -18221,9 +18221,9 @@ if
 (
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
-snapTarget
+snapDestination
 =
 MaybeAdjustDeltaForScrollSnappingOnWheelInput
 (
@@ -18309,7 +18309,7 @@ std
 move
 (
 *
-snapTarget
+snapDestination
 )
 ScrollTriggeredByScript
 :
@@ -27542,7 +27542,7 @@ AsyncPanZoomController
 :
 SmoothScrollTo
 (
-CSSSnapTarget
+CSSSnapDestination
 &
 &
 aDestination
@@ -27814,7 +27814,7 @@ AsyncPanZoomController
 :
 SmoothMsdScrollTo
 (
-CSSSnapTarget
+CSSSnapDestination
 &
 &
 aDestination
@@ -38922,7 +38922,7 @@ SmoothMsd
 {
 SmoothMsdScrollTo
 (
-CSSSnapTarget
+CSSSnapDestination
 {
 destination
 scrollUpdate
@@ -38958,7 +38958,7 @@ Smooth
 ;
 SmoothScrollTo
 (
-CSSSnapTarget
+CSSSnapDestination
 {
 destination
 scrollUpdate
@@ -44636,7 +44636,7 @@ ScheduleComposite
 }
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 AsyncPanZoomController
 :
@@ -44697,7 +44697,7 @@ CalculateScrollRange
 if
 (
 auto
-snapTarget
+snapDestination
 =
 ScrollSnapUtils
 :
@@ -44749,7 +44749,7 @@ CSSPoint
 :
 FromAppUnits
 (
-snapTarget
+snapDestination
 -
 >
 mPosition
@@ -44813,7 +44813,7 @@ ScrollTo
 return
 Some
 (
-CSSSnapTarget
+CSSSnapDestination
 {
 scrollRange
 .
@@ -44821,7 +44821,7 @@ ClampPoint
 (
 cssSnapPoint
 )
-snapTarget
+snapDestination
 -
 >
 mTargetIds
@@ -45513,9 +45513,9 @@ if
 (
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
-snapTarget
+snapDestination
 =
 FindSnapPointNear
 (
@@ -45530,7 +45530,7 @@ aSnapFlags
 {
 if
 (
-snapTarget
+snapDestination
 -
 >
 mPosition
@@ -45563,7 +45563,7 @@ n
 this
 ToString
 (
-snapTarget
+snapDestination
 -
 >
 mPosition
@@ -45582,7 +45582,7 @@ std
 move
 (
 *
-snapTarget
+snapDestination
 )
 ScrollTriggeredByScript
 :
@@ -45897,9 +45897,9 @@ if
 (
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
-snapTarget
+snapDestination
 =
 MaybeAdjustDeltaForScrollSnapping
 (
@@ -46063,7 +46063,7 @@ std
 move
 (
 *
-snapTarget
+snapDestination
 )
 ScrollTriggeredByScript
 :
@@ -46075,7 +46075,7 @@ No
 }
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 AsyncPanZoomController
 :
@@ -46154,9 +46154,9 @@ if
 (
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
-snapTarget
+snapDestination
 =
 FindSnapPointNear
 (
@@ -46169,7 +46169,7 @@ aSnapFlags
 aDelta
 =
 (
-snapTarget
+snapDestination
 -
 >
 mPosition
@@ -46181,13 +46181,13 @@ zoom
 ;
 aStartPosition
 =
-snapTarget
+snapDestination
 -
 >
 mPosition
 ;
 return
-snapTarget
+snapDestination
 ;
 }
 return
@@ -46198,7 +46198,7 @@ Nothing
 }
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 AsyncPanZoomController
 :
@@ -46441,7 +46441,7 @@ aStartPosition
 }
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 AsyncPanZoomController
 :
@@ -46484,7 +46484,7 @@ if
 (
 Maybe
 <
-CSSSnapTarget
+CSSSnapDestination
 >
 snapPoint
 =

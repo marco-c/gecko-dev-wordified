@@ -4132,7 +4132,7 @@ Maybe
 mozilla
 :
 :
-SnapTarget
+SnapDestination
 >
 GetSnapPointForDestination
 (
@@ -4158,7 +4158,7 @@ Maybe
 mozilla
 :
 :
-SnapTarget
+SnapDestination
 >
 GetSnapPointForResnap
 (

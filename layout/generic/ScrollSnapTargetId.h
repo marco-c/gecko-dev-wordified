@@ -181,7 +181,7 @@ mIdsOnY
 }
 ;
 struct
-SnapTarget
+SnapDestination
 {
 nsPoint
 mPosition
@@ -192,7 +192,7 @@ mTargetIds
 }
 ;
 struct
-CSSSnapTarget
+CSSSnapDestination
 {
 CSSPoint
 mPosition

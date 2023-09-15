@@ -506,7 +506,7 @@ CandidateTracker
 aCandidateTracker
 )
 ;
-SnapTarget
+SnapDestination
 GetBestEdge
 (
 )
@@ -775,7 +775,7 @@ y
 ;
 }
 }
-SnapTarget
+SnapDestination
 CalcSnapPoints
 :
 :
@@ -785,7 +785,7 @@ GetBestEdge
 const
 {
 return
-SnapTarget
+SnapDestination
 {
 nsPoint
 (
@@ -2310,7 +2310,7 @@ mTargetId
 }
 Maybe
 <
-SnapTarget
+SnapDestination
 >
 ScrollSnapUtils
 :
@@ -3630,10 +3630,7 @@ y
 }
 Maybe
 <
-mozilla
-:
-:
-SnapTarget
+SnapDestination
 >
 ScrollSnapUtils
 :
@@ -3990,7 +3987,7 @@ y
 ;
 }
 }
-SnapTarget
+SnapDestination
 snapTarget
 {
 nsPoint
