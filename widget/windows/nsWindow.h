@@ -3491,8 +3491,6 @@ lParam
 bool
 OnPaint
 (
-HDC
-aDC
 uint32_t
 aNestingLevel
 )
