@@ -489,6 +489,9 @@ of
 {
 (
 <
+subsuite
+>
+<
 test
 >
 <
@@ -504,6 +507,9 @@ where
         
 #
 (
+<
+subsuite
+>
 <
 test
 >
@@ -856,13 +862,26 @@ indent
 join
 (
                     
-val
+f
+"
+{
+self
+.
+get_test_name_output
+(
+subsuite
+test_name
+)
+}
+"
 [
 :
 max_width
 ]
+                    
 for
-val
+subsuite
+test_name
 in
 self
 .
@@ -1026,12 +1045,22 @@ thread
 ]
 ]
 =
+(
+data
+.
+get
+(
+"
+subsuite
+"
+)
 data
 [
 "
 test
 "
 ]
+)
         
 return
 self
@@ -1320,6 +1349,7 @@ lines
         
 for
 (
+subsuite
 test
 subtest
 )
@@ -1410,7 +1440,13 @@ status
                     
 expected
                     
+self
+.
+get_test_name_output
+(
+subsuite
 test
+)
                     
 (
 "
@@ -1453,9 +1489,68 @@ return
 output
     
 def
+get_test_name_output
+(
+self
+subsuite
+test_name
+)
+:
+        
+#
+Generate
+human
+readable
+test
+name
+from
+subsuite
+and
+test_name
+.
+        
+#
+Vendors
+can
+override
+this
+function
+to
+produce
+output
+in
+a
+different
+        
+#
+format
+that
+suites
+their
+need
+.
+        
+return
+f
+"
+{
+subsuite
+}
+:
+{
+test_name
+}
+"
+if
+subsuite
+else
+test_name
+    
+def
 get_output_for_unexpected_subtests
 (
 self
+subsuite
 test_name
 unexpected_subtests
 )
@@ -1536,6 +1631,7 @@ stack
 def
 make_subtests_failure
 (
+subsuite
 test_name
 subtests
 stack
@@ -1557,8 +1653,15 @@ in
 s
 :
 "
+                     
 %
+self
+.
+get_test_name_output
+(
+subsuite
 test_name
+)
 ]
             
 for
@@ -1695,6 +1798,7 @@ output
 =
 make_subtests_failure
 (
+subsuite
 test_name
 [
 failure
@@ -1738,6 +1842,7 @@ output
 =
 make_subtests_failure
 (
+subsuite
 test_name
 failures
 stack
@@ -1779,6 +1884,17 @@ test
 "
 ]
         
+subsuite
+=
+data
+.
+get
+(
+"
+subsuite
+"
+)
+        
 known_intermittent_statuses
 =
 data
@@ -1800,7 +1916,10 @@ subtest_failures
 .
 pop
 (
+(
+subsuite
 test_name
+)
 [
 ]
 )
@@ -1905,7 +2024,14 @@ s
 n
 "
 %
+self
+.
+get_test_name_output
+(
+subsuite
 test_name
+)
+                    
 new_display
 =
 new_display
@@ -1923,6 +2049,7 @@ self
 known_intermittent_results
 [
 (
+subsuite
 test_name
 None
 )
@@ -1986,7 +2113,10 @@ self
 .
 test_output
 [
+(
+subsuite
 test_name
+)
 ]
 +
 data
@@ -2043,7 +2173,13 @@ self
 get_lines_for_unexpected_result
 (
                 
+self
+.
+get_test_name_output
+(
+subsuite
 test_name
+)
                 
 test_status
                 
@@ -2098,7 +2234,10 @@ tests_with_failing_subtests
 .
 append
 (
+(
+subsuite
 test_name
+)
 )
             
 output
@@ -2109,6 +2248,7 @@ self
 get_output_for_unexpected_subtests
 (
                 
+subsuite
 test_name
 subtest_failures
             
@@ -2171,16 +2311,30 @@ known_intermittent
 )
 :
             
-self
+key
+=
+(
+data
 .
-subtest_failures
-[
+get
+(
+"
+subsuite
+"
+)
 data
 [
 "
 test
 "
 ]
+)
+            
+self
+.
+subtest_failures
+[
+key
 ]
 .
 append
@@ -2208,11 +2362,17 @@ known_intermittent
 )
 :
             
-self
-.
-known_intermittent_results
-[
+key
+=
 (
+data
+.
+get
+(
+"
+subsuite
+"
+)
 data
 [
 "
@@ -2226,6 +2386,12 @@ subtest
 "
 ]
 )
+            
+self
+.
+known_intermittent_results
+[
+key
 ]
 =
 data
@@ -2729,7 +2895,7 @@ running_tests
             
 return
         
-test_name
+test_key
 =
 self
 .
@@ -2747,7 +2913,7 @@ self
 .
 test_output
 [
-test_name
+test_key
 ]
 +
 =
