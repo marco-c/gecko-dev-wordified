@@ -1422,6 +1422,15 @@ SrcNoteType
 :
 :
 NewLine
+|
+|
+type
+=
+=
+SrcNoteType
+:
+:
+NewLineColumn
 )
 {
 lineno
