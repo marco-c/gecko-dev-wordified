@@ -3551,8 +3551,10 @@ mAddress
 nsCString
 mOriginSuffix
 ;
+RefPtr
+<
 WebSocketChannel
-*
+>
 mChannel
 ;
 }
