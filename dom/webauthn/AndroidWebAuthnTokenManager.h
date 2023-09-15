@@ -649,6 +649,12 @@ uint8_t
 >
 mAttObj
 ;
+nsTArray
+<
+nsString
+>
+mTransports
+;
 /
 /
 Attestations
