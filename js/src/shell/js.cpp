@@ -22415,7 +22415,7 @@ line2
 ;
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
@@ -22448,7 +22448,7 @@ line2
 {
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
@@ -22511,7 +22511,7 @@ line1
 ;
 sprinter
 .
-jsprintf
+printf
 (
 "
 %
