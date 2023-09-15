@@ -842,7 +842,8 @@ span
 }
 <
 Badge
->
+badgeText
+=
 {
 this
 .
@@ -852,9 +853,7 @@ group
 .
 length
 }
-<
 /
-Badge
 >
 {
 this

@@ -109,13 +109,12 @@ shallow
 (
 <
 Badge
->
+badgeText
+=
 {
 3
 }
-<
 /
-Badge
 >
 )
 )

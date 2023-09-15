@@ -237,11 +237,14 @@ modified
 ;
 }
 return
-<
+React
+.
+createElement
+(
 AccessibleImage
-className
-=
 {
+className
+:
 source
 -
 icon
@@ -249,8 +252,7 @@ icon
 iconClass
 }
 }
-/
->
+)
 ;
 }
 }
