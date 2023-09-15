@@ -2179,7 +2179,7 @@ Option
 if
 (
 !
-ParseTimeZoneOffsetString
+ParseDateTimeUTCOffset
 (
 cx
 offsetString
@@ -2540,8 +2540,7 @@ timeZoneOffset
 ;
 Rooted
 <
-JSString
-*
+ParsedTimeZone
 >
 timeZoneString
 (
@@ -14900,7 +14899,7 @@ offsetNanoseconds
 if
 (
 !
-ParseTimeZoneOffsetString
+ParseDateTimeUTCOffset
 (
 cx
 offsetStr

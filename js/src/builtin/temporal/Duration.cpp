@@ -23135,7 +23135,7 @@ b
 if
 (
 !
-ParseTimeZoneOffsetString
+ParseDateTimeUTCOffset
 (
 cx
 offsetString
@@ -23233,8 +23233,7 @@ timeZoneOffset
 ;
 Rooted
 <
-JSString
-*
+ParsedTimeZone
 >
 timeZoneName
 (
@@ -23477,12 +23476,10 @@ hasOffset
 ;
 /
 /
-Steps
+Step
 8
 .
 a
--
-b
 .
 offsetNs
 =
