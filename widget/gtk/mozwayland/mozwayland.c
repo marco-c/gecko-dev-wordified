@@ -156,7 +156,7 @@ wl_argument
 /
 *
 Those
-strucures
+structures
 are
 just
 placeholders
