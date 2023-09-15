@@ -142,12 +142,6 @@ h
 #
 include
 "
-base
-/
-third_party
-/
-double_conversion
-/
 double
 -
 conversion
