@@ -1095,14 +1095,10 @@ aPrevInFlow
 override
 ;
 void
-DestroyFrom
+Destroy
 (
-nsIFrame
-*
-aDestructRoot
-PostDestroyData
+DestroyContext
 &
-aPostDestroyData
 )
 override
 ;
