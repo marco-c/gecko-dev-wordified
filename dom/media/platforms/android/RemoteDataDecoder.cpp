@@ -1646,7 +1646,6 @@ h264
 _ns
 ;
 }
-else
 if
 (
 mMediaInfoFlag
@@ -1664,7 +1663,6 @@ vp8
 _ns
 ;
 }
-else
 if
 (
 mMediaInfoFlag
@@ -1682,7 +1680,6 @@ vp9
 _ns
 ;
 }
-else
 if
 (
 mMediaInfoFlag
@@ -1700,15 +1697,12 @@ av1
 _ns
 ;
 }
-else
-{
 return
 "
 unknown
 "
 _ns
 ;
-}
 }
 RefPtr
 <
