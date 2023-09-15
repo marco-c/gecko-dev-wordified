@@ -1290,11 +1290,6 @@ unusedArgs
 {
 }
 ;
-NothingVector
-unusedValues
-{
-}
-;
 CHECK
 (
 iter
@@ -1305,8 +1300,6 @@ readReturnCall
 unusedIndex
 &
 unusedArgs
-&
-unusedValues
 )
 )
 ;
@@ -1350,11 +1343,6 @@ unusedArgs
 {
 }
 ;
-NothingVector
-unusedValues
-{
-}
-;
 CHECK
 (
 iter
@@ -1369,8 +1357,6 @@ unusedIndex2
 nothing
 &
 unusedArgs
-&
-unusedValues
 )
 )
 ;
@@ -1487,11 +1473,6 @@ unusedArgs
 {
 }
 ;
-NothingVector
-unusedValues
-{
-}
-;
 CHECK
 (
 iter
@@ -1504,8 +1485,6 @@ unusedType
 nothing
 &
 unusedArgs
-&
-unusedValues
 )
 )
 ;

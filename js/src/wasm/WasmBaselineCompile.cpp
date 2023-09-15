@@ -31919,11 +31919,6 @@ args_
 {
 }
 ;
-BaseNothingVector
-unused_values
-{
-}
-;
 if
 (
 !
@@ -31935,8 +31930,6 @@ readReturnCall
 funcIndex
 &
 args_
-&
-unused_values
 )
 )
 {
@@ -32513,11 +32506,6 @@ args_
 {
 }
 ;
-BaseNothingVector
-unused_values
-{
-}
-;
 if
 (
 !
@@ -32533,8 +32521,6 @@ tableIndex
 callee_
 &
 args_
-&
-unused_values
 )
 )
 {
@@ -33063,11 +33049,6 @@ unused_args
 {
 }
 ;
-BaseNothingVector
-unused_values
-{
-}
-;
 if
 (
 !
@@ -33081,8 +33062,6 @@ funcType
 unused_callee
 &
 unused_args
-&
-unused_values
 )
 )
 {

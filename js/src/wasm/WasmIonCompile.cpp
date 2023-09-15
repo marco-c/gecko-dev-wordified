@@ -33708,9 +33708,6 @@ funcIndex
 DefVector
 args
 ;
-DefVector
-unused_values
-;
 if
 (
 !
@@ -33726,8 +33723,6 @@ readReturnCall
 funcIndex
 &
 args
-&
-unused_values
 )
 )
 {
@@ -33905,9 +33900,6 @@ callee
 DefVector
 args
 ;
-DefVector
-unused_values
-;
 if
 (
 !
@@ -33927,8 +33919,6 @@ tableIndex
 callee
 &
 args
-&
-unused_values
 )
 )
 {
@@ -34072,9 +34062,6 @@ callee
 DefVector
 args
 ;
-DefVector
-unused_values
-;
 if
 (
 !
@@ -34092,8 +34079,6 @@ funcType
 callee
 &
 args
-&
-unused_values
 )
 )
 {
