@@ -20665,7 +20665,7 @@ ethe1
 TEST_F
 (
 BasicPortAllocatorTest
-Select2DifferentIntefacesIfDiversifyIpv6InterfacesEnabled
+Select2DifferentIntefaces
 )
 {
 allocator
@@ -20843,7 +20843,7 @@ kClientIPv6Addr3
 TEST_F
 (
 BasicPortAllocatorTest
-Select3DifferentIntefacesIfDiversifyIpv6InterfacesEnabled
+Select3DifferentIntefaces
 )
 {
 allocator
@@ -21037,7 +21037,7 @@ kClientIPv6Addr5
 TEST_F
 (
 BasicPortAllocatorTest
-Select4DifferentIntefacesIfDiversifyIpv6InterfacesEnabled
+Select4DifferentIntefaces
 )
 {
 allocator

@@ -3944,13 +3944,6 @@ const
 SocketAddress
 &
 link_local_addr
-const
-webrtc
-:
-:
-FieldTrialsView
-*
-field_trials
 )
 {
 networks_
@@ -3973,7 +3966,6 @@ rtc
 :
 :
 ADAPTER_TYPE_UNKNOWN
-field_trials
 )
 ;
 networks_
@@ -4155,8 +4147,6 @@ MakeNetworkMultipleAddrs
 (
 global_addr
 link_local_addr
-&
-field_trials_
 )
 0
 0
