@@ -2090,6 +2090,10 @@ use
 void
 ClearLastTexture
 (
+bool
+aFullClear
+=
+false
 )
 ;
 bool
