@@ -45797,7 +45797,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-hashConstructor
+hash_constructor_
 (
 )
 )
@@ -47241,7 +47241,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-hashConstructor
+hash_constructor_
 (
 )
 )
