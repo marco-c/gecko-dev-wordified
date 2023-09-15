@@ -134,7 +134,6 @@ define
 ENUM_ENTRY_
 (
 _
-_2
 TEXT
 )
 \

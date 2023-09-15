@@ -23295,9 +23295,8 @@ break
 define
 CASE_
 (
-_
 name
-_2
+_
 )
 case
 WellKnownAtomId
@@ -23756,9 +23755,8 @@ break
 define
 CASE_
 (
-_
 name
-_2
+_
 )
 case
 WellKnownAtomId

@@ -315,9 +315,8 @@ atomId
 define
 ASSERT_OFFSET_
 (
-_
 NAME
-_2
+_
 )
 \
 static_assert
@@ -8393,9 +8392,8 @@ complete
 define
 COMMON_NAME_INIT_
 (
-_
 NAME
-_2
+_
 )
 \
 if

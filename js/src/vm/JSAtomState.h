@@ -186,7 +186,6 @@ JSAtomState
 define
 PROPERTYNAME_FIELD
 (
-idpart
 id
 text
 )
