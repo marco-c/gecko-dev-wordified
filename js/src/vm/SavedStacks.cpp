@@ -15054,14 +15054,6 @@ get
 line
 (
 )
-JS
-:
-:
-TaggedColumnNumberOneOrigin
-:
-:
-fromRaw
-(
 ubiFrame
 .
 get
@@ -15070,7 +15062,6 @@ get
 .
 column
 (
-)
 )
 functionDisplayName
 /
