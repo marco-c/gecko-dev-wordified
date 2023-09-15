@@ -503,10 +503,9 @@ return
 media
 :
 :
-DecodeSupport
-:
-:
-Unsupported
+DecodeSupportSet
+{
+}
 ;
 }
 RefPtr

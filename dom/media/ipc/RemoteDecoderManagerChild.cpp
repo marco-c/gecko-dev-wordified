@@ -1750,6 +1750,7 @@ on
 later
 .
 return
+!
 PDMFactory
 :
 :
@@ -1764,15 +1765,10 @@ MimeType
 supported
 aLocation
 )
-!
-=
-media
-:
-:
-DecodeSupport
-:
-:
-Unsupported
+.
+isEmpty
+(
+)
 ;
 }
 /
