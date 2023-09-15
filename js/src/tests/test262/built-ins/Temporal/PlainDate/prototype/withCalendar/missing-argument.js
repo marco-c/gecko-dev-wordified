@@ -74,7 +74,7 @@ prototype
 withcalendar
 description
 :
-RangeError
+TypeError
 thrown
 when
 calendar
@@ -113,7 +113,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =
@@ -133,7 +133,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =

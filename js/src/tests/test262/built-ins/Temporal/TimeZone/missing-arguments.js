@@ -70,7 +70,7 @@ temporal
 timezone
 description
 :
-RangeError
+TypeError
 thrown
 when
 constructor
@@ -92,7 +92,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =
@@ -109,7 +109,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =
