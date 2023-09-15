@@ -8857,7 +8857,7 @@ this
 is
 used
 in
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 )
 .
@@ -9730,7 +9730,7 @@ media
 is
 flowing
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -10010,7 +10010,7 @@ layers
 are
 sending
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -10529,7 +10529,7 @@ media
 is
 flowing
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -11138,7 +11138,7 @@ have
 one
 layer
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -11431,7 +11431,7 @@ layers
 are
 sending
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -11892,7 +11892,7 @@ the
 lowest
 layer
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -11928,7 +11928,7 @@ may
 be
 significant
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpWithRidAndScalabilityMode
 (
@@ -12383,7 +12383,7 @@ the
 lowest
 layer
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -12907,7 +12907,7 @@ one
 is
 active
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -12943,7 +12943,7 @@ time
 is
 significant
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpWithRidAndScalabilityMode
 (
@@ -13460,7 +13460,7 @@ layers
 are
 sending
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -14072,7 +14072,7 @@ one
 is
 active
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
@@ -14109,7 +14109,7 @@ may
 be
 significant
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpWithRidAndScalabilityMode
 (
@@ -15123,7 +15123,7 @@ extra
 long
 timeout
 .
-EXPECT_TRUE_WAIT
+ASSERT_TRUE_WAIT
 (
 HasOutboundRtpBytesSent
 (
