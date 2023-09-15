@@ -125,6 +125,12 @@ DefaultBrowser
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 enum
 class
 NotificationType
@@ -305,6 +311,14 @@ string
 actionString
 )
 ;
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent
 #
 endif
 /

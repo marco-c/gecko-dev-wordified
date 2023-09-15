@@ -179,6 +179,12 @@ WinHeaderOnlyUtils
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 using
 PdfResult
 =
@@ -527,3 +533,11 @@ return
 pdfInfo
 ;
 }
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent

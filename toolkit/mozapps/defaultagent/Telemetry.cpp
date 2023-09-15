@@ -431,6 +431,12 @@ defined
 (
 RRF_SUBKEY_WOW6464KEY
 )
+namespace
+mozilla
+:
+:
+default_agent
+{
 using
 TelemetryFieldResult
 =
@@ -3823,3 +3829,11 @@ AsHResult
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent

@@ -163,6 +163,12 @@ Buffer
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 using
 WStringResult
 =
@@ -2221,3 +2227,11 @@ Ok
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent

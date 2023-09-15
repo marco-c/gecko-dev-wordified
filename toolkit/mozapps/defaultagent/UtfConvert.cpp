@@ -149,6 +149,12 @@ WinHeaderOnlyUtils
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 Utf16ToUtf8Result
 Utf16ToUtf8
 (
@@ -459,3 +465,11 @@ Elements
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent

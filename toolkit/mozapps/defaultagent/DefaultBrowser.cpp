@@ -181,6 +181,12 @@ WinHeaderOnlyUtils
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 using
 BrowserResult
 =
@@ -1647,3 +1653,11 @@ c_str
 ;
 }
 }
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent

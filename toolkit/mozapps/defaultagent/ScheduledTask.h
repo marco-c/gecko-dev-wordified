@@ -132,6 +132,12 @@ wtypes
 .
 h
 >
+namespace
+mozilla
+:
+:
+default_agent
+{
 /
 /
 uniqueToken
@@ -209,6 +215,14 @@ WhichTasks
 tasksToRemove
 )
 ;
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent
 #
 endif
 /

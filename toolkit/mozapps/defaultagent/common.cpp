@@ -133,6 +133,12 @@ windows
 .
 h
 >
+namespace
+mozilla
+:
+:
+default_agent
+{
 ULONGLONG
 GetCurrentTimestamp
 (
@@ -612,3 +618,11 @@ relativePath
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent

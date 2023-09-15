@@ -157,6 +157,12 @@ WinHeaderOnlyUtils
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 /
 /
 Indicates
@@ -738,6 +744,14 @@ subKey
 nullptr
 )
 ;
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent
 #
 endif
 /

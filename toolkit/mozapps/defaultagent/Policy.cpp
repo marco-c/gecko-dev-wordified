@@ -321,6 +321,12 @@ Mozilla
 \
 "
 MOZ_APP_BASENAME
+namespace
+mozilla
+:
+:
+default_agent
+{
 /
 /
 This
@@ -1231,3 +1237,11 @@ TELEMETRY_POLICY_NAME
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent

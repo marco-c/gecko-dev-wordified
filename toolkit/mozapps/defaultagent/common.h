@@ -150,6 +150,12 @@ Default
 Browser
 Agent
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 ULONGLONG
 GetCurrentTimestamp
 (
@@ -225,6 +231,14 @@ wchar_t
 suffix
 )
 ;
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent
 #
 endif
 /

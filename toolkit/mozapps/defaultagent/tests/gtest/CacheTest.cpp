@@ -181,6 +181,13 @@ WinHeaderOnlyUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+default_agent
+;
 class
 WDBACacheTest
 :

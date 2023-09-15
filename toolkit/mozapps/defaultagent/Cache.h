@@ -142,6 +142,12 @@ Registry
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 using
 DwordResult
 =
@@ -1759,6 +1765,14 @@ expected
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent
 #
 endif
 /

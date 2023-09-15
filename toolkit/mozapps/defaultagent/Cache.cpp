@@ -147,6 +147,12 @@ Unused
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 /
 /
 Cache
@@ -4568,3 +4574,11 @@ E_FAIL
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent

@@ -179,6 +179,12 @@ SetDefaultBrowser
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 /
 *
 *
@@ -2176,3 +2182,11 @@ return
 S_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent

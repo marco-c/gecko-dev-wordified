@@ -132,6 +132,12 @@ WinHeaderOnlyUtils
 .
 h
 "
+namespace
+mozilla
+:
+:
+default_agent
+{
 using
 Utf16ToUtf8Result
 =
@@ -180,6 +186,14 @@ const
 utf8
 )
 ;
+}
+/
+/
+namespace
+mozilla
+:
+:
+default_agent
 #
 endif
 /
