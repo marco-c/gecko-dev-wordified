@@ -357,7 +357,7 @@ transport_available_
 channel
 -
 >
-sid
+sid_n
 (
 )
 .
@@ -371,7 +371,7 @@ AddSctpDataStream
 channel
 -
 >
-sid
+sid_n
 (
 )
 )
@@ -691,7 +691,7 @@ return
 c
 -
 >
-sid
+sid_s
 (
 )
 =
