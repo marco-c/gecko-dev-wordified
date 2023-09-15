@@ -391,6 +391,12 @@ BlockingCall
 {
 TeardownDataChannelTransport_n
 (
+RTCError
+:
+:
+OK
+(
+)
 )
 ;
 }

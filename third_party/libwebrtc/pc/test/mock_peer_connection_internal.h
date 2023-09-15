@@ -1635,6 +1635,7 @@ MOCK_METHOD
 void
 TeardownDataChannelTransport_n
 (
+RTCError
 )
 (
 override

@@ -3246,6 +3246,8 @@ network_thread
 void
 TeardownDataChannelTransport_n
 (
+RTCError
+error
 )
 override
 RTC_RUN_ON

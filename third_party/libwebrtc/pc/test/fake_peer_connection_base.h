@@ -2004,6 +2004,8 @@ false
 void
 TeardownDataChannelTransport_n
 (
+RTCError
+error
 )
 override
 {

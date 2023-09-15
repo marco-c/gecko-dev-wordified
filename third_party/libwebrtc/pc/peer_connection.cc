@@ -3770,6 +3770,12 @@ network_thread
 ;
 TeardownDataChannelTransport_n
 (
+RTCError
+:
+:
+OK
+(
+)
 )
 ;
 transport_controller_
@@ -16696,6 +16702,8 @@ PeerConnection
 :
 TeardownDataChannelTransport_n
 (
+RTCError
+error
 )
 {
 if
@@ -16754,6 +16762,7 @@ data_channel_controller_
 .
 TeardownDataChannelTransport_n
 (
+error
 )
 ;
 }
