@@ -111,6 +111,9 @@ Accessible2
 Accessible2_2
 "
 "
+Accessible2_3
+"
+"
 AccessibleAction
 "
 "
@@ -154,9 +157,6 @@ AccessibleText
 "
 "
 AccessibleText2
-"
-"
-AccessibleTextSelectionContainer
 "
 "
 AccessibleValue

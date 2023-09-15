@@ -125,11 +125,6 @@ ia2AccessibleText
 h
 "
 "
-ia2AccessibleTextSelectionContainer
-.
-h
-"
-"
 ia2AccessibleValue
 .
 h
@@ -186,11 +181,6 @@ cpp
 "
 "
 ia2AccessibleText
-.
-cpp
-"
-"
-ia2AccessibleTextSelectionContainer
 .
 cpp
 "
