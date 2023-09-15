@@ -9016,13 +9016,6 @@ NotifyPossibleTitleChange
 false
 )
 ;
-doc
--
->
-SetLoadingOrRestoredFromBFCacheTimeStampToNow
-(
-)
-;
 if
 (
 inner
