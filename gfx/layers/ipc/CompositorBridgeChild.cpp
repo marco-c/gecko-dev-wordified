@@ -2758,10 +2758,6 @@ LayersId
 &
 aLayersId
 const
-LayersObserverEpoch
-&
-aEpoch
-const
 bool
 &
 aActive
@@ -2836,7 +2832,6 @@ tab
 >
 LayerTreeUpdate
 (
-aEpoch
 aActive
 )
 ;

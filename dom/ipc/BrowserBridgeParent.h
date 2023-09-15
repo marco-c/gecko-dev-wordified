@@ -506,10 +506,6 @@ const
 bool
 &
 aEnabled
-const
-LayersObserverEpoch
-&
-aEpoch
 )
 ;
 mozilla
