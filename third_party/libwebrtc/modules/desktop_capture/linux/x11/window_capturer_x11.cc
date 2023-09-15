@@ -1005,13 +1005,6 @@ CaptureFrame
 "
 )
 ;
-x_display_
--
->
-ProcessPendingXEvents
-(
-)
-;
 if
 (
 !
@@ -1053,6 +1046,13 @@ nullptr
 return
 ;
 }
+x_display_
+-
+>
+ProcessPendingXEvents
+(
+)
+;
 if
 (
 !
