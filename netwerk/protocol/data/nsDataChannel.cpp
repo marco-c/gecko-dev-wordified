@@ -442,8 +442,6 @@ contentCharset
 lBase64
 &
 dataRange
-&
-mMimeType
 )
 ;
 if
