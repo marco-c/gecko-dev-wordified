@@ -8430,12 +8430,7 @@ wm
 prevInFlow
 -
 >
-ContentSize
-(
-wm
-)
-.
-ISize
+ContentISize
 (
 wm
 )

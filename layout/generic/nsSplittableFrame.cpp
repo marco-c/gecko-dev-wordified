@@ -1361,12 +1361,7 @@ bSize
 prev
 -
 >
-ContentSize
-(
-wm
-)
-.
-BSize
+ContentBSize
 (
 wm
 )
