@@ -38315,6 +38315,11 @@ mContentEditableCount
 =
 aChange
 ;
+if
+(
+aElement
+)
+{
 nsContentUtils
 :
 :
@@ -38328,6 +38333,7 @@ aElement
 )
 )
 ;
+}
 }
 void
 Document
