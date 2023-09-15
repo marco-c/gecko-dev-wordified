@@ -479,7 +479,7 @@ reasons
 :
 [
 '
-WebSocket
+websocket
 '
 ]
 '

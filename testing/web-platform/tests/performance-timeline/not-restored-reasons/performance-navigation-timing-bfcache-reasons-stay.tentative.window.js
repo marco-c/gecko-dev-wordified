@@ -332,7 +332,7 @@ reasons
 /
 [
 '
-WebSocket
+websocket
 '
 ]
 /
@@ -434,7 +434,7 @@ reasons
 /
 [
 '
-WebSocket
+websocket
 '
 ]
 /

@@ -386,7 +386,7 @@ reasons
 /
 [
 '
-WebSocket
+websocket
 '
 ]
 /

@@ -327,7 +327,8 @@ be
 reported
 as
 "
-Internal
+internal
+-
 error
 "
 .
@@ -344,7 +345,8 @@ assertNotRestoredFromBFCache
 rc1
 [
 '
-Internal
+internal
+-
 error
 '
 ]
