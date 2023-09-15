@@ -10197,6 +10197,9 @@ endif
 /
 /
 JS_HAS_INTL_API
+#
+ifdef
+NIGHTLY_BUILD
 /
 *
 *
@@ -10982,6 +10985,11 @@ str_toWellFormed
 JS_FS_END
 }
 ;
+#
+endif
+/
+/
+NIGHTLY_BUILD
 static
 bool
 str_charAt
@@ -25917,6 +25925,9 @@ return
 false
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 /
 /
 Define
@@ -25957,6 +25968,8 @@ return
 false
 ;
 }
+#
+endif
 return
 true
 ;
