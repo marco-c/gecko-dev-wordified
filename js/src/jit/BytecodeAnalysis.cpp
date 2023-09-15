@@ -2149,6 +2149,10 @@ script_
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 ;
 script_
@@ -2245,6 +2249,10 @@ script_
 -
 >
 column
+(
+)
+.
+zeroOriginValue
 (
 )
 CodeName

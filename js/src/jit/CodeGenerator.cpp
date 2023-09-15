@@ -103500,6 +103500,10 @@ script
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 ;
 /

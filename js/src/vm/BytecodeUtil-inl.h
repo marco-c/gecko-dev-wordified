@@ -808,6 +808,10 @@ script
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 sn
 (

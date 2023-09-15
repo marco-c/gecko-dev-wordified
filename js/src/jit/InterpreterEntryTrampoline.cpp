@@ -1717,6 +1717,10 @@ script
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 ;
 }

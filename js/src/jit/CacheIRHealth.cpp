@@ -1084,6 +1084,10 @@ baseScript
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 ;
 }
@@ -2122,6 +2126,10 @@ script
 -
 >
 column
+(
+)
+.
+zeroOriginValue
 (
 )
 )

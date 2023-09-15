@@ -9837,6 +9837,10 @@ lazy
 column
 (
 )
+.
+zeroOriginValue
+(
+)
 )
 .
 setScriptSourceOffset
