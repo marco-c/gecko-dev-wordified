@@ -198,6 +198,15 @@ browser
 .
 ini
 "
+"
+test
+/
+browser
+/
+browser_legacy_recent_tabs
+.
+ini
+"
 ]
 MOCHITEST_MANIFESTS
 +
