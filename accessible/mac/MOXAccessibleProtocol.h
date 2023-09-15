@@ -111,13 +111,6 @@ MPL
 .
 *
 /
-#
-include
-"
-SDKDeclarations
-.
-h
-"
 protocol
 MOXTextMarkerSupport
 ;

@@ -205,11 +205,6 @@ nsCocoaUtils
 .
 h
 "
-"
-SDKDeclarations
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +

@@ -275,13 +275,6 @@ ScopedGLHelpers
 .
 h
 "
-#
-include
-"
-SDKDeclarations
-.
-h
-"
 interface
 CALayer
 (

@@ -111,13 +111,6 @@ h
 #
 include
 "
-SDKDeclarations
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ColorScheme
