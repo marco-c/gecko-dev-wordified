@@ -689,6 +689,8 @@ com
 trrServer
 .
 port
+(
+)
 }
 /
 dns
