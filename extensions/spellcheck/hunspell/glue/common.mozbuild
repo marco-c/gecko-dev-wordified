@@ -98,9 +98,4 @@ hunspell_alloc_hooks
 .
 h
 '
-'
-hunspell_fopen_hooks
-.
-h
-'
 )
