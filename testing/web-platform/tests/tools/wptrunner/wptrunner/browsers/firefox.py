@@ -1877,9 +1877,6 @@ asan
 tsan
 "
 "
-domstreams
-"
-"
 editorLegacyDirectionMode
 "
 ]
