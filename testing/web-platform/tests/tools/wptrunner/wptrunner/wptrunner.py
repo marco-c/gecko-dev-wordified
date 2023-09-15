@@ -393,6 +393,8 @@ kwargs
 test_groups_file
 "
 ]
+                                            
+subsuites
 )
     
 else
@@ -1296,6 +1298,8 @@ tests_by_group
 tests_by_type
 *
 *
+test_source
+.
 kwargs
 )
     
