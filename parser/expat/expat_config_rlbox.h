@@ -111,6 +111,10 @@ endian
 define
 BYTEORDER
 1234
+#
+define
+IS_LITTLE_ENDIAN
+1
 /
 *
 We
