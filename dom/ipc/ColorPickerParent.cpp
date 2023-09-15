@@ -424,6 +424,12 @@ IPC_OK
 )
 ;
 }
+MOZ_ASSERT
+(
+!
+mCallback
+)
+;
 mCallback
 =
 new
