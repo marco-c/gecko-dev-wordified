@@ -2708,6 +2708,14 @@ nsIURI
 aURI
 )
 ;
+void
+InstantiateAndEvaluateDynamicImport
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 /
 *
 *
