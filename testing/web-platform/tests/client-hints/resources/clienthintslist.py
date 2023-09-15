@@ -251,6 +251,19 @@ ua
 -
 wow64
 "
+          
+b
+"
+sec
+-
+ch
+-
+prefers
+-
+reduced
+-
+transparency
+"
   
 ]
 def

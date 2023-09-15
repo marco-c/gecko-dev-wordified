@@ -202,6 +202,17 @@ ua
 -
 wow64
 "
+"
+sec
+-
+ch
+-
+prefers
+-
+reduced
+-
+transparency
+"
 ]
 ;
 const
