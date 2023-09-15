@@ -19,6 +19,11 @@ import
 Input
 from
 .
+network
+import
+Network
+from
+.
 script
 import
 Script
