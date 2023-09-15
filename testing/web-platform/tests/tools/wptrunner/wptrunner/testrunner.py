@@ -1760,6 +1760,9 @@ test_source_cls
                  
 test_implementations
 stop_flag
+retry_index
+=
+0
 rerun
 =
 1
@@ -2091,6 +2094,44 @@ mp
 Event
 (
 )
+        
+#
+Keep
+track
+of
+the
+current
+retry
+index
+.
+The
+retries
+are
+meant
+to
+handle
+        
+#
+flakiness
+so
+at
+retry
+round
+we
+should
+restart
+the
+browser
+after
+each
+test
+.
+        
+self
+.
+retry_index
+=
+retry_index
         
 self
 .
@@ -5424,6 +5465,12 @@ subsuite
 restart_before_next
 =
 (
+self
+.
+retry_index
+>
+0
+or
 test
 .
 restart_after
@@ -6875,6 +6922,10 @@ suite_name
 test_source
 test_implementations
                  
+retry_index
+=
+0
+                 
 rerun
 =
 1
@@ -6954,6 +7005,12 @@ self
 debug_info
 =
 debug_info
+        
+self
+.
+retry_index
+=
+retry_index
         
 self
 .
@@ -7150,6 +7207,10 @@ test_implementations
 self
 .
 stop_flag
+                                        
+self
+.
+retry_index
                                         
 self
 .
