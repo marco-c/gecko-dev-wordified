@@ -1191,14 +1191,6 @@ CaptureImage
 (
 )
 {
-RTC_DCHECK
-(
-IsGUIThread
-(
-false
-)
-)
-;
 DesktopRect
 screen_rect
 =
