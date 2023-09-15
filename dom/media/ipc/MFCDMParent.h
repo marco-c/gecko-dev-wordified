@@ -457,6 +457,11 @@ GetMFCDMProxy
 )
 ;
 void
+ShutdownCDM
+(
+)
+;
+void
 Destroy
 (
 )

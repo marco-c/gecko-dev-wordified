@@ -252,6 +252,11 @@ RuntimeClassInitialize
 (
 )
 ;
+void
+Shutdown
+(
+)
+;
 /
 /
 IMFContentProtectionManager
