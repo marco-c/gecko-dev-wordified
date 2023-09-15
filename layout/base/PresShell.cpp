@@ -13048,6 +13048,15 @@ aGUIEvent
 mFlags
 .
 mIsSynthesizedForTests
+&
+&
+!
+StaticPrefs
+:
+:
+dom_input_events_security_isUserInputHandlingDelayTest
+(
+)
 )
 {
 return
