@@ -641,9 +641,8 @@ false
 /
 4
 .
-Perfom
-!
-KeepDuringJob
+Perform
+AddToKeptObjects
 (
 target
 )
@@ -659,7 +658,7 @@ zone
 )
 -
 >
-keepDuringJob
+addToKeptObjects
 (
 target
 )
@@ -1485,8 +1484,7 @@ empty
 a
 .
 Perform
-!
-KeepDuringJob
+AddToKeptObjects
 (
 target
 )
@@ -1553,7 +1551,7 @@ zone
 )
 -
 >
-keepDuringJob
+addToKeptObjects
 (
 target
 )
