@@ -309,9 +309,9 @@ h
 "
 /
 /
-js_
-*
-_str
+WellKnownAtomInfo
+WellKnownAtomId
+wellKnownAtomInfos
 #
 ifdef
 ENABLE_RECORD_TUPLE
