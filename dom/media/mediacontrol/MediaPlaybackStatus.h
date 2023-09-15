@@ -566,6 +566,9 @@ IncreaseControlledMediaNum
 (
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 mControlledMediaNum
@@ -573,6 +576,8 @@ mControlledMediaNum
 UINT_MAX
 )
 ;
+#
+endif
 mControlledMediaNum
 +
 +
@@ -583,6 +588,9 @@ DecreaseControlledMediaNum
 (
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 mControlledMediaNum
@@ -590,6 +598,8 @@ mControlledMediaNum
 0
 )
 ;
+#
+endif
 mControlledMediaNum
 -
 -
@@ -600,6 +610,9 @@ IncreasePlayingMediaNum
 (
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 mPlayingMediaNum
@@ -607,6 +620,8 @@ mPlayingMediaNum
 mControlledMediaNum
 )
 ;
+#
+endif
 mPlayingMediaNum
 +
 +
@@ -617,6 +632,9 @@ DecreasePlayingMediaNum
 (
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 mPlayingMediaNum
@@ -624,6 +642,8 @@ mPlayingMediaNum
 0
 )
 ;
+#
+endif
 mPlayingMediaNum
 -
 -
@@ -634,6 +654,9 @@ IncreaseAudibleMediaNum
 (
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 mAudibleMediaNum
@@ -641,6 +664,8 @@ mAudibleMediaNum
 mPlayingMediaNum
 )
 ;
+#
+endif
 mAudibleMediaNum
 +
 +
@@ -651,6 +676,9 @@ DecreaseAudibleMediaNum
 (
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 mAudibleMediaNum
@@ -658,6 +686,8 @@ mAudibleMediaNum
 0
 )
 ;
+#
+endif
 mAudibleMediaNum
 -
 -
