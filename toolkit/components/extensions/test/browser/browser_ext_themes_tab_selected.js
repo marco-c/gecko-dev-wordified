@@ -107,8 +107,6 @@ tabbrowser
 tab
 [
 visuallyselected
-=
-true
 ]
 "
 )
