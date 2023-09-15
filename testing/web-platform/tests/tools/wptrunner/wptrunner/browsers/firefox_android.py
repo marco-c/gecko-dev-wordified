@@ -290,6 +290,10 @@ kwargs
 webdriver_args
 "
 ]
+.
+copy
+(
+)
             
 "
 package_name
@@ -334,6 +338,10 @@ kwargs
 extra_prefs
 "
 ]
+.
+copy
+(
+)
             
 "
 test_type
@@ -419,6 +427,10 @@ kwargs
 binary_args
 "
 ]
+.
+copy
+(
+)
             
 "
 timeout_multiplier
