@@ -3525,6 +3525,7 @@ For
 JIT
 use
 .
+MOZ_NEVER_INLINE
 void
 resetInUnsafeRegion
 (
