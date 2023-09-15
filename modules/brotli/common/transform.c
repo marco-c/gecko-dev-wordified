@@ -38,8 +38,6 @@ MIT
 #
 include
 "
-.
-/
 transform
 .
 h

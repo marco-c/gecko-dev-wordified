@@ -38,8 +38,6 @@ MIT
 #
 include
 "
-.
-/
 dictionary
 .
 h
@@ -47,8 +45,6 @@ h
 #
 include
 "
-.
-/
 platform
 .
 h
@@ -86,6 +82,13 @@ kBrotliDictionaryData
 [
 ]
 =
+/
+*
+GENERATED
+CODE
+START
+*
+/
 {
 116
 105
@@ -122872,6 +122875,13 @@ kBrotliDictionaryData
 164
 190
 }
+/
+*
+GENERATED
+CODE
+END
+*
+/
 ;
 #
 endif
@@ -123017,6 +123027,7 @@ BrotliDictionary
 *
 BrotliGetDictionary
 (
+void
 )
 {
 return
