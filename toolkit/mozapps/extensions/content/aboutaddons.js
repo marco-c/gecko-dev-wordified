@@ -25292,6 +25292,8 @@ this
 querySelector
 (
 "
+moz
+-
 message
 -
 bar
