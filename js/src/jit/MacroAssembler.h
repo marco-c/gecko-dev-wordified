@@ -11141,6 +11141,10 @@ Register
 proto
 Register
 temp
+const
+GlobalObject
+*
+maybeGlobal
 Label
 *
 label
@@ -11153,6 +11157,10 @@ Register
 regexp
 Register
 temp
+const
+GlobalObject
+*
+maybeGlobal
 Label
 *
 label

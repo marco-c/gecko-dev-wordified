@@ -51440,6 +51440,13 @@ branchIfNotRegExpPrototypeOptimizable
 (
 proto
 scratch
+/
+*
+maybeGlobal
+=
+*
+/
+nullptr
 &
 slow
 )
@@ -51667,6 +51674,13 @@ branchIfNotRegExpInstanceOptimizable
 (
 regexp
 scratch
+/
+*
+maybeGlobal
+=
+*
+/
+nullptr
 &
 slow
 )
