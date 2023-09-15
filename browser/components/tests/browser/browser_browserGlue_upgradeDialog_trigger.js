@@ -1182,7 +1182,7 @@ runMajorReleaseTest
 (
 {
 }
-true
+false
 )
 ;
 }
