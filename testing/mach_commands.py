@@ -2470,6 +2470,13 @@ on
 TreeHerder
 )
     
+*
+path
+to
+a
+test
+manifest
+    
 When
 paths
 or
