@@ -2243,6 +2243,10 @@ kVideoCodecVP8
 rtp_timestamp
 capture_time_ms
 payload
+sizeof
+(
+payload
+)
 rtp_video_header
 0
 {

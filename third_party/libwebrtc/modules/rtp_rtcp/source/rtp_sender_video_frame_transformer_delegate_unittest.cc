@@ -242,6 +242,8 @@ const
 uint8_t
 >
 payload
+size_t
+encoder_output_size
 RTPVideoHeader
 video_header
 absl
@@ -1811,6 +1813,7 @@ capture_time_ms
 /
 0
 buffer
+_
 _
 /
 *

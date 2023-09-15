@@ -1093,8 +1093,8 @@ NackEnabled
 )
 const
 ;
-uint32_t
-GetPacketizationOverheadRate
+DataRate
+GetPostEncodeOverhead
 (
 )
 const
