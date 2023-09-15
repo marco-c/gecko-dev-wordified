@@ -6233,6 +6233,19 @@ video
 /
 RED
 .
+if
+constexpr
+(
+std
+:
+:
+is_same_v
+<
+C
+AudioCodec
+>
+)
+{
 RTC_LOG
 (
 LS_WARNING
@@ -6260,6 +6273,7 @@ type
 .
 "
 ;
+}
 return
 nullptr
 ;
