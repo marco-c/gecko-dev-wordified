@@ -1758,6 +1758,13 @@ MACRO
 (
 _
 MallocHeap
+storeBufferWasmAnyRefs
+)
+\
+MACRO
+(
+_
+MallocHeap
 storeBufferWholeCells
 )
 \

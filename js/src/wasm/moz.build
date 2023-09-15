@@ -148,6 +148,11 @@ AsmJS
 cpp
 "
 "
+WasmAnyRef
+.
+cpp
+"
+"
 WasmBaselineCompile
 .
 cpp
