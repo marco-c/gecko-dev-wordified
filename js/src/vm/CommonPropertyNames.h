@@ -3783,7 +3783,7 @@ protected
 \
 MACRO_
 (
-proto
+proto_
 "
 __proto__
 "

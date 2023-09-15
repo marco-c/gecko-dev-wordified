@@ -72247,7 +72247,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-proto
+proto_
 (
 )
 )
@@ -73569,7 +73569,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-proto
+proto_
 (
 )
 )

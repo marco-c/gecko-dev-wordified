@@ -602,7 +602,7 @@ runtimeFromMainThread
 commonNames
 -
 >
-proto
+proto_
 ;
 for
 (
