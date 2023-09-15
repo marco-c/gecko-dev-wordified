@@ -1828,6 +1828,25 @@ True
             
 )
             
+task_definition
+[
+"
+payload
+"
+]
+[
+"
+env
+"
+]
+[
+"
+MOZLOG_DUMP_ALL_TESTS
+"
+]
+=
+1
+            
 logger
 .
 info
