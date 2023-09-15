@@ -182,7 +182,7 @@ audio_device
 /
 include
 /
-test_audio_device
+audio_device
 .
 h
 "
@@ -581,7 +581,7 @@ rtc
 :
 scoped_refptr
 <
-TestAudioDeviceModule
+AudioDeviceModule
 >
 fake_audio_device
 ;
