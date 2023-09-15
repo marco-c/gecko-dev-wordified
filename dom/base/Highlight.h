@@ -814,6 +814,7 @@ world
 _not_
 exposed
 via
+*
 webIDL
 )
 *
