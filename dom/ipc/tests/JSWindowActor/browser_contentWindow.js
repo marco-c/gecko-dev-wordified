@@ -167,7 +167,6 @@ false
 url
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString

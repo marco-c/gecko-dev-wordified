@@ -721,7 +721,6 @@ aText
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString

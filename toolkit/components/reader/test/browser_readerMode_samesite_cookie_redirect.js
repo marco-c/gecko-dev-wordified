@@ -270,7 +270,6 @@ AboutReaderContentReady
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString

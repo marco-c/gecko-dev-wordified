@@ -848,7 +848,6 @@ false
 uri
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString

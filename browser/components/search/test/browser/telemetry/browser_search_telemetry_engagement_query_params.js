@@ -518,7 +518,6 @@ again
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURIString
