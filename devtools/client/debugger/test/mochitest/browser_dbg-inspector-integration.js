@@ -892,12 +892,6 @@ frame
 )
 ;
 await
-waitForPaused
-(
-dbg
-)
-;
-await
 waitForSelectedSource
 (
 dbg
