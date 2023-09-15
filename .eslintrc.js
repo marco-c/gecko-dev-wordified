@@ -21813,17 +21813,6 @@ test
 /
 browser
 /
-browser_103_telemetry
-.
-js
-"
-"
-netwerk
-/
-test
-/
-browser
-/
 browser_cookie_filtering_subdomain
 .
 js
