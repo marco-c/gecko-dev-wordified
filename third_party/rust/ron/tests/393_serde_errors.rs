@@ -1250,11 +1250,7 @@ TestEnumAdjacent
 (
 type
 :
-\
-"
 StructVariant
-\
-"
 content
 :
 (
@@ -1305,7 +1301,7 @@ line
 1
 col
 :
-39
+37
 }
 }
 )

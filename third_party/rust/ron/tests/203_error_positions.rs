@@ -86,6 +86,9 @@ Debug
 PartialEq
 )
 ]
+/
+/
+GRCOV_EXCL_LINE
 struct
 TypeError
 ;
