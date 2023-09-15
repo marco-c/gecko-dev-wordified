@@ -499,7 +499,7 @@ IsNear
 kBytesSent
 recv_stats
 .
-payload_bytes_rcvd
+payload_bytes_received
 )
 ;
 EXPECT_PRED2
@@ -508,7 +508,7 @@ IsNear
 kPacketsSent
 recv_stats
 .
-packets_rcvd
+packets_received
 )
 ;
 EXPECT_EQ

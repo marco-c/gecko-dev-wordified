@@ -3274,11 +3274,11 @@ report_block_datas
 ;
 stats
 .
-nacks_rcvd
+nacks_received
 =
 call_stats
 .
-nacks_rcvd
+nacks_received
 ;
 return
 stats

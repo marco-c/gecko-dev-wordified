@@ -2744,7 +2744,7 @@ uint32_t
 (
 media_receiver_info
 .
-packets_rcvd
+packets_received
 )
 ;
 inbound_stats
@@ -2759,7 +2759,7 @@ uint64_t
 (
 media_receiver_info
 .
-payload_bytes_rcvd
+payload_bytes_received
 )
 ;
 inbound_stats
@@ -2774,7 +2774,7 @@ uint64_t
 (
 media_receiver_info
 .
-header_and_padding_bytes_rcvd
+header_and_padding_bytes_received
 )
 ;
 inbound_stats
@@ -4665,7 +4665,7 @@ nack_count
 =
 media_sender_info
 .
-nacks_rcvd
+nacks_received
 ;
 if
 (
@@ -5138,7 +5138,7 @@ uint32_t
 (
 video_sender_info
 .
-firs_rcvd
+firs_received
 )
 ;
 outbound_video
@@ -5153,7 +5153,7 @@ uint32_t
 (
 video_sender_info
 .
-plis_rcvd
+plis_received
 )
 ;
 if

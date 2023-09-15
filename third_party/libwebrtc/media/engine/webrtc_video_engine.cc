@@ -20049,7 +20049,7 @@ packets
 ;
 info
 .
-firs_rcvd
+firs_received
 =
 stream_stats
 .
@@ -20059,7 +20059,7 @@ fir_packets
 ;
 info
 .
-nacks_rcvd
+nacks_received
 =
 stream_stats
 .
@@ -20069,7 +20069,7 @@ nack_packets
 ;
 info
 .
-plis_rcvd
+plis_received
 =
 stream_stats
 .
@@ -20473,7 +20473,7 @@ send_frame_height
 ;
 info
 .
-firs_rcvd
+firs_received
 +
 =
 infos
@@ -20481,11 +20481,11 @@ infos
 i
 ]
 .
-firs_rcvd
+firs_received
 ;
 info
 .
-nacks_rcvd
+nacks_received
 +
 =
 infos
@@ -20493,11 +20493,11 @@ infos
 i
 ]
 .
-nacks_rcvd
+nacks_received
 ;
 info
 .
-plis_rcvd
+plis_received
 +
 =
 infos
@@ -20505,7 +20505,7 @@ infos
 i
 ]
 .
-plis_rcvd
+plis_received
 ;
 if
 (
@@ -23458,7 +23458,7 @@ name
 }
 info
 .
-payload_bytes_rcvd
+payload_bytes_received
 =
 stats
 .
@@ -23470,7 +23470,7 @@ payload_bytes
 ;
 info
 .
-header_and_padding_bytes_rcvd
+header_and_padding_bytes_received
 =
 stats
 .
@@ -23490,7 +23490,7 @@ padding_bytes
 ;
 info
 .
-packets_rcvd
+packets_received
 =
 stats
 .
@@ -23528,7 +23528,7 @@ kVideoCodecClockrate
 ;
 info
 .
-framerate_rcvd
+framerate_received
 =
 stats
 .

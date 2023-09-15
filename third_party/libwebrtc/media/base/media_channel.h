@@ -3033,7 +3033,7 @@ rtcoutboundrtpstreamstats
 -
 nackcount
 uint32_t
-nacks_rcvd
+nacks_received
 =
 0
 ;
@@ -3517,7 +3517,7 @@ rtcinboundrtpstreamstats
 -
 bytesreceived
 int64_t
-payload_bytes_rcvd
+payload_bytes_received
 =
 0
 ;
@@ -3544,12 +3544,12 @@ rtcinboundrtpstreamstats
 -
 headerbytesreceived
 int64_t
-header_and_padding_bytes_rcvd
+header_and_padding_bytes_received
 =
 0
 ;
 int
-packets_rcvd
+packets_received
 =
 0
 ;
@@ -4662,12 +4662,12 @@ string
 encoder_implementation_name
 ;
 int
-firs_rcvd
+firs_received
 =
 0
 ;
 int
-plis_rcvd
+plis_received
 =
 0
 ;
@@ -5053,7 +5053,7 @@ frame_height
 0
 ;
 int
-framerate_rcvd
+framerate_received
 =
 0
 ;

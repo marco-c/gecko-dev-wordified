@@ -2028,11 +2028,11 @@ size_t
 position
 ;
 int
-rcvd
+received
 ;
 do
 {
-rcvd
+received
 =
 remote_
 .
@@ -2047,7 +2047,7 @@ block
 ;
 if
 (
-rcvd
+received
 !
 =
 -
@@ -2077,7 +2077,7 @@ uint8_t
 (
 block
 )
-rcvd
+received
 )
 written
 error
@@ -2109,7 +2109,7 @@ position
 }
 while
 (
-rcvd
+received
 >
 0
 )
@@ -2812,11 +2812,11 @@ size_t
 position
 ;
 int
-rcvd
+received
 ;
 do
 {
-rcvd
+received
 =
 receiver_
 -
@@ -2832,7 +2832,7 @@ block
 ;
 if
 (
-rcvd
+received
 !
 =
 -
@@ -2863,7 +2863,7 @@ uint8_t
 (
 block
 )
-rcvd
+received
 )
 written
 error
@@ -2895,7 +2895,7 @@ position
 }
 while
 (
-rcvd
+received
 >
 0
 )
@@ -3494,11 +3494,11 @@ size_t
 position
 ;
 int
-rcvd
+received
 ;
 do
 {
-rcvd
+received
 =
 remote_
 .
@@ -3513,7 +3513,7 @@ block
 ;
 if
 (
-rcvd
+received
 !
 =
 -
@@ -3543,7 +3543,7 @@ uint8_t
 (
 block
 )
-rcvd
+received
 )
 written
 error
@@ -3575,7 +3575,7 @@ position
 }
 while
 (
-rcvd
+received
 >
 0
 )
