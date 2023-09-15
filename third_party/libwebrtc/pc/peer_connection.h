@@ -4080,6 +4080,14 @@ use
 void
 ReportTransportStats
 (
+std
+:
+:
+vector
+<
+RtpTransceiverProxyRefPtr
+>
+transceivers
 )
 RTC_RUN_ON
 (
