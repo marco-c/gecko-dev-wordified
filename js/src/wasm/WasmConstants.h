@@ -1481,6 +1481,12 @@ Call
 CallIndirect
 =
 0x11
+ReturnCall
+=
+0x12
+ReturnCallIndirect
+=
+0x13
 CallRef
 =
 0x14
