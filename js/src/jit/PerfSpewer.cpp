@@ -5620,11 +5620,6 @@ ColSpan
 colno
 +
 =
-JS
-:
-:
-ColumnNumberOffset
-(
 SrcNote
 :
 :
@@ -5634,7 +5629,6 @@ ColSpan
 getSpan
 (
 sn
-)
 )
 ;
 }
