@@ -670,7 +670,7 @@ rtc
 :
 scoped_refptr
 <
-TestAudioDeviceModule
+AudioDeviceModule
 >
 Create
 (
