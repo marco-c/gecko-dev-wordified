@@ -335,6 +335,14 @@ Init
 exponent
 )
 ;
+aRsa
+.
+mPublicExponent
+.
+ComputeState
+(
+)
+;
 return
 true
 ;

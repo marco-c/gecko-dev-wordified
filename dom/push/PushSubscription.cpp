@@ -1200,6 +1200,11 @@ IsNull
 &
 &
 !
+PushUtil
+:
+:
+CopyArrayBufferToArray
+(
 aInitDict
 .
 mP256dhKey
@@ -1211,9 +1216,6 @@ Value
 Value
 (
 )
-.
-AppendDataTo
-(
 rawKey
 )
 )
@@ -1261,6 +1263,11 @@ IsNull
 &
 &
 !
+PushUtil
+:
+:
+CopyArrayBufferToArray
+(
 aInitDict
 .
 mAuthSecret
@@ -1272,9 +1279,6 @@ Value
 Value
 (
 )
-.
-AppendDataTo
-(
 authSecret
 )
 )

@@ -3674,10 +3674,10 @@ first
 never
 mind
 !
-free
-(
+delete
+[
+]
 temp
-)
 ;
 }
 }
