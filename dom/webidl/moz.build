@@ -6445,11 +6445,6 @@ ProgressEvent
 .
 webidl
 "
-"
-StyleSheetApplicableStateChangeEvent
-.
-webidl
-"
 ]
 #
 WebExtensions
@@ -6819,11 +6814,6 @@ webidl
 "
 "
 SecurityPolicyViolationEvent
-.
-webidl
-"
-"
-StyleSheetApplicableStateChangeEvent
 .
 webidl
 "

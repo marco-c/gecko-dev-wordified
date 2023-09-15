@@ -9905,6 +9905,13 @@ StyleSheet
 &
 )
 ;
+void
+PostStyleSheetRemovedEvent
+(
+StyleSheet
+&
+)
+;
 enum
 additionalSheetType
 {
