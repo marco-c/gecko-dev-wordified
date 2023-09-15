@@ -292,6 +292,7 @@ Debug
 Copy
 Clone
 PartialEq
+PartialOrd
 )
 ]
 #
