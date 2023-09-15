@@ -36856,6 +36856,13 @@ private
 void
 checkAllocatorState
 (
+Register
+temp
+gc
+:
+:
+AllocKind
+allocKind
 Label
 *
 fail

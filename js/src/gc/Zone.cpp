@@ -1366,6 +1366,14 @@ empty
 )
 )
 ;
+MOZ_ASSERT
+(
+numRealmsWithAllocMetadataBuilder_
+=
+=
+0
+)
+;
 DebugAPI
 :
 :
