@@ -11957,10 +11957,10 @@ CustomPropertiesMap
 quirks_mode
 :
 QuirksMode
-device
+stylist
 :
 &
-Device
+Stylist
 shorthand_cache
 :
 &
@@ -12129,7 +12129,7 @@ self
 .
 first_token_type
 custom_properties
-device
+stylist
 )
 {
 Ok

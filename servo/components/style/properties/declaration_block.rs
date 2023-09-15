@@ -5714,10 +5714,6 @@ QuirksMode
 :
 NoQuirks
 stylist
-.
-device
-(
-)
 &
 mut
 Default
