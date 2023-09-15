@@ -2723,7 +2723,7 @@ Construct
 audioStats
 -
 >
-packets_rcvd
+packets_received
 )
 ;
 local
@@ -2747,7 +2747,7 @@ Construct
 audioStats
 -
 >
-payload_bytes_rcvd
+payload_bytes_received
 )
 ;
 /
@@ -2950,7 +2950,7 @@ Construct
 audioStats
 -
 >
-header_and_padding_bytes_rcvd
+header_and_padding_bytes_received
 )
 ;
 local
