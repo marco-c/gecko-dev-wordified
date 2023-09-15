@@ -1475,7 +1475,7 @@ Produces
 RTCDataChannelStats
 .
 void
-ProduceDataChannelStats_s
+ProduceDataChannelStats_n
 (
 Timestamp
 timestamp
