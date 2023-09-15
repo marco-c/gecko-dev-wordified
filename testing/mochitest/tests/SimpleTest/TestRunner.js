@@ -5262,8 +5262,10 @@ if
 testwin
 .
 SimpleTest
-&
-&
+)
+{
+if
+(
 testwin
 .
 SimpleTest
@@ -5386,6 +5388,7 @@ false
 ]
 )
 ;
+}
 }
 }
 )
