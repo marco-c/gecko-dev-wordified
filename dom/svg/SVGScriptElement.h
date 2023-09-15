@@ -329,6 +329,13 @@ GetCORSMode
 const
 override
 ;
+FetchPriority
+GetFetchPriority
+(
+)
+const
+override
+;
 /
 /
 ScriptElement

@@ -499,7 +499,8 @@ false
 ;
 /
 /
-Load
+Synchronously
+load
 an
 ES6
 module
