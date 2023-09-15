@@ -360,7 +360,7 @@ promise_rejects_dom
 (
 t
 '
-NotSupportedError
+AbortError
 '
 promise
 )
