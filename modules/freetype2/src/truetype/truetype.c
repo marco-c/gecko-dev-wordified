@@ -247,13 +247,6 @@ tables
 loader
 *
 /
-#
-include
-"
-ttsubpix
-.
-c
-"
 /
 *
 END

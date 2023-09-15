@@ -3010,7 +3010,7 @@ FT_TRACE5
 "
 (
 %
-ld
+td
 )
 "
 decoder
@@ -6583,7 +6583,7 @@ stack
 (
 seen
 %
-ld
+td
 expected
 %
 d

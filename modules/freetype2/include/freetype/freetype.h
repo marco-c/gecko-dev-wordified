@@ -40539,7 +40539,7 @@ FREETYPE_MINOR
 #
 define
 FREETYPE_PATCH
-1
+2
 /
 *
 *

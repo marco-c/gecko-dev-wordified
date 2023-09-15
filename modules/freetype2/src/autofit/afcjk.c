@@ -9647,7 +9647,7 @@ CJKLINK
 :
 edge
 %
-ld
+td
 %
 d
 (
@@ -11078,7 +11078,7 @@ CJKBLUE
 :
 edge
 %
-ld
+td
 %
 d
 (
@@ -11429,7 +11429,7 @@ FAILED
 for
 edge
 %
-ld
+td
 \
 n
 "

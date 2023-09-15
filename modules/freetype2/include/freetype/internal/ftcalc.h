@@ -2280,7 +2280,7 @@ matrix
 .
 *
 *
-50
+32
 *
 abs
 (
@@ -2311,7 +2311,7 @@ yy
 *
 *
 Value
-50
+32
 is
 heuristic
 .
