@@ -816,12 +816,6 @@ RTC_DCHECK
 channel_receive_
 )
 ;
-packet_sequence_checker_
-.
-Detach
-(
-)
-;
 RTC_DCHECK
 (
 packet_router

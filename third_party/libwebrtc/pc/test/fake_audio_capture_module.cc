@@ -342,12 +342,6 @@ frames_received_
 0
 )
 {
-process_thread_checker_
-.
-Detach
-(
-)
-;
 }
 FakeAudioCaptureModule
 :

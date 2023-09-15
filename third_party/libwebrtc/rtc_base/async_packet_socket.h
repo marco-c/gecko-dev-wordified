@@ -468,6 +468,8 @@ STATE_CONNECTED
 AsyncPacketSocket
 (
 )
+=
+default
 ;
 ~
 AsyncPacketSocket
@@ -1031,6 +1033,15 @@ webrtc
 :
 SequenceChecker
 network_checker_
+{
+webrtc
+:
+:
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 private
 :

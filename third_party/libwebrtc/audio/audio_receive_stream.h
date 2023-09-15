@@ -1054,6 +1054,12 @@ deleted
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 packet_sequence_checker_
+{
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 webrtc
 :

@@ -528,6 +528,12 @@ private
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 worker_sequence_checker_
+{
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 /
 /

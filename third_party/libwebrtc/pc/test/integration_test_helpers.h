@@ -1578,6 +1578,12 @@ tick_period_
 ;
 SequenceChecker
 sequence_checker_
+{
+SequenceChecker
+:
+:
+kDetached
+}
 ;
 std
 :
