@@ -2100,11 +2100,6 @@ NetworkStateEstimateObserver
 const
 network_state_estimate_observer_
 ;
-TransportFeedbackObserver
-*
-const
-deprecated_transport_feedback_observer_
-;
 VideoBitrateAllocationObserver
 *
 const
