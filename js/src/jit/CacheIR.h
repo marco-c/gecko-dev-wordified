@@ -1592,7 +1592,7 @@ JSObject
 WeakObject
 Symbol
 String
-BaseScript
+WeakBaseScript
 JitCode
 Id
 AllocSite

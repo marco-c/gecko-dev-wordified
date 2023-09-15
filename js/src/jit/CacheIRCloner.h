@@ -361,7 +361,7 @@ stubOffset
 ;
 BaseScript
 *
-getBaseScriptField
+getWeakBaseScriptField
 (
 uint32_t
 stubOffset

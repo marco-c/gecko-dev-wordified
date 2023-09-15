@@ -717,7 +717,7 @@ writeSymbolField
 )
     
 "
-BaseScriptField
+WeakBaseScriptField
 "
 :
 (
@@ -726,7 +726,7 @@ BaseScript
 *
 "
 "
-writeBaseScriptField
+writeWeakBaseScriptField
 "
 )
     
@@ -1937,7 +1937,7 @@ stubOffset
 )
     
 "
-BaseScriptField
+WeakBaseScriptField
 "
 :
 (
@@ -2967,7 +2967,7 @@ spewField
 "
     
 "
-BaseScriptField
+WeakBaseScriptField
 "
 :
 "
@@ -4053,7 +4053,7 @@ SymbolField
 1
     
 "
-BaseScriptField
+WeakBaseScriptField
 "
 :
 1
