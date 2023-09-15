@@ -274,6 +274,12 @@ source
 )
 {
 return
+(
+source
+.
+url
+&
+&
 tab
 .
 url
@@ -293,6 +299,7 @@ isOriginal
 source
 .
 isOriginal
+)
 ;
 }
 function
