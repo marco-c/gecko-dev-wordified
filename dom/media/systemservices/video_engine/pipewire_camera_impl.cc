@@ -189,6 +189,13 @@ int
 fd
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 result
