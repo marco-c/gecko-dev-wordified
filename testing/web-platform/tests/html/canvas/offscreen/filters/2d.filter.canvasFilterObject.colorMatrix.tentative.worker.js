@@ -174,7 +174,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -199,7 +199,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -226,7 +226,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -251,7 +251,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -280,7 +280,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -328,7 +328,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -380,7 +380,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -426,7 +426,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -472,7 +472,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -518,7 +518,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -564,7 +564,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -622,7 +622,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix
@@ -665,7 +665,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 colorMatrix

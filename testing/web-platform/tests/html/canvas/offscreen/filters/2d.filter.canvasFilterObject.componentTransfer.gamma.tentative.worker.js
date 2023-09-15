@@ -363,7 +363,7 @@ new
 CanvasFilter
 (
 {
-filter
+name
 :
 '
 componentTransfer
