@@ -115,6 +115,14 @@ DIRS
 jsactor
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+gtest
+"
+]
 XPIDL_SOURCES
 +
 =
