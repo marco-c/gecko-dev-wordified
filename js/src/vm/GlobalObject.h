@@ -2960,12 +2960,6 @@ const
 JSClass
 *
 clasp
-ObjectFlags
-objFlags
-=
-ObjectFlags
-(
-)
 )
 ;
 /
@@ -3078,12 +3072,6 @@ GlobalObject
 *
 >
 global
-ObjectFlags
-objFlags
-=
-ObjectFlags
-(
-)
 )
 {
 NativeObject
@@ -3099,7 +3087,6 @@ T
 :
 :
 class_
-objFlags
 )
 ;
 return

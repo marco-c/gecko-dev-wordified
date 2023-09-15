@@ -18180,11 +18180,7 @@ ins
 )
 ;
 return
-resumeAfter
-(
-ins
-loc
-)
+true
 ;
 }
 bool
