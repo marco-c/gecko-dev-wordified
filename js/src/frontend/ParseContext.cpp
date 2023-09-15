@@ -3889,7 +3889,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 |
@@ -3903,7 +3903,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotNewTarget
+dot_newTarget_
 (
 )
 )
@@ -4038,7 +4038,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 ;
@@ -4591,7 +4591,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotNewTarget
+dot_newTarget_
 (
 )
 ;
@@ -4755,7 +4755,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 ;
@@ -4897,7 +4897,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 ;

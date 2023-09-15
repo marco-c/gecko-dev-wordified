@@ -318,7 +318,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotPrivateBrand
+dot_privateBrand_
 (
 )
 *

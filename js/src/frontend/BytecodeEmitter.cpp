@@ -4825,7 +4825,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 )
@@ -38511,7 +38511,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 )
@@ -38546,7 +38546,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 )
@@ -38837,7 +38837,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 )
@@ -38858,7 +38858,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 )
@@ -38933,7 +38933,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotNewTarget
+dot_newTarget_
 (
 )
 )
@@ -38984,7 +38984,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotNewTarget
+dot_newTarget_
 (
 )
 )
@@ -39826,7 +39826,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 &
@@ -39842,7 +39842,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 loc
@@ -39864,7 +39864,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 &
@@ -39880,7 +39880,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 loc
@@ -56553,7 +56553,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotStaticFieldKeys
+dot_staticFieldKeys_
 (
 )
 :
@@ -56563,7 +56563,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotFieldKeys
+dot_fieldKeys_
 (
 )
 ;
@@ -61146,7 +61146,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotStaticFieldKeys
+dot_staticFieldKeys_
 (
 )
 :
@@ -61156,7 +61156,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotFieldKeys
+dot_fieldKeys_
 (
 )
 ;
@@ -65126,7 +65126,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 )
@@ -65153,7 +65153,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotPrivateBrand
+dot_privateBrand_
 (
 )
 )
@@ -65320,7 +65320,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotInitializers
+dot_initializers_
 (
 )
 )
@@ -65507,7 +65507,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 )
@@ -65738,7 +65738,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotInitializers
+dot_initializers_
 (
 )
 )
@@ -66103,7 +66103,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 )
@@ -66340,7 +66340,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotStaticInitializers
+dot_staticInitializers_
 (
 )
 )
@@ -66744,7 +66744,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotStaticInitializers
+dot_staticInitializers_
 (
 )
 )
@@ -67401,7 +67401,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotStaticInitializers
+dot_staticInitializers_
 (
 )
 )
@@ -67517,7 +67517,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotStaticFieldKeys
+dot_staticFieldKeys_
 (
 )
 )
@@ -71422,7 +71422,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 JSOp
@@ -71506,7 +71506,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotNewTarget
+dot_newTarget_
 (
 )
 JSOp
@@ -71559,7 +71559,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 JSOp
@@ -72307,7 +72307,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotPrivateBrand
+dot_privateBrand_
 (
 )
 privateBrandName
@@ -73092,7 +73092,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotInitializers
+dot_initializers_
 (
 )
 )

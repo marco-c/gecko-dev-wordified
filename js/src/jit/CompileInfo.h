@@ -991,7 +991,7 @@ names
 (
 )
 .
-dotThis
+dot_this_
 )
 {
 continue

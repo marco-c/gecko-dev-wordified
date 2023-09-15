@@ -1257,7 +1257,7 @@ dotAll
 \
 MACRO_
 (
-dotArgs
+dot_args_
 "
 .
 args
@@ -1266,7 +1266,7 @@ args
 \
 MACRO_
 (
-dotFieldKeys
+dot_fieldKeys_
 "
 .
 fieldKeys
@@ -1275,7 +1275,7 @@ fieldKeys
 \
 MACRO_
 (
-dotGenerator
+dot_generator_
 "
 .
 generator
@@ -1284,7 +1284,7 @@ generator
 \
 MACRO_
 (
-dotInitializers
+dot_initializers_
 "
 .
 initializers
@@ -1293,7 +1293,7 @@ initializers
 \
 MACRO_
 (
-dotNewTarget
+dot_newTarget_
 "
 .
 newTarget
@@ -1302,7 +1302,7 @@ newTarget
 \
 MACRO_
 (
-dotPrivateBrand
+dot_privateBrand_
 "
 .
 privateBrand
@@ -1311,7 +1311,7 @@ privateBrand
 \
 MACRO_
 (
-dotStaticFieldKeys
+dot_staticFieldKeys_
 "
 .
 staticFieldKeys
@@ -1320,7 +1320,7 @@ staticFieldKeys
 \
 MACRO_
 (
-dotStaticInitializers
+dot_staticInitializers_
 "
 .
 staticInitializers
@@ -1329,7 +1329,7 @@ staticInitializers
 \
 MACRO_
 (
-dotThis
+dot_this_
 "
 .
 this

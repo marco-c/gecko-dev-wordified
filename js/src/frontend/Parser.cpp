@@ -9831,7 +9831,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotPrivateBrand
+dot_privateBrand_
 (
 )
 )
@@ -10211,7 +10211,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotPrivateBrand
+dot_privateBrand_
 (
 )
 )
@@ -12028,7 +12028,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 )
@@ -12810,7 +12810,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 )
@@ -12845,7 +12845,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotNewTarget
+dot_newTarget_
 (
 )
 )
@@ -12880,7 +12880,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotGenerator
+dot_generator_
 (
 )
 )
@@ -21503,7 +21503,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotInitializers
+dot_initializers_
 (
 )
 )
@@ -47119,7 +47119,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotInitializers
+dot_initializers_
 (
 )
 DeclarationKind
@@ -47633,7 +47633,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotInitializers
+dot_initializers_
 (
 )
 DeclarationKind
@@ -48724,7 +48724,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotPrivateBrand
+dot_privateBrand_
 (
 )
 DeclarationKind
@@ -48766,7 +48766,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotFieldKeys
+dot_fieldKeys_
 (
 )
 DeclarationKind
@@ -48804,7 +48804,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotStaticInitializers
+dot_staticInitializers_
 (
 )
 DeclarationKind
@@ -48842,7 +48842,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotStaticFieldKeys
+dot_staticFieldKeys_
 (
 )
 DeclarationKind
@@ -49812,7 +49812,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotArgs
+dot_args_
 (
 )
 synthesizedBodyPos
@@ -49906,7 +49906,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotThis
+dot_this_
 (
 )
 )
@@ -49929,7 +49929,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotInitializers
+dot_initializers_
 (
 )
 )
@@ -49978,7 +49978,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotNewTarget
+dot_newTarget_
 (
 )
 )
@@ -50065,7 +50065,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotArgs
+dot_args_
 (
 )
 synthesizedBodyPos
@@ -50094,7 +50094,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotArgs
+dot_args_
 (
 )
 )
@@ -52194,7 +52194,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotStaticFieldKeys
+dot_staticFieldKeys_
 (
 )
 )
@@ -52212,7 +52212,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotFieldKeys
+dot_fieldKeys_
 (
 )
 )
@@ -64839,7 +64839,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotInitializers
+dot_initializers_
 (
 )
 )
@@ -65707,7 +65707,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotNewTarget
+dot_newTarget_
 (
 )
 )

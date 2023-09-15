@@ -3906,7 +3906,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotStaticInitializers
+dot_staticInitializers_
 (
 )
 :
@@ -3916,7 +3916,7 @@ TaggedParserAtomIndex
 WellKnown
 :
 :
-dotInitializers
+dot_initializers_
 (
 )
 ;

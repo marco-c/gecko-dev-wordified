@@ -3918,7 +3918,7 @@ names
 (
 )
 .
-dotGenerator
+dot_generator_
 ;
 }
 static
