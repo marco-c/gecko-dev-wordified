@@ -272,7 +272,7 @@ True
         
 use_toml
 =
-False
+True
     
 )
 :
@@ -1385,7 +1385,7 @@ self
 .
 logger
 .
-debug
+info
 (
                             
 f
@@ -1636,7 +1636,7 @@ self
 .
 logger
 .
-debug
+info
 (
 f
 "
@@ -1656,7 +1656,7 @@ self
 .
 logger
 .
-debug
+info
 (
                             
 f
@@ -1679,7 +1679,7 @@ self
 .
 logger
 .
-debug
+info
 (
 f
 "
@@ -1699,7 +1699,7 @@ self
 .
 logger
 .
-debug
+info
 (
 f
 "
@@ -1730,7 +1730,7 @@ self
 .
 logger
 .
-debug
+info
 (
 f
 "
@@ -2017,7 +2017,7 @@ self
 .
 logger
 .
-debug
+info
 (
 f
 "
