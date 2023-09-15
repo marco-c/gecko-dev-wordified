@@ -523,12 +523,6 @@ uint8_t
 aData
 )
 ;
-bool
-IsValid
-(
-)
-const
-;
 uint16_t
 WaveFormat
 (
