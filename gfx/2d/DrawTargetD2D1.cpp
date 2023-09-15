@@ -7750,6 +7750,11 @@ Size
 aFormat
 )
 ;
+if
+(
+dt
+)
+{
 result
 =
 gfx
@@ -7768,6 +7773,11 @@ TopLeft
 )
 )
 ;
+if
+(
+result
+)
+{
 result
 -
 >
@@ -7776,6 +7786,8 @@ SetTransform
 mTransform
 )
 ;
+}
+}
 if
 (
 !
