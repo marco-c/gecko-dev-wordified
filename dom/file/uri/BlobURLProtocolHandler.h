@@ -288,6 +288,10 @@ nsID
 >
 &
 aAgentClusterId
+const
+nsCString
+&
+aPartitionKey
 nsACString
 &
 aUri
@@ -308,6 +312,10 @@ nsID
 >
 &
 aAgentClusterId
+const
+nsCString
+&
+aPartitionKey
 nsACString
 &
 aUri
@@ -335,6 +343,10 @@ nsID
 >
 &
 aAgentClusterId
+const
+nsCString
+&
+aPartitionKey
 BlobImpl
 *
 aBlobImpl
@@ -422,6 +434,10 @@ nsID
 >
 &
 aAgentClusterId
+const
+nsCString
+&
+aPartitionKey
 )
 ;
 static
@@ -471,6 +487,10 @@ nsID
 >
 &
 aAgentClusterId
+const
+nsCString
+&
+aPartitionKey
 bool
 aAlsoIfRevoked
 =
@@ -585,6 +605,9 @@ Maybe
 <
 nsID
 >
+&
+const
+nsCString
 &
 const
 nsACString
