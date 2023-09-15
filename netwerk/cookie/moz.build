@@ -140,11 +140,6 @@ nsICookieManager
 idl
 "
 "
-nsICookieNotification
-.
-idl
-"
-"
 nsICookiePermission
 .
 idl
@@ -179,11 +174,6 @@ h
 "
 "
 CookieKey
-.
-h
-"
-"
-CookieNotification
 .
 h
 "
@@ -239,11 +229,6 @@ cpp
 "
 "
 CookieLogging
-.
-cpp
-"
-"
-CookieNotification
 .
 cpp
 "
