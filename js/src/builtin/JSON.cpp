@@ -9327,6 +9327,14 @@ nobj
 isIndexed
 (
 )
+|
+|
+IsPackedArray
+(
+top
+.
+nobj
+)
 )
 ;
 }
