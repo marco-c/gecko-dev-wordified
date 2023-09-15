@@ -547,6 +547,13 @@ tab
 await
 swapDocShellPromise
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 info
 (
 "

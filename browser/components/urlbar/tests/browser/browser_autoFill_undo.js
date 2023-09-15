@@ -101,6 +101,13 @@ com
 ]
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 /
 /
 Search

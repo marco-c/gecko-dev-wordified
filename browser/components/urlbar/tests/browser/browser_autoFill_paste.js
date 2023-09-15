@@ -91,6 +91,13 @@ com
 ]
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 registerCleanupFunction
 (
 async

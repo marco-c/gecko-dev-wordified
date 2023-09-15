@@ -662,6 +662,13 @@ ENGINE_DOMAIN
 ;
 }
 await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
+await
 UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
@@ -1136,6 +1143,13 @@ ENGINE_DOMAIN
 )
 ;
 }
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 /
 /
 First

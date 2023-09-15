@@ -864,6 +864,13 @@ searchString
 )
 ;
 await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
+await
 UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
@@ -1053,6 +1060,13 @@ for
 searchString
 }
 '
+)
+;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
 )
 ;
 await

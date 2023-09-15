@@ -6039,6 +6039,13 @@ url
 ;
 }
 }
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 }
 async
 function

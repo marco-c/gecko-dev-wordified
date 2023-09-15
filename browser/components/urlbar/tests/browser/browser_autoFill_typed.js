@@ -94,6 +94,13 @@ com
 ]
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 /
 /
 all
@@ -423,6 +430,13 @@ foo
 bar
 "
 ]
+)
+;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
 )
 ;
 /

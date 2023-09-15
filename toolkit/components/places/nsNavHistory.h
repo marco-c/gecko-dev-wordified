@@ -2353,11 +2353,6 @@ mUnvisitedTypedBonus
 int32_t
 mReloadVisitBonus
 ;
-nsresult
-RecalculateOriginFrecencyStatsInternal
-(
-)
-;
 /
 /
 in

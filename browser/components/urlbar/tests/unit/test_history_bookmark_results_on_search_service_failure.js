@@ -376,6 +376,11 @@ initialize
 "
 )
 ;
+await
+cleanupPlaces
+(
+)
+;
 }
 )
 ;

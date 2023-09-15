@@ -6401,15 +6401,10 @@ uri
 )
 ;
 await
-db
+PlacesFrecencyRecalculator
 .
-executeCached
+recalculateAnyOutdatedFrecencies
 (
-"
-DELETE
-FROM
-moz_updateoriginsupdate_temp
-"
 )
 ;
 }

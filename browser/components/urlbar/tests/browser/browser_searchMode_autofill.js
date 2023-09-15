@@ -107,6 +107,13 @@ com
 ;
 }
 await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
+await
 SearchTestUtils
 .
 installSearchExtension

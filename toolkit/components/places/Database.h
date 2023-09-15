@@ -1203,11 +1203,6 @@ return
 mTagsRootId
 ;
 }
-nsresult
-RecalculateOriginFrecencyStatsInternal
-(
-)
-;
 protected
 :
 /
