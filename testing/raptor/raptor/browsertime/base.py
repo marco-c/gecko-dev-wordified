@@ -104,6 +104,7 @@ evaluate_list_from_string
 from
 perftest
 import
+GECKO_PROFILER_APPS
 TRACE_APPS
 Perftest
 from
@@ -1740,11 +1741,7 @@ app
 "
 ]
 in
-(
-"
-firefox
-"
-)
+GECKO_PROFILER_APPS
         
 )
     
@@ -3828,11 +3825,8 @@ config
 app
 "
 ]
-=
-=
-"
-firefox
-"
+in
+GECKO_PROFILER_APPS
 and
 (
             
