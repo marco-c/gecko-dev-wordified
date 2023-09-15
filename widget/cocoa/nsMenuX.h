@@ -304,10 +304,6 @@ NSMenuItem
 )
 item
 ;
-property
-BOOL
-menuIsInMenubar
-;
 end
 class
 nsMenuXObserver
