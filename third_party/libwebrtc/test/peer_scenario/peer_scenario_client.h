@@ -179,6 +179,15 @@ include
 "
 test
 /
+create_frame_generator_capturer
+.
+h
+"
+#
+include
+"
+test
+/
 logging
 /
 log_writer
