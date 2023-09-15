@@ -1299,12 +1299,6 @@ expressions
 RegExpRealm
 regExpRealm
 ;
-UniquePtr
-<
-RegExpStatics
->
-regExpStatics
-;
 HeapPtr
 <
 ArgumentsObject

@@ -5007,7 +5007,7 @@ if
 global
 -
 >
-data
+regExpRealm
 (
 )
 .
@@ -5038,7 +5038,7 @@ nullptr
 global
 -
 >
-data
+regExpRealm
 (
 )
 .
@@ -5057,7 +5057,7 @@ return
 global
 -
 >
-data
+regExpRealm
 (
 )
 .
@@ -6656,20 +6656,6 @@ trace
 trc
 )
 ;
-if
-(
-regExpStatics
-)
-{
-regExpStatics
--
->
-trace
-(
-trc
-)
-;
-}
 TraceNullableEdge
 (
 trc
@@ -6794,6 +6780,8 @@ this
 ;
 if
 (
+regExpRealm
+.
 regExpStatics
 )
 {
@@ -6803,6 +6791,8 @@ info
 objectsMallocHeapGlobalData
 +
 =
+regExpRealm
+.
 regExpStatics
 -
 >
