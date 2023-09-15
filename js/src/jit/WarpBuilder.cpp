@@ -11183,13 +11183,6 @@ pop
 (
 )
 ;
-iter
-=
-unboxObjectInfallible
-(
-iter
-)
-;
 return
 buildIC
 (
