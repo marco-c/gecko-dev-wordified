@@ -4663,6 +4663,10 @@ ByteArray
 >
 &
 aCANames
+const
+uint64_t
+&
+aBrowserId
 )
 {
 RefPtr
@@ -4742,6 +4746,10 @@ ByteArray
 &
 &
 aCANames
+const
+uint64_t
+&
+aBrowserId
 )
 {
 mozilla
@@ -4790,6 +4798,7 @@ move
 (
 aCANames
 )
+aBrowserId
 )
 )
 {

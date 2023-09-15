@@ -1220,6 +1220,10 @@ ByteArray
 >
 &
 aCANames
+const
+uint64_t
+&
+aBrowserId
 )
 override
 ;
@@ -1267,6 +1271,10 @@ ByteArray
 &
 &
 aCANames
+const
+uint64_t
+&
+aBrowserId
 )
 override
 ;

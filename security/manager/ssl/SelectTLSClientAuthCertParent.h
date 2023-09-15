@@ -310,6 +310,10 @@ ByteArray
 &
 &
 aCANames
+const
+uint64_t
+&
+aBrowsingContextID
 )
 ;
 void
