@@ -33230,10 +33230,7 @@ delta_y
 mPanInProgress
 )
 ;
-PanGestureInput
-:
-:
-PanGestureType
+auto
 eventType
 =
 PanGestureInput
