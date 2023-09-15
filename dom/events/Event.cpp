@@ -1515,7 +1515,7 @@ win
 global
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;
@@ -1964,7 +1964,7 @@ win
 global
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;
@@ -2604,7 +2604,7 @@ win
 mOwner
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 )
@@ -4779,7 +4779,7 @@ win
 mOwner
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;

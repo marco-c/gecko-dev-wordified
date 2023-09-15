@@ -3819,7 +3819,7 @@ GetParentObject
 )
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;

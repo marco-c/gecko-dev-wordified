@@ -275,7 +275,7 @@ return
 global
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 -

@@ -3113,7 +3113,7 @@ doc
 ownerGlobal
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 -

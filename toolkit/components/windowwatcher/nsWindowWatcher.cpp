@@ -3323,7 +3323,7 @@ GetOwnerGlobal
 )
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 )
@@ -3338,7 +3338,7 @@ GetOwnerGlobal
 )
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 -

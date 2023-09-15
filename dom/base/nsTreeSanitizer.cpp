@@ -16521,7 +16521,7 @@ win
 aGlobal
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 )

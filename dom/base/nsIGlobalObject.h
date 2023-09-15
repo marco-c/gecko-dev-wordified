@@ -1514,7 +1514,7 @@ otherwise
 .
 nsPIDOMWindowInner
 *
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;

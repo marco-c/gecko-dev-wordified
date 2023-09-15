@@ -8682,7 +8682,7 @@ innerWindow
 global
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;

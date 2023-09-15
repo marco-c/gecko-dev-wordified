@@ -1320,7 +1320,7 @@ innerWindow
 global
 -
 >
-AsInnerWindow
+GetAsInnerWindow
 (
 )
 ;
