@@ -904,7 +904,6 @@ state
 const
 inspector
 =
-await
 getActiveInspector
 (
 )
@@ -1000,7 +999,6 @@ const
 toolbox
 }
 =
-await
 getActiveInspector
 (
 )

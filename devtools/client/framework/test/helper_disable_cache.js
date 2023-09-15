@@ -655,7 +655,6 @@ tabX
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

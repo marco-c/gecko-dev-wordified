@@ -213,7 +213,6 @@ msg
 const
 checkToolbox
 =
-async
 function
 (
 tab
@@ -223,7 +222,6 @@ location
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -429,7 +427,6 @@ opened
 )
 ;
 }
-await
 checkToolbox
 (
 tab
@@ -531,7 +528,6 @@ connection
 )
 ;
 }
-await
 checkToolbox
 (
 tab
@@ -623,7 +619,6 @@ count
 )
 ;
 }
-await
 checkToolbox
 (
 tab
@@ -849,7 +844,6 @@ opened
 )
 ;
 }
-await
 checkToolbox
 (
 tab
@@ -937,7 +931,6 @@ connection
 )
 ;
 }
-await
 checkToolbox
 (
 tab

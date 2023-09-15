@@ -210,7 +210,6 @@ paused
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

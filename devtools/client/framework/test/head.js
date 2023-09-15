@@ -229,7 +229,6 @@ needed
 let
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

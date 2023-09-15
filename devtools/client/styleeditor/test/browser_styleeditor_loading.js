@@ -166,7 +166,6 @@ styleEditorLoaded
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

@@ -364,7 +364,6 @@ maxExpectedRequests
 let
 toolbox
 =
-await
 getToolbox
 (
 )

@@ -431,7 +431,6 @@ l10nKey
 "
 webDeveloperToolsMenu
 "
-async
 oncommand
 (
 event
@@ -450,7 +449,6 @@ ownerDocument
 .
 defaultView
 ;
-await
 gDevToolsBrowser
 .
 toggleToolboxCommand

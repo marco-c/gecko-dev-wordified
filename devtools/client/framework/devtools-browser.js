@@ -525,7 +525,6 @@ sets
 .
 inc
 command
-async
 toggleToolboxCommand
 (
 gBrowser
@@ -535,7 +534,6 @@ startTime
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -1405,7 +1403,6 @@ selectedTab
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
@@ -1839,7 +1836,6 @@ case
 toggleToolbox
 "
 :
-await
 gDevToolsBrowser
 .
 toggleToolboxCommand
@@ -1870,7 +1866,6 @@ true
 )
 )
 {
-await
 gDevToolsBrowser
 .
 toggleToolboxCommand
@@ -1974,7 +1969,6 @@ javascriptTracingToggle
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab

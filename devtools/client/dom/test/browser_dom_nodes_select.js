@@ -94,7 +94,6 @@ TEST_PAGE_URL
 const
 toolbox
 =
-await
 gDevTools
 .
 getToolboxForTab
