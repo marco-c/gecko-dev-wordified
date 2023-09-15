@@ -3918,14 +3918,6 @@ trackedSite_
 (
 site
 )
-lineno_
-(
-0u
-)
-columnIndex_
-(
-0u
-)
 {
 MOZ_ASSERT
 (
