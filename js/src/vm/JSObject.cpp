@@ -14918,7 +14918,7 @@ true
 endif
 #
 ifdef
-ENABLE_NEW_SET_METHODS
+NIGHTLY_BUILD
 if
 (
 key
