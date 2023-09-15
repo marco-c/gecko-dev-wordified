@@ -1111,16 +1111,6 @@ OwningElementOrText
 aNodes
 )
 {
-MOZ_ASSERT
-(
-StaticPrefs
-:
-:
-dom_shadowdom_slot_assign_enabled
-(
-)
-)
-;
 nsAutoScriptBlocker
 scriptBlocker
 ;
