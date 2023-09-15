@@ -693,7 +693,9 @@ if
 (
 !
 (
+(
 func
+)
 =
 (
 decltype
@@ -729,7 +731,9 @@ func
 else
 {
 \
+(
 func
+)
 =
 (
 decltype
@@ -818,7 +822,9 @@ version
 &
 &
 !
+(
 func
+)
 )
 {
 \
@@ -1391,7 +1397,9 @@ if
 (
 !
 (
+(
 func
+)
 =
 (
 decltype
@@ -1409,7 +1417,9 @@ func
 )
 {
 \
+(
 func
+)
 =
 (
 decltype
@@ -1468,7 +1478,9 @@ if
 (
 !
 (
+(
 func
+)
 =
 (
 decltype
@@ -1984,7 +1996,9 @@ VA_FUNC_LOADED
 func
 )
 (
+(
 func
+)
 !
 =
 nullptr
