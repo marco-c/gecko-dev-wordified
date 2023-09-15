@@ -359,6 +359,17 @@ JxlPixelFormat
 pixel_format
 )
 ;
+void
+DefaultAcceptedFormats
+(
+extras
+:
+:
+JXLDecompressParams
+&
+dparams
+)
+;
 template
 <
 typename
