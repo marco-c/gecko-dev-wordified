@@ -191,7 +191,9 @@ compat
 /
 AboutCompat
 .
-jsm
+sys
+.
+mjs
 "
 "
 about
