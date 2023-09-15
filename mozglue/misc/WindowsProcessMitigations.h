@@ -156,6 +156,12 @@ IsEafPlusEnabled
 (
 )
 ;
+MFBT_API
+bool
+IsUserShadowStackEnabled
+(
+)
+;
 }
 /
 /
