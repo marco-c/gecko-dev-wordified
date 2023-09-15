@@ -3759,6 +3759,12 @@ mDrawInTitlebar
 false
 }
 ;
+mozilla
+:
+:
+Mutex
+mDestroyMutex
+;
 /
 /
 Has
@@ -3770,6 +3776,10 @@ yet
 ?
 bool
 mIsDestroyed
+MOZ_GUARDED_BY
+(
+mDestroyMutex
+)
 ;
 /
 /
