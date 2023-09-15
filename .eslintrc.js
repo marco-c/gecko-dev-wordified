@@ -19914,17 +19914,6 @@ tests
 /
 browser
 /
-browser_localStorage_snapshotting
-.
-js
-"
-"
-dom
-/
-tests
-/
-browser
-/
 browser_test_toolbars_visibility
 .
 js
