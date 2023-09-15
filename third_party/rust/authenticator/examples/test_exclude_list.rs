@@ -1142,9 +1142,6 @@ as_bytes
 to_vec
 (
 )
-icon
-:
-None
 name
 :
 Some
@@ -1206,9 +1203,6 @@ to_string
 (
 )
 name
-:
-None
-icon
 :
 None
 }

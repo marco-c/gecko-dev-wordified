@@ -4083,9 +4083,6 @@ to_string
 name
 :
 None
-icon
-:
-None
 }
 origin
 :
@@ -4105,9 +4102,6 @@ user_id
 to_vec
 (
 )
-icon
-:
-None
 name
 :
 Some
