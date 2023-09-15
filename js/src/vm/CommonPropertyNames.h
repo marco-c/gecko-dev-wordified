@@ -3367,7 +3367,7 @@ numeric
 \
 MACRO_
 (
-objectArguments
+object_Arguments_
 "
 [
 object
@@ -3378,7 +3378,7 @@ Arguments
 \
 MACRO_
 (
-objectArray
+object_Array_
 "
 [
 object
@@ -3389,7 +3389,7 @@ Array
 \
 MACRO_
 (
-objectBigInt
+object_BigInt_
 "
 [
 object
@@ -3400,7 +3400,7 @@ BigInt
 \
 MACRO_
 (
-objectBoolean
+object_Boolean_
 "
 [
 object
@@ -3411,7 +3411,7 @@ Boolean
 \
 MACRO_
 (
-objectDate
+object_Date_
 "
 [
 object
@@ -3422,7 +3422,7 @@ Date
 \
 MACRO_
 (
-objectError
+object_Error_
 "
 [
 object
@@ -3433,7 +3433,7 @@ Error
 \
 MACRO_
 (
-objectFunction
+object_Function_
 "
 [
 object
@@ -3444,7 +3444,7 @@ Function
 \
 MACRO_
 (
-objectNull
+object_Null_
 "
 [
 object
@@ -3455,7 +3455,7 @@ Null
 \
 MACRO_
 (
-objectNumber
+object_Number_
 "
 [
 object
@@ -3466,7 +3466,7 @@ Number
 \
 MACRO_
 (
-objectObject
+object_Object_
 "
 [
 object
@@ -3479,7 +3479,7 @@ IF_RECORD_TUPLE
 (
 MACRO_
 (
-objectRecord
+object_Record_
 "
 [
 object
@@ -3491,7 +3491,7 @@ Record
 \
 MACRO_
 (
-objectRegExp
+object_RegExp_
 "
 [
 object
@@ -3502,15 +3502,7 @@ RegExp
 \
 MACRO_
 (
-objects
-"
-objects
-"
-)
-\
-MACRO_
-(
-objectString
+object_String_
 "
 [
 object
@@ -3521,7 +3513,7 @@ String
 \
 MACRO_
 (
-objectSymbol
+object_Symbol_
 "
 [
 object
@@ -3534,7 +3526,7 @@ IF_RECORD_TUPLE
 (
 MACRO_
 (
-objectTuple
+object_Tuple_
 "
 [
 object
@@ -3546,7 +3538,7 @@ Tuple
 \
 MACRO_
 (
-objectUndefined
+object_Undefined_
 "
 [
 object
@@ -3560,6 +3552,14 @@ MACRO_
 Object_valueOf
 "
 Object_valueOf
+"
+)
+\
+MACRO_
+(
+objects
+"
+objects
 "
 )
 \

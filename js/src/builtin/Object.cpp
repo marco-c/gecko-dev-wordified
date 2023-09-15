@@ -3709,7 +3709,7 @@ names
 (
 )
 .
-objectArray
+object_Array_
 ;
 }
 /
@@ -3760,7 +3760,7 @@ names
 (
 )
 .
-objectString
+object_String_
 ;
 case
 ESClass
@@ -3776,7 +3776,7 @@ names
 (
 )
 .
-objectArguments
+object_Arguments_
 ;
 case
 ESClass
@@ -3792,7 +3792,7 @@ names
 (
 )
 .
-objectError
+object_Error_
 ;
 case
 ESClass
@@ -3808,7 +3808,7 @@ names
 (
 )
 .
-objectBoolean
+object_Boolean_
 ;
 case
 ESClass
@@ -3824,7 +3824,7 @@ names
 (
 )
 .
-objectNumber
+object_Number_
 ;
 case
 ESClass
@@ -3840,7 +3840,7 @@ names
 (
 )
 .
-objectDate
+object_Date_
 ;
 case
 ESClass
@@ -3856,7 +3856,7 @@ names
 (
 )
 .
-objectRegExp
+object_RegExp_
 ;
 default
 :
@@ -3924,7 +3924,7 @@ names
 (
 )
 .
-objectFunction
+object_Function_
 ;
 }
 }
@@ -3936,7 +3936,7 @@ names
 (
 )
 .
-objectObject
+object_Object_
 ;
 }
 }
@@ -4025,7 +4025,7 @@ names
 (
 )
 .
-objectObject
+object_Object_
 ;
 }
 if
@@ -4048,7 +4048,7 @@ names
 (
 )
 .
-objectArray
+object_Array_
 ;
 }
 if
@@ -4069,7 +4069,7 @@ names
 (
 )
 .
-objectFunction
+object_Function_
 ;
 }
 if
@@ -4092,7 +4092,7 @@ names
 (
 )
 .
-objectString
+object_String_
 ;
 }
 if
@@ -4115,7 +4115,7 @@ names
 (
 )
 .
-objectNumber
+object_Number_
 ;
 }
 if
@@ -4138,7 +4138,7 @@ names
 (
 )
 .
-objectBoolean
+object_Boolean_
 ;
 }
 if
@@ -4161,7 +4161,7 @@ names
 (
 )
 .
-objectDate
+object_Date_
 ;
 }
 if
@@ -4184,7 +4184,7 @@ names
 (
 )
 .
-objectRegExp
+object_RegExp_
 ;
 }
 if
@@ -4208,7 +4208,7 @@ names
 (
 )
 .
-objectArguments
+object_Arguments_
 ;
 }
 if
@@ -4232,7 +4232,7 @@ names
 (
 )
 .
-objectError
+object_Error_
 ;
 }
 if
@@ -4283,7 +4283,7 @@ names
 (
 )
 .
-objectFunction
+object_Function_
 ;
 }
 return
@@ -4294,7 +4294,7 @@ names
 (
 )
 .
-objectObject
+object_Object_
 ;
 }
 /
@@ -4472,7 +4472,7 @@ names
 (
 )
 .
-objectString
+object_String_
 ;
 case
 JSProto_Number
@@ -4485,7 +4485,7 @@ names
 (
 )
 .
-objectNumber
+object_Number_
 ;
 case
 JSProto_Boolean
@@ -4498,7 +4498,7 @@ names
 (
 )
 .
-objectBoolean
+object_Boolean_
 ;
 case
 JSProto_Symbol
@@ -4511,7 +4511,7 @@ names
 (
 )
 .
-objectSymbol
+object_Symbol_
 ;
 case
 JSProto_BigInt
@@ -4524,7 +4524,7 @@ names
 (
 )
 .
-objectBigInt
+object_BigInt_
 ;
 default
 :
@@ -4636,7 +4636,7 @@ names
 (
 )
 .
-objectUndefined
+object_Undefined_
 )
 ;
 return
@@ -4676,7 +4676,7 @@ names
 (
 )
 .
-objectNull
+object_Null_
 )
 ;
 return
