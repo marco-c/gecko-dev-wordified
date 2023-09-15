@@ -372,6 +372,17 @@ aftermediaends
 "
 to
 false
+"
+dom
+.
+media
+.
+mediasession
+.
+enabled
+"
+to
+true
 )
 )
 }
