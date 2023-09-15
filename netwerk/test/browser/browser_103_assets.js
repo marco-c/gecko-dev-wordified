@@ -1185,18 +1185,6 @@ cached
 preload
 javascript
 module
-/
-*
-TODO
-(
-Bug
-1798319
-)
-:
-enable
-this
-test
-case
 add_task
 (
 async
@@ -1264,8 +1252,6 @@ cached
 }
 )
 ;
-*
-/
 /
 /
 preload
