@@ -21,6 +21,11 @@ this
 error
 :
 Error
+const
+THREAD_TYPE_WORKER
+=
+10
+;
 /
 /
 OOM
@@ -41,6 +46,6 @@ safe
 oomAtAllocation
 (
 11
-11
+THREAD_TYPE_WORKER
 )
 ;

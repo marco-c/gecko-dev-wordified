@@ -14696,12 +14696,6 @@ rhs
 .
 selfHostingMode
 ;
-forceAsync
-=
-rhs
-.
-forceAsync
-;
 discardSource
 =
 rhs
@@ -14743,12 +14737,6 @@ usePinnedBytecode
 rhs
 .
 usePinnedBytecode
-;
-allocateInstantiationStorage
-=
-rhs
-.
-allocateInstantiationStorage
 ;
 deoptimizeModuleGlobalVars
 =

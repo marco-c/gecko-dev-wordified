@@ -370,9 +370,6 @@ loader
 namespace
 JS
 {
-class
-OffThreadToken
-;
 namespace
 loader
 {
