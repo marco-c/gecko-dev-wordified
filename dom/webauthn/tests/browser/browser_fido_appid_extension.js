@@ -291,9 +291,13 @@ is
 "
 "
 +
+(
 attestation
 .
 flags
+&
+flag_TUP
+)
 "
 "
 +
