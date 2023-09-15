@@ -120,6 +120,15 @@ string
 h
 >
 #
+include
+"
+libavutil
+/
+dict
+.
+h
+"
+#
 ifdef
 __GNUC__
 #
@@ -502,6 +511,10 @@ LIBAV_VER
 :
 InitDecoder
 (
+AVDictionary
+*
+*
+aOptions
 )
 {
 FFMPEG_LOG
@@ -866,7 +879,7 @@ avcodec_open2
 (
 mCodecContext
 codec
-nullptr
+aOptions
 )
 <
 0
