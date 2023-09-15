@@ -596,7 +596,6 @@ font
 {
 FontSize
 FontSizeAdjust
-FontSizeAdjustFactor
 FontSizeKeyword
 FontStretch
 FontSynthesis
