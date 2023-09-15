@@ -575,7 +575,7 @@ worker_queue
 VCMTiming
 *
 timing
-VCMReceiveStatisticsCallback
+VideoStreamBufferControllerStatsObserver
 *
 stats_proxy
 FrameSchedulingReceiver

@@ -654,10 +654,10 @@ last_packet_time
 }
 ;
 class
-VCMReceiveStatisticsCallbackMock
+VideoStreamBufferControllerStatsObserverMock
 :
 public
-VCMReceiveStatisticsCallback
+VideoStreamBufferControllerStatsObserver
 {
 public
 :
@@ -1358,7 +1358,7 @@ testing
 :
 NiceMock
 <
-VCMReceiveStatisticsCallbackMock
+VideoStreamBufferControllerStatsObserverMock
 >
 stats_callback_
 ;
