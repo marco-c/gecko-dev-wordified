@@ -175,6 +175,16 @@ mState
 ;
 }
 void
+UpdateStateNoEvent
+(
+TransportLayer
+:
+:
+State
+aState
+)
+;
+void
 UpdateState
 (
 TransportLayer
