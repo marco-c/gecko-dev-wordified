@@ -1069,7 +1069,7 @@ WriteParam
 aWriter
 aParam
 .
-mContainerCodecDelayMicroSeconds
+mContainerCodecDelayFrames
 )
 ;
 WriteParam
@@ -1102,7 +1102,7 @@ aReader
 aResult
 -
 >
-mContainerCodecDelayMicroSeconds
+mContainerCodecDelayFrames
 )
 &
 &

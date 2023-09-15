@@ -1056,12 +1056,12 @@ rhs
 const
 {
 return
-mContainerCodecDelayMicroSeconds
+mContainerCodecDelayFrames
 =
 =
 rhs
 .
-mContainerCodecDelayMicroSeconds
+mContainerCodecDelayFrames
 &
 &
 *
@@ -1086,7 +1086,8 @@ pre
 skip
 )
 in
-microseconds
+audio
+frames
 .
 /
 /
@@ -1201,7 +1202,7 @@ re
 consistent
 .
 int64_t
-mContainerCodecDelayMicroSeconds
+mContainerCodecDelayFrames
 {
 -
 1
