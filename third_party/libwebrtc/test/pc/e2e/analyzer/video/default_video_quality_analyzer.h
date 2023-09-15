@@ -129,6 +129,11 @@ string
 #
 include
 <
+unordered_map
+>
+#
+include
+<
 vector
 >
 #
@@ -1436,7 +1441,7 @@ preserved
 std
 :
 :
-map
+unordered_map
 <
 uint16_t
 FrameInFlight
@@ -1545,7 +1550,7 @@ StreamState
 std
 :
 :
-map
+unordered_map
 <
 size_t
 StreamState
@@ -1574,7 +1579,7 @@ peers_
 std
 :
 :
-map
+unordered_map
 <
 size_t
 size_t
@@ -1636,7 +1641,7 @@ encoding
 std
 :
 :
-map
+unordered_map
 <
 size_t
 std
@@ -1675,7 +1680,7 @@ stream
 std
 :
 :
-map
+unordered_map
 <
 size_t
 std
