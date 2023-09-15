@@ -255,6 +255,7 @@ page_iface_wp_fractional_scale_manager_v1
 -
 fractional
 surface
+*
 scale
 information
 *
@@ -266,6 +267,7 @@ fractional
 scale
 interface
 to
+*
 a
 wl_surface
 *
@@ -509,6 +511,7 @@ WP_FRACTIONAL_SCALE_MANAGER_V1_INTERFACE
 *
 page
 page_iface_wp_fractional_scale_manager_v1
+*
 wp_fractional_scale_manager_v1
 *
 section
@@ -545,6 +548,7 @@ iface_wp_fractional_scale_manager_v1
 defgroup
 iface_wp_fractional_scale_manager_v1
 The
+*
 wp_fractional_scale_manager_v1
 interface
 *
