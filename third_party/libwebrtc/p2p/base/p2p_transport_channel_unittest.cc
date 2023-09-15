@@ -3298,6 +3298,8 @@ webrtc
 AsyncDnsResolverFactoryInterface
 *
 async_dns_resolver_factory_
+=
+nullptr
 ;
 ChannelData
 cd1_
