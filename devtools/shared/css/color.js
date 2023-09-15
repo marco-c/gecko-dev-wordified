@@ -613,11 +613,13 @@ hwb
 "
 }
 ;
-_colorUnit
+#
+colorUnit
 =
 null
 ;
-_colorUnitUppercase
+#
+colorUnitUppercase
 =
 false
 ;
@@ -649,7 +651,8 @@ lowerCased
 =
 null
 ;
-_setColorUnitUppercase
+#
+setColorUnitUppercase
 (
 color
 )
@@ -698,7 +701,8 @@ cycling
 .
 this
 .
-_colorUnitUppercase
+#
+colorUnitUppercase
 =
 color
 =
@@ -731,7 +735,8 @@ if
 (
 this
 .
-_colorUnit
+#
+colorUnit
 =
 =
 =
@@ -752,7 +757,8 @@ COLOR_UNIT_PREF
 ;
 this
 .
-_colorUnit
+#
+colorUnit
 =
 CssColor
 .
@@ -763,7 +769,8 @@ defaultUnit
 ;
 this
 .
-_setColorUnitUppercase
+#
+setColorUnitUppercase
 (
 this
 .
@@ -774,7 +781,8 @@ authored
 return
 this
 .
-_colorUnit
+#
+colorUnit
 ;
 }
 set
@@ -785,7 +793,8 @@ unit
 {
 this
 .
-_colorUnit
+#
+colorUnit
 =
 unit
 ;
@@ -864,7 +873,8 @@ authored
 {
 this
 .
-_colorUnit
+#
+colorUnit
 =
 classifyColor
 (
@@ -873,7 +883,8 @@ color
 ;
 this
 .
-_setColorUnitUppercase
+#
+setColorUnitUppercase
 (
 color
 )
@@ -1270,7 +1281,8 @@ invalidOrSpecialValue
 =
 this
 .
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 ;
@@ -1348,7 +1360,8 @@ invalidOrSpecialValue
 =
 this
 .
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 ;
@@ -1477,7 +1490,8 @@ invalidOrSpecialValue
 =
 this
 .
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 ;
@@ -1616,7 +1630,8 @@ invalidOrSpecialValue
 =
 this
 .
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 ;
@@ -1720,7 +1735,8 @@ invalidOrSpecialValue
 =
 this
 .
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 ;
@@ -1831,7 +1847,8 @@ invalidOrSpecialValue
 =
 this
 .
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 ;
@@ -1943,7 +1960,8 @@ invalidOrSpecialValue
 =
 this
 .
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 ;
@@ -2050,7 +2068,8 @@ invalidOrSpecialValue
 =
 this
 .
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 ;
@@ -2116,7 +2135,8 @@ hsla
 return
 this
 .
-_hsl
+#
+hsl
 (
 )
 ;
@@ -2131,7 +2151,8 @@ invalidOrSpecialValue
 =
 this
 .
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 ;
@@ -2202,7 +2223,8 @@ a
 return
 this
 .
-_hsl
+#
+hsl
 (
 a
 )
@@ -2211,7 +2233,8 @@ a
 return
 this
 .
-_hsl
+#
+hsl
 (
 1
 )
@@ -2227,7 +2250,8 @@ invalidOrSpecialValue
 =
 this
 .
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 ;
@@ -2298,7 +2322,8 @@ a
 return
 this
 .
-_hwb
+#
+hwb
 (
 a
 )
@@ -2307,7 +2332,8 @@ a
 return
 this
 .
-_hwb
+#
+hwb
 (
 )
 ;
@@ -2456,7 +2482,8 @@ special
 .
 *
 /
-_getInvalidOrSpecialValue
+#
+getInvalidOrSpecialValue
 (
 )
 {
@@ -2569,7 +2596,8 @@ color
 ;
 this
 .
-_setColorUnitUppercase
+#
+setColorUnitUppercase
 (
 color
 )
@@ -2890,7 +2918,8 @@ if
 (
 this
 .
-_colorUnitUppercase
+#
+colorUnitUppercase
 &
 &
 this
@@ -3054,7 +3083,8 @@ toFixed
 }
 ;
 }
-_hsl
+#
+hsl
 (
 maybeAlpha
 )
@@ -3190,7 +3220,8 @@ l
 "
 ;
 }
-_hwb
+#
+hwb
 (
 maybeAlpha
 )
