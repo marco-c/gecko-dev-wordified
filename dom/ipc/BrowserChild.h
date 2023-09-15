@@ -4455,11 +4455,6 @@ mSkipKeyPress
 1
 ;
 bool
-mDidSetEffectsInfo
-:
-1
-;
-bool
 mCoalesceMouseMoveEvents
 :
 1
