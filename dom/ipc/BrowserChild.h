@@ -2546,11 +2546,13 @@ visible
 )
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateVisibility
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 MakeVisible
 (
