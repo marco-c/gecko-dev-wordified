@@ -1181,12 +1181,6 @@ octet
 >
 authenticatorData
 ;
-/
-/
-Bug
-1816520
-/
-/
 readonly
 attribute
 Array
@@ -1194,8 +1188,7 @@ Array
 octet
 >
 publicKey
-/
-/
+;
 readonly
 attribute
 COSEAlgorithmIdentifier
