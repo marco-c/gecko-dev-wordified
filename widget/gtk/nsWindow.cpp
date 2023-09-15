@@ -56711,6 +56711,9 @@ mIsPIPWindow
 |
 |
 mIsWaylandPanelWindow
+|
+|
+gKioskMode
 )
 {
 return
