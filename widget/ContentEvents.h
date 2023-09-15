@@ -364,6 +364,12 @@ aMessage
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetGUIEvent
@@ -372,6 +378,7 @@ aIsTrusted
 aMessage
 aWidget
 eScrollPortEventClass
+aTime
 )
 mOrient
 (
@@ -428,6 +435,7 @@ InternalScrollPortEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result
@@ -672,6 +680,12 @@ aMessage
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetGUIEvent
@@ -680,6 +694,7 @@ aIsTrusted
 aMessage
 aWidget
 eScrollAreaEventClass
+aTime
 )
 {
 }
@@ -732,6 +747,7 @@ InternalScrollAreaEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result
@@ -1003,6 +1019,12 @@ bool
 aIsTrusted
 EventMessage
 aMessage
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetEvent
@@ -1010,6 +1032,7 @@ WidgetEvent
 aIsTrusted
 aMessage
 eFormEventClass
+aTime
 )
 mOriginator
 (
@@ -1054,6 +1077,7 @@ InternalFormEvent
 (
 false
 mMessage
+this
 )
 ;
 result
@@ -1303,6 +1327,12 @@ bool
 aIsTrusted
 EventMessage
 aMessage
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetEvent
@@ -1310,6 +1340,7 @@ WidgetEvent
 aIsTrusted
 aMessage
 eClipboardEventClass
+aTime
 )
 {
 }
@@ -1350,6 +1381,7 @@ InternalClipboardEvent
 (
 false
 mMessage
+this
 )
 ;
 result
@@ -1597,6 +1629,12 @@ bool
 aIsTrusted
 EventMessage
 aMessage
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 InternalUIEvent
@@ -1604,6 +1642,7 @@ InternalUIEvent
 aIsTrusted
 aMessage
 eFocusEventClass
+aTime
 )
 mFromRaise
 (
@@ -1652,6 +1691,7 @@ InternalFocusEvent
 (
 false
 mMessage
+this
 )
 ;
 result
@@ -1902,6 +1942,12 @@ bool
 aIsTrusted
 EventMessage
 aMessage
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetEvent
@@ -1909,6 +1955,7 @@ WidgetEvent
 aIsTrusted
 aMessage
 eTransitionEventClass
+aTime
 )
 mElapsedTime
 (
@@ -2001,6 +2048,7 @@ InternalTransitionEvent
 (
 false
 mMessage
+this
 )
 ;
 result
@@ -2260,6 +2308,12 @@ bool
 aIsTrusted
 EventMessage
 aMessage
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetEvent
@@ -2267,6 +2321,7 @@ WidgetEvent
 aIsTrusted
 aMessage
 eAnimationEventClass
+aTime
 )
 mElapsedTime
 (
@@ -2359,6 +2414,7 @@ InternalAnimationEvent
 (
 false
 mMessage
+this
 )
 ;
 result
@@ -2618,6 +2674,12 @@ bool
 aIsTrusted
 EventMessage
 aMessage
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 InternalUIEvent
@@ -2625,6 +2687,7 @@ InternalUIEvent
 aIsTrusted
 aMessage
 eSMILTimeEventClass
+aTime
 )
 {
 }
@@ -2665,6 +2728,7 @@ InternalSMILTimeEvent
 (
 false
 mMessage
+this
 )
 ;
 result

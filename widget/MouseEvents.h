@@ -814,6 +814,12 @@ nsIWidget
 aWidget
 EventClassID
 aEventClassID
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetInputEvent
@@ -822,6 +828,7 @@ aIsTrusted
 aMessage
 aWidget
 aEventClassID
+aTime
 )
 mPressure
 (
@@ -1464,6 +1471,12 @@ EventClassID
 aEventClassID
 Reason
 aReason
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetMouseEventBase
@@ -1472,6 +1485,7 @@ aIsTrusted
 aMessage
 aWidget
 aEventClassID
+aTime
 )
 mReason
 (
@@ -1539,6 +1553,12 @@ ContextMenuTrigger
 aContextMenuTrigger
 =
 eNormal
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetMouseEventBase
@@ -1547,6 +1567,7 @@ aIsTrusted
 aMessage
 aWidget
 eMouseEventClass
+aTime
 )
 mReason
 (
@@ -1669,6 +1690,7 @@ mMessage
 nullptr
 mReason
 mContextMenuTrigger
+this
 )
 ;
 result
@@ -2357,6 +2379,12 @@ aMessage
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetMouseEvent
@@ -2366,6 +2394,7 @@ aMessage
 aWidget
 eDragEventClass
 eReal
+aTime
 )
 mUserCancelled
 (
@@ -2426,6 +2455,7 @@ WidgetDragEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result
@@ -2873,6 +2903,12 @@ aMessage
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetMouseEventBase
@@ -2881,6 +2917,7 @@ aIsTrusted
 aMessage
 aWidget
 eMouseScrollEventClass
+aTime
 )
 mDelta
 (
@@ -2941,6 +2978,7 @@ WidgetMouseScrollEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result
@@ -3421,6 +3459,12 @@ aMessage
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetMouseEventBase
@@ -3429,6 +3473,7 @@ aIsTrusted
 aMessage
 aWidget
 eWheelEventClass
+aTime
 )
 mDeltaX
 (
@@ -3592,6 +3637,7 @@ WidgetWheelEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result
@@ -5041,6 +5087,12 @@ aMsg
 nsIWidget
 *
 w
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetMouseEvent
@@ -5050,6 +5102,7 @@ aMsg
 w
 ePointerEventClass
 eReal
+aTime
 )
 mWidth
 (
@@ -5153,6 +5206,7 @@ WidgetPointerEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result

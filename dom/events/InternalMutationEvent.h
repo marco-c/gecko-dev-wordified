@@ -179,6 +179,12 @@ bool
 aIsTrusted
 EventMessage
 aMessage
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetEvent
@@ -186,6 +192,7 @@ WidgetEvent
 aIsTrusted
 aMessage
 eMutationEventClass
+aTime
 )
 mAttrChange
 (
@@ -236,6 +243,7 @@ InternalMutationEvent
 (
 false
 mMessage
+this
 )
 ;
 result

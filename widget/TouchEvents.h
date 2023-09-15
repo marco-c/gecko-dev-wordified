@@ -417,6 +417,12 @@ aMessage
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetGUIEvent
@@ -425,6 +431,7 @@ aIsTrusted
 aMessage
 aWidget
 eGestureNotifyEventClass
+aTime
 )
 mPanDirection
 (
@@ -550,6 +557,7 @@ WidgetGestureNotifyEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result
@@ -818,6 +826,12 @@ aMessage
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetMouseEventBase
@@ -826,6 +840,7 @@ aIsTrusted
 aMessage
 aWidget
 eSimpleGestureEventClass
+aTime
 )
 mAllowedDirections
 (
@@ -943,6 +958,7 @@ WidgetSimpleGestureEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result
@@ -1474,6 +1490,12 @@ aMessage
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetInputEvent
@@ -1482,6 +1504,7 @@ aIsTrusted
 aMessage
 aWidget
 eTouchEventClass
+aTime
 )
 {
 MOZ_COUNT_CTOR
@@ -1551,6 +1574,7 @@ WidgetTouchEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result

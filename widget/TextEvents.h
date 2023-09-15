@@ -1865,6 +1865,12 @@ EventClassID
 aEventClassID
 =
 eKeyboardEventClass
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetInputEvent
@@ -1873,6 +1879,7 @@ aIsTrusted
 aMessage
 aWidget
 aEventClassID
+aTime
 )
 mNativeKeyEvent
 (
@@ -2809,6 +2816,8 @@ WidgetKeyboardEvent
 false
 mMessage
 nullptr
+eKeyboardEventClass
+this
 )
 ;
 result
@@ -6608,6 +6617,12 @@ aMessage
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetGUIEvent
@@ -6616,6 +6631,7 @@ aIsTrusted
 aMessage
 aWidget
 eCompositionEventClass
+aTime
 )
 mNativeIMEContext
 (
@@ -6676,6 +6692,7 @@ WidgetCompositionEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result
@@ -10328,6 +10345,12 @@ nsIWidget
 aWidget
 =
 nullptr
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 InternalUIEvent
@@ -10336,6 +10359,7 @@ aIsTrusted
 aMessage
 aWidget
 eEditorInputEventClass
+aTime
 )
 mData
 (
@@ -10401,6 +10425,7 @@ InternalEditorInputEvent
 false
 mMessage
 nullptr
+this
 )
 ;
 result

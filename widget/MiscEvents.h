@@ -857,6 +857,12 @@ aCommand
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetGUIEvent
@@ -865,6 +871,7 @@ aIsTrusted
 eUnidentifiedEvent
 aWidget
 eCommandEventClass
+aTime
 )
 mCommand
 (
@@ -920,6 +927,12 @@ aCommand
 nsIWidget
 *
 aWidget
+const
+WidgetEventTime
+*
+aTime
+=
+nullptr
 )
 :
 WidgetCommandEvent
@@ -931,6 +944,7 @@ nsGkAtoms
 onAppCommand
 aCommand
 aWidget
+aTime
 )
 {
 }
@@ -959,6 +973,7 @@ WidgetCommandEvent
 WidgetCommandEvent
 (
 false
+nullptr
 nullptr
 nullptr
 nullptr
@@ -1015,6 +1030,7 @@ false
 mSpecifiedEventType
 mCommand
 nullptr
+this
 )
 ;
 result
