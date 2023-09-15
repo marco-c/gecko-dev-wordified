@@ -477,7 +477,7 @@ prop
 3
 offset
 :
-3
+2
 }
 }
 expectedPattern
