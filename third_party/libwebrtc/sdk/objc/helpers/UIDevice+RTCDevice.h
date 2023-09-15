@@ -196,6 +196,13 @@ RTCDevice
 )
 +
 (
+NSString
+*
+)
+machineName
+;
++
+(
 RTCDeviceType
 )
 deviceType
