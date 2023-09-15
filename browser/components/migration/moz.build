@@ -300,7 +300,7 @@ nsEdgeMigrationUtils
 h
 "
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -404,7 +404,7 @@ sys
 mjs
 "
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
