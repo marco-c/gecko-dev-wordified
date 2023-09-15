@@ -9198,7 +9198,7 @@ rate_limit
 =
 Some
 (
-glean_core
+crate
 :
 :
 PingRateLimit

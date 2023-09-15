@@ -172,9 +172,17 @@ interaction
 =
 2
     
+stored_content
+=
+3
+    
 web_activity
 =
 3
+#
+Old
+deprecated
+name
     
 highly_sensitive
 =
