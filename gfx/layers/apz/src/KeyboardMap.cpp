@@ -778,6 +778,7 @@ in
 order
 for
 (
+const
 auto
 &
 key
@@ -796,7 +797,16 @@ mShift
 =
 key
 .
-mIgnoreShift
+mShiftState
+=
+=
+ShortcutKeyCandidate
+:
+:
+ShiftState
+:
+:
+Ignorable
 ;
 auto
 match

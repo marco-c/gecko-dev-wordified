@@ -126,6 +126,13 @@ h
 #
 include
 "
+ErrorList
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -2046,7 +2053,7 @@ disabled
 keys
 .
 return
-NS_OK
+NS_SUCCESS_DOM_NO_OPERATION
 ;
 }
 aEvent
