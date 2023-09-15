@@ -274,7 +274,7 @@ false
 )
 ;
 await
-toggleAlwaysTranslateLanguage
+clickAlwaysTranslateLanguage
 (
 )
 ;

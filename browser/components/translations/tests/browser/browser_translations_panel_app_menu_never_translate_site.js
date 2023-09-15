@@ -246,7 +246,7 @@ false
 )
 ;
 await
-toggleNeverTranslateSite
+clickNeverTranslateSite
 (
 )
 ;
@@ -306,7 +306,7 @@ true
 )
 ;
 await
-toggleNeverTranslateSite
+clickNeverTranslateSite
 (
 )
 ;
@@ -618,7 +618,7 @@ false
 )
 ;
 await
-toggleNeverTranslateSite
+clickNeverTranslateSite
 (
 )
 ;
@@ -768,7 +768,7 @@ true
 )
 ;
 await
-toggleNeverTranslateSite
+clickNeverTranslateSite
 (
 )
 ;

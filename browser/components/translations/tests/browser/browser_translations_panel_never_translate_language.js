@@ -277,7 +277,7 @@ false
 )
 ;
 await
-toggleNeverTranslateLanguage
+clickNeverTranslateLanguage
 (
 )
 ;
@@ -1018,7 +1018,7 @@ false
 )
 ;
 await
-toggleNeverTranslateLanguage
+clickNeverTranslateLanguage
 (
 )
 ;
@@ -1429,7 +1429,7 @@ false
 )
 ;
 await
-toggleAlwaysTranslateLanguage
+clickAlwaysTranslateLanguage
 (
 )
 ;
@@ -1665,7 +1665,7 @@ false
 )
 ;
 await
-toggleNeverTranslateLanguage
+clickNeverTranslateLanguage
 (
 )
 ;

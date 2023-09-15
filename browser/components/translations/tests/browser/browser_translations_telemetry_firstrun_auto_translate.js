@@ -191,7 +191,7 @@ openTranslationsSettingsMenuViaTranslationsButton
 )
 ;
 await
-toggleAlwaysTranslateLanguage
+clickAlwaysTranslateLanguage
 (
 )
 ;
