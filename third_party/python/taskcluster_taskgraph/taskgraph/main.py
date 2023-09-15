@@ -91,6 +91,10 @@ pathlib
 import
 Path
 from
+textwrap
+import
+dedent
+from
 typing
 import
 Any
@@ -5730,13 +5734,30 @@ root
 name
 }
     
+try
+:
+        
 repo_url
 =
 repo
 .
 get_url
 (
+remote
+=
+repo
+.
+remote_name
 )
+    
+except
+RuntimeError
+:
+        
+repo_url
+=
+"
+"
     
 if
 repo
@@ -5803,21 +5824,24 @@ hgmo
 else
 :
         
-raise
-RuntimeError
+print
 (
             
+dedent
+(
+                
 "
+"
+"
+\
+            
 Repository
 not
 supported
 !
-Taskgraph
-currently
-only
-"
             
-"
+Taskgraph
+only
 supports
 repositories
 hosted
@@ -5830,9 +5854,37 @@ mozilla
 .
 org
 .
+            
+Ensure
+you
+have
+a
+remote
+that
+points
+to
+one
+of
+these
+locations
+.
+            
 "
+"
+"
+            
+)
+            
+file
+=
+sys
+.
+stderr
         
 )
+        
+return
+1
     
 #
 Generate

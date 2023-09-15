@@ -2713,11 +2713,13 @@ rev
 -
 parse
 "
+                
 "
 -
 -
 verify
 "
+                
 "
 -
 -
@@ -2725,6 +2727,7 @@ abbrev
 -
 ref
 "
+                
 "
 -
 -
@@ -2734,11 +2737,18 @@ full
 -
 name
 "
+                
 "
 {
 u
 }
 "
+                
+stderr
+=
+subprocess
+.
+PIPE
             
 )
 .
@@ -2797,6 +2807,13 @@ returncode
 =
 128
 :
+                
+print
+(
+e
+.
+stderr
+)
                 
 raise
         
