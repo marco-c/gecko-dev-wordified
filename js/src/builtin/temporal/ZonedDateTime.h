@@ -116,6 +116,15 @@ define
 builtin_temporal_ZonedDateTime_h
 #
 include
+"
+mozilla
+/
+Assertions
+.
+h
+"
+#
+include
 <
 stdint
 .

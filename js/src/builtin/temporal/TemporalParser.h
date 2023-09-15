@@ -116,6 +116,15 @@ define
 builtin_temporal_TemporalParser_h
 #
 include
+"
+mozilla
+/
+Assertions
+.
+h
+"
+#
+include
 <
 cstdlib
 >

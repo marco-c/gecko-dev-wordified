@@ -435,10 +435,6 @@ isoDay
 }
 enum
 class
-CalendarField
-;
-enum
-class
 TemporalOverflow
 ;
 enum
