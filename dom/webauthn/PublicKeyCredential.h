@@ -249,7 +249,7 @@ GetRawId
 (
 JSContext
 *
-aCx
+cx
 JS
 :
 :
@@ -258,10 +258,7 @@ MutableHandle
 JSObject
 *
 >
-aValue
-ErrorResult
-&
-aRv
+aRetVal
 )
 ;
 already_AddRefed
