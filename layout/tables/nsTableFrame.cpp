@@ -4296,11 +4296,20 @@ IsSynthetic
 )
 )
 ;
+DestroyContext
+context
+(
+PresShell
+(
+)
+)
+;
 lastColGroup
 -
 >
 RemoveChild
 (
+context
 *
 lastCol
 false
@@ -4333,6 +4342,7 @@ mColGroups
 .
 DestroyFrame
 (
+context
 (
 nsIFrame
 *
@@ -5777,6 +5787,14 @@ numColsRemoved
 =
 0
 ;
+DestroyContext
+context
+(
+PresShell
+(
+)
+)
+;
 for
 (
 int32_t
@@ -5821,7 +5839,7 @@ GetColType
 )
 )
 {
-nsTableColGroupFrame
+auto
 *
 cgFrame
 =
@@ -5852,6 +5870,7 @@ cgFrame
 >
 RemoveChild
 (
+context
 *
 colFrame
 false
@@ -17481,6 +17500,9 @@ nsTableFrame
 :
 DoRemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -17548,6 +17570,7 @@ mColGroups
 .
 DestroyFrame
 (
+aContext
 aOldFrame
 )
 ;
@@ -17957,6 +17980,7 @@ mFrames
 .
 DestroyFrame
 (
+aContext
 aOldFrame
 )
 ;
@@ -18048,6 +18072,9 @@ nsTableFrame
 :
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -18171,6 +18198,7 @@ parent
 >
 DoRemoveFrame
 (
+aContext
 aListID
 aOldFrame
 )

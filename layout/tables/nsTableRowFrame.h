@@ -308,11 +308,11 @@ override
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 override
 ;
@@ -418,7 +418,6 @@ GetTableFrame
 )
 ;
 }
-virtual
 nsMargin
 GetUsedMargin
 (
@@ -426,7 +425,6 @@ GetUsedMargin
 const
 override
 ;
-virtual
 nsMargin
 GetUsedBorder
 (
@@ -434,7 +432,6 @@ GetUsedBorder
 const
 override
 ;
-virtual
 nsMargin
 GetUsedPadding
 (
@@ -442,7 +439,6 @@ GetUsedPadding
 const
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -620,7 +616,6 @@ nsTableFrame
 ShrinkWrapChildren
 *
 /
-virtual
 void
 Reflow
 (
@@ -648,7 +643,6 @@ DidResize
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -1417,7 +1411,6 @@ BCPixelSize
 aPixelValue
 )
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -1460,7 +1453,6 @@ eTablePart
 )
 ;
 }
-virtual
 void
 InvalidateFrame
 (
@@ -1475,7 +1467,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameWithRect
 (
@@ -1494,7 +1485,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameForRemoval
 (
@@ -1509,7 +1499,6 @@ InvalidateFrameSubtree
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :

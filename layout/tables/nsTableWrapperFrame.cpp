@@ -1235,6 +1235,9 @@ nsTableWrapperFrame
 :
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -1306,6 +1309,7 @@ mCaptionFrames
 .
 DestroyFrame
 (
+aContext
 aOldFrame
 )
 ;

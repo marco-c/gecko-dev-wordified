@@ -1950,7 +1950,19 @@ SetDirtyNextLine
 }
 }
 else
+if
+(
+rtcCount
+)
 {
+DestroyContext
+context
+(
+PresShell
+(
+)
+)
+;
 /
 /
 If
@@ -2046,6 +2058,7 @@ GetParent
 >
 DeleteNextInFlowChild
 (
+context
 nextRTC
 true
 )

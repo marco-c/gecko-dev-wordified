@@ -282,7 +282,6 @@ aContext
 /
 nsIFrame
 overrides
-virtual
 void
 Init
 (
@@ -337,7 +336,6 @@ nsIFrame
 DidSetComputedStyle
 *
 /
-virtual
 void
 DidSetComputedStyle
 (
@@ -347,7 +345,6 @@ aOldComputedStyle
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -367,7 +364,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -384,7 +380,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -1598,7 +1593,6 @@ return
 mFinalISize
 ;
 }
-virtual
 bool
 IsFrameOfType
 (
@@ -1641,7 +1635,6 @@ eTablePart
 )
 ;
 }
-virtual
 void
 InvalidateFrame
 (
@@ -1656,7 +1649,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameWithRect
 (
@@ -1675,7 +1667,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameForRemoval
 (

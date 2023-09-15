@@ -271,7 +271,6 @@ DestroyContext
 )
 override
 ;
-virtual
 const
 nsFrameList
 &
@@ -283,7 +282,6 @@ aListID
 const
 override
 ;
-virtual
 void
 GetChildLists
 (
@@ -343,19 +341,17 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 override
 ;
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame
@@ -381,7 +377,6 @@ GetContentInsertionFrame
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -396,7 +391,6 @@ override
 ;
 #
 endif
-virtual
 void
 BuildDisplayList
 (
@@ -455,7 +449,6 @@ aExportContext
 const
 override
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -465,7 +458,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -606,7 +598,6 @@ nsIFrame
 Reflow
 *
 /
-virtual
 void
 Reflow
 (
@@ -629,7 +620,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -642,7 +632,6 @@ override
 ;
 #
 endif
-virtual
 ComputedStyle
 *
 GetParentComputedStyle

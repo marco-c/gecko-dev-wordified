@@ -1780,6 +1780,9 @@ nsTableRowFrame
 :
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -1815,7 +1818,7 @@ aOldFrame
 )
 )
 ;
-nsTableCellFrame
+auto
 *
 cellFrame
 =
@@ -1868,6 +1871,7 @@ mFrames
 .
 DestroyFrame
 (
+aContext
 aOldFrame
 )
 ;

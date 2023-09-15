@@ -7541,6 +7541,17 @@ row
 return
 ;
 }
+DestroyContext
+context
+(
+aPresContext
+-
+>
+PresShell
+(
+)
+)
+;
 /
 /
 Destroy
@@ -7578,6 +7589,7 @@ overflows
 >
 DestroyFrame
 (
+context
 aRow
 )
 ;
@@ -11036,6 +11048,9 @@ nsTableRowGroupFrame
 :
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -11159,6 +11174,7 @@ mFrames
 .
 DestroyFrame
 (
+aContext
 aOldFrame
 )
 ;

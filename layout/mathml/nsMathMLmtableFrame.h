@@ -241,7 +241,6 @@ nsMathMLmtableWrapperFrame
 overloaded
 nsTableWrapperFrame
 methods
-virtual
 void
 Reflow
 (
@@ -261,7 +260,6 @@ aStatus
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -275,7 +273,6 @@ aModType
 )
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -545,10 +542,12 @@ RestyleTable
 )
 ;
 }
-virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -562,6 +561,7 @@ nsTableFrame
 :
 RemoveFrame
 (
+aContext
 aListID
 aOldFrame
 )
@@ -571,7 +571,6 @@ RestyleTable
 )
 ;
 }
-virtual
 bool
 IsFrameOfType
 (
@@ -1088,10 +1087,12 @@ RestyleTable
 )
 ;
 }
-virtual
 void
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -1105,6 +1106,7 @@ nsTableRowFrame
 :
 RemoveFrame
 (
+aContext
 aListID
 aOldFrame
 )
@@ -1114,7 +1116,6 @@ RestyleTable
 )
 ;
 }
-virtual
 bool
 IsFrameOfType
 (
@@ -1292,7 +1293,6 @@ aTableFrame
 overloaded
 nsTableCellFrame
 methods
-virtual
 void
 Init
 (
@@ -1308,7 +1308,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -1322,7 +1321,6 @@ aModType
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1333,7 +1331,6 @@ GetVerticalAlign
 const
 override
 ;
-virtual
 nsresult
 ProcessBorders
 (
@@ -1356,7 +1353,6 @@ aLists
 )
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -1384,7 +1380,6 @@ eMathML
 )
 ;
 }
-virtual
 LogicalMargin
 GetBorderWidth
 (
@@ -1394,7 +1389,6 @@ aWM
 const
 override
 ;
-virtual
 nsMargin
 GetBorderOverflow
 (
@@ -1516,7 +1510,6 @@ return
 NS_OK
 ;
 }
-virtual
 void
 Reflow
 (
@@ -1536,7 +1529,6 @@ aStatus
 )
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -1562,7 +1554,6 @@ eMathML
 )
 ;
 }
-virtual
 const
 nsStyleText
 *
@@ -1571,7 +1562,6 @@ StyleTextForLineLayout
 )
 override
 ;
-virtual
 void
 DidSetComputedStyle
 (

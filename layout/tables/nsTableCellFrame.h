@@ -550,11 +550,11 @@ override
 void
 RemoveFrame
 (
+DestroyContext
+&
 ChildListID
-aListID
 nsIFrame
 *
-aOldFrame
 )
 override
 ;

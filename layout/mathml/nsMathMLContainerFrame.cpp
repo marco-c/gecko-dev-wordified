@@ -5178,6 +5178,9 @@ nsMathMLContainerFrame
 :
 RemoveFrame
 (
+DestroyContext
+&
+aContext
 ChildListID
 aListID
 nsIFrame
@@ -5200,6 +5203,7 @@ mFrames
 .
 DestroyFrame
 (
+aContext
 aOldFrame
 )
 ;

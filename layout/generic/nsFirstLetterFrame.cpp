@@ -2265,6 +2265,8 @@ false
 )
 ;
 }
+if
+(
 nsIFrame
 *
 kidNextInFlow
@@ -2275,12 +2277,16 @@ kid
 GetNextInFlow
 (
 )
-;
-if
-(
-kidNextInFlow
 )
 {
+DestroyContext
+context
+(
+PresShell
+(
+)
+)
+;
 /
 /
 Remove
@@ -2303,6 +2309,7 @@ GetParent
 >
 DeleteNextInFlowChild
 (
+context
 kidNextInFlow
 true
 )
