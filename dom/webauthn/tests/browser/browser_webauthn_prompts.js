@@ -162,6 +162,10 @@ test_setup_softtoken
 (
 )
 {
+add_virtual_authenticator
+(
+)
+;
 return
 SpecialPowers
 .
