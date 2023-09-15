@@ -6077,9 +6077,9 @@ self
 .
 process
 =
-mozprocess
+subprocess
 .
-ProcessHandler
+Popen
 (
 [
 ssltunnel
@@ -6090,14 +6090,6 @@ configFile
 env
 =
 env
-)
-        
-self
-.
-process
-.
-run
-(
 )
         
 self
