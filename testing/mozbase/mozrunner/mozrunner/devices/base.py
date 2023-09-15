@@ -1758,10 +1758,8 @@ DEFAULTSECT
 )
             
 for
-(
 key
 value
-)
 in
 self
 .
@@ -1844,10 +1842,8 @@ section
 )
             
 for
-(
 key
 value
-)
 in
 self
 .

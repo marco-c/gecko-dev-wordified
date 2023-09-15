@@ -261,7 +261,6 @@ tuple
 msg
 +
 =
-u
 "
 caused
 by
@@ -297,7 +296,6 @@ else
 msg
 +
 =
-u
 "
 caused
 by
@@ -320,7 +318,6 @@ stacktrace
             
 st
 =
-u
 "
 "
 .
@@ -356,7 +353,6 @@ splitlines
 msg
 +
 =
-u
 "
 \
 nstacktrace
@@ -379,12 +375,10 @@ tb
 msg
 +
 =
-u
 "
 :
 "
 +
-u
 "
 "
 .

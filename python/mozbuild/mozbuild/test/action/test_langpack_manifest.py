@@ -1087,11 +1087,9 @@ self
 :
         
 for
-(
 app_version
 buildid
 expected_version
-)
 in
 [
             

@@ -801,7 +801,6 @@ write
         
 (
             
-u
 "
 "
 "
@@ -909,7 +908,6 @@ fp
 .
 write
 (
-u
 "
 !
 insertmacro
@@ -1230,7 +1228,6 @@ write
         
 (
             
-u
 "
 "
 "

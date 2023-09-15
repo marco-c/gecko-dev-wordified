@@ -489,10 +489,8 @@ n
 )
     
 for
-(
 p
 position
-)
 in
 ps
 :

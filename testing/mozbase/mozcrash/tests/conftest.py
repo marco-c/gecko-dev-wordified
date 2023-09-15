@@ -282,7 +282,6 @@ extra
 write_text
 (
             
-u
 "
 "
 "
@@ -700,7 +699,6 @@ self
             
 return
 (
-u
 "
 Stackwalk
 command

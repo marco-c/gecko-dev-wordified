@@ -2021,12 +2021,10 @@ key
 value
         
 for
-(
 env_count
 (
 env_key
 env_val
-)
 )
 in
 enumerate

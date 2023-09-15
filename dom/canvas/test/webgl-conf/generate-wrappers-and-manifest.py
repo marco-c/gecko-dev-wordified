@@ -3166,12 +3166,10 @@ ret
 }
     
 for
-(
 sectionName
 (
 sectionLineNum
 sectionMap
-)
 )
 in
 iniMap
@@ -3248,12 +3246,10 @@ sectionName
 )
         
 for
-(
 key
 (
 lineNum
 val
-)
 )
 in
 sectionMap

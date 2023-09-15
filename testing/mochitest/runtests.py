@@ -10200,10 +10200,8 @@ by
 schemes
         
 for
-(
 scheme
 grouped_tests
-)
 in
 self
 .
@@ -25585,10 +25583,8 @@ stepResults
 }
         
 for
-(
 descr
 step
-)
 in
 steps
 :
@@ -25631,10 +25627,8 @@ PASSED
 "
         
 for
-(
 descr
 step
-)
 in
 steps
 :
@@ -28916,10 +28910,8 @@ to
 getTestsByScheme
             
 for
-(
 scheme
 tests
-)
 in
 self
 .

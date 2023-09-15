@@ -405,10 +405,8 @@ key_indent
 0
     
 for
-(
 linenum
 line
-)
 in
 enumerate
 (

@@ -82,7 +82,6 @@ mkdtemp
 (
 suffix
 =
-u
 "
 tmp
 "
@@ -99,7 +98,6 @@ path
 join
 (
 tmpdir
-u
 "
 dir
 "
@@ -116,7 +114,6 @@ path
 join
 (
 tmpdir
-u
 "
 file
 "
@@ -142,7 +139,6 @@ self
 .
 assertEqual
 (
-u
 "
 {
 }

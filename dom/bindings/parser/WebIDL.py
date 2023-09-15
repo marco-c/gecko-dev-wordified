@@ -20622,10 +20622,8 @@ type
 name
         
 for
-(
 i
 type
-)
 in
 enumerate
 (
@@ -20970,10 +20968,8 @@ i
 1
         
 for
-(
 i
 t
-)
 in
 enumerate
 (
@@ -38288,10 +38284,8 @@ SetterThrows
 ]
         
 for
-(
 key
 value
-)
 in
 self
 .
@@ -39388,10 +39382,8 @@ identifier
 )
         
 for
-(
 returnType
 arguments
-)
 in
 self
 .
@@ -41408,10 +41400,8 @@ identifier
 )
         
 for
-(
 returnType
 arguments
-)
 in
 self
 .
@@ -42370,10 +42360,8 @@ overload
 arguments
             
 for
-(
 idx
 argument
-)
 in
 enumerate
 (
@@ -43263,12 +43251,10 @@ signatures
 :
             
 for
-(
 firstSigIndex
 (
 firstRetval
 firstArgs
-)
 )
 in
 enumerate
@@ -43283,10 +43269,8 @@ signatures
 :
                 
 for
-(
 secondRetval
 secondArgs
-)
 in
 signatures
 [

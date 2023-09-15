@@ -1880,10 +1880,8 @@ symDirsToInspect
 :
                 
 for
-(
 mtime
 symbolDirPath
-)
 in
 symDirsToInspect
 [
@@ -2004,10 +2002,8 @@ pdbName
 )
             
 for
-(
 mtime
 symbolDirPath
-)
 in
 symDirsToInspect
 [
@@ -2166,10 +2162,8 @@ fetchedCount
 )
             
 for
-(
 pdbName
 pdbId
-)
 in
 fetchedSymbols
 :
@@ -2493,10 +2487,8 @@ recently
 used
         
 for
-(
 pdbName
 pdbId
-)
 in
 reversed
 (

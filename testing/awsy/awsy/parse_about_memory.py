@@ -1234,10 +1234,8 @@ item
 )
     
 for
-(
 k
 v
-)
 in
 sorted_totals
 :
@@ -1279,10 +1277,8 @@ bytes_per_mebibyte
 0
     
 for
-(
 k
 v
-)
 in
 sorted_totals
 :

@@ -107,7 +107,6 @@ tmpdir
 .
 mkdir
 (
-u
 "
 "
 )

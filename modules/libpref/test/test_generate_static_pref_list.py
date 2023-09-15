@@ -2622,10 +2622,8 @@ input
 "
         
 for
-(
 input_string
 expected
-)
 in
 bad_inputs
 :

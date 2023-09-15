@@ -330,11 +330,17 @@ startswith
 continue
         
 (
+            
 class_name
+            
 obj
+            
 ignore
+            
 operation
+            
 count
+        
 )
 =
 log_line

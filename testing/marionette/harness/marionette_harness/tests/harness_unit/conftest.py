@@ -211,7 +211,6 @@ None
 binary
 "
 :
-u
 "
 /
 path
@@ -450,7 +449,6 @@ tests
 "
 :
 [
-u
 "
 /
 path

@@ -3259,10 +3259,8 @@ suffix_map
 )
         
 for
-(
 var
 flag_keys
-)
 in
 variables
 :

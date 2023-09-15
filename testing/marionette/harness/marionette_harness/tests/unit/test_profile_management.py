@@ -1303,7 +1303,6 @@ instance
 .
 switch_profile
 (
-u
 "
 "
 )
@@ -1332,7 +1331,6 @@ self
 .
 assertIn
 (
-u
 "
 "
 self
@@ -1391,7 +1389,6 @@ instance
 .
 switch_profile
 (
-u
 "
 \
 u0024
@@ -1428,7 +1425,6 @@ self
 .
 assertIn
 (
-u
 "
 \
 u0024

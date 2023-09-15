@@ -342,10 +342,8 @@ readlines
 :
             
 for
-(
 id
 value
-)
 in
 subst
 :

@@ -7033,10 +7033,8 @@ handle_now
 )
         
 for
-(
 name
 definition
-)
 in
 histograms
 .
@@ -7420,10 +7418,8 @@ handle_later
 )
     
 for
-(
 name
 definition
-)
 in
 all_histograms
 .

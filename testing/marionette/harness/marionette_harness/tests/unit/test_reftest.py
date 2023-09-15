@@ -406,14 +406,12 @@ expected
 =
 {
             
-u
 "
 value
 "
 :
 {
                 
-u
 "
 extra
 "
@@ -421,12 +419,10 @@ extra
 {
 }
                 
-u
 "
 message
 "
 :
-u
 "
 Testing
 about
@@ -441,19 +437,16 @@ blank
 n
 "
                 
-u
 "
 stack
 "
 :
 None
                 
-u
 "
 status
 "
 :
-u
 "
 PASS
 "
@@ -612,19 +605,16 @@ self
 .
 assertEqual
 (
-u
 "
 PASS
 "
 rv
 [
-u
 "
 value
 "
 ]
 [
-u
 "
 status
 "
@@ -775,19 +765,16 @@ self
 .
 assertEqual
 (
-u
 "
 PASS
 "
 rv
 [
-u
 "
 value
 "
 ]
 [
-u
 "
 status
 "
@@ -869,19 +856,16 @@ self
 .
 assertEqual
 (
-u
 "
 FAIL
 "
 rv
 [
-u
 "
 value
 "
 ]
 [
-u
 "
 status
 "

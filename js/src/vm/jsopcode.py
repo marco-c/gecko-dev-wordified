@@ -941,10 +941,8 @@ name
 :
     
 for
-(
 n
 body
-)
 in
 list
 :

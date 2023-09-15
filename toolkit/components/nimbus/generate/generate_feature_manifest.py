@@ -669,9 +669,7 @@ manifest
 )
     
 except
-(
 IOError
-)
 as
 e
 :
@@ -715,10 +713,8 @@ entries
 ]
     
 for
-(
 feature
 featureData
-)
 in
 features
 .
@@ -1007,9 +1003,7 @@ data
 )
     
 except
-(
 IOError
-)
 as
 e
 :

@@ -319,10 +319,8 @@ len
 vsdict
 )
 for
-(
 k
 mappings
-)
 in
 sorted
 (
@@ -782,10 +780,8 @@ i
     
 )
 for
-(
 k
 mappings
-)
 in
 sorted
 (
@@ -838,10 +834,8 @@ mappings
 )
     
 for
-(
 unified
 compat
-)
 in
 sorted
 (

@@ -1016,10 +1016,8 @@ binary
 )
     
 for
-(
 key
 value
-)
 in
 sorted
 (

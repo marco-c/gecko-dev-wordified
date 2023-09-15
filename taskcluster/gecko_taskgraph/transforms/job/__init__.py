@@ -2463,10 +2463,8 @@ toolchain
 )
     
 for
-(
 kind
 task
-)
 in
 tasks
 :

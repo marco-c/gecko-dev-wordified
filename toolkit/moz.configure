@@ -13146,6 +13146,7 @@ env
 #
 widl
 return
+(
 flags
 +
 {
@@ -13185,6 +13186,7 @@ target
 .
 cpu
 ]
+)
 set_config
 (
 "

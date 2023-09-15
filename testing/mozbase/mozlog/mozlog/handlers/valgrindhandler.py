@@ -1237,7 +1237,6 @@ output_message
 Mandatory
 fields
                     
-u
 "
 action
 "
@@ -1246,7 +1245,6 @@ action
 valgrind_error
 "
                     
-u
 "
 time
 "
@@ -1258,7 +1256,6 @@ time
 "
 ]
                     
-u
 "
 thread
 "
@@ -1270,7 +1267,6 @@ thread
 "
 ]
                     
-u
 "
 pid
 "
@@ -1282,7 +1278,6 @@ pid
 "
 ]
                     
-u
 "
 source
 "
@@ -1299,7 +1294,6 @@ valgrind_error
 specific
 fields
                     
-u
 "
 primary
 "
@@ -1308,7 +1302,6 @@ self
 .
 curr_failure_msg
                     
-u
 "
 secondary
 "

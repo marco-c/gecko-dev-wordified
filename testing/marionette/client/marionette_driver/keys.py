@@ -193,7 +193,6 @@ object
     
 NULL
 =
-u
 "
 \
 ue000
@@ -201,7 +200,6 @@ ue000
     
 CANCEL
 =
-u
 "
 \
 ue001
@@ -212,7 +210,6 @@ break
     
 HELP
 =
-u
 "
 \
 ue002
@@ -220,7 +217,6 @@ ue002
     
 BACK_SPACE
 =
-u
 "
 \
 ue003
@@ -228,7 +224,6 @@ ue003
     
 TAB
 =
-u
 "
 \
 ue004
@@ -236,7 +231,6 @@ ue004
     
 CLEAR
 =
-u
 "
 \
 ue005
@@ -244,7 +238,6 @@ ue005
     
 RETURN
 =
-u
 "
 \
 ue006
@@ -252,7 +245,6 @@ ue006
     
 ENTER
 =
-u
 "
 \
 ue007
@@ -260,7 +252,6 @@ ue007
     
 SHIFT
 =
-u
 "
 \
 ue008
@@ -268,7 +259,6 @@ ue008
     
 LEFT_SHIFT
 =
-u
 "
 \
 ue008
@@ -278,7 +268,6 @@ alias
     
 CONTROL
 =
-u
 "
 \
 ue009
@@ -286,7 +275,6 @@ ue009
     
 LEFT_CONTROL
 =
-u
 "
 \
 ue009
@@ -296,7 +284,6 @@ alias
     
 ALT
 =
-u
 "
 \
 ue00a
@@ -304,7 +291,6 @@ ue00a
     
 LEFT_ALT
 =
-u
 "
 \
 ue00a
@@ -314,7 +300,6 @@ alias
     
 PAUSE
 =
-u
 "
 \
 ue00b
@@ -322,7 +307,6 @@ ue00b
     
 ESCAPE
 =
-u
 "
 \
 ue00c
@@ -330,7 +314,6 @@ ue00c
     
 SPACE
 =
-u
 "
 \
 ue00d
@@ -338,7 +321,6 @@ ue00d
     
 PAGE_UP
 =
-u
 "
 \
 ue00e
@@ -346,7 +328,6 @@ ue00e
     
 PAGE_DOWN
 =
-u
 "
 \
 ue00f
@@ -354,7 +335,6 @@ ue00f
     
 END
 =
-u
 "
 \
 ue010
@@ -362,7 +342,6 @@ ue010
     
 HOME
 =
-u
 "
 \
 ue011
@@ -370,7 +349,6 @@ ue011
     
 LEFT
 =
-u
 "
 \
 ue012
@@ -378,7 +356,6 @@ ue012
     
 ARROW_LEFT
 =
-u
 "
 \
 ue012
@@ -388,7 +365,6 @@ alias
     
 UP
 =
-u
 "
 \
 ue013
@@ -396,7 +372,6 @@ ue013
     
 ARROW_UP
 =
-u
 "
 \
 ue013
@@ -406,7 +381,6 @@ alias
     
 RIGHT
 =
-u
 "
 \
 ue014
@@ -414,7 +388,6 @@ ue014
     
 ARROW_RIGHT
 =
-u
 "
 \
 ue014
@@ -424,7 +397,6 @@ alias
     
 DOWN
 =
-u
 "
 \
 ue015
@@ -432,7 +404,6 @@ ue015
     
 ARROW_DOWN
 =
-u
 "
 \
 ue015
@@ -442,7 +413,6 @@ alias
     
 INSERT
 =
-u
 "
 \
 ue016
@@ -450,7 +420,6 @@ ue016
     
 DELETE
 =
-u
 "
 \
 ue017
@@ -458,7 +427,6 @@ ue017
     
 SEMICOLON
 =
-u
 "
 \
 ue018
@@ -466,7 +434,6 @@ ue018
     
 EQUALS
 =
-u
 "
 \
 ue019
@@ -474,7 +441,6 @@ ue019
     
 NUMPAD0
 =
-u
 "
 \
 ue01a
@@ -486,7 +452,6 @@ keys
     
 NUMPAD1
 =
-u
 "
 \
 ue01b
@@ -494,7 +459,6 @@ ue01b
     
 NUMPAD2
 =
-u
 "
 \
 ue01c
@@ -502,7 +466,6 @@ ue01c
     
 NUMPAD3
 =
-u
 "
 \
 ue01d
@@ -510,7 +473,6 @@ ue01d
     
 NUMPAD4
 =
-u
 "
 \
 ue01e
@@ -518,7 +480,6 @@ ue01e
     
 NUMPAD5
 =
-u
 "
 \
 ue01f
@@ -526,7 +487,6 @@ ue01f
     
 NUMPAD6
 =
-u
 "
 \
 ue020
@@ -534,7 +494,6 @@ ue020
     
 NUMPAD7
 =
-u
 "
 \
 ue021
@@ -542,7 +501,6 @@ ue021
     
 NUMPAD8
 =
-u
 "
 \
 ue022
@@ -550,7 +508,6 @@ ue022
     
 NUMPAD9
 =
-u
 "
 \
 ue023
@@ -558,7 +515,6 @@ ue023
     
 MULTIPLY
 =
-u
 "
 \
 ue024
@@ -566,7 +522,6 @@ ue024
     
 ADD
 =
-u
 "
 \
 ue025
@@ -574,7 +529,6 @@ ue025
     
 SEPARATOR
 =
-u
 "
 \
 ue026
@@ -582,7 +536,6 @@ ue026
     
 SUBTRACT
 =
-u
 "
 \
 ue027
@@ -590,7 +543,6 @@ ue027
     
 DECIMAL
 =
-u
 "
 \
 ue028
@@ -598,7 +550,6 @@ ue028
     
 DIVIDE
 =
-u
 "
 \
 ue029
@@ -606,7 +557,6 @@ ue029
     
 F1
 =
-u
 "
 \
 ue031
@@ -617,7 +567,6 @@ keys
     
 F2
 =
-u
 "
 \
 ue032
@@ -625,7 +574,6 @@ ue032
     
 F3
 =
-u
 "
 \
 ue033
@@ -633,7 +581,6 @@ ue033
     
 F4
 =
-u
 "
 \
 ue034
@@ -641,7 +588,6 @@ ue034
     
 F5
 =
-u
 "
 \
 ue035
@@ -649,7 +595,6 @@ ue035
     
 F6
 =
-u
 "
 \
 ue036
@@ -657,7 +602,6 @@ ue036
     
 F7
 =
-u
 "
 \
 ue037
@@ -665,7 +609,6 @@ ue037
     
 F8
 =
-u
 "
 \
 ue038
@@ -673,7 +616,6 @@ ue038
     
 F9
 =
-u
 "
 \
 ue039
@@ -681,7 +623,6 @@ ue039
     
 F10
 =
-u
 "
 \
 ue03a
@@ -689,7 +630,6 @@ ue03a
     
 F11
 =
-u
 "
 \
 ue03b
@@ -697,7 +637,6 @@ ue03b
     
 F12
 =
-u
 "
 \
 ue03c
@@ -705,7 +644,6 @@ ue03c
     
 META
 =
-u
 "
 \
 ue03d
@@ -713,7 +651,6 @@ ue03d
     
 COMMAND
 =
-u
 "
 \
 ue03d

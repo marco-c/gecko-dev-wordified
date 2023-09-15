@@ -320,7 +320,6 @@ f
 .
 write
 (
-u
 "
 FAKE_PROFILE
 "

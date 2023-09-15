@@ -4037,7 +4037,6 @@ length
         
 path
 =
-u
 "
 \
 \
@@ -4063,7 +4062,6 @@ win32file
 .
 CreateDirectoryExW
 (
-u
 "
 .
 "
@@ -4096,7 +4094,6 @@ path
 =
 path
 +
-u
 "
 \
 \
@@ -4110,7 +4107,6 @@ win32file
 .
 CreateDirectoryExW
 (
-u
 "
 .
 "

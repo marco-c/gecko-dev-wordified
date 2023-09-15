@@ -1235,10 +1235,8 @@ SOURCE_BASE
 )
     
 for
-(
 category_name
 types
-)
 in
 index
 :
@@ -1284,10 +1282,8 @@ category_name
 )
         
 for
-(
 type_name
 opcodes
-)
 in
 types
 :

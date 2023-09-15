@@ -684,10 +684,8 @@ n
 )
         
 for
-(
 string
 offset
-)
 in
 sorted
 (

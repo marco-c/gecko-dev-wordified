@@ -2579,10 +2579,8 @@ suites
 ]
         
 for
-(
 category
 all_suites
-)
 in
 all
 :
@@ -3176,10 +3174,8 @@ query_minidump_stackwalk
 )
         
 for
-(
 per_test_suite
 suite
-)
 in
 suites
 :

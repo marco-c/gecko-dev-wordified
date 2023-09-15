@@ -190,7 +190,6 @@ tmpdir
 .
 mkdir
 (
-u
 "
 "
 )

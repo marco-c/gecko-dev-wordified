@@ -1243,10 +1243,8 @@ excludes
 [
 ]
 for
-(
 splitname
 splitfunction
-)
 in
 splits
 :

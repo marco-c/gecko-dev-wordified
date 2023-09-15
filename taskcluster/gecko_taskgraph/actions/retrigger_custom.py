@@ -1274,10 +1274,8 @@ gecko
 preferences
     
 for
-(
 key
 val
-)
 in
 input
 .

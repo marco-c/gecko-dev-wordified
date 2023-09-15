@@ -817,9 +817,7 @@ formatted
 )
                 
 except
-(
 UnicodeEncodeError
-)
 :
                     
 return

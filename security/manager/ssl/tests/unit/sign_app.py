@@ -438,7 +438,6 @@ bstr
 sigStructure
 =
 [
-u
 "
 Signature
 "
@@ -590,11 +589,9 @@ coseSignatures
 ]
     
 for
-(
 algorithm
 signingKey
 signingCertificate
-)
 in
 signatures
 :
@@ -856,10 +853,8 @@ n
 filename
     
 for
-(
 hashFunc
 name
-)
 in
 hashes
 :
@@ -1647,10 +1642,8 @@ outZip
 :
         
 for
-(
 fullPath
 internalPath
-)
 in
 walkDirectory
 (
@@ -1934,10 +1927,8 @@ n
 "
             
 for
-(
 hashFunc
 name
-)
 in
 signatureHashes
 :

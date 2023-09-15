@@ -711,10 +711,8 @@ name
 )
     
 for
-(
 key
 value
-)
 in
 sorted
 (
@@ -1210,10 +1208,8 @@ else
 mappings
     
 for
-(
 length
 subtags
-)
 in
 groupby
 (
@@ -2029,13 +2025,11 @@ language_aliases
 }
     
 for
-(
 deprecated_language
 (
 language
 script
 region
-)
 )
 in
 sorted
@@ -2097,13 +2091,11 @@ first_language
 True
     
 for
-(
 deprecated_language
 (
 language
 script
 region
-)
 )
 in
 sorted
@@ -2655,12 +2647,10 @@ region_aliases
 }
     
 for
-(
 deprecated_region
 (
 default
 non_default_replacements
-)
 )
 in
 sorted
@@ -2722,12 +2712,10 @@ first_region
 True
     
 for
-(
 deprecated_region
 (
 default
 non_default_replacements
-)
 )
 in
 sorted
@@ -3760,12 +3748,10 @@ n
 )
     
 for
-(
 deprecated_variant
 (
 type
 replacement
-)
 )
 in
 sorted
@@ -4733,10 +4719,8 @@ legacy_mappings_by_language
 }
     
 for
-(
 type
 replacement
-)
 in
 legacy_mappings
 .
@@ -5383,10 +5367,8 @@ itemgetter
 )
     
 for
-(
 lang
 mappings
-)
 in
 sorted
 (
@@ -5601,10 +5583,8 @@ first
 .
         
 for
-(
 size
 mappings_by_size
-)
 in
 groupby
 (
@@ -5666,10 +5646,8 @@ alphabetical
 order
             
 for
-(
 variants
 r_language
-)
 in
 sorted
 (
@@ -5729,10 +5707,8 @@ is_first
 False
                 
 for
-(
 i
 variant
-)
 in
 enumerate
 (
@@ -7442,10 +7418,8 @@ error
 .
         
 for
-(
 type
 replacement
-)
 in
 rules
 .
@@ -7473,10 +7447,8 @@ r_variants
 replacement
             
 for
-(
 i_type
 i_replacement
-)
 in
 rules
 .
@@ -8809,10 +8781,8 @@ runtime
 .
     
 for
-(
 type
 replacement
-)
 in
 rules
 .
@@ -9806,10 +9776,8 @@ complex_region_mappings_final
 }
     
 for
-(
 deprecated_region
 replacements
-)
 in
 complex_region_mappings
 .
@@ -18055,10 +18023,8 @@ them
 .
     
 for
-(
 zone
 target
-)
 in
 otherICULegacyLinks
 (
@@ -19722,10 +19688,8 @@ ianaZonesTreatedAsLinksByICU
 )
         
 for
-(
 zone
 icuZone
-)
 in
 incorrectZones
 :
@@ -19871,11 +19835,9 @@ ianaLinksCanonicalizedDifferentlyByICU
 )
         
 for
-(
 zone
 target
 icuTarget
-)
 in
 incorrectLinks
 :
@@ -20418,10 +20380,8 @@ links
 )
         
 for
-(
 zone
 target
-)
 in
 sorted
 (
@@ -22941,10 +22901,8 @@ currencyDigits
 )
         
 for
-(
 currency
 entries
-)
 in
 groupby
 (
@@ -22968,12 +22926,10 @@ itemgetter
 :
             
 for
-(
 _
 minorUnits
 currencyName
 countryName
-)
 in
 entries
 :
@@ -24443,10 +24399,8 @@ key_aliases
 }
     
 for
-(
 key
 replacements
-)
 in
 sorted
 (
@@ -24504,10 +24458,8 @@ first_key
 True
     
 for
-(
 key
 replacements
-)
 in
 sorted
 (
@@ -24798,10 +24750,8 @@ else
 :
             
 for
-(
 type
 replacement
-)
 in
 replacements
 :

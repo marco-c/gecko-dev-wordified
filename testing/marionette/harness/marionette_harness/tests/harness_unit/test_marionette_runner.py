@@ -406,10 +406,8 @@ actual
 :
             
 for
-(
 k
 v
-)
 in
 self
 .
@@ -525,7 +523,6 @@ tests
 path
 "
 :
-u
 "
 test_something
 .
@@ -738,7 +735,6 @@ included
 [
             
 (
-u
 "
 test_expected_pass
 .
@@ -750,7 +746,6 @@ pass
 )
             
 (
-u
 "
 test_expected_fail
 .
@@ -779,7 +774,6 @@ included
 [
             
 (
-u
 "
 test_pass_disabled
 .
@@ -798,7 +792,6 @@ true
 )
             
 (
-u
 "
 test_fail_disabled
 .
@@ -3330,7 +3323,6 @@ mock_runner
 run_tests
 (
 [
-u
 "
 test_fake_thing
 .
@@ -3354,7 +3346,6 @@ mock_runner
 tests
 =
 [
-u
 "
 test_fake_thing
 .
@@ -3534,10 +3525,8 @@ tests
 3
     
 for
-(
 test_name
 added_test
-)
 in
 zip
 (
@@ -3734,13 +3723,11 @@ runner
 good_tests
 =
 [
-u
 "
 test_ok
 .
 py
 "
-u
 "
 test_is_ok
 .
@@ -3752,47 +3739,40 @@ bad_tests
 =
 [
         
-u
 "
 bad_test
 .
 py
 "
         
-u
 "
 testbad
 .
 py
 "
         
-u
 "
 _test_bad
 .
 py
 "
         
-u
 "
 test_bad
 .
 notpy
 "
         
-u
 "
 test_bad
 "
         
-u
 "
 test
 .
 py
 "
         
-u
 "
 test_
 .

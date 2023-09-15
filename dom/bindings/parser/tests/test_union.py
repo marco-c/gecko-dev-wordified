@@ -562,10 +562,8 @@ PrepareForTest
 )
     
 for
-(
 i
 type
-)
 in
 enumerate
 (
@@ -1105,10 +1103,8 @@ TestUnion
 )
     
 for
-(
 i
 type
-)
 in
 enumerate
 (

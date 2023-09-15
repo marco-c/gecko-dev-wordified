@@ -2552,10 +2552,8 @@ foo
 ]
     
 for
-(
 name
 template
-)
 in
 TEMPLATES
 :
@@ -2624,10 +2622,8 @@ name
 )
         
 for
-(
 attribute
 type
-)
 in
 ATTRIBUTES
 :

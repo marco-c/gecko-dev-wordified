@@ -235,7 +235,6 @@ cpp
 "
 ]
 if
-(
 CONFIG
 [
 "
@@ -279,7 +278,6 @@ startswith
 "
 GNU_
 "
-)
 )
 :
 if

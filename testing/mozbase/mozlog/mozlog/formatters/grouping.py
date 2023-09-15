@@ -73,7 +73,6 @@ import
 base
 DEFAULT_MOVE_UP_CODE
 =
-u
 "
 \
 x1b
@@ -82,7 +81,6 @@ A
 "
 DEFAULT_CLEAR_EOL_CODE
 =
-u
 "
 \
 x1b
@@ -970,7 +968,6 @@ n
 %
 data
 [
-u
 "
 source
 "
@@ -1002,7 +999,6 @@ number_of_tests
                 
 data
 [
-u
 "
 source
 "
@@ -1075,7 +1071,6 @@ output
 =
 indent
 +
-u
 "
 \
 u25B6
@@ -1107,7 +1102,6 @@ output
 =
 indent
 +
-u
 "
 \
 u2502
@@ -1133,7 +1127,6 @@ output
 =
 indent
 +
-u
 "
 \
 u2514
@@ -1220,7 +1213,6 @@ expected
             
 expected_text
 =
-u
 "
 [
 expected
@@ -1236,14 +1228,12 @@ else
             
 expected_text
 =
-u
 "
 "
         
 lines
 =
 [
-u
 "
 %
 s
@@ -1268,7 +1258,6 @@ lines
 .
 append
 (
-u
 "
 \
 u2192
@@ -1396,7 +1385,6 @@ lines
 =
 [
                 
-u
 "
 %
 s
@@ -1552,7 +1540,6 @@ None
 lines
 =
 [
-u
 "
 Unexpected
 subtest
@@ -1726,10 +1713,8 @@ failure
 )
         
 for
-(
 stack
 failures
-)
 in
 six
 .
@@ -2264,7 +2249,6 @@ interactive
             
 output
 =
-u
 "
 \
 n
@@ -2281,7 +2265,6 @@ output
 output
 +
 =
-u
 "
 Ran
 %
@@ -2323,7 +2306,6 @@ start_time
 output
 +
 =
-u
 "
 \
 u2022
@@ -2375,7 +2357,6 @@ known_intermittent_results
 output
 +
 =
-u
 "
 \
 u2022
@@ -2423,12 +2404,10 @@ tests
 :
                 
 return
-u
 "
 "
             
 return
-u
 "
 \
 u2022
@@ -2454,7 +2433,6 @@ output
 =
 text_for_unexpected_list
 (
-u
 "
 crashed
 unexpectedly
@@ -2469,7 +2447,6 @@ output
 =
 text_for_unexpected_list
 (
-u
 "
 had
 errors
@@ -2485,7 +2462,6 @@ output
 =
 text_for_unexpected_list
 (
-u
 "
 failed
 unexpectedly
@@ -2501,7 +2477,6 @@ output
 text_for_unexpected_list
 (
             
-u
 "
 precondition
 failed
@@ -2518,7 +2493,6 @@ output
 =
 text_for_unexpected_list
 (
-u
 "
 timed
 out
@@ -2534,7 +2508,6 @@ output
 =
 text_for_unexpected_list
 (
-u
 "
 passed
 unexpectedly
@@ -2549,7 +2522,6 @@ output
 =
 text_for_unexpected_list
 (
-u
 "
 unexpectedly
 okay
@@ -2577,7 +2549,6 @@ output
 =
 (
                 
-u
 "
 \
 u2022
@@ -2646,7 +2617,6 @@ test_failure_text
 output
 +
 =
-u
 "
 Tests
 with
@@ -2683,7 +2653,6 @@ known_intermittent_results
 output
 +
 =
-u
 "
 Tests
 with

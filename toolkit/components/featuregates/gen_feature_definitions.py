@@ -1032,10 +1032,8 @@ new_key
 )
     
 for
-(
 old_key
 new_key
-)
 in
 key_changes
 :
