@@ -3297,9 +3297,6 @@ case
 GeckoProcessType_Content
 :
 case
-GeckoProcessType_GMPlugin
-:
-case
 GeckoProcessType_GPU
 :
 case
@@ -3336,6 +3333,9 @@ TYPE_MOZILLA_CHILD
 ;
 break
 ;
+case
+GeckoProcessType_GMPlugin
+:
 case
 GeckoProcessType_RemoteSandboxBroker
 :
