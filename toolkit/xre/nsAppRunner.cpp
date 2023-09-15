@@ -37443,11 +37443,11 @@ GECKO_PROCESS_TYPE
 enum_value
 enum_name
 string_name
+\
 proc_typename
-\
 process_bin_type
-procinfo_typename
 \
+procinfo_typename
 webidl_typename
 allcaps_name
 )
