@@ -2581,7 +2581,7 @@ HtmlWebpackPlugin
 {
 inject
 :
-true
+false
 template
 :
 paths
