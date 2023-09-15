@@ -829,7 +829,7 @@ leak
 checking
 machinary
 .
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 nullptr
 nullptr
@@ -3965,7 +3965,7 @@ Remove
 )
 ;
 }
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 Shutdown

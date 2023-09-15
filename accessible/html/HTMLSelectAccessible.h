@@ -357,7 +357,7 @@ class
 HTMLSelectOptionAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :

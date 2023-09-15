@@ -879,7 +879,7 @@ uint64_t
 aOldState
 )
 {
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 DOMAttributeChanged
@@ -1218,7 +1218,7 @@ uint64_t
 aOldState
 )
 {
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 DOMAttributeChanged
@@ -1431,7 +1431,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -1575,7 +1575,7 @@ const
 uint64_t
 state
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeState

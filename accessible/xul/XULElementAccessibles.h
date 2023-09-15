@@ -102,7 +102,7 @@ mozilla_a11y_XULElementAccessibles_h__
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -140,7 +140,7 @@ class
 XULLabelAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :

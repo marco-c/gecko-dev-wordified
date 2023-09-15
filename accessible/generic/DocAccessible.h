@@ -102,7 +102,7 @@ mozilla_a11y_DocAccessible_h__
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -264,7 +264,7 @@ class
 DocAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 public
 nsIDocumentObserver
 public

@@ -202,7 +202,7 @@ h
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -2769,7 +2769,7 @@ aContext
 {
 return
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aElement
 aContext
@@ -8655,7 +8655,7 @@ document
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 document
@@ -8717,7 +8717,7 @@ hasNonPresentationalARIARole
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 document
@@ -9457,7 +9457,7 @@ nullptr
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 document
@@ -10459,7 +10459,7 @@ text
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 -
@@ -10749,7 +10749,7 @@ semantics_
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 document
@@ -11015,7 +11015,7 @@ objects
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 content
 document
@@ -12235,7 +12235,7 @@ jamming
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 document
@@ -12359,7 +12359,7 @@ container
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 document
@@ -12495,7 +12495,7 @@ tbody
 newAcc
 =
 new
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 document

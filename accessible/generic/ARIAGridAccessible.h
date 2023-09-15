@@ -102,7 +102,7 @@ MOZILLA_A11Y_ARIAGridAccessible_h_
 #
 include
 "
-HyperTextAccessibleWrap
+HyperTextAccessible
 .
 h
 "
@@ -131,7 +131,7 @@ class
 ARIAGridCellAccessible
 :
 public
-HyperTextAccessibleWrap
+HyperTextAccessible
 {
 public
 :
@@ -148,7 +148,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 ARIAGridCellAccessible
-HyperTextAccessibleWrap
+HyperTextAccessible
 )
 /
 /

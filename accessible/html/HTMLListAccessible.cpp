@@ -383,7 +383,7 @@ NativeState
 const
 {
 return
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeState
@@ -572,7 +572,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -635,7 +635,7 @@ NativeState
 const
 {
 return
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeState

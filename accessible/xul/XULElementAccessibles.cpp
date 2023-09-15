@@ -401,7 +401,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -424,7 +424,7 @@ mValueTextLeaf
 =
 nullptr
 ;
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 Shutdown
@@ -618,7 +618,7 @@ focusable
 or
 selectable
 return
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeState
@@ -645,7 +645,7 @@ const
 Relation
 rel
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 RelationByType

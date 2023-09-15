@@ -454,7 +454,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+HyperTextAccessible
 (
 aContent
 aDoc
@@ -561,7 +561,7 @@ aState
 )
 const
 {
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 ApplyARIAState
@@ -722,7 +722,7 @@ AccAttributes
 >
 attributes
 =
-HyperTextAccessibleWrap
+HyperTextAccessible
 :
 :
 NativeAttributes
