@@ -39,6 +39,7 @@ wptrunner
 import
 environment
 products
+testloader
 test_paths
 =
 {
@@ -394,6 +395,25 @@ debug_test
 ]
 =
 False
+    
+kwargs
+[
+"
+subsuite
+"
+]
+=
+testloader
+.
+Subsuite
+(
+"
+"
+config
+=
+{
+}
+)
     
 with
 ConfigBuilder

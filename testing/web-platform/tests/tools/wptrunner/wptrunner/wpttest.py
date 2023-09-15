@@ -595,7 +595,7 @@ __init__
 (
 self
 metadata_root
-product
+product_name
 debug
                  
 browser_version
@@ -735,7 +735,7 @@ product
 "
 ]
 =
-product
+product_name
         
 if
 debug
