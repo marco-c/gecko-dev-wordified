@@ -5427,6 +5427,7 @@ RemoveGCNurseryCollectionCallback
 (
 aCx
 GCNurseryCollectionCallback
+nullptr
 )
 ;
 }

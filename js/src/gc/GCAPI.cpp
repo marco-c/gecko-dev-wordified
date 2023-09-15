@@ -2939,6 +2939,9 @@ JSContext
 cx
 GCNurseryCollectionCallback
 callback
+void
+*
+data
 )
 {
 return
@@ -2955,6 +2958,7 @@ gc
 removeNurseryCollectionCallback
 (
 callback
+data
 )
 ;
 }

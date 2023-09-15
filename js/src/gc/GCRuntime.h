@@ -2960,6 +2960,9 @@ JS
 :
 GCNurseryCollectionCallback
 callback
+void
+*
+data
 )
 ;
 JS
