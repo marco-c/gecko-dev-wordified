@@ -18751,7 +18751,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 aStart
 mozilla
@@ -18759,7 +18759,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 aEnd
 )
@@ -18779,7 +18779,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 Start
 (
@@ -18795,7 +18795,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 End
 (
@@ -18850,7 +18850,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 mStart
 ;
@@ -18859,7 +18859,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 mEnd
 ;

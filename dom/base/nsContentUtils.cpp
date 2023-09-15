@@ -47545,13 +47545,13 @@ aHeaderValue
 ;
 Maybe
 <
-uint32_t
+uint64_t
 >
 rangeStart
 ;
 Maybe
 <
-uint32_t
+uint64_t
 >
 rangeEnd
 ;
@@ -47643,7 +47643,7 @@ Step
 8
 and
 9
-int32_t
+uint64_t
 res
 ;
 if
