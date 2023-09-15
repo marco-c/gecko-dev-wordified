@@ -190,6 +190,11 @@ MockMediaResource
 cpp
 "
 "
+TestAudioBuffer
+.
+cpp
+"
+"
 TestAudioBuffers
 .
 cpp
