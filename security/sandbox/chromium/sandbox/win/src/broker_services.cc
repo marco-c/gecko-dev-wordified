@@ -4654,9 +4654,11 @@ com
 /
 480639
 .
-SpawnCleanup
-(
 target
+-
+>
+Terminate
+(
 )
 ;
 return
