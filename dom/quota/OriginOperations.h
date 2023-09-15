@@ -132,9 +132,6 @@ nsTArrayForwardDeclare
 .
 h
 "
-class
-nsISerialEventTarget
-;
 template
 <
 class
@@ -196,9 +193,6 @@ OriginOperationBase
 >
 CreateFinalizeOriginEvictionOp
 (
-nsISerialEventTarget
-*
-aOwningThread
 nsTArray
 <
 RefPtr

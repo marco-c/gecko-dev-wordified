@@ -196,7 +196,7 @@ ResolvableNormalOriginOp
 const
 char
 *
-aRunnableName
+aName
 const
 Nullable
 <
@@ -223,7 +223,7 @@ aExclusive
 :
 NormalOriginOperationBase
 (
-aRunnableName
+aName
 aPersistenceType
 aOriginScope
 aClientType
