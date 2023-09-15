@@ -335,6 +335,8 @@ aResults
 bool
 *
 aGotFrame
+int32_t
+aSubmitted
 )
 ;
 const
