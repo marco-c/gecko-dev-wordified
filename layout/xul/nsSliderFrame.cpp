@@ -9977,7 +9977,7 @@ general_smoothScroll_pages
 ScrollMode
 :
 :
-SmoothMsd
+Smooth
 :
 ScrollMode
 :
