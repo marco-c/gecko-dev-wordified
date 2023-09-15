@@ -121,14 +121,14 @@ MOCHITEST_CHROME_MANIFESTS
 "
 chrome
 .
-ini
+toml
 "
 "
 chrome
 /
 chrome
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS

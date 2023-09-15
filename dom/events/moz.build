@@ -182,7 +182,7 @@ test
 /
 chrome
 .
-ini
+toml
 "
 "
 test
@@ -191,7 +191,7 @@ clipboard
 /
 chrome
 .
-ini
+toml
 "
 "
 test
@@ -200,7 +200,7 @@ pointerevents
 /
 chrome
 .
-ini
+toml
 "
 ]
 TEST_DIRS

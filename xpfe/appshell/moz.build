@@ -114,7 +114,7 @@ test
 /
 chrome
 .
-ini
+toml
 "
 ]
 XPIDL_SOURCES

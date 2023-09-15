@@ -148,7 +148,7 @@ MOCHITEST_CHROME_MANIFESTS
 "
 chrome
 .
-ini
+toml
 "
 ]
 TEST_WEBIDL_FILES

@@ -127,14 +127,14 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 "
 widgets
 /
 chrome
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS

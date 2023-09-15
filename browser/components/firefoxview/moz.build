@@ -181,6 +181,6 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]

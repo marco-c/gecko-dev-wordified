@@ -332,7 +332,7 @@ mochitest
 /
 chrome
 .
-ini
+toml
 "
 ]
 SPHINX_TREES

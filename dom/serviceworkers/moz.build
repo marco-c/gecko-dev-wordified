@@ -627,14 +627,14 @@ chrome
 -
 dFPI
 .
-ini
+toml
 "
 "
 test
 /
 chrome
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS

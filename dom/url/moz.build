@@ -182,7 +182,7 @@ tests
 /
 chrome
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS

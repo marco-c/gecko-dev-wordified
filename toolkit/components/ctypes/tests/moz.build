@@ -109,7 +109,7 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]
 UNIFIED_SOURCES

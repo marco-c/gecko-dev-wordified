@@ -210,7 +210,7 @@ chrome
 /
 chrome
 .
-ini
+toml
 "
 ]
 TEST_HARNESS_FILES
