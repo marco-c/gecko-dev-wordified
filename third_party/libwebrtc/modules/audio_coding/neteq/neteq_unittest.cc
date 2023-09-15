@@ -7283,9 +7283,14 @@ unique_ptr
 NetEqInput
 >
 input
-(
-new
-NetEqRtpDumpInput
+=
+std
+:
+:
+make_unique
+<
+NetEqPacketSourceInput
+>
 (
 webrtc
 :
@@ -7316,7 +7321,6 @@ SSRC
 filter
 *
 /
-)
 )
 ;
 std
