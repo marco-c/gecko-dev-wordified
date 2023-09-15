@@ -196,6 +196,8 @@ gfx
 :
 IntSize
 aSize
+bool
+aHasKeyedMutex
 )
 ;
 wr
@@ -251,11 +253,7 @@ SyncObjectNeeded
 (
 )
 override
-{
-return
-true
 ;
-}
 RenderDXGITextureHost
 *
 AsRenderDXGITextureHost
@@ -719,6 +717,10 @@ gfx
 :
 IntSize
 mSize
+;
+const
+bool
+mHasKeyedMutex
 ;
 private
 :

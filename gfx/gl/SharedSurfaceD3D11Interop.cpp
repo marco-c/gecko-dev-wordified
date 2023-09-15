@@ -2787,6 +2787,12 @@ ColorRange
 :
 :
 FULL
+/
+*
+hasKeyedMutex
+*
+/
+true
 )
 )
 ;

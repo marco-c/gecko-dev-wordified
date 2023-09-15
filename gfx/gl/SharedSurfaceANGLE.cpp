@@ -954,6 +954,14 @@ ColorRange
 :
 :
 FULL
+/
+*
+hasKeyedMutex
+*
+/
+!
+!
+mKeyedMutex
 )
 )
 ;
