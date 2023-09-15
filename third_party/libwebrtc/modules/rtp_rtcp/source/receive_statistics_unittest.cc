@@ -4127,6 +4127,13 @@ AdvanceTimeMilliseconds
 42
 )
 ;
+packet1_
+.
+SetSequenceNumber
+(
+100
+)
+;
 receive_statistics_
 -
 >
@@ -4135,7 +4142,7 @@ OnRtpPacket
 packet1_
 )
 ;
-StreamDataCounters
+RtpReceiveStats
 counters
 =
 receive_statistics_
@@ -4147,7 +4154,7 @@ kSsrc1
 )
 -
 >
-GetReceiveStreamDataCounters
+GetStats
 (
 )
 ;
@@ -4166,6 +4173,13 @@ AdvanceTimeMilliseconds
 3
 )
 ;
+packet1_
+.
+SetSequenceNumber
+(
+101
+)
+;
 receive_statistics_
 -
 >
@@ -4185,7 +4199,7 @@ kSsrc1
 )
 -
 >
-GetReceiveStreamDataCounters
+GetStats
 (
 )
 ;
