@@ -2019,6 +2019,14 @@ RefPtr
 <
 BoolPromise
 >
+ClearStorage
+(
+)
+;
+RefPtr
+<
+BoolPromise
+>
 ShutdownStorage
 (
 )

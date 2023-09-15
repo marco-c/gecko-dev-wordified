@@ -349,9 +349,12 @@ aParams
 ;
 RefPtr
 <
-QuotaRequestBase
+ResolvableNormalOriginOp
+<
+bool
 >
-CreateClearOp
+>
+CreateClearStorageOp
 (
 )
 ;

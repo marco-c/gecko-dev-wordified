@@ -2248,12 +2248,6 @@ case
 RequestResponse
 :
 :
-TClearAllResponse
-:
-case
-RequestResponse
-:
-:
 TPersistResponse
 :
 HandleResponse
