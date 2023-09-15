@@ -323,7 +323,7 @@ Utility
 Generic
 "
 "
-vorbis
+ffvpx
 audio
 decoder
 "
@@ -432,7 +432,7 @@ Utility
 Generic
 "
 "
-vorbis
+ffvpx
 audio
 decoder
 "
