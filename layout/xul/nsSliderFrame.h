@@ -1353,10 +1353,6 @@ static
 bool
 gMiddlePref
 ;
-static
-int32_t
-gSnapMultiplier
-;
 }
 ;
 /
