@@ -30175,11 +30175,10 @@ baselineAnchor
 /
 /
 emHeightAscent
--
 fontMetrics
 .
 emDescent
--
++
 baselineAnchor
 /
 /
