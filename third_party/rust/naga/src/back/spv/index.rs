@@ -2482,7 +2482,7 @@ self
 .
 writer
 .
-write_constant_null
+get_constant_null
 (
 result_type
 )
