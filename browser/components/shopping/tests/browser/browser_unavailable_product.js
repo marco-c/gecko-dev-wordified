@@ -56,13 +56,6 @@ as
 unavailable
 .
 *
-Only
-settings
-should
-be
-visible
-.
-*
 /
 add_task
 (
@@ -342,13 +335,6 @@ stock
 by
 another
 user
-.
-*
-Only
-settings
-should
-be
-visible
 .
 *
 /
