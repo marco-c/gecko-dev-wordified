@@ -2940,7 +2940,7 @@ video
 .
 RTCStatsMember
 <
-int32_t
+uint32_t
 >
 frames_received
 ;
