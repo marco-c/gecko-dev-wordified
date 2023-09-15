@@ -1592,7 +1592,7 @@ Value
 >
 vp
 PropertyVector
-&
+*
 properties
 )
 ;
@@ -1664,7 +1664,7 @@ Value
 >
 vp
 ElementVector
-&
+*
 elements
 )
 ;
@@ -2276,7 +2276,7 @@ DummyValue
 *
 vp
 PropertyVector
-&
+*
 properties
 )
 ;
@@ -2336,7 +2336,7 @@ DummyValue
 *
 vp
 ElementVector
-&
+*
 elements
 )
 ;
