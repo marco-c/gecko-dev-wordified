@@ -1920,13 +1920,9 @@ requested
 .
 if
 (
-config
+video_codec
 .
-simulcast_layers
-.
-size
-(
-)
+numberOfSimulcastStreams
 <
 =
 1
