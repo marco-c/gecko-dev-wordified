@@ -4709,17 +4709,6 @@ mDraggableRegion
 /
 /
 Graphics
-HDC
-mPaintDC
-=
-nullptr
-;
-/
-/
-only
-set
-during
-painting
 LayoutDeviceIntRect
 mLastPaintBounds
 ;

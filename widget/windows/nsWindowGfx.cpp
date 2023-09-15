@@ -2288,10 +2288,6 @@ ps
 )
 )
 ;
-mPaintDC
-=
-hDC
-;
 bool
 forceRepaint
 =
@@ -3109,10 +3105,6 @@ ps
 )
 ;
 }
-mPaintDC
-=
-nullptr
-;
 mLastPaintEndTime
 =
 TimeStamp
