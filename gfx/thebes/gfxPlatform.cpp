@@ -722,13 +722,6 @@ gfxQuartzSurface
 h
 "
 #
-include
-"
-nsCocoaFeatures
-.
-h
-"
-#
 elif
 defined
 (

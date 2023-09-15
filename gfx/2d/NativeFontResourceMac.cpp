@@ -184,13 +184,6 @@ nsIMemoryReporter
 .
 h
 "
-#
-include
-"
-nsCocoaFeatures
-.
-h
-"
 namespace
 mozilla
 {
