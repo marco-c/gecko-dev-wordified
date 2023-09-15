@@ -51,7 +51,7 @@ module
 without
 a
 type
-assertion
+attribute
 should
 fail
 "
@@ -100,7 +100,7 @@ module
 json
 "
 {
-assert
+with
 :
 {
 type
@@ -134,13 +134,13 @@ to
 an
 incorrect
 type
-assertion
+attribute
 can
 succeed
 if
 the
 correct
-assertion
+attribute
 is
 later
 given
@@ -191,7 +191,7 @@ json
 2
 "
 {
-assert
+with
 :
 {
 type
@@ -237,7 +237,7 @@ fail
 with
 the
 type
-assertion
+attribute
 missing
 even
 if
@@ -261,13 +261,13 @@ with
 the
 correct
 type
-assertion
+attribute
 should
 fail
 if
 the
 incorrect
-assertion
+attribute
 is
 later
 given
@@ -330,7 +330,7 @@ key
 uuid_token
 }
 {
-assert
+with
 :
 {
 type
@@ -511,7 +511,7 @@ with
 a
 JSON
 type
-assertion
+attribute
 should
 fail
 "
@@ -599,7 +599,7 @@ same
 specifier
 /
 type
-assertion
+attribute
 pair
 failed
 previously
@@ -619,7 +619,7 @@ same
 specifier
 /
 type
-assertion
+attribute
 pair
 failed
 previously
@@ -682,7 +682,7 @@ key
 uuid_token
 }
 {
-assert
+with
 :
 {
 type
@@ -792,7 +792,7 @@ key
 uuid_token
 }
 {
-assert
+with
 :
 {
 type
@@ -829,7 +829,7 @@ given
 specifier
 /
 type
-assertion
+attribute
 pair
 future
 uses
