@@ -1779,7 +1779,10 @@ getLine
 )
 ;
 }
-uint32_t
+JS
+:
+:
+TaggedColumnNumberOneOrigin
 column
 (
 )
@@ -1792,10 +1795,6 @@ get
 )
 .
 getColumn
-(
-)
-.
-rawValue
 (
 )
 ;
