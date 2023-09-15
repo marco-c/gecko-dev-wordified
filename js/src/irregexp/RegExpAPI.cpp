@@ -1280,7 +1280,7 @@ return
 unicode
 :
 :
-CountCodePoints
+CountUTF16CodeUnits
 (
 begin
 end

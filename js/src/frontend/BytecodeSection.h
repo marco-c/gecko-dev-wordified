@@ -2215,6 +2215,12 @@ currentLine_
 origin
 column
 index
+in
+UTF
+-
+16
+code
+units
 on
 currentLine_
 of
