@@ -1867,7 +1867,8 @@ testFile
 .
 "
 :
-oldType
+"
+"
 }
 ;
 for
