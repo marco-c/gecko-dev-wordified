@@ -4369,7 +4369,7 @@ names
 (
 )
 .
-futexNotEqual
+not_equal_
 )
 ;
 return
@@ -4395,7 +4395,7 @@ names
 (
 )
 .
-futexOK
+ok
 )
 ;
 return
@@ -4421,7 +4421,7 @@ names
 (
 )
 .
-futexTimedOut
+timed_out_
 )
 ;
 return
