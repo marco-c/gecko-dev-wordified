@@ -348,6 +348,15 @@ mode
 MODE
 .
 TINY
+|
+|
+mode
+=
+=
+=
+MODE
+.
+HEADER
 )
 {
 return
