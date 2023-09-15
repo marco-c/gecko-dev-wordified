@@ -17468,9 +17468,8 @@ RTCStatsCollector
 :
 OnSctpDataChannelStateChanged
 (
-DataChannelInterface
-*
-channel
+int
+channel_id
 DataChannelInterface
 :
 :
@@ -17506,7 +17505,7 @@ opened_data_channels
 .
 insert
 (
-channel
+channel_id
 )
 .
 second
@@ -17570,7 +17569,7 @@ opened_data_channels
 .
 erase
 (
-channel
+channel_id
 )
 )
 {
