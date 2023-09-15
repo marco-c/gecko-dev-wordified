@@ -404,6 +404,8 @@ mFormat
 ;
 bool
 mHasExistingData
+=
+false
 ;
 RefPtr
 <
