@@ -9481,8 +9481,14 @@ ErrorResult
 aRv
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+mController
+-
+>
+GetAlgorithms
+(
+)
 mController
 -
 >
