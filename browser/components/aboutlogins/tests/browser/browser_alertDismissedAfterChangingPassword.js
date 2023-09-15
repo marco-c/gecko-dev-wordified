@@ -321,7 +321,6 @@ shadowRoot
 querySelectorAll
 (
 "
-.
 login
 -
 list
@@ -1509,17 +1508,7 @@ equal
 (
 vulnerableListItem
 .
-querySelector
-(
-"
-.
-alert
--
-icon
-"
-)
-.
-src
+notificationIcon
 "
 "
 "

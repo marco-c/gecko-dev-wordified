@@ -465,7 +465,6 @@ shadowRoot
 querySelectorAll
 (
 "
-.
 login
 -
 list
@@ -725,7 +724,6 @@ shadowRoot
 querySelectorAll
 (
 "
-.
 login
 -
 list
@@ -781,7 +779,6 @@ shadowRoot
 .
 querySelector
 (
-.
 login
 -
 list
@@ -1073,7 +1070,6 @@ shadowRoot
 querySelectorAll
 (
 "
-.
 login
 -
 list
@@ -1503,7 +1499,6 @@ shadowRoot
 querySelectorAll
 (
 "
-.
 login
 -
 list

@@ -333,7 +333,6 @@ waitForCondition
 >
 {
 return
-(
 loginList
 .
 shadowRoot
@@ -342,8 +341,6 @@ querySelectorAll
 (
 "
 .
-login
--
 list
 -
 item
@@ -355,7 +352,6 @@ length
 =
 =
 3
-)
 ;
 }
 "
@@ -553,7 +549,6 @@ shadowRoot
 .
 querySelector
 (
-.
 login
 -
 list

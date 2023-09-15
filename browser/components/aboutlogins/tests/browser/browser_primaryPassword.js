@@ -1427,7 +1427,6 @@ _list
 querySelectorAll
 (
 "
-.
 login
 -
 list
@@ -1484,7 +1483,6 @@ _list
 querySelectorAll
 (
 "
-.
 login
 -
 list
@@ -1623,7 +1621,6 @@ _list
 querySelectorAll
 (
 "
-.
 login
 -
 list

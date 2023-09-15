@@ -268,7 +268,6 @@ shadowRoot
 querySelector
 (
 "
-.
 login
 -
 list

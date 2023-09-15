@@ -371,7 +371,6 @@ _list
 querySelectorAll
 (
 "
-.
 login
 -
 list
