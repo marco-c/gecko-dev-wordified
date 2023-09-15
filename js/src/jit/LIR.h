@@ -4340,7 +4340,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 return
 LDefinition

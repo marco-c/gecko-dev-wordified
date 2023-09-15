@@ -3922,7 +3922,7 @@ jit
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 return
 PackedType
@@ -5105,7 +5105,7 @@ jit
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 ;
 default
 :

@@ -3355,7 +3355,7 @@ receives
 no
 special
 treatment
-RefOrNull
+WasmAnyRef
 /
 /
 Wasm
@@ -3805,7 +3805,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 return
 sizeof
@@ -4078,11 +4078,11 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 return
 "
-RefOrNull
+WasmAnyRef
 "
 ;
 case

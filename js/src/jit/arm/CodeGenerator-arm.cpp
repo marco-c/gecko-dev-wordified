@@ -14148,7 +14148,7 @@ mirType
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 Register

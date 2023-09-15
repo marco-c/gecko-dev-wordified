@@ -651,7 +651,7 @@ slot
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 dest
 )

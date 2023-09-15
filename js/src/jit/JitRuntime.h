@@ -976,7 +976,7 @@ WriteOnceData
 <
 uint32_t
 >
-refOrNullPreBarrierOffset_
+wasmAnyRefPreBarrierOffset_
 {
 0
 }
@@ -2391,12 +2391,12 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 return
 trampolineCode
 (
-refOrNullPreBarrierOffset_
+wasmAnyRefPreBarrierOffset_
 )
 ;
 default

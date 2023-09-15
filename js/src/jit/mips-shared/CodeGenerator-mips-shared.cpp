@@ -812,7 +812,7 @@ compareType
 MCompare
 :
 :
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 {
 if
@@ -1111,7 +1111,7 @@ compareType
 MCompare
 :
 :
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 {
 if
@@ -14244,7 +14244,7 @@ mirType
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 Register

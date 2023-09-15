@@ -805,7 +805,7 @@ type
 MCompare
 :
 :
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 {
 if
@@ -1005,7 +1005,7 @@ type
 MCompare
 :
 :
-Compare_RefOrNull
+Compare_WasmAnyRef
 )
 {
 if
@@ -19332,7 +19332,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 {
 Register

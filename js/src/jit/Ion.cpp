@@ -1566,11 +1566,11 @@ Emitting
 Pre
 Barrier
 for
-RefOrNull
+WasmAnyRef
 "
 )
 ;
-refOrNullPreBarrierOffset_
+wasmAnyRefPreBarrierOffset_
 =
 generatePreBarrier
 (
@@ -1579,7 +1579,7 @@ masm
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 rangeRecorder
@@ -1590,7 +1590,7 @@ recordOffset
 Trampoline
 :
 PreBarrier
-RefOrNull
+WasmAnyRef
 "
 )
 ;

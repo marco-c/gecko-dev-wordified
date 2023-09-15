@@ -2964,7 +2964,7 @@ index
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 uint32_t
@@ -3498,7 +3498,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 &
 &
 !
@@ -3837,7 +3837,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 {
 DebugOnly
@@ -11793,7 +11793,7 @@ next
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 ;
 if
@@ -30854,7 +30854,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 {
 RegRef
@@ -34614,7 +34614,7 @@ slot
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 )
 ;
@@ -37207,7 +37207,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 t
 =

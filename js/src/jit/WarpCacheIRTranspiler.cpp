@@ -30386,7 +30386,7 @@ is
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 .
 These
 cases

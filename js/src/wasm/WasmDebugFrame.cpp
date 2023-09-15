@@ -977,7 +977,7 @@ jit
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 vp
 .

@@ -678,7 +678,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 return
 ABIResult
@@ -2647,7 +2647,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 masm
@@ -3023,7 +3023,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 masm
 .
@@ -9033,7 +9033,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 {
 Register
@@ -10698,7 +10698,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 GenPrintPtr
 (
@@ -11226,7 +11226,7 @@ case
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 :
 {
 masm
@@ -12199,7 +12199,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 |
 |
 type
@@ -12662,7 +12662,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 GenPrintPtr
@@ -13484,7 +13484,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 /
@@ -14009,7 +14009,7 @@ type
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 {
 /

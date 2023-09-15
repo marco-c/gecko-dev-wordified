@@ -12959,7 +12959,7 @@ preBarrier
 MIRType
 :
 :
-RefOrNull
+WasmAnyRef
 )
 .
 value
