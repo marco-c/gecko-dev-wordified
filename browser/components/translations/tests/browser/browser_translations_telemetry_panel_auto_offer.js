@@ -241,6 +241,7 @@ false
 }
 )
 ;
+await
 navigate
 (
 TRANSLATIONS_TESTER_ES_2
@@ -281,11 +282,13 @@ waitForTranslationsPopupEvent
 "
 popupshown
 "
+async
 (
 )
 =
 >
 {
+await
 navigate
 (
 TRANSLATIONS_TESTER_ES_DOT_ORG

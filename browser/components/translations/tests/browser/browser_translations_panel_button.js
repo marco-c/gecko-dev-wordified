@@ -116,6 +116,7 @@ Spanish
 "
 )
 ;
+await
 navigate
 (
 ENGLISH_PAGE_URL
@@ -153,6 +154,7 @@ English
 "
 )
 ;
+await
 navigate
 (
 SPANISH_PAGE_URL
