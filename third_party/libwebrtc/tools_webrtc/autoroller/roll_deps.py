@@ -237,6 +237,16 @@ third_party
 /
 gradle
 '
+    
+'
+src
+/
+third_party
+/
+mockito
+/
+src
+'
 ]
 #
 These
