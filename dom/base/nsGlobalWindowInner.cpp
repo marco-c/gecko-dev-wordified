@@ -26706,9 +26706,6 @@ dom
 Location
 (
 this
-GetBrowsingContext
-(
-)
 )
 ;
 }

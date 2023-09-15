@@ -379,10 +379,8 @@ GetBrowsingContext
 0
 ;
 virtual
-already_AddRefed
-<
 nsIDocShell
->
+*
 GetDocShell
 (
 )
