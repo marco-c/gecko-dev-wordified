@@ -1772,7 +1772,7 @@ audio_codecs
 const
 RtpHeaderExtensions
 &
-default_audio_rtp_header_extensions
+rtp_header_extensions
 StreamParamsVec
 *
 current_streams
@@ -1823,7 +1823,7 @@ video_codecs
 const
 RtpHeaderExtensions
 &
-default_video_rtp_header_extensions
+rtp_header_extensions
 StreamParamsVec
 *
 current_streams
