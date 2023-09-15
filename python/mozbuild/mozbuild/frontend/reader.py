@@ -167,6 +167,8 @@ execution
 import
 ast
 import
+functools
+import
 inspect
 import
 logging
@@ -213,18 +215,12 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozpack
 .
 files
 import
 FileFinder
-from
-six
-import
-string_types
 from
 mozbuild
 .
@@ -298,23 +294,6 @@ SandboxLoadError
     
 default_finder
 )
-if
-six
-.
-PY2
-:
-    
-type_type
-=
-types
-.
-TypeType
-else
-:
-    
-type_type
-=
-type
 def
 log
 (
@@ -2811,37 +2790,14 @@ to
 a
 dict
 .
-AST
-wants
-binary_type
-for
-this
-in
-Py2
-and
-text_type
-for
-        
-#
-this
-in
-Py3
-so
-cast
-to
-str
-.
         
 self
 .
 _global_name
 =
-str
-(
 "
 _data
 "
-)
         
 #
 In
@@ -2900,12 +2856,9 @@ self
 _global_name
 +
 =
-str
-(
 "
 _
 "
-)
         
 func_ast
 =
@@ -3209,30 +3162,6 @@ self
 _global_name
 =
 global_name
-        
-def
-visit_Str
-(
-self
-node
-)
-:
-            
-node
-.
-s
-=
-six
-.
-ensure_text
-(
-node
-.
-s
-)
-            
-return
-node
         
 def
 visit_Name
@@ -4252,7 +4181,6 @@ write
 .
 join
 (
-                    
 "
 %
 s
@@ -4261,13 +4189,10 @@ n
 "
 %
 l
-                    
 for
 l
 in
-six
-.
-text_type
+str
 (
 self
 .
@@ -4277,7 +4202,6 @@ validation_error
 splitlines
 (
 )
-                
 )
             
 )
@@ -4386,9 +4310,7 @@ s
 .
 write
 (
-six
-.
-ensure_text
+str
 (
 l
 )
@@ -6406,7 +6328,7 @@ args
 )
 =
 =
-type_type
+type
 :
             
 s
@@ -7861,7 +7783,7 @@ if
 isinstance
 (
 variables
-string_types
+str
 )
 :
             
@@ -9335,13 +9257,12 @@ for
 action
 script
 in
-six
-.
-iteritems
-(
 gyp_dir
 .
 action_overrides
+.
+items
+(
 )
 :
                 
@@ -10648,9 +10569,7 @@ result
 path
 ]
 =
-six
-.
-moves
+functools
 .
 reduce
 (
