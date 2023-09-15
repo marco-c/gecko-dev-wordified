@@ -102,7 +102,7 @@ interface
 nsIURI
 ;
 interface
-nsIRequest
+nsIChannel
 ;
 interface
 nsIStreamListener
@@ -229,9 +229,9 @@ incoming
 data
 *
 param
-aRequest
+aChannel
 The
-request
+channel
 corresponding
 to
 the
@@ -330,8 +330,8 @@ in
 ACString
 aMimeContentType
 in
-nsIRequest
-aRequest
+nsIChannel
+aChannel
 in
 nsIInterfaceRequestor
 aContentContext
@@ -415,9 +415,9 @@ incoming
 data
 *
 param
-aRequest
+aChannel
 The
-request
+channel
 corresponding
 to
 the
@@ -430,7 +430,7 @@ The
 BrowsingContext
 that
 the
-request
+channel
 was
 initiated
 *
@@ -526,8 +526,8 @@ in
 ACString
 aMimeContentType
 in
-nsIRequest
-aRequest
+nsIChannel
+aChannel
 in
 BrowsingContext
 aContentContext
