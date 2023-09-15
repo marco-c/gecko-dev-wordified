@@ -181,10 +181,7 @@ It
 is
 reset
 to
-Some
-(
 0
-)
 when
 current
 IPC
@@ -193,11 +190,10 @@ check
 is
 done
 .
-Maybe
-<
 size_t
->
 flushesSinceLastCongestionCheck
+=
+0
 ;
 /
 /
