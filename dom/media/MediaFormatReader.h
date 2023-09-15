@@ -413,10 +413,11 @@ mTags
 ;
 }
 ;
-typedef
+using
+MediaDecoderOwnerID
+=
 void
 *
-MediaDecoderOwnerID
 ;
 struct
 MOZ_STACK_CLASS
@@ -505,21 +506,23 @@ IsExclusive
 =
 true
 ;
-typedef
+using
+TrackType
+=
 TrackInfo
 :
 :
 TrackType
-TrackType
 ;
-typedef
+using
+NotifyDataArrivedPromise
+=
 MozPromise
 <
 bool
 MediaResult
 IsExclusive
 >
-NotifyDataArrivedPromise
 ;
 public
 :
@@ -1147,7 +1150,9 @@ tracks
 nsresult
 ResetDecode
 (
+const
 TrackSet
+&
 aTracks
 )
 ;
@@ -3226,7 +3231,6 @@ media_playback_warnings_as_errors
 )
 ;
 }
-else
 if
 (
 mError
@@ -3264,7 +3268,6 @@ return
 false
 ;
 }
-else
 if
 (
 mError
@@ -3320,7 +3323,6 @@ media_playback_warnings_as_errors
 )
 ;
 }
-else
 if
 (
 mError
@@ -3358,7 +3360,6 @@ media_playback_warnings_as_errors
 )
 ;
 }
-else
 if
 (
 mError
@@ -3375,8 +3376,6 @@ return
 false
 ;
 }
-else
-{
 /
 /
 All
@@ -3388,7 +3387,6 @@ fatal
 return
 true
 ;
-}
 }
 /
 /
@@ -4213,6 +4211,11 @@ return
 mMean
 +
 =
+static_cast
+<
+float
+>
+(
 (
 1
 .
@@ -4227,9 +4230,16 @@ ToSeconds
 mMean
 )
 /
+static_cast
+<
+double
+>
+(
 +
 +
 mCount
+)
+)
 ;
 }
 void
@@ -4634,6 +4644,7 @@ DoDemuxVideo
 void
 OnVideoDemuxCompleted
 (
+const
 RefPtr
 <
 MediaTrackDemuxer
@@ -4641,6 +4652,7 @@ MediaTrackDemuxer
 :
 SamplesHolder
 >
+&
 aSamples
 )
 ;
@@ -4671,6 +4683,7 @@ DoDemuxAudio
 void
 OnAudioDemuxCompleted
 (
+const
 RefPtr
 <
 MediaTrackDemuxer
@@ -4678,6 +4691,7 @@ MediaTrackDemuxer
 :
 SamplesHolder
 >
+&
 aSamples
 )
 ;
@@ -5140,6 +5154,7 @@ TrackInfo
 :
 TrackType
 aType
+const
 RefPtr
 <
 MediaTrackDemuxer
@@ -5147,6 +5162,7 @@ MediaTrackDemuxer
 :
 SamplesHolder
 >
+&
 aSamples
 )
 ;
