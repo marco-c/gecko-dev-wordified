@@ -7561,6 +7561,15 @@ SurfaceDescriptor
 :
 TSurfaceDescriptorAndroidHardwareBuffer
 :
+case
+layers
+:
+:
+SurfaceDescriptor
+:
+:
+TSurfaceDescriptorDMABuf
+:
 keepAlive
 =
 surf
