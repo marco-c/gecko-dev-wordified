@@ -1152,14 +1152,13 @@ ParseAllTracks
 {
 }
 ;
-using
-TrackParseMode
-=
+typedef
 Variant
 <
 ParseAllTracks
 uint32_t
 >
+TrackParseMode
 ;
 class
 Moof

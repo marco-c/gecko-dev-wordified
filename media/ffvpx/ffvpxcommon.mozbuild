@@ -246,14 +246,6 @@ media
 ffvpx
 '
 ]
-USE_LIBS
-+
-=
-[
-'
-gkcodecs
-'
-]
 #
 We
 allow

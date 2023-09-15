@@ -333,10 +333,6 @@ pkt_duration
 FF_ENABLE_DEPRECATION_WARNINGS
 #
 endif
-#
-if
-FF_API_FRAME_PKT
-FF_DISABLE_DEPRECATION_WARNINGS
 frame
 -
 >
@@ -353,9 +349,6 @@ pkt_size
 -
 1
 ;
-FF_ENABLE_DEPRECATION_WARNINGS
-#
-endif
 frame
 -
 >
@@ -1876,10 +1869,6 @@ src
 >
 pkt_dts
 ;
-#
-if
-FF_API_FRAME_PKT
-FF_DISABLE_DEPRECATION_WARNINGS
 dst
 -
 >
@@ -1900,9 +1889,6 @@ src
 >
 pkt_size
 ;
-FF_ENABLE_DEPRECATION_WARNINGS
-#
-endif
 #
 if
 FF_API_PKT_DURATION

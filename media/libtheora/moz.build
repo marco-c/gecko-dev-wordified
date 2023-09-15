@@ -152,11 +152,8 @@ AllowCompilerWarnings
 FINAL_LIBRARY
 =
 '
-gkcodecs
+gkmedias
 '
-NoVisibilityFlags
-(
-)
 #
 The
 encoder

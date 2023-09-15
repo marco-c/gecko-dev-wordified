@@ -628,13 +628,6 @@ pa_stream_update_timing_info
 \
 n
 "
-"
-race
-:
-vorbis_synthesis_init
-\
-n
-"
 /
 /
 This

@@ -14515,13 +14515,6 @@ props
 AV_CODEC_PROP_INTRA_ONLY
 |
 AV_CODEC_PROP_LOSSY
-.
-profiles
-=
-NULL_IF_CONFIG_SMALL
-(
-ff_eac3_profiles
-)
 }
 {
 .
@@ -14656,13 +14649,6 @@ TrueHD
 props
 =
 AV_CODEC_PROP_LOSSLESS
-.
-profiles
-=
-NULL_IF_CONFIG_SMALL
-(
-ff_truehd_profiles
-)
 }
 {
 .

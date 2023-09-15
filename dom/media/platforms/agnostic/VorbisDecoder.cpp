@@ -129,6 +129,13 @@ h
 #
 include
 "
+VorbisUtils
+.
+h
+"
+#
+include
+"
 XiphExtradata
 .
 h
@@ -1287,7 +1294,7 @@ error
 )
 ;
 }
-float
+VorbisPCMValue
 *
 *
 pcm
@@ -1418,7 +1425,7 @@ channels
 j
 )
 {
-float
+VorbisPCMValue
 *
 channel
 =
@@ -1455,10 +1462,13 @@ channels
 j
 ]
 =
+MOZ_CONVERT_VORBIS_SAMPLE
+(
 channel
 [
 i
 ]
+)
 ;
 }
 }

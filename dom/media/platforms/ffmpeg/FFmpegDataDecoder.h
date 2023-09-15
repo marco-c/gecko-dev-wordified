@@ -358,10 +358,6 @@ PrepareFrame
 MediaResult
 InitDecoder
 (
-AVDictionary
-*
-*
-aOptions
 )
 ;
 MediaResult
