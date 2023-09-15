@@ -252,6 +252,13 @@ UNIFIED_SOURCES
 "
 android
 /
+AndroidPerformanceHintManager
+.
+cpp
+"
+"
+android
+/
 AndroidProcessPriority
 .
 cpp
@@ -680,6 +687,13 @@ UNIFIED_SOURCES
 fallback
 /
 FallbackNetwork
+.
+cpp
+"
+"
+fallback
+/
+FallbackPerformanceHintManager
 .
 cpp
 "
