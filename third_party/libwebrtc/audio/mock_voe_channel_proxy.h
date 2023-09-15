@@ -828,8 +828,6 @@ RegisterSenderCongestionControlObjects
 (
 RtpTransportControllerSendInterface
 *
-RtcpBandwidthObserver
-*
 )
 (
 override
