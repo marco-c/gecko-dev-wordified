@@ -865,7 +865,7 @@ URIs
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 bg
 test
@@ -883,7 +883,7 @@ bg
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 fg
 test
@@ -1264,7 +1264,7 @@ works
 nicely
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 bg
 "
@@ -1284,7 +1284,7 @@ bg
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 fg
 "
@@ -1310,7 +1310,7 @@ URIs
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 bg
 test
@@ -1328,7 +1328,7 @@ bg
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 fg
 test

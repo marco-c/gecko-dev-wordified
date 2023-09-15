@@ -244,7 +244,7 @@ i
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 URL
@@ -304,7 +304,7 @@ page
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "

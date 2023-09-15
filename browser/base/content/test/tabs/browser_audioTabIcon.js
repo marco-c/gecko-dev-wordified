@@ -2943,7 +2943,7 @@ process
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "

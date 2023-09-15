@@ -689,9 +689,10 @@ browserLoaded
 browser
 )
 ;
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 secondLocation
@@ -1182,9 +1183,10 @@ browserLoaded
 browser
 )
 ;
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 secondLocation
@@ -3378,9 +3380,10 @@ browserLoaded
 browser
 )
 ;
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 SECOND_PAGE_URL

@@ -223,7 +223,7 @@ loaded
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 URL1

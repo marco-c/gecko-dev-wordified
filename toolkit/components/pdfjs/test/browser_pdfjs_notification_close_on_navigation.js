@@ -213,7 +213,7 @@ fallback
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "

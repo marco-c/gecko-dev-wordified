@@ -430,7 +430,7 @@ title
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 unknown_url
@@ -603,7 +603,7 @@ title
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 unknown_url

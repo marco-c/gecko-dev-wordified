@@ -361,7 +361,7 @@ innerID
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 aWindow
 .

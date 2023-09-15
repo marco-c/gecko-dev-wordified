@@ -1209,7 +1209,7 @@ E10S_PARENT_TEST_PAGE_URI
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 E10S_PARENT_TEST_PAGE_URI

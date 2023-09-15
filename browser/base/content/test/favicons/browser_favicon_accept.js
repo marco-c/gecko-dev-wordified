@@ -106,7 +106,7 @@ sjs
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 ROOT

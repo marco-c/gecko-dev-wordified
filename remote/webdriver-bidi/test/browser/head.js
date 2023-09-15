@@ -53,7 +53,7 @@ expectedURL
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url

@@ -156,7 +156,7 @@ frameUrl
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 testBrowser
 url

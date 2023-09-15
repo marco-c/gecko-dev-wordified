@@ -473,7 +473,7 @@ isAppLocaleRTL
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWindow
 .
@@ -507,7 +507,7 @@ mozilla
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWindow
 .
@@ -941,7 +941,7 @@ isAppLocaleRTL
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWindow
 .
@@ -975,7 +975,7 @@ mozilla
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWindow
 .

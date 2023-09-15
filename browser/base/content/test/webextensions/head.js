@@ -3197,7 +3197,7 @@ below
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

@@ -1322,7 +1322,7 @@ browser
 >
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 AUTH_URI

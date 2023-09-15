@@ -385,7 +385,7 @@ way
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 HOME_URL
@@ -888,7 +888,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 HOME_URL

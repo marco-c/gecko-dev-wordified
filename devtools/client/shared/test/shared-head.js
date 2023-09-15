@@ -4034,7 +4034,7 @@ else
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 uri

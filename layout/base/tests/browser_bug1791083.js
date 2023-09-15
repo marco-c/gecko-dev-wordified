@@ -247,7 +247,7 @@ resizeTo
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newWin
 .

@@ -804,7 +804,7 @@ entry
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "

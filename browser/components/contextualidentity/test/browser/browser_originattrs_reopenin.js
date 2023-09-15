@@ -848,9 +848,10 @@ false
 uri
 )
 ;
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 regularPage
 .

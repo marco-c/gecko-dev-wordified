@@ -1745,7 +1745,7 @@ stopped
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url
@@ -1882,7 +1882,7 @@ stopped
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url
@@ -1950,7 +1950,7 @@ stopped
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url

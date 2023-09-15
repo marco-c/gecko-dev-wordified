@@ -307,7 +307,7 @@ tab
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 DUMMY
@@ -406,7 +406,7 @@ tab
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 "

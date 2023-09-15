@@ -354,7 +354,7 @@ DOMTitleChanged
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 nextPage

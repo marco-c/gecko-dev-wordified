@@ -610,7 +610,7 @@ request
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TEST_PATH

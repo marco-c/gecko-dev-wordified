@@ -1134,7 +1134,7 @@ options
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 win
 .

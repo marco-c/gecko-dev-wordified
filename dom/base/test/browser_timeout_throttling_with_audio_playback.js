@@ -337,7 +337,7 @@ newTab
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newBrowser
 url

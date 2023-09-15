@@ -2070,7 +2070,7 @@ NAV_URI
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 TestWindow
 .

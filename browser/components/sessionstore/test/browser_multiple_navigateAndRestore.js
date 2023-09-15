@@ -146,7 +146,7 @@ after
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 PAGE_1
@@ -160,7 +160,7 @@ stop
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 PAGE_2

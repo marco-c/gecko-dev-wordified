@@ -851,7 +851,7 @@ isErrorPage
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 uri

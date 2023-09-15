@@ -1533,7 +1533,7 @@ page1
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

@@ -258,7 +258,7 @@ finishTest
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

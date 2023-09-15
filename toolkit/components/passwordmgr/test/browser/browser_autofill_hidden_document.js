@@ -399,7 +399,7 @@ FormProcessed
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab1
 .
@@ -564,7 +564,7 @@ true
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab1
 .
@@ -1138,7 +1138,7 @@ FormProcessed
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab1
 .

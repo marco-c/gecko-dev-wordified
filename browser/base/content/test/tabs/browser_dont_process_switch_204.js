@@ -270,7 +270,7 @@ true
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 aBrowser
 TEST_URL
@@ -369,7 +369,7 @@ BLANK_URL
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 aBrowser
 BLANK_URL

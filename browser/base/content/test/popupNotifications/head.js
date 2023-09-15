@@ -253,7 +253,7 @@ url
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url

@@ -933,9 +933,10 @@ browser
 =
 >
 {
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "

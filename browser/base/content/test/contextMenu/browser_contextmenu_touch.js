@@ -498,7 +498,7 @@ insecure
 url
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "

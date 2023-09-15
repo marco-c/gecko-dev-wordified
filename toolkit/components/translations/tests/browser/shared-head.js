@@ -799,7 +799,7 @@ mocked
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .
@@ -2769,7 +2769,7 @@ autoDownloadFromRemoteSettings
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .
@@ -5557,7 +5557,7 @@ languagePairs
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

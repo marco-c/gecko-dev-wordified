@@ -582,7 +582,7 @@ different
 page
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 ctx
 .
@@ -1234,7 +1234,7 @@ page
 3
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 ctx
 .

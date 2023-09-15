@@ -435,7 +435,7 @@ true
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newTabBrowser
 "
@@ -957,7 +957,7 @@ logo
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 currentBrowser
 "

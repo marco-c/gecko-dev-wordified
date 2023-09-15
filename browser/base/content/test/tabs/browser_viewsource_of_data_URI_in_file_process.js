@@ -191,7 +191,7 @@ DATA_URI
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 fileBrowser
 DATA_URI

@@ -179,7 +179,7 @@ onPick
 >
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .
@@ -227,7 +227,7 @@ onPick
 >
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

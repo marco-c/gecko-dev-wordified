@@ -518,9 +518,10 @@ again
 "
 )
 ;
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 url

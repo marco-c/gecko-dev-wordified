@@ -511,7 +511,7 @@ OTHER_PRODUCT_TEST_URL
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 OTHER_PRODUCT_TEST_URL
@@ -626,7 +626,7 @@ com
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "
@@ -881,7 +881,7 @@ added
 .
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 PRODUCT_TEST_URL

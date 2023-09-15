@@ -319,7 +319,7 @@ awaitNewTab
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 "
@@ -334,7 +334,7 @@ newTab
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 image

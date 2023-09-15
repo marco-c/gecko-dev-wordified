@@ -3473,7 +3473,7 @@ topframe
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TEST_4TH_PARTY_PAGE

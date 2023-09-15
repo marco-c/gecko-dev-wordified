@@ -519,7 +519,7 @@ EXAMPLE_ORG_URI
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 newTab
 .

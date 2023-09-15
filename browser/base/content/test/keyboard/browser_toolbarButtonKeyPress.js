@@ -1126,7 +1126,7 @@ aBrowser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 aBrowser
 "

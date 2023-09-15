@@ -542,7 +542,7 @@ uri
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 uri

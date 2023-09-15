@@ -532,7 +532,7 @@ requestUrl
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 requestUrl

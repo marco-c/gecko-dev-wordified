@@ -1983,7 +1983,7 @@ robots
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .
@@ -2072,7 +2072,7 @@ DUMMY_PATH
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

@@ -874,7 +874,7 @@ http
 page
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {
@@ -992,7 +992,7 @@ out
 )
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 /
@@ -1098,7 +1098,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {
@@ -1262,7 +1262,7 @@ browser
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {
@@ -1283,7 +1283,7 @@ browser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 {

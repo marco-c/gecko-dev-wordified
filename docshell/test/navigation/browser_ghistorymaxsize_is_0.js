@@ -507,7 +507,7 @@ same
 process
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 URL2

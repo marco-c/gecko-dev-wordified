@@ -707,7 +707,7 @@ WEB_REMOTE_TYPE
 {
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url
@@ -1024,7 +1024,7 @@ http
 webpage
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TEST_LOW1
@@ -1237,7 +1237,7 @@ gotoIndex
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 TEST_LOW2

@@ -217,7 +217,7 @@ page2
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 page2

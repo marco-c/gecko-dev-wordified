@@ -118,7 +118,7 @@ CANONICAL_URL_REDIRECTED
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 CANONICAL_URL_REDIRECTED

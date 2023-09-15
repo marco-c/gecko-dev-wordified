@@ -269,7 +269,7 @@ maybeErrorPage
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 testPage

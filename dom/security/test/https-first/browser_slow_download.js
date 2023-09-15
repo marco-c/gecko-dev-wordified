@@ -781,7 +781,7 @@ PUBLIC
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 TEST_URI

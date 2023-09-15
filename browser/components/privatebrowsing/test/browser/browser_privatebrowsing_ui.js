@@ -306,7 +306,7 @@ aCallback
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 aWindow
 .

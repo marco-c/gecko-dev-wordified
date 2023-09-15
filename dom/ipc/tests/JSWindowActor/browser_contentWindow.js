@@ -167,9 +167,10 @@ false
 url
 )
 ;
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 url

@@ -2313,7 +2313,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 "
@@ -2540,11 +2540,6 @@ gBrowser
 selectedBrowser
 )
 ;
-BrowserTestUtils
-.
-startLoadingURIString
-(
-gBrowser
 /
 /
 eslint
@@ -2563,6 +2558,11 @@ no
 insecure
 -
 url
+BrowserTestUtils
+.
+loadURIString
+(
+gBrowser
 "
 http
 :
@@ -3548,7 +3548,7 @@ newTab
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .
@@ -3733,7 +3733,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 "

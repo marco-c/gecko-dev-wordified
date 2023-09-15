@@ -163,7 +163,7 @@ RESOURCE_LINK
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .
@@ -518,7 +518,7 @@ RESOURCE_LINK
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gBrowser
 .

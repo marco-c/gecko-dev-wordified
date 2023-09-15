@@ -847,7 +847,7 @@ checkUIForTest1
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url
@@ -1033,7 +1033,7 @@ checkUIForTest2
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url
@@ -1233,7 +1233,7 @@ checkLoadEventForTest3
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url
@@ -1415,7 +1415,7 @@ checkLoadEventForTest4
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url
@@ -1654,7 +1654,7 @@ checkLoadEventForTest5
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url
@@ -1915,7 +1915,7 @@ checkLoadEventForTest6
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url
@@ -2118,7 +2118,7 @@ checkLoadEventForTest7
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url
@@ -2356,7 +2356,7 @@ checkLoadEventForTest8
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url
@@ -2616,7 +2616,7 @@ checkLoadEventForTest9
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 gTestBrowser
 url

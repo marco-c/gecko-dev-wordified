@@ -196,7 +196,7 @@ DOMModalDialogClosed
 ;
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 tab
 .

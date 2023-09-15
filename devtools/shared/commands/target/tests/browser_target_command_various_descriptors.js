@@ -884,9 +884,10 @@ browserLoaded
 browser
 )
 ;
+await
 BrowserTestUtils
 .
-startLoadingURIString
+loadURIString
 (
 browser
 SECOND_TEST_URL
