@@ -304,6 +304,12 @@ heartbeat_interval
 =
 heartbeat_interval
 ;
+options
+.
+enable_zero_checksum
+=
+false
+;
 return
 options
 ;
@@ -551,6 +557,7 @@ SctpPacket
 Parse
 (
 payload
+options_
 )
 )
 ;
@@ -683,6 +690,7 @@ SctpPacket
 Parse
 (
 payload
+options_
 )
 )
 ;
@@ -805,6 +813,7 @@ SctpPacket
 Parse
 (
 payload
+options_
 )
 )
 ;
@@ -964,6 +973,7 @@ SctpPacket
 Parse
 (
 payload
+options_
 )
 )
 ;
