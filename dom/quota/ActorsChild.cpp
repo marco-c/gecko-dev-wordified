@@ -2254,12 +2254,6 @@ case
 RequestResponse
 :
 :
-TResetAllResponse
-:
-case
-RequestResponse
-:
-:
 TPersistResponse
 :
 HandleResponse

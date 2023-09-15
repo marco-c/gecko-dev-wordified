@@ -351,10 +351,8 @@ RefPtr
 <
 QuotaRequestBase
 >
-CreateResetOrClearOp
+CreateClearOp
 (
-bool
-aClear
 )
 ;
 RefPtr
