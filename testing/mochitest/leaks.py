@@ -896,6 +896,11 @@ numDomWindowDestroyedLogsSeen
             
 )
         
+errors
+=
+[
+]
+        
 for
 test
 in
@@ -923,23 +928,29 @@ leakedWindows
 )
 :
                 
-self
+errors
 .
-logger
-.
-error
+append
 (
                     
+{
+                        
 "
-TEST
--
-UNEXPECTED
--
-FAIL
-|
-%
-s
-|
+test
+"
+:
+test
+[
+"
+fileName
+"
+]
+                        
+"
+msg
+"
+:
+"
 leaked
 %
 d
@@ -949,9 +960,6 @@ s
 )
 until
 shutdown
-"
-                    
-"
 [
 url
 =
@@ -959,17 +967,14 @@ url
 s
 ]
 "
+                        
 %
 (
-test
-[
-"
-fileName
-"
-]
 count
 url
 )
+                    
+}
                 
 )
                 
@@ -1039,23 +1044,29 @@ leakedDocShells
 ]
 :
                 
-self
+errors
 .
-logger
-.
-error
+append
 (
                     
+{
+                        
 "
-TEST
--
-UNEXPECTED
--
-FAIL
-|
-%
-s
-|
+test
+"
+:
+test
+[
+"
+fileName
+"
+]
+                        
+"
+msg
+"
+:
+"
 leaked
 %
 d
@@ -1064,19 +1075,11 @@ docShell
 s
 )
 until
-"
-                    
-"
 shutdown
 "
+                        
 %
 (
-test
-[
-"
-fileName
-"
-]
 len
 (
 test
@@ -1087,6 +1090,8 @@ leakedDocShells
 ]
 )
 )
+                    
+}
                 
 )
                 
@@ -1334,6 +1339,7 @@ hiddenDocShellsCount
         
 return
 failures
+errors
     
 def
 _logWindow
