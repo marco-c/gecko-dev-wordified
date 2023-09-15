@@ -2501,44 +2501,17 @@ kwargs
 "
 "
 "
-front
--
-end
-function
-to
+wraps
 mozprocess
 .
-ProcessHandler
+run_and_wait
+with
+process
+output
+logging
 "
 "
 "
-    
-#
-TODO
-:
-upstream
--
->
-mozprocess
-    
-#
-https
-:
-/
-/
-bugzilla
-.
-mozilla
-.
-org
-/
-show_bug
-.
-cgi
-?
-id
-=
-791383
     
 log
 =
@@ -2552,9 +2525,21 @@ mochitest
 def
 on_output
 (
+proc
 line
 )
 :
+        
+cmdline
+=
+subprocess
+.
+list2cmdline
+(
+proc
+.
+args
+)
         
 log
 .
@@ -2563,29 +2548,17 @@ process_output
             
 process
 =
-process
+proc
 .
 pid
             
 data
 =
 line
-.
-decode
-(
-"
-utf8
-"
-"
-replace
-"
-)
             
 command
 =
-process
-.
-commandline
+cmdline
         
 )
     
@@ -2593,32 +2566,22 @@ process
 =
 mozprocess
 .
-ProcessHandlerMixin
+run_and_wait
 (
-        
 *
 args
-processOutputLine
+output_line_handler
 =
 on_output
 *
 *
 kwargs
-    
-)
-    
-process
-.
-run
-(
 )
     
 return
 process
 .
-wait
-(
-)
+returncode
 def
 killPid
 (
@@ -4207,10 +4170,6 @@ xpcshell
 +
 args
         
-server_logfile
-=
-None
-        
 if
 MOCHITEST_SERVER_LOGGING
 and
@@ -4223,7 +4182,7 @@ os
 environ
 :
             
-server_logfile
+server_logfile_path
 =
 os
 .
@@ -4257,35 +4216,80 @@ MochitestServer
 instance_count
             
 )
-        
+            
+self
+.
+server_logfile
+=
+open
+(
+server_logfile_path
+"
+w
+"
+)
+            
 self
 .
 _process
 =
-mozprocess
+subprocess
 .
-ProcessHandler
+Popen
 (
-            
+                
 command
+                
 cwd
 =
 SCRIPT_DIR
+                
 env
 =
 env
-logfile
+                
+stdout
 =
+self
+.
 server_logfile
-        
+                
+stderr
+=
+subprocess
+.
+STDOUT
+            
 )
         
+else
+:
+            
+self
+.
+server_logfile
+=
+None
+            
 self
 .
 _process
+=
+subprocess
 .
-run
+Popen
 (
+                
+command
+                
+cwd
+=
+SCRIPT_DIR
+                
+env
+=
+env
+            
 )
         
 self
@@ -4653,6 +4657,23 @@ print_exc
         
 finally
 :
+            
+if
+self
+.
+server_logfile
+is
+not
+None
+:
+                
+self
+.
+server_logfile
+.
+close
+(
+)
             
 if
 self
@@ -5047,36 +5068,24 @@ self
 .
 _process
 =
-mozprocess
+subprocess
 .
-ProcessHandler
+Popen
 (
             
 cmd
-            
 cwd
 =
 SCRIPT_DIR
-            
 env
 =
 env
-            
-processStderrLine
+stderr
 =
-lambda
-_
-:
-None
-        
-)
-        
-self
+subprocess
 .
-_process
-.
-run
-(
+DEVNULL
+        
 )
         
 pid
@@ -6867,9 +6876,9 @@ gst10
     
 process
 =
-mozprocess
+subprocess
 .
-ProcessHandler
+Popen
 (
         
 [
@@ -6921,12 +6930,6 @@ device
         
 ]
     
-)
-    
-process
-.
-run
-(
 )
     
 info
@@ -10491,22 +10494,14 @@ self
 .
 websocketProcessBridge
 =
-mozprocess
+subprocess
 .
-ProcessHandler
+Popen
 (
 command
 cwd
 =
 SCRIPT_DIR
-)
-        
-self
-.
-websocketProcessBridge
-.
-run
-(
 )
         
 self
@@ -10567,8 +10562,6 @@ if
 self
 .
 websocketProcessBridge
-.
-proc
 .
 poll
 (
@@ -17007,6 +17000,7 @@ else
 def
 _psInfo
 (
+_
 line
 )
 :
@@ -17026,11 +17020,9 @@ info
 line
 )
             
-process
-=
 mozprocess
 .
-ProcessHandler
+run_and_wait
 (
                 
 [
@@ -17042,30 +17034,17 @@ ps
 f
 "
 ]
-processOutputLine
+                
+output_line_handler
 =
 _psInfo
-universal_newlines
-=
-True
             
-)
-            
-process
-.
-run
-(
-)
-            
-process
-.
-wait
-(
 )
             
 def
 _psKill
 (
+_
 line
 )
 :
@@ -17204,11 +17183,9 @@ pid
                             
 )
             
-process
-=
 mozprocess
 .
-ProcessHandler
+run_and_wait
 (
                 
 [
@@ -17226,26 +17203,10 @@ comm
 "
 ]
                 
-processOutputLine
+output_line_handler
 =
 _psKill
-                
-universal_newlines
-=
-True
             
-)
-            
-process
-.
-run
-(
-)
-            
-process
-.
-wait
-(
 )
     
 def
