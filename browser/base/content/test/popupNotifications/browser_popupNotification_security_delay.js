@@ -1349,6 +1349,13 @@ expired
 "
 )
 ;
+await
+new
+Promise
+(
+resolve
+=
+>
 /
 /
 eslint
@@ -1365,13 +1372,6 @@ no
 arbitrary
 -
 setTimeout
-await
-new
-Promise
-(
-resolve
-=
->
 setTimeout
 (
 resolve
