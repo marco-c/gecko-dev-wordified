@@ -2145,29 +2145,22 @@ test_runner_proc
 =
 None
         
-threading
-.
-Thread
+super
+(
+)
 .
 __init__
 (
-self
 name
 =
+f
 "
 TestRunnerManager
 -
-%
-s
--
-%
-i
-"
-%
-(
-test_type
+{
 index
-)
+}
+"
 )
         
 #
