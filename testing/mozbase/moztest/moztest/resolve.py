@@ -6790,25 +6790,33 @@ else
 manifest_relpath
 "
                 
-candidate_paths
-|
-=
-{
-                    
-t
-[
-"
-file_relpath
-"
-]
-                    
 for
 t
 in
 self
 .
 tests
+:
                     
+candidate_paths
+|
+=
+{
+                        
+t
+[
+"
+file_relpath
+"
+]
+                        
+for
+t
+in
+self
+.
+tests
+                        
 if
 mozpath
 .
@@ -6822,7 +6830,7 @@ key
 =
 =
 path
-                
+                    
 }
                 
 continue
