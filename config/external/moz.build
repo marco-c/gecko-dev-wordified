@@ -94,6 +94,9 @@ DIRS
 =
 [
 "
+gkcodecs
+"
+"
 lgpllibs
 "
 "

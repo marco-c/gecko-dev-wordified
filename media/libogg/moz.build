@@ -163,8 +163,11 @@ ogg_sources
 FINAL_LIBRARY
 =
 '
-gkmedias
+gkcodecs
 '
+NoVisibilityFlags
+(
+)
 #
 Add
 libFuzzer
