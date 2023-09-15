@@ -6713,6 +6713,12 @@ crate
 :
 :
 ComputePassDescriptor
+<
+super
+:
+:
+Api
+>
 )
 {
 if
