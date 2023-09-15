@@ -139,6 +139,27 @@ moz
 -
 libwebrtc
 #
+The
+previous
+fast
+-
+forward
+bug
+number
+is
+used
+for
+some
+error
+messaging
+.
+export
+MOZ_PRIOR_FASTFORWARD_BUG
+=
+"
+priorbugnum
+"
+#
 Fast
 -
 forwarding
@@ -470,6 +491,7 @@ t2
 def
 build_default_config_env
 (
+prior_bug_number
 bug_number
 milestone
 target
@@ -576,6 +598,10 @@ s
 substitute
 (
         
+priorbugnum
+=
+prior_bug_number
+        
 bugnum
 =
 bug_number
@@ -645,6 +671,8 @@ add_argument
 "
 -
 -
+prior
+-
 bug
 -
 number
@@ -681,6 +709,42 @@ add_argument
 "
 -
 -
+bug
+-
+number
+"
+        
+required
+=
+True
+        
+type
+=
+int
+        
+help
+=
+"
+integer
+Bugzilla
+number
+(
+example
+:
+1806510
+)
+"
+    
+)
+    
+parser
+.
+add_argument
+(
+        
+"
+-
+-
 milestone
 "
         
@@ -701,7 +765,7 @@ milestone
 (
 example
 :
-106
+107
 )
 "
     
@@ -737,7 +801,7 @@ release
 (
 example
 :
-110
+111
 )
 "
     
@@ -805,10 +869,16 @@ build_default_config_env
                 
 args
 .
+prior_bug_number
+                
+args
+.
 bug_number
+                
 args
 .
 milestone
+                
 args
 .
 release_target
