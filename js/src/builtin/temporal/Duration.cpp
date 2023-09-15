@@ -22118,19 +22118,6 @@ result
 Step
 1
 .
-(
-Not
-applicable
-in
-our
-implementation
-.
-)
-/
-/
-Step
-2
-.
 Rooted
 <
 Value
@@ -22168,7 +22155,7 @@ false
 /
 /
 Step
-3
+2
 .
 if
 (
@@ -22193,7 +22180,7 @@ true
 /
 /
 Step
-4
+3
 .
 auto
 offsetBehaviour
@@ -22206,7 +22193,7 @@ Option
 /
 /
 Step
-5
+4
 .
 auto
 matchBehaviour
@@ -22219,9 +22206,9 @@ MatchExactly
 /
 /
 Steps
-6
+5
 -
-7
+6
 .
 PlainDateTime
 dateTime
@@ -22275,7 +22262,7 @@ toObject
 /
 /
 Step
-6
+5
 .
 a
 .
@@ -22330,7 +22317,7 @@ true
 /
 /
 Step
-6
+5
 .
 b
 .
@@ -22424,7 +22411,7 @@ true
 /
 /
 Step
-6
+5
 .
 c
 .
@@ -22447,7 +22434,7 @@ false
 /
 /
 Step
-6
+5
 .
 d
 .
@@ -22524,7 +22511,7 @@ false
 /
 /
 Steps
-6
+5
 .
 e
 -
@@ -22561,7 +22548,7 @@ false
 /
 /
 Step
-6
+5
 .
 g
 .
@@ -22594,7 +22581,7 @@ false
 /
 /
 Step
-6
+5
 .
 h
 .
@@ -22626,7 +22613,7 @@ false
 /
 /
 Step
-6
+5
 .
 i
 .
@@ -22676,7 +22663,7 @@ false
 /
 /
 Step
-6
+5
 .
 j
 .
@@ -22701,7 +22688,7 @@ false
 /
 /
 Step
-6
+5
 .
 k
 .
@@ -22742,7 +22729,7 @@ false
 /
 /
 Step
-6
+5
 .
 l
 .
@@ -22783,7 +22770,7 @@ false
 /
 /
 Step
-6
+5
 .
 m
 .
@@ -22817,7 +22804,7 @@ false
 /
 /
 Step
-6
+5
 .
 n
 .
@@ -22841,9 +22828,9 @@ Wall
 /
 /
 Steps
-9
+8
 -
-10
+9
 .
 if
 (
@@ -22883,7 +22870,7 @@ isString
 /
 /
 Step
-9
+8
 .
 a
 .
@@ -22915,7 +22902,7 @@ false
 /
 /
 Step
-9
+8
 .
 b
 .
@@ -22941,7 +22928,7 @@ else
 /
 /
 Step
-10
+9
 .
 offsetNs
 =
@@ -22955,7 +22942,7 @@ else
 /
 /
 Step
-7
+6
 .
 a
 .
@@ -22990,7 +22977,7 @@ false
 /
 /
 Step
-7
+6
 .
 b
 .
@@ -23052,7 +23039,7 @@ false
 /
 /
 Step
-7
+6
 .
 c
 .
@@ -23067,7 +23054,7 @@ implementation
 /
 /
 Steps
-7
+6
 .
 e
 -
@@ -23081,7 +23068,7 @@ timeZoneName
 /
 /
 Step
-7
+6
 .
 f
 .
@@ -23106,7 +23093,7 @@ false
 /
 /
 Steps
-7
+6
 .
 f
 .
@@ -23145,7 +23132,7 @@ Wall
 /
 /
 Step
-7
+6
 .
 f
 .
@@ -23171,7 +23158,7 @@ timeZone
 /
 /
 Steps
-7
+6
 .
 g
 -
@@ -23222,9 +23209,9 @@ iso8601
 /
 /
 Steps
-9
+8
 -
-10
+9
 .
 if
 (
@@ -23250,7 +23237,7 @@ hasOffset
 /
 /
 Steps
-9
+8
 .
 a
 -
@@ -23266,7 +23253,7 @@ else
 /
 /
 Step
-10
+9
 .
 offsetNs
 =
@@ -23278,7 +23265,7 @@ offsetNs
 /
 /
 Step
-8
+7
 .
 if
 (
@@ -23323,9 +23310,9 @@ true
 /
 /
 Steps
-9
+8
 -
-10
+9
 .
 (
 Moved
@@ -23334,7 +23321,7 @@ above
 /
 /
 Step
-11
+10
 .
 Instant
 epochNanoseconds
@@ -23378,7 +23365,7 @@ epochNanoseconds
 /
 /
 Step
-12
+11
 .
 auto
 *
