@@ -1685,17 +1685,6 @@ Ok
 )
 ;
 }
-void
-MediaTransportParent
-:
-:
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
-)
-{
-}
 }
 /
 /
