@@ -343,7 +343,7 @@ spec
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 principal
@@ -395,7 +395,7 @@ spec
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 principal2
@@ -482,7 +482,7 @@ spec
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 principal
@@ -559,7 +559,7 @@ spec
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 principal2

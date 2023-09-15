@@ -304,7 +304,7 @@ page
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 firstUrl

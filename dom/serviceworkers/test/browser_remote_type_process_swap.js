@@ -277,7 +277,7 @@ aXULBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aXULBrowser
 aURI

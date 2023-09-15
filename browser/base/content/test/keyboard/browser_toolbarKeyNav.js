@@ -2322,7 +2322,7 @@ nothing
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aBrowser
 "

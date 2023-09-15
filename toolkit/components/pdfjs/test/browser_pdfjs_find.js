@@ -793,7 +793,7 @@ webpage
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

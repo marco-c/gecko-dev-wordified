@@ -173,7 +173,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 testBrowser
 testURI

@@ -314,7 +314,7 @@ page
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

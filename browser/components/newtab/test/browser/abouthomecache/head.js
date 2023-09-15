@@ -1284,7 +1284,7 @@ home
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

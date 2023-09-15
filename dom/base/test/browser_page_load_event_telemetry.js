@@ -236,7 +236,7 @@ i
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

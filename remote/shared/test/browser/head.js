@@ -1243,7 +1243,7 @@ maybeErrorPage
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url

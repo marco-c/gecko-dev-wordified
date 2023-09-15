@@ -259,7 +259,7 @@ page
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PRODUCT_PAGE
@@ -296,7 +296,7 @@ page
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 CONTENT_PAGE
@@ -741,7 +741,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PRODUCT_PAGE
@@ -1019,7 +1019,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 newWindow
 .
@@ -1381,7 +1381,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PRODUCT_PAGE

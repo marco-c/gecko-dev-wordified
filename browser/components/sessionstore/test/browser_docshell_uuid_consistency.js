@@ -555,7 +555,7 @@ process
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

@@ -196,7 +196,7 @@ redirected
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 {

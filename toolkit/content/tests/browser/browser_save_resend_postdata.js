@@ -190,7 +190,7 @@ waitForExplicitFinish
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 "

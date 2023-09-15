@@ -140,7 +140,7 @@ insecure
 url
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

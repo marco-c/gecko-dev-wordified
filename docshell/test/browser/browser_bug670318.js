@@ -786,7 +786,7 @@ listener
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL

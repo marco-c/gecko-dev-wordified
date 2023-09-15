@@ -752,7 +752,7 @@ waitForNewWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 SCRIPT_PAGE
@@ -911,7 +911,7 @@ OPEN_PAGE
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 SCRIPT_PAGE
@@ -971,7 +971,7 @@ OPEN_PAGE
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 SCRIPT_PAGE

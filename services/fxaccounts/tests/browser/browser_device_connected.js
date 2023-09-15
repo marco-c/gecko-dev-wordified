@@ -176,7 +176,7 @@ deviceName
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

@@ -597,7 +597,7 @@ selected
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 selectedBrowser
 "

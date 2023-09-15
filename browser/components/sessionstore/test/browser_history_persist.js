@@ -354,7 +354,7 @@ history
 entry
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -833,7 +833,7 @@ history
 entry
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

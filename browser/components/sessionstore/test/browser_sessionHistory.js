@@ -126,7 +126,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE
@@ -634,7 +634,7 @@ entry
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL2
@@ -1483,7 +1483,7 @@ correct
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

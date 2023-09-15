@@ -191,7 +191,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 WEBSOCKET_DOC_URL

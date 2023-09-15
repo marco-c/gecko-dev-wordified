@@ -2862,7 +2862,7 @@ FINAL_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 newTab
 .

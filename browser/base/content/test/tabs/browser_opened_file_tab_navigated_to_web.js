@@ -345,7 +345,7 @@ insecure
 url
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 openedBrowser
 "

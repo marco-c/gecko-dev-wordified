@@ -1377,7 +1377,7 @@ TEST_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

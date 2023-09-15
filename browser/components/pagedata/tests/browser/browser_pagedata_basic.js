@@ -212,7 +212,7 @@ data
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_URL2

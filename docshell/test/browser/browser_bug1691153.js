@@ -121,7 +121,7 @@ loaded
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 HTML_URI

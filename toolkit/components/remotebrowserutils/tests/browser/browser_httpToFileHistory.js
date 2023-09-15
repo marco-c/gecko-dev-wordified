@@ -137,7 +137,7 @@ HISTORY
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aBrowser
 url

@@ -272,7 +272,7 @@ AboutReaderContentReady
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

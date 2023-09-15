@@ -343,7 +343,7 @@ mixed
 content
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

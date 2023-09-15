@@ -336,7 +336,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 non_private_browser
 url
@@ -401,7 +401,7 @@ value2
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 private_browser
 url
@@ -438,7 +438,7 @@ test2
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 non_private_browser
 url
@@ -525,7 +525,7 @@ test
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 private_browser
 url
@@ -673,7 +673,7 @@ test2
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 private_browser
 url
@@ -835,7 +835,7 @@ value3
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 private_browser
 url
@@ -897,7 +897,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 non_private_browser
 url

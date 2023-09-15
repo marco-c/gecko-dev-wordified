@@ -296,7 +296,7 @@ now
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 BLOCKED_TEST_URL
@@ -341,7 +341,7 @@ now
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

@@ -372,7 +372,7 @@ TEST_URI_ORG
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 TEST_URI_ORG
@@ -406,7 +406,7 @@ TEST_URI_COM
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 TEST_URI_COM

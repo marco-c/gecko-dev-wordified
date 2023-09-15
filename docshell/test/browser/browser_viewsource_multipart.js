@@ -97,7 +97,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 MULTIPART_URI
@@ -286,7 +286,7 @@ multipart
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 view

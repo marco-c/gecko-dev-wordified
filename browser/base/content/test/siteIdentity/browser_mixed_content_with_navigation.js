@@ -397,7 +397,7 @@ URI
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testcase
@@ -488,7 +488,7 @@ secure
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 kSecureURI
@@ -698,7 +698,7 @@ URI
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testcase

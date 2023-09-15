@@ -929,7 +929,7 @@ TEST_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab1
 .
@@ -1076,7 +1076,7 @@ TEST_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab2
 .

@@ -185,7 +185,7 @@ loadStartedPromise
 =
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_LOAD_PAGE

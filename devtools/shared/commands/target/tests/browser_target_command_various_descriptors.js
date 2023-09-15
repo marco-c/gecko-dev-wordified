@@ -886,7 +886,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 SECOND_TEST_URL

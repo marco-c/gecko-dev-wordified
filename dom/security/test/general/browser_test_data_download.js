@@ -307,7 +307,7 @@ xhtml
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 kTestURI
@@ -443,7 +443,7 @@ PUBLIC
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 kTestURI

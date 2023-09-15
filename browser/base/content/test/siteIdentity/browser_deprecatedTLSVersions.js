@@ -354,7 +354,7 @@ deprecated
 versions
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 HTTPS_TLS1_0
@@ -405,7 +405,7 @@ secure
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 HTTPS_TLS1_1
@@ -461,7 +461,7 @@ to
 secure
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 HTTPS_TLS1_2
@@ -515,7 +515,7 @@ to
 broken
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 HTTPS_TLS1_1
@@ -573,7 +573,7 @@ for
 completeness
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 HTTPS_TLS1_3

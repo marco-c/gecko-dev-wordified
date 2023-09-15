@@ -144,7 +144,7 @@ aUrl
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aTab
 .

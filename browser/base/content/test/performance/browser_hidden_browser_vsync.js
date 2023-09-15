@@ -158,7 +158,7 @@ b
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 b
 data

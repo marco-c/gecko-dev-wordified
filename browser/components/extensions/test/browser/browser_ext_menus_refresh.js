@@ -2982,7 +2982,7 @@ hidden
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

@@ -266,6 +266,13 @@ com
 "
 )
 ;
+BrowserTestUtils
+.
+startLoadingURIString
+(
+appTab
+.
+linkedBrowser
 /
 /
 eslint
@@ -284,13 +291,6 @@ no
 insecure
 -
 url
-BrowserTestUtils
-.
-loadURIString
-(
-appTab
-.
-linkedBrowser
 "
 http
 :

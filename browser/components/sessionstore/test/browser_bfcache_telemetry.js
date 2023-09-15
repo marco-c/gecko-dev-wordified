@@ -188,7 +188,7 @@ URL1
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

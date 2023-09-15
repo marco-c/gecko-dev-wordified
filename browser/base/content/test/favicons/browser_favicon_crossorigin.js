@@ -183,7 +183,7 @@ FAVICON_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 {

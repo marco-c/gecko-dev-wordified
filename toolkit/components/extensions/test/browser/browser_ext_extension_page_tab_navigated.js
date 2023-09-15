@@ -957,7 +957,7 @@ tab
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 extPageURL2
@@ -1558,7 +1558,7 @@ webPageURL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browserForTab1
 webPageURL

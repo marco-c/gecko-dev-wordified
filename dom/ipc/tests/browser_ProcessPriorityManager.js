@@ -3665,7 +3665,7 @@ navigation
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 coopPage
@@ -5279,7 +5279,7 @@ page2
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 page2

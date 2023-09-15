@@ -2519,7 +2519,7 @@ SEARCH_SERP_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 newWindow
 .
@@ -2967,7 +2967,7 @@ event
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

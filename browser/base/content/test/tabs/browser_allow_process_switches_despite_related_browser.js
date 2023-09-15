@@ -220,7 +220,7 @@ uriString
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 viewSourceBrowser
 uriString

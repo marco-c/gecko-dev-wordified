@@ -467,7 +467,7 @@ testPageURL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browserTest
 .

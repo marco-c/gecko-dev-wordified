@@ -100,7 +100,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -1042,7 +1042,7 @@ com
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .

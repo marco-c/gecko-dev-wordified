@@ -131,7 +131,7 @@ failures
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_URI

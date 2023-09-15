@@ -293,7 +293,7 @@ expectedFavicon
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 extraTab
 .

@@ -201,7 +201,7 @@ bfcache
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testPage2

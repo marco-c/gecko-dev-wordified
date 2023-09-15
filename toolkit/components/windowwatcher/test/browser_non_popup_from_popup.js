@@ -291,7 +291,7 @@ NON_POPUP_OPENER
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 POPUP_OPENER

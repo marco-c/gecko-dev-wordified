@@ -206,7 +206,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 NON_REMOTE_PAGE

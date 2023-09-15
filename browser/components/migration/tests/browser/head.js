@@ -495,7 +495,7 @@ else
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 prefsBrowser
 "
