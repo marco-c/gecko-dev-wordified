@@ -129,9 +129,6 @@ keywords
 array
 "
 ]
-is_top_pick
-:
-true
 }
 ]
 }
