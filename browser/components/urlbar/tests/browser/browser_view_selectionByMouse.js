@@ -328,7 +328,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 data
 -
@@ -408,7 +408,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 data
 -
@@ -471,7 +471,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 data
 -
@@ -490,7 +490,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 data
 -
@@ -529,7 +529,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 data
 -
@@ -857,7 +857,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 data
 -
@@ -1159,7 +1159,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 selected
 ]
@@ -1176,7 +1176,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 selected
 ]
@@ -1208,7 +1208,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 data
 -
@@ -1227,7 +1227,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 data
 -
@@ -1271,7 +1271,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 data
 -

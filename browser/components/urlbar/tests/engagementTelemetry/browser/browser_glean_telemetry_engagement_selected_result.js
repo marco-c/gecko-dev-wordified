@@ -1352,7 +1352,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 [
 data
 -

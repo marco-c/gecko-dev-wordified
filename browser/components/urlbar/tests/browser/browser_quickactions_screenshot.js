@@ -697,7 +697,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 "
 )
 ;
@@ -969,7 +969,7 @@ urlbarView
 -
 quickaction
 -
-row
+button
 "
 )
 ;
