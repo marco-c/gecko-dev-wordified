@@ -7567,15 +7567,12 @@ AutoFilename
 filename
 =
 nullptr
-uint32_t
+unsigned
 *
 lineno
 =
 nullptr
-JS
-:
-:
-ColumnNumberZeroOrigin
+unsigned
 *
 column
 =

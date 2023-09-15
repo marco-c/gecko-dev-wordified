@@ -1326,10 +1326,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 RetAddrEntryKindToString
 (
 frameKind
@@ -2715,10 +2711,6 @@ script
 -
 >
 column
-(
-)
-.
-zeroOriginValue
 (
 )
 observing

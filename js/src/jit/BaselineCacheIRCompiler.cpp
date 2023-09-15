@@ -16021,10 +16021,6 @@ outerScript
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 return

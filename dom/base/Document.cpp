@@ -26710,6 +26710,16 @@ JS
 AutoFilename
 filename
 ;
+uint32_t
+line
+=
+0
+;
+uint32_t
+column
+=
+0
+;
 if
 (
 !
@@ -26721,6 +26731,10 @@ DescribeScriptedCaller
 aCx
 &
 filename
+&
+line
+&
+column
 )
 )
 {

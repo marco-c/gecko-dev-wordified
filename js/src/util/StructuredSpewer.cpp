@@ -680,10 +680,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 /
@@ -956,10 +952,6 @@ script
 -
 >
 column
-(
-)
-.
-zeroOriginValue
 (
 )
 )

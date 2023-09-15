@@ -4263,15 +4263,7 @@ metadata
 .
 columnNumber
 =
-JS
-:
-:
-ColumnNumberZeroOrigin
-:
-:
-zero
-(
-)
+0
 ;
 metadata
 .

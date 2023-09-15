@@ -1400,10 +1400,6 @@ aReport
 -
 >
 column
-.
-oneOriginValue
-(
-)
 ;
 }
 void

@@ -923,10 +923,6 @@ CHECK
 error
 .
 column
-.
-oneOriginValue
-(
-)
 =
 =
 10
@@ -1780,10 +1776,6 @@ CHECK
 error
 .
 column
-.
-oneOriginValue
-(
-)
 =
 =
 10

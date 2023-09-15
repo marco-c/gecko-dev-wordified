@@ -2195,10 +2195,6 @@ script
 column
 (
 )
-.
-zeroOriginValue
-(
-)
 )
 ;
 hasLineAndColumn
