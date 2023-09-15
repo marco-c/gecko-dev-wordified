@@ -114093,7 +114093,7 @@ bool
 Document
 :
 :
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 {
@@ -114150,7 +114150,7 @@ inner
 inner
 -
 >
-HasStorageAccessPermissionGranted
+UsingStorageAccess
 (
 )
 )
