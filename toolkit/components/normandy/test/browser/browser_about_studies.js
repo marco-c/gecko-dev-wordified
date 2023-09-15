@@ -4672,10 +4672,9 @@ Assert
 equal
 (
 studyCount
-0
+1
 "
 Rollout
-not
 loaded
 in
 non
