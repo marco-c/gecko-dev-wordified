@@ -203,6 +203,10 @@ DesktopCapturer
 >
 CreateScreenCapturerWinDirectx
 (
+const
+DesktopCaptureOptions
+&
+options
 )
 {
 std
@@ -217,6 +221,7 @@ capturer
 new
 ScreenCapturerWinDirectx
 (
+options
 )
 )
 ;
@@ -405,6 +410,7 @@ FallbackDesktopCapturerWrapper
 (
 CreateScreenCapturerWinDirectx
 (
+options
 )
 std
 :
