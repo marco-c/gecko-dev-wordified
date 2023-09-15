@@ -1445,7 +1445,7 @@ allowNonUtility
 |
 |
 !
-isNightlyOrEalyBeta
+isNightly
 (
 )
 )
