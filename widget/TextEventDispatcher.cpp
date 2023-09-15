@@ -4358,13 +4358,6 @@ keyEvent
 IsMeta
 (
 )
-|
-|
-keyEvent
-.
-IsOS
-(
-)
 )
 )
 {

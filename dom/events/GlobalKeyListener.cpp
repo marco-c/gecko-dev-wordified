@@ -2626,13 +2626,13 @@ if
 !
 aIgnoreModifierState
 .
-mOS
+mMeta
 &
 &
 widgetKeyboardEvent
 -
 >
-IsOS
+IsMeta
 (
 )
 )
@@ -2645,7 +2645,7 @@ aIgnoreModifierState
 ;
 ignoreModifierState
 .
-mOS
+mMeta
 =
 true
 ;

@@ -1349,10 +1349,10 @@ mShift
 /
 /
 When
-mOS
+mMeta
 is
 true
-OS
+Meta
 key
 state
 will
@@ -1360,7 +1360,7 @@ be
 ignored
 .
 bool
-mOS
+mMeta
 ;
 IgnoreModifierState
 (
@@ -1370,7 +1370,7 @@ mShift
 (
 false
 )
-mOS
+mMeta
 (
 false
 )
@@ -2386,8 +2386,6 @@ XP_MAXOSX
 MODIFIER_CONTROL
 |
 MODIFIER_META
-|
-MODIFIER_OS
 )
 )
 ;
@@ -2421,8 +2419,6 @@ MODIFIER_ALT
 MODIFIER_CONTROL
 |
 MODIFIER_META
-|
-MODIFIER_OS
 )
 )
 ;
@@ -2567,8 +2563,6 @@ mModifiers
 MODIFIER_ALT
 |
 MODIFIER_META
-|
-MODIFIER_OS
 |
 MODIFIER_SHIFT
 )
@@ -2802,11 +2796,6 @@ IsAltGraph
 |
 |
 IsMeta
-(
-)
-|
-|
-IsOS
 (
 )
 ;
