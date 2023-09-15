@@ -203,6 +203,9 @@ uint64_t
 aChannelID
 )
 ;
+#
+ifdef
+MOZ_WEBRTC
 mozilla
 :
 :
@@ -221,6 +224,8 @@ PMediaTransportParent
 aEndpoint
 )
 ;
+#
+endif
 void
 ActorDestroy
 (
