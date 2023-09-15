@@ -897,7 +897,7 @@ expectation
 =
 usingStrictParsing
 ?
-NS_ERROR_FAILURE
+NS_ERROR_PARSING_HTTP_STATUS_LINE
 :
 NS_OK
 ;
