@@ -7056,8 +7056,6 @@ E
 (
 &
 self
-.
-device
 pseudo
 inputs
 .
@@ -7086,9 +7084,6 @@ visited_rules
 inputs
 .
 flags
-self
-.
-quirks_mode
 rule_cache
 rule_cache_conditions
 element
@@ -9256,8 +9251,6 @@ _
 (
 &
 self
-.
-device
 /
 *
 pseudo
@@ -9344,9 +9337,6 @@ Default
 default
 (
 )
-self
-.
-quirks_mode
 /
 *
 rule_cache
@@ -16607,10 +16597,6 @@ condition
 matches
 (
 stylist
-.
-device
-(
-)
 element
 context
 .
