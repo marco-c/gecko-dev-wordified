@@ -21054,7 +21054,7 @@ performed
 /
 public
 final
-int
+long
 lastAnalysisTime
 ;
 /
@@ -21207,7 +21207,7 @@ lastAnalysisTime
 =
 message
 .
-getInt
+getLong
 (
 "
 last_analysis_time
