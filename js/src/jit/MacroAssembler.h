@@ -34565,6 +34565,13 @@ dest
 )
 ;
 void
+loadGlobalObjectData
+(
+Register
+dest
+)
+;
+void
 switchToRealm
 (
 Register
