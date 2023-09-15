@@ -1067,6 +1067,11 @@ Invalidate
 (
 )
 ;
+void
+Unregister
+(
+)
+;
 /
 /
 DirectoryLock
