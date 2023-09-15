@@ -206,6 +206,15 @@ h
 #
 include
 "
+test
+/
+video_test_constants
+.
+h
+"
+#
+include
+"
 video
 /
 config
@@ -831,7 +840,7 @@ payload_type
 test
 :
 :
-CallTest
+VideoTestConstants
 :
 :
 kVideoSendPayloadType

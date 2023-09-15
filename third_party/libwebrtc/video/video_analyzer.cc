@@ -330,6 +330,15 @@ test_artifacts
 .
 h
 "
+#
+include
+"
+test
+/
+video_test_constants
+.
+h
+"
 ABSL_FLAG
 (
 bool
@@ -498,7 +507,7 @@ payload_type
 test
 :
 :
-CallTest
+VideoTestConstants
 :
 :
 kFlexfecPayloadType
@@ -2628,7 +2637,7 @@ PayloadType
 test
 :
 :
-CallTest
+VideoTestConstants
 :
 :
 kPayloadTypeVP8
@@ -2712,7 +2721,7 @@ PayloadType
 test
 :
 :
-CallTest
+VideoTestConstants
 :
 :
 kPayloadTypeVP9
