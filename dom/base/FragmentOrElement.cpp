@@ -7748,12 +7748,17 @@ OwnedOnlyByTheDOMAndFrameTrees
 )
 &
 &
+#
+ifdef
+ACCESSIBILITY
 !
 GetAccService
 (
 )
 &
 &
+#
+endif
 !
 OwnerDoc
 (
