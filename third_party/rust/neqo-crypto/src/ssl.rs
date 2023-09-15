@@ -279,6 +279,7 @@ RecordSizeLimit
 Tls13CompatMode
 HelloDowngradeCheck
 SuppressEndOfEarlyData
+Grease
 }
 impl
 Opt
@@ -435,6 +436,16 @@ SSLOption
 :
 :
 SSL_SUPPRESS_END_OF_EARLY_DATA
+Self
+:
+:
+Grease
+=
+>
+SSLOption
+:
+:
+SSL_ENABLE_GREASE
 }
 ;
 i

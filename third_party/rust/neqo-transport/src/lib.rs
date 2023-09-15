@@ -333,7 +333,10 @@ self
 recv_stream
 :
 :
+{
+RecvStreamStats
 RECV_BUFFER_SIZE
+}
 ;
 pub
 use
@@ -343,7 +346,10 @@ self
 send_stream
 :
 :
+{
+SendStreamStats
 SEND_BUFFER_SIZE
+}
 ;
 pub
 type

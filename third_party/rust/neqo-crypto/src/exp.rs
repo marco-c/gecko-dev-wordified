@@ -80,6 +80,10 @@ to
 those
 terms
 .
+#
+[
+macro_export
+]
 macro_rules
 !
 experimental_api

@@ -7042,11 +7042,11 @@ println
 Connecting
 with
 {
+v
 :
 ?
 }
 "
-v
 )
 ;
 connect_v
@@ -8707,10 +8707,6 @@ PeerError
 )
 ;
 let
-updated_config
-=
-if
-let
 Some
 (
 ConnectionError
@@ -8723,7 +8719,7 @@ Error
 :
 EchRetry
 (
-c
+updated_config
 )
 )
 )
@@ -8737,9 +8733,6 @@ state
 error
 (
 )
-{
-c
-}
 else
 {
 panic

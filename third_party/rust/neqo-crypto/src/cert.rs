@@ -402,13 +402,9 @@ new
 )
 ;
 let
-len
-=
-if
-let
 Ok
 (
-l
+len
 )
 =
 isize
@@ -427,9 +423,6 @@ as_ref
 len
 }
 )
-{
-l
-}
 else
 {
 qerror
@@ -441,11 +434,11 @@ format
 (
 "
 {
+fd
 :
 p
 }
 "
-fd
 )
 ]
 "

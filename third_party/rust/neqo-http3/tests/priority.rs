@@ -517,7 +517,6 @@ now
 )
 )
 ;
-let
 _
 =
 server

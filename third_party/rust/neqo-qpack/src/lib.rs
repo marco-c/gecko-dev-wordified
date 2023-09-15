@@ -611,11 +611,11 @@ QPACK
 error
 :
 {
+self
 :
 ?
 }
 "
-self
 )
 }
 }
