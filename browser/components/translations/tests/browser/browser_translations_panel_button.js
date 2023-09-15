@@ -119,7 +119,6 @@ Spanish
 await
 navigate
 (
-ENGLISH_PAGE_URL
 "
 Navigate
 to
@@ -128,6 +127,11 @@ English
 page
 .
 "
+{
+url
+:
+ENGLISH_PAGE_URL
+}
 )
 ;
 await
@@ -157,7 +161,6 @@ English
 await
 navigate
 (
-SPANISH_PAGE_URL
 "
 Navigate
 back
@@ -167,6 +170,11 @@ Spanish
 page
 .
 "
+{
+url
+:
+SPANISH_PAGE_URL
+}
 )
 ;
 await
