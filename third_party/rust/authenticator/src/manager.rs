@@ -306,7 +306,7 @@ Result
 crate
 :
 :
-ResetResult
+ManageResult
 >
 >
 }
@@ -1061,7 +1061,7 @@ Result
 crate
 :
 :
-ResetResult
+ManageResult
 >
 >
 )

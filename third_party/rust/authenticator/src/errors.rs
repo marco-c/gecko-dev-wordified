@@ -159,7 +159,6 @@ enum
 UnsupportedOption
 {
 EmptyAllowList
-HmacSecret
 MaxPinLength
 PubCredParams
 ResidentKey

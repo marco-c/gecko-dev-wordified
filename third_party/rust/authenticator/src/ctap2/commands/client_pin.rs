@@ -3578,6 +3578,8 @@ Output
 fn
 command
 (
+&
+self
 )
 -
 >
