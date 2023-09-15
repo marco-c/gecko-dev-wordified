@@ -2142,14 +2142,6 @@ nscoord
 aHeight
 )
 ;
-bool
-CanHandleUserInputEvents
-(
-WidgetGUIEvent
-*
-aGUIEvent
-)
-;
 public
 :
 /

@@ -76262,7 +76262,12 @@ READYSTATE_LOADING
 aReadyState
 )
 {
-SetLoadingOrRestoredFromBFCacheTimeStampToNow
+mLoadingTimeStamp
+=
+TimeStamp
+:
+:
+Now
 (
 )
 ;
@@ -84438,7 +84443,7 @@ aTiming
 if
 (
 !
-mLoadingOrRestoredFromBFCacheTimeStamp
+mLoadingTimeStamp
 .
 IsNull
 (
@@ -84456,7 +84461,7 @@ SetDOMLoadingTimeStamp
 GetDocumentURI
 (
 )
-mLoadingOrRestoredFromBFCacheTimeStamp
+mLoadingTimeStamp
 )
 ;
 }
