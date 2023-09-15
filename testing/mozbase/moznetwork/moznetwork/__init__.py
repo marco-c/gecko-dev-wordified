@@ -138,11 +138,15 @@ from
 .
 moznetwork
 import
+NetworkError
 get_ip
 __all__
 =
 [
 "
 get_ip
+"
+"
+NetworkError
 "
 ]

@@ -217,8 +217,6 @@ testing
 mozbase
 /
 moznetwork
-/
-moznetwork
 "
     
 "
