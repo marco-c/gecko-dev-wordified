@@ -7866,14 +7866,6 @@ sumTotalParallelTime
 PhaseKind
 :
 :
-PARALLEL_MARK_WAIT
-)
-+
-sumTotalParallelTime
-(
-PhaseKind
-:
-:
 PARALLEL_MARK_OTHER
 )
 ;
