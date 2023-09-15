@@ -149,6 +149,10 @@ include
 protocol
 PProxyAutoConfig
 ;
+include
+protocol
+PSocketProcessBackground
+;
 #
 if
 defined
@@ -181,9 +185,6 @@ NeckoChannelParams
 ;
 include
 PrefsTypes
-;
-include
-PSMIPCTypes
 ;
 include
 "
@@ -795,6 +796,16 @@ InitBackground
 Endpoint
 <
 PBackgroundStarterParent
+>
+aEndpoint
+)
+;
+async
+InitSocketBackground
+(
+Endpoint
+<
+PSocketProcessBackgroundParent
 >
 aEndpoint
 )
