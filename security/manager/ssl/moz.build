@@ -208,7 +208,7 @@ nsICertTree
 idl
 "
 "
-nsIClientAuthDialogService
+nsIClientAuthDialogs
 .
 idl
 "
@@ -354,13 +354,6 @@ psm
 +
 =
 [
-"
-ClientAuthDialogService
-.
-sys
-.
-mjs
-"
 "
 DER
 .

@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsIClientAuthDialogs
+.
+h
+"
+#
+include
+"
 nsIStringBundle
 .
 h
@@ -154,6 +161,8 @@ nsNSSDialogs
 public
 nsICertificateDialogs
 public
+nsIClientAuthDialogs
+public
 nsITokenPasswordDialogs
 {
 public
@@ -161,6 +170,7 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITOKENPASSWORDDIALOGS
 NS_DECL_NSICERTIFICATEDIALOGS
+NS_DECL_NSICLIENTAUTHDIALOGS
 nsNSSDialogs
 (
 )

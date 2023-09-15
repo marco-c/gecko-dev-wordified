@@ -386,6 +386,13 @@ h
 #
 include
 "
+nsIClientAuthDialogs
+.
+h
+"
+#
+include
+"
 nsISocketProvider
 .
 h
