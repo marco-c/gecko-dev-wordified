@@ -8670,18 +8670,6 @@ FAILURE
 1041
 )
     
-errors
-[
-"
-NS_ERROR_DOM_INVALID_HEADER_VALUE
-"
-]
-=
-FAILURE
-(
-1042
-)
-    
 #
 May
 be
