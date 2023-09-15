@@ -25163,12 +25163,8 @@ Protection
 in
 private
 windows
-in
-Nightly
 .
-#
-ifdef
-NIGHTLY_BUILD
+.
 pref
 (
 "
@@ -25181,8 +25177,6 @@ pbmode
 true
 )
 ;
-#
-endif
 /
 /
 Start
