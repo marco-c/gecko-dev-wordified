@@ -4810,7 +4810,7 @@ names
 (
 )
 .
-empty
+empty_
 )
 objectProto
 gc
@@ -11655,7 +11655,7 @@ names
 (
 )
 .
-empty
+empty_
 ;
 }
 /

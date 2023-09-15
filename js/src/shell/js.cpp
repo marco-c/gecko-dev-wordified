@@ -12578,7 +12578,7 @@ names
 (
 )
 .
-empty
+empty_
 .
 toHandle
 (
@@ -54225,7 +54225,7 @@ names
 (
 )
 .
-empty
+empty_
 )
 ;
 RootedObject

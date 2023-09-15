@@ -730,7 +730,7 @@ names
 (
 )
 .
-empty
+empty_
 ;
 RootedFunction
 handlerFun

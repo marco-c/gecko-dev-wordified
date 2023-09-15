@@ -1354,7 +1354,7 @@ else
 \
 MACRO0
 (
-empty
+empty_
 "
 "
 )
