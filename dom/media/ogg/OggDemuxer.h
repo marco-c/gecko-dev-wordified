@@ -1260,7 +1260,6 @@ aType
 )
 ;
 static
-const
 nsString
 GetKind
 (
@@ -2326,7 +2325,7 @@ return
 mSkeletonState
 !
 =
-0
+nullptr
 &
 &
 mSkeletonState
