@@ -199,7 +199,7 @@ aLib
 const
 AudioInfo
 &
-aConfig
+aInfo
 )
 ;
 virtual
@@ -235,6 +235,10 @@ const
 nsACString
 &
 aMimeType
+const
+AudioInfo
+&
+aInfo
 )
 ;
 nsCString
@@ -337,6 +341,10 @@ aGotFrame
 size_t
 aSamplePositionOffset
 )
+;
+const
+AudioInfo
+mAudioInfo
 ;
 }
 ;

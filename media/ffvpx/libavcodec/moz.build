@@ -424,6 +424,11 @@ parsers
 c
 '
 '
+pcm
+.
+c
+'
+'
 profiles
 .
 c
