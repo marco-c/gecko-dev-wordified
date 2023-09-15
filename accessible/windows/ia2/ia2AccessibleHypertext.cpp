@@ -236,16 +236,6 @@ IsTextRole
 )
 )
 {
-bool
-isLocal
-=
-acc
--
->
-IsLocal
-(
-)
-;
 if
 (
 aIID
@@ -303,9 +293,6 @@ aIID
 =
 =
 IID_IAccessibleHypertext2
-&
-&
-isLocal
 )
 {
 *
@@ -328,9 +315,6 @@ aIID
 =
 =
 IID_IAccessibleEditableText
-&
-&
-isLocal
 )
 {
 *
