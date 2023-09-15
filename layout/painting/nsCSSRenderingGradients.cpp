@@ -3242,7 +3242,7 @@ mColor
 StyleAbsoluteColor
 :
 :
-Srgb
+SrgbLegacy
 (
 red
 green
