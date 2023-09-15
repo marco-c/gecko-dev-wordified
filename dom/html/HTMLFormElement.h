@@ -2190,7 +2190,7 @@ the
 /
 /
 header
-nsIHTMLCollection
+HTMLFormControlsCollection
 *
 Elements
 (
