@@ -1259,7 +1259,7 @@ GetScriptLoader
 )
 -
 >
-ProcessPendingRequests
+ProcessPendingRequestsAsync
 (
 )
 ;
