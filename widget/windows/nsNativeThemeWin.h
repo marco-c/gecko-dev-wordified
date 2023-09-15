@@ -527,9 +527,6 @@ override
 bool
 ThemeWantsButtonInnerFocusRing
 (
-nsIFrame
-*
-StyleAppearance
 )
 override
 {
