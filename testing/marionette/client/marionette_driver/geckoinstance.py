@@ -348,36 +348,6 @@ False
         
 #
 Disable
-page
-translations
-causing
-timeouts
-for
-wdspec
-tests
-in
-early
-        
-#
-beta
-.
-See
-Bug
-1836093
-.
-        
-"
-browser
-.
-translations
-.
-enable
-"
-:
-False
-        
-#
-Disable
 UI
 tour
         
