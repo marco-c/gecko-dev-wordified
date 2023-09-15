@@ -3650,8 +3650,6 @@ mLoadingEnabled
 :
 1
 ;
-protected
-:
 /
 *
 *
@@ -3696,6 +3694,8 @@ mBroken
 :
 1
 ;
+protected
+:
 /
 *
 *
