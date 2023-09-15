@@ -2575,6 +2575,17 @@ AudioFrameInfo
 :
 :
 kError
+&
+&
+!
+audio_frame
+-
+>
+packet_infos_
+.
+empty
+(
+)
 )
 {
 source_tracker_
