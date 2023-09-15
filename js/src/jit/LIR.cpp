@@ -2492,6 +2492,17 @@ case
 LDefinition
 :
 :
+WASM_ANYREF
+:
+return
+"
+wr
+"
+;
+case
+LDefinition
+:
+:
 FLOAT32
 :
 return
