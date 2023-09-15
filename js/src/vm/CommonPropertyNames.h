@@ -578,7 +578,7 @@ bound
 \
 MACRO_
 (
-boundWithSpace
+boundWithSpace_
 "
 bound
 "
@@ -2454,7 +2454,7 @@ InterpretGeneratorResume
 \
 MACRO_
 (
-InvalidDate
+Invalid_Date_
 "
 Invalid
 Date
@@ -2658,7 +2658,7 @@ IteratorClose
 \
 MACRO_
 (
-IteratorHelper
+Iterator_Helper_
 "
 Iterator
 Helper
@@ -3595,7 +3595,7 @@ other
 \
 MACRO_
 (
-outOfMemory
+out_of_memory_
 "
 out
 of
@@ -4896,7 +4896,7 @@ void
 \
 MACRO_
 (
-void0
+void_0_
 "
 (
 void
