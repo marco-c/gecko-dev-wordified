@@ -9837,6 +9837,14 @@ StaticPrefs
 general_smoothScroll
 (
 )
+&
+&
+StaticPrefs
+:
+:
+general_smoothScroll_pages
+(
+)
 ?
 ScrollMode
 :
