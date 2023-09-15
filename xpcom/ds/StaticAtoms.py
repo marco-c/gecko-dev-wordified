@@ -7568,6 +7568,16 @@ opaque
 Atom
 (
 "
+moz_action_hint
+"
+"
+mozactionhint
+"
+)
+    
+Atom
+(
+"
 multicol
 "
 "
