@@ -32183,16 +32183,6 @@ data_channel_controller
 )
 -
 >
-HasUsedDataChannels
-(
-)
-&
-&
-data_channel_controller
-(
-)
--
->
 HasDataChannels
 (
 )
