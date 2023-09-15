@@ -20330,7 +20330,7 @@ SendDecoderSupportedMimeTypes
 AndroidDecoderModule
 :
 :
-GetSupportedMimeTypes
+GetSupportedMimeTypesPrefixed
 (
 )
 )

@@ -777,12 +777,6 @@ AndroidDecoderModule
 :
 SetSupportedMimeTypes
 (
-AndroidDecoderModule
-:
-:
-GetSupportedMimeTypes
-(
-)
 )
 ;
 }
