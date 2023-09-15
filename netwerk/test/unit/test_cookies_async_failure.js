@@ -449,7 +449,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -581,7 +580,6 @@ laxByDefault
 function
 do_get_backup_file
 (
-profile
 )
 {
 let
@@ -613,7 +611,6 @@ file
 function
 do_get_rebuild_backup_file
 (
-profile
 )
 {
 let
@@ -1507,7 +1504,6 @@ ok
 (
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -1526,7 +1522,6 @@ openDatabase
 (
 do_get_backup_file
 (
-profile
 )
 )
 ;
@@ -1663,7 +1658,6 @@ false
 ;
 do_get_backup_file
 (
-profile
 )
 .
 remove
@@ -1693,7 +1687,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -1788,7 +1781,6 @@ i
 i
 )
 {
-let
 uri
 =
 NetUtil
@@ -1901,7 +1893,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -1975,7 +1966,6 @@ ok
 (
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -1989,7 +1979,6 @@ equal
 (
 do_get_backup_file
 (
-profile
 )
 .
 fileSize
@@ -2078,7 +2067,6 @@ false
 ;
 do_get_backup_file
 (
-profile
 )
 .
 remove
@@ -2108,7 +2096,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -2420,7 +2407,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -2551,7 +2537,6 @@ ok
 (
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -2565,7 +2550,6 @@ equal
 (
 do_get_backup_file
 (
-profile
 )
 .
 fileSize
@@ -2587,7 +2571,6 @@ synchronously
 .
 do_get_backup_file
 (
-profile
 )
 .
 moveTo
@@ -2630,7 +2613,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -2713,7 +2695,6 @@ ok
 (
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -2727,7 +2708,6 @@ equal
 (
 do_get_backup_file
 (
-profile
 )
 .
 fileSize
@@ -2751,7 +2731,6 @@ false
 ;
 do_get_backup_file
 (
-profile
 )
 .
 remove
@@ -2781,7 +2760,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -2876,7 +2854,6 @@ i
 i
 )
 {
-let
 uri
 =
 NetUtil
@@ -2989,7 +2966,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -3151,7 +3127,6 @@ ok
 (
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -3165,7 +3140,6 @@ equal
 (
 do_get_backup_file
 (
-profile
 )
 .
 fileSize
@@ -3247,7 +3221,6 @@ false
 ;
 do_get_backup_file
 (
-profile
 )
 .
 remove
@@ -3277,7 +3250,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -3397,7 +3369,6 @@ i
 i
 )
 {
-let
 uri
 =
 NetUtil
@@ -3510,7 +3481,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -3582,7 +3552,6 @@ ok
 (
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -3596,7 +3565,6 @@ equal
 (
 do_get_backup_file
 (
-profile
 )
 .
 fileSize
@@ -3610,7 +3578,6 @@ ok
 !
 do_get_rebuild_backup_file
 (
-profile
 )
 .
 exists
@@ -3714,7 +3681,6 @@ ok
 (
 do_get_backup_file
 (
-profile
 )
 .
 exists
@@ -3728,7 +3694,6 @@ equal
 (
 do_get_backup_file
 (
-profile
 )
 .
 fileSize
@@ -3836,7 +3801,6 @@ false
 ;
 do_get_backup_file
 (
-profile
 )
 .
 remove
@@ -3866,7 +3830,6 @@ ok
 !
 do_get_backup_file
 (
-profile
 )
 .
 exists
