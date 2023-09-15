@@ -4262,16 +4262,6 @@ return
 false
 ;
 }
-nsSize
-EffectiveOffsetFor
-(
-const
-nsRect
-&
-aRect
-)
-const
-;
 protected
 :
 /
