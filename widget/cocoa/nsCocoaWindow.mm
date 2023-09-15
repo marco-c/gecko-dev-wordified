@@ -4619,18 +4619,6 @@ mWindowMadeHere
 =
 true
 ;
-if
-(
-available
-(
-macOS
-10
-.
-14
-*
-)
-)
-{
 /
 /
 Make
@@ -4662,7 +4650,6 @@ MOZGlobalAppearance
 .
 sharedInstance
 ;
-}
 return
 NS_OK
 ;
