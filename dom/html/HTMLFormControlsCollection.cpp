@@ -1405,10 +1405,10 @@ elementToAdd
 ;
 if
 (
-HTMLFormElement
+nsContentUtils
 :
 :
-CompareFormControlPosition
+CompareTreePosition
 (
 mElements
 [
