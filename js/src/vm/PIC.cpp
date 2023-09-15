@@ -624,7 +624,7 @@ names
 (
 )
 .
-ArrayValues
+dollar_ArrayValues_
 )
 )
 {

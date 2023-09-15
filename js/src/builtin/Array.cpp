@@ -7066,7 +7066,7 @@ names
 (
 )
 .
-ArraySpecies
+dollar_ArraySpecies_
 )
 ;
 }
@@ -34650,7 +34650,7 @@ names
 (
 )
 .
-ArraySpecies
+dollar_ArraySpecies_
 )
 )
 {
