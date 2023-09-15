@@ -1829,7 +1829,7 @@ mTransactionParent
 SendAbort
 (
 aTransactionId
-NS_ERROR_DOM_UNKNOWN_ERR
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 )
 ;
 return
@@ -2652,7 +2652,7 @@ rv
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
@@ -2677,7 +2677,7 @@ if
 status
 =
 =
-NS_ERROR_DOM_OPERATION_ERR
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 {
 /
@@ -2698,6 +2698,13 @@ user
 shouldCancelActiveDialog
 =
 false
+;
+}
+else
+{
+status
+=
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 ;
 }
 Telemetry
@@ -2773,7 +2780,7 @@ rv
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
@@ -2810,7 +2817,7 @@ rv
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
@@ -3477,7 +3484,7 @@ _ns
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_DOM_UNKNOWN_ERR
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
@@ -3528,7 +3535,7 @@ rv
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
@@ -3553,7 +3560,7 @@ if
 status
 =
 =
-NS_ERROR_DOM_OPERATION_ERR
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 {
 /
@@ -3607,7 +3614,7 @@ _ns
 AbortTransaction
 (
 aTransactionId
-status
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 shouldCancelActiveDialog
 )
 ;
@@ -3686,7 +3693,7 @@ rv
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
@@ -3727,7 +3734,7 @@ _ns
 AbortTransaction
 (
 aTransactionId
-status
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
@@ -4068,7 +4075,7 @@ rv
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
@@ -4105,7 +4112,7 @@ rv
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
@@ -4142,7 +4149,7 @@ rv
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
@@ -4179,7 +4186,7 @@ rv
 AbortTransaction
 (
 aTransactionId
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 true
 )
 ;
