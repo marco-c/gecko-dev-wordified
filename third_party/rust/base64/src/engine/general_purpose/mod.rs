@@ -27,6 +27,7 @@ engine
 :
 {
 Config
+DecodeMetadata
 DecodePaddingMode
 }
 DecodeError
@@ -1821,7 +1822,7 @@ DecodeEstimate
 >
 Result
 <
-usize
+DecodeMetadata
 DecodeError
 >
 {
