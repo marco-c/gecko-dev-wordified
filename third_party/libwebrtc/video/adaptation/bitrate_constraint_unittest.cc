@@ -343,6 +343,10 @@ video_codec
 >
 numberOfSimulcastStreams
 =
+svc
+?
+1
+:
 num_layers
 ;
 encoder_config

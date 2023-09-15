@@ -382,6 +382,12 @@ encoder_settings_
 encoder_config
 (
 )
+encoder_settings_
+-
+>
+video_codec
+(
+)
 )
 )
 {
