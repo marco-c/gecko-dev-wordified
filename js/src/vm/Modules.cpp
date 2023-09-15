@@ -1443,7 +1443,10 @@ index
 uint32_t
 *
 lineNumber
-uint32_t
+JS
+:
+:
+ColumnNumberZeroOrigin
 *
 columnNumber
 )
@@ -1518,10 +1521,6 @@ index
 ]
 .
 columnNumber
-(
-)
-.
-zeroOriginValue
 (
 )
 ;
