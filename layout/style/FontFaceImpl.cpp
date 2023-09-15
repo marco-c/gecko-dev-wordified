@@ -2826,14 +2826,6 @@ mDisplay
 |
 |
 (
-StaticPrefs
-:
-:
-layout_css_font_metrics_overrides_enabled
-(
-)
-&
-&
 (
 !
 setDesc
