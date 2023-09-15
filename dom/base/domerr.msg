@@ -1686,17 +1686,6 @@ name
 "
 NS_ERROR_DOM_INVALID_HEADER_NAME
 )
-DOM4_MSG_DEF
-(
-SyntaxError
-"
-Invalid
-header
-value
-.
-"
-NS_ERROR_DOM_INVALID_HEADER_VALUE
-)
 /
 *
 XMLHttpRequest
