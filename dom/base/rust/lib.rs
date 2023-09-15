@@ -2283,6 +2283,13 @@ bits
 Self
 :
 :
+BROKEN
+.
+bits
+|
+Self
+:
+:
 VALIDITY_STATES
 .
 bits
