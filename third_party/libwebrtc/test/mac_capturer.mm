@@ -432,6 +432,14 @@ size_t
 capture_device_index
 )
 {
+width_
+=
+width
+;
+height_
+=
+height
+;
 RTCTestVideoSourceAdapter
 *
 adapter
