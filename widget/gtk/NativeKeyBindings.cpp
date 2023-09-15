@@ -2555,13 +2555,6 @@ aEvent
 IsMeta
 (
 )
-|
-|
-aEvent
-.
-IsOS
-(
-)
 )
 {
 return

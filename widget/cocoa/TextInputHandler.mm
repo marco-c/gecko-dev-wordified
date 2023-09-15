@@ -33468,13 +33468,6 @@ if
 aKeyEvent
 .
 mNativeKeyEvent
-|
-|
-aKeyEvent
-.
-mModifiers
-&
-MODIFIER_OS
 )
 {
 return

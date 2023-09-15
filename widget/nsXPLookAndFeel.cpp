@@ -10001,9 +10001,6 @@ KeyboardEvent_Binding
 :
 DOM_VK_META
 :
-return
-MODIFIER_META
-;
 case
 dom
 :
@@ -10014,7 +10011,7 @@ KeyboardEvent_Binding
 DOM_VK_WIN
 :
 return
-MODIFIER_OS
+MODIFIER_META
 ;
 default
 :
