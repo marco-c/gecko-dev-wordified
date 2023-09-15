@@ -1856,12 +1856,7 @@ continue
 job
 [
 "
-run
-"
-]
-[
-"
-command
+task
 -
 context
 "
@@ -1869,6 +1864,14 @@ context
 =
 {
             
+"
+from
+-
+object
+"
+:
+{
+                
 "
 base_rev
 "
@@ -1889,6 +1892,24 @@ parents
 ]
 [
 0
+]
+            
+}
+            
+"
+substitution
+-
+fields
+"
+:
+[
+                
+"
+run
+.
+command
+"
+            
 ]
         
 }
