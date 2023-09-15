@@ -16238,11 +16238,9 @@ digit
 MaxBitLength
 )
 {
-JS_ReportErrorNumberASCII
+ReportOversizedAllocation
 (
 cx
-GetErrorMessage
-nullptr
 JSMSG_BIGINT_TOO_LARGE
 )
 ;
