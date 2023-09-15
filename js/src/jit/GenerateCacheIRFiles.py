@@ -630,7 +630,7 @@ writeWeakShapeField
 )
     
 "
-GetterSetterField
+WeakGetterSetterField
 "
 :
 (
@@ -639,7 +639,7 @@ GetterSetter
 *
 "
 "
-writeGetterSetterField
+writeWeakGetterSetterField
 "
 )
     
@@ -1817,7 +1817,7 @@ stubOffset
 )
     
 "
-GetterSetterField
+WeakGetterSetterField
 "
 :
 (
@@ -2919,7 +2919,7 @@ spewField
 "
     
 "
-GetterSetterField
+WeakGetterSetterField
 "
 :
 "
@@ -4017,7 +4017,7 @@ WeakShapeField
 1
     
 "
-GetterSetterField
+WeakGetterSetterField
 "
 :
 1
