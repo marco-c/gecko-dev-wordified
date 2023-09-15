@@ -126,14 +126,14 @@ gw
 executeInGlobalWithBindings
 (
 '
-x
+y
 .
 toString
 (
 )
 '
 {
-x
+y
 :
 gw
 }
