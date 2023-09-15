@@ -45,13 +45,6 @@ file
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 algorithm
 >
 #

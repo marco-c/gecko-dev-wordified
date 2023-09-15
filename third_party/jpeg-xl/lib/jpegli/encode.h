@@ -48,7 +48,7 @@ file
 /
 This
 file
-conatins
+contains
 the
 C
 API
@@ -816,7 +816,7 @@ uses
 adaptive
 quantization
 for
-createing
+creating
 more
 /
 /

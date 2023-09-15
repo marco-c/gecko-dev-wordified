@@ -1094,7 +1094,7 @@ weights
 to
 customize
 some
-trasnforms
+transforms
 -
 in
 particular
@@ -1278,7 +1278,7 @@ channels
 returns
 the
 bit
-depht
+depth
 of
 the
 first

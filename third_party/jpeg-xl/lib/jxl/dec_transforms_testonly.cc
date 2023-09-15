@@ -184,6 +184,10 @@ dc_stride
 float
 *
 llf
+float
+*
+JXL_RESTRICT
+scratch
 )
 {
 return
@@ -196,6 +200,7 @@ strategy
 dc
 dc_stride
 llf
+scratch
 )
 ;
 }

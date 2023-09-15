@@ -1439,7 +1439,7 @@ float
 (
 max_block_area_
 *
-4
+7
 )
 ;
 /

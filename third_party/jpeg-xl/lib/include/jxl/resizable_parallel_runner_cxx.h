@@ -46,7 +46,7 @@ file
 /
 /
 addtogroup
-libjxl_threads
+libjxl_cpp
 /
 /
 /

@@ -14688,7 +14688,7 @@ dec
 >
 events_wanted
 &
-recon_result
+JXL_DEC_JPEG_RECONSTRUCTION
 )
 {
 dec
@@ -14698,10 +14698,10 @@ events_wanted
 &
 =
 ~
-recon_result
+JXL_DEC_JPEG_RECONSTRUCTION
 ;
 return
-recon_result
+JXL_DEC_JPEG_RECONSTRUCTION
 ;
 }
 }

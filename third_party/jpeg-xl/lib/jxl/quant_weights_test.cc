@@ -89,9 +89,7 @@ hwy
 /
 tests
 /
-test_util
--
-inl
+hwy_gtest
 .
 h
 >
@@ -165,6 +163,17 @@ lib
 jxl
 /
 enc_transforms
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
+testing
 .
 h
 "
@@ -1549,7 +1558,7 @@ scratch_space
 *
 16
 *
-2
+5
 ]
 ;
 /

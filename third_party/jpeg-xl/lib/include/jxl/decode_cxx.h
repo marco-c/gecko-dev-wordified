@@ -46,7 +46,7 @@ file
 /
 /
 addtogroup
-libjxl_decoder
+libjxl_cpp
 /
 /
 /

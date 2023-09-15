@@ -46,7 +46,7 @@ file
 /
 /
 addtogroup
-libjxl_encoder
+libjxl_cpp
 /
 /
 /

@@ -77,13 +77,6 @@ h
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 algorithm
 >
 #

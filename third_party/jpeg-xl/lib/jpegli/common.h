@@ -48,7 +48,7 @@ file
 /
 This
 file
-conatins
+contains
 the
 C
 API
@@ -89,7 +89,7 @@ jpegli_
 while
 compressor
 and
-dempressor
+decompressor
 object
 /
 /

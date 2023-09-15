@@ -45,7 +45,7 @@ file
 *
 *
 addtogroup
-libjxl_common
+libjxl_threads
 *
 {
 *

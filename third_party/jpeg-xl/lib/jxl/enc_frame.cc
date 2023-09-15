@@ -4314,7 +4314,7 @@ HowMuchIsXChannelPixelized
 /
 B
 only
-ajudsted
+adjusted
 by
 pixel
 -

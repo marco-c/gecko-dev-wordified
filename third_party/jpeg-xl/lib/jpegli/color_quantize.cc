@@ -1815,7 +1815,7 @@ order
 of
 /
 /
-appearence
+appearance
 in
 the
 image

@@ -261,7 +261,7 @@ decoder
 input
 frequently
 to
-demostrate
+demonstrate
 that
 streaming
 works

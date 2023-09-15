@@ -52,13 +52,6 @@ h
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 array
 >
 #
