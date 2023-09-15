@@ -1904,10 +1904,7 @@ masm
 .
 branchWasmAnyRefIsNurseryCell
 (
-Assembler
-:
-:
-NotEqual
+false
 setValue
 otherScratch
 skipBarrier

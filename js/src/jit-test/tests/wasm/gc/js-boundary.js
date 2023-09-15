@@ -26,7 +26,8 @@ test
 anyref
 '
 WasmAnyrefValues
-WasmNonAnyrefValues
+[
+]
 )
 ;
 test
@@ -730,10 +731,9 @@ CheckError
 )
 ;
 }
+}
 /
 /
-5
-.
 Verify
 that
 GC
@@ -745,16 +745,9 @@ for
 const
 val
 of
-validValues
+WasmGcObjectValues
 )
 {
-if
-(
-!
-val
-)
-continue
-;
 assertEq
 (
 Reflect
@@ -1007,5 +1000,4 @@ iterable
 "
 )
 ;
-}
 }
