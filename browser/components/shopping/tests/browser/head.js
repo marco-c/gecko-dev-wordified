@@ -760,8 +760,9 @@ shoppingContainer
 .
 settingsEl
 "
-Got
-the
+Do
+not
+render
 shopping
 -
 settings
@@ -776,7 +777,9 @@ shoppingContainer
 .
 analysisExplainerEl
 "
-Got
+Do
+not
+render
 the
 analysis
 -
@@ -874,6 +877,9 @@ settingsEl
 "
 "
 shoppingMessageBarEl
+"
+"
+loadingEl
 "
 ]
 )
