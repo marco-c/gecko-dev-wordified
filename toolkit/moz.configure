@@ -11586,7 +11586,6 @@ hack
 "
 MOZ_AUTOMATION
 "
-target
 when
 =
 has_elfhack
@@ -11596,7 +11595,6 @@ may_enable_relrhack
 (
 enable
 automation
-target
 )
 :
 #
@@ -11632,15 +11630,6 @@ possible
 .
 if
 automation
-and
-target
-.
-os
-!
-=
-"
-Android
-"
 and
 enable
 and
