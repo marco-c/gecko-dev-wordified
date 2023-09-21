@@ -2407,17 +2407,6 @@ interface
 mixin
 NavigatorLocks
 {
-[
-Pref
-=
-"
-dom
-.
-weblocks
-.
-enabled
-"
-]
 readonly
 attribute
 LockManager
