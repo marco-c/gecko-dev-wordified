@@ -10876,6 +10876,13 @@ loadWrapperTarget
 objId
 )
 ;
+writer
+.
+guardIsNativeObject
+(
+targetObjId
+)
+;
 if
 (
 trapKind
