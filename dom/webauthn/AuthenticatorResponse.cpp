@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+Base64
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 AuthenticatorResponse
