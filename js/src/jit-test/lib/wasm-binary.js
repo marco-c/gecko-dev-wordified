@@ -266,7 +266,7 @@ EqRefCode
 const
 OptRefCode
 =
-0x6c
+0x63
 ;
 /
 /
@@ -282,7 +282,7 @@ immediate
 const
 RefCode
 =
-0x6b
+0x64
 ;
 /
 /
@@ -314,6 +314,16 @@ VoidCode
 =
 0x40
 ;
+const
+BadType
+=
+0x79
+;
+/
+/
+reserved
+for
+testing
 /
 /
 Opcodes

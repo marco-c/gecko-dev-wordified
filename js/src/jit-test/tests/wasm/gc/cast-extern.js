@@ -61,10 +61,13 @@ js
 type
 (
 struct
+(
+field
 i64
 i32
 i64
 i32
+)
 )
 )
 (
