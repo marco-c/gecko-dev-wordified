@@ -369,7 +369,7 @@ aReadHandle
 mSharedMemory
 -
 >
-CloneHandle
+TakeHandle
 (
 )
 ;
@@ -391,13 +391,6 @@ return
 false
 ;
 }
-mSharedMemory
--
->
-CloseHandle
-(
-)
-;
 mBuf
 =
 static_cast
