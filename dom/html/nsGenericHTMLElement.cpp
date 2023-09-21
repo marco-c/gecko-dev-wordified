@@ -5642,7 +5642,6 @@ GetAtomValue
 else
 if
 (
-(
 aName
 =
 =
@@ -5650,15 +5649,6 @@ nsGkAtoms
 :
 :
 inputmode
-&
-&
-StaticPrefs
-:
-:
-dom_forms_inputmode
-(
-)
-)
 |
 |
 aName
