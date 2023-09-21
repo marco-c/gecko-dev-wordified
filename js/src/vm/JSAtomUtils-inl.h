@@ -827,6 +827,19 @@ JSContext
 cx
 jsid
 id
+gc
+:
+:
+Heap
+heap
+=
+gc
+:
+:
+Heap
+:
+:
+Default
 )
 {
 if
@@ -859,7 +872,7 @@ isInt
 )
 {
 return
-Int32ToString
+Int32ToStringWithHeap
 <
 CanGC
 >
@@ -870,6 +883,7 @@ id
 toInt
 (
 )
+heap
 )
 ;
 }
