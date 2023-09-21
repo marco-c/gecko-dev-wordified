@@ -147,7 +147,7 @@ struct
 FileSystemDirectoryIteratorFactory
 {
 static
-UniquePtr
+already_AddRefed
 <
 mozilla
 :

@@ -217,6 +217,10 @@ Impl
 {
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+Impl
+)
 virtual
 already_AddRefed
 <
@@ -240,6 +244,8 @@ aError
 =
 0
 ;
+protected
+:
 virtual
 ~
 Impl
@@ -267,10 +273,11 @@ FileSystemManager
 >
 &
 aManager
-UniquePtr
+RefPtr
 <
 Impl
 >
+&
 aImpl
 )
 ;
@@ -343,7 +350,7 @@ mManager
 ;
 private
 :
-UniquePtr
+RefPtr
 <
 Impl
 >

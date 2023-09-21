@@ -634,7 +634,7 @@ dirHandle
 auto
 mockIter
 =
-MakeUnique
+MakeRefPtr
 <
 MockFileSystemDirectoryIteratorImpl
 >
