@@ -12405,6 +12405,11 @@ CharT
 parser
 (
 cx
+JSONParser
+<
+CharT
+>
+(
 cx
 chars
 JSONParser
@@ -12417,6 +12422,7 @@ ParseType
 :
 :
 JSONParse
+)
 )
 ;
 return
