@@ -5672,7 +5672,7 @@ WasmTableCallIndexReg
 ;
 masm
 .
-load8ZeroExtend
+load32
 (
 Address
 (
