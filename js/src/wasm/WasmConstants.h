@@ -2224,7 +2224,7 @@ ExternExternalize
 /
 I31
 operations
-I31New
+RefI31
 =
 0x1c
 I31GetS

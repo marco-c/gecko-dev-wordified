@@ -47291,7 +47291,7 @@ bool
 BaseCompiler
 :
 :
-emitI31New
+emitRefI31
 (
 )
 {
@@ -62567,12 +62567,12 @@ uint32_t
 GcOp
 :
 :
-I31New
+RefI31
 )
 :
 CHECK_NEXT
 (
-emitI31New
+emitRefI31
 (
 )
 )

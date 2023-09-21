@@ -127,9 +127,9 @@ array
 len
 "
 "
-i31
+ref
 .
-new
+i31
 "
 "
 i31

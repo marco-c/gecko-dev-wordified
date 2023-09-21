@@ -1138,9 +1138,9 @@ const
 (
 item
 (
-i31
+ref
 .
-new
+i31
 (
 i32
 .
@@ -1233,9 +1233,9 @@ const
 (
 item
 (
-i31
+ref
 .
-new
+i31
 (
 i32
 .

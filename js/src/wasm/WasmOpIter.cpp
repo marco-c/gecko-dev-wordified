@@ -2081,7 +2081,7 @@ case
 GcOp
 :
 :
-I31New
+RefI31
 :
 case
 GcOp
