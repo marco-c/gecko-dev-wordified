@@ -126,6 +126,13 @@ if
 CONFIG
 [
 "
+RELRHACK
+"
+]
+and
+CONFIG
+[
+"
 OS_TARGET
 "
 ]
