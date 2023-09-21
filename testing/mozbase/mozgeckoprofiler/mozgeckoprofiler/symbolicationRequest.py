@@ -890,6 +890,85 @@ well
 -
 formatted
             
+#
+We
+try
+to
+be
+more
+permissive
+here
+with
+the
+modules
+.
+If
+a
+module
+is
+not
+            
+#
+well
+-
+formatted
+we
+ignore
+that
+one
+by
+adding
+a
+None
+to
+the
+clean
+memory
+map
+.
+We
+have
+            
+#
+to
+add
+a
+None
+instead
+of
+simply
+omitting
+that
+module
+because
+the
+indexes
+of
+the
+            
+#
+modules
+in
+the
+memory
+map
+has
+to
+match
+the
+indexes
+of
+the
+shared
+libraries
+in
+the
+            
+#
+profile
+data
+.
+            
 cleanMemoryMap
 =
 [
@@ -932,7 +1011,14 @@ module
 )
 )
                     
-return
+cleanMemoryMap
+.
+append
+(
+None
+)
+                    
+continue
                 
 if
 len
@@ -970,9 +1056,16 @@ module
                     
 )
                     
-return
+cleanMemoryMap
+.
+append
+(
+None
+)
+                    
+continue
                 
-module
+moduleV3
 =
 getModuleV3
 (
@@ -981,18 +1074,30 @@ module
 )
                 
 if
-module
+moduleV3
 is
 None
 :
                     
-return
+LOG
+.
+debug
+(
+"
+Failed
+to
+get
+Module
+V3
+.
+"
+)
                 
 cleanMemoryMap
 .
 append
 (
-module
+moduleV3
 )
             
 self
@@ -1299,6 +1404,14 @@ combinedMemoryMap
 [
 moduleIndex
 ]
+                
+if
+module
+is
+None
+:
+                    
+continue
                 
 newIndex
 =
@@ -1838,6 +1951,14 @@ combinedMemoryMap
 :
             
 if
+module
+is
+None
+:
+                
+continue
+            
+if
 not
 self
 .
@@ -1952,6 +2073,14 @@ combinedMemoryMap
 [
 moduleIndex
 ]
+            
+if
+module
+is
+None
+:
+                
+continue
             
 if
 (
