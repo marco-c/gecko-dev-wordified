@@ -101,18 +101,6 @@ enabled
 "
 true
 ]
-[
-"
-dom
-.
-media
-.
-mediasession
-.
-enabled
-"
-true
-]
 ]
 }
 )
@@ -2104,7 +2092,7 @@ r
 )
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

@@ -66,18 +66,6 @@ set
 [
 [
 "
-dom
-.
-media
-.
-mediasession
-.
-enabled
-"
-true
-]
-[
-"
 media
 .
 mediacontrol
@@ -565,7 +553,7 @@ waitUntilMainMediaControllerChanged
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab2
 .
