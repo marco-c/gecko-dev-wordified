@@ -1150,6 +1150,10 @@ diplomat
 :
 :
 span
+<
+const
+uint16_t
+>
 (
 (
 const
