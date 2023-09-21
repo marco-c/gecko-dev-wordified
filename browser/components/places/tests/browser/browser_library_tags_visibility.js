@@ -529,8 +529,7 @@ expectedVisible
 ?
 TEST_TAG
 :
-"
-"
+null
 ;
 Assert
 .

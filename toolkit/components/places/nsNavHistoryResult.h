@@ -1890,6 +1890,10 @@ const
 nsAString
 &
 aURL
+const
+nsAString
+&
+aTags
 )
 ;
 nsresult
@@ -1975,6 +1979,15 @@ nsNavHistoryResult
 *
 GetResult
 (
+)
+;
+void
+SetTags
+(
+const
+nsAString
+&
+aTags
 )
 ;
 /
@@ -2347,9 +2360,6 @@ mTitle
 ;
 nsString
 mTags
-;
-bool
-mAreTagsSorted
 ;
 uint32_t
 mAccessCount
@@ -3955,6 +3965,10 @@ const
 nsAString
 &
 aURL
+const
+nsAString
+&
+aTags
 )
 ;
 nsresult

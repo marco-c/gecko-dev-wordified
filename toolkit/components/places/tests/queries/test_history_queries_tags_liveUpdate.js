@@ -922,8 +922,7 @@ equal
 node
 .
 tags
-"
-"
+null
 )
 ;
 PlacesUtils
@@ -949,8 +948,7 @@ equal
 node
 .
 tags
-"
-"
+null
 )
 ;
 PlacesUtils
@@ -976,8 +974,7 @@ equal
 node
 .
 tags
-"
-"
+null
 )
 ;
 }
