@@ -16,6 +16,15 @@ wasm
 tail
 -
 calls
+;
+skip
+-
+if
+:
+!
+wasmGcEnabled
+(
+)
 /
 /
 Test
