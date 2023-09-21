@@ -17,9 +17,10 @@ wasmGcEnabled
 |
 getBuildConfiguration
 (
-)
-.
+"
 simulator
+"
+)
 /
 /
 This

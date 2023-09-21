@@ -18,14 +18,12 @@ isAsmJSCompilationAvailable
 !
 getBuildConfiguration
 (
-)
-[
-'
+"
 arm
 -
 simulator
-'
-]
+"
+)
 /
 /
 Single

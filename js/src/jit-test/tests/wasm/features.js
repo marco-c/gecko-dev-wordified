@@ -288,12 +288,13 @@ worklet_audioWorklet_WASM_features
 js
 .
 let
-{
 release_or_beta
-}
 =
 getBuildConfiguration
 (
+"
+release_or_beta
+"
 )
 ;
 let

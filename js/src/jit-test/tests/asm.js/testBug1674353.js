@@ -11,8 +11,6 @@ if
 :
 getBuildConfiguration
 (
-)
-[
 "
 pointer
 -
@@ -20,7 +18,7 @@ byte
 -
 size
 "
-]
+)
 !
 =
 8

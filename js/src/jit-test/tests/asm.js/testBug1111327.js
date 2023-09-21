@@ -12,14 +12,12 @@ if
 !
 getBuildConfiguration
 (
-)
-[
-'
+"
 arm
 -
 simulator
-'
-]
+"
+)
 /
 /
 Single

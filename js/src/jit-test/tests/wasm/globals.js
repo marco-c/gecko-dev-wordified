@@ -3621,9 +3621,10 @@ if
 (
 getBuildConfiguration
 (
-)
-.
+"
 release_or_beta
+"
+)
 )
 {
 assertEq

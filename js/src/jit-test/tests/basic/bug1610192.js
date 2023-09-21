@@ -13,12 +13,10 @@ if
 :
 getBuildConfiguration
 (
-)
-[
-'
+"
 debug
-'
-]
+"
+)
 var
 s
 =

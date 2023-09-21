@@ -12,14 +12,12 @@ if
 !
 getBuildConfiguration
 (
-)
-[
-'
+"
 has
 -
 gczeal
-'
-]
+"
+)
 |
 |
 helperThreadCount
