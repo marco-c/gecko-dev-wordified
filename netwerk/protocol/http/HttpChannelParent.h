@@ -1642,6 +1642,8 @@ HttpBackgroundChannelParent
 ;
 uint64_t
 mEarlyHintPreloaderId
+{
+}
 ;
 RefPtr
 <
