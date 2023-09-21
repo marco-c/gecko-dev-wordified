@@ -506,6 +506,10 @@ CanonicalQuotaObject
 ;
 friend
 class
+ClearStorageOp
+;
+friend
+class
 DirectoryLockImpl
 ;
 friend
@@ -515,6 +519,10 @@ GroupInfo
 friend
 class
 OriginInfo
+;
+friend
+class
+ShutdownStorageOp
 ;
 using
 PrincipalInfo
@@ -3278,6 +3286,11 @@ GetDirectoryLockTable
 (
 PersistenceType
 aPersistenceType
+)
+;
+void
+ClearDirectoryLockTables
+(
 )
 ;
 bool
