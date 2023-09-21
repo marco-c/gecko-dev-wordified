@@ -1564,15 +1564,3 @@ enabled
 true
 )
 ;
-user_pref
-(
-"
-dom
-.
-workers
-.
-requestAnimationFrame
-"
-true
-)
-;
