@@ -1502,6 +1502,10 @@ Run
 (
 )
 ;
+mWrappedRunnable
+=
+nullptr
+;
 if
 (
 NS_FAILED
@@ -1564,6 +1568,10 @@ OnDiscard
 )
 ;
 }
+mWrappedRunnable
+=
+nullptr
+;
 return
 NS_OK
 ;
