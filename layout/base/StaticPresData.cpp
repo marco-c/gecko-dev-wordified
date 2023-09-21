@@ -1382,14 +1382,8 @@ StyleFontSizeAdjust
 :
 ExHeight
 (
-StyleFontSizeAdjustFactor
-:
-:
-Number
-(
-(
 float
-)
+(
 atof
 (
 cvalue

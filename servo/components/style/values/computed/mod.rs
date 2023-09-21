@@ -649,7 +649,6 @@ font
 {
 FontSize
 FontSizeAdjust
-FontSizeAdjustFactor
 FontStretch
 FontSynthesis
 }
