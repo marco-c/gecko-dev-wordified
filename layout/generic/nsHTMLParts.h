@@ -296,6 +296,9 @@ aNameSpaceID
 nsAtom
 *
 aAttrName
+nsAtom
+*
+aFallback
 nsIContent
 *
 *
