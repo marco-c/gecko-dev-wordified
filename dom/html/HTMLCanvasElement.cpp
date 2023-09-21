@@ -5170,7 +5170,7 @@ GetSize
 )
 usePlaceholder
 mCurrentContext
-mCanvasRenderer
+mOffscreenDisplay
 aStream
 )
 ;
