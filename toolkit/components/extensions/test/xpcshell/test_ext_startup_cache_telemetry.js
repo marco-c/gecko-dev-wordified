@@ -681,11 +681,8 @@ testGetValue
 ;
 equal
 (
-typeof
 gleanMetric
-"
-undefined
-"
+null
 "
 Expect
 extensions
@@ -696,7 +693,7 @@ metric
 to
 be
 initially
-undefined
+null
 "
 )
 ;
