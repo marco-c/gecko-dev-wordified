@@ -3145,7 +3145,7 @@ if
 (
 JSContext
 *
-cx
+maybeCx
 =
 TlsContext
 .
@@ -3157,7 +3157,7 @@ get
 Sprinter
 spr
 (
-cx
+maybeCx
 )
 ;
 if
@@ -3189,7 +3189,6 @@ spr
 .
 putString
 (
-cx
 c
 -
 >

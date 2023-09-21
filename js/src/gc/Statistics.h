@@ -2984,7 +2984,7 @@ formatTotalSlices
 )
 ;
 static
-void
+bool
 printProfileTimes
 (
 const
