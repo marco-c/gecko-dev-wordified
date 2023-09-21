@@ -4954,6 +4954,9 @@ ImageData
 class
 OffscreenCanvas
 ;
+class
+VideoFrame
+;
 }
 /
 /
@@ -5016,6 +5019,16 @@ dom
 OffscreenCanvas
 *
 mOffscreenCanvas
+=
+nullptr
+;
+const
+dom
+:
+:
+VideoFrame
+*
+mVideoFrame
 =
 nullptr
 ;
