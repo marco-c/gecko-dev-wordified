@@ -353,7 +353,7 @@ else
 "
 upstream
 /
-main
+master
 "
     
 #
