@@ -186,6 +186,7 @@ endif
 ifdef
 XP_WIN
 WINDOWS_UTILS
+WINDOWS_FILE_DIALOG
 #
 endif
 COUNT
