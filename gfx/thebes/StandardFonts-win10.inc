@@ -1201,6 +1201,9 @@ Fonts
 UD
 Digi
 Kyokasho
+N
+-
+B
 "
 /
 /
