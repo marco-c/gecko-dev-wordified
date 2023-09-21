@@ -10815,13 +10815,6 @@ new
 ScriptFetchOptions
 (
 CORS_NONE
-dom
-:
-:
-ReferrerPolicy
-:
-:
-No_referrer
 /
 *
 aNonce
@@ -10888,6 +10881,13 @@ new
 ModuleLoadRequest
 (
 uri
+dom
+:
+:
+ReferrerPolicy
+:
+:
+No_referrer
 options
 dom
 :

@@ -828,10 +828,6 @@ CORSMode
 :
 :
 CORS_NONE
-ReferrerPolicy
-:
-:
-_empty
 /
 *
 aNonce
@@ -940,6 +936,10 @@ new
 ModuleLoadRequest
 (
 mURI
+ReferrerPolicy
+:
+:
+_empty
 fetchOptions
 SRIMetadata
 (

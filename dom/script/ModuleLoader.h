@@ -472,6 +472,8 @@ CreateTopLevel
 nsIURI
 *
 aURI
+ReferrerPolicy
+aReferrerPolicy
 ScriptFetchOptions
 *
 aFetchOptions
@@ -599,6 +601,14 @@ aLoader
 )
 ;
 }
+void
+AsyncExecuteInlineModule
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 private
 :
 const

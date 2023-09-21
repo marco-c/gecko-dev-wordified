@@ -760,6 +760,12 @@ aURI
 aParent
 -
 >
+ReferrerPolicy
+(
+)
+aParent
+-
+>
 mFetchOptions
 SRIMetadata
 (
