@@ -505,7 +505,9 @@ IsOnCurrentThread
 ;
 for
 (
+const
 auto
+&
 conduit
 :
 mConduits

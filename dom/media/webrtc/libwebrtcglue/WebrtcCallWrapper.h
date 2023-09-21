@@ -641,8 +641,10 @@ std
 :
 set
 <
+RefPtr
+<
 MediaSessionConduit
-*
+>
 >
 mConduits
 ;
