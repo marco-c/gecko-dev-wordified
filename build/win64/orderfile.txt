@@ -126285,8 +126285,8 @@ UopAppendDoctypeToDocument
 UopGetDocumentFragmentForTemplate
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScript
-UopRunScriptAsyncDefer
+UopRunScriptThatMayDocumentWriteOrBlock
+UopRunScriptThatCannotDocumentWriteOrBlock
 UopPreventScriptExecution
 UopDoneAddingChildren
 UopDoneCreatingElement
@@ -126359,8 +126359,8 @@ UopAppendDoctypeToDocument
 UopGetDocumentFragmentForTemplate
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScript
-UopRunScriptAsyncDefer
+UopRunScriptThatMayDocumentWriteOrBlock
+UopRunScriptThatCannotDocumentWriteOrBlock
 UopPreventScriptExecution
 UopDoneAddingChildren
 UopDoneCr
@@ -136610,8 +136610,8 @@ UopAppendDoctypeToDocument
 UopGetDocumentFragmentForTemplate
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScript
-UopRunScriptAsyncDefer
+UopRunScriptThatMayDocumentWriteOrBlock
+UopRunScriptThatCannotDocumentWriteOrBlock
 UopPreventScriptExecution
 UopDoneAddingChildren
 UopDoneCreatingElement
@@ -136717,8 +136717,8 @@ UopAppendDoctypeToDocument
 UopGetDocumentFragmentForTemplate
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScript
-UopRunScriptAsyncDefer
+UopRunScriptThatMayDocumentWriteOrBlock
+UopRunScriptThatCannotDocumentWriteOrBlock
 UopPreventScriptExecution
 UopDoneAddingChildren
 UopDoneCreatingElement
@@ -136748,8 +136748,8 @@ E
 UopGetDocumentFragmentForTemplate
 UopGetFosterParent
 UopMarkAsBroken
-UopRunScript
-UopRunScriptAsyncDefer
+UopRunScriptThatMayDocumentWriteOrBlock
+UopRunScriptThatCannotDocumentWriteOrBlock
 UopPreventScriptExecution
 UopDoneAddingChildren
 UopDoneCreatingElement
@@ -169911,11 +169911,6 @@ js
 QEBAPEAVJSFunction
 PEAUJSContext
 Z
-?
-jsprintf
-Sprinter
-js
-QEAA_NPEBDZZ
 ?
 vprintf
 GenericPrinter

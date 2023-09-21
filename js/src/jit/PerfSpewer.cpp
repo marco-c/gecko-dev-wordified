@@ -3065,7 +3065,7 @@ isInt32
 {
 buf
 .
-jsprintf
+printf
 (
 "
 %
@@ -3091,7 +3091,7 @@ isObjectOrNull
 {
 buf
 .
-jsprintf
+printf
 (
 "
 obj
@@ -3151,7 +3151,7 @@ isNumber
 {
 buf
 .
-jsprintf
+printf
 (
 "
 num
@@ -3204,7 +3204,7 @@ else
 {
 buf
 .
-jsprintf
+printf
 (
 "
 raw
@@ -3352,7 +3352,7 @@ addressOfThis
 ;
 buf
 .
-jsprintf
+printf
 (
 "
 this
@@ -3404,7 +3404,7 @@ LocalSlot
 :
 buf
 .
-jsprintf
+printf
 (
 "
 local
@@ -3445,7 +3445,7 @@ ArgSlot
 :
 buf
 .
-jsprintf
+printf
 (
 "
 arg
