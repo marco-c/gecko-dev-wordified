@@ -428,7 +428,7 @@ device
 -
 migration
 -
-subtitle
+subtitle2
 "
 }
 primary_button
