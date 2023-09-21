@@ -1206,6 +1206,9 @@ log_level
 :
 None
 rate_limit
+enable_event_timestamps
+:
+false
 }
 ;
 Ok

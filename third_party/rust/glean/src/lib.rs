@@ -873,6 +873,11 @@ rate_limit
 cfg
 .
 rate_limit
+enable_event_timestamps
+:
+cfg
+.
+enable_event_timestamps
 }
 ;
 glean_core
