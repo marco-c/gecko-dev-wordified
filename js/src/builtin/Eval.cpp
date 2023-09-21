@@ -1483,11 +1483,6 @@ CharT
 parser
 (
 cx
-JSONParser
-<
-CharT
->
-(
 cx
 jsonChars
 JSONParser
@@ -1500,7 +1495,6 @@ ParseType
 :
 :
 AttemptForEval
-)
 )
 ;
 if
