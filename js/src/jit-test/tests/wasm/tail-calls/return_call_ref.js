@@ -30,6 +30,8 @@ module
 type
 t
 (
+sub
+(
 func
 (
 param
@@ -40,6 +42,7 @@ funcref
 (
 result
 i64
+)
 )
 )
 )
