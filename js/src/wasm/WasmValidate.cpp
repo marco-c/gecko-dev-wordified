@@ -12821,6 +12821,7 @@ if
 (
 typeIndex
 >
+=
 MaxTypes
 )
 {
