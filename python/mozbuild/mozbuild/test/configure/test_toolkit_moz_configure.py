@@ -1401,6 +1401,20 @@ _value_for
 sandbox
 [
 "
+select_linker
+"
+]
+)
+.
+KIND
+                
+sandbox
+.
+_value_for
+(
+sandbox
+[
+"
 pack_relative_relocs
 "
 ]
@@ -1633,6 +1647,9 @@ mockcc
 readelf
 )
 (
+"
+lld
+"
 None
 None
 )
@@ -1658,6 +1675,9 @@ release
 ]
 )
 (
+"
+bfd
+"
 None
 True
 )
@@ -1751,6 +1771,9 @@ bfd
 )
                 
 (
+"
+bfd
+"
 None
 True
 )
@@ -1810,6 +1833,9 @@ mockcc
 readelf
 )
 (
+"
+lld
+"
 PACK
 None
 )
@@ -1835,6 +1861,9 @@ release
 ]
 )
 (
+"
+bfd
+"
 PACK
 None
 )
@@ -1926,6 +1955,9 @@ bfd
 )
             
 (
+"
+bfd
+"
 None
 True
 )
