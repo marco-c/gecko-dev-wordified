@@ -1007,6 +1007,7 @@ handled
 true
 ;
 return
+await
 this
 .
 #
@@ -1121,6 +1122,7 @@ handled
 true
 ;
 return
+await
 this
 .
 #

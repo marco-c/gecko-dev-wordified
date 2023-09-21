@@ -2303,7 +2303,6 @@ async
 >
 {
 return
-await
 (
 globalThis
 as
@@ -5052,6 +5051,7 @@ css
 )
 )
 {
+void
 request
 .
 abort
@@ -5061,6 +5061,7 @@ abort
 }
 else
 {
+void
 request
 .
 continue
@@ -6238,6 +6239,7 @@ pop
 request
 )
 ;
+void
 request
 .
 continue
@@ -8234,7 +8236,6 @@ async
 >
 {
 return
-await
 (
 globalThis
 as

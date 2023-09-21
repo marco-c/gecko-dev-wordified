@@ -229,10 +229,6 @@ client
 await
 page
 .
-target
-(
-)
-.
 createCDPSession
 (
 )
@@ -474,10 +470,6 @@ client
 await
 page
 .
-target
-(
-)
-.
 createCDPSession
 (
 )
@@ -598,10 +590,6 @@ client
 =
 await
 page
-.
-target
-(
-)
 .
 createCDPSession
 (
@@ -770,10 +758,6 @@ client
 await
 page
 .
-target
-(
-)
-.
 createCDPSession
 (
 )
@@ -941,10 +925,6 @@ client
 await
 page
 .
-target
-(
-)
-.
 createCDPSession
 (
 )
@@ -1091,10 +1071,6 @@ client
 =
 await
 page
-.
-target
-(
-)
 .
 createCDPSession
 (

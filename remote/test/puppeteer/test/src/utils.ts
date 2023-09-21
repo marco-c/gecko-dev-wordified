@@ -427,7 +427,7 @@ undefined
 =
 >
 {
-const
+using
 handle
 =
 await
@@ -906,15 +906,15 @@ timeout
 5000
 message
 :
-'
 Waiting
 for
-test
+{
+eventName
+}
 event
 timed
 out
 .
-'
 }
 )
 ;

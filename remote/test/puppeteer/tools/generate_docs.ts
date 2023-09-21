@@ -1031,6 +1031,8 @@ outputs
 '
 docs
 /
+integrations
+/
 ng
 -
 schematics

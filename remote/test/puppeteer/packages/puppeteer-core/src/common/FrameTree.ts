@@ -134,8 +134,6 @@ License
 import
 {
 Frame
-as
-BaseFrame
 }
 from
 '
@@ -228,9 +226,9 @@ export
 class
 FrameTree
 <
-Frame
+FrameType
 extends
-BaseFrame
+Frame
 >
 {
 #
@@ -240,7 +238,7 @@ new
 Map
 <
 string
-Frame
+FrameType
 >
 (
 )
@@ -288,7 +286,7 @@ string
 mainFrame
 ?
 :
-Frame
+FrameType
 ;
 #
 waitRequests
@@ -301,7 +299,7 @@ Set
 <
 Deferred
 <
-Frame
+FrameType
 >
 >
 >
@@ -312,7 +310,7 @@ getMainFrame
 (
 )
 :
-Frame
+FrameType
 |
 undefined
 {
@@ -330,7 +328,7 @@ frameId
 string
 )
 :
-Frame
+FrameType
 |
 undefined
 {
@@ -381,7 +379,7 @@ string
 :
 Promise
 <
-Frame
+FrameType
 >
 {
 const
@@ -415,7 +413,7 @@ Deferred
 .
 create
 <
-Frame
+FrameType
 >
 (
 )
@@ -439,7 +437,7 @@ Set
 <
 Deferred
 <
-Frame
+FrameType
 >
 >
 (
@@ -464,7 +462,7 @@ frames
 (
 )
 :
-Frame
+FrameType
 [
 ]
 {
@@ -488,7 +486,7 @@ addFrame
 (
 frame
 :
-Frame
+FrameType
 )
 :
 void
@@ -635,7 +633,7 @@ removeFrame
 (
 frame
 :
-Frame
+FrameType
 )
 :
 void
@@ -710,7 +708,7 @@ frameId
 string
 )
 :
-Frame
+FrameType
 [
 ]
 {
@@ -771,7 +769,7 @@ frame
 :
 frame
 is
-Frame
+FrameType
 =
 >
 {
@@ -793,7 +791,7 @@ frameId
 string
 )
 :
-Frame
+FrameType
 |
 undefined
 {

@@ -989,12 +989,19 @@ expect
 message
 )
 .
-toContain
+atLeastOneToContain
 (
+[
 '
 Target
 closed
 '
+'
+Page
+closed
+!
+'
+]
 )
 ;
 expect
@@ -4311,7 +4318,7 @@ Create
 a
 custom
 class
-const
+using
 classHandle
 =
 await
@@ -4381,7 +4388,7 @@ has
 been
 added
 .
-const
+using
 prototypeHandle
 =
 await
@@ -4402,7 +4409,7 @@ prototype
 classHandle
 )
 ;
-const
+using
 objectsHandle
 =
 await
@@ -4539,7 +4546,7 @@ Create
 a
 custom
 class
-const
+using
 classHandle
 =
 await
@@ -4609,7 +4616,7 @@ has
 been
 added
 .
-const
+using
 prototypeHandle
 =
 await
@@ -4630,7 +4637,7 @@ prototype
 classHandle
 )
 ;
-const
+using
 objectsHandle
 =
 await
@@ -4748,7 +4755,7 @@ getTestState
 (
 )
 ;
-const
+using
 prototypeHandle
 =
 await
@@ -4769,6 +4776,14 @@ prototype
 }
 )
 ;
+/
+/
+We
+want
+to
+dispose
+early
+.
 await
 prototypeHandle
 .
@@ -4853,7 +4868,7 @@ getTestState
 (
 )
 ;
-const
+using
 prototypeHandle
 =
 await
@@ -5908,6 +5923,7 @@ string
 >
 {
 return
+await
 fetch
 (
 url
@@ -9388,7 +9404,7 @@ html
 '
 )
 ;
-const
+using
 element
 =
 await
@@ -9525,7 +9541,6 @@ function
 )
 {
 return
-await
 (
 globalThis
 as
@@ -9630,7 +9645,18 @@ await
 (
 globalThis
 as
-any
+unknown
+as
+{
+woof
+(
+)
+:
+Promise
+<
+never
+>
+}
 )
 .
 woof
@@ -9969,7 +9995,6 @@ function
 )
 {
 return
-await
 (
 globalThis
 as
@@ -10067,7 +10092,6 @@ function
 )
 {
 return
-await
 (
 globalThis
 as
@@ -10200,7 +10224,6 @@ function
 )
 {
 return
-await
 (
 globalThis
 as
@@ -10335,7 +10358,6 @@ function
 )
 {
 return
-await
 (
 globalThis
 as
@@ -10466,7 +10488,6 @@ function
 )
 {
 return
-await
 (
 globalThis
 as
@@ -10703,7 +10724,6 @@ function
 )
 {
 return
-await
 (
 globalThis
 as
@@ -10808,7 +10828,6 @@ function
 )
 {
 return
-await
 (
 globalThis
 as
@@ -13838,7 +13857,7 @@ server
 EMPTY_PAGE
 )
 ;
-const
+using
 scriptHandle
 =
 await
@@ -14446,7 +14465,7 @@ server
 EMPTY_PAGE
 )
 ;
-const
+using
 scriptHandle
 =
 await
@@ -14676,7 +14695,7 @@ server
 EMPTY_PAGE
 )
 ;
-const
+using
 scriptHandle
 =
 await
@@ -15242,7 +15261,7 @@ server
 EMPTY_PAGE
 )
 ;
-const
+using
 styleHandle
 =
 await
@@ -15479,7 +15498,7 @@ server
 EMPTY_PAGE
 )
 ;
-const
+using
 styleHandle
 =
 await
@@ -15636,7 +15655,7 @@ css
 }
 )
 ;
-const
+using
 styleHandle
 =
 (
@@ -15736,7 +15755,7 @@ server
 EMPTY_PAGE
 )
 ;
-const
+using
 styleHandle
 =
 await

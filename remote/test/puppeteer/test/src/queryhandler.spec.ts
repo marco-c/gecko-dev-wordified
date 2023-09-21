@@ -389,7 +389,7 @@ setUpPage
 (
 )
 ;
-const
+using
 div
 =
 (
@@ -581,7 +581,7 @@ setUpPage
 (
 )
 ;
-const
+using
 parentElement
 =
 (
@@ -598,7 +598,7 @@ div
 )
 !
 ;
-const
+using
 childElement
 =
 (
@@ -679,7 +679,7 @@ setUpPage
 (
 )
 ;
-const
+using
 parentElement
 =
 (
@@ -1006,7 +1006,7 @@ div
 '
 )
 ;
-const
+using
 element
 =
 await
@@ -1255,7 +1255,7 @@ div
 }
 )
 ;
-const
+using
 element
 =
 await
@@ -1357,7 +1357,7 @@ div
 '
 )
 ;
-const
+using
 element
 =
 await
@@ -1442,7 +1442,7 @@ a
 '
 )
 ;
-const
+using
 element
 =
 (
@@ -1613,7 +1613,7 @@ div
 '
 )
 ;
-const
+using
 element
 =
 await
@@ -1723,7 +1723,7 @@ div
 '
 )
 ;
-const
+using
 div
 =
 (
@@ -1743,7 +1743,7 @@ ElementHandle
 HTMLDivElement
 >
 ;
-const
+using
 input
 =
 (
@@ -2173,7 +2173,7 @@ div
 '
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -2273,7 +2273,7 @@ div
 '
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -2572,7 +2572,7 @@ div
 '
 )
 ;
-const
+using
 element
 =
 await
@@ -2768,7 +2768,7 @@ div
 '
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -2869,7 +2869,7 @@ div
 '
 )
 ;
-const
+using
 elementHandle
 =
 (
@@ -2998,7 +2998,7 @@ selectors
 html
 )
 ;
-const
+using
 element
 =
 await
@@ -3211,7 +3211,7 @@ html
 )
 ;
 {
-const
+using
 element
 =
 await
@@ -3518,7 +3518,7 @@ selectors
 html
 )
 ;
-const
+using
 element
 =
 await
@@ -3626,7 +3626,7 @@ selectors
 html
 )
 ;
-const
+using
 element
 =
 await
@@ -3739,7 +3739,7 @@ selectors
 html
 )
 ;
-let
+using
 element
 =
 await
@@ -3830,7 +3830,8 @@ world
 '
 )
 ;
-element
+using
+element2
 =
 await
 page
@@ -3852,7 +3853,7 @@ world
 ;
 assert
 (
-element
+element2
 '
 Could
 not
@@ -3864,7 +3865,7 @@ element
 expect
 (
 await
-element
+element2
 .
 evaluate
 (
@@ -3939,7 +3940,7 @@ selectors
 html
 )
 ;
-const
+using
 element
 =
 await
@@ -4057,7 +4058,7 @@ selectors
 html
 )
 ;
-const
+using
 element
 =
 await
@@ -4177,7 +4178,7 @@ selectors
 html
 )
 ;
-const
+using
 element
 =
 await
@@ -4314,7 +4315,7 @@ selectors
 html
 )
 ;
-const
+using
 element
 =
 await
@@ -4475,7 +4476,7 @@ button
 )
 ;
 {
-const
+using
 element
 =
 await
@@ -4538,7 +4539,7 @@ toBeTruthy
 ;
 }
 {
-const
+using
 element
 =
 await
@@ -4603,7 +4604,7 @@ toBeTruthy
 ;
 }
 {
-const
+using
 element
 =
 await
@@ -4668,7 +4669,7 @@ toBeTruthy
 ;
 }
 {
-const
+using
 element
 =
 await
@@ -4774,7 +4775,7 @@ selectors
 html
 )
 ;
-let
+using
 button
 =
 await
@@ -4813,14 +4814,8 @@ hover
 (
 )
 ;
-await
-button
-.
-dispose
-(
-)
-;
-button
+using
+button2
 =
 await
 page
@@ -4844,7 +4839,7 @@ hover
 ;
 assert
 (
-button
+button2
 '
 Could
 not
@@ -4857,7 +4852,7 @@ const
 value
 =
 await
-button
+button2
 .
 evaluate
 (
@@ -5420,7 +5415,7 @@ selectors
 html
 )
 ;
-let
+using
 element
 =
 await
@@ -5468,7 +5463,8 @@ toBeTruthy
 (
 )
 ;
-element
+using
+element2
 =
 await
 page
@@ -5510,14 +5506,15 @@ June
 ;
 expect
 (
-element
+element2
 )
 .
 toBeTruthy
 (
 )
 ;
-element
+using
+element3
 =
 await
 page
@@ -5558,14 +5555,15 @@ June
 ;
 expect
 (
-element
+element3
 )
 .
 toBeFalsy
 (
 )
 ;
-element
+using
+element4
 =
 await
 page
@@ -5606,7 +5604,7 @@ June
 ;
 expect
 (
-element
+element4
 )
 .
 toBeFalsy

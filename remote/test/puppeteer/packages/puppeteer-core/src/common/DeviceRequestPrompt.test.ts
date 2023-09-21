@@ -244,6 +244,14 @@ return
 '
 ;
 }
+parentSession
+(
+)
+{
+return
+undefined
+;
+}
 }
 describe
 (

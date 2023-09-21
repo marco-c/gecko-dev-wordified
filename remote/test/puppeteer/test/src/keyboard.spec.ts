@@ -578,6 +578,7 @@ World
 '
 )
 {
+await
 page
 .
 keyboard
@@ -641,6 +642,7 @@ World
 '
 )
 ;
+await
 page
 .
 keyboard
@@ -662,6 +664,7 @@ inserted
 '
 )
 {
+await
 page
 .
 keyboard
@@ -674,6 +677,7 @@ ArrowLeft
 )
 ;
 }
+await
 page
 .
 keyboard
@@ -1081,7 +1085,7 @@ html
 '
 )
 ;
-const
+using
 textarea
 =
 (
@@ -1277,7 +1281,7 @@ html
 '
 )
 ;
-const
+using
 textarea
 =
 (
@@ -3427,7 +3431,7 @@ true
 }
 )
 ;
-const
+using
 textarea
 =
 (
@@ -3806,7 +3810,7 @@ frames
 ]
 !
 ;
-const
+using
 textarea
 =
 (

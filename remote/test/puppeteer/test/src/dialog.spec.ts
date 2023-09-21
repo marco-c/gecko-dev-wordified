@@ -547,6 +547,7 @@ dialog
 =
 >
 {
+void
 dialog
 .
 dismiss

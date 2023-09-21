@@ -178,6 +178,15 @@ CHROME
 '
 chrome
 '
+CHROMEHEADLESSSHELL
+=
+'
+chrome
+-
+headless
+-
+shell
+'
 CHROMIUM
 =
 '

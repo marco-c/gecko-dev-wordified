@@ -325,6 +325,7 @@ T
 >
 {
 return
+await
 this
 .
 #
