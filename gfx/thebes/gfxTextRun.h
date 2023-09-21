@@ -1853,11 +1853,6 @@ allowGDI
 =
 true
 ;
-bool
-hasTextShadow
-=
-false
-;
 explicit
 DrawParams
 (

@@ -4541,14 +4541,6 @@ drawMode
 ;
 params
 .
-hasTextShadow
-=
-aParams
-.
-hasTextShadow
-;
-params
-.
 callbacks
 =
 aParams
