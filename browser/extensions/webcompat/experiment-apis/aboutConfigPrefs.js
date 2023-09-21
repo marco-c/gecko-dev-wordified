@@ -67,7 +67,6 @@ global
 ExtensionAPI
 ExtensionCommon
 Services
-XPCOMUtils
 *
 /
 this
