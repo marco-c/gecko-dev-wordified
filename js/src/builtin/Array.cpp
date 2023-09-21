@@ -34383,9 +34383,8 @@ up
 Array
 .
 prototype
-[
-iterator
-]
+.
+constructor
 and
 ensure
 it
