@@ -4664,17 +4664,6 @@ data
 PrioritaryPropertyId
 :
 :
-FontFamily
-)
-;
-self
-.
-apply_one_prioritary_property
-(
-data
-PrioritaryPropertyId
-:
-:
 FontSizeAdjust
 )
 ;
