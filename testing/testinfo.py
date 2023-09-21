@@ -139,6 +139,9 @@ Test
 -
 Info
 "
+MAX_DAYS
+=
+30
 class
 TestInfo
 (
@@ -3169,6 +3172,9 @@ self
 .
 get_runcounts
 (
+days
+=
+MAX_DAYS
 )
         
 runcounts
@@ -3180,7 +3186,7 @@ squash_runcounts
 runcounts
 days
 =
-30
+MAX_DAYS
 )
         
 return
@@ -3349,6 +3355,9 @@ def
 get_runcounts
 (
 self
+days
+=
+MAX_DAYS
 )
 :
         
@@ -3382,6 +3391,22 @@ self
 .
 get_testinfoall_index_url
 (
+)
+            
+print
+(
+"
+INFO
+:
+requesting
+runcounts
+url
+:
+%
+s
+"
+%
+url
 )
             
 r
@@ -3478,7 +3503,7 @@ timedelta
 (
 days
 =
-30
+days
 )
         
 while
@@ -3597,6 +3622,22 @@ date
                     
 try
 :
+                        
+print
+(
+"
+INFO
+:
+requesting
+groupsummary
+url
+:
+%
+s
+"
+%
+url
+)
                         
 r
 =
@@ -3757,7 +3798,7 @@ self
 runcounts
 days
 =
-30
+MAX_DAYS
 )
 :
         
@@ -3874,11 +3915,41 @@ runcounts
 [
 datekey
 ]
-[
+.
+get
+(
 "
 job_type_names
 "
-]
+{
+}
+)
+            
+if
+not
+jtn
+:
+                
+print
+(
+"
+Warning
+:
+Missing
+job
+type
+names
+from
+date
+:
+%
+s
+"
+%
+datekey
+)
+                
+continue
             
 for
 m
@@ -5001,6 +5072,53 @@ end
         
 if
 show_testruns
+and
+os
+.
+environ
+.
+get
+(
+"
+GECKO_HEAD_REPOSITORY
+"
+"
+"
+)
+in
+[
+            
+"
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+mozilla
+-
+central
+"
+            
+"
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+try
+"
+        
+]
 :
             
 runcount
