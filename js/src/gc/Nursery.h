@@ -5052,7 +5052,7 @@ key
 )
 ;
 static
-bool
+void
 printProfileDurations
 (
 const
