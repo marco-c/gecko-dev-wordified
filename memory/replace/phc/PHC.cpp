@@ -3491,7 +3491,7 @@ mozilla
 phc
 :
 :
-Enabled
+OnlyFree
 /
 /
 The
@@ -11784,13 +11784,6 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
-(
-aNewSize
->
-kPageSize
-)
-;
 Delay
 reuseDelay
 =
