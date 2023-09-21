@@ -282,12 +282,8 @@ entry
 ping_section
 )
 .
-or_insert_with
+or_default
 (
-HashMap
-:
-:
-new
 )
 ;
 /
@@ -763,12 +759,8 @@ into
 )
 )
 .
-or_insert_with
+or_default
 (
-HashMap
-:
-:
-new
 )
 ;
 map
