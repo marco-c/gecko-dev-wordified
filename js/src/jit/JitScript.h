@@ -3454,6 +3454,16 @@ endif
 ifdef
 DEBUG
 bool
+hasPurgedStubs
+(
+)
+const
+{
+return
+hasPurgedStubs_
+;
+}
+bool
 hasFailedICHash
 (
 )
