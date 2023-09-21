@@ -8765,6 +8765,15 @@ aAllow
 if
 (
 aAllow
+&
+&
+!
+canonicalBC
+-
+>
+IsReplaced
+(
+)
 )
 {
 FinishRestore
