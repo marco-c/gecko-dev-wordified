@@ -7735,7 +7735,7 @@ storage
 is
 just
 been
-changed
+granted
 .
 The
 window
@@ -7757,7 +7757,7 @@ cookie
 jar
 .
 void
-StorageAccessPermissionChanged
+StorageAccessPermissionGranted
 (
 )
 ;
