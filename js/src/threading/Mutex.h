@@ -506,6 +506,12 @@ unlock
 (
 )
 ;
+bool
+isOwnedByCurrentThread
+(
+)
+const
+;
 void
 assertOwnedByCurrentThread
 (
