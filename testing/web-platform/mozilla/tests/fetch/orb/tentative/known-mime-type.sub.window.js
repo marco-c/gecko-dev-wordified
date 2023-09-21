@@ -101,7 +101,7 @@ future
 .
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -171,7 +171,7 @@ future
 .
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -241,7 +241,7 @@ future
 .
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -316,7 +316,7 @@ future
 .
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
@@ -389,7 +389,7 @@ future
 .
 promise_internal_response_is_filtered
 (
-fetchORB
+testFetchNoCors
 (
 {
 path
