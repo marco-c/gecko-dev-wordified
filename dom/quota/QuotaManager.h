@@ -518,6 +518,10 @@ GroupInfo
 ;
 friend
 class
+InitOp
+;
+friend
+class
 OriginInfo
 ;
 friend
@@ -2004,11 +2008,15 @@ else
 }
 #
 endif
+private
+:
 nsresult
 EnsureStorageIsInitializedInternal
 (
 )
 ;
+public
+:
 /
 /
 Returns
