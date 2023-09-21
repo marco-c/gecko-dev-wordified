@@ -2581,16 +2581,6 @@ childSHistory
 )
 ;
 }
-if
-(
-mozilla
-:
-:
-SessionHistoryInParent
-(
-)
-)
-{
 BackgroundSessionStorageManager
 :
 :
@@ -2607,7 +2597,6 @@ Id
 )
 )
 ;
-}
 /
 /
 Transfer
