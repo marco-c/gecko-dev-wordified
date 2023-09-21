@@ -11592,14 +11592,6 @@ IsEditable
 )
 &
 &
-StaticPrefs
-:
-:
-dom_forms_autocapitalize
-(
-)
-&
-&
 aInputContext
 .
 IsAutocapitalizeSupported
