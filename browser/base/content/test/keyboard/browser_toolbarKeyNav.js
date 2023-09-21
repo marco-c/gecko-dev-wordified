@@ -825,6 +825,7 @@ places
 {
 i
 }
+y
 /
 }
 ;
@@ -2322,7 +2323,7 @@ nothing
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aBrowser
 "
