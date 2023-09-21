@@ -7663,14 +7663,6 @@ return
 }
 if
 (
-StaticPrefs
-:
-:
-network_dns_skipTRR_when_parental_control_enabled
-(
-)
-&
-&
 TRRService
 :
 :
