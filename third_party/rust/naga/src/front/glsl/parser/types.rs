@@ -29,6 +29,10 @@ StorageQualifier
 StructLayout
 TypeQualifiers
 }
+context
+:
+:
+Context
 error
 :
 :
@@ -106,6 +110,11 @@ frontend
 &
 mut
 Frontend
+ctx
+:
+&
+mut
+Context
 span
 :
 &
@@ -134,6 +143,7 @@ self
 parse_array_specifier_single
 (
 frontend
+ctx
 span
 ty
 )
@@ -172,6 +182,11 @@ frontend
 &
 mut
 Frontend
+ctx
+:
+&
+mut
+Context
 span
 :
 &
@@ -260,6 +275,7 @@ self
 parse_uint_constant
 (
 frontend
+ctx
 )
 ?
 ;
@@ -345,7 +361,7 @@ layouter
 .
 update
 (
-frontend
+ctx
 .
 module
 .
@@ -376,7 +392,7 @@ to_stride
 *
 ty
 =
-frontend
+ctx
 .
 module
 .
@@ -433,6 +449,11 @@ frontend
 &
 mut
 Frontend
+ctx
+:
+&
+mut
+Context
 )
 -
 >
@@ -495,7 +516,7 @@ ty
 )
 =
 >
-frontend
+ctx
 .
 module
 .
@@ -567,6 +588,7 @@ self
 parse_struct_declaration_list
 (
 frontend
+ctx
 &
 mut
 members
@@ -604,7 +626,7 @@ end_meta
 let
 ty
 =
-frontend
+ctx
 .
 module
 .
@@ -773,6 +795,7 @@ self
 parse_array_specifier
 (
 frontend
+ctx
 &
 mut
 span
@@ -805,6 +828,11 @@ frontend
 &
 mut
 Frontend
+ctx
+:
+&
+mut
+Context
 )
 -
 >
@@ -830,6 +858,7 @@ self
 parse_type
 (
 frontend
+ctx
 )
 ?
 ;
@@ -1014,6 +1043,11 @@ frontend
 &
 mut
 Frontend
+ctx
+:
+&
+mut
+Context
 )
 -
 >
@@ -1086,6 +1120,7 @@ self
 parse_layout_qualifier_id_list
 (
 frontend
+ctx
 &
 mut
 qualifiers
@@ -1756,6 +1791,11 @@ frontend
 &
 mut
 Frontend
+ctx
+:
+&
+mut
+Context
 qualifiers
 :
 &
@@ -1789,6 +1829,7 @@ self
 parse_layout_qualifier_id
 (
 frontend
+ctx
 &
 mut
 qualifiers
@@ -1863,6 +1904,11 @@ frontend
 &
 mut
 Frontend
+ctx
+:
+&
+mut
+Context
 qualifiers
 :
 &
@@ -2062,6 +2108,7 @@ self
 parse_uint_constant
 (
 frontend
+ctx
 )
 {
 Ok

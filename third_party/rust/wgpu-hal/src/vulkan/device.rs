@@ -7882,7 +7882,7 @@ wgpu
 -
 hal
 interface
-guarentees
+guarantees
 /
 /
 the

@@ -60,7 +60,6 @@ Span
 }
 ArraySize
 BinaryOperator
-Block
 Handle
 Literal
 Type
@@ -101,11 +100,6 @@ stmt
 &
 mut
 StmtContext
-body
-:
-&
-mut
-Block
 )
 -
 >
@@ -330,7 +324,6 @@ parse_expression
 frontend
 ctx
 stmt
-body
 )
 ?
 ;
@@ -478,11 +471,6 @@ stmt
 &
 mut
 StmtContext
-body
-:
-&
-mut
-Block
 meta
 :
 &
@@ -556,7 +544,6 @@ parse_assignment
 frontend
 ctx
 stmt
-body
 )
 ?
 )
@@ -683,11 +670,6 @@ stmt
 &
 mut
 StmtContext
-body
-:
-&
-mut
-Block
 )
 -
 >
@@ -724,6 +706,7 @@ self
 parse_type_non_void
 (
 frontend
+ctx
 )
 ?
 ;
@@ -749,7 +732,6 @@ parse_function_call_args
 frontend
 ctx
 stmt
-body
 &
 mut
 meta
@@ -773,7 +755,7 @@ stride
 base
 }
 =
-frontend
+ctx
 .
 module
 .
@@ -787,7 +769,7 @@ inner
 let
 span
 =
-frontend
+ctx
 .
 module
 .
@@ -857,7 +839,7 @@ meta
 ;
 handle
 =
-frontend
+ctx
 .
 module
 .
@@ -997,7 +979,6 @@ parse_function_call_args
 frontend
 ctx
 stmt
-body
 &
 mut
 meta
@@ -1073,11 +1054,11 @@ frontend
 lookup_variable
 (
 ctx
-body
 &
 name
 meta
 )
+?
 {
 Some
 (
@@ -1149,7 +1130,6 @@ parse_primary
 frontend
 ctx
 stmt
-body
 )
 ?
 }
@@ -1222,7 +1202,6 @@ parse_expression
 frontend
 ctx
 stmt
-body
 )
 ?
 ;
@@ -1327,7 +1306,6 @@ parse_function_call_args
 frontend
 ctx
 stmt
-body
 &
 mut
 meta
@@ -1520,11 +1498,6 @@ stmt
 &
 mut
 StmtContext
-body
-:
-&
-mut
-Block
 )
 -
 >
@@ -1597,7 +1570,6 @@ parse_unary
 frontend
 ctx
 stmt
-body
 )
 ?
 ;
@@ -1735,7 +1707,6 @@ parse_unary
 frontend
 ctx
 stmt
-body
 )
 ?
 ;
@@ -1808,7 +1779,6 @@ parse_postfix
 frontend
 ctx
 stmt
-body
 )
 ?
 }
@@ -1836,11 +1806,6 @@ stmt
 &
 mut
 StmtContext
-body
-:
-&
-mut
-Block
 passthrough
 :
 Option
@@ -1896,7 +1861,6 @@ parse_unary
 frontend
 ctx
 stmt
-body
 )
 )
 ?
@@ -1972,7 +1936,6 @@ parse_binary
 frontend
 ctx
 stmt
-body
 None
 r_bp
 )
@@ -2257,11 +2220,6 @@ stmt
 &
 mut
 StmtContext
-body
-:
-&
-mut
-Block
 passthrough
 :
 Option
@@ -2293,7 +2251,6 @@ parse_binary
 frontend
 ctx
 stmt
-body
 passthrough
 0
 )
@@ -2338,7 +2295,6 @@ parse_expression
 frontend
 ctx
 stmt
-body
 )
 ?
 ;
@@ -2364,7 +2320,6 @@ parse_assignment
 frontend
 ctx
 stmt
-body
 )
 ?
 ;
@@ -2445,11 +2400,6 @@ stmt
 &
 mut
 StmtContext
-body
-:
-&
-mut
-Block
 )
 -
 >
@@ -2471,7 +2421,6 @@ parse_unary
 frontend
 ctx
 stmt
-body
 )
 ?
 ;
@@ -2526,7 +2475,6 @@ parse_assignment
 frontend
 ctx
 stmt
-body
 )
 ?
 ;
@@ -2650,7 +2598,6 @@ parse_assignment
 frontend
 ctx
 stmt
-body
 )
 ?
 ;
@@ -2859,7 +2806,6 @@ parse_conditional
 frontend
 ctx
 stmt
-body
 Some
 (
 tgt
@@ -2891,11 +2837,6 @@ stmt
 &
 mut
 StmtContext
-body
-:
-&
-mut
-Block
 )
 -
 >
@@ -2918,7 +2859,6 @@ parse_assignment
 frontend
 ctx
 stmt
-body
 )
 ?
 ;
@@ -2956,7 +2896,6 @@ parse_assignment
 frontend
 ctx
 stmt
-body
 )
 ?
 ;

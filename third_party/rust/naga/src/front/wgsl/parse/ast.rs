@@ -783,11 +783,14 @@ EarlyDepthTest
 pub
 workgroup_size
 :
+Option
+<
 [
 u32
 ;
 3
 ]
+>
 }
 #
 [

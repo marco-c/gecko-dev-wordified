@@ -6027,7 +6027,7 @@ spirv
 GLOp
 :
 :
-Modf
+ModfStruct
 )
 Mf
 :
@@ -6046,7 +6046,7 @@ spirv
 GLOp
 :
 :
-Frexp
+FrexpStruct
 )
 Mf
 :

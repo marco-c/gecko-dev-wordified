@@ -480,6 +480,9 @@ None
 ref
 mut
 sampling
+second_blend_source
+:
+_
 }
 =
 *

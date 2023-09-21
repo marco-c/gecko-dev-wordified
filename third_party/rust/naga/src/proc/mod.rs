@@ -3020,14 +3020,14 @@ Self
 Modf
 =
 >
-2
+1
 Self
 :
 :
 Frexp
 =
 >
-2
+1
 Self
 :
 :
