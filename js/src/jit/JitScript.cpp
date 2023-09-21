@@ -1445,6 +1445,9 @@ hasInliningRoot
 )
 )
 {
+if
+(
+!
 inliningRoot
 (
 )
@@ -1454,7 +1457,13 @@ traceWeak
 (
 trc
 )
+)
+{
+notePurgedStubs
+(
+)
 ;
+}
 }
 if
 (
