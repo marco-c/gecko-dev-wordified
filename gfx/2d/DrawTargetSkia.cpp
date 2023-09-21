@@ -14012,11 +14012,7 @@ PopLayer
 (
 )
 {
-MarkChanged
-(
-)
-;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPushedLayers
@@ -14024,6 +14020,10 @@ mPushedLayers
 empty
 (
 )
+)
+;
+MarkChanged
+(
 )
 ;
 const
