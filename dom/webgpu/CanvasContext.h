@@ -589,6 +589,11 @@ RemoteTextureOwnerId
 >
 mRemoteTextureOwnerId
 ;
+bool
+mUseExternalTextureInSwapChain
+=
+false
+;
 }
 ;
 }

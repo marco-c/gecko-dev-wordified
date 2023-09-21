@@ -434,6 +434,14 @@ dom
 GPUTextureDescriptor
 &
 aDesc
+Maybe
+<
+layers
+:
+:
+RemoteTextureOwnerId
+>
+aOwnerId
 )
 ;
 RawId
@@ -688,6 +696,8 @@ layers
 RemoteTextureOwnerId
 &
 aOwnerId
+bool
+aUseExternalTextureInSwapChain
 )
 ;
 void
