@@ -4129,7 +4129,7 @@ strcmp
 (
 name
 "
-elf_header
+__ehdr_start
 "
 )
 =
@@ -4143,7 +4143,7 @@ TODO
 :
 change
 this
-ungly
+ugly
 hack
 to
 something

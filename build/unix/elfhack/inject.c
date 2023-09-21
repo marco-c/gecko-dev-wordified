@@ -676,7 +676,7 @@ hidden
 )
 )
 Elf_Ehdr
-elf_header
+__ehdr_start
 ;
 extern
 __attribute__
@@ -820,7 +820,7 @@ Elf_Addr
 intptr_t
 )
 &
-elf_header
+__ehdr_start
 +
 *
 entry
@@ -834,7 +834,7 @@ ptr
 intptr_t
 )
 &
-elf_header
+__ehdr_start
 ;
 }
 else
@@ -890,7 +890,7 @@ ptr
 intptr_t
 )
 &
-elf_header
+__ehdr_start
 ;
 }
 }
