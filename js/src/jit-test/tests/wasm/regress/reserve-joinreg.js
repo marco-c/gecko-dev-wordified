@@ -39,9 +39,7 @@ var0
 (
 i64
 .
-extend_u
-/
-i32
+extend_i32_u
 (
 local
 .
@@ -53,9 +51,7 @@ arg0
 (
 i32
 .
-wrap
-/
-i64
+wrap_i64
 (
 i64
 .

@@ -1681,9 +1681,7 @@ get
 (
 i64
 .
-trunc_s
-/
-f32
+trunc_f32_s
 )
 (
 local
@@ -1694,9 +1692,7 @@ get
 (
 i64
 .
-trunc_s
-/
-f64
+trunc_f64_s
 )
 (
 i64

@@ -535,9 +535,7 @@ get
 0
 i64
 .
-extend_s
-/
-i32
+extend_i32_s
 i64
 .
 const
@@ -549,9 +547,7 @@ op
 }
 i32
 .
-wrap
-/
-i64
+wrap_i64
 )
 )
 this

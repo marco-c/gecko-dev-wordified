@@ -60,9 +60,7 @@ get
 0
 f64
 .
-convert_u
-/
-i64
+convert_i64_u
 )
 (
 func

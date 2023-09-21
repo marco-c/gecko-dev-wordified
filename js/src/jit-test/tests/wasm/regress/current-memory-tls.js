@@ -189,9 +189,7 @@ memory
 size
 i64
 .
-extend_u
-/
-i32
+extend_i32_u
 i64
 .
 const
@@ -229,9 +227,7 @@ tee
 i
 i64
 .
-extend_u
-/
-i32
+extend_i32_u
 ;
 ;
 if
@@ -266,9 +262,7 @@ get
 i
 i64
 .
-extend_u
-/
-i32
+extend_i32_u
 i64
 .
 const
@@ -311,9 +305,7 @@ memory
 size
 i64
 .
-extend_u
-/
-i32
+extend_i32_u
 i64
 .
 sub
@@ -344,9 +336,7 @@ memory
 .
 i32
 .
-wrap
-/
-i64
+wrap_i64
 memory
 .
 grow

@@ -85,9 +85,7 @@ get
 drop
 i32
 .
-wrap
-/
-i64
+wrap_i64
 f64
 .
 const

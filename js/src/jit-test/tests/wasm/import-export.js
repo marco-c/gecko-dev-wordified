@@ -6162,9 +6162,7 @@ i32
 (
 i32
 .
-wrap
-/
-i64
+wrap_i64
 (
 call
 i

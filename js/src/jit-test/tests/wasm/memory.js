@@ -3569,9 +3569,7 @@ get
 (
 i32
 .
-reinterpret
-/
-f32
+reinterpret_f32
 (
 local
 .

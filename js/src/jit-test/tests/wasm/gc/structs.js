@@ -1954,9 +1954,7 @@ i32
 (
 i32
 .
-wrap
-/
-i64
+wrap_i64
 (
 struct
 .
@@ -2002,9 +2000,7 @@ i32
 (
 i32
 .
-wrap
-/
-i64
+wrap_i64
 (
 i64
 .
@@ -2437,9 +2433,7 @@ shl
 (
 i64
 .
-extend_u
-/
-i32
+extend_i32_u
 (
 local
 .
@@ -2457,9 +2451,7 @@ const
 (
 i64
 .
-extend_u
-/
-i32
+extend_i32_u
 (
 local
 .
@@ -2485,9 +2477,7 @@ i32
 (
 i32
 .
-wrap
-/
-i64
+wrap_i64
 (
 struct
 .
@@ -2518,9 +2508,7 @@ i32
 (
 i32
 .
-wrap
-/
-i64
+wrap_i64
 (
 i64
 .
