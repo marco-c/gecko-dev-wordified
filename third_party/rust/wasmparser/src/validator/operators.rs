@@ -26545,7 +26545,7 @@ Ok
 )
 }
 fn
-visit_i31_new
+visit_ref_i31
 (
 &
 mut
