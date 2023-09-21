@@ -548,14 +548,6 @@ strcmp
 aMimeType
 IMAGE_WEBP
 )
-&
-&
-StaticPrefs
-:
-:
-image_webp_enabled
-(
-)
 )
 {
 type
