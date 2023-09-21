@@ -788,6 +788,8 @@ RawId
 bufferIds
 RemoteTextureOwnerId
 ownerId
+bool
+useExternalTextureInSwapChain
 )
 ;
 async
