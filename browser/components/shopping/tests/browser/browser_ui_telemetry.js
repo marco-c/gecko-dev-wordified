@@ -537,7 +537,7 @@ updateComplete
 await
 shoppingMessageBar
 .
-onClickAnalysisLink
+onClickAnalysisButton
 (
 )
 ;
