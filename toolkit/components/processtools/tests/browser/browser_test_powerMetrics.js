@@ -1042,7 +1042,7 @@ cpuTimeByType
 [
 label
 ]
-undefined
+null
 no
 media
 was
@@ -1057,7 +1057,7 @@ label
 }
 should
 be
-undefined
+null
 )
 ;
 }
@@ -1612,7 +1612,7 @@ background
 perceivable
 "
 ]
-undefined
+null
 "
 CPU
 time
@@ -1636,7 +1636,7 @@ label
 __other__
 should
 be
-undefined
+null
 if
 it
 is
@@ -1660,7 +1660,7 @@ strictEqual
 cpuTimeByType
 .
 __other__
-undefined
+null
 "
 no
 CPU
@@ -1709,7 +1709,7 @@ label
 !
 =
 =
-undefined
+null
 )
 {
 totalGpuTimeByType
@@ -1770,7 +1770,7 @@ totalGpuTimeMs
 __other__
 should
 be
-undefined
+null
 if
 it
 is
@@ -1794,7 +1794,7 @@ strictEqual
 gpuTimeByType
 .
 __other__
-undefined
+null
 "
 no
 GPU
@@ -2041,7 +2041,7 @@ kThreadName
 testGetValue
 (
 )
-undefined
+null
 no
 CPU
 time
@@ -2075,7 +2075,7 @@ kThreadName
 testGetValue
 (
 )
-undefined
+null
 no
 thread
 wake
