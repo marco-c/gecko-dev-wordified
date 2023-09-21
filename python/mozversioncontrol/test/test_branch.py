@@ -242,7 +242,7 @@ branch
 =
 =
 "
-master
+main
 "
     
 else
