@@ -3357,9 +3357,9 @@ formatValueSync
 "
 appmenu
 -
-fxa
+account
 -
-header2
+header
 "
 )
 "
