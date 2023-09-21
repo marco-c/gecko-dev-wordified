@@ -173,6 +173,21 @@ watchman
 "
 ]
         
+#
+awk
+might
+be
+missing
+        
+packages
++
+=
+[
+"
+awk
+"
+]
+        
 self
 .
 zypper_install
