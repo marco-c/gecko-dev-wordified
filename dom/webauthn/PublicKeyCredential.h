@@ -401,13 +401,6 @@ aResult
 )
 ;
 void
-SetClientExtensionResultCredPropsRk
-(
-bool
-aResult
-)
-;
-void
 SetClientExtensionResultHmacSecret
 (
 bool
