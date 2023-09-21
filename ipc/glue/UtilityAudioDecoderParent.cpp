@@ -637,6 +637,12 @@ MediaFoundationInitializer
 HasInitialized
 (
 )
+#
+if
+defined
+(
+NS_FREE_PERMANENT_DATA
+)
 /
 /
 WMF
@@ -661,6 +667,14 @@ dll
 "
 )
 ;
+#
+endif
+/
+/
+defined
+(
+NS_FREE_PERMANENT_DATA
+)
 auto
 rv
 =
