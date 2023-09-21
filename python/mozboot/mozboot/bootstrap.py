@@ -4034,14 +4034,18 @@ path
 git
 "
         
-moz_configure
+known_file
 =
 path
 /
 "
-moz
+config
+"
+/
+"
+milestone
 .
-configure
+txt
 "
         
 if
@@ -4223,18 +4227,8 @@ exists
 )
 :
             
-moz_configure
-=
-path
-/
-"
-moz
-.
-configure
-"
-            
 if
-moz_configure
+known_file
 .
 exists
 (
@@ -4265,7 +4259,7 @@ hg
 path
         
 elif
-moz_configure
+known_file
 .
 exists
 (

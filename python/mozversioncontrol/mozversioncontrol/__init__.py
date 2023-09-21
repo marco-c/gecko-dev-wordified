@@ -6646,9 +6646,13 @@ elif
 path
 /
 "
-moz
+config
+"
+/
+"
+milestone
 .
-configure
+txt
 "
 )
 .
