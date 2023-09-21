@@ -191,7 +191,7 @@ caller
 nodiscard
 ]
 ]
-nsresult
+HRESULT
 ApplyCommands
 (
 :
@@ -244,7 +244,7 @@ mozilla
 Result
 <
 Results
-nsresult
+HRESULT
 >
 GetFileResults
 (
@@ -290,7 +290,7 @@ mozilla
 Result
 <
 nsString
-nsresult
+HRESULT
 >
 GetFolderResults
 (
