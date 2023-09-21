@@ -10476,6 +10476,11 @@ if
 IsElement
 (
 )
+|
+|
+IsMozThemed
+(
+)
 )
 {
 return
@@ -10673,6 +10678,12 @@ Tag
 :
 Element
 :
+case
+Tag
+:
+:
+MozThemed
+:
 return
 true
 ;
@@ -10847,6 +10858,12 @@ Tag
 :
 :
 Element
+:
+case
+Tag
+:
+:
+MozThemed
 :
 return
 true
