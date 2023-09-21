@@ -1452,7 +1452,7 @@ uint32_t
 aCookiePermission
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -1842,7 +1842,7 @@ CookieJarSettingsArgs
 aData
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -2092,7 +2092,7 @@ nsICookieJarSettings
 aCookieJarSettings
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -2330,7 +2330,7 @@ CookieJarSettingsArgs
 aData
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -3019,6 +3019,13 @@ nsIObjectInputStream
 aStream
 )
 {
+MOZ_RELEASE_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 nsresult
 rv
 =
@@ -3415,6 +3422,13 @@ nsIObjectOutputStream
 aStream
 )
 {
+MOZ_RELEASE_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 nsresult
 rv
 =
