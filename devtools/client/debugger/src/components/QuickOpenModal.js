@@ -177,7 +177,7 @@ getSelectedSource
 getSelectedLocation
 getSettledSourceTextContent
 getSymbols
-getTabs
+getSourceTabs
 getBlackBoxRanges
 getProjectDirectoryRoot
 }
@@ -533,7 +533,7 @@ PropTypes
 bool
 .
 isRequired
-tabUrls
+openedTabUrls
 :
 PropTypes
 .
@@ -771,7 +771,7 @@ memoizeLast
 (
 (
 displayedSources
-tabUrls
+openedTabUrls
 blackBoxRanges
 projectDirectoryRoot
 )
@@ -826,7 +826,7 @@ url
 const
 hasTabOpened
 =
-tabUrls
+openedTabUrls
 .
 includes
 (
@@ -859,7 +859,7 @@ query
 const
 {
 displayedSources
-tabUrls
+openedTabUrls
 blackBoxRanges
 projectDirectoryRoot
 }
@@ -876,7 +876,7 @@ this
 formatSources
 (
 displayedSources
-tabUrls
+openedTabUrls
 blackBoxRanges
 projectDirectoryRoot
 )
@@ -1091,7 +1091,7 @@ showTopSources
 {
 const
 {
-tabUrls
+openedTabUrls
 blackBoxRanges
 projectDirectoryRoot
 }
@@ -1153,7 +1153,7 @@ limit
 .
 if
 (
-tabUrls
+openedTabUrls
 .
 length
 )
@@ -1174,7 +1174,7 @@ source
 url
 &
 &
-tabUrls
+openedTabUrls
 .
 includes
 (
@@ -1194,7 +1194,7 @@ this
 formatSources
 (
 displayedSources
-tabUrls
+openedTabUrls
 blackBoxRanges
 projectDirectoryRoot
 )
@@ -2740,13 +2740,13 @@ state
 const
 tabs
 =
-getTabs
+getSourceTabs
 (
 state
 )
 ;
 const
-tabUrls
+openedTabUrls
 =
 [
 .
@@ -2836,7 +2836,7 @@ getQuickOpenType
 (
 state
 )
-tabUrls
+openedTabUrls
 }
 ;
 }
