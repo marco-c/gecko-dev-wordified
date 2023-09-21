@@ -44910,17 +44910,9 @@ aSubject
 .
 QueryInterface
 (
-data
-.
-is_ctap2
-?
 Ci
 .
 nsIWebAuthnController
-:
-Ci
-.
-nsIU2FTokenManager
 )
 ;
 if
