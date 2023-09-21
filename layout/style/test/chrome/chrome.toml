@@ -73,6 +73,13 @@ html
 ]
 [
 "
+test_bug511909
+.
+html
+"
+]
+[
+"
 test_bug1346623
 .
 html
@@ -200,6 +207,13 @@ bug
 [
 "
 test_moz_document_rules
+.
+html
+"
+]
+[
+"
+test_moz_document_serialization
 .
 html
 "
