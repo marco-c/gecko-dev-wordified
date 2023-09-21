@@ -422,6 +422,11 @@ rows
 =
 num_rows
 ;
+bool
+ret
+=
+false
+;
 for
 (
 const
@@ -459,6 +464,9 @@ return_trace
 false
 )
 ;
+ret
+|
+=
 offset
 -
 >
@@ -475,7 +483,7 @@ this
 }
 return_trace
 (
-true
+ret
 )
 ;
 }

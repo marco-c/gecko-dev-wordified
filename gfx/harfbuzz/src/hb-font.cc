@@ -5166,7 +5166,7 @@ hb_codepoint_t
 output
 parameter
 .
-Stopes
+Stops
 at
 the
 *

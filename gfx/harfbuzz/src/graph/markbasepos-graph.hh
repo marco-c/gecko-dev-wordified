@@ -1943,6 +1943,14 @@ classCount
 if
 (
 !
+class_count
+)
+return
+class_to_info
+;
+if
+(
+!
 class_to_info
 .
 resize

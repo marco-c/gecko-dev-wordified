@@ -970,7 +970,7 @@ set
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -1174,7 +1174,7 @@ codepoint
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -1277,7 +1277,7 @@ num_codepoints
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -1372,7 +1372,7 @@ last
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -1437,7 +1437,7 @@ codepoint
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -1547,7 +1547,7 @@ last
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -1850,7 +1850,7 @@ other
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -1919,7 +1919,7 @@ other
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -1988,7 +1988,7 @@ other
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -2056,7 +2056,7 @@ other
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -2127,7 +2127,7 @@ other
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .
@@ -2184,7 +2184,7 @@ set
 {
 /
 *
-Immutible
+Immutable
 -
 safe
 .

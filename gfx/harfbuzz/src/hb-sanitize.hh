@@ -1891,8 +1891,6 @@ return
 false
 ;
 }
-return
-(
 this
 -
 >
@@ -1903,9 +1901,9 @@ max_ops
 int
 )
 count
-)
->
-0
+;
+return
+true
 ;
 }
 #
@@ -2610,6 +2608,12 @@ template
 typename
 Type
 >
+#
+ifndef
+HB_OPTIMIZE_SIZE
+HB_ALWAYS_INLINE
+#
+endif
 bool
 check_struct
 (
@@ -3013,7 +3017,7 @@ in
 second
 round
 ;
-FAILLING
+FAILING
 "
 edit_count
 )

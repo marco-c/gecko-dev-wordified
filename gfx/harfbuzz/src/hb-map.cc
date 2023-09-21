@@ -1642,7 +1642,7 @@ next
 key
 /
 value
-paire
+pair
 in
 map
 .

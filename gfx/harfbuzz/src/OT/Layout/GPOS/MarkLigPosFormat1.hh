@@ -1350,6 +1350,11 @@ return_trace
 false
 )
 ;
+if
+(
+unlikely
+(
+!
 out
 -
 >
@@ -1371,6 +1376,12 @@ iter
 )
 &
 klass_mapping
+)
+)
+)
+return_trace
+(
+false
 )
 ;
 auto
@@ -1416,6 +1427,8 @@ return_trace
 false
 )
 ;
+return_trace
+(
 out
 -
 >
@@ -1436,10 +1449,6 @@ classCount
 &
 klass_mapping
 )
-;
-return_trace
-(
-true
 )
 ;
 }

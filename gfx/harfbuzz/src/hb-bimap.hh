@@ -574,7 +574,7 @@ iter
 ;
 /
 *
-Inremental
+Incremental
 bimap
 :
 only

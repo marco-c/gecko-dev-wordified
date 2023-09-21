@@ -3766,6 +3766,10 @@ failed
 %
 08lx
 "
+(
+unsigned
+long
+)
 hr
 )
 ;
@@ -4248,6 +4252,10 @@ failed
 %
 08lx
 "
+(
+unsigned
+long
+)
 hr
 )
 ;
@@ -4377,6 +4385,10 @@ failed
 %
 08lx
 "
+(
+unsigned
+long
+)
 hr
 )
 ;

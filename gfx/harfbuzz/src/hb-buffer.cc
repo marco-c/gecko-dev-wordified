@@ -2538,6 +2538,13 @@ int
 cluster_end
 )
 {
+if
+(
+!
+mask
+)
+return
+;
 hb_mask_t
 not_mask
 =
@@ -2548,13 +2555,6 @@ value
 &
 =
 mask
-;
-if
-(
-!
-mask
-)
-return
 ;
 unsigned
 int
@@ -6804,7 +6804,7 @@ defaults
 to
 zero
 sometimes
-knows
+known
 as
 the
 *
@@ -11429,7 +11429,7 @@ DOTTED
 CIRCLE
 or
 (
-hb_codepont_t
+hb_codepoint_t
 )
 -
 1

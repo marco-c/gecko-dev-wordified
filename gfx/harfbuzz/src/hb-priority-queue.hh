@@ -364,6 +364,12 @@ in_error
 )
 ;
 }
+#
+ifndef
+HB_OPTIMIZE_SIZE
+HB_ALWAYS_INLINE
+#
+endif
 void
 insert
 (
@@ -799,6 +805,7 @@ goto
 repeat
 ;
 }
+HB_ALWAYS_INLINE
 void
 bubble_up
 (

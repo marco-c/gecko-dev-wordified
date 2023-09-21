@@ -1028,7 +1028,6 @@ buffer
 -
 >
 idx
-1
 )
 ;
 unsigned
@@ -1254,7 +1253,7 @@ Results
 in
 better
 cursor
-positinoing
+positioning
 /
 underline
 drawing

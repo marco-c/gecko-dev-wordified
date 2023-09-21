@@ -751,7 +751,6 @@ trackTableEntry
 )
 return
 0
-.
 ;
 /
 *
@@ -774,7 +773,6 @@ sizes
 )
 return
 0
-.
 ;
 if
 (

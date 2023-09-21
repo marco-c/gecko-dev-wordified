@@ -736,7 +736,6 @@ buffer
 -
 >
 idx
-1
 )
 ;
 unsigned

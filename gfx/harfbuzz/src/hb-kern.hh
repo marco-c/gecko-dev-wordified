@@ -436,7 +436,6 @@ skippy_iter
 reset
 (
 idx
-1
 )
 ;
 unsigned
