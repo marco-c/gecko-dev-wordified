@@ -3037,7 +3037,7 @@ playbackRate
 =
 mPlaybackRateTimeline
 .
-GetValueAtTime
+GetComplexValueAtTime
 (
 aTrackPosition
 )
@@ -3063,7 +3063,7 @@ detune
 =
 mDetuneTimeline
 .
-GetValueAtTime
+GetComplexValueAtTime
 (
 aTrackPosition
 )
