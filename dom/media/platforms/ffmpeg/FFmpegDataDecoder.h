@@ -429,6 +429,9 @@ mCodecID
 set
 in
 constructor
+bool
+mVideoCodec
+;
 protected
 :
 virtual

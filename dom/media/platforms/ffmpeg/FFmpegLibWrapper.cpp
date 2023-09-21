@@ -602,7 +602,7 @@ break
 ;
 default
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Unknown
@@ -783,7 +783,7 @@ nullptr
 )
 {
 \
-FFMPEG_LOG
+FFMPEGP_LOG
 (
 "
 Couldn
@@ -1473,7 +1473,7 @@ func
 )
 {
 \
-FFMPEG_LOG
+FFMPEGP_LOG
 (
 "
 Couldn
@@ -1828,7 +1828,7 @@ if
 mVALibDrm
 )
 {
-FFMPEG_LOG
+FFMPEGP_LOG
 (
 "
 VA
@@ -1928,7 +1928,7 @@ if
 mVALib
 )
 {
-FFMPEG_LOG
+FFMPEGP_LOG
 (
 "
 VA

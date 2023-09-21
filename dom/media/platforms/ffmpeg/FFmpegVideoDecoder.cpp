@@ -665,7 +665,7 @@ AVPixelFormat
 aFormats
 )
 {
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Choosing
@@ -702,7 +702,7 @@ aFormats
 case
 AV_PIX_FMT_YUV420P
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -719,7 +719,7 @@ AV_PIX_FMT_YUV420P
 case
 AV_PIX_FMT_YUVJ420P
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -736,7 +736,7 @@ AV_PIX_FMT_YUVJ420P
 case
 AV_PIX_FMT_YUV420P10LE
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -753,7 +753,7 @@ AV_PIX_FMT_YUV420P10LE
 case
 AV_PIX_FMT_YUV422P
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -770,7 +770,7 @@ AV_PIX_FMT_YUV422P
 case
 AV_PIX_FMT_YUV422P10LE
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -787,7 +787,7 @@ AV_PIX_FMT_YUV422P10LE
 case
 AV_PIX_FMT_YUV444P
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -804,7 +804,7 @@ AV_PIX_FMT_YUV444P
 case
 AV_PIX_FMT_YUV444P10LE
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -827,7 +827,7 @@ LIBAVCODEC_VERSION_MAJOR
 case
 AV_PIX_FMT_YUV420P12LE
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -844,7 +844,7 @@ AV_PIX_FMT_YUV420P12LE
 case
 AV_PIX_FMT_YUV422P12LE
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -861,7 +861,7 @@ AV_PIX_FMT_YUV422P12LE
 case
 AV_PIX_FMT_YUV444P12LE
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -880,7 +880,7 @@ endif
 case
 AV_PIX_FMT_GBRP
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -935,7 +935,7 @@ AVPixelFormat
 aFormats
 )
 {
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Choosing
@@ -975,7 +975,7 @@ aFormats
 case
 AV_PIX_FMT_VAAPI_VLD
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -1026,7 +1026,7 @@ AVPixelFormat
 aFormats
 )
 {
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Choosing
@@ -1064,7 +1064,7 @@ aFormats
 case
 AV_PIX_FMT_DRM_PRIME
 :
-FFMPEG_LOG
+FFMPEGV_LOG
 (
 "
 Requesting
@@ -1620,7 +1620,7 @@ if
 (
 MOZ_LOG_TEST
 (
-sPDMLog
+sFFmpegVideoLog
 LogLevel
 :
 :
@@ -1653,7 +1653,7 @@ if
 (
 MOZ_LOG_TEST
 (
-sPDMLog
+sFFmpegVideoLog
 LogLevel
 :
 :
