@@ -222,7 +222,7 @@ bounds
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -231,7 +231,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -242,7 +242,7 @@ e10s
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -253,7 +253,7 @@ events
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -264,7 +264,7 @@ fission
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -275,7 +275,7 @@ general
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -286,7 +286,7 @@ hittest
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -297,7 +297,7 @@ mac
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -308,7 +308,7 @@ pivot
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -319,7 +319,7 @@ role
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -330,7 +330,7 @@ scroll
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -341,7 +341,7 @@ selectable
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -352,7 +352,7 @@ states
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -363,7 +363,7 @@ telemetry
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -374,7 +374,7 @@ text
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -385,7 +385,7 @@ tree
 /
 browser
 .
-ini
+toml
 "
 ]
 with
