@@ -2277,6 +2277,16 @@ clang
 -
 tidy
 "
+            
+"
+-
+-
+header
+-
+insertion
+=
+never
+"
         
 ]
         
