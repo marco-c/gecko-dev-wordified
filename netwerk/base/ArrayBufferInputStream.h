@@ -227,7 +227,7 @@ mozilla
 :
 UniquePtr
 <
-char
+uint8_t
 [
 ]
 >
