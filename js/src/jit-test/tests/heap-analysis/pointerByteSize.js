@@ -12,6 +12,8 @@ size
 =
 getBuildConfiguration
 (
+)
+[
 "
 pointer
 -
@@ -19,7 +21,7 @@ byte
 -
 size
 "
-)
+]
 ;
 assertEq
 (

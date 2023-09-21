@@ -12,10 +12,9 @@ if
 !
 getBuildConfiguration
 (
-"
-arm
-"
 )
+.
+arm
 ;
 test
 -

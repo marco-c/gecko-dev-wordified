@@ -32,10 +32,9 @@ transfer
 |
 getBuildConfiguration
 (
-"
-tsan
-"
 )
+.
+tsan
 )
 let
 buffer

@@ -12,10 +12,12 @@ if
 !
 getBuildConfiguration
 (
-"
-decorators
-"
 )
+[
+'
+decorators
+'
+]
 load
 (
 libdir

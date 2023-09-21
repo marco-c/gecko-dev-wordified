@@ -25,10 +25,12 @@ if
 :
 getBuildConfiguration
 (
-"
-android
-"
 )
+[
+'
+android
+'
+]
 /
 /
 Disabled

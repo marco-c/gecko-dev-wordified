@@ -11,10 +11,12 @@ if
 :
 getBuildConfiguration
 (
-"
-arm64
-"
 )
+[
+'
+arm64
+'
+]
 /
 /
 /

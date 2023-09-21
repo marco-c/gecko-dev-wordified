@@ -13,10 +13,9 @@ if
 !
 getBuildConfiguration
 (
-"
-debug
-"
 )
+.
+debug
 )
 {
 quit

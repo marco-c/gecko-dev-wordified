@@ -47,12 +47,14 @@ getBuildConfiguration
 &
 getBuildConfiguration
 (
-"
+)
+[
+'
 arm64
 -
 simulator
-"
-)
+'
+]
 )
 )
 -

@@ -152,12 +152,14 @@ if
 (
 getBuildConfiguration
 (
+)
+[
 "
 arm
 -
 simulator
 "
-)
+]
 )
 enableSingleStepProfiling
 (

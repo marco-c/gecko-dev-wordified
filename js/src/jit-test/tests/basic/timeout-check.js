@@ -15,10 +15,12 @@ if
 :
 getBuildConfiguration
 (
-"
-wasi
-"
 )
+[
+'
+wasi
+'
+]
 function
 f
 (

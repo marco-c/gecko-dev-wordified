@@ -157,10 +157,9 @@ isArm64
 =
 getBuildConfiguration
 (
-"
-arm64
-"
 )
+.
+arm64
 ;
 /
 /

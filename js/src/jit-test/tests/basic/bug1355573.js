@@ -11,10 +11,9 @@ if
 :
 getBuildConfiguration
 (
-"
-debug
-"
 )
+.
+debug
 =
 =
 =

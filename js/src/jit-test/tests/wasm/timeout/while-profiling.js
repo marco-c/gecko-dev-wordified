@@ -22,12 +22,14 @@ wasmIsSupported
 !
 getBuildConfiguration
 (
-"
+)
+[
+'
 arm
 -
 simulator
-"
-)
+'
+]
 /
 /
 Single

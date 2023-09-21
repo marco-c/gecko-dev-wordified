@@ -11,10 +11,12 @@ if
 :
 getBuildConfiguration
 (
-"
-wasi
-"
 )
+[
+'
+wasi
+'
+]
 /
 /
 Bug

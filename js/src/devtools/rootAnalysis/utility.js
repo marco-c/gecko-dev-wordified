@@ -2575,12 +2575,14 @@ if
 (
 getBuildConfiguration
 (
+)
+[
 "
 moz
 -
 memory
 "
-)
+]
 )
 {
 throw

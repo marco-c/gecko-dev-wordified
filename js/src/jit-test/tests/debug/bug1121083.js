@@ -15,10 +15,12 @@ if
 :
 getBuildConfiguration
 (
-"
-wasi
-"
 )
+[
+'
+wasi
+'
+]
 g
 =
 newGlobal

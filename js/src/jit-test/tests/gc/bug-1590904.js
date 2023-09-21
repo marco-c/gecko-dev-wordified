@@ -12,12 +12,14 @@ if
 !
 getBuildConfiguration
 (
-"
+)
+[
+'
 has
 -
 gczeal
-"
-)
+'
+]
 gczeal
 (
 0

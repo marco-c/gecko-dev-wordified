@@ -18,10 +18,9 @@ wasmSimdEnabled
 !
 getBuildConfiguration
 (
-"
-x86
-"
 )
+.
+x86
 const
 module
 =

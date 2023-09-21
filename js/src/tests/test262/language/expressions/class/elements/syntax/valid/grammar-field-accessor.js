@@ -21,10 +21,12 @@ getBuildConfiguration
 &
 getBuildConfiguration
 (
-"
-decorators
-"
 )
+[
+'
+decorators
+'
+]
 )
 )
 -

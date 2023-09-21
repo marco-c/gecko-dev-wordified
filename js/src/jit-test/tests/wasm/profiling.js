@@ -467,12 +467,14 @@ if
 (
 getBuildConfiguration
 (
+)
+[
 "
 arm
 -
 simulator
 "
-)
+]
 )
 {
 /
