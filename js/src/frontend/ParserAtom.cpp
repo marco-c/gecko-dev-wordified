@@ -6525,6 +6525,9 @@ return
 nullptr
 ;
 }
+if
+(
+!
 QuoteString
 <
 QuoteTarget
@@ -6538,7 +6541,12 @@ sprinter
 str
 quote
 )
+)
+{
+return
+nullptr
 ;
+}
 return
 sprinter
 .
