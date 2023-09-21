@@ -3373,7 +3373,7 @@ colorSpaceName
 NSDeviceRGBColorSpace
 bitmapFormat
 :
-NSAlphaFirstBitmapFormat
+NSBitmapFormatAlphaFirst
 bytesPerRow
 :
 0

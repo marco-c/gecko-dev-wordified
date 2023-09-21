@@ -2181,7 +2181,7 @@ if
 result
 =
 =
-NSFileHandlingPanelCancelButton
+NSModalResponseCancel
 )
 return
 retVal
@@ -2569,7 +2569,7 @@ if
 result
 =
 =
-NSFileHandlingPanelCancelButton
+NSModalResponseCancel
 )
 return
 retVal
@@ -3178,7 +3178,7 @@ if
 result
 =
 =
-NSFileHandlingPanelCancelButton
+NSModalResponseCancel
 )
 return
 retVal

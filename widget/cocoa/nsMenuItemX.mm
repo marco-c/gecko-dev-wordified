@@ -607,9 +607,9 @@ state
 =
 mIsChecked
 ?
-NSOnState
+NSControlStateValueOn
 :
-NSOffState
+NSControlStateValueOff
 ;
 SetKeyEquiv
 (
@@ -925,9 +925,9 @@ state
 =
 mIsChecked
 ?
-NSOnState
+NSControlStateValueOn
 :
-NSOffState
+NSControlStateValueOff
 ;
 return
 NS_OK

@@ -1138,11 +1138,11 @@ mWindow
 .
 styleMask
 &
-NSFullScreenWindowMask
+NSWindowStyleMaskFullScreen
 )
 =
 =
-NSFullScreenWindowMask
+NSWindowStyleMaskFullScreen
 )
 ;
 }

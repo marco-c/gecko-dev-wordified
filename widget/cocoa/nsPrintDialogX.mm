@@ -913,7 +913,7 @@ if
 button
 !
 =
-NSFileHandlingPanelOKButton
+NSModalResponseOK
 )
 {
 return
@@ -1287,7 +1287,7 @@ if
 button
 =
 =
-NSFileHandlingPanelOKButton
+NSModalResponseOK
 )
 {
 /
@@ -1779,7 +1779,7 @@ state
 ]
 =
 =
-NSOnState
+NSControlStateValueOn
 )
 ;
 mSettings
@@ -1793,7 +1793,7 @@ state
 ]
 =
 =
-NSOnState
+NSControlStateValueOn
 )
 ;
 mSettings
@@ -1807,7 +1807,7 @@ state
 ]
 =
 =
-NSOnState
+NSControlStateValueOn
 )
 ;
 mSettings
@@ -1821,7 +1821,7 @@ state
 ]
 =
 =
-NSOnState
+NSControlStateValueOn
 )
 ;
 [
@@ -2279,7 +2279,7 @@ autorelease
 checkbox
 setButtonType
 :
-NSSwitchButton
+NSButtonTypeSwitch
 ]
 ;
 [
@@ -2591,7 +2591,7 @@ GetPrintSelectionOnly
 mPrintSelectionOnlyCheckbox
 setState
 :
-NSOnState
+NSControlStateValueOn
 ]
 ;
 }
@@ -2648,9 +2648,9 @@ setState
 (
 shrinkToFit
 ?
-NSOnState
+NSControlStateValueOn
 :
-NSOffState
+NSControlStateValueOff
 )
 ]
 ;
@@ -2733,9 +2733,9 @@ setState
 (
 geckoBool
 ?
-NSOnState
+NSControlStateValueOn
 :
-NSOffState
+NSControlStateValueOff
 )
 ]
 ;
@@ -2789,9 +2789,9 @@ setState
 (
 geckoBool
 ?
-NSOnState
+NSControlStateValueOn
 :
-NSOffState
+NSControlStateValueOff
 )
 ]
 ;
@@ -3336,7 +3336,7 @@ state
 ]
 =
 =
-NSOnState
+NSControlStateValueOn
 ?
 [
 self

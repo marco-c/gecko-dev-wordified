@@ -2667,14 +2667,14 @@ initTextCell
 mDisclosureButtonCell
 setBezelStyle
 :
-NSRoundedDisclosureBezelStyle
+NSBezelStyleRoundedDisclosure
 ]
 ;
 [
 mDisclosureButtonCell
 setButtonType
 :
-NSPushOnPushOffButton
+NSButtonTypePushOnPushOff
 ]
 ;
 [
@@ -2701,14 +2701,14 @@ initTextCell
 mHelpButtonCell
 setBezelStyle
 :
-NSHelpButtonBezelStyle
+NSBezelStyleHelpButton
 ]
 ;
 [
 mHelpButtonCell
 setButtonType
 :
-NSMomentaryPushInButton
+NSButtonTypeMomentaryPushIn
 ]
 ;
 [
@@ -2735,7 +2735,7 @@ initTextCell
 mPushButtonCell
 setButtonType
 :
-NSMomentaryPushInButton
+NSButtonTypeMomentaryPushIn
 ]
 ;
 [
@@ -2762,7 +2762,7 @@ initTextCell
 mRadioButtonCell
 setButtonType
 :
-NSRadioButton
+NSButtonTypeRadio
 ]
 ;
 mCheckboxCell
@@ -2782,7 +2782,7 @@ initTextCell
 mCheckboxCell
 setButtonType
 :
-NSSwitchButton
+NSButtonTypeSwitch
 ]
 ;
 [
@@ -2933,7 +2933,7 @@ alloc
 ]
 initWithLevelIndicatorStyle
 :
-NSContinuousCapacityLevelIndicatorStyle
+NSLevelIndicatorStyleContinuousCapacity
 ]
 ;
 mTreeHeaderCell
@@ -6485,7 +6485,7 @@ CheckboxOrRadioState
 eOff
 :
 return
-NSOffState
+NSControlStateValueOff
 ;
 case
 nsNativeThemeCocoa
@@ -6497,7 +6497,7 @@ CheckboxOrRadioState
 eOn
 :
 return
-NSOnState
+NSControlStateValueOn
 ;
 case
 nsNativeThemeCocoa
@@ -6509,7 +6509,7 @@ CheckboxOrRadioState
 eIndeterminate
 :
 return
-NSMixedState
+NSControlStateValueMixed
 ;
 }
 }
@@ -8436,7 +8436,7 @@ mPushButtonCell
 mPushButtonCell
 setBezelStyle
 :
-NSRoundedBezelStyle
+NSBezelStyleRounded
 ]
 ;
 mPushButtonCell
@@ -8522,7 +8522,7 @@ mPushButtonCell
 mPushButtonCell
 setBezelStyle
 :
-NSShadowlessSquareBezelStyle
+NSBezelStyleShadowlessSquare
 ]
 ;
 if
@@ -9579,7 +9579,7 @@ DrawDisclosureButton
 cgContext
 inBoxRect
 controlParams
-NSOffState
+NSControlStateValueOff
 )
 ;
 return
@@ -9595,7 +9595,7 @@ DrawDisclosureButton
 cgContext
 inBoxRect
 controlParams
-NSOnState
+NSControlStateValueOn
 )
 ;
 return
@@ -9917,9 +9917,9 @@ controlParams
 pressed
 )
 ?
-NSOnState
+NSControlStateValueOn
 :
-NSOffState
+NSControlStateValueOff
 ;
 mCellDrawView
 .

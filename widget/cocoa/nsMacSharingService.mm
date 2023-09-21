@@ -575,7 +575,7 @@ imageData
 bitmapRep
 representationUsingType
 :
-NSPNGFileType
+NSBitmapImageFileTypePNG
 properties
 :
 {
