@@ -640,6 +640,8 @@ instanceObj
 Decoder
 &
 d
+ValType
+expectedType
 MutableHandleVal
 result
 )
