@@ -380,15 +380,6 @@ include
 "
 mozilla
 /
-StaticPrefs_canvas
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_gfx
 .
 h
