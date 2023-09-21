@@ -4254,14 +4254,6 @@ aComparator
 )
 override
 ;
-nsresult
-NotifyIfTagsChanged
-(
-nsIURI
-*
-aURI
-)
-;
 uint32_t
 mBatchChanges
 ;
