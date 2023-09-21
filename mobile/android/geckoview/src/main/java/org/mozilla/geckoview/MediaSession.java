@@ -3287,10 +3287,7 @@ MediaController
 .
 webidl
 .
-final
-long
-features
-=
+return
 NONE
 |
 (
@@ -3442,9 +3439,6 @@ FOCUS
 :
 NONE
 )
-;
-return
-features
 ;
 }
 }

@@ -16127,10 +16127,7 @@ GeckoSession
 session
 )
 {
-final
-Boolean
-isActive
-=
+return
 (
 Boolean
 )
@@ -16142,9 +16139,6 @@ GetActive
 "
 null
 )
-;
-return
-isActive
 ;
 }
 public
