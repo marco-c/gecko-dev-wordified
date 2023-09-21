@@ -196,8 +196,6 @@ Test
 {
 public
 :
-protected
-:
 static
 void
 InitializeFixture
