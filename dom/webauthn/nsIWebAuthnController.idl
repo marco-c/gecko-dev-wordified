@@ -455,6 +455,14 @@ must_use
 readonly
 attribute
 bool
+credProps
+;
+[
+must_use
+]
+readonly
+attribute
+bool
 hmacCreateSecret
 ;
 /
@@ -1068,6 +1076,11 @@ readonly
 attribute
 bool
 hmacCreateSecret
+;
+readonly
+attribute
+bool
+credPropsRk
 ;
 }
 ;

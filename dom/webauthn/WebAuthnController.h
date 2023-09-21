@@ -705,10 +705,6 @@ const
 nsCString
 &
 aClientDataJSON
-bool
-aForceNoneAttestation
-=
-false
 )
 :
 mTransactionId
@@ -783,6 +779,9 @@ mAppIdHash
 ;
 nsCString
 mClientDataJSON
+;
+bool
+mCredProps
 ;
 }
 ;
