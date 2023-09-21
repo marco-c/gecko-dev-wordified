@@ -152,7 +152,7 @@ h
 #
 include
 "
-nsIGleanPing
+nsIGleanMetrics
 .
 h
 "

@@ -307,7 +307,6 @@ click
 telemetry
 reported
 .
-await
 testClickResultTelemetry
 (
 {
