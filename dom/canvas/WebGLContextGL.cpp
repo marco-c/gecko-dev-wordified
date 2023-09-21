@@ -5720,16 +5720,6 @@ true
 /
 /
 /
-MOZ_ASSERT
-(
-gl
--
->
-IsCurrent
-(
-)
-)
-;
 const
 auto
 implPI
