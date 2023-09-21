@@ -187,6 +187,8 @@ Radeon
 R9
 200
 Series
+or
+similar
 "
 )
 ;
@@ -275,6 +277,8 @@ Radeon
 R9
 200
 Series
+or
+similar
 "
 )
 ;
@@ -356,6 +360,8 @@ Radeon
 R9
 200
 Series
+or
+similar
 "
 )
 ;
@@ -435,6 +441,8 @@ Radeon
 R9
 200
 Series
+or
+similar
 "
 )
 ;
@@ -492,6 +500,8 @@ Radeon
 R9
 200
 Series
+or
+similar
 "
 )
 ;
@@ -552,6 +562,8 @@ Radeon
 R9
 200
 Series
+or
+similar
 "
 )
 ;
@@ -629,6 +641,8 @@ expectation
 Radeon
 HD
 5850
+or
+similar
 "
 )
 ;
@@ -698,6 +712,8 @@ R
 HD
 Graphics
 400
+or
+similar
 "
 )
 ;
@@ -767,6 +783,8 @@ R
 )
 HD
 Graphics
+or
+similar
 "
 )
 ;
@@ -831,6 +849,8 @@ R
 HD
 Graphics
 400
+or
+similar
 "
 )
 ;
@@ -885,6 +905,8 @@ expectation
 "
 Apple
 M1
+or
+similar
 "
 )
 ;
@@ -947,6 +969,8 @@ expectation
 (
 "
 llvmpipe
+or
+similar
 "
 )
 ;
@@ -1032,6 +1056,8 @@ Direct3D11
 vs_5_0
 ps_5_0
 )
+or
+similar
 "
 )
 ;
@@ -1117,6 +1143,8 @@ Direct3D11
 vs_5_0
 ps_5_0
 )
+or
+similar
 "
 )
 ;
@@ -1200,6 +1228,8 @@ Direct3D11
 vs_5_0
 ps_5_0
 )
+or
+similar
 "
 ;
 const
@@ -1282,6 +1312,8 @@ Direct3D11
 vs_5_0
 ps_5_0
 )
+or
+similar
 "
 )
 ;
@@ -1346,6 +1378,8 @@ GTX
 PCIe
 /
 SSE2
+or
+similar
 "
 )
 ;
@@ -1430,6 +1464,8 @@ Direct3D11
 vs_5_0
 ps_5_0
 )
+or
+similar
 "
 )
 ;
@@ -1484,6 +1520,8 @@ expectation
 GeForce
 GTX
 480
+or
+similar
 "
 )
 ;
@@ -1538,6 +1576,8 @@ expectation
 GeForce
 GTX
 980
+or
+similar
 "
 )
 ;
@@ -1598,6 +1638,8 @@ Adreno
 TM
 )
 540
+or
+similar
 "
 )
 ;
@@ -1704,6 +1746,8 @@ Adreno
 TM
 )
 540
+or
+similar
 "
 )
 ;
@@ -1766,6 +1810,8 @@ expectation
 (
 "
 llvmpipe
+or
+similar
 "
 )
 ;
@@ -1830,6 +1876,8 @@ R
 HD
 Graphics
 400
+or
+similar
 "
 )
 ;
@@ -1884,6 +1932,8 @@ expectation
 "
 Apple
 M1
+or
+similar
 "
 )
 ;
@@ -1966,6 +2016,8 @@ Direct3D11
 vs_5_0
 ps_5_0
 )
+or
+similar
 "
 )
 ;
