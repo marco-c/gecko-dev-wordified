@@ -1219,6 +1219,8 @@ vs_5_0
 ps_5_0
 )
 or
+"
+"
 similar
 "
 )
@@ -1301,6 +1303,8 @@ Render
 Driver
 Direct3D11
 vs_5_0
+"
+"
 ps_5_0
 )
 or
@@ -1388,6 +1392,8 @@ vs_5_0
 ps_5_0
 )
 or
+"
+"
 similar
 "
 )
@@ -1536,6 +1542,8 @@ vs_5_0
 ps_5_0
 )
 or
+"
+"
 similar
 "
 )
@@ -2088,6 +2096,8 @@ vs_5_0
 ps_5_0
 )
 or
+"
+"
 similar
 "
 )
