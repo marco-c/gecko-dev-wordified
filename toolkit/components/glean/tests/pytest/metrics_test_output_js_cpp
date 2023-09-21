@@ -465,12 +465,15 @@ types
 ;
 already_AddRefed
 <
-nsISupports
+GleanMetric
 >
 NewMetricFromId
 (
 uint32_t
 id
+nsISupports
+*
+aParent
 )
 {
 uint32_t
@@ -510,6 +513,7 @@ GleanBoolean
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -529,6 +533,7 @@ GleanCounter
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -548,6 +553,7 @@ GleanCustomDistribution
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -568,6 +574,7 @@ GleanLabeled
 (
 metricId
 4
+aParent
 )
 ;
 }
@@ -588,6 +595,7 @@ GleanLabeled
 (
 metricId
 5
+aParent
 )
 ;
 }
@@ -608,6 +616,7 @@ GleanLabeled
 (
 metricId
 6
+aParent
 )
 ;
 }
@@ -627,6 +636,7 @@ GleanMemoryDistribution
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -646,6 +656,7 @@ GleanStringList
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -665,6 +676,7 @@ GleanString
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -684,6 +696,7 @@ GleanText
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -703,6 +716,7 @@ GleanTimespan
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -722,6 +736,7 @@ GleanTimingDistribution
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -741,6 +756,7 @@ GleanDatetime
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -760,6 +776,7 @@ GleanEvent
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -779,6 +796,7 @@ GleanDenominator
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -798,6 +816,7 @@ GleanQuantity
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -817,6 +836,7 @@ GleanRate
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -836,6 +856,7 @@ GleanNumerator
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -855,6 +876,7 @@ GleanUuid
 >
 (
 metricId
+aParent
 )
 ;
 }
@@ -1018,7 +1040,7 @@ GIFFT
 /
 already_AddRefed
 <
-nsISupports
+GleanMetric
 >
 NewSubMetricFromIds
 (
@@ -1033,6 +1055,9 @@ aLabel
 uint32_t
 *
 aSubmetricId
+nsISupports
+*
+aParent
 )
 {
 switch
@@ -1074,6 +1099,7 @@ GleanBoolean
 >
 (
 id
+aParent
 )
 ;
 }
@@ -1111,6 +1137,7 @@ GleanCounter
 >
 (
 id
+aParent
 )
 ;
 }
@@ -1148,6 +1175,7 @@ GleanString
 >
 (
 id
+aParent
 )
 ;
 }

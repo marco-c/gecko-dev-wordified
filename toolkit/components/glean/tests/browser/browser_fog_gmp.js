@@ -322,7 +322,7 @@ testResetFOG
 ;
 is
 (
-undefined
+null
 Glean
 .
 testOnlyIpc
