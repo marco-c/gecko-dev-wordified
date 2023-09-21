@@ -4768,9 +4768,6 @@ jSOracle
 "
 windowsUtils
 "
-"
-windowsFileDialog
-"
 }
 ;
 dictionary
