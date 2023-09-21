@@ -3119,6 +3119,11 @@ mInProcessTransitions
 =
 false
 ;
+bool
+mInLocalRunLoop
+=
+false
+;
 /
 /
 While
@@ -3253,6 +3258,11 @@ events
 .
 bool
 mHasStartedNativeFullscreen
+;
+bool
+mWaitingOnFinishCurrentTransition
+=
+false
 ;
 bool
 mModal
