@@ -11146,6 +11146,11 @@ GetSingleton
 )
 )
 ;
+if
+(
+gmps
+)
+{
 gmps
 -
 >
@@ -11154,6 +11159,7 @@ UpdateContentProcessGMPCapabilities
 this
 )
 ;
+}
 /
 /
 Flush

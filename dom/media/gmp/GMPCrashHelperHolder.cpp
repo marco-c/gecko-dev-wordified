@@ -223,6 +223,11 @@ GetGeckoMediaPluginService
 )
 )
 ;
+if
+(
+service
+)
+{
 service
 -
 >
@@ -233,6 +238,7 @@ GetCrashHelper
 )
 )
 ;
+}
 }
 }
 }
