@@ -7431,12 +7431,6 @@ move
 (
 data
 )
-/
-*
-aSharedSurface
-*
-/
-nullptr
 )
 ;
 return

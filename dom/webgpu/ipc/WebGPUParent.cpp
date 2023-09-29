@@ -6235,12 +6235,6 @@ move
 (
 textureData
 )
-/
-*
-aSharedSurface
-*
-/
-nullptr
 )
 ;
 }
