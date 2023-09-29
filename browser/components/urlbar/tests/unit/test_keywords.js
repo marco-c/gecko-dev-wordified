@@ -1275,7 +1275,6 @@ http
 mozilla
 .
 com
-/
 "
 keyword
 :
