@@ -424,6 +424,17 @@ GPUVideoImage
 =
 default
 ;
+GPUVideoImage
+*
+AsGPUVideoImage
+(
+)
+override
+{
+return
+this
+;
+}
 gfx
 :
 :

@@ -426,6 +426,9 @@ namespace
 layers
 {
 class
+GPUVideoImage
+;
+class
 ImageClient
 ;
 class
@@ -951,6 +954,17 @@ virtual
 GLImage
 *
 AsGLImage
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+GPUVideoImage
+*
+AsGPUVideoImage
 (
 )
 {
