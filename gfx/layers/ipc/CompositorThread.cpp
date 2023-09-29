@@ -282,7 +282,7 @@ static
 ProfilerThreadId
 sProfilerThreadId
 ;
-nsISerialEventTarget
+nsIThread
 *
 CompositorThread
 (
