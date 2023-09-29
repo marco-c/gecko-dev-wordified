@@ -604,10 +604,8 @@ hexRx
 aChunks
 .
 length
-!
-=
-=
-1
+>
+3
 &
 &
 Date
@@ -637,10 +635,8 @@ hexRx
 bChunks
 .
 length
-!
-=
-=
-1
+>
+3
 &
 &
 Date
