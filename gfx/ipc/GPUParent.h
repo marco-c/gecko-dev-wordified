@@ -349,6 +349,11 @@ SwapChainInfo
 aInfo
 )
 ;
+void
+NotifyDisableRemoteCanvas
+(
+)
+;
 mozilla
 :
 :

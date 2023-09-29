@@ -537,6 +537,16 @@ decoding
 "
 )
 \
+_
+(
+REMOTE_CANVAS
+Feature
+"
+Remote
+canvas
+"
+)
+\
 /
 *
 Add
