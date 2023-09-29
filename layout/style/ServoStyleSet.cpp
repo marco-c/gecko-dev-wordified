@@ -2202,7 +2202,8 @@ FIXME
 emilio
 )
 :
-This
+These
+two
 shouldn
 '
 t
@@ -2214,9 +2215,9 @@ the
 call
 to
 the
+/
+/
 same
-/
-/
 function
 in
 PresShell
@@ -2261,6 +2262,10 @@ mDocument
 -
 >
 FlushUserFontSet
+(
+)
+;
+UpdateStylistIfNeeded
 (
 )
 ;
