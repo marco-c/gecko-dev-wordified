@@ -644,6 +644,9 @@ punnedPtr
 =
 nullptr
 ;
+JS
+:
+:
 Heap
 <
 JSObject
@@ -654,6 +657,9 @@ heapPtr
 =
 reinterpret_cast
 <
+JS
+:
+:
 Heap
 <
 JSObject
@@ -670,6 +676,9 @@ new
 (
 heapPtr
 )
+JS
+:
+:
 Heap
 <
 JSObject
@@ -708,6 +717,9 @@ new
 (
 heapPtr
 )
+JS
+:
+:
 Heap
 <
 JSObject
@@ -751,6 +763,9 @@ new
 (
 heapPtr
 )
+JS
+:
+:
 Heap
 <
 JSObject

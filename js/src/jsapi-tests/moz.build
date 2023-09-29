@@ -267,6 +267,11 @@ testDeflateStringToUTF8Buffer
 cpp
 "
 "
+testDeleteProperty
+.
+cpp
+"
+"
 testDifferentNewTargetInvokeConstructor
 .
 cpp

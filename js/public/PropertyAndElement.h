@@ -2834,7 +2834,13 @@ JSObject
 *
 >
 obj
+JS
+:
+:
+Handle
+<
 jsid
+>
 id
 )
 ;
