@@ -2828,16 +2828,7 @@ toFixed
 let
 toolbox
 =
-document
-.
-getElementById
-(
-"
-navigator
--
-toolbox
-"
-)
+gNavToolbox
 ;
 if
 (
