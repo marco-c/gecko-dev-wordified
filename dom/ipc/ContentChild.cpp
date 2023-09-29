@@ -18190,11 +18190,6 @@ principal
 )
 registration
 .
-agentClusterId
-(
-)
-registration
-.
 partitionKey
 (
 )
@@ -21903,13 +21898,6 @@ nsIPrincipal
 *
 aPrincipal
 const
-Maybe
-<
-nsID
->
-&
-aAgentClusterId
-const
 nsCString
 &
 aPartitionKey
@@ -21941,7 +21929,6 @@ AddDataEntry
 (
 aURI
 aPrincipal
-aAgentClusterId
 aPartitionKey
 blobImpl
 )
