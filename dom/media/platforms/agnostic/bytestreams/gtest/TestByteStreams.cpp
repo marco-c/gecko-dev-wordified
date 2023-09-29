@@ -3597,7 +3597,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mConfigurationVersion
+configurationVersion
 1
 )
 ;
@@ -3605,7 +3605,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mGeneralProfileSpace
+general_profile_space
 0
 )
 ;
@@ -3613,7 +3613,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mGeneralTierFlag
+general_tier_flag
 false
 )
 ;
@@ -3621,7 +3621,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mGeneralProfileIdc
+general_profile_idc
 1
 )
 ;
@@ -3629,7 +3629,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mGeneralProfileCompatibilityFlags
+general_profile_compatibility_flags
 (
 uint32_t
 )
@@ -3640,7 +3640,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mGeneralConstraintIndicatorFlags
+general_constraint_indicator_flags
 (
 uint64_t
 )
@@ -3651,7 +3651,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mGeneralLevelIdc
+general_level_idc
 0x5A
 )
 ;
@@ -3659,7 +3659,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mMinSpatialSegmentationIdc
+min_spatial_segmentation_idc
 0
 )
 ;
@@ -3667,7 +3667,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mParallelismType
+parallelismType
 0
 )
 ;
@@ -3675,7 +3675,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mChromaFormatIdc
+chroma_format_idc
 1
 )
 ;
@@ -3683,7 +3683,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mBitDepthLumaMinus8
+bit_depth_luma_minus8
 0
 )
 ;
@@ -3691,7 +3691,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mBitDepthChromaMinus8
+bit_depth_chroma_minus8
 0
 )
 ;
@@ -3699,7 +3699,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mAvgFrameRate
+avgFrameRate
 0
 )
 ;
@@ -3707,7 +3707,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mConstantFrameRate
+constantFrameRate
 0
 )
 ;
@@ -3715,7 +3715,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mNumTemporalLayers
+numTemporalLayers
 1
 )
 ;
@@ -3723,7 +3723,7 @@ EXPECT_EQ
 (
 hvcc
 .
-mTemporalIdNested
+temporalIdNested
 true
 )
 ;
