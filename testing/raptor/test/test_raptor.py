@@ -239,20 +239,6 @@ firefox
 ]
         
 [
-BrowsertimeDesktop
-"
-chrome
-"
-]
-        
-[
-BrowsertimeDesktop
-"
-chromium
-"
-]
-        
-[
 BrowsertimeAndroid
 "
 geckoview
