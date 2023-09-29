@@ -1677,6 +1677,17 @@ get
 }
 else
 {
+mOwner
+-
+>
+ChangeConnectionState
+(
+ConnectionState
+:
+:
+ZERORTT
+)
+;
 LOG1
 (
 (
