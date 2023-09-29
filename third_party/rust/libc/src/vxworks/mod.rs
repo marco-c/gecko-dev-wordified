@@ -7420,6 +7420,9 @@ as
 c_uint
 }
 pub
+{
+const
+}
 fn
 CMSG_LEN
 (

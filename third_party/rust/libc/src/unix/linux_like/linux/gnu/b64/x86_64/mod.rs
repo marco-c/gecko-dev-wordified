@@ -4041,6 +4041,14 @@ usize
 ;
 pub
 const
+__SIZEOF_PTHREAD_BARRIERATTR_T
+:
+usize
+=
+4
+;
+pub
+const
 O_DIRECT
 :
 :
