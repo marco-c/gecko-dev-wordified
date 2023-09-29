@@ -247,6 +247,9 @@ url
 )
 {
 throw
+new
+Error
+(
 "
 Expected
 a
@@ -259,6 +262,7 @@ the
 manifest
 .
 "
+)
 ;
 }
 g
@@ -487,7 +491,11 @@ spec
 )
 ;
 throw
+new
+Error
+(
 e
+)
 ;
 }
 if
@@ -825,6 +833,8 @@ length
 )
 {
 throw
+new
+Error
 (
 "
 url
@@ -1465,6 +1475,8 @@ length
 )
 {
 throw
+new
+Error
 (
 "
 Error
@@ -1742,6 +1754,8 @@ refPrefSettings
 )
 {
 throw
+new
+Error
 (
 "
 Error
@@ -2031,6 +2045,8 @@ true
 else
 {
 throw
+new
+Error
 (
 "
 Error
@@ -2179,6 +2195,8 @@ invalid
 token
 .
 throw
+new
+Error
 (
 "
 Error
@@ -2224,6 +2242,9 @@ maxAsserts
 )
 {
 throw
+new
+Error
+(
 "
 Bad
 range
@@ -2241,6 +2262,7 @@ line
 "
 +
 lineNo
+)
 ;
 }
 var
@@ -2561,6 +2583,8 @@ length
 )
 {
 throw
+new
+Error
 (
 "
 Error
@@ -2597,6 +2621,8 @@ runHttp
 )
 {
 throw
+new
+Error
 (
 "
 Error
@@ -2710,6 +2736,8 @@ nonSkipUsed
 )
 {
 throw
+new
+Error
 (
 "
 Error
@@ -2806,6 +2834,8 @@ EXPECTED_PASS
 )
 {
 throw
+new
+Error
 (
 "
 Error
@@ -3182,6 +3212,8 @@ length
 )
 {
 throw
+new
+Error
 (
 "
 Error
@@ -3228,6 +3260,8 @@ EXPECTED_PASS
 )
 {
 throw
+new
+Error
 (
 "
 Error
@@ -3377,6 +3411,8 @@ length
 )
 {
 throw
+new
+Error
 (
 "
 Error
@@ -3445,6 +3481,8 @@ min
 )
 {
 throw
+new
+Error
 (
 "
 Error
@@ -3679,6 +3717,8 @@ aManifestID
 else
 {
 throw
+new
+Error
 (
 "
 Error
