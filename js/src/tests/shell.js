@@ -4500,7 +4500,7 @@ browser
 gcparam
 (
 '
-parallelMarkingThresholdKB
+parallelMarkingThresholdMB
 '
 0
 )

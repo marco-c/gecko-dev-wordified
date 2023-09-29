@@ -207,7 +207,7 @@ purposes
 gcparam
 (
 '
-parallelMarkingThresholdKB
+parallelMarkingThresholdMB
 '
 0
 )
