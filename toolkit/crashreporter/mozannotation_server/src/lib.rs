@@ -97,6 +97,15 @@ use
 std
 :
 :
+cmp
+:
+:
+min
+;
+use
+std
+:
+:
 iter
 :
 :
@@ -290,6 +299,9 @@ mozannotation_retrieve
 process
 :
 usize
+max_annotations
+:
+usize
 )
 -
 >
@@ -308,6 +320,7 @@ retrieve_annotations
 process
 as
 _
+max_annotations
 )
 ;
 match
@@ -477,6 +490,9 @@ retrieve_annotations
 process
 :
 ProcessHandle
+max_annotations
+:
+usize
 )
 -
 >
@@ -627,7 +643,11 @@ CAnnotation
 :
 with_capacity
 (
+min
+(
+max_annotations
 length
+)
 )
 ;
 for
