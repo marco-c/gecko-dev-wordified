@@ -173,6 +173,9 @@ CLIPBOARD_LOG
 MOZ_LOG
 (
 sWidgetClipboardLog
+mozilla
+:
+:
 LogLevel
 :
 :
@@ -190,6 +193,9 @@ CLIPBOARD_LOG_ENABLED
 MOZ_LOG_TEST
 (
 sWidgetClipboardLog
+mozilla
+:
+:
 LogLevel
 :
 :
