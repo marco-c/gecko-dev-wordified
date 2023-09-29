@@ -8950,6 +8950,13 @@ SetCursor
 mCursor
 )
 ;
+EventStateManager
+:
+:
+ClearCursorSettingManager
+(
+)
+;
 }
 /
 /
@@ -9165,6 +9172,8 @@ aEvent
 mRefPoint
 )
 ;
+if
+(
 nsCOMPtr
 <
 nsIWidget
@@ -9174,10 +9183,6 @@ widget
 GetWidget
 (
 )
-;
-if
-(
-widget
 )
 {
 /
@@ -9228,6 +9233,13 @@ widget
 SetCursor
 (
 mCursor
+)
+;
+EventStateManager
+:
+:
+ClearCursorSettingManager
+(
 )
 ;
 }
