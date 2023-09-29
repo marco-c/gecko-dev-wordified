@@ -1304,6 +1304,7 @@ user
 font
 set
 .
+const
 bool
 modified
 =
@@ -1344,7 +1345,6 @@ i
 ]
 .
 mFontFace
-modified
 )
 ;
 }

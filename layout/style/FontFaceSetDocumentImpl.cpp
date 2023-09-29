@@ -3185,7 +3185,6 @@ i
 ]
 .
 mFontFace
-modified
 )
 ;
 }

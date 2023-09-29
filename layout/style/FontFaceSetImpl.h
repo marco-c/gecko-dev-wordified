@@ -1287,9 +1287,6 @@ InsertNonRuleFontFace
 FontFaceImpl
 *
 aFontFace
-bool
-&
-aFontSetModified
 )
 ;
 /
