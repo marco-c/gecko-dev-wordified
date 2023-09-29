@@ -1155,12 +1155,6 @@ VoidCString
 VoidString
 (
 )
-/
-*
-aClearAll
-*
-/
-false
 getter_AddRefs
 (
 request

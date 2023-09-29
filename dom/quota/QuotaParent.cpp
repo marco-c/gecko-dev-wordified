@@ -2286,10 +2286,6 @@ Type
 >
 &
 aClientType
-const
-bool
-&
-aClearAll
 ClearStoragesForOriginResolver
 &
 &
@@ -2423,7 +2419,6 @@ ClearStoragesForOrigin
 aPersistenceType
 aPrincipalInfo
 aClientType
-aClearAll
 )
 -
 >
