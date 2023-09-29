@@ -465,6 +465,14 @@ attribute
 bool
 hmacCreateSecret
 ;
+[
+must_use
+]
+readonly
+attribute
+bool
+minPinLength
+;
 /
 /
 Options
