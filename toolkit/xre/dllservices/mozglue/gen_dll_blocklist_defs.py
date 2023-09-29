@@ -3668,10 +3668,13 @@ flags_str
         
 flags
 =
+sorted
+(
 self
 .
 get_flags_list
 (
+)
 )
         
 if
