@@ -1167,6 +1167,12 @@ _currentTestStartTime
 ;
 if
 (
+!
+TestRunner
+.
+interactiveDebugger
+&
+&
 runtime
 >
 =

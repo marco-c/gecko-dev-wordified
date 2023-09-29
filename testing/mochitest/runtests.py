@@ -8859,6 +8859,10 @@ if
 options
 .
 debugger
+or
+options
+.
+jsdebugger
 :
                 
 self
@@ -28643,6 +28647,10 @@ elif
 options
 .
 debugger
+or
+options
+.
+jsdebugger
 or
 not
 options
