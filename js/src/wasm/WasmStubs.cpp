@@ -14139,6 +14139,13 @@ bytecodeOffset
 /
 0
 offsets
+/
+*
+hasUnwindInfo
+=
+*
+/
+false
 )
 )
 {

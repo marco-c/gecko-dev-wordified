@@ -2823,6 +2823,9 @@ stackMaps
 TryNoteVector
 tryNotes
 ;
+CodeRangeUnwindInfoVector
+codeRangeUnwindInfos
+;
 /
 /
 Debug
@@ -5465,6 +5468,17 @@ trap
 BytecodeOffset
 *
 bytecode
+)
+const
+;
+const
+CodeRangeUnwindInfo
+*
+lookupUnwindInfo
+(
+void
+*
+pc
 )
 const
 ;

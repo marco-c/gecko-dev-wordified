@@ -430,6 +430,9 @@ stackMaps
 TryNoteVector
 tryNotes
 ;
+CodeRangeUnwindInfoVector
+codeRangeUnwindInfos
+;
 [
 [
 nodiscard
@@ -500,6 +503,12 @@ clear
 )
 ;
 tryNotes
+.
+clear
+(
+)
+;
+codeRangeUnwindInfos
 .
 clear
 (
@@ -576,6 +585,13 @@ empty
 &
 &
 stackMaps
+.
+empty
+(
+)
+&
+&
+codeRangeUnwindInfos
 .
 empty
 (
