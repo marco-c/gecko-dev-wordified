@@ -163,7 +163,6 @@ C
 namespace
 soundtouch
 {
-SOUNDTOUCH_API
 soundtouch
 :
 :
@@ -173,7 +172,6 @@ createSoundTouchObj
 (
 )
 ;
-SOUNDTOUCH_API
 void
 destroySoundTouchObj
 (
