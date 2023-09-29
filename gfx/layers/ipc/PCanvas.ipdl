@@ -105,6 +105,10 @@ MPL
 *
 /
 include
+protocol
+PCanvasManager
+;
+include
 "
 mozilla
 /
@@ -211,7 +215,6 @@ drawing
 *
 /
 [
-NeedsOtherPid
 ParentImpl
 =
 "
@@ -222,6 +225,9 @@ async
 protocol
 PCanvas
 {
+manager
+PCanvasManager
+;
 parent
 :
 /
@@ -284,6 +290,8 @@ CrossProcessSemaphoreHandle
 aReaderSem
 CrossProcessSemaphoreHandle
 aWriterSem
+bool
+aUseIPDLThread
 )
 ;
 /
@@ -345,6 +353,11 @@ events
 /
 async
 ResumeTranslation
+(
+)
+;
+async
+__delete__
 (
 )
 ;

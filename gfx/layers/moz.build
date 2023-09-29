@@ -959,13 +959,6 @@ h
 "
 ipc
 /
-CanvasThread
-.
-h
-"
-"
-ipc
-/
 CanvasTranslator
 .
 h
@@ -2407,13 +2400,6 @@ cpp
 ipc
 /
 CanvasChild
-.
-cpp
-"
-"
-ipc
-/
-CanvasThread
 .
 cpp
 "
