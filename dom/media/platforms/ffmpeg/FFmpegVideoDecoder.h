@@ -953,6 +953,11 @@ endif
 float
 mAverangeDecodeTime
 ;
+#
+if
+LIBAVCODEC_VERSION_MAJOR
+<
+58
 class
 PtsCorrectionContext
 {
@@ -1044,6 +1049,8 @@ mPtsContext
 DurationMap
 mDurationMap
 ;
+#
+endif
 const
 bool
 mLowLatency
