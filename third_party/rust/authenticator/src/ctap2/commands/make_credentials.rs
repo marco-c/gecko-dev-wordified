@@ -101,10 +101,10 @@ AuthenticationExtensionsClientOutputs
 CredentialProtectionPolicy
 PublicKeyCredentialDescriptor
 PublicKeyCredentialParameters
+PublicKeyCredentialUserEntity
 RelyingParty
 RelyingPartyWrapper
 RpIdHash
-User
 UserVerificationRequirement
 }
 ;
@@ -1802,7 +1802,7 @@ user
 :
 Option
 <
-User
+PublicKeyCredentialUserEntity
 >
 pub
 pub_cred_params
@@ -1958,7 +1958,7 @@ user
 :
 Option
 <
-User
+PublicKeyCredentialUserEntity
 >
 pub_cred_params
 :
@@ -3860,7 +3860,7 @@ default
 )
 Some
 (
-User
+PublicKeyCredentialUserEntity
 {
 id
 :
@@ -4112,9 +4112,9 @@ server
 :
 {
 PublicKeyCredentialParameters
+PublicKeyCredentialUserEntity
 RelyingParty
 RelyingPartyWrapper
-User
 }
 ;
 use
@@ -4290,7 +4290,7 @@ Acme
 )
 Some
 (
-User
+PublicKeyCredentialUserEntity
 {
 id
 :
@@ -4656,7 +4656,7 @@ Acme
 )
 Some
 (
-User
+PublicKeyCredentialUserEntity
 {
 id
 :

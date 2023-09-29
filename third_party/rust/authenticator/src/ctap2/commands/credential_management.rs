@@ -31,9 +31,9 @@ server
 :
 {
 PublicKeyCredentialDescriptor
+PublicKeyCredentialUserEntity
 RelyingParty
 RpIdHash
-User
 UserVerificationRequirement
 }
 errors
@@ -142,7 +142,7 @@ user
 :
 Option
 <
-User
+PublicKeyCredentialUserEntity
 >
 /
 /
@@ -410,7 +410,7 @@ UpdateUserInformation
 (
 (
 PublicKeyCredentialDescriptor
-User
+PublicKeyCredentialUserEntity
 )
 )
 }
@@ -975,7 +975,7 @@ user
 :
 Option
 <
-User
+PublicKeyCredentialUserEntity
 >
 /
 /
@@ -1127,7 +1127,7 @@ Information
 pub
 user
 :
-User
+PublicKeyCredentialUserEntity
 /
 /
 /

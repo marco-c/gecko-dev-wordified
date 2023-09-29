@@ -85,9 +85,9 @@ server
 AuthenticationExtensionsClientInputs
 PublicKeyCredentialDescriptor
 PublicKeyCredentialParameters
+PublicKeyCredentialUserEntity
 RelyingParty
 ResidentKeyRequirement
-User
 UserVerificationRequirement
 }
 ;
@@ -165,7 +165,7 @@ String
 pub
 user
 :
-User
+PublicKeyCredentialUserEntity
 pub
 pub_cred_params
 :
@@ -2058,9 +2058,9 @@ server
 :
 :
 {
+PublicKeyCredentialUserEntity
 RelyingParty
 ResidentKeyRequirement
-User
 UserVerificationRequirement
 }
 ;
@@ -2773,7 +2773,7 @@ to_string
 )
 user
 :
-User
+PublicKeyCredentialUserEntity
 {
 id
 :
@@ -3242,7 +3242,7 @@ to_string
 )
 user
 :
-User
+PublicKeyCredentialUserEntity
 {
 id
 :
@@ -3891,7 +3891,7 @@ to_string
 )
 user
 :
-User
+PublicKeyCredentialUserEntity
 {
 id
 :
