@@ -5391,7 +5391,7 @@ EventTarget
 aTargets
 )
 {
-AUTO_PROFILER_LABEL
+AUTO_PROFILER_LABEL_HOT
 (
 "
 EventDispatcher

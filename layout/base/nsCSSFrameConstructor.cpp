@@ -18883,7 +18883,7 @@ ConstructRootFrame
 (
 )
 {
-AUTO_PROFILER_LABEL
+AUTO_PROFILER_LABEL_HOT
 (
 "
 nsCSSFrameConstructor
@@ -44695,7 +44695,7 @@ IsInStyleRefresh
 )
 )
 ;
-AUTO_PROFILER_LABEL
+AUTO_PROFILER_LABEL_HOT
 (
 "
 nsCSSFrameConstructor
@@ -47056,7 +47056,7 @@ IsInStyleRefresh
 )
 )
 ;
-AUTO_PROFILER_LABEL
+AUTO_PROFILER_LABEL_HOT
 (
 "
 nsCSSFrameConstructor
@@ -50636,7 +50636,7 @@ siblings
 "
 )
 ;
-AUTO_PROFILER_LABEL
+AUTO_PROFILER_LABEL_HOT
 (
 "
 nsCSSFrameConstructor
@@ -53681,7 +53681,7 @@ CharacterDataChangeInfo
 aInfo
 )
 {
-AUTO_PROFILER_LABEL
+AUTO_PROFILER_LABEL_HOT
 (
 "
 nsCSSFrameConstructor
