@@ -155,10 +155,13 @@ mBits
 }
 ;
 struct
-ServoCustomPropertiesMap
+ServoComputedCustomProperties
 {
 uintptr_t
-mPtr
+mInherited
+;
+uintptr_t
+mNonInherited
 ;
 }
 ;
@@ -398,7 +401,7 @@ private
 mozilla
 :
 :
-ServoCustomPropertiesMap
+ServoComputedCustomProperties
 custom_properties
 ;
 mozilla
