@@ -6254,15 +6254,13 @@ pcm_format
 samplesPerSec
 ;
 }
+return
 func
 (
 format
 format_sample_rate
 using_floats
 )
-;
-return
-CUBEB_OK
 ;
 }
 static
