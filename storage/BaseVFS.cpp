@@ -114,6 +114,13 @@ MPL
 /
 #
 include
+"
+BaseVFS
+.
+h
+"
+#
+include
 <
 string
 .
@@ -1552,11 +1559,14 @@ mozilla
 :
 :
 storage
+:
+:
+basevfs
 {
 const
 char
 *
-GetBaseVFSName
+GetVFSName
 (
 bool
 exclusive
@@ -1584,7 +1594,7 @@ UniquePtr
 <
 sqlite3_vfs
 >
-ConstructBaseVFS
+ConstructVFS
 (
 bool
 exclusive
@@ -1630,7 +1640,7 @@ if
 (
 sqlite3_vfs_find
 (
-GetBaseVFSName
+GetVFSName
 (
 exclusive
 )
@@ -1811,7 +1821,7 @@ nullptr
 pNext
 *
 /
-GetBaseVFSName
+GetVFSName
 (
 exclusive
 )
@@ -1987,3 +1997,6 @@ mozilla
 :
 :
 storage
+:
+:
+basevfs
