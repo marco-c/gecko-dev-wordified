@@ -10419,7 +10419,7 @@ false
 ;
 /
 /
-JSGC_PARALLEL_MARKING_THRESHOLD_KB
+JSGC_PARALLEL_MARKING_THRESHOLD_MB
 /
 /
 Minimum
@@ -10449,9 +10449,9 @@ options
 .
 mem
 .
-gc_parallel_marking_threshold_kb
+gc_parallel_marking_threshold_mb
 "
-20000
+20
 )
 ;
 #
@@ -10469,9 +10469,9 @@ options
 .
 mem
 .
-gc_parallel_marking_threshold_kb
+gc_parallel_marking_threshold_mb
 "
-4000
+4
 )
 ;
 #
@@ -10489,9 +10489,9 @@ options
 .
 mem
 .
-gc_parallel_marking_threshold_kb
+gc_parallel_marking_threshold_mb
 "
-200000
+200
 )
 ;
 #
@@ -10509,9 +10509,9 @@ options
 .
 mem
 .
-gc_parallel_marking_threshold_kb
+gc_parallel_marking_threshold_mb
 "
-200000
+200
 )
 ;
 #

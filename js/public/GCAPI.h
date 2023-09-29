@@ -2587,10 +2587,10 @@ marking
 *
 Default
 :
-ParallelMarkingThresholdKB
+ParallelMarkingThresholdMB
 *
 /
-JSGC_PARALLEL_MARKING_THRESHOLD_KB
+JSGC_PARALLEL_MARKING_THRESHOLD_MB
 =
 50
 }
