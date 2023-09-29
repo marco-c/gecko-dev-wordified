@@ -208,6 +208,11 @@ TestScopedLogExtraInfo
 cpp
 "
 "
+TestStorageConnection
+.
+cpp
+"
+"
 TestTelemetry
 .
 cpp
