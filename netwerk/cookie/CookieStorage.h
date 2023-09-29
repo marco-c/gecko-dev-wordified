@@ -712,10 +712,6 @@ aBrowsingContext
 =
 nullptr
 bool
-aIsThirdPartyCookie
-=
-false
-bool
 aOldCookieIsSession
 =
 false
@@ -755,8 +751,6 @@ dom
 BrowsingContext
 *
 aBrowsingContext
-bool
-aIsThirdPartyCookie
 )
 ;
 static

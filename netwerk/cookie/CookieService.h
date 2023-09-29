@@ -654,10 +654,12 @@ CookieStruct
 >
 &
 aCookies
-uint64_t
-aBrowsingContextId
-bool
-aIsThirdPartyCookie
+dom
+:
+:
+BrowsingContext
+*
+aBrowsingContext
 )
 ;
 protected
