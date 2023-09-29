@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsIObliviousHttpChannel
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
@@ -184,7 +191,7 @@ ObliviousHttpChannel
 final
 :
 public
-nsIHttpChannel
+nsIObliviousHttpChannel
 public
 nsIHttpChannelInternal
 public
@@ -199,6 +206,7 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSICHANNEL
 NS_DECL_NSIHTTPCHANNEL
+NS_DECL_NSIOBLIVIOUSHTTPCHANNEL
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIUPLOADCHANNEL2
