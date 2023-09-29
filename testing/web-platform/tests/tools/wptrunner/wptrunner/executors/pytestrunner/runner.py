@@ -118,9 +118,6 @@ session_config
 timeout
 =
 0
-environ
-=
-None
 )
 :
     
@@ -342,19 +339,6 @@ config
 f
 )
             
-if
-environ
-:
-                
-os
-.
-environ
-.
-update
-(
-environ
-)
-            
 harness
 =
 HarnessResultRecorder
@@ -402,7 +386,7 @@ function
 marker
 warnings
 into
-errors
+rrors
                              
 "
 -
@@ -456,7 +440,7 @@ of
 variables
 in
 local
-scope
+cope
                              
 "
 -
@@ -487,7 +471,7 @@ cacheprovider
 disable
 state
 preservation
-across
+cross
 invocations
                              
 "
@@ -502,7 +486,7 @@ classic
 disable
 test
 progress
-bar
+ar
                              
 path
 ]
