@@ -473,7 +473,7 @@ line
 }
 export
 function
-scrollToColumn
+scrollToPosition
 (
 codeMirror
 line
