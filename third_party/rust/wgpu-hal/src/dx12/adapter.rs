@@ -1602,6 +1602,14 @@ Features
 :
 :
 RG11B10UFLOAT_RENDERABLE
+|
+wgt
+:
+:
+Features
+:
+:
+DUAL_SOURCE_BLENDING
 ;
 /
 /

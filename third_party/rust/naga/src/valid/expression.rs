@@ -1762,7 +1762,6 @@ GlobalCtx
 mod_info
 :
 &
-mut
 ModuleInfo
 )
 -

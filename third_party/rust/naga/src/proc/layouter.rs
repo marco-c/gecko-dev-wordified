@@ -1309,6 +1309,8 @@ any
 new
 entries
 in
+gctx
+.
 types
 .
 /
@@ -1322,6 +1324,8 @@ that
 every
 type
 in
+gctx
+.
 types
 has
 a
@@ -1329,10 +1333,10 @@ corresponding
 [
 TypeLayout
 ]
+/
+/
+/
 in
-/
-/
-/
 [
 self
 .
