@@ -564,6 +564,8 @@ NS_ERROR_DOM_MEDIA_CDM_PROXY_NOT_SUPPORTED_ERR
 CDMProxy
 *
 mCDMProxy
+=
+nullptr
 ;
 }
 ;
