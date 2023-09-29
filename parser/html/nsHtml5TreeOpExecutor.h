@@ -278,7 +278,7 @@ private
 :
 #
 ifdef
-DEBUG_NS_HTML5_TREE_OP_EXECUTOR_FLUSH
+DEBUG
 static
 uint32_t
 sAppendBatchMaxSize
@@ -896,6 +896,8 @@ RunScript
 nsIContent
 *
 aScriptElement
+bool
+aMayDocumentWriteOrBlock
 )
 ;
 /
@@ -1064,8 +1066,6 @@ bool
 aAsync
 bool
 aDefer
-bool
-aNoModule
 bool
 aLinkPreload
 )
