@@ -15,6 +15,7 @@ Any
 Iterable
 Optional
 Tuple
+cast
 import
 async_timeout
 import
@@ -56,6 +57,8 @@ WebSocketReader
     
 WebSocketWriter
     
+WSCloseCode
+    
 WSMessage
     
 WSMsgType
@@ -81,6 +84,7 @@ from
 .
 typedefs
 import
+Final
 JSONDecoder
 JSONEncoder
 from
@@ -116,6 +120,11 @@ WSMsgType
 "
 )
 THRESHOLD_CONNLOST_ACCESS
+:
+Final
+[
+int
+]
 =
 5
 attr
@@ -270,36 +279,28 @@ protocols
 self
 .
 _ws_protocol
-=
-None
-#
-type
 :
 Optional
 [
 str
 ]
+=
+None
         
 self
 .
 _writer
-=
-None
-#
-type
 :
 Optional
 [
 WebSocketWriter
 ]
+=
+None
         
 self
 .
 _reader
-=
-None
-#
-type
 :
 Optional
 [
@@ -308,6 +309,8 @@ FlowControlDataQueue
 WSMessage
 ]
 ]
+=
+None
         
 self
 .
@@ -330,23 +333,17 @@ _conn_lost
 self
 .
 _close_code
-=
-None
-#
-type
 :
 Optional
 [
 int
 ]
+=
+None
         
 self
 .
 _loop
-=
-None
-#
-type
 :
 Optional
 [
@@ -354,14 +351,12 @@ asyncio
 .
 AbstractEventLoop
 ]
+=
+None
         
 self
 .
 _waiting
-=
-None
-#
-type
 :
 Optional
 [
@@ -372,19 +367,19 @@ Future
 bool
 ]
 ]
+=
+None
         
 self
 .
 _exception
-=
-None
-#
-type
 :
 Optional
 [
 BaseException
 ]
+=
+None
         
 self
 .
@@ -419,6 +414,13 @@ heartbeat
 self
 .
 _heartbeat_cb
+:
+Optional
+[
+asyncio
+.
+TimerHandle
+]
 =
 None
         
@@ -442,6 +444,13 @@ heartbeat
 self
 .
 _pong_response_cb
+:
+Optional
+[
+asyncio
+.
+TimerHandle
+]
 =
 None
         
@@ -538,6 +547,14 @@ not
 None
 :
             
+assert
+self
+.
+_loop
+is
+not
+None
+            
 self
 .
 _heartbeat_cb
@@ -580,6 +597,14 @@ self
 .
 _closed
 :
+            
+assert
+self
+.
+_loop
+is
+not
+None
             
 #
 fire
@@ -635,6 +660,11 @@ ping
 type
 :
 ignore
+[
+union
+-
+attr
+]
             
 if
 self
@@ -710,7 +740,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
             
 self
 .
@@ -1271,10 +1303,6 @@ response_headers
 =
 CIMultiDict
 (
-#
-type
-:
-ignore
             
 {
                 
@@ -1285,10 +1313,6 @@ UPGRADE
 "
 websocket
 "
-#
-type
-:
-ignore
                 
 hdrs
 .
@@ -1409,15 +1433,25 @@ protocol
         
 return
 (
+            
 response_headers
+            
 protocol
+            
 compress
+            
 notakeover
+        
 )
 #
 type
 :
 ignore
+[
+return
+-
+value
+]
     
 def
 _pre_start
@@ -2138,6 +2172,9 @@ None
 type
 :
 ignore
+[
+override
+]
         
 if
 self
@@ -2190,7 +2227,9 @@ code
 :
 int
 =
-1000
+WSCloseCode
+.
+OK
 message
 :
 bytes
@@ -2353,7 +2392,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 raise
             
@@ -2367,7 +2408,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 self
 .
@@ -2402,6 +2445,7 @@ None
 try
 :
                 
+async
 with
 async_timeout
 .
@@ -2410,11 +2454,6 @@ timeout
 self
 .
 _timeout
-loop
-=
-self
-.
-_loop
 )
 :
                     
@@ -2437,7 +2476,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 raise
             
@@ -2451,7 +2492,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 self
 .
@@ -2488,7 +2531,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
             
 self
 .
@@ -2652,23 +2697,17 @@ create_future
 try
 :
                     
+async
 with
 async_timeout
 .
 timeout
 (
-                        
 timeout
 or
 self
 .
 _receive_timeout
-loop
-=
-self
-.
-_loop
-                    
 )
 :
                         
@@ -2725,7 +2764,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 raise
             
@@ -2737,7 +2778,9 @@ self
 .
 _close_code
 =
-1000
+WSCloseCode
+.
+OK
                 
 await
 self
@@ -2814,7 +2857,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 await
 self
@@ -3017,9 +3062,13 @@ data
 )
         
 return
+cast
+(
+str
 msg
 .
 data
+)
     
 async
 def
@@ -3089,9 +3138,13 @@ bytes
 )
         
 return
+cast
+(
+bytes
 msg
 .
 data
+)
     
 async
 def

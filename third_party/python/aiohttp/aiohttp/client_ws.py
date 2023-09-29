@@ -16,6 +16,7 @@ typing
 import
 Any
 Optional
+cast
 import
 async_timeout
 from
@@ -45,6 +46,8 @@ WS_CLOSED_MESSAGE
 WS_CLOSING_MESSAGE
     
 WebSocketError
+    
+WSCloseCode
     
 WSMessage
     
@@ -214,15 +217,13 @@ False
 self
 .
 _close_code
-=
-None
-#
-type
 :
 Optional
 [
 int
 ]
+=
+None
         
 self
 .
@@ -257,6 +258,13 @@ heartbeat
 self
 .
 _heartbeat_cb
+:
+Optional
+[
+asyncio
+.
+TimerHandle
+]
 =
 None
         
@@ -280,6 +288,13 @@ heartbeat
 self
 .
 _pong_response_cb
+:
+Optional
+[
+asyncio
+.
+TimerHandle
+]
 =
 None
         
@@ -292,10 +307,6 @@ loop
 self
 .
 _waiting
-=
-None
-#
-type
 :
 Optional
 [
@@ -306,19 +317,19 @@ Future
 bool
 ]
 ]
+=
+None
         
 self
 .
 _exception
-=
-None
-#
-type
 :
 Optional
 [
 BaseException
 ]
+=
+None
         
 self
 .
@@ -576,7 +587,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
             
 self
 .
@@ -1032,7 +1045,9 @@ code
 :
 int
 =
-1000
+WSCloseCode
+.
+OK
 message
 :
 bytes
@@ -1140,7 +1155,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 self
 .
@@ -1162,7 +1179,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 self
 .
@@ -1205,6 +1224,7 @@ True
 try
 :
                     
+async
 with
 async_timeout
 .
@@ -1213,11 +1233,6 @@ timeout
 self
 .
 _timeout
-loop
-=
-self
-.
-_loop
 )
 :
                         
@@ -1242,7 +1257,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                     
 self
 .
@@ -1264,7 +1281,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                     
 self
 .
@@ -1410,23 +1429,17 @@ create_future
 try
 :
                     
+async
 with
 async_timeout
 .
 timeout
 (
-                        
 timeout
 or
 self
 .
 _receive_timeout
-loop
-=
-self
-.
-_loop
-                    
 )
 :
                         
@@ -1483,7 +1496,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 raise
             
@@ -1495,7 +1510,9 @@ self
 .
 _close_code
 =
-1000
+WSCloseCode
+.
+OK
                 
 await
 self
@@ -1528,7 +1545,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 return
 WS_CLOSED_MESSAGE
@@ -1591,7 +1610,9 @@ self
 .
 _close_code
 =
-1006
+WSCloseCode
+.
+ABNORMAL_CLOSURE
                 
 await
 self
@@ -1785,9 +1806,13 @@ str
 )
         
 return
+cast
+(
+str
 msg
 .
 data
+)
     
 async
 def
@@ -1857,9 +1882,13 @@ bytes
 )
         
 return
+cast
+(
+bytes
 msg
 .
 data
+)
     
 async
 def

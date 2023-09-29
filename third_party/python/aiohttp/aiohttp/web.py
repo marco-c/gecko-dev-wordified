@@ -26,15 +26,9 @@ import
 (
     
 Any
-as
-Any
     
 Awaitable
-as
-Awaitable
     
-Callable
-as
 Callable
     
 Iterable
@@ -42,27 +36,15 @@ as
 TypingIterable
     
 List
-as
-List
     
-Optional
-as
 Optional
     
 Set
-as
-Set
     
-Type
-as
 Type
     
 Union
-as
-Union
     
-cast
-as
 cast
 )
 from
@@ -540,6 +522,10 @@ DynamicResource
 PlainResource
 as
 PlainResource
+    
+PrefixedSubAppResource
+as
+PrefixedSubAppResource
     
 Resource
 as
@@ -1021,6 +1007,10 @@ PlainResource
 "
     
 "
+PrefixedSubAppResource
+"
+    
+"
 Resource
 "
     
@@ -1089,6 +1079,10 @@ Any
 type
 :
 ignore
+[
+misc
+assignment
+]
 HostSequence
 =
 TypingIterable
@@ -1148,9 +1142,18 @@ sock
 :
 Optional
 [
+Union
+[
 socket
 .
 socket
+TypingIterable
+[
+socket
+.
+socket
+]
+]
 ]
 =
 None
@@ -1160,6 +1163,14 @@ shutdown_timeout
 float
 =
 60
+.
+0
+    
+keepalive_timeout
+:
+float
+=
+75
 .
 0
     
@@ -1278,6 +1289,9 @@ app
 type
 :
 ignore
+[
+misc
+]
     
 app
 =
@@ -1309,6 +1323,10 @@ access_log_format
 access_log
 =
 access_log
+        
+keepalive_timeout
+=
+keepalive_timeout
     
 )
     
@@ -1320,15 +1338,13 @@ setup
 )
     
 sites
-=
-[
-]
-#
-type
 :
 List
 [
 BaseSite
+]
+=
+[
 ]
     
 try
@@ -1883,21 +1899,16 @@ loop
 .
 run_until_complete
 (
-        
 asyncio
 .
 gather
 (
 *
 to_cancel
-loop
-=
-loop
 return_exceptions
 =
 True
 )
-    
 )
     
 for
@@ -2021,9 +2032,18 @@ sock
 :
 Optional
 [
+Union
+[
 socket
 .
 socket
+TypingIterable
+[
+socket
+.
+socket
+]
+]
 ]
 =
 None
@@ -2033,6 +2053,14 @@ shutdown_timeout
 float
 =
 60
+.
+0
+    
+keepalive_timeout
+:
+float
+=
+75
 .
 0
     
@@ -2114,6 +2142,17 @@ bool
 ]
 =
 None
+    
+loop
+:
+Optional
+[
+asyncio
+.
+AbstractEventLoop
+]
+=
+None
 )
 -
 >
@@ -2131,11 +2170,17 @@ locally
 "
 "
     
+if
+loop
+is
+None
+:
+        
 loop
 =
 asyncio
 .
-get_event_loop
+new_event_loop
 (
 )
     
@@ -2215,79 +2260,90 @@ StreamHandler
 )
 )
     
-try
-:
-        
 main_task
 =
 loop
 .
 create_task
 (
-            
+        
 _run_app
 (
-                
-app
-                
-host
-=
-host
-                
-port
-=
-port
-                
-path
-=
-path
-                
-sock
-=
-sock
-                
-shutdown_timeout
-=
-shutdown_timeout
-                
-ssl_context
-=
-ssl_context
-                
-print
-=
-print
-                
-backlog
-=
-backlog
-                
-access_log_class
-=
-access_log_class
-                
-access_log_format
-=
-access_log_format
-                
-access_log
-=
-access_log
-                
-handle_signals
-=
-handle_signals
-                
-reuse_address
-=
-reuse_address
-                
-reuse_port
-=
-reuse_port
             
-)
+app
+            
+host
+=
+host
+            
+port
+=
+port
+            
+path
+=
+path
+            
+sock
+=
+sock
+            
+shutdown_timeout
+=
+shutdown_timeout
+            
+keepalive_timeout
+=
+keepalive_timeout
+            
+ssl_context
+=
+ssl_context
+            
+print
+=
+print
+            
+backlog
+=
+backlog
+            
+access_log_class
+=
+access_log_class
+            
+access_log_format
+=
+access_log_format
+            
+access_log
+=
+access_log
+            
+handle_signals
+=
+handle_signals
+            
+reuse_address
+=
+reuse_address
+            
+reuse_port
+=
+reuse_port
         
+)
+    
+)
+    
+try
+:
+        
+asyncio
+.
+set_event_loop
+(
+loop
 )
         
 loop
@@ -2331,27 +2387,6 @@ loop
 loop
 )
         
-if
-sys
-.
-version_info
->
-=
-(
-3
-6
-)
-:
-#
-don
-'
-t
-use
-PY_36
-to
-pass
-mypy
-            
 loop
 .
 run_until_complete

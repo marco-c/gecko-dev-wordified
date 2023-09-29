@@ -31,6 +31,8 @@ Any
     
 AsyncIterator
     
+Deque
+    
 Dict
     
 Iterator
@@ -48,6 +50,8 @@ Tuple
 Type
     
 Union
+    
+cast
 )
 from
 urllib
@@ -483,17 +487,15 @@ None
 }
     
 params
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
 str
 ]
+=
+{
+}
     
 while
 parts
@@ -823,22 +825,19 @@ parser
                 
 _value
 =
+f
 "
 {
+value
 }
 ;
 {
-}
-"
-.
-format
-(
-value
 parts
 [
 0
 ]
-)
+}
+"
                 
 if
 is_quoted
@@ -1394,19 +1393,22 @@ None
 "
 "
 "
-Releases
+Release
 the
 connection
 gracefully
-reading
-all
-the
-content
+.
         
+All
+remaining
+content
+is
+read
 to
 the
 void
 .
+        
 "
 "
 "
@@ -1543,27 +1545,26 @@ Python
 self
 .
 _unread
+:
+Deque
+[
+bytes
+]
 =
 deque
 (
 )
-#
-type
-:
-Any
         
 self
 .
 _prev_chunk
-=
-None
-#
-type
 :
 Optional
 [
 bytes
 ]
+=
+None
         
 self
 .
@@ -1574,17 +1575,15 @@ _content_eof
 self
 .
 _cache
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
 Any
 ]
+=
+{
+}
     
 def
 __aiter__
@@ -1607,6 +1606,11 @@ self
 type
 :
 ignore
+[
+return
+-
+value
+]
     
 async
 def
@@ -2848,6 +2852,13 @@ utf
 )
         
 return
+cast
+(
+Dict
+[
+str
+Any
+]
 json
 .
 loads
@@ -2857,6 +2868,7 @@ data
 decode
 (
 encoding
+)
 )
 )
     
@@ -2899,13 +2911,11 @@ assumes
 that
 body
 parts
-contains
+contain
 form
-        
 urlencoded
 data
 .
-        
 "
 "
 "
@@ -3036,6 +3046,11 @@ bytes
 "
 Decodes
 data
+.
+        
+Decoding
+is
+done
 according
 the
 specified
@@ -3397,15 +3412,17 @@ Content
 -
 Disposition
 header
-or
-None
+.
         
-if
-missed
-or
+If
+the
 header
 is
+missing
+or
 malformed
+returns
+None
 .
         
 "
@@ -3462,14 +3479,16 @@ Content
 -
 Disposition
 header
-or
-None
+.
         
+Returns
+None
 if
-missed
-or
+the
 header
 is
+missing
+or
 malformed
 .
         
@@ -3553,17 +3572,15 @@ kwargs
 )
         
 params
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
 str
 ]
+=
+{
+}
         
 if
 value
@@ -3824,25 +3841,19 @@ content
 self
 .
 _last_part
-=
-(
-            
-None
-        
-)
-#
-type
 :
 Optional
 [
 Union
 [
-'
+"
 MultipartReader
-'
+"
 BodyPartReader
 ]
 ]
+=
+None
         
 self
 .
@@ -3859,15 +3870,13 @@ True
 self
 .
 _unread
-=
-[
-]
-#
-type
 :
 List
 [
 bytes
+]
+=
+[
 ]
     
 def
@@ -3893,6 +3902,11 @@ self
 type
 :
 ignore
+[
+return
+-
+value
+]
     
 async
 def
@@ -4031,12 +4045,9 @@ final
 boundary
 was
 reached
-or
-        
-False
+false
 otherwise
 .
-        
 "
 "
 "
@@ -4331,8 +4342,10 @@ Content
 -
 Type
 header
-returning
+.
         
+Returns
+a
 suitable
 reader
 instance
@@ -5241,15 +5254,13 @@ ctype
 self
 .
 _parts
-=
-[
-]
-#
-type
 :
 List
 [
 _Part
+]
+=
+[
 ]
     
 def
@@ -5363,7 +5374,7 @@ re
 .
 compile
 (
-br
+rb
 "
 \
 A
@@ -5397,7 +5408,7 @@ re
 .
 compile
 (
-br
+rb
 "
 [
 \
@@ -5926,6 +5937,11 @@ writer
 compression
         
 encoding
+:
+Optional
+[
+str
+]
 =
 payload
 .
@@ -5944,13 +5960,6 @@ CONTENT_ENCODING
 lower
 (
 )
-#
-type
-:
-Optional
-[
-str
-]
         
 if
 encoding
@@ -6004,6 +6013,11 @@ te
 encoding
         
 te_encoding
+:
+Optional
+[
+str
+]
 =
 payload
 .
@@ -6022,13 +6036,6 @@ CONTENT_TRANSFER_ENCODING
 lower
 (
 )
-#
-type
-:
-Optional
-[
-str
-]
         
 if
 te_encoding
@@ -6138,6 +6145,11 @@ te_encoding
 type
 :
 ignore
+[
+arg
+-
+type
+]
         
 return
 payload
@@ -6621,6 +6633,11 @@ w
 type
 :
 ignore
+[
+arg
+-
+type
+]
                 
 await
 w
@@ -6709,38 +6726,32 @@ writer
 self
 .
 _encoding
-=
-None
-#
-type
 :
 Optional
 [
 str
 ]
+=
+None
         
 self
 .
 _compress
-=
-None
-#
-type
 :
 Any
+=
+None
         
 self
 .
 _encoding_buffer
-=
-None
-#
-type
 :
 Optional
 [
 bytearray
 ]
+=
+None
     
 def
 enable_encoding
@@ -6802,6 +6813,7 @@ printable
 def
 enable_compression
 (
+        
 self
 encoding
 :
@@ -6810,6 +6822,14 @@ str
 "
 deflate
 "
+strategy
+:
+int
+=
+zlib
+.
+Z_DEFAULT_STRATEGY
+    
 )
 -
 >
@@ -6847,6 +6867,9 @@ compressobj
 wbits
 =
 zlib_mode
+strategy
+=
+strategy
 )
     
 async

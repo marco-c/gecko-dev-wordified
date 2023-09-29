@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -466,7 +454,6 @@ keys
         
 return
 (
-            
 (
 lowerkey
 keyval
@@ -474,13 +461,11 @@ keyval
 1
 ]
 )
-            
 for
 (
 lowerkey
 keyval
 )
-            
 in
 self
 .
@@ -489,7 +474,6 @@ _store
 items
 (
 )
-        
 )
     
 def
@@ -624,8 +608,6 @@ name
         
 super
 (
-LookupDict
-self
 )
 .
 __init__
@@ -640,23 +622,19 @@ self
 :
         
 return
-'
+f
+"
 <
 lookup
-\
 '
-%
-s
-\
-'
->
-'
-%
-(
+{
 self
 .
 name
-)
+}
+'
+>
+"
     
 def
 __getitem__

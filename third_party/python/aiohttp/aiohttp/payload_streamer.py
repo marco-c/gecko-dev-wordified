@@ -284,6 +284,9 @@ kwargs
 type
 :
 ignore
+[
+operator
+]
 class
 streamer
 :

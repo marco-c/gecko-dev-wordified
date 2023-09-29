@@ -120,6 +120,11 @@ False
 self
 .
 _payload
+:
+Optional
+[
+StreamReader
+]
 =
 None
         
@@ -158,36 +163,28 @@ False
 self
 .
 _parser
-=
-None
-#
-type
 :
 Optional
 [
 HttpResponseParser
 ]
+=
+None
         
 self
 .
 _read_timeout
-=
-None
-#
-type
 :
 Optional
 [
 float
 ]
+=
+None
         
 self
 .
 _read_timeout_handle
-=
-None
-#
-type
 :
 Optional
 [
@@ -195,6 +192,8 @@ asyncio
 .
 TimerHandle
 ]
+=
+None
     
 property
     
@@ -1299,6 +1298,11 @@ _upgraded
 upgraded
                 
 payload
+:
+Optional
+[
+StreamReader
+]
 =
 None
                 
@@ -1352,10 +1356,6 @@ EMPTY_PAYLOAD
 )
 0
 )
-#
-type
-:
-ignore
                     
 else
 :

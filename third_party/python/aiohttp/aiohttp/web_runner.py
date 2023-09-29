@@ -48,6 +48,10 @@ object
 type
 :
 ignore
+[
+misc
+assignment
+]
 __all__
 =
 (
@@ -233,10 +237,6 @@ backlog
 self
 .
 _server
-=
-None
-#
-type
 :
 Optional
 [
@@ -244,6 +244,8 @@ asyncio
 .
 AbstractServer
 ]
+=
+None
     
 property
     
@@ -988,16 +990,23 @@ if
 not
 isinstance
 (
+            
 loop
 asyncio
 .
 ProactorEventLoop
-)
-:
 #
 type
 :
 ignore
+[
+attr
+-
+defined
+]
+        
+)
+:
             
 raise
 RuntimeError
@@ -1103,15 +1112,22 @@ loop
 .
 start_serving_pipe
 (
-server
-self
-.
-_path
-)
 #
 type
 :
 ignore
+[
+attr
+-
+defined
+]
+            
+server
+self
+.
+_path
+        
+)
         
 self
 .
@@ -1461,28 +1477,24 @@ kwargs
 self
 .
 _server
-=
-None
-#
-type
 :
 Optional
 [
 Server
 ]
+=
+None
         
 self
 .
 _sites
-=
-[
-]
-#
-type
 :
 List
 [
 BaseSite
+]
+=
+[
 ]
     
 property
@@ -1521,15 +1533,13 @@ Any
 :
         
 ret
-=
-[
-]
-#
-type
 :
 List
 [
 Any
+]
+=
+[
 ]
         
 for
@@ -1725,23 +1735,6 @@ asyncio
 get_event_loop
 (
 )
-        
-if
-self
-.
-_server
-is
-None
-:
-            
-#
-no
-started
-yet
-do
-nothing
-            
-return
         
 #
 The

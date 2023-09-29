@@ -51,13 +51,18 @@ FormData
 Helper
 class
 for
+form
+body
+generation
+.
+    
+Supports
 multipart
 /
 form
 -
 data
 and
-    
 application
 /
 x
@@ -67,9 +72,8 @@ www
 form
 -
 urlencoded
-body
-generation
 .
+    
 "
 "
 "
@@ -129,15 +133,13 @@ data
 self
 .
 _fields
-=
-[
-]
-#
-type
 :
 List
 [
 Any
+]
+=
+[
 ]
         
 self
@@ -318,6 +320,11 @@ filename
 name
         
 type_options
+:
+MultiDict
+[
+str
+]
 =
 MultiDict
 (
@@ -329,13 +336,6 @@ name
 name
 }
 )
-#
-type
-:
-MultiDict
-[
-str
-]
         
 if
 filename
@@ -616,6 +616,11 @@ rec
 type
 :
 ignore
+[
+arg
+-
+type
+]
             
 elif
 isinstance
@@ -674,6 +679,11 @@ fp
 type
 :
 ignore
+[
+arg
+-
+type
+]
             
 else
 :

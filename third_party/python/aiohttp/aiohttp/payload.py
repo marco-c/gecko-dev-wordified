@@ -40,8 +40,6 @@ Iterable
     
 Optional
     
-Text
-    
 TextIO
     
 Tuple
@@ -88,6 +86,7 @@ from
 .
 typedefs
 import
+Final
 JSONEncoder
 _CIMultiDict
 __all__
@@ -147,6 +146,11 @@ AsyncIterablePayload
 "
 )
 TOO_LARGE_BYTES_BODY
+:
+Final
+[
+int
+]
 =
 2
 *
@@ -352,6 +356,21 @@ order
         
 return
 factory
+PayloadType
+=
+Type
+[
+"
+Payload
+"
+]
+_PayloadRegistryItem
+=
+Tuple
+[
+PayloadType
+Any
+]
 class
 PayloadRegistry
 :
@@ -393,64 +412,37 @@ None
 self
 .
 _first
-=
-[
-]
-#
-type
 :
 List
 [
-Tuple
-[
-Type
-[
-Payload
+_PayloadRegistryItem
 ]
-Any
-]
+=
+[
 ]
         
 self
 .
 _normal
-=
-[
-]
-#
-type
 :
 List
 [
-Tuple
-[
-Type
-[
-Payload
+_PayloadRegistryItem
 ]
-Any
-]
+=
+[
 ]
         
 self
 .
 _last
-=
-[
-]
-#
-type
 :
 List
 [
-Tuple
-[
-Type
-[
-Payload
+_PayloadRegistryItem
 ]
-Any
-]
+=
+[
 ]
     
 def
@@ -458,18 +450,30 @@ get
 (
         
 self
+        
 data
 :
 Any
+        
 *
 args
 :
 Any
+        
 _CHAIN
 :
-Any
+"
+Type
+[
+chain
+[
+_PayloadRegistryItem
+]
+]
+"
 =
 chain
+        
 *
 *
 kwargs
@@ -544,12 +548,7 @@ register
 self
 factory
 :
-Type
-[
-"
-Payload
-"
-]
+PayloadType
 type
 :
 Any
@@ -653,6 +652,8 @@ ABC
 :
     
 _default_content_type
+:
+str
 =
 "
 application
@@ -661,21 +662,15 @@ octet
 -
 stream
 "
-#
-type
-:
-str
     
 _size
-=
-None
-#
-type
 :
 Optional
 [
 int
 ]
+=
+None
     
 def
 __init__
@@ -768,14 +763,12 @@ filename
 self
 .
 _headers
+:
+_CIMultiDict
 =
 CIMultiDict
 (
 )
-#
-type
-:
-_CIMultiDict
         
 self
 .
@@ -1107,14 +1100,27 @@ set_content_disposition
 (
         
 self
+        
 disptype
 :
 str
+        
 quote_fields
 :
 bool
 =
 True
+        
+_charset
+:
+str
+=
+"
+utf
+-
+8
+"
+        
 *
 *
 params
@@ -1156,6 +1162,9 @@ disptype
 quote_fields
 =
 quote_fields
+_charset
+=
+_charset
 *
 *
 params
@@ -1240,7 +1249,7 @@ memoryview
 raise
 TypeError
 (
-                
+f
 "
 value
 argument
@@ -1251,19 +1260,14 @@ byte
 ish
 not
 {
-!
-r
-}
-"
-.
-format
-(
 type
 (
 value
 )
-)
-            
+!
+r
+}
+"
 )
         
 if
@@ -1446,7 +1450,7 @@ self
         
 value
 :
-Text
+str
         
 *
 args
@@ -1659,6 +1663,13 @@ Payload
 )
 :
     
+_value
+:
+IO
+[
+Any
+]
+    
 def
 __init__
 (
@@ -1861,6 +1872,10 @@ TextIOPayload
 IOBasePayload
 )
 :
+    
+_value
+:
+TextIO
     
 def
 __init__
@@ -2116,19 +2131,41 @@ while
 chunk
 :
                 
+data
+=
+(
+                    
+chunk
+.
+encode
+(
+encoding
+=
+self
+.
+_encoding
+)
+                    
+if
+self
+.
+_encoding
+                    
+else
+chunk
+.
+encode
+(
+)
+                
+)
+                
 await
 writer
 .
 write
 (
-chunk
-.
-encode
-(
-self
-.
-_encoding
-)
+data
 )
                 
 chunk
@@ -2455,15 +2492,13 @@ Payload
 :
     
 _iter
-=
-None
-#
-type
 :
 Optional
 [
 _AsyncIterator
 ]
+=
+None
     
 def
 __init__
@@ -2512,7 +2547,7 @@ collections
 .
 abc
 .
-AsyncIterablebe
+AsyncIterable
 interface
 "
                 

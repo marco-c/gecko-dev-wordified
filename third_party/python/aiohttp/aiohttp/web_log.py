@@ -465,11 +465,6 @@ s
 )
     
 _FORMAT_CACHE
-=
-{
-}
-#
-type
 :
 Dict
 [
@@ -483,6 +478,9 @@ KeyMethod
 ]
 ]
 ]
+=
+{
+}
     
 def
 __init__
@@ -1565,6 +1563,9 @@ key
 type
 :
 ignore
+[
+misc
+]
                     
 dct
 =
@@ -1580,6 +1581,14 @@ k1
 type
 :
 ignore
+[
+var
+-
+annotated
+has
+-
+type
+]
                     
 dct
 [
@@ -1591,6 +1600,12 @@ value
 type
 :
 ignore
+[
+index
+has
+-
+type
+]
                     
 extra
 [
@@ -1602,6 +1617,12 @@ dct
 type
 :
 ignore
+[
+has
+-
+type
+assignment
+]
             
 self
 .

@@ -67,14 +67,12 @@ None
 self
 .
 _loop
-=
-loop
-#
-type
 :
 asyncio
 .
 AbstractEventLoop
+=
+loop
         
 self
 .
@@ -85,10 +83,6 @@ False
 self
 .
 _drain_waiter
-=
-None
-#
-type
 :
 Optional
 [
@@ -99,12 +93,8 @@ Future
 None
 ]
 ]
-        
-self
-.
-_connection_lost
 =
-False
+None
         
 self
 .
@@ -115,10 +105,6 @@ False
 self
 .
 transport
-=
-None
-#
-type
 :
 Optional
 [
@@ -126,6 +112,43 @@ asyncio
 .
 Transport
 ]
+=
+None
+    
+property
+    
+def
+connected
+(
+self
+)
+-
+>
+bool
+:
+        
+"
+"
+"
+Return
+True
+if
+the
+connection
+is
+open
+.
+"
+"
+"
+        
+return
+self
+.
+transport
+is
+not
+None
     
 def
 pause_writing
@@ -359,12 +382,6 @@ BaseException
 None
 :
         
-self
-.
-_connection_lost
-=
-True
-        
 #
 Wake
 up
@@ -455,9 +472,10 @@ None
 :
         
 if
+not
 self
 .
-_connection_lost
+connected
 :
             
 raise
@@ -484,17 +502,12 @@ self
 .
 _drain_waiter
         
-assert
+if
 waiter
 is
 None
-or
-waiter
-.
-cancelled
-(
-)
-        
+:
+            
 waiter
 =
 self
@@ -504,7 +517,7 @@ _loop
 create_future
 (
 )
-        
+            
 self
 .
 _drain_waiter
@@ -512,4 +525,9 @@ _drain_waiter
 waiter
         
 await
+asyncio
+.
+shield
+(
 waiter
+)

@@ -9,6 +9,7 @@ typing
 import
 Awaitable
 Callable
+Deque
 Generic
 List
 Optional
@@ -31,26 +32,11 @@ from
 log
 import
 internal_logger
-try
-:
-#
-pragma
-:
-no
-cover
-    
 from
-typing
+.
+typedefs
 import
-Deque
-except
-ImportError
-:
-    
-from
-typing_extensions
-import
-Deque
+Final
 __all__
 =
 (
@@ -310,6 +296,11 @@ readline
 type
 :
 ignore
+[
+attr
+-
+defined
+]
     
 def
 iter_chunked
@@ -363,6 +354,7 @@ only
 return
 AsyncStreamIterator
 (
+            
 lambda
 :
 self
@@ -371,11 +363,22 @@ read
 (
 n
 )
-)
 #
 type
 :
 ignore
+[
+attr
+-
+defined
+no
+-
+any
+-
+return
+]
+        
+)
     
 def
 iter_any
@@ -393,16 +396,9 @@ bytes
 "
 "
 "
-Returns
-an
-asynchronous
-iterator
-that
-yields
+Yield
 all
-the
 available
-        
 data
 as
 soon
@@ -410,6 +406,7 @@ as
 it
 is
 received
+.
         
 Python
 -
@@ -440,6 +437,11 @@ readany
 type
 :
 ignore
+[
+attr
+-
+defined
+]
     
 def
 iter_chunks
@@ -454,16 +456,10 @@ ChunkTupleAsyncStreamIterator
 "
 "
 "
-Returns
-an
-asynchronous
-iterator
-that
-yields
+Yield
 chunks
 of
 data
-        
 as
 they
 are
@@ -472,6 +468,7 @@ by
 the
 server
 .
+        
 The
 yielded
 objects
@@ -520,6 +517,11 @@ self
 type
 :
 ignore
+[
+arg
+-
+type
+]
 class
 StreamReader
 (
@@ -697,10 +699,6 @@ _cursor
 self
 .
 _http_chunk_splits
-=
-None
-#
-type
 :
 Optional
 [
@@ -709,23 +707,23 @@ List
 int
 ]
 ]
+=
+None
         
 self
 .
 _buffer
+:
+Deque
+[
+bytes
+]
 =
 collections
 .
 deque
 (
 )
-#
-type
-:
-Deque
-[
-bytes
-]
         
 self
 .
@@ -742,10 +740,6 @@ False
 self
 .
 _waiter
-=
-None
-#
-type
 :
 Optional
 [
@@ -756,14 +750,12 @@ Future
 None
 ]
 ]
+=
+None
         
 self
 .
 _eof_waiter
-=
-None
-#
-type
 :
 Optional
 [
@@ -774,19 +766,19 @@ Future
 None
 ]
 ]
+=
+None
         
 self
 .
 _exception
-=
-None
-#
-type
 :
 Optional
 [
 BaseException
 ]
+=
+None
         
 self
 .
@@ -797,11 +789,6 @@ timer
 self
 .
 _eof_callbacks
-=
-[
-]
-#
-type
 :
 List
 [
@@ -811,6 +798,9 @@ Callable
 ]
 None
 ]
+]
+=
+[
 ]
     
 def
@@ -2097,6 +2087,64 @@ self
 bytes
 :
         
+return
+await
+self
+.
+readuntil
+(
+)
+    
+async
+def
+readuntil
+(
+self
+separator
+:
+bytes
+=
+b
+"
+\
+n
+"
+)
+-
+>
+bytes
+:
+        
+seplen
+=
+len
+(
+separator
+)
+        
+if
+seplen
+=
+=
+0
+:
+            
+raise
+ValueError
+(
+"
+Separator
+should
+be
+at
+least
+one
+-
+byte
+string
+"
+)
+        
 if
 self
 .
@@ -2111,12 +2159,13 @@ self
 .
 _exception
         
-line
+chunk
 =
-[
-]
+b
+"
+"
         
-line_size
+chunk_size
 =
 0
         
@@ -2153,11 +2202,7 @@ _buffer
 .
 find
 (
-b
-"
-\
-n
-"
+separator
 offset
 )
 +
@@ -2170,11 +2215,7 @@ current
 offset
 to
 found
-b
-'
-\
-n
-'
+separator
 or
 to
 the
@@ -2197,14 +2238,12 @@ else
 1
 )
                 
-line
-.
-append
-(
+chunk
++
+=
 data
-)
                 
-line_size
+chunk_size
 +
 =
 len
@@ -2221,7 +2260,7 @@ not_enough
 False
                 
 if
-line_size
+chunk_size
 >
 self
 .
@@ -2232,10 +2271,9 @@ raise
 ValueError
 (
 "
-Line
-is
+Chunk
 too
-long
+big
 "
 )
             
@@ -2257,19 +2295,12 @@ self
 _wait
 (
 "
-readline
+readuntil
 "
 )
         
 return
-b
-"
-"
-.
-join
-(
-line
-)
+chunk
     
 async
 def
@@ -2691,6 +2722,7 @@ data
 end_of_http_chunk
 )
 .
+        
 When
 chunked
 transfer
@@ -2937,15 +2969,13 @@ self
 _exception
         
 blocks
-=
-[
-]
-#
-type
 :
 List
 [
 bytes
+]
+=
+[
 ]
         
 while
@@ -3420,9 +3450,34 @@ b
 class
 EmptyStreamReader
 (
-AsyncStreamReaderMixin
+StreamReader
 )
 :
+#
+lgtm
+[
+py
+/
+missing
+-
+call
+-
+to
+-
+init
+]
+    
+def
+__init__
+(
+self
+)
+-
+>
+None
+:
+        
+pass
     
 def
 exception
@@ -3605,6 +3660,13 @@ b
 "
 "
     
+#
+TODO
+add
+async
+def
+readuntil
+    
 async
 def
 readany
@@ -3673,6 +3735,12 @@ def
 read_nowait
 (
 self
+n
+:
+int
+=
+-
+1
 )
 -
 >
@@ -3684,6 +3752,11 @@ b
 "
 "
 EMPTY_PAYLOAD
+:
+Final
+[
+StreamReader
+]
 =
 EmptyStreamReader
 (
@@ -3747,10 +3820,6 @@ False
 self
 .
 _waiter
-=
-None
-#
-type
 :
 Optional
 [
@@ -3761,19 +3830,19 @@ Future
 None
 ]
 ]
+=
+None
         
 self
 .
 _exception
-=
-None
-#
-type
 :
 Optional
 [
 BaseException
 ]
+=
+None
         
 self
 .
@@ -3784,14 +3853,6 @@ _size
 self
 .
 _buffer
-=
-collections
-.
-deque
-(
-)
-#
-type
 :
 Deque
 [
@@ -3801,6 +3862,12 @@ _T
 int
 ]
 ]
+=
+collections
+.
+deque
+(
+)
     
 def
 __len__
@@ -4194,6 +4261,7 @@ for
 parsed
 data
 .
+    
 "
 "
 "

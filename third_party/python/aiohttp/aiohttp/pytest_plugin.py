@@ -10,6 +10,16 @@ collections
 abc
 import
 Callable
+from
+typing
+import
+Any
+Awaitable
+Callable
+Dict
+Generator
+Optional
+Union
 import
 pytest
 from
@@ -83,6 +93,22 @@ cover
 tokio
 =
 None
+AiohttpClient
+=
+Callable
+[
+[
+Union
+[
+Application
+BaseTestServer
+]
+]
+Awaitable
+[
+TestClient
+]
+]
 def
 pytest_addoption
 (
@@ -93,6 +119,13 @@ parser
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 parser
 .
@@ -222,10 +255,22 @@ fixturedef
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
 "
+Set
+up
+pytest
+fixture
+.
     
 Allow
 fixtures
@@ -344,6 +389,13 @@ kwargs
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
         
 request
 =
@@ -509,6 +561,13 @@ finalizer
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
                 
 try
 :
@@ -586,6 +645,13 @@ request
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
@@ -627,6 +693,13 @@ request
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
@@ -675,17 +748,27 @@ _runtime_warning_context
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
 "
-    
 Context
 manager
 which
 checks
 for
 RuntimeWarnings
+.
+    
+This
+exists
 specifically
 to
     
@@ -852,12 +935,24 @@ False
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
 "
+Passthrough
+loop
+context
+.
     
-setups
+Sets
+up
 and
 tears
 down
@@ -942,18 +1037,23 @@ obj
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
 "
-    
 Fix
 pytest
 collecting
 for
 coroutines
 .
-    
 "
 "
 "
@@ -995,11 +1095,17 @@ pyfuncitem
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
 "
-    
 Run
 coroutines
 in
@@ -1013,7 +1119,6 @@ normal
 function
 call
 .
-    
 "
 "
 "
@@ -1141,6 +1246,13 @@ metafunc
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 if
 "
@@ -1250,6 +1362,11 @@ factories
 type
 :
 ignore
+[
+var
+-
+annotated
+]
     
 for
 name
@@ -1393,6 +1510,13 @@ loop_debug
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
@@ -1470,6 +1594,13 @@ proactor_loop
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 if
 not
@@ -1495,6 +1626,11 @@ ProactorEventLoop
 type
 :
 ignore
+[
+attr
+-
+defined
+]
     
 else
 :
@@ -1510,6 +1646,11 @@ WindowsProactorEventLoopPolicy
 type
 :
 ignore
+[
+attr
+-
+defined
+]
         
 asyncio
 .
@@ -1551,6 +1692,13 @@ aiohttp_unused_port
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
 #
 pragma
 :
@@ -1592,6 +1740,13 @@ aiohttp_unused_port
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
@@ -1626,6 +1781,13 @@ loop
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
@@ -1676,6 +1838,13 @@ kwargs
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
         
 server
 =
@@ -1718,11 +1887,10 @@ def
 finalize
 (
 )
+-
+>
+None
 :
-#
-type
-:
-ignore
         
 while
 servers
@@ -1760,6 +1928,13 @@ aiohttp_server
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
 #
 pragma
 :
@@ -1802,6 +1977,13 @@ loop
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
     
 "
 "
@@ -1853,6 +2035,13 @@ kwargs
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
         
 server
 =
@@ -1895,11 +2084,10 @@ def
 finalize
 (
 )
+-
+>
+None
 :
-#
-type
-:
-ignore
         
 while
 servers
@@ -1930,18 +2118,26 @@ fixture
 def
 raw_test_server
 (
-aiohttp_raw_server
-)
-:
 #
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
 #
 pragma
 :
 no
 cover
+    
+aiohttp_raw_server
+)
+:
     
 warnings
 .
@@ -1972,13 +2168,22 @@ fixture
 def
 aiohttp_client
 (
+    
 loop
+:
+asyncio
+.
+AbstractEventLoop
 )
+-
+>
+Generator
+[
+AiohttpClient
+None
+None
+]
 :
-#
-type
-:
-ignore
     
 "
 "
@@ -2028,21 +2233,44 @@ async
 def
 go
 (
+        
 __param
+:
+Union
+[
+Application
+BaseTestServer
+]
+        
 *
 args
+:
+Any
+        
 server_kwargs
+:
+Optional
+[
+Dict
+[
+str
+Any
+]
+]
 =
 None
+        
 *
 *
 kwargs
+:
+Any
+    
 )
+-
+>
+TestClient
 :
-#
-type
-:
-ignore
         
 if
 isinstance
@@ -2058,6 +2286,11 @@ isinstance
 type
 :
 ignore
+[
+arg
+-
+type
+]
             
 __param
 (
@@ -2206,11 +2439,10 @@ def
 finalize
 (
 )
+-
+>
+None
 :
-#
-type
-:
-ignore
         
 while
 clients
@@ -2248,6 +2480,13 @@ aiohttp_client
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
 #
 pragma
 :

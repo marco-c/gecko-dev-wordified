@@ -1444,18 +1444,16 @@ allow
 self
 .
 allowed_methods
-=
-set
-(
-allowed_methods
-)
-#
-type
 :
 Set
 [
 str
 ]
+=
+set
+(
+allowed_methods
+)
         
 self
 .

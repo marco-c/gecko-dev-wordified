@@ -49,6 +49,14 @@ Union
 cast
 )
 from
+aiosignal
+import
+Signal
+from
+frozenlist
+import
+FrozenList
+from
 .
 import
 hdrs
@@ -68,11 +76,6 @@ AbstractStreamWriter
 )
 from
 .
-frozenlist
-import
-FrozenList
-from
-.
 helpers
 import
 DEBUG
@@ -86,11 +89,6 @@ from
 log
 import
 web_logger
-from
-.
-signals
-import
-Signal
 from
 .
 streams
@@ -170,6 +168,12 @@ pragma
 no
 cover
     
+from
+.
+typedefs
+import
+Handler
+    
 _AppSignal
 =
 Signal
@@ -205,19 +209,6 @@ None
 ]
 ]
     
-_Handler
-=
-Callable
-[
-[
-Request
-]
-Awaitable
-[
-StreamResponse
-]
-]
-    
 _Middleware
 =
 Union
@@ -227,7 +218,7 @@ Callable
 [
 [
 Request
-_Handler
+Handler
 ]
 Awaitable
 [
@@ -241,11 +232,11 @@ Callable
 "
 Application
 "
-_Handler
+Handler
 ]
 Awaitable
 [
-_Handler
+Handler
 ]
 ]
 #
@@ -302,10 +293,6 @@ Signal
 _RespPrepareSignal
 =
 Signal
-    
-_Handler
-=
-Callable
     
 _Middleware
 =
@@ -610,12 +597,10 @@ debug
 self
 .
 _router
-=
-router
-#
-type
 :
 UrlDispatcher
+=
+router
         
 self
 .
@@ -638,15 +623,13 @@ logger
 self
 .
 _middlewares
+:
+_Middlewares
 =
 FrozenList
 (
 middlewares
 )
-#
-type
-:
-_Middlewares
         
 #
 initialized
@@ -656,12 +639,10 @@ freezing
 self
 .
 _middlewares_handlers
-=
-None
-#
-type
 :
 _MiddlewaresHandlers
+=
+None
         
 #
 initialized
@@ -671,30 +652,26 @@ freezing
 self
 .
 _run_middlewares
-=
-None
-#
-type
 :
 Optional
 [
 bool
 ]
+=
+None
         
 self
 .
 _state
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
 Any
 ]
+=
+{
+}
         
 self
 .
@@ -711,65 +688,55 @@ False
 self
 .
 _subapps
+:
+_Subapps
 =
 [
 ]
-#
-type
-:
-_Subapps
         
 self
 .
 _on_response_prepare
+:
+_RespPrepareSignal
 =
 Signal
 (
 self
 )
-#
-type
-:
-_RespPrepareSignal
         
 self
 .
 _on_startup
+:
+_AppSignal
 =
 Signal
 (
 self
 )
-#
-type
-:
-_AppSignal
         
 self
 .
 _on_shutdown
+:
+_AppSignal
 =
 Signal
 (
 self
 )
-#
-type
-:
-_AppSignal
         
 self
 .
 _on_cleanup
+:
+_AppSignal
 =
 Signal
 (
 self
 )
-#
-type
-:
-_AppSignal
         
 self
 .
@@ -1624,6 +1591,17 @@ return
 self
 .
 _debug
+#
+type
+:
+ignore
+[
+no
+-
+any
+-
+return
+]
     
 def
 _reg_subapp_signals
@@ -1969,15 +1947,13 @@ domain
 :
             
 rule
+:
+Domain
 =
 MaskDomain
 (
 domain
 )
-#
-type
-:
-Domain
         
 else
 :
@@ -2306,6 +2282,11 @@ _handle
 type
 :
 ignore
+[
+arg
+-
+type
+]
             
 request_factory
 =
@@ -2531,12 +2512,47 @@ shutdown
 "
 "
         
+if
+self
+.
+on_cleanup
+.
+frozen
+:
+            
 await
 self
 .
 on_cleanup
 .
 send
+(
+self
+)
+        
+else
+:
+            
+#
+If
+an
+exception
+occurs
+in
+startup
+ensure
+cleanup
+contexts
+are
+completed
+.
+            
+await
+self
+.
+_cleanup_ctx
+.
+_on_cleanup
 (
 self
 )
@@ -2821,10 +2837,6 @@ request
 _match_info
 =
 match_info
-#
-type
-:
-ignore
         
 expect
 =
@@ -2906,6 +2918,13 @@ _middlewares_handlers
 type
 :
 ignore
+[
+union
+-
+attr
+]
+#
+noqa
                         
 if
 new_style
@@ -2942,6 +2961,11 @@ handler
 type
 :
 ignore
+[
+arg
+-
+type
+]
             
 resp
 =
@@ -2989,24 +3013,21 @@ str
 :
         
 return
+f
 "
 <
 Application
 0x
 {
+id
+(
+self
+)
 :
 x
 }
 >
 "
-.
-format
-(
-id
-(
-self
-)
-)
     
 def
 __bool__
@@ -3043,12 +3064,19 @@ BaseException
 :
         
 return
+cast
+(
+List
+[
+BaseException
+]
 self
 .
 args
 [
 1
 ]
+)
 if
 TYPE_CHECKING
 :
@@ -3107,11 +3135,6 @@ __init__
 self
 .
 _exits
-=
-[
-]
-#
-type
 :
 List
 [
@@ -3119,6 +3142,9 @@ AsyncIterator
 [
 None
 ]
+]
+=
+[
 ]
     
 async

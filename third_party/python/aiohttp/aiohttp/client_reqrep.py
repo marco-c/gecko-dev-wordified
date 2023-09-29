@@ -191,6 +191,9 @@ None
 type
 :
 ignore
+[
+assignment
+]
     
 SSLContext
 =
@@ -199,6 +202,10 @@ object
 type
 :
 ignore
+[
+misc
+assignment
+]
 try
 :
     
@@ -216,11 +223,18 @@ no
 cover
     
 import
+charset_normalizer
+as
 chardet
 #
 type
 :
 ignore
+[
+no
+-
+redef
+]
 __all__
 =
 (
@@ -1652,15 +1666,13 @@ response_class
 self
 .
 response_class
-=
-real_response_class
-#
-type
 :
 Type
 [
 ClientResponse
 ]
+=
+real_response_class
         
 self
 .
@@ -1774,6 +1786,9 @@ data
         
 if
 data
+is
+not
+None
 or
 self
 .
@@ -1889,10 +1904,14 @@ proxy_headers
 :
             
 h
+:
+Optional
+[
+int
+]
 =
 hash
 (
-                
 tuple
 (
 (
@@ -1909,15 +1928,7 @@ items
 (
 )
 )
-            
 )
-#
-type
-:
-Optional
-[
-int
-]
         
 else
 :
@@ -2024,6 +2035,11 @@ RequestInfo
 :
         
 headers
+:
+CIMultiDictProxy
+[
+str
+]
 =
 CIMultiDictProxy
 (
@@ -2031,13 +2047,6 @@ self
 .
 headers
 )
-#
-type
-:
-CIMultiDictProxy
-[
-str
-]
         
 return
 RequestInfo
@@ -2305,17 +2314,15 @@ headers
 self
 .
 headers
-=
-CIMultiDict
-(
-)
-#
-type
 :
 CIMultiDict
 [
 str
 ]
+=
+CIMultiDict
+(
+)
         
 #
 add
@@ -2427,6 +2434,9 @@ items
 type
 :
 ignore
+[
+assignment
+]
             
 for
 key
@@ -2438,6 +2448,9 @@ headers
 type
 :
 ignore
+[
+misc
+]
                 
 #
 A
@@ -2541,6 +2554,11 @@ skip_auto_headers
 type
 :
 ignore
+[
+arg
+-
+type
+]
         
 for
 hdr
@@ -2628,17 +2646,15 @@ cookies
 return
         
 c
-=
-SimpleCookie
-(
-)
-#
-type
 :
 SimpleCookie
 [
 str
 ]
+=
+SimpleCookie
+(
+)
         
 if
 hdrs
@@ -2704,6 +2720,9 @@ cookies
 type
 :
 ignore
+[
+assignment
+]
         
 for
 name
@@ -2773,6 +2792,9 @@ value
 type
 :
 ignore
+[
+assignment
+]
         
 self
 .
@@ -2828,8 +2850,9 @@ encoding
 "
         
 if
-not
 data
+is
+None
 :
             
 return
@@ -3209,8 +3232,9 @@ None
 :
         
 if
-not
 body
+is
+None
 :
             
 return
@@ -3509,32 +3533,6 @@ None
 :
         
 if
-proxy
-and
-not
-proxy
-.
-scheme
-=
-=
-"
-http
-"
-:
-            
-raise
-ValueError
-(
-"
-Only
-http
-proxies
-are
-supported
-"
-)
-        
-if
 proxy_auth
 and
 not
@@ -3809,6 +3807,9 @@ body
 type
 :
 ignore
+[
+assignment
+]
                 
 for
 chunk
@@ -3829,6 +3830,11 @@ chunk
 type
 :
 ignore
+[
+arg
+-
+type
+]
             
 await
 writer
@@ -3843,11 +3849,37 @@ as
 exc
 :
             
+if
+exc
+.
+errno
+is
+None
+and
+isinstance
+(
+exc
+asyncio
+.
+TimeoutError
+)
+:
+                
+protocol
+.
+set_exception
+(
+exc
+)
+            
+else
+:
+                
 new_exc
 =
 ClientOSError
 (
-                
+                    
 exc
 .
 errno
@@ -3865,21 +3897,21 @@ s
 self
 .
 url
-            
+                
 )
-            
+                
 new_exc
 .
 __context__
 =
 exc
-            
+                
 new_exc
 .
 __cause__
 =
 exc
-            
+                
 protocol
 .
 set_exception
@@ -4134,6 +4166,25 @@ partial
 self
 .
 _on_chunk_request_sent
+self
+.
+method
+self
+.
+url
+            
+)
+            
+on_headers_sent
+=
+functools
+.
+partial
+(
+                
+self
+.
+_on_headers_request_sent
 self
 .
 method
@@ -4586,6 +4637,51 @@ method
 url
 chunk
 )
+    
+async
+def
+_on_headers_request_sent
+(
+        
+self
+method
+:
+str
+url
+:
+URL
+headers
+:
+"
+CIMultiDict
+[
+str
+]
+"
+    
+)
+-
+>
+None
+:
+        
+for
+trace
+in
+self
+.
+_traces
+:
+            
+await
+trace
+.
+send_request_headers
+(
+method
+url
+headers
+)
 class
 ClientResponse
 (
@@ -4612,12 +4708,17 @@ HTTP
 Version
     
 status
+:
+int
 =
 None
 #
 type
 :
-int
+ignore
+[
+assignment
+]
 #
 Status
 -
@@ -4632,37 +4733,51 @@ Reason
 Phrase
     
 content
+:
+StreamReader
 =
 None
 #
 type
 :
-StreamReader
+ignore
+[
+assignment
+]
 #
 Payload
 stream
     
 _headers
-=
-None
-#
-type
 :
+"
 CIMultiDictProxy
 [
 str
 ]
-#
-Response
-headers
-    
-_raw_headers
+"
 =
 None
 #
 type
 :
+ignore
+[
+assignment
+]
+    
+_raw_headers
+:
 RawHeaders
+=
+None
+#
+type
+:
+ignore
+[
+assignment
+]
 #
 Response
 raw
@@ -4811,17 +4926,15 @@ method
 self
 .
 cookies
-=
-SimpleCookie
-(
-)
-#
-type
 :
 SimpleCookie
 [
 str
 ]
+=
+SimpleCookie
+(
+)
         
 self
 .
@@ -4843,20 +4956,14 @@ None
 self
 .
 _body
-=
-None
-#
-type
 :
 Any
+=
+None
         
 self
 .
 _writer
-=
-writer
-#
-type
 :
 Optional
 [
@@ -4867,6 +4974,8 @@ Task
 None
 ]
 ]
+=
+writer
         
 self
 .
@@ -4887,11 +4996,6 @@ True
 self
 .
 _history
-=
-(
-)
-#
-type
 :
 Tuple
 [
@@ -4900,6 +5004,9 @@ ClientResponse
 .
 .
 ]
+=
+(
+)
         
 self
 .
@@ -4925,17 +5032,15 @@ TimerNoop
 self
 .
 _cache
-=
-{
-}
-#
-type
 :
 Dict
 [
 str
 Any
 ]
+=
+{
+}
         
 self
 .
@@ -4961,15 +5066,13 @@ session
 self
 .
 _session
-=
-session
-#
-type
 :
 Optional
 [
 ClientSession
 ]
+=
+session
         
 if
 loop
@@ -5604,12 +5707,6 @@ MultiDict
 )
         
 links
-=
-MultiDict
-(
-)
-#
-type
 :
 MultiDict
 [
@@ -5622,6 +5719,10 @@ URL
 ]
 ]
 ]
+=
+MultiDict
+(
+)
         
 for
 val
@@ -5717,12 +5818,6 @@ split
 ]
             
 link
-=
-MultiDict
-(
-)
-#
-type
 :
 MultiDict
 [
@@ -5732,6 +5827,10 @@ str
 URL
 ]
 ]
+=
+MultiDict
+(
+)
             
 for
 param
@@ -5846,6 +5945,9 @@ url
 type
 :
 ignore
+[
+assignment
+]
             
 link
 .
@@ -5950,13 +6052,17 @@ response
 try
 :
                     
+protocol
+=
+self
+.
+_protocol
+                    
 message
 payload
 =
 await
-self
-.
-_protocol
+protocol
 .
 read
 (
@@ -5965,6 +6071,11 @@ read
 type
 :
 ignore
+[
+union
+-
+attr
+]
                 
 except
 http
@@ -6519,24 +6630,12 @@ under
 "
 "
         
-try
-:
-            
+return
+400
+>
 self
 .
-raise_for_status
-(
-)
-        
-except
-ClientResponseError
-:
-            
-return
-False
-        
-return
-True
+status
     
 def
 raise_for_status
@@ -6549,12 +6648,10 @@ None
 :
         
 if
-400
-<
-=
+not
 self
 .
-status
+ok
 :
             
 #
@@ -6847,6 +6944,17 @@ return
 self
 .
 _body
+#
+type
+:
+ignore
+[
+no
+-
+any
+-
+return
+]
     
 def
 get_encoding
@@ -7130,15 +7238,27 @@ _body
 .
 decode
 (
-encoding
-errors
-=
-errors
-)
 #
 type
 :
 ignore
+[
+no
+-
+any
+-
+return
+union
+-
+attr
+]
+            
+encoding
+errors
+=
+errors
+        
+)
     
 async
 def
@@ -7299,6 +7419,11 @@ strip
 type
 :
 ignore
+[
+union
+-
+attr
+]
         
 if
 not

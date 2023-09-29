@@ -13,8 +13,6 @@ TYPE_CHECKING
     
 Any
     
-Awaitable
-    
 Callable
     
 Dict
@@ -48,6 +46,7 @@ from
 .
 typedefs
 import
+Handler
 PathLike
 if
 TYPE_CHECKING
@@ -183,18 +182,6 @@ pragma
 :
 no
 cover
-_SimpleHandler
-=
-Callable
-[
-[
-Request
-]
-Awaitable
-[
-StreamResponse
-]
-]
 _HandlerType
 =
 Union
@@ -203,7 +190,7 @@ Type
 [
 AbstractView
 ]
-_SimpleHandler
+Handler
 ]
 attr
 .
@@ -1026,15 +1013,13 @@ None
 self
 .
 _items
-=
-[
-]
-#
-type
 :
 List
 [
 AbstractRouteDef
+]
+=
+[
 ]
     
 def
@@ -1048,25 +1033,22 @@ str
 :
         
 return
+f
 "
 <
 RouteTableDef
 count
 =
 {
-}
->
-"
-.
-format
-(
 len
 (
 self
 .
 _items
 )
-)
+}
+>
+"
     
 overload
     
@@ -1120,6 +1102,13 @@ index
 type
 :
 ignore
+[
+no
+-
+untyped
+-
+def
+]
         
 return
 self
@@ -1428,6 +1417,38 @@ route
 hdrs
 .
 METH_DELETE
+path
+*
+*
+kwargs
+)
+    
+def
+options
+(
+self
+path
+:
+str
+*
+*
+kwargs
+:
+Any
+)
+-
+>
+_Deco
+:
+        
+return
+self
+.
+route
+(
+hdrs
+.
+METH_OPTIONS
 path
 *
 *

@@ -121,11 +121,6 @@ loop
 self
 .
 _connections
-=
-{
-}
-#
-type
 :
 Dict
 [
@@ -134,6 +129,9 @@ asyncio
 .
 Transport
 ]
+=
+{
+}
         
 self
 .
