@@ -389,6 +389,11 @@ string
 #
 include
 <
+istream
+>
+#
+include
+<
 google
 /
 protobuf
