@@ -4354,11 +4354,12 @@ p
 .
 h
 +
-31
+FG_BLOCK_SIZE
+-
+1
 )
->
->
-5
+/
+FG_BLOCK_SIZE
 ;
 fg_apply_loop
 :

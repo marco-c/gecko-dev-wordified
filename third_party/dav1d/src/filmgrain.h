@@ -279,7 +279,7 @@ GRAIN_HEIGHT
 73
 #
 define
-BLOCK_SIZE
+FG_BLOCK_SIZE
 32
 #
 if

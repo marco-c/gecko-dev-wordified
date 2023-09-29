@@ -597,7 +597,7 @@ dst
 ptrdiff_t
 stride
 const
-uint16_t
+pixel
 *
 pal
 \

@@ -712,7 +712,7 @@ process
 this
 row
 in
-BLOCK_SIZE
+FG_BLOCK_SIZE
 ^
 2
 blocks
@@ -730,7 +730,7 @@ pw
 bx
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 )
 {
 if
@@ -1252,7 +1252,7 @@ process
 this
 row
 in
-BLOCK_SIZE
+FG_BLOCK_SIZE
 ^
 2
 blocks
@@ -1276,7 +1276,7 @@ pw
 bx
 +
 =
-BLOCK_SIZE
+FG_BLOCK_SIZE
 >
 >
 sx
