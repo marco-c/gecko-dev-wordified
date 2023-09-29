@@ -171,6 +171,10 @@ malloc_size_of_derive
 ;
 extern
 crate
+nsstring
+;
+extern
+crate
 selectors
 ;
 #
