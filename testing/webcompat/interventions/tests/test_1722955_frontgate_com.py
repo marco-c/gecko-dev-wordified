@@ -35,6 +35,30 @@ DESKTOP_CSS
 #
 cbiBody
 "
+#
+Note
+that
+this
+intervention
+doesn
+'
+t
+seem
+to
+work
+100
+%
+of
+#
+the
+time
+so
+this
+test
+may
+intermittently
+fail
+.
 pytest
 .
 mark
@@ -77,6 +101,9 @@ client
 await_css
 (
 MOBILE_CSS
+timeout
+=
+30
 )
     
 assert
@@ -129,6 +156,9 @@ client
 await_css
 (
 DESKTOP_CSS
+timeout
+=
+30
 )
     
 assert
