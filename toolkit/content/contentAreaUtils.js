@@ -1933,6 +1933,9 @@ directory
 let
 relatedURI
 =
+aOriginalURL
+|
+|
 aReferrerInfo
 ?
 .

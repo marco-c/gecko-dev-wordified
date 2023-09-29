@@ -38,7 +38,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -74,7 +74,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -143,7 +143,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -326,7 +326,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -1602,6 +1602,10 @@ oldAction
 function
 createTemporarySaveDirectory
 (
+id
+=
+"
+"
 )
 {
 var
@@ -1625,9 +1629,10 @@ saveDir
 .
 append
 (
-"
 testsavedir
-"
+{
+id
+}
 )
 ;
 if
