@@ -61,12 +61,6 @@ use
 strict
 "
 ;
-/
-*
-globals
-Localization
-*
-/
 const
 {
 XPCOMUtils
