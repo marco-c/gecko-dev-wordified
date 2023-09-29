@@ -140,7 +140,7 @@ test
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -149,7 +149,7 @@ clipboard
 /
 browser
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS

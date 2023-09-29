@@ -126,6 +126,6 @@ mochitest
 /
 browser
 .
-ini
+toml
 "
 ]

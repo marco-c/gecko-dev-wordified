@@ -126,14 +126,14 @@ test
 /
 browser_part1
 .
-ini
+toml
 "
 "
 test
 /
 browser_part2
 .
-ini
+toml
 "
 ]
 with

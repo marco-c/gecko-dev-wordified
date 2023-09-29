@@ -176,7 +176,7 @@ tests
 /
 browser
 .
-ini
+toml
 "
 ]
 include

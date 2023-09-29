@@ -129,7 +129,7 @@ test
 /
 browser
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

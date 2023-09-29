@@ -194,7 +194,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 CRASHTEST_MANIFESTS

@@ -1666,7 +1666,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 TEST_HARNESS_FILES

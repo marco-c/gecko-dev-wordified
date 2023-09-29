@@ -161,7 +161,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 EXPORTS

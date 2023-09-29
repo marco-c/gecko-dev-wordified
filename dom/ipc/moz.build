@@ -1383,7 +1383,7 @@ tests
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -1392,7 +1392,7 @@ JSProcessActor
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -1401,7 +1401,7 @@ JSWindowActor
 /
 browser
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

@@ -138,14 +138,14 @@ BROWSER_CHROME_MANIFESTS
 "
 browser
 .
-ini
+toml
 "
 "
 fmm
 /
 browser
 .
-ini
+toml
 "
 ]
 TEST_DIRS

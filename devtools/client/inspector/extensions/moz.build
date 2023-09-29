@@ -123,6 +123,6 @@ test
 /
 browser
 .
-ini
+toml
 "
 ]
