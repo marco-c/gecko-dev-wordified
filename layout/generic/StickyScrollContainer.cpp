@@ -854,6 +854,7 @@ computedOffsets
 }
 }
 static
+constexpr
 nscoord
 gUnboundedNegative
 =
@@ -862,12 +863,14 @@ nscoord_MIN
 2
 ;
 static
+constexpr
 nscoord
 gUnboundedExtent
 =
 nscoord_MAX
 ;
 static
+constexpr
 nscoord
 gUnboundedPositive
 =
