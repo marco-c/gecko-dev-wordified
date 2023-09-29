@@ -10027,10 +10027,7 @@ aDoc
 >
 GetAllElementsForId
 (
-nsDependentAtomString
-(
 aId
-)
 )
 ;
 }
@@ -10068,10 +10065,7 @@ aShadowRoot
 >
 GetAllElementsForId
 (
-nsDependentAtomString
-(
 aId
-)
 )
 ;
 }
