@@ -1107,7 +1107,7 @@ useLastActor
 }
 else
 {
-MOZ_FUZZING_NYX_PRINT
+MOZ_FUZZING_NYX_DEBUG
 (
 "
 WARNING
@@ -1148,6 +1148,9 @@ XRE_IsParentProcess
 return
 ;
 }
+#
+ifdef
+FUZZ_DEBUG
 MOZ_FUZZING_NYX_PRINTF
 (
 "
@@ -1180,6 +1183,8 @@ GetProtocolName
 )
 )
 ;
+#
+endif
 MessageChannel
 *
 channel
