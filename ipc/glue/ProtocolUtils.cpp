@@ -583,13 +583,15 @@ get
 )
 ;
 #
-endif
+else
 return
 IPCResult
 (
 false
 )
 ;
+#
+endif
 }
 void
 AnnotateSystemError
