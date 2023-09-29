@@ -9109,6 +9109,12 @@ uint32_t
 aStartIndex
 )
 {
+AutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 aStartIndex
