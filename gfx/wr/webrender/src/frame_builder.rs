@@ -736,7 +736,9 @@ cache
 config
 for
 drawing
-transparent
+cut
+-
+out
 rectangle
 primitives
 .
@@ -763,7 +765,7 @@ surface
 exists
 .
 pub
-default_transparent_rect_handle
+default_black_rect_handle
 :
 GpuCacheHandle
 }
@@ -789,7 +791,7 @@ GpuCacheHandle
 new
 (
 )
-default_transparent_rect_handle
+default_black_rect_handle
 :
 GpuCacheHandle
 :
@@ -901,7 +903,7 @@ request
 mut
 self
 .
-default_transparent_rect_handle
+default_black_rect_handle
 )
 {
 request
@@ -911,7 +913,7 @@ push
 PremultipliedColorF
 :
 :
-TRANSPARENT
+BLACK
 )
 ;
 }
