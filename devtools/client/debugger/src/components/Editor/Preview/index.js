@@ -499,6 +499,10 @@ codeMirror
 }
 if
 (
+!
+preview
+&
+&
 this
 .
 props
