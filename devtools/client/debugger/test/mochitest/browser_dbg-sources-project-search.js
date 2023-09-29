@@ -162,6 +162,7 @@ dbg
 "
 foo
 "
+1
 )
 ;
 ok
@@ -269,6 +270,7 @@ dbg
 "
 stuff
 "
+1
 )
 ;
 is
@@ -374,6 +376,7 @@ dbg
 "
 stuff
 "
+2
 )
 ;
 is
@@ -564,6 +567,7 @@ dbg
 "
 componentDidMount
 "
+3
 )
 ;
 is
@@ -787,6 +791,7 @@ dbg
 "
 stuff
 "
+0
 )
 ;
 is
@@ -840,6 +845,7 @@ dbg
 "
 stuff
 "
+1
 )
 ;
 is

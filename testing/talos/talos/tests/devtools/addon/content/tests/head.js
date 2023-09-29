@@ -826,7 +826,7 @@ target
 selector
 )
 {
-await
+return
 waitForDOMPredicate
 (
 target
@@ -840,10 +840,6 @@ querySelector
 (
 selector
 )
-!
-=
-=
-null
 )
 ;
 }
