@@ -1621,6 +1621,10 @@ mSlots
 nullptr
 )
 {
+SetIsOnMainThread
+(
+)
+;
 }
 #
 endif
