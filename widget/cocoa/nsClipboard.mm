@@ -2340,7 +2340,7 @@ rv
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -2518,12 +2518,12 @@ transferableFlavors
 {
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 SelectionCache
@@ -2553,7 +2553,7 @@ transferableFlavor
 transferableFlavors
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 MIME
@@ -2599,7 +2599,7 @@ flavor
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 has
@@ -2622,12 +2622,12 @@ true
 }
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 no
@@ -2664,7 +2664,7 @@ cocoaPasteboard
 ;
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
@@ -2686,7 +2686,7 @@ types
 count
 ]
 ;
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 Pasteboard
@@ -2734,7 +2734,7 @@ if
 type
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 failed
@@ -2749,7 +2749,7 @@ n
 continue
 ;
 }
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 MIME
@@ -2823,7 +2823,7 @@ pboardType
 ]
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 has
@@ -2881,7 +2881,7 @@ if
 availableType
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 has
@@ -2970,7 +2970,7 @@ if
 availableType
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 has
@@ -3092,7 +3092,7 @@ nil
 ]
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 has
@@ -3118,12 +3118,12 @@ true
 }
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 no
@@ -3439,7 +3439,7 @@ flavors
 i
 ]
 ;
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 writing

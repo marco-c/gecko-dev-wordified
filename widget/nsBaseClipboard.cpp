@@ -230,7 +230,7 @@ nsIClipboardOwner
 aOwner
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 AsyncSetClipboardData
@@ -265,7 +265,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
@@ -300,7 +300,7 @@ flavor
 flavors
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 MIME
@@ -715,7 +715,7 @@ nsIAsyncSetClipboardData
 _retval
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -747,7 +747,7 @@ aWhichClipboard
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -979,7 +979,7 @@ transferable
 "
 )
 ;
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -1006,7 +1006,7 @@ aWhichClipboard
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -1030,7 +1030,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
@@ -1065,7 +1065,7 @@ flavor
 flavors
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 MIME
@@ -1121,7 +1121,7 @@ GetClipboardOwner
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -1184,7 +1184,7 @@ rv
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -1221,7 +1221,7 @@ isErr
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -1291,7 +1291,7 @@ int32_t
 aWhichClipboard
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -1496,7 +1496,7 @@ rv
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -1656,7 +1656,7 @@ int32_t
 aWhichClipboard
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -1683,7 +1683,7 @@ aWhichClipboard
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -1809,7 +1809,7 @@ bool
 aOutResult
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -1826,12 +1826,12 @@ aWhichClipboard
 ;
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 Asking
@@ -1858,7 +1858,7 @@ flavor
 aFlavorList
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 MIME
@@ -1960,12 +1960,12 @@ rv
 {
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 Cached
@@ -1996,7 +1996,7 @@ transferableFlavor
 transferableFlavors
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 MIME
@@ -2042,7 +2042,7 @@ flavor
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 has
@@ -2088,7 +2088,7 @@ isErr
 )
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %

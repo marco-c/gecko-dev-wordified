@@ -3128,7 +3128,7 @@ aHres
 {
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
@@ -3142,7 +3142,7 @@ aHres
 hresString
 )
 ;
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 OleGetClipboard
@@ -3349,7 +3349,7 @@ aHres
 {
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
@@ -3363,7 +3363,7 @@ aHres
 hresString
 )
 ;
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 OleSetClipboard
@@ -3936,7 +3936,7 @@ int32_t
 aWhichClipboard
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -4307,7 +4307,7 @@ uint32_t
 aLen
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -4767,7 +4767,7 @@ uint32_t
 aLen
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -4889,7 +4889,7 @@ aMethodName
 {
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
@@ -4903,7 +4903,7 @@ aHres
 hresString
 )
 ;
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 IDataObject
@@ -5410,7 +5410,7 @@ uint32_t
 aLen
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -7008,7 +7008,7 @@ TYMED_GDI
 #
 ifdef
 DEBUG
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 *
@@ -7156,7 +7156,7 @@ nsITransferable
 aTransferable
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -8736,7 +8736,7 @@ uint32_t
 outDataLen
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -9001,7 +9001,7 @@ uint32_t
 outDataLen
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -9459,7 +9459,7 @@ uint32_t
 outDataLen
 )
 {
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -10134,7 +10134,7 @@ aWhichClipboard
 )
 )
 ;
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 %
@@ -10189,7 +10189,7 @@ IDataObject
 for
 clipboard
 operations
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 use
@@ -10201,7 +10201,7 @@ IDataObject
 ;
 if
 (
-CLIPBOARD_LOG_ENABLED
+MOZ_CLIPBOARD_LOG_ENABLED
 (
 )
 )
@@ -10259,7 +10259,7 @@ cfFormat
 format
 )
 ;
-CLIPBOARD_LOG
+MOZ_CLIPBOARD_LOG
 (
 "
 FORMAT
