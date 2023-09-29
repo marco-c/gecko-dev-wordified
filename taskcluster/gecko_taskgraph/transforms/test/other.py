@@ -2770,14 +2770,17 @@ macosx
 "
 :
 [
+                    
 "
 browsertime
 "
+                    
 "
 macosx64
 -
 geckodriver
 "
+                    
 "
 macosx64
 -
@@ -2785,6 +2788,7 @@ node
 -
 16
 "
+                
 ]
                 
 "
@@ -3149,6 +3153,16 @@ mac64
 chromedriver
 -
 109
+"
+                
+"
+mac
+-
+arm
+-
+chromedriver
+-
+115
 "
                 
 "
