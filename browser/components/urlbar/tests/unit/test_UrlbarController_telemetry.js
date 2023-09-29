@@ -374,10 +374,9 @@ return
 sum
 ;
 }
-add_task
+add_setup
 (
 function
-setup
 (
 )
 {

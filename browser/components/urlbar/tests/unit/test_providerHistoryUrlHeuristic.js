@@ -41,11 +41,10 @@ behavior
 of
 UrlbarProviderHistoryUrlHeuristic
 .
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {

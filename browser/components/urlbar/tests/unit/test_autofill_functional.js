@@ -63,11 +63,10 @@ tests
 for
 inline
 autocomplete
-add_task
+add_setup
 (
 async
 function
-setup
 (
 )
 {
