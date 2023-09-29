@@ -410,6 +410,11 @@ mips64
 target_arch
 =
 "
+mips64r6
+"
+target_arch
+=
+"
 powerpc64
 "
 target_arch
@@ -459,6 +464,11 @@ target_arch
 =
 "
 mips64
+"
+target_arch
+=
+"
+mips64r6
 "
 target_arch
 =
@@ -624,6 +634,11 @@ target_arch
 =
 "
 mips64
+"
+target_arch
+=
+"
+mips64r6
 "
 )
 )
