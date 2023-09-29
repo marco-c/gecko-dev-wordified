@@ -890,12 +890,9 @@ Services
 .
 qms
 .
-clearStoragesForPrincipal
+clearStoragesForOriginPrefix
 (
 httpPrincipal
-null
-null
-true
 )
 ;
 await

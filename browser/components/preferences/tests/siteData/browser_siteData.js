@@ -367,12 +367,9 @@ Services
 .
 qms
 .
-clearStoragesForPrincipal
+clearStoragesForOriginPrefix
 (
 principal
-null
-null
-true
 )
 ;
 request

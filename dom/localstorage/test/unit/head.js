@@ -617,12 +617,10 @@ Services
 .
 qms
 .
-clearStoragesForPrincipal
+clearStoragesForOriginPrefix
 (
 principal
 persistence
-null
-true
 )
 ;
 return
