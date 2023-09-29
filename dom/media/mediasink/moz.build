@@ -132,11 +132,9 @@ LOCAL_INCLUDES
 "
 !
 /
-media
+security
 /
-libsoundtouch
-/
-src
+rlbox
 "
 "
 /
