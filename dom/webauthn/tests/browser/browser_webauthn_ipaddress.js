@@ -180,11 +180,6 @@ await
 promiseWebAuthnMakeCredential
 (
 tab
-"
-none
-"
-{
-}
 )
 .
 then
