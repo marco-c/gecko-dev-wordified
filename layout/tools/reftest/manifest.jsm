@@ -4410,14 +4410,13 @@ sandbox
 .
 layersOMTC
 =
+!
+!
 g
 .
 windowUtils
 .
 layerManagerRemote
-=
-=
-true
 ;
 /
 /
