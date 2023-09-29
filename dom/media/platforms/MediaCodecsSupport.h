@@ -233,11 +233,6 @@ AV1
 \
 X
 (
-HEVC
-)
-\
-X
-(
 Theora
 )
 \
@@ -1157,7 +1152,7 @@ std
 array
 <
 CodecDefinition
-13
+12
 >
 GetAllCodecDefinitions
 (
