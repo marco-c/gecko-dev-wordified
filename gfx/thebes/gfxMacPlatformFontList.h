@@ -144,6 +144,7 @@ PlatformFontList
 )
 ;
 }
+static
 void
 LookupSystemFont
 (
