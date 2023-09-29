@@ -747,6 +747,8 @@ cpp
 ]
 EXPORTS
 .
+mozilla
+.
 ipc
 +
 =
