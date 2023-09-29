@@ -116,7 +116,7 @@ const
 DEFAULT_SUGGESTION_SCORE
 }
 =
-QuickSuggestRemoteSettings
+UrlbarProviderQuickSuggest
 ;
 const
 REMOTE_SETTINGS_RECORDS

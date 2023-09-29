@@ -115,6 +115,13 @@ frab
 "
 ;
 const
+{
+DEFAULT_SUGGESTION_SCORE
+}
+=
+UrlbarProviderQuickSuggest
+;
+const
 REMOTE_SETTINGS_RESULTS
 =
 [
@@ -804,8 +811,6 @@ Assert
 equal
 (
 typeof
-QuickSuggestRemoteSettings
-.
 DEFAULT_SUGGESTION_SCORE
 "
 number
@@ -912,8 +917,6 @@ suggestions
 .
 score
 =
-QuickSuggestRemoteSettings
-.
 DEFAULT_SUGGESTION_SCORE
 /
 2
@@ -1278,8 +1281,6 @@ score
 =
 2
 *
-QuickSuggestRemoteSettings
-.
 DEFAULT_SUGGESTION_SCORE
 ;
 let
@@ -1433,8 +1434,6 @@ suggestions
 .
 score
 =
-QuickSuggestRemoteSettings
-.
 DEFAULT_SUGGESTION_SCORE
 /
 2
@@ -1588,8 +1587,6 @@ suggestions
 .
 score
 =
-QuickSuggestRemoteSettings
-.
 DEFAULT_SUGGESTION_SCORE
 ;
 let
