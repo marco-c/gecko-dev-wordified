@@ -815,8 +815,13 @@ bool
 sStrictFileOriginPolicy
 ;
 static
+mozilla
+:
+:
+StaticRefPtr
+<
 nsIIOService
-*
+>
 sIOService
 ;
 static
