@@ -162,6 +162,11 @@ bool
 aFollowOOFs
 bool
 aSkipPopupChecks
+nsIFrame
+*
+aLimiter
+=
+nullptr
 )
 ;
 nsresult
@@ -210,6 +215,11 @@ bool
 aFollowOOFs
 bool
 aSkipPopupChecks
+nsIFrame
+*
+aLimiter
+=
+nullptr
 )
 override
 ;
