@@ -2301,6 +2301,11 @@ this
 )
 )
 ;
+if
+(
+mConnection
+)
+{
 mConnection
 -
 >
@@ -2312,6 +2317,7 @@ ConnectionCloseReason
 IDLE_TIMEOUT
 )
 ;
+}
 mPingSentEpoch
 =
 0
