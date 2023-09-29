@@ -1658,7 +1658,7 @@ aPrevious
 )
 {
 return
-mValue
+mDefaultValue
 ;
 }
 /
