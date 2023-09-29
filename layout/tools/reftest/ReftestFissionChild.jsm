@@ -1472,6 +1472,7 @@ combined
 r
 )
 )
+;
 this
 .
 forwardAfterPaintEventToParent

@@ -1323,6 +1323,7 @@ return
 errorStrings
 infoStrings
 }
+;
 }
 )
 ;

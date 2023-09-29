@@ -777,8 +777,8 @@ replace
 s
 *
 /
-'
-'
+"
+"
 )
 .
 replace
@@ -788,8 +788,8 @@ replace
 s
 *
 /
-'
-'
+"
+"
 )
 ;
 if
@@ -850,6 +850,7 @@ length
 2
 )
 throw
+(
 "
 url
 -
@@ -871,6 +872,7 @@ line
 "
 +
 lineNo
+)
 ;
 urlprefix
 =
@@ -1283,7 +1285,6 @@ m
 ;
 maxAsserts
 =
-(
 m
 [
 2
@@ -1291,7 +1292,6 @@ m
 =
 =
 undefined
-)
 ?
 minAsserts
 :
@@ -1390,7 +1390,6 @@ m
 ;
 maxAsserts
 =
-(
 m
 [
 3
@@ -1398,7 +1397,6 @@ m
 =
 =
 undefined
-)
 ?
 minAsserts
 :
@@ -1491,6 +1489,7 @@ length
 )
 {
 throw
+(
 "
 Error
 in
@@ -1519,6 +1518,7 @@ require
 -
 or
 "
+)
 ;
 }
 var
@@ -1764,6 +1764,7 @@ refPrefSettings
 )
 {
 throw
+(
 "
 Error
 in
@@ -1783,6 +1784,7 @@ line
 "
 +
 lineNo
+)
 ;
 }
 }
@@ -2051,6 +2053,7 @@ true
 else
 {
 throw
+(
 "
 Error
 in
@@ -2075,6 +2078,7 @@ item
 "
 +
 item
+)
 ;
 }
 if
@@ -2197,6 +2201,7 @@ invalid
 token
 .
 throw
+(
 "
 Error
 in
@@ -2230,6 +2235,7 @@ items
 "
 '
 "
+)
 ;
 }
 if
@@ -2282,7 +2288,6 @@ HTTP
 {
 runHttp
 =
-(
 aURL
 .
 scheme
@@ -2291,7 +2296,6 @@ scheme
 "
 file
 "
-)
 ;
 /
 /
@@ -2388,7 +2392,6 @@ etc
 .
 runHttp
 =
-(
 aURL
 .
 scheme
@@ -2397,7 +2400,6 @@ scheme
 "
 file
 "
-)
 ;
 /
 /
@@ -2578,6 +2580,7 @@ length
 2
 )
 throw
+(
 "
 Error
 in
@@ -2604,12 +2607,14 @@ arguments
 to
 include
 "
+)
 ;
 if
 (
 runHttp
 )
 throw
+(
 "
 Error
 in
@@ -2635,6 +2640,7 @@ include
 with
 http
 "
+)
 ;
 /
 /
@@ -2720,6 +2726,7 @@ nonSkipUsed
 )
 {
 throw
+(
 "
 Error
 in
@@ -2755,6 +2762,7 @@ skip
 if
 '
 "
+)
 ;
 }
 else
@@ -2814,6 +2822,7 @@ EXPECTED_PASS
 )
 {
 throw
+(
 "
 Error
 in
@@ -2854,6 +2863,7 @@ lineNo
 "
 )
 "
+)
 ;
 }
 var
@@ -3189,6 +3199,7 @@ length
 2
 )
 throw
+(
 "
 Error
 in
@@ -3216,6 +3227,7 @@ to
 "
 +
 type
+)
 ;
 if
 (
@@ -3231,6 +3243,7 @@ expected_status
 EXPECTED_PASS
 )
 throw
+(
 "
 Error
 in
@@ -3258,6 +3271,7 @@ for
 load
 test
 "
+)
 ;
 AddTestItem
 (
@@ -3396,6 +3410,7 @@ length
 3
 )
 throw
+(
 "
 Error
 in
@@ -3426,6 +3441,7 @@ items
 [
 0
 ]
+)
 ;
 if
 (
@@ -3461,6 +3477,7 @@ min
 )
 {
 throw
+(
 "
 Error
 in
@@ -3495,6 +3512,7 @@ items
 [
 0
 ]
+)
 ;
 }
 var
@@ -3713,6 +3731,7 @@ aManifestID
 else
 {
 throw
+(
 "
 Error
 in
@@ -3741,6 +3760,7 @@ items
 [
 0
 ]
+)
 ;
 }
 }
@@ -4023,11 +4043,9 @@ true
 var
 gfxInfo
 =
-(
 NS_GFXINFO_CONTRACTID
 in
 Cc
-)
 &
 &
 Cc
@@ -4058,13 +4076,11 @@ g
 contentGfxInfo
 &
 &
-(
 key
 in
 g
 .
 contentGfxInfo
-)
 )
 {
 return
@@ -4083,6 +4099,7 @@ key
 ]
 ;
 }
+;
 try
 {
 sandbox
@@ -4638,7 +4655,6 @@ sandbox
 .
 geckoview
 =
-(
 sandbox
 .
 Android
@@ -4647,7 +4663,6 @@ Android
 g
 .
 browserIsRemote
-)
 ;
 /
 /
@@ -4917,11 +4932,10 @@ httpProps
 .
 forEach
 (
-(
 x
-)
 =
 >
+(
 sandbox
 .
 http
@@ -4933,6 +4947,7 @@ hh
 [
 x
 ]
+)
 )
 ;
 /
@@ -4957,7 +4972,6 @@ sandbox
 Android
 &
 &
-(
 sandbox
 .
 http
@@ -4972,7 +4986,6 @@ platform
 Android
 13
 "
-)
 ;
 /
 /
@@ -5526,9 +5539,7 @@ var
 valType
 =
 typeof
-(
 prefVal
-)
 ;
 if
 (
@@ -5572,7 +5583,6 @@ number
 "
 &
 &
-(
 parseInt
 (
 prefVal
@@ -5580,7 +5590,6 @@ prefVal
 =
 =
 prefVal
-)
 )
 {
 prefType
@@ -6008,6 +6017,7 @@ test
 .
 httpDepth
 )
+;
 }
 let
 testbasePrincipal
@@ -6266,11 +6276,9 @@ lastIndexOf
 var
 url
 =
-(
 pos
 <
 0
-)
 ?
 aUrl
 :
@@ -6284,7 +6292,6 @@ pos
 )
 ;
 return
-(
 aManifestID
 +
 "
@@ -6292,7 +6299,6 @@ aManifestID
 "
 +
 url
-)
 ;
 }
 function
@@ -6600,7 +6606,6 @@ displayed
 .
 if
 (
-(
 g
 .
 urls
@@ -6608,7 +6613,6 @@ urls
 length
 %
 5000
-)
 =
 =
 0
