@@ -743,10 +743,11 @@ await
 waitForDOMPredicate
 (
 tree
-target
+(
+)
 =
 >
-target
+tree
 .
 childElementCount
 =
