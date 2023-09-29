@@ -20,14 +20,12 @@ helperThreadCount
 |
 getBuildConfiguration
 (
-)
-[
 "
 arm64
 -
 simulator
 "
-]
+)
 =
 =
 =

@@ -34,9 +34,10 @@ baseline
 !
 getBuildConfiguration
 (
-)
-.
+"
 arm64
+"
+)
 /
 /
 Test

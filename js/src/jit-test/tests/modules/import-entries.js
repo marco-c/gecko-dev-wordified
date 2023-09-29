@@ -592,12 +592,10 @@ if
 (
 getRealmConfiguration
 (
-)
-[
-'
+"
 importAssertions
-'
-]
+"
+)
 )
 {
 testImportEntries

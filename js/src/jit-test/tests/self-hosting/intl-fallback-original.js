@@ -24,12 +24,10 @@ if
 :
 getBuildConfiguration
 (
-)
-[
-'
+"
 wasi
-'
-]
+"
+)
 /
 /
 Clobbering

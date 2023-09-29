@@ -404,12 +404,10 @@ if
 (
 getRealmConfiguration
 (
-)
-[
-'
+"
 importAssertions
-'
-]
+"
+)
 )
 {
 testRequestedModules

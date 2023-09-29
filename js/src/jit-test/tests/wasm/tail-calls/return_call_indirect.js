@@ -1159,9 +1159,10 @@ if
 (
 getBuildConfiguration
 (
-)
-.
+"
 simulator
+"
+)
 )
 {
 assertEq

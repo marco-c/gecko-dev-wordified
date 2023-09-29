@@ -15,12 +15,10 @@ if
 :
 getBuildConfiguration
 (
-)
-[
-'
+"
 wasi
-'
-]
+"
+)
 setJitCompilerOption
 (
 "

@@ -28,9 +28,10 @@ ion
 !
 getBuildConfiguration
 (
-)
-.
+"
 arm64
+"
+)
 ;
 include
 :

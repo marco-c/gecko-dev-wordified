@@ -31,9 +31,10 @@ wasmGcEnabled
 |
 getBuildConfiguration
 (
-)
-.
+"
 simulator
+"
+)
 /
 /
 Tests

@@ -11,14 +11,12 @@ if
 :
 getBuildConfiguration
 (
-)
-[
 "
 arm64
 -
 simulator
 "
-]
+)
 =
 =
 =
