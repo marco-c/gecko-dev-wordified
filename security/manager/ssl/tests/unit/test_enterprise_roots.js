@@ -513,6 +513,13 @@ until
 roots
 are
 loaded
+await
+check_some_enterprise_roots_imported
+(
+nssComponent
+certDB
+)
+;
 Services
 .
 prefs
