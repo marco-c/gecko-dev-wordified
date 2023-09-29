@@ -16579,6 +16579,10 @@ mSlots
 ;
 }
 ;
+NON_VIRTUAL_ADDREF_RELEASE
+(
+nsINode
+)
 inline
 nsINode
 *
