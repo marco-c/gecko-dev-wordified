@@ -1731,7 +1731,7 @@ aEvent
 )
 -
 >
-TimeType
+double
 {
 MOZ_ASSERT
 (
