@@ -1621,10 +1621,6 @@ mSlots
 nullptr
 )
 {
-SetIsOnMainThread
-(
-)
-;
 }
 #
 endif

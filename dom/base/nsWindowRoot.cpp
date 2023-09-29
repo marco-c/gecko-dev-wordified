@@ -381,10 +381,6 @@ nsPIDOMWindowOuter
 aWindow
 )
 {
-SetIsOnMainThread
-(
-)
-;
 mWindow
 =
 aWindow
