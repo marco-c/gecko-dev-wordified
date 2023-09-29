@@ -346,15 +346,6 @@ WMFStreamType
 :
 :
 H264
-|
-|
-mStreamType
-=
-=
-WMFStreamType
-:
-:
-HEVC
 ?
 MediaDataDecoder
 :
