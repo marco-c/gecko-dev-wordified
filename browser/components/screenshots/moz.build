@@ -144,6 +144,6 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]

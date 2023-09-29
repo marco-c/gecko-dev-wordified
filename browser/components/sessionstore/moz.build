@@ -108,7 +108,7 @@ test
 /
 browser
 .
-ini
+toml
 "
 ]
 JAR_MANIFESTS

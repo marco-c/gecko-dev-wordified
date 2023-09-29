@@ -440,6 +440,6 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]

@@ -955,7 +955,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -966,7 +966,7 @@ formValidation
 /
 browser
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

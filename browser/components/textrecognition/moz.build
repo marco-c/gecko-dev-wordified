@@ -125,6 +125,6 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]

@@ -129,7 +129,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -140,7 +140,7 @@ google_codes
 /
 browser
 .
-ini
+toml
 "
 "
 test
@@ -151,7 +151,7 @@ telemetry
 /
 browser
 .
-ini
+toml
 "
 ]
 MARIONETTE_LAYOUT_MANIFESTS

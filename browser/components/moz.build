@@ -507,7 +507,7 @@ test
 /
 browser
 .
-ini
+toml
 "
 "
 tests
@@ -516,7 +516,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 if
@@ -540,7 +540,7 @@ whats_new_page
 /
 browser
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS
