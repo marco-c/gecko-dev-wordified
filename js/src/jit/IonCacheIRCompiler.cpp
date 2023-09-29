@@ -405,6 +405,15 @@ localTracingSlots_
 (
 0
 )
+perfSpewer_
+(
+ic
+-
+>
+pc
+(
+)
+)
 {
 MOZ_ASSERT
 (
