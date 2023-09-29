@@ -158,7 +158,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 XPIDL_SOURCES
