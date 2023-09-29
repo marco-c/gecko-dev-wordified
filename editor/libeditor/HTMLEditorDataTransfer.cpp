@@ -2883,6 +2883,10 @@ ComputeEditingHost
 (
 )
 aPointToInsert
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -2974,6 +2978,10 @@ LeafNodeType
 :
 OnlyEditableLeafNode
 }
+BlockInlineCheck
+:
+:
+Unused
 aLastInsertedPoint
 .
 GetChild
@@ -3287,6 +3295,10 @@ wsRunScannerAtCaret
 (
 editingHost
 pointToPutCaret
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 if
@@ -3315,6 +3327,10 @@ GetStartReasonContent
 (
 )
 )
+BlockInlineCheck
+:
+:
+UseComputedDisplayStyle
 )
 ;
 WSScanResult
@@ -5754,6 +5770,10 @@ HTMLEditUtils
 :
 :
 ClosestBlockElement
+BlockInlineCheck
+:
+:
+UseComputedDisplayOutsideStyle
 )
 :
 nullptr

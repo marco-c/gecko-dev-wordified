@@ -498,6 +498,17 @@ classes
 /
 enum
 class
+BlockInlineCheck
+:
+uint8_t
+;
+/
+/
+HTMLEditHelpers
+.
+h
+enum
+class
 CollectChildrenOption
 ;
 /
