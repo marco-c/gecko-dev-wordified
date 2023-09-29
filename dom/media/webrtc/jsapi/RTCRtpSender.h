@@ -1241,11 +1241,6 @@ mHaveWarnedBecauseNoTransactionId
 =
 false
 ;
-bool
-mHaveWarnedBecauseStaleTransactionId
-=
-false
-;
 /
 /
 TODO
