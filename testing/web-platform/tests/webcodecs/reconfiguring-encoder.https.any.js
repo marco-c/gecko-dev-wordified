@@ -226,14 +226,6 @@ constant
 ;
 config
 .
-scalabilityMode
-=
-"
-L1T2
-"
-;
-config
-.
 framerate
 =
 30
