@@ -29759,6 +29759,10 @@ options
 .
 symbolsPath
 )
+                
+scope
+=
+manifestToFilter
             
 )
         
