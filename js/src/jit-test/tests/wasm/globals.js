@@ -2337,6 +2337,14 @@ defined
 1337
 )
 ;
+if
+(
+!
+wasmGcEnabled
+(
+)
+)
+{
 /
 /
 Initializer
@@ -2463,6 +2471,7 @@ import
 /
 )
 ;
+}
 wasmFailValidateText
 (
 (
