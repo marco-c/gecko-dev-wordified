@@ -44016,7 +44016,10 @@ may
 also
 set
 the
-JSOPTION_NO_SCRIPT_RVAL
+ReadOnlyCompileOptions
+:
+:
+noScriptRval
 option
 when
 *
