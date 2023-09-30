@@ -4046,10 +4046,12 @@ kwargs
 )
 :
         
-rv
+groups
 =
-{
-}
+defaultdict
+(
+list
+)
         
 for
 (
@@ -4088,23 +4090,24 @@ scope
 }
 "
             
-rv
+groups
 [
 group_name
 ]
-=
-[
-t
+.
+extend
+(
+test
 .
 id
 for
-t
+test
 in
 tests
-]
+)
         
 return
-rv
+groups
 class
 PathGroupedSource
 (
