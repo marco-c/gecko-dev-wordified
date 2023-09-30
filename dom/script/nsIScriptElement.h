@@ -1711,6 +1711,11 @@ Document
 aOwnerDoc
 )
 ;
+bool
+IsClassicNonAsyncDefer
+(
+)
+;
 /
 *
 *
