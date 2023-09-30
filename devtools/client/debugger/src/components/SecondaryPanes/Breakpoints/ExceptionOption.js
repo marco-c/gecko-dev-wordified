@@ -62,6 +62,7 @@ import
 {
 div
 input
+label
 }
 from
 "
@@ -92,12 +93,14 @@ isChecked
 =
 false
 label
+:
+inputLabel
 onChange
 }
 )
 {
 return
-div
+label
 (
 {
 className
@@ -146,7 +149,7 @@ exceptions
 label
 "
 }
-label
+inputLabel
 )
 )
 ;
