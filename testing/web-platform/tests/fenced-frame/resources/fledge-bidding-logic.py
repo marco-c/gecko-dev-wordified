@@ -128,11 +128,11 @@ Javascript
     
 (
 '
-X
+Ad
 -
-Allow
+Auction
 -
-FLEDGE
+Allowed
 '
 '
 true
