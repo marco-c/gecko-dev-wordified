@@ -388,6 +388,13 @@ h
 #
 include
 "
+nsIObserverService
+.
+h
+"
+#
+include
+"
 nsIXULRuntime
 .
 h

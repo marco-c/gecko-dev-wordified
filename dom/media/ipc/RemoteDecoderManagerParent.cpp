@@ -266,6 +266,13 @@ VideoBridgeParent
 h
 "
 #
+include
+"
+nsIObserverService
+.
+h
+"
+#
 ifdef
 MOZ_WMF_MEDIA_ENGINE
 #
