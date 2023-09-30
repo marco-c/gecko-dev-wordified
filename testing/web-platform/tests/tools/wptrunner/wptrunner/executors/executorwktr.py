@@ -190,6 +190,8 @@ CrashError
     
 except
 Empty
+as
+e
 :
         
 logger
@@ -217,6 +219,8 @@ raise
 TimeoutError
 (
 )
+from
+e
     
 return
 line

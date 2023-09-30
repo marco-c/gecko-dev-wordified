@@ -235,12 +235,16 @@ LeakError
     
 except
 Empty
+as
+e
 :
         
 raise
 TimeoutError
 (
 )
+from
+e
     
 return
 line

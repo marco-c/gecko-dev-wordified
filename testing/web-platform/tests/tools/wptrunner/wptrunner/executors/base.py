@@ -5517,6 +5517,8 @@ command
         
 except
 KeyError
+as
+e
 :
             
 raise
@@ -5535,6 +5537,8 @@ result
 1
 ]
 )
+from
+e
         
 return
 callback
@@ -5625,6 +5629,8 @@ action
         
 except
 KeyError
+as
+e
 :
             
 raise
@@ -5639,6 +5645,8 @@ action
 }
 "
 )
+from
+e
         
 try
 :

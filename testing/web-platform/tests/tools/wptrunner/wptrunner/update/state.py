@@ -418,10 +418,14 @@ key
         
 except
 KeyError
+as
+e
 :
             
 raise
 AttributeError
+from
+e
     
 def
 __contains__

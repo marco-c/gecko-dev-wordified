@@ -4404,6 +4404,8 @@ except
 errors
 .
 UnsupportedOperationException
+as
+e
 :
             
 raise
@@ -4416,6 +4418,8 @@ yet
 implemented
 "
 )
+from
+e
 class
 MarionettePrintProtocolPart
 (

@@ -2379,6 +2379,8 @@ self
 .
 webdriver_binary
 )
+from
+e
             
 raise
         
