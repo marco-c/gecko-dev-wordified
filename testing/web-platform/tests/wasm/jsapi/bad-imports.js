@@ -1238,3 +1238,9 @@ value
 ;
 }
 }
+globalThis
+.
+test_bad_imports
+=
+test_bad_imports
+;

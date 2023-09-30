@@ -7,6 +7,7 @@ global
 window
 worker
 jsshell
+shadowrealm
 /
 /
 META
