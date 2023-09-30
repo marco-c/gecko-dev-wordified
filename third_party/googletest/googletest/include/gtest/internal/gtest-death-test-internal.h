@@ -390,6 +390,11 @@ memory
 >
 #
 include
+<
+string
+>
+#
+include
 "
 gtest
 /
@@ -469,7 +474,7 @@ internal_run_death_test
 "
 ;
 #
-if
+ifdef
 GTEST_HAS_DEATH_TEST
 GTEST_DISABLE_MSC_WARNINGS_PUSH_
 (
@@ -782,8 +787,9 @@ virtual
 DeathTest
 (
 )
-{
-}
+=
+default
+;
 /
 /
 A
@@ -862,7 +868,6 @@ ReturnSentinel
 delete
 ;
 }
-GTEST_ATTRIBUTE_UNUSED_
 ;
 /
 /
@@ -1228,8 +1233,9 @@ virtual
 DeathTestFactory
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 Create
@@ -1960,6 +1966,7 @@ EXECUTE_TEST
 :
 {
 \
+const
 :
 :
 testing

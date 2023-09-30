@@ -543,8 +543,9 @@ virtual
 CardinalityInterface
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Conservative
@@ -753,8 +754,9 @@ containers
 Cardinality
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Constructs

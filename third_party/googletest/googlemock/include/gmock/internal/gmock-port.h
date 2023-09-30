@@ -547,7 +547,7 @@ port
 h
 "
 #
-if
+ifdef
 GTEST_HAS_ABSL
 #
 include
@@ -692,7 +692,7 @@ flags
 implementation
 .
 #
-if
+ifdef
 GTEST_HAS_ABSL
 /
 /
