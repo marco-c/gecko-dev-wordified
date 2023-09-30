@@ -8817,6 +8817,10 @@ WIN32_EXE_LDFLAGS
 "
 USE_EXTENSION_MANIFEST
 "
+            
+"
+WASM_LIBS
+"
         
 ]
         
