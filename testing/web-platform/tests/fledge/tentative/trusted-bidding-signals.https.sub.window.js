@@ -371,7 +371,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 '
@@ -387,7 +387,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -447,7 +447,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 '
@@ -461,7 +461,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )
@@ -484,11 +484,11 @@ waitForObservedRequests
 (
 uuid
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 )

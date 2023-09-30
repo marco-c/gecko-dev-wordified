@@ -95,7 +95,7 @@ ads
 0
 ]
 .
-renderUrl
+renderURL
 }
 ;
 reportWinSuccessCondition
@@ -136,7 +136,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -149,7 +149,7 @@ uuid
 /
 expectedReportUrls
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -216,7 +216,7 @@ ads
 0
 ]
 .
-renderUrl
+renderURL
 }
 ;
 reportWinSuccessCondition
@@ -257,7 +257,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -270,7 +270,7 @@ uuid
 /
 expectedReportUrls
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -366,7 +366,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -379,7 +379,7 @@ uuid
 /
 expectedReportUrls
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -491,7 +491,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -504,7 +504,7 @@ uuid
 /
 expectedReportUrls
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -574,7 +574,7 @@ ads
 0
 ]
 .
-renderUrl
+renderURL
 }
 ;
 reportWinSuccessCondition
@@ -592,7 +592,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -605,7 +605,7 @@ uuid
 /
 expectedReportUrls
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -678,7 +678,7 @@ ads
 0
 ]
 .
-renderUrl
+renderURL
 }
 ;
 reportWinSuccessCondition
@@ -696,7 +696,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -709,7 +709,7 @@ uuid
 /
 expectedReportUrls
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -790,7 +790,7 @@ ads
 0
 ]
 .
-renderUrl
+renderURL
 }
 ;
 reportWinSuccessCondition
@@ -809,7 +809,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -822,7 +822,7 @@ uuid
 /
 expectedReportUrls
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -903,7 +903,7 @@ ads
 0
 ]
 .
-renderUrl
+renderURL
 }
 ;
 reportWinSuccessCondition
@@ -921,7 +921,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -934,7 +934,7 @@ uuid
 /
 expectedReportUrls
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -1014,7 +1014,7 @@ ads
 0
 ]
 .
-renderUrl
+renderURL
 }
 ;
 reportWinSuccessCondition
@@ -1033,7 +1033,7 @@ sendReportTo
 (
 '
 {
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )
@@ -1046,7 +1046,7 @@ uuid
 /
 expectedReportUrls
 [
-createBidderReportUrl
+createBidderReportURL
 (
 uuid
 )

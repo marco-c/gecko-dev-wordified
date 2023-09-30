@@ -372,7 +372,7 @@ render_obj
 '
 ad
 .
-renderUrl
+renderURL
 '
   
 if
@@ -390,7 +390,7 @@ url
 :
 ad
 .
-renderUrl
+renderURL
 width
 :
 "
@@ -409,7 +409,7 @@ component_render_obj
 '
 component
 .
-renderUrl
+renderURL
 '
   
 if
@@ -432,7 +432,7 @@ url
 :
 component
 .
-renderUrl
+renderURL
           
 width
 :

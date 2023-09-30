@@ -822,7 +822,7 @@ return
 ad_with_size
 ?
 {
-renderUrl
+renderURL
 :
 url
 sizeGroup
@@ -833,7 +833,7 @@ group1
 }
 :
 {
-renderUrl
+renderURL
 :
 url
 }
@@ -868,7 +868,7 @@ ads
 :
 [
 {
-renderUrl
+renderURL
 :
 href
 bid
@@ -3756,7 +3756,7 @@ await
 key
 ;
 const
-serverUrl
+serverURL
 =
 {
 STORE_URL
@@ -3774,7 +3774,7 @@ response
 await
 fetch
 (
-serverUrl
+serverURL
 )
 ;
 if
@@ -3988,7 +3988,7 @@ readAutomaticBeaconDataFromServer
 )
 {
 const
-serverUrl
+serverURL
 =
 {
 BEACON_URL
@@ -4000,7 +4000,7 @@ response
 await
 fetch
 (
-serverUrl
+serverURL
 )
 ;
 if
@@ -4219,7 +4219,7 @@ await
 key
 ;
 const
-serverUrl
+serverURL
 =
 {
 origin
@@ -4243,7 +4243,7 @@ value
 await
 fetch
 (
-serverUrl
+serverURL
 {
 "
 mode

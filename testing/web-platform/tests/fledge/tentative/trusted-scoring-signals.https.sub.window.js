@@ -211,7 +211,7 @@ ads
 :
 [
 {
-renderUrl
+renderURL
 :
 renderURL
 }
@@ -330,7 +330,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 '
@@ -348,7 +348,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 '
@@ -365,7 +365,7 @@ ads
 :
 [
 {
-renderUrl
+renderURL
 :
 renderURL
 }
@@ -419,7 +419,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 '
@@ -435,7 +435,7 @@ sendReportTo
 (
 '
 {
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 '
@@ -464,14 +464,14 @@ waitForObservedRequests
 (
 uuid
 [
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 '
 1
 '
 )
-createSellerReportUrl
+createSellerReportURL
 (
 uuid
 '
@@ -525,7 +525,7 @@ responseBody
 )
 {
 return
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -806,7 +806,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -877,7 +877,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -947,7 +947,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -1020,7 +1020,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -1093,7 +1093,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -1167,7 +1167,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -1245,7 +1245,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -1615,7 +1615,7 @@ signals
 response
 has
 no
-renderUrl
+renderURL
 object
 .
 '
@@ -1639,7 +1639,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -1692,7 +1692,7 @@ signals
 response
 has
 no
-renderUrls
+renderURLs
 .
 '
 )
@@ -1715,7 +1715,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -1977,7 +1977,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -2055,7 +2055,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -2134,7 +2134,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -2215,7 +2215,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -2307,7 +2307,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -2448,7 +2448,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -2532,7 +2532,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -2709,7 +2709,7 @@ test
 const
 renderURL1
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -2735,7 +2735,7 @@ value
 const
 renderURL2
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -2768,7 +2768,7 @@ ads
 :
 [
 {
-renderUrl
+renderURL
 :
 renderURL1
 }
@@ -2791,7 +2791,7 @@ ads
 :
 [
 {
-renderUrl
+renderURL
 :
 renderURL2
 }
@@ -3225,7 +3225,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 )
@@ -3280,7 +3280,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -3349,7 +3349,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -3418,7 +3418,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -3487,7 +3487,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -3557,7 +3557,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -3628,7 +3628,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -3698,7 +3698,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -3770,7 +3770,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -3841,7 +3841,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -3910,7 +3910,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -3985,7 +3985,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4063,7 +4063,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4144,7 +4144,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4385,7 +4385,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4411,7 +4411,7 @@ connection
 const
 componentURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4476,7 +4476,7 @@ adComponents
 0
 ]
 .
-renderUrl
+renderURL
 ]
 }
 ;
@@ -4521,7 +4521,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4714,7 +4714,7 @@ responseBody
 const
 componentURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4836,7 +4836,7 @@ adComponents
 0
 ]
 .
-renderUrl
+renderURL
 ]
 }
 ;
@@ -4882,7 +4882,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4906,7 +4906,7 @@ hostname
 const
 componentURL1
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4932,7 +4932,7 @@ value
 const
 componentURL2
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4958,7 +4958,7 @@ value
 const
 componentURL3
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -4984,7 +4984,7 @@ value
 const
 componentURL4
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -5010,7 +5010,7 @@ value
 const
 componentURL5
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -5036,7 +5036,7 @@ value
 const
 componentURL6
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /

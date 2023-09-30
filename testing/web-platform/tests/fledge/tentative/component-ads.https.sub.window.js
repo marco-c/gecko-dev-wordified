@@ -74,7 +74,7 @@ id
 )
 {
 return
-createTrackerUrl
+createTrackerURL
 (
 window
 .
@@ -118,7 +118,7 @@ id
 )
 {
 return
-createRenderUrl
+createRenderURL
 (
 uuid
 fetch
@@ -475,7 +475,7 @@ adComponent
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 /
@@ -683,7 +683,7 @@ expectedTrackerURLs
 =
 [
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -903,7 +903,7 @@ beacon
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -1077,7 +1077,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 let
@@ -1214,7 +1214,7 @@ beacon
 :
 "
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -1279,7 +1279,7 @@ waitForObservedRequests
 uuid
 [
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -2691,7 +2691,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 )
@@ -2843,7 +2843,7 @@ test
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 )
@@ -3052,7 +3052,7 @@ server
 const
 componentRenderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 window
@@ -3106,7 +3106,7 @@ uuid
 const
 renderURL
 =
-createRenderUrl
+createRenderURL
 (
 uuid
 let
@@ -3339,7 +3339,7 @@ beacon
 :
 '
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -3392,7 +3392,7 @@ beacon
 :
 '
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )
@@ -3442,7 +3442,7 @@ uuid
 0
 )
 {
-createBidderBeaconUrl
+createBidderBeaconURL
 (
 uuid
 )
@@ -3453,7 +3453,7 @@ top
 -
 ad
 {
-createSellerBeaconUrl
+createSellerBeaconURL
 (
 uuid
 )

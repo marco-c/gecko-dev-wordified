@@ -1863,7 +1863,7 @@ ads
 :
 [
 {
-renderUrl
+renderURL
 :
 '
 https
@@ -1897,7 +1897,7 @@ ads
 :
 [
 {
-renderUrl
+renderURL
 :
 '
 https
@@ -1911,7 +1911,7 @@ test
 '
 }
 {
-renderUrl
+renderURL
 :
 '
 https
@@ -1947,7 +1947,7 @@ ads
 :
 [
 {
-renderUrl
+renderURL
 :
 '
 https
@@ -1984,7 +1984,7 @@ ads
 :
 [
 {
-renderUrl
+renderURL
 :
 '
 https
@@ -2174,7 +2174,7 @@ adComponents
 :
 [
 {
-renderUrl
+renderURL
 :
 '
 https
@@ -2208,7 +2208,7 @@ adComponents
 :
 [
 {
-renderUrl
+renderURL
 :
 '
 https
@@ -2222,7 +2222,7 @@ test
 '
 }
 {
-renderUrl
+renderURL
 :
 '
 https
@@ -2256,7 +2256,7 @@ adComponents
 :
 [
 {
-renderUrl
+renderURL
 :
 '
 https
@@ -2293,7 +2293,7 @@ adComponents
 :
 [
 {
-renderUrl
+renderURL
 :
 '
 https
