@@ -1544,13 +1544,8 @@ TypeKind
 Array
 (
 inner
-length
-)
-if
-length
-=
-=
 0
+)
 =
 >
 Some
