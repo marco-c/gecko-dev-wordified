@@ -3615,6 +3615,10 @@ XTextScale
 "
 ZIndex
 "
+                
+"
+Zoom
+"
             
 }
         

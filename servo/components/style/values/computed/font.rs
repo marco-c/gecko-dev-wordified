@@ -587,6 +587,14 @@ FRACTION_BITS
 u16
 >
 {
+/
+/
+/
+The
+actual
+representation
+.
+pub
 value
 :
 T
@@ -672,6 +680,7 @@ floating
 point
 context
 .
+pub
 fn
 from_float
 (
@@ -726,6 +735,7 @@ floating
 point
 representation
 .
+pub
 fn
 to_float
 (

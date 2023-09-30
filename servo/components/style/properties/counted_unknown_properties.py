@@ -1054,8 +1054,4 @@ shape
 -
 margin
 "
-    
-"
-zoom
-"
 ]
