@@ -1336,11 +1336,29 @@ chunk
 "
 "
     
-manifests
+ini_manifests
 =
 set
 (
+[
+x
+.
+replace
+(
+"
+.
+toml
+"
+"
+.
+ini
+"
+)
+for
+x
+in
 manifests
+]
 )
     
 if
@@ -1379,18 +1397,15 @@ items
 if
 k
 in
-manifests
+ini_manifests
         
 }
         
-return
+retVal
+=
 [
-            
-c
-[
-1
 ]
-            
+        
 for
 c
 in
@@ -1403,12 +1418,47 @@ runtimes
 .
 get_chunked_manifests
 (
+            
+ini_manifests
+        
+)
+:
+            
+retVal
+.
+append
+(
                 
+[
+m
+if
+m
+in
 manifests
+else
+m
+.
+replace
+(
+"
+.
+ini
+"
+"
+.
+toml
+"
+)
+for
+m
+in
+c
+[
+1
+]
+]
             
 )
-        
-]
     
 #
 Keep
