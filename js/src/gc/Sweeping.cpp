@@ -7516,7 +7516,7 @@ if
 markUntilBudgetExhausted
 (
 budget
-AllowParallelMarking
+useParallelMarking
 )
 =
 =
@@ -11282,7 +11282,7 @@ return
 markUntilBudgetExhausted
 (
 budget
-AllowParallelMarking
+useParallelMarking
 )
 ;
 }
