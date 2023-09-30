@@ -7,6 +7,7 @@ global
 window
 dedicatedworker
 jsshell
+shadowrealm
 test
 (
 (
