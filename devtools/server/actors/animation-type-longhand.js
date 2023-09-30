@@ -2491,6 +2491,9 @@ stroke
 opacity
 "
 "
+zoom
+"
+"
 -
 moz
 -
