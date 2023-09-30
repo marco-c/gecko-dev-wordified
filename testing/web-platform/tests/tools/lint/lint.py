@@ -2867,6 +2867,10 @@ PromiseRejectsRegexp
 rules
 .
 AssertPreconditionRegexp
+            
+rules
+.
+HTMLInvalidSyntaxRegexp
 ]
 ]
 def
