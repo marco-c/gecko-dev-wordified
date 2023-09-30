@@ -189,7 +189,7 @@ h
 "
 /
 /
-TaggedPArserAtomIndex
+TaggedParserAtomIndex
 ParserAtomsTable
 #
 include

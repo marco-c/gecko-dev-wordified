@@ -244,7 +244,7 @@ h
 /
 BytecodeSection
 PerScriptData
-CGScopeList
+GCThingList
 #
 include
 "
