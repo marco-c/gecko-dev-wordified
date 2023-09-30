@@ -3758,7 +3758,7 @@ the
 nslots
 value
 for
-BCEScriptStencil
+ImmutableScriptData
 constructor
 parameter
 .
