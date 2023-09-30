@@ -349,13 +349,6 @@ cdefs
 .
 h
 >
-__FBSDID
-(
-"
-FreeBSD
-"
-)
-;
 #
 include
 "
