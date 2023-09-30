@@ -6652,7 +6652,7 @@ self
 .
 style
 .
-get_inherited_text
+get_font
 (
 )
 .
@@ -6734,7 +6734,7 @@ self
 .
 style
 .
-mutate_inherited_text
+mutate_font
 (
 )
 .

@@ -5912,7 +5912,7 @@ if
 mFrame
 -
 >
-StyleText
+StyleFont
 (
 )
 -
@@ -22550,7 +22550,7 @@ lh
 =
 aStyle
 .
-StyleText
+StyleFont
 (
 )
 -

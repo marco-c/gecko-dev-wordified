@@ -476,7 +476,7 @@ values
 generics
 :
 :
-text
+font
 :
 :
 LineHeight

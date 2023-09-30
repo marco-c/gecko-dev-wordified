@@ -906,6 +906,12 @@ scriptlevel
 int8_t
 mMathDepth
 ;
+mozilla
+:
+:
+StyleLineHeight
+mLineHeight
+;
 /
 /
 MathML
@@ -5800,12 +5806,6 @@ mozilla
 :
 StyleLetterSpacing
 mLetterSpacing
-;
-mozilla
-:
-:
-StyleLineHeight
-mLineHeight
 ;
 mozilla
 :

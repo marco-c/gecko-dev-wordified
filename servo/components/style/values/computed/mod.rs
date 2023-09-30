@@ -652,6 +652,7 @@ FontSize
 FontSizeAdjust
 FontStretch
 FontSynthesis
+LineHeight
 }
 ;
 pub
@@ -982,7 +983,6 @@ text
 InitialLetter
 LetterSpacing
 LineBreak
-LineHeight
 }
 ;
 pub
