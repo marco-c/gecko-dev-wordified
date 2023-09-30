@@ -895,7 +895,7 @@ comment
 #
 MACRO
 (
-JSOP_SUB
+Sub
 .
 .
 .
@@ -904,7 +904,7 @@ JSOP_SUB
 #
 MACRO
 (
-JSOP_MUL
+Mul
 .
 .
 .
@@ -913,7 +913,7 @@ JSOP_MUL
 #
 MACRO
 (
-JSOP_DIV
+Div
 .
 .
 .

@@ -4897,7 +4897,10 @@ Is
 a
 field
 value
-OBJLITERAL
+JSOp
+:
+:
+Object
 -
 compatible
 ?

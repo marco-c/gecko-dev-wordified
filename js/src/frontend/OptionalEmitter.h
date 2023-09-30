@@ -1083,7 +1083,10 @@ CallOrNewEmitter
 cone
 (
 this
-JSOP_CALL
+JSOp
+:
+:
+Call
 /
 /
 CallOrNewEmitter

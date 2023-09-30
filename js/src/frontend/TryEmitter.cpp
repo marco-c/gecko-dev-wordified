@@ -990,7 +990,10 @@ try
 blocks
 emit
 no
-GOSUBs
+JSOp
+:
+:
+Goto
 .
 if
 (
