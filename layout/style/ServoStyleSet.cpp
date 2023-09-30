@@ -8934,6 +8934,10 @@ aOldID
 nsAtom
 *
 aNewID
+const
+ServoElementSnapshotTable
+&
+aSnapshots
 )
 {
 Servo_StyleSet_MaybeInvalidateRelativeSelectorIDDependency
@@ -8947,6 +8951,8 @@ get
 aElement
 aOldID
 aNewID
+&
+aSnapshots
 )
 ;
 }
@@ -8960,6 +8966,10 @@ const
 Element
 &
 aElement
+const
+ServoElementSnapshotTable
+&
+aSnapshots
 )
 {
 Servo_StyleSet_MaybeInvalidateRelativeSelectorClassDependency
@@ -8972,9 +8982,7 @@ get
 &
 aElement
 &
-Snapshots
-(
-)
+aSnapshots
 )
 ;
 }
@@ -8991,6 +8999,10 @@ aElement
 nsAtom
 *
 aAttribute
+const
+ServoElementSnapshotTable
+&
+aSnapshots
 )
 {
 Servo_StyleSet_MaybeInvalidateRelativeSelectorAttributeDependency
@@ -9003,6 +9015,8 @@ get
 &
 aElement
 aAttribute
+&
+aSnapshots
 )
 ;
 }
@@ -9018,6 +9032,10 @@ Element
 aElement
 ElementState
 aState
+const
+ServoElementSnapshotTable
+&
+aSnapshots
 )
 {
 Servo_StyleSet_MaybeInvalidateRelativeSelectorStateDependency
@@ -9034,6 +9052,8 @@ aState
 GetInternalValue
 (
 )
+&
+aSnapshots
 )
 ;
 }

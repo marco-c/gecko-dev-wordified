@@ -26590,6 +26590,9 @@ aElement
 GetID
 (
 )
+Snapshots
+(
+)
 )
 ;
 }
@@ -26611,6 +26614,9 @@ MaybeInvalidateRelativeSelectorClassDependency
 (
 *
 aElement
+Snapshots
+(
+)
 )
 ;
 }
@@ -26623,6 +26629,9 @@ MaybeInvalidateRelativeSelectorAttributeDependency
 *
 aElement
 aAttribute
+Snapshots
+(
+)
 )
 ;
 }
@@ -26665,6 +26674,9 @@ MaybeInvalidateRelativeSelectorStateDependency
 *
 aElement
 aChangedBits
+Snapshots
+(
+)
 )
 ;
 }
