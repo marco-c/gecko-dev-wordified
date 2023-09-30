@@ -4116,7 +4116,7 @@ SetWebRenderDebugFlags
 (
 flags
 .
-_0
+bits
 )
 ;
 }

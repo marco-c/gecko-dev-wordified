@@ -2201,14 +2201,6 @@ bitflags
 derive
 (
 Default
-Debug
-Copy
-PartialEq
-Eq
-Clone
-PartialOrd
-Ord
-Hash
 )
 ]
 pub
