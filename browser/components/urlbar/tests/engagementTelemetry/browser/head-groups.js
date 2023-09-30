@@ -638,6 +638,7 @@ popPrefEnv
 (
 )
 ;
+await
 cleanupQuickSuggest
 (
 )
@@ -1272,6 +1273,7 @@ popPrefEnv
 (
 )
 ;
+await
 cleanupQuickSuggest
 (
 )

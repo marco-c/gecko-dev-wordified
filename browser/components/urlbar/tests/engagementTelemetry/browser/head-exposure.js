@@ -120,6 +120,7 @@ popPrefEnv
 (
 )
 ;
+await
 cleanupQuickSuggest
 (
 )
