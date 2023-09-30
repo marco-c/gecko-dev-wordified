@@ -170,6 +170,13 @@ Enable
 SIMD
 autovectorization
 if
+CONFIG
+[
+"
+WASM_CC_VERSION
+"
+]
+and
 int
 (
 CONFIG
