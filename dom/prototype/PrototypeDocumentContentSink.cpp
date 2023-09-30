@@ -517,6 +517,15 @@ h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 nsXULPrototypeCache
 .
 h

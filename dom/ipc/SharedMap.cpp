@@ -239,6 +239,15 @@ ScriptPreloader
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Try
+.
+h
+"
 using
 namespace
 mozilla

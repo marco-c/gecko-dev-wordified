@@ -292,6 +292,15 @@ include
 "
 mozilla
 /
+Try
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtrExtensions
 .
 h

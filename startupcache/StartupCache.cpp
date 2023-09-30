@@ -214,6 +214,15 @@ h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h

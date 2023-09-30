@@ -157,6 +157,15 @@ include
 "
 mozilla
 /
+Try
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 FileDescriptor

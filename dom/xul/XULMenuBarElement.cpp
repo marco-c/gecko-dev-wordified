@@ -171,6 +171,15 @@ AsyncEventDispatcher
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Try
+.
+h
+"
 namespace
 mozilla
 :

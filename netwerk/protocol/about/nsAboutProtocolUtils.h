@@ -65,6 +65,15 @@ nsAboutProtocolUtils_h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
