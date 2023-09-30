@@ -241,7 +241,10 @@ h
 "
 /
 /
-INT_TO_JSID
+JS
+:
+:
+PropertyKey
 #
 include
 "

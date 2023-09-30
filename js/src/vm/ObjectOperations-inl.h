@@ -229,10 +229,11 @@ h
 "
 /
 /
-INT_TO_JSID
+JS
+:
+:
+PropertyKey
 jsid
-JSID_INT_MAX
-SYMBOL_TO_JSID
 #
 include
 "

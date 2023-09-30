@@ -192,7 +192,10 @@ h
 "
 /
 /
-SYMBOL_TO_JSID
+JS
+:
+:
+PropertyKey
 #
 include
 "

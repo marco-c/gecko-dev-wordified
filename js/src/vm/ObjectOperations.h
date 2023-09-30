@@ -165,10 +165,7 @@ h
 "
 /
 /
-INT_TO_JSID
 jsid
-JSID_INT_MAX
-SYMBOL_TO_JSID
 #
 include
 "

@@ -2025,7 +2025,13 @@ id
 is
 *
 generally
-JSID_VOID
+JS
+:
+:
+PropertyKey
+:
+:
+isVoid
 .
 The
 |
@@ -2033,9 +2039,9 @@ mayThrow
 |
 parameter
 indicates
+*
 whether
 a
-*
 handler
 that
 wants
@@ -2045,10 +2051,10 @@ custom
 exceptions
 when
 denying
+*
 should
 do
 so
-*
 or
 not
 .
