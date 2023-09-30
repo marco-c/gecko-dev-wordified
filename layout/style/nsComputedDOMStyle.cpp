@@ -2911,6 +2911,17 @@ CSS_CUSTOM_NAME_PREFIX_LENGTH
 Servo_GetCustomPropertyValue
 (
 mComputedStyle
+mPresShell
+-
+>
+StyleSet
+(
+)
+-
+>
+RawData
+(
+)
 &
 name
 &
