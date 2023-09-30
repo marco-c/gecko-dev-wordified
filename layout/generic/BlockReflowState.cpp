@@ -265,6 +265,9 @@ aConsumedBSize
 const
 nscoord
 aEffectiveContentBoxBSize
+const
+nscoord
+aInset
 )
 :
 mBlock
@@ -286,6 +289,10 @@ aReflowInput
 GetWritingMode
 (
 )
+)
+mInsetForBalance
+(
+aInset
 )
 mPushedFloats
 (
