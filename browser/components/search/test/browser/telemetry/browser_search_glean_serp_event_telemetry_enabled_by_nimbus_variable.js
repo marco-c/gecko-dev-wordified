@@ -39,13 +39,14 @@ toggle
 the
 Glean
 SERP
+event
 telemetry
 feature
 via
 a
+/
+/
 Nimbus
-/
-/
 variable
 .
 const
