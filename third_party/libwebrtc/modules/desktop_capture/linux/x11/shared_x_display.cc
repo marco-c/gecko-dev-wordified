@@ -110,6 +110,13 @@ Xlib
 h
 >
 #
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
+#
 include
 <
 X11
@@ -120,6 +127,8 @@ XTest
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -718,6 +727,13 @@ IgnoreXServerGrabs
 (
 )
 {
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 int
 test_event_base
 =
@@ -765,6 +781,8 @@ true
 )
 ;
 }
+#
+endif
 }
 }
 /
