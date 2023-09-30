@@ -5345,17 +5345,6 @@ props
 remove
 (
 "
-text
--
-wrap
-"
-)
-    
-props
-.
-remove
-(
-"
 word
 -
 break
@@ -6146,17 +6135,6 @@ add
 "
 text
 -
-wrap
-"
-)
-        
-props
-.
-add
-(
-"
-text
--
 overflow
 "
 )
@@ -6225,12 +6203,6 @@ set
 white
 -
 space
-"
-                
-"
-text
--
-wrap
 "
                 
 "
@@ -6386,12 +6358,6 @@ shadow
 white
 -
 space
-"
-                
-"
-text
--
-wrap
 "
                 
 "

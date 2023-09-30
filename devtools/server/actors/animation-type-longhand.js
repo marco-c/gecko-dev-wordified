@@ -1062,11 +1062,6 @@ underline
 position
 "
 "
-text
--
-wrap
-"
-"
 touch
 -
 action
