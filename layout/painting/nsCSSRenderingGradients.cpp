@@ -4440,7 +4440,7 @@ return
 StyleAbsoluteColor
 :
 :
-TRANSPARENT
+TRANSPARENT_BLACK
 ;
 }
 const
@@ -8942,7 +8942,7 @@ edgeColor
 StyleAbsoluteColor
 :
 :
-TRANSPARENT
+TRANSPARENT_BLACK
 ;
 if
 (

@@ -3616,7 +3616,7 @@ color
 MozFontSmoothingBackgroundColor
 :
 :
-TRANSPARENT
+TRANSPARENT_BLACK
 "
 engines
 =
