@@ -186,6 +186,13 @@ nsTHashSet
 .
 h
 "
+#
+include
+"
+RadioGroupManager
+.
+h
+"
 class
 nsContentList
 ;
@@ -197,6 +204,9 @@ nsINode
 ;
 class
 nsINodeList
+;
+class
+nsIRadioVisitor
 ;
 class
 nsWindowSizes
@@ -302,6 +312,9 @@ bug
 /
 class
 DocumentOrShadowRoot
+:
+public
+RadioGroupManager
 {
 enum
 class
