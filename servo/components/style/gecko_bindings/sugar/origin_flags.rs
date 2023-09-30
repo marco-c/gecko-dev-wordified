@@ -200,7 +200,7 @@ Self
 Self
 :
 :
-from_bits_truncate
+from_bits_retain
 (
 flags
 .

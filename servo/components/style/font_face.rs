@@ -813,9 +813,6 @@ skip
 ]
 Unknown
 }
-bitflags
-!
-{
 /
 /
 /
@@ -844,6 +841,11 @@ resource
 [
 derive
 (
+Clone
+Copy
+Debug
+Eq
+PartialEq
 ToShmem
 )
 ]
@@ -856,6 +858,15 @@ C
 ]
 pub
 struct
+FontFaceSourceTechFlags
+(
+u16
+)
+;
+bitflags
+!
+{
+impl
 FontFaceSourceTechFlags
 :
 u16

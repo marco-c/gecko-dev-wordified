@@ -235,6 +235,7 @@ ElementData
 [
 derive
 (
+Debug
 Default
 )
 ]

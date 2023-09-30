@@ -380,7 +380,7 @@ ElementState
 ElementState
 :
 :
-from_bits_truncate
+from_bits_retain
 (
 ElementState
 :

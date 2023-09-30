@@ -1524,6 +1524,14 @@ issues
 7390
 #
 [
+derive
+(
+Clone
+Copy
+)
+]
+#
+[
 repr
 (
 C

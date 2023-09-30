@@ -6569,7 +6569,7 @@ aParam
 .
 mWritingMode
 .
-bits
+_0
 )
 ;
 }
@@ -6595,7 +6595,7 @@ aResult
 >
 mWritingMode
 .
-bits
+_0
 )
 ;
 }

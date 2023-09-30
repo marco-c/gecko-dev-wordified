@@ -845,7 +845,7 @@ Some
 ElementState
 :
 :
-from_bits_truncate
+from_bits_retain
 (
 self
 .
