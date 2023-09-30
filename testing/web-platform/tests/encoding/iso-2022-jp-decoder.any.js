@@ -1,3 +1,14 @@
+/
+/
+META
+:
+global
+=
+window
+dedicatedworker
+shadowrealm
+/
+/
 function
 decode
 (

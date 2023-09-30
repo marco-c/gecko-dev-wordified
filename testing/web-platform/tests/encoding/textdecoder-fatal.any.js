@@ -2,6 +2,15 @@
 /
 META
 :
+global
+=
+window
+dedicatedworker
+shadowrealm
+/
+/
+META
+:
 title
 =
 Encoding
