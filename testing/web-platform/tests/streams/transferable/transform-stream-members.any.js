@@ -1,3 +1,12 @@
+/
+/
+META
+:
+global
+=
+window
+dedicatedworker
+shadowrealm
 const
 combinations
 =
