@@ -1810,6 +1810,7 @@ aObserver
 const
 char
 *
+const
 *
 aPrefs
 )
@@ -1824,6 +1825,7 @@ aObserver
 const
 char
 *
+const
 *
 aPrefs
 )
@@ -1838,6 +1840,7 @@ aObserver
 const
 char
 *
+const
 *
 aPrefs
 )
@@ -2225,6 +2228,7 @@ aCallback
 const
 char
 *
+const
 *
 aPrefs
 T
@@ -2253,6 +2257,7 @@ aCallback
 const
 char
 *
+const
 *
 aPrefs
 void
@@ -2278,6 +2283,7 @@ aCallback
 const
 char
 *
+const
 *
 aPrefs
 T
@@ -2313,6 +2319,7 @@ aCallback
 const
 char
 *
+const
 *
 aPrefs
 T
@@ -2348,6 +2355,7 @@ aCallback
 const
 char
 *
+const
 *
 aPrefs
 T
@@ -3149,6 +3157,7 @@ aCallback
 const
 char
 *
+const
 *
 aPrefs
 void
@@ -3167,6 +3176,7 @@ aCallback
 const
 char
 *
+const
 *
 aPrefs
 void

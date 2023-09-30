@@ -8949,6 +8949,7 @@ CallbackNode
 const
 char
 *
+const
 *
 aDomains
 PrefChangedFunc
@@ -9014,6 +9015,7 @@ nsCString
 const
 char
 *
+const
 *
 >
 &
@@ -9121,6 +9123,7 @@ DomainIs
 const
 char
 *
+const
 *
 aPrefs
 )
@@ -9214,6 +9217,7 @@ for
 const
 char
 *
+const
 *
 ptr
 =
@@ -9224,6 +9228,7 @@ as
 const
 char
 *
+const
 *
 >
 (
@@ -9400,6 +9405,7 @@ nsCString
 const
 char
 *
+const
 *
 >
 mDomain
@@ -33966,6 +33972,7 @@ aObserver
 const
 char
 *
+const
 *
 aPrefs
 )
@@ -34057,6 +34064,7 @@ aObserver
 const
 char
 *
+const
 *
 aPrefs
 )
@@ -34148,6 +34156,7 @@ aObserver
 const
 char
 *
+const
 *
 aPrefs
 )
@@ -34441,6 +34450,7 @@ aCallback
 const
 char
 *
+const
 *
 aPrefs
 void
@@ -34545,6 +34555,7 @@ aCallback
 const
 char
 *
+const
 *
 aPrefs
 void
@@ -34584,6 +34595,7 @@ for
 const
 char
 *
+const
 *
 ptr
 =
@@ -34878,6 +34890,7 @@ aCallback
 const
 char
 *
+const
 *
 aPrefs
 void
