@@ -10415,7 +10415,7 @@ objects
 this
 compares
 by
-cobject
+object
 identity
 ;
 for
