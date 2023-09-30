@@ -3370,7 +3370,7 @@ flags
 ;
 flags
 .
-bits
+_0
 =
 gfx
 :
@@ -3541,7 +3541,7 @@ flags
 ;
 flags
 .
-bits
+_0
 =
 gfx
 :
@@ -3652,7 +3652,7 @@ flags
 ;
 flags
 .
-bits
+_0
 =
 gfx
 :

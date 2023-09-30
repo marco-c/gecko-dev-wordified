@@ -1797,6 +1797,14 @@ descriptor
 [
 derive
 (
+Debug
+Copy
+PartialEq
+Eq
+Clone
+PartialOrd
+Ord
+Hash
 Deserialize
 Serialize
 )
