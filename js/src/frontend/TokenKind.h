@@ -412,9 +412,7 @@ list
 does
 not
 contain
-ERROR
-and
-LIMIT
+Limit
 .
 *
 /
