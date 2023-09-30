@@ -261,7 +261,7 @@ error
 }
 ;
 await
-runBasicFledgeTestExpectingWinner
+joinGroupAndRunBasicFledgeTestExpectingWinner
 (
 test
 {
@@ -828,7 +828,7 @@ error
 )
 ;
 await
-runBasicFledgeTestExpectingWinner
+joinGroupAndRunBasicFledgeTestExpectingWinner
 (
 test
 {

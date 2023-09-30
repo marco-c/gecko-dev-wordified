@@ -256,7 +256,7 @@ false
 )
 ;
 await
-runBasicFledgeTestExpectingWinner
+joinGroupAndRunBasicFledgeTestExpectingWinner
 (
 test
 {
