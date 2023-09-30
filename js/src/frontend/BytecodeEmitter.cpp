@@ -13351,15 +13351,15 @@ its
 cases
 .
 The
-PNX_FUNCDEFS
+hasTopLevelFunctionDeclarations
 flag
 is
 propagated
 from
 the
-STATEMENTLIST
 /
 /
+StatementList
 bodies
 of
 the

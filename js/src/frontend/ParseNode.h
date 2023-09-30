@@ -3429,7 +3429,7 @@ PropertyAccess
 *
 left
 :
-MEMBER
+Member
 expr
 to
 left
@@ -3455,7 +3455,7 @@ OptionalPropertyAccess
 *
 left
 :
-MEMBER
+Member
 expr
 to
 left
@@ -3490,7 +3490,7 @@ PropertyByValue
 *
 left
 :
-MEMBER
+Member
 expr
 to
 left
@@ -3518,7 +3518,7 @@ OptionalPropertyByValue
 *
 left
 :
-MEMBER
+Member
 expr
 to
 left
@@ -4625,16 +4625,6 @@ const
 ParseNodeKind
 pn_type
 ;
-/
-*
-ParseNodeKind
-:
-:
-PNK_
-*
-type
-*
-/
 bool
 pn_parens
 :
@@ -5233,7 +5223,7 @@ intrinsic
 link
 in
 parent
-PN_LIST
+ListNode
 *
 /
 public
@@ -7841,9 +7831,7 @@ Don
 '
 t
 use
-PN
-*
-&
+reference
 because
 we
 want
@@ -7855,9 +7843,9 @@ changed
 so
 we
 can
+/
+/
 use
-/
-/
 ReplaceNode
 ParseNode
 *
