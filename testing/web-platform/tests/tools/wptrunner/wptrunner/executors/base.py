@@ -2263,13 +2263,30 @@ format_exc
 (
 )
             
+message
+=
+f
+"
+Exception
+in
+TextExecutor
+.
+run
+:
+\
+n
+{
+exception_string
+}
+"
+            
 self
 .
 logger
 .
 warning
 (
-exception_string
+message
 )
             
 result
