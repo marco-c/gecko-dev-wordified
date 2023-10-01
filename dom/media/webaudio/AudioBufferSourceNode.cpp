@@ -448,10 +448,7 @@ RecvTimelineEvent
 (
 uint32_t
 aIndex
-dom
-:
-:
-AudioTimelineEvent
+AudioParamEvent
 &
 aEvent
 )

@@ -402,7 +402,7 @@ CurrentTime
 )
 )
 ;
-AudioTimelineEvent
+AudioParamEvent
 event
 (
 AudioTimelineEvent
@@ -458,7 +458,7 @@ unexpected
 "
 )
 ;
-AudioTimelineEvent
+AudioParamEvent
 event
 (
 AudioTimelineEvent
@@ -517,7 +517,7 @@ ErrorResult
 aRv
 )
 {
-AudioTimelineEvent
+AudioParamEvent
 event
 (
 AudioTimelineEvent
@@ -613,7 +613,7 @@ CurrentTime
 )
 )
 ;
-AudioTimelineEvent
+AudioParamEvent
 event
 (
 AudioTimelineEvent
@@ -690,7 +690,7 @@ CurrentTime
 )
 )
 ;
-AudioTimelineEvent
+AudioParamEvent
 event
 (
 AudioTimelineEvent
@@ -767,7 +767,7 @@ CurrentTime
 )
 )
 ;
-AudioTimelineEvent
+AudioParamEvent
 event
 (
 AudioTimelineEvent
@@ -856,7 +856,7 @@ CurrentTime
 )
 )
 ;
-AudioTimelineEvent
+AudioParamEvent
 event
 (
 AudioTimelineEvent
@@ -951,7 +951,7 @@ CancelScheduledValues
 aStartTime
 )
 ;
-AudioTimelineEvent
+AudioParamEvent
 event
 (
 AudioTimelineEvent
@@ -1244,7 +1244,7 @@ void
 ValidateAndInsertEvent
 (
 const
-AudioTimelineEvent
+AudioParamEvent
 &
 aEvent
 ErrorResult
@@ -1295,7 +1295,7 @@ void
 SendEventToEngine
 (
 const
-AudioTimelineEvent
+AudioParamEvent
 &
 aEvent
 )

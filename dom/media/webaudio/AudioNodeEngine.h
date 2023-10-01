@@ -181,7 +181,7 @@ class
 DelayNodeEngine
 ;
 struct
-AudioTimelineEvent
+AudioParamEvent
 ;
 }
 /
@@ -1652,7 +1652,7 @@ aIndex
 dom
 :
 :
-AudioTimelineEvent
+AudioParamEvent
 &
 aValue
 )

@@ -294,7 +294,7 @@ RecvTimelineEvent
 (
 uint32_t
 aIndex
-AudioTimelineEvent
+AudioParamEvent
 &
 aEvent
 )

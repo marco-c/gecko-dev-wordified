@@ -159,7 +159,7 @@ struct
 ThreeDPoint
 ;
 struct
-AudioTimelineEvent
+AudioParamEvent
 ;
 class
 AudioContext
@@ -634,7 +634,7 @@ const
 dom
 :
 :
-AudioTimelineEvent
+AudioParamEvent
 &
 aEvent
 )
