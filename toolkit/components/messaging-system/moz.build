@@ -133,7 +133,7 @@ browser
 /
 browser
 .
-ini
+toml
 "
 ]
 SPHINX_TREES

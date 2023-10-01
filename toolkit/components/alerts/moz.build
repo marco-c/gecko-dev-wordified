@@ -106,7 +106,7 @@ test
 /
 browser
 .
-ini
+toml
 "
 ]
 XPIDL_SOURCES
