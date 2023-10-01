@@ -124,7 +124,7 @@ h
 #
 include
 <
-iostream
+ostream
 >
 namespace
 mozilla
