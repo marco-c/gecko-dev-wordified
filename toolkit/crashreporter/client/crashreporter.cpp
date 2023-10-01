@@ -1646,10 +1646,10 @@ date
 message
 <
 <
-std
-:
-:
-endl
+'
+\
+n
+'
 ;
 }
 }
