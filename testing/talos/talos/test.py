@@ -5862,6 +5862,16 @@ send_after_paint_to_content
 "
 :
 False
+        
+"
+places
+.
+history
+.
+enabled
+"
+:
+False
     
 }
     
