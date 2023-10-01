@@ -765,6 +765,9 @@ CTFontManagerCopyAvailablePostScriptNames
 }
 }
 extern
+"
+C
+"
 {
 /
 *
