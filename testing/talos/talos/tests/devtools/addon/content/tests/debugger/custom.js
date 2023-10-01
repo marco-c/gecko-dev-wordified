@@ -144,7 +144,7 @@ EXPECTED
 {
 sources
 :
-107
+1134
 file
 :
 "
