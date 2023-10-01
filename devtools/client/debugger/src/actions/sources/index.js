@@ -113,9 +113,7 @@ select
 "
 ;
 export
-{
-setSymbols
-}
+*
 from
 "
 .

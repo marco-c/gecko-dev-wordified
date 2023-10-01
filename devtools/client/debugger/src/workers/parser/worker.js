@@ -61,6 +61,7 @@ MPL
 import
 {
 getSymbols
+getFunctionSymbols
 clearSymbols
 }
 from
@@ -207,6 +208,7 @@ workerHandler
 findOutOfScopeLocations
 findBestMatchExpression
 getSymbols
+getFunctionSymbols
 getScopes
 clearSources
 :

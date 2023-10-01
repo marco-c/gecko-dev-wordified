@@ -171,7 +171,7 @@ getExpandedResultsCount
 (
 dbg
 )
-4
+5
 )
 ;
 is
@@ -289,7 +289,7 @@ getExpandedResultsCount
 (
 dbg
 )
-4
+5
 )
 ;
 ok

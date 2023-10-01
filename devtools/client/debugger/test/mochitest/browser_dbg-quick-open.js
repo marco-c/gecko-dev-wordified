@@ -776,6 +776,13 @@ info
 Testing
 function
 search
+(
+anonymous
+fuctions
+should
+not
+display
+)
 "
 )
 ;
