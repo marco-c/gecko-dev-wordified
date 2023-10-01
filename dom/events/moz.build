@@ -159,6 +159,15 @@ MOCHITEST_MANIFESTS
 "
 test
 /
+clipboard
+/
+mochitest
+.
+ini
+"
+"
+test
+/
 mochitest
 .
 ini
