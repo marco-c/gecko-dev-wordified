@@ -11749,6 +11749,7 @@ sprinter
 .
 putString
 (
+cx
 sresult
 )
 ;
