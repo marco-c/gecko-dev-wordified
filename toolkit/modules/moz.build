@@ -1077,7 +1077,7 @@ browser
 /
 browser
 .
-toml
+ini
 "
 ]
 MOCHITEST_CHROME_MANIFESTS
