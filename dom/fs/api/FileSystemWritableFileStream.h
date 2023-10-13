@@ -311,11 +311,11 @@ RefPtr
 FileSystemWritableFileStreamChild
 >
 aActor
+const
 fs
 :
 :
 FileSystemEntryMetadata
-&
 &
 aMetadata
 )
@@ -547,11 +547,11 @@ already_AddRefed
 TaskQueue
 >
 aTaskQueue
+const
 fs
 :
 :
 FileSystemEntryMetadata
-&
 &
 aMetadata
 )
