@@ -306,6 +306,16 @@ VideoDecoderTraits
 {
 public
 :
+static
+constexpr
+nsLiteralCString
+Name
+=
+"
+VideoDecoder
+"
+_ns
+;
 using
 ConfigType
 =
