@@ -294,6 +294,11 @@ _
 (
 CloseIter
 )
+\
+_
+(
+OptimizeGetIterator
+)
 }
 /
 /

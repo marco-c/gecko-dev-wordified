@@ -3849,6 +3849,12 @@ JSOp
 :
 CloseIter
 :
+case
+JSOp
+:
+:
+OptimizeGetIterator
+:
 MOZ_TRY
 (
 maybeInlineIC

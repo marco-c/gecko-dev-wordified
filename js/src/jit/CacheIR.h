@@ -1362,6 +1362,11 @@ CloseIter
 \
 _
 (
+OptimizeGetIterator
+)
+\
+_
+(
 OptimizeSpreadCall
 )
 \

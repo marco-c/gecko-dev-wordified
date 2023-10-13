@@ -12208,6 +12208,12 @@ case
 CacheKind
 :
 :
+OptimizeGetIterator
+:
+case
+CacheKind
+:
+:
 ToBool
 :
 case
