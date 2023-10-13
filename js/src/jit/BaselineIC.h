@@ -1449,6 +1449,9 @@ isFallback_
 isFallback
 )
 {
+#
+ifndef
+ENABLE_PORTABLE_BASELINE_INTERP
 MOZ_ASSERT
 (
 stubCode
@@ -1457,6 +1460,12 @@ stubCode
 nullptr
 )
 ;
+#
+endif
+/
+/
+!
+ENABLE_PORTABLE_BASELINE_INTERP
 }
 public
 :
