@@ -346,7 +346,7 @@ CacheOp
 (
 buffer_
 .
-readUnsigned15Bit
+readFixedUint16_t
 (
 )
 )
@@ -362,7 +362,7 @@ CacheOp
 (
 buffer_
 .
-peekUnsigned15Bit
+peekFixedUint16_t
 (
 )
 )
