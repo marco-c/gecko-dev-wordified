@@ -2530,9 +2530,6 @@ f
 defineLazyGlobalGetters
 :
 updateGlobalOrObject
-defineLazyModuleGetter
-:
-updateGlobalOrObject
 defineLazyModuleGetters
 :
 updateGlobalOrObject

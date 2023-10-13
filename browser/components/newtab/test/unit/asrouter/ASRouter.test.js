@@ -1335,7 +1335,7 @@ t
 know
 how
 to
-defineLazyModuleGetter
+defineLazyModuleGetters
 so
 we
 '

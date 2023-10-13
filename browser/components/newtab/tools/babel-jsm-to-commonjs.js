@@ -1650,9 +1650,6 @@ isCallExpression
 &
 [
 "
-XPCOMUtils
-"
-"
 ChromeUtils
 "
 ]
@@ -1679,9 +1676,6 @@ node
 &
 &
 [
-"
-defineLazyModuleGetter
-"
 "
 defineModuleGetter
 "
