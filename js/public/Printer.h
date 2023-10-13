@@ -864,6 +864,15 @@ release
 (
 )
 ;
+JSString
+*
+releaseJS
+(
+JSContext
+*
+cx
+)
+;
 /
 /
 Attempt
