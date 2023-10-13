@@ -4301,8 +4301,10 @@ for
 gtests
 subclass
 virtual
+already_AddRefed
+<
 AsyncPanZoomController
-*
+>
 NewAPZCInstance
 (
 LayersId
