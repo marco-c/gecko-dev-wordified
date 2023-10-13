@@ -162,12 +162,6 @@ using
 mozilla
 :
 :
-RoundUpPow2
-;
-using
-mozilla
-:
-:
 tl
 :
 :
