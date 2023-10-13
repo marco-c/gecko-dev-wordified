@@ -191,8 +191,10 @@ MIDIPort
 public
 :
 static
+RefPtr
+<
 MIDIOutput
-*
+>
 Create
 (
 nsPIDOMWindowInner
@@ -285,14 +287,12 @@ Clear
 ;
 private
 :
+explicit
 MIDIOutput
 (
 nsPIDOMWindowInner
 *
 aWindow
-MIDIAccess
-*
-aMIDIAccessParent
 )
 ;
 }

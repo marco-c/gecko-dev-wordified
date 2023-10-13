@@ -252,14 +252,12 @@ DOMEventTargetHelper
 )
 protected
 :
+explicit
 MIDIPort
 (
 nsPIDOMWindowInner
 *
 aWindow
-MIDIAccess
-*
-aMIDIAccessParent
 )
 ;
 bool
@@ -271,6 +269,9 @@ MIDIPortInfo
 aPortInfo
 bool
 aSysexEnabled
+MIDIAccess
+*
+aMIDIAccessParent
 )
 ;
 virtual
