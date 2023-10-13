@@ -3252,7 +3252,7 @@ non
 null
 .
 void
-IncrementOngoingLoadCount
+IncrementOngoingLoadCountAndMaybeBlockOnload
 (
 )
 {
