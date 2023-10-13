@@ -154,6 +154,7 @@ geckoview
 .
 xhtml
 "
+locked
 )
 ;
 pref
