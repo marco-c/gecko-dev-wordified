@@ -294,7 +294,7 @@ expectedSearchUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -552,7 +552,7 @@ expectedSearchUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -570,7 +570,12 @@ equal
 gURLBar
 .
 value
+UrlbarTestUtils
+.
+trimURL
+(
 expectedSearchUrl
+)
 URL
 should
 be

@@ -524,7 +524,12 @@ equal
 gURLBar
 .
 selectionEnd
+UrlbarTestUtils
+.
+trimURL
+(
 exampleUrl
+)
 .
 length
 "
@@ -640,7 +645,12 @@ equal
 gURLBar
 .
 selectionEnd
+UrlbarTestUtils
+.
+trimURL
+(
 exampleUrl
+)
 .
 length
 "
@@ -839,7 +849,12 @@ equal
 gURLBar
 .
 selectionEnd
+UrlbarTestUtils
+.
+trimURL
+(
 exampleUrl
+)
 .
 length
 "
@@ -886,7 +901,7 @@ checkPrimarySelection
 (
 gURLBar
 .
-value
+_untrimmedValue
 )
 ;
 await

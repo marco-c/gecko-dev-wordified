@@ -312,7 +312,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -848,6 +848,10 @@ equal
 gURLBar
 .
 value
+UrlbarTestUtils
+.
+trimURL
+(
 "
 https
 :
@@ -857,6 +861,7 @@ example
 .
 com
 "
+)
 )
 ;
 Assert

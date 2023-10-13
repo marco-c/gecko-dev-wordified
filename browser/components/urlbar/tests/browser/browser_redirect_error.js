@@ -789,7 +789,12 @@ is
 gURLBar
 .
 value
+UrlbarTestUtils
+.
+trimURL
+(
 currentURI
+)
 "
 The
 URL
@@ -828,7 +833,7 @@ request
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
