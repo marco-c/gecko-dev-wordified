@@ -619,6 +619,13 @@ _run
 self
 *
 args
+encoding
+=
+"
+utf
+-
+8
+"
 *
 *
 runargs
@@ -728,19 +735,22 @@ check_output
 (
                     
 cmd
+                    
 cwd
 =
 self
 .
 path
+                    
 env
 =
 self
 .
 _env
-universal_newlines
+                    
+encoding
 =
-True
+encoding
                 
 )
             
