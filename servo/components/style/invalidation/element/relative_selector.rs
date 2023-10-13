@@ -1861,6 +1861,13 @@ invalidate
 as
 necessary
 .
+#
+[
+inline
+(
+never
+)
+]
 pub
 fn
 invalidate_relative_selectors_for_this
@@ -2026,6 +2033,13 @@ invalidate
 as
 necessary
 .
+#
+[
+inline
+(
+never
+)
+]
 pub
 fn
 invalidate_relative_selectors_for_dom_mutation
