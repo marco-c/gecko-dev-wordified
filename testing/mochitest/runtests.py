@@ -22467,6 +22467,12 @@ self
 .
 test_name
             
+self
+.
+lastManifest
+=
+currentManifest
+            
 startTime
 =
 datetime
@@ -31917,6 +31923,20 @@ data
                 
 )
                 
+if
+"
+(
+finished
+)
+"
+in
+self
+.
+harness
+.
+lastTestSeen
+:
+                    
 self
 .
 lsanLeaks
@@ -31924,6 +31944,28 @@ lsanLeaks
 log
 (
 line
+self
+.
+harness
+.
+lastManifest
+)
+                
+else
+:
+                    
+self
+.
+lsanLeaks
+.
+log
+(
+line
+self
+.
+harness
+.
+lastTestSeen
 )
             
 return

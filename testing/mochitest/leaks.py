@@ -2600,6 +2600,10 @@ log
 (
 self
 line
+path
+=
+"
+"
 )
 :
         
@@ -2698,6 +2702,7 @@ self
 .
 _finishStack
 (
+path
 )
             
 self
@@ -2732,6 +2737,7 @@ self
 .
 _finishStack
 (
+path
 )
             
 self
@@ -3116,6 +3122,29 @@ self
 foundFrames
 :
             
+if
+self
+.
+scope
+:
+                
+f
+=
+"
+%
+s
+|
+%
+s
+"
+%
+(
+f
+self
+.
+scope
+)
+            
 self
 .
 logger
@@ -3130,7 +3159,6 @@ UNEXPECTED
 FAIL
 |
 LeakSanitizer
-|
 leak
 at
 "
@@ -3150,6 +3178,10 @@ def
 _finishStack
 (
 self
+path
+=
+"
+"
 )
 :
         
@@ -3208,6 +3240,12 @@ self
 currStack
 =
 None
+            
+self
+.
+scope
+=
+path
         
 self
 .
