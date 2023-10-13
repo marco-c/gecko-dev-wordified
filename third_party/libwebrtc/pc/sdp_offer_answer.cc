@@ -7436,7 +7436,7 @@ to
 handler_
 .
 bool
-ReplaceRemoteDescriptionAndCheckEror
+ReplaceRemoteDescriptionAndCheckError
 (
 )
 {
@@ -14359,7 +14359,7 @@ if
 operation
 -
 >
-ReplaceRemoteDescriptionAndCheckEror
+ReplaceRemoteDescriptionAndCheckError
 (
 )
 )
