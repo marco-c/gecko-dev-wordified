@@ -23214,7 +23214,7 @@ n
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -23435,7 +23435,7 @@ name
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -23524,7 +23524,7 @@ sn
 sp
 -
 >
-jsprintf
+printf
 (
 "
 colspan
@@ -23574,7 +23574,7 @@ lineno
 sp
 -
 >
-jsprintf
+printf
 (
 "
 lineno
@@ -23639,7 +23639,7 @@ sn
 sp
 -
 >
-jsprintf
+printf
 (
 "
 lineno
@@ -23705,7 +23705,7 @@ sn
 sp
 -
 >
-jsprintf
+printf
 (
 "
 column
@@ -23934,7 +23934,7 @@ trynotes
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -24060,7 +24060,7 @@ NoScopeIndex
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -24079,7 +24079,7 @@ else
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -24109,7 +24109,7 @@ NoScopeIndex
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -24128,7 +24128,7 @@ else
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -24143,7 +24143,7 @@ parent
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -24245,7 +24245,7 @@ gcthings
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
@@ -24563,7 +24563,7 @@ baseScript
 sp
 -
 >
-jsprintf
+printf
 (
 "
 %
