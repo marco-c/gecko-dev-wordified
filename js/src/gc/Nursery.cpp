@@ -2241,7 +2241,7 @@ return
 false
 ;
 }
-setCurrentChunk
+moveToStartOfChunk
 (
 0
 )
@@ -3146,7 +3146,7 @@ isEmpty
 )
 )
 ;
-setCurrentChunk
+moveToStartOfChunk
 (
 0
 )
@@ -3533,7 +3533,7 @@ allocatedChunkCount
 )
 ;
 }
-setCurrentChunk
+moveToStartOfChunk
 (
 chunkno
 )
@@ -11227,7 +11227,7 @@ maxChunkCount
 )
 )
 {
-setCurrentChunk
+moveToStartOfChunk
 (
 0
 )
@@ -11256,7 +11256,7 @@ js
 Nursery
 :
 :
-setCurrentChunk
+moveToStartOfChunk
 (
 unsigned
 chunkno
