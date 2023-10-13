@@ -17071,9 +17071,15 @@ Type
 This
 :
 return
+mCanvasStyle
+?
 WritingMode
 (
 mCanvasStyle
+)
+:
+WritingMode
+(
 )
 ;
 case
