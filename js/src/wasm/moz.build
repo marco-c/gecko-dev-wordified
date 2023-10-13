@@ -303,6 +303,11 @@ WasmStubs
 cpp
 "
 "
+WasmSummarizeInsn
+.
+cpp
+"
+"
 WasmTable
 .
 cpp
