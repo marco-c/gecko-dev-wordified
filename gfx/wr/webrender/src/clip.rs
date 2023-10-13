@@ -6641,6 +6641,7 @@ positioned
 derive
 (
 Debug
+Clone
 MallocSizeOf
 )
 ]
