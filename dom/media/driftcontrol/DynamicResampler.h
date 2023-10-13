@@ -1159,7 +1159,6 @@ MOZ_ASSERT
 (
 aChannelIndex
 <
-=
 mChannels
 )
 ;
@@ -1167,7 +1166,6 @@ MOZ_ASSERT
 (
 aChannelIndex
 <
-=
 mInternalInBuffer
 .
 Length
@@ -1575,7 +1573,6 @@ MOZ_ASSERT
 (
 aChannelIndex
 <
-=
 mChannels
 )
 ;
@@ -1583,7 +1580,6 @@ MOZ_ASSERT
 (
 aChannelIndex
 <
-=
 mInternalInBuffer
 .
 Length
