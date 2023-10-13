@@ -31379,6 +31379,9 @@ buttons
 8
 -
 9
+(
+10
+)
 to
 back
 /
@@ -31420,6 +31423,9 @@ return
 ;
 case
 9
+:
+case
+10
 :
 if
 (
