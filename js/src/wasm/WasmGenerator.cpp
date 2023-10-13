@@ -6688,14 +6688,8 @@ i
 {
 MOZ_ASSERT
 (
-IsValidStackMapKey
+IsPlausibleStackMapKey
 (
-compilerEnv_
--
->
-debugEnabled
-(
-)
 metadataTier_
 -
 >
