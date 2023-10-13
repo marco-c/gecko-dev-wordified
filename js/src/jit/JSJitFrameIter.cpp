@@ -3989,6 +3989,13 @@ raw
 ;
 }
 else
+if
+(
+!
+IsPortableBaselineInterpreterEnabled
+(
+)
+)
 {
 MOZ_ASSERT
 (
@@ -4019,6 +4026,13 @@ baselineInterpreter
 codeRaw
 (
 )
+;
+}
+else
+{
+resumePCinCurrentFrame_
+=
+nullptr
 ;
 }
 }
