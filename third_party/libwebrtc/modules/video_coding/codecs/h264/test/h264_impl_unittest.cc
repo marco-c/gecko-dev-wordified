@@ -314,16 +314,6 @@ H264Encoder
 :
 Create
 (
-cricket
-:
-:
-VideoCodec
-(
-cricket
-:
-:
-kH264CodecName
-)
 )
 ;
 }
