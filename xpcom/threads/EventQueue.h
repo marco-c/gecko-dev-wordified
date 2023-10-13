@@ -154,9 +154,13 @@ nsCOMPtr
 .
 h
 "
-class
+#
+include
+"
 nsIRunnable
-;
+.
+h
+"
 namespace
 mozilla
 {
