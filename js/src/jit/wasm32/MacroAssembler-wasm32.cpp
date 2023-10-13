@@ -1028,7 +1028,7 @@ CodeOffset
 )
 ;
 }
-CodeOffset
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -1041,9 +1041,8 @@ MOZ_CRASH
 )
 ;
 return
-CodeOffset
+FaultingCodeOffset
 (
-0
 )
 ;
 }

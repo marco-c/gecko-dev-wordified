@@ -4214,7 +4214,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -4233,7 +4233,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -4252,7 +4252,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -4271,7 +4271,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :

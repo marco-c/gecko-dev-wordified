@@ -15278,7 +15278,7 @@ Memory
 access
 primitives
 .
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -15292,6 +15292,7 @@ Address
 dest
 )
 {
+return
 Str
 (
 ARMFPRegister
@@ -15306,7 +15307,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -15320,6 +15321,7 @@ BaseIndex
 dest
 )
 {
+return
 doBaseIndex
 (
 ARMFPRegister
@@ -15335,7 +15337,7 @@ STR_d
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -15349,6 +15351,7 @@ Address
 addr
 )
 {
+return
 Str
 (
 ARMFPRegister
@@ -15363,7 +15366,7 @@ addr
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -15377,6 +15380,7 @@ BaseIndex
 addr
 )
 {
+return
 doBaseIndex
 (
 ARMFPRegister
@@ -23574,7 +23578,7 @@ rhs
 /
 /
 Load
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -23588,6 +23592,7 @@ FloatRegister
 dest
 )
 {
+return
 Ldr
 (
 ARMFPRegister
@@ -23602,7 +23607,7 @@ src
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -23616,6 +23621,7 @@ FloatRegister
 dest
 )
 {
+return
 doBaseIndex
 (
 ARMFPRegister
@@ -23634,7 +23640,7 @@ LDR_q
 /
 /
 Store
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -23648,6 +23654,7 @@ Address
 dest
 )
 {
+return
 Str
 (
 ARMFPRegister
@@ -23662,7 +23669,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -23676,6 +23683,7 @@ BaseIndex
 dest
 )
 {
+return
 doBaseIndex
 (
 ARMFPRegister

@@ -17593,7 +17593,7 @@ access
 primitives
 .
 inline
-void
+FaultingCodeOffset
 storeUncanonicalizedDouble
 (
 FloatRegister
@@ -17616,7 +17616,7 @@ wasm32
 )
 ;
 inline
-void
+FaultingCodeOffset
 storeUncanonicalizedDouble
 (
 FloatRegister
@@ -17639,7 +17639,7 @@ wasm32
 )
 ;
 inline
-void
+FaultingCodeOffset
 storeUncanonicalizedDouble
 (
 FloatRegister
@@ -17660,7 +17660,7 @@ class
 T
 >
 inline
-void
+FaultingCodeOffset
 storeDouble
 (
 FloatRegister
@@ -17695,7 +17695,7 @@ MacroAssemblerSpecific
 boxDouble
 ;
 inline
-void
+FaultingCodeOffset
 storeUncanonicalizedFloat32
 (
 FloatRegister
@@ -17718,7 +17718,7 @@ wasm32
 )
 ;
 inline
-void
+FaultingCodeOffset
 storeUncanonicalizedFloat32
 (
 FloatRegister
@@ -17741,7 +17741,7 @@ wasm32
 )
 ;
 inline
-void
+FaultingCodeOffset
 storeUncanonicalizedFloat32
 (
 FloatRegister
@@ -17762,7 +17762,7 @@ class
 T
 >
 inline
-void
+FaultingCodeOffset
 storeFloat32
 (
 FloatRegister
@@ -23198,7 +23198,7 @@ x86_shared
 )
 ;
 inline
-void
+FaultingCodeOffset
 loadUnalignedSimd128
 (
 const
@@ -23215,7 +23215,7 @@ arm64
 )
 ;
 inline
-void
+FaultingCodeOffset
 loadUnalignedSimd128
 (
 const
@@ -23235,7 +23235,7 @@ arm64
 /
 Store
 inline
-void
+FaultingCodeOffset
 storeUnalignedSimd128
 (
 FloatRegister
@@ -23252,7 +23252,7 @@ arm64
 )
 ;
 inline
-void
+FaultingCodeOffset
 storeUnalignedSimd128
 (
 FloatRegister
@@ -25617,7 +25617,7 @@ public
 /
 wasm
 support
-CodeOffset
+FaultingCodeOffset
 wasmTrapInstruction
 (
 )

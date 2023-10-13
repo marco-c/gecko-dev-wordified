@@ -241,6 +241,15 @@ WasmBCStk
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmConstants
+.
+h
+"
 namespace
 js
 {
@@ -14731,7 +14740,7 @@ to
 /
 null
 pointer
-derefences
+dereferences
 /
 accesses
 .
@@ -14744,7 +14753,9 @@ emitNullCheck
 (
 BaseCompiler
 *
+bc
 RegRef
+rp
 )
 {
 }
@@ -14754,6 +14765,11 @@ emitTrapSite
 (
 BaseCompiler
 *
+bc
+FaultingCodeOffset
+fco
+TrapMachineInsn
+tmi
 )
 {
 }
@@ -14780,6 +14796,10 @@ emitTrapSite
 BaseCompiler
 *
 bc
+FaultingCodeOffset
+fco
+TrapMachineInsn
+tmi
 )
 ;
 }

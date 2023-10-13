@@ -18808,7 +18808,7 @@ msg
 /
 /
 WebAssembly
-CodeOffset
+FaultingCodeOffset
 MacroAssembler
 :
 :
@@ -18816,8 +18816,10 @@ wasmTrapInstruction
 (
 )
 {
-CodeOffset
-offset
+FaultingCodeOffset
+fco
+=
+FaultingCodeOffset
 (
 currentOffset
 (
@@ -18840,7 +18842,7 @@ zero
 WASM_TRAP
 )
 return
-offset
+fco
 ;
 }
 void
