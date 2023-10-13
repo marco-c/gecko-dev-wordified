@@ -702,11 +702,12 @@ cache
 CTFontRef
 ctFont
 =
-CTFontCreateWithFontDescriptor
+CTFontCreateWithFontDescriptorAndOptions
 (
 ctFontDesc
 0
 NULL
+kCTFontOptionsPreferSystemFont
 )
 ;
 /

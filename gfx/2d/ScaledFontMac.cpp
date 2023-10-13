@@ -4596,11 +4596,12 @@ CTFontRef
 >
 font
 (
-CTFontCreateWithFontDescriptor
+CTFontCreateWithFontDescriptorAndOptions
 (
 mFontDesc
 aGlyphSize
 nullptr
+kCTFontOptionsPreferSystemFont
 )
 )
 ;
@@ -4684,11 +4685,12 @@ nullptr
 }
 font
 =
-CTFontCreateWithFontDescriptor
+CTFontCreateWithFontDescriptorAndOptions
 (
 fontDesc
 aGlyphSize
 nullptr
+kCTFontOptionsPreferSystemFont
 )
 ;
 }
