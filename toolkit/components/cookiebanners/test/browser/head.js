@@ -1348,6 +1348,9 @@ rules
 function
 insertTestClickRules
 (
+insertGlobalRules
+=
+true
 )
 {
 info
@@ -1564,6 +1567,11 @@ insertRule
 ruleB
 )
 ;
+if
+(
+insertGlobalRules
+)
+{
 info
 (
 "
@@ -1758,6 +1766,7 @@ insertRule
 ruleD
 )
 ;
+}
 }
 /
 *
