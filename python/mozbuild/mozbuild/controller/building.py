@@ -1892,10 +1892,13 @@ START_
 )
 :
 ]
+"
+"
+.
+join
+(
 args
-[
-0
-]
+)
 )
                 
 update_needed
@@ -1929,10 +1932,13 @@ END_
 )
 :
 ]
+"
+"
+.
+join
+(
 args
-[
-0
-]
+)
 )
                 
 update_needed
