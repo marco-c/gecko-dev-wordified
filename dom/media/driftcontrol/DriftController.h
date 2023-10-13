@@ -440,8 +440,6 @@ uint32_t
 aTargetFrames
 uint32_t
 aBufferedFrames
-uint32_t
-aRemainingFrames
 )
 ;
 private
@@ -777,8 +775,6 @@ CalculateCorrection
 (
 uint32_t
 aBufferedFrames
-uint32_t
-aRemainingFrames
 )
 ;
 public
@@ -824,11 +820,6 @@ mCorrectedTargetRate
 ;
 uint32_t
 mNumCorrectionChanges
-=
-0
-;
-uint32_t
-mSourceClock
 =
 0
 ;
