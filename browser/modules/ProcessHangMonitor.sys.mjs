@@ -3384,11 +3384,9 @@ we
 are
 in
 Developer
-or
-Nightly
+edition
 /
 /
-editions
 or
 if
 DevTools
@@ -3404,11 +3402,6 @@ if
 AppConstants
 .
 MOZ_DEV_EDITION
-|
-|
-AppConstants
-.
-NIGHTLY_BUILD
 |
 |
 report
