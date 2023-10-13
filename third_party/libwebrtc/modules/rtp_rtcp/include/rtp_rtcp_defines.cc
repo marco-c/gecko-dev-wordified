@@ -431,14 +431,9 @@ StreamDataCounters
 StreamDataCounters
 (
 )
-:
-first_packet_time_ms
-(
--
-1
-)
-{
-}
+=
+default
+;
 RtpPacketCounter
 :
 :
