@@ -742,10 +742,6 @@ mValue
 (
 aValue
 )
-mCurve
-(
-nullptr
-)
 mTimeConstant
 (
 aTimeConstant
@@ -785,12 +781,6 @@ aDuration
 mType
 (
 aType
-)
-mTimeConstant
-(
-0
-.
-0
 )
 mDuration
 (
