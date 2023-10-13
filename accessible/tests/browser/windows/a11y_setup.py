@@ -84,6 +84,11 @@ import
 BOOL
 HWND
 LPARAM
+POINT
+#
+noqa
+:
+F401
 import
 comtypes
 .
