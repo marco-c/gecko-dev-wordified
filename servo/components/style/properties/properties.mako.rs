@@ -2909,7 +2909,7 @@ debug_crash
 (
 &
 self
-reason
+_reason
 :
 &
 str
