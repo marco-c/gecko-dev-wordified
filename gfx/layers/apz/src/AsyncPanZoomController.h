@@ -3101,8 +3101,10 @@ const
 void
 StartAnimation
 (
+already_AddRefed
+<
 AsyncPanZoomAnimation
-*
+>
 aAnimation
 )
 ;

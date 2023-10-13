@@ -9657,12 +9657,15 @@ AUTOSCROLL
 ;
 StartAnimation
 (
+do_AddRef
+(
 new
 AutoscrollAnimation
 (
 *
 this
 aPoint
+)
 )
 )
 ;
@@ -15353,6 +15356,8 @@ GetVisualScrollOffset
 ;
 StartAnimation
 (
+do_AddRef
+(
 new
 SmoothScrollAnimation
 (
@@ -15360,6 +15365,7 @@ SmoothScrollAnimation
 this
 initialPosition
 scrollOrigin
+)
 )
 )
 ;
@@ -18370,6 +18376,8 @@ GetVisualScrollOffset
 ;
 StartAnimation
 (
+do_AddRef
+(
 new
 WheelScrollAnimation
 (
@@ -18379,6 +18387,7 @@ initialPosition
 aEvent
 .
 mDeltaType
+)
 )
 )
 ;
@@ -26893,8 +26902,10 @@ SetState
 FLING
 )
 ;
+RefPtr
+<
 AsyncPanZoomAnimation
-*
+>
 fling
 =
 GetPlatformSpecificState
@@ -26913,6 +26924,10 @@ PLPPI
 StartAnimation
 (
 fling
+.
+forget
+(
+)
 )
 ;
 }
@@ -27802,7 +27817,7 @@ StartAnimation
 (
 animation
 .
-get
+forget
 (
 )
 )
@@ -27969,6 +27984,8 @@ GetZoom
 }
 StartAnimation
 (
+do_AddRef
+(
 new
 SmoothMsdScrollAnimation
 (
@@ -28007,6 +28024,7 @@ aDestination
 mTargetIds
 )
 aTriggeredByScript
+)
 )
 )
 ;
@@ -28054,6 +28072,8 @@ GetOverscrollableDirections
 ;
 StartAnimation
 (
+do_AddRef
+(
 new
 OverscrollAnimation
 (
@@ -28061,6 +28081,7 @@ OverscrollAnimation
 this
 velocity
 aOverscrollSideBits
+)
 )
 )
 ;
@@ -28737,8 +28758,10 @@ AsyncPanZoomController
 :
 StartAnimation
 (
+already_AddRefed
+<
 AsyncPanZoomAnimation
-*
+>
 aAnimation
 )
 {
@@ -43168,6 +43191,8 @@ RecalculateLayoutViewportOffset
 ;
 StartAnimation
 (
+do_AddRef
+(
 new
 ZoomAnimation
 (
@@ -43196,6 +43221,7 @@ endZoomToMetrics
 .
 GetZoom
 (
+)
 )
 )
 )
