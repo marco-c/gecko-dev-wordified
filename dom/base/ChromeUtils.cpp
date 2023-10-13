@@ -9305,12 +9305,8 @@ target
 global
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Performance
 )
 ;
 mozilla

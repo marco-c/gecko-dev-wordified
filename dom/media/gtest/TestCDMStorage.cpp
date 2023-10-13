@@ -1251,10 +1251,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 task
 .
 forget
@@ -3212,10 +3208,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NewRunnableMethod
 <
 UniquePtr
@@ -4331,10 +4323,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NewRunnableMethod
 <
 UniquePtr
@@ -7088,10 +7076,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 task
 .
 forget
@@ -7175,10 +7159,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 task
 .
 forget

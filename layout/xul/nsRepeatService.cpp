@@ -321,15 +321,8 @@ mRepeatTimer
 =
 NS_NewTimer
 (
-aDocument
--
->
-EventTargetFor
+GetMainThreadSerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 )
 ;

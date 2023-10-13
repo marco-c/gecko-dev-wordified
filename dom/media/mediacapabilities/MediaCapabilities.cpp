@@ -2461,10 +2461,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NS_NewRunnableFunction
 (
 "
@@ -3350,15 +3346,8 @@ NS_IsMainThread
 {
 targetThread
 =
-mParent
--
->
-AbstractMainThreadFor
+GetMainThreadSerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 ;
 }

@@ -2584,10 +2584,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 runnable
 .
 forget
@@ -2632,10 +2628,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 NewRunnableMethod
 (
 "

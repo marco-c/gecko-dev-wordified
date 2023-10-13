@@ -3287,10 +3287,6 @@ global
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 runnable
 .
 forget

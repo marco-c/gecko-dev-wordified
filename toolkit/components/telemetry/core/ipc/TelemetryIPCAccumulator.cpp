@@ -273,12 +273,6 @@ using
 mozilla
 :
 :
-TaskCategory
-;
-using
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -2380,10 +2374,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 std
 :
 :

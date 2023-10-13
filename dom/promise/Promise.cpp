@@ -4741,13 +4741,6 @@ winForDispatch
 >
 Dispatch
 (
-mozilla
-:
-:
-TaskCategory
-:
-:
-Other
 event
 .
 forget

@@ -2562,10 +2562,6 @@ doc
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 caller
 .
 forget

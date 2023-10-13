@@ -1208,12 +1208,8 @@ aWindow
 )
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 ;
 factory

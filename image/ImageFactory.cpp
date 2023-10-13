@@ -571,15 +571,8 @@ uri
 }
 )
 ;
-SchedulerGroup
-:
-:
-Dispatch
+NS_DispatchToMainThread
 (
-TaskCategory
-:
-:
-Other
 ev
 .
 forget

@@ -2434,16 +2434,8 @@ SetupNeckoTarget
 {
 mNeckoTarget
 =
-nsContentUtils
-:
-:
-GetEventTargetByLoadInfo
+GetMainThreadSerialEventTarget
 (
-mLoadInfo
-TaskCategory
-:
-:
-Network
 )
 ;
 }

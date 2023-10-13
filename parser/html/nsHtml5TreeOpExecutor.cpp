@@ -603,10 +603,6 @@ doc
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Network
 flusher
 .
 forget
@@ -2998,10 +2994,6 @@ mDocument
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Network
 terminator
 .
 forget
@@ -3149,10 +3141,6 @@ mDocument
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Network
 flusher
 .
 forget

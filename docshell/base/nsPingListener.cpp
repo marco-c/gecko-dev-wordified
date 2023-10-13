@@ -2305,15 +2305,8 @@ nsPingListener
 :
 StartTimeout
 "
-aDocGroup
--
->
-EventTargetFor
+GetMainThreadSerialEventTarget
 (
-TaskCategory
-:
-:
-Network
 )
 )
 ;

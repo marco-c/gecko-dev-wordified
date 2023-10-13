@@ -877,15 +877,6 @@ OwnerDoc
 )
 -
 >
-EventTargetFor
-(
-TaskCategory
-:
-:
-UI
-)
--
->
 Dispatch
 (
 NewRunnableMethod

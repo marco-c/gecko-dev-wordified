@@ -621,12 +621,8 @@ target
 mGlobal
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 ;
 RefPtr
@@ -831,10 +827,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 r
 .
 forget
@@ -1413,10 +1405,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 r
 .
 forget

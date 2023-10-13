@@ -902,7 +902,7 @@ operator
 )
 (
 const
-opRunScript
+opRunScriptThatMayDocumentWriteOrBlock
 &
 aOperation
 )
@@ -914,7 +914,7 @@ operator
 )
 (
 const
-opRunScriptAsyncDefer
+opRunScriptThatCannotDocumentWriteOrBlock
 &
 aOperation
 )
@@ -4658,10 +4658,6 @@ OwnerDoc
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Network
 event
 .
 forget
@@ -5806,7 +5802,7 @@ operator
 )
 (
 const
-opRunScript
+opRunScriptThatMayDocumentWriteOrBlock
 &
 aOperation
 )
@@ -5862,7 +5858,7 @@ operator
 )
 (
 const
-opRunScriptAsyncDefer
+opRunScriptThatCannotDocumentWriteOrBlock
 &
 aOperation
 )
@@ -5878,6 +5874,7 @@ aOperation
 .
 mElement
 )
+false
 )
 ;
 return

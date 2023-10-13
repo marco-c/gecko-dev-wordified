@@ -342,12 +342,8 @@ info
 mGlobal
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 )
 ;
@@ -1096,12 +1092,8 @@ Then
 mGlobal
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 __func__
 [

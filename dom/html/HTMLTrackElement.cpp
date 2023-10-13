@@ -2546,10 +2546,6 @@ doc
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 runnable
 .
 forget
@@ -3059,10 +3055,6 @@ doc
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 runnable
 .
 forget

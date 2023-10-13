@@ -4596,10 +4596,6 @@ NS_SUCCEEDED
 (
 Dispatch
 (
-TaskCategory
-:
-:
-GarbageCollection
 runnable
 .
 forget

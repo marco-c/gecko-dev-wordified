@@ -2199,10 +2199,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 notifyObservers
 .
 forget

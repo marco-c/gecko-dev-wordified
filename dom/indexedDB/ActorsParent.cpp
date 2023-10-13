@@ -744,15 +744,6 @@ include
 "
 mozilla
 /
-TaskCategory
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
@@ -34916,10 +34907,6 @@ SchedulerGroup
 :
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 self
 .
 forget

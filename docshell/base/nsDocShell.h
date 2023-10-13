@@ -6753,11 +6753,6 @@ aShow
 nsresult
 Dispatch
 (
-mozilla
-:
-:
-TaskCategory
-aCategory
 already_AddRefed
 <
 nsIRunnable

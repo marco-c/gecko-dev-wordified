@@ -516,12 +516,8 @@ target
 aGlobal
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 ;
 }

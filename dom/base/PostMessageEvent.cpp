@@ -2294,10 +2294,6 @@ mTargetWindow
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 event
 .
 forget

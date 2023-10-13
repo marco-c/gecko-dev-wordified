@@ -1440,12 +1440,9 @@ ref
 }
 if
 (
-XRE_GetProcessType
+XRE_IsContentProcess
 (
 )
-=
-=
-GeckoProcessType_Content
 )
 {
 mReadyState
@@ -1479,12 +1476,8 @@ target
 global
 -
 >
-EventTargetFor
+SerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 ;
 }

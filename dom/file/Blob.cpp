@@ -1773,15 +1773,8 @@ else
 {
 mainThreadEventTarget
 =
-mGlobal
--
->
-EventTargetFor
+GetMainThreadSerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 ;
 }

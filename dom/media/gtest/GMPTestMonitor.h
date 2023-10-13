@@ -238,13 +238,6 @@ Dispatch
 mozilla
 :
 :
-TaskCategory
-:
-:
-Other
-mozilla
-:
-:
 NewNonOwningRunnableMethod
 (
 "

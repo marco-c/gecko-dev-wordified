@@ -890,10 +890,6 @@ win
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 eventRunner
 .
 forget
@@ -917,12 +913,6 @@ nsAString
 aEventName
 )
 {
-DebugOnly
-<
-nsresult
->
-rv
-;
 nsCOMPtr
 <
 nsIEventTarget
@@ -1001,6 +991,10 @@ the
 TrackEvent
 asynchronously
 .
+DebugOnly
+<
+nsresult
+>
 rv
 =
 target

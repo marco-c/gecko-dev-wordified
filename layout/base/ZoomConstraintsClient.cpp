@@ -1234,10 +1234,6 @@ mDocument
 >
 Dispatch
 (
-TaskCategory
-:
-:
-Other
 event
 .
 forget
