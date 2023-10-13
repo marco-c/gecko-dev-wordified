@@ -790,6 +790,13 @@ sjs
 "
 :
 true
+"
+mozilla
+/
+specific
+"
+:
+false
 }
 files
 :
