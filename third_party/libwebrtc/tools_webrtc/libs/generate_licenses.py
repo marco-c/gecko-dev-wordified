@@ -244,20 +244,6 @@ LICENSE
 ]
     
 '
-android_ndk
-'
-:
-[
-'
-third_party
-/
-android_ndk
-/
-NOTICE
-'
-]
-    
-'
 android_sdk
 '
 :
