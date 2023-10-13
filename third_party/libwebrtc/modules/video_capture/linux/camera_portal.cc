@@ -123,6 +123,17 @@ modules
 /
 portal
 /
+pipewire_utils
+.
+h
+"
+#
+include
+"
+modules
+/
+portal
+/
 xdg_desktop_portal_utils
 .
 h
@@ -203,8 +214,7 @@ result
 int
 fd
 =
--
-1
+kInvalidPipeWireFd
 )
 ;
 static
@@ -1272,8 +1282,7 @@ if
 fd
 =
 =
--
-1
+kInvalidPipeWireFd
 )
 {
 RTC_LOG

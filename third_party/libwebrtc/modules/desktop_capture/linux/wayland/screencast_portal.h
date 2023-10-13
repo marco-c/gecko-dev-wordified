@@ -135,6 +135,17 @@ modules
 /
 portal
 /
+pipewire_utils
+.
+h
+"
+#
+include
+"
+modules
+/
+portal
+/
 portal_request_response
 .
 h
@@ -924,8 +935,7 @@ socket
 int
 pw_fd_
 =
--
-1
+kInvalidPipeWireFd
 ;
 /
 /

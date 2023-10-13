@@ -429,8 +429,7 @@ if
 pw_fd_
 !
 =
--
-1
+kInvalidPipeWireFd
 )
 {
 close
@@ -440,8 +439,7 @@ pw_fd_
 ;
 pw_fd_
 =
--
-1
+kInvalidPipeWireFd
 ;
 }
 }
@@ -2633,8 +2631,7 @@ that
 pw_fd_
 =
 =
--
-1
+kInvalidPipeWireFd
 )
 {
 RTC_LOG

@@ -175,17 +175,6 @@ include
 "
 modules
 /
-portal
-/
-pipewire_utils
-.
-h
-"
-#
-include
-"
-modules
-/
 video_capture
 /
 device_info_impl
@@ -1542,8 +1531,7 @@ if
 fd
 !
 =
--
-1
+kInvalidPipeWireFd
 )
 {
 InitPipeWire
