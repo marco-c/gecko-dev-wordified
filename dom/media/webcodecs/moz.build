@@ -185,6 +185,11 @@ dom
 =
 [
 "
+DecoderTemplate
+.
+h
+"
+"
 EncodedVideoChunk
 .
 h
@@ -216,6 +221,11 @@ UNIFIED_SOURCES
 [
 "
 DecoderAgent
+.
+cpp
+"
+"
+DecoderTemplate
 .
 cpp
 "
