@@ -49262,7 +49262,6 @@ nullptr
 nullptr
 false
 false
-false
 )
 ;
 }
@@ -49463,7 +49462,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-false
 true
 false
 )
@@ -56578,7 +56576,6 @@ newURITriggeringPrincipal
 newURIPrincipalToInherit
 newURIPartitionedPrincipalToInherit
 newCsp
-false
 true
 true
 )
@@ -70935,8 +70932,6 @@ nsIContentSecurityPolicy
 *
 aCsp
 bool
-aFireOnLocationChange
-bool
 aAddToGlobalHistory
 bool
 aCloneSHChildren
@@ -72585,7 +72580,7 @@ SetCurrentURI
 (
 aURI
 aChannel
-aFireOnLocationChange
+false
 /
 *
 aIsInitialAboutBlank
