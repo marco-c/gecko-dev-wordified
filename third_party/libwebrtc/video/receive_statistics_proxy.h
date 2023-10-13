@@ -537,6 +537,14 @@ frames_dropped
 override
 ;
 void
+OnDecodableFrame
+(
+TimeDelta
+jitter_buffer_delay
+)
+override
+;
+void
 OnDiscardedPackets
 (
 uint32_t
@@ -554,7 +562,7 @@ current_delay_ms
 int
 target_delay_ms
 int
-jitter_buffer_ms
+jitter_delay_ms
 int
 min_playout_delay_ms
 int
@@ -927,7 +935,7 @@ rtc
 :
 :
 SampleCounter
-jitter_buffer_delay_counter_
+jitter_delay_counter_
 RTC_GUARDED_BY
 (
 main_thread_
