@@ -946,10 +946,10 @@ nullptr
 )
 ;
 void
-PropagateIsUnderHiddenEmbedderElementToSubView
+PropagateIsUnderHiddenEmbedderElement
 (
 bool
-aIsUnderHiddenEmbedderElement
+aValue
 )
 ;
 void
