@@ -130,6 +130,17 @@ media
 /
 base
 /
+codec
+.
+h
+"
+#
+include
+"
+media
+/
+base
+/
 media_constants
 .
 h
@@ -1072,6 +1083,11 @@ opt_payload_type
 {
 AudioCodec
 codec
+=
+cricket
+:
+:
+CreateAudioCodec
 (
 *
 opt_payload_type
@@ -1081,7 +1097,6 @@ name
 format
 .
 clockrate_hz
-0
 format
 .
 num_channels

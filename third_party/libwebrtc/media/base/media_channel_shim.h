@@ -2589,12 +2589,15 @@ params
 )
 ;
 }
-bool
+absl
+:
+:
+optional
+<
+VideoCodec
+>
 GetSendCodec
 (
-VideoCodec
-*
-send_codec
 )
 override
 {
@@ -2606,7 +2609,6 @@ send_impl
 >
 GetSendCodec
 (
-send_codec
 )
 ;
 }

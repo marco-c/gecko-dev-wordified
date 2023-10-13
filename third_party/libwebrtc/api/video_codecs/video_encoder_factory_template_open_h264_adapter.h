@@ -222,7 +222,7 @@ Create
 cricket
 :
 :
-VideoCodec
+CreateVideoCodec
 (
 format
 )

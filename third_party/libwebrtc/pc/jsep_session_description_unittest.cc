@@ -521,14 +521,13 @@ AddCodec
 cricket
 :
 :
-AudioCodec
+CreateAudioCodec
 (
 103
 "
 ISAC
 "
 16000
-0
 0
 )
 )
@@ -563,7 +562,7 @@ AddCodec
 cricket
 :
 :
-VideoCodec
+CreateVideoCodec
 (
 120
 "

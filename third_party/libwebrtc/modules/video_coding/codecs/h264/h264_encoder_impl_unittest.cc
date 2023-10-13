@@ -257,7 +257,7 @@ encoder
 cricket
 :
 :
-VideoCodec
+CreateVideoCodec
 (
 "
 H264
@@ -312,6 +312,11 @@ cricket
 :
 VideoCodec
 codec
+=
+cricket
+:
+:
+CreateVideoCodec
 (
 "
 H264
@@ -384,6 +389,11 @@ cricket
 :
 VideoCodec
 codec
+=
+cricket
+:
+:
+CreateVideoCodec
 (
 "
 H264
@@ -456,6 +466,11 @@ cricket
 :
 VideoCodec
 codec
+=
+cricket
+:
+:
+CreateVideoCodec
 (
 "
 H264
