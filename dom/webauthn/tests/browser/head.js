@@ -160,7 +160,7 @@ true
 )
 {
 let
-webauthnTransport
+webauthnService
 =
 Cc
 [
@@ -171,7 +171,7 @@ org
 /
 webauthn
 /
-transport
+service
 ;
 1
 "
@@ -181,13 +181,13 @@ getService
 (
 Ci
 .
-nsIWebAuthnTransport
+nsIWebAuthnService
 )
 ;
 let
 id
 =
-webauthnTransport
+webauthnService
 .
 addVirtualAuthenticator
 (
@@ -215,7 +215,7 @@ registerCleanupFunction
 =
 >
 {
-webauthnTransport
+webauthnService
 .
 removeVirtualAuthenticator
 (
@@ -323,7 +323,7 @@ privateKey
 )
 ;
 let
-webauthnTransport
+webauthnService
 =
 Cc
 [
@@ -334,7 +334,7 @@ org
 /
 webauthn
 /
-transport
+service
 ;
 1
 "
@@ -344,10 +344,10 @@ getService
 (
 Ci
 .
-nsIWebAuthnTransport
+nsIWebAuthnService
 )
 ;
-webauthnTransport
+webauthnService
 .
 addCredential
 (
@@ -389,7 +389,7 @@ credId
 )
 {
 let
-webauthnTransport
+webauthnService
 =
 Cc
 [
@@ -400,7 +400,7 @@ org
 /
 webauthn
 /
-transport
+service
 ;
 1
 "
@@ -410,10 +410,10 @@ getService
 (
 Ci
 .
-nsIWebAuthnTransport
+nsIWebAuthnService
 )
 ;
-webauthnTransport
+webauthnService
 .
 removeCredential
 (

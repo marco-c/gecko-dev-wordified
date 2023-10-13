@@ -86,7 +86,7 @@ class
 nsIWebAuthnAttObj
 ;
 class
-nsIWebAuthnTransport
+nsIWebAuthnService
 ;
 extern
 "
@@ -94,9 +94,9 @@ C
 "
 {
 nsresult
-authrs_transport_constructor
+authrs_service_constructor
 (
-nsIWebAuthnTransport
+nsIWebAuthnService
 *
 *
 result

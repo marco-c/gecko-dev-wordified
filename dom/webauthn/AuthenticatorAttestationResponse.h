@@ -181,7 +181,7 @@ h
 #
 include
 "
-nsIWebAuthnController
+nsIWebAuthnAttObj
 .
 h
 "

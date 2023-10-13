@@ -142,7 +142,7 @@ h
 #
 include
 "
-nsIWebAuthnController
+nsIWebAuthnArgs
 .
 h
 "

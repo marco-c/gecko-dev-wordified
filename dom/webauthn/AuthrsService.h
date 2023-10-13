@@ -74,7 +74,7 @@ h
 #
 include
 "
-nsIWebAuthnController
+nsIWebAuthnService
 .
 h
 "
@@ -86,9 +86,9 @@ dom
 {
 already_AddRefed
 <
-nsIWebAuthnTransport
+nsIWebAuthnService
 >
-NewAuthrsTransport
+NewAuthrsService
 (
 )
 ;
