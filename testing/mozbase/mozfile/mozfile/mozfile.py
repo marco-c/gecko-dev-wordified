@@ -2045,6 +2045,9 @@ copy_contents
 (
 srcdir
 dstdir
+ignore_dangling_symlinks
+=
+False
 )
 :
     
@@ -2381,11 +2384,19 @@ shutil
 .
 copytree
 (
+            
 srcdir
+            
 dstdir
+            
 dirs_exist_ok
 =
 True
+            
+ignore_dangling_symlinks
+=
+ignore_dangling_symlinks
+        
 )
 def
 move
