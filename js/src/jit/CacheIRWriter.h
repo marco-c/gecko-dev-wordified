@@ -739,9 +739,9 @@ op
 {
 buffer_
 .
-writeUnsigned15Bit
+writeFixedUint16_t
 (
-uint32_t
+uint16_t
 (
 op
 )
