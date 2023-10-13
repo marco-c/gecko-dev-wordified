@@ -14161,7 +14161,7 @@ the
 send
 channel
 .
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 *
 SendImpl
 (
@@ -14191,7 +14191,7 @@ static_cast
 cricket
 :
 :
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 *
 >
 (
@@ -21393,7 +21393,7 @@ the
 send
 channel
 .
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 *
 SendImpl
 (
@@ -21423,7 +21423,7 @@ static_cast
 cricket
 :
 :
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 *
 >
 (
@@ -21490,7 +21490,7 @@ static_cast
 cricket
 :
 :
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 *
 >
 (

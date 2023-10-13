@@ -318,7 +318,7 @@ kDefaultMaxQp
 cricket
 :
 :
-WebRtcVideoChannel
+WebRtcVideoSendChannel
 :
 :
 kDefaultQpMax
