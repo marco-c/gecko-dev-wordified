@@ -1220,9 +1220,6 @@ GetUnpaginatedBSize
 void
 SetUnpaginatedBSize
 (
-nsPresContext
-*
-aPresContext
 nscoord
 aValue
 )
