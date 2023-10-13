@@ -202,6 +202,8 @@ nsACString
 aGlob
 bool
 aAllowQuestion
+bool
+aIsPathGlob
 ErrorResult
 &
 aRv
