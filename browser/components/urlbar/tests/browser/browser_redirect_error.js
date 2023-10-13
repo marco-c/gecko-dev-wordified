@@ -789,12 +789,7 @@ is
 gURLBar
 .
 value
-UrlbarTestUtils
-.
-trimURL
-(
 currentURI
-)
 "
 The
 URL
