@@ -389,8 +389,6 @@ TrackRate
 aSourceRate
 TrackRate
 aTargetRate
-uint32_t
-aBufferMs
 )
 ;
 /

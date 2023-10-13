@@ -328,8 +328,6 @@ TrackRate
 aSourceRate
 TrackRate
 aTargetRate
-uint32_t
-aBufferMs
 )
 :
 mId
@@ -401,7 +399,6 @@ uint32_t
 (
 aTargetRate
 )
-aBufferMs
 aPrincipalHandle
 )
 {
