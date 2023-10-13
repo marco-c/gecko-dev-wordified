@@ -159,7 +159,7 @@ std
 :
 unique_ptr
 <
-TransformableFrameInterface
+TransformableAudioFrameInterface
 >
 CloneAudioFrame
 (
