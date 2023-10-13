@@ -1100,9 +1100,8 @@ DPIRatio
 )
 ;
 void
-PaintMenuArrow
+PaintMenulistArrow
 (
-StyleAppearance
 nsIFrame
 *
 DrawTarget
