@@ -1815,6 +1815,7 @@ msg
 .
 handle_response_ctap1
 (
+self
 status
 &
 data

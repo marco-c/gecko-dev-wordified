@@ -6451,12 +6451,17 @@ NS_ERROR_INVALID_ARG
 )
 }
 ;
-match
+let
+transport
+=
 transport
 .
 to_string
 (
 )
+;
+match
+transport
 .
 as_str
 (
@@ -6508,6 +6513,7 @@ test_token_manager
 add_virtual_authenticator
 (
 protocol
+transport
 has_resident_key
 has_user_verification
 is_user_consenting
