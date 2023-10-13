@@ -2386,7 +2386,7 @@ createChild
 (
 header
 "
-span
+button
 "
 {
 class
@@ -2414,11 +2414,6 @@ highlighted
 "
 "
 )
-role
-:
-"
-button
-"
 "
 aria
 -
