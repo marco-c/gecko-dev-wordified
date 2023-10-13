@@ -5848,11 +5848,6 @@ URLSearchParams
 webidl
 "
 "
-UserActivation
-.
-webidl
-"
-"
 ValidityState
 .
 webidl
