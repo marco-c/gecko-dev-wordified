@@ -2261,7 +2261,7 @@ ms
 )
 timings
 .
-jitter_delay
+minimum_delay
 .
 ms
 (
@@ -2430,6 +2430,12 @@ stats_proxy_
 OnDecodableFrame
 (
 jitter_buffer_delay
+timings
+.
+target_delay
+timings
+.
+minimum_delay
 )
 ;
 }
