@@ -863,6 +863,7 @@ return
 mIsDRM
 ;
 }
+virtual
 void
 SetIsDRM
 (
