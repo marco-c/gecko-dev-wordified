@@ -681,7 +681,7 @@ written
 ;
 MOZ_ASSERT
 (
-mSamples
+mBuffer
 "
 Buffer
 not
