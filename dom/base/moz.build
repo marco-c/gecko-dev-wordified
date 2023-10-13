@@ -1359,11 +1359,6 @@ ResizeObserver
 h
 "
 "
-ResizeObserverController
-.
-h
-"
-"
 ResponsiveImageSelector
 .
 h
@@ -2255,11 +2250,6 @@ cpp
 "
 "
 ResizeObserver
-.
-cpp
-"
-"
-ResizeObserverController
 .
 cpp
 "
