@@ -194,7 +194,7 @@ src
 /
 /
 Quantizer
-setings
+settings
 int16_t
 *
 round_fp
@@ -446,7 +446,7 @@ errorperbit
 /
 /
 The
-equivalend
+equivalent
 SAD
 error
 of
@@ -471,7 +471,7 @@ sadperbit16
 /
 /
 The
-equivalend
+equivalent
 SAD
 error
 of
@@ -680,7 +680,7 @@ transform
 blocks
 where
 no
-coefficents
+coefficients
 are
 coded
 .

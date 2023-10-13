@@ -2807,6 +2807,9 @@ target
 =
 (
 (
+uint64_t
+)
+(
 16
 +
 kf_boost
@@ -2820,6 +2823,14 @@ per_frame_bandwidth
 >
 >
 4
+;
+target
+=
+VPXMIN
+(
+INT_MAX
+target
+)
 ;
 }
 if
@@ -3087,7 +3098,7 @@ Boost
 0
 ;
 int
-gf_frame_useage
+gf_frame_usage
 =
 0
 ;
@@ -3095,7 +3106,7 @@ gf_frame_useage
 *
 Golden
 frame
-useage
+usage
 since
 last
 GF
@@ -3169,7 +3180,7 @@ if
 tot_mbs
 )
 {
-gf_frame_useage
+gf_frame_usage
 =
 (
 cpi
@@ -3198,9 +3209,9 @@ if
 (
 pct_gf_active
 >
-gf_frame_useage
+gf_frame_usage
 )
-gf_frame_useage
+gf_frame_usage
 =
 pct_gf_active
 ;
@@ -3614,7 +3625,7 @@ most
 recently
 measure
 intra
-useage
+usage
 *
 /
 Boost
@@ -3662,7 +3673,7 @@ Boost
 *
 gf_adjust_table
 [
-gf_frame_useage
+gf_frame_usage
 ]
 /
 100
@@ -3953,7 +3964,7 @@ if
 (
 gf_interval_table
 [
-gf_frame_useage
+gf_frame_usage
 ]
 >
 cpi
@@ -3969,7 +3980,7 @@ frames_till_gf_update_due
 =
 gf_interval_table
 [
-gf_frame_useage
+gf_frame_usage
 ]
 ;
 }
@@ -6695,7 +6706,7 @@ oxcf
 fixed_q
 ;
 int
-gf_frame_useage
+gf_frame_usage
 =
 0
 ;
@@ -6703,7 +6714,7 @@ gf_frame_useage
 *
 Golden
 frame
-useage
+usage
 since
 last
 GF
@@ -6777,7 +6788,7 @@ if
 tot_mbs
 )
 {
-gf_frame_useage
+gf_frame_usage
 =
 (
 cpi
@@ -6806,9 +6817,9 @@ if
 (
 pct_gf_active
 >
-gf_frame_useage
+gf_frame_usage
 )
-gf_frame_useage
+gf_frame_usage
 =
 pct_gf_active
 ;
@@ -6844,14 +6855,14 @@ if
 recent
 frame
 intra
-useage
+usage
 is
 *
 low
 or
 the
 GF
-useage
+usage
 is
 high
 *
@@ -6878,7 +6889,7 @@ this_frame_percent_intra
 15
 |
 |
-gf_frame_useage
+gf_frame_usage
 >
 =
 5
@@ -6949,7 +6960,7 @@ f
 fopen
 (
 "
-gf_useaget
+gf_usaget
 .
 stt
 "
@@ -6990,7 +7001,7 @@ cpi
 -
 >
 gfu_boost
-gf_frame_useage
+gf_frame_usage
 )
 ;
 fclose

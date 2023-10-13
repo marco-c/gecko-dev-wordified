@@ -8129,8 +8129,9 @@ denoiser
 /
 /
 /
-Dont
+Don
 '
+t
 denoise
 with
 GOLDEN

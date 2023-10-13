@@ -146,6 +146,15 @@ vp8cx
 h
 "
 #
+include
+"
+vpx
+/
+vpx_tpl
+.
+h
+"
+#
 if
 CONFIG_INTERNAL_STATS
 #
@@ -1894,6 +1903,9 @@ multithreading
 int
 *
 row_base_thresh_freq_fact
+;
+MV
+firstpass_top_mv
 ;
 }
 TileDataEnc
@@ -3912,7 +3924,7 @@ skin_map
 /
 /
 segment
-threashold
+threshold
 for
 encode
 breakout
@@ -4937,7 +4949,7 @@ ref_frame
 0
 ]
 =
-NONE
+NO_REF_FRAME
 ;
 mv_info
 -
@@ -4947,7 +4959,7 @@ ref_frame
 1
 ]
 =
-NONE
+NO_REF_FRAME
 ;
 mv_info
 -

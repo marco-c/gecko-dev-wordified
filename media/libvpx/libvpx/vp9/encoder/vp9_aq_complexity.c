@@ -752,7 +752,9 @@ AQ
 complexity
 mode
 we
-dont
+don
+'
+t
 allow
 Q0
 in

@@ -182,7 +182,7 @@ is
 passed
 in
 as
-an
+a
 constant
 integer
 .

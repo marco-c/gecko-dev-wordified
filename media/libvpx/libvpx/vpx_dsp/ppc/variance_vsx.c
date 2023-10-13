@@ -1713,7 +1713,7 @@ and
 returns
 sse
 in
-addtion
+addition
 to
 modifying
 the

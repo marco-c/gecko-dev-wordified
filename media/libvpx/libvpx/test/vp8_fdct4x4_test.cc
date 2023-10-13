@@ -674,11 +674,11 @@ FdctFunc
 {
 public
 :
-virtual
 void
 SetUp
 (
 )
+override
 {
 fdct_func_
 =

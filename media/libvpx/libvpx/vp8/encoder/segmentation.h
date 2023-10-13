@@ -128,7 +128,7 @@ C
 endif
 extern
 void
-vp8_update_gf_useage_maps
+vp8_update_gf_usage_maps
 (
 VP8_COMP
 *
