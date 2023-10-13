@@ -270,7 +270,6 @@ nsGkAtoms
 :
 divisor
 1
-false
 }
 {
 nsGkAtoms
@@ -278,7 +277,6 @@ nsGkAtoms
 :
 bias
 0
-false
 }
 }
 ;

@@ -236,7 +236,6 @@ nsGkAtoms
 :
 dx
 0
-false
 }
 {
 nsGkAtoms
@@ -244,7 +243,6 @@ nsGkAtoms
 :
 dy
 0
-false
 }
 }
 ;

@@ -194,7 +194,6 @@ nsGkAtoms
 :
 offset
 0
-true
 }
 ;
 /

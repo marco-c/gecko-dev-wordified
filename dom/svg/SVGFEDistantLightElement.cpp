@@ -214,7 +214,6 @@ nsGkAtoms
 :
 azimuth
 0
-false
 }
 {
 nsGkAtoms
@@ -222,7 +221,6 @@ nsGkAtoms
 :
 elevation
 0
-false
 }
 }
 ;
