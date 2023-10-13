@@ -272,6 +272,20 @@ LICENSE
 ]
     
 '
+android_toolchain
+'
+:
+[
+'
+third_party
+/
+android_toolchain
+/
+NOTICE
+'
+]
+    
+'
 auto
 '
 :
