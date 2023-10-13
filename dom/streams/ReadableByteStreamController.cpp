@@ -5389,7 +5389,7 @@ aRv
 ThrowTypeError
 (
 "
-Detatched
+Detached
 Array
 Buffer
 "

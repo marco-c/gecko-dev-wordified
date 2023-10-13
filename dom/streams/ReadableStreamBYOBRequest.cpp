@@ -749,7 +749,7 @@ ThrowTypeError
 "
 View
 of
-Detatched
+Detached
 Array
 Buffer
 "
