@@ -4153,6 +4153,11 @@ immediate
 /
 /
 rendering
+as
+part
+of
+our
+workaround
 .
 return
 mightNeedToFlush
@@ -4167,7 +4172,7 @@ Yes
 mozilla
 :
 :
-NeedsWindows11SuggestedActionsWorkaround
+IsWin1122H2OrLater
 (
 )
 ;

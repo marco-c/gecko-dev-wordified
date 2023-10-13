@@ -151,6 +151,11 @@ WindowsFallbackLoaderAPI
 cpp
 "
 "
+WindowsMsctfInitialization
+.
+cpp
+"
+"
 WindowsStackWalkInitialization
 .
 cpp
@@ -260,6 +265,11 @@ h
 "
 "
 WindowsDllBlocklistInfo
+.
+h
+"
+"
+WindowsMsctfInitialization
 .
 h
 "
