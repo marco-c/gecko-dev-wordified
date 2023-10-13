@@ -4185,7 +4185,7 @@ constexpr
 int
 kDefaultMode
 =
-0
+3
 ;
 float
 threshold_in
