@@ -11275,6 +11275,10 @@ mMainThreadArenas
 Atomic
 <
 int32_t
+MemoryOrdering
+:
+:
+Relaxed
 >
 mDefaultMaxDirtyPageModifier
 ;
