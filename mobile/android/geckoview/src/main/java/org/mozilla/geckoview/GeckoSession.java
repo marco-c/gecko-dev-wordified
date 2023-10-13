@@ -21289,7 +21289,7 @@ reviews
 .
 *
 /
-NonNull
+Nullable
 public
 final
 Double
@@ -21437,7 +21437,7 @@ adjustedRating
 =
 message
 .
-getDouble
+getDoubleObject
 (
 "
 adjusted_rating
