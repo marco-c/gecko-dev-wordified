@@ -317,7 +317,7 @@ mochitest
 /
 mochitest
 .
-ini
+toml
 "
 ]
 IPDL_SOURCES

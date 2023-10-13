@@ -94,11 +94,11 @@ hasinstance
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
 .
-ini
+toml
 "
 ]

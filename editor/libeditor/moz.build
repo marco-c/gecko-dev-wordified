@@ -96,14 +96,14 @@ browserscope
 /
 mochitest
 .
-ini
+toml
 "
 "
 tests
 /
 mochitest
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS
