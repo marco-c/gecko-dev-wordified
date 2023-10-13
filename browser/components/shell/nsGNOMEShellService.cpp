@@ -1462,8 +1462,6 @@ nsGNOMEShellService
 SetDefaultBrowser
 (
 bool
-aClaimAllTypes
-bool
 aForAllUsers
 )
 {
@@ -1776,19 +1774,6 @@ appProtocols
 i
 )
 {
-if
-(
-appProtocols
-[
-i
-]
-.
-essential
-|
-|
-aClaimAllTypes
-)
-{
 appInfo
 -
 >
@@ -1806,7 +1791,6 @@ name
 )
 ;
 }
-}
 /
 /
 set
@@ -1821,11 +1805,6 @@ and
 MIME
 types
 :
-if
-(
-aClaimAllTypes
-)
-{
 /
 /
 Add
@@ -1897,7 +1876,6 @@ extensions
 )
 )
 ;
-}
 }
 }
 nsCOMPtr

@@ -507,8 +507,6 @@ nsMacShellService
 SetDefaultBrowser
 (
 bool
-aClaimAllTypes
-bool
 aForAllUsers
 )
 {
@@ -599,11 +597,6 @@ NS_ERROR_FAILURE
 }
 if
 (
-aClaimAllTypes
-)
-{
-if
-(
 :
 :
 LSSetDefaultRoleHandlerForContentType
@@ -620,7 +613,6 @@ noErr
 return
 NS_ERROR_FAILURE
 ;
-}
 }
 nsCOMPtr
 <

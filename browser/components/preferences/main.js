@@ -11240,7 +11240,6 @@ shellSvc
 .
 setDefaultBrowser
 (
-true
 false
 )
 ;
