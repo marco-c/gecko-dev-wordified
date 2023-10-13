@@ -148,6 +148,13 @@ h
 #
 include
 "
+TimeUnits
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ProfilerUtils
@@ -904,8 +911,11 @@ Empty
 struct
 LatencyChangeData
 {
-uint32_t
-mLatencyFrames
+media
+:
+:
+TimeUnit
+mLatency
 ;
 }
 ;

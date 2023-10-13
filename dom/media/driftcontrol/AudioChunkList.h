@@ -106,6 +106,13 @@ AudioSegment
 .
 h
 "
+#
+include
+"
+TimeUnits
+.
+h
+"
 namespace
 mozilla
 {
