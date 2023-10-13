@@ -384,7 +384,7 @@ mochitest
 /
 mochitest
 .
-toml
+ini
 "
 ]
 REFTEST_MANIFESTS

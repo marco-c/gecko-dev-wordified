@@ -170,7 +170,7 @@ tests
 /
 mochitest
 .
-toml
+ini
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

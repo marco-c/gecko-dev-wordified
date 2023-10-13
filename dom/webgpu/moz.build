@@ -126,7 +126,7 @@ mochitest
 /
 mochitest
 .
-toml
+ini
 "
 ]
 DIRS
