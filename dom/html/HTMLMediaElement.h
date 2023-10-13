@@ -456,6 +456,9 @@ namespace
 dom
 {
 class
+HTMLSourceElement
+;
+class
 MediaKeys
 ;
 class
@@ -6886,7 +6889,7 @@ returning
 .
 *
 /
-Element
+HTMLSourceElement
 *
 GetNextSource
 (
