@@ -164,6 +164,7 @@ length
 {
 AbsoluteLength
 FontBaseSize
+LineHeightBase
 }
 ;
 use
@@ -328,6 +329,10 @@ FontBaseSize
 :
 :
 CurrentStyle
+LineHeightBase
+:
+:
+CurrentStyle
 )
 }
 #
@@ -402,6 +407,9 @@ Context
 base_size
 :
 FontBaseSize
+line_height_base
+:
+LineHeightBase
 )
 -
 >
@@ -435,13 +443,16 @@ length
 )
 =
 >
+{
 length
 .
 to_computed_value
 (
 context
 base_size
+line_height_base
 )
+}
 Self
 :
 :

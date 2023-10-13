@@ -428,7 +428,10 @@ specified
 length
 :
 :
+{
 FontBaseSize
+LineHeightBase
+}
 ;
 use
 crate
@@ -6057,6 +6060,9 @@ F
 base_size
 :
 FontBaseSize
+line_height_base
+:
+LineHeightBase
 )
 -
 >
@@ -6146,6 +6152,7 @@ to_computed_value_with_base_size
 (
 context
 base_size
+line_height_base
 )
 ;
 if
@@ -6270,6 +6277,9 @@ Context
 base_size
 :
 FontBaseSize
+line_height_base
+:
+LineHeightBase
 )
 -
 >
@@ -6290,6 +6300,7 @@ maybe_zoom_text
 abs
 )
 base_size
+line_height_base
 )
 }
 /
@@ -6639,6 +6650,11 @@ current
 font
 -
 size
+and
+line
+-
+height
+.
 (
 and
 without
@@ -6672,6 +6688,10 @@ abs
 |
 abs
 FontBaseSize
+:
+:
+CurrentStyle
+LineHeightBase
 :
 :
 CurrentStyle
