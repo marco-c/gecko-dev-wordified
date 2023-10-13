@@ -3727,6 +3727,27 @@ pass
 abstractmethod
     
 def
+confirm_idp_login
+(
+self
+)
+:
+        
+"
+"
+"
+Confirm
+IDP
+login
+"
+"
+"
+        
+pass
+    
+abstractmethod
+    
+def
 select_fedcm_account
 (
 self
