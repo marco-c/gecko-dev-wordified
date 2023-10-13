@@ -370,12 +370,10 @@ MOZ_ASSERT
 mDestination
 )
 ;
-WebAudioUtils
-:
-:
-ConvertAudioTimelineEventToTicks
-(
 aEvent
+.
+ConvertToTicks
+(
 mDestination
 )
 ;
