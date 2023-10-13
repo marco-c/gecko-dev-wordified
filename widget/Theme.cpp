@@ -8094,7 +8094,7 @@ Document
 )
 -
 >
-GetDocumentState
+State
 (
 )
 ;

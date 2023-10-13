@@ -880,7 +880,7 @@ Document
 )
 -
 >
-GetDocumentState
+State
 (
 )
 Colors

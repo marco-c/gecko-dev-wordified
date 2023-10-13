@@ -5289,7 +5289,7 @@ owner_doc
 .
 0
 .
-mDocumentState
+mState
 .
 bits
 )
