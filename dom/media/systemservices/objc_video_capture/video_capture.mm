@@ -349,6 +349,15 @@ kVideoCaptureUniqueNameLength
 return
 nullptr
 ;
+RTC_DCHECK_RUN_ON
+(
+&
+capture_module
+-
+>
+api_checker_
+)
+;
 capture_module
 -
 >
