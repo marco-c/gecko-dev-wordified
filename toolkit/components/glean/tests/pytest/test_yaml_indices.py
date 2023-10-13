@@ -183,7 +183,11 @@ metrics_index
 if
 isinstance
 (
+getattr
+(
+metrics_index
 item
+)
 list
 )
 and
