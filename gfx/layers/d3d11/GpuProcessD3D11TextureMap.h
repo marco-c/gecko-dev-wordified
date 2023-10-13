@@ -391,6 +391,9 @@ GpuProcessTextureId
 aTextureId
 TextureHost
 *
+aTextureHost
+TextureHost
+*
 aWrappedTextureHost
 TextureWrapperD3D11Allocator
 *
@@ -481,6 +484,9 @@ GpuProcessTextureId
 aTextureId
 TextureHost
 *
+aTextureHost
+TextureHost
+*
 aWrappedTextureHost
 TextureWrapperD3D11Allocator
 *
@@ -495,6 +501,12 @@ UpdatingTextureHolder
 const
 GpuProcessTextureId
 mTextureId
+;
+RefPtr
+<
+TextureHost
+>
+mTextureHost
 ;
 CompositableTextureHostRef
 mWrappedTextureHost
