@@ -2805,6 +2805,12 @@ eNeedsToNotifyResizeObservers
 <
 <
 8
+eRootNeedsMoreTicksForUserInput
+=
+1
+<
+<
+9
 }
 ;
 void
