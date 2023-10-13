@@ -376,6 +376,7 @@ NS_INLINE_DECL_REFCOUNTING
 APZEventState
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessSingleTap
 (
