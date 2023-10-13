@@ -9215,15 +9215,7 @@ vertical
 =
 wm
 .
-is_vertical
-(
-)
-&
-&
-!
-wm
-.
-is_sideways
+is_text_vertical
 (
 )
 ;
