@@ -464,7 +464,6 @@ EncodedVideoChunkData
 Clone
 (
 )
-const
 {
 if
 (
