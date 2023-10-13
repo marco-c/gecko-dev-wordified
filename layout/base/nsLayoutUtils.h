@@ -21678,7 +21678,7 @@ nullptr
 ;
 static
 nsRect
-ComputeSVGViewBox
+ComputeSVGOriginBox
 (
 mozilla
 :
