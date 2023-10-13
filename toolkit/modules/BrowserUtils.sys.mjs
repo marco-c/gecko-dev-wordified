@@ -3464,7 +3464,7 @@ contentblocking
 .
 report
 .
-vpn_regions
+vpn_region
 "
 default
 :
