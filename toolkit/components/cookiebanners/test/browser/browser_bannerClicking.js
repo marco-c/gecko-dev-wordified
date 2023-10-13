@@ -187,6 +187,16 @@ expected
 "
 NoClick
 "
+expectActorEnabled
+:
+serviceMode
+!
+=
+Ci
+.
+nsICookieBannerService
+.
+MODE_DISABLED
 }
 )
 ;
