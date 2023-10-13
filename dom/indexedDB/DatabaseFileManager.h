@@ -691,6 +691,12 @@ int64_t
 aFileId
 )
 ;
+nsresult
+Invalidate
+(
+)
+override
+;
 MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 DatabaseFileManager
