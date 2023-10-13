@@ -125,11 +125,13 @@ intermediate
 representations
 of
 the
--
-moz
--
 transform
-property
+and
+*
+transform
+-
+like
+properties
 .
 *
 /

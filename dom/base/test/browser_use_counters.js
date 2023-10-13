@@ -446,7 +446,7 @@ aliases
 name
 :
 "
-CSS_PROPERTY_MozTransform
+CSS_PROPERTY_MozAppearance
 "
 }
 /
