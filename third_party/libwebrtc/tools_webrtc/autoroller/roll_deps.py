@@ -2064,8 +2064,22 @@ url
 ]
 :
           
-continue
+url
+revision
+=
+dep
+[
+'
+url
+'
+]
+'
+HEAD
+'
         
+else
+:
+          
 url
 revision
 =
@@ -2179,7 +2193,7 @@ win
 mac
 '
 '
-unix
+linux
 '
 '
 android
