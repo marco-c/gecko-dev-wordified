@@ -3429,7 +3429,10 @@ nsresult
 CalculateFingerprint
 (
 const
-nsACString
+std
+:
+:
+string
 &
 algorithm
 std

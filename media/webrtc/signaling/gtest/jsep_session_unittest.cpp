@@ -751,7 +751,10 @@ std
 :
 map
 <
-nsCString
+std
+:
+:
+string
 std
 :
 :
@@ -768,7 +771,10 @@ void
 AddDtlsFingerprint
 (
 const
-nsCString
+std
+:
+:
+string
 &
 alg
 JsepSessionImpl
@@ -860,7 +866,6 @@ sha
 -
 1
 "
-_ns
 session
 tdata
 )
@@ -872,7 +877,6 @@ sha
 -
 256
 "
-_ns
 session
 tdata
 )
@@ -10914,13 +10918,15 @@ end
 fp
 )
 {
-nsCString
+std
+:
+:
+string
 alg_str
 =
 "
 None
 "
-_ns
 ;
 if
 (
@@ -10943,7 +10949,6 @@ sha
 -
 1
 "
-_ns
 ;
 }
 else
@@ -10968,7 +10973,6 @@ sha
 -
 256
 "
-_ns
 ;
 }
 ASSERT_EQ
