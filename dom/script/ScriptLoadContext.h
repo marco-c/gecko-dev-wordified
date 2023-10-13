@@ -1081,9 +1081,6 @@ loader
 :
 LoadContextBase
 )
-/
-/
-PreloaderBase
 static
 void
 PrioritizeAsPreload
@@ -1092,13 +1089,6 @@ nsIChannel
 *
 aChannel
 )
-;
-virtual
-void
-PrioritizeAsPreload
-(
-)
-override
 ;
 bool
 IsPreload

@@ -240,12 +240,6 @@ nsIChannel
 aChannel
 )
 ;
-void
-PrioritizeAsPreload
-(
-)
-override
-;
 protected
 :
 explicit

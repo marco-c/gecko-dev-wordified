@@ -185,9 +185,6 @@ FontPreloader
 (
 )
 ;
-/
-/
-PreloaderBase
 static
 void
 PrioritizeAsPreload
@@ -196,12 +193,6 @@ nsIChannel
 *
 aChannel
 )
-;
-void
-PrioritizeAsPreload
-(
-)
-override
 ;
 static
 nsresult
