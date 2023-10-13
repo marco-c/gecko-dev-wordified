@@ -1728,8 +1728,6 @@ E_FAIL
 ;
 }
 return
-SUCCEEDED
-(
 aDecoder
 -
 >
@@ -1738,7 +1736,6 @@ Create
 MFT_CATEGORY_VIDEO_DECODER
 MFVideoFormat_HEVC
 MFVideoFormat_NV12
-)
 )
 ;
 case
