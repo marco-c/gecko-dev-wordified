@@ -7354,3 +7354,6 @@ mSuspendCount
 /
 namespace
 mozilla
+#
+undef
+LOG

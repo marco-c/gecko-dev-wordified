@@ -205,9 +205,6 @@ GetUserMedia
 )
 ;
 #
-undef
-LOG
-#
 define
 LOG
 (
@@ -2101,3 +2098,6 @@ Shutdown
 /
 namespace
 mozilla
+#
+undef
+LOG
