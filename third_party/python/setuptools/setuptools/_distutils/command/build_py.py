@@ -28,26 +28,28 @@ sys
 import
 glob
 from
-distutils
+.
 .
 core
 import
 Command
 from
-distutils
+.
 .
 errors
 import
-*
+DistutilsOptionError
+DistutilsFileError
 from
-distutils
+.
 .
 util
 import
 convert_path
-Mixin2to3
 from
 distutils
+.
+_log
 import
 log
 class
@@ -144,14 +146,16 @@ default
 )
         
 (
+            
 '
 optimize
 =
 '
+            
 '
 O
 '
-         
+            
 "
 also
 compile
@@ -169,7 +173,7 @@ O
 \
 "
 "
-         
+            
 "
 -
 O2
@@ -193,6 +197,7 @@ default
 O0
 ]
 "
+        
 )
         
 (
@@ -213,7 +218,7 @@ timestamps
 )
 "
 )
-        
+    
 ]
     
 boolean_options
@@ -307,10 +312,10 @@ self
 .
 set_undefined_options
 (
+            
 '
 build
 '
-                                   
 (
 '
 build_lib
@@ -319,7 +324,6 @@ build_lib
 build_lib
 '
 )
-                                   
 (
 '
 force
@@ -328,6 +332,7 @@ force
 force
 '
 )
+        
 )
         
 #
@@ -943,7 +948,6 @@ filenames
 filenames
 =
 [
-                
 file
 [
 plen
@@ -959,7 +963,6 @@ find_data_files
 package
 src_dir
 )
-                
 ]
             
 data
@@ -1007,7 +1010,6 @@ src_dir
         
 globs
 =
-(
 self
 .
 package_data
@@ -1019,7 +1021,6 @@ get
 [
 ]
 )
-                 
 +
 self
 .
@@ -1030,7 +1031,6 @@ get
 package
 [
 ]
-)
 )
         
 files
@@ -1064,6 +1064,7 @@ glob
 .
 glob
 (
+                
 os
 .
 path
@@ -1081,6 +1082,7 @@ convert_path
 pattern
 )
 )
+            
 )
             
 #
@@ -1100,6 +1102,7 @@ files
 .
 extend
 (
+                
 [
 fn
 for
@@ -1111,7 +1114,6 @@ fn
 not
 in
 files
-                
 and
 os
 .
@@ -1122,6 +1124,7 @@ isfile
 fn
 )
 ]
+            
 )
         
 return
@@ -1146,10 +1149,6 @@ directory
 "
 "
 "
-        
-lastdir
-=
-None
         
 for
 package
@@ -1198,6 +1197,7 @@ self
 .
 copy_file
 (
+                    
 os
 .
 path
@@ -1208,10 +1208,10 @@ src_dir
 filename
 )
 target
-                               
 preserve_mode
 =
 False
+                
 )
     
 def
@@ -1235,7 +1235,7 @@ top
 of
 the
 source
-           
+        
 distribution
 where
 package
@@ -1245,7 +1245,7 @@ package
 should
 be
 found
-           
+        
 (
 at
 least
@@ -1602,7 +1602,7 @@ package_dir
 raise
 DistutilsFileError
 (
-                      
+                    
 "
 package
 directory
@@ -1616,6 +1616,7 @@ exist
 "
 %
 package_dir
+                
 )
             
 if
@@ -1633,7 +1634,7 @@ package_dir
 raise
 DistutilsFileError
 (
-                       
+                    
 "
 supposed
 package
@@ -1644,7 +1645,7 @@ s
 '
 exists
 "
-                       
+                    
 "
 but
 is
@@ -1654,21 +1655,23 @@ directory
 "
 %
 package_dir
+                
 )
         
 #
-Require
+Directories
+without
 __init__
 .
 py
-for
-all
-but
-the
-"
-root
-package
-"
+are
+namespace
+packages
+(
+PEP
+420
+)
+.
         
 if
 package
@@ -1703,40 +1706,6 @@ init_py
                 
 return
 init_py
-            
-else
-:
-                
-log
-.
-warn
-(
-(
-"
-package
-init
-file
-'
-%
-s
-'
-not
-found
-"
-+
-                          
-"
-(
-or
-not
-a
-regular
-file
-)
-"
-)
-init_py
-)
         
 #
 Either
@@ -1800,7 +1769,7 @@ module_file
             
 log
 .
-warn
+warning
 (
 "
 file
@@ -2652,11 +2621,9 @@ outputs
 ]
         
 for
-(
 package
 module
 module_file
-)
 in
 modules
 :
@@ -2706,19 +2673,20 @@ outputs
 .
 append
 (
+                        
 importlib
 .
 util
 .
 cache_from_source
 (
-                        
 filename
 optimization
 =
 '
 '
 )
+                    
 )
                 
 if
@@ -2733,20 +2701,23 @@ outputs
 .
 append
 (
+                        
 importlib
 .
 util
 .
 cache_from_source
 (
-                        
+                            
 filename
 optimization
 =
 self
 .
 optimize
+                        
 )
+                    
 )
         
 outputs
@@ -2778,7 +2749,7 @@ for
 filename
 in
 filenames
-            
+        
 ]
         
 return
@@ -2828,7 +2799,7 @@ tuple
 raise
 TypeError
 (
-                  
+                
 "
 '
 package
@@ -2846,6 +2817,7 @@ list
 or
 tuple
 "
+            
 )
         
 #
@@ -2948,11 +2920,9 @@ find_modules
 )
         
 for
-(
 package
 module
 module_file
-)
 in
 modules
 :
@@ -3206,11 +3176,9 @@ build_lib
 .
             
 for
-(
 package_
 module
 module_file
-)
 in
 modules
 :
@@ -3262,7 +3230,7 @@ skipping
 return
         
 from
-distutils
+.
 .
 util
 import
@@ -3342,11 +3310,11 @@ compile
             
 byte_compile
 (
+                
 files
 optimize
 =
 0
-                         
 force
 =
 self
@@ -3360,6 +3328,7 @@ dry_run
 self
 .
 dry_run
+            
 )
         
 if
@@ -3372,161 +3341,29 @@ optimize
             
 byte_compile
 (
+                
 files
+                
 optimize
 =
 self
 .
 optimize
-                         
+                
 force
 =
 self
 .
 force
+                
 prefix
 =
 prefix
+                
 dry_run
 =
 self
 .
 dry_run
-)
-class
-build_py_2to3
-(
-build_py
-Mixin2to3
-)
-:
-    
-def
-run
-(
-self
-)
-:
-        
-self
-.
-updated_files
-=
-[
-]
-        
-#
-Base
-class
-code
-        
-if
-self
-.
-py_modules
-:
             
-self
-.
-build_modules
-(
 )
-        
-if
-self
-.
-packages
-:
-            
-self
-.
-build_packages
-(
-)
-            
-self
-.
-build_package_data
-(
-)
-        
-#
-2to3
-        
-self
-.
-run_2to3
-(
-self
-.
-updated_files
-)
-        
-#
-Remaining
-base
-class
-code
-        
-self
-.
-byte_compile
-(
-self
-.
-get_outputs
-(
-include_bytecode
-=
-0
-)
-)
-    
-def
-build_module
-(
-self
-module
-module_file
-package
-)
-:
-        
-res
-=
-build_py
-.
-build_module
-(
-self
-module
-module_file
-package
-)
-        
-if
-res
-[
-1
-]
-:
-            
-#
-file
-was
-copied
-            
-self
-.
-updated_files
-.
-append
-(
-res
-[
-0
-]
-)
-        
-return
-res

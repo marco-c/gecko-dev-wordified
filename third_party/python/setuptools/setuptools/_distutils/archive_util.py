@@ -44,25 +44,23 @@ zipfile
 =
 None
 from
-distutils
 .
 errors
 import
 DistutilsExecError
 from
-distutils
 .
 spawn
 import
 spawn
 from
-distutils
 .
 dir_util
 import
 mkpath
 from
-distutils
+.
+_log
 import
 log
 try
@@ -232,6 +230,7 @@ None
 def
 make_tarball
 (
+    
 base_name
 base_dir
 compress
@@ -245,7 +244,6 @@ verbose
 dry_run
 =
 0
-                 
 owner
 =
 None
@@ -412,6 +410,7 @@ filename
 tar_compression
 =
 {
+        
 '
 gzip
 '
@@ -419,6 +418,7 @@ gzip
 '
 gz
 '
+        
 '
 bzip2
 '
@@ -426,6 +426,7 @@ bzip2
 '
 bz2
 '
+        
 '
 xz
 '
@@ -433,17 +434,19 @@ xz
 '
 xz
 '
+        
 None
 :
 '
 '
-                       
+        
 '
 compress
 '
 :
 '
 '
+    
 }
     
 compress_ext
@@ -473,7 +476,6 @@ xz
 .
 xz
 '
-                    
 '
 compress
 '
@@ -517,7 +519,7 @@ keys
 raise
 ValueError
 (
-              
+            
 "
 bad
 value
@@ -536,7 +538,7 @@ gzip
 bzip2
 '
 "
-              
+            
 "
 '
 xz
@@ -546,6 +548,7 @@ or
 compress
 '
 "
+        
 )
     
 archive_name
@@ -752,12 +755,11 @@ warn
 '
 compress
 '
-will
-be
+is
 deprecated
 .
 "
-PendingDeprecationWarning
+DeprecationWarning
 )
         
 #
@@ -837,6 +839,10 @@ dry_run
 0
 )
 :
+#
+noqa
+:
+C901
     
 "
 "
@@ -1011,7 +1017,6 @@ zipoptions
 zip_filename
 base_dir
 ]
-                  
 dry_run
 =
 dry_run
@@ -1050,7 +1055,9 @@ failed
 raise
 DistutilsExecError
 (
+                
 (
+                    
 "
 unable
 to
@@ -1063,7 +1070,7 @@ s
 '
 :
 "
-                   
+                    
 "
 could
 neither
@@ -1075,7 +1082,7 @@ zipfile
 module
 nor
 "
-                   
+                    
 "
 find
 a
@@ -1083,9 +1090,12 @@ standalone
 zip
 utility
 "
+                
 )
+                
 %
 zip_filename
+            
 )
     
 else
@@ -1110,7 +1120,6 @@ s
 to
 it
 "
-                 
 zip_filename
 base_dir
 )
@@ -1129,16 +1138,17 @@ zipfile
 .
 ZipFile
 (
+                    
 zip_filename
 "
 w
 "
-                                      
 compression
 =
 zipfile
 .
 ZIP_DEFLATED
+                
 )
             
 except
@@ -1155,7 +1165,6 @@ zip_filename
 "
 w
 "
-                                      
 compression
 =
 zipfile
@@ -1479,7 +1488,6 @@ ZIP
 file
 "
 )
-    
 }
 def
 check_archive_formats
@@ -1539,24 +1547,31 @@ None
 def
 make_archive
 (
+    
 base_name
+    
 format
+    
 root_dir
 =
 None
+    
 base_dir
 =
 None
+    
 verbose
 =
 0
-                 
+    
 dry_run
 =
 0
+    
 owner
 =
 None
+    
 group
 =
 None

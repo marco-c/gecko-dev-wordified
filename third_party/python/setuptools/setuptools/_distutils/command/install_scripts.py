@@ -29,13 +29,15 @@ Kleineidam
 import
 os
 from
-distutils
+.
 .
 core
 import
 Command
 from
 distutils
+.
+_log
 import
 log
 from
@@ -213,10 +215,11 @@ self
 .
 set_undefined_options
 (
+            
 '
 install
 '
-                                   
+            
 (
 '
 install_scripts
@@ -225,7 +228,7 @@ install_scripts
 install_dir
 '
 )
-                                   
+            
 (
 '
 force
@@ -234,7 +237,7 @@ force
 force
 '
 )
-                                   
+            
 (
 '
 skip_build
@@ -243,7 +246,7 @@ skip_build
 skip_build
 '
 )
-                                  
+        
 )
     
 def

@@ -151,25 +151,27 @@ Sigh
 import
 os
 from
-distutils
+.
 .
 core
 import
 Command
 from
-distutils
+.
 .
 errors
 import
-*
+DistutilsSetupError
 from
-distutils
+.
 .
 sysconfig
 import
 customize_compiler
 from
 distutils
+.
+_log
 import
 log
 def
@@ -179,7 +181,7 @@ show_compilers
 :
     
 from
-distutils
+.
 .
 ccompiler
 import
@@ -225,7 +227,6 @@ clib
 '
 b
 '
-         
 "
 directory
 to
@@ -250,7 +251,6 @@ temp
 '
 t
 '
-         
 "
 directory
 to
@@ -270,7 +270,6 @@ debug
 '
 g
 '
-         
 "
 compile
 with
@@ -286,7 +285,6 @@ force
 '
 f
 '
-         
 "
 forcibly
 build
@@ -307,7 +305,6 @@ compiler
 '
 c
 '
-         
 "
 specify
 the
@@ -315,7 +312,7 @@ compiler
 type
 "
 )
-        
+    
 ]
     
 boolean_options
@@ -340,7 +337,6 @@ help
 compiler
 '
 None
-         
 "
 list
 available
@@ -348,7 +344,7 @@ compilers
 "
 show_compilers
 )
-        
+    
 ]
     
 def
@@ -512,10 +508,11 @@ self
 .
 set_undefined_options
 (
+            
 '
 build
 '
-                                   
+            
 (
 '
 build_temp
@@ -524,7 +521,7 @@ build_temp
 build_clib
 '
 )
-                                   
+            
 (
 '
 build_temp
@@ -533,7 +530,7 @@ build_temp
 build_temp
 '
 )
-                                   
+            
 (
 '
 compiler
@@ -542,7 +539,7 @@ compiler
 compiler
 '
 )
-                                   
+            
 (
 '
 debug
@@ -551,7 +548,7 @@ debug
 debug
 '
 )
-                                   
+            
 (
 '
 force
@@ -560,6 +557,7 @@ force
 force
 '
 )
+        
 )
         
 self
@@ -691,7 +689,7 @@ py
 !
         
 from
-distutils
+.
 .
 ccompiler
 import
@@ -703,23 +701,23 @@ compiler
 =
 new_compiler
 (
+            
 compiler
 =
 self
 .
 compiler
-                                     
 dry_run
 =
 self
 .
 dry_run
-                                     
 force
 =
 self
 .
 force
+        
 )
         
 customize_compiler
@@ -774,10 +772,8 @@ value
 tuples
             
 for
-(
 name
 value
-)
 in
 self
 .
@@ -917,7 +913,6 @@ list
 raise
 DistutilsSetupError
 (
-                  
 "
 '
 libraries
@@ -958,7 +953,6 @@ lib
 raise
 DistutilsSetupError
 (
-                      
 "
 each
 element
@@ -991,7 +985,7 @@ str
 raise
 DistutilsSetupError
 (
-                      
+                    
 "
 first
 element
@@ -1003,7 +997,7 @@ in
 libraries
 '
 "
-                      
+                    
 "
 must
 be
@@ -1015,6 +1009,7 @@ library
 name
 )
 "
+                
 )
             
 if
@@ -1045,6 +1040,7 @@ name
 raise
 DistutilsSetupError
 (
+                    
 "
 bad
 library
@@ -1055,7 +1051,7 @@ s
 '
 :
 "
-                       
+                    
 "
 may
 not
@@ -1068,6 +1064,7 @@ lib
 [
 0
 ]
+                
 )
             
 if
@@ -1082,7 +1079,7 @@ dict
 raise
 DistutilsSetupError
 (
-                      
+                    
 "
 second
 element
@@ -1094,7 +1091,7 @@ in
 libraries
 '
 "
-                      
+                    
 "
 must
 be
@@ -1105,6 +1102,7 @@ build
 info
 )
 "
+                
 )
     
 def
@@ -1160,10 +1158,8 @@ lib_names
 ]
         
 for
-(
 lib_name
 build_info
-)
 in
 self
 .
@@ -1202,10 +1198,8 @@ filenames
 ]
         
 for
-(
 lib_name
 build_info
-)
 in
 self
 .
@@ -1242,7 +1236,7 @@ tuple
 raise
 DistutilsSetupError
 (
-                       
+                    
 "
 in
 '
@@ -1257,7 +1251,7 @@ s
 '
 )
 "
-                       
+                    
 "
 '
 sources
@@ -1269,7 +1263,7 @@ and
 must
 be
 "
-                       
+                    
 "
 a
 list
@@ -1279,6 +1273,7 @@ filenames
 "
 %
 lib_name
+                
 )
             
 filenames
@@ -1300,10 +1295,8 @@ libraries
 :
         
 for
-(
 lib_name
 build_info
-)
 in
 libraries
 :
@@ -1338,7 +1331,7 @@ tuple
 raise
 DistutilsSetupError
 (
-                       
+                    
 "
 in
 '
@@ -1353,7 +1346,7 @@ s
 '
 )
 "
-                       
+                    
 "
 '
 sources
@@ -1365,7 +1358,7 @@ and
 must
 be
 "
-                       
+                    
 "
 a
 list
@@ -1375,6 +1368,7 @@ filenames
 "
 %
 lib_name
+                
 )
             
 sources
@@ -1464,27 +1458,29 @@ compiler
 .
 compile
 (
+                
 sources
-                                            
+                
 output_dir
 =
 self
 .
 build_temp
-                                            
+                
 macros
 =
 macros
-                                            
+                
 include_dirs
 =
 include_dirs
-                                            
+                
 debug
 =
 self
 .
 debug
+            
 )
             
 #
@@ -1534,18 +1530,18 @@ compiler
 .
 create_static_lib
 (
+                
 objects
 lib_name
-                                            
 output_dir
 =
 self
 .
 build_clib
-                                            
 debug
 =
 self
 .
 debug
+            
 )

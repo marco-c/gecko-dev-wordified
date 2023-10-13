@@ -32,13 +32,13 @@ util
 import
 sys
 from
-distutils
+.
 .
 core
 import
 Command
 from
-distutils
+.
 .
 errors
 import
@@ -408,14 +408,16 @@ files
 )
         
 (
+            
 '
 optimize
 =
 '
+            
 '
 O
 '
-         
+            
 "
 also
 compile
@@ -433,7 +435,7 @@ O
 \
 "
 "
-         
+            
 "
 -
 O2
@@ -457,6 +459,7 @@ default
 O0
 ]
 "
+        
 )
         
 (
@@ -473,7 +476,7 @@ build
 steps
 "
 )
-        
+    
 ]
     
 boolean_options
@@ -616,10 +619,11 @@ self
 .
 set_undefined_options
 (
+            
 '
 install
 '
-                                   
+            
 (
 '
 build_lib
@@ -628,7 +632,7 @@ build_lib
 build_dir
 '
 )
-                                   
+            
 (
 '
 install_lib
@@ -637,7 +641,7 @@ install_lib
 install_dir
 '
 )
-                                   
+            
 (
 '
 force
@@ -646,7 +650,7 @@ force
 force
 '
 )
-                                   
+            
 (
 '
 compile
@@ -655,7 +659,7 @@ compile
 compile
 '
 )
-                                   
+            
 (
 '
 optimize
@@ -664,7 +668,7 @@ optimize
 optimize
 '
 )
-                                   
+            
 (
 '
 skip_build
@@ -673,7 +677,7 @@ skip_build
 skip_build
 '
 )
-                                  
+        
 )
         
 if
@@ -1015,6 +1019,7 @@ self
 .
 warn
 (
+                
 "
 '
 %
@@ -1032,10 +1037,10 @@ to
 install
 "
 %
-                      
 self
 .
 build_dir
+            
 )
             
 return
@@ -1075,7 +1080,7 @@ skipping
 return
         
 from
-distutils
+.
 .
 util
 import
@@ -1159,25 +1164,29 @@ compile
             
 byte_compile
 (
+                
 files
+                
 optimize
 =
 0
-                         
+                
 force
 =
 self
 .
 force
+                
 prefix
 =
 install_root
-                         
+                
 dry_run
 =
 self
 .
 dry_run
+            
 )
         
 if
@@ -1190,32 +1199,37 @@ optimize
             
 byte_compile
 (
+                
 files
+                
 optimize
 =
 self
 .
 optimize
-                         
+                
 force
 =
 self
 .
 force
+                
 prefix
 =
 install_root
-                         
+                
 verbose
 =
 self
 .
 verbose
+                
 dry_run
 =
 self
 .
 dry_run
+            
 )
     
 #
@@ -1459,19 +1473,20 @@ bytecode_files
 .
 append
 (
+                    
 importlib
 .
 util
 .
 cache_from_source
 (
-                    
 py_file
 optimization
 =
 '
 '
 )
+                
 )
             
 if
@@ -1486,20 +1501,23 @@ bytecode_files
 .
 append
 (
+                    
 importlib
 .
 util
 .
 cache_from_source
 (
-                    
+                        
 py_file
 optimization
 =
 self
 .
 optimize
+                    
 )
+                
 )
         
 return
@@ -1616,12 +1634,11 @@ yet
         
 pure_outputs
 =
-\
-            
 self
 .
 _mutate_outputs
 (
+            
 self
 .
 distribution
@@ -1629,17 +1646,19 @@ distribution
 has_pure_modules
 (
 )
-                                 
+            
 '
 build_py
 '
+            
 '
 build_lib
 '
-                                 
+            
 self
 .
 install_dir
+        
 )
         
 if
@@ -1667,12 +1686,11 @@ bytecode_outputs
         
 ext_outputs
 =
-\
-            
 self
 .
 _mutate_outputs
 (
+            
 self
 .
 distribution
@@ -1680,17 +1698,19 @@ distribution
 has_ext_modules
 (
 )
-                                 
+            
 '
 build_ext
 '
+            
 '
 build_lib
 '
-                                 
+            
 self
 .
 install_dir
+        
 )
         
 return

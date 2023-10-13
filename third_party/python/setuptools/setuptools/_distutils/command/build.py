@@ -19,21 +19,22 @@ command
 "
 import
 sys
+import
 os
 from
-distutils
+.
 .
 core
 import
 Command
 from
-distutils
+.
 .
 errors
 import
 DistutilsOptionError
 from
-distutils
+.
 .
 util
 import
@@ -45,7 +46,7 @@ show_compilers
 :
     
 from
-distutils
+.
 .
 ccompiler
 import
@@ -85,7 +86,6 @@ base
 '
 b
 '
-         
 "
 base
 directory
@@ -103,7 +103,6 @@ purelib
 =
 '
 None
-         
 "
 build
 directory
@@ -123,7 +122,6 @@ platlib
 =
 '
 None
-         
 "
 build
 directory
@@ -136,14 +134,16 @@ distributions
 )
         
 (
+            
 '
 build
 -
 lib
 =
 '
+            
 None
-         
+            
 "
 build
 directory
@@ -155,8 +155,8 @@ defaults
 to
 either
 "
+            
 +
-         
 "
 build
 -
@@ -166,6 +166,7 @@ build
 -
 platlib
 "
+        
 )
         
 (
@@ -176,7 +177,6 @@ scripts
 =
 '
 None
-         
 "
 build
 directory
@@ -195,7 +195,6 @@ temp
 '
 t
 '
-         
 "
 temporary
 build
@@ -204,16 +203,18 @@ directory
 )
         
 (
+            
 '
 plat
 -
 name
 =
 '
+            
 '
 p
 '
-         
+            
 "
 platform
 name
@@ -223,7 +224,7 @@ for
 if
 supported
 "
-         
+            
 "
 (
 default
@@ -236,6 +237,7 @@ s
 get_platform
 (
 )
+        
 )
         
 (
@@ -246,7 +248,6 @@ compiler
 '
 c
 '
-         
 "
 specify
 the
@@ -263,7 +264,6 @@ parallel
 '
 j
 '
-         
 "
 number
 of
@@ -280,7 +280,6 @@ debug
 '
 g
 '
-         
 "
 compile
 extensions
@@ -299,7 +298,6 @@ force
 '
 f
 '
-         
 "
 forcibly
 build
@@ -320,7 +318,6 @@ executable
 '
 e
 '
-         
 "
 specify
 final
@@ -334,7 +331,7 @@ py
 )
 "
 )
-        
+    
 ]
     
 boolean_options
@@ -359,7 +356,6 @@ help
 compiler
 '
 None
-         
 "
 list
 available
@@ -367,7 +363,7 @@ compilers
 "
 show_compilers
 )
-        
+    
 ]
     
 def
@@ -482,6 +478,10 @@ finalize_options
 self
 )
 :
+#
+noqa
+:
+C901
         
 if
 self
@@ -549,7 +549,7 @@ nt
 raise
 DistutilsOptionError
 (
-                            
+                    
 "
 -
 -
@@ -563,7 +563,7 @@ Windows
 (
 try
 "
-                            
+                    
 "
 using
 '
@@ -579,34 +579,30 @@ your
 platform
 )
 "
+                
 )
         
 plat_specifier
 =
 "
 .
-%
-s
+{
+}
 -
-%
-d
-.
-%
-d
+{
+}
 "
-%
+.
+format
 (
 self
 .
 plat_name
-*
 sys
 .
-version_info
-[
-:
-2
-]
+implementation
+.
+cache_tag
 )
         
 #
@@ -762,7 +758,6 @@ join
 self
 .
 build_base
-                                              
 '
 lib
 '
@@ -825,7 +820,9 @@ self
 .
 distribution
 .
-ext_modules
+has_ext_modules
+(
+)
 :
                 
 self
@@ -891,7 +888,6 @@ join
 self
 .
 build_base
-                                           
 '
 temp
 '
@@ -917,10 +913,10 @@ path
 .
 join
 (
+                
 self
 .
 build_base
-                                              
 '
 scripts
 -
@@ -938,6 +934,7 @@ version_info
 :
 2
 ]
+            
 )
         
 if
@@ -1184,32 +1181,33 @@ has_scripts
 sub_commands
 =
 [
+        
 (
 '
 build_py
 '
 has_pure_modules
 )
-                    
+        
 (
 '
 build_clib
 '
 has_c_libraries
 )
-                    
+        
 (
 '
 build_ext
 '
 has_ext_modules
 )
-                    
+        
 (
 '
 build_scripts
 '
 has_scripts
 )
-                   
+    
 ]

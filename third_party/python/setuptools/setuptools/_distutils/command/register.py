@@ -37,9 +37,12 @@ getpass
 import
 io
 import
+logging
+import
 urllib
 .
 parse
+import
 urllib
 .
 request
@@ -48,7 +51,7 @@ warnings
 import
 warn
 from
-distutils
+.
 .
 core
 import
@@ -56,11 +59,7 @@ PyPIRCCommand
 from
 distutils
 .
-errors
-import
-*
-from
-distutils
+_log
 import
 log
 class
@@ -72,7 +71,6 @@ PyPIRCCommand
     
 description
 =
-(
 "
 register
 the
@@ -83,7 +81,6 @@ Python
 package
 index
 "
-)
     
 user_options
 =
@@ -100,7 +97,6 @@ list
 classifiers
 '
 None
-         
 '
 list
 the
@@ -111,11 +107,13 @@ classifiers
 )
         
 (
+            
 '
 strict
 '
+            
 None
-         
+            
 '
 Will
 stop
@@ -131,8 +129,9 @@ not
 fully
 compliant
 '
-)
         
+)
+    
 ]
     
 boolean_options
@@ -146,14 +145,17 @@ boolean_options
 '
 verify
 '
+        
 '
 list
 -
 classifiers
 '
+        
 '
 strict
 '
+    
 ]
     
 sub_commands
@@ -221,6 +223,7 @@ subcommand
 check_options
 =
 {
+            
 '
 strict
 '
@@ -233,7 +236,7 @@ self
 .
 strict
 )
-                         
+            
 '
 restructuredtext
 '
@@ -244,6 +247,7 @@ register
 '
 1
 )
+        
 }
         
 self
@@ -352,6 +356,7 @@ API
         
 warn
 (
+            
 "
 distutils
 .
@@ -362,15 +367,19 @@ register
 check_metadata
 is
 deprecated
-\
-              
+;
+"
+            
+"
 use
 the
 check
 command
 instead
 "
-PendingDeprecationWarning
+            
+DeprecationWarning
+        
 )
         
 check
@@ -430,7 +439,6 @@ and
 set
 attributes
 .
-        
 '
 '
 '
@@ -582,7 +590,6 @@ from
 the
 server
 .
-        
 '
 '
 '
@@ -646,7 +653,6 @@ to
 be
 checked
 .
-        
 '
 '
 '
@@ -707,6 +713,10 @@ send_metadata
 self
 )
 :
+#
+noqa
+:
+C901
         
 '
 '
@@ -720,13 +730,13 @@ package
 index
 server
 .
-            
+        
 Well
 do
 the
 following
 :
-            
+        
 1
 .
 figure
@@ -736,7 +746,7 @@ user
 is
 and
 then
-            
+        
 2
 .
 send
@@ -750,7 +760,7 @@ auth
 ed
 POST
 .
-            
+        
 First
 we
 try
@@ -765,7 +775,7 @@ HOME
 /
 .
 pypirc
-            
+        
 which
 is
 a
@@ -776,7 +786,7 @@ file
 with
 a
 section
-            
+        
 [
 distutils
 ]
@@ -787,7 +797,7 @@ password
 entries
 (
 both
-            
+        
 in
 clear
 text
@@ -795,30 +805,30 @@ text
 .
 Eg
 :
-                
+            
 [
 distutils
 ]
-                
+            
 index
 -
 servers
 =
-                    
-pypi
                 
+pypi
+            
 [
 pypi
 ]
-                
+            
 username
 :
 fred
-                
+            
 password
 :
 sekrit
-            
+        
 Otherwise
 to
 figure
@@ -831,16 +841,16 @@ offer
 the
 user
 three
-            
+        
 choices
 :
-             
+         
 1
 .
 use
 existing
 login
-             
+         
 2
 .
 register
@@ -849,7 +859,7 @@ a
 new
 user
 or
-             
+         
 3
 .
 set
@@ -962,6 +972,7 @@ self
 .
 announce
 (
+                
 '
 '
 '
@@ -1027,9 +1038,11 @@ default
 '
 '
 '
-log
+                
+logging
 .
 INFO
+            
 )
             
 choice
@@ -1189,7 +1202,6 @@ build_post_data
 submit
 '
 )
-                
 auth
 )
             
@@ -1201,20 +1213,20 @@ announce
 Server
 response
 (
-%
-s
+{
+}
 )
 :
-%
-s
+{
+}
 '
-%
+.
+format
 (
 code
 result
 )
-                          
-log
+logging
 .
 INFO
 )
@@ -1271,7 +1283,9 @@ self
 .
 announce
 (
+                        
 (
+                            
 '
 I
 can
@@ -1282,7 +1296,7 @@ login
 so
 future
 '
-                                   
+                            
 '
 submissions
 will
@@ -1290,16 +1304,20 @@ be
 faster
 .
 '
+                        
 )
-log
+                        
+logging
 .
 INFO
+                    
 )
                     
 self
 .
 announce
 (
+                        
 '
 (
 the
@@ -1313,16 +1331,16 @@ s
 )
 '
 %
-\
-                                  
 self
 .
 _get_rc_file
 (
 )
-log
+                        
+logging
 .
 INFO
+                    
 )
                     
 choice
@@ -1677,7 +1695,6 @@ log
 .
 info
 (
-(
 '
 Follow
 the
@@ -1686,13 +1703,11 @@ in
 it
 to
 '
-                          
 '
 complete
 registration
 .
 '
-)
 )
         
 elif
@@ -2046,6 +2061,10 @@ auth
 None
 )
 :
+#
+noqa
+:
+C901
         
 '
 '
@@ -2062,7 +2081,6 @@ a
 string
 response
 .
-        
 '
 '
 '
@@ -2079,15 +2097,17 @@ self
 .
 announce
 (
+                
 '
 Registering
-%
-s
+{
+}
 to
-%
-s
+{
+}
 '
-%
+.
+format
 (
 data
 [
@@ -2095,15 +2115,15 @@ data
 name
 '
 ]
-                                                    
 self
 .
 repository
 )
-                                                    
-log
+                
+logging
 .
 INFO
+            
 )
         
 #
@@ -2379,6 +2399,7 @@ utf
 -
 8
 '
+            
 %
 boundary
             
@@ -2575,7 +2596,7 @@ self
 announce
 (
 msg
-log
+logging
 .
 INFO
 )

@@ -108,27 +108,30 @@ lives
 "
 import
 os
+import
 re
 from
-distutils
+.
 .
 core
 import
 Command
 from
-distutils
+.
 .
 errors
 import
 DistutilsExecError
 from
-distutils
+.
 .
 sysconfig
 import
 customize_compiler
 from
 distutils
+.
+_log
 import
 log
 LANG_EXT
@@ -178,7 +181,6 @@ compiler
 =
 '
 None
-         
 "
 specify
 the
@@ -193,7 +195,6 @@ cc
 =
 '
 None
-         
 "
 specify
 the
@@ -212,7 +213,6 @@ dirs
 '
 I
 '
-         
 "
 list
 of
@@ -233,7 +233,6 @@ define
 '
 D
 '
-         
 "
 C
 preprocessor
@@ -251,7 +250,6 @@ undef
 '
 U
 '
-         
 "
 C
 preprocessor
@@ -269,7 +267,6 @@ libraries
 '
 l
 '
-         
 "
 external
 C
@@ -290,7 +287,6 @@ dirs
 '
 L
 '
-         
 "
 directories
 to
@@ -307,7 +303,6 @@ libraries
 noisy
 '
 None
-         
 "
 show
 every
@@ -325,13 +320,15 @@ taken
 )
         
 (
+            
 '
 dump
 -
 source
 '
+            
 None
-         
+            
 "
 dump
 generated
@@ -343,8 +340,9 @@ to
 compile
 them
 "
-)
         
+)
+    
 ]
     
 #
@@ -683,7 +681,7 @@ import
 .
         
 from
-distutils
+.
 .
 ccompiler
 import
@@ -707,12 +705,12 @@ compiler
 =
 new_compiler
 (
+                
 compiler
 =
 self
 .
 compiler
-                                         
 dry_run
 =
 self
@@ -721,6 +719,7 @@ dry_run
 force
 =
 1
+            
 )
             
 customize_compiler
@@ -1046,7 +1045,6 @@ headers
 include_dirs
 libraries
 library_dirs
-              
 lang
 )
 :
@@ -1093,22 +1091,25 @@ compiler
 .
 link_executable
 (
+            
 [
 obj
 ]
+            
 prog
-                                      
+            
 libraries
 =
 libraries
-                                      
+            
 library_dirs
 =
 library_dirs
-                                      
+            
 target_lang
 =
 lang
+        
 )
         
 if
@@ -1445,7 +1446,7 @@ heck
 "
         
 from
-distutils
+.
 .
 ccompiler
 import
@@ -1505,7 +1506,6 @@ None
 include_dirs
 =
 None
-                   
 lang
 =
 "
@@ -1756,7 +1756,7 @@ otherwise
 "
         
 from
-distutils
+.
 .
 ccompiler
 import
@@ -1822,26 +1822,33 @@ ok
 def
 try_link
 (
+        
 self
+        
 body
+        
 headers
 =
 None
+        
 include_dirs
 =
 None
+        
 libraries
 =
 None
-                 
+        
 library_dirs
 =
 None
+        
 lang
 =
 "
 c
 "
+    
 )
 :
         
@@ -1884,7 +1891,7 @@ otherwise
 "
         
 from
-distutils
+.
 .
 ccompiler
 import
@@ -1907,7 +1914,6 @@ _link
 body
 headers
 include_dirs
-                       
 libraries
 library_dirs
 lang
@@ -1957,26 +1963,33 @@ ok
 def
 try_run
 (
+        
 self
+        
 body
+        
 headers
 =
 None
+        
 include_dirs
 =
 None
+        
 libraries
 =
 None
-                
+        
 library_dirs
 =
 None
+        
 lang
 =
 "
 c
 "
+    
 )
 :
         
@@ -2019,7 +2032,7 @@ otherwise
 "
         
 from
-distutils
+.
 .
 ccompiler
 import
@@ -2043,13 +2056,14 @@ self
 .
 _link
 (
+                
 body
 headers
 include_dirs
-                                       
 libraries
 library_dirs
 lang
+            
 )
             
 self
@@ -2184,27 +2198,35 @@ command
 def
 check_func
 (
+        
 self
+        
 func
+        
 headers
 =
 None
+        
 include_dirs
 =
 None
-                   
+        
 libraries
 =
 None
+        
 library_dirs
 =
 None
+        
 decl
 =
 0
+        
 call
 =
 0
+    
 )
 :
         
@@ -2484,7 +2506,6 @@ try_link
 body
 headers
 include_dirs
-                             
 libraries
 library_dirs
 )
@@ -2492,22 +2513,28 @@ library_dirs
 def
 check_lib
 (
+        
 self
+        
 library
+        
 library_dirs
 =
 None
+        
 headers
 =
 None
-                  
+        
 include_dirs
 =
 None
+        
 other_libraries
 =
 [
 ]
+    
 )
 :
         
@@ -2617,6 +2644,7 @@ self
 .
 try_link
 (
+            
 "
 int
 main
@@ -2626,15 +2654,19 @@ void
 {
 }
 "
+            
 headers
+            
 include_dirs
-                             
+            
 [
 library
 ]
 +
 other_libraries
+            
 library_dirs
+        
 )
     
 def
@@ -2648,7 +2680,6 @@ None
 library_dirs
 =
 None
-                     
 lang
 =
 "
@@ -2699,6 +2730,7 @@ self
 .
 try_cpp
 (
+            
 body
 =
 "
@@ -2714,10 +2746,10 @@ headers
 [
 header
 ]
-                            
 include_dirs
 =
 include_dirs
+        
 )
 def
 dump_file

@@ -31,6 +31,8 @@ import
 io
 import
 hashlib
+import
+logging
 from
 base64
 import
@@ -50,28 +52,24 @@ parse
 import
 urlparse
 from
-distutils
+.
 .
 errors
 import
 DistutilsError
 DistutilsOptionError
 from
-distutils
+.
 .
 core
 import
 PyPIRCCommand
 from
-distutils
+.
 .
 spawn
 import
 spawn
-from
-distutils
-import
-log
 #
 PyPI
 Warehouse
@@ -172,7 +170,6 @@ sign
 '
 s
 '
-         
 '
 sign
 files
@@ -200,7 +197,7 @@ sign
 files
 '
 )
-        
+    
 ]
     
 boolean_options
@@ -289,7 +286,6 @@ sign
 raise
 DistutilsOptionError
 (
-                
 "
 Must
 use
@@ -304,7 +300,6 @@ to
 have
 meaning
 "
-            
 )
         
 config
@@ -426,6 +421,7 @@ dist_files
 msg
 =
 (
+                
 "
 Must
 create
@@ -436,7 +432,7 @@ in
 one
 command
 "
-                   
+                
 "
 (
 e
@@ -450,6 +446,7 @@ sdist
 upload
 )
 "
+            
 )
             
 raise
@@ -488,6 +485,10 @@ pyversion
 filename
 )
 :
+#
+noqa
+:
+C901
         
 #
 Makes
@@ -505,8 +506,6 @@ params
 query
 fragments
 =
-\
-            
 urlparse
 (
 self
@@ -622,7 +621,6 @@ identity
 spawn
 (
 gpg_args
-                  
 dry_run
 =
 self
@@ -921,7 +919,7 @@ meta
 get_obsoletes
 (
 )
-            
+        
 }
         
 data
@@ -1036,7 +1034,6 @@ filename
 .
 asc
 "
-                                         
 f
 .
 read
@@ -1374,13 +1371,14 @@ msg
 =
 "
 Submitting
-%
-s
+{
+}
 to
-%
-s
+{
+}
 "
-%
+.
+format
 (
 filename
 self
@@ -1393,7 +1391,7 @@ self
 announce
 (
 msg
-log
+logging
 .
 INFO
 )
@@ -1460,7 +1458,6 @@ repository
 data
 =
 body
-                          
 headers
 =
 headers
@@ -1527,7 +1524,7 @@ str
 (
 e
 )
-log
+logging
 .
 ERROR
 )
@@ -1545,26 +1542,28 @@ self
 .
 announce
 (
+                
 '
 Server
 response
 (
-%
-s
+{
+}
 )
 :
-%
-s
+{
+}
 '
-%
+.
+format
 (
 status
 reason
 )
-                          
-log
+logging
 .
 INFO
+            
 )
             
 if
@@ -1611,7 +1610,7 @@ self
 announce
 (
 msg
-log
+logging
 .
 INFO
 )
@@ -1625,14 +1624,15 @@ msg
 Upload
 failed
 (
-%
-s
+{
+}
 )
 :
-%
-s
+{
+}
 '
-%
+.
+format
 (
 status
 reason
@@ -1643,7 +1643,7 @@ self
 announce
 (
 msg
-log
+logging
 .
 ERROR
 )
