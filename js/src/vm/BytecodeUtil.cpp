@@ -913,7 +913,7 @@ static
 bool
 DumpIonScriptCounts
 (
-Sprinter
+StringPrinter
 *
 sp
 HandleScript
@@ -1187,7 +1187,7 @@ JSContext
 cx
 HandleScript
 script
-Sprinter
+StringPrinter
 *
 sp
 )
@@ -6384,7 +6384,7 @@ const
 BytecodeParser
 *
 parser
-Sprinter
+StringPrinter
 *
 sp
 )
@@ -6446,7 +6446,7 @@ jsbytecode
 pc
 bool
 showAll
-Sprinter
+StringPrinter
 *
 sp
 DisassembleSkeptically
@@ -6923,7 +6923,7 @@ HandleScript
 script
 bool
 lines
-Sprinter
+StringPrinter
 *
 sp
 DisassembleSkeptically
@@ -7875,7 +7875,7 @@ const
 BytecodeParser
 *
 parser
-Sprinter
+StringPrinter
 *
 sp
 )
@@ -8139,7 +8139,7 @@ const
 OffsetAndDefIndex
 &
 offsetAndDefIndex
-Sprinter
+StringPrinter
 *
 sp
 )
@@ -8151,7 +8151,7 @@ PrintShapeProperties
 JSContext
 *
 cx
-Sprinter
+StringPrinter
 *
 sp
 SharedShape
@@ -8371,7 +8371,7 @@ const
 BytecodeParser
 *
 parser
-Sprinter
+StringPrinter
 *
 sp
 )
@@ -10004,7 +10004,7 @@ unsigned
 loc
 bool
 lines
-Sprinter
+StringPrinter
 *
 sp
 )
@@ -14331,7 +14331,7 @@ const
 OffsetAndDefIndex
 &
 offsetAndDefIndex
-Sprinter
+StringPrinter
 *
 sp
 )
@@ -16657,7 +16657,7 @@ static
 bool
 JSONStringProperty
 (
-Sprinter
+StringPrinter
 &
 sp
 JSONPrinter
@@ -16781,7 +16781,7 @@ sac
 script
 )
 ;
-Sprinter
+JSSprinter
 sp
 (
 cx
@@ -17130,7 +17130,7 @@ endObject
 return
 sp
 .
-releaseJS
+release
 (
 cx
 )
@@ -17147,7 +17147,7 @@ const
 ScriptAndCounts
 &
 sac
-Sprinter
+StringPrinter
 &
 sp
 )
@@ -18003,7 +18003,7 @@ sac
 .
 script
 ;
-Sprinter
+JSSprinter
 sp
 (
 cx
@@ -18056,7 +18056,7 @@ nullptr
 return
 sp
 .
-releaseJS
+release
 (
 cx
 )

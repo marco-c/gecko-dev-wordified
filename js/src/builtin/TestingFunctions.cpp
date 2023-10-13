@@ -11160,7 +11160,7 @@ return
 false
 ;
 }
-Sprinter
+JSSprinter
 sprinter
 (
 cx
@@ -11935,7 +11935,7 @@ str
 =
 sprinter
 .
-releaseJS
+release
 (
 cx
 )
@@ -45177,11 +45177,10 @@ return
 false
 ;
 }
-Sprinter
+JSSprinter
 out
 (
 cx
-true
 )
 ;
 if
@@ -45213,7 +45212,7 @@ rep
 =
 out
 .
-releaseJS
+release
 (
 cx
 )
