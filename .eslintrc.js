@@ -4007,15 +4007,6 @@ off
 "
 no
 -
-debugger
-"
-:
-"
-off
-"
-"
-no
--
 else
 -
 return
