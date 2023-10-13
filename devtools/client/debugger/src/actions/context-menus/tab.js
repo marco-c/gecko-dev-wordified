@@ -130,7 +130,7 @@ blackbox
 ;
 import
 {
-togglePrettyPrint
+prettyPrintAndSelectSource
 }
 from
 "
@@ -763,11 +763,9 @@ click
 >
 dispatch
 (
-togglePrettyPrint
+prettyPrintAndSelectSource
 (
 source
-.
-id
 )
 )
 }

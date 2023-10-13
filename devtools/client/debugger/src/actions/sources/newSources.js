@@ -168,7 +168,7 @@ loadSourceText
 ;
 import
 {
-togglePrettyPrint
+prettyPrintAndSelectSource
 }
 from
 "
@@ -863,11 +863,9 @@ prettySource
 await
 dispatch
 (
-togglePrettyPrint
+prettyPrintAndSelectSource
 (
 source
-.
-id
 )
 )
 ;

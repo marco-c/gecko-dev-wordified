@@ -395,8 +395,6 @@ state
 location
 .
 source
-.
-url
 )
 ;
 /

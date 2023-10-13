@@ -3244,7 +3244,7 @@ dispatch
 (
 actions
 .
-togglePrettyPrint
+prettyPrintAndSelectSource
 (
 "
 a
