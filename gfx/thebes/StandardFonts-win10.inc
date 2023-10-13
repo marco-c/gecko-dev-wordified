@@ -539,7 +539,6 @@ kLangPackFonts
 {
 "
 Aharoni
-Bold
 "
 /
 /
