@@ -2788,6 +2788,16 @@ tagName
 "
 menuitem
 "
+|
+|
+nodeObject
+.
+tagName
+=
+=
+"
+checkbox
+"
 )
 {
 let
