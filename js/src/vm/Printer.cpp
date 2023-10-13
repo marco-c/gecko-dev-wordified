@@ -1381,6 +1381,9 @@ Sprinter
 :
 putString
 (
+JSContext
+*
+cx
 JSString
 *
 s
@@ -1388,7 +1391,7 @@ s
 {
 MOZ_ASSERT
 (
-maybeCx
+cx
 )
 ;
 InvariantChecker
@@ -1406,7 +1409,7 @@ s
 >
 ensureLinear
 (
-maybeCx
+cx
 )
 ;
 if
