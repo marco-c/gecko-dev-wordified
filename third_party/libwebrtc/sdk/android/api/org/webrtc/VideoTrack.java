@@ -435,6 +435,7 @@ VideoTrackInterface
 .
 *
 /
+public
 long
 getNativeVideoTrack
 (
