@@ -1340,14 +1340,15 @@ that
 depend
 on
 style
+or
+layout
 so
 we
 may
 need
 to
-flush
 *
-styles
+flush
 to
 ensure
 we
@@ -1363,7 +1364,7 @@ pixels
 *
 /
 void
-FlushStyleIfNeeded
+FlushIfNeeded
 (
 )
 ;
