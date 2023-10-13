@@ -36805,10 +36805,7 @@ rtx_codec
 cricket
 :
 :
-VideoCodec
-:
-:
-CreateRtxCodec
+CreateVideoRtxCodec
 (
 kUnusedPayloadType1
 GetEngineCodec
@@ -36872,10 +36869,7 @@ rtx_codec
 cricket
 :
 :
-VideoCodec
-:
-:
-CreateRtxCodec
+CreateVideoRtxCodec
 (
 kUnusedPayloadType1
 kUnusedPayloadType2
@@ -58455,10 +58449,10 @@ codec
 VideoCodec
 red_rtx_codec
 =
-VideoCodec
+cricket
 :
 :
-CreateRtxCodec
+CreateVideoRtxCodec
 (
 kRedRtxPayloadType
 GetEngineCodec
