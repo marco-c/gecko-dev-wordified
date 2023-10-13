@@ -4788,6 +4788,15 @@ void
 aOriginalFontData
 )
 ;
+free
+(
+(
+void
+*
+)
+aSanitizedFontData
+)
+;
 return
 false
 ;
