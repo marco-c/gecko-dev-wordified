@@ -1900,14 +1900,6 @@ Tree
 (
 {
 *
-itemHeight
-:
-20
-/
-/
-px
-*
-*
 getRoots
 :
 (

@@ -2010,9 +2010,6 @@ getRoots
 this
 .
 getRoots
-itemHeight
-:
-21
 key
 :
 this

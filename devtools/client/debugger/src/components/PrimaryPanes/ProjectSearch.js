@@ -2058,9 +2058,6 @@ matches
 |
 [
 ]
-itemHeight
-:
-24
 autoExpandAll
 :
 true
