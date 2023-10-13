@@ -53,6 +53,8 @@ MPL
 0
 /
 .
+import
+multiprocessing
 from
 abc
 import
@@ -912,6 +914,11 @@ def
 create_application
 (
 tg
+queue
+:
+multiprocessing
+.
+Queue
 )
 :
     
@@ -1101,29 +1108,13 @@ extend
 labels
 )
         
-shutdown
-=
-request
+queue
 .
-environ
-.
-get
+put
 (
-"
-werkzeug
+app
 .
-server
-.
-shutdown
-"
-)
-        
-if
-shutdown
-:
-            
-shutdown
-(
+tasks
 )
         
 return
