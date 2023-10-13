@@ -2095,14 +2095,6 @@ GetPrevInFlow
 row
 -
 >
-SetHasUnpaginatedBSize
-(
-true
-)
-;
-row
--
->
 SetUnpaginatedBSize
 (
 row
