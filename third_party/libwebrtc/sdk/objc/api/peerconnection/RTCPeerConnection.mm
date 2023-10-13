@@ -2417,10 +2417,6 @@ move
 (
 *
 dependencies
-.
-release
-(
-)
 )
 ;
 deps
