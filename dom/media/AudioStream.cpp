@@ -4648,7 +4648,7 @@ aAudioThreadChanged
 {
 mCallbackInfoQueue
 .
-ResetThreadIds
+ResetProducerThreadId
 (
 )
 ;
