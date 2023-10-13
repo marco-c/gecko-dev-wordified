@@ -2074,6 +2074,7 @@ Parent
 device
 is
 invalid
+.
 "
 )
 ]
@@ -2100,6 +2101,7 @@ Not
 enough
 memory
 left
+.
 "
 )
 ]
@@ -2169,7 +2171,7 @@ Lost
 DeviceError
 :
 :
-Lost
+Invalid
 hal
 :
 :
