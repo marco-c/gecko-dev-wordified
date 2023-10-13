@@ -2810,6 +2810,15 @@ Component
 :
 :
 RelativeSelectorAnchor
+|
+Component
+:
+:
+Invalid
+(
+.
+.
+)
 =
 >
 {
