@@ -6130,6 +6130,11 @@ false
 ;
 }
 }
+if
+(
+stack
+)
+{
 /
 /
 Overwrite
@@ -6146,6 +6151,8 @@ decompiler
 )
 with
 the
+/
+/
 rhs
 .
 MOZ_ASSERT
@@ -6166,6 +6173,7 @@ stack
 =
 rhs
 ;
+}
 if
 (
 attached
@@ -9230,8 +9238,12 @@ name
 int
 lhsIndex
 =
+stack
+?
 -
 2
+:
+JSDVG_IGNORE_STACK
 ;
 RootedObject
 obj
@@ -9708,6 +9720,11 @@ false
 ;
 }
 }
+if
+(
+stack
+)
+{
 /
 /
 Overwrite
@@ -9744,6 +9761,7 @@ stack
 =
 rhs
 ;
+}
 if
 (
 attached
