@@ -53,6 +53,11 @@ mediacapture
 -
 streams
 "
+"
+performance
+-
+timeline
+"
 ]
 )
 ;
