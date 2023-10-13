@@ -279,7 +279,7 @@ target
 h
 "
 static
-inline
+KRML_NOINLINE
 uint64_t
 FStar_UInt64_eq_mask
 (
@@ -290,7 +290,7 @@ b
 )
 ;
 static
-inline
+KRML_NOINLINE
 uint64_t
 FStar_UInt64_gte_mask
 (

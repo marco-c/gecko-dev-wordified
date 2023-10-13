@@ -10368,7 +10368,7 @@ ipv4_addr_bytes
 ;
 static
 const
-uint8_t
+char
 ipv4_addr_bytes_as_str
 [
 ]
@@ -10386,7 +10386,7 @@ x04
 ;
 static
 const
-uint8_t
+char
 ipv4_addr_str
 [
 ]
@@ -10448,7 +10448,7 @@ ipv4_compatible_ipv6_addr_bytes
 ;
 static
 const
-uint8_t
+char
 ipv4_compatible_ipv6_addr_str
 [
 ]
@@ -10493,7 +10493,7 @@ ipv4_mapped_ipv6_addr_bytes
 ;
 static
 const
-uint8_t
+char
 ipv4_mapped_ipv6_addr_str
 [
 ]
@@ -10540,7 +10540,7 @@ ipv6_addr_bytes
 ;
 static
 const
-uint8_t
+char
 ipv6_addr_bytes_as_str
 [
 ]
@@ -10588,7 +10588,7 @@ x11
 ;
 static
 const
-uint8_t
+char
 ipv6_addr_str
 [
 ]

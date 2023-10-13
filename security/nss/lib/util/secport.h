@@ -1873,6 +1873,13 @@ char
 b
 )
 ;
+extern
+PRBool
+NSS_GetSystemFIPSEnabled
+(
+void
+)
+;
 /
 *
 *
