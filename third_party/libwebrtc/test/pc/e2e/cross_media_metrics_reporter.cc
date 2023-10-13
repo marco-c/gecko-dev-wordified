@@ -557,10 +557,9 @@ audio_stat
 kind
 =
 =
-RTCMediaStreamTrackKind
-:
-:
-kVideo
+"
+video
+"
 )
 {
 std

@@ -544,10 +544,9 @@ s
 kind
 =
 =
-RTCMediaStreamTrackKind
-:
-:
-kVideo
+"
+video
+"
 )
 )
 {
