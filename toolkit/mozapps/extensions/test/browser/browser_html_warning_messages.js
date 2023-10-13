@@ -1259,7 +1259,7 @@ appVersion
 type
 :
 "
-warning
+error
 "
 }
 )

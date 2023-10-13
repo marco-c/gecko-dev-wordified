@@ -1746,7 +1746,7 @@ version
 type
 :
 "
-warning
+error
 "
 }
 ;
