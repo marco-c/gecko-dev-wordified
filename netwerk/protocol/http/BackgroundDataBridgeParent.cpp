@@ -272,6 +272,10 @@ const
 nsHttpHeaderArray
 &
 aResponseTrailers
+const
+TimeStamp
+&
+aOnStopRequestStart
 )
 {
 RefPtr
@@ -303,6 +307,7 @@ aStatus
 aTiming
 aLastActiveTabOptHit
 aResponseTrailers
+aOnStopRequestStart
 ]
 (
 )
@@ -329,6 +334,7 @@ aStatus
 aTiming
 aLastActiveTabOptHit
 aResponseTrailers
+aOnStopRequestStart
 )
 ;
 self

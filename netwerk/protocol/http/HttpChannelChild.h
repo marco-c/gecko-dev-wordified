@@ -1308,6 +1308,10 @@ const
 HttpChannelAltDataStream
 &
 aAltData
+const
+TimeStamp
+&
+aOnStartRequestStartTime
 )
 ;
 /
@@ -1356,6 +1360,10 @@ const
 nsACString
 &
 aData
+const
+TimeStamp
+&
+aOnDataAvailableStartTime
 )
 ;
 void
@@ -1382,6 +1390,10 @@ ConsoleReportCollected
 aConsoleReports
 bool
 aFromSocketProcess
+const
+TimeStamp
+&
+aOnStopRequestStartTime
 )
 ;
 void

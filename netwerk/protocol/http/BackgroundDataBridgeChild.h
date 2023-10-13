@@ -158,6 +158,10 @@ const
 nsACString
 &
 data
+const
+TimeStamp
+&
+aOnDataAvailableStartTime
 )
 ;
 mozilla
@@ -183,6 +187,10 @@ const
 nsHttpHeaderArray
 &
 aResponseTrailers
+const
+TimeStamp
+&
+aOnStopRequestStartTime
 )
 ;
 }

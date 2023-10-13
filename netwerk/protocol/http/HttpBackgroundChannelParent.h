@@ -293,6 +293,8 @@ nsICacheEntry
 >
 &
 aCacheEntry
+TimeStamp
+aOnStartRequestStart
 )
 ;
 /
@@ -328,6 +330,8 @@ const
 nsCString
 &
 aData
+TimeStamp
+aOnDataAvailableStart
 )
 ;
 /
@@ -362,6 +366,8 @@ ConsoleReportCollected
 >
 &
 aConsoleReports
+TimeStamp
+aOnStopRequestStart
 )
 ;
 /

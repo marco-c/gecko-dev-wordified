@@ -5472,6 +5472,15 @@ nsIDNSHTTPSSVCRecord
 aRecord
 )
 ;
+void
+RecordOnStartTelemetry
+(
+nsresult
+aStatus
+bool
+aIsNavigation
+)
+;
 /
 /
 Timer

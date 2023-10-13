@@ -2602,6 +2602,10 @@ const
 uint32_t
 &
 aCaps
+const
+TimeStamp
+&
+aOnStartRequestStartTime
 )
 {
 mEventQ
@@ -2654,6 +2658,7 @@ aSupportsHttp3
 aMode
 aTrrSkipReason
 aCaps
+aOnStartRequestStartTime
 ]
 (
 )
@@ -2685,6 +2690,7 @@ aSupportsHttp3
 aMode
 aTrrSkipReason
 aCaps
+aOnStartRequestStartTime
 )
 ;
 }
@@ -2934,6 +2940,10 @@ const
 uint32_t
 &
 aCaps
+const
+TimeStamp
+&
+aOnStartRequestStartTime
 )
 {
 LOG
@@ -3015,6 +3025,10 @@ aCaps
 mSecurityInfo
 =
 aSecurityInfo
+;
+mOnStartRequestStartTime
+=
+aOnStartRequestStartTime
 ;
 if
 (
@@ -3302,6 +3316,10 @@ const
 uint32_t
 &
 aCount
+const
+TimeStamp
+&
+aOnDataAvailableStartTime
 )
 {
 LOG
@@ -3441,6 +3459,7 @@ this
 aData
 aOffset
 aCount
+aOnDataAvailableStartTime
 ]
 (
 )
@@ -3453,6 +3472,7 @@ DoOnDataAvailable
 aData
 aOffset
 aCount
+aOnDataAvailableStartTime
 )
 ;
 }
@@ -3483,6 +3503,10 @@ const
 uint32_t
 &
 aCount
+const
+TimeStamp
+&
+aOnDataAvailableStartTime
 )
 {
 LOG
@@ -3557,6 +3581,10 @@ rv
 return
 ;
 }
+mOnDataAvailableStartTime
+=
+aOnDataAvailableStartTime
+;
 AutoEventEnqueuer
 ensureSerialDispatch
 (
@@ -3783,6 +3811,10 @@ const
 HttpConnectionInfoCloneArgs
 &
 aArgs
+const
+TimeStamp
+&
+aOnStopRequestStartTime
 )
 {
 LOG
@@ -3896,6 +3928,7 @@ move
 cinfo
 )
 }
+aOnStopRequestStartTime
 ]
 (
 )
@@ -3919,6 +3952,7 @@ move
 aTransactionObserverResult
 )
 cinfo
+aOnStopRequestStartTime
 )
 ;
 }
@@ -3970,6 +4004,10 @@ aTransactionObserverResult
 nsHttpConnectionInfo
 *
 aConnInfo
+const
+TimeStamp
+&
+aOnStopRequestStartTime
 )
 {
 LOG
@@ -4034,6 +4072,10 @@ aResponseIsComplete
 mTransferSize
 =
 aTransferSize
+;
+mOnStopRequestStartTime
+=
+aOnStopRequestStartTime
 ;
 TimingStructArgsToTimingsStruct
 (
