@@ -105,7 +105,7 @@ TestAudioResampler
 cpp
 "
 "
-TestClockDrift
+TestDriftController
 .
 cpp
 "
