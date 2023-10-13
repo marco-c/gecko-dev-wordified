@@ -2246,7 +2246,7 @@ setCurrentChunk
 0
 )
 ;
-setStartPosition
+setStartToCurrentPosition
 (
 )
 ;
@@ -3151,7 +3151,7 @@ setCurrentChunk
 0
 )
 ;
-setStartPosition
+setStartToCurrentPosition
 (
 )
 ;
@@ -11243,7 +11243,7 @@ for
 isEmpty
 checks
 .
-setStartPosition
+setStartToCurrentPosition
 (
 )
 ;
@@ -11633,7 +11633,7 @@ js
 Nursery
 :
 :
-setStartPosition
+setStartToCurrentPosition
 (
 )
 {

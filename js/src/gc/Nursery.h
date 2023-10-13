@@ -4274,7 +4274,7 @@ setCurrentEnd
 )
 ;
 void
-setStartPosition
+setStartToCurrentPosition
 (
 )
 ;
