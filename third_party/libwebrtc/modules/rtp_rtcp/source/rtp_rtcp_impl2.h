@@ -1589,6 +1589,9 @@ RtpSenderContext
 explicit
 RtpSenderContext
 (
+TaskQueueBase
+&
+worker_queue
 const
 RtpRtcpInterface
 :
