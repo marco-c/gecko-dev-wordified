@@ -486,6 +486,15 @@ ExternalImageId
 aExternalImageId
 )
 {
+MOZ_ASSERT
+(
+mExternalImageId
+.
+isSome
+(
+)
+)
+;
 if
 (
 !

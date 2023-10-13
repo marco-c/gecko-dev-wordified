@@ -518,6 +518,15 @@ ExternalImageId
 aExternalImageId
 )
 {
+MOZ_ASSERT
+(
+mExternalImageId
+.
+isSome
+(
+)
+)
+;
 RefPtr
 <
 wr
