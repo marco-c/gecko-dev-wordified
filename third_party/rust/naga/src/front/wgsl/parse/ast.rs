@@ -22,7 +22,7 @@ crate
 :
 {
 Arena
-FastHashSet
+FastIndexSet
 Handle
 Span
 }
@@ -598,7 +598,7 @@ uses
 pub
 dependencies
 :
-FastHashSet
+FastIndexSet
 <
 Dependency
 <

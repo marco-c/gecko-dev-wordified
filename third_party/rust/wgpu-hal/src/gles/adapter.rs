@@ -6000,6 +6000,13 @@ storage
 Tf
 :
 :
+Rgb10a2Uint
+=
+>
+renderable
+Tf
+:
+:
 Rgb10a2Unorm
 =
 >

@@ -105,6 +105,7 @@ backend
 [
 derive
 (
+Clone
 Default
 )
 ]
