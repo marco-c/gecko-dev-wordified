@@ -1127,6 +1127,10 @@ dumpID
 )
 ;
 }
+MaybeTerminateProcess
+(
+)
+;
 }
 nsAutoString
 pid
