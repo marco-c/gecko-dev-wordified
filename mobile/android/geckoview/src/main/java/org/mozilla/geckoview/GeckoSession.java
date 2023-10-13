@@ -22822,7 +22822,7 @@ URL
 .
 *
 /
-Nullable
+NonNull
 public
 final
 String
@@ -22836,7 +22836,7 @@ rating
 .
 *
 /
-Nullable
+NonNull
 public
 final
 Double
@@ -22856,7 +22856,7 @@ recommendation
 .
 *
 /
-Nullable
+NonNull
 public
 final
 Boolean
@@ -22873,7 +22873,7 @@ image
 .
 *
 /
-Nullable
+NonNull
 public
 final
 String
@@ -22891,7 +22891,7 @@ entity
 .
 *
 /
-Nullable
+NonNull
 public
 final
 String
@@ -22907,7 +22907,7 @@ product
 .
 *
 /
-Nullable
+NonNull
 public
 final
 String
@@ -22923,7 +22923,7 @@ product
 .
 *
 /
-Nullable
+NonNull
 public
 final
 String
@@ -22939,7 +22939,7 @@ product
 .
 *
 /
-Nullable
+NonNull
 public
 final
 String
@@ -22955,7 +22955,7 @@ product
 .
 *
 /
-Nullable
+NonNull
 public
 final
 String
@@ -22971,7 +22971,7 @@ product
 .
 *
 /
-Nullable
+NonNull
 public
 final
 String
