@@ -21423,13 +21423,7 @@ false
 }
 }
 return
-!
-sprinter
--
->
-hadOutOfMemory
-(
-)
+true
 ;
 }
 static
