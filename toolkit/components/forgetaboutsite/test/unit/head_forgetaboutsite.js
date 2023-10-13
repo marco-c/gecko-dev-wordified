@@ -99,11 +99,6 @@ cookies
 .
 sqlite
 "
-"
-signons
-.
-sqlite
-"
 ]
 ;
 for
