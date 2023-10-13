@@ -16,12 +16,6 @@ collections
 import
 deque
 from
-collections
-.
-abc
-import
-Sized
-from
 dataclasses
 import
 dataclass
@@ -43,6 +37,10 @@ from
 mmap
 import
 mmap
+from
+operator
+import
+length_hint
 from
 os
 import
@@ -1011,6 +1009,9 @@ show_speed
             
 TimeRemainingColumn
 (
+elapsed_when_finished
+=
+True
 )
         
 )
@@ -5017,7 +5018,7 @@ Text
 "
 Show
 time
-remaining
+elapsed
 .
 "
 "
@@ -9161,45 +9162,23 @@ sequence
 "
 "
         
-task_total
-:
-Optional
-[
-float
-]
-=
-None
-        
 if
 total
 is
 None
 :
             
-if
-isinstance
-(
-sequence
-Sized
-)
-:
-                
-task_total
+total
 =
 float
 (
-len
+length_hint
 (
 sequence
 )
 )
-        
-else
-:
-            
-task_total
-=
-total
+or
+None
         
 if
 task_id
@@ -9216,7 +9195,7 @@ add_task
 description
 total
 =
-task_total
+total
 )
         
 else
@@ -9229,7 +9208,7 @@ update
 task_id
 total
 =
-task_total
+total
 )
         
 if
@@ -10338,18 +10317,15 @@ buffering
         
 elif
 _mode
-=
-=
+in
+(
 "
 rt
 "
-or
-_mode
-=
-=
 "
 r
 "
+)
 :
             
 if
@@ -10502,18 +10478,15 @@ mode
         
 if
 mode
-=
-=
+in
+(
 "
 r
 "
-or
-mode
-=
-=
 "
 rt
 "
+)
 :
             
 return

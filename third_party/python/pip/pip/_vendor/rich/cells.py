@@ -375,13 +375,14 @@ character
 Args
 :
         
-character
+codepoint
 (
-str
+int
 )
 :
-A
-single
+Codepoint
+of
+a
 character
 .
     

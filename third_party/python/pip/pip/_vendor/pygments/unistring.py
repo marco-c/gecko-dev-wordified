@@ -67,7 +67,7 @@ copyright
 Copyright
 2006
 -
-2022
+2023
 by
 the
 Pygments
@@ -19288,6 +19288,13 @@ with
 open
 (
 __file__
+encoding
+=
+'
+utf
+-
+8
+'
 )
 as
 fp
@@ -19513,6 +19520,13 @@ open
 __file__
 '
 w
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as

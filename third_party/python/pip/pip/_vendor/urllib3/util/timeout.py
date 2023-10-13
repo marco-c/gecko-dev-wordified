@@ -18,7 +18,7 @@ that
 no
 timeout
 was
-#
+;
 specified
 by
 the
@@ -27,6 +27,7 @@ from
 socket
 import
 _GLOBAL_DEFAULT_TIMEOUT
+getdefaulttimeout
 from
 .
 .
@@ -889,6 +890,29 @@ compatibility
 __str__
 =
 __repr__
+    
+classmethod
+    
+def
+resolve_default_timeout
+(
+cls
+timeout
+)
+:
+        
+return
+getdefaulttimeout
+(
+)
+if
+timeout
+is
+cls
+.
+DEFAULT_TIMEOUT
+else
+timeout
     
 classmethod
     

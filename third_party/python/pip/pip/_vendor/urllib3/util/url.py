@@ -862,7 +862,6 @@ r
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
 .
 _
-!
 \
 -
 ~
@@ -2989,18 +2988,17 @@ name
 and
 any
 (
-[
 ord
 (
 x
 )
 >
+=
 128
 for
 x
 in
 name
-]
 )
 :
         

@@ -979,6 +979,16 @@ options
 .
 no_input
         
+session
+.
+auth
+.
+keyring_provider
+=
+options
+.
+keyring_provider
+        
 return
 session
 class
@@ -1837,6 +1847,10 @@ is
 not
 None
         
+legacy_resolver
+=
+False
+        
 resolver_variant
 =
 cls
@@ -1935,6 +1949,10 @@ production
         
 else
 :
+            
+legacy_resolver
+=
+True
             
 lazy_wheel
 =
@@ -2040,6 +2058,10 @@ lazy_wheel
 verbosity
 =
 verbosity
+            
+legacy_resolver
+=
+legacy_resolver
         
 )
     
@@ -2172,17 +2194,6 @@ isolated_mode
 use_pep517
 =
 use_pep517
-            
-config_settings
-=
-getattr
-(
-options
-"
-config_settings
-"
-None
-)
         
 )
         
@@ -2523,6 +2534,8 @@ install_req_from_line
                 
 req
                 
+comes_from
+=
 None
                 
 isolated
@@ -2680,6 +2693,27 @@ use_pep517
 user_supplied
 =
 True
+                    
+config_settings
+=
+parsed_req
+.
+options
+.
+get
+(
+"
+config_settings
+"
+)
+                    
+if
+parsed_req
+.
+options
+                    
+else
+None
                 
 )
                 

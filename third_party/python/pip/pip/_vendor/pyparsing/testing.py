@@ -1411,20 +1411,17 @@ maybe
                             
 print
 (
+f
 "
 no
 validation
 for
 {
+test_string
 !
 r
 }
 "
-.
-format
-(
-test_string
-)
 )
             
 #
@@ -1840,6 +1837,16 @@ not
 None
 :
             
+mark_control
+=
+typing
+.
+cast
+(
+str
+mark_control
+)
+            
 if
 mark_control
 =
@@ -1849,14 +1856,10 @@ unicode
 "
 :
                 
-tbl
+transtable_map
 =
-str
-.
-maketrans
-(
-                    
 {
+                    
 c
 :
 u
@@ -1877,15 +1880,23 @@ range
 0x2433
 )
 )
-}
-                    
-|
-{
-127
-:
-0x2421
+                
 }
                 
+transtable_map
+[
+127
+]
+=
+0x2421
+                
+tbl
+=
+str
+.
+maketrans
+(
+transtable_map
 )
                 
 eol_mark
@@ -1895,6 +1906,13 @@ eol_mark
             
 else
 :
+                
+ord_mark_control
+=
+ord
+(
+mark_control
+)
                 
 tbl
 =
@@ -1906,7 +1924,7 @@ maketrans
 {
 c
 :
-mark_control
+ord_mark_control
 for
 c
 in
@@ -2159,19 +2177,15 @@ lead
 join
 (
                     
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
-"
-"
+'
+'
 *
 99
+}
+{
 (
 i
 +
@@ -2179,7 +2193,8 @@ i
 )
 %
 100
-)
+}
+"
                     
 for
 i
@@ -2229,14 +2244,9 @@ lead
 .
 join
 (
-                
+f
 "
 {
-}
-"
-.
-format
-(
 (
 i
 +
@@ -2244,8 +2254,8 @@ i
 )
 %
 10
-)
-                
+}
+"
 for
 i
 in
@@ -2260,7 +2270,6 @@ max_line_len
 10
 )
 )
-            
 )
             
 +
@@ -2312,27 +2321,24 @@ n
 join
 (
                 
+f
 "
 {
+i
 :
 {
+lineno_width
 }
 d
 }
 :
 {
+line
 }
 {
+eol_mark
 }
 "
-.
-format
-(
-i
-lineno_width
-line
-eol_mark
-)
                 
 for
 i

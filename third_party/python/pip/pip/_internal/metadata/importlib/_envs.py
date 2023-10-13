@@ -1199,7 +1199,11 @@ installation
         
 gone_in
 =
-None
+"
+23
+.
+3
+"
     
 )
 class
@@ -1339,19 +1343,12 @@ location
 )
 :
                 
-#
 _emit_egg_deprecation
 (
 dist
 .
 location
 )
-#
-TODO
-:
-Enable
-this
-.
                 
 yield
 dist

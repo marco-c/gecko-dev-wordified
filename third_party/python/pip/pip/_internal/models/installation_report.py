@@ -101,7 +101,7 @@ download_info
 .
 archive_info
 .
-hash
+hashes
 may
             
 #
@@ -198,12 +198,9 @@ links
 is_direct
 "
 :
-bool
-(
 ireq
 .
-original_link
-)
+is_direct
             
 #
 requested
