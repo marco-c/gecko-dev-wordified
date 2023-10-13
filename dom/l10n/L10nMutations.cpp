@@ -1700,15 +1700,6 @@ StopRefreshObserver
 {
 if
 (
-!
-mDOMLocalization
-)
-{
-return
-;
-}
-if
-(
 mRefreshDriver
 )
 {
