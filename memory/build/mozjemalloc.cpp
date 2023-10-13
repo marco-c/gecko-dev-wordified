@@ -11855,6 +11855,14 @@ SOME
 ;
 #
 endif
+MALLOC_RUNTIME_VAR
+size_t
+opt_poison_size
+=
+kCacheLineSize
+*
+4
+;
 static
 bool
 opt_randomize_small
@@ -12574,7 +12582,7 @@ std
 min
 (
 aSize
-kCacheLineSize
+opt_poison_size
 )
 ;
 break
@@ -32522,6 +32530,12 @@ else
 opt_poison
 =
 SOME
+;
+opt_poison_size
+=
+kCacheLineSize
+*
+prefix_arg
 ;
 }
 break
