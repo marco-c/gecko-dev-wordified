@@ -100,7 +100,7 @@ h
 "
 #
 ifdef
-_USE_SSE2
+USE_SSE2
 int
 moz_speex_have_double_simd
 (
@@ -123,7 +123,7 @@ supports_sse2
 endif
 #
 ifdef
-_USE_SSE
+USE_SSE
 int
 moz_speex_have_single_simd
 (
@@ -146,7 +146,7 @@ supports_sse
 endif
 #
 ifdef
-_USE_NEON
+USE_NEON
 int
 moz_speex_have_single_simd
 (

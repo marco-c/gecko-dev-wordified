@@ -117,13 +117,13 @@ moz_speex_have_double_simd
 if
 defined
 (
-_USE_SSE
+USE_SSE
 )
 |
 |
 defined
 (
-_USE_NEON
+USE_NEON
 )
 #
 define
@@ -158,7 +158,7 @@ endif
 if
 defined
 (
-_USE_SSE
+USE_SSE
 )
 #
 define
@@ -199,7 +199,7 @@ endif
 if
 defined
 (
-_USE_SSE2
+USE_SSE2
 )
 #
 define
