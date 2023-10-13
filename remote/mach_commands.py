@@ -1715,6 +1715,7 @@ testIdPattern
 .
 replace
 (
+r
 "
 \
 *

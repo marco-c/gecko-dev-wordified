@@ -106,11 +106,14 @@ eg
 c
 :
 \
+\
 program
 files
 \
+\
 mozilla
 firefox
+\
 \
 firefox
 .
