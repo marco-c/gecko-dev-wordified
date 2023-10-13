@@ -1,4 +1,14 @@
 /
+*
+eslint
+-
+disable
+no
+-
+eval
+*
+/
+/
 /
 some
 javascript
