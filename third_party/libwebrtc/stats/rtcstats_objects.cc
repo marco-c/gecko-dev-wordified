@@ -2743,12 +2743,6 @@ min_playout_delay
 minPlayoutDelay
 "
 )
-track_id
-(
-"
-trackId
-"
-)
 {
 }
 RTCInboundRtpStreamStats
@@ -3058,12 +3052,6 @@ scalability_mode
 (
 "
 scalabilityMode
-"
-)
-track_id
-(
-"
-trackId
 "
 )
 {
