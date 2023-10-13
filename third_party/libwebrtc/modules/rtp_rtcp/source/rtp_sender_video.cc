@@ -2989,7 +2989,7 @@ dep
 ;
 }
 uint8_t
-spatial_bimask
+spatial_bitmask
 =
 1
 <
@@ -3005,7 +3005,7 @@ generic_descriptor
 .
 SetSpatialLayersBitmask
 (
-spatial_bimask
+spatial_bitmask
 )
 ;
 generic_descriptor
