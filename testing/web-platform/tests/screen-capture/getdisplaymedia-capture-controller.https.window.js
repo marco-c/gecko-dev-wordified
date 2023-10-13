@@ -43,6 +43,13 @@ validFocusBehaviors
 '
 focus
 -
+capturing
+-
+application
+'
+'
+focus
+-
 captured
 -
 surface
