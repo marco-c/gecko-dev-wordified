@@ -176,7 +176,7 @@ dom
 using
 SVGFECompositeElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFECompositeElement

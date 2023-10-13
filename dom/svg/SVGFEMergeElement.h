@@ -162,7 +162,7 @@ dom
 using
 SVGFEMergeElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEMergeElement

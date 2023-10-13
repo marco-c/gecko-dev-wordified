@@ -162,7 +162,7 @@ dom
 using
 SVGFEFloodElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEFloodElement

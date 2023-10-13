@@ -398,7 +398,7 @@ eUseCounter_custom_feMerge
 ;
 }
 return
-SVGFE
+SVGFEMergeElementBase
 :
 :
 BindToTree

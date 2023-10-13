@@ -590,12 +590,12 @@ gfx
 FilterPrimitiveDescription
 ;
 using
-SVGFE
+SVGFilterPrimitiveElement
 =
 dom
 :
 :
-SVGFE
+SVGFilterPrimitiveElement
 ;
 using
 UserSpaceMetrics
@@ -1079,7 +1079,7 @@ primitive
 IntRect
 ComputeFilterPrimitiveSubregion
 (
-SVGFE
+SVGFilterPrimitiveElement
 *
 aFilterElement
 const
@@ -1380,7 +1380,7 @@ primitive
 nsresult
 GetSourceIndices
 (
-SVGFE
+SVGFilterPrimitiveElement
 *
 aPrimitiveElement
 nsTArray

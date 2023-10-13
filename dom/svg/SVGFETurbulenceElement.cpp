@@ -1343,7 +1343,7 @@ eUseCounter_custom_feTurbulence
 ;
 }
 return
-SVGFE
+SVGFETurbulenceElementBase
 :
 :
 BindToTree

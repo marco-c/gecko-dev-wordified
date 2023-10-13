@@ -639,7 +639,7 @@ GetNextSibling
 {
 RefPtr
 <
-SVGFE
+SVGFilterPrimitiveElement
 >
 primitive
 ;
@@ -647,7 +647,7 @@ CallQueryInterface
 (
 child
 (
-SVGFE
+SVGFilterPrimitiveElement
 *
 *
 )

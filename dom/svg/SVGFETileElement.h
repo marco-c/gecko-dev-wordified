@@ -162,7 +162,7 @@ dom
 using
 SVGFETileElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFETileElement

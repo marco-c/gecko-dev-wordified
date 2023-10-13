@@ -958,7 +958,7 @@ eUseCounter_custom_feDisplacementMap
 ;
 }
 return
-SVGFE
+SVGFEDisplacementMapElementBase
 :
 :
 BindToTree

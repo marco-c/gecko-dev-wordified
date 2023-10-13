@@ -957,7 +957,7 @@ eUseCounter_custom_feMorphology
 ;
 }
 return
-SVGFE
+SVGFEMorphologyElementBase
 :
 :
 BindToTree

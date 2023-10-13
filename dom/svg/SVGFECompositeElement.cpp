@@ -970,7 +970,7 @@ eUseCounter_custom_feComposite
 ;
 }
 return
-SVGFE
+SVGFECompositeElementBase
 :
 :
 BindToTree

@@ -572,7 +572,7 @@ eUseCounter_custom_feFlood
 ;
 }
 return
-SVGFE
+SVGFEFloodElementBase
 :
 :
 BindToTree

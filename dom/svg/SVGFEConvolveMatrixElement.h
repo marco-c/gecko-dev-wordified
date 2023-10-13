@@ -217,7 +217,7 @@ DOMSVGAnimatedBoolean
 using
 SVGFEConvolveMatrixElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEConvolveMatrixElement

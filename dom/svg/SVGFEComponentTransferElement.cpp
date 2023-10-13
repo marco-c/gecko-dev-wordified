@@ -794,7 +794,7 @@ eUseCounter_custom_feComponentTransfer
 ;
 }
 return
-SVGFE
+SVGFEComponentTransferElementBase
 :
 :
 BindToTree

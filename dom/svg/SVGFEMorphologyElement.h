@@ -183,7 +183,7 @@ dom
 using
 SVGFEMorphologyElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEMorphologyElement

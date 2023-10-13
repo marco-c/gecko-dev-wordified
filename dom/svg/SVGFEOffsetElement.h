@@ -176,7 +176,7 @@ dom
 using
 SVGFEOffsetElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEOffsetElement

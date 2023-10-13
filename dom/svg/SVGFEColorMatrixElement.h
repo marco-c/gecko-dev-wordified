@@ -179,7 +179,7 @@ DOMSVGAnimatedNumberList
 using
 SVGFEColorMatrixElementBase
 =
-SVGFE
+SVGFilterPrimitiveElement
 ;
 class
 SVGFEColorMatrixElement

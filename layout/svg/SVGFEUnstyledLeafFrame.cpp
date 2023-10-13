@@ -452,7 +452,7 @@ mozilla
 dom
 :
 :
-SVGFEUnstyledElement
+SVGFilterPrimitiveChildElement
 *
 >
 (

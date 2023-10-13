@@ -725,7 +725,7 @@ eUseCounter_custom_feOffset
 ;
 }
 return
-SVGFE
+SVGFEOffsetElementBase
 :
 :
 BindToTree

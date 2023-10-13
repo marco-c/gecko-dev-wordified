@@ -746,7 +746,7 @@ eUseCounter_custom_feSpecularLighting
 ;
 }
 return
-SVGFE
+SVGFESpecularLightingElementBase
 :
 :
 BindToTree

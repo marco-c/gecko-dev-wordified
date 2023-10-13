@@ -768,7 +768,7 @@ eUseCounter_custom_feGaussianBlur
 ;
 }
 return
-SVGFE
+SVGFEGaussianBlurElementBase
 :
 :
 BindToTree
