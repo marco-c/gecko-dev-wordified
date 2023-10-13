@@ -10,6 +10,17 @@ chrome
 script
 *
 /
+Cu
+.
+importGlobalProperties
+(
+[
+"
+File
+"
+]
+)
+;
 var
 testFile
 =
