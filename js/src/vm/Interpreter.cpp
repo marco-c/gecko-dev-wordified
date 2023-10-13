@@ -34438,6 +34438,9 @@ NativeObject
 :
 :
 create
+<
+PlainObject
+>
 (
 cx
 allocKind
@@ -34570,6 +34573,9 @@ NativeObject
 :
 :
 create
+<
+PlainObject
+>
 (
 cx
 allocKind
