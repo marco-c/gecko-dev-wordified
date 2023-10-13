@@ -3119,7 +3119,7 @@ e
 assert_equals
 (
 errors
-1
+0
 )
 ;
 throw
@@ -3316,7 +3316,7 @@ e
 assert_equals
 (
 errors
-1
+0
 )
 ;
 throw
