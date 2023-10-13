@@ -1,3 +1,15 @@
+/
+*
+eslint
+-
+disable
+no
+-
+implied
+-
+eval
+*
+/
 var
 x
 =
