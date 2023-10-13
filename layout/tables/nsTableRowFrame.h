@@ -679,8 +679,6 @@ nullptr
 void
 ResetBSize
 (
-nscoord
-aRowStyleBSize
 )
 ;
 /
