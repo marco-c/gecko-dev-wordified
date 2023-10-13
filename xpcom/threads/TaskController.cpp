@@ -159,6 +159,15 @@ include
 "
 mozilla
 /
+BackgroundHangMonitor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventQueue
 .
 h
