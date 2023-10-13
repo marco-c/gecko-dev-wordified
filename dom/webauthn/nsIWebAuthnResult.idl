@@ -115,7 +115,7 @@ a728
 )
 ]
 interface
-nsIWebAuthnRegisterResult
+nsICtapRegisterResult
 :
 nsISupports
 {
@@ -241,9 +241,7 @@ attribute
 bool
 hmacCreateSecret
 ;
-[
-must_use
-]
+readonly
 attribute
 bool
 credPropsRk
@@ -253,7 +251,7 @@ credPropsRk
 /
 /
 The
-nsIWebAuthnSignResult
+nsICtapSignResult
 interface
 is
 used
@@ -290,7 +288,7 @@ ff38cc2c8c28
 )
 ]
 interface
-nsIWebAuthnSignResult
+nsICtapSignResult
 :
 nsISupports
 {

@@ -110,7 +110,7 @@ WebAuthnRegisterPromiseHolder
 :
 Resolve
 (
-nsIWebAuthnRegisterResult
+nsICtapRegisterResult
 *
 aResult
 )
@@ -155,7 +155,7 @@ called
 .
 RefPtr
 <
-nsIWebAuthnRegisterResult
+nsICtapRegisterResult
 >
 result
 (
@@ -330,7 +330,7 @@ WebAuthnSignPromiseHolder
 :
 Resolve
 (
-nsIWebAuthnSignResult
+nsICtapSignResult
 *
 aResult
 )
@@ -375,7 +375,7 @@ called
 .
 RefPtr
 <
-nsIWebAuthnSignResult
+nsICtapSignResult
 >
 result
 (
