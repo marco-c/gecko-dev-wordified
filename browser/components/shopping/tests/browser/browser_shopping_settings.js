@@ -735,17 +735,6 @@ sidebar
 open
 .
 *
-*
-Temporarily
-disabled
-;
-see
-bug
-1851891
-for
-details
-.
-*
 /
 add_task
 (
@@ -1409,9 +1398,5 @@ popPrefEnv
 )
 ;
 }
-)
-.
-skip
-(
 )
 ;
