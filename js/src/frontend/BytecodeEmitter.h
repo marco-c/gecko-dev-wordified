@@ -8075,7 +8075,7 @@ ParseNode
 callee
 CallNode
 *
-call
+maybeCall
 CallOrNewEmitter
 &
 cone
