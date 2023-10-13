@@ -1397,7 +1397,7 @@ full
 hour
 offsets
 .
-const
+var
 msPerHour
 =
 60
@@ -2421,7 +2421,7 @@ if
 mozExtensions
 )
 {
-let
+var
 pattern
 =
 GetOption

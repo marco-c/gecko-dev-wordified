@@ -10671,7 +10671,7 @@ TypedArrayName
 ]
 ]
 .
-let
+var
 constructor
 =
 ConstructorForTypedArray

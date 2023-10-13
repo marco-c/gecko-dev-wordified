@@ -89,7 +89,7 @@ Steps
 -
 2
 .
-const
+var
 result
 =
 ArgumentsLength
@@ -1382,7 +1382,7 @@ IteratorHelperReturn
 Step
 1
 .
-let
+var
 O
 =
 this
@@ -1441,7 +1441,7 @@ Steps
 -
 6
 .
-const
+var
 generator
 =
 UnsafeGetReservedSlot

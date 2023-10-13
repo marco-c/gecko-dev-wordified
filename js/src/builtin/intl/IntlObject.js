@@ -301,7 +301,7 @@ CanonicalizeLocaleList
 locales
 )
 .
-const
+var
 requestedLocales
 =
 CanonicalizeLocaleList
@@ -309,7 +309,7 @@ CanonicalizeLocaleList
 locales
 )
 ;
-const
+var
 DateTimeFormat
 =
 dateTimeFormatInternalProperties
@@ -331,7 +331,7 @@ localeData
 ]
 ]
 .
-const
+var
 localeData
 =
 DateTimeFormat
@@ -349,7 +349,7 @@ a
 new
 Record
 .
-const
+var
 localeOpt
 =
 new_Record
@@ -419,7 +419,7 @@ relevantExtensionKeys
 localeData
 )
 .
-const
+var
 r
 =
 ResolveLocale
@@ -453,7 +453,7 @@ locale
 ]
 )
 .
-const
+var
 result
 =
 intl_GetCalendarInfo

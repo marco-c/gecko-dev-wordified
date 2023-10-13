@@ -411,7 +411,7 @@ Step
 .
 *
 /
-let
+var
 dc
 =
 ToInteger
@@ -530,7 +530,7 @@ Step
 .
 *
 /
-let
+var
 E
 =
 list
@@ -597,7 +597,7 @@ Step
 .
 *
 /
-let
+var
 E
 =
 GetArgument
@@ -692,7 +692,7 @@ Step
 .
 *
 /
-let
+var
 E
 =
 list
@@ -842,7 +842,7 @@ Step
 .
 *
 /
-let
+var
 E
 =
 T
@@ -1113,7 +1113,7 @@ Step
 .
 *
 /
-let
+var
 E
 =
 GetArgument
@@ -1584,7 +1584,7 @@ TupleJoin
 separator
 )
 {
-let
+var
 T
 =
 ThisTupleValue
@@ -1596,7 +1596,7 @@ this
 /
 Step
 2
-let
+var
 len
 =
 TupleLength
@@ -1625,7 +1625,7 @@ separator
 )
 )
 {
-let
+var
 toString
 =
 IsCallable
@@ -1701,7 +1701,7 @@ sep
 /
 Step
 7b
-let
+var
 element
 =
 T
@@ -1728,7 +1728,7 @@ element
 )
 )
 {
-let
+var
 toString
 =
 IsCallable
@@ -3604,7 +3604,7 @@ Step
 5
 *
 /
-let
+var
 usingIterator
 =
 GetMethod
@@ -3640,7 +3640,7 @@ Step
 .
 *
 /
-let
+var
 adder
 =
 function
@@ -3820,7 +3820,7 @@ Step
 8
 *
 /
-let
+var
 arrayLike
 =
 ToObject
@@ -3834,7 +3834,7 @@ Step
 9
 *
 /
-let
+var
 len
 =
 ToLength
@@ -3871,7 +3871,7 @@ Step
 10b
 *
 /
-let
+var
 kValue
 =
 arrayLike
@@ -3887,7 +3887,7 @@ Step
 d
 *
 /
-let
+var
 mappedValue
 =
 mapping

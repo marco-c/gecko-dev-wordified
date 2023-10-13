@@ -2036,7 +2036,7 @@ the
 spec
 algorithm
 .
-const
+var
 obj
 =
 {
@@ -2044,7 +2044,7 @@ obj
 ;
 for
 (
-const
+var
 pair
 of
 allowContentIter

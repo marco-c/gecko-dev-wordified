@@ -758,7 +758,7 @@ this
 Step
 2
 .
-let
+var
 str
 =
 ToString
@@ -773,7 +773,7 @@ Steps
 -
 4
 .
-let
+var
 intMaxLength
 =
 ToLength
@@ -781,7 +781,7 @@ ToLength
 maxLength
 )
 ;
-let
+var
 strLen
 =
 str
@@ -829,7 +829,7 @@ undefined
 "
 )
 ;
-let
+var
 filler
 =
 ToString
@@ -904,7 +904,7 @@ JSMSG_RESULTING_STRING_TOO_LARGE
 Step
 9
 .
-let
+var
 fillLen
 =
 intMaxLength
@@ -940,7 +940,7 @@ bailouts
 in
 ToInteger
 .
-let
+var
 truncatedStringFiller
 =
 callFunction

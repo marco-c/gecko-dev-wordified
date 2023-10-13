@@ -197,7 +197,7 @@ value
 Step
 3
 .
-const
+var
 iterator
 =
 iteratorRecord
@@ -209,7 +209,7 @@ iterator
 Step
 4
 .
-const
+var
 returnMethod
 =
 iterator
@@ -230,7 +230,7 @@ returnMethod
 )
 )
 {
-const
+var
 result
 =
 await
@@ -325,7 +325,7 @@ obj
 Step
 2
 .
-const
+var
 nextMethod
 =
 obj
@@ -420,7 +420,7 @@ obj
 Step
 2
 .
-const
+var
 nextMethod
 =
 obj
@@ -524,7 +524,7 @@ return
 value
 )
 {
-const
+var
 returnMethod
 =
 obj
@@ -576,7 +576,7 @@ AsyncIteratorHelperNext
 value
 )
 {
-let
+var
 O
 =
 this
@@ -616,7 +616,7 @@ AsyncIteratorHelperNext
 )
 ;
 }
-const
+var
 generator
 =
 UnsafeGetReservedSlot
@@ -640,7 +640,7 @@ AsyncIteratorHelperReturn
 value
 )
 {
-let
+var
 O
 =
 this
@@ -680,7 +680,7 @@ AsyncIteratorHelperReturn
 )
 ;
 }
-const
+var
 generator
 =
 UnsafeGetReservedSlot
@@ -704,7 +704,7 @@ AsyncIteratorHelperThrow
 value
 )
 {
-let
+var
 O
 =
 this
@@ -744,7 +744,7 @@ AsyncIteratorHelperThrow
 )
 ;
 }
-const
+var
 generator
 =
 UnsafeGetReservedSlot
@@ -846,7 +846,7 @@ mapper
 Step
 1
 .
-const
+var
 iterated
 =
 GetIteratorDirect
@@ -879,14 +879,14 @@ mapper
 )
 ;
 }
-const
+var
 iteratorHelper
 =
 NewAsyncIteratorHelper
 (
 )
 ;
-const
+var
 generator
 =
 AsyncIteratorMapGenerator
@@ -941,7 +941,7 @@ mapper
 Step
 1
 .
-let
+var
 lastValue
 ;
 /
@@ -949,7 +949,7 @@ lastValue
 Step
 2
 .
-let
+var
 needClose
 =
 true
@@ -964,7 +964,7 @@ false
 ;
 for
 (
-let
+var
 next
 =
 await
@@ -994,7 +994,7 @@ lastValue
 Step
 c
 .
-const
+var
 value
 =
 next
@@ -1069,7 +1069,7 @@ filterer
 Step
 1
 .
-const
+var
 iterated
 =
 GetIteratorDirect
@@ -1102,14 +1102,14 @@ filterer
 )
 ;
 }
-const
+var
 iteratorHelper
 =
 NewAsyncIteratorHelper
 (
 )
 ;
-const
+var
 generator
 =
 AsyncIteratorFilterGenerator
@@ -1164,7 +1164,7 @@ filterer
 Step
 1
 .
-let
+var
 lastValue
 ;
 /
@@ -1172,7 +1172,7 @@ lastValue
 Step
 2
 .
-let
+var
 needClose
 =
 true
@@ -1187,7 +1187,7 @@ false
 ;
 for
 (
-let
+var
 next
 =
 await
@@ -1217,7 +1217,7 @@ lastValue
 Step
 c
 .
-const
+var
 value
 =
 next
@@ -1299,7 +1299,7 @@ limit
 Step
 1
 .
-const
+var
 iterated
 =
 GetIteratorDirect
@@ -1312,7 +1312,7 @@ this
 Step
 2
 .
-const
+var
 remaining
 =
 ToInteger
@@ -1338,14 +1338,14 @@ JSMSG_NEGATIVE_LIMIT
 )
 ;
 }
-const
+var
 iteratorHelper
 =
 NewAsyncIteratorHelper
 (
 )
 ;
-const
+var
 generator
 =
 AsyncIteratorTakeGenerator
@@ -1400,7 +1400,7 @@ remaining
 Step
 1
 .
-let
+var
 lastValue
 ;
 /
@@ -1408,7 +1408,7 @@ lastValue
 Step
 2
 .
-let
+var
 needClose
 =
 true
@@ -1433,7 +1433,7 @@ remaining
 -
 )
 {
-const
+var
 next
 =
 await
@@ -1454,7 +1454,7 @@ return
 undefined
 ;
 }
-const
+var
 value
 =
 next
@@ -1525,7 +1525,7 @@ limit
 Step
 1
 .
-const
+var
 iterated
 =
 GetIteratorDirect
@@ -1538,7 +1538,7 @@ this
 Step
 2
 .
-const
+var
 remaining
 =
 ToInteger
@@ -1564,14 +1564,14 @@ JSMSG_NEGATIVE_LIMIT
 )
 ;
 }
-const
+var
 iteratorHelper
 =
 NewAsyncIteratorHelper
 (
 )
 ;
-const
+var
 generator
 =
 AsyncIteratorDropGenerator
@@ -1621,7 +1621,7 @@ iterated
 remaining
 )
 {
-let
+var
 needClose
 =
 true
@@ -1651,7 +1651,7 @@ remaining
 -
 )
 {
-const
+var
 next
 =
 await
@@ -1676,7 +1676,7 @@ return
 Step
 2
 .
-let
+var
 lastValue
 ;
 /
@@ -1686,7 +1686,7 @@ Step
 .
 for
 (
-let
+var
 next
 =
 await
@@ -1718,7 +1718,7 @@ c
 -
 d
 .
-const
+var
 value
 =
 next
@@ -1780,7 +1780,7 @@ AsyncIteratorAsIndexedPairs
 Step
 1
 .
-const
+var
 iterated
 =
 GetIteratorDirect
@@ -1788,14 +1788,14 @@ GetIteratorDirect
 this
 )
 ;
-const
+var
 iteratorHelper
 =
 NewAsyncIteratorHelper
 (
 )
 ;
-const
+var
 generator
 =
 AsyncIteratorAsIndexedPairsGenerator
@@ -1843,7 +1843,7 @@ AsyncIteratorAsIndexedPairsGenerator
 iterated
 )
 {
-let
+var
 needClose
 =
 true
@@ -1861,7 +1861,7 @@ false
 Step
 2
 .
-let
+var
 lastValue
 ;
 /
@@ -1871,7 +1871,7 @@ Step
 .
 for
 (
-let
+var
 next
 =
 await
@@ -1909,7 +1909,7 @@ c
 -
 g
 .
-const
+var
 value
 =
 next
@@ -1975,7 +1975,7 @@ mapper
 Step
 1
 .
-const
+var
 iterated
 =
 GetIteratorDirect
@@ -2008,14 +2008,14 @@ mapper
 )
 ;
 }
-const
+var
 iteratorHelper
 =
 NewAsyncIteratorHelper
 (
 )
 ;
-const
+var
 generator
 =
 AsyncIteratorFlatMapGenerator
@@ -2065,7 +2065,7 @@ iterated
 mapper
 )
 {
-let
+var
 needClose
 =
 true
@@ -2085,7 +2085,7 @@ Step
 .
 for
 (
-let
+var
 next
 =
 await
@@ -2113,7 +2113,7 @@ iterated
 Step
 c
 .
-const
+var
 value
 =
 next
@@ -2129,7 +2129,7 @@ true
 Step
 d
 .
-const
+var
 mapped
 =
 await
@@ -2150,7 +2150,7 @@ k
 for
 await
 (
-const
+var
 innerValue
 of
 allowContentIter
@@ -2215,7 +2215,7 @@ initialValue
 Step
 1
 .
-const
+var
 iterated
 =
 GetAsyncIteratorDirectWrapper
@@ -2253,7 +2253,7 @@ reducer
 Step
 3
 .
-let
+var
 accumulator
 ;
 if
@@ -2272,7 +2272,7 @@ ArgumentsLength
 Step
 a
 .
-const
+var
 next
 =
 await
@@ -2357,7 +2357,7 @@ Step
 for
 await
 (
-const
+var
 value
 of
 allowContentIter
@@ -2419,7 +2419,7 @@ AsyncIteratorToArray
 Step
 1
 .
-const
+var
 iterated
 =
 {
@@ -2444,13 +2444,13 @@ this
 Step
 2
 .
-const
+var
 items
 =
 [
 ]
 ;
-let
+var
 index
 =
 0
@@ -2463,7 +2463,7 @@ Step
 for
 await
 (
-const
+var
 value
 of
 allowContentIter
@@ -2522,7 +2522,7 @@ fn
 Step
 1
 .
-const
+var
 iterated
 =
 GetAsyncIteratorDirectWrapper
@@ -2563,7 +2563,7 @@ Step
 for
 await
 (
-const
+var
 value
 of
 allowContentIter
@@ -2615,7 +2615,7 @@ fn
 Step
 1
 .
-const
+var
 iterated
 =
 GetAsyncIteratorDirectWrapper
@@ -2656,7 +2656,7 @@ Step
 for
 await
 (
-const
+var
 value
 of
 allowContentIter
@@ -2723,7 +2723,7 @@ fn
 Step
 1
 .
-const
+var
 iterated
 =
 GetAsyncIteratorDirectWrapper
@@ -2764,7 +2764,7 @@ Step
 for
 await
 (
-const
+var
 value
 of
 allowContentIter
@@ -2834,7 +2834,7 @@ fn
 Step
 1
 .
-const
+var
 iterated
 =
 GetAsyncIteratorDirectWrapper
@@ -2875,7 +2875,7 @@ Step
 for
 await
 (
-const
+var
 value
 of
 allowContentIter

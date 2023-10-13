@@ -4313,7 +4313,7 @@ steps
 when
 called
 :
-let
+var
 fromAsyncClosure
 =
 async
@@ -4429,7 +4429,7 @@ asyncItems
 asyncIterator
 )
 .
-let
+var
 usingAsyncIterator
 =
 asyncItems
@@ -4456,7 +4456,7 @@ usingAsyncIterator
 undefined
 ;
 }
-let
+var
 usingSyncIterator
 =
 undefined
@@ -4853,7 +4853,7 @@ ArrayCreate
 0
 )
 .
-let
+var
 A
 =
 IsConstructor
@@ -4884,7 +4884,7 @@ k
 be
 0
 .
-let
+var
 k
 =
 0
@@ -4902,7 +4902,7 @@ Repeat
 for
 await
 (
-let
+var
 nextValue
 of
 allowContentIterWith
@@ -5124,7 +5124,7 @@ nextValue
 (
 Reordered
 )
-let
+var
 mappedValue
 =
 nextValue
@@ -5494,7 +5494,7 @@ ToObject
 asyncItems
 )
 .
-let
+var
 arrayLike
 =
 ToObject
@@ -5520,7 +5520,7 @@ LengthOfArrayLike
 arrayLike
 )
 .
-let
+var
 len
 =
 ToLength
@@ -5600,7 +5600,7 @@ ArrayCreate
 len
 )
 .
-let
+var
 A
 =
 IsConstructor
@@ -5634,7 +5634,7 @@ k
 be
 0
 .
-let
+var
 k
 =
 0
@@ -5723,7 +5723,7 @@ Await
 kValue
 )
 .
-let
+var
 kValue
 =
 await
@@ -5814,7 +5814,7 @@ mappedValue
 be
 kValue
 .
-let
+var
 mappedValue
 =
 mapping

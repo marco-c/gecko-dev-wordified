@@ -174,7 +174,7 @@ Steps
 -
 11
 .
-const
+var
 r
 =
 ResolveLocale
@@ -662,7 +662,7 @@ subset
 of
 them
 .
-const
+var
 lazyRelativeTimeFormatData
 =
 std_Object_create
@@ -675,7 +675,7 @@ null
 Step
 1
 .
-let
+var
 requestedLocales
 =
 CanonicalizeLocaleList
@@ -728,7 +728,7 @@ options
 Step
 4
 .
-let
+var
 opt
 =
 new_Record
@@ -742,7 +742,7 @@ Steps
 -
 6
 .
-let
+var
 matcher
 =
 GetOption
@@ -782,7 +782,7 @@ Steps
 -
 9
 .
-let
+var
 numberingSystem
 =
 GetOption
@@ -840,7 +840,7 @@ Steps
 -
 17
 .
-const
+var
 style
 =
 GetOption
@@ -881,7 +881,7 @@ Steps
 -
 19
 .
-const
+var
 numeric
 =
 GetOption
@@ -1026,7 +1026,7 @@ RelativeTimeFormat
 Step
 2
 .
-let
+var
 requestedLocales
 =
 CanonicalizeLocaleList
@@ -1109,7 +1109,7 @@ unit
 Step
 1
 .
-let
+var
 relativeTimeFormat
 =
 this
@@ -1160,7 +1160,7 @@ Intl_RelativeTimeFormat_format
 Step
 3
 .
-let
+var
 t
 =
 ToNumber
@@ -1173,7 +1173,7 @@ value
 Step
 4
 .
-let
+var
 u
 =
 ToString
@@ -1256,7 +1256,7 @@ unit
 Step
 1
 .
-let
+var
 relativeTimeFormat
 =
 this
@@ -1307,7 +1307,7 @@ Intl_RelativeTimeFormat_formatToParts
 Step
 3
 .
-let
+var
 t
 =
 ToNumber
@@ -1320,7 +1320,7 @@ value
 Step
 4
 .
-let
+var
 u
 =
 ToString

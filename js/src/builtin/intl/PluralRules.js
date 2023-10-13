@@ -226,7 +226,7 @@ localeData
 Step
 10
 .
-const
+var
 r
 =
 ResolveLocale
@@ -1040,7 +1040,7 @@ subset
 of
 them
 .
-const
+var
 lazyPluralRulesData
 =
 std_Object_create
@@ -1053,7 +1053,7 @@ null
 Step
 1
 .
-let
+var
 requestedLocales
 =
 CanonicalizeLocaleList
@@ -1111,7 +1111,7 @@ options
 Step
 3
 .
-let
+var
 opt
 =
 new_Record
@@ -1131,7 +1131,7 @@ Steps
 -
 5
 .
-let
+var
 matcher
 =
 GetOption
@@ -1171,7 +1171,7 @@ Steps
 -
 7
 .
-const
+var
 type
 =
 GetOption
@@ -1376,7 +1376,7 @@ PluralRules
 Step
 2
 .
-let
+var
 requestedLocales
 =
 CanonicalizeLocaleList
@@ -1468,7 +1468,7 @@ value
 Step
 1
 .
-let
+var
 pluralRules
 =
 this
@@ -1518,7 +1518,7 @@ Intl_PluralRules_select
 Step
 3
 .
-let
+var
 n
 =
 ToNumber

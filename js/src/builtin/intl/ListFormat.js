@@ -799,7 +799,7 @@ Steps
 -
 8
 .
-let
+var
 matcher
 =
 GetOption
