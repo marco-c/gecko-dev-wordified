@@ -165,6 +165,12 @@ using
 namespace
 mozilla
 ;
+using
+testing
+:
+:
+ContainerEq
+;
 namespace
 {
 #
@@ -1123,7 +1129,7 @@ requestFrames
 )
 )
 ;
-nsTArray
+CopyableTArray
 <
 AudioDataValue
 >
@@ -1168,7 +1174,7 @@ GetDuration
 requestFrames
 )
 ;
-nsTArray
+CopyableTArray
 <
 AudioDataValue
 >
@@ -1205,10 +1211,13 @@ requestFrames
 )
 )
 ;
-EXPECT_EQ
+EXPECT_THAT
 (
 actual
+ContainerEq
+(
 expected
+)
 )
 ;
 }
