@@ -1053,8 +1053,6 @@ notification
 secondary
 -
 button
-panel
--
 footer
 -
 button
@@ -1076,8 +1074,6 @@ popup
 notification
 -
 dropmarker
-panel
--
 footer
 -
 button
@@ -1146,8 +1142,6 @@ primary
 -
 button
 primary
-panel
--
 footer
 -
 button
