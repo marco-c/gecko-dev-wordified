@@ -53001,7 +53001,7 @@ refBox
 nsLayoutUtils
 :
 :
-ComputeGeometryBox
+ComputeClipPathGeometryBox
 (
 frame
 clipPath
@@ -53522,7 +53522,7 @@ refBox
 nsLayoutUtils
 :
 :
-ComputeGeometryBox
+ComputeClipPathGeometryBox
 (
 frame
 clipPath
