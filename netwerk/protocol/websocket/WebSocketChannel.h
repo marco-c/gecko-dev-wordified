@@ -1650,11 +1650,6 @@ mRecvdHttpUpgradeTransport
 1
 ;
 uint32_t
-mAutoFollowRedirects
-:
-1
-;
-uint32_t
 mAllowPMCE
 :
 1
