@@ -10811,8 +10811,8 @@ print
 "
 To
 view
-resource
-usage
+a
+profile
 of
 the
 build
