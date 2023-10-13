@@ -376,11 +376,6 @@ at
 -
 rules
 "
-"
-pseudo
--
-classes
-"
 ]
 }
 ]
