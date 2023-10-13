@@ -205,7 +205,7 @@ INTEL_ARCHITECTURE
 DEFINES
 [
 '
-USE_SSE
+_USE_SSE
 '
 ]
 =
@@ -213,7 +213,7 @@ True
 DEFINES
 [
 '
-USE_SSE2
+_USE_SSE2
 '
 ]
 =
@@ -269,7 +269,7 @@ BUILD_ARM_NEON
 DEFINES
 [
 '
-USE_NEON
+_USE_NEON
 '
 ]
 =
