@@ -720,6 +720,7 @@ widget
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 nsEventStatus
 DispatchSynthesizedMouseEvent
@@ -848,6 +849,7 @@ widget
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 void
 FireSingleTapEvent
