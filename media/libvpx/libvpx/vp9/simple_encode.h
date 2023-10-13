@@ -2580,7 +2580,6 @@ GOP
 i
 .
 e
-.
 the
 AltRef
 frame

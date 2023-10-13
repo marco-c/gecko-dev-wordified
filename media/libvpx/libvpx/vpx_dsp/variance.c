@@ -1186,7 +1186,7 @@ W
 \
 DECLARE_ALIGNED
 (
-32
+16
 uint8_t
 temp3
 [
@@ -1396,7 +1396,7 @@ and
 returns
 sse
 in
-addition
+addtion
 to
 modifying
 the

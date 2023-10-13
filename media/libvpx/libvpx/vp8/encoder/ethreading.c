@@ -3287,12 +3287,12 @@ segmentation_enabled
 zd
 -
 >
-mb_segment_abs_delta
+mb_segement_abs_delta
 =
 xd
 -
 >
-mb_segment_abs_delta
+mb_segement_abs_delta
 ;
 memcpy
 (

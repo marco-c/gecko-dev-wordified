@@ -180,7 +180,7 @@ struct
 {
 /
 /
-26
+25
 double
 members
 ;
@@ -214,7 +214,7 @@ const
 int
 kDbl
 =
-26
+25
 ;
 const
 int
@@ -326,11 +326,11 @@ sz
 0
 ;
 }
+virtual
 ~
 VPxFirstPassEncoderThreadTest
 (
 )
-override
 {
 free
 (
@@ -340,11 +340,11 @@ buf
 )
 ;
 }
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -386,6 +386,7 @@ rc_min_quantizer
 0
 ;
 }
+virtual
 void
 BeginPassHook
 (
@@ -397,7 +398,6 @@ pass
 *
 /
 )
-override
 {
 encoder_initialized_
 =
@@ -408,11 +408,11 @@ abort_
 false
 ;
 }
+virtual
 void
 EndPassHook
 (
 )
-override
 {
 /
 /
@@ -445,6 +445,7 @@ abort_
 first_pass_only_
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -469,7 +470,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -576,6 +576,7 @@ true
 ;
 }
 }
+virtual
 void
 StatsPktHook
 (
@@ -584,7 +585,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 const
 uint8_t
@@ -1320,7 +1320,7 @@ compare_fp_stats
 (
 &
 firstpass_stats_
-400
+1000
 .
 0
 )
@@ -1400,7 +1400,7 @@ compare_fp_stats
 (
 &
 firstpass_stats_
-400
+1000
 .
 0
 )
@@ -1599,19 +1599,18 @@ nframes_
 0
 ;
 }
+virtual
 ~
 VPxEncoderThreadTest
 (
 )
-override
-=
-default
-;
+{
+}
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -1688,6 +1687,7 @@ rc_min_quantizer
 0
 ;
 }
+virtual
 void
 BeginPassHook
 (
@@ -1699,7 +1699,6 @@ pass
 *
 /
 )
-override
 {
 encoder_initialized_
 =
@@ -1716,6 +1715,7 @@ nframes_
 0
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -1740,7 +1740,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -1868,6 +1867,7 @@ true
 ;
 }
 }
+virtual
 void
 PSNRPktHook
 (
@@ -1876,7 +1876,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 psnr_
 +
@@ -1898,6 +1897,7 @@ nframes_
 +
 ;
 }
+virtual
 void
 DecompressedFrameHook
 (
@@ -1912,7 +1912,6 @@ pts
 *
 /
 )
-override
 {
 :
 :
@@ -1942,6 +1941,7 @@ Get
 )
 ;
 }
+virtual
 bool
 HandleDecodeResult
 (
@@ -1970,7 +1970,6 @@ decoder
 *
 /
 )
-override
 {
 if
 (

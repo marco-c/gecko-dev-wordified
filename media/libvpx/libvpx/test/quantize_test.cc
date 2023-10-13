@@ -807,11 +807,11 @@ AbstractBench
 {
 protected
 :
+virtual
 void
 SetUp
 (
 )
-override
 {
 SetupCompressor
 (
@@ -832,11 +832,11 @@ GET_PARAM
 )
 ;
 }
+virtual
 void
 Run
 (
 )
-override
 {
 asm_quant_
 (

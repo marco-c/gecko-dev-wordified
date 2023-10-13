@@ -204,11 +204,11 @@ IdctFunc
 {
 protected
 :
+virtual
 void
 SetUp
 (
 )
-override
 {
 UUT
 =
@@ -304,11 +304,11 @@ Init
 )
 ;
 }
+virtual
 void
 TearDown
 (
 )
-override
 {
 delete
 input

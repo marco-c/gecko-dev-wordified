@@ -102,7 +102,7 @@ vpx_mem
 h
 "
 void
-vp8_update_gf_usage_maps
+vp8_update_gf_useage_maps
 (
 VP8_COMP
 *
@@ -168,7 +168,7 @@ refresh_golden_frame
 *
 Reset
 Gf
-usage
+useage
 monitors
 *
 /

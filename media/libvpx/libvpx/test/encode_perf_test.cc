@@ -484,19 +484,18 @@ threads_
 )
 {
 }
+virtual
 ~
 VP9EncodePerfTest
 (
 )
-override
-=
-default
-;
+{
+}
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -586,6 +585,7 @@ g_threads
 threads_
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -606,7 +606,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -665,6 +664,7 @@ VP8E_SET_ENABLEAUTOALTREF
 ;
 }
 }
+virtual
 void
 BeginPassHook
 (
@@ -676,7 +676,6 @@ pass
 *
 /
 )
-override
 {
 min_psnr_
 =
@@ -687,6 +686,7 @@ nframes_
 0
 ;
 }
+virtual
 void
 PSNRPktHook
 (
@@ -695,7 +695,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 if
 (
@@ -739,12 +738,12 @@ don
 '
 t
 decode
+virtual
 bool
 DoDecode
 (
 )
 const
-override
 {
 return
 false

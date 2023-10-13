@@ -1500,7 +1500,7 @@ ref_frame
 1
 ]
 =
-NO_REF_FRAME
+NONE
 ;
 switch
 (
@@ -2262,7 +2262,7 @@ reference_mode
 /
 Read
 the
-reference
+referncence
 frame
 static
 void
@@ -2345,7 +2345,7 @@ ref_frame
 1
 ]
 =
-NO_REF_FRAME
+NONE
 ;
 }
 else
@@ -2606,7 +2606,7 @@ ref_frame
 1
 ]
 =
-NO_REF_FRAME
+NONE
 ;
 }
 else
@@ -3010,7 +3010,7 @@ ref_frame
 1
 ]
 =
-NO_REF_FRAME
+NONE
 ;
 }
 static
@@ -5487,7 +5487,7 @@ VPX_CODEC_UNSUP_BITSTREAM
 Invalid
 usage
 of
-segment
+segement
 feature
 on
 small

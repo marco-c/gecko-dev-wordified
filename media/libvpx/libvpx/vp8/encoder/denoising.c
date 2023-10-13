@@ -1017,8 +1017,7 @@ the
 sum
 could
 be
-up
-to
+upto
 128
 (
 16

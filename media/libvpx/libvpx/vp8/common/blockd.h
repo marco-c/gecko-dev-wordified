@@ -1255,7 +1255,7 @@ data
 /
 unsigned
 char
-mb_segment_abs_delta
+mb_segement_abs_delta
 ;
 /
 *

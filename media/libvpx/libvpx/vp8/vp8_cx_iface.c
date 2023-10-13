@@ -8707,13 +8707,13 @@ rc_scaled_height
 60
 /
 *
-rc_resize_down_thresh
+rc_resize_down_thresold
 *
 /
 30
 /
 *
-rc_resize_up_thresh
+rc_resize_up_thresold
 *
 /
 VPX_VBR

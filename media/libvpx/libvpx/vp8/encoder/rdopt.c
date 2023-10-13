@@ -6770,9 +6770,7 @@ sufficiently
 good
 that
 we
-can
-'
-t
+cant
 justify
 *
 doing
@@ -14225,9 +14223,7 @@ so
 far
 *
 then
-don
-'
-t
+dont
 bother
 looking
 at

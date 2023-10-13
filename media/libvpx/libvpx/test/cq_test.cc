@@ -374,19 +374,18 @@ init_flags_
 VPX_CODEC_USE_PSNR
 ;
 }
+virtual
 ~
 CQTest
 (
 )
-override
-=
-default
-;
+{
+}
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -401,6 +400,7 @@ kTwoPassGood
 )
 ;
 }
+virtual
 void
 BeginPassHook
 (
@@ -412,7 +412,6 @@ pass
 *
 /
 )
-override
 {
 file_size_
 =
@@ -429,6 +428,7 @@ n_frames_
 0
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -445,7 +445,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -491,6 +490,7 @@ VP8E_SET_CPUUSED
 ;
 }
 }
+virtual
 void
 PSNRPktHook
 (
@@ -499,7 +499,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 psnr_
 +
@@ -531,6 +530,7 @@ n_frames_
 +
 ;
 }
+virtual
 void
 FramePktHook
 (
@@ -539,7 +539,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 file_size_
 +

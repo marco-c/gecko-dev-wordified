@@ -204,9 +204,8 @@ Vp8RCTestVideo
 Vp8RCTestVideo
 (
 )
-=
-default
-;
+{
+}
 Vp8RCTestVideo
 (
 const
@@ -397,21 +396,20 @@ false
 )
 {
 }
+virtual
 ~
 Vp8RcInterfaceTest
 (
 )
-override
-=
-default
-;
+{
+}
 protected
 :
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -747,6 +745,7 @@ return
 layer_id
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -767,7 +766,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -977,6 +975,7 @@ test_video_
 frames
 ;
 }
+virtual
 void
 PostEncodeFrameHook
 (
@@ -989,7 +988,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -1032,6 +1030,7 @@ qp
 )
 ;
 }
+virtual
 void
 FramePktHook
 (
@@ -1040,7 +1039,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 rc_api_
 -

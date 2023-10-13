@@ -4159,7 +4159,7 @@ nonrd_use_ml_partition
 Multiplier
 for
 base
-threshold
+thresold
 for
 variance
 partitioning

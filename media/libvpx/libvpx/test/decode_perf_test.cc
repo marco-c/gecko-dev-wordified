@@ -996,7 +996,7 @@ speed_
 )
 outfile_
 (
-nullptr
+0
 )
 out_frames_
 (
@@ -1004,19 +1004,18 @@ out_frames_
 )
 {
 }
+virtual
 ~
 VP9NewEncodeDecodePerfTest
 (
 )
-override
-=
-default
-;
+{
+}
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -1094,6 +1093,7 @@ rc_end_usage
 VPX_VBR
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -1114,7 +1114,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -1158,6 +1157,7 @@ VP9E_SET_TILE_COLUMNS
 ;
 }
 }
+virtual
 void
 BeginPassHook
 (
@@ -1169,7 +1169,6 @@ pass
 *
 /
 )
-override
 {
 const
 std
@@ -1221,11 +1220,11 @@ nullptr
 )
 ;
 }
+virtual
 void
 EndPassHook
 (
 )
-override
 {
 if
 (
@@ -1267,6 +1266,7 @@ nullptr
 ;
 }
 }
+virtual
 void
 FramePktHook
 (
@@ -1275,7 +1275,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 +
 +
@@ -1372,12 +1371,12 @@ sz
 )
 ;
 }
+virtual
 bool
 DoDecode
 (
 )
 const
-override
 {
 return
 false

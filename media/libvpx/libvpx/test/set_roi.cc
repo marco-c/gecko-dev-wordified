@@ -345,7 +345,7 @@ mb
 .
 e_mbd
 .
-mb_segment_abs_delta
+mb_segement_abs_delta
 =
 SEGMENT_DELTADATA
 ;

@@ -218,19 +218,18 @@ GET_PARAM
 )
 {
 }
+virtual
 ~
 LosslessTest
 (
 )
-override
-=
-default
-;
+{
+}
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -242,6 +241,7 @@ encoding_mode_
 )
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -262,7 +262,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -325,6 +324,7 @@ VP9E_SET_LOSSLESS
 }
 }
 }
+virtual
 void
 BeginPassHook
 (
@@ -336,7 +336,6 @@ pass
 *
 /
 )
-override
 {
 psnr_
 =
@@ -347,6 +346,7 @@ nframes_
 0
 ;
 }
+virtual
 void
 PSNRPktHook
 (
@@ -355,7 +355,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 if
 (

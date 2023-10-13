@@ -469,11 +469,11 @@ GET_PARAM
 )
 ;
 }
+virtual
 void
 TearDown
 (
 )
-override
 {
 libvpx_test
 :

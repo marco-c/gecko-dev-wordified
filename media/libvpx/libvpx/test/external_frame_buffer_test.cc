@@ -1359,11 +1359,11 @@ num_buffers_
 )
 {
 }
+virtual
 ~
 ExternalFrameBufferMD5Test
 (
 )
-override
 {
 if
 (
@@ -1378,6 +1378,7 @@ md5_file_
 )
 ;
 }
+virtual
 void
 PreDecodeFrameHook
 (
@@ -1395,7 +1396,6 @@ Decoder
 *
 decoder
 )
-override
 {
 if
 (
@@ -1493,6 +1493,7 @@ Filename
 md5_file_name_
 ;
 }
+virtual
 void
 DecompressedFrameHook
 (
@@ -1505,7 +1506,6 @@ unsigned
 int
 frame_number
 )
-override
 {
 ASSERT_NE
 (
@@ -1874,11 +1874,11 @@ num_buffers_
 )
 {
 }
+virtual
 void
 SetUp
 (
 )
-override
 {
 video_
 =
@@ -1937,11 +1937,11 @@ nullptr
 )
 ;
 }
+virtual
 void
 TearDown
 (
 )
-override
 {
 delete
 decoder_
@@ -2218,11 +2218,11 @@ ExternalFrameBufferTest
 {
 protected
 :
+virtual
 void
 SetUp
 (
 )
-override
 {
 video_
 =

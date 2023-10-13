@@ -189,19 +189,18 @@ GET_PARAM
 )
 {
 }
+virtual
 ~
 KeyframeTest
 (
 )
-override
-=
-default
-;
+{
+}
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -232,6 +231,7 @@ set_cpu_used_
 0
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -252,7 +252,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -304,6 +303,7 @@ set_cpu_used_
 ;
 }
 }
+virtual
 void
 FramePktHook
 (
@@ -312,7 +312,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 if
 (

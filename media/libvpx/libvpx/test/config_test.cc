@@ -191,19 +191,18 @@ frame_count_max_
 )
 {
 }
+virtual
 ~
 ConfigTest
 (
 )
-override
-=
-default
-;
+{
+}
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -218,6 +217,7 @@ GET_PARAM
 )
 ;
 }
+virtual
 void
 BeginPassHook
 (
@@ -229,7 +229,6 @@ pass
 *
 /
 )
-override
 {
 frame_count_in_
 =
@@ -240,6 +239,7 @@ frame_count_out_
 0
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -254,7 +254,6 @@ video
 *
 /
 )
-override
 {
 +
 +
@@ -271,6 +270,7 @@ frame_count_max_
 )
 ;
 }
+virtual
 void
 FramePktHook
 (
@@ -283,7 +283,6 @@ pkt
 *
 /
 )
-override
 {
 +
 +

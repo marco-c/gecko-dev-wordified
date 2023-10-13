@@ -189,19 +189,18 @@ GET_PARAM
 )
 {
 }
+virtual
 ~
 BordersTest
 (
 )
-override
-=
-default
-;
+{
+}
+virtual
 void
 SetUp
 (
 )
-override
 {
 InitializeConfig
 (
@@ -216,6 +215,7 @@ GET_PARAM
 )
 ;
 }
+virtual
 void
 PreEncodeFrameHook
 (
@@ -236,7 +236,6 @@ Encoder
 *
 encoder
 )
-override
 {
 if
 (
@@ -298,6 +297,7 @@ VP8E_SET_ARNR_TYPE
 ;
 }
 }
+virtual
 void
 FramePktHook
 (
@@ -306,7 +306,6 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
-override
 {
 if
 (

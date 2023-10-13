@@ -500,13 +500,13 @@ flag
 }
 protected
 :
+virtual
 vpx_codec_iface_t
 *
 CodecInterface
 (
 )
 const
-override
 {
 #
 if
@@ -560,13 +560,13 @@ stats
 }
 protected
 :
+virtual
 vpx_codec_iface_t
 *
 CodecInterface
 (
 )
 const
-override
 {
 #
 if
@@ -602,6 +602,7 @@ CodecFactory
 )
 {
 }
+virtual
 Decoder
 *
 CreateDecoder
@@ -610,7 +611,6 @@ vpx_codec_dec_cfg_t
 cfg
 )
 const
-override
 {
 return
 CreateDecoder
@@ -620,6 +620,7 @@ cfg
 )
 ;
 }
+virtual
 Decoder
 *
 CreateDecoder
@@ -631,7 +632,6 @@ vpx_codec_flags_t
 flags
 )
 const
-override
 {
 #
 if
@@ -662,6 +662,7 @@ nullptr
 #
 endif
 }
+virtual
 Encoder
 *
 CreateEncoder
@@ -680,7 +681,6 @@ TwopassStatsStore
 stats
 )
 const
-override
 {
 #
 if
@@ -723,6 +723,7 @@ nullptr
 #
 endif
 }
+virtual
 vpx_codec_err_t
 DefaultEncoderConfig
 (
@@ -733,7 +734,6 @@ int
 usage
 )
 const
-override
 {
 #
 if
@@ -893,13 +893,13 @@ flag
 }
 protected
 :
+virtual
 vpx_codec_iface_t
 *
 CodecInterface
 (
 )
 const
-override
 {
 #
 if
@@ -953,13 +953,13 @@ stats
 }
 protected
 :
+virtual
 vpx_codec_iface_t
 *
 CodecInterface
 (
 )
 const
-override
 {
 #
 if
@@ -995,6 +995,7 @@ CodecFactory
 )
 {
 }
+virtual
 Decoder
 *
 CreateDecoder
@@ -1003,7 +1004,6 @@ vpx_codec_dec_cfg_t
 cfg
 )
 const
-override
 {
 return
 CreateDecoder
@@ -1013,6 +1013,7 @@ cfg
 )
 ;
 }
+virtual
 Decoder
 *
 CreateDecoder
@@ -1024,7 +1025,6 @@ vpx_codec_flags_t
 flags
 )
 const
-override
 {
 #
 if
@@ -1055,6 +1055,7 @@ nullptr
 #
 endif
 }
+virtual
 Encoder
 *
 CreateEncoder
@@ -1073,7 +1074,6 @@ TwopassStatsStore
 stats
 )
 const
-override
 {
 #
 if
@@ -1116,6 +1116,7 @@ nullptr
 #
 endif
 }
+virtual
 vpx_codec_err_t
 DefaultEncoderConfig
 (
@@ -1126,7 +1127,6 @@ int
 usage
 )
 const
-override
 {
 #
 if
