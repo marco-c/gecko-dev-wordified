@@ -36744,6 +36744,9 @@ nsIInputStream
 *
 *
 aNewPostData
+bool
+*
+outWasSchemelessInput
 )
 {
 if
@@ -37432,6 +37435,14 @@ getter_AddRefs
 (
 newURI
 )
+)
+;
+info
+-
+>
+GetWasSchemelessInput
+(
+outWasSchemelessInput
 )
 ;
 if
