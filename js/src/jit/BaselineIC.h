@@ -1650,6 +1650,17 @@ stubCode_
 )
 ;
 }
+bool
+hasJitCode
+(
+)
+{
+return
+!
+!
+stubCode_
+;
+}
 uint32_t
 enteredCount
 (
