@@ -93,7 +93,7 @@ exports
 const
 MAX_CANVAS_DIMENSION
 =
-32767
+32766
 ;
 communication
 .
