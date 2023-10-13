@@ -396,7 +396,7 @@ CordRepBtree
 :
 kMaxCapacity
 ;
-int
+size_t
 counts
 [
 ]
@@ -424,7 +424,7 @@ cap
 ;
 for
 (
-int
+size_t
 count
 :
 counts
@@ -612,7 +612,7 @@ remaining
 )
 Eq
 (
-0
+0u
 )
 )
 ;
@@ -673,7 +673,7 @@ CordRepBtree
 :
 kMaxCapacity
 ;
-int
+size_t
 counts
 [
 ]
@@ -701,7 +701,7 @@ cap
 ;
 for
 (
-int
+size_t
 count
 :
 counts
@@ -1034,7 +1034,7 @@ remaining
 )
 Eq
 (
-0
+0u
 )
 )
 ;
@@ -1068,7 +1068,7 @@ CordRepBtree
 :
 kMaxCapacity
 ;
-int
+size_t
 counts
 [
 ]
@@ -1096,7 +1096,7 @@ cap
 ;
 for
 (
-int
+size_t
 count
 :
 counts
@@ -1322,7 +1322,7 @@ remaining
 )
 Eq
 (
-0
+0u
 )
 )
 ;
@@ -1348,7 +1348,7 @@ remaining
 )
 Eq
 (
-0
+0u
 )
 )
 ;
@@ -1473,7 +1473,7 @@ remaining
 )
 Eq
 (
-10
+10u
 )
 )
 ;
@@ -1563,7 +1563,7 @@ remaining
 )
 Eq
 (
-0
+0u
 )
 )
 ;
@@ -1648,7 +1648,7 @@ remaining
 )
 Eq
 (
-10
+10u
 )
 )
 ;
@@ -1752,7 +1752,7 @@ remaining
 )
 Eq
 (
-10
+10u
 )
 )
 ;
@@ -1848,7 +1848,7 @@ remaining
 )
 Eq
 (
-5
+5u
 )
 )
 ;
@@ -1949,7 +1949,7 @@ remaining
 )
 Eq
 (
-0
+0u
 )
 )
 ;
@@ -2042,7 +2042,7 @@ remaining
 )
 Eq
 (
-0
+0u
 )
 )
 ;
@@ -2084,7 +2084,7 @@ CordRepBtree
 :
 kMaxCapacity
 ;
-int
+size_t
 counts
 [
 ]
@@ -2111,7 +2111,7 @@ cap
 ;
 for
 (
-int
+size_t
 count
 :
 counts

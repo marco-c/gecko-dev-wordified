@@ -6201,7 +6201,7 @@ The
 operation
 object
 (
-passsed
+passed
 in
 via
 tester

@@ -1103,6 +1103,11 @@ X_VAL
 (
 p
 )
+X_SEP
+X_VAL
+(
+v
+)
 /
 /
 clang
@@ -1279,6 +1284,7 @@ A
 float
 n
 p
+v
 /
 /
 misc
@@ -1698,7 +1704,7 @@ public
 /
 Width
 and
-precison
+precision
 are
 not
 specified
@@ -1858,6 +1864,18 @@ conv_
 ;
 return
 conv_
+;
+}
+void
+set_conversion_char
+(
+FormatConversionChar
+c
+)
+{
+conv_
+=
+c
 ;
 }
 /

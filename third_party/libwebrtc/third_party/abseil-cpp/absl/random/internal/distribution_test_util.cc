@@ -2050,7 +2050,7 @@ Use
 the
 soper
 reduction
-forumla
+formula
 .
 double
 rx
@@ -2192,7 +2192,7 @@ NOTE
 See
 also
 TOMS
-Alogrithm
+Algorithm
 708
 .
 /
@@ -2317,7 +2317,7 @@ XINBTA
 p
 q
 beta
-alhpa
+alpha
 )
 /
 /

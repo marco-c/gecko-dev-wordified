@@ -1627,7 +1627,7 @@ const
 Validates
 supplied
 value
-usign
+using
 validator
 or
 parseflag

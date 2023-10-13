@@ -389,6 +389,13 @@ defined
 (
 __wasm__
 )
+|
+|
+\
+defined
+(
+__hexagon__
+)
 #
 define
 ABSL_LOW_LEVEL_ALLOC_ASYNC_SIGNAL_SAFE_MISSING
@@ -849,7 +856,7 @@ Arena
 *
 NewArena
 (
-int32_t
+uint32_t
 flags
 )
 ;

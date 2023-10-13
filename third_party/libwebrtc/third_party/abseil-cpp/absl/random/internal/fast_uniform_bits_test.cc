@@ -1679,7 +1679,7 @@ constants
 need
 to
 be
-choosen
+chosen
 so
 that
 an

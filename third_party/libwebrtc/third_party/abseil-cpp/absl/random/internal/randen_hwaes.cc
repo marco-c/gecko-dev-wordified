@@ -290,7 +290,7 @@ ABSL_HAVE_ACCELERATED_AES
 /
 The
 following
-plaforms
+platforms
 have
 implemented
 RandenHwAes

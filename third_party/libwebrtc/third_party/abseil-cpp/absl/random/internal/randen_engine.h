@@ -1179,7 +1179,7 @@ which
 /
 /
 implies
-prefering
+preferring
 seed
 bytes
 [

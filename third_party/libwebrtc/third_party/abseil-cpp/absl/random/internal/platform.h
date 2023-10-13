@@ -1366,7 +1366,7 @@ selecting
 the
 /
 /
-acclerated
+accelerated
 Randen
 implementation
 .

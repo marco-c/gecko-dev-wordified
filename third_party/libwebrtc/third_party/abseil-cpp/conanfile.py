@@ -320,6 +320,7 @@ txt
 project
 (
 absl
+LANGUAGES
 CXX
 )
 "
@@ -327,6 +328,7 @@ CXX
 project
 (
 absl
+LANGUAGES
 CXX
 )
 \

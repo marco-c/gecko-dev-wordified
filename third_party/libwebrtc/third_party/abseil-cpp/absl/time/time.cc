@@ -585,6 +585,7 @@ q
 1
 ;
 }
+ABSL_INTERNAL_DISABLE_DEPRECATED_DECLARATION_WARNING
 inline
 absl
 :
@@ -815,6 +816,7 @@ return
 bd
 ;
 }
+ABSL_INTERNAL_RESTORE_DEPRECATED_DECLARATION_WARNING
 inline
 absl
 :
@@ -940,6 +942,7 @@ return
 ci
 ;
 }
+ABSL_INTERNAL_DISABLE_DEPRECATED_DECLARATION_WARNING
 inline
 absl
 :
@@ -1049,6 +1052,7 @@ return
 tc
 ;
 }
+ABSL_INTERNAL_RESTORE_DEPRECATED_DECLARATION_WARNING
 /
 /
 Makes
@@ -1080,7 +1084,7 @@ tz
 to
 check
 for
-overlow
+overflow
 .
 Time
 MakeTimeWithOverflow
@@ -1560,6 +1564,7 @@ namespace
 Time
 /
 /
+ABSL_INTERNAL_DISABLE_DEPRECATED_DECLARATION_WARNING
 absl
 :
 :
@@ -1818,6 +1823,7 @@ return
 bd
 ;
 }
+ABSL_INTERNAL_RESTORE_DEPRECATED_DECLARATION_WARNING
 /
 /
 /
@@ -2413,12 +2419,23 @@ ts
 .
 tv_sec
 =
+static_cast
+<
+decltype
+(
+ts
+.
+tv_sec
+)
+>
+(
 time_internal
 :
 :
 GetRepHi
 (
 d
+)
 )
 ;
 if
@@ -2562,9 +2579,20 @@ tv
 .
 tv_sec
 =
+static_cast
+<
+decltype
+(
+tv
+.
+tv_sec
+)
+>
+(
 ts
 .
 tv_sec
+)
 ;
 if
 (
@@ -3235,6 +3263,7 @@ zones
 .
 /
 /
+ABSL_INTERNAL_DISABLE_DEPRECATED_DECLARATION_WARNING
 absl
 :
 :
@@ -3490,6 +3519,7 @@ return
 tc
 ;
 }
+ABSL_INTERNAL_RESTORE_DEPRECATED_DECLARATION_WARNING
 absl
 :
 :

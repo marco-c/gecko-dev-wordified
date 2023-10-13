@@ -1374,8 +1374,9 @@ optional
 (
 )
 noexcept
-{
-}
+=
+default
+;
 /
 /
 Constructs
@@ -3251,6 +3252,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 this
 -
@@ -3432,6 +3434,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 this
 -
@@ -3676,6 +3679,7 @@ operator
 (
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 ABSL_HARDENING_ASSERT
 (
@@ -3705,6 +3709,7 @@ operator
 >
 (
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 ABSL_HARDENING_ASSERT
 (
@@ -3770,6 +3775,7 @@ operator
 )
 const
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 ABSL_HARDENING_ASSERT
@@ -3791,6 +3797,7 @@ operator
 (
 )
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 ABSL_HARDENING_ASSERT
 (
@@ -3818,6 +3825,7 @@ operator
 const
 &
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 ABSL_HARDENING_ASSERT
@@ -3847,6 +3855,7 @@ operator
 )
 &
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 ABSL_HARDENING_ASSERT
 (
@@ -4114,6 +4123,7 @@ value
 )
 const
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 static_cast
@@ -4148,6 +4158,7 @@ value
 (
 )
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 static_cast
@@ -4184,6 +4195,7 @@ value
 )
 &
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 /
 /
@@ -4240,6 +4252,7 @@ value
 const
 &
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 /
 /

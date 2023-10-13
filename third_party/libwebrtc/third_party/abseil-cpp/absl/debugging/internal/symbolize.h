@@ -808,7 +808,6 @@ progress
 bool
 RemoveAllSymbolDecorators
 (
-void
 )
 ;
 /

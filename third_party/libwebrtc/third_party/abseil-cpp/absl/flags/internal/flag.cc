@@ -1539,7 +1539,7 @@ the
 declaration
 /
 /
-visibile
+visible
 at
 the
 call
@@ -1825,7 +1825,7 @@ setting
 init
 '
 bit
-manualy
+manually
 .
 int64_t
 one_word_val
@@ -2962,7 +2962,7 @@ type
 specific
 op_
 .
-size_t
+ptrdiff_t
 offset
 =
 flags_internal
@@ -3566,7 +3566,7 @@ dst
 )
 const
 {
-int
+size_t
 size
 =
 Sizeof

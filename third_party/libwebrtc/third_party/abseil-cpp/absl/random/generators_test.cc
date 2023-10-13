@@ -479,7 +479,7 @@ to
 double
 /
 /
-Explict
+Explicit
 overriding
 of
 types

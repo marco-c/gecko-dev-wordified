@@ -459,8 +459,9 @@ LeakCheckDisabler
 LeakCheckDisabler
 (
 )
-{
-}
+=
+default
+;
 LeakCheckDisabler
 :
 :
@@ -468,8 +469,9 @@ LeakCheckDisabler
 LeakCheckDisabler
 (
 )
-{
-}
+=
+default
+;
 ABSL_NAMESPACE_END
 }
 /

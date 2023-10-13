@@ -1174,7 +1174,7 @@ buffer_size
 0
 )
 {
-int
+ssize_t
 bytes_read
 =
 read
@@ -1210,7 +1210,13 @@ bytes_read
 buffer_size
 -
 =
+static_cast
+<
+size_t
+>
+(
 bytes_read
+)
 ;
 }
 else

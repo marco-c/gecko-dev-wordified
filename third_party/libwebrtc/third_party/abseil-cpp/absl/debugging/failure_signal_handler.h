@@ -696,7 +696,7 @@ stack
 space
 has
 been
-exausted
+exhausted
 .
 The
 downside

@@ -290,7 +290,7 @@ false
 when
 cordz
 is
-diabled
+disabled
 so
 we
 might

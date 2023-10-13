@@ -2059,11 +2059,17 @@ ch
 )
 {
 return
+static_cast
+<
+unsigned
+>
+(
 ch
 -
 '
 0
 '
+)
 ;
 }
 template
@@ -2080,6 +2086,11 @@ ch
 )
 {
 return
+static_cast
+<
+unsigned
+>
+(
 kAsciiToInt
 [
 static_cast
@@ -2091,6 +2102,7 @@ char
 ch
 )
 ]
+)
 ;
 }
 template

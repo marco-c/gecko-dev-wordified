@@ -165,8 +165,9 @@ FlagStateInterface
 FlagStateInterface
 (
 )
-{
-}
+=
+default
+;
 }
 /
 /

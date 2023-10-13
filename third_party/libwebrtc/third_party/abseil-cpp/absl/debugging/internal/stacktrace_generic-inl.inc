@@ -622,7 +622,13 @@ sizeof
 sizes
 )
 *
+static_cast
+<
+size_t
+>
+(
 result_count
+)
 )
 ;
 }

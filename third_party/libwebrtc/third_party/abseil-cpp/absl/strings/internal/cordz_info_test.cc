@@ -980,7 +980,7 @@ DeleteQueue
 )
 SizeIs
 (
-0
+0u
 )
 )
 ;
@@ -2156,6 +2156,11 @@ local_stack
 .
 resize
 (
+static_cast
+<
+size_t
+>
+(
 absl
 :
 :
@@ -2174,6 +2179,7 @@ skip_count
 *
 /
 1
+)
 )
 )
 ;

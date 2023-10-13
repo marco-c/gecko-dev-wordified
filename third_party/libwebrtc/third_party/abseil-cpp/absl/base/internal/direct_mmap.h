@@ -482,7 +482,7 @@ int
 flags
 int
 fd
-off64_t
+off_t
 offset
 )
 noexcept
@@ -723,9 +723,15 @@ length
 prot
 flags
 fd
+static_cast
+<
+size_t
+>
+(
 offset
 /
 pagesize
+)
 )
 ;
 #
@@ -747,7 +753,8 @@ flags
 fd
 static_cast
 <
-off_t
+unsigned
+long
 >
 (
 offset
@@ -757,6 +764,9 @@ pagesize
 )
 )
 ;
+/
+/
+NOLINT
 #
 endif
 #

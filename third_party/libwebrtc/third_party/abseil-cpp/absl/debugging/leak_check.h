@@ -584,7 +584,7 @@ must
 also
 pass
 -
-DLEAK_SANIITIZER
+DLEAK_SANITIZER
 to
 the
 compiler

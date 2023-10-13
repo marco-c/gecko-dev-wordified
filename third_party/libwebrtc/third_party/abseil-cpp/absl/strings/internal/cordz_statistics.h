@@ -370,7 +370,7 @@ size
 (
 )
 .
-int64_t
+size_t
 size
 =
 0
@@ -417,7 +417,7 @@ not
 been
 recorded
 .
-int64_t
+size_t
 estimated_memory_usage
 =
 0
@@ -524,7 +524,7 @@ not
 been
 recorded
 .
-int64_t
+size_t
 estimated_fair_share_memory_usage
 =
 0
@@ -600,7 +600,7 @@ not
 been
 recorded
 .
-int64_t
+size_t
 node_count
 =
 0

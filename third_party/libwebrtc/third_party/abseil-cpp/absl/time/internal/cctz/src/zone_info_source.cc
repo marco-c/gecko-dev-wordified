@@ -470,6 +470,14 @@ defined
 (
 __MINGW32__
 )
+&
+&
+\
+!
+defined
+(
+__CYGWIN__
+)
 ZoneInfoSourceFactory
 zone_info_source_factory
 __attribute__

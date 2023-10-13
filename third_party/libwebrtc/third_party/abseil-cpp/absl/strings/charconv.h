@@ -176,7 +176,7 @@ ABSL_NAMESPACE_BEGIN
 /
 /
 Workalike
-compatibilty
+compatibility
 version
 of
 std
@@ -380,7 +380,7 @@ ec
 /
 /
 Workalike
-compatibilty
+compatibility
 version
 of
 std

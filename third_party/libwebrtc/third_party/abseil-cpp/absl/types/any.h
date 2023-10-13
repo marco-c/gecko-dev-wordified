@@ -772,6 +772,17 @@ absl
 /
 base
 /
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 config
 .
 h
@@ -3210,6 +3221,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 reset
 (
@@ -3524,6 +3536,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 reset
 (

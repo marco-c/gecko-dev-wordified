@@ -500,6 +500,17 @@ Tree
 :
 node_handle_type
 ;
+struct
+extract_and_get_next_return_type
+{
+node_type
+node
+;
+iterator
+next
+;
+}
+;
 /
 /
 Constructors
@@ -713,6 +724,7 @@ iterator
 begin
 (
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -727,6 +739,7 @@ begin
 (
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -741,6 +754,7 @@ cbegin
 (
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -754,6 +768,7 @@ iterator
 end
 (
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -768,6 +783,7 @@ end
 (
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -782,6 +798,7 @@ cend
 (
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -795,6 +812,7 @@ reverse_iterator
 rbegin
 (
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -809,6 +827,7 @@ rbegin
 (
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -823,6 +842,7 @@ crbegin
 (
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -836,6 +856,7 @@ reverse_iterator
 rend
 (
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -850,6 +871,7 @@ rend
 (
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -864,6 +886,7 @@ crend
 (
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -910,18 +933,13 @@ key
 )
 ;
 return
-std
-:
-:
-distance
-(
-equal_range
-.
-first
 equal_range
 .
 second
-)
+-
+equal_range
+.
+first
 ;
 }
 template
@@ -942,6 +960,7 @@ K
 &
 key
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -971,6 +990,7 @@ K
 key
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -1031,6 +1051,7 @@ K
 &
 key
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -1060,6 +1081,7 @@ K
 key
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -1088,6 +1110,7 @@ K
 &
 key
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -1117,6 +1140,7 @@ K
 key
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -1152,6 +1176,7 @@ K
 &
 key
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -1188,6 +1213,7 @@ K
 key
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -1282,6 +1308,7 @@ erase
 const_iterator
 iter
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -1301,6 +1328,7 @@ erase
 iterator
 iter
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -1319,6 +1347,7 @@ first
 const_iterator
 last
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 tree_
@@ -1389,6 +1418,79 @@ first
 Extract
 routines
 .
+extract_and_get_next_return_type
+extract_and_get_next
+(
+const_iterator
+position
+)
+ABSL_ATTRIBUTE_LIFETIME_BOUND
+{
+/
+/
+Use
+Construct
+instead
+of
+Transfer
+because
+the
+rebalancing
+code
+will
+/
+/
+destroy
+the
+slot
+later
+.
+/
+/
+Note
+:
+we
+rely
+on
+erase
+(
+)
+taking
+place
+after
+Construct
+(
+)
+.
+return
+{
+CommonAccess
+:
+:
+Construct
+<
+node_type
+>
+(
+get_allocator
+(
+)
+iterator
+(
+position
+)
+.
+slot
+(
+)
+)
+erase
+(
+position
+)
+}
+;
+}
 node_type
 extract
 (
@@ -2267,6 +2369,7 @@ value_type
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 this
@@ -2302,6 +2405,7 @@ value_type
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 this
@@ -2354,6 +2458,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 /
 /
@@ -2440,6 +2545,7 @@ value_type
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 this
@@ -2476,6 +2582,7 @@ value_type
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 this
@@ -2529,6 +2636,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 /
 /
@@ -2680,6 +2788,7 @@ node_type
 &
 node
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 if
 (
@@ -2796,6 +2905,7 @@ node_type
 &
 node
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 if
 (
@@ -3409,6 +3519,7 @@ M
 &
 obj
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_impl
@@ -3453,6 +3564,7 @@ M
 &
 obj
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_impl
@@ -3506,6 +3618,7 @@ M
 &
 obj
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_impl
@@ -3563,6 +3676,7 @@ M
 &
 obj
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_impl
@@ -3616,6 +3730,7 @@ M
 &
 obj
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_hint_impl
@@ -3656,6 +3771,7 @@ M
 &
 obj
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_hint_impl
@@ -3705,6 +3821,7 @@ M
 &
 obj
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_hint_impl
@@ -3758,6 +3875,7 @@ M
 &
 obj
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 insert_or_assign_hint_impl
@@ -3845,6 +3963,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 try_emplace_impl
@@ -3925,6 +4044,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 try_emplace_impl
@@ -3987,6 +4107,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 try_emplace_hint_impl
@@ -4041,6 +4162,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 try_emplace_hint_impl
@@ -4093,6 +4215,7 @@ K
 &
 k
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 try_emplace
@@ -4127,6 +4250,7 @@ K
 &
 k
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 try_emplace
@@ -4168,6 +4292,7 @@ K
 &
 key
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 auto
 it
@@ -4236,6 +4361,7 @@ K
 key
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 auto
 it
@@ -5037,6 +5163,7 @@ value_type
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 this
@@ -5058,6 +5185,7 @@ value_type
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 this
@@ -5087,6 +5215,7 @@ value_type
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 this
@@ -5114,6 +5243,7 @@ value_type
 &
 v
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 return
 this
@@ -5215,6 +5345,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 /
 /
@@ -5299,6 +5430,7 @@ Args
 .
 args
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 /
 /
@@ -5374,6 +5506,7 @@ node_type
 &
 node
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 if
 (
@@ -5443,6 +5576,7 @@ node_type
 &
 node
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 {
 if
 (

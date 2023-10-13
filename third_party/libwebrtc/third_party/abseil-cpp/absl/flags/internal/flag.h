@@ -1022,7 +1022,7 @@ of
 input
 text
 is
-successfull
+successful
 .
 inline
 bool
@@ -1174,7 +1174,7 @@ Returns
 fast
 type
 id
-coresponding
+corresponding
 to
 the
 value
@@ -1213,7 +1213,7 @@ Returns
 fast
 type
 id
-coresponding
+corresponding
 to
 the
 value
@@ -1893,7 +1893,7 @@ absl
 Flag
 .
 No
-additionl
+additional
 code
 is
 generated
@@ -1948,7 +1948,7 @@ delays
 the
 evaluation
 by
-returing
+returning
 the
 function
 /
@@ -1961,7 +1961,7 @@ T
 :
 NonConst
 )
-genering
+generating
 the
 help
 message
@@ -2581,10 +2581,7 @@ std
 integral_constant
 <
 bool
-absl
-:
-:
-type_traits_internal
+std
 :
 :
 is_trivially_copyable
@@ -2632,10 +2629,7 @@ std
 integral_constant
 <
 bool
-absl
-:
-:
-type_traits_internal
+std
 :
 :
 is_trivially_copyable
@@ -2672,10 +2666,7 @@ std
 integral_constant
 <
 bool
-absl
-:
-:
-type_traits_internal
+std
 :
 :
 is_trivially_copyable

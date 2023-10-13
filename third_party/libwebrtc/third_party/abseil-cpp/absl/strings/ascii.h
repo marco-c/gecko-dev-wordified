@@ -654,6 +654,11 @@ algorithm
 #
 include
 <
+cstddef
+>
+#
+include
+<
 string
 >
 #

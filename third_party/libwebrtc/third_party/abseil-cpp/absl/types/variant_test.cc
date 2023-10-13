@@ -1930,7 +1930,7 @@ valueless_by_exception
 ;
 ASSERT_EQ
 (
-0
+0u
 x
 .
 index
@@ -1993,7 +1993,7 @@ valueless_by_exception
 ;
 ASSERT_EQ
 (
-0
+0u
 x
 .
 index
@@ -2059,7 +2059,7 @@ valueless_by_exception
 ;
 ASSERT_EQ
 (
-0
+0u
 x
 .
 index
@@ -2123,7 +2123,7 @@ valueless_by_exception
 ;
 ASSERT_EQ
 (
-0
+0u
 x
 .
 index
@@ -3884,7 +3884,7 @@ string
 "
 ABC
 "
-2
+2u
 )
 ;
 ASSERT_TRUE
@@ -4153,7 +4153,7 @@ string
 "
 ABC
 "
-2
+2u
 )
 ;
 ASSERT_TRUE
@@ -4558,7 +4558,7 @@ in_place_index_t
 "
 ABC
 "
-2
+2u
 )
 ;
 ASSERT_TRUE
@@ -4856,7 +4856,7 @@ in_place_index
 "
 ABC
 "
-2
+2u
 )
 ;
 ASSERT_TRUE
@@ -5701,7 +5701,7 @@ long_str
 ;
 ASSERT_EQ
 (
-1
+1u
 so
 .
 index
@@ -5732,7 +5732,7 @@ so
 ;
 ASSERT_EQ
 (
-1
+1u
 so
 .
 index
@@ -8024,7 +8024,7 @@ v
 ;
 EXPECT_EQ
 (
-0
+0u
 v
 .
 index
@@ -8040,7 +8040,7 @@ str
 ;
 EXPECT_EQ
 (
-1
+1u
 v
 .
 index
@@ -8055,7 +8055,7 @@ v
 ;
 EXPECT_EQ
 (
-2
+2u
 v
 .
 index
@@ -8070,7 +8070,7 @@ v
 ;
 EXPECT_EQ
 (
-2
+2u
 v2
 .
 index
@@ -8090,7 +8090,7 @@ int
 ;
 EXPECT_EQ
 (
-0
+0u
 v2
 .
 index
@@ -8231,7 +8231,7 @@ in_place_index
 ;
 EXPECT_EQ
 (
-0
+0u
 v
 .
 index
@@ -8265,7 +8265,7 @@ str
 ;
 EXPECT_EQ
 (
-1
+1u
 v
 .
 index
@@ -8811,7 +8811,7 @@ int
 ;
 EXPECT_EQ
 (
-1
+1u
 absl
 :
 :
@@ -8826,7 +8826,7 @@ value
 ;
 EXPECT_EQ
 (
-1
+1u
 absl
 :
 :
@@ -8842,7 +8842,7 @@ value
 ;
 EXPECT_EQ
 (
-1
+1u
 absl
 :
 :
@@ -8858,7 +8858,7 @@ value
 ;
 EXPECT_EQ
 (
-1
+1u
 absl
 :
 :
@@ -8890,7 +8890,7 @@ int
 ;
 EXPECT_EQ
 (
-3
+3u
 absl
 :
 :
@@ -8905,7 +8905,7 @@ value
 ;
 EXPECT_EQ
 (
-3
+3u
 absl
 :
 :
@@ -8921,7 +8921,7 @@ value
 ;
 EXPECT_EQ
 (
-3
+3u
 absl
 :
 :
@@ -8937,7 +8937,7 @@ value
 ;
 EXPECT_EQ
 (
-3
+3u
 absl
 :
 :
@@ -15197,7 +15197,7 @@ piece
 struct
 StrLen
 {
-int
+size_t
 operator
 (
 )
@@ -15216,7 +15216,7 @@ s
 )
 ;
 }
-int
+size_t
 operator
 (
 )
@@ -15249,7 +15249,7 @@ SomeStr
 ;
 EXPECT_EQ
 (
-7
+7u
 absl
 :
 :
@@ -15276,7 +15276,7 @@ VeryLargeThisTime
 ;
 EXPECT_EQ
 (
-17
+17u
 absl
 :
 :
@@ -17095,7 +17095,7 @@ var
 index
 (
 )
-0
+0u
 )
 ;
 }
@@ -18192,7 +18192,7 @@ hashcodes
 size
 (
 )
-90
+90u
 )
 ;
 /
@@ -20276,7 +20276,7 @@ variant
 uint32_t
 >
 (
-42
+42u
 )
 )
 ;
@@ -20296,7 +20296,7 @@ variant2
 ;
 EXPECT_EQ
 (
-42
+42u
 absl
 :
 :
@@ -20779,7 +20779,7 @@ uint32_t
 >
 source6
 (
-42
+42u
 )
 ;
 variant2
@@ -20812,7 +20812,7 @@ variant2
 ;
 EXPECT_EQ
 (
-42
+42u
 absl
 :
 :
@@ -21834,7 +21834,7 @@ variant
 uint32_t
 >
 (
-42
+42u
 )
 )
 ;
@@ -21853,7 +21853,7 @@ variant2
 )
 Pointee
 (
-42
+42u
 )
 )
 ;
@@ -22286,7 +22286,7 @@ uint32_t
 >
 source6
 (
-42
+42u
 )
 ;
 variant2
@@ -22318,7 +22318,7 @@ variant2
 )
 Pointee
 (
-42
+42u
 )
 )
 ;
@@ -23082,7 +23082,7 @@ contents
 .
 ASSERT_EQ
 (
-2
+2u
 another_vec
 .
 size

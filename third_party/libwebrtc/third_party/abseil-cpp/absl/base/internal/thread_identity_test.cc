@@ -723,7 +723,7 @@ ReusedThreadIdentityMutexTest
 /
 This
 test
-repeatly
+repeatedly
 creates
 and
 joins

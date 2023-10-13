@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2017
+2022
 The
 Abseil
 Authors
@@ -150,6 +150,11 @@ h
 #
 include
 <
+memory
+>
+#
+include
+<
 sstream
 >
 #
@@ -166,6 +171,11 @@ tuple
 include
 <
 type_traits
+>
+#
+include
+<
+utility
 >
 #
 include
@@ -1975,11 +1985,6 @@ make_tuple
 42
 )
 )
-:
-:
-testing
-:
-:
 Pointee
 (
 42

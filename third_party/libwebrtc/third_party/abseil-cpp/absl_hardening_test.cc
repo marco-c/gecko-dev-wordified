@@ -5,11 +5,6 @@ Copyright
 The
 Chromium
 Authors
-.
-All
-rights
-reserved
-.
 /
 /
 Use
@@ -572,7 +567,7 @@ v1
 2
 ]
 &
-v
+v1
 [
 0
 ]
@@ -594,7 +589,7 @@ v1
 2
 ]
 &
-v
+v1
 [
 0
 ]

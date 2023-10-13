@@ -1734,7 +1734,7 @@ as
 well
 as
 adjusting
-distribtuion
+distribution
 bounds
 based
 /

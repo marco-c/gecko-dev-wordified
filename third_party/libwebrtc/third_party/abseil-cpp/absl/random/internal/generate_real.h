@@ -665,7 +665,7 @@ real_type
 )
 "
 Mismatched
-unsinged
+unsigned
 and
 real
 types

@@ -730,7 +730,7 @@ saving
 then
 the
 daylight
-abbrevation
+abbreviation
 is
 non
 -
