@@ -1729,6 +1729,10 @@ OnCreatePresShell
 (
 )
 {
+StopRefreshObserver
+(
+)
+;
 if
 (
 !
