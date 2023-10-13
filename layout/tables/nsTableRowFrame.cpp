@@ -5430,15 +5430,6 @@ from
 doReflowChild
 above
 ?
-WritingMode
-wm
-=
-aReflowInput
-.
-GetWritingMode
-(
-)
-;
 NS_ASSERTION
 (
 cellFrame
