@@ -3902,17 +3902,6 @@ off
 "
 mozilla
 /
-reject
--
-importGlobalProperties
-"
-:
-"
-off
-"
-"
-mozilla
-/
 use
 -
 includes
