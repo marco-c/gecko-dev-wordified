@@ -4265,17 +4265,6 @@ AR_STATE
 aRotationState
 )
 ;
-static
-void
-GetClipboardFormatAsString
-(
-UINT
-aFormat
-nsAString
-&
-aOutput
-)
-;
 private
 :
 static
