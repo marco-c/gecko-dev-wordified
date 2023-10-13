@@ -1334,7 +1334,8 @@ videoType
 if
 (
 conversionResult
-<
+!
+=
 0
 )
 {
