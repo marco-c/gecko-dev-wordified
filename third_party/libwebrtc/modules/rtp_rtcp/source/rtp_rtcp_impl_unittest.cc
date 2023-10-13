@@ -2051,11 +2051,12 @@ should
 send
 a
 Receiver
-time
 reference
+time
 report
+block
 (
-RTRR
+RRTR
 )
 .
 EXPECT_EQ
@@ -2084,7 +2085,7 @@ to
 the
 last
 received
-RTRR
+RRTR
 (
 DLRR
 )
