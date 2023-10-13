@@ -226,9 +226,9 @@ for
 name
 :
 {
+name
 }
 "
-name
 )
 ;
 }

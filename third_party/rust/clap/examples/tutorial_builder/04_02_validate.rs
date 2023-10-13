@@ -126,9 +126,9 @@ println
 PORT
 =
 {
+port
 }
 "
-port
 )
 ;
 }
@@ -183,6 +183,7 @@ format
 (
 "
 {
+s
 }
 isn
 '
@@ -191,7 +192,6 @@ a
 port
 number
 "
-s
 )
 )
 ?

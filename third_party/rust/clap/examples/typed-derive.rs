@@ -328,7 +328,7 @@ new
 (
 [
 "
-info
+trace
 "
 "
 debug

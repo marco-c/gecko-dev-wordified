@@ -979,9 +979,9 @@ unwrap
 char
 :
 {
+desc
 }
 "
-desc
 )
 ;
 #
@@ -1169,9 +1169,9 @@ unwrap
 char
 :
 {
+desc
 }
 "
-desc
 )
 ;
 #
