@@ -54551,14 +54551,6 @@ StaticPrefs
 test_events_async_enabled
 (
 )
-&
-&
-StaticPrefs
-:
-:
-test_events_async_mouse_enabled
-(
-)
 )
 {
 status
