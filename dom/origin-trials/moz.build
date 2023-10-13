@@ -191,7 +191,7 @@ mochitest
 /
 mochitest
 .
-ini
+toml
 "
 ]
 EXPORTS
