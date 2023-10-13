@@ -13407,6 +13407,14 @@ script
 ;
 script
 .
+type
+=
+"
+module
+"
+;
+script
+.
 src
 =
 "
@@ -13422,7 +13430,7 @@ build
 /
 pdf
 .
-js
+mjs
 "
 ;
 script
@@ -13515,7 +13523,7 @@ pdf
 .
 worker
 .
-js
+mjs
 "
 ;
 pdfjsLib
