@@ -6675,7 +6675,7 @@ TimeStamp
 nsresult
 rv
 =
-ProcessOutput
+SendData
 (
 socket
 )
@@ -10890,7 +10890,7 @@ rv
 }
 rv
 =
-ProcessOutput
+SendData
 (
 socket
 )
