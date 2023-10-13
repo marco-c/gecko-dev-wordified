@@ -656,11 +656,11 @@ aSourceBuffer
 void
 DoDetachSourceBuffer
 (
+const
 RefPtr
 <
 TrackBuffersManager
 >
-&
 &
 aSourceBuffer
 )
