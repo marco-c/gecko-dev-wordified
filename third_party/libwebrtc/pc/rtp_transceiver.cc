@@ -1511,6 +1511,7 @@ mid
 bool
 use_split_media_channel
 =
+!
 context
 (
 )
@@ -1520,7 +1521,7 @@ field_trials
 (
 )
 .
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
