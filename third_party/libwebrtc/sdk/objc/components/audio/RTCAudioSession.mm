@@ -2145,15 +2145,13 @@ BOOL
 setCategory
 :
 (
-NSString
-*
+AVAudioSessionCategory
 )
 category
 mode
 :
 (
-NSString
-*
+AVAudioSessionMode
 )
 mode
 options
@@ -2213,8 +2211,7 @@ BOOL
 setCategory
 :
 (
-NSString
-*
+AVAudioSessionCategory
 )
 category
 withOptions
@@ -2271,8 +2268,7 @@ BOOL
 setMode
 :
 (
-NSString
-*
+AVAudioSessionMode
 )
 mode
 error
