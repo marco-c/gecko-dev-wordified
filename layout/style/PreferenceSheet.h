@@ -216,16 +216,6 @@ NS_RGB
 0xFF
 )
 ;
-nscolor
-mFocusText
-=
-mDefault
-;
-nscolor
-mFocusBackground
-=
-mDefaultBackground
-;
 }
 mLightColors
 mDarkColors
