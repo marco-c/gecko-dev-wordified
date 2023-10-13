@@ -1192,9 +1192,6 @@ name
 endptr
 )
 ;
-return
-0
-;
 }
 int
 arg_parse_int
@@ -1327,9 +1324,6 @@ name
 *
 endptr
 )
-;
-return
-0
 ;
 }
 struct
@@ -1846,9 +1840,6 @@ arg
 >
 val
 )
-;
-return
-0
 ;
 }
 int

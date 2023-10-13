@@ -282,11 +282,11 @@ VP9_INVERT_TILE_DECODE_ORDER
 )
 ;
 }
-virtual
 ~
 TileIndependenceTest
 (
 )
+override
 {
 delete
 fw_dec_
@@ -295,11 +295,11 @@ delete
 inv_dec_
 ;
 }
-virtual
 void
 SetUp
 (
 )
+override
 {
 InitializeConfig
 (
@@ -314,7 +314,6 @@ kTwoPassGood
 )
 ;
 }
-virtual
 void
 PreEncodeFrameHook
 (
@@ -331,6 +330,7 @@ Encoder
 *
 encoder
 )
+override
 {
 if
 (
@@ -459,7 +459,6 @@ img
 )
 ;
 }
-virtual
 void
 FramePktHook
 (
@@ -468,6 +467,7 @@ vpx_codec_cx_pkt_t
 *
 pkt
 )
+override
 {
 UpdateMD5
 (

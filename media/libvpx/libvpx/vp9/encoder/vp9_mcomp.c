@@ -2605,7 +2605,7 @@ else
 {
 DECLARE_ALIGNED
 (
-16
+32
 uint8_t
 comp_pred
 [
@@ -2718,7 +2718,7 @@ NULL
 {
 DECLARE_ALIGNED
 (
-16
+32
 uint8_t
 comp_pred
 [
@@ -5034,7 +5034,7 @@ NULL
 {
 DECLARE_ALIGNED
 (
-16
+32
 uint8_t
 comp_pred
 [
@@ -5186,7 +5186,7 @@ NULL
 {
 DECLARE_ALIGNED
 (
-16
+32
 uint8_t
 comp_pred
 [
@@ -7279,7 +7279,7 @@ MAX_PATTERN_CANDIDATES
 max
 number
 of
-canddiates
+candidates
 per
 scale
 #
@@ -8057,7 +8057,8 @@ Search
 all
 possible
 scales
-upto
+up
+to
 the
 search
 param
@@ -9535,7 +9536,8 @@ Search
 all
 possible
 scales
-upto
+up
+to
 the
 search
 param

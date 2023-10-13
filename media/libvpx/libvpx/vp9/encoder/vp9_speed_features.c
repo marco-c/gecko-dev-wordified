@@ -402,9 +402,9 @@ that
 over
 which
 they
-propogate
+propagate
 .
-Propogation
+Propagation
 is
 /
 /

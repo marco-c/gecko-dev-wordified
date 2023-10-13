@@ -4118,7 +4118,7 @@ mb
 .
 e_mbd
 .
-mb_segement_abs_delta
+mb_segment_abs_delta
 =
 abs_delta
 ;
@@ -17616,7 +17616,7 @@ printf
 "
 \
 n_frames
-recive_data
+receive_data
 encod_mb_row
 compress_frame
 Total
@@ -21184,7 +21184,7 @@ a
 pop
 in
 intra
-useage
+usage
 anyway
 hence
 this
@@ -28083,7 +28083,9 @@ avg_frame_qindex
 For
 constrained
 quality
-dont
+don
+'
+t
 allow
 Q
 less
@@ -28278,7 +28280,9 @@ constrained
 quality
 mode
 we
-dont
+don
+'
+t
 want
 *
 q
@@ -28452,7 +28456,7 @@ the
 risk
 of
 a
-devide
+divide
 *
 by
 0
@@ -32692,7 +32696,7 @@ endif
 Update
 the
 GF
-useage
+usage
 maps
 .
 *
@@ -32733,7 +32737,7 @@ number_of_layers
 1
 )
 {
-vp8_update_gf_useage_maps
+vp8_update_gf_usage_maps
 (
 cpi
 cm
@@ -34045,7 +34049,7 @@ reduce
 the
 number
 of
-itterations
+iterations
 around
 the
 *
@@ -35936,7 +35940,9 @@ mode_ref_lf_delta_update
 ;
 /
 *
-Dont
+Don
+'
+t
 increment
 frame
 counters
@@ -38531,7 +38537,9 @@ fc
 /
 *
 if
-its
+it
+'
+s
 a
 dropped
 frame

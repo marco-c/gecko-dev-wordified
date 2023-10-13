@@ -364,18 +364,19 @@ GET_PARAM
 )
 {
 }
-virtual
 ~
 VpxEncoderParmsGetToDecoder
 (
 )
-{
-}
-virtual
+override
+=
+default
+;
 void
 SetUp
 (
 )
+override
 {
 InitializeConfig
 (
@@ -427,7 +428,6 @@ test_video_
 bitrate
 ;
 }
-virtual
 void
 PreEncodeFrameHook
 (
@@ -448,6 +448,7 @@ Encoder
 *
 encoder
 )
+override
 {
 if
 (
@@ -609,7 +610,6 @@ render_size
 }
 }
 }
-virtual
 bool
 HandleDecodeResult
 (
@@ -634,6 +634,7 @@ Decoder
 *
 decoder
 )
+override
 {
 vpx_codec_ctx_t
 *

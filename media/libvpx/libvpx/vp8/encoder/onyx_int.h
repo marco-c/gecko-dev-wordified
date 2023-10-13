@@ -1504,7 +1504,7 @@ current_gf_interval
 Total
 bits
 overspent
-becasue
+because
 of
 GF
 boost

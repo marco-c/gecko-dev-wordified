@@ -2434,7 +2434,7 @@ set_ref_ptrs
 cm
 filter_mbd
 saved_frame
-NONE
+NO_REF_FRAME
 )
 ;
 vp9_build_inter_predictors_sby
@@ -3031,6 +3031,7 @@ high
 i
 .
 e
+.
 >
 4
 )

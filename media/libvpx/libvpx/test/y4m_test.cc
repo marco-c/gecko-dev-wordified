@@ -527,11 +527,11 @@ Y4mVideoSource
 )
 {
 }
-virtual
 ~
 Y4mVideoSourceTest
 (
 )
+override
 {
 CloseSource
 (
@@ -965,11 +965,11 @@ nullptr
 )
 {
 }
-virtual
 ~
 Y4mVideoWriteTest
 (
 )
+override
 {
 delete
 tmpfile_
@@ -1171,7 +1171,6 @@ file
 )
 ;
 }
-virtual
 void
 Init
 (
@@ -1185,6 +1184,7 @@ file_name
 int
 limit
 )
+override
 {
 Y4mVideoSourceTest
 :

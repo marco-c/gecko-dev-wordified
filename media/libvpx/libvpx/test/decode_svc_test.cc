@@ -192,14 +192,14 @@ kCodecFactoryParam
 )
 {
 }
-virtual
 ~
 DecodeSvcTest
 (
 )
-{
-}
-virtual
+override
+=
+default
+;
 void
 PreDecodeFrameHook
 (
@@ -217,6 +217,7 @@ Decoder
 *
 decoder
 )
+override
 {
 if
 (
@@ -239,7 +240,6 @@ spatial_layer_
 )
 ;
 }
-virtual
 void
 DecompressedFrameHook
 (
@@ -252,6 +252,7 @@ unsigned
 int
 frame_number
 )
+override
 {
 ASSERT_EQ
 (

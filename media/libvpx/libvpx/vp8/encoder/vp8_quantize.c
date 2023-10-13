@@ -3320,7 +3320,7 @@ if
 xd
 -
 >
-mb_segement_abs_delta
+mb_segment_abs_delta
 =
 =
 SEGMENT_ABSDATA

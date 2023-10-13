@@ -352,11 +352,11 @@ nullptr
 )
 {
 }
-virtual
 void
 SetUp
 (
 )
+override
 {
 video_
 =
@@ -421,11 +421,11 @@ kVP9Md5File
 )
 ;
 }
-virtual
 void
 TearDown
 (
 )
+override
 {
 if
 (
