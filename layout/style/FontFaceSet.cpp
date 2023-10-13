@@ -3091,6 +3091,10 @@ AsyncEventDispatcher
 (
 this
 event
+.
+forget
+(
+)
 )
 )
 -

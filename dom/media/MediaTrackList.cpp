@@ -976,6 +976,10 @@ AsyncEventDispatcher
 (
 this
 event
+.
+forget
+(
+)
 )
 ;
 asyncDispatcher
