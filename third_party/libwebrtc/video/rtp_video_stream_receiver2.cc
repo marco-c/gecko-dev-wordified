@@ -2111,6 +2111,7 @@ RtpVideoStreamReceiverFrameTransformerDelegate
 >
 (
 this
+clock_
 std
 :
 :
@@ -6119,6 +6120,7 @@ RtpVideoStreamReceiverFrameTransformerDelegate
 >
 (
 this
+clock_
 std
 :
 :
