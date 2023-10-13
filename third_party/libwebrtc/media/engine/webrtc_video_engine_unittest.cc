@@ -6752,7 +6752,7 @@ network
 channel
 -
 >
-AsVideoReceiveChannel
+AsVideoSendChannel
 (
 )
 -
