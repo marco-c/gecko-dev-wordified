@@ -365,10 +365,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 VideoDecoder
 DOMEventTargetHelper
 )
-IMPL_EVENT_HANDLER
-(
-dequeue
-)
 public
 :
 VideoDecoder
