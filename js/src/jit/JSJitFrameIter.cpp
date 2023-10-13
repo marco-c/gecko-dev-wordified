@@ -3790,6 +3790,14 @@ sp
 return
 ;
 }
+if
+(
+!
+IsPortableBaselineInterpreterEnabled
+(
+)
+)
+{
 /
 /
 Try
@@ -3916,6 +3924,7 @@ true
 {
 return
 ;
+}
 }
 }
 /
