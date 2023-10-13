@@ -5155,11 +5155,11 @@ packets
 ;
 stats
 .
-last_packet_received_timestamp_ms
+last_packet_received
 =
 rtp_stats
 .
-last_packet_received_timestamp_ms
+last_packet_received
 ;
 }
 else
@@ -5184,7 +5184,7 @@ packetsReceived
 ;
 stats
 .
-last_packet_received_timestamp_ms
+last_packet_received
 =
 absl
 :

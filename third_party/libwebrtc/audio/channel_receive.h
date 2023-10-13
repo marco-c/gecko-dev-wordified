@@ -463,9 +463,9 @@ absl
 :
 optional
 <
-int64_t
+Timestamp
 >
-last_packet_received_timestamp_ms
+last_packet_received
 ;
 /
 /
