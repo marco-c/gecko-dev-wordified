@@ -1181,12 +1181,7 @@ OriginUsageResult
 (
 aResponse
 .
-usage
-(
-)
-aResponse
-.
-fileUsage
+usageInfo
 (
 )
 )
