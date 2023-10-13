@@ -982,6 +982,10 @@ return
 1
 ;
 }
+_requestedCapability
+=
+capability
+;
 return
 0
 ;
@@ -1018,6 +1022,12 @@ stream_
 nullptr
 ;
 }
+_requestedCapability
+=
+VideoCaptureCapability
+(
+)
+;
 return
 0
 ;
@@ -1047,7 +1057,7 @@ settings
 {
 settings
 =
-frameInfo_
+_requestedCapability
 ;
 return
 0
@@ -1177,7 +1187,7 @@ format
 f
 )
 ;
-frameInfo_
+configured_capability_
 .
 width
 =
@@ -1187,7 +1197,7 @@ size
 .
 width
 ;
-frameInfo_
+configured_capability_
 .
 height
 =
@@ -1197,7 +1207,7 @@ size
 .
 height
 ;
-frameInfo_
+configured_capability_
 .
 videoType
 =
@@ -1208,7 +1218,7 @@ f
 format
 )
 ;
-frameInfo_
+configured_capability_
 .
 maxFPS
 =
@@ -1242,7 +1252,7 @@ format
 f
 )
 ;
-frameInfo_
+configured_capability_
 .
 width
 =
@@ -1252,7 +1262,7 @@ size
 .
 width
 ;
-frameInfo_
+configured_capability_
 .
 height
 =
@@ -1262,7 +1272,7 @@ size
 .
 height
 ;
-frameInfo_
+configured_capability_
 .
 videoType
 =
@@ -1271,7 +1281,7 @@ VideoType
 :
 kMJPEG
 ;
-frameInfo_
+configured_capability_
 .
 maxFPS
 =
@@ -1292,7 +1302,7 @@ break
 }
 default
 :
-frameInfo_
+configured_capability_
 .
 videoType
 =
@@ -1304,7 +1314,7 @@ kUnknown
 }
 if
 (
-frameInfo_
+configured_capability_
 .
 videoType
 =
@@ -1350,7 +1360,7 @@ static_cast
 int
 >
 (
-frameInfo_
+configured_capability_
 .
 videoType
 )
@@ -1431,7 +1441,7 @@ stride
 ;
 switch
 (
-frameInfo_
+configured_capability_
 .
 videoType
 )
@@ -1450,7 +1460,7 @@ kNV12
 :
 stride
 =
-frameInfo_
+configured_capability_
 .
 width
 ;
@@ -1470,7 +1480,7 @@ kUYVY
 :
 stride
 =
-frameInfo_
+configured_capability_
 .
 width
 *
@@ -1486,7 +1496,7 @@ kRGB24
 :
 stride
 =
-frameInfo_
+configured_capability_
 .
 width
 *
@@ -2038,7 +2048,7 @@ chunk
 -
 >
 size
-frameInfo_
+configured_capability_
 )
 ;
 }

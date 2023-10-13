@@ -274,7 +274,7 @@ int
 node_id_
 ;
 VideoCaptureCapability
-frameInfo_
+configured_capability_
 ;
 bool
 started_
