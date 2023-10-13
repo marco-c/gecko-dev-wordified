@@ -161,7 +161,7 @@ test
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
@@ -170,7 +170,7 @@ pointerevents
 /
 mochitest
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

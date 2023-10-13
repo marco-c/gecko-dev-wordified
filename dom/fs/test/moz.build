@@ -108,7 +108,7 @@ mochitest
 /
 mochitest
 .
-ini
+toml
 "
 "
 mochitest
@@ -117,6 +117,6 @@ worker
 /
 mochitest
 .
-ini
+toml
 "
 ]

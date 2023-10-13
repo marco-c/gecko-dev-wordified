@@ -127,7 +127,7 @@ dialog
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
@@ -136,7 +136,7 @@ forms
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
@@ -147,14 +147,14 @@ without_selectionchange
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
 /
 mochitest
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

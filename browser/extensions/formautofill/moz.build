@@ -416,7 +416,7 @@ creditCard
 /
 mochitest
 .
-ini
+toml
 "
 "
 test
@@ -425,7 +425,7 @@ mochitest
 /
 mochitest
 .
-ini
+toml
 "
 ]
 JAR_MANIFESTS

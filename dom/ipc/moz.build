@@ -1425,7 +1425,7 @@ tests
 /
 mochitest
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

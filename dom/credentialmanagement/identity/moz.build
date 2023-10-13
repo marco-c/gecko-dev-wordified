@@ -196,6 +196,6 @@ mochitest
 /
 mochitest
 .
-ini
+toml
 "
 ]
