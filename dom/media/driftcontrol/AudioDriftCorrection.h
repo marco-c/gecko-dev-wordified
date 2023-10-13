@@ -480,6 +480,12 @@ CurrentBuffering
 )
 const
 ;
+uint32_t
+BufferSize
+(
+)
+const
+;
 /
 /
 Only

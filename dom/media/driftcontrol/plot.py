@@ -429,6 +429,15 @@ desired
 "
 ]
         
+buffersize
+=
+df
+[
+"
+buffersize
+"
+]
+        
 inlatency
 =
 df
@@ -634,6 +643,25 @@ legend_label
 "
 Desired
 buffering
+"
+)
+        
+fig1
+.
+line
+(
+t
+buffersize
+color
+=
+"
+seagreen
+"
+legend_label
+=
+"
+Buffer
+size
 "
 )
         

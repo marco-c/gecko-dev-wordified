@@ -440,6 +440,8 @@ uint32_t
 aTargetFrames
 uint32_t
 aBufferedFrames
+uint32_t
+aBufferSize
 )
 ;
 private
@@ -775,6 +777,8 @@ CalculateCorrection
 (
 uint32_t
 aBufferedFrames
+uint32_t
+aBufferSize
 )
 ;
 public

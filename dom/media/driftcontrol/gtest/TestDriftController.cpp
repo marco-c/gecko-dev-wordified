@@ -205,6 +205,7 @@ UpdateClock
 oneSec
 oneSec
 buffered
+0
 )
 ;
 EXPECT_EQ
@@ -224,6 +225,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedLow
+0
 )
 ;
 EXPECT_EQ
@@ -243,6 +245,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedHigh
+0
 )
 ;
 EXPECT_EQ
@@ -262,6 +265,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedHigh
+0
 )
 ;
 EXPECT_EQ
@@ -348,6 +352,7 @@ UpdateClock
 oneSec
 oneSec
 buffered
+0
 )
 ;
 EXPECT_EQ
@@ -370,6 +375,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedLow
+0
 )
 ;
 EXPECT_EQ
@@ -392,6 +398,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedHigh
+0
 )
 ;
 EXPECT_EQ
@@ -414,6 +421,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedHigh
+0
 )
 ;
 EXPECT_EQ
@@ -510,6 +518,7 @@ UpdateClock
 oneSec
 oneSec
 buffered
+0
 )
 ;
 EXPECT_EQ
@@ -536,6 +545,7 @@ UpdateClock
 oneSec
 oneSec
 0
+0
 )
 ;
 EXPECT_EQ
@@ -555,6 +565,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedLow
+0
 )
 ;
 EXPECT_EQ
@@ -574,6 +585,7 @@ UpdateClock
 oneSec
 oneSec
 buffered
+0
 )
 ;
 EXPECT_EQ
@@ -593,6 +605,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedHigh
+0
 )
 ;
 EXPECT_EQ
@@ -689,6 +702,7 @@ UpdateClock
 oneSec
 oneSec
 buffered
+0
 )
 ;
 EXPECT_EQ
@@ -715,6 +729,7 @@ UpdateClock
 oneSec
 oneSec
 0
+0
 )
 ;
 EXPECT_EQ
@@ -734,6 +749,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedLow
+0
 )
 ;
 EXPECT_EQ
@@ -753,6 +769,7 @@ UpdateClock
 oneSec
 oneSec
 buffered
+0
 )
 ;
 EXPECT_EQ
@@ -772,6 +789,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedHigh
+0
 )
 ;
 EXPECT_EQ
@@ -868,6 +886,7 @@ UpdateClock
 oneSec
 oneSec
 buffered
+0
 )
 ;
 EXPECT_EQ
@@ -887,6 +906,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedLow
+0
 )
 ;
 EXPECT_EQ
@@ -906,6 +926,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedHigh
+0
 )
 ;
 EXPECT_EQ
@@ -925,6 +946,7 @@ UpdateClock
 oneSec
 oneSec
 bufferedHigh
+0
 )
 ;
 EXPECT_EQ
@@ -1021,6 +1043,7 @@ UpdateClock
 hundredMillis
 hundredMillis
 bufferedLow
+0
 )
 ;
 }
@@ -1041,6 +1064,7 @@ UpdateClock
 hundredMillis
 hundredMillis
 bufferedLow
+0
 )
 ;
 EXPECT_EQ
