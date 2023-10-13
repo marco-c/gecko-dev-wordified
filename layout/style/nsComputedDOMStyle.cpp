@@ -3646,15 +3646,6 @@ nullptr
 if
 (
 !
-StaticPrefs
-:
-:
-layout_css_computed_style_styles_outside_flat_tree
-(
-)
-&
-&
-!
 IsInFlatTree
 (
 *
