@@ -318,11 +318,6 @@ FileSystemEntryMetadata
 &
 &
 aMetadata
-RefPtr
-<
-StrongWorkerRef
->
-aBuildWorkerRef
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
