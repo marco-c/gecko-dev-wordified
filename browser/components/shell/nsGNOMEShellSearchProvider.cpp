@@ -873,7 +873,13 @@ aTimeStamp
 :
 mSearchResult
 (
+std
+:
+:
+move
+(
 aSearchResult
+)
 )
 mIconIndex
 (
