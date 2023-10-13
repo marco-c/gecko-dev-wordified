@@ -1201,9 +1201,6 @@ AllowFocusMove
 bool
 IsFromProcessingFrameAttributes
 ;
-bool
-WasSchemelessInput
-;
 /
 /
 Fields

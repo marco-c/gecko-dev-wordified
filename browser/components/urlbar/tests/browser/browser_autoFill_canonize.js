@@ -256,7 +256,7 @@ addVisits
 uri
 :
 "
-https
+http
 :
 /
 /
@@ -314,10 +314,6 @@ com
 modified
 :
 "
-https
-:
-/
-/
 example
 .
 com
@@ -325,7 +321,7 @@ com
 waitForUrl
 :
 "
-https
+http
 :
 /
 /
