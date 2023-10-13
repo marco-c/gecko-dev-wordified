@@ -1158,6 +1158,9 @@ redirectChain
 bool
 hasInjectedCookieForCookieBannerHandling
 ;
+bool
+wasSchemelessInput
+;
 /
 *
 *
