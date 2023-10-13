@@ -380,7 +380,7 @@ SVGFEDistantLightElement
 )
 /
 /
-nsFEUnstyledElement
+SVGFilterPrimitiveChildElement
 methods
 bool
 SVGFEDistantLightElement

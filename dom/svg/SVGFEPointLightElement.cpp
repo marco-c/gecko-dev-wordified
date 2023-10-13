@@ -388,7 +388,7 @@ SVGFEPointLightElement
 -
 /
 /
-nsFEUnstyledElement
+SVGFilterPrimitiveChildElement
 methods
 bool
 SVGFEPointLightElement

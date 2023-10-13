@@ -356,7 +356,7 @@ SVGFEMergeNodeElement
 -
 /
 /
-nsFEUnstyledElement
+SVGFilterPrimitiveChildElement
 methods
 bool
 SVGFEMergeNodeElement

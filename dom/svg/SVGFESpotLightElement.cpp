@@ -428,7 +428,7 @@ SVGFESpotLightElement
 -
 /
 /
-nsFEUnstyledElement
+SVGFilterPrimitiveChildElement
 methods
 bool
 SVGFESpotLightElement
