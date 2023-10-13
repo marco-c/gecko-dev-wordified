@@ -2588,6 +2588,8 @@ target
 -
 kind
                 
+bool
+(
 parameters
 .
 get
@@ -2595,12 +2597,10 @@ get
 "
 target
 -
-kind
+kinds
 "
 )
-is
-not
-None
+)
                 
 #
 manifest

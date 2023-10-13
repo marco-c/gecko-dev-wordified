@@ -859,7 +859,7 @@ overrides
 "
 target
 -
-kind
+kinds
 "
 :
 options
@@ -867,7 +867,7 @@ options
 get
 (
 "
-target_kind
+target_kinds
 "
 )
 }
@@ -2171,15 +2171,33 @@ argument
     
 "
 -
+k
+"
+    
+"
+-
 -
 target
 -
 kind
 "
     
+dest
+=
+"
+target_kinds
+"
+    
+action
+=
+"
+append
+"
+    
 default
 =
-None
+[
+]
     
 help
 =
@@ -2685,7 +2703,7 @@ overrides
 "
 target
 -
-kind
+kinds
 "
 :
 options
@@ -2693,7 +2711,7 @@ options
 get
 (
 "
-target_kind
+target_kinds
 "
 )
         
