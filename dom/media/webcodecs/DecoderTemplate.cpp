@@ -2218,17 +2218,6 @@ f
 ;
 }
 }
-/
-/
-TODO
-:
-Rename
-stuff
-like
-"
-mVideoDecoder
-"
-.
 template
 <
 typename
@@ -2253,7 +2242,7 @@ ErrorRunnable
 (
 Self
 *
-aVideoDecoder
+aDecoder
 const
 nsresult
 &
@@ -2267,9 +2256,9 @@ Decoder
 ErrorRunnable
 "
 )
-mVideoDecoder
+mDecoder
 (
-aVideoDecoder
+aDecoder
 )
 mError
 (
@@ -2278,7 +2267,7 @@ aError
 {
 MOZ_ASSERT
 (
-mVideoDecoder
+mDecoder
 )
 ;
 }
@@ -2336,7 +2325,7 @@ Name
 get
 (
 )
-mVideoDecoder
+mDecoder
 .
 get
 (
@@ -2361,7 +2350,7 @@ std
 :
 move
 (
-mVideoDecoder
+mDecoder
 )
 ;
 d
@@ -2382,7 +2371,7 @@ RefPtr
 <
 Self
 >
-mVideoDecoder
+mDecoder
 ;
 const
 nsresult
@@ -2485,7 +2474,7 @@ OutputRunnable
 (
 Self
 *
-aVideoDecoder
+aDecoder
 DecoderAgent
 :
 :
@@ -2514,9 +2503,9 @@ Decoder
 OutputRunnable
 "
 )
-mVideoDecoder
+mDecoder
 (
-aVideoDecoder
+aDecoder
 )
 mAgentId
 (
@@ -2539,7 +2528,7 @@ aData
 {
 MOZ_ASSERT
 (
-mVideoDecoder
+mDecoder
 )
 ;
 }
@@ -2576,7 +2565,7 @@ override
 {
 if
 (
-mVideoDecoder
+mDecoder
 -
 >
 mState
@@ -2619,12 +2608,12 @@ Name
 get
 (
 )
-mVideoDecoder
+mDecoder
 .
 get
 (
 )
-mVideoDecoder
+mDecoder
 -
 >
 mState
@@ -2656,7 +2645,7 @@ NS_OK
 }
 MOZ_ASSERT
 (
-mVideoDecoder
+mDecoder
 -
 >
 mAgent
@@ -2667,7 +2656,7 @@ if
 mAgentId
 !
 =
-mVideoDecoder
+mDecoder
 -
 >
 mAgent
@@ -2711,7 +2700,7 @@ Name
 get
 (
 )
-mVideoDecoder
+mDecoder
 .
 get
 (
@@ -2751,7 +2740,7 @@ Name
 get
 (
 )
-mVideoDecoder
+mDecoder
 .
 get
 (
@@ -2775,7 +2764,7 @@ std
 :
 move
 (
-mVideoDecoder
+mDecoder
 )
 ;
 d
@@ -2802,7 +2791,7 @@ RefPtr
 <
 Self
 >
-mVideoDecoder
+mDecoder
 ;
 const
 DecoderAgent
@@ -4317,7 +4306,8 @@ spec
 asks
 to
 close
-VideoDecoder
+the
+decoder
 with
 an
 /
@@ -5028,8 +5018,8 @@ task
 to
 run
 close
--
-VideoDecoder
+the
+decoder
 /
 /
 with
@@ -6143,8 +6133,9 @@ resources
 .
 Other
 than
-~
-VideoDecoder
+the
+decoder
+dtor
 Reset
 (
 )
@@ -6169,7 +6160,7 @@ situations
 /
 1
 .
-VideoDecoder
+Decoder
 on
 window
 closing
@@ -6178,7 +6169,7 @@ document
 /
 2
 .
-VideoDecoder
+Decoder
 on
 worker
 closing
@@ -6187,7 +6178,7 @@ document
 /
 3
 .
-VideoDecoder
+Decoder
 on
 worker
 terminating
@@ -6362,7 +6353,8 @@ nullptr
 /
 /
 If
-VideoDecoder
+the
+decoder
 is
 on
 worker
