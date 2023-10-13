@@ -7632,7 +7632,7 @@ installs
 "
 browser
 .
-toml
+ini
 "
 :
 {
@@ -7656,7 +7656,7 @@ installs
 "
 browser
 .
-toml
+ini
 "
 :
 False

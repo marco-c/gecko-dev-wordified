@@ -108,7 +108,7 @@ browser
 /
 browser
 .
-toml
+ini
 "
 "
 useragent
