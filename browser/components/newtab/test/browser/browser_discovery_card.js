@@ -109,9 +109,6 @@ true
 enabled
 :
 true
-show_spocs
-:
-false
 personalized
 :
 true
