@@ -9,16 +9,6 @@ exitstatus
 :
 6
 ;
-skip
--
-if
-:
-getBuildConfiguration
-(
-'
-pbl
-'
-)
 var
 global
 =

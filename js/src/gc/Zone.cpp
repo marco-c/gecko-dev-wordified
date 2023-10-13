@@ -4126,9 +4126,6 @@ MOZ_ASSERT
 jitZone_
 )
 ;
-#
-ifndef
-ENABLE_PORTABLE_BASELINE_INTERP
 MOZ_ASSERT
 (
 cx
@@ -4144,8 +4141,6 @@ hasJitRuntime
 )
 )
 ;
-#
-endif
 auto
 jitZone
 =

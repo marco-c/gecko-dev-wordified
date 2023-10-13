@@ -8019,16 +8019,6 @@ fixed
 }
 HeapSlot
 *
-getSlotsUnchecked
-(
-)
-{
-return
-slots_
-;
-}
-HeapSlot
-*
 getSlotAddress
 (
 uint32_t

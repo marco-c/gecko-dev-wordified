@@ -1361,8 +1361,6 @@ return
 endOffset_
 ;
 }
-public
-:
 ICEntry
 *
 icEntries
@@ -1381,8 +1379,6 @@ icEntriesOffset
 )
 ;
 }
-private
-:
 ICFallbackStub
 *
 fallbackStubs
