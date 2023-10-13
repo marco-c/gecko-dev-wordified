@@ -1759,7 +1759,9 @@ get
 nullptr
 nullptr
 FALSE
-0
+DETACHED_PROCESS
+|
+NORMAL_PRIORITY_CLASS
 nullptr
 nullptr
 &
