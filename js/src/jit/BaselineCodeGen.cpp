@@ -35549,6 +35549,9 @@ Value
 8
 )
 ;
+#
+ifndef
+JS_CODEGEN_NONE
 static_assert
 (
 JitStackAlignment
@@ -35563,6 +35566,8 @@ JitStackAlignment
 8
 )
 ;
+#
+endif
 /
 /
 If
