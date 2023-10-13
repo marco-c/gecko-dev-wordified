@@ -497,6 +497,14 @@ mozilla
 :
 image
 ;
+LazyLogModule
+sWidgetDragServiceLog
+(
+"
+WidgetDragService
+"
+)
+;
 #
 define
 DRAGIMAGES_PREF
