@@ -1048,6 +1048,7 @@ transition
 /
 in
 Windows
+10
 Tablet
 Mode
 .
@@ -1055,12 +1056,15 @@ if
 (
 AppConstants
 .
-platform
-=
-=
+isPlatformAndVersionAtLeast
+(
 "
 win
 "
+"
+10
+"
+)
 )
 {
 await

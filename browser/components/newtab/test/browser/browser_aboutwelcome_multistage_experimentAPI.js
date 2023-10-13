@@ -970,7 +970,17 @@ first
 theme
 )
 screen
+for
+non
+-
+win7
 .
+if
+(
+!
+win7Content
+)
+{
 await
 test_screen_content
 (
@@ -1251,6 +1261,7 @@ screen
 "
 )
 ;
+}
 await
 test_screen_content
 (
