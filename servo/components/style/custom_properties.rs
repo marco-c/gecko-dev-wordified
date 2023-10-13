@@ -149,9 +149,9 @@ properties_and_values
 value
 :
 :
-ComputedValue
+SpecifiedValue
 as
-ComputedRegisteredValue
+SpecifiedRegisteredValue
 ;
 use
 crate
@@ -6107,7 +6107,7 @@ Ok
 value
 )
 =
-ComputedRegisteredValue
+SpecifiedRegisteredValue
 :
 :
 compute
@@ -9769,7 +9769,7 @@ Ok
 value
 )
 =
-ComputedRegisteredValue
+SpecifiedRegisteredValue
 :
 :
 compute
@@ -10450,7 +10450,7 @@ Err
 _
 )
 =
-ComputedRegisteredValue
+SpecifiedRegisteredValue
 :
 :
 compute
@@ -10615,7 +10615,7 @@ Ok
 fallback
 )
 =
-ComputedRegisteredValue
+SpecifiedRegisteredValue
 :
 :
 compute

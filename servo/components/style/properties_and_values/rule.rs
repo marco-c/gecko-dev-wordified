@@ -122,7 +122,9 @@ value
 :
 {
 AllowComputationallyDependent
-ComputedValue
+SpecifiedValue
+as
+SpecifiedRegisteredValue
 }
 }
 ;
@@ -1698,7 +1700,7 @@ InitialValueNotComputationallyIndependent
 ;
 }
 match
-ComputedValue
+SpecifiedRegisteredValue
 :
 :
 parse
