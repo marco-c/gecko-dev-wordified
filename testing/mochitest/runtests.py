@@ -6041,6 +6041,8 @@ ssltunnel
             
 )
             
+sys
+.
 exit
 (
 1
@@ -14381,10 +14383,8 @@ ancestor_manifest
 manifest_key
 )
             
-self
-.
-tests_by_manifest
-[
+manifest_key
+=
 manifest_key
 .
 replace
@@ -14397,6 +14397,12 @@ replace
 /
 "
 )
+            
+self
+.
+tests_by_manifest
+[
+manifest_key
 ]
 .
 append
@@ -26811,6 +26817,17 @@ t
 manifest
 "
 ]
+.
+replace
+(
+"
+\
+\
+"
+"
+/
+"
+)
 for
 t
 in
@@ -30739,6 +30756,10 @@ to
 the
 handlers
                 
+msg
+=
+message
+                
 for
 handler
 in
@@ -30749,11 +30770,11 @@ outputHandlers
 )
 :
                     
-message
+msg
 =
 handler
 (
-message
+msg
 )
                 
 #
@@ -30772,7 +30793,7 @@ message_logger
 .
 process_message
 (
-message
+msg
 )
         
 __call__
@@ -30936,7 +30957,7 @@ in
 errorMessages
 :
                     
-message
+msg
 =
 {
                         
@@ -31031,7 +31052,7 @@ message_logger
 .
 process_message
 (
-message
+msg
 )
             
 if
