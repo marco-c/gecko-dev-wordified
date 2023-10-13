@@ -3272,6 +3272,11 @@ MEDIA_TYPE_AUDIO
 }
 private
 :
+void
+InitCallback
+(
+)
+;
 /
 /
 overrides
