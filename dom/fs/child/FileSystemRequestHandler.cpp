@@ -1982,7 +1982,6 @@ GetParentObject
 (
 )
 aManager
-actor
 std
 :
 :
@@ -1990,6 +1989,7 @@ move
 (
 params
 )
+actor
 std
 :
 :
