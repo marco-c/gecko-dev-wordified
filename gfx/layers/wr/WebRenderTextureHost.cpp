@@ -809,14 +809,6 @@ mWrappedTextureHost
 AsRemoteTextureHostWrapper
 (
 )
-|
-|
-mWrappedTextureHost
--
->
-AsTextureHostWrapperD3D11
-(
-)
 )
 {
 mWrappedTextureHost

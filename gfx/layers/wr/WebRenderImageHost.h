@@ -175,9 +175,6 @@ class
 AsyncImagePipelineManager
 ;
 class
-TextureWrapperD3D11Allocator
-;
-class
 WebRenderBridgeParent
 ;
 class
@@ -521,17 +518,6 @@ TextureFlags
 :
 NO_FLAGS
 ;
-#
-if
-XP_WIN
-RefPtr
-<
-TextureWrapperD3D11Allocator
->
-mTextureAllocator
-;
-#
-endif
 }
 ;
 }
