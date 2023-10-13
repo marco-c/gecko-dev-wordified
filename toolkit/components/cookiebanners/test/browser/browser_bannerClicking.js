@@ -696,6 +696,16 @@ nsICookieBannerService
 .
 MODE_REJECT
 ]
+[
+"
+cookiebanners
+.
+bannerClicking
+.
+timeoutAfterLoad
+"
+10000
+]
 ]
 }
 )
