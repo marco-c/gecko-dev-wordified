@@ -135,12 +135,6 @@ templates
 return
 {
         
-"
-metrics_index
-.
-py
-"
-        
 *
 [
 str
