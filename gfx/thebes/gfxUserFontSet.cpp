@@ -4053,7 +4053,7 @@ forget
 EventQueuePriority
 :
 :
-Vsync
+MediumHigh
 )
 ;
 }
