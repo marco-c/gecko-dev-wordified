@@ -9582,14 +9582,6 @@ value_or
 ;
 audio_options_
 .
-combined_audio_video_bwe
-=
-configuration
-.
-combined_audio_video_bwe
-;
-audio_options_
-.
 audio_jitter_buffer_max_packets
 =
 configuration

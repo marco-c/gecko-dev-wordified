@@ -160,16 +160,6 @@ screencast_min_bitrate
 &
 a
 .
-combined_audio_video_bwe
-=
-=
-b
-.
-combined_audio_video_bwe
-&
-&
-a
-.
 media_config
 =
 =
