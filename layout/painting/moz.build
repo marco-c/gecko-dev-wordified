@@ -257,11 +257,6 @@ HitTestInfo
 cpp
 "
 "
-MaskLayerImageCache
-.
-cpp
-"
-"
 nsCSSRendering
 .
 cpp
