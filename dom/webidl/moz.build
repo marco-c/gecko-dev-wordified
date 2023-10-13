@@ -4433,11 +4433,6 @@ LinkStyle
 webidl
 "
 "
-LoadURIOptions
-.
-webidl
-"
-"
 Localization
 .
 webidl
