@@ -1420,6 +1420,8 @@ int
 network_adapter_preference
 int
 relay_preference
+bool
+adjust_local_preference
 )
 const
 ;
