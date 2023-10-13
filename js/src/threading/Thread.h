@@ -769,7 +769,7 @@ blocking
 .
 In
 the
-detatched
+detached
 /
 /
 state
