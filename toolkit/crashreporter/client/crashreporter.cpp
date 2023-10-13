@@ -581,9 +581,6 @@ bool
 unescape
 )
 {
-string
-currentSection
-;
 while
 (
 !
