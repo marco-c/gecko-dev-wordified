@@ -5978,6 +5978,15 @@ Component
 :
 :
 RelativeSelectorAnchor
+|
+Component
+:
+:
+Invalid
+(
+.
+.
+)
 =
 >
 0
