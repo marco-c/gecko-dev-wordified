@@ -1933,9 +1933,9 @@ ipc
 :
 :
 IPCResult
-RecvHasStorageAccessPermission
+RecvGetStorageAccessPermission
 (
-HasStorageAccessPermissionResolver
+GetStorageAccessPermissionResolver
 &
 &
 aResolve

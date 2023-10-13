@@ -575,7 +575,7 @@ aTopPrincipal
 nsIPrincipal
 *
 aPrincipal
-bool
+uint32_t
 *
 aResult
 )
