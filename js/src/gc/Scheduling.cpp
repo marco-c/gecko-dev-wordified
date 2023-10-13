@@ -249,12 +249,6 @@ mozilla
 :
 TimeDuration
 ;
-using
-mozilla
-:
-:
-TimeStamp
-;
 /
 *
 *
