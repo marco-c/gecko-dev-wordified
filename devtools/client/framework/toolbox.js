@@ -9884,6 +9884,7 @@ teardown
 isToolSupported
 isCurrentlyVisible
 isChecked
+isToggle
 onKeyDown
 experimentalURL
 }
@@ -10024,6 +10025,7 @@ updatechecked
 )
 ;
 }
+isToggle
 /
 /
 The
@@ -13463,6 +13465,9 @@ frames
 )
 ;
 }
+isToggle
+:
+true
 }
 )
 ;

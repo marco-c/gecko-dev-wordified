@@ -1762,6 +1762,7 @@ description
 disabled
 onClick
 isChecked
+isToggle
 className
 :
 buttonClass
@@ -1847,6 +1848,18 @@ title
 :
 description
 disabled
+"
+aria
+-
+pressed
+"
+:
+!
+isToggle
+?
+null
+:
+isChecked
 className
 :
 devtools
