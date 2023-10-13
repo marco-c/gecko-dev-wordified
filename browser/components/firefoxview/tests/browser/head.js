@@ -29,6 +29,7 @@ zero
 /
 const
 {
+getFirefoxViewURL
 withFirefoxView
 assertFirefoxViewTab
 assertFirefoxViewTabSelected
