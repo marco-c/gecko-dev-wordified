@@ -1001,7 +1001,6 @@ default
 "
 )
 )
-virtual
 void
 Configure
 (
@@ -1014,7 +1013,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 void
 Decode
 (
@@ -1026,7 +1024,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 already_AddRefed
 <
 Promise
@@ -1038,7 +1035,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 void
 Reset
 (
@@ -1047,7 +1043,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 void
 Close
 (
