@@ -688,9 +688,9 @@ const
 StyleFilter
 &
 aFilter
-nsIFrame
+SVGFilterFrame
 *
-aTargetFrame
+aFilterFrame
 nsIContent
 *
 aTargetContent
