@@ -1022,7 +1022,7 @@ loadTipExtension
 buttonUrl
 :
 "
-http
+https
 :
 /
 /
@@ -1130,7 +1130,7 @@ currentURI
 .
 spec
 "
-http
+https
 :
 /
 /
@@ -1189,7 +1189,7 @@ loadTipExtension
 buttonUrl
 :
 "
-http
+https
 :
 /
 /
@@ -1321,7 +1321,7 @@ currentURI
 .
 spec
 "
-http
+https
 :
 /
 /
@@ -1384,7 +1384,7 @@ loadTipExtension
 helpUrl
 :
 "
-http
+https
 :
 /
 /
@@ -1540,7 +1540,7 @@ currentURI
 .
 spec
 "
-http
+https
 :
 /
 /
@@ -1599,7 +1599,7 @@ loadTipExtension
 helpUrl
 :
 "
-http
+https
 :
 /
 /
@@ -1775,7 +1775,7 @@ currentURI
 .
 spec
 "
-http
+https
 :
 /
 /
@@ -2350,7 +2350,7 @@ addVisits
 (
 [
 "
-http
+https
 :
 /
 /
@@ -2361,7 +2361,7 @@ com
 test1
 "
 "
-http
+https
 :
 /
 /
@@ -2585,7 +2585,7 @@ result
 .
 url
 "
-http
+https
 :
 /
 /
@@ -2630,7 +2630,7 @@ result
 .
 url
 "
-http
+https
 :
 /
 /
@@ -2731,7 +2731,7 @@ addVisits
 (
 [
 "
-http
+https
 :
 /
 /
@@ -2930,7 +2930,7 @@ result
 .
 url
 "
-http
+https
 :
 /
 /
