@@ -172,7 +172,7 @@ rtp_rtcp
 /
 source
 /
-flexfec_header_reader_writer
+flexfec_03_header_reader_writer
 .
 h
 "
@@ -752,7 +752,7 @@ FecHeaderReader
 fec_header_reader
 (
 new
-FlexfecHeaderReader
+Flexfec03HeaderReader
 (
 )
 )
@@ -767,7 +767,7 @@ FecHeaderWriter
 fec_header_writer
 (
 new
-FlexfecHeaderWriter
+Flexfec03HeaderWriter
 (
 )
 )
