@@ -119,6 +119,11 @@ nsIWebAuthnRegisterResult
 :
 nsISupports
 {
+readonly
+attribute
+ACString
+clientDataJSON
+;
 /
 /
 The
@@ -302,6 +307,11 @@ nsIWebAuthnSignResult
 :
 nsISupports
 {
+readonly
+attribute
+ACString
+clientDataJSON
+;
 /
 /
 The
