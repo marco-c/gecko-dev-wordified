@@ -10,7 +10,7 @@ AboutWelcomeParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ actors
 /
 AboutWelcomeParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -267,7 +269,7 @@ null
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
