@@ -9,6 +9,16 @@ exitstatus
 :
 3
 ;
+skip
+-
+if
+:
+getBuildConfiguration
+(
+'
+pbl
+'
+)
 let
 debuggerRealm
 =

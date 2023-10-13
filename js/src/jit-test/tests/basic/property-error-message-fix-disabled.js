@@ -16,6 +16,17 @@ error
 message
 -
 fix
+;
+skip
+-
+if
+:
+getBuildConfiguration
+(
+'
+pbl
+'
+)
 function
 check
 (
