@@ -3263,7 +3263,7 @@ resolve
 timeout
 "
 )
-500
+2000
 /
 *
 ms
