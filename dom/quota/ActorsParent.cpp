@@ -677,7 +677,7 @@ mozilla
 /
 dom
 /
-FileSystemQuotaClient
+FileSystemQuotaClientFactory
 .
 h
 "
