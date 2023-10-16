@@ -9388,6 +9388,16 @@ GetUncomposedDoc
 baseURI
 )
 ;
+if
+(
+!
+targetURI
+)
+{
+return
+nullptr
+;
+}
 /
 /
 There
