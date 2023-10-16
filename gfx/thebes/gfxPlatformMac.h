@@ -568,9 +568,6 @@ void
 aUnused
 )
 ;
-nsCString
-mSystemFontName
-;
 uint32_t
 mFontAntiAliasingThreshold
 ;

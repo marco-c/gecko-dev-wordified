@@ -9671,14 +9671,13 @@ CTFontRef
 >
 fontRef
 =
-CTFontCreateWithFontDescriptorAndOptions
+CTFontCreateWithFontDescriptor
 (
 faceDesc
 0
 .
 0
 nullptr
-kCTFontOptionsPreferSystemFont
 )
 ;
 if
