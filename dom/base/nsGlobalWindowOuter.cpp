@@ -14735,13 +14735,6 @@ aNewInner
 creationOptions
 )
 ;
-creationOptions
-.
-setSecureContext
-(
-aIsSecureContext
-)
-;
 /
 /
 Define
@@ -14836,6 +14829,7 @@ principal
 IsSystemPrincipal
 (
 )
+aIsSecureContext
 aDocument
 -
 >
