@@ -48,5 +48,8 @@ false
 unrollConstEvalLoops
 :
 false
+compatibility
+:
+false
 }
 ;

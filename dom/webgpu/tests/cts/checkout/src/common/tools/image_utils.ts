@@ -405,7 +405,6 @@ page
 .
 evaluate
 (
-async
 (
 )
 =

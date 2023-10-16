@@ -292,13 +292,3 @@ n
 )
 ;
 }
-/
-/
-#
-sourceMappingURL
-=
-log_message
-.
-js
-.
-map

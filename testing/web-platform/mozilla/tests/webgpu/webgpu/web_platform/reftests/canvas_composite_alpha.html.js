@@ -75,7 +75,6 @@ writeCanvasMethod
 {
 runRefTest
 (
-async
 t
 =
 >

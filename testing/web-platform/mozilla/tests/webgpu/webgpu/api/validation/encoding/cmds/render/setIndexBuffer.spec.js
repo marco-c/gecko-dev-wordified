@@ -333,7 +333,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >

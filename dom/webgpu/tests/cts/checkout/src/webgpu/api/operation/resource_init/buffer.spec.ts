@@ -311,7 +311,6 @@ return
 ;
 }
 }
-async
 CheckGPUBufferContent
 (
 buffer
@@ -325,10 +324,7 @@ expectedData
 Uint8Array
 )
 :
-Promise
-<
 void
->
 {
 const
 mappable
@@ -970,7 +966,6 @@ offset
 .
 fn
 (
-async
 t
 =
 >
@@ -1307,7 +1302,6 @@ Uint8Array
 bufferSize
 )
 ;
-await
 t
 .
 CheckGPUBufferContent
@@ -1584,7 +1578,6 @@ unmap
 )
 ;
 }
-await
 t
 .
 CheckGPUBufferContent
@@ -1677,7 +1670,6 @@ kBufferUsagesForMappedAtCreationTests
 .
 fn
 (
-async
 t
 =
 >
@@ -1784,7 +1776,6 @@ Uint8Array
 bufferSize
 )
 ;
-await
 t
 .
 CheckGPUBufferContent
@@ -1893,7 +1884,6 @@ offset
 .
 fn
 (
-async
 t
 =
 >
@@ -2053,7 +2043,6 @@ unmap
 )
 ;
 }
-await
 t
 .
 CheckGPUBufferContent
@@ -2112,7 +2101,6 @@ to
 .
 fn
 (
-async
 t
 =
 >
@@ -2178,7 +2166,6 @@ CheckGPUBufferContent
 (
 )
 .
-await
 t
 .
 CheckGPUBufferContent
@@ -2256,7 +2243,6 @@ bufferOffset
 .
 fn
 (
-async
 t
 =
 >
@@ -2532,7 +2518,6 @@ bufferOffset
 .
 fn
 (
-async
 t
 =
 >
@@ -2657,7 +2642,6 @@ Uint8Array
 bufferSize
 )
 ;
-await
 t
 .
 CheckGPUBufferContent
@@ -2813,7 +2797,6 @@ rowsPerImage
 .
 fn
 (
-async
 t
 =
 >
@@ -3301,7 +3284,6 @@ bufferOffset
 .
 fn
 (
-async
 t
 =
 >
@@ -3610,7 +3592,6 @@ bufferOffset
 .
 fn
 (
-async
 t
 =
 >
@@ -3917,7 +3898,6 @@ bufferOffset
 .
 fn
 (
-async
 t
 =
 >
@@ -4224,7 +4204,6 @@ bufferOffset
 .
 fn
 (
-async
 t
 =
 >
@@ -4681,7 +4660,6 @@ bufferOffset
 .
 fn
 (
-async
 t
 =
 >
@@ -5153,7 +5131,6 @@ bufferOffset
 .
 fn
 (
-async
 t
 =
 >
@@ -5667,7 +5644,6 @@ bufferOffset
 .
 fn
 (
-async
 t
 =
 >

@@ -52,7 +52,7 @@ from
 .
 .
 /
-capability_info
+format_info
 .
 js
 '
@@ -108,7 +108,6 @@ bundles
 .
 fn
 (
-async
 t
 =
 >
@@ -250,7 +249,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -604,7 +602,6 @@ false
 .
 fn
 (
-async
 t
 =
 >
@@ -844,7 +841,6 @@ passFormat
 .
 fn
 (
-async
 t
 =
 >
@@ -1153,7 +1149,6 @@ depthStencilFormat
 .
 fn
 (
-async
 t
 =
 >
@@ -1370,7 +1365,6 @@ passFormat
 .
 fn
 (
-async
 t
 =
 >

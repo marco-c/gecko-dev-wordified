@@ -228,7 +228,6 @@ kResourceStates
 .
 fn
 (
-async
 t
 =
 >
@@ -440,7 +439,6 @@ of
 .
 fn
 (
-async
 t
 =
 >
@@ -1432,7 +1430,6 @@ usage
 .
 fn
 (
-async
 t
 =
 >
@@ -1573,7 +1570,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >

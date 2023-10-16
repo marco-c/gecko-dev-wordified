@@ -1488,13 +1488,3 @@ child
 ;
 }
 }
-/
-/
-#
-sourceMappingURL
-=
-query
-.
-js
-.
-map

@@ -154,7 +154,6 @@ kResourceStates
 .
 fn
 (
-async
 t
 =
 >
@@ -332,7 +331,6 @@ COPY_DST
 .
 fn
 (
-async
 t
 =
 >
@@ -498,7 +496,6 @@ sampleCount
 .
 fn
 (
-async
 t
 =
 >
@@ -676,7 +673,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >

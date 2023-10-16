@@ -129,7 +129,6 @@ call
 .
 fn
 (
-async
 t
 =
 >
@@ -590,7 +589,6 @@ fragment
 .
 fn
 (
-async
 t
 =
 >
@@ -986,6 +984,14 @@ depth24plus
 -
 stencil8
 '
+depthCompare
+:
+'
+always
+'
+depthWriteEnabled
+:
+false
 /
 /
 Not
@@ -1189,7 +1195,6 @@ buffer
 .
 fn
 (
-async
 t
 =
 >
@@ -1800,7 +1805,6 @@ texture
 .
 fn
 (
-async
 t
 =
 >
@@ -2259,7 +2263,6 @@ texture
 .
 fn
 (
-async
 t
 =
 >

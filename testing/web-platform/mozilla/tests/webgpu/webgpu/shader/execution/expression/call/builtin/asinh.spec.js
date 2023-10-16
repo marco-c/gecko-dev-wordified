@@ -177,7 +177,7 @@ js
 ;
 import
 {
-asinhInterval
+FP
 }
 from
 '
@@ -198,7 +198,7 @@ from
 /
 util
 /
-f32_interval
+floating_point
 .
 js
 '
@@ -251,7 +251,6 @@ js
 import
 {
 allInputSources
-generateUnaryToF32IntervalCases
 run
 }
 from
@@ -307,7 +306,11 @@ f32
 >
 {
 return
-generateUnaryToF32IntervalCases
+FP
+.
+f32
+.
+generateScalarToIntervalCases
 (
 fullF32Range
 (
@@ -315,6 +318,10 @@ fullF32Range
 '
 unfiltered
 '
+FP
+.
+f32
+.
 asinhInterval
 )
 ;

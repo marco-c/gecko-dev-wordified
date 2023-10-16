@@ -459,7 +459,6 @@ async
 .
 fn
 (
-async
 t
 =
 >
@@ -1810,7 +1809,6 @@ buffers
 .
 fn
 (
-async
 t
 =
 >
@@ -2013,7 +2011,6 @@ bc
 .
 fn
 (
-async
 t
 =
 >
@@ -2181,7 +2178,6 @@ etc2
 .
 fn
 (
-async
 t
 =
 >

@@ -2018,7 +2018,6 @@ kBufferBindingTypes
 .
 fn
 (
-async
 t
 =
 >
@@ -2282,7 +2281,6 @@ kSamplerBindingTypes
 .
 fn
 (
-async
 t
 =
 >
@@ -3525,7 +3523,6 @@ dispatch
 .
 fn
 (
-async
 t
 =
 >
@@ -3852,7 +3849,6 @@ drawIndexedIndirect
 .
 fn
 (
-async
 t
 =
 >

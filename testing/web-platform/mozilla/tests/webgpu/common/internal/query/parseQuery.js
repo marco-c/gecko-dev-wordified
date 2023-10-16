@@ -1115,13 +1115,3 @@ s
 )
 ;
 }
-/
-/
-#
-sourceMappingURL
-=
-parseQuery
-.
-js
-.
-map

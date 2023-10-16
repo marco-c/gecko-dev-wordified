@@ -74,7 +74,7 @@ from
 .
 .
 /
-capability_info
+format_info
 .
 js
 '
@@ -365,6 +365,9 @@ depthCompare
 '
 equal
 '
+depthWriteEnabled
+:
+false
 }
 primitive
 :
@@ -481,6 +484,14 @@ r8unorm
 depthStencil
 :
 {
+depthWriteEnabled
+:
+false
+depthCompare
+:
+'
+always
+'
 format
 stencilFront
 :

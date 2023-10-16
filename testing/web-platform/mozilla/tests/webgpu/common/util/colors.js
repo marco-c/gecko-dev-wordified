@@ -120,9 +120,7 @@ catch
 const
 passthrough
 =
-(
 s
-)
 =
 >
 s
@@ -390,13 +388,3 @@ Colors
 passthrough
 ;
 }
-/
-/
-#
-sourceMappingURL
-=
-colors
-.
-js
-.
-map

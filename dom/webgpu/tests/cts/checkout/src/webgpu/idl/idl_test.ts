@@ -101,7 +101,6 @@ IDLTest
 extends
 Fixture
 {
-async
 init
 (
 )
@@ -120,6 +119,16 @@ provider
 is
 initialized
 getGPU
+(
+this
+.
+rec
+)
+;
+return
+Promise
+.
+resolve
 (
 )
 ;

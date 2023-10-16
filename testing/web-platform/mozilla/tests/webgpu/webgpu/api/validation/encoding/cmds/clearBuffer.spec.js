@@ -267,7 +267,6 @@ kResourceStates
 .
 fn
 (
-async
 t
 =
 >
@@ -461,7 +460,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -595,7 +593,6 @@ size
 .
 fn
 (
-async
 t
 =
 >
@@ -695,7 +692,6 @@ kBufferUsages
 .
 fn
 (
-async
 t
 =
 >
@@ -871,7 +867,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -1040,7 +1035,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -1112,7 +1106,7 @@ clears
 which
 may
 cause
-arthimetic
+arithmetic
 overflows
 are
 invalid
@@ -1159,7 +1153,6 @@ kMaxSafeMultipleOf8
 .
 fn
 (
-async
 t
 =
 >
@@ -1317,7 +1310,6 @@ true
 .
 fn
 (
-async
 t
 =
 >

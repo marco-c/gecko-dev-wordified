@@ -64,13 +64,3 @@ step_timeout
 :
 setTimeout
 ;
-/
-/
-#
-sourceMappingURL
-=
-timeout
-.
-js
-.
-map

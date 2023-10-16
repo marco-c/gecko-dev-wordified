@@ -463,7 +463,6 @@ kResourceStates
 .
 fn
 (
-async
 t
 =
 >
@@ -693,7 +692,6 @@ undefined
 .
 fn
 (
-async
 t
 =
 >
@@ -859,7 +857,6 @@ kBufferUsages
 .
 fn
 (
-async
 t
 =
 >
@@ -1027,7 +1024,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -1246,7 +1242,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -1442,7 +1437,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -1659,7 +1653,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -1810,7 +1803,6 @@ const
 .
 fn
 (
-async
 t
 =
 >

@@ -2482,7 +2482,7 @@ GPURenderPipelineDescriptor
 errorTypeName
 :
 '
-OperationError
+GPUPipelineError
 '
 |
 '
@@ -2490,7 +2490,7 @@ TypeError
 '
 =
 '
-OperationError
+GPUPipelineError
 '
 )
 {
@@ -2547,7 +2547,7 @@ errorTypeName
 =
 =
 '
-OperationError
+GPUPipelineError
 '
 )
 {
@@ -2633,7 +2633,7 @@ GPUComputePipelineDescriptor
 errorTypeName
 :
 '
-OperationError
+GPUPipelineError
 '
 |
 '
@@ -2641,7 +2641,7 @@ TypeError
 '
 =
 '
-OperationError
+GPUPipelineError
 '
 )
 {
@@ -2698,7 +2698,7 @@ errorTypeName
 =
 =
 '
-OperationError
+GPUPipelineError
 '
 )
 {

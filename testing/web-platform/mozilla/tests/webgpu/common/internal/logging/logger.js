@@ -164,13 +164,3 @@ space
 ;
 }
 }
-/
-/
-#
-sourceMappingURL
-=
-logger
-.
-js
-.
-map

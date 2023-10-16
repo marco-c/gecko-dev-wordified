@@ -431,7 +431,6 @@ async
 .
 fn
 (
-async
 t
 =
 >
@@ -521,6 +520,22 @@ shouldReject
 '
 TypeError
 '
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+typescript
+-
+eslint
+/
+require
+-
+await
 (
 async
 (
@@ -1782,7 +1797,6 @@ buffers
 .
 fn
 (
-async
 t
 =
 >
@@ -1985,7 +1999,6 @@ bc
 .
 fn
 (
-async
 t
 =
 >
@@ -2155,7 +2168,6 @@ GPUFeatureName
 .
 fn
 (
-async
 t
 =
 >

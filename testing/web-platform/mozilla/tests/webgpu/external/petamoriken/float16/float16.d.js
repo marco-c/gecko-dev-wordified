@@ -30,15 +30,3 @@ export
 {
 }
 ;
-/
-/
-#
-sourceMappingURL
-=
-float16
-.
-d
-.
-js
-.
-map

@@ -86,7 +86,7 @@ buffer
 via
 render
 pass
-copmute
+compute
 pass
 copy
 write

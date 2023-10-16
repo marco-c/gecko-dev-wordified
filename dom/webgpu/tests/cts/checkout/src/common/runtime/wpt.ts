@@ -373,7 +373,6 @@ workerEnabled
 new
 TestWorker
 (
-false
 )
 :
 undefined

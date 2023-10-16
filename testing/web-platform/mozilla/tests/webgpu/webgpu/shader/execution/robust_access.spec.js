@@ -910,7 +910,7 @@ combineWithParams
 (
 [
 {
-storageClass
+addressSpace
 :
 '
 storage
@@ -930,7 +930,7 @@ dynamicOffset
 false
 }
 {
-storageClass
+addressSpace
 :
 '
 storage
@@ -950,7 +950,7 @@ dynamicOffset
 false
 }
 {
-storageClass
+addressSpace
 :
 '
 storage
@@ -970,7 +970,7 @@ dynamicOffset
 false
 }
 {
-storageClass
+addressSpace
 :
 '
 storage
@@ -990,7 +990,7 @@ dynamicOffset
 true
 }
 {
-storageClass
+addressSpace
 :
 '
 storage
@@ -1010,7 +1010,7 @@ dynamicOffset
 true
 }
 {
-storageClass
+addressSpace
 :
 '
 storage
@@ -1030,7 +1030,7 @@ dynamicOffset
 true
 }
 {
-storageClass
+addressSpace
 :
 '
 uniform
@@ -1045,7 +1045,7 @@ dynamicOffset
 false
 }
 {
-storageClass
+addressSpace
 :
 '
 uniform
@@ -1060,7 +1060,7 @@ dynamicOffset
 true
 }
 {
-storageClass
+addressSpace
 :
 '
 private
@@ -1072,7 +1072,7 @@ read
 '
 }
 {
-storageClass
+addressSpace
 :
 '
 private
@@ -1084,7 +1084,7 @@ write
 '
 }
 {
-storageClass
+addressSpace
 :
 '
 function
@@ -1096,7 +1096,7 @@ read
 '
 }
 {
-storageClass
+addressSpace
 :
 '
 function
@@ -1108,7 +1108,7 @@ write
 '
 }
 {
-storageClass
+addressSpace
 :
 '
 workgroup
@@ -1120,7 +1120,7 @@ read
 '
 }
 {
-storageClass
+addressSpace
 :
 '
 workgroup
@@ -1237,14 +1237,13 @@ generateTypes
 .
 fn
 (
-async
 t
 =
 >
 {
 const
 {
-storageClass
+addressSpace
 storageMode
 access
 dynamicOffset
@@ -1396,7 +1395,7 @@ testGroupBGLEntires
 ;
 switch
 (
-storageClass
+addressSpace
 )
 {
 case
@@ -1443,7 +1442,7 @@ alignment
 const
 qualifiers
 =
-storageClass
+addressSpace
 =
 =
 =
@@ -1456,7 +1455,7 @@ storage
 storageMode
 }
 :
-storageClass
+addressSpace
 ;
 globalSource
 +
@@ -1508,7 +1507,7 @@ buffer
 {
 type
 :
-storageClass
+addressSpace
 =
 =
 =
@@ -1574,7 +1573,7 @@ globalSource
 var
 <
 {
-storageClass
+addressSpace
 }
 >
 s
@@ -2047,7 +2046,7 @@ exprElement
 ;
 if
 (
-storageClass
+addressSpace
 =
 =
 =

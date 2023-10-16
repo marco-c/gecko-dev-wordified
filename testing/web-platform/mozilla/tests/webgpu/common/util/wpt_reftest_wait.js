@@ -206,13 +206,3 @@ ms
 )
 ;
 }
-/
-/
-#
-sourceMappingURL
-=
-wpt_reftest_wait
-.
-js
-.
-map

@@ -1535,7 +1535,6 @@ steps
 {
 record
 :
-async
 (
 )
 =
@@ -1574,7 +1573,6 @@ WRITE
 }
 unmap
 :
-async
 (
 )
 =
@@ -1589,7 +1587,6 @@ unmap
 }
 finish
 :
-async
 (
 )
 =
@@ -1606,7 +1603,6 @@ finish
 }
 submit
 :
-async
 (
 )
 =

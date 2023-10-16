@@ -138,13 +138,3 @@ kWildcard
 *
 '
 ;
-/
-/
-#
-sourceMappingURL
-=
-separators
-.
-js
-.
-map

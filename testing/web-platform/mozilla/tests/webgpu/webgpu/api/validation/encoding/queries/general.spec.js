@@ -288,7 +288,6 @@ type
 .
 fn
 (
-async
 t
 =
 >
@@ -792,7 +791,6 @@ queryTypes
 .
 fn
 (
-async
 t
 =
 >
@@ -947,7 +945,6 @@ timestamp
 .
 fn
 (
-async
 t
 =
 >
@@ -1100,7 +1097,6 @@ query
 .
 fn
 (
-async
 t
 =
 >

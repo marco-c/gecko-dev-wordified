@@ -648,7 +648,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -789,7 +788,6 @@ true
 .
 fn
 (
-async
 t
 =
 >
@@ -1071,7 +1069,6 @@ f32
 .
 fn
 (
-async
 t
 =
 >
@@ -1392,7 +1389,6 @@ center
 .
 fn
 (
-async
 t
 =
 >
@@ -1701,7 +1697,6 @@ perspective
 .
 fn
 (
-async
 t
 =
 >
@@ -1862,7 +1857,6 @@ locationDelta
 .
 fn
 (
-async
 t
 =
 >
@@ -2097,7 +2091,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -2478,7 +2471,6 @@ const
 .
 fn
 (
-async
 t
 =
 >

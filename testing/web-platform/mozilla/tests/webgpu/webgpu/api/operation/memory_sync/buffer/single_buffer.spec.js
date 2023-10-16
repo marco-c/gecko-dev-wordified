@@ -85,7 +85,7 @@ buffer
 via
 render
 pass
-copmute
+compute
 pass
 copy
 write
@@ -1402,7 +1402,7 @@ with
 loose
 render
 result
-guarentees
+guarantees
 .
 g
 .

@@ -934,7 +934,6 @@ boundSize
 .
 fn
 (
-async
 t
 =
 >
@@ -1494,7 +1493,6 @@ uint32
 .
 fn
 (
-async
 t
 =
 >
@@ -2502,7 +2500,6 @@ instanceCount
 .
 fn
 (
-async
 t
 =
 >
@@ -3368,7 +3365,6 @@ oversize
 .
 fn
 (
-async
 t
 =
 >
@@ -4252,7 +4248,6 @@ maxDrawCount
 .
 fn
 (
-async
 t
 =
 >

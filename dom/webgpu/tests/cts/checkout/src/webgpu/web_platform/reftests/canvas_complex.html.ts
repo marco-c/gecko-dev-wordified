@@ -26,6 +26,7 @@ js
 import
 {
 kTextureFormatInfo
+ColorTextureFormat
 }
 from
 '
@@ -35,7 +36,7 @@ from
 .
 .
 /
-capability_info
+format_info
 .
 js
 '
@@ -138,7 +139,7 @@ run
 (
 format
 :
-GPUTextureFormat
+ColorTextureFormat
 targets
 :
 {
@@ -310,7 +311,9 @@ kTextureFormatInfo
 format
 ]
 .
-bytesPerBlock
+color
+.
+bytes
 ;
 if
 (

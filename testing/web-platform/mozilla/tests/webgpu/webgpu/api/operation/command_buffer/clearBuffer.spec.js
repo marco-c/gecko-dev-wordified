@@ -273,7 +273,6 @@ size
 .
 fn
 (
-async
 t
 =
 >

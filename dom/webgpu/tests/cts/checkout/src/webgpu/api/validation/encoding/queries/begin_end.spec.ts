@@ -244,7 +244,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -474,7 +473,6 @@ const
 .
 fn
 (
-async
 t
 =
 >
@@ -647,7 +645,6 @@ true
 .
 fn
 (
-async
 t
 =
 >

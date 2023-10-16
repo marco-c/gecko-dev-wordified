@@ -1,3 +1,17 @@
+/
+*
+eslint
+-
+disable
+typescript
+-
+eslint
+/
+require
+-
+await
+*
+/
 export
 const
 description

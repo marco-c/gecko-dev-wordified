@@ -3715,7 +3715,6 @@ overlap
 .
 fn
 (
-async
 t
 =
 >

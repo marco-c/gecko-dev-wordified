@@ -143,7 +143,6 @@ kBufferUsages
 .
 fn
 (
-async
 t
 =
 >
@@ -212,7 +211,6 @@ errors
 .
 fn
 (
-async
 t
 =
 >
@@ -352,7 +350,6 @@ MAP_READ
 .
 fn
 (
-async
 t
 =
 >

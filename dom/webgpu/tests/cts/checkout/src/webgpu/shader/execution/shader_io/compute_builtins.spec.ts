@@ -294,7 +294,6 @@ beginSubcases
 .
 fn
 (
-async
 t
 =
 >

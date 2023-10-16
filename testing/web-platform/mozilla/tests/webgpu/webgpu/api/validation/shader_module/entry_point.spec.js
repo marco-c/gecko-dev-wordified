@@ -122,7 +122,7 @@ number
 by
 removing
 trivially
-similiar
+similar
 cases
 ;
 import
@@ -415,7 +415,9 @@ age
 stageEntryPoint
 :
 '
-sequencage
+se
+quen
+age
 '
 }
 ]
@@ -483,7 +485,6 @@ kEntryPointTestCases
 .
 fn
 (
-async
 t
 =
 >
@@ -621,7 +622,6 @@ kEntryPointTestCases
 .
 fn
 (
-async
 t
 =
 >
@@ -759,7 +759,6 @@ kEntryPointTestCases
 .
 fn
 (
-async
 t
 =
 >

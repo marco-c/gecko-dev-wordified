@@ -58,13 +58,3 @@ Z0
 +
 /
 ;
-/
-/
-#
-sourceMappingURL
-=
-validQueryPart
-.
-js
-.
-map
