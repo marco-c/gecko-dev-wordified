@@ -332,9 +332,6 @@ CompositableHost
 (
 aTextureInfo
 )
-ImageComposite
-(
-)
 mCurrentAsyncImageManager
 (
 nullptr

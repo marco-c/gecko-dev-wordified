@@ -4768,9 +4768,6 @@ lul
 :
 DW_EH_PE_absptr
 )
-encoded_pointer_bases_
-(
-)
 entry_length_
 (
 NULL

@@ -3513,9 +3513,6 @@ mAddonsObj
 (
 cx
 )
-mAddonsIter
-(
-)
 {
 mAddonsObj
 =

@@ -434,9 +434,6 @@ aOrigin
 +
 '
 )
-mPort
-(
-)
 mSchemeType
 (
 eNone

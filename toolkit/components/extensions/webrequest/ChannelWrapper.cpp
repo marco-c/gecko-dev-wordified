@@ -809,13 +809,6 @@ public
 ChannelListHolder
 (
 )
-:
-LinkedList
-<
-ChannelWrapper
->
-(
-)
 {
 }
 ~

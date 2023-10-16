@@ -350,10 +350,6 @@ Constructors
 nsRect
 (
 )
-:
-Super
-(
-)
 {
 MOZ_COUNT_CTOR
 (

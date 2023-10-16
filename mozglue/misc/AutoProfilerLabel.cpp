@@ -334,16 +334,6 @@ public
 Mutex
 (
 )
-:
-mozilla
-:
-:
-detail
-:
-:
-MutexImpl
-(
-)
 {
 }
 void

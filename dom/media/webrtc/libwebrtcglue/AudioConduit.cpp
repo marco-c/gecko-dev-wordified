@@ -1038,9 +1038,6 @@ mRecvTransport
 (
 this
 )
-mRecvStreamConfig
-(
-)
 mRecvStream
 (
 nullptr

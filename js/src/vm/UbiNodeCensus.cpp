@@ -413,9 +413,6 @@ reportBytes
 true
 )
 :
-CountType
-(
-)
 label
 (
 std
@@ -441,9 +438,6 @@ SimpleCount
 (
 )
 :
-CountType
-(
-)
 label
 (
 nullptr
@@ -872,9 +866,6 @@ CountBase
 (
 count
 )
-ids_
-(
-)
 {
 }
 }
@@ -883,10 +874,6 @@ public
 :
 explicit
 BucketCount
-(
-)
-:
-CountType
 (
 )
 {
@@ -1362,9 +1349,6 @@ CountTypePtr
 domNode
 )
 :
-CountType
-(
-)
 objects
 (
 std
@@ -2939,9 +2923,6 @@ CountTypePtr
 otherType
 )
 :
-CountType
-(
-)
 classesType
 (
 std
@@ -3642,9 +3623,6 @@ CountTypePtr
 classesType
 )
 :
-CountType
-(
-)
 classesType
 (
 std
@@ -4248,9 +4226,6 @@ CountTypePtr
 entryType
 )
 :
-CountType
-(
-)
 entryType
 (
 std
@@ -5393,9 +5368,6 @@ CountTypePtr
 noStackType
 )
 :
-CountType
-(
-)
 entryType
 (
 std
@@ -6671,9 +6643,6 @@ CountTypePtr
 noFilenameType
 )
 :
-CountType
-(
-)
 thenType
 (
 std

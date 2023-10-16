@@ -413,10 +413,6 @@ public
 TestWebMWriter
 (
 )
-:
-WebMWriter
-(
-)
 {
 }
 /

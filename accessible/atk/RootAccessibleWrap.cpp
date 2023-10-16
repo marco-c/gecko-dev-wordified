@@ -159,10 +159,6 @@ AtkObject
 *
 aAccessible
 )
-:
-DummyAccessible
-(
-)
 {
 g_object_ref
 (

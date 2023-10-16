@@ -1865,12 +1865,6 @@ nsCategoryManager
 (
 )
 :
-mArena
-(
-)
-mTable
-(
-)
 mLock
 (
 "

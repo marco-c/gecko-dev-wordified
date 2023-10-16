@@ -1873,9 +1873,6 @@ mWindow
 (
 aWindow
 )
-mAsyncUpdateStart
-(
-)
 {
 }
 guint32

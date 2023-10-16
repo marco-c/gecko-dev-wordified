@@ -2129,12 +2129,6 @@ Preserves3DContext
 aOther
 )
 :
-mAccumulatedTransform
-(
-)
-mAccumulatedRect
-(
-)
 mAccumulatedRectLevels
 (
 0

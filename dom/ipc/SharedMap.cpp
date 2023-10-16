@@ -339,10 +339,6 @@ SharedMap
 SharedMap
 (
 )
-:
-DOMEventTargetHelper
-(
-)
 {
 }
 SharedMap
@@ -1717,10 +1713,6 @@ WritableSharedMap
 :
 :
 WritableSharedMap
-(
-)
-:
-SharedMap
 (
 )
 {

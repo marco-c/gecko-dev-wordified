@@ -8787,9 +8787,6 @@ nsAsyncMessageToSameProcessChild
 (
 )
 :
-nsSameProcessAsyncMessageBase
-(
-)
 mozilla
 :
 :
@@ -9225,10 +9222,6 @@ Runnable
 public
 :
 nsAsyncMessageToSameProcessParent
-(
-)
-:
-nsSameProcessAsyncMessageBase
 (
 )
 {

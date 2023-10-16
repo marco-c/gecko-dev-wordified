@@ -290,16 +290,6 @@ Time
 0
 )
 )
-mReferenceTimeStamp
-(
-)
-/
-/
-Initializes
-to
-the
-null
-timestamp
 mLastBackwardsSkewCheck
 (
 Time

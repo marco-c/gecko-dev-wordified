@@ -325,9 +325,6 @@ PreReflowBlockLevelLogicalSkipSides
 )
 )
 )
-mPrevBEndMargin
-(
-)
 mMinLineHeight
 (
 aReflowInput

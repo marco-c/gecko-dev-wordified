@@ -114,9 +114,6 @@ mDefaultIVSize
 (
 0
 )
-mDefaultEncryptionType
-(
-)
 mDefaultCryptByteBlock
 (
 0

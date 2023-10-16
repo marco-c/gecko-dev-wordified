@@ -170,10 +170,6 @@ ApplicationAccessibleWrap
 ApplicationAccessibleWrap
 (
 )
-:
-ApplicationAccessible
-(
-)
 {
 }
 ApplicationAccessibleWrap

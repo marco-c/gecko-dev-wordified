@@ -3208,9 +3208,6 @@ mHostName
 (
 host
 )
-mCanonicalName
-(
-)
 mResolverType
 (
 aResolverType

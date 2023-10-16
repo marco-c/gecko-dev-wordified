@@ -746,9 +746,6 @@ mScriptTextLength
 (
 0
 )
-mScriptBytecode
-(
-)
 mBytecodeOffset
 (
 0

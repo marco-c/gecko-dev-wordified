@@ -6313,14 +6313,6 @@ promiseRejectionTrackerCallbackData
 this
 nullptr
 )
-#
-ifdef
-JS_STRUCTURED_SPEW
-structuredSpewer_
-(
-)
-#
-endif
 insideDebuggerEvaluationWithOnNativeCallHook
 (
 this

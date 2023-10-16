@@ -6150,9 +6150,6 @@ Imageattr
 (
 )
 :
-pt
-(
-)
 sendAll
 (
 false

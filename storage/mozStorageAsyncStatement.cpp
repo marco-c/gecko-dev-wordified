@@ -615,9 +615,6 @@ AsyncStatement
 (
 )
 :
-StorageBaseStatementInternal
-(
-)
 mFinalized
 (
 false

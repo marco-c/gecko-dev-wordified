@@ -3701,9 +3701,6 @@ LCovRuntime
 (
 )
 :
-out_
-(
-)
 pid_
 (
 getpid

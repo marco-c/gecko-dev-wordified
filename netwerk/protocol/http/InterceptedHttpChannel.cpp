@@ -320,9 +320,6 @@ mCallingStatusAndProgress
 (
 false
 )
-mTimeStamps
-(
-)
 {
 /
 /

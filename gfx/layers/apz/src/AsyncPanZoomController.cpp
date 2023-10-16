@@ -6635,9 +6635,6 @@ GetFrameTime
 (
 )
 )
-mLastNotifiedZoom
-(
-)
 mOverscrollEffect
 (
 MakeUnique

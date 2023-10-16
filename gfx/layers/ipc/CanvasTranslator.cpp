@@ -514,13 +514,6 @@ CanvasTranslator
 CanvasTranslator
 (
 )
-:
-gfx
-:
-:
-InlineTranslator
-(
-)
 {
 /
 /
