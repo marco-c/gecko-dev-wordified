@@ -13391,6 +13391,9 @@ TranscodeRange
 aRange
 )
 :
+CompileOrDecodeTask
+(
+)
 mRange
 (
 aRange

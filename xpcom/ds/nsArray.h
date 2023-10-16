@@ -345,6 +345,10 @@ private
 nsArray
 (
 )
+:
+nsArrayBase
+(
+)
 {
 }
 nsArray
@@ -401,6 +405,10 @@ nsIMutableArray
 private
 :
 nsArrayCC
+(
+)
+:
+nsArrayBase
 (
 )
 {

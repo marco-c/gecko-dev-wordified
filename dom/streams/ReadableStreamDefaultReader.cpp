@@ -321,6 +321,9 @@ do_QueryInterface
 aGlobal
 )
 )
+nsWrapperCache
+(
+)
 {
 }
 ReadableStreamDefaultReader

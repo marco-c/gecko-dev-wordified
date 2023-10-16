@@ -3938,6 +3938,10 @@ CFIFixture
 CFIInsnFixture
 (
 )
+:
+CFIFixture
+(
+)
 {
 data_factor
 =
@@ -13821,6 +13825,9 @@ EHFrameFixture
 (
 )
 :
+CFIInsnFixture
+(
+)
 section
 (
 kBigEndian

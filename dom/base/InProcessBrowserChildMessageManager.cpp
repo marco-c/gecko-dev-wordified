@@ -492,6 +492,9 @@ InProcessBrowserChildMessageManager
 aBrowserChild
 )
 :
+nsSameProcessAsyncMessageBase
+(
+)
 mBrowserChild
 (
 aBrowserChild

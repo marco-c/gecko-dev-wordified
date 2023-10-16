@@ -10305,6 +10305,9 @@ mCurrentFrame
 (
 aRoot
 )
+mCurrentPosition
+(
+)
 mSubtreePosition
 (
 mSubtree
@@ -10390,6 +10393,9 @@ nullptr
 mCurrentFrame
 (
 aRoot
+)
+mCurrentPosition
+(
 )
 mSubtreePosition
 (

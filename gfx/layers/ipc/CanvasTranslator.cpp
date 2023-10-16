@@ -514,6 +514,13 @@ CanvasTranslator
 CanvasTranslator
 (
 )
+:
+gfx
+:
+:
+InlineTranslator
+(
+)
 {
 /
 /

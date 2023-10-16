@@ -353,6 +353,16 @@ protected
 MutexImpl
 (
 )
+:
+mozilla
+:
+:
+detail
+:
+:
+MutexImpl
+(
+)
 {
 }
 friend

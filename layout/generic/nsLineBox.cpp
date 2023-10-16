@@ -309,6 +309,9 @@ mFirstChild
 (
 aFrame
 )
+mWritingMode
+(
+)
 mContainerSize
 (
 -

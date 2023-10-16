@@ -155,6 +155,9 @@ mMicroSecondTimeStamp
 (
 0
 )
+mMessage
+(
+)
 {
 }
 nsConsoleMessage

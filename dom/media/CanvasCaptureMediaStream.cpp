@@ -214,6 +214,9 @@ PrincipalHandle
 aPrincipalHandle
 )
 :
+FrameCaptureListener
+(
+)
 mSourceStream
 (
 aSourceStream

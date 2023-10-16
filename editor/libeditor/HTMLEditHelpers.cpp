@@ -758,6 +758,10 @@ DOMSubtreeIterator
 DOMSubtreeIterator
 (
 )
+:
+DOMIterator
+(
+)
 {
 mIter
 =

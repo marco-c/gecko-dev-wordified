@@ -1087,6 +1087,12 @@ AddSizeOfCbData
 (
 )
 :
+SourceSurface
+:
+:
+SizeOfInfo
+(
+)
 mIndex
 (
 0
@@ -2047,9 +2053,8 @@ public
 DrawableFrameRef
 (
 )
-=
-default
-;
+{
+}
 explicit
 DrawableFrameRef
 (
@@ -2652,9 +2657,8 @@ nullptr
 RawAccessFrameRef
 (
 )
-=
-default
-;
+{
+}
 RawAccessFrameRef
 &
 operator

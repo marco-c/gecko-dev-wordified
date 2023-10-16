@@ -206,9 +206,12 @@ PuppetSession
 PuppetSession
 (
 )
-=
-default
-;
+:
+VRSession
+(
+)
+{
+}
 PuppetSession
 :
 :

@@ -6146,6 +6146,9 @@ BackgroundFileSaverOutputStream
 (
 )
 :
+BackgroundFileSaver
+(
+)
 mAsyncWaitCallback
 (
 nullptr

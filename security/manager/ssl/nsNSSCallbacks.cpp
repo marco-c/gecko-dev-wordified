@@ -1004,9 +1004,15 @@ mTimeoutTimer
 (
 nullptr
 )
+mStartTime
+(
+)
 mResponseResult
 (
 NS_ERROR_FAILURE
+)
+mResponseBytes
+(
 )
 {
 MOZ_ASSERT

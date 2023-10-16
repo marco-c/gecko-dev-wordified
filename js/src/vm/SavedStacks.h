@@ -1945,6 +1945,9 @@ SavedStacks
 (
 )
 :
+frames
+(
+)
 bernoulliSeeded
 (
 false
@@ -2181,9 +2184,12 @@ AllocationMetadataBuilder
 MetadataBuilder
 (
 )
-=
-default
-;
+:
+AllocationMetadataBuilder
+(
+)
+{
+}
 virtual
 JSObject
 *

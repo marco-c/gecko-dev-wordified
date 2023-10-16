@@ -632,6 +632,9 @@ kind_
 (
 kind
 )
+state_
+(
+)
 {
 }
 void

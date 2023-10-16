@@ -19556,6 +19556,9 @@ nsFrameLoader
 aFrameLoader
 )
 :
+nsSameProcessAsyncMessageBase
+(
+)
 mozilla
 :
 :

@@ -1913,6 +1913,9 @@ mLastUpdateFramesPos
 -
 1
 )
+mDisplayPortAtLastFrameUpdate
+(
+)
 mScrollParentID
 (
 mozilla

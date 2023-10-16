@@ -189,6 +189,10 @@ Super
 nsRectAbsolute
 (
 )
+:
+Super
+(
+)
 {
 }
 nsRectAbsolute

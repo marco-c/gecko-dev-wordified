@@ -400,6 +400,9 @@ mCompositionBounds
 0
 0
 )
+mCumulativeResolution
+(
+)
 mDevPixelsPerCSSPixel
 (
 1
@@ -408,6 +411,9 @@ mScrollOffset
 (
 0
 0
+)
+mZoom
+(
 )
 mDisplayPortMargins
 (
@@ -427,6 +433,12 @@ mLayoutViewport
 0
 0
 0
+)
+mTransformToAncestorScale
+(
+)
+mPaintRequestTime
+(
 )
 mScrollUpdateType
 (

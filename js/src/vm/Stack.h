@@ -1754,9 +1754,12 @@ public
 NullFramePtr
 (
 )
-=
-default
-;
+:
+AbstractFramePtr
+(
+)
+{
+}
 }
 ;
 enum

@@ -1619,6 +1619,9 @@ size_t
 bucket_count
 )
 :
+sample_
+(
+)
 declared_min_
 (
 minimum
@@ -1658,6 +1661,9 @@ size_t
 bucket_count
 )
 :
+sample_
+(
+)
 declared_min_
 (
 static_cast
@@ -3154,6 +3160,9 @@ SampleSet
 (
 )
 :
+counts_
+(
+)
 sum_
 (
 0
@@ -3174,9 +3183,8 @@ SampleSet
 SampleSet
 (
 )
-=
-default
-;
+{
+}
 void
 Histogram
 :
@@ -3637,9 +3645,8 @@ LinearHistogram
 LinearHistogram
 (
 )
-=
-default
-;
+{
+}
 Histogram
 *
 LinearHistogram
@@ -4676,6 +4683,9 @@ FlagHistogram
 (
 )
 :
+BooleanHistogram
+(
+)
 mSwitched
 (
 false

@@ -534,6 +534,9 @@ TurnClient
 (
 )
 :
+MtransportTest
+(
+)
 real_socket_
 (
 nullptr

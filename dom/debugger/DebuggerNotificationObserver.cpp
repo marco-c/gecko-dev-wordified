@@ -257,6 +257,9 @@ nsIGlobalObject
 aOwnerGlobal
 )
 :
+mEventListenerCallbacks
+(
+)
 mOwnerGlobal
 (
 aOwnerGlobal

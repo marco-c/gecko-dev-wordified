@@ -2549,6 +2549,9 @@ DocAccessibleParent
 aThisAsDoc
 )
 :
+Accessible
+(
+)
 mParent
 (
 kNoParent

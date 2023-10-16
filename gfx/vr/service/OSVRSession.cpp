@@ -1316,6 +1316,9 @@ OSVRSession
 (
 )
 :
+VRSession
+(
+)
 mRuntimeLoaded
 (
 false

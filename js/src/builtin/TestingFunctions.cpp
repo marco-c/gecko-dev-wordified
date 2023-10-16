@@ -30074,9 +30074,12 @@ public
 ShellAllocationMetadataBuilder
 (
 )
-=
-default
-;
+:
+AllocationMetadataBuilder
+(
+)
+{
+}
 virtual
 JSObject
 *

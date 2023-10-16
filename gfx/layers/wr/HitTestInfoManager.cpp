@@ -406,6 +406,12 @@ HitTestInfoManager
 (
 )
 :
+mArea
+(
+nsRect
+(
+)
+)
 mFlags
 (
 gfx

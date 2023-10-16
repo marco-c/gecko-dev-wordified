@@ -3513,6 +3513,9 @@ mAddonsObj
 (
 cx
 )
+mAddonsIter
+(
+)
 {
 mAddonsObj
 =

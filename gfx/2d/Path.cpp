@@ -205,9 +205,12 @@ Super
 PointD
 (
 )
-=
-default
-;
+:
+Super
+(
+)
+{
+}
 PointD
 (
 double

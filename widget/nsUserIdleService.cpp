@@ -2838,6 +2838,12 @@ nsUserIdleService
 (
 )
 :
+mCurrentlySetToTimeoutAt
+(
+TimeStamp
+(
+)
+)
 mIdleObserverCount
 (
 0

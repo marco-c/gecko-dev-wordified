@@ -12940,6 +12940,9 @@ SharedFontList
 (
 )
 )
+mCharMap
+(
+)
 mHash
 (
 aCharMap

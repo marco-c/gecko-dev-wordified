@@ -1297,6 +1297,9 @@ mTaskQueue
 (
 aTaskQueue
 )
+mWorkerRef
+(
+)
 mStreamParams
 (
 std

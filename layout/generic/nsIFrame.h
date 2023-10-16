@@ -4674,6 +4674,9 @@ ClassID
 aID
 )
 :
+mRect
+(
+)
 mContent
 (
 nullptr

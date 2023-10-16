@@ -119,6 +119,9 @@ mDefaultIVSize
 (
 0
 )
+mDefaultEncryptionType
+(
+)
 {
 SinfParser
 parser

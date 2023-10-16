@@ -1363,6 +1363,9 @@ script
 (
 script
 )
+stack
+(
+)
 spIndex
 (
 0

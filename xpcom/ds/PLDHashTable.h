@@ -3558,6 +3558,9 @@ mOps
 (
 nullptr
 )
+mEntryStore
+(
+)
 mGeneration
 (
 0

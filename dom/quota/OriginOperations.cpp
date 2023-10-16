@@ -12927,6 +12927,9 @@ quota
 ListOriginsOp
 "
 )
+TraverseRepositoryHelper
+(
+)
 {
 AssertIsOnOwningThread
 (

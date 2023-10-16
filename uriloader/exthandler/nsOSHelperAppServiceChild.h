@@ -157,6 +157,10 @@ public
 nsOSHelperAppServiceChild
 (
 )
+:
+nsExternalHelperAppService
+(
+)
 {
 }
 ;

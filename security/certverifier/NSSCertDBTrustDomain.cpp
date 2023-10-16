@@ -700,6 +700,12 @@ CertVerifier
 :
 OCSP_STAPLING_NEVER_CHECKED
 )
+mSCTListFromCertificate
+(
+)
+mSCTListFromOCSPStapling
+(
+)
 mBuiltInRootsModule
 (
 SECMOD_FindModule

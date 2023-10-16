@@ -202,6 +202,10 @@ constexpr
 nsSize
 (
 )
+:
+Super
+(
+)
 {
 }
 constexpr

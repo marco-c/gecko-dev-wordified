@@ -806,6 +806,9 @@ DocAccessible
 aDoc
 )
 :
+Accessible
+(
+)
 mContent
 (
 aContent
@@ -822,6 +825,9 @@ mIndexInParent
 (
 -
 1
+)
+mBounds
+(
 )
 mFirstLineStart
 (

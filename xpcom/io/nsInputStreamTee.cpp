@@ -792,6 +792,9 @@ mClosure
 (
 nullptr
 )
+mLock
+(
+)
 mSinkIsValid
 (
 true

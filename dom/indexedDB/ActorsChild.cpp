@@ -1235,6 +1235,9 @@ mTransaction
 (
 aTransaction
 )
+mPreviousTransaction
+(
+)
 mThreadLocal
 (
 nullptr

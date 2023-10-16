@@ -1413,6 +1413,10 @@ public
 InstructionDataMap
 (
 )
+:
+insData_
+(
+)
 {
 }
 [

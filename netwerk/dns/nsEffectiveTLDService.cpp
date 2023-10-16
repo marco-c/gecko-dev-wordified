@@ -421,6 +421,9 @@ nsEffectiveTLDService
 (
 )
 :
+mIDNService
+(
+)
 mGraphLock
 (
 "

@@ -698,6 +698,9 @@ bool
 aUseUrgentStartForChannel
 )
 :
+MicroTaskRunnable
+(
+)
 mElement
 (
 aElement

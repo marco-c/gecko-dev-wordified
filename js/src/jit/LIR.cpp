@@ -232,6 +232,9 @@ MIRGraph
 mir
 )
 :
+blocks_
+(
+)
 constantPool_
 (
 mir
@@ -552,6 +555,9 @@ from
 block_
 (
 from
+)
+phis_
+(
 )
 entryMoveGroup_
 (

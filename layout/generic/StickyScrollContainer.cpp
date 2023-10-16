@@ -199,6 +199,9 @@ mScrollFrame
 (
 aScrollFrame
 )
+mScrollPosition
+(
+)
 {
 mScrollFrame
 -

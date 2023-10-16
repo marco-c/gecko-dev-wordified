@@ -757,6 +757,9 @@ HandlerArgs
 alloc
 script
 )
+profilerPushToggleOffset_
+(
+)
 {
 #
 ifdef
