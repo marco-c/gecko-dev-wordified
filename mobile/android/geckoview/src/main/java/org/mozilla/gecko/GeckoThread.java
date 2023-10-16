@@ -3539,10 +3539,10 @@ mInitInfo
 fds
 .
 crashReporter
+!
 isChildProcess
-?
-false
-:
+&
+&
 mInitInfo
 .
 xpcshell
