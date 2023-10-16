@@ -953,14 +953,13 @@ JS_HAS_INTL_API
 )
 private
 :
+static
 capi
 :
 :
 ICU4XGraphemeClusterSegmenter
 *
-mSegmenter
-=
-nullptr
+sSegmenter
 ;
 capi
 :
