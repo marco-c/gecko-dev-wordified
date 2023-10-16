@@ -13864,9 +13864,7 @@ utils
 /
 editor
 /
-token
--
-events
+tokens
 .
 js
 to
@@ -14059,9 +14057,7 @@ utils
 /
 editor
 /
-token
--
-events
+tokens
 .
 js
 to

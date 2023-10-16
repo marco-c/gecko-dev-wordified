@@ -396,9 +396,7 @@ utils
 /
 editor
 /
-token
--
-events
+tokens
 .
 js
 onTokenEnter
