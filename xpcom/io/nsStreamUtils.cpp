@@ -2893,8 +2893,9 @@ public
 nsStreamCopierIB
 (
 )
-{
-}
+=
+default
+;
 virtual
 ~
 nsStreamCopierIB
@@ -3119,8 +3120,9 @@ public
 nsStreamCopierOB
 (
 )
-{
-}
+=
+default
+;
 virtual
 ~
 nsStreamCopierOB

@@ -413,8 +413,9 @@ public
 TestWebMWriter
 (
 )
-{
-}
+=
+default
+;
 /
 /
 When

@@ -214,8 +214,9 @@ DeserializedStackFrame
 MockDeserializedStackFrame
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 DEF_TEST

@@ -808,8 +808,9 @@ public
 StunTest
 (
 )
-{
-}
+=
+default
+;
 void
 SetUp
 (

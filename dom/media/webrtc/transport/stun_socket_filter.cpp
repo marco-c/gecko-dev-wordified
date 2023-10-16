@@ -683,8 +683,9 @@ public
 STUNUDPSocketFilter
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Allocated

@@ -206,8 +206,9 @@ PuppetSession
 PuppetSession
 (
 )
-{
-}
+=
+default
+;
 PuppetSession
 :
 :

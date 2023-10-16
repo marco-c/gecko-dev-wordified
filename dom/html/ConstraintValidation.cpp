@@ -448,8 +448,9 @@ ConstraintValidation
 ConstraintValidation
 (
 )
-{
-}
+=
+default
+;
 void
 ConstraintValidation
 :

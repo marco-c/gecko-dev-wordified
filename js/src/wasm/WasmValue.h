@@ -1341,8 +1341,9 @@ public
 LitVal
 (
 )
-{
-}
+=
+default
+;
 explicit
 LitVal
 (
@@ -1900,8 +1901,9 @@ public
 Val
 (
 )
-{
-}
+=
+default
+;
 explicit
 Val
 (
