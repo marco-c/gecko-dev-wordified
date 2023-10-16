@@ -2361,9 +2361,6 @@ WebrtcTCPSocketTest
 (
 )
 :
-MtransportTest
-(
-)
 mSocketThread
 (
 nullptr

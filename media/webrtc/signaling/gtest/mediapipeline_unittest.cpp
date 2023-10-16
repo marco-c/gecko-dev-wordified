@@ -1642,9 +1642,6 @@ sts_target
 )
 )
 )
-audio_pipeline_
-(
-)
 transport_
 (
 new

@@ -194,14 +194,6 @@ SVGTransform
 (
 )
 :
-mMatrix
-(
-)
-/
-/
-Initialises
-to
-identity
 mAngle
 (
 0

@@ -908,13 +908,6 @@ public
 FuncType
 (
 )
-:
-args_
-(
-)
-results_
-(
-)
 {
 }
 FuncType
@@ -2286,9 +2279,6 @@ StructType
 (
 )
 :
-fields_
-(
-)
 size_
 (
 0

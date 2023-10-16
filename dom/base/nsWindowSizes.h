@@ -1030,12 +1030,6 @@ mDOMEventListenersCount
 (
 0
 )
-mArenaSizes
-(
-)
-mStyleSizes
-(
-)
 mState
 (
 aState

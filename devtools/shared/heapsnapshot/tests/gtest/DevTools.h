@@ -648,9 +648,6 @@ FakeNode
 (
 )
 :
-edges
-(
-)
 compartment
 (
 nullptr

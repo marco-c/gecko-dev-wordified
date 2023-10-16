@@ -1518,9 +1518,6 @@ aStyle
 aPresContext
 kClassID
 )
-mImageCache
-(
-)
 mTopRowIndex
 (
 0

@@ -214,10 +214,6 @@ DeserializedStackFrame
 MockDeserializedStackFrame
 (
 )
-:
-DeserializedStackFrame
-(
-)
 {
 }
 }

@@ -249,9 +249,6 @@ currentChunkSize
 (
 0
 )
-chunkOffsets
-(
-)
 {
 MOZ_ASSERT
 (

@@ -2893,10 +2893,6 @@ public
 nsStreamCopierIB
 (
 )
-:
-nsAStreamCopier
-(
-)
 {
 }
 virtual
@@ -3121,10 +3117,6 @@ nsAStreamCopier
 public
 :
 nsStreamCopierOB
-(
-)
-:
-nsAStreamCopier
 (
 )
 {

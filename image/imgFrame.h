@@ -1087,12 +1087,6 @@ AddSizeOfCbData
 (
 )
 :
-SourceSurface
-:
-:
-SizeOfInfo
-(
-)
 mIndex
 (
 0

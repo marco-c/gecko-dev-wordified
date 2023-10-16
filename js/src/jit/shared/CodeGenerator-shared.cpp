@@ -362,9 +362,6 @@ MacroAssembler
 masmArg
 )
 :
-maybeMasm_
-(
-)
 masm
 (
 ensureMasm
@@ -394,9 +391,6 @@ graph
 current
 (
 nullptr
-)
-snapshots_
-(
 )
 recovers_
 (

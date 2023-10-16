@@ -20007,15 +20007,9 @@ NativeSetMap
 (
 )
 )
-mWrappedNativeScopes
-(
-)
 mGCIsRunning
 (
 false
-)
-mNativesToReleaseArray
-(
 )
 mDoingFinalization
 (

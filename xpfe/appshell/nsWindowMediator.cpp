@@ -305,9 +305,6 @@ nsWindowMediator
 (
 )
 :
-mEnumeratorList
-(
-)
 mOldestWindow
 (
 nullptr

@@ -634,9 +634,6 @@ Statement
 (
 )
 :
-StorageBaseStatementInternal
-(
-)
 mDBStatement
 (
 nullptr
@@ -648,9 +645,6 @@ mParamCount
 mResultColumnCount
 (
 0
-)
-mColumnNames
-(
 )
 mExecuting
 (

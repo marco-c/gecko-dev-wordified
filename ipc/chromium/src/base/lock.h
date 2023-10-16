@@ -155,10 +155,6 @@ implementation
 Lock
 (
 )
-:
-lock_
-(
-)
 {
 }
 ~

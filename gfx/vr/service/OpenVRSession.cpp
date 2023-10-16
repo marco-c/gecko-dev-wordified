@@ -1161,9 +1161,6 @@ OpenVRSession
 (
 )
 :
-VRSession
-(
-)
 mVRSystem
 (
 nullptr

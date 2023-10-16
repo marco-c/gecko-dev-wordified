@@ -205,10 +205,6 @@ Super
 PointD
 (
 )
-:
-Super
-(
-)
 {
 }
 PointD

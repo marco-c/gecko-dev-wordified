@@ -2016,10 +2016,6 @@ set
 Inner
 (
 )
-:
-set
-(
-)
 {
 }
 Inner

@@ -557,9 +557,6 @@ unwoundCallerFP_
 (
 nullptr
 )
-unwoundJitFrameType_
-(
-)
 unwind_
 (
 Unwind

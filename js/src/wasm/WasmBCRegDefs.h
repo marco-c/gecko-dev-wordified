@@ -1601,10 +1601,6 @@ FloatRegister
 RegF32
 (
 )
-:
-FloatRegister
-(
-)
 {
 }
 explicit
@@ -1661,10 +1657,6 @@ public
 FloatRegister
 {
 RegF64
-(
-)
-:
-FloatRegister
 (
 )
 {
@@ -1726,10 +1718,6 @@ public
 FloatRegister
 {
 RegV128
-(
-)
-:
-FloatRegister
 (
 )
 {

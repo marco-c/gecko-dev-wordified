@@ -206,10 +206,6 @@ PuppetSession
 PuppetSession
 (
 )
-:
-VRSession
-(
-)
 {
 }
 PuppetSession

@@ -1644,9 +1644,6 @@ sourceMap
 (
 sourceMap
 )
-enclosingFields
-(
-)
 {
 }
 bool
