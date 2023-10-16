@@ -1480,6 +1480,14 @@ Context
 (
 )
 ;
+void
+Stringify
+(
+nsACString
+&
+aData
+)
+;
 NS_DECL_OWNINGTHREAD
 MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
