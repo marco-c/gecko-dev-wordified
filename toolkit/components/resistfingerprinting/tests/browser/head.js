@@ -88,7 +88,7 @@ arrays
 *
 /
 function
-compareUint8Arrays
+countDifferencesInUint8Arrays
 (
 arr1
 arr2
@@ -220,7 +220,7 @@ same
 *
 /
 function
-compareArrayBuffer
+countDifferencesInArrayBuffers
 (
 buffer1
 buffer2
@@ -281,6 +281,11 @@ DataView
 buffer2
 )
 ;
+let
+differences
+=
+0
+;
 /
 /
 compare
@@ -329,8 +334,10 @@ i
 )
 )
 {
-return
-true
+differences
++
+=
+1
 ;
 }
 }
@@ -343,7 +350,7 @@ are
 the
 same
 return
-false
+differences
 ;
 }
 function
