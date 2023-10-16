@@ -6611,8 +6611,83 @@ name_index
 start
 end
 data
+precision
+=
+None
 )
 :
+            
+#
+The
+precision
+argument
+allows
+setting
+how
+many
+digits
+after
+the
+            
+#
+decimal
+point
+are
+desired
+.
+            
+#
+For
+resource
+use
+samples
+where
+we
+sample
+with
+a
+timer
+an
+integer
+            
+#
+number
+of
+ms
+is
+good
+enough
+.
+            
+#
+For
+short
+duration
+markers
+the
+profiler
+front
+-
+end
+may
+show
+up
+to
+            
+#
+3
+digits
+after
+the
+decimal
+point
+(
+ie
+.
+s
+precision
+)
+.
             
 markers
 [
@@ -6623,6 +6698,8 @@ startTime
 .
 append
 (
+round
+(
 (
 start
 -
@@ -6630,6 +6707,8 @@ startTime
 )
 *
 1000
+precision
+)
 )
             
 markers
@@ -6641,6 +6720,8 @@ endTime
 .
 append
 (
+round
+(
 (
 end
 -
@@ -6648,6 +6729,8 @@ startTime
 )
 *
 1000
+precision
+)
 )
             
 markers
@@ -6880,6 +6963,8 @@ time
 .
 append
 (
+round
+(
 (
 m
 .
@@ -6889,6 +6974,7 @@ startTime
 )
 *
 1000
+)
 )
             
 #
@@ -7021,7 +7107,11 @@ markerData
 field
 ]
 =
+round
+(
 total
+3
+)
             
 for
 field
@@ -7805,6 +7895,7 @@ v
 1
 ]
 markerData
+3
 )
         
 #
@@ -7857,6 +7948,7 @@ name
 start
 end
 markerData
+3
 )
         
 return
