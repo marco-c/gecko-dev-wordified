@@ -4652,6 +4652,7 @@ arm
 arm64
 loong64
 mips64
+riscv64
 )
 ;
 /
