@@ -10604,9 +10604,6 @@ in
 about
 :
 preferences
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -10621,8 +10618,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "

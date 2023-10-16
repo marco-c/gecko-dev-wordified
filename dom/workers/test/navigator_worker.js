@@ -66,9 +66,6 @@ name
 "
 globalPrivacyControl
 "
-isNightly
-:
-true
 isAndroid
 :
 false
