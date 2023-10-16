@@ -4398,6 +4398,7 @@ addProfilerMarker
 ;
 this
 .
+#
 isRunning
 =
 false
