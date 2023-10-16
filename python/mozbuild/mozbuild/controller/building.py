@@ -1278,9 +1278,9 @@ SystemResourceMonitor
 (
 poll_interval
 =
-1
-.
 0
+.
+1
 )
         
 self
