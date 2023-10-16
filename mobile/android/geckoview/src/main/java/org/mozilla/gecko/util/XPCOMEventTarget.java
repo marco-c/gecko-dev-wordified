@@ -811,12 +811,6 @@ mTargetName
 if
 (
 target
-!
-=
-null
-&
-&
-target
 instanceof
 XPCOMEventTarget
 )
@@ -916,12 +910,6 @@ XPCOMEventTarget
 .
 if
 (
-target
-=
-=
-null
-|
-|
 !
 (
 target
