@@ -11137,6 +11137,15 @@ ScrollOrigin
 aOrigin
 )
 ;
+ParentLayerPoint
+ConvertDestinationToDelta
+(
+CSSPoint
+&
+aDestination
+)
+const
+;
 /
 /
 Start
