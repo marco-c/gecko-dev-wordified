@@ -624,8 +624,9 @@ NS_DECL_NSIINPUTSTREAMLENGTHCALLBACK
 nsBufferedInputStream
 (
 )
-{
-}
+=
+default
+;
 static
 nsresult
 Create
@@ -1022,8 +1023,9 @@ NS_DECL_NSISTREAMBUFFERACCESS
 nsBufferedOutputStream
 (
 )
-{
-}
+=
+default
+;
 static
 nsresult
 Create

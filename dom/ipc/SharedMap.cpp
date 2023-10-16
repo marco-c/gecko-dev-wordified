@@ -339,8 +339,9 @@ SharedMap
 SharedMap
 (
 )
-{
-}
+=
+default
+;
 SharedMap
 :
 :

@@ -3855,8 +3855,9 @@ public
 AllocatableSetAccessors
 (
 )
-{
-}
+=
+default
+;
 explicit
 constexpr
 AllocatableSetAccessors
@@ -4414,8 +4415,9 @@ public
 LiveSetAccessors
 (
 )
-{
-}
+=
+default
+;
 explicit
 constexpr
 LiveSetAccessors

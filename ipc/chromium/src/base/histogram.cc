@@ -3174,8 +3174,9 @@ SampleSet
 SampleSet
 (
 )
-{
-}
+=
+default
+;
 void
 Histogram
 :
@@ -3636,8 +3637,9 @@ LinearHistogram
 LinearHistogram
 (
 )
-{
-}
+=
+default
+;
 Histogram
 *
 LinearHistogram

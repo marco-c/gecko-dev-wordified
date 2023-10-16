@@ -170,8 +170,9 @@ ApplicationAccessibleWrap
 ApplicationAccessibleWrap
 (
 )
-{
-}
+=
+default
+;
 ApplicationAccessibleWrap
 :
 :

@@ -9798,8 +9798,9 @@ constexpr
 nsChromeOuterWindowProxy
 (
 )
-{
-}
+=
+default
+;
 const
 char
 *

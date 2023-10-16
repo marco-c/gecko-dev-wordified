@@ -24355,8 +24355,9 @@ JSErrorNotes
 JSErrorNotes
 (
 )
-{
-}
+=
+default
+;
 JSErrorNotes
 :
 :

@@ -2016,8 +2016,9 @@ set
 Inner
 (
 )
-{
-}
+=
+default
+;
 Inner
 (
 const

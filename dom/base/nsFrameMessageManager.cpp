@@ -9224,8 +9224,9 @@ public
 nsAsyncMessageToSameProcessParent
 (
 )
-{
-}
+=
+default
+;
 nsresult
 HandleMessage
 (

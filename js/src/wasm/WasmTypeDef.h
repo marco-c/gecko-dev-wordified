@@ -908,8 +908,9 @@ public
 FuncType
 (
 )
-{
-}
+=
+default
+;
 FuncType
 (
 ValTypeVector

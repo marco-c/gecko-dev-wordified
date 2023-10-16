@@ -1196,8 +1196,9 @@ explicit
 Digest
 (
 )
-{
-}
+=
+default
+;
 static
 nsresult
 DigestBuf
@@ -1592,8 +1593,9 @@ explicit
 HMAC
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Begin
 (

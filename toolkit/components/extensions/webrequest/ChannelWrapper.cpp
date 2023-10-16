@@ -809,8 +809,9 @@ public
 ChannelListHolder
 (
 )
-{
-}
+=
+default
+;
 ~
 ChannelListHolder
 (

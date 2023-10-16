@@ -1729,8 +1729,9 @@ public
 Mutex
 (
 )
-{
-}
+=
+default
+;
 void
 Lock
 (
@@ -2160,8 +2161,9 @@ public
 AllocationTracker
 (
 )
-{
-}
+=
+default
+;
 void
 AddMemoryAddress
 (

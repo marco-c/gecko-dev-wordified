@@ -1322,8 +1322,9 @@ MockWriter
 (
 )
 override
-{
-}
+=
+default
+;
 MOCK_METHOD2
 (
 writeNode
