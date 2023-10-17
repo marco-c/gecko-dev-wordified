@@ -38949,6 +38949,15 @@ desc
 calleeScratch
 )
 ;
+#
+ifdef
+ENABLE_WASM_TAIL_CALLS
+wasmMarkSlowCall
+(
+)
+;
+#
+endif
 /
 /
 Restore
