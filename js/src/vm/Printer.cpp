@@ -596,6 +596,8 @@ put
 fmt
 )
 ;
+return
+;
 }
 GenericPrinterPrintfTarget
 printer
