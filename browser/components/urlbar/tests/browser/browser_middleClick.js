@@ -383,10 +383,6 @@ expectedURLBarFocus
 false
 expectedURLBarValue
 :
-UrlbarTestUtils
-.
-trimURL
-(
 "
 https
 :
@@ -396,7 +392,6 @@ example
 .
 com
 "
-)
 }
 {
 isMiddleMousePastePrefOn
@@ -443,10 +438,6 @@ expectedURLBarFocus
 false
 expectedURLBarValue
 :
-UrlbarTestUtils
-.
-trimURL
-(
 "
 https
 :
@@ -456,7 +447,6 @@ example
 .
 com
 "
-)
 }
 {
 isMiddleMousePastePrefOn

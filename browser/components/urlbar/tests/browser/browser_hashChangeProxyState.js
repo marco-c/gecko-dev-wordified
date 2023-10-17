@@ -170,12 +170,7 @@ is
 gURLBar
 .
 value
-UrlbarTestUtils
-.
-trimURL
-(
 expectedURL
-)
 "
 URL
 bar
@@ -753,12 +748,7 @@ is
 gURLBar
 .
 value
-UrlbarTestUtils
-.
-trimURL
-(
 url
-)
 "
 URL
 bar
