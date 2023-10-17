@@ -1662,6 +1662,15 @@ nsHttp
 Max_Forwards
 |
 |
+header
+=
+=
+nsHttp
+:
+:
+GlobalPrivacyControl
+|
+|
 /
 /
 Ignore
