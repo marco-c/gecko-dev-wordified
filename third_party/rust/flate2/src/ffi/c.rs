@@ -1424,9 +1424,7 @@ len
 c_uint
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 )
@@ -1460,9 +1458,7 @@ len
 c_uint
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 )
@@ -1953,9 +1949,7 @@ len
 c_uint
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 )
@@ -1989,9 +1983,7 @@ len
 c_uint
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 )

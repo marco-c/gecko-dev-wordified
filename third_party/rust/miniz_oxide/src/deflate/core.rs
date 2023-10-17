@@ -4820,13 +4820,6 @@ the
 default
 strategy
 .
-#
-[
-inline
-(
-always
-)
-]
 fn
 default
 (

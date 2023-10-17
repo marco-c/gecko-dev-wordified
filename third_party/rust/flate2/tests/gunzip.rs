@@ -1,7 +1,3 @@
-extern
-crate
-flate2
-;
 use
 flate2
 :
@@ -147,12 +143,10 @@ unwrap
 (
 )
 ;
-assert
+assert_eq
 !
 (
 content
-=
-=
 expected
 )
 ;

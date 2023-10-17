@@ -1338,7 +1338,7 @@ if
 /
 /
 this
-encoder
+decoder
 is
 continued
 to
@@ -2234,7 +2234,7 @@ if
 /
 /
 this
-encoder
+decoder
 is
 continued
 to
