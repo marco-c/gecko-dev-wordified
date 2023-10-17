@@ -512,18 +512,18 @@ import
 platform
     
 from
-distutils
-.
-version
-import
-StrictVersion
-    
-from
 mozbuild
 .
 nodeutil
 import
 find_node_executable
+    
+from
+packaging
+.
+version
+import
+Version
     
 state_dir
 =
@@ -623,7 +623,7 @@ find_node_executable
 (
 min_version
 =
-StrictVersion
+Version
 (
 MIN_NODE_VERSION
 )
