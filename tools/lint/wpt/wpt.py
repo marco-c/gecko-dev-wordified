@@ -90,15 +90,13 @@ json
 import
 os
 import
+subprocess
+import
 sys
 from
 mozlint
 import
 result
-from
-mozprocess
-import
-ProcessHandler
 results
 =
 [
@@ -351,7 +349,9 @@ cmd
     
 proc
 =
-ProcessHandler
+subprocess
+.
+Popen
 (
         
 cmd
@@ -360,23 +360,47 @@ env
 os
 .
 environ
-processOutputLine
+stdout
 =
-process_line
-universal_newlines
+subprocess
+.
+PIPE
+stderr
+=
+subprocess
+.
+STDOUT
+text
 =
 True
     
 )
     
-proc
-.
-run
-(
-)
-    
 try
 :
+        
+for
+line
+in
+proc
+.
+stdout
+:
+            
+process_line
+(
+line
+.
+rstrip
+(
+"
+\
+r
+\
+n
+"
+)
+)
         
 proc
 .
