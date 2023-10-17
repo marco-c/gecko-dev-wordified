@@ -3659,8 +3659,11 @@ Nothing
 ;
 }
 #
-ifdef
-NIGHTLY_BUILD
+if
+defined
+(
+EARLY_BETA_OR_EARLIER
+)
 /
 /
 Crash
@@ -10867,7 +10870,7 @@ get
 elif
 defined
 (
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 )
 /
 /
