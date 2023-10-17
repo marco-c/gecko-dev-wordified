@@ -2026,21 +2026,10 @@ GeckoMain
 "
 Compositor
 "
-]
-        
-threads
-.
-extend
-(
-[
 "
 Renderer
 "
-"
-WR
-"
 ]
-)
         
 if
 test_details
