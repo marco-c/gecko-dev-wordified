@@ -720,7 +720,11 @@ io
 /
 en
 /
-latest
+1
+.
+26
+.
+x
 /
 reference
 /
@@ -1313,7 +1317,9 @@ bool
 (
 http_response
 .
-getheader
+headers
+.
+get
 (
 "
 Retry

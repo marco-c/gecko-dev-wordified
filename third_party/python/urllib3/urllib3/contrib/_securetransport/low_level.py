@@ -1160,6 +1160,8 @@ CFRelease
 (
 cert_array
 )
+        
+raise
     
 return
 cert_array

@@ -92,6 +92,22 @@ deflate
 try
 :
     
+try
+:
+        
+import
+brotlicffi
+as
+_unused_module_brotli
+#
+noqa
+:
+F401
+    
+except
+ImportError
+:
+        
 import
 brotli
 as

@@ -108,7 +108,7 @@ matching
 This
 allows
 #
-backports
+util
 .
 ssl_match_hostname
 to
@@ -687,6 +687,19 @@ version_info
 )
 :
         
+#
+ignored
+flake8
+#
+F821
+to
+support
+python
+2
+.
+7
+function
+        
 obj
 =
 unicode
@@ -703,6 +716,10 @@ errors
 strict
 "
 )
+#
+noqa
+:
+F821
     
 return
 obj
@@ -947,10 +964,15 @@ hostname
 )
     
 except
+(
+UnicodeError
 ValueError
+)
 :
         
 #
+ValueError
+:
 Not
 an
 IP
@@ -960,15 +982,9 @@ common
 case
 )
         
-host_ip
-=
-None
-    
-except
+#
 UnicodeError
 :
-        
-#
 Divergence
 from
 upstream
@@ -1033,6 +1049,8 @@ None
         
 else
 :
+#
+Defensive
             
 raise
     

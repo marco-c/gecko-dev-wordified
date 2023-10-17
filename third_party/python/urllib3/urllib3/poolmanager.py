@@ -136,6 +136,10 @@ ssl_context
 "
 key_password
 "
+    
+"
+server_hostname
+"
 )
 #
 All
@@ -1199,16 +1203,6 @@ pools
 RecentlyUsedContainer
 (
 num_pools
-dispose_func
-=
-lambda
-p
-:
-p
-.
-close
-(
-)
 )
         
 #
