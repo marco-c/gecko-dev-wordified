@@ -132,7 +132,9 @@ android
 /
 app
 /
-mobile
+geckoview
+-
+prefs
 .
 js
 .
