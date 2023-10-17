@@ -2799,7 +2799,7 @@ num_spatial_layers
 =
 1
 ;
-vp9
+aInfo
 .
 end_of_picture
 =
