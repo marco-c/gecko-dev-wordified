@@ -651,6 +651,13 @@ selfId
 )
 ;
 async
+DeviceDrop
+(
+RawId
+selfId
+)
+;
+async
 CommandEncoderFinish
 (
 RawId

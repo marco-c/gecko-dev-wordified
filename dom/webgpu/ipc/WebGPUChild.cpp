@@ -8499,7 +8499,7 @@ IsOpen
 )
 )
 {
-SendDeviceDestroy
+SendDeviceDrop
 (
 aId
 )
