@@ -4315,8 +4315,13 @@ or
 fail
 the
 connection
+based
+on
+the
+status
+.
 return
-NS_ERROR_ABORT
+status
 ;
 }
 uint32_t
