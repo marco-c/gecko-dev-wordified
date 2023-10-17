@@ -352,7 +352,7 @@ void
 (
 UniquePtr
 <
-ControlMessage
+ControlMessageInterface
 >
 )
 )
