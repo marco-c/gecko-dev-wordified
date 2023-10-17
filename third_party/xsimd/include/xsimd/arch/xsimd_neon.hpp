@@ -2586,6 +2586,7 @@ complex
 <
 float
 >
+A
 >
 (
 float32x4_t

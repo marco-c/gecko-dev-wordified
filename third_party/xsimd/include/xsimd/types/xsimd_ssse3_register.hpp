@@ -251,7 +251,7 @@ xsimd
 *
 *
 ingroup
-arch
+architectures
 *
 *
 SSSE3

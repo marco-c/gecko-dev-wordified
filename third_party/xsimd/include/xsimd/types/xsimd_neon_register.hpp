@@ -256,7 +256,7 @@ xsimd
 *
 *
 ingroup
-arch
+architectures
 *
 *
 NEON

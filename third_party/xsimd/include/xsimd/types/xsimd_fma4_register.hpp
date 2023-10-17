@@ -239,9 +239,13 @@ xsimd
 *
 *
 ingroup
-arch
+architectures
 *
 *
+SSE4
+.
+2
++
 FMA4
 instructions
 *

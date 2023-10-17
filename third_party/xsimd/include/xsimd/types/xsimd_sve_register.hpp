@@ -267,7 +267,7 @@ detail
 *
 *
 ingroup
-arch
+architectures
 *
 *
 SVE

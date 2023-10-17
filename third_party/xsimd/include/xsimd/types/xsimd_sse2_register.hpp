@@ -267,7 +267,7 @@ xsimd
 *
 *
 ingroup
-arch
+architectures
 *
 *
 SSE2

@@ -247,7 +247,7 @@ fma3
 *
 *
 ingroup
-arch
+architectures
 *
 *
 SSE4

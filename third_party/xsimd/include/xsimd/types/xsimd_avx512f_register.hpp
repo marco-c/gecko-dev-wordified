@@ -239,7 +239,7 @@ xsimd
 *
 *
 ingroup
-arch
+architectures
 *
 *
 AVX512F

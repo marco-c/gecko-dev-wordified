@@ -239,11 +239,11 @@ xsimd
 *
 *
 ingroup
-arch
+architectures
 *
 *
 AVX512CD
-instrutions
+instructions
 *
 /
 struct
