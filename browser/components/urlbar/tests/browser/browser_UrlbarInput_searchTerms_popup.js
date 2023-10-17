@@ -457,7 +457,12 @@ equal
 gURLBar
 .
 value
+UrlbarTestUtils
+.
+trimURL
+(
 expectedSearchUrl
+)
 "
 Search
 url

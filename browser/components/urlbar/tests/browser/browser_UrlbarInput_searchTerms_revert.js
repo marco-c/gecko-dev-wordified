@@ -385,7 +385,12 @@ equal
 gURLBar
 .
 value
+UrlbarTestUtils
+.
+trimURL
+(
 expectedSearchUrl
+)
 Urlbar
 should
 have
@@ -582,7 +587,12 @@ equal
 gURLBar
 .
 value
+UrlbarTestUtils
+.
+trimURL
+(
 expectedSearchUrl
+)
 Urlbar
 should
 have
