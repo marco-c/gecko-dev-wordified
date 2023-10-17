@@ -8264,7 +8264,7 @@ flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags

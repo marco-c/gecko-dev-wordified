@@ -1581,7 +1581,7 @@ _driver_api_version
 u32
 flags
 :
-crate
+wgt
 :
 :
 InstanceFlags
@@ -1892,7 +1892,7 @@ flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags
@@ -2245,7 +2245,7 @@ CStr
 >
 flags
 :
-crate
+wgt
 :
 :
 InstanceFlags
@@ -4730,7 +4730,7 @@ flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags

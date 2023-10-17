@@ -3633,7 +3633,15 @@ AddressSpace
 :
 :
 Private
-|
+=
+>
+(
+TypeFlags
+:
+:
+CONSTRUCTIBLE
+false
+)
 crate
 :
 :
@@ -3643,7 +3651,6 @@ AddressSpace
 WorkGroup
 =
 >
-{
 (
 TypeFlags
 :
@@ -3656,7 +3663,6 @@ TypeFlags
 SIZED
 false
 )
-}
 crate
 :
 :

@@ -564,6 +564,8 @@ Static
 let
 display
 =
+unsafe
+{
 egl
 .
 get_display
@@ -573,6 +575,7 @@ khronos_egl
 :
 DEFAULT_DISPLAY
 )
+}
 .
 unwrap
 (

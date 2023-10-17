@@ -1718,16 +1718,6 @@ adjust_option
 array_index
 )
 ;
-/
-/
-TEST
-:
-try
-adjusting
-this
-with
-plain
-operand_map
 if
 let
 Some

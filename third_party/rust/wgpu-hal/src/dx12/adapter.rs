@@ -108,7 +108,7 @@ instance_flags
 .
 contains
 (
-crate
+wgt
 :
 :
 InstanceFlags
@@ -246,7 +246,7 @@ D3D12Lib
 >
 instance_flags
 :
-crate
+wgt
 :
 :
 InstanceFlags
@@ -3648,6 +3648,14 @@ SurfaceTarget
 :
 :
 SurfaceHandle
+(
+_
+)
+|
+SurfaceTarget
+:
+:
+SwapChainPanel
 (
 _
 )

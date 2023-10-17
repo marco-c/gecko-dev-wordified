@@ -6683,15 +6683,7 @@ super
 TypeFlags
 :
 :
-DATA
-|
-super
-:
-:
-TypeFlags
-:
-:
-SIZED
+CONSTRUCTIBLE
 )
 {
 return

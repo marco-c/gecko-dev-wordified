@@ -728,6 +728,7 @@ Arc
 derive
 (
 Clone
+Debug
 )
 ]
 pub
@@ -2392,6 +2393,13 @@ glow
 :
 Sampler
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 BindGroupLayout

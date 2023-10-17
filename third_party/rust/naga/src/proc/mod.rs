@@ -342,6 +342,16 @@ Sint
 Sf
 :
 :
+Bgra8Unorm
+=
+>
+Sk
+:
+:
+Float
+Sf
+:
+:
 Rgb10a2Uint
 =
 >
