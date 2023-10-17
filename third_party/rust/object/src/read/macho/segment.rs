@@ -207,11 +207,6 @@ u8
 ]
 >
 where
-'
-data
-:
-'
-file
 Mach
 :
 MachHeader
@@ -475,11 +470,6 @@ u8
 ]
 >
 where
-'
-data
-:
-'
-file
 Mach
 :
 MachHeader
@@ -1160,6 +1150,8 @@ command
 :
 LoadCommandData
 <
+'
+_
 Self
 :
 :
@@ -1736,6 +1728,8 @@ command
 :
 LoadCommandData
 <
+'
+_
 Self
 :
 :
@@ -2098,6 +2092,8 @@ command
 :
 LoadCommandData
 <
+'
+_
 Self
 :
 :

@@ -75,3 +75,13 @@ comdat
 :
 *
 ;
+mod
+import
+;
+pub
+use
+import
+:
+:
+*
+;

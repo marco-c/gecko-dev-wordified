@@ -1321,7 +1321,7 @@ the
 given
 symbol
 index
-satisifies
+satisfies
 the
 requirements
 of
@@ -1383,6 +1383,10 @@ Option
 <
 &
 Version
+<
+'
+_
+>
 >
 )
 -

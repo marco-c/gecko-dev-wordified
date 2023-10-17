@@ -778,11 +778,6 @@ u8
 ]
 >
 where
-'
-data
-:
-'
-file
 Xcoff
 :
 FileHeader

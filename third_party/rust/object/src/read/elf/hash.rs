@@ -401,6 +401,10 @@ Option
 <
 &
 Version
+<
+'
+_
+>
 >
 symbols
 :
@@ -1310,6 +1314,10 @@ Option
 <
 &
 Version
+<
+'
+_
+>
 >
 symbols
 :

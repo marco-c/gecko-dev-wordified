@@ -1413,7 +1413,7 @@ ascii
 so
 from_utf8
 should
-alway
+always
 succeed
 .
 let

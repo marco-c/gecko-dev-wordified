@@ -205,11 +205,6 @@ u8
 ]
 >
 where
-'
-data
-:
-'
-file
 Elf
 :
 FileHeader
@@ -1117,11 +1112,6 @@ u8
 ]
 >
 where
-'
-data
-:
-'
-file
 Elf
 :
 FileHeader

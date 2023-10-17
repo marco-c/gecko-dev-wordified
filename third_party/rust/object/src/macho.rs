@@ -725,7 +725,7 @@ code
 For
 *
 backwards
-compatability
+compatibility
 :
 *
 *
@@ -738,7 +738,7 @@ for
 source
 code
 *
-compatability
+compatibility
 .
 *
 *
@@ -2778,7 +2778,7 @@ design
 .
 At
 the
-begining
+beginning
 of
 the
 file
@@ -4167,7 +4167,7 @@ can
 '
 t
 be
-staticly
+statically
 link
 edited
 again
@@ -4334,7 +4334,7 @@ umbrella
 guarantees
 no
 multiple
-defintions
+definitions
 of
 symbols
 in
@@ -9512,7 +9512,7 @@ self
 (
 dyld
 )
-modifing
+modifying
 code
 stubs
 that
@@ -9807,7 +9807,7 @@ E
 /
 *
 *
-Dynamicly
+Dynamically
 linked
 shared
 libraries
@@ -10511,7 +10511,7 @@ framework
 .
 When
 *
-staticly
+statically
 linking
 when
 -
@@ -10726,7 +10726,7 @@ library
 .
 When
 *
-staticly
+statically
 linking
 when
 -
@@ -13654,7 +13654,7 @@ moved
 *
 from
 it
-staticly
+statically
 link
 edited
 address
@@ -13720,7 +13720,7 @@ pointer
 or
 stub
 is
-refering
+referring
 to
 .
 Unless
@@ -16737,7 +16737,7 @@ for
 runs
 of
 pointers
-initialzed
+initialized
 to
 the
 same
@@ -20350,7 +20350,7 @@ are
 referenced
 by
 a
-dynamicly
+dynamically
 bound
 object
 (
@@ -21045,7 +21045,7 @@ supported
 for
 symbols
 in
-coalesed
+coalesced
 sections
 .
 *
@@ -21053,7 +21053,7 @@ sections
 /
 /
 /
-coalesed
+coalesced
 symbol
 is
 a
@@ -21130,7 +21130,7 @@ symbol
 is
 *
 a
-defintion
+definition
 of
 a
 Thumb
@@ -21506,7 +21506,7 @@ the
 entry
 is
 *
-refering
+referring
 to
 .
 *
@@ -23426,7 +23426,7 @@ offset
 where
 the
 resulting
-expresion
+expression
 is
 outside
 the
@@ -23577,7 +23577,7 @@ unchanged
 *
 *
 The
-implemention
+implementation
 is
 quite
 messy
@@ -23896,7 +23896,7 @@ to
 be
 relocated
 is
-refering
+referring
 to
 (
 without
@@ -24047,7 +24047,7 @@ the
 generic
 relocation
 as
-discribed
+described
 above
 and
 their
@@ -24226,7 +24226,7 @@ prebound
 generic
 relocation
 as
-discribed
+described
 above
 pub
 const
@@ -24341,7 +24341,7 @@ same
 generic
 relocation
 as
-discribed
+described
 *
 in
 <
@@ -24401,7 +24401,7 @@ relocation
 is
 to
 be
-preformed
+performed
 on
 .
 *
@@ -24412,7 +24412,7 @@ on
 generic
 relocation
 as
-discribed
+described
 above
 pub
 const
@@ -25141,7 +25141,7 @@ same
 generic
 relocation
 as
-discribed
+described
 *
 above
 and
@@ -25181,7 +25181,7 @@ relocation
 is
 to
 be
-preformed
+performed
 on
 .
 *
@@ -25281,7 +25281,7 @@ conditions
 generic
 relocation
 as
-discribed
+described
 above
 pub
 const
@@ -25416,7 +25416,7 @@ low
 16
 bits
 sign
-extened
+extended
 first
 .
 This

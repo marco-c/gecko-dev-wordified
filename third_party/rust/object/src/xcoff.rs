@@ -5918,7 +5918,7 @@ _AUX_SECT
 ;
 Type
 of
-Auxillary
+Auxiliary
 entry
 .
 pub

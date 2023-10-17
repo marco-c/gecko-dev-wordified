@@ -71,7 +71,7 @@ DefaultHashBuilder
 /
 /
 An
-identifer
+identifier
 for
 an
 entry

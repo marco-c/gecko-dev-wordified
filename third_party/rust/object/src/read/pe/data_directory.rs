@@ -1426,10 +1426,6 @@ IMAGE_DIRECTORY_ENTRY_SECURITY
 pub
 fn
 file_range
-<
-'
-data
->
 (
 &
 self
@@ -1439,7 +1435,7 @@ sections
 SectionTable
 <
 '
-data
+_
 >
 )
 -

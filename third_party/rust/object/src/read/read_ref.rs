@@ -716,7 +716,7 @@ the
 alignment
 can
 be
-satisified
+satisfied
 .
 Alternatively
 only

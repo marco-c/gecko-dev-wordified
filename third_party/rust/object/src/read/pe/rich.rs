@@ -689,7 +689,7 @@ offset
 of
 the
 first
-occurence
+occurrence
 of
 needle
 in

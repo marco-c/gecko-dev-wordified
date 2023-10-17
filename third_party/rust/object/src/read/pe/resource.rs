@@ -1009,6 +1009,10 @@ self
 directory
 :
 ResourceDirectory
+<
+'
+_
+>
 )
 -
 >
