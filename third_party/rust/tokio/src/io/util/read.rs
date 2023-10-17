@@ -390,7 +390,6 @@ ReadBuf
 :
 new
 (
-*
 me
 .
 buf

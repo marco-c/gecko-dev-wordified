@@ -434,6 +434,10 @@ ctrl_c
 :
 ctrl_c
 ;
+pub
+(
+crate
+)
 mod
 registry
 ;

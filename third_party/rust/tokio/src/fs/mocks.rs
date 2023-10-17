@@ -767,7 +767,7 @@ inner_flush
 )
 }
 }
-thread_local
+tokio_thread_local
 !
 {
 static

@@ -803,8 +803,6 @@ tracing
 )
 ]
 resource_span
-:
-resource_span
 }
 }
 /
@@ -1003,6 +1001,18 @@ self
 >
 BarrierWaitResult
 {
+crate
+:
+:
+trace
+:
+:
+async_trace_leaf
+(
+)
+.
+await
+;
 /
 /
 NOTE
@@ -1052,7 +1062,7 @@ lock
 /
 It
 is
-_desireable_
+_desirable_
 to
 do
 so

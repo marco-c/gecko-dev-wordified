@@ -522,6 +522,10 @@ the
 two
 halves
 .
+#
+[
+track_caller
+]
 pub
 fn
 unsplit
@@ -537,6 +541,10 @@ T
 -
 >
 T
+where
+T
+:
+Unpin
 {
 if
 self
