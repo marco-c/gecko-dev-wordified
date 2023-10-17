@@ -181,7 +181,6 @@ bool
 &
 onlyBase10
 int32_t
-&
 length
 )
 ;
