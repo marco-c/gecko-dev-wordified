@@ -2635,6 +2635,11 @@ target_os
 "
 solaris
 "
+target_os
+=
+"
+nto
+"
 )
 )
 )
@@ -2672,6 +2677,11 @@ target_os
 =
 "
 windows
+"
+target_os
+=
+"
+nto
 "
 )
 )
@@ -2738,6 +2748,11 @@ target_os
 "
 solaris
 "
+target_os
+=
+"
+nto
+"
 )
 )
 )
@@ -2772,6 +2787,11 @@ target_os
 =
 "
 windows
+"
+target_os
+=
+"
+nto
 "
 )
 )
