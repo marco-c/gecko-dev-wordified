@@ -56,15 +56,15 @@ MPL
 import
 re
 from
-looseversion
-import
-LooseVersion
-from
-packaging
+distutils
 .
 version
 import
-Version
+StrictVersion
+from
+looseversion
+import
+LooseVersion
 class
 MozillaVersionCompareMixin
 :
@@ -143,7 +143,7 @@ with
             
 #
 a
-Version
+StrictVersion
 if
 possible
             
@@ -214,7 +214,7 @@ with
             
 #
 a
-Version
+StrictVersion
 if
 possible
             
@@ -328,50 +328,13 @@ therefore
 we
 can
 use
-Version
-            
-def
-cmp
-(
-a
-b
-)
-:
-                
-a
-b
-=
-Version
-(
-str
-(
-a
-)
-)
-Version
-(
-str
-(
-b
-)
-)
-                
-return
-(
-a
->
-b
-)
--
-(
-a
-<
-b
-)
+StrictVersion
             
 val
 =
-cmp
+StrictVersion
+.
+_cmp
 (
 self
 other
@@ -498,7 +461,7 @@ class
 ModernMozillaVersion
 (
 MozillaVersionCompareMixin
-Version
+StrictVersion
 )
 :
     
@@ -514,7 +477,7 @@ slightly
 less
 restrictive
 than
-Version
+StrictVersion
 .
     
 Instead
@@ -626,7 +589,7 @@ class
 AncientMozillaVersion
 (
 MozillaVersionCompareMixin
-Version
+StrictVersion
 )
 :
     
@@ -642,7 +605,7 @@ slightly
 less
 restrictive
 than
-Version
+StrictVersion
 .
     
 Instead
@@ -844,7 +807,7 @@ to
 support
 esr
 .
-Version
+StrictVersion
 requires
 a
 trailing

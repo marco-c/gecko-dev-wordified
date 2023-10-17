@@ -60,6 +60,12 @@ platform
 import
 subprocess
 from
+distutils
+.
+version
+import
+StrictVersion
+from
 mozboot
 .
 util
@@ -70,18 +76,12 @@ mozfile
 import
 which
 from
-packaging
-.
-version
-import
-Version
-from
 six
 import
 PY3
 NODE_MIN_VERSION
 =
-Version
+StrictVersion
 (
 "
 12
@@ -93,7 +93,7 @@ Version
 )
 NPM_MIN_VERSION
 =
-Version
+StrictVersion
 (
 "
 6
@@ -545,7 +545,7 @@ rstrip
 )
     
 return
-Version
+StrictVersion
 (
 out
 )
@@ -880,4 +880,4 @@ return
 exe
 version
 .
-release
+version
