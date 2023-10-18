@@ -2686,6 +2686,15 @@ OnDetachStreamFilters
 (
 )
 ;
+void
+SendOnDataFinished
+(
+const
+nsresult
+&
+aChannelStatus
+)
+;
 /
 /
 Create
