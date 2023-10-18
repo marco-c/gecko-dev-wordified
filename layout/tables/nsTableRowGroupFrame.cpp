@@ -973,7 +973,7 @@ aDeletedRowStoredIndex
 )
 ;
 }
-nsresult
+void
 nsTableRowGroupFrame
 :
 :
@@ -1180,9 +1180,6 @@ GetNextRow
 )
 ;
 }
-return
-NS_OK
-;
 }
 /
 /
@@ -7591,7 +7588,7 @@ return
 rowBefore
 ;
 }
-nsresult
+void
 nsTableRowGroupFrame
 :
 :
@@ -9534,9 +9531,6 @@ YMost
 0
 ;
 }
-return
-NS_OK
-;
 }
 /
 *

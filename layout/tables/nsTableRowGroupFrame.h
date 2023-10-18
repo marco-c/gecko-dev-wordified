@@ -849,7 +849,7 @@ was
 repeated
 *
 /
-nsresult
+void
 InitRepeatedFrame
 (
 nsTableRowGroupFrame
@@ -2286,7 +2286,7 @@ aPageBreakBeforeEnd
 nullptr
 )
 ;
-nsresult
+void
 SplitRowGroup
 (
 nsPresContext

@@ -2319,7 +2319,7 @@ aRenderingContext
 )
 ;
 }
-nsresult
+void
 nsTableCellFrame
 :
 :
@@ -2364,9 +2364,10 @@ HasBorder
 (
 )
 )
+{
 return
-NS_OK
 ;
+}
 if
 (
 !
@@ -2406,9 +2407,6 @@ this
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsTableCellFrame

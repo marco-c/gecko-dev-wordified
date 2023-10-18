@@ -1331,7 +1331,7 @@ GetVerticalAlign
 const
 override
 ;
-nsresult
+void
 ProcessBorders
 (
 nsTableFrame

@@ -1169,7 +1169,7 @@ aWM
 )
 const
 ;
-nsresult
+void
 GetCaptionOrigin
 (
 mozilla
@@ -1215,8 +1215,9 @@ mozilla
 WritingMode
 aWM
 )
+const
 ;
-nsresult
+void
 GetInnerOrigin
 (
 const
@@ -1262,6 +1263,7 @@ mozilla
 WritingMode
 aWM
 )
+const
 ;
 /
 /
