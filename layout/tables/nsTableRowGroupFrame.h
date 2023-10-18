@@ -246,14 +246,6 @@ nsContainerFrame
 public
 nsILineIterator
 {
-using
-TableRowGroupReflowInput
-=
-mozilla
-:
-:
-TableRowGroupReflowInput
-;
 public
 :
 NS_DECL_QUERYFRAME
@@ -2176,6 +2168,9 @@ PlaceChild
 nsPresContext
 *
 aPresContext
+mozilla
+:
+:
 TableRowGroupReflowInput
 &
 aReflowInput
@@ -2275,6 +2270,9 @@ aPresContext
 ReflowOutput
 &
 aDesiredSize
+mozilla
+:
+:
 TableRowGroupReflowInput
 &
 aReflowInput
