@@ -91,6 +91,12 @@ import
 remove
 as
 mozfileremove
+from
+mozpack
+import
+path
+as
+mozpath
 CLOBBER_MESSAGE
 =
 "
@@ -323,9 +329,7 @@ self
 .
 topsrcdir
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -336,9 +340,7 @@ self
 .
 topobjdir
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -349,9 +351,7 @@ self
 .
 src_clobber
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -365,9 +365,7 @@ self
 .
 obj_clobber
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -426,9 +424,7 @@ src_clobber
             
 comm_clobber
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -853,9 +849,7 @@ paths
 .
 append
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -927,9 +921,7 @@ paths_to_delete
             
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1260,9 +1252,7 @@ rust_targets
             
 cargo_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1432,9 +1422,7 @@ cwd
         
 cwd
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
