@@ -238,6 +238,13 @@ h
 #
 include
 "
+nsRFPService
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -824,6 +831,12 @@ mServiceWorkersTestingInWindow
 ;
 bool
 mShouldResistFingerprinting
+;
+Maybe
+<
+RFPTarget
+>
+mOverriddenFingerprintingSettings
 ;
 OriginAttributes
 mOriginAttributes
