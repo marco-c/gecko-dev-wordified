@@ -1393,6 +1393,10 @@ cspToInheritInfo
 StoragePermissionState
 storagePermission
 ;
+uint64_t
+?
+overriddenFingerprintingSettings
+;
 bool
 isMetaRefresh
 ;
@@ -1843,6 +1847,10 @@ requestBlockingReason
 ;
 StoragePermissionState
 storagePermission
+;
+uint64_t
+?
+overriddenFingerprintingSettings
 ;
 bool
 isMetaRefresh
