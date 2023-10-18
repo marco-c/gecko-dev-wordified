@@ -414,7 +414,7 @@ fail
 if
 time
 .
-time
+monotonic
 (
 )
 takes
@@ -530,7 +530,7 @@ t0
 =
 time
 .
-time
+monotonic
 (
 )
         
