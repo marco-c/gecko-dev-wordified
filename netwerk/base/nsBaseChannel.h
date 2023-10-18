@@ -482,6 +482,8 @@ net
 :
 NeckoTargetHolder
 protected
+nsIStreamListener
+protected
 nsIThreadRetargetableStreamListener
 {
 public

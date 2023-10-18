@@ -2513,6 +2513,8 @@ class
 ProxyListener
 :
 public
+nsIStreamListener
+public
 nsIThreadRetargetableStreamListener
 {
 public
@@ -2687,6 +2689,8 @@ h
 class
 imgCacheValidator
 :
+public
+nsIStreamListener
 public
 nsIThreadRetargetableStreamListener
 public
