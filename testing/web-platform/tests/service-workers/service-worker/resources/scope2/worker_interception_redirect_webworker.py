@@ -1,13 +1,7 @@
 import
 os
-from
-tools
-.
-wpt
-.
-utils
 import
-load_source
+imp
 #
 Use
 the
@@ -19,6 +13,8 @@ directory
 .
 mod
 =
+imp
+.
 load_source
 (
 "

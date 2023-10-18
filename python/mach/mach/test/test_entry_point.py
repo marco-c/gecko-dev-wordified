@@ -54,9 +54,9 @@ MPL
 /
 .
 import
-sys
+imp
 import
-types
+sys
 from
 pathlib
 import
@@ -255,9 +255,9 @@ modules
             
 mod
 =
-types
+imp
 .
-ModuleType
+new_module
 (
 "
 mach

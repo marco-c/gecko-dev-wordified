@@ -60,6 +60,8 @@ errno
 import
 hashlib
 import
+imp
+import
 os
 import
 sys
@@ -73,10 +75,6 @@ mach
 util
 import
 get_state_dir
-from
-mozfile
-import
-load_source
 from
 mozlog
 .
@@ -106,8 +104,11 @@ wpt_dir
 global
 manifest
     
+imp
+.
 load_source
 (
+        
 "
 localpaths
 "
@@ -130,6 +131,7 @@ localpaths
 py
 "
 )
+    
 )
     
 sys

@@ -64,13 +64,11 @@ MPL
 /
 .
 import
+imp
+import
 os
 import
 sys
-from
-mozfile
-import
-load_source
 from
 mozlog
 import
@@ -88,6 +86,8 @@ __file__
 [
 0
 ]
+imp
+.
 load_source
 (
     

@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+imp
+import
 os
 import
 re
@@ -82,10 +84,6 @@ errors
 import
 TimeoutException
 UnresponsiveInstanceException
-from
-mozfile
-import
-load_source
 from
 mozlog
 import
@@ -2183,19 +2181,25 @@ kwargs
         
 #
 since
+we
+use
+imp
+.
 load_source
-caches
+to
+load
+test
 modules
 if
 a
 module
+        
+#
 is
 loaded
 with
 the
 same
-        
-#
 name
 as
 another
@@ -2205,6 +2209,8 @@ module
 would
 just
 be
+        
+#
 reloaded
 .
         
@@ -2225,11 +2231,11 @@ a
 module
 then
 since
+        
+#
 reload
 (
 )
-        
-#
 only
 update
 the
@@ -2244,9 +2250,9 @@ still
 there
 !
 )
-see
         
 #
+see
 https
 :
 /
@@ -2283,10 +2289,10 @@ from
 sys
 .
 modules
-so
-we
         
 #
+so
+we
 ensure
 that
 it
@@ -2296,6 +2302,8 @@ fully
 loaded
 by
 the
+        
+#
 imp
 .
 load_source
@@ -2320,6 +2328,8 @@ mod_name
         
 test_mod
 =
+imp
+.
 load_source
 (
 mod_name
