@@ -13525,7 +13525,7 @@ endif
 }
 public
 :
-bool
+TaskResult
 Run
 (
 )
@@ -13536,7 +13536,10 @@ Compile
 )
 ;
 return
-true
+TaskResult
+:
+:
+Complete
 ;
 }
 already_AddRefed
@@ -13716,7 +13719,7 @@ aCompileTask
 )
 {
 }
-bool
+TaskResult
 Run
 (
 )
@@ -13741,7 +13744,10 @@ XPCOMShutdownFinal
 )
 {
 return
-true
+TaskResult
+:
+:
+Complete
 ;
 }
 RefPtr
@@ -13781,7 +13787,10 @@ NS_ERROR_FAILURE
 )
 ;
 return
-true
+TaskResult
+:
+:
+Complete
 ;
 }
 #
