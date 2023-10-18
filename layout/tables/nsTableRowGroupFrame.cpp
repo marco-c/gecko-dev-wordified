@@ -2233,11 +2233,6 @@ wm
 )
 ;
 bool
-haveRow
-=
-false
-;
-bool
 reflowAllKids
 =
 aReflowInput
@@ -2359,10 +2354,6 @@ GetRowIndex
 (
 )
 )
-;
-haveRow
-=
-true
 ;
 /
 /
@@ -3058,7 +3049,9 @@ kidFrame
 }
 if
 (
-haveRow
+GetFirstRow
+(
+)
 )
 {
 aReflowInput
