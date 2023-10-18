@@ -310,11 +310,6 @@ rfc6455
 "
 "
 from
-__future__
-import
-absolute_import
-division
-from
 collections
 import
 deque
@@ -1826,13 +1821,6 @@ LOGLEVEL_FINE
 )
 :
         
-#
-pylint
--
--
-py3k
-W1619
-        
 logger
 .
 log
@@ -1923,13 +1911,6 @@ common
 LOGLEVEL_FINE
 )
 :
-        
-#
-pylint
--
--
-py3k
-W1619
         
 logger
 .
@@ -5758,7 +5739,7 @@ specified
 with
 code
 None
-            
+                
 or
 reason
 is
