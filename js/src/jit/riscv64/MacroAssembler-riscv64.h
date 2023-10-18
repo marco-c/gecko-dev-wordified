@@ -604,7 +604,7 @@ Lo12
 /
 /
 load
-void
+FaultingCodeOffset
 ma_load
 (
 Register
@@ -621,7 +621,7 @@ extension
 SignExtend
 )
 ;
-void
+FaultingCodeOffset
 ma_load
 (
 Register
@@ -640,7 +640,7 @@ extension
 SignExtend
 )
 ;
-void
+FaultingCodeOffset
 ma_loadDouble
 (
 FloatRegister
@@ -649,7 +649,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 ma_loadFloat
 (
 FloatRegister
@@ -661,7 +661,7 @@ address
 /
 /
 store
-void
+FaultingCodeOffset
 ma_store
 (
 Register
@@ -678,7 +678,7 @@ extension
 SignExtend
 )
 ;
-void
+FaultingCodeOffset
 ma_store
 (
 Register
@@ -697,7 +697,7 @@ extension
 SignExtend
 )
 ;
-void
+FaultingCodeOffset
 ma_store
 (
 Imm32
@@ -716,7 +716,7 @@ extension
 SignExtend
 )
 ;
-void
+FaultingCodeOffset
 ma_store
 (
 Imm32
@@ -1734,7 +1734,7 @@ float
 value
 )
 ;
-void
+FaultingCodeOffset
 ma_fst_d
 (
 FloatRegister
@@ -1743,7 +1743,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 ma_fst_s
 (
 FloatRegister
@@ -1810,7 +1810,7 @@ FloatRegister
 dest
 )
 ;
-void
+FaultingCodeOffset
 ma_fld_s
 (
 FloatRegister
@@ -1819,7 +1819,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 ma_fld_d
 (
 FloatRegister
@@ -1828,7 +1828,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 ma_fst_d
 (
 FloatRegister
@@ -1837,7 +1837,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 ma_fst_s
 (
 FloatRegister
@@ -7019,7 +7019,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load8SignExtend
 (
 const
@@ -7030,7 +7030,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load8SignExtend
 (
 const
@@ -7041,7 +7041,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load8ZeroExtend
 (
 const
@@ -7052,7 +7052,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load8ZeroExtend
 (
 const
@@ -7063,7 +7063,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load16SignExtend
 (
 const
@@ -7074,7 +7074,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load16SignExtend
 (
 const
@@ -7108,7 +7108,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 load16ZeroExtend
 (
 const
@@ -7119,7 +7119,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load16ZeroExtend
 (
 const
@@ -7249,7 +7249,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 load32
 (
 const
@@ -7260,7 +7260,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load32
 (
 const
@@ -7271,7 +7271,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load32
 (
 AbsoluteAddress
@@ -7280,7 +7280,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 load32
 (
 wasm
@@ -7315,7 +7315,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 load64
 (
 const
@@ -7326,6 +7326,7 @@ Register64
 dest
 )
 {
+return
 loadPtr
 (
 address
@@ -7335,7 +7336,7 @@ reg
 )
 ;
 }
-void
+FaultingCodeOffset
 load64
 (
 const
@@ -7346,6 +7347,7 @@ Register64
 dest
 )
 {
+return
 loadPtr
 (
 address
@@ -7355,7 +7357,7 @@ reg
 )
 ;
 }
-void
+FaultingCodeOffset
 loadDouble
 (
 const
@@ -7366,6 +7368,7 @@ FloatRegister
 dest
 )
 {
+return
 ma_loadDouble
 (
 dest
@@ -7373,7 +7376,7 @@ addr
 )
 ;
 }
-void
+FaultingCodeOffset
 loadDouble
 (
 const
@@ -7403,6 +7406,16 @@ computeScaledAddress
 (
 src
 scratch
+)
+;
+FaultingCodeOffset
+fco
+=
+FaultingCodeOffset
+(
+currentOffset
+(
+)
 )
 ;
 fld
@@ -7412,8 +7425,11 @@ scratch
 0
 )
 ;
+return
+fco
+;
 }
-void
+FaultingCodeOffset
 loadFloat32
 (
 const
@@ -7424,6 +7440,7 @@ FloatRegister
 dest
 )
 {
+return
 ma_loadFloat
 (
 dest
@@ -7431,7 +7448,7 @@ addr
 )
 ;
 }
-void
+FaultingCodeOffset
 loadFloat32
 (
 const
@@ -7463,6 +7480,16 @@ src
 scratch
 )
 ;
+FaultingCodeOffset
+fco
+=
+FaultingCodeOffset
+(
+currentOffset
+(
+)
+)
+;
 flw
 (
 dest
@@ -7470,13 +7497,16 @@ scratch
 0
 )
 ;
+return
+fco
+;
 }
 template
 <
 typename
 S
 >
-void
+FaultingCodeOffset
 load64Unaligned
 (
 const
@@ -7487,6 +7517,7 @@ Register64
 dest
 )
 {
+return
 load64
 (
 src
@@ -7494,7 +7525,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 loadPtr
 (
 const
@@ -7505,7 +7536,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadPtr
 (
 const
@@ -7516,7 +7547,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadPtr
 (
 AbsoluteAddress
@@ -7525,7 +7556,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadPtr
 (
 wasm
@@ -7537,7 +7568,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadPrivate
 (
 const
@@ -7548,7 +7579,7 @@ Register
 dest
 )
 ;
-void
+FaultingCodeOffset
 store8
 (
 Register
@@ -7559,7 +7590,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 store8
 (
 Imm32
@@ -7570,7 +7601,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 store8
 (
 Register
@@ -7581,7 +7612,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 store8
 (
 Imm32
@@ -7592,7 +7623,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 store16
 (
 Register
@@ -7603,7 +7634,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 store16
 (
 Imm32
@@ -7614,7 +7645,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 store16
 (
 Register
@@ -7625,7 +7656,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 store16
 (
 Imm32
@@ -7641,7 +7672,7 @@ template
 typename
 T
 >
-void
+FaultingCodeOffset
 store16Unaligned
 (
 Register
@@ -7652,6 +7683,7 @@ T
 dest
 )
 {
+return
 store16
 (
 src
@@ -7659,7 +7691,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 store32
 (
 Register
@@ -7668,7 +7700,7 @@ AbsoluteAddress
 address
 )
 ;
-void
+FaultingCodeOffset
 store32
 (
 Register
@@ -7679,7 +7711,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 store32
 (
 Register
@@ -7690,7 +7722,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 store32
 (
 Imm32
@@ -7701,7 +7733,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 store32
 (
 Imm32
@@ -7776,7 +7808,7 @@ dest
 )
 ;
 }
-void
+FaultingCodeOffset
 store64
 (
 Imm64
@@ -7785,6 +7817,7 @@ Address
 address
 )
 {
+return
 storePtr
 (
 ImmWord
@@ -7797,7 +7830,7 @@ address
 )
 ;
 }
-void
+FaultingCodeOffset
 store64
 (
 Imm64
@@ -7808,6 +7841,7 @@ BaseIndex
 address
 )
 {
+return
 storePtr
 (
 ImmWord
@@ -7820,7 +7854,7 @@ address
 )
 ;
 }
-void
+FaultingCodeOffset
 store64
 (
 Register64
@@ -7829,6 +7863,7 @@ Address
 address
 )
 {
+return
 storePtr
 (
 src
@@ -7838,7 +7873,7 @@ address
 )
 ;
 }
-void
+FaultingCodeOffset
 store64
 (
 Register64
@@ -7849,6 +7884,7 @@ BaseIndex
 address
 )
 {
+return
 storePtr
 (
 src
@@ -7863,7 +7899,7 @@ template
 typename
 T
 >
-void
+FaultingCodeOffset
 store64Unaligned
 (
 Register64
@@ -7874,6 +7910,7 @@ T
 dest
 )
 {
+return
 store64
 (
 src
@@ -7886,7 +7923,7 @@ template
 typename
 T
 >
-void
+FaultingCodeOffset
 storePtr
 (
 ImmWord
@@ -7900,7 +7937,7 @@ template
 typename
 T
 >
-void
+FaultingCodeOffset
 storePtr
 (
 ImmPtr
@@ -7914,7 +7951,7 @@ template
 typename
 T
 >
-void
+FaultingCodeOffset
 storePtr
 (
 ImmGCPtr
@@ -7923,7 +7960,7 @@ T
 address
 )
 ;
-void
+FaultingCodeOffset
 storePtr
 (
 Register
@@ -7934,7 +7971,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 storePtr
 (
 Register
@@ -7945,7 +7982,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 storePtr
 (
 Register
