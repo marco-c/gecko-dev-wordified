@@ -533,9 +533,8 @@ is
 (
 footerResult
 "
-View
-Saved
-Logins
+Manage
+Passwords
 "
 "
 the
