@@ -147,8 +147,6 @@ final
 :
 public
 nsIIncrementalStreamLoader
-public
-nsIThreadRetargetableStreamListener
 {
 public
 :

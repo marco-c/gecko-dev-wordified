@@ -166,8 +166,6 @@ MutableBlobStreamListener
 final
 :
 public
-nsIStreamListener
-public
 nsIThreadRetargetableStreamListener
 {
 public

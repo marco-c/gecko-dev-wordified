@@ -137,8 +137,6 @@ nsStreamListenerWrapper
 final
 :
 public
-nsIStreamListener
-public
 nsIMultiPartChannelListener
 public
 nsIThreadRetargetableStreamListener
