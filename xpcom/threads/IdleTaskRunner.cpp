@@ -290,7 +290,7 @@ GetIdleTaskManager
 )
 ;
 }
-TaskResult
+bool
 Run
 (
 )
@@ -351,10 +351,7 @@ Run
 ;
 }
 return
-TaskResult
-:
-:
-Complete
+true
 ;
 }
 void

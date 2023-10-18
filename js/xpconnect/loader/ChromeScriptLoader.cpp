@@ -1001,7 +1001,7 @@ nullptr
 }
 public
 :
-TaskResult
+bool
 Run
 (
 )
@@ -1019,10 +1019,7 @@ mIsCancelled
 )
 {
 return
-TaskResult
-:
-:
-Complete
+true
 ;
 }
 Compile
@@ -1030,10 +1027,7 @@ Compile
 )
 ;
 return
-TaskResult
-:
-:
-Complete
+true
 ;
 }
 already_AddRefed
@@ -1402,7 +1396,7 @@ true
 }
 #
 endif
-TaskResult
+bool
 Run
 (
 )
@@ -2294,10 +2288,7 @@ return
 true
 ;
 }
-Task
-:
-:
-TaskResult
+bool
 AsyncScriptCompilationCompleteTask
 :
 :
@@ -2326,10 +2317,7 @@ mCompileTask
 nullptr
 ;
 return
-TaskResult
-:
-:
-Complete
+true
 ;
 }
 void
