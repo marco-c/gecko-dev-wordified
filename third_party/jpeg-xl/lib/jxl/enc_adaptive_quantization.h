@@ -86,17 +86,6 @@ lib
 /
 jxl
 /
-common
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 enc_cache
 .
 h
@@ -385,6 +374,9 @@ rescale
 ImageF
 *
 initial_quant_mask
+ImageF
+*
+initial_quant_mask1x1
 )
 ;
 float

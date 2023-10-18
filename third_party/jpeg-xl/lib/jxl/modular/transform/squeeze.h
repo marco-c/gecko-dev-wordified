@@ -264,17 +264,6 @@ lib
 /
 jxl
 /
-common
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 modular
 /
 modular_image

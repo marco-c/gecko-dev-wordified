@@ -122,17 +122,6 @@ lib
 /
 jxl
 /
-common
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 dct_scales
 .
 h

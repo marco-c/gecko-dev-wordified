@@ -806,6 +806,9 @@ here
 /
 /
 TODO
+(
+user
+)
 :
 Store
 Exif
@@ -817,9 +820,9 @@ chunk
 instead
 which
 always
+/
+/
 begins
-/
-/
 with
 the
 TIFF
@@ -926,6 +929,9 @@ empty
 /
 /
 TODO
+(
+user
+)
 :
 Store
 XMP
@@ -943,6 +949,8 @@ xmp
 "
 text
 chunk
+/
+/
 instead
 .
 JXL_RETURN_IF_ERROR

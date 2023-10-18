@@ -70,17 +70,6 @@ lib
 /
 jxl
 /
-color_management
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 enc_image_bundle
 .
 h

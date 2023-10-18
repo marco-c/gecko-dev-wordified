@@ -93,7 +93,7 @@ lib
 /
 jxl
 /
-common
+frame_dimensions
 .
 h
 "

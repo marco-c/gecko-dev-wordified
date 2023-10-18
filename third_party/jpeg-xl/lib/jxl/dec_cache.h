@@ -99,10 +99,15 @@ lib
 /
 jxl
 /
-coeff_order
+base
+/
+common
 .
 h
 "
+/
+/
+kMaxNumPasses
 #
 include
 "
@@ -110,7 +115,7 @@ lib
 /
 jxl
 /
-common
+coeff_order
 .
 h
 "
@@ -805,6 +810,9 @@ coalescing
 ;
 bool
 render_spotcolors
+;
+bool
+render_noise
 ;
 }
 ;

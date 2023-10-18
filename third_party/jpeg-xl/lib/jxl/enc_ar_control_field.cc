@@ -173,17 +173,6 @@ lib
 /
 jxl
 /
-common
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 enc_adaptive_quantization
 .
 h

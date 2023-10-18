@@ -120,17 +120,6 @@ lib
 /
 jxl
 /
-common
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 dct_scales
 .
 h
@@ -207,6 +196,8 @@ include
 lib
 /
 jxl
+/
+base
 /
 fast_math
 -

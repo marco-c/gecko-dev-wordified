@@ -139,17 +139,6 @@ image_metadata
 .
 h
 "
-#
-include
-"
-lib
-/
-jxl
-/
-opsin_params
-.
-h
-"
 namespace
 jxl
 {

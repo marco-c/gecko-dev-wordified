@@ -121,7 +121,7 @@ lib
 /
 jxl
 /
-enc_color_management
+color_encoding_internal
 .
 h
 "

@@ -89,17 +89,6 @@ lib
 /
 jxl
 /
-common
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 dct_scales
 .
 h
@@ -133,7 +122,7 @@ lib
 /
 jxl
 /
-opsin_params
+pack_signed
 .
 h
 "
@@ -681,6 +670,9 @@ opsin
 /
 /
 TODO
+(
+user
+)
 :
 implement
 spline

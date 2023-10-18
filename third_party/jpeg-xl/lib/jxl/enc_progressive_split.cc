@@ -92,6 +92,9 @@ common
 .
 h
 "
+/
+/
+kMaxNumPasses
 #
 include
 "

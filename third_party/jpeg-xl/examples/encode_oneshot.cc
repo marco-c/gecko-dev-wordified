@@ -404,6 +404,11 @@ readsize
 size
 )
 {
+fclose
+(
+file
+)
+;
 return
 false
 ;

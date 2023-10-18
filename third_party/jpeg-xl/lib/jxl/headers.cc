@@ -60,7 +60,7 @@ lib
 /
 jxl
 /
-common
+fields
 .
 h
 "
@@ -71,7 +71,7 @@ lib
 /
 jxl
 /
-fields
+frame_dimensions
 .
 h
 "

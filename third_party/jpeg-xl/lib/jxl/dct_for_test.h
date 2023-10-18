@@ -85,13 +85,12 @@ lib
 /
 jxl
 /
+base
+/
 common
 .
 h
 "
-/
-/
-Pi
 namespace
 jxl
 {

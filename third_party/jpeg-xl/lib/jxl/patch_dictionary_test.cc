@@ -60,7 +60,9 @@ lib
 /
 jxl
 /
-enc_butteraugli_comparator
+cms
+/
+jxl_cms
 .
 h
 "
@@ -71,7 +73,7 @@ lib
 /
 jxl
 /
-enc_color_management
+enc_butteraugli_comparator
 .
 h
 "
@@ -392,7 +394,8 @@ frames
 ButteraugliParams
 (
 )
-GetJxlCms
+*
+JxlGetDefaultCms
 (
 )
 /

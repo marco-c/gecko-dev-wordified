@@ -150,17 +150,6 @@ status
 .
 h
 "
-#
-include
-"
-lib
-/
-jxl
-/
-common
-.
-h
-"
 namespace
 jxl
 {

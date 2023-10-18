@@ -51,6 +51,11 @@ LIB_JXL_JPEG_DEC_JPEG_SERIALIZATION_STATE_H_
 #
 include
 <
+algorithm
+>
+#
+include
+<
 deque
 >
 #
@@ -113,7 +118,7 @@ false
 void
 InitDepths
 (
-int
+int8_t
 value
 =
 0
@@ -272,9 +277,14 @@ std
 :
 vector
 <
-int
+uint16_t
 >
 refinement_bits_
+;
+size_t
+refinement_bits_count_
+=
+0
 ;
 }
 ;

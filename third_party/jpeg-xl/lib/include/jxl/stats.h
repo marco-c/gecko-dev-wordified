@@ -174,6 +174,7 @@ JxlEncoderStats
 *
 JxlEncoderStatsCreate
 (
+void
 )
 ;
 /

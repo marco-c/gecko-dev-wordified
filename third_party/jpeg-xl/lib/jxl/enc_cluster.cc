@@ -144,6 +144,8 @@ lib
 /
 jxl
 /
+base
+/
 fast_math
 -
 inl

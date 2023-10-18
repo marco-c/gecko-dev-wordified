@@ -117,7 +117,7 @@ lib
 /
 jxl
 /
-common
+dct_util
 .
 h
 "
@@ -128,7 +128,7 @@ lib
 /
 jxl
 /
-dct_util
+frame_dimensions
 .
 h
 "

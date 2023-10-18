@@ -147,6 +147,9 @@ common
 .
 h
 "
+/
+/
+JXL_HIGH_PRECISION
 #
 include
 "

@@ -156,17 +156,6 @@ lib
 /
 jxl
 /
-common
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 dec_bit_reader
 .
 h

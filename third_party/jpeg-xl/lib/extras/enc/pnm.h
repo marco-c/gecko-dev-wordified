@@ -142,6 +142,17 @@ unique_ptr
 <
 Encoder
 >
+GetPNMEncoder
+(
+)
+;
+std
+:
+:
+unique_ptr
+<
+Encoder
+>
 GetPPMEncoder
 (
 )

@@ -713,11 +713,11 @@ c_enc
 ;
 JXL_CHECK
 (
-ConvertExternalToInternalColorEncoding
+c_enc
+.
+FromExternal
 (
 color_encoding
-&
-c_enc
 )
 )
 ;

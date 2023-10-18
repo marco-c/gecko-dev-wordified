@@ -183,11 +183,11 @@ c_internal
 ;
 EXPECT_TRUE
 (
-ConvertExternalToInternalColorEncoding
+c_internal
+.
+FromExternal
 (
 c_external
-&
-c_internal
 )
 )
 ;

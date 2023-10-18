@@ -291,7 +291,7 @@ ConvertChannelsToExternal
 const
 ImageF
 *
-channels
+in_channels
 [
 ]
 size_t

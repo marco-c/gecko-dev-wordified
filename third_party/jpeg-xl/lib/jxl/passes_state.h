@@ -88,17 +88,6 @@ lib
 /
 jxl
 /
-common
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 dec_patch_dictionary
 .
 h
