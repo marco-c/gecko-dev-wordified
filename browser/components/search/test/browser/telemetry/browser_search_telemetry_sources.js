@@ -769,6 +769,11 @@ is_shopping_page
 "
 false
 "
+is_private
+:
+"
+false
+"
 shopping_tab_displayed
 :
 "
@@ -941,6 +946,11 @@ source
 :
 expectedScalarSource
 is_shopping_page
+:
+"
+false
+"
+is_private
 :
 "
 false
@@ -1176,7 +1186,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -1926,7 +1936,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
