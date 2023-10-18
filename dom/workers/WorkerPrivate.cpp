@@ -34009,6 +34009,9 @@ nsRFPService
 IsRFPEnabledFor
 (
 aTarget
+mLoadInfo
+.
+mOverriddenFingerprintingSettings
 )
 ;
 }

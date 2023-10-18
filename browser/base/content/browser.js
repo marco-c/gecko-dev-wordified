@@ -9926,6 +9926,7 @@ shouldResistFingerprinting
 "
 RoundWindowSize
 "
+null
 )
 )
 {

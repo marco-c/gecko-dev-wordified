@@ -1230,6 +1230,13 @@ IsRFPEnabledFor
 (
 RFPTarget
 aTarget
+const
+Maybe
+<
+RFPTarget
+>
+&
+aOverriddenFingerprintingSettings
 )
 ;
 /
