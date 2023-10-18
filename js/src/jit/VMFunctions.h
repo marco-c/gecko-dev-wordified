@@ -4603,6 +4603,12 @@ VMFunctionId
 id
 )
 ;
+extern
+size_t
+NumVMFunctions
+(
+)
+;
 }
 /
 /

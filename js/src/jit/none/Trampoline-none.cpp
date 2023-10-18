@@ -343,6 +343,7 @@ JSContext
 *
 MacroAssembler
 &
+VMFunctionId
 const
 VMFunctionData
 &

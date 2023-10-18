@@ -4515,6 +4515,8 @@ cx
 MacroAssembler
 &
 masm
+VMFunctionId
+id
 const
 VMFunctionData
 &
@@ -4713,8 +4715,7 @@ regs
 getAny
 (
 )
-&
-f
+id
 )
 ;
 /

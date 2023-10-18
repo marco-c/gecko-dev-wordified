@@ -1793,6 +1793,8 @@ cx
 MacroAssembler
 &
 masm
+VMFunctionId
+id
 const
 VMFunctionData
 &
