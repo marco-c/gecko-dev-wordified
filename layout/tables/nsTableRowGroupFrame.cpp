@@ -2408,7 +2408,7 @@ InkOverflowRect
 )
 ;
 ReflowOutput
-desiredSize
+kidDesiredSize
 (
 aReflowInput
 .
@@ -2635,7 +2635,7 @@ ReflowChild
 (
 kidFrame
 aPresContext
-desiredSize
+kidDesiredSize
 kidReflowInput
 wm
 kidPosition
@@ -2661,7 +2661,7 @@ kidReflowInput
 wm
 kidPosition
 containerSize
-desiredSize
+kidDesiredSize
 oldKidRect
 .
 GetPhysicalRect
@@ -2793,7 +2793,7 @@ wm
 )
 !
 =
-desiredSize
+kidDesiredSize
 .
 BSize
 (
