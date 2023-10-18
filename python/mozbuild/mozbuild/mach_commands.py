@@ -117,6 +117,10 @@ SettingsProvider
     
 SubCommand
 )
+from
+mozfile
+import
+load_source
 import
 mozbuild
 .
@@ -7478,9 +7482,6 @@ exit_code
 =
 0
     
-import
-imp
-    
 path
 =
 os
@@ -7502,39 +7503,12 @@ py
 "
 )
     
-with
-open
-(
-path
-"
-r
-"
-)
-as
-fh
-:
-        
-imp
-.
-load_module
+load_source
 (
 "
 remotegtests
 "
-fh
 path
-(
-"
-.
-py
-"
-"
-r
-"
-imp
-.
-PY_SOURCE
-)
 )
     
 import
