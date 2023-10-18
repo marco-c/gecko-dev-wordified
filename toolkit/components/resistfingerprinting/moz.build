@@ -172,6 +172,11 @@ RelativeTimeline
 .
 h
 "
+"
+RFPTargetIPCUtils
+.
+h
+"
 ]
 EXTRA_JS_MODULES
 +
