@@ -414,9 +414,9 @@ void
 RemoveCookieFromDB
 (
 const
-CookieListIter
+Cookie
 &
-aIter
+aCookie
 )
 override
 ;
@@ -461,9 +461,9 @@ void
 PrepareCookieRemoval
 (
 const
-CookieListIter
+Cookie
 &
-aIter
+aCookie
 mozIStorageBindingParamsArray
 *
 aParamsArray

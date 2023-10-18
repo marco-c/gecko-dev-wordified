@@ -933,9 +933,9 @@ void
 RemoveCookieFromDB
 (
 const
-CookieListIter
+Cookie
 &
-aIter
+aCookie
 )
 =
 0
