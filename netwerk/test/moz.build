@@ -144,6 +144,15 @@ XPCSHELL_TESTS_MANIFESTS
 "
 unit
 /
+node_execute
+/
+xpcshell
+.
+ini
+"
+"
+unit
+/
 xpcshell
 .
 ini

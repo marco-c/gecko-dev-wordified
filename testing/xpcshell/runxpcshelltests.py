@@ -11124,6 +11124,10 @@ getcwd
 universal_newlines
 =
 True
+                        
+start_new_session
+=
+True
                     
 )
                 
@@ -11442,6 +11446,39 @@ poll
 (
 )
 )
+)
+            
+elif
+sys
+.
+platform
+!
+=
+"
+win32
+"
+:
+                
+#
+Kill
+process
+and
+all
+its
+spawned
+children
+.
+                
+os
+.
+killpg
+(
+proc
+.
+pid
+signal
+.
+SIGTERM
 )
             
 else
