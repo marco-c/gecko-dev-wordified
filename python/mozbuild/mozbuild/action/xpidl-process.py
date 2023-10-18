@@ -159,14 +159,6 @@ IDLParser
 from
 mozbuild
 .
-action
-.
-util
-import
-log_build_task
-from
-mozbuild
-.
 makeutil
 import
 Makefile
@@ -1195,9 +1187,8 @@ __main__
 "
 :
     
-log_build_task
-(
 main
+(
 sys
 .
 argv
