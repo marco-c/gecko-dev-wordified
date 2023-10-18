@@ -141,9 +141,6 @@ SetNativeClipboardData
 nsITransferable
 *
 aTransferable
-nsIClipboardOwner
-*
-aOwner
 int32_t
 aWhichClipboard
 )

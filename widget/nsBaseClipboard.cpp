@@ -1119,7 +1119,6 @@ rv
 SetNativeClipboardData
 (
 aTransferable
-aOwner
 aWhichClipboard
 )
 ;
