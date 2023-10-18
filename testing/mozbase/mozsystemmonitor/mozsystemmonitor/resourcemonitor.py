@@ -1670,6 +1670,10 @@ poll_interval
 1
 .
 0
+metadata
+=
+{
+}
 )
 :
         
@@ -2064,6 +2068,12 @@ self
 poll_interval
 =
 poll_interval
+        
+self
+.
+metadata
+=
+metadata
     
 def
 __del__
@@ -6556,6 +6566,31 @@ firstThread
 "
 markers
 "
+]
+        
+for
+key
+in
+self
+.
+metadata
+:
+            
+profile
+[
+"
+meta
+"
+]
+[
+key
+]
+=
+self
+.
+metadata
+[
+key
 ]
         
 def
