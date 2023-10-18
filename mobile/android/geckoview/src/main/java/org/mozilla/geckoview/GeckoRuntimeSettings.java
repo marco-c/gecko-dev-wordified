@@ -4013,8 +4013,16 @@ geckoview
 .
 logging
 "
+BuildConfig
+.
+DEBUG_BUILD
+?
 "
 Debug
+"
+:
+"
+Warn
 "
 )
 ;
