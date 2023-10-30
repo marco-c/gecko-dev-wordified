@@ -5352,13 +5352,8 @@ f
 ;
 masm
 .
-setupUnalignedABICall
+setupUnalignedABICallDontSaveRestoreSP
 (
-regs
-.
-getAny
-(
-)
 )
 ;
 masm
