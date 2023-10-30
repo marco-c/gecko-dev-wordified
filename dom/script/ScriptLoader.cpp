@@ -145,9 +145,7 @@ h
 #
 include
 "
-mozilla
-/
-Assertions
+nsGenericHTMLElement
 .
 h
 "
@@ -156,7 +154,7 @@ include
 "
 mozilla
 /
-nsGenericHTMLElementWithFetchPriorityAttribute
+Assertions
 .
 h
 "
@@ -26116,7 +26114,7 @@ requestPriority
 =
 FetchPriorityToRequestPriority
 (
-nsGenericHTMLElementWithFetchPriorityAttribute
+nsGenericHTMLElement
 :
 :
 ToFetchPriority
