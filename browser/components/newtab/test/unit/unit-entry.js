@@ -3095,6 +3095,15 @@ set
 {
 }
 }
+showPrivacyClick
+:
+{
+record
+(
+)
+{
+}
+}
 }
 topSites
 :
