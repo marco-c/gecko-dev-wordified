@@ -974,7 +974,7 @@ num_frames
 )
 Eq
 (
-30
+31
 )
 )
 ;
@@ -984,6 +984,8 @@ Eq
 seconds
 15
 fps
++
+1
 ExpectOutputFilesCount
 (
 1

@@ -1735,10 +1735,6 @@ ConnectVideoSourcesToStreams
 (
 )
 ;
-StartVideoSources
-(
-)
-;
 }
 )
 ;

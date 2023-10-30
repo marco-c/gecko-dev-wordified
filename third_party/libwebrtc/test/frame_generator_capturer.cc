@@ -333,7 +333,7 @@ clock
 )
 sending_
 (
-false
+true
 )
 sink_wants_observer_
 (

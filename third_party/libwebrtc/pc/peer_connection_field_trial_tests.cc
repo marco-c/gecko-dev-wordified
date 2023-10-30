@@ -1741,13 +1741,6 @@ is_screencast
 false
 )
 ;
-video_track_source
--
->
-Start
-(
-)
-;
 caller
 -
 >
