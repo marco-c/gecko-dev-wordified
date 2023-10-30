@@ -176,7 +176,7 @@ browser
 /
 browser_sandbox_headless
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS
