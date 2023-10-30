@@ -2859,6 +2859,9 @@ begin_marker
 (
 name
 text
+disambiguator
+=
+None
 )
 :
         
@@ -2868,13 +2871,8 @@ SystemResourceMonitor
 instance
 :
             
-SystemResourceMonitor
-.
-instance
-.
-_active_markers
-[
-                
+id
+=
 name
 +
 "
@@ -2883,6 +2881,26 @@ name
 +
 text
             
+if
+disambiguator
+:
+                
+id
++
+=
+"
+:
+"
++
+disambiguator
+            
+SystemResourceMonitor
+.
+instance
+.
+_active_markers
+[
+id
 ]
 =
 time
@@ -2898,6 +2916,9 @@ end_marker
 (
 name
 text
+disambiguator
+=
+None
 )
 :
         
@@ -2927,6 +2948,19 @@ name
 "
 +
 text
+        
+if
+disambiguator
+:
+            
+id
++
+=
+"
+:
+"
++
+disambiguator
         
 if
 not

@@ -2179,10 +2179,23 @@ plain_line
 split
 (
 )
-[
-1
-:
-]
+            
+_
+_
+disambiguator
+=
+args
+.
+pop
+(
+0
+)
+.
+partition
+(
+"
+"
+)
             
 action
 =
@@ -2302,6 +2315,7 @@ args
 [
 0
 ]
+disambiguator
 )
                 
 update_needed
@@ -2325,6 +2339,7 @@ resources
 .
 begin_marker
 (
+                    
 action
 [
 len
@@ -2342,6 +2357,8 @@ join
 (
 args
 )
+disambiguator
+                
 )
                 
 update_needed
@@ -2365,6 +2382,7 @@ resources
 .
 end_marker
 (
+                    
 action
 [
 len
@@ -2382,6 +2400,8 @@ join
 (
 args
 )
+disambiguator
+                
 )
                 
 update_needed
