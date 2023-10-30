@@ -928,7 +928,7 @@ readouterr
 Check
 if
 it
-identifes
+identifies
 foobar
 as
 invalid

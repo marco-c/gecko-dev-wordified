@@ -376,7 +376,7 @@ true
 }
 /
 /
-Initiallize
+Initialize
 dropdown
 link
 window

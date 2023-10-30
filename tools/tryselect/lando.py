@@ -473,9 +473,7 @@ commit
 )
     
 #
-Re
--
-use
+Reuse
 the
 base
 revision
