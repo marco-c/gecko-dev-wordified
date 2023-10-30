@@ -56,6 +56,8 @@ MPL
 import
 argparse
 import
+configparser
+import
 errno
 import
 hashlib
@@ -65,8 +67,6 @@ import
 sys
 import
 manifestdownload
-import
-six
 from
 mach
 .
@@ -83,12 +83,6 @@ mozlog
 structured
 import
 commandline
-from
-six
-.
-moves
-import
-configparser
 from
 wptrunner
 import
@@ -699,11 +693,10 @@ config_path
 for
 paths
 in
-six
-.
-itervalues
-(
 test_paths
+.
+values
+(
 )
 :
         
@@ -951,11 +944,10 @@ test_paths
 for
 paths
 in
-six
-.
-itervalues
-(
 test_paths
+.
+values
+(
 )
 :
         
@@ -1554,11 +1546,10 @@ for
 url_base
 paths
 in
-six
-.
-iteritems
-(
 test_paths
+.
+items
+(
 )
 :
         
