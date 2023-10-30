@@ -84,7 +84,7 @@ QuickSuggestTestUtils
 ensureQuickSuggestInit
 (
 {
-remoteSettingsResults
+remoteSettingsRecords
 :
 [
 {
@@ -453,7 +453,7 @@ cap
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {
@@ -935,7 +935,7 @@ window
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {
@@ -1018,7 +1018,7 @@ cap
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {
@@ -1290,7 +1290,7 @@ window
 await
 QuickSuggestTestUtils
 .
-setRemoteSettingsResults
+setRemoteSettingsRecords
 (
 [
 {
