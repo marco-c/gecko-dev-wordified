@@ -594,6 +594,11 @@ mUseExternalTextureInSwapChain
 =
 false
 ;
+bool
+mNewTextureRequested
+=
+false
+;
 }
 ;
 }
