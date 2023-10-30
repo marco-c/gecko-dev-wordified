@@ -6525,6 +6525,20 @@ comm
 central
 "
     
+default_candidate_trees
+=
+[
+        
+"
+releases
+/
+comm
+-
+release
+"
+    
+]
+    
 nightly_candidate_trees
 =
 [
