@@ -158,7 +158,7 @@ MockSctpDataChannel
 "
 state
 "
-udp
+someProtocol
 "
 0
 0
