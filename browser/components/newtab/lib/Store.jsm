@@ -174,7 +174,7 @@ redux
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -189,7 +189,9 @@ vendor
 /
 Redux
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
