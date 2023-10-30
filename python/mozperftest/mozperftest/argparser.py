@@ -161,25 +161,36 @@ convert_day
 noqa
 FLAVORS
 =
+(
+    
 "
 desktop
 -
 browser
 "
+    
 "
 mobile
 -
 browser
 "
+    
 "
 doc
 "
+    
 "
 xpcshell
 "
+    
 "
 webpagetest
 "
+    
+"
+mochitest
+"
+)
 class
 Options
 :
@@ -839,7 +850,7 @@ items
 )
 :
         
-option
+parsed_option
 =
 "
 -
@@ -869,7 +880,7 @@ _
 )
         
 if
-option
+parsed_option
 in
 Options
 .
@@ -888,14 +899,14 @@ defined
 !
 "
 %
-option
+parsed_option
 )
         
 Options
 .
 args
 [
-option
+parsed_option
 ]
 =
 value

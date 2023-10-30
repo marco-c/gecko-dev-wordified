@@ -141,6 +141,9 @@ browser
 "
 xpcshell
 "
+"
+mochitest
+"
 )
 :
         
