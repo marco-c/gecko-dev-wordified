@@ -875,13 +875,6 @@ aIFrame
 )
 ;
 void
-PropagateIsUnderHiddenEmbedderElement
-(
-bool
-aIsUnderHiddenEmbedderElement
-)
-;
-void
 UpdateRemoteStyle
 (
 mozilla
