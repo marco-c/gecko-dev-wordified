@@ -11085,6 +11085,7 @@ aReqSize
 )
 ;
 }
+inline
 void
 *
 MozJemallocPHC
@@ -11256,6 +11257,7 @@ aReqSize
 )
 ;
 }
+inline
 void
 *
 MozJemallocPHC
@@ -12335,6 +12337,7 @@ aNewSize
 )
 ;
 }
+inline
 void
 *
 MozJemallocPHC
@@ -12759,6 +12762,7 @@ aPtr
 ;
 }
 }
+inline
 void
 MozJemallocPHC
 :
@@ -12903,6 +12907,7 @@ aReqSize
 )
 ;
 }
+inline
 void
 *
 MozJemallocPHC
@@ -12927,6 +12932,7 @@ aReqSize
 )
 ;
 }
+inline
 size_t
 MozJemallocPHC
 :
@@ -13145,6 +13151,7 @@ gMut
 )
 ;
 }
+inline
 void
 MozJemallocPHC
 :
@@ -13516,6 +13523,7 @@ bookkeeping
 bookkeeping
 ;
 }
+inline
 void
 MozJemallocPHC
 :
@@ -13796,6 +13804,7 @@ size
 #
 endif
 }
+inline
 void
 *
 MozJemallocPHC
@@ -13820,6 +13829,7 @@ aReqSize
 )
 ;
 }
+inline
 void
 *
 MozJemallocPHC
@@ -13847,6 +13857,7 @@ aReqSize
 )
 ;
 }
+inline
 void
 *
 MozJemallocPHC
@@ -13875,6 +13886,7 @@ aNewSize
 )
 ;
 }
+inline
 void
 MozJemallocPHC
 :
@@ -13899,6 +13911,7 @@ aPtr
 )
 ;
 }
+inline
 void
 *
 MozJemallocPHC
