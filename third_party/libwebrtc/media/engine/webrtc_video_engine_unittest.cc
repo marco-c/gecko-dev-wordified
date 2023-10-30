@@ -20163,7 +20163,7 @@ VideoCodec
 >
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -20230,7 +20230,7 @@ kFrameDuration
 ;
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -20284,7 +20284,7 @@ kFrameDuration
 ;
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -20368,7 +20368,7 @@ VideoCodec
 >
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -20474,7 +20474,7 @@ VP8
 .
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -20578,7 +20578,7 @@ VideoCodec
 >
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -20670,7 +20670,7 @@ performed
 .
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -20751,7 +20751,7 @@ encoder
 .
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -33273,7 +33273,7 @@ VideoCodec
 >
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -39681,7 +39681,7 @@ VideoCodec
 >
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -78512,7 +78512,7 @@ VideoCodec
 >
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec
@@ -78582,7 +78582,7 @@ kFrameDuration
 ;
 codec
 =
-channel_
+send_channel_
 -
 >
 GetSendCodec

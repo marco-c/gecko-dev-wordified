@@ -9619,7 +9619,7 @@ absl
 :
 optional
 <
-VideoCodec
+Codec
 >
 WebRtcVideoSendChannel
 :
@@ -9627,6 +9627,7 @@ WebRtcVideoSendChannel
 GetSendCodec
 (
 )
+const
 {
 RTC_DCHECK_RUN_ON
 (

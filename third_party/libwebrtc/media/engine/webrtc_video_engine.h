@@ -1527,11 +1527,12 @@ absl
 :
 optional
 <
-VideoCodec
+Codec
 >
 GetSendCodec
 (
 )
+const
 override
 ;
 bool
