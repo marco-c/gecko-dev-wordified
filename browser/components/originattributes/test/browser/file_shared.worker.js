@@ -8,14 +8,6 @@ random
 (
 )
 ;
-/
-*
-eslint
--
-env
-worker
-*
-/
 onconnect
 =
 function

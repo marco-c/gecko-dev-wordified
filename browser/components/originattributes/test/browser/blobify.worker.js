@@ -33,14 +33,6 @@ to
 the
 blob
 .
-/
-*
-eslint
--
-env
-worker
-*
-/
 var
 postStringInBlob
 =

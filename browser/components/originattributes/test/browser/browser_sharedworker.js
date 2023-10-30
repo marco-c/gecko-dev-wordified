@@ -96,7 +96,9 @@ content
 SharedWorker
 (
 "
-file_sharedworker
+file_shared
+.
+worker
 .
 js
 "

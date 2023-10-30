@@ -1397,7 +1397,9 @@ content
 SharedWorker
 (
 "
-file_navigatorWorker
+file_navigator
+.
+worker
 .
 js
 "
