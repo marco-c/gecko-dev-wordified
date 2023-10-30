@@ -3113,6 +3113,15 @@ record
 {
 }
 }
+prefChanged
+:
+{
+record
+(
+)
+{
+}
+}
 }
 topSites
 :
