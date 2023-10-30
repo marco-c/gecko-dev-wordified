@@ -327,12 +327,7 @@ size_t
 height
 )
 override
-{
-RTC_CHECK_NOTREACHED
-(
-)
 ;
-}
 Resolution
 GetResolution
 (
