@@ -2349,6 +2349,10 @@ CreateFrameGeneratorCapturer
 720
 )
 ;
+StartVideoSources
+(
+)
+;
 }
 )
 ;
