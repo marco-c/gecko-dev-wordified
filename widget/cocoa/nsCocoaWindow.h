@@ -2496,13 +2496,6 @@ aFullscreen
 )
 ;
 void
-CocoaWindowDidFailFullscreen
-(
-bool
-aAttemptedFullscreen
-)
-;
-void
 CocoaWindowDidResize
 (
 )
