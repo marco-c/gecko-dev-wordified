@@ -8540,7 +8540,7 @@ packet_id
 clock_
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 )

@@ -434,7 +434,7 @@ void
 OnSendPacket
 (
 uint16_t
-int64_t
+Timestamp
 uint32_t
 )
 (
@@ -2987,7 +2987,7 @@ kTransportSequenceNumber
 clock_
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 kSsrc
@@ -6331,13 +6331,13 @@ Uri
 )
 ;
 const
-int64_t
-capture_time_ms
+Timestamp
+capture_time
 =
 clock_
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 ;
@@ -6546,7 +6546,7 @@ send_packet_observer_
 OnSendPacket
 (
 1
-capture_time_ms
+capture_time
 kSsrc
 )
 )
@@ -6619,7 +6619,7 @@ send_packet_observer_
 OnSendPacket
 (
 3
-capture_time_ms
+capture_time
 kFlexFecSsrc
 )
 )

@@ -3553,10 +3553,6 @@ OnSendPacket
 (
 packet_id
 capture_time
-.
-ms
-(
-)
 ssrc
 )
 ;
