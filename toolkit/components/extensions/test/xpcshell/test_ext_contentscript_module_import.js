@@ -130,11 +130,6 @@ eslint
 disable
 no
 -
-unsanitized
-/
-method
-no
--
 eval
 no
 -
