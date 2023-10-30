@@ -14149,8 +14149,10 @@ size
 isn
 '
 t
-4
-KiB
+what
+we
+statically
+defined
 .
 jemalloc_stats_t
 stats
