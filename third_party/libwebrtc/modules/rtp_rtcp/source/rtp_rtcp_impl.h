@@ -1023,8 +1023,8 @@ LastRtt
 const
 override
 ;
-int64_t
-ExpectedRetransmissionTimeMs
+TimeDelta
+ExpectedRetransmissionTime
 (
 )
 const
