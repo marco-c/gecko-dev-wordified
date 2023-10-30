@@ -297,7 +297,7 @@ XP_WIN
 #
 include
 "
-WinWebAuthnManager
+WinWebAuthnService
 .
 h
 "
@@ -3501,7 +3501,7 @@ XP_WIN
 if
 (
 !
-WinWebAuthnManager
+WinWebAuthnService
 :
 :
 AreWebAuthNApisAvailable
@@ -5002,7 +5002,7 @@ XP_WIN
 if
 (
 !
-WinWebAuthnManager
+WinWebAuthnService
 :
 :
 AreWebAuthNApisAvailable
