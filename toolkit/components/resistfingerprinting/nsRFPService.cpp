@@ -5175,6 +5175,11 @@ ReduceTimePrecisionAsUSecsWrapper
 (
 double
 aTime
+JS
+:
+:
+RTPCallerTypeToken
+aCallerType
 JSContext
 *
 aCx
