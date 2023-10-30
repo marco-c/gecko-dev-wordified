@@ -3064,6 +3064,17 @@ None
         
 if
 binary
+and
+not
+binary
+.
+endswith
+(
+"
+.
+apk
+"
+)
 :
             
 version
@@ -3213,17 +3224,26 @@ exists
 dest
 )
 and
-len
+os
+.
+path
+.
+exists
 (
 os
 .
-listdir
+path
+.
+join
 (
 dest
+"
+profiles
+.
+json
+"
 )
 )
->
-0
 :
             
 if
@@ -3339,16 +3359,16 @@ logger
 .
 info
 (
+f
 "
-Installing
+Downloading
 test
 prefs
 from
-%
-s
-"
-%
+{
 url
+}
+"
 )
             
 try
@@ -3439,6 +3459,24 @@ rmtree
 (
 extract_dir
 )
+            
+self
+.
+logger
+.
+info
+(
+f
+"
+Test
+prefs
+downloaded
+to
+{
+dest
+}
+"
+)
         
 else
 :
@@ -3449,17 +3487,17 @@ logger
 .
 info
 (
+f
 "
 Using
 cached
 test
 prefs
 from
-%
-s
-"
-%
+{
 dest
+}
+"
 )
         
 return
@@ -4345,6 +4383,17 @@ self
 apk_path
 =
 None
+        
+self
+.
+_fx_browser
+=
+Firefox
+(
+self
+.
+logger
+)
     
 def
 download
@@ -4388,6 +4437,8 @@ mozilla
 -
 central
 .
+shippable
+.
 latest
 .
 mobile
@@ -4406,7 +4457,7 @@ build
 /
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 "
@@ -4417,7 +4468,7 @@ filename
 "
 geckoview
 -
-androidTest
+test_runner
 .
 apk
 "
@@ -4524,17 +4575,10 @@ None
 )
 :
         
-fx_browser
-=
-Firefox
-(
+return
 self
 .
-logger
-)
-        
-return
-fx_browser
+_fx_browser
 .
 install_prefs
 (
@@ -4574,8 +4618,16 @@ None
 )
 :
         
-raise
-NotImplementedError
+return
+self
+.
+_fx_browser
+.
+find_webdriver
+(
+venv_path
+channel
+)
     
 def
 install_webdriver
@@ -4593,8 +4645,17 @@ None
 )
 :
         
-raise
-NotImplementedError
+return
+self
+.
+_fx_browser
+.
+install_webdriver
+(
+dest
+channel
+None
+)
     
 def
 version
