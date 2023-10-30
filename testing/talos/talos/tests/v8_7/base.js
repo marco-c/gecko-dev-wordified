@@ -1730,7 +1730,7 @@ elapsed
 ;
 Profiler
 .
-resume
+subtestStart
 (
 benchmark
 .
@@ -1779,7 +1779,7 @@ start
 }
 Profiler
 .
-pause
+subtestEnd
 (
 benchmark
 .

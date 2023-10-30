@@ -659,7 +659,7 @@ side
 .
 TalosParentProfiler
 .
-resume
+subtestStart
 (
 "
 cpstartup
@@ -766,7 +766,7 @@ whenTabReady
 ;
 TalosParentProfiler
 .
-pause
+subtestEnd
 (
 "
 cpstartup
