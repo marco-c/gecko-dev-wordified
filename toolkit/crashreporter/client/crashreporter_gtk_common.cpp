@@ -498,7 +498,6 @@ return
 false
 ;
 }
-else
 if
 (
 pid
