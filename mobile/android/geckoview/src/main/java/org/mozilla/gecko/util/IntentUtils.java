@@ -69,6 +69,13 @@ util
 import
 android
 .
+annotation
+.
+TargetApi
+;
+import
+android
+.
 content
 .
 Intent
@@ -811,6 +818,10 @@ the
 TargetApi
 use
 .
+TargetApi
+(
+15
+)
 private
 static
 void
