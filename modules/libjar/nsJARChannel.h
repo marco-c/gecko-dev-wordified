@@ -342,6 +342,8 @@ final
 public
 nsIJARChannel
 public
+nsIStreamListener
+public
 nsIThreadRetargetableRequest
 public
 nsIThreadRetargetableStreamListener

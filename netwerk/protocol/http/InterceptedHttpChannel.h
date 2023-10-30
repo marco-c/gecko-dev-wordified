@@ -577,6 +577,8 @@ nsICacheInfoChannel
 public
 nsIAsyncVerifyRedirectCallback
 public
+nsIStreamListener
+public
 nsIThreadRetargetableRequest
 public
 nsIThreadRetargetableStreamListener

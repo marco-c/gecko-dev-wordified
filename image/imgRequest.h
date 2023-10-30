@@ -245,6 +245,8 @@ imgRequest
 final
 :
 public
+nsIStreamListener
+public
 nsIThreadRetargetableStreamListener
 public
 nsIChannelEventSink

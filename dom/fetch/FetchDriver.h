@@ -550,6 +550,8 @@ FetchDriver
 final
 :
 public
+nsIStreamListener
+public
 nsIChannelEventSink
 public
 nsIInterfaceRequestor
