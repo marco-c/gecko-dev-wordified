@@ -200,6 +200,11 @@ CheckedUnsafePtr
 h
 "
 "
+CipherKeyManager
+.
+h
+"
+"
 CipherStrategy
 .
 h
