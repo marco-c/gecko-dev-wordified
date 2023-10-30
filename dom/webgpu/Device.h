@@ -527,6 +527,16 @@ IsBridgeAlive
 )
 const
 ;
+RawId
+GetId
+(
+)
+const
+{
+return
+mId
+;
+}
 private
 :
 ~
