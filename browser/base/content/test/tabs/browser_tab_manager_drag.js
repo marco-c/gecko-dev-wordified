@@ -1004,7 +1004,7 @@ newWindow2
 await
 BrowserTestUtils
 .
-openNewWindowWithFlushedCacheForMozSupports
+openNewBrowserWindow
 (
 )
 ;
