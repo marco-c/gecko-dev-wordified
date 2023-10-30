@@ -1558,6 +1558,12 @@ startPanelSize
 =
 num
 ;
+this
+.
+triggerEditorPaneResize
+(
+)
+;
 }
 startPanelCollapsed
 :
