@@ -5351,20 +5351,12 @@ False
         
 #
 Desktop
+and
+Android
 selection
-only
 for
 CaR
         
-if
-"
-android
-"
-not
-in
-platform
-:
-            
 if
 "
 browsertime
@@ -5372,6 +5364,8 @@ browsertime
 in
 try_name
 and
+(
+            
 "
 custom
 -
@@ -5379,8 +5373,20 @@ car
 "
 in
 try_name
+or
+"
+cstm
+-
+car
+-
+m
+"
+in
+try_name
+        
+)
 :
-                
+            
 return
 True
         
@@ -7702,6 +7708,16 @@ car
 toolchain
 -
 macosx64
+-
+custom
+-
+car
+"
+        
+"
+toolchain
+-
+android
 -
 custom
 -
