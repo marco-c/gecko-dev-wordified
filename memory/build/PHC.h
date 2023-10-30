@@ -767,6 +767,15 @@ phc
 /
 namespace
 mozilla
+struct
+ReplaceMallocBridge
+;
+ReplaceMallocBridge
+*
+GetPHCBridge
+(
+)
+;
 #
 endif
 /
