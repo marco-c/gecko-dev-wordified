@@ -94,7 +94,7 @@ test
 .
 page
 :
-TRANSLATIONS_TESTER_EN
+ENGLISH_PAGE_URL
 detectedLangTag
 autoDownloadFromRemoteSettings
 :

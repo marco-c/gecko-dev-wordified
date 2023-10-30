@@ -190,7 +190,7 @@ en
 ]
 page
 :
-TRANSLATIONS_TESTER_ES
+SPANISH_PAGE_URL
 }
 {
 docLangTag
@@ -271,7 +271,7 @@ en
 ]
 page
 :
-TRANSLATIONS_TESTER_ES
+SPANISH_PAGE_URL
 }
 {
 docLangTag
@@ -355,7 +355,7 @@ en
 ]
 page
 :
-TRANSLATIONS_TESTER_ES
+SPANISH_PAGE_URL
 }
 {
 docLangTag
@@ -437,7 +437,7 @@ en
 ]
 page
 :
-TRANSLATIONS_TESTER_ES
+SPANISH_PAGE_URL
 languagePairs
 :
 [

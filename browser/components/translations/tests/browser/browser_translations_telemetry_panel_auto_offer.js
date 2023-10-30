@@ -65,7 +65,7 @@ loadTestPage
 {
 page
 :
-TRANSLATIONS_TESTER_ES
+SPANISH_PAGE_URL
 languagePairs
 :
 LANGUAGE_PAIRS
@@ -217,7 +217,7 @@ domain
 {
 url
 :
-TRANSLATIONS_TESTER_ES_2
+SPANISH_PAGE_URL_2
 }
 )
 ;
@@ -256,7 +256,7 @@ domain
 {
 url
 :
-TRANSLATIONS_TESTER_ES_DOT_ORG
+SPANISH_PAGE_URL_DOT_ORG
 onOpenPanel
 :
 assertPanelDefaultView
