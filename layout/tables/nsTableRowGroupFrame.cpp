@@ -1950,7 +1950,7 @@ nsTableRowGroupFrame
 InitChildReflowInput
 (
 nsPresContext
-&
+*
 aPresContext
 bool
 aBorderCollapse
@@ -2017,7 +2017,6 @@ aReflowInput
 .
 Init
 (
-&
 aPresContext
 Nothing
 (
@@ -2498,7 +2497,6 @@ CallerWillInit
 ;
 InitChildReflowInput
 (
-*
 aPresContext
 borderCollapse
 kidReflowInput
@@ -6536,20 +6534,20 @@ nsTableRowGroupFrame
 SplitSpanningCells
 (
 nsPresContext
-&
+*
 aPresContext
 const
 ReflowInput
 &
 aReflowInput
 nsTableFrame
-&
+*
 aTable
 nsTableRowFrame
-&
+*
 aFirstRow
 nsTableRowFrame
-&
+*
 aLastRow
 bool
 aFirstRowIsTopOfPage
@@ -6597,7 +6595,8 @@ bool
 borderCollapse
 =
 aTable
-.
+-
+>
 IsBorderCollapse
 (
 )
@@ -6606,7 +6605,8 @@ int32_t
 lastRowIndex
 =
 aLastRow
-.
+-
+>
 GetRowIndex
 (
 )
@@ -6636,7 +6636,6 @@ nsTableRowFrame
 *
 row
 =
-&
 aFirstRow
 ;
 !
@@ -6658,7 +6657,6 @@ wasLast
 row
 =
 =
-&
 aLastRow
 )
 ;
@@ -6724,7 +6722,8 @@ int32_t
 rowSpan
 =
 aTable
-.
+-
+>
 GetEffectiveRowSpan
 (
 rowIndex
@@ -6860,7 +6859,6 @@ isTopOfPage
 row
 =
 =
-&
 aFirstRow
 )
 &
@@ -6940,7 +6938,6 @@ height
 ReflowInput
 rowReflowInput
 (
-&
 aPresContext
 aReflowInput
 row
@@ -6995,7 +6992,6 @@ row
 >
 ReflowCellFrame
 (
-&
 aPresContext
 rowReflowInput
 isTopOfPage
@@ -7045,7 +7041,6 @@ if
 row
 !
 =
-&
 aFirstRow
 )
 |
@@ -7111,7 +7106,6 @@ aContRow
 =
 CreateContinuingRowFrame
 (
-&
 aLastRow
 )
 ;
@@ -7126,7 +7120,6 @@ if
 row
 !
 =
-&
 aLastRow
 )
 {
@@ -7173,7 +7166,6 @@ FrameConstructor
 CreateContinuingFrame
 (
 cell
-&
 aLastRow
 )
 )
@@ -7212,7 +7204,8 @@ haveRowSpan
 aDesiredBSize
 =
 aLastRow
-.
+-
+>
 GetNormalRect
 (
 )
@@ -8073,7 +8066,6 @@ CallerWillInit
 ;
 InitChildReflowInput
 (
-*
 aPresContext
 borderCollapse
 rowReflowInput
@@ -8913,14 +8905,10 @@ bMost
 ;
 SplitSpanningCells
 (
-*
 aPresContext
 aReflowInput
-*
 aTableFrame
-*
 firstRowThisPage
-*
 lastRowThisPage
 aReflowInput
 .
@@ -9145,14 +9133,10 @@ the
 page
 SplitSpanningCells
 (
-*
 aPresContext
 aReflowInput
-*
 aTableFrame
-*
 firstRowThisPage
-*
 rowBefore
 aReflowInput
 .
@@ -9221,14 +9205,10 @@ oldSpanningRowBEnd
 ;
 SplitSpanningCells
 (
-*
 aPresContext
 aReflowInput
-*
 aTableFrame
-*
 firstRowThisPage
-*
 lastRowThisPage
 aReflowInput
 .
