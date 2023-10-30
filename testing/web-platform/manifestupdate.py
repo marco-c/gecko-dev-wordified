@@ -811,6 +811,17 @@ json
         
 )
         
+if
+isinstance
+(
+test_paths
+[
+url_base
+]
+dict
+)
+:
+            
 test_paths
 [
 url_base
@@ -820,6 +831,18 @@ url_base
 manifest_rel_path
 "
 ]
+=
+manifest_rel_path
+        
+else
+:
+            
+test_paths
+[
+url_base
+]
+.
+manifest_rel_path
 =
 manifest_rel_path
     
@@ -1600,6 +1623,54 @@ manifest_path
         
 )
         
+manifest_rel_path
+=
+(
+            
+paths
+[
+"
+manifest_rel_path
+"
+]
+            
+if
+isinstance
+(
+paths
+dict
+)
+            
+else
+paths
+.
+manifest_rel_path
+        
+)
+        
+tests_path
+=
+(
+            
+paths
+[
+"
+tests_path
+"
+]
+if
+isinstance
+(
+paths
+dict
+)
+else
+paths
+.
+tests_path
+        
+)
+        
 this_cache_root
 =
 os
@@ -1617,12 +1688,7 @@ path
 .
 dirname
 (
-paths
-[
-"
 manifest_rel_path
-"
-]
 )
         
 )
@@ -1636,12 +1702,7 @@ manifest
 load_and_update
 (
             
-paths
-[
-"
 tests_path
-"
-]
             
 manifest_path
             
@@ -1675,12 +1736,43 @@ url_base
 url_base
 }
         
+if
+isinstance
+(
+paths
+dict
+)
+:
+            
 path_data
 .
 update
 (
 paths
 )
+        
+else
+:
+            
+for
+key
+value
+in
+paths
+.
+__dict__
+.
+items
+(
+)
+:
+                
+path_data
+[
+key
+]
+=
+value
         
 rv
 [
