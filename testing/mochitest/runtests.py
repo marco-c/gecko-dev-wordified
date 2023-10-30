@@ -888,6 +888,14 @@ suite_end
 "
             
 "
+group_start
+"
+            
+"
+group_end
+"
+            
+"
 test_start
 "
             
@@ -26867,6 +26875,17 @@ self
 .
 log
 .
+group_start
+(
+name
+=
+m
+)
+            
+self
+.
+log
+.
 info
 (
 "
@@ -27307,6 +27326,17 @@ message_logger
 .
 dump_buffered
 (
+)
+            
+self
+.
+log
+.
+group_end
+(
+name
+=
+m
 )
             
 if
