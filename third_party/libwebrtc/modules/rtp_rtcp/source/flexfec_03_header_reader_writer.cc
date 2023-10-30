@@ -1656,7 +1656,7 @@ will
 now
 shift
 the
-remaning
+remaining
 part
 of
 the
@@ -1665,11 +1665,11 @@ mask
 three
 steps
 to
+/
+/
 the
 left
 .
-/
-/
 This
 corresponds
 to
@@ -1683,10 +1683,10 @@ K
 -
 bits
 which
+/
+/
 have
 been
-/
-/
 removed
 .
 uint8_t

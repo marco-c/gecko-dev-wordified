@@ -1301,7 +1301,7 @@ row
 each
 bit
 /
-coloumn
+column
 represent
 one
 media

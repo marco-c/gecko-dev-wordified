@@ -298,7 +298,7 @@ implemented
 as
 recursive
 templetizations
-inteded
+intended
 to
 make
 /

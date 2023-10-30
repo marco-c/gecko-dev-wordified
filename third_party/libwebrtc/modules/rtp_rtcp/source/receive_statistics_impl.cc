@@ -1742,7 +1742,7 @@ zero
 Work
 around
 to
-accomodate
+accommodate
 for
 senders
 that
