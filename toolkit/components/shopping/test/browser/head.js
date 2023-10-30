@@ -122,11 +122,6 @@ promiseSidebarUpdated
 (
 sidebar
 expectedProduct
-eventName
-=
-"
-Update
-"
 )
 {
 let
@@ -189,12 +184,8 @@ spawn
 browser
 [
 expectedProduct
-eventName
 ]
-(
 prod
-expectedEvent
-)
 =
 >
 {
@@ -304,7 +295,9 @@ waitForEvent
 content
 .
 document
-expectedEvent
+"
+Update
+"
 true
 e
 =
