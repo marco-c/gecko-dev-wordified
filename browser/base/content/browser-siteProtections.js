@@ -12546,9 +12546,9 @@ panel
 -
 etp
 -
-on
--
 toggle
+-
+on
 "
 :
 "
@@ -12558,9 +12558,9 @@ panel
 -
 etp
 -
-off
--
 toggle
+-
+off
 "
 {
 host
