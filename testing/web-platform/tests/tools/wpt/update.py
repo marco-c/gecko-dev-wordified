@@ -103,18 +103,12 @@ load_and_update
 (
             
 paths
-[
-"
+.
 tests_path
-"
-]
             
 paths
-[
-"
+.
 manifest_path
-"
-]
             
 url_base
 )
