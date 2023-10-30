@@ -795,7 +795,7 @@ aInitialDir
 {
 if
 (
-NS_FAILED
+FAILED
 (
 fd
 :
@@ -1507,7 +1507,7 @@ display
 {
 if
 (
-NS_FAILED
+FAILED
 (
 fd
 :
