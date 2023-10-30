@@ -4302,12 +4302,17 @@ time
 being
 .
 return
+(
+blockLineCounts
+&
+&
 blockLineCounts
 [
 0
 ]
 >
 TEXT_WRAP_BALANCE_LIMIT
+)
 ;
 }
 fixId
@@ -4418,6 +4423,9 @@ node
 const
 isFragmented
 =
+blockLineCounts
+&
+&
 blockLineCounts
 .
 length
