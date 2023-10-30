@@ -93,14 +93,14 @@ h
 #
 include
 "
-MediaTrackGraphImpl
+MediaSegment
 .
 h
 "
 #
 include
 "
-MediaSegment
+TimeUnits
 .
 h
 "
@@ -134,6 +134,9 @@ mozilla
 {
 class
 AudioData
+;
+class
+AudioInfo
 ;
 class
 RLBoxSoundTouch
