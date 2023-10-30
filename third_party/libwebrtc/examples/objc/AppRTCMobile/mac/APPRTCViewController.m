@@ -1437,7 +1437,7 @@ _connectButton
 .
 bezelStyle
 =
-NSRoundedBezelStyle
+NSBezelStyleSmallSquare
 ;
 _connectButton
 .
@@ -1493,7 +1493,7 @@ Loopback
 _loopbackButton
 setButtonType
 :
-NSSwitchButton
+NSButtonTypeSwitch
 ]
 ;
 [
