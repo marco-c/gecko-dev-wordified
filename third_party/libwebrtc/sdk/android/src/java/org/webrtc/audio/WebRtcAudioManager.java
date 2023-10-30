@@ -329,7 +329,7 @@ numberOfInputChannels
 )
 ;
 }
-private
+CalledByNative
 static
 boolean
 isLowLatencyOutputSupported
@@ -353,7 +353,7 @@ FEATURE_AUDIO_LOW_LATENCY
 )
 ;
 }
-private
+CalledByNative
 static
 boolean
 isLowLatencyInputSupported
