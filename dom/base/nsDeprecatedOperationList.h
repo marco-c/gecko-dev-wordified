@@ -344,6 +344,10 @@ OffscreenCanvasToBlob
 )
 DEPRECATED_OPERATION
 (
+SVGDeselectAll
+)
+DEPRECATED_OPERATION
+(
 SVGNearestViewportElement
 )
 DEPRECATED_OPERATION
