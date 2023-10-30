@@ -443,7 +443,7 @@ return
 mDocument
 -
 >
-StyleSetForPresShell
+StyleSetForPresShellOrMediaQueryEvaluation
 (
 )
 ;
