@@ -2526,6 +2526,10 @@ warning
 =
 None
         
+message
+=
+line
+        
 try
 :
             
@@ -2539,10 +2543,6 @@ process_line
 (
 line
 )
-            
-message
-=
-line
         
 except
 Exception
