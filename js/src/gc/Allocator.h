@@ -644,8 +644,6 @@ TraceKind
 traceKind
 AllowGC
 allowGC
-=
-CanGC
 >
 static
 void
@@ -686,8 +684,6 @@ template
 <
 AllowGC
 allowGC
-=
-CanGC
 >
 static
 void
@@ -773,8 +769,6 @@ typename
 T
 AllowGC
 allowGC
-=
-CanGC
 typename
 .
 .
@@ -809,12 +803,6 @@ typename
 T
 AllowGC
 allowGC
-/
-*
-=
-CanGC
-*
-/
 >
 static
 T
@@ -834,8 +822,6 @@ typename
 T
 AllowGC
 allowGC
-=
-CanGC
 >
 static
 T
@@ -885,8 +871,6 @@ typename
 T
 AllowGC
 allowGC
-=
-CanGC
 typename
 .
 .

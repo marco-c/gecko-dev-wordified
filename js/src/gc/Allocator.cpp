@@ -1021,12 +1021,6 @@ template
 <
 AllowGC
 allowGC
-/
-*
-=
-CanGC
-*
-/
 >
 void
 *
