@@ -332,17 +332,6 @@ media
 /
 base
 /
-delayable
-.
-h
-"
-#
-include
-"
-media
-/
-base
-/
 fake_media_engine
 .
 h
@@ -3620,7 +3609,7 @@ VerifyRtpReceiverDelayBehaviour
 cricket
 :
 :
-Delayable
+MediaReceiveChannelInterface
 *
 media_channel
 RtpReceiverInterface
