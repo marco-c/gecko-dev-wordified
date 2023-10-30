@@ -128,18 +128,6 @@ advertiser
 "
 TestAdvertiser
 "
-iab_category
-:
-"
-22
--
-Shopping
-"
-icon
-:
-"
-1234
-"
 }
 {
 id
@@ -205,7 +193,7 @@ nonsponsored
 advertiser
 :
 "
-Wikipedia
+TestAdvertiserNonSponsored
 "
 iab_category
 :
@@ -213,11 +201,6 @@ iab_category
 5
 -
 Education
-"
-icon
-:
-"
-1234
 "
 }
 ]
@@ -262,7 +245,7 @@ QuickSuggestTestUtils
 ensureQuickSuggestInit
 (
 {
-remoteSettingsRecords
+remoteSettingsResults
 :
 [
 {
@@ -292,7 +275,7 @@ and
 keyword
 highlighting
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -447,7 +430,7 @@ non
 sponsored
 result
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -513,7 +496,7 @@ sponsored
 priority
 feature
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -769,7 +752,7 @@ non
 sponsored
 suggestion
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
