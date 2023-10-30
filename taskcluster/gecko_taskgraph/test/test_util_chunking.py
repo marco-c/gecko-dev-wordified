@@ -993,6 +993,18 @@ condprof
 "
 :
 False
+            
+"
+canvas
+"
+:
+False
+            
+"
+webgpu
+"
+:
+False
         
 }
     
