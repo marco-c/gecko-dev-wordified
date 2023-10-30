@@ -71,6 +71,7 @@ react
 import
 {
 div
+main
 }
 from
 "
@@ -1249,7 +1250,7 @@ isHorizontal
 )
 ;
 return
-div
+main
 (
 {
 className
