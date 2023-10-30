@@ -232,15 +232,6 @@ mDLDesc
 ;
 nsTArray
 <
-wr
-:
-:
-PipelineId
->
-mRemotePipelineIds
-;
-nsTArray
-<
 OpUpdateResource
 >
 mResourceUpdates

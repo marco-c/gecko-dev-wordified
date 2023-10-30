@@ -5499,15 +5499,6 @@ layers
 WebRenderBackend
 mBackend
 ;
-nsTArray
-<
-wr
-:
-:
-PipelineId
->
-mRemotePipelineIds
-;
 layers
 :
 :
