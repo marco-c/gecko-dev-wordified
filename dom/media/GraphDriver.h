@@ -5950,12 +5950,6 @@ mOperation
 nsCString
 mName
 ;
-RefPtr
-<
-GraphInterface
->
-mShutdownGrip
-;
 }
 ;
 }
