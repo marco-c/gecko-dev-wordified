@@ -265,6 +265,7 @@ DefaultVideoQualityAnalyzerCpuMeasurer
 GetCpuUsagePercent
 (
 )
+const
 {
 MutexLock
 lock

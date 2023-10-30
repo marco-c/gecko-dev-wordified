@@ -122,6 +122,7 @@ double
 GetCpuUsagePercent
 (
 )
+const
 ;
 void
 StartMeasuringCpuProcessTime
@@ -145,6 +146,7 @@ StopExcludingCpuThreadTime
 ;
 private
 :
+mutable
 Mutex
 mutex_
 ;

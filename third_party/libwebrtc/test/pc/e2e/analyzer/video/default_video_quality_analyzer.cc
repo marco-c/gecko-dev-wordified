@@ -10285,6 +10285,7 @@ DefaultVideoQualityAnalyzer
 GetCpuUsagePercent
 (
 )
+const
 {
 return
 cpu_measurer_

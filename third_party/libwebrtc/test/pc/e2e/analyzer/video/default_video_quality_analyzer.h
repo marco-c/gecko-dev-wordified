@@ -862,6 +862,7 @@ double
 GetCpuUsagePercent
 (
 )
+const
 ;
 /
 /
