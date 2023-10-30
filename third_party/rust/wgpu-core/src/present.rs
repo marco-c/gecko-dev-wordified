@@ -128,6 +128,7 @@ hal_api
 :
 :
 HalApi
+hal_label
 hub
 :
 :
@@ -1040,7 +1041,7 @@ Err
 DeviceError
 :
 :
-Invalid
+Lost
 .
 into
 (
@@ -1212,6 +1213,8 @@ TextureViewDescriptor
 {
 label
 :
+hal_label
+(
 Some
 (
 "
@@ -1224,6 +1227,12 @@ surface
 texture
 view
 "
+)
+self
+.
+instance
+.
+flags
 )
 format
 :
@@ -1987,7 +1996,7 @@ Err
 DeviceError
 :
 :
-Invalid
+Lost
 .
 into
 (
@@ -2667,7 +2676,7 @@ Err
 DeviceError
 :
 :
-Invalid
+Lost
 .
 into
 (

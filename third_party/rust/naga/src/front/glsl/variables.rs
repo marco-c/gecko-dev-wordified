@@ -3363,7 +3363,9 @@ decl
 ty
 init
 :
-None
+decl
+.
+init
 }
 decl
 .

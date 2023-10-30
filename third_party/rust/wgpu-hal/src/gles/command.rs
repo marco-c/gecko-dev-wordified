@@ -2272,11 +2272,6 @@ dst
 dst_raw
 dst_target
 copy
-dst_is_cubemap
-:
-dst
-.
-is_cubemap
 }
 )
 }

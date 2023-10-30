@@ -56,6 +56,7 @@ hal_api
 :
 :
 HalApi
+hal_label
 hub
 :
 :
@@ -1752,6 +1753,12 @@ wgt
 :
 :
 BufferAddress
+instance_flags
+:
+wgt
+:
+:
+InstanceFlags
 )
 -
 >
@@ -1790,6 +1797,8 @@ BufferDescriptor
 {
 label
 :
+hal_label
+(
 Some
 (
 "
@@ -1799,6 +1808,8 @@ internal
 )
 Staging
 "
+)
+instance_flags
 )
 size
 usage
@@ -2550,6 +2561,9 @@ device
 .
 raw
 data_size
+device
+.
+instance_flags
 )
 ?
 ;
@@ -2794,6 +2808,9 @@ buffer_size
 get
 (
 )
+device
+.
+instance_flags
 )
 ?
 ;
@@ -5171,6 +5188,9 @@ device
 .
 raw
 stage_size
+device
+.
+instance_flags
 )
 ?
 ;
@@ -8438,6 +8458,8 @@ encoder
 .
 begin_encoding
 (
+hal_label
+(
 Some
 (
 "
@@ -8447,6 +8469,10 @@ internal
 )
 Transit
 "
+)
+device
+.
+instance_flags
 )
 )
 .
@@ -8676,6 +8702,8 @@ encoder
 .
 begin_encoding
 (
+hal_label
+(
 Some
 (
 "
@@ -8685,6 +8713,10 @@ internal
 )
 Present
 "
+)
+device
+.
+instance_flags
 )
 )
 .

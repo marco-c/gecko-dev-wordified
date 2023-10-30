@@ -1359,7 +1359,7 @@ raw
 }
 pub
 fn
-driver_api_version
+instance_api_version
 (
 &
 self
@@ -1370,7 +1370,7 @@ u32
 {
 self
 .
-driver_api_version
+instance_api_version
 }
 pub
 fn
@@ -1475,7 +1475,7 @@ enable
 /
 /
 The
-driver_api_version
+instance_api_version
 argument
 should
 be
@@ -1576,7 +1576,7 @@ ash
 :
 :
 Entry
-_driver_api_version
+_instance_api_version
 :
 u32
 flags
@@ -2115,7 +2115,7 @@ must
 be
 created
 respecting
-driver_api_version
+instance_api_version
 extensions
 and
 flags
@@ -2143,7 +2143,7 @@ the
 /
 same
 entry
-driver_api_version
+instance_api_version
 and
 flags
 .
@@ -2219,7 +2219,7 @@ ash
 :
 :
 Instance
-driver_api_version
+instance_api_version
 :
 u32
 android_sdk_version
@@ -2289,7 +2289,7 @@ version
 x
 }
 "
-driver_api_version
+instance_api_version
 )
 ;
 let
@@ -2747,7 +2747,7 @@ debug_utils
 get_physical_device_properties
 entry
 has_nv_optimus
-driver_api_version
+instance_api_version
 android_sdk_version
 }
 )
@@ -4153,7 +4153,7 @@ err
 ?
 ;
 let
-driver_api_version
+instance_api_version
 =
 match
 entry
@@ -4321,7 +4321,7 @@ here
 .
 .
 if
-driver_api_version
+instance_api_version
 <
 vk
 :
@@ -4481,7 +4481,7 @@ guaranteed
 vk
 :
 :
-HEADER_VERSION_COMPLETE
+API_VERSION_1_3
 }
 )
 ;
@@ -4495,7 +4495,7 @@ desired_extensions
 (
 &
 entry
-driver_api_version
+instance_api_version
 desc
 .
 flags
@@ -5298,7 +5298,7 @@ from_raw
 (
 entry
 vk_instance
-driver_api_version
+instance_api_version
 android_sdk_version
 debug_callback_user_data
 extensions
