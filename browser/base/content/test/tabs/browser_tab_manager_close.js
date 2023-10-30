@@ -163,7 +163,7 @@ win
 await
 BrowserTestUtils
 .
-openNewWindowWithFlushedCacheForMozSupports
+openNewBrowserWindow
 (
 )
 ;
@@ -406,7 +406,7 @@ win
 await
 BrowserTestUtils
 .
-openNewWindowWithFlushedCacheForMozSupports
+openNewBrowserWindow
 (
 )
 ;
