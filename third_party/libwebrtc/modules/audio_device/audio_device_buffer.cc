@@ -314,6 +314,8 @@ AudioDeviceBuffer
 TaskQueueFactory
 *
 task_queue_factory
+bool
+create_detached
 )
 :
 task_queue_
@@ -439,6 +441,18 @@ defined
 ;
 #
 endif
+if
+(
+create_detached
+)
+{
+main_thread_checker_
+.
+Detach
+(
+)
+;
+}
 }
 AudioDeviceBuffer
 :
