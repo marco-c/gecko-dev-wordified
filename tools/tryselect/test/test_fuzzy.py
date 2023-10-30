@@ -83,26 +83,11 @@ on
 host
 "
 )
-pytest
-.
-mark
-.
-parametrize
-(
-"
-show_chunk_numbers
-"
-[
-True
-False
-]
-)
 def
 test_query_paths
 (
 run_mach
 capfd
-show_chunk_numbers
 )
 :
     
@@ -164,25 +149,6 @@ html
 "
     
 ]
-    
-if
-show_chunk_numbers
-:
-        
-cmd
-.
-append
-(
-"
--
--
-show
--
-chunk
--
-numbers
-"
-)
     
 assert
 run_mach
