@@ -372,6 +372,12 @@ int32_t
 *
 ALL_NO_NS
 ;
+static
+nsStaticAtom
+*
+*
+SAME_LOCAL_NULL
+;
 private
 :
 static
