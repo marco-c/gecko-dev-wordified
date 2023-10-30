@@ -4388,12 +4388,11 @@ screenshare
 ;
 if
 (
-!
 video_receiver_info
 .
 decoder_implementation_name
 .
-empty
+has_value
 (
 )
 )
@@ -4403,6 +4402,7 @@ inbound_video
 >
 decoder_implementation
 =
+*
 video_receiver_info
 .
 decoder_implementation_name
@@ -5315,12 +5315,11 @@ screenshare
 ;
 if
 (
-!
 video_sender_info
 .
 encoder_implementation_name
 .
-empty
+has_value
 (
 )
 )
@@ -5330,6 +5329,7 @@ outbound_video
 >
 encoder_implementation
 =
+*
 video_sender_info
 .
 encoder_implementation_name

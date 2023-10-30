@@ -19679,8 +19679,10 @@ receivers
 .
 decoder_implementation_name
 =
-"
-"
+absl
+:
+:
+nullopt
 ;
 video_media_info
 .
@@ -21747,8 +21749,10 @@ senders
 .
 encoder_implementation_name
 =
-"
-"
+absl
+:
+:
+nullopt
 ;
 video_media_info
 .

@@ -2046,6 +2046,13 @@ kStatsValueNameCodecImplementationName
 info
 .
 decoder_implementation_name
+.
+value_or
+(
+"
+unknown
+"
+)
 )
 ;
 int64_t
@@ -2474,6 +2481,13 @@ kStatsValueNameCodecImplementationName
 info
 .
 encoder_implementation_name
+.
+value_or
+(
+"
+unknown
+"
+)
 )
 ;
 report
