@@ -5667,8 +5667,6 @@ aSplitContent
 nsIContent
 &
 aNewContent
-SplitNodeDirection
-aSplitNodeDirection
 )
 ;
 void

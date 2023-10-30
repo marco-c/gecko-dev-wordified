@@ -193,17 +193,6 @@ FilteredContentIterator
 class
 OffsetEntry
 ;
-enum
-class
-JoinNodesDirection
-;
-/
-/
-Declared
-in
-HTMLEditHelpers
-.
-h
 namespace
 dom
 {
@@ -2231,8 +2220,6 @@ const
 nsIContent
 &
 aRemovedContent
-JoinNodesDirection
-aJoinNodesDirection
 )
 ;
 private
