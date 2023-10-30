@@ -684,7 +684,7 @@ color
 range
 with
 RGB
-valees
+values
 from
 0
 to
