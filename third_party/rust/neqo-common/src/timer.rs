@@ -636,10 +636,12 @@ This
 really
 should
 use
-Instant
+Duration
 :
 :
-div_duration
+div_duration_f
+?
+?
 (
 )
 but
@@ -1335,6 +1337,7 @@ else
 {
 return
 None
+;
 }
 ;
 /

@@ -417,7 +417,7 @@ Error
 {
 deserializer
 .
-deserialize_any
+deserialize_str
 (
 Visitor
 :

@@ -2387,7 +2387,6 @@ buffer
 buf
 )
 ;
-let
 _
 =
 self

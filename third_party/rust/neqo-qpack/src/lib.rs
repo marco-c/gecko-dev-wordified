@@ -326,7 +326,7 @@ closed
 )
 HeaderLookup
 HuffmanDecompressionFailed
-ToStringFailed
+BadUtf8
 ChangeCapacity
 DynamicTableFull
 IncrementAck

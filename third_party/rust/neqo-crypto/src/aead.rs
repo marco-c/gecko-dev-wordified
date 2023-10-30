@@ -655,10 +655,6 @@ SSL_AeadEncrypt
 self
 .
 ctx
-.
-deref
-(
-)
 count
 aad
 .
@@ -878,10 +874,6 @@ SSL_AeadDecrypt
 self
 .
 ctx
-.
-deref
-(
-)
 count
 aad
 .

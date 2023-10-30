@@ -260,6 +260,7 @@ impl_parse_bytes
 u8
 u16
 u32
+u128
 }
 /
 /

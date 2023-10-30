@@ -286,12 +286,7 @@ do_log
 (
 target
 :
-:
-:
-log
-:
-:
-__log_module_path
+module_path
 !
 (
 )
