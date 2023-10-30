@@ -173,6 +173,8 @@ loader
 WorkerScriptLoader
 *
 aScriptLoader
+bool
+aOnlyExistingCachedResourcesAllowed
 )
 :
 JS
@@ -205,6 +207,10 @@ aClientInfo
 mScriptLoader
 (
 aScriptLoader
+)
+mOnlyExistingCachedResourcesAllowed
+(
+aOnlyExistingCachedResourcesAllowed
 )
 {
 }
