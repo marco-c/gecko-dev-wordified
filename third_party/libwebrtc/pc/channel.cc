@@ -570,7 +570,7 @@ class
 Codec
 >
 void
-RtpParametersFromMediaDescription
+MediaChannelParametersFromMediaDescription
 (
 const
 MediaContentDescriptionImpl
@@ -585,7 +585,7 @@ RtpHeaderExtensions
 extensions
 bool
 is_stream_active
-RtpParameters
+MediaChannelParameters
 *
 params
 )
@@ -711,7 +711,7 @@ RtpExtension
 :
 Filter
 extensions_filter
-RtpSendParameters
+SenderParameters
 *
 send_params
 )
@@ -753,7 +753,7 @@ direction
 )
 )
 ;
-RtpParametersFromMediaDescription
+MediaChannelParametersFromMediaDescription
 (
 desc
 extensions
@@ -6171,12 +6171,12 @@ extmap_allow_mixed
 )
 )
 ;
-AudioRecvParameters
+AudioReceiverParameters
 recv_params
 =
 last_recv_params_
 ;
-RtpParametersFromMediaDescription
+MediaChannelParametersFromMediaDescription
 (
 content
 -
@@ -6465,7 +6465,7 @@ ToString
 (
 )
 ;
-AudioSendParameters
+AudioSenderParameter
 send_params
 =
 last_send_params_
@@ -7060,12 +7060,12 @@ extmap_allow_mixed
 )
 )
 ;
-VideoRecvParameters
+VideoReceiverParameters
 recv_params
 =
 last_recv_params_
 ;
-RtpParametersFromMediaDescription
+MediaChannelParametersFromMediaDescription
 (
 content
 -
@@ -7090,7 +7090,7 @@ direction
 recv_params
 )
 ;
-VideoSendParameters
+VideoSenderParameters
 send_params
 =
 last_send_params_
@@ -7570,7 +7570,7 @@ as_video
 (
 )
 ;
-VideoSendParameters
+VideoSenderParameters
 send_params
 =
 last_send_params_
@@ -7604,7 +7604,7 @@ conference_mode
 (
 )
 ;
-VideoRecvParameters
+VideoReceiverParameters
 recv_params
 =
 last_recv_params_

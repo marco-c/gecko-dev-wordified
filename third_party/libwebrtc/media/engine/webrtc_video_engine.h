@@ -1426,7 +1426,7 @@ bool
 SetSendParameters
 (
 const
-VideoSendParameters
+VideoSenderParameters
 &
 params
 )
@@ -2180,7 +2180,7 @@ bool
 GetChangedSendParameters
 (
 const
-VideoSendParameters
+VideoSenderParameters
 &
 params
 ChangedSendParameters
@@ -2369,7 +2369,7 @@ RtpExtension
 &
 rtp_extensions
 const
-VideoSendParameters
+VideoSenderParameters
 &
 send_params
 )
@@ -3884,7 +3884,7 @@ rtp_extensions
 options
 etc
 .
-VideoSendParameters
+VideoSenderParameters
 send_params_
 RTC_GUARDED_BY
 (
@@ -3898,7 +3898,7 @@ RTC_GUARDED_BY
 thread_checker_
 )
 ;
-VideoRecvParameters
+VideoReceiverParameters
 recv_params_
 RTC_GUARDED_BY
 (
@@ -4327,7 +4327,7 @@ bool
 SetRecvParameters
 (
 const
-VideoRecvParameters
+VideoReceiverParameters
 &
 params
 )
@@ -5660,7 +5660,7 @@ bool
 GetChangedRecvParameters
 (
 const
-VideoRecvParameters
+VideoReceiverParameters
 &
 params
 ChangedRecvParameters
@@ -6258,7 +6258,7 @@ rtp_extensions
 options
 etc
 .
-VideoSendParameters
+VideoSenderParameters
 send_params_
 RTC_GUARDED_BY
 (
@@ -6272,7 +6272,7 @@ RTC_GUARDED_BY
 thread_checker_
 )
 ;
-VideoRecvParameters
+VideoReceiverParameters
 recv_params_
 RTC_GUARDED_BY
 (

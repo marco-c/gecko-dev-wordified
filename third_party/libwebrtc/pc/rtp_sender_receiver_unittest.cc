@@ -1407,7 +1407,7 @@ AddDtmfCodec
 cricket
 :
 :
-AudioSendParameters
+AudioSenderParameter
 params
 ;
 const

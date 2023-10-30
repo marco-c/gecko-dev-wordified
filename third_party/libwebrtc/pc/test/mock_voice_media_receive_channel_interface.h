@@ -224,7 +224,7 @@ bool
 SetRecvParameters
 (
 const
-AudioRecvParameters
+AudioReceiverParameters
 &
 params
 )

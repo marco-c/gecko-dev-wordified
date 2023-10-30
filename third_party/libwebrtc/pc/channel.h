@@ -3139,7 +3139,7 @@ override
 /
 /
 Last
-AudioSendParameters
+AudioSenderParameter
 sent
 down
 to
@@ -3152,7 +3152,7 @@ via
 /
 SetSendParameters
 .
-AudioSendParameters
+AudioSenderParameter
 last_send_params_
 RTC_GUARDED_BY
 (
@@ -3164,7 +3164,7 @@ worker_thread
 /
 /
 Last
-AudioRecvParameters
+AudioReceiverParameters
 sent
 down
 to
@@ -3177,7 +3177,7 @@ via
 /
 SetRecvParameters
 .
-AudioRecvParameters
+AudioReceiverParameters
 last_recv_params_
 RTC_GUARDED_BY
 (
@@ -3467,7 +3467,7 @@ override
 /
 /
 Last
-VideoSendParameters
+VideoSenderParameters
 sent
 down
 to
@@ -3480,7 +3480,7 @@ via
 /
 SetSendParameters
 .
-VideoSendParameters
+VideoSenderParameters
 last_send_params_
 RTC_GUARDED_BY
 (
@@ -3492,7 +3492,7 @@ worker_thread
 /
 /
 Last
-VideoRecvParameters
+VideoReceiverParameters
 sent
 down
 to
@@ -3505,7 +3505,7 @@ via
 /
 SetRecvParameters
 .
-VideoRecvParameters
+VideoReceiverParameters
 last_recv_params_
 RTC_GUARDED_BY
 (
