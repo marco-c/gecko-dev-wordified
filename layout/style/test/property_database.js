@@ -96494,9 +96494,7 @@ assign
 (
 gCSSProperties
 {
-"
 zoom
-"
 :
 {
 domProp
