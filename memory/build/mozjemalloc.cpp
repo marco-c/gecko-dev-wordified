@@ -18711,9 +18711,6 @@ return
 arena
 ;
 }
-template
-<
->
 inline
 void
 MozJemalloc
@@ -26726,9 +26723,6 @@ mNode
 ;
 }
 ;
-template
-<
->
 inline
 void
 MozJemalloc
@@ -33140,10 +33134,6 @@ return_type
 .
 )
 \
-template
-<
->
-\
 inline
 return_type
 MozJemalloc
@@ -33959,9 +33949,6 @@ aSize
 }
 }
 ;
-template
-<
->
 inline
 int
 MozJemalloc
@@ -33994,9 +33981,6 @@ aSize
 )
 ;
 }
-template
-<
->
 inline
 void
 *
@@ -34025,9 +34009,6 @@ aSize
 )
 ;
 }
-template
-<
->
 inline
 void
 *
@@ -34161,9 +34142,6 @@ use
 by
 SQLite
 .
-template
-<
->
 inline
 size_t
 MozJemalloc
@@ -34256,9 +34234,6 @@ return
 aSize
 ;
 }
-template
-<
->
 inline
 size_t
 MozJemalloc
@@ -34284,9 +34259,6 @@ Size
 )
 ;
 }
-template
-<
->
 inline
 void
 MozJemalloc
@@ -35200,9 +35172,6 @@ bookkeeping
 )
 ;
 }
-template
-<
->
 inline
 size_t
 MozJemalloc
@@ -35216,9 +35185,6 @@ return
 NUM_SMALL_CLASSES
 ;
 }
-template
-<
->
 inline
 void
 MozJemalloc
@@ -35545,9 +35511,6 @@ chunk
 ;
 }
 }
-template
-<
->
 inline
 void
 MozJemalloc
@@ -35608,9 +35571,6 @@ else
 !
 defined
 MALLOC_DOUBLE_PURGE
-template
-<
->
 inline
 void
 MozJemalloc
@@ -35632,9 +35592,6 @@ endif
 /
 defined
 MALLOC_DOUBLE_PURGE
-template
-<
->
 inline
 void
 MozJemalloc
@@ -35888,9 +35845,6 @@ return
 result
 ;
 }
-template
-<
->
 inline
 arena_id_t
 MozJemalloc
@@ -35939,9 +35893,6 @@ return
 0
 ;
 }
-template
-<
->
 inline
 void
 MozJemalloc
@@ -35984,9 +35935,6 @@ arena
 )
 ;
 }
-template
-<
->
 inline
 void
 MozJemalloc
@@ -36016,10 +35964,6 @@ return_type
 .
 .
 )
-\
-template
-<
->
 \
 inline
 return_type
@@ -37923,10 +37867,6 @@ return_type
 .
 .
 )
-\
-template
-<
->
 \
 inline
 return_type
