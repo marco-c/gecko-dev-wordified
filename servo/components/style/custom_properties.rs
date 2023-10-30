@@ -6181,7 +6181,7 @@ input
 registration
 self
 .
-stylist
+computed_context
 )
 {
 map
@@ -9916,7 +9916,7 @@ compute
 mut
 input
 registration
-stylist
+computed_context
 )
 {
 custom_properties
@@ -10605,7 +10605,7 @@ compute
 mut
 fallback_input
 registration
-stylist
+computed_context
 )
 {
 return
@@ -10771,7 +10771,7 @@ compute
 mut
 fallback_input
 registration
-stylist
+computed_context
 )
 {
 partial_computed_value
