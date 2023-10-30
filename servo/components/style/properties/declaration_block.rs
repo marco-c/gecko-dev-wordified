@@ -5786,6 +5786,8 @@ QuirksMode
 NoQuirks
 stylist
 &
+context
+&
 mut
 Default
 :

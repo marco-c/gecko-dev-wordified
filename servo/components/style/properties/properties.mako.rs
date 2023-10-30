@@ -12233,6 +12233,13 @@ stylist
 :
 &
 Stylist
+computed_context
+:
+&
+computed
+:
+:
+Context
 shorthand_cache
 :
 &
@@ -12402,6 +12409,7 @@ self
 first_token_type
 custom_properties
 stylist
+computed_context
 )
 {
 Ok
