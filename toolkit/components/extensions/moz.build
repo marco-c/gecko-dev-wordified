@@ -613,7 +613,7 @@ browser
 -
 serviceworker
 .
-toml
+ini
 "
 "
 test
