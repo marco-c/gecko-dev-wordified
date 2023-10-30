@@ -116,6 +116,9 @@ message_lite
 .
 h
 "
+/
+/
+nogncheck
 #
 include
 "
@@ -133,6 +136,9 @@ repeated_field
 .
 h
 "
+/
+/
+nogncheck
 namespace
 webrtc
 {
