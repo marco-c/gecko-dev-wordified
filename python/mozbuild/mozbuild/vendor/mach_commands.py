@@ -464,8 +464,7 @@ False
     
 patch_mode
 =
-"
-"
+None
 )
 :
     
@@ -667,20 +666,25 @@ yaml
         
 )
     
-if
-patch_mode
-and
-patch_mode
-not
-in
-[
+patch_modes
+=
 "
 none
 "
 "
 only
 "
-]
+"
+check
+"
+    
+if
+patch_mode
+and
+patch_mode
+not
+in
+patch_modes
 :
         
 print
@@ -723,9 +727,8 @@ exit
 1
 )
     
-if
-(
-        
+patches
+=
 manifest
 [
 "
@@ -738,19 +741,16 @@ get
 "
 patches
 "
-[
-]
 )
-        
+    
+if
+patches
 and
 not
 patch_mode
-        
 and
 not
 check_for_update
-    
-)
 :
         
 print
@@ -797,21 +797,7 @@ only
 "
 and
 not
-manifest
-[
-"
-vendoring
-"
-]
-.
-get
-(
-"
 patches
-"
-[
-]
-)
 :
         
 print
