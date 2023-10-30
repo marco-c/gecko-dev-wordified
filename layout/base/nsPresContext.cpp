@@ -10368,7 +10368,7 @@ if
 doc
 -
 >
-IsContentInaccessibleAboutBlank
+IsLikelyContentInaccessibleTopLevelAboutBlank
 (
 )
 )
