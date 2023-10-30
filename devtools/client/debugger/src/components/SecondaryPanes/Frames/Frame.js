@@ -521,6 +521,11 @@ PropTypes
 bool
 .
 isRequired
+isInGroup
+:
+PropTypes
+.
+bool
 panel
 :
 PropTypes
@@ -724,6 +729,7 @@ displayFullUrl
 getFrameTitle
 disableContextMenu
 shouldDisplayOriginalLocation
+isInGroup
 }
 =
 this
@@ -976,7 +982,15 @@ React
 createElement
 (
 FrameIndent
-null
+{
+indentLevel
+:
+isInGroup
+?
+2
+:
+1
+}
 )
 React
 .
