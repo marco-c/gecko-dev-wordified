@@ -73,6 +73,7 @@ mozcrash
 from
 cmdline
 import
+CHROME_ANDROID_APPS
 FIREFOX_ANDROID_APPS
 from
 logger
@@ -717,13 +718,8 @@ config
 app
 "
 ]
-=
-=
-"
-chrome
--
-m
-"
+in
+CHROME_ANDROID_APPS
 :
             
 args_list
@@ -1935,13 +1931,8 @@ config
 app
 "
 ]
-=
-=
-"
-chrome
--
-m
-"
+in
+CHROME_ANDROID_APPS
 :
             
 #
