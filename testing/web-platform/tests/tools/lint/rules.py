@@ -1408,16 +1408,6 @@ collapse
         
 %
 s
-<
-meta
-name
-=
-variant
->
-'
-content
-'
-attribute
 must
 be
 a
