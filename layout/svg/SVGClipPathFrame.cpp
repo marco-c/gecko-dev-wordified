@@ -804,7 +804,7 @@ SVGUtils
 :
 MaskUsage
 maskUsage
-;
+=
 SVGUtils
 :
 :
@@ -812,7 +812,6 @@ DetermineMaskUsage
 (
 this
 true
-maskUsage
 )
 ;
 gfxGroupForBlendAutoSaveRestore
@@ -1294,7 +1293,7 @@ SVGUtils
 :
 MaskUsage
 maskUsage
-;
+=
 SVGUtils
 :
 :
@@ -1302,7 +1301,6 @@ DetermineMaskUsage
 (
 aFrame
 true
-maskUsage
 )
 ;
 gfxGroupForBlendAutoSaveRestore
