@@ -1994,15 +1994,6 @@ mName
 (
 aName
 )
-mShutdownGrip
-(
-aDriver
--
->
-Graph
-(
-)
-)
 {
 MOZ_ASSERT
 (
@@ -2238,10 +2229,6 @@ Stop
 )
 ;
 mDriver
-=
-nullptr
-;
-mShutdownGrip
 =
 nullptr
 ;
