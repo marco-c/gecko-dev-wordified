@@ -497,6 +497,27 @@ remove
 (
 recording_file
 )
+        
+os
+.
+remove
+(
+os
+.
+path
+.
+join
+(
+"
+distribution
+"
+"
+policies
+.
+json
+"
+)
+)
     
 except
 Exception

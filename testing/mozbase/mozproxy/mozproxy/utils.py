@@ -74,11 +74,14 @@ signal
 import
 socket
 import
-subprocess
-import
 sys
 import
 time
+from
+subprocess
+import
+PIPE
+Popen
 from
 redo
 import
@@ -122,10 +125,6 @@ from
 mozlog
 import
 get_proxy_logger
-from
-mozprocess
-import
-ProcessHandler
 from
 mozproxy
 import
@@ -514,20 +513,6 @@ manifest
 "
 "
     
-def
-outputHandler
-(
-line
-)
-:
-        
-LOG
-.
-info
-(
-line
-)
-    
 tooltool_path
 =
 None
@@ -730,26 +715,15 @@ try
         
 proc
 =
-ProcessHandler
+Popen
 (
-            
 command
-processOutputLine
-=
-outputHandler
-storeOutput
-=
-False
 cwd
 =
 raptor_dir
-        
-)
-        
-proc
-.
-run
-(
+text
+=
+True
 )
         
 if
@@ -1324,8 +1298,6 @@ ifh
         
 p
 =
-subprocess
-.
 Popen
 (
 args
@@ -1340,8 +1312,6 @@ bufsize
 0
 stdin
 =
-subprocess
-.
 PIPE
 )
         
