@@ -175,7 +175,7 @@ MOZ_PHC
 ]
 =
 True
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

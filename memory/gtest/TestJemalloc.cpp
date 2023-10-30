@@ -197,7 +197,7 @@ MOZ_PHC
 #
 include
 "
-replace_malloc_bridge
+PHC
 .
 h
 "
@@ -219,7 +219,10 @@ AutoDisablePHCOnCurrentThread
 #
 ifdef
 MOZ_PHC
-ReplaceMalloc
+mozilla
+:
+:
+phc
 :
 :
 DisablePHCOnCurrentThread
@@ -237,7 +240,10 @@ AutoDisablePHCOnCurrentThread
 #
 ifdef
 MOZ_PHC
-ReplaceMalloc
+mozilla
+:
+:
+phc
 :
 :
 ReenablePHCOnCurrentThread
@@ -2785,7 +2791,10 @@ MOZ_PHC
 MOZ_RELEASE_ASSERT
 (
 !
-ReplaceMalloc
+mozilla
+:
+:
+phc
 :
 :
 IsPHCEnabledOnCurrentThread
