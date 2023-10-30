@@ -158,14 +158,6 @@ waitForNetworkEvents
 (
 monitor
 2
-{
-expectedEventTimings
-:
-0
-expectedPayloadReady
-:
-1
-}
 )
 ;
 /
@@ -258,7 +250,7 @@ applied
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
