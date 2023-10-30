@@ -762,6 +762,10 @@ ErrorResult
 aRv
 )
 {
+aRv
+=
+NS_OK
+;
 if
 (
 !
@@ -851,7 +855,7 @@ nsAString
 aMessage
 )
 {
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 dom
@@ -2598,6 +2602,12 @@ rv
 )
 ;
 }
+mTrackedBuffers
+.
+Clear
+(
+)
+;
 }
 mBridge
 -
