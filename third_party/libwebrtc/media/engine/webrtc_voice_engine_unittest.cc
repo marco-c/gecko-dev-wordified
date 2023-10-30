@@ -6368,6 +6368,11 @@ EXPECT_EQ
 SendImpl
 (
 )
+-
+>
+transport
+(
+)
 config
 .
 send_transport
@@ -6452,6 +6457,11 @@ local_ssrc
 EXPECT_EQ
 (
 ReceiveImpl
+(
+)
+-
+>
+transport
 (
 )
 config
@@ -25116,6 +25126,11 @@ channel
 get
 (
 )
+)
+-
+>
+transport
+(
 )
 -
 >
