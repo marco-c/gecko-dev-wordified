@@ -742,7 +742,7 @@ alloc
 to
 allocate
 .
-allowSlow
+allocSlow
 is
 /
 /
@@ -789,7 +789,7 @@ nodiscard
 ]
 MOZ_NEVER_INLINE
 PointerAndUint7
-allowSlow
+allocSlow
 (
 size_t
 size
@@ -1257,7 +1257,7 @@ other
 cases
 .
 return
-allowSlow
+allocSlow
 (
 size
 )
