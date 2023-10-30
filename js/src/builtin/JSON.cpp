@@ -609,7 +609,7 @@ RangedPtr
 <
 DstCharT
 >
-InfallibleQuote
+InfallibleQuoteJSONString
 (
 RangedPtr
 <
@@ -1325,7 +1325,7 @@ DstCharT
 >
 static
 size_t
-QuoteHelper
+QuoteJSONStringHelper
 (
 const
 JSLinearString
@@ -1410,7 +1410,7 @@ DstCharT
 >
 dstEnd
 =
-InfallibleQuote
+InfallibleQuoteJSONString
 (
 srcBegin
 srcBegin
@@ -1429,7 +1429,7 @@ dstBegin
 }
 static
 bool
-Quote
+QuoteJSONString
 (
 JSContext
 *
@@ -1616,7 +1616,7 @@ hasTwoByteChars
 {
 newSize
 =
-QuoteHelper
+QuoteJSONStringHelper
 <
 char16_t
 char16_t
@@ -1641,7 +1641,7 @@ isUnderlyingBufferLatin1
 {
 newSize
 =
-QuoteHelper
+QuoteJSONStringHelper
 <
 Latin1Char
 Latin1Char
@@ -1658,7 +1658,7 @@ else
 {
 newSize
 =
-QuoteHelper
+QuoteJSONStringHelper
 <
 Latin1Char
 char16_t
@@ -3837,7 +3837,7 @@ false
 if
 (
 !
-Quote
+QuoteJSONString
 (
 cx
 scx
@@ -5098,7 +5098,7 @@ isString
 )
 {
 return
-Quote
+QuoteJSONString
 (
 cx
 scx
@@ -7206,7 +7206,7 @@ isString
 )
 {
 return
-Quote
+QuoteJSONString
 (
 cx
 sb
@@ -9750,7 +9750,7 @@ isString
 if
 (
 !
-Quote
+QuoteJSONString
 (
 cx
 scx
