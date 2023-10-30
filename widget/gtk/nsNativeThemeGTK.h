@@ -480,6 +480,15 @@ Always
 BecauseColorMismatch
 }
 ;
+static
+bool
+IsWidgetAlwaysNonNative
+(
+nsIFrame
+*
+StyleAppearance
+)
+;
 NonNative
 IsWidgetNonNative
 (
