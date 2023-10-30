@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIStreamListener
+nsIThreadRetargetableStreamListener
 .
 idl
 "
@@ -422,7 +422,7 @@ a541
 interface
 nsIStreamLoader
 :
-nsIStreamListener
+nsIThreadRetargetableStreamListener
 {
 /
 *
