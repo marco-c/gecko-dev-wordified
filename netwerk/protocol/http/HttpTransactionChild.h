@@ -388,8 +388,6 @@ final
 public
 PHttpTransactionChild
 public
-nsIStreamListener
-public
 nsITransportEventSink
 public
 nsIThrottledInputChannel

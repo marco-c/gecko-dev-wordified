@@ -283,8 +283,6 @@ public
 nsIStreamConverter
 public
 nsICompressConvStats
-public
-nsIThreadRetargetableStreamListener
 {
 public
 :
