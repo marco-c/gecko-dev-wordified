@@ -12741,6 +12741,10 @@ dstUsage
 )
 )
 {
+Truncate
+(
+)
+;
 return
 ;
 }
