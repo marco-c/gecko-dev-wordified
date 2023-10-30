@@ -1040,15 +1040,6 @@ receive_transport_
 SendRtcp
 (
 buffer
-.
-data
-(
-)
-buffer
-.
-size
-(
-)
 )
 )
 ;

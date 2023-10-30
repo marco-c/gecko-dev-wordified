@@ -25141,10 +25141,6 @@ transport
 SendRtcp
 (
 kData
-sizeof
-(
-kData
-)
 )
 )
 ;

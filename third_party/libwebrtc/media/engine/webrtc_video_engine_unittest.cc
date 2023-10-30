@@ -43861,10 +43861,6 @@ get
 SendRtcp
 (
 kData
-sizeof
-(
-kData
-)
 )
 )
 ;

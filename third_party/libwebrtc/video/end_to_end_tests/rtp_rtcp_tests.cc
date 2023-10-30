@@ -2330,15 +2330,6 @@ get
 SendRtcp
 (
 packet
-.
-data
-(
-)
-packet
-.
-size
-(
-)
 )
 ;
 }

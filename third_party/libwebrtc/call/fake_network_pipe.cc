@@ -2089,6 +2089,11 @@ transport
 >
 SendRtcp
 (
+rtc
+:
+:
+MakeArrayView
+(
 packet
 -
 >
@@ -2100,6 +2105,7 @@ packet
 >
 data_length
 (
+)
 )
 )
 ;
@@ -2111,6 +2117,11 @@ transport
 >
 SendRtp
 (
+rtc
+:
+:
+MakeArrayView
+(
 packet
 -
 >
@@ -2122,6 +2133,7 @@ packet
 >
 data_length
 (
+)
 )
 packet
 -
