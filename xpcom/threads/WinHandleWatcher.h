@@ -677,8 +677,7 @@ HandleWatcher
 &
 &
 )
-=
-default
+noexcept
 ;
 HandleWatcher
 &
@@ -689,8 +688,7 @@ HandleWatcher
 &
 &
 )
-=
-default
+noexcept
 ;
 /
 /
