@@ -2219,11 +2219,6 @@ RefreshRealmPrincipal
 (
 )
 ;
-void
-RefreshReduceTimerPrecisionCallerType
-(
-)
-;
 /
 /
 For

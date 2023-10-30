@@ -2867,17 +2867,6 @@ setClampAndJitterTime
 (
 false
 )
-.
-setReduceTimerPrecisionCallerType
-(
-RTPCallerTypeToToken
-(
-RTPCallerType
-:
-:
-Normal
-)
-)
 ;
 mGlobal
 =

@@ -17432,13 +17432,6 @@ mDoc
 aDocument
 )
 ;
-newInnerWindow
--
->
-RefreshReduceTimerPrecisionCallerType
-(
-)
-;
 if
 (
 !
@@ -17978,6 +17971,9 @@ FireOnNewGlobalObject
 }
 if
 (
+newInnerWindow
+&
+&
 !
 newInnerWindow
 -
