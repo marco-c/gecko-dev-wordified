@@ -4204,7 +4204,6 @@ asArray
 asArray
 .
 length
-interner
 )
 ;
 assert
@@ -6466,7 +6465,6 @@ elementNameByBuffer
 (
 strBuf
 strBufLen
-interner
 )
 ;
 if

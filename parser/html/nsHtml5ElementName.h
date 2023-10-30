@@ -702,9 +702,6 @@ char16_t
 buf
 int32_t
 length
-nsHtml5AtomTable
-*
-interner
 )
 {
 uint32_t

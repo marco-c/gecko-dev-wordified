@@ -1988,7 +1988,6 @@ elementNameByBuffer
 (
 strBuf
 strBufLen
-interner
 )
 ;
 if

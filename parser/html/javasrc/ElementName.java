@@ -994,8 +994,6 @@ char
 buf
 int
 length
-Interner
-interner
 )
 {
 Unsigned
