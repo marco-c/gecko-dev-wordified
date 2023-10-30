@@ -11626,6 +11626,17 @@ if
 buildstatus_messages
 :
             
+append_env
+[
+"
+MOZ_CONFIGURE_BUILDSTATUS
+"
+]
+=
+"
+1
+"
+            
 line_handler
 (
 "
