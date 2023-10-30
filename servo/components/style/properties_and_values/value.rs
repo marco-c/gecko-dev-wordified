@@ -3137,7 +3137,7 @@ self
 .
 syntax
 .
-0
+components
 .
 iter
 (

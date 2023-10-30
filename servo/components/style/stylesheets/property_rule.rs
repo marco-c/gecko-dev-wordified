@@ -64,10 +64,10 @@ crate
 properties_and_values
 :
 :
-rule
+registry
 :
 :
-PropertyRuleData
+PropertyRegistration
 as
 PropertyRule
 ;
