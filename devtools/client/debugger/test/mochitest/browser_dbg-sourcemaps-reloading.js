@@ -213,7 +213,7 @@ addBreakpoint
 dbg
 entrySrc
 15
-0
+1
 )
 ;
 await
@@ -222,7 +222,7 @@ disableBreakpoint
 dbg
 entrySrc
 15
-0
+1
 )
 ;
 /
