@@ -1871,7 +1871,11 @@ MediaTrackGraph
 Graph
 (
 )
+{
+return
+mGraph
 ;
+}
 const
 MediaTrackGraph
 *
@@ -1879,7 +1883,11 @@ Graph
 (
 )
 const
+{
+return
+mGraph
 ;
+}
 /
 *
 *
@@ -3665,7 +3673,9 @@ and
 move
 it
 to
-mGraph
+GraphImpl
+(
+)
 -
 >
 mSuspendedTracks
@@ -3696,7 +3706,9 @@ and
 move
 it
 to
-mGraph
+GraphImpl
+(
+)
 -
 >
 mTracks
@@ -4469,7 +4481,7 @@ the
 graph
 thread
 .
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 mGraph
 ;
