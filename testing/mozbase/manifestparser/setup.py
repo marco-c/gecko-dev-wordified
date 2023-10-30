@@ -85,14 +85,14 @@ mozlog
 "
     
 "
-toml
+tomlkit
 >
 =
 0
 .
-10
+11
 .
-2
+8
 "
 ]
 setup

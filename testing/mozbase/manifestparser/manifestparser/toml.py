@@ -59,8 +59,22 @@ import
 os
 import
 re
+from
+tomlkit
 import
-toml
+parse
+from
+tomlkit
+.
+exceptions
+import
+ParseError
+from
+tomlkit
+.
+items
+import
+Array
 from
 .
 ini
@@ -343,17 +357,13 @@ try
         
 manifest
 =
-toml
-.
-loads
+parse
 (
 contents
 )
     
 except
-toml
-.
-TomlDecodeError
+ParseError
 as
 pe
 :
@@ -461,7 +471,7 @@ elif
 isinstance
 (
 val
-list
+Array
 )
 :
                 
