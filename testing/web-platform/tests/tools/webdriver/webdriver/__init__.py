@@ -10,11 +10,7 @@ import
     
 Cookies
     
-Element
-    
 Find
-    
-Frame
     
 Session
     
@@ -22,7 +18,11 @@ ShadowRoot
     
 Timeouts
     
-Window
+WebElement
+    
+WebFrame
+    
+WebWindow
 )
 from
 .

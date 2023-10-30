@@ -3,8 +3,8 @@ pytest
 from
 webdriver
 import
-Element
 ShadowRoot
+WebElement
 from
 webdriver
 .
@@ -276,7 +276,7 @@ classic
     
 node
 =
-Element
+WebElement
 (
 current_session
 result
