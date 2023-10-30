@@ -155,7 +155,7 @@ relaxed_dot_product
 .
 wast
 :
-3
+4
 let
 0
 =
@@ -394,7 +394,7 @@ relaxed_dot_product
 .
 wast
 :
-18
+19
 assert_return
 (
 (
@@ -485,7 +485,7 @@ relaxed_dot_product
 .
 wast
 :
-24
+25
 assert_return
 (
 (
@@ -576,7 +576,7 @@ relaxed_dot_product
 .
 wast
 :
-32
+33
 assert_return
 (
 (
@@ -696,7 +696,7 @@ relaxed_dot_product
 .
 wast
 :
-41
+42
 assert_return
 (
 (
@@ -792,7 +792,7 @@ relaxed_dot_product
 .
 wast
 :
-49
+50
 assert_return
 (
 (
@@ -888,7 +888,7 @@ relaxed_dot_product
 .
 wast
 :
-62
+63
 assert_return
 (
 (
@@ -1014,7 +1014,7 @@ relaxed_dot_product
 .
 wast
 :
-75
+76
 assert_return
 (
 (
@@ -1105,7 +1105,7 @@ relaxed_dot_product
 .
 wast
 :
-81
+82
 assert_return
 (
 (
@@ -1201,7 +1201,7 @@ relaxed_dot_product
 .
 wast
 :
-91
+92
 assert_return
 (
 (
@@ -1292,7 +1292,7 @@ relaxed_dot_product
 .
 wast
 :
-102
+103
 assert_return
 (
 (

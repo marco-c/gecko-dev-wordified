@@ -155,7 +155,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-3
+4
 let
 0
 =
@@ -486,7 +486,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-35
+36
 assert_return
 (
 (
@@ -554,7 +554,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-42
+43
 assert_return
 (
 (
@@ -635,7 +635,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-48
+49
 assert_return
 (
 (
@@ -711,7 +711,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-55
+56
 assert_return
 (
 (
@@ -801,7 +801,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-61
+62
 assert_return
 (
 (
@@ -866,7 +866,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-67
+68
 assert_return
 (
 (
@@ -947,7 +947,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-72
+73
 assert_return
 (
 (
@@ -1021,7 +1021,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-78
+79
 assert_return
 (
 (
@@ -1102,7 +1102,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-85
+86
 assert_return
 (
 (
@@ -1158,7 +1158,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-91
+92
 assert_return
 (
 (
@@ -1227,7 +1227,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-96
+97
 assert_return
 (
 (
@@ -1282,7 +1282,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-102
+103
 assert_return
 (
 (
@@ -1351,7 +1351,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-107
+108
 assert_return
 (
 (
@@ -1404,7 +1404,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-112
+113
 assert_return
 (
 (
@@ -1473,7 +1473,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-116
+117
 assert_return
 (
 (
@@ -1526,7 +1526,7 @@ i32x4_relaxed_trunc
 .
 wast
 :
-121
+122
 assert_return
 (
 (

@@ -155,7 +155,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-3
+4
 let
 0
 =
@@ -646,7 +646,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-33
+34
 assert_return
 (
 (
@@ -780,7 +780,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-49
+50
 assert_return
 (
 (
@@ -946,7 +946,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-56
+57
 assert_return
 (
 (
@@ -1116,7 +1116,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-63
+64
 assert_return
 (
 (
@@ -1286,7 +1286,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-76
+77
 assert_return
 (
 (
@@ -1384,7 +1384,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-92
+93
 assert_return
 (
 (
@@ -1498,7 +1498,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-99
+100
 assert_return
 (
 (
@@ -1614,7 +1614,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-106
+107
 assert_return
 (
 (
@@ -1730,7 +1730,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-120
+121
 assert_return
 (
 (
@@ -1806,7 +1806,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-135
+136
 assert_return
 (
 (
@@ -1906,7 +1906,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-141
+142
 assert_return
 (
 (
@@ -2010,7 +2010,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-147
+148
 assert_return
 (
 (
@@ -2114,7 +2114,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-159
+160
 assert_return
 (
 (
@@ -2180,7 +2180,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-174
+175
 assert_return
 (
 (
@@ -2258,7 +2258,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-180
+181
 assert_return
 (
 (
@@ -2338,7 +2338,7 @@ relaxed_madd_nmadd
 .
 wast
 :
-186
+187
 assert_return
 (
 (

@@ -155,7 +155,7 @@ i8x16_relaxed_swizzle
 .
 wast
 :
-3
+4
 let
 0
 =
@@ -278,7 +278,7 @@ i8x16_relaxed_swizzle
 .
 wast
 :
-12
+13
 assert_return
 (
 (
@@ -401,7 +401,7 @@ i8x16_relaxed_swizzle
 .
 wast
 :
-19
+20
 assert_return
 (
 (
@@ -524,7 +524,7 @@ i8x16_relaxed_swizzle
 .
 wast
 :
-26
+27
 assert_return
 (
 (
@@ -647,7 +647,7 @@ i8x16_relaxed_swizzle
 .
 wast
 :
-35
+36
 assert_return
 (
 (
@@ -746,7 +746,7 @@ i8x16_relaxed_swizzle
 .
 wast
 :
-41
+42
 assert_return
 (
 (
