@@ -1364,7 +1364,7 @@ DeviceInputTrack
 >
 OpenAudio
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 CubebUtils
@@ -1476,7 +1476,7 @@ users
 void
 DeviceChanged
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 )
@@ -1735,7 +1735,7 @@ graph
 void
 NotifyInputStopped
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 )
@@ -1743,7 +1743,7 @@ aGraph
 void
 NotifyInputData
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 const

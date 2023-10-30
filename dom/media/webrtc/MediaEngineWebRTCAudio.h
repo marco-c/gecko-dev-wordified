@@ -796,7 +796,7 @@ aMaxChannelCount
 void
 Process
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 GraphTime
@@ -814,7 +814,7 @@ aOutput
 void
 ProcessOutputData
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 AudioDataValue
@@ -831,7 +831,7 @@ aChannels
 bool
 IsVoiceInput
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 )
@@ -894,7 +894,7 @@ aGraph
 void
 Start
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 )
@@ -902,7 +902,7 @@ aGraph
 void
 Stop
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 )
@@ -910,7 +910,7 @@ aGraph
 void
 DeviceChanged
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 )
@@ -919,7 +919,7 @@ override
 uint32_t
 RequestedInputChannelCount
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 )
 override
@@ -933,7 +933,7 @@ GetRequestedInputChannelCount
 void
 Disconnect
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 )
@@ -942,7 +942,7 @@ override
 void
 PacketizeAndProcess
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 const
@@ -954,7 +954,7 @@ aSegment
 void
 SetPassThrough
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 bool
@@ -969,7 +969,7 @@ GetRequestedInputChannelCount
 void
 SetRequestedInputChannelCount
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 CubebUtils
@@ -1006,9 +1006,9 @@ passes
 bool
 PassThrough
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
-aGraphImpl
+aGraph
 )
 const
 ;
@@ -1049,7 +1049,7 @@ data
 void
 ApplyConfig
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 const
@@ -1072,7 +1072,7 @@ End
 TrackTime
 NumBufferedFrames
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 )
@@ -1138,7 +1138,7 @@ default
 void
 EnsureAudioProcessing
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 uint32_t
@@ -1148,7 +1148,7 @@ aChannels
 void
 ResetAudioProcessing
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 )
@@ -1792,7 +1792,7 @@ stream
 void
 NotifyOutputData
 (
-MediaTrackGraphImpl
+MediaTrackGraph
 *
 aGraph
 AudioDataValue
