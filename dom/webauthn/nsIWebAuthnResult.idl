@@ -235,6 +235,12 @@ AString
 >
 transports
 ;
+/
+/
+bug
+1593571
+/
+/
 readonly
 attribute
 bool
@@ -427,6 +433,7 @@ Optional
 [
 must_use
 ]
+readonly
 attribute
 bool
 usedAppId
