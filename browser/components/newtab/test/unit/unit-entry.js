@@ -3104,6 +3104,15 @@ record
 {
 }
 }
+dismiss
+:
+{
+record
+(
+)
+{
+}
+}
 }
 topSites
 :
