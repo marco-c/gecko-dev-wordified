@@ -1804,6 +1804,10 @@ webrtc
 :
 CaptureClockOffsetUpdater
 capture_clock_offset_updater_
+RTC_GUARDED_BY
+(
+ts_stats_lock_
+)
 ;
 rtc
 :
@@ -3141,6 +3145,13 @@ has_value
 )
 )
 {
+MutexLock
+lock
+(
+&
+ts_stats_lock_
+)
+;
 local_capture_clock_offset_q32x32
 =
 capture_clock_offset_updater_
