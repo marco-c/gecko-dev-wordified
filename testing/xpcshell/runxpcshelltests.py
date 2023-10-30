@@ -72,6 +72,8 @@ os
 import
 pipes
 import
+platform
+import
 random
 import
 re
@@ -12519,6 +12521,25 @@ app_binary
 "
 "
 "
+)
+        
+self
+.
+mozInfo
+[
+"
+is_ubuntu
+"
+]
+=
+"
+Ubuntu
+"
+in
+platform
+.
+version
+(
 )
         
 mozinfo
