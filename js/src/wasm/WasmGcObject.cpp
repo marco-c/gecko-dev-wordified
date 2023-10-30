@@ -114,6 +114,8 @@ include
 wasm
 /
 WasmGcObject
+-
+inl
 .
 h
 "
