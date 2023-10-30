@@ -2376,7 +2376,8 @@ list
 Properties
 we
 initialize
-once
+right
+after
 the
 thread
 is
@@ -2406,9 +2407,24 @@ remote_queue
 =
 None
         
+#
+Properties
+we
+initalize
+later
+in
+the
+lifecycle
+        
 self
 .
 timer
+=
+None
+        
+self
+.
+test_runner_proc
 =
 None
         
