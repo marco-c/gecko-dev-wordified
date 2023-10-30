@@ -194,12 +194,6 @@ ScreenCapturerFuchsia
 )
 override
 ;
-static
-bool
-CheckRequirements
-(
-)
-;
 /
 /
 DesktopCapturer
