@@ -272,15 +272,6 @@ include
 "
 rtc_base
 /
-rate_statistics
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 synchronization
 /
 mutex

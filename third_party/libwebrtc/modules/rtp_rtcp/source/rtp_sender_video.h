@@ -341,6 +341,15 @@ include
 "
 rtc_base
 /
+bitrate_tracker
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 one_time_event
 .
 h
@@ -1674,7 +1683,7 @@ mutable
 Mutex
 stats_mutex_
 ;
-RateStatistics
+BitrateTracker
 post_encode_overhead_bitrate_
 RTC_GUARDED_BY
 (

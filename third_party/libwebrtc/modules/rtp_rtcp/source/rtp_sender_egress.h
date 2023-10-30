@@ -304,7 +304,7 @@ include
 "
 rtc_base
 /
-rate_statistics
+bitrate_tracker
 .
 h
 "
@@ -1196,7 +1196,7 @@ std
 :
 vector
 <
-RateStatistics
+BitrateTracker
 >
 send_rates_
 RTC_GUARDED_BY

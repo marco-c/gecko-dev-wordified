@@ -216,7 +216,7 @@ include
 "
 rtc_base
 /
-random
+bitrate_tracker
 .
 h
 "
@@ -225,7 +225,7 @@ include
 "
 rtc_base
 /
-rate_statistics
+random
 .
 h
 "
@@ -626,7 +626,7 @@ mutable
 Mutex
 mutex_
 ;
-RateStatistics
+BitrateTracker
 fec_bitrate_
 RTC_GUARDED_BY
 (
