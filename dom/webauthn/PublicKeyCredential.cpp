@@ -218,7 +218,7 @@ XP_WIN
 #
 include
 "
-WinWebAuthnManager
+WinWebAuthnService
 .
 h
 "
@@ -753,7 +753,7 @@ ifdef
 XP_WIN
 if
 (
-WinWebAuthnManager
+WinWebAuthnService
 :
 :
 IsUserVerifyingPlatformAuthenticatorAvailable
@@ -1082,7 +1082,7 @@ ifdef
 XP_WIN
 if
 (
-WinWebAuthnManager
+WinWebAuthnService
 :
 :
 AreWebAuthNApisAvailable
