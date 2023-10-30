@@ -77,7 +77,7 @@ marionette_driver
 .
 marionette
 import
-HTMLElement
+WebElement
 from
 marionette_harness
 import
@@ -446,7 +446,7 @@ self
 assertEqual
 (
             
-HTMLElement
+WebElement
 type
 (
 self

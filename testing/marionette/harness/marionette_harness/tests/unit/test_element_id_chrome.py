@@ -70,7 +70,7 @@ marionette_driver
 .
 marionette
 import
-HTMLElement
+WebElement
 from
 marionette_harness
 import
@@ -232,7 +232,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el
@@ -329,7 +329,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el
@@ -470,7 +470,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el
@@ -574,7 +574,7 @@ self
 .
 assertEqual
 (
-HTMLElement
+WebElement
 type
 (
 found_el
