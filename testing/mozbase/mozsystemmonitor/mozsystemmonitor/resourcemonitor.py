@@ -231,6 +231,19 @@ cached
 )
     
 def
+cpu_count
+(
+self
+logical
+=
+True
+)
+:
+        
+return
+0
+    
+def
 cpu_percent
 (
 self
