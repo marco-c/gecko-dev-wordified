@@ -2805,6 +2805,13 @@ mFramerate
 fpsDenominator
 )
 ;
+if
+(
+fpsNumerator
+>
+0
+)
+{
 hr
 =
 MFSetAttributeRatio
@@ -2824,6 +2831,7 @@ hr
 hr
 )
 ;
+}
 RefPtr
 <
 IMFMediaType
@@ -2903,6 +2911,13 @@ hr
 hr
 )
 ;
+if
+(
+fpsNumerator
+>
+0
+)
+{
 hr
 =
 MFSetAttributeRatio
@@ -2922,6 +2937,7 @@ hr
 hr
 )
 ;
+}
 GUID
 outputSubType
 =
