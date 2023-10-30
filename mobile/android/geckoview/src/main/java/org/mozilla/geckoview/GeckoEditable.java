@@ -8007,8 +8007,7 @@ and
 handle
 these
 ourselves
-if
-(
+return
 keyCode
 =
 =
@@ -8023,14 +8022,6 @@ keyCode
 KeyEvent
 .
 KEYCODE_FORWARD_DEL
-)
-{
-return
-true
-;
-}
-return
-false
 ;
 }
 private
