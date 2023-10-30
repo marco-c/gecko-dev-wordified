@@ -34,7 +34,7 @@ SharedWorker
 const
 nextMessage
 =
-workerMessages
+worker_message_generator
 (
 worker
 )
@@ -70,7 +70,7 @@ nextMessage
 )
 ;
 function
-workerMessageGenerator
+worker_message_generator
 (
 shared_worker
 )
