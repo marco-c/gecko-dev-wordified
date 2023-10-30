@@ -304,6 +304,17 @@ JS
 Value
 >
 aObj
+JS
+:
+:
+Handle
+<
+JS
+:
+:
+Value
+>
+aTransfers
 ErrorResult
 &
 aRv
