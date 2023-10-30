@@ -147,7 +147,7 @@ pyflakes
 "
     
 "
-tomlkit
+toml
 "
 ]
 try
