@@ -2331,7 +2331,11 @@ aLastRow
 bool
 aFirstRowIsTopOfPage
 nscoord
-aSpanningRowBottom
+aSpanningRowBEnd
+const
+nsSize
+&
+aContainerSize
 nsTableRowFrame
 *
 &
@@ -2342,7 +2346,7 @@ nsTableRowFrame
 aFirstTruncatedRow
 nscoord
 &
-aDesiredHeight
+aDesiredBSize
 )
 ;
 /
