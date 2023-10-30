@@ -1533,6 +1533,8 @@ retransmitted_packets_received
 &
 retransmitted_bytes_received
 &
+rtx_ssrc
+&
 last_packet_received_timestamp
 &
 jitter_buffer_delay
@@ -1734,6 +1736,12 @@ retransmitted_bytes_received
 (
 "
 retransmittedBytesReceived
+"
+)
+rtx_ssrc
+(
+"
+rtxSsrc
 "
 )
 last_packet_received_timestamp
@@ -2111,6 +2119,8 @@ active
 power_efficient_encoder
 &
 scalability_mode
+&
+rtx_ssrc
 )
 /
 /
@@ -2321,6 +2331,12 @@ scalability_mode
 (
 "
 scalabilityMode
+"
+)
+rtx_ssrc
+(
+"
+rtxSsrc
 "
 )
 {
