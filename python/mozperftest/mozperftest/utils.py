@@ -1621,14 +1621,11 @@ resolve
     
 venv_site_packages
 =
-str
-(
-        
 Path
 (
-            
+        
 venv_site_lib
-            
+        
 f
 "
 python
@@ -1648,6 +1645,30 @@ version_info
 minor
 }
 "
+        
+"
+site
+-
+packages
+"
+    
+)
+    
+if
+not
+venv_site_packages
+.
+exists
+(
+)
+:
+        
+venv_site_packages
+=
+Path
+(
+            
+venv_site_lib
             
 "
 site
@@ -1657,6 +1678,11 @@ packages
         
 )
     
+venv_site_packages
+=
+str
+(
+venv_site_packages
 )
     
 if
