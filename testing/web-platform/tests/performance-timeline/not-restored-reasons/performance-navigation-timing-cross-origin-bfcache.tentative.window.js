@@ -467,7 +467,7 @@ preventedBackForwardCache
 '
 :
 "
-yes
+masked
 "
 '
 url
