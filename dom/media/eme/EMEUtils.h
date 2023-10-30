@@ -380,6 +380,15 @@ nsAString
 aKeySystem
 )
 ;
+bool
+IsWidevineExperimentKeySystemAndSupported
+(
+const
+nsAString
+&
+aKeySystem
+)
+;
 #
 endif
 /

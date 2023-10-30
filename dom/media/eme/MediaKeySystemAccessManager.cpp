@@ -2604,6 +2604,16 @@ mKeySystem
 )
 &
 &
+!
+IsWidevineExperimentKeySystemAndSupported
+(
+aRequest
+-
+>
+mKeySystem
+)
+&
+&
 #
 endif
 !
