@@ -505,7 +505,7 @@ include
 "
 gc
 /
-Allocator
+GC
 .
 h
 "
@@ -514,7 +514,7 @@ include
 "
 gc
 /
-GC
+GCEnum
 .
 h
 "

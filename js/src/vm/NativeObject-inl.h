@@ -142,7 +142,7 @@ include
 "
 gc
 /
-Allocator
+GCEnum
 .
 h
 "
