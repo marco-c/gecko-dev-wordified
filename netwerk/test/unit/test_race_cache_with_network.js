@@ -1429,7 +1429,7 @@ nsIRaceCacheWithNetwork
 .
 test_triggerNetwork
 (
-100
+5000
 )
 ;
 channel
