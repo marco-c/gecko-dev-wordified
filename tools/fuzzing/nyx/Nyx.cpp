@@ -330,6 +330,7 @@ void
 buffer
 size_t
 len
+const
 char
 *
 filename
@@ -1460,16 +1461,12 @@ void
 buffer
 size_t
 len
+const
 char
 *
 filename
 )
 {
-MOZ_RELEASE_ASSERT
-(
-mInited
-)
-;
 if
 (
 !
