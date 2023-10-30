@@ -500,7 +500,7 @@ Length
 }
 else
 {
-mIsAttrSet
+mIsBaseSet
 =
 true
 ;
@@ -620,7 +620,7 @@ Clear
 (
 )
 ;
-mIsAttrSet
+mIsBaseSet
 =
 false
 ;
@@ -1227,7 +1227,7 @@ Markup
 -
 we
 set
-mIsAttrSet
+mIsBaseSet
 to
 true
 on
@@ -1320,7 +1320,7 @@ to
 be
 allocated
 return
-mIsAttrSet
+mIsBaseSet
 |
 |
 !
