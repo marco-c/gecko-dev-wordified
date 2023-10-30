@@ -211,6 +211,10 @@ struct
 PathBuilder
 ;
 }
+/
+/
+namespace
+WGR
 namespace
 mozilla
 {
