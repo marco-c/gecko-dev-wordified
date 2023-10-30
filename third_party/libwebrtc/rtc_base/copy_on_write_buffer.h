@@ -240,6 +240,7 @@ CopyOnWriteBuffer
 &
 buf
 )
+noexcept
 ;
 /
 /

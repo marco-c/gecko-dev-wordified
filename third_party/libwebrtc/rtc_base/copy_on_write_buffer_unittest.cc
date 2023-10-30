@@ -344,6 +344,17 @@ CopyOnWriteBufferTest
 TestMoveConstruct
 )
 {
+EXPECT_TRUE
+(
+std
+:
+:
+is_nothrow_move_constructible_v
+<
+CopyOnWriteBuffer
+>
+)
+;
 CopyOnWriteBuffer
 buf1
 (
