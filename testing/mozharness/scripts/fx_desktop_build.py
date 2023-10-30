@@ -346,7 +346,7 @@ org
 "
                 
 "
-profile_build_resources_path
+build_resources_path
 "
 :
 "
@@ -356,7 +356,7 @@ upload_path
 )
 s
 /
-profile_build_resources
+build_resources
 .
 json
 "
