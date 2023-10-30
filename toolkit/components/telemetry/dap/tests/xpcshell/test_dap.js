@@ -464,6 +464,17 @@ request
 bodyInputStream
 )
 ;
+console
+.
+log
+(
+body
+.
+available
+(
+)
+)
+;
 Assert
 .
 equal
@@ -476,7 +487,7 @@ available
 )
 =
 =
-366
+410
 |
 |
 body
@@ -486,7 +497,7 @@ available
 )
 =
 =
-20654
+20698
 "
 Wrong
 request
