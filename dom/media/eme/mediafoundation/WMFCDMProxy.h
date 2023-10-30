@@ -619,6 +619,13 @@ return
 this
 ;
 }
+bool
+IsHardwareDecryptionSupported
+(
+)
+const
+override
+;
 /
 /
 Can
