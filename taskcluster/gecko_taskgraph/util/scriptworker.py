@@ -527,6 +527,12 @@ beta
 "
 comm
 -
+release
+"
+            
+"
+comm
+-
 esr115
 "
         
@@ -761,6 +767,12 @@ esr115
 comm
 -
 beta
+"
+            
+"
+comm
+-
+release
 "
             
 "
@@ -1227,7 +1239,7 @@ release
 "
 comm
 -
-esr115
+release
 "
         
 }
@@ -1244,6 +1256,12 @@ esr115
             
 "
 mozilla
+-
+esr115
+"
+            
+"
+comm
 -
 esr115
 "
