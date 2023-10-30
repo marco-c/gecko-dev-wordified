@@ -437,6 +437,17 @@ include
 "
 vm
 /
+JSContext
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 -
 inl

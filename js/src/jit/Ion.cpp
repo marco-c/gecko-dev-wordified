@@ -661,6 +661,17 @@ include
 "
 vm
 /
+JSContext
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 JSScript
 -
 inl
