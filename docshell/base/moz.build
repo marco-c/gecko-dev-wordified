@@ -258,6 +258,14 @@ and
 Zooming
 "
 )
+DIRS
++
+=
+[
+"
+timeline
+"
+]
 XPIDL_SOURCES
 +
 =
