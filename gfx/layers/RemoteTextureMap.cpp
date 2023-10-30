@@ -6329,8 +6329,15 @@ or
 context
 lost
 .
+No
+need
+to
+wait
+texture
+ready
+.
 return
-false
+true
 ;
 }
 const
