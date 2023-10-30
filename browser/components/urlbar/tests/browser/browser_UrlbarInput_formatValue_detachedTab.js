@@ -371,6 +371,10 @@ UrlbarTestUtils
 checkFormatting
 (
 win
+UrlbarTestUtils
+.
+trimURL
+(
 "
 <
 https
@@ -387,6 +391,7 @@ detach
 >
 "
 )
+)
 ;
 await
 BrowserTestUtils
@@ -401,6 +406,10 @@ UrlbarTestUtils
 checkFormatting
 (
 window
+UrlbarTestUtils
+.
+trimURL
+(
 "
 <
 https
@@ -418,6 +427,7 @@ original
 tab
 >
 "
+)
 )
 ;
 gBrowser
@@ -596,6 +606,10 @@ UrlbarTestUtils
 checkFormatting
 (
 window
+UrlbarTestUtils
+.
+trimURL
+(
 "
 <
 https
@@ -613,6 +627,7 @@ original
 tab
 >
 "
+)
 )
 ;
 gBrowser
