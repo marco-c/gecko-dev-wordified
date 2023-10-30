@@ -197,6 +197,11 @@ mCompilationInfo
 aCompilationInfo
 )
 {
+MOZ_RELEASE_ASSERT
+(
+aId
+)
+;
 }
 ShaderModule
 :
