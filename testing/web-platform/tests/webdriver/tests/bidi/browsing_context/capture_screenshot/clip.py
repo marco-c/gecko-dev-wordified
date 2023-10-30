@@ -18,7 +18,7 @@ modules
 browsing_context
 import
 ElementOptions
-ViewportOptions
+BoxOptions
 from
 webdriver
 .
@@ -917,7 +917,7 @@ context
         
 clip
 =
-ViewportOptions
+BoxOptions
 (
             
 x
@@ -1101,7 +1101,7 @@ context
         
 clip
 =
-ViewportOptions
+BoxOptions
 (
             
 x
@@ -1295,7 +1295,7 @@ context
         
 clip
 =
-ViewportOptions
+BoxOptions
 (
             
 x
@@ -1659,7 +1659,7 @@ context
         
 clip
 =
-ViewportOptions
+BoxOptions
 (
             
 x
@@ -1998,7 +1998,7 @@ context
         
 clip
 =
-ViewportOptions
+BoxOptions
 (
             
 x
