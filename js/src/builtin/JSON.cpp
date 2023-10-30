@@ -11711,19 +11711,9 @@ sec
 internalizejsonproperty
 *
 /
-/
-/
-TODO
-Bug
-1860185
-rename
-to
-InternalizeJSONProperty
-(
-)
 static
 bool
-Walk
+InternalizeJSONProperty
 (
 JSContext
 *
@@ -11956,7 +11946,7 @@ iii
 if
 (
 !
-Walk
+InternalizeJSONProperty
 (
 cx
 obj
@@ -12217,7 +12207,7 @@ i
 if
 (
 !
-Walk
+InternalizeJSONProperty
 (
 cx
 obj
@@ -12497,7 +12487,7 @@ empty_
 )
 ;
 return
-Walk
+InternalizeJSONProperty
 (
 cx
 obj
