@@ -3250,10 +3250,6 @@ replace_parent_selector
 (
 &
 parent
-.
-to_shared
-(
-)
 )
 ;
 }

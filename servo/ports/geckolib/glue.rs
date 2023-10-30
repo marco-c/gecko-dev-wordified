@@ -14778,6 +14778,7 @@ selectors
 {
 Some
 (
+ref
 s
 )
 =
@@ -14788,12 +14789,7 @@ selectors
 .
 replace_parent_selector
 (
-&
 s
-.
-to_shared
-(
-)
 )
 None
 =
@@ -14879,7 +14875,9 @@ selector
 =
 selectors
 .
-0
+slice
+(
+)
 .
 get
 (
@@ -14966,8 +14964,6 @@ rule
 .
 selectors
 .
-0
-.
 len
 (
 )
@@ -15051,7 +15047,9 @@ selector
 =
 selectors
 .
-0
+slice
+(
+)
 .
 get
 (
