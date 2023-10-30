@@ -586,9 +586,6 @@ extensions
 bool
 is_stream_active
 RtpParameters
-<
-Codec
->
 *
 params
 )
@@ -715,9 +712,6 @@ RtpExtension
 Filter
 extensions_filter
 RtpSendParameters
-<
-Codec
->
 *
 send_params
 )
