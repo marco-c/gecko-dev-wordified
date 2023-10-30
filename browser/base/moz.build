@@ -581,7 +581,7 @@ tabcrashed
 /
 browser_aboutRestartRequired
 .
-ini
+toml
 "
 "
 content
