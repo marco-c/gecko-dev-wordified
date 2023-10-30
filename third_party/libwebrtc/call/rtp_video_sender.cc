@@ -3464,7 +3464,7 @@ RTC_DCHECK_RUN_ON
 transport_checker_
 )
 ;
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 rtp_streams_
 .
