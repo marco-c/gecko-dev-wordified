@@ -10,6 +10,16 @@ bug
 tests
 *
 /
+/
+*
+eslint
+-
+env
+mozilla
+/
+testharness
+*
+/
 function
 runTextDecoderBOMEnoding
 (

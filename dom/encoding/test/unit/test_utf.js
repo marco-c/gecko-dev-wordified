@@ -898,7 +898,6 @@ var
 block
 block_tag
 i
-j
 encoded
 decoded
 exp_encoded

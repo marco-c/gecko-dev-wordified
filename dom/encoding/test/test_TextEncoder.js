@@ -10,6 +10,16 @@ bug
 tests
 *
 /
+/
+*
+eslint
+-
+env
+mozilla
+/
+testharness
+*
+/
 function
 runTextEncoderTests
 (
@@ -1849,8 +1859,6 @@ expected
 [
 j
 ]
-msg
-+
 "
 Bytes
 do
