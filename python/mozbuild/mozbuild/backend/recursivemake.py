@@ -11631,12 +11631,23 @@ elif
 not
 isinstance
 (
+                
 obj
+                
 (
+                    
 HostLibrary
+                    
+HostRustProgram
+                    
+RustProgram
+                    
 StaticLibrary
+                    
 SandboxedWasmLibrary
+                
 )
+            
 )
             
 or
