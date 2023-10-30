@@ -327,7 +327,8 @@ uint8_t
 aCert
 )
 override
-;
+{
+}
 void
 UpdateSession
 (
@@ -618,13 +619,6 @@ return
 this
 ;
 }
-bool
-IsHardwareDecryptionSupported
-(
-)
-const
-override
-;
 /
 /
 Can
