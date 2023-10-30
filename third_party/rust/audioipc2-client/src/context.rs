@@ -1842,13 +1842,6 @@ from_raw_parts
 coll
 .
 device
-as
-*
-mut
-ffi
-:
-:
-cubeb_device_info
 coll
 .
 count
