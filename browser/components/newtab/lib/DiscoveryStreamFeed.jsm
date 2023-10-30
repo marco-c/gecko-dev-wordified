@@ -8969,6 +8969,11 @@ raw_image_src
 item
 .
 imageUrl
+recommendation_id
+:
+item
+.
+recommendationId
 }
 )
 )
