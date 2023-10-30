@@ -257,7 +257,6 @@ does
 .
 *
 /
-extern
 void
 FdPrintf
 (
