@@ -19673,15 +19673,6 @@ mLetterSpacing
 .
 }
 )
-mTextIndent
-(
-LengthPercentage
-:
-:
-Zero
-(
-)
-)
 mTextUnderlineOffset
 (
 LengthPercentageOrAuto

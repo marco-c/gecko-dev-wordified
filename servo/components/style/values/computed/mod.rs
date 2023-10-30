@@ -983,6 +983,7 @@ text
 InitialLetter
 LetterSpacing
 LineBreak
+TextIndent
 }
 ;
 pub

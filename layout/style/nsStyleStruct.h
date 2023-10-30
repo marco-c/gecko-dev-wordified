@@ -5810,7 +5810,7 @@ mLetterSpacing
 mozilla
 :
 :
-LengthPercentage
+StyleTextIndent
 mTextIndent
 ;
 mozilla
