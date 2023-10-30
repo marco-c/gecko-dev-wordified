@@ -4793,8 +4793,14 @@ get_ServiceWorkerNotificationEventOpArgs
 (
 )
 ;
-auto
+ErrorResult
 result
+;
+RefPtr
+<
+Notification
+>
+notification
 =
 Notification
 :
@@ -4852,6 +4858,7 @@ args
 scope
 (
 )
+result
 )
 ;
 if
@@ -4860,7 +4867,7 @@ NS_WARN_IF
 (
 result
 .
-isErr
+Failed
 (
 )
 )
@@ -4877,11 +4884,7 @@ init
 .
 mNotification
 =
-result
-.
-unwrap
-(
-)
+notification
 ;
 init
 .
