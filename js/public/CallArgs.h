@@ -2377,7 +2377,7 @@ vp
 1
 ]
 .
-isMagic
+isMagicNoReleaseCheck
 (
 JS_IS_CONSTRUCTING
 )
