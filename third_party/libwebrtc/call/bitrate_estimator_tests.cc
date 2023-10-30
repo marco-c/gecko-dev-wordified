@@ -1276,6 +1276,13 @@ Init
 (
 )
 ;
+frame_generator_capturer_
+-
+>
+Start
+(
+)
+;
 send_stream_
 -
 >
