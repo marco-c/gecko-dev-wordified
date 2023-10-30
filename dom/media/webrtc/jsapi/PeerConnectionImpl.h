@@ -3380,6 +3380,11 @@ RtpExtensionHeader
 aPreferredheaders
 )
 ;
+void
+BreakCycles
+(
+)
+;
 private
 :
 virtual
@@ -5042,11 +5047,6 @@ GetChannel
 (
 )
 const
-;
-void
-BreakCycles
-(
-)
 ;
 bool
 HasPendingSetParameters
