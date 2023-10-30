@@ -2156,11 +2156,15 @@ RtcEventLog
 EncodingType
 :
 :
-Legacy
+NewFormat
 ;
 if
 (
-IsTrialEnabled
+field_trials
+(
+)
+.
+IsDisabled
 (
 "
 WebRTC
@@ -2177,7 +2181,7 @@ RtcEventLog
 EncodingType
 :
 :
-NewFormat
+Legacy
 ;
 return
 event_log_factory_
