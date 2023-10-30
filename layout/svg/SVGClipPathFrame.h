@@ -755,11 +755,6 @@ aSingleChild
 nullptr
 )
 ;
-bool
-IsValid
-(
-)
-;
 /
 /
 nsIFrame
@@ -953,6 +948,11 @@ const
 gfxMatrix
 &
 aMatrix
+)
+;
+bool
+IsValid
+(
 )
 ;
 /
