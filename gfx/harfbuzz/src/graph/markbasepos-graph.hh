@@ -1416,7 +1416,7 @@ Layout
 GPOS_impl
 :
 :
-PairPosFormat1_3
+MarkBasePosFormat1_2
 <
 SmallTypes
 >
@@ -2986,7 +2986,7 @@ Don
 t
 split
 24bit
-PairPos
+MarkBasePos
 '
 s
 .
