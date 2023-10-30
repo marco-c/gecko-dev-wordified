@@ -1641,7 +1641,7 @@ function
 )
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )
@@ -1659,7 +1659,7 @@ function
 )
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )

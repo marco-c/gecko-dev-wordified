@@ -1279,7 +1279,7 @@ if
 fun
 &
 &
-JS_GetFunctionId
+JS_GetMaybePartialFunctionId
 (
 fun
 )
@@ -1291,7 +1291,7 @@ funId
 =
 JS_ASSERT_STRING_IS_LINEAR
 (
-JS_GetFunctionId
+JS_GetMaybePartialFunctionId
 (
 fun
 )

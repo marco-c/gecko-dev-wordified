@@ -2012,7 +2012,7 @@ func
 func
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )
@@ -2026,7 +2026,7 @@ cx
 func
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )

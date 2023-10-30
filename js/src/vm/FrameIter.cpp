@@ -3618,7 +3618,7 @@ calleeTemplate
 )
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 ;

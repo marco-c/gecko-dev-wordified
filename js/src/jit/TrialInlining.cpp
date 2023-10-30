@@ -651,7 +651,7 @@ function
 )
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )
@@ -669,7 +669,7 @@ function
 )
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )
@@ -3671,7 +3671,7 @@ if
 target
 -
 >
-displayAtom
+maybePartialDisplayAtom
 (
 )
 )
@@ -3686,7 +3686,7 @@ cx
 target
 -
 >
-displayAtom
+maybePartialDisplayAtom
 (
 )
 )

@@ -2446,7 +2446,7 @@ JSString
 *
 str
 =
-JS_GetFunctionDisplayId
+JS_GetMaybePartialFunctionDisplayId
 (
 func
 )

@@ -2147,7 +2147,7 @@ funname
 fun
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 ;

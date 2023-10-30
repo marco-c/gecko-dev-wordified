@@ -16934,7 +16934,7 @@ atom
 fun
 -
 >
-displayAtom
+fullDisplayAtom
 (
 )
 )
