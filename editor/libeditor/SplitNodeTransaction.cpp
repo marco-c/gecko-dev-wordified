@@ -1229,9 +1229,6 @@ Length
 )
 )
 aNewContent
-GetSplitNodeDirection
-(
-)
 )
 ;
 if
@@ -1556,9 +1553,6 @@ DoJoinNodes
 (
 keepingContent
 removingContent
-GetJoinNodesDirection
-(
-)
 )
 ;
 }

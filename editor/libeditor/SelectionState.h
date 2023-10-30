@@ -1382,19 +1382,6 @@ DOM
 tree
 .
 *
-param
-aSplitNodeDirection
-Whether
-aNewNode
-was
-inserted
-before
-or
-after
-*
-aOriginalContent
-.
-*
 /
 nsresult
 SelAdjSplitNode
@@ -1407,8 +1394,6 @@ aSplitOffset
 nsIContent
 &
 aNewContent
-SplitNodeDirection
-aSplitNodeDirection
 )
 ;
 /
@@ -1516,8 +1501,6 @@ const
 EditorDOMPoint
 &
 aOldPointAtRightContent
-JoinNodesDirection
-aJoinNodesDirection
 )
 ;
 void
