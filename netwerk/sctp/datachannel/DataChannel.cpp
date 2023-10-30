@@ -5293,6 +5293,12 @@ mTransportId
 aTransportId
 ;
 }
+if
+(
+!
+mConnectedToTransportHandler
+)
+{
 mTransportHandler
 -
 >
@@ -5323,6 +5329,11 @@ DataChannelConnection
 TransportStateChange
 )
 ;
+mConnectedToTransportHandler
+=
+true
+;
+}
 /
 /
 SignalStateChange

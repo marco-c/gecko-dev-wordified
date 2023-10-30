@@ -2631,6 +2631,11 @@ std
 string
 mTransportId
 ;
+bool
+mConnectedToTransportHandler
+=
+false
+;
 RefPtr
 <
 MediaTransportHandler
