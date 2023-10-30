@@ -186,7 +186,7 @@ tag
 (
 t
 )
-cipher_suite
+crypto_suite
 (
 cs
 )
@@ -220,12 +220,12 @@ params
 tag
 &
 &
-cipher_suite
+crypto_suite
 =
 =
 params
 .
-cipher_suite
+crypto_suite
 )
 ;
 }
@@ -236,7 +236,7 @@ std
 :
 :
 string
-cipher_suite
+crypto_suite
 ;
 std
 :

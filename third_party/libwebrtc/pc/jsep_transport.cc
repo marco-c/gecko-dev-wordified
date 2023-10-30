@@ -3193,14 +3193,14 @@ if
 (
 sdes_negotiator_
 .
-send_cipher_suite
+send_crypto_suite
 (
 )
 &
 &
 sdes_negotiator_
 .
-recv_cipher_suite
+recv_crypto_suite
 (
 )
 )
@@ -3226,7 +3226,7 @@ SetRtpParams
 (
 sdes_negotiator_
 .
-send_cipher_suite
+send_crypto_suite
 (
 )
 )
@@ -3262,7 +3262,7 @@ send_extension_ids_
 (
 sdes_negotiator_
 .
-recv_cipher_suite
+recv_crypto_suite
 (
 )
 )

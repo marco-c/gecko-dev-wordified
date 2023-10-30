@@ -1275,7 +1275,7 @@ tag
 crypto_out
 -
 >
-cipher_suite
+crypto_suite
 =
 cipher
 ;
@@ -1308,7 +1308,7 @@ std
 :
 string
 &
-cipher_suite
+crypto_suite
 CryptoParamsVec
 *
 cryptos_out
@@ -1344,7 +1344,7 @@ return
 CreateCryptoParams
 (
 size
-cipher_suite
+crypto_suite
 &
 cryptos_out
 -
@@ -2039,7 +2039,7 @@ IsGcmCryptoSuiteName
 (
 crypto
 .
-cipher_suite
+crypto_suite
 )
 )
 |
@@ -2052,7 +2052,7 @@ kCsAesCm128HmacSha1_80
 =
 crypto
 .
-cipher_suite
+crypto_suite
 |
 |
 (
@@ -2064,7 +2064,7 @@ kCsAesCm128HmacSha1_32
 =
 crypto
 .
-cipher_suite
+crypto_suite
 &
 &
 audio
@@ -2090,7 +2090,7 @@ crypto
 tag
 crypto
 .
-cipher_suite
+crypto_suite
 crypto_out
 )
 ;
@@ -3505,7 +3505,7 @@ the
 crypto
 params
 (
-cipher_suite
+crypto_suite
 )
 /
 /
@@ -3569,7 +3569,7 @@ the
 crypto
 '
 s
-cipher_suite
+crypto_suite
 is
 not
 /
@@ -3603,12 +3603,12 @@ if
 (
 entry
 .
-cipher_suite
+crypto_suite
 =
 =
 crypto
 .
-cipher_suite
+crypto_suite
 )
 return
 false

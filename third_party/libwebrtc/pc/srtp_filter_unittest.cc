@@ -610,7 +610,7 @@ cs1
 )
 f1_
 .
-send_cipher_suite
+send_crypto_suite
 (
 )
 )
@@ -626,7 +626,7 @@ cs2
 )
 f2_
 .
-send_cipher_suite
+send_crypto_suite
 (
 )
 )
@@ -691,7 +691,7 @@ properly
 TEST_F
 (
 SrtpFilterTest
-TestGoodSetupOneCipherSuite
+TestGoodSetupOneCryptoSuite
 )
 {
 EXPECT_TRUE
@@ -744,7 +744,7 @@ IsActive
 TEST_F
 (
 SrtpFilterTest
-TestGoodSetupOneCipherSuiteGcm
+TestGoodSetupOneCryptoSuiteGcm
 )
 {
 EXPECT_TRUE
@@ -810,7 +810,7 @@ params
 TEST_F
 (
 SrtpFilterTest
-TestGoodSetupMultipleCipherSuites
+TestGoodSetupMultipleCryptoSuites
 )
 {
 std
@@ -864,7 +864,7 @@ offer
 1
 ]
 .
-cipher_suite
+crypto_suite
 =
 kCsAesCm128HmacSha1_32
 ;
@@ -882,7 +882,7 @@ answer
 0
 ]
 .
-cipher_suite
+crypto_suite
 =
 kCsAesCm128HmacSha1_32
 ;
@@ -930,7 +930,7 @@ IsActive
 TEST_F
 (
 SrtpFilterTest
-TestGoodSetupMultipleCipherSuitesGcm
+TestGoodSetupMultipleCryptoSuitesGcm
 )
 {
 std
@@ -1046,7 +1046,7 @@ desired
 TEST_F
 (
 SrtpFilterTest
-TestGoodSetupNoCipherSuites
+TestGoodSetupNoCryptoSuites
 )
 {
 std
@@ -1112,7 +1112,7 @@ side
 TEST_F
 (
 SrtpFilterTest
-TestGoodSetupNoAnswerCipherSuites
+TestGoodSetupNoAnswerCryptoSuites
 )
 {
 std
@@ -1738,7 +1738,7 @@ offered
 TEST_F
 (
 SrtpFilterTest
-TestNoAnswerCipherSuites
+TestNoAnswerCryptoSuites
 )
 {
 std
@@ -1804,7 +1804,7 @@ answer
 TEST_F
 (
 SrtpFilterTest
-TestMultipleAnswerCipherSuites
+TestMultipleAnswerCryptoSuites
 )
 {
 std
@@ -1843,7 +1843,7 @@ answer
 1
 ]
 .
-cipher_suite
+crypto_suite
 =
 kCsAesCm128HmacSha1_32
 ;
@@ -1895,14 +1895,13 @@ don
 t
 support
 the
-cipher
--
+crypto
 suite
 .
 TEST_F
 (
 SrtpFilterTest
-TestInvalidCipherSuite
+TestInvalidCryptoSuite
 )
 {
 std
@@ -1940,14 +1939,14 @@ offer
 0
 ]
 .
-cipher_suite
+crypto_suite
 =
 answer
 [
 0
 ]
 .
-cipher_suite
+crypto_suite
 =
 "
 FOO
@@ -2092,14 +2091,13 @@ t
 agree
 on
 a
-cipher
--
+crypto
 suite
 .
 TEST_F
 (
 SrtpFilterTest
-TestNoMatchingCipherSuite
+TestNoMatchingCryptoSuite
 )
 {
 std
@@ -2146,7 +2144,7 @@ answer
 0
 ]
 .
-cipher_suite
+crypto_suite
 =
 "
 FOO
@@ -2776,7 +2774,7 @@ offer
 1
 ]
 .
-cipher_suite
+crypto_suite
 =
 kCsAesCm128HmacSha1_32
 ;
@@ -2863,7 +2861,7 @@ offer
 1
 ]
 .
-cipher_suite
+crypto_suite
 =
 kCsAesCm128HmacSha1_32
 ;
@@ -2881,7 +2879,7 @@ answer
 0
 ]
 .
-cipher_suite
+crypto_suite
 =
 kCsAesCm128HmacSha1_32
 ;
@@ -2963,7 +2961,7 @@ the
 key
 parameters
 and
-cipher_suite
+crypto_suite
 .
 offer
 [
@@ -2979,7 +2977,7 @@ offer
 0
 ]
 .
-cipher_suite
+crypto_suite
 =
 kCsAesCm128HmacSha1_32
 ;
@@ -2997,7 +2995,7 @@ answer
 0
 ]
 .
-cipher_suite
+crypto_suite
 =
 kCsAesCm128HmacSha1_32
 ;
@@ -3174,7 +3172,7 @@ offer
 1
 ]
 .
-cipher_suite
+crypto_suite
 =
 kCsAesCm128HmacSha1_32
 ;
@@ -3302,7 +3300,7 @@ answer
 0
 ]
 .
-cipher_suite
+crypto_suite
 =
 kCsAesCm128HmacSha1_32
 ;

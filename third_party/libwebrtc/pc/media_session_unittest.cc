@@ -438,7 +438,7 @@ cryptos
 0
 ]
 .
-cipher_suite
+crypto_suite
 )
 typedef
 std
@@ -3267,7 +3267,7 @@ crypto
 return
 crypto
 .
-cipher_suite
+crypto_suite
 !
 =
 kCsAeadAes256Gcm
@@ -3275,7 +3275,7 @@ kCsAeadAes256Gcm
 &
 crypto
 .
-cipher_suite
+crypto_suite
 !
 =
 kCsAeadAes128Gcm
@@ -3773,7 +3773,7 @@ c1
 i
 ]
 .
-cipher_suite
+crypto_suite
 !
 =
 c2
@@ -3781,7 +3781,7 @@ c2
 i
 ]
 .
-cipher_suite
+crypto_suite
 |
 |
 c1
@@ -4860,7 +4860,7 @@ cryptos
 0
 ]
 .
-cipher_suite
+crypto_suite
 )
 ;
 /

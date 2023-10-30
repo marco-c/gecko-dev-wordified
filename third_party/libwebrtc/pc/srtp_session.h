@@ -279,8 +279,7 @@ the
 specified
 /
 /
-cipher
--
+crypto
 suite
 and
 key
@@ -298,7 +297,7 @@ bool
 SetSend
 (
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -321,7 +320,7 @@ bool
 UpdateSend
 (
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -353,8 +352,7 @@ the
 specified
 /
 /
-cipher
--
+crypto
 suite
 and
 key
@@ -372,7 +370,7 @@ bool
 SetRecv
 (
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -395,7 +393,7 @@ bool
 UpdateRecv
 (
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -714,7 +712,7 @@ DoSetKey
 int
 type
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -739,7 +737,7 @@ SetKey
 int
 type
 int
-cs
+crypto_suite
 const
 uint8_t
 *
@@ -764,7 +762,7 @@ UpdateKey
 int
 type
 int
-cs
+crypto_suite
 const
 uint8_t
 *
