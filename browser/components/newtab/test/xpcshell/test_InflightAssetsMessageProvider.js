@@ -34,7 +34,7 @@ InflightAssetsMessageProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ common
 /
 InflightAssetsMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -95,15 +95,7 @@ export
 all
 .
 py
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-InflightAssetsMessageProvider
-"
-]
-;
+export
 const
 InflightAssetsMessageProvider
 =
@@ -139,7 +131,7 @@ protection
 -
 icon
 -
-container
+box
 "
 bucket_id
 :
@@ -331,7 +323,7 @@ protection
 -
 icon
 -
-container
+box
 "
 bucket_id
 :
