@@ -207,6 +207,9 @@ WGR
 struct
 OutputVertex
 ;
+struct
+PathBuilder
+;
 }
 namespace
 mozilla
@@ -1323,6 +1326,15 @@ bool
 mPathWGRStroke
 =
 false
+;
+WGR
+:
+:
+PathBuilder
+*
+mWGRPathBuilder
+=
+nullptr
 ;
 /
 /
