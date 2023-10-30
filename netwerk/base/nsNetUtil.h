@@ -6846,6 +6846,9 @@ mReferrerPolicy
 nsString
 mAs
 ;
+nsString
+mFetchPriority
+;
 LinkHeader
 (
 )
