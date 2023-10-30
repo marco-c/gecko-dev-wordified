@@ -353,11 +353,13 @@ void
 Start
 (
 )
+override
 ;
 void
 Stop
 (
 )
+override
 ;
 void
 ChangeResolution

@@ -285,6 +285,7 @@ enable_adaptation_
 }
 if
 (
+!
 enable_adaptation
 )
 {
@@ -294,6 +295,8 @@ OnFrame
 (
 frame
 )
+;
+return
 ;
 }
 if
