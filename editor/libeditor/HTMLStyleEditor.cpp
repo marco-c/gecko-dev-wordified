@@ -6440,11 +6440,6 @@ SplitNodeResult
 NotHandled
 (
 atEnd
-aHTMLEditor
-.
-GetSplitNodeDirection
-(
-)
 )
 ;
 }
@@ -6641,11 +6636,6 @@ SplitNodeResult
 NotHandled
 (
 atStart
-aHTMLEditor
-.
-GetSplitNodeDirection
-(
-)
 )
 ;
 }
@@ -16278,9 +16268,6 @@ SplitNodeResult
 NotHandled
 (
 aPointToSplit
-GetSplitNodeDirection
-(
-)
 )
 ;
 }
@@ -16583,9 +16570,6 @@ SplitNodeResult
 NotHandled
 (
 aPointToSplit
-GetSplitNodeDirection
-(
-)
 )
 ;
 MOZ_ASSERT
