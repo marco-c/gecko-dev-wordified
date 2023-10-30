@@ -1894,13 +1894,6 @@ needed
 }
 else
 {
-BlockTrampolinePoolScope
-block_trampoline_pool
-(
-this
-0
-)
-;
 temp_reg
 =
 temps

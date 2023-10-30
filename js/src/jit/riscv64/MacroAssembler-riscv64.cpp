@@ -14066,7 +14066,7 @@ block_trampoline_pool
 (
 &
 masm
-4
+5
 )
 ;
 if
@@ -14581,7 +14581,7 @@ block_trampoline_pool
 (
 &
 masm
-4
+5
 )
 ;
 if
@@ -14772,7 +14772,7 @@ block_trampoline_pool
 (
 &
 masm
-4
+5
 )
 ;
 if
@@ -36786,6 +36786,9 @@ scratch
 )
 ;
 }
+return
+fco
+;
 }
 FaultingCodeOffset
 MacroAssemblerRiscv64
