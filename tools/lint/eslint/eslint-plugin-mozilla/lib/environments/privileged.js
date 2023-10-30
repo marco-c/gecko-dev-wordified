@@ -1214,6 +1214,9 @@ false
 MediaStreamTrack
 :
 false
+MediaStreamTrackAudioSourceNode
+:
+false
 MediaStreamTrackEvent
 :
 false
