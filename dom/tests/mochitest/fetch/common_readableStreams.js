@@ -2386,8 +2386,6 @@ data
 message
 )
 ;
-return
-;
 }
 }
 ;

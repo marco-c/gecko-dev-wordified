@@ -171,7 +171,6 @@ interception
 return
 ;
 }
-else
 if
 (
 mode
@@ -213,8 +212,6 @@ event
 request
 )
 )
-;
-return
 ;
 }
 }

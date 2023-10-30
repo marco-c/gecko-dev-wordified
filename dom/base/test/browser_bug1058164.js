@@ -912,8 +912,6 @@ waiting
 return
 ;
 }
-else
-{
 rmvHide
 (
 )
@@ -962,7 +960,6 @@ resolve
 (
 )
 ;
-}
 }
 ;
 let
