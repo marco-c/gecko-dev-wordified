@@ -1732,7 +1732,7 @@ ScrollbarFadeDuration
 :
 aResult
 =
-300
+0
 ;
 break
 ;
