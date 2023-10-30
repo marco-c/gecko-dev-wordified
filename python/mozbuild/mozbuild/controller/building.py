@@ -2658,6 +2658,10 @@ record_usage
             
 return
         
+build_resources_profile_path
+=
+None
+        
 try
 :
             
@@ -2883,6 +2887,52 @@ msg
 "
             
 )
+            
+try
+:
+                
+if
+build_resources_profile_path
+and
+os
+.
+path
+.
+exists
+(
+                    
+build_resources_profile_path
+                
+)
+:
+                    
+os
+.
+remove
+(
+build_resources_profile_path
+)
+            
+except
+Exception
+:
+                
+#
+In
+case
+there
+'
+s
+an
+exception
+for
+some
+reason
+ignore
+it
+.
+                
+pass
     
 def
 _get_finder_cpu_usage
