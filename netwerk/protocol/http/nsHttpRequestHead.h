@@ -435,6 +435,10 @@ Headers
 (
 )
 const
+MOZ_REQUIRES
+(
+mRecursiveMutex
+)
 ;
 void
 Enter
