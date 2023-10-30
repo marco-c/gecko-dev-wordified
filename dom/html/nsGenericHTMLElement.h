@@ -1344,7 +1344,7 @@ void
 FocusCandidate
 (
 Element
-&
+*
 bool
 aClearUpFocus
 )

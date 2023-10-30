@@ -831,7 +831,6 @@ this
 }
 FocusCandidate
 (
-*
 control
 IsInTopLayer
 (
