@@ -4559,7 +4559,7 @@ re
 .
 compile
 (
-b
+rb
 "
 .
 *
