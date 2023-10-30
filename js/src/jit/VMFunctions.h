@@ -2062,6 +2062,12 @@ return
 count
 ;
 }
+size_t
+sizeOfOutParamStackSlot
+(
+)
+const
+;
 constexpr
 VMFunctionData
 (
