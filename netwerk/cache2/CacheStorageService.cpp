@@ -7590,6 +7590,12 @@ mPurgeTimer
 =
 nullptr
 ;
+if
+(
+!
+mShutdown
+)
+{
 nsCOMPtr
 <
 nsIRunnable
@@ -7620,6 +7626,7 @@ Dispatch
 event
 )
 ;
+}
 }
 return
 NS_OK
