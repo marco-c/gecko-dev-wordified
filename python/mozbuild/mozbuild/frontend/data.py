@@ -3564,16 +3564,15 @@ target_var
 rust_build_kind
 )
 #
+We
+pretend
 Rust
 programs
-aren
-'
-t
-really
+are
 Linkable
-since
+despite
 Cargo
-handles
+handling
 all
 the
 details
@@ -3582,10 +3581,20 @@ of
 linking
 things
 .
+This
+is
+used
+to
+declare
+in
+-
+tree
+dependencies
+.
 class
 BaseRustProgram
 (
-ContextDerived
+Linkable
 )
 :
     
@@ -3629,7 +3638,7 @@ cargo_file
 )
 :
         
-ContextDerived
+Linkable
 .
 __init__
 (

@@ -3898,6 +3898,14 @@ obj
 backend_file
 )
             
+self
+.
+_process_linked_libraries
+(
+obj
+backend_file
+)
+            
 #
 Hook
 the
@@ -3944,6 +3952,14 @@ HostRustProgram
 self
 .
 _process_host_rust_program
+(
+obj
+backend_file
+)
+            
+self
+.
+_process_linked_libraries
 (
 obj
 backend_file

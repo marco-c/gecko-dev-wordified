@@ -165,3 +165,11 @@ rpath
 executable_path
 "
 ]
+USE_LIBS
++
+=
+[
+"
+nss
+"
+]
