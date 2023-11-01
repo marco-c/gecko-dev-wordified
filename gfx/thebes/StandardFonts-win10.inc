@@ -1043,6 +1043,15 @@ Hebrew
 Supplemental
 Fonts
 "
+Miriam
+Fixed
+"
+/
+/
+Hebrew
+Supplemental
+Fonts
+"
 MoolBoran
 "
 /
