@@ -891,7 +891,7 @@ PUPPETEER_SKIP_DOWNLOAD
 "
 }
         
-npm
+run_npm
 (
             
 "
@@ -1105,7 +1105,7 @@ pipe_err
 return
 out
 def
-npm
+run_npm
 (
 *
 args
@@ -1118,7 +1118,53 @@ kwargs
 from
 mozprocess
 import
-processhandler
+run_and_wait
+    
+def
+output_timeout_handler
+(
+proc
+)
+:
+        
+#
+In
+some
+cases
+we
+wait
+longer
+for
+a
+mocha
+timeout
+        
+print
+(
+            
+"
+Timed
+out
+after
+{
+}
+seconds
+of
+no
+output
+"
+.
+format
+(
+kwargs
+[
+"
+output_timeout
+"
+]
+)
+        
+)
     
 env
 =
@@ -1169,47 +1215,66 @@ env
 proc_kwargs
 =
 {
+"
+output_timeout_handler
+"
+:
+output_timeout_handler
 }
     
+for
+kw
+in
+[
+"
+output_line_handler
+"
+"
+output_timeout
+"
+]
+:
+        
 if
-"
-processOutputLine
-"
+kw
 in
 kwargs
 :
-        
+            
 proc_kwargs
 [
-"
-processOutputLine
-"
+kw
 ]
 =
 kwargs
 [
-"
-processOutputLine
-"
+kw
 ]
     
-p
-=
-processhandler
-.
-ProcessHandler
-(
-        
 cmd
 =
+[
 npm
-        
-args
-=
+]
+    
+cmd
+.
+extend
+(
 list
 (
 args
 )
+)
+    
+p
+=
+run_and_wait
+(
+        
+args
+=
+cmd
         
 cwd
 =
@@ -1226,7 +1291,7 @@ env
 =
 env
         
-universal_newlines
+text
 =
 True
         
@@ -1236,23 +1301,7 @@ proc_kwargs
     
 )
     
-if
-not
-kwargs
-.
-get
-(
-"
-wait
-"
-True
-)
-:
-        
-return
-p
-    
-wait_proc
+post_wait_proc
 (
 p
 cmd
@@ -1276,7 +1325,7 @@ p
 .
 returncode
 def
-wait_proc
+post_wait_proc
 (
 p
 cmd
@@ -1285,69 +1334,17 @@ None
 exit_on_fail
 =
 True
-output_timeout
-=
-None
 )
 :
     
-try
-:
-        
-p
-.
-run
-(
-outputTimeout
-=
-output_timeout
-)
-        
-p
-.
-wait
-(
-)
-        
 if
 p
 .
-timedOut
-:
-            
-#
-In
-some
-cases
-we
-wait
-longer
-for
-a
-mocha
-timeout
-            
-print
+poll
 (
-"
-Timed
-out
-after
-{
-}
-seconds
-of
-no
-output
-"
-.
-format
-(
-output_timeout
 )
-)
-    
-finally
+is
+None
 :
         
 p
@@ -1595,9 +1592,30 @@ def
 __call__
 (
 self
+proc
 line
 )
 :
+        
+self
+.
+proc
+=
+proc
+        
+line
+=
+line
+.
+rstrip
+(
+"
+\
+r
+\
+n
+"
+)
         
 event
 =
@@ -3387,9 +3405,9 @@ logger
 expectations
 )
         
-proc
+return_code
 =
-npm
+run_npm
 (
             
 *
@@ -3405,22 +3423,10 @@ env
 =
 env
             
-processOutputLine
+output_line_handler
 =
 output_handler
             
-wait
-=
-False
-        
-)
-        
-output_handler
-.
-proc
-=
-proc
-        
 #
 Puppeteer
 unit
@@ -3437,7 +3443,7 @@ processes
 in
 case
 of
-        
+            
 #
 failure
 so
@@ -3447,19 +3453,15 @@ output_timeout
 as
 a
 fallback
-        
-wait_proc
-(
-proc
-"
-npm
-"
+            
 output_timeout
 =
 60
+            
 exit_on_fail
 =
 False
+        
 )
         
 output_handler
@@ -3503,9 +3505,7 @@ the
 tests
         
 if
-proc
-.
-returncode
+return_code
 !
 =
 0
@@ -3524,9 +3524,7 @@ code
 s
 "
 %
-proc
-.
-returncode
+return_code
 )
         
 if
@@ -4912,7 +4910,7 @@ not
 ci
 :
         
-npm
+run_npm
 (
             
 "
@@ -4949,7 +4947,7 @@ else
 install
 "
     
-npm
+run_npm
 (
 command
 cwd
@@ -4960,7 +4958,7 @@ env
 env
 )
     
-npm
+run_npm
 (
         
 "
