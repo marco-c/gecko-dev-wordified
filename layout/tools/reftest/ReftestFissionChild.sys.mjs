@@ -1,12 +1,4 @@
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ReftestFissionChild
-"
-]
-;
+export
 class
 ReftestFissionChild
 extends
