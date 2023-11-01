@@ -195,6 +195,11 @@ iab_category
 -
 Shopping
 "
+icon
+:
+"
+1234
+"
 }
 {
 id
@@ -269,6 +274,11 @@ iab_category
 5
 -
 Education
+"
+icon
+:
+"
+1234
 "
 }
 ]
@@ -370,7 +380,7 @@ QuickSuggestTestUtils
 ensureQuickSuggestInit
 (
 {
-remoteSettingsResults
+remoteSettingsRecords
 :
 [
 {
