@@ -23369,6 +23369,15 @@ frame
 IsPlaceholderFrame
 (
 )
+&
+&
+!
+frame
+-
+>
+IsPageBreakFrame
+(
+)
 )
 {
 nextPageName
