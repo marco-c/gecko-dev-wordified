@@ -121,6 +121,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 use
 -
 returnValue

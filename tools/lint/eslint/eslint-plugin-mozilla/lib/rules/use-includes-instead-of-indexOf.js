@@ -115,6 +115,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 use
 -
 includes

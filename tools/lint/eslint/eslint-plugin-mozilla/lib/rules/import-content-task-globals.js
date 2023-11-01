@@ -225,6 +225,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 import
 -
 content

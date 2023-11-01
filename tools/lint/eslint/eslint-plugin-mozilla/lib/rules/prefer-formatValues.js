@@ -200,6 +200,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 prefer
 -
 formatValues

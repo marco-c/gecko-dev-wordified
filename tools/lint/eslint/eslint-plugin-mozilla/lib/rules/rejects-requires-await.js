@@ -117,6 +117,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 requires

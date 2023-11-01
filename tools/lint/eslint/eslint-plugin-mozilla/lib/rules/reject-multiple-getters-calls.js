@@ -182,6 +182,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 multiple

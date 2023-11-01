@@ -127,6 +127,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 some

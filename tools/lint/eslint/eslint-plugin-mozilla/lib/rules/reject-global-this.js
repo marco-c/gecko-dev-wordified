@@ -293,6 +293,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 global

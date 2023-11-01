@@ -361,6 +361,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 use
 -
 chromeutils

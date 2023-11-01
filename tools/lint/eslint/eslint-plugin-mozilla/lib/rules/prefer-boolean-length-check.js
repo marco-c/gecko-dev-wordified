@@ -441,6 +441,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 prefer
 -
 boolean

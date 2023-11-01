@@ -197,6 +197,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 import
 -
 browser

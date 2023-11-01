@@ -117,6 +117,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 avoid
 -
 Date

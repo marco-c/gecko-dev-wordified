@@ -128,6 +128,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 balanced
 -
 observers

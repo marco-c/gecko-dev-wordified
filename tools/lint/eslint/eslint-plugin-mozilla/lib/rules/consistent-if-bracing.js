@@ -118,6 +118,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 consistent
 -
 if

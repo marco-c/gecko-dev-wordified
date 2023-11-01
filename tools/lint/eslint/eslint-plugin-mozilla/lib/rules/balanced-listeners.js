@@ -176,6 +176,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 balanced
 -
 listeners

@@ -146,6 +146,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 lazy
 -
 getter

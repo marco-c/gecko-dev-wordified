@@ -317,6 +317,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 no
 -
 throw

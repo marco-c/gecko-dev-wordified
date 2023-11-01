@@ -115,6 +115,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 no
 -
 compare

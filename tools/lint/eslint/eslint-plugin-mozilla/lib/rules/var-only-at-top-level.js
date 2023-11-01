@@ -135,6 +135,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 var
 -
 only

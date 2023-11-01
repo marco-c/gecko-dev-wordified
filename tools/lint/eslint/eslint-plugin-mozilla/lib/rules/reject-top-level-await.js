@@ -130,6 +130,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 top

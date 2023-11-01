@@ -138,6 +138,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 use
 -
 services

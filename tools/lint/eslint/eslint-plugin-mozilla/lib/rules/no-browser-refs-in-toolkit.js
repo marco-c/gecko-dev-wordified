@@ -136,6 +136,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 no
 -
 browser

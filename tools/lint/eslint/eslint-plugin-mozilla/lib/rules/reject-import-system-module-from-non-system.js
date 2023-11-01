@@ -105,6 +105,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 import

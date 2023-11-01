@@ -148,6 +148,8 @@ plugin
 -
 mozilla
 /
+rules
+/
 reject
 -
 importGlobalProperties
