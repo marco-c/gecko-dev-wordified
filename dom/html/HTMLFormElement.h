@@ -3828,6 +3828,12 @@ MaybeFireFormRemoved
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+ReportInvalidUnfocusableElements
+(
+)
+;
 ~
 HTMLFormElement
 (
