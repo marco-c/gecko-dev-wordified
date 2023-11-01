@@ -183,7 +183,7 @@ mozilla
 NS_IMPL_ISUPPORTS
 (
 ClipboardWriteRequestParent
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 )
 ClipboardWriteRequestParent
 :

@@ -3704,7 +3704,7 @@ ClipboardWriteCallback
 final
 :
 public
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 {
 public
 :
@@ -3767,7 +3767,7 @@ aClipboardItem
 }
 /
 /
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 NS_IMETHOD
 OnComplete
 (
@@ -3956,7 +3956,7 @@ mClipboardItem
 NS_IMPL_ISUPPORTS
 (
 ClipboardWriteCallback
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 )
 }
 /

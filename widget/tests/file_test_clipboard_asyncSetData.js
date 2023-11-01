@@ -570,7 +570,7 @@ generateQI
 (
 [
 "
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 "
 ]
 )

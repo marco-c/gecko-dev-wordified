@@ -132,7 +132,7 @@ final
 public
 PClipboardWriteRequestParent
 public
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 {
 using
 IPCResult
@@ -159,7 +159,7 @@ ContentParent
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIASYNCSETCLIPBOARDDATACALLBACK
+NS_DECL_NSIASYNCCLIPBOARDREQUESTCALLBACK
 explicit
 ClipboardWriteRequestParent
 (

@@ -419,7 +419,7 @@ if
 (
 nsCOMPtr
 <
-nsIAsyncSetClipboardDataCallback
+nsIAsyncClipboardRequestCallback
 >
 callback
 =
