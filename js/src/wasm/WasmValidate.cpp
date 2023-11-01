@@ -11677,9 +11677,7 @@ return
 false
 ;
 }
-if
-(
-!
+return
 DecodeFunctionBodyExprs
 (
 env
@@ -11691,14 +11689,6 @@ bodySize
 &
 d
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 /

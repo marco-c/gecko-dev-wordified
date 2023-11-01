@@ -21172,9 +21172,7 @@ return
 false
 ;
 }
-if
-(
-!
+return
 codeRanges
 -
 >
@@ -21191,14 +21189,6 @@ funcIndex
 )
 jitOffsets
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 bool
