@@ -1284,6 +1284,7 @@ struct
 VP8_COMP
 *
 cpi
+const
 VP8_CONFIG
 *
 oxcf

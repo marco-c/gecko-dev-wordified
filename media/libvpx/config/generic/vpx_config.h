@@ -176,6 +176,10 @@ HAVE_NEON_I8MM
 0
 #
 define
+HAVE_SVE
+0
+#
+define
 HAVE_MIPS32
 0
 #

@@ -2192,6 +2192,9 @@ vpx_atomic_int
 mt_current_mb_col
 ;
 int
+mt_current_mb_col_size
+;
+int
 mt_sync_range
 ;
 vpx_atomic_int
@@ -3003,6 +3006,7 @@ vp8_reset_temporal_layer_change
 VP8_COMP
 *
 cpi
+const
 VP8_CONFIG
 *
 oxcf
@@ -3017,6 +3021,7 @@ vp8_init_temporal_layer_context
 VP8_COMP
 *
 cpi
+const
 VP8_CONFIG
 *
 oxcf
