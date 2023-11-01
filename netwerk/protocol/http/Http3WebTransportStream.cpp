@@ -3646,10 +3646,7 @@ Http3WebTransportStream
 :
 SetSendOrder
 (
-Maybe
-<
 int64_t
->
 aSendOrder
 )
 {
