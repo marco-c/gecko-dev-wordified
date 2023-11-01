@@ -399,18 +399,6 @@ enabled
 "
 true
 ]
-[
-"
-media
-.
-autoplay
-.
-block
--
-webaudio
-"
-true
-]
 ]
 }
 )
@@ -572,7 +560,7 @@ blank
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -877,7 +865,7 @@ blank
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
