@@ -432,11 +432,6 @@ SOURCES
 =
 [
 "
-IdlePeriodState
-.
-cpp
-"
-"
 IdleTaskRunner
 .
 cpp
@@ -473,6 +468,11 @@ cpp
 "
 "
 EventQueue
+.
+cpp
+"
+"
+IdlePeriodState
 .
 cpp
 "
