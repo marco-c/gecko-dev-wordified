@@ -4721,10 +4721,11 @@ study
 *
 *
 param
+{
+string
+}
 [
-studyAddonid
-=
-undefined
+studyAddonId
 ]
 -
 optional
