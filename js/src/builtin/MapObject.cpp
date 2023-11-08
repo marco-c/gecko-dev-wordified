@@ -2092,6 +2092,10 @@ allocateBufferSameLocation
 (
 iterobj
 BufferSize
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -2152,6 +2156,10 @@ allocateBufferSameLocation
 (
 iterobj
 BufferSize
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -7958,6 +7966,10 @@ allocateBufferSameLocation
 (
 iterobj
 BufferSize
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -8018,6 +8030,10 @@ allocateBufferSameLocation
 (
 iterobj
 BufferSize
+js
+:
+:
+MallocArena
 )
 ;
 if
