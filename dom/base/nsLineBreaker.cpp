@@ -1977,7 +1977,7 @@ aLength
 &
 &
 !
-IsSpace
+IsSegmentSpace
 (
 aText
 [
@@ -2319,7 +2319,7 @@ offset
 ;
 if
 (
-IsSpace
+IsSegmentSpace
 (
 aText
 [
@@ -2402,7 +2402,7 @@ offset
 bool
 isSpace
 =
-IsSpace
+IsSegmentSpace
 (
 ch
 )
@@ -3147,7 +3147,7 @@ aLength
 &
 &
 !
-IsSpace
+IsSegmentSpace
 (
 aText
 [
@@ -3420,7 +3420,7 @@ offset
 ;
 if
 (
-IsSpace
+IsSegmentSpace
 (
 aText
 [
@@ -3461,7 +3461,7 @@ offset
 bool
 isSpace
 =
-IsSpace
+IsSegmentSpace
 (
 ch
 )
