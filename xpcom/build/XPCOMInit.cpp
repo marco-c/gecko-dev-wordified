@@ -457,6 +457,13 @@ h
 #
 include
 "
+nsLanguageAtomService
+.
+h
+"
+#
+include
+"
 nsSystemInfo
 .
 h
@@ -4851,6 +4858,13 @@ nsCategoryManager
 :
 :
 Destroy
+(
+)
+;
+nsLanguageAtomService
+:
+:
+Shutdown
 (
 )
 ;
