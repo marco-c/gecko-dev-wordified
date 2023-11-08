@@ -2461,7 +2461,7 @@ feature
 callout
 screen
 *
-return
+returns
 {
 string
 }
@@ -2526,6 +2526,7 @@ to
 be
 shown
 *
+*
 param
 {
 Document
@@ -2541,7 +2542,7 @@ appears
 *
 param
 {
-String
+string
 }
 screenPostfix
 The
@@ -2855,8 +2856,12 @@ param
 {
 string
 }
-Message
 id
+*
+The
+message
+id
+.
 *
 /
 const
@@ -3200,9 +3205,10 @@ telemetry
 object
 .
 *
+*
 param
 {
-Object
+object
 }
 expectedData
 *
@@ -3352,7 +3358,7 @@ string
 }
 url
 *
-return
+returns
 {
 Promise
 }
@@ -3706,7 +3712,7 @@ window
 instance
 .
 *
-return
+returns
 {
 Promise
 <
@@ -3895,6 +3901,8 @@ param
 {
 Array
 }
+eventDetails
+*
 Nested
 array
 of
