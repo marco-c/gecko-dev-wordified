@@ -1542,7 +1542,7 @@ Event
 listeners
 panel
 is
-collapse
+collapsed
 expand
 it
 findElementWithSelector
@@ -1557,7 +1557,9 @@ pane
 .
 _header
 .
-arrow
+header
+-
+label
 )
 .
 click
