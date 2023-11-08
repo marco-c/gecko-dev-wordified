@@ -67,15 +67,11 @@ included
 {
 locales
 :
-{
-matches
-:
 [
 "
 de
 "
 ]
-}
 }
 ]
 }

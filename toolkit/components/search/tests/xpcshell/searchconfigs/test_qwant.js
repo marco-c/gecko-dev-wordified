@@ -70,15 +70,11 @@ included
 {
 locales
 :
-{
-matches
-:
 [
 "
 fr
 "
 ]
-}
 }
 ]
 }
