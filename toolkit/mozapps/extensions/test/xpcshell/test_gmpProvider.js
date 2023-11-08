@@ -148,7 +148,7 @@ defineLazyGetter
 (
 this
 "
-pluginsBundle
+addonsBundle
 "
 (
 )
@@ -163,7 +163,7 @@ toolkit
 /
 about
 /
-aboutPlugins
+aboutAddons
 .
 ftl
 "
@@ -706,7 +706,7 @@ let
 name
 =
 await
-pluginsBundle
+addonsBundle
 .
 formatValue
 (
@@ -729,7 +729,7 @@ let
 description
 =
 await
-pluginsBundle
+addonsBundle
 .
 formatValue
 (
@@ -1171,7 +1171,7 @@ let
 name
 =
 await
-pluginsBundle
+addonsBundle
 .
 formatValue
 (

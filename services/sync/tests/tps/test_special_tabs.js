@@ -174,7 +174,7 @@ uri
 "
 about
 :
-plugins
+robots
 "
 title
 :
@@ -451,7 +451,7 @@ uri
 "
 about
 :
-plugins
+robots
 "
 title
 :

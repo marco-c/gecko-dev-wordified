@@ -116,7 +116,7 @@ config
 "
 about
 :
-plugins
+robots
 "
 "
 about
