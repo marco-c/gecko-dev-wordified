@@ -246,7 +246,12 @@ DataPipeReceiver
 receiver
 DataPipeSender
 *
-sender
+aSender
+Maybe
+<
+int64_t
+>
+aSendOrder
 ErrorResult
 &
 aRv
@@ -338,7 +343,8 @@ Create
 aWebTransport
 aGlobal
 aStreamId
-sender
+aSender
+aSendOrder
 aRv
 )
 ;
