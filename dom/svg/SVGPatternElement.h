@@ -335,10 +335,6 @@ HasValidDimensions
 const
 override
 ;
-virtual
-mozilla
-:
-:
 SVGAnimatedTransformList
 *
 GetAnimatedTransformList
@@ -468,7 +464,6 @@ GetStringInfo
 )
 override
 ;
-virtual
 SVGAnimatedPreserveAspectRatio
 *
 GetAnimatedPreserveAspectRatio
@@ -525,9 +520,6 @@ sEnumInfo
 ;
 UniquePtr
 <
-mozilla
-:
-:
 SVGAnimatedTransformList
 >
 mPatternTransform

@@ -974,9 +974,6 @@ imageLoader
 =
 do_QueryInterface
 (
-nsIFrame
-:
-:
 mContent
 )
 ;

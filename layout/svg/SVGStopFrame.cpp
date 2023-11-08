@@ -314,7 +314,6 @@ interface
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -346,7 +345,6 @@ aLists
 override
 {
 }
-virtual
 nsresult
 AttributeChanged
 (

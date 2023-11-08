@@ -358,7 +358,6 @@ endif
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -376,7 +375,6 @@ override
 ;
 #
 endif
-virtual
 nsresult
 AttributeChanged
 (

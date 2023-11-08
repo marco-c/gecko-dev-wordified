@@ -255,7 +255,6 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 SVGFEUnstyledLeafFrame
 )
-virtual
 void
 BuildDisplayList
 (
@@ -335,7 +334,6 @@ aResult
 }
 #
 endif
-virtual
 nsresult
 AttributeChanged
 (

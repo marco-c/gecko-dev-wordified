@@ -341,7 +341,6 @@ SVGViewFrame
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -424,7 +423,6 @@ aResult
 }
 #
 endif
-virtual
 nsresult
 AttributeChanged
 (

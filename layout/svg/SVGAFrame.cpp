@@ -255,7 +255,6 @@ SVGAFrame
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -277,7 +276,6 @@ endif
 /
 nsIFrame
 :
-virtual
 nsresult
 AttributeChanged
 (

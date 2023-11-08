@@ -292,7 +292,6 @@ SVGSwitchFrame
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -337,7 +336,6 @@ aResult
 }
 #
 endif
-virtual
 void
 BuildDisplayList
 (
@@ -356,7 +354,6 @@ override
 ISVGDisplayableFrame
 interface
 :
-virtual
 void
 PaintSVG
 (
@@ -390,7 +387,6 @@ ReflowSVG
 )
 override
 ;
-virtual
 SVGBBox
 GetBBoxContribution
 (
