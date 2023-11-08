@@ -894,9 +894,7 @@ increment
 unit
 *
 roundingMode
-[
-relativeTo
-]
+zonedRelativeTo
 )
 *
 /
@@ -955,7 +953,10 @@ unit
 roundingMode
 [
 *
-relativeTo
+plainRelativeTo
+[
+zonedRelativeTo
+]
 ]
 )
 *
@@ -1003,7 +1004,10 @@ unit
 roundingMode
 [
 *
-relativeTo
+plainRelativeTo
+[
+zonedRelativeTo
+]
 ]
 )
 *
@@ -1035,7 +1039,7 @@ PlainDateObject
 *
 >
 >
-relativeTo
+plainRelativeTo
 Duration
 *
 result
@@ -1063,7 +1067,10 @@ unit
 roundingMode
 [
 *
-relativeTo
+plainRelativeTo
+[
+zonedRelativeTo
+]
 ]
 )
 *
@@ -1092,7 +1099,7 @@ Handle
 ZonedDateTimeObject
 *
 >
-relativeTo
+zonedRelativeTo
 Duration
 *
 result
