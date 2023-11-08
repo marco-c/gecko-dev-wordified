@@ -9063,6 +9063,13 @@ function
 pauseDebugger
 (
 dbg
+options
+=
+{
+shouldWaitForLoadScopes
+:
+true
+}
 )
 {
 info
@@ -9082,6 +9089,8 @@ onPaused
 waitForPaused
 (
 dbg
+null
+options
 )
 ;
 SpecialPowers
