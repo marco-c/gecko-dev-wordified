@@ -143,9 +143,13 @@ equals
 (
 arg
 )
-"
 A
 number
+(
+{
+arg
+}
+)
 is
 not
 a
@@ -154,7 +158,6 @@ ISO
 string
 for
 PlainDateTime
-"
 )
 ;
 }

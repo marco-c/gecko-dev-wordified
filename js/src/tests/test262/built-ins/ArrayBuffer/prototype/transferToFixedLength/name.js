@@ -234,7 +234,7 @@ transferToFixedLength
 enumerable
 :
 false
-wrtiable
+writable
 :
 false
 configurable

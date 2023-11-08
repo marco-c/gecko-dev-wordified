@@ -145,9 +145,6 @@ units
 =
 [
 "
-day
-"
-"
 hour
 "
 "
@@ -190,6 +187,9 @@ round
 (
 {
 smallestUnit
+roundingIncrement
+:
+2
 }
 )
 )

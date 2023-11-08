@@ -866,6 +866,13 @@ string
 ;
 }
 }
+if
+(
+!
+nonMatchStrings
+)
+return
+;
 const
 allNonMatchStrings
 =

@@ -21,9 +21,9 @@ getBuildConfiguration
 &
 getBuildConfiguration
 (
-"
+'
 decorators
-"
+'
 )
 )
 )

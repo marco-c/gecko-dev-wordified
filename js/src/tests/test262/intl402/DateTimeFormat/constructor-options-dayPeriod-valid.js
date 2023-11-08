@@ -34,7 +34,7 @@ esid
 :
 sec
 -
-initializedatetimeformat
+createdatetimeformat
 description
 :
 >
@@ -69,11 +69,13 @@ short
 "
 long
 "
-InitializeDateTimeFormat
+CreateDateTimeFormat
 (
 dateTimeFormat
 locales
 options
+required
+defaults
 )
 .
 .

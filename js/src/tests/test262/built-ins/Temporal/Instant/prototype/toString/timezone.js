@@ -74,6 +74,7 @@ prototype
 tostring
 description
 :
+>
 Passing
 a
 TimeZone
@@ -81,7 +82,6 @@ to
 options
 calls
 getOffsetNanosecondsFor
-twice
 but
 not
 toString
@@ -132,18 +132,6 @@ has
 timeZone
 .
 id
-"
-"
-get
-timeZone
-.
-getOffsetNanosecondsFor
-"
-"
-call
-timeZone
-.
-getOffsetNanosecondsFor
 "
 "
 get

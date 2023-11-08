@@ -239,7 +239,7 @@ true
 enumerable
 :
 false
-writeable
+writable
 :
 true
 value

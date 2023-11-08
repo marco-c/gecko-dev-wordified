@@ -109,11 +109,6 @@ Duration
 )
 ;
 const
-calendar
-=
-19970327
-;
-const
 numbers
 =
 [
@@ -178,9 +173,13 @@ Duration
 relativeTo
 }
 )
-"
 A
 number
+(
+{
+calendar
+}
+)
 is
 not
 a
@@ -191,7 +190,6 @@ for
 relativeTo
 .
 calendar
-"
 )
 ;
 }

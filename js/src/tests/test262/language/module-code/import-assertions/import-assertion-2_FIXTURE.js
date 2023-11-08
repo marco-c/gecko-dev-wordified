@@ -42,10 +42,8 @@ the
 LICENSE
 file
 .
-globalThis
-.
-test262
-=
+export
+default
 262
 .
 2
