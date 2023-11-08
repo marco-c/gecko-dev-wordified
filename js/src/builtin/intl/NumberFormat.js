@@ -1688,7 +1688,7 @@ DefaultNumberOption
 (
 mnfd
 0
-20
+100
 undefined
 )
 ;
@@ -1707,7 +1707,7 @@ DefaultNumberOption
 (
 mxfd
 0
-20
+100
 undefined
 )
 ;
@@ -3342,7 +3342,7 @@ minimumFractionDigits
 integer
 [
 0
-20
+100
 ]
 /
 /
@@ -3351,7 +3351,7 @@ maximumFractionDigits
 integer
 [
 0
-20
+100
 ]
 /
 /

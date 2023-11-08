@@ -851,7 +851,7 @@ minimumFractionDigits
 integer
 [
 0
-20
+100
 ]
 /
 /
@@ -860,7 +860,7 @@ maximumFractionDigits
 integer
 [
 0
-20
+100
 ]
 /
 /
