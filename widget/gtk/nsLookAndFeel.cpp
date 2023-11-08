@@ -5704,6 +5704,10 @@ IntID
 PrefersReducedMotion
 :
 {
+EnsureInit
+(
+)
+;
 aResult
 =
 mPrefersReducedMotion
