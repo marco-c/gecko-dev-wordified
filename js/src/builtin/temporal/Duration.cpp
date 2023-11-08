@@ -22758,7 +22758,7 @@ g
 .
 Rooted
 <
-JSObject
+PlainObject
 *
 >
 dateOptions
