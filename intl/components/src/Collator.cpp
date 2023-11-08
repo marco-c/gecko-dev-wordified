@@ -1216,7 +1216,7 @@ Collator
 AlternateHandling
 :
 :
-Default
+NonIgnorable
 )
 ;
 if
