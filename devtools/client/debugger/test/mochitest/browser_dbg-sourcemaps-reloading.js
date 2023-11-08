@@ -266,17 +266,6 @@ js
 "
 )
 ;
-await
-waitForDispatch
-(
-dbg
-.
-store
-"
-ADD_INLINE_PREVIEW
-"
-)
-;
 assertPausedAtSourceAndLine
 (
 dbg
