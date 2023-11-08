@@ -14746,9 +14746,6 @@ PlainDateTimeObject
 dateTime
 (
 cx
-temporal
-:
-:
 GetPlainDateTimeFor
 (
 cx
@@ -17688,9 +17685,6 @@ Step
 auto
 temporalDateTime
 =
-temporal
-:
-:
 GetPlainDateTimeFor
 (
 epochInstant
@@ -21033,9 +21027,6 @@ Step
 auto
 temporalDateTime
 =
-temporal
-:
-:
 GetPlainDateTimeFor
 (
 epochInstant
