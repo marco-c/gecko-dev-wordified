@@ -705,7 +705,7 @@ let
 img
 =
 await
-product
+ShoppingProduct
 .
 requestImageBlob
 (
@@ -741,7 +741,7 @@ enableOHTTP
 img
 =
 await
-product
+ShoppingProduct
 .
 requestImageBlob
 (
