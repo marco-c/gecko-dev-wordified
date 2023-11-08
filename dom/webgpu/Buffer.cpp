@@ -1175,6 +1175,9 @@ GetDevice
 IsBridgeAlive
 (
 )
+&
+&
+mId
 )
 {
 GetDevice
