@@ -162,6 +162,7 @@ before
 returning
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -174,7 +175,7 @@ element
 *
 returns
 {
-Number
+number
 }
 The
 current
@@ -222,6 +223,7 @@ before
 returning
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -234,7 +236,7 @@ element
 *
 returns
 {
-Number
+number
 }
 The
 duration
@@ -416,6 +418,7 @@ in
 milliseconds
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -428,7 +431,7 @@ element
 *
 param
 {
-Number
+number
 }
 position
 The

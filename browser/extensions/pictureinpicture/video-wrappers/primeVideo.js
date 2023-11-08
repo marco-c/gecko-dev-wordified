@@ -111,6 +111,7 @@ the
 video
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -235,6 +236,7 @@ we
 seeked
 .
 *
+*
 param
 {
 HTMLVideoElement
@@ -248,7 +250,7 @@ element
 *
 param
 {
-Number
+number
 }
 position
 *
@@ -263,7 +265,7 @@ to
 *
 param
 {
-Boolean
+boolean
 }
 wasPlaying
 *

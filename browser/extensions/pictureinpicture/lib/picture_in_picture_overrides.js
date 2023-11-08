@@ -90,9 +90,10 @@ PictureInPictureOverrides
 Class
 constructor
 *
+*
 param
 {
-Object
+object
 }
 availableOverrides
 Contains
@@ -266,9 +267,10 @@ this
 _prefEnabledOverrides
 accordingly
 *
+*
 param
 {
-String
+string
 }
 id
 the
@@ -285,7 +287,7 @@ _availableOverrides
 *
 param
 {
-String
+string
 }
 pref
 the

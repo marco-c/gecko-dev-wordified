@@ -186,6 +186,7 @@ s
 child
 process
 *
+*
 param
 {
 ExtensionContext
@@ -199,7 +200,7 @@ extension
 *
 returns
 {
-Object
+object
 }
 returns
 the
@@ -379,6 +380,7 @@ Picture
 child
 process
 *
+*
 param
 {
 ExtensionContext
@@ -391,6 +393,9 @@ our
 extension
 *
 returns
+{
+object
+}
 returns
 the
 necessary

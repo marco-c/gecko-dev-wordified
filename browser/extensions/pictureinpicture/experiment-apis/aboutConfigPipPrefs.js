@@ -113,6 +113,7 @@ prefixed
 by
 disabled_picture_in_picture_overrides
 *
+*
 param
 {
 ExtensionContext
@@ -126,7 +127,7 @@ extension
 *
 returns
 {
-Object
+object
 }
 returns
 the
@@ -303,9 +304,10 @@ get
 a
 preference
 *
+*
 param
 {
-String
+string
 }
 name
 The
@@ -327,6 +329,11 @@ s
 branch
 *
 returns
+{
+boolean
+|
+undefined
+}
 the
 preference
 or
@@ -382,9 +389,10 @@ set
 a
 preference
 *
+*
 param
 {
-String
+string
 }
 name
 the
@@ -407,7 +415,7 @@ branch
 *
 param
 {
-String
+boolean
 }
 value
 the
