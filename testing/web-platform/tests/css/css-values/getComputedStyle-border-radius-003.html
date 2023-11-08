@@ -367,7 +367,6 @@ verifyComputedStyle
 (
 property_name
 expected_value
-description
 )
 {
 test
@@ -389,7 +388,14 @@ expected_value
 )
 ;
 }
-description
+testing
+{
+property_name
+}
+:
+{
+expected_value
+}
 )
 ;
 }
@@ -399,7 +405,6 @@ verifyComputedStyle
 (
 property_name
 expected_value
-description
 )
 *
 /
@@ -468,13 +473,6 @@ calc
 +
 8px
 )
-"
-"
-testing
-border
--
-radius
-shorthand
 "
 )
 ;
