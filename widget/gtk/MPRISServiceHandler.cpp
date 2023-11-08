@@ -2038,6 +2038,19 @@ if
 conn
 )
 {
+if
+(
+!
+IsCancelledGError
+(
+error
+.
+get
+(
+)
+)
+)
+{
 NS_WARNING
 (
 nsPrintfCString
@@ -2068,6 +2081,7 @@ get
 )
 )
 ;
+}
 return
 ;
 }
