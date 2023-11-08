@@ -843,6 +843,16 @@ visitCount
 lastVisitDate
 :
 0
+targetFolderGuid
+:
+null
+targetFolderItemId
+:
+-
+1
+targetFolderTitle
+:
+null
 }
 )
 ]
