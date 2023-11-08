@@ -309,7 +309,7 @@ aClientInfo
 /
 Asynchronously
 get
-stats
+states
 .
 void
 getStats

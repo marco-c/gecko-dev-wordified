@@ -239,10 +239,7 @@ override
 NS_IMETHOD
 SetSendOrder
 (
-Maybe
-<
 int64_t
->
 aSendOrder
 )
 override
