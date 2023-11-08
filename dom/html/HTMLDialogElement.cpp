@@ -596,7 +596,7 @@ mPreviouslyFocusedElement
 =
 do_GetWeakReference
 (
-element
+unretargetedFocus
 )
 ;
 }
