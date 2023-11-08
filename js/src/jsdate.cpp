@@ -7092,8 +7092,6 @@ YYYYYY
 *
 MM
 =
-one
-or
 two
 -
 digit
@@ -7108,8 +7106,6 @@ etc
 *
 DD
 =
-one
-or
 two
 -
 digit
@@ -7658,7 +7654,7 @@ DONE_DATE_UNLESS
 '
 )
 ;
-NEED_NDIGITS_OR_LESS
+NEED_NDIGITS
 (
 2
 month
@@ -7671,7 +7667,7 @@ DONE_DATE_UNLESS
 '
 )
 ;
-NEED_NDIGITS_OR_LESS
+NEED_NDIGITS
 (
 2
 day
