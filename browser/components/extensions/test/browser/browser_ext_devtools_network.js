@@ -1785,6 +1785,8 @@ startsWith
 (
 "
 <
+!
+DOCTYPE
 html
 >
 "
