@@ -1120,12 +1120,6 @@ Year
 Month
 MonthCode
 Day
-Hour
-Minute
-Second
-Millisecond
-Microsecond
-Nanosecond
 }
 ;
 /
