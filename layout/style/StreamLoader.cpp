@@ -192,11 +192,6 @@ nsServiceManagerUtils
 .
 h
 "
-#
-include
-<
-limits
->
 namespace
 mozilla
 :

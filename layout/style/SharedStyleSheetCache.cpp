@@ -1185,9 +1185,11 @@ if
 data
 -
 >
-mOwningNodeBeforeLoadEvent
+mHadOwnerNode
 !
 =
+!
+!
 data
 -
 >
