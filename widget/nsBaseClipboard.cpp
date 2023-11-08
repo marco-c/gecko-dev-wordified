@@ -2115,7 +2115,7 @@ rv
 cachedTransferable
 -
 >
-FlavorsTransferableCanImport
+FlavorsTransferableCanExport
 (
 flavors
 )

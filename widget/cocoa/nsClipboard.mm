@@ -2500,7 +2500,7 @@ NS_SUCCEEDED
 sSelectionCache
 -
 >
-FlavorsTransferableCanImport
+FlavorsTransferableCanExport
 (
 transferableFlavors
 )
