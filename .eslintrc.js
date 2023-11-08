@@ -1981,17 +1981,6 @@ browser
 /
 components
 /
-textrecognition
-/
-textrecognition
-.
-mjs
-"
-"
-browser
-/
-components
-/
 touchbar
 /
 tests
