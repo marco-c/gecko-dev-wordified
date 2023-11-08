@@ -3366,7 +3366,7 @@ enabled
 animation_value_type
 =
 "
-discrete
+ComputedValue
 "
 affects
 =
