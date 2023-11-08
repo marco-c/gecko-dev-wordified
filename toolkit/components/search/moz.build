@@ -150,6 +150,13 @@ sys
 mjs
 "
 "
+AppProvidedSearchEngine
+.
+sys
+.
+mjs
+"
+"
 OpenSearchEngine
 .
 sys
