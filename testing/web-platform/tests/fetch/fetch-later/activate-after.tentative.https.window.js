@@ -202,7 +202,7 @@ url
 }
 "
 {
-activationTimeout
+activateAfter
 :
 1000
 }
@@ -263,7 +263,7 @@ sends
 out
 based
 on
-activationTimeout
+activateAfter
 .
 '
 )
@@ -384,21 +384,6 @@ put
 into
 BFCache
 .
-/
-/
-only
-be
-sent
-on
-page
-discarded
-(
-not
-on
-entering
-BFCache
-)
-.
 await
 rc1
 .
@@ -412,7 +397,7 @@ fetchLater
 (
 url
 {
-activationTimeout
+activateAfter
 :
 1000
 }
@@ -420,7 +405,7 @@ activationTimeout
 ;
 /
 /
-1
+1s
 .
 /
 /
@@ -544,7 +529,7 @@ sends
 out
 based
 on
-activationTimeout
+activateAfter
 even
 if
 document
