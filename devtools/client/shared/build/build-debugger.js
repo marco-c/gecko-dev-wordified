@@ -454,15 +454,6 @@ src
 tabs
 "
 "
-react
--
-transition
--
-group
-/
-Transition
-"
-"
 Svg
 "
 ]

@@ -2483,9 +2483,6 @@ createElement
 (
 Modal
 {
-in
-:
-true
 handleClose
 :
 this

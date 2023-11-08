@@ -777,9 +777,6 @@ createElement
 (
 Modal
 {
-in
-:
-enabled
 additionalClass
 :
 "
