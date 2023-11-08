@@ -4757,6 +4757,8 @@ sAR2_Q14
 [
 0
 ]
+silk_SUB32_ovflw
+(
 psDD
 -
 >
@@ -4764,8 +4766,8 @@ sAR2_Q14
 [
 1
 ]
--
 tmp2
+)
 warping_Q16
 )
 ;
@@ -4844,6 +4846,8 @@ j
 -
 1
 ]
+silk_SUB32_ovflw
+(
 psDD
 -
 >
@@ -4853,8 +4857,8 @@ j
 +
 0
 ]
--
 tmp1
+)
 warping_Q16
 )
 ;
@@ -4905,6 +4909,8 @@ j
 +
 0
 ]
+silk_SUB32_ovflw
+(
 psDD
 -
 >
@@ -4914,8 +4920,8 @@ j
 +
 1
 ]
--
 tmp2
+)
 warping_Q16
 )
 ;
@@ -5765,7 +5771,7 @@ i
 ;
 sLF_AR_shp_Q14
 =
-silk_SUB32
+silk_SUB32_ovflw
 (
 psSS
 [
@@ -5908,7 +5914,7 @@ i
 ;
 sLF_AR_shp_Q14
 =
-silk_SUB32
+silk_SUB32_ovflw
 (
 psSS
 [
