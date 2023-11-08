@@ -1272,10 +1272,8 @@ nullptr
 {
 /
 /
-Steps
+Step
 1
--
-2
 .
 (
 Not
@@ -1287,19 +1285,8 @@ implementation
 )
 /
 /
-FIXME
-:
-spec
-issue
--
-GetOptionsObject
-is
-infallible
-.
-/
-/
 Step
-3
+2
 .
 Rooted
 <
@@ -1338,7 +1325,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 if
 (
@@ -1368,7 +1355,7 @@ toObject
 /
 /
 Step
-4
+3
 .
 a
 .
@@ -1392,7 +1379,7 @@ itemObj
 /
 /
 Step
-4
+3
 .
 b
 .
@@ -1424,7 +1411,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 c
 .
@@ -1473,7 +1460,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 d
 .
@@ -1506,7 +1493,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 e
 .
@@ -1537,7 +1524,7 @@ fields
 /
 /
 Step
-5
+4
 .
 if
 (
@@ -1585,7 +1572,7 @@ toString
 /
 /
 Step
-6
+5
 .
 PlainDate
 result
@@ -1621,9 +1608,9 @@ nullptr
 /
 /
 Steps
-7
+6
 -
-10
+9
 .
 Rooted
 <
@@ -1670,7 +1657,7 @@ nullptr
 /
 /
 Step
-11
+10
 .
 if
 (
@@ -1700,7 +1687,7 @@ nullptr
 /
 /
 Step
-12
+11
 .
 Rooted
 <
@@ -1731,9 +1718,9 @@ nullptr
 /
 /
 Steps
-13
+12
 -
-14
+13
 .
 return
 CalendarYearMonthFromFields

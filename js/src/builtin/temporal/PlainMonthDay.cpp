@@ -1201,10 +1201,8 @@ nullptr
 {
 /
 /
-Steps
+Step
 1
--
-2
 .
 (
 Not
@@ -1216,19 +1214,8 @@ implementation
 )
 /
 /
-FIXME
-:
-spec
-issue
--
-GetOptionsObject
-is
-infallible
-.
-/
-/
 Step
-3
+2
 .
 Rooted
 <
@@ -1267,7 +1254,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 constexpr
 int32_t
@@ -1278,7 +1265,7 @@ referenceISOYear
 /
 /
 Step
-5
+4
 .
 if
 (
@@ -1308,7 +1295,7 @@ toObject
 /
 /
 Step
-5
+4
 .
 a
 .
@@ -1332,7 +1319,7 @@ itemObj
 /
 /
 Steps
-5
+4
 .
 b
 -
@@ -1385,7 +1372,7 @@ calendar
 /
 /
 Step
-5
+4
 .
 c
 .
@@ -1428,7 +1415,7 @@ nullptr
 /
 /
 Steps
-5
+4
 .
 c
 .
@@ -1447,7 +1434,7 @@ isUndefined
 /
 /
 Step
-5
+4
 .
 c
 .
@@ -1473,7 +1460,7 @@ nullptr
 /
 /
 Step
-5
+4
 .
 d
 .
@@ -1526,7 +1513,7 @@ nullptr
 /
 /
 Step
-5
+4
 .
 e
 .
@@ -1559,7 +1546,7 @@ nullptr
 /
 /
 Step
-5
+4
 .
 f
 .
@@ -1600,7 +1587,7 @@ nullptr
 /
 /
 Step
-5
+4
 .
 g
 .
@@ -1641,7 +1628,7 @@ nullptr
 /
 /
 Step
-5
+4
 .
 h
 .
@@ -1682,7 +1669,7 @@ nullptr
 /
 /
 Step
-5
+4
 .
 i
 .
@@ -1747,7 +1734,7 @@ nullptr
 /
 /
 Step
-5
+4
 .
 j
 .
@@ -1790,7 +1777,7 @@ fields
 /
 /
 Step
-6
+5
 .
 if
 (
@@ -1838,7 +1825,7 @@ toString
 /
 /
 Step
-7
+6
 .
 PlainDate
 result
@@ -1879,9 +1866,9 @@ nullptr
 /
 /
 Steps
-8
+7
 -
-11
+10
 .
 Rooted
 <
@@ -1928,7 +1915,7 @@ nullptr
 /
 /
 Step
-12
+11
 .
 if
 (
@@ -1958,7 +1945,7 @@ nullptr
 /
 /
 Step
-13
+12
 .
 if
 (
@@ -1969,7 +1956,7 @@ hasYear
 /
 /
 Step
-13
+12
 .
 a
 .
@@ -1993,7 +1980,7 @@ calendar
 /
 /
 Step
-14
+13
 .
 Rooted
 <
@@ -2024,9 +2011,9 @@ nullptr
 /
 /
 Steps
-15
+14
 -
-16
+15
 .
 return
 CalendarMonthDayFromFields

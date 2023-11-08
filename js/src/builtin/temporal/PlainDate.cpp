@@ -2356,7 +2356,7 @@ maybeOptions
 Step
 1
 -
-3
+2
 .
 (
 Not
@@ -2369,7 +2369,7 @@ implementation
 /
 /
 Step
-4
+3
 .
 a
 .
@@ -2393,7 +2393,7 @@ item
 /
 /
 Step
-4
+3
 .
 b
 .
@@ -2485,7 +2485,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 b
 .
@@ -2519,7 +2519,7 @@ nullptr
 /
 /
 Steps
-4
+3
 .
 b
 .
@@ -2550,7 +2550,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 b
 .
@@ -2570,7 +2570,7 @@ calendar
 /
 /
 Step
-4
+3
 .
 c
 .
@@ -2632,7 +2632,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 c
 .
@@ -2666,7 +2666,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 c
 .
@@ -2684,7 +2684,7 @@ calendar
 /
 /
 Step
-4
+3
 .
 d
 .
@@ -2716,7 +2716,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 e
 .
@@ -2859,8 +2859,6 @@ maybeOptions
 /
 Step
 1
--
-2
 .
 (
 Not
@@ -2872,19 +2870,8 @@ implementation
 )
 /
 /
-FIXME
-:
-spec
-issue
--
-GetOptionsObject
-is
-infallible
-.
-/
-/
 Step
-3
+2
 .
 Rooted
 <
@@ -2923,7 +2910,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 if
 (
@@ -2964,7 +2951,7 @@ maybeResolvedOptions
 /
 /
 Step
-5
+4
 .
 if
 (
@@ -3012,7 +2999,7 @@ toString
 /
 /
 Step
-6
+5
 .
 PlainDate
 result
@@ -3048,7 +3035,7 @@ nullptr
 /
 /
 Step
-7
+6
 .
 MOZ_ASSERT
 (
@@ -3061,9 +3048,9 @@ result
 /
 /
 Steps
-8
+7
 -
-11
+10
 .
 Rooted
 <
@@ -3110,7 +3097,7 @@ nullptr
 /
 /
 Step
-12
+11
 .
 if
 (
@@ -3140,7 +3127,7 @@ nullptr
 /
 /
 Step
-13
+12
 .
 return
 CreateTemporalDate
@@ -3233,7 +3220,7 @@ item
 /
 /
 Step
-4
+3
 .
 b
 .
@@ -3329,7 +3316,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 b
 .
@@ -3342,7 +3329,7 @@ applicable
 /
 /
 Steps
-4
+3
 .
 b
 .
@@ -3373,7 +3360,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 b
 .

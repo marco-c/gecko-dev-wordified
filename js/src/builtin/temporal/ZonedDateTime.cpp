@@ -1536,10 +1536,8 @@ nullptr
 {
 /
 /
-Steps
+Step
 1
--
-2
 .
 (
 Not
@@ -1550,19 +1548,8 @@ implementation
 )
 /
 /
-FIXME
-:
-spec
-issue
--
-GetOptionsObject
-is
-infallible
-.
-/
-/
 Step
-3
+2
 .
 Rooted
 <
@@ -1601,7 +1588,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 auto
 offsetBehaviour
@@ -1614,7 +1601,7 @@ Option
 /
 /
 Step
-5
+4
 .
 auto
 matchBehaviour
@@ -1627,7 +1614,7 @@ MatchExactly
 /
 /
 Step
-8
+7
 .
 (
 Reordered
@@ -1640,7 +1627,7 @@ offsetNanoseconds
 /
 /
 Step
-6
+5
 .
 Rooted
 <
@@ -1707,7 +1694,7 @@ toObject
 /
 /
 Step
-6
+5
 .
 a
 .
@@ -1731,7 +1718,7 @@ itemObj
 /
 /
 Step
-6
+5
 .
 b
 .
@@ -1754,7 +1741,7 @@ nullptr
 /
 /
 Step
-6
+5
 .
 c
 .
@@ -1807,7 +1794,7 @@ nullptr
 /
 /
 Step
-6
+5
 .
 d
 .
@@ -1866,7 +1853,7 @@ nullptr
 /
 /
 Step
-6
+5
 .
 e
 .
@@ -1905,7 +1892,7 @@ nullptr
 /
 /
 Step
-6
+5
 .
 f
 .
@@ -1946,7 +1933,7 @@ nullptr
 /
 /
 Step
-6
+5
 .
 g
 .
@@ -1969,7 +1956,7 @@ nullptr
 /
 /
 Step
-6
+5
 .
 h
 .
@@ -2010,7 +1997,7 @@ nullptr
 /
 /
 Step
-6
+5
 .
 i
 .
@@ -2033,7 +2020,7 @@ isUndefined
 /
 /
 Step
-6
+5
 .
 j
 .
@@ -2083,7 +2070,7 @@ maybeResolvedOptions
 /
 /
 Steps
-6
+5
 .
 k
 -
@@ -2108,7 +2095,7 @@ nullptr
 /
 /
 Step
-6
+5
 .
 m
 .
@@ -2131,7 +2118,7 @@ nullptr
 /
 /
 Step
-6
+5
 .
 n
 .
@@ -2159,7 +2146,7 @@ else
 /
 /
 Steps
-6
+5
 .
 k
 -
@@ -2172,7 +2159,7 @@ applicable
 /
 /
 Step
-6
+5
 .
 n
 .
@@ -2197,7 +2184,7 @@ nullptr
 /
 /
 Step
-9
+8
 .
 if
 (
@@ -2233,7 +2220,7 @@ else
 /
 /
 Step
-7
+6
 .
 a
 .
@@ -2557,7 +2544,7 @@ Berlin
 /
 /
 Steps
-7
+6
 .
 b
 -
@@ -2620,7 +2607,7 @@ nullptr
 /
 /
 Step
-7
+6
 .
 d
 .
@@ -2632,7 +2619,7 @@ timeZoneString
 /
 /
 Step
-7
+6
 .
 e
 .
@@ -2655,7 +2642,7 @@ nullptr
 /
 /
 Step
-7
+6
 .
 f
 .
@@ -2670,7 +2657,7 @@ implementation
 /
 /
 Step
-7
+6
 .
 g
 .
@@ -2690,7 +2677,7 @@ Exact
 /
 /
 Step
-7
+6
 .
 h
 .
@@ -2712,7 +2699,7 @@ Wall
 /
 /
 Steps
-7
+6
 .
 i
 -
@@ -2763,7 +2750,7 @@ iso8601
 /
 /
 Step
-7
+6
 .
 m
 .
@@ -2782,7 +2769,7 @@ maybeResolvedOptions
 /
 /
 Step
-7
+6
 .
 n
 .
@@ -2805,7 +2792,7 @@ nullptr
 /
 /
 Step
-7
+6
 .
 o
 .
@@ -2828,7 +2815,7 @@ nullptr
 /
 /
 Step
-7
+6
 .
 p
 .
@@ -2855,7 +2842,7 @@ nullptr
 /
 /
 Step
-9
+8
 .
 if
 (
@@ -2882,7 +2869,7 @@ timeZoneOffset
 /
 /
 Step
-10
+9
 .
 Instant
 epochNanoseconds
@@ -2912,7 +2899,7 @@ nullptr
 /
 /
 Step
-11
+10
 .
 return
 CreateTemporalZonedDateTime
@@ -17487,16 +17474,6 @@ Day
 ;
 /
 /
-FIXME
-:
-spec
-issue
--
-GetPlainDateTimeFor
-is
-infallible
-/
-/
 Step
 18
 .
@@ -17509,16 +17486,6 @@ epochInstant
 offsetNanoseconds
 )
 ;
-/
-/
-FIXME
-:
-spec
-issue
--
-CreateTemporalDateTime
-is
-infallible
 /
 /
 Step
@@ -20827,16 +20794,6 @@ return
 false
 ;
 }
-/
-/
-FIXME
-:
-spec
-issue
--
-GetPlainDateTimeFor
-is
-infallible
 /
 /
 Step

@@ -2970,10 +2970,8 @@ maybeOptions
 {
 /
 /
-Steps
+Step
 1
--
-2
 .
 (
 Not
@@ -2981,19 +2979,8 @@ applicable
 )
 /
 /
-FIXME
-:
-spec
-issue
--
-GetOptionsObject
-is
-infallible
-.
-/
-/
 Step
-3
+2
 .
 Rooted
 <
@@ -3032,9 +3019,9 @@ nullptr
 /
 /
 Steps
-4
+3
 -
-5
+4
 .
 Rooted
 <
@@ -3076,7 +3063,7 @@ toObject
 /
 /
 Step
-4
+3
 .
 a
 .
@@ -3100,7 +3087,7 @@ itemObj
 /
 /
 Step
-4
+3
 .
 b
 .
@@ -3192,7 +3179,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 b
 .
@@ -3226,7 +3213,7 @@ nullptr
 /
 /
 Steps
-4
+3
 .
 b
 .
@@ -3247,7 +3234,7 @@ calendar
 /
 /
 Step
-4
+3
 .
 c
 .
@@ -3313,7 +3300,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 c
 .
@@ -3347,7 +3334,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 c
 .
@@ -3365,7 +3352,7 @@ calendar
 /
 /
 Step
-4
+3
 .
 d
 .
@@ -3388,7 +3375,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 e
 .
@@ -3441,7 +3428,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 f
 .
@@ -3492,7 +3479,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 g
 .
@@ -3525,7 +3512,7 @@ nullptr
 /
 /
 Step
-4
+3
 .
 h
 .
@@ -3579,7 +3566,7 @@ else
 /
 /
 Step
-5
+4
 .
 a
 .
@@ -3629,7 +3616,7 @@ toString
 /
 /
 Step
-5
+4
 .
 b
 .
@@ -3664,7 +3651,7 @@ nullptr
 /
 /
 Step
-5
+4
 .
 c
 .
@@ -3681,7 +3668,7 @@ date
 /
 /
 Step
-5
+4
 .
 d
 .
@@ -3698,7 +3685,7 @@ time
 /
 /
 Steps
-5
+4
 .
 e
 -
@@ -3749,7 +3736,7 @@ iso8601
 /
 /
 Step
-5
+4
 .
 i
 .
@@ -3782,7 +3769,7 @@ nullptr
 /
 /
 Step
-6
+5
 .
 return
 CreateTemporalDateTime
