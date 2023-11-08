@@ -79,6 +79,17 @@ lib
 /
 jxl
 /
+color_encoding_internal
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 enc_params
 .
 h
@@ -117,7 +128,7 @@ CompressParams
 cparams
 )
 ;
-Status
+void
 SetColorEncodingFromJpegData
 (
 const

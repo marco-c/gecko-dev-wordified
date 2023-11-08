@@ -82,7 +82,9 @@ m
 >
 color_encoding
 .
-tf
+Tf
+(
+)
 .
 IsPQ
 (
@@ -121,7 +123,9 @@ m
 >
 color_encoding
 .
-tf
+Tf
+(
+)
 .
 IsHLG
 (

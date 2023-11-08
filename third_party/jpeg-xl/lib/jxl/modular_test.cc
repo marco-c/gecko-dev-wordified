@@ -3012,7 +3012,9 @@ color_encoding
 ;
 color_encoding
 .
-tf
+Tf
+(
+)
 .
 SetTransferFunction
 (

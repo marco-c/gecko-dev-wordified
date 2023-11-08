@@ -19270,7 +19270,7 @@ size_t
 NumSymbols
 (
 bool
-doing_ycocg
+doing_ycocg_or_large_palette
 )
 const
 {
@@ -19302,7 +19302,7 @@ residuals
 .
 if
 (
-doing_ycocg
+doing_ycocg_or_large_palette
 )
 {
 return
@@ -19770,7 +19770,7 @@ size_t
 NumSymbols
 (
 bool
-doing_ycocg
+doing_ycocg_or_large_palette
 )
 const
 {
@@ -19802,7 +19802,7 @@ residuals
 .
 if
 (
-doing_ycocg
+doing_ycocg_or_large_palette
 )
 {
 return
@@ -29367,6 +29367,18 @@ nb_chans
 &
 collided
 ;
+bool
+large_palette
+=
+!
+collided
+|
+|
+pcolors
+>
+=
+256
+;
 for
 (
 size_t
@@ -29377,6 +29389,9 @@ bitdepth
 NumSymbols
 (
 doing_ycocg
+|
+|
+large_palette
 )
 ;
 i

@@ -2358,7 +2358,7 @@ them
 .
 To
 use
-ColorEncoding
+ColorSpace
 :
 :
 kXYB

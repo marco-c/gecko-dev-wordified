@@ -188,7 +188,9 @@ kD65
 ;
 linear_rec2020
 .
-tf
+Tf
+(
+)
 .
 SetTransferFunction
 (
