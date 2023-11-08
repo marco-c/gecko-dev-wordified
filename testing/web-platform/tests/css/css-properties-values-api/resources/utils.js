@@ -1083,7 +1083,17 @@ duration
 .
 5
 ;
+const
+assert_equals_function
+=
+values
+.
+assert_function
+|
+|
 assert_equals
+;
+assert_equals_function
 (
 getComputedStyle
 (
