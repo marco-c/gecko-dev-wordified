@@ -129,11 +129,6 @@ ApplicationReputation
 .
 h
 "
-"
-LoginReputationIPC
-.
-h
-"
 ]
 XPIDL_SOURCES
 +
@@ -186,11 +181,6 @@ cc
 "
 "
 LoginReputation
-.
-cpp
-"
-"
-LoginReputationIPC
 .
 cpp
 "
