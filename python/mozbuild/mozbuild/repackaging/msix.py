@@ -1597,6 +1597,15 @@ key
         
 lines
 =
+[
+line
+.
+strip
+(
+)
+for
+line
+in
 open
 (
 conf_vars
@@ -1605,20 +1614,13 @@ conf_vars
 readlines
 (
 )
+]
         
 for
 line
 in
 lines
 :
-            
-line
-=
-line
-.
-strip
-(
-)
             
 if
 line
@@ -6660,6 +6662,8 @@ thumbprint
 None
         
 if
+force
+or
 not
 thumbprint
 :
