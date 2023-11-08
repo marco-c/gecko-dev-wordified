@@ -111,11 +111,13 @@ Ad
 .
 html
 /
-queryParamName
+queryParamNames
 :
+[
 "
 s
 "
+]
 codeParamName
 :
 "
@@ -572,7 +574,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

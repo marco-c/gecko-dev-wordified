@@ -104,11 +104,13 @@ telemetry
 /
 searchTelemetryAd_
 /
-queryParamName
+queryParamNames
 :
+[
 "
 s
 "
+]
 codeParamName
 :
 "
