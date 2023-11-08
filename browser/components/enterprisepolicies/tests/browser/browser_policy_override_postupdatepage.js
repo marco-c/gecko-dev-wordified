@@ -546,7 +546,11 @@ file
 .
 *
 *
-return
+returns
+{
+nsIFile
+}
+*
 The
 nsIFile
 for
@@ -676,10 +680,12 @@ files
 *
 *
 param
+{
+boolean
+}
+[
 skipFiles
-(
-optional
-)
+]
 *
 If
 true
@@ -805,6 +811,9 @@ file
 *
 *
 param
+{
+string
+}
 aText
 *
 The
@@ -822,7 +831,6 @@ active
 update
 .
 xml
-*
 file
 .
 *

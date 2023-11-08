@@ -400,7 +400,11 @@ load
 .
 *
 *
-return
+returns
+{
+Promise
+}
+*
 A
 promise
 that
@@ -412,9 +416,9 @@ the
 About
 Dialog
 and
-*
 resolves
 when
+*
 the
 About
 Dialog

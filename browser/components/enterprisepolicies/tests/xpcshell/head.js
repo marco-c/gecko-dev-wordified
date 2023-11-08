@@ -437,7 +437,7 @@ param
 {
 object
 }
-policy
+json
 *
 The
 enterprise
