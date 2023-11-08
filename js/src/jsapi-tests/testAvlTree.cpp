@@ -678,7 +678,9 @@ testSize_worker
 n
 -
 >
-right
+getRight
+(
+)
 )
 ;
 }
@@ -735,7 +737,9 @@ testDepth_worker
 n
 -
 >
-right
+getRight
+(
+)
 )
 ;
 return
@@ -875,7 +879,9 @@ if
 node
 -
 >
-tag
+getTag
+(
+)
 !
 =
 ImplTag
@@ -887,7 +893,9 @@ Free
 node
 -
 >
-right
+getRight
+(
+)
 !
 =
 nullptr
@@ -941,7 +949,9 @@ depth
 node
 -
 >
-right
+getRight
+(
+)
 )
 ;
 for
