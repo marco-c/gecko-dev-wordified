@@ -901,10 +901,10 @@ GetType
 mozilla
 :
 :
-DataChannelConnection
+DataChannelReliabilityPolicy
 :
 :
-RELIABLE
+Reliable
 ;
 }
 mozilla
