@@ -1995,10 +1995,6 @@ oldHeaderSlots
 )
 oldAllocated
 newAllocated
-js
-:
-:
-MallocArena
 )
 ;
 if
@@ -3043,10 +3039,6 @@ oldHeaderSlots
 )
 oldAllocated
 newAllocated
-js
-:
-:
-MallocArena
 )
 ;
 if
@@ -6249,10 +6241,6 @@ this
 oldHeaderSlots
 oldAllocated
 newAllocated
-js
-:
-:
-MallocArena
 )
 ;
 if
@@ -6785,10 +6773,6 @@ this
 oldHeaderSlots
 oldAllocated
 newAllocated
-js
-:
-:
-MallocArena
 )
 ;
 if
