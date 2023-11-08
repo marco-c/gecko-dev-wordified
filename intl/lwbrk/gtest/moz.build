@@ -99,6 +99,11 @@ TestSegmenter
 .
 cpp
 "
+"
+TestSegmenterPerf
+.
+cpp
+"
 ]
 FINAL_LIBRARY
 =
