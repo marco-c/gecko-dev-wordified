@@ -1525,10 +1525,13 @@ this
 .
 watcherActor
 .
-addDataEntry
+addOrSetDataEntry
 (
 TARGET_CONFIGURATION
 cfgArray
+"
+add
+"
 )
 ;
 return

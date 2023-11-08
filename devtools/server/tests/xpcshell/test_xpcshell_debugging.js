@@ -554,6 +554,9 @@ path
 line
 :
 11
+column
+:
+0
 }
 {
 }

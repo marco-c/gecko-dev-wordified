@@ -812,10 +812,14 @@ push
 (
 workerTargetActor
 .
-addSessionDataEntry
+addOrSetSessionDataEntry
 (
 type
 entries
+false
+"
+set
+"
 )
 )
 ;
@@ -834,6 +838,10 @@ break
 case
 "
 add
+-
+or
+-
+set
 -
 session
 -
@@ -854,7 +862,7 @@ forwardingPrefix
 .
 workerTargetActor
 .
-addSessionDataEntry
+addOrSetSessionDataEntry
 (
 packet
 .
@@ -862,6 +870,9 @@ dataEntryType
 packet
 .
 entries
+packet
+.
+updateType
 )
 ;
 postMessage
@@ -881,6 +892,10 @@ data
 entry
 -
 added
+-
+or
+-
+set
 "
 }
 )
