@@ -22065,12 +22065,12 @@ mResults
 .
 mAnyManual
 ?
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 :
 :
 FinalizeNow
 :
-CycleCollectedJSContext
+CycleCollectedJSRuntime
 :
 :
 FinalizeIncrementally
