@@ -6439,10 +6439,6 @@ SVGRenderingObserverSet
 (
 )
 {
-InvalidateAll
-(
-)
-;
 MOZ_COUNT_DTOR
 (
 SVGRenderingObserverSet
