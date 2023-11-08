@@ -39,7 +39,7 @@ defineESModuleGetters
 (
 this
 {
-SearchEngineSelector
+SearchEngineSelectorOld
 :
 "
 resource
@@ -50,7 +50,7 @@ gre
 /
 modules
 /
-SearchEngineSelector
+SearchEngineSelectorOld
 .
 sys
 .
@@ -393,7 +393,7 @@ const
 engineSelector
 =
 new
-SearchEngineSelector
+SearchEngineSelectorOld
 (
 )
 ;
