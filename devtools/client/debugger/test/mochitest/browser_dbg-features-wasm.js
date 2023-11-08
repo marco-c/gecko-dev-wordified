@@ -735,7 +735,7 @@ runWasm
 )
 ;
 await
-waitForPaused
+waitForPausedInOriginalFileAndToggleMapScopes
 (
 dbg
 )
@@ -1243,7 +1243,7 @@ paused
 state
 .
 await
-waitForPaused
+waitForPausedInOriginalFileAndToggleMapScopes
 (
 dbg
 )
