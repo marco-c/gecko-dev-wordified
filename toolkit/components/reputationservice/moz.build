@@ -139,11 +139,6 @@ nsIApplicationReputation
 .
 idl
 "
-"
-nsILoginReputation
-.
-idl
-"
 ]
 XPIDL_MODULE
 =
@@ -178,11 +173,6 @@ csd
 pb
 .
 cc
-"
-"
-LoginReputation
-.
-cpp
 "
 ]
 FINAL_LIBRARY

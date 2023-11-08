@@ -192,13 +192,6 @@ aFeatures
 )
 ;
 static
-nsIUrlClassifierFeature
-*
-GetFeatureLoginReputation
-(
-)
-;
-static
 already_AddRefed
 <
 nsIUrlClassifierFeature

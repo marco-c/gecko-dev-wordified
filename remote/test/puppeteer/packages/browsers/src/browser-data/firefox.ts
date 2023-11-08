@@ -929,17 +929,6 @@ browser
 .
 safebrowsing
 .
-passwords
-.
-enabled
-'
-:
-false
-'
-browser
-.
-safebrowsing
-.
 phishing
 .
 enabled
