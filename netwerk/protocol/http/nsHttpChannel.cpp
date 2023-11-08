@@ -15394,6 +15394,10 @@ rv
 )
 )
 {
+mStatus
+=
+rv
+;
 LOG
 (
 (
@@ -16853,6 +16857,10 @@ rv
 )
 )
 {
+mStatus
+=
+rv
+;
 LOG
 (
 (
@@ -50484,6 +50492,10 @@ rv
 )
 )
 {
+mStatus
+=
+rv
+;
 LOG
 (
 (

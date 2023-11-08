@@ -1741,11 +1741,11 @@ mAuthChannel
 >
 Cancel
 (
-NS_ERROR_ABORT
+NS_ERROR_SUPERFLUOS_AUTH
 )
 ;
 return
-NS_ERROR_ABORT
+NS_ERROR_SUPERFLUOS_AUTH
 ;
 }
 return
