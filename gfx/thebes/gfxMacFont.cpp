@@ -296,13 +296,6 @@ mCTFont
 (
 nullptr
 )
-mFontSmoothingBackgroundColor
-(
-aFontStyle
--
->
-fontSmoothingBackgroundColor
-)
 mVariationFont
 (
 aFontEntry
@@ -4037,10 +4030,6 @@ GetUnscaledFont
 )
 GetAdjustedSize
 (
-)
-ToDeviceColor
-(
-mFontSmoothingBackgroundColor
 )
 !
 mStyle

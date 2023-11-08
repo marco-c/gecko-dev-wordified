@@ -6028,11 +6028,6 @@ flags
 instance
 .
 flags
-bg_color
-:
-instance
-.
-bg_color
 synthetic_italics
 :
 instance

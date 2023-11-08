@@ -3484,9 +3484,6 @@ patternTransformChanged
 Matrix
 patternTransform
 ;
-DeviceColor
-fontSmoothingBackgroundColor
-;
 /
 /
 This

@@ -13890,10 +13890,6 @@ UnscaledFont
 aUnscaledFont
 Float
 aSize
-const
-DeviceColor
-&
-aFontSmoothingBackgroundColor
 bool
 aUseFontSmoothing
 =
