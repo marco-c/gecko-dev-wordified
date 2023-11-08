@@ -668,6 +668,10 @@ rocky
 "
     
 "
+nobara
+"
+    
+"
 oracle
 "
 )
