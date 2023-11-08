@@ -820,12 +820,9 @@ largestUnit
 )
 *
 /
-bool
+DateDuration
 DifferenceISODate
 (
-JSContext
-*
-cx
 const
 PlainDate
 &
@@ -836,9 +833,6 @@ PlainDate
 end
 TemporalUnit
 largestUnit
-DateDuration
-*
-result
 )
 ;
 /
