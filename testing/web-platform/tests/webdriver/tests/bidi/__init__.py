@@ -82,8 +82,7 @@ type
 (
 expected
 )
-=
-=
+is
 type
 (
 actual

@@ -18,12 +18,7 @@ from
 .
 .
 import
-(
-    
 assert_before_request_sent_event
-    
-assert_response_event
-)
 PAGE_EMPTY_HTML
 =
 "
@@ -108,8 +103,6 @@ test_other_context
     
 bidi_session
     
-wait_for_event
-    
 url
     
 top_context
@@ -119,8 +112,6 @@ add_intercept
 fetch
     
 setup_network_test
-    
-phase
 )
 :
     
@@ -133,8 +124,6 @@ only
 in
 top_context
     
-network_events
-=
 await
 setup_network_test
 (
@@ -247,8 +236,6 @@ url
 PAGE_EMPTY_TEXT
 )
     
-intercept
-=
 await
 add_intercept
 (
@@ -364,13 +351,7 @@ def
 test_other_url
 (
     
-bidi_session
-    
-wait_for_event
-    
 url
-    
-top_context
     
 add_intercept
     
@@ -382,8 +363,6 @@ phase
 )
 :
     
-network_events
-=
 await
 setup_network_test
 (
@@ -427,8 +406,6 @@ url
 PAGE_EMPTY_TEXT
 )
     
-intercept
-=
 await
 add_intercept
 (
@@ -520,7 +497,6 @@ async
 def
 test_return_value
 (
-bidi_session
 add_intercept
 )
 :
@@ -574,8 +550,6 @@ wait_for_event
     
 url
     
-top_context
-    
 add_intercept
     
 fetch
@@ -584,8 +558,6 @@ setup_network_test
 )
 :
     
-network_events
-=
 await
 setup_network_test
 (

@@ -172,7 +172,7 @@ async
 def
 on_event
 (
-_
+method
 data
 )
 :
@@ -1188,6 +1188,10 @@ events
 expected_request
 =
 expected_request
+        
+expected_response
+=
+expected_response
         
 redirect_count
 =

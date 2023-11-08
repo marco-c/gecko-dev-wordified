@@ -101,7 +101,7 @@ async
 def
 on_event
 (
-_
+method
 data
 )
 :
@@ -506,7 +506,7 @@ async
 def
 on_event
 (
-_
+method
 data
 )
 :
@@ -821,7 +821,7 @@ async
 def
 on_event
 (
-_
+method
 data
 )
 :
@@ -1205,7 +1205,7 @@ async
 def
 on_event
 (
-_
+method
 data
 )
 :

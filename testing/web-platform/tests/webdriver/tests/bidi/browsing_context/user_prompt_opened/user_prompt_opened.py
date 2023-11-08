@@ -639,7 +639,7 @@ async
 def
 on_event
 (
-_
+method
 data
 )
 :
@@ -717,7 +717,6 @@ url
 =
 inline
 (
-f
 "
 <
 script
@@ -820,7 +819,6 @@ url
 =
 inline
 (
-f
 "
 <
 script

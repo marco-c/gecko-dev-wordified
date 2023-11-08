@@ -130,8 +130,6 @@ def
 test_request_response_phases
 (
     
-bidi_session
-    
 wait_for_event
     
 url
@@ -493,13 +491,7 @@ def
 test_not_listening_to_phase_event
 (
     
-bidi_session
-    
-wait_for_event
-    
 url
-    
-top_context
     
 setup_network_test
     
@@ -566,8 +558,6 @@ phase
 "
 )
     
-network_events
-=
 await
 setup_network_test
 (
@@ -595,8 +585,6 @@ url
 PAGE_EMPTY_TEXT
 )
     
-intercept
-=
 await
 add_intercept
 (
