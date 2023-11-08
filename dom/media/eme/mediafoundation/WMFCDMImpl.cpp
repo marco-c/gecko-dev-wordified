@@ -495,6 +495,9 @@ distinctiveID
 (
 )
 ;
+#
+ifdef
+DEBUG
 EME_LOG
 (
 "
@@ -518,6 +521,8 @@ get
 )
 )
 ;
+#
+endif
 }
 static
 const
@@ -704,6 +709,9 @@ AppendElement
 config
 )
 ;
+#
+ifdef
+DEBUG
 EME_LOG
 (
 "
@@ -729,6 +737,8 @@ get
 )
 )
 ;
+#
+endif
 }
 return
 true

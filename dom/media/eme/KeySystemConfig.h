@@ -1086,12 +1086,17 @@ KeySystemConfig
 =
 default
 ;
+#
+ifdef
+DEBUG
 nsString
 GetDebugInfo
 (
 )
 const
 ;
+#
+endif
 /
 /
 Return

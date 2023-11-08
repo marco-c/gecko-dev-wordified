@@ -1635,6 +1635,9 @@ aKeySystem
 )
 ;
 }
+#
+ifdef
+DEBUG
 nsString
 KeySystemConfig
 :
@@ -1922,6 +1925,8 @@ return
 debugInfo
 ;
 }
+#
+endif
 KeySystemConfig
 :
 :
