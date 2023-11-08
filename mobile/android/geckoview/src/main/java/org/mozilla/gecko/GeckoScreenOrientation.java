@@ -326,7 +326,6 @@ final
 short
 value
 ;
-private
 ScreenOrientation
 (
 final

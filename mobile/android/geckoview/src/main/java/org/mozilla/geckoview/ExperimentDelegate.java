@@ -1123,7 +1123,6 @@ framework
 .
 *
 /
-public
 class
 ExperimentException
 extends

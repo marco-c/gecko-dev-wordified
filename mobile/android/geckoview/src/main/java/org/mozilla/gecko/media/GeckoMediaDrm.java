@@ -76,7 +76,6 @@ public
 interface
 GeckoMediaDrm
 {
-public
 interface
 Callbacks
 {

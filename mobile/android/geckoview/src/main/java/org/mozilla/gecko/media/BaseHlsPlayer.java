@@ -78,7 +78,6 @@ public
 interface
 BaseHlsPlayer
 {
-public
 enum
 TrackType
 {
@@ -87,7 +86,6 @@ AUDIO
 VIDEO
 TEXT
 }
-public
 enum
 ResourceError
 {
@@ -116,7 +114,6 @@ private
 int
 mNumVal
 ;
-private
 ResourceError
 (
 final
@@ -140,7 +137,6 @@ mNumVal
 ;
 }
 }
-public
 enum
 DemuxerError
 {
@@ -169,7 +165,6 @@ private
 int
 mNumVal
 ;
-private
 DemuxerError
 (
 final
@@ -193,7 +188,6 @@ mNumVal
 ;
 }
 }
-public
 interface
 DemuxerCallbacks
 {
@@ -214,7 +208,6 @@ errorCode
 )
 ;
 }
-public
 interface
 ResourceCallbacks
 {
@@ -246,7 +239,6 @@ identify
 player
 instance
 .
-public
 int
 getId
 (
@@ -403,7 +395,6 @@ GeckoHLSResourceWrapper
 =
 =
 =
-public
 void
 init
 (
@@ -413,7 +404,6 @@ ResourceCallbacks
 callback
 )
 ;
-public
 boolean
 isLiveStream
 (
@@ -570,7 +560,6 @@ GeckoHLSDemuxerWrapper
 =
 =
 =
-public
 void
 addDemuxerWrapperCallbackListener
 (
@@ -578,7 +567,6 @@ DemuxerCallbacks
 callback
 )
 ;
-public
 ConcurrentLinkedQueue
 <
 GeckoHLSSample
@@ -591,13 +579,11 @@ int
 number
 )
 ;
-public
 long
 getBufferedPosition
 (
 )
 ;
-public
 int
 getNumberOfTracks
 (
@@ -605,7 +591,6 @@ TrackType
 trackType
 )
 ;
-public
 GeckoVideoInfo
 getVideoInfo
 (
@@ -613,7 +598,6 @@ int
 index
 )
 ;
-public
 GeckoAudioInfo
 getAudioInfo
 (
@@ -621,7 +605,6 @@ int
 index
 )
 ;
-public
 boolean
 seek
 (
@@ -629,37 +612,31 @@ long
 positionUs
 )
 ;
-public
 long
 getNextKeyFrameTime
 (
 )
 ;
-public
 void
 suspend
 (
 )
 ;
-public
 void
 resume
 (
 )
 ;
-public
 void
 play
 (
 )
 ;
-public
 void
 pause
 (
 )
 ;
-public
 void
 release
 (

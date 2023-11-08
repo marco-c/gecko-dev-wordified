@@ -176,7 +176,6 @@ private
 int
 mType
 ;
-private
 TrackType
 (
 final

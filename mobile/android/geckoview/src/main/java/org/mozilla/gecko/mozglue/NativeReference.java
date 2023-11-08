@@ -102,13 +102,11 @@ public
 interface
 NativeReference
 {
-public
 void
 release
 (
 )
 ;
-public
 boolean
 isReleased
 (

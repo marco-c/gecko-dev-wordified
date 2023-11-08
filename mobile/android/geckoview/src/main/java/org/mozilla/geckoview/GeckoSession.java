@@ -973,7 +973,6 @@ final
 int
 mRank
 ;
-private
 State
 (
 final
@@ -20460,7 +20459,6 @@ site
 .
 *
 /
-public
 class
 SecurityInformation
 {
@@ -24440,8 +24438,6 @@ callbacks
 .
 *
 /
-public
-static
 class
 ContextElement
 {
@@ -26307,7 +26303,6 @@ position
 .
 *
 /
-final
 int
 FLAG_IS_COLLAPSED
 =
@@ -26337,7 +26332,6 @@ node
 .
 *
 /
-final
 int
 FLAG_IS_EDITABLE
 =
@@ -26359,7 +26353,6 @@ field
 .
 *
 /
-final
 int
 FLAG_IS_PASSWORD
 =
@@ -26387,7 +26380,6 @@ called
 .
 *
 /
-final
 String
 ACTION_HIDE
 =
@@ -26421,7 +26413,6 @@ editable
 .
 *
 /
-final
 String
 ACTION_CUT
 =
@@ -26448,7 +26439,6 @@ clipboard
 .
 *
 /
-final
 String
 ACTION_COPY
 =
@@ -26477,7 +26467,6 @@ editable
 .
 *
 /
-final
 String
 ACTION_DELETE
 =
@@ -26510,7 +26499,6 @@ editable
 .
 *
 /
-final
 String
 ACTION_PASTE
 =
@@ -26548,7 +26536,6 @@ editable
 .
 *
 /
-final
 String
 ACTION_PASTE_AS_PLAIN_TEXT
 =
@@ -26577,7 +26564,6 @@ editor
 .
 *
 /
-final
 String
 ACTION_SELECT_ALL
 =
@@ -26607,7 +26593,6 @@ editable
 .
 *
 /
-final
 String
 ACTION_UNSELECT
 =
@@ -26640,7 +26625,6 @@ editable
 .
 *
 /
-final
 String
 ACTION_COLLAPSE_TO_START
 =
@@ -26673,7 +26657,6 @@ editable
 .
 *
 /
-final
 String
 ACTION_COLLAPSE_TO_END
 =
@@ -27835,7 +27818,6 @@ selection
 .
 *
 /
-final
 int
 HIDE_REASON_NO_SELECTION
 =
@@ -27876,7 +27858,6 @@ reason
 .
 *
 /
-final
 int
 HIDE_REASON_INVISIBLE_SELECTION
 =
@@ -27928,7 +27909,6 @@ actions
 .
 *
 /
-final
 int
 HIDE_REASON_ACTIVE_SELECTION
 =
@@ -27995,7 +27975,6 @@ reason
 .
 *
 /
-final
 int
 HIDE_REASON_ACTIVE_SCROLL
 =
@@ -28155,7 +28134,6 @@ permission
 .
 *
 /
-public
 class
 ClipboardPermission
 {
@@ -28736,25 +28714,16 @@ canGoForward
 )
 {
 }
-public
-static
-final
 int
 TARGET_WINDOW_NONE
 =
 0
 ;
-public
-static
-final
 int
 TARGET_WINDOW_CURRENT
 =
 1
 ;
-public
-static
-final
 int
 TARGET_WINDOW_NEW
 =
@@ -28783,8 +28752,6 @@ redirect
 .
 *
 /
-static
-final
 int
 LOAD_REQUEST_IS_REDIRECT
 =
@@ -28799,8 +28766,6 @@ details
 .
 *
 /
-public
-static
 class
 LoadRequest
 {
@@ -30077,7 +30042,6 @@ prompt
 .
 *
 /
-public
 class
 PromptResponse
 {
@@ -30337,7 +30301,6 @@ prompt
 Prompt
 classes
 .
-public
 class
 BasePrompt
 {
@@ -31176,7 +31139,6 @@ confirmed
 .
 *
 /
-public
 class
 AlertPrompt
 extends
@@ -31256,7 +31218,6 @@ FedCM
 )
 *
 /
-public
 final
 class
 IdentityCredential
@@ -33334,7 +33295,6 @@ content
 .
 *
 /
-public
 class
 ButtonPrompt
 extends
@@ -33602,7 +33562,6 @@ content
 .
 *
 /
-public
 class
 TextPrompt
 extends
@@ -33810,7 +33769,6 @@ content
 .
 *
 /
-public
 class
 AuthPrompt
 extends
@@ -34671,7 +34629,6 @@ content
 .
 *
 /
-public
 class
 ChoicePrompt
 extends
@@ -35801,7 +35758,6 @@ content
 .
 *
 /
-public
 class
 ColorPrompt
 extends
@@ -36014,7 +35970,6 @@ content
 .
 *
 /
-public
 class
 DateTimePrompt
 extends
@@ -36530,7 +36485,6 @@ content
 .
 *
 /
-public
 class
 FilePrompt
 extends
@@ -37466,7 +37420,6 @@ request
 .
 *
 /
-public
 class
 PopupPrompt
 extends
@@ -37647,7 +37600,6 @@ request
 .
 *
 /
-public
 class
 SharePrompt
 extends
@@ -38034,7 +37986,6 @@ requests
 .
 *
 /
-public
 class
 AutocompleteRequest
 <
@@ -47835,7 +47786,6 @@ history
 .
 *
 /
-public
 interface
 HistoryItem
 {
@@ -47984,7 +47934,6 @@ UnsupportedOperationException
 .
 *
 /
-public
 interface
 HistoryList
 extends
@@ -48103,7 +48052,6 @@ window
 .
 *
 /
-final
 int
 VISIT_TOP_LEVEL
 =
@@ -48127,7 +48075,6 @@ redirect
 .
 *
 /
-final
 int
 VISIT_REDIRECT_TEMPORARY
 =
@@ -48151,7 +48098,6 @@ redirect
 .
 *
 /
-final
 int
 VISIT_REDIRECT_PERMANENT
 =
@@ -48174,7 +48120,6 @@ URL
 .
 *
 /
-final
 int
 VISIT_REDIRECT_SOURCE
 =
@@ -48197,7 +48142,6 @@ URL
 .
 *
 /
-final
 int
 VISIT_REDIRECT_SOURCE_PERMANENT
 =
@@ -48224,7 +48168,6 @@ error
 .
 *
 /
-final
 int
 VISIT_UNRECOVERABLE_ERROR
 =

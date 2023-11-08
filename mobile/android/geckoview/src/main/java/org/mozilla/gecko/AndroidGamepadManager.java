@@ -216,7 +216,6 @@ POLL_TIMER_PERIOD
 /
 milliseconds
 private
-static
 enum
 Axis
 {
@@ -250,7 +249,6 @@ final
 int
 axis
 ;
-private
 Axis
 (
 final
@@ -290,7 +288,6 @@ Android
 version
 .
 private
-static
 enum
 Trigger
 {
@@ -308,7 +305,6 @@ final
 int
 button
 ;
-private
 Trigger
 (
 final
@@ -356,7 +352,6 @@ to
 FIRST_DPAD_BUTTON
 .
 private
-static
 enum
 DpadAxis
 {
@@ -392,7 +387,6 @@ final
 int
 positiveButton
 ;
-private
 DpadAxis
 (
 final
@@ -427,7 +421,6 @@ positiveButton
 }
 }
 private
-static
 enum
 Button
 {
@@ -533,7 +526,6 @@ final
 int
 button
 ;
-private
 Button
 (
 final
