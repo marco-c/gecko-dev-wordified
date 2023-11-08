@@ -8158,6 +8158,9 @@ monitor
 record_usage
 (
 )
+        
+return
+status
     
 def
 _build
