@@ -409,13 +409,3 @@ FINAL_LIBRARY
 "
 xul
 "
-TEST_DIRS
-+
-=
-[
-"
-tests
-/
-gtest
-"
-]
