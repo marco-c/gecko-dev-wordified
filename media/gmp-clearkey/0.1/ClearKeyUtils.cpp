@@ -1669,16 +1669,6 @@ sAlphabet
 )
 )
 ;
-out
-[
-i
-]
-=
-sAlphabet
-[
-idx
-]
-;
 }
 return
 true
