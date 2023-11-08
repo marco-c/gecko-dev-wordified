@@ -198,12 +198,6 @@ VibrancyType
 :
 MENU
 :
-case
-VibrancyType
-:
-:
-HIGHLIGHTED_MENUITEM
-:
 /
 /
 Tooltip
@@ -298,12 +292,6 @@ SOURCE_LIST_SELECTION
 return
 NSVisualEffectMaterialSelection
 ;
-case
-VibrancyType
-:
-:
-HIGHLIGHTED_MENUITEM
-:
 case
 VibrancyType
 :
