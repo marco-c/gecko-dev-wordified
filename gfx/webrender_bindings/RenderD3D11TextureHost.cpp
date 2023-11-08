@@ -216,7 +216,7 @@ RenderDXGITextureHost
 :
 RenderDXGITextureHost
 (
-WindowsHandle
+HANDLE
 aHandle
 Maybe
 <
@@ -2550,7 +2550,7 @@ RenderDXGIYCbCrTextureHost
 :
 RenderDXGIYCbCrTextureHost
 (
-WindowsHandle
+HANDLE
 (
 &
 aHandles
