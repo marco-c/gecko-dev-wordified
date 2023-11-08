@@ -12196,7 +12196,6 @@ return
 0
 ;
 }
-;
 static
 intptr_t
 FcntlTrap
