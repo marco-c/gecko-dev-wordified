@@ -159,7 +159,7 @@ DataSlot
 SlotCount
 }
 ;
-ObjectValueWeakMap
+ValueValueWeakMap
 *
 getMap
 (
@@ -168,7 +168,7 @@ getMap
 return
 maybePtrFromReservedSlot
 <
-ObjectValueWeakMap
+ValueValueWeakMap
 >
 (
 DataSlot
