@@ -755,14 +755,6 @@ CONSERVATIVE_DEPTH
 check_feature
 !
 (
-CONSERVATIVE_DEPTH
-130
-300
-)
-;
-check_feature
-!
-(
 NOPERSPECTIVE_QUALIFIER
 130
 )

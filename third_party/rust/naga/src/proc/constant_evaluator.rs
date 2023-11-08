@@ -8630,7 +8630,7 @@ crate
 valid
 :
 :
-validate_literal
+check_literal_value
 (
 literal
 )

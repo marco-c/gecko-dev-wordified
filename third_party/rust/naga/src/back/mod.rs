@@ -1218,15 +1218,9 @@ match
 *
 self
 .
-info
-[
-base
-]
-.
-ty
-.
-inner_with
+resolve_type
 (
+base
 &
 module
 .

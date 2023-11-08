@@ -127,7 +127,7 @@ expression
 :
 :
 {
-validate_literal
+check_literal_value
 LiteralError
 }
 ;

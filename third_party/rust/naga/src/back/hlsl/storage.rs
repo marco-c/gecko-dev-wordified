@@ -3669,15 +3669,9 @@ match
 *
 func_ctx
 .
-info
-[
-next_expr
-]
-.
-ty
-.
-inner_with
+resolve_type
 (
+next_expr
 &
 module
 .
