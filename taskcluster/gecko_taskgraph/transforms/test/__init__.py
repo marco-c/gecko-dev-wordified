@@ -3925,6 +3925,13 @@ worker
 None
 )
         
+(
+"
+confirm_failure
+"
+None
+)
+        
 #
 These
 transforms
