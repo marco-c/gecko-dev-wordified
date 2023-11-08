@@ -491,7 +491,7 @@ availableTargets
 *
 typedef
 {
-String
+string
 }
 Mozilla
 .
@@ -1044,7 +1044,7 @@ pageID
 *
 typedef
 {
-String
+string
 }
 Mozilla
 .
@@ -1255,6 +1255,7 @@ UI
 highlight
 .
 *
+*
 see
 Mozilla
 .
@@ -1336,7 +1337,7 @@ at
 *
 param
 {
-String
+string
 }
 title
 -
@@ -1355,7 +1356,7 @@ panel
 *
 param
 {
-String
+string
 }
 text
 -
@@ -1368,7 +1369,7 @@ panel
 *
 param
 {
-String
+string
 }
 [
 icon
@@ -1408,7 +1409,7 @@ panel
 *
 param
 {
-Object
+object
 [
 ]
 }
@@ -1428,7 +1429,7 @@ buttons
 *
 param
 {
-String
+string
 }
 buttons
 [
@@ -1441,7 +1442,7 @@ label
 *
 param
 {
-String
+string
 }
 buttons
 [
@@ -1455,7 +1456,7 @@ URL
 *
 param
 {
-String
+string
 }
 buttons
 [
@@ -1494,7 +1495,7 @@ clicked
 *
 param
 {
-Object
+object
 }
 [
 options
@@ -1814,6 +1815,7 @@ info
 panels
 .
 *
+*
 see
 Mozilla
 .
@@ -1847,7 +1849,7 @@ hideInfo
 *
 typedef
 {
-String
+string
 }
 Mozilla
 .
@@ -2093,6 +2095,7 @@ tour
 tab
 .
 *
+*
 since
 51
 *
@@ -2129,6 +2132,7 @@ the
 tour
 tab
 .
+*
 *
 since
 70
@@ -2416,7 +2420,7 @@ AppInfo
 *
 property
 {
-Boolean
+boolean
 }
 canSetDefaultBrowserInBackground
 -
@@ -2442,7 +2446,7 @@ interaction
 *
 property
 {
-Boolean
+boolean
 }
 defaultBrowser
 -
@@ -2460,7 +2464,7 @@ Fx40
 *
 property
 {
-String
+string
 }
 defaultUpdateChannel
 -
@@ -2499,7 +2503,7 @@ builds
 *
 property
 {
-String
+string
 }
 distribution
 -
@@ -2534,7 +2538,7 @@ Fx48
 *
 property
 {
-Number
+number
 }
 profileCreatedWeeksAgo
 -
@@ -2567,7 +2571,7 @@ Fx56
 *
 property
 {
-Number
+number
 }
 profileResetWeeksAgo
 -
@@ -2613,7 +2617,7 @@ Fx56
 *
 property
 {
-String
+string
 }
 version
 -
@@ -2675,9 +2679,9 @@ search
 *
 typedef
 {
-String
+string
 |
-Object
+object
 }
 Mozilla
 .
@@ -2689,7 +2693,7 @@ Search
 *
 property
 {
-String
+string
 }
 searchEngineIdentifier
 -
@@ -2702,7 +2706,7 @@ identifier
 *
 property
 {
-String
+string
 [
 ]
 }
@@ -2728,9 +2732,10 @@ device
 counts
 .
 *
+*
 typedef
 {
-Object
+object
 }
 Mozilla
 .
@@ -2742,7 +2747,7 @@ Sync
 *
 property
 {
-Boolean
+boolean
 }
 setup
 -
@@ -2753,7 +2758,7 @@ setup
 *
 property
 {
-Number
+number
 }
 desktopDevices
 -
@@ -2764,7 +2769,7 @@ devices
 *
 property
 {
-Number
+number
 }
 mobileDevices
 -
@@ -2775,7 +2780,7 @@ devices
 *
 property
 {
-Number
+number
 }
 totalDevices
 -
@@ -2809,9 +2814,10 @@ account
 state
 .
 *
+*
 typedef
 {
-Object
+object
 }
 Mozilla
 .
@@ -2823,7 +2829,7 @@ FxA
 *
 property
 {
-Boolean
+boolean
 }
 setup
 -
@@ -2847,7 +2853,7 @@ exist
 *
 property
 {
-Boolean
+boolean
 }
 accountStateOK
 -
@@ -3034,9 +3040,10 @@ server
 error
 .
 *
+*
 typedef
 {
-Object
+object
 }
 Mozilla
 .
@@ -3048,7 +3055,7 @@ FxAConnections
 *
 property
 {
-Boolean
+boolean
 }
 setup
 -
@@ -3072,7 +3079,7 @@ exist
 *
 property
 {
-Number
+number
 }
 [
 numOtherDevices
@@ -3095,10 +3102,9 @@ device
 property
 {
 Object
-.
 <
-String
-Number
+string
+number
 >
 }
 [
@@ -3325,10 +3331,10 @@ Configuration
 .
 AccountService
 *
+*
 typedef
 {
 Object
-.
 <
 string
 Mozilla
@@ -3362,9 +3368,10 @@ an
 account
 service
 *
+*
 typedef
 {
-Object
+object
 }
 Mozilla
 .
@@ -3376,7 +3383,7 @@ AccountService
 *
 property
 {
-String
+string
 }
 id
 -
@@ -3430,7 +3437,7 @@ _
 *
 property
 {
-Number
+number
 }
 lastAccessedWeeksAgo
 -
@@ -3483,7 +3490,7 @@ enabled
 *
 typedef
 {
-Object
+object
 }
 Mozilla
 .
@@ -3540,6 +3547,7 @@ to
 be
 annotated
 .
+*
 *
 typedef
 {
@@ -3681,7 +3689,7 @@ Fx40
 *
 param
 {
-String
+string
 }
 configName
 -
@@ -3701,11 +3709,11 @@ defaultBrowser
 *
 param
 {
-String
+string
 |
-Number
+number
 |
-Boolean
+boolean
 }
 [
 configValue
@@ -3780,7 +3788,7 @@ page
 *
 param
 {
-Object
+object
 }
 extraURLParams
 -
@@ -3894,7 +3902,7 @@ server
 *
 param
 {
-String
+string
 }
 entrypoint
 -
@@ -3908,7 +3916,7 @@ name
 *
 param
 {
-String
+string
 }
 email
 -
@@ -4282,7 +4290,7 @@ page
 *
 param
 {
-Object
+object
 }
 extraURLParams
 -
@@ -4583,6 +4591,7 @@ build
 profile
 .
 *
+*
 since
 48
 *
@@ -4795,7 +4804,7 @@ json
 *
 param
 {
-String
+string
 }
 identifier
 -
@@ -4870,9 +4879,10 @@ in
 FHR
 .
 *
+*
 param
 {
-String
+string
 }
 name
 -
@@ -4884,7 +4894,7 @@ treatment
 *
 param
 {
-String
+string
 }
 value
 -
@@ -4969,7 +4979,7 @@ tag
 *
 param
 {
-String
+string
 }
 name
 -
@@ -5099,7 +5109,7 @@ searchTerm
 *
 param
 {
-String
+string
 }
 term
 -
@@ -5361,7 +5371,7 @@ toggleReaderMode
 *
 param
 {
-String
+string
 }
 pane
 -
