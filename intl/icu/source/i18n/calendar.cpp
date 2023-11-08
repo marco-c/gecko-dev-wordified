@@ -4705,7 +4705,7 @@ SECOND
 MILLISECOND
 {
 -
-16
+24
 *
 kOneHour
 -
