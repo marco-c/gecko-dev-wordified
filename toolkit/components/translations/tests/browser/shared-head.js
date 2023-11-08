@@ -6015,10 +6015,11 @@ closeTranslationsPanelIfOpen
 (
 )
 ;
-gBrowser
+BrowserTestUtils
 .
-removeCurrentTab
+removeTab
 (
+tab
 )
 ;
 await
