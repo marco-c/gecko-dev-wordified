@@ -336,7 +336,7 @@ a
 build
 .
 *
-note
+*
 This
 is
 not
@@ -353,7 +353,8 @@ is
 set
 .
 *
-return
+*
+returns
 {
 bool
 }

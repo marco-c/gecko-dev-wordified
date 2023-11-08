@@ -197,8 +197,16 @@ Bar
 *
 param
 {
+object
+}
+options
+*
+param
+{
 string
 }
+options
+.
 input
 *
 The
@@ -217,6 +225,8 @@ UrlbarTokenizer
 .
 RESTRICT
 }
+options
+.
 token
 *
 A
@@ -745,7 +755,7 @@ loadUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 loadUrl
