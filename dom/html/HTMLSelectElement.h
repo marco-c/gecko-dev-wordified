@@ -1229,6 +1229,14 @@ nsAString
 aError
 )
 ;
+void
+ShowPicker
+(
+ErrorResult
+&
+aRv
+)
+;
 using
 nsINode
 :
