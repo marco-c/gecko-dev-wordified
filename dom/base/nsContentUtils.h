@@ -1965,8 +1965,6 @@ static
 bool
 ShouldResistFingerprinting
 (
-bool
-aIsPrivateMode
 RFPTarget
 aTarget
 )
@@ -7264,7 +7262,6 @@ static
 bool
 IsInPrivateBrowsing
 (
-const
 Document
 *
 aDoc
