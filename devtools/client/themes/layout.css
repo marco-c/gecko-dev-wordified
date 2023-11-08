@@ -1247,6 +1247,13 @@ position
 :
 relative
 ;
+outline
+-
+offset
+:
+-
+2px
+;
 }
 .
 flex
