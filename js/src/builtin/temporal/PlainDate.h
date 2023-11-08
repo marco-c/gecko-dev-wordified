@@ -441,6 +441,9 @@ enum
 class
 TemporalUnit
 ;
+class
+ZonedDateTimeObject
+;
 #
 ifdef
 DEBUG
@@ -553,11 +556,8 @@ options
 )
 *
 /
-Wrapped
-<
 PlainDateObject
 *
->
 ToTemporalDate
 (
 JSContext
@@ -568,8 +568,11 @@ JS
 :
 Handle
 <
-JSObject
+Wrapped
+<
+ZonedDateTimeObject
 *
+>
 >
 item
 )
