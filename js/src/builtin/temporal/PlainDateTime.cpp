@@ -4250,6 +4250,14 @@ weeks
 daysResult
 }
 ;
+MOZ_ASSERT
+(
+IsValidDuration
+(
+duration
+)
+)
+;
 /
 /
 Step
