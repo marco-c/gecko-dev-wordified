@@ -216,6 +216,24 @@ source
 #
 Bug
 1658310
+        
+"
+import
+-
+attributes
+"
+#
+Bug
+1835669
+        
+"
+set
+-
+methods
+"
+#
+Bug
+1805038
     
 ]
 )
