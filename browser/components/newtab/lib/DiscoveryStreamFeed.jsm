@@ -9234,11 +9234,6 @@ this
 config
 .
 enabled
-&
-&
-this
-.
-loaded
 )
 {
 /
