@@ -1924,12 +1924,14 @@ scheme
 =
 aUseContent
 ?
-LookAndFeel
+PreferenceSheet
 :
 :
-PreferredColorSchemeForContent
+ContentPrefs
 (
 )
+.
+mColorScheme
 :
 aDocument
 -

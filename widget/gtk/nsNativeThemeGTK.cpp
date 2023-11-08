@@ -6458,7 +6458,7 @@ aFrame
 )
 =
 =
-LookAndFeel
+PreferenceSheet
 :
 :
 ColorSchemeForChrome
