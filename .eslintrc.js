@@ -1969,16 +1969,6 @@ browser
 /
 components
 /
-syncedtabs
-/
-*
-*
-"
-"
-browser
-/
-components
-/
 tests
 /
 browser
