@@ -295,6 +295,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+PerformanceMainThread
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
