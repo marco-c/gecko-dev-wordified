@@ -5038,10 +5038,8 @@ dateTime
 ;
 /
 /
-Steps
+Step
 1
--
-2
 .
 MOZ_ASSERT
 (
@@ -5062,7 +5060,7 @@ dateTime
 /
 /
 Step
-3
+2
 .
 (
 Not
@@ -5075,7 +5073,7 @@ implementation
 /
 /
 Step
-4
+3
 .
 auto
 roundedTime
@@ -5109,7 +5107,7 @@ days
 /
 /
 Step
-5
+4
 .
 auto
 balanceResult
@@ -5134,7 +5132,7 @@ days
 /
 /
 Step
-6
+5
 .
 return
 {
