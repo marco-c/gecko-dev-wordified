@@ -1378,6 +1378,17 @@ LineContainerFrame
 (
 )
 ;
+if
+(
+!
+containerFrame
+-
+>
+IsRubyTextContainerFrame
+(
+)
+)
+{
 bool
 isFirstLineOrAfterHardBreak
 =
@@ -1560,6 +1571,7 @@ mICoord
 =
 mTextIndent
 ;
+}
 }
 PerFrameData
 *
