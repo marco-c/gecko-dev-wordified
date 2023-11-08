@@ -255,11 +255,6 @@ LinkAdded
 (
 )
 ;
-void
-LinkRemoved
-(
-)
-;
 /
 /
 nsINode
