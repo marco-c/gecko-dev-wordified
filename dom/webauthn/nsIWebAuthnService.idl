@@ -733,5 +733,13 @@ listen
 (
 )
 ;
+void
+runCommand
+(
+in
+ACString
+aCommand
+)
+;
 }
 ;
