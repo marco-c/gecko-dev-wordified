@@ -2053,10 +2053,6 @@ HashMap
 FontKey
 FontSize
 FontInstanceFlags
-Option
-<
-ColorU
->
 SyntheticItalics
 )
 FontInstanceKey
