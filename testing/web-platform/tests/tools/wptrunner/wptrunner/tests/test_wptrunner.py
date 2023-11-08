@@ -17,6 +17,10 @@ test_get_pause_after_test
 (
 )
 :
+#
+type
+:
+ignore
     
 manifest_json
 =
