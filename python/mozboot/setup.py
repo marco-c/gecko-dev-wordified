@@ -53,6 +53,17 @@ MPL
 0
 /
 .
+try
+:
+    
+from
+setuptools
+import
+setup
+except
+ImportError
+:
+    
 from
 distutils
 .
