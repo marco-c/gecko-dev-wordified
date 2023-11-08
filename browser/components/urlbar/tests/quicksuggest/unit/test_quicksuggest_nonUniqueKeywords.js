@@ -1276,6 +1276,13 @@ nonsponsored
 nonsponsored
 )
 ;
+await
+QuickSuggestTestUtils
+.
+forceSync
+(
+)
+;
 /
 /
 Set
@@ -1396,6 +1403,13 @@ quicksuggest
 nonsponsored
 "
 true
+)
+;
+await
+QuickSuggestTestUtils
+.
+forceSync
+(
 )
 ;
 }
