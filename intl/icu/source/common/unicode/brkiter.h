@@ -5284,6 +5284,12 @@ validLocale
 ULOC_FULLNAME_CAPACITY
 ]
 ;
+char
+requestLocale
+[
+ULOC_FULLNAME_CAPACITY
+]
+;
 }
 ;
 #
