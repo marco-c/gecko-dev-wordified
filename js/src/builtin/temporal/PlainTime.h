@@ -820,6 +820,9 @@ nanosecond
 ToTemporalTimeRecord
 (
 temporalTimeLike
+[
+completeness
+]
 )
 *
 /
