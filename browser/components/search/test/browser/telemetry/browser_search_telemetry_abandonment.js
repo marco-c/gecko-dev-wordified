@@ -99,11 +99,13 @@ Ad
 )
 ?
 /
-queryParamName
+queryParamNames
 :
+[
 "
 s
 "
+]
 codeParamName
 :
 "
@@ -387,7 +389,7 @@ serpUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 otherWindow
 .
@@ -482,7 +484,7 @@ com
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 "
@@ -604,7 +606,7 @@ serpUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 serpUrl
@@ -1096,7 +1098,7 @@ com
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 "

@@ -150,11 +150,13 @@ _href
 .
 html
 /
-queryParamName
+queryParamNames
 :
+[
 "
 s
 "
+]
 codeParamName
 :
 "

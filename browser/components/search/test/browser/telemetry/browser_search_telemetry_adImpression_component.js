@@ -129,11 +129,13 @@ telemetry
 /
 searchTelemetryAd
 /
-queryParamName
+queryParamNames
 :
+[
 "
 s
 "
+]
 codeParamName
 :
 "
@@ -1106,7 +1108,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
