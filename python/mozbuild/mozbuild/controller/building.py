@@ -2677,28 +2677,6 @@ None
 try
 :
             
-usage
-=
-self
-.
-get_resource_usage
-(
-)
-            
-if
-not
-usage
-:
-                
-return
-            
-self
-.
-log_resource_usage
-(
-usage
-)
-            
 #
 When
 running
@@ -10098,6 +10076,13 @@ usage
 ]
 =
 usage
+                
+monitor
+.
+log_resource_usage
+(
+usage
+)
         
 #
 Print
