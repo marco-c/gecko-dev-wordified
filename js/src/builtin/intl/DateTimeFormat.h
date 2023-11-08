@@ -486,10 +486,13 @@ Usage
 :
 dateTimeFormat
 =
-intl_DateTimeFormat
+intl_CreateDateTimeFormat
 (
 locales
 options
+required
+*
+defaults
 )
 *
 /
@@ -500,7 +503,7 @@ nodiscard
 ]
 extern
 bool
-intl_DateTimeFormat
+intl_CreateDateTimeFormat
 (
 JSContext
 *
