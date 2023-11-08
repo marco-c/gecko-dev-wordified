@@ -129,13 +129,11 @@ telemetry
 /
 searchTelemetryAd
 /
-queryParamNames
+queryParamName
 :
-[
 "
 s
 "
-]
 codeParamName
 :
 "

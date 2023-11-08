@@ -208,13 +208,11 @@ telemetry
 /
 searchTelemetry
 /
-queryParamNames
+queryParamName
 :
-[
 "
 s
 "
-]
 codeParamName
 :
 "

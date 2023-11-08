@@ -145,13 +145,11 @@ _on_load_event
 .
 html
 /
-queryParamNames
+queryParamName
 :
-[
 "
 s
 "
-]
 codeParamName
 :
 "
