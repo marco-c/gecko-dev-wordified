@@ -2940,6 +2940,13 @@ sponsored
 true
 )
 ;
+await
+QuickSuggestTestUtils
+.
+forceSync
+(
+)
+;
 gClient
 .
 resetSession

@@ -642,6 +642,13 @@ showLessFrequentlyCount
 await
 QuickSuggestTestUtils
 .
+forceSync
+(
+)
+;
+await
+QuickSuggestTestUtils
+.
 setConfig
 (
 {
@@ -935,6 +942,13 @@ await
 SpecialPowers
 .
 popPrefEnv
+(
+)
+;
+await
+QuickSuggestTestUtils
+.
+forceSync
 (
 )
 ;

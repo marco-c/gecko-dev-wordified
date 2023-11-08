@@ -528,6 +528,13 @@ popPrefEnv
 (
 )
 ;
+await
+QuickSuggestTestUtils
+.
+forceSync
+(
+)
+;
 }
 )
 ;
