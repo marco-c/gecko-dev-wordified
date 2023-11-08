@@ -544,6 +544,7 @@ nsRFPService
 :
 IsRFPEnabledFor
 (
+mIsPrivateBrowsing
 aTarget
 mOverriddenFingerprintingSettings
 )
@@ -661,6 +662,8 @@ mWorkletThread
 ;
 bool
 mTerminated
+:
+1
 ;
 /
 /
@@ -679,6 +682,8 @@ mGlobalScope
 ;
 bool
 mFinishedOnExecutionThread
+:
+1
 ;
 Maybe
 <
@@ -688,9 +693,18 @@ mAgentClusterId
 ;
 bool
 mSharedMemoryAllowed
+:
+1
 ;
 bool
 mShouldResistFingerprinting
+:
+1
+;
+bool
+mIsPrivateBrowsing
+:
+1
 ;
 /
 /
