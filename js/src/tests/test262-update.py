@@ -216,17 +216,6 @@ source
 #
 Bug
 1658310
-        
-"
-promise
--
-with
--
-resolvers
-"
-#
-Bug
-1845586
     
 ]
 )
