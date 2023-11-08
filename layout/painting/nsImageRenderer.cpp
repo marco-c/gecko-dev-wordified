@@ -452,6 +452,13 @@ aImage
 >
 GetResolution
 (
+*
+aForFrame
+-
+>
+Style
+(
+)
 )
 )
 mType
@@ -1571,7 +1578,7 @@ result
 mRatio
 )
 {
-nscoord
+CSSIntCoord
 intrinsicHeight
 =
 result
@@ -1618,7 +1625,7 @@ result
 mRatio
 )
 {
-nscoord
+CSSIntCoord
 intrinsicWidth
 =
 result

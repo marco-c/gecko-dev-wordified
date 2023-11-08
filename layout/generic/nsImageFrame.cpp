@@ -5851,6 +5851,12 @@ GetImageFromStyle
 >
 GetResolution
 (
+*
+aFrame
+.
+Style
+(
+)
 )
 )
 ;
