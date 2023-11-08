@@ -720,16 +720,8 @@ else
 aMarks
 -
 >
-ElementAt
+LastElement
 (
-aMarks
--
->
-Length
-(
-)
--
-1
 )
 .
 angle
