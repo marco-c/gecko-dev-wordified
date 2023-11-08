@@ -154,6 +154,11 @@ InitPHCState
 (
 )
 ;
+void
+ReportPHCTelemetry
+(
+)
+;
 }
 ;
 /
