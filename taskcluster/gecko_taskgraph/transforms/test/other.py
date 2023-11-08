@@ -7137,6 +7137,11 @@ hw
 -
 2017
 "
+"
+hw
+-
+ref
+"
 )
         
 }
@@ -7546,6 +7551,12 @@ hw
 -
 2017
 "
+        
+"
+hw
+-
+ref
+"
     
 ]
     
@@ -7926,6 +7937,8 @@ pop
             
 if
 parts
+and
+parts
 [
 0
 ]
@@ -7950,6 +7963,33 @@ pop
 )
             
 if
+parts
+and
+parts
+[
+0
+]
+=
+=
+"
+hw
+-
+ref
+"
+:
+                
+machine
+=
+parts
+.
+pop
+(
+0
+)
+            
+if
+parts
+and
 parts
 [
 0
