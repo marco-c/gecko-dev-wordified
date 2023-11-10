@@ -186,6 +186,14 @@ nsIWebAuthnService
 :
 nsISupports
 {
+/
+/
+IsUserVerifyingPlatformAuthenticatorAvailable
+readonly
+attribute
+bool
+isUVPAA
+;
 void
 makeCredential
 (
