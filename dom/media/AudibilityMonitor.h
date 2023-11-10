@@ -303,14 +303,13 @@ GetDuration
 void
 ProcessPlanar
 (
-const
-nsTArray
+Span
 <
 const
 float
 *
+const
 >
-&
 aPlanar
 TrackTime
 aFrames

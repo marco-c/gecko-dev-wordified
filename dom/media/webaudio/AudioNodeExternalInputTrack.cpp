@@ -401,14 +401,7 @@ blockChannels
 }
 else
 {
-const
-nsTArray
-<
-const
-T
-*
->
-&
+Span
 inputChannels
 =
 aInput

@@ -1492,7 +1492,15 @@ mLastReadChunk
 aNewReadChunk
 ;
 mUpmixChannels
-=
+.
+ClearAndRetainStorage
+(
+)
+;
+mUpmixChannels
+.
+AppendElements
+(
 mChunks
 [
 aNewReadChunk
@@ -1503,6 +1511,7 @@ ChannelData
 float
 >
 (
+)
 )
 ;
 MOZ_ASSERT
