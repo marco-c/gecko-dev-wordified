@@ -95,10 +95,6 @@ mozbuild
 base
 import
 MozbuildObject
-from
-six
-import
-iteritems
 here
 =
 os
@@ -2184,9 +2180,10 @@ for
 url_base
 paths
 in
-iteritems
-(
 test_paths
+.
+items
+(
 )
 :
                 
@@ -2680,9 +2677,10 @@ for
 url_base
 paths
 in
-iteritems
-(
 test_paths
+.
+items
+(
 )
 :
             
