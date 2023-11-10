@@ -320,7 +320,7 @@ h
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 #
 include
 "
@@ -1515,7 +1515,7 @@ lineno
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 :
@@ -1564,10 +1564,7 @@ len
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
-:
-:
-zero
+LimitedColumnNumberOneOrigin
 (
 )
 )
@@ -1584,7 +1581,7 @@ lineno
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 {
@@ -1694,7 +1691,7 @@ units
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 FunctionKey
