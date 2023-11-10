@@ -28534,9 +28534,6 @@ JS
 :
 :
 ColumnNumberOneOrigin
-:
-:
-zero
 (
 )
 nullptr
