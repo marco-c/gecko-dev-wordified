@@ -205,10 +205,6 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
-JS
-:
-:
 ColumnNumberOneOrigin
 #
 include
@@ -1833,10 +1829,7 @@ unwrapErr
 JS
 :
 :
-ColumnNumberZeroOrigin
-:
-:
-zero
+ColumnNumberOneOrigin
 (
 )
 &
@@ -2427,10 +2420,7 @@ unwrapErr
 JS
 :
 :
-ColumnNumberZeroOrigin
-:
-:
-zero
+ColumnNumberOneOrigin
 (
 )
 &
@@ -4643,7 +4633,7 @@ aLineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 aColumnNumber
 JS
 :
@@ -4794,13 +4784,7 @@ JSEXN_TYPEERR
 nullptr
 filename
 aLineNumber
-JS
-:
-:
-ColumnNumberOneOrigin
-(
 aColumnNumber
-)
 nullptr
 string
 JS
@@ -5403,7 +5387,7 @@ lineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber
 ;
 JS

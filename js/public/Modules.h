@@ -178,7 +178,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 #
 include
 "
@@ -1825,7 +1825,7 @@ lineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 *
 columnNumber
 )

@@ -155,7 +155,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 #
 include
 "
@@ -2563,7 +2563,7 @@ aLineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 aColumnNumber
 JS
 :
