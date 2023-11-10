@@ -446,7 +446,7 @@ requestedModules
 ]
 .
 columnNumber
-14
+15
 )
 ;
 testGetter
@@ -621,7 +621,7 @@ importEntries
 ]
 .
 columnNumber
-8
+9
 )
 ;
 testGetter
@@ -826,7 +826,7 @@ localExportEntries
 ]
 .
 columnNumber
-0
+1
 )
 ;
 testGetter
@@ -1036,7 +1036,7 @@ indirectExportEntries
 ]
 .
 columnNumber
-8
+9
 )
 ;
 /
@@ -1154,7 +1154,7 @@ starExportEntries
 ]
 .
 columnNumber
-7
+8
 )
 ;
 /

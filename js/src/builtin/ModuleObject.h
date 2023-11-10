@@ -228,7 +228,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 #
 include
 "
@@ -553,7 +553,7 @@ const
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber_
 ;
 public
@@ -583,7 +583,7 @@ lineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber
 )
 ;
@@ -633,7 +633,7 @@ lineNumber_
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber
 (
 )
@@ -727,7 +727,7 @@ const
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber_
 ;
 public
@@ -763,7 +763,7 @@ lineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber
 )
 ;
@@ -824,7 +824,7 @@ lineNumber_
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber
 (
 )
@@ -894,7 +894,7 @@ const
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber_
 ;
 public
@@ -912,7 +912,7 @@ lineNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber
 )
 ;
@@ -940,7 +940,7 @@ lineNumber_
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNumber
 (
 )

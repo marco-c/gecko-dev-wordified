@@ -284,7 +284,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 #
 include
 "
@@ -4492,7 +4492,7 @@ units
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 ;
 private
@@ -4504,7 +4504,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 )
 :
@@ -4740,7 +4740,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 )
 {
@@ -4785,7 +4785,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 )
 {
@@ -4848,7 +4848,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 )
 {
@@ -4902,7 +4902,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 )
 {
@@ -4952,7 +4952,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 )
 {
@@ -5015,7 +5015,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 )
 {
@@ -5070,7 +5070,7 @@ lineno
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 )
 {
