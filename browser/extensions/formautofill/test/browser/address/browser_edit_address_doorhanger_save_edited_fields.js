@@ -180,7 +180,7 @@ level1
 "
 :
 "
-California
+CA
 "
 tel
 :
@@ -411,8 +411,8 @@ description
 }
 )
 ;
-const
-onSavePopupShown
+let
+onPopupShown
 =
 waitForPopupShown
 (
@@ -441,10 +441,9 @@ SUBMIT_RECORD
 )
 ;
 await
-onSavePopupShown
+onPopupShown
 ;
-const
-onEditPopupShown
+onPopupShown
 =
 waitForPopupShown
 (
@@ -457,7 +456,7 @@ EDIT_ADDRESS_BUTTON
 )
 ;
 await
-onEditPopupShown
+onPopupShown
 ;
 fillEditDoorhanger
 (
