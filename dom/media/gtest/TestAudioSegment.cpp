@@ -1421,10 +1421,16 @@ channel
 ;
 }
 AudioChannelsDownMix
+<
+T
+>
 (
 inputptr
+Span
+(
 output
 1
+)
 arraySize
 )
 ;

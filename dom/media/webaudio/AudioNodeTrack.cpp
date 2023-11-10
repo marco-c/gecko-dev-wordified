@@ -2453,14 +2453,12 @@ WEBAUDIO_BLOCK_SIZE
 ;
 }
 AudioChannelsDownMix
+<
+float
+>
 (
 aOutputChannels
 outputChannels
-.
-Elements
-(
-)
-aOutputChannelCount
 WEBAUDIO_BLOCK_SIZE
 )
 ;

@@ -904,14 +904,12 @@ i
 ;
 }
 AudioChannelsDownMix
+<
+SrcT
+>
 (
 aChannelData
 outputChannelData
-.
-Elements
-(
-)
-aOutputChannels
 aDuration
 )
 ;
