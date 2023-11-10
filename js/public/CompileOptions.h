@@ -641,7 +641,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 #
 include
 "
@@ -2960,7 +2960,7 @@ units
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 ;
 /
@@ -3994,7 +3994,7 @@ setColumn
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 c
 )
 {

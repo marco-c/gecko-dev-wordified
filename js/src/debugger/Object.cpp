@@ -346,6 +346,10 @@ JS
 :
 :
 ColumnNumberZeroOrigin
+JS
+:
+:
+ColumnNumberOneOrigin
 #
 include
 "
@@ -7837,9 +7841,15 @@ column
 JS
 :
 :
+ColumnNumberOneOrigin
+(
+JS
+:
+:
 ColumnNumberZeroOrigin
 (
 startColumn
+)
 )
 ;
 if

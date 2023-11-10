@@ -262,7 +262,7 @@ WasmFunctionIndex
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 #
 include
 "
@@ -3993,7 +3993,7 @@ setColumn
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 (
 ss
 -

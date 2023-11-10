@@ -165,6 +165,10 @@ JS
 :
 :
 ColumnNumberZeroOrigin
+JS
+:
+:
+ColumnNumberOneOrigin
 #
 include
 "
@@ -722,9 +726,15 @@ setColumn
 JS
 :
 :
+ColumnNumberOneOrigin
+(
+JS
+:
+:
 ColumnNumberZeroOrigin
 (
 c
+)
 )
 )
 ;
