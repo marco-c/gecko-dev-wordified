@@ -254,10 +254,6 @@ JS
 :
 :
 ColumnNumberOneOrigin
-JS
-:
-:
-TaggedColumnNumberZeroOrigin
 #
 include
 "

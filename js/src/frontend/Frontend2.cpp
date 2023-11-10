@@ -3801,10 +3801,7 @@ columnNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
-:
-:
-zero
+ColumnNumberOneOrigin
 (
 )
 ;

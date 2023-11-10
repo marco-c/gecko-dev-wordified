@@ -313,7 +313,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 #
 include
 "
@@ -701,10 +701,7 @@ columnNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
-:
-:
-zero
+ColumnNumberOneOrigin
 (
 )
 ;

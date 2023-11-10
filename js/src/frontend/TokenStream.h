@@ -2007,6 +2007,10 @@ JS
 :
 :
 ColumnNumberZeroOrigin
+JS
+:
+:
+ColumnNumberOneOrigin
 #
 include
 "
@@ -14479,9 +14483,13 @@ columnNumber
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 (
 columnNumber
+.
+oneOriginValue
+(
+)
 )
 ;
 return
