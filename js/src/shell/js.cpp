@@ -34581,6 +34581,11 @@ parser
 parse
 (
 )
+.
+unwrapOr
+(
+nullptr
+)
 ;
 }
 else
@@ -34623,6 +34628,11 @@ moduleBody
 (
 &
 modulesc
+)
+.
+unwrapOr
+(
+nullptr
 )
 ;
 }
@@ -36803,6 +36813,10 @@ succeeded
 parser
 .
 parse
+(
+)
+.
+isOk
 (
 )
 ;

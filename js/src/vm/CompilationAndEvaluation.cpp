@@ -1561,10 +1561,13 @@ checkOptions
 )
 |
 |
-!
 parser
 .
 parse
+(
+)
+.
+isErr
 (
 )
 )

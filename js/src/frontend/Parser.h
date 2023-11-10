@@ -6070,7 +6070,7 @@ script
 .
 *
 /
-ListNodeType
+ListNodeResult
 parse
 (
 )
@@ -9880,7 +9880,7 @@ Parse
 a
 module
 .
-ModuleNodeType
+ModuleNodeResult
 moduleBody
 (
 ModuleSharedContext
@@ -10719,7 +10719,7 @@ Parse
 a
 module
 .
-ModuleNodeType
+ModuleNodeResult
 moduleBody
 (
 ModuleSharedContext
@@ -10909,7 +10909,7 @@ fresh
 lexical
 scope
 .
-LexicalScopeNodeType
+LexicalScopeNodeResult
 evalBody
 (
 EvalSharedContext
@@ -11010,7 +11010,7 @@ a
 global
 script
 .
-ListNodeType
+ListNodeResult
 globalBody
 (
 GlobalSharedContext
