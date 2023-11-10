@@ -10432,6 +10432,13 @@ DeleteProperty
 <
 SVGRenderingObserverSet
 >
+/
+*
+aTransfer
+=
+*
+/
+true
 )
 ;
 }
