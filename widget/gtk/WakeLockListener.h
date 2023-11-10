@@ -280,13 +280,10 @@ set
 of
 topics
 .
-nsClassHashtable
+nsRefPtrHashtable
 <
 nsStringHashKey
-RefPtr
-<
 WakeLockTopic
->
 >
 mTopics
 ;
