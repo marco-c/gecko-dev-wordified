@@ -679,15 +679,6 @@ Create
 cx
 this
 mRawMessage
-.
-Length
-(
-)
-mRawMessage
-.
-Elements
-(
-)
 )
 ;
 if

@@ -1805,15 +1805,6 @@ Create
 (
 cx
 aData
-.
-Length
-(
-)
-aData
-.
-Elements
-(
-)
 )
 ;
 if

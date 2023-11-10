@@ -254,15 +254,6 @@ Create
 (
 aCx
 aArray
-.
-Length
-(
-)
-aArray
-.
-Elements
-(
-)
 )
 )
 ;
