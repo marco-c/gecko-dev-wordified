@@ -5832,7 +5832,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 column
 )
@@ -5870,10 +5870,16 @@ lineToken
 *
 column
 =
+JS
+:
+:
+LimitedColumnNumberOneOrigin
+(
 computeColumn
 (
 lineToken
 offset
+)
 )
 ;
 }
@@ -6184,7 +6190,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 computeLineAndColumn

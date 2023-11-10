@@ -225,6 +225,10 @@ JS
 :
 :
 LimitedColumnNumberZeroOrigin
+JS
+:
+:
+LimitedColumnNumberOneOrigin
 #
 include
 "
@@ -3866,7 +3870,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 {
@@ -3892,7 +3896,13 @@ extent_
 .
 column
 =
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
+(
 column
+)
 ;
 }
 void

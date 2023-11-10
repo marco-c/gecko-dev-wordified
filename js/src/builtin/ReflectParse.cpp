@@ -216,6 +216,10 @@ JS
 :
 :
 LimitedColumnNumberZeroOrigin
+JS
+:
+:
+LimitedColumnNumberOneOrigin
 #
 include
 "
@@ -4083,7 +4087,7 @@ endLineNum
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 startColumnIndex
 endColumnIndex
 ;

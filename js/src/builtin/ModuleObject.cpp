@@ -239,7 +239,7 @@ ColumnNumberOneOrigin
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 #
 include
 "
@@ -11120,7 +11120,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 eitherParser_
@@ -11260,10 +11260,6 @@ JS
 ColumnNumberOneOrigin
 (
 column
-.
-oneOriginValue
-(
-)
 )
 )
 ;
@@ -11349,10 +11345,6 @@ JS
 ColumnNumberOneOrigin
 (
 column
-.
-oneOriginValue
-(
-)
 )
 )
 ;
@@ -12843,7 +12835,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 eitherParser_
@@ -12982,10 +12974,6 @@ JS
 ColumnNumberOneOrigin
 (
 column
-.
-oneOriginValue
-(
-)
 )
 )
 ;
@@ -13062,10 +13050,6 @@ JS
 ColumnNumberOneOrigin
 (
 column
-.
-oneOriginValue
-(
-)
 )
 )
 ;
@@ -13101,10 +13085,6 @@ JS
 ColumnNumberOneOrigin
 (
 column
-.
-oneOriginValue
-(
-)
 )
 )
 ;
@@ -13260,7 +13240,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 if
@@ -13315,10 +13295,6 @@ JS
 ColumnNumberOneOrigin
 (
 column
-.
-oneOriginValue
-(
-)
 )
 )
 ;
@@ -13501,7 +13477,7 @@ line
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 eitherParser_
@@ -13539,10 +13515,6 @@ JS
 ColumnNumberOneOrigin
 (
 column
-.
-oneOriginValue
-(
-)
 )
 )
 ;
