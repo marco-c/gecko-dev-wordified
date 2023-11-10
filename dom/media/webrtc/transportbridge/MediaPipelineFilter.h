@@ -154,6 +154,15 @@ vector
 #
 include
 "
+api
+/
+rtp_parameters
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -165,9 +174,6 @@ webrtc
 {
 struct
 RTPHeader
-;
-struct
-RtpExtension
 ;
 }
 /
