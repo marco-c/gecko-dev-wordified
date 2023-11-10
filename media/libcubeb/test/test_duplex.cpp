@@ -328,8 +328,6 @@ invalid_audio_value
 =
 1
 ;
-break
-;
 }
 ob
 [
