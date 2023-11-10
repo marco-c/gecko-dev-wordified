@@ -141,7 +141,7 @@ h
 #
 include
 "
-nsClassHashtable
+nsRefPtrHashtable
 .
 h
 "
@@ -280,13 +280,10 @@ set
 of
 topics
 .
-nsClassHashtable
+nsRefPtrHashtable
 <
 nsStringHashKey
-RefPtr
-<
 WakeLockTopic
->
 >
 mTopics
 ;
