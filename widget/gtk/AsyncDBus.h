@@ -266,14 +266,6 @@ GCancellable
 nullptr
 )
 ;
-bool
-IsCancelledGError
-(
-GError
-*
-aGError
-)
-;
 }
 /
 /

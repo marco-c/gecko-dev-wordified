@@ -140,6 +140,11 @@ _GdkDevice
 GdkDevice
 ;
 typedef
+struct
+_GError
+GError
+;
+typedef
 union
 _GdkEvent
 GdkEvent
@@ -438,6 +443,14 @@ FocusRequestPromise
 >
 RequestWaylandFocusPromise
 (
+)
+;
+bool
+IsCancelledGError
+(
+GError
+*
+aGError
 )
 ;
 }
