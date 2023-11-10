@@ -688,12 +688,6 @@ PWindowsUtilsChild
 >
 mWindowsUtilsInstance
 ;
-RefPtr
-<
-PWinFileDialogChild
->
-mFileDialogInstance
-;
 #
 endif
 AsyncBlockers
