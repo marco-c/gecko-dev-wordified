@@ -3629,6 +3629,12 @@ wgt
 :
 :
 TextureFormat
+usage
+:
+wgt
+:
+:
+TextureUsages
 )
 -
 >
@@ -3886,6 +3892,9 @@ height
 desc
 .
 format
+desc
+.
+usage
 )
 }
 ;

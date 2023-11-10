@@ -147,6 +147,12 @@ ffi
 :
 WGPUTextureFormat
 aFormat
+const
+ffi
+:
+:
+WGPUTextureUsages
+aUsage
 )
 {
 UniquePtr
@@ -168,6 +174,7 @@ Create
 aWidth
 aHeight
 aFormat
+aUsage
 )
 ;
 #
@@ -194,6 +201,12 @@ ffi
 :
 WGPUTextureFormat
 aFormat
+const
+ffi
+:
+:
+WGPUTextureUsages
+aUsage
 )
 :
 mWidth
@@ -207,6 +220,10 @@ aHeight
 mFormat
 (
 aFormat
+)
+mUsage
+(
+aUsage
 )
 {
 }
