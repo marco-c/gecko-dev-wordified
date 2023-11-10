@@ -12393,6 +12393,10 @@ self
 .
 first_token_type
 custom_properties
+&
+self
+.
+url_data
 stylist
 computed_context
 )
@@ -17696,6 +17700,10 @@ SpecifiedValue
 parse
 (
 input
+&
+context
+.
+url_data
 )
 ?
 )

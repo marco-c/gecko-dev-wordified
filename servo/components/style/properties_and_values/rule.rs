@@ -185,15 +185,6 @@ use
 crate
 :
 :
-stylesheets
-:
-:
-UrlExtraData
-;
-use
-crate
-:
-:
 values
 :
 :
@@ -740,9 +731,6 @@ initial_value
 as_ref
 (
 )
-context
-.
-url_data
 )
 .
 is_err
@@ -1631,10 +1619,6 @@ Option
 &
 InitialValue
 >
-url_data
-:
-&
-UrlExtraData
 )
 -
 >
@@ -1898,6 +1882,9 @@ parse
 mut
 input
 syntax
+&
+initial
+.
 url_data
 AllowComputationallyDependent
 :
@@ -2324,7 +2311,7 @@ i
 t
 >
 (
-_context
+context
 :
 &
 ParserContext
@@ -2364,6 +2351,10 @@ SpecifiedValue
 parse
 (
 input
+&
+context
+.
+url_data
 )
 }
 }
