@@ -448,17 +448,6 @@ kwargs
 )
             
 "
-e10s
-"
-:
-run_info_data
-[
-"
-e10s
-"
-]
-            
-"
 disable_fission
 "
 :
@@ -663,39 +652,11 @@ fx_run_info_extras
 kwargs
 )
     
-package
-=
-kwargs
-[
-"
-package_name
-"
-]
-    
 rv
 .
 update
 (
 {
-"
-e10s
-"
-:
-True
-if
-package
-is
-not
-None
-and
-"
-geckoview
-"
-in
-package
-else
-False
-               
 "
 headless
 "
@@ -854,7 +815,6 @@ config
 test_type
 extra_prefs
                          
-True
 disable_fission
 debug_test
 browser_channel
@@ -920,18 +880,6 @@ False
 dom
 .
 send_after_paint_to_content
-"
-:
-True
-            
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
 "
 :
 True
@@ -1148,9 +1096,6 @@ None
 ca_certificate_path
 =
 None
-e10s
-=
-False
 stackfix_dir
 =
 None
@@ -1267,12 +1212,6 @@ self
 ca_certificate_path
 =
 ca_certificate_path
-        
-self
-.
-e10s
-=
-True
         
 self
 .
@@ -2360,9 +2299,6 @@ None
 ca_certificate_path
 =
 None
-e10s
-=
-False
                  
 disable_fission
 =
@@ -2449,9 +2385,6 @@ certutil_binary
 ca_certificate_path
 =
 ca_certificate_path
-e10s
-=
-e10s
                          
 disable_fission
 =

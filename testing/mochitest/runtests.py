@@ -16091,6 +16091,24 @@ MOZ_HEADLESS
 "
         
 if
+not
+options
+.
+e10s
+:
+            
+browserEnv
+[
+"
+MOZ_FORCE_DISABLE_E10S
+"
+]
+=
+"
+1
+"
+        
+if
 options
 .
 dmd
@@ -19610,20 +19628,6 @@ profile
 prefs
 =
 {
-            
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-:
-options
-.
-e10s
             
 #
 Enable

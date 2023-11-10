@@ -256,24 +256,6 @@ required_prefs
 )
 :
             
-if
-key
-in
-[
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-]
-:
-                
-return
-            
 self
 .
 assertEqual

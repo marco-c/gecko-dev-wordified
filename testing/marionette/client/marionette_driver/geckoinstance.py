@@ -3590,24 +3590,6 @@ resume_from_crash
 "
 :
 False
-        
-#
-Disable
-e10s
-by
-default
-        
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-:
-False
     
 }
     
