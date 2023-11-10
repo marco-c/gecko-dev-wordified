@@ -133,7 +133,7 @@ h
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 #
 include
 "
@@ -281,7 +281,7 @@ units
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 colno
 ;
 }
