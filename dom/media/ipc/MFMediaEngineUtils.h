@@ -768,6 +768,15 @@ GUID
 aGuidOut
 )
 ;
+BSTR
+CreateBSTRFromConstChar
+(
+const
+char
+*
+aNarrowStr
+)
+;
 /
 /
 See
