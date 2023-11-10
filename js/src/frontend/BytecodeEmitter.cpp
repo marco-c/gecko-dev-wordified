@@ -701,7 +701,7 @@ h
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 JS
 :
 :
@@ -4207,7 +4207,7 @@ ptrdiff_t
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 :
 :
 Limit
@@ -4232,7 +4232,7 @@ ptrdiff_t
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 :
 :
 Limit
@@ -4351,13 +4351,7 @@ if
 !
 convertLastNewLineToNewLineColumn
 (
-JS
-:
-:
-LimitedColumnNumberZeroOrigin
-(
 columnIndex
-)
 )
 )
 {
@@ -4384,13 +4378,7 @@ if
 !
 convertLastSetLineToSetLineColumn
 (
-JS
-:
-:
-LimitedColumnNumberZeroOrigin
-(
 columnIndex
-)
 )
 )
 {
@@ -78827,7 +78815,7 @@ convertLastNewLineToNewLineColumn
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 {
@@ -78934,7 +78922,7 @@ convertLastSetLineToSetLineColumn
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 {
