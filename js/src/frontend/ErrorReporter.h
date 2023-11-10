@@ -175,7 +175,7 @@ h
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 #
 include
 "
@@ -2085,7 +2085,7 @@ virtual
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 columnAt
 (
 size_t

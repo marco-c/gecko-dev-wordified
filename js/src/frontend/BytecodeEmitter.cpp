@@ -4174,6 +4174,11 @@ JS
 LimitedColumnNumberZeroOrigin
 columnIndex
 =
+JS
+:
+:
+LimitedColumnNumberZeroOrigin
+(
 errorReporter
 (
 )
@@ -4181,6 +4186,7 @@ errorReporter
 columnAt
 (
 offset
+)
 )
 ;
 /
