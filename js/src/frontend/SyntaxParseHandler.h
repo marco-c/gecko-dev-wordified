@@ -1344,7 +1344,7 @@ DECLARE_AS
 #
 undef
 DECLARE_AS
-NameNodeType
+NameNodeResult
 newName
 (
 TaggedParserAtomIndex
@@ -1440,7 +1440,7 @@ return
 NodeName
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newComputedName
 (
 Node
@@ -1455,7 +1455,7 @@ return
 NodeGeneric
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newSyntheticComputedName
 (
 Node
@@ -1470,7 +1470,7 @@ return
 NodeGeneric
 ;
 }
-NameNodeType
+NameNodeResult
 newObjectLiteralPropertyName
 (
 TaggedParserAtomIndex
@@ -1485,7 +1485,7 @@ return
 NodeName
 ;
 }
-NameNodeType
+NameNodeResult
 newPrivateName
 (
 TaggedParserAtomIndex
@@ -1500,7 +1500,7 @@ return
 NodePrivateName
 ;
 }
-NumericLiteralType
+NumericLiteralResult
 newNumber
 (
 double
@@ -1517,7 +1517,7 @@ return
 NodeGeneric
 ;
 }
-BigIntLiteralType
+BigIntLiteralResult
 newBigInt
 (
 )
@@ -1526,7 +1526,7 @@ return
 NodeGeneric
 ;
 }
-BooleanLiteralType
+BooleanLiteralResult
 newBooleanLiteral
 (
 bool
@@ -1541,7 +1541,7 @@ return
 NodeGeneric
 ;
 }
-NameNodeType
+NameNodeResult
 newStringLiteral
 (
 TaggedParserAtomIndex
@@ -1564,7 +1564,7 @@ return
 NodeUnparenthesizedString
 ;
 }
-NameNodeType
+NameNodeResult
 newTemplateStringLiteral
 (
 TaggedParserAtomIndex
@@ -1579,7 +1579,7 @@ return
 NodeGeneric
 ;
 }
-CallSiteNodeType
+CallSiteNodeResult
 newCallSiteObject
 (
 uint32_t
@@ -1602,7 +1602,7 @@ cookedNode
 )
 {
 }
-ThisLiteralType
+ThisLiteralResult
 newThisLiteral
 (
 const
@@ -1617,7 +1617,7 @@ return
 NodeGeneric
 ;
 }
-NullLiteralType
+NullLiteralResult
 newNullLiteral
 (
 const
@@ -1630,7 +1630,7 @@ return
 NodeGeneric
 ;
 }
-RawUndefinedLiteralType
+RawUndefinedLiteralResult
 newRawUndefinedLiteral
 (
 const
@@ -1643,7 +1643,7 @@ return
 NodeGeneric
 ;
 }
-RegExpLiteralType
+RegExpLiteralResult
 newRegExp
 (
 Node
@@ -1658,7 +1658,7 @@ return
 NodeGeneric
 ;
 }
-ConditionalExpressionType
+ConditionalExpressionResult
 newConditional
 (
 Node
@@ -1673,7 +1673,7 @@ return
 NodeGeneric
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newDelete
 (
 uint32_t
@@ -1686,7 +1686,7 @@ return
 NodeUnparenthesizedUnary
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newTypeof
 (
 uint32_t
@@ -1699,7 +1699,7 @@ return
 NodeUnparenthesizedUnary
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newUnary
 (
 ParseNodeKind
@@ -1714,7 +1714,7 @@ return
 NodeUnparenthesizedUnary
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newUpdate
 (
 ParseNodeKind
@@ -1729,7 +1729,7 @@ return
 NodeGeneric
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newSpread
 (
 uint32_t
@@ -1742,7 +1742,7 @@ return
 NodeGeneric
 ;
 }
-Node
+NodeResult
 appendOrCreateList
 (
 ParseNodeKind
@@ -1763,7 +1763,7 @@ NodeGeneric
 /
 /
 Expressions
-ListNodeType
+ListNodeResult
 newArrayLiteral
 (
 uint32_t
@@ -1824,7 +1824,7 @@ element
 )
 {
 }
-ListNodeType
+ListNodeResult
 newArguments
 (
 const
@@ -1837,7 +1837,7 @@ return
 NodeGeneric
 ;
 }
-CallNodeType
+CallNodeResult
 newCall
 (
 Node
@@ -1852,7 +1852,7 @@ return
 NodeFunctionCall
 ;
 }
-CallNodeType
+CallNodeResult
 newOptionalCall
 (
 Node
@@ -1867,7 +1867,7 @@ return
 NodeOptionalFunctionCall
 ;
 }
-CallNodeType
+CallNodeResult
 newSuperCall
 (
 Node
@@ -1882,7 +1882,7 @@ return
 NodeGeneric
 ;
 }
-CallNodeType
+CallNodeResult
 newTaggedTemplate
 (
 Node
@@ -1897,7 +1897,7 @@ return
 NodeGeneric
 ;
 }
-ListNodeType
+ListNodeResult
 newObjectLiteral
 (
 uint32_t
@@ -1911,7 +1911,7 @@ NodeUnparenthesizedObject
 #
 ifdef
 ENABLE_RECORD_TUPLE
-ListNodeType
+ListNodeResult
 newRecordLiteral
 (
 uint32_t
@@ -1922,7 +1922,7 @@ return
 NodeGeneric
 ;
 }
-ListNodeType
+ListNodeResult
 newTupleLiteral
 (
 uint32_t
@@ -1935,7 +1935,7 @@ NodeGeneric
 }
 #
 endif
-ListNodeType
+ListNodeResult
 newClassMemberList
 (
 uint32_t
@@ -1946,7 +1946,7 @@ return
 NodeGeneric
 ;
 }
-ClassNamesType
+ClassNamesResult
 newClassNames
 (
 Node
@@ -1963,7 +1963,7 @@ return
 NodeGeneric
 ;
 }
-ClassNodeType
+ClassNodeResult
 newClass
 (
 Node
@@ -1989,7 +1989,7 @@ return
 NodeGeneric
 ;
 }
-LexicalScopeNodeType
+LexicalScopeNodeResult
 newLexicalScope
 (
 Node
@@ -2000,7 +2000,7 @@ return
 NodeLexicalDeclaration
 ;
 }
-ClassBodyScopeNodeType
+ClassBodyScopeNodeResult
 newClassBodyScope
 (
 Node
@@ -2011,7 +2011,7 @@ return
 NodeLexicalDeclaration
 ;
 }
-NewTargetNodeType
+NewTargetNodeResult
 newNewTarget
 (
 NullaryNodeType
@@ -2026,7 +2026,7 @@ return
 NodeGeneric
 ;
 }
-NullaryNodeType
+NullaryNodeResult
 newPosHolder
 (
 const
@@ -2039,7 +2039,7 @@ return
 NodeGeneric
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newSuperBase
 (
 Node
@@ -2074,7 +2074,7 @@ return
 true
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newPropertyDefinition
 (
 Node
@@ -2184,7 +2184,7 @@ true
 nodiscard
 ]
 ]
-Node
+NodeResult
 newDefaultClassConstructor
 (
 Node
@@ -2202,7 +2202,7 @@ NodeGeneric
 nodiscard
 ]
 ]
-Node
+NodeResult
 newClassMethodDefinition
 (
 Node
@@ -2239,7 +2239,7 @@ NodeGeneric
 nodiscard
 ]
 ]
-Node
+NodeResult
 newClassFieldDefinition
 (
 Node
@@ -2270,7 +2270,7 @@ NodeGeneric
 nodiscard
 ]
 ]
-Node
+NodeResult
 newStaticClassBlock
 (
 FunctionNodeType
@@ -2299,7 +2299,7 @@ return
 true
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newYieldExpression
 (
 uint32_t
@@ -2312,7 +2312,7 @@ return
 NodeGeneric
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newYieldStarExpression
 (
 uint32_t
@@ -2325,7 +2325,7 @@ return
 NodeGeneric
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newAwaitExpression
 (
 uint32_t
@@ -2338,7 +2338,7 @@ return
 NodeUnparenthesizedUnary
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newOptionalChain
 (
 uint32_t
@@ -2354,7 +2354,7 @@ NodeGeneric
 /
 /
 Statements
-ListNodeType
+ListNodeResult
 newStatementList
 (
 const
@@ -2417,7 +2417,7 @@ return
 true
 ;
 }
-NullaryNodeType
+NullaryNodeResult
 newEmptyStatement
 (
 const
@@ -2430,7 +2430,7 @@ return
 NodeEmptyStatement
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newImportAssertion
 (
 Node
@@ -2443,7 +2443,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newModuleRequest
 (
 Node
@@ -2460,7 +2460,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newImportDeclaration
 (
 Node
@@ -2477,7 +2477,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newImportSpec
 (
 Node
@@ -2490,7 +2490,7 @@ return
 NodeGeneric
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newImportNamespaceSpec
 (
 uint32_t
@@ -2503,7 +2503,7 @@ return
 NodeGeneric
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newExportDeclaration
 (
 Node
@@ -2518,7 +2518,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newExportFromDeclaration
 (
 uint32_t
@@ -2533,7 +2533,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newExportDefaultDeclaration
 (
 Node
@@ -2550,7 +2550,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newExportSpec
 (
 Node
@@ -2563,7 +2563,7 @@ return
 NodeGeneric
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newExportNamespaceSpec
 (
 uint32_t
@@ -2576,7 +2576,7 @@ return
 NodeGeneric
 ;
 }
-NullaryNodeType
+NullaryNodeResult
 newExportBatchSpec
 (
 const
@@ -2589,7 +2589,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newImportMeta
 (
 NullaryNodeType
@@ -2602,7 +2602,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newCallImport
 (
 NullaryNodeType
@@ -2615,7 +2615,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newCallImportSpec
 (
 Node
@@ -2628,7 +2628,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newSetThis
 (
 Node
@@ -2641,7 +2641,7 @@ return
 value
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newExprStatement
 (
 Node
@@ -2661,7 +2661,7 @@ NodeStringExprStatement
 NodeGeneric
 ;
 }
-TernaryNodeType
+TernaryNodeResult
 newIfStatement
 (
 uint32_t
@@ -2678,7 +2678,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newDoWhileStatement
 (
 Node
@@ -2695,7 +2695,7 @@ return
 NodeGeneric
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newWhileStatement
 (
 uint32_t
@@ -2710,7 +2710,7 @@ return
 NodeGeneric
 ;
 }
-SwitchStatementType
+SwitchStatementResult
 newSwitchStatement
 (
 uint32_t
@@ -2727,7 +2727,7 @@ return
 NodeGeneric
 ;
 }
-CaseClauseType
+CaseClauseResult
 newCaseOrDefault
 (
 uint32_t
@@ -2742,7 +2742,7 @@ return
 NodeGeneric
 ;
 }
-ContinueStatementType
+ContinueStatementResult
 newContinueStatement
 (
 TaggedParserAtomIndex
@@ -2757,7 +2757,7 @@ return
 NodeGeneric
 ;
 }
-BreakStatementType
+BreakStatementResult
 newBreakStatement
 (
 TaggedParserAtomIndex
@@ -2772,7 +2772,7 @@ return
 NodeBreak
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newReturnStatement
 (
 Node
@@ -2787,7 +2787,7 @@ return
 NodeReturn
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newExpressionBody
 (
 Node
@@ -2798,7 +2798,7 @@ return
 NodeReturn
 ;
 }
-BinaryNodeType
+BinaryNodeResult
 newWithStatement
 (
 uint32_t
@@ -2813,7 +2813,7 @@ return
 NodeGeneric
 ;
 }
-LabeledStatementType
+LabeledStatementResult
 newLabeledStatement
 (
 TaggedParserAtomIndex
@@ -2828,7 +2828,7 @@ return
 NodeGeneric
 ;
 }
-UnaryNodeType
+UnaryNodeResult
 newThrowStatement
 (
 Node
@@ -2843,7 +2843,7 @@ return
 NodeThrow
 ;
 }
-TernaryNodeType
+TernaryNodeResult
 newTryStatement
 (
 uint32_t
@@ -2860,7 +2860,7 @@ return
 NodeGeneric
 ;
 }
-DebuggerStatementType
+DebuggerStatementResult
 newDebuggerStatement
 (
 const
@@ -2873,7 +2873,7 @@ return
 NodeGeneric
 ;
 }
-NameNodeType
+NameNodeResult
 newPropertyName
 (
 TaggedParserAtomIndex
@@ -2892,7 +2892,7 @@ return
 NodeGeneric
 ;
 }
-PropertyAccessType
+PropertyAccessResult
 newPropertyAccess
 (
 Node
@@ -2905,7 +2905,7 @@ return
 NodeDottedProperty
 ;
 }
-PropertyAccessType
+PropertyAccessResult
 newOptionalPropertyAccess
 (
 Node
@@ -2918,7 +2918,7 @@ return
 NodeOptionalDottedProperty
 ;
 }
-PropertyByValueType
+PropertyByValueResult
 newPropertyByValue
 (
 Node
@@ -2942,7 +2942,7 @@ return
 NodeElement
 ;
 }
-PropertyByValueType
+PropertyByValueResult
 newOptionalPropertyByValue
 (
 Node
@@ -2957,7 +2957,7 @@ return
 NodeOptionalElement
 ;
 }
-PrivateMemberAccessType
+PrivateMemberAccessResult
 newPrivateMemberAccess
 (
 Node
@@ -2972,7 +2972,7 @@ return
 NodePrivateMemberAccess
 ;
 }
-PrivateMemberAccessType
+PrivateMemberAccessResult
 newOptionalPrivateMemberAccess
 (
 Node
@@ -3033,7 +3033,7 @@ pn
 )
 {
 }
-ParamsBodyNodeType
+ParamsBodyNodeResult
 newParamsBody
 (
 const
@@ -3046,7 +3046,7 @@ return
 NodeGeneric
 ;
 }
-FunctionNodeType
+FunctionNodeResult
 newFunction
 (
 FunctionSyntaxKind
@@ -3165,7 +3165,7 @@ argpn
 )
 {
 }
-ForNodeType
+ForNodeResult
 newForStatement
 (
 uint32_t
@@ -3182,7 +3182,7 @@ return
 NodeGeneric
 ;
 }
-TernaryNodeType
+TernaryNodeResult
 newForHead
 (
 Node
@@ -3201,7 +3201,7 @@ return
 NodeGeneric
 ;
 }
-TernaryNodeType
+TernaryNodeResult
 newForInOrOfHead
 (
 ParseNodeKind
@@ -3220,7 +3220,7 @@ return
 NodeGeneric
 ;
 }
-AssignmentNodeType
+AssignmentNodeResult
 finishInitializerAssignment
 (
 NameNodeType
@@ -3364,7 +3364,7 @@ pos
 begin
 ;
 }
-ListNodeType
+ListNodeResult
 newList
 (
 ParseNodeKind
@@ -3423,7 +3423,7 @@ return
 NodeGeneric
 ;
 }
-ListNodeType
+ListNodeResult
 newList
 (
 ParseNodeKind
@@ -3442,7 +3442,7 @@ TokenPos
 )
 ;
 }
-DeclarationListNodeType
+DeclarationListNodeResult
 newDeclarationList
 (
 ParseNodeKind
@@ -3492,7 +3492,7 @@ return
 NodeLexicalDeclaration
 ;
 }
-ListNodeType
+ListNodeResult
 newCommaExpressionList
 (
 Node
@@ -3551,7 +3551,7 @@ NodeFunctionCall
 )
 ;
 }
-CallNodeType
+CallNodeResult
 newNewExpression
 (
 uint32_t
@@ -3568,7 +3568,7 @@ return
 NodeGeneric
 ;
 }
-AssignmentNodeType
+AssignmentNodeResult
 newAssignment
 (
 ParseNodeKind
@@ -3593,7 +3593,7 @@ NodeUnparenthesizedAssignment
 NodeGeneric
 ;
 }
-AssignmentNodeType
+AssignmentNodeResult
 newInitExpr
 (
 Node
@@ -3714,6 +3714,14 @@ literal
 )
 {
 }
+/
+/
+NOTE
+:
+This
+is
+infallible
+.
 [
 [
 nodiscard
@@ -3880,6 +3888,14 @@ return
 node
 ;
 }
+/
+/
+NOTE
+:
+This
+is
+infallible
+.
 template
 <
 typename
