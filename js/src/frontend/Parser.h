@@ -6924,7 +6924,7 @@ debuggerStatement
 (
 )
 ;
-DeclarationListNodeType
+DeclarationListNodeResult
 variableStatement
 (
 YieldHandling
@@ -6959,7 +6959,7 @@ YieldHandling
 yieldHandling
 )
 ;
-DeclarationListNodeType
+DeclarationListNodeResult
 lexicalDeclaration
 (
 YieldHandling
@@ -7380,7 +7380,7 @@ into
 forInOrOfExpression
 |
 .
-DeclarationListNodeType
+DeclarationListNodeResult
 declarationList
 (
 YieldHandling
@@ -7556,7 +7556,7 @@ d
 |
 .
 )
-Node
+NodeResult
 declarationPattern
 (
 DeclarationKind
@@ -7575,7 +7575,7 @@ Node
 forInOrOfExpression
 )
 ;
-Node
+NodeResult
 declarationName
 (
 DeclarationKind
@@ -7660,7 +7660,7 @@ by
 forHeadKind
 |
 .
-AssignmentNodeType
+AssignmentNodeResult
 initializerInNameDeclaration
 (
 NameNodeType
@@ -8041,7 +8041,7 @@ possibleError
 nullptr
 )
 ;
-Node
+NodeResult
 destructuringDeclaration
 (
 DeclarationKind
@@ -8052,7 +8052,7 @@ TokenKind
 tt
 )
 ;
-Node
+NodeResult
 destructuringDeclarationWithoutYieldOrAwait
 (
 DeclarationKind
@@ -8795,7 +8795,7 @@ yieldHandling
 ;
 #
 endif
-BinaryNodeType
+BinaryNodeResult
 bindingInitializer
 (
 Node
@@ -8806,7 +8806,7 @@ YieldHandling
 yieldHandling
 )
 ;
-NameNodeType
+NameNodeResult
 bindingIdentifier
 (
 DeclarationKind
@@ -8815,7 +8815,7 @@ YieldHandling
 yieldHandling
 )
 ;
-Node
+NodeResult
 bindingIdentifierOrPattern
 (
 DeclarationKind
@@ -8826,7 +8826,7 @@ TokenKind
 tt
 )
 ;
-ListNodeType
+ListNodeResult
 objectBindingPattern
 (
 DeclarationKind
@@ -8835,7 +8835,7 @@ YieldHandling
 yieldHandling
 )
 ;
-ListNodeType
+ListNodeResult
 arrayBindingPattern
 (
 DeclarationKind
