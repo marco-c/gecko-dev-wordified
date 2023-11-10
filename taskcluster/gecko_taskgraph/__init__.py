@@ -341,6 +341,14 @@ json_location
 "
 video_location
 "
+        
+"
+profile_name
+"
+        
+"
+target_path
+"
     
 ]
 )
