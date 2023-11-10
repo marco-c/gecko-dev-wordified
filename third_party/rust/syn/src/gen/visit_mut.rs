@@ -30,6 +30,17 @@ unused_variables
 )
 ]
 #
+!
+[
+allow
+(
+clippy
+:
+:
+needless_pass_by_ref_mut
+)
+]
+#
 [
 cfg
 (

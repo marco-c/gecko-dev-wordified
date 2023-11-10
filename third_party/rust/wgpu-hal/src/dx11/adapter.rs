@@ -999,6 +999,16 @@ _
 >
 32
 }
+.
+min
+(
+crate
+:
+:
+MAX_VERTEX_BUFFERS
+as
+u32
+)
 ;
 let
 max_compute_workgroup_storage_size

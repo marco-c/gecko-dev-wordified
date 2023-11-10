@@ -64,6 +64,9 @@ Interface
 }
 ;
 bitflags
+:
+:
+bitflags
 !
 {
 #
@@ -2027,6 +2030,9 @@ hr
 )
 }
 }
+bitflags
+:
+:
 bitflags
 !
 {

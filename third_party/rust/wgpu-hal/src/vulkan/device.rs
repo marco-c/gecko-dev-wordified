@@ -10722,7 +10722,12 @@ ArrayVec
 :
 <
 _
-2
+{
+crate
+:
+:
+MAX_CONCURRENT_SHADER_STAGES
+}
 >
 :
 :

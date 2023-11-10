@@ -1242,6 +1242,13 @@ err
 )
 }
 }
+#
+[
+doc
+(
+hidden
+)
+]
 pub
 trait
 ParseQuote

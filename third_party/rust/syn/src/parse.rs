@@ -4649,6 +4649,9 @@ input
 .
 peek
 (
+syn
+:
+:
 Ident
 )
 &
@@ -4670,6 +4673,9 @@ input
 .
 peek
 (
+syn
+:
+:
 Ident
 :
 :

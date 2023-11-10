@@ -698,6 +698,9 @@ parsing
 "
 )
 ]
+pub_if_not_doc
+!
+{
 #
 [
 doc
@@ -730,6 +733,7 @@ Lifetime
 match
 marker
 {
+}
 }
 }
 #

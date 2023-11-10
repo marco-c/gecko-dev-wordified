@@ -11,12 +11,18 @@ its
 implementations
 .
 use
+crate
+:
+:
 lib
 :
 :
 *
 ;
 use
+crate
+:
+:
 ser
 :
 :
@@ -120,7 +126,7 @@ SerializeStructVariant
 /
 /
 /
-edition2018
+edition2021
 /
 /
 /

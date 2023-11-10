@@ -547,8 +547,6 @@ Handler
 :
 with_emitter
 (
-false
-None
 emitter
 )
 ;

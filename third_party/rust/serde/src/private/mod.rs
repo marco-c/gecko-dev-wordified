@@ -26,10 +26,6 @@ pub
 mod
 ser
 ;
-pub
-mod
-size_hint
-;
 /
 /
 FIXME
@@ -68,6 +64,9 @@ doc
 ;
 pub
 use
+crate
+:
+:
 lib
 :
 :
@@ -78,6 +77,9 @@ Clone
 ;
 pub
 use
+crate
+:
+:
 lib
 :
 :
@@ -91,6 +93,9 @@ Into
 ;
 pub
 use
+crate
+:
+:
 lib
 :
 :
@@ -101,6 +106,9 @@ Default
 ;
 pub
 use
+crate
+:
+:
 lib
 :
 :
@@ -114,6 +122,9 @@ Formatter
 ;
 pub
 use
+crate
+:
+:
 lib
 :
 :
@@ -124,6 +135,9 @@ PhantomData
 ;
 pub
 use
+crate
+:
+:
 lib
 :
 :
@@ -141,6 +155,9 @@ Some
 ;
 pub
 use
+crate
+:
+:
 lib
 :
 :
@@ -148,6 +165,9 @@ ptr
 ;
 pub
 use
+crate
+:
+:
 lib
 :
 :
@@ -194,6 +214,9 @@ std
 ]
 pub
 use
+crate
+:
+:
 lib
 :
 :
@@ -214,6 +237,9 @@ no_core_try_from
 ]
 pub
 use
+crate
+:
+:
 lib
 :
 :
@@ -226,6 +252,9 @@ mod
 string
 {
 use
+crate
+:
+:
 lib
 :
 :

@@ -1047,7 +1047,7 @@ impl
 crate
 :
 :
-token
+__private
 :
 :
 CustomToken
@@ -1745,10 +1745,7 @@ crate
 __private
 :
 :
-fmt
-:
-:
-Result
+FmtResult
 {
 crate
 :

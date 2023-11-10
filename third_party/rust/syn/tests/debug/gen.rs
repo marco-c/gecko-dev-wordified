@@ -26,6 +26,14 @@ editing
 [
 allow
 (
+repr_transparent_external_private_fields
+)
+]
+#
+!
+[
+allow
+(
 clippy
 :
 :

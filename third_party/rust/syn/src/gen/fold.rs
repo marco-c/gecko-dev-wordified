@@ -43,6 +43,10 @@ clippy
 :
 :
 needless_match
+clippy
+:
+:
+needless_pass_by_ref_mut
 )
 ]
 #

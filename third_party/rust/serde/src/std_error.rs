@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 lib
 :
 :
@@ -147,7 +150,7 @@ directly
 /
 /
 /
-edition2018
+edition2021
 /
 /
 /
@@ -308,7 +311,7 @@ std
 /
 /
 /
-edition2018
+edition2021
 /
 /
 /
@@ -375,7 +378,7 @@ export
 /
 /
 /
-edition2018
+edition2021
 /
 /
 /
