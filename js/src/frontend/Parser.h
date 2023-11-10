@@ -7707,7 +7707,7 @@ InHandling
 inHandling
 )
 ;
-Node
+NodeResult
 condExpr
 (
 InHandling
@@ -7723,7 +7723,7 @@ InvokedPrediction
 invoked
 )
 ;
-Node
+NodeResult
 orExpr
 (
 InHandling
@@ -7739,7 +7739,7 @@ InvokedPrediction
 invoked
 )
 ;
-Node
+NodeResult
 unaryExpr
 (
 YieldHandling
@@ -7980,7 +7980,7 @@ FunctionBodyType
 type
 )
 ;
-UnaryNodeType
+UnaryNodeResult
 unaryOpExpr
 (
 YieldHandling
