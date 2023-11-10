@@ -3188,7 +3188,6 @@ TaggedColumnNumberOneOrigin
 (
 LimitedColumnNumberOneOrigin
 (
-0
 )
 )
 ;
