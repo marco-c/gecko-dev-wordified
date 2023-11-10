@@ -151,7 +151,7 @@ h
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 JS
 :
 :
@@ -1059,7 +1059,7 @@ lineno
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 frontColumnNumber
 (
 )
@@ -1383,10 +1383,7 @@ column
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
-:
-:
-zero
+LimitedColumnNumberOneOrigin
 (
 )
 ;
@@ -1419,6 +1416,11 @@ initialLine
 ;
 column
 =
+JS
+:
+:
+LimitedColumnNumberOneOrigin
+(
 SrcNote
 :
 :
@@ -1428,6 +1430,7 @@ SetLineColumn
 getColumn
 (
 sn
+)
 )
 ;
 }
@@ -1452,10 +1455,7 @@ column
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
-:
-:
-zero
+LimitedColumnNumberOneOrigin
 (
 )
 ;
@@ -1478,6 +1478,11 @@ lineno
 ;
 column
 =
+JS
+:
+:
+LimitedColumnNumberOneOrigin
+(
 SrcNote
 :
 :
@@ -1487,6 +1492,7 @@ NewLineColumn
 getColumn
 (
 sn
+)
 )
 ;
 }
@@ -1606,7 +1612,7 @@ units
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 const
