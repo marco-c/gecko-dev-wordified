@@ -76,7 +76,7 @@ description
 :
 Throw
 a
-RangeError
+TypeError
 if
 only
 one
@@ -134,7 +134,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =
@@ -177,7 +177,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =

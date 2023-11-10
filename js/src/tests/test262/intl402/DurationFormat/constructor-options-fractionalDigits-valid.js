@@ -126,6 +126,7 @@ validOptions
 1
 5
 9
+undefined
 ]
 ;
 for

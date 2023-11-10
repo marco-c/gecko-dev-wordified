@@ -381,7 +381,7 @@ C
 #
 await
 class
-C
+D
 {
 }
 }
