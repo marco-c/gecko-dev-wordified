@@ -163,7 +163,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 #
 include
 "
@@ -2097,7 +2097,7 @@ lineNo
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 colNo
 ;
 NS_ENSURE_TRUE

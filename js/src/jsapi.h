@@ -7772,7 +7772,7 @@ nullptr
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 *
 column
 =

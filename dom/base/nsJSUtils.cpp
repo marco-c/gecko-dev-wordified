@@ -461,7 +461,7 @@ filename
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 ;
 if
@@ -543,7 +543,7 @@ filename
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 ;
 if

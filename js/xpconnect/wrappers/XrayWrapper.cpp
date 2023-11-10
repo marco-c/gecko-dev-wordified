@@ -207,7 +207,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 #
 include
 "
@@ -1422,7 +1422,7 @@ line
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 column
 ;
 DescribeScriptedCaller

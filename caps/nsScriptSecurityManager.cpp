@@ -641,7 +641,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 /
 /
 This
@@ -3762,7 +3762,7 @@ lineNum
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNum
 ;
 if

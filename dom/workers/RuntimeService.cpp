@@ -239,7 +239,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 #
 include
 "
@@ -2909,7 +2909,7 @@ lineNum
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 columnNum
 ;
 JS
