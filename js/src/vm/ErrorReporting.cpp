@@ -184,15 +184,11 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
-JS
-:
-:
 ColumnNumberOneOrigin
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 #
 include
 "
@@ -1407,7 +1403,7 @@ id
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 column
 ;
 report

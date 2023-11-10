@@ -368,7 +368,7 @@ h
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 JS
 :
 :
@@ -28524,7 +28524,7 @@ lineno
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 columnNumber
 ;
 *
@@ -28569,7 +28569,7 @@ column
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 columnNumber
 ;
 i

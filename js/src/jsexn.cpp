@@ -269,7 +269,7 @@ ColumnNumberOneOrigin
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 #
 include
 "
@@ -4786,7 +4786,7 @@ filename
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 column
 ;
 ownedReport

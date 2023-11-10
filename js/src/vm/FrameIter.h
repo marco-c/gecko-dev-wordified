@@ -221,7 +221,7 @@ h
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 #
 include
 "
@@ -2045,7 +2045,7 @@ computeLine
 JS
 :
 :
-TaggedColumnNumberZeroOrigin
+TaggedColumnNumberOneOrigin
 *
 column
 =
