@@ -201,7 +201,7 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOigin
 #
 include
 "
@@ -369,7 +369,7 @@ Maybe
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 >
 column
 =

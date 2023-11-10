@@ -65848,7 +65848,7 @@ Some
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 (
 column
 )
@@ -66173,7 +66173,7 @@ Some
 JS
 :
 :
-ColumnNumberZeroOrigin
+ColumnNumberOneOrigin
 (
 column
 )
