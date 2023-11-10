@@ -164,10 +164,6 @@ h
 JS
 :
 :
-ColumnNumberZeroOrigin
-JS
-:
-:
 ColumnNumberOneOrigin
 #
 include
@@ -727,14 +723,11 @@ JS
 :
 :
 ColumnNumberOneOrigin
-(
-JS
 :
 :
-ColumnNumberZeroOrigin
+fromZeroOrigin
 (
 c
-)
 )
 )
 ;
