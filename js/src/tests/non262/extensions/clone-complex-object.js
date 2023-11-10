@@ -3,7 +3,6 @@
 |
 reftest
 |
-slow
 skip
 -
 if
@@ -162,16 +161,6 @@ non_configurable
 {
 '
 String
-'
-:
-[
-0
-]
-'
-(
-typed
-array
-)
 '
 :
 [
