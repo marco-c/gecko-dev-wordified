@@ -427,7 +427,9 @@ sync
 with
 globals
 .
-jsm
+sys
+.
+mjs
 const
 URL_TARGET_TYPE_TEST
 =

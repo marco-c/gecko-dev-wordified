@@ -7746,7 +7746,9 @@ will
 cause
 reftest
 .
-jsm
+sys
+.
+mjs
 to
 parse
 the
