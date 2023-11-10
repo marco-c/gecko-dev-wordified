@@ -207,10 +207,6 @@ h
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
-JS
-:
-:
 LimitedColumnNumberOneOrigin
 JS
 :
@@ -13860,7 +13856,7 @@ id
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 uint32_t
@@ -13892,13 +13888,7 @@ JS
 :
 TaggedColumnNumberOneOrigin
 (
-JS
-:
-:
-LimitedColumnNumberOneOrigin
-(
 column
-)
 )
 )
 ;

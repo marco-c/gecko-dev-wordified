@@ -252,10 +252,6 @@ h
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
-JS
-:
-:
 LimitedColumnNumberOneOrigin
 JS
 :
@@ -3894,7 +3890,7 @@ column
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 columnNumber
 ;
 unsigned
@@ -3925,13 +3921,7 @@ JS
 :
 TaggedColumnNumberOneOrigin
 (
-JS
-:
-:
-LimitedColumnNumberOneOrigin
-(
 columnNumber
-)
 )
 ;
 }
