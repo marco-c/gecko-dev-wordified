@@ -1100,7 +1100,7 @@ locales
 await
 this
 .
-_getLocales
+getLocales
 (
 )
 ;
@@ -1438,7 +1438,7 @@ with
 *
 /
 async
-_getLocales
+getLocales
 (
 )
 {
