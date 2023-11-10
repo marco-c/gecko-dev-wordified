@@ -1654,14 +1654,9 @@ vendor_command
 .
 vendor
 (
-            
 ignore_modified
 =
 True
-build_peers_said_large_imports_were_ok
-=
-False
-        
 )
         
 self
