@@ -63,13 +63,6 @@ test_detected_language
 )
 {
 const
-detectedLangTag
-=
-"
-en
-"
-;
-const
 {
 cleanup
 tab
@@ -95,7 +88,6 @@ test
 page
 :
 ENGLISH_PAGE_URL
-detectedLangTag
 autoDownloadFromRemoteSettings
 :
 true
