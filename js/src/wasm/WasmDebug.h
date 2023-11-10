@@ -197,7 +197,7 @@ h
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 #
 include
 "
@@ -818,7 +818,7 @@ lineno
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 *
 column
 )

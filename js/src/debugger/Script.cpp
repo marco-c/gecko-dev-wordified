@@ -6362,7 +6362,7 @@ lineno
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 if
@@ -6455,7 +6455,7 @@ NumberValue
 (
 column
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 )
@@ -8495,7 +8495,7 @@ lineno
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 ;
 if
@@ -8588,7 +8588,7 @@ NumberValue
 (
 column
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 )
