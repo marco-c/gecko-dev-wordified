@@ -939,6 +939,11 @@ DocShellState
 aDocShellState
 )
 ;
+void
+MaybeAddLCPProfilerMarker
+(
+)
+;
 DOMTimeMilliSec
 TimeStampToDOM
 (
