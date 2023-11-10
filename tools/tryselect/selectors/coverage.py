@@ -2628,6 +2628,10 @@ for
 task
 in
 tasks
+.
+keys
+(
+)
 :
             
 if
@@ -2941,10 +2945,6 @@ all_tasks
 tg
 .
 tasks
-.
-keys
-(
-)
     
 tasks_by_chunks
 =
