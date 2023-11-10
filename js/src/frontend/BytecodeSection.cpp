@@ -191,7 +191,7 @@ h
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 #
 include
 "
@@ -1240,7 +1240,7 @@ lineNum
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 :

@@ -319,7 +319,7 @@ h
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 #
 include
 "
@@ -1340,7 +1340,7 @@ lineNum
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 )
 ;
@@ -1717,7 +1717,7 @@ currentLine_
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 lastColumn
 (
 )
@@ -1745,10 +1745,7 @@ lastColumn_
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
-:
-:
-zero
+LimitedColumnNumberOneOrigin
 (
 )
 ;
@@ -1763,7 +1760,7 @@ setLastColumn
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 column
 uint32_t
 offset
@@ -2292,7 +2289,7 @@ behavior
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 lastColumn_
 ;
 /
@@ -2349,7 +2346,7 @@ lastSeparatorLine_
 JS
 :
 :
-LimitedColumnNumberZeroOrigin
+LimitedColumnNumberOneOrigin
 lastSeparatorColumn_
 ;
 /
