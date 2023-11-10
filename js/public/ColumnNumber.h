@@ -793,6 +793,13 @@ TaggedColumnNumberWithOrigin
 ;
 public
 :
+static
+constexpr
+uint32_t
+OriginValue
+=
+Origin
+;
 constexpr
 ColumnNumberWithOrigin
 (
@@ -2651,7 +2658,10 @@ protected
 uint32_t
 value_
 =
-0
+LimitedColumnNumberT
+:
+:
+OriginValue
 ;
 explicit
 TaggedColumnNumberWithOrigin
