@@ -340,8 +340,11 @@ Create
 (
 aJSContext
 creator
-aValLength
+Span
+(
 aVal
+aValLength
+)
 )
 ;
 if
