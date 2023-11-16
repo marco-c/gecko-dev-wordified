@@ -7593,13 +7593,13 @@ return
 true
 ;
 }
-gfxFloat
+float
 gfxFontEntry
 :
 :
 TrackingForCSSPx
 (
-gfxFloat
+float
 aSize
 )
 const
