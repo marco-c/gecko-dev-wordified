@@ -2298,6 +2298,7 @@ test
 "
 true
 true
+true
 vec
 !
 [
@@ -2495,6 +2496,7 @@ new
 "
 test
 "
+true
 true
 true
 vec
@@ -2755,6 +2757,7 @@ new
 "
 test
 "
+true
 true
 true
 vec

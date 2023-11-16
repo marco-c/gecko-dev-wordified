@@ -269,6 +269,22 @@ metadata
 =
 metadata
         
+self
+.
+precise_timestamps
+=
+self
+.
+metadata
+.
+get
+(
+"
+precise_timestamps
+"
+True
+)
+        
 if
 data_reviews
 is
@@ -566,6 +582,18 @@ remove_output_params
 d
 "
 defined_in
+"
+)
+        
+modified_dict
+=
+util
+.
+remove_output_params
+(
+modified_dict
+"
+precise_timestamps
 "
 )
         

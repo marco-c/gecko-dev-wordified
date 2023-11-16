@@ -1298,6 +1298,9 @@ in
 boolean
 aSendIfEmpty
 in
+boolean
+aPreciseTimestamps
+in
 Array
 <
 ACString

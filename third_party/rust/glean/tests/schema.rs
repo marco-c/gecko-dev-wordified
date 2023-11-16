@@ -1414,6 +1414,7 @@ new
 PING_NAME
 true
 true
+true
 vec
 !
 [

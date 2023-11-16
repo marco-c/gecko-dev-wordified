@@ -262,6 +262,9 @@ bool
 send_if_empty
 :
 bool
+precise_timestamps
+:
+bool
 reason_codes
 :
 Vec
@@ -304,6 +307,7 @@ new
 name
 include_client_id
 send_if_empty
+precise_timestamps
 reason_codes
 )
 )
@@ -704,6 +708,7 @@ new
 prototype
 "
 false
+true
 true
 vec
 !

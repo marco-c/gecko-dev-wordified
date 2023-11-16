@@ -1902,6 +1902,7 @@ ping
 "
 true
 true
+true
 [
 ]
 )
@@ -4115,6 +4116,7 @@ my
 -
 ping
 "
+true
 true
 true
 [

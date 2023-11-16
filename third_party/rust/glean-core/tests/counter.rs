@@ -834,8 +834,8 @@ Make
 sure
 that
 the
-errors
-have
+error
+has
 been
 recorded
 assert_eq
@@ -843,7 +843,7 @@ assert_eq
 (
 Ok
 (
-2
+1
 )
 test_get_num_recorded_errors
 (

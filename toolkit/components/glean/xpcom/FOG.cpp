@@ -2716,6 +2716,9 @@ const
 bool
 aSendIfEmpty
 const
+bool
+aPreciseTimestamps
+const
 nsTArray
 <
 nsCString
@@ -2747,6 +2750,7 @@ jog_test_register_ping
 aName
 aIncludeClientId
 aSendIfEmpty
+aPreciseTimestamps
 &
 aReasonCodes
 )
