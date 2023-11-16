@@ -3868,17 +3868,6 @@ Cenc
 Cbcs
 }
 ;
-const
-char
-*
-CryptoSchemeToString
-(
-const
-CryptoScheme
-&
-aScheme
-)
-;
 class
 CryptoTrack
 {
