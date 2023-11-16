@@ -7102,10 +7102,10 @@ aCharIndex
 ;
 }
 void
-AdjustAdvancesForSyntheticBold
+ApplyTrackingToClusters
 (
 float
-aSynBoldOffset
+aTrackingAdjustment
 uint32_t
 aOffset
 uint32_t
