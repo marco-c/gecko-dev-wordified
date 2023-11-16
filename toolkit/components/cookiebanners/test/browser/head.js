@@ -374,7 +374,6 @@ resetRules
 true
 )
 ;
-}
 /
 /
 Clear
@@ -399,6 +398,7 @@ removeAllExecutedRecords
 true
 )
 ;
+}
 }
 )
 ;
