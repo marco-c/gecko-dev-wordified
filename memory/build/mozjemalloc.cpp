@@ -21033,6 +21033,8 @@ committed
 +
 =
 gChunkHeaderNumPages
+-
+1
 ;
 /
 /
@@ -21176,6 +21178,8 @@ committed
 -
 =
 gChunkHeaderNumPages
+-
+1
 ;
 }
 /
@@ -34942,7 +34946,11 @@ aStats
 chunksize
 )
 *
+(
 gChunkHeaderNumPages
+-
+1
+)
 )
 <
 <
