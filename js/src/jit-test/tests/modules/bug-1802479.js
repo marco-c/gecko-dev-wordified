@@ -17,6 +17,8 @@ oomTest
 in
 this
 )
+;
+slow
 function
 test
 (
