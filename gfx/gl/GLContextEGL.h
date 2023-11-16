@@ -774,7 +774,7 @@ ifdef
 MOZ_WAYLAND
 static
 EGLSurface
-CreateWaylandBufferSurface
+CreateWaylandOffscreenSurface
 (
 EglDisplay
 &
