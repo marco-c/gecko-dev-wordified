@@ -866,13 +866,6 @@ mozilla
 LogicalMargin
 LogicalMargin
 ;
-typedef
-mozilla
-:
-:
-TableReflowInput
-TableReflowInput
-;
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
@@ -3749,6 +3742,9 @@ nscoord
 SetupHeaderFooterChild
 (
 const
+mozilla
+:
+:
 TableReflowInput
 &
 aReflowInput
@@ -3760,6 +3756,9 @@ aFrame
 void
 ReflowChildren
 (
+mozilla
+:
+:
 TableReflowInput
 &
 aReflowInput
@@ -4230,6 +4229,9 @@ aAmount
 void
 PlaceChild
 (
+mozilla
+:
+:
 TableReflowInput
 &
 aReflowInput
@@ -4267,6 +4269,9 @@ aOriginalKidInkOverflow
 void
 PlaceRepeatedFooter
 (
+mozilla
+:
+:
 TableReflowInput
 &
 aReflowInput
