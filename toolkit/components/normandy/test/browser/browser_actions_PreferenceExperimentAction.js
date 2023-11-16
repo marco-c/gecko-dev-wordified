@@ -2476,14 +2476,6 @@ userFacingDescription
 "
 userFacingDescription
 "
-enrollmentId
-:
-activeExperiments
-[
-0
-]
-.
-enrollmentId
 }
 ]
 )

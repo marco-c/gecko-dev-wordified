@@ -922,13 +922,6 @@ nimbus
 -
 rollout
 "
-enrollmentId
-:
-sinon
-.
-match
-.
-string
 }
 )
 "
@@ -968,13 +961,6 @@ nimbus
 -
 rollout
 "
-enrollmentId
-:
-sinon
-.
-match
-.
-string
 }
 )
 "

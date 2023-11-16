@@ -356,11 +356,6 @@ experiment
 branch
 .
 slug
-enrollmentId
-:
-experiment
-.
-enrollmentId
 }
 }
 ]
@@ -406,11 +401,6 @@ experiment
 branch
 .
 slug
-enrollmentId
-:
-experiment
-.
-enrollmentId
 }
 }
 ]
