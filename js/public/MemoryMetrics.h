@@ -3995,7 +3995,7 @@ MACRO
 (
 Other
 MallocHeap
-baselineStubsFallback
+allocSites
 )
 \
 MACRO
