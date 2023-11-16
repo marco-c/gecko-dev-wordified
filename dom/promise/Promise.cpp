@@ -5055,7 +5055,7 @@ aPromiseWorkerProxy
 GetWorkerPrivate
 (
 )
-WorkerThreadUnchangedBusyCount
+WorkerThread
 )
 mPromiseWorkerProxy
 (

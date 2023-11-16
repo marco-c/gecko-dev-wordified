@@ -1909,6 +1909,15 @@ const
 =
 0
 ;
+virtual
+uint32_t
+AllManagedActorsCount
+(
+)
+const
+=
+0
+;
 /
 /
 Internal

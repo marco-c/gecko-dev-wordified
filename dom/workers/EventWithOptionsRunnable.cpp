@@ -352,7 +352,7 @@ mWorkerPrivate
 WorkerRunnable
 :
 :
-WorkerThreadModifyBusyCount
+WorkerThread
 )
 StructuredCloneHolder
 (
@@ -942,10 +942,10 @@ aWorkerPrivate
 {
 if
 (
-mBehavior
+mTarget
 =
 =
-ParentThreadUnchangedBusyCount
+ParentThread
 )
 {
 /
