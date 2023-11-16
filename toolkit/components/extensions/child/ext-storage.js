@@ -223,7 +223,7 @@ measureOp
 (
 ExtensionTelemetry
 .
-storageLocalGetJSON
+storageLocalGetJson
 context
 .
 extension
@@ -275,7 +275,7 @@ measureOp
 (
 ExtensionTelemetry
 .
-storageLocalSetJSON
+storageLocalSetJson
 context
 .
 extension
@@ -482,7 +482,7 @@ measureOp
 (
 ExtensionTelemetry
 .
-storageLocalGetIDB
+storageLocalGetIdb
 context
 .
 extension
@@ -565,7 +565,7 @@ measureOp
 (
 ExtensionTelemetry
 .
-storageLocalSetIDB
+storageLocalSetIdb
 context
 .
 extension
