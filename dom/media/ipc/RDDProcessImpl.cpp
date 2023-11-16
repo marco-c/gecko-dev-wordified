@@ -321,6 +321,15 @@ so
 "
 )
 ;
+PR_LoadLibrary
+(
+"
+libavcodec
+.
+so
+"
+)
+;
 StartOpenBSDSandbox
 (
 GeckoProcessType_RDD
