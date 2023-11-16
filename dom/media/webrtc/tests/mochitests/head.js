@@ -1535,9 +1535,6 @@ frequency
 )
 {
 return
-(
-1
-+
 Math
 .
 round
@@ -1557,7 +1554,6 @@ this
 audioContext
 .
 sampleRate
-)
 )
 ;
 }
@@ -1607,11 +1603,7 @@ index
 {
 return
 (
-(
 index
--
-1
-)
 *
 this
 .
