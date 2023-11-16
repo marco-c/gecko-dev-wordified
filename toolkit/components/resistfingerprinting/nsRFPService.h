@@ -598,6 +598,10 @@ CanvasContextType
 uint8_t
 ;
 }
+/
+/
+namespace
+dom
 enum
 KeyboardLang
 {
@@ -3008,6 +3012,12 @@ CanvasUsage
 >
 &
 aUses
+nsIChannel
+*
+aChannel
+nsACString
+&
+aOriginNoSuffix
 )
 ;
 private
