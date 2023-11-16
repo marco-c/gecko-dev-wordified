@@ -2633,11 +2633,6 @@ DiscardOptions
 {
 }
 bool
-discardBaselineCode
-=
-true
-;
-bool
 discardJitScripts
 =
 false

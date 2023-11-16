@@ -16372,12 +16372,6 @@ options
 ;
 options
 .
-discardBaselineCode
-=
-true
-;
-options
-.
 discardJitScripts
 =
 true
