@@ -2722,12 +2722,16 @@ cache_dir
 def
 build_base_cmd
 (
+    
 fzf
 dep_cache
 cache_dir
 show_estimates
 =
 True
+preview_script
+=
+PREVIEW_SCRIPT
 )
 :
     
@@ -2860,7 +2864,7 @@ format
 sys
 .
 executable
-PREVIEW_SCRIPT
+preview_script
 dep_cache
 cache_dir
                 
@@ -2908,7 +2912,7 @@ format
 sys
 .
 executable
-PREVIEW_SCRIPT
+preview_script
 )
             
 ]
