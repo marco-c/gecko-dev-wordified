@@ -5046,14 +5046,8 @@ aError
 ;
 nsScreen
 *
-GetScreen
+Screen
 (
-mozilla
-:
-:
-ErrorResult
-&
-aError
 )
 ;
 void
