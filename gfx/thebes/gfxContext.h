@@ -828,14 +828,6 @@ CreateOrNull
 DrawTarget
 *
 aTarget
-const
-Point
-&
-aDeviceOffset
-=
-Point
-(
-)
 )
 ;
 DrawTarget

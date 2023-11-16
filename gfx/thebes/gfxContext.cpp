@@ -362,10 +362,6 @@ CreateOrNull
 DrawTarget
 *
 aTarget
-const
-Point
-&
-aDeviceOffset
 )
 {
 if
@@ -413,7 +409,6 @@ gfxContext
 >
 (
 aTarget
-aDeviceOffset
 )
 ;
 }
