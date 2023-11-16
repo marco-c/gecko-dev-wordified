@@ -3607,6 +3607,11 @@ stub
 discardStubs
 (
 cx
+-
+>
+zone
+(
+)
 icEntry
 )
 ;
@@ -4113,9 +4118,9 @@ ICFallbackStub
 :
 discardStubs
 (
-JSContext
+Zone
 *
-cx
+zone
 ICEntry
 *
 icEntry
@@ -4142,12 +4147,7 @@ this
 {
 unlinkStub
 (
-cx
--
->
 zone
-(
-)
 icEntry
 /
 *

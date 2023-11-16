@@ -1891,9 +1891,9 @@ stub
 void
 discardStubs
 (
-JSContext
+Zone
 *
-cx
+zone
 ICEntry
 *
 icEntry
