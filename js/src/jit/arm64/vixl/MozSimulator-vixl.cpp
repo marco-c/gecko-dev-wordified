@@ -3903,15 +3903,15 @@ typedef
 int32_t
 (
 *
-Prototype_Int32_GeneralInt64Int64Int64GeneralGeneral
+Prototype_Int32_GeneralInt64Int64Int64Int32Int32
 )
 (
 int64_t
 int64_t
 int64_t
 int64_t
-int64_t
-int64_t
+int32_t
+int32_t
 )
 ;
 typedef
@@ -6532,7 +6532,7 @@ js
 jit
 :
 :
-Args_Int32_GeneralInt64Int64Int64GeneralGeneral
+Args_Int32_GeneralInt64Int64Int64Int32Int32
 :
 {
 int32_t
@@ -6540,7 +6540,7 @@ ret
 =
 reinterpret_cast
 <
-Prototype_Int32_GeneralInt64Int64Int64GeneralGeneral
+Prototype_Int32_GeneralInt64Int64Int64Int32Int32
 >
 (
 nativeFn

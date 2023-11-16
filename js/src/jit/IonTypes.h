@@ -6234,7 +6234,7 @@ ArgType_Int64
 ArgType_General
 }
 )
-Args_Int32_GeneralInt64Int64Int64GeneralGeneral
+Args_Int32_GeneralInt64Int64Int64Int32Int32
 =
 detail
 :
@@ -6247,8 +6247,8 @@ ArgType_General
 ArgType_Int64
 ArgType_Int64
 ArgType_Int64
-ArgType_General
-ArgType_General
+ArgType_Int32
+ArgType_Int32
 }
 )
 /

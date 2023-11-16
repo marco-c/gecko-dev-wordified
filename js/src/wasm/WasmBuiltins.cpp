@@ -1392,8 +1392,8 @@ _PTR
 _I64
 _I64
 _I64
-_PTR
-_PTR
+_I32
+_I32
 _END
 }
 }
@@ -8567,7 +8567,7 @@ MemCopyAny
 *
 abiType
 =
-Args_Int32_GeneralInt64Int64Int64GeneralGeneral
+Args_Int32_GeneralInt64Int64Int64Int32Int32
 ;
 MOZ_ASSERT
 (
