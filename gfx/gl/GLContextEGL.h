@@ -642,6 +642,17 @@ EGLConfig
 aConfig
 )
 ;
+static
+void
+DestroySurface
+(
+EglDisplay
+&
+const
+EGLSurface
+aSurface
+)
+;
 #
 ifdef
 MOZ_X11
