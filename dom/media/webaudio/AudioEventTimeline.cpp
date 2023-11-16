@@ -3627,9 +3627,10 @@ TimeType
 >
 (
 count
+-
+1
 )
 <
-=
 TimeOf
 (
 aNext
