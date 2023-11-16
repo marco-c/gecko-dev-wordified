@@ -80,6 +80,10 @@ mozlog
 import
 get_proxy_logger
 from
+mozscreenshot
+import
+dump_screen
+from
 talos
 .
 utils
@@ -670,6 +674,10 @@ debugger_args
 =
 None
     
+utility_path
+=
+None
+    
 *
 *
 kwargs
@@ -1170,6 +1178,11 @@ the
 browser
 hangs
                 
+dump_screen_on_failure
+(
+utility_path
+)
+                
 kill_and_get_minidump
 (
 context
@@ -1239,6 +1252,11 @@ wait_for_quit_timeout
                 
 )
                 
+dump_screen_on_failure
+(
+utility_path
+)
+                
 kill_and_get_minidump
 (
 context
@@ -1280,6 +1298,11 @@ reader
 got_timeout
 :
             
+dump_screen_on_failure
+(
+utility_path
+)
+            
 raise
 TalosError
 (
@@ -1300,6 +1323,11 @@ reader
 .
 got_error
 :
+            
+dump_screen_on_failure
+(
+utility_path
+)
             
 raise
 TalosError
@@ -1856,4 +1884,23 @@ proc
 .
 pid
 minidump_dir
+)
+def
+dump_screen_on_failure
+(
+utility_path
+)
+:
+    
+if
+utility_path
+is
+not
+None
+:
+        
+dump_screen
+(
+utility_path
+LOG
 )
