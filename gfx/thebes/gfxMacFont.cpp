@@ -1322,7 +1322,7 @@ here
 aShapedText
 -
 >
-AdjustAdvancesForSyntheticBold
+ApplyTrackingToClusters
 (
 tracking
 aOffset
