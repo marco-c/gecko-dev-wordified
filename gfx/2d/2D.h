@@ -506,6 +506,10 @@ class
 TextureData
 ;
 }
+/
+/
+namespace
+layers
 namespace
 wr
 {
