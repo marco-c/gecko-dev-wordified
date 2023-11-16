@@ -11540,6 +11540,9 @@ PermissionDelegate
 .
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 assertThat
@@ -11651,6 +11654,9 @@ PermissionDelegate
 .
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 page
