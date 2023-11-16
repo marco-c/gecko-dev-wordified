@@ -11895,12 +11895,6 @@ aDrawTarget
 TextRunDrawParams
 params
 ;
-params
-.
-dt
-=
-aDrawTarget
-;
 return
 GetScaledFont
 (
