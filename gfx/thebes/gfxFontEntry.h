@@ -4046,10 +4046,10 @@ possible
 interpolation
 .
 )
-float
+gfxFloat
 TrackingForCSSPx
 (
-float
+gfxFloat
 aSize
 )
 const
