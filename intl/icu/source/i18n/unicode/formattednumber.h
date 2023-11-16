@@ -816,6 +816,9 @@ status
 )
 const
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -846,7 +849,7 @@ yet
 return
 UDisplayOptionsNounClass
 *
-stable
+draft
 ICU
 72
 *
@@ -860,6 +863,11 @@ status
 )
 const
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 #
 ifndef
 U_HIDE_INTERNAL_API

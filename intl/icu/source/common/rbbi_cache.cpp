@@ -943,14 +943,6 @@ fBI
 getLanguageBreakEngine
 (
 c
-fBI
--
->
-getLocaleID
-(
-ULOC_REQUESTED_LOCALE
-status
-)
 )
 ;
 /
@@ -1011,7 +1003,7 @@ lbe
 findBreaks
 (
 text
-current
+rangeStart
 rangeEnd
 fBreaks
 fBI

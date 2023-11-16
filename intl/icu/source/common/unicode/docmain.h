@@ -1365,12 +1365,6 @@ td
 uloc
 .
 h
-ulocale
-.
-h
-ulocbuilder
-.
-h
 <
 /
 a

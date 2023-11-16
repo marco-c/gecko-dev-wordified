@@ -391,11 +391,6 @@ args
 -
 q
 -
-i
-{
-LIBRARY_DATA_DIR
-}
--
 s
 {
 IN_DIR

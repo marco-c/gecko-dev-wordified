@@ -11623,16 +11623,6 @@ into
 time
 fields
 .
-Clearing
-UCAL_ORDINAL_MONTH
-or
-UCAL_MONTH
-will
-*
-clear
-both
-fields
-.
 *
 *
 param

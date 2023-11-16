@@ -310,8 +310,10 @@ US
 "
 Englisch
 (
-Vereinfacht
 USA
+)
+(
+Vereinfacht
 )
 "
 }

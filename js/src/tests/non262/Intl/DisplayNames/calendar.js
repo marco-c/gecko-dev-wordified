@@ -62,7 +62,7 @@ civil
 "
 :
 "
-Hijri
+Islamic
 Calendar
 (
 tabular
@@ -75,7 +75,7 @@ islamicc
 "
 :
 "
-Hijri
+Islamic
 Calendar
 (
 tabular
@@ -161,8 +161,7 @@ civil
 "
 B
 rgerlicher
-Hidschri
--
+islamischer
 Kalender
 (
 tabellarisch
@@ -175,8 +174,7 @@ islamicc
 "
 B
 rgerlicher
-Hidschri
--
+islamischer
 Kalender
 (
 tabellarisch
@@ -266,8 +264,7 @@ civil
 :
 "
 calendrier
-h
-girien
+musulman
 (
 tabulaire
 poque
@@ -280,8 +277,7 @@ islamicc
 :
 "
 calendrier
-h
-girien
+musulman
 (
 tabulaire
 poque

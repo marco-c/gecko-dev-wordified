@@ -2633,17 +2633,6 @@ UErrorCode
 errorCode
 )
 ;
-static
-const
-Norm2AllModes
-*
-getNFKC_SCFInstance
-(
-UErrorCode
-&
-errorCode
-)
-;
 Normalizer2Impl
 *
 impl

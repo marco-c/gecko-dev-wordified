@@ -382,6 +382,15 @@ UNIFIED_SOURCES
 "
 imported
 /
+property
+-
+sequences
+.
+cc
+"
+"
+imported
+/
 special
 -
 case
