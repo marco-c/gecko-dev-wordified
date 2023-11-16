@@ -5795,7 +5795,7 @@ uint32_t
 aLength
 )
 {
-uint32_t
+int32_t
 synAppUnitOffset
 =
 aSynBoldOffset
