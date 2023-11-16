@@ -27,17 +27,6 @@ zero
 /
 *
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 const
 {
 HttpServer

@@ -318,16 +318,6 @@ enableTesting
 (
 )
 ;
-/
-/
-Expose
-Cache
-and
-Fetch
-symbols
-on
-the
-global
 Cu
 .
 importGlobalProperties
@@ -335,9 +325,6 @@ importGlobalProperties
 [
 "
 caches
-"
-"
-fetch
 "
 ]
 )

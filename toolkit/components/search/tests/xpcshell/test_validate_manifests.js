@@ -32,17 +32,6 @@ use
 strict
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 const
 {
 ExtensionData

@@ -249,17 +249,6 @@ bin
 .
 spec
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 return
 (
 await

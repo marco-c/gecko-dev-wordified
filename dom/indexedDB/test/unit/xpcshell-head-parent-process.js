@@ -238,17 +238,6 @@ enableExperimental
 )
 ;
 }
-Cu
-.
-importGlobalProperties
-(
-[
-"
-indexedDB
-"
-]
-)
-;
 /
 /
 In

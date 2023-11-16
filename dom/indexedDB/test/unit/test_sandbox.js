@@ -537,17 +537,6 @@ test_error
 sb
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-indexedDB
-"
-]
-)
-;
 do_test_pending
 (
 )

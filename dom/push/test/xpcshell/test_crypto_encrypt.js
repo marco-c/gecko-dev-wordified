@@ -11,17 +11,6 @@ use
 strict
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-crypto
-"
-]
-)
-;
 const
 {
 PushCrypto

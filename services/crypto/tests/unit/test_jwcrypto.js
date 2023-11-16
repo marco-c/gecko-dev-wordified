@@ -58,17 +58,6 @@ mjs
 }
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-crypto
-"
-]
-)
-;
 /
 /
 Enable

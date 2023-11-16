@@ -452,7 +452,7 @@ importGlobalProperties
 (
 [
 '
-fetch
+caches
 '
 ]
 )
@@ -476,7 +476,7 @@ defineLazyGlobalGetters
 this
 [
 '
-fetch
+caches
 '
 ]
 )

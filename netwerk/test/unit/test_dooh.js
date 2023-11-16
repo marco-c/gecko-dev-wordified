@@ -45,17 +45,6 @@ trr_common
 js
 *
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 const
 {
 setTimeout

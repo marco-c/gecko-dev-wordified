@@ -40,17 +40,6 @@ loadJSONfromFile
 readFile
 *
 /
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 const
 {
 AddonTestUtils

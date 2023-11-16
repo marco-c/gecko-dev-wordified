@@ -148,17 +148,6 @@ com
 #
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-structuredClone
-"
-]
-)
-;
 async
 function
 prepareWithLimit

@@ -123,17 +123,6 @@ Splendid
 Test
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-indexedDB
-"
-]
-)
-;
 do_test_pending
 (
 )
