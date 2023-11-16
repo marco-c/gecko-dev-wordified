@@ -1335,6 +1335,7 @@ offsetSamples
 AudioChannelsDownMix
 <
 AudioDataValue
+AudioDataValue
 >
 (
 channelData

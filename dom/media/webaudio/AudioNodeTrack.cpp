@@ -2455,6 +2455,7 @@ WEBAUDIO_BLOCK_SIZE
 AudioChannelsDownMix
 <
 float
+float
 >
 (
 aOutputChannels

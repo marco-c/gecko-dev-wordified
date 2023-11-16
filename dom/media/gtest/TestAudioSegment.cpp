@@ -1423,6 +1423,7 @@ channel
 AudioChannelsDownMix
 <
 T
+T
 >
 (
 inputptr
