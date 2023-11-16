@@ -259,6 +259,9 @@ JSObject
 *
 >
 aRetval
+ErrorResult
+&
+aRv
 )
 ;
 void

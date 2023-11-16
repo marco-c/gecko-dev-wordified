@@ -870,6 +870,9 @@ ToUint8Array
 JSContext
 *
 aCx
+ErrorResult
+&
+aError
 )
 const
 {
@@ -882,6 +885,7 @@ Create
 aCx
 *
 this
+aError
 )
 ;
 }
@@ -895,6 +899,9 @@ ToArrayBuffer
 JSContext
 *
 aCx
+ErrorResult
+&
+aError
 )
 const
 {
@@ -907,6 +914,7 @@ Create
 aCx
 *
 this
+aError
 )
 ;
 }
