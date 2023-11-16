@@ -1315,11 +1315,10 @@ dev
 )
     
 #
-Mismatching
-minor
+Matching
+major
 version
 should
-not
 match
 .
     
@@ -1343,7 +1342,6 @@ return_value
 )
     
 assert
-not
 chrome
 .
 webdriver_supports_browser
