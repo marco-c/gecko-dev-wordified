@@ -19227,12 +19227,10 @@ PresContext
 (
 )
 ;
+const
 WritingMode
 wm
 =
-aFrame
--
->
 GetWritingMode
 (
 )
@@ -19435,12 +19433,10 @@ PresContext
 (
 )
 ;
+const
 WritingMode
 wm
 =
-aTfoot
--
->
 GetWritingMode
 (
 )
