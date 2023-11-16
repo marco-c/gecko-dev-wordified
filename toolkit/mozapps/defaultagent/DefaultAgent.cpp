@@ -2594,9 +2594,10 @@ pdfInfo
 .
 currentDefaultPdf
 =
-"
-error
-"
+PDFHandler
+:
+:
+Error
 ;
 }
 NotificationActivities
