@@ -1607,7 +1607,7 @@ stage
 WasmFeatureStage
 :
 :
-Experimental
+Tentative
 \
 /
 *
