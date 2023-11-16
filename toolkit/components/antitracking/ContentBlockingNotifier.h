@@ -202,9 +202,9 @@ fingerprinting
 scripts
 into
 different
+/
+/
 classes
-/
-/
 but
 we
 don
@@ -220,9 +220,9 @@ of
 those
 scripts
 .
-/
-/
 The
+/
+/
 classification
 is
 based
@@ -253,10 +253,10 @@ of
 functions
 like
 fillText
+/
+/
 etc
 .
-/
-/
 See
 nsRFPService
 :
@@ -264,6 +264,8 @@ nsRFPService
 MaybeReportCanvasFingerprinter
 for
 the
+/
+/
 classification
 heuristic
 .

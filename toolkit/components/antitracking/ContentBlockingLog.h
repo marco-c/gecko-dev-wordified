@@ -570,6 +570,14 @@ aFirstPartyPrincipal
 )
 ;
 void
+ReportFontFingerprintingLog
+(
+nsIPrincipal
+*
+aFirstPartyPrincipal
+)
+;
+void
 ReportEmailTrackingLog
 (
 nsIPrincipal
