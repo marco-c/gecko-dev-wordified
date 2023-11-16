@@ -309,7 +309,6 @@ Create
 (
 aCx
 this
-2
 mTouchState
 .
 position
