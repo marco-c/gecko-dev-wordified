@@ -3874,7 +3874,7 @@ isRelative
 =
 aCommand
 .
-curve_to
+quad_bezier_curve_to
 .
 absolute
 =
@@ -4595,7 +4595,7 @@ to
 =
 aCommand
 .
-smooth_curve_to
+smooth_quad_bezier_curve_to
 .
 absolute
 =
@@ -4607,7 +4607,7 @@ Yes
 ?
 aCommand
 .
-smooth_curve_to
+smooth_quad_bezier_curve_to
 .
 point
 .
@@ -4621,7 +4621,7 @@ pos
 +
 aCommand
 .
-smooth_curve_to
+smooth_quad_bezier_curve_to
 .
 point
 .
