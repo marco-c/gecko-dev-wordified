@@ -1005,6 +1005,12 @@ webgpu
 "
 :
 False
+            
+"
+privatebrowsing
+"
+:
+False
         
 }
     
