@@ -335,3 +335,10 @@ xsimd_sve_register
 .
 hpp
 "
+#
+include
+"
+xsimd_wasm_register
+.
+hpp
+"

@@ -299,6 +299,7 @@ register_type
 data
 ;
 \
+inline
 operator
 register_type
 (

@@ -617,6 +617,7 @@ T
 class
 A
 >
+inline
 void
 static_check_supported_config
 (

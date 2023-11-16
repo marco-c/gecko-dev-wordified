@@ -2136,6 +2136,7 @@ minvalue_impl
 float
 >
 {
+inline
 static
 float
 get_value
@@ -2167,6 +2168,7 @@ minvalue_impl
 double
 >
 {
+inline
 static
 double
 get_value
@@ -2195,7 +2197,6 @@ template
 class
 T
 >
-inline
 constexpr
 T
 minvalue
@@ -2290,7 +2291,6 @@ template
 class
 T
 >
-inline
 constexpr
 T
 maxvalue

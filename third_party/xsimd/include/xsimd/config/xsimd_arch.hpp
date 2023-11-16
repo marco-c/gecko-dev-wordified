@@ -865,6 +865,7 @@ class
 F
 >
 static
+inline
 void
 for_each
 (
@@ -1280,6 +1281,14 @@ neon
 type
 ;
 using
+all_wasm_architectures
+=
+arch_list
+<
+wasm
+>
+;
+using
 all_architectures
 =
 typename
@@ -1290,6 +1299,7 @@ join
 <
 all_arm_architectures
 all_x86_architectures
+all_wasm_architectures
 >
 :
 :
@@ -1402,6 +1412,7 @@ class
 .
 Tys
 >
+inline
 auto
 walk_archs
 (
@@ -1505,6 +1516,7 @@ class
 .
 Tys
 >
+inline
 auto
 walk_archs
 (
@@ -1616,6 +1628,7 @@ args
 }
 public
 :
+inline
 dispatcher
 (
 F
@@ -1645,6 +1658,7 @@ class
 .
 Tys
 >
+inline
 auto
 operator
 (
