@@ -2626,7 +2626,7 @@ void
 JitScript
 :
 :
-purgeOptimizedStubs
+purgeStubs
 (
 JSScript
 *
@@ -2751,7 +2751,7 @@ icScript
 )
 -
 >
-purgeOptimizedStubs
+purgeStubs
 (
 zone
 )
@@ -2768,7 +2768,7 @@ inliningRoot
 )
 -
 >
-purgeOptimizedStubs
+purgeStubs
 (
 zone
 )
@@ -2783,7 +2783,7 @@ void
 ICScript
 :
 :
-purgeOptimizedStubs
+purgeStubs
 (
 Zone
 *
@@ -3823,7 +3823,7 @@ const
 JitActivationIterator
 &
 activation
-OptimizedICStubSpace
+ICStubSpace
 &
 newStubSpace
 )
@@ -4167,7 +4167,7 @@ MarkActiveJitScriptsAndCopyStubs
 Zone
 *
 zone
-OptimizedICStubSpace
+ICStubSpace
 &
 newStubSpace
 )

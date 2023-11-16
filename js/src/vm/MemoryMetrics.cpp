@@ -1531,7 +1531,7 @@ jitZone
 &
 zStats
 .
-baselineStubsOptimized
+cacheIRStubs
 &
 zStats
 .

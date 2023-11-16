@@ -3812,7 +3812,7 @@ size_t
 jitZone
 size_t
 *
-baselineStubsOptimized
+cacheIRStubs
 )
 const
 {
@@ -3857,10 +3857,10 @@ code
 )
 ;
 *
-baselineStubsOptimized
+cacheIRStubs
 +
 =
-optimizedStubSpace_
+stubSpace_
 .
 sizeOfExcludingThis
 (

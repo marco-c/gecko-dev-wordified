@@ -574,7 +574,7 @@ length
 ;
 }
 void
-purgeOptimizedStubs
+purgeStubs
 (
 Zone
 *

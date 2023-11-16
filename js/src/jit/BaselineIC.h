@@ -229,8 +229,8 @@ CacheIRStubInfo
 class
 ICScript
 ;
-struct
-OptimizedICStubSpace
+class
+ICStubSpace
 ;
 enum
 class
@@ -2231,7 +2231,7 @@ clone
 JSContext
 *
 cx
-OptimizedICStubSpace
+ICStubSpace
 &
 newSpace
 )

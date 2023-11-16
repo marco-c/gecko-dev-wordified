@@ -2931,7 +2931,7 @@ allocator
 jit
 :
 :
-OptimizedICStubSpace
+ICStubSpace
 newStubSpace
 ;
 #
@@ -3308,14 +3308,13 @@ we
 need
 to
 purge
-optimized
 IC
-/
-/
 stubs
+/
+/
 because
 the
-optimizedStubSpace
+ICStubSpace
 will
 be
 purged
@@ -3324,7 +3323,7 @@ below
 jitScript
 -
 >
-purgeOptimizedStubs
+purgeStubs
 (
 script
 )
@@ -3531,7 +3530,7 @@ jitZone
 )
 -
 >
-optimizedStubSpace
+stubSpace
 (
 )
 -
@@ -3546,7 +3545,7 @@ jitZone
 )
 -
 >
-optimizedStubSpace
+stubSpace
 (
 )
 -
@@ -4499,7 +4498,7 @@ size_t
 jitZone
 size_t
 *
-baselineStubsOptimized
+cacheIRStubs
 size_t
 *
 uniqueIdMap
@@ -4552,7 +4551,7 @@ addSizeOfIncludingThis
 mallocSizeOf
 code
 jitZone
-baselineStubsOptimized
+cacheIRStubs
 )
 ;
 }

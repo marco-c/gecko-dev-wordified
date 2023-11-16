@@ -12750,7 +12750,9 @@ the
 IonICStub
 in
 the
-optimized
+JitZone
+'
+s
 stub
 space
 .
@@ -12840,7 +12842,7 @@ jitZone
 )
 -
 >
-optimizedStubSpace
+stubSpace
 (
 )
 ;

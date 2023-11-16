@@ -16464,7 +16464,7 @@ newStubMem
 jitZone
 -
 >
-optimizedStubSpace
+stubSpace
 (
 )
 -
