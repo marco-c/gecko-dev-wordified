@@ -906,11 +906,6 @@ mPendingPointerDown
 private
 :
 void
-ClearTextFrameUnions
-(
-)
-;
-void
 ClearGeneratedTempDataForLCP
 (
 )
