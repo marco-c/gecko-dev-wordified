@@ -249,10 +249,6 @@ querySelector
 (
 "
 .
-ruleview
--
-selector
--
 matched
 "
 )
@@ -334,10 +330,6 @@ querySelector
 (
 "
 .
-ruleview
--
-selector
--
 matched
 "
 )

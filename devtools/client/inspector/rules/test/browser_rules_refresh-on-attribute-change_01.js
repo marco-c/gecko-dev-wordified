@@ -409,7 +409,9 @@ querySelectorAll
 .
 ruleview
 -
-selectorcontainer
+selectors
+-
+container
 "
 )
 ;
