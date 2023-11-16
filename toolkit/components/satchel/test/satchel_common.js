@@ -1406,6 +1406,7 @@ name
 fn
 )
 {
+return
 add_task
 (
 {
