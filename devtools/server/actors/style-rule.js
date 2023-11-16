@@ -3708,11 +3708,14 @@ push
 (
 {
 type
-selectorText
+selectors
 :
-rawRule
+CssLogic
 .
-selectorText
+getSelectors
+(
+rawRule
+)
 }
 )
 ;
