@@ -3139,6 +3139,16 @@ nsresult
 aResult
 )
 ;
+bool
+MaybeStopSyncLoop
+(
+nsIEventTarget
+*
+aSyncLoopTarget
+nsresult
+aResult
+)
+;
 void
 ShutdownModuleLoader
 (
