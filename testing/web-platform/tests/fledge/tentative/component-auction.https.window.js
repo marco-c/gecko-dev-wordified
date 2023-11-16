@@ -165,8 +165,9 @@ componentAuctionConfig
 }
 ;
 }
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -218,8 +219,9 @@ bidder
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -275,8 +277,9 @@ bidder
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -362,8 +365,9 @@ seller
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -455,8 +459,9 @@ seller
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -539,8 +544,9 @@ seller
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -652,8 +658,9 @@ buyers
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -742,8 +749,9 @@ seller
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -1548,8 +1556,9 @@ origins
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -1711,8 +1720,6 @@ throw
 "
 Unexpected
 component
-browserSignals
-.
 bid
 :
 "
@@ -1735,8 +1742,6 @@ throw
 "
 Unexpected
 component
-browserSignals
-.
 modifiedBid
 :
 "
@@ -1804,8 +1809,6 @@ Unexpected
 top
 -
 level
-browserSignals
-.
 bid
 :
 "
@@ -1830,8 +1833,6 @@ Unexpected
 top
 -
 level
-browserSignals
-.
 modifiedBid
 :
 "
@@ -1881,8 +1882,9 @@ bid
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -2057,8 +2059,6 @@ throw
 "
 Unexpected
 component
-browserSignals
-.
 bid
 :
 "
@@ -2081,8 +2081,6 @@ throw
 "
 Unexpected
 component
-browserSignals
-.
 modifiedBid
 :
 "
@@ -2150,8 +2148,6 @@ Unexpected
 top
 -
 level
-browserSignals
-.
 bid
 :
 "
@@ -2176,8 +2172,6 @@ Unexpected
 top
 -
 level
-browserSignals
-.
 modifiedBid
 :
 "
@@ -2227,8 +2221,9 @@ bid
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -2403,8 +2398,6 @@ throw
 "
 Unexpected
 component
-browserSignals
-.
 bid
 :
 "
@@ -2427,8 +2420,6 @@ throw
 "
 Unexpected
 component
-browserSignals
-.
 modifiedBid
 :
 "
@@ -2496,8 +2487,6 @@ Unexpected
 top
 -
 level
-browserSignals
-.
 bid
 :
 "
@@ -2522,8 +2511,6 @@ Unexpected
 top
 -
 level
-browserSignals
-.
 modifiedBid
 :
 "
@@ -2576,8 +2563,9 @@ value
 '
 )
 ;
-promise_test
+subsetTest
 (
+promise_test
 async
 test
 =
@@ -2739,8 +2727,6 @@ throw
 "
 Unexpected
 component
-browserSignals
-.
 bid
 :
 "
@@ -2763,8 +2749,6 @@ throw
 "
 Unexpected
 component
-browserSignals
-.
 modifiedBid
 :
 "
@@ -2845,8 +2829,6 @@ Unexpected
 top
 -
 level
-browserSignals
-.
 bid
 :
 "
@@ -2871,8 +2853,6 @@ Unexpected
 top
 -
 level
-browserSignals
-.
 modifiedBid
 :
 "
