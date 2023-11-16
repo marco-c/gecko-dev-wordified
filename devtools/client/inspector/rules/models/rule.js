@@ -725,6 +725,13 @@ this
 domRule
 .
 selectors
+selectorWarnings
+:
+this
+.
+domRule
+.
+selectors
 selectorText
 :
 this
