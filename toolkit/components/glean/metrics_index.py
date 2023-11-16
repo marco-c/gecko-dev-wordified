@@ -425,6 +425,18 @@ yaml
 "
     
 "
+toolkit
+/
+mozapps
+/
+handling
+/
+metrics
+.
+yaml
+"
+    
+"
 xpcom
 /
 metrics
@@ -527,6 +539,18 @@ browser
 components
 /
 privatebrowsing
+/
+metrics
+.
+yaml
+"
+    
+"
+browser
+/
+components
+/
+protocolhandler
 /
 metrics
 .
