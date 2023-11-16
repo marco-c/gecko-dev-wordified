@@ -48,8 +48,6 @@ from
 hypothesis
 import
 given
-settings
-HealthCheck
 from
 hypothesis
 .
@@ -4805,17 +4803,6 @@ max_value
 )
 )
     
-settings
-(
-suppress_health_check
-=
-[
-HealthCheck
-.
-function_scoped_fixture
-]
-)
-    
 def
 test_must_acknowledge_for_stream
 (
@@ -5005,17 +4992,6 @@ max_value
 -
 1
 )
-)
-    
-settings
-(
-suppress_health_check
-=
-[
-HealthCheck
-.
-function_scoped_fixture
-]
 )
     
 def
@@ -5673,17 +5649,6 @@ DEFAULT_FLOW_WINDOW
 )
 )
     
-settings
-(
-suppress_health_check
-=
-[
-HealthCheck
-.
-function_scoped_fixture
-]
-)
-    
 def
 test_acknowledging_1024_bytes_when_empty_increments
 (
@@ -5952,17 +5917,6 @@ DEFAULT_FLOW_WINDOW
 -
 1
 )
-)
-    
-settings
-(
-suppress_health_check
-=
-[
-HealthCheck
-.
-function_scoped_fixture
-]
 )
     
 def
@@ -6325,17 +6279,6 @@ max_value
 =
 DEFAULT_FLOW_WINDOW
 )
-)
-    
-settings
-(
-suppress_health_check
-=
-[
-HealthCheck
-.
-function_scoped_fixture
-]
 )
     
 def

@@ -82,13 +82,6 @@ pending_beacon
 helper
 .
 js
-/
-/
-META
-:
-timeout
-=
-long
 '
 use
 strict

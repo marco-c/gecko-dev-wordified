@@ -1680,7 +1680,6 @@ OrderedDict
 code
 "
 "
-NumpadEqual
 "
 )
                 
@@ -1704,7 +1703,7 @@ key
 "
 location
 "
-3
+0
 )
                 
 (
@@ -4022,7 +4021,6 @@ OrderedDict
 code
 "
 "
-Pause
 "
 )
                 
