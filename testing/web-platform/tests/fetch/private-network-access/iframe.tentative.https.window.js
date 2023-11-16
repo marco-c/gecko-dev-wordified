@@ -678,7 +678,7 @@ preflight
 :
 PreflightBehavior
 .
-success
+navigation
 (
 token
 (
@@ -1555,7 +1555,7 @@ preflight
 :
 PreflightBehavior
 .
-success
+navigation
 (
 token
 (
@@ -1630,7 +1630,7 @@ preflight
 :
 PreflightBehavior
 .
-success
+navigation
 (
 token
 (
@@ -1653,7 +1653,7 @@ preflight
 :
 PreflightBehavior
 .
-success
+navigation
 (
 token
 (
