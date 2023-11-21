@@ -124,7 +124,9 @@ h
 #
 include
 "
-FontPreloader
+mozilla
+/
+FontLoaderUtils
 .
 h
 "
@@ -1876,7 +1878,7 @@ channel
 ;
 rv
 =
-FontPreloader
+FontLoaderUtils
 :
 :
 BuildChannel
