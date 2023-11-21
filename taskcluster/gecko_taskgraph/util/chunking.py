@@ -2007,15 +2007,6 @@ tests
 :
                 
 if
-mozinfo
-[
-"
-canvas
-"
-]
-:
-                    
-if
 "
 html
 /
@@ -2029,6 +2020,15 @@ manifest
 "
 ]
 :
+                    
+if
+mozinfo
+[
+"
+canvas
+"
+]
+:
                         
 manifests
 .
@@ -2043,15 +2043,6 @@ manifest
 )
                 
 elif
-mozinfo
-[
-"
-webgpu
-"
-]
-:
-                    
-if
 "
 _mozilla
 /
@@ -2065,6 +2056,15 @@ manifest
 "
 ]
 :
+                    
+if
+mozinfo
+[
+"
+webgpu
+"
+]
+:
                         
 manifests
 .
@@ -2079,15 +2079,6 @@ manifest
 )
                 
 elif
-mozinfo
-[
-"
-privatebrowsing
-"
-]
-:
-                    
-if
 "
 /
 service
@@ -2103,6 +2094,15 @@ t
 [
 "
 manifest
+"
+]
+:
+                    
+if
+mozinfo
+[
+"
+privatebrowsing
 "
 ]
 :
