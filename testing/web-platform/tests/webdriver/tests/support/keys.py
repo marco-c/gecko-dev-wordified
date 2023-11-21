@@ -1680,6 +1680,7 @@ OrderedDict
 code
 "
 "
+NumpadEqual
 "
 )
                 
@@ -1703,7 +1704,7 @@ key
 "
 location
 "
-0
+3
 )
                 
 (
@@ -4021,6 +4022,7 @@ OrderedDict
 code
 "
 "
+Pause
 "
 )
                 
