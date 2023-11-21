@@ -972,6 +972,7 @@ scriptRender
 }
 <
 script
+async
 type
 =
 "
