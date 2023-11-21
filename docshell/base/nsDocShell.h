@@ -5219,6 +5219,8 @@ nsIWidget
 aWidget
 uint32_t
 aLoadType
+bool
+aWasUpgraded
 )
 ;
 static
