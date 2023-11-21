@@ -798,7 +798,12 @@ device
 in
 [
 RTCCameraVideoCapturer
-captureDevices
+captureDevicesWithDeviceTypes
+:
+[
+RTCCameraVideoCapturer
+defaultCaptureDeviceTypes
+]
 ]
 )
 {
