@@ -70,9 +70,9 @@ attr
 :
 :
 {
+parse_length
 AttrValue
 LengthPercentageOrAuto
-parse_length
 }
 ;
 use

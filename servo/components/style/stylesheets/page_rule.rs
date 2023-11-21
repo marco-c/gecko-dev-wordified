@@ -203,6 +203,12 @@ servo_arc
 Arc
 ;
 use
+smallvec
+:
+:
+SmallVec
+;
+use
 std
 :
 :
@@ -213,12 +219,6 @@ fmt
 self
 Write
 }
-;
-use
-smallvec
-:
-:
-SmallVec
 ;
 use
 style_traits
@@ -1596,6 +1596,7 @@ pc
 {
 return
 None
+;
 }
 match
 pc

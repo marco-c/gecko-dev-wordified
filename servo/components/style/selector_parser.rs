@@ -134,8 +134,8 @@ parser
 :
 :
 {
-SelectorList
 ParseRelative
+SelectorList
 }
 ;
 use

@@ -253,8 +253,8 @@ matching
 :
 {
 matches_selector
-MatchingForInvalidation
 MatchingContext
+MatchingForInvalidation
 MatchingMode
 NeedsSelectorFlags
 SelectorCaches
@@ -1530,6 +1530,7 @@ else
 {
 return
 false
+;
 }
 ;
 if
@@ -3185,6 +3186,7 @@ NormalDependencyInvalidationKind
 SlottedElements
 =
 >
+{
 self
 .
 element
@@ -3192,6 +3194,7 @@ element
 is_html_slot_element
 (
 )
+}
 NormalDependencyInvalidationKind
 :
 :

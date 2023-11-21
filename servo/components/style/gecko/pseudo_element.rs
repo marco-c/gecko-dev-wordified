@@ -1248,6 +1248,7 @@ Self
 SliderThumb
 =
 >
+{
 pref
 !
 (
@@ -1265,6 +1266,7 @@ pseudos
 enabled
 "
 )
+}
 /
 /
 If

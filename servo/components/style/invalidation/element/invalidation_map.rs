@@ -1464,10 +1464,12 @@ PseudoElement
 )
 =
 >
+{
 NormalDependencyInvalidationKind
 :
 :
 ElementAndDescendants
+}
 Some
 (
 Combinator
@@ -1776,6 +1778,7 @@ kind
 )
 =
 >
+{
 kind
 =
 =
@@ -1783,6 +1786,7 @@ RelativeDependencyInvalidationKind
 :
 :
 PrevSibling
+}
 }
 }
 }
@@ -6897,10 +6901,12 @@ RelativeSelectorMatchHint
 InSubtree
 =
 >
+{
 RelativeDependencyInvalidationKind
 :
 :
 Ancestors
+}
 RelativeSelectorMatchHint
 :
 :

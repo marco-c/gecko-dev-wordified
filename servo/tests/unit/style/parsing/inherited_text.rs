@@ -112,9 +112,9 @@ length
 :
 :
 {
+FontRelativeLength
 Length
 NoCalcLength
-FontRelativeLength
 }
 ;
 let
@@ -207,9 +207,9 @@ length
 :
 :
 {
-NoCalcLength
-LengthPercentage
 FontRelativeLength
+LengthPercentage
+NoCalcLength
 }
 ;
 let

@@ -95,8 +95,8 @@ custom_properties
 :
 :
 {
-CustomPropertiesMap
 ComputedCustomProperties
+CustomPropertiesMap
 }
 ;
 use
@@ -227,10 +227,10 @@ registry
 :
 :
 {
+PropertyRegistration
 ScriptRegistry
 as
 CustomPropertyScriptRegistry
-PropertyRegistration
 }
 ;
 use
@@ -422,10 +422,10 @@ CssRule
 EffectiveRulesIterator
 Origin
 OriginSet
-PerOrigin
-PerOriginIter
 PagePseudoClassFlags
 PageRule
+PerOrigin
+PerOriginIter
 }
 ;
 use
@@ -10999,7 +10999,6 @@ sort_by_key
 |
 block
 |
-{
 (
 block
 .
@@ -11015,7 +11014,6 @@ source_order
 (
 )
 )
-}
 )
 ;
 }

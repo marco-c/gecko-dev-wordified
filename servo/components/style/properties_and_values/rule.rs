@@ -106,14 +106,14 @@ super
 :
 :
 {
-syntax
-:
-:
-Descriptor
 registry
 :
 :
 PropertyRegistration
+syntax
+:
+:
+Descriptor
 value
 :
 :
@@ -633,6 +633,7 @@ BasicParseErrorKind
 AtRuleBodyInvalid
 )
 )
+;
 }
 ;
 /
@@ -717,6 +718,7 @@ BasicParseErrorKind
 AtRuleBodyInvalid
 )
 )
+;
 }
 ;
 if
@@ -1836,6 +1838,7 @@ Ok
 (
 )
 )
+;
 }
 /
 /
@@ -1897,6 +1900,7 @@ PropertyRegistrationError
 :
 NoInitialValue
 )
+;
 }
 ;
 /

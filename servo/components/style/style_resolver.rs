@@ -210,8 +210,8 @@ matching
 :
 :
 {
-MatchingForInvalidation
 MatchingContext
+MatchingForInvalidation
 MatchingMode
 NeedsSelectorFlags
 RelativeSelectorMatchingState

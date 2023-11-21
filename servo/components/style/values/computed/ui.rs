@@ -135,10 +135,10 @@ ui
 :
 :
 {
-CursorKind
 BoolInteger
-UserSelect
+CursorKind
 MozTheme
+UserSelect
 }
 ;
 /

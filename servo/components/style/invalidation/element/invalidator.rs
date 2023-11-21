@@ -120,8 +120,8 @@ invalidation_map
 :
 {
 Dependency
-NormalDependencyInvalidationKind
 DependencyInvalidationKind
+NormalDependencyInvalidationKind
 RelativeDependencyInvalidationKind
 }
 ;

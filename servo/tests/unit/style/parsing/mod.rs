@@ -112,8 +112,8 @@ style_traits
 :
 :
 {
-ParsingMode
 ParseError
+ParsingMode
 }
 ;
 fn
@@ -764,6 +764,7 @@ unwrap
 unwrapped
 }
 }
+;
 }
 macro_rules
 !
@@ -950,6 +951,7 @@ serialized
 re_serialized
 )
 }
+;
 }
 macro_rules
 !
@@ -1022,6 +1024,7 @@ unwrap
 )
 }
 }
+;
 }
 macro_rules
 !

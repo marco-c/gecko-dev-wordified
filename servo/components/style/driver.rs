@@ -467,7 +467,6 @@ in_place_scope_fifo
 |
 scope
 |
-{
 closure
 (
 Some
@@ -475,7 +474,6 @@ Some
 scope
 )
 )
-}
 )
 }
 }

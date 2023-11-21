@@ -78,15 +78,6 @@ style
 properties
 :
 :
-MaybeBoxed
-;
-use
-style
-:
-:
-properties
-:
-:
 longhands
 :
 :
@@ -122,6 +113,15 @@ shorthands
 :
 :
 border_image
+;
+use
+style
+:
+:
+properties
+:
+:
+MaybeBoxed
 ;
 use
 style
@@ -177,6 +177,7 @@ maybe_boxed
 )
 )
 }
+;
 }
 macro_rules
 !
@@ -211,6 +212,7 @@ maybe_boxed
 )
 )
 }
+;
 }
 macro_rules
 !
@@ -498,6 +500,7 @@ blh
 )
 ;
 }
+;
 }
 #
 [
