@@ -456,6 +456,10 @@ fluent_ffi
 ;
 extern
 crate
+oxilangtag_ffi
+;
+extern
+crate
 rure
 ;
 extern
