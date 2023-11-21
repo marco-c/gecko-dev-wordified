@@ -159,12 +159,16 @@ virtual
 nsPluginHost
 (
 )
+=
+default
 ;
 public
 :
 nsPluginHost
 (
 )
+=
+default
 ;
 static
 already_AddRefed
