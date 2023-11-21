@@ -112,6 +112,8 @@ add_intercept
 fetch
     
 setup_network_test
+    
+phase
 )
 :
     
@@ -243,9 +245,7 @@ add_intercept
 phases
 =
 [
-"
-beforeRequestSent
-"
+phase
 ]
         
 url_patterns
