@@ -144,6 +144,7 @@ test_text_with_argument_variation
 (
     
 bidi_session
+subscribe_events
 top_context
 wait_for_event
 log_argument
@@ -152,11 +153,7 @@ expected_text
 :
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
@@ -311,6 +308,7 @@ test_level
 (
     
 bidi_session
+subscribe_events
 top_context
 wait_for_event
 log_method
@@ -319,11 +317,7 @@ expected_level
 :
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
@@ -439,6 +433,7 @@ def
 test_timestamp
 (
 bidi_session
+subscribe_events
 top_context
 wait_for_event
 current_time
@@ -446,11 +441,7 @@ current_time
 :
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
@@ -598,17 +589,14 @@ def
 test_new_context_with_new_window
 (
 bidi_session
+subscribe_events
 top_context
 wait_for_event
 )
 :
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
@@ -746,17 +734,14 @@ def
 test_new_context_with_refresh
 (
 bidi_session
+subscribe_events
 top_context
 wait_for_event
 )
 :
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
@@ -914,6 +899,8 @@ test_different_contexts
     
 bidi_session
     
+subscribe_events
+    
 top_context
     
 wait_for_event
@@ -1001,11 +988,7 @@ children
 ]
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
