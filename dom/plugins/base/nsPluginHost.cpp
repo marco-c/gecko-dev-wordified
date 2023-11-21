@@ -121,15 +121,6 @@ nsTString
 .
 h
 "
-using
-namespace
-mozilla
-;
-NS_IMPL_ISUPPORTS
-(
-nsPluginHost
-nsISupportsWeakReference
-)
 nsPluginHost
 :
 :
