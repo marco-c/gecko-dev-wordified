@@ -712,5 +712,10 @@ unsigned
 long
 timeoutMS
 ;
+readonly
+attribute
+bool
+conditionallyMediated
+;
 }
 ;
