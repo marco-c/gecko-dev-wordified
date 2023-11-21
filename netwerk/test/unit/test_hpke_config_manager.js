@@ -34,7 +34,7 @@ strict
 ;
 let
 {
-OHTTPConfigManager
+HPKEConfigManager
 }
 =
 ChromeUtils
@@ -50,7 +50,7 @@ gre
 /
 modules
 /
-OHTTPConfigManager
+HPKEConfigManager
 .
 sys
 .
@@ -317,7 +317,7 @@ Assert
 equal
 (
 await
-OHTTPConfigManager
+HPKEConfigManager
 .
 get
 (
@@ -347,7 +347,7 @@ Assert
 deepEqual
 (
 await
-OHTTPConfigManager
+HPKEConfigManager
 .
 get
 (
@@ -387,7 +387,7 @@ Assert
 deepEqual
 (
 await
-OHTTPConfigManager
+HPKEConfigManager
 .
 get
 (
@@ -421,7 +421,7 @@ Assert
 deepEqual
 (
 await
-OHTTPConfigManager
+HPKEConfigManager
 .
 get
 (
@@ -479,7 +479,7 @@ Assert
 deepEqual
 (
 await
-OHTTPConfigManager
+HPKEConfigManager
 .
 get
 (
@@ -513,7 +513,7 @@ Assert
 deepEqual
 (
 await
-OHTTPConfigManager
+HPKEConfigManager
 .
 get
 (
@@ -579,7 +579,7 @@ Assert
 deepEqual
 (
 await
-OHTTPConfigManager
+HPKEConfigManager
 .
 get
 (
@@ -612,7 +612,7 @@ Assert
 deepEqual
 (
 await
-OHTTPConfigManager
+HPKEConfigManager
 .
 get
 (
@@ -636,7 +636,7 @@ Assert
 deepEqual
 (
 await
-OHTTPConfigManager
+HPKEConfigManager
 .
 get
 (
