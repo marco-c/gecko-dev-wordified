@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsPluginHost
-.
-h
-"
-#
-include
-"
 nsIBlocklistService
 .
 h
