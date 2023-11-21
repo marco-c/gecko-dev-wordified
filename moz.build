@@ -1558,6 +1558,13 @@ cargo
 +
 =
 [
+CONFIG
+[
+"
+MOZ_OVERRIDE_CARGO_CONFIG
+"
+]
+or
 "
 .
 cargo
