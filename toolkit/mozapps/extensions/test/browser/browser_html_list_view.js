@@ -6426,6 +6426,13 @@ firstElementChild
 "
 transitionend
 "
+/
+*
+capture
+=
+*
+/
+false
 e
 =
 >
