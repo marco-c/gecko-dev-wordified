@@ -2127,8 +2127,6 @@ cold
 Used
 to
 determine
-\
-n
 "
                 
 "
