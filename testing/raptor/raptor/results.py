@@ -3605,6 +3605,8 @@ subtest_name_filters
         
 handle_custom_data
         
+support_class
+        
 *
 *
 kwargs
@@ -4635,6 +4637,8 @@ each
         
 if
 cold
+or
+handle_custom_data
 :
             
 if
@@ -4718,10 +4722,18 @@ page_counter
 =
 0
         
+last_result
+=
+False
+        
 for
+i
 raw_result
 in
+enumerate
+(
 raw_btresults
+)
 :
             
 if
@@ -4780,6 +4792,50 @@ all
 timings
 "
 )
+            
+if
+i
+=
+=
+(
+len
+(
+raw_btresults
+)
+-
+1
+)
+:
+                
+#
+Used
+to
+tell
+custom
+support
+scripts
+when
+the
+last
+result
+                
+#
+is
+being
+parsed
+.
+This
+lets
+them
+finalize
+any
+overall
+measurements
+.
+                
+last_result
+=
+True
             
 #
 Desktop
@@ -5068,6 +5124,38 @@ cpu_vals
 )
             
 if
+support_class
+:
+                
+bt_result
+[
+"
+custom_data
+"
+]
+=
+True
+                
+support_class
+.
+handle_result
+(
+                    
+bt_result
+                    
+raw_result
+                    
+conversion
+=
+conversion
+                    
+last_result
+=
+last_result
+                
+)
+            
+elif
 any
 (
 raw_result
@@ -7496,6 +7584,16 @@ False
 true
 "
                 
+test
+.
+get
+(
+"
+support_class
+"
+None
+)
+                
 gather_cpuTime
 =
 test
@@ -7777,6 +7875,32 @@ append
 "
 warm
 "
+)
+                    
+#
+Add
+the
+support
+class
+to
+the
+result
+                    
+new_result
+[
+"
+support_class
+"
+]
+=
+test
+.
+get
+(
+"
+support_class
+"
+None
 )
                     
 return
