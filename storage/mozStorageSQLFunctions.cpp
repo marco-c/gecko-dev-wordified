@@ -708,7 +708,6 @@ return
 0
 ;
 }
-else
 if
 (
 !
