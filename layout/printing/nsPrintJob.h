@@ -1055,9 +1055,6 @@ PrintSheet
 nsPrintObject
 *
 aPOect
-bool
-&
-aInRange
 )
 ;
 bool
