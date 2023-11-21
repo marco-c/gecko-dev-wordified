@@ -276,12 +276,6 @@ listenForServiceWorkers
 =
 true
 ;
-targetCommand
-.
-destroyServiceWorkersOnNavigation
-=
-true
-;
 }
 await
 targetCommand
