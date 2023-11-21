@@ -3770,7 +3770,7 @@ sendReportTo
 (
 '
 {
-createSellerReportURL
+createBidderReportURL
 (
 uuid
 '
