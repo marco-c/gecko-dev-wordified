@@ -1178,20 +1178,6 @@ type
 SESSION_TYPES
 .
 WEBEXTENSION
-[
-Targets
-.
-TYPES
-.
-SERVICE_WORKER
-]
-:
-type
-=
-=
-SESSION_TYPES
-.
-BROWSER_ELEMENT
 }
 ;
 }
@@ -1545,6 +1531,5 @@ createBrowserElementSessionContext
 createWebExtensionSessionContext
 createContentProcessSessionContext
 createWorkerSessionContext
-SESSION_TYPES
 }
 ;
