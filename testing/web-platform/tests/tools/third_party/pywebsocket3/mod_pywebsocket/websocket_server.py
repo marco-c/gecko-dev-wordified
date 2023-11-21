@@ -615,6 +615,37 @@ necessary
 "
         
 #
+Fall
+back
+to
+None
+for
+embedders
+that
+don
+'
+t
+know
+about
+the
+        
+#
+handler_encoding
+option
+.
+        
+handler_encoding
+=
+getattr
+(
+options
+"
+handler_encoding
+"
+None
+)
+        
+#
 Share
 a
 Dispatcher
@@ -660,6 +691,7 @@ scan_dir
 options
 .
 allow_handlers_outside_root_dir
+handler_encoding
 )
         
 if
