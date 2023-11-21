@@ -343,6 +343,7 @@ props
 value
 !
 =
+=
 nextProps
 .
 value
@@ -365,6 +366,7 @@ member
 .
 open
 !
+=
 =
 nextProps
 .
