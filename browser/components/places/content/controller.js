@@ -5974,6 +5974,12 @@ PlacesTransactions
 batch
 (
 transactions
+"
+PlacesController
+:
+:
+removeRowsFromBookmarks
+"
 )
 ;
 }
