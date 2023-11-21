@@ -598,6 +598,7 @@ JSUseCounter
 {
 ASMJS
 WASM
+LATE_WEEKDAY
 }
 ;
 using
