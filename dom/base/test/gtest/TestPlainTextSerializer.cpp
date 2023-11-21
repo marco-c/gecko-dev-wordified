@@ -532,6 +532,11 @@ OutputPersistNBSP
 nsIDocumentEncoder
 :
 :
+OutputLFLineBreak
+|
+nsIDocumentEncoder
+:
+:
 OutputFormatFlowed
 kDefaultWrapColumn
 )
