@@ -6058,6 +6058,28 @@ CommandArgument
 "
 -
 -
+runcounts
+-
+input
+-
+file
+"
+help
+=
+"
+Optional
+path
+to
+report
+file
+.
+"
+)
+CommandArgument
+(
+"
+-
+-
 verbose
 "
 action
@@ -6206,6 +6228,8 @@ start
 end
     
 show_testruns
+    
+runcounts_input_file
 )
 :
     
@@ -6297,6 +6321,8 @@ start
 end
         
 show_testruns
+        
+runcounts_input_file
     
 )
 SubCommand
