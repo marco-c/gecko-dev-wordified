@@ -110,11 +110,6 @@ SPANISH_PAGE_URL
 languagePairs
 :
 LANGUAGE_PAIRS
-permissionsUrls
-:
-[
-SPANISH_PAGE_URL
-]
 }
 )
 ;

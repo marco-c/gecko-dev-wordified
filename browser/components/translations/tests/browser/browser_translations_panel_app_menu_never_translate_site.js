@@ -89,11 +89,6 @@ SPANISH_PAGE_URL
 languagePairs
 :
 LANGUAGE_PAIRS
-permissionsUrls
-:
-[
-SPANISH_PAGE_URL
-]
 }
 )
 ;
@@ -296,11 +291,6 @@ BLANK_PAGE
 languagePairs
 :
 LANGUAGE_PAIRS
-permissionsUrls
-:
-[
-SPANISH_PAGE_URL
-]
 prefs
 :
 [
