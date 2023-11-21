@@ -856,13 +856,6 @@ automation
 True
         
 "
-service_pack
-"
-:
-"
-"
-        
-"
 apple_silicon
 "
 :

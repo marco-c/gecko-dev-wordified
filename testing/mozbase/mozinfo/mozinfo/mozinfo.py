@@ -427,7 +427,7 @@ major
 minor
 build_number
 _
-service_pack
+_
 )
 =
 os
@@ -437,15 +437,6 @@ sys
 getwindowsversion
 (
 )
-    
-info
-[
-"
-service_pack
-"
-]
-=
-service_pack
     
 version
 =
