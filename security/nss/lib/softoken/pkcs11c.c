@@ -32045,10 +32045,12 @@ NSS_USE_DECODED_CKA_EC_POINT
 ecParams
 -
 >
+fieldID
+.
 type
-!
 =
-ec_params_named
+=
+ec_field_plain
 )
 {
 PORT_FreeArena
