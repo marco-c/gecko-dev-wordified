@@ -3681,6 +3681,20 @@ exit_code
 )
 :
     
+for
+m
+in
+msg
+.
+split
+(
+"
+\
+n
+"
+)
+:
+        
 msg
 =
 "
@@ -3712,9 +3726,9 @@ argv
 [
 1
 ]
-msg
+m
 )
-    
+        
 print
 (
 msg
