@@ -144,11 +144,6 @@ CompositorTypes
 h
 "
 "
-D3D9SurfaceImage
-.
-h
-"
-"
 FrameMetrics
 .
 h
@@ -240,11 +235,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-D3D9SurfaceImage
-.
-cpp
-"
 "
 IMFYCbCrImage
 .
@@ -919,11 +909,6 @@ h
 "
 "
 D3D11YCbCrImage
-.
-h
-"
-"
-D3D9SurfaceImage
 .
 h
 "
