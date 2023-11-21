@@ -269,6 +269,13 @@ h
 #
 include
 "
+nsPluginTags
+.
+h
+"
+#
+include
+"
 nsIHttpChannel
 .
 h
