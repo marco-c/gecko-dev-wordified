@@ -39442,6 +39442,8 @@ lineStartAndEnd
 lineStartAndEnd
 .
 ident
+.
+_0
 =
 areaInfo
 .
