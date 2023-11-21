@@ -943,10 +943,10 @@ options
 }
 export
 function
-request_options_with_hosted_domain
+request_options_with_domain_hint
 (
 manifest_filename
-hosted_domain
+domain_hint
 )
 {
 let
@@ -966,9 +966,9 @@ providers
 0
 ]
 .
-hostedDomain
+domainHint
 =
-hosted_domain
+domain_hint
 ;
 return
 options
