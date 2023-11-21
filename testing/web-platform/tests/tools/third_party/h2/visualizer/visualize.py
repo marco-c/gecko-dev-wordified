@@ -56,8 +56,6 @@ state
 machines
 included
 in
-hyper
--
 h2
 .
 These
@@ -71,8 +69,6 @@ of
 the
 documentation
 of
-hyper
--
 h2
 and
 as
@@ -146,8 +142,6 @@ with
 the
 rest
 of
-hyper
--
 h2
 .
 This
@@ -163,8 +157,6 @@ users
 who
 are
 installing
-hyper
--
 h2
 :
 its
@@ -176,17 +168,11 @@ for
 the
 developers
 of
-hyper
--
 h2
 .
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -1365,8 +1351,6 @@ the
 state
 machines
 in
-hyper
--
 h2
 into
 images
@@ -1402,8 +1386,6 @@ description
 "
     
 Visualize
-hyper
--
 h2
 state
 machines
