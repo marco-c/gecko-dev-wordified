@@ -15719,6 +15719,18 @@ event
 point
 .
 *
+param
+aOffsetAtEventPoint
+The
+offset
+in
+aContentAtEventPoint
+where
+*
+aSecondaryButtonEvent
+clicked
+.
+*
 /
 [
 [
@@ -15742,6 +15754,8 @@ const
 nsIContent
 &
 aContentAtEventPoint
+int32_t
+aOffsetAtEventPoint
 )
 const
 ;

@@ -1922,7 +1922,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-EditorUtils
+nsContentUtils
 :
 :
 IsPointInSelection

@@ -7255,7 +7255,7 @@ false
 }
 return
 !
-EditorUtils
+nsContentUtils
 :
 :
 IsPointInSelection
