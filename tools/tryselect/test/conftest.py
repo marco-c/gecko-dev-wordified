@@ -343,13 +343,6 @@ import
 mach_initialize
     
 from
-mach
-.
-config
-import
-ConfigSettings
-    
-from
 tryselect
 .
 tasks
@@ -373,14 +366,6 @@ inner
 args
 )
 :
-        
-mach
-.
-settings
-=
-ConfigSettings
-(
-)
         
 return
 mach
