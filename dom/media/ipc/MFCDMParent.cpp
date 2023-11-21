@@ -3637,6 +3637,14 @@ IsPlayReadyKeySystemAndSupported
 (
 aKeySystem
 )
+&
+&
+StaticPrefs
+:
+:
+media_eme_playready_istypesupportedex
+(
+)
 )
 {
 ComPtr
