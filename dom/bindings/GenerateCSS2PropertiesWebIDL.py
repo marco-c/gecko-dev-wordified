@@ -361,34 +361,7 @@ IsBackdropFilterAvailable
 '
 )
             
-#
-MozTransform
-accessor
-is
-generated
-regardless
-for
-compatibility
-            
-#
-see
-bug
-1861828
-1865332
-1860424
-1864970
-1865332
-.
-            
-elif
-p
-.
-method
-!
-=
-"
-MozTransform
-"
+else
 :
                 
 extendedAttrs
