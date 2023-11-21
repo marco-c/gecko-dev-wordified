@@ -347,9 +347,6 @@ mStartPos
 nsPoint
 mDestination
 ;
-nsPoint
-mContentShift
-;
 TimeStamp
 mLastSimulatedTime
 ;
