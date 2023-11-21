@@ -4277,6 +4277,10 @@ StyleStrokeLinecap
 aStrokeLineCap
 Float
 aStrokeWidth
+const
+Point
+&
+aOffset
 float
 aZoomFactor
 )
@@ -4424,6 +4428,7 @@ auto
 scale
 =
 [
+aOffset
 aZoomFactor
 ]
 (
@@ -4447,6 +4452,8 @@ y
 *
 aZoomFactor
 )
++
+aOffset
 ;
 }
 ;

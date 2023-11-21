@@ -380,6 +380,10 @@ CreateClipPathPath
 DrawTarget
 *
 aDrawTarget
+const
+nsRect
+&
+aRefBox
 )
 ;
 /
