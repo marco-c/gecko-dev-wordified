@@ -6754,10 +6754,14 @@ Register
 dest
 )
 {
-ma_move
+ma_sll
 (
 dest
 src
+Imm32
+(
+0
+)
 )
 ;
 }

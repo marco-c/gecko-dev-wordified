@@ -44819,7 +44819,7 @@ an
 i31
 value
 first
-branchTest32
+branchTestPtr
 (
 Assembler
 :
@@ -44853,7 +44853,7 @@ object
 or
 null
 tag
-branchTest32
+branchTestPtr
 (
 Assembler
 :
@@ -44961,12 +44961,9 @@ bind
 isI31
 )
 ;
-rshift32Arithmetic
+convertWasmI31RefTo32Signed
 (
-Imm32
-(
-1
-)
+src
 src
 )
 ;
@@ -45224,7 +45221,7 @@ an
 i31
 value
 first
-branchTest32
+branchTestPtr
 (
 Assembler
 :
@@ -45258,7 +45255,7 @@ object
 or
 null
 tag
-branchTest32
+branchTestPtr
 (
 Assembler
 :
@@ -45357,12 +45354,9 @@ bind
 isI31
 )
 ;
-rshift32Arithmetic
+convertWasmI31RefTo32Signed
 (
-Imm32
-(
-1
-)
+src
 src
 )
 ;
