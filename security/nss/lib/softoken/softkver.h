@@ -177,7 +177,7 @@ SOFTOKEN_VBUILD
 #
 define
 SOFTOKEN_BETA
-PR_TRUE
+PR_FALSE
 #
 endif
 /
