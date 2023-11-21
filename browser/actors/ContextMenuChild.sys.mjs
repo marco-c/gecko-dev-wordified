@@ -3850,7 +3850,7 @@ QueryInterface
 (
 Ci
 .
-nsIContentViewerEdit
+nsIDocumentViewerEdit
 )
 .
 setCommandNode
