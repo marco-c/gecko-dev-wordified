@@ -226,17 +226,6 @@ range_from
 start_len
 )
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-span
-"
-)
-]
 for
 handle
 in

@@ -698,7 +698,6 @@ instance_desc
 }
 ;
 let
-mut
 surface
 =
 {
@@ -858,7 +857,6 @@ hal
 OpenDevice
 {
 device
-mut
 queue
 }
 =
@@ -4780,7 +4778,6 @@ queue
 present
 (
 &
-mut
 self
 .
 surface
@@ -4817,7 +4814,7 @@ do_fence
 log
 :
 :
-info
+debug
 !
 (
 "

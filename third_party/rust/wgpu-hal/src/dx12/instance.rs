@@ -1,4 +1,10 @@
 use
+parking_lot
+:
+:
+RwLock
+;
+use
 winapi
 :
 :
@@ -414,7 +420,7 @@ err
 log
 :
 :
-info
+warn
 !
 (
 "
@@ -851,7 +857,13 @@ self
 supports_allow_tearing
 swap_chain
 :
+RwLock
+:
+:
+new
+(
 None
+)
 }
 )
 _
