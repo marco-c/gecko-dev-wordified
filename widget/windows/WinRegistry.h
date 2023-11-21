@@ -1579,6 +1579,17 @@ KeyWatcher
 ;
 private
 :
+static
+void
+CALLBACK
+WatchCallback
+(
+void
+*
+aContext
+BOOLEAN
+)
+;
 bool
 Register
 (
