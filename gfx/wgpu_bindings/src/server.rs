@@ -530,7 +530,7 @@ min
 )
 max_uniform_buffer_binding_size
 :
-limtis
+limits
 .
 max_uniform_buffer_binding_size
 .
