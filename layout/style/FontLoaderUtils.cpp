@@ -968,8 +968,6 @@ aLoadGroup
 nsIInterfaceRequestor
 *
 aCallbacks
-bool
-aIsPreload
 )
 {
 nsresult
@@ -1026,7 +1024,12 @@ contentPolicyType
 BuildChannelFlags
 (
 aURI
+/
+*
 aIsPreload
+*
+/
+false
 corsMapping
 securityFlags
 contentPolicyType

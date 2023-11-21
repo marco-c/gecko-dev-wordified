@@ -1589,7 +1589,6 @@ Private
 )
 loadGroup
 nullptr
-false
 )
 ;
 NS_ENSURE_SUCCESS
