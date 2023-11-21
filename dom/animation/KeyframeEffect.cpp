@@ -5963,13 +5963,6 @@ NotifyAnimationAdded
 mAnimation
 )
 ;
-mAnimation
--
->
-ReschedulePendingTasks
-(
-)
-;
 }
 }
 if
@@ -13355,7 +13348,7 @@ or
 body
 >
 which
-genarate
+generate
 /
 /
 nsDisplayCanvasBackgroundColor

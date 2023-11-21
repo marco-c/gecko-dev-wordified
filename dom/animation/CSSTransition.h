@@ -535,6 +535,8 @@ KeyframeEffect
 void
 Tick
 (
+TickState
+&
 )
 override
 ;

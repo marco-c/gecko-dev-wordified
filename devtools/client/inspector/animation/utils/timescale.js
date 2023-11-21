@@ -281,7 +281,7 @@ is
 smaller
 than
 negative
-dleay
+delay
 .
 /
 /

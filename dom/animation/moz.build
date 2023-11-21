@@ -261,11 +261,6 @@ KeyframeUtils
 h
 "
 "
-PendingAnimationTracker
-.
-h
-"
-"
 PostRestyleMode
 .
 h
@@ -362,11 +357,6 @@ cpp
 "
 "
 KeyframeUtils
-.
-cpp
-"
-"
-PendingAnimationTracker
 .
 cpp
 "

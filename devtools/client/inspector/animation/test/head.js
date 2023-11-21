@@ -509,13 +509,6 @@ function
 )
 {
 return
-new
-Promise
-(
-resolve
-=
->
-{
 SpecialPowers
 .
 pushPrefEnv
@@ -553,10 +546,6 @@ enabled
 true
 ]
 ]
-}
-resolve
-)
-;
 }
 )
 ;
@@ -3857,7 +3846,7 @@ propertyValue
 *
 Wait
 until
-curren
+current
 time
 of
 animations
@@ -3865,8 +3854,8 @@ will
 be
 changed
 to
-give
-currrent
+given
+current
 time
 .
 *
@@ -3927,6 +3916,8 @@ every
 a
 =
 >
+{
+return
 a
 .
 state
@@ -3936,6 +3927,8 @@ currentTime
 =
 =
 currentTime
+;
+}
 )
 )
 ;

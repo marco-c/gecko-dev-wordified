@@ -384,6 +384,11 @@ aIsVisible
 )
 override
 ;
+void
+TriggerAllPendingAnimationsNow
+(
+)
+;
 /
 /
 nsARefreshObserver
@@ -439,6 +444,11 @@ mDocument
 void
 UpdateLastRefreshDriverTime
 (
+TimeStamp
+aKnownTime
+=
+{
+}
 )
 ;
 bool

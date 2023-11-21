@@ -339,7 +339,7 @@ if
 animation
 -
 >
-TryTriggerNowForFiniteTimeline
+TryTriggerNow
 (
 )
 )
