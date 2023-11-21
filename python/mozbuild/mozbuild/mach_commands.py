@@ -16064,6 +16064,43 @@ directory
 files
 "
 )
+CommandArgument
+(
+    
+"
+-
+-
+release
+-
+product
+"
+    
+type
+=
+str
+    
+required
+=
+True
+    
+help
+=
+"
+The
+product
+being
+shipped
+.
+Used
+to
+disambiguate
+beta
+/
+devedition
+etc
+.
+"
+)
 def
 repackage_deb_l10n
 (
@@ -16081,6 +16118,8 @@ version
 build_number
     
 templates
+    
+release_product
 )
 :
     
@@ -16154,11 +16193,18 @@ repackage_deb_l10n
 (
         
 input_xpi_file
+        
 input_tar_file
+        
 output
+        
 template_dir
+        
 version
+        
 build_number
+        
+release_product
     
 )
 SubCommand

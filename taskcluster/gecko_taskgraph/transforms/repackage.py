@@ -2118,6 +2118,20 @@ langpack
 /
 debian
 "
+            
+"
+-
+-
+release
+-
+product
+"
+            
+"
+{
+release_product
+}
+"
         
 ]
         
