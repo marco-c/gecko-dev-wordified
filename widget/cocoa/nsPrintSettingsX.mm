@@ -1781,7 +1781,7 @@ arePagesPortraitMode
 areSheetsOfPaperPortraitMode
 !
 =
-HasOrthogonalSheetsAndPages
+HasOrthogonalPagesPerSheet
 (
 )
 )

@@ -2349,7 +2349,7 @@ mPD
 mPrintSettings
 -
 >
-HasOrthogonalSheetsAndPages
+HasOrthogonalPagesPerSheet
 (
 )
 )
@@ -2717,7 +2717,7 @@ mPD
 mPrintSettings
 -
 >
-HasOrthogonalSheetsAndPages
+HasOrthogonalPagesPerSheet
 (
 )
 )
@@ -2904,7 +2904,7 @@ mPD
 mPrintSettings
 -
 >
-HasOrthogonalSheetsAndPages
+HasOrthogonalPagesPerSheet
 (
 )
 )
