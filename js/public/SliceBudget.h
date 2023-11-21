@@ -424,11 +424,11 @@ false
 private
 :
 static
-const
-intptr_t
+constexpr
+int64_t
 UnlimitedCounter
 =
-INTPTR_MAX
+INT64_MAX
 ;
 /
 /
@@ -475,7 +475,7 @@ flag
 .
 static
 constexpr
-intptr_t
+int64_t
 StepsPerExpensiveCheck
 =
 1000
@@ -812,8 +812,7 @@ stepAndForceCheck
 {
 if
 (
-!
-isUnlimited
+isTimeBudget
 (
 )
 )
@@ -821,6 +820,13 @@ isUnlimited
 counter
 =
 0
+;
+}
+else
+{
+counter
+-
+-
 ;
 }
 }
