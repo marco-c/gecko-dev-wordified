@@ -1794,11 +1794,6 @@ requested
 :
 ?
 }
-{
-1
-:
-?
-}
 "
 )
 ]
@@ -1807,11 +1802,7 @@ UnsupportedScalar
 crate
 :
 :
-ScalarKind
-crate
-:
-:
-Bytes
+Scalar
 )
 #
 [

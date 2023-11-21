@@ -3907,8 +3907,6 @@ PresentModeKHR
 :
 FIFO_RELAXED
 {
-/
-/
 Some
 (
 wgt
@@ -3917,9 +3915,8 @@ wgt
 PresentMode
 :
 :
-Relaxed
+FifoRelaxed
 )
-None
 }
 else
 {
