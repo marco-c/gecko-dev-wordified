@@ -134,11 +134,6 @@ type
 pub
 trait
 CompatibleFloat
-<
-F
-:
-FieldElementWithInteger
->
 {
 /
 /
@@ -161,7 +156,7 @@ to_float
 (
 t
 :
-F
+Field128
 c
 :
 u128
@@ -196,7 +191,7 @@ self
 -
 >
 <
-F
+Field128
 as
 FieldElementWithInteger
 >
@@ -207,9 +202,6 @@ Integer
 }
 impl
 CompatibleFloat
-<
-Field128
->
 for
 FixedI16
 <
@@ -318,9 +310,6 @@ u
 }
 impl
 CompatibleFloat
-<
-Field128
->
 for
 FixedI32
 <
@@ -429,9 +418,6 @@ u
 }
 impl
 CompatibleFloat
-<
-Field128
->
 for
 FixedI64
 <

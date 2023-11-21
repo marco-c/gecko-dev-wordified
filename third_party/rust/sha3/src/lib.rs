@@ -1056,8 +1056,6 @@ U168
 "
 TurboSHAKE128
 "
-"
-"
 )
 ;
 impl_turbo_shake
@@ -1070,8 +1068,6 @@ TurboShake256Reader
 U136
 "
 TurboSHAKE256
-"
-"
 "
 )
 ;

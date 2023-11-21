@@ -205,6 +205,11 @@ emscripten
 target_os
 =
 "
+hurd
+"
+target_os
+=
+"
 redox
 "
 )
@@ -334,6 +339,8 @@ if
 [
 cfg
 (
+any
+(
 all
 (
 target_os
@@ -345,6 +352,12 @@ target_arch
 =
 "
 arm
+"
+)
+target_os
+=
+"
+vita
 "
 )
 )
