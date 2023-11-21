@@ -933,6 +933,9 @@ MOZ_SANDBOX
 void
 EnsureWidevineL1PathForSandbox
 (
+StringVector
+&
+aExtraOpts
 )
 ;
 #
