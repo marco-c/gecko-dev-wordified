@@ -2346,6 +2346,11 @@ if
 (
 gEnv
 .
+mustBeEnabled
+&
+&
+gEnv
+.
 focusableRule
 &
 &
@@ -2564,6 +2569,11 @@ if
 (
 gEnv
 .
+mustBeEnabled
+&
+&
+gEnv
+.
 actionCountRule
 &
 &
@@ -2595,6 +2605,11 @@ return
 }
 if
 (
+gEnv
+.
+mustBeEnabled
+&
+&
 gEnv
 .
 interactiveRule
