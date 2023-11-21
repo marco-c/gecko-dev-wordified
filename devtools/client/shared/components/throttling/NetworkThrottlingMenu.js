@@ -385,6 +385,8 @@ menuItems
 =
 throttlingProfiles
 .
+profiles
+.
 map
 (
 profile
@@ -541,6 +543,8 @@ const
 selectedProfile
 =
 throttlingProfiles
+.
+profiles
 .
 find
 (
