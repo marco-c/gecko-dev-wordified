@@ -260,7 +260,7 @@ IsOpen
 bridge
 -
 >
-SendCommandBufferDestroy
+SendCommandBufferDrop
 (
 mId
 )

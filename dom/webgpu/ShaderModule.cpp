@@ -262,7 +262,7 @@ IsOpen
 bridge
 -
 >
-SendShaderModuleDestroy
+SendShaderModuleDrop
 (
 mId
 )

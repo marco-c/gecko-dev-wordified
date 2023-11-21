@@ -819,7 +819,7 @@ isSome
 mBridge
 -
 >
-SendSwapChainDestroy
+SendSwapChainDrop
 (
 *
 mRemoteTextureOwnerId

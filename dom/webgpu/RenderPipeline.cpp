@@ -252,7 +252,7 @@ IsOpen
 bridge
 -
 >
-SendRenderPipelineDestroy
+SendRenderPipelineDrop
 (
 mId
 )
@@ -320,7 +320,7 @@ layouts
 bridge
 -
 >
-SendImplicitLayoutDestroy
+SendImplicitLayoutDrop
 (
 mImplicitPipelineLayoutId
 mImplicitBindGroupLayoutIds

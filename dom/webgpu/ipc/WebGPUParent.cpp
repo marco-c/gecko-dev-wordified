@@ -3133,7 +3133,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvAdapterDestroy
+RecvAdapterDrop
 (
 RawId
 aAdapterId
@@ -4825,7 +4825,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvTextureDestroy
+RecvTextureDrop
 (
 RawId
 aTextureId
@@ -4887,7 +4887,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvTextureViewDestroy
+RecvTextureViewDrop
 (
 RawId
 aTextureViewId
@@ -4919,7 +4919,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvSamplerDestroy
+RecvSamplerDrop
 (
 RawId
 aSamplerId
@@ -5043,7 +5043,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvCommandEncoderDestroy
+RecvCommandEncoderDrop
 (
 RawId
 aEncoderId
@@ -5075,7 +5075,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvCommandBufferDestroy
+RecvCommandBufferDrop
 (
 RawId
 aCommandBufferId
@@ -5107,7 +5107,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvRenderBundleDestroy
+RecvRenderBundleDrop
 (
 RawId
 aBundleId
@@ -5475,7 +5475,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvBindGroupLayoutDestroy
+RecvBindGroupLayoutDrop
 (
 RawId
 aBindGroupId
@@ -5507,7 +5507,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvPipelineLayoutDestroy
+RecvPipelineLayoutDrop
 (
 RawId
 aLayoutId
@@ -5539,7 +5539,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvBindGroupDestroy
+RecvBindGroupDrop
 (
 RawId
 aBindGroupId
@@ -5571,7 +5571,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvShaderModuleDestroy
+RecvShaderModuleDrop
 (
 RawId
 aModuleId
@@ -5603,7 +5603,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvComputePipelineDestroy
+RecvComputePipelineDrop
 (
 RawId
 aPipelineId
@@ -5635,7 +5635,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvRenderPipelineDestroy
+RecvRenderPipelineDrop
 (
 RawId
 aPipelineId
@@ -5667,7 +5667,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvImplicitLayoutDestroy
+RecvImplicitLayoutDrop
 (
 RawId
 aImplicitPlId
@@ -8092,7 +8092,7 @@ IPCResult
 WebGPUParent
 :
 :
-RecvSwapChainDestroy
+RecvSwapChainDrop
 (
 const
 layers
