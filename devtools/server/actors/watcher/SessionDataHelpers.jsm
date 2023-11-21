@@ -450,6 +450,15 @@ BREAKPOINTS
 "
 breakpoints
 "
+BROWSER_ELEMENT_HOST
+:
+"
+browser
+-
+element
+-
+host
+"
 XHR_BREAKPOINTS
 :
 "
