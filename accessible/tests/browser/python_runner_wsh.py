@@ -204,15 +204,11 @@ linux
 "
 :
         
-#
-XXX
-ATK
-code
-goes
-here
-.
-        
-pass
+testDir
+=
+"
+atk
+"
     
 if
 testDir

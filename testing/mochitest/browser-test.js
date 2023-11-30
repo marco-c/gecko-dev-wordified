@@ -7566,6 +7566,11 @@ reset
 this
 .
 a11y_checks
+this
+.
+currentTest
+.
+path
 )
 ;
 /
