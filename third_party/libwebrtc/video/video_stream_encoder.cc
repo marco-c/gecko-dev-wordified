@@ -8936,8 +8936,9 @@ encoder_thread_limit
 =
 experimental_encoder_thread_limit_
 ;
-if
-(
+int
+error
+=
 encoder_
 -
 >
@@ -8947,6 +8948,10 @@ InitEncode
 send_codec_
 settings
 )
+;
+if
+(
+error
 !
 =
 0
@@ -8994,7 +8999,13 @@ codecType
 <
 "
 )
+.
+Error
+:
 "
+<
+<
+error
 ;
 ReleaseEncoder
 (
