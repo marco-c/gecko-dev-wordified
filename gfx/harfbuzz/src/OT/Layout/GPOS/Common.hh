@@ -164,8 +164,8 @@ int
 >
 *
 layout_variation_idx_delta_map
-bool
-all_axes_pinned
+unsigned
+new_format
 )
 ;
 }

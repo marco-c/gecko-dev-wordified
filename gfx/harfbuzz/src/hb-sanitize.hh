@@ -1109,6 +1109,11 @@ sanitize
 (
 this
 )
+&
+&
+hb_barrier
+(
+)
 ;
 }
 static

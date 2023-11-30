@@ -266,6 +266,13 @@ Type
 &
 >
 {
+static
+constexpr
+bool
+realloc_move
+=
+true
+;
 /
 *
 *

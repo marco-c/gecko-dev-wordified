@@ -1859,6 +1859,11 @@ c
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 likely
 (
 version

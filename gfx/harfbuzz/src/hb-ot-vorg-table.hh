@@ -664,6 +664,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 version
 .
 major

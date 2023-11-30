@@ -3324,6 +3324,9 @@ HB_OT_TAG_vmtx
 case
 HB_OT_TAG_maxp
 :
+case
+HB_OT_TAG_OS2
+:
 return
 !
 plan
@@ -3344,13 +3347,6 @@ case
 HB_OT_TAG_GPOS
 :
 return
-!
-plan
--
->
-normalized_coords
-|
-|
 plan
 -
 >

@@ -1808,6 +1808,11 @@ c
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 (
 version
 .
@@ -1922,6 +1927,10 @@ major
 return_trace
 (
 true
+)
+;
+hb_barrier
+(
 )
 ;
 const
@@ -2052,6 +2061,10 @@ major
 2
 )
 return
+;
+hb_barrier
+(
+)
 ;
 for
 (

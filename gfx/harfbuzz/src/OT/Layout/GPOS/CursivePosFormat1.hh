@@ -34,7 +34,8 @@ hb_sanitize_context_t
 *
 c
 const
-void
+struct
+CursivePosFormat1
 *
 base
 )
@@ -73,7 +74,8 @@ hb_collect_variation_indices_context_t
 *
 c
 const
-void
+struct
+CursivePosFormat1
 *
 src_base
 )
@@ -109,7 +111,8 @@ hb_subset_context_t
 *
 c
 const
-void
+struct
+CursivePosFormat1
 *
 src_base
 )
@@ -194,6 +197,8 @@ protected
 Offset16To
 <
 Anchor
+struct
+CursivePosFormat1
 >
 entryAnchor
 ;
@@ -222,6 +227,8 @@ NULL
 Offset16To
 <
 Anchor
+struct
+CursivePosFormat1
 >
 exitAnchor
 ;
@@ -777,6 +784,10 @@ return_trace
 false
 )
 ;
+hb_barrier
+(
+)
+;
 hb_ot_apply_context_t
 :
 :
@@ -915,6 +926,10 @@ false
 )
 ;
 }
+hb_barrier
+(
+)
+;
 unsigned
 int
 i
@@ -1758,7 +1773,8 @@ c
 Iterator
 it
 const
-void
+struct
+CursivePosFormat1
 *
 src_base
 )

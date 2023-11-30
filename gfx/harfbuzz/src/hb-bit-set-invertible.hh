@@ -2187,7 +2187,10 @@ v
 ;
 if
 (
+likely
+(
 l
+)
 )
 l
 -
@@ -2207,6 +2210,10 @@ previous
 &
 v
 )
+;
+l
++
++
 ;
 }
 unsigned

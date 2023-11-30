@@ -299,6 +299,10 @@ min_size
 return
 false
 ;
+hb_barrier
+(
+)
+;
 return
 vertex_len
 >
@@ -396,6 +400,10 @@ min_size
 )
 return
 false
+;
+hb_barrier
+(
+)
 ;
 return
 vertex_len
@@ -948,6 +956,10 @@ min_size
 )
 return
 false
+;
+hb_barrier
+(
+)
 ;
 switch
 (

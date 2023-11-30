@@ -857,6 +857,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 (
 base
 +
@@ -1249,6 +1254,11 @@ c
 check_struct
 (
 this
+)
+&
+&
+hb_barrier
+(
 )
 &
 &

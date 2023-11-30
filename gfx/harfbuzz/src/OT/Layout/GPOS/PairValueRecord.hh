@@ -123,7 +123,7 @@ struct
 context_t
 {
 const
-void
+ValueBase
 *
 base
 ;
@@ -332,7 +332,7 @@ ValueFormat
 *
 valueFormats
 const
-void
+ValueBase
 *
 base
 )

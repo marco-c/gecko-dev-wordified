@@ -31,6 +31,7 @@ UnsizedArrayOf
 Offset16To
 <
 Anchor
+AnchorMatrix
 >
 >
 matrixZ
@@ -94,6 +95,10 @@ return_trace
 false
 )
 ;
+hb_barrier
+(
+)
+;
 if
 (
 unlikely
@@ -147,6 +152,10 @@ lazy_some_gpos
 return_trace
 (
 true
+)
+;
+hb_barrier
+(
 )
 ;
 for
@@ -275,6 +284,10 @@ return
 Null
 (
 Anchor
+)
+;
+hb_barrier
+(
 )
 ;
 *
@@ -422,11 +435,6 @@ rows
 =
 num_rows
 ;
-bool
-ret
-=
-false
-;
 for
 (
 const
@@ -464,9 +472,6 @@ return_trace
 false
 )
 ;
-ret
-|
-=
 offset
 -
 >
@@ -483,7 +488,7 @@ this
 }
 return_trace
 (
-ret
+true
 )
 ;
 }

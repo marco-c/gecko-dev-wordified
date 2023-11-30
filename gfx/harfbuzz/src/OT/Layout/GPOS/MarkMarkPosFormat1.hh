@@ -273,6 +273,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 mark2Array
 .
 sanitize

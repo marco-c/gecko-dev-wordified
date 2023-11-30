@@ -462,6 +462,10 @@ min_size
 return
 false
 ;
+hb_barrier
+(
+)
+;
 return
 vertex_len
 >
@@ -2159,6 +2163,10 @@ min_size
 return
 false
 ;
+hb_barrier
+(
+)
+;
 return
 vertex_len
 >
@@ -2243,6 +2251,10 @@ r
 )
 return
 nullptr
+;
+hb_barrier
+(
+)
 ;
 return
 gstar
@@ -2342,6 +2354,10 @@ min_size
 )
 return
 false
+;
+hb_barrier
+(
+)
 ;
 return
 len

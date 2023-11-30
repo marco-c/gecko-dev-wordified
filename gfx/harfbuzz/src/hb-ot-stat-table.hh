@@ -2044,6 +2044,11 @@ this
 )
 &
 &
+hb_barrier
+(
+)
+&
+&
 axisValues
 .
 sanitize
@@ -2722,6 +2727,10 @@ this
 return_trace
 (
 false
+)
+;
+hb_barrier
+(
 )
 ;
 switch
@@ -3522,6 +3531,11 @@ c
 check_struct
 (
 this
+)
+&
+&
+hb_barrier
+(
 )
 &
 &

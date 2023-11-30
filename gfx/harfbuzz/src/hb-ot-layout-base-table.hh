@@ -811,6 +811,10 @@ return_trace
 false
 )
 ;
+hb_barrier
+(
+)
+;
 switch
 (
 u
@@ -2772,6 +2776,11 @@ c
 check_struct
 (
 this
+)
+&
+&
+hb_barrier
+(
 )
 &
 &

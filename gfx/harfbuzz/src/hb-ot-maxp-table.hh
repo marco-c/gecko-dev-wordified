@@ -605,6 +605,10 @@ return_trace
 false
 )
 ;
+hb_barrier
+(
+)
+;
 if
 (
 version
@@ -736,6 +740,10 @@ major
 1
 )
 {
+hb_barrier
+(
+)
+;
 const
 maxpV1Tail
 *

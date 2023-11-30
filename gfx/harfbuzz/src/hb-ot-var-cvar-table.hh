@@ -310,11 +310,8 @@ this
 )
 &
 &
-version
-.
-sanitize
+hb_barrier
 (
-c
 )
 &
 &
