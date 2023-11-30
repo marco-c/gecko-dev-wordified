@@ -135,7 +135,7 @@ unfiledGuid
 url
 :
 "
-http
+https
 :
 /
 /
@@ -477,7 +477,7 @@ result
 .
 url
 "
-http
+https
 :
 /
 /
@@ -751,7 +751,7 @@ result
 .
 url
 "
-http
+https
 :
 /
 /
@@ -863,7 +863,7 @@ result
 .
 url
 "
-http
+https
 :
 /
 /
@@ -931,7 +931,7 @@ currentURI
 .
 spec
 "
-http
+https
 :
 /
 /
