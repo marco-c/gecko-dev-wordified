@@ -1987,12 +1987,13 @@ video_config
 .
 enable_retransmit_all_layers
 =
+!
 video_config
 .
 field_trials
 -
 >
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
