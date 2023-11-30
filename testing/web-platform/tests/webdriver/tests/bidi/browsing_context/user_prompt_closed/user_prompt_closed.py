@@ -1306,7 +1306,7 @@ event
 await
 wait_for_future_safe
 (
-s
+on_prompt_closed
 )
     
 assert
