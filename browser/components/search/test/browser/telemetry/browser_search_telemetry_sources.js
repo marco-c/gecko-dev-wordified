@@ -698,6 +698,13 @@ expectedScalarSource
 }
 ;
 let
+adImpressionPromise
+=
+waitForPageWithAdImpressions
+(
+)
+;
+let
 tab
 =
 await
@@ -838,9 +845,7 @@ are
 valid
 .
 await
-promiseAdImpressionReceived
-(
-)
+adImpressionPromise
 ;
 let
 pageLoadPromise
