@@ -965,6 +965,7 @@ superTypeVector_
 ;
 }
 static
+constexpr
 size_t
 offsetOfSuperTypeVector
 (
