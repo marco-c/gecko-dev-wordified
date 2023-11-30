@@ -1052,6 +1052,11 @@ SVGLengthListSMILType
 cpp
 "
 "
+SVGLengthSMILType
+.
+cpp
+"
+"
 SVGLineElement
 .
 cpp

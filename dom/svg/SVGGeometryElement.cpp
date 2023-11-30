@@ -606,15 +606,9 @@ mValues
 i
 ]
 .
-GetSpecifiedUnitType
+IsPercentage
 (
 )
-=
-=
-SVGLength_Binding
-:
-:
-SVG_LENGTHTYPE_PERCENTAGE
 )
 {
 return
