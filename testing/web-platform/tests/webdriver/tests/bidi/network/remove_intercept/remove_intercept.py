@@ -5,8 +5,6 @@ timeout
 =
 long
 import
-asyncio
-import
 pytest
 from
 webdriver
@@ -97,9 +95,11 @@ parametrize
 phase
 "
 [
+    
 "
 beforeRequestSent
 "
+    
 "
 responseStarted
 "
@@ -116,6 +116,8 @@ url
 setup_network_test
 add_intercept
 fetch
+top_context
+wait_for_future_safe
 phase
 )
 :
@@ -273,7 +275,10 @@ text_url
 )
     
 await
+wait_for_future_safe
+(
 on_network_event
+)
     
 assert
 len
@@ -428,9 +433,28 @@ responseCompleted
 )
     
 await
-fetch
+bidi_session
+.
+browsing_context
+.
+navigate
 (
+context
+=
+top_context
+[
+"
+context
+"
+]
+url
+=
 text_url
+wait
+=
+"
+complete
+"
 )
     
 await
