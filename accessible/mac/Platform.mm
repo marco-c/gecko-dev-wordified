@@ -843,6 +843,8 @@ const
 LayoutDeviceIntRect
 &
 aCaretRect
+bool
+aFromUser
 )
 {
 mozAccessible
