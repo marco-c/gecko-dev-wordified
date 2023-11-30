@@ -221,6 +221,9 @@ h
 class
 nsIInputStream
 ;
+class
+nsIRandomGenerator
+;
 namespace
 mozilla
 :
@@ -601,6 +604,12 @@ nsTArray
 uint8_t
 >
 mBuffer
+;
+nsCOMPtr
+<
+nsIRandomGenerator
+>
+mRandomGenerator
 ;
 /
 /
