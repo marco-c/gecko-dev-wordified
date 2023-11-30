@@ -1441,7 +1441,13 @@ target
 playout
 delay
 .
+absl
+:
+:
+optional
+<
 VideoPlayoutDelay
+>
 current_playout_delay_
 RTC_GUARDED_BY
 (
