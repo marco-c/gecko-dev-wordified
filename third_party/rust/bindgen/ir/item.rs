@@ -859,11 +859,7 @@ a
 [
 cfg
 (
-feature
-=
-"
 __testing_only_extra_assertions
-"
 )
 ]
 type
@@ -877,11 +873,7 @@ cfg
 (
 not
 (
-feature
-=
-"
 __testing_only_extra_assertions
-"
 )
 )
 ]
@@ -894,11 +886,7 @@ cfg
 (
 not
 (
-feature
-=
-"
 __testing_only_extra_assertions
-"
 )
 )
 ]
