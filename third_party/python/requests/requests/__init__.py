@@ -434,25 +434,29 @@ urllib3
 21
 .
 1
+<
+=
+1
+.
+26
     
 assert
 major
->
+=
 =
 1
     
-if
-major
-=
-=
-1
-:
-        
 assert
 minor
 >
 =
 21
+    
+assert
+minor
+<
+=
+26
     
 #
 Check
