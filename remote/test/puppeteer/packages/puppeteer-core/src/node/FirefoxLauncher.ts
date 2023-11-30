@@ -215,6 +215,7 @@ js
 '
 ;
 import
+type
 {
 BrowserLaunchArgumentOptions
 PuppeteerNodeLaunchOptions
@@ -231,6 +232,7 @@ js
 import
 {
 ProductLauncher
+type
 ResolvedLaunchArgs
 }
 from
@@ -243,6 +245,7 @@ js
 '
 ;
 import
+type
 {
 PuppeteerNode
 }

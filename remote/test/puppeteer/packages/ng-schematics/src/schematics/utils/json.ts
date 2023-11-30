@@ -134,6 +134,7 @@ License
 import
 {
 SchematicsException
+type
 Tree
 }
 from

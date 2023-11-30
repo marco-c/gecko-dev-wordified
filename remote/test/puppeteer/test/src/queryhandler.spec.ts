@@ -157,6 +157,7 @@ core
 '
 ;
 import
+type
 {
 ElementHandle
 }

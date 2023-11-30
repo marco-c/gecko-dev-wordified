@@ -134,6 +134,7 @@ License
 import
 {
 QueryHandler
+type
 QuerySelectorAll
 }
 from

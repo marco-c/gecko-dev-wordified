@@ -147,6 +147,7 @@ browsers
 '
 ;
 import
+type
 {
 Product
 }

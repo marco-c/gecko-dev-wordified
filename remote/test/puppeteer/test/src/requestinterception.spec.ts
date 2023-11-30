@@ -153,6 +153,7 @@ expect
 '
 ;
 import
+type
 {
 HTTPRequest
 }
@@ -172,6 +173,7 @@ js
 '
 ;
 import
+type
 {
 ConsoleMessage
 }

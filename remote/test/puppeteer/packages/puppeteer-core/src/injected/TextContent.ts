@@ -844,6 +844,9 @@ true
 characterData
 :
 true
+subtree
+:
+true
 }
 )
 ;

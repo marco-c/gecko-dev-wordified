@@ -244,6 +244,11 @@ platform
 '
 win32
 '
+cwd
+:
+this
+.
+sandbox
 }
 )
 ;

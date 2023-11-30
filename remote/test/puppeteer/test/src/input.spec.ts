@@ -2799,6 +2799,7 @@ Error
 ;
 try
 {
+await
 fileChooser
 .
 cancel

@@ -194,8 +194,10 @@ yargs
 import
 {
 resolveBuildId
+type
 Browser
 BrowserPlatform
+type
 ChromeReleaseChannel
 }
 from

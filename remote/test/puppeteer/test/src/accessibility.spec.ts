@@ -146,6 +146,7 @@ expect
 '
 ;
 import
+type
 {
 SerializedAXNode
 }
@@ -157,7 +158,7 @@ core
 /
 internal
 /
-common
+cdp
 /
 Accessibility
 .
@@ -927,7 +928,7 @@ snapshot
 )
 )
 .
-toEqual
+toMatchObject
 (
 golden
 )
@@ -1104,7 +1105,7 @@ false
 )
 )
 .
-toEqual
+toMatchObject
 (
 golden
 )
@@ -2439,7 +2440,7 @@ image
 role
 :
 '
-img
+image
 '
 name
 :
@@ -2486,7 +2487,7 @@ children
 ]
 )
 .
-toEqual
+toMatchObject
 (
 golden
 )
@@ -2714,7 +2715,7 @@ children
 ]
 )
 .
-toEqual
+toMatchObject
 (
 golden
 )
@@ -4029,7 +4030,7 @@ false
 )
 )
 .
-toEqual
+toMatchObject
 (
 {
 role

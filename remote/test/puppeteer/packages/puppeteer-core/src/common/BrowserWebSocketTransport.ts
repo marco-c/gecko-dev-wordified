@@ -132,6 +132,7 @@ License
 *
 /
 import
+type
 {
 ConnectionTransport
 }

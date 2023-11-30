@@ -175,7 +175,9 @@ path
 ;
 import
 {
+type
 Browser
+type
 BrowserPlatform
 downloadUrls
 }

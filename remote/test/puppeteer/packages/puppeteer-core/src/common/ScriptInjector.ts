@@ -16,6 +16,14 @@ injected
 js
 '
 ;
+/
+*
+*
+*
+internal
+*
+/
+export
 class
 ScriptInjector
 {
@@ -136,6 +144,8 @@ force
 =
 false
 )
+:
+void
 {
 if
 (

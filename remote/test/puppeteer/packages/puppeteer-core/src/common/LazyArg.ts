@@ -132,6 +132,7 @@ License
 *
 /
 import
+type
 {
 JSHandle
 }
@@ -148,6 +149,7 @@ js
 '
 ;
 import
+type
 PuppeteerUtil
 from
 '

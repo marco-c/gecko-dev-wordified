@@ -132,6 +132,7 @@ License
 *
 /
 export
+type
 {
 Protocol
 }

@@ -132,6 +132,7 @@ License
 *
 /
 import
+type
 {
 TLSSocket
 }
@@ -148,6 +149,7 @@ expect
 '
 ;
 import
+type
 {
 HTTPResponse
 }

@@ -192,12 +192,17 @@ js
 ;
 import
 {
+type
 ComplexPSelector
+type
 ComplexPSelectorList
+type
 CompoundPSelector
+type
 CSSSelector
 parsePSelectors
 PCombinator
+type
 PPseudoSelector
 }
 from

@@ -206,6 +206,7 @@ Browser
 BrowserPlatform
 BrowserTag
 ChromeReleaseChannel
+type
 ProfileOptions
 }
 from
@@ -218,6 +219,7 @@ js
 '
 ;
 export
+type
 {
 ProfileOptions
 }

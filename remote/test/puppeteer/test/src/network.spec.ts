@@ -139,6 +139,7 @@ fs
 '
 ;
 import
+type
 {
 ServerResponse
 }
@@ -162,6 +163,7 @@ expect
 '
 ;
 import
+type
 {
 HTTPRequest
 }
@@ -181,6 +183,7 @@ js
 '
 ;
 import
+type
 {
 HTTPResponse
 }

@@ -185,6 +185,13 @@ let
 emitter
 :
 EventEmitter
+<
+Record
+<
+string
+unknown
+>
+>
 ;
 beforeEach
 (
@@ -282,6 +289,7 @@ emit
 '
 foo
 '
+undefined
 )
 ;
 expect
@@ -535,6 +543,7 @@ emit
 '
 foo
 '
+undefined
 )
 ;
 expect
@@ -566,6 +575,7 @@ emit
 '
 foo
 '
+undefined
 )
 ;
 expect
@@ -722,6 +732,7 @@ emit
 '
 foo
 '
+undefined
 )
 ;
 expect
@@ -743,6 +754,7 @@ emit
 '
 foo
 '
+undefined
 )
 ;
 expect
@@ -895,6 +907,7 @@ emit
 '
 foo
 '
+undefined
 )
 ;
 expect
@@ -1062,6 +1075,7 @@ emit
 '
 foo
 '
+undefined
 )
 )
 .
@@ -1117,6 +1131,7 @@ emit
 '
 notFoo
 '
+undefined
 )
 )
 .
@@ -1331,6 +1346,7 @@ emit
 '
 foo
 '
+undefined
 )
 )
 .
@@ -1348,6 +1364,7 @@ emit
 '
 bar
 '
+undefined
 )
 )
 .
@@ -1469,6 +1486,7 @@ emit
 '
 foo
 '
+undefined
 )
 )
 .
@@ -1486,6 +1504,7 @@ emit
 '
 bar
 '
+undefined
 )
 )
 .

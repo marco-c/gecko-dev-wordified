@@ -134,9 +134,12 @@ License
 import
 {
 chain
+type
 Rule
+type
 SchematicContext
 SchematicsException
+type
 Tree
 }
 from
@@ -183,8 +186,11 @@ js
 import
 {
 TestRunner
+type
 SchematicsSpec
+type
 AngularProject
+type
 PuppeteerSchematicsConfig
 }
 from
