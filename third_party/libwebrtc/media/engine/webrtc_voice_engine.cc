@@ -8584,7 +8584,7 @@ bool
 WebRtcVoiceSendChannel
 :
 :
-SetSendParameters
+SetSenderParameters
 (
 const
 AudioSenderParameter
@@ -8601,7 +8601,7 @@ webrtc
 WebRtcVoiceMediaChannel
 :
 :
-SetSendParameters
+SetSenderParameters
 "
 )
 ;
@@ -8620,7 +8620,7 @@ LS_INFO
 WebRtcVoiceMediaChannel
 :
 :
-SetSendParameters
+SetSenderParameters
 :
 "
 <
@@ -9116,7 +9116,7 @@ Utility
 function
 called
 from
-SetSendParameters
+SetSenderParameters
 (
 )
 to
@@ -14011,7 +14011,7 @@ bool
 WebRtcVoiceReceiveChannel
 :
 :
-SetRecvParameters
+SetReceiverParameters
 (
 const
 AudioReceiverParameters
@@ -14028,7 +14028,7 @@ webrtc
 WebRtcVoiceMediaChannel
 :
 :
-SetRecvParameters
+SetReceiverParameters
 "
 )
 ;
@@ -14047,7 +14047,7 @@ LS_INFO
 WebRtcVoiceMediaChannel
 :
 :
-SetRecvParameters
+SetReceiverParameters
 :
 "
 <
@@ -14184,7 +14184,7 @@ RtpParameters
 WebRtcVoiceReceiveChannel
 :
 :
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 uint32_t
 ssrc

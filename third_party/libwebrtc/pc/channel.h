@@ -3150,7 +3150,7 @@ media_channel
 via
 /
 /
-SetSendParameters
+SetSenderParameters
 .
 AudioSenderParameter
 last_send_params_
@@ -3175,7 +3175,7 @@ media_channel
 via
 /
 /
-SetRecvParameters
+SetReceiverParameters
 .
 AudioReceiverParameters
 last_recv_params_
@@ -3478,7 +3478,7 @@ media_channel
 via
 /
 /
-SetSendParameters
+SetSenderParameters
 .
 VideoSenderParameters
 last_send_params_
@@ -3503,7 +3503,7 @@ media_channel
 via
 /
 /
-SetRecvParameters
+SetReceiverParameters
 .
 VideoReceiverParameters
 last_recv_params_

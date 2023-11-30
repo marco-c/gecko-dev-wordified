@@ -6904,7 +6904,7 @@ public
 :
 virtual
 bool
-SetSendParameters
+SetSenderParameters
 (
 const
 AudioSenderParameter
@@ -7102,7 +7102,7 @@ public
 :
 virtual
 bool
-SetRecvParameters
+SetReceiverParameters
 (
 const
 AudioReceiverParameters
@@ -7131,7 +7131,7 @@ webrtc
 :
 :
 RtpParameters
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 uint32_t
 ssrc
@@ -7465,7 +7465,7 @@ public
 :
 virtual
 bool
-SetSendParameters
+SetSenderParameters
 (
 const
 VideoSenderParameters
@@ -7794,7 +7794,7 @@ public
 :
 virtual
 bool
-SetRecvParameters
+SetReceiverParameters
 (
 const
 VideoReceiverParameters
@@ -7823,7 +7823,7 @@ webrtc
 :
 :
 RtpParameters
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 uint32_t
 ssrc

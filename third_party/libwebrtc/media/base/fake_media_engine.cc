@@ -448,7 +448,7 @@ bool
 FakeVoiceMediaReceiveChannel
 :
 :
-SetRecvParameters
+SetReceiverParameters
 (
 const
 AudioReceiverParameters
@@ -1383,7 +1383,7 @@ bool
 FakeVoiceMediaSendChannel
 :
 :
-SetSendParameters
+SetSenderParameters
 (
 const
 AudioSenderParameter
@@ -2102,7 +2102,7 @@ bool
 FakeVideoMediaSendChannel
 :
 :
-SetSendParameters
+SetSenderParameters
 (
 const
 VideoSenderParameters
@@ -2578,7 +2578,7 @@ bool
 FakeVideoMediaReceiveChannel
 :
 :
-SetRecvParameters
+SetReceiverParameters
 (
 const
 VideoReceiverParameters

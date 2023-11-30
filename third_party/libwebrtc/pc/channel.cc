@@ -6209,7 +6209,7 @@ media_receive_channel
 )
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_params
 )
@@ -6501,7 +6501,7 @@ media_send_channel
 )
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_params
 )
@@ -7244,7 +7244,7 @@ media_receive_channel
 )
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_params
 )
@@ -7364,7 +7364,7 @@ media_send_channel
 )
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_params
 )
@@ -7758,7 +7758,7 @@ media_send_channel
 )
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 send_params
 )
@@ -7872,7 +7872,7 @@ media_receive_channel
 )
 -
 >
-SetRecvParameters
+SetReceiverParameters
 (
 recv_params
 )

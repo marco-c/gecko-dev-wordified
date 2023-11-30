@@ -1446,7 +1446,7 @@ voice_media_send_channel
 )
 -
 >
-SetSendParameters
+SetSenderParameters
 (
 params
 )

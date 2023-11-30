@@ -520,7 +520,7 @@ has_value
 media_channel_
 -
 >
-GetRtpReceiveParameters
+GetRtpReceiverParameters
 (
 current_ssrc
 .
