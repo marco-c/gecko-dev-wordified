@@ -412,10 +412,6 @@ aStyle
 aPresContext
 kClassID
 )
-mInReflow
-(
-false
-)
 {
 AddStateBits
 (
@@ -3138,10 +3134,6 @@ CreateReferenceRenderingContext
 (
 )
 ;
-mInReflow
-=
-true
-;
 WritingMode
 wm
 =
@@ -3358,10 +3350,6 @@ ReflowChildFlags
 :
 NoMoveFrame
 )
-;
-mInReflow
-=
-false
 ;
 }
 void

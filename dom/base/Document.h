@@ -29221,11 +29221,6 @@ mIsGoingAway
 :
 1
 ;
-bool
-mInXBLUpdate
-:
-1
-;
 /
 /
 Whether
