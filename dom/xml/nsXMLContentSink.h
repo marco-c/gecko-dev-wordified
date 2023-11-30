@@ -910,6 +910,10 @@ const
 nsAString
 &
 aReferrerPolicy
+const
+nsAString
+&
+aFetchPriority
 )
 override
 ;

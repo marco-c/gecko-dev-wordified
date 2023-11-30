@@ -417,6 +417,8 @@ IsInline
 aIsInline
 IsExplicitlyEnabled
 aIsExplicitlyEnabled
+FetchPriority
+aFetchPriority
 )
 :
 mContent
@@ -454,6 +456,10 @@ aIntegrity
 mNonce
 (
 aNonce
+)
+mFetchPriority
+(
+aFetchPriority
 )
 mHasAlternateRel
 (

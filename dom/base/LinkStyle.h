@@ -191,6 +191,12 @@ dom
 class
 Document
 ;
+enum
+class
+FetchPriority
+:
+uint8_t
+;
 class
 ShadowRoot
 ;
@@ -686,6 +692,10 @@ mIntegrity
 nsString
 mNonce
 ;
+const
+FetchPriority
+mFetchPriority
+;
 bool
 mHasAlternateRel
 ;
@@ -746,6 +756,8 @@ aNonce
 HasAlternateRel
 IsInline
 IsExplicitlyEnabled
+FetchPriority
+aFetchPriority
 )
 ;
 ~
