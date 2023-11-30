@@ -573,6 +573,9 @@ aBundles
 void
 End
 (
+ErrorResult
+&
+aRv
 )
 ;
 }

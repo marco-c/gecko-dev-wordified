@@ -371,6 +371,9 @@ aString
 void
 End
 (
+ErrorResult
+&
+aRv
 )
 ;
 }
