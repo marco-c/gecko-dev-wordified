@@ -892,7 +892,7 @@ is
 selectedLocation
 .
 column
-2
+1
 )
 ;
 info
