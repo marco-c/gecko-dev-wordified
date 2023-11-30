@@ -441,7 +441,7 @@ ipc
 :
 :
 IPCResult
-RecvCreateBuffer
+RecvDeviceCreateBuffer
 (
 RawId
 aDeviceId
