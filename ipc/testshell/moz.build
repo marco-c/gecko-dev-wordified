@@ -118,7 +118,7 @@ tests
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 SOURCES

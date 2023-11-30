@@ -135,7 +135,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 "
 test
@@ -144,7 +144,7 @@ unit_ipc
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS

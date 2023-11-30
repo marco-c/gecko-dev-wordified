@@ -318,7 +318,7 @@ test
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS

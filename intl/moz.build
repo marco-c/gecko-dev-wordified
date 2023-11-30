@@ -226,7 +226,7 @@ benchmarks
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 with

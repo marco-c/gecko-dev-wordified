@@ -130,7 +130,7 @@ append
 "
 xpcshell
 .
-ini
+toml
 "
 )
 ;
@@ -221,7 +221,7 @@ name
 "
 xpcshell
 .
-ini
+toml
 "
 "
 Should
@@ -244,7 +244,7 @@ name
 "
 xpcshell
 .
-ini
+toml
 "
 "
 Should
