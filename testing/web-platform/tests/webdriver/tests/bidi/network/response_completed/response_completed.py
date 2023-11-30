@@ -132,6 +132,7 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
+wait_for_future_safe
 url
 fetch
 )
@@ -237,7 +238,10 @@ complete
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 assert
 len
@@ -353,7 +357,10 @@ text_url
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 assert
 len
@@ -532,6 +539,7 @@ test_load_page_twice
 bidi_session
 top_context
 wait_for_event
+wait_for_future_safe
 url
 setup_network_test
 )
@@ -602,7 +610,10 @@ complete
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 assert
 len
@@ -759,6 +770,7 @@ test_response_status
 (
     
 wait_for_event
+wait_for_future_safe
 url
 fetch
 setup_network_test
@@ -835,7 +847,10 @@ status_url
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 assert
 len
@@ -946,6 +961,7 @@ def
 test_response_headers
 (
 wait_for_event
+wait_for_future_safe
 url
 fetch
 setup_network_test
@@ -1024,7 +1040,10 @@ GET
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 assert
 len
@@ -1270,6 +1289,7 @@ test_response_mime_type_file
     
 url
 wait_for_event
+wait_for_future_safe
 fetch
 setup_network_test
 page_url
@@ -1318,7 +1338,10 @@ GET
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 assert
 len

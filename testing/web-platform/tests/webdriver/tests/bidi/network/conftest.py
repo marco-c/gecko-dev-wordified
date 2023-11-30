@@ -473,6 +473,7 @@ setup_network_test
 bidi_session
 subscribe_events
 wait_for_event
+wait_for_future_safe
 top_context
 url
 )
@@ -664,7 +665,10 @@ complete
 )
         
 await
+wait_for_future_safe
+(
 on_response_completed
+)
         
 await
 bidi_session
