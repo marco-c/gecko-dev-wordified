@@ -2876,7 +2876,7 @@ param
 {
 ArrayBuffer
 }
-wasmBinary
+wasm
 *
 returns
 {
@@ -2890,7 +2890,7 @@ Bergamot
 static
 initializeWasm
 (
-wasmBinary
+wasm
 )
 {
 return
@@ -2953,15 +2953,14 @@ of
 Bergamot
 uses
 in
-byte
+bytes
 .
 INITIAL_MEMORY
 :
-459_276_288
-preRun
+234_291_200
+print
 :
-[
-]
+log
 onAbort
 (
 )
@@ -3050,7 +3049,7 @@ bergamot
 )
 ;
 }
-wasmBinary
+wasm
 }
 )
 ;
