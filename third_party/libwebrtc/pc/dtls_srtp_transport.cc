@@ -421,6 +421,11 @@ happen
 "
 ;
 }
+if
+(
+rtcp_dtls_transport
+)
+{
 RTC_LOG
 (
 LS_INFO
@@ -445,6 +450,7 @@ transport
 <
 rtcp_dtls_transport
 ;
+}
 SetRtcpDtlsTransport
 (
 rtcp_dtls_transport
