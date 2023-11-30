@@ -332,6 +332,8 @@ glob
 )
 )
 (
+then
+(
 return
 {
 compute
@@ -340,6 +342,9 @@ ballast
 )
 }
 )
+)
+(
+else
 (
 block
 (
@@ -372,6 +377,7 @@ const
 (
 return_call
 f0
+)
 )
 )
 )

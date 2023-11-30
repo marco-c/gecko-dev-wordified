@@ -358,6 +358,8 @@ const
 )
 )
 (
+then
+(
 struct
 .
 new
@@ -381,6 +383,9 @@ null
 wabbit
 )
 )
+)
+(
+else
 (
 block
 (
@@ -448,6 +453,7 @@ const
 )
 )
 )
+)
 (
 func
 (
@@ -505,11 +511,16 @@ w
 )
 )
 (
+then
+(
 i32
 .
 const
 0
 )
+)
+(
+else
 (
 i32
 .
@@ -562,6 +573,7 @@ local
 .
 get
 w
+)
 )
 )
 )
@@ -627,6 +639,8 @@ w
 )
 )
 )
+(
+then
 (
 block
 (
@@ -767,6 +781,7 @@ w
 )
 )
 )
+)
 (
 func
 (
@@ -816,6 +831,8 @@ w
 )
 )
 )
+(
+then
 (
 block
 (
@@ -876,6 +893,7 @@ w
 (
 call
 print_rp
+)
 )
 )
 )
