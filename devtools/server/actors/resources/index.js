@@ -1887,6 +1887,16 @@ WORKER
 return
 WorkerTargetResources
 ;
+case
+Targets
+.
+TYPES
+.
+SERVICE_WORKER
+:
+return
+WorkerTargetResources
+;
 default
 :
 throw
