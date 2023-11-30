@@ -896,7 +896,7 @@ mScriptLine
 )
 mScriptColumn
 (
-0
+1
 )
 mInnerWindowID
 (
@@ -1367,15 +1367,18 @@ code
 line
 number
 and
+1
+-
+origin
 column
 number
 where
 the
 Web
 Socket
+/
+/
 object
-/
-/
 was
 constructed
 .
@@ -8187,7 +8190,7 @@ get
 lineno
 column
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 )
@@ -9642,7 +9645,7 @@ mScriptColumn
 =
 column
 .
-zeroOriginValue
+oneOriginValue
 (
 )
 ;
