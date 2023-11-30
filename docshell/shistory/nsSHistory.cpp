@@ -7545,7 +7545,7 @@ void
 nsSHistory
 :
 :
-EvictContentViewersOrReplaceEntry
+EvictDocumentViewersOrReplaceEntry
 (
 nsISHEntry
 *

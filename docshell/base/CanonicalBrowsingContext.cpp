@@ -7044,7 +7044,7 @@ do
 the
 equivalent
 of
-EvictContentViewersOrReplaceEntry
+EvictDocumentViewersOrReplaceEntry
 .
 HistoryCommitIndexAndLength
 (
@@ -7168,7 +7168,7 @@ do
 the
 equivalent
 of
-EvictContentViewersOrReplaceEntry
+EvictDocumentViewersOrReplaceEntry
 .
 }
 void
