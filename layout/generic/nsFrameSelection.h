@@ -564,7 +564,7 @@ enum
 class
 PeekOffsetOption
 :
-uint8_t
+uint16_t
 {
 /
 /
@@ -627,6 +627,18 @@ eSelectWord
 eSelectLine
 .
 ScrollViewStop
+/
+/
+Whether
+to
+stop
+when
+reaching
+a
+placeholder
+frame
+.
+StopAtPlaceholder
 /
 /
 Whether
