@@ -747,6 +747,12 @@ session_
 pw_main_loop_
 )
 ;
+RTC_CHECK_RUNS_SERIALIZED
+(
+&
+pipewire_checker_
+)
+;
 pw_properties
 *
 reuse_props
@@ -1049,6 +1055,12 @@ session_
 pw_main_loop_
 )
 ;
+RTC_CHECK_RUNS_SERIALIZED
+(
+&
+pipewire_checker_
+)
+;
 if
 (
 stream_
@@ -1166,7 +1178,7 @@ RTC_CHECK_RUNS_SERIALIZED
 that
 -
 >
-capture_checker_
+pipewire_checker_
 )
 ;
 if
@@ -1204,7 +1216,7 @@ format
 RTC_CHECK_RUNS_SERIALIZED
 (
 &
-capture_checker_
+pipewire_checker_
 )
 ;
 uint32_t
@@ -1992,7 +2004,7 @@ ProcessBuffers
 RTC_CHECK_RUNS_SERIALIZED
 (
 &
-capture_checker_
+pipewire_checker_
 )
 ;
 while
