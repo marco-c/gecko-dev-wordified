@@ -14710,7 +14710,7 @@ nodiscard
 ]
 ]
 bool
-emitAnyConvertExtern
+emitExternInternalize
 (
 )
 ;
@@ -14720,7 +14720,7 @@ nodiscard
 ]
 ]
 bool
-emitExternConvertAny
+emitExternExternalize
 (
 )
 ;

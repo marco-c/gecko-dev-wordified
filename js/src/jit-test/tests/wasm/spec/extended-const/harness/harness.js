@@ -589,9 +589,9 @@ observe
 /
 /
 if
-any
+extern
 .
-convert_extern
+externalize
 is
 used
 .
@@ -839,9 +839,9 @@ should
 implicitly
 be
 like
-any
+extern
 .
-convert_extern
+internalize
 .
 function
 hostref

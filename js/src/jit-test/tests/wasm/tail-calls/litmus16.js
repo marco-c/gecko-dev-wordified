@@ -393,8 +393,6 @@ glob
 )
 )
 (
-then
-(
 return
 {
 compute
@@ -403,9 +401,6 @@ ballast
 )
 }
 )
-)
-(
-else
 (
 block
 (
@@ -464,7 +459,6 @@ ballast
 +
 1
 }
-)
 )
 )
 )

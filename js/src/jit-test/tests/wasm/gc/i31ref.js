@@ -264,9 +264,9 @@ local
 .
 get
 0
-any
+extern
 .
-convert_extern
+internalize
 ref
 .
 test

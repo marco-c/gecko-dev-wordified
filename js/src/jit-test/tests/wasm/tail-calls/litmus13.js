@@ -340,8 +340,6 @@ glob
 )
 )
 (
-then
-(
 return
 {
 compute
@@ -350,9 +348,6 @@ ballast
 )
 }
 )
-)
-(
-else
 (
 block
 (
@@ -393,7 +388,6 @@ i32
 .
 const
 0
-)
 )
 )
 )

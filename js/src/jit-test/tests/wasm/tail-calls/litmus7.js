@@ -173,8 +173,6 @@ n
 )
 )
 (
-then
-(
 return
 (
 i32
@@ -196,9 +194,6 @@ const
 37
 )
 )
-)
-(
-else
 (
 return_call_indirect
 (
@@ -227,7 +222,6 @@ i32
 .
 const
 0
-)
 )
 )
 )
@@ -272,8 +266,6 @@ n
 )
 )
 (
-then
-(
 return
 (
 i32
@@ -295,9 +287,6 @@ const
 44021
 )
 )
-)
-(
-else
 (
 return_call_indirect
 (
@@ -332,7 +321,6 @@ i32
 .
 const
 1
-)
 )
 )
 )

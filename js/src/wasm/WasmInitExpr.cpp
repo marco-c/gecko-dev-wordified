@@ -1667,7 +1667,7 @@ value
 ;
 }
 bool
-evalAnyConvertExtern
+evalExternInternalize
 (
 JSContext
 *
@@ -1707,7 +1707,7 @@ ref
 ;
 }
 bool
-evalExternConvertAny
+evalExternExternalize
 (
 JSContext
 *
@@ -2616,13 +2616,13 @@ uint32_t
 GcOp
 :
 :
-AnyConvertExtern
+ExternInternalize
 )
 :
 {
 CHECK
 (
-evalAnyConvertExtern
+evalExternInternalize
 (
 cx
 )
@@ -2635,13 +2635,13 @@ uint32_t
 GcOp
 :
 :
-ExternConvertAny
+ExternExternalize
 )
 :
 {
 CHECK
 (
-evalExternConvertAny
+evalExternExternalize
 (
 cx
 )
@@ -3818,7 +3818,7 @@ uint32_t
 GcOp
 :
 :
-AnyConvertExtern
+ExternInternalize
 )
 :
 {
@@ -3862,7 +3862,7 @@ uint32_t
 GcOp
 :
 :
-ExternConvertAny
+ExternExternalize
 )
 :
 {

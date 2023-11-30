@@ -687,7 +687,7 @@ observe
 if
 extern
 .
-convert_any
+externalize
 is
 used
 .
@@ -935,9 +935,9 @@ should
 implicitly
 be
 like
-any
+extern
 .
-convert_extern
+internalize
 .
 function
 hostref

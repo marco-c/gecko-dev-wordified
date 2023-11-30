@@ -251,8 +251,6 @@ n
 )
 )
 (
-then
-(
 return
 (
 i32
@@ -274,9 +272,6 @@ const
 37
 )
 )
-)
-(
-else
 (
 return_call_indirect
 (
@@ -305,7 +300,6 @@ i32
 .
 const
 0
-)
 )
 )
 )
@@ -353,14 +347,9 @@ n
 )
 )
 (
-then
-(
 throw
 t
 )
-)
-(
-else
 (
 return_call_indirect
 (
@@ -395,7 +384,6 @@ i32
 .
 const
 1
-)
 )
 )
 )
