@@ -515,7 +515,7 @@ mProcessActorDescriptors
 *
 *
 Base
-clsas
+class
 for
 both
 JSWindowActorProtocol
@@ -578,6 +578,11 @@ Child
 const
 =
 0
+;
+bool
+mLoadInDevToolsLoader
+=
+false
 ;
 }
 ;

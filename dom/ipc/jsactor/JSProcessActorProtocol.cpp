@@ -419,6 +419,15 @@ aOptions
 .
 mIncludeParent
 ;
+proto
+-
+>
+mLoadInDevToolsLoader
+=
+aOptions
+.
+mLoadInDevToolsLoader
+;
 return
 proto
 .
