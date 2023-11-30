@@ -109,7 +109,7 @@ include
 "
 mozilla
 /
-UniquePtr
+Maybe
 .
 h
 "
@@ -991,7 +991,7 @@ public
 mozilla
 :
 :
-UniquePtr
+Maybe
 <
 AttributeNameSet
 >
@@ -1000,7 +1000,7 @@ mAttributes
 mozilla
 :
 :
-UniquePtr
+Maybe
 <
 AttributeNameSet
 >
@@ -1831,13 +1831,7 @@ aLocalName
 )
 ;
 static
-mozilla
-:
-:
-UniquePtr
-<
 ElementNameSet
->
 ConvertElements
 (
 const
@@ -1862,13 +1856,7 @@ aRv
 )
 ;
 static
-mozilla
-:
-:
-UniquePtr
-<
 ElementsToAttributesMap
->
 ConvertElementsWithAttributes
 (
 const
@@ -1893,13 +1881,7 @@ aRv
 )
 ;
 static
-mozilla
-:
-:
-UniquePtr
-<
 AttributeNameSet
->
 ConvertAttributes
 (
 const
@@ -2353,7 +2335,7 @@ remove
 mozilla
 :
 :
-UniquePtr
+Maybe
 <
 ElementsToAttributesMap
 >
@@ -2377,7 +2359,7 @@ prune
 mozilla
 :
 :
-UniquePtr
+Maybe
 <
 ElementNameSet
 >
@@ -2403,7 +2385,7 @@ flatten
 mozilla
 :
 :
-UniquePtr
+Maybe
 <
 ElementNameSet
 >
@@ -2423,7 +2405,7 @@ keep
 mozilla
 :
 :
-UniquePtr
+Maybe
 <
 AttributeNameSet
 >
@@ -2443,7 +2425,7 @@ remove
 mozilla
 :
 :
-UniquePtr
+Maybe
 <
 AttributeNameSet
 >
