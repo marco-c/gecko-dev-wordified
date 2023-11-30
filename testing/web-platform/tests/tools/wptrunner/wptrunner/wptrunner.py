@@ -282,6 +282,7 @@ product
 .
 run_info_extras
 (
+logger
 *
 *
 kwargs

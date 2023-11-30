@@ -684,6 +684,7 @@ webdriver_args
 def
 run_info_extras
 (
+logger
 *
 *
 kwargs
