@@ -10644,7 +10644,7 @@ found
 false
 ;
 bool
-hasContentViewerOrFrameLoader
+hasDocumentViewerOrFrameLoader
 =
 false
 ;
@@ -10653,7 +10653,7 @@ if
 contentViewer
 )
 {
-hasContentViewerOrFrameLoader
+hasDocumentViewerOrFrameLoader
 =
 true
 ;
@@ -10810,7 +10810,7 @@ GetFrameLoader
 )
 )
 {
-hasContentViewerOrFrameLoader
+hasDocumentViewerOrFrameLoader
 =
 true
 ;
@@ -10921,7 +10921,7 @@ one
 .
 if
 (
-hasContentViewerOrFrameLoader
+hasDocumentViewerOrFrameLoader
 &
 &
 !
