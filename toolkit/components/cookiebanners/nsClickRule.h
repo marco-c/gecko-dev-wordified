@@ -182,10 +182,8 @@ this
 clicking
 rule
 .
-nsCOMPtr
-<
 nsICookieBannerRule
->
+*
 mCookieBannerRule
 ;
 nsCString
