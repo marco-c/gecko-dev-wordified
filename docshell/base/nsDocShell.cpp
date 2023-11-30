@@ -4007,7 +4007,7 @@ Document
 &
 NS_SUCCEEDED
 (
-EnsureContentViewer
+EnsureDocumentViewer
 (
 )
 )
@@ -18405,7 +18405,7 @@ GetDocument
 {
 NS_ENSURE_SUCCESS
 (
-EnsureContentViewer
+EnsureDocumentViewer
 (
 )
 nullptr
@@ -25893,7 +25893,7 @@ aDocument
 ;
 NS_ENSURE_SUCCESS
 (
-EnsureContentViewer
+EnsureDocumentViewer
 (
 )
 NS_ERROR_FAILURE
@@ -39825,7 +39825,7 @@ nsresult
 nsDocShell
 :
 :
-EnsureContentViewer
+EnsureDocumentViewer
 (
 )
 {
@@ -40028,7 +40028,7 @@ document
 Documents
 created
 using
-EnsureContentViewer
+EnsureDocumentViewer
 may
 be
 transient
@@ -43582,7 +43582,7 @@ aContentViewer
 {
 rv
 =
-EnsureContentViewer
+EnsureDocumentViewer
 (
 )
 ;
@@ -62917,7 +62917,7 @@ docViewer
 and
 bail
 .
-EnsureContentViewer
+EnsureDocumentViewer
 (
 )
 ;

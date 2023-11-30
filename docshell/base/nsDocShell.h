@@ -3383,7 +3383,7 @@ Management
 /
 /
 nsresult
-EnsureContentViewer
+EnsureDocumentViewer
 (
 )
 ;
