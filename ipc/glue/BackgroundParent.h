@@ -500,8 +500,8 @@ PBackgroundParent
 *
 aBackgroundActor
 const
-char
-*
+nsACString
+&
 aReason
 )
 ;
