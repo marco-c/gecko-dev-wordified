@@ -1026,9 +1026,15 @@ VectorSize
 :
 :
 Tri
-width
+scalar
 :
-4
+crate
+:
+:
+Scalar
+:
+:
+F32
 }
 }
 Span

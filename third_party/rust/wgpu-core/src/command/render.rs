@@ -10855,6 +10855,7 @@ max_vertex_buffers
 if
 slot
 >
+=
 max_vertex_buffers
 {
 return

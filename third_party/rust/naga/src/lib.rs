@@ -5167,7 +5167,7 @@ Scalar
 /
 Matrix
 of
-floats
+numbers
 .
 Matrix
 {
@@ -5177,9 +5177,9 @@ VectorSize
 rows
 :
 VectorSize
-width
+scalar
 :
-Bytes
+Scalar
 }
 /
 /
@@ -6836,6 +6836,10 @@ u32
 I32
 (
 i32
+)
+I64
+(
+i64
 )
 Bool
 (

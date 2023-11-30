@@ -5860,7 +5860,7 @@ Matrix
 {
 columns
 rows
-width
+scalar
 }
 =
 >
@@ -5877,17 +5877,6 @@ columns
 rows
 )
 scalar
-:
-naga
-:
-:
-Scalar
-:
-:
-float
-(
-width
-)
 }
 naga
 :

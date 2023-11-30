@@ -343,7 +343,7 @@ Matrix
 {
 columns
 rows
-width
+scalar
 }
 =
 >
@@ -359,6 +359,8 @@ from
 rows
 )
 *
+scalar
+.
 width
 as
 u32
@@ -370,6 +372,8 @@ rows
 as
 u32
 *
+scalar
+.
 width
 as
 u32
@@ -658,7 +662,7 @@ Matrix
 {
 columns
 rows
-width
+scalar
 }
 =
 >
@@ -679,16 +683,7 @@ x
 {
 }
 "
-crate
-:
-:
-Scalar
-:
-:
-float
-(
-width
-)
+scalar
 .
 to_hlsl_str
 (
