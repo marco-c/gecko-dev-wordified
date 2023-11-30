@@ -676,6 +676,7 @@ MakeRefPtr
 nsClickRule
 >
 (
+this
 aPresence
 aSkipPresenceVisibilityCheck
 aRunContext
