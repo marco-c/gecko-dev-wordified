@@ -37,6 +37,7 @@ test_subscribe_to_module
 bidi_session
 subscribe_events
 wait_for_event
+wait_for_future_safe
 )
 :
     
@@ -174,7 +175,10 @@ tab
 )
     
 await
+wait_for_future_safe
+(
 on_entry_added
+)
     
 assert
 len
@@ -209,6 +213,7 @@ test_subscribe_to_one_event_and_then_to_module
 bidi_session
 subscribe_events
 wait_for_event
+wait_for_future_safe
 )
 :
     
@@ -307,7 +312,10 @@ tab
 )
     
 await
+wait_for_future_safe
+(
 on_entry_added
+)
     
 assert
 len
@@ -424,7 +432,10 @@ tab
 )
     
 await
+wait_for_future_safe
+(
 on_entry_added
+)
     
 #
 Make
@@ -469,6 +480,7 @@ test_subscribe_to_module_and_then_to_one_event_again
 bidi_session
 subscribe_events
 wait_for_event
+wait_for_future_safe
 )
 :
     
@@ -606,7 +618,10 @@ tab
 )
     
 await
+wait_for_future_safe
+(
 on_entry_added
+)
     
 assert
 len
@@ -683,7 +698,10 @@ tab
 )
     
 await
+wait_for_future_safe
+(
 on_entry_added
+)
     
 #
 Make
