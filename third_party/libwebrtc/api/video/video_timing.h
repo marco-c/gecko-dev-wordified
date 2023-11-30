@@ -119,6 +119,17 @@ time_delta
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -152,6 +163,7 @@ header
 extension
 .
 struct
+RTC_EXPORT
 VideoSendTiming
 {
 enum
@@ -397,6 +409,7 @@ is
 reported
 .
 struct
+RTC_EXPORT
 TimingFrameInfo
 {
 TimingFrameInfo
@@ -879,6 +892,7 @@ network
 jitter
 .
 struct
+RTC_EXPORT
 VideoPlayoutDelay
 {
 /
