@@ -338,6 +338,9 @@ modified
 by
 decoders
 .
+VideoFrameType
+frame_type
+;
 }
 ;
 class

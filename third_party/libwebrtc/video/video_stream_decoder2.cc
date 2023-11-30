@@ -345,6 +345,8 @@ TimeDelta
 decode_time
 VideoContentType
 content_type
+VideoFrameType
+frame_type
 )
 {
 receive_stats_callback_
@@ -356,6 +358,7 @@ video_frame
 qp
 decode_time
 content_type
+frame_type
 )
 ;
 incoming_video_stream_

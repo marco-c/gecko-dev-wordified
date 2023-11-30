@@ -1445,6 +1445,10 @@ frame_info
 -
 >
 content_type
+frame_info
+-
+>
+frame_type
 )
 ;
 }
@@ -1968,6 +1972,16 @@ content_type
 _last_keyframe_content_type
 ;
 }
+frame_info
+.
+frame_type
+=
+frame
+.
+FrameType
+(
+)
+;
 _callback
 -
 >

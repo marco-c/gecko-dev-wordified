@@ -374,6 +374,8 @@ TimeDelta
 decode_time
 VideoContentType
 content_type
+VideoFrameType
+frame_type
 )
 ;
 /
@@ -435,6 +437,8 @@ TimeDelta
 assembly_time
 VideoContentType
 content_type
+VideoFrameType
+frame_type
 )
 ;
 void
