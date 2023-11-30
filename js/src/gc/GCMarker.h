@@ -420,7 +420,7 @@ GCMarker
 struct
 EphemeronEdge
 {
-CellColor
+MarkColor
 color
 ;
 Cell
@@ -429,7 +429,7 @@ target
 ;
 EphemeronEdge
 (
-CellColor
+MarkColor
 color_
 Cell
 *
