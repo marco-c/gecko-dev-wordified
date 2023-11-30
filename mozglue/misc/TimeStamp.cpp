@@ -307,7 +307,6 @@ InitializeUptime
 )
 ;
 }
-;
 ~
 TimeStampInitialization
 (
@@ -321,7 +320,6 @@ Shutdown
 )
 ;
 }
-;
 }
 ;
 static
