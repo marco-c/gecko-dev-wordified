@@ -147,6 +147,7 @@ data_callback_call_count
 0
 }
 ;
+static
 void
 test_logging_callback
 (
@@ -215,6 +216,7 @@ endif
 /
 PRINT_LOGS_TO_STDERR
 }
+static
 long
 data_cb_load
 (
@@ -243,6 +245,7 @@ return
 nframes
 ;
 }
+static
 void
 state_cb
 (
