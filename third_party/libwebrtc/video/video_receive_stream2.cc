@@ -6656,7 +6656,7 @@ delay
 <
 OptionalDelayToLogString
 (
-frame_maximum_playout_delay_
+frame_minimum_playout_delay_
 )
 <
 <
