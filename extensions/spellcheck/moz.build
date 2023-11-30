@@ -93,7 +93,7 @@ DIRS
 idl
 "
 "
-hunspell
+ipc
 "
 "
 src
@@ -122,6 +122,9 @@ DIRS
 +
 =
 [
+"
+hunspell
+"
 "
 locales
 "
