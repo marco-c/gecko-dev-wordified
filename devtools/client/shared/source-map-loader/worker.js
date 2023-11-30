@@ -58,14 +58,6 @@ MPL
 .
 *
 /
-/
-*
-eslint
--
-env
-worker
-*
-/
 "
 use
 strict

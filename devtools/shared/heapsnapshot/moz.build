@@ -334,12 +334,14 @@ DominatorTreeNode
 js
 "
 "
-HeapAnalysesClient
+HeapAnalyses
+.
+worker
 .
 js
 "
 "
-HeapAnalysesWorker
+HeapAnalysesClient
 .
 js
 "
