@@ -36776,7 +36776,7 @@ bool
 userScrolled
 =
 !
-FuzzyEqualsCoordinate
+FuzzyEqualsAdditive
 (
 Metrics
 (
@@ -36794,7 +36794,7 @@ x
 |
 |
 !
-FuzzyEqualsCoordinate
+FuzzyEqualsAdditive
 (
 Metrics
 (
