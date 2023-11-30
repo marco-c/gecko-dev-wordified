@@ -1448,13 +1448,13 @@ value
 (
 )
 scBounds
-VideoInfo
+wr
 :
 :
-Rotation
+WrRotation
 :
 :
-kDegree_0
+Degree0
 filter
 mixBlendMode
 )
