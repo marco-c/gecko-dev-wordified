@@ -1823,6 +1823,13 @@ temps
 this
 )
 ;
+BlockTrampolinePoolScope
+block_trampoline_pool
+(
+this
+8
+)
+;
 /
 /
 64
