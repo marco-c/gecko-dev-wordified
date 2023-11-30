@@ -403,7 +403,7 @@ the
 old
 transport
 .
-SignalNetworkRouteChanged
+SendNetworkRouteChanged
 (
 absl
 :
@@ -511,7 +511,7 @@ the
 new
 transport
 .
-SignalNetworkRouteChanged
+SendNetworkRouteChanged
 (
 new_packet_transport
 -
@@ -666,7 +666,7 @@ the
 old
 transport
 .
-SignalNetworkRouteChanged
+SendNetworkRouteChanged
 (
 absl
 :
@@ -774,7 +774,7 @@ the
 new
 transport
 .
-SignalNetworkRouteChanged
+SendNetworkRouteChanged
 (
 new_packet_transport
 -
@@ -1327,7 +1327,7 @@ DescribePacket
 parsed_packet
 )
 ;
-SignalUnDemuxableRtpPacketReceived
+NotifyUnDemuxableRtpPacketReceived
 (
 parsed_packet
 )
@@ -1420,7 +1420,7 @@ NetworkRoute
 network_route
 )
 {
-SignalNetworkRouteChanged
+SendNetworkRouteChanged
 (
 network_route
 )
@@ -1454,7 +1454,7 @@ packet_transport
 rtcp_packet_transport_
 )
 ;
-SignalWritableState
+SendWritableState
 (
 IsTransportWritable
 (
@@ -1497,7 +1497,7 @@ packet_transport
 rtcp_packet_transport_
 )
 ;
-SignalSentPacket
+SendSentPacket
 (
 sent_packet
 )
@@ -1540,7 +1540,7 @@ int64_t
 packet_time_us
 )
 {
-SignalRtcpPacketReceived
+SendRtcpPacketReceived
 (
 &
 packet
@@ -1850,7 +1850,7 @@ ready_to_send_
 =
 ready_to_send
 ;
-SignalReadyToSend
+SendReadyToSend
 (
 ready_to_send
 )

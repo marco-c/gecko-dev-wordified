@@ -1875,7 +1875,7 @@ SetSize
 len
 )
 ;
-SignalRtcpPacketReceived
+SendRtcpPacketReceived
 (
 &
 packet
@@ -1950,7 +1950,7 @@ packet_overhead
 srtp_overhead
 ;
 }
-SignalNetworkRouteChanged
+SendNetworkRouteChanged
 (
 network_route
 )
@@ -1970,7 +1970,7 @@ PacketTransportInternal
 packet_transport
 )
 {
-SignalWritableState
+SendWritableState
 (
 IsWritable
 (
@@ -3480,7 +3480,7 @@ writable_
 =
 writable
 ;
-SignalWritableState
+SendWritableState
 (
 writable_
 )
