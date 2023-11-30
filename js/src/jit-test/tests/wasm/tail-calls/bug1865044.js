@@ -49,6 +49,16 @@ if
 wasmGcEnabled
 (
 )
+|
+|
+!
+(
+'
+Function
+'
+in
+WebAssembly
+)
 a
 =
 newGlobal
