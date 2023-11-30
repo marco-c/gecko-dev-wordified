@@ -464,10 +464,15 @@ mutex_
 )
 ;
 static
-const
+constexpr
 char
-*
 kImplementationName
+[
+]
+=
+"
+fake_encoder
+"
 ;
 protected
 :
