@@ -642,14 +642,14 @@ h
 #
 include
 "
-nsIContentViewer
+nsID
 .
 h
 "
 #
 include
 "
-nsID
+nsIDocumentViewer
 .
 h
 "
@@ -2209,7 +2209,7 @@ mDocument
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 mViewer
 ;
@@ -2322,7 +2322,7 @@ aRequestingNode
 Set
 up
 an
-nsIContentViewer
+nsIDocumentViewer
 based
 on
 aRequest
@@ -2352,7 +2352,7 @@ SetupViewer
 nsIRequest
 *
 aRequest
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aViewer
@@ -2749,7 +2749,7 @@ AddExternalResource
 nsIURI
 *
 aURI
-nsIContentViewer
+nsIDocumentViewer
 *
 aViewer
 nsILoadGroup
@@ -17762,7 +17762,7 @@ document
 .
 *
 param
-aContentViewer
+aDocumentViewer
 The
 viewer
 for
@@ -17773,8 +17773,8 @@ document
 Must
 be
 the
-viewer
 *
+viewer
 of
 aCloneContainer
 but
@@ -17782,8 +17782,8 @@ callers
 must
 have
 a
-reference
 *
+reference
 to
 it
 already
@@ -17823,9 +17823,9 @@ CreateStaticClone
 nsIDocShell
 *
 aCloneContainer
-nsIContentViewer
+nsIDocumentViewer
 *
-aContentViewer
+aDocumentViewer
 nsIPrintSettings
 *
 aPrintSettings

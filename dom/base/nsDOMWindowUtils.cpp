@@ -19965,7 +19965,7 @@ IsEmpty
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 cv
 ;

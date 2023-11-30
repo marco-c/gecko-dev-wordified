@@ -1792,7 +1792,7 @@ bool
 Default
 value
 for
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 authorStyleDisabled

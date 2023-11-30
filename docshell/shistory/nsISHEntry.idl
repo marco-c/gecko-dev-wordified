@@ -149,7 +149,7 @@ interface
 nsILayoutHistoryState
 ;
 interface
-nsIContentViewer
+nsIDocumentViewer
 ;
 interface
 nsIURI
@@ -671,7 +671,7 @@ presentation
 infallible
 ]
 attribute
-nsIContentViewer
+nsIDocumentViewer
 contentViewer
 ;
 [

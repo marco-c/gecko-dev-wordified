@@ -228,7 +228,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -4284,7 +4284,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 ;

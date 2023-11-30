@@ -141,7 +141,7 @@ class
 nsIChannel
 ;
 class
-nsIContentViewer
+nsIDocumentViewer
 ;
 class
 nsILoadGroup
@@ -256,7 +256,7 @@ nsIStreamListener
 *
 *
 aDocListener
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aContentViewer

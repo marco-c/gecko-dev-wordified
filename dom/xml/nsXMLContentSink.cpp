@@ -253,7 +253,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -1953,7 +1953,7 @@ true
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 contentViewer
 ;
@@ -2065,7 +2065,7 @@ Clear
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 contentViewer
 ;

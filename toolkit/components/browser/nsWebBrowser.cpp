@@ -363,7 +363,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -1414,7 +1414,7 @@ nsIWebBrowserPrint
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 ;

@@ -389,7 +389,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "

@@ -407,13 +407,13 @@ net
 namespace
 mozilla
 class
-nsIContentViewer
-;
-class
 nsIController
 ;
 class
 nsIDocShellTreeOwner
+;
+class
+nsIDocumentViewer
 ;
 class
 nsIHttpChannel
@@ -3524,7 +3524,7 @@ nsIStreamListener
 *
 *
 aContentHandler
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aViewer
@@ -3541,7 +3541,7 @@ GetLoadURIDelegate
 nsresult
 SetupNewViewer
 (
-nsIContentViewer
+nsIDocumentViewer
 *
 aNewViewer
 mozilla
@@ -6713,7 +6713,7 @@ RefreshURIToQueue
 nsresult
 Embed
 (
-nsIContentViewer
+nsIDocumentViewer
 *
 aContentViewer
 mozilla
@@ -7935,7 +7935,7 @@ mContentWindowID
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 mContentViewer
 ;

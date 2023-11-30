@@ -308,7 +308,7 @@ dom
 XPCOMPermitUnloadAction
 from
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -1165,7 +1165,7 @@ the
 action
 specified
 using
-nsIContentViewer
+nsIDocumentViewer
 :
 :
 PermitUnloadAction

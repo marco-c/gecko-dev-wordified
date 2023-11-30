@@ -221,7 +221,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -1574,7 +1574,7 @@ SetupViewer
 nsIRequest
 *
 aRequest
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aViewer
@@ -1771,7 +1771,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 ;

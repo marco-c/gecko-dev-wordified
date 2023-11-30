@@ -1088,9 +1088,9 @@ static
 void
 TryReloadCharset
 (
-nsIContentViewer
+nsIDocumentViewer
 *
-aCv
+aViewer
 int32_t
 &
 aCharsetSource
@@ -1107,9 +1107,9 @@ aEncoding
 void
 TryUserForcedCharset
 (
-nsIContentViewer
+nsIDocumentViewer
 *
-aCv
+aViewer
 nsIDocShell
 *
 aDocShell

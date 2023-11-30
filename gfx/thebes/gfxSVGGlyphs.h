@@ -143,7 +143,7 @@ nsRefreshObservers
 h
 "
 class
-nsIContentViewer
+nsIDocumentViewer
 ;
 class
 gfxSVGGlyphs
@@ -393,7 +393,7 @@ mDocument
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 mViewer
 ;

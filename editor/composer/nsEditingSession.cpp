@@ -321,14 +321,14 @@ nsIChannel
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
 /
 /
 for
-nsIContentViewer
+nsIDocumentViewer
 #
 include
 "
@@ -3016,7 +3016,7 @@ fs
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 contentViewer
 ;

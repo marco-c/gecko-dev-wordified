@@ -76932,7 +76932,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 >
 &
@@ -76943,7 +76943,7 @@ if
 (
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 cv
 =
@@ -77132,7 +77132,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 >
 array
@@ -77168,9 +77168,9 @@ i
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 =
 array
 [
@@ -77185,7 +77185,7 @@ PresShell
 >
 descendantPresShell
 =
-cv
+viewer
 -
 >
 GetPresShell

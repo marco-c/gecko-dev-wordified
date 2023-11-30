@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -231,9 +231,9 @@ aShell
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 ;
 aShell
 -
@@ -242,13 +242,13 @@ GetContentViewer
 (
 getter_AddRefs
 (
-cv
+viewer
 )
 )
 ;
 if
 (
-cv
+viewer
 )
 {
 RefPtr
@@ -257,7 +257,7 @@ Document
 >
 doc
 =
-cv
+viewer
 -
 >
 GetDocument

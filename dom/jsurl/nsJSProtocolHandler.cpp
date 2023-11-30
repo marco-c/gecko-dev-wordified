@@ -277,7 +277,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -4991,9 +4991,9 @@ docShell
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 ;
 docShell
 -
@@ -5002,13 +5002,13 @@ GetContentViewer
 (
 getter_AddRefs
 (
-cv
+viewer
 )
 )
 ;
 if
 (
-cv
+viewer
 )
 {
 bool
@@ -5018,7 +5018,7 @@ if
 (
 NS_SUCCEEDED
 (
-cv
+viewer
 -
 >
 PermitUnload

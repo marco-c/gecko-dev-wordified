@@ -3815,7 +3815,7 @@ SessionHistoryEntry
 :
 GetContentViewer
 (
-nsIContentViewer
+nsIDocumentViewer
 *
 *
 aContentViewer
@@ -3836,7 +3836,7 @@ SessionHistoryEntry
 :
 SetContentViewer
 (
-nsIContentViewer
+nsIDocumentViewer
 *
 aContentViewer
 )

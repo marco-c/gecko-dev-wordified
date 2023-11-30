@@ -5264,9 +5264,9 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 ;
 ourDocShell
 -
@@ -5275,7 +5275,7 @@ GetContentViewer
 (
 getter_AddRefs
 (
-cv
+viewer
 )
 )
 ;
@@ -5284,7 +5284,7 @@ if
 NS_WARN_IF
 (
 !
-cv
+viewer
 )
 )
 {
@@ -5402,7 +5402,7 @@ sourceDocument
 CreateStaticClone
 (
 ourDocShell
-cv
+viewer
 printSettings
 &
 hasInProcessCallbacks
@@ -5731,9 +5731,9 @@ GetDocShell
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 ;
 inProcess
 -
@@ -5742,7 +5742,7 @@ GetContentViewer
 (
 getter_AddRefs
 (
-cv
+viewer
 )
 )
 ;
@@ -5751,7 +5751,7 @@ if
 NS_WARN_IF
 (
 !
-cv
+viewer
 )
 )
 {
@@ -5858,7 +5858,7 @@ AsChild
 )
 )
 ;
-cv
+viewer
 -
 >
 SetPrintSettingsForSubdocument

@@ -171,14 +171,14 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocShell
 .
 h
 "
 #
 include
 "
-nsIDocShell
+nsIDocumentViewer
 .
 h
 "
@@ -1415,7 +1415,7 @@ aEntry
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 =
@@ -9784,7 +9784,7 @@ range
 .
 nsCOMArray
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 safeViewers
 ;
@@ -9816,7 +9816,7 @@ i
 {
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 =
@@ -9969,7 +9969,7 @@ i
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 =
@@ -10306,7 +10306,7 @@ mEntry
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 mViewer
 ;
@@ -10627,7 +10627,7 @@ i
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 contentViewer
 =

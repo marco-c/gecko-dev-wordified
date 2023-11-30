@@ -201,7 +201,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -1046,7 +1046,7 @@ DocumentLoaderFactory
 ;
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 ;

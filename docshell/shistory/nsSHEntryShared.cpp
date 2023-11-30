@@ -145,7 +145,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -1291,7 +1291,7 @@ nsSHEntryShared
 :
 SetContentViewer
 (
-nsIContentViewer
+nsIDocumentViewer
 *
 aViewer
 )
@@ -1578,7 +1578,7 @@ mContentViewer
 .
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 =
@@ -1733,7 +1733,7 @@ mutation
 .
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
 viewer
 =

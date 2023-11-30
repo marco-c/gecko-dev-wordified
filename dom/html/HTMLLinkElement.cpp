@@ -3053,7 +3053,7 @@ to
 the
 /
 /
-nsIContentViewer
+nsIDocumentViewer
 yet
 so
 it

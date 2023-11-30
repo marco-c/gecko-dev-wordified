@@ -275,7 +275,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -13478,9 +13478,9 @@ false
 }
 nsCOMPtr
 <
-nsIContentViewer
+nsIDocumentViewer
 >
-cv
+viewer
 ;
 docShell
 -
@@ -13489,7 +13489,7 @@ GetContentViewer
 (
 getter_AddRefs
 (
-cv
+viewer
 )
 )
 ;
@@ -13508,10 +13508,10 @@ with
 if
 (
 !
-cv
+viewer
 |
 |
-cv
+viewer
 -
 >
 GetPresContext
@@ -13548,7 +13548,7 @@ viewer
 nsresult
 result
 =
-cv
+viewer
 -
 >
 Show
