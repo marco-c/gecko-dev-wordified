@@ -41453,7 +41453,7 @@ nsresult
 nsDocShell
 :
 :
-CreateContentViewerForActor
+CreateDocumentViewerForActor
 (
 WindowGlobalChild
 *

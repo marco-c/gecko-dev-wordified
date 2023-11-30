@@ -2390,7 +2390,7 @@ WindowGlobalChild
 actor
 .
 nsresult
-CreateContentViewerForActor
+CreateDocumentViewerForActor
 (
 mozilla
 :
