@@ -90,6 +90,17 @@ mjs
 "
 )
 ;
+console
+.
+error
+(
+"
+Hello
+from
+closeWindow
+"
+)
+;
 /
 /
 Closing
