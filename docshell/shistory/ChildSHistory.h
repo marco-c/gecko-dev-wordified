@@ -564,7 +564,7 @@ process
 *
 /
 void
-EvictLocalContentViewers
+EvictLocalDocumentViewers
 (
 )
 ;

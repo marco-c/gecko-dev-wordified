@@ -1542,7 +1542,7 @@ void
 ChildSHistory
 :
 :
-EvictLocalContentViewers
+EvictLocalDocumentViewers
 (
 )
 {
