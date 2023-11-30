@@ -267,7 +267,7 @@ let
 historyListener
 =
 {
-OnContentViewerEvicted
+OnDocumentViewerEvicted
 (
 )
 {
@@ -438,7 +438,7 @@ let
 historyListener
 =
 {
-OnContentViewerEvicted
+OnDocumentViewerEvicted
 (
 )
 {
@@ -739,7 +739,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testPage

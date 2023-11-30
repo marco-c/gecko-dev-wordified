@@ -7099,7 +7099,7 @@ l
 l
 -
 >
-OnContentViewerEvicted
+OnDocumentViewerEvicted
 (
 aNumEvicted
 )
