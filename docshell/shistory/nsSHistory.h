@@ -1795,7 +1795,7 @@ aEntry
 ;
 static
 void
-GloballyEvictContentViewers
+GloballyEvictDocumentViewers
 (
 )
 ;
