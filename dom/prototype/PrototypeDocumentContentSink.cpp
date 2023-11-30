@@ -834,7 +834,7 @@ in
 nsDocShell
 :
 :
-CreateContentViewer
+CreateDocumentViewer
 .
 nsresult
 rv

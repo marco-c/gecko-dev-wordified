@@ -3492,7 +3492,7 @@ nullptr
 )
 ;
 nsresult
-CreateContentViewer
+CreateDocumentViewer
 (
 const
 nsACString
@@ -8464,7 +8464,7 @@ later
 /
 /
 in
-CreateContentViewer
+CreateDocumentViewer
 .
 We
 have
@@ -8987,7 +8987,7 @@ mIsExecutingOnLoadHandler
 /
 Indicates
 to
-CreateContentViewer
+CreateDocumentViewer
 (
 )
 that

@@ -25724,7 +25724,7 @@ out
 for
 good
 in
-CreateContentViewer
+CreateDocumentViewer
 .
 if
 (
@@ -43723,7 +43723,7 @@ the
 same
 thing
 that
-CreateContentViewer
+CreateDocumentViewer
 does
 at
 /
@@ -44739,7 +44739,7 @@ the
 same
 ordering
 as
-CreateContentViewer
+CreateDocumentViewer
 .
 if
 (
@@ -46577,7 +46577,7 @@ the
 end
 of
 our
-CreateContentViewer
+CreateDocumentViewer
 (
 )
 replacement
@@ -48149,7 +48149,7 @@ nsresult
 nsDocShell
 :
 :
-CreateContentViewer
+CreateDocumentViewer
 (
 const
 nsACString

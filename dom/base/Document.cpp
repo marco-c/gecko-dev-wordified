@@ -17132,7 +17132,7 @@ in
 nsDocShell
 :
 :
-CreateContentViewer
+CreateDocumentViewer
 .
 NS_GetFinalChannelURI
 (
