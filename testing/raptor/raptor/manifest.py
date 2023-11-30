@@ -4940,10 +4940,6 @@ SpeedIndex
 FirstVisualChange
 LastVisualChange
 "
-                
-"
-largestContentfulPaint
-"
             
 )
         
