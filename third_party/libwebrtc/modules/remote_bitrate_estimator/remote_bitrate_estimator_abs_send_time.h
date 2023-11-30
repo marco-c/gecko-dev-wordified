@@ -251,7 +251,7 @@ include
 "
 rtc_base
 /
-checks
+bitrate_tracker
 .
 h
 "
@@ -260,7 +260,7 @@ include
 "
 rtc_base
 /
-rate_statistics
+checks
 .
 h
 "
@@ -633,15 +633,10 @@ estimator_
 OveruseDetector
 detector_
 ;
-RateStatistics
+BitrateTracker
 incoming_bitrate_
 {
 kBitrateWindow
-.
-ms
-(
-)
-8000
 }
 ;
 bool
