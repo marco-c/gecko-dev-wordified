@@ -30221,6 +30221,8 @@ kClassID
 nsTextFrame
 *
 mPrevContinuation
+=
+nullptr
 ;
 nsTextFrame
 *
