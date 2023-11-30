@@ -2876,7 +2876,7 @@ param
 {
 ArrayBuffer
 }
-wasm
+wasmBinary
 *
 returns
 {
@@ -2890,7 +2890,7 @@ Bergamot
 static
 initializeWasm
 (
-wasm
+wasmBinary
 )
 {
 return
@@ -3049,7 +3049,7 @@ bergamot
 )
 ;
 }
-wasm
+wasmBinary
 }
 )
 ;
