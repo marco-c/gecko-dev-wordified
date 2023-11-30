@@ -3865,7 +3865,7 @@ aParams
 ;
 static
 nsresult
-GetContentViewerEditFromContext
+GetDocumentViewerEditFromContext
 (
 nsISupports
 *
@@ -4084,7 +4084,7 @@ nsIDocumentViewerEdit
 >
 documentEdit
 ;
-GetContentViewerEditFromContext
+GetDocumentViewerEditFromContext
 (
 aCommandContext
 getter_AddRefs
@@ -4129,7 +4129,7 @@ nsIDocumentViewerEdit
 >
 documentEdit
 ;
-GetContentViewerEditFromContext
+GetDocumentViewerEditFromContext
 (
 aCommandContext
 getter_AddRefs
@@ -4199,7 +4199,7 @@ nsIDocumentViewerEdit
 >
 documentEdit
 ;
-GetContentViewerEditFromContext
+GetDocumentViewerEditFromContext
 (
 aCommandContext
 getter_AddRefs
@@ -4227,7 +4227,7 @@ nsresult
 nsSelectionCommand
 :
 :
-GetContentViewerEditFromContext
+GetDocumentViewerEditFromContext
 (
 nsISupports
 *
