@@ -10594,6 +10594,10 @@ mAddRestrictingRandomSid
 =
 false
 ;
+mUseCig
+=
+false
+;
 /
 /
 When
