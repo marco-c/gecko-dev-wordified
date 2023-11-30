@@ -275,7 +275,7 @@ element
 DELETE
 "
 "
-RETURN
+TAB
 "
 ]
 )
@@ -307,7 +307,7 @@ ruleEditor
 element
 [
 "
-RETURN
+TAB
 "
 ]
 )
@@ -334,7 +334,7 @@ ruleEditor
 element
 [
 "
-RETURN
+TAB
 "
 ]
 )

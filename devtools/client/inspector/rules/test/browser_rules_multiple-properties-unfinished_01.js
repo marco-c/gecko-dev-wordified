@@ -279,7 +279,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_RETURN
+VK_TAB
 "
 {
 }

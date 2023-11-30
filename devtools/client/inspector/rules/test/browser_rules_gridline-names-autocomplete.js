@@ -426,7 +426,7 @@ CHANGE
 ]
 [
 "
-VK_RETURN
+VK_TAB
 "
 {
 }
@@ -555,7 +555,7 @@ CHANGE
 ]
 [
 "
-VK_RETURN
+VK_TAB
 "
 {
 }
