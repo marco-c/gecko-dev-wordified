@@ -332,6 +332,11 @@ Destroy
 (
 )
 ;
+void
+ForceDestroy
+(
+)
+;
 uint32_t
 Width
 (
