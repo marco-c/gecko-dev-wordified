@@ -374,9 +374,6 @@ ffi
 WGPUComputePass
 &
 aPass
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -388,9 +385,6 @@ ffi
 WGPURenderPass
 &
 aPass
-ErrorResult
-&
-aRv
 )
 ;
 void
