@@ -206,6 +206,8 @@ activity
 -
 stream
 /
+aboutwelcome
+/
 lib
 /
 AWScreenUtils
