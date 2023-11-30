@@ -7619,8 +7619,10 @@ mutable_streams
 ]
 .
 ssrcs
+[
+0
+]
 =
-{
 kFirstMungedSsrc
 +
 static_cast
@@ -7630,7 +7632,6 @@ uint32_t
 (
 i
 )
-}
 ;
 }
 ASSERT_TRUE
