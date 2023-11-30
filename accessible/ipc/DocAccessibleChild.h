@@ -826,6 +826,8 @@ const
 int32_t
 &
 aGranularity
+bool
+aFromUser
 )
 ;
 bool
