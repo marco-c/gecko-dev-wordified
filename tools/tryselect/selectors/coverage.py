@@ -527,6 +527,10 @@ it
 "
 "
     
+setup_globals
+(
+)
+    
 test_resolver
 =
 TestResolver
