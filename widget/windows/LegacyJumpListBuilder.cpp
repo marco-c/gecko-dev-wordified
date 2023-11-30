@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-JumpListBuilder
+LegacyJumpListBuilder
 .
 h
 "
@@ -320,7 +320,7 @@ Atomic
 <
 bool
 >
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 sBuildingList
@@ -346,8 +346,8 @@ enabled
 ;
 NS_IMPL_ISUPPORTS
 (
-JumpListBuilder
-nsIJumpListBuilder
+LegacyJumpListBuilder
+nsILegacyJumpListBuilder
 nsIObserver
 )
 #
@@ -385,10 +385,10 @@ public
 :
 DoneCommitListBuildCallback
 (
-nsIJumpListCommittedCallback
+nsILegacyJumpListCommittedCallback
 *
 aCallback
-JumpListBuilder
+LegacyJumpListBuilder
 *
 aBuilder
 )
@@ -536,13 +536,13 @@ thread
 .
 RefPtr
 <
-nsIJumpListCommittedCallback
+nsILegacyJumpListCommittedCallback
 >
 mCallback
 ;
 RefPtr
 <
-JumpListBuilder
+LegacyJumpListBuilder
 >
 mBuilder
 ;
@@ -562,10 +562,10 @@ nsIRunnable
 /
 namespace
 detail
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
-JumpListBuilder
+LegacyJumpListBuilder
 (
 )
 :
@@ -580,7 +580,7 @@ false
 mMonitor
 (
 "
-JumpListBuilderMonitor
+LegacyJumpListBuilderMonitor
 "
 )
 {
@@ -814,11 +814,11 @@ return
 ;
 }
 }
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 ~
-JumpListBuilder
+LegacyJumpListBuilder
 (
 )
 {
@@ -833,7 +833,7 @@ kPrefTaskbarEnabled
 ;
 }
 NS_IMETHODIMP
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 SetAppUserModelID
@@ -945,7 +945,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 GetAvailable
@@ -980,7 +980,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 GetIsListCommitted
@@ -1000,7 +1000,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 GetMaxListItems
@@ -1114,7 +1114,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 InitListBuild
@@ -1229,7 +1229,7 @@ InitListBuild
 "
 this
 &
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 DoInitListBuild
@@ -1275,7 +1275,7 @@ NS_OK
 ;
 }
 void
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 DoInitListBuild
@@ -1602,7 +1602,7 @@ jump
 list
 cache
 nsresult
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 RemoveIconCacheForAllItems
@@ -1842,7 +1842,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 AddListToBuild
@@ -1907,7 +1907,7 @@ aCatType
 )
 {
 case
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 :
 :
 JUMPLIST_CATEGORY_TASKS
@@ -1986,7 +1986,7 @@ i
 {
 nsCOMPtr
 <
-nsIJumpListItem
+nsILegacyJumpListItem
 >
 item
 =
@@ -2024,7 +2024,7 @@ link
 ;
 rv
 =
-JumpListSeparator
+LegacyJumpListSeparator
 :
 :
 GetSeparator
@@ -2068,7 +2068,7 @@ link
 ;
 rv
 =
-JumpListShortcut
+LegacyJumpListShortcut
 :
 :
 GetShellLink
@@ -2168,7 +2168,7 @@ NS_OK
 break
 ;
 case
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 :
 :
 JUMPLIST_CATEGORY_RECENT
@@ -2199,7 +2199,7 @@ NS_OK
 break
 ;
 case
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 :
 :
 JUMPLIST_CATEGORY_FREQUENT
@@ -2230,7 +2230,7 @@ NS_OK
 break
 ;
 case
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 :
 :
 JUMPLIST_CATEGORY_CUSTOMLIST
@@ -2315,7 +2315,7 @@ i
 {
 nsCOMPtr
 <
-nsIJumpListItem
+nsILegacyJumpListItem
 >
 item
 =
@@ -2357,7 +2357,7 @@ type
 )
 {
 case
-nsIJumpListItem
+nsILegacyJumpListItem
 :
 :
 JUMPLIST_ITEM_SEPARATOR
@@ -2371,7 +2371,7 @@ shellItem
 ;
 rv
 =
-JumpListSeparator
+LegacyJumpListSeparator
 :
 :
 GetSeparator
@@ -2401,7 +2401,7 @@ shellItem
 break
 ;
 case
-nsIJumpListItem
+nsILegacyJumpListItem
 :
 :
 JUMPLIST_ITEM_LINK
@@ -2415,7 +2415,7 @@ shellItem
 ;
 rv
 =
-JumpListLink
+LegacyJumpListLink
 :
 :
 GetShellItem
@@ -2446,7 +2446,7 @@ shellItem
 break
 ;
 case
-nsIJumpListItem
+nsILegacyJumpListItem
 :
 :
 JUMPLIST_ITEM_SHORTCUT
@@ -2460,7 +2460,7 @@ shellItem
 ;
 rv
 =
-JumpListShortcut
+LegacyJumpListShortcut
 :
 :
 GetShellLink
@@ -2619,7 +2619,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 AbortListBuild
@@ -2674,12 +2674,12 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 CommitListBuild
 (
-nsIJumpListCommittedCallback
+nsILegacyJumpListCommittedCallback
 *
 aCallback
 )
@@ -2779,14 +2779,14 @@ DoneCommitListBuildCallback
 >
 (
 "
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 DoCommitListBuild
 "
 this
 &
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 DoCommitListBuild
@@ -2816,7 +2816,7 @@ NS_OK
 ;
 }
 void
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 DoCommitListBuild
@@ -2990,7 +2990,7 @@ true
 }
 }
 NS_IMETHODIMP
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 DeleteActiveList
@@ -3081,14 +3081,14 @@ internal
 *
 /
 bool
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 IsSeparator
 (
 nsCOMPtr
 <
-nsIJumpListItem
+nsILegacyJumpListItem
 >
 &
 item
@@ -3128,7 +3128,7 @@ if
 type
 =
 =
-nsIJumpListItem
+nsILegacyJumpListItem
 :
 :
 JUMPLIST_ITEM_SEPARATOR
@@ -3197,7 +3197,7 @@ places
 database
 .
 void
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 RemoveIconCacheAndGetJumplistShortcutURIs
@@ -3439,7 +3439,7 @@ spec
 }
 }
 void
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 DeleteIconFromDisk
@@ -3547,7 +3547,7 @@ false
 }
 }
 NS_IMETHODIMP
-JumpListBuilder
+LegacyJumpListBuilder
 :
 :
 Observe

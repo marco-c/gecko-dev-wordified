@@ -120,7 +120,7 @@ e99f
 )
 ]
 interface
-nsIJumpListCommittedCallback
+nsILegacyJumpListCommittedCallback
 :
 nsISupports
 {
@@ -150,7 +150,7 @@ C2B32FA4F683
 )
 ]
 interface
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 :
 nsISupports
 {
@@ -345,7 +345,7 @@ call
 to
 initListBuild
 .
-nsIJumpListBuilder
+nsILegacyJumpListBuilder
 does
 not
 filter
@@ -391,7 +391,7 @@ of
 an
 array
 of
-nsIJumpListItem
+nsILegacyJumpListItem
 representing
 items
 *
@@ -403,7 +403,7 @@ and
 separators
 .
 See
-nsIJumpListItem
+nsILegacyJumpListItem
 for
 information
 *
@@ -846,7 +846,7 @@ items
 An
 array
 of
-nsIJumpListItem
+nsILegacyJumpListItem
 items
 to
 add
@@ -1006,7 +1006,7 @@ commitListBuild
 optional
 ]
 in
-nsIJumpListCommittedCallback
+nsILegacyJumpListCommittedCallback
 callback
 )
 ;
