@@ -838,7 +838,7 @@ dom
 Document
 >
 &
-aRootContentDocument
+aInProcessRootContentDocument
 const
 nsIScrollableFrame
 *
@@ -862,7 +862,7 @@ nullptr
 {
 if
 (
-aRootContentDocument
+aInProcessRootContentDocument
 -
 >
 IsTopLevelContentDocument
@@ -997,7 +997,7 @@ dom
 Document
 >
 &
-aRootContentDocument
+aInProcessRootContentDocument
 nsIScrollableFrame
 *
 aRootScrollFrame
@@ -1140,7 +1140,7 @@ OwnerDoc
 )
 =
 =
-aRootContentDocument
+aInProcessRootContentDocument
 &
 &
 aElement
@@ -1278,7 +1278,7 @@ rect
 GetBoundingContentRect
 (
 tableCell
-aRootContentDocument
+aInProcessRootContentDocument
 aRootScrollFrame
 aMetrics
 )
@@ -1972,7 +1972,7 @@ dom
 Document
 >
 &
-aRootContentDocument
+aInProcessRootContentDocument
 const
 CSSPoint
 &
@@ -1998,7 +1998,7 @@ to
 -
 date
 .
-aRootContentDocument
+aInProcessRootContentDocument
 -
 >
 FlushPendingNotifications
@@ -2035,7 +2035,7 @@ PresShell
 >
 presShell
 =
-aRootContentDocument
+aInProcessRootContentDocument
 -
 >
 GetPresShell
@@ -2090,7 +2090,7 @@ ZoomIn
 CSSPoint
 documentRelativePoint
 =
-aRootContentDocument
+aInProcessRootContentDocument
 -
 >
 IsTopLevelContentDocument
@@ -2206,7 +2206,7 @@ element
 ShouldZoomToElement
 (
 element
-aRootContentDocument
+aInProcessRootContentDocument
 rootScrollFrame
 aMetrics
 )
@@ -2255,7 +2255,7 @@ rect
 GetBoundingContentRect
 (
 element
-aRootContentDocument
+aInProcessRootContentDocument
 rootScrollFrame
 aMetrics
 &

@@ -656,6 +656,9 @@ aDocument
 should
 be
 the
+in
+-
+process
 root
 content
 document
@@ -664,6 +667,7 @@ the
 content
 that
 was
+*
 tapped
 .
 *
@@ -683,7 +687,7 @@ dom
 Document
 >
 &
-aRootContentDocument
+aInProcessRootContentDocument
 const
 CSSPoint
 &
