@@ -3762,6 +3762,12 @@ inDOMFullscreen
 true
 )
 ;
+XULBrowserWindow
+.
+onEnterDOMFullscreen
+(
+)
+;
 if
 (
 gFindBarInitialized
