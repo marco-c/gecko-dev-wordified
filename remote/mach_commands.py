@@ -3451,8 +3451,6 @@ logger
 expectations
 )
         
-return_code
-=
 run_npm
 (
             
@@ -3506,7 +3504,7 @@ output_timeout
             
 exit_on_fail
 =
-False
+True
         
 )
         
@@ -3516,77 +3514,26 @@ after_end
 (
 )
         
-#
-Non
--
-zero
-return
-codes
-are
-non
--
-fatal
-for
-now
-since
-we
-have
-some
-        
-#
-issues
-with
-unresolved
-promises
-that
-shouldn
-'
-t
-otherwise
-block
-        
-#
-running
-the
-tests
-        
-if
-return_code
-!
-=
-0
-:
-            
-logger
-.
-warning
-(
-"
-npm
-exited
-with
-code
-%
-s
-"
-%
-return_code
-)
-        
 if
 output_handler
 .
 has_unexpected
 :
             
-exit
+logger
+.
+error
 (
-1
 "
 Got
 unexpected
 results
 "
+)
+            
+exit
+(
+1
 )
 def
 create_parser_puppeteer
