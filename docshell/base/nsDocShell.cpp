@@ -14785,7 +14785,7 @@ DoChannelLoad
 is
 called
 before
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 .
 if
 (
@@ -14918,7 +14918,7 @@ called
 from
 /
 /
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 .
 For
 example
@@ -39952,7 +39952,7 @@ GetCsp
 nsresult
 rv
 =
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 principal
 partitionedPrincipal
@@ -39998,7 +39998,7 @@ Should
 have
 doc
 if
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 "
 "
 succeeded
@@ -40129,7 +40129,7 @@ nsresult
 nsDocShell
 :
 :
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nsIPrincipal
 *
@@ -41420,7 +41420,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nsIPrincipal
 *
@@ -41434,7 +41434,7 @@ aCSP
 )
 {
 return
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 aPrincipal
 aPartitionedPrincipal
@@ -41493,7 +41493,7 @@ here
 nsresult
 rv
 =
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 aWindowActor
 -
@@ -41579,7 +41579,7 @@ have
 a
 document
 if
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 succeeded
 "
 )
@@ -60133,7 +60133,7 @@ bug
 )
 rv
 =
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nullptr
 nullptr
@@ -78812,7 +78812,7 @@ rv
 /
 /
 Calling
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 can
 set
 mOSHE
@@ -79119,7 +79119,7 @@ object
 .
 rv
 =
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 aLoadState
 -

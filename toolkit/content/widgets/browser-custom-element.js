@@ -6119,7 +6119,7 @@ ex
 }
 }
 }
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 aPrincipal
 aPartitionedPrincipal
@@ -6168,7 +6168,7 @@ frameLoader
 .
 remoteTab
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 principal
 partitionedPrincipal
@@ -6181,7 +6181,7 @@ this
 .
 docShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 principal
 partitionedPrincipal

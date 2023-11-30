@@ -16553,7 +16553,7 @@ URI_INHERITS_SECURITY_CONTEXT
 {
 browser
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 originPrincipal
 originStoragePrincipal

@@ -4345,7 +4345,7 @@ info
 )
 ;
 async
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nullable
 nsIPrincipal

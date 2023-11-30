@@ -160,7 +160,7 @@ docShell
 ;
 docShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 principal
 principal

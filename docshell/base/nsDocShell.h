@@ -3434,7 +3434,7 @@ blank
 load
 .
 nsresult
-CreateAboutBlankContentViewer
+CreateAboutBlankDocumentViewer
 (
 nsIPrincipal
 *

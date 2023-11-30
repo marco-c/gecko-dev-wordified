@@ -51,7 +51,7 @@ docShell
 ;
 docShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 null
 null

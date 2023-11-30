@@ -6463,7 +6463,7 @@ windowlessBrowser
 .
 docShell
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 systemPrincipal
 systemPrincipal

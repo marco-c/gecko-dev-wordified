@@ -883,7 +883,7 @@ getSystemPrincipal
 ;
 webNavigation
 .
-createAboutBlankContentViewer
+createAboutBlankDocumentViewer
 (
 system
 system
@@ -2059,7 +2059,7 @@ expectedURL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
