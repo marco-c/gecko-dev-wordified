@@ -7,7 +7,7 @@ title
 test
 WebNN
 API
-pad
+conv2d
 operation
 /
 /
@@ -23,6 +23,7 @@ META
 :
 script
 =
+.
 .
 /
 resources
@@ -61,12 +62,15 @@ api
 -
 mlgraphbuilder
 -
-pad
+conv2d
 testWebNNOperation
 (
 '
-pad
+conv2d
 '
-buildPad
+buildConv2d
+'
+gpu
+'
 )
 ;

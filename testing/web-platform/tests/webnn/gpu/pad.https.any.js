@@ -24,6 +24,7 @@ META
 script
 =
 .
+.
 /
 resources
 /
@@ -68,5 +69,8 @@ testWebNNOperation
 pad
 '
 buildPad
+'
+gpu
+'
 )
 ;

@@ -7,7 +7,7 @@ title
 test
 WebNN
 API
-pad
+hardSigmoid
 operation
 /
 /
@@ -23,6 +23,7 @@ META
 :
 script
 =
+.
 .
 /
 resources
@@ -61,12 +62,17 @@ api
 -
 mlgraphbuilder
 -
-pad
+hard
+-
+sigmoid
 testWebNNOperation
 (
 '
-pad
+hardSigmoid
 '
-buildPad
+buildOperationWithSingleInput
+'
+gpu
+'
 )
 ;

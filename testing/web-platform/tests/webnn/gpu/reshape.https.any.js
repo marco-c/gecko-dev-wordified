@@ -7,7 +7,7 @@ title
 test
 WebNN
 API
-pad
+reshape
 operation
 /
 /
@@ -23,6 +23,7 @@ META
 :
 script
 =
+.
 .
 /
 resources
@@ -61,12 +62,15 @@ api
 -
 mlgraphbuilder
 -
-pad
+reshape
 testWebNNOperation
 (
 '
-pad
+reshape
 '
-buildPad
+buildReshape
+'
+gpu
+'
 )
 ;

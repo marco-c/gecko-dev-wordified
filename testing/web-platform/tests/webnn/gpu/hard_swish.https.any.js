@@ -7,7 +7,7 @@ title
 test
 WebNN
 API
-pad
+tanh
 operation
 /
 /
@@ -23,6 +23,7 @@ META
 :
 script
 =
+.
 .
 /
 resources
@@ -61,12 +62,17 @@ api
 -
 mlgraphbuilder
 -
-pad
+hard
+-
+swish
 testWebNNOperation
 (
 '
-pad
+hardSwish
 '
-buildPad
+buildOperationWithSingleInput
+'
+gpu
+'
 )
 ;
