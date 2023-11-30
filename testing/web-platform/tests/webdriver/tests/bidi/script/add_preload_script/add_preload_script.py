@@ -918,7 +918,6 @@ add_preload_script
         
 function_declaration
 =
-f
 "
 (
 )

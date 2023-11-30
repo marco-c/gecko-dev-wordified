@@ -1529,9 +1529,6 @@ current_session
 execute_async_script
 (
             
-f
-"
-"
 "
 const
 callback
@@ -1567,8 +1564,6 @@ arguments
 ]
 )
 )
-"
-"
 "
             
 args

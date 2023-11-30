@@ -12,16 +12,6 @@ import
 Actions
 get_element_origin
 from
-webdriver
-.
-bidi
-.
-modules
-.
-script
-import
-ContextTarget
-from
 .
 .
 import
@@ -979,8 +969,6 @@ pointerArea
 "
 )
     
-center
-=
 await
 get_inview_center_bidi
 (

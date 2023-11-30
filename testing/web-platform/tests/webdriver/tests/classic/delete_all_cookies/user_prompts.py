@@ -7,12 +7,6 @@ long
 import
 pytest
 from
-webdriver
-.
-error
-import
-NoSuchCookieException
-from
 tests
 .
 support

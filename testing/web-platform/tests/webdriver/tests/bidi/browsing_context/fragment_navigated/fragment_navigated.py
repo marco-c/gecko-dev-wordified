@@ -30,7 +30,6 @@ from
 .
 import
 any_int
-any_string
 recursive_compare
 int_interval
 from
@@ -590,7 +589,6 @@ EMPTY_PAGE
 foo
 '
 )
-;
     
 result
 =
@@ -754,7 +752,6 @@ url
 #
 foo
 '
-;
     
 await
 bidi_session

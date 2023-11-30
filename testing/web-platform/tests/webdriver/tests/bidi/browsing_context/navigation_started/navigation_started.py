@@ -2160,8 +2160,6 @@ url
 PAGE_REDIRECTED_HTML
 )
     
-result
-=
 await
 bidi_session
 .
@@ -2205,9 +2203,9 @@ initial
 navigation
 and
 one
-for
     
 #
+for
 the
 http
 -
@@ -2314,6 +2312,10 @@ redirected_url
 }
     
 )
+    
+remove_listener
+(
+)
 async
 def
 test_redirect_navigation
@@ -2418,8 +2420,6 @@ html_url
     
 )
     
-result
-=
 await
 bidi_session
 .
@@ -2487,6 +2487,10 @@ redirect_url
         
 }
     
+)
+    
+remove_listener
+(
 )
 async
 def
