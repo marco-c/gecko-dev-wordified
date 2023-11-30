@@ -9418,9 +9418,6 @@ LargestContentfulPaint
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
