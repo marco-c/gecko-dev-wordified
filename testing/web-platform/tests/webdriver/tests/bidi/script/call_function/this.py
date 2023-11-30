@@ -616,7 +616,7 @@ parametrize
 channel
 expected_data
 "
-    
+   
 [
         
 (
@@ -849,8 +849,6 @@ bidi_session
 top_context
 subscribe_events
 wait_for_event
-    
-wait_for_future_safe
 channel
 expected_data
 )
@@ -941,10 +939,7 @@ channel
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 recursive_compare
 (

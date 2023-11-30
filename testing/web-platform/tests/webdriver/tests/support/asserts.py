@@ -1664,7 +1664,8 @@ type
 (
 screenshot
 )
-is
+=
+=
 str
 :
         

@@ -147,7 +147,6 @@ test_response_status
 (
     
 wait_for_event
-wait_for_future_safe
 url
 fetch
 setup_network_test
@@ -224,10 +223,7 @@ status_url
 )
     
 await
-wait_for_future_safe
-(
 on_response_completed
-)
     
 assert
 len

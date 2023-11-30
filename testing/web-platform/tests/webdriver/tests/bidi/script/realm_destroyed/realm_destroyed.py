@@ -170,7 +170,6 @@ test_close_context
 bidi_session
 subscribe_events
 wait_for_event
-wait_for_future_safe
 type_hint
 )
 :
@@ -245,10 +244,7 @@ context
 event
 =
 await
-wait_for_future_safe
-(
 on_realm_destroyed
-)
     
 assert
 event
@@ -277,7 +273,6 @@ test_navigate
 bidi_session
 subscribe_events
 wait_for_event
-wait_for_future_safe
 inline
 new_tab
 )
@@ -361,10 +356,7 @@ complete
 event
 =
 await
-wait_for_future_safe
-(
 on_realm_destroyed
-)
     
 assert
 event
@@ -393,7 +385,6 @@ test_reload_context
 bidi_session
 subscribe_events
 wait_for_event
-wait_for_future_safe
 top_context
 )
 :
@@ -454,10 +445,7 @@ context
 event
 =
 await
-wait_for_future_safe
-(
 on_realm_destroyed
-)
     
 assert
 event
@@ -850,7 +838,6 @@ subscribe_events
 top_context
 inline
 wait_for_event
-wait_for_future_safe
 domain
 )
 :
@@ -1031,10 +1018,7 @@ complete
 event
 =
 await
-wait_for_future_safe
-(
 on_realm_destroyed
-)
     
 assert
 event

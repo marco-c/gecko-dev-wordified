@@ -147,7 +147,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-wait_for_future_safe
 log_argument
 expected_text
 )
@@ -193,10 +192,7 @@ log_argument
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert_console_entry
 (
@@ -315,7 +311,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-wait_for_future_safe
 log_method
 expected_level
 )
@@ -409,10 +404,7 @@ foo
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert_console_entry
 (
@@ -444,7 +436,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-wait_for_future_safe
 current_time
 )
 :
@@ -563,10 +554,7 @@ context
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 time_end
 =
@@ -604,7 +592,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -652,10 +639,7 @@ foo
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert_console_entry
 (
@@ -721,10 +705,7 @@ foo_in_new_window
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert_console_entry
 (
@@ -756,7 +737,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -804,10 +784,7 @@ foo
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert_console_entry
 (
@@ -889,10 +866,7 @@ foo_after_refresh
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert_console_entry
 (
@@ -930,8 +904,6 @@ subscribe_events
 top_context
     
 wait_for_event
-    
-wait_for_future_safe
     
 test_page_same_origin_frame
 )
@@ -1059,10 +1031,7 @@ foo
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert_console_entry
 (
@@ -1112,10 +1081,7 @@ bar
 event_data
 =
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert_console_entry
 (

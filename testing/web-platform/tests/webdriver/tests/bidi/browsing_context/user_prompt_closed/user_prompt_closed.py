@@ -1,4 +1,6 @@
 import
+asyncio
+import
 pytest
 from
 tests
@@ -43,7 +45,6 @@ bidi_session
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -140,10 +141,7 @@ to
 open
     
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 #
 Track
@@ -258,7 +256,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -332,10 +329,7 @@ open
 .
     
 await
-wait_for_future_safe
-(
 on_prompt_opened
-)
     
 on_prompt_closed
 =
@@ -364,10 +358,7 @@ context
 event
 =
 await
-wait_for_future_safe
-(
 on_prompt_closed
-)
     
 assert
 event
@@ -414,7 +405,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 accept
 )
 :
@@ -489,10 +479,7 @@ open
 .
     
 await
-wait_for_future_safe
-(
 on_prompt_opened
-)
     
 on_prompt_closed
 =
@@ -526,10 +513,7 @@ accept
 event
 =
 await
-wait_for_future_safe
-(
 on_prompt_closed
-)
     
 assert
 event
@@ -576,7 +560,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 accept
 )
 :
@@ -654,10 +637,7 @@ open
 .
     
 await
-wait_for_future_safe
-(
 on_prompt_opened
-)
     
 on_prompt_closed
 =
@@ -700,10 +680,7 @@ test_user_text
 event
 =
 await
-wait_for_future_safe
-(
 on_prompt_closed
-)
     
 if
 accept
@@ -776,7 +753,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -853,10 +829,7 @@ open
 .
     
 await
-wait_for_future_safe
-(
 on_prompt_opened
-)
     
 on_prompt_closed
 =
@@ -887,10 +860,7 @@ context
 event
 =
 await
-wait_for_future_safe
-(
 on_prompt_closed
-)
     
 assert
 event
@@ -940,7 +910,6 @@ bidi_session
 subscribe_events
 inline
 wait_for_event
-wait_for_future_safe
 type_hint
 )
 :
@@ -1113,6 +1082,7 @@ url
 =
 inline
 (
+f
 "
 <
 script
@@ -1136,10 +1106,7 @@ script
 )
     
 await
-wait_for_future_safe
-(
 on_prompt_opened
-)
     
 await
 bidi_session
@@ -1254,6 +1221,7 @@ url
 =
 inline
 (
+f
 "
 <
 script
@@ -1277,10 +1245,7 @@ script
 )
     
 await
-wait_for_future_safe
-(
 on_prompt_opened
-)
     
 await
 bidi_session
@@ -1304,10 +1269,7 @@ context
 event
 =
 await
-wait_for_future_safe
-(
 on_prompt_closed
-)
     
 assert
 event
@@ -1387,8 +1349,6 @@ test_origin
 subscribe_events
     
 wait_for_event
-    
-wait_for_future_safe
 )
 :
     
@@ -1565,10 +1525,7 @@ script
 )
     
 await
-wait_for_future_safe
-(
 on_prompt_opened
-)
     
 await
 bidi_session
@@ -1592,10 +1549,7 @@ context
 event
 =
 await
-wait_for_future_safe
-(
 on_prompt_closed
-)
     
 assert
 event

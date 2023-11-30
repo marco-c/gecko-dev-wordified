@@ -158,7 +158,7 @@ URL
 that
 fetches
 the
-corresponding
+correspondinding
 component
 ad
 /

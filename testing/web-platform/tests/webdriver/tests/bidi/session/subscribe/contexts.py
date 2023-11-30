@@ -49,7 +49,6 @@ subscribe_events
 top_context
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -197,10 +196,7 @@ text2
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert
 len
@@ -248,7 +244,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -393,10 +388,7 @@ text2
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert
 len
@@ -454,7 +446,6 @@ subscribe_events
 top_context
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -606,10 +597,7 @@ text2
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert
 len
@@ -724,10 +712,7 @@ text3
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert
 len
@@ -771,10 +756,7 @@ text4
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 assert
 len
@@ -823,7 +805,6 @@ subscribe_events
 top_context
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -965,10 +946,7 @@ text1
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 #
 Make
@@ -1006,7 +984,6 @@ bidi_session
 subscribe_events
     
 wait_for_event
-wait_for_future_safe
     
 top_context
     
@@ -1217,10 +1194,7 @@ text1
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 #
 Make
@@ -1270,10 +1244,7 @@ text2
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 #
 Make
@@ -1313,7 +1284,6 @@ bidi_session
 subscribe_events
     
 wait_for_event
-wait_for_future_safe
     
 top_context
     
@@ -1525,10 +1495,7 @@ text1
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 #
 Make
@@ -1578,10 +1545,7 @@ text2
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 #
 Make

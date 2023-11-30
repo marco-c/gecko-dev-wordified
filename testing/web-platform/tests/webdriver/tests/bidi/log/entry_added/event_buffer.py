@@ -35,7 +35,6 @@ test_console_log_cached_messages
     
 bidi_session
 wait_for_event
-wait_for_future_safe
 log_type
 new_tab
 )
@@ -317,10 +316,7 @@ live_message
 )
     
 await
-wait_for_future_safe
-(
 on_entry_added
-)
     
 #
 Check

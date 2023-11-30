@@ -158,7 +158,6 @@ These
 tests
 verify
 that
-secure
 contexts
 can
 navigate
@@ -167,9 +166,9 @@ to
 less
 -
 public
-/
-/
 address
+/
+/
 spaces
 iff
 the
@@ -179,8 +178,6 @@ responds
 affirmatively
 to
 preflight
-/
-/
 requests
 .
 /

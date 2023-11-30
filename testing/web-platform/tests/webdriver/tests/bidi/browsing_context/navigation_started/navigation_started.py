@@ -1,4 +1,6 @@
 import
+asyncio
+import
 pytest
 from
 tests
@@ -260,7 +262,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -324,10 +325,7 @@ url
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_navigation_info
 (
@@ -378,7 +376,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -449,10 +446,7 @@ url
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 time_end
 =
@@ -1236,7 +1230,6 @@ test_new_context
 bidi_session
 subscribe_events
 wait_for_event
-wait_for_future_safe
 type_hint
 )
 :
@@ -1277,10 +1270,7 @@ tab
 navigation_info
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_navigation_info
 (
@@ -1455,7 +1445,6 @@ test_window_open
 bidi_session
 subscribe_events
 wait_for_event
-wait_for_future_safe
 top_context
 )
 :
@@ -1526,10 +1515,7 @@ False
 navigation_info
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_navigation_info
 (
@@ -1786,7 +1772,6 @@ subscribe_events
 inline
 new_tab
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -1857,10 +1842,7 @@ url
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_navigation_info
 (
@@ -1952,7 +1934,6 @@ bidi_session
 new_tab
 subscribe_events
 wait_for_event
-wait_for_future_safe
 url
 )
 :
@@ -2013,10 +1994,7 @@ complete
 navigation_info
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_navigation_info
 (
@@ -2160,6 +2138,8 @@ url
 PAGE_REDIRECTED_HTML
 )
     
+result
+=
 await
 bidi_session
 .
@@ -2203,9 +2183,9 @@ initial
 navigation
 and
 one
+for
     
 #
-for
 the
 http
 -
@@ -2312,10 +2292,6 @@ redirected_url
 }
     
 )
-    
-remove_listener
-(
-)
 async
 def
 test_redirect_navigation
@@ -2420,6 +2396,8 @@ html_url
     
 )
     
+result
+=
 await
 bidi_session
 .
@@ -2488,10 +2466,6 @@ redirect_url
 }
     
 )
-    
-remove_listener
-(
-)
 async
 def
 test_navigate_history_pushstate
@@ -2502,7 +2476,6 @@ inline
 new_tab
 subscribe_events
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -2606,10 +2579,7 @@ complete
 event
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert
 event

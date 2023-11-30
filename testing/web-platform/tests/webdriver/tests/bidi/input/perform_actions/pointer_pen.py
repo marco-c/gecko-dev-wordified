@@ -12,6 +12,16 @@ import
 Actions
 get_element_origin
 from
+webdriver
+.
+bidi
+.
+modules
+.
+script
+import
+ContextTarget
+from
 .
 .
 import
@@ -428,16 +438,13 @@ pressure
 0
 .
 36
-altitude_angle
+tilt_x
 =
-0
-.
-3
-azimuth_angle
+-
+72
+tilt_y
 =
-0
-.
-2419
+9
 twist
 =
 86
@@ -785,6 +792,7 @@ tiltX
 ]
 =
 =
+-
 72
     
 assert
@@ -799,7 +807,7 @@ tiltY
 ]
 =
 =
-38
+9
     
 assert
 events

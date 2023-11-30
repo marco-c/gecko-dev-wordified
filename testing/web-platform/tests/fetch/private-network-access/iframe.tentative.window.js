@@ -121,8 +121,6 @@ in
 :
 iframe
 .
-tentative
-.
 https
 .
 window

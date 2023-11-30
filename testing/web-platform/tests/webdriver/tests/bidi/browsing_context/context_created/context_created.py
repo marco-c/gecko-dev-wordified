@@ -201,7 +201,6 @@ test_new_context
 (
 bidi_session
 wait_for_event
-wait_for_future_safe
 subscribe_events
 type_hint
 )
@@ -239,10 +238,7 @@ type_hint
 context_info
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_browsing_context
 (
@@ -280,7 +276,6 @@ test_evaluate_window_open_without_url
 bidi_session
 subscribe_events
 wait_for_event
-wait_for_future_safe
 top_context
 )
 :
@@ -343,10 +338,7 @@ False
 context_info
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_browsing_context
 (
@@ -381,7 +373,6 @@ test_evaluate_window_open_with_url
 bidi_session
 subscribe_events
 wait_for_event
-wait_for_future_safe
 inline
 top_context
 )
@@ -467,10 +458,7 @@ False
 context_info
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_browsing_context
 (

@@ -94,7 +94,6 @@ def
 test_interactive_simultaneous_navigation
 (
 bidi_session
-wait_for_future_safe
 inline
 new_tab
 )
@@ -514,7 +513,9 @@ timeout
 .
     
 await
-wait_for_future_safe
+asyncio
+.
+wait_for
 (
 frame1_task
 timeout

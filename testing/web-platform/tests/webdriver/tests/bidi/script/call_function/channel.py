@@ -373,7 +373,6 @@ bidi_session
 top_context
 subscribe_events
 wait_for_event
-wait_for_future_safe
 channel
 expected_data
 )
@@ -480,10 +479,7 @@ context
 event_data
 =
 await
-wait_for_future_safe
-(
 on_script_message
-)
     
 recursive_compare
 (
@@ -553,7 +549,6 @@ bidi_session
 top_context
 subscribe_events
 wait_for_event
-wait_for_future_safe
 )
 :
     
@@ -665,10 +660,7 @@ context
 event_data
 =
 await
-wait_for_future_safe
-(
 on_script_message
-)
     
 recursive_compare
 (
@@ -1134,8 +1126,6 @@ top_context
     
 wait_for_event
     
-wait_for_future_safe
-    
 subscribe_events
 )
 :
@@ -1268,10 +1258,7 @@ context
 event_data
 =
 await
-wait_for_future_safe
-(
 on_script_message
-)
     
 recursive_compare
 (

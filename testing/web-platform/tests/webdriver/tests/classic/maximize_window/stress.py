@@ -16,6 +16,14 @@ support
 asserts
 import
 assert_success
+from
+tests
+.
+support
+.
+helpers
+import
+document_hidden
 def
 maximize_window
 (

@@ -76,13 +76,14 @@ input
 .
 perform_actions
 (
+            
 actions
 =
 actions
-                                                        
 context
 =
 context
+        
 )
     
 yield
@@ -212,13 +213,13 @@ twist
 0
         
 "
-altitudeAngle
+tiltX
 "
 :
 0
         
 "
-azimuthAngle
+tiltY
 "
 :
 0
@@ -498,7 +499,6 @@ async
 def
 test_params_input_source_actions_invalid_type
 (
-        
 perform_actions
 value
 )
@@ -542,7 +542,6 @@ async
 def
 test_params_input_source_action_sequence_invalid_type
 (
-        
 perform_actions
 value
 )
@@ -568,7 +567,6 @@ async
 def
 test_params_input_source_action_sequence_type_missing
 (
-        
 perform_actions
 )
 :
@@ -576,8 +574,9 @@ perform_actions
 actions
 =
 [
-{
         
+{
+            
 "
 id
 "
@@ -585,15 +584,16 @@ id
 "
 foo
 "
-        
+            
 "
 actions
 "
 :
 [
 ]
-    
+        
 }
+    
 ]
     
 with
@@ -638,7 +638,7 @@ async
 def
 test_params_input_source_action_sequence_id_missing
 (
-        
+    
 perform_actions
 action_type
 )
@@ -647,22 +647,24 @@ action_type
 actions
 =
 [
-{
         
+{
+            
 "
 type
 "
 :
 action_type
-        
+            
 "
 actions
 "
 :
 [
 ]
-    
+        
 }
+    
 ]
     
 with
@@ -707,7 +709,7 @@ async
 def
 test_params_input_source_action_sequence_actions_missing
 (
-        
+    
 perform_actions
 action_type
 )
@@ -716,14 +718,15 @@ action_type
 actions
 =
 [
-{
         
+{
+            
 "
 type
 "
 :
 action_type
-        
+            
 "
 id
 "
@@ -731,8 +734,9 @@ id
 "
 foo
 "
-    
+        
 }
+    
 ]
     
 with
@@ -772,7 +776,7 @@ async
 def
 test_params_input_source_action_sequence_type_invalid_type
 (
-        
+    
 perform_actions
 value
 )
@@ -781,14 +785,15 @@ value
 actions
 =
 [
-{
         
+{
+            
 "
 type
 "
 :
 value
-        
+            
 "
 id
 "
@@ -796,15 +801,16 @@ id
 "
 foo
 "
-        
+            
 "
 actions
 "
 :
 [
 ]
-    
+        
 }
+    
 ]
     
 with
@@ -830,7 +836,6 @@ parametrize
 "
 action_type
 "
-                         
 [
 "
 "
@@ -852,7 +857,7 @@ async
 def
 test_params_input_source_action_sequence_type_invalid_value
 (
-        
+    
 perform_actions
 action_type
 )
@@ -861,14 +866,15 @@ action_type
 actions
 =
 [
-{
         
+{
+            
 "
 type
 "
 :
 action_type
-        
+            
 "
 id
 "
@@ -876,15 +882,16 @@ id
 "
 foo
 "
-        
+            
 "
 actions
 "
 :
 [
 ]
-    
+        
 }
+    
 ]
     
 with
@@ -948,7 +955,7 @@ async
 def
 test_params_input_source_action_sequence_id_invalid_type
 (
-        
+    
 perform_actions
 action_type
 value
@@ -958,28 +965,30 @@ value
 actions
 =
 [
-{
         
+{
+            
 "
 type
 "
 :
 action_type
-        
+            
 "
 id
 "
 :
 value
-        
+            
 "
 actions
 "
 :
 [
 ]
-    
+        
 }
+    
 ]
     
 with
@@ -1044,7 +1053,7 @@ async
 def
 test_params_input_source_action_sequence_actions_invalid_type
 (
-        
+    
 perform_actions
 action_type
 value
@@ -1054,14 +1063,15 @@ value
 actions
 =
 [
-{
         
+{
+            
 "
 type
 "
 :
 action_type
-        
+            
 "
 id
 "
@@ -1069,14 +1079,15 @@ id
 "
 foo
 "
-        
+            
 "
 actions
 "
 :
 value
-    
+        
 }
+    
 ]
     
 with
@@ -1141,7 +1152,7 @@ async
 def
 test_params_input_source_action_sequence_actions_actions_invalid_type
 (
-        
+    
 perform_actions
 action_type
 value
@@ -1151,14 +1162,15 @@ value
 actions
 =
 [
-{
         
+{
+            
 "
 type
 "
 :
 action_type
-        
+            
 "
 id
 "
@@ -1166,7 +1178,7 @@ id
 "
 foo
 "
-        
+            
 "
 actions
 "
@@ -1174,8 +1186,9 @@ actions
 [
 value
 ]
-    
+        
 }
+    
 ]
     
 with
@@ -1216,7 +1229,7 @@ async
 def
 test_params_input_source_action_sequence_pointer_parameters_invalid_type
 (
-        
+    
 perform_actions
 value
 )
@@ -1226,7 +1239,6 @@ actions
 =
 [
 {
-        
 "
 type
 "
@@ -1234,7 +1246,6 @@ type
 "
 pointer
 "
-        
 "
 id
 "
@@ -1242,20 +1253,17 @@ id
 "
 foo
 "
-        
 "
 actions
 "
 :
 [
 ]
-        
 "
 parameters
 "
 :
 value
-    
 }
 ]
     
@@ -1296,7 +1304,7 @@ async
 def
 test_params_input_source_action_sequence_pointer_parameters_pointer_type_invalid_type
 (
-        
+    
 perform_actions
 value
 )
@@ -1305,8 +1313,9 @@ value
 actions
 =
 [
-{
         
+{
+            
 "
 type
 "
@@ -1314,7 +1323,7 @@ type
 "
 pointer
 "
-        
+            
 "
 id
 "
@@ -1322,29 +1331,30 @@ id
 "
 foo
 "
-        
+            
 "
 actions
 "
 :
 [
 ]
-        
+            
 "
 parameters
 "
 :
 {
-            
+                
 "
 pointerType
 "
 :
 value
+            
+}
         
 }
     
-}
 ]
     
 with
@@ -1388,7 +1398,7 @@ async
 def
 test_params_input_source_action_sequence_pointer_parameters_pointer_type_invalid_value
 (
-        
+    
 perform_actions
 value
 )
@@ -1397,8 +1407,9 @@ value
 actions
 =
 [
-{
         
+{
+            
 "
 type
 "
@@ -1406,7 +1417,7 @@ type
 "
 pointer
 "
-        
+            
 "
 id
 "
@@ -1414,29 +1425,30 @@ id
 "
 foo
 "
-        
+            
 "
 actions
 "
 :
 [
 ]
-        
+            
 "
 parameters
 "
 :
 {
-            
+                
 "
 pointerType
 "
 :
 value
+            
+}
         
 }
     
-}
 ]
     
 with
@@ -1500,7 +1512,7 @@ async
 def
 test_params_input_source_action_sequence_actions_type_invalid_type
 (
-        
+    
 perform_actions
 action_type
 value
@@ -1536,13 +1548,11 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
 :
 action_type
-            
 "
 id
 "
@@ -1550,7 +1560,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -1558,7 +1567,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -1607,7 +1615,7 @@ async
 def
 test_params_input_source_action_sequence_actions_subtype_invalid_value
 (
-        
+    
 perform_actions
 action_type
 value
@@ -1643,13 +1651,11 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
 :
 action_type
-            
 "
 id
 "
@@ -1657,7 +1663,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -1665,7 +1670,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -1721,7 +1725,7 @@ async
 def
 test_params_input_source_action_sequence_actions_pause_duration_invalid_type
 (
-        
+    
 perform_actions
 action_type
 value
@@ -1759,13 +1763,11 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
 :
 action_type
-            
 "
 id
 "
@@ -1773,7 +1775,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -1781,7 +1782,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -1830,7 +1830,7 @@ async
 def
 test_params_input_source_action_sequence_actions_pause_duration_invalid_value
 (
-        
+    
 perform_actions
 action_type
 value
@@ -1868,13 +1868,11 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
 :
 action_type
-            
 "
 id
 "
@@ -1882,7 +1880,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -1890,7 +1887,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -1949,7 +1945,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -1957,7 +1952,6 @@ type
 "
 none
 "
-            
 "
 id
 "
@@ -1965,7 +1959,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -1973,7 +1966,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -2024,7 +2016,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -2032,7 +2023,6 @@ type
 "
 key
 "
-            
 "
 id
 "
@@ -2040,7 +2030,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -2048,7 +2037,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -2111,7 +2099,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -2119,7 +2106,6 @@ type
 "
 key
 "
-            
 "
 id
 "
@@ -2127,7 +2113,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -2135,7 +2120,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -2203,7 +2187,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -2211,7 +2194,6 @@ type
 "
 key
 "
-            
 "
 id
 "
@@ -2219,7 +2201,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -2227,7 +2208,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -2273,7 +2253,6 @@ def
 test_params_key_action_value_invalid_type
 (
 perform_actions
-                                                    
 key_action
 value
 )
@@ -2307,7 +2286,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -2315,7 +2293,6 @@ type
 "
 key
 "
-            
 "
 id
 "
@@ -2323,7 +2300,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -2331,7 +2307,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -2378,7 +2353,6 @@ async
 def
 test_params_key_action_value_invalid_multiple_codepoints
 (
-        
 perform_actions
 value
 )
@@ -2432,7 +2406,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -2440,7 +2413,6 @@ type
 "
 key
 "
-            
 "
 id
 "
@@ -2448,13 +2420,11 @@ id
 "
 foo
 "
-            
 "
 actions
 "
 :
 actions
-        
 }
 ]
 )
@@ -2467,7 +2437,6 @@ parametrize
 "
 value
 "
-                         
 [
 "
 "
@@ -2486,7 +2455,6 @@ async
 def
 test_params_pointer_action_subtype_invalid_value
 (
-        
 perform_actions
 value
 )
@@ -2551,7 +2519,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -2559,7 +2526,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -2567,7 +2533,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -2575,7 +2540,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -2599,9 +2563,8 @@ y
 )
 async
 def
-test_params_pointer_action_move_coordinate_missing
+test_params_pointer_action_up_down_button_missing
 (
-        
 perform_actions
 coordinate
 )
@@ -2635,7 +2598,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -2643,7 +2605,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -2651,7 +2612,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -2659,7 +2619,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -2709,7 +2668,7 @@ async
 def
 test_params_pointer_action_move_coordinate_invalid_type
 (
-        
+    
 perform_actions
 coordinate
 value
@@ -2775,7 +2734,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -2783,7 +2741,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -2791,7 +2748,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -2799,7 +2755,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -2843,7 +2798,7 @@ async
 def
 test_params_pointer_action_move_coordinate_invalid_value
 (
-        
+    
 perform_actions
 coordinate
 value
@@ -2909,7 +2864,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -2917,7 +2871,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -2925,7 +2878,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -2933,7 +2885,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -2960,7 +2911,6 @@ async
 def
 test_params_pointer_action_move_origin_invalid_type
 (
-        
 perform_actions
 value
 )
@@ -2996,7 +2946,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -3004,7 +2953,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -3012,7 +2960,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -3020,7 +2967,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -3048,7 +2994,6 @@ async
 def
 test_params_pointer_action_move_origin_invalid_value
 (
-        
 perform_actions
 value
 )
@@ -3084,7 +3029,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -3092,7 +3036,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -3100,7 +3043,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -3108,7 +3050,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -3134,7 +3075,6 @@ async
 def
 test_params_pointer_action_up_down_button_missing
 (
-        
 perform_actions
 pointer_action
 )
@@ -3168,7 +3108,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -3176,7 +3115,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -3184,7 +3122,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -3192,7 +3129,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -3242,7 +3178,7 @@ async
 def
 test_params_pointer_action_up_down_button_invalid_type
 (
-        
+    
 perform_actions
 pointer_action
 value
@@ -3277,7 +3213,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -3285,7 +3220,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -3293,7 +3227,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -3301,7 +3234,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -3344,7 +3276,7 @@ async
 def
 test_params_pointer_action_up_down_button_invalid_value
 (
-        
+    
 perform_actions
 pointer_action
 value
@@ -3379,7 +3311,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -3387,7 +3318,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -3395,7 +3325,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -3403,7 +3332,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -3416,7 +3344,6 @@ parametrize
 "
 pointer_action
 "
-                         
 [
 "
 pointerDown
@@ -3475,7 +3402,7 @@ async
 def
 test_params_pointer_action_common_properties_dimensions_invalid_type
 (
-        
+    
 perform_actions
 dimension
 pointer_action
@@ -3540,7 +3467,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -3548,7 +3474,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -3556,7 +3481,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -3564,7 +3488,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -3595,7 +3518,6 @@ parametrize
 "
 pointer_action
 "
-                         
 [
 "
 pointerDown
@@ -3629,7 +3551,7 @@ async
 def
 test_params_pointer_action_common_properties_dimensions_invalid_value
 (
-        
+    
 perform_actions
 dimension
 pointer_action
@@ -3694,7 +3616,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -3702,7 +3623,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -3710,7 +3630,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -3718,7 +3637,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -3731,7 +3649,6 @@ parametrize
 "
 pointer_action
 "
-                         
 [
 "
 pointerDown
@@ -3787,7 +3704,7 @@ async
 def
 test_params_pointer_action_common_properties_pressure_invalid_type
 (
-        
+    
 perform_actions
 pointer_action
 pressure
@@ -3808,7 +3725,6 @@ pointer_action
 pressure
 "
 :
-            
 value
 if
 pressure
@@ -3826,7 +3742,6 @@ else
 tangentialPressure
 "
 :
-            
 value
 if
 pressure
@@ -3858,7 +3773,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -3866,7 +3780,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -3874,7 +3787,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -3882,7 +3794,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -3895,7 +3806,6 @@ parametrize
 "
 pointer_action
 "
-                         
 [
 "
 pointerDown
@@ -3936,7 +3846,7 @@ async
 def
 test_params_pointer_action_common_properties_twist_invalid_type
 (
-        
+    
 perform_actions
 pointer_action
 value
@@ -3971,7 +3881,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -3979,7 +3888,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -3987,7 +3895,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -3995,7 +3902,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -4008,7 +3914,6 @@ parametrize
 "
 pointer_action
 "
-                         
 [
 "
 pointerDown
@@ -4040,7 +3945,7 @@ async
 def
 test_params_pointer_action_common_properties_twist_invalid_value
 (
-        
+    
 perform_actions
 pointer_action
 value
@@ -4075,7 +3980,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -4083,7 +3987,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -4091,7 +3994,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -4099,7 +4001,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -4112,7 +4013,6 @@ parametrize
 "
 pointer_action
 "
-                         
 [
 "
 pointerDown
@@ -4168,7 +4068,7 @@ async
 def
 test_params_pointer_action_common_properties_angle_invalid_type
 (
-        
+    
 perform_actions
 pointer_action
 angle
@@ -4237,7 +4137,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -4245,7 +4144,6 @@ type
 "
 pointer
 "
-            
 "
 id
 "
@@ -4253,7 +4151,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -4261,7 +4158,309 @@ actions
 [
 action
 ]
+}
+]
+)
+pytest
+.
+mark
+.
+parametrize
+(
+"
+pointer_action
+"
+[
+"
+pointerDown
+"
+"
+pointerMove
+"
+"
+pointerUp
+"
+]
+)
+pytest
+.
+mark
+.
+parametrize
+(
+"
+tilt
+"
+[
+"
+tiltX
+"
+"
+tiltY
+"
+]
+)
+pytest
+.
+mark
+.
+parametrize
+(
+"
+value
+"
+[
+None
+"
+foo
+"
+True
+0
+.
+1
+[
+]
+{
+}
+]
+)
+async
+def
+test_params_pointer_action_common_properties_tilt_invalid_type
+(
+    
+perform_actions
+pointer_action
+tilt
+value
+)
+:
+    
+action
+=
+create_pointer_action
+(
         
+pointer_action
+        
+{
+            
+"
+tiltX
+"
+:
+value
+if
+tilt
+=
+=
+"
+tiltX
+"
+else
+0
+            
+"
+tiltY
+"
+:
+value
+if
+tilt
+=
+=
+"
+tiltY
+"
+else
+0
+        
+}
+    
+)
+    
+with
+pytest
+.
+raises
+(
+InvalidArgumentException
+)
+:
+        
+await
+perform_actions
+(
+[
+{
+"
+type
+"
+:
+"
+pointer
+"
+"
+id
+"
+:
+"
+foo
+"
+"
+actions
+"
+:
+[
+action
+]
+}
+]
+)
+pytest
+.
+mark
+.
+parametrize
+(
+"
+pointer_action
+"
+[
+"
+pointerDown
+"
+"
+pointerMove
+"
+"
+pointerUp
+"
+]
+)
+pytest
+.
+mark
+.
+parametrize
+(
+"
+tilt
+"
+[
+"
+tiltX
+"
+"
+tiltY
+"
+]
+)
+pytest
+.
+mark
+.
+parametrize
+(
+"
+value
+"
+[
+-
+91
+91
+]
+)
+async
+def
+test_params_pointer_action_common_properties_tilt_invalid_value
+(
+    
+perform_actions
+pointer_action
+tilt
+value
+)
+:
+    
+action
+=
+create_pointer_action
+(
+        
+pointer_action
+        
+{
+            
+"
+tiltX
+"
+:
+value
+if
+tilt
+=
+=
+"
+tiltX
+"
+else
+0
+            
+"
+tiltY
+"
+:
+value
+if
+tilt
+=
+=
+"
+tiltY
+"
+else
+0
+        
+}
+    
+)
+    
+with
+pytest
+.
+raises
+(
+InvalidArgumentException
+)
+:
+        
+await
+perform_actions
+(
+[
+{
+"
+type
+"
+:
+"
+pointer
+"
+"
+id
+"
+:
+"
+foo
+"
+"
+actions
+"
+:
+[
+action
+]
 }
 ]
 )
@@ -4311,7 +4510,7 @@ async
 def
 test_params_wheel_action_scroll_coordinate_invalid_type
 (
-        
+    
 perform_actions
 coordinate
 value
@@ -4377,7 +4576,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -4385,7 +4583,6 @@ type
 "
 wheel
 "
-            
 "
 id
 "
@@ -4393,7 +4590,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -4401,7 +4597,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -4445,7 +4640,7 @@ async
 def
 test_params_wheel_action_scroll_coordinate_invalid_value
 (
-        
+    
 perform_actions
 coordinate
 value
@@ -4511,7 +4706,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -4519,7 +4713,6 @@ type
 "
 wheel
 "
-            
 "
 id
 "
@@ -4527,7 +4720,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -4535,7 +4727,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -4585,7 +4776,7 @@ async
 def
 test_params_wheel_action_scroll_delta_invalid_type
 (
-        
+    
 perform_actions
 delta
 value
@@ -4651,7 +4842,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -4659,7 +4849,6 @@ type
 "
 wheel
 "
-            
 "
 id
 "
@@ -4667,7 +4856,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -4675,7 +4863,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -4719,7 +4906,7 @@ async
 def
 test_params_wheel_action_scroll_delta_invalid_value
 (
-        
+    
 perform_actions
 delta
 value
@@ -4785,7 +4972,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -4793,7 +4979,6 @@ type
 "
 wheel
 "
-            
 "
 id
 "
@@ -4801,7 +4986,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -4809,7 +4993,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -4836,7 +5019,6 @@ async
 def
 test_params_wheel_action_scroll_origin_invalid_type
 (
-        
 perform_actions
 value
 )
@@ -4872,7 +5054,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -4880,7 +5061,6 @@ type
 "
 wheel
 "
-            
 "
 id
 "
@@ -4888,7 +5068,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -4896,7 +5075,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -4924,7 +5102,6 @@ async
 def
 test_params_wheel_action_scroll_origin_invalid_value
 (
-        
 perform_actions
 value
 )
@@ -4960,7 +5137,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -4968,7 +5144,6 @@ type
 "
 wheel
 "
-            
 "
 id
 "
@@ -4976,7 +5151,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -4984,7 +5158,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -4992,7 +5165,6 @@ async
 def
 test_params_wheel_action_scroll_origin_pointer_not_supported
 (
-        
 perform_actions
 )
 :
@@ -5061,7 +5233,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -5069,7 +5240,6 @@ type
 "
 wheel
 "
-            
 "
 id
 "
@@ -5077,7 +5247,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -5085,7 +5254,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -5117,7 +5285,6 @@ async
 def
 test_params_wheel_action_scroll_property_missing
 (
-        
 perform_actions
 missing
 )
@@ -5151,7 +5318,6 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
@@ -5159,7 +5325,6 @@ type
 "
 wheel
 "
-            
 "
 id
 "
@@ -5167,7 +5332,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -5175,7 +5339,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -5230,8 +5393,8 @@ async
 def
 test_params_origin_element_type_invalid_type
 (
+    
 perform_actions
-                                                       
 input_source
 value
 )
@@ -5305,13 +5468,11 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
 :
 input_source
-            
 "
 id
 "
@@ -5319,7 +5480,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -5327,7 +5487,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -5353,8 +5512,8 @@ async
 def
 test_params_origin_element_element_missing
 (
+    
 perform_actions
-                                                     
 input_source
 )
 :
@@ -5429,13 +5588,11 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
 :
 input_source
-            
 "
 id
 "
@@ -5443,7 +5600,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -5451,7 +5607,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -5497,7 +5652,7 @@ async
 def
 test_params_origin_element_element_invalid_type
 (
-        
+    
 perform_actions
 input_source
 value
@@ -5579,13 +5734,11 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
 :
 input_source
-            
 "
 id
 "
@@ -5593,7 +5746,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -5601,7 +5753,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -5627,7 +5778,7 @@ async
 def
 test_params_origin_element_element_sharedid_missing
 (
-        
+    
 perform_actions
 input_source
 )
@@ -5709,13 +5860,11 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
 :
 input_source
-            
 "
 id
 "
@@ -5723,7 +5872,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -5731,7 +5879,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -5776,7 +5923,7 @@ async
 def
 test_params_origin_element_element_sharedid_invalid_type
 (
-        
+    
 perform_actions
 input_source
 value
@@ -5864,13 +6011,11 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
 :
 input_source
-            
 "
 id
 "
@@ -5878,7 +6023,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -5886,7 +6030,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )
@@ -5912,12 +6055,11 @@ async
 def
 test_params_origin_element_invalid_with_shared_reference
 (
-        
+    
 bidi_session
 top_context
 get_actions_origin_page
 get_element
-        
 perform_actions
 input_source
 )
@@ -6025,13 +6167,11 @@ perform_actions
 (
 [
 {
-            
 "
 type
 "
 :
 input_source
-            
 "
 id
 "
@@ -6039,7 +6179,6 @@ id
 "
 foo
 "
-            
 "
 actions
 "
@@ -6047,7 +6186,6 @@ actions
 [
 action
 ]
-        
 }
 ]
 )

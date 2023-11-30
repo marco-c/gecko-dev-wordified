@@ -126,7 +126,6 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
-wait_for_future_safe
 url
 fetch
 )
@@ -239,10 +238,7 @@ text_url
 )
     
 await
-wait_for_future_safe
-(
 on_response_started
-)
     
 assert
 len
@@ -421,7 +417,6 @@ test_load_page_twice
 bidi_session
 top_context
 wait_for_event
-wait_for_future_safe
 url
 setup_network_test
 )
@@ -492,10 +487,7 @@ complete
 )
     
 await
-wait_for_future_safe
-(
 on_response_started
-)
     
 assert
 len
@@ -632,7 +624,6 @@ test_response_status
 (
     
 wait_for_event
-wait_for_future_safe
 url
 fetch
 setup_network_test
@@ -709,10 +700,7 @@ status_url
 )
     
 await
-wait_for_future_safe
-(
 on_response_started
-)
     
 assert
 len
@@ -823,7 +811,6 @@ def
 test_response_headers
 (
 wait_for_event
-wait_for_future_safe
 url
 fetch
 setup_network_test
@@ -902,10 +889,7 @@ GET
 )
     
 await
-wait_for_future_safe
-(
 on_response_started
-)
     
 assert
 len
@@ -1151,7 +1135,6 @@ test_response_mime_type_file
     
 url
 wait_for_event
-wait_for_future_safe
 fetch
 setup_network_test
 page_url
@@ -1200,10 +1183,7 @@ GET
 )
     
 await
-wait_for_future_safe
-(
 on_response_started
-)
     
 assert
 len
@@ -1284,11 +1264,9 @@ test_www_authenticate
 (
     
 bidi_session
-url
-fetch
 new_tab
+url
 wait_for_event
-wait_for_future_safe
 setup_network_test
 )
 :
@@ -1298,6 +1276,7 @@ auth_url
 url
 (
         
+f
 "
 /
 webdriver
@@ -1375,10 +1354,7 @@ none
 )
     
 await
-wait_for_future_safe
-(
 on_response_started
-)
     
 assert
 len

@@ -507,6 +507,8 @@ foo
 "
 )
     
+a
+=
 session
 .
 find

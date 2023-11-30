@@ -54,6 +54,7 @@ script
 .
 evaluate
 (
+        
 expression
 =
 "
@@ -68,12 +69,11 @@ open
 "
 "
 "
-                                       
+        
 target
 =
 ContextTarget
 (
-                                           
 top_context
 [
 "
@@ -81,7 +81,7 @@ context
 "
 ]
 )
-                                       
+        
 await_promise
 =
 False
@@ -99,7 +99,6 @@ evaluate
         
 expression
 =
-        
 "
 navigator
 .
@@ -141,6 +140,7 @@ result
 =
 =
 {
+        
 "
 type
 "
@@ -148,6 +148,7 @@ type
 "
 boolean
 "
+        
 "
 value
 "
@@ -198,6 +199,7 @@ script
 .
 evaluate
 (
+        
 expression
 =
 "
@@ -212,12 +214,11 @@ open
 "
 "
 "
-                                       
+        
 target
 =
 ContextTarget
 (
-                                           
 top_context
 [
 "
@@ -225,7 +226,7 @@ context
 "
 ]
 )
-                                       
+        
 await_promise
 =
 False
@@ -243,7 +244,6 @@ evaluate
         
 expression
 =
-        
 "
 document
 .
@@ -308,6 +308,7 @@ result
 =
 =
 {
+        
 "
 type
 "
@@ -315,6 +316,7 @@ type
 "
 boolean
 "
+        
 "
 value
 "

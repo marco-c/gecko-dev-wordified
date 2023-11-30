@@ -205,7 +205,6 @@ test_new_context
 (
 bidi_session
 wait_for_event
-wait_for_future_safe
 subscribe_events
 type_hint
 )
@@ -260,10 +259,7 @@ context
 context_info
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_browsing_context
 (
@@ -389,6 +385,7 @@ url
 =
 inline
 (
+f
 "
 <
 div
@@ -519,7 +516,6 @@ test_navigate_iframe
     
 bidi_session
 wait_for_event
-wait_for_future_safe
 subscribe_events
 new_tab
 inline
@@ -704,10 +700,7 @@ complete
 context_info
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_browsing_context
 (
@@ -746,7 +739,6 @@ test_delete_iframe
     
 bidi_session
 wait_for_event
-wait_for_future_safe
 subscribe_events
 new_tab
 inline
@@ -923,10 +915,7 @@ False
 context_info
 =
 await
-wait_for_future_safe
-(
 on_entry
-)
     
 assert_browsing_context
 (
