@@ -3680,9 +3680,10 @@ nbytes
 return
 {
 buffer
-!
-!
+bool
+(
 buffer
+)
 }
 ;
 }
