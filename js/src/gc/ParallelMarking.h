@@ -199,13 +199,7 @@ namespace
 js
 {
 class
-AutoLockGC
-;
-class
 AutoLockHelperThreadState
-;
-class
-AutoUnlockGC
 ;
 namespace
 gc
@@ -394,7 +388,7 @@ ParallelMarkTask
 *
 task
 const
-AutoLockGC
+AutoLockHelperThreadState
 &
 lock
 )
@@ -406,7 +400,7 @@ ParallelMarkTask
 *
 task
 const
-AutoLockGC
+AutoLockHelperThreadState
 &
 lock
 )
@@ -422,7 +416,7 @@ ParallelMarkTask
 *
 task
 const
-AutoLockGC
+AutoLockHelperThreadState
 &
 lock
 )
@@ -434,7 +428,7 @@ bool
 hasActiveTasks
 (
 const
-AutoLockGC
+AutoLockHelperThreadState
 &
 lock
 )
@@ -451,7 +445,7 @@ ParallelMarkTask
 *
 task
 const
-AutoLockGC
+AutoLockHelperThreadState
 &
 lock
 )
@@ -463,7 +457,7 @@ ParallelMarkTask
 *
 task
 const
-AutoLockGC
+AutoLockHelperThreadState
 &
 lock
 )
@@ -494,7 +488,7 @@ DoublyLinkedList
 ParallelMarkTask
 >
 ;
-GCLockData
+HelperThreadLockData
 <
 ParallelMarkTaskList
 >
@@ -503,7 +497,7 @@ waitingTasks
 AtomicCount
 waitingTaskCount
 ;
-GCLockData
+HelperThreadLockData
 <
 size_t
 >
@@ -584,18 +578,10 @@ override
 ;
 private
 :
-void
-markOrRequestWork
-(
-AutoLockGC
-&
-lock
-)
-;
 bool
 tryMarking
 (
-AutoLockGC
+AutoLockHelperThreadState
 &
 lock
 )
@@ -603,7 +589,7 @@ lock
 bool
 requestWork
 (
-AutoLockGC
+AutoLockHelperThreadState
 &
 lock
 )
@@ -611,7 +597,7 @@ lock
 void
 waitUntilResumed
 (
-AutoLockGC
+AutoLockHelperThreadState
 &
 lock
 )
@@ -625,7 +611,7 @@ void
 resumeOnFinish
 (
 const
-AutoLockGC
+AutoLockHelperThreadState
 &
 lock
 )
@@ -668,7 +654,7 @@ budget
 ConditionVariable
 resumed
 ;
-GCLockData
+HelperThreadLockData
 <
 bool
 >
