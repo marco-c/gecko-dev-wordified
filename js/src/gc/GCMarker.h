@@ -3735,10 +3735,9 @@ newColor
 AutoSetMarkColor
 (
 marker
-newColor
-.
-asMarkColor
+AsMarkColor
 (
+newColor
 )
 )
 {
