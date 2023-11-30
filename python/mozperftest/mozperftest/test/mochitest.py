@@ -1000,12 +1000,6 @@ name
         
 args
 .
-keep_open
-=
-False
-        
-args
-.
 runByManifest
 =
 True
@@ -1278,19 +1272,6 @@ args
 "
 )
 )
-                    
-+
-[
-"
--
--
-keep
--
-open
-=
-False
-"
-]
                 
 )
             
