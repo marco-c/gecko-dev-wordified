@@ -2011,18 +2011,6 @@ platform
 .
 "
     
-virtualenv_name
-=
-"
-perftest
--
-side
--
-by
--
-side
-"
-    
 parser
 =
 get_perftest_tools_parser
@@ -2135,18 +2123,6 @@ autocomputed
 depth
 )
 .
-"
-    
-virtualenv_name
-=
-"
-perftest
--
-side
--
-by
--
-side
 "
     
 parser
