@@ -10520,7 +10520,7 @@ call
 nsSHistory
 :
 :
-EvictContentViewers
+EvictDocumentViewers
 (
 )
 /
@@ -10532,7 +10532,7 @@ Once
 we
 do
 call
-EvictContentViewers
+EvictDocumentViewers
 (
 )
 for

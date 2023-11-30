@@ -5088,7 +5088,7 @@ void
 nsSHEntry
 :
 :
-EvictContentViewer
+EvictDocumentViewer
 (
 )
 {
