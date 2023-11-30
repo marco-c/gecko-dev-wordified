@@ -7,7 +7,7 @@ title
 test
 WebNN
 API
-pad
+gemm
 operation
 /
 /
@@ -23,6 +23,7 @@ META
 :
 script
 =
+.
 .
 /
 resources
@@ -61,12 +62,15 @@ api
 -
 mlgraphbuilder
 -
-pad
+gemm
 testWebNNOperation
 (
 '
-pad
+gemm
 '
-buildPad
+buildGemm
+'
+gpu
+'
 )
 ;

@@ -7,7 +7,7 @@ title
 test
 WebNN
 API
-pad
+matmul
 operation
 /
 /
@@ -23,6 +23,7 @@ META
 :
 script
 =
+.
 .
 /
 resources
@@ -61,12 +62,15 @@ api
 -
 mlgraphbuilder
 -
-pad
+matmul
 testWebNNOperation
 (
 '
-pad
+matmul
 '
-buildPad
+buildOperationWithTwoInputs
+'
+gpu
+'
 )
 ;

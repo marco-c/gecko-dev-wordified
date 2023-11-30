@@ -7,7 +7,7 @@ title
 test
 WebNN
 API
-pad
+convTranspose2d
 operation
 /
 /
@@ -23,6 +23,7 @@ META
 :
 script
 =
+.
 .
 /
 resources
@@ -61,12 +62,15 @@ api
 -
 mlgraphbuilder
 -
-pad
+convtranspose2d
 testWebNNOperation
 (
 '
-pad
+convTranspose2d
 '
-buildPad
+buildConvTranspose2d
+'
+gpu
+'
 )
 ;

@@ -7,7 +7,7 @@ title
 test
 WebNN
 API
-pad
+squeeze
 operation
 /
 /
@@ -23,6 +23,7 @@ META
 :
 script
 =
+.
 .
 /
 resources
@@ -61,12 +62,15 @@ api
 -
 mlgraphbuilder
 -
-pad
+squeeze
 testWebNNOperation
 (
 '
-pad
+squeeze
 '
-buildPad
+buildOperationWithSingleInput
+'
+gpu
+'
 )
 ;
