@@ -6615,6 +6615,8 @@ aElement
 GetScriptColumnNumber
 (
 )
++
+1
 &
 allowInlineScript
 )
