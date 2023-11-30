@@ -99,19 +99,6 @@ startColumn
 1
 )
 ;
-/
-/
-NOTE
-:
-evaluate
-function
-takes
-0
--
-origin
-column
-number
-.
 g
 .
 evaluate
@@ -170,6 +157,6 @@ script
 source
 .
 startColumn
-6
+5
 )
 ;

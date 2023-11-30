@@ -511,7 +511,7 @@ location
 assertEq
 (
 column
-2
+1
 )
 ;
 assertEq
@@ -541,7 +541,7 @@ test
 g
 .
 f10
-21
+20
 )
 ;
 g
