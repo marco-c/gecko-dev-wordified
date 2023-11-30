@@ -6950,6 +6950,8 @@ map
 -
 >
 mapColor
+(
+)
 )
 {
 fprintf
@@ -6997,6 +6999,8 @@ map
 -
 >
 mapColor
+(
+)
 )
 object
 CellColorName
@@ -7140,6 +7144,8 @@ map
 -
 >
 mapColor
+(
+)
 keyColor
 )
 )
@@ -7196,6 +7202,8 @@ map
 -
 >
 mapColor
+(
+)
 )
 key
 CellColorName
@@ -7334,6 +7342,8 @@ map
 -
 >
 mapColor
+(
+)
 delegateColor
 )
 )
@@ -7390,6 +7400,8 @@ map
 -
 >
 mapColor
+(
+)
 )
 delegate
 CellColorName
