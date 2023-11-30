@@ -202,9 +202,9 @@ http
 /
 www
 .
-mochi
+example
 .
-test
+com
 /
 first
 "
@@ -224,9 +224,9 @@ http
 /
 www
 .
-mochi
+example
 .
-test
+com
 /
 second
 "
@@ -255,9 +255,9 @@ http
 /
 www
 .
-mochi
+example
 .
-test
+com
 /
 third
 "
@@ -349,7 +349,7 @@ gBrowser
 item
 .
 url
-false
+true
 true
 )
 )
