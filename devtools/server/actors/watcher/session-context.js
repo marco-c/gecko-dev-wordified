@@ -1545,5 +1545,6 @@ createBrowserElementSessionContext
 createWebExtensionSessionContext
 createContentProcessSessionContext
 createWorkerSessionContext
+SESSION_TYPES
 }
 ;
