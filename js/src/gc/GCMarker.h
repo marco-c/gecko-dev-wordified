@@ -3197,7 +3197,7 @@ edges
 gc
 :
 :
-CellColor
+MarkColor
 srcColor
 )
 ;
