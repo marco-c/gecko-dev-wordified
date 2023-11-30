@@ -144,3 +144,13 @@ sys
 mjs
 "
 ]
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]
