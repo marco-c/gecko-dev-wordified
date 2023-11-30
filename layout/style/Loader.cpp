@@ -2568,6 +2568,8 @@ const
 nsAString
 &
 aNonce
+FetchPriority
+aFetchPriority
 )
 :
 mLoader
@@ -2684,10 +2686,7 @@ aNonce
 )
 mFetchPriority
 (
-FetchPriority
-:
-:
-Auto
+aFetchPriority
 )
 mGuessedEncoding
 (
@@ -14615,6 +14614,10 @@ u
 "
 _ns
 0
+FetchPriority
+:
+:
+Auto
 )
 ;
 }
@@ -14678,6 +14681,10 @@ u
 "
 _ns
 0
+FetchPriority
+:
+:
+Auto
 )
 ;
 }
@@ -14721,6 +14728,8 @@ const
 nsAString
 &
 aIntegrity
+FetchPriority
+aFetchPriority
 )
 {
 LOG
@@ -14761,6 +14770,7 @@ aCORSMode
 aNonce
 aIntegrity
 aEarlyHintPreloaderId
+aFetchPriority
 )
 ;
 }
@@ -14808,6 +14818,8 @@ nsAString
 aIntegrity
 uint64_t
 aEarlyHintPreloaderId
+FetchPriority
+aFetchPriority
 )
 {
 MOZ_ASSERT
@@ -15011,6 +15023,7 @@ aObserver
 triggeringPrincipal
 aReferrerInfo
 aNonce
+aFetchPriority
 )
 ;
 MOZ_ASSERT

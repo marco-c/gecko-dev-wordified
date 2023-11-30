@@ -2059,6 +2059,9 @@ aHeader
 .
 mReferrerPolicy
 aEarlyHintPreloaderId
+aHeader
+.
+mFetchPriority
 )
 ;
 }
@@ -2111,6 +2114,9 @@ aHeader
 .
 mReferrerPolicy
 aEarlyHintPreloaderId
+aHeader
+.
+mFetchPriority
 )
 ;
 }
@@ -2735,6 +2741,10 @@ nsAString
 aReferrerPolicy
 uint64_t
 aEarlyHintPreloaderId
+const
+nsAString
+&
+aFetchPriority
 )
 {
 auto
@@ -2903,6 +2913,7 @@ aSizes
 aCORS
 aReferrerPolicy
 aEarlyHintPreloaderId
+aFetchPriority
 )
 ;
 }
@@ -2942,6 +2953,10 @@ nsAString
 aReferrerPolicy
 uint64_t
 aEarlyHintPreloaderId
+const
+nsAString
+&
+aFetchPriority
 )
 {
 ModuleLoader
@@ -3165,6 +3180,7 @@ _ns
 aCORS
 aReferrerPolicy
 aEarlyHintPreloaderId
+aFetchPriority
 )
 ;
 }

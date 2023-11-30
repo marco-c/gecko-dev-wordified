@@ -7680,6 +7680,10 @@ nsAString
 aIntegrity
 bool
 aLinkPreload
+const
+nsAString
+&
+aFetchPriority
 )
 {
 nsCOMPtr
@@ -7796,6 +7800,7 @@ StylePreloadKind
 :
 FromParser
 0
+aFetchPriority
 )
 ;
 }

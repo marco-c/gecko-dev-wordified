@@ -590,6 +590,10 @@ nsAString
 aReferrerPolicy
 uint64_t
 aEarlyHintPreloaderId
+const
+nsAString
+&
+aFetchPriority
 )
 ;
 void
