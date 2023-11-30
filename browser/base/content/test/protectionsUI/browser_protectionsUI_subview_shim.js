@@ -88,11 +88,6 @@ event
 .
 *
 /
-requestLongerTimeout
-(
-2
-)
-;
 /
 /
 Choose
