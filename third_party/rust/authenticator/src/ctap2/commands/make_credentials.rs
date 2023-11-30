@@ -17,6 +17,7 @@ super
 {
 Command
 CommandError
+CtapResponse
 PinUvAuthCommand
 RequestCtap1
 RequestCtap2
@@ -1376,6 +1377,12 @@ deserialize_bytes
 MakeCredentialsResultVisitor
 )
 }
+}
+impl
+CtapResponse
+for
+MakeCredentialsResult
+{
 }
 #
 [

@@ -87,6 +87,7 @@ super
 {
 Command
 CommandError
+CtapResponse
 PinUvAuthCommand
 RequestCtap2
 StatusCode
@@ -3094,6 +3095,12 @@ Option
 <
 u64
 >
+}
+impl
+CtapResponse
+for
+BioEnrollmentResponse
+{
 }
 impl
 <

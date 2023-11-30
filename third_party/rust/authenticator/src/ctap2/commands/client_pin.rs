@@ -6,6 +6,12 @@ allow
 non_upper_case_globals
 )
 ]
+use
+super
+:
+:
+CtapResponse
+;
 /
 /
 Note
@@ -987,6 +993,12 @@ Option
 <
 u8
 >
+}
+impl
+CtapResponse
+for
+ClientPinResponse
+{
 }
 impl
 <
