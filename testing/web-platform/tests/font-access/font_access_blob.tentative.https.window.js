@@ -65,6 +65,13 @@ test
 utils
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 '
 use
 strict
@@ -247,7 +254,7 @@ tables
 .
 size
 0
-"
+'
 Should
 not
 have
@@ -256,7 +263,7 @@ of
 size
 zero
 .
-"
+'
 )
 ;
 assert_font_has_tables
