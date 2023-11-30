@@ -125,19 +125,6 @@ firefox
 "
         
 if
-not
-config
-.
-params
-[
-"
-release_type
-"
-]
-#
-try
-        
-or
 config
 .
 params
