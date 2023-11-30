@@ -32,7 +32,7 @@ webnn
 #
 enumdef
 -
-mloperandtype
+mloperanddatatype
 const
 TypedArrayDict
 =
@@ -3073,7 +3073,7 @@ webnn
 #
 enumdef
 -
-mloperandtype
+mloperanddatatype
 *
 return
 {
@@ -3313,7 +3313,7 @@ webnn
 #
 enumdef
 -
-mloperandtype
+mloperanddatatype
 *
 param
 {
@@ -3622,7 +3622,7 @@ webnn
 #
 enumdef
 -
-mloperandtype
+mloperanddatatype
 *
 param
 {
@@ -4057,6 +4057,11 @@ builder
 constant
 (
 {
+dataType
+:
+resources
+.
+type
 type
 :
 resources
@@ -4177,6 +4182,11 @@ input
 (
 inputOperandName
 {
+dataType
+:
+inputResources
+.
+type
 type
 :
 inputResources
@@ -4829,6 +4839,11 @@ input
 .
 name
 {
+dataType
+:
+input
+.
+type
 type
 :
 input
