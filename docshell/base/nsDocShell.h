@@ -3019,7 +3019,7 @@ const
 return
 !
 !
-mContentViewer
+mDocumentViewer
 ;
 }
 static
@@ -5382,7 +5382,7 @@ history
 .
 /
 /
-mContentViewer
+mDocumentViewer
 points
 to
 the
@@ -5463,7 +5463,7 @@ docshell
 s
 /
 /
-mContentViewer
+mDocumentViewer
 .
 /
 /
@@ -5620,7 +5620,7 @@ is
 then
 placed
 into
-mContentViewer
+mDocumentViewer
 and
 removed
 from
@@ -5631,7 +5631,7 @@ entry
 /
 /
 (
-mContentViewer
+mDocumentViewer
 is
 put
 into
@@ -5656,7 +5656,7 @@ safely
 cache
 the
 current
-mContentViewer
+mDocumentViewer
 in
 /
 /
@@ -7937,7 +7937,7 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-mContentViewer
+mDocumentViewer
 ;
 nsCOMPtr
 <

@@ -2682,10 +2682,10 @@ Destroy
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
-mContentViewer
+mDocumentViewer
 -
 >
 Close
@@ -2693,14 +2693,14 @@ Close
 nullptr
 )
 ;
-mContentViewer
+mDocumentViewer
 -
 >
 Destroy
 (
 )
 ;
-mContentViewer
+mDocumentViewer
 =
 nullptr
 ;
@@ -4019,7 +4019,7 @@ Document
 >
 doc
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -8360,7 +8360,7 @@ aSkipCheckingDynEntries
 {
 if
 (
-mContentViewer
+mDocumentViewer
 &
 &
 !
@@ -8380,14 +8380,14 @@ could
 release
 /
 /
-mContentViewer
+mDocumentViewer
 nsCOMPtr
 <
 nsIDocumentViewer
 >
-contentViewer
+viewer
 (
-mContentViewer
+mDocumentViewer
 )
 ;
 mFiredUnloadEvent
@@ -8407,7 +8407,7 @@ NotifyUnloadEventStart
 )
 ;
 }
-contentViewer
+viewer
 -
 >
 PageHide
@@ -8820,7 +8820,7 @@ BFCacheInParent
 if
 (
 !
-mContentViewer
+mDocumentViewer
 )
 {
 return
@@ -8881,9 +8881,9 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-contentViewer
+viewer
 (
-mContentViewer
+mDocumentViewer
 )
 ;
 if
@@ -8891,7 +8891,7 @@ if
 aShow
 )
 {
-contentViewer
+viewer
 -
 >
 SetIsHidden
@@ -8923,7 +8923,7 @@ Document
 >
 doc
 =
-contentViewer
+viewer
 -
 >
 GetDocument
@@ -9292,7 +9292,7 @@ mFiredUnloadEvent
 =
 true
 ;
-contentViewer
+viewer
 -
 >
 PageHide
@@ -9636,7 +9636,7 @@ nsIDocumentViewer
 *
 viewer
 =
-mContentViewer
+mDocumentViewer
 ;
 while
 (
@@ -9690,7 +9690,7 @@ GetPresContext
 if
 (
 !
-mContentViewer
+mDocumentViewer
 )
 {
 return
@@ -9698,7 +9698,7 @@ nullptr
 ;
 }
 return
-mContentViewer
+mDocumentViewer
 -
 >
 GetPresContext
@@ -9791,7 +9791,7 @@ aContentViewer
 *
 aContentViewer
 =
-mContentViewer
+mDocumentViewer
 ;
 NS_IF_ADDREF
 (
@@ -12360,7 +12360,7 @@ false
 if
 (
 !
-mContentViewer
+mDocumentViewer
 )
 {
 return
@@ -12371,7 +12371,7 @@ Document
 *
 doc
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -13523,14 +13523,14 @@ GetCurrentDocChannel
 {
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 Document
 *
 doc
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -17292,7 +17292,7 @@ charset
 if
 (
 !
-mContentViewer
+mDocumentViewer
 )
 {
 return
@@ -17303,7 +17303,7 @@ Document
 *
 doc
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -18412,7 +18412,7 @@ nullptr
 )
 ;
 return
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -18430,9 +18430,9 @@ GetExtantDocument
 )
 {
 return
-mContentViewer
+mDocumentViewer
 ?
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -18854,7 +18854,7 @@ false
 if
 (
 !
-mContentViewer
+mDocumentViewer
 )
 {
 return
@@ -18864,7 +18864,7 @@ true
 bool
 firingBeforeUnload
 ;
-mContentViewer
+mDocumentViewer
 -
 >
 GetBeforeUnloadFiring
@@ -24192,7 +24192,7 @@ nsIDocumentViewer
 >
 viewer
 (
-mContentViewer
+mDocumentViewer
 )
 ;
 NS_ENSURE_STATE
@@ -25620,7 +25620,7 @@ and
 animations
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 nsCOMPtr
@@ -25629,7 +25629,7 @@ nsIDocumentViewer
 >
 viewer
 =
-mContentViewer
+mDocumentViewer
 ;
 viewer
 -
@@ -25660,7 +25660,7 @@ loading
 only
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 RefPtr
@@ -25669,7 +25669,7 @@ Document
 >
 doc
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -25905,7 +25905,7 @@ Document
 >
 doc
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -27517,10 +27517,10 @@ this
 }
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
-mContentViewer
+mDocumentViewer
 -
 >
 Close
@@ -27528,14 +27528,14 @@ Close
 nullptr
 )
 ;
-mContentViewer
+mDocumentViewer
 -
 >
 Destroy
 (
 )
 ;
-mContentViewer
+mDocumentViewer
 =
 nullptr
 ;
@@ -27841,12 +27841,12 @@ aY
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 NS_ENSURE_SUCCESS
 (
-mContentViewer
+mDocumentViewer
 -
 >
 Move
@@ -28069,14 +28069,14 @@ make
 us
 null
 out
-mContentViewer
+mDocumentViewer
 nsCOMPtr
 <
 nsIDocumentViewer
 >
 viewer
 =
-mContentViewer
+mDocumentViewer
 ;
 if
 (
@@ -28654,7 +28654,7 @@ false
 if
 (
 !
-mContentViewer
+mDocumentViewer
 )
 {
 return
@@ -29243,7 +29243,7 @@ if
 timing
 &
 &
-mContentViewer
+mDocumentViewer
 )
 {
 if
@@ -29252,7 +29252,7 @@ Document
 *
 doc
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -29545,7 +29545,7 @@ Hide
 )
 may
 change
-mContentViewer
+mDocumentViewer
 .
 nsCOMPtr
 <
@@ -29553,7 +29553,7 @@ nsIDocumentViewer
 >
 viewer
 =
-mContentViewer
+mDocumentViewer
 ;
 if
 (
@@ -38816,7 +38816,7 @@ this
 /
 Notify
 the
-ContentViewer
+DocumentViewer
 that
 the
 Document
@@ -38853,7 +38853,7 @@ if
 mEODForCurrentDocument
 &
 &
-mContentViewer
+mDocumentViewer
 )
 {
 mIsExecutingOnLoadHandler
@@ -38864,11 +38864,11 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-contentViewer
+viewer
 =
-mContentViewer
+mDocumentViewer
 ;
-contentViewer
+viewer
 -
 >
 LoadComplete
@@ -39831,7 +39831,7 @@ EnsureDocumentViewer
 {
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 return
@@ -39968,7 +39968,7 @@ true
 ;
 NS_ENSURE_STATE
 (
-mContentViewer
+mDocumentViewer
 )
 ;
 if
@@ -40293,7 +40293,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 /
 /
-mContentViewer
+mDocumentViewer
 -
 >
 PermitUnload
@@ -40412,7 +40412,7 @@ MaybeInitTiming
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 if
@@ -40497,7 +40497,7 @@ okToUnload
 ;
 rv
 =
-mContentViewer
+mDocumentViewer
 -
 >
 PermitUnload
@@ -43397,13 +43397,13 @@ bounds
 .
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 nsIntRect
 bounds
 ;
-mContentViewer
+mDocumentViewer
 -
 >
 GetBounds
@@ -43594,7 +43594,7 @@ rv
 ;
 aContentViewer
 =
-mContentViewer
+mDocumentViewer
 ;
 }
 /
@@ -44381,7 +44381,7 @@ NS_ERROR_FAILURE
 }
 NS_ASSERTION
 (
-mContentViewer
+mDocumentViewer
 !
 =
 viewer
@@ -45315,7 +45315,7 @@ rv
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 if
@@ -45427,7 +45427,7 @@ away
 .
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 /
@@ -45452,7 +45452,7 @@ reference
 to
 it
 from
-mContentViewer
+mDocumentViewer
 .
 nsCOMPtr
 <
@@ -45460,7 +45460,7 @@ nsIDocumentViewer
 >
 previousViewer
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetPreviousViewer
@@ -45472,7 +45472,7 @@ if
 previousViewer
 )
 {
-mContentViewer
+mDocumentViewer
 -
 >
 SetPreviousViewer
@@ -45619,7 +45619,7 @@ GetParent
 (
 )
 ;
-mContentViewer
+mDocumentViewer
 -
 >
 GetBounds
@@ -45725,7 +45725,7 @@ nullptr
 Transfer
 ownership
 to
-mContentViewer
+mDocumentViewer
 .
 By
 ensuring
@@ -45769,10 +45769,10 @@ called
 .
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
-mContentViewer
+mDocumentViewer
 -
 >
 Close
@@ -45793,7 +45793,7 @@ viewer
 >
 SetPreviousViewer
 (
-mContentViewer
+mDocumentViewer
 )
 ;
 }
@@ -45804,7 +45804,7 @@ mOSHE
 &
 (
 !
-mContentViewer
+mDocumentViewer
 |
 |
 !
@@ -45852,14 +45852,14 @@ SyncPresentationState
 /
 Order
 the
-mContentViewer
+mDocumentViewer
 setup
 just
 like
 Embed
 does
 .
-mContentViewer
+mDocumentViewer
 =
 nullptr
 ;
@@ -45898,7 +45898,7 @@ DestroyChildren
 (
 )
 ;
-mContentViewer
+mDocumentViewer
 .
 swap
 (
@@ -45970,7 +45970,7 @@ Document
 >
 document
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -46107,7 +46107,7 @@ MediaDocument
 BecomeInteractive
 rv
 =
-mContentViewer
+mDocumentViewer
 -
 >
 Open
@@ -46284,7 +46284,7 @@ of
 the
 presentation
 .
-mContentViewer
+mDocumentViewer
 -
 >
 SetSticky
@@ -47106,7 +47106,7 @@ size
 /
 /
 via
-mContentViewer
+mDocumentViewer
 -
 >
 SetBounds
@@ -47966,7 +47966,7 @@ height
 )
 )
 ;
-mContentViewer
+mDocumentViewer
 -
 >
 SetBounds
@@ -49486,7 +49486,7 @@ if
 (
 (
 !
-mContentViewer
+mDocumentViewer
 |
 |
 GetDocument
@@ -50366,7 +50366,7 @@ newViewer
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 |
 |
 parent
@@ -50380,7 +50380,7 @@ oldViewer
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 /
@@ -50425,7 +50425,7 @@ as
 before
 oldViewer
 =
-mContentViewer
+mDocumentViewer
 ;
 /
 /
@@ -50572,13 +50572,13 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-contentViewer
+viewer
 =
-mContentViewer
+mDocumentViewer
 ;
 if
 (
-contentViewer
+viewer
 )
 {
 /
@@ -50602,7 +50602,7 @@ it
 .
 .
 .
-contentViewer
+viewer
 -
 >
 Stop
@@ -50641,7 +50641,7 @@ PresShell
 *
 presShell
 =
-contentViewer
+viewer
 -
 >
 GetPresShell
@@ -50668,7 +50668,7 @@ IsUnderHiddenEmbedderElement
 )
 ;
 }
-contentViewer
+viewer
 -
 >
 Close
@@ -50689,7 +50689,7 @@ aNewViewer
 >
 SetPreviousViewer
 (
-contentViewer
+viewer
 )
 ;
 }
@@ -50700,7 +50700,7 @@ mOSHE
 &
 (
 !
-mContentViewer
+mDocumentViewer
 |
 |
 !
@@ -50744,7 +50744,7 @@ SyncPresentationState
 )
 ;
 }
-mContentViewer
+mDocumentViewer
 =
 nullptr
 ;
@@ -50783,7 +50783,7 @@ DestroyChildren
 (
 )
 ;
-mContentViewer
+mDocumentViewer
 =
 aNewViewer
 ;
@@ -50814,7 +50814,7 @@ cx
 cy
 )
 ;
-mContentViewer
+mDocumentViewer
 -
 >
 SetNavigationTiming
@@ -50826,7 +50826,7 @@ if
 (
 NS_FAILED
 (
-mContentViewer
+mDocumentViewer
 -
 >
 Init
@@ -50844,7 +50844,7 @@ nsIDocumentViewer
 >
 viewer
 =
-mContentViewer
+mDocumentViewer
 ;
 viewer
 -
@@ -50861,7 +50861,7 @@ Destroy
 (
 )
 ;
-mContentViewer
+mDocumentViewer
 =
 nullptr
 ;
@@ -50920,7 +50920,7 @@ reloadEncodingSource
 }
 NS_ENSURE_TRUE
 (
-mContentViewer
+mDocumentViewer
 NS_ERROR_FAILURE
 )
 ;
@@ -50956,7 +50956,7 @@ PresShell
 >
 presShell
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetPresShell
@@ -51031,7 +51031,7 @@ don
 t
 show
 the
-mContentViewer
+mDocumentViewer
 yet
 since
 we
@@ -51087,7 +51087,7 @@ aInfo
 {
 NS_ENSURE_TRUE_VOID
 (
-mContentViewer
+mDocumentViewer
 )
 ;
 RefPtr
@@ -53249,7 +53249,7 @@ specified
 )
 NS_ENSURE_TRUE
 (
-mContentViewer
+mDocumentViewer
 NS_ERROR_FAILURE
 )
 ;
@@ -53257,7 +53257,7 @@ Document
 *
 doc
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -60272,7 +60272,7 @@ rv
 }
 /
 /
-mContentViewer
+mDocumentViewer
 -
 >
 PermitUnload
@@ -60497,7 +60497,7 @@ NotifiedBeforeUnloadListeners
 )
 &
 &
-mContentViewer
+mDocumentViewer
 )
 {
 bool
@@ -60701,7 +60701,7 @@ isPrivateWin
 {
 rv
 =
-mContentViewer
+mDocumentViewer
 -
 >
 PermitUnload
@@ -60722,7 +60722,7 @@ else
 {
 rv
 =
-mContentViewer
+mDocumentViewer
 -
 >
 PermitUnload
@@ -61427,10 +61427,10 @@ URI
 if
 (
 (
-mContentViewer
+mDocumentViewer
 &
 &
-mContentViewer
+mDocumentViewer
 -
 >
 GetPreviousViewer
@@ -61811,7 +61811,7 @@ the
 previous
 viewer
 of
-mContentViewer
+mDocumentViewer
 is
 the
 /
@@ -61862,7 +61862,7 @@ it
 .
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 nsCOMPtr
@@ -61871,7 +61871,7 @@ nsIDocumentViewer
 >
 prevViewer
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetPreviousViewer
@@ -61957,7 +61957,7 @@ in
 the
 right
 place
-mContentViewer
+mDocumentViewer
 -
 >
 SetPreviousViewer
@@ -62816,12 +62816,12 @@ if
 aConsiderCurrentDocument
 &
 &
-mContentViewer
+mDocumentViewer
 )
 {
 document
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -62924,7 +62924,7 @@ EnsureDocumentViewer
 if
 (
 !
-mContentViewer
+mDocumentViewer
 )
 {
 return
@@ -62933,7 +62933,7 @@ nullptr
 }
 document
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -65655,11 +65655,11 @@ false
 &
 (
 !
-mContentViewer
+mDocumentViewer
 |
 |
 !
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -65667,7 +65667,7 @@ GetDocument
 )
 |
 |
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -72676,7 +72676,7 @@ Document
 >
 doc
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -86192,7 +86192,7 @@ PluginsAllowedInCurrentDoc
 if
 (
 !
-mContentViewer
+mDocumentViewer
 )
 {
 return
@@ -86203,7 +86203,7 @@ Document
 *
 doc
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -86553,7 +86553,7 @@ viewer
 =
 do_QueryInterface
 (
-mContentViewer
+mDocumentViewer
 )
 ;
 return
