@@ -151,6 +151,17 @@ no_unique_address
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -466,6 +477,7 @@ MyMethod
 /
 /
 class
+RTC_EXPORT
 PendingTaskSafetyFlag
 final
 :
@@ -937,6 +949,7 @@ running
 on
 .
 class
+RTC_EXPORT
 ScopedTaskSafety
 final
 {
@@ -1110,6 +1123,7 @@ be
 used
 .
 class
+RTC_EXPORT
 ScopedTaskSafetyDetached
 final
 {
