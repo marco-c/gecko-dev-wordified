@@ -3296,16 +3296,6 @@ runtimeFromMainThread
 (
 )
 ;
-if
-(
-rt
--
->
-hasJitRuntime
-(
-)
-)
-{
 jit
 :
 :
@@ -3366,7 +3356,6 @@ getNext
 (
 )
 ;
-}
 }
 return
 false
