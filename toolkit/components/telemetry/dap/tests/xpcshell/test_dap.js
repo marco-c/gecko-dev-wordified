@@ -852,6 +852,7 @@ DAPTelemetrySender
 sendTestReports
 (
 tasks
+1000
 )
 ;
 let
@@ -965,6 +966,7 @@ DAPTelemetrySender
 sendTestReports
 (
 tasks
+1000
 )
 ;
 let
