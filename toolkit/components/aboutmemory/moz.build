@@ -108,7 +108,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 JAR_MANIFESTS

@@ -96,7 +96,7 @@ unit_cps2
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS

@@ -320,7 +320,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 FINAL_LIBRARY

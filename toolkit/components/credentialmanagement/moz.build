@@ -191,7 +191,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 XPCOM_MANIFESTS

@@ -494,7 +494,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 TEST_DIRS

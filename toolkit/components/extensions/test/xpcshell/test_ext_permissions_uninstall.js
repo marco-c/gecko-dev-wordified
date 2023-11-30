@@ -312,7 +312,7 @@ legacy
 -
 ep
 .
-ini
+toml
 await
 ExtensionPermissions
 .

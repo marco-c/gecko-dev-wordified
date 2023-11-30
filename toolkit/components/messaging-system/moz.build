@@ -159,7 +159,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 TESTING_JS_MODULES

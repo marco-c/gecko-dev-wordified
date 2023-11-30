@@ -118,6 +118,6 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
