@@ -1560,7 +1560,7 @@ SessionHistoryInParent
 mHistory
 -
 >
-EvictAllContentViewers
+EvictAllDocumentViewers
 (
 )
 ;

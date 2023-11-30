@@ -9252,7 +9252,7 @@ shistory
 shistory
 -
 >
-EvictAllContentViewers
+EvictAllDocumentViewers
 (
 )
 ;
