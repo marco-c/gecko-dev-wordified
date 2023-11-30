@@ -282,7 +282,6 @@ in
 data
 else
 lambda
-product
 *
 *
 kwargs

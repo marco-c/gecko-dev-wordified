@@ -52,13 +52,6 @@ test
 utils
 .
 js
-/
-/
-META
-:
-timeout
-=
-long
 '
 use
 strict
