@@ -769,7 +769,6 @@ AudioFrameType
 kEmptyFrame
 0
 0
-0
 data
 sizeof
 (
@@ -1008,7 +1007,6 @@ AudioFrameType
 :
 :
 kEmptyFrame
-0
 0
 0
 data
