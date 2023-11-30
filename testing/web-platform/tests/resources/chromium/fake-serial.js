@@ -1236,6 +1236,13 @@ SerialPortFlushMode
 .
 kTransmit
 :
+if
+(
+this
+.
+reader_
+)
+{
 this
 .
 reader_
@@ -1250,6 +1257,7 @@ reader_
 =
 undefined
 ;
+}
 this
 .
 readable_
