@@ -2810,8 +2810,12 @@ entry
 node
 )
 .
-or_default
+or_insert_with
 (
+HashSet
+:
+:
+default
 )
 .
 len
@@ -2868,8 +2872,12 @@ entry
 sub_node
 )
 .
-or_default
+or_insert_with
 (
+HashSet
+:
+:
+default
 )
 .
 clone
