@@ -1469,6 +1469,13 @@ this
 additionalInfo
 this
 currentThread
+this
+.
+options
+.
+originAttributes
+|
+|
 {
 }
 /
