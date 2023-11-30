@@ -895,6 +895,13 @@ thread_function
 this
 addr
 family
+flag
+=
+safety_
+.
+flag
+(
+)
 caller_task_queue
 =
 webrtc
@@ -950,11 +957,7 @@ PostTask
 (
 SafeTask
 (
-safety_
-.
 flag
-(
-)
 [
 this
 error
