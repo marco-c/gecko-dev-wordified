@@ -224,13 +224,6 @@ Ci
 nsIAccessibleTextSelectionChangeEvent
 ;
 const
-nsIAccessibleVirtualCursorChangeEvent
-=
-Ci
-.
-nsIAccessibleVirtualCursorChangeEvent
-;
-const
 nsIAccessibleObjectAttributeChangedEvent
 =
 Ci

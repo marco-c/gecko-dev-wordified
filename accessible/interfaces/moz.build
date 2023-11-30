@@ -288,11 +288,6 @@ nsIAccessibleValue
 .
 idl
 "
-"
-nsIAccessibleVirtualCursorChangeEvent
-.
-idl
-"
 ]
 XPIDL_MODULE
 =

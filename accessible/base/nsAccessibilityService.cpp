@@ -7778,7 +7778,7 @@ nsAString
 aString
 )
 {
-NS_ASSERTION
+static_assert
 (
 nsIAccessibleEvent
 :
