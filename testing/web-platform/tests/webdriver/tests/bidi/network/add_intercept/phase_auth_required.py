@@ -1,16 +1,6 @@
 import
 pytest
 from
-webdriver
-.
-bidi
-.
-modules
-.
-script
-import
-ScriptEvaluateResultException
-from
 .
 .
 import
@@ -62,6 +52,8 @@ bidi_session
 new_tab
     
 wait_for_event
+    
+wait_for_future_safe
     
 url
     
@@ -252,7 +244,10 @@ none
 )
     
 await
+wait_for_future_safe
+(
 on_auth_required
+)
     
 expected_request
 =
@@ -383,8 +378,6 @@ def
 test_no_authentication
 (
     
-bidi_session
-    
 wait_for_event
     
 url
@@ -394,6 +387,8 @@ setup_network_test
 add_intercept
     
 fetch
+    
+wait_for_future_safe
 )
 :
     
@@ -546,7 +541,10 @@ text_url
 )
     
 await
+wait_for_future_safe
+(
 on_network_event
+)
     
 expected_request
 =

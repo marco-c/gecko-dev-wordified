@@ -538,7 +538,10 @@ complete
 )
     
 await
+wait_for_future_safe
+(
 on_response_completed
+)
     
 #
 Assert

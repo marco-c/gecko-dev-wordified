@@ -113,6 +113,7 @@ bidi_session
 subscribe_events
 top_context
 wait_for_event
+wait_for_future_safe
 url
 fetch
 )
@@ -239,7 +240,10 @@ text_url
 )
     
 await
+wait_for_future_safe
+(
 on_before_request_sent
+)
     
 assert
 len
@@ -378,6 +382,7 @@ top_context
 wait_for_event
 url
 setup_network_test
+wait_for_future_safe
 )
 :
     
@@ -456,7 +461,10 @@ complete
 )
     
 await
+wait_for_future_safe
+(
 on_before_request_sent
+)
     
 assert
 len
@@ -517,6 +525,7 @@ wait_for_event
 url
 fetch
 setup_network_test
+wait_for_future_safe
 )
 :
     
@@ -597,7 +606,10 @@ complete
 )
     
 await
+wait_for_future_safe
+(
 on_before_request_sent
+)
     
 assert
 len
@@ -690,7 +702,10 @@ GET
 )
     
 await
+wait_for_future_safe
+(
 on_before_request_sent
+)
     
 assert
 len
@@ -812,8 +827,8 @@ def
 test_request_method
 (
     
-bidi_session
 wait_for_event
+wait_for_future_safe
 url
 fetch
 setup_network_test
@@ -876,7 +891,10 @@ method
 )
     
 await
+wait_for_future_safe
+(
 on_before_request_sent
+)
     
 assert
 len
@@ -929,8 +947,8 @@ def
 test_request_headers
 (
     
-bidi_session
 wait_for_event
+wait_for_future_safe
 url
 fetch
 setup_network_test
@@ -1005,7 +1023,10 @@ bar
 )
     
 await
+wait_for_future_safe
+(
 on_before_request_sent
+)
     
 assert
 len
@@ -1102,6 +1123,7 @@ test_request_cookies
 bidi_session
 top_context
 wait_for_event
+wait_for_future_safe
 url
 fetch
 setup_network_test
@@ -1206,7 +1228,10 @@ GET
 )
     
 await
+wait_for_future_safe
+(
 on_before_request_sent
+)
     
 assert
 len
@@ -1355,7 +1380,10 @@ GET
 )
     
 await
+wait_for_future_safe
+(
 on_before_request_sent
+)
     
 assert
 len
