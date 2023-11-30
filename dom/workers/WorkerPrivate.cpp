@@ -18418,9 +18418,17 @@ TimeStamp
 )
 )
 ;
+mWorkerLoopIsIdle
+=
+true
+;
 WaitForWorkerEvents
 (
 )
+;
+mWorkerLoopIsIdle
+=
+false
 ;
 }
 auto
@@ -25398,6 +25406,9 @@ hasShutdownTasks
 &
 !
 hasPendingEvents
+&
+&
+mWorkerLoopIsIdle
 ;
 }
 void
