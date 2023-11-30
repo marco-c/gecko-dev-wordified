@@ -337,7 +337,7 @@ OnPacket
 packet_socket
 -
 >
-SubscribeClose
+SubscribeCloseEvent
 (
 this
 [

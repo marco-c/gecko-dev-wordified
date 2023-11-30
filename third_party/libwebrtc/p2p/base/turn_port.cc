@@ -1798,7 +1798,7 @@ socket_
 socket_
 -
 >
-UnsubscribeClose
+UnsubscribeCloseEvent
 (
 this
 )
@@ -2847,7 +2847,7 @@ OnSocketConnect
 socket_
 -
 >
-SubscribeClose
+SubscribeCloseEvent
 (
 this
 [
@@ -3633,7 +3633,7 @@ allocate_mismatch_retries_
 socket_
 -
 >
-UnsubscribeClose
+UnsubscribeCloseEvent
 (
 this
 )
