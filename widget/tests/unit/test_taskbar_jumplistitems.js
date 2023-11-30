@@ -112,7 +112,7 @@ org
 /
 windows
 -
-legacyjumplistitem
+jumplistitem
 ;
 1
 "
@@ -122,7 +122,7 @@ createInstance
 (
 Ci
 .
-nsILegacyJumpListItem
+nsIJumpListItem
 )
 ;
 var
@@ -137,7 +137,7 @@ org
 /
 windows
 -
-legacyjumplistseparator
+jumplistseparator
 ;
 1
 "
@@ -147,7 +147,7 @@ createInstance
 (
 Ci
 .
-nsILegacyJumpListSeparator
+nsIJumpListSeparator
 )
 ;
 var
@@ -162,7 +162,7 @@ org
 /
 windows
 -
-legacyjumplistshortcut
+jumplistshortcut
 ;
 1
 "
@@ -172,7 +172,7 @@ createInstance
 (
 Ci
 .
-nsILegacyJumpListShortcut
+nsIJumpListShortcut
 )
 ;
 var
@@ -187,7 +187,7 @@ org
 /
 windows
 -
-legacyjumplistlink
+jumplistlink
 ;
 1
 "
@@ -197,7 +197,7 @@ createInstance
 (
 Ci
 .
-nsILegacyJumpListLink
+nsIJumpListLink
 )
 ;
 Assert
@@ -426,7 +426,7 @@ org
 /
 windows
 -
-legacyjumplistseparator
+jumplistseparator
 ;
 1
 "
@@ -436,7 +436,7 @@ createInstance
 (
 Ci
 .
-nsILegacyJumpListSeparator
+nsIJumpListSeparator
 )
 ;
 Assert
@@ -450,7 +450,7 @@ type
 =
 Ci
 .
-nsILegacyJumpListItem
+nsIJumpListItem
 .
 JUMPLIST_ITEM_SEPARATOR
 )
@@ -473,7 +473,7 @@ org
 /
 windows
 -
-legacyjumplistlink
+jumplistlink
 ;
 1
 "
@@ -483,7 +483,7 @@ createInstance
 (
 Ci
 .
-nsILegacyJumpListLink
+nsIJumpListLink
 )
 ;
 var
@@ -1256,7 +1256,7 @@ org
 /
 windows
 -
-legacyjumplistlink
+jumplistlink
 ;
 1
 "
@@ -1266,7 +1266,7 @@ createInstance
 (
 Ci
 .
-nsILegacyJumpListLink
+nsIJumpListLink
 )
 ;
 var
@@ -1281,7 +1281,7 @@ org
 /
 windows
 -
-legacyjumplistlink
+jumplistlink
 ;
 1
 "
@@ -1291,7 +1291,7 @@ createInstance
 (
 Ci
 .
-nsILegacyJumpListLink
+nsIJumpListLink
 )
 ;
 var
@@ -1530,7 +1530,7 @@ org
 /
 windows
 -
-legacyjumplistshortcut
+jumplistshortcut
 ;
 1
 "
@@ -1540,7 +1540,7 @@ createInstance
 (
 Ci
 .
-nsILegacyJumpListShortcut
+nsIJumpListShortcut
 )
 ;
 var
@@ -1801,7 +1801,7 @@ notset
 }
 async
 function
-test_legacyjumplist
+test_jumplist
 (
 )
 {
@@ -1962,7 +1962,7 @@ builder
 =
 taskbar
 .
-createLegacyJumpListBuilder
+createJumpListBuilder
 (
 false
 )
@@ -2079,7 +2079,7 @@ org
 /
 windows
 -
-legacyjumplistshortcut
+jumplistshortcut
 ;
 1
 "
@@ -2089,7 +2089,7 @@ createInstance
 (
 Ci
 .
-nsILegacyJumpListShortcut
+nsIJumpListShortcut
 )
 ;
 var
@@ -2448,6 +2448,6 @@ run_next_test
 }
 add_task
 (
-test_legacyjumplist
+test_jumplist
 )
 ;
