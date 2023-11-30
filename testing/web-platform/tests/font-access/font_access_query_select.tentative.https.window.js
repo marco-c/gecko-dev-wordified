@@ -65,6 +65,13 @@ test
 utils
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 font_access_test
 (
 async
