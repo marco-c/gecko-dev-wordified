@@ -1349,7 +1349,6 @@ gcEphemeronEdges
 or
 gcNurseryEphemeronEdges
 .
-inline
 bool
 addImplicitEdges
 (
