@@ -218,7 +218,7 @@ click
 is
 /
 /
-send
+sent
 to
 test
 the
