@@ -3359,13 +3359,6 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
-const
-Maybe
-<
-DoubleTapToZoomMetrics
->
-&
-aDoubleTapToZoomMetrics
 )
 ;
 already_AddRefed

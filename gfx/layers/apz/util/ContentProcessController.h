@@ -154,9 +154,6 @@ layers
 class
 APZChild
 ;
-struct
-DoubleTapToZoomMetrics
-;
 /
 *
 *
@@ -313,13 +310,6 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
-const
-Maybe
-<
-DoubleTapToZoomMetrics
->
-&
-aMetrics
 )
 override
 ;
