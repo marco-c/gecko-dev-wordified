@@ -10826,12 +10826,8 @@ pfd
 mFrame
 -
 >
-IsFrameOfType
+IsLineParticipant
 (
-nsIFrame
-:
-:
-eLineParticipant
 )
 )
 {

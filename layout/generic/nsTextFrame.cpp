@@ -7872,12 +7872,8 @@ aFrame
 aFrame
 -
 >
-IsFrameOfType
+IsLineParticipant
 (
-nsIFrame
-:
-:
-eLineParticipant
 )
 |
 |
@@ -36079,12 +36075,8 @@ frame
 frame
 -
 >
-IsFrameOfType
+IsLineParticipant
 (
-nsIFrame
-:
-:
-eLineParticipant
 )
 ;
 frame

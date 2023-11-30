@@ -21327,12 +21327,8 @@ f
 f
 -
 >
-IsFrameOfType
+IsLineParticipant
 (
-nsIFrame
-:
-:
-eLineParticipant
 )
 &
 &

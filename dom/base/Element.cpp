@@ -7024,12 +7024,8 @@ IsInlineFlow
 frame
 -
 >
-IsFrameOfType
+IsReplaced
 (
-nsIFrame
-:
-:
-eReplaced
 )
 )
 )

@@ -3367,12 +3367,8 @@ if
 aFrame
 -
 >
-IsFrameOfType
+IsTablePart
 (
-nsIFrame
-:
-:
-eTablePart
 )
 )
 {

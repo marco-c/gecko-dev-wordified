@@ -885,12 +885,8 @@ this
 frame
 -
 >
-IsFrameOfType
+IsReplaced
 (
-nsIFrame
-:
-:
-eReplaced
 )
 )
 {
@@ -1717,12 +1713,8 @@ if
 frame
 -
 >
-IsFrameOfType
+IsReplaced
 (
-nsIFrame
-:
-:
-eReplaced
 )
 )
 {

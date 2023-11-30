@@ -20190,12 +20190,8 @@ if
 f
 -
 >
-IsFrameOfType
+IsReplaced
 (
-nsIFrame
-:
-:
-eReplaced
 )
 &
 &

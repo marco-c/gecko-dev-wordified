@@ -19079,12 +19079,8 @@ IsCanvasFrame
 mFrame
 -
 >
-IsFrameOfType
+IsTablePart
 (
-nsIFrame
-:
-:
-eTablePart
 )
 )
 ;

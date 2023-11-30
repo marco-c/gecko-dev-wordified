@@ -334,12 +334,8 @@ if
 (
 aFrame
 .
-IsFrameOfType
+IsSVGContainerFrame
 (
-nsIFrame
-:
-:
-eSVGContainer
 )
 )
 {

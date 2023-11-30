@@ -4385,12 +4385,8 @@ isReplaced
 aFrame
 -
 >
-IsFrameOfType
+IsReplaced
 (
-nsIFrame
-:
-:
-eReplaced
 )
 ;
 const

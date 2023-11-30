@@ -649,12 +649,8 @@ aFrame
 aFrame
 -
 >
-IsFrameOfType
+IsMathMLFrame
 (
-nsIFrame
-:
-:
-eMathML
 )
 )
 {
@@ -769,12 +765,8 @@ if
 frame
 -
 >
-IsFrameOfType
+IsMathMLFrame
 (
-nsIFrame
-:
-:
-eMathML
 )
 )
 {

@@ -53,33 +53,6 @@ MPL
 0
 /
 .
-#
-Leaf
-constants
-to
-pass
-to
-Frame
-'
-s
-leafness
-argument
-.
-LEAF
-=
-"
-Leaf
-"
-NOT_LEAF
-=
-"
-NotLeaf
-"
-DYNAMIC_LEAF
-=
-"
-DynamicLeaf
-"
 class
 FrameClass
 :
@@ -110,7 +83,7 @@ __init__
 self
 cls
 ty
-leafness
+flags
 )
 :
         
@@ -130,9 +103,9 @@ ty
         
 self
 .
-leafness
+flags
 =
-leafness
+flags
         
 self
 .

@@ -4753,12 +4753,8 @@ will
 return
 true
 for
-IsFrameOfType
+IsLineParticipant
 (
-nsIFrame
-:
-:
-eLineParticipant
 )
 *
 /

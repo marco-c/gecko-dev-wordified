@@ -5263,12 +5263,8 @@ IsInlineFlow
 aFrame
 -
 >
-IsFrameOfType
+IsReplaced
 (
-nsIFrame
-:
-:
-eReplaced
 )
 &
 &

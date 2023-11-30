@@ -209,15 +209,6 @@ NS_DECL_QUERYFRAME
 /
 nsIFrame
 overrides
-bool
-IsFrameOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
 void
 Reflow
 (

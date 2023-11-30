@@ -846,12 +846,8 @@ if
 f
 -
 >
-IsFrameOfType
+IsSVGFrame
 (
-nsIFrame
-:
-:
-eSVG
 )
 |
 |

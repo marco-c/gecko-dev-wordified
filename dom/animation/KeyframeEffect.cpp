@@ -12340,12 +12340,8 @@ aFrame
 aFrame
 -
 >
-IsFrameOfType
+SupportsCSSTransforms
 (
-nsIFrame
-:
-:
-eSupportsCSSTransforms
 )
 "
 We

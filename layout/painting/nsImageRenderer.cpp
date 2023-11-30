@@ -1302,12 +1302,8 @@ paintServerFrame
 paintServerFrame
 -
 >
-IsFrameOfType
+IsSVGFrame
 (
-nsIFrame
-:
-:
-eSVG
 )
 &
 &
@@ -1785,12 +1781,8 @@ if
 mPaintServerFrame
 -
 >
-IsFrameOfType
+IsSVGFrame
 (
-nsIFrame
-:
-:
-eSVG
 )
 )
 {

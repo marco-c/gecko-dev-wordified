@@ -1584,12 +1584,8 @@ IsFullyComplete
 aDelegatingFrame
 -
 >
-IsFrameOfType
+CanContainOverflowContainers
 (
-nsIFrame
-:
-:
-eCanContainOverflowContainers
 )
 )
 {

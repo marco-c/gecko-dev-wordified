@@ -213,16 +213,6 @@ NS_DECL_QUERYFRAME
 nsIFrame
 overrides
 virtual
-bool
-IsFrameOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
-virtual
 void
 AddInlineMinISize
 (
