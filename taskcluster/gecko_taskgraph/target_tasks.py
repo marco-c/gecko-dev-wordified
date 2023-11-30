@@ -5555,6 +5555,19 @@ platform
 return
 False
         
+if
+"
+tp6
+-
+bench
+"
+in
+try_name
+:
+            
+return
+False
+        
 #
 Desktop
 selection
