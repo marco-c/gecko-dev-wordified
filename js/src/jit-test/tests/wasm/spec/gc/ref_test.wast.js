@@ -353,9 +353,9 @@ const
 6
 )
 (
-extern
+any
 .
-internalize
+convert_extern
 (
 local
 .
@@ -376,9 +376,9 @@ const
 7
 )
 (
-extern
+any
 .
-internalize
+convert_extern
 (
 ref
 .
@@ -509,7 +509,7 @@ const
 (
 extern
 .
-externalize
+convert_any
 (
 ref
 .
@@ -537,7 +537,7 @@ const
 (
 extern
 .
-externalize
+convert_any
 (
 struct
 .
@@ -560,7 +560,7 @@ const
 (
 extern
 .
-externalize
+convert_any
 (
 ref
 .

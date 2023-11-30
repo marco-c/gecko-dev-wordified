@@ -2377,10 +2377,10 @@ Extern
 any
 coercion
 operations
-ExternInternalize
+AnyConvertExtern
 =
 0x1a
-ExternExternalize
+ExternConvertAny
 =
 0x1b
 /
