@@ -636,7 +636,11 @@ detector_
 RateStatistics
 incoming_bitrate_
 {
-kBitrateWindowMs
+kBitrateWindow
+.
+ms
+(
+)
 8000
 }
 ;

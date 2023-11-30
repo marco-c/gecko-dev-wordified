@@ -1013,12 +1013,8 @@ Seconds
 ;
 RTC_DCHECK_LE
 (
-kBitrateWindowMs
+kBitrateWindow
 kInitializationTime
-.
-ms
-(
-)
 )
 ;
 if
