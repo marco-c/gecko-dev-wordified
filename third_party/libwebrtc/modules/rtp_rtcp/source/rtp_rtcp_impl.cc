@@ -1976,13 +1976,6 @@ GetSendRates
 Sum
 (
 )
-.
-bps
-<
-uint32_t
->
-(
-)
 ;
 }
 state
