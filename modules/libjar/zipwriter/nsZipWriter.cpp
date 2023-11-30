@@ -956,7 +956,7 @@ field
 get
 (
 )
-length
+commentlen
 )
 ;
 if
