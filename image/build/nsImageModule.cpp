@@ -200,7 +200,7 @@ mMimeType
 ;
 static
 void
-UpdateContentViewerRegistration
+UpdateDocumentViewerRegistration
 (
 const
 char
@@ -416,7 +416,7 @@ Preferences
 :
 RegisterCallbackAndCall
 (
-UpdateContentViewerRegistration
+UpdateDocumentViewerRegistration
 "
 image
 .
@@ -433,7 +433,7 @@ Preferences
 :
 RegisterCallbackAndCall
 (
-UpdateContentViewerRegistration
+UpdateDocumentViewerRegistration
 "
 image
 .
