@@ -869,7 +869,7 @@ loc
 start
 .
 column
-1
+0
 )
 ;
 checkColumn
@@ -881,8 +881,8 @@ loc
 end
 .
 column
-8
-12
+7
+11
 )
 ;
 var
@@ -951,7 +951,7 @@ loc
 start
 .
 column
-1
+0
 )
 ;
 checkColumn
@@ -963,8 +963,8 @@ loc
 end
 .
 column
-8
-12
+7
+11
 )
 ;
 var
@@ -1026,7 +1026,7 @@ loc
 start
 .
 column
-1
+0
 )
 ;
 checkColumn
@@ -1038,8 +1038,8 @@ loc
 end
 .
 column
-7
-11
+6
+10
 )
 ;
 var
@@ -1233,7 +1233,7 @@ Q
 /
 /
 column
-1
+0
 offset
 0
 /
@@ -1251,7 +1251,7 @@ x
 /
 /
 column
-11
+10
 offset
 10
 '
@@ -1265,7 +1265,7 @@ x
 /
 /
 column
-21
+20
 offset
 22
 '
@@ -1279,7 +1279,7 @@ x
 /
 /
 column
-31
+30
 offset
 35
 '
@@ -1293,7 +1293,7 @@ x
 /
 /
 column
-41
+40
 offset
 48
 '
@@ -1308,7 +1308,7 @@ x
 /
 /
 column
-51
+50
 offset
 60
 '
@@ -1323,7 +1323,7 @@ x
 /
 /
 column
-61
+60
 offset
 72
 '
@@ -1338,7 +1338,7 @@ x
 /
 /
 column
-71
+70
 offset
 84
 '
@@ -1351,7 +1351,7 @@ offset
 /
 /
 column
-81
+80
 offset
 96
 '
@@ -1365,7 +1365,7 @@ offset
 /
 /
 column
-91
+90
 offset
 108
 /
@@ -1382,7 +1382,7 @@ REPEAT
 /
 /
 column
-101
+100
 offset
 120
 -
@@ -1402,7 +1402,7 @@ between
 /
 /
 column
-111
+110
 offset
 132
 '
@@ -1415,7 +1415,7 @@ offset
 /
 /
 column
-121
+120
 offset
 145
 '
@@ -1429,7 +1429,7 @@ offset
 /
 /
 column
-131
+130
 offset
 158
 '
@@ -1443,7 +1443,7 @@ x
 /
 /
 column
-141
+140
 offset
 170
 '
@@ -1457,7 +1457,7 @@ offset
 /
 /
 column
-151
+150
 offset
 182
 '
@@ -1471,7 +1471,7 @@ offset
 /
 /
 column
-161
+160
 offset
 194
 '
@@ -1485,7 +1485,7 @@ x
 /
 /
 column
-171
+170
 offset
 206
 '
@@ -1500,7 +1500,7 @@ x
 /
 /
 column
-181
+180
 offset
 218
 /
@@ -1518,7 +1518,7 @@ x
 /
 /
 column
-191
+190
 offset
 230
 '
@@ -1532,7 +1532,7 @@ x
 /
 /
 column
-201
+200
 offset
 242
 '
@@ -1546,7 +1546,7 @@ x
 /
 /
 column
-211
+210
 offset
 255
 -
@@ -1566,7 +1566,7 @@ x
 /
 /
 column
-221
+220
 offset
 268
 '
@@ -1580,7 +1580,7 @@ Ax
 /
 /
 column
-231
+230
 offset
 280
 '
@@ -1594,7 +1594,7 @@ Bx
 /
 /
 column
-241
+240
 offset
 292
 '
@@ -1608,7 +1608,7 @@ Cx
 /
 /
 column
-251
+250
 offset
 304
 '
@@ -1621,7 +1621,7 @@ Dx
 /
 /
 column
-261
+260
 offset
 316
 '
@@ -1635,7 +1635,7 @@ Ex
 /
 /
 column
-271
+270
 offset
 328
 /
@@ -1652,7 +1652,7 @@ Fx
 /
 /
 column
-281
+280
 offset
 340
 '
@@ -1665,7 +1665,7 @@ Gx
 /
 /
 column
-291
+290
 offset
 352
 '
@@ -1678,7 +1678,7 @@ Hx
 /
 /
 column
-301
+300
 offset
 365
 '
@@ -1692,7 +1692,7 @@ J
 /
 /
 column
-311
+310
 offset
 378
 -
@@ -1713,7 +1713,7 @@ Kx
 /
 /
 column
-321
+320
 offset
 390
 '
@@ -1727,7 +1727,7 @@ Lx
 /
 /
 column
-331
+330
 offset
 402
 '
@@ -1741,7 +1741,7 @@ Mx
 /
 /
 column
-341
+340
 offset
 414
 '
@@ -1754,7 +1754,7 @@ Nx
 /
 /
 column
-351
+350
 offset
 426
 '
@@ -1769,7 +1769,7 @@ Ox
 /
 /
 column
-361
+360
 (
 10
 long
@@ -2766,7 +2766,7 @@ Z
 /
 /
 column
-1
+0
 offset
 0
 assertEq
@@ -2804,7 +2804,7 @@ length
 /
 /
 column
-16
+15
 offset
 15
 assertEq
@@ -2894,7 +2894,7 @@ repeat
 /
 /
 column
-129
+128
 offset
 128
 assertEq
@@ -3036,7 +3036,7 @@ repeat
 /
 /
 column
-257
+256
 offset
 256
 assertEq
@@ -3179,7 +3179,7 @@ u2028
 /
 /
 column
-325
+324
 offset
 385
 assertEq

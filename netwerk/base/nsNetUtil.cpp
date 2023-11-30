@@ -17319,7 +17319,7 @@ aScriptSample
 /
 /
 aLineNumber
-1
+0
 /
 /
 aColumnNumber

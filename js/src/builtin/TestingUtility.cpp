@@ -719,12 +719,12 @@ if
 (
 c
 <
-1
+0
 )
 {
 c
 =
-1
+0
 ;
 }
 options
@@ -735,6 +735,9 @@ JS
 :
 :
 ColumnNumberOneOrigin
+:
+:
+fromZeroOrigin
 (
 c
 )

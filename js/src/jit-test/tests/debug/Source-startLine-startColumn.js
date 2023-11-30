@@ -96,7 +96,7 @@ script
 source
 .
 startColumn
-1
+0
 )
 ;
 g

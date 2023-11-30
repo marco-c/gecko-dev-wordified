@@ -328,8 +328,6 @@ getStartColumn
 className
 )
 column
-+
-1
 )
 ;
 /

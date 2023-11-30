@@ -7923,7 +7923,7 @@ param
 [
 aColumnNumber
 =
-1
+0
 ]
 (
 Optional
@@ -8006,7 +8006,7 @@ aLineNumber
 uint32_t
 aColumnNumber
 =
-1
+0
 MissingErrorLocationMode
 aLocationMode
 =

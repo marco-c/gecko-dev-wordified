@@ -2511,7 +2511,7 @@ setNumber
 (
 column
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 )

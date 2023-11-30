@@ -3899,7 +3899,7 @@ scriptSample
 lineNum
 columnNum
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 u

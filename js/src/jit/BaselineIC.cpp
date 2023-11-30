@@ -1165,7 +1165,7 @@ column
 (
 )
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 script

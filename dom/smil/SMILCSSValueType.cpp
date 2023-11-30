@@ -3123,7 +3123,7 @@ nullptr
 doc
 nullptr
 0
-1
+0
 aString
 nullptr
 )
@@ -3359,7 +3359,7 @@ nullptr
 doc
 nullptr
 0
-1
+0
 kPlaceholderText
 nullptr
 )

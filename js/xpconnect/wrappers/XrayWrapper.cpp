@@ -1489,7 +1489,7 @@ get
 line
 column
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 )
@@ -1832,7 +1832,7 @@ _ns
 line
 column
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 nsIScriptError

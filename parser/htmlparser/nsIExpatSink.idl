@@ -326,9 +326,6 @@ stream
 param
 aColumnNumber
 the
-0
--
-origin
 column
 number
 of
@@ -337,7 +334,6 @@ start
 tag
 in
 the
-*
 data
 stream
 .

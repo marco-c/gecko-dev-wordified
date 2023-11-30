@@ -605,7 +605,7 @@ aLineNumber
 0
 aColumnNumber
 =
-1
+0
 ;
 JSContext
 *

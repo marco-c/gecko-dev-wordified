@@ -5000,7 +5000,7 @@ lineNumber
 0
 columnNumber
 =
-1
+0
 ;
 nsJSUtils
 :
@@ -8019,7 +8019,7 @@ scriptsample
 /
 no
 linenumber
-1
+0
 /
 /
 no

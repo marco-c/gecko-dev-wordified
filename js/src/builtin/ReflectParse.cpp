@@ -4190,7 +4190,7 @@ setNumber
 (
 startColumnIndex
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 )
@@ -4281,7 +4281,7 @@ setNumber
 (
 endColumnIndex
 .
-oneOriginValue
+zeroOriginValue
 (
 )
 )

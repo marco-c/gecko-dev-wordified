@@ -2141,7 +2141,7 @@ mScriptLine
 )
 mScriptColumn
 (
-1
+0
 )
 mInnerWindowID
 (

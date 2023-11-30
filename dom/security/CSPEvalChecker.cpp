@@ -786,7 +786,7 @@ lineNum
 uint32_t
 columnNum
 =
-1
+0
 ;
 nsAutoString
 fileNameString
@@ -965,7 +965,7 @@ lineNum
 uint32_t
 columnNum
 =
-1
+0
 ;
 nsAutoString
 fileNameString
