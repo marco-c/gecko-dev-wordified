@@ -2660,6 +2660,8 @@ search
 r
 "
 (
+perftest
+|
 mochitest
 |
 chrome
