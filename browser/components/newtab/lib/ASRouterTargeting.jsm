@@ -5771,6 +5771,17 @@ availHeight
 }
 ;
 }
+get
+archBits
+(
+)
+{
+return
+AppConstants
+.
+archBits
+;
+}
 }
 ;
 const
