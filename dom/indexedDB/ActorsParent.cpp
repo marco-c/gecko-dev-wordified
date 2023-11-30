@@ -1975,13 +1975,6 @@ endif
 namespace
 mozilla
 {
-MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
-(
-ScopedPRFileDesc
-PRFileDesc
-PR_Close
-)
-;
 namespace
 dom
 :
