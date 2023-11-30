@@ -63,7 +63,7 @@ startLine
 3
 startColumn
 :
-42
+43
 sourceMapURL
 :
 "
@@ -112,7 +112,7 @@ assertEq
 source
 .
 startColumn
-42
+43
 )
 ;
 assertEq

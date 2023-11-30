@@ -430,6 +430,7 @@ offset
 .
 columnNumber
 <
+=
 execCode
 .
 length
@@ -500,6 +501,8 @@ bpts
 has
 (
 i
++
+1
 )
 ?
 "
