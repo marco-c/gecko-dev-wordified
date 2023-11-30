@@ -259,7 +259,7 @@ aDocListener
 nsIDocumentViewer
 *
 *
-aContentViewer
+aDocumentViewer
 )
 ;
 /

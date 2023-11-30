@@ -3818,11 +3818,11 @@ GetContentViewer
 nsIDocumentViewer
 *
 *
-aContentViewer
+aDocumentViewer
 )
 {
 *
-aContentViewer
+aDocumentViewer
 =
 nullptr
 ;
@@ -3838,7 +3838,7 @@ SetContentViewer
 (
 nsIDocumentViewer
 *
-aContentViewer
+aDocumentViewer
 )
 {
 MOZ_CRASH
