@@ -2382,16 +2382,6 @@ rec
 mId
 ;
 }
-if
-(
-StaticPrefs
-:
-:
-network_ssl_tokens_cache_use_only_once
-(
-)
-)
-{
 mCacheSize
 -
 =
@@ -2433,7 +2423,6 @@ Remove
 aKey
 )
 ;
-}
 }
 return
 NS_OK
