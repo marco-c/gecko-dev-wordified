@@ -1344,17 +1344,6 @@ UNSPECIFIED
 ;
 rtp_video_header
 .
-playout_delay
-=
-{
--
-1
--
-1
-}
-;
-rtp_video_header
-.
 is_first_packet_in_frame
 =
 true
