@@ -17072,14 +17072,6 @@ mAddr
 leadsize
 )
 ;
-ChunkType
-chunk_type
-=
-node
--
->
-mChunkType
-;
 /
 /
 All
@@ -17102,7 +17094,10 @@ recycled
 .
 MOZ_ASSERT
 (
-chunk_type
+node
+-
+>
+mChunkType
 =
 =
 ZEROED_CHUNK
@@ -17277,7 +17272,7 @@ chunk_dealloc
 (
 ret
 aSize
-chunk_type
+ZEROED_CHUNK
 )
 ;
 return
@@ -17323,7 +17318,7 @@ node
 >
 mChunkType
 =
-chunk_type
+ZEROED_CHUNK
 ;
 gChunksBySize
 .
