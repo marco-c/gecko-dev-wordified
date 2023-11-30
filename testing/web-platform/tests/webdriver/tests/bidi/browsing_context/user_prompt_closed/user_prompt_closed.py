@@ -1113,7 +1113,6 @@ url
 =
 inline
 (
-f
 "
 <
 script
@@ -1255,7 +1254,6 @@ url
 =
 inline
 (
-f
 "
 <
 script

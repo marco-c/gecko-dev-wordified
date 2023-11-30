@@ -1024,7 +1024,7 @@ events
 expected
 =
 [
-      
+        
 {
 "
 type
@@ -1044,7 +1044,7 @@ buttons
 :
 4
 }
-      
+        
 {
 "
 type

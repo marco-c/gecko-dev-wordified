@@ -1664,8 +1664,7 @@ type
 (
 screenshot
 )
-=
-=
+is
 str
 :
         
