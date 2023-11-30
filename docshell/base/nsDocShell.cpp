@@ -41706,7 +41706,7 @@ viewer
 mOSHE
 -
 >
-GetContentViewer
+GetDocumentViewer
 (
 )
 ;
@@ -44162,7 +44162,7 @@ viewer
 aSHEntry
 -
 >
-GetContentViewer
+GetDocumentViewer
 (
 )
 ;
@@ -44370,7 +44370,7 @@ presentation
 aSHEntry
 -
 >
-SetContentViewer
+SetDocumentViewer
 (
 nullptr
 )
@@ -44760,7 +44760,7 @@ viewer
 mLSHE
 -
 >
-GetContentViewer
+GetDocumentViewer
 (
 )
 ;
@@ -46165,7 +46165,7 @@ presentation
 mLSHE
 -
 >
-SetContentViewer
+SetDocumentViewer
 (
 nullptr
 )

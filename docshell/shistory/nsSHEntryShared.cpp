@@ -1289,7 +1289,7 @@ nsresult
 nsSHEntryShared
 :
 :
-SetContentViewer
+SetDocumentViewer
 (
 nsIDocumentViewer
 *

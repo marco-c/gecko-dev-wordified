@@ -5098,7 +5098,7 @@ nsIDocumentViewer
 >
 viewer
 =
-GetContentViewer
+GetDocumentViewer
 (
 )
 ;
@@ -5138,7 +5138,7 @@ persist
 the
 state
 .
-SetContentViewer
+SetDocumentViewer
 (
 nullptr
 )
@@ -5160,7 +5160,7 @@ NS_IMETHODIMP
 nsSHEntry
 :
 :
-SetContentViewer
+SetDocumentViewer
 (
 nsIDocumentViewer
 *
@@ -5173,7 +5173,7 @@ GetState
 )
 -
 >
-SetContentViewer
+SetDocumentViewer
 (
 aViewer
 )
@@ -5183,7 +5183,7 @@ NS_IMETHODIMP
 nsSHEntry
 :
 :
-GetContentViewer
+GetDocumentViewer
 (
 nsIDocumentViewer
 *

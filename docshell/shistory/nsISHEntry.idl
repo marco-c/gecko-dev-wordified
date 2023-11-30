@@ -658,7 +658,7 @@ referrerInfo
 /
 *
 *
-Content
+Document
 viewer
 for
 fast
@@ -672,7 +672,7 @@ infallible
 ]
 attribute
 nsIDocumentViewer
-contentViewer
+documentViewer
 ;
 [
 infallible
@@ -1760,7 +1760,7 @@ child
 docshells
 corresponding
 to
-contentViewer
+documentViewer
 .
 The
 child
@@ -1894,7 +1894,7 @@ consistent
 If
 either
 |
-contentViewer
+documentViewer
 |
 or
 |
@@ -1915,7 +1915,7 @@ cleared
 reset
 :
 *
-contentViewer
+documentViewer
 sticky
 windowState
 viewerBounds
