@@ -255,12 +255,6 @@ REASON_LAST
 =
 4
 ;
-const
-PivotMoveReason
-REASON_POINT
-=
-5
-;
 /
 *
 *

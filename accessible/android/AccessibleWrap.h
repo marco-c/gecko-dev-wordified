@@ -214,9 +214,14 @@ bool
 aInclusive
 )
 ;
-void
+static
+Accessible
+*
 ExploreByTouch
 (
+Accessible
+*
+aAccessible
 float
 aX
 float
