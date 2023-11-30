@@ -861,7 +861,7 @@ delimiter
 /
 /
 (
-Not
+Note
 that
 the
 initial
