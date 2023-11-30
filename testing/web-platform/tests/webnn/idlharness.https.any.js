@@ -308,7 +308,7 @@ input
 input
 '
 {
-type
+dataType
 :
 '
 float32
@@ -333,7 +333,7 @@ builder
 constant
 (
 {
-type
+dataType
 :
 '
 float32
