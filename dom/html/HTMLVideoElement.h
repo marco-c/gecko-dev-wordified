@@ -452,10 +452,7 @@ VideoHeight
 (
 )
 ;
-VideoInfo
-:
-:
-Rotation
+VideoRotation
 RotationDegrees
 (
 )
