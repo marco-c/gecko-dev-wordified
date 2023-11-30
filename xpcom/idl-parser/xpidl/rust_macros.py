@@ -764,8 +764,6 @@ static
 D
 :
 &
-'
-static
 [
 Interface
 ]
