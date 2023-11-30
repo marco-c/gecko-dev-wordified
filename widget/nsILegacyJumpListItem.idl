@@ -202,7 +202,7 @@ E52C3E7C1057
 )
 ]
 interface
-nsIJumpListItem
+nsILegacyJumpListItem
 :
 nsISupports
 {
@@ -315,7 +315,7 @@ boolean
 equals
 (
 in
-nsIJumpListItem
+nsILegacyJumpListItem
 item
 )
 ;
@@ -347,9 +347,9 @@ uuid
 )
 ]
 interface
-nsIJumpListSeparator
+nsILegacyJumpListSeparator
 :
-nsIJumpListItem
+nsILegacyJumpListItem
 {
 /
 *
@@ -408,9 +408,9 @@ C797
 )
 ]
 interface
-nsIJumpListLink
+nsILegacyJumpListLink
 :
-nsIJumpListItem
+nsILegacyJumpListItem
 {
 /
 *
@@ -586,9 +586,9 @@ BCE1
 )
 ]
 interface
-nsIJumpListShortcut
+nsILegacyJumpListShortcut
 :
-nsIJumpListItem
+nsILegacyJumpListItem
 {
 /
 *
