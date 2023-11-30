@@ -1713,13 +1713,13 @@ bool
 Codec
 :
 :
-MatchesCapability
+MatchesRtpCodec
 (
 const
 webrtc
 :
 :
-RtpCodecCapability
+RtpCodec
 &
 codec_capability
 )

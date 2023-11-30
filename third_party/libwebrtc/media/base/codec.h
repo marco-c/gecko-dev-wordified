@@ -737,13 +737,13 @@ nullptr
 const
 ;
 bool
-MatchesCapability
+MatchesRtpCodec
 (
 const
 webrtc
 :
 :
-RtpCodecCapability
+RtpCodec
 &
 capability
 )
