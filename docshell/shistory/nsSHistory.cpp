@@ -1393,7 +1393,7 @@ pressure
 nsSHistory
 :
 :
-GloballyEvictAllContentViewers
+GloballyEvictAllDocumentViewers
 (
 )
 ;
@@ -11497,7 +11497,7 @@ void
 nsSHistory
 :
 :
-GloballyEvictAllContentViewers
+GloballyEvictAllDocumentViewers
 (
 )
 {
