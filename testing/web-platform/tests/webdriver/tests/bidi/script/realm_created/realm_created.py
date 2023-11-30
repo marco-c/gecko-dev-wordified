@@ -592,6 +592,7 @@ bidi_session
 subscribe_events
 new_tab
 wait_for_event
+wait_for_future_safe
 test_origin
 method
 )
@@ -668,7 +669,10 @@ method
 event
 =
 await
+wait_for_future_safe
+(
 on_realm_created
+)
     
 assert
 event
@@ -1229,6 +1233,7 @@ bidi_session
 subscribe_events
 new_tab
 wait_for_event
+wait_for_future_safe
 inline
 method
 )
@@ -1310,7 +1315,10 @@ context
 realm_info
 =
 await
+wait_for_future_safe
+(
 on_realm_created
+)
     
 #
 Validate

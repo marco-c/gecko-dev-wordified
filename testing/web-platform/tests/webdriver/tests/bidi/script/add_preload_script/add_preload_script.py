@@ -908,6 +908,7 @@ subscribe_events
 inline
 new_tab
 wait_for_event
+wait_for_future_safe
 )
 :
     
@@ -1021,7 +1022,10 @@ url
 error_event
 =
 await
+wait_for_future_safe
+(
 on_entry
+)
     
 #
 Make
@@ -1032,7 +1036,10 @@ is
 loaded
     
 await
+wait_for_future_safe
+(
 on_load
+)
     
 #
 Make

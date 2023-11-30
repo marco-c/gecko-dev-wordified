@@ -1671,6 +1671,8 @@ subscribe_events
     
 wait_for_event
     
+wait_for_future_safe
+    
 get_element
 )
 :
@@ -1892,7 +1894,10 @@ click_link
 event
 =
 await
+wait_for_future_safe
+(
 on_entry
+)
         
 assert
 event
