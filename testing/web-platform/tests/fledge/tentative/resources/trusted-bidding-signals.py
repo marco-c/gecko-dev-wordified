@@ -25,7 +25,7 @@ bidding
 signals
 .
 The
-responses
+response
 depends
 on
 the
