@@ -123,6 +123,15 @@ include
 "
 mozilla
 /
+DOMEventTargetHelper
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HoldDropJSObjects
 .
 h

@@ -4825,10 +4825,17 @@ aCallback
 .
 NoteXPCOMChild
 (
+static_cast
+<
+EventTarget
+*
+>
+(
 res
 -
 >
 mMediaSource
+)
 )
 ;
 }

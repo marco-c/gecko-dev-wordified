@@ -4147,7 +4147,7 @@ nsIObserver
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-DOMEventTargetHelper
+EventTarget
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

@@ -723,6 +723,11 @@ FullscreenChange
 h
 "
 "
+GlobalTeardownObserver
+.
+h
+"
+"
 IdentifierMapEntry
 .
 h
@@ -1821,6 +1826,11 @@ cpp
 "
 "
 GeneratedImageContent
+.
+cpp
+"
+"
+GlobalTeardownObserver
 .
 cpp
 "

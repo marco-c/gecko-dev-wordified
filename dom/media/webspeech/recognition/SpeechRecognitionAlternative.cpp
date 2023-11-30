@@ -242,7 +242,7 @@ const
 return
 static_cast
 <
-DOMEventTargetHelper
+EventTarget
 *
 >
 (

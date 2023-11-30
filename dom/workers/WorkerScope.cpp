@@ -4820,15 +4820,15 @@ ServiceWorkerRegistration
 >
 ref
 ;
-ForEachEventTargetObject
+ForEachGlobalTeardownObserver
 (
 [
 &
 ]
 (
-DOMEventTargetHelper
+GlobalTeardownObserver
 *
-aTarget
+aObserver
 bool
 *
 aDoneOut
@@ -4842,7 +4842,7 @@ swr
 =
 do_QueryObject
 (
-aTarget
+aObserver
 )
 ;
 if
