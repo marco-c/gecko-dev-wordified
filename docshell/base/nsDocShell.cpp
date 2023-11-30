@@ -40796,7 +40796,7 @@ docFactory
 nsContentUtils
 :
 :
-FindInternalContentViewer
+FindInternalDocumentViewer
 (
 "
 text
@@ -50016,7 +50016,7 @@ docLoaderFactory
 nsContentUtils
 :
 :
-FindInternalContentViewer
+FindInternalDocumentViewer
 (
 aContentType
 )

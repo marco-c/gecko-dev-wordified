@@ -17161,7 +17161,7 @@ already_AddRefed
 <
 nsIDocumentLoaderFactory
 >
-FindInternalContentViewer
+FindInternalDocumentViewer
 (
 const
 nsACString
