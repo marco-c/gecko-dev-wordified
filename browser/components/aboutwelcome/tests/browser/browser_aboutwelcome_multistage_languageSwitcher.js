@@ -134,12 +134,13 @@ the
 events
 .
 *
+*
 returns
 {
+function
 (
 )
-=
->
+:
 TelemetryEvents
 [
 ]

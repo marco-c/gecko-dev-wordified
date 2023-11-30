@@ -360,10 +360,12 @@ displayed
 *
 *
 returns
+{
 Promise
 <
 Window
 >
+}
 *
 Resolves
 to
