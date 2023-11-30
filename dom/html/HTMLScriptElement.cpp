@@ -1185,6 +1185,10 @@ GetScriptLineNumber
 GetScriptColumnNumber
 (
 )
+.
+oneOriginValue
+(
+)
 )
 ;
 }
@@ -1239,6 +1243,10 @@ GetScriptLineNumber
 (
 )
 GetScriptColumnNumber
+(
+)
+.
+oneOriginValue
 (
 )
 )
