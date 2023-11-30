@@ -41,6 +41,14 @@ compiler
 ion
 true
 ;
+skip
+-
+if
+:
+!
+wasmGcEnabled
+(
+)
 a
 =
 newGlobal
