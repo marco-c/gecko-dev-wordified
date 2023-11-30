@@ -479,6 +479,8 @@ count
 param
 {
 string
+|
+null
 }
 expectedUrl
 *
@@ -492,6 +494,15 @@ by
 the
 NetworkObserver
 .
+If
+set
+to
+null
+watch
+for
+*
+all
+requests
 *
 param
 {
@@ -543,6 +554,8 @@ function
 waitForNetworkEvents
 (
 expectedUrl
+=
+null
 expectedRequestsCount
 )
 {
@@ -564,6 +577,8 @@ ignoreChannelFunction
 channel
 =
 >
+expectedUrl
+?
 channel
 .
 URI
@@ -573,6 +588,8 @@ spec
 =
 =
 expectedUrl
+:
+false
 onNetworkEvent
 :
 (
