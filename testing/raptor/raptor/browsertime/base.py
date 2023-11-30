@@ -1245,7 +1245,7 @@ chromedriver
 "
 mac
 -
-arm
+aarch64
 "
 :
 str
