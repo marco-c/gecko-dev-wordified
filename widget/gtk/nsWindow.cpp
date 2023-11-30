@@ -25225,7 +25225,7 @@ GdkWindow
 %
 p
 ]
-XWindow
+XID
 [
 0x
 %
@@ -42352,6 +42352,11 @@ LOG
 mShell
 %
 p
+(
+window
+%
+p
+)
 mContainer
 %
 p
@@ -42366,6 +42371,9 @@ lx
 n
 "
 mShell
+GetToplevelGdkWindow
+(
+)
 mContainer
 mGdkWindow
 GetX11Window
