@@ -239,6 +239,7 @@ test_subscribe_to_module_unsubscribe_from_one_event
     
 bidi_session
 wait_for_event
+wait_for_future_safe
 )
 :
     
@@ -396,7 +397,10 @@ tab
 )
     
 await
+wait_for_future_safe
+(
 on_entry_added
+)
     
 #
 Make
