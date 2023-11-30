@@ -432,8 +432,10 @@ WebIDL
 constructor
 .
 static
+UniquePtr
+<
 TextDecoder
-*
+>
 Constructor
 (
 const
@@ -488,10 +490,6 @@ nullptr
 }
 return
 txtDecoder
-.
-release
-(
-)
 ;
 }
 TextDecoder

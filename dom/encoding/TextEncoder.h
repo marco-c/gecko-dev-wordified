@@ -187,8 +187,10 @@ WebIDL
 constructor
 .
 static
+UniquePtr
+<
 TextEncoder
-*
+>
 Constructor
 (
 const
@@ -198,8 +200,10 @@ aGlobal
 )
 {
 return
-new
+MakeUnique
+<
 TextEncoder
+>
 (
 )
 ;

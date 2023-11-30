@@ -21932,8 +21932,10 @@ already
 defined
 on
 nsINode
+UniquePtr
+<
 XPathExpression
-*
+>
 CreateExpression
 (
 const

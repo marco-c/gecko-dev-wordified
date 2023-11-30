@@ -257,8 +257,10 @@ doc
 ;
 }
 static
+UniquePtr
+<
 XPathEvaluator
-*
+>
 Constructor
 (
 const
@@ -267,8 +269,10 @@ GlobalObject
 aGlobal
 )
 ;
+UniquePtr
+<
 XPathExpression
-*
+>
 CreateExpression
 (
 const
@@ -283,8 +287,10 @@ ErrorResult
 rv
 )
 ;
+UniquePtr
+<
 XPathExpression
-*
+>
 CreateExpression
 (
 const
@@ -299,8 +305,10 @@ ErrorResult
 aRv
 )
 ;
+UniquePtr
+<
 XPathExpression
-*
+>
 CreateExpression
 (
 const

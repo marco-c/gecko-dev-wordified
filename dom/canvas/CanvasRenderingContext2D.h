@@ -1443,8 +1443,10 @@ ErrorResult
 aError
 )
 ;
+UniquePtr
+<
 TextMetrics
-*
+>
 MeasureText
 (
 const
@@ -5948,8 +5950,10 @@ nullptr
 .
 *
 /
+UniquePtr
+<
 TextMetrics
-*
+>
 DrawOrMeasureText
 (
 const
