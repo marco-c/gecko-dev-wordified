@@ -664,7 +664,7 @@ name
 }
 extern
 .
-externalize
+convert_any
 )
 (
 func
@@ -689,9 +689,9 @@ local
 .
 get
 0
-extern
+any
 .
-internalize
+convert_extern
 ref
 .
 test

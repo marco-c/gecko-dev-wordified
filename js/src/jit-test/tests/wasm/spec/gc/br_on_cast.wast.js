@@ -329,9 +329,9 @@ const
 4
 )
 (
-extern
+any
 .
-internalize
+convert_extern
 (
 local
 .
