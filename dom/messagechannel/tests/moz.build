@@ -114,6 +114,6 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]

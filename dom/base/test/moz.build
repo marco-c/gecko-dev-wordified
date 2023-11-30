@@ -94,14 +94,14 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 "
 unit_ipc
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS

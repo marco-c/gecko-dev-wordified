@@ -525,6 +525,6 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]

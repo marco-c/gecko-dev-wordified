@@ -102,7 +102,7 @@ XPCSHELL_TESTS_MANIFESTS
 "
 xpcshell
 .
-ini
+toml
 "
 ]
 TESTING_JS_MODULES

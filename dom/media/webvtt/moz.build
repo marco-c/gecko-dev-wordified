@@ -224,7 +224,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS

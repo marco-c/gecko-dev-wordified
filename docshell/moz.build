@@ -152,7 +152,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 "
 test
@@ -161,7 +161,7 @@ unit_ipc
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS
