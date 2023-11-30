@@ -578,7 +578,7 @@ SearchSERPTelemetryUtils
 .
 ABANDONMENTS
 .
-NAVIGATION
+TAB_CLOSE
 }
 adImpressions
 :
