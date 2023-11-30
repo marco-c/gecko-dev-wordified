@@ -14652,6 +14652,7 @@ properties
 :
 generateCssProperties
 (
+document
 )
 }
 )

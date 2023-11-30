@@ -220,13 +220,13 @@ resource
 /
 devtools
 /
-client
+shared
 /
-fronts
+inspector
 /
 css
 -
-properties
+logic
 .
 js
 "
