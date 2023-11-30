@@ -543,6 +543,12 @@ aCookiePurgeAge
 override
 ;
 void
+CollectCookieJarSizeData
+(
+)
+override
+;
+void
 DeleteFromDB
 (
 mozIStorageBindingParamsArray

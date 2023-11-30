@@ -314,6 +314,16 @@ aCookie
 override
 {
 }
+private
+:
+void
+CollectCookieJarSizeData
+(
+)
+override
+{
+}
+;
 }
 ;
 }
