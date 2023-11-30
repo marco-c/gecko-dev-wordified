@@ -3074,12 +3074,6 @@ String
 }
 *
 -
-mediaText
-{
-String
-}
-*
--
 conditionText
 {
 String
@@ -3361,13 +3355,6 @@ type
 "
 media
 "
-mediaText
-:
-rule
-.
-media
-.
-mediaText
 conditionText
 :
 rule
