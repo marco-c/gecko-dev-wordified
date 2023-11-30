@@ -17148,7 +17148,7 @@ IsSWFPlayerEnabled
 )
 ;
 enum
-ContentViewerType
+DocumentViewerType
 {
 TYPE_UNSUPPORTED
 TYPE_CONTENT
@@ -17167,7 +17167,7 @@ const
 nsACString
 &
 aType
-ContentViewerType
+DocumentViewerType
 *
 aLoaderType
 =

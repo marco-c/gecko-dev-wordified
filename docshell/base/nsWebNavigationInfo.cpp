@@ -295,7 +295,7 @@ aType
 nsContentUtils
 :
 :
-ContentViewerType
+DocumentViewerType
 vtype
 =
 nsContentUtils
