@@ -205,7 +205,9 @@ rows
 .
 map
 (
+(
 row
+)
 =
 >
 row
@@ -236,7 +238,9 @@ iters
 .
 map
 (
+(
 iter
+)
 =
 >
 {
@@ -300,7 +304,9 @@ cellsForColumn
 .
 every
 (
+(
 cell
+)
 =
 >
 cell
@@ -358,10 +364,11 @@ cellsForColumn
 .
 map
 (
+(
 c
+)
 =
 >
-(
 c
 =
 =
@@ -373,7 +380,6 @@ undefined
 c
 .
 length
-)
 )
 )
 +

@@ -233,7 +233,9 @@ write
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -270,7 +272,9 @@ WRITE
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -416,7 +420,9 @@ ab2Promise
 new
 Promise
 (
+(
 resolve
+)
 =
 >
 {
@@ -426,7 +432,9 @@ port2
 .
 onmessage
 =
+(
 ev
+)
 =
 >
 {
@@ -522,7 +530,9 @@ await
 new
 Promise
 (
+(
 resolve
+)
 =
 >
 timeout

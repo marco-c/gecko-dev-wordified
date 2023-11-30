@@ -230,7 +230,9 @@ position
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -249,7 +251,9 @@ kVertexPosCases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -377,7 +381,9 @@ call
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -424,7 +430,9 @@ without
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1179,7 +1187,9 @@ constructible
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1198,7 +1208,9 @@ kFunctionRetTypeCases
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1239,7 +1251,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2284,7 +2298,9 @@ types
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2303,7 +2319,9 @@ kFunctionParamTypeCases
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2344,7 +2362,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -4437,7 +4457,9 @@ functions
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -4466,7 +4488,9 @@ kFunctionParamValueCases
 .
 filter
 (
+(
 u
+)
 =
 >
 {
@@ -4486,7 +4510,9 @@ valid
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -4527,7 +4553,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -5218,7 +5246,9 @@ recursive
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -5293,7 +5323,9 @@ recursive
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -5381,7 +5413,9 @@ names
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -5425,7 +5459,9 @@ c
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -5634,7 +5670,9 @@ body
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -5653,7 +5691,9 @@ kParamUseCases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -5739,7 +5779,9 @@ parameters
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -5777,7 +5819,9 @@ num_params
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -6087,7 +6131,9 @@ order
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -6164,7 +6210,9 @@ kArgValues
 .
 fn
 (
+(
 t
+)
 =
 >
 {

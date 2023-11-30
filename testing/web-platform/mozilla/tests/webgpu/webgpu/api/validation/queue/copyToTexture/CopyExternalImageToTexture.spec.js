@@ -1252,7 +1252,9 @@ clean
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1348,7 +1350,9 @@ depthOrArrayLayers
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1870,7 +1874,9 @@ closed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1927,7 +1933,9 @@ depthOrArrayLayers
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2160,7 +2168,9 @@ state
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2230,7 +2240,9 @@ depthOrArrayLayers
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2550,7 +2562,9 @@ detached
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2632,7 +2646,9 @@ depthOrArrayLayers
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2781,7 +2797,9 @@ port2FirstMessage
 new
 Promise
 (
+(
 resolve
+)
 =
 >
 {
@@ -2791,7 +2809,9 @@ port2
 .
 onmessage
 =
+(
 m
+)
 =
 >
 resolve
@@ -2950,7 +2970,9 @@ state
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3004,7 +3026,9 @@ depthOrArrayLayers
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -3103,7 +3127,9 @@ device
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -3122,7 +3148,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3139,7 +3167,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -3281,7 +3311,9 @@ RENDER_ATTACHMENT
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3335,7 +3367,9 @@ depthOrArrayLayers
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -3469,7 +3503,9 @@ not
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3526,7 +3562,9 @@ depthOrArrayLayers
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -3655,7 +3693,9 @@ large
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3715,7 +3755,9 @@ depthOrArrayLayers
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -3847,7 +3889,9 @@ valid
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3898,7 +3942,9 @@ depthOrArrayLayers
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3936,7 +3982,9 @@ feature
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -4115,7 +4163,9 @@ large
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -4238,7 +4288,9 @@ generateCopySizeForSrcOOB
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -4447,7 +4499,9 @@ than
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -4486,7 +4540,9 @@ generateCopySizeForDstOOB
 fn
 (
 async
+(
 t
+)
 =
 >
 {

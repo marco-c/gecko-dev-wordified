@@ -242,7 +242,9 @@ kValidLocations
 {
 module
 :
+(
 diag
+)
 =
 >
 {
@@ -251,7 +253,9 @@ diag
 ;
 function
 :
+(
 diag
+)
 =
 >
 {
@@ -265,7 +269,9 @@ foo
 }
 compound
 :
+(
 diag
+)
 =
 >
 fn
@@ -281,7 +287,9 @@ diag
 }
 if_stmt
 :
+(
 diag
+)
 =
 >
 fn
@@ -299,7 +307,9 @@ true
 }
 if_then
 :
+(
 diag
+)
 =
 >
 fn
@@ -317,7 +327,9 @@ diag
 }
 if_else
 :
+(
 diag
+)
 =
 >
 fn
@@ -338,7 +350,9 @@ diag
 }
 switch_stmt
 :
+(
 diag
+)
 =
 >
 fn
@@ -359,7 +373,9 @@ default
 }
 switch_body
 :
+(
 diag
+)
 =
 >
 fn
@@ -380,7 +396,9 @@ default
 }
 switch_default
 :
+(
 diag
+)
 =
 >
 fn
@@ -401,7 +419,9 @@ diag
 }
 switch_case
 :
+(
 diag
+)
 =
 >
 fn
@@ -426,7 +446,9 @@ default
 }
 loop_stmt
 :
+(
 diag
+)
 =
 >
 fn
@@ -445,7 +467,9 @@ break
 }
 loop_body
 :
+(
 diag
+)
 =
 >
 fn
@@ -464,7 +488,9 @@ break
 }
 loop_continuing
 :
+(
 diag
+)
 =
 >
 fn
@@ -488,7 +514,9 @@ true
 }
 while_stmt
 :
+(
 diag
+)
 =
 >
 fn
@@ -508,7 +536,9 @@ break
 }
 while_body
 :
+(
 diag
+)
 =
 >
 fn
@@ -528,7 +558,9 @@ break
 }
 for_stmt
 :
+(
 diag
+)
 =
 >
 fn
@@ -559,7 +591,9 @@ i
 }
 for_body
 :
+(
 diag
+)
 =
 >
 fn
@@ -596,7 +630,9 @@ kInvalidLocations
 {
 module_var
 :
+(
 diag
+)
 =
 >
 {
@@ -612,7 +648,9 @@ u32
 ;
 module_const
 :
+(
 diag
+)
 =
 >
 {
@@ -625,7 +663,9 @@ x
 ;
 module_override
 :
+(
 diag
+)
 =
 >
 {
@@ -638,7 +678,9 @@ u32
 ;
 struct
 :
+(
 diag
+)
 =
 >
 {
@@ -653,7 +695,9 @@ u32
 }
 struct_member
 :
+(
 diag
+)
 =
 >
 struct
@@ -668,7 +712,9 @@ u32
 }
 function_params
 :
+(
 diag
+)
 =
 >
 fn
@@ -682,7 +728,9 @@ diag
 }
 function_var
 :
+(
 diag
+)
 =
 >
 fn
@@ -701,7 +749,9 @@ x
 }
 function_let
 :
+(
 diag
+)
 =
 >
 fn
@@ -720,7 +770,9 @@ x
 }
 function_const
 :
+(
 diag
+)
 =
 >
 fn
@@ -739,7 +791,9 @@ x
 }
 pre_else
 :
+(
 diag
+)
 =
 >
 fn
@@ -760,7 +814,9 @@ else
 }
 pre_default
 :
+(
 diag
+)
 =
 >
 fn
@@ -781,7 +837,9 @@ default
 }
 pre_case
 :
+(
 diag
+)
 =
 >
 fn
@@ -806,7 +864,9 @@ default
 }
 pre_continuing
 :
+(
 diag
+)
 =
 >
 fn
@@ -830,7 +890,9 @@ true
 }
 pre_for_params
 :
+(
 diag
+)
 =
 >
 fn
@@ -1128,7 +1190,9 @@ parameters
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1160,7 +1224,9 @@ kDiagnosticTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1286,7 +1352,9 @@ rejected
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1310,7 +1378,9 @@ kDiagnosticTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1437,7 +1507,9 @@ warning
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1461,7 +1533,9 @@ kBadSingleTokenRules
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1583,7 +1657,9 @@ locations
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1610,7 +1686,9 @@ kValidLocations
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1779,7 +1857,9 @@ locations
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1806,7 +1886,9 @@ kInvalidLocations
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1909,7 +1991,9 @@ directives
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1933,7 +2017,9 @@ kSpecDiagnosticSeverities
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2065,7 +2151,9 @@ attributes
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2099,7 +2187,9 @@ kSpecDiagnosticSeverities
 .
 filter
 (
+(
 u
+)
 =
 >
 {
@@ -2120,7 +2210,9 @@ module
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2251,7 +2343,9 @@ attributes
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2285,7 +2379,9 @@ kSpecDiagnosticSeverities
 .
 filter
 (
+(
 u
+)
 =
 >
 {
@@ -2306,7 +2402,9 @@ s2
 .
 fn
 (
+(
 t
+)
 =
 >
 {

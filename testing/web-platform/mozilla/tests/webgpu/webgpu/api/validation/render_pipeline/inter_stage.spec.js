@@ -438,7 +438,9 @@ validation
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -654,7 +656,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -775,7 +779,9 @@ input
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -794,7 +800,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -906,7 +914,9 @@ match
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1075,7 +1085,9 @@ f32
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1193,7 +1205,9 @@ match
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1395,7 +1409,9 @@ center
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1511,7 +1527,9 @@ match
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1703,7 +1721,9 @@ perspective
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1820,7 +1840,9 @@ maxInterStageShaderVariables
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1863,7 +1885,9 @@ locationDelta
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1987,7 +2011,9 @@ components
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2095,7 +2121,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2176,7 +2204,9 @@ outputs
 range
 (
 numVec4
+(
 i
+)
 =
 >
 location
@@ -2202,7 +2232,9 @@ inputs
 range
 (
 numVec4
+(
 i
+)
 =
 >
 location
@@ -2369,7 +2401,9 @@ components
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2473,7 +2507,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2554,7 +2590,9 @@ outputs
 range
 (
 numVec4
+(
 i
+)
 =
 >
 location
@@ -2580,7 +2618,9 @@ inputs
 range
 (
 numVec4
+(
 i
+)
 =
 >
 location

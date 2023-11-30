@@ -188,7 +188,9 @@ mode
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -204,7 +206,9 @@ kCompressedTextureFormats
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -236,7 +240,9 @@ feature
 .
 fn
 (
+(
 t
+)
 =
 >
 {

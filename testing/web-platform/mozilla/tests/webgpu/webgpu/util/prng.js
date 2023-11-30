@@ -563,25 +563,20 @@ this
 .
 state
 [
-(
 i
 -
 1
-)
 &
 3
 ]
 ^
-(
 this
 .
 state
 [
-(
 i
 -
 1
-)
 &
 3
 ]
@@ -589,7 +584,6 @@ i
 >
 >
 30
-)
 )
 ;
 }
@@ -739,7 +733,6 @@ n_vars
 0
 ]
 =
-(
 this
 .
 state
@@ -750,7 +743,6 @@ state
 PRNG
 .
 kMask
-)
 ^
 this
 .
@@ -808,7 +800,6 @@ n_vars
 ]
 ^
 =
-(
 this
 .
 n_vars
@@ -821,7 +812,6 @@ n_vars
 PRNG
 .
 kSH0
-)
 ^
 this
 .
@@ -872,7 +862,6 @@ n_vars
 0
 ]
 ^
-(
 this
 .
 n_vars
@@ -884,7 +873,6 @@ n_vars
 PRNG
 .
 kSH1
-)
 ;
 this
 .

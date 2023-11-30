@@ -426,7 +426,9 @@ texture
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -444,7 +446,9 @@ kAllCanvasTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -747,7 +751,9 @@ frame
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -765,7 +771,9 @@ kAllCanvasTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1048,7 +1056,9 @@ frames
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1081,7 +1091,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1134,7 +1146,9 @@ supported
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1152,7 +1166,9 @@ return
 new
 Promise
 (
+(
 resolve
+)
 =
 >
 {
@@ -1532,7 +1548,9 @@ resized
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1550,7 +1568,9 @@ kAllCanvasTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2209,7 +2229,9 @@ rendered
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2253,7 +2275,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -891,7 +891,9 @@ workgroup_size
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -910,7 +912,9 @@ kWorkgroupSizeTests
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -980,7 +984,9 @@ shader
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1043,7 +1049,9 @@ shader
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1105,7 +1113,9 @@ function
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1156,7 +1166,9 @@ const
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1214,7 +1226,9 @@ var
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1284,7 +1298,9 @@ fp16
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1306,7 +1322,9 @@ h
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1326,7 +1344,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {

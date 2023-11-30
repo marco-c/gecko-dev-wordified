@@ -247,6 +247,7 @@ value
 .
 *
 /
+async
 function
 runShaderTest
 (
@@ -452,11 +453,12 @@ source
 const
 pipeline
 =
+await
 t
 .
 device
 .
-createComputePipeline
+createComputePipelineAsync
 (
 {
 layout
@@ -901,7 +903,9 @@ expression
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1197,10 +1201,11 @@ expand
 '
 isAtomic
 '
+(
 p
+)
 =
 >
-(
 supportsAtomics
 (
 p
@@ -1214,7 +1219,6 @@ true
 [
 false
 ]
-)
 )
 .
 beginSubcases
@@ -1237,7 +1241,10 @@ generateTypes
 .
 fn
 (
+async
+(
 t
+)
 =
 >
 {
@@ -2685,6 +2692,7 @@ accessing
 the
 buffer
 .
+await
 runShaderTest
 (
 t
@@ -2786,6 +2794,7 @@ bufferBindingEnd
 }
 else
 {
+await
 runShaderTest
 (
 t

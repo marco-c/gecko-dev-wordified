@@ -2368,7 +2368,7 @@ expected
 '
 getValueForCell
 :
-index
+_index
 =
 >
 kCheckPassedValue
@@ -2508,7 +2508,7 @@ checkElementsPassPredicate
 (
 a
 (
-index
+_index
 value
 )
 =

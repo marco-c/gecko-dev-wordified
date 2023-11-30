@@ -415,7 +415,9 @@ details
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -459,7 +461,9 @@ only
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -484,7 +488,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -779,7 +785,9 @@ size
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -831,7 +839,9 @@ WriteTexture
 .
 filter
 (
+(
 param
+)
 =
 >
 depthStencilBufferTextureCopySupported
@@ -897,7 +907,9 @@ depthOrArrayLayers
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -922,7 +934,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1335,7 +1349,9 @@ of
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1387,7 +1403,9 @@ WriteTexture
 .
 filter
 (
+(
 param
+)
 =
 >
 depthStencilBufferTextureCopySupported
@@ -1425,7 +1443,9 @@ offset
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1450,7 +1470,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1791,7 +1813,9 @@ not
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1843,7 +1867,9 @@ sampleCount
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2120,7 +2146,9 @@ usage
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2159,7 +2187,9 @@ expand
 '
 _textureUsageValid
 '
+(
 p
+)
 =
 >
 [
@@ -2191,7 +2221,9 @@ expand
 '
 _bufferUsageValid
 '
+(
 p
+)
 =
 >
 [
@@ -2212,7 +2244,9 @@ copyType
 .
 filter
 (
+(
 p
+)
 =
 >
 p
@@ -2228,7 +2262,9 @@ _bufferUsageValid
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2412,7 +2448,9 @@ device
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2475,7 +2513,9 @@ true
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2491,7 +2531,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {

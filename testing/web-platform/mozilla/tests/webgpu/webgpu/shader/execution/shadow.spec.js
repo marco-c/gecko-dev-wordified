@@ -232,7 +232,9 @@ iterRange
 expected
 .
 length
-x
+(
+_i
+)
 =
 >
 0xdeadbeef
@@ -397,7 +399,9 @@ correctly
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -874,7 +878,9 @@ correctly
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1002,7 +1008,9 @@ loops
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1184,7 +1192,9 @@ loops
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1361,7 +1371,9 @@ loops
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1585,7 +1597,9 @@ switch
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1778,7 +1792,9 @@ switch
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -392,7 +392,9 @@ TexelView
 fromTexelsAsColors
 (
 format
+(
 coords
+)
 =
 >
 {
@@ -853,7 +855,9 @@ viewFormat
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -903,7 +907,9 @@ viewFormat
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -930,7 +936,9 @@ viewFormat
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1470,7 +1478,9 @@ format
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1531,7 +1541,9 @@ sampleCount
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1558,7 +1570,9 @@ viewFormat
 .
 fn
 (
+(
 t
+)
 =
 >
 {

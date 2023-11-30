@@ -2704,7 +2704,9 @@ passed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2777,7 +2779,9 @@ height
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2797,7 +2801,9 @@ dstColorFormat
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3103,7 +3109,9 @@ passed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3202,7 +3210,9 @@ height
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3222,7 +3232,9 @@ dstColorFormat
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3551,7 +3563,9 @@ passed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3657,7 +3671,9 @@ height
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3684,7 +3700,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -4015,7 +4033,9 @@ passed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -4088,7 +4108,9 @@ height
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -4109,7 +4131,9 @@ dstColorFormat
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -4524,7 +4548,9 @@ writeTextureData
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -4625,7 +4651,9 @@ height
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -4645,7 +4673,9 @@ dstColorFormat
 .
 fn
 (
+(
 t
+)
 =
 >
 {

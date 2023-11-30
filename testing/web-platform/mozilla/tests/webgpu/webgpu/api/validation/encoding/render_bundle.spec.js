@@ -136,7 +136,9 @@ bundles
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -261,7 +263,9 @@ true
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -277,7 +281,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -459,7 +465,9 @@ count
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -608,7 +616,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -746,7 +756,9 @@ missing
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -816,7 +828,9 @@ stencil8
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -845,7 +859,9 @@ passFormat
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -979,7 +995,9 @@ pass
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1042,7 +1060,9 @@ true
 .
 filter
 (
+(
 p
+)
 =
 >
 {
@@ -1133,7 +1153,9 @@ true
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1153,7 +1175,9 @@ depthStencilFormat
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1315,7 +1339,9 @@ pass
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1369,7 +1395,9 @@ passFormat
 .
 fn
 (
+(
 t
+)
 =
 >
 {

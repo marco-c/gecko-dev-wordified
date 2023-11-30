@@ -568,7 +568,7 @@ vars
 function
 typeAssert
 <
-T
+_
 extends
 '
 pass

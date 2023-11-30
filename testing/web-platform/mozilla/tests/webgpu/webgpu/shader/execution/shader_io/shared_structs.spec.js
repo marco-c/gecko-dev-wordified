@@ -210,7 +210,9 @@ parameter
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -720,7 +722,9 @@ values
 const
 checkOutput
 =
+(
 outputs
+)
 =
 >
 {
@@ -869,7 +873,9 @@ t
 expectGPUBufferValuesPassCheck
 (
 outputBuffer
+(
 outputData
+)
 =
 >
 checkOutput
@@ -943,7 +949,9 @@ shader
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1678,7 +1686,9 @@ functions
 .
 fn
 (
+(
 t
+)
 =
 >
 {

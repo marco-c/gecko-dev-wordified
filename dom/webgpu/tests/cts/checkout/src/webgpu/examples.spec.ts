@@ -243,7 +243,7 @@ test_name
 .
 fn
 (
-t
+_t
 =
 >
 {
@@ -408,12 +408,16 @@ TypeError
 Log
 message
 .
+{
+message
+:
 '
 function
 should
 throw
 Error
 '
+}
 )
 ;
 }
@@ -495,6 +499,9 @@ TypeError
 Log
 message
 .
+{
+message
+:
 '
 Promise
 .
@@ -502,6 +509,7 @@ reject
 should
 reject
 '
+}
 )
 ;
 /
@@ -512,6 +520,13 @@ also
 be
 an
 IIFE
+(
+immediately
+-
+invoked
+function
+expression
+)
 .
 t
 .
@@ -553,6 +568,9 @@ TypeError
 )
 (
 )
+{
+message
+:
 '
 Promise
 .
@@ -560,6 +578,7 @@ reject
 should
 reject
 '
+}
 )
 ;
 }

@@ -460,7 +460,7 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+_coords
 =
 >
 expColor
@@ -757,7 +757,7 @@ TexelView
 fromTexelsAsBytes
 (
 format
-coords
+_coords
 =
 >
 new
@@ -783,7 +783,7 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+_coords
 =
 >
 (
@@ -1120,7 +1120,7 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+_coords
 =
 >
 (

@@ -219,13 +219,11 @@ vector
 *
 formed
 from
-p
 vec
 of
 the
 element
 type
-p
 type
 .
 *

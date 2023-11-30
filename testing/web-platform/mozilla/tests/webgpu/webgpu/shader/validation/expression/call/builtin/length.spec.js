@@ -246,13 +246,11 @@ vector
 *
 formed
 from
-p
 vec
 of
 the
 element
 type
-p
 type
 .
 *
@@ -360,7 +358,9 @@ error
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -386,7 +386,9 @@ kScalarTypes
 .
 filter
 (
+(
 u
+)
 =
 >
 stageSupportsType
@@ -412,7 +414,9 @@ expand
 '
 value
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -429,7 +433,9 @@ type
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -469,7 +475,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -569,7 +577,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -595,7 +605,9 @@ kVec2Types
 .
 filter
 (
+(
 u
+)
 =
 >
 stageSupportsType
@@ -621,7 +633,9 @@ expand
 '
 x
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -641,7 +655,9 @@ expand
 '
 y
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -661,7 +677,9 @@ expand
 '
 _result
 '
+(
 u
+)
 =
 >
 [
@@ -690,7 +708,9 @@ type
 .
 filter
 (
+(
 u
+)
 =
 >
 u
@@ -711,7 +731,9 @@ isIntermediateRepresentable
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -751,7 +773,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -850,7 +874,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -876,7 +902,9 @@ kVec3Types
 .
 filter
 (
+(
 u
+)
 =
 >
 stageSupportsType
@@ -902,7 +930,9 @@ expand
 '
 x
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -922,7 +952,9 @@ expand
 '
 y
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -942,7 +974,9 @@ expand
 '
 z
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -962,7 +996,9 @@ expand
 '
 _result
 '
+(
 u
+)
 =
 >
 [
@@ -994,7 +1030,9 @@ type
 .
 filter
 (
+(
 u
+)
 =
 >
 u
@@ -1015,7 +1053,9 @@ isIntermediateRepresentable
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1055,7 +1095,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1159,7 +1201,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1185,7 +1229,9 @@ kVec4Types
 .
 filter
 (
+(
 u
+)
 =
 >
 stageSupportsType
@@ -1211,7 +1257,9 @@ expand
 '
 x
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -1231,7 +1279,9 @@ expand
 '
 y
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -1251,7 +1301,9 @@ expand
 '
 z
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -1271,7 +1323,9 @@ expand
 '
 w
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -1291,7 +1345,9 @@ expand
 '
 _result
 '
+(
 u
+)
 =
 >
 [
@@ -1326,7 +1382,9 @@ type
 .
 filter
 (
+(
 u
+)
 =
 >
 u
@@ -1347,7 +1405,9 @@ isIntermediateRepresentable
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1387,7 +1447,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1497,7 +1559,9 @@ builtin
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1516,7 +1580,9 @@ kIntegerArgumentTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {

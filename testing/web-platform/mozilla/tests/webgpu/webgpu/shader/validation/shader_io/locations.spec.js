@@ -549,7 +549,9 @@ usage
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -605,7 +607,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -701,7 +705,6 @@ fragment
 '
 |
 |
-(
 t
 .
 params
@@ -734,7 +737,6 @@ t
 params
 .
 use_struct
-)
 )
 ;
 t
@@ -771,7 +773,9 @@ types
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -815,7 +819,9 @@ beginSubcases
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -834,7 +840,6 @@ f16
 '
 |
 |
-(
 (
 t
 .
@@ -878,7 +883,6 @@ h
 '
 )
 )
-)
 {
 t
 .
@@ -897,7 +901,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -923,7 +929,6 @@ f16
 |
 |
 (
-(
 t
 .
 params
@@ -964,7 +969,6 @@ endsWith
 '
 h
 '
-)
 )
 )
 {
@@ -1135,7 +1139,9 @@ IO
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1179,7 +1185,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1320,7 +1328,9 @@ validated
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1464,7 +1474,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2163,7 +2175,9 @@ location
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2182,7 +2196,9 @@ kValidationTests
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2286,7 +2302,9 @@ fp16
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2308,7 +2326,9 @@ h
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2328,7 +2348,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {

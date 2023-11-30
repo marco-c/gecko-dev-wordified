@@ -149,7 +149,9 @@ blobFromCanvas
 new
 Promise
 (
+(
 resolve
+)
 =
 >
 {
@@ -157,7 +159,9 @@ canvas
 .
 toBlob
 (
+(
 blob
+)
 =
 >
 resolve
@@ -425,7 +429,9 @@ passed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -497,7 +503,9 @@ height
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -540,7 +548,9 @@ available
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1185,7 +1195,9 @@ passed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1227,7 +1239,9 @@ kCopySubrectInfo
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1259,7 +1273,9 @@ available
 fn
 (
 async
+(
 t
+)
 =
 >
 {

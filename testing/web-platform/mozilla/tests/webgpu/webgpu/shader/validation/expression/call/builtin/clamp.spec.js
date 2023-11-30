@@ -230,7 +230,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -256,7 +258,9 @@ kValuesTypes
 .
 filter
 (
+(
 u
+)
 =
 >
 stageSupportsType
@@ -282,7 +286,9 @@ expand
 '
 e
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -302,7 +308,9 @@ expand
 '
 low
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -322,7 +330,9 @@ expand
 '
 high
 '
+(
 u
+)
 =
 >
 fullRangeForType
@@ -340,7 +350,9 @@ type
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -380,7 +392,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {

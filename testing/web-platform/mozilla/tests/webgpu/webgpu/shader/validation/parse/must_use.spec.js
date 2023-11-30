@@ -372,7 +372,9 @@ type
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -391,7 +393,9 @@ kMustUseDeclarations
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -509,7 +513,9 @@ statement
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -542,7 +548,9 @@ kMustUseCalls
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1629,7 +1637,9 @@ functions
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1659,7 +1669,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1968,7 +1980,9 @@ must_use
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1998,7 +2012,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -238,7 +238,9 @@ buffer
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -254,7 +256,9 @@ kResourceStates
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -465,7 +469,9 @@ of
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1436,7 +1442,9 @@ usage
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1541,7 +1549,9 @@ device
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -1560,7 +1570,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1576,7 +1588,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {

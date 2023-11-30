@@ -76,8 +76,10 @@ export
 type
 WriteOp
 =
+(
 typeof
 kAllWriteOps
+)
 [
 number
 ]
@@ -108,8 +110,10 @@ export
 type
 ReadOp
 =
+(
 typeof
 kAllReadOps
+)
 [
 number
 ]
@@ -184,13 +188,6 @@ OpInfo
 ;
 }
 =
-/
-*
-prettier
--
-ignore
-*
-/
 {
 '
 write
@@ -302,9 +299,7 @@ writeUsage
 :
 0
 }
-'
 storage
-'
 :
 {
 contexts
@@ -343,9 +338,7 @@ TextureUsage
 .
 STORAGE
 }
-'
 sample
-'
 :
 {
 contexts

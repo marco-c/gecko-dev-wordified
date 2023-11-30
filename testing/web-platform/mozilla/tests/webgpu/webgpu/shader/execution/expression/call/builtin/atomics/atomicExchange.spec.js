@@ -281,7 +281,9 @@ T
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -331,7 +333,9 @@ i32
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -634,14 +638,12 @@ i
 )
 =
 >
-(
 data
 [
 i
 ]
 =
 i
-)
 )
 ;
 inputBuffer
@@ -858,14 +860,12 @@ i
 )
 =
 >
-(
 outputExpected
 [
 i
 ]
 =
 i
-)
 )
 ;
 t
@@ -918,7 +918,6 @@ i
 )
 =
 >
-(
 inputExpected
 [
 i
@@ -932,7 +931,6 @@ i
 *
 2
 numInvocations
-)
 )
 )
 ;
@@ -1014,7 +1012,9 @@ T
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1064,7 +1064,9 @@ i32
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1660,14 +1662,12 @@ i
 )
 =
 >
-(
 outputExpected
 [
 i
 ]
 =
 i
-)
 )
 ;
 t
@@ -1723,7 +1723,6 @@ i
 )
 =
 >
-(
 wgCopyBufferExpected
 [
 i
@@ -1737,7 +1736,6 @@ i
 *
 2
 numInvocations
-)
 )
 )
 ;
@@ -1822,7 +1820,9 @@ T
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1873,7 +1873,9 @@ i32
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2614,7 +2616,9 @@ T
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2665,7 +2669,9 @@ i32
 fn
 (
 async
+(
 t
+)
 =
 >
 {

@@ -238,7 +238,7 @@ iterRange
 expected
 .
 length
-x
+_i
 =
 >
 0xdeadbeef

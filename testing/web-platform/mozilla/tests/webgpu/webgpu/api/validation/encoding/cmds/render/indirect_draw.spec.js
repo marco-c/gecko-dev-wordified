@@ -252,7 +252,9 @@ kResourceStates
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -419,7 +421,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -435,7 +439,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -625,7 +631,9 @@ INDIRECT
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -785,7 +793,9 @@ indirectOffset
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1071,7 +1081,9 @@ kIndirectDrawTestParams
 .
 expandWithParams
 (
+(
 p
+)
 =
 >
 {
@@ -1246,7 +1258,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {

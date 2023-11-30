@@ -146,7 +146,9 @@ kMaximumLimitBaseParams
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -386,7 +388,9 @@ kAllCanvasTypes
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -632,7 +636,9 @@ kAllCanvasTypes
 fn
 (
 async
+(
 t
+)
 =
 >
 {

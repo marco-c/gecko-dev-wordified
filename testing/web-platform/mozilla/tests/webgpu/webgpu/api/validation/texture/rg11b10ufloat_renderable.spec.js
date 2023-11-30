@@ -167,7 +167,9 @@ enabled
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -186,7 +188,9 @@ sampleCount
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -206,7 +210,9 @@ renderable
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -297,7 +303,9 @@ case
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -317,7 +325,9 @@ renderable
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -481,7 +491,9 @@ case
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -501,7 +513,9 @@ renderable
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -703,7 +717,9 @@ enabled
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -723,7 +739,9 @@ renderable
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -789,7 +807,9 @@ enabled
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -809,7 +829,9 @@ renderable
 .
 fn
 (
+(
 t
+)
 =
 >
 {

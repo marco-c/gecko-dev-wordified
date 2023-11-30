@@ -161,7 +161,9 @@ correctly
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -190,7 +192,9 @@ kInvalidVertex
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -372,7 +376,9 @@ correctly
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -401,7 +407,9 @@ kInvalidFragment
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -583,7 +591,9 @@ correctly
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -612,7 +622,9 @@ kInvalidCompute
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -728,7 +740,9 @@ allowed
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -913,7 +927,9 @@ allowed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -935,7 +951,9 @@ compute
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1005,7 +1023,9 @@ allowed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1027,7 +1047,9 @@ fragment
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1106,7 +1128,9 @@ allowed
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1128,7 +1152,9 @@ vertex
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1208,7 +1234,9 @@ appear
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1279,7 +1307,9 @@ vertex
 .
 fn
 (
+(
 t
+)
 =
 >
 {

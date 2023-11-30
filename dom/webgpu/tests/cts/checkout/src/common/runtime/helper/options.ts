@@ -619,11 +619,9 @@ searchParams
 ;
 }
 return
-(
 optionValues
 as
 unknown
-)
 as
 Type
 ;

@@ -1089,7 +1089,9 @@ struct
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1114,7 +1116,9 @@ expand
 '
 indirectOffset
 '
+(
 p
+)
 =
 >
 {
@@ -1181,7 +1185,9 @@ BYTES_PER_ELEMENT
 .
 fn
 (
+(
 t
+)
 =
 >
 {

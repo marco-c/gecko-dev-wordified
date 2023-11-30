@@ -41,7 +41,9 @@ js
 ;
 runRefTest
 (
+(
 t
+)
 =
 >
 {

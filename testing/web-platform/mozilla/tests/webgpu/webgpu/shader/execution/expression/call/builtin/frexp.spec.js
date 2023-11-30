@@ -360,7 +360,9 @@ fractBuilder
 return
 basicExpressionBuilder
 (
+(
 value
+)
 =
 >
 frexp
@@ -400,7 +402,9 @@ expBuilder
 return
 basicExpressionBuilder
 (
+(
 value
+)
 =
 >
 frexp
@@ -464,7 +468,9 @@ is
 vector
 toInput
 =
+(
 n
+)
 =
 >
 toVector
@@ -477,7 +483,9 @@ scalarBuilder
 ;
 toOutput
 =
+(
 n
+)
 =
 >
 toVector
@@ -511,7 +519,9 @@ v
 ;
 toInput
 =
+(
 n
+)
 =
 >
 fp
@@ -526,7 +536,9 @@ n
 ;
 toOutput
 =
+(
 n
+)
 =
 >
 fp
@@ -557,7 +569,9 @@ v
 .
 some
 (
+(
 e
+)
 =
 >
 e
@@ -600,7 +614,9 @@ v
 .
 map
 (
+(
 e
+)
 =
 >
 {
@@ -683,7 +699,9 @@ is
 vector
 toInput
 =
+(
 n
+)
 =
 >
 toVector
@@ -696,7 +714,9 @@ scalarBuilder
 ;
 toOutput
 =
+(
 n
+)
 =
 >
 toVector
@@ -728,7 +748,9 @@ v
 ;
 toInput
 =
+(
 n
+)
 =
 >
 fp
@@ -743,7 +765,9 @@ n
 ;
 toOutput
 =
+(
 n
+)
 =
 >
 i32
@@ -772,7 +796,9 @@ v
 .
 some
 (
+(
 e
+)
 =
 >
 e
@@ -815,7 +841,9 @@ v
 .
 map
 (
+(
 e
+)
 =
 >
 {
@@ -872,7 +900,9 @@ fullF32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseFract
@@ -899,7 +929,9 @@ fullF32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseExp
@@ -927,7 +959,9 @@ vectorF32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseFract
@@ -955,7 +989,9 @@ vectorF32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseExp
@@ -983,7 +1019,9 @@ vectorF32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseFract
@@ -1011,7 +1049,9 @@ vectorF32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseExp
@@ -1039,7 +1079,9 @@ vectorF32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseFract
@@ -1067,7 +1109,9 @@ vectorF32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseExp
@@ -1094,7 +1138,9 @@ fullF16Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseFract
@@ -1121,7 +1167,9 @@ fullF16Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseExp
@@ -1149,7 +1197,9 @@ vectorF16Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseFract
@@ -1177,7 +1227,9 @@ vectorF16Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseExp
@@ -1205,7 +1257,9 @@ vectorF16Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseFract
@@ -1233,7 +1287,9 @@ vectorF16Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseExp
@@ -1261,7 +1317,9 @@ vectorF16Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseFract
@@ -1289,7 +1347,9 @@ vectorF16Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeVectorCaseExp
@@ -1367,7 +1427,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1384,7 +1446,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1483,7 +1547,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1500,7 +1566,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1608,7 +1676,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1625,7 +1695,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1741,7 +1813,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1758,7 +1832,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1874,7 +1950,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1891,7 +1969,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2007,7 +2087,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2024,7 +2106,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2140,7 +2224,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2157,7 +2243,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2273,7 +2361,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2290,7 +2380,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2397,7 +2489,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2413,7 +2507,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2434,7 +2530,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2533,7 +2631,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2549,7 +2649,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2570,7 +2672,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2678,7 +2782,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2694,7 +2800,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2715,7 +2823,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2831,7 +2941,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2847,7 +2959,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2868,7 +2982,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2984,7 +3100,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3000,7 +3118,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3021,7 +3141,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -3137,7 +3259,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3153,7 +3277,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3174,7 +3300,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -3290,7 +3418,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3306,7 +3436,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3327,7 +3459,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -3443,7 +3577,9 @@ part
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3459,7 +3595,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3480,7 +3618,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {

@@ -2664,7 +2664,7 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+_coords
 =
 >
 expColor
@@ -3054,7 +3054,7 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+_coords
 =
 >
 expColor
@@ -3527,7 +3527,7 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+_coords
 =
 >
 expColor
@@ -4068,7 +4068,7 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+_coords
 =
 >
 expColor
@@ -4464,7 +4464,7 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+_coords
 =
 >
 expColor
@@ -4831,7 +4831,7 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+_coords
 =
 >
 expColor
@@ -5408,7 +5408,7 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+_coords
 =
 >
 expColor

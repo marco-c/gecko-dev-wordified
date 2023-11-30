@@ -571,7 +571,9 @@ correctly
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -590,7 +592,9 @@ kTests
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -742,7 +746,9 @@ error
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1298,7 +1304,9 @@ beginSubcases
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1337,7 +1345,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1864,7 +1874,9 @@ appear
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1993,7 +2005,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2271,7 +2285,9 @@ error
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2290,7 +2306,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {

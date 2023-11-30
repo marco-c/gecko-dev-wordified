@@ -153,7 +153,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -316,7 +318,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2049,7 +2053,9 @@ Uint32Array
 iterRange
 (
 totalInvocations
+(
 x
+)
 =
 >
 x
@@ -2074,7 +2080,9 @@ t
 expectGPUBufferValuesPassCheck
 (
 localIdBuffer
+(
 outputData
+)
 =
 >
 checkEachIndex
@@ -2184,7 +2192,9 @@ t
 expectGPUBufferValuesPassCheck
 (
 globalIdBuffer
+(
 outputData
+)
 =
 >
 checkEachIndex
@@ -2221,7 +2231,9 @@ t
 expectGPUBufferValuesPassCheck
 (
 groupIdBuffer
+(
 outputData
+)
 =
 >
 checkEachIndex
@@ -2264,7 +2276,9 @@ t
 expectGPUBufferValuesPassCheck
 (
 numGroupsBuffer
+(
 outputData
+)
 =
 >
 checkEachIndex

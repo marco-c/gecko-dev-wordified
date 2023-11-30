@@ -187,7 +187,9 @@ buffer
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -227,7 +229,9 @@ expand
 '
 bufferSize
 '
+(
 p
+)
 =
 >
 [
@@ -273,7 +277,9 @@ size
 .
 fn
 (
+(
 t
+)
 =
 >
 {

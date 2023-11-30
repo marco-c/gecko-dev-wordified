@@ -28,7 +28,6 @@ cts
 /
 import
 {
-getDefaultLimit
 kMaximumLimitBaseParams
 makeLimitTestGroup
 }
@@ -189,7 +188,9 @@ kBufferParts
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -453,7 +454,9 @@ maxBufferSize
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -473,6 +476,8 @@ expect
 defaultLimit
 <
 =
+t
+.
 getDefaultLimit
 (
 '

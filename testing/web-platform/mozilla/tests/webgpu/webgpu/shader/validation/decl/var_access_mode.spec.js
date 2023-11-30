@@ -193,7 +193,9 @@ kAddressSpaceInfo
 .
 filter
 (
+(
 as
+)
 =
 >
 as
@@ -266,7 +268,9 @@ decls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -339,7 +343,9 @@ case
 .
 filter
 (
+(
 t
+)
 =
 >
 kAddressSpaceInfo
@@ -407,7 +413,9 @@ shaders
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -569,7 +577,9 @@ decls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -634,7 +644,9 @@ shaders
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -737,7 +749,9 @@ decls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -800,7 +814,9 @@ shaders
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -894,7 +910,9 @@ decls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -957,7 +975,9 @@ shaders
 .
 fn
 (
+(
 t
+)
 =
 >
 {

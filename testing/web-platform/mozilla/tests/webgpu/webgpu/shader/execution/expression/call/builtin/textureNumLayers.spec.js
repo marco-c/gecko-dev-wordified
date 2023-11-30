@@ -197,7 +197,9 @@ texture
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -311,7 +313,9 @@ texture
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -419,7 +423,9 @@ texture
 .
 params
 (
+(
 u
+)
 =
 >
 u

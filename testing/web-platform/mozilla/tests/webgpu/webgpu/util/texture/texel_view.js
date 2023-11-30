@@ -437,7 +437,9 @@ TexelView
 fromTexelsAsBytes
 (
 format
+(
 coords
+)
 =
 >
 {
@@ -703,7 +705,9 @@ bytes
 generator
 ulpFromZero
 :
+(
 coords
+)
 =
 >
 repr
@@ -722,7 +726,9 @@ coords
 )
 color
 :
+(
 coords
+)
 =
 >
 repr
@@ -833,7 +839,9 @@ generator
 ;
 generator
 =
+(
 coords
+)
 =
 >
 applyClamp
@@ -861,7 +869,9 @@ format
 {
 bytes
 :
+(
 coords
+)
 =
 >
 new
@@ -884,7 +894,9 @@ coords
 )
 ulpFromZero
 :
+(
 coords
+)
 =
 >
 repr
@@ -1207,7 +1219,9 @@ numberToString
 =
 integerSampleType
 ?
+(
 n
+)
 =
 >
 n
@@ -1216,7 +1230,9 @@ toFixed
 (
 )
 :
+(
 n
+)
 =
 >
 n
@@ -1260,7 +1276,6 @@ subrectSize
 const
 printCoords
 =
-(
 function
 *
 (
@@ -1309,14 +1324,12 @@ z
 }
 ;
 }
-)
 (
 )
 ;
 const
 printActualBytes
 =
-(
 function
 *
 (
@@ -1366,7 +1379,9 @@ bytes
 (
 coords
 )
+(
 b
+)
 =
 >
 b
@@ -1393,7 +1408,6 @@ join
 ;
 }
 }
-)
 (
 this
 )
@@ -1401,7 +1415,6 @@ this
 const
 printActualColors
 =
-(
 function
 *
 (
@@ -1449,7 +1462,9 @@ componentOrder
 .
 map
 (
+(
 ch
+)
 =
 >
 numberToString
@@ -1470,7 +1485,6 @@ join
 ;
 }
 }
-)
 (
 this
 )

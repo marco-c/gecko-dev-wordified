@@ -109,7 +109,6 @@ return
 statement
 so
 that
-p
 body
 *
 does

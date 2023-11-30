@@ -330,7 +330,9 @@ correctly
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -349,7 +351,9 @@ kTests
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -448,7 +452,9 @@ appear
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -610,7 +616,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {

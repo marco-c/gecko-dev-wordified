@@ -1353,7 +1353,9 @@ type
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1366,7 +1368,9 @@ kTestTypes
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1399,7 +1403,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1505,12 +1511,10 @@ buffer_size
 buffer_size
 +
 (
-(
 ~
 buffer_size
 +
 1
-)
 &
 3
 )
@@ -1657,7 +1661,9 @@ type
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1682,7 +1688,9 @@ kTestTypes
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1715,7 +1723,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1953,7 +1963,9 @@ type
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1978,7 +1990,9 @@ kTestTypes
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2011,7 +2025,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2232,7 +2248,9 @@ buffer
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2388,7 +2406,9 @@ buffer
 .
 fn
 (
+(
 t
+)
 =
 >
 {

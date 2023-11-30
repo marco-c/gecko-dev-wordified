@@ -277,7 +277,9 @@ TexelView
 fromTexelsAsColors
 (
 format
+(
 coords
+)
 =
 >
 {

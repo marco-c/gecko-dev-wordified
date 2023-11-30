@@ -662,7 +662,9 @@ return
 mapColor
 (
 src
+(
 v
+)
 =
 >
 1
@@ -742,7 +744,9 @@ return
 mapColor
 (
 dst
+(
 v
+)
 =
 >
 1
@@ -884,7 +888,9 @@ return
 mapColor
 (
 blendColor
+(
 v
+)
 =
 >
 1
@@ -1208,7 +1214,9 @@ GPUBlendOperations
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1256,7 +1264,9 @@ kBlendOperations
 .
 filter
 (
+(
 t
+)
 =
 >
 {
@@ -1406,7 +1416,9 @@ expand
 '
 blendConstant
 '
+(
 p
+)
 =
 >
 {
@@ -1502,7 +1514,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2141,7 +2155,9 @@ kEncodableTextureFormats
 .
 filter
 (
+(
 f
+)
 =
 >
 {
@@ -2221,7 +2237,9 @@ formats
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2239,7 +2257,9 @@ kBlendableFormats
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2259,7 +2279,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2638,7 +2660,9 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+(
+_coords
+)
 =
 >
 expColor
@@ -2701,7 +2725,9 @@ pass
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3026,7 +3052,9 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+(
+_coords
+)
 =
 >
 expColor
@@ -3157,7 +3185,9 @@ a
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3497,7 +3527,9 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+(
+_coords
+)
 =
 >
 expColor
@@ -3550,7 +3582,9 @@ passes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -4036,7 +4070,9 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+(
+_coords
+)
 =
 >
 expColor
@@ -4119,7 +4155,9 @@ channels
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -4137,7 +4175,9 @@ kColorWriteCombinations
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -4427,7 +4467,9 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+(
+_coords
+)
 =
 >
 expColor
@@ -4493,7 +4535,9 @@ result
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -4512,7 +4556,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -4794,7 +4840,9 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+(
+_coords
+)
 =
 >
 expColor
@@ -4878,7 +4926,9 @@ dstFactor
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -4939,7 +4989,9 @@ dstValue
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -5365,7 +5417,9 @@ TexelView
 fromTexelsAsColors
 (
 format
-coords
+(
+_coords
+)
 =
 >
 expColor

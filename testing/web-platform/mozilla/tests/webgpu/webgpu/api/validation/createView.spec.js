@@ -271,7 +271,9 @@ format
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -354,7 +356,9 @@ true
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -383,7 +387,9 @@ viewFormatFeature
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -559,12 +565,10 @@ viewFormat
 textureFormat
 |
 |
-(
 compatible
 &
 &
 useViewFormatList
-)
 ;
 t
 .
@@ -649,7 +653,9 @@ array
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -679,7 +685,9 @@ undefined
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -699,7 +707,9 @@ viewDimension
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -898,7 +908,9 @@ formats
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -924,7 +936,9 @@ kTextureAspects
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -949,7 +963,9 @@ format
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1013,7 +1029,6 @@ all
 '
 |
 |
-(
 aspect
 =
 =
@@ -1028,10 +1043,8 @@ only
 info
 .
 depth
-)
 |
 |
-(
 aspect
 =
 =
@@ -1046,7 +1059,6 @@ only
 info
 .
 stencil
-)
 ;
 t
 .
@@ -1092,7 +1104,9 @@ expand
 '
 viewDimension
 '
+(
 p
+)
 =
 >
 [
@@ -1425,9 +1439,6 @@ texture
 .
 params
 (
-u
-=
->
 kTextureAndViewDimensions
 .
 beginSubcases
@@ -1448,7 +1459,6 @@ d
 )
 =
 >
-(
 d
 =
 =
@@ -1467,7 +1477,6 @@ d
 1
 ]
 )
-)
 .
 combine
 (
@@ -1482,7 +1491,9 @@ kLevels
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -1605,7 +1616,9 @@ baseArrayLayer
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1636,11 +1649,9 @@ kWidth
 1
 <
 <
-(
 kLevels
 -
 1
-)
 ;
 /
 /
@@ -1836,9 +1847,6 @@ impl
 .
 params
 (
-u
-=
->
 kTextureAndViewDimensions
 .
 beginSubcases
@@ -1861,7 +1869,9 @@ kLevels
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -1984,7 +1994,9 @@ baseMipLevel
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2175,7 +2187,9 @@ array
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2239,7 +2253,9 @@ size
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2365,7 +2381,9 @@ destroyed
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -2381,7 +2399,9 @@ kResourceStates
 .
 fn
 (
+(
 t
+)
 =
 >
 {

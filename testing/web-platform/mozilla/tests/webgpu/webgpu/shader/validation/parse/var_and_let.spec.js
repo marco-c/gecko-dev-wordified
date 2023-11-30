@@ -362,7 +362,9 @@ length
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -405,7 +407,9 @@ kTestTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -520,7 +524,9 @@ decls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -578,7 +584,9 @@ read
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -713,7 +721,9 @@ decls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -774,7 +784,9 @@ suffix
 .
 fn
 (
+(
 t
+)
 =
 >
 {

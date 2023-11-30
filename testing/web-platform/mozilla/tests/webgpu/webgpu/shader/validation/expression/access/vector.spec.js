@@ -192,7 +192,9 @@ v
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -218,7 +220,9 @@ v
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -286,7 +290,9 @@ v
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -312,7 +318,9 @@ v
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -380,7 +388,9 @@ v
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -406,7 +416,9 @@ v
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -497,7 +509,9 @@ i
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -528,7 +542,9 @@ i
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -611,7 +627,9 @@ i
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -642,7 +660,9 @@ i
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -725,7 +745,9 @@ i
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -756,7 +778,9 @@ i
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1476,7 +1500,9 @@ v
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1504,7 +1530,9 @@ v
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1542,7 +1570,9 @@ tan
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1580,7 +1610,9 @@ tan
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1613,7 +1645,9 @@ vec2
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1645,7 +1679,9 @@ x
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1678,7 +1714,9 @@ vec2u
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1710,7 +1748,9 @@ x
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1747,7 +1787,9 @@ i32
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1784,7 +1826,9 @@ i32
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1815,7 +1859,9 @@ i
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1846,7 +1892,9 @@ i
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1918,7 +1966,9 @@ z
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -1943,7 +1993,9 @@ w
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2008,7 +2060,9 @@ b
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2033,7 +2087,9 @@ a
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2133,7 +2189,9 @@ xyz
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2161,7 +2219,9 @@ zyx
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2212,7 +2272,9 @@ xyxz
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2240,7 +2302,9 @@ xyzw
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2268,7 +2332,9 @@ yxwz
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2365,7 +2431,9 @@ rgb
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2393,7 +2461,9 @@ grb
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2421,7 +2491,9 @@ rgbr
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2449,7 +2521,9 @@ rgba
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2477,7 +2551,9 @@ gbra
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2561,7 +2637,9 @@ zyx
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2616,7 +2694,9 @@ xyzw
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2648,7 +2728,9 @@ yx
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -2680,7 +2762,9 @@ xy
 '
 ok
 :
+(
 width
+)
 =
 >
 width
@@ -3050,7 +3134,9 @@ swizzles
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3128,7 +3214,9 @@ bool
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3164,7 +3252,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {

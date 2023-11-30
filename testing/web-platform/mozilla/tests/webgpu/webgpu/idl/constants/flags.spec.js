@@ -140,7 +140,9 @@ count
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -167,7 +169,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -188,7 +192,9 @@ kBufferUsageExp
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -246,7 +252,9 @@ count
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -273,7 +281,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -294,7 +304,9 @@ kTextureUsageExp
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -352,7 +364,9 @@ count
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -379,7 +393,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -400,7 +416,9 @@ kColorWriteExp
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -452,7 +470,9 @@ count
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -479,7 +499,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -500,7 +522,9 @@ kShaderStageExp
 .
 fn
 (
+(
 t
+)
 =
 >
 {

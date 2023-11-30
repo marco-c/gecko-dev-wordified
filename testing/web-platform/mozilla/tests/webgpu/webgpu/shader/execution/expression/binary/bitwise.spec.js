@@ -496,7 +496,9 @@ vector
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -541,7 +543,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -664,7 +668,9 @@ vector
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -709,7 +715,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1041,12 +1049,10 @@ rhs
 =
 0xffffffff
 ^
-(
 1
 <
 <
 j
-)
 ;
 cases
 .
@@ -1152,7 +1158,9 @@ vector
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1197,7 +1205,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1320,7 +1330,9 @@ vector
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1365,7 +1377,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1697,12 +1711,10 @@ rhs
 =
 0xffffffff
 ^
-(
 1
 <
 <
 j
-)
 ;
 cases
 .
@@ -1810,7 +1822,9 @@ vector
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1855,7 +1869,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1980,7 +1996,9 @@ vector
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2025,7 +2043,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {

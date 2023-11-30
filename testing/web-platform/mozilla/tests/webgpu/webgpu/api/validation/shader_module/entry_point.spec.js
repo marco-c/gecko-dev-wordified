@@ -461,7 +461,9 @@ entryPoint
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -485,7 +487,9 @@ kEntryPointTestCases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -598,7 +602,9 @@ entryPoint
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -622,7 +628,9 @@ kEntryPointTestCases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -735,7 +743,9 @@ entryPoint
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -759,7 +769,9 @@ kEntryPointTestCases
 .
 fn
 (
+(
 t
+)
 =
 >
 {

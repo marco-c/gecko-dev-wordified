@@ -148,8 +148,10 @@ storage
 type
 TextureType
 =
+(
 typeof
 kTextureTypes
+)
 [
 number
 ]
@@ -1360,7 +1362,7 @@ void
 draw
 :
 (
-t
+_t
 :
 CompatibilityTest
 encoder
@@ -1581,7 +1583,7 @@ void
 {
 dispatchWorkgroups
 (
-t
+_t
 :
 CompatibilityTest
 encoder

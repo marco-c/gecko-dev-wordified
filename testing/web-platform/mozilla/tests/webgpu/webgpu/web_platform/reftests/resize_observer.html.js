@@ -59,7 +59,9 @@ js
 runRefTest
 (
 async
+(
 t
+)
 =
 >
 {
@@ -782,14 +784,14 @@ promise
 new
 Promise
 (
+(
 _resolve
+)
 =
 >
-(
 resolve
 =
 _resolve
-)
 )
 ;
 function

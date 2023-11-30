@@ -1450,7 +1450,9 @@ yqnbez24
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2193,7 +2195,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2208,7 +2212,9 @@ colors
 .
 map
 (
+(
 value
+)
 =
 >
 TexelView
@@ -2216,7 +2222,9 @@ TexelView
 fromTexelsAsBytes
 (
 kTextureFormat
-coords_
+(
+_coords
+)
 =
 >
 value

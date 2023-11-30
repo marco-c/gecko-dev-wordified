@@ -342,7 +342,9 @@ RGB
 .
 map
 (
+(
 val
+)
 =
 >
 {
@@ -490,7 +492,9 @@ RGB
 .
 map
 (
+(
 val
+)
 =
 >
 {
@@ -1596,7 +1600,9 @@ dstPremultiplied
 )
 ;
 return
+(
 rgba
+)
 =
 >
 {

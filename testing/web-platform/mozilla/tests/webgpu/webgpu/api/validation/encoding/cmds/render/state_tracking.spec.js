@@ -202,7 +202,9 @@ Inputs
 range
 (
 bufferCount
+(
 i
+)
 =
 >
 \
@@ -293,7 +295,9 @@ attributes
 range
 (
 bufferCount
+(
 i
+)
 =
 >
 (
@@ -636,7 +640,9 @@ vertex_buffers_inherit_from_previous_pipeline
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -854,7 +860,9 @@ vertex_buffers_do_not_inherit_between_render_passes
 .
 fn
 (
+(
 t
+)
 =
 >
 {

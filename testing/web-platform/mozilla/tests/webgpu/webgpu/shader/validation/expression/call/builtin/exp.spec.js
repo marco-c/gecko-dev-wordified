@@ -287,7 +287,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -313,7 +315,9 @@ kValuesTypes
 .
 filter
 (
+(
 u
+)
 =
 >
 stageSupportsType
@@ -450,7 +454,9 @@ max
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -490,7 +496,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -598,7 +606,9 @@ builtin
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -617,7 +627,9 @@ kIntegerArgumentTypes
 .
 fn
 (
+(
 t
+)
 =
 >
 {

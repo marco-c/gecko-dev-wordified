@@ -112,7 +112,9 @@ rejected
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -153,7 +155,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -328,7 +332,9 @@ delimiters
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -448,7 +454,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -568,7 +576,9 @@ error
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -587,7 +597,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {

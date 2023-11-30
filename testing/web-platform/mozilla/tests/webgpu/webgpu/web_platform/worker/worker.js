@@ -422,7 +422,9 @@ Uint32Array
 iterRange
 (
 kNumElements
+(
 x
+)
 =
 >
 x
@@ -493,7 +495,9 @@ self
 onmessage
 =
 async
+(
 ev
+)
 =
 >
 {

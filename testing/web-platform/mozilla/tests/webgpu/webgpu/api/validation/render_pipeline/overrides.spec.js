@@ -145,7 +145,9 @@ state
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -374,7 +376,9 @@ normalization
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -630,7 +634,9 @@ state
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -858,7 +864,9 @@ normalized
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1023,7 +1031,9 @@ state
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1115,7 +1125,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1331,7 +1343,9 @@ state
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1423,7 +1437,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1557,7 +1573,9 @@ TypeError
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1639,7 +1657,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1856,7 +1876,9 @@ TypeError
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1938,7 +1960,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2074,7 +2098,9 @@ last_f64_castable
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2360,7 +2386,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2613,7 +2641,9 @@ last_f64_castable
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2899,7 +2929,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3094,7 +3126,9 @@ issue
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3265,7 +3299,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3291,7 +3327,9 @@ f16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3543,7 +3581,9 @@ issue
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -3569,7 +3609,9 @@ f16
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3740,7 +3782,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -118,7 +118,9 @@ promise
 new
 Promise
 (
+(
 resolve
+)
 =
 >
 {
@@ -129,7 +131,9 @@ addEventListener
 '
 message
 '
+(
 ev
+)
 =
 >
 resolve

@@ -363,7 +363,9 @@ list
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -453,7 +455,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -884,7 +888,9 @@ list
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -922,7 +928,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1228,7 +1236,9 @@ list
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1258,7 +1268,9 @@ false
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1392,7 +1404,6 @@ textureUsage1
 =
 hasConflict
 ?
-(
 inRenderPass
 ?
 '
@@ -1402,7 +1413,6 @@ storage
 '
 texture
 '
-)
 :
 textureUsage0
 ;
@@ -2101,7 +2111,9 @@ scope
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2223,7 +2235,9 @@ dst
 .
 fn
 (
+(
 t
+)
 =
 >
 {

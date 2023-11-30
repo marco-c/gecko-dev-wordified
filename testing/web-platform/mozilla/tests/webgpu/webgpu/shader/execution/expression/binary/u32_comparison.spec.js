@@ -276,7 +276,9 @@ vectorU32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeCase
@@ -315,7 +317,9 @@ vectorU32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeCase
@@ -354,7 +358,9 @@ vectorU32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeCase
@@ -391,7 +397,9 @@ vectorU32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeCase
@@ -429,7 +437,9 @@ vectorU32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeCase
@@ -466,7 +476,9 @@ vectorU32Range
 .
 map
 (
+(
 v
+)
 =
 >
 makeCase
@@ -539,7 +551,9 @@ y
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -569,7 +583,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -656,7 +672,9 @@ y
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -686,7 +704,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -772,7 +792,9 @@ y
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -802,7 +824,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -888,7 +912,9 @@ y
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -918,7 +944,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1004,7 +1032,9 @@ y
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1034,7 +1064,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1120,7 +1152,9 @@ y
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1150,7 +1184,9 @@ undefined
 fn
 (
 async
+(
 t
+)
 =
 >
 {

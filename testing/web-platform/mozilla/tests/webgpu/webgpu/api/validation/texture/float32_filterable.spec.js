@@ -166,7 +166,9 @@ enabled
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -205,7 +207,9 @@ kTextureSampleTypes
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -235,7 +239,9 @@ filterable
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -309,7 +315,6 @@ shouldError
 =
 !
 (
-(
 enabled
 &
 &
@@ -320,7 +325,6 @@ sampleType
 '
 float
 '
-)
 |
 |
 sampleType

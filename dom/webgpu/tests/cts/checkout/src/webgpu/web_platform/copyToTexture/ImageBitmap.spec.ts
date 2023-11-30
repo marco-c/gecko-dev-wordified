@@ -352,7 +352,7 @@ covers
 :
 -
 Valid
-dstColorFormat
+dstFormat
 of
 copyExternalImageToTexture
 (
@@ -379,7 +379,7 @@ GPUImageCopyExternalImage
 (
 named
 '
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 '
 in
 cases
@@ -455,7 +455,7 @@ const
 combine
 (
 '
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 '
 [
 true
@@ -466,7 +466,7 @@ false
 combine
 (
 '
-dstColorFormat
+dstFormat
 '
 kValidTextureFormatsForCopyE2T
 )
@@ -531,7 +531,7 @@ t
 .
 params
 .
-dstColorFormat
+dstFormat
 )
 ;
 }
@@ -551,9 +551,9 @@ height
 alpha
 orientation
 colorSpaceConversion
-dstColorFormat
+dstFormat
 dstPremultiplied
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 }
 =
 t
@@ -680,7 +680,7 @@ height
 }
 format
 :
-dstColorFormat
+dstFormat
 usage
 :
 GPUTextureUsage
@@ -702,13 +702,13 @@ expFormat
 =
 kTextureFormatInfo
 [
-dstColorFormat
+dstFormat
 ]
 .
 baseFormat
 ?
 ?
-dstColorFormat
+dstFormat
 ;
 const
 flipSrcBeforeCopy
@@ -769,6 +769,8 @@ format
 expFormat
 flipSrcBeforeCopy
 srcDoFlipYDuringCopy
+:
+srcFlipYInCopy
 conversion
 :
 {
@@ -800,7 +802,7 @@ y
 }
 flipY
 :
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 }
 {
 texture
@@ -1032,7 +1034,7 @@ Valid
 canvas
 -
 Valid
-dstColorFormat
+dstFormat
 of
 copyExternalImageToTexture
 (
@@ -1059,7 +1061,7 @@ GPUImageCopyExternalImage
 (
 named
 '
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 '
 in
 cases
@@ -1118,7 +1120,7 @@ const
 combine
 (
 '
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 '
 [
 true
@@ -1129,7 +1131,7 @@ false
 combine
 (
 '
-dstColorFormat
+dstFormat
 '
 kValidTextureFormatsForCopyE2T
 )
@@ -1194,7 +1196,7 @@ t
 .
 params
 .
-dstColorFormat
+dstFormat
 )
 ;
 }
@@ -1213,9 +1215,9 @@ width
 height
 orientation
 colorSpaceConversion
-dstColorFormat
+dstFormat
 dstPremultiplied
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 }
 =
 t
@@ -1590,7 +1592,7 @@ height
 }
 format
 :
-dstColorFormat
+dstFormat
 usage
 :
 GPUTextureUsage
@@ -1612,13 +1614,13 @@ expFormat
 =
 kTextureFormatInfo
 [
-dstColorFormat
+dstFormat
 ]
 .
 baseFormat
 ?
 ?
-dstColorFormat
+dstFormat
 ;
 const
 flipSrcBeforeCopy
@@ -1679,6 +1681,8 @@ format
 expFormat
 flipSrcBeforeCopy
 srcDoFlipYDuringCopy
+:
+srcFlipYInCopy
 conversion
 :
 {
@@ -1710,7 +1714,7 @@ y
 }
 flipY
 :
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 }
 {
 texture
@@ -1965,7 +1969,7 @@ as
 test
 -
 Valid
-dstColorFormat
+dstFormat
 of
 copyExternalImageToTexture
 (
@@ -1992,7 +1996,7 @@ GPUImageCopyExternalImage
 (
 named
 '
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 '
 in
 cases
@@ -2073,7 +2077,7 @@ const
 combine
 (
 '
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 '
 [
 true
@@ -2119,7 +2123,7 @@ alpha
 orientation
 colorSpaceConversion
 dstPremultiplied
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 }
 =
 t
@@ -2325,6 +2329,8 @@ format
 kColorFormat
 flipSrcBeforeCopy
 srcDoFlipYDuringCopy
+:
+srcFlipYInCopy
 conversion
 :
 {
@@ -2349,7 +2355,7 @@ origin
 srcOrigin
 flipY
 :
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 }
 {
 texture
@@ -2593,7 +2599,7 @@ as
 test
 -
 Valid
-dstColorFormat
+dstFormat
 of
 copyExternalImageToTexture
 (
@@ -2620,7 +2626,7 @@ GPUImageCopyExternalImage
 (
 named
 '
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 '
 in
 cases
@@ -2684,7 +2690,7 @@ const
 combine
 (
 '
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 '
 [
 true
@@ -2729,7 +2735,7 @@ copySubRectInfo
 orientation
 colorSpaceConversion
 dstPremultiplied
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 }
 =
 t
@@ -3195,6 +3201,8 @@ format
 kColorFormat
 flipSrcBeforeCopy
 srcDoFlipYDuringCopy
+:
+srcFlipYInCopy
 conversion
 :
 {
@@ -3219,7 +3227,7 @@ origin
 srcOrigin
 flipY
 :
-srcDoFlipYDuringCopy
+srcFlipYInCopy
 }
 {
 texture

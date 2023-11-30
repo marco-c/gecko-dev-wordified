@@ -153,7 +153,9 @@ clear
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -396,7 +398,9 @@ fullscreen_quad
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1079,7 +1083,9 @@ calls
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1112,7 +1118,9 @@ false
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -2131,7 +2139,9 @@ t
 expectGPUBufferValuesPassCheck
 (
 dst
+(
 data
+)
 =
 >
 checkElementsEqual

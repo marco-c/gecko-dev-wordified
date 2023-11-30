@@ -1253,11 +1253,9 @@ true
 ;
 if
 (
-'
-requestVideoFrameCallback
-'
-in
 video
+.
+requestVideoFrameCallback
 )
 {
 video
@@ -1688,10 +1686,7 @@ Promise
 VideoFrame
 >
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1743,7 +1738,7 @@ TransformStream
 transform
 (
 videoFrame
-controller
+_controller
 )
 {
 videoTrack

@@ -168,7 +168,9 @@ connection
 new
 Promise
 (
+(
 resolve
+)
 =
 >
 {
@@ -285,7 +287,9 @@ connection
 .
 then
 (
+(
 resolved
+)
 =
 >
 {

@@ -356,7 +356,9 @@ texture
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -512,7 +514,9 @@ texture
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -668,7 +672,9 @@ texture
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -839,7 +845,9 @@ texture
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1008,7 +1016,9 @@ texture
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -1141,7 +1151,9 @@ coordinate
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -1316,7 +1328,9 @@ texture
 .
 params
 (
+(
 u
+)
 =
 >
 u

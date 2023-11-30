@@ -600,7 +600,9 @@ calls
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -627,7 +629,9 @@ MAP_READ
 GPUBufferUsage
 .
 COPY_DST
+(
 buffer
+)
 =
 >
 {
@@ -684,7 +688,9 @@ destination
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -742,7 +748,9 @@ MAP_WRITE
 GPUBufferUsage
 .
 COPY_SRC
+(
 buffer
+)
 =
 >
 {
@@ -798,7 +806,9 @@ MAP_READ
 GPUBufferUsage
 .
 COPY_DST
+(
 buffer
+)
 =
 >
 {
@@ -873,7 +883,9 @@ submitting
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -925,7 +937,9 @@ MAP_WRITE
 GPUBufferUsage
 .
 COPY_SRC
+(
 buffer
+)
 =
 >
 {
@@ -1002,7 +1016,9 @@ submitting
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1054,7 +1070,9 @@ MAP_READ
 GPUBufferUsage
 .
 COPY_DST
+(
 buffer
+)
 =
 >
 {
@@ -1446,7 +1464,9 @@ true
 fn
 (
 async
+(
 t
+)
 =
 >
 {

@@ -317,7 +317,9 @@ dimensions
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -405,7 +407,9 @@ size
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -539,7 +543,9 @@ device
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -566,7 +572,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -582,7 +590,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -724,7 +734,9 @@ usages
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -912,7 +924,9 @@ dimension
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1079,7 +1093,9 @@ them
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1112,7 +1128,9 @@ sampleCount
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1269,7 +1287,9 @@ mipLevels
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1362,7 +1382,9 @@ mipLevelCount
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -1401,7 +1423,9 @@ mipLevel
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1561,7 +1585,9 @@ size
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1669,7 +1695,9 @@ mipLevel
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -1844,7 +1872,6 @@ d
 )
 =
 >
-(
 d
 =
 =
@@ -1864,11 +1891,12 @@ d
 ]
 )
 )
-)
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1909,7 +1937,9 @@ feature
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2246,7 +2276,9 @@ size
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2388,7 +2420,9 @@ z
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -2424,7 +2458,9 @@ texelBlockAlignmentTestExpanderForValueToCoordinate
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2465,7 +2501,9 @@ feature
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2713,7 +2751,9 @@ size
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2816,7 +2856,9 @@ depthOrArrayLayers
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -2852,7 +2894,9 @@ texelBlockAlignmentTestExpanderForValueToCoordinate
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -2893,7 +2937,9 @@ feature
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3166,7 +3212,9 @@ levels
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3249,7 +3297,9 @@ coordinateToTest
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -3286,7 +3336,9 @@ mipLevel
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -227,7 +227,9 @@ this
 eventualAsyncExpectation
 (
 async
+(
 niceStack
+)
 =
 >
 {
@@ -341,7 +343,9 @@ attemptGarbageCollection
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -500,7 +504,9 @@ destroy
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -587,7 +593,9 @@ accessed
 fn
 (
 async
+(
 t
+)
 =
 >
 {

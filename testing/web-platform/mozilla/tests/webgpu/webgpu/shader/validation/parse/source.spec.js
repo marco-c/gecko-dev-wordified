@@ -110,7 +110,9 @@ successfully
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -186,7 +188,9 @@ successfully
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -229,7 +233,9 @@ fails
 .
 fn
 (
+(
 t
+)
 =
 >
 {

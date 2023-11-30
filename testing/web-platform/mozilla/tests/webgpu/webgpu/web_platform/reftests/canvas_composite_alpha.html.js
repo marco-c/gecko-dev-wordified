@@ -75,7 +75,9 @@ writeCanvasMethod
 {
 runRefTest
 (
+(
 t
+)
 =
 >
 {
@@ -523,7 +525,9 @@ canvas
 .
 forEach
 (
+(
 canvas
+)
 =
 >
 {

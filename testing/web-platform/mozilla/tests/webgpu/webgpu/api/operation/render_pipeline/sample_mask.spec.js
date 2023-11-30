@@ -466,12 +466,10 @@ sampleMask
 &
 fragmentShaderOutputMask
 &
-(
 1
 <
 <
 sampleIndex
-)
 )
 >
 0
@@ -1975,7 +1973,9 @@ TexelView
 fromTexelsAsBytes
 (
 format
+(
 coord
+)
 =
 >
 {
@@ -3092,7 +3092,9 @@ ignored
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3209,7 +3211,9 @@ fragmentShaderOutputMask
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -3781,7 +3785,9 @@ color
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -3880,7 +3886,9 @@ alpha1
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -4140,7 +4148,9 @@ alpha0ParamsArray
 range
 (
 16
+(
 i
+)
 =
 >
 i

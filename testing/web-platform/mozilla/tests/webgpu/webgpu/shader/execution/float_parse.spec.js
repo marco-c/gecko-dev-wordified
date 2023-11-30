@@ -258,7 +258,9 @@ iterRange
 expected
 .
 length
-x
+(
+_i
+)
 =
 >
 0xdeadbeef
@@ -742,7 +744,9 @@ correctly
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -761,7 +765,9 @@ kTestFloats
 .
 fn
 (
+(
 t
+)
 =
 >
 {

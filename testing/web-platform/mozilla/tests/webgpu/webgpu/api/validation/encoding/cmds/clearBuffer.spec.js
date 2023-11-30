@@ -251,7 +251,9 @@ fails
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -267,7 +269,9 @@ kResourceStates
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -425,7 +429,9 @@ device
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -444,7 +450,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -460,7 +468,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -593,7 +603,9 @@ size
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -674,7 +686,9 @@ copyBuffers
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -692,7 +706,9 @@ kBufferUsages
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -867,7 +883,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1035,7 +1053,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1153,7 +1173,9 @@ kMaxSafeMultipleOf8
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1310,7 +1332,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {

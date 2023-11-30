@@ -591,7 +591,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -622,7 +624,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -737,7 +741,9 @@ sizes
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -771,7 +777,9 @@ vectorize_rhs
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1051,7 +1059,9 @@ values
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1082,7 +1092,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1197,7 +1209,9 @@ sizes
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1231,7 +1245,9 @@ vectorize_rhs
 .
 fn
 (
+(
 t
+)
 =
 >
 {

@@ -288,8 +288,10 @@ submit
 type
 CommandValidationStage
 =
+(
 typeof
 kCommandValidationStages
+)
 [
 number
 ]
@@ -7427,11 +7429,9 @@ const
 ctx
 =
 (
-(
 canvas
 as
 unknown
-)
 as
 HTMLCanvasElement
 )

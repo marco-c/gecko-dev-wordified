@@ -1403,9 +1403,6 @@ texture
 .
 params
 (
-u
-=
->
 kTextureAndViewDimensions
 .
 beginSubcases
@@ -1816,9 +1813,6 @@ impl
 .
 params
 (
-u
-=
->
 kTextureAndViewDimensions
 .
 beginSubcases

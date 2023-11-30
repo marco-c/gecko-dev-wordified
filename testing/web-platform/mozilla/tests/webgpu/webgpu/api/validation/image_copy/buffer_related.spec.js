@@ -241,7 +241,9 @@ states
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -290,7 +292,9 @@ kResourceStates
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -476,7 +480,9 @@ device
 .
 paramsSubcasesOnly
 (
+(
 u
+)
 =
 >
 u
@@ -510,7 +516,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -526,7 +534,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -725,7 +735,9 @@ usages
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -810,7 +822,9 @@ COPY_DST
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1038,7 +1052,9 @@ copied
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1129,7 +1145,9 @@ expand
 '
 _textureHeightInBlocks
 '
+(
 p
+)
 =
 >
 [
@@ -1151,7 +1169,9 @@ copyHeightInBlocks
 .
 unless
 (
+(
 p
+)
 =
 >
 p
@@ -1187,7 +1207,9 @@ subresource
 .
 unless
 (
+(
 p
+)
 =
 >
 {
@@ -1288,7 +1310,6 @@ copyHeightInBlocks
 )
 =
 >
-(
 bytesPerRow
 =
 =
@@ -1300,10 +1321,8 @@ copyHeightInBlocks
 <
 =
 1
-)
 |
 |
-(
 bytesPerRow
 !
 =
@@ -1322,11 +1341,12 @@ format
 bytesPerBlock
 )
 )
-)
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1367,7 +1387,9 @@ feature
 .
 fn
 (
+(
 t
+)
 =
 >
 {

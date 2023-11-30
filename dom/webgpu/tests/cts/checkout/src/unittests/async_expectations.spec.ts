@@ -112,6 +112,7 @@ extends
 UnitTest
 {
 public
+override
 immediateAsyncExpectation
 <
 T
@@ -144,6 +145,7 @@ fn
 ;
 }
 public
+override
 eventualAsyncExpectation
 <
 T

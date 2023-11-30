@@ -589,9 +589,6 @@ number
 >
 )
 {
-const
-M
-=
 /
 *
 prettier
@@ -599,6 +596,9 @@ prettier
 ignore
 *
 /
+const
+M
+=
 [
 [
 506752
@@ -683,9 +683,6 @@ number
 >
 )
 {
-const
-M
-=
 /
 *
 prettier
@@ -693,6 +690,9 @@ prettier
 ignore
 *
 /
+const
+M
+=
 [
 [
 12831
@@ -910,9 +910,6 @@ number
 >
 )
 {
-const
-M
-=
 /
 *
 prettier
@@ -920,6 +917,9 @@ prettier
 ignore
 *
 /
+const
+M
+=
 [
 [
 608311
@@ -1006,9 +1006,6 @@ number
 >
 )
 {
-const
-M
-=
 /
 *
 prettier
@@ -1016,6 +1013,9 @@ prettier
 ignore
 *
 /
+const
+M
+=
 [
 [
 446124
@@ -1156,7 +1156,6 @@ number
 A
 :
 number
-;
 }
 )
 :
@@ -1176,6 +1175,7 @@ number
 A
 :
 number
+;
 }
 {
 assert
@@ -1432,7 +1432,6 @@ number
 A
 :
 number
-;
 }
 )
 :
@@ -1452,6 +1451,7 @@ number
 A
 :
 number
+;
 }
 {
 assert

@@ -392,7 +392,9 @@ view
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -436,7 +438,9 @@ false
 .
 filter
 (
+(
 t
+)
 =
 >
 !
@@ -454,7 +458,9 @@ stencil
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -489,7 +495,9 @@ feature
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -897,7 +905,6 @@ expectedStencilValue
 stencilClearValue
 &
 (
-(
 stencilAspectSizeInBytes
 <
 <
@@ -905,7 +912,6 @@ stencilAspectSizeInBytes
 )
 -
 1
-)
 ;
 /
 /

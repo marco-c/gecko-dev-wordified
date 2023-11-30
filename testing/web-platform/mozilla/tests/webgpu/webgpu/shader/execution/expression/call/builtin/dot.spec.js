@@ -309,7 +309,9 @@ f16
 .
 flatMap
 (
+(
 trait
+)
 =
 >
 [
@@ -320,7 +322,9 @@ trait
 .
 flatMap
 (
+(
 N
+)
 =
 >
 [
@@ -330,7 +334,9 @@ false
 .
 map
 (
+(
 nonConst
+)
 =
 >
 (
@@ -532,7 +538,9 @@ tests
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -593,7 +601,9 @@ tests
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -654,7 +664,9 @@ tests
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -716,7 +728,9 @@ test
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -779,7 +793,9 @@ vec2s
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -796,7 +812,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -906,7 +924,9 @@ vec3s
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -923,7 +943,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1033,7 +1055,9 @@ vec4s
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1050,7 +1074,9 @@ allInputSources
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1160,7 +1186,9 @@ vec2s
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1176,7 +1204,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1197,7 +1227,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1307,7 +1339,9 @@ vec3s
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1323,7 +1357,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1344,7 +1380,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -1454,7 +1492,9 @@ vec4s
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1470,7 +1510,9 @@ allInputSources
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -1491,7 +1533,9 @@ f16
 fn
 (
 async
+(
 t
+)
 =
 >
 {

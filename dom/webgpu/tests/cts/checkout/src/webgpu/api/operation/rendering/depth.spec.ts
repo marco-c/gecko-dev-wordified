@@ -583,7 +583,7 @@ TexelView
 fromTexelsAsColors
 (
 renderTargetFormat
-coords
+_coords
 =
 >
 expColor

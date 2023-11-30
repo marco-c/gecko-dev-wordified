@@ -240,7 +240,9 @@ iterRange
 expected
 .
 length
-x
+(
+_i
+)
 =
 >
 0xdeadbeef
@@ -453,7 +455,9 @@ preserved
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -658,7 +662,9 @@ preserved
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -871,7 +877,9 @@ preserved
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1400,7 +1408,9 @@ preserved
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1601,7 +1611,9 @@ preserved
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1779,7 +1791,9 @@ struct
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -1878,7 +1892,9 @@ matCx3
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -1913,7 +1929,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -2233,7 +2251,9 @@ preserved
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -2268,7 +2288,9 @@ beginSubcases
 .
 fn
 (
+(
 t
+)
 =
 >
 {

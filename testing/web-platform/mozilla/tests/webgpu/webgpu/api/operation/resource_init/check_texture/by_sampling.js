@@ -303,7 +303,9 @@ componentOrder
 .
 map
 (
+(
 c
+)
 =
 >
 c

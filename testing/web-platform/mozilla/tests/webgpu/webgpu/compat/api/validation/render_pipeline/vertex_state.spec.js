@@ -265,7 +265,9 @@ instance_index
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -318,7 +320,9 @@ true
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -388,7 +392,9 @@ inputs
 range
 (
 numAttribs
+(
 i
+)
 =
 >
 location
@@ -411,7 +417,9 @@ outputs
 range
 (
 numAttribs
+(
 i
+)
 =
 >
 v
@@ -592,7 +600,9 @@ attributes
 range
 (
 numAttribs
+(
 i
+)
 =
 >
 (

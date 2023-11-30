@@ -427,9 +427,6 @@ Y
 -
 down
 .
-const
-triangleVertices
-=
 /
 *
 prettier
@@ -437,6 +434,9 @@ prettier
 ignore
 *
 /
+const
+triangleVertices
+=
 [
 0
 .

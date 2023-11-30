@@ -1141,7 +1141,9 @@ addEventListener
 '
 error
 '
+(
 event
+)
 =
 >
 reject
@@ -1173,11 +1175,9 @@ true
 ;
 if
 (
-'
-requestVideoFrameCallback
-'
-in
 video
+.
+requestVideoFrameCallback
 )
 {
 video
@@ -1564,7 +1564,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >
@@ -1608,7 +1607,7 @@ TransformStream
 transform
 (
 videoFrame
-controller
+_controller
 )
 {
 videoTrack

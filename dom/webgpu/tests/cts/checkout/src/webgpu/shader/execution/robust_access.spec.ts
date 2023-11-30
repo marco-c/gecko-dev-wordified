@@ -219,6 +219,7 @@ value
 .
 *
 /
+async
 function
 runShaderTest
 (
@@ -247,7 +248,10 @@ number
 ]
 )
 :
+Promise
+<
 void
+>
 {
 assert
 (
@@ -443,11 +447,12 @@ source
 const
 pipeline
 =
+await
 t
 .
 device
 .
-createComputePipeline
+createComputePipelineAsync
 (
 {
 layout
@@ -1256,6 +1261,7 @@ generateTypes
 .
 fn
 (
+async
 t
 =
 >
@@ -2712,6 +2718,7 @@ accessing
 the
 buffer
 .
+await
 runShaderTest
 (
 t
@@ -2813,6 +2820,7 @@ bufferBindingEnd
 }
 else
 {
+await
 runShaderTest
 (
 t

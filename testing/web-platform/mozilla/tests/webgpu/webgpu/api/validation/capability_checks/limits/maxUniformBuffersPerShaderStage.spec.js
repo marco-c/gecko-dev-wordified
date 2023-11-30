@@ -141,7 +141,9 @@ order
 range
 (
 numBindings
+(
 i
+)
 =
 >
 (
@@ -233,7 +235,9 @@ kReorderOrderKeys
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -363,7 +367,9 @@ kReorderOrderKeys
 fn
 (
 async
+(
 t
+)
 =
 >
 {
@@ -408,7 +414,9 @@ bindGroupLayouts
 range
 (
 kNumGroups
+(
 i
+)
 =
 >
 {
@@ -576,7 +584,9 @@ kBindGroupTests
 fn
 (
 async
+(
 t
+)
 =
 >
 {

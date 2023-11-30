@@ -205,7 +205,9 @@ kResourceStates
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -317,7 +319,9 @@ false
 .
 beforeAllSubcases
 (
+(
 t
+)
 =
 >
 {
@@ -333,7 +337,9 @@ undefined
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -482,7 +488,9 @@ INDEX
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -604,7 +612,9 @@ expand
 '
 offset
 '
+(
 p
+)
 =
 >
 {
@@ -637,7 +647,9 @@ uint16
 .
 fn
 (
+(
 t
+)
 =
 >
 {
@@ -764,7 +776,9 @@ buildBufferOffsetAndSizeOOBTestParams
 .
 fn
 (
+(
 t
+)
 =
 >
 {

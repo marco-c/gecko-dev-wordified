@@ -40,7 +40,7 @@ specified
 function
 checkType
 (
-x
+_
 )
 {
 }

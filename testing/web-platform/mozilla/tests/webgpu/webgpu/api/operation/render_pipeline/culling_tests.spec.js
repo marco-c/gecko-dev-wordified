@@ -139,13 +139,11 @@ none
 '
 &
 &
-(
 frontFace
 =
 =
 =
 face
-)
 =
 =
 =
@@ -562,7 +560,9 @@ color
 .
 map
 (
+(
 v
+)
 =
 >
 v
@@ -777,7 +777,9 @@ strip
 .
 params
 (
+(
 u
+)
 =
 >
 u
@@ -862,7 +864,9 @@ strip
 .
 fn
 (
+(
 t
+)
 =
 >
 {

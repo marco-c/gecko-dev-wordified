@@ -39,6 +39,10 @@ type
 Status
 =
 '
+notrun
+'
+|
+'
 running
 '
 |

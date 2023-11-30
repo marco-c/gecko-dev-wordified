@@ -437,6 +437,7 @@ TestQueryMultiTest
 extends
 TestQueryMultiFile
 {
+override
 readonly
 level
 :
@@ -444,12 +445,13 @@ TestQueryLevel
 =
 2
 ;
+override
 readonly
 isMultiFile
-:
-false
 =
 false
+as
+const
 ;
 readonly
 isMultiTest
@@ -527,6 +529,7 @@ test
 ]
 ;
 }
+override
 get
 depthInLevel
 (
@@ -541,6 +544,7 @@ length
 ;
 }
 protected
+override
 toStringHelper
 (
 )
@@ -651,6 +655,7 @@ TestQueryMultiCase
 extends
 TestQueryMultiTest
 {
+override
 readonly
 level
 :
@@ -658,12 +663,13 @@ TestQueryLevel
 =
 3
 ;
+override
 readonly
 isMultiTest
-:
-false
 =
 false
+as
+const
 ;
 readonly
 isMultiCase
@@ -742,6 +748,7 @@ params
 }
 ;
 }
+override
 get
 depthInLevel
 (
@@ -761,6 +768,7 @@ length
 ;
 }
 protected
+override
 toStringHelper
 (
 )
@@ -851,6 +859,7 @@ TestQuerySingleCase
 extends
 TestQueryMultiCase
 {
+override
 readonly
 level
 :
@@ -858,13 +867,15 @@ TestQueryLevel
 =
 4
 ;
+override
 readonly
 isMultiCase
-:
-false
 =
 false
+as
+const
 ;
+override
 get
 depthInLevel
 (
@@ -875,6 +886,7 @@ return
 ;
 }
 protected
+override
 toStringHelper
 (
 )
