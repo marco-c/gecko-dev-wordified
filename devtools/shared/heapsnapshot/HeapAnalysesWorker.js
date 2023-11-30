@@ -57,6 +57,14 @@ MPL
 *
 /
 /
+*
+eslint
+-
+env
+worker
+*
+/
+/
 /
 This
 is

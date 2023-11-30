@@ -63,6 +63,14 @@ strict
 ;
 /
 *
+eslint
+-
+env
+worker
+*
+/
+/
+*
 *
 *
 Import

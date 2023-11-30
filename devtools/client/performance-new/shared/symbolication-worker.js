@@ -102,6 +102,14 @@ MPL
 *
 /
 /
+*
+eslint
+-
+env
+worker
+*
+/
+/
 /
 FIXME
 :

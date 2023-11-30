@@ -65,6 +65,14 @@ strict
 ;
 /
 *
+eslint
+-
+env
+worker
+*
+/
+/
+*
 import
 -
 globals
