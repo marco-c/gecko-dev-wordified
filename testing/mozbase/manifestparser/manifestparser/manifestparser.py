@@ -278,6 +278,10 @@ True
 use_toml
 =
 True
+        
+document
+=
+False
     
 )
 :
@@ -578,6 +582,36 @@ to
 True
 )
         
+:
+param
+document
+:
+If
+True
+*
+.
+toml
+configration
+will
+preserve
+the
+parsed
+document
+from
+tomlkit
+in
+self
+.
+source_documents
+[
+filename
+]
+(
+defaults
+to
+False
+)
+        
 "
 "
 "
@@ -615,6 +649,22 @@ set
         
 self
 .
+source_documents
+=
+{
+}
+#
+source
+document
+for
+each
+filename
+(
+optional
+)
+        
+self
+.
 strict
 =
 strict
@@ -648,6 +698,12 @@ self
 use_toml
 =
 use_toml
+        
+self
+.
+document
+=
+document
         
 self
 .
@@ -1782,6 +1838,7 @@ configuration
         
 sections
 defaults
+document
 =
 read_fn
 (
@@ -1805,8 +1862,30 @@ handle_defaults
 self
 .
 _handle_defaults
+            
+document
+=
+self
+.
+document
         
 )
+        
+if
+filename
+is
+not
+None
+:
+            
+self
+.
+source_documents
+[
+filename
+]
+=
+document
         
 if
 parentmanifest
