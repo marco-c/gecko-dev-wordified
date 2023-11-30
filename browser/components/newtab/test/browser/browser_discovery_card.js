@@ -115,11 +115,6 @@ true
 }
 )
 ]
-)
-;
-await
-pushPrefs
-(
 [
 "
 browser
