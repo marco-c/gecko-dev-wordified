@@ -819,13 +819,6 @@ AllowSoftwareWebRenderOGL
 bool
 false
 )
-\
-_
-(
-WebglUseHardware
-bool
-true
-)
 /
 *
 Add
