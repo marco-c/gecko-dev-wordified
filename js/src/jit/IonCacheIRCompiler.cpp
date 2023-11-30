@@ -939,8 +939,9 @@ code
 size_t
 sizeOfLiveRegsInBytes
 =
-masm
-.
+MacroAssembler
+:
+:
 PushRegsInMaskSizeInBytes
 (
 liveRegs

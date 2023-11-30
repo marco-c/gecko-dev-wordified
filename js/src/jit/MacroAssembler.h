@@ -4028,6 +4028,7 @@ used
 by
 PushRegsInMask
 .
+static
 size_t
 PushRegsInMaskSizeInBytes
 (
