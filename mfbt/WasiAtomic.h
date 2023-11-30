@@ -150,6 +150,15 @@ else
 #
 include
 <
+cstddef
+>
+/
+/
+For
+ptrdiff_t
+#
+include
+<
 cstdint
 >
 /
