@@ -1323,7 +1323,7 @@ lineno
 0
 column
 =
-0
+1
 ;
 nsJSUtils
 :

@@ -823,7 +823,7 @@ mPreventDefaultLineNumber
 )
 mPreventDefaultColumnNumber
 (
-0
+1
 )
 mWaitToRespond
 (
@@ -4591,7 +4591,7 @@ line
 uint32_t
 column
 =
-0
+1
 ;
 nsJSUtils
 :
@@ -5097,7 +5097,7 @@ mLine
 )
 mColumn
 (
-0
+1
 )
 {
 mWorkerPrivate
