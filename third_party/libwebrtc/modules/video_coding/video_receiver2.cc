@@ -169,17 +169,6 @@ modules
 /
 video_coding
 /
-encoded_frame
-.
-h
-"
-#
-include
-"
-modules
-/
-video_coding
-/
 generic_decoder
 .
 h
@@ -489,7 +478,7 @@ VideoReceiver2
 Decode
 (
 const
-VCMEncodedFrame
+EncodedFrame
 *
 frame
 )
