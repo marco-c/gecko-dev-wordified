@@ -530,6 +530,15 @@ frame_cadence_adapter
 .
 h
 "
+#
+include
+"
+video
+/
+frame_dumping_encoder
+.
+h
+"
 namespace
 webrtc
 {
@@ -6205,6 +6214,8 @@ reset
 ;
 encoder_
 =
+MaybeCreateFrameDumpingEncoderWrapper
+(
 settings_
 .
 encoder_factory
@@ -6215,6 +6226,8 @@ CreateVideoEncoder
 encoder_config_
 .
 video_format
+)
+field_trials_
 )
 ;
 if
