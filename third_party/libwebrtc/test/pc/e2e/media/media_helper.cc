@@ -562,6 +562,9 @@ move
 capturer
 )
 is_screencast
+video_config
+.
+stream_label
 )
 ;
 out
