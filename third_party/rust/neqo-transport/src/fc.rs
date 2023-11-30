@@ -5345,6 +5345,14 @@ Server
 #
 [
 should_panic
+(
+expected
+=
+"
+.
+is_allowed
+"
+)
 ]
 #
 [
