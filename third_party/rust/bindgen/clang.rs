@@ -11714,11 +11714,7 @@ new
 (
 s
 .
-clone
-(
-)
-.
-into_boxed_bytes
+as_bytes
 (
 )
 )
