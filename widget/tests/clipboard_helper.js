@@ -889,6 +889,16 @@ png
 "
 ]
 aClipboardType
+null
+SpecialPowers
+.
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 {
 QueryInterface
 :

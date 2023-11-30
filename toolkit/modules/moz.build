@@ -1859,6 +1859,13 @@ EXTRA_JS_MODULES
 =
 [
 "
+ClipboardContextMenu
+.
+sys
+.
+mjs
+"
+"
 GMPExtractorWorker
 .
 js
