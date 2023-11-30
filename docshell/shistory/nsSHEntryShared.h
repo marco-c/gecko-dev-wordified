@@ -972,7 +972,7 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-mContentViewer
+mDocumentViewer
 ;
 RefPtr
 <

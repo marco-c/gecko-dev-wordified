@@ -1015,7 +1015,7 @@ nullptr
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 RemoveFromBFCacheSync
@@ -1158,7 +1158,7 @@ SyncPresentationState
 {
 if
 (
-mContentViewer
+mDocumentViewer
 &
 &
 mWindowState
@@ -1233,10 +1233,10 @@ nullptr
 }
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
-mContentViewer
+mDocumentViewer
 -
 >
 ClearHistoryEntry
@@ -1248,7 +1248,7 @@ RemoveFromExpirationTracker
 (
 )
 ;
-mContentViewer
+mDocumentViewer
 =
 nullptr
 ;
@@ -1303,7 +1303,7 @@ aViewer
 |
 |
 !
-mContentViewer
+mDocumentViewer
 "
 SHEntryShared
 already
@@ -1314,7 +1314,7 @@ viewer
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 |
 |
 !
@@ -1333,7 +1333,7 @@ we
 '
 re
 setting
-mContentViewer
+mDocumentViewer
 to
 null
 state
@@ -1389,13 +1389,13 @@ IsTracked
 )
 )
 ;
-mContentViewer
+mDocumentViewer
 =
 aViewer
 ;
 if
 (
-mContentViewer
+mDocumentViewer
 )
 {
 /
@@ -1479,7 +1479,7 @@ the
 contentviewer
 mDocument
 =
-mContentViewer
+mDocumentViewer
 -
 >
 GetDocument
@@ -1523,7 +1523,7 @@ RemoveFromBFCacheSync
 {
 MOZ_ASSERT
 (
-mContentViewer
+mDocumentViewer
 &
 &
 mDocument
@@ -1574,7 +1574,7 @@ this
 DropPresentationState
 would
 clear
-mContentViewer
+mDocumentViewer
 .
 nsCOMPtr
 <
@@ -1582,7 +1582,7 @@ nsIDocumentViewer
 >
 viewer
 =
-mContentViewer
+mDocumentViewer
 ;
 DropPresentationState
 (
@@ -1661,7 +1661,7 @@ RemoveFromBFCacheAsync
 {
 MOZ_ASSERT
 (
-mContentViewer
+mDocumentViewer
 &
 &
 mDocument
@@ -1704,7 +1704,7 @@ NS_ERROR_UNEXPECTED
 DropPresentationState
 would
 clear
-mContentViewer
+mDocumentViewer
 &
 mDocument
 .
@@ -1737,7 +1737,7 @@ nsIDocumentViewer
 >
 viewer
 =
-mContentViewer
+mDocumentViewer
 ;
 RefPtr
 <
