@@ -135,7 +135,7 @@ coverage
 "
     
 "
-nose
+pynose
 "
     
 "
