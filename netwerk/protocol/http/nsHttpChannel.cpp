@@ -49633,6 +49633,16 @@ mTRRSkipReason
 echConfigUsed
 )
 ;
+StoreResolvedByTRR
+(
+isTrr
+)
+;
+StoreEchConfigUsed
+(
+echConfigUsed
+)
+;
 }
 /
 /
