@@ -1312,7 +1312,7 @@ const
 dbg
 =
 await
-initDebugger
+initDebuggerWithAbsoluteURL
 (
 "
 data

@@ -18298,6 +18298,11 @@ evaluateExpressionInConsole
 (
 hud
 expression
+expectedClassName
+=
+"
+result
+"
 )
 {
 const
@@ -18377,9 +18382,7 @@ classList
 .
 contains
 (
-"
-result
-"
+expectedClassName
 )
 &
 &
