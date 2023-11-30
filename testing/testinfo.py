@@ -3646,7 +3646,7 @@ s
 url
 )
         
-testrundata
+olddata
 =
 self
 .
@@ -3737,7 +3737,7 @@ days
             
 if
 not
-testrundata
+olddata
 .
 get
 (
@@ -3821,7 +3821,7 @@ date
 url
 ]
 )
-                
+            
 testrundata
 [
 str
@@ -3834,8 +3834,17 @@ date
 )
 ]
 =
-{
-}
+olddata
+[
+str
+(
+nextday
+.
+date
+(
+)
+)
+]
             
 startday
 =
