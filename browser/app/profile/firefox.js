@@ -241,7 +241,7 @@ abuseReport
 .
 amoFormEnabled
 "
-false
+true
 )
 ;
 /
