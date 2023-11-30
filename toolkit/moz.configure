@@ -5679,6 +5679,7 @@ return
 True
 depends
 (
+artifact_builds
 c_compiler
 when
 =
@@ -5687,12 +5688,14 @@ wmf
 def
 wmfmediaengine
 (
+artifact_builds
 c_compiler
 )
 :
-return
+if
 c_compiler
-and
+:
+return
 c_compiler
 .
 type
@@ -5703,6 +5706,11 @@ clang
 -
 cl
 "
+return
+bool
+(
+artifact_builds
+)
 set_config
 (
 "
