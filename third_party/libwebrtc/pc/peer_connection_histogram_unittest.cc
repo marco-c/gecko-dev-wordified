@@ -208,6 +208,17 @@ h
 #
 include
 "
+api
+/
+test
+/
+mock_async_dns_resolver
+.
+h
+"
+#
+include
+"
 media
 /
 base
@@ -1711,7 +1722,7 @@ NiceMock
 webrtc
 :
 :
-MockAsyncResolverFactory
+MockAsyncDnsResolverFactory
 >
 >
 (
@@ -1817,7 +1828,7 @@ get
 ;
 deps
 .
-async_resolver_factory
+async_dns_resolver_factory
 =
 std
 :

@@ -1876,7 +1876,7 @@ if
 pc_dependencies
 -
 >
-async_resolver_factory
+async_dns_resolver_factory
 !
 =
 nullptr
@@ -1884,7 +1884,7 @@ nullptr
 {
 pc_deps
 .
-async_resolver_factory
+async_dns_resolver_factory
 =
 std
 :
@@ -1894,7 +1894,7 @@ move
 pc_dependencies
 -
 >
-async_resolver_factory
+async_dns_resolver_factory
 )
 ;
 }
