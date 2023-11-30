@@ -348,7 +348,7 @@ aObj
 mSHistory
 -
 >
-EvictExpiredContentViewerForEntry
+EvictExpiredDocumentViewerForEntry
 (
 aObj
 )
