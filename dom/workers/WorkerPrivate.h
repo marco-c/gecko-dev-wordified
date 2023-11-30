@@ -490,6 +490,13 @@ nsTObserverArray
 .
 h
 "
+#
+include
+"
+stdint
+.
+h
+"
 class
 nsIThreadInternal
 ;
@@ -563,6 +570,8 @@ py
 .
 enum
 WorkerKind
+:
+uint8_t
 {
 WorkerKindDedicated
 WorkerKindShared
