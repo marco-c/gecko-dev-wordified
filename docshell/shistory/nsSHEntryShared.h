@@ -644,7 +644,7 @@ GetFrameLoader
 )
 ;
 void
-NotifyListenersContentViewerEvicted
+NotifyListenersDocumentViewerEvicted
 (
 )
 ;

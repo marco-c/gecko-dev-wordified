@@ -689,7 +689,7 @@ dom
 SHEntrySharedParentState
 :
 :
-NotifyListenersContentViewerEvicted
+NotifyListenersDocumentViewerEvicted
 (
 )
 {
@@ -729,7 +729,7 @@ get
 nsshistory
 -
 >
-NotifyListenersContentViewerEvicted
+NotifyListenersDocumentViewerEvicted
 (
 1
 )

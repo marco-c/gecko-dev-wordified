@@ -1278,7 +1278,7 @@ aOutEndIndex
 )
 ;
 void
-NotifyListenersContentViewerEvicted
+NotifyListenersDocumentViewerEvicted
 (
 uint32_t
 aNumEvicted
