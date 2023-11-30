@@ -7476,7 +7476,7 @@ NS_IMETHODIMP
 nsSHistory
 :
 :
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 (
 int32_t
 aIndex
@@ -7494,7 +7494,7 @@ Debug
 nsSHistory
 :
 :
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 %
 i
 "
@@ -7577,7 +7577,7 @@ curIndex
 1
 )
 {
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 (
 curIndex
 )
@@ -8300,7 +8300,7 @@ aFrameLoader
 ;
 /
 /
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 is
 called
 here
@@ -8335,7 +8335,7 @@ swap
 shistory
 -
 >
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 (
 indexOfHistoryLoad
 )

@@ -8349,7 +8349,7 @@ index
 shistory
 -
 >
-EvictOutOfRangeContentViewers
+EvictOutOfRangeDocumentViewers
 (
 index
 )
