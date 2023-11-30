@@ -2445,7 +2445,7 @@ FromEventTargetOrNull
 aMouseClickEvent
 -
 >
-GetDOMEventTarget
+GetOriginalDOMEventTarget
 (
 )
 )
