@@ -2941,7 +2941,7 @@ already_AddRefed
 <
 nsIDocumentViewer
 >
-NS_NewContentViewer
+NS_NewDocumentViewer
 (
 )
 {
