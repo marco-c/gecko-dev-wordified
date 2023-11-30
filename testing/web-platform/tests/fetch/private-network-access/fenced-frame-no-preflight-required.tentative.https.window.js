@@ -154,7 +154,7 @@ Private
 Network
 Access
 .
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -200,7 +200,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -246,7 +246,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -292,7 +292,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -338,7 +338,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -384,7 +384,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -430,7 +430,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -485,7 +485,7 @@ required
 '
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
