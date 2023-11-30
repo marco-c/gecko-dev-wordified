@@ -449,15 +449,6 @@ pressure
 .
 78
             
-tilt_x
-=
-21
-            
-tilt_y
-=
--
-8
-            
 twist
 =
 355
@@ -496,15 +487,6 @@ pressure
 0
 .
 91
-            
-tilt_x
-=
--
-19
-            
-tilt_y
-=
-62
             
 twist
 =
@@ -964,7 +946,7 @@ pressure
 91
 async
 def
-test_touch_pointer_properties_tilt_twist
+test_touch_pointer_properties_angle_twist
 (
     
 bidi_session
@@ -973,54 +955,6 @@ get_element
 load_static_test_page
 )
 :
-    
-#
-This
-test
-only
-covers
-the
-tilt
-/
-twist
-properties
-which
-are
-    
-#
-more
-specific
-to
-pen
--
-type
-pointers
-but
-which
-the
-spec
-allows
-    
-#
-for
-generic
-touch
-pointers
-.
-Seperating
-this
-out
-gives
-better
-    
-#
-coverage
-of
-the
-basic
-properties
-in
-test_touch_pointer_properties
     
 await
 load_static_test_page
@@ -1119,14 +1053,15 @@ pressure
 .
 78
             
-tilt_x
+altitude_angle
 =
-21
+1
+.
+2
             
-tilt_y
+azimuth_angle
 =
--
-8
+6
             
 twist
 =
@@ -1167,14 +1102,17 @@ pressure
 .
 91
             
-tilt_x
+altitude_angle
 =
--
-19
+0
+.
+5
             
-tilt_y
+azimuth_angle
 =
-62
+1
+.
+8
             
 twist
 =
@@ -1333,7 +1271,7 @@ tiltX
 ]
 =
 =
-21
+20
     
 assert
 events
@@ -1348,7 +1286,7 @@ tiltY
 =
 =
 -
-8
+6
     
 assert
 events
@@ -1393,7 +1331,7 @@ tiltX
 =
 =
 -
-19
+23
     
 assert
 events
@@ -1407,7 +1345,7 @@ tiltY
 ]
 =
 =
-62
+61
     
 assert
 events
