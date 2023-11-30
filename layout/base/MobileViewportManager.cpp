@@ -4114,7 +4114,7 @@ newDisplaySize
 mContext
 -
 >
-GetContentViewerSize
+GetDocumentViewerSize
 (
 )
 )
@@ -4473,7 +4473,7 @@ newDisplaySize
 mContext
 -
 >
-GetContentViewerSize
+GetDocumentViewerSize
 (
 )
 )

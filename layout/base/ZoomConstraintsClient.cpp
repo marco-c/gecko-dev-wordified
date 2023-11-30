@@ -1512,7 +1512,7 @@ if
 nsLayoutUtils
 :
 :
-GetContentViewerSize
+GetDocumentViewerSize
 (
 mPresShell
 -

@@ -301,7 +301,7 @@ Maybe
 <
 LayoutDeviceIntSize
 >
-GetContentViewerSize
+GetDocumentViewerSize
 (
 )
 const

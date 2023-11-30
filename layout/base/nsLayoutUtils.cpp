@@ -57408,7 +57408,7 @@ bool
 nsLayoutUtils
 :
 :
-GetContentViewerSize
+GetDocumentViewerSize
 (
 const
 nsPresContext
@@ -57861,7 +57861,7 @@ contentSize
 if
 (
 !
-GetContentViewerSize
+GetDocumentViewerSize
 (
 aPresContext
 contentSize
@@ -69768,7 +69768,7 @@ if
 nsLayoutUtils
 :
 :
-GetContentViewerSize
+GetDocumentViewerSize
 (
 aPresContext
 displaySize

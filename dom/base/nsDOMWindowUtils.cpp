@@ -2570,7 +2570,7 @@ NS_IMETHODIMP
 nsDOMWindowUtils
 :
 :
-GetContentViewerSize
+GetDocumentViewerSize
 (
 uint32_t
 *
@@ -2601,7 +2601,7 @@ presShell
 nsLayoutUtils
 :
 :
-GetContentViewerSize
+GetDocumentViewerSize
 (
 presShell
 -
