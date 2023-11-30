@@ -1302,7 +1302,7 @@ if
 !
 docShell
 .
-contentViewer
+docViewer
 )
 {
 return
@@ -1314,7 +1314,7 @@ window
 =
 docShell
 .
-contentViewer
+docViewer
 .
 DOMDocument
 .

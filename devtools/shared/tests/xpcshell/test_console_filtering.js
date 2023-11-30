@@ -437,7 +437,7 @@ addonWindow
 =
 docShell
 .
-contentViewer
+docViewer
 .
 DOMDocument
 .

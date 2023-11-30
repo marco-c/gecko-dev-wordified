@@ -29793,7 +29793,7 @@ GetDocShell
 )
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (

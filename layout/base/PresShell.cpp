@@ -76967,12 +76967,12 @@ nsCOMPtr
 <
 nsIDocumentViewer
 >
-cv
+viewer
 =
 aDocShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 )
 )
@@ -76981,7 +76981,7 @@ aArray
 .
 AppendElement
 (
-cv
+viewer
 )
 ;
 }

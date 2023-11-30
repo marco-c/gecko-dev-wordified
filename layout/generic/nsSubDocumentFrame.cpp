@@ -7475,7 +7475,7 @@ viewer
 ds
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (

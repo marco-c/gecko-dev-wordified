@@ -13485,7 +13485,7 @@ viewer
 docShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (

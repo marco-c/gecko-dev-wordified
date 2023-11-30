@@ -5271,7 +5271,7 @@ viewer
 ourDocShell
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -5738,7 +5738,7 @@ viewer
 inProcess
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (

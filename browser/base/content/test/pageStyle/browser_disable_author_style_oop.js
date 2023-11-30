@@ -607,7 +607,7 @@ content
 .
 docShell
 .
-contentViewer
+docViewer
 .
 authorStyleDisabled
 )

@@ -239,7 +239,7 @@ documentViewer
 =
 docShell
 .
-contentViewer
+docViewer
 .
 QueryInterface
 (

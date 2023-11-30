@@ -3844,7 +3844,7 @@ this
 .
 docShell
 .
-contentViewer
+docViewer
 .
 QueryInterface
 (

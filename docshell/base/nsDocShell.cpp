@@ -9775,7 +9775,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-GetContentViewer
+GetDocViewer
 (
 nsIDocumentViewer
 *
@@ -10343,7 +10343,7 @@ nsIDocumentViewer
 >
 viewer
 ;
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -50498,7 +50498,7 @@ viewer
 parent
 -
 >
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
@@ -86373,7 +86373,7 @@ viewer
 ;
 NS_ENSURE_SUCCESS
 (
-GetContentViewer
+GetDocViewer
 (
 getter_AddRefs
 (
