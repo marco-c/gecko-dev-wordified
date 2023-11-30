@@ -233,6 +233,6 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]

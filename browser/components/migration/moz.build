@@ -96,7 +96,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 MARIONETTE_UNIT_MANIFESTS

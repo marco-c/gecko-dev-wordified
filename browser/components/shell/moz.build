@@ -127,7 +127,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 JAR_MANIFESTS

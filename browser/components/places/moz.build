@@ -96,7 +96,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS
