@@ -2549,8 +2549,6 @@ const
 int32_t
 &
 aGranularity
-bool
-aFromUser
 )
 {
 return
@@ -2568,7 +2566,6 @@ aOffset
 aIsSelectionCollapsed
 aIsAtEndOfLine
 aGranularity
-aFromUser
 )
 ;
 }
