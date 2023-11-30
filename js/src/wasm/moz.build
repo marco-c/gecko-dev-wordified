@@ -203,6 +203,11 @@ WasmDebugFrame
 cpp
 "
 "
+WasmDump
+.
+cpp
+"
+"
 WasmFeatures
 .
 cpp
