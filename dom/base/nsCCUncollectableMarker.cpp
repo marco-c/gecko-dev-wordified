@@ -1120,7 +1120,7 @@ MarkForCC
 }
 }
 void
-MarkContentViewer
+MarkDocumentViewer
 (
 nsIDocumentViewer
 *
@@ -1373,7 +1373,7 @@ viewer
 )
 )
 ;
-MarkContentViewer
+MarkDocumentViewer
 (
 viewer
 aCleanupJS
@@ -1520,7 +1520,7 @@ viewer
 )
 )
 ;
-MarkContentViewer
+MarkDocumentViewer
 (
 viewer
 aCleanupJS
