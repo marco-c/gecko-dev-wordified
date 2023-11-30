@@ -345,6 +345,16 @@ aVisitor
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+ActivationBehavior
+(
+EventChainPostVisitor
+&
+aVisitor
+)
+override
+;
 void
 GetLinkTarget
 (
