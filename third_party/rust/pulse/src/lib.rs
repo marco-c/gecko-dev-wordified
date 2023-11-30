@@ -2313,6 +2313,15 @@ pa_seek_mode_t
 bitflags
 !
 {
+#
+[
+derive
+(
+Debug
+Clone
+Copy
+)
+]
 pub
 struct
 SinkFlags
