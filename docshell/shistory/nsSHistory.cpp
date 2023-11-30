@@ -7515,7 +7515,7 @@ the
 currently
 navigated
 SHistory
-EvictOutOfRangeWindowContentViewers
+EvictOutOfRangeWindowDocumentViewers
 (
 aIndex
 )
@@ -9331,7 +9331,7 @@ void
 nsSHistory
 :
 :
-EvictOutOfRangeWindowContentViewers
+EvictOutOfRangeWindowDocumentViewers
 (
 int32_t
 aIndex
@@ -9343,7 +9343,7 @@ XXX
 rename
 method
 to
-EvictContentViewersExceptAroundIndex
+EvictDocumentViewersExceptAroundIndex
 or
 something
 .
@@ -9705,7 +9705,7 @@ LOG
 (
 (
 "
-EvictOutOfRangeWindowContentViewers
+EvictOutOfRangeWindowDocumentViewers
 (
 index
 =

@@ -1779,7 +1779,7 @@ aIndex
 .
 virtual
 void
-EvictOutOfRangeWindowContentViewers
+EvictOutOfRangeWindowDocumentViewers
 (
 int32_t
 aIndex
