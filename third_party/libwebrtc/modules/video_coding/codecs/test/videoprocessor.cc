@@ -4721,7 +4721,6 @@ spatial_idx
 Decode
 (
 encoded_image
-false
 0
 )
 ;

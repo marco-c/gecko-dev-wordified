@@ -1534,6 +1534,10 @@ ON_CALL
 (
 mock_decoder_
 Decode
+(
+_
+_
+)
 )
 .
 WillByDefault
@@ -2118,7 +2122,6 @@ mock_decoder_
 Decode
 (
 _
-false
 _
 )
 )
@@ -3440,6 +3443,10 @@ EXPECT_CALL
 (
 mock_decoder_
 Decode
+(
+_
+_
+)
 )
 ;
 RtpPacketReceived
@@ -5494,7 +5501,6 @@ RtpTimestamp
 kFirstRtpTimestamp
 )
 _
-_
 )
 )
 ;
@@ -5512,7 +5518,6 @@ kFirstRtpTimestamp
 +
 k30FpsRtpTimestampDelta
 )
-_
 _
 )
 )
@@ -5757,7 +5762,6 @@ RtpTimestamp
 kFirstRtpTimestamp
 )
 _
-_
 )
 )
 .
@@ -5781,7 +5785,6 @@ RtpTimestampForFrame
 1
 )
 )
-_
 _
 )
 )
@@ -5806,7 +5809,6 @@ RtpTimestampForFrame
 2
 )
 )
-_
 _
 )
 )
@@ -6132,6 +6134,10 @@ EXPECT_CALL
 (
 mock_decoder_
 Decode
+(
+_
+_
+)
 )
 .
 Times
@@ -6241,7 +6247,6 @@ RtpTimestamp
 (
 kFirstRtpTimestamp
 )
-_
 _
 )
 )
@@ -6494,7 +6499,6 @@ RtpTimestamp
 kFirstRtpTimestamp
 )
 _
-_
 )
 )
 .
@@ -6554,7 +6558,6 @@ RtpTimestampForFrame
 2
 )
 )
-_
 _
 )
 )
@@ -6893,7 +6896,6 @@ RtpTimestampForFrame
 )
 )
 _
-_
 )
 )
 .
@@ -6917,7 +6919,6 @@ RtpTimestampForFrame
 2
 )
 )
-_
 _
 )
 )
@@ -7411,7 +7412,6 @@ RtpTimestamp
 (
 kWrapAroundRtp
 )
-_
 _
 )
 )

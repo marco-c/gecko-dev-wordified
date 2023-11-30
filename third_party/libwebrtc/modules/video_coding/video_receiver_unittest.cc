@@ -655,7 +655,6 @@ Decode
 (
 _
 _
-_
 )
 )
 .
@@ -742,7 +741,6 @@ EXPECT_CALL
 decoder_
 Decode
 (
-_
 _
 _
 )

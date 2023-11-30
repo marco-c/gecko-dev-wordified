@@ -2426,13 +2426,6 @@ Decode
 frame
 /
 *
-missing_frames
-=
-*
-/
-false
-/
-*
 render_time_ms
 =
 *

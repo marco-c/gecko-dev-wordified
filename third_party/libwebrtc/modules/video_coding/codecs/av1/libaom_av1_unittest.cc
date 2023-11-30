@@ -690,13 +690,6 @@ Decode
 image
 /
 *
-missing_frames
-=
-*
-/
-false
-/
-*
 render_time_ms
 =
 *
