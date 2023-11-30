@@ -183,6 +183,15 @@ RemoteUtils
 h
 "
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+"
+MOZ_DBUS_CFLAGS
+"
+]
 else
 :
 SOURCES

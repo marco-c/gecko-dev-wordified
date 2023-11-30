@@ -941,6 +941,15 @@ cpp
 CXXFLAGS
 +
 =
+CONFIG
+[
+"
+MOZ_DBUS_CFLAGS
+"
+]
+CXXFLAGS
++
+=
 [
 "
 -
