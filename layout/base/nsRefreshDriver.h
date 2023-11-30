@@ -3081,7 +3081,7 @@ UpdateRelevancyOfContentVisibilityAutoFrames
 ;
 MOZ_CAN_RUN_SCRIPT
 void
-NotifyResizeObservers
+DetermineProximityToViewportAndNotifyResizeObservers
 (
 )
 ;
