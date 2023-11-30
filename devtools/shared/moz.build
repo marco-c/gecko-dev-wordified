@@ -238,7 +238,7 @@ helpers
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS
@@ -266,7 +266,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 JAR_MANIFESTS
