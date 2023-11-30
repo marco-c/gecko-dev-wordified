@@ -2723,9 +2723,8 @@ clearPendingException
 ;
 }
 }
-{
-AutoLockHelperThreadState
-lock
+AutoStartIonFreeTask
+freeTask
 ;
 FinishOffThreadTask
 (
@@ -2735,11 +2734,10 @@ cx
 runtime
 (
 )
+freeTask
 task
-lock
 )
 ;
-}
 }
 uint8_t
 *
