@@ -454,6 +454,16 @@ max
 )
 ;
 }
+EncodedVideoChunkData
+:
+:
+~
+EncodedVideoChunkData
+(
+)
+=
+default
+;
 UniquePtr
 <
 EncodedVideoChunkData
