@@ -153,7 +153,9 @@ sys
 mjs
 "
 "
-subprocess_worker_win
+subprocess_win
+.
+worker
 .
 js
 "
@@ -179,7 +181,9 @@ sys
 mjs
 "
 "
-subprocess_worker_unix
+subprocess_unix
+.
+worker
 .
 js
 "

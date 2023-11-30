@@ -1866,7 +1866,9 @@ sys
 mjs
 "
 "
-GMPExtractorWorker
+GMPExtractor
+.
+worker
 .
 js
 "
