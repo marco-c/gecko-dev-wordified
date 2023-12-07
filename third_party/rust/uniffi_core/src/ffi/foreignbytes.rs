@@ -708,6 +708,8 @@ test_foreignbytes_access
 let
 v
 =
+vec
+!
 [
 1u8
 2
@@ -940,6 +942,8 @@ test_foreignbytes_provided_len_must_be_non_negative
 let
 v
 =
+vec
+!
 [
 0u8
 1
