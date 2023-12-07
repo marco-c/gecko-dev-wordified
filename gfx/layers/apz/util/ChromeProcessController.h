@@ -189,6 +189,9 @@ IAPZCTreeManager
 class
 APZEventState
 ;
+struct
+DoubleTapToZoomMetrics
+;
 /
 *
 *
@@ -385,6 +388,13 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
+const
+Maybe
+<
+DoubleTapToZoomMetrics
+>
+&
+aDoubleTapToZoomMetrics
 )
 override
 ;
@@ -613,6 +623,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+DoubleTapToZoomMetrics
+&
+aDoubleTapToZoomMetrics
 )
 ;
 }
