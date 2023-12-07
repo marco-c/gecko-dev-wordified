@@ -130,7 +130,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 UNIFIED_SOURCES

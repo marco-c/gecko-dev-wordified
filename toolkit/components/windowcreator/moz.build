@@ -132,7 +132,7 @@ unit
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 XPIDL_SOURCES

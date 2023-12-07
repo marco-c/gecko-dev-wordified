@@ -1085,7 +1085,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 BROWSER_CHROME_MANIFESTS
@@ -1866,7 +1866,9 @@ sys
 mjs
 "
 "
-GMPExtractorWorker
+GMPExtractor
+.
+worker
 .
 js
 "

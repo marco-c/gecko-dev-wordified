@@ -132,7 +132,7 @@ xpcshell
 /
 xpcshell
 .
-ini
+toml
 "
 ]
 XPIDL_MODULE
