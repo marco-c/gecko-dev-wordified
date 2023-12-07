@@ -68441,6 +68441,7 @@ nsAString
 aData
 )
 ;
+return
 result
 -
 >
@@ -68448,10 +68449,8 @@ Append
 (
 aBuf
 aLen
+fallible
 )
-;
-return
-true
 ;
 }
 /
