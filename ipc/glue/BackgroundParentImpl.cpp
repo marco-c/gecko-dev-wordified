@@ -7584,6 +7584,10 @@ BackgroundParentImpl
 :
 RecvRequestCameraAccess
 (
+const
+bool
+&
+aAllowPermissionRequest
 RequestCameraAccessResolver
 &
 &
@@ -7604,6 +7608,7 @@ CamerasParent
 :
 RequestCameraAccess
 (
+aAllowPermissionRequest
 )
 -
 >
@@ -7666,11 +7671,10 @@ else
 {
 resolver
 (
-aValue
-.
-RejectValue
-(
-)
+CamerasAccessStatus
+:
+:
+Error
 )
 ;
 }
@@ -7681,7 +7685,10 @@ RejectValue
 else
 aResolver
 (
-NS_ERROR_NOT_IMPLEMENTED
+CamerasAccessStatus
+:
+:
+Error
 )
 ;
 #
