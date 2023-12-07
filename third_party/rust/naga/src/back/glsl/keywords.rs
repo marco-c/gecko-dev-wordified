@@ -2472,5 +2472,9 @@ super
 :
 :
 FREXP_FUNCTION
+super
+:
+:
+FIRST_INSTANCE_BINDING
 ]
 ;

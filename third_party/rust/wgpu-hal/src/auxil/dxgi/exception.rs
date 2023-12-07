@@ -753,8 +753,13 @@ crate
 :
 VALIDATION_CANARY
 .
-set
+add
 (
+message
+.
+to_string
+(
+)
 )
 ;
 }

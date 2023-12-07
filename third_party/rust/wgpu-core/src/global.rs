@@ -57,6 +57,7 @@ registry
 Registry
 RegistryReport
 }
+resource_log
 storage
 :
 :
@@ -1160,15 +1161,14 @@ drop
 "
 )
 ;
-log
-:
-:
-info
+resource_log
 !
 (
 "
-Destroying
 Global
+:
+:
+drop
 "
 )
 ;

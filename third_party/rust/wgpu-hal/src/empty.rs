@@ -2115,13 +2115,13 @@ draw
 &
 mut
 self
-start_vertex
+first_vertex
 :
 u32
 vertex_count
 :
 u32
-start_instance
+first_instance
 :
 u32
 instance_count
@@ -2137,7 +2137,7 @@ draw_indexed
 &
 mut
 self
-start_index
+first_index
 :
 u32
 index_count
@@ -2146,7 +2146,7 @@ u32
 base_vertex
 :
 i32
-start_instance
+first_instance
 :
 u32
 instance_count
