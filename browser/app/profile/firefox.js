@@ -8160,7 +8160,7 @@ ads
 .
 userEnabled
 "
-false
+true
 )
 ;
 /
