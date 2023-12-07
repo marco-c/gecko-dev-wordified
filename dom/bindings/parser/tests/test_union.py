@@ -1,5 +1,7 @@
 import
 string
+import
+WebIDL
 #
 We
 '
@@ -1302,7 +1304,9 @@ finish
 )
         
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
             
 threw

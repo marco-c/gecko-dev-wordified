@@ -1,3 +1,5 @@
+import
+WebIDL
 def
 WebIDLTest
 (
@@ -544,22 +546,49 @@ a1
 )
             
 except
-Exception
+AssertionError
 :
                 
 #
-Can
+Various
+methods
+assert
+that
+they
 '
-t
-call
+re
+called
+on
+objects
+of
+                
+#
+the
+right
+type
+skip
+them
+if
+the
+assert
+fails
+.
+                
+continue
+            
+except
+TypeError
+:
+                
+#
 a1
-with
-no
-args
+requires
+positional
+arguments
 so
 skip
 this
-attriute
+attribute
 .
                 
 continue
@@ -576,7 +605,9 @@ attr
 )
             
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
                 
 harness
@@ -691,7 +722,9 @@ attr
 )
             
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
                 
 harness

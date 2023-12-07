@@ -1,3 +1,5 @@
+import
+WebIDL
 def
 WebIDLTest
 (
@@ -317,7 +319,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -1548,7 +1552,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -2595,7 +2601,9 @@ finish
 )
         
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
             
 threw
@@ -2662,7 +2670,9 @@ finish
 )
             
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
                 
 threw
@@ -2737,7 +2747,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -2810,7 +2822,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -2890,7 +2904,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -2972,7 +2988,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -3084,7 +3102,9 @@ finish
 )
         
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
             
 threw
@@ -3160,7 +3180,9 @@ finish
 )
         
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
             
 threw
@@ -3232,7 +3254,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -3301,7 +3325,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -3371,7 +3397,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -3445,7 +3473,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -3519,7 +3549,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -3604,7 +3636,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
@@ -3741,7 +3775,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw

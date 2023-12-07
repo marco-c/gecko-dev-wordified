@@ -695,7 +695,9 @@ finish
 )
     
 except
-Exception
+WebIDL
+.
+WebIDLError
 :
         
 threw
