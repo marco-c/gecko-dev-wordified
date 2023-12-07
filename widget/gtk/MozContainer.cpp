@@ -1446,6 +1446,12 @@ widget
 window
 )
 ;
+gtk_widget_set_window
+(
+widget
+nullptr
+)
+;
 gdk_window_destroy
 (
 window
