@@ -476,6 +476,17 @@ AddMutationObserver
 this
 )
 ;
+SetEnabledCallbacks
+(
+kCharacterDataChanged
+|
+kContentAppended
+|
+kContentInserted
+|
+kContentRemoved
+)
+;
 }
 /
 /
