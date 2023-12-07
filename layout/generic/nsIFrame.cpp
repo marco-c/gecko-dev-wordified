@@ -50727,7 +50727,7 @@ return
 false
 ;
 }
-void
+bool
 nsIFrame
 :
 :
@@ -51018,6 +51018,7 @@ overallRelevancyChanged
 )
 {
 return
+false
 ;
 }
 HandleLastRememberedSize
@@ -51171,6 +51172,9 @@ to
 dispatch
 "
 )
+;
+return
+true
 ;
 }
 nsresult
