@@ -1191,6 +1191,9 @@ NrIceCtx
 void
 Ready
 (
+nr_ice_media_stream
+*
+stream
 )
 ;
 void
