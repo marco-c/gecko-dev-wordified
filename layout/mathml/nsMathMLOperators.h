@@ -1107,6 +1107,7 @@ _flags
 NS_MATHML_OPERATOR_LSPACE_ATTR
 =
 =
+\
 (
 (
 _flags
@@ -1126,6 +1127,7 @@ _flags
 NS_MATHML_OPERATOR_RSPACE_ATTR
 =
 =
+\
 (
 (
 _flags

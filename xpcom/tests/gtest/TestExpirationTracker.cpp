@@ -1178,11 +1178,9 @@ name
 )
 \
 {
-\
 #
 name
 name
-\
 }
 static
 const

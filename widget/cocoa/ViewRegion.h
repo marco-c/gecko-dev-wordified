@@ -213,6 +213,7 @@ coordinates
 into
 Cocoa
 NSRect
+*
 coordinates
 .
 *

@@ -213,6 +213,7 @@ on
 a
 platform
 callback
+*
 thread
 .
 *
@@ -279,10 +280,10 @@ existing
 capture
 is
 live
+/
+/
 and
 another
-/
-/
 capability
 is
 requested
@@ -293,6 +294,8 @@ restart
 the
 underlying
 backend
+/
+/
 with
 the
 new
@@ -463,11 +466,11 @@ started
 for
 .
 Written
+/
+/
 on
 the
 mChecker
-/
-/
 thread
 only
 .
@@ -533,6 +536,8 @@ Written
 on
 the
 mChecker
+/
+/
 thread
 only
 .
@@ -566,6 +571,8 @@ mTrackingId
 is
 set
 .
+/
+/
 Callback
 thread
 only
