@@ -438,8 +438,9 @@ PVideoBridgeParent
 aEndpoint
 )
 ;
+static
 void
-ReleaseCompositorThread
+ShutdownInternal
 (
 )
 ;
