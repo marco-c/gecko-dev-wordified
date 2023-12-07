@@ -411,6 +411,12 @@ defined
 (
 WEBRTC_ANDROID
 )
+#
+if
+defined
+(
+WEBRTC_USE_PIPEWIRE
+)
 /
 /
 Special
@@ -477,6 +483,8 @@ return
 deviceInfo
 ;
 }
+#
+endif
 deviceInfo
 .
 reset
