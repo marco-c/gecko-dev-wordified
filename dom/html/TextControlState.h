@@ -1741,6 +1741,7 @@ TextEditor
 GetTextEditorWithoutCreation
 (
 )
+const
 ;
 nsISelectionController
 *

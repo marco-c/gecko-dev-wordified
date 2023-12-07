@@ -10032,6 +10032,7 @@ TextControlState
 GetTextEditorWithoutCreation
 (
 )
+const
 {
 return
 mTextEditor

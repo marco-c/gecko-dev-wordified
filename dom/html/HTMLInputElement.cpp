@@ -14331,6 +14331,7 @@ HTMLInputElement
 HasEditor
 (
 )
+const
 {
 return
 !
@@ -14398,6 +14399,7 @@ HTMLInputElement
 GetTextEditorWithoutCreation
 (
 )
+const
 {
 TextControlState
 *

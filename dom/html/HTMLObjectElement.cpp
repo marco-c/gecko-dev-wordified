@@ -1130,7 +1130,7 @@ fixed
 .
 if
 (
-IsEditableRoot
+IsEditingHost
 (
 )
 |
