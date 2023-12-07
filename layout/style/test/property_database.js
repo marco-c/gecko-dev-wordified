@@ -42174,10 +42174,7 @@ rgba
 transparent
 "
 "
--
-moz
--
-nativehyperlinktext
+LinkText
 "
 "
 rgba
