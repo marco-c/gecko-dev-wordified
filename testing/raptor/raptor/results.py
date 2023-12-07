@@ -3607,6 +3607,8 @@ handle_custom_data
         
 support_class
         
+submetric_summary_method
+        
 *
 *
 kwargs
@@ -5068,6 +5070,22 @@ statistics
 }
             
 }
+            
+if
+submetric_summary_method
+is
+not
+None
+:
+                
+bt_result
+[
+"
+submetric_summary_method
+"
+]
+=
+submetric_summary_method
             
 def
 _extract_cpu_vals
@@ -7604,6 +7622,16 @@ get
 (
 "
 support_class
+"
+None
+)
+                
+test
+.
+get
+(
+"
+submetric_summary_method
 "
 None
 )
