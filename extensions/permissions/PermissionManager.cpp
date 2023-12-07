@@ -900,14 +900,6 @@ _ns
 shortcuts
 "
 _ns
-"
-screen
--
-wake
--
-lock
-"
-_ns
 }
 ;
 if
