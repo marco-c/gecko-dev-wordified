@@ -522,10 +522,6 @@ nsIContent
 *
 *
 aDragNode
-nsIPrincipal
-*
-*
-aPrincipal
 nsIContentSecurityPolicy
 *
 *
@@ -758,10 +754,6 @@ nsIContent
 *
 *
 aDragNode
-nsIPrincipal
-*
-*
-aPrincipal
 nsIContentSecurityPolicy
 *
 *
@@ -801,7 +793,6 @@ aDataTransfer
 aCanDrag
 aSelection
 aDragNode
-aPrincipal
 aCsp
 aCookieJarSettings
 )
@@ -2599,10 +2590,6 @@ nsIContent
 *
 *
 aDragNode
-nsIPrincipal
-*
-*
-aPrincipal
 nsIContentSecurityPolicy
 *
 *
