@@ -1071,7 +1071,15 @@ icu
 /
 intl
 /
-icu_testdata
+icu_capi
+/
+*
+*
++
+/
+intl
+/
+icu_segmenter_data
 /
 *
 *

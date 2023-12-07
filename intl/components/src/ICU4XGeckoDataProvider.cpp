@@ -132,7 +132,7 @@ sICU4XDataProvider
 capi
 :
 :
-ICU4XDataProvider_create_test
+ICU4XDataProvider_create_compiled
 (
 )
 ;
