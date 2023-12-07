@@ -552,6 +552,14 @@ height
 "
 )
 ;
+if
+(
+!
+options
+.
+realTimeLatencyMode
+)
+{
 assert_equals
 (
 frame
@@ -566,6 +574,7 @@ timestamp
 "
 )
 ;
+}
 /
 /
 The
@@ -820,6 +829,14 @@ frames_encoded
 +
 +
 ;
+if
+(
+!
+options
+.
+realTimeLatencyMode
+)
+{
 assert_equals
 (
 chunk
@@ -834,6 +851,7 @@ timestamp
 "
 )
 ;
+}
 }
 error
 (
