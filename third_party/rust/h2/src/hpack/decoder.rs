@@ -3247,7 +3247,6 @@ Buf
 buf
 :
 &
-mut
 B
 )
 -
@@ -5734,7 +5733,6 @@ assert_eq
 peek_u8
 (
 &
-mut
 buf
 )
 Some
@@ -5760,7 +5758,6 @@ assert_eq
 peek_u8
 (
 &
-mut
 buf
 )
 None
@@ -5873,7 +5870,10 @@ new
 )
 ;
 let
-empty
+_
+:
+(
+)
 =
 de
 .
@@ -5899,14 +5899,6 @@ _
 .
 unwrap
 (
-)
-;
-assert_eq
-!
-(
-empty
-(
-)
 )
 ;
 }
@@ -5946,7 +5938,6 @@ buf
 .
 extend
 (
-&
 [
 0b01000000
 0x80
@@ -5972,7 +5963,6 @@ buf
 .
 extend
 (
-&
 [
 0x80
 |
@@ -6002,9 +5992,6 @@ vec
 [
 ]
 ;
-let
-_
-=
 de
 .
 decode
@@ -6201,11 +6188,8 @@ buf
 .
 extend
 (
-&
 [
 0b01000000
-0x00
-|
 3
 ]
 )
@@ -6230,7 +6214,6 @@ buf
 .
 extend
 (
-&
 [
 0x80
 |
@@ -6345,9 +6328,6 @@ value
 ]
 )
 ;
-let
-_
-=
 de
 .
 decode

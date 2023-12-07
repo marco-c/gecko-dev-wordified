@@ -5261,13 +5261,13 @@ can
 /
 /
 just
-drop
+ignore
 it
 .
-drop
-(
+let
+_
+=
 ping
-)
 ;
 self
 .

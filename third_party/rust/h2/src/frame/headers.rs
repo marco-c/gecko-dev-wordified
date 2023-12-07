@@ -1631,6 +1631,19 @@ util
 =
 =
 =
+#
+[
+derive
+(
+Debug
+PartialEq
+Eq
+)
+]
+pub
+struct
+ParseU64Error
+;
 pub
 fn
 parse_u64
@@ -1647,8 +1660,7 @@ u8
 Result
 <
 u64
-(
-)
+ParseU64Error
 >
 {
 if
@@ -1672,8 +1684,7 @@ overflow
 return
 Err
 (
-(
-)
+ParseU64Error
 )
 ;
 }
@@ -1708,8 +1719,7 @@ b
 return
 Err
 (
-(
-)
+ParseU64Error
 )
 ;
 }
@@ -1768,8 +1778,7 @@ InvalidContentLength
 Result
 <
 u64
-(
-)
+ParseU64Error
 >
 )
 NotSafeAndCacheable
@@ -2065,7 +2074,6 @@ html
 safe
 .
 methods
-return
 method
 =
 =
@@ -2082,7 +2090,6 @@ Method
 :
 :
 HEAD
-;
 }
 pub
 fn

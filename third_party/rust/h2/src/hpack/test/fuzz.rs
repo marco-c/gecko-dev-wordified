@@ -505,7 +505,6 @@ resizes
 .
 extend
 (
-&
 [
 low
 high

@@ -1436,10 +1436,11 @@ name
 }
 =
 >
-match
+matches
+!
+(
 *
 name
-{
 header
 :
 :
@@ -1484,14 +1485,7 @@ header
 :
 :
 SET_COOKIE
-=
->
-true
-_
-=
->
-false
-}
+)
 Header
 :
 :
@@ -1727,7 +1721,6 @@ HeaderValue
 from_bytes
 (
 &
-*
 value
 )
 ?
@@ -1775,7 +1768,6 @@ Method
 from_bytes
 (
 &
-*
 value
 )
 ?

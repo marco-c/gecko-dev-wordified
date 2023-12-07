@@ -787,7 +787,6 @@ table
 .
 resolve
 (
-&
 index
 )
 ;
@@ -827,7 +826,6 @@ table
 .
 resolve
 (
-&
 index
 )
 ;
@@ -894,7 +892,6 @@ table
 .
 resolve
 (
-&
 index
 )
 ;
@@ -947,7 +944,6 @@ table
 .
 resolve
 (
-&
 index
 )
 ;
