@@ -40,9 +40,9 @@ the
 microsecond
 .
 class
-FfiConverterDuration
+_UniffiConverterDuration
 (
-FfiConverterRustBuffer
+_UniffiConverterRustBuffer
 )
 :
     
@@ -59,7 +59,7 @@ seconds
 =
 buf
 .
-readU64
+read_u64
 (
 )
         
@@ -67,7 +67,7 @@ microseconds
 =
 buf
 .
-readU32
+read_u32
 (
 )
 /
@@ -142,14 +142,14 @@ negative
         
 buf
 .
-writeI64
+write_i64
 (
 seconds
 )
         
 buf
 .
-writeU32
+write_u32
 (
 nanoseconds
 )

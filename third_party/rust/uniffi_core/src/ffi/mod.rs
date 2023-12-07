@@ -69,6 +69,10 @@ boundary
 .
 pub
 mod
+callbackinterface
+;
+pub
+mod
 ffidefault
 ;
 pub
@@ -94,6 +98,13 @@ rustcalls
 pub
 mod
 rustfuture
+;
+pub
+use
+callbackinterface
+:
+:
+*
 ;
 pub
 use
