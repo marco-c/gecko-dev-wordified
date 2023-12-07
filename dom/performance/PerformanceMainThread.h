@@ -771,6 +771,11 @@ FinalizeLCPEntriesForText
 (
 )
 ;
+void
+ClearGeneratedTempDataForLCP
+(
+)
+;
 protected
 :
 ~
@@ -905,11 +910,6 @@ mPendingPointerDown
 ;
 private
 :
-void
-ClearGeneratedTempDataForLCP
-(
-)
-;
 void
 SetHasDispatchedInputEvent
 (
