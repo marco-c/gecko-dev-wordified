@@ -63,7 +63,7 @@ endif
 #
 Declaration
 and
-_UniffiConverters
+FfiConverters
 for
 {
 {
@@ -205,7 +205,7 @@ Unpacking
 args
 from
 the
-_UniffiRustBuffer
+RustBuffer
 #
 }
         
@@ -379,9 +379,9 @@ makeCall
 )
             
 with
-_UniffiRustBuffer
+RustBuffer
 .
-alloc_with_builder
+allocWithBuilder
 (
 )
 as
@@ -431,7 +431,7 @@ endmatch
 }
             
 return
-_UNIFFI_CALLBACK_SUCCESS
+UNIFFI_CALLBACK_SUCCESS
         
 {
 %
@@ -499,9 +499,9 @@ UDL
 file
             
 with
-_UniffiRustBuffer
+RustBuffer
 .
-alloc_with_builder
+allocWithBuilder
 (
 )
 as
@@ -532,7 +532,7 @@ finalize
 )
             
 return
-_UNIFFI_CALLBACK_ERROR
+UNIFFI_CALLBACK_ERROR
         
 {
 %
@@ -577,7 +577,7 @@ handlemap
 this
 is
 a
-uniffi
+Uniffi
 bug
 "
 )
@@ -621,7 +621,7 @@ foreigncallbacks
 rs
         
 return
-_UNIFFI_CALLBACK_SUCCESS
+UNIFFI_CALLBACK_SUCCESS
     
 {
 %
@@ -713,7 +713,7 @@ method_name
 }
 (
 cb
-_UniffiRustBufferStream
+RustBufferStream
 (
 args_data
 args_len
@@ -785,7 +785,7 @@ up
 pass
             
 return
-_UNIFFI_CALLBACK_UNEXPECTED_ERROR
+UNIFFI_CALLBACK_UNEXPECTED_ERROR
     
 {
 %
@@ -869,7 +869,7 @@ foreigncallbacks
 rs
     
 return
-_UNIFFI_CALLBACK_UNEXPECTED_ERROR
+UNIFFI_CALLBACK_UNEXPECTED_ERROR
 #
 We
 need
@@ -934,7 +934,7 @@ foreign_callback
 }
 }
 =
-_UNIFFI_FOREIGN_CALLBACK_T
+FOREIGN_CALLBACK_T
 (
 py_
 {
@@ -943,12 +943,12 @@ foreign_callback
 }
 }
 )
-_rust_call
+rust_call
 (
 lambda
 err
 :
-_UniffiLib
+_UniFFILib
 .
 {
 {
@@ -974,7 +974,7 @@ err
 )
 #
 The
-_UniffiConverter
+FfiConverter
 which
 transforms
 the
@@ -993,7 +993,7 @@ ffi_converter_name
 }
 }
 =
-_UniffiConverterCallbackInterface
+FfiConverterCallbackInterface
 (
 {
 {

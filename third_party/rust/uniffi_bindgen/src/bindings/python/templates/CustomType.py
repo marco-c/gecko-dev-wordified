@@ -56,7 +56,7 @@ type_name
 }
 }
 class
-_UniffiConverterType
+FfiConverterType
 {
 {
 name
@@ -255,7 +255,7 @@ type
 #
 }
 class
-_UniffiConverterType
+FfiConverterType
 {
 {
 name

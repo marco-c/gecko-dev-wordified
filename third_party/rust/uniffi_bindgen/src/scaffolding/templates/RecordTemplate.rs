@@ -128,7 +128,15 @@ typedef
 uniffi
 :
 :
-derive_record_for_udl
+ffi_converter_record
+(
+tag
+=
+crate
+:
+:
+UniFfiTag
+)
 ]
 struct
 r
