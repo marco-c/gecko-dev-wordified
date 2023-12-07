@@ -274,6 +274,12 @@ aUserData
 ;
 #
 endif
+static
+void
+InstallTermSignalHandler
+(
+)
+;
 private
 :
 virtual
@@ -293,11 +299,6 @@ GIOCondition
 condition
 gpointer
 data
-)
-;
-void
-InstallTermSignalHandler
-(
 )
 ;
 static
