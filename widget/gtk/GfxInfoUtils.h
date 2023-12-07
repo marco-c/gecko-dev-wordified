@@ -605,6 +605,10 @@ ERROR
 n
 "
 str_
+"
+\
+n
+"
 #
 #
 __VA_ARGS__
@@ -618,6 +622,7 @@ str_
 .
 .
 )
+\
 record_value
 (
 "
@@ -626,6 +631,10 @@ WARNING
 n
 "
 str_
+"
+\
+n
+"
 #
 #
 __VA_ARGS__

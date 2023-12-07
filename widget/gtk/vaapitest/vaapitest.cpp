@@ -1264,8 +1264,6 @@ test
 unknown
 profile
 .
-\
-n
 "
 )
 ;
