@@ -456,6 +456,7 @@ get
 ;
 }
 inline
+explicit
 ICU4XLocaleFallbacker
 (
 capi

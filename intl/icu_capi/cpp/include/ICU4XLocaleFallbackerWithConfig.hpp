@@ -345,6 +345,7 @@ get
 ;
 }
 inline
+explicit
 ICU4XLocaleFallbackerWithConfig
 (
 capi

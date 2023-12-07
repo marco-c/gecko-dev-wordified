@@ -418,6 +418,7 @@ get
 ;
 }
 inline
+explicit
 ICU4XWordBreakIteratorLatin1
 (
 capi
