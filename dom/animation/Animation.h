@@ -2792,6 +2792,11 @@ return
 mHiddenByContentVisibility
 ;
 }
+void
+UpdateHiddenByContentVisibility
+(
+)
+;
 DocGroup
 *
 GetDocGroup

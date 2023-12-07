@@ -824,6 +824,11 @@ bool
 aIsVisible
 )
 ;
+void
+UpdateHiddenByContentVisibility
+(
+)
+;
 virtual
 Document
 *
