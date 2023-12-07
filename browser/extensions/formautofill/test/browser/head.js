@@ -5608,10 +5608,6 @@ addressType
 :
 "
 "
-credentialType
-:
-"
-"
 }
 .
 .

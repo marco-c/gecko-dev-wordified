@@ -950,11 +950,6 @@ function
 promiseWebAuthnGetAssertionDiscoverable
 (
 tab
-mediation
-=
-"
-optional
-"
 extensions
 =
 {
@@ -971,12 +966,10 @@ tab
 linkedBrowser
 [
 extensions
-mediation
 ]
 (
 [
 extensions
-mediation
 ]
 )
 =
@@ -1028,7 +1021,6 @@ get
 (
 {
 publicKey
-mediation
 }
 )
 ;

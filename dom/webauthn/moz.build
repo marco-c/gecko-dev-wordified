@@ -258,11 +258,6 @@ WebAuthnArgs
 cpp
 "
 "
-WebAuthnAutoFillEntry
-.
-cpp
-"
-"
 WebAuthnManager
 .
 cpp
