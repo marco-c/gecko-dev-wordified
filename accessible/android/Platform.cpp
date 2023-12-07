@@ -1027,6 +1027,11 @@ leaf
 ;
 if
 (
+leaf
+)
+{
+if
+(
 Accessible
 *
 result
@@ -1057,6 +1062,7 @@ SendAccessibilityFocusedEvent
 result
 )
 ;
+}
 }
 }
 sessionAcc
