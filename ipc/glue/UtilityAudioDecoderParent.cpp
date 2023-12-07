@@ -509,6 +509,13 @@ Shutdown
 (
 )
 ;
+MFCDMParent
+:
+:
+Shutdown
+(
+)
+;
 }
 #
 endif
