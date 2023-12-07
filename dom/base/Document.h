@@ -22331,6 +22331,13 @@ WakeLockType
 aType
 )
 ;
+void
+UnlockAllWakeLocks
+(
+WakeLockType
+aType
+)
+;
 /
 /
 ParentNode
