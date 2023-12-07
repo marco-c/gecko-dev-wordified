@@ -1790,6 +1790,16 @@ GetDebugInfo
 (
 )
 ;
+info
+-
+>
+mClearlead
+=
+DoesKeySystemSupportClearLead
+(
+name
+)
+;
 }
 }
 aPromise
