@@ -309,7 +309,13 @@ base
 LaunchApp
 (
 argv
+std
+:
+:
+move
+(
 options
+)
 &
 process
 )

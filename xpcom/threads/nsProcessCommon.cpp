@@ -2771,7 +2771,13 @@ base
 LaunchApp
 (
 argvVec
+std
+:
+:
+move
+(
 options
+)
 &
 newPid
 )
