@@ -85,6 +85,9 @@ exp
 floor
 '
 '
+identity
+'
+'
 log
 '
 '
