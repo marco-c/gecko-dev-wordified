@@ -32,6 +32,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+10
+)
+;
 const
 TELEMETRY_PREF
 =

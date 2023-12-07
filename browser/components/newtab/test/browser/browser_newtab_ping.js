@@ -32,6 +32,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+5
+)
+;
 const
 {
 ASRouter
@@ -1046,7 +1051,7 @@ testGetValue
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -1391,7 +1396,7 @@ ping
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
