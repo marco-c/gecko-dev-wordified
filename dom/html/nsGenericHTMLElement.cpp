@@ -18181,6 +18181,7 @@ aForm
 {
 BeforeSetForm
 (
+aForm
 aBindToTree
 )
 ;

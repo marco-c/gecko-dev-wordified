@@ -6955,6 +6955,15 @@ virtual
 void
 BeforeSetForm
 (
+mozilla
+:
+:
+dom
+:
+:
+HTMLFormElement
+*
+aForm
 bool
 aBindToTree
 )
