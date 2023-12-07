@@ -2825,7 +2825,14 @@ if
 cx
 -
 >
-insideDebuggerEvaluationWithOnNativeCallHook
+realm
+(
+)
+-
+>
+debuggerObservesNativeCall
+(
+)
 )
 {
 return
