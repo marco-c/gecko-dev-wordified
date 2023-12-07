@@ -144,7 +144,7 @@ defined
 #
 define
 MOZ_WEBAUTHN_ENUM_STRINGS_VERSION
-2
+3
 /
 /
 https
@@ -444,6 +444,12 @@ define
 MOZ_WEBAUTHN_AUTHENTICATOR_TRANSPORT_INTERNAL
 "
 internal
+"
+#
+define
+MOZ_WEBAUTHN_AUTHENTICATOR_TRANSPORT_HYBRID
+"
+hybrid
 "
 /
 /
