@@ -139,6 +139,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BodyExtractor
@@ -207,6 +216,8 @@ class
 XMLHttpRequestWorker
 final
 :
+public
+SupportsWeakPtr
 public
 XMLHttpRequest
 {
@@ -344,6 +355,12 @@ RefPtr
 StrongWorkerRef
 >
 mWorkerRef
+;
+RefPtr
+<
+XMLHttpRequestWorker
+>
+mPinnedSelfRef
 ;
 RefPtr
 <
