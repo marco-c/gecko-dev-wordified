@@ -210,8 +210,6 @@ bool
 aQuirks
 bool
 aPreventScriptExecution
-bool
-aAllowDeclarativeShadowRoots
 )
 {
 NS_ENSURE_TRUE
@@ -354,7 +352,6 @@ Tokenize
 aSourceBuffer
 doc
 true
-aAllowDeclarativeShadowRoots
 )
 ;
 }
@@ -424,12 +421,6 @@ Tokenize
 aSourceBuffer
 aTargetDoc
 aScriptingEnabledForNoscriptParsing
-aTargetDoc
--
->
-AllowsDeclarativeShadowRoots
-(
-)
 )
 ;
 }
@@ -448,8 +439,6 @@ Document
 aDocument
 bool
 aScriptingEnabledForNoscriptParsing
-bool
-aDeclarativeShadowRootsAllowed
 )
 {
 nsIURI
@@ -538,14 +527,6 @@ aDocument
 IsSrcdocDocument
 (
 )
-)
-;
-mTreeBuilder
--
->
-setAllowDeclarativeShadowRoots
-(
-aDeclarativeShadowRootsAllowed
 )
 ;
 mBuilder
