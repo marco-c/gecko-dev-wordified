@@ -293,7 +293,7 @@ return
 cx
 -
 >
-insideDebuggerEvaluationWithOnNativeCallHook
+insideExclusiveDebuggerOnEval
 |
 |
 this
@@ -302,7 +302,7 @@ this
 cx
 -
 >
-insideDebuggerEvaluationWithOnNativeCallHook
+insideExclusiveDebuggerOnEval
 ;
 }
 #
