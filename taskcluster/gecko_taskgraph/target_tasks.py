@@ -5608,6 +5608,24 @@ in
 try_name
 :
                     
+if
+"
+tp6
+"
+in
+try_name
+and
+"
+essential
+"
+not
+in
+try_name
+:
+                        
+return
+False
+                    
 return
 True
                 
@@ -5618,6 +5636,24 @@ chromium
 in
 try_name
 :
+                    
+if
+"
+tp6
+"
+in
+try_name
+and
+"
+essential
+"
+not
+in
+try_name
+:
+                        
+return
+False
                     
 return
 True
@@ -5727,29 +5763,6 @@ False
                     
 return
 True
-            
-else
-:
-                
-#
-Don
-'
-t
-run
-tp6
-raptor
-tests
-                
-if
-"
-tp6
-"
-in
-try_name
-:
-                    
-return
-False
         
 #
 Android
