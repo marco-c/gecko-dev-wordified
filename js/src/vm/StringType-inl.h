@@ -1441,10 +1441,10 @@ Length
 )
 other
 .
-needsFree_
+isMalloced_
 other
 .
-isMalloced_
+needsFree_
 )
 {
 /
