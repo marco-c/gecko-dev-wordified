@@ -2658,6 +2658,9 @@ isSession
 bool
 isSecure
 ;
+bool
+isPartitioned
+;
 int32_t
 sameSite
 ;
