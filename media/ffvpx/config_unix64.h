@@ -95,6 +95,11 @@ av1_vaapi
 enable
 -
 libdav1d
+-
+-
+enable
+-
+libvpx
 "
 #
 define
@@ -2226,7 +2231,7 @@ CONFIG_LIBVORBIS
 #
 define
 CONFIG_LIBVPX
-0
+1
 #
 define
 CONFIG_LIBWEBP
