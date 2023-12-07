@@ -2983,8 +2983,10 @@ IsDefunct
 (
 )
 )
+{
 continue
 ;
+}
 /
 /
 Collect
@@ -3431,8 +3433,10 @@ if
 !
 mDocument
 )
+{
 return
 ;
+}
 }
 if
 (

@@ -471,10 +471,12 @@ if
 (
 mDocument
 )
+{
 Shutdown
 (
 )
 ;
+}
 }
 /
 /
@@ -589,6 +591,7 @@ tmp
 >
 mDocument
 )
+{
 tmp
 -
 >
@@ -596,6 +599,7 @@ Shutdown
 (
 )
 ;
+}
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
@@ -6762,8 +6766,10 @@ IsDefunct
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 IPCAccessibilityActive
@@ -7043,8 +7049,10 @@ DocAccessible
 eCompletelyLoaded
 )
 )
+{
 break
 ;
+}
 }
 if
 (
@@ -7066,8 +7074,10 @@ if
 !
 mDocument
 )
+{
 return
 ;
+}
 }
 }
 /
@@ -7301,8 +7311,10 @@ if
 !
 mDocument
 )
+{
 return
 ;
+}
 }
 if
 (
@@ -7812,8 +7824,10 @@ if
 !
 mDocument
 )
+{
 return
 ;
+}
 /
 /
 Stop
