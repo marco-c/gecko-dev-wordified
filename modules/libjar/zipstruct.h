@@ -650,6 +650,10 @@ CENTRALSIG
 define
 ENDSIG
 0x06054B50l
+#
+define
+ENDSIG64
+0x6064B50l
 /
 *
 extra
