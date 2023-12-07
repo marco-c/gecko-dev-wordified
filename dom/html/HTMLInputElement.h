@@ -6638,6 +6638,11 @@ GetEditorState
 )
 const
 ;
+void
+EnsureEditorState
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 TextEditor
 *
