@@ -543,8 +543,11 @@ mButton
 ColorPair
 mButtonHover
 ;
+ColorPair
+mButtonActive
+;
 nscolor
-mButtonActiveText
+mButtonBorder
 =
 kBlack
 ;

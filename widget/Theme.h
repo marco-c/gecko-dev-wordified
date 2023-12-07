@@ -1198,6 +1198,7 @@ PaintBackendData
 const
 LayoutDeviceRect
 &
+StyleAppearance
 const
 ElementState
 &
