@@ -543,11 +543,6 @@ mozilla
 SynchronizedEventQueue
 *
 aQueue
-nsThread
-:
-:
-MainThreadFlag
-aMainThread
 )
 ;
 nsresult
