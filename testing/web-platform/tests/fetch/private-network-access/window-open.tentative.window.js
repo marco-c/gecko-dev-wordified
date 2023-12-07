@@ -116,7 +116,7 @@ isSecureContext
 }
 )
 ;
-promise_test_parallel
+promise_test
 (
 t
 =
@@ -145,7 +145,7 @@ HTTP_LOCAL
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 SUCCESS
 }
@@ -191,7 +191,7 @@ HTTP_PRIVATE
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 SUCCESS
 }
@@ -237,7 +237,7 @@ HTTP_PUBLIC
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 SUCCESS
 }
@@ -283,7 +283,7 @@ HTTP_LOCAL
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 FAILURE
 }
@@ -327,7 +327,7 @@ HTTP_PRIVATE
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 SUCCESS
 }
@@ -373,7 +373,7 @@ HTTP_PUBLIC
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 SUCCESS
 }
@@ -419,7 +419,7 @@ HTTP_LOCAL
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 FAILURE
 }
@@ -463,7 +463,7 @@ HTTP_PRIVATE
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 FAILURE
 }
@@ -507,7 +507,7 @@ HTTP_PUBLIC
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 SUCCESS
 }
@@ -556,7 +556,7 @@ HTTP_LOCAL
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 FAILURE
 }
@@ -609,7 +609,7 @@ HTTP_PRIVATE
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 FAILURE
 }
@@ -662,7 +662,7 @@ HTTP_PUBLIC
 }
 expected
 :
-NavigationTestResult
+WindowOpenTestResult
 .
 SUCCESS
 }

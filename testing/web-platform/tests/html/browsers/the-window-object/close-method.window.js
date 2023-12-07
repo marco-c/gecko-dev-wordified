@@ -47,7 +47,7 @@ self
 ;
 openee
 .
-onpagehide
+onunload
 =
 t
 .
@@ -209,7 +209,7 @@ was
 synchronous
 openee2
 .
-onpagehide
+onunload
 =
 t
 .
