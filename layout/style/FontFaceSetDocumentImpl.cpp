@@ -261,6 +261,13 @@ h
 #
 include
 "
+nsISupportsPriority
+.
+h
+"
+#
+include
+"
 nsIWebNavigation
 .
 h
@@ -1916,6 +1923,10 @@ mDocument
 loadGroup
 nullptr
 false
+nsISupportsPriority
+:
+:
+PRIORITY_HIGH
 )
 ;
 NS_ENSURE_SUCCESS

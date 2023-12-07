@@ -181,6 +181,8 @@ nsIInterfaceRequestor
 aCallbacks
 uint64_t
 aEarlyHintPreloaderId
+int32_t
+aSupportsPriorityValue
 )
 override
 ;

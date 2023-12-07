@@ -3138,6 +3138,7 @@ url
 crossOrigin
 media
 referrerPolicy
+fetchPriority
 )
 ;
 }
@@ -3167,6 +3168,7 @@ url
 crossOrigin
 media
 referrerPolicy
+fetchPriority
 )
 ;
 }

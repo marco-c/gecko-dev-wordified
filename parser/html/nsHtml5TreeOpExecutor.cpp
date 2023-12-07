@@ -7997,6 +7997,10 @@ const
 nsAString
 &
 aReferrerPolicy
+const
+nsAString
+&
+aFetchPriority
 )
 {
 nsCOMPtr
@@ -8033,6 +8037,7 @@ uri
 aCrossOrigin
 aReferrerPolicy
 0
+aFetchPriority
 )
 ;
 }
@@ -8058,6 +8063,10 @@ const
 nsAString
 &
 aReferrerPolicy
+const
+nsAString
+&
+aFetchPriority
 )
 {
 nsCOMPtr
@@ -8094,6 +8103,7 @@ uri
 aCrossOrigin
 aReferrerPolicy
 0
+aFetchPriority
 )
 ;
 }

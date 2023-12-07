@@ -188,6 +188,17 @@ FontLoaderUtils
 {
 public
 :
+/
+/
+param
+aSuppportsPriorityValue
+See
+<
+nsISupportsPriority
+.
+idl
+>
+.
 static
 nsresult
 BuildChannel
@@ -230,6 +241,8 @@ nsIInterfaceRequestor
 aCallbacks
 bool
 aIsPreload
+int32_t
+aSupportsPriorityValue
 )
 ;
 static
@@ -316,6 +329,8 @@ const
 gfxFontFaceSrc
 *
 aFontFaceSrc
+int32_t
+aSupportsPriorityValue
 )
 ;
 }
