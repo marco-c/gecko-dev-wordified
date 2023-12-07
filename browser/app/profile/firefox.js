@@ -4852,12 +4852,6 @@ true
 ;
 #
 endif
-#
-if
-defined
-(
-NIGHTLY_BUILD
-)
 /
 /
 Enable
@@ -4894,8 +4888,6 @@ fen
 "
 )
 ;
-#
-endif
 /
 /
 Feature
