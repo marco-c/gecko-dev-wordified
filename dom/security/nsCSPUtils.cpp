@@ -8107,14 +8107,6 @@ integrityExpressions
 IsEmpty
 (
 )
-&
-&
-StaticPrefs
-:
-:
-security_csp_external_hashes_enabled
-(
-)
 )
 {
 /
