@@ -32677,10 +32677,6 @@ TranslationsParent
 isRestrictedPage
 (
 gBrowser
-.
-currentURI
-.
-scheme
 )
 )
 {
