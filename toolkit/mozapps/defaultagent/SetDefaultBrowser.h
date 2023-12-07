@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsArray
+nsTArrayForwardDeclare
 .
 h
 "
