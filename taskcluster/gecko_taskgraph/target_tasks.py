@@ -5569,6 +5569,35 @@ return
 False
         
 #
+Bug
+1867669
+-
+Temporarily
+disable
+all
+live
+site
+tests
+        
+if
+"
+live
+"
+in
+try_name
+and
+"
+sheriffed
+"
+not
+in
+try_name
+:
+            
+return
+False
+        
+#
 Desktop
 selection
         
