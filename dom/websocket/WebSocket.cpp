@@ -15153,6 +15153,14 @@ CLOSING
 return
 ;
 }
+RefPtr
+<
+WebSocketImpl
+>
+impl
+=
+mImpl
+;
 if
 (
 readyState
@@ -15161,7 +15169,7 @@ readyState
 CONNECTING
 )
 {
-mImpl
+impl
 -
 >
 FailConnection
@@ -15181,7 +15189,7 @@ readyState
 OPEN
 )
 ;
-mImpl
+impl
 -
 >
 CloseConnection
