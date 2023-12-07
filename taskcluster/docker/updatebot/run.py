@@ -1320,15 +1320,6 @@ Linux
 sql_proxy_command
 =
 "
-/
-builds
-/
-worker
-/
-go
-/
-bin
-/
 cloud_sql_proxy
 "
 else
