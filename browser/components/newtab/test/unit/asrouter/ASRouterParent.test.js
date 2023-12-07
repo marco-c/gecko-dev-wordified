@@ -706,14 +706,6 @@ entire
 campaign
 is
 blocked
-/
-/
-and
-all
-other
-snippets
-become
-invalid
 [
 "
 message

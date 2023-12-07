@@ -635,7 +635,7 @@ clearChildProviders
 (
 [
 "
-snippets
+test_provider
 "
 ]
 )
@@ -724,7 +724,7 @@ clearChildProviders
 (
 [
 "
-snippets
+test_provider
 "
 ]
 )
@@ -802,7 +802,7 @@ clearChildProviders
 (
 [
 "
-snippets
+test_provider
 "
 ]
 )
@@ -841,7 +841,7 @@ clearChildProviders
 (
 [
 "
-snippets
+test_provider
 "
 ]
 )
@@ -944,7 +944,7 @@ clearChildProviders
 (
 [
 "
-snippets
+test_provider
 "
 ]
 )
