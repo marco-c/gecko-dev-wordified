@@ -226,11 +226,7 @@ ConceptualParent
 (
 )
 const
-{
-return
-mParent
 ;
-}
 /
 *
 *
@@ -479,9 +475,8 @@ mPosInSet
 uint32_t
 mSetSize
 ;
-Accessible
-*
-mParent
+uint64_t
+mParentId
 ;
 const
 Accessible
