@@ -125,8 +125,6 @@ is_empty
 quote
 !
 {
-:
-:
 zerovec
 :
 :
@@ -176,8 +174,6 @@ quote
 {
 unsafe
 {
-:
-:
 zerovec
 :
 :
@@ -244,8 +240,6 @@ is_empty
 quote
 !
 {
-:
-:
 zerovec
 :
 :
@@ -295,8 +289,6 @@ quote
 {
 unsafe
 {
-:
-:
 zerovec
 :
 :

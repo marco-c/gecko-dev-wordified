@@ -199,9 +199,7 @@ extensions
 :
 :
 private
-:
-:
-Subtag
+subtag
 extensions_private_subtag
 1
 .

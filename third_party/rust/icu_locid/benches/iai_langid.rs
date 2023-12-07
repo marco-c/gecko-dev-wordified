@@ -61,11 +61,13 @@ icu_locid
 :
 {
 langid
-subtags_language
-as
+subtags
+:
+:
 language
-subtags_region
-as
+subtags
+:
+:
 region
 LanguageIdentifier
 }

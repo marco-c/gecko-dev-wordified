@@ -578,7 +578,7 @@ into_json_provider
 /
 /
 let
-data_provider
+provider
 =
 forking_provider
 .
@@ -600,7 +600,7 @@ DataPayload
 HelloWorldV1Marker
 >
 =
-data_provider
+provider
 /
 /
 /
@@ -736,8 +736,9 @@ icu_locid
 :
 :
 {
-subtags_language
-as
+subtags
+:
+:
 language
 locale
 }
@@ -902,7 +903,7 @@ de
 /
 /
 let
-data_provider
+provider
 :
 &
 dyn
@@ -943,7 +944,7 @@ succeeds
 let
 chinese_hello_world
 =
-data_provider
+provider
 /
 /
 /
@@ -1057,7 +1058,7 @@ fails
 /
 /
 /
-data_provider
+provider
 /
 /
 /
@@ -1398,8 +1399,9 @@ icu_locid
 :
 :
 {
-subtags_language
-as
+subtags
+:
+:
 language
 locale
 }
@@ -1574,7 +1576,7 @@ de
 /
 /
 let
-data_provider
+provider
 :
 &
 dyn
@@ -1615,7 +1617,7 @@ succeeds
 let
 chinese_hello_world
 =
-data_provider
+provider
 /
 /
 /
@@ -1729,7 +1731,7 @@ fails
 /
 /
 /
-data_provider
+provider
 /
 /
 /

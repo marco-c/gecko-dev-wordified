@@ -180,9 +180,7 @@ extensions
 :
 :
 unicode
-:
-:
-Key
+key
 extensions_unicode_key
 2
 .

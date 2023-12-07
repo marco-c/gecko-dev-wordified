@@ -430,6 +430,7 @@ VarZeroSlice
 [
 u8
 ]
+Index32
 >
 >
 :
@@ -1274,6 +1275,7 @@ VarZeroSlice
 [
 u8
 ]
+Index32
 >
 >
 :
@@ -1327,6 +1329,7 @@ VarZeroSlice
 [
 u8
 ]
+Index32
 >
 >
 :

@@ -1156,12 +1156,6 @@ string
 :
 String
 ;
-use
-alloc
-:
-:
-vec
-;
 fn
 get_simple_map
 (
@@ -1174,8 +1168,6 @@ u32
 String
 >
 {
-vec
-!
 [
 (
 1
@@ -1242,8 +1234,6 @@ String
 String
 >
 {
-vec
-!
 [
 (
 (

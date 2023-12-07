@@ -1546,8 +1546,6 @@ let
 mut
 foos
 =
-vec
-!
 [
 Foo
 {

@@ -94,7 +94,7 @@ Unicode
 base
 language
 code
-conformat
+conformant
 to
 the
 /
@@ -204,9 +204,7 @@ tr35
 unicode_region_id
 Region
 subtags
-:
-:
-Region
+region
 subtags_region
 2
 .

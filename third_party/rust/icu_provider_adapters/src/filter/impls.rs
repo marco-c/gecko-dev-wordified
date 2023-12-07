@@ -240,8 +240,9 @@ icu_locid
 {
 langid
 locale
-subtags_language
-as
+subtags
+:
+:
 language
 }
 ;
@@ -967,8 +968,6 @@ Filterable
 let
 allowlist
 =
-vec
-!
 [
 langid
 !

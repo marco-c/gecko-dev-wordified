@@ -2976,6 +2976,10 @@ Serialize
 Deserialize
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 Lifetime

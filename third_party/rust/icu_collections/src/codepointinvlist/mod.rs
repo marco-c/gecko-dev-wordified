@@ -613,6 +613,13 @@ cpinvlist
 :
 CodePointInversionList
 ;
+pub
+use
+cpinvlist
+:
+:
+CodePointInversionListULE
+;
 use
 displaydoc
 :
@@ -642,9 +649,6 @@ as
 [
 Error
 ]
-(
-Error
-)
 .
 #
 [

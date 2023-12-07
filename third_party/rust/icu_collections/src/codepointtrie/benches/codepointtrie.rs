@@ -342,10 +342,6 @@ gc_small
 :
 :
 INDEX
-.
-as_zerovec
-(
-)
 tries
 :
 :
@@ -353,10 +349,6 @@ gc_small
 :
 :
 DATA
-.
-as_zerovec
-(
-)
 )
 .
 unwrap
@@ -406,10 +398,6 @@ gc_fast
 :
 :
 INDEX
-.
-as_zerovec
-(
-)
 tries
 :
 :
@@ -417,10 +405,6 @@ gc_fast
 :
 :
 DATA
-.
-as_zerovec
-(
-)
 )
 .
 unwrap

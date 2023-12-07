@@ -4434,7 +4434,6 @@ fn
 is_empty
 (
 &
-mut
 self
 )
 -
@@ -4486,10 +4485,10 @@ generate_tester
 (
 ex
 :
-Vec
-<
+&
+[
 u32
->
+]
 )
 -
 >
@@ -4497,18 +4496,17 @@ CodePointInversionListBuilder
 {
 let
 inv_list
-:
-ZeroVec
-<
-u32
->
 =
 ZeroVec
 :
 :
+<
+u32
+>
+:
+:
 alloc_from_slice
 (
-&
 ex
 )
 ;
@@ -4715,8 +4713,6 @@ assert_eq
 builder
 .
 intervals
-vec
-!
 [
 0x0
 0xA
@@ -4788,8 +4784,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -4809,8 +4804,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0x0
 0x5
@@ -4845,8 +4838,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -4866,8 +4858,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0x0
 0x14
@@ -4900,8 +4890,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -4921,8 +4910,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -4957,8 +4944,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -4978,8 +4964,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -5012,8 +4996,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5033,8 +5016,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -5069,8 +5050,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5090,8 +5070,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -5124,8 +5102,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5145,8 +5122,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x19
@@ -5179,8 +5154,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5200,8 +5174,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -5234,8 +5206,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5255,8 +5226,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0x0
 0x3C
@@ -5287,8 +5256,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5308,8 +5276,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0x0
 0x23
@@ -5342,8 +5308,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5363,8 +5328,6 @@ add
 let
 expected
 =
-vec
-!
 [
 5
 0x14
@@ -5397,8 +5360,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5418,8 +5380,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -5452,8 +5412,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5473,8 +5432,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x19
@@ -5507,8 +5464,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5528,8 +5484,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -5562,8 +5516,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5585,8 +5538,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x28
@@ -5619,8 +5570,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5642,8 +5592,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x28
@@ -5676,8 +5624,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5713,8 +5660,6 @@ add
 let
 expected
 =
-vec
-!
 [
 0xA
 0x16
@@ -5747,8 +5692,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -5791,8 +5735,6 @@ check
 let
 expected
 =
-vec
-!
 [
 0x5
 0x14
@@ -5844,8 +5786,6 @@ a
 let
 expected
 =
-vec
-!
 [
 0x61
 0x62
@@ -5902,8 +5842,6 @@ Z
 let
 expected
 =
-vec
-!
 [
 0x41
 0x5B
@@ -5956,8 +5894,6 @@ add_range_u32
 let
 expected
 =
-vec
-!
 [
 0xd800
 0xe000
@@ -6080,8 +6016,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6126,8 +6061,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6147,8 +6081,6 @@ remove
 let
 expected
 =
-vec
-!
 [
 0x28
 0x32
@@ -6179,8 +6111,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6200,8 +6131,6 @@ remove
 let
 expected
 =
-vec
-!
 [
 0x2B
 0x32
@@ -6232,8 +6161,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6253,8 +6181,6 @@ remove
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -6287,8 +6213,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6308,8 +6233,6 @@ remove
 let
 expected
 =
-vec
-!
 [
 0xA
 0xF
@@ -6340,8 +6263,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6361,8 +6283,6 @@ remove
 let
 expected
 =
-vec
-!
 [
 0xA
 0xC
@@ -6397,8 +6317,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6418,8 +6337,6 @@ remove
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -6452,8 +6369,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6475,8 +6391,6 @@ remove
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -6509,8 +6423,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6546,8 +6459,6 @@ remove
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -6580,8 +6491,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0x41
 0x46
@@ -6603,8 +6513,6 @@ A
 let
 expected
 =
-vec
-!
 [
 0x42
 0x46
@@ -6635,8 +6543,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0x41
 0x5A
@@ -6668,8 +6575,6 @@ L
 let
 expected
 =
-vec
-!
 [
 0x4C
 0x5A
@@ -6700,8 +6605,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6744,8 +6648,6 @@ remove
 let
 expected
 =
-vec
-!
 [
 0x28
 0x2D
@@ -6778,8 +6680,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0x41
 0x5A
@@ -6801,8 +6702,6 @@ A
 let
 expected
 =
-vec
-!
 [
 0x41
 0x42
@@ -6833,8 +6732,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0x41
 0x5A
@@ -6866,8 +6764,6 @@ F
 let
 expected
 =
-vec
-!
 [
 0x43
 0x46
@@ -6898,8 +6794,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0x41
 0x46
@@ -6951,8 +6846,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -6997,8 +6891,6 @@ retain
 let
 expected
 =
-vec
-!
 [
 0xE
 0x14
@@ -7033,8 +6925,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -7052,8 +6943,6 @@ complement
 let
 expected
 =
-vec
-!
 [
 0x0
 0xA
@@ -7097,8 +6986,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 ]
 )
@@ -7112,8 +7000,6 @@ complement
 let
 expected
 =
-vec
-!
 [
 0x0
 (
@@ -7146,13 +7032,12 @@ complement
 let
 expected
 :
-Vec
-<
+[
 u32
->
+;
+0
+]
 =
-vec
-!
 [
 ]
 ;
@@ -7181,8 +7066,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0x0
 0xA
@@ -7209,8 +7093,6 @@ complement
 let
 expected
 =
-vec
-!
 [
 0xA
 0x5A
@@ -7241,8 +7123,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -7272,8 +7153,6 @@ copied
 let
 expected
 =
-vec
-!
 [
 0xA
 0xE
@@ -7306,8 +7185,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -7337,8 +7215,6 @@ copied
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -7373,8 +7249,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0xA
 0x14
@@ -7406,8 +7281,6 @@ copied
 let
 expected
 =
-vec
-!
 [
 0xA
 0x14
@@ -7444,8 +7317,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0x41
 0x4C
@@ -7478,8 +7350,6 @@ L
 let
 expected
 =
-vec
-!
 [
 0x42
 0x4D
@@ -7510,8 +7380,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0x46
 0x4C
@@ -7544,8 +7413,6 @@ Z
 let
 expected
 =
-vec
-!
 [
 0x41
 0x46
@@ -7578,8 +7445,7 @@ builder
 =
 generate_tester
 (
-vec
-!
+&
 [
 0x43
 0x4E
@@ -7618,8 +7484,6 @@ set
 let
 expected
 =
-vec
-!
 [
 0x41
 0x43
@@ -7649,7 +7513,6 @@ test_is_empty
 )
 {
 let
-mut
 builder
 =
 CodePointInversionListBuilder

@@ -212,15 +212,6 @@ ICU4X
 [
 Char16Trie
 ]
-(
-crate
-:
-:
-char16trie
-:
-:
-Char16Trie
-)
 is
 designed
 to
@@ -329,8 +320,6 @@ to
 let
 trie_data
 =
-vec
-!
 [
 48
 97
@@ -345,9 +334,6 @@ vec
 let
 trie
 =
-/
-/
-!
 Char16Trie
 :
 :
@@ -358,11 +344,8 @@ ZeroVec
 :
 from_slice_or_alloc
 (
+&
 trie_data
-.
-as_slice
-(
-)
 )
 )
 ;

@@ -186,8 +186,6 @@ allow
 unused_unsafe
 )
 ]
-:
-:
 zerovec
 :
 :
@@ -320,8 +318,6 @@ allow
 unused_unsafe
 )
 ]
-:
-:
 zerovec
 :
 :

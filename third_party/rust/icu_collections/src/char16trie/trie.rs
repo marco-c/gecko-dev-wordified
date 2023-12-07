@@ -1566,8 +1566,6 @@ b
 let
 trie_data
 =
-vec
-!
 [
 48
 97
@@ -1582,9 +1580,6 @@ vec
 let
 trie
 =
-/
-/
-/
 Char16Trie
 :
 :
@@ -1595,11 +1590,8 @@ ZeroVec
 :
 from_slice_or_alloc
 (
+&
 trie_data
-.
-as_slice
-(
-)
 )
 )
 ;
@@ -1879,8 +1871,6 @@ b
 let
 trie_data
 =
-vec
-!
 [
 48
 97
@@ -1895,9 +1885,6 @@ vec
 let
 trie
 =
-/
-/
-/
 Char16Trie
 :
 :
@@ -1908,11 +1895,8 @@ ZeroVec
 :
 from_slice_or_alloc
 (
+&
 trie_data
-.
-as_slice
-(
-)
 )
 )
 ;
@@ -2188,8 +2172,6 @@ b
 let
 trie_data
 =
-vec
-!
 [
 48
 97
@@ -2204,9 +2186,6 @@ vec
 let
 trie
 =
-/
-/
-/
 Char16Trie
 :
 :
@@ -2217,11 +2196,8 @@ ZeroVec
 :
 from_slice_or_alloc
 (
+&
 trie_data
-.
-as_slice
-(
-)
 )
 )
 ;

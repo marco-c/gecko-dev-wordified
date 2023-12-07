@@ -225,8 +225,9 @@ use
 icu_locid
 :
 :
-subtags_language
-as
+subtags
+:
+:
 language
 ;
 /

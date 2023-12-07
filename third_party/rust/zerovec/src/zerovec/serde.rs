@@ -1661,14 +1661,10 @@ bincode_buf
 assert
 !
 (
-matches
-!
-(
 zerovec_result
-Err
+.
+is_err
 (
-_
-)
 )
 )
 ;
