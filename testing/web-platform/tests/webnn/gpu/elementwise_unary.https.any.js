@@ -100,6 +100,9 @@ reciprocal
 sin
 '
 '
+sqrt
+'
+'
 tan
 '
 ]
