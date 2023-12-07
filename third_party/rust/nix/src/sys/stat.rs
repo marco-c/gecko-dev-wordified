@@ -1218,6 +1218,8 @@ as_ptr
 kind
 .
 bits
+(
+)
 |
 perm
 .
@@ -1371,6 +1373,8 @@ as_ptr
 kind
 .
 bits
+(
+)
 |
 perm
 .

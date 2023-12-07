@@ -3537,6 +3537,11 @@ target_os
 "
 openbsd
 "
+target_os
+=
+"
+illumos
+"
 )
 )
 ]
@@ -4464,6 +4469,11 @@ target_os
 =
 "
 openbsd
+"
+target_os
+=
+"
+illumos
 "
 )
 )

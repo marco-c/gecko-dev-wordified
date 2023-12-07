@@ -279,6 +279,9 @@ usize
 _
 :
 bool
+_
+:
+bool
 )
 -
 >

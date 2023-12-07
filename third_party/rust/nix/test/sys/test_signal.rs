@@ -429,6 +429,7 @@ SIGNAL
 "
 the
 {
+SIGNAL
 :
 ?
 }
@@ -444,7 +445,6 @@ a
 different
 one
 "
-SIGNAL
 )
 ;
 /
@@ -561,6 +561,7 @@ SIGNAL
 expected
 the
 {
+SIGNAL
 :
 ?
 }
@@ -568,7 +569,6 @@ to
 be
 blocked
 "
-SIGNAL
 )
 ;
 /
@@ -605,11 +605,7 @@ signals
 )
 ;
 }
-lazy_static
-!
-{
 static
-ref
 SIGNALED
 :
 AtomicBool
@@ -622,7 +618,6 @@ new
 false
 )
 ;
-}
 extern
 "
 C

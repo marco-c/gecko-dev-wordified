@@ -94,12 +94,8 @@ tempfile
 :
 tempfile
 ;
-lazy_static
-!
-{
 pub
 static
-ref
 SIGNALED
 :
 AtomicBool
@@ -112,7 +108,6 @@ new
 false
 )
 ;
-}
 extern
 "
 C
@@ -1434,10 +1429,6 @@ rbuf
 deref
 (
 )
-.
-deref
-(
-)
 )
 ;
 }
@@ -1656,10 +1647,6 @@ assert_eq
 (
 EXPECT
 rbuf
-.
-deref
-(
-)
 .
 deref
 (
@@ -4608,11 +4595,11 @@ panic
 aio_suspend
 returned
 {
+e
 :
 ?
 }
 "
-e
 )
 Ok
 (
