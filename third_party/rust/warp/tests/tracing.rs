@@ -37,12 +37,6 @@ tracing_subscriber
 :
 :
 fmt
-:
-:
-Subscriber
-:
-:
-builder
 (
 )
 .

@@ -65,7 +65,15 @@ type
 representing
 a
 boxed
+[
 Filter
+]
+(
+crate
+:
+:
+Filter
+)
 trait
 object
 .

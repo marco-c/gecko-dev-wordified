@@ -409,6 +409,17 @@ Events
 /
 /
 !
+#
+!
+[
+allow
+(
+rustdoc
+:
+:
+invalid_html_tags
+)
+]
 use
 serde
 :
@@ -2891,9 +2902,6 @@ See
 [
 keep_alive
 ]
-(
-keep_alive
-)
 for
 more
 .
