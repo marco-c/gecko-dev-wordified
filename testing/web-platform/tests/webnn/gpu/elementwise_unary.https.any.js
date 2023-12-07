@@ -94,6 +94,9 @@ log
 neg
 '
 '
+reciprocal
+'
+'
 sin
 '
 '
