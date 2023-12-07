@@ -1326,17 +1326,22 @@ dict
 parameters
 )
     
+(
+        
 decision_task_id
+        
 full_task_graph
+        
 label_to_taskid
+        
 label_to_taskids
+    
+)
 =
 fetch_graph_and_labels
 (
-        
 parameters
 graph_config
-    
 )
     
 label
@@ -1717,17 +1722,22 @@ task_id
 )
 :
     
+(
+        
 decision_task_id
+        
 full_task_graph
+        
 label_to_taskid
+        
 label_to_taskids
+    
+)
 =
 fetch_graph_and_labels
 (
-        
 parameters
 graph_config
-    
 )
     
 suffixes

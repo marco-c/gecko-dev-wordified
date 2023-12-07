@@ -1539,9 +1539,9 @@ open
 (
 device_code_data
 [
-'
+"
 verification_uri_complete
-'
+"
 ]
 )
         
