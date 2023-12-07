@@ -17790,6 +17790,18 @@ apzc
 )
 {
 apzc
+=
+FindZoomableApzc
+(
+apzc
+)
+;
+if
+(
+apzc
+)
+{
+apzc
 -
 >
 ZoomToRect
@@ -17798,6 +17810,7 @@ aZoomTarget
 aFlags
 )
 ;
+}
 }
 }
 void
