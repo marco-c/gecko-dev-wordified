@@ -1651,6 +1651,11 @@ out
 ;
 private
 :
+bool
+mIsRgb8Renderable
+=
+false
+;
 void
 FinishInit
 (
