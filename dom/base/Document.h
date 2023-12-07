@@ -18864,11 +18864,6 @@ return
 mTimelines
 ;
 }
-void
-UpdateHiddenByContentVisibilityForAnimations
-(
-)
-;
 SVGSVGElement
 *
 GetSVGRootElement
