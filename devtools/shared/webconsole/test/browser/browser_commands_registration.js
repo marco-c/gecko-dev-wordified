@@ -276,6 +276,9 @@ name
 "
 setFoo
 "
+isSideEffectFree
+:
+false
 command
 (
 owner
@@ -403,6 +406,9 @@ name
 "
 foo
 "
+isSideEffectFree
+:
+true
 command
 :
 {
