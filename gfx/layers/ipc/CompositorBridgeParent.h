@@ -731,6 +731,15 @@ GetChildProcessId
 )
 override
 ;
+dom
+:
+:
+ContentParentId
+GetContentId
+(
+)
+override
+;
 void
 NotifyNotUsed
 (
@@ -1405,7 +1414,7 @@ isContentOnlyTDR
 bool
 mCanSend
 ;
-private
+protected
 :
 RefPtr
 <

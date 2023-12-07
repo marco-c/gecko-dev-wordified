@@ -7436,6 +7436,11 @@ PRemoteDecoderManagerChild
 >
 *
 aOutVideoManager
+dom
+:
+:
+ContentParentId
+aChildId
 nsTArray
 <
 uint32_t
@@ -7450,6 +7455,7 @@ if
 CreateContentCompositorManager
 (
 aOtherProcess
+aChildId
 aOutCompositor
 )
 |
@@ -7458,6 +7464,7 @@ aOutCompositor
 CreateContentImageBridge
 (
 aOtherProcess
+aChildId
 aOutImageBridge
 )
 |
@@ -7466,6 +7473,7 @@ aOutImageBridge
 CreateContentVRManager
 (
 aOtherProcess
+aChildId
 aOutVRBridge
 )
 )
@@ -7497,6 +7505,7 @@ fallible
 CreateContentRemoteDecoderManager
 (
 aOtherProcess
+aChildId
 aOutVideoManager
 )
 ;
@@ -7559,6 +7568,11 @@ base
 :
 ProcessId
 aOtherProcess
+dom
+:
+:
+ContentParentId
+aChildId
 ipc
 :
 :
@@ -7701,6 +7715,7 @@ move
 (
 parentPipe
 )
+aChildId
 )
 ;
 }
@@ -7720,6 +7735,7 @@ move
 (
 parentPipe
 )
+aChildId
 /
 *
 aIsRoot
@@ -7759,6 +7775,11 @@ base
 :
 ProcessId
 aOtherProcess
+dom
+:
+:
+ContentParentId
+aChildId
 ipc
 :
 :
@@ -7913,6 +7934,7 @@ move
 (
 parentPipe
 )
+aChildId
 )
 ;
 }
@@ -7933,6 +7955,7 @@ move
 (
 parentPipe
 )
+aChildId
 )
 )
 {
@@ -8002,6 +8025,11 @@ base
 :
 ProcessId
 aOtherProcess
+dom
+:
+:
+ContentParentId
+aChildId
 ipc
 :
 :
@@ -8159,6 +8187,7 @@ move
 (
 parentPipe
 )
+aChildId
 )
 ;
 }
@@ -8179,6 +8208,7 @@ move
 (
 parentPipe
 )
+aChildId
 )
 )
 {
@@ -8213,6 +8243,11 @@ base
 :
 ProcessId
 aOtherProcess
+dom
+:
+:
+ContentParentId
+aChildId
 ipc
 :
 :
@@ -8352,6 +8387,7 @@ move
 (
 parentPipe
 )
+aChildId
 )
 ;
 *

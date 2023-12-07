@@ -192,6 +192,13 @@ GPUVideoTextureHost
 :
 GPUVideoTextureHost
 (
+const
+dom
+:
+:
+ContentParentId
+&
+aContentId
 TextureFlags
 aFlags
 const
@@ -207,6 +214,10 @@ TextureHostType
 :
 Unknown
 aFlags
+)
+mContentId
+(
+aContentId
 )
 mDescriptor
 (
@@ -240,6 +251,13 @@ GPUVideoTextureHost
 :
 CreateFromDescriptor
 (
+const
+dom
+:
+:
+ContentParentId
+&
+aContentId
 TextureFlags
 aFlags
 const
@@ -252,6 +270,7 @@ return
 new
 GPUVideoTextureHost
 (
+aContentId
 aFlags
 aDescriptor
 )
@@ -341,6 +360,7 @@ parent
 >
 LookupTexture
 (
+mContentId
 sd
 .
 handle

@@ -314,6 +314,10 @@ PRemoteDecoderManagerParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aParentId
 )
 ;
 mozilla

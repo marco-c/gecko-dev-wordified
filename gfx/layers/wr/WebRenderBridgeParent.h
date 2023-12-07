@@ -1278,6 +1278,15 @@ GetChildProcessId
 )
 override
 ;
+dom
+:
+:
+ContentParentId
+GetContentId
+(
+)
+override
+;
 void
 NotifyNotUsed
 (

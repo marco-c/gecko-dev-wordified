@@ -2111,6 +2111,11 @@ base
 :
 ProcessId
 aOtherProcess
+dom
+:
+:
+ContentParentId
+aChildId
 SandboxingKind
 aSandbox
 )
@@ -2249,6 +2254,7 @@ __func__
 self
 uadc
 aOtherProcess
+aChildId
 aSandbox
 remoteDecodingStart
 ]
@@ -2418,6 +2424,7 @@ move
 (
 parentPipe
 )
+aChildId
 )
 )
 {

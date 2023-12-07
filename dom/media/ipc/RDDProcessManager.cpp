@@ -1206,6 +1206,11 @@ base
 :
 ProcessId
 aOtherProcess
+dom
+:
+:
+ContentParentId
+aParentId
 )
 -
 >
@@ -1223,6 +1228,7 @@ GetMainThreadSerialEventTarget
 __func__
 [
 aOtherProcess
+aParentId
 this
 ]
 (
@@ -1248,6 +1254,7 @@ GetMainThreadSerialEventTarget
 __func__
 [
 aOtherProcess
+aParentId
 this
 ]
 (
@@ -1286,6 +1293,7 @@ if
 CreateContentBridge
 (
 aOtherProcess
+aParentId
 &
 endpoint
 )
@@ -1646,6 +1654,11 @@ base
 :
 ProcessId
 aOtherProcess
+dom
+:
+:
+ContentParentId
+aParentId
 ipc
 :
 :
@@ -1783,6 +1796,7 @@ move
 (
 parentPipe
 )
+aParentId
 )
 ;
 *

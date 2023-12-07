@@ -226,6 +226,13 @@ TextureHost
 *
 LookupTexture
 (
+const
+dom
+:
+:
+ContentParentId
+&
+aContentId
 uint64_t
 aSerial
 )
@@ -260,6 +267,13 @@ const
 TextureFlags
 &
 aFlags
+const
+dom
+:
+:
+ContentParentId
+&
+aContentId
 const
 uint64_t
 &

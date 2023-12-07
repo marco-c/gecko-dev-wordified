@@ -615,6 +615,10 @@ PCompositorManagerParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aChildId
 )
 ;
 mozilla
@@ -633,6 +637,10 @@ PImageBridgeParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aChildId
 )
 ;
 mozilla
@@ -651,6 +659,10 @@ PVRManagerParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aChildId
 )
 ;
 mozilla
@@ -669,6 +681,10 @@ PRemoteDecoderManagerParent
 &
 &
 aEndpoint
+const
+ContentParentId
+&
+aChildId
 )
 ;
 mozilla
