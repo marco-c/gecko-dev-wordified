@@ -299,7 +299,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-50
+1000
 )
 ;
 void
@@ -718,6 +718,8 @@ wr
 ExternalImageId
 &
 aId
+bool
+aAllowWait
 )
 {
 StaticMonitorAutoLock
@@ -789,6 +791,16 @@ surface
 )
 )
 {
+if
+(
+!
+aAllowWait
+)
+{
+return
+nullptr
+;
+}
 CVStatus
 status
 =
