@@ -7778,6 +7778,10 @@ move
 aUseCounters
 )
 ;
+FixUpRuleListAfterContentsChangeIfNeeded
+(
+)
+;
 mParsePromise
 .
 Resolve
