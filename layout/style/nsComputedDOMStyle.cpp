@@ -2239,6 +2239,14 @@ mElement
 =
 aElement
 ;
+SetEnabledCallbacks
+(
+nsIMutationObserver
+:
+:
+kParentChainChanged
+)
+;
 }
 nsComputedDOMStyle
 :
