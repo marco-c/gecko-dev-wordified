@@ -16600,8 +16600,6 @@ features
 /
 Use
 local
-BlocksRingBuffer
-&
 ProfileBuffer
 to
 capture
