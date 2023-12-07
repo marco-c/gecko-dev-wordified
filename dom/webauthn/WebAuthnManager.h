@@ -711,6 +711,9 @@ PublicKeyCredentialRequestOptions
 &
 aOptions
 const
+bool
+aConditionallyMediated
+const
 Optional
 <
 OwningNonNull
