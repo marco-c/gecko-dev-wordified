@@ -245,6 +245,14 @@ mDocumentOrShadowRoot
 aScope
 )
 {
+SetEnabledCallbacks
+(
+nsIMutationObserver
+:
+:
+kNodeWillBeDestroyed
+)
+;
 mDocumentOrShadowRoot
 -
 >
