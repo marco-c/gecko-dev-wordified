@@ -753,14 +753,6 @@ nsAString
 aContentType
 )
 ;
-already_AddRefed
-<
-nsIGlobalObject
->
-GetGlobalFromDataTransfer
-(
-)
-;
 /
 /
 The
