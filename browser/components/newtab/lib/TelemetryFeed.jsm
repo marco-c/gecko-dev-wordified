@@ -5933,6 +5933,7 @@ const
 card_type
 topic
 recommendation_id
+tile_id
 }
 =
 action
@@ -6037,6 +6038,7 @@ data
 .
 action_position
 recommendation_id
+tile_id
 }
 )
 ;
@@ -6095,6 +6097,16 @@ value
 ?
 .
 recommendation_id
+tile_id
+:
+action
+.
+data
+.
+value
+?
+.
+tile_id
 }
 )
 ;
@@ -7624,6 +7636,11 @@ recommendation_id
 tile
 .
 recommendation_id
+tile_id
+:
+tile
+.
+id
 }
 )
 ;
