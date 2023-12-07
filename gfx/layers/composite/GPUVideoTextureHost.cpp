@@ -309,8 +309,10 @@ SurfaceDescriptorRemoteDecoder
 mDescriptor
 )
 ;
+RefPtr
+<
 VideoBridgeParent
-*
+>
 parent
 =
 VideoBridgeParent
@@ -358,7 +360,7 @@ mWrappedTextureHost
 parent
 -
 >
-LookupTexture
+LookupTextureAsync
 (
 mContentId
 sd
