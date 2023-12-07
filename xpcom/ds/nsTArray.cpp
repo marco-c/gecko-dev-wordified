@@ -116,6 +116,13 @@ MPL
 /
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 nsTArray
 .

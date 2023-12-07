@@ -236,6 +236,13 @@ h
 #
 include
 "
+nsQuickSort
+.
+h
+"
+#
+include
+"
 nsEnumeratorUtils
 .
 h
@@ -1116,6 +1123,8 @@ aA
 nsICategoryEntry
 *
 aB
+void
+*
 )
 {
 return
@@ -1148,6 +1157,7 @@ Key
 )
 ;
 }
+nullptr
 )
 ;
 return

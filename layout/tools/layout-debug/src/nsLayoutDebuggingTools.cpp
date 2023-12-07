@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsQuickSort
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
