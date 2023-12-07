@@ -774,11 +774,6 @@ uint8_t
 None
 Ignore
 Normal
-SelectAll
-SelectBefore
-SelectAfter
-SelectSame
-SelectMenu
 }
 ;
 /
