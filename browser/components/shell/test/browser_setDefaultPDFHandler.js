@@ -118,6 +118,19 @@ sinon
 stub
 (
 )
+.
+callsFake
+(
+(
+)
+=
+>
+Promise
+.
+resolve
+(
+)
+)
 ;
 const
 defaultAgentStub
@@ -135,7 +148,7 @@ defaultAgent
 value
 (
 {
-setDefaultBrowserUserChoice
+setDefaultBrowserUserChoiceAsync
 :
 setDefaultBrowserUserChoiceStub
 setDefaultExtensionHandlersUserChoice
@@ -429,6 +442,7 @@ resetHistory
 (
 )
 ;
+await
 ShellService
 .
 setDefaultBrowser
@@ -635,6 +649,7 @@ resetHistory
 (
 )
 ;
+await
 ShellService
 .
 setDefaultBrowser
@@ -723,6 +738,7 @@ resetHistory
 (
 )
 ;
+await
 ShellService
 .
 setDefaultBrowser
@@ -850,6 +866,7 @@ resetHistory
 (
 )
 ;
+await
 ShellService
 .
 setDefaultBrowser
@@ -978,6 +995,7 @@ resetHistory
 (
 )
 ;
+await
 ShellService
 .
 setDefaultBrowser
