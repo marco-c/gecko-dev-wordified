@@ -273,7 +273,7 @@ waitFor
 )
 =
 >
-isButtonChecked
+isButtonPressed
 (
 darkButton
 )
@@ -366,7 +366,7 @@ wait
 ;
 ok
 (
-isButtonChecked
+isButtonPressed
 (
 darkButton
 )
@@ -423,7 +423,7 @@ waitFor
 =
 >
 !
-isButtonChecked
+isButtonPressed
 (
 darkButton
 )
@@ -503,7 +503,7 @@ waitFor
 )
 =
 >
-isButtonChecked
+isButtonPressed
 (
 darkButton
 )
@@ -591,7 +591,7 @@ waitFor
 =
 >
 !
-isButtonChecked
+isButtonPressed
 (
 darkButton
 )
@@ -659,7 +659,7 @@ tab
 )
 ;
 function
-isButtonChecked
+isButtonPressed
 (
 el
 )
@@ -667,13 +667,19 @@ el
 return
 el
 .
-classList
-.
-contains
+getAttribute
 (
 "
-checked
+aria
+-
+pressed
 "
 )
+=
+=
+=
+"
+true
+"
 ;
 }
