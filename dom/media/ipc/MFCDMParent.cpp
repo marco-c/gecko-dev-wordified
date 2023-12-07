@@ -5515,7 +5515,7 @@ for
 const
 auto
 &
-schme
+scheme
 :
 aCapabilitiesOut
 .
@@ -5706,7 +5706,7 @@ vectors
 ivs
 if
 (
-schme
+scheme
 =
 =
 CryptoScheme
@@ -5779,7 +5779,7 @@ s
 "
 CryptoSchemeToString
 (
-schme
+scheme
 )
 codec
 .
@@ -5864,7 +5864,7 @@ s
 "
 CryptoSchemeToString
 (
-schme
+scheme
 )
 codec
 .
