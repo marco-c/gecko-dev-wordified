@@ -253,6 +253,8 @@ str
 :
         
 return
+(
+            
 f
 "
 Span
@@ -276,6 +278,51 @@ r
 }
 )
 "
+            
+if
+(
+isinstance
+(
+self
+.
+style
+Style
+)
+and
+self
+.
+style
+.
+_meta
+)
+            
+else
+f
+"
+Span
+(
+{
+self
+.
+start
+}
+{
+self
+.
+end
+}
+{
+repr
+(
+self
+.
+style
+)
+}
+)
+"
+        
+)
     
 def
 __bool__
@@ -9020,8 +9067,9 @@ Returns
             
 Lines
 :
-Lines
-container
+List
+of
+lines
 .
         
 "

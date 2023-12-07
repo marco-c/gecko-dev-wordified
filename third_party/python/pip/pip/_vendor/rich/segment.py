@@ -607,13 +607,9 @@ cut
 cell_length
 )
 *
-(
 len
 (
 text
-)
--
-1
 )
 )
         
@@ -1832,11 +1828,11 @@ new_line_segment
 yield
 cropped_line
                         
+del
 line
-.
-clear
-(
-)
+[
+:
+]
             
 else
 :
@@ -2277,17 +2273,14 @@ sum
 (
 _cell_len
 (
+segment
+.
 text
 )
 for
-text
-style
-control
+segment
 in
 line
-if
-not
-control
 )
     
 classmethod
@@ -4892,6 +4885,7 @@ the
 object
 in
 to
+the
 the
 following
 :

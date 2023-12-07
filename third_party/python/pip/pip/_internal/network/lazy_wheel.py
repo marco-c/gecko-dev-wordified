@@ -43,7 +43,7 @@ Tuple
 from
 zipfile
 import
-BadZipFile
+BadZipfile
 ZipFile
 from
 pip
@@ -1247,7 +1247,7 @@ type
 ignore
                 
 except
-BadZipFile
+BadZipfile
 :
                     
 pass

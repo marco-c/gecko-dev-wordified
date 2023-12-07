@@ -1203,6 +1203,16 @@ pools
 RecentlyUsedContainer
 (
 num_pools
+dispose_func
+=
+lambda
+p
+:
+p
+.
+close
+(
+)
 )
         
 #

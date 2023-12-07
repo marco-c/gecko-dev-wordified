@@ -70,7 +70,12 @@ req
 .
 req_install
 import
+(
+    
+LegacySetupPyOptionsCheckMode
+    
 check_legacy_setup_py_options
+)
 from
 pip
 .
@@ -780,8 +785,13 @@ session
         
 check_legacy_setup_py_options
 (
+            
 options
 reqs
+LegacySetupPyOptionsCheckMode
+.
+DOWNLOAD
+        
 )
         
 preparer
@@ -939,25 +949,6 @@ append
 req
 .
 name
-)
-        
-preparer
-.
-prepare_linked_requirements_more
-(
-requirement_set
-.
-requirements
-.
-values
-(
-)
-)
-        
-requirement_set
-.
-warn_legacy_versions_and_specifiers
-(
 )
         
 if

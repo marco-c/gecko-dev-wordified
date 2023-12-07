@@ -916,14 +916,7 @@ path
 .
 normcase
 (
-os
-.
-path
-.
-normpath
-(
 i
-)
 )
 .
 rstrip
@@ -994,18 +987,11 @@ not_warn_dirs
 .
 append
 (
-        
 os
 .
 path
 .
 normcase
-(
-os
-.
-path
-.
-normpath
 (
 os
 .
@@ -1018,8 +1004,6 @@ sys
 executable
 )
 )
-)
-    
 )
     
 warn_for
@@ -1056,14 +1040,7 @@ path
 .
 normcase
 (
-os
-.
-path
-.
-normpath
-(
 parent_dir
-)
 )
 not
 in

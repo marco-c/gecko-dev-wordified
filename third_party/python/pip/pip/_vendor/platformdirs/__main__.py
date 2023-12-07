@@ -1,13 +1,3 @@
-"
-"
-"
-Main
-entry
-point
-.
-"
-"
-"
 from
 __future__
 import
@@ -50,22 +40,6 @@ user_documents_dir
 "
     
 "
-user_downloads_dir
-"
-    
-"
-user_pictures_dir
-"
-    
-"
-user_videos_dir
-"
-    
-"
-user_music_dir
-"
-    
-"
 user_runtime_dir
 "
     
@@ -76,10 +50,6 @@ site_data_dir
 "
 site_config_dir
 "
-    
-"
-site_cache_dir
-"
 )
 def
 main
@@ -89,18 +59,6 @@ main
 >
 None
 :
-    
-"
-"
-"
-Run
-main
-entry
-point
-.
-"
-"
-"
     
 app_name
 =
@@ -128,10 +86,6 @@ __version__
 -
 "
 )
-#
-noqa
-:
-T201
     
 print
 (
@@ -149,10 +103,6 @@ version
 )
 "
 )
-#
-noqa
-:
-T201
     
 dirs
 =
@@ -192,10 +142,6 @@ prop
 }
 "
 )
-#
-noqa
-:
-T201
     
 print
 (
@@ -215,10 +161,6 @@ version
 )
 "
 )
-#
-noqa
-:
-T201
     
 dirs
 =
@@ -251,10 +193,6 @@ prop
 }
 "
 )
-#
-noqa
-:
-T201
     
 print
 (
@@ -274,10 +212,6 @@ appauthor
 )
 "
 )
-#
-noqa
-:
-T201
     
 dirs
 =
@@ -309,10 +243,6 @@ prop
 }
 "
 )
-#
-noqa
-:
-T201
     
 print
 (
@@ -332,10 +262,6 @@ appauthor
 )
 "
 )
-#
-noqa
-:
-T201
     
 dirs
 =
@@ -370,10 +296,6 @@ prop
 }
 "
 )
-#
-noqa
-:
-T201
 if
 __name__
 =

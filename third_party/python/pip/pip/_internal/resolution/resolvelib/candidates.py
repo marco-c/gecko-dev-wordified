@@ -332,17 +332,30 @@ template
 .
 constraint
         
+options
+=
+dict
+(
+            
+install_options
+=
+template
+.
+install_options
+            
 global_options
 =
 template
 .
 global_options
+            
+hashes
+=
+template
+.
+hash_options
         
-hash_options
-=
-template
-.
-hash_options
+)
         
 config_settings
 =
@@ -365,14 +378,6 @@ ireq
 link
 =
 link
-    
-ireq
-.
-extras
-=
-template
-.
-extras
     
 return
 ireq
@@ -402,8 +407,7 @@ not
 editable
 "
     
-ireq
-=
+return
 install_req_from_editable
 (
         
@@ -447,17 +451,30 @@ template
 .
 permit_editable_wheels
         
+options
+=
+dict
+(
+            
+install_options
+=
+template
+.
+install_options
+            
 global_options
 =
 template
 .
 global_options
+            
+hashes
+=
+template
+.
+hash_options
         
-hash_options
-=
-template
-.
-hash_options
+)
         
 config_settings
 =
@@ -466,17 +483,6 @@ template
 config_settings
     
 )
-    
-ireq
-.
-extras
-=
-template
-.
-extras
-    
-return
-ireq
 def
 _make_install_req_from_dist
 (
@@ -590,17 +596,30 @@ template
 .
 constraint
         
+options
+=
+dict
+(
+            
+install_options
+=
+template
+.
+install_options
+            
 global_options
 =
 template
 .
 global_options
+            
+hashes
+=
+template
+.
+hash_options
         
-hash_options
-=
-template
-.
-hash_options
+)
         
 config_settings
 =
@@ -1582,7 +1601,7 @@ factory
 .
 get_wheel_cache_entry
 (
-source_link
+link
 name
 )
         
@@ -1757,20 +1776,6 @@ not
 None
 :
             
-assert
-ireq
-.
-link
-.
-is_wheel
-            
-assert
-ireq
-.
-link
-.
-is_file
-            
 if
 cache_entry
 .
@@ -1787,9 +1792,9 @@ original_link
                 
 ireq
 .
-cached_wheel_source_link
+original_link_is_in_wheel_cache
 =
-source_link
+True
             
 if
 cache_entry
@@ -1831,7 +1836,7 @@ miss
 the
 archive_info
 .
-hashes
+hash
 field
 .
                 
@@ -2092,12 +2097,6 @@ _factory
 =
 factory
         
-self
-.
-_version
-=
-None
-        
 #
 This
 is
@@ -2347,28 +2346,12 @@ self
 CandidateVersion
 :
         
-if
-self
-.
-_version
-is
-None
-:
-            
-self
-.
-_version
-=
+return
 self
 .
 dist
 .
 version
-        
-return
-self
-.
-_version
     
 property
     
