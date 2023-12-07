@@ -147,9 +147,9 @@ not
 None
 :
             
-rust_call
+_rust_call
 (
-_UniFFILib
+_UniffiLib
 .
 {
 {
@@ -690,7 +690,7 @@ ptr
 =
 buf
 .
-readU64
+read_u64
 (
 )
         
@@ -763,9 +763,10 @@ found
 .
 format
 (
+type
+(
 value
-.
-__class__
+)
 .
 __name__
 )
@@ -773,7 +774,7 @@ __name__
         
 buf
 .
-writeU64
+write_u64
 (
 cls
 .

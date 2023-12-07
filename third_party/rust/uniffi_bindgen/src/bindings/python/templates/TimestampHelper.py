@@ -46,9 +46,9 @@ as
 representation
 .
 class
-FfiConverterTimestamp
+_UniffiConverterTimestamp
 (
-FfiConverterRustBuffer
+_UniffiConverterRustBuffer
 )
 :
     
@@ -65,7 +65,7 @@ seconds
 =
 buf
 .
-readI64
+read_i64
 (
 )
         
@@ -73,7 +73,7 @@ microseconds
 =
 buf
 .
-readU32
+read_u32
 (
 )
 /
@@ -283,7 +283,7 @@ microseconds
         
 buf
 .
-writeI64
+write_i64
 (
 sign
 *
@@ -292,7 +292,7 @@ seconds
         
 buf
 .
-writeU32
+write_u32
 (
 nanoseconds
 )
