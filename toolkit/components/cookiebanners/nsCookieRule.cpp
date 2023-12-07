@@ -204,6 +204,7 @@ aPath
 aIsHttpOnly
 aIsSession
 aIsSecure
+false
 aSameSite
 aSameSite
 aSchemeMap
