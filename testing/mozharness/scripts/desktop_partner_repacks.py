@@ -1077,6 +1077,10 @@ run_command
             
 [
                 
+sys
+.
+executable
+                
 repo
                 
 "
@@ -1142,6 +1146,9 @@ run_command
 (
             
 [
+sys
+.
+executable
 repo
 "
 sync
