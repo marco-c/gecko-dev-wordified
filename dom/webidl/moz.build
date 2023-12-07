@@ -5927,6 +5927,16 @@ VTTRegion
 webidl
 "
 "
+WakeLock
+.
+webidl
+"
+"
+WakeLockSentinel
+.
+webidl
+"
+"
 WaveShaperNode
 .
 webidl
