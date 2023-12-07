@@ -157,7 +157,7 @@ public
 WebGL2Context
 (
 HostWebGLContext
-&
+*
 host
 const
 webgl

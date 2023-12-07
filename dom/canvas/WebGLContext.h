@@ -1634,7 +1634,7 @@ WebGLContext
 Create
 (
 HostWebGLContext
-&
+*
 const
 webgl
 :
@@ -1661,7 +1661,7 @@ protected
 WebGLContext
 (
 HostWebGLContext
-&
+*
 const
 webgl
 :
@@ -2441,6 +2441,19 @@ ErrorName
 GLenum
 error
 )
+;
+void
+JsWarning
+(
+const
+std
+:
+:
+string
+&
+text
+)
+const
 ;
 /
 *
