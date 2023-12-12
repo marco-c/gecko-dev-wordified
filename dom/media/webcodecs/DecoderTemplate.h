@@ -1265,7 +1265,7 @@ aLabel
 )
 ;
 void
-ScheduleDequeueEvent
+ScheduleDequeueEventIfNeeded
 (
 )
 ;
