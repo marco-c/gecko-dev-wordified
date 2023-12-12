@@ -215,7 +215,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -283,7 +283,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -297,7 +297,7 @@ or
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -401,7 +401,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =

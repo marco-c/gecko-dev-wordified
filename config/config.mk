@@ -1917,7 +1917,7 @@ CC_TYPE
 ifneq
 (
 (
-CPU_ARCH
+TARGET_CPU
 )
 x86
 )
@@ -2142,7 +2142,7 @@ else
 ifneq
 (
 (
-CPU_ARCH
+TARGET_CPU
 )
 x86
 )

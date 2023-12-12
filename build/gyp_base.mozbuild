@@ -321,13 +321,13 @@ get
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 )

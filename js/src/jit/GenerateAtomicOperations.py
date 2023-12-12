@@ -96,7 +96,7 @@ buildconfig
 substs
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 is_gcc

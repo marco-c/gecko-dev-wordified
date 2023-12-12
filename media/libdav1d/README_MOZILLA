@@ -317,7 +317,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -420,7 +420,7 @@ on
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 .

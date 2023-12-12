@@ -90,7 +90,7 @@ defined
 ifeq
 (
 (
-CPU_ARCH
+TARGET_CPU
 )
 aarch64
 )

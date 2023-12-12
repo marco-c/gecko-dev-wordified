@@ -113,7 +113,7 @@ filter
 x86
 %
 (
-CPU_ARCH
+TARGET_CPU
 )
 )
 )

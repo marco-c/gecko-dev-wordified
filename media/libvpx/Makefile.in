@@ -74,7 +74,7 @@ mk
 ifeq
 (
 (
-CPU_ARCH
+TARGET_CPU
 )
 arm
 )

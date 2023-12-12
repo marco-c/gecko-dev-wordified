@@ -146,7 +146,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -190,7 +190,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -234,7 +234,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -278,7 +278,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =

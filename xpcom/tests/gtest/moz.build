@@ -476,7 +476,7 @@ and
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =
@@ -578,7 +578,7 @@ and
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 =

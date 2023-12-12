@@ -227,7 +227,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -378,7 +378,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -523,7 +523,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -572,7 +572,7 @@ expected
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 )
@@ -615,7 +615,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 in
@@ -725,7 +725,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -2023,7 +2023,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -2035,7 +2035,7 @@ or
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -2323,7 +2323,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -2810,7 +2810,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =
@@ -3284,7 +3284,7 @@ if
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 in
@@ -3304,7 +3304,7 @@ elif
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 =

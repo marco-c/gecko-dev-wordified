@@ -3158,7 +3158,7 @@ substs
 get
 (
 "
-CPU_ARCH
+TARGET_CPU
 "
 )
 =

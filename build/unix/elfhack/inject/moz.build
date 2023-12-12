@@ -119,7 +119,7 @@ stem
 CONFIG
 [
 "
-CPU_ARCH
+TARGET_CPU
 "
 ]
 if

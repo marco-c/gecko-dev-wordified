@@ -88,7 +88,7 @@ ifeq
 (
 x86
 (
-CPU_ARCH
+TARGET_CPU
 )
 )
 PGO_LDFLAGS
@@ -113,7 +113,7 @@ ifeq
 (
 x86_64
 (
-CPU_ARCH
+TARGET_CPU
 )
 )
 PGO_LDFLAGS

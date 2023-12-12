@@ -327,7 +327,7 @@ Use
 CONFIG
 [
 '
-CPU_ARCH
+TARGET_CPU
 '
 ]
 {

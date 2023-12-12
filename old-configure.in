@@ -1111,7 +1111,7 @@ IS_VS2019_OR_MORE
 -
 a
 "
-CPU_ARCH
+TARGET_CPU
 "
 !
 =
@@ -3662,7 +3662,7 @@ inline
 if
 test
 "
-CPU_ARCH
+TARGET_CPU
 "
 =
 "
@@ -6272,7 +6272,7 @@ then
 if
 test
 "
-CPU_ARCH
+TARGET_CPU
 "
 =
 "
@@ -6682,7 +6682,7 @@ test
 n
 "
 {
-CPU_ARCH
+TARGET_CPU
 }
 "
 -
@@ -6700,7 +6700,7 @@ TARGET_XPCOM_ABI
 =
 "
 {
-CPU_ARCH
+TARGET_CPU
 }
 -
 {

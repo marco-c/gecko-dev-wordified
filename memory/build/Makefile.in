@@ -87,7 +87,7 @@ c2
 ifeq
 (
 (
-CPU_ARCH
+TARGET_CPU
 )
 x86
 )

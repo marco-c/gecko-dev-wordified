@@ -1508,7 +1508,7 @@ target_os
 ]
         
 "
-CPU_ARCH
+TARGET_CPU
 "
 :
 cpus
@@ -4548,7 +4548,7 @@ OS_TARGET
                 
 (
 "
-CPU_ARCH
+TARGET_CPU
 "
 )
                 
@@ -4575,7 +4575,7 @@ MOZ_X11
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 )
                 
@@ -4584,7 +4584,7 @@ CPU_ARCH
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 "
 MOZ_X11
@@ -4596,7 +4596,7 @@ MOZ_X11
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 "
 MOZ_DEBUG
@@ -4608,7 +4608,7 @@ MOZ_DEBUG
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 "
 MOZ_DEBUG
@@ -4911,7 +4911,7 @@ OS_TARGET
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 )
             
@@ -4920,7 +4920,7 @@ CPU_ARCH
 OS_TARGET
 "
 "
-CPU_ARCH
+TARGET_CPU
 "
 "
 MOZ_X11

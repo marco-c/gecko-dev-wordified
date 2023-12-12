@@ -853,7 +853,7 @@ arm
 -
 Darwin
 (
-CPU_ARCH
+TARGET_CPU
 )
 -
 (

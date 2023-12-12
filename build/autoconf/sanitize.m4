@@ -206,7 +206,7 @@ binary
 if
 test
 "
-CPU_ARCH
+TARGET_CPU
 "
 =
 "

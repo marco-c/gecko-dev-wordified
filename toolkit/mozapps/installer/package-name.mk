@@ -172,7 +172,7 @@ WINNT
 ifeq
 (
 (
-CPU_ARCH
+TARGET_CPU
 )
 x86
 )
@@ -184,7 +184,7 @@ else
 ifeq
 (
 (
-CPU_ARCH
+TARGET_CPU
 )
 aarch64
 )
