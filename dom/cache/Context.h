@@ -848,6 +848,9 @@ cancelled
 .
 class
 Activity
+:
+public
+Stringifyable
 {
 public
 :
