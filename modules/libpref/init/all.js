@@ -10623,7 +10623,7 @@ mem
 .
 gc_parallel_marking_threshold_mb
 "
-20
+8
 )
 ;
 #
@@ -10663,7 +10663,7 @@ mem
 .
 gc_parallel_marking_threshold_mb
 "
-200
+16
 )
 ;
 #
@@ -10683,7 +10683,7 @@ mem
 .
 gc_parallel_marking_threshold_mb
 "
-200
+16
 )
 ;
 #

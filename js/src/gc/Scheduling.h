@@ -4503,7 +4503,7 @@ parallelMarkingThresholdBytes
 \
 ConvertMB
 NoCheck
-10
+4
 *
 1024
 *
