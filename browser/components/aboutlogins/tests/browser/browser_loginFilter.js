@@ -234,7 +234,6 @@ shadowRoot
 querySelector
 (
 "
-.
 create
 -
 login

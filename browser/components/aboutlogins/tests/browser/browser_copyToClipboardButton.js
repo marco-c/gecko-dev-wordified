@@ -223,7 +223,6 @@ TEST_LOGIN
 .
 username
 "
-.
 copy
 -
 username
@@ -252,7 +251,6 @@ TEST_LOGIN
 .
 password
 "
-.
 copy
 -
 password
