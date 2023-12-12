@@ -163,7 +163,7 @@ already_AddRefed
 <
 PlatformDecoderModule
 >
-Create
+CreateDecoder
 (
 )
 ;
