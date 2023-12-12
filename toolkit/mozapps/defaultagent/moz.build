@@ -171,6 +171,11 @@ UtfConvert
 .
 cpp
 "
+"
+WindowsMutex
+.
+cpp
+"
 ]
 SOURCES
 +
@@ -311,6 +316,11 @@ DefaultAgent
 .
 h
 "
+"
+WindowsMutex
+.
+h
+"
 ]
 USE_LIBS
 +
@@ -433,6 +443,11 @@ XPIDL_SOURCES
 [
 "
 nsIDefaultAgent
+.
+idl
+"
+"
+nsIWindowsMutex
 .
 idl
 "
