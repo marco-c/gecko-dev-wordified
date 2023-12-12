@@ -23444,7 +23444,7 @@ originalShadowRoot
 originalShadowRoot
 -
 >
-IsClonable
+Clonable
 (
 )
 )

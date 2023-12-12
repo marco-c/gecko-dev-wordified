@@ -430,7 +430,7 @@ DelegatesFocus
 aDelegatesFocus
 SlotAssignmentMode
 aSlotAssignment
-Clonable
+IsClonable
 aIsClonable
 Declarative
 aDeclarative
