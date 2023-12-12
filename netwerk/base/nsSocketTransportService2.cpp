@@ -8785,12 +8785,12 @@ PR_IntervalNow
 (
 )
 ;
-TimeStamp
-startTime
-;
 #
 ifdef
 MOZ_GECKO_PROFILER
+TimeStamp
+startTime
+;
 bool
 profiling
 =
