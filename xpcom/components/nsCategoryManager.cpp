@@ -1123,8 +1123,6 @@ aA
 nsICategoryEntry
 *
 aB
-void
-*
 )
 {
 return
@@ -1157,7 +1155,6 @@ Key
 )
 ;
 }
-nullptr
 )
 ;
 return

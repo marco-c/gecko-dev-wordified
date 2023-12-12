@@ -28824,13 +28824,6 @@ aFile1
 nsIFile
 *
 aFile2
-void
-*
-/
-*
-unused
-*
-/
 )
 {
 nsAutoCString
@@ -29143,7 +29136,6 @@ prefFiles
 Sort
 (
 pref_CompareFileNames
-nullptr
 )
 ;
 uint32_t
