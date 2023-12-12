@@ -1109,11 +1109,9 @@ aReason
 SharedSurfacesParent
 :
 :
-DestroyProcess
+RemoveAll
 (
-OtherPid
-(
-)
+mNamespace
 )
 ;
 GetCurrentSerialEventTarget
@@ -2111,9 +2109,7 @@ SharedSurfacesParent
 :
 AccumulateMemoryReport
 (
-OtherPid
-(
-)
+mNamespace
 report
 )
 ;
