@@ -1182,6 +1182,9 @@ dom
 WindowContext
 *
 aWindowContext
+nsIPrincipal
+*
+aRequestingPrincipal
 nsIAsyncClipboardGetCallback
 *
 aCallback
