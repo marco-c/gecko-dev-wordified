@@ -378,17 +378,23 @@ bug
 1860424
 1864970
 1865332
+1869119
 .
             
 elif
 p
 .
 method
-!
-=
+not
+in
+[
 "
 MozTransform
 "
+"
+MozTransformOrigin
+"
+]
 :
                 
 extendedAttrs
