@@ -804,17 +804,12 @@ __func__
 }
 else
 {
-#
-ifdef
-DEBUG
 mAcquired
 .
 Flip
 (
 )
 ;
-#
-endif
 if
 (
 mOpenListener

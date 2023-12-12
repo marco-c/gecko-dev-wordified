@@ -224,6 +224,15 @@ const
 =
 0
 ;
+virtual
+bool
+Acquired
+(
+)
+const
+=
+0
+;
 /
 /
 XXX
