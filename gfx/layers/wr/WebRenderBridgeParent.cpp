@@ -9339,6 +9339,11 @@ TransactionBuilder
 txnForImageBridge
 (
 mApi
+-
+>
+GetRootAPI
+(
+)
 )
 ;
 wr
