@@ -362,6 +362,14 @@ MediaData
 aSample
 )
 ;
+RefPtr
+<
+EncodePromise
+>
+ProcessDrain
+(
+)
+;
 void
 ProcessShutdown
 (
