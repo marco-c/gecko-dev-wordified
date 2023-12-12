@@ -1642,7 +1642,7 @@ jsval
 static
 MOZ_ALWAYS_INLINE
 bool
-StringBufferToJSVal
+UCStringBufferToJSVal
 (
 JSContext
 *
@@ -1824,7 +1824,7 @@ StringBuffer
 if
 (
 !
-StringBufferToJSVal
+UCStringBufferToJSVal
 (
 cx
 buf
@@ -2545,7 +2545,7 @@ if
 XPCStringConvert
 :
 :
-StringBufferToJSVal
+UCStringBufferToJSVal
 (
 cx
 buf
