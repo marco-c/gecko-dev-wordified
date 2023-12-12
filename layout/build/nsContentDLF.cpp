@@ -1910,6 +1910,14 @@ aContainer
 )
 )
 ;
+doc
+-
+>
+SetAllowDeclarativeShadowRoots
+(
+true
+)
+;
 /
 /
 Initialize

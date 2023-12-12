@@ -249,6 +249,18 @@ to
 tree
 .
 *
+param
+aAllowDeclarativeShadowRoots
+allow
+the
+creation
+of
+declarative
+*
+shadow
+roots
+.
+*
 /
 nsresult
 ParseFragment
@@ -269,6 +281,8 @@ bool
 aQuirks
 bool
 aPreventScriptExecution
+bool
+aAllowDeclarativeShadowRoots
 )
 ;
 /
@@ -344,6 +358,8 @@ Document
 aDocument
 bool
 aScriptingEnabledForNoscriptParsing
+bool
+aDeclarativeShadowRootsAllowed
 )
 ;
 /
