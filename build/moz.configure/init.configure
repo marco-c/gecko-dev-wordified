@@ -6330,6 +6330,17 @@ target_variables
 .
 OS_ARCH
 )
+obsolete_config
+(
+"
+CPU_ARCH
+"
+replacement
+=
+"
+TARGET_CPU
+"
+)
 set_config
 (
 "
