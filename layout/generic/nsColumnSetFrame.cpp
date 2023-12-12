@@ -5040,6 +5040,16 @@ mIsBalancing
 ;
 kidReflowInput
 .
+mFlags
+.
+mIsInLastColumnBalancingReflow
+=
+aConfig
+.
+mIsLastBalancingReflow
+;
+kidReflowInput
+.
 mBreakType
 =
 ReflowInput
