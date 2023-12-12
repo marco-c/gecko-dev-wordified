@@ -440,6 +440,14 @@ VideoData
 aSample
 )
 ;
+RefPtr
+<
+EncodePromise
+>
+DrainWithModernAPIs
+(
+)
+;
 #
 endif
 RefPtr
