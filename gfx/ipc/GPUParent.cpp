@@ -3532,6 +3532,8 @@ PCompositorManagerParent
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 {
 CompositorManagerParent
@@ -3549,6 +3551,7 @@ aEndpoint
 ContentParentId
 (
 )
+aNamespace
 /
 *
 aIsRoot
@@ -4485,6 +4488,8 @@ const
 ContentParentId
 &
 aChildId
+uint32_t
+aNamespace
 )
 {
 CompositorManagerParent
@@ -4500,6 +4505,7 @@ move
 aEndpoint
 )
 aChildId
+aNamespace
 /
 *
 aIsRoot

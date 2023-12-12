@@ -375,6 +375,7 @@ CompositorManagerParent
 :
 CreateSameProcess
 (
+aNamespace
 )
 ;
 RefPtr
