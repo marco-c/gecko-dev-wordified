@@ -179,17 +179,6 @@ mozilla
 /
 gfx
 /
-CanvasManagerParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-gfx
-/
 Logging
 .
 h
