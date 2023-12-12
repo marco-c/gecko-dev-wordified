@@ -1125,6 +1125,14 @@ hasKeyedMutex
 *
 /
 true
+/
+*
+fenceInfo
+*
+/
+Nothing
+(
+)
 )
 )
 ;
