@@ -1249,6 +1249,17 @@ scss
 {
 files
 :
+[
+"
+browser
+/
+components
+/
+aboutwelcome
+/
+*
+*
+"
 "
 browser
 /
@@ -1259,6 +1270,7 @@ newtab
 *
 *
 "
+]
 customSyntax
 :
 "
