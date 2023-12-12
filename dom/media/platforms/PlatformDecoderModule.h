@@ -124,11 +124,6 @@ define
 PlatformDecoderModule_h_
 #
 include
-<
-queue
->
-#
-include
 "
 DecoderDoctorLogger
 .
@@ -789,10 +784,6 @@ mConfig
 aParams
 .
 mConfig
-.
-get
-(
-)
 )
 mImageContainer
 (
@@ -1296,7 +1287,9 @@ aNoWrapper
 void
 Set
 (
+const
 OptionSet
+&
 aOptions
 )
 {
@@ -1935,10 +1928,12 @@ aNoWrapper
 void
 Set
 (
+const
 media
 :
 :
 OptionSet
+&
 aOptions
 )
 {
