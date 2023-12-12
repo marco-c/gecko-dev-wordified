@@ -1303,6 +1303,9 @@ aPipelineId
 AsyncImagePipeline
 *
 aPipeline
+TextureHost
+*
+aTexture
 wr
 :
 :
@@ -1315,9 +1318,6 @@ wr
 TransactionBuilder
 &
 aMaybeFastTxn
-RemoteTextureInfoList
-*
-aList
 )
 ;
 Maybe
@@ -1346,6 +1346,9 @@ aPipelineId
 AsyncImagePipeline
 *
 aPipeline
+TextureHost
+*
+aTexture
 nsTArray
 <
 wr
@@ -1367,9 +1370,6 @@ wr
 TransactionBuilder
 &
 aMaybeFastTxn
-RemoteTextureInfoList
-*
-aList
 )
 ;
 Maybe
