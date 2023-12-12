@@ -402,6 +402,16 @@ MOZ_EXCLUDES
 sMutex
 )
 ;
+bool
+PrepareFrame
+(
+)
+;
+void
+DestroyFrame
+(
+)
+;
 /
 /
 This
@@ -444,6 +454,10 @@ only
 AVCodecContext
 *
 mCodecContext
+;
+AVFrame
+*
+mFrame
 ;
 /
 /
