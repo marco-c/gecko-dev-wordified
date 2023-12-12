@@ -1514,14 +1514,6 @@ hasKeyedMutex
 *
 /
 false
-/
-*
-fenceInfo
-*
-/
-Nothing
-(
-)
 )
 ;
 RefPtr

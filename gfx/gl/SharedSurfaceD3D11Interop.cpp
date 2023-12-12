@@ -2793,14 +2793,6 @@ hasKeyedMutex
 *
 /
 true
-/
-*
-fenceInfo
-*
-/
-Nothing
-(
-)
 )
 )
 ;

@@ -150,11 +150,6 @@ CrossProcessPaint
 h
 "
 "
-FileHandleWrapper
-.
-h
-"
-"
 GPUChild
 .
 h
@@ -284,11 +279,6 @@ cpp
 "
 "
 D3DMessageUtils
-.
-cpp
-"
-"
-FileHandleWrapper
 .
 cpp
 "

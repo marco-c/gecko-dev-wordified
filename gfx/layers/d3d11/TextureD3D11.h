@@ -232,13 +232,6 @@ namespace
 mozilla
 {
 namespace
-gfx
-{
-struct
-FenceInfo
-;
-}
-namespace
 gl
 {
 class
@@ -2118,12 +2111,6 @@ mFormat
 ;
 bool
 mHasKeyedMutex
-;
-gfx
-:
-:
-FenceInfo
-mAcquireFenceInfo
 ;
 public
 :
