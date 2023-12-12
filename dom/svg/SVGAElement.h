@@ -363,12 +363,9 @@ TabIndexDefault
 )
 override
 ;
-bool
-IsFocusableInternal
+Focusable
+IsFocusableWithoutStyle
 (
-int32_t
-*
-aTabIndex
 bool
 aWithMouse
 )

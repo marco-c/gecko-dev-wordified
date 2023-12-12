@@ -3446,11 +3446,6 @@ FindImageMap
 )
 )
 {
-if
-(
-aTabIndex
-)
-{
 /
 /
 Use
@@ -3460,6 +3455,7 @@ on
 individual
 map
 areas
+.
 *
 aTabIndex
 =
@@ -3474,7 +3470,6 @@ eTabFocus_linksMask
 -
 1
 ;
-}
 /
 /
 Image
@@ -3507,11 +3502,6 @@ return
 false
 ;
 }
-if
-(
-aTabIndex
-)
-{
 /
 /
 Can
@@ -3544,7 +3534,6 @@ tabIndex
 -
 1
 ;
-}
 *
 aIsFocusable
 =

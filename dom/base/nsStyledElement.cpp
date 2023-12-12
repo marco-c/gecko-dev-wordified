@@ -1463,7 +1463,7 @@ IsSVGElement
 )
 |
 |
-IsFocusable
+IsFocusableWithoutStyle
 (
 )
 )
