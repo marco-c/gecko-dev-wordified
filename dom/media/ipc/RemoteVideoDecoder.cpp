@@ -971,9 +971,8 @@ aVideoInfo
 aFramerate
 )
 ;
-Unused
-<
-<
+MOZ_ALWAYS_TRUE
+(
 manager
 -
 >
@@ -985,6 +984,7 @@ aOptions
 aIdentifier
 aMediaEngineId
 aTrackingId
+)
 )
 ;
 return

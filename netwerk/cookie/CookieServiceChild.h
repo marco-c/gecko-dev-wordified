@@ -211,6 +211,11 @@ CookieServiceChild
 (
 )
 ;
+void
+Init
+(
+)
+;
 static
 already_AddRefed
 <

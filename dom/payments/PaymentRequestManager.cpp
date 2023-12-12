@@ -2258,6 +2258,9 @@ PaymentRequestChild
 aRequest
 )
 ;
+if
+(
+!
 browserChild
 -
 >
@@ -2265,7 +2268,17 @@ SendPPaymentRequestConstructor
 (
 paymentChild
 )
+)
+{
+/
+/
+deleted
+by
+Constructor
+return
+nullptr
 ;
+}
 return
 paymentChild
 ;

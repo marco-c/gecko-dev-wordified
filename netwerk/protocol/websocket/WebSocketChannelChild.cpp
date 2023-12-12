@@ -2828,6 +2828,9 @@ SetupNeckoTarget
 (
 )
 ;
+if
+(
+!
 gNeckoChild
 -
 >
@@ -2844,7 +2847,12 @@ this
 )
 mSerial
 )
+)
+{
+return
+NS_ERROR_UNEXPECTED
 ;
+}
 if
 (
 !

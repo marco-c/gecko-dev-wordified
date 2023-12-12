@@ -4361,6 +4361,11 @@ manually
 delete
 it
 !
+/
+/
+Cleared
+in
+ActorDestroy
 DocAccessibleChild
 *
 mIPCDoc

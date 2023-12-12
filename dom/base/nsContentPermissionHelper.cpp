@@ -1723,6 +1723,9 @@ IPDLAddRef
 (
 )
 ;
+if
+(
+!
 ContentChild
 :
 :
@@ -1746,7 +1749,12 @@ GetTabId
 (
 )
 )
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 ContentPermissionRequestChildMap
 (
 )
