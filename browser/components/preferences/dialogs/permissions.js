@@ -242,9 +242,9 @@ exceptions
 -
 saved
 -
-passwords
+logins
 -
-window
+window2
 "
 description
 :
@@ -255,7 +255,7 @@ exceptions
 -
 saved
 -
-passwords
+logins
 -
 desc
 "
