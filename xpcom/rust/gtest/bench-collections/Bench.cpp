@@ -2363,6 +2363,10 @@ void
 *
 *
 sVals
+MOZ_GUARDED_BY
+(
+sValsMutex
+)
 ;
 /
 /
@@ -2386,7 +2390,6 @@ concurrently
 static
 StaticMutex
 sValsMutex
-MOZ_UNANNOTATED
 ;
 }
 ;
