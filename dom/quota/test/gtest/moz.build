@@ -213,6 +213,11 @@ TestStorageConnection
 cpp
 "
 "
+TestStringifyUtils
+.
+cpp
+"
+"
 TestTelemetry
 .
 cpp

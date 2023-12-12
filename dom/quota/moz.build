@@ -400,6 +400,11 @@ StreamUtils
 h
 "
 "
+StringifyUtils
+.
+h
+"
+"
 UsageInfo
 .
 h
@@ -616,6 +621,11 @@ cpp
 "
 "
 StreamUtils
+.
+cpp
+"
+"
+StringifyUtils
 .
 cpp
 "
