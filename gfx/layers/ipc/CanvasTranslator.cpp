@@ -402,6 +402,12 @@ CanvasTranslator
 :
 CanvasTranslator
 (
+layers
+:
+:
+SharedSurfacesHolder
+*
+aSharedSurfacesHolder
 const
 dom
 :
@@ -413,6 +419,10 @@ uint32_t
 aManagerId
 )
 :
+mSharedSurfacesHolder
+(
+aSharedSurfacesHolder
+)
 mMaxSpinCount
 (
 StaticPrefs
@@ -4076,9 +4086,9 @@ aKey
 )
 {
 return
-SharedSurfacesParent
-:
-:
+mSharedSurfacesHolder
+-
+>
 Get
 (
 wr
