@@ -336,10 +336,13 @@ aOutputCallback
 ;
 protected
 :
+virtual
 ~
 VideoDecoder
 (
 )
+=
+default
 ;
 public
 :
