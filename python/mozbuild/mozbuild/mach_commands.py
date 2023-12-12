@@ -17996,7 +17996,7 @@ TARGET_CPU
 in
 (
 "
-i686
+x86
 "
 "
 x86_64
@@ -18017,16 +18017,6 @@ substs
 TARGET_CPU
 "
 ]
-.
-replace
-(
-"
-i686
-"
-"
-x86
-"
-)
         
 if
 not
