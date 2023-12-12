@@ -710,6 +710,12 @@ case
 StyleCssRuleType
 :
 :
+Margin
+:
+case
+StyleCssRuleType
+:
+:
 Namespace
 :
 case
@@ -968,6 +974,12 @@ StyleCssRuleType
 :
 :
 Keyframe
+:
+case
+StyleCssRuleType
+:
+:
+Margin
 :
 case
 StyleCssRuleType
