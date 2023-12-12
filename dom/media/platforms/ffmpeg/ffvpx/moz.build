@@ -150,6 +150,14 @@ FFmpegVideoDecoder
 .
 cpp
 "
+"
+.
+.
+/
+FFmpegVideoEncoder
+.
+cpp
+"
 ]
 SOURCES
 +

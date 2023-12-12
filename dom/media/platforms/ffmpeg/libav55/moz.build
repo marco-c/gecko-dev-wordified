@@ -129,6 +129,14 @@ FFmpegVideoDecoder
 .
 cpp
 '
+'
+.
+.
+/
+FFmpegVideoEncoder
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
