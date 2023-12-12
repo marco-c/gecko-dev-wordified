@@ -11489,9 +11489,8 @@ here
 sScheduler
 -
 >
-EnsureGCRunner
+EnsureOrResetGCRunner
 (
-0
 )
 ;
 }
