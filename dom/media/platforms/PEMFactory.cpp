@@ -738,12 +738,9 @@ encoder
 found
 for
 %
-d
+s
 "
-static_cast
-<
-int
->
+GetCodecTypeString
 (
 aConfig
 .
@@ -997,7 +994,7 @@ s
 supports
 codec
 %
-d
+s
 :
 yes
 "
@@ -1007,10 +1004,7 @@ m
 GetName
 (
 )
-static_cast
-<
-int
->
+GetCodecTypeString
 (
 aConfig
 .
@@ -1032,7 +1026,7 @@ s
 supports
 codec
 %
-d
+s
 :
 no
 "
@@ -1042,10 +1036,7 @@ m
 GetName
 (
 )
-static_cast
-<
-int
->
+GetCodecTypeString
 (
 aConfig
 .
