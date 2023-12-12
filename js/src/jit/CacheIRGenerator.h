@@ -3604,6 +3604,11 @@ tryAttachObjectIsPrototypeOf
 )
 ;
 AttachDecision
+tryAttachObjectKeys
+(
+)
+;
+AttachDecision
 tryAttachObjectToString
 (
 )
