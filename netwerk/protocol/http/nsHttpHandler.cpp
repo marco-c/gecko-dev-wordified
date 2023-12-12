@@ -5061,6 +5061,10 @@ nsHttpHandler
 :
 NotifyObservers
 [
+this
+=
+%
+p
 chan
 =
 %
@@ -5077,6 +5081,7 @@ s
 \
 n
 "
+this
 chan
 event
 )
