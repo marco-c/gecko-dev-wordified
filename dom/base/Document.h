@@ -11438,7 +11438,12 @@ Document
 GetFullscreenRoot
 (
 )
+const
+{
+return
+mFullscreenRoot
 ;
+}
 size_t
 CountFullscreenElements
 (
@@ -11477,7 +11482,12 @@ Document
 *
 aRoot
 )
+{
+mFullscreenRoot
+=
+aRoot
 ;
+}
 /
 *
 *
@@ -32136,7 +32146,10 @@ in
 fullscreen
 mode
 .
-nsWeakPtr
+WeakPtr
+<
+Document
+>
 mFullscreenRoot
 ;
 RefPtr
