@@ -3806,6 +3806,16 @@ disablefullscreen
 Atom
 (
 "
+disablepictureinpicture
+"
+"
+disablepictureinpicture
+"
+)
+    
+Atom
+(
+"
 disclosure_closed
 "
 "
