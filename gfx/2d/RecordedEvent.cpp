@@ -233,11 +233,11 @@ bool
 RecordedEvent
 :
 :
-DoWithEventFromStream
+DoWithEventFromReader
 (
-EventRingBuffer
+MemReader
 &
-aStream
+aReader
 EventType
 aType
 const
@@ -259,7 +259,7 @@ aAction
 return
 DoWithEvent
 (
-aStream
+aReader
 aType
 aAction
 )
