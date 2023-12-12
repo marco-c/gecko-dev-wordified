@@ -859,7 +859,7 @@ PlatformDecoderModule
 FFmpegRuntimeLinker
 :
 :
-Create
+CreateDecoder
 (
 )
 {
