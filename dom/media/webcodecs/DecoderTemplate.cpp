@@ -2094,6 +2094,7 @@ DecoderType
 :
 OutputDecodedData
 (
+const
 nsTArray
 <
 RefPtr

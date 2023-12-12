@@ -6102,6 +6102,7 @@ DecodedDataToOutputType
 nsIGlobalObject
 *
 aGlobalObject
+const
 nsTArray
 <
 RefPtr
@@ -6132,6 +6133,7 @@ frames
 ;
 for
 (
+const
 RefPtr
 <
 MediaData

@@ -1102,6 +1102,7 @@ DecodedDataToOutputType
 nsIGlobalObject
 *
 aGlobalObject
+const
 nsTArray
 <
 RefPtr
@@ -1216,6 +1217,7 @@ MOZ_CAN_RUN_SCRIPT
 void
 OutputDecodedData
 (
+const
 nsTArray
 <
 RefPtr

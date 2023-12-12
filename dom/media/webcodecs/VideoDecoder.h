@@ -441,6 +441,7 @@ DecodedDataToOutputType
 nsIGlobalObject
 *
 aGlobalObject
+const
 nsTArray
 <
 RefPtr
