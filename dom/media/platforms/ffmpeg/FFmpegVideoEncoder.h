@@ -184,6 +184,8 @@ template
 <
 int
 V
+typename
+ConfigType
 >
 class
 FFmpegVideoEncoder
@@ -200,11 +202,14 @@ Bug
 FFmpegDataEncoder
 template
 <
+typename
+ConfigType
 >
 class
 FFmpegVideoEncoder
 <
 LIBAV_VER
+ConfigType
 >
 final
 :
@@ -226,6 +231,10 @@ RefPtr
 TaskQueue
 >
 aTaskQueue
+const
+ConfigType
+&
+aConfig
 )
 ;
 /
@@ -364,6 +373,10 @@ RefPtr
 TaskQueue
 >
 mTaskQueue
+;
+const
+ConfigType
+mConfig
 ;
 /
 /
