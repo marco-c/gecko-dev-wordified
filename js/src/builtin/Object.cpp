@@ -11089,9 +11089,10 @@ NativeObject
 MAX_DENSE_ELEMENTS_COUNT
 )
 {
-ReportOutOfMemory
+ReportOversizedAllocation
 (
 cx
+JSMSG_ALLOC_OVERFLOW
 )
 ;
 return
@@ -13476,9 +13477,10 @@ NativeObject
 MAX_DENSE_ELEMENTS_COUNT
 )
 {
-ReportOutOfMemory
+ReportOversizedAllocation
 (
 cx
+JSMSG_ALLOC_OVERFLOW
 )
 ;
 return
