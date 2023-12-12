@@ -966,6 +966,8 @@ const
 StyleFilter
 >
 aFilters
+StyleFilterType
+aStyleFilterType
 WrFiltersHolder
 &
 aWrFilters
@@ -981,6 +983,7 @@ BuildWebRenderFiltersImpl
 (
 aFilteredFrame
 aFilters
+aStyleFilterType
 aWrFilters
 aInitialized
 )
@@ -1029,6 +1032,8 @@ const
 StyleFilter
 >
 aFilters
+StyleFilterType
+aStyleFilterType
 WrFiltersHolder
 &
 aWrFilters
@@ -1096,6 +1101,7 @@ GetAndObserveFilters
 aFilteredFrame
 &
 filterFrames
+aStyleFilterType
 )
 =
 =

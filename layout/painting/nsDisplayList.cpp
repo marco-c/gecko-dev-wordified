@@ -54612,6 +54612,10 @@ BuildWebRenderFilters
 (
 mFrame
 filterChain
+StyleFilterType
+:
+:
+BackdropFilter
 wrFilters
 initialized
 )
@@ -55344,6 +55348,10 @@ BuildWebRenderFilters
 (
 mFrame
 filterChain
+StyleFilterType
+:
+:
+Filter
 wrFilters
 initialized
 )
