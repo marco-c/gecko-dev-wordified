@@ -6296,7 +6296,7 @@ iccp
 =
 :
 :
-CGColorSpaceCopyICCProfile
+CGColorSpaceCopyICCData
 (
 cspace
 )
