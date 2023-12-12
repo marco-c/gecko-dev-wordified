@@ -272,8 +272,6 @@ mCanvasChild
 >
 EnsureRecorder
 (
-aSize
-aFormat
 aTextureType
 )
 ;

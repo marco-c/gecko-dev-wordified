@@ -317,11 +317,6 @@ EndCanvasTransaction
 )
 ;
 void
-ClearCachedResources
-(
-)
-;
-void
 DeactivateCanvas
 (
 )

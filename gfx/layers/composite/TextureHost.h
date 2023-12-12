@@ -314,17 +314,6 @@ mozilla
 /
 layers
 /
-LayersMessages
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 LayersSurfaces
 .
 h
