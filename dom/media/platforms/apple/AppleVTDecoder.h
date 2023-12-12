@@ -262,10 +262,12 @@ layers
 ImageContainer
 *
 aImageContainer
+const
 CreateDecoderParams
 :
 :
 OptionSet
+&
 aOptions
 layers
 :
