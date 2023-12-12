@@ -4195,6 +4195,11 @@ ElementState
 :
 :
 HOVER
+|
+ElementState
+:
+:
+ACTIVE
 )
 &
 &
