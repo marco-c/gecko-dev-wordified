@@ -1171,7 +1171,7 @@ for
 const
 GlobalTeardownObserver
 *
-deth
+gto
 =
 mGlobalTeardownObservers
 .
@@ -1179,11 +1179,11 @@ getFirst
 (
 )
 ;
-deth
+gto
 ;
-deth
+gto
 =
-deth
+gto
 -
 >
 getNext
@@ -1201,7 +1201,7 @@ GlobalTeardownObserver
 *
 >
 (
-deth
+gto
 )
 )
 ;
@@ -1228,6 +1228,7 @@ false
 for
 (
 auto
+&
 target
 :
 targetList
