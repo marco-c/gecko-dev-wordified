@@ -1055,9 +1055,6 @@ gBrowser
 contentPrincipal
 .
 userContextId
-relatedToCurrent
-:
-true
 }
 )
 )
