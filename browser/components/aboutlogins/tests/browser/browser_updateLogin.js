@@ -912,8 +912,18 @@ shadowRoot
 querySelector
 (
 "
+.
 edit
 -
+button
+"
+)
+.
+shadowRoot
+.
+querySelector
+(
+"
 button
 "
 )
@@ -956,6 +966,7 @@ loginToVanillaObject
 TEST_LOGIN1
 )
 "
+.
 create
 -
 login
@@ -1023,6 +1034,7 @@ shadowRoot
 querySelector
 (
 "
+.
 edit
 -
 button
@@ -1142,6 +1154,7 @@ shadowRoot
 querySelector
 (
 "
+.
 edit
 -
 button
@@ -1447,8 +1460,18 @@ shadowRoot
 querySelector
 (
 "
+.
 edit
 -
+button
+"
+)
+.
+shadowRoot
+.
+querySelector
+(
+"
 button
 "
 )
@@ -1708,6 +1731,7 @@ shadowRoot
 querySelector
 (
 "
+.
 edit
 -
 button
@@ -2179,6 +2203,7 @@ shadowRoot
 querySelector
 (
 "
+.
 edit
 -
 button
@@ -2317,6 +2342,7 @@ shadowRoot
 querySelector
 (
 "
+.
 delete
 -
 button
