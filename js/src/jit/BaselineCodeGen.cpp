@@ -38355,11 +38355,6 @@ script
 )
 )
 ;
-MOZ_ASSERT
-(
-module
-)
-;
 frame
 .
 syncStack

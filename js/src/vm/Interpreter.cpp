@@ -29024,11 +29024,6 @@ script
 )
 )
 ;
-MOZ_ASSERT
-(
-module
-)
-;
 return
 GetOrCreateModuleMetaObject
 (
