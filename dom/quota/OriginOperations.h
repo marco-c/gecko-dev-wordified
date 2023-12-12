@@ -444,7 +444,10 @@ aDirectoryLock
 ;
 RefPtr
 <
-QuotaRequestBase
+ResolvableNormalOriginOp
+<
+bool
+>
 >
 CreateInitTemporaryStorageOp
 (
@@ -456,6 +459,11 @@ QuotaManager
 >
 >
 aQuotaManager
+RefPtr
+<
+UniversalDirectoryLock
+>
+aDirectoryLock
 )
 ;
 RefPtr

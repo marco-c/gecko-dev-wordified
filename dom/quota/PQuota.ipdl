@@ -202,11 +202,6 @@ StorageNameParams
 }
 ;
 struct
-InitTemporaryStorageParams
-{
-}
-;
-struct
 InitializePersistentOriginParams
 {
 PrincipalInfo
@@ -326,8 +321,6 @@ RequestParams
 {
 StorageNameParams
 ;
-InitTemporaryStorageParams
-;
 InitializePersistentOriginParams
 ;
 InitializeTemporaryOriginParams
@@ -441,6 +434,16 @@ PrincipalInfo
 principalInfo
 Type
 clientType
+)
+returns
+(
+BoolResponse
+response
+)
+;
+async
+InitializeTemporaryStorage
+(
 )
 returns
 (

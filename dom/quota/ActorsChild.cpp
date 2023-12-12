@@ -2171,12 +2171,6 @@ case
 RequestResponse
 :
 :
-TInitTemporaryStorageResponse
-:
-case
-RequestResponse
-:
-:
 TResetOriginResponse
 :
 case
