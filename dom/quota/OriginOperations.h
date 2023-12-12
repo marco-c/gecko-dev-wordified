@@ -382,7 +382,10 @@ aQuotaManager
 ;
 RefPtr
 <
-QuotaRequestBase
+ResolvableNormalOriginOp
+<
+bool
+>
 >
 CreateStorageInitializedOp
 (
@@ -398,7 +401,10 @@ aQuotaManager
 ;
 RefPtr
 <
-QuotaRequestBase
+ResolvableNormalOriginOp
+<
+bool
+>
 >
 CreateTemporaryStorageInitializedOp
 (
