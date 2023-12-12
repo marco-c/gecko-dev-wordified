@@ -10770,7 +10770,7 @@ const
 ServoStyleSet
 :
 :
-FirstPageSizeAndOrientation
+PageSizeAndOrientation
 sizeAndOrientation
 =
 presShell
@@ -10781,9 +10781,8 @@ StyleSet
 )
 -
 >
-GetFirstPageSizeAndOrientation
+GetDefaultPageSizeAndOrientation
 (
-firstPageName
 )
 ;
 /
