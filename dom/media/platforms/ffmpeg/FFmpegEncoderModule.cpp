@@ -287,6 +287,10 @@ V
 >
 (
 mLib
+codecId
+aParams
+.
+mTaskQueue
 )
 ;
 FFMPEGV_LOG
