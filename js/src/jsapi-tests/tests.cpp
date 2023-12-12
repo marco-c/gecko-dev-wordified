@@ -843,6 +843,16 @@ setSharedMemoryAndAtomicsEnabled
 (
 true
 )
+#
+ifdef
+NIGHTLY_BUILD
+.
+setSymbolsAsWeakMapKeysEnabled
+(
+true
+)
+#
+endif
 ;
 newGlobal
 =
