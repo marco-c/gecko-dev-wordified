@@ -827,6 +827,16 @@ DescriptorRangeType
 :
 :
 UAV
+Bt
+:
+:
+AccelerationStructure
+=
+>
+todo
+!
+(
+)
 }
 }
 pub

@@ -643,13 +643,6 @@ write
 (
 )
 ;
-#
-[
-cfg
-(
-debug_assertions
-)
-]
 debug_assert
 !
 (
