@@ -169,7 +169,7 @@ Max
 )
 ]
 ;
-nsAString
+nsString
 *
 GfxDriverInfo
 :
@@ -188,7 +188,7 @@ Max
 )
 ]
 ;
-nsAString
+nsString
 *
 GfxDriverInfo
 :
@@ -207,7 +207,7 @@ Max
 )
 ]
 ;
-nsAString
+nsString
 *
 GfxDriverInfo
 :
