@@ -372,24 +372,6 @@ Bug
 1568906
     
 "
-arraybuffer
--
-transfer
-"
-:
-"
-!
-ArrayBuffer
-.
-prototype
-.
-transfer
-"
-#
-Bug
-1519163
-    
-"
 symbols
 -
 as
@@ -477,22 +459,6 @@ enable
 iterator
 -
 helpers
-"
-    
-"
-arraybuffer
--
-transfer
-"
-:
-"
--
--
-enable
--
-arraybuffer
--
-transfer
 "
     
 "
