@@ -549,15 +549,13 @@ config
 format
 (
 job
-.
-pop
-(
+[
 "
 flathub
 -
 scope
 "
-)
+]
 job
 [
 "
@@ -574,6 +572,16 @@ channel
 )
             
 )
+        
+del
+job
+[
+"
+flathub
+-
+scope
+"
+]
         
 yield
 job
