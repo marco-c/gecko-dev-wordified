@@ -1150,6 +1150,7 @@ mozilla
 MakeScopeExit
 (
 [
+&
 hr
 createdFolder
 &
