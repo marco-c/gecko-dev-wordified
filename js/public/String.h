@@ -2970,7 +2970,7 @@ alive
 /
 MOZ_ALWAYS_INLINE
 bool
-IsExternalString
+IsExternalUCString
 (
 JSString
 *

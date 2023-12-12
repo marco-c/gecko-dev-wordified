@@ -3068,7 +3068,7 @@ external
 strings
 created
 by
-JS_NewExternalString
+JS_NewExternalUCString
 .
 The
 finalizer
@@ -7590,7 +7590,7 @@ extern
 JS_PUBLIC_API
 JSString
 *
-JS_NewExternalString
+JS_NewExternalUCString
 (
 JSContext
 *
@@ -7695,7 +7695,7 @@ extern
 JS_PUBLIC_API
 JSString
 *
-JS_NewMaybeExternalString
+JS_NewMaybeExternalUCString
 (
 JSContext
 *
@@ -7727,10 +7727,10 @@ callbacks
 arg
 passed
 to
-JS_NewExternalString
+JS_NewExternalUCString
 or
 *
-JS_NewMaybeExternalString
+JS_NewMaybeExternalUCString
 .
 *
 /

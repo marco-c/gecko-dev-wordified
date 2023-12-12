@@ -1672,7 +1672,7 @@ JSString
 *
 str
 =
-JS_NewMaybeExternalString
+JS_NewMaybeExternalUCString
 (
 cx
 static_cast
@@ -1749,7 +1749,7 @@ JSString
 *
 str
 =
-JS_NewMaybeExternalString
+JS_NewMaybeExternalUCString
 (
 cx
 literal
@@ -1889,7 +1889,7 @@ return
 JS
 :
 :
-IsExternalString
+IsExternalUCString
 (
 str
 &
