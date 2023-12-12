@@ -372,7 +372,7 @@ initialized
 =
 aQuotaManager
 .
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 ;

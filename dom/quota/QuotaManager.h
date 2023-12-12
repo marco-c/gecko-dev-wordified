@@ -799,7 +799,7 @@ aOrigin
 ;
 }
 bool
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 const
@@ -809,7 +809,7 @@ AssertIsOnIOThread
 )
 ;
 return
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 ;
 }
 /
@@ -832,12 +832,12 @@ is
 *
 used
 by
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 /
 InitializeRepository
+*
 once
 it
-*
 has
 tallied
 origin
@@ -848,8 +848,8 @@ each
 of
 the
 QuotaClient
-InitOrigin
 *
+InitOrigin
 methods
 .
 *
@@ -2293,7 +2293,7 @@ aClientMetadata
 )
 ;
 nsresult
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 ;
@@ -4305,7 +4305,7 @@ bool
 mStorageInitialized
 ;
 bool
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 ;
 bool
 mCacheUsable

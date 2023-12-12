@@ -441,7 +441,7 @@ ASSERT_NS_SUCCEEDED
 quotaManager
 -
 >
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 )

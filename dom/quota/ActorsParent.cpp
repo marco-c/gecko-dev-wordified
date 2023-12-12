@@ -10436,7 +10436,7 @@ mStorageInitialized
 (
 false
 )
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 (
 false
 )
@@ -15981,7 +15981,7 @@ mStorageConnection
 MOZ_ASSERT
 (
 !
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 )
 ;
 /
@@ -17284,7 +17284,7 @@ mStorageConnection
 ;
 MOZ_ASSERT
 (
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 )
 ;
 MOZ_ASSERT
@@ -30031,7 +30031,7 @@ mStorageConnection
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 )
 ;
 const
@@ -30615,7 +30615,7 @@ IsStorageInitializedInternal
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 )
@@ -30692,7 +30692,7 @@ nsresult
 QuotaManager
 :
 :
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 {
@@ -30724,7 +30724,7 @@ nsresult
 {
 if
 (
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 )
 {
 MOZ_ASSERT
@@ -30825,7 +30825,7 @@ LoadQuota
 )
 )
 ;
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 =
 true
 ;
@@ -31419,7 +31419,7 @@ Clear
 ;
 if
 (
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 )
 {
 if
@@ -31439,7 +31439,7 @@ RemoveQuota
 )
 ;
 }
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 =
 false
 ;
@@ -32402,7 +32402,7 @@ mStorageConnection
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-mTemporaryStorageInitialized
+mTemporaryStorageInitializedInternal
 )
 ;
 MutexAutoLock

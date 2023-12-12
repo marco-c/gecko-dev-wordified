@@ -6595,7 +6595,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 )
@@ -7094,7 +7094,7 @@ mInitialized
 =
 aQuotaManager
 .
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 ;
@@ -7425,7 +7425,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 )
@@ -7939,7 +7939,7 @@ OkIf
 (
 aQuotaManager
 .
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 )
@@ -8461,7 +8461,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 )
@@ -8773,7 +8773,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 )
@@ -10109,7 +10109,7 @@ mOrigin
 :
 aQuotaManager
 .
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 ;
@@ -12257,7 +12257,7 @@ if
 (
 aQuotaManager
 .
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 )
@@ -12473,7 +12473,7 @@ if
 (
 aQuotaManager
 .
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 )
@@ -12769,7 +12769,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 )

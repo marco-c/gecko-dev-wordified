@@ -29750,7 +29750,7 @@ MOZ_ASSERT
 quotaManager
 -
 >
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 )
@@ -68471,7 +68471,7 @@ MOZ_ASSERT
 quotaManager
 -
 >
-IsTemporaryStorageInitialized
+IsTemporaryStorageInitializedInternal
 (
 )
 )
@@ -72239,7 +72239,7 @@ MOZ_TO_RESULT
 quotaManager
 -
 >
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 )
@@ -72892,7 +72892,7 @@ one
 /
 /
 (
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 cleans
 up
 only
@@ -83846,7 +83846,7 @@ MOZ_TO_RESULT
 quotaManager
 -
 >
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 )

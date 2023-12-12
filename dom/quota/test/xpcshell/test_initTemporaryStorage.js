@@ -49,13 +49,13 @@ call
 QuotaManager
 :
 :
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 which
 does
-various
 *
+various
 things
 for
 example
@@ -68,9 +68,9 @@ if
 it
 '
 s
+*
 broken
 or
-*
 missing
 .
 *

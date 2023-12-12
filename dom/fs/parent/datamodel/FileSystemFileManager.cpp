@@ -1112,7 +1112,7 @@ MOZ_TO_RESULT
 quotaManager
 -
 >
-EnsureTemporaryStorageIsInitialized
+EnsureTemporaryStorageIsInitializedInternal
 (
 )
 )
