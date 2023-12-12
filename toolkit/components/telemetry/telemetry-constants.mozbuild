@@ -87,9 +87,9 @@ MPL
 .
 DEFINES
 [
-'
+"
 TELEMETRY_PING_FORMAT_VERSION
-'
+"
 ]
 =
 4

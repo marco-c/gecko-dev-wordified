@@ -112,12 +112,12 @@ USE_LIBS
 +
 =
 [
-'
+"
 jsrust
-'
-'
+"
+"
 zlib
-'
+"
 ]
 if
 CONFIG

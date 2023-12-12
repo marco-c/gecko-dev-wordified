@@ -100,9 +100,9 @@ libfuzzer_flags
 if
 CONFIG
 [
-'
+"
 LIBFUZZER_FLAGS
-'
+"
 ]
 :
 libfuzzer_flags
@@ -110,7 +110,7 @@ libfuzzer_flags
 =
 CONFIG
 [
-'
+"
 LIBFUZZER_FLAGS
-'
+"
 ]
