@@ -117,6 +117,14 @@ cpp
 .
 .
 /
+FFmpegEncoderModule
+.
+cpp
+'
+'
+.
+.
+/
 FFmpegVideoDecoder
 .
 cpp
