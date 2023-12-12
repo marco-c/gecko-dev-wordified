@@ -407,5 +407,12 @@ SOCIAL_ID
 =
 5
 ;
+const
+unsigned
+long
+SUSPICIOUS_FINGERPRINTERS_ID
+=
+6
+;
 }
 ;
