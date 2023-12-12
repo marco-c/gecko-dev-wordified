@@ -1168,6 +1168,7 @@ nsresult
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 Result
 <
 Ok
