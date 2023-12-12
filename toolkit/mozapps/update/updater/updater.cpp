@@ -30329,6 +30329,11 @@ rv
 )
 )
 ;
+FindClose
+(
+hFindFile
+)
+;
 return
 rv
 ;
@@ -30363,6 +30368,11 @@ if
 quotedpath
 )
 {
+FindClose
+(
+hFindFile
+)
+;
 return
 PARSE_ERROR
 ;
@@ -30423,6 +30433,11 @@ rv
 free
 (
 quotedpath
+)
+;
+FindClose
+(
+hFindFile
 )
 ;
 return
