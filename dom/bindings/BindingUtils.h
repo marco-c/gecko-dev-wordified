@@ -19038,6 +19038,7 @@ mangled
 .
 *
 /
+inline
 bool
 NonVoidByteStringToJsval
 (
@@ -19060,7 +19061,19 @@ Value
 >
 rval
 )
+{
+return
+xpc
+:
+:
+NonVoidLatin1StringToJsval
+(
+cx
+str
+rval
+)
 ;
+}
 inline
 bool
 ByteStringToJsval
