@@ -4693,6 +4693,15 @@ RemoveAllProperties
 (
 )
 ;
+AsDocument
+(
+)
+-
+>
+DropStyleSet
+(
+)
+;
 }
 else
 {
