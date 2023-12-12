@@ -793,7 +793,7 @@ t
 forget
 to
 update
-kDefaultFingerintingProtections
+kDefaultFingerprintingProtections
 in
 nsRFPService
 .

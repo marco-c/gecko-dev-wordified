@@ -819,7 +819,7 @@ pref
 .
 const
 RFPTarget
-kDefaultFingerintingProtections
+kDefaultFingerprintingProtections
 =
 RFPTarget
 :
@@ -1110,7 +1110,7 @@ Atomic
 <
 RFPTarget
 >
-sEnabledFingerintingProtections
+sEnabledFingerprintingProtections
 ;
 /
 *
@@ -1527,7 +1527,7 @@ aTarget
 return
 bool
 (
-sEnabledFingerintingProtections
+sEnabledFingerprintingProtections
 &
 aTarget
 )
@@ -1600,10 +1600,10 @@ enabled
 CreateOverridesFromText
 (
 targetOverrides
-kDefaultFingerintingProtections
+kDefaultFingerprintingProtections
 )
 ;
-sEnabledFingerintingProtections
+sEnabledFingerprintingProtections
 =
 enabled
 ;
@@ -12683,7 +12683,7 @@ Get
 domainKey
 )
 :
-sEnabledFingerintingProtections
+sEnabledFingerprintingProtections
 )
 ;
 /
@@ -12795,7 +12795,7 @@ aProtections
 RFPTarget
 enabled
 =
-sEnabledFingerintingProtections
+sEnabledFingerprintingProtections
 ;
 *
 aProtections
