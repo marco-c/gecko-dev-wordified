@@ -715,7 +715,7 @@ void
 QuotaManagerDependencyFixture
 :
 :
-IsStorageInitialized
+StorageInitialized
 (
 bool
 *
@@ -851,7 +851,7 @@ void
 QuotaManagerDependencyFixture
 :
 :
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 {
@@ -860,7 +860,7 @@ result
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-IsStorageInitialized
+StorageInitialized
 (
 &
 result
@@ -880,7 +880,7 @@ void
 QuotaManagerDependencyFixture
 :
 :
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 {
@@ -889,7 +889,7 @@ result
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-IsStorageInitialized
+StorageInitialized
 (
 &
 result

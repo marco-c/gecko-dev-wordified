@@ -278,7 +278,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -832,7 +832,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -886,7 +886,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -1288,7 +1288,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -1332,7 +1332,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -1594,7 +1594,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -1645,7 +1645,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -2019,7 +2019,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -2081,7 +2081,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -2425,7 +2425,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -2477,7 +2477,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -2981,7 +2981,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -3035,7 +3035,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -3387,7 +3387,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -3431,7 +3431,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -3643,7 +3643,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -3694,7 +3694,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -4018,7 +4018,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -4078,7 +4078,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -4372,7 +4372,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -4406,7 +4406,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -4526,7 +4526,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -4566,7 +4566,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -4742,7 +4742,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -4791,7 +4791,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -4979,7 +4979,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -5030,7 +5030,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -5350,7 +5350,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -5419,7 +5419,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -5663,7 +5663,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -5722,7 +5722,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -5997,7 +5997,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -6036,7 +6036,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -6242,7 +6242,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -6290,7 +6290,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -6552,7 +6552,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -6607,7 +6607,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -6966,7 +6966,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -7051,7 +7051,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -7515,7 +7515,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -7549,7 +7549,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -7563,7 +7563,7 @@ InitializeStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -7683,7 +7683,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -7723,7 +7723,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -7737,7 +7737,7 @@ InitializeStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -7913,7 +7913,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -7962,7 +7962,7 @@ ShutdownStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )
@@ -7976,7 +7976,7 @@ InitializeStorage
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 )
@@ -8164,7 +8164,7 @@ done
 ;
 ASSERT_NO_FATAL_FAILURE
 (
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 )

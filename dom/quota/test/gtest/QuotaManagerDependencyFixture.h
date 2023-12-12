@@ -243,7 +243,7 @@ InitializeStorage
 ;
 static
 void
-IsStorageInitialized
+StorageInitialized
 (
 bool
 *
@@ -252,13 +252,13 @@ aResult
 ;
 static
 void
-AssertStorageIsInitialized
+AssertStorageInitialized
 (
 )
 ;
 static
 void
-AssertStorageIsNotInitialized
+AssertStorageNotInitialized
 (
 )
 ;
