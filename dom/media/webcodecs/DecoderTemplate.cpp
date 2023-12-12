@@ -2492,6 +2492,8 @@ RefPtr
 this
 }
 ]
+(
+)
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 self
@@ -4852,6 +4854,8 @@ move
 data
 )
 ]
+(
+)
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 self
@@ -5357,9 +5361,9 @@ error
 .
 We
 reject
+/
+/
 the
-/
-/
 promise
 first
 and
@@ -5369,10 +5373,10 @@ a
 task
 to
 close
+/
+/
 VideoDecoder
 with
-/
-/
 an
 EncodingError
 .
@@ -5488,6 +5492,8 @@ this
 }
 promise
 ]
+(
+)
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 promise
@@ -5689,6 +5695,8 @@ move
 data
 )
 ]
+(
+)
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 self
