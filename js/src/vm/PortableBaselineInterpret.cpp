@@ -12650,6 +12650,10 @@ ArrayJoinResult
 )
 CACHEOP_CASE_UNIMPL
 (
+ObjectKeysResult
+)
+CACHEOP_CASE_UNIMPL
+(
 PackedArrayPopResult
 )
 CACHEOP_CASE_UNIMPL
