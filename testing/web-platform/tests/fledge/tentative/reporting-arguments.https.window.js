@@ -1768,10 +1768,8 @@ interestGroupName
 =
 =
 =
-"
-default
-name
-"
+'
+'
 )
 ;
 }
