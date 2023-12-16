@@ -1051,6 +1051,10 @@ DeleteNode
 nsINode
 *
 aNode
+bool
+aPreseveSelection
+uint8_t
+aOptionalArgCount
 )
 final
 ;
