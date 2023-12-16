@@ -882,7 +882,7 @@ cx
 const
 Instant
 &
-epochInstant
+epochNanoseconds
 JS
 :
 :
@@ -947,7 +947,7 @@ cx
 const
 Instant
 &
-epochInstant
+epochNanoseconds
 JS
 :
 :

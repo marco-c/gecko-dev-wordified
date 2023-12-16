@@ -4944,7 +4944,7 @@ cx
 const
 Instant
 &
-epochInstant
+epochNanoseconds
 MutableHandle
 <
 TimeZoneRecord
@@ -4970,7 +4970,7 @@ return
 AddZonedDateTime
 (
 cx
-epochInstant
+epochNanoseconds
 timeZone
 calendar
 duration
