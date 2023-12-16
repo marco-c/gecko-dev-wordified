@@ -2333,12 +2333,9 @@ aTextureId
 )
 )
 ;
-uint32_t
+auto
 checkpoint
 =
-mRecorder
--
->
 CreateCheckpoint
 (
 )
