@@ -2911,7 +2911,7 @@ DEBUG
 /
 Assert
 no
-JitScripts
+ICScripts
 are
 marked
 as
@@ -2941,7 +2941,7 @@ MOZ_ASSERT
 jitScript
 -
 >
-active
+hasActiveICScript
 (
 )
 )
@@ -2954,7 +2954,7 @@ endif
 /
 /
 Mark
-JitScripts
+ICScripts
 on
 the
 stack
@@ -2969,7 +2969,7 @@ stubs
 jit
 :
 :
-MarkActiveJitScriptsAndCopyStubs
+MarkActiveICScriptsAndCopyStubs
 (
 this
 newStubSpace
@@ -3065,6 +3065,11 @@ hasBaselineScript
 &
 !
 jitScript
+-
+>
+icScript
+(
+)
 -
 >
 active
@@ -3330,11 +3335,14 @@ Reset
 the
 active
 flag
+of
+each
+ICScript
 .
 jitScript
 -
 >
-resetActive
+resetAllActiveFlags
 (
 )
 ;

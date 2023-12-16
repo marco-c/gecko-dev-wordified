@@ -5900,6 +5900,11 @@ jitScript
 )
 -
 >
+icScript
+(
+)
+-
+>
 active
 (
 )
