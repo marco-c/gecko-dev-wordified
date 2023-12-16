@@ -1314,12 +1314,12 @@ CacheDirectoryMetadata
 >
 &
 aDirectoryMetadata
-already_AddRefed
+RefPtr
 <
 DirectoryLock
 >
 aDirectoryLock
-already_AddRefed
+RefPtr
 <
 CipherKeyManager
 >
