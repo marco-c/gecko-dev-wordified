@@ -895,6 +895,7 @@ unit
 *
 roundingMode
 zonedRelativeTo
+precalculatedPlainDateTime
 )
 *
 /
@@ -926,6 +927,10 @@ ZonedDateTimeObject
 >
 >
 relativeTo
+const
+PlainDateTime
+&
+precalculatedPlainDateTime
 Duration
 *
 result
@@ -956,6 +961,9 @@ roundingMode
 plainRelativeTo
 [
 zonedRelativeTo
+[
+precalculatedPlainDateTime
+]
 ]
 ]
 )
@@ -1007,6 +1015,9 @@ roundingMode
 plainRelativeTo
 [
 zonedRelativeTo
+[
+precalculatedPlainDateTime
+]
 ]
 ]
 )
@@ -1070,6 +1081,9 @@ roundingMode
 plainRelativeTo
 [
 zonedRelativeTo
+[
+precalculatedPlainDateTime
+]
 ]
 ]
 )
@@ -1100,6 +1114,10 @@ ZonedDateTimeObject
 *
 >
 zonedRelativeTo
+const
+PlainDateTime
+&
+precalculatedPlainDateTime
 Duration
 *
 result
