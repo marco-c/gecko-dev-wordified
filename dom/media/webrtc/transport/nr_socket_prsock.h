@@ -1701,6 +1701,10 @@ nsresult
 SetAddress
 (
 )
+MOZ_REQUIRES
+(
+monitor_
+)
 ;
 /
 /
