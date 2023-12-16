@@ -157,6 +157,11 @@ ScheduledTask
 cpp
 "
 "
+ScheduledTaskRemove
+.
+cpp
+"
+"
 SetDefaultBrowser
 .
 cpp
