@@ -79,6 +79,9 @@ ceil
 cos
 '
 '
+erf
+'
+'
 exp
 '
 '
