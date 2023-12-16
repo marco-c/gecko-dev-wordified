@@ -845,12 +845,10 @@ RunCallbackWithGesture
 )
 =
 >
-promise_rejects_dom
+promise_rejects_js
 (
 t
-'
-NotAllowedError
-'
+TypeError
 document
 .
 requestStorageAccessFor
