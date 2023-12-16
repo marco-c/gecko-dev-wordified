@@ -3607,16 +3607,6 @@ false
 }
 /
 /
-FIXME
-:
-spec
-bug
--
-CreateTemporalDate
-is
-fallible
-/
-/
 Step
 12
 .
