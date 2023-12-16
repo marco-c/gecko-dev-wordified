@@ -1502,7 +1502,6 @@ mCurrentBuffer
 =
 CanvasBuffer
 (
-nullptr
 )
 ;
 return
@@ -1545,7 +1544,6 @@ mCurrentBuffer
 =
 CanvasBuffer
 (
-nullptr
 )
 ;
 return

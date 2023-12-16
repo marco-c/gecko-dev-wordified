@@ -882,11 +882,15 @@ Capacity
 {
 return
 shmem
+?
+shmem
 -
 >
 Size
 (
 )
+:
+0
 ;
 }
 }
