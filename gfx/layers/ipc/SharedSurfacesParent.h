@@ -305,7 +305,7 @@ namespace
 layers
 {
 class
-SharedSurfacesChild
+CompositorManagerParent
 ;
 class
 SharedSurfacesMemoryReport
@@ -529,7 +529,7 @@ private
 :
 friend
 class
-SharedSurfacesChild
+CompositorManagerParent
 ;
 friend
 class
