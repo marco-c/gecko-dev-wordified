@@ -74,6 +74,10 @@ pub
 mod
 declaration_block
 ;
+pub
+mod
+property_declaration
+;
 /
 /
 /
@@ -219,6 +223,16 @@ self
 :
 :
 generated
+:
+:
+*
+;
+pub
+use
+self
+:
+:
+property_declaration
 :
 :
 *
