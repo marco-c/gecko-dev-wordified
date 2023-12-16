@@ -257,6 +257,17 @@ EnsurePipeline
 =
 0
 ;
+virtual
+bool
+HasPipeline
+(
+)
+{
+return
+false
+;
+}
+;
 void
 ClearCachedResources
 (

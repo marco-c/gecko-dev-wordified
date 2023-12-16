@@ -255,6 +255,12 @@ EnsurePipeline
 )
 override
 ;
+bool
+HasPipeline
+(
+)
+override
+;
 void
 ClearCachedResources
 (
