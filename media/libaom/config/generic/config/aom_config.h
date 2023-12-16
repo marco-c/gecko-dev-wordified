@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2018
+2023
 Alliance
 for
 Open
@@ -163,7 +163,7 @@ CONFIG_AV1_DECODER
 #
 define
 CONFIG_AV1_ENCODER
-0
+1
 #
 define
 CONFIG_BIG_ENDIAN
