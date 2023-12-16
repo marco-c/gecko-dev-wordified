@@ -16,23 +16,7 @@ from
 import
 assert_response_event
 PAGE_EMPTY_TEXT
-=
-"
-/
-webdriver
-/
-tests
-/
-bidi
-/
-network
-/
-support
-/
-empty
-.
-txt
-"
+RESPONSE_COMPLETED_EVENT
 pytest
 .
 mark
@@ -65,11 +49,7 @@ events
 =
 [
             
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
         
 ]
     
@@ -79,11 +59,7 @@ events
 =
 network_events
 [
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 ]
     
 cached_url
@@ -127,11 +103,7 @@ on_response_completed
 =
 wait_for_event
 (
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 )
     
 await
@@ -243,11 +215,7 @@ on_response_completed
 =
 wait_for_event
 (
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 )
     
 await
@@ -360,11 +328,7 @@ events
 =
 [
             
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
         
 ]
     
@@ -374,11 +338,7 @@ events
 =
 network_events
 [
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 ]
     
 text_url
@@ -785,11 +745,7 @@ events
 =
 [
             
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
         
 ]
     
@@ -799,11 +755,7 @@ events
 =
 network_events
 [
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 ]
     
 revalidate_url
@@ -845,11 +797,7 @@ on_response_completed
 =
 wait_for_event
 (
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 )
     
 await
@@ -936,11 +884,7 @@ on_response_completed
 =
 wait_for_event
 (
-"
-network
-.
-responseCompleted
-"
+RESPONSE_COMPLETED_EVENT
 )
     
 #
