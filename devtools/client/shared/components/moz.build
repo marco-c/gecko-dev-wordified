@@ -239,6 +239,6 @@ reps
 /
 stubs
 .
-ini
+toml
 "
 ]
