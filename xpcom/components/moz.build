@@ -406,6 +406,6 @@ test
 /
 python
 .
-ini
+toml
 "
 ]

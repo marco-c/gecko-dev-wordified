@@ -139,7 +139,7 @@ python
 /
 python
 .
-ini
+toml
 "
 ]
 JAR_MANIFESTS

@@ -657,7 +657,7 @@ test
 /
 python
 .
-ini
+toml
 "
 ]
 XPCOM_MANIFESTS

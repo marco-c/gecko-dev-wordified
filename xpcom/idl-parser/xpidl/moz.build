@@ -92,7 +92,7 @@ PYTHON_UNITTEST_MANIFESTS
 "
 python
 .
-ini
+toml
 "
 ]
 GeneratedFile

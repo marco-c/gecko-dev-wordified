@@ -927,7 +927,7 @@ tests
 /
 python
 .
-ini
+toml
 "
 "
 tests
@@ -936,7 +936,7 @@ python
 /
 python
 .
-ini
+toml
 "
 ]
 #

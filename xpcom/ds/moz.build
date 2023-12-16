@@ -777,6 +777,6 @@ test
 /
 python
 .
-ini
+toml
 "
 ]

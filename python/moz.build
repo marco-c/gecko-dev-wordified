@@ -534,7 +534,7 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 mozboot
@@ -545,7 +545,7 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 mozbuild
@@ -558,7 +558,7 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 mozbuild
@@ -569,7 +569,7 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 mozbuild
@@ -580,7 +580,7 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 mozlint
@@ -589,7 +589,7 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 mozrelease
@@ -598,7 +598,7 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 mozterm
@@ -607,7 +607,7 @@ test
 /
 python
 .
-ini
+toml
 "
 "
 mozversioncontrol
@@ -616,6 +616,6 @@ test
 /
 python
 .
-ini
+toml
 "
 ]
