@@ -20630,7 +20630,7 @@ mUserFocus
 StyleUserFocus
 :
 :
-None
+Normal
 )
 mPointerEvents
 (
