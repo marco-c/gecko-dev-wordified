@@ -404,6 +404,11 @@ ProcessShutdown
 (
 )
 ;
+MediaResult
+InitInternal
+(
+)
+;
 /
 /
 TODO
