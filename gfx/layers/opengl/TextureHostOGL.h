@@ -2453,6 +2453,8 @@ SurfaceFormat
 aFormat
 bool
 aContinuousUpdate
+bool
+aForceBT709ColorSpace
 Maybe
 <
 gfx
@@ -2743,6 +2745,10 @@ mFormat
 ;
 bool
 mContinuousUpdate
+;
+const
+bool
+mForceBT709ColorSpace
 ;
 const
 Maybe
