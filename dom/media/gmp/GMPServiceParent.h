@@ -647,6 +647,10 @@ size_t
 *
 aOutPluginIndex
 )
+MOZ_REQUIRES
+(
+mMutex
+)
 ;
 nsresult
 GetNodeId
@@ -1091,6 +1095,10 @@ GMPParent
 >
 >
 mPlugins
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 /
 /
@@ -1274,7 +1282,6 @@ proceed
 .
 Monitor
 mInitPromiseMonitor
-MOZ_UNANNOTATED
 ;
 MozMonitoredPromiseHolder
 <

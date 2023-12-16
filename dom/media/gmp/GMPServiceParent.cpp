@@ -7686,6 +7686,17 @@ forget
 }
 /
 /
+Ignore
+mutex
+not
+held
+;
+MutexAutoUnlock
+is
+used
+above
+/
+/
 May
 remove
 when
@@ -10800,6 +10811,7 @@ IDs
 being
 cleared
 .
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 KillPlugins
 (
 mPlugins
@@ -10810,6 +10822,7 @@ nodeIDsToClear
 )
 )
 ;
+MOZ_POP_THREAD_SAFETY
 /
 /
 Clear
@@ -12115,6 +12128,7 @@ with
 valid
 nodeIDs
 .
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 KillPlugins
 (
 mPlugins
@@ -12123,6 +12137,7 @@ mMutex
 IsNodeIdValid
 )
 ;
+MOZ_POP_THREAD_SAFETY
 nsCOMPtr
 <
 nsIFile
