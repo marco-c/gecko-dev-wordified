@@ -1104,7 +1104,6 @@ index
 .
 html
 UnknownMethod
-UnknownPath
 /
 /
 /
@@ -1489,8 +1488,6 @@ unexpected
 alert
 open
 "
-UnknownCommand
-|
 UnknownError
 =
 >
@@ -1505,7 +1502,7 @@ UnknownMethod
 unknown
 method
 "
-UnknownPath
+UnknownCommand
 =
 >
 "
@@ -1763,13 +1760,6 @@ StatusCode
 :
 :
 METHOD_NOT_ALLOWED
-UnknownPath
-=
->
-StatusCode
-:
-:
-NOT_FOUND
 UnsupportedOperation
 =
 >
