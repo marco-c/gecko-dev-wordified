@@ -3438,7 +3438,7 @@ ret
 if
 defined
 (
-NIGHTLY_BUILD
+BLOCK_LOADLIBRARY_INJECTION
 )
 /
 /
@@ -3477,7 +3477,7 @@ endif
 /
 defined
 (
-NIGHTLY_BUILD
+BLOCK_LOADLIBRARY_INJECTION
 )
 static
 bool
@@ -3528,7 +3528,7 @@ false
 if
 defined
 (
-NIGHTLY_BUILD
+BLOCK_LOADLIBRARY_INJECTION
 )
 for
 (
@@ -3853,7 +3853,7 @@ endif
 if
 defined
 (
-NIGHTLY_BUILD
+BLOCK_LOADLIBRARY_INJECTION
 )
 /
 /
