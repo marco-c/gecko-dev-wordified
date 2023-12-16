@@ -2,7 +2,7 @@
 Types
 conforming
 to
-FfiConverterPrimitive
+_UniffiConverterPrimitive
 pass
 themselves
 directly
@@ -11,7 +11,7 @@ the
 FFI
 .
 class
-FfiConverterPrimitive
+_UniffiConverterPrimitive
 :
     
 classmethod
@@ -89,7 +89,7 @@ buf
         
 cls
 .
-writeUnchecked
+write_unchecked
 (
 cls
 .
@@ -100,9 +100,9 @@ value
 buf
 )
 class
-FfiConverterPrimitiveInt
+_UniffiConverterPrimitiveInt
 (
-FfiConverterPrimitive
+_UniffiConverterPrimitive
 )
 :
     
@@ -250,9 +250,9 @@ check
 value
 )
 class
-FfiConverterPrimitiveFloat
+_UniffiConverterPrimitiveFloat
 (
-FfiConverterPrimitive
+_UniffiConverterPrimitive
 )
 :
     
@@ -362,7 +362,7 @@ always
 go
 through
 a
-RustBuffer
+_UniffiRustBuffer
 .
 #
 Classes
@@ -380,7 +380,7 @@ static
 methods
 .
 class
-FfiConverterRustBuffer
+_UniffiConverterRustBuffer
 :
     
 classmethod
@@ -396,7 +396,7 @@ rbuf
 with
 rbuf
 .
-consumeWithStream
+consume_with_stream
 (
 )
 as
@@ -422,9 +422,9 @@ value
 :
         
 with
-RustBuffer
+_UniffiRustBuffer
 .
-allocWithBuilder
+alloc_with_builder
 (
 )
 as

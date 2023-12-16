@@ -83,7 +83,7 @@ Exception
 :
     
 pass
-UniFFITemp
+_UniffiTemp
 {
 {
 type_name
@@ -158,7 +158,7 @@ variant_type_name
 }
 }
 (
-UniFFITemp
+_UniffiTemp
 {
 {
 type_name
@@ -218,7 +218,7 @@ variant_type_name
 }
 }
 (
-UniFFITemp
+_UniffiTemp
 {
 {
 type_name
@@ -450,7 +450,7 @@ endif
 %
 }
     
-UniFFITemp
+_UniffiTemp
 {
 {
 type_name
@@ -485,7 +485,7 @@ type_name
 }
 }
 =
-UniFFITemp
+_UniffiTemp
 {
 {
 type_name
@@ -496,7 +496,7 @@ type
 :
 ignore
 del
-UniFFITemp
+_UniffiTemp
 {
 {
 type_name
@@ -509,7 +509,7 @@ ffi_converter_name
 }
 }
 (
-FfiConverterRustBuffer
+_UniffiConverterRustBuffer
 )
 :
     
@@ -526,7 +526,7 @@ variant
 =
 buf
 .
-readI32
+read_i32
 (
 )
         
@@ -740,7 +740,7 @@ class_name
             
 buf
 .
-writeI32
+write_i32
 (
 {
 {
