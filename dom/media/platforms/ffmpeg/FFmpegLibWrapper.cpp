@@ -1369,6 +1369,11 @@ AV_FUNC
 av_dict_free
 AV_FUNC_AVUTIL_ALL
 )
+AV_FUNC
+(
+av_opt_set
+AV_FUNC_AVUTIL_ALL
+)
 #
 ifdef
 MOZ_WIDGET_GTK
