@@ -1577,6 +1577,8 @@ CreateMenuWithGeckoString
 nsString
 &
 aMenuTitle
+bool
+aShowServices
 )
 ;
 void
