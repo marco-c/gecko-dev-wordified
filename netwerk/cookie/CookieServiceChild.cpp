@@ -2115,6 +2115,7 @@ CookieCommons
 ShouldIncludeCrossSiteCookieForDocument
 (
 cookie
+aDocument
 )
 )
 {
@@ -2592,6 +2593,7 @@ CookieCommons
 ShouldIncludeCrossSiteCookieForDocument
 (
 cookie
+aDocument
 )
 )
 {
