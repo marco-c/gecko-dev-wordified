@@ -401,6 +401,11 @@ _
 IntlGuardToRelativeTimeFormat
 )
 \
+_
+(
+IntlGuardToSegmenter
+)
+\
 \
 _
 (
