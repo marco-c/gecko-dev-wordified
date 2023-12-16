@@ -76,9 +76,13 @@ open
 a
 new
 window
+via
+an
+/
+/
+anchor
+link
 to
-/
-/
 less
 -
 public
@@ -121,7 +125,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -167,7 +171,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -213,7 +217,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -259,7 +263,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -303,7 +307,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -349,7 +353,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -395,7 +399,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -439,7 +443,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -483,7 +487,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -529,7 +533,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -582,7 +586,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
@@ -635,7 +639,7 @@ promise_test_parallel
 t
 =
 >
-windowOpenTest
+anchorTest
 (
 t
 {
