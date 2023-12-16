@@ -378,7 +378,7 @@ true
 ;
 openee
 .
-onunload
+onpagehide
 =
 t
 .
