@@ -1814,15 +1814,6 @@ R8G8B8A8
 false
 /
 *
-Do
-NOT
-override
-colorspace
-*
-/
-false
-/
-*
 NOT
 continuous
 *

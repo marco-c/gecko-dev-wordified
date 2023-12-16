@@ -1009,12 +1009,6 @@ GetHasAlpha
 typedImage
 -
 >
-GetForceBT709ColorSpace
-(
-)
-typedImage
--
->
 GetTransformOverride
 (
 )
