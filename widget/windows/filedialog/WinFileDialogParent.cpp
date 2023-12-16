@@ -172,17 +172,6 @@ nsISupports
 .
 h
 "
-mozilla
-:
-:
-LazyLogModule
-sLogWFD
-(
-"
-FileDialog
-"
-)
-;
 namespace
 mozilla
 :
@@ -207,7 +196,7 @@ WinFileDialogParent
 {
 MOZ_LOG
 (
-sLogWFD
+sLogFileDialog
 LogLevel
 :
 :
@@ -235,7 +224,7 @@ WinFileDialogParent
 {
 MOZ_LOG
 (
-sLogWFD
+sLogFileDialog
 LogLevel
 :
 :
@@ -417,7 +406,7 @@ detail
 :
 LogProcessingError
 (
-sLogWFD
+sLogFileDialog
 this
 aCode
 aReason
@@ -534,7 +523,7 @@ sOpenDialogActors
 {
 MOZ_LOG
 (
-sLogWFD
+sLogFileDialog
 LogLevel
 :
 :
