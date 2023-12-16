@@ -1250,9 +1250,14 @@ F_OK
 0
 )
 {
-record_warning
+log
 (
 "
+GLX_TEST
+:
+get_pci_status
+failed
+:
 cannot
 access
 /
@@ -1261,6 +1266,8 @@ sys
 bus
 /
 pci
+\
+n
 "
 )
 ;
