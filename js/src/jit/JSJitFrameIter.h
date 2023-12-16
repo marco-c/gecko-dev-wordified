@@ -2793,6 +2793,17 @@ bailoutKind
 )
 ;
 }
+IonScript
+*
+ionScript
+(
+)
+const
+{
+return
+ionScript_
+;
+}
 public
 :
 /

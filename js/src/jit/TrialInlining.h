@@ -463,6 +463,9 @@ ICFallbackStub
 class
 ICScript
 ;
+class
+ICStubSpace
+;
 /
 *
 *
@@ -579,6 +582,9 @@ purgeStubs
 Zone
 *
 zone
+ICStubSpace
+&
+newStubSpace
 )
 ;
 void
@@ -586,6 +592,11 @@ resetWarmUpCounts
 (
 uint32_t
 count
+)
+;
+void
+purgeInactiveICScripts
+(
 )
 ;
 #
