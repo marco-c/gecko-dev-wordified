@@ -1165,6 +1165,7 @@ start
 [
 stack
 ]
+ADDINIT
 /
 /
 end
@@ -1174,6 +1175,7 @@ end
 [
 stack
 ]
+ADDINIT
 ARRAY
 /
 /
@@ -1306,6 +1308,7 @@ NewArray
 [
 stack
 ]
+ADDINIT
 ARRAY
 return
 false
@@ -1325,6 +1328,7 @@ key
 [
 stack
 ]
+ADDINIT
 ARRAY
 NAME
 return
@@ -1352,6 +1356,7 @@ InitElemArray
 [
 stack
 ]
+ADDINIT
 ARRAY
 return
 false
@@ -1377,6 +1382,7 @@ One
 [
 stack
 ]
+ADDINIT
 ARRAY
 INDEX
 return
@@ -1510,31 +1516,15 @@ return
 false
 ;
 }
-/
-/
-TODO
-!
-!
-!
-For
-now
-we
-push
-undefined
-for
-addInitializerFunction
 if
 (
 !
 bce_
 -
 >
-emit1
+emitDupAt
 (
-JSOp
-:
-:
-Undefined
+2
 )
 )
 {
@@ -1543,7 +1533,9 @@ Undefined
 [
 stack
 ]
-VAL
+ADDINIT
+ARRAY
+INDEX
 ADDINIT
 return
 false
@@ -1569,6 +1561,7 @@ decorator
 [
 stack
 ]
+ADDINIT
 ARRAY
 INDEX
 RETVAL
@@ -1607,6 +1600,7 @@ emitUpdateDecorationState
 [
 stack
 ]
+ADDINIT
 ARRAY
 INDEX
 RETVAL
@@ -1648,6 +1642,7 @@ emitCheckIsUndefined
 [
 stack
 ]
+ADDINIT
 ARRAY
 INDEX
 RETVAL
@@ -1677,6 +1672,7 @@ emitThenElse
 [
 stack
 ]
+ADDINIT
 ARRAY
 INDEX
 RETVAL
@@ -1719,6 +1715,7 @@ emitPopN
 [
 stack
 ]
+ADDINIT
 ARRAY
 INDEX
 return
@@ -1801,6 +1798,7 @@ emitThenElse
 [
 stack
 ]
+ADDINIT
 ARRAY
 INDEX
 RETVAL
@@ -1869,6 +1867,7 @@ InitElemInc
 [
 stack
 ]
+ADDINIT
 ARRAY
 INDEX
 return
@@ -1950,6 +1949,7 @@ emitPopN
 [
 stack
 ]
+ADDINIT
 ARRAY
 INDEX
 return
@@ -2015,6 +2015,7 @@ emitPopN
 [
 stack
 ]
+ADDINIT
 ARRAY
 }
 bool
@@ -2060,6 +2061,7 @@ start
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 /
@@ -2071,6 +2073,7 @@ end
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2218,6 +2221,7 @@ NewArray
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2251,6 +2255,7 @@ NameNode
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2280,6 +2285,7 @@ InitElemArray
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2307,6 +2313,7 @@ One
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2484,6 +2491,7 @@ emitObject
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2565,6 +2573,7 @@ emitDupAt
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2609,6 +2618,7 @@ get
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2690,6 +2700,7 @@ emitDupAt
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2734,6 +2745,7 @@ set
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2758,6 +2770,7 @@ emitEnd
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2767,31 +2780,15 @@ return
 false
 ;
 }
-/
-/
-TODO
-!
-!
-!
-For
-now
-we
-push
-undefined
-for
-addInitializerFunction
 if
 (
 !
 bce_
 -
 >
-emit1
+emitDupAt
 (
-JSOp
-:
-:
-Undefined
+5
 )
 )
 {
@@ -2800,6 +2797,7 @@ Undefined
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2851,6 +2849,7 @@ decorator
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2891,6 +2890,7 @@ emitUpdateDecorationState
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2934,6 +2934,7 @@ emitCheckIsUndefined
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -2965,6 +2966,7 @@ emitThenElse
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -3009,6 +3011,7 @@ emitPopN
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -3096,6 +3099,7 @@ DecoratorReturn
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -3452,6 +3456,7 @@ emitPopN
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY
@@ -3493,6 +3498,7 @@ emitPopN
 [
 stack
 ]
+ADDINIT
 GETTER
 SETTER
 ARRAY

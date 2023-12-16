@@ -247,7 +247,7 @@ context
 .
 addInitializer
 "
-undefined
+function
 "
 )
 ;

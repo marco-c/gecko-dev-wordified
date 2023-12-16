@@ -176,7 +176,7 @@ context
 .
 addInitializer
 "
-undefined
+function
 "
 )
 ;
