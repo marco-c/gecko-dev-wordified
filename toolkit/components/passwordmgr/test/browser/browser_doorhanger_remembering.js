@@ -3575,7 +3575,7 @@ notif
 message
 "
 Update
-login
+password
 for
 example
 .
@@ -3857,7 +3857,7 @@ notif
 message
 "
 Update
-login
+password
 for
 example
 .
@@ -4100,7 +4100,7 @@ notif
 message
 "
 Update
-login
+password
 for
 example
 .
@@ -5050,7 +5050,7 @@ expectedText
 =
 "
 Save
-login
+password
 for
 example
 .
