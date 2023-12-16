@@ -886,8 +886,11 @@ AllowCompilerWarnings
 FINAL_LIBRARY
 =
 '
-gkmedias
+gkcodecs
 '
+NoVisibilityFlags
+(
+)
 if
 CONFIG
 [
