@@ -47,8 +47,6 @@ state
 .
 assert_equals
 (
-'
-'
 (
 await
 navigator
@@ -63,6 +61,8 @@ keys
 join
 (
 )
+'
+'
 )
 ;
 /
