@@ -1401,9 +1401,6 @@ ImageSubresourceRange
 default
 (
 )
-plane
-:
-None
 }
 ;
 let

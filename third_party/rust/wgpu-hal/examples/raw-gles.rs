@@ -1100,9 +1100,6 @@ ImageSubresourceRange
 default
 (
 )
-plane
-:
-None
 }
 )
 .
