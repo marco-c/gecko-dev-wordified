@@ -56,6 +56,7 @@ return
 value
 !
 =
+=
 undefined
 ?
 value
@@ -2006,6 +2007,11 @@ blue
 .
 png
 "
+id
+=
+"
+imagelcp
+"
 )
 =
 >
@@ -2044,9 +2050,16 @@ img
 .
 id
 =
+id
+img
+.
+setAttribute
+(
 "
-imagelcp
+elementtiming
 "
+id
+)
 ;
 await
 img
@@ -2076,6 +2089,11 @@ blue
 .
 png
 "
+id
+=
+"
+imagelcp
+"
 )
 =
 >
@@ -2092,6 +2110,7 @@ main
 '
 )
 url
+id
 )
 ;
 }
