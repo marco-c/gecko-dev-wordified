@@ -19938,12 +19938,7 @@ JSTracer
 trc
 )
 {
-if
-(
-name
-)
-{
-TraceRoot
+TraceNullableRoot
 (
 trc
 &
@@ -19956,5 +19951,4 @@ name
 "
 )
 ;
-}
 }
