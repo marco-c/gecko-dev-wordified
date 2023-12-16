@@ -230,7 +230,7 @@ cram
 /
 cram
 .
-ini
+toml
 "
 ]
 DEFINES

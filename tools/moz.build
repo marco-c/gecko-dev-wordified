@@ -577,7 +577,7 @@ test
 /
 cram
 .
-ini
+toml
 "
 ]
 PYTHON_UNITTEST_MANIFESTS
