@@ -2761,6 +2761,8 @@ libraries
 .
             
 if
+(
+                
 "
 MOZ_AUTOMATION
 "
@@ -2768,6 +2770,17 @@ in
 os
 .
 environ
+                
+or
+"
+MOZ_STACKWALK_SYMBOLS_SERVER
+"
+in
+os
+.
+environ
+            
+)
 :
                 
 command
