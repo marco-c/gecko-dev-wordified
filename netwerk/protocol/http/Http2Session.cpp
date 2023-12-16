@@ -3654,6 +3654,7 @@ CreateHttpConnection
 aHttpTransaction
 aCallbacks
 aRtt
+aIsWebSocket
 )
 ;
 mTunnelStreams

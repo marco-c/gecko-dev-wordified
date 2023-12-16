@@ -1515,6 +1515,8 @@ nsIInterfaceRequestor
 aCallbacks
 PRIntervalTime
 aRtt
+bool
+aIsWebSocket
 )
 {
 mInput
@@ -1589,7 +1591,7 @@ true
 NS_OK
 aCallbacks
 aRtt
-false
+aIsWebSocket
 )
 ;
 MOZ_RELEASE_ASSERT

@@ -241,6 +241,8 @@ nsIInterfaceRequestor
 aCallbacks
 PRIntervalTime
 aRtt
+bool
+aIsWebSocket
 )
 ;
 nsHttpConnectionInfo
