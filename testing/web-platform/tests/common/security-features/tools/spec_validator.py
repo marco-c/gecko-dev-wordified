@@ -40,7 +40,7 @@ obj
 [
 field
 ]
-basestring
+str
 )
 \
         
@@ -265,7 +265,7 @@ obj
 [
 field
 ]
-basestring
+str
 )
 or
 isinstance
@@ -1869,8 +1869,6 @@ ERROR
 :
 '
 err
-.
-message
 )
         
 print

@@ -2675,10 +2675,13 @@ target
     
 artifact_order
 =
+list
+(
 test_expansion_schema
 .
 keys
 (
+)
 )
     
 artifact_order
