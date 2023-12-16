@@ -2345,7 +2345,7 @@ JSObject
 item
 Handle
 <
-JSObject
+PlainObject
 *
 >
 maybeOptions

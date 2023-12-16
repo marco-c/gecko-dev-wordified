@@ -10456,7 +10456,7 @@ TemporalDifference
 operation
 Handle
 <
-JSObject
+PlainObject
 *
 >
 options
