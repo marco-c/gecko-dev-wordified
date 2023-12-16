@@ -8662,6 +8662,7 @@ Transparent
 BOOL
 currentTransparency
 =
+!
 mWindow
 .
 isOpaque
