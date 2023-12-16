@@ -55555,6 +55555,16 @@ get
 )
 ;
 }
+if
+(
+StaticPrefs
+:
+:
+dom_security_setdocumenturi
+(
+)
+)
+{
 /
 /
 check
@@ -55783,6 +55793,7 @@ false
 return
 NS_OK
 ;
+}
 }
 }
 #

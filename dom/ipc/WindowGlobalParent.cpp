@@ -2777,6 +2777,16 @@ URI
 change
 )
 :
+if
+(
+StaticPrefs
+:
+:
+dom_security_setdocumenturi
+(
+)
+)
+{
 nsAutoCString
 scheme
 ;
@@ -3015,6 +3025,7 @@ URI
 "
 )
 ;
+}
 }
 }
 mDocumentURI
