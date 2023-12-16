@@ -167,7 +167,11 @@ observerChanges
 length
 >
 =
+(
 minChangesThreshold
+-
+1
+)
 &
 &
 !
