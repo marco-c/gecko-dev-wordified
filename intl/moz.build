@@ -214,7 +214,7 @@ benchmarks
 /
 perftest
 .
-ini
+toml
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

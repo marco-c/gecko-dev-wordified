@@ -720,7 +720,7 @@ test
 /
 perftest
 .
-ini
+toml
 "
 ]
 DEFINES
