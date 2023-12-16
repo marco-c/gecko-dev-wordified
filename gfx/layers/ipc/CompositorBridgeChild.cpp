@@ -3334,10 +3334,13 @@ GetCanvasChild
 {
 MOZ_ASSERT
 (
-gfxPlatform
+gfx
 :
 :
-UseRemoteCanvas
+gfxVars
+:
+:
+RemoteCanvasEnabled
 (
 )
 )
