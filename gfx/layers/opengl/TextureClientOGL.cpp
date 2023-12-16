@@ -410,6 +410,8 @@ OriginPos
 aOriginPos
 bool
 aHasAlpha
+bool
+aForceBT709ColorSpace
 Maybe
 <
 gfx
@@ -461,6 +463,7 @@ aHandle
 aSize
 aContinuous
 aHasAlpha
+aForceBT709ColorSpace
 aTransformOverride
 )
 aFlags
@@ -484,6 +487,8 @@ bool
 aContinuous
 bool
 aHasAlpha
+bool
+aForceBT709ColorSpace
 Maybe
 <
 gfx
@@ -509,6 +514,10 @@ aContinuous
 mHasAlpha
 (
 aHasAlpha
+)
+mForceBT709ColorSpace
+(
+aForceBT709ColorSpace
 )
 mTransformOverride
 (
@@ -617,6 +626,7 @@ SurfaceFormat
 :
 R8G8B8X8
 mContinuous
+mForceBT709ColorSpace
 mTransformOverride
 )
 ;
@@ -1184,6 +1194,15 @@ false
 *
 not
 continuous
+*
+/
+false
+/
+*
+do
+not
+override
+colorspace
 *
 /
 Some
