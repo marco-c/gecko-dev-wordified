@@ -7992,7 +7992,7 @@ Document
 )
 -
 >
-IsEverInitialDocument
+IsInitialDocument
 (
 )
 )
