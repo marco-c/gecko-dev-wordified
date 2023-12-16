@@ -216,6 +216,21 @@ server
 stash
 ;
     
+event_type
+=
+request
+.
+GET
+.
+first
+(
+b
+"
+type
+"
+NO_DATA_STRING
+)
+    
 #
 The
 stash
@@ -319,8 +334,11 @@ put
 (
 string_to_uuid
 (
+event_type
++
 request_body
 )
+                
 request_headers
 )
             
@@ -377,6 +395,8 @@ take
 (
 string_to_uuid
 (
+event_type
++
 expected_body
 )
 )
