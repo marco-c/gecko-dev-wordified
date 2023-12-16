@@ -1025,7 +1025,7 @@ aFormat
 const
 RefPtr
 <
-WebGLTextureJS
+WebGLTexture
 >
 &
 aTexture
@@ -1109,7 +1109,7 @@ GetSize
 const
 RefPtr
 <
-WebGLTextureJS
+WebGLTexture
 >
 &
 GetWebGLTexture
@@ -1177,7 +1177,7 @@ mFormat
 ;
 RefPtr
 <
-WebGLTextureJS
+WebGLTexture
 >
 mTexture
 ;
@@ -1389,10 +1389,7 @@ virtual
 void
 Cleanup
 (
-DrawTargetWebgl
-:
-:
-SharedContext
+SharedContextWebgl
 &
 aContext
 )
@@ -1790,7 +1787,7 @@ aFormat
 const
 RefPtr
 <
-WebGLTextureJS
+WebGLTexture
 >
 &
 aTexture
@@ -1946,10 +1943,7 @@ get
 void
 Cleanup
 (
-DrawTargetWebgl
-:
-:
-SharedContext
+SharedContextWebgl
 &
 aContext
 )
@@ -2042,7 +2036,7 @@ aFormat
 const
 RefPtr
 <
-WebGLTextureJS
+WebGLTexture
 >
 &
 aTexture
@@ -2137,10 +2131,7 @@ aSize
 void
 Cleanup
 (
-DrawTargetWebgl
-:
-:
-SharedContext
+SharedContextWebgl
 &
 aContext
 )
