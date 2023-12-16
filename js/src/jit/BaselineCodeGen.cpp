@@ -3720,6 +3720,8 @@ CreateAllocSitesForCacheIRStub
 JSScript
 *
 script
+uint32_t
+pcOffset
 ICCacheIRStub
 *
 stub
@@ -3879,9 +3881,10 @@ newSite
 icScript
 -
 >
-createAllocSite
+getOrCreateAllocSite
 (
 script
+pcOffset
 )
 ;
 if
@@ -3941,6 +3944,8 @@ JSScript
 *
 script
 uint32_t
+pcOffset
+uint32_t
 entryIndex
 )
 {
@@ -3988,6 +3993,7 @@ if
 CreateAllocSitesForCacheIRStub
 (
 script
+pcOffset
 stub
 -
 >
@@ -4271,6 +4277,7 @@ pc
 CreateAllocSitesForICChain
 (
 script
+pcOffset
 entryIndex
 )
 ;
