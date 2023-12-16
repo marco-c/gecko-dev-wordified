@@ -3905,7 +3905,7 @@ PlainDateObject
 addedDate
 (
 cx
-CalendarDateAdd
+AddDate
 (
 cx
 calendar
