@@ -535,15 +535,6 @@ true
 _
 (
 "
-pretenureThreshold
-"
-JSGC_PRETENURE_THRESHOLD
-true
-)
-\
-_
-(
-"
 zoneAllocDelayKB
 "
 JSGC_ZONE_ALLOC_DELAY_KB
