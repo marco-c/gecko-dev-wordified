@@ -206,6 +206,22 @@ graph_config
     
 )
     
+parameters_writable
+=
+dict
+(
+parameters
+)
+    
+parameters_writable
+[
+"
+backstop
+"
+]
+=
+True
+    
 target_tasks
 =
 get_artifact
@@ -223,24 +239,38 @@ json
 )
     
 #
-The
-idea
-here
-is
-to
-schedule
+Schedule
 all
 tasks
 of
 the
 test
 kind
-that
-were
+even
+if
+they
+had
+been
+already
     
 #
-targetted
-but
+scheduled
+before
+because
+this
+time
+they
+can
+contain
+more
+and
+different
+    
+#
+test
+manifests
+which
+earlier
 did
 not
 appear
@@ -252,11 +282,11 @@ task
 graph
 -
 -
+    
+#
 those
 were
 the
-    
-#
 optimized
 tasks
 .
@@ -265,10 +295,6 @@ to_run
 =
 [
 ]
-    
-already_run
-=
-0
     
 for
 label
@@ -302,19 +328,6 @@ not
 a
 test
         
-if
-label
-in
-label_to_taskid
-:
-            
-already_run
-+
-=
-1
-            
-continue
-        
 to_run
 .
 append
@@ -336,6 +349,10 @@ label_to_taskid
 parameters
         
 decision_task_id
+        
+"
+all
+"
     
 )
     
@@ -344,40 +361,19 @@ logger
 info
 (
         
+f
 "
-Out
-of
-{
-}
-test
-tasks
-{
-}
-already
-existed
-and
-the
+The
 action
 created
 {
+len
+(
+to_run
+)
 }
+test
+tasks
 "
-.
-format
-(
-            
-already_run
-+
-len
-(
-to_run
-)
-already_run
-len
-(
-to_run
-)
-        
-)
     
 )
