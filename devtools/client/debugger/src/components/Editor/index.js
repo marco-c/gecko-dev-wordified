@@ -2484,6 +2484,7 @@ column
 :
 ch
 }
+)
 {
 /
 /
@@ -2512,7 +2513,6 @@ keepContext
 :
 false
 }
-)
 )
 ;
 }

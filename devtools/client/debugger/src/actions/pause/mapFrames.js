@@ -309,7 +309,11 @@ frame
 .
 location
 thunkArgs
+{
+waitForSource
+:
 true
+}
 )
 ;
 /
