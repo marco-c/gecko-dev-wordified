@@ -5,7 +5,7 @@ c
 )
 2010
 -
-2019
+2020
 Benjamin
 Peterson
 #
@@ -451,7 +451,7 @@ python_requires
 =
 2
 .
-6
+7
 !
 =
 3
@@ -464,6 +464,13 @@ python_requires
 3
 .
 1
+.
+*
+!
+=
+3
+.
+2
 .
 *
 "
