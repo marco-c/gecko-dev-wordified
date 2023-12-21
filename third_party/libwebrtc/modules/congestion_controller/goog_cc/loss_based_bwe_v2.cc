@@ -1377,8 +1377,6 @@ optional
 DataRate
 >
 probe_bitrate
-DataRate
-upper_link_capacity
 bool
 in_alr
 )
@@ -1386,10 +1384,6 @@ in_alr
 delay_based_estimate_
 =
 delay_based_estimate
-;
-upper_link_capacity_
-=
-upper_link_capacity
 ;
 if
 (

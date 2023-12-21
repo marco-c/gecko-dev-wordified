@@ -2458,8 +2458,6 @@ optional
 DataRate
 >
 probe_bitrate
-DataRate
-upper_link_capacity
 bool
 in_alr
 )
@@ -2501,7 +2499,6 @@ packet_feedbacks
 delay_based_limit_
 delay_detector_state
 probe_bitrate
-upper_link_capacity
 in_alr
 )
 ;
