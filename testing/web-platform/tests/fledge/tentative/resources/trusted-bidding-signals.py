@@ -361,9 +361,7 @@ pair
 =
 =
 "
-slot
--
-size
+slotSize
 "
 or
 pair
@@ -373,13 +371,7 @@ pair
 =
 =
 "
-all
--
-slots
--
-requested
--
-sizes
+allSlotsRequestedSizes
 "
 :
             
@@ -1042,9 +1034,7 @@ key
 =
 =
 "
-slot
--
-size
+slotSize
 "
 :
                 
@@ -1058,9 +1048,7 @@ first
 (
 b
 "
-slot
--
-size
+slotSize
 "
 b
 "
@@ -1082,13 +1070,7 @@ key
 =
 =
 "
-all
--
-slots
--
-requested
--
-sizes
+allSlotsRequestedSizes
 "
 :
                 
@@ -1102,13 +1084,7 @@ first
 (
 b
 "
-all
--
-slots
--
-requested
--
-sizes
+allSlotsRequestedSizes
 "
 b
 "
