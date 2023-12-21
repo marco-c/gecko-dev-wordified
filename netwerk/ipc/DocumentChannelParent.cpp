@@ -573,7 +573,7 @@ Some
 (
 docArgs
 .
-isXFOError
+isEmbeddingBlockedError
 (
 )
 )

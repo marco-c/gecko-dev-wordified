@@ -562,7 +562,7 @@ aCacheKey
 bool
 aUriModified
 bool
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 :
 mLoadState
@@ -594,9 +594,9 @@ mUriModified
 (
 aUriModified
 )
-mIsXFOError
+mIsEmbeddingBlockedError
 (
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 {
 LOG
@@ -1141,7 +1141,7 @@ aCacheKey
 bool
 aUriModified
 bool
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 {
 RefPtr
@@ -1167,7 +1167,7 @@ aLoadInfo
 aLoadFlags
 aCacheKey
 aUriModified
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 ;
 }
@@ -1183,7 +1183,7 @@ aLoadInfo
 aLoadFlags
 aCacheKey
 aUriModified
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 ;
 }

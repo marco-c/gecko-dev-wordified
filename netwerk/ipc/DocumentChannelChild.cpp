@@ -438,7 +438,7 @@ aCacheKey
 bool
 aUriModified
 bool
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 :
 DocumentChannel
@@ -448,7 +448,7 @@ aLoadInfo
 aLoadFlags
 aCacheKey
 aUriModified
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 {
 mLoadingContext
@@ -908,11 +908,11 @@ mUriModified
 ;
 docArgs
 .
-isXFOError
+isEmbeddingBlockedError
 (
 )
 =
-mIsXFOError
+mIsEmbeddingBlockedError
 ;
 ipcElementCreationArgs
 =

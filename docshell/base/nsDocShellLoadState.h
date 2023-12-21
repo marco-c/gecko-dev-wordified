@@ -1817,7 +1817,7 @@ aUriModified
 and
 /
 /
-aIsXFOError
+aIsEmbeddingBlockedError
 are
 expected
 to
@@ -1826,7 +1826,9 @@ Nothing
 when
 called
 from
-Parent
+parent
+/
+/
 process
 .
 nsLoadFlags
@@ -1856,7 +1858,7 @@ Maybe
 <
 bool
 >
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 ;
 mozilla

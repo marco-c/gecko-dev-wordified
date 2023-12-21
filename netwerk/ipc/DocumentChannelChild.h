@@ -225,7 +225,7 @@ aCacheKey
 bool
 aUriModified
 bool
-aIsXFOError
+aIsEmbeddingBlockedError
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
