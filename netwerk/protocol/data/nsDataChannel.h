@@ -175,6 +175,13 @@ override
 nsCString
 mMimeType
 ;
+private
+:
+nsresult
+MaybeSendDataChannelOpenNotification
+(
+)
+;
 }
 ;
 #
