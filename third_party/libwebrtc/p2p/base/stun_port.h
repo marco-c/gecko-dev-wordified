@@ -344,6 +344,7 @@ new
 UDPPort
 (
 thread
+LOCAL_PORT_TYPE
 factory
 network
 socket
@@ -469,6 +470,7 @@ new
 UDPPort
 (
 thread
+LOCAL_PORT_TYPE
 factory
 network
 min_port
@@ -749,6 +751,11 @@ rtc
 Thread
 *
 thread
+absl
+:
+:
+string_view
+type
 rtc
 :
 :
@@ -795,6 +802,11 @@ rtc
 Thread
 *
 thread
+absl
+:
+:
+string_view
+type
 rtc
 :
 :

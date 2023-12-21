@@ -274,11 +274,10 @@ PortInterface
 ;
 virtual
 const
-std
+absl
 :
 :
-string
-&
+string_view
 Type
 (
 )

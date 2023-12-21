@@ -358,6 +358,7 @@ field_trials
 UDPPort
 (
 thread
+LOCAL_PORT_TYPE
 factory
 network
 min_port
