@@ -3166,6 +3166,12 @@ min
 {
 estimate_capped_bitrate
 max_probe_bitrate
+std
+:
+:
+max
+(
+estimated_bitrate_
 network_estimate_
 -
 >
@@ -3174,6 +3180,7 @@ link_capacity_upper
 config_
 .
 network_state_probe_scale
+)
 }
 )
 ;
