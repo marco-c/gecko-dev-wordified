@@ -306,15 +306,6 @@ include
 "
 video
 /
-send_delay_stats
-.
-h
-"
-#
-include
-"
-video
-/
 send_statistics_proxy
 .
 h
@@ -453,9 +444,6 @@ override
 RtpSenderObservers
 CreateObservers
 (
-RtcpRttStats
-*
-rtcp_rtt_stats
 RtcpIntraFrameObserver
 *
 intra_frame_callback
@@ -477,9 +465,6 @@ rtcp_type_observer
 SendSideDelayObserver
 *
 send_delay_observer
-SendPacketObserver
-*
-send_packet_observer
 )
 {
 RtpSenderObservers
@@ -489,7 +474,7 @@ observers
 .
 rtcp_rtt_stats
 =
-rtcp_rtt_stats
+nullptr
 ;
 observers
 .
@@ -543,7 +528,7 @@ observers
 .
 send_packet_observer
 =
-send_packet_observer
+nullptr
 ;
 return
 observers
@@ -793,14 +778,6 @@ rtx_ssrcs
 payload_type
 )
 )
-send_delay_stats_
-(
-time_controller_
-.
-GetClock
-(
-)
-)
 bitrate_config_
 (
 GetBitrateConfig
@@ -919,7 +896,6 @@ rtcp_report_interval_ms
 transport_
 CreateObservers
 (
-nullptr
 &
 encoder_feedback_
 &
@@ -933,8 +909,6 @@ frame_count_observer
 stats_proxy_
 &
 stats_proxy_
-&
-send_delay_stats_
 )
 &
 transport_controller_
@@ -1223,9 +1197,6 @@ VideoSendStream
 :
 Config
 config_
-;
-SendDelayStats
-send_delay_stats_
 ;
 BitrateConstraints
 bitrate_config_

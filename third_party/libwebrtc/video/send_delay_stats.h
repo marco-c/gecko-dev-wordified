@@ -271,9 +271,6 @@ path
 .
 class
 SendDelayStats
-:
-public
-SendPacketObserver
 {
 public
 :
@@ -289,7 +286,6 @@ clock
 SendDelayStats
 (
 )
-override
 ;
 /
 /
@@ -348,11 +344,6 @@ time
 ;
 /
 /
-From
-SendPacketObserver
-.
-/
-/
 Called
 when
 a
@@ -373,7 +364,6 @@ capture_time
 uint32_t
 ssrc
 )
-override
 ;
 private
 :
