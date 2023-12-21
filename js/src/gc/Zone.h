@@ -1410,15 +1410,6 @@ void
 >
 data
 ;
-js
-:
-:
-MainThreadData
-<
-uint32_t
->
-tenuredBigInts
-;
 /
 /
 Number

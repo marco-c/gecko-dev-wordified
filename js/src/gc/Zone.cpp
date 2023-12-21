@@ -1154,10 +1154,6 @@ data
 (
 nullptr
 )
-tenuredBigInts
-(
-0
-)
 markedStrings
 (
 0
