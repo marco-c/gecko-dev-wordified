@@ -95,7 +95,7 @@ sys
 from
 typing
 import
-Set
+FrozenSet
 import
 argparse
 import
@@ -197,12 +197,14 @@ sorted
 .
 REGISTERED_FIELD_TRIALS
 :
-Set
+FrozenSet
 [
 FieldTrial
 ]
 =
-{
+frozenset
+(
+[
     
 FieldTrial
 (
@@ -222,18 +224,20 @@ org
 )
 :
 Populate
-}
+]
+)
 def
 registry_header
 (
+        
 field_trials
 :
-Set
+FrozenSet
 [
 FieldTrial
 ]
 =
-None
+REGISTERED_FIELD_TRIALS
 )
 -
 >
@@ -430,15 +434,6 @@ BLANKLINE
 "
 "
 "
-    
-if
-not
-field_trials
-:
-        
-field_trials
-=
-REGISTERED_FIELD_TRIALS
     
 registered_keys
 =
