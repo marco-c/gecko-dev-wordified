@@ -346,8 +346,6 @@ Timestamp
 time
 )
 ;
-protected
-:
 /
 /
 From

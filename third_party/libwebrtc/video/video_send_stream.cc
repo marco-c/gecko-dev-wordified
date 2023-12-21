@@ -609,9 +609,9 @@ encoder_feedback
 SendStatisticsProxy
 *
 stats_proxy
-SendDelayStats
+SendPacketObserver
 *
-send_delay_stats
+send_packet_observer
 )
 {
 RtpSenderObservers
@@ -675,7 +675,7 @@ observers
 .
 send_packet_observer
 =
-send_delay_stats
+send_packet_observer
 ;
 return
 observers
@@ -901,6 +901,12 @@ encoder_config
 content_type
 field_trials
 )
+send_packet_observer_
+(
+&
+stats_proxy_
+send_delay_stats
+)
 config_
 (
 std
@@ -1008,7 +1014,8 @@ call_stats
 encoder_feedback_
 &
 stats_proxy_
-send_delay_stats
+&
+send_packet_observer_
 )
 event_log
 std
