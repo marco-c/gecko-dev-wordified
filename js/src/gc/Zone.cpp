@@ -1154,14 +1154,6 @@ data
 (
 nullptr
 )
-markedStrings
-(
-0
-)
-finalizedStrings
-(
-0
-)
 suppressAllocationMetadataBuilder
 (
 false
