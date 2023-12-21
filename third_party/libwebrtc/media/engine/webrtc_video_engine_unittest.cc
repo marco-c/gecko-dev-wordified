@@ -5104,7 +5104,7 @@ EXPECT_TRUE
 HasRtxCodec
 (
 codecs
-FindMatchingCodec
+FindMatchingVideoCodec
 (
 codecs
 cricket
@@ -5126,7 +5126,7 @@ EXPECT_TRUE
 HasRtxCodec
 (
 codecs
-FindMatchingCodec
+FindMatchingVideoCodec
 (
 codecs
 cricket
@@ -5148,7 +5148,7 @@ EXPECT_TRUE
 HasRtxCodec
 (
 codecs
-FindMatchingCodec
+FindMatchingVideoCodec
 (
 codecs
 cricket
