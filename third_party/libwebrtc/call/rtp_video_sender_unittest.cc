@@ -462,9 +462,6 @@ frame_count_observer
 RtcpPacketTypeCounterObserver
 *
 rtcp_type_observer
-SendSideDelayObserver
-*
-send_delay_observer
 )
 {
 RtpSenderObservers
@@ -517,12 +514,6 @@ observers
 rtcp_type_observer
 =
 rtcp_type_observer
-;
-observers
-.
-send_delay_observer
-=
-send_delay_observer
 ;
 observers
 .
@@ -905,8 +896,6 @@ stats_proxy_
 &
 stats_proxy_
 frame_count_observer
-&
-stats_proxy_
 &
 stats_proxy_
 )

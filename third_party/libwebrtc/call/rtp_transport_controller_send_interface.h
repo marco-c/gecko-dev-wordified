@@ -365,10 +365,6 @@ RtcpPacketTypeCounterObserver
 *
 rtcp_type_observer
 ;
-SendSideDelayObserver
-*
-send_delay_observer
-;
 SendPacketObserver
 *
 send_packet_observer

@@ -682,12 +682,6 @@ send_bitrate_observer
 =
 nullptr
 ;
-SendSideDelayObserver
-*
-send_side_delay_observer
-=
-nullptr
-;
 RtcEventLog
 *
 event_log
