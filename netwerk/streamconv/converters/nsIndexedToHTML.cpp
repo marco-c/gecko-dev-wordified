@@ -5378,6 +5378,7 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
+true
 RFPTarget
 :
 :
