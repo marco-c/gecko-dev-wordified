@@ -258,6 +258,13 @@ MFCDMCapabilitiesIPDL
 result
 )
 ;
+async
+UpdateWidevineL1Path
+(
+nsString
+path
+)
+;
 #
 endif
 child

@@ -344,6 +344,15 @@ GetKeySystemCapabilitiesResolver
 aResolver
 )
 ;
+IPCResult
+RecvUpdateWidevineL1Path
+(
+const
+nsString
+&
+aPath
+)
+;
 #
 endif
 private
