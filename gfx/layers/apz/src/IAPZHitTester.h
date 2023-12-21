@@ -565,6 +565,12 @@ by
 derived
 classes
 .
+RecursiveMutex
+&
+GetTreeLock
+(
+)
+;
 LayersId
 GetRootLayersId
 (
