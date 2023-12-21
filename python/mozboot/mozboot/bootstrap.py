@@ -2355,6 +2355,29 @@ get_state_dir
 )
 )
         
+hg
+=
+to_optional_path
+(
+which
+(
+"
+hg
+"
+)
+)
+        
+hg_installed
+=
+bool
+(
+hg
+)
+        
+if
+hg_installed
+:
+            
 check_for_hgrc_state_dir_mismatch
 (
 state_dir
@@ -2778,18 +2801,6 @@ state_dir
 =
 state_dir
         
-hg
-=
-to_optional_path
-(
-which
-(
-"
-hg
-"
-)
-)
-        
 #
 We
 need
@@ -2976,13 +2987,6 @@ type
 is
 Git
 .
-        
-hg_installed
-=
-bool
-(
-hg
-)
         
 if
 checkout_type
