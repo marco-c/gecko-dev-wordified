@@ -175,6 +175,11 @@ addServerTimings
 )
 {
 }
+addServiceWorkerTimings
+(
+)
+{
+}
 }
 class
 NetworkThrottler
