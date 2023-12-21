@@ -156,7 +156,7 @@ mozilla
 /
 layers
 /
-KnowsCompositor
+ActiveResource
 .
 h
 "
@@ -243,6 +243,9 @@ gfx
 namespace
 layers
 {
+class
+KnowsCompositor
+;
 struct
 RemoteTextureOwnerId
 ;
