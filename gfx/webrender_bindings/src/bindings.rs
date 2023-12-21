@@ -11401,7 +11401,7 @@ requests
 const
 TILE_COUNT_LIMIT
 :
-i32
+i64
 =
 8192
 ;
@@ -11490,6 +11490,8 @@ i32
 +
 1
 )
+as
+i64
 *
 (
 descriptor
@@ -11502,6 +11504,8 @@ i32
 +
 1
 )
+as
+i64
 )
 >
 TILE_COUNT_LIMIT
