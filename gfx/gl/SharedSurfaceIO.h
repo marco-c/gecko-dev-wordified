@@ -210,12 +210,15 @@ override
 {
 }
 virtual
-void
+bool
 ProducerAcquireImpl
 (
 )
 override
 {
+return
+true
+;
 }
 virtual
 void
