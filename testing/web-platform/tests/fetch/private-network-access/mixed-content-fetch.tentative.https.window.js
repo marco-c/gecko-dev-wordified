@@ -25,6 +25,13 @@ sub
 js
 /
 /
+META
+:
+timeout
+=
+long
+/
+/
 /
 /
 Spec
