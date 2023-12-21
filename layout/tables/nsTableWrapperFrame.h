@@ -1182,13 +1182,6 @@ mozilla
 :
 LogicalSize
 &
-aContainBlockSize
-const
-mozilla
-:
-:
-LogicalSize
-&
 aInnerSize
 const
 mozilla
@@ -1223,13 +1216,6 @@ GetInnerOrigin
 const
 MaybeCaptionSide
 &
-const
-mozilla
-:
-:
-LogicalSize
-&
-aContainBlockSize
 const
 mozilla
 :
