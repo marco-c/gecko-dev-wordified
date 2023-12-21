@@ -160,6 +160,17 @@ desktop_configuration
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -249,6 +260,7 @@ be
 ignored
 .
 bool
+RTC_EXPORT
 GetWindowList
 (
 rtc
@@ -282,6 +294,7 @@ screen
 windows
 .
 bool
+RTC_EXPORT
 GetWindowList
 (
 DesktopCapturer
