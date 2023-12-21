@@ -300,6 +300,9 @@ struct
 PropertyStyleAnimationValuePair
 ;
 struct
+AnimatedPropertyID
+;
+struct
 AnimationValue
 {
 explicit
@@ -674,7 +677,9 @@ it
 void
 SerializeSpecifiedValue
 (
-nsCSSPropertyID
+const
+AnimatedPropertyID
+&
 aProperty
 const
 StylePerDocumentStyleData
@@ -705,7 +710,9 @@ interpolated
 bool
 IsInterpolableWith
 (
-nsCSSPropertyID
+const
+AnimatedPropertyID
+&
 aProperty
 const
 AnimationValue

@@ -677,6 +677,8 @@ AddProperty
 property
 .
 mProperty
+.
+mID
 )
 ;
 }
@@ -928,7 +930,9 @@ target
 )
 data
 .
-mPropertyId
+mProperty
+.
+mID
 message
 =
 =

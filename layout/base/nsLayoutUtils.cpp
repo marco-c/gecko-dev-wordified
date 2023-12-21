@@ -3154,6 +3154,8 @@ if
 prop
 .
 mProperty
+.
+mID
 !
 =
 eCSSProperty_transform
@@ -3162,6 +3164,8 @@ eCSSProperty_transform
 prop
 .
 mProperty
+.
+mID
 !
 =
 eCSSProperty_scale
@@ -3191,6 +3195,8 @@ minAndMaxScales
 prop
 .
 mProperty
+.
+mID
 =
 =
 eCSSProperty_transform

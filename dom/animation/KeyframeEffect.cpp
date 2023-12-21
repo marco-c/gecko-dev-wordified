@@ -1971,6 +1971,8 @@ mProperties
 ]
 .
 mProperty
+.
+mID
 )
 {
 return
@@ -2117,6 +2119,8 @@ aProperty
 property
 .
 mProperty
+.
+mID
 )
 {
 continue
@@ -2159,6 +2163,8 @@ aEffects
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -2212,6 +2218,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 &
 &
@@ -2221,6 +2229,8 @@ aEffectSet
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -2344,6 +2354,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -2401,6 +2413,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -2411,6 +2425,8 @@ AddProperty
 property
 .
 mProperty
+.
+mID
 )
 ;
 continue
@@ -2429,6 +2445,8 @@ nsCSSPropertyIDSet
 property
 .
 mProperty
+.
+mID
 }
 aFrame
 aEffects
@@ -2471,6 +2489,8 @@ AddProperty
 property
 .
 mProperty
+.
+mID
 )
 ;
 }
@@ -2535,7 +2555,7 @@ return
 properties
 ;
 }
-nsCSSPropertyIDSet
+AnimatedPropertyIDSet
 KeyframeEffect
 :
 :
@@ -2544,7 +2564,7 @@ GetPropertySet
 )
 const
 {
-nsCSSPropertyIDSet
+AnimatedPropertyIDSet
 result
 ;
 for
@@ -2927,6 +2947,8 @@ AddProperty
 property
 .
 mProperty
+.
+mID
 )
 ;
 }
@@ -2970,6 +2992,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 ;
 CalculateCumulativeChangesForProperty
@@ -3581,6 +3605,8 @@ HasProperty
 aProperty
 .
 mProperty
+.
+mID
 )
 &
 &
@@ -3776,6 +3802,8 @@ aBaseComputedStyle
 aProperty
 .
 mProperty
+.
+mID
 )
 .
 Consume
@@ -3789,6 +3817,8 @@ InsertOrUpdate
 aProperty
 .
 mProperty
+.
+mID
 std
 :
 :
@@ -3872,6 +3902,8 @@ opaqueTable
 aProperty
 .
 mProperty
+.
+mID
 &
 aSegment
 &
@@ -4050,6 +4082,8 @@ HasProperty
 prop
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -4514,6 +4548,8 @@ if
 property
 .
 mProperty
+.
+mID
 =
 =
 aProperty
@@ -4634,6 +4670,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -4647,6 +4685,8 @@ PropHasFlags
 property
 .
 mProperty
+.
+mID
 CSSPropFlags
 :
 :
@@ -6546,6 +6586,8 @@ GetStringValue
 p
 .
 mProperty
+.
+mID
 )
 )
 .
@@ -7140,7 +7182,9 @@ static
 void
 CreatePropertyValue
 (
-nsCSSPropertyID
+const
+AnimatedPropertyID
+&
 aProperty
 float
 aOffset
@@ -7304,21 +7348,15 @@ mProperties
 AnimationPropertyDetails
 propertyDetails
 ;
-propertyDetails
-.
-mProperty
-=
-NS_ConvertASCIItoUTF16
-(
-nsCSSProps
-:
-:
-GetStringValue
-(
 property
 .
 mProperty
-)
+.
+ToString
+(
+propertyDetails
+.
+mProperty
 )
 ;
 propertyDetails
@@ -9698,6 +9736,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 "
 The
@@ -9763,6 +9803,8 @@ HasEffectiveAnimationOfProperty
 property
 .
 mProperty
+.
+mID
 *
 effectSet
 )
@@ -9802,6 +9844,8 @@ GetDisplayItemTypeForProperty
 property
 .
 mProperty
+.
+mID
 )
 ;
 /
@@ -11322,6 +11366,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 &
 &
@@ -11337,6 +11383,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -11359,6 +11407,8 @@ IsGeometricProperty
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -11401,6 +11451,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -11455,6 +11507,8 @@ if
 property
 .
 mProperty
+.
+mID
 =
 =
 eCSSProperty_offset_path
@@ -11529,6 +11583,8 @@ IsGeometricProperty
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -11581,6 +11637,8 @@ HasProperty
 property
 .
 mProperty
+.
+mID
 )
 )
 {
@@ -11604,6 +11662,8 @@ RemoveProperty
 property
 .
 mProperty
+.
+mID
 )
 ;
 if
@@ -11632,6 +11692,33 @@ AnimationProperty
 aProperty
 )
 {
+if
+(
+aProperty
+.
+mProperty
+.
+IsCustom
+(
+)
+)
+{
+/
+/
+Custom
+properties
+don
+'
+t
+affect
+rendering
+on
+their
+own
+.
+return
+;
+}
 constexpr
 auto
 kInterestingFlags
@@ -11651,6 +11738,8 @@ if
 aProperty
 .
 mProperty
+.
+mID
 =
 =
 eCSSProperty_opacity
@@ -11680,6 +11769,8 @@ if
 aProperty
 .
 mProperty
+.
+mID
 =
 =
 eCSSProperty_visibility
@@ -11709,6 +11800,8 @@ if
 aProperty
 .
 mProperty
+.
+mID
 =
 =
 eCSSProperty_background_color
@@ -11760,6 +11853,8 @@ PropFlags
 aProperty
 .
 mProperty
+.
+mID
 )
 ;
 if
@@ -12407,6 +12502,8 @@ if
 prop
 .
 mProperty
+.
+mID
 !
 =
 eCSSProperty_transform
@@ -12415,6 +12512,8 @@ eCSSProperty_transform
 prop
 .
 mProperty
+.
+mID
 !
 =
 eCSSProperty_scale
@@ -12423,6 +12522,8 @@ eCSSProperty_scale
 prop
 .
 mProperty
+.
+mID
 !
 =
 eCSSProperty_rotate

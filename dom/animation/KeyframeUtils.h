@@ -177,6 +177,9 @@ namespace
 mozilla
 {
 struct
+AnimatedPropertyID
+;
+struct
 AnimationProperty
 ;
 class
@@ -764,7 +767,9 @@ static
 bool
 IsAnimatableProperty
 (
-nsCSSPropertyID
+const
+AnimatedPropertyID
+&
 aProperty
 )
 ;
