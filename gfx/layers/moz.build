@@ -1161,6 +1161,13 @@ h
 "
 ipc
 /
+SourceSurfaceCanvasRecording
+.
+h
+"
+"
+ipc
+/
 SynchronousTask
 .
 h
@@ -2588,6 +2595,13 @@ cpp
 ipc
 /
 SharedSurfacesParent
+.
+cpp
+"
+"
+ipc
+/
+SourceSurfaceCanvasRecording
 .
 cpp
 "

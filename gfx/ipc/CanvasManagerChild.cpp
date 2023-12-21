@@ -1394,6 +1394,16 @@ GetCanvasChild
 (
 )
 {
+MOZ_ASSERT
+(
+gfxPlatform
+:
+:
+UseRemoteCanvas
+(
+)
+)
+;
 if
 (
 mBlocked
