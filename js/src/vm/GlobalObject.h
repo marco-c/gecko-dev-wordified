@@ -5960,6 +5960,11 @@ const
 JSFunctionSpec
 *
 Methods
+const
+bool
+hasFuseProperty
+=
+false
 >
 static
 bool
