@@ -154,10 +154,13 @@ h
 Maximum
 allowable
 size
-#
-define
+inline
+constexpr
+nscoord
 NS_MAXSIZE
+=
 nscoord_MAX
+;
 typedef
 mozilla
 :
