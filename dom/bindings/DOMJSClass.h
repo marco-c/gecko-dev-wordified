@@ -5047,14 +5047,14 @@ whether
 this
 object
 wants
-a
-hasInstance
+an
+isInstance
 property
 /
 /
 pointing
 to
-InterfaceHasInstance
+InterfaceIsInstance
 defined
 on
 it
@@ -5070,7 +5070,7 @@ eInterface
 case
 .
 bool
-wantsInterfaceHasInstance
+wantsInterfaceIsInstance
 ;
 /
 /

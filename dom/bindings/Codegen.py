@@ -6143,7 +6143,7 @@ ctorname
 ThrowingConstructor
 "
         
-needsHasInstance
+wantsIsInstance
 =
 self
 .
@@ -6603,7 +6603,7 @@ protoGetter
 }
               
 {
-needsHasInstance
+wantsIsInstance
 }
               
 {
@@ -6676,11 +6676,11 @@ protoGetter
 =
 protoGetter
             
-needsHasInstance
+wantsIsInstance
 =
 toStringBool
 (
-needsHasInstance
+wantsIsInstance
 )
             
 funToString
