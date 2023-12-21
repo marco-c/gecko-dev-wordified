@@ -9112,7 +9112,6 @@ aCheckOnly
 {
 aCheckOnly
 =
-!
 IsCurrentAppPinnedToTaskbarSync
 (
 aAppUserModelId
