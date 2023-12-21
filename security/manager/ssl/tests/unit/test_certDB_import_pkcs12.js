@@ -503,16 +503,6 @@ if
 (
 cert
 .
-isBuiltInRoot
-)
-{
-continue
-;
-}
-if
-(
-cert
-.
 commonName
 =
 =

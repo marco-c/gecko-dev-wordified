@@ -3203,17 +3203,6 @@ of
 allCerts
 )
 {
-if
-(
-!
-cert
-.
-isBuiltInRoot
-)
-{
-continue
-;
-}
 let
 name
 =
