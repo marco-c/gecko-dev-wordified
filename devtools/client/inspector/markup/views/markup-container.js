@@ -3854,11 +3854,10 @@ event
 ;
 if
 (
-!
 target
 .
 nodeName
-=
+!
 =
 =
 "
