@@ -185,9 +185,6 @@ virtual
 ParentImpl
 =
 virtual
-ChildProc
-=
-Content
 ]
 async
 protocol

@@ -199,11 +199,6 @@ process
 .
 *
 /
-[
-ChildProc
-=
-Socket
-]
 sync
 protocol
 PSocketProcessBackground

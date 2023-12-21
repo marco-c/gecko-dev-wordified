@@ -144,11 +144,6 @@ mozilla
 namespace
 net
 {
-[
-ChildProc
-=
-Socket
-]
 protocol
 PWebSocketConnection
 {

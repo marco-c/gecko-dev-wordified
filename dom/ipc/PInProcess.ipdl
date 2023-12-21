@@ -207,11 +207,6 @@ actor
 .
 *
 /
-[
-ChildProc
-=
-Parent
-]
 async
 protocol
 PInProcess

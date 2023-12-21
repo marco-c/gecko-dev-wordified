@@ -212,12 +212,6 @@ process
 .
 [
 NeedsOtherPid
-ParentProc
-=
-GPU
-ChildProc
-=
-Parent
 ]
 sync
 protocol
