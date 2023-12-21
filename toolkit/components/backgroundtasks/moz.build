@@ -530,7 +530,7 @@ sys
 mjs
 "
 ]
-FINAL_TARGET_FILES
+FINAL_TARGET_PP_FILES
 .
 browser
 .
@@ -548,7 +548,7 @@ backgroundtasks_browser
 js
 "
 ]
-FINAL_TARGET_FILES
+FINAL_TARGET_PP_FILES
 .
 defaults
 .
