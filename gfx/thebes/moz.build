@@ -1392,6 +1392,14 @@ src
 "
 "
 /
+third_party
+/
+xsimd
+/
+include
+"
+"
+/
 widget
 /
 gtk
