@@ -5067,16 +5067,6 @@ rv
 =
 SECSuccess
 ;
-/
-*
-Bug
-1413368
-:
-enable
-for
-DTLS
-*
-/
 if
 (
 ss
@@ -5085,12 +5075,6 @@ ss
 version
 <
 SSL_LIBRARY_VERSION_TLS_1_3
-|
-|
-IS_DTLS
-(
-ss
-)
 )
 {
 return
@@ -5394,6 +5378,8 @@ ss
 >
 ssl3
 .
+hs
+.
 keyUpdateDeferred
 =
 PR_TRUE
@@ -5402,6 +5388,8 @@ ss
 -
 >
 ssl3
+.
+hs
 .
 deferredKeyUpdateRequest
 =
