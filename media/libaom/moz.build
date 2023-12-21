@@ -1106,6 +1106,16 @@ flags
 mavx2
 '
 ]
+SOURCES
++
+=
+[
+'
+build_config
+.
+c
+'
+]
 #
 Suppress
 warnings
