@@ -490,8 +490,6 @@ ss
 codec_type
 :
 "
-;
-ss
 <
 <
 CodecTypeToPayloadString
