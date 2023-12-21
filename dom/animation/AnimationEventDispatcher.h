@@ -387,6 +387,12 @@ oncompositor
 .
 Append
 (
+property
+!
+=
+eCSSPropertyExtra_variable
+&
+&
 nsCSSProps
 :
 :
@@ -667,6 +673,12 @@ BoolProperty
 "
 oncompositor
 "
+aProperty
+!
+=
+eCSSPropertyExtra_variable
+&
+&
 nsCSSProps
 :
 :

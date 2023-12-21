@@ -3195,7 +3195,12 @@ mozilla
 PropertyValuePair
 >
 *
-nsCSSPropertyID
+const
+mozilla
+:
+:
+AnimatedPropertyID
+*
 aProperty
 )
 ;

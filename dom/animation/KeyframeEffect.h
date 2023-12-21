@@ -2491,8 +2491,6 @@ mBaseValues
 GetWeak
 (
 aProperty
-.
-mID
 &
 hasProperty
 )
@@ -3341,7 +3339,10 @@ BaseValuesHashmap
 =
 nsRefPtrHashtable
 <
-nsUint32HashKey
+nsGenericHashKey
+<
+AnimatedPropertyID
+>
 StyleAnimationValue
 >
 ;
