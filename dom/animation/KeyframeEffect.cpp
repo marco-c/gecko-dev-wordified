@@ -11631,6 +11631,15 @@ mProperties
 {
 if
 (
+property
+.
+mProperty
+.
+IsCustom
+(
+)
+|
+|
 !
 curr
 .
