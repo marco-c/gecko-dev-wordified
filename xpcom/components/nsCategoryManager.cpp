@@ -1640,6 +1640,12 @@ non
 -
 owning
 .
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 return
 mTable
 .
@@ -2042,6 +2048,12 @@ MallocSizeOf
 aMallocSizeOf
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 size_t
 n
 =
