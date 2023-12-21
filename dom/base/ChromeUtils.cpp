@@ -12648,7 +12648,7 @@ MOZ_ASSERT
 domPromise
 )
 ;
-MFCDMService
+MFCDMCapabilities
 :
 :
 GetAllKeySystemsCapabilities
