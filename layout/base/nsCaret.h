@@ -1314,6 +1314,14 @@ nsRect
 aRect
 )
 ;
+enum
+class
+ForceEditableRegion
+{
+No
+Yes
+}
+;
 static
 nsIFrame
 *
@@ -1337,6 +1345,8 @@ intl
 :
 BidiEmbeddingLevel
 aBidiLevel
+ForceEditableRegion
+aForceEditableRegion
 nsIFrame
 *
 *
