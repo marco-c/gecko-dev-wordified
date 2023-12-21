@@ -2172,7 +2172,7 @@ endswith
 (
 "
 .
-ini
+toml
 "
 )
 :
@@ -2184,7 +2184,7 @@ build
 writes
 test
 .
-ini
+toml
 files
 into
 the
@@ -2602,7 +2602,7 @@ endswith
 (
 "
 .
-ini
+toml
 "
 )
 :
@@ -2614,7 +2614,7 @@ build
 writes
 test
 .
-ini
+toml
 files
 into
 the
