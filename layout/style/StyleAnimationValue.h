@@ -195,6 +195,15 @@ h
 #
 include
 "
+mozilla
+/
+AnimatedPropertyID
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
@@ -930,7 +939,7 @@ s
 struct
 PropertyStyleAnimationValuePair
 {
-nsCSSPropertyID
+AnimatedPropertyID
 mProperty
 ;
 AnimationValue

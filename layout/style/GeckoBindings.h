@@ -1766,7 +1766,12 @@ aBaseStyles
 is
 nsRefPtrHashtable
 <
-nsUint32HashKey
+nsGenericHashKey
+<
+AnimatedPropertyID
+>
+/
+/
 StyleAnimationValue
 >
 .
@@ -1796,7 +1801,12 @@ const
 RawServoAnimationValueTable
 *
 aBaseStyles
-nsCSSPropertyID
+const
+mozilla
+:
+:
+AnimatedPropertyID
+*
 aProperty
 )
 ;
