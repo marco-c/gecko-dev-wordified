@@ -609,6 +609,11 @@ Contents
 (
 )
 ;
+void
+StopProcess
+(
+)
+;
 }
 ;
 /
