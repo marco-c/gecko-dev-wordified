@@ -1036,6 +1036,12 @@ object
 "
 )
 {
+/
+*
+global
+module
+*
+/
 module
 .
 exports
