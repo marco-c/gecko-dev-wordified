@@ -366,6 +366,8 @@ yearOfWeek
 /
 /
 lookup
+in
+ToTemporalZonedDateTime
 "
 get
 calendar
@@ -420,6 +422,14 @@ dateFromFields
 /
 /
 lookup
+in
+ToTemporalZonedDateTime
+"
+get
+timeZone
+.
+getOffsetNanosecondsFor
+"
 "
 get
 timeZone
@@ -448,12 +458,6 @@ concat
 /
 /
 DisambiguatePossibleInstants
-"
-get
-timeZone
-.
-getOffsetNanosecondsFor
-"
 "
 call
 timeZone

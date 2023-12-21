@@ -73,7 +73,7 @@ property
 of
 Atomics
 .
-add
+isLockFree
 includes
 :
 [
@@ -95,7 +95,7 @@ verifyProperty
 (
 Atomics
 '
-add
+isLockFree
 '
 {
 enumerable

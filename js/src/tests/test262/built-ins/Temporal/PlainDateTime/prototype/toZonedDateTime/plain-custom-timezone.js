@@ -157,6 +157,12 @@ toString
 get
 timeZone
 .
+getOffsetNanosecondsFor
+"
+"
+get
+timeZone
+.
 getPossibleInstantsFor
 "
 "

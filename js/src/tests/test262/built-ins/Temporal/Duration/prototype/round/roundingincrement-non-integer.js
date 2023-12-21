@@ -124,6 +124,9 @@ Temporal
 .
 Duration
 (
+0
+0
+0
 1
 )
 ;
@@ -134,7 +137,7 @@ options
 smallestUnit
 :
 "
-years
+days
 "
 roundingMode
 :
@@ -179,10 +182,10 @@ TemporalHelpers
 assertDuration
 (
 result
+0
+0
+0
 2
-0
-0
-0
 0
 0
 0
@@ -227,10 +230,10 @@ TemporalHelpers
 assertDuration
 (
 result2
+0
+0
+0
 1e9
-0
-0
-0
 0
 0
 0
