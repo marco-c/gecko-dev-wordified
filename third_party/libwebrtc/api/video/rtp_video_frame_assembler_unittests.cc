@@ -567,6 +567,17 @@ case
 PayloadFormat
 :
 :
+kH265
+:
+{
+return
+kVideoCodecH265
+;
+}
+case
+PayloadFormat
+:
+:
 kGeneric
 :
 {
