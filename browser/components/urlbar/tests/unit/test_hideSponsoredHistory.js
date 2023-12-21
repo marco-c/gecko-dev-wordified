@@ -517,10 +517,9 @@ engineIconUri
 :
 engine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 }
 )
 ]

@@ -1065,10 +1065,9 @@ resultDetails
 image
 engine
 .
-iconURI
-?
-.
-spec
+getIconURL
+(
+)
 |
 |
 UrlbarUtils

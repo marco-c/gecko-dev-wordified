@@ -277,7 +277,9 @@ engineName
 &
 engine
 .
-iconURI
+getIconURL
+(
+)
 )
 ;
 }
