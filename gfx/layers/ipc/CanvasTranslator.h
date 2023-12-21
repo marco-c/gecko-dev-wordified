@@ -1084,6 +1084,12 @@ OpenMode
 aMode
 RemoteTextureId
 aId
+RemoteTextureId
+aObsoleteId
+=
+RemoteTextureId
+(
+)
 )
 ;
 bool
