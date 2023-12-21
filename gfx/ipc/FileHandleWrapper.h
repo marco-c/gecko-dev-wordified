@@ -257,6 +257,14 @@ GetHandle
 (
 )
 ;
+mozilla
+:
+:
+UniqueFileHandle
+ClonePlatformHandle
+(
+)
+;
 protected
 :
 ~

@@ -2180,7 +2180,8 @@ layers
 SyncHandle
 syncHandle
 =
-0
+{
+}
 ;
 /
 /

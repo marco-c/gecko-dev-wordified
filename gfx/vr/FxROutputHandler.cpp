@@ -276,6 +276,8 @@ descOrig
 MiscFlags
 |
 =
+D3D11_RESOURCE_MISC_SHARED_NTHANDLE
+|
 D3D11_RESOURCE_MISC_SHARED
 ;
 hr
@@ -332,7 +334,7 @@ nullptr
 ;
 RefPtr
 <
-IDXGIResource
+IDXGIResource1
 >
 texResource
 ;
@@ -343,7 +345,7 @@ mTexCopy
 >
 QueryInterface
 (
-IID_IDXGIResource
+IID_IDXGIResource1
 getter_AddRefs
 (
 texResource
@@ -367,8 +369,13 @@ hr
 texResource
 -
 >
-GetSharedHandle
+CreateSharedHandle
 (
+nullptr
+DXGI_SHARED_RESOURCE_READ
+|
+DXGI_SHARED_RESOURCE_WRITE
+nullptr
 &
 hCopy
 )
