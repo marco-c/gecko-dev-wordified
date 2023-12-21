@@ -1345,7 +1345,7 @@ MOZ_ASSERT
 aClient
 -
 >
-HasReadLock
+GetReadLock
 (
 )
 )
@@ -1792,7 +1792,17 @@ it
 )
 -
 >
-GetNonBlockingReadLockCount
+GetReadLock
+(
+)
+-
+>
+AsNonBlockingLock
+(
+)
+-
+>
+GetReadCount
 (
 )
 >

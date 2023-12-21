@@ -13368,10 +13368,7 @@ class
 DrawEventRecorder
 :
 public
-external
-:
-:
-AtomicRefCounted
+RefCounted
 <
 DrawEventRecorder
 >

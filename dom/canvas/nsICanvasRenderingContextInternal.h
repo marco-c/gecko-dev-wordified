@@ -554,14 +554,11 @@ is
 constructed
 .
 virtual
-nsresult
+void
 Initialize
 (
 )
 {
-return
-NS_OK
-;
 }
 /
 /
