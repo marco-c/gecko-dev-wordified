@@ -1114,13 +1114,6 @@ sys
 mjs
 "
 "
-PingCentre
-.
-sys
-.
-mjs
-"
-"
 ProcessHangMonitor
 .
 sys
