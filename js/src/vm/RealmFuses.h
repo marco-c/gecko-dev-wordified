@@ -592,8 +592,6 @@ fuseOffsets
 [
 ]
 ;
-/
-/
 static
 const
 char
