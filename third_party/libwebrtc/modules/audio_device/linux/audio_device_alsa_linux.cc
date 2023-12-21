@@ -3075,7 +3075,7 @@ return
 1
 ;
 }
-uint32_t
+int32_t
 nDevices
 =
 GetDevicesInfo
@@ -3411,7 +3411,7 @@ return
 1
 ;
 }
-uint32_t
+int32_t
 nDevices
 =
 GetDevicesInfo
