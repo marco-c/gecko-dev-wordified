@@ -634,7 +634,7 @@ Win10
 64
 maxCount
 :
-1
+2
 }
 {
 name
