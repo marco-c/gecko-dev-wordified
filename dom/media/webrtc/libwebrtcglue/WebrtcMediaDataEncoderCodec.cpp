@@ -1664,6 +1664,10 @@ ConvertProfileLevel
 (
 mFormatParams
 )
+H264BitStreamFormat
+:
+:
+ANNEXB
 )
 )
 ;
