@@ -660,7 +660,7 @@ aOriginAttributes
 )
 ;
 nsresult
-HostHasHSTSEntry
+HostMatchesHSTSEntry
 (
 const
 nsAutoCString
@@ -674,10 +674,7 @@ OriginAttributes
 aOriginAttributes
 bool
 &
-aHostHasHSTSEntry
-bool
-*
-aResult
+aHostMatchesHSTSEntry
 )
 ;
 bool
