@@ -2450,6 +2450,15 @@ Sets
 sending
 status
 .
+Sends
+kRtcpByeCode
+when
+going
+from
+true
+to
+false
+.
 /
 /
 Returns
