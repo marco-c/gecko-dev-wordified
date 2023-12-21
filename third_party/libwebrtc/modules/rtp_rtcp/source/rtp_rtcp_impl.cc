@@ -2071,17 +2071,6 @@ Sending
 sending
 )
 {
-/
-/
-Sends
-RTCP
-BYE
-when
-going
-from
-true
-to
-false
 rtcp_sender_
 .
 SetSendingStatus
