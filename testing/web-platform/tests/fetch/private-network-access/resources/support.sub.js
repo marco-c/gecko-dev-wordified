@@ -3543,7 +3543,7 @@ resolve
 timeout
 "
 )
-3000
+10000
 /
 *
 ms
@@ -3733,7 +3733,7 @@ resolve
 timeout
 "
 )
-4000
+10000
 /
 *
 ms
