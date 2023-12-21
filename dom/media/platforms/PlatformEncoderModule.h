@@ -296,6 +296,10 @@ H264_PROFILE
 mProfile
 ;
 const
+H264_LEVEL
+mLevel
+;
+const
 H264BitStreamFormat
 mFormat
 ;
@@ -303,6 +307,8 @@ H264Specific
 (
 H264_PROFILE
 aProfile
+H264_LEVEL
+aLevel
 H264BitStreamFormat
 aFormat
 )
@@ -310,6 +316,10 @@ aFormat
 mProfile
 (
 aProfile
+)
+mLevel
+(
+aLevel
 )
 mFormat
 (
