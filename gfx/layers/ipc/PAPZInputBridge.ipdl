@@ -410,6 +410,14 @@ instantiated
 .
 *
 /
+[
+ParentProc
+=
+GPU
+ChildProc
+=
+Parent
+]
 sync
 protocol
 PAPZInputBridge

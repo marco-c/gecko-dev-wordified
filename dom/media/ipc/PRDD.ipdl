@@ -435,6 +435,12 @@ process
 .
 [
 NeedsOtherPid
+ParentProc
+=
+RDD
+ChildProc
+=
+Parent
 ]
 protocol
 PRDD

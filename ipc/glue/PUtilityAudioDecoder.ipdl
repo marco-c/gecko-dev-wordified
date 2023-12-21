@@ -198,6 +198,14 @@ of
 the
 Utility
 process
+[
+ParentProc
+=
+Utility
+ChildProc
+=
+Parent
+]
 protocol
 PUtilityAudioDecoder
 {

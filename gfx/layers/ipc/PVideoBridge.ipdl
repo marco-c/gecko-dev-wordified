@@ -207,6 +207,12 @@ compositor
 /
 [
 NeedsOtherPid
+ParentProc
+=
+compositor
+ChildProc
+=
+any
 ]
 sync
 protocol

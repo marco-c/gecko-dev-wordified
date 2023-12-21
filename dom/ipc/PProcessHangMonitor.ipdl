@@ -210,6 +210,9 @@ virtual
 ParentImpl
 =
 virtual
+ChildProc
+=
+Content
 ]
 protocol
 PProcessHangMonitor

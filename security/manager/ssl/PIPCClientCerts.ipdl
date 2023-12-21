@@ -118,6 +118,11 @@ mozilla
 namespace
 psm
 {
+[
+ChildProc
+=
+Socket
+]
 sync
 protocol
 PIPCClientCerts

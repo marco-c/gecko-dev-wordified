@@ -139,6 +139,11 @@ mozilla
 namespace
 psm
 {
+[
+ChildProc
+=
+Socket
+]
 protocol
 PVerifySSLServerCert
 {
