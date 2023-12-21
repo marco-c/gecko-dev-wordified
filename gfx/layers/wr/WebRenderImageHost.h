@@ -495,6 +495,11 @@ mWaitingReadyCallback
 =
 false
 ;
+bool
+mWaitForRemoteTextureOwner
+=
+true
+;
 Maybe
 <
 RemoteTextureOwnerId
