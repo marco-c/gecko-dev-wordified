@@ -1484,7 +1484,11 @@ SourceKey
 (
 aSource
 .
-timestamp_ms
+timestamp
+(
+)
+.
+ms
 (
 )
 aSource
