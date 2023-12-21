@@ -892,8 +892,8 @@ now
 tags
 :
 "
-taggy
 browsers
+taggy
 "
 frecency
 :
@@ -1339,10 +1339,6 @@ com
 deepEqual
 (
 fxTags
-.
-sort
-(
-)
 [
 "
 browsers
@@ -9908,10 +9904,6 @@ a
 deepEqual
 (
 tagsForA
-.
-sort
-(
-)
 [
 "
 one
@@ -13191,10 +13183,6 @@ a
 deepEqual
 (
 tagsForA
-.
-sort
-(
-)
 [
 "
 one

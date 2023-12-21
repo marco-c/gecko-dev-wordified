@@ -2821,8 +2821,11 @@ group_concat
 p
 .
 title
-'
-'
+ORDER
+BY
+p
+.
+title
 )
 "
 "

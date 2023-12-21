@@ -10053,6 +10053,15 @@ return
 node
 .
 tags
+?
+.
+replace
+(
+"
+"
+"
+"
+)
 ;
 case
 this
