@@ -7645,7 +7645,7 @@ static
 *
 /
 void
-MFCDMCapabilities
+MFCDMService
 :
 :
 GetAllKeySystemsCapabilities
@@ -7658,6 +7658,13 @@ Promise
 aPromise
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 const
 static
 auto
@@ -7777,7 +7784,7 @@ RefPtr
 <
 GenericNonExclusivePromise
 >
-MFCDMCapabilities
+MFCDMService
 :
 :
 LaunchMFCDMProcessIfNeeded
@@ -7789,6 +7796,13 @@ SandboxingKind
 aSandbox
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 MOZ_ASSERT
 (
 aSandbox
