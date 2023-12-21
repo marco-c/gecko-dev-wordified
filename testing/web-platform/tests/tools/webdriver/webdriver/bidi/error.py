@@ -257,7 +257,7 @@ invalid
 argument
 "
 class
-InvalidSelectorError
+InvalidSelectorException
 (
 BidiException
 )
