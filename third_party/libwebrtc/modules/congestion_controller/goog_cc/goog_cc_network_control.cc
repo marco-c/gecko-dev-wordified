@@ -1609,13 +1609,6 @@ UseCongestionWindow
 )
 &
 &
-last_packet_received_time_
-.
-IsFinite
-(
-)
-&
-&
 !
 feedback_max_rtts_
 .
@@ -1976,12 +1969,6 @@ ReceivedPacket
 received_packet
 )
 {
-last_packet_received_time_
-=
-received_packet
-.
-receive_time
-;
 return
 NetworkControlUpdate
 (
