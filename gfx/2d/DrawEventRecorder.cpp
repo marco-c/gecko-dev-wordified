@@ -177,13 +177,9 @@ DrawEventRecorderPrivate
 DrawEventRecorderPrivate
 (
 )
-{
-NS_ASSERT_OWNINGTHREAD
-(
-DrawEventRecorderPrivate
-)
+=
+default
 ;
-}
 void
 DrawEventRecorderPrivate
 :
