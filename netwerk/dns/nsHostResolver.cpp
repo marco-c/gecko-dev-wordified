@@ -2064,6 +2064,16 @@ sNativeHTTPSSupported
 true
 ;
 #
+elif
+defined
+(
+XP_MACOSX
+)
+sNativeHTTPSSupported
+=
+true
+;
+#
 endif
 nsCOMPtr
 <
