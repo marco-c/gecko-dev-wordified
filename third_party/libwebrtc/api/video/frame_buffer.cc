@@ -389,7 +389,7 @@ second
 encoded_frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -619,7 +619,7 @@ AheadOf
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 *

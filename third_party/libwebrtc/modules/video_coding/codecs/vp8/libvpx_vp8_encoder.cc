@@ -8703,7 +8703,7 @@ encoded_images_
 encoder_idx
 ]
 .
-SetTimestamp
+SetRtpTimestamp
 (
 input_image
 .

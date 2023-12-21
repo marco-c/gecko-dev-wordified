@@ -1614,7 +1614,7 @@ IsNewerTimestamp
 encoded_image
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 metadata_list
@@ -1701,7 +1701,7 @@ rtp_timestamp
 encoded_image
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )

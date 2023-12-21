@@ -596,7 +596,7 @@ frame_timestamp
 found_frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -1187,7 +1187,7 @@ Video
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 "

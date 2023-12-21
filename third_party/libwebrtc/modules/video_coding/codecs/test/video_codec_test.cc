@@ -1681,7 +1681,7 @@ find
 (
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -2404,7 +2404,7 @@ callbacks_
 [
 frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 ]

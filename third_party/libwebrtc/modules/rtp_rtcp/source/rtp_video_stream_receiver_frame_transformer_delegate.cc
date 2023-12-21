@@ -348,7 +348,7 @@ return
 frame_
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -364,7 +364,7 @@ override
 frame_
 -
 >
-SetTimestamp
+SetRtpTimestamp
 (
 timestamp
 )

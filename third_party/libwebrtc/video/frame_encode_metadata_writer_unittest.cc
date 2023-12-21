@@ -720,7 +720,7 @@ current_timestamp
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -1372,7 +1372,7 @@ timestamp
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -1534,7 +1534,7 @@ timestamp
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -1703,7 +1703,7 @@ kTimestampMs1
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -1774,7 +1774,7 @@ kTimestampMs2
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -1872,7 +1872,7 @@ kTimestampMs3
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -1954,7 +1954,7 @@ kTimestampMs4
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -2112,7 +2112,7 @@ timestamp
 .
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -2270,7 +2270,7 @@ bitrate_allocation
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -2426,7 +2426,7 @@ bitrate_allocation
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -2592,7 +2592,7 @@ true
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <
@@ -2759,7 +2759,7 @@ CreatePacketInfos
 ;
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 static_cast
 <

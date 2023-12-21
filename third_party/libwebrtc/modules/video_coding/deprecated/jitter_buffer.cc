@@ -322,7 +322,7 @@ FrameListPair
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 frame
@@ -1774,7 +1774,7 @@ timestamp
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -3168,12 +3168,12 @@ IsNewerTimestamp
 decodable_frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -3378,7 +3378,7 @@ time_stamp
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -3568,7 +3568,7 @@ Front
 )
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -3591,7 +3591,7 @@ Back
 )
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -3604,7 +3604,7 @@ Back
 )
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 -
@@ -5284,7 +5284,7 @@ LatestPacketTimeMs
 )
 frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 frame

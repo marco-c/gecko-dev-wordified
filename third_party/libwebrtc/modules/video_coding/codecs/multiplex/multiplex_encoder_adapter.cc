@@ -1974,7 +1974,7 @@ find
 (
 encodedImage
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

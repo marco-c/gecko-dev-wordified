@@ -1976,7 +1976,7 @@ timestamp
 "
 frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -1990,7 +1990,7 @@ rtp_timestamp
 =
 frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -2330,7 +2330,7 @@ timestamp
 <
 frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 <

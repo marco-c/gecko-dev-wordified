@@ -376,7 +376,7 @@ else
 {
 frame
 .
-SetTimestamp
+SetRtpTimestamp
 (
 i
 )

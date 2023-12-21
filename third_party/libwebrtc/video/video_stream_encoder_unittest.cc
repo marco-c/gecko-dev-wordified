@@ -8766,7 +8766,7 @@ timestamp
 =
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 ;

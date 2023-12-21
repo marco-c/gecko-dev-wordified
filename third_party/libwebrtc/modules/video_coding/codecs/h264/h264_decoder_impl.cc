@@ -4794,7 +4794,7 @@ set_timestamp_rtp
 (
 input_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

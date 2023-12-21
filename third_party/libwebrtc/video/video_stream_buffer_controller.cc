@@ -468,7 +468,7 @@ rtp_timestamp
 (
 frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -1486,7 +1486,7 @@ rtp_timestamp
 <
 first_frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -1512,7 +1512,7 @@ RenderTime
 (
 first_frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 now
@@ -1624,7 +1624,7 @@ Calculate
 (
 first_frame
 .
-Timestamp
+RtpTimestamp
 (
 )
 max_receive_time
@@ -2629,7 +2629,7 @@ front
 )
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 clock_

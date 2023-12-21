@@ -527,7 +527,7 @@ if
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 =
@@ -563,7 +563,7 @@ Seconds
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 /

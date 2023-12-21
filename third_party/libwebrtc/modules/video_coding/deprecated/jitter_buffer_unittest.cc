@@ -538,7 +538,7 @@ ExtractAndSetDecode
 found_frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -1338,7 +1338,7 @@ ExtractAndSetDecode
 found_frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -4649,7 +4649,7 @@ EXPECT_EQ
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -4688,7 +4688,7 @@ EXPECT_EQ
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -5211,7 +5211,7 @@ EXPECT_EQ
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -5285,7 +5285,7 @@ EXPECT_EQ
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -5359,7 +5359,7 @@ EXPECT_EQ
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -6104,7 +6104,7 @@ EXPECT_EQ
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -6178,7 +6178,7 @@ EXPECT_EQ
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -7755,7 +7755,7 @@ EXPECT_EQ
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -7993,7 +7993,7 @@ timestamp_
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -8711,7 +8711,7 @@ EXPECT_EQ
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -8759,7 +8759,7 @@ EXPECT_EQ
 frame_out2
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -9002,7 +9002,7 @@ EXPECT_EQ
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -9050,7 +9050,7 @@ EXPECT_EQ
 frame_out2
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -9777,7 +9777,7 @@ first_key_frame_timestamp
 frame_out
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 )

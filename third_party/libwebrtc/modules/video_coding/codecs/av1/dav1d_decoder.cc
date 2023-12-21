@@ -1189,7 +1189,7 @@ set_timestamp_rtp
 (
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

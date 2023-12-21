@@ -746,7 +746,7 @@ Result
 OK
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )

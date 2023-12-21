@@ -537,7 +537,7 @@ some
 initial
 values
 .
-SetTimestamp
+SetRtpTimestamp
 (
 packet
 .

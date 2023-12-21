@@ -323,7 +323,7 @@ x
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -470,7 +470,7 @@ x
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -583,7 +583,7 @@ x
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -776,7 +776,7 @@ x
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -997,7 +997,7 @@ x
 ;
 source1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1032,7 +1032,7 @@ x
 ;
 source2
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456720
 )
@@ -1067,7 +1067,7 @@ x
 ;
 source3
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456720
 )
@@ -1395,7 +1395,7 @@ x
 ;
 source1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1423,7 +1423,7 @@ x
 ;
 source2
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1451,7 +1451,7 @@ x
 ;
 source3
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1879,7 +1879,7 @@ x
 ;
 source1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1907,7 +1907,7 @@ x
 ;
 source2
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -1935,7 +1935,7 @@ x
 ;
 source3
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456710
 )
@@ -2289,7 +2289,7 @@ x
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -2555,7 +2555,7 @@ x
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -2725,7 +2725,7 @@ x
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -2909,7 +2909,7 @@ x
 ;
 source1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 10
 )
@@ -2937,7 +2937,7 @@ x
 ;
 source2
 .
-SetTimestamp
+SetRtpTimestamp
 (
 20
 )
@@ -3238,7 +3238,7 @@ x
 ;
 source
 .
-SetTimestamp
+SetRtpTimestamp
 (
 123456789
 )
@@ -3356,7 +3356,7 @@ x
 ;
 source1
 .
-SetTimestamp
+SetRtpTimestamp
 (
 10
 )
@@ -3384,7 +3384,7 @@ x
 ;
 source2
 .
-SetTimestamp
+SetRtpTimestamp
 (
 20
 )

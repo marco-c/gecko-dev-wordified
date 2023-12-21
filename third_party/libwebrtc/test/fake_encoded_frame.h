@@ -342,7 +342,7 @@ ts
 =
 arg
 .
-Timestamp
+RtpTimestamp
 (
 )
 ;

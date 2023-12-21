@@ -361,7 +361,7 @@ IsNewerTimestamp
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 time_stamp_
@@ -466,7 +466,7 @@ time_stamp_
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 ;
@@ -958,7 +958,7 @@ time_stamp_
 frame
 -
 >
-Timestamp
+RtpTimestamp
 (
 )
 ;
