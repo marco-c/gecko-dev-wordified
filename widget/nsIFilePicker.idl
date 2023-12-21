@@ -357,6 +357,10 @@ raw
 *
 .
 webp
+;
+*
+.
+heic
 const
 long
 filterXML

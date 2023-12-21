@@ -521,6 +521,9 @@ raw
 "
 webp
 "
+"
+heic
+"
 ]
 ;
 const
