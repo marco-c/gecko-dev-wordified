@@ -597,6 +597,9 @@ true
 hasEventTimings
 :
 true
+hasServerTimings
+:
+true
 }
 )
 ;
@@ -915,6 +918,9 @@ hasEventTimings
 :
 true
 hasAuthPrompt
+:
+true
+hasServerTimings
 :
 true
 }
@@ -1502,6 +1508,9 @@ hasResponseStart
 :
 true
 hasEventTimings
+:
+true
+hasServerTimings
 :
 true
 }
