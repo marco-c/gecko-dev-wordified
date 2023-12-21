@@ -257,7 +257,7 @@ CapacityDropTestHelper
 (
 2
 true
-767
+567
 0
 )
 ;
@@ -287,7 +287,7 @@ CapacityDropTestHelper
 (
 13
 true
-567
+767
 0
 )
 ;
@@ -302,7 +302,7 @@ CapacityDropTestHelper
 (
 19
 true
-700
+767
 0
 )
 ;
