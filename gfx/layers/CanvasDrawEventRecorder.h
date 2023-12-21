@@ -650,6 +650,11 @@ Flush
 )
 final
 {
+NS_ASSERT_OWNINGTHREAD
+(
+CanvasDrawEventRecorder
+)
+;
 }
 int64_t
 CreateCheckpoint
