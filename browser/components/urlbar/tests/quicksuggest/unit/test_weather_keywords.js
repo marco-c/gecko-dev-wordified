@@ -109,13 +109,13 @@ WEATHER_SUGGESTION
 =
 MerinoTestUtils
 ;
-add_task
+add_setup
 (
 async
-function
-init
 (
 )
+=
+>
 {
 await
 QuickSuggestTestUtils

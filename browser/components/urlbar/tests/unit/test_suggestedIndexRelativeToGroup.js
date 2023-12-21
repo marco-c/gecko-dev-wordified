@@ -154,12 +154,13 @@ REMOTE_SUGGESTION
 let
 sandbox
 ;
-add_task
+add_setup
 (
-function
-setuo
+async
 (
 )
+=
+>
 {
 sandbox
 =

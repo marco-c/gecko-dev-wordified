@@ -90,13 +90,13 @@ TEST_ENGINE_ALIAS
 autofilltest
 "
 ;
-add_task
+add_setup
 (
 async
-function
-init
 (
 )
+=
+>
 {
 /
 /

@@ -211,10 +211,10 @@ score
 add_setup
 (
 async
-function
-init
 (
 )
+=
+>
 {
 /
 /

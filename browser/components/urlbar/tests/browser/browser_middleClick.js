@@ -45,13 +45,13 @@ behavior
 .
 *
 /
-add_task
+add_setup
 (
 async
-function
-test_setup
 (
 )
+=
+>
 {
 CustomizableUI
 .
