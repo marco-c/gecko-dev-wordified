@@ -692,6 +692,10 @@ MonitorAutoLock
 &
 aProofOfLock
 )
+MOZ_REQUIRES
+(
+mRendertraceLock
+)
 ;
 /
 *
@@ -1137,7 +1141,6 @@ mRendertraceInfo
 mutable
 Monitor
 mRendertraceLock
-MOZ_UNANNOTATED
 ;
 /
 *
@@ -1183,6 +1186,10 @@ mBufferedProperties
 [
 sRendertracePropertyCount
 ]
+MOZ_GUARDED_BY
+(
+mRendertraceLock
+)
 ;
 /
 *
@@ -1213,6 +1220,10 @@ std
 :
 ostringstream
 mRendertraceInfo
+MOZ_GUARDED_BY
+(
+mRendertraceLock
+)
 ;
 }
 ;
