@@ -91,13 +91,6 @@ h
 #
 include
 "
-nspr
-.
-h
-"
-#
-include
-"
 YuvStamper
 .
 h

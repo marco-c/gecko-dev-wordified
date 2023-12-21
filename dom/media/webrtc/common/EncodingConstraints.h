@@ -119,11 +119,6 @@ define
 _ENCODING_CONSTRAINTS_H_
 #
 include
-<
-algorithm
->
-#
-include
 "
 mozilla
 /
