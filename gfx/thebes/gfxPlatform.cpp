@@ -19624,12 +19624,17 @@ IsEnabled
 bool
 webglOopAsyncPresentForceSync
 =
+(
+threadsafeGL
+&
+&
 !
 gfxVars
 :
 :
 UseCanvasRenderThread
 (
+)
 )
 |
 |
