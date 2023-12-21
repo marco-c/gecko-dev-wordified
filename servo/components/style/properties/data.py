@@ -4003,6 +4003,22 @@ Appearance
 "
                 
 "
+AnimationComposition
+"
+                
+"
+AnimationDirection
+"
+                
+"
+AnimationFillMode
+"
+                
+"
+AnimationPlayState
+"
+                
+"
 AspectRatio
 "
                 
