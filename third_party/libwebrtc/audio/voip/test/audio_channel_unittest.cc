@@ -1958,7 +1958,7 @@ ms
 This
 will
 trigger
-tranport
+transport
 /
 /
 to
@@ -2091,7 +2091,7 @@ statistics
 This
 will
 trigger
-tranport
+transport
 to
 send
 RTCP

@@ -1615,7 +1615,7 @@ t
 /
 result
 in
-crahses
+crashes
 or
 sanitizer
 errors
