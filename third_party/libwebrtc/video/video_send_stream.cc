@@ -669,7 +669,7 @@ observers
 .
 send_delay_observer
 =
-stats_proxy
+nullptr
 ;
 observers
 .
