@@ -437,7 +437,7 @@ CA
 "
 ]
 }
-defaultStartsWith
+default
 :
 "
 default
@@ -445,8 +445,9 @@ default
 starts
 -
 with
+*
 "
-defaultPrivateStartsWith
+defaultPrivate
 :
 "
 default
@@ -454,6 +455,7 @@ default
 starts
 -
 with
+*
 "
 }
 {
@@ -477,7 +479,7 @@ US
 "
 ]
 }
-defaultStartsWith
+default
 :
 "
 default
@@ -485,8 +487,9 @@ default
 starts
 -
 with
+*
 "
-defaultPrivateStartsWith
+defaultPrivate
 :
 "
 default
@@ -494,6 +497,7 @@ default
 starts
 -
 with
+*
 "
 }
 ]
