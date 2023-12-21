@@ -263,6 +263,8 @@ components
 /
 glean
 /
+dev
+/
 testing
 .
 html
@@ -331,6 +333,8 @@ toolkit
 components
 /
 glean
+/
+dev
 /
 testing
 .
@@ -417,6 +421,8 @@ toolkit
 components
 /
 glean
+/
+dev
 /
 testing
 .
