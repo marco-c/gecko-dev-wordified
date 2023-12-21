@@ -54,10 +54,6 @@ MPL
 /
 .
 from
-six
-.
-moves
-.
 urllib
 .
 parse
