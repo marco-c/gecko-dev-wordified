@@ -1137,9 +1137,6 @@ nscoord
 ComputeFinalBSize
 (
 const
-MaybeCaptionSide
-&
-const
 mozilla
 :
 :
