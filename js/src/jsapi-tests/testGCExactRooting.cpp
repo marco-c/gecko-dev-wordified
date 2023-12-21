@@ -2257,6 +2257,12 @@ testUnrootedGCHashMap
 JS_EXPECT_HAZARDS
 )
 {
+AutoLeaveZeal
+noZeal
+(
+cx
+)
+;
 MyHashMap
 map
 (
