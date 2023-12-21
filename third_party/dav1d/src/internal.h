@@ -776,6 +776,7 @@ struct
 {
 int
 exec
+finished
 ;
 pthread_cond_t
 cond
