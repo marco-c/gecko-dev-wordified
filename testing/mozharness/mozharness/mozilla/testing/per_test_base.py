@@ -348,7 +348,7 @@ tests
 "
 mochitest
 .
-ini
+toml
 "
 )
                 
@@ -380,7 +380,7 @@ chrome
 "
 chrome
 .
-ini
+toml
 "
 )
                 
@@ -415,7 +415,7 @@ browser
 -
 chrome
 .
-ini
+toml
 "
                 
 )
@@ -450,7 +450,7 @@ a11y
 "
 a11y
 .
-ini
+toml
 "
 )
                 
@@ -482,7 +482,7 @@ tests
 "
 xpcshell
 .
-ini
+toml
 "
 )
                 

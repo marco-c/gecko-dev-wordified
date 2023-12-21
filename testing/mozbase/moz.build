@@ -105,7 +105,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozdebug
@@ -114,7 +114,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozdevice
@@ -123,7 +123,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozfile
@@ -132,7 +132,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozgeckoprofiler
@@ -141,7 +141,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozhttpd
@@ -150,7 +150,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozinfo
@@ -159,7 +159,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozinstall
@@ -168,7 +168,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozleak
@@ -177,7 +177,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozlog
@@ -186,7 +186,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 moznetwork
@@ -195,7 +195,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozpower
@@ -204,7 +204,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozprocess
@@ -213,7 +213,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozprofile
@@ -222,7 +222,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozproxy
@@ -231,7 +231,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozrunner
@@ -240,7 +240,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozsystemmonitor
@@ -249,7 +249,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 moztest
@@ -258,7 +258,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 "
 mozversion
@@ -267,7 +267,7 @@ tests
 /
 manifest
 .
-ini
+toml
 "
 ]
 python_modules

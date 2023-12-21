@@ -5724,7 +5724,7 @@ py
 "
 mochitest
 .
-ini
+toml
 "
 ]
         
@@ -6833,7 +6833,7 @@ absolute
 -
 support
 .
-ini
+toml
 "
 )
             
@@ -7152,7 +7152,7 @@ include
 :
 foo
 .
-ini
+toml
 ]
 are
 copied
@@ -7231,7 +7231,7 @@ manifest_relpath
 "
 mochitest
 .
-ini
+toml
 "
 )
         
@@ -7245,7 +7245,7 @@ manifest_obj_relpath
 "
 mochitest
 .
-ini
+toml
 "
 )
         
@@ -7267,7 +7267,7 @@ install_prefix
 "
 common
 .
-ini
+toml
 "
 )
 )
@@ -7286,7 +7286,7 @@ install_prefix
 "
 mochitest
 .
-ini
+toml
 "
 )
 )
@@ -7682,7 +7682,7 @@ False
 "
 mochitest
 .
-ini
+toml
 "
 :
 {
@@ -7703,7 +7703,7 @@ installs
 "
 mochitest
 .
-ini
+toml
 "
 :
 False
@@ -7773,7 +7773,7 @@ True
 "
 xpcshell
 .
-ini
+toml
 "
 :
 {
@@ -7801,7 +7801,7 @@ installs
 "
 xpcshell
 .
-ini
+toml
 "
 :
 False
@@ -7877,7 +7877,7 @@ installs
 "
 python
 .
-ini
+toml
 "
 :
 {
@@ -7896,7 +7896,7 @@ installs
 "
 python
 .
-ini
+toml
 "
 :
 False

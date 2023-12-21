@@ -2272,7 +2272,7 @@ tests
 /
 xpcshell
 .
-ini
+toml
 "
             
 ]
@@ -2343,7 +2343,7 @@ tests
 /
 xpcshell
 .
-ini
+toml
 "
                 
 "

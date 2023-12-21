@@ -5074,7 +5074,7 @@ mn
 "
 browser
 .
-ini
+toml
 "
         
 "
@@ -5082,25 +5082,25 @@ browser
 -
 common
 .
-ini
+toml
 "
         
 "
 chrome
 .
-ini
+toml
 "
         
 "
 mochitest
 .
-ini
+toml
 "
         
 "
 xpcshell
 .
-ini
+toml
 "
         
 "
@@ -5110,7 +5110,7 @@ child
 -
 process
 .
-ini
+toml
 "
         
 "
@@ -5118,7 +5118,7 @@ xpcshell
 -
 common
 .
-ini
+toml
 "
         
 "
@@ -5128,7 +5128,7 @@ parent
 -
 process
 .
-ini
+toml
 "
         
 pathlib

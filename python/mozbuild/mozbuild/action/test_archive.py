@@ -3552,6 +3552,12 @@ ini
 "
                 
 "
+*
+.
+toml
+"
+                
+"
 localization
 /
 *
@@ -6346,6 +6352,16 @@ endswith
 "
 .
 ini
+"
+)
+or
+p
+.
+endswith
+(
+"
+.
+toml
 "
 )
 :

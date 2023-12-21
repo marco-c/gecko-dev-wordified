@@ -6725,7 +6725,7 @@ tests
 "
 mochitest
 .
-ini
+toml
 "
         
 )
@@ -6743,7 +6743,7 @@ xpcshell
 "
 xpcshell
 .
-ini
+toml
 "
 )
         
@@ -6827,27 +6827,31 @@ HAND
 "
 "
                 
-"
+'
 [
+"
 include
 :
 dir1
 /
 xpcshell
 .
-ini
+toml
+"
 ]
-"
+'
                 
-"
+'
 [
+"
 include
 :
 xpcshell
 .
-ini
-]
+toml
 "
+]
+'
             
 ]
         
@@ -7048,7 +7052,7 @@ read
 the
 generated
 for
-ini
+toml
 manifest
 contents
 .

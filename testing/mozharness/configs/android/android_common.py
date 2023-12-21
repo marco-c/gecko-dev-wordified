@@ -2790,7 +2790,7 @@ tests
 /
 xpcshell
 .
-ini
+toml
 "
                 
 "

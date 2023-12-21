@@ -69,7 +69,7 @@ in
 the
 corresponding
 .
-ini
+toml
 file
 .
 Usage
@@ -133,7 +133,7 @@ testdir
 "
 xpcshell
 .
-ini
+toml
 "
 )
 )
@@ -337,7 +337,7 @@ directory
 "
 xpcshell
 .
-ini
+toml
 "
 )
                 
@@ -539,7 +539,7 @@ s
 in
 xpcshell
 .
-ini
+toml
 and
 not
 in
@@ -666,7 +666,7 @@ files
 including
 xpcshell
 .
-ini
+toml
 from
 the
 sibling
