@@ -66,7 +66,7 @@ const
 TYPES
 :
 {
-TRACING_STATE
+JSTRACER_STATE
 }
 }
 =
@@ -312,7 +312,7 @@ tracingListener
 /
 Emit
 a
-TRACING_STATE
+JSTRACER_STATE
 resource
 with
 :
@@ -370,7 +370,7 @@ onAvailable
 {
 resourceType
 :
-TRACING_STATE
+JSTRACER_STATE
 enabled
 logMethod
 profile
