@@ -681,7 +681,7 @@ encoded_frame
 ;
 encoded_frame
 .
-SetTimestamp
+SetRtpTimestamp
 (
 90000
 *

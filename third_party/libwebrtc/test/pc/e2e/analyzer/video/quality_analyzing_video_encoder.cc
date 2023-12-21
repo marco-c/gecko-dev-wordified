@@ -1717,7 +1717,7 @@ first
 =
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 )
@@ -1894,7 +1894,7 @@ Timestamp
 <
 encoded_image
 .
-Timestamp
+RtpTimestamp
 (
 )
 ;
