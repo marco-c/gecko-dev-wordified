@@ -750,9 +750,8 @@ image
 src
 engine
 .
-getIconURLBySize
+getIconURL
 (
-16
 16
 )
 "

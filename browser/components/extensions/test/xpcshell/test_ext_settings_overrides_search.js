@@ -408,9 +408,8 @@ equal
 (
 engine
 .
-getIconURLBySize
+getIconURL
 (
-16
 16
 )
 baseURI
@@ -455,9 +454,8 @@ equal
 /
 engine
 .
-getIconURLBySize
+getIconURL
 (
-32
 32
 )
 /

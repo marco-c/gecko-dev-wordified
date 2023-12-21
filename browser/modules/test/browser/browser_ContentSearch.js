@@ -2888,9 +2888,8 @@ uri
 =
 engine
 .
-getIconURLBySize
+getIconURL
 (
-16
 16
 )
 ;
@@ -2971,9 +2970,8 @@ uriFavicon
 =
 engine
 .
-getIconURLBySize
+getIconURL
 (
-16
 16
 )
 ;

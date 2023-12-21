@@ -579,9 +579,8 @@ engineIcon
 =
 defaultEngine
 .
-getIconURLBySize
+getIconURL
 (
-16
 16
 )
 ;
@@ -955,9 +954,8 @@ engineIcon
 =
 defaultEngine
 .
-getIconURLBySize
+getIconURL
 (
-16
 16
 )
 ;
