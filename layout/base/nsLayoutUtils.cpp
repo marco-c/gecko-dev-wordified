@@ -66213,7 +66213,7 @@ reference
 /
 box
 .
-svgFloatSize
+auto
 viewportSize
 =
 aElement
