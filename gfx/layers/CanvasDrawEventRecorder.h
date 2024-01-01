@@ -728,6 +728,11 @@ DropFreeBuffers
 (
 )
 ;
+void
+ClearProcessedExternalSurfaces
+(
+)
+;
 protected
 :
 gfx

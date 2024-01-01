@@ -261,9 +261,8 @@ now
 mHandle
 -
 >
-SetSurface
+ClearSurface
 (
-nullptr
 )
 ;
 }

@@ -215,7 +215,9 @@ mExternalSurfaces
 .
 push_back
 (
+{
 aSurface
+}
 )
 ;
 }
