@@ -1895,9 +1895,6 @@ marker_type_display
 )
 -
 >
-schema
-:
-:
 MarkerSchema
 ;
 /
@@ -2386,9 +2383,6 @@ marker_type_display
 )
 -
 >
-schema
-:
-:
 MarkerSchema
 {
 use
