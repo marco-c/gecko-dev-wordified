@@ -502,7 +502,7 @@ mozilla
 dom
 :
 :
-VideoDecoderConfig
+VideoDecoderConfigInternal
 ;
 using
 OutputType
