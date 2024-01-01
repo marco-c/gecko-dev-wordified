@@ -528,3 +528,15 @@ false
 ;
 #
 endif
+pref
+(
+"
+defaultAgent
+.
+cppFallback
+.
+enabled
+"
+false
+)
+;
