@@ -11605,7 +11605,7 @@ pollable
 event
 again
 .
-MOZ_ASSERT
+if
 (
 gIOService
 -
@@ -11613,10 +11613,8 @@ gIOService
 IsNetTearingDown
 (
 )
-)
-;
-if
-(
+&
+&
 self
 -
 >
