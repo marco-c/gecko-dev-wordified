@@ -461,6 +461,11 @@ patch
 }
 }
 ;
+struct
+unsupported
+{
+}
+;
 }
 #
 endif
