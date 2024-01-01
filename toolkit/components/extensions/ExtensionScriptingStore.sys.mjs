@@ -371,7 +371,10 @@ ID
 *
 returns
 {
+Promise
+<
 Array
+>
 }
 An
 array
@@ -853,7 +856,10 @@ ID
 *
 returns
 {
+Promise
+<
 Array
+>
 }
 An
 array

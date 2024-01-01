@@ -8404,6 +8404,8 @@ function
 (
 object
 )
+:
+void
 }
 listener
 *
@@ -9756,6 +9758,8 @@ function
 (
 DOMWindow
 )
+:
+void
 }
 listener
 *
@@ -9864,6 +9868,8 @@ function
 (
 DOMWindow
 )
+:
+void
 }
 listener
 *
@@ -9936,6 +9942,8 @@ function
 (
 DOMWindow
 )
+:
+void
 }
 listener
 *
@@ -10004,6 +10012,8 @@ function
 (
 DOMWindow
 )
+:
+void
 }
 listener
 *
