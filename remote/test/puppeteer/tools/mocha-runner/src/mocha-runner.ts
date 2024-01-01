@@ -6,6 +6,8 @@ usr
 bin
 /
 env
+-
+S
 node
 /
 *
@@ -1080,6 +1082,15 @@ output
 {
 tmpFilename
 }
+'
+-
+n
+'
+'
+trace
+-
+warnings
+'
 ]
 ;
 const

@@ -543,6 +543,7 @@ toBe
 null
 )
 ;
+await
 remoteBrowser
 .
 disconnect
@@ -635,6 +636,7 @@ toBe
 true
 )
 ;
+await
 newBrowser
 .
 disconnect

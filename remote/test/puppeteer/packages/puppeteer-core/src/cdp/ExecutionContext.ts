@@ -1950,6 +1950,10 @@ this
 _contextId
 arguments
 :
+args
+.
+length
+?
 await
 Promise
 .
@@ -1967,6 +1971,9 @@ this
 )
 )
 )
+:
+[
+]
 returnByValue
 awaitPromise
 :

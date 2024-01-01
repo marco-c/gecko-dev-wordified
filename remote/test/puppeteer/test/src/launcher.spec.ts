@@ -477,6 +477,7 @@ css
 '
 )
 ;
+await
 remote
 .
 disconnect
@@ -651,6 +652,7 @@ error_
 }
 )
 ;
+await
 remote
 .
 disconnect
@@ -4755,6 +4757,7 @@ toBe
 56
 )
 ;
+await
 otherBrowser
 .
 disconnect
@@ -5584,6 +5587,7 @@ close
 (
 )
 ;
+await
 remoteBrowser
 .
 disconnect
@@ -5685,6 +5689,7 @@ html
 '
 )
 ;
+await
 browser
 .
 disconnect
@@ -6196,6 +6201,7 @@ server
 EMPTY_PAGE
 )
 ;
+await
 browserOne
 .
 disconnect

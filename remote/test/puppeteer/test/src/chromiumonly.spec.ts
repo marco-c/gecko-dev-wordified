@@ -368,6 +368,7 @@ toBe
 56
 )
 ;
+await
 browser1
 .
 disconnect
@@ -429,6 +430,7 @@ toBe
 56
 )
 ;
+await
 browser2
 .
 disconnect

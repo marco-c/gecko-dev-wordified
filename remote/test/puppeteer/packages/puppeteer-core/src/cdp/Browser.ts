@@ -2194,6 +2194,7 @@ call
 null
 )
 ;
+await
 this
 .
 disconnect
@@ -2206,7 +2207,10 @@ disconnect
 (
 )
 :
+Promise
+<
 void
+>
 {
 this
 .
@@ -2229,6 +2233,13 @@ dispose
 this
 .
 _detach
+(
+)
+;
+return
+Promise
+.
+resolve
 (
 )
 ;

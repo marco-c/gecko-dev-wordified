@@ -574,6 +574,7 @@ BidiPage
 (
 browsingContext
 browserContext
+this
 )
 ;
 }

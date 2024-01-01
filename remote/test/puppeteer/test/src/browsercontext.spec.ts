@@ -1765,6 +1765,7 @@ toHaveLength
 2
 )
 ;
+await
 remoteBrowser
 .
 disconnect
