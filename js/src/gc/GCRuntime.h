@@ -6398,12 +6398,6 @@ MainThreadData
 <
 ArenaList
 >
-permanentFatInlineAtoms
-;
-MainThreadData
-<
-ArenaList
->
 permanentWellKnownSymbols
 ;
 /
