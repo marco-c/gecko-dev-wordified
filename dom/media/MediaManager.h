@@ -2070,6 +2070,17 @@ RefPtr
 <
 DeviceSetPromise
 >
+MaybeRequestPermissionAndEnumerateRawDevices
+(
+EnumerationParams
+aParams
+)
+;
+static
+RefPtr
+<
+MediaDeviceSetRefCnt
+>
 EnumerateRawDevices
 (
 EnumerationParams
