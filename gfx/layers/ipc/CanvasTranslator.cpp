@@ -417,15 +417,6 @@ TextureType
 D3D11
 :
 {
-allocFlags
-=
-TextureAllocationFlags
-(
-allocFlags
-|
-ALLOC_MANUAL_SYNCHRONIZATION
-)
-;
 textureData
 =
 D3D11TextureData
