@@ -412,11 +412,6 @@ MediaDataEncoder
 :
 ReconfigurationPromise
 ;
-template
-<
-typename
-ConfigType
->
 RefPtr
 <
 ConfigurePromise
@@ -424,7 +419,7 @@ ConfigurePromise
 Configure
 (
 const
-ConfigType
+EncoderConfig
 &
 aConfig
 )
