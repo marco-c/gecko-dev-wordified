@@ -8853,6 +8853,16 @@ true
 {
 CheckFamilyList
 (
+kBaseFonts_Ubuntu_22_04
+)
+;
+CheckFamilyList
+(
+kLangFonts_Ubuntu_22_04
+)
+;
+CheckFamilyList
+(
 kBaseFonts_Ubuntu_20_04
 )
 ;
