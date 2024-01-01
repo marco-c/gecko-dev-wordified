@@ -1974,13 +1974,6 @@ only
 the
 inner
 half
-per
-the
-macros
-in
-nsTablePainter
-.
-h
 )
 .
 BCPixelSize
