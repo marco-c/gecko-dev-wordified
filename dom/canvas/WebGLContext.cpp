@@ -7132,6 +7132,14 @@ gfxVars
 WebglOopAsyncPresentForceSync
 (
 )
+/
+*
+aSharedRecycling
+*
+/
+!
+!
+fb
 )
 ;
 }
