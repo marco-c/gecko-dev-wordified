@@ -158,6 +158,13 @@ defined
 (
 RUST_BINDGEN
 )
+&
+&
+!
+defined
+(
+__MINGW__
+)
 #
 include
 "
