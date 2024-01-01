@@ -894,7 +894,7 @@ cpp
 SOURCES
 +
 =
-[
+{
 "
 core
 /
@@ -902,6 +902,11 @@ ETWTools
 .
 cpp
 "
+}
+SOURCES
++
+=
+[
 "
 core
 /
