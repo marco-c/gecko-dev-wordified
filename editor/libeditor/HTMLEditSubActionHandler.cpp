@@ -70043,10 +70043,6 @@ EmptyCheckOption
 :
 :
 TreatSingleBRElementAsVisible
-EmptyCheckOption
-:
-:
-TreatNonEditableContentAsInvisible
 }
 )
 &
