@@ -385,6 +385,9 @@ namespace
 wr
 {
 struct
+MinimapData
+;
+struct
 SampledScrollOffset
 ;
 }
@@ -4166,6 +4169,15 @@ composite
 /
 GeckoViewMetrics
 GetGeckoViewMetrics
+(
+)
+const
+;
+wr
+:
+:
+MinimapData
+GetMinimapData
 (
 )
 const
