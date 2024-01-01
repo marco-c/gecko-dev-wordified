@@ -2644,7 +2644,10 @@ mCodecContext
 >
 pix_fmt
 =
-AV_PIX_FMT_YUV420P
+ffmpeg
+:
+:
+FFMPEG_PIX_FMT_YUV420P
 ;
 mCodecContext
 -
@@ -4698,7 +4701,10 @@ mFrame
 >
 format
 =
-AV_PIX_FMT_YUV420P
+ffmpeg
+:
+:
+FFMPEG_PIX_FMT_YUV420P
 ;
 mFrame
 -
