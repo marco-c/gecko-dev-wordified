@@ -51,6 +51,7 @@ APIs
 [
 allow
 (
+warnings
 bare_trait_objects
 deprecated
 unknown_lints

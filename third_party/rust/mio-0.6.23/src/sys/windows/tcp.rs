@@ -598,6 +598,9 @@ SocketAddr
 accept_buf
 :
 AcceptAddrsBuf
+instant_notify
+:
+bool
 }
 enum
 State
@@ -5326,6 +5329,9 @@ AcceptAddrsBuf
 new
 (
 )
+instant_notify
+:
+false
 }
 )
 }
@@ -6415,6 +6421,12 @@ as
 HANDLE
 )
 ?
+;
+me
+.
+instant_notify
+=
+true
 ;
 }
 self
