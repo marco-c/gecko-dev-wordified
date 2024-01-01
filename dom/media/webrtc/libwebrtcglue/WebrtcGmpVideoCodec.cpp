@@ -3410,7 +3410,7 @@ FrameType
 ft
 )
 ;
-uint32_t
+uint64_t
 timestamp
 =
 (

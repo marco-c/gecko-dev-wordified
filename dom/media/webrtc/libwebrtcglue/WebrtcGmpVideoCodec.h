@@ -1758,7 +1758,7 @@ std
 :
 map
 <
-uint32_t
+uint64_t
 InputImageData
 >
 >
