@@ -1918,13 +1918,13 @@ cancel_fedcm_dialog
 (
 )
 class
-ConfirmIDPLoginAction
+ClickFedCMDialogButtonAction
 :
     
 name
 =
 "
-confirm_idp_login
+click_fedcm_dialog_button
 "
     
 def
@@ -1956,16 +1956,31 @@ payload
 )
 :
         
+dialog_button
+=
+payload
+[
+"
+dialog_button
+"
+]
+        
 self
 .
 logger
 .
 debug
 (
+f
 "
-Confirming
-IDP
-login
+Clicking
+FedCM
+dialog
+button
+:
+{
+dialog_button
+}
 "
 )
         
@@ -1976,7 +1991,7 @@ protocol
 .
 fedcm
 .
-confirm_idp_login
+click_fedcm_dialog_button
 (
 )
 class
@@ -2772,7 +2787,7 @@ SetRPHRegistrationModeAction
            
 CancelFedCMDialogAction
            
-ConfirmIDPLoginAction
+ClickFedCMDialogButtonAction
            
 SelectFedCMAccountAction
            
