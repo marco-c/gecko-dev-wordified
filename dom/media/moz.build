@@ -870,6 +870,11 @@ DriftCompensation
 h
 "
 "
+EncoderTraits
+.
+h
+"
+"
 ExternalEngineStateMachine
 .
 h
