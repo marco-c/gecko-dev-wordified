@@ -155,6 +155,15 @@ include
 "
 mozilla
 /
+CaretAssociationHint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
@@ -4496,7 +4505,10 @@ aFrameSelection
 >
 SetHint
 (
-CARET_ASSOCIATE_AFTER
+CaretAssociationHint
+:
+:
+After
 )
 ;
 }

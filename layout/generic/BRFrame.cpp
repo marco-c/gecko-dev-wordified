@@ -131,6 +131,15 @@ include
 "
 mozilla
 /
+CaretAssociationHint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h
@@ -1497,7 +1506,10 @@ offsets
 .
 associate
 =
-CARET_ASSOCIATE_AFTER
+CaretAssociationHint
+:
+:
+After
 ;
 }
 return

@@ -244,11 +244,6 @@ EXPORTS
 =
 [
 "
-CaretAssociationHint
-.
-h
-"
-"
 FrameProperties
 .
 h
@@ -427,6 +422,11 @@ h
 "
 "
 Baseline
+.
+h
+"
+"
+CaretAssociationHint
 .
 h
 "
