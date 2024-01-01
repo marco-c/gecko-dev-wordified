@@ -3915,7 +3915,9 @@ mMonitor
 ;
 for
 (
+const
 auto
+&
 id
 :
 aOwnerIds
@@ -4331,7 +4333,9 @@ mMonitor
 ;
 for
 (
+const
 auto
+&
 id
 :
 aOwnerIds
@@ -4483,7 +4487,9 @@ aForPid
 {
 for
 (
+const
 auto
+&
 id
 :
 aOwnerIds
