@@ -3440,6 +3440,17 @@ this
 #
 ifdef
 USE_NATIVE_MENUS
+if
+(
+!
+gfxPlatform
+:
+:
+IsHeadless
+(
+)
+)
+{
 /
 /
 macOS
@@ -3515,6 +3526,7 @@ mWindow
 nullptr
 )
 ;
+}
 #
 endif
 window
