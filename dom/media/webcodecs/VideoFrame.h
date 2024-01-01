@@ -902,6 +902,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 void
 Close
