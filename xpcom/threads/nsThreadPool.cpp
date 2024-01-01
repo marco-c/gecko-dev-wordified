@@ -2693,6 +2693,15 @@ mShutdown
 )
 )
 {
+nsCOMPtr
+<
+nsIRunnable
+>
+event
+(
+aEvent
+)
+;
 return
 NS_ERROR_NOT_AVAILABLE
 ;
