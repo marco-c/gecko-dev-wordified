@@ -11668,7 +11668,10 @@ hash
 {
 if
 (
-JSInlineString
+js
+:
+:
+FatInlineAtom
 :
 :
 lengthFits
@@ -12924,7 +12927,10 @@ n
 }
 if
 (
-JSInlineString
+js
+:
+:
+FatInlineAtom
 :
 :
 lengthFits
