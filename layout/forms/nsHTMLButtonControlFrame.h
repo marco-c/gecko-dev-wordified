@@ -517,16 +517,6 @@ ClassID
 aID
 )
 ;
-virtual
-bool
-IsInput
-(
-)
-{
-return
-false
-;
-}
 /
 /
 Indicates
