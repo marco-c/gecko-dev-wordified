@@ -1459,7 +1459,6 @@ GetBaseValKey
 (
 )
 this
-false
 )
 ;
 }
@@ -1538,7 +1537,6 @@ GetAnimValKey
 (
 )
 this
-true
 )
 ;
 }

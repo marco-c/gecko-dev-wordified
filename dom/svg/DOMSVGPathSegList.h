@@ -205,6 +205,9 @@ dom
 class
 DOMSVGPathSeg
 ;
+class
+SVGPathElement
+;
 /
 /
 -
@@ -903,11 +906,9 @@ aList
 dom
 :
 :
-SVGElement
+SVGPathElement
 *
 aElement
-bool
-aIsAnimValList
 )
 ;
 /

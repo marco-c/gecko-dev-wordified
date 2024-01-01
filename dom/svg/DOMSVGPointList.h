@@ -233,6 +233,9 @@ DOMSVGPoint
 class
 SVGElement
 ;
+class
+SVGPolyElement
+;
 /
 /
 -
@@ -969,11 +972,9 @@ aList
 dom
 :
 :
-SVGElement
+SVGPolyElement
 *
 aElement
-bool
-aIsAnimValList
 )
 ;
 /
