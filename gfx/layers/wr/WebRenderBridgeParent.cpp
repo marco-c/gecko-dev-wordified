@@ -9353,6 +9353,11 @@ AutoTransactionSender
 sender
 (
 mApi
+-
+>
+GetRootAPI
+(
+)
 &
 txnForImageBridge
 )
