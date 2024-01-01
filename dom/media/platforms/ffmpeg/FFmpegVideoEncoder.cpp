@@ -4173,7 +4173,10 @@ mFrame
 >
 format
 =
-AV_PIX_FMT_YUV420P
+ffmpeg
+:
+:
+FFMPEG_PIX_FMT_YUV420P
 ;
 mFrame
 -
