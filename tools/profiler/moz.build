@@ -898,6 +898,13 @@ SOURCES
 "
 core
 /
+ETWTools
+.
+cpp
+"
+"
+core
+/
 ProfilerCPUFreq
 -
 win
@@ -1257,6 +1264,13 @@ EXPORTS
 public
 /
 ChildProfilerController
+.
+h
+"
+"
+public
+/
+ETWTools
 .
 h
 "
