@@ -2063,7 +2063,9 @@ Unknown
 Ubuntu_any
 Ubuntu_20
 Ubuntu_22
-Fedora
+Fedora_any
+Fedora_38
+Fedora_39
 /
 /
 To
