@@ -4812,6 +4812,11 @@ broken
 -
 site
 "
+hidden
+=
+"
+true
+"
 appmenu
 -
 data
