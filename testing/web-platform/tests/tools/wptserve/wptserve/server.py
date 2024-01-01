@@ -3868,10 +3868,7 @@ request
 )
         
 except
-(
 StreamClosedError
-ProtocolError
-)
 :
             
 #
@@ -3956,10 +3953,7 @@ data
 )
             
 except
-(
 StreamClosedError
-ProtocolError
-)
 :
 #
 maybe
