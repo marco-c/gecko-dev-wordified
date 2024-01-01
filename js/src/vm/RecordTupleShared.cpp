@@ -162,6 +162,15 @@ include
 "
 vm
 /
+BigIntType
+.
+h
+"
+#
+include
+"
+vm
+/
 Compartment
 .
 h
