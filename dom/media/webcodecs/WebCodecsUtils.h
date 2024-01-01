@@ -1370,6 +1370,15 @@ nsAString
 aCodecString
 )
 ;
+nsString
+ConfigToString
+(
+const
+VideoDecoderConfig
+&
+aConfig
+)
+;
 }
 /
 /
