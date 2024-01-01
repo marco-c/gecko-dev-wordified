@@ -247,6 +247,7 @@ _BeginVideo_
 H264
 VP8
 VP9
+AV1
 _EndVideo_
 _BeginAudio_
 =

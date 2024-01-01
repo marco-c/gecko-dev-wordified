@@ -213,6 +213,17 @@ case
 CodecType
 :
 :
+AV1
+:
+return
+"
+AV1
+"
+;
+case
+CodecType
+:
+:
 _EndVideo_
 :
 /
