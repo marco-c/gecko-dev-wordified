@@ -5877,6 +5877,11 @@ VideoDecoder
 webidl
 "
 "
+VideoEncoder
+.
+webidl
+"
+"
 VideoFrame
 .
 webidl
