@@ -365,6 +365,12 @@ nsString
 >
 mContentHint
 ;
+Maybe
+<
+AvcEncoderConfig
+>
+mAvc
+;
 private
 :
 VideoEncoderConfigInternal
