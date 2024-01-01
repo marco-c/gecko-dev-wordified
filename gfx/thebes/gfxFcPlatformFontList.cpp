@@ -8863,7 +8863,7 @@ kLangFonts_Ubuntu_20_04
 ;
 CheckFamilyList
 (
-kBaseFonts_Fedora_32
+kBaseFonts_Fedora_39
 )
 ;
 mLastConfig
@@ -13598,7 +13598,7 @@ if
 FamilyInList
 (
 aName
-kBaseFonts_Fedora_32
+kBaseFonts_Fedora_39
 )
 )
 {
