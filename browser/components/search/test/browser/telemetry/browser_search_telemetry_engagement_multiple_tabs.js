@@ -385,16 +385,6 @@ browser
 .
 search
 .
-log
-"
-true
-]
-[
-"
-browser
-.
-search
-.
 serpEventTelemetry
 .
 enabled
