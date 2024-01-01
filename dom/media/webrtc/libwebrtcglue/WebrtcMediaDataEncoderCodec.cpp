@@ -2055,6 +2055,13 @@ HardwarePreference
 :
 :
 None
+MediaDataEncoder
+:
+:
+ScalabilityMode
+:
+:
+None
 specific
 )
 ;
