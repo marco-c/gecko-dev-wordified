@@ -1726,7 +1726,7 @@ mimeType
 parsed
 -
 >
-GetFullType
+GetEssence
 (
 aContentType
 )
