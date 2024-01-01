@@ -11668,13 +11668,10 @@ hash
 {
 if
 (
-js
+JSAtom
 :
 :
-FatInlineAtom
-:
-:
-lengthFits
+lengthFitsInline
 <
 Latin1Char
 >

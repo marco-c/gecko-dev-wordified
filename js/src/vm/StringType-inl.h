@@ -360,13 +360,10 @@ hash
 {
 MOZ_ASSERT
 (
-js
+JSAtom
 :
 :
-FatInlineAtom
-:
-:
-lengthFits
+lengthFitsInline
 <
 CharT
 >
