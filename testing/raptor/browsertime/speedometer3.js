@@ -372,7 +372,7 @@ this
 .
 benchmarkClient
 .
-startBenchmark
+start
 (
 )
 )
