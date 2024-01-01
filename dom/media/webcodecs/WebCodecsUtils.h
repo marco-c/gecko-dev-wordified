@@ -1341,6 +1341,16 @@ GetWebCodecsEncoderTaskQueue
 (
 )
 ;
+VideoColorSpaceInit
+FallbackColorSpaceForVideoContent
+(
+)
+;
+VideoColorSpaceInit
+FallbackColorSpaceForWebContent
+(
+)
+;
 }
 /
 /
