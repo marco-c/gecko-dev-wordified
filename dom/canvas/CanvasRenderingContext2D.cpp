@@ -9136,7 +9136,7 @@ AlreadyShutDown
 )
 )
 {
-gfxCriticalError
+gfxCriticalErrorOnce
 (
 )
 <
