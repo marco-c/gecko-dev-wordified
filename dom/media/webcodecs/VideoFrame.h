@@ -908,6 +908,12 @@ Close
 (
 )
 ;
+bool
+IsClosed
+(
+)
+const
+;
 /
 /
 [
