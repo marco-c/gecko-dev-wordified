@@ -387,7 +387,6 @@ RefPtr
 const
 EncoderConfigurationChangeList
 >
-&
 aConfigurationChanges
 )
 ;
