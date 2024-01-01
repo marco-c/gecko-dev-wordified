@@ -574,6 +574,9 @@ mConfig
 mTaskQueue
 only
 .
+nsCString
+mCodecName
+;
 AVCodecContext
 *
 mCodecContext
