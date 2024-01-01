@@ -604,11 +604,6 @@ user
 focus
 )
 "
-enabled_in
-=
-"
-chrome
-"
 affects
 =
 "
