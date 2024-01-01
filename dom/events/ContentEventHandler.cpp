@@ -207,6 +207,15 @@ include
 "
 mozilla
 /
+SelectionMovementUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextComposition
 .
 h
@@ -8029,9 +8038,6 @@ GetPresShell
 )
 )
 ;
-int32_t
-offsetInFrame
-;
 CaretAssociationHint
 hint
 =
@@ -8051,7 +8057,7 @@ nsIFrame
 *
 frame
 =
-nsFrameSelection
+SelectionMovementUtils
 :
 :
 GetFrameForNodeOffset
@@ -8064,8 +8070,6 @@ int32_t
 aXPOffset
 )
 hint
-&
-offsetInFrame
 )
 ;
 if

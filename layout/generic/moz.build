@@ -1047,6 +1047,11 @@ ScrollSnapTargetId
 h
 "
 "
+SelectionMovementUtils
+.
+h
+"
+"
 ViewportFrame
 .
 h
@@ -1397,6 +1402,11 @@ cpp
 "
 "
 ScrollVelocityQueue
+.
+cpp
+"
+"
+SelectionMovementUtils
 .
 cpp
 "
