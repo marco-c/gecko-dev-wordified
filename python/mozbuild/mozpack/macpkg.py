@@ -124,6 +124,7 @@ zlib
 from
 collections
 import
+deque
 namedtuple
 from
 xml
@@ -563,9 +564,10 @@ toc
 "
 )
     
-for
-f
-in
+queue
+=
+deque
+(
 toc
 .
 findall
@@ -574,7 +576,33 @@ findall
 file
 "
 )
+)
+    
+while
+queue
 :
+        
+f
+=
+queue
+.
+pop
+(
+)
+        
+queue
+.
+extend
+(
+f
+.
+iterfind
+(
+"
+file
+"
+)
+)
         
 if
 f
