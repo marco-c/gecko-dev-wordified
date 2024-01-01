@@ -124,7 +124,6 @@ bindgen
 :
 {
 Builder
-CargoCallbacks
 CodegenConfig
 }
 ;
@@ -887,7 +886,15 @@ Box
 :
 new
 (
+bindgen
+:
+:
 CargoCallbacks
+:
+:
+new
+(
+)
 )
 )
 /
