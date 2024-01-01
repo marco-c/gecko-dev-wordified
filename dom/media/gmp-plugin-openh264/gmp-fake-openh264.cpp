@@ -692,7 +692,7 @@ u_
 uint8_t
 v_
 ;
-uint64_t
+uint32_t
 timestamp_
 ;
 }
