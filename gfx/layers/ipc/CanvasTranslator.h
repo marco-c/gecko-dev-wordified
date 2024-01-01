@@ -1063,8 +1063,6 @@ aId
 bool
 PushRemoteTexture
 (
-int64_t
-aTextureId
 TextureData
 *
 aData
@@ -1653,10 +1651,6 @@ gfx
 :
 SurfaceFormat
 aFormat
-bool
-aClear
-=
-false
 )
 ;
 void
@@ -1999,6 +1993,11 @@ mDrawTarget
 ;
 RemoteTextureOwnerId
 mRemoteTextureOwnerId
+;
+bool
+mTextureLocked
+=
+false
 ;
 bool
 mNotifiedRequiresRefresh
