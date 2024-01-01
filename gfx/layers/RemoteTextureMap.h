@@ -2273,7 +2273,7 @@ by
 WebRender
 .
 CompositableTextureHostRef
-mRemoteTextureHost
+mAsyncRemoteTextureHost
 ;
 bool
 mReadyCheckSuppressed
