@@ -220,6 +220,14 @@ mHandleActions
 =
 false
 ;
+nsIWindowsAlertNotification
+:
+:
+ImagePlacement
+mImagePlacement
+=
+eInline
+;
 }
 ;
 class
