@@ -268,6 +268,16 @@ AssertWillDelete
 (
 )
 ;
+void
+LostIPCCleanup
+(
+SafeRefPtr
+<
+StreamList
+>
+aStreamList
+)
+;
 private
 :
 ~
