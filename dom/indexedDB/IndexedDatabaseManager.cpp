@@ -2218,16 +2218,6 @@ aCx
 |
 |
 !
-IDBLocaleAwareKeyRange_Binding
-:
-:
-GetConstructorObject
-(
-aCx
-)
-|
-|
-!
 IDBObjectStore_Binding
 :
 :
