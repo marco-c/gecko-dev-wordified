@@ -73,7 +73,7 @@ MOCHITESTS_DIR
 /
 Verify
 we
-recieve
+receive
 hide
 and
 show
@@ -260,10 +260,6 @@ ALERT
 :
 [
 {
-TEXT_CONTAINER
-:
-[
-{
 LABEL
 :
 [
@@ -285,8 +281,6 @@ PUSHBUTTON
 PUSHBUTTON
 :
 [
-]
-}
 ]
 }
 ]
