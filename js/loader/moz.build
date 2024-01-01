@@ -124,11 +124,6 @@ ResolveResult
 h
 "
 "
-ScriptFetchOptions
-.
-h
-"
-"
 ScriptKind
 .
 h
