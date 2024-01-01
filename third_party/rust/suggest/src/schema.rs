@@ -83,7 +83,7 @@ VERSION
 :
 u32
 =
-8
+9
 ;
 pub
 const
@@ -176,6 +176,9 @@ suggestions
 (
 id
 )
+ON
+DELETE
+CASCADE
 PRIMARY
 KEY
 (
@@ -588,7 +591,7 @@ version
 .
 .
 =
-7
+8
 =
 >
 {
