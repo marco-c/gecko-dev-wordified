@@ -1173,6 +1173,10 @@ state_dir
 !
 =
 state_dir_from_hgrc
+.
+expanduser
+(
+)
 :
                 
 expected_extension_path
