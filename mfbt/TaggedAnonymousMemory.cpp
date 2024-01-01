@@ -116,7 +116,7 @@ MPL
 /
 #
 ifdef
-ANDROID
+XP_LINUX
 #
 include
 "
@@ -695,4 +695,4 @@ mapped
 endif
 /
 /
-ANDROID
+XP_LINUX
