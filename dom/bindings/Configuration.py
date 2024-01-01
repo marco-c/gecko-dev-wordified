@@ -2988,7 +2988,7 @@ different
 values
 among
 all
-atributes
+attributes
 that
 use
 the
@@ -3008,6 +3008,10 @@ BindingTemplate
                     
 "
 BindingAlias
+"
+                    
+"
+ChromeOnly
 "
                     
 "
