@@ -480,6 +480,15 @@ mModifiedFrameCount
 mModifiedFrameLimit
 ;
 }
+bool
+GetModifiedFrameCount
+(
+)
+{
+return
+mModifiedFrameCount
+;
+}
 /
 *
 *
