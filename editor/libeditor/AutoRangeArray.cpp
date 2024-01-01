@@ -359,6 +359,14 @@ using
 namespace
 dom
 ;
+using
+EmptyCheckOption
+=
+HTMLEditUtils
+:
+:
+EmptyCheckOption
+;
 /
 *
 *
@@ -4118,6 +4126,12 @@ IsEmptyNode
 (
 *
 maybeNonEditableBlockElement
+{
+EmptyCheckOption
+:
+:
+TreatNonEditableContentAsInvisible
+}
 )
 )
 {

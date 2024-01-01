@@ -7499,7 +7499,6 @@ return
 false
 if
 (
-!
 aOptions
 .
 contains
@@ -7507,7 +7506,7 @@ contains
 EmptyCheckOption
 :
 :
-IgnoreEditableState
+TreatNonEditableContentAsInvisible
 )
 &
 &
