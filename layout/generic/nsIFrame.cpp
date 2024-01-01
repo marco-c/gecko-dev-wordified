@@ -62165,11 +62165,11 @@ result
 =
 NS_ERROR_FAILURE
 ;
-nsCOMPtr
+RefPtr
 <
-nsIFrameEnumerator
+nsFrameIterator
 >
-frameTraversal
+frameIterator
 ;
 result
 =
@@ -62177,7 +62177,7 @@ NS_NewFrameTraversal
 (
 getter_AddRefs
 (
-frameTraversal
+frameIterator
 )
 pc
 resultFrame
@@ -62575,7 +62575,7 @@ other
 way
 resultFrame
 =
-frameTraversal
+frameIterator
 -
 >
 Traverse
@@ -62616,7 +62616,7 @@ NS_NewFrameTraversal
 (
 getter_AddRefs
 (
-frameTraversal
+frameIterator
 )
 pc
 resultFrame
@@ -62815,7 +62815,7 @@ nsIFrame
 *
 tempFrame
 =
-frameTraversal
+frameIterator
 -
 >
 Traverse
@@ -68742,11 +68742,11 @@ PeekOffsetOption
 StopAtPlaceholder
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIFrameEnumerator
+nsFrameIterator
 >
-frameTraversal
+frameIterator
 ;
 MOZ_TRY
 (
@@ -68754,7 +68754,7 @@ NS_NewFrameTraversal
 (
 getter_AddRefs
 (
-frameTraversal
+frameIterator
 )
 presContext
 this
@@ -68995,7 +68995,7 @@ true
 }
 traversedFrame
 =
-frameTraversal
+frameIterator
 -
 >
 Traverse
