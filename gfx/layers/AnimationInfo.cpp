@@ -4114,8 +4114,6 @@ HasProperty
 property
 .
 mProperty
-.
-mID
 )
 )
 {
@@ -4340,7 +4338,10 @@ keyframeEffect
 >
 GetEffectiveAnimationOfProperty
 (
+AnimatedPropertyID
+(
 aProperty
+)
 *
 aEffects
 )

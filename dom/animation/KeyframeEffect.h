@@ -1555,7 +1555,9 @@ GetPropertiesForCompositor
 bool
 HasEffectiveAnimationOfProperty
 (
-nsCSSPropertyID
+const
+AnimatedPropertyID
+&
 aProperty
 const
 EffectSet
@@ -1580,12 +1582,12 @@ AnimationProperty
 *
 GetEffectiveAnimationOfProperty
 (
-nsCSSPropertyID
-aProperty
+const
+AnimatedPropertyID
+&
 const
 EffectSet
 &
-aEffect
 )
 const
 ;
