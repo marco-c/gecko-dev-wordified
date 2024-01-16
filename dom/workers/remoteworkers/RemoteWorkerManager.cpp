@@ -3301,7 +3301,7 @@ process
 /
 when
 "
-extension
+extensions
 .
 webextensions
 .
