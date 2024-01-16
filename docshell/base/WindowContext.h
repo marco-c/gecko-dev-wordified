@@ -1585,6 +1585,17 @@ ConsumeTransientUserGestureActivation
 )
 ;
 bool
+GetTransientUserGestureActivationModifiers
+(
+UserActivation
+:
+:
+Modifiers
+*
+aModifiers
+)
+;
+bool
 CanShowPopup
 (
 )
