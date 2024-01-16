@@ -15660,7 +15660,6 @@ from
 one
 of
 the
-\
 *
 WEBIDL_FILES
         

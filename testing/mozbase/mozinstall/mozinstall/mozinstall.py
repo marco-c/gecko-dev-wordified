@@ -1634,6 +1634,7 @@ s
 \
 uninstall
 \
+\
 helper
 .
 exe
