@@ -8252,6 +8252,17 @@ PER_ARCH
 ;
 inline
 void
+move8ZeroExtend
+(
+Register
+src
+Register
+dest
+)
+PER_SHARED_ARCH
+;
+inline
+void
 move8SignExtend
 (
 Register
