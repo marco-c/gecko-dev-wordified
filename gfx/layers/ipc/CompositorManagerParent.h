@@ -243,6 +243,9 @@ class
 CompositorThreadHolder
 ;
 class
+RemoteTextureTxnScheduler
+;
+class
 SharedSurfacesHolder
 ;
 class
@@ -667,6 +670,12 @@ sMonitor
 )
 =
 0
+;
+RefPtr
+<
+RemoteTextureTxnScheduler
+>
+mRemoteTextureTxnScheduler
 ;
 }
 ;

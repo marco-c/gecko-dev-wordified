@@ -2480,6 +2480,14 @@ mId
 ;
 }
 ;
+typedef
+uint32_t
+RemoteTextureTxnType
+;
+typedef
+uint64_t
+RemoteTextureTxnId
+;
 /
 /
 TextureId

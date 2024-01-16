@@ -1032,6 +1032,14 @@ RemoveTexture
 (
 int64_t
 aTextureId
+RemoteTextureTxnType
+aTxnType
+=
+0
+RemoteTextureTxnId
+aTxnId
+=
+0
 )
 ;
 bool
