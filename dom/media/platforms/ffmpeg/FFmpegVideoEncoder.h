@@ -121,14 +121,14 @@ DOM_MEDIA_PLATFORMS_FFMPEG_FFMPEGVIDEOENCODER_H_
 #
 include
 "
-PlatformEncoderModule
+FFmpegLibWrapper
 .
 h
 "
 #
 include
 "
-FFmpegLibWrapper
+PlatformEncoderModule
 .
 h
 "
