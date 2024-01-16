@@ -93,6 +93,7 @@ function
 value
 commit
 direction
+key
 )
 {
 *
@@ -772,7 +773,6 @@ to
 commit
 the
 change
-and
 the
 direction
 of
@@ -783,6 +783,10 @@ to
 be
 *
 selected
+and
+the
+event
+keybode
 .
 Direction
 may
@@ -7715,8 +7719,8 @@ out
 #
 apply
 (
-event
 direction
+key
 )
 {
 if
@@ -7771,6 +7775,7 @@ this
 .
 cancelled
 direction
+key
 )
 ;
 }
@@ -9283,8 +9288,8 @@ this
 #
 apply
 (
-event
 direction
+key
 )
 ;
 /
