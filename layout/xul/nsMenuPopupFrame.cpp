@@ -2749,7 +2749,7 @@ return
 WindowShadow
 :
 :
-Menu
+Panel
 ;
 }
 }
