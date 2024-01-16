@@ -313,9 +313,6 @@ class
 OMTASampler
 ;
 class
-RemoteTextureTxnScheduler
-;
-class
 UiCompositorControllerParent
 ;
 class
@@ -3014,12 +3011,6 @@ CompositionPayload
 >
 >
 mPendingScrollPayloads
-;
-RefPtr
-<
-RemoteTextureTxnScheduler
->
-mRemoteTextureTxnScheduler
 ;
 }
 ;

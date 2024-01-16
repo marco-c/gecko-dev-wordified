@@ -276,9 +276,6 @@ layers
 struct
 ImageCompositeNotificationInfo
 ;
-class
-RemoteTextureTxnScheduler
-;
 /
 *
 *
@@ -838,12 +835,6 @@ RefPtr
 CompositorThreadHolder
 >
 mCompositorThreadHolder
-;
-RefPtr
-<
-RemoteTextureTxnScheduler
->
-mRemoteTextureTxnScheduler
 ;
 }
 ;

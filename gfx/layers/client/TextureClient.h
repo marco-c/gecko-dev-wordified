@@ -2093,16 +2093,6 @@ return
 false
 ;
 }
-virtual
-void
-UseCompositableForwarder
-(
-CompositableForwarder
-*
-aForwarder
-)
-{
-}
 protected
 :
 MOZ_COUNTED_DEFAULT_CTOR

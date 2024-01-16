@@ -1090,10 +1090,6 @@ mSameProcess
 (
 true
 )
-mFwdTransactionCounter
-(
-this
-)
 {
 MOZ_ASSERT
 (
@@ -1178,10 +1174,6 @@ false
 mSameProcess
 (
 false
-)
-mFwdTransactionCounter
-(
-this
 )
 {
 if
