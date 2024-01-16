@@ -853,9 +853,7 @@ keyStatuses
 {
 message
 .
-Append
-(
-nsPrintfCString
+AppendPrintf
 (
 "
 (
@@ -890,7 +888,6 @@ mStatus
 .
 get
 (
-)
 )
 )
 ;
