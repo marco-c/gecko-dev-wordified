@@ -148,9 +148,9 @@ tags
 let
 promise
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

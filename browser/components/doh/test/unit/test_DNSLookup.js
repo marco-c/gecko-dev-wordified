@@ -49,9 +49,9 @@ test_SuccessfulRandomDNSLookup
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -206,9 +206,9 @@ test_SuccessfulSpecifiedDNSLookup
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -359,9 +359,9 @@ test_FailedDNSLookup
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

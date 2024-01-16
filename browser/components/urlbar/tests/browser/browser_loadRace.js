@@ -130,9 +130,9 @@ modifierKeys
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -314,7 +314,7 @@ page
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

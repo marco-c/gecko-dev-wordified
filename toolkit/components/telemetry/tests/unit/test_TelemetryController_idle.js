@@ -288,9 +288,9 @@ request
 let
 gatherPromise
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

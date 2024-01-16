@@ -1402,9 +1402,9 @@ waitForQueryFinished
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

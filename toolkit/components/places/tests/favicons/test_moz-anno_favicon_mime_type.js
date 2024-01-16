@@ -1089,9 +1089,9 @@ this
 .
 done
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

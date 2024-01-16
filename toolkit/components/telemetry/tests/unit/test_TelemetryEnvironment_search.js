@@ -1296,9 +1296,9 @@ notified
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -2159,9 +2159,9 @@ PREFS_TO_WATCH
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

@@ -4550,9 +4550,9 @@ txt
 let
 deferRequestReceived
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -5428,9 +5428,9 @@ response
 let
 deferCancel
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -6745,9 +6745,9 @@ reached
 let
 deferMidway
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

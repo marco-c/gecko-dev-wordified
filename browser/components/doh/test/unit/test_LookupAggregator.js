@@ -79,9 +79,9 @@ false
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -1085,9 +1085,9 @@ test_AbortedLookupAggregator
 let
 deferred
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
