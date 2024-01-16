@@ -1825,6 +1825,7 @@ linkedBrowser
 this
 .
 responsiveFront
+?
 .
 isDestroyed
 (
