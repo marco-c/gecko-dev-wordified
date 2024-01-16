@@ -1352,6 +1352,13 @@ h
 "
 public
 /
+ProfilerBandwidthCounter
+.
+h
+"
+"
+public
+/
 ProfilerCounts
 .
 h

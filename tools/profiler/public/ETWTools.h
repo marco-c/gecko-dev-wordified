@@ -516,7 +516,7 @@ length
 =
 sizeof
 (
-UINT8
+uint8_t
 )
 ;
 }
@@ -535,7 +535,7 @@ input
 type
 .
 constexpr
-UINT8
+uint8_t
 GetTlgInputType
 (
 mozilla
