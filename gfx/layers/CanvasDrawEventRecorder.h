@@ -770,6 +770,9 @@ CheckAndSignalReader
 size_t
 mDefaultBufferSize
 ;
+size_t
+mMaxDefaultBuffers
+;
 uint32_t
 mMaxSpinCount
 ;
