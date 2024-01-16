@@ -3666,9 +3666,7 @@ Append
 }
 parameters
 .
-Append
-(
-nsPrintfCString
+AppendPrintf
 (
 "
 %
@@ -3681,7 +3679,6 @@ mTargetBitrates
 [
 i
 ]
-)
 )
 ;
 }
@@ -4002,9 +3999,7 @@ IsEmpty
 {
 codecSpecificLog
 .
-Append
-(
-nsPrintfCString
+AppendPrintf
 (
 "
 (
@@ -4019,7 +4014,6 @@ mString
 .
 get
 (
-)
 )
 )
 ;
@@ -4100,9 +4094,7 @@ unknown
 }
 codecSpecificLog
 .
-Append
-(
-nsPrintfCString
+AppendPrintf
 (
 "
 level
@@ -4124,7 +4116,6 @@ mString
 .
 get
 (
-)
 )
 )
 ;
