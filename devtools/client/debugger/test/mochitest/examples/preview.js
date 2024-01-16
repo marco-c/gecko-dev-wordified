@@ -345,7 +345,7 @@ breakFn
 ;
 }
 function
-primitives
+invalidTargets
 (
 )
 {
@@ -361,6 +361,16 @@ null
 ;
 42
 ;
+const
+myVar
+=
+"
+foo
+"
+;
 debugger
+;
+return
+myVar
 ;
 }
