@@ -1412,7 +1412,7 @@ static_assert
 mozilla
 :
 :
-AreAllBytesTiedFields
+AssertTiedFieldsAreExhaustive
 <
 T
 >
