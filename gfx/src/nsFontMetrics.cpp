@@ -2345,6 +2345,15 @@ provider
 ;
 }
 }
+mozilla
+:
+:
+gfx
+:
+:
+PaletteCache
+paletteCache
+;
 gfxTextRun
 :
 :
@@ -2352,6 +2361,7 @@ DrawParams
 params
 (
 aContext
+paletteCache
 )
 ;
 params
@@ -2498,6 +2508,15 @@ provider
 ;
 }
 }
+mozilla
+:
+:
+gfx
+:
+:
+PaletteCache
+paletteCache
+;
 gfxTextRun
 :
 :
@@ -2505,6 +2524,7 @@ DrawParams
 params
 (
 aContext
+paletteCache
 )
 ;
 params
