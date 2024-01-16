@@ -174,6 +174,7 @@ stub
 let
 infobar
 =
+await
 InfoBar
 .
 showInfoBarMessage
@@ -729,7 +730,7 @@ notificationStack
 .
 currentNotification
 .
-closeButton
+closeButtonEl
 .
 click
 (
@@ -801,6 +802,7 @@ stub
 let
 infobar
 =
+await
 InfoBar
 .
 showInfoBarMessage
@@ -834,7 +836,7 @@ infobar
 .
 notification
 .
-closeButton
+closeButtonEl
 .
 click
 (
@@ -936,6 +938,7 @@ blank
 ;
 infobar
 =
+await
 InfoBar
 .
 showInfoBarMessage
@@ -1137,6 +1140,7 @@ stub
 let
 infobar
 =
+await
 InfoBar
 .
 showInfoBarMessage
@@ -1177,6 +1181,7 @@ to
 stack
 2
 notifications
+await
 InfoBar
 .
 showInfoBarMessage
@@ -1221,7 +1226,7 @@ infobar
 .
 notification
 .
-closeButton
+closeButtonEl
 .
 click
 (
@@ -1263,6 +1268,7 @@ message
 again
 infobar
 =
+await
 InfoBar
 .
 showInfoBarMessage
@@ -1320,7 +1326,7 @@ infobar
 .
 notification
 .
-closeButton
+closeButtonEl
 .
 click
 (
