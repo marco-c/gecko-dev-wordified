@@ -89,7 +89,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_PAGE
+SHORT_TEST_PAGE
 }
 async
 browser
@@ -108,7 +108,7 @@ spawn
 (
 browser
 [
-TEST_PAGE
+SHORT_TEST_PAGE
 ]
 url
 =

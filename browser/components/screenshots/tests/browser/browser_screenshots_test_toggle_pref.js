@@ -221,7 +221,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_PAGE
+SHORT_TEST_PAGE
 }
 async
 browser
@@ -1426,7 +1426,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_PAGE
+SHORT_TEST_PAGE
 }
 async
 browser
@@ -1639,7 +1639,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_PAGE
+SHORT_TEST_PAGE
 }
 async
 browser
