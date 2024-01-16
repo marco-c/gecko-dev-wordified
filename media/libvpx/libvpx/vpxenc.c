@@ -6525,7 +6525,7 @@ cfg
 rc_end_usage
 =
 =
-1
+VPX_CBR
 )
 stream
 -

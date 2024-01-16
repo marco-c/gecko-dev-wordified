@@ -1486,6 +1486,13 @@ cpi
 tile_thr_data
 )
 ;
+cpi
+-
+>
+tile_thr_data
+=
+NULL
+;
 vpx_free
 (
 cpi
@@ -1493,6 +1500,13 @@ cpi
 >
 workers
 )
+;
+cpi
+-
+>
+workers
+=
+NULL
 ;
 cpi
 -

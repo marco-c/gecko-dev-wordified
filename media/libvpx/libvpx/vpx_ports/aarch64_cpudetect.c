@@ -683,6 +683,9 @@ getauxval
 AT_HWCAP
 )
 ;
+#
+if
+HAVE_NEON_I8MM
 unsigned
 long
 hwcap2
@@ -692,6 +695,11 @@ getauxval
 AT_HWCAP2
 )
 ;
+#
+endif
+/
+/
+HAVE_NEON_I8MM
 #
 if
 HAVE_NEON

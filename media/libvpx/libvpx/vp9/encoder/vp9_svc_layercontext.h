@@ -1560,6 +1560,16 @@ const
 cpi
 )
 ;
+int
+vp9_svc_check_skip_enhancement_layer
+(
+struct
+VP9_COMP
+*
+const
+cpi
+)
+;
 #
 ifdef
 __cplusplus

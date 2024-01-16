@@ -461,9 +461,6 @@ data
 /
 #
 endif
-int64_t
-last_time_stamp
-;
 int
 ready_for_new_data
 ;

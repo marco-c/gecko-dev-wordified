@@ -172,7 +172,7 @@ to
 noise
 ratio
 (
-PNSR
+PSNR
 )
 .
 *

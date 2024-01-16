@@ -235,8 +235,7 @@ CreateEncoder
 (
 vpx_codec_enc_cfg_t
 cfg
-unsigned
-long
+vpx_enc_deadline_t
 deadline
 const
 unsigned
@@ -537,8 +536,7 @@ VP8Encoder
 (
 vpx_codec_enc_cfg_t
 cfg
-unsigned
-long
+vpx_enc_deadline_t
 deadline
 const
 unsigned
@@ -668,8 +666,7 @@ CreateEncoder
 (
 vpx_codec_enc_cfg_t
 cfg
-unsigned
-long
+vpx_enc_deadline_t
 deadline
 const
 unsigned
@@ -930,8 +927,7 @@ VP9Encoder
 (
 vpx_codec_enc_cfg_t
 cfg
-unsigned
-long
+vpx_enc_deadline_t
 deadline
 const
 unsigned
@@ -1061,8 +1057,7 @@ CreateEncoder
 (
 vpx_codec_enc_cfg_t
 cfg
-unsigned
-long
+vpx_enc_deadline_t
 deadline
 const
 unsigned

@@ -499,8 +499,7 @@ Encoder
 (
 vpx_codec_enc_cfg_t
 cfg
-unsigned
-long
+vpx_enc_deadline_t
 deadline
 const
 unsigned
@@ -1114,8 +1113,7 @@ cfg
 void
 set_deadline
 (
-unsigned
-long
+vpx_enc_deadline_t
 deadline
 )
 {
@@ -1200,8 +1198,7 @@ encoder_
 vpx_codec_enc_cfg_t
 cfg_
 ;
-unsigned
-long
+vpx_enc_deadline_t
 deadline_
 ;
 unsigned
@@ -1853,8 +1850,7 @@ unsigned
 int
 passes_
 ;
-unsigned
-long
+vpx_enc_deadline_t
 deadline_
 ;
 TwopassStatsStore

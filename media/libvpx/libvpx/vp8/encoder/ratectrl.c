@@ -5393,6 +5393,13 @@ this_frame_target
 -
 =
 (
+int
+)
+(
+(
+(
+int64_t
+)
 cpi
 -
 >
@@ -5402,6 +5409,7 @@ percent_low
 )
 /
 200
+)
 ;
 /
 *

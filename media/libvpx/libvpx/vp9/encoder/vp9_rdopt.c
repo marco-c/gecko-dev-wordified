@@ -29344,6 +29344,15 @@ sf
 -
 >
 max_intra_bsize
+&
+&
+cpi
+-
+>
+ref_frame_flags
+!
+=
+0
 )
 {
 ref_frame_skip_mask
