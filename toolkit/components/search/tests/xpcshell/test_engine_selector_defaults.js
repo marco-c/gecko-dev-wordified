@@ -960,6 +960,7 @@ test_default_engines
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG
@@ -1010,6 +1011,7 @@ matched
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG
@@ -1055,6 +1057,7 @@ engine
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG
@@ -1103,6 +1106,7 @@ engine
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG
@@ -1152,6 +1156,7 @@ suffix
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG
@@ -1212,6 +1217,7 @@ test_default_engines_override
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DEFAULTS_OVERRIDE
@@ -1262,6 +1268,7 @@ private
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DEFAULTS_OVERRIDE
@@ -1297,6 +1304,7 @@ engine
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DEFAULTS_OVERRIDE
@@ -1332,6 +1340,7 @@ engine
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DEFAULTS_OVERRIDE
@@ -1372,6 +1381,7 @@ engine
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 CONFIG_DEFAULTS_OVERRIDE

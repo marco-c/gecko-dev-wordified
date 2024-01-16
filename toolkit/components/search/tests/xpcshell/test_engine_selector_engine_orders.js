@@ -984,6 +984,7 @@ test_selector_match_engine_orders
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 ENGINE_ORDERS_CONFIG
@@ -1034,6 +1035,7 @@ distribution
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 ENGINE_ORDERS_CONFIG
@@ -1093,6 +1095,7 @@ region
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 ENGINE_ORDERS_CONFIG
@@ -1150,6 +1153,7 @@ distribution
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 ENGINE_ORDERS_CONFIG
@@ -1219,6 +1223,7 @@ test_selector_match_engine_orders_starts_with
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 STARTS_WITH_WIKI_CONFIG
@@ -1281,6 +1286,7 @@ environment
 "
 )
 ;
+await
 assertActualEnginesEqualsExpected
 (
 STARTS_WITH_WIKI_CONFIG
@@ -1354,6 +1360,7 @@ test_selector_match_engine_orders_with_defaults
 (
 )
 {
+await
 assertActualEnginesEqualsExpected
 (
 DEFAULTS_CONFIG
