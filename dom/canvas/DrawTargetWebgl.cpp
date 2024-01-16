@@ -36117,11 +36117,12 @@ layers
 :
 RemoteTextureOwnerId
 aOwnerId
-base
+layers
 :
 :
-ProcessId
-aPid
+RemoteTextureOwnerClient
+*
+aOwnerClient
 )
 {
 if
@@ -36251,7 +36252,7 @@ CopyToSwapChain
 mFramebuffer
 texType
 options
-aPid
+aOwnerClient
 )
 ;
 }

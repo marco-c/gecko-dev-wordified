@@ -985,6 +985,11 @@ mDormant
 =
 false
 ;
+bool
+mBlocked
+=
+false
+;
 }
 ;
 }

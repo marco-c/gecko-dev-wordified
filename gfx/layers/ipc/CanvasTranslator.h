@@ -1691,6 +1691,10 @@ EnsureRemoteTextureOwner
 (
 RemoteTextureOwnerId
 aOwnerId
+=
+RemoteTextureOwnerId
+(
+)
 )
 ;
 UniquePtr
@@ -1788,6 +1792,10 @@ GetDrawTargetWebgl
 (
 int64_t
 aTextureId
+bool
+aCheckForFallback
+=
+true
 )
 const
 ;
@@ -2140,6 +2148,10 @@ DrawTargetWebgl
 *
 GetDrawTargetWebgl
 (
+bool
+aCheckForFallback
+=
+true
 )
 const
 ;
