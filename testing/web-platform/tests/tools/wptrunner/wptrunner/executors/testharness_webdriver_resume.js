@@ -36,13 +36,10 @@ window
 .
 __wptrunner_url
 =
-"
-%
-(
-url
-)
-s
-"
+arguments
+[
+0
+]
 ;
 window
 .

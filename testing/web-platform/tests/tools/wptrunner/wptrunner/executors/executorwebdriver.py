@@ -165,6 +165,9 @@ script
 asynchronous
 =
 False
+args
+=
+None
 )
 :
         
@@ -188,6 +191,9 @@ return
 method
 (
 script
+args
+=
+args
 )
     
 def
@@ -4169,19 +4175,6 @@ timeout
 )
 :
         
-format_map
-=
-{
-"
-url
-"
-:
-strip_server
-(
-url
-)
-}
-        
 #
 The
 previous
@@ -4333,11 +4326,17 @@ execute_script
 self
 .
 script_resume
-%
-format_map
 asynchronous
 =
 True
+args
+=
+[
+strip_server
+(
+url
+)
+]
 )
             
 #
