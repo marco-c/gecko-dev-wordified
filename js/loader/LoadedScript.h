@@ -148,6 +148,13 @@ ScriptLoadRequest
 .
 h
 "
+#
+include
+"
+ScriptFetchOptions
+.
+h
+"
 class
 nsIURI
 ;
