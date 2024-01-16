@@ -855,11 +855,6 @@ aPolicies
 ;
 private
 :
-void
-EnsureIPCPoliciesRead
-(
-)
-;
 bool
 ShouldThrottleReport
 (
