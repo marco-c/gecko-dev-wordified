@@ -253,7 +253,6 @@ name
 )
 ;
 }
-async
 _displayDataPolicyInfoBar
 (
 request
@@ -344,7 +343,6 @@ notification
 "
 )
 ;
-await
 gNotificationBox
 .
 appendNotification
