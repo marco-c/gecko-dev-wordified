@@ -2051,6 +2051,14 @@ mLocked
 =
 1
 ;
+OpenMode
+mTextureLockMode
+=
+OpenMode
+:
+:
+OPEN_NONE
+;
 }
 ;
 std
