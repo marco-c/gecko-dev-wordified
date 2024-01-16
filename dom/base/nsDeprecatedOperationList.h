@@ -362,3 +362,7 @@ DEPRECATED_OPERATION
 (
 IsExternalCTAP2SecurityKeySupported
 )
+DEPRECATED_OPERATION
+(
+IDBObjectStoreCreateIndexLocale
+)
