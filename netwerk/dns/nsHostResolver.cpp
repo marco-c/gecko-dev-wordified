@@ -2055,6 +2055,14 @@ now
 .
 sNativeHTTPSSupported
 =
+StaticPrefs
+:
+:
+network_dns_native_https_query_win10
+(
+)
+|
+|
 mozilla
 :
 :
