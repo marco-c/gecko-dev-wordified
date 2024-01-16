@@ -6672,6 +6672,13 @@ EnsureDevicesInitialized
 }
 #
 endif
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 mozilla
 :
 :
@@ -6701,6 +6708,7 @@ GetStatusAndFailureIdString
 )
 )
 ;
+}
 if
 (
 gfxConfig
