@@ -489,6 +489,8 @@ id
 id
 )
 }
+return
+;
 }
 else
 {
@@ -1135,8 +1137,12 @@ event
 .
 extra
 .
-unwrap_or_else_default
+unwrap_or_else
 (
+HashMap
+:
+:
+new
 )
 ;
 let
