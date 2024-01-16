@@ -1213,7 +1213,7 @@ analysisType
 :
 Ci
 .
-nsIContentAnalysis
+nsIContentAnalysisRequest
 .
 eBulkDataEntry
 operationTypeForDisplay
