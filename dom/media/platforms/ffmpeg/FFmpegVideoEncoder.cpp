@@ -3840,7 +3840,7 @@ codec
 specific
 settings
 .
-nsCString
+nsAutoCString
 codecSpecificLog
 ;
 if
