@@ -2744,7 +2744,7 @@ EXPECT_EQ
 nonNativeStream
 -
 >
-InputSampleRate
+SampleRate
 (
 )
 static_cast
@@ -3208,7 +3208,7 @@ EXPECT_EQ
 nonNativeStream
 -
 >
-InputSampleRate
+SampleRate
 (
 )
 static_cast
@@ -3720,7 +3720,7 @@ EXPECT_EQ
 nonNativeStream
 -
 >
-InputSampleRate
+SampleRate
 (
 )
 static_cast
@@ -9616,7 +9616,7 @@ inputRate
 stream
 -
 >
-InputSampleRate
+SampleRate
 (
 )
 ;
@@ -10752,7 +10752,7 @@ inputRate
 stream
 -
 >
-InputSampleRate
+SampleRate
 (
 )
 ;
