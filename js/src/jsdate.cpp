@@ -8040,6 +8040,16 @@ IsAsciiLowercaseAlpha
 *
 keyword
 )
+|
+|
+*
+keyword
+=
+=
+'
+\
+0
+'
 )
 ;
 if
