@@ -758,6 +758,15 @@ ionOsrTempData_
 nullptr
 }
 ;
+MainThreadData
+<
+uint32_t
+>
+ionOsrTempDataSize_
+{
+0
+}
+;
 /
 /
 List
