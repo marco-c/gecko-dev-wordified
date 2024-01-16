@@ -732,15 +732,6 @@ const
 {
 return
 mSheet
-?
-mSheet
--
->
-GetRelevantGlobal
-(
-)
-:
-nullptr
 ;
 }
 protected
