@@ -811,6 +811,17 @@ Session
 (
 self
 )
+        
+self
+.
+storage
+=
+modules
+.
+Storage
+(
+self
+)
     
 property
     
