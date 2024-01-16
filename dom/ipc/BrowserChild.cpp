@@ -4040,6 +4040,7 @@ GetDOMWindow
 (
 )
 aChromeFlags
+aModifiers
 aCalledFromJS
 aOpenWindowInfo
 -
