@@ -114,10 +114,6 @@ here
 .
 "
 )
-results
-=
-[
-]
 #
 Official
 source
@@ -730,6 +726,14 @@ test
 "
 in
 f
+or
+"
+lint_license_test_tmp_file
+.
+js
+"
+in
+f
 :
         
 #
@@ -1096,6 +1100,7 @@ license
 )
         
 return
+True
     
 if
 ext
@@ -1162,6 +1167,7 @@ license
 )
         
 return
+True
     
 if
 ext
@@ -1343,6 +1349,26 @@ license
 )
         
 return
+True
+    
+#
+In
+case
+we
+don
+'
+t
+know
+how
+to
+handle
+a
+specific
+format
+.
+    
+return
+False
 class
 HTMLParseError
 (
@@ -1646,6 +1672,11 @@ lintargs
 )
 :
     
+results
+=
+[
+]
+    
 log
 =
 lintargs
@@ -1720,16 +1751,34 @@ f
 )
 :
             
+if
+fix
+and
+fix_me
+(
+log
+f
+)
+:
+                
+fixed
++
+=
+1
+            
+else
+:
+                
 res
 =
 {
-                
+                    
 "
 path
 "
 :
 f
-                
+                    
 "
 message
 "
@@ -1755,7 +1804,7 @@ txt
 "
 #
 noqa
-                
+                    
 "
 level
 "
@@ -1763,9 +1812,9 @@ level
 "
 error
 "
-            
+                
 }
-            
+                
 results
 .
 append
@@ -1780,21 +1829,6 @@ config
 res
 )
 )
-            
-if
-fix
-:
-                
-fix_me
-(
-log
-f
-)
-                
-fixed
-+
-=
-1
         
 if
 is_html_licence_summary
