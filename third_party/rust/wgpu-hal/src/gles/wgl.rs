@@ -4652,7 +4652,7 @@ wgt
 PresentMode
 :
 :
-Mailbox
+Immediate
 =
 >
 false

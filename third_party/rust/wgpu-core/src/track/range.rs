@@ -658,9 +658,7 @@ filter
 move
 |
 &
-&
 (
-ref
 inner
 .
 .
@@ -688,11 +686,8 @@ map
 (
 move
 |
-&
 (
-ref
 inner
-ref
 v
 )
 |

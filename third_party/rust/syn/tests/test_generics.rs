@@ -139,6 +139,10 @@ a
 }
 }
 )
+Token
+!
+[
+]
 GenericParam
 :
 :
@@ -173,6 +177,10 @@ a
 ]
 }
 )
+Token
+!
+[
+]
 GenericParam
 :
 :
@@ -937,6 +945,11 @@ i32
 }
 }
 )
+Token
+!
+[
++
+]
 TypeParamBound
 :
 :
@@ -966,6 +979,10 @@ Send
 ]
 }
 )
+Token
+!
+[
+]
 ]
 }
 )
@@ -980,6 +997,12 @@ Default
 block
 :
 Block
+{
+stmts
+:
+[
+]
+}
 }
 "
 #

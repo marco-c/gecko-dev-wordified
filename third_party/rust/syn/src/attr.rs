@@ -5610,6 +5610,8 @@ discouraged
 :
 :
 Speculative
+as
+_
 ;
 use
 crate

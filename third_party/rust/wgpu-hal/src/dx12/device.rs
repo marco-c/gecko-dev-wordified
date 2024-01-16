@@ -9741,7 +9741,7 @@ CreateFence
 d3d12_ty
 :
 :
-D3D12_FENCE_FLAG_NONE
+D3D12_FENCE_FLAG_SHARED
 &
 d3d12_ty
 :

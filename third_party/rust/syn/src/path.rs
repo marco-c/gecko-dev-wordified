@@ -2057,6 +2057,8 @@ ext
 :
 :
 IdentExt
+as
+_
 ;
 use
 crate
@@ -3114,6 +3116,10 @@ colon2_token
 input
 )
 }
+pub
+(
+crate
+)
 fn
 do_parse
 (

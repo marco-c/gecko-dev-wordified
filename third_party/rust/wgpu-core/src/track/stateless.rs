@@ -331,10 +331,8 @@ iter
 map
 (
 |
-&
 (
 _
-ref
 resource
 )
 |

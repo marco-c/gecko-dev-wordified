@@ -42753,7 +42753,7 @@ serde
 rename_all
 =
 "
-camelCase
+lowercase
 "
 )
 )

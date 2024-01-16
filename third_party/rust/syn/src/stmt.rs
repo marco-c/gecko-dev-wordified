@@ -549,6 +549,8 @@ discouraged
 :
 :
 Speculative
+as
+_
 ;
 use
 crate
@@ -1554,6 +1556,18 @@ Token
 [
 let
 ]
+)
+&
+&
+!
+input
+.
+peek
+(
+token
+:
+:
+Group
 )
 {
 stmt_local

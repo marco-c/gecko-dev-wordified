@@ -481,6 +481,8 @@ Destroy
 raw
 ShaderModule
 {
+:
+?
 }
 "
 self
@@ -2018,6 +2020,8 @@ Destroy
 raw
 ComputePipeline
 {
+:
+?
 }
 "
 self
@@ -4329,6 +4333,8 @@ Destroy
 raw
 RenderPipeline
 {
+:
+?
 }
 "
 self
