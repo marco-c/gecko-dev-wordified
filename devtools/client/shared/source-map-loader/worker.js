@@ -58,14 +58,6 @@ MPL
 .
 *
 /
-/
-*
-eslint
--
-env
-worker
-*
-/
 "
 use
 strict
@@ -102,7 +94,7 @@ getOriginalLocations
 getOriginalSourceText
 getGeneratedRangesForOriginal
 getFileGeneratedRange
-getSourceMapIgnoreList
+loadSourceMap
 clearSourceMaps
 setSourceMapForGeneratedSources
 }
@@ -229,7 +221,7 @@ getOriginalSourceText
 getOriginalStackFrames
 getGeneratedRangesForOriginal
 getFileGeneratedRange
-getSourceMapIgnoreList
+loadSourceMap
 setSourceMapForGeneratedSources
 clearSourceMaps
 }
