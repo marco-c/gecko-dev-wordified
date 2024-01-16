@@ -6394,7 +6394,7 @@ immediately
 *
 *
 param
-aAttrString
+aString
 A
 string
 which
@@ -6424,9 +6424,9 @@ selection
 void
 InsertTextAsCommittingComposition
 (
-NSAttributedString
+NSString
 *
-aAttrString
+aString
 NSRange
 *
 aReplacementRange
@@ -7417,7 +7417,7 @@ aAttrString
 *
 *
 param
-aAttrString
+aString
 An
 inserted
 string
@@ -7445,9 +7445,9 @@ selection
 void
 InsertText
 (
-NSAttributedString
+NSString
 *
-aAttrString
+aString
 NSRange
 *
 aReplacementRange
