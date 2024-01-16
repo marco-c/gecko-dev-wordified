@@ -139,8 +139,9 @@ false
 ;
 for
 (
+let
 key
-in
+of
 aKeys
 )
 {
