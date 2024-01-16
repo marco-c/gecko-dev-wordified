@@ -1484,15 +1484,6 @@ module
 )
 |
 |
-(
-StaticPrefs
-:
-:
-dom_importMaps_enabled
-(
-)
-&
-&
 aType
 .
 EqualsLiteral
@@ -1500,7 +1491,6 @@ EqualsLiteral
 "
 importmap
 "
-)
 )
 ;
 }

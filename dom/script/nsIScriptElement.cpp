@@ -659,14 +659,6 @@ importmap
 .
 if
 (
-aOwnerDoc
--
->
-ImportMapsEnabled
-(
-)
-&
-&
 type
 .
 LowerCaseEqualsASCII
