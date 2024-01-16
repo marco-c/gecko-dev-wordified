@@ -900,7 +900,6 @@ mDecodeQueueSize
 ;
 }
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Configure
 (
@@ -913,7 +912,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Decode
 (
@@ -925,7 +923,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -937,7 +934,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Reset
 (
@@ -946,7 +942,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Close
 (
@@ -1051,7 +1046,6 @@ DecoderTemplate
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 Result
 <
 Ok
@@ -1086,7 +1080,6 @@ nsresult
 aResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 /
 /
 Calling
@@ -1136,7 +1129,6 @@ MediaData
 aData
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 ScheduleDequeueEventIfNeeded
 (
@@ -1154,7 +1146,6 @@ nsAString
 aEventType
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 ProcessControlMessageQueue
 (
@@ -1200,7 +1191,6 @@ template
 typename
 Func
 >
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 QueueATask
 (
@@ -1225,7 +1215,6 @@ ControlMessage
 aMessage
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MessageProcessedResult
 ProcessDecodeMessage
 (
@@ -1237,7 +1226,6 @@ ControlMessage
 aMessage
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MessageProcessedResult
 ProcessFlushMessage
 (
@@ -1259,7 +1247,6 @@ can
 be
 created
 .
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 CreateDecoderAgent
 (
