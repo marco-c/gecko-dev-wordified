@@ -4382,7 +4382,7 @@ Handle
 CalendarRecord
 >
 calendar
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -5693,7 +5693,7 @@ Handle
 ZonedDateTime
 >
 zonedRelativeTo
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -9099,7 +9099,7 @@ Handle
 ZonedDateTime
 >
 relativeTo
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -9861,7 +9861,7 @@ Handle
 ZonedDateTime
 >
 relativeTo
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -9929,7 +9929,7 @@ Handle
 ZonedDateTime
 >
 relativeTo
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -16345,7 +16345,7 @@ Handle
 CalendarRecord
 >
 calendar
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -17127,7 +17127,7 @@ Handle
 CalendarRecord
 >
 calendar
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -17666,7 +17666,7 @@ Handle
 CalendarRecord
 >
 calendar
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -18104,7 +18104,7 @@ Handle
 CalendarRecord
 >
 calendar
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -18997,7 +18997,7 @@ Handle
 CalendarRecord
 >
 calendar
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -23047,7 +23047,6 @@ cx
 dateTime
 offsetBehaviour
 offsetNs
-&
 timeZoneRec
 TemporalDisambiguation
 :
@@ -35001,7 +35000,7 @@ Handle
 ZonedDateTime
 >
 zonedRelativeTo
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -35885,7 +35884,7 @@ Handle
 ZonedDateTime
 >
 zonedRelativeTo
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -36072,7 +36071,7 @@ Handle
 ZonedDateTime
 >
 zonedRelativeTo
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -36275,7 +36274,6 @@ roundingMode
 plainRelativeTo
 calendar
 zonedRelativeTo
-&
 timeZone
 precalculatedPlainDateTime
 result
@@ -36360,7 +36358,7 @@ Handle
 ZonedDateTime
 >
 zonedRelativeTo
-MutableHandle
+Handle
 <
 TimeZoneRecord
 >
@@ -37004,7 +37002,6 @@ duration
 other
 zonedRelativeTo
 calendar
-&
 timeZone
 &
 result
@@ -38420,7 +38417,6 @@ AddZonedDateTime
 (
 cx
 instant
-&
 timeZone
 calendar
 one
@@ -38451,7 +38447,6 @@ AddZonedDateTime
 (
 cx
 instant
-&
 timeZone
 calendar
 two
@@ -43150,7 +43145,6 @@ roundingMode
 plainRelativeTo
 calendar
 zonedRelativeTo
-&
 timeZone
 precalculatedPlainDateTime
 &
@@ -43224,7 +43218,6 @@ smallestUnit
 roundingMode
 zonedRelativeTo
 calendar
-&
 timeZone
 precalculatedPlainDateTime
 &
@@ -43256,7 +43249,6 @@ cx
 roundResult
 largestUnit
 zonedRelativeTo
-&
 timeZone
 precalculatedPlainDateTime
 &
@@ -44423,7 +44415,6 @@ MoveRelativeZonedDateTime
 cx
 zonedRelativeTo
 calendar
-&
 timeZone
 {
 unbalanceResult
@@ -44463,7 +44454,6 @@ cx
 balanceInput
 unit
 intermediate
-&
 timeZone
 &
 balanceResult
@@ -44662,7 +44652,6 @@ Trunc
 plainRelativeTo
 calendar
 zonedRelativeTo
-&
 timeZone
 precalculatedPlainDateTime
 &
