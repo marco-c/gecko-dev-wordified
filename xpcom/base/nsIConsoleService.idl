@@ -141,7 +141,7 @@ This
 helper
 function
 executes
-function
+func
 and
 redirects
 any
@@ -243,7 +243,7 @@ jsval
 targetGlobal
 in
 jsval
-function
+func
 )
 ;
 /
