@@ -8863,7 +8863,7 @@ if
 we
 '
 ve
-recieved
+received
 a
 DeleteEntry
 (

@@ -982,7 +982,7 @@ message
 "
 "
 }
-Recieved
+Received
 {
 eventTypeToString
 (
@@ -1234,7 +1234,7 @@ Events
 need
 to
 be
-recieved
+received
 in
 given
 order
