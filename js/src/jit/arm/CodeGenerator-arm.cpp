@@ -4382,7 +4382,7 @@ __aeabi_idivmod
 ABIType
 :
 :
-General
+Int64
 CheckUnsafeCallWithABI
 :
 :
@@ -5907,7 +5907,7 @@ __aeabi_idivmod
 ABIType
 :
 :
-General
+Int64
 CheckUnsafeCallWithABI
 :
 :
@@ -6654,7 +6654,7 @@ __aeabi_idivmod
 ABIType
 :
 :
-General
+Int64
 CheckUnsafeCallWithABI
 :
 :
@@ -6900,7 +6900,7 @@ __aeabi_idivmod
 ABIType
 :
 :
-General
+Int64
 CheckUnsafeCallWithABI
 :
 :
@@ -18277,7 +18277,7 @@ __aeabi_uidivmod
 ABIType
 :
 :
-General
+Int64
 CheckUnsafeCallWithABI
 :
 :
