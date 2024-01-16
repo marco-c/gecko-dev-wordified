@@ -4454,6 +4454,14 @@ InsertUserEntry
 performanceMeasure
 )
 ;
+MaybeEmitExternalProfilerMarker
+(
+aName
+options
+startMark
+aEndMark
+)
+;
 if
 (
 profiler_is_collecting_markers
