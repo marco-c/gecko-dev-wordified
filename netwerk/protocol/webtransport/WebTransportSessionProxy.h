@@ -1219,6 +1219,11 @@ DatagramOutcome
 aOutCome
 )
 ;
+bool
+CheckServerCertificateIfNeeded
+(
+)
+;
 nsCOMPtr
 <
 nsIChannel
@@ -1230,6 +1235,15 @@ nsCOMPtr
 nsIChannel
 >
 mRedirectChannel
+;
+nsTArray
+<
+RefPtr
+<
+nsIWebTransportHash
+>
+>
+mServerCertHashes
 ;
 nsCOMPtr
 <

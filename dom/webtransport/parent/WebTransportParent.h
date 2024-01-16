@@ -290,13 +290,12 @@ const
 uint32_t
 &
 aCongestionControl
-/
-/
-Sequence
+nsTArray
 <
 WebTransportHash
 >
-*
+&
+&
 aServerCertHashes
 Endpoint
 <

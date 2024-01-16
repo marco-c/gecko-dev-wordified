@@ -463,6 +463,8 @@ host
 /
 success
 )
+[
+]
 Services
 .
 scriptSecurityManager
@@ -772,6 +774,8 @@ host
 /
 success
 )
+[
+]
 Services
 .
 scriptSecurityManager
@@ -866,6 +870,8 @@ host
 /
 redirect
 )
+[
+]
 Services
 .
 scriptSecurityManager
@@ -951,6 +957,8 @@ host
 /
 reject
 )
+[
+]
 Services
 .
 scriptSecurityManager
@@ -1060,6 +1068,8 @@ host
 path
 }
 )
+[
+]
 Services
 .
 scriptSecurityManager
@@ -1193,6 +1203,8 @@ host
 /
 success
 )
+[
+]
 Services
 .
 scriptSecurityManager
@@ -1308,6 +1320,8 @@ host
 /
 success
 )
+[
+]
 Services
 .
 scriptSecurityManager
@@ -1530,6 +1544,8 @@ host
 /
 create_unidi_stream_and_hello
 )
+[
+]
 Services
 .
 scriptSecurityManager
@@ -1741,6 +1757,8 @@ host
 /
 success
 )
+[
+]
 Services
 .
 scriptSecurityManager
@@ -2015,6 +2033,8 @@ host
 /
 create_bidi_stream
 )
+[
+]
 Services
 .
 scriptSecurityManager
@@ -2252,6 +2272,8 @@ host
 /
 success
 )
+[
+]
 Services
 .
 scriptSecurityManager

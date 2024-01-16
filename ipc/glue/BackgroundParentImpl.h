@@ -712,13 +712,12 @@ const
 uint32_t
 &
 aCongestionControl
-/
-/
-Sequence
+nsTArray
 <
 WebTransportHash
 >
-*
+&
+&
 aServerCertHashes
 Endpoint
 <
@@ -1853,6 +1852,10 @@ ipc
 IPCResult
 RecvRequestCameraAccess
 (
+const
+bool
+&
+aAllowPermissionRequest
 RequestCameraAccessResolver
 &
 &
