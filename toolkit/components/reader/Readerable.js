@@ -353,6 +353,13 @@ youtube
 .
 com
 "
+"
+app
+.
+slack
+.
+com
+"
 ]
 shouldCheckUri
 (
