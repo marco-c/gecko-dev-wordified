@@ -190,6 +190,13 @@ src
 resource
 :
 ;
+img
+-
+src
+'
+self
+'
+;
 "
 ;
 /
