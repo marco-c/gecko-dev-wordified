@@ -1168,8 +1168,6 @@ document
 activeElement
 )
 ;
-return
-;
 }
 }
 catch

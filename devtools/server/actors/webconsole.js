@@ -4775,8 +4775,6 @@ response
 }
 )
 ;
-return
-;
 }
 catch
 (

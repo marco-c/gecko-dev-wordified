@@ -394,8 +394,6 @@ executeScript_ok
 "
 )
 ;
-return
-;
 }
 catch
 (
