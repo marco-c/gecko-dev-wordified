@@ -1493,10 +1493,10 @@ Fn
 Interpret
 >
 (
-MoveOp
+ABIType
 :
 :
-GENERAL
+General
 CheckUnsafeCallWithABI
 :
 :
