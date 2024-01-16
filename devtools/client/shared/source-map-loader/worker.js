@@ -94,7 +94,7 @@ getOriginalLocations
 getOriginalSourceText
 getGeneratedRangesForOriginal
 getFileGeneratedRange
-getSourceMapIgnoreList
+loadSourceMap
 clearSourceMaps
 setSourceMapForGeneratedSources
 }
@@ -221,7 +221,7 @@ getOriginalSourceText
 getOriginalStackFrames
 getGeneratedRangesForOriginal
 getFileGeneratedRange
-getSourceMapIgnoreList
+loadSourceMap
 setSourceMapForGeneratedSources
 clearSourceMaps
 }
