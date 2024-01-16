@@ -193,7 +193,7 @@ URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -238,7 +238,7 @@ info
 "
 Close
 all
-broswer
+browser
 tabs
 .
 .
