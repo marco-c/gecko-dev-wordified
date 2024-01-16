@@ -1944,7 +1944,7 @@ ignore
 file
 notification
 .
-closeButton
+closeButtonEl
 .
 click
 (
@@ -3435,7 +3435,7 @@ button
 .
 notification
 .
-closeButton
+closeButtonEl
 .
 click
 (
@@ -3882,7 +3882,7 @@ button
 .
 notification
 .
-closeButton
+closeButtonEl
 .
 click
 (
