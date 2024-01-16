@@ -219,6 +219,14 @@ windows
 ]
 [
 "
+nsIWindowsAlertNotification
+"
+"
+windows
+"
+]
+[
+"
 nsIWinAppHelper
 "
 "
