@@ -439,6 +439,13 @@ data
 GetStorageConnection
 (
 aOriginMetadata
+/
+*
+aDirectoryLockId
+*
+/
+-
+1
 )
 .
 mapErr

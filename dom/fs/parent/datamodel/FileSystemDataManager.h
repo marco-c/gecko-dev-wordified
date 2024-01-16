@@ -349,6 +349,9 @@ quota
 OriginMetadata
 &
 aOriginMetadata
+const
+int64_t
+aDirectoryLockId
 )
 ;
 class
