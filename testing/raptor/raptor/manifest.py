@@ -125,7 +125,7 @@ dirname
 __file__
 )
 )
-raptor_ini
+raptor_toml
 =
 os
 .
@@ -137,7 +137,7 @@ here
 "
 raptor
 .
-ini
+toml
 "
 )
 tests_dir
@@ -262,7 +262,7 @@ LOG
 .
 info
 (
-raptor_ini
+raptor_toml
 )
     
 test_manifest
@@ -270,7 +270,7 @@ test_manifest
 TestManifest
 (
 [
-raptor_ini
+raptor_toml
 ]
 strict
 =
@@ -315,7 +315,7 @@ info
     
 )
 def
-validate_test_ini
+validate_test_toml
 (
 test_details
 )
@@ -332,7 +332,7 @@ found
 in
 the
 test
-INI
+TOML
     
 valid_settings
 =
@@ -631,7 +631,7 @@ the
 '
 measure
 '
-ini
+toml
 setting
     
 if
@@ -683,6 +683,42 @@ any
 spaces
         
 #
+when
+switching
+to
+.
+toml
+values
+are
+\
+n
+separated
+convert
+to
+a
+'
+'
+and
+this
+will
+        
+#
+support
+scenarios
+where
+we
+have
+older
+.
+ini
+format
+as
+well
+as
+embedded
+commas
+        
+#
 this
 can
 also
@@ -704,6 +740,7 @@ _item
 strip
 (
 )
+            
 for
 _item
 in
@@ -713,6 +750,16 @@ test_details
 alert_on
 "
 ]
+.
+replace
+(
+"
+\
+n
+"
+"
+"
+)
 .
 split
 (
@@ -1526,7 +1573,7 @@ string
 from
 the
 test
-INI
+TOML
         
 for
 m
@@ -2479,7 +2526,7 @@ oskey
     
 A
 test
-ini
+toml
 (
 i
 .
@@ -2491,7 +2538,7 @@ firefox
 -
 tp6
 .
-ini
+toml
 )
 will
 have
@@ -2512,7 +2559,7 @@ name
 [
 the
 -
-ini
+toml
 -
 file
 -
@@ -2543,7 +2590,7 @@ listed
 inside
 the
 test
-ini
+toml
 ;
 -
 or
@@ -2562,7 +2609,7 @@ that
 are
 inside
 the
-ini
+toml
     
 A
 test
@@ -2588,7 +2635,7 @@ subtest
 (
 within
 an
-ini
+toml
 )
 -
 or
@@ -2618,7 +2665,7 @@ of
 a
     
 test
-ini
+toml
 itself
 (
 i
@@ -2718,7 +2765,7 @@ subtests
 in
 a
 specified
-ini
+toml
 .
     
 If
@@ -2829,7 +2876,7 @@ come
 from
 a
 test
-ini
+toml
     
 #
 manifest
@@ -2854,7 +2901,7 @@ tests_to_run
 0
 :
         
-_ini
+_toml
 =
 args
 .
@@ -2862,7 +2909,7 @@ test
 +
 "
 .
-ini
+toml
 "
         
 for
@@ -2892,7 +2939,7 @@ if
 tail
 =
 =
-_ini
+_toml
 :
                 
 #
@@ -2901,7 +2948,7 @@ comes
 from
 matching
 test
-ini
+toml
 file
 name
 so
@@ -3060,7 +3107,7 @@ cycles
 value
 in
 the
-INI
+TOML
 can
 be
 overriden
@@ -3781,7 +3828,7 @@ use
 that
 instead
 of
-INI
+TOML
         
 #
 if
@@ -3789,7 +3836,7 @@ just
 provided
 in
 the
-INI
+TOML
 use
 that
 but
@@ -3923,7 +3970,7 @@ use
 that
 instead
 of
-INI
+TOML
         
 #
 if
@@ -3931,7 +3978,7 @@ just
 provided
 in
 the
-INI
+TOML
 use
 that
 but
@@ -4066,7 +4113,7 @@ use
 that
 instead
 of
-INI
+TOML
         
 if
 args
@@ -4178,7 +4225,7 @@ key
 in
 test
 manifest
-INI
+TOML
             
 _running_cold
 =
@@ -4487,7 +4534,7 @@ test_url
 provided
 in
 the
-INI
+TOML
         
 if
 args
@@ -4820,7 +4867,7 @@ the
 measure
 '
 test
-ini
+toml
 setting
 ;
 however
@@ -4954,7 +5001,7 @@ measure
 =
 '
 test
-INI
+TOML
 line
 to
 list
@@ -5314,7 +5361,7 @@ tests_to_run
 :
             
 if
-validate_test_ini
+validate_test_toml
 (
 test
 )

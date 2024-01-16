@@ -120,7 +120,7 @@ raptor
 /
 raptor
 .
-ini
+toml
 static
 -
 only

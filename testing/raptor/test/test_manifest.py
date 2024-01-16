@@ -90,7 +90,7 @@ get_browser_test_list
     
 get_raptor_test_list
     
-validate_test_ini
+validate_test_toml
 )
 #
 some
@@ -98,7 +98,7 @@ test
 details
 (
 test
-INIs
+TOMLs
 )
 VALID_MANIFESTS
 =
@@ -1076,14 +1076,14 @@ test_details
 VALID_MANIFESTS
 )
 def
-test_validate_test_ini_valid
+test_validate_test_toml_valid
 (
 test_details
 )
 :
     
 assert
-validate_test_ini
+validate_test_toml
 (
 test_details
 )
@@ -1099,7 +1099,7 @@ test_details
 INVALID_MANIFESTS
 )
 def
-test_validate_test_ini_invalid
+test_validate_test_toml_invalid
 (
 test_details
 )
@@ -1108,7 +1108,7 @@ test_details
 assert
 not
 (
-validate_test_ini
+validate_test_toml
 (
 test_details
 )

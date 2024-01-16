@@ -4609,7 +4609,7 @@ __file__
 )
 )
         
-raptor_ini
+raptor_toml
 =
 os
 .
@@ -4621,7 +4621,7 @@ here
 "
 raptor
 .
-ini
+toml
 "
 )
         
@@ -4638,7 +4638,7 @@ test_manifest
 TestManifest
 (
 [
-raptor_ini
+raptor_toml
 ]
 strict
 =
@@ -4847,6 +4847,13 @@ continue
                 
 suite
 =
+"
+.
+"
+.
+join
+(
+                    
 os
 .
 path
@@ -4860,11 +4867,20 @@ manifest
 "
 ]
 )
+.
+split
+(
+"
+.
+"
+)
 [
 :
 -
-4
+1
 ]
+                
+)
                 
 if
 suite
@@ -5009,8 +5025,20 @@ subtest
 .
 format
 (
+                                
 subtest
 measure
+.
+replace
+(
+"
+\
+n
+"
+"
+"
+)
+                            
 )
                         
 test_list
