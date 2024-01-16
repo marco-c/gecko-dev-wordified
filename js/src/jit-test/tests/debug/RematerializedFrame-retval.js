@@ -5,6 +5,8 @@ jit
 -
 test
 |
+slow
+;
 error
 :
 InternalError
