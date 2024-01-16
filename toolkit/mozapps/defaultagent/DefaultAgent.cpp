@@ -2701,6 +2701,12 @@ SendDefaultAgentPing
 browserInfo
 pdfInfo
 activitiesPerformed
+"
+C
++
++
+"
+_ns
 )
 ;
 return
@@ -3025,6 +3031,10 @@ SendDefaultAgentPing
 browserInfo
 pdfInfo
 activitiesPerformed
+"
+JavaScript
+"
+_ns
 )
 ;
 return
