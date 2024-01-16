@@ -445,9 +445,10 @@ aFrame
 ;
 if
 (
-aFrame
+mNextContinuation
 )
-aFrame
+{
+mNextContinuation
 -
 >
 RemoveStateBits
@@ -455,6 +456,7 @@ RemoveStateBits
 NS_FRAME_IS_FLUID_CONTINUATION
 )
 ;
+}
 }
 nsIFrame
 *
@@ -917,9 +919,10 @@ aFrame
 ;
 if
 (
-aFrame
+mNextContinuation
 )
-aFrame
+{
+mNextContinuation
 -
 >
 AddStateBits
@@ -927,6 +930,7 @@ AddStateBits
 NS_FRAME_IS_FLUID_CONTINUATION
 )
 ;
+}
 }
 nsIFrame
 *
