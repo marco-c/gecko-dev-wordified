@@ -36403,6 +36403,12 @@ positioned
 )
 )
 ;
+moveContentsInLineResult
+.
+IgnoreCaretPointSuggestion
+(
+)
+;
 return
 Err
 (
