@@ -34,7 +34,6 @@ strict
 ;
 const
 {
-console
 ConsoleAPI
 }
 =
