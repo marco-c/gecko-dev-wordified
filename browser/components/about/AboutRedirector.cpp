@@ -417,7 +417,7 @@ content
 /
 aboutNetError
 .
-xhtml
+html
 "
 nsIAboutModule
 :

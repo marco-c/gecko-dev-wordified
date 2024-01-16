@@ -671,7 +671,7 @@ idl
 and
 aboutNetError
 .
-xhtml
+html
 .
 let
 faviconErrorPageURI
