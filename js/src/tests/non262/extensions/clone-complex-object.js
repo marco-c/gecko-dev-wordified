@@ -3,6 +3,7 @@
 |
 reftest
 |
+slow
 skip
 -
 if
