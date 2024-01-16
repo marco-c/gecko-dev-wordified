@@ -2656,6 +2656,8 @@ TrackKeyAndVolume
 aTkv
 GraphTime
 aPlayedTime
+uint32_t
+aOutputChannelCount
 )
 ;
 /
