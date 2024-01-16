@@ -1857,10 +1857,14 @@ GetKernel32Exports
 (
 )
 ;
-Span
+Maybe
+<
+Vector
 <
 const
 wchar_t
+*
+>
 >
 GetDependentModules
 (
