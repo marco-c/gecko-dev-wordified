@@ -1978,6 +1978,7 @@ mTrack
 AddAudioOutput
 (
 nullptr
+nullptr
 )
 ;
 }
