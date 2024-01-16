@@ -42505,7 +42505,7 @@ element
 TSStateForInvalidation
 :
 :
-NTH
+NTH_EDGE
 )
 ;
 }
