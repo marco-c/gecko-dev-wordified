@@ -728,16 +728,6 @@ metrics
 .
 yaml
 "
-    
-"
-widget
-/
-windows
-/
-metrics
-.
-yaml
-"
 ]
 #
 Metrics
