@@ -279,9 +279,6 @@ using
 query_map
 ]
 (
-crate
-:
-:
 Statement
 :
 :
@@ -295,9 +292,6 @@ or
 query_and_then
 ]
 (
-crate
-:
-:
 Statement
 :
 :
@@ -1823,8 +1817,7 @@ row
 /
 /
 #
-#
-Failure
+Panics
 /
 /
 /
@@ -1919,6 +1912,10 @@ in
 the
 returned
 query
+#
+[
+track_caller
+]
 pub
 fn
 get_unwrap
@@ -2113,6 +2110,10 @@ also
 be
 returned
 .
+#
+[
+track_caller
+]
 pub
 fn
 get
@@ -2675,8 +2676,7 @@ get_unwrap
 /
 /
 #
-#
-Failure
+Panics
 /
 /
 /
@@ -2745,6 +2745,10 @@ for
 this
 row
 .
+#
+[
+track_caller
+]
 pub
 fn
 get_ref_unwrap

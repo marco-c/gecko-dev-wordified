@@ -2892,15 +2892,6 @@ self
 >
 usize
 {
-use
-std
-:
-:
-convert
-:
-:
-TryInto
-;
 self
 .
 size

@@ -23,6 +23,7 @@ crate
 :
 {
 Connection
+PrepFlags
 Result
 Statement
 }
@@ -1140,9 +1141,13 @@ None
 >
 conn
 .
-prepare
+prepare_with_flags
 (
 trimmed
+PrepFlags
+:
+:
+SQLITE_PREPARE_PERSISTENT
 )
 }
 ;

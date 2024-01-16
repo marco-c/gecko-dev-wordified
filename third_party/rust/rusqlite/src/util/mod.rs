@@ -62,5 +62,8 @@ use
 sqlite_string
 :
 :
+{
+alloc
 SqliteMallocString
+}
 ;

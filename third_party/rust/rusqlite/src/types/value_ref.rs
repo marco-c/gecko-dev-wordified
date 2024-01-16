@@ -324,9 +324,6 @@ crate
 Error
 :
 :
-/
-/
-/
 InvalidColumnType
 )
 .
@@ -422,9 +419,6 @@ crate
 Error
 :
 :
-/
-/
-/
 InvalidColumnType
 )
 .
@@ -526,9 +520,6 @@ crate
 Error
 :
 :
-/
-/
-/
 InvalidColumnType
 )
 .
@@ -625,9 +616,6 @@ crate
 Error
 :
 :
-/
-/
-/
 InvalidColumnType
 )
 .
@@ -854,9 +842,6 @@ crate
 Error
 :
 :
-/
-/
-/
 InvalidColumnType
 )
 .
@@ -1088,9 +1073,6 @@ crate
 Error
 :
 :
-/
-/
-/
 InvalidColumnType
 )
 .
@@ -1389,6 +1371,10 @@ Value
 #
 [
 inline
+]
+#
+[
+track_caller
 ]
 fn
 from
