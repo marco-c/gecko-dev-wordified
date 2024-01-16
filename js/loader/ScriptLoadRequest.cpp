@@ -742,7 +742,7 @@ mReferrer
 (
 aReferrer
 )
-mScriptTextLength
+mReceivedScriptTextLength
 (
 0
 )
