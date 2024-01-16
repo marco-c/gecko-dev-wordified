@@ -1,15 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
--
--
-enable
--
-watchtower
 setJitCompilerOption
 (
 "
