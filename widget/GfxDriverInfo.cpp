@@ -294,7 +294,7 @@ false
 )
 mFeature
 (
-allFeatures
+optionalFeatures
 )
 mFeatureStatus
 (

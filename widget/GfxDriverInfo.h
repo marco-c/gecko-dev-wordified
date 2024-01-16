@@ -1569,7 +1569,8 @@ constexpr
 int32_t
 allFeatures
 =
-0
+-
+1
 ;
 /
 *
@@ -1588,7 +1589,7 @@ int32_t
 optionalFeatures
 =
 -
-1
+2
 ;
 /
 *
