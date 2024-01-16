@@ -35820,6 +35820,7 @@ list
 emoji
 "
 "
+SamsungColorEmoji
 Noto
 Color
 Emoji
