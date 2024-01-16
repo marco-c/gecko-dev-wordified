@@ -1642,6 +1642,13 @@ const
 0
 ;
 virtual
+void
+InvalidateContents
+(
+)
+{
+}
+virtual
 bool
 Lock
 (
