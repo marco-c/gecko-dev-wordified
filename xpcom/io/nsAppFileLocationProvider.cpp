@@ -1884,9 +1884,13 @@ InitWithCFURL
 CocoaFileUtils
 :
 :
-GetProductDirectoryCFURLRef
+GetProductDirectory
 (
 aLocal
+)
+.
+get
+(
 )
 )
 ;

@@ -3935,7 +3935,11 @@ InitWithCFURL
 CocoaFileUtils
 :
 :
-GetTemporaryFolderCFURLRef
+GetTemporaryFolder
+(
+)
+.
+get
 (
 )
 )
