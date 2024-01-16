@@ -46,12 +46,12 @@ js
 const
 URL_BASE
 =
-"
-about
-:
-firefoxview
+{
+getFirefoxViewURL
+(
+)
+}
 #
-"
 ;
 function
 assertCorrectPage
