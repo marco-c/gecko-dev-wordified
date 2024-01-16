@@ -203,12 +203,6 @@ process
 /
 [
 NeedsOtherPid
-ParentProc
-=
-Socket
-ChildProc
-=
-Content
 ]
 sync
 protocol

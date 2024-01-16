@@ -208,12 +208,6 @@ compositor
 /
 [
 NeedsOtherPid
-ParentProc
-=
-compositor
-ChildProc
-=
-Parent
 ]
 sync
 protocol

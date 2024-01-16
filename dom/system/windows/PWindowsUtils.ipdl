@@ -135,11 +135,6 @@ windows
 utility
 process
 .
-[
-ChildProc
-=
-Utility
-]
 protocol
 PWindowsUtils
 {

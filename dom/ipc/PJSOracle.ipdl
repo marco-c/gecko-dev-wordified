@@ -115,11 +115,6 @@ actor
 which
 manages
 PJSValidator
-[
-ChildProc
-=
-Utility
-]
 async
 protocol
 PJSOracle
