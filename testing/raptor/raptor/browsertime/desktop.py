@@ -307,6 +307,7 @@ chrome_args
 .
 extend
 (
+            
 [
 "
 -
@@ -317,7 +318,26 @@ first
 -
 run
 "
+"
+-
+-
+no
+-
+experiments
+"
+"
+-
+-
+disable
+-
+site
+-
+isolation
+-
+trials
+"
 ]
+        
 )
         
 btime_chrome_args
