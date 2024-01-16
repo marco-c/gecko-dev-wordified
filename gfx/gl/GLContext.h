@@ -267,13 +267,6 @@ h
 #
 include
 "
-GLVendor
-.
-h
-"
-#
-include
-"
 nsRegionFwd
 .
 h
