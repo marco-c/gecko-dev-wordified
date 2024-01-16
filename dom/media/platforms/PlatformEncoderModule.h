@@ -833,6 +833,7 @@ dom
 ImageBitmapFormat
 ;
 enum
+class
 BitrateMode
 {
 Constant
