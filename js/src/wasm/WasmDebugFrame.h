@@ -889,6 +889,11 @@ JSContext
 cx
 )
 ;
+void
+discardReturnJSValue
+(
+)
+;
 JS
 :
 :

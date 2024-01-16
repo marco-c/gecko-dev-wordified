@@ -10241,7 +10241,7 @@ bool
 BaseCompiler
 :
 :
-insertLeaveFrame
+insertDebugCollapseFrame
 (
 )
 {
@@ -10264,7 +10264,7 @@ insertBreakablePoint
 CallSiteDesc
 :
 :
-LeaveFrame
+CollapseFrame
 )
 ;
 return
@@ -10273,7 +10273,7 @@ createStackMap
 "
 debug
 :
-leave
+collapse
 -
 frame
 breakpoint
@@ -33706,7 +33706,7 @@ sync
 if
 (
 !
-insertLeaveFrame
+insertDebugCollapseFrame
 (
 )
 )
@@ -34309,7 +34309,7 @@ sync
 if
 (
 !
-insertLeaveFrame
+insertDebugCollapseFrame
 (
 )
 )
@@ -34862,7 +34862,7 @@ sync
 if
 (
 !
-insertLeaveFrame
+insertDebugCollapseFrame
 (
 )
 )

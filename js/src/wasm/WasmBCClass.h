@@ -7635,7 +7635,7 @@ LeaveFrame
 breakpoint
 .
 bool
-insertLeaveFrame
+insertDebugCollapseFrame
 (
 )
 ;
