@@ -949,7 +949,7 @@ window
 addEventListener
 (
 '
-unload
+pagehide
 '
 (
 )
