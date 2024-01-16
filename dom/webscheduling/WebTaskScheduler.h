@@ -785,6 +785,7 @@ GetNextTask
 )
 const
 ;
+virtual
 void
 Disconnect
 (
