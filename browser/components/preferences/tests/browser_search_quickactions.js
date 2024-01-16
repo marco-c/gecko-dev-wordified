@@ -257,7 +257,7 @@ about
 :
 preferences
 #
-privacy
+search
 "
 )
 ;
@@ -472,7 +472,7 @@ about
 :
 preferences
 #
-privacy
+search
 "
 )
 ;
