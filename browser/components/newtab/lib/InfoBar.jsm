@@ -208,6 +208,7 @@ selected
 tab
 *
 /
+async
 showNotification
 (
 browser
@@ -291,6 +292,7 @@ this
 .
 notification
 =
+await
 notificationContainer
 .
 appendNotification
@@ -895,6 +897,7 @@ ftl
 )
 ;
 }
+async
 showInfoBarMessage
 (
 browser
@@ -971,6 +974,7 @@ message
 dispatch
 )
 ;
+await
 notification
 .
 showNotification
