@@ -595,9 +595,9 @@ char
 *
 aTreeShape
 const
-LayerIntRegion
+LayerIntRect
 *
-aVisibleRegions
+aVisibleRects
 =
 nullptr
 const
@@ -621,7 +621,7 @@ Create
 aTreeShape
 *
 updater
-aVisibleRegions
+aVisibleRects
 aTransforms
 )
 ;
@@ -1139,11 +1139,7 @@ LayerRect
 aLayer
 -
 >
-GetVisibleRegion
-(
-)
-.
-GetBounds
+GetVisibleRect
 (
 )
 )
@@ -1413,8 +1409,8 @@ treeShape
 x
 "
 ;
-LayerIntRegion
-layerVisibleRegion
+LayerIntRect
+layerVisibleRect
 [
 ]
 =
@@ -1431,7 +1427,7 @@ LayerIntRect
 CreateScrollData
 (
 treeShape
-layerVisibleRegion
+layerVisibleRect
 )
 ;
 SetScrollableFrameMetrics

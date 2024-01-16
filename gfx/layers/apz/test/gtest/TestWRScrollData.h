@@ -303,7 +303,7 @@ may
 optionally
 provide
 visible
-regions
+rects
 and
 /
 or
@@ -350,9 +350,9 @@ APZUpdater
 &
 aUpdater
 const
-LayerIntRegion
+LayerIntRect
 *
-aVisibleRegions
+aVisibleRects
 =
 nullptr
 const

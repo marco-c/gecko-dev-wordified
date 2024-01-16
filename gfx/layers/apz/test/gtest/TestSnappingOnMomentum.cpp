@@ -178,8 +178,8 @@ treeShape
 x
 "
 ;
-LayerIntRegion
-layerVisibleRegion
+LayerIntRect
+layerVisibleRect
 [
 ]
 =
@@ -196,7 +196,7 @@ LayerIntRect
 CreateScrollData
 (
 treeShape
-layerVisibleRegion
+layerVisibleRect
 )
 ;
 SetScrollableFrameMetrics
@@ -244,14 +244,10 @@ CSSSize
 :
 ToAppUnits
 (
-layerVisibleRegion
+layerVisibleRect
 [
 0
 ]
-.
-GetBounds
-(
-)
 .
 Size
 (

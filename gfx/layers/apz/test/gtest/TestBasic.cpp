@@ -815,8 +815,8 @@ x
 LayerID
 0
 1
-LayerIntRegion
-layerVisibleRegion
+LayerIntRect
+layerVisibleRect
 [
 ]
 =
@@ -929,7 +929,7 @@ Create
 treeShape
 *
 updater
-layerVisibleRegion
+layerVisibleRect
 transforms
 )
 ;

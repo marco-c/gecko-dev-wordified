@@ -2543,8 +2543,8 @@ return
 false
 ;
 }
-LayerIntRegion
-GetVisibleRegion
+LayerIntRect
+GetVisibleRect
 (
 )
 const
@@ -2567,7 +2567,7 @@ return
 mLayer
 -
 >
-GetVisibleRegion
+GetVisibleRect
 (
 )
 ;
@@ -2589,7 +2589,7 @@ GetTransformTyped
 mLayer
 -
 >
-GetVisibleRegion
+GetVisibleRect
 (
 )
 )

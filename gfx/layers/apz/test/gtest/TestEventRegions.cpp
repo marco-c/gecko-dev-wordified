@@ -181,8 +181,8 @@ xx
 )
 "
 ;
-LayerIntRegion
-layerVisibleRegions
+LayerIntRect
+layerVisibleRects
 [
 ]
 =
@@ -224,7 +224,7 @@ half
 CreateScrollData
 (
 treeShape
-layerVisibleRegions
+layerVisibleRects
 )
 ;
 SetScrollableFrameMetrics
@@ -325,8 +325,8 @@ x
 )
 "
 ;
-LayerIntRegion
-layerVisibleRegions
+LayerIntRect
+layerVisibleRects
 [
 ]
 =
@@ -350,7 +350,7 @@ LayerIntRect
 CreateScrollData
 (
 treeShape
-layerVisibleRegions
+layerVisibleRects
 )
 ;
 SetScrollableFrameMetrics
@@ -499,8 +499,8 @@ to
 -
 content
 region
-LayerIntRegion
-layerVisibleRegions
+LayerIntRect
+layerVisibleRects
 [
 ]
 =
@@ -564,7 +564,7 @@ Matrix4x4
 CreateScrollData
 (
 treeShape
-layerVisibleRegions
+layerVisibleRects
 layerTransforms
 )
 ;

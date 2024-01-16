@@ -8190,11 +8190,7 @@ LayerRect
 node
 -
 >
-GetVisibleRegion
-(
-)
-.
-GetBounds
+GetVisibleRect
 (
 )
 )
