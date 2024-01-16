@@ -505,6 +505,18 @@ sNextRecordedTextureId
 +
 +
 ;
+mCanvasChild
+-
+>
+RecordEvent
+(
+RecordedNextTextureId
+(
+mTextureId
+mRemoteTextureOwnerId
+)
+)
+;
 mDT
 =
 mCanvasChild
@@ -513,7 +525,6 @@ mCanvasChild
 CreateDrawTarget
 (
 mTextureId
-mRemoteTextureOwnerId
 mSize
 mFormat
 )

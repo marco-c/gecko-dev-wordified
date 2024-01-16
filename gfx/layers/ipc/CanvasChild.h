@@ -189,9 +189,6 @@ layers
 class
 CanvasDrawEventRecorder
 ;
-struct
-RemoteTextureOwnerId
-;
 class
 CanvasChild
 final
@@ -550,10 +547,6 @@ CreateDrawTarget
 (
 int64_t
 aTextureId
-const
-RemoteTextureOwnerId
-&
-aTextureOwnerId
 gfx
 :
 :
