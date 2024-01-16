@@ -1624,13 +1624,6 @@ optInPartitioning
 true
 ]
 ]
-expectedBlockingNotifications
-:
-Ci
-.
-nsIWebProgressListener
-.
-STATE_COOKIES_BLOCKED_FOREIGN
 thirdPartyPage
 :
 TEST_4TH_PARTY_PAGE
@@ -1853,13 +1846,6 @@ optInPartitioning
 true
 ]
 ]
-expectedBlockingNotifications
-:
-Ci
-.
-nsIWebProgressListener
-.
-STATE_COOKIES_BLOCKED_FOREIGN
 thirdPartyPage
 :
 TEST_4TH_PARTY_PAGE
