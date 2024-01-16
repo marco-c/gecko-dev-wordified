@@ -5304,10 +5304,6 @@ newtab
 '
 &
 &
-!
-launchOnLoginEnabled
-&
-&
 '
 browser
 .
@@ -5345,6 +5341,10 @@ isDefaultBrowser
 &
 !
 activeNotifications
+&
+&
+!
+launchOnLoginEnabled
 }
 {
 id
@@ -5596,10 +5596,6 @@ newtab
 '
 &
 &
-!
-launchOnLoginEnabled
-&
-&
 '
 browser
 .
@@ -5673,6 +5669,10 @@ date
 {
 FOURTEEN_DAYS_IN_MS
 }
+&
+&
+!
+launchOnLoginEnabled
 }
 {
 id
