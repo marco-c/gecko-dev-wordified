@@ -4533,43 +4533,6 @@ exe
             
 )
         
-elif
-target_platform
-(
-)
-=
-=
-"
-Darwin
-"
-:
-            
-self
-.
-target_bin
-=
-os
-.
-path
-.
-join
-(
-                
-buildconfig
-.
-topobjdir
-"
-dist
-"
-"
-bin
-"
-"
-firefox
-"
-            
-)
-        
 else
 :
             
