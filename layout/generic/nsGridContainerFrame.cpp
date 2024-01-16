@@ -22998,13 +22998,16 @@ aContainerSize
 ;
 /
 /
-Helper
+Recursive
+helper
 for
 CollectSubgridItemsForAxis
+(
+)
 .
 static
 void
-CollectSubgridForAxis
+CollectSubgridItemsForAxisHelper
 (
 LogicalAxis
 aAxis
@@ -23305,7 +23308,7 @@ Prop
 )
 )
 ;
-CollectSubgridForAxis
+CollectSubgridItemsForAxisHelper
 (
 aAxis
 aContainerWM
@@ -23441,7 +23444,7 @@ Prop
 )
 )
 ;
-CollectSubgridForAxis
+CollectSubgridItemsForAxisHelper
 (
 aAxis
 mWM
