@@ -226,7 +226,6 @@ getBreakpointSources
 getShouldPauseOnDebuggerStatement
 getShouldPauseOnExceptions
 getShouldPauseOnCaughtExceptions
-supportsDebuggerStatementIgnore
 }
 from
 "
@@ -508,12 +507,6 @@ isEmpty
 }
 )
 }
-this
-.
-props
-.
-supportsDebuggerStatementIgnore
-?
 React
 .
 createElement
@@ -549,8 +542,6 @@ this
 togglePauseOnDebuggerStatement
 }
 )
-:
-null
 React
 .
 createElement
@@ -819,12 +810,6 @@ state
 shouldPauseOnCaughtExceptions
 :
 getShouldPauseOnCaughtExceptions
-(
-state
-)
-supportsDebuggerStatementIgnore
-:
-supportsDebuggerStatementIgnore
 (
 state
 )
