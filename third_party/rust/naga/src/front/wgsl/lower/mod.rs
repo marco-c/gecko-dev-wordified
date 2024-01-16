@@ -9800,6 +9800,7 @@ map
 |
 expr
 |
+{
 self
 .
 expression
@@ -9811,12 +9812,15 @@ ctx
 .
 as_expression
 (
-block
+&
+mut
+continuing
 &
 mut
 emitter
 )
 )
+}
 )
 .
 transpose
