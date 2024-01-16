@@ -174,8 +174,6 @@ aShell
 ComputedStyle
 *
 aStyle
-nsFrameState
-aFlags
 )
 ;
 virtual

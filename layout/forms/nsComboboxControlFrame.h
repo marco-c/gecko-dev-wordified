@@ -320,8 +320,6 @@ aPresShell
 ComputedStyle
 *
 aStyle
-nsFrameState
-aFlags
 )
 ;
 friend

@@ -172,8 +172,6 @@ aShell
 ComputedStyle
 *
 aStyle
-nsFrameState
-aFlags
 )
 {
 nsSelectsAreaFrame
@@ -226,8 +224,6 @@ it
 >
 AddStateBits
 (
-aFlags
-|
 NS_BLOCK_FLOAT_MGR
 )
 ;
