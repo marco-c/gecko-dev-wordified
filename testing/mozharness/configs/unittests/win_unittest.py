@@ -1400,8 +1400,6 @@ mochitest
 -
 browser
 -
-chrome
--
 screenshots
 "
 :

@@ -1151,8 +1151,6 @@ mochitest
 -
 browser
 -
-chrome
--
 screenshots
 "
 :

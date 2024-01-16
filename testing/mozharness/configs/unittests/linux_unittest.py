@@ -1504,8 +1504,6 @@ mochitest
 -
 browser
 -
-chrome
--
 screenshots
 "
 :

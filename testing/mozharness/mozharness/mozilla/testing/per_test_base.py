@@ -2023,8 +2023,6 @@ mochitest
 -
 browser
 -
-chrome
--
 screenshots
 "
 #
