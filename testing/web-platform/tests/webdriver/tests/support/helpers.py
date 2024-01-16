@@ -344,7 +344,7 @@ setWindowRect
             
 #
 Only
-resize
+restore
 if
 needed
 to
@@ -381,6 +381,25 @@ id
 c4
             
 if
+(
+                
+session
+.
+capabilities
+.
+get
+(
+"
+browserName
+"
+)
+!
+=
+"
+chrome
+"
+or
+                
 session
 .
 window
@@ -391,6 +410,26 @@ size
 defaults
 .
 WINDOW_SIZE
+                
+or
+document_hidden
+(
+session
+)
+                
+or
+is_fullscreen
+(
+session
+)
+                
+or
+is_maximized
+(
+session
+)
+            
+)
 :
                 
 session
