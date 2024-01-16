@@ -8673,9 +8673,9 @@ this
 .
 _rebuilding
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

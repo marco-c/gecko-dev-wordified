@@ -505,9 +505,9 @@ _observer
 null
 _initDeferred
 :
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 get

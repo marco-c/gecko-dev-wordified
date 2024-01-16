@@ -187,9 +187,9 @@ shutdown
 let
 browserDestroyed
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

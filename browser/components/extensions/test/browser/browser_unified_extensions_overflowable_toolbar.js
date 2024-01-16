@@ -1392,9 +1392,9 @@ _remainingBrowserActions
 NUM_EXTENSIONS
 _deferred
 :
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 get
@@ -1659,9 +1659,9 @@ DEFAULT_WIDGET_IDS
 length
 _deferred
 :
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 get

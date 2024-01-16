@@ -1218,9 +1218,9 @@ original
 let
 stagingCall
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -1238,9 +1238,9 @@ platformVersion
 let
 result
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

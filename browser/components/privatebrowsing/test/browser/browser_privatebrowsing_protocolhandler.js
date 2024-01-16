@@ -190,9 +190,9 @@ linkedBrowser
 let
 promiseFinished
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

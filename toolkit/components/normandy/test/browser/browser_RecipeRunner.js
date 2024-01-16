@@ -5024,9 +5024,9 @@ Normandy
 .
 defaultPrefsHaveBeenApplied
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

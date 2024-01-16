@@ -421,9 +421,9 @@ tests
 var
 _gDeferResponses
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
@@ -677,9 +677,9 @@ midway
 ;
 _gDeferResponses
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;

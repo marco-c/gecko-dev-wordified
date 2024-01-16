@@ -104,9 +104,9 @@ preparePendingTab
 let
 deferredTab
 =
-PromiseUtils
+Promise
 .
-defer
+withResolvers
 (
 )
 ;
