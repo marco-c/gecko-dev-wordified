@@ -720,7 +720,17 @@ StringCharAt
 \
 _
 (
+StringIncludes
+)
+\
+_
+(
 StringIndexOf
+)
+\
+_
+(
+StringLastIndexOf
 )
 \
 _
