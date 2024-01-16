@@ -5781,6 +5781,7 @@ protocol
 )
 or
                         
+f
 "
 '
 {
@@ -5793,6 +5794,7 @@ __class__
 __name__
 }
 '
+object
 has
 no
 attribute
@@ -5809,6 +5811,8 @@ raise
 NotImplementedError
 from
 e
+                    
+raise
         
 except
 self
