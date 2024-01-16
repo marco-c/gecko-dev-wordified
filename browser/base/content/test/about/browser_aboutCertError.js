@@ -620,7 +620,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 GOOD_PAGE_2
@@ -688,7 +688,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 BAD_CERT
@@ -1393,6 +1393,10 @@ tagName
 errorCode
 .
 tagName
+.
+toLowerCase
+(
+)
 }
 ;
 }
@@ -1914,6 +1918,10 @@ ecTagName
 ec
 .
 tagName
+.
+toLowerCase
+(
+)
 cdlTextContent
 :
 cdl
@@ -1924,6 +1932,10 @@ cdlTagName
 cdl
 .
 tagName
+.
+toLowerCase
+(
+)
 }
 ;
 }
@@ -3227,6 +3239,10 @@ errorCode
 )
 .
 tagName
+.
+toLowerCase
+(
+)
 "
 a
 "
@@ -3406,6 +3422,10 @@ errorCode
 )
 .
 tagName
+.
+toLowerCase
+(
+)
 "
 a
 "
