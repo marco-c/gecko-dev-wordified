@@ -230,6 +230,9 @@ PlaybackInfoInit
 class
 ProcessedMediaTrack
 ;
+struct
+SharedDummyTrack
+;
 class
 TimeStamp
 ;

@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+MozPromise
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ThreadSafeWeakPtr
 .
 h
