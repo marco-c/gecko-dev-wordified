@@ -8685,13 +8685,6 @@ aRequest
 mBaseURL
 ;
 }
-aRequest
--
->
-EnsureScript
-(
-)
-;
 MOZ_ASSERT
 (
 aRequest

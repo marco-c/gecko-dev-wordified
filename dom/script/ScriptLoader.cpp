@@ -18663,13 +18663,6 @@ with
 the
 JSScript
 .
-aRequest
--
->
-EnsureScript
-(
-)
-;
 MOZ_ASSERT
 (
 aRequest
