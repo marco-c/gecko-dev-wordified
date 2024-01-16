@@ -491,6 +491,12 @@ instance
 /
 [
 NeedsOtherPid
+ParentProc
+=
+compositor
+ChildProc
+=
+anydom
 ]
 sync
 protocol

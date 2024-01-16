@@ -412,6 +412,9 @@ process
 .
 [
 NeedsOtherPid
+ChildProc
+=
+Utility
 ]
 protocol
 PUtilityProcess
