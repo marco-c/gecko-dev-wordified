@@ -371,6 +371,12 @@ aNewSize
 )
 override
 ;
+ScreenIntCoord
+GetDynamicToolbarOffset
+(
+)
+override
+;
 private
 :
 RefPtr

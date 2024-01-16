@@ -409,6 +409,14 @@ aNewSize
 =
 0
 ;
+virtual
+ScreenIntCoord
+GetDynamicToolbarOffset
+(
+)
+=
+0
+;
 }
 ;
 }
