@@ -1246,6 +1246,11 @@ resourceCommand
 TYPES
 .
 JSTRACER_TRACE
+resourceCommand
+.
+TYPES
+.
+JSTRACER_STATE
 ]
 {
 onAvailable
@@ -2008,6 +2013,11 @@ resourceCommand
 TYPES
 .
 JSTRACER_TRACE
+resourceCommand
+.
+TYPES
+.
+JSTRACER_STATE
 ]
 {
 onAvailable
