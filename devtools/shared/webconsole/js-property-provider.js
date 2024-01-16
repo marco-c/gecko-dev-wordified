@@ -770,7 +770,7 @@ next
 line
 complexity
 function
-JSPropertyProvider
+jsPropertyProvider
 (
 {
 dbgObject
@@ -4909,13 +4909,13 @@ result
 ;
 exports
 .
-JSPropertyProvider
+jsPropertyProvider
 =
 DevToolsUtils
 .
 makeInfallible
 (
-JSPropertyProvider
+jsPropertyProvider
 )
 ;
 /
@@ -4932,7 +4932,7 @@ tests
 )
 exports
 .
-FallibleJSPropertyProvider
+fallibleJsPropertyProvider
 =
-JSPropertyProvider
+jsPropertyProvider
 ;

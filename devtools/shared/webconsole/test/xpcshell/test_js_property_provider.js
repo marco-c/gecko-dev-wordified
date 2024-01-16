@@ -34,9 +34,9 @@ strict
 ;
 const
 {
-FallibleJSPropertyProvider
+fallibleJsPropertyProvider
 :
-JSPropertyProvider
+jsPropertyProvider
 }
 =
 require
@@ -669,7 +669,7 @@ options
 )
 =
 >
-JSPropertyProvider
+jsPropertyProvider
 (
 {
 dbgObject
@@ -5405,7 +5405,7 @@ The
 results
 returned
 by
-JSPropertyProvider
+jsPropertyProvider
 .
 *
 /
@@ -5460,7 +5460,7 @@ The
 results
 returned
 by
-JSPropertyProvider
+jsPropertyProvider
 .
 *
 param
@@ -5573,7 +5573,7 @@ The
 results
 returned
 by
-JSPropertyProvider
+jsPropertyProvider
 .
 *
 param
@@ -5590,7 +5590,7 @@ should
 be
 returned
 by
-JsPropertyProvider
+jsPropertyProvider
 .
 *
 /

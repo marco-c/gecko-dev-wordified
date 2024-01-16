@@ -375,7 +375,7 @@ lazyRequireGetter
 (
 this
 "
-JSPropertyProvider
+jsPropertyProvider
 "
 "
 resource
@@ -6900,7 +6900,7 @@ evalGlobal
 const
 result
 =
-JSPropertyProvider
+jsPropertyProvider
 (
 {
 dbgObject

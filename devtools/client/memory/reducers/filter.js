@@ -90,6 +90,7 @@ module
 exports
 =
 function
+filterReducer
 (
 filterString
 =
