@@ -1845,6 +1845,7 @@ Range
 const
 CharT
 >
+&
 chars
 char
 quote
@@ -1986,6 +1987,7 @@ Range
 const
 Latin1Char
 >
+&
 chars
 char
 quote
@@ -2015,6 +2017,7 @@ Range
 const
 char16_t
 >
+&
 chars
 char
 quote
@@ -2044,6 +2047,7 @@ Range
 const
 Latin1Char
 >
+&
 chars
 char
 quote
@@ -2073,6 +2077,7 @@ Range
 const
 char16_t
 >
+&
 chars
 char
 quote

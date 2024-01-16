@@ -465,6 +465,7 @@ Range
 const
 char16_t
 >
+&
 tbchars
 )
 {
@@ -1062,6 +1063,7 @@ Range
 <
 CharT
 >
+&
 chars
 )
 {
@@ -1205,6 +1207,7 @@ Range
 <
 Latin1Char
 >
+&
 chars
 )
 ;
@@ -1226,6 +1229,7 @@ Range
 <
 char16_t
 >
+&
 chars
 )
 ;
@@ -1248,6 +1252,7 @@ Range
 const
 Latin1Char
 >
+&
 chars
 )
 ;
@@ -1270,6 +1275,7 @@ Range
 const
 char16_t
 >
+&
 chars
 )
 ;
@@ -1291,6 +1297,7 @@ Range
 <
 Latin1Char
 >
+&
 chars
 )
 ;
@@ -1312,6 +1319,7 @@ Range
 <
 char16_t
 >
+&
 chars
 )
 ;
@@ -1334,6 +1342,7 @@ Range
 const
 Latin1Char
 >
+&
 chars
 )
 ;
@@ -1356,6 +1365,7 @@ Range
 const
 char16_t
 >
+&
 chars
 )
 ;

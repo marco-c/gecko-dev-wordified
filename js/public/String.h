@@ -1466,6 +1466,7 @@ JS_CopyStringChars
 JSContext
 *
 cx
+const
 mozilla
 :
 :
@@ -1473,6 +1474,7 @@ Range
 <
 char16_t
 >
+&
 dest
 JSString
 *

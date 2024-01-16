@@ -4239,6 +4239,7 @@ Range
 const
 CharT
 >
+&
 chars
 char
 quote
