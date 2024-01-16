@@ -1113,10 +1113,6 @@ ProcessScriptElement
 nsIScriptElement
 *
 aElement
-const
-nsAutoString
-&
-aTypeAttr
 )
 ;
 /
@@ -2396,8 +2392,6 @@ aAsync
 bool
 aDefer
 bool
-aNoModule
-bool
 aLinkPreload
 const
 ReferrerPolicy
@@ -2755,10 +2749,6 @@ nsIScriptElement
 aElement
 ScriptKind
 aScriptKind
-const
-nsAutoString
-&
-aTypeAttr
 nsIContent
 *
 aScriptContent
@@ -2865,10 +2855,6 @@ aDocument
 nsIScriptElement
 *
 aElement
-const
-nsAString
-&
-aType
 const
 nsAString
 &

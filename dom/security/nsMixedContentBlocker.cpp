@@ -1285,12 +1285,6 @@ ShouldLoad
 (
 newUri
 loadInfo
-"
-"
-_ns
-/
-/
-aMimeGuess
 &
 decision
 )
@@ -1420,10 +1414,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeGuess
 int16_t
 *
 aDecision
@@ -1490,7 +1480,6 @@ false
 aHadInsecureImageRedirect
 aContentLocation
 aLoadInfo
-aMimeGuess
 true
 aDecision
 )
@@ -2682,10 +2671,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeGuess
 bool
 aReportError
 int16_t
@@ -7164,10 +7149,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeGuess
 int16_t
 *
 aDecision
@@ -7245,7 +7226,6 @@ ShouldLoad
 (
 aContentLocation
 aLoadInfo
-aMimeGuess
 aDecision
 )
 ;

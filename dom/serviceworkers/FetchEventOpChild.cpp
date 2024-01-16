@@ -529,9 +529,6 @@ NS_CheckContentLoadPolicy
 (
 uri
 aLoadInfo
-"
-"
-_ns
 &
 decision
 )

@@ -5976,12 +5976,6 @@ NS_CheckContentLoadPolicy
 (
 aTargetURI
 secCheckLoadInfo
-"
-text
-/
-css
-"
-_ns
 &
 shouldLoad
 nsContentUtils

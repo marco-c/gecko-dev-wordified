@@ -11438,10 +11438,6 @@ secCheckLoadInfo
 /
 /
 aLoadinfo
-aMimeTypeGuess
-/
-/
-aMimeGuess
 false
 /
 /

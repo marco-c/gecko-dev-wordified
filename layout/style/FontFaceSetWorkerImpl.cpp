@@ -2005,13 +2005,6 @@ get
 (
 )
 secCheckLoadInfo
-"
-"
-_ns
-/
-/
-mime
-type
 &
 shouldLoad
 nsContentUtils

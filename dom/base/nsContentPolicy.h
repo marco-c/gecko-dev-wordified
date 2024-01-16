@@ -235,10 +235,6 @@ aURI
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-mimeGuess
 int16_t
 *
 decision

@@ -24860,13 +24860,6 @@ NS_CheckContentLoadPolicy
 (
 aURI
 secCheckLoadInfo
-"
-"
-_ns
-/
-/
-mime
-guess
 &
 decision
 GetContentPolicy

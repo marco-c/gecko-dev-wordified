@@ -10193,9 +10193,6 @@ NS_CheckContentLoadPolicy
 (
 uri
 secCheckLoadInfo
-"
-"
-_ns
 &
 shouldLoad
 nsContentUtils

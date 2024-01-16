@@ -353,10 +353,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeGuess
 int16_t
 *
 aDecision
@@ -1180,10 +1176,6 @@ aContentLocation
 nsILoadInfo
 *
 aLoadInfo
-const
-nsACString
-&
-aMimeGuess
 int16_t
 *
 aDecision
@@ -1194,7 +1186,6 @@ ShouldLoad
 (
 aContentLocation
 aLoadInfo
-aMimeGuess
 aDecision
 )
 ;

@@ -1016,9 +1016,6 @@ NS_CheckContentLoadPolicy
 (
 aURI
 secCheckLoadInfo
-"
-"
-_ns
 &
 shouldLoad
 nsContentUtils
