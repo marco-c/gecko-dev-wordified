@@ -3393,6 +3393,11 @@ mWaylandDisplay
 true
 )
 ;
+unlink
+(
+mWaylandProxy
+)
+;
 }
 bool
 WaylandProxy
@@ -4168,11 +4173,6 @@ nullptr
 )
 ;
 }
-unlink
-(
-mWaylandProxy
-)
-;
 if
 (
 mProxyServerSocket
