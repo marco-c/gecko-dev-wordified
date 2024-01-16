@@ -2156,7 +2156,6 @@ bar
 "
 )
 ;
-await
 BrowserSearch
 .
 removalOfSearchEngineNotificationBox
