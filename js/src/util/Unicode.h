@@ -873,6 +873,12 @@ js_charinfo
 [
 ]
 ;
+constexpr
+size_t
+CharInfoShift
+=
+6
+;
 inline
 const
 CharacterInfo
@@ -887,7 +893,7 @@ const
 size_t
 shift
 =
-6
+CharInfoShift
 ;
 size_t
 index
