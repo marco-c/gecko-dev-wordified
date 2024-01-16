@@ -15741,7 +15741,7 @@ srcOutput
 =
 GetInputRectInRect
 (
-IN_COLOR_MATRIX_IN
+IN_CONVOLVE_MATRIX_IN
 srcRequest
 )
 ;
