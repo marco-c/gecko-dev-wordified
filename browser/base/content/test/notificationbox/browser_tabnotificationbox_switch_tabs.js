@@ -216,6 +216,7 @@ reason
 )
 ;
 }
+async
 function
 createNotification
 (
@@ -240,6 +241,7 @@ browser
 let
 notification
 =
+await
 notificationBox
 .
 appendNotification
@@ -346,6 +348,7 @@ tab
 "
 )
 ;
+await
 createNotification
 (
 {
@@ -456,6 +459,7 @@ tab
 "
 )
 ;
+await
 createNotification
 (
 {
@@ -696,6 +700,7 @@ open
 browserThree
 )
 ;
+await
 createNotification
 (
 {
@@ -773,6 +778,7 @@ create
 browserThree
 )
 ;
+await
 createNotification
 (
 {
