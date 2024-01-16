@@ -2578,14 +2578,6 @@ mExpirationEvents
 aManagerThread
 )
 {
-/
-/
-TODO
-:
-add
-ClearKey
-CDM
-support
 MOZ_ASSERT
 (
 IsPlayReadyKeySystemAndSupported
@@ -2603,6 +2595,12 @@ aKeySystem
 IsWidevineKeySystem
 (
 mKeySystem
+)
+|
+|
+IsWMFClearKeySystemAndSupported
+(
+aKeySystem
 )
 )
 ;

@@ -4617,6 +4617,17 @@ IsHardwareDecryptionSupported
 (
 )
 )
+|
+|
+IsWMFClearKeySystemAndSupported
+(
+aProxy
+-
+>
+KeySystem
+(
+)
+)
 )
 {
 mEMEPDM

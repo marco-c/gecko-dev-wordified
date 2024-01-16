@@ -417,6 +417,15 @@ nsAString
 aKeySystem
 )
 ;
+bool
+IsWMFClearKeySystemAndSupported
+(
+const
+nsAString
+&
+aKeySystem
+)
+;
 #
 endif
 /
