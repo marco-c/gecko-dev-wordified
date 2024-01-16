@@ -1633,7 +1633,7 @@ NS_ASSERTION
 (
 aIndex
 <
-5
+eNumSelectionTypes
 "
 Index
 out
@@ -1711,7 +1711,7 @@ NS_ASSERTION
 (
 aIndex
 <
-5
+eNumSelectionTypes
 "
 Index
 out
@@ -2600,7 +2600,7 @@ NS_ASSERTION
 (
 aIndex
 <
-5
+eNumSelectionTypes
 "
 aIndex
 is
@@ -2959,7 +2959,7 @@ NS_ASSERTION
 (
 aIndex
 <
-5
+eNumSelectionTypes
 "
 Index
 out
