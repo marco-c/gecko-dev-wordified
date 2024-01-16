@@ -669,9 +669,6 @@ aDownloadClassification
 in
 nsIReferrerInfo
 aReferrerInfo
-[
-optional
-]
 in
 boolean
 aOpenDownloadsListOnStart
