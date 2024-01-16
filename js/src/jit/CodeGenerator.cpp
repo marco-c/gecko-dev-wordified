@@ -77003,6 +77003,21 @@ temp1
 )
 )
 ;
+bool
+lowerCase
+=
+lir
+-
+>
+mir
+(
+)
+-
+>
+lowerCase
+(
+)
+;
 using
 Fn
 =
@@ -77016,6 +77031,7 @@ JSContext
 *
 int32_t
 int32_t
+bool
 )
 ;
 if
@@ -77054,6 +77070,10 @@ as
 Register
 >
 (
+)
+Imm32
+(
+lowerCase
 )
 )
 StoreRegisterTo
@@ -77096,6 +77116,7 @@ staticStrings
 (
 )
 liveRegs
+lowerCase
 ool
 -
 >
@@ -77147,6 +77168,10 @@ int32_t
 (
 )
 )
+Imm32
+(
+lowerCase
+)
 )
 StoreRegisterTo
 (
@@ -77179,6 +77204,7 @@ runtime
 staticStrings
 (
 )
+lowerCase
 ool
 -
 >

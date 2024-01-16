@@ -34589,6 +34589,8 @@ const
 LiveRegisterSet
 &
 volatileRegs
+bool
+lowerCase
 Label
 *
 fail
@@ -34611,6 +34613,8 @@ const
 StaticStrings
 &
 staticStrings
+bool
+lowerCase
 Label
 *
 fail
