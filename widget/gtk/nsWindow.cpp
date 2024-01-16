@@ -11117,7 +11117,7 @@ mPopupTrackInHierarchy
 mPopupAnchored
 int
 (
-mPopupHint
+mPopupType
 )
 )
 ;
@@ -11253,7 +11253,7 @@ gtkTypeHint
 ;
 switch
 (
-mPopupHint
+mPopupType
 )
 {
 case
@@ -12276,7 +12276,7 @@ if
 popup
 -
 >
-mPopupHint
+mPopupType
 =
 =
 PopupType
@@ -17453,7 +17453,7 @@ WaylandPopupPrepareForMove
 ;
 if
 (
-mPopupHint
+mPopupType
 =
 =
 PopupType
@@ -37921,7 +37921,7 @@ GetPopupTypeName
 {
 switch
 (
-mPopupHint
+mPopupType
 )
 {
 case
@@ -40216,13 +40216,6 @@ mGtkWindowRoleName
 Popup
 "
 ;
-mPopupHint
-=
-aInitData
--
->
-mPopupHint
-;
 LOG
 (
 "
@@ -40514,7 +40507,7 @@ gtkTypeHint
 ;
 switch
 (
-mPopupHint
+mPopupType
 )
 {
 case
@@ -40652,7 +40645,7 @@ too
 .
 if
 (
-mPopupHint
+mPopupType
 !
 =
 PopupType
@@ -53221,7 +53214,7 @@ parent
 has
 not
 been
-deconified
+deiconified
 .
 gdk_window_show_unraised
 (
