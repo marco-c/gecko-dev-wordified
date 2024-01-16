@@ -2140,6 +2140,10 @@ value
 browsertime
 '
 tp6
+!
+tp6
+-
+bench
 "
 ]
                 
@@ -2437,6 +2441,10 @@ value
 browsertime
 '
 benchmark
+!
+tp6
+-
+bench
 "
 ]
                 
