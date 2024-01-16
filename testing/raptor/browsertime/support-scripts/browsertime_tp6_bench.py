@@ -241,7 +241,7 @@ browsertime
 -
 tp6
 .
-ini
+toml
 "
         
 if
@@ -260,7 +260,7 @@ browsertime
 -
 tp6m
 .
-ini
+toml
 "
         
 test_urls
@@ -325,6 +325,31 @@ name
                     
 )
                 
+)
+        
+if
+len
+(
+playback_pageset_manifests
+)
+=
+=
+0
+:
+            
+raise
+Exception
+(
+"
+Could
+not
+find
+any
+manifests
+for
+testing
+.
+"
 )
         
 test
