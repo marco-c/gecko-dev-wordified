@@ -21106,7 +21106,7 @@ mWindowShadow
 StyleWindowShadow
 :
 :
-Default
+Auto
 )
 mWindowOpacity
 (

@@ -777,7 +777,7 @@ setEffectViewWrapperForStyle
 mozilla
 :
 :
-StyleWindowShadow
+WindowShadow
 )
 aStyle
 ;
@@ -788,7 +788,7 @@ nonatomic
 mozilla
 :
 :
-StyleWindowShadow
+WindowShadow
 shadowStyle
 ;
 -
@@ -2085,7 +2085,7 @@ SetWindowShadowStyle
 mozilla
 :
 :
-StyleWindowShadow
+WindowShadow
 aStyle
 )
 override
@@ -2846,11 +2846,8 @@ mFullscreenTransitionAnimation
 mozilla
 :
 :
-StyleWindowShadow
+WindowShadow
 mShadowStyle
-;
-BOOL
-mIsShadowStyleSet
 ;
 CGFloat
 mBackingScaleFactor
