@@ -7656,7 +7656,7 @@ NvidiaAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -7695,7 +7695,7 @@ NvidiaAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -7763,7 +7763,7 @@ NvidiaAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -7835,7 +7835,7 @@ AtiAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -7879,7 +7879,7 @@ AtiAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -7914,7 +7914,7 @@ AtiAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -8036,7 +8036,7 @@ AtiAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -8320,7 +8320,7 @@ AtiAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -8527,10 +8527,11 @@ APPEND_TO_DRIVER_BLOCKLIST2
 (
 winVer
 devFamily
+\
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 \
 nsIGfxInfo
 :
@@ -8921,7 +8922,7 @@ IntelGMAX4500HD
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -8961,7 +8962,7 @@ IntelHDGraphicsToSandyBridge
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -9073,7 +9074,7 @@ IntelSandyBridge
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -9824,7 +9825,7 @@ MicrosoftAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -10247,7 +10248,7 @@ Bug1137716
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -10832,7 +10833,7 @@ Bug1447141
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -10863,7 +10864,7 @@ Bug1447141
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
@@ -10898,7 +10899,7 @@ NvidiaAll
 GfxDriverInfo
 :
 :
-allFeatures
+optionalFeatures
 nsIGfxInfo
 :
 :
