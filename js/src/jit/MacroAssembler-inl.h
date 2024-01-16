@@ -1453,6 +1453,9 @@ Args_Double_DoubleDoubleDouble
 case
 Args_Double_DoubleDoubleDoubleDouble
 :
+case
+Args_Int64_GeneralGeneral
+:
 break
 ;
 default
