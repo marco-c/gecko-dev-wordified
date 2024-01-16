@@ -2787,7 +2787,7 @@ info
 .
 mVideo
 .
-mImage
+mDisplay
 .
 height
 ;
