@@ -1306,7 +1306,6 @@ GetVariablePackingRows
 variable
 )
 ;
-}
 if
 (
 topNonFullRow_
@@ -1317,6 +1316,7 @@ maxRows_
 return
 false
 ;
+}
 }
 /
 /
@@ -1388,7 +1388,6 @@ GetVariablePackingRows
 variable
 )
 ;
-}
 if
 (
 topNonFullRow_
@@ -1401,6 +1400,7 @@ maxRows_
 return
 false
 ;
+}
 }
 fillColumns
 (
