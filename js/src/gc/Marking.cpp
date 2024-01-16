@@ -13648,16 +13648,7 @@ capacity
 )
 {
 return
-!
-js
-:
-:
-oom
-:
-:
-ShouldFailWithOOM
-(
-)
+true
 ;
 }
 return
