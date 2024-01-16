@@ -178,6 +178,11 @@ Instant
 cpp
 "
 "
+Int96
+.
+cpp
+"
+"
 PlainDate
 .
 cpp
