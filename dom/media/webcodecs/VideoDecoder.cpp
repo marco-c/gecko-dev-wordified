@@ -1514,9 +1514,7 @@ mWidth
 {
 mime
 .
-Append
-(
-nsPrintfCString
+AppendPrintf
 (
 "
 ;
@@ -1530,7 +1528,6 @@ aParam
 .
 mWidth
 )
-)
 ;
 }
 if
@@ -1542,9 +1539,7 @@ mHeight
 {
 mime
 .
-Append
-(
-nsPrintfCString
+AppendPrintf
 (
 "
 ;
@@ -1557,7 +1552,6 @@ d
 aParam
 .
 mHeight
-)
 )
 ;
 }
