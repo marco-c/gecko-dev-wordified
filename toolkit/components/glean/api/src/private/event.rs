@@ -859,8 +859,12 @@ extra
 =
 extra
 .
-unwrap_or_default
+unwrap_or_else
 (
+HashMap
+:
+:
+new
 )
 ;
 self
