@@ -171,6 +171,30 @@ except
 ValueError
 :
             
+print
+(
+                
+f
+"
+Got
+non
+-
+JSON
+output
+:
+{
+line
+}
+"
+                
+file
+=
+sys
+.
+stderr
+            
+)
+            
 return
         
 data
