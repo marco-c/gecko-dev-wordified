@@ -152,7 +152,7 @@ serde_derive
 .
 0
 .
-193
+194
 "
 )
 ]
@@ -403,10 +403,6 @@ clippy
 :
 :
 must_use_candidate
-clippy
-:
-:
-option_if_let_else
 clippy
 :
 :

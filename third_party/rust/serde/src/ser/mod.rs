@@ -664,10 +664,12 @@ if
 *
 features
 =
+\
 [
 "
 rc
 "
+\
 ]
 *
 is
@@ -693,10 +695,12 @@ if
 *
 features
 =
+\
 [
 "
 rc
 "
+\
 ]
 *
 is

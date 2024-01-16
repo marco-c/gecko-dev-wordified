@@ -1486,7 +1486,7 @@ serde
 .
 0
 .
-193
+194
 "
 )
 ]
@@ -1764,10 +1764,6 @@ clippy
 :
 :
 module_name_repetitions
-clippy
-:
-:
-option_if_let_else
 clippy
 :
 :
