@@ -888,6 +888,7 @@ weeks
 days
 largestUnit
 *
+smallestUnit
 plainRelativeTo
 calendarRec
 )
@@ -905,6 +906,8 @@ Duration
 duration
 TemporalUnit
 largestUnit
+TemporalUnit
+smallestUnit
 JS
 :
 :

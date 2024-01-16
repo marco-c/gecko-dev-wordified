@@ -6199,6 +6199,9 @@ toBalance
 settings
 .
 largestUnit
+settings
+.
+smallestUnit
 relativeTo
 calendar
 &

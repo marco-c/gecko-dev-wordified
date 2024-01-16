@@ -2961,6 +2961,9 @@ toBalance
 settings
 .
 largestUnit
+settings
+.
+smallestUnit
 thisDate
 calendarRec
 &
