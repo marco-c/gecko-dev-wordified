@@ -18453,13 +18453,6 @@ mFontPaletteValuesDirty
 =
 false
 ;
-mFontPaletteCache
-.
-SetPaletteValueSet
-(
-mFontPaletteValueSet
-)
-;
 /
 /
 Even
