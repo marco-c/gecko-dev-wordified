@@ -287,15 +287,6 @@ include
 "
 mozilla
 /
-StaticPrefs_fission
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Try
 .
 h
@@ -2743,6 +2734,7 @@ CHROME_DEPENDENT
 &
 aParent
 )
+{
 aParent
 -
 >
@@ -2752,6 +2744,7 @@ GetZLevel
 zLevel
 )
 ;
+}
 #
 endif
 return
@@ -3092,6 +3085,7 @@ if
 (
 aIsHiddenWindow
 )
+{
 widgetInitData
 .
 mWindowType
@@ -3104,7 +3098,9 @@ WindowType
 :
 Invisible
 ;
+}
 else
+{
 widgetInitData
 .
 mWindowType
@@ -3132,6 +3128,7 @@ WindowType
 :
 TopLevel
 ;
+}
 if
 (
 aChromeMask
@@ -3141,12 +3138,14 @@ nsIWebBrowserChrome
 :
 CHROME_SUPPRESS_ANIMATION
 )
+{
 widgetInitData
 .
 mIsAnimationSuppressed
 =
 true
 ;
+}
 if
 (
 aChromeMask
@@ -3156,12 +3155,14 @@ nsIWebBrowserChrome
 :
 CHROME_ALWAYS_ON_TOP
 )
+{
 widgetInitData
 .
 mAlwaysOnTop
 =
 true
 ;
+}
 if
 (
 aChromeMask
@@ -3171,12 +3172,14 @@ nsIWebBrowserChrome
 :
 CHROME_REMOTE_WINDOW
 )
+{
 widgetInitData
 .
 mHasRemoteContent
 =
 true
 ;
+}
 #
 if
 defined
@@ -3509,6 +3512,7 @@ nsIWebBrowserChrome
 :
 CHROME_DEFAULT
 )
+{
 widgetInitData
 .
 mBorderStyle
@@ -3518,6 +3522,7 @@ BorderStyle
 :
 Default
 ;
+}
 else
 if
 (
@@ -3536,6 +3541,7 @@ nsIWebBrowserChrome
 :
 CHROME_ALL
 )
+{
 widgetInitData
 .
 mBorderStyle
@@ -3545,6 +3551,7 @@ BorderStyle
 :
 All
 ;
+}
 else
 {
 widgetInitData
@@ -3572,6 +3579,7 @@ nsIWebBrowserChrome
 :
 CHROME_WINDOW_BORDERS
 )
+{
 widgetInitData
 .
 mBorderStyle
@@ -3582,6 +3590,7 @@ BorderStyle
 :
 Border
 ;
+}
 if
 (
 aChromeMask
@@ -3591,6 +3600,7 @@ nsIWebBrowserChrome
 :
 CHROME_TITLEBAR
 )
+{
 widgetInitData
 .
 mBorderStyle
@@ -3601,6 +3611,7 @@ BorderStyle
 :
 Title
 ;
+}
 if
 (
 aChromeMask
@@ -3610,6 +3621,7 @@ nsIWebBrowserChrome
 :
 CHROME_WINDOW_CLOSE
 )
+{
 widgetInitData
 .
 mBorderStyle
@@ -3620,6 +3632,7 @@ BorderStyle
 :
 Close
 ;
+}
 if
 (
 aChromeMask
@@ -3672,6 +3685,7 @@ nsIWebBrowserChrome
 CHROME_OPENAS_DIALOG
 )
 )
+{
 widgetInitData
 .
 mBorderStyle
@@ -3682,6 +3696,7 @@ BorderStyle
 :
 Maximize
 ;
+}
 }
 /
 /
@@ -3710,6 +3725,7 @@ nsIWebBrowserChrome
 CHROME_OPENAS_DIALOG
 )
 )
+{
 widgetInitData
 .
 mBorderStyle
@@ -3725,6 +3741,7 @@ BorderStyle
 :
 Menu
 ;
+}
 /
 /
 but
@@ -3743,7 +3760,7 @@ aChromeMask
 nsIWebBrowserChrome
 :
 :
-CHROME_WINDOW_MIN
+CHROME_WINDOW_MINIMIZE
 )
 {
 widgetInitData
