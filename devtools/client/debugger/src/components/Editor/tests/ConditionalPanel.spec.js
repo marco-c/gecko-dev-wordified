@@ -374,7 +374,6 @@ ConditionalPanel
 it
 (
 "
-it
 should
 render
 at
@@ -415,7 +414,6 @@ toMatchSnapshot
 it
 (
 "
-it
 should
 render
 with
@@ -469,7 +467,6 @@ toMatchSnapshot
 it
 (
 "
-it
 should
 render
 with
