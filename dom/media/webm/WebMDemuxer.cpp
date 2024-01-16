@@ -141,13 +141,6 @@ endif
 #
 include
 "
-OpusDecoder
-.
-h
-"
-#
-include
-"
 VPXDecoder
 .
 h
