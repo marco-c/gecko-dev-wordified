@@ -5626,14 +5626,6 @@ AsRenderMacIOSurfaceTextureHost
 MOZ_ASSERT
 (
 texture
-|
-|
-aExternalImage
--
->
-IsWrappingAsyncRemoteTexture
-(
-)
 )
 ;
 mTextureHost
