@@ -299,6 +299,10 @@ notification
 messageText
 .
 textContent
+.
+trim
+(
+)
 "
 The
 GlobalTestPlugin
