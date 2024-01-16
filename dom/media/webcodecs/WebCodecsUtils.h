@@ -856,6 +856,11 @@ IsOnMacOS
 (
 )
 ;
+bool
+IsOnLinux
+(
+)
+;
 /
 /
 Wrap
