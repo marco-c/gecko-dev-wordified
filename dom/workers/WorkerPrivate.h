@@ -3550,6 +3550,10 @@ bool
 IsAcceptingEvents
 (
 )
+MOZ_EXCLUDES
+(
+mMutex
+)
 {
 AssertIsOnParentThread
 (
