@@ -2810,6 +2810,7 @@ RecordEvent
 (
 RecordedFilterNodeCreation
 (
+this
 retNode
 aType
 )
@@ -3877,6 +3878,7 @@ RecordEvent
 (
 RecordedCreateSimilarDrawTarget
 (
+this
 similarDT
 .
 get
@@ -4271,6 +4273,7 @@ RecordEvent
 (
 RecordedGradientStopsCreation
 (
+this
 retStops
 aStops
 aNumStops
@@ -4523,6 +4526,7 @@ RecordEvent
 (
 RecordedPathCreation
 (
+this
 pathRecording
 .
 get
