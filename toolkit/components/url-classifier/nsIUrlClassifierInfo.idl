@@ -291,7 +291,6 @@ table
 /
 [
 scriptable
-function
 uuid
 (
 69384f24
@@ -343,6 +342,7 @@ entries
 ;
 [
 scriptable
+function
 uuid
 (
 26e12ea4
@@ -387,7 +387,6 @@ information
 /
 [
 scriptable
-function
 uuid
 (
 411bbff4

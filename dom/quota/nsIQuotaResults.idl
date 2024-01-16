@@ -168,7 +168,6 @@ UsageInfo
 ;
 [
 scriptable
-function
 uuid
 (
 4d8def75
@@ -227,7 +226,6 @@ lastAccessTime
 ;
 [
 scriptable
-function
 uuid
 (
 d8c9328b
@@ -275,7 +273,6 @@ lastAccessed
 [
 scriptable
 builtinclass
-function
 uuid
 (
 96df03d2
@@ -351,7 +348,6 @@ usageInfo
 ;
 [
 scriptable
-function
 uuid
 (
 9827fc69
