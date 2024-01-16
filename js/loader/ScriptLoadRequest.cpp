@@ -1268,6 +1268,9 @@ aCx
 MaybeSourceText
 *
 aMaybeSource
+LoadContextBase
+*
+aLoadContext
 )
 {
 /

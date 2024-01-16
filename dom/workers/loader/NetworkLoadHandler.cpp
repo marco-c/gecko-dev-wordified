@@ -1143,6 +1143,7 @@ mRequest
 >
 SetTextSource
 (
+loadContext
 )
 ;
 /

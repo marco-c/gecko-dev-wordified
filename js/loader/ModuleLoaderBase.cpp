@@ -8277,6 +8277,14 @@ cx
 )
 &
 maybeSource
+aRequest
+-
+>
+mLoadContext
+.
+get
+(
+)
 )
 ;
 if

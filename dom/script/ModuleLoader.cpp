@@ -1870,6 +1870,14 @@ GetScriptSource
 aCx
 &
 maybeSource
+aRequest
+-
+>
+mLoadContext
+.
+get
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

@@ -1232,6 +1232,9 @@ reset
 void
 SetTextSource
 (
+LoadContextBase
+*
+aMaybeLoadContext
 )
 {
 MOZ_ASSERT
@@ -1522,6 +1525,9 @@ aCx
 MaybeSourceText
 *
 aMaybeSource
+LoadContextBase
+*
+aLoadContext
 )
 ;
 void

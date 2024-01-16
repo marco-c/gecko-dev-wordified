@@ -8466,6 +8466,14 @@ GetScriptSource
 aCx
 &
 maybeSource
+aRequest
+-
+>
+mLoadContext
+.
+get
+(
+)
 )
 ;
 if
