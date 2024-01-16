@@ -3362,7 +3362,7 @@ MCU
 .
 HWY_ALIGN_MAX
 coeff_t
-dummy_block
+sink_block
 [
 DCTSIZE2
 ]
@@ -3560,7 +3560,7 @@ it
 is
 OK
 that
-dummy_block
+sink_block
 is
 uninitialized
 because
@@ -3614,7 +3614,7 @@ path
 .
 coeffs
 =
-dummy_block
+sink_block
 ;
 }
 else

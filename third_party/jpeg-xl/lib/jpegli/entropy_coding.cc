@@ -2569,7 +2569,7 @@ Al
 HWY_ALIGN
 constexpr
 coeff_t
-kDummyBlock
+kSinkBlock
 [
 DCTSIZE2
 ]
@@ -3272,7 +3272,7 @@ height_in_blocks
 {
 block
 =
-kDummyBlock
+kSinkBlock
 ;
 }
 else

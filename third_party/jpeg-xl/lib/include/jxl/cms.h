@@ -44,10 +44,10 @@ file
 .
 #
 ifndef
-LIB_JXL_JXL_CMS_H_
+JXL_CMS_H_
 #
 define
-LIB_JXL_JXL_CMS_H_
+JXL_CMS_H_
 /
 /
 ICC
@@ -67,6 +67,15 @@ cms_interface
 h
 >
 #
+include
+<
+jxl
+/
+jxl_cms_export
+.
+h
+>
+#
 ifdef
 __cplusplus
 extern
@@ -76,6 +85,7 @@ C
 {
 #
 endif
+JXL_CMS_EXPORT
 const
 JxlCmsInterface
 *
@@ -93,4 +103,4 @@ endif
 endif
 /
 /
-LIB_JXL_JXL_CMS_H_
+JXL_CMS_H_

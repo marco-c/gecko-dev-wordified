@@ -1680,11 +1680,7 @@ TotalBytes
 )
 ;
 return
-Span
-<
-const
-uint8_t
->
+Bytes
 (
 first_byte_
 +

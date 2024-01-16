@@ -57,9 +57,7 @@ transfer
 function
 .
 Use
-color_management
-.
-h
+JxlCms
 instead
 .
 #

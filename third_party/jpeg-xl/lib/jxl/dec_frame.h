@@ -216,6 +216,17 @@ image_bundle
 .
 h
 "
+#
+include
+"
+lib
+/
+jxl
+/
+image_metadata
+.
+h
+"
 namespace
 jxl
 {
@@ -295,6 +306,9 @@ uint8_t
 next_in
 size_t
 avail_in
+FrameHeader
+*
+frame_header
 ImageBundle
 *
 decoded

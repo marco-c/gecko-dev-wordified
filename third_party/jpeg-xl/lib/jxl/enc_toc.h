@@ -133,7 +133,7 @@ the
 permutation
 vector
 is
-nullptr
+empty
 the
 identity
 /
@@ -164,7 +164,7 @@ vector
 <
 coeff_order_t
 >
-*
+&
 permutation
 BitWriter
 *

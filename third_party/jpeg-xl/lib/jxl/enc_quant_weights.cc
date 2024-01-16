@@ -842,7 +842,7 @@ DequantMatricesEncode
 (
 const
 DequantMatrices
-*
+&
 matrices
 BitWriter
 *
@@ -874,8 +874,7 @@ QuantEncoding
 encodings
 =
 matrices
--
->
+.
 encodings
 (
 )
@@ -1037,7 +1036,7 @@ DequantMatricesEncodeDC
 (
 const
 DequantMatrices
-*
+&
 matrices
 BitWriter
 *
@@ -1060,8 +1059,7 @@ float
 dc_quant
 =
 matrices
--
->
+.
 DCQuants
 (
 )
@@ -1227,6 +1225,7 @@ JXL_CHECK
 (
 DequantMatricesEncodeDC
 (
+*
 matrices
 &
 writer
@@ -1385,6 +1384,7 @@ JXL_CHECK
 (
 DequantMatricesEncode
 (
+*
 matrices
 &
 writer

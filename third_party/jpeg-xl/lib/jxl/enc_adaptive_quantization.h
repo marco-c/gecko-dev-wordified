@@ -453,7 +453,11 @@ void
 FindBestQuantizer
 (
 const
-ImageBundle
+FrameHeader
+&
+frame_header
+const
+Image3F
 *
 linear
 const

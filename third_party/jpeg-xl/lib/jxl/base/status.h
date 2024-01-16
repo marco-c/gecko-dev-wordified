@@ -3017,7 +3017,7 @@ union
 Storage
 {
 char
-dummy_
+placeholder_
 ;
 T
 data_

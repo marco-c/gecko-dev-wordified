@@ -391,7 +391,7 @@ vector
 <
 uint8_t
 >
-dummy_ctx_map
+sink_ctx_map
 ;
 /
 /
@@ -452,7 +452,7 @@ input
 &
 code
 &
-dummy_ctx_map
+sink_ctx_map
 /
 *
 disallow_lz77
@@ -519,7 +519,7 @@ true
 (
 0
 input
-dummy_ctx_map
+sink_ctx_map
 )
 ;
 maxsym

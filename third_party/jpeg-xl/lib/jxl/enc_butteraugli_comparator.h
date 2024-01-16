@@ -176,6 +176,15 @@ ref
 override
 ;
 Status
+SetLinearReferenceImage
+(
+const
+Image3F
+&
+linear
+)
+;
+Status
 CompareWith
 (
 const

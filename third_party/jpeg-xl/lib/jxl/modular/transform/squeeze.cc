@@ -4243,13 +4243,13 @@ shrink
 )
 ;
 Channel
-dummy
+placeholder
 (
 w
 h
 )
 ;
-dummy
+placeholder
 .
 hshift
 =
@@ -4262,7 +4262,7 @@ c
 .
 hshift
 ;
-dummy
+placeholder
 .
 vshift
 =
@@ -4301,7 +4301,7 @@ std
 :
 move
 (
-dummy
+placeholder
 )
 )
 ;

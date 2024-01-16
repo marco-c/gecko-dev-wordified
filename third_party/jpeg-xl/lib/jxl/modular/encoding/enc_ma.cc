@@ -7841,6 +7841,11 @@ Rng
 :
 GeometricDistribution
 dist
+=
+Rng
+:
+:
+MakeGeometric
 (
 fraction
 )

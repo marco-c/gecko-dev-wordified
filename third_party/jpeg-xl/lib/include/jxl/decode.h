@@ -7414,7 +7414,7 @@ details
 *
 /
 JXL_EXPORT
-void
+JxlDecoderStatus
 JxlDecoderSetCms
 (
 JxlDecoder

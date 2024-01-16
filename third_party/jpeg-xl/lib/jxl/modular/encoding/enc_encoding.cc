@@ -4269,7 +4269,7 @@ vector
 <
 ModularMultiplierInfo
 >
-dummy_multiplier_info
+placeholder_multiplier_info
 ;
 StaticPropRange
 range
@@ -4279,7 +4279,7 @@ tree_samples_storage
 PreQuantizeProperties
 (
 range
-dummy_multiplier_info
+placeholder_multiplier_info
 group_pixel_count
 channel_pixel_count
 pixel_samples
@@ -4638,6 +4638,7 @@ tree_tokens
 ]
 code
 context_map
+0
 writer
 kLayerModularTree
 aux_out
@@ -5069,6 +5070,7 @@ tokens_storage
 ]
 code
 context_map
+0
 writer
 layer
 aux_out

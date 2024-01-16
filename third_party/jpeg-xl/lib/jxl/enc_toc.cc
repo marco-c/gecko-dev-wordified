@@ -163,7 +163,7 @@ vector
 <
 coeff_order_t
 >
-*
+&
 permutation
 BitWriter
 *
@@ -193,7 +193,12 @@ size
 ;
 if
 (
+!
 permutation
+.
+empty
+(
+)
 &
 &
 !
@@ -234,8 +239,7 @@ permutation
 JXL_DASSERT
 (
 permutation
--
->
+.
 size
 (
 )
@@ -251,8 +255,7 @@ size
 EncodePermutation
 (
 permutation
--
->
+.
 data
 (
 )
@@ -264,8 +267,7 @@ skip
 /
 0
 permutation
--
->
+.
 size
 (
 )

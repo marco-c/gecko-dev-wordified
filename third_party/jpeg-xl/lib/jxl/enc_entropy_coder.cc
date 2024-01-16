@@ -1347,6 +1347,13 @@ ysize
 (
 )
 ;
+output
+-
+>
+clear
+(
+)
+;
 /
 /
 TODO
@@ -1369,13 +1376,6 @@ output
 >
 reserve
 (
-output
--
->
-size
-(
-)
-+
 3
 *
 xsize_blocks

@@ -172,7 +172,7 @@ unpacked
 }
 }
 struct
-DummyBitReader
+MockBitReader
 {
 uint32_t
 nbits
@@ -355,7 +355,7 @@ i
 +
 )
 {
-DummyBitReader
+MockBitReader
 br
 {
 nbits

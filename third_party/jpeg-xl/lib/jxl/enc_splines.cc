@@ -652,6 +652,7 @@ tokens
 ]
 codes
 context_map
+0
 writer
 layer
 aux_out
