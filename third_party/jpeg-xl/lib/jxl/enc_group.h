@@ -122,6 +122,10 @@ const
 Image3F
 &
 opsin
+const
+Rect
+&
+rect
 Image3F
 *
 dc

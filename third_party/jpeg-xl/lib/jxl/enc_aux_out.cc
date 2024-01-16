@@ -54,6 +54,14 @@ enc_aux_out
 h
 "
 #
+ifndef
+__STDC_FORMAT_MACROS
+#
+define
+__STDC_FORMAT_MACROS
+#
+endif
+#
 include
 <
 inttypes

@@ -61,6 +61,11 @@ algorithm
 #
 include
 <
+cinttypes
+>
+#
+include
+<
 cmath
 >
 #

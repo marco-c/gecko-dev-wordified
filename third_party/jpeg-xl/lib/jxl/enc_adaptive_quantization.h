@@ -363,9 +363,9 @@ Image3F
 &
 opsin
 const
-FrameDimensions
+Rect
 &
-frame_dim
+rect
 ThreadPool
 *
 pool
@@ -464,6 +464,9 @@ const
 Image3F
 &
 opsin
+ImageF
+&
+quant_field
 PassesEncoderState
 *
 enc_state

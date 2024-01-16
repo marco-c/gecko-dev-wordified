@@ -1025,12 +1025,6 @@ CodecFromPath
 pathname
 &
 bits_per_sample
-/
-*
-filename
-*
-/
-nullptr
 &
 extension
 )

@@ -220,14 +220,6 @@ std
 :
 string
 *
-filename
-=
-nullptr
-std
-:
-:
-string
-*
 extension
 =
 nullptr

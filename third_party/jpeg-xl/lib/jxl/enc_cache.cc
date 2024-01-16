@@ -324,6 +324,10 @@ Image3F
 &
 opsin
 const
+Rect
+&
+rect
+const
 JxlCmsInterface
 &
 cms
@@ -610,6 +614,7 @@ ComputeCoefficients
 group_idx
 enc_state
 opsin
+rect
 &
 dc
 )

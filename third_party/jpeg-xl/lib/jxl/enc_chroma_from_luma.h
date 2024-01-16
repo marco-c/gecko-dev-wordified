@@ -190,9 +190,9 @@ void
 Init
 (
 const
-Image3F
+Rect
 &
-opsin
+rect
 )
 ;
 void
@@ -231,6 +231,10 @@ const
 Image3F
 &
 opsin
+const
+Rect
+&
+opsin_rect
 const
 DequantMatrices
 &

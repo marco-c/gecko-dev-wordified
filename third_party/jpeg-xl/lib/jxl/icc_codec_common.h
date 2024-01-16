@@ -1074,11 +1074,11 @@ account
 Status
 CheckOutOfBounds
 (
-size_t
+uint64_t
 a
-size_t
+uint64_t
 b
-size_t
+uint64_t
 size
 )
 ;

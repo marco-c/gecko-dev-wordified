@@ -158,6 +158,10 @@ GaborishInverse
 Image3F
 *
 in_out
+const
+Rect
+&
+rect
 float
 mul
 [

@@ -61,15 +61,6 @@ include
 <
 jxl
 /
-cms
-.
-h
->
-#
-include
-<
-jxl
-/
 cms_interface
 .
 h

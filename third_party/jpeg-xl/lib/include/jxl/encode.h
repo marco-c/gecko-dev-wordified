@@ -6347,7 +6347,7 @@ ypos
 are
 multiples
 of
-128
+8
 .
 xsize
 *
@@ -6356,7 +6356,7 @@ will
 be
 multiples
 of
-128
+8
 unless
 the
 resulting
@@ -6716,7 +6716,7 @@ are
 multiples
 of
 *
-128
+8
 .
 xsize
 ysize
@@ -6724,7 +6724,7 @@ will
 be
 multiples
 of
-128
+8
 unless
 the
 resulting

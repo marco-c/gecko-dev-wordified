@@ -110,6 +110,19 @@ jxl
 /
 base
 /
+common
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
+base
+/
 compiler_specific
 .
 h
@@ -9114,6 +9127,7 @@ description
 RGB_D65_SRG_Rel_Lin
 "
 static
+JXL_MAYBE_UNUSED
 std
 :
 :
@@ -9171,6 +9185,7 @@ another
 colorspace
 .
 static
+JXL_MAYBE_UNUSED
 Status
 MaybeCreateProfile
 (

@@ -80,6 +80,8 @@ lib
 /
 jxl
 /
+base
+/
 exif
 .
 h
