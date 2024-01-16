@@ -393,6 +393,8 @@ Source
 map
 error
 :
+Error
+:
 NetworkError
 when
 attempting

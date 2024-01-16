@@ -1511,7 +1511,10 @@ title
 is
 (
 value
+encodeURIComponent
+(
 STYLESHEET_DATA_URL_CONTENTS
+)
 +
 "
 :
