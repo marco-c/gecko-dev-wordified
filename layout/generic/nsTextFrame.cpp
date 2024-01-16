@@ -68989,13 +68989,6 @@ WordCanWrap
 (
 this
 )
-textStyle
--
->
-WhiteSpaceCanWrap
-(
-this
-)
 isBreakSpaces
 /
 /

@@ -3467,8 +3467,6 @@ bool
 aCanWordWrap
 bool
 aCanWhitespaceWrap
-bool
-aIsBreakSpaces
 /
 /
 Output
