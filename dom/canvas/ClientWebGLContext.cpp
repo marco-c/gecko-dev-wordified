@@ -5830,7 +5830,8 @@ notLost
 info
 .
 error
-.
+-
+>
 empty
 (
 )

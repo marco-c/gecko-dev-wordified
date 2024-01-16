@@ -201,7 +201,8 @@ out
 -
 >
 error
-.
+-
+>
 empty
 (
 )
