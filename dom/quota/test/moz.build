@@ -673,6 +673,6 @@ marionette
 /
 manifest
 .
-ini
+toml
 "
 ]

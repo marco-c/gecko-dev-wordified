@@ -137,7 +137,7 @@ marionette
 /
 marionette
 .
-ini
+toml
 "
 ]
 EXTRA_COMPONENTS

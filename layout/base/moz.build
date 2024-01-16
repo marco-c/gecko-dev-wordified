@@ -977,7 +977,7 @@ marionette
 /
 manifest
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS

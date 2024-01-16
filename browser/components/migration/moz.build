@@ -110,7 +110,7 @@ marionette
 /
 manifest
 .
-ini
+toml
 "
 ]
 MOCHITEST_CHROME_MANIFESTS
