@@ -18685,6 +18685,17 @@ mFetchOptions
 aRequest
 -
 >
+mURI
+)
+;
+classicScript
+-
+>
+SetBaseURL
+(
+aRequest
+-
+>
 mBaseURL
 )
 ;
