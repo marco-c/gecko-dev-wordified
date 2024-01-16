@@ -1419,6 +1419,12 @@ ExtContentPolicy
 :
 TYPE_WEB_TRANSPORT
 :
+case
+ExtContentPolicy
+:
+:
+TYPE_WEB_IDENTITY
+:
 break
 ;
 /
