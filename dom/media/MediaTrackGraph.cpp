@@ -5560,7 +5560,7 @@ AudioOutputChannelCount
 }
 output
 .
-WriteTo
+Mix
 (
 *
 aMixer
