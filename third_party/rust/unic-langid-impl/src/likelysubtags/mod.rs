@@ -321,10 +321,6 @@ binary_search_by_key
 (
 &
 l
-.
-into
-(
-)
 &
 r
 .
@@ -414,10 +410,6 @@ binary_search_by_key
 (
 &
 l
-.
-into
-(
-)
 &
 s
 .
@@ -498,10 +490,6 @@ binary_search_by_key
 (
 &
 l
-.
-into
-(
-)
 )
 |
 (
