@@ -3750,9 +3750,7 @@ join
 (
 f
 "
-ABIType
-:
-:
+ArgType_
 {
 p
 }
@@ -3772,9 +3770,7 @@ ret
 =
 f
 "
-ABIType
-:
-:
+ArgType_
 {
 func_type
 [

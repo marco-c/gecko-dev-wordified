@@ -1779,7 +1779,10 @@ callWithABINoProfiler
 (
 Register
 fun
-ABIType
+MoveOp
+:
+:
+Type
 result
 )
 {
@@ -1798,7 +1801,10 @@ const
 Address
 &
 fun
-ABIType
+MoveOp
+:
+:
+Type
 result
 )
 {
@@ -1878,7 +1884,10 @@ callWithABIPost
 (
 uint32_t
 stackAdjust
-ABIType
+MoveOp
+:
+:
+Type
 result
 bool
 callFromWasm
