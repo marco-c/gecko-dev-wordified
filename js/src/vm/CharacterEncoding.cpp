@@ -1868,6 +1868,7 @@ JSContext
 cx
 const
 UTF8Chars
+&
 src
 OutputFn
 dst
@@ -2665,6 +2666,7 @@ JSContext
 cx
 const
 UTF8Chars
+&
 src
 CharT
 *
@@ -2812,6 +2814,7 @@ JSContext
 cx
 const
 UTF8Chars
+&
 src
 size_t
 *
@@ -3045,6 +3048,7 @@ JSContext
 cx
 const
 UTF8Chars
+&
 utf8
 size_t
 *
@@ -3139,6 +3143,7 @@ JS
 :
 :
 UTF8Chars
+&
 utf8
 size_t
 *
@@ -3314,12 +3319,15 @@ JS
 :
 FindSmallestEncoding
 (
+const
 UTF8Chars
+&
 utf8
 )
 {
 Span
 <
+const
 unsigned
 char
 >
@@ -3400,6 +3408,7 @@ JSContext
 cx
 const
 UTF8Chars
+&
 utf8
 size_t
 *
@@ -3436,6 +3445,7 @@ JSContext
 cx
 const
 UTF8Chars
+&
 utf8
 size_t
 *
@@ -3499,6 +3509,7 @@ JS
 :
 :
 UTF8Chars
+&
 utf8
 size_t
 *
@@ -3623,6 +3634,7 @@ JS
 :
 :
 UTF8Chars
+&
 utfChars
 const
 CharT
@@ -3821,6 +3833,7 @@ JS
 :
 :
 UTF8Chars
+&
 const
 char16_t
 *
@@ -3835,6 +3848,7 @@ JS
 :
 :
 UTF8Chars
+&
 const
 JS
 :
@@ -3856,6 +3870,7 @@ JS
 :
 :
 UTF8Chars
+&
 src
 CharT
 *
@@ -3906,6 +3921,7 @@ InflateUTF8CharsToBuffer
 (
 const
 UTF8Chars
+&
 src
 char16_t
 *
@@ -3925,6 +3941,7 @@ InflateUTF8CharsToBuffer
 (
 const
 UTF8Chars
+&
 src
 JS
 :

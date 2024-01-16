@@ -1760,6 +1760,7 @@ JSContext
 cx
 const
 UTF8Chars
+&
 utf8
 size_t
 *
@@ -1848,6 +1849,7 @@ JSContext
 cx
 const
 UTF8Chars
+&
 utf8
 size_t
 *
@@ -2174,7 +2176,9 @@ JS_PUBLIC_API
 SmallestEncoding
 FindSmallestEncoding
 (
+const
 UTF8Chars
+&
 utf8
 )
 ;
@@ -2247,6 +2251,7 @@ JSContext
 cx
 const
 UTF8Chars
+&
 utf8
 size_t
 *
@@ -2320,6 +2325,7 @@ JSContext
 cx
 const
 UTF8Chars
+&
 utf8
 size_t
 *

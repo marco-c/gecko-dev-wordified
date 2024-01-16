@@ -13202,6 +13202,7 @@ JS
 :
 :
 UTF8Chars
+&
 utf8
 JS
 :
@@ -13404,6 +13405,7 @@ JS
 :
 :
 UTF8Chars
+&
 utf8
 gc
 :
