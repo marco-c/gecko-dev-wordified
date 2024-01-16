@@ -9731,6 +9731,23 @@ MOZ_CRASHREPORTER_NO_REPORT
 "
         
 #
+Disable
+e10s
+        
+self
+.
+env
+[
+"
+MOZ_FORCE_DISABLE_E10S
+"
+]
+=
+"
+1
+"
+        
+#
 Don
 '
 t
