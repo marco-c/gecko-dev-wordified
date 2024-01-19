@@ -197,7 +197,7 @@ GetPresContext
 /
 We
 need
-NS_BLOCK_FLOAT_MGR
+NS_BLOCK_STATIC_BFC
 to
 ensure
 that
@@ -224,7 +224,7 @@ it
 >
 AddStateBits
 (
-NS_BLOCK_FORMATTING_CONTEXT_STATE_BITS
+NS_BLOCK_STATIC_BFC
 )
 ;
 return

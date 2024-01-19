@@ -3608,13 +3608,13 @@ still
 need
 to
 set
-NS_BLOCK_FLOAT_MGR
+NS_BLOCK_STATIC_BFC
 ?
 /
 /
 AddStateBits
 (
-NS_BLOCK_FLOAT_MGR
+NS_BLOCK_STATIC_BFC
 )
 ;
 }
