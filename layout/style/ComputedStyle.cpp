@@ -1282,9 +1282,7 @@ DO_STRUCT_DIFFERENCE_WITH_ARGS
 Display
 (
 *
-StylePosition
-(
-)
+this
 )
 )
 ;
@@ -1343,9 +1341,7 @@ DO_STRUCT_DIFFERENCE_WITH_ARGS
 List
 (
 *
-StyleDisplay
-(
-)
+this
 )
 )
 ;
@@ -1364,9 +1360,7 @@ DO_STRUCT_DIFFERENCE_WITH_ARGS
 Position
 (
 *
-StyleVisibility
-(
-)
+this
 )
 )
 ;
