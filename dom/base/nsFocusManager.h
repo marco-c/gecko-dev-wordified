@@ -3578,7 +3578,7 @@ aEndContent
 .
 *
 /
-nsresult
+void
 GetSelectionLocation
 (
 Document
