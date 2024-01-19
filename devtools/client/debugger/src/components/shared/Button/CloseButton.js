@@ -123,17 +123,6 @@ from
 AccessibleImage
 "
 ;
-import
-"
-.
-/
-styles
-/
-CloseButton
-.
-css
-"
-;
 function
 CloseButton
 (

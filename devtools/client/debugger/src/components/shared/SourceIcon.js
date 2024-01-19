@@ -159,15 +159,6 @@ selectors
 index
 "
 ;
-import
-"
-.
-/
-SourceIcon
-.
-css
-"
-;
 class
 SourceIcon
 extends

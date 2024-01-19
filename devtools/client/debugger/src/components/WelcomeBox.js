@@ -188,15 +188,6 @@ utils
 text
 "
 ;
-import
-"
-.
-/
-WelcomeBox
-.
-css
-"
-;
 export
 class
 WelcomeBox

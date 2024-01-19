@@ -92,15 +92,6 @@ prop
 types
 "
 ;
-import
-"
-.
-/
-Badge
-.
-css
-"
-;
 class
 Badge
 extends

@@ -137,15 +137,6 @@ frames
 index
 "
 ;
-import
-"
-.
-/
-PreviewFunction
-.
-css
-"
-;
 const
 IGNORED_SOURCE_URLS
 =

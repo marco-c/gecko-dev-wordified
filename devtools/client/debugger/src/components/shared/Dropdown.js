@@ -116,15 +116,6 @@ prop
 types
 "
 ;
-import
-"
-.
-/
-Dropdown
-.
-css
-"
-;
 export
 class
 Dropdown

@@ -233,15 +233,6 @@ Button
 index
 "
 ;
-import
-"
-.
-/
-DOMMutationBreakpoints
-.
-css
-"
-;
 const
 localizationTerms
 =

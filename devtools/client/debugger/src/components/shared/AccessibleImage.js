@@ -110,15 +110,6 @@ js
 "
 )
 ;
-import
-"
-.
-/
-AccessibleImage
-.
-css
-"
-;
 const
 AccessibleImage
 =

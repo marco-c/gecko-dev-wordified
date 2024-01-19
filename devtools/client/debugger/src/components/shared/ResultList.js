@@ -164,15 +164,6 @@ result
 list
 "
 ;
-import
-"
-.
-/
-ResultList
-.
-css
-"
-;
 export
 default
 class

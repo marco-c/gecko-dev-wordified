@@ -312,15 +312,6 @@ shared
 ResultList
 "
 ;
-import
-"
-.
-/
-QuickOpenModal
-.
-css
-"
-;
 const
 maxResults
 =

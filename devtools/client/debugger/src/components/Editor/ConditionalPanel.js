@@ -153,15 +153,6 @@ redux
 "
 ;
 import
-"
-.
-/
-ConditionalPanel
-.
-css
-"
-;
-import
 {
 toEditorLine
 }

@@ -163,15 +163,6 @@ js
 "
 )
 ;
-import
-"
-.
-/
-ShortcutsModal
-.
-css
-"
-;
 const
 isMacOS
 =

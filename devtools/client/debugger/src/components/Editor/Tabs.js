@@ -229,15 +229,6 @@ index
 "
 ;
 import
-"
-.
-/
-Tabs
-.
-css
-"
-;
-import
 Tab
 from
 "

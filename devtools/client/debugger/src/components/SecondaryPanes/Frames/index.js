@@ -198,15 +198,6 @@ selectors
 index
 "
 ;
-import
-"
-.
-/
-Frames
-.
-css
-"
-;
 const
 NUM_FRAMES_SHOWN
 =

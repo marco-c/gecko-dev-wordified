@@ -119,15 +119,6 @@ prop
 types
 "
 ;
-import
-"
-.
-/
-Accordion
-.
-css
-"
-;
 class
 Accordion
 extends

@@ -240,15 +240,6 @@ AccessibleImage
 "
 ;
 import
-"
-.
-/
-CommandBar
-.
-css
-"
-;
-import
 {
 showMenu
 }

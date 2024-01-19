@@ -174,15 +174,6 @@ index
 "
 ;
 import
-"
-.
-/
-XHRBreakpoints
-.
-css
-"
-;
-import
 {
 getXHRBreakpoints
 shouldPauseOnAnyXHR
