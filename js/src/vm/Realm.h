@@ -1642,9 +1642,6 @@ sharing
 that
 storage
 .
-JS
-:
-:
 WeakCache
 <
 js

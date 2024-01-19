@@ -371,9 +371,6 @@ proto
 using
 BaseShapeSet
 =
-JS
-:
-:
 WeakCache
 <
 JS
@@ -534,9 +531,6 @@ prop
 using
 InitialPropMapSet
 =
-JS
-:
-:
 WeakCache
 <
 JS
@@ -951,9 +945,6 @@ numFixedSlots
 using
 InitialShapeSet
 =
-JS
-:
-:
 WeakCache
 <
 JS
@@ -1219,9 +1210,6 @@ newKey
 using
 PropMapShapeSet
 =
-JS
-:
-:
 WeakCache
 <
 JS
@@ -1312,9 +1300,6 @@ lookup
 using
 ProxyShapeSet
 =
-JS
-:
-:
 WeakCache
 <
 JS
@@ -1519,9 +1504,6 @@ recGroup
 using
 WasmGCShapeSet
 =
-JS
-:
-:
 WeakCache
 <
 JS
