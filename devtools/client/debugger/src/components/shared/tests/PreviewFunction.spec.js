@@ -62,14 +62,6 @@ import
 React
 from
 "
-devtools
-/
-client
-/
-shared
-/
-vendor
-/
 react
 "
 ;

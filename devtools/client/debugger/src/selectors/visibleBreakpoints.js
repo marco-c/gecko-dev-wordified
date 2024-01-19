@@ -64,14 +64,6 @@ createSelector
 }
 from
 "
-devtools
-/
-client
-/
-shared
-/
-vendor
-/
 reselect
 "
 ;
@@ -109,8 +101,6 @@ from
 utils
 /
 breakpoint
-/
-index
 "
 ;
 import

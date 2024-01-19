@@ -212,8 +212,6 @@ from
 .
 /
 editor
-/
-index
 "
 ;
 export

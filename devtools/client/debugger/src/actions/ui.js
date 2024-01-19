@@ -75,8 +75,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import
@@ -109,8 +107,6 @@ from
 utils
 /
 editor
-/
-index
 "
 ;
 import
@@ -135,8 +131,6 @@ from
 .
 /
 breakpoints
-/
-index
 "
 ;
 import

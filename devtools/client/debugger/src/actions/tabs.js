@@ -82,8 +82,6 @@ from
 utils
 /
 editor
-/
-index
 "
 ;
 import
@@ -95,8 +93,6 @@ from
 .
 /
 sources
-/
-index
 "
 ;
 import
@@ -110,8 +106,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 export

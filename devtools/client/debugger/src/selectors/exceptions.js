@@ -64,14 +64,6 @@ createSelector
 }
 from
 "
-devtools
-/
-client
-/
-shared
-/
-vendor
-/
 reselect
 "
 ;
@@ -101,7 +93,6 @@ from
 "
 .
 /
-index
 "
 ;
 export

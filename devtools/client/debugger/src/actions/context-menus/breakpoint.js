@@ -165,8 +165,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import

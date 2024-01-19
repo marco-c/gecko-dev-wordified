@@ -91,8 +91,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 import

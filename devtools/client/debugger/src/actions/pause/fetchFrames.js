@@ -71,8 +71,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 export

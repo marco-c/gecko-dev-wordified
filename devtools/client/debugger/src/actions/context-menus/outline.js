@@ -142,8 +142,6 @@ from
 .
 /
 selectors
-/
-index
 "
 ;
 export

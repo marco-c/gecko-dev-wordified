@@ -144,14 +144,6 @@ createSelector
 }
 from
 "
-devtools
-/
-client
-/
-shared
-/
-vendor
-/
 reselect
 "
 ;
