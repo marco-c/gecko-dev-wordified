@@ -1083,6 +1083,9 @@ icon
 :
 "
 "
+inactive
+:
+false
 lastUsed
 :
 3000
