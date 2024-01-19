@@ -718,7 +718,7 @@ iframe
 !
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 iframe
 )
@@ -855,7 +855,7 @@ iframe
 !
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 iframe
 )
@@ -1086,7 +1086,7 @@ iframe
 !
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 iframe
 )
@@ -1223,7 +1223,7 @@ iframe
 !
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 iframe
 )

@@ -5274,7 +5274,7 @@ legend
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 legend
 )
@@ -5339,7 +5339,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 label
 )
@@ -5370,7 +5370,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 label
 )
@@ -5401,7 +5401,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 label
 )
@@ -5432,7 +5432,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 label
 )
@@ -5539,7 +5539,7 @@ legend
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 legend
 )
@@ -5732,7 +5732,7 @@ legend
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 legend
 )
@@ -5889,7 +5889,7 @@ legend
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 legend
 )
@@ -6070,7 +6070,7 @@ legend
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 legend
 )
@@ -6497,7 +6497,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 manageProtectionsButton
 )
@@ -6682,7 +6682,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 manageProtectionsButton
 )
@@ -6949,7 +6949,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 mobilePromotion
 )

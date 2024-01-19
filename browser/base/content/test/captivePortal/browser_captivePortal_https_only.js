@@ -322,7 +322,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 loginButton
 )

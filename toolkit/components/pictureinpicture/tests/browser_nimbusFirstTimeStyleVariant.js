@@ -292,7 +292,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 pipExplainer
 )

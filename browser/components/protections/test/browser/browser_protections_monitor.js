@@ -338,7 +338,7 @@ hasLogins
 &
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 hasLogins
 )
@@ -403,7 +403,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 cardBody
 )
@@ -944,7 +944,7 @@ noLogins
 &
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 noLogins
 )

@@ -378,7 +378,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 adjustedRating
 )

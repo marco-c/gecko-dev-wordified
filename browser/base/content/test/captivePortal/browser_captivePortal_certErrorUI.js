@@ -276,7 +276,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 loginButton
 )
@@ -840,7 +840,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 advancedButton
 )
@@ -881,7 +881,7 @@ ok
 !
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 advPanel
 )
@@ -910,7 +910,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 advPanel
 )
@@ -939,7 +939,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 advPanelContent
 )
@@ -1022,7 +1022,7 @@ isOnCertErrorPage
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 advPanel
 )

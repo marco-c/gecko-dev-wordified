@@ -172,7 +172,7 @@ shoppingMessageBarEl
 &
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 shoppingContainer
 .
@@ -485,7 +485,7 @@ shoppingMessageBarEl
 &
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 shoppingContainer
 .

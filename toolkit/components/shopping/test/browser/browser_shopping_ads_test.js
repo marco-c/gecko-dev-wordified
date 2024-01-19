@@ -199,7 +199,7 @@ recommendedAdEl
 &
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 shoppingContainer
 ?

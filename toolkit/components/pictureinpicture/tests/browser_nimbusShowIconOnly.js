@@ -562,7 +562,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 pipIcon
 )

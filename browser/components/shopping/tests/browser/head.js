@@ -963,7 +963,7 @@ el
 &
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 shoppingContainer
 [
@@ -1084,7 +1084,7 @@ shoppingSettings
 &
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 shoppingSettings
 )
@@ -1120,7 +1120,7 @@ el
 &
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 shoppingSettings
 [

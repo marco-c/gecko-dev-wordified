@@ -596,7 +596,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 test
@@ -703,7 +703,7 @@ blockingErrorReporting
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 reportUI
 )
@@ -818,7 +818,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 test
@@ -916,7 +916,7 @@ blockingErrorReporting
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 reportUI
 )
@@ -1063,7 +1063,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 test
@@ -1161,7 +1161,7 @@ blockingErrorReporting
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 reportUI
 )

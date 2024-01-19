@@ -206,7 +206,7 @@ card
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 lockwiseCard
 )
@@ -424,7 +424,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 savePasswordsButton
 )
@@ -637,7 +637,7 @@ card
 return
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 hasLogins
 )
@@ -761,7 +761,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 lockwiseHowItWorks
 )
@@ -866,7 +866,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 lockwiseScannedWrapper
 )
@@ -993,7 +993,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 managePasswordsButton
 )
@@ -1341,7 +1341,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 lockwiseScannedText
 )
@@ -1475,7 +1475,7 @@ ok
 (
 ContentTaskUtils
 .
-is_visible
+isVisible
 (
 lockwiseScannedText
 )
