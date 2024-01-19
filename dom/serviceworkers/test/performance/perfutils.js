@@ -6,15 +6,6 @@ strict
 /
 *
 *
-Perf
-test
-utilities
-.
-*
-/
-/
-*
-*
 *
 Given
 a
