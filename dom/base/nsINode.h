@@ -10605,7 +10605,13 @@ null
 .
 *
 /
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetContainingShadowHost
 (
