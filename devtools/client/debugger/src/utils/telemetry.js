@@ -352,6 +352,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -359,6 +363,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;

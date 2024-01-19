@@ -199,6 +199,10 @@ classnames
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -217,6 +221,10 @@ SearchModifiers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -226,6 +234,8 @@ shared
 components
 /
 SearchModifiers
+.
+js
 "
 )
 ;

@@ -224,6 +224,10 @@ PluralForm
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -231,6 +235,8 @@ shared
 plural
 -
 form
+.
+js
 "
 )
 ;
@@ -242,11 +248,17 @@ debounce
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 debounce
+.
+js
 "
 )
 ;

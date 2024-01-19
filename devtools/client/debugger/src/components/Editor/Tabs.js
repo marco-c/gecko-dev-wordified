@@ -297,11 +297,17 @@ debounce
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 debounce
+.
+js
 "
 )
 ;

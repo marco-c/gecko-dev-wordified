@@ -71,11 +71,17 @@ MultiLocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -87,6 +93,10 @@ FluentL10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ l10n
 fluent
 -
 l10n
+.
+js
 "
 )
 ;

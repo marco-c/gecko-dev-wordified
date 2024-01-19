@@ -264,6 +264,10 @@ classnames
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -282,6 +286,10 @@ MenuButton
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -293,6 +301,8 @@ components
 menu
 /
 MenuButton
+.
+js
 "
 )
 ;
@@ -302,6 +312,10 @@ MenuItem
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -313,6 +327,8 @@ components
 menu
 /
 MenuItem
+.
+js
 "
 )
 ;
@@ -322,6 +338,10 @@ MenuList
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -333,6 +353,8 @@ components
 menu
 /
 MenuList
+.
+js
 "
 )
 ;

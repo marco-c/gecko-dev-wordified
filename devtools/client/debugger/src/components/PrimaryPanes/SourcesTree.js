@@ -216,6 +216,10 @@ classnames
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -234,6 +238,10 @@ Tree
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -243,6 +251,8 @@ shared
 components
 /
 Tree
+.
+js
 "
 )
 ;
