@@ -8787,9 +8787,8 @@ HasThirdPartyChannel
 bool
 ShouldIncludeInTelemetry
 (
-bool
-aAllowExtensionURIs
 )
+const
 ;
 void
 AddMediaElementWithMSE
