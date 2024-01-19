@@ -5226,6 +5226,15 @@ CompressWhitespace
 ;
 if
 (
+!
+StaticPrefs
+:
+:
+network_cookie_prevent_set_cookie_from_multipart
+(
+)
+&
+&
 httpInternal
 )
 {
