@@ -1246,13 +1246,6 @@ return
 "
 proposal
 -
-optional
--
-chaining
-"
-"
-proposal
--
 class
 -
 properties
