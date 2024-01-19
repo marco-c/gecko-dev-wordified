@@ -32950,7 +32950,7 @@ typeReg
 return
 ;
 }
-ScratchFloat32Scope
+ScratchDoubleScope
 scratch
 (
 *
