@@ -77,6 +77,14 @@ span
 }
 from
 "
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
 react
 -
 dom
