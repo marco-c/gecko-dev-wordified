@@ -2519,7 +2519,7 @@ module
 js
 "
 "
-javascript
+react
 "
 )
 ;

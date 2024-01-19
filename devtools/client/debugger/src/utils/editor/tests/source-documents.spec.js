@@ -130,6 +130,9 @@ false
 hasTypes
 :
 false
+framework
+:
+undefined
 }
 ;
 describe
