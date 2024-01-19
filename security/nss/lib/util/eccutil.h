@@ -62,6 +62,10 @@ _FREEBL_H_
 #
 define
 _FREEBL_H_
+#
+define
+X25519_PUBLIC_KEY_BYTES
+32U
 /
 *
 deprecated

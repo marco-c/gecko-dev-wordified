@@ -7471,9 +7471,8 @@ MGF
 .
 *
 /
-static
 SECStatus
-emsa_pss_encode
+RSA_EMSAEncodePSS
 (
 unsigned
 char
@@ -8812,7 +8811,7 @@ em
 }
 rv
 =
-emsa_pss_encode
+RSA_EMSAEncodePSS
 (
 em
 emLen

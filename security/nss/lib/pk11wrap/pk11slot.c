@@ -606,7 +606,6 @@ pk11_tlsSlotList
 pk11_randomSlotList
 pk11_sha256SlotList
 pk11_sha512SlotList
-;
 /
 *
 slots
@@ -616,6 +615,8 @@ and
 SHA384
 *
 /
+pk11_kyberSlotList
+;
 /
 *
 *
@@ -5366,6 +5367,12 @@ pk11_InitSlotListStatic
 pk11_sha512SlotList
 )
 ;
+pk11_InitSlotListStatic
+(
+&
+pk11_kyberSlotList
+)
+;
 return
 SECSuccess
 ;
@@ -5494,6 +5501,12 @@ pk11_FreeSlotListStatic
 (
 &
 pk11_sha512SlotList
+)
+;
+pk11_FreeSlotListStatic
+(
+&
+pk11_kyberSlotList
 )
 ;
 return
@@ -5792,6 +5805,13 @@ CKM_FAKE_RANDOM
 return
 &
 pk11_randomSlotList
+;
+case
+CKM_NSS_KYBER_KEY_PAIR_GEN
+:
+return
+&
+pk11_kyberSlotList
 ;
 }
 return

@@ -335,6 +335,17 @@ SSLNamedGroup
 >
 kFasterDHEGroups
 ;
+const
+extern
+std
+:
+:
+vector
+<
+SSLNamedGroup
+>
+kEcdhHybridGroups
+;
 /
 /
 These

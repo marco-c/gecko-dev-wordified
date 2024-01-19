@@ -335,6 +335,16 @@ ReadHash
 (
 )
 ;
+SECStatus
+ReadSECStatus
+(
+)
+;
+bool
+ReadBool
+(
+)
+;
 bool
 NextItem
 (

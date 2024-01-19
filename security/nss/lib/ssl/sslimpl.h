@@ -793,7 +793,7 @@ namedGroupPreferences
 #
 define
 SSL_NAMED_GROUP_COUNT
-31
+32
 /
 *
 The
@@ -5919,6 +5919,14 @@ group
 sslKeyPair
 *
 keys
+;
+sslKeyPair
+*
+kemKeys
+;
+SECItem
+*
+kemCt
 ;
 }
 ;
