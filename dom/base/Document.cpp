@@ -56244,11 +56244,11 @@ BlockOnload
 ;
 }
 }
-nsresult
+NS_IMETHOD
 Run
 (
 )
-override
+final
 {
 const
 bool
