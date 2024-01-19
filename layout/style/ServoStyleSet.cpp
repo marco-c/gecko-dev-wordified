@@ -9539,6 +9539,7 @@ mDocument
 >
 PostCustomPropertyRegistered
 (
+aDefinition
 )
 ;
 break
