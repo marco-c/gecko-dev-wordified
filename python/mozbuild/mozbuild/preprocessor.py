@@ -53,6 +53,7 @@ MPL
 0
 /
 .
+r
 "
 "
 "
@@ -1084,6 +1085,7 @@ re
 .
 match
 (
+r
 "
 !
 \
@@ -1156,6 +1158,7 @@ self
 )
 :
         
+r
 "
 "
 "
@@ -1244,6 +1247,7 @@ re
 .
 match
 (
+r
 "
 defined
 \
@@ -1363,6 +1367,7 @@ re
 .
 match
 (
+r
 "
 \
 w
@@ -1439,6 +1444,7 @@ re
 .
 match
 (
+r
 "
 \
 s
@@ -2623,6 +2629,7 @@ re
 .
 compile
 (
+r
 "
 (
 ?
@@ -2842,6 +2849,7 @@ aMarker
             
 instruction_prefix
 =
+r
 "
 \
 s
@@ -2853,6 +2861,7 @@ s
             
 instruction_cmd
 =
+r
 "
 (
 ?
@@ -2900,6 +2909,7 @@ ambiguous_fmt
 =
 instruction_prefix
 +
+r
 "
 \
 s
@@ -4042,6 +4052,7 @@ re
 .
 compile
 (
+r
 "
 \
 d
@@ -4869,6 +4880,7 @@ re
 .
 match
 (
+r
 "
 (
 ?
@@ -4998,6 +5010,7 @@ re
 .
 match
 (
+r
 "
 (
 ?
@@ -5312,6 +5325,7 @@ re
 .
 search
 (
+r
 "
 \
 W
@@ -5428,6 +5442,7 @@ re
 .
 search
 (
+r
 "
 \
 W
@@ -5801,6 +5816,7 @@ re
 .
 split
 (
+r
 "
 __
 (
@@ -6180,6 +6196,7 @@ re
 .
 sub
 (
+r
 "
 ^
 \
@@ -6523,6 +6540,7 @@ re
 .
 search
 (
+r
 "
 \
 .
