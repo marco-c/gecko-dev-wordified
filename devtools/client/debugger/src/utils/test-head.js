@@ -80,6 +80,14 @@ combineReducers
 }
 from
 "
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
 redux
 "
 ;
