@@ -1447,6 +1447,13 @@ aScale
 )
 ;
 }
+/
+*
+Enable
+for
+size
+changes
+logging
 LOGCONTAINER
 (
 "
@@ -1501,6 +1508,8 @@ height
 aScale
 )
 ;
+*
+/
 wl_egl_window_resize
 (
 wl_container
