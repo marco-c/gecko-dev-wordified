@@ -10729,7 +10729,7 @@ isKind
 ParseNodeKind
 :
 :
-ImportAssertion
+ImportAttribute
 )
 )
 ;
@@ -11000,7 +11000,7 @@ isKind
 ParseNodeKind
 :
 :
-ImportAssertionList
+ImportAttributeList
 )
 )
 ;
@@ -12715,7 +12715,7 @@ isKind
 ParseNodeKind
 :
 :
-ImportAssertionList
+ImportAttributeList
 )
 )
 ;

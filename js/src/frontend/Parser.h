@@ -6874,10 +6874,10 @@ moduleExportName
 )
 ;
 bool
-assertClause
+withClause
 (
 ListNodeType
-assertionsSet
+attributesSet
 )
 ;
 BinaryNodeResult

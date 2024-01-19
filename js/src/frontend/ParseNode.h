@@ -955,13 +955,13 @@ UnaryNode
 \
 F
 (
-ImportAssertionList
+ImportAttributeList
 ListNode
 )
 \
 F
 (
-ImportAssertion
+ImportAttribute
 BinaryNode
 )
 \
