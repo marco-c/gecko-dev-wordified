@@ -72,6 +72,14 @@ import
 ReactDOM
 from
 "
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
 react
 -
 dom
