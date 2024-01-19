@@ -2707,6 +2707,9 @@ getEarliestRecordedDate
 let
 timestamp
 =
+earliestDate
+?
+?
 new
 Date
 (
@@ -2714,7 +2717,6 @@ Date
 .
 getTime
 (
-earliestDate
 )
 ;
 let
