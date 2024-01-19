@@ -80,6 +80,10 @@ extern
 crate
 cookie
 ;
+extern
+crate
+icu_segmenter
+;
 #
 [
 macro_use
@@ -126,10 +130,6 @@ server
 extern
 crate
 tokio
-;
-extern
-crate
-unicode_segmentation
 ;
 extern
 crate
