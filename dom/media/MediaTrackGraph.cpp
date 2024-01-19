@@ -12118,7 +12118,7 @@ NS_IsMainThread
 )
 )
 ;
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mShutdownBlocker
