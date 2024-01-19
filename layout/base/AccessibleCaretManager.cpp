@@ -4137,6 +4137,11 @@ nsIFrame
 :
 :
 SKIP_HIDDEN
+|
+nsIFrame
+:
+:
+IGNORE_NATIVE_ANONYMOUS_SUBTREE
 )
 ;
 if
@@ -7816,6 +7821,10 @@ newFrame
 GetContentOffsetsFromPoint
 (
 newPoint
+nsIFrame
+:
+:
+IGNORE_NATIVE_ANONYMOUS_SUBTREE
 )
 ;
 if
