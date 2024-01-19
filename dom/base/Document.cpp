@@ -76439,6 +76439,11 @@ if
 (
 !
 mXULPersist
+&
+&
+XRE_IsParentProcess
+(
+)
 )
 {
 mXULPersist
