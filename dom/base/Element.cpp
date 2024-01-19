@@ -27738,9 +27738,15 @@ StyleDirection
 :
 Ltr
 ?
-eDir_LTR
+Directionality
 :
-eDir_RTL
+:
+Ltr
+:
+Directionality
+:
+:
+Rtl
 ;
 }
 return
