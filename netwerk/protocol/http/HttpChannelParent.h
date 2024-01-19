@@ -1032,10 +1032,6 @@ const
 nsAString
 &
 aDocumentCharacterSet
-const
-bool
-&
-aIsUserAgentHeaderModified
 )
 ;
 virtual
