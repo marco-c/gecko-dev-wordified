@@ -409,7 +409,6 @@ UpdateValidityElementStates
 bool
 aNotify
 )
-final
 ;
 /
 *
