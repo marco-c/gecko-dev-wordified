@@ -249,6 +249,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+BrowsingContext
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h
