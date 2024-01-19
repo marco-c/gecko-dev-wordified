@@ -43,11 +43,11 @@ invalidOrigin
 url
 :
 "
-ftp
+ws
 :
 /
 /
-ftp
+ws
 .
 invalid
 .
@@ -60,11 +60,11 @@ storage
 /
 default
 /
-ftp
+ws
 +
 +
 +
-ftp
+ws
 .
 invalid
 .
