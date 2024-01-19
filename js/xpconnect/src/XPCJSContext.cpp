@@ -5430,6 +5430,16 @@ javascript_options_experimental_import_attributes
 (
 )
 )
+.
+setImportAttributesAssertSyntax
+(
+StaticPrefs
+:
+:
+javascript_options_experimental_import_attributes_assert_syntax
+(
+)
+)
 #
 endif
 .

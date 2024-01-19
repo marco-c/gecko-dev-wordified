@@ -11,7 +11,7 @@ enable
 -
 import
 -
-attributes
+assertions
 /
 /
 Test
