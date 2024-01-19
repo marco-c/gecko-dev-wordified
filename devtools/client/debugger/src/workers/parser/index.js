@@ -184,6 +184,17 @@ getClassSymbols
 "
 )
 ;
+getClosestFunctionName
+=
+this
+.
+task
+(
+"
+getClosestFunctionName
+"
+)
+;
 async
 setSource
 (
