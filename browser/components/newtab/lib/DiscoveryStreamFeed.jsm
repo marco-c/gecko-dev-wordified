@@ -13097,7 +13097,7 @@ privacy
 firefox
 /
 #
-suggest
+recommend
 -
 relevant
 -
