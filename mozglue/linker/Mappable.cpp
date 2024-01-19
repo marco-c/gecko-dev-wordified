@@ -81,7 +81,7 @@ h
 "
 Mappable
 *
-MappableFile
+Mappable
 :
 :
 Create
@@ -111,7 +111,7 @@ fd
 )
 return
 new
-MappableFile
+Mappable
 (
 fd
 )
@@ -121,7 +121,7 @@ nullptr
 ;
 }
 MemoryRange
-MappableFile
+Mappable
 :
 :
 mmap
@@ -187,7 +187,7 @@ offset
 ;
 }
 void
-MappableFile
+Mappable
 :
 :
 finalize
@@ -218,7 +218,7 @@ fd
 ;
 }
 size_t
-MappableFile
+Mappable
 :
 :
 GetLength

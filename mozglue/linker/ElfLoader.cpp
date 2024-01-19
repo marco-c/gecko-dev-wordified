@@ -3029,7 +3029,7 @@ c_str
 #
 endif
 return
-MappableFile
+Mappable
 :
 :
 Create
@@ -3853,7 +3853,7 @@ path
 )
 {
 return
-MappableFile
+Mappable
 :
 :
 Create
