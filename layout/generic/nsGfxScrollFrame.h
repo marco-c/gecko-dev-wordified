@@ -1824,7 +1824,7 @@ objects
 *
 /
 CSSIntPoint
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 final

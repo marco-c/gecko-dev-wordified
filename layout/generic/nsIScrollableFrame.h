@@ -2037,10 +2037,10 @@ SMOOTH
 INSTANT
 or
 NORMAL
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
+*
 (
 the
-*
 scroll
 position
 after
@@ -2085,10 +2085,10 @@ in
 any
 direction
 ;
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
+*
 will
 be
-*
 exactly
 aScrollPosition
 at
@@ -2099,8 +2099,8 @@ the
 scroll
 animation
 unless
-the
 *
+the
 SMOOTH_MSD
 animation
 is
@@ -2161,7 +2161,7 @@ does
 not
 guarantee
 that
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 equals
 *
 aScrollPosition
@@ -2246,7 +2246,7 @@ pixel
 /
 virtual
 CSSIntPoint
-GetScrollPositionCSSPixels
+GetRoundedScrollPositionCSSPixels
 (
 )
 =
