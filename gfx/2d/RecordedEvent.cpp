@@ -342,6 +342,14 @@ CopySurface
 "
 ;
 case
+SETPERMITSUBPIXELAA
+:
+return
+"
+SetPermitSubpixelAA
+"
+;
+case
 SETTRANSFORM
 :
 return
