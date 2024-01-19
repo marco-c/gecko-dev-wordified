@@ -209,15 +209,6 @@ Bug
 1658310
         
 "
-import
--
-attributes
-"
-#
-Bug
-1835669
-        
-"
 set
 -
 methods
@@ -415,6 +406,22 @@ enable
 import
 -
 assertions
+"
+    
+"
+import
+-
+attributes
+"
+:
+"
+-
+-
+enable
+-
+import
+-
+attributes
 "
     
 "
