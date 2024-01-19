@@ -84,9 +84,7 @@ uri
 )
 ;
 return
-{
 tab
-}
 ;
 }
 /
@@ -122,9 +120,7 @@ kId
 2
 ;
 let
-{
 tab
-}
 =
 await
 openTabInUserContext
