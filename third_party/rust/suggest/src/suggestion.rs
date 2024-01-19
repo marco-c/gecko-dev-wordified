@@ -285,6 +285,15 @@ score
 :
 f64
 }
+Yelp
+{
+url
+:
+String
+title
+:
+String
+}
 }
 /
 /
