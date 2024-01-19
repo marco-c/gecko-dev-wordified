@@ -3196,7 +3196,6 @@ track
 .
 *
 /
-virtual
 void
 SetReadyState
 (
