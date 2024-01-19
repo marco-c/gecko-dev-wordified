@@ -521,7 +521,10 @@ if
 iStatus
 =
 =
-RegExpRunStatus_Error
+RegExpRunStatus
+:
+:
+Error
 )
 {
 if
@@ -575,7 +578,10 @@ if
 cStatus
 =
 =
-RegExpRunStatus_Error
+RegExpRunStatus
+:
+:
+Error
 )
 {
 if
@@ -627,7 +633,10 @@ if
 iStatus
 =
 =
-RegExpRunStatus_Success
+RegExpRunStatus
+:
+:
+Success
 )
 {
 MOZ_RELEASE_ASSERT
