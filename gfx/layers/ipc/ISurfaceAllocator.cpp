@@ -521,6 +521,11 @@ should
 be
 added
 .
+NS_ASSERT_OWNINGTHREAD
+(
+FixedSizeSmallShmemSectionAllocator
+)
+;
 MOZ_ASSERT
 (
 aSize
@@ -1190,6 +1195,11 @@ ShmemSection
 aShmemSection
 )
 {
+NS_ASSERT_OWNINGTHREAD
+(
+FixedSizeSmallShmemSectionAllocator
+)
+;
 if
 (
 !
@@ -1233,6 +1243,11 @@ ShrinkShmemSectionHeap
 (
 )
 {
+NS_ASSERT_OWNINGTHREAD
+(
+FixedSizeSmallShmemSectionAllocator
+)
+;
 if
 (
 !
