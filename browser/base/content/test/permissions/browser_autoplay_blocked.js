@@ -372,7 +372,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 autoplayBlockedIcon
 (
@@ -543,7 +543,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 autoplayBlockedIcon
 (
@@ -1081,7 +1081,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 AUTOPLAY_PAGE
@@ -1408,7 +1408,7 @@ blockedIconHidden
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 AUTOPLAY_PAGE
@@ -1508,7 +1508,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 autoplayBlockedIcon
 (
@@ -1701,7 +1701,7 @@ blockedIconHidden
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 MUTED_AUTOPLAY_PAGE
@@ -1946,7 +1946,7 @@ blockedIconHidden
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 AUTOPLAY_JS_PAGE

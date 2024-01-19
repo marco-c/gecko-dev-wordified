@@ -5815,7 +5815,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 mainSection
 )
@@ -5877,7 +5877,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 introductionSection
 )
@@ -5910,7 +5910,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 introductionSection
 )
@@ -6571,7 +6571,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 element
 )
@@ -6968,7 +6968,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 introductionSection
 )
@@ -9093,7 +9093,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 introductionSection
 )

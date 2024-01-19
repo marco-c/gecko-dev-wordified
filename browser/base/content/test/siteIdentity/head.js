@@ -317,7 +317,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -966,7 +966,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 identityIcon
 )
@@ -1202,7 +1202,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 identityIcon
 )
@@ -2244,7 +2244,7 @@ element
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 element
 )
@@ -2340,7 +2340,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

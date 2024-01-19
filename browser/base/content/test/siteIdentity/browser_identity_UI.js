@@ -813,7 +813,7 @@ location
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -839,7 +839,7 @@ _identityPopup
 |
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gIdentityHandler
 .
@@ -1009,7 +1009,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gIdentityHandler
 .

@@ -1423,7 +1423,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 emailLink
 )
@@ -1574,7 +1574,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 emailLink
 )

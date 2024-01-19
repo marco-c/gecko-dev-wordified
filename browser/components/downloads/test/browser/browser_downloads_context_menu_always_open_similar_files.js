@@ -695,7 +695,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 alwaysOpenSimilarFilesItem
 )
@@ -883,7 +883,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 alwaysOpenSimilarFilesItem
 )

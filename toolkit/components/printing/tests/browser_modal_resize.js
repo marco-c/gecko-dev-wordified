@@ -463,7 +463,7 @@ elem
 /
 BTU
 .
-is_hidden
+isHidden
 can
 '
 t

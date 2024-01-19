@@ -1106,7 +1106,7 @@ else
 {
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 shimAllowSection
 "

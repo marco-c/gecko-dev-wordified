@@ -554,7 +554,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 resourceList
 )
@@ -586,7 +586,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 importButton
 )

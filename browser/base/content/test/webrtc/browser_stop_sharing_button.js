@@ -300,7 +300,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 indicator
 .
@@ -635,7 +635,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 indicator
 .
@@ -875,7 +875,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 indicator
 .

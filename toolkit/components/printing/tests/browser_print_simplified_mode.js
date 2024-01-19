@@ -1203,7 +1203,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 sourceVersionSection
 )
@@ -1669,7 +1669,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 sourceVersionSection
 )

@@ -1323,7 +1323,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 searchPopup
 .

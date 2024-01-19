@@ -1815,7 +1815,7 @@ is
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 useSystemMenuItem
 )
@@ -1850,7 +1850,7 @@ is
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 alwaysMenuItem
 )
@@ -3286,7 +3286,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

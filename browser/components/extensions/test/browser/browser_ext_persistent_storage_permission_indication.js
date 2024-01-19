@@ -310,7 +310,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 permissionsGrantedIcon
 )
@@ -498,7 +498,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -714,7 +714,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url

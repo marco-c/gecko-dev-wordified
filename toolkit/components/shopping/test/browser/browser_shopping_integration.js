@@ -406,7 +406,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 sidebar
 )
@@ -1397,7 +1397,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 sidebar
 )

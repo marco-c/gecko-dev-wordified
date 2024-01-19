@@ -206,7 +206,7 @@ different
 page
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -940,7 +940,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 dialogBoxManager
 .
@@ -984,7 +984,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 dialogBoxManager
 .
@@ -1007,7 +1007,7 @@ different
 page
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

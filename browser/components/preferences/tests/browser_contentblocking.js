@@ -8133,7 +8133,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 strictWarning
 )
@@ -8218,7 +8218,7 @@ standard
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -8396,7 +8396,7 @@ standard
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -8583,7 +8583,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 standardWarning
 )
@@ -8660,7 +8660,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 standardWarning
 )

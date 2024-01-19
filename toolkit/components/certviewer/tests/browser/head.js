@@ -120,7 +120,7 @@ ok
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 aElement
 )

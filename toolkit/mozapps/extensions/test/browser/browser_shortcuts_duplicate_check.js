@@ -1160,7 +1160,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 errorEl
 )
@@ -1313,7 +1313,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 errorEl
 )

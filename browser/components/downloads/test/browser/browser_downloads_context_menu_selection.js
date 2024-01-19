@@ -904,7 +904,7 @@ equal
 !
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 commandElt
 )

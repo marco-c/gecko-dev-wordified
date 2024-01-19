@@ -1120,7 +1120,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 siteNotWorkingButton
 )
@@ -2701,7 +2701,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 errorMessage
 )

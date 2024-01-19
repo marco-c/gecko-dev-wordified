@@ -817,7 +817,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gProtectionsHandler
 .
@@ -1131,7 +1131,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gProtectionsHandler
 .
@@ -1174,7 +1174,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gProtectionsHandler
 .
@@ -1345,7 +1345,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gProtectionsHandler
 .
@@ -1544,7 +1544,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gProtectionsHandler
 .
@@ -1577,7 +1577,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 gProtectionsHandler
 .
@@ -3440,7 +3440,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 trackerCounterBox
 )

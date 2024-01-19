@@ -492,7 +492,7 @@ ok
 (
 BrowserTestUtils
 .
-is_hidden
+isHidden
 (
 doc
 .
@@ -1322,7 +1322,7 @@ browser
 >
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 AUTH_URI
