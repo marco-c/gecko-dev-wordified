@@ -212,7 +212,7 @@ return
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 vpnCard
 )
@@ -318,7 +318,7 @@ banner
 return
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 vpnBanner
 )

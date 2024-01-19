@@ -339,7 +339,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 adjustedRating
 )

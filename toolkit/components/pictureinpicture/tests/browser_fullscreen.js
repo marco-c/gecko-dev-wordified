@@ -285,7 +285,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 toggle
 )
@@ -572,7 +572,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 toggle
 )

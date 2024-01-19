@@ -664,7 +664,7 @@ ok
 !
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginItem
 .
@@ -1102,7 +1102,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginItem
 .
@@ -1317,7 +1317,7 @@ ok
 !
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginItem
 .
@@ -1452,7 +1452,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginItem
 .

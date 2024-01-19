@@ -804,7 +804,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 exceptionButton
 )
@@ -1249,7 +1249,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 exceptionButton
 )
@@ -1384,7 +1384,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 exceptionButton
 )

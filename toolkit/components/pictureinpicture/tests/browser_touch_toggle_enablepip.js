@@ -373,7 +373,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 el
 )

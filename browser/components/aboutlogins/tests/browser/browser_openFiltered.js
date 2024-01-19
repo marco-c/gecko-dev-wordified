@@ -447,7 +447,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginIntro
 )
@@ -925,7 +925,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginList
 .
@@ -970,7 +970,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 intro
 )
@@ -1162,7 +1162,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginItem
 )
@@ -1212,7 +1212,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginIntro
 )
@@ -1313,7 +1313,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginIntro
 )
@@ -1509,7 +1509,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginList
 .
@@ -1586,7 +1586,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 intro
 )
@@ -1629,7 +1629,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 emptySearchMessage
 )
@@ -1774,7 +1774,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginItem
 )
@@ -1824,7 +1824,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginIntro
 )
@@ -1925,7 +1925,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 loginIntro
 )

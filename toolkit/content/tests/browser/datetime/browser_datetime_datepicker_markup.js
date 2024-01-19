@@ -2977,7 +2977,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 calendarBtn
 )

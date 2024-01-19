@@ -794,7 +794,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 monitorCard
 )
@@ -1009,7 +1009,7 @@ ok
 (
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 cardBody
 )

@@ -1251,7 +1251,7 @@ waitForCondition
 >
 ContentTaskUtils
 .
-is_hidden
+isHidden
 (
 content
 .
