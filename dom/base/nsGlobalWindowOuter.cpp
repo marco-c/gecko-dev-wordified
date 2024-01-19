@@ -46803,7 +46803,7 @@ Unused
 StorageAccessAPIHelper
 :
 :
-AllowAccessForOnChildProcess
+AllowAccessFor
 (
 principal
 GetBrowsingContext

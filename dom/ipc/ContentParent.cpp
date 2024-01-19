@@ -44077,7 +44077,7 @@ IPC_OK
 StorageAccessAPIHelper
 :
 :
-CompleteAllowAccessForOnParentProcess
+CompleteAllowAccessFor
 (
 aParentContext
 .
