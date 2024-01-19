@@ -1322,7 +1322,7 @@ ctMode
 CRLiteMode
 crliteMode
 const
-Vector
+nsTArray
 <
 EnterpriseCert
 >
@@ -1407,7 +1407,7 @@ root
 to
 own
 .
-Vector
+nsTArray
 <
 EnterpriseCert
 >
@@ -1444,7 +1444,7 @@ Input
 out
 of
 .
-Vector
+nsTArray
 <
 mozilla
 :
@@ -1463,7 +1463,7 @@ but
 with
 intermediates
 .
-Vector
+nsTArray
 <
 mozilla
 :

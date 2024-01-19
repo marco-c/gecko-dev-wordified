@@ -933,7 +933,7 @@ OriginAttributes
 &
 originAttributes
 const
-Vector
+nsTArray
 <
 mozilla
 :
@@ -946,7 +946,7 @@ Input
 &
 thirdPartyRootInputs
 const
-Vector
+nsTArray
 <
 mozilla
 :
@@ -2003,7 +2003,7 @@ OriginAttributes
 mOriginAttributes
 ;
 const
-Vector
+nsTArray
 <
 mozilla
 :
@@ -2022,7 +2022,7 @@ non
 -
 owning
 const
-Vector
+nsTArray
 <
 mozilla
 :

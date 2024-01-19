@@ -547,14 +547,14 @@ OriginAttributes
 &
 originAttributes
 const
-Vector
+nsTArray
 <
 Input
 >
 &
 thirdPartyRootInputs
 const
-Vector
+nsTArray
 <
 Input
 >
