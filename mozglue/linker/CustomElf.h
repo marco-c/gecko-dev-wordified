@@ -264,16 +264,6 @@ CustomElf
 (
 )
 ;
-protected
-:
-virtual
-Mappable
-*
-GetMappable
-(
-)
-const
-;
 public
 :
 /
