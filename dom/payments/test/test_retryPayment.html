@@ -942,8 +942,6 @@ PaymentResponse
 .
 )
 ;
-return
-;
 }
 catch
 (
@@ -972,18 +970,6 @@ retrying
 "
 )
 )
-;
-await
-requestChromeAction
-(
-"
-finish
--
-test
-"
-)
-;
-return
 ;
 }
 await

@@ -343,8 +343,6 @@ event
 data
 )
 ;
-break
-;
 }
 }
 ;
