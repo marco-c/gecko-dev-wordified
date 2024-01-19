@@ -3769,27 +3769,6 @@ result
 is_up_to_date
 :
             
-print
-(
-f
-"
-Site
-not
-up
--
-to
--
-date
-reason
-:
-{
-result
-.
-reason
-}
-"
-)
-            
 active_site
 =
 MozSiteMetadata
