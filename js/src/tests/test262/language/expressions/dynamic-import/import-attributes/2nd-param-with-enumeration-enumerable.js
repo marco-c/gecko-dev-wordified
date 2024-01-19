@@ -7,9 +7,6 @@ skip
 async
 -
 -
-import
--
-attributes
 json
 -
 modules
