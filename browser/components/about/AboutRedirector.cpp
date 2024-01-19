@@ -599,8 +599,6 @@ content
 firefoxview
 /
 firefoxview
--
-next
 .
 html
 "
