@@ -707,11 +707,6 @@ expectedRequestHeaders
 Host
 "
 "
-User
--
-Agent
-"
-"
 Accept
 "
 "
@@ -723,6 +718,11 @@ Language
 Accept
 -
 Encoding
+"
+"
+User
+-
+Agent
 "
 "
 Connection
