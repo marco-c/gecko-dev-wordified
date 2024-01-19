@@ -72,7 +72,7 @@ prefs
 history
 "
 "
-historyFormDataAndDownloads
+historyAndFormData
 "
 ]
 ;
