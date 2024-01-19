@@ -5421,12 +5421,12 @@ javascript_options_source_pragmas
 ifdef
 NIGHTLY_BUILD
 .
-setImportAssertions
+setImportAttributes
 (
 StaticPrefs
 :
 :
-javascript_options_experimental_import_assertions
+javascript_options_experimental_import_attributes
 (
 )
 )

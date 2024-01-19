@@ -593,7 +593,7 @@ if
 getRealmConfiguration
 (
 "
-importAssertions
+importAttributes
 "
 )
 )
