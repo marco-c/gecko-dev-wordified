@@ -4262,15 +4262,6 @@ rules
 :
 {
 "
-consistent
--
-return
-"
-:
-"
-off
-"
-"
 mozilla
 /
 avoid

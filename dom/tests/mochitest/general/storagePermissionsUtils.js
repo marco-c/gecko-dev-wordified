@@ -738,6 +738,9 @@ threw
 "
 )
 ;
+return
+undefined
+;
 }
 }
 function

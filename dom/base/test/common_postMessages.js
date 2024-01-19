@@ -1630,6 +1630,11 @@ transferableObjects
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 /
@@ -1766,6 +1771,11 @@ transferableObjects
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 /
@@ -1876,6 +1886,11 @@ transferableObjects
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 /
@@ -2126,6 +2141,11 @@ transferableObjects
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 /

@@ -74,6 +74,9 @@ return
 true
 ;
 }
+return
+undefined
+;
 }
 ;
 onmessage

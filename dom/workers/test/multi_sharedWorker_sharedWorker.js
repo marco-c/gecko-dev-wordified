@@ -322,5 +322,8 @@ return
 true
 ;
 }
+return
+undefined
+;
 }
 ;

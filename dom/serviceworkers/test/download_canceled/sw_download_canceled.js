@@ -977,7 +977,6 @@ download
 )
 )
 {
-return
 handleStream
 (
 evt
@@ -989,6 +988,8 @@ stream
 download
 "
 )
+;
+return
 ;
 }
 if
@@ -1011,7 +1012,6 @@ download
 )
 )
 {
-return
 handlePassThrough
 (
 evt
