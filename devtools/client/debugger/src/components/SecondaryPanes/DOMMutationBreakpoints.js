@@ -128,10 +128,14 @@ translateNodeFrontToGrip
 }
 from
 "
+devtools
+/
+client
+/
 inspector
--
+/
 shared
--
+/
 utils
 "
 ;
