@@ -144,6 +144,8 @@ from
 .
 /
 actions
+/
+index
 "
 ;
 import
@@ -162,6 +164,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import
@@ -289,6 +293,8 @@ from
 utils
 /
 editor
+/
+index
 "
 ;
 import

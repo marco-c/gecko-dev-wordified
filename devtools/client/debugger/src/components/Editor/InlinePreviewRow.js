@@ -104,6 +104,8 @@ from
 .
 /
 actions
+/
+index
 "
 ;
 import

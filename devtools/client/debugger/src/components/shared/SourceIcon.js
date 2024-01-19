@@ -153,6 +153,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import

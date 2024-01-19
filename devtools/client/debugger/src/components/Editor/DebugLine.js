@@ -114,6 +114,8 @@ from
 utils
 /
 editor
+/
+index
 "
 ;
 import
@@ -131,6 +133,8 @@ from
 utils
 /
 pause
+/
+index
 "
 ;
 import
@@ -183,6 +187,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 export

@@ -68,6 +68,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 export

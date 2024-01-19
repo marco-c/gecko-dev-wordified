@@ -138,6 +138,8 @@ workers
 pretty
 -
 print
+/
+index
 "
 ;
 import
@@ -166,6 +168,8 @@ from
 workers
 /
 search
+/
+index
 "
 ;
 import
@@ -180,6 +184,8 @@ from
 utils
 /
 editor
+/
+index
 "
 ;
 const

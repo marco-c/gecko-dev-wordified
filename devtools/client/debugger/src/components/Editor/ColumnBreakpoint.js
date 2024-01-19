@@ -109,6 +109,8 @@ from
 utils
 /
 editor
+/
+index
 "
 ;
 const

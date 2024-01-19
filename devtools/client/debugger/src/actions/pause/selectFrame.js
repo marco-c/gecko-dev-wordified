@@ -68,6 +68,8 @@ from
 .
 /
 sources
+/
+index
 "
 ;
 import

@@ -146,6 +146,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import
