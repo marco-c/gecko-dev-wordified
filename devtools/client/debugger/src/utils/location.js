@@ -81,6 +81,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 /

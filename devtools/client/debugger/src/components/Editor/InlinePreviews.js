@@ -157,6 +157,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 function

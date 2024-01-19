@@ -111,6 +111,8 @@ from
 pause
 /
 frames
+/
+index
 "
 ;
 const

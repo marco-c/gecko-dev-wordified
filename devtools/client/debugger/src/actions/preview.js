@@ -123,6 +123,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import

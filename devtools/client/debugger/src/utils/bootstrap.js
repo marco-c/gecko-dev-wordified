@@ -214,6 +214,8 @@ from
 workers
 /
 search
+/
+index
 "
 ;
 import
@@ -230,6 +232,8 @@ workers
 pretty
 -
 print
+/
+index
 "
 ;
 import
@@ -256,6 +260,8 @@ from
 .
 /
 reducers
+/
+index
 "
 ;
 import
@@ -268,6 +274,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import
@@ -429,6 +437,8 @@ require
 .
 /
 actions
+/
+index
 "
 )
 .

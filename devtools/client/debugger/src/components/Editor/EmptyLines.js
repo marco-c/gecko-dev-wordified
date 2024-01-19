@@ -125,6 +125,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import
@@ -142,6 +144,8 @@ from
 utils
 /
 editor
+/
+index
 "
 ;
 import

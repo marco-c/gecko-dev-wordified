@@ -158,6 +158,8 @@ from
 shared
 /
 Button
+/
+index
 "
 ;
 import
@@ -171,6 +173,8 @@ from
 .
 /
 actions
+/
+index
 "
 ;
 import
@@ -226,6 +230,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 const

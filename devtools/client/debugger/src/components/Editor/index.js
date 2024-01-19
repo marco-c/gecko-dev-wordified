@@ -251,6 +251,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 /
@@ -268,6 +270,8 @@ from
 .
 /
 actions
+/
+index
 "
 ;
 import
@@ -295,6 +299,8 @@ from
 .
 /
 Preview
+/
+index
 "
 ;
 import
@@ -409,6 +415,8 @@ from
 utils
 /
 editor
+/
+index
 "
 ;
 import

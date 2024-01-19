@@ -99,6 +99,8 @@ from
 .
 /
 reducers
+/
+index
 "
 ;
 import
@@ -109,6 +111,8 @@ from
 .
 /
 actions
+/
+index
 "
 ;
 import
@@ -121,6 +125,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 import

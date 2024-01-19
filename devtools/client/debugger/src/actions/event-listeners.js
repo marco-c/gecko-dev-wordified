@@ -70,6 +70,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 async

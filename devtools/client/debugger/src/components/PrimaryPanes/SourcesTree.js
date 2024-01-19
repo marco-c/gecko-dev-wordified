@@ -162,6 +162,8 @@ from
 .
 /
 selectors
+/
+index
 "
 ;
 /
@@ -178,6 +180,8 @@ from
 .
 /
 actions
+/
+index
 "
 ;
 /
