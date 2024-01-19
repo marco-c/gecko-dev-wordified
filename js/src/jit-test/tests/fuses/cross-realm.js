@@ -5,13 +5,6 @@ jit
 -
 test
 |
--
--
-enable
--
-destructuring
--
-fuse
 function
 f
 (

@@ -276,7 +276,7 @@ false
 )
 enableDestructuringFuse_
 (
-false
+true
 )
 {
 }
