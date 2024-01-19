@@ -14314,6 +14314,10 @@ defined
 (
 XP_MACOSX
 )
+InitializeMacApp
+(
+)
+;
 CommandLineServiceMac
 :
 :
@@ -15884,6 +15888,10 @@ NS_ERROR_FAILURE
 #
 ifdef
 XP_MACOSX
+InitializeMacApp
+(
+)
+;
 CommandLineServiceMac
 :
 :
@@ -32898,6 +32906,15 @@ false
 }
 }
 }
+#
+ifdef
+XP_MACOSX
+InitializeMacApp
+(
+)
+;
+#
+endif
 /
 /
 We
