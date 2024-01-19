@@ -53,21 +53,16 @@ MPL
 0
 /
 .
+from
+base_python_support
+import
+BasePythonSupport
 class
 SamplePythonSupport
-:
-    
-def
-__init__
 (
-self
-*
-*
-kwargs
+BasePythonSupport
 )
 :
-        
-pass
     
 def
 modify_command
