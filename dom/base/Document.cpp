@@ -106124,7 +106124,7 @@ Unused
 StorageAccessAPIHelper
 :
 :
-AllowAccessFor
+AllowAccessForOnChildProcess
 (
 NodePrincipal
 (
@@ -111506,7 +111506,7 @@ ContentParent
 StorageAccessAPIHelper
 :
 :
-AsyncCheckCookiesPermittedDecidesStorageAccessAPI
+AsyncCheckCookiesPermittedDecidesStorageAccessAPIOnChildProcess
 (
 GetBrowsingContext
 (
@@ -111551,9 +111551,9 @@ permission
 check
 that
 took
+/
+/
 place
-/
-/
 in
 the
 ContentParent
@@ -111711,9 +111711,9 @@ storage
 access
 either
 automatically
+/
+/
 or
-/
-/
 with
 a
 user
@@ -111769,9 +111769,9 @@ our
 promise
 here
 which
+/
+/
 will
-/
-/
 cause
 a
 rejection
@@ -113582,7 +113582,7 @@ return
 StorageAccessAPIHelper
 :
 :
-AsyncCheckCookiesPermittedDecidesStorageAccessAPI
+AsyncCheckCookiesPermittedDecidesStorageAccessAPIOnChildProcess
 (
 bc
 principal
