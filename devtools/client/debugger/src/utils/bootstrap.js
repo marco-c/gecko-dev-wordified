@@ -100,6 +100,14 @@ Provider
 require
 (
 "
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
 react
 -
 redux
