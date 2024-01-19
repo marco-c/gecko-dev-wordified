@@ -511,7 +511,7 @@ sidebar
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sidebar
 )
@@ -1612,7 +1612,7 @@ sidebar
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sidebar
 )

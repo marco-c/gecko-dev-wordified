@@ -783,7 +783,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 column
 )
@@ -885,7 +885,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 column
 )

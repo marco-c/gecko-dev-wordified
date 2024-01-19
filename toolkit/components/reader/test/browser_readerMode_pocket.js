@@ -628,7 +628,7 @@ true
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 panel
 )
@@ -640,7 +640,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 panel
 )

@@ -541,7 +541,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 menuitem
 )

@@ -770,7 +770,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -1280,7 +1280,7 @@ categoryItem
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -1290,7 +1290,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -1475,7 +1475,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 listItem
 )
@@ -1733,7 +1733,7 @@ categoryItem
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -1743,7 +1743,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -1928,7 +1928,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 listItem
 )
@@ -2162,7 +2162,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -2425,7 +2425,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 listItem
 )

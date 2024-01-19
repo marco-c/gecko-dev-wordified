@@ -994,7 +994,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 this
 .
@@ -2224,7 +2224,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 )
@@ -2948,7 +2948,7 @@ preview
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 preview
 )

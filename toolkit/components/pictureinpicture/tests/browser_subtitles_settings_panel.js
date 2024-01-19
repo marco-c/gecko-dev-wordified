@@ -317,7 +317,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 subtitlesPanel
 )
@@ -746,7 +746,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 subtitlesPanel
 )
@@ -1194,7 +1194,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 subtitlesPanel
 )

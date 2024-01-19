@@ -1275,7 +1275,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -1519,7 +1519,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 element
 )
@@ -1856,7 +1856,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

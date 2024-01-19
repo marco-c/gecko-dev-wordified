@@ -213,7 +213,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sidebar
 )
@@ -478,7 +478,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sidebar
 )
@@ -741,7 +741,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sidebar
 )
@@ -1004,7 +1004,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sidebar
 )

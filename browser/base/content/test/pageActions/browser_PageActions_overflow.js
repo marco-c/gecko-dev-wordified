@@ -174,7 +174,7 @@ than
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -283,7 +283,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 addonButton
 )
@@ -309,7 +309,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 starButton
 )
@@ -336,7 +336,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 meatballButton
 )
@@ -384,7 +384,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 addonButton
 )
@@ -397,7 +397,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 starButton
 )
@@ -409,7 +409,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 meatballButton
 )
@@ -464,7 +464,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 starButton
 )
@@ -477,7 +477,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 meatballButton
 )
@@ -648,7 +648,7 @@ win
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -758,7 +758,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 meatballButton
 )
@@ -1639,7 +1639,7 @@ pageActionNode
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 pageActionNode
 )

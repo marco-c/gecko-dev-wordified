@@ -2492,7 +2492,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 checkbox
 )

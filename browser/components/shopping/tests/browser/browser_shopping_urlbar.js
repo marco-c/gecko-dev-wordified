@@ -166,7 +166,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )
@@ -277,7 +277,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )
@@ -609,7 +609,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )
@@ -842,7 +842,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sidebar
 )
@@ -1165,7 +1165,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sidebarA
 )
@@ -1198,7 +1198,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 sidebarB
 )
@@ -1654,7 +1654,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )
@@ -1700,7 +1700,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )
@@ -1764,7 +1764,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )
@@ -1972,7 +1972,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )
@@ -2018,7 +2018,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )
@@ -2082,7 +2082,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )
@@ -2143,7 +2143,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )
@@ -2279,7 +2279,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shoppingButton
 )

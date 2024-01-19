@@ -1074,7 +1074,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 row
 )
@@ -1179,7 +1179,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 row
 )

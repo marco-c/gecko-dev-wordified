@@ -1615,7 +1615,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 heuristicResult
 .
@@ -1696,7 +1696,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 heuristicResult
 .
@@ -1780,7 +1780,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 heuristicResult
 .
@@ -1869,7 +1869,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 heuristicResult
 .
@@ -1996,7 +1996,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 heuristicResult
 .
@@ -2053,7 +2053,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 heuristicResult
 .

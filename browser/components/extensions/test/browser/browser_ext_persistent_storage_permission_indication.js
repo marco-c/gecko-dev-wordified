@@ -330,7 +330,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 permissionsGrantedIcon
 )

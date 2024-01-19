@@ -3104,7 +3104,7 @@ e
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 e
 )

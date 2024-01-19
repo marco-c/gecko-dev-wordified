@@ -739,7 +739,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 helper
 .
@@ -1193,7 +1193,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 helper
 .

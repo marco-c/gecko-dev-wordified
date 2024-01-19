@@ -364,7 +364,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 result
 .
@@ -573,7 +573,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 result
 .
@@ -1266,7 +1266,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 result
 .
@@ -1451,7 +1451,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 result
 .
@@ -1589,7 +1589,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 result
 .

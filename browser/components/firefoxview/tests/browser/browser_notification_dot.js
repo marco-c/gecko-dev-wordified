@@ -807,7 +807,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 fxViewBtn
 )

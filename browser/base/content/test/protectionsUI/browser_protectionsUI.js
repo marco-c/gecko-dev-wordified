@@ -526,7 +526,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 container
 )
@@ -544,7 +544,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 message
 )
@@ -562,7 +562,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 learnMoreLink
 )
@@ -778,7 +778,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 gProtectionsHandler
 .
@@ -1392,7 +1392,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 gProtectionsHandler
 .
@@ -2352,7 +2352,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 item
 )
@@ -2380,7 +2380,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 item
 )
@@ -3556,7 +3556,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 trackerCounterBox
 )
@@ -3768,7 +3768,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 trackerCounterBox
 )

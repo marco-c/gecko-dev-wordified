@@ -778,7 +778,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 container
 )
@@ -927,7 +927,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 container
 )
@@ -2917,7 +2917,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 link
 )
@@ -3499,7 +3499,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 container
 )
@@ -3703,7 +3703,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 infoBox
 )
@@ -3748,7 +3748,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 infoIcon
 )
@@ -3806,7 +3806,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 learnMore
 )

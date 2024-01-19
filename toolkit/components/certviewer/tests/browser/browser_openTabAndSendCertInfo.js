@@ -1369,7 +1369,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 securityTab
 )
@@ -1425,7 +1425,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 viewCertButton
 )

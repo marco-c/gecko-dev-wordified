@@ -213,7 +213,7 @@ preview
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 preview
 )

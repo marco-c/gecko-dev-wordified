@@ -3227,7 +3227,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 row
 )

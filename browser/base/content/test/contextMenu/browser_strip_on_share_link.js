@@ -1067,7 +1067,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 stripOnShare
 )
@@ -1123,7 +1123,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 stripOnShare
 )

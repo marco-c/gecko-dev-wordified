@@ -160,7 +160,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicator
 )
@@ -193,7 +193,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicatorCloseButton
 )
@@ -222,7 +222,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 labelBox
 )
@@ -242,7 +242,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicator
 )
@@ -254,7 +254,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicatorCloseButton
 )
@@ -267,7 +267,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 labelBox
 )
@@ -294,7 +294,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicator
 )
@@ -306,7 +306,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicatorCloseButton
 )
@@ -319,7 +319,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 labelBox
 )
@@ -448,7 +448,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicator
 )
@@ -460,7 +460,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicatorCloseButton
 )
@@ -473,7 +473,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 labelBox
 )
@@ -532,7 +532,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicator
 )
@@ -545,7 +545,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicatorCloseButton
 )
@@ -558,7 +558,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 labelBox
 )
@@ -622,7 +622,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicator
 )
@@ -655,7 +655,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicatorCloseButton
 )
@@ -675,7 +675,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicator
 )
@@ -687,7 +687,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicatorCloseButton
 )
@@ -714,7 +714,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicator
 )
@@ -726,7 +726,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicatorCloseButton
 )
@@ -791,7 +791,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicator
 )
@@ -804,7 +804,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 indicatorCloseButton
 )

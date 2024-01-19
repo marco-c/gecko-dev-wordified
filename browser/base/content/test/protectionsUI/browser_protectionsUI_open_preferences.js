@@ -492,7 +492,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -504,7 +504,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -590,7 +590,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 preferencesButton
 )
@@ -783,7 +783,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -795,7 +795,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -881,7 +881,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 preferencesButton
 )

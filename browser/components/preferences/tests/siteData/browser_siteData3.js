@@ -1757,7 +1757,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 removalList
 )

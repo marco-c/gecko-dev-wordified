@@ -2101,7 +2101,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 relay
 )

@@ -553,7 +553,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 numCopies
 )
@@ -1778,7 +1778,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 pagesPerSheet
 )

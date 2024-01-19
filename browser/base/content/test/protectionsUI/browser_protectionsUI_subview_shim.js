@@ -491,7 +491,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 document
 .
@@ -567,7 +567,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -579,7 +579,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -1088,7 +1088,7 @@ shimAllow
 {
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 shimAllowSection
 "

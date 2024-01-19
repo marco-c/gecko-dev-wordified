@@ -501,7 +501,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -513,7 +513,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -625,7 +625,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 listHeaders
 [
@@ -657,7 +657,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 header
 )
@@ -843,7 +843,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 trackerTestItem
 )
@@ -963,7 +963,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 notTrackingExampleItem
 )
@@ -1304,7 +1304,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 test1ExampleItem
 )
@@ -1427,7 +1427,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 trackerTestItem
 )
@@ -1758,7 +1758,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 notTrackingExampleItem
 )
@@ -2108,7 +2108,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -2120,7 +2120,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -2294,7 +2294,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 listItem
 )
@@ -2368,7 +2368,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 stateLabel
 )
@@ -2441,7 +2441,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 button
 )
@@ -2926,7 +2926,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -2938,7 +2938,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -3112,7 +3112,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 listItem
 )
@@ -3173,7 +3173,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 button
 )
@@ -3408,7 +3408,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -3420,7 +3420,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -3594,7 +3594,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 listItem
 )

@@ -1546,7 +1546,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 permissionItem
 )
@@ -1601,7 +1601,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 permissionLearnMoreLink
 )

@@ -206,7 +206,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 customRootWarning
 )
@@ -294,7 +294,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 subPanelInfo
 )

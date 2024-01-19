@@ -5803,7 +5803,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 introductionSection
 )
@@ -5885,7 +5885,7 @@ introductionSection
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 mainSection
 )
@@ -5922,7 +5922,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 mainSection
 )
@@ -6409,7 +6409,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 logo
 )
@@ -6540,7 +6540,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 element
 )
@@ -6714,7 +6714,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 closeButton
 )
@@ -6904,7 +6904,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 nextButton
 )
@@ -6976,7 +6976,7 @@ introductionSection
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 mainSection
 )
@@ -7618,7 +7618,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 skipLink
 )
@@ -7901,7 +7901,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 learnMoreLink
 )
@@ -9101,7 +9101,7 @@ introductionSection
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 mainSection
 )

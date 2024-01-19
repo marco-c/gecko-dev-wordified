@@ -435,7 +435,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 newTabBrowser
 "
@@ -957,7 +957,7 @@ logo
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 currentBrowser
 "
@@ -990,7 +990,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 homeButton
 )

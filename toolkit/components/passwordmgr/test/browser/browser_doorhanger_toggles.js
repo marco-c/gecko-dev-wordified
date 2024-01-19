@@ -1782,7 +1782,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 passwordTextbox
 )
@@ -1820,7 +1820,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 toggleCheckbox
 )

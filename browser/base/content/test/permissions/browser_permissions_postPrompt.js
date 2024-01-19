@@ -127,7 +127,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 icon
 )
@@ -164,7 +164,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 icon
 )

@@ -670,7 +670,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 siteNotWorkingButton
 )
@@ -955,7 +955,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 siteFixedButton
 )
@@ -1727,7 +1727,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 siteNotWorkingButton
 )
@@ -2657,7 +2657,7 @@ waitForCondition
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 errorMessage
 )

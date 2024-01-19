@@ -8833,7 +8833,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 rfpWarningBanner
 )
@@ -8891,7 +8891,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 rfpWarningBanner
 )
@@ -8959,7 +8959,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 rfpWarningBanner
 )
@@ -9025,7 +9025,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 rfpWarningBanner
 )

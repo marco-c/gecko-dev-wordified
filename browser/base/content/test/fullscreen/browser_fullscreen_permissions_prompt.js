@@ -1258,7 +1258,7 @@ dismissed
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 PopupNotifications
 .
@@ -1299,7 +1299,7 @@ dismissed
 &
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 PopupNotifications
 .

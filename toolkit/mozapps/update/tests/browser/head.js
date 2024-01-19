@@ -4431,7 +4431,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 selectedPanel
 )
@@ -4579,7 +4579,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 selectedPanel
 )

@@ -321,7 +321,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 optionItem
 )
@@ -367,7 +367,7 @@ if
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 elem
 )

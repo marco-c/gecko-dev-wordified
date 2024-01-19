@@ -1004,7 +1004,7 @@ r
 >
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 r
 )

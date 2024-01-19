@@ -2521,7 +2521,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 onboardingDetails
 .

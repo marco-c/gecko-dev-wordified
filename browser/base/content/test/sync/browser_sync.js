@@ -330,7 +330,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 button
 )
@@ -373,7 +373,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 button
 )
@@ -405,7 +405,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 button
 )
@@ -437,7 +437,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 button
 )
@@ -467,7 +467,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 button
 )
@@ -737,7 +737,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 button
 )
@@ -1036,7 +1036,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 document
 .
@@ -3687,7 +3687,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 document
 .
@@ -4616,7 +4616,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 badge
 )

@@ -447,7 +447,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 printSelect
 )
@@ -811,7 +811,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 printSelect
 )

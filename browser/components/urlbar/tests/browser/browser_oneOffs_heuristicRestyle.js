@@ -586,7 +586,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 resultDetails
 .
@@ -623,7 +623,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 resultDetails
 .
@@ -1001,7 +1001,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 resultDetails
 .
@@ -1029,7 +1029,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 resultDetails
 .

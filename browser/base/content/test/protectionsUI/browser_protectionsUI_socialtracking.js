@@ -348,7 +348,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 gProtectionsHandler
 .
@@ -474,7 +474,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 gProtectionsHandler
 .
@@ -706,7 +706,7 @@ waitForCondition
 return
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -718,7 +718,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -983,7 +983,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 listItem
 )
@@ -1284,7 +1284,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -1373,7 +1373,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -1410,7 +1410,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 noTrackersDetectedDesc
 )
@@ -1559,7 +1559,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -1576,7 +1576,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 noTrackersDetectedDesc
 )
@@ -1713,7 +1713,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 categoryItem
 )
@@ -1730,7 +1730,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 noTrackersDetectedDesc
 )

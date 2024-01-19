@@ -2201,7 +2201,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 fxViewMenuItem
 )
@@ -2307,7 +2307,7 @@ equal
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 fxViewBtn
 )

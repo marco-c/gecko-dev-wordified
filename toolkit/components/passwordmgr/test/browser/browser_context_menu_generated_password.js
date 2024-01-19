@@ -321,7 +321,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 generatedPasswordItem
 )
@@ -455,7 +455,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 generatedPasswordItem
 )
@@ -595,7 +595,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 generatedPasswordItem
 )

@@ -746,7 +746,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -777,7 +777,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -809,7 +809,7 @@ is
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -1419,7 +1419,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -1439,7 +1439,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -1460,7 +1460,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -1541,7 +1541,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -1561,7 +1561,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -1581,7 +1581,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -1649,7 +1649,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -1670,7 +1670,7 @@ ok
 !
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -1690,7 +1690,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 el
 .
@@ -2072,7 +2072,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 enableButton
 )
@@ -2097,7 +2097,7 @@ ok
 (
 BrowserTestUtils
 .
-is_visible
+isVisible
 (
 disableButton
 )
