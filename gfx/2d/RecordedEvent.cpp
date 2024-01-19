@@ -390,14 +390,6 @@ FillGlyphs
 "
 ;
 case
-STROKEGLYPHS
-:
-return
-"
-StrokeGlyphs
-"
-;
-case
 MASK
 :
 return
