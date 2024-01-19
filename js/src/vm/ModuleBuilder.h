@@ -696,11 +696,6 @@ nodiscard
 bool
 isAssertionSupported
 (
-JS
-:
-:
-ImportAssertion
-supportedAssertion
 frontend
 :
 :
