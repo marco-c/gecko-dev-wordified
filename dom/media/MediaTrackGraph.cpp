@@ -216,6 +216,13 @@ h
 #
 include
 "
+AudioDeviceInfo
+.
+h
+"
+#
+include
+"
 AudioNodeTrack
 .
 h
