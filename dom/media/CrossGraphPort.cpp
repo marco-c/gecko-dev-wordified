@@ -598,8 +598,14 @@ Graph
 NotifyWhenDeviceStarted
 (
 mReceiver
-.
-get
+-
+>
+Graph
+(
+)
+-
+>
+PrimaryOutputDeviceID
 (
 )
 )
