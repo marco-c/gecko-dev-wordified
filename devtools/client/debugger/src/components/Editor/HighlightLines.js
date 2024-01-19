@@ -64,6 +64,14 @@ Component
 }
 from
 "
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
 react
 "
 ;
