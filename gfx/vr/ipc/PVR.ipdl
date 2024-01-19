@@ -193,6 +193,12 @@ ParentImpl
 "
 VRParent
 "
+ParentProc
+=
+VR
+ChildProc
+=
+Parent
 ]
 async
 protocol
