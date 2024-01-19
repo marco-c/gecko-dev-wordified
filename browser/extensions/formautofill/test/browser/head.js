@@ -2562,6 +2562,13 @@ was
 sent
 before
 .
+FormAutofillParent
+.
+removeMessageObserver
+(
+fieldsIdentifiedObserver
+)
+;
 fieldsIdentifiedPromiseResolver
 (
 )
