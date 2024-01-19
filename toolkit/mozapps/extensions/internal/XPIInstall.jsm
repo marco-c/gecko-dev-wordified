@@ -514,7 +514,7 @@ jsm
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

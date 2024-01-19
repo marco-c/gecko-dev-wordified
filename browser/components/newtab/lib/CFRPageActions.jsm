@@ -619,7 +619,7 @@ stateTransitionTimeoutIDs
 [
 ]
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

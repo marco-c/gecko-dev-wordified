@@ -568,7 +568,7 @@ nsIBrowserHandler
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

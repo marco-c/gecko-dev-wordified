@@ -161,7 +161,7 @@ mjs
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -182,7 +182,7 @@ getClientID
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -207,7 +207,7 @@ getMetadata
 sessionId
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

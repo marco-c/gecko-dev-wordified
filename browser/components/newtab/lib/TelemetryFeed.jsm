@@ -427,7 +427,7 @@ jsm
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -675,7 +675,7 @@ newtab
 "
 ]
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (
@@ -745,7 +745,7 @@ services
 contextId
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

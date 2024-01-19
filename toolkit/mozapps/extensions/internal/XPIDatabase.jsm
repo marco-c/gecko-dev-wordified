@@ -561,7 +561,7 @@ t
 be
 loaded
 .
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

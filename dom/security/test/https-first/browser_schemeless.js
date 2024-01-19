@@ -59,7 +59,7 @@ insecure
 url
 *
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 (

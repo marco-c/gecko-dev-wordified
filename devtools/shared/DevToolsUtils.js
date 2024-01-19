@@ -811,7 +811,7 @@ delay
 *
 *
 Like
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 but

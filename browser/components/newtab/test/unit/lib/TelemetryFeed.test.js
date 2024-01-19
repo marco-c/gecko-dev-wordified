@@ -281,7 +281,7 @@ which
 the
 /
 /
-XPCOMUtils
+ChromeUtils
 .
 defineLazyGetter
 mock
