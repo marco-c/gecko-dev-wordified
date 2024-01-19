@@ -252,6 +252,15 @@ h
 #
 include
 "
+gc
+/
+SweepingAPI
+.
+h
+"
+#
+include
+"
 js
 /
 friend

@@ -1647,15 +1647,6 @@ include
 "
 js
 /
-SweepingAPI
-.
-h
-"
-#
-include
-"
-js
-/
 Transcoding
 .
 h
