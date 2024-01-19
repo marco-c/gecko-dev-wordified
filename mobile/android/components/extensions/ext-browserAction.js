@@ -603,7 +603,6 @@ PERSISTENT_EVENTS
 onClicked
 (
 {
-context
 fire
 }
 )
@@ -724,16 +723,11 @@ listener
 convert
 (
 newFire
-extContext
 )
 {
 fire
 =
 newFire
-;
-context
-=
-extContext
 ;
 }
 }
