@@ -439,7 +439,7 @@ ClearPool
 (
 )
 ;
-void
+bool
 StoreRecycledSurface
 (
 const
