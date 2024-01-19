@@ -398,12 +398,14 @@ map
 t
 =
 >
-(
+{
 t
 .
 stop
 (
 )
+;
+return
 haveNoEvent
 (
 t
@@ -411,7 +413,8 @@ t
 ended
 "
 )
-)
+;
+}
 )
 ]
 )
