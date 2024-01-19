@@ -868,10 +868,10 @@ required
 /
 /
 If
-length
+memory
 is
-increased
-new
+allocated
+additional
 buffer
 area
 is
@@ -4413,10 +4413,10 @@ required
 /
 /
 If
-size
+memory
 is
-increased
-new
+allocated
+additional
 buffer
 area
 is
