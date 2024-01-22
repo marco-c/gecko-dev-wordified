@@ -504,6 +504,16 @@ false
 )
 {
 }
+ClientManagerChild
+:
+:
+~
+ClientManagerChild
+(
+)
+=
+default
+;
 void
 ClientManagerChild
 :

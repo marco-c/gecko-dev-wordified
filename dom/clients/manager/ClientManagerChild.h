@@ -181,8 +181,6 @@ ClientManagerChild
 ClientManagerChild
 (
 )
-=
-default
 ;
 /
 /
