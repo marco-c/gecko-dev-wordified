@@ -172,6 +172,13 @@ mHandle
 bool
 mTeardownStarted
 ;
+~
+ClientHandleChild
+(
+)
+=
+default
+;
 /
 /
 PClientHandleChild
@@ -222,6 +229,11 @@ override
 ;
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+ClientHandleChild
+override
+)
 ClientHandleChild
 (
 )

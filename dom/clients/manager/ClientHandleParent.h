@@ -222,6 +222,11 @@ ipc
 PrincipalInfo
 mPrincipalInfo
 ;
+~
+ClientHandleParent
+(
+)
+;
 /
 /
 PClientHandleParent
@@ -287,11 +292,11 @@ override
 ;
 public
 :
-ClientHandleParent
+NS_INLINE_DECL_REFCOUNTING
 (
+ClientHandleParent
+override
 )
-;
-~
 ClientHandleParent
 (
 )

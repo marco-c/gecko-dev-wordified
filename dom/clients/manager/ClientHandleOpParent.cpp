@@ -233,7 +233,10 @@ ClientOpConstructorArgs
 aArgs
 )
 {
-auto
+RefPtr
+<
+ClientHandleParent
+>
 handle
 =
 static_cast
