@@ -24506,8 +24506,10 @@ ErrorResult
 aRv
 )
 {
-auto
-*
+RefPtr
+<
+WebBrowserPersistDocumentParent
+>
 actor
 =
 new

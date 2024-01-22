@@ -132,11 +132,11 @@ PWebBrowserPersistDocumentChild
 {
 public
 :
-WebBrowserPersistDocumentChild
+NS_INLINE_DECL_REFCOUNTING
 (
+WebBrowserPersistDocumentChild
+override
 )
-;
-~
 WebBrowserPersistDocumentChild
 (
 )
@@ -290,6 +290,11 @@ aActor
 ;
 private
 :
+~
+WebBrowserPersistDocumentChild
+(
+)
+;
 nsCOMPtr
 <
 nsIWebBrowserPersistDocument

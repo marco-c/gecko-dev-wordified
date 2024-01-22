@@ -5775,8 +5775,10 @@ override
 ;
 #
 endif
+already_AddRefed
+<
 PWebBrowserPersistDocumentParent
-*
+>
 AllocPWebBrowserPersistDocumentParent
 (
 PBrowserParent
@@ -5789,14 +5791,6 @@ BrowsingContext
 >
 &
 aContext
-)
-;
-bool
-DeallocPWebBrowserPersistDocumentParent
-(
-PWebBrowserPersistDocumentParent
-*
-aActor
 )
 ;
 mozilla

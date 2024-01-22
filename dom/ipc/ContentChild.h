@@ -1112,8 +1112,10 @@ aCCLog
 )
 override
 ;
+already_AddRefed
+<
 PWebBrowserPersistDocumentChild
-*
+>
 AllocPWebBrowserPersistDocumentChild
 (
 PBrowserChild
@@ -1153,14 +1155,6 @@ BrowsingContext
 aContext
 )
 override
-;
-bool
-DeallocPWebBrowserPersistDocumentChild
-(
-PWebBrowserPersistDocumentChild
-*
-aActor
-)
 ;
 already_AddRefed
 <
