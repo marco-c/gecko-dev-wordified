@@ -2,7 +2,7 @@
 /
 META
 :
-TIMEOUT
+timeout
 =
 long
 /
