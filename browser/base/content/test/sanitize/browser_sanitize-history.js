@@ -65,7 +65,7 @@ categories
 history
 "
 "
-historyAndFormData
+historyFormDataAndDownloads
 "
 ]
 ;
