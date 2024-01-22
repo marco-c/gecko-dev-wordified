@@ -205,6 +205,7 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 RemoteWorkerControllerChild
+override
 )
 explicit
 RemoteWorkerControllerChild
