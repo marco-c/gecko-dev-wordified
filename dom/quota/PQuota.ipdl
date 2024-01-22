@@ -340,7 +340,6 @@ ListOriginsParams
 }
 ;
 [
-ManualDealloc
 ChildImpl
 =
 virtual

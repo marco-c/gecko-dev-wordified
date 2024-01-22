@@ -1855,8 +1855,10 @@ NS_ERROR_FAILURE
 ;
 }
 {
+RefPtr
+<
 QuotaChild
-*
+>
 actor
 =
 new
