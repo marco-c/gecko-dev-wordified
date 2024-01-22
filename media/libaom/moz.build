@@ -239,6 +239,15 @@ aom_config
 h
 '
 ]
+SOURCES
++
+=
+files
+[
+'
+X64_WIN_SOURCES
+'
+]
 #
 This
 code
