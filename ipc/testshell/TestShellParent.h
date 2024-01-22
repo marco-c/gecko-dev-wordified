@@ -179,6 +179,11 @@ PTestShellParent
 ;
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+TestShellParent
+override
+)
 virtual
 void
 ActorDestroy
@@ -217,6 +222,15 @@ nsAString
 &
 aResponse
 )
+;
+private
+:
+~
+TestShellParent
+(
+)
+=
+default
 ;
 }
 ;
