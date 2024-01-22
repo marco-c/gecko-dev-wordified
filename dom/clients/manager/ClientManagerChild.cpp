@@ -407,8 +407,10 @@ true
 /
 /
 static
+already_AddRefed
+<
 ClientManagerChild
-*
+>
 ClientManagerChild
 :
 :
@@ -416,8 +418,10 @@ Create
 (
 )
 {
+RefPtr
+<
 ClientManagerChild
-*
+>
 actor
 =
 new
@@ -509,9 +513,6 @@ mIPCWorkerRef
 )
 )
 {
-delete
-actor
-;
 return
 nullptr
 ;
@@ -519,6 +520,10 @@ nullptr
 }
 return
 actor
+.
+forget
+(
+)
 ;
 }
 ClientManagerChild

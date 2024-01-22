@@ -153,6 +153,11 @@ ClientManagerService
 >
 mService
 ;
+~
+ClientManagerParent
+(
+)
+;
 /
 /
 PClientManagerParent
@@ -341,11 +346,11 @@ override
 ;
 public
 :
-ClientManagerParent
+NS_INLINE_DECL_REFCOUNTING
 (
+ClientManagerParent
+override
 )
-;
-~
 ClientManagerParent
 (
 )
