@@ -165,6 +165,13 @@ mSource
 bool
 mTeardownStarted
 ;
+~
+ClientSourceChild
+(
+)
+=
+default
+;
 /
 /
 PClientSourceChild
@@ -230,6 +237,11 @@ override
 ;
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+ClientSourceChild
+override
+)
 explicit
 ClientSourceChild
 (
