@@ -142,6 +142,13 @@ h
 #
 include
 "
+Utility
+.
+h
+"
+#
+include
+"
 ipc
 /
 WebGPUChild
@@ -312,9 +319,6 @@ WasPassed
 {
 depthStencilFormat
 =
-WebGPUChild
-:
-:
 ConvertTextureFormat
 (
 aDesc
@@ -382,9 +386,6 @@ WGPUTextureFormat_Sentinel
 ;
 format
 =
-WebGPUChild
-:
-:
 ConvertTextureFormat
 (
 aDesc
