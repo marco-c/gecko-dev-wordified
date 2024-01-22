@@ -309,9 +309,6 @@ struct
 PropertyStyleAnimationValuePair
 ;
 struct
-AnimatedPropertyID
-;
-struct
 AnimationValue
 {
 explicit
@@ -744,8 +741,6 @@ aOther
 double
 ComputeDistance
 (
-nsCSSPropertyID
-aProperty
 const
 AnimationValue
 &
@@ -792,7 +787,8 @@ static
 AnimationValue
 FromString
 (
-nsCSSPropertyID
+AnimatedPropertyID
+&
 aProperty
 const
 nsACString
