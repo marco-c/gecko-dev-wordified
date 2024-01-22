@@ -4,6 +4,7 @@ import
 Any
 Callable
 Dict
+List
 Mapping
 from
 webdriver
@@ -78,24 +79,18 @@ actual
         
 return
     
-assert
-type
-(
-expected
-)
-is
-type
+if
+isinstance
 (
 actual
+List
 )
-    
-if
-type
+and
+isinstance
 (
 expected
+List
 )
-is
-list
 :
         
 assert
@@ -135,17 +130,22 @@ index
 return
     
 if
-type
+isinstance
+(
+actual
+Dict
+)
+and
+isinstance
 (
 expected
+Dict
 )
-is
-dict
 :
         
 #
 Actual
-dict
+Mapping
 can
 have
 more
