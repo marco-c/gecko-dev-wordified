@@ -145,9 +145,6 @@ queued
 ;
 }
 ;
-[
-ManualDealloc
-]
 sync
 protocol
 PSpeechSynthesis
