@@ -201,7 +201,7 @@ w
 int
 h
 const
-ConvolveParams
+WienerConvolveParams
 *
 conv_params
 )

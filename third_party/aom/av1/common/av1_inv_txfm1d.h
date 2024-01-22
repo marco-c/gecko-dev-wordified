@@ -265,7 +265,7 @@ bit
 ;
 }
 void
-av1_idct4_new
+av1_idct4
 (
 const
 int32_t
@@ -283,7 +283,7 @@ stage_range
 )
 ;
 void
-av1_idct8_new
+av1_idct8
 (
 const
 int32_t
@@ -301,7 +301,7 @@ stage_range
 )
 ;
 void
-av1_idct16_new
+av1_idct16
 (
 const
 int32_t
@@ -319,7 +319,7 @@ stage_range
 )
 ;
 void
-av1_idct32_new
+av1_idct32
 (
 const
 int32_t
@@ -337,7 +337,7 @@ stage_range
 )
 ;
 void
-av1_idct64_new
+av1_idct64
 (
 const
 int32_t
@@ -355,7 +355,7 @@ stage_range
 )
 ;
 void
-av1_iadst4_new
+av1_iadst4
 (
 const
 int32_t
@@ -373,7 +373,7 @@ stage_range
 )
 ;
 void
-av1_iadst8_new
+av1_iadst8
 (
 const
 int32_t
@@ -391,7 +391,7 @@ stage_range
 )
 ;
 void
-av1_iadst16_new
+av1_iadst16
 (
 const
 int32_t

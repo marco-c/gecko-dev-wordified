@@ -218,6 +218,7 @@ out0
 out1
 )
 \
+do
 {
 \
 const
@@ -270,6 +271,10 @@ _w1
 ;
 \
 }
+while
+(
+0
+)
 static
 INLINE
 void

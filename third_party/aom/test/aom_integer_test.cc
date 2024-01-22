@@ -867,7 +867,7 @@ kMaximumLeb128CodedSize
 1
 &
 decoded_value
-NULL
+nullptr
 )
 -
 1
@@ -904,7 +904,7 @@ kAllPadBytesBuffer
 kMaximumLeb128CodedSize
 &
 decoded_value
-NULL
+nullptr
 )
 -
 1
@@ -995,7 +995,7 @@ aom_uleb_encode
 (
 kValidTestValue
 kWriteBufferSize
-NULL
+nullptr
 &
 coded_size
 )
@@ -1014,7 +1014,7 @@ write_buffer
 [
 0
 ]
-NULL
+nullptr
 )
 -
 1

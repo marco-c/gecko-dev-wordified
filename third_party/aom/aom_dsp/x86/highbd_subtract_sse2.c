@@ -242,7 +242,7 @@ diff_stride
 ;
 u0
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -260,7 +260,7 @@ src_stride
 ;
 u1
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -278,7 +278,7 @@ src_stride
 ;
 u2
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -296,7 +296,7 @@ src_stride
 ;
 u3
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -314,7 +314,7 @@ src_stride
 ;
 v0
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -332,7 +332,7 @@ pred_stride
 ;
 v1
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -350,7 +350,7 @@ pred_stride
 ;
 v2
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -368,7 +368,7 @@ pred_stride
 ;
 v3
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -570,7 +570,7 @@ diff_stride
 ;
 u0
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -588,7 +588,7 @@ src_stride
 ;
 u1
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -606,7 +606,7 @@ src_stride
 ;
 u2
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -624,7 +624,7 @@ src_stride
 ;
 u3
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -642,7 +642,7 @@ src_stride
 ;
 u4
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -660,7 +660,7 @@ src_stride
 ;
 u5
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -678,7 +678,7 @@ src_stride
 ;
 u6
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -696,7 +696,7 @@ src_stride
 ;
 u7
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -714,7 +714,7 @@ src_stride
 ;
 v0
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -732,7 +732,7 @@ pred_stride
 ;
 v1
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -750,7 +750,7 @@ pred_stride
 ;
 v2
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -768,7 +768,7 @@ pred_stride
 ;
 v3
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -786,7 +786,7 @@ pred_stride
 ;
 v4
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -804,7 +804,7 @@ pred_stride
 ;
 v5
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -822,7 +822,7 @@ pred_stride
 ;
 v6
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -840,7 +840,7 @@ pred_stride
 ;
 v7
 =
-_mm_loadu_si128
+_mm_loadl_epi64
 (
 (
 __m128i
@@ -2577,8 +2577,6 @@ uint8_t
 pred8
 ptrdiff_t
 pred_stride
-int
-bd
 )
 {
 uint16_t
@@ -2601,11 +2599,6 @@ pred8
 ;
 SubtractWxHFuncType
 func
-;
-(
-void
-)
-bd
 ;
 func
 =

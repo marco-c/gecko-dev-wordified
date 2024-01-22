@@ -409,7 +409,6 @@ char
 *
 Get
 (
-void
 )
 {
 static

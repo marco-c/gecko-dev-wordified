@@ -830,7 +830,7 @@ issue
 .
 *
 /
-int
+int8_t
 av1_wedge_sign_from_residuals_c
 (
 const

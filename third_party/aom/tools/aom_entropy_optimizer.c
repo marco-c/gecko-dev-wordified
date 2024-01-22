@@ -2384,9 +2384,16 @@ if
 !
 bytes
 )
+{
+fclose
+(
+statsfile
+)
+;
 return
 1
 ;
+}
 FILE
 *
 const
@@ -4680,7 +4687,7 @@ optimize_cdf_table
 &
 fc
 .
-skip
+skip_txfm
 [
 0
 ]
@@ -4696,7 +4703,7 @@ const
 aom_cdf_prob
 "
 "
-default_skip_cdfs
+default_skip_txfm_cdfs
 [
 SKIP_CONTEXTS
 ]

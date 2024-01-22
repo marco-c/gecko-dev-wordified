@@ -443,7 +443,7 @@ a
 *
 (
 (
-uint32_t
+int
 *
 )
 (
@@ -463,7 +463,7 @@ a
 *
 (
 (
-uint32_t
+int
 *
 )
 (
@@ -1213,7 +1213,7 @@ bytes
 *
 (
 (
-uint32_t
+int
 *
 )
 (
@@ -1880,7 +1880,7 @@ bytes
 *
 (
 (
-uint32_t
+int
 *
 )
 (
@@ -9716,7 +9716,6 @@ h
 src
 avx2
 )
-;
 FUN_CONV_1D
 (
 vert
@@ -9730,7 +9729,6 @@ src_stride
 3
 avx2
 )
-;
 #
 endif
 /

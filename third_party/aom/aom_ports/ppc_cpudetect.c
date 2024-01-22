@@ -308,7 +308,7 @@ buf
 /
 /
 If
-VPX_SIMD_CAPS
+AOM_SIMD_CAPS_MASK
 is
 set
 then

@@ -233,8 +233,6 @@ int16x8_t
 output
 int8_t
 cos_bit
-int
-bit
 )
 ;
 DECLARE_ALIGNED

@@ -120,7 +120,11 @@ patent
 /
 /
 *
+*
 Sum
+the
+square
+of
 the
 difference
 between
@@ -129,10 +133,18 @@ corresponding
 element
 of
 the
+*
 buffers
 .
 *
 /
+#
+include
+<
+stdlib
+.
+h
+>
 #
 include
 "
@@ -260,6 +272,9 @@ return
 sse
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 int64_t
 aom_highbd_sse_c
 (
@@ -385,3 +400,5 @@ return
 sse
 ;
 }
+#
+endif

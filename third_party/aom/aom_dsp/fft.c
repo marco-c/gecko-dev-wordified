@@ -136,6 +136,15 @@ fft_common
 .
 h
 "
+#
+include
+"
+config
+/
+aom_dsp_rtcd
+.
+h
+"
 static
 INLINE
 void
@@ -840,7 +849,6 @@ float
 *
 store_float
 )
-;
 GEN_FFT_4
 (
 void
@@ -855,7 +863,6 @@ float
 add_float
 sub_float
 )
-;
 GEN_FFT_8
 (
 void
@@ -871,7 +878,6 @@ add_float
 sub_float
 mul_float
 )
-;
 GEN_FFT_16
 (
 void
@@ -887,7 +893,6 @@ add_float
 sub_float
 mul_float
 )
-;
 GEN_FFT_32
 (
 void
@@ -903,7 +908,6 @@ add_float
 sub_float
 mul_float
 )
-;
 void
 aom_fft2x2_float_c
 (
@@ -1959,7 +1963,6 @@ float
 *
 store_float
 )
-;
 GEN_IFFT_4
 (
 void
@@ -1974,7 +1977,6 @@ float
 add_float
 sub_float
 )
-;
 GEN_IFFT_8
 (
 void
@@ -1990,7 +1992,6 @@ add_float
 sub_float
 mul_float
 )
-;
 GEN_IFFT_16
 (
 void
@@ -2006,7 +2007,6 @@ add_float
 sub_float
 mul_float
 )
-;
 GEN_IFFT_32
 (
 void
@@ -2022,7 +2022,6 @@ add_float
 sub_float
 mul_float
 )
-;
 void
 aom_ifft2x2_float_c
 (

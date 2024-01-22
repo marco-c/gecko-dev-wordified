@@ -217,18 +217,8 @@ initial_display_delay
 }
 aom_dec_model_op_parameters_t
 ;
-typedef
-struct
-aom_op_timing_info_t
-{
-uint32_t
-buffer_removal_time
-;
-}
-aom_op_timing_info_t
-;
 void
-set_aom_dec_model_info
+av1_set_aom_dec_model_info
 (
 aom_dec_model_info_t
 *
@@ -236,7 +226,7 @@ decoder_model
 )
 ;
 void
-set_dec_model_op_parameters
+av1_set_dec_model_op_parameters
 (
 aom_dec_model_op_parameters_t
 *
@@ -244,7 +234,7 @@ op_params
 )
 ;
 void
-set_resource_availability_parameters
+av1_set_resource_availability_parameters
 (
 aom_dec_model_op_parameters_t
 *
@@ -252,7 +242,7 @@ op_params
 )
 ;
 int64_t
-max_level_bitrate
+av1_max_level_bitrate
 (
 BITSTREAM_PROFILE
 seq_profile

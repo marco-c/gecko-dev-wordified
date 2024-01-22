@@ -146,7 +146,7 @@ C
 #
 endif
 void
-av1_fdct4_new
+av1_fdct4
 (
 const
 int32_t
@@ -164,7 +164,7 @@ stage_range
 )
 ;
 void
-av1_fdct8_new
+av1_fdct8
 (
 const
 int32_t
@@ -182,7 +182,7 @@ stage_range
 )
 ;
 void
-av1_fdct16_new
+av1_fdct16
 (
 const
 int32_t
@@ -200,7 +200,7 @@ stage_range
 )
 ;
 void
-av1_fdct32_new
+av1_fdct32
 (
 const
 int32_t
@@ -218,7 +218,7 @@ stage_range
 )
 ;
 void
-av1_fdct64_new
+av1_fdct64
 (
 const
 int32_t
@@ -236,7 +236,7 @@ stage_range
 )
 ;
 void
-av1_fadst4_new
+av1_fadst4
 (
 const
 int32_t
@@ -254,7 +254,7 @@ stage_range
 )
 ;
 void
-av1_fadst8_new
+av1_fadst8
 (
 const
 int32_t
@@ -272,7 +272,7 @@ stage_range
 )
 ;
 void
-av1_fadst16_new
+av1_fadst16
 (
 const
 int32_t

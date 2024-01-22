@@ -1361,6 +1361,9 @@ end
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 /
 *
 *
@@ -2467,6 +2470,11 @@ end
 )
 ;
 }
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH
 CFL_GET_SUBSAMPLE_FUNCTION
 (
 ssse3
@@ -2778,6 +2786,9 @@ CFL_PREDICT_FN
 ssse3
 lbd
 )
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 static
 INLINE
 __m128i
@@ -3169,3 +3180,8 @@ CFL_PREDICT_FN
 ssse3
 hbd
 )
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH

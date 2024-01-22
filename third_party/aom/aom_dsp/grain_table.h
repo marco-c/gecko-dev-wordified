@@ -317,7 +317,7 @@ include
 "
 aom_dsp
 /
-grain_synthesis
+grain_params
 .
 h
 "
@@ -392,7 +392,6 @@ parameters
 param
 [
 in
-/
 out
 ]
 table

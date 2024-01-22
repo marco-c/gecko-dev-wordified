@@ -252,6 +252,9 @@ src_stride
 ;
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 aom_highbd_subtract_block_c
 (
@@ -276,8 +279,6 @@ uint8_t
 pred8
 ptrdiff_t
 pred_stride
-int
-bd
 )
 {
 int
@@ -301,11 +302,6 @@ CONVERT_TO_SHORTPTR
 (
 pred8
 )
-;
-(
-void
-)
-bd
 ;
 for
 (
@@ -370,3 +366,5 @@ src_stride
 ;
 }
 }
+#
+endif

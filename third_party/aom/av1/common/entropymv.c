@@ -125,7 +125,7 @@ av1
 /
 common
 /
-onyxc_int
+av1_common_int
 .
 h
 "

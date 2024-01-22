@@ -200,12 +200,6 @@ C
 {
 #
 endif
-#
-define
-PI
-3
-.
-141592653589793238462643383279502884
 /
 /
 Only
@@ -229,6 +223,7 @@ dest
 src
 )
 \
+do
 {
 \
 assert
@@ -258,6 +253,10 @@ src
 ;
 \
 }
+while
+(
+0
+)
 /
 /
 Use
@@ -277,6 +276,7 @@ src
 n
 )
 \
+do
 {
 \
 assert
@@ -317,6 +317,10 @@ src
 ;
 \
 }
+while
+(
+0
+)
 #
 define
 av1_zero
@@ -392,8 +396,9 @@ expr
 \
 AOM_CHECK_MEM_ERROR
 (
-&
+(
 cm
+)
 -
 >
 error

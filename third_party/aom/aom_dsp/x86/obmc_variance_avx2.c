@@ -144,6 +144,15 @@ h
 #
 include
 "
+config
+/
+aom_dsp_rtcd
+.
+h
+"
+#
+include
+"
 aom_ports
 /
 mem
@@ -762,6 +771,10 @@ v_d
 *
 sse
 =
+(
+unsigned
+int
+)
 _mm_cvtsi128_si32
 (
 _mm_srli_si128
@@ -1248,6 +1261,10 @@ res0
 *
 sse
 =
+(
+unsigned
+int
+)
 _mm_cvtsi128_si32
 (
 _mm_srli_si128

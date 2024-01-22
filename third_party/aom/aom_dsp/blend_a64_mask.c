@@ -224,9 +224,7 @@ sources
 /
 NOTE
 (
-david
-.
-barker
+rachelbarker
 )
 :
 The
@@ -234,7 +232,7 @@ input
 and
 output
 of
-aom_blend_a64_d32_mask_c
+aom_blend_a64_d16_mask_c
 (
 )
 are
@@ -322,7 +320,7 @@ of
 the
 non
 -
-d32
+d16
 functions
 will
 not
@@ -1141,6 +1139,9 @@ round_bits
 }
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 aom_highbd_blend_a64_d16_mask_c
 (
@@ -1974,6 +1975,11 @@ dst_stride
 }
 }
 }
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH
 /
 /
 Blending
@@ -2590,6 +2596,9 @@ j
 }
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 aom_highbd_blend_a64_mask_c
 (
@@ -3212,3 +3221,8 @@ j
 }
 }
 }
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH

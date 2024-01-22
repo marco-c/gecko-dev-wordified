@@ -151,6 +151,7 @@ h
 void
 aom_scale_rtcd
 (
+void
 )
 {
 aom_once

@@ -5,7 +5,8 @@ usr
 /
 bin
 /
-python
+env
+python3
 #
 #
 #
@@ -153,7 +154,7 @@ getopt
 import
 os
 import
-StringIO
+io
 import
 subprocess
 import
@@ -493,6 +494,7 @@ except
 getopt
 .
 error
+as
 msg
 :
             
@@ -530,7 +532,9 @@ help
 :
                 
 print
+(
 __doc__
+)
                 
 sys
 .
@@ -551,7 +555,9 @@ args
 :
             
 print
+(
 __doc__
+)
             
 sys
 .
@@ -583,6 +589,9 @@ stdout
 subprocess
 .
 PIPE
+text
+=
+True
 )
         
 tl
@@ -714,6 +723,9 @@ stdout
 subprocess
 .
 PIPE
+text
+=
+True
 )
         
 stdout
@@ -734,7 +746,7 @@ diff
 .
 ParseDiffHunks
 (
-StringIO
+io
 .
 StringIO
 (
@@ -803,7 +815,7 @@ affected_lines
 in
 file_affected_line_map
 .
-iteritems
+items
 (
 )
 :
@@ -832,6 +844,19 @@ h
 "
 "
 cc
+"
+)
+:
+                
+continue
+            
+if
+filename
+.
+startswith
+(
+"
+third_party
 "
 )
 :
@@ -876,6 +901,9 @@ stdout
 subprocess
 .
 PIPE
+text
+=
+True
 )
                 
 lint
@@ -900,6 +928,10 @@ stderr
 subprocess
 .
 PIPE
+                                  
+text
+=
+True
 )
                 
 lint_out
@@ -947,6 +979,10 @@ stderr
 subprocess
 .
 PIPE
+                                  
+text
+=
+True
 )
                 
 stdin
@@ -1036,6 +1072,7 @@ affected_lines
 :
                     
 print
+(
 "
 %
 s
@@ -1064,6 +1101,7 @@ fields
 ]
 )
 )
+)
                     
 lint_failed
 =
@@ -1089,23 +1127,22 @@ return
     
 except
 Usage
+as
 err
 :
         
 print
->
->
+(
+err
+file
+=
 sys
 .
 stderr
-err
+)
         
 print
->
->
-sys
-.
-stderr
+(
 "
 for
 help
@@ -1114,6 +1151,12 @@ use
 -
 help
 "
+file
+=
+sys
+.
+stderr
+)
         
 return
 2

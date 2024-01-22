@@ -124,6 +124,15 @@ AOM_AOM_DSP_X86_CONVOLVE_SSE2_H_
 #
 define
 AOM_AOM_DSP_X86_CONVOLVE_SSE2_H_
+#
+include
+"
+config
+/
+aom_scale_rtcd
+.
+h
+"
 /
 /
 Note
@@ -693,7 +702,7 @@ const
 wt
 const
 int
-use_jnt_comp_avg
+use_dist_wtd_avg
 )
 {
 __m128i
@@ -701,7 +710,7 @@ res
 ;
 if
 (
-use_jnt_comp_avg
+use_dist_wtd_avg
 )
 {
 const

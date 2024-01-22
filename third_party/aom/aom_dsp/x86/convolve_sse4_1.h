@@ -264,7 +264,7 @@ const
 wt1
 const
 int
-use_jnt_comp_avg
+use_dist_wtd_avg
 )
 {
 __m128i
@@ -272,7 +272,7 @@ res
 ;
 if
 (
-use_jnt_comp_avg
+use_dist_wtd_avg
 )
 {
 const

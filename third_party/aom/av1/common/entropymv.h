@@ -195,7 +195,6 @@ jointly
 define
 MV_JOINTS
 4
-typedef
 enum
 {
 MV_JOINT_ZERO
@@ -240,7 +239,10 @@ nonzero
 *
 /
 }
+UENUM1BYTE
+(
 MV_JOINT_TYPE
+)
 ;
 static
 INLINE
@@ -302,7 +304,6 @@ components
 define
 MV_CLASSES
 11
-typedef
 enum
 {
 MV_CLASS_0
@@ -449,7 +450,10 @@ pel
 *
 /
 }
+UENUM1BYTE
+(
 MV_CLASS_TYPE
+)
 ;
 #
 define
@@ -659,7 +663,6 @@ comps
 }
 nmv_context
 ;
-typedef
 enum
 {
 MV_SUBPEL_NONE
@@ -671,7 +674,10 @@ MV_SUBPEL_LOW_PRECISION
 0
 MV_SUBPEL_HIGH_PRECISION
 }
+SENUM1BYTE
+(
 MvSubpelPrecision
+)
 ;
 #
 ifdef

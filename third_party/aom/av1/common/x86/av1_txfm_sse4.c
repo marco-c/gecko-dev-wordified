@@ -123,7 +123,7 @@ include
 "
 config
 /
-aom_dsp_rtcd
+av1_rtcd
 .
 h
 "
@@ -151,6 +151,18 @@ av1_txfm_sse4
 .
 h
 "
+/
+/
+This
+function
+assumes
+arr
+is
+16
+-
+byte
+aligned
+.
 void
 av1_round_shift_array_sse4_1
 (

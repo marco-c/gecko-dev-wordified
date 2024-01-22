@@ -1162,6 +1162,9 @@ h
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 /
 /
 /
@@ -2254,3 +2257,8 @@ h
 ;
 }
 }
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH

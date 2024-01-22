@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 #
 #
@@ -576,9 +576,11 @@ out_hunks
 :
         
 print
+(
 FormatDiffHunks
 (
 out_hunks
+)
 )
         
 sys

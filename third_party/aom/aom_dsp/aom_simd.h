@@ -175,18 +175,6 @@ checks
 in
 C
 equivalents
-#
-if
-HAVE_NEON
-#
-include
-"
-simd
-/
-v256_intrinsics_arm
-.
-h
-"
 /
 /
 VS
@@ -228,7 +216,7 @@ are
 disabled
 .
 #
-elif
+if
 HAVE_SSE2
 &
 &

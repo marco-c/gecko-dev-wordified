@@ -462,12 +462,12 @@ passed
 back
 in
 the
-ximage
+aom_image_t
 and
 the
 release
-function
 *
+function
 call
 .
 |
@@ -484,8 +484,8 @@ On
 success
 the
 callback
-must
 *
+must
 return
 0
 .
@@ -520,7 +520,7 @@ param
 [
 in
 ]
-new_size
+min_size
 Size
 in
 bytes

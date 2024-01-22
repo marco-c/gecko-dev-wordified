@@ -398,11 +398,11 @@ AV1_SET_DECODE_TILE_COL
 ;
 }
 }
-virtual
 ~
 TileIndependenceTest
 (
 )
+override
 {
 delete
 fw_dec_
@@ -411,17 +411,13 @@ delete
 inv_dec_
 ;
 }
-virtual
 void
 SetUp
 (
 )
+override
 {
 InitializeConfig
-(
-)
-;
-SetMode
 (
 libaom_test
 :
@@ -430,7 +426,6 @@ kTwoPassGood
 )
 ;
 }
-virtual
 void
 PreEncodeFrameHook
 (
@@ -447,6 +442,7 @@ Encoder
 *
 encoder
 )
+override
 {
 if
 (
@@ -458,7 +454,7 @@ frame
 )
 =
 =
-1
+0
 )
 {
 encoder
@@ -642,7 +638,6 @@ img
 )
 ;
 }
-virtual
 void
 FramePktHook
 (
@@ -651,6 +646,7 @@ aom_codec_cx_pkt_t
 *
 pkt
 )
+override
 {
 UpdateMD5
 (
@@ -892,7 +888,6 @@ TileIndependenceTestLarge
 public
 TileIndependenceTest
 {
-virtual
 void
 SetCpuUsed
 (
@@ -903,6 +898,7 @@ Encoder
 *
 encoder
 )
+override
 {
 static
 const
@@ -958,7 +954,7 @@ DoTest
 )
 ;
 }
-AV1_INSTANTIATE_TEST_CASE
+AV1_INSTANTIATE_TEST_SUITE
 (
 TileIndependenceTest
 :
@@ -994,7 +990,7 @@ Values
 )
 )
 ;
-AV1_INSTANTIATE_TEST_CASE
+AV1_INSTANTIATE_TEST_SUITE
 (
 TileIndependenceTestLarge
 :
@@ -1152,7 +1148,7 @@ DoTest
 )
 ;
 }
-AV1_INSTANTIATE_TEST_CASE
+AV1_INSTANTIATE_TEST_SUITE
 (
 TileIndependenceLSTest
 :
@@ -1184,7 +1180,7 @@ Values
 )
 )
 ;
-AV1_INSTANTIATE_TEST_CASE
+AV1_INSTANTIATE_TEST_SUITE
 (
 TileIndependenceLSTestLarge
 :

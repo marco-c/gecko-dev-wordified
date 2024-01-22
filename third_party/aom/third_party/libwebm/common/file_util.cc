@@ -354,7 +354,7 @@ tmpnam
 tmp_file_name
 )
 ;
-errno_t
+int
 err
 =
 (

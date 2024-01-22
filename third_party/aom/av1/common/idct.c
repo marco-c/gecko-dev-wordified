@@ -439,7 +439,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_4x8
+av1_highbd_inv_txfm_add_4x8_c
 (
 const
 tran_low_t
@@ -503,7 +503,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_8x4
+av1_highbd_inv_txfm_add_8x4_c
 (
 const
 tran_low_t
@@ -567,7 +567,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_16x32
+av1_highbd_inv_txfm_add_16x32_c
 (
 const
 tran_low_t
@@ -614,7 +614,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_32x16
+av1_highbd_inv_txfm_add_32x16_c
 (
 const
 tran_low_t
@@ -661,7 +661,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_16x4
+av1_highbd_inv_txfm_add_16x4_c
 (
 const
 tran_low_t
@@ -708,7 +708,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_4x16
+av1_highbd_inv_txfm_add_4x16_c
 (
 const
 tran_low_t
@@ -755,7 +755,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_32x8
+av1_highbd_inv_txfm_add_32x8_c
 (
 const
 tran_low_t
@@ -802,7 +802,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_8x32
+av1_highbd_inv_txfm_add_8x32_c
 (
 const
 tran_low_t
@@ -849,7 +849,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_32x64
+av1_highbd_inv_txfm_add_32x64_c
 (
 const
 tran_low_t
@@ -896,7 +896,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_64x32
+av1_highbd_inv_txfm_add_64x32_c
 (
 const
 tran_low_t
@@ -943,7 +943,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_16x64
+av1_highbd_inv_txfm_add_16x64_c
 (
 const
 tran_low_t
@@ -990,7 +990,7 @@ bd
 ;
 }
 void
-av1_highbd_inv_txfm_add_64x16
+av1_highbd_inv_txfm_add_64x16_c
 (
 const
 tran_low_t
@@ -1458,7 +1458,7 @@ txfm_param
 >
 is_hbd
 =
-get_bitdepth_data_path_index
+is_cur_buf_hbd
 (
 xd
 )
@@ -1579,7 +1579,7 @@ break
 case
 TX_4X8
 :
-av1_highbd_inv_txfm_add_4x8
+av1_highbd_inv_txfm_add_4x8_c
 (
 input
 dest
@@ -1592,7 +1592,7 @@ break
 case
 TX_8X4
 :
-av1_highbd_inv_txfm_add_8x4
+av1_highbd_inv_txfm_add_8x4_c
 (
 input
 dest
@@ -1631,7 +1631,7 @@ break
 case
 TX_16X32
 :
-av1_highbd_inv_txfm_add_16x32
+av1_highbd_inv_txfm_add_16x32_c
 (
 input
 dest
@@ -1644,7 +1644,7 @@ break
 case
 TX_32X16
 :
-av1_highbd_inv_txfm_add_32x16
+av1_highbd_inv_txfm_add_32x16_c
 (
 input
 dest
@@ -1670,7 +1670,7 @@ break
 case
 TX_32X64
 :
-av1_highbd_inv_txfm_add_32x64
+av1_highbd_inv_txfm_add_32x64_c
 (
 input
 dest
@@ -1683,7 +1683,7 @@ break
 case
 TX_64X32
 :
-av1_highbd_inv_txfm_add_64x32
+av1_highbd_inv_txfm_add_64x32_c
 (
 input
 dest
@@ -1696,7 +1696,7 @@ break
 case
 TX_16X64
 :
-av1_highbd_inv_txfm_add_16x64
+av1_highbd_inv_txfm_add_16x64_c
 (
 input
 dest
@@ -1709,7 +1709,7 @@ break
 case
 TX_64X16
 :
-av1_highbd_inv_txfm_add_64x16
+av1_highbd_inv_txfm_add_64x16_c
 (
 input
 dest
@@ -1769,7 +1769,7 @@ break
 case
 TX_16X4
 :
-av1_highbd_inv_txfm_add_16x4
+av1_highbd_inv_txfm_add_16x4_c
 (
 input
 dest
@@ -1782,7 +1782,7 @@ break
 case
 TX_4X16
 :
-av1_highbd_inv_txfm_add_4x16
+av1_highbd_inv_txfm_add_4x16_c
 (
 input
 dest
@@ -1795,7 +1795,7 @@ break
 case
 TX_8X32
 :
-av1_highbd_inv_txfm_add_8x32
+av1_highbd_inv_txfm_add_8x32_c
 (
 input
 dest
@@ -1808,7 +1808,7 @@ break
 case
 TX_32X8
 :
-av1_highbd_inv_txfm_add_32x8
+av1_highbd_inv_txfm_add_32x8_c
 (
 input
 dest

@@ -5,7 +5,8 @@ usr
 /
 bin
 /
-python
+env
+python3
 #
 #
 #
@@ -1231,6 +1232,7 @@ sum
 bits
     
 print
+(
 '
 {
 '
@@ -1253,6 +1255,7 @@ parray
 '
 }
 '
+)
 if
 __name__
 =

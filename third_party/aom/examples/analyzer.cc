@@ -179,7 +179,7 @@ av1
 /
 common
 /
-onyxc_int
+av1_common_int
 .
 h
 "
@@ -341,11 +341,6 @@ const
 AvxVideoInfo
 *
 info
-;
-const
-AvxInterface
-*
-decoder
 ;
 insp_frame_data
 frame_data
@@ -623,11 +618,6 @@ n
 aom_codec_iface_name
 (
 decoder
--
->
-codec_interface
-(
-)
 )
 )
 ;
@@ -638,11 +628,6 @@ aom_codec_dec_init
 &
 codec
 decoder
--
->
-codec_interface
-(
-)
 NULL
 0
 )
@@ -1020,6 +1005,7 @@ decoder
 >
 frame_data
 pbi
+0
 )
 ;
 }
@@ -3305,7 +3291,7 @@ _
 (
 "
 Open
-daala
+AV1
 file
 "
 )
@@ -3332,7 +3318,7 @@ _
 (
 "
 Close
-daala
+AV1
 file
 "
 )

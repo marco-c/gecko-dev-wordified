@@ -663,7 +663,7 @@ temporal_layer_id
 header
 -
 >
-temporal_layer_id
+spatial_layer_id
 )
 ;
 }

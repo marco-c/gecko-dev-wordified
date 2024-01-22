@@ -128,6 +128,15 @@ h
 #
 include
 "
+config
+/
+aom_dsp_rtcd
+.
+h
+"
+#
+include
+"
 aom_dsp
 /
 aom_dsp_common
@@ -199,7 +208,6 @@ _mm256_add_ps
 _mm256_sub_ps
 _mm256_mul_ps
 )
-;
 GEN_FFT_16
 (
 static
@@ -215,7 +223,6 @@ _mm256_add_ps
 _mm256_sub_ps
 _mm256_mul_ps
 )
-;
 GEN_FFT_32
 (
 static
@@ -231,7 +238,6 @@ _mm256_add_ps
 _mm256_sub_ps
 _mm256_mul_ps
 )
-;
 void
 aom_fft8x8_float_avx2
 (
@@ -342,7 +348,6 @@ _mm256_add_ps
 _mm256_sub_ps
 _mm256_mul_ps
 )
-;
 GEN_IFFT_16
 (
 static
@@ -358,7 +363,6 @@ _mm256_add_ps
 _mm256_sub_ps
 _mm256_mul_ps
 )
-;
 GEN_IFFT_32
 (
 static
@@ -374,7 +378,6 @@ _mm256_add_ps
 _mm256_sub_ps
 _mm256_mul_ps
 )
-;
 void
 aom_ifft8x8_float_avx2
 (
