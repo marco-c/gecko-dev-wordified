@@ -2660,7 +2660,7 @@ undefined
 "
 Non
 -
-allowlisted
+allowed
 fields
 should
 be
@@ -5247,7 +5247,7 @@ undefined
 "
 Non
 -
-allowlisted
+allowed
 fields
 should
 be
@@ -5272,7 +5272,7 @@ remoteType
 RemoteType
 should
 be
-allowlisted
+allowed
 for
 content
 crashes
@@ -5297,7 +5297,7 @@ ShutDownKill
 ipc_channel_error
 should
 be
-allowlisted
+allowed
 for
 content
 crashes

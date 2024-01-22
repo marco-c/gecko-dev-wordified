@@ -882,7 +882,7 @@ memberName
 {
 if
 (
-IsAnnotationAllowlistedForPing
+IsAnnotationAllowedForPing
 (
 annotation
 )
