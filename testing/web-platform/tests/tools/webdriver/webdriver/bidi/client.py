@@ -792,6 +792,17 @@ self
         
 self
 .
+permissions
+=
+modules
+.
+Permissions
+(
+self
+)
+        
+self
+.
 script
 =
 modules
