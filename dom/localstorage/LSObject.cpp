@@ -5325,8 +5325,10 @@ LSDatabase
 mOrigin
 )
 ;
+RefPtr
+<
 LSDatabaseChild
-*
+>
 actor
 =
 new

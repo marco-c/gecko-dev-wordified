@@ -338,8 +338,10 @@ aPrincipalInfo
 )
 override
 ;
+already_AddRefed
+<
 PBackgroundLSDatabaseParent
-*
+>
 AllocPBackgroundLSDatabaseParent
 (
 const
@@ -381,15 +383,6 @@ const
 uint64_t
 &
 aDatastoreId
-)
-override
-;
-bool
-DeallocPBackgroundLSDatabaseParent
-(
-PBackgroundLSDatabaseParent
-*
-aActor
 )
 override
 ;
