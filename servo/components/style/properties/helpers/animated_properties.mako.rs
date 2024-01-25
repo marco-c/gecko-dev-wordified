@@ -2730,7 +2730,8 @@ an
 AnimationValue
 for
 an
-AnimatableLonghand
+declaration
+id
 from
 a
 given
