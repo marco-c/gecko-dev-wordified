@@ -410,10 +410,10 @@ unordered
 /
 stream_id
 and
-message_id
+mid
 .
 The
-message_id
+mid
 comes
 from
 the
@@ -569,7 +569,7 @@ unordered
 StreamID
 stream_id
 MID
-message_id
+mid
 )
 =
 0

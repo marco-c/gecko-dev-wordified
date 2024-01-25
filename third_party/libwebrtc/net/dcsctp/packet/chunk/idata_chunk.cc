@@ -898,7 +898,7 @@ Load16
 )
 ;
 MID
-message_id
+mid
 (
 reader
 -
@@ -1022,7 +1022,7 @@ IDataChunk
 (
 tsn
 stream_identifier
-message_id
+mid
 PPID
 (
 options
@@ -1226,7 +1226,7 @@ Store32
 >
 (
 *
-message_id
+mid
 (
 )
 )
@@ -1391,13 +1391,13 @@ stream_id
 <
 <
 "
-message_id
+mid
 =
 "
 <
 <
 *
-message_id
+mid
 (
 )
 ;

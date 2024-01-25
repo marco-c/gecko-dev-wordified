@@ -439,7 +439,7 @@ size_t
 EraseTo
 (
 MID
-message_id
+mid
 )
 ;
 void

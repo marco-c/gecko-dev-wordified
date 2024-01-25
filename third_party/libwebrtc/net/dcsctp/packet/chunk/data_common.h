@@ -352,7 +352,7 @@ ssn
 ;
 }
 MID
-message_id
+mid
 (
 )
 const
@@ -360,7 +360,7 @@ const
 return
 data_
 .
-message_id
+mid
 ;
 }
 FSN
@@ -445,7 +445,7 @@ stream_id
 SSN
 ssn
 MID
-message_id
+mid
 FSN
 fsn
 PPID
@@ -472,7 +472,7 @@ data_
 (
 stream_id
 ssn
-message_id
+mid
 fsn
 ppid
 std

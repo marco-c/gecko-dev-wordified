@@ -900,7 +900,7 @@ Stream
 EraseTo
 (
 MID
-message_id
+mid
 )
 {
 UnwrappedMID
@@ -910,7 +910,7 @@ mid_unwrapper_
 .
 Unwrap
 (
-message_id
+mid
 )
 ;
 size_t
@@ -1117,7 +1117,7 @@ Unwrap
 (
 data
 .
-message_id
+mid
 )
 ;
 FSN
@@ -1545,7 +1545,7 @@ EraseTo
 (
 skipped
 .
-message_id
+mid
 )
 ;
 }

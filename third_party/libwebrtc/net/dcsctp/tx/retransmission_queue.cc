@@ -683,7 +683,7 @@ unordered
 StreamID
 stream_id
 MID
-message_id
+mid
 )
 {
 return
@@ -693,7 +693,7 @@ Discard
 (
 unordered
 stream_id
-message_id
+mid
 )
 ;
 }
