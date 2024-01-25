@@ -5383,14 +5383,9 @@ new
 (
 )
 .
-prefix
+tempfile_in
 (
-&
-prefix
-)
-.
-tempfile
-(
+dir
 )
 /
 /
@@ -6429,8 +6424,6 @@ be
 /
 secure
 in
-the
-in
 all
 cases
 .
@@ -6897,8 +6890,6 @@ be
 /
 /
 secure
-in
-the
 in
 all
 cases
