@@ -9968,8 +9968,6 @@ nativeHelper
 nsIPrincipal
 *
 principal
-bool
-initStandardClasses
 JS
 :
 :

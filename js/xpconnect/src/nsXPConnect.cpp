@@ -4043,12 +4043,6 @@ WrapNewGlobal
 aJSContext
 helper
 aPrincipal
-aFlags
-&
-xpc
-:
-:
-INIT_JS_STANDARD_CLASSES
 aOptions
 getter_AddRefs
 (
