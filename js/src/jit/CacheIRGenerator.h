@@ -2556,6 +2556,7 @@ StringChar
 CharCodeAt
 CodePointAt
 CharAt
+At
 }
 ;
 enum
@@ -3282,6 +3283,11 @@ tryAttachStringCodePointAt
 ;
 AttachDecision
 tryAttachStringCharAt
+(
+)
+;
+AttachDecision
+tryAttachStringAt
 (
 )
 ;

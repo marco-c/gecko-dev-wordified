@@ -1893,6 +1893,12 @@ case
 InlinableNative
 :
 :
+StringAt
+:
+case
+InlinableNative
+:
+:
 StringIncludes
 :
 case
