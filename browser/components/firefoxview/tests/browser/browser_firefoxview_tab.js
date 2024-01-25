@@ -1416,7 +1416,9 @@ openFirefoxViewTab
 window
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 SpecialPowers
 .
@@ -1434,9 +1436,6 @@ view
 count
 "
 )
-=
-=
-=
 startViews
 +
 1

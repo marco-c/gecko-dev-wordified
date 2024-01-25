@@ -785,7 +785,9 @@ a
 10s
 variance
 .
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -802,7 +804,6 @@ TEST_DATA
 timespan
 ]
 )
-<
 10000
 "
 settings

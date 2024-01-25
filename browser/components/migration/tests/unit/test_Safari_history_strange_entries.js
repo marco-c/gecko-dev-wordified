@@ -577,7 +577,9 @@ history_visits
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 rowCountResult
 .
@@ -590,7 +592,6 @@ COUNT
 )
 "
 )
->
 EXPECTED_MIGRATED_VISTS
 "
 There

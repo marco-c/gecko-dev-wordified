@@ -426,12 +426,13 @@ menuitem
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 menuItems
 .
 length
->
 1
 "
 There

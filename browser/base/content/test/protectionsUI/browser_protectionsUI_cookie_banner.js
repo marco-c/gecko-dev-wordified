@@ -1391,7 +1391,9 @@ on
 "
 )
 {
-ok
+Assert
+.
+equal
 (
 el
 .
@@ -1400,8 +1402,6 @@ section
 dataset
 .
 state
-=
-=
 "
 detected
 "
@@ -1510,7 +1510,9 @@ off
 "
 )
 {
-ok
+Assert
+.
+equal
 (
 el
 .
@@ -1519,8 +1521,6 @@ section
 dataset
 .
 state
-=
-=
 "
 site
 -
@@ -1621,7 +1621,9 @@ spec
 }
 else
 {
-ok
+Assert
+.
+equal
 (
 el
 .
@@ -1630,8 +1632,6 @@ section
 dataset
 .
 state
-=
-=
 "
 undetected
 "

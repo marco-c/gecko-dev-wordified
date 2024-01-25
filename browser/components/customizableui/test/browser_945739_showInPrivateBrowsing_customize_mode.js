@@ -159,7 +159,9 @@ w
 id
 )
 ;
-ok
+Assert
+.
+greater
 (
 normalWidgetArray
 .
@@ -167,7 +169,6 @@ indexOf
 (
 kWidgetId
 )
->
 -
 1
 "

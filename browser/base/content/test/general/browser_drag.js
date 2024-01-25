@@ -194,12 +194,11 @@ box
 expected
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 result
-=
-=
-=
 true
 "
 dragging

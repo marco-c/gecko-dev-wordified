@@ -3902,7 +3902,9 @@ permissions_prompt
 "
 )
 {
-ok
+Assert
+.
+greater
 (
 parseInt
 (
@@ -3910,7 +3912,6 @@ e
 .
 num_strings
 )
->
 0
 "
 Expected
@@ -3933,7 +3934,9 @@ download_completed
 "
 )
 {
-ok
+Assert
+.
+greater
 (
 parseInt
 (
@@ -3941,7 +3944,6 @@ e
 .
 download_time
 )
->
 0
 "
 Valid

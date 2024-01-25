@@ -1096,11 +1096,11 @@ aboutWelcomeActor
 .
 onContentMessage
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 callCount
->
-=
 1
 {
 callCount

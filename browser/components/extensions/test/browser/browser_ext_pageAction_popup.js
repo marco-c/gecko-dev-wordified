@@ -1377,11 +1377,11 @@ gBrowser
 .
 selectedTab
 ;
-ok
+Assert
+.
+notEqual
 (
 oldTab
-!
-=
 gBrowser
 .
 tabs

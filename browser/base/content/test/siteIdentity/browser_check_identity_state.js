@@ -750,13 +750,13 @@ i
 =
 >
 {
-ok
+Assert
+.
+notEqual
 (
 getIdentityMode
 (
 )
-!
-=
 "
 chromeUI
 "

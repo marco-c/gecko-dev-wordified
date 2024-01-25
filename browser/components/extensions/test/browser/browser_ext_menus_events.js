@@ -3264,12 +3264,11 @@ tab
 contextTab
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 index
-!
-=
-=
 -
 1
 "

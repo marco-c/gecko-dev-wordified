@@ -162,13 +162,13 @@ null
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 placesItems
 .
 localName
-=
-=
 "
 scrollbox
 "

@@ -544,12 +544,13 @@ before
 the
 timeout
 .
-ok
+Assert
+.
+less
 (
 currentTime
 -
 closedTime
-<
 5000
 "
 Close

@@ -409,7 +409,9 @@ toolbar
 "
 )
 ;
-ok
+Assert
+.
+less
 (
 CustomizableUI
 .
@@ -419,7 +421,6 @@ toolbarNode
 )
 .
 childElementCount
-<
 oldChildCount
 "
 Should
@@ -430,12 +431,13 @@ children
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 overflowableList
 .
 childElementCount
->
 oldOverflowCount
 "
 Should

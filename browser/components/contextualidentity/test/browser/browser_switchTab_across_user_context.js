@@ -425,11 +425,11 @@ contextIdTabB
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 tabSwitchRow
-!
-=
 undefined
 "
 Urlbar
@@ -781,7 +781,9 @@ window
 1
 )
 ;
-ok
+Assert
+.
+equal
 (
 row
 .
@@ -793,8 +795,6 @@ user
 context
 "
 ]
-=
-=
 undefined
 "
 Row

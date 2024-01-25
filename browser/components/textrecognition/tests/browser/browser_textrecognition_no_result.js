@@ -466,7 +466,9 @@ listed
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 Services
 .
@@ -484,7 +486,6 @@ snapshot
 )
 .
 sum
->
 0
 "
 Histogram

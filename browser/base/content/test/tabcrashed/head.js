@@ -1542,12 +1542,11 @@ enabled
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 currPrefValue
-=
-=
-=
 origPrefValue
 "
 processPrelaunch

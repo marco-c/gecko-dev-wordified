@@ -654,7 +654,7 @@ second_write
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -919,14 +919,13 @@ yet
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 Paths
 .
 upgradeBackup
-=
-=
-=
 "
 "
 "

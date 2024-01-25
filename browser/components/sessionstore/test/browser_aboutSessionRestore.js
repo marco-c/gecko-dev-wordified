@@ -218,14 +218,15 @@ promiseTabRestored
 tab
 )
 ;
-ok
+Assert
+.
+greater
 (
 gBrowser
 .
 tabs
 .
 length
->
 1
 "
 we

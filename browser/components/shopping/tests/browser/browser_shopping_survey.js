@@ -542,7 +542,9 @@ met
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 content
 .
@@ -565,9 +567,6 @@ l10n
 id
 "
 )
-=
-=
-=
 "
 shopping
 -

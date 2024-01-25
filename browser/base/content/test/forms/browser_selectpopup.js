@@ -5179,7 +5179,9 @@ any
 popup
 borders
 .
-ok
+Assert
+.
+greaterOrEqual
 (
 selectPopup
 .
@@ -5188,8 +5190,6 @@ getBoundingClientRect
 )
 .
 height
->
-=
 selectPopup
 .
 lastElementChild
@@ -5211,7 +5211,9 @@ items
 "
 )
 ;
-ok
+Assert
+.
+less
 (
 selectPopup
 .
@@ -5220,7 +5222,6 @@ getBoundingClientRect
 )
 .
 height
-<
 selectPopup
 .
 lastElementChild
@@ -5785,7 +5786,9 @@ is
 zoomedFontSize
 )
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -5799,7 +5802,6 @@ nonZoomedFontSize
 .
 0
 )
-<
 0
 .
 01

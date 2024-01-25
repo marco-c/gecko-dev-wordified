@@ -628,7 +628,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -845,7 +845,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -899,7 +899,7 @@ again
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_2
@@ -1163,7 +1163,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -1218,7 +1218,7 @@ again
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -1475,7 +1475,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -1547,7 +1547,7 @@ browser2
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -1561,7 +1561,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_2
@@ -1914,7 +1914,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -2035,7 +2035,7 @@ browser2
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -2049,7 +2049,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_2
@@ -2458,7 +2458,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -2625,7 +2625,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -2759,7 +2759,7 @@ newTab
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_2
@@ -3079,7 +3079,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE_1
@@ -3107,12 +3107,11 @@ getZoomForBrowser
 browser
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 zoomLevel
-!
-=
-=
 1
 "
 should
@@ -3142,7 +3141,9 @@ crashFrame
 browser
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 ZoomManager
 .
@@ -3150,9 +3151,6 @@ getZoomForBrowser
 (
 browser
 )
-=
-=
-=
 1
 "
 zoom
@@ -3184,7 +3182,9 @@ restoreTab
 await
 tabRestoredPromise
 ;
-ok
+Assert
+.
+strictEqual
 (
 ZoomManager
 .
@@ -3192,9 +3192,6 @@ getZoomForBrowser
 (
 browser
 )
-=
-=
-=
 zoomLevel
 "
 zoom

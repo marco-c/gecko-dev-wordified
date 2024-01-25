@@ -737,7 +737,9 @@ a
 single
 column
 .
-ok
+Assert
+.
+greaterOrEqual
 (
 parseFloat
 (
@@ -747,8 +749,6 @@ args
 .
 value
 )
->
-=
 parseFloat
 (
 value

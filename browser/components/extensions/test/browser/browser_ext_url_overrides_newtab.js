@@ -823,7 +823,9 @@ temporary
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -833,8 +835,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1044,7 +1044,9 @@ isn
 t
 set
 .
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1054,8 +1056,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1128,7 +1128,9 @@ a
 second
 time
 .
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1138,8 +1140,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1302,7 +1302,9 @@ permanent
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1312,8 +1314,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1593,7 +1593,9 @@ setting
 is
 updated
 .
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1603,8 +1605,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1681,7 +1681,9 @@ a
 second
 time
 .
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1691,8 +1693,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -1801,7 +1801,9 @@ is
 still
 set
 .
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -1811,8 +1813,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -2019,7 +2019,9 @@ temporary
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -2029,8 +2031,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -2274,7 +2274,9 @@ on
 is
 disabled
 .
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -2284,8 +2286,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -2350,7 +2350,9 @@ promiseNewTab
 (
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -2360,8 +2362,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -2602,7 +2602,9 @@ temporary
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -2612,8 +2614,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -3187,7 +3187,9 @@ promiseNewTab
 (
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -3197,8 +3199,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "
@@ -3298,7 +3298,9 @@ promiseNewTab
 (
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 panel
 .
@@ -3308,8 +3310,6 @@ getAttribute
 panelopen
 "
 )
-!
-=
 "
 true
 "

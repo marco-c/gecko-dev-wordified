@@ -1031,7 +1031,9 @@ verify
 that
 closedTabCount
 increased
-ok
+Assert
+.
+greater
 (
 ss
 .
@@ -1039,7 +1041,6 @@ getClosedTabCountForWindow
 (
 aWin
 )
->
 count
 "
 getClosedTabCountForWindow

@@ -171,14 +171,13 @@ true
 browser
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 gBrowser
 .
 selectedTab
-=
-=
-=
 tab
 "
 The

@@ -303,13 +303,13 @@ check
 ]
 )
 ;
-ok
+Assert
+.
+equal
 (
 gBrowser
 .
 selectedTab
-=
-=
 tab2
 "
 correct

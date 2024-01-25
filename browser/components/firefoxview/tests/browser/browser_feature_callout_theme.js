@@ -243,7 +243,9 @@ FeatureCallout
 themePropNames
 )
 {
-ok
+Assert
+.
+equal
 (
 !
 !
@@ -263,8 +265,6 @@ name
 type
 }
 )
-=
-=
 !
 !
 (

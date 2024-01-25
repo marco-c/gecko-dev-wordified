@@ -369,10 +369,11 @@ pageZoomLevel
 }
 )
 ;
-ok
+Assert
+.
+less
 (
 pageZoomLevel
-<
 100
 "
 Page

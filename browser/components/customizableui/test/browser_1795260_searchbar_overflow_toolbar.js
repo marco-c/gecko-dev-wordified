@@ -172,7 +172,9 @@ shouldn
 t
 overflow
 .
-ok
+Assert
+.
+less
 (
 container
 .
@@ -181,7 +183,6 @@ getBoundingClientRect
 )
 .
 width
-<
 window
 .
 innerWidth

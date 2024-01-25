@@ -911,10 +911,11 @@ checked
 ;
 }
 }
-ok
+Assert
+.
+greater
 (
 uniq2Count
->
 0
 "
 at

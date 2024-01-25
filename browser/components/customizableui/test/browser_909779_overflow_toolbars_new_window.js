@@ -190,7 +190,9 @@ toolbar
 "
 )
 ;
-ok
+Assert
+.
+less
 (
 CustomizableUI
 .
@@ -200,7 +202,6 @@ navbar
 )
 .
 childElementCount
-<
 oldChildCount
 "
 Should

@@ -1479,14 +1479,13 @@ state
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 expectedEngine
 .
 iconData
-=
-=
-=
 "
 chrome
 :

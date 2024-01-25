@@ -1019,12 +1019,11 @@ aboutWelcomeActor
 .
 onContentMessage
 ;
-ok
+Assert
+.
+strictEqual
 (
 callCount
-=
-=
-=
 2
 {
 callCount

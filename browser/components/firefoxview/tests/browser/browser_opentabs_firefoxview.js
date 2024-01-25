@@ -648,7 +648,9 @@ visibleTabs
 0
 ]
 ;
-ok
+Assert
+.
+equal
 (
 gBrowser
 .
@@ -659,8 +661,6 @@ linkedBrowser
 currentURI
 .
 spec
-=
-=
 "
 about
 :

@@ -361,7 +361,7 @@ config
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tabBrowser
 url
@@ -771,12 +771,13 @@ expectedTab
 tabInfo
 )
 ;
-ok
+Assert
+.
+greater
 (
 tabInfo
 .
 lastAccessed
->
 lastAccessedTimes
 .
 get
@@ -894,7 +895,9 @@ x
 ]
 )
 ;
-ok
+Assert
+.
+greater
 (
 tabInfos
 [
@@ -902,7 +905,6 @@ x
 ]
 .
 lastAccessed
->
 lastAccessedTimes
 .
 get
@@ -1095,7 +1097,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tabBrowser
 "
@@ -1492,7 +1494,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .

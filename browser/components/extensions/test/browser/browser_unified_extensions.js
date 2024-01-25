@@ -1034,7 +1034,9 @@ openExtensionsPanel
 (
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 panel
 .
@@ -1044,9 +1046,6 @@ getAttribute
 panelopen
 "
 )
-=
-=
-=
 "
 true
 "
@@ -1270,7 +1269,9 @@ true
 await
 viewShown
 ;
-ok
+Assert
+.
+strictEqual
 (
 panel
 .
@@ -1280,9 +1281,6 @@ getAttribute
 panelopen
 "
 )
-=
-=
-=
 "
 true
 "

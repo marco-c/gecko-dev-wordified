@@ -3429,12 +3429,11 @@ length
 }
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 startHistoryLength
-=
-=
-=
 endHistoryLength
 "
 No

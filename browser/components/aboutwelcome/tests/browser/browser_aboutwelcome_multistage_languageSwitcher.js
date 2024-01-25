@@ -987,12 +987,11 @@ n
 )
 ;
 }
-ok
+Assert
+.
+strictEqual
 (
 actualEvent
-=
-=
-=
 expectedEvent
 message
 )

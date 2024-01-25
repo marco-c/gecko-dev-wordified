@@ -117,10 +117,11 @@ PLAYING_TIME_SEC
 .
 5
 ;
-ok
+Assert
+.
+less
 (
 PLAYING_TIME_SEC
-<
 autoPlay
 .
 duration
@@ -246,7 +247,7 @@ video
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -400,7 +401,7 @@ video
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

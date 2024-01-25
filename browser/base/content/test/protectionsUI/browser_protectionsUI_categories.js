@@ -967,7 +967,9 @@ id
 }
 )
 ;
-ok
+Assert
+.
+equal
 (
 item
 .
@@ -977,8 +979,6 @@ contains
 (
 className
 )
-=
-=
 shouldBePresent
 item
 .

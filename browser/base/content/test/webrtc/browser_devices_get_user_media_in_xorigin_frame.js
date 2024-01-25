@@ -1576,11 +1576,11 @@ menulist
 .
 itemCount
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 count
->
-=
 4
 "
 There

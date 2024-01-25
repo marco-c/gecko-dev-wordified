@@ -188,10 +188,11 @@ max_serialize_back
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 MAX_BACK
->
 -
 1
 "
@@ -244,7 +245,7 @@ i
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL
@@ -304,7 +305,7 @@ page
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

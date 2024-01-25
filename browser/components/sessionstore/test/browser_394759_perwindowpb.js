@@ -150,7 +150,7 @@ aIsPrivate
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -301,7 +301,9 @@ changed
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 JSON
 .
@@ -314,7 +316,6 @@ indexOf
 (
 aValue
 )
->
 -
 1
 "
