@@ -16059,6 +16059,16 @@ StringCharCodeAt
 JS_INLINABLE_FN
 (
 "
+std_String_codePointAt
+"
+str_codePointAt
+1
+0
+StringCodePointAt
+)
+JS_INLINABLE_FN
+(
+"
 std_String_endsWith
 "
 str_endsWith
