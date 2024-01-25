@@ -1646,7 +1646,7 @@ Finally
 ?
 stackDepth
 +
-2
+3
 :
 stackDepth
 ;
