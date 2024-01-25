@@ -167,10 +167,6 @@ const
 NotificationActivities
 &
 activitiesPerformed
-const
-nsACString
-&
-doTaskImpl
 )
 ;
 }
