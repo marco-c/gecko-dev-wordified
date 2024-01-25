@@ -8364,6 +8364,9 @@ at
 ;
 }
 }
+class
+TranslationsSettingsTestUtils
+{
 /
 *
 *
@@ -8397,8 +8400,8 @@ Element
 }
 *
 /
+static
 async
-function
 openAboutPreferencesTranslationsSettingsPane
 (
 settingsButton
@@ -8493,4 +8496,5 @@ header
 return
 elements
 ;
+}
 }
