@@ -196,6 +196,8 @@ expectedEventCount
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {

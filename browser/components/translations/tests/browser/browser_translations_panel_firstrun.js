@@ -88,6 +88,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {
@@ -123,6 +125,8 @@ SPANISH_PAGE_URL_2
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 openTranslationsPanel
 (
 {
