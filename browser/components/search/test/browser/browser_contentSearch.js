@@ -1645,7 +1645,7 @@ let
 searchStr
 =
 "
-browser_ContentSearch
+browser_contentSearch
 .
 js
 -
