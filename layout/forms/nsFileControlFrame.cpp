@@ -448,6 +448,11 @@ aPresContext
 kClassID
 )
 {
+AddStateBits
+(
+NS_BLOCK_STATIC_BFC
+)
+;
 }
 void
 nsFileControlFrame
