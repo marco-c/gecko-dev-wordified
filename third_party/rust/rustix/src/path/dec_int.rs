@@ -245,7 +245,7 @@ Linux
 /
 /
 #
-Example
+Examples
 /
 /
 /

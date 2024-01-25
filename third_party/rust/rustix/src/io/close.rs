@@ -220,7 +220,7 @@ Apple
 /
 -
 [
-Winsock2
+Winsock
 ]
 /
 /
@@ -424,7 +424,7 @@ close
 /
 /
 [
-Winsock2
+Winsock
 ]
 :
 https

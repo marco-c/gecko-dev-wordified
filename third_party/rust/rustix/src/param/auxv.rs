@@ -11,9 +11,6 @@ cfg
 any
 (
 linux_raw
-all
-(
-libc
 any
 (
 all
@@ -34,7 +31,6 @@ target_os
 "
 linux
 "
-)
 )
 )
 )
@@ -351,11 +347,19 @@ cfg
 (
 not
 (
+any
+(
+target_os
+=
+"
+vita
+"
 target_os
 =
 "
 wasi
 "
+)
 )
 )
 ]
@@ -505,9 +509,6 @@ cfg
 any
 (
 linux_raw
-all
-(
-libc
 any
 (
 all
@@ -528,7 +529,6 @@ target_os
 "
 linux
 "
-)
 )
 )
 )
@@ -665,9 +665,6 @@ cfg
 any
 (
 linux_raw
-all
-(
-libc
 any
 (
 all
@@ -688,7 +685,6 @@ target_os
 "
 linux
 "
-)
 )
 )
 )

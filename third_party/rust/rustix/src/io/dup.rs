@@ -1570,6 +1570,11 @@ nto
 target_os
 =
 "
+vita
+"
+target_os
+=
+"
 wasi
 "
 )

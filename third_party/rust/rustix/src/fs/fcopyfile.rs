@@ -25,11 +25,6 @@ fd
 :
 AsFd
 ;
-/
-/
-/
-copyfile_state_t
-pub
 use
 backend
 :

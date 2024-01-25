@@ -3,7 +3,7 @@
 !
 Adapt
 the
-Winsock2
+Winsock
 API
 to
 resemble

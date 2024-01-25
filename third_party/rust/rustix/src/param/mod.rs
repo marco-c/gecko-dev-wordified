@@ -75,6 +75,8 @@ auxv
 [
 cfg
 (
+all
+(
 feature
 =
 "
@@ -86,6 +88,11 @@ provided
 -
 auxv
 "
+not
+(
+libc
+)
+)
 )
 ]
 mod
@@ -102,6 +109,8 @@ auxv
 [
 cfg
 (
+all
+(
 feature
 =
 "
@@ -113,6 +122,11 @@ provided
 -
 auxv
 "
+not
+(
+libc
+)
+)
 )
 ]
 pub

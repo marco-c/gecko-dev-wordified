@@ -62,9 +62,6 @@ sparc
 [
 cfg
 (
-all
-(
-linux_kernel
 any
 (
 target_arch
@@ -77,7 +74,6 @@ target_arch
 "
 sparc64
 "
-)
 )
 )
 ]
@@ -96,9 +92,6 @@ u32
 [
 cfg
 (
-all
-(
-linux_kernel
 not
 (
 any
@@ -113,7 +106,6 @@ target_arch
 "
 sparc64
 "
-)
 )
 )
 )

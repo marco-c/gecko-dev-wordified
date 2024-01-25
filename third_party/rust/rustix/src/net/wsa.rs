@@ -93,7 +93,7 @@ References
 /
 -
 [
-Winsock2
+Winsock
 ]
 /
 /
@@ -102,7 +102,7 @@ Winsock2
 /
 /
 [
-Winsock2
+Winsock
 ]
 :
 https
@@ -346,7 +346,7 @@ References
 /
 -
 [
-Winsock2
+Winsock
 ]
 /
 /
@@ -355,7 +355,7 @@ Winsock2
 /
 /
 [
-Winsock2
+Winsock
 ]
 :
 https

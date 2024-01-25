@@ -868,7 +868,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /

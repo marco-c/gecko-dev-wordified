@@ -209,16 +209,12 @@ Pid
 Returns
 Some
 for
-strictly
 positive
 RawPid
 s
 .
 Otherwise
 returns
-/
-/
-/
 None
 .
 /
@@ -359,6 +355,10 @@ raw
 /
 SAFETY
 :
+We
+just
+checked
+that
 raw
 >
 0
@@ -388,7 +388,6 @@ None
 Converts
 a
 known
-strictly
 positive
 RawPid
 into
@@ -415,7 +414,6 @@ must
 guarantee
 raw
 is
-strictly
 positive
 .
 #

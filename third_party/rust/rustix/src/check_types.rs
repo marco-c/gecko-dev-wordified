@@ -158,10 +158,10 @@ same
 offset
 as
 the
-/
-/
-/
 corresponding
+/
+/
+/
 field
 in
 the
@@ -390,10 +390,10 @@ when
 both
 the
 struct
-/
-/
-/
 and
+/
+/
+/
 a
 field
 are

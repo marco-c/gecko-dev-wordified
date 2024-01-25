@@ -30,6 +30,7 @@ getrandom
 :
 {
 getrandom
+getrandom_uninit
 GetRandomFlags
 }
 ;

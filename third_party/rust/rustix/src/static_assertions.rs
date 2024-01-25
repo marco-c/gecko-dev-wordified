@@ -33,10 +33,10 @@ want
 to
 call
 them
+in
 /
 /
 !
-in
 const
 contexts
 in
@@ -49,11 +49,11 @@ s
 supported
 so
 that
+problems
+are
 /
 /
 !
-problems
-are
 caught
 at
 compile
@@ -64,9 +64,6 @@ back
 to
 dynamic
 asserts
-/
-/
-!
 in
 Rust
 1

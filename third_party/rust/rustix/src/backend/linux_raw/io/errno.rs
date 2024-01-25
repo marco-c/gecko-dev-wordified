@@ -178,7 +178,6 @@ Error
 /
 /
 /
-/
 but
 only
 holds
@@ -219,7 +218,7 @@ Linux
 /
 -
 [
-Winsock2
+Winsock
 ]
 /
 /
@@ -325,7 +324,7 @@ html
 /
 /
 [
-Winsock2
+Winsock
 ]
 :
 https
@@ -704,10 +703,8 @@ could
 theoretically
 have
 arbitrary
-"
 OS
 error
-"
 /
 /
 values
@@ -2142,11 +2139,19 @@ success
 [
 cfg
 (
+any
+(
+feature
+=
+"
+event
+"
 feature
 =
 "
 runtime
 "
+)
 )
 ]
 #

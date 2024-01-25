@@ -75,7 +75,7 @@ controlling
 terminal
 for
 the
-processs
+process
 .
 /
 /

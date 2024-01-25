@@ -40,13 +40,6 @@ details
 allow
 (
 unsafe_code
-)
-]
-#
-!
-[
-allow
-(
 clippy
 :
 :
@@ -787,7 +780,7 @@ unsafe
 {
 ret_owned_fd
 (
-syscall
+syscall_readonly
 !
 (
 __NR_timerfd_create

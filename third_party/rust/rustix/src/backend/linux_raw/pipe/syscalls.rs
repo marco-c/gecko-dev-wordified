@@ -40,13 +40,6 @@ details
 allow
 (
 unsafe_code
-)
-]
-#
-!
-[
-allow
-(
 clippy
 :
 :

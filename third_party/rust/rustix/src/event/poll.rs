@@ -80,7 +80,7 @@ Apple
 /
 -
 [
-Winsock2
+Winsock
 ]
 /
 /
@@ -253,7 +253,7 @@ html
 /
 /
 [
-Winsock2
+Winsock
 ]
 :
 https

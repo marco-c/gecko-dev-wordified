@@ -212,10 +212,10 @@ processes
 the
 current
 process
-/
-/
-/
 has
+/
+/
+/
 permission
 to
 send

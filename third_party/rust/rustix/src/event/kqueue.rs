@@ -115,6 +115,12 @@ Duration
 A
 kqueue
 event
+for
+use
+with
+[
+kevent
+]
 .
 #
 [
@@ -635,7 +641,7 @@ data
 /
 /
 On
-openbsd
+OpenBSD
 data
 is
 an
@@ -644,6 +650,7 @@ and
 not
 an
 isize
+.
 data
 as
 _
@@ -654,7 +661,7 @@ udata
 /
 /
 On
-netbsd
+NetBSD
 udata
 is
 an
@@ -754,7 +761,7 @@ isize
 /
 /
 On
-netbsd
+NetBSD
 udata
 is
 an
@@ -812,7 +819,7 @@ i64
 /
 On
 some
-bsds
+BSDs
 data
 is
 an
@@ -821,6 +828,7 @@ and
 not
 an
 i64
+.
 self
 .
 inner
@@ -1870,7 +1878,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -2066,7 +2074,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -2231,7 +2239,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
@@ -2425,7 +2433,7 @@ rs
 /
 bitflags
 /
-latest
+*
 /
 bitflags
 /
