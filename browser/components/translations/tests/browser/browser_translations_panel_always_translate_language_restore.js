@@ -111,6 +111,8 @@ LANGUAGE_PAIRS
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -279,6 +281,8 @@ clickRestoreButton
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -363,6 +367,8 @@ false
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -406,6 +412,8 @@ SPANISH_PAGE_URL_DOT_ORG
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {

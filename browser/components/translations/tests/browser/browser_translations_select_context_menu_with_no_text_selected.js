@@ -103,6 +103,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {

@@ -447,6 +447,8 @@ tab
 ;
 }
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -479,6 +481,8 @@ clickTranslateButton
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -955,6 +959,8 @@ runInSpanishPage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {

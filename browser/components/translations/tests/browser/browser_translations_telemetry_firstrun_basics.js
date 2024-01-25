@@ -129,6 +129,8 @@ expectedEventCount
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {

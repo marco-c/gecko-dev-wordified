@@ -105,6 +105,8 @@ runInPage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {

@@ -548,7 +548,6 @@ Mancha
 )
 ;
 }
-}
 /
 *
 *
@@ -591,8 +590,8 @@ HTMLElement
 }
 *
 /
+static
 async
-function
 assertTranslationsButton
 (
 visibleAssertions
@@ -819,6 +818,7 @@ message
 return
 elements
 ;
+}
 }
 /
 *
@@ -1053,6 +1053,8 @@ button
 }
 =
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -2233,6 +2235,8 @@ downloadHandler
 )
 {
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -3335,6 +3339,8 @@ locale
 }
 =
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -3829,6 +3835,8 @@ downloadHandler
 )
 {
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
@@ -5156,6 +5164,8 @@ downloadHandler
 )
 {
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {

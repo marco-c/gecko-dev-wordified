@@ -96,6 +96,8 @@ LANGUAGE_PAIRS
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertTranslationsButton
 (
 {
