@@ -393,7 +393,7 @@ Maybe
 <
 RemoteTextureOwnerId
 >
-mRemoteTextureOwnerIdOfPushCallback
+mRemoteTextureOwnerId
 =
 Nothing
 (
@@ -961,14 +961,14 @@ Maybe
 <
 RemoteTextureOwnerId
 >
-GetRemoteTextureOwnerIdOfPushCallback
+GetRemoteTextureOwnerId
 (
 )
 {
 return
 mData
 .
-mRemoteTextureOwnerIdOfPushCallback
+mRemoteTextureOwnerId
 ;
 }
 void

@@ -1294,7 +1294,7 @@ isSome
 renderer
 -
 >
-GetRemoteTextureOwnerIdOfPushCallback
+GetRemoteTextureOwnerId
 (
 )
 =
@@ -1402,7 +1402,7 @@ false
 ;
 data
 .
-mRemoteTextureOwnerIdOfPushCallback
+mRemoteTextureOwnerId
 =
 mRemoteTextureOwnerId
 ;
