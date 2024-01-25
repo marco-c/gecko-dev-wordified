@@ -135,6 +135,8 @@ enabled
 "
 )
 ;
+FullPageTranslationsTestUtils
+.
 assertSelectedFromLanguage
 (
 "
@@ -142,6 +144,8 @@ es
 "
 )
 ;
+FullPageTranslationsTestUtils
+.
 assertSelectedToLanguage
 (
 "
@@ -149,6 +153,8 @@ en
 "
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedFromLanguage
 (
 "
@@ -176,6 +182,8 @@ same
 "
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedFromLanguage
 (
 "
@@ -202,6 +210,8 @@ translated
 "
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedFromLanguage
 (
 "
@@ -226,6 +236,8 @@ selected
 "
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedFromLanguage
 (
 "
@@ -233,6 +245,8 @@ en
 "
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedToLanguage
 (
 "

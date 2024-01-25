@@ -152,6 +152,8 @@ assertPanelRevisitView
 }
 )
 ;
+FullPageTranslationsTestUtils
+.
 switchSelectedToLanguage
 (
 "
