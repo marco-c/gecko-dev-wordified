@@ -699,6 +699,7 @@ sessionAcc
 SendAccessibilityFocusedEvent
 (
 result
+false
 )
 ;
 }
@@ -1060,6 +1061,7 @@ sessionAcc
 SendAccessibilityFocusedEvent
 (
 result
+false
 )
 ;
 }

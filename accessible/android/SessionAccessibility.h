@@ -464,6 +464,8 @@ SendAccessibilityFocusedEvent
 Accessible
 *
 aAccessible
+bool
+aScrollIntoView
 )
 ;
 void
