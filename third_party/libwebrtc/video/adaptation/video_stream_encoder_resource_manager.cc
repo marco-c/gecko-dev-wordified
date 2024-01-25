@@ -163,6 +163,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 sequence_checker
 .
 h
@@ -815,6 +824,10 @@ scoped_refptr
 QualityScalerResource
 >
 quality_scaler_resource
+const
+FieldTrialsView
+&
+field_trials
 )
 :
 quality_scaler_resource_
@@ -823,12 +836,7 @@ quality_scaler_resource
 )
 quality_scaler_settings_
 (
-QualityScalerSettings
-:
-:
-ParseFromFieldTrials
-(
-)
+field_trials
 )
 has_seen_first_bwe_drop_
 (
@@ -1709,6 +1717,7 @@ InitialFrameDropper
 >
 (
 quality_scaler_resource_
+field_trials
 )
 )
 quality_scaling_experiment_enabled_
@@ -1718,6 +1727,7 @@ QualityScalingExperiment
 :
 Enabled
 (
+field_trials_
 )
 )
 pixel_limit_resource_experiment_enabled_
@@ -3209,6 +3219,7 @@ qp_thresholds
 value
 (
 )
+field_trials_
 )
 ;
 AddResource
@@ -3536,6 +3547,7 @@ GetVideoCodecTypeOrGeneric
 (
 encoder_settings_
 )
+field_trials_
 )
 ;
 }

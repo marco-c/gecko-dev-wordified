@@ -101,6 +101,15 @@ utility
 #
 include
 "
+api
+/
+field_trials_view
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks
@@ -228,6 +237,10 @@ VideoEncoder
 :
 QpThresholds
 qp_thresholds
+const
+FieldTrialsView
+&
+field_trials
 )
 {
 RTC_DCHECK_RUN_ON
@@ -263,6 +276,7 @@ move
 (
 qp_thresholds
 )
+field_trials
 )
 ;
 }

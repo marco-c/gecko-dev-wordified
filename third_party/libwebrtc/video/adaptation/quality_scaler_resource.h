@@ -119,6 +119,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h
@@ -248,6 +257,10 @@ VideoEncoder
 :
 QpThresholds
 qp_thresholds
+const
+FieldTrialsView
+&
+field_trials
 )
 ;
 void
