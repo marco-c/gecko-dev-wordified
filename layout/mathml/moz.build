@@ -219,16 +219,6 @@ nsIMathMLFrame
 h
 "
 "
-nsMathMLContainerFrame
-.
-h
-"
-"
-nsMathMLFrame
-.
-h
-"
-"
 nsMathMLOperators
 .
 h
