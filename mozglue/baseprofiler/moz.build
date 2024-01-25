@@ -161,13 +161,6 @@ EXPORTS
 "
 public
 /
-BaseProfilerSharedLibraries
-.
-h
-"
-"
-public
-/
 BaseProfilingStack
 .
 h
@@ -599,6 +592,13 @@ h
 public
 /
 BaseProfiler
+.
+h
+"
+"
+public
+/
+BaseProfilerSharedLibraries
 .
 h
 "
