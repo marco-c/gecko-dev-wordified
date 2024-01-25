@@ -2637,7 +2637,7 @@ wast
 register
 (
 13
-M
+Mr1
 )
 ;
 /
@@ -2685,7 +2685,7 @@ func
 (
 import
 "
-M
+Mr1
 "
 "
 f
@@ -2841,7 +2841,7 @@ wast
 register
 (
 15
-M
+Mr2
 )
 ;
 /
@@ -2919,7 +2919,7 @@ func
 (
 import
 "
-M
+Mr2
 "
 "
 f1
@@ -2938,7 +2938,7 @@ func
 (
 import
 "
-M
+Mr2
 "
 "
 f2
@@ -2957,7 +2957,7 @@ func
 (
 import
 "
-M
+Mr2
 "
 "
 f3
@@ -3113,7 +3113,7 @@ wast
 register
 (
 17
-M
+Mr3
 )
 ;
 /
@@ -3191,7 +3191,7 @@ func
 (
 import
 "
-M
+Mr3
 "
 "
 f1
@@ -3210,7 +3210,7 @@ func
 (
 import
 "
-M
+Mr3
 "
 "
 f2
@@ -3229,7 +3229,7 @@ func
 (
 import
 "
-M
+Mr3
 "
 "
 f3
@@ -3433,7 +3433,7 @@ wast
 register
 (
 19
-M
+Mr4
 )
 ;
 /
@@ -3559,7 +3559,7 @@ func
 (
 import
 "
-M
+Mr4
 "
 "
 f1
@@ -3578,7 +3578,7 @@ func
 (
 import
 "
-M
+Mr4
 "
 "
 f2
@@ -3597,7 +3597,7 @@ func
 (
 import
 "
-M
+Mr4
 "
 "
 f3
