@@ -15034,7 +15034,7 @@ contents
 BufferContents
 :
 :
-createMalloced
+createMallocedUnknownArena
 (
 buffer
 )
