@@ -1643,7 +1643,7 @@ FormAutofillHeuristics
 LabelUtils
 ;
 var
-AddressDataLoader
+AddressMetaDataLoader
 FormAutofillUtils
 ;
 function
