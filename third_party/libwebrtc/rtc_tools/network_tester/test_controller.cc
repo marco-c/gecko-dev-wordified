@@ -332,6 +332,14 @@ max_port
 )
 )
 ;
+RTC_CHECK
+(
+udp_socket_
+!
+=
+nullptr
+)
+;
 udp_socket_
 -
 >
