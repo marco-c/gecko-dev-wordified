@@ -7031,14 +7031,6 @@ bug
 1426042
 )
 .
-if
-(
-frame
-!
-=
-NS_BIDI_CONTROL_FRAME
-)
-{
 storeBidiDataToFrame
 (
 )
@@ -7059,7 +7051,6 @@ contentOffset
 fragmentLength
 )
 ;
-}
 }
 break
 ;

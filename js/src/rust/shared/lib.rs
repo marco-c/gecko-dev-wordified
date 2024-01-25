@@ -136,10 +136,6 @@ extern
 crate
 mozglue_static
 ;
-extern
-crate
-unicode_bidi_ffi
-;
 #
 [
 cfg
