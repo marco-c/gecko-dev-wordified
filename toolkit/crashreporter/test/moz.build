@@ -136,7 +136,7 @@ xpcshell
 -
 phc
 .
-toml
+ini
 "
 "
 unit_ipc
@@ -145,7 +145,7 @@ xpcshell
 -
 phc
 .
-toml
+ini
 "
 ]
 BROWSER_CHROME_MANIFESTS
