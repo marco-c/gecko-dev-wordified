@@ -457,7 +457,7 @@ rtcp
 CommonHeader
 header
 ;
-RTC_DCHECK
+EXPECT_TRUE
 (
 header
 .
@@ -476,7 +476,7 @@ size
 )
 )
 ;
-RTC_DCHECK_EQ
+EXPECT_EQ
 (
 header
 .
@@ -489,7 +489,7 @@ TransportFeedback
 kPacketType
 )
 ;
-RTC_DCHECK_EQ
+EXPECT_EQ
 (
 header
 .
@@ -505,7 +505,7 @@ kFeedbackMessageType
 TransportFeedback
 feedback
 ;
-RTC_DCHECK
+EXPECT_TRUE
 (
 feedback
 .
@@ -640,7 +640,7 @@ received_ts
 temp_timestamps
 ;
 }
-RTC_DCHECK_EQ
+ASSERT_EQ
 (
 received_seq
 .
@@ -1151,7 +1151,7 @@ uint16_t
 seq_nums
 )
 {
-RTC_DCHECK
+RTC_CHECK
 (
 !
 seq_nums
