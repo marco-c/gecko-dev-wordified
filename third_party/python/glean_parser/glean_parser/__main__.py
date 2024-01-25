@@ -1725,7 +1725,7 @@ for
 all
 metrics
 in
-metrics_files
+METRICS_FILES
     
 whose
 bug_numbers
@@ -1733,7 +1733,7 @@ fields
 contain
 the
 provided
-bug
+BUG
 string
 .
     

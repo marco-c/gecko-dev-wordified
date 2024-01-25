@@ -14595,16 +14595,6 @@ dist_groups
 (
 )
 )
-if
-hasattr
-(
-pkgutil
-'
-ImpImporter
-'
-)
-:
-    
 register_finder
 (
 pkgutil
@@ -15585,16 +15575,6 @@ there
         
 return
 subpath
-if
-hasattr
-(
-pkgutil
-'
-ImpImporter
-'
-)
-:
-    
 register_namespace_handler
 (
 pkgutil
