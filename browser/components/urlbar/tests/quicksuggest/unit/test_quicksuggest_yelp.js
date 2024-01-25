@@ -117,6 +117,10 @@ needLocation
 true
 }
 ]
+yelpModifiers
+:
+[
+]
 }
 }
 ]

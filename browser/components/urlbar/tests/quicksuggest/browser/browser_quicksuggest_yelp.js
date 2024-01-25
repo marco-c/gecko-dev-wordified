@@ -90,6 +90,10 @@ needLocation
 true
 }
 ]
+yelpModifiers
+:
+[
+]
 }
 }
 ]
