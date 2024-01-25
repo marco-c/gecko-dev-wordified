@@ -166,6 +166,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysOfferTranslationsEnabled
 (
 false
@@ -309,6 +311,8 @@ assertPanelDefaultView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysOfferTranslationsEnabled
 (
 true

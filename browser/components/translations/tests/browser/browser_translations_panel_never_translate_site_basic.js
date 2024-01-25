@@ -170,6 +170,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateSite
 (
 SPANISH_PAGE_URL
@@ -188,6 +190,8 @@ clickNeverTranslateSite
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateSite
 (
 SPANISH_PAGE_URL

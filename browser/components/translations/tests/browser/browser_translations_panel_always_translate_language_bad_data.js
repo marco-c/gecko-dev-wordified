@@ -124,6 +124,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "

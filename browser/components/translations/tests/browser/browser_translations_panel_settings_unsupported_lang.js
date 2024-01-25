@@ -220,6 +220,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -245,6 +247,8 @@ resolveDownloads
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -328,6 +332,9 @@ assertPanelUnsupportedLanguageView
 }
 )
 ;
+await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -343,6 +350,9 @@ true
 }
 )
 ;
+await
+FullPageTranslationsTestUtils
+.
 assertIsNeverTranslateLanguage
 (
 "

@@ -167,6 +167,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -192,6 +194,8 @@ resolveDownloads
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -348,6 +352,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
@@ -368,6 +374,8 @@ clickAlwaysTranslateLanguage
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertIsAlwaysTranslateLanguage
 (
 "
