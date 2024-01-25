@@ -91,6 +91,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickManageLanguages
 (
 )

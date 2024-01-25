@@ -151,6 +151,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickAlwaysTranslateLanguage
 (
 {
