@@ -1199,6 +1199,8 @@ null_mut
 (
 )
 COINIT_MULTITHREADED
+as
+_
 )
 ;
 assert
