@@ -4534,10 +4534,8 @@ undefined
 ?
 iconUri
 :
-moz
+cached
 -
-anno
-:
 favicon
 :
 page

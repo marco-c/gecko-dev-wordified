@@ -521,10 +521,8 @@ items
 /
 /
 -
-moz
+cached
 -
-anno
-:
 favicon
 :
 <
@@ -816,9 +814,9 @@ scheme
 EqualsLiteral
 (
 "
-moz
+cached
 -
-anno
+favicon
 "
 )
 )

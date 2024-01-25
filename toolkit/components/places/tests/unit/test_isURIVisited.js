@@ -144,10 +144,8 @@ mailbox
 :
 false
 "
-moz
+cached
 -
-anno
-:
 favicon
 :
 http

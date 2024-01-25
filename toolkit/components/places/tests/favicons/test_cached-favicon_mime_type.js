@@ -113,9 +113,9 @@ type
 is
 set
 for
-moz
+cached
 -
-anno
+favicon
 channels
 of
 favicons
