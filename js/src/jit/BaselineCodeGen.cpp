@@ -31041,15 +31041,6 @@ prepareVMCall
 (
 )
 ;
-pushUint8BytecodeOperandArg
-(
-R2
-.
-scratchReg
-(
-)
-)
-;
 pushArg
 (
 R1
@@ -31081,7 +31072,6 @@ AsyncFunctionGeneratorObject
 *
 >
 HandleValue
-AsyncFunctionResolveKind
 )
 ;
 if
