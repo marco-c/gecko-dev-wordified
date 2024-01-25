@@ -215,12 +215,10 @@ MOCK_METHOD
 bool
 Discard
 (
-IsUnordered
-unordered
 StreamID
 stream_id
-MID
-mid
+OutgoingMessageId
+message_id
 )
 (
 override
