@@ -4716,15 +4716,6 @@ callback
 override
 {
 }
-void
-SetVideoCodecSwitchingEnabled
-(
-bool
-enabled
-)
-override
-{
-}
 bool
 SendCodecHasLntf
 (
