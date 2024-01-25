@@ -461,7 +461,7 @@ readerState
 State
 :
 :
-Processing
+Paused
 ;
 /
 /
