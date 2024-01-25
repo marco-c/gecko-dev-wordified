@@ -10105,10 +10105,10 @@ StyleText
 )
 -
 >
-mTextWrap
+mTextWrapStyle
 =
 =
-StyleTextWrap
+StyleTextWrapStyle
 :
 :
 Balance

@@ -6095,6 +6095,19 @@ props
 remove
 (
 "
+text
+-
+wrap
+-
+style
+"
+)
+    
+props
+.
+remove
+(
+"
 word
 -
 break
@@ -6874,17 +6887,6 @@ add
 "
 text
 -
-wrap
-"
-)
-        
-props
-.
-add
-(
-"
-text
--
 overflow
 "
 )
@@ -6909,6 +6911,29 @@ text
 -
 justify
 "
+)
+        
+for
+p
+in
+PropertyRestrictions
+.
+shorthand
+(
+data
+"
+text
+-
+wrap
+"
+)
+:
+            
+props
+.
+add
+(
+p
 )
         
 for
@@ -6973,12 +6998,6 @@ set
 [
                 
 "
-text
--
-wrap
-"
-                
-"
 color
 "
                 
@@ -7028,6 +7047,19 @@ smoothing
 "
             
 ]
+            
++
+PropertyRestrictions
+.
+shorthand
+(
+data
+"
+text
+-
+wrap
+"
+)
             
 +
 PropertyRestrictions
@@ -7143,12 +7175,6 @@ shadow
 "
 text
 -
-wrap
-"
-                
-"
-text
--
 combine
 -
 upright
@@ -7246,6 +7272,19 @@ data
 text
 -
 decoration
+"
+)
+            
++
+PropertyRestrictions
+.
+shorthand
+(
+data
+"
+text
+-
+wrap
 "
 )
             
