@@ -791,9 +791,6 @@ axis
 nscoord
 IntrinsicScrollbarGutterSizeAtInlineEdges
 (
-gfxContext
-*
-aRenderingContext
 )
 ;
 bool
