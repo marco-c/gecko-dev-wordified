@@ -618,6 +618,9 @@ collection
 .
 AppendNewPlot
 (
+"
+outgoing_packet_sizes
+"
 )
 )
 ;
@@ -648,6 +651,9 @@ collection
 .
 AppendNewPlot
 (
+"
+outgoing_stream_bitrate
+"
 )
 )
 ;
@@ -674,6 +680,9 @@ collection
 .
 AppendNewPlot
 (
+"
+outgoing_bitrate
+"
 )
 /
 *
@@ -718,6 +727,9 @@ collection
 .
 AppendNewPlot
 (
+"
+network_delay_feedback
+"
 )
 )
 ;
@@ -744,6 +756,9 @@ collection
 .
 AppendNewPlot
 (
+"
+fraction_loss_feedback
+"
 )
 )
 ;
@@ -777,6 +792,9 @@ collection
 .
 AppendNewPlot
 (
+"
+incoming_packet_sizes
+"
 )
 )
 ;
@@ -807,6 +825,9 @@ collection
 .
 AppendNewPlot
 (
+"
+incoming_stream_bitrate
+"
 )
 )
 ;
@@ -833,6 +854,9 @@ collection
 .
 AppendNewPlot
 (
+"
+incoming_bitrate
+"
 )
 )
 ;
@@ -859,6 +883,9 @@ collection
 .
 AppendNewPlot
 (
+"
+incoming_delay
+"
 )
 )
 ;
@@ -885,6 +912,9 @@ collection
 .
 AppendNewPlot
 (
+"
+incoming_loss_rate
+"
 )
 )
 ;
