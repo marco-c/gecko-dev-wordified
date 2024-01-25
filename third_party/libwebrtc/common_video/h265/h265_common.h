@@ -396,6 +396,8 @@ sequence
 .
 size_t
 start_offset
+=
+0
 ;
 /
 /
@@ -410,6 +412,8 @@ header
 .
 size_t
 payload_start_offset
+=
+0
 ;
 /
 /
@@ -425,6 +429,8 @@ payload_start_offset
 .
 size_t
 payload_size
+=
+0
 ;
 }
 ;
