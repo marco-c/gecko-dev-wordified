@@ -476,9 +476,18 @@ static
 Backend
 }
 impl
+super
+:
+:
+ThreadParkerT
+for
 ThreadParker
 {
-pub
+type
+UnparkHandle
+=
+UnparkHandle
+;
 const
 IS_CHEAP_TO_CONSTRUCT
 :
@@ -490,7 +499,6 @@ true
 [
 inline
 ]
-pub
 fn
 new
 (
@@ -572,7 +580,7 @@ queue
 [
 inline
 ]
-pub
+unsafe
 fn
 prepare_park
 (
@@ -656,7 +664,7 @@ false
 [
 inline
 ]
-pub
+unsafe
 fn
 timed_out
 (
@@ -746,7 +754,6 @@ queue
 [
 inline
 ]
-pub
 unsafe
 fn
 park
@@ -854,7 +861,6 @@ out
 [
 inline
 ]
-pub
 unsafe
 fn
 park_until
@@ -962,7 +968,6 @@ lock
 [
 inline
 ]
-pub
 unsafe
 fn
 unpark_lock
@@ -1097,6 +1102,11 @@ UnparkHandle
 )
 }
 impl
+super
+:
+:
+UnparkHandleT
+for
 UnparkHandle
 {
 /
@@ -1132,7 +1142,6 @@ long
 [
 inline
 ]
-pub
 unsafe
 fn
 unpark
