@@ -782,6 +782,11 @@ lower_bound_by_acked_rate_factor
 .
 0
 ;
+bool
+use_padding_for_increase
+=
+false
+;
 }
 ;
 struct
