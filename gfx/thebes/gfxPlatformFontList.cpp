@@ -9130,6 +9130,7 @@ if
 (
 aStartIndex
 >
+=
 mStartedLoadingCmapsFrom
 )
 {
@@ -9142,7 +9143,8 @@ cmap
 -
 loading
 from
-somewhere
+here
+or
 earlier
 in
 the
