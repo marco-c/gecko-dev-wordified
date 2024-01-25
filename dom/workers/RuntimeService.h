@@ -210,6 +210,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
@@ -400,7 +409,7 @@ WorkerPrivate
 mWindowMap
 ;
 static
-UniquePtr
+StaticAutoPtr
 <
 workerinternals
 :

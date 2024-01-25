@@ -5734,7 +5734,7 @@ Init
 )
 below
 .
-UniquePtr
+StaticAutoPtr
 <
 JSSettings
 >
@@ -7602,10 +7602,8 @@ JSSettings
 .
 sDefaultJSSettings
 =
-MakeUnique
-<
+new
 JSSettings
->
 (
 )
 ;
