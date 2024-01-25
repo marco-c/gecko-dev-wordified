@@ -1026,6 +1026,13 @@ Cursor
 override
 ;
 void
+SetCustomCursorAllowed
+(
+bool
+)
+override
+;
+void
 ClearCachedCursor
 (
 )
@@ -4147,6 +4154,11 @@ mSwipeEventQueue
 ;
 Cursor
 mCursor
+;
+bool
+mCustomCursorAllowed
+=
+true
 ;
 BorderStyle
 mBorderStyle

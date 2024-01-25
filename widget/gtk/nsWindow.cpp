@@ -22311,6 +22311,15 @@ GdkCursor
 *
 imageCursor
 =
+nullptr
+;
+if
+(
+mCustomCursorAllowed
+)
+{
+imageCursor
+=
 GetCursorForImage
 (
 aCursor
@@ -22319,6 +22328,7 @@ GdkCeiledScaleFactor
 )
 )
 ;
+}
 /
 /
 When

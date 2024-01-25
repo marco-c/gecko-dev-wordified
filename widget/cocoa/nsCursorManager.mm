@@ -1466,6 +1466,12 @@ widgetScaleFactor
 CGFloat
 )
 scaleFactor
+forceUpdate
+:
+(
+bool
+)
+aForceUpdate
 {
 NS_OBJC_BEGIN_TRY_BLOCK_RETURN
 ;
@@ -1489,6 +1495,10 @@ same
 aCursorImage
 if
 (
+!
+aForceUpdate
+&
+&
 sCurrentCursor
 =
 =
