@@ -107,7 +107,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelDefaultView
+FullPageTranslationsTestUtils
+.
+assertPanelViewDefault
 }
 )
 ;

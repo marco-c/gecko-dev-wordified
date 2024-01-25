@@ -208,7 +208,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelDefaultView
+FullPageTranslationsTestUtils
+.
+assertPanelViewDefault
 }
 )
 ;
@@ -328,7 +330,9 @@ openFromAppMenu
 true
 onOpenPanel
 :
-assertPanelUnsupportedLanguageView
+FullPageTranslationsTestUtils
+.
+assertPanelViewUnsupportedLanguage
 }
 )
 ;

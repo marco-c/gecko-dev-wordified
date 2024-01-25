@@ -151,7 +151,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelDefaultView
+FullPageTranslationsTestUtils
+.
+assertPanelViewDefault
 }
 )
 ;
@@ -260,7 +262,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelLoadingView
+FullPageTranslationsTestUtils
+.
+assertPanelViewLoading
 }
 )
 ;
@@ -299,7 +303,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelRevisitView
+FullPageTranslationsTestUtils
+.
+assertPanelViewRevisit
 }
 )
 ;

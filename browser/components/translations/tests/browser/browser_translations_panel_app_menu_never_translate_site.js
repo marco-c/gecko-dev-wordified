@@ -137,7 +137,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelDefaultView
+FullPageTranslationsTestUtils
+.
+assertPanelViewDefault
 }
 )
 ;
@@ -192,7 +194,9 @@ openFromAppMenu
 true
 onOpenPanel
 :
-assertPanelDefaultView
+FullPageTranslationsTestUtils
+.
+assertPanelViewDefault
 }
 )
 ;
@@ -376,7 +380,9 @@ openTranslationsPanel
 {
 onOpenPanel
 :
-assertPanelRevisitView
+FullPageTranslationsTestUtils
+.
+assertPanelViewRevisit
 }
 )
 ;
@@ -469,7 +475,9 @@ openFromAppMenu
 true
 onOpenPanel
 :
-assertPanelDefaultView
+FullPageTranslationsTestUtils
+.
+assertPanelViewDefault
 }
 )
 ;

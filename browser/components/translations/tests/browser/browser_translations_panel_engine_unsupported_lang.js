@@ -115,7 +115,9 @@ openFromAppMenu
 true
 onOpenPanel
 :
-assertPanelUnsupportedLanguageView
+FullPageTranslationsTestUtils
+.
+assertPanelViewUnsupportedLanguage
 }
 )
 ;

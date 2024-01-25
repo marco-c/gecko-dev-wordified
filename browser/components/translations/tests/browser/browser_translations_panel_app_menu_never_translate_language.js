@@ -159,7 +159,9 @@ openFromAppMenu
 true
 onOpenPanel
 :
-assertPanelDefaultView
+FullPageTranslationsTestUtils
+.
+assertPanelViewDefault
 }
 )
 ;
