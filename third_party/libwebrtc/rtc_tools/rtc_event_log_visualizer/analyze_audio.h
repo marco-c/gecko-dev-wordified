@@ -123,6 +123,17 @@ h
 #
 include
 "
+api
+/
+neteq
+/
+neteq
+.
+h
+"
+#
+include
+"
 logging
 /
 rtc_event_log
