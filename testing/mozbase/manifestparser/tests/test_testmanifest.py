@@ -269,10 +269,10 @@ active_tests
 exists
 =
 False
-os
+toolkit
 =
 "
-linux
+gtk
 "
 )
 [
@@ -319,10 +319,10 @@ active_tests
 exists
 =
 False
-os
+toolkit
 =
 "
-mac
+cocoa
 "
 )
 [
