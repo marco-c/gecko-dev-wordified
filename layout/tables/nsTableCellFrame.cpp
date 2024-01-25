@@ -236,6 +236,13 @@ h
 #
 include
 "
+nsIScrollableFrame
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
