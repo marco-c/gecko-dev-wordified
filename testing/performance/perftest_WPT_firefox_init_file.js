@@ -417,11 +417,6 @@ naver
 com
 "
 "
-canva
-.
-com
-"
-"
 ebay
 .
 com
