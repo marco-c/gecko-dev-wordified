@@ -5003,7 +5003,7 @@ NameAtom
 EditorUtils
 :
 :
-GetComputedWhiteSpaceStyle
+GetComputedWhiteSpaceStyles
 (
 aLeftBlockElement
 )
@@ -5012,7 +5012,7 @@ aLeftBlockElement
 EditorUtils
 :
 :
-GetComputedWhiteSpaceStyle
+GetComputedWhiteSpaceStyles
 (
 aRightBlockElement
 )
