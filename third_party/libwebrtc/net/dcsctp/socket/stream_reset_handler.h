@@ -809,6 +809,10 @@ my_initial_tsn
 )
 last_processed_req_seq_nbr_
 (
+incoming_reconfig_request_sn_unwrapper_
+.
+Unwrap
+(
 handover_state
 ?
 ReconfigRequestSN
@@ -832,6 +836,7 @@ peer_initial_tsn
 )
 -
 1
+)
 )
 )
 last_processed_req_result_
@@ -1036,6 +1041,14 @@ state
 ;
 private
 :
+using
+UnwrappedReconfigRequestSn
+=
+UnwrappedSequenceNumber
+<
+ReconfigRequestSN
+>
+;
 /
 /
 Represents
@@ -1704,7 +1717,7 @@ responses
 bool
 ValidateReqSeqNbr
 (
-ReconfigRequestSN
+UnwrappedReconfigRequestSn
 req_seq_nbr
 std
 :
@@ -1928,6 +1941,12 @@ RetransmissionQueue
 *
 retransmission_queue_
 ;
+UnwrappedReconfigRequestSn
+:
+:
+Unwrapper
+incoming_reconfig_request_sn_unwrapper_
+;
 const
 std
 :
@@ -1981,7 +2000,7 @@ request
 sequence
 number
 .
-ReconfigRequestSN
+UnwrappedReconfigRequestSn
 last_processed_req_seq_nbr_
 ;
 /
