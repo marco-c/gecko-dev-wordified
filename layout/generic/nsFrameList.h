@@ -1139,11 +1139,7 @@ aFrame
 Take
 the
 first
-(
-or
-last
-)
-child
+frame
 (
 if
 any
@@ -1158,10 +1154,6 @@ list
 return
 the
 first
-(
-or
-last
-)
 child
 or
 nullptr
@@ -1175,12 +1167,6 @@ empty
 nsIFrame
 *
 RemoveFirstChild
-(
-)
-;
-nsIFrame
-*
-RemoveLastChild
 (
 )
 ;
