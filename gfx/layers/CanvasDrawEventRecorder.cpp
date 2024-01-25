@@ -756,12 +756,6 @@ move
 (
 writerSem
 )
-/
-*
-aUseIPDLThread
-*
-/
-false
 )
 )
 {
