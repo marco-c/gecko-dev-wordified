@@ -801,7 +801,7 @@ flexible_mode
 return
 0
 ;
-RTC_DCHECK_GT
+RTC_CHECK_GT
 (
 hdr
 .
@@ -809,7 +809,7 @@ num_ref_pics
 0U
 )
 ;
-RTC_DCHECK_LE
+RTC_CHECK_LE
 (
 hdr
 .
@@ -1111,7 +1111,7 @@ ss_data_available
 return
 0
 ;
-RTC_DCHECK_GT
+RTC_CHECK_GT
 (
 hdr
 .
@@ -1119,7 +1119,7 @@ num_spatial_layers
 0U
 )
 ;
-RTC_DCHECK_LE
+RTC_CHECK_LE
 (
 hdr
 .
@@ -1127,7 +1127,7 @@ num_spatial_layers
 kMaxVp9NumberOfSpatialLayers
 )
 ;
-RTC_DCHECK_LE
+RTC_CHECK_LE
 (
 hdr
 .
@@ -1221,7 +1221,7 @@ num_frames_in_gof
 i
 )
 {
-RTC_DCHECK_LE
+RTC_CHECK_LE
 (
 hdr
 .
@@ -2272,7 +2272,7 @@ BitBufferWriter
 writer
 )
 {
-RTC_DCHECK_GT
+RTC_CHECK_GT
 (
 vp9
 .
@@ -2280,7 +2280,7 @@ num_spatial_layers
 0U
 )
 ;
-RTC_DCHECK_LE
+RTC_CHECK_LE
 (
 vp9
 .
@@ -2288,7 +2288,7 @@ num_spatial_layers
 kMaxVp9NumberOfSpatialLayers
 )
 ;
-RTC_DCHECK_LE
+RTC_CHECK_LE
 (
 vp9
 .
@@ -2678,6 +2678,14 @@ RTPVideoHeaderVP9
 original_header
 )
 {
+RTC_CHECK_LE
+(
+original_header
+.
+num_spatial_layers
+kMaxVp9NumberOfSpatialLayers
+)
+;
 RTPVideoHeaderVP9
 hdr
 (
@@ -2876,7 +2884,7 @@ remaining_payload_
 payload
 )
 {
-RTC_DCHECK_EQ
+RTC_CHECK_EQ
 (
 hdr_
 .
@@ -3115,7 +3123,7 @@ not
 /
 dropped
 .
-RTC_DCHECK
+RTC_CHECK
 (
 hdr_
 .
