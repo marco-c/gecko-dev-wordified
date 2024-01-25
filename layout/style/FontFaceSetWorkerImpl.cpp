@@ -1153,9 +1153,6 @@ aFunc
 WorkerRunnable
 (
 aWorkerPrivate
-"
-FontFaceSetWorkerRunnable
-"
 )
 mFunc
 (

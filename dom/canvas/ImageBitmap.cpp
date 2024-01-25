@@ -9803,9 +9803,6 @@ WorkerSameThreadRunnable
 GetCurrentThreadWorkerPrivate
 (
 )
-"
-FulfillImageBitmapPromiseWorkerTask
-"
 )
 FulfillImageBitmapPromise
 (
@@ -10399,7 +10396,6 @@ nsIInputStreamCallback
 )
 class
 CreateImageBitmapFromBlobRunnable
-final
 :
 public
 WorkerRunnable
@@ -10428,9 +10424,6 @@ aStatus
 WorkerRunnable
 (
 aWorkerPrivate
-"
-CreateImageBitmapFromBlobRunnable
-"
 )
 mTask
 (

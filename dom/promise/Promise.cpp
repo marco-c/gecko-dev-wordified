@@ -5029,7 +5029,6 @@ this
 .
 class
 PromiseWorkerProxyRunnable
-final
 :
 public
 WorkerRunnable
@@ -5056,9 +5055,6 @@ aPromiseWorkerProxy
 GetWorkerPrivate
 (
 )
-"
-PromiseWorkerProxyRunnable
-"
 WorkerThread
 )
 mPromiseWorkerProxy

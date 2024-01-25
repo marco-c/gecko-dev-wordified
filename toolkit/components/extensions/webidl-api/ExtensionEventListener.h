@@ -758,7 +758,6 @@ class
 .
 class
 ExtensionListenerCallWorkerRunnable
-final
 :
 public
 dom
@@ -833,9 +832,6 @@ aExtensionEventListener
 GetWorkerPrivate
 (
 )
-"
-ExtensionListenerCallWorkerRunnable
-"
 WorkerThread
 )
 mListener

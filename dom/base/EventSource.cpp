@@ -10571,9 +10571,7 @@ aEvent
 WorkerRunnable
 (
 aWorkerPrivate
-"
-WorkerRunnableDispatcher
-"
+WorkerThread
 )
 mEventSourceImpl
 (

@@ -262,9 +262,6 @@ aInner
 WorkerControlRunnable
 (
 aWorkerPrivate
-"
-WrappedControlRunnable
-"
 WorkerThread
 )
 mInner

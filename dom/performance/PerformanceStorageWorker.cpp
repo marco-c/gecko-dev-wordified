@@ -303,9 +303,6 @@ aData
 WorkerControlRunnable
 (
 aWorkerPrivate
-"
-PerformanceEntryAdder
-"
 WorkerThread
 )
 mStorage
