@@ -237,6 +237,8 @@ assertPanelDefaultView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickTranslateButton
 (
 {
@@ -310,6 +312,8 @@ assertPanelRevisitView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickRestoreButton
 (
 )
@@ -577,6 +581,8 @@ assertPanelDefaultView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickTranslateButton
 (
 {
@@ -650,6 +656,8 @@ assertPanelRevisitView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickRestoreButton
 (
 )

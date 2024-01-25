@@ -120,6 +120,8 @@ assertPanelUnsupportedLanguageView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickChangeSourceLanguageButton
 (
 )

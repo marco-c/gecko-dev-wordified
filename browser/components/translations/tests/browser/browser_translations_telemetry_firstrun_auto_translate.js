@@ -382,6 +382,8 @@ assertPanelRevisitView
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 clickRestoreButton
 (
 )
