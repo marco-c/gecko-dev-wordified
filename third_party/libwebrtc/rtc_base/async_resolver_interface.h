@@ -164,6 +164,17 @@ and
 remove
 .
 class
+[
+[
+deprecated
+(
+"
+Use
+AsyncDnsResolver
+"
+)
+]
+]
 RTC_EXPORT
 AsyncResolverInterface
 {
