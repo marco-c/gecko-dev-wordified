@@ -1762,7 +1762,7 @@ else
 {
 Err
 (
-ErrorKind
+Error
 :
 :
 IllegalDatabasePath
@@ -1776,10 +1776,6 @@ as_ref
 to_owned
 (
 )
-)
-.
-into
-(
 )
 )
 }
@@ -1811,7 +1807,7 @@ map_err
 |
 _
 |
-ErrorKind
+Error
 :
 :
 IllegalDatabasePath
@@ -2027,7 +2023,7 @@ ok_or_else
 (
 |
 |
-ErrorKind
+Error
 :
 :
 IllegalDatabasePath
@@ -2054,7 +2050,7 @@ ok_or_else
 (
 |
 |
-ErrorKind
+Error
 :
 :
 IllegalDatabasePath
