@@ -1375,6 +1375,7 @@ n
         
 run_shell
 (
+            
 f
 "
 emcmake
@@ -1383,6 +1384,10 @@ cmake
 DCOMPILE_WASM
 =
 on
+-
+DWORMHOLE
+=
+off
 {
 flags
 }
@@ -1390,6 +1395,7 @@ flags
 BERGAMOT_PATH
 }
 "
+        
 )
         
 print
