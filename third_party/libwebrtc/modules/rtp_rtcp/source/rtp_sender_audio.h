@@ -637,7 +637,7 @@ absl
 :
 optional
 <
-uint32_t
+int
 >
 encoder_rtp_timestamp_frequency_
 RTC_GUARDED_BY
@@ -647,6 +647,10 @@ send_audio_mutex_
 ;
 AbsoluteCaptureTimeSender
 absolute_capture_time_sender_
+RTC_GUARDED_BY
+(
+send_audio_mutex_
+)
 ;
 }
 ;

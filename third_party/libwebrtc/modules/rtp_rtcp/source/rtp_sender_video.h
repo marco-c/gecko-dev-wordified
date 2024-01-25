@@ -1663,6 +1663,10 @@ generic_descriptor_auth_experiment_
 ;
 AbsoluteCaptureTimeSender
 absolute_capture_time_sender_
+RTC_GUARDED_BY
+(
+send_checker_
+)
 ;
 /
 /
