@@ -722,6 +722,7 @@ usize
 if
 index
 >
+=
 self
 .
 metadata

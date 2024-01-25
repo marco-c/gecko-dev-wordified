@@ -8827,7 +8827,7 @@ load
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 {
 stream
@@ -9006,7 +9006,7 @@ true
 Ordering
 :
 :
-SeqCst
+Relaxed
 )
 ;
 Ok
