@@ -1101,6 +1101,12 @@ is_test_running
 =
 False
         
+self
+.
+_manifest
+=
+None
+        
 #
 Even
 if
@@ -1187,6 +1193,20 @@ buffered_messages
 =
 [
 ]
+    
+def
+setManifest
+(
+self
+name
+)
+:
+        
+self
+.
+_manifest
+=
+name
     
 def
 validate
@@ -1732,6 +1752,17 @@ _fix_message_format
 (
 message
 )
+            
+message
+[
+"
+group
+"
+]
+=
+self
+.
+_manifest
             
 messages
 .
@@ -15962,6 +15993,24 @@ MOZ_HEADLESS
 "
         
 if
+not
+options
+.
+e10s
+:
+            
+browserEnv
+[
+"
+MOZ_FORCE_DISABLE_E10S
+"
+]
+=
+"
+1
+"
+        
+if
 options
 .
 dmd
@@ -19481,20 +19530,6 @@ profile
 prefs
 =
 {
-            
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-:
-options
-.
-e10s
             
 #
 Enable
@@ -27125,6 +27160,15 @@ format
 (
 m
 )
+)
+            
+self
+.
+message_logger
+.
+setManifest
+(
+m
 )
             
 args

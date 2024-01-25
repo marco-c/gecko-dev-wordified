@@ -224,6 +224,21 @@ belongs
 (
 optional
 )
+      
+group
+-
+Name
+of
+the
+test
+group
+for
+the
+incoming
+test
+(
+optional
+)
   
 test_end
       
@@ -339,6 +354,21 @@ belongs
 (
 optional
 )
+      
+group
+-
+Name
+of
+the
+test
+group
+for
+the
+incoming
+test
+(
+optional
+)
   
 test_status
       
@@ -437,6 +467,21 @@ to
 which
 test
 belongs
+(
+optional
+)
+      
+group
+-
+Name
+of
+the
+test
+group
+for
+the
+incoming
+test
 (
 optional
 )
@@ -3007,6 +3052,19 @@ optional
 =
 True
 )
+        
+Unicode
+(
+"
+group
+"
+default
+=
+None
+optional
+=
+True
+)
     
 )
     
@@ -3077,6 +3135,28 @@ the
 test
 belongs
 .
+        
+:
+param
+group
+:
+Optional
+name
+of
+the
+test
+group
+or
+manifest
+name
+(
+useful
+                     
+when
+running
+in
+paralle
+)
         
 "
 "
@@ -3297,6 +3377,19 @@ optional
 =
 True
 )
+        
+Unicode
+(
+"
+group
+"
+default
+=
+None
+optional
+=
+True
+)
     
 )
     
@@ -3456,6 +3549,28 @@ the
 test
 belongs
 .
+        
+:
+param
+group
+:
+Optional
+name
+of
+the
+test
+group
+or
+manifest
+name
+(
+useful
+                     
+when
+running
+in
+paralle
+)
         
 "
 "
@@ -3679,6 +3794,19 @@ optional
 =
 True
 )
+        
+Unicode
+(
+"
+group
+"
+default
+=
+None
+optional
+=
+True
+)
     
 )
     
@@ -3830,6 +3958,28 @@ the
 test
 belongs
 .
+        
+:
+param
+group
+:
+Optional
+name
+of
+the
+test
+group
+or
+manifest
+name
+(
+useful
+                     
+when
+running
+in
+paralle
+)
         
 "
 "

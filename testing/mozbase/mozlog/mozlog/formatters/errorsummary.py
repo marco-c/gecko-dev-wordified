@@ -105,6 +105,13 @@ status
 None
                 
 "
+test_times
+"
+:
+[
+]
+                
+"
 start
 "
 :
@@ -659,48 +666,17 @@ items
 )
 :
             
-if
-info
-[
-"
-start
-"
-]
-is
-None
-or
-info
-[
-"
-end
-"
-]
-is
-None
-:
-                
 duration
 =
-None
-            
-else
-:
-                
-duration
-=
+sum
+(
 info
 [
 "
-end
+test_times
 "
 ]
--
-info
-[
-"
-start
-"
-]
+)
             
 output
 .
@@ -766,6 +742,14 @@ item
         
 group
 =
+item
+.
+get
+(
+            
+"
+group
+"
 self
 .
 test_to_group
@@ -784,6 +768,8 @@ test
 ]
 )
 None
+)
+        
 )
         
 if
@@ -833,6 +819,14 @@ item
         
 group
 =
+item
+.
+get
+(
+            
+"
+group
+"
 self
 .
 test_to_group
@@ -851,6 +845,8 @@ test
 ]
 )
 None
+)
+        
 )
         
 if
@@ -961,6 +957,14 @@ item
         
 group
 =
+item
+.
+get
+(
+            
+"
+group
+"
 self
 .
 test_to_group
@@ -979,6 +983,8 @@ test
 ]
 )
 None
+)
+        
 )
         
 if
@@ -1005,6 +1011,7 @@ group
 item
 )
             
+if
 self
 .
 groups
@@ -1013,16 +1020,60 @@ group
 ]
 [
 "
-end
+start
 "
 ]
-=
+:
+                
+self
+.
+groups
+[
+group
+]
+[
+"
+test_times
+"
+]
+.
+append
+(
+                    
 item
 [
 "
 time
 "
 ]
+-
+self
+.
+groups
+[
+group
+]
+[
+"
+start
+"
+]
+                
+)
+                
+self
+.
+groups
+[
+group
+]
+[
+"
+start
+"
+]
+=
+None
         
 if
 not
