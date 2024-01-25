@@ -113,6 +113,17 @@ field_trials_registry
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -131,6 +142,7 @@ value
 lookup
 .
 class
+RTC_EXPORT
 FieldTrialBasedConfig
 :
 public
