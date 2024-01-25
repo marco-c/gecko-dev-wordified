@@ -32177,6 +32177,9 @@ expected
 "
 )
 ;
+return
+false
+;
 }
 Rooted
 <
@@ -32619,7 +32622,7 @@ cx
 "
 instantiateModuleStencilXDR
 :
-stencil
+Stencil
 XDR
 object
 expected
@@ -32667,7 +32670,7 @@ cx
 "
 instantiateModuleStencilXDR
 :
-stencil
+Stencil
 XDR
 object
 expected
