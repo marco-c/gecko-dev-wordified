@@ -7748,7 +7748,7 @@ int32_t
 callVM
 <
 Fn
-jit
+js
 :
 :
 StringFromCharCode
@@ -8043,7 +8043,7 @@ int32_t
 callVM
 <
 Fn
-jit
+js
 :
 :
 StringFromCharCode
@@ -8058,7 +8058,7 @@ else
 using
 Fn
 =
-JSString
+JSLinearString
 *
 (
 *
@@ -8066,13 +8066,13 @@ JSString
 (
 JSContext
 *
-int32_t
+char32_t
 )
 ;
 callVM
 <
 Fn
-jit
+js
 :
 :
 StringFromCodePoint

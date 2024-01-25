@@ -3268,9 +3268,6 @@ StringFromCharCode
 js
 :
 :
-jit
-:
-:
 StringFromCharCode
 )
 \
@@ -3278,9 +3275,6 @@ _
 (
 StringFromCodePoint
 js
-:
-:
-jit
 :
 :
 StringFromCodePoint
