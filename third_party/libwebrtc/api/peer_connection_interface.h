@@ -13075,12 +13075,8 @@ suites
 CryptoOptions
 crypto_options
 =
-CryptoOptions
-:
-:
-NoGcm
-(
-)
+{
+}
 ;
 }
 ;

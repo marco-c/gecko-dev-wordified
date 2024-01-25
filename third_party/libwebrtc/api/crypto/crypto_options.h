@@ -306,7 +306,7 @@ it
 bool
 enable_gcm_crypto_suites
 =
-false
+true
 ;
 /
 /
