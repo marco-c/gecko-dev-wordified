@@ -3351,7 +3351,7 @@ break
 }
 image
 .
-SetTimestamp
+SetRtpTimestamp
 (
 time
 .

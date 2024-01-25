@@ -4201,7 +4201,7 @@ ft
 ;
 unit
 .
-SetTimestamp
+SetRtpTimestamp
 (
 timestamp
 )
@@ -5359,7 +5359,7 @@ Start
 (
 aInputImage
 .
-Timestamp
+RtpTimestamp
 (
 )
 *
@@ -5959,7 +5959,7 @@ aDecodeData
 >
 mImage
 .
-Timestamp
+RtpTimestamp
 (
 )
 *
