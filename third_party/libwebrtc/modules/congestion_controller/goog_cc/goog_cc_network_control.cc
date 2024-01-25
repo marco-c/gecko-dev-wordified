@@ -674,13 +674,6 @@ bool
 is_rtt_above_limit
 BandwidthUsage
 bandwidth_usage
-bool
-not_probe_if_delay_increased
-)
-{
-if
-(
-not_probe_if_delay_increased
 )
 {
 if
@@ -723,7 +716,6 @@ BandwidthLimitedCause
 kRttBasedBackOffHighRtt
 ;
 }
-}
 switch
 (
 loss_based_state
@@ -739,7 +731,7 @@ return
 BandwidthLimitedCause
 :
 :
-kLossLimitedBweDecreasing
+kLossLimitedBwe
 ;
 case
 LossBasedState
@@ -4452,12 +4444,6 @@ delay_based_bwe_
 -
 >
 last_state
-(
-)
-probe_controller_
--
->
-DontProbeIfDelayIncreased
 (
 )
 )
