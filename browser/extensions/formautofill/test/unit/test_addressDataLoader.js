@@ -186,7 +186,7 @@ spy
 (
 AddressDataLoader
 "
-_loadScripts
+_loadAddressMetaData
 "
 )
 ;
@@ -248,7 +248,7 @@ size
 ;
 /
 /
-_loadScripts
+_loadAddressMetaData
 should
 be
 called
@@ -260,7 +260,7 @@ called
 (
 AddressDataLoader
 .
-_loadScripts
+_loadAddressMetaData
 )
 ;
 /
@@ -302,7 +302,7 @@ extension
 ;
 AddressDataLoader
 .
-_loadScripts
+_loadAddressMetaData
 .
 resetHistory
 (
@@ -325,7 +325,7 @@ getCountryAddressData
 ;
 /
 /
-_loadScripts
+_loadAddressMetaData
 should
 not
 be
@@ -338,7 +338,7 @@ notCalled
 (
 AddressDataLoader
 .
-_loadScripts
+_loadAddressMetaData
 )
 ;
 Assert
@@ -362,7 +362,7 @@ specified
 ;
 AddressDataLoader
 .
-_loadScripts
+_loadAddressMetaData
 .
 resetHistory
 (
@@ -461,7 +461,7 @@ spy
 (
 AddressDataLoader
 "
-_loadScripts
+_loadAddressMetaData
 "
 )
 ;
@@ -492,7 +492,7 @@ CA
 ;
 /
 /
-_loadScripts
+_loadAddressMetaData
 should
 be
 called
@@ -504,7 +504,7 @@ called
 (
 AddressDataLoader
 .
-_loadScripts
+_loadAddressMetaData
 )
 ;
 Assert
@@ -557,7 +557,7 @@ metadata
 ;
 AddressDataLoader
 .
-_loadScripts
+_loadAddressMetaData
 .
 resetHistory
 (
@@ -600,7 +600,7 @@ undefined
 ;
 /
 /
-_loadScripts
+_loadAddressMetaData
 should
 not
 be
@@ -613,7 +613,7 @@ notCalled
 (
 AddressDataLoader
 .
-_loadScripts
+_loadAddressMetaData
 )
 ;
 }
