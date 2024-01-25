@@ -1449,10 +1449,7 @@ audio_device_module
 =
 fake_audio_device
 ;
-Call
-:
-:
-Config
+CallConfig
 sender_config
 (
 send_event_log_
@@ -1492,10 +1489,7 @@ audio_state
 =
 audio_state
 ;
-Call
-:
-:
-Config
+CallConfig
 receiver_config
 (
 recv_event_log_

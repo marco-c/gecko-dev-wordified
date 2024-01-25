@@ -622,10 +622,7 @@ CreateDefaultTaskQueueFactory
 (
 )
 ;
-Call
-:
-:
-Config
+CallConfig
 call_config
 (
 &

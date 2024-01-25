@@ -3361,10 +3361,7 @@ Reset
 (
 )
 ;
-Call
-:
-:
-Config
+CallConfig
 send_config
 (
 send_event_log_
@@ -3384,10 +3381,7 @@ send_config
 bitrate_config
 )
 ;
-Call
-:
-:
-Config
+CallConfig
 recv_config
 (
 recv_event_log_

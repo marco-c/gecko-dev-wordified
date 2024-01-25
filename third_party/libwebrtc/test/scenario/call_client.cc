@@ -467,8 +467,13 @@ return
 setup
 ;
 }
+std
+:
+:
+unique_ptr
+<
 Call
-*
+>
 CreateCall
 (
 TimeController
@@ -1460,9 +1465,7 @@ time_controller_
 )
 ;
 call_
-.
-reset
-(
+=
 CreateCall
 (
 time_controller_
@@ -1477,7 +1480,6 @@ network_controller_factory_
 fake_audio_setup_
 .
 audio_state
-)
 )
 ;
 transport_
