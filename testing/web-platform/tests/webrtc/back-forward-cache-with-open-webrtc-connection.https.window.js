@@ -13,6 +13,9 @@ with
 open
 WebRTC
 connection
+and
+live
+MediaStreamTrack
 .
 /
 /
@@ -203,6 +206,9 @@ of
 open
 WebRTC
 connection
+and
+live
+MediaStreamTrack
 .
 await
 assertBFCacheEligibility
@@ -224,6 +230,9 @@ rc1
 [
 '
 WebRTC
+'
+'
+LiveMediaStreamTrack
 '
 ]
 )
