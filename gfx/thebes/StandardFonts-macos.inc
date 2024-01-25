@@ -538,7 +538,6 @@ MN
 "
 "
 Nadeem
-Regular
 "
 "
 New
