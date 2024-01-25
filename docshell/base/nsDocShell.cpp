@@ -60674,7 +60674,7 @@ Document
 *
 document
 =
-GetDocument
+GetExtantDocument
 (
 )
 ;
