@@ -2819,9 +2819,6 @@ ContentVisibilityAutoStateChangeEvent
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
