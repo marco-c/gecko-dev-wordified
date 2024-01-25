@@ -578,6 +578,15 @@ AsyncFunctionAwait
 \
 _
 (
+AsyncFunctionReject
+js
+:
+:
+AsyncFunctionReject
+)
+\
+_
+(
 AsyncFunctionResolve
 js
 :

@@ -13656,6 +13656,12 @@ JSOp
 :
 AsyncResolve
 :
+case
+JSOp
+:
+:
+AsyncReject
+:
 return
 write
 (
