@@ -813,7 +813,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -833,6 +833,10 @@ loaded
 Wait
 for
 the
+user
+'
+s
+default
 search
 engine
 to
@@ -840,9 +844,9 @@ change
 .
 searchEngineChangeFn
 is
+*
 a
 function
-*
 that
 will
 be
@@ -944,7 +948,7 @@ type
 =
 =
 "
-CurrentState
+CurrentEngine
 "
 )
 {
@@ -1069,6 +1073,14 @@ length
 =
 =
 expectedEngineNameChild
+Waiting
+for
+{
+expectedEngineNameChild
+}
+to
+be
+set
 )
 ;
 content
