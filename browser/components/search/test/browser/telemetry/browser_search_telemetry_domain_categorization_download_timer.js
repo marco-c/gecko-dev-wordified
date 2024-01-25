@@ -941,13 +941,10 @@ mappings_version
 "
 app_version
 :
-APP_VERSION
+APP_MAJOR_VERSION
 channel
 :
 CHANNEL
-locale
-:
-LOCALE
 region
 :
 REGION
