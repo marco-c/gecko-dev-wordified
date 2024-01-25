@@ -1509,7 +1509,7 @@ BindCommon
 IProtocol
 *
 aActor
-IRefCountedProtocol
+IProtocol
 *
 aManager
 )
@@ -1886,7 +1886,7 @@ PrivateIPDLInterface
 PFooSide
 *
 aActor
-IRefCountedProtocol
+IProtocol
 *
 aManager
 ManagedContainer

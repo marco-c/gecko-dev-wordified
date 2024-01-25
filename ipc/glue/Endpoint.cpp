@@ -563,7 +563,7 @@ BindCommon
 IProtocol
 *
 aActor
-IRefCountedProtocol
+IProtocol
 *
 aManager
 )
