@@ -4133,6 +4133,10 @@ get_preferred_sample_rate
 =
 sun_get_preferred_sample_rate
 .
+get_supported_input_processing_params
+=
+NULL
+.
 enumerate_devices
 =
 sun_enumerate_devices
@@ -4184,6 +4188,14 @@ NULL
 stream_get_current_device
 =
 sun_get_current_device
+.
+stream_set_input_mute
+=
+NULL
+.
+stream_set_input_processing_params
+=
+NULL
 .
 stream_device_destroy
 =

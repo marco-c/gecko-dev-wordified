@@ -8981,6 +8981,10 @@ get_preferred_sample_rate
 =
 pulse_get_preferred_sample_rate
 .
+get_supported_input_processing_params
+=
+NULL
+.
 enumerate_devices
 =
 pulse_enumerate_devices
@@ -9032,6 +9036,14 @@ pulse_stream_set_name
 stream_get_current_device
 =
 pulse_stream_get_current_device
+.
+stream_set_input_mute
+=
+NULL
+.
+stream_set_input_processing_params
+=
+NULL
 .
 stream_device_destroy
 =

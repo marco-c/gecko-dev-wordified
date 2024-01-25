@@ -124,6 +124,8 @@ RefCell
 bool
 >
 =
+const
+{
 std
 :
 :
@@ -137,6 +139,7 @@ new
 (
 false
 )
+}
 )
 ;
 thread_local
@@ -159,6 +162,8 @@ AudioIpcInitParams
 >
 >
 =
+const
+{
 std
 :
 :
@@ -172,6 +177,7 @@ new
 (
 None
 )
+}
 )
 ;
 #
