@@ -915,7 +915,7 @@ are
 lost
 .
 bool
-PacketWillLikelyBeRequestedForRestransmitionIfLost
+PacketWillLikelyBeRequestedForRestransmissionIfLost
 (
 const
 RTPVideoHeader
@@ -3091,7 +3091,7 @@ VideoFrameType
 kVideoFrameKey
 |
 |
-PacketWillLikelyBeRequestedForRestransmitionIfLost
+PacketWillLikelyBeRequestedForRestransmissionIfLost
 (
 video_header
 )
@@ -5081,7 +5081,7 @@ VideoFrameType
 kVideoFrameKey
 |
 |
-PacketWillLikelyBeRequestedForRestransmitionIfLost
+PacketWillLikelyBeRequestedForRestransmissionIfLost
 (
 video_header
 )
