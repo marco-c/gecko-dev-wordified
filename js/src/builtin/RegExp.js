@@ -1391,7 +1391,7 @@ iii
 var
 matchStr
 =
-SubstringKernel
+Substring
 (
 S
 position
