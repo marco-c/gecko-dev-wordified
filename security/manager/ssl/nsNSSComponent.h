@@ -773,9 +773,8 @@ dispatches
 events
 to
 the
-background
-task
-queue
+socket
+thread
 .
 Each
 of
@@ -812,12 +811,6 @@ is
 /
 minutes
 .
-nsCOMPtr
-<
-nsISerialEventTarget
->
-mIntermediatePreloadingHealerTaskQueue
-;
 nsCOMPtr
 <
 nsITimer
