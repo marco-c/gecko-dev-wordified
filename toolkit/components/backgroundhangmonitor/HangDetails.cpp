@@ -252,9 +252,6 @@ Try
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 shared
@@ -263,8 +260,6 @@ libraries
 .
 h
 "
-#
-endif
 static
 const
 char

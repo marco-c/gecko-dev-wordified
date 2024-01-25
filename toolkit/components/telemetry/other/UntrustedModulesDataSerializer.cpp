@@ -199,12 +199,6 @@ nsXULAppAPI
 h
 "
 #
-if
-defined
-(
-MOZ_GECKO_PROFILER
-)
-#
 include
 "
 shared
@@ -213,11 +207,6 @@ libraries
 .
 h
 "
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 namespace
 mozilla
 {

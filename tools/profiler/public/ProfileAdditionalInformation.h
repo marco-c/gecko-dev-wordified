@@ -165,9 +165,6 @@ ProfileAdditionalInformation_h
 define
 ProfileAdditionalInformation_h
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 shared
@@ -176,8 +173,6 @@ libraries
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -242,9 +237,6 @@ buffer
 struct
 ProfileGenerationAdditionalInformation
 {
-#
-ifdef
-MOZ_GECKO_PROFILER
 ProfileGenerationAdditionalInformation
 (
 )
@@ -335,11 +327,6 @@ const
 SharedLibraryInfo
 mSharedLibraries
 ;
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
 }
 ;
 struct
@@ -409,9 +396,6 @@ Length
 (
 )
 ;
-#
-ifdef
-MOZ_GECKO_PROFILER
 if
 (
 mAdditionalInformation
@@ -432,8 +416,6 @@ SizeOf
 )
 ;
 }
-#
-endif
 return
 size
 ;
