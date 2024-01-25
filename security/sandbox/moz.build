@@ -105,7 +105,7 @@ CONFIG
 -
 DIRS
 .
-ini
+toml
 "
 "
 test
@@ -116,7 +116,7 @@ CONFIG
 -
 HOME
 .
-ini
+toml
 "
 "
 test

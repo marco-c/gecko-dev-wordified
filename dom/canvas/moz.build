@@ -350,7 +350,7 @@ generated
 -
 mochitest
 .
-ini
+toml
 "
 "
 test

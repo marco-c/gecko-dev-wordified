@@ -803,7 +803,7 @@ xpcshell
 -
 serviceworker
 .
-ini
+toml
 "
 ]
 MOCHITEST_MANIFESTS
@@ -819,7 +819,7 @@ mochitest
 -
 serviceworker
 .
-ini
+toml
 "
 ]
 SPHINX_TREES

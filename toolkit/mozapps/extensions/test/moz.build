@@ -151,7 +151,7 @@ xpcshell
 -
 unpack
 .
-ini
+toml
 "
 "
 xpcshell

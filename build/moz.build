@@ -270,7 +270,7 @@ mozconfig
 /
 python
 .
-ini
+toml
 "
 ]
 if
