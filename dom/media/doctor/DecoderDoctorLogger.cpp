@@ -156,6 +156,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -332,7 +341,7 @@ ShutdownLogging
 }
 ;
 static
-UniquePtr
+StaticAutoPtr
 <
 DDLogShutdowner
 >
@@ -387,7 +396,7 @@ nullptr
 }
 ;
 static
-UniquePtr
+StaticAutoPtr
 <
 DDLogDeleter
 >
@@ -884,10 +893,8 @@ setup
 {
 sDDLogShutdowner
 =
-MakeUnique
-<
+new
 DDLogShutdowner
->
 (
 )
 ;
@@ -903,10 +910,8 @@ XPCOMShutdown
 ;
 sDDLogDeleter
 =
-MakeUnique
-<
+new
 DDLogDeleter
->
 (
 )
 ;
