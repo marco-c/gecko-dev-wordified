@@ -46770,7 +46770,8 @@ cx
 "
 evalStencil
 :
-Object
+Stencil
+object
 expected
 "
 )
@@ -46823,6 +46824,7 @@ cx
 evalStencil
 :
 Stencil
+object
 expected
 "
 )
@@ -47781,12 +47783,15 @@ cx
 "
 evalStencilXDR
 :
-stencil
+Stencil
 XDR
 object
 expected
 "
 )
+;
+return
+false
 ;
 }
 Rooted
@@ -47826,7 +47831,7 @@ cx
 "
 evalStencilXDR
 :
-stencil
+Stencil
 XDR
 object
 expected
