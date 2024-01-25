@@ -3205,6 +3205,8 @@ c_int
 ;
 /
 /
+FIXME
+:
 This
 is
 not
@@ -3228,8 +3230,7 @@ pass
 for
 getrandom
 and
-libstd
-FIXME
+std
 pub
 const
 RTLD_DEFAULT
