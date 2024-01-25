@@ -3214,6 +3214,11 @@ a
 power
 of
 2
+and
+next
+item
+is
+zero
 .
 if
 (
@@ -3225,6 +3230,14 @@ IsPowerOfTwo
 (
 i
 )
+|
+|
+lanes
+[
+i
+]
+<
+16
 )
 {
 return
