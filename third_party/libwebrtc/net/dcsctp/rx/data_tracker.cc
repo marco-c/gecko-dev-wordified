@@ -1860,7 +1860,7 @@ return
 is_duplicate
 ;
 }
-void
+bool
 DataTracker
 :
 :
@@ -2066,6 +2066,7 @@ behind
 )
 ;
 return
+false
 ;
 }
 /
@@ -2418,6 +2419,9 @@ delayed
 )
 ;
 }
+return
+true
+;
 }
 SackChunk
 DataTracker
