@@ -26,7 +26,7 @@ func
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -73,7 +73,7 @@ func
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -286,7 +286,7 @@ type
 )
 (
 table
-funcref
+anyfunc
 (
 elem
 const
@@ -417,7 +417,7 @@ const
 )
 (
 table
-funcref
+anyfunc
 (
 elem
 id
@@ -562,7 +562,7 @@ const
 )
 (
 table
-funcref
+anyfunc
 (
 elem
 second
@@ -766,7 +766,7 @@ const
 )
 (
 table
-funcref
+anyfunc
 (
 elem
 id
@@ -932,7 +932,7 @@ const
 )
 (
 table
-funcref
+anyfunc
 (
 elem
 fac
@@ -1108,7 +1108,7 @@ const
 )
 (
 table
-funcref
+anyfunc
 (
 elem
 even
@@ -1169,7 +1169,7 @@ func
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1222,7 +1222,7 @@ func
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1287,7 +1287,7 @@ i64
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1348,7 +1348,7 @@ i64
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1411,7 +1411,7 @@ i32
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1464,7 +1464,7 @@ i32
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1516,7 +1516,7 @@ i32
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1573,7 +1573,7 @@ i32
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1636,7 +1636,7 @@ i32
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1700,7 +1700,7 @@ i32
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1764,7 +1764,7 @@ f64
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1833,7 +1833,7 @@ i32
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1891,7 +1891,7 @@ module
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func
@@ -1929,7 +1929,7 @@ module
 (
 table
 0
-funcref
+anyfunc
 )
 (
 func

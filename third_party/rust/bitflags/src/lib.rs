@@ -160,7 +160,7 @@ version
 .
 4
 .
-1
+0
 "
 #
 #
@@ -2728,10 +2728,6 @@ clippy
 :
 :
 same_name_method
-clippy
-:
-:
-iter_without_into_iter
 )
 ]
 const
@@ -2974,10 +2970,6 @@ clippy
 :
 :
 assign_op_pattern
-clippy
-:
-:
-iter_without_into_iter
 )
 ]
 const

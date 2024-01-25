@@ -589,9 +589,9 @@ observe
 /
 /
 if
-extern
+any
 .
-convert_any
+convert_extern
 is
 used
 .

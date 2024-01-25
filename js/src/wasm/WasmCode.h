@@ -2117,9 +2117,6 @@ nameCustomSectionIndex
 BuiltinModuleIds
 builtinModules
 ;
-FeatureUsage
-featureUsage
-;
 bool
 filenameIsURL
 ;
@@ -2145,7 +2142,6 @@ instanceDataLength
 startFuncIndex
 nameCustomSectionIndex
 builtinModules
-featureUsage
 filenameIsURL
 typeDefsOffsetStart
 memoriesOffsetStart
@@ -2166,13 +2162,6 @@ kind
 instanceDataLength
 (
 0
-)
-featureUsage
-(
-FeatureUsage
-:
-:
-None
 )
 filenameIsURL
 (

@@ -1108,6 +1108,7 @@ testFunc
 {
 testFuncTypeInline
 }
+(
 try
 (
 result
@@ -1118,6 +1119,8 @@ resultTypes
 v128Type
 }
 )
+(
+do
 ;
 ;
 Locals
@@ -1278,6 +1281,7 @@ wrongValues
 {
 localsGet
 }
+)
 ;
 ;
 End
@@ -1288,6 +1292,7 @@ code
 ;
 ;
 |
+(
 catch
 emptyExn
 ;
@@ -1302,9 +1307,11 @@ wrongValues
 {
 localsGet
 }
+)
 ;
 ;
 |
+(
 catch
 exn
 ;
@@ -1365,6 +1372,8 @@ exn
 {
 localsGet
 }
+)
+(
 catch_all
 {
 wrongValues
@@ -1372,7 +1381,8 @@ wrongValues
 {
 localsGet
 }
-end
+)
+)
 ;
 ;
 Check
@@ -1688,6 +1698,7 @@ result
 type
 }
 )
+(
 try
 (
 result
@@ -1695,6 +1706,8 @@ result
 type
 }
 )
+(
+do
 (
 global
 .
@@ -1737,6 +1750,8 @@ global
 get
 0
 )
+)
+(
 catch
 notThrownExn
 (
@@ -1749,6 +1764,8 @@ const
 wrongValue
 }
 )
+)
+(
 catch
 exn
 (
@@ -1757,7 +1774,8 @@ global
 get
 0
 )
-end
+)
+)
 )
 )
 {

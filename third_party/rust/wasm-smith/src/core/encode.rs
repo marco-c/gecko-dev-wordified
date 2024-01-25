@@ -1347,6 +1347,8 @@ self
 config
 .
 bulk_memory_enabled
+(
+)
 {
 return
 ;

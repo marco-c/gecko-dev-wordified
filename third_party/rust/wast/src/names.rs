@@ -512,12 +512,9 @@ format
 "
 duplicate
 identifier
-:
-duplicate
 {
-desc
 }
-named
+for
 {
 }
 "
@@ -526,6 +523,7 @@ name
 name
 (
 )
+desc
 )
 )
 )

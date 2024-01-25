@@ -317,11 +317,14 @@ testFunc
 result
 i32
 )
+(
 try
 (
 result
 i32
 )
+(
+do
 {
 callInstruction
 }
@@ -348,8 +351,12 @@ call
 throwsLocalExn
 )
 unreachable
+)
+(
 catch
 localExn
+)
+(
 catch
 exn
 (
@@ -363,6 +370,8 @@ const
 0
 )
 )
+)
+(
 catch
 exn
 ;
@@ -373,7 +382,8 @@ be
 ignored
 .
 unreachable
-end
+)
+)
 )
 )
 {
