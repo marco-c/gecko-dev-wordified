@@ -173,7 +173,7 @@ std
 :
 :
 string
-TakeToken
+GetToken
 (
 DesktopCapturer
 :
