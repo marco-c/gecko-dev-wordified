@@ -401,6 +401,15 @@ aIsErrorEvent
 )
 ;
 void
+CSPViolationPropagationOnMainThread
+(
+const
+nsAString
+&
+aJSON
+)
+;
+void
 NotifyLock
 (
 bool
