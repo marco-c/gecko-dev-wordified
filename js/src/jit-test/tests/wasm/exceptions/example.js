@@ -94,7 +94,6 @@ local
 get
 arg
 )
-(
 try
 (
 param
@@ -104,8 +103,6 @@ i32
 result
 f64
 )
-(
-do
 (
 if
 (
@@ -150,7 +147,6 @@ const
 2
 )
 )
-)
 ;
 ;
 If
@@ -180,7 +176,6 @@ exn
 caught
 below
 .
-(
 catch
 exn
 (
@@ -192,7 +187,6 @@ f64
 .
 const
 4
-)
 )
 )
 ;
@@ -209,7 +203,6 @@ exn
 6
 )
 .
-(
 catch_all
 ;
 ;
@@ -225,8 +218,7 @@ f64
 const
 5
 )
-)
-)
+end
 )
 )
 )

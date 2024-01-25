@@ -158,7 +158,7 @@ memory
 table
 2
 2
-anyfunc
+funcref
 )
 (
 elem
