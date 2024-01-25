@@ -2138,6 +2138,12 @@ GetFrame
 (
 &
 frame
+capture_source_
+-
+>
+ShouldBeCapturable
+(
+)
 )
 )
 {
