@@ -24443,9 +24443,6 @@ name
 "
 WakeLock
 "
-nightly
-:
-true
 }
 /
 /
@@ -24469,9 +24466,6 @@ name
 "
 WakeLockSentinel
 "
-nightly
-:
-true
 }
 /
 /
