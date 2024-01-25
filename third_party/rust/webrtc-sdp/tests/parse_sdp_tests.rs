@@ -3185,7 +3185,6 @@ is_some
 assert
 !
 (
-!
 msection
 .
 get_attribute
@@ -3202,7 +3201,7 @@ SdpAttributeType
 Extmap
 )
 .
-is_some
+is_none
 (
 )
 )
@@ -3331,7 +3330,6 @@ is_some
 assert
 !
 (
-!
 msection
 .
 get_attribute
@@ -3348,7 +3346,7 @@ SdpAttributeType
 Msid
 )
 .
-is_some
+is_none
 (
 )
 )
@@ -4011,7 +4009,6 @@ is_some
 assert
 !
 (
-!
 msection
 .
 get_attribute
@@ -4028,7 +4025,7 @@ SdpAttributeType
 Extmap
 )
 .
-is_some
+is_none
 (
 )
 )
@@ -4132,7 +4129,6 @@ is_some
 assert
 !
 (
-!
 msection
 .
 get_attribute
@@ -4149,7 +4145,7 @@ SdpAttributeType
 Msid
 )
 .
-is_some
+is_none
 (
 )
 )
@@ -4157,7 +4153,6 @@ is_some
 assert
 !
 (
-!
 msection
 .
 get_attribute
@@ -4174,7 +4169,7 @@ SdpAttributeType
 Rtcpfb
 )
 .
-is_some
+is_none
 (
 )
 )
@@ -4182,7 +4177,6 @@ is_some
 assert
 !
 (
-!
 msection
 .
 get_attribute
@@ -4199,7 +4193,7 @@ SdpAttributeType
 RtcpMux
 )
 .
-is_some
+is_none
 (
 )
 )
@@ -4207,7 +4201,6 @@ is_some
 assert
 !
 (
-!
 msection
 .
 get_attribute
@@ -4224,7 +4217,7 @@ SdpAttributeType
 Rtpmap
 )
 .
-is_some
+is_none
 (
 )
 )
