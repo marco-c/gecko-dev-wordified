@@ -2042,14 +2042,7 @@ stats
 Corner
 case
 for
-field_trials
-=
-WebRTC
--
-QuickPerfTest
-/
-Enabled
-/
+webrtc_quick_perf_test
 SendTask
 (
 task_queue_
