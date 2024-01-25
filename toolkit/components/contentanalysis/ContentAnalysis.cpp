@@ -1487,7 +1487,9 @@ bytesRead
 )
 {
 return
-NS_ERROR_DOM_FILE_NOT_READABLE_ERR
+NS_ErrorAccordingToNSPR
+(
+)
 ;
 }
 digest

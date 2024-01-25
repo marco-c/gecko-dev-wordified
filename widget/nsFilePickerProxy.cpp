@@ -170,6 +170,17 @@ mozilla
 /
 dom
 /
+BrowsingContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 IPCBlobUtils
 .
 h
@@ -235,6 +246,9 @@ nsIFilePicker
 :
 Mode
 aMode
+BrowsingContext
+*
+aBrowsingContext
 )
 {
 BrowserChild
