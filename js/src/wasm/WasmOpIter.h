@@ -3184,9 +3184,9 @@ inline
 bool
 checkIsSubtypeOf
 (
-FieldType
+StorageType
 actual
-FieldType
+StorageType
 expected
 )
 ;
@@ -3208,7 +3208,7 @@ ValType
 actual
 )
 .
-fieldType
+storageType
 (
 )
 ValType
@@ -3216,7 +3216,7 @@ ValType
 expected
 )
 .
-fieldType
+storageType
 (
 )
 )
@@ -3237,12 +3237,12 @@ checkIsSubtypeOf
 (
 actual
 .
-fieldType
+storageType
 (
 )
 expected
 .
-fieldType
+storageType
 (
 )
 )
@@ -6553,9 +6553,9 @@ Policy
 :
 checkIsSubtypeOf
 (
-FieldType
+StorageType
 subType
-FieldType
+StorageType
 superType
 )
 {
@@ -21762,8 +21762,8 @@ return
 false
 ;
 }
-FieldType
-fieldType
+StorageType
+StorageType
 =
 structType
 .
@@ -21777,7 +21777,7 @@ type
 ;
 if
 (
-fieldType
+StorageType
 .
 isValType
 (
@@ -21812,7 +21812,7 @@ type
 if
 (
 !
-fieldType
+StorageType
 .
 isValType
 (
@@ -21846,7 +21846,7 @@ type
 return
 push
 (
-fieldType
+StorageType
 .
 widenToValType
 (
@@ -22612,7 +22612,7 @@ arrayType
 (
 )
 ;
-FieldType
+StorageType
 elemType
 =
 arrayType
@@ -22872,7 +22872,7 @@ arrayType
 (
 )
 ;
-FieldType
+StorageType
 dstElemType
 =
 arrayType
@@ -23150,7 +23150,7 @@ arrayType
 (
 )
 ;
-FieldType
+StorageType
 elemType
 =
 arrayType
@@ -23455,7 +23455,7 @@ arrayType
 (
 )
 ;
-FieldType
+StorageType
 dstElemType
 =
 arrayType
@@ -23782,8 +23782,8 @@ return
 false
 ;
 }
-FieldType
-fieldType
+StorageType
+elementType
 =
 arrayType
 .
@@ -23791,7 +23791,7 @@ elementType_
 ;
 if
 (
-fieldType
+elementType
 .
 isValType
 (
@@ -23826,7 +23826,7 @@ type
 if
 (
 !
-fieldType
+elementType
 .
 isValType
 (
@@ -23860,7 +23860,7 @@ type
 return
 push
 (
-fieldType
+elementType
 .
 widenToValType
 (
@@ -24295,14 +24295,14 @@ arrayType
 (
 )
 ;
-FieldType
+StorageType
 dstElemType
 =
 dstArrayType
 .
 elementType_
 ;
-FieldType
+StorageType
 srcElemType
 =
 srcArrayType

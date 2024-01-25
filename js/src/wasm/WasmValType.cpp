@@ -2474,7 +2474,7 @@ ToString
 (
 type
 .
-fieldType
+storageType
 (
 )
 types
@@ -2487,7 +2487,7 @@ wasm
 :
 ToString
 (
-FieldType
+StorageType
 type
 const
 TypeContext
@@ -2512,7 +2512,7 @@ kind
 )
 {
 case
-FieldType
+StorageType
 :
 :
 I8
@@ -2526,7 +2526,7 @@ i8
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 I16
@@ -2540,7 +2540,7 @@ i16
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 I32
@@ -2554,7 +2554,7 @@ i32
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 I64
@@ -2568,7 +2568,7 @@ i64
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 V128
@@ -2582,7 +2582,7 @@ v128
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 F32
@@ -2596,7 +2596,7 @@ f32
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 F64
@@ -2610,7 +2610,7 @@ f64
 break
 ;
 case
-FieldType
+StorageType
 :
 :
 Ref

@@ -3439,7 +3439,7 @@ const
 void
 *
 src
-FieldType
+StorageType
 type
 MutableHandleValue
 dst
@@ -3463,7 +3463,7 @@ extern
 bool
 ToJSValueMayGC
 (
-FieldType
+StorageType
 type
 )
 ;

@@ -3725,7 +3725,7 @@ nodiscard
 ]
 ]
 bool
-readFieldType
+readStorageType
 (
 const
 TypeContext
@@ -3735,7 +3735,7 @@ const
 FeatureArgs
 &
 features
-FieldType
+StorageType
 *
 type
 )
@@ -5339,7 +5339,7 @@ bool
 Decoder
 :
 :
-readFieldType
+readStorageType
 (
 const
 TypeContext
@@ -5349,7 +5349,7 @@ const
 FeatureArgs
 &
 features
-FieldType
+StorageType
 *
 type
 )
@@ -5357,7 +5357,7 @@ type
 return
 readPackedType
 <
-FieldType
+StorageType
 >
 (
 types

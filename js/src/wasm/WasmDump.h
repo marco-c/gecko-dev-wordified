@@ -242,7 +242,7 @@ extern
 void
 Dump
 (
-FieldType
+StorageType
 type
 )
 ;
@@ -250,7 +250,7 @@ extern
 void
 Dump
 (
-FieldType
+StorageType
 type
 GenericPrinter
 &

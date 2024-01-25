@@ -14430,7 +14430,7 @@ type
 elementType_
 !
 =
-FieldType
+StorageType
 :
 :
 I16

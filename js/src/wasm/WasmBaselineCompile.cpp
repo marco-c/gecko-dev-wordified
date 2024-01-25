@@ -44410,7 +44410,7 @@ BaseCompiler
 :
 emitGcGet
 (
-FieldType
+StorageType
 type
 FieldWideningOp
 wideningOp
@@ -44430,7 +44430,7 @@ kind
 )
 {
 case
-FieldType
+StorageType
 :
 :
 I8
@@ -44514,7 +44514,7 @@ break
 ;
 }
 case
-FieldType
+StorageType
 :
 :
 I16
@@ -44598,7 +44598,7 @@ break
 ;
 }
 case
-FieldType
+StorageType
 :
 :
 I32
@@ -44655,7 +44655,7 @@ break
 ;
 }
 case
-FieldType
+StorageType
 :
 :
 I64
@@ -44760,7 +44760,7 @@ break
 ;
 }
 case
-FieldType
+StorageType
 :
 :
 F32
@@ -44817,7 +44817,7 @@ break
 ;
 }
 case
-FieldType
+StorageType
 :
 :
 F64
@@ -44877,7 +44877,7 @@ break
 ifdef
 ENABLE_WASM_SIMD
 case
-FieldType
+StorageType
 :
 :
 V128
@@ -44936,7 +44936,7 @@ break
 #
 endif
 case
-FieldType
+StorageType
 :
 :
 Ref
@@ -45023,7 +45023,7 @@ const
 T
 &
 dst
-FieldType
+StorageType
 type
 AnyReg
 value
@@ -45039,7 +45039,7 @@ kind
 )
 {
 case
-FieldType
+StorageType
 :
 :
 I8
@@ -45077,7 +45077,7 @@ break
 ;
 }
 case
-FieldType
+StorageType
 :
 :
 I16
@@ -45115,7 +45115,7 @@ break
 ;
 }
 case
-FieldType
+StorageType
 :
 :
 I32
@@ -45153,7 +45153,7 @@ break
 ;
 }
 case
-FieldType
+StorageType
 :
 :
 I64
@@ -45243,7 +45243,7 @@ break
 ;
 }
 case
-FieldType
+StorageType
 :
 :
 F32
@@ -45281,7 +45281,7 @@ break
 ;
 }
 case
-FieldType
+StorageType
 :
 :
 F64
@@ -45322,7 +45322,7 @@ break
 ifdef
 ENABLE_WASM_SIMD
 case
-FieldType
+StorageType
 :
 :
 V128
@@ -45393,8 +45393,8 @@ RegPtr
 areaBase
 uint32_t
 areaOffset
-FieldType
-fieldType
+StorageType
+type
 AnyReg
 value
 PreBarrierKind
@@ -45414,7 +45414,7 @@ scalar
 if
 (
 !
-fieldType
+type
 .
 isRefRepr
 (
@@ -45432,7 +45432,7 @@ Address
 areaBase
 areaOffset
 )
-fieldType
+type
 value
 )
 ;
@@ -46712,8 +46712,8 @@ fields_
 fieldIndex
 ]
 ;
-FieldType
-fieldType
+StorageType
+type
 =
 field
 .
@@ -46737,7 +46737,7 @@ WasmStructObject
 :
 fieldOffsetToAreaAndOffset
 (
-fieldType
+type
 fieldOffset
 &
 areaIsOutline
@@ -46761,7 +46761,7 @@ this
 store
 if
 (
-fieldType
+type
 .
 isRefRepr
 (
@@ -46800,7 +46800,7 @@ the
 value
 if
 (
-fieldType
+type
 .
 isRefRepr
 (
@@ -46870,7 +46870,7 @@ NoNullCheck
 object
 outlineBase
 areaOffset
-fieldType
+type
 value
 PreBarrierKind
 :
@@ -46919,7 +46919,7 @@ offsetOfInlineData
 )
 +
 areaOffset
-fieldType
+type
 value
 PreBarrierKind
 :
@@ -47124,7 +47124,7 @@ and
 at
 what
 offset
-FieldType
+StorageType
 fieldType
 =
 structType
@@ -47377,7 +47377,7 @@ and
 at
 what
 offset
-FieldType
+StorageType
 fieldType
 =
 structType
@@ -49939,8 +49939,8 @@ arrayType
 (
 )
 ;
-FieldType
-fieldType
+StorageType
+elementType
 =
 arrayType
 .
@@ -50518,7 +50518,7 @@ function
 .
 if
 (
-fieldType
+elementType
 .
 isRefRepr
 (
@@ -51436,7 +51436,7 @@ all
 registers
 if
 (
-fieldType
+elementType
 .
 isRefRepr
 (

@@ -14975,7 +14975,7 @@ NullCheckPolicy
 void
 emitGcGet
 (
-FieldType
+StorageType
 type
 FieldWideningOp
 wideningOp
@@ -14999,7 +14999,7 @@ const
 T
 &
 dst
-FieldType
+StorageType
 type
 AnyReg
 value
@@ -15176,8 +15176,8 @@ RegPtr
 areaBase
 uint32_t
 areaOffset
-FieldType
-fieldType
+StorageType
+type
 AnyReg
 value
 PreBarrierKind

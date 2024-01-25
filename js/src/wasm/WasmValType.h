@@ -3190,7 +3190,7 @@ ptc_
 }
 ;
 class
-FieldTypeTraits
+StorageTypeTraits
 {
 public
 :
@@ -3867,7 +3867,7 @@ ValType
 and
 /
 /
-FieldType
+StorageType
 .
 template
 <
@@ -5528,9 +5528,9 @@ true
 }
 PackedType
 <
-FieldTypeTraits
+StorageTypeTraits
 >
-fieldType
+storageType
 (
 )
 const
@@ -5545,7 +5545,7 @@ isValid
 return
 PackedType
 <
-FieldTypeTraits
+StorageTypeTraits
 >
 (
 tc_
@@ -5775,11 +5775,11 @@ ValTypeTraits
 >
 ;
 using
-FieldType
+StorageType
 =
 PackedType
 <
-FieldTypeTraits
+StorageTypeTraits
 >
 ;
 /
@@ -5893,7 +5893,7 @@ extern
 UniqueChars
 ToString
 (
-FieldType
+StorageType
 type
 const
 TypeContext

@@ -3407,7 +3407,7 @@ CoderMode
 mode
 >
 CoderResult
-CodeFieldType
+CodeStorageType
 (
 Coder
 <
@@ -3418,7 +3418,7 @@ coder
 CoderArg
 <
 mode
-FieldType
+StorageType
 >
 item
 )
@@ -3782,7 +3782,7 @@ item
 {
 MOZ_TRY
 (
-CodeFieldType
+CodeStorageType
 (
 coder
 &
@@ -3949,7 +3949,7 @@ ArrayType
 ;
 MOZ_TRY
 (
-CodeFieldType
+CodeStorageType
 (
 coder
 &

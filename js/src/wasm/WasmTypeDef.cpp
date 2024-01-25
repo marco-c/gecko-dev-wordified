@@ -2158,7 +2158,7 @@ StructLayout
 :
 addField
 (
-FieldType
+StorageType
 type
 )
 {
