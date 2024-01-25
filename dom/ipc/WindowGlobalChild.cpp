@@ -4240,7 +4240,10 @@ aDocumentURI
 ;
 SendUpdateDocumentURI
 (
+WrapNotNull
+(
 aDocumentURI
+)
 )
 ;
 }

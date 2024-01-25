@@ -1459,8 +1459,11 @@ ipc
 IPCResult
 RecvUpdateDocumentURI
 (
+NotNull
+<
 nsIURI
 *
+>
 aURI
 )
 ;
@@ -1948,8 +1951,11 @@ ipc
 IPCResult
 RecvSetDocumentDomain
 (
+NotNull
+<
 nsIURI
 *
+>
 aDomain
 )
 ;

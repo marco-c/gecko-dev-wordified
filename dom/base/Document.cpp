@@ -54733,7 +54733,10 @@ wgc
 >
 SendSetDocumentDomain
 (
+WrapNotNull
+(
 newURI
+)
 )
 ;
 }
