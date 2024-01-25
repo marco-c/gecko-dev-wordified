@@ -5420,12 +5420,7 @@ PresShell
 *
 presShell
 =
-PresContext
-(
-)
--
->
-GetPresShell
+PresShell
 (
 )
 ;

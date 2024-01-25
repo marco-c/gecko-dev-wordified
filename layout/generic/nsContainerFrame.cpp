@@ -1965,14 +1965,6 @@ delete
 the
 lists
 .
-nsPresContext
-*
-pc
-=
-PresContext
-(
-)
-;
 mozilla
 :
 :
@@ -1980,9 +1972,6 @@ PresShell
 *
 presShell
 =
-pc
--
->
 PresShell
 (
 )

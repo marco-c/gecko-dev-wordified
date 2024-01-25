@@ -9094,11 +9094,6 @@ PresShell
 *
 presShell
 =
-PresContext
-(
-)
--
->
 PresShell
 (
 )
