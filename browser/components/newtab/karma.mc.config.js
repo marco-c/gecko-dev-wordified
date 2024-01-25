@@ -752,7 +752,9 @@ branches
 *
 TelemetryFeed
 .
-jsm
+sys
+.
+mjs
 is
 tested
 via
@@ -766,7 +768,9 @@ lib
 /
 TelemetryFeed
 .
-jsm
+sys
+.
+mjs
 "
 :
 {
