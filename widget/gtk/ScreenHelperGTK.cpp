@@ -223,6 +223,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WidgetUtilsGtk
 .
 h
@@ -665,7 +674,7 @@ nullptr
 ;
 }
 static
-UniquePtr
+StaticAutoPtr
 <
 ScreenGetterGtk
 >
@@ -1746,10 +1755,8 @@ ScreenHelperGTK
 {
 gScreenGetter
 =
-MakeUnique
-<
+new
 ScreenGetterGtk
->
 (
 )
 ;
