@@ -398,12 +398,6 @@ privateBrowsing
 False
         
 "
-win10_2004
-"
-:
-False
-        
-"
 win11_2009
 "
 :
@@ -758,12 +752,6 @@ privateBrowsing
 False
         
 "
-win10_2004
-"
-:
-False
-        
-"
 win11_2009
 "
 :
@@ -1110,12 +1098,6 @@ False
         
 "
 privateBrowsing
-"
-:
-False
-        
-"
-win10_2004
 "
 :
 False
