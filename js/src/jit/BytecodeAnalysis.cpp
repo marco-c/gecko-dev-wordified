@@ -1710,6 +1710,12 @@ JSOp
 :
 Exception
 :
+case
+JSOp
+:
+:
+ExceptionAndStack
+:
 /
 /
 Sanity
