@@ -680,6 +680,7 @@ true
 ;
 class
 NotifyRunnable
+final
 :
 public
 WorkerRunnable
@@ -725,6 +726,9 @@ aDHCPGateway
 WorkerRunnable
 (
 aWorkerPrivate
+"
+NotifyRunnable
+"
 )
 mProxy
 (

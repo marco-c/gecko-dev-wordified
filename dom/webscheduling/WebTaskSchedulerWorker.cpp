@@ -165,6 +165,9 @@ aSchedulerWorker
 WorkerSameThreadRunnable
 (
 aWorkerPrivate
+"
+WebTaskWorkerRunnable
+"
 )
 mSchedulerWorker
 (
