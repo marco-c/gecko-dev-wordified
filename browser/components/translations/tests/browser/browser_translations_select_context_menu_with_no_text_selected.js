@@ -139,6 +139,8 @@ runInPage
 )
 ;
 await
+SelectTranslationsTestUtils
+.
 assertContextMenuTranslateSelectionItem
 (
 runInPage

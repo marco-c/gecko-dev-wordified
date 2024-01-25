@@ -182,6 +182,8 @@ runInPage
 )
 ;
 await
+SelectTranslationsTestUtils
+.
 assertContextMenuTranslateSelectionItem
 (
 runInPage
@@ -365,6 +367,8 @@ available
 )
 ;
 await
+SelectTranslationsTestUtils
+.
 assertContextMenuTranslateSelectionItem
 (
 runInPage
