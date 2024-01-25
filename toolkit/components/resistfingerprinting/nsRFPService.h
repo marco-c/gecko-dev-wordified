@@ -3661,6 +3661,15 @@ OriginAttributesPattern
 aPattern
 )
 ;
+void
+ClearBrowsingSessionKey
+(
+const
+OriginAttributes
+&
+aOriginAttributes
+)
+;
 /
 /
 The
