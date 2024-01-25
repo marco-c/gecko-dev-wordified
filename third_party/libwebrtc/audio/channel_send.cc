@@ -2689,10 +2689,9 @@ get
 ;
 if
 (
-!
 field_trials
 .
-IsEnabled
+IsDisabled
 (
 "
 WebRTC

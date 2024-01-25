@@ -1571,10 +1571,9 @@ event_log
 ;
 if
 (
-!
 trials
 .
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
