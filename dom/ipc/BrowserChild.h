@@ -4197,12 +4197,6 @@ mEffectsInfo
 ;
 RefPtr
 <
-VsyncMainChild
->
-mVsyncChild
-;
-RefPtr
-<
 APZEventState
 >
 mAPZEventState
