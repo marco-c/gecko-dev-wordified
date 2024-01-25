@@ -104,9 +104,11 @@ h
 #
 include
 "
-api
+modules
 /
-audio
+audio_processing
+/
+test
 /
 echo_canceller3_config_json
 .
