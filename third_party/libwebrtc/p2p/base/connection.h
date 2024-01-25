@@ -741,6 +741,17 @@ active
 )
 const
 ;
+bool
+pending_delete
+(
+)
+const
+{
+return
+!
+port_
+;
+}
 /
 /
 A
