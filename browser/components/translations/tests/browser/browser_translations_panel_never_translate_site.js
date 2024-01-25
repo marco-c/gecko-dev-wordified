@@ -141,6 +141,8 @@ visible
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -189,6 +191,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -217,6 +221,8 @@ SPANISH_PAGE_URL_2
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -276,6 +282,8 @@ permissions
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -412,6 +420,8 @@ visible
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -492,6 +502,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -513,6 +525,8 @@ SPANISH_PAGE_URL
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -541,6 +555,8 @@ SPANISH_PAGE_URL_2
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -600,6 +616,8 @@ permissions
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -911,6 +929,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -932,6 +952,8 @@ SPANISH_PAGE_URL
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -960,6 +982,8 @@ SPANISH_PAGE_URL_2
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage

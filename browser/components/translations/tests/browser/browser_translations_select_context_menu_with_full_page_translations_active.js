@@ -173,6 +173,8 @@ available
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -305,6 +307,8 @@ clickRestoreButton
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -501,6 +505,8 @@ available
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -633,6 +639,8 @@ clickRestoreButton
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage

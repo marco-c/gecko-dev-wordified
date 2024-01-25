@@ -138,6 +138,8 @@ visible
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -303,6 +305,8 @@ icon
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -426,6 +430,8 @@ icon
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage

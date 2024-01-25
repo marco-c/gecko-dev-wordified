@@ -95,6 +95,8 @@ available
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage

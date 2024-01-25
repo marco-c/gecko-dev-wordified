@@ -93,6 +93,8 @@ LANGUAGE_PAIRS
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
@@ -411,6 +413,8 @@ true
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage

@@ -945,6 +945,8 @@ clickRestoreButton
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInSpanishPage

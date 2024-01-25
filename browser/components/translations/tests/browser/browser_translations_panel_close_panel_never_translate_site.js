@@ -274,6 +274,8 @@ openTranslationsSettingsMenu
 )
 ;
 await
+FullPageTranslationsTestUtils
+.
 assertPageIsUntranslated
 (
 runInPage
