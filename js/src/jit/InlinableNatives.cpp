@@ -1869,6 +1869,12 @@ case
 InlinableNative
 :
 :
+StringCodePointAt
+:
+case
+InlinableNative
+:
+:
 StringFromCharCode
 :
 case

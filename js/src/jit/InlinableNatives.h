@@ -705,6 +705,11 @@ StringCharCodeAt
 \
 _
 (
+StringCodePointAt
+)
+\
+_
+(
 StringFromCharCode
 )
 \
