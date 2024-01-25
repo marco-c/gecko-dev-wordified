@@ -1075,7 +1075,7 @@ event_log
 :
 network_available_
 (
-true
+false
 )
 enable_periodic_alr_probing_
 (

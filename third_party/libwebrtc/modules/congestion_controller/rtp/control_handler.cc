@@ -229,12 +229,6 @@ IsPacerEmergencyStopDisabled
 )
 )
 {
-sequenced_checker_
-.
-Detach
-(
-)
-;
 }
 CongestionControlHandler
 :
