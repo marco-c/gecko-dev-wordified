@@ -2645,7 +2645,7 @@ not_use_acked_rate_in_alr
 "
 NotUseAckedRateInAlr
 "
-false
+true
 )
 ;
 FieldTrialParameter
