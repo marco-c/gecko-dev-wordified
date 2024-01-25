@@ -2725,14 +2725,6 @@ CurrentState
 2
 )
 ;
-/
-/
-Wait
-for
-addOpenSearchEngine
-(
-)
-.
 let
 engine
 =
