@@ -29993,7 +29993,7 @@ Unit
 withClause
 (
 ListNodeType
-assertionsSet
+attributesSet
 )
 {
 MOZ_ASSERT
@@ -30358,7 +30358,7 @@ handler_
 .
 addList
 (
-assertionsSet
+attributesSet
 importAttributeNode
 )
 ;
