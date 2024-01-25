@@ -9714,9 +9714,9 @@ VR_INTERFACE
 Mozilla
 :
 see
-README
-.
 mozilla
+.
+patch
 for
 more
 details
@@ -16931,9 +16931,9 @@ public
 Mozilla
 :
 see
-README
-.
 mozilla
+.
+patch
 for
 more
 details

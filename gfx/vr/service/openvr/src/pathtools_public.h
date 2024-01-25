@@ -1065,9 +1065,9 @@ pchData
 Mozilla
 :
 see
-README
-.
 mozilla
+.
+patch
 for
 more
 details

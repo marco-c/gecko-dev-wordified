@@ -161,9 +161,9 @@ sSuffix
 Mozilla
 :
 see
-README
-.
 mozilla
+.
+patch
 for
 more
 details
@@ -925,9 +925,9 @@ uint64_t
 Mozilla
 :
 see
-README
-.
 mozilla
+.
+patch
 for
 more
 details

@@ -5559,9 +5559,9 @@ endif
 Mozilla
 :
 see
-README
-.
 mozilla
+.
+patch
 for
 more
 details
@@ -6069,9 +6069,9 @@ pchBuffer
 Mozilla
 :
 see
-README
-.
 mozilla
+.
+patch
 for
 more
 details
