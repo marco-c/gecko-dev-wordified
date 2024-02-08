@@ -55141,7 +55141,7 @@ value
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 {
 return

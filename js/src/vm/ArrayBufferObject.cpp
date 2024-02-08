@@ -1470,7 +1470,7 @@ nbytes
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 )
 {
@@ -10027,7 +10027,7 @@ length
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 setFixedSlot
@@ -10779,7 +10779,7 @@ byteLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 /
@@ -11195,7 +11195,7 @@ byteLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 /
@@ -12568,7 +12568,7 @@ nbytes
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 "
 caller
 must
@@ -12928,7 +12928,7 @@ nbytes
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 "
 caller
 must
@@ -13099,7 +13099,7 @@ maxByteLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 "
 caller
 must
@@ -13315,7 +13315,7 @@ newByteLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 "
 caller
 must
@@ -13831,7 +13831,7 @@ newByteLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 "
 caller
 must
@@ -14299,7 +14299,7 @@ newByteLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 "
 caller
 must

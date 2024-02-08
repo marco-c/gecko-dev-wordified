@@ -827,12 +827,12 @@ array
 static
 constexpr
 size_t
-MaxByteLength
+ByteLengthLimit
 =
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 ;
 static
 bool
