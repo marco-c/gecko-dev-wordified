@@ -3811,7 +3811,7 @@ rawStart
 =
 startTimeStamp
 .
-RawMachAbsoluteTimeValue
+RawMachAbsoluteTimeNanoseconds
 (
 )
 ;
@@ -3820,7 +3820,7 @@ rawEnd
 =
 endTimeStamp
 .
-RawMachAbsoluteTimeValue
+RawMachAbsoluteTimeNanoseconds
 (
 )
 ;
