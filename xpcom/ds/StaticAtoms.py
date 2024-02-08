@@ -23753,10 +23753,10 @@ initialBrowsingContextGroupId
 Atom
 (
 "
-initiallyactive
+manualactiveness
 "
 "
-initiallyactive
+manualactiveness
 "
 )
     

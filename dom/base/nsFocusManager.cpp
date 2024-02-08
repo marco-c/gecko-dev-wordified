@@ -9497,6 +9497,13 @@ CallState
 Continue
 ;
 }
+/
+*
+aIncludeNestedBrowsers
+=
+*
+/
+true
 )
 ;
 }
