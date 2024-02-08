@@ -5541,16 +5541,6 @@ asyncstack_capture_debuggee_only
 "
 )
 )
-.
-setEnableDestructuringFuse
-(
-StaticPrefs
-:
-:
-javascript_options_destructuring_fuse
-(
-)
-)
 ;
 SetPrefableCompileOptions
 (
