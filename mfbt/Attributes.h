@@ -4780,14 +4780,12 @@ considered
 to
 be
 a
-non
--
 temporary
 class
 as
 well
-*
 although
+*
 this
 attribute
 need
