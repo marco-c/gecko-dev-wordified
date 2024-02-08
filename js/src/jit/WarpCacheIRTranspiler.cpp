@@ -2666,11 +2666,11 @@ case
 GuardClassKind
 :
 :
-DataView
+FixedLengthDataView
 :
 return
 &
-DataViewObject
+FixedLengthDataViewObject
 :
 :
 class_
