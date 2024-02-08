@@ -1522,7 +1522,7 @@ server
 :
 Server
 .
-HTTPS_PRIVATE
+HTTPS_PUBLIC
 behavior
 :
 {
