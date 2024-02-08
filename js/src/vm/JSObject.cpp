@@ -4167,6 +4167,11 @@ TypedArrayObject
 length
 (
 )
+.
+valueOr
+(
+0
+)
 >
 0
 )
