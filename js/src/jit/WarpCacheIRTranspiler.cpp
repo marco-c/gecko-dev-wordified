@@ -2653,11 +2653,11 @@ case
 GuardClassKind
 :
 :
-SharedArrayBuffer
+FixedLengthSharedArrayBuffer
 :
 return
 &
-SharedArrayBufferObject
+FixedLengthSharedArrayBufferObject
 :
 :
 class_
