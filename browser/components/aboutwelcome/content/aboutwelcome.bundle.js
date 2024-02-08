@@ -1209,7 +1209,7 @@ import
 *
 /
 var
-_newtab_content_src_asrouter_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_6__
+asrouter_content_src_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_6__
 =
 __webpack_require__
 (
@@ -3744,7 +3744,7 @@ params
 .
 .
 .
-_newtab_content_src_asrouter_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_6__
+asrouter_content_src_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_6__
 .
 BASE_PARAMS
 utm_term
@@ -3818,7 +3818,7 @@ args
 ;
 (
 0
-_newtab_content_src_asrouter_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_6__
+asrouter_content_src_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_6__
 .
 addUtmParams
 )
@@ -19005,7 +19005,7 @@ import
 *
 /
 var
-_newtab_content_src_asrouter_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_3__
+asrouter_content_src_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_3__
 =
 __webpack_require__
 (
@@ -19274,7 +19274,7 @@ params
 .
 .
 .
-_newtab_content_src_asrouter_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_3__
+asrouter_content_src_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_3__
 .
 BASE_PARAMS
 utm_term
