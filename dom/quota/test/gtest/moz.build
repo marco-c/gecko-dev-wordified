@@ -213,6 +213,11 @@ TestStorageConnection
 cpp
 "
 "
+TestStorageOriginAttributes
+.
+cpp
+"
+"
 TestStringifyUtils
 .
 cpp
