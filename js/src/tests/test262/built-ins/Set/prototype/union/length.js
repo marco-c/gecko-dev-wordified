@@ -76,7 +76,6 @@ union
 (
 other
 )
-]
 includes
 :
 [
