@@ -1,3 +1,14 @@
+from
+__future__
+import
+annotations
+from
+typing
+import
+List
+Set
+Tuple
+cast
 import
 logging
 import
@@ -46,17 +57,17 @@ __all__
 =
 [
     
-'
+"
 EmptyLocalizationError
-'
+"
     
-'
+"
 UnreadableReferenceError
-'
+"
     
-'
+"
 MigrationContext
-'
+"
 ]
 class
 MigrationContext
@@ -263,9 +274,19 @@ __init__
 (
         
 self
+        
 locale
+:
+str
+        
 reference_dir
+:
+str
+        
 localization_dir
+:
+str
+        
 enforce_translated
 =
 False
@@ -281,8 +302,6 @@ __init__
 (
             
 locale
-reference_dir
-localization_dir
             
 enforce_translated
 =
@@ -320,7 +339,17 @@ localization_dir
 =
 localization_dir
         
-#
+self
+.
+dependencies
+=
+{
+}
+        
+"
+"
+"
+        
 A
 dict
 whose
@@ -335,7 +364,6 @@ corresponding
 to
 target
         
-#
 FTL
 translations
 and
@@ -349,7 +377,6 @@ key
 )
 tuples
         
-#
 corresponding
 to
 localized
@@ -360,20 +387,34 @@ be
 migrated
 .
         
-self
-.
-dependencies
-=
-{
-}
+"
+"
+"
     
 def
 add_transforms
 (
+        
 self
 target
+:
+str
 reference
+:
+str
 transforms
+:
+List
+[
+FTL
+.
+Message
+|
+FTL
+.
+Term
+]
+    
 )
 :
         
@@ -609,7 +650,6 @@ body
 .
 extend
 (
-                
 skeleton
 (
 transform
@@ -618,7 +658,6 @@ for
 transform
 in
 transforms
-            
 )
         
 else
@@ -650,11 +689,15 @@ transforms
             
 ident
 =
+cast
+(
+str
 node
 .
 id
 .
 name
+)
             
 #
 Scan
@@ -679,12 +722,23 @@ dependencies
             
 dependencies
 =
+cast
+(
+Set
+[
+Tuple
+[
+str
+Source
+]
+]
 fold
 (
 get_sources
 node
 set
 (
+)
 )
 )
             
@@ -780,9 +834,9 @@ logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
                 
 logger
@@ -816,7 +870,9 @@ node
 __name__
 ident
 reference
+                    
 )
+                
 )
         
 #
@@ -973,21 +1029,21 @@ localization_resources
             
 error_message
 =
-'
+"
 No
 localization
 files
 were
 found
-'
+"
             
 logging
 .
 getLogger
 (
-'
+"
 migrate
-'
+"
 )
 .
 error

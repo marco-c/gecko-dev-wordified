@@ -497,9 +497,9 @@ elements
 )
 :
     
-'
-'
-'
+"
+"
+"
 Flatten
 a
 list
@@ -512,9 +512,9 @@ iterator
 over
 PatternElements
 .
-'
-'
-'
+"
+"
+"
     
 for
 element
@@ -583,14 +583,13 @@ else
 raise
 RuntimeError
 (
-                
-'
+"
 Expected
 Pattern
 PatternElement
 or
 Expression
-'
+"
 )
 re_leading_ws
 =
@@ -600,7 +599,7 @@ compile
 (
     
 r
-'
+"
 \
 A
 (
@@ -640,7 +639,7 @@ n
 )
 \
 Z
-'
+"
     
 re
 .
@@ -654,7 +653,7 @@ compile
 (
     
 r
-'
+"
 \
 A
 (
@@ -693,8 +692,7 @@ n
 )
 \
 Z
-'
-    
+"
 re
 .
 S
@@ -707,9 +705,9 @@ element
 )
 :
     
-'
-'
-'
+"
+"
+"
 Extract
 leading
 or
@@ -781,9 +779,9 @@ empty
 StringLiteral
 .
     
-'
-'
-'
+"
+"
+"
     
 match
 =
@@ -830,13 +828,13 @@ match
 .
 group
 (
-'
+"
 whitespace
-'
+"
 )
 or
-'
-'
+"
+"
         
 placeable
 =
@@ -884,18 +882,18 @@ match
 .
 group
 (
-'
+"
 text
-'
+"
 )
 or
 match
 .
 group
 (
-'
+"
 block_text
-'
+"
 )
             
 return
@@ -1065,6 +1063,8 @@ element
 value
             
 elif
+(
+                
 isinstance
 (
 element
@@ -1072,8 +1072,7 @@ FTL
 .
 Placeable
 )
-\
-                    
+                
 and
 isinstance
 (
@@ -1084,23 +1083,24 @@ FTL
 .
 StringLiteral
 )
-\
-                    
+                
 and
 re
 .
 match
 (
 r
-'
+"
 ^
 *
-'
+"
 element
 .
 expression
 .
 value
+)
+            
 )
 :
                 
@@ -1273,8 +1273,8 @@ FTL
 .
 StringLiteral
 (
-'
-'
+"
+"
 )
 )
             
@@ -1389,20 +1389,16 @@ FTL
 Pattern
 (
 [
-            
 element
-            
 for
 element
 in
 normalized
-            
 if
 element
 is
 not
 None
-        
 ]
 )
 class
@@ -1532,10 +1528,10 @@ path
 .
 endswith
 (
-'
+"
 .
 ftl
-'
+"
 )
 :
             
@@ -1543,7 +1539,7 @@ raise
 NotSupportedError
 (
                 
-'
+"
 Please
 use
 COPY
@@ -1552,14 +1548,13 @@ migrate
 from
 legacy
 files
-'
-                
-'
+"
+"
 (
 {
 }
 )
-'
+"
 .
 format
 (
@@ -1575,13 +1570,13 @@ key
 ]
 =
 =
-'
+"
 -
-'
+"
 and
-'
+"
 .
-'
+"
 in
 key
 :
@@ -1590,7 +1585,7 @@ raise
 NotSupportedError
 (
                 
-'
+"
 Cannot
 migrate
 from
@@ -1599,9 +1594,9 @@ Attributes
 as
 they
 are
-'
+"
                 
-'
+"
 locale
 -
 dependent
@@ -1609,7 +1604,7 @@ dependent
 {
 }
 )
-'
+"
 .
 format
 (
@@ -2129,10 +2124,10 @@ path
 .
 endswith
 (
-'
+"
 .
 ftl
-'
+"
 )
 :
             
@@ -2140,7 +2135,7 @@ raise
 NotSupportedError
 (
                 
-'
+"
 Please
 use
 COPY_PATTERN
@@ -2149,19 +2144,20 @@ migrate
 from
 Fluent
 files
-'
+"
                 
-'
+"
 (
 {
 }
 )
-'
+"
 .
 format
 (
 path
 )
+            
 )
         
 super
@@ -2226,16 +2222,16 @@ re
 .
 sub
 (
-'
+"
 ^
 [
 \
 t
 ]
 +
-'
-'
-'
+"
+"
+"
 text
 flags
 =
@@ -2260,15 +2256,15 @@ re
 .
 sub
 (
-'
+"
 [
 \
 t
 ]
 +
-'
-'
-'
+"
+"
+"
 text
 flags
 =
@@ -2291,12 +2287,12 @@ text
 .
 strip
 (
-'
+"
 \
 r
 \
 n
-'
+"
 )
         
 return
@@ -2404,7 +2400,7 @@ compile
 (
     
 r
-'
+"
 %
 (
 ?
@@ -2414,10 +2410,10 @@ good
 >
 %
 |
-'
+"
     
 r
-'
+"
 (
 ?
 :
@@ -2442,10 +2438,10 @@ number
 \
 )
 ?
-'
+"
     
 r
-'
+"
 (
 ?
 P
@@ -2463,10 +2459,10 @@ width
 +
 )
 ?
-'
+"
     
 r
-'
+"
 (
 ?
 P
@@ -2491,10 +2487,10 @@ prec
 ?
 )
 ?
-'
+"
     
 r
-'
+"
 (
 ?
 P
@@ -2506,7 +2502,7 @@ duxXosScpfg
 ]
 )
 )
-'
+"
 )
 def
 number
@@ -2617,21 +2613,21 @@ match
 .
 group
 (
-'
+"
 good
-'
+"
 )
 =
 =
-'
+"
 %
-'
+"
 :
             
 return
-'
+"
 %
-'
+"
         
 hidden
 =
@@ -2639,30 +2635,30 @@ match
 .
 group
 (
-'
+"
 width
-'
+"
 )
 =
 =
-'
+"
 0
-'
+"
         
 if
 match
 .
 group
 (
-'
+"
 number
-'
+"
 )
 :
             
 return
-'
-'
+"
+"
 if
 hidden
 else
@@ -2680,18 +2676,18 @@ next_number
 )
         
 return
-'
-'
+"
+"
 if
 hidden
 else
-'
+"
 %
 {
 }
 {
 }
-'
+"
 .
 format
 (
@@ -2700,9 +2696,9 @@ match
 .
 group
 (
-'
+"
 spec
-'
+"
 )
 )
     
@@ -2988,7 +2984,6 @@ key
 for
 index
 key
-            
 in
 sorted
 (
@@ -3216,7 +3211,6 @@ transform
 def
 __init__
 (
-        
 self
 path
 key
@@ -3224,7 +3218,6 @@ replacements
 *
 *
 kwargs
-    
 )
 :
         
@@ -3259,9 +3252,9 @@ normalize_printf
 False
         
 if
-'
+"
 normalize_printf
-'
+"
 in
 kwargs
 :
@@ -3270,17 +3263,17 @@ normalize_printf
 =
 kwargs
 [
-'
+"
 normalize_printf
-'
+"
 ]
             
 del
 kwargs
 [
-'
+"
 normalize_printf
-'
+"
 ]
         
 elif
@@ -3288,10 +3281,10 @@ path
 .
 endswith
 (
-'
+"
 .
 properties
-'
+"
 )
 :
             
@@ -3351,7 +3344,6 @@ element
 self
 .
 replacements
-            
 normalize_printf
 =
 self
@@ -3466,24 +3458,24 @@ it
 DEFAULT_ORDER
 =
 (
-'
+"
 zero
-'
-'
+"
+"
 one
-'
-'
+"
+"
 two
-'
-'
+"
+"
 few
-'
-'
+"
+"
 many
-'
-'
+"
+"
 other
-'
+"
 )
     
 def
@@ -3498,7 +3490,6 @@ foreach
 Transform
 .
 pattern_of
-                 
 *
 *
 kwargs
@@ -3569,7 +3560,6 @@ plural_categories
 forms
 =
 [
-            
 FTL
 .
 TextElement
@@ -3580,7 +3570,6 @@ strip
 (
 )
 )
-            
 for
 part
 in
@@ -3590,11 +3579,10 @@ value
 .
 split
 (
-'
+"
 ;
-'
+"
 )
-        
 ]
         
 #
@@ -3668,7 +3656,6 @@ variant
 default_key
 =
 [
-            
 key
 for
 key
@@ -3683,7 +3670,6 @@ if
 key
 in
 keys
-        
 ]
 [
 0
@@ -3720,12 +3706,10 @@ forms
 pairs
 =
 [
-            
 (
 key
 var
 )
-            
 for
 key
 var
@@ -3735,12 +3719,10 @@ zip
 keys
 forms
 )
-            
 if
 var
 .
 value
-        
 ]
         
 #
@@ -4001,11 +3983,9 @@ Identifier
 (
 key
 )
-                
 value
 =
 value
-                
 default
 =
 key
@@ -4029,19 +4009,16 @@ selector
 variants
 =
 [
-                
 createVariant
 (
 key
 form
 )
-                
 for
 key
 form
 in
 pairs
-            
 ]
         
 )
@@ -4349,9 +4326,9 @@ kwargs
 .
 get
 (
-'
+"
 elements
-'
+"
 elements
 )
 )
