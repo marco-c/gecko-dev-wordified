@@ -160,10 +160,5 @@ js
 '
 with
 {
-type
-:
-'
-foo
-'
 }
 ;
