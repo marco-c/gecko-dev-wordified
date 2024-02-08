@@ -1162,7 +1162,7 @@ MOZ_ASSERT
 (
 is
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 )
@@ -1175,7 +1175,7 @@ length
 bytesPerElement
 <
 =
-TypedArrayObject
+FixedLengthTypedArrayObject
 :
 :
 INLINE_BUFFER_LIMIT
@@ -1187,7 +1187,7 @@ data
 =
 fixedData
 (
-TypedArrayObject
+FixedLengthTypedArrayObject
 :
 :
 FIXED_DATA_START
@@ -1665,13 +1665,13 @@ view
 >
 is
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 )
 )
 {
-TypedArrayObject
+auto
 *
 ta
 =
@@ -1681,7 +1681,7 @@ view
 >
 as
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 )
