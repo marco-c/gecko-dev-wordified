@@ -278,14 +278,14 @@ outpath
         
 dmg_tool
 =
-Path
+_path_or_none
 (
 dmg_tool
 )
         
 hfs_tool
 =
-Path
+_path_or_none
 (
 hfs_tool
 )
