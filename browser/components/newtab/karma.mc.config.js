@@ -970,7 +970,9 @@ branches
 *
 TopStoresFeed
 .
-jsm
+sys
+.
+mjs
 is
 not
 tested
@@ -991,7 +993,9 @@ lib
 /
 TopStoriesFeed
 .
-jsm
+sys
+.
+mjs
 "
 :
 {
