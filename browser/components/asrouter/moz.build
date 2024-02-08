@@ -247,6 +247,15 @@ sys
 .
 mjs
 "
+"
+modules
+/
+Spotlight
+.
+sys
+.
+mjs
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +
