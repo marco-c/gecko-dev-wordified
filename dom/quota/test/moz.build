@@ -673,6 +673,6 @@ worker
 /
 UtilsChild
 .
-js
+mjs
 "
 ]

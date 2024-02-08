@@ -125,8 +125,9 @@ data
 )
 ;
 }
+export
 const
-_UtilsChild
+UtilsChild
 =
 {
 async
@@ -199,16 +200,3 @@ _recvMessage
 }
 }
 ;
-function
-importUtilsChild
-(
-)
-{
-return
-{
-UtilsChild
-:
-_UtilsChild
-}
-;
-}
