@@ -3347,11 +3347,6 @@ this
 GetGlobal
 (
 )
-mSyncLoopTarget
-.
-get
-(
-)
 )
 ;
 if
