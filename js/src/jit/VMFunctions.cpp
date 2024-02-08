@@ -15689,12 +15689,12 @@ elements
 .
 constexpr
 size_t
-maxByteLength
+byteLengthLimit
 =
 TypedArrayObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 ;
 if
 (
@@ -15709,7 +15709,7 @@ size_t
 count
 )
 >
-maxByteLength
+byteLengthLimit
 /
 obj
 -
@@ -15775,7 +15775,7 @@ MOZ_ASSERT
 nbytes
 <
 =
-maxByteLength
+byteLengthLimit
 )
 ;
 nbytes
