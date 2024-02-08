@@ -5217,7 +5217,6 @@ css_doc
 index
 =
 0
-;
     
 static_asserts
 =
@@ -5288,7 +5287,6 @@ pc
 ;
 "
 )
-;
         
 f
 .
@@ -5351,7 +5349,6 @@ index
 +
 =
 1
-;
     
 for
 pc
@@ -5417,7 +5414,6 @@ pc
 ;
 "
 )
-;
         
 f
 .
@@ -5547,7 +5543,6 @@ pc
 ;
 "
 )
-;
         
 f
 .
@@ -5624,7 +5619,6 @@ write
 n
 "
 )
-;
     
 f
 .
@@ -5640,7 +5634,6 @@ join
 static_asserts
 )
 )
-;
     
 f
 .
@@ -5866,6 +5859,7 @@ static_asserts
 .
 append
 (
+            
 f
 "
 static_assert
@@ -5890,8 +5884,8 @@ dc
 )
 ;
 "
+        
 )
-;
         
 f
 .
@@ -5979,7 +5973,6 @@ write
 n
 "
 )
-;
     
 f
 .
@@ -5995,7 +5988,6 @@ join
 static_asserts
 )
 )
-;
     
 f
 .
