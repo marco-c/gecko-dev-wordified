@@ -778,7 +778,8 @@ true
 function
 addProp
 (
-node
+callNode
+propNode
 name
 )
 {
@@ -801,8 +802,8 @@ get
 name
 )
 .
-node
-node
+callNode
+callNode
 )
 )
 {
@@ -812,6 +813,8 @@ report
 (
 {
 node
+:
+propNode
 messageId
 :
 "
@@ -837,7 +840,8 @@ name
 used
 :
 false
-node
+callNode
+propNode
 }
 )
 ;
@@ -845,7 +849,7 @@ node
 function
 setPropertiesFromArgument
 (
-node
+callNode
 arg
 )
 {
@@ -865,7 +869,7 @@ ObjectExpression
 for
 (
 let
-prop
+propNode
 of
 arg
 .
@@ -874,7 +878,7 @@ properties
 {
 if
 (
-prop
+propNode
 .
 key
 .
@@ -892,6 +896,8 @@ report
 (
 {
 node
+:
+propNode
 messageId
 :
 "
@@ -902,7 +908,7 @@ data
 {
 name
 :
-prop
+propNode
 .
 key
 .
@@ -916,8 +922,9 @@ continue
 }
 addProp
 (
-node
-prop
+callNode
+propNode
+propNode
 .
 key
 .
@@ -943,7 +950,7 @@ ArrayExpression
 for
 (
 let
-prop
+propNode
 of
 arg
 .
@@ -952,7 +959,7 @@ elements
 {
 if
 (
-prop
+propNode
 .
 type
 !
@@ -967,8 +974,9 @@ continue
 }
 addProp
 (
-node
-prop
+callNode
+propNode
+propNode
 .
 value
 )
@@ -1039,6 +1047,8 @@ createLazyLoaders
 setPropertiesFromArgument
 (
 node
+.
+init
 node
 .
 init
@@ -1208,7 +1218,7 @@ match
 ]
 )
 .
-node
+callNode
 node
 )
 )
@@ -1252,6 +1262,11 @@ match
 used
 :
 false
+callNode
+:
+node
+propNode
+:
 node
 }
 )
@@ -1625,7 +1640,7 @@ node
 :
 property
 .
-node
+propNode
 messageId
 :
 "
