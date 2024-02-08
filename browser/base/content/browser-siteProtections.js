@@ -15742,7 +15742,7 @@ show
 (
 this
 .
-_trackingProtectionIconContainer
+iconBox
 "
 confirmation
 -

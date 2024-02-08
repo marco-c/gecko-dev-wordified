@@ -59300,7 +59300,7 @@ position
 ?
 ?
 "
-bottomleft
+bottomcenter
 topleft
 "
 triggerEvent
