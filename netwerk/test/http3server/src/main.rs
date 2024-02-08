@@ -111,6 +111,7 @@ qinfo
 qtrace
 Datagram
 Header
+IpTos
 }
 ;
 use
@@ -1395,6 +1396,10 @@ server
 process
 (
 dgram
+.
+as_ref
+(
+)
 Instant
 :
 :
@@ -4551,6 +4556,10 @@ self
 process
 (
 dgram
+.
+as_ref
+(
+)
 Instant
 :
 :
@@ -6302,6 +6311,10 @@ server
 process
 (
 dgram
+.
+as_ref
+(
+)
 Instant
 :
 :
@@ -7639,6 +7652,13 @@ new
 remote_addr
 *
 local_address
+IpTos
+:
+:
+default
+(
+)
+None
 &
 buf
 [

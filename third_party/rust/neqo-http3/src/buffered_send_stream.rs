@@ -81,12 +81,6 @@ those
 terms
 .
 use
-crate
-:
-:
-Res
-;
-use
 neqo_common
 :
 :
@@ -100,6 +94,12 @@ neqo_transport
 Connection
 StreamId
 }
+;
+use
+crate
+:
+:
+Res
 ;
 #
 [
@@ -260,6 +260,9 @@ Panics
 /
 /
 /
+/
+/
+/
 If
 the
 BufferedStream
@@ -322,6 +325,9 @@ new
 /
 #
 Panics
+/
+/
+/
 /
 /
 /
@@ -399,6 +405,9 @@ initialized
 /
 #
 Errors
+/
+/
+/
 /
 /
 /
@@ -553,6 +562,9 @@ sent
 /
 #
 Errors
+/
+/
+/
 /
 /
 /

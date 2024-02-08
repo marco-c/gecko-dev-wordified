@@ -15119,6 +15119,12 @@ codes
 .
 const
 uint32_t
+HTTP3_TELEMETRY_TRANSPORT_INTERNAL_ERROR
+=
+15
+;
+const
+uint32_t
 HTTP3_TELEMETRY_TRANSPORT_END
 =
 16
@@ -15634,11 +15640,7 @@ _ns
 ;
 value
 =
-aError
-.
-transport_internal_error
-.
-_0
+HTTP3_TELEMETRY_TRANSPORT_INTERNAL_ERROR
 ;
 break
 ;

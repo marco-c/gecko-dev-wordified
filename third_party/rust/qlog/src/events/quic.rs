@@ -441,7 +441,10 @@ PacketType
 pub
 packet_number
 :
+Option
+<
 u64
+>
 pub
 flags
 :
@@ -529,7 +532,10 @@ packet_type
 PacketType
 packet_number
 :
+Option
+<
 u64
+>
 flags
 :
 Option
@@ -784,7 +790,10 @@ ty
 PacketType
 packet_number
 :
+Option
+<
 u64
+>
 version
 :
 Option

@@ -130,6 +130,8 @@ namings
 for
 crate
 and
+/
+/
 structs
 .
 #
@@ -275,9 +277,6 @@ EncoderStream
 DecoderStream
 ClosedCriticalStream
 InternalError
-(
-u16
-)
 /
 /
 These
@@ -296,7 +295,7 @@ above
 .
 NeedMoreData
 /
-/
+*
 Return
 when
 an
@@ -310,6 +309,7 @@ data
 that
 a
 decoder
+*
 needs
 .
 (
@@ -324,6 +324,8 @@ is
 closed
 .
 )
+*
+/
 HeaderLookup
 HuffmanDecompressionFailed
 BadUtf8
@@ -428,6 +430,9 @@ _
 /
 #
 Errors
+/
+/
+/
 /
 /
 /
