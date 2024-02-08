@@ -42717,12 +42717,11 @@ case
 UI
 directionality
 return
-presContext
--
->
-GetCachedIntPref
+StaticPrefs
+:
+:
+bidi_direction
 (
-kPresContext_BidiDirection
 )
 =
 =
