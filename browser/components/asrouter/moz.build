@@ -487,6 +487,15 @@ json
 "
 tests
 /
+InflightAssetsMessageProvider
+.
+sys
+.
+mjs
+"
+"
+tests
+/
 NimbusRolloutMessageProvider
 .
 sys
