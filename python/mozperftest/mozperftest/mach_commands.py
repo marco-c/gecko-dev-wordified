@@ -84,24 +84,6 @@ _TRY_PLATFORMS
 {
     
 "
-g5
--
-browsertime
-"
-:
-"
-perftest
--
-android
--
-hw
--
-g5
--
-browsertime
-"
-    
-"
 linux
 -
 xpcshell
@@ -869,7 +851,6 @@ here
 linux
 win
 macOs
-pixel2
                 
 #
 by
