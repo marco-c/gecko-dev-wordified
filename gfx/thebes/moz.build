@@ -159,11 +159,6 @@ DrawMode
 h
 "
 "
-FontPaletteCache
-.
-h
-"
-"
 gfx2DGlue
 .
 h
@@ -409,6 +404,11 @@ h
 "
 "
 DisplayConfigWindows
+.
+h
+"
+"
+FontPaletteCache
 .
 h
 "
