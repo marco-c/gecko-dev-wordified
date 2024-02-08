@@ -293,7 +293,7 @@ inspector
 )
 ;
 const
-gutters
+inheritedHeaders
 =
 view
 .
@@ -306,12 +306,14 @@ querySelectorAll
 ruleview
 -
 header
+-
+inherited
 "
 )
 ;
 is
 (
-gutters
+inheritedHeaders
 .
 length
 1
@@ -328,7 +330,7 @@ header
 ;
 is
 (
-gutters
+inheritedHeaders
 [
 0
 ]
