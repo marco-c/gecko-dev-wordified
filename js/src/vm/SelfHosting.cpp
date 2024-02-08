@@ -7723,12 +7723,12 @@ rval
 (
 )
 .
-set
+setNumber
 (
 tarr
 -
 >
-byteOffsetValue
+byteOffset
 (
 )
 )
