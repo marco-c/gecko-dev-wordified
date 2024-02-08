@@ -286,9 +286,11 @@ OpenNSPRFileDesc
 (
 flags
 mode
-getter_Transfers
-(
+&
 fd
+.
+rwget
+(
 )
 )
 )
@@ -353,9 +355,7 @@ ClonePlatformHandle
 )
 ;
 fd
-.
-reset
-(
+=
 PR_ImportFile
 (
 PROsfd
@@ -364,7 +364,6 @@ handle
 .
 get
 (
-)
 )
 )
 )
@@ -551,10 +550,6 @@ fileMap
 PR_CreateFileMap
 (
 fd
-.
-get
-(
-)
 0
 prot
 )
@@ -866,8 +861,10 @@ nullptr
 #
 endif
 fd
-=
-nullptr
+.
+dispose
+(
+)
 ;
 }
 }
