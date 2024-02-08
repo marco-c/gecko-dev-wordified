@@ -27477,11 +27477,9 @@ PR_CREATE_FILE
 |
 PR_EXCL
 0666
-&
-fd
-.
-rwget
+getter_Transfers
 (
+fd
 )
 )
 ;
