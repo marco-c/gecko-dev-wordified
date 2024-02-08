@@ -460,6 +460,10 @@ oxilangtag_ffi
 ;
 extern
 crate
+unicode_bidi_ffi
+;
+extern
+crate
 rure
 ;
 extern
