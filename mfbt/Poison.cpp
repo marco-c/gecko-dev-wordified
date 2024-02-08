@@ -802,12 +802,9 @@ return
 true
 ;
 }
-else
-{
 return
 false
 ;
-}
 }
 static
 uintptr_t
