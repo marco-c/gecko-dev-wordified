@@ -716,7 +716,7 @@ IntrinsicGuardToSharedArrayBuffer
 :
 return
 &
-SharedArrayBufferObject
+FixedLengthSharedArrayBufferObject
 :
 :
 class_

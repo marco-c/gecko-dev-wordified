@@ -566,6 +566,14 @@ SharedArrayBufferObject
 /
 /
 -
+FixedLengthSharedArrayBufferObject
+/
+/
+-
+GrowableSharedArrayBufferObject
+/
+/
+-
 ArrayBufferViewObject
 /
 /
