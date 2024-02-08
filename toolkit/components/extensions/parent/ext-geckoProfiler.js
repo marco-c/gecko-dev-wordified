@@ -157,7 +157,7 @@ createLocalSymbolicationService
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -176,9 +176,9 @@ shared
 /
 symbolication
 .
-jsm
+sys
 .
-js
+mjs
 "
 )
 ;

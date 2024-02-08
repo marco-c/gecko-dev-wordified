@@ -73,7 +73,7 @@ BackgroundJSM
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -92,9 +92,9 @@ shared
 /
 background
 .
-jsm
+sys
 .
-js
+mjs
 "
 )
 ;

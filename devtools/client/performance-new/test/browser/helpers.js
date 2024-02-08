@@ -1021,7 +1021,7 @@ ProfilerMenuButton
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1042,9 +1042,9 @@ menu
 -
 button
 .
-jsm
+sys
 .
-js
+mjs
 "
 )
 ;
@@ -3545,7 +3545,7 @@ BackgroundJSM
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -3564,9 +3564,9 @@ shared
 /
 background
 .
-jsm
+sys
 .
-js
+mjs
 "
 )
 ;
@@ -4911,7 +4911,7 @@ ProfilerMenuButton
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -4932,9 +4932,9 @@ menu
 -
 button
 .
-jsm
+sys
 .
-js
+mjs
 "
 )
 ;

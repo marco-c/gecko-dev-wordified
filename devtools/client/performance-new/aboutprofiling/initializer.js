@@ -317,9 +317,9 @@ loader
 The
 background
 .
-jsm
+sys
 .
-js
+mjs
 manages
 the
 profiler
@@ -387,7 +387,7 @@ presets
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -406,9 +406,9 @@ shared
 /
 background
 .
-jsm
+sys
 .
-js
+mjs
 "
 )
 ;
