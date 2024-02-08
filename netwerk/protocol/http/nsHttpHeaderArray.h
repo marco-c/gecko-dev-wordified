@@ -334,6 +334,7 @@ header
 .
 eVarietyRequestOverride
 eVarietyRequestDefault
+eVarietyRequestEnforceDefault
 /
 /
 Used
