@@ -1530,6 +1530,11 @@ OnUnmap
 )
 ;
 void
+OnUnrealize
+(
+)
+;
+void
 OnSizeAllocate
 (
 GtkAllocation
@@ -2723,11 +2728,6 @@ Bug
 .
 void
 ClearRenderingQueue
-(
-)
-;
-void
-DisableRendering
 (
 )
 ;
@@ -3927,7 +3927,7 @@ set
 by
 OnMap
 /
-OnUnmap
+OnUnrealize
 which
 is
 based
@@ -5917,14 +5917,6 @@ EmulateResizeDrag
 GdkEventMotion
 *
 aEvent
-)
-;
-void
-RequestRepaint
-(
-LayoutDeviceIntRegion
-&
-aRepaintRegion
 )
 ;
 #

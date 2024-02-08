@@ -10124,15 +10124,6 @@ gdk_screen_get_root_window
 screen
 )
 ;
-if
-(
-!
-gdkWindow
-)
-{
-return
-;
-}
 gdk_window_get_device_position
 (
 gdkWindow
