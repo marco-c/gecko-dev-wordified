@@ -43030,14 +43030,11 @@ EmitWasmPreBarrierGuard
 masm
 instance
 scratch
+Address
+(
 valueAddr
-/
-*
-valueOffset
-=
-*
-/
 0
+)
 &
 skipBarrier
 nullptr
@@ -43142,7 +43139,7 @@ preserves
 all
 volatile
 registers
-EmitWasmPreBarrierCall
+EmitWasmPreBarrierCallImmediate
 (
 masm
 instance

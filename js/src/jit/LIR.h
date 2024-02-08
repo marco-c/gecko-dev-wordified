@@ -4419,6 +4419,12 @@ MIRType
 :
 Elements
 :
+case
+MIRType
+:
+:
+WasmArrayData
+:
 return
 LDefinition
 :
