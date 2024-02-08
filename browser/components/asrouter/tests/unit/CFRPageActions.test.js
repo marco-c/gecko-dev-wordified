@@ -35,11 +35,7 @@ FAKE_RECOMMENDATION
 }
 from
 "
-test
-/
-unit
-/
-asrouter
+.
 /
 constants
 "
