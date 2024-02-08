@@ -224,6 +224,9 @@ namespace
 js
 {
 class
+FixedLengthTypedArrayObject
+;
+class
 TypedArrayObject
 ;
 enum
@@ -5094,7 +5097,7 @@ int32_t
 *
 )
 (
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 size_t
 int32_t
@@ -5137,7 +5140,7 @@ BigInt
 (
 JSContext
 *
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 size_t
 const
