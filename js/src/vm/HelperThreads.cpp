@@ -5448,10 +5448,6 @@ ThreadCountForCPUCount
 cpuCount
 )
 ;
-gcParallelThreadCount
-=
-threadCount
-;
 MOZ_ASSERT
 (
 cpuCount
@@ -7106,10 +7102,6 @@ GlobalHelperThreadState
 :
 maxGCParallelThreads
 (
-const
-AutoLockHelperThreadState
-&
-lock
 )
 const
 {
@@ -7129,7 +7121,7 @@ return
 ;
 }
 return
-gcParallelThreadCount
+threadCount
 ;
 }
 HelperThreadTask
@@ -8998,7 +8990,6 @@ checkTaskThreadLimit
 THREAD_TYPE_GCPARALLEL
 maxGCParallelThreads
 (
-lock
 )
 lock
 )
