@@ -887,7 +887,9 @@ branches
 *
 PlacesFeed
 .
-jsm
+sys
+.
+mjs
 is
 tested
 via
@@ -901,7 +903,9 @@ lib
 /
 PlacesFeed
 .
-jsm
+sys
+.
+mjs
 "
 :
 {
