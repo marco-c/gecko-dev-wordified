@@ -420,11 +420,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
+/
+asrouter
 /
 ToastNotification
 .
