@@ -159,11 +159,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
+/
+asrouter
 /
 FeatureCalloutMessages
 .
@@ -2097,6 +2096,8 @@ resource
 /
 /
 modules
+/
+asrouter
 /
 FeatureCallout
 .
