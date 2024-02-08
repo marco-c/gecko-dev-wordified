@@ -841,6 +841,7 @@ re
 .
 search
 (
+r
 "
 version
 (

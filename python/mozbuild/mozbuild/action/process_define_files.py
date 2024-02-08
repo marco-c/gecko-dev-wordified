@@ -311,6 +311,7 @@ re
 compile
 (
             
+r
 "
 ^
 \

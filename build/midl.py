@@ -531,6 +531,7 @@ re
 .
 compile
 (
+r
 '
 import
 \
