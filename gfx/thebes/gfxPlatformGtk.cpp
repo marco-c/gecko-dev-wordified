@@ -4944,12 +4944,6 @@ DefaultScreen
 mXDisplay
 )
 ;
-ScopedXFree
-<
-GLXFBConfig
->
-cfgs
-;
 GLXFBConfig
 config
 ;
@@ -4975,8 +4969,6 @@ FindFBConfigForWindow
 mXDisplay
 screen
 root
-&
-cfgs
 &
 config
 &
