@@ -1591,7 +1591,7 @@ EndComputePass
 ffi
 :
 :
-WGPUComputePass
+WGPURecordedComputePass
 &
 aPass
 )

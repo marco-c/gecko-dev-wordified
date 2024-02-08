@@ -173,7 +173,7 @@ operator
 ffi
 :
 :
-WGPUComputePass
+WGPURecordedComputePass
 *
 raw
 )
@@ -196,7 +196,7 @@ raw
 ffi
 :
 :
-WGPUComputePass
+WGPURecordedComputePass
 *
 BeginComputePass
 (
@@ -352,7 +352,7 @@ aBindGroup
 ffi
 :
 :
-wgpu_compute_pass_set_bind_group
+wgpu_recorded_compute_pass_set_bind_group
 (
 mPass
 .
@@ -405,7 +405,7 @@ aPipeline
 ffi
 :
 :
-wgpu_compute_pass_set_pipeline
+wgpu_recorded_compute_pass_set_pipeline
 (
 mPass
 .
@@ -441,7 +441,7 @@ mValid
 ffi
 :
 :
-wgpu_compute_pass_dispatch_workgroups
+wgpu_recorded_compute_pass_dispatch_workgroups
 (
 mPass
 .
@@ -477,7 +477,7 @@ mValid
 ffi
 :
 :
-wgpu_compute_pass_dispatch_workgroups_indirect
+wgpu_recorded_compute_pass_dispatch_workgroups_indirect
 (
 mPass
 .
@@ -519,7 +519,7 @@ aString
 ffi
 :
 :
-wgpu_compute_pass_push_debug_group
+wgpu_recorded_compute_pass_push_debug_group
 (
 mPass
 .
@@ -552,7 +552,7 @@ mValid
 ffi
 :
 :
-wgpu_compute_pass_pop_debug_group
+wgpu_recorded_compute_pass_pop_debug_group
 (
 mPass
 .
@@ -590,7 +590,7 @@ aString
 ffi
 :
 :
-wgpu_compute_pass_insert_debug_marker
+wgpu_recorded_compute_pass_insert_debug_marker
 (
 mPass
 .
