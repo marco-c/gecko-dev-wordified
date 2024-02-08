@@ -73,6 +73,11 @@ add_common_setup
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 async
 function
 clickSendAndCheckPing
