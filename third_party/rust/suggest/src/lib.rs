@@ -63,6 +63,9 @@ remote_settings
 RemoteSettingsConfig
 ;
 mod
+config
+;
+mod
 db
 ;
 mod
@@ -95,6 +98,16 @@ yelp
 ;
 pub
 use
+config
+:
+:
+{
+SuggestGlobalConfig
+SuggestProviderConfig
+}
+;
+pub
+use
 error
 :
 :
@@ -115,6 +128,7 @@ store
 {
 SuggestIngestionConstraints
 SuggestStore
+SuggestStoreBuilder
 }
 ;
 pub
