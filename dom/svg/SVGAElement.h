@@ -148,17 +148,6 @@ mozilla
 /
 dom
 /
-AnchorAreaFormRelValues
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SVGGraphicsElement
 .
 h
@@ -210,8 +199,6 @@ public
 SVGAElementBase
 public
 Link
-public
-AnchorAreaFormRelValues
 {
 protected
 :

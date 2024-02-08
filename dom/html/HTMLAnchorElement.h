@@ -136,17 +136,6 @@ mozilla
 /
 dom
 /
-AnchorAreaFormRelValues
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Link
 .
 h
@@ -198,8 +187,6 @@ public
 Link
 public
 SupportsDNSPrefetch
-public
-AnchorAreaFormRelValues
 {
 public
 :

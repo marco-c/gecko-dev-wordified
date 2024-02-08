@@ -804,11 +804,6 @@ AncestorIterator
 h
 "
 "
-AnchorAreaFormRelValues
-.
-h
-"
-"
 AnimationFrameProvider
 .
 h
@@ -1601,11 +1596,6 @@ cpp
 "
 "
 AbstractRange
-.
-cpp
-"
-"
-AnchorAreaFormRelValues
 .
 cpp
 "
