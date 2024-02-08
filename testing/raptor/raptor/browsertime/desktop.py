@@ -340,6 +340,24 @@ trials
         
 )
         
+#
+Disable
+finch
+experiments
+        
+chrome_args
++
+=
+[
+"
+-
+-
+enable
+-
+benchmarking
+"
+]
+        
 btime_chrome_args
 =
 [
