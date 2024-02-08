@@ -986,15 +986,6 @@ eqeqeq
 error
 "
 "
-for
--
-direction
-"
-:
-"
-error
-"
-"
 func
 -
 name
