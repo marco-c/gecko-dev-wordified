@@ -63,12 +63,6 @@ import
 subprocess
 import
 sys
-from
-distutils
-.
-spawn
-import
-find_executable
 import
 mozfile
 import
@@ -1478,11 +1472,15 @@ binary
     
 fzf_bin
 =
-find_executable
+shutil
+.
+which
 (
 "
 fzf
 "
+path
+=
 fzf_path
 )
     
@@ -1858,7 +1856,9 @@ get_fzf_state_dir
     
 fzf_bin
 =
-find_executable
+shutil
+.
+which
 (
 "
 fzf
@@ -1872,11 +1872,15 @@ fzf_bin
         
 fzf_bin
 =
-find_executable
+shutil
+.
+which
 (
 "
 fzf
 "
+path
+=
 fzf_path
 )
     
@@ -2132,11 +2136,15 @@ download_and_install_fzf
         
 fzf_bin
 =
-find_executable
+shutil
+.
+which
 (
 "
 fzf
 "
+path
+=
 fzf_path
 )
         
