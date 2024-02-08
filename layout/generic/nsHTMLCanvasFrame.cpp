@@ -2890,13 +2890,10 @@ GetCanvasSize
 )
 ;
 return
-containAxes
-.
-ContainIntrinsicSize
+FinishIntrinsicSize
 (
+containAxes
 size
-*
-this
 )
 ;
 }
