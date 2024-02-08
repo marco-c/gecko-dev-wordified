@@ -21,7 +21,7 @@ ASRouterNewTabHook
 }
 from
 "
-lib
+modules
 /
 ASRouterNewTabHook
 .
