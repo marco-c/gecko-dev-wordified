@@ -1020,7 +1020,7 @@ aBuilder
 .
 PropertyIsSet
 (
-eCSSProperty_text_wrap_mode
+eCSSProperty_white_space
 )
 )
 {
@@ -1124,8 +1124,8 @@ aBuilder
 .
 SetKeywordValue
 (
-eCSSProperty_text_wrap_mode
-StyleTextWrapMode
+eCSSProperty_white_space
+StyleWhiteSpace
 :
 :
 Nowrap

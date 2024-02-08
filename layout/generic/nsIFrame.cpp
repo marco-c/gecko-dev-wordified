@@ -65451,13 +65451,13 @@ StyleText
 )
 -
 >
-mWhiteSpaceCollapse
+mWhiteSpace
 !
 =
-StyleWhiteSpaceCollapse
+StyleWhiteSpace
 :
 :
-PreserveBreaks
+PreLine
 )
 {
 current

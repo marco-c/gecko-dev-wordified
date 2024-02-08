@@ -1065,15 +1065,6 @@ position
 text
 -
 wrap
--
-mode
-"
-"
-text
--
-wrap
--
-style
 "
 "
 touch
@@ -1136,8 +1127,6 @@ visibility
 white
 -
 space
--
-collapse
 "
 "
 will
