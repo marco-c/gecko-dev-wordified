@@ -626,20 +626,6 @@ yaml
 "
     
 "
-dom
-/
-media
-/
-platforms
-/
-wmf
-/
-metrics
-.
-yaml
-"
-    
-"
 toolkit
 /
 components

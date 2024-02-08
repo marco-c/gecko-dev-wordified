@@ -947,17 +947,6 @@ aExtraOpts
 ;
 #
 endif
-#
-ifdef
-MOZ_WMF_CDM
-void
-EnanbleMFCDMTelemetryEventIfNeeded
-(
-)
-const
-;
-#
-endif
 /
 /
 Set
