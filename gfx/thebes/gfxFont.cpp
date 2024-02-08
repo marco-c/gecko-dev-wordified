@@ -19242,6 +19242,11 @@ currentColor
 aFontParams
 .
 palette
+-
+>
+Colors
+(
+)
 aGlyphId
 mFUnitsConvFactor
 )
@@ -19318,6 +19323,11 @@ currentColor
 aFontParams
 .
 palette
+-
+>
+Colors
+(
+)
 )
 ;
 return

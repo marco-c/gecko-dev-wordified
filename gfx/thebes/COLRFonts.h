@@ -766,14 +766,11 @@ aCOLR
 )
 ;
 static
-UniquePtr
-<
 nsTArray
 <
 sRGBColor
 >
->
-SetupColorPalette
+CreateColorPalette
 (
 hb_face_t
 *
