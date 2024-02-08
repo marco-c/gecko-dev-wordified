@@ -1442,12 +1442,6 @@ all
 if
 (
 allowNonUtility
-|
-|
-!
-isNightlyOrEalyBeta
-(
-)
 )
 {
 extraKey
