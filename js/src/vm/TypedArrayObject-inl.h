@@ -5683,7 +5683,7 @@ AllocKind
 js
 :
 :
-TypedArrayObject
+FixedLengthTypedArrayObject
 :
 :
 AllocKindForLazyBuffer
