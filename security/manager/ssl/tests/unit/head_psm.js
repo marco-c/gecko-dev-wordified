@@ -272,7 +272,7 @@ mjs
 )
 ;
 const
-isDebugBuild
+gIsDebugBuild
 =
 Cc
 [
@@ -318,7 +318,7 @@ measure
 const
 gEVExpected
 =
-isDebugBuild
+gIsDebugBuild
 ;
 const
 CLIENT_AUTH_FILE_NAME
