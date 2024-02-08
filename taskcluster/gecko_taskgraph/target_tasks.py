@@ -5348,13 +5348,27 @@ CaR
         
 if
 "
+android
+"
+not
+in
+platform
+or
+accept_raptor_android_build
+(
+platform
+)
+:
+            
+if
+"
 browsertime
 "
 in
 try_name
 and
 (
-            
+                
 "
 custom
 -
@@ -5372,10 +5386,10 @@ m
 "
 in
 try_name
-        
+            
 )
 :
-            
+                
 return
 True
         
@@ -6338,6 +6352,15 @@ return
 False
         
 if
+(
+            
+"
+android
+"
+not
+in
+platform
+and
 "
 windows10
 -
@@ -6346,6 +6369,13 @@ windows10
 not
 in
 platform
+        
+)
+or
+accept_raptor_android_build
+(
+platform
+)
 :
             
 try_name
