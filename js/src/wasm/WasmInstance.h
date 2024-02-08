@@ -2624,7 +2624,11 @@ support
 void
 setPendingException
 (
-HandleAnyRef
+Handle
+<
+WasmExceptionObject
+*
+>
 exn
 )
 ;

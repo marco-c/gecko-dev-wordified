@@ -186,6 +186,15 @@ wasm_realm_h
 #
 include
 "
+js
+/
+TracingAPI
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmTypeDecls
@@ -195,6 +204,9 @@ h
 namespace
 js
 {
+class
+WasmTagObject
+;
 namespace
 wasm
 {
