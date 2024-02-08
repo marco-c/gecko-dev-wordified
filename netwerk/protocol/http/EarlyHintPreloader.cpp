@@ -4151,7 +4151,13 @@ mStreamListenerFunctions
 ;
 ForwardStreamListenerFunctions
 (
+std
+:
+:
+move
+(
 streamListenerFunctions
+)
 mParent
 )
 ;
@@ -5366,7 +5372,13 @@ AsVariant
 OnDataAvailableParams
 {
 aRequest
+std
+:
+:
+move
+(
 data
+)
 aOffset
 aCount
 }
