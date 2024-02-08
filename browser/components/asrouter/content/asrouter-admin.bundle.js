@@ -4434,7 +4434,7 @@ import
 *
 /
 var
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 =
 __webpack_require__
 (
@@ -4577,7 +4577,7 @@ newImpressions
 =
 >
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -4608,7 +4608,7 @@ newImpressions
 =
 >
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -4639,7 +4639,7 @@ newImpressions
 =
 >
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -4671,7 +4671,7 @@ useCallback
 =
 >
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -4706,7 +4706,7 @@ useCallback
 =
 >
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -4741,7 +4741,7 @@ useCallback
 =
 >
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -7120,7 +7120,7 @@ import
 *
 /
 var
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 =
 __webpack_require__
 (
@@ -8485,7 +8485,7 @@ componentWillMount
 (
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8499,7 +8499,7 @@ onMessageFromParent
 const
 endpoint
 =
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8507,7 +8507,7 @@ getPreviewEndpoint
 (
 )
 ;
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8539,7 +8539,7 @@ componentWillUnmount
 (
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8561,7 +8561,7 @@ return
 )
 =
 >
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8583,7 +8583,7 @@ return
 )
 =
 >
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8714,7 +8714,7 @@ return
 )
 =
 >
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8808,7 +8808,7 @@ message
 id
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8819,7 +8819,7 @@ message
 id
 )
 ;
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8911,7 +8911,7 @@ handleOpenPB
 (
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8946,7 +8946,7 @@ expireCache
 (
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8966,7 +8966,7 @@ resetPref
 (
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -8988,7 +8988,7 @@ id
 value
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -9067,7 +9067,7 @@ value
 null
 ;
 }
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -9223,7 +9223,7 @@ unblockAll
 )
 {
 return
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -9291,7 +9291,7 @@ providerId
 :
 true
 ;
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -9315,7 +9315,7 @@ if
 isUserEnabled
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -9341,7 +9341,7 @@ true
 )
 ;
 }
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -9448,7 +9448,7 @@ if
 isUserEnabled
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -9482,7 +9482,7 @@ if
 isSystemEnabled
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -9506,7 +9506,7 @@ id
 }
 else
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -9577,7 +9577,7 @@ checked
 }
 }
 ;
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -11113,7 +11113,7 @@ value
 )
 ;
 return
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
@@ -14381,7 +14381,7 @@ setAttribution
 e
 )
 {
-newtab_content_src_asrouter_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
+_asrouter_utils__WEBPACK_IMPORTED_MODULE_0__
 .
 ASRouterUtils
 .
