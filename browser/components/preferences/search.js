@@ -410,6 +410,9 @@ TRENDING_ENGINES
 "
 Google
 "
+"
+Bing
+"
 ]
 ;
 var
