@@ -223,7 +223,7 @@ loaded
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL1
@@ -574,11 +574,11 @@ iframe
 contentWindow
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 chromeWin1
-!
-=
 chromeWin1x
 "
 waiving

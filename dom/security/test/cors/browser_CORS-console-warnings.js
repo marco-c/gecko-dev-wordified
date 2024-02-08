@@ -403,7 +403,7 @@ blank
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 test_uri
@@ -428,10 +428,11 @@ finished
 Different
 OS
 combinations
-ok
+Assert
+.
+greater
 (
 messages_seen
->
 0
 "
 Saw
@@ -480,7 +481,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 test_two_uri
@@ -514,10 +515,11 @@ messages_seen
 0
 )
 ;
-ok
+Assert
+.
+greater
 (
 messages_seen
->
 0
 "
 Saw

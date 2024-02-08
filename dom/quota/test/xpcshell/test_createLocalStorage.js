@@ -260,10 +260,11 @@ archiveFile
 .
 fileSize
 ;
-ok
+Assert
+.
+greater
 (
 fileSize
->
 0
 "
 archive
@@ -762,10 +763,11 @@ appsStoreFile
 .
 fileSize
 ;
-ok
+Assert
+.
+greater
 (
 fileSize
->
 0
 "
 apps

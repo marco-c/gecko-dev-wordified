@@ -337,7 +337,7 @@ newTab
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 newBrowser
 url
@@ -432,11 +432,11 @@ delay
 }
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 timeout
-<
-=
 kMinTimeoutBackground
 Got
 the

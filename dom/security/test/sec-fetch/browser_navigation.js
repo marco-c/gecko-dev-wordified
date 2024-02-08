@@ -265,7 +265,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 REQUEST_URL
@@ -1071,12 +1071,11 @@ forward
 await
 loaded
 ;
-ok
+Assert
+.
+strictEqual
 (
 gTestCounter
-=
-=
-=
 7
 "
 testing

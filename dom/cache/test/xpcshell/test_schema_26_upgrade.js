@@ -180,14 +180,13 @@ succeed
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 response
 .
 type
-=
-=
-=
 "
 opaque
 "

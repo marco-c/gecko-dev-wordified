@@ -554,11 +554,11 @@ then
 )
 =
 >
-ok
+Assert
+.
+equal
 (
 navToolboxStatus
-=
-=
 aExpectedStatus
 "
 nav

@@ -271,11 +271,11 @@ point
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 retries
-=
-=
 2
 "
 Should

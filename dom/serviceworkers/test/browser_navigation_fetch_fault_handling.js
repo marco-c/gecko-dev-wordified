@@ -1662,12 +1662,11 @@ get_qm_origin_usage
 SAME_GROUP_ORIGIN
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 sameGroupUsage
-=
-=
-=
 0
 "
 same

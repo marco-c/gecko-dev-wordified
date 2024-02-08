@@ -220,13 +220,13 @@ continueToNextStepSync
 yield
 undefined
 ;
-ok
+Assert
+.
+equal
 (
 request
 .
 resultCode
-=
-=
 NS_OK
 "
 Initialization

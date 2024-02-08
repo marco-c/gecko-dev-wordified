@@ -146,10 +146,11 @@ false
 )
 )
 ;
-ok
+Assert
+.
+greater
 (
 amount
->
 0
 "
 Got

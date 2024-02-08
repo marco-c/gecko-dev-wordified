@@ -184,11 +184,11 @@ subscription
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 retries
-=
-=
 3
 "
 Should

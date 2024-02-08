@@ -1297,13 +1297,13 @@ then
 =
 >
 {
-ok
+Assert
+.
+equal
 (
 ac
 .
 state
-=
-=
 "
 running
 "

@@ -314,13 +314,13 @@ crash
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 event
 .
 childID
-=
-=
 0
 "
 childID

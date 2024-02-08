@@ -304,10 +304,11 @@ endTime
 -
 startTime
 ;
-ok
+Assert
+.
+greater
 (
 observedDelay
->
 specifiedDelay
 -
 100

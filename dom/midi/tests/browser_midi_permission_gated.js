@@ -2343,11 +2343,11 @@ now
 -
 denyIntervalStart
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 denyIntervalElapsed
->
-=
 3000
 Rejection
 should
