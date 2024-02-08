@@ -12627,7 +12627,7 @@ JS_JITSPEW
 BigInt
 :
 :
-dumpLiteral
+dump
 (
 )
 only
@@ -12645,7 +12645,7 @@ pc
 )
 -
 >
-dumpLiteral
+dump
 (
 sprinter
 )
