@@ -2034,7 +2034,7 @@ frameType
 LayoutFrameType
 :
 :
-Table
+TableWrapper
 )
 {
 /
