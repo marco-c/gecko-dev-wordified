@@ -944,7 +944,7 @@ nondefaults
 return
 kwargs
 def
-handle_try_config
+handle_try_params
 (
 command_context
 *
@@ -972,7 +972,7 @@ kwargs
 setdefault
 (
 "
-try_config
+try_config_params
 "
 {
 }
@@ -996,11 +996,11 @@ values
 )
 :
         
-try_config
+params
 =
 cls
 .
-try_config
+get_parameters
 (
 *
 *
@@ -1008,7 +1008,7 @@ kwargs
 )
         
 if
-try_config
+params
 is
 not
 None
@@ -1024,7 +1024,7 @@ cls
 kwargs
 [
 "
-try_config
+try_config_params
 "
 ]
 =
@@ -1033,10 +1033,10 @@ merge
 kwargs
 [
 "
-try_config
+try_config_params
 "
 ]
-try_config
+params
 )
         
 for
@@ -1126,7 +1126,7 @@ task_configs
         
 kwargs
 =
-handle_try_config
+handle_try_params
 (
 command_context
 *

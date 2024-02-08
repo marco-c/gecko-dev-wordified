@@ -73,6 +73,14 @@ from
 push
 import
 push_to_try
+from
+.
+.
+util
+.
+dicttools
+import
+merge
 TRY_AUTO_PARAMETERS
 =
 {
@@ -545,7 +553,7 @@ tasks_regex_exclude
 =
 None
     
-try_config
+try_config_params
 =
 None
     
@@ -584,17 +592,16 @@ copy
 )
     
 if
-try_config
+try_config_params
 :
         
 params
-[
-"
-try_task_config
-"
-]
 =
-try_config
+merge
+(
+params
+try_config_params
+)
     
 if
 strategy

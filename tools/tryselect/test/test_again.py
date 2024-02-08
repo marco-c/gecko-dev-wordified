@@ -162,6 +162,11 @@ bar
             
 {
 "
+try_task_config
+"
+:
+{
+"
 use
 -
 artifact
@@ -170,6 +175,7 @@ builds
 "
 :
 True
+}
 }
         
 )
@@ -281,6 +287,16 @@ message
 try_task_config
 =
 kwargs
+[
+"
+try_task_config
+"
+]
+[
+"
+parameters
+"
+]
 .
 pop
 (

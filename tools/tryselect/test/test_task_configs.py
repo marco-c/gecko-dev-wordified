@@ -115,6 +115,7 @@ None
 )
         
 (
+            
 [
 "
 -
@@ -122,6 +123,12 @@ None
 artifact
 "
 ]
+            
+{
+"
+try_task_config
+"
+:
 {
 "
 use
@@ -140,6 +147,8 @@ pgo
 :
 True
 }
+}
+        
 )
     
 ]
@@ -170,12 +179,18 @@ prio
 ]
 {
 "
+try_task_config
+"
+:
+{
+"
 chemspill
 -
 prio
 "
 :
 {
+}
 }
 }
 )
@@ -195,6 +210,7 @@ None
 )
         
 (
+            
 [
 "
 -
@@ -217,6 +233,12 @@ num
 10
 "
 ]
+            
+{
+"
+try_task_config
+"
+:
 {
 "
 env
@@ -239,6 +261,8 @@ num
 "
 }
 }
+}
+        
 )
     
 ]
@@ -266,6 +290,13 @@ indexedDB
 ]
             
 {
+                
+"
+try_task_config
+"
+:
+{
+                    
 "
 env
 "
@@ -291,6 +322,9 @@ indexedDB
 }
 '
 }
+                
+}
+            
 }
         
 )
@@ -311,11 +345,17 @@ testing
 {
                 
 "
-env
+try_task_config
 "
 :
 {
                     
+"
+env
+"
+:
+{
+                        
 "
 MOZHARNESS_TEST_PATHS
 "
@@ -338,6 +378,8 @@ testing
 ]
 }
 '
+                    
+}
                 
 }
             
@@ -397,10 +439,16 @@ rebuild
 ]
 {
 "
+try_task_config
+"
+:
+{
+"
 rebuild
 "
 :
 10
+}
 }
 )
         
@@ -469,6 +517,11 @@ pool
             
 {
 "
+try_task_config
+"
+:
+{
+"
 worker
 -
 overrides
@@ -484,6 +537,7 @@ worker
 /
 pool
 "
+}
 }
 }
         
@@ -552,6 +606,13 @@ dev
 ]
             
 {
+                
+"
+try_task_config
+"
+:
+{
+                    
 "
 worker
 -
@@ -577,6 +638,9 @@ linux
 dev
 "
 }
+                
+}
+            
 }
         
 )
@@ -760,7 +824,7 @@ args
             
 cfg
 .
-try_config
+get_parameters
 (
 *
 *
@@ -801,10 +865,11 @@ args
 )
 )
         
-assert
+params
+=
 cfg
 .
-try_config
+get_parameters
 (
 *
 *
@@ -813,6 +878,9 @@ vars
 args
 )
 )
+        
+assert
+params
 =
 =
 expected
@@ -932,10 +1000,11 @@ pernosco
 ]
 )
     
-assert
+params
+=
 cfg
 .
-try_config
+get_parameters
 (
 *
 *
@@ -944,8 +1013,16 @@ vars
 args
 )
 )
+    
+assert
+params
 =
 =
+{
+"
+try_task_config
+"
+:
 {
 "
 env
@@ -959,6 +1036,7 @@ PERNOSCO
 "
 1
 "
+}
 }
 }
 if

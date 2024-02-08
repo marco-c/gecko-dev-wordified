@@ -7412,7 +7412,7 @@ def
 setup_try_config
 (
         
-try_config
+try_config_params
 extra_args
 selected_tasks
 base_revision_treeherder
@@ -7437,7 +7437,7 @@ push
         
 :
 param
-try_config
+try_config_params
 dict
 :
 The
@@ -7516,15 +7516,41 @@ None
 "
         
 if
-try_config
+try_config_params
 is
 None
 :
             
-try_config
+try_config_params
 =
 {
 }
+        
+try_config
+=
+try_config_params
+.
+setdefault
+(
+"
+try_task_config
+"
+{
+}
+)
+        
+env
+=
+try_config
+.
+setdefault
+(
+"
+env
+"
+{
+}
+)
         
 if
 extra_args
@@ -7540,16 +7566,7 @@ join
 extra_args
 )
             
-try_config
-.
-setdefault
-(
-"
 env
-"
-{
-}
-)
 [
 "
 PERF_FLAGS
@@ -7585,22 +7602,11 @@ a
 base
 commit
             
-try_config
-.
-setdefault
-(
-"
 env
-"
-{
-}
-)
 [
-                
 "
 PERF_BASE_REVISION
 "
-            
 ]
 =
 base_revision_treeherder
@@ -7680,7 +7686,7 @@ selected_categories
         
 queries
         
-try_config
+try_config_params
         
 dry_run
         
@@ -8129,13 +8135,13 @@ list
 extra_args
 )
                 
-base_try_config
+base_try_config_params
 =
 copy
 .
 deepcopy
 (
-try_config
+try_config_params
 )
                 
 comparator_obj
@@ -8150,7 +8156,7 @@ PerfParser
 setup_try_config
 (
                     
-base_try_config
+base_try_config_params
 base_extra_args
 selected_tasks
                 
@@ -8245,7 +8251,9 @@ generate_try_task_config
 fuzzy
 "
 selected_tasks
-base_try_config
+params
+=
+base_try_config_params
                         
 )
                         
@@ -8313,7 +8321,7 @@ PerfParser
 setup_try_config
 (
                 
-try_config
+try_config_params
                 
 new_extra_args
                 
@@ -8374,7 +8382,9 @@ generate_try_task_config
 fuzzy
 "
 selected_tasks
-try_config
+params
+=
+try_config_params
                     
 )
                     
@@ -8437,7 +8447,7 @@ parameters
 =
 None
         
-try_config
+try_config_params
 =
 None
         
@@ -9241,7 +9251,7 @@ selected_categories
             
 queries
             
-try_config
+try_config_params
             
 dry_run
             
@@ -10445,11 +10455,22 @@ kwargs
 get
 (
 "
-try_config
+try_config_params
 "
 {
 }
 )
+        
+.
+get
+(
+"
+try_task_config
+"
+{
+}
+)
+        
 .
 get
 (
@@ -10468,11 +10489,22 @@ kwargs
 get
 (
 "
-try_config
+try_config_params
 "
 {
 }
 )
+        
+.
+get
+(
+"
+try_task_config
+"
+{
+}
+)
+        
 .
 get
 (

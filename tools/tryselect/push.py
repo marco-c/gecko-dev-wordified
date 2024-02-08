@@ -558,7 +558,7 @@ generate_try_task_config
 (
 method
 labels
-try_config
+params
 =
 None
 routes
@@ -567,14 +567,27 @@ None
 )
 :
     
-try_task_config
+params
 =
-try_config
+params
 or
 {
 }
     
+try_config
+=
+params
+.
+setdefault
+(
+"
 try_task_config
+"
+{
+}
+)
+    
+try_config
 .
 setdefault
 (
@@ -592,37 +605,23 @@ TRY_SELECTOR
 =
 method
     
-try_task_config
-.
-update
-(
-        
-{
-            
-"
-version
-"
-:
-1
-            
+try_config
+[
 "
 tasks
 "
-:
+]
+=
 sorted
 (
 labels
-)
-        
-}
-    
 )
     
 if
 routes
 :
         
-try_task_config
+try_config
 [
 "
 routes
@@ -630,6 +629,21 @@ routes
 ]
 =
 routes
+    
+try_task_config
+=
+{
+"
+version
+"
+:
+2
+"
+parameters
+"
+:
+params
+}
     
 return
 try_task_config

@@ -777,15 +777,15 @@ intersect_query
 =
 None
     
-try_config
-=
-None
-    
 full
 =
 False
     
 parameters
+=
+None
+    
+try_config_params
 =
 None
     
@@ -1675,11 +1675,15 @@ try_task_config
 =
 generate_try_task_config
 (
+            
 "
 fuzzy
 "
 selected
-try_config
+params
+=
+try_config_params
+        
 )
         
 stage_changes
