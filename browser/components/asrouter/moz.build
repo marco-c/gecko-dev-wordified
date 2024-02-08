@@ -272,6 +272,13 @@ ToolbarBadgeHub
 .
 jsm
 "
+"
+modules
+/
+ToolbarPanelHub
+.
+jsm
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +
