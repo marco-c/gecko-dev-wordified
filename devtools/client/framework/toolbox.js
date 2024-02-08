@@ -5887,6 +5887,9 @@ TYPES
 THREAD_STATE
 ]
 ;
+let
+tracerInitialization
+;
 if
 (
 Services
@@ -5921,6 +5924,18 @@ resourceCommand
 TYPES
 .
 JSTRACER_STATE
+)
+;
+tracerInitialization
+=
+this
+.
+commands
+.
+tracerCommand
+.
+initialize
+(
 )
 ;
 }
@@ -6780,6 +6795,7 @@ all
 splitConsolePromise
 framesPromise
 onResourcesWatched
+tracerInitialization
 ]
 )
 ;
