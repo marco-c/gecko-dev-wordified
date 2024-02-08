@@ -12812,8 +12812,10 @@ stack
 if
 (
 stackObj
-&
-&
+)
+{
+MOZ_ASSERT
+(
 stackObj
 -
 >
@@ -12824,7 +12826,7 @@ SavedFrame
 (
 )
 )
-{
+;
 stack
 .
 setObject
