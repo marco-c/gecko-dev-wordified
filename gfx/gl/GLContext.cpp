@@ -5400,7 +5400,6 @@ Driver
 "
 Samsung
 Xclipse
-920
 "
 "
 Unknown
@@ -6030,7 +6029,7 @@ Renderer
 GLRenderer
 :
 :
-SamsungXclipse920
+SamsungXclipse
 )
 {
 MarkUnsupported
