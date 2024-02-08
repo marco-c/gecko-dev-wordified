@@ -28741,6 +28741,9 @@ dumpFile
 if
 (
 dumpFile
+&
+&
+dumpFile
 !
 =
 stdout
