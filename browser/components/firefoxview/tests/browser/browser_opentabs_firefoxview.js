@@ -845,6 +845,14 @@ opentabs
 "
 )
 ;
+setSortOption
+(
+openTabs
+"
+tabStripOrder
+"
+)
+;
 await
 openTabs
 .
