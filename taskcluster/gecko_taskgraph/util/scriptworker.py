@@ -483,6 +483,21 @@ updates
 "
 pine
 "
+            
+#
+bug
+1877483
+:
+larch
+has
+similar
+needs
+for
+nightlies
+            
+"
+larch
+"
         
 }
     
@@ -727,6 +742,21 @@ updates
             
 "
 pine
+"
+            
+#
+bug
+1877483
+:
+larch
+has
+similar
+needs
+for
+nightlies
+            
+"
+larch
 "
         
 }
@@ -1007,6 +1037,35 @@ to
 nightly
 "
     
+#
+bug
+1877483
+:
+larch
+has
+similar
+needs
+for
+nightlies
+    
+"
+nightly
+-
+larch
+"
+:
+"
+beetmover
+:
+action
+:
+push
+-
+to
+-
+nightly
+"
+    
 "
 default
 "
@@ -1192,6 +1251,21 @@ updates
             
 "
 pine
+"
+            
+#
+bug
+1877483
+:
+larch
+has
+similar
+needs
+for
+nightlies
+            
+"
+larch
 "
         
 }
