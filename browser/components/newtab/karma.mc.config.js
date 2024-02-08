@@ -929,7 +929,9 @@ branches
 *
 TopSitesFeed
 .
-jsm
+sys
+.
+mjs
 is
 tested
 via
@@ -943,7 +945,9 @@ lib
 /
 TopSitesFeed
 .
-jsm
+sys
+.
+mjs
 "
 :
 {

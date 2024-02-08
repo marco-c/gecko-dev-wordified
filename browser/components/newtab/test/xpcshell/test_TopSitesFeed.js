@@ -40,7 +40,7 @@ DEFAULT_TOP_SITES
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -55,7 +55,9 @@ lib
 /
 TopSitesFeed
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
