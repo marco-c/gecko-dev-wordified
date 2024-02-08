@@ -28812,6 +28812,8 @@ const
 Element
 *
 aInvoker
+bool
+isPopover
 )
 const
 {
@@ -28865,6 +28867,11 @@ index
 )
 ;
 }
+if
+(
+isPopover
+)
+{
 popoverPositions
 .
 LookupOrInsert
@@ -28873,6 +28880,7 @@ newPopover
 index
 )
 ;
+}
 Element
 *
 topmostPopoverAncestor

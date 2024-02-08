@@ -315,6 +315,7 @@ nsAString
 aReturnValue
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Show
 (
@@ -323,6 +324,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ShowModal
 (
