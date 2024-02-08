@@ -492,6 +492,13 @@ gc
 AllocSite
 allocSite
 ;
+/
+/
+Only
+valid
+for
+structs
+.
 gc
 :
 :

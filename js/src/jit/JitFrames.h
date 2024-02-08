@@ -1143,6 +1143,14 @@ JSRuntime
 rt
 )
 ;
+void
+UpdateJitActivationsForCompactingGC
+(
+JSRuntime
+*
+rt
+)
+;
 static
 inline
 uint32_t
