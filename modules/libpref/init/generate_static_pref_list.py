@@ -113,6 +113,10 @@ include
 "
 rust
 "
+    
+"
+set_spidermonkey_pref
+"
 }
 #
 Each
