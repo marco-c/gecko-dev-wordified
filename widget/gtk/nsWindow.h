@@ -5919,6 +5919,14 @@ GdkEventMotion
 aEvent
 )
 ;
+void
+RequestRepaint
+(
+LayoutDeviceIntRegion
+&
+aRepaintRegion
+)
+;
 #
 ifdef
 MOZ_X11
