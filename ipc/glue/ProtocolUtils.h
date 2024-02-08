@@ -3523,11 +3523,13 @@ mActorMap
 ;
 IDMap
 <
+RefPtr
+<
 Shmem
 :
 :
 SharedMemory
-*
+>
 >
 mShmemMap
 ;
