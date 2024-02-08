@@ -359,7 +359,7 @@ testGetValue
 ;
 ShoppingUtils
 .
-maybeRecordExposure
+onLocationChange
 (
 aLocationURI
 aFlags
@@ -693,7 +693,7 @@ WALMART_PAGE
 ;
 ShoppingUtils
 .
-maybeRecordExposure
+onLocationChange
 (
 WALMART_PAGE
 aFlags
@@ -701,7 +701,7 @@ aFlags
 ;
 ShoppingUtils
 .
-maybeRecordExposure
+onLocationChange
 (
 WALMART_OTHER_PAGE
 aFlags
@@ -709,7 +709,7 @@ aFlags
 ;
 ShoppingUtils
 .
-maybeRecordExposure
+onLocationChange
 (
 WALMART_OTHER_PAGE
 aFlags
