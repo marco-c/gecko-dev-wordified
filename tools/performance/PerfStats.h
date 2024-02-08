@@ -417,6 +417,11 @@ HttpChannelResponseEndParentToContent
 \
 MACRO
 (
+HttpTransactionWaitTime
+)
+\
+MACRO
+(
 ResponseEndSocketToParent
 )
 \
