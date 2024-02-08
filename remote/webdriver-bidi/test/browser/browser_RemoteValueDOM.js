@@ -112,8 +112,8 @@ throws
 >
 deserialize
 (
-realm
 serializedValue
+realm
 {
 nodeCache
 }
@@ -176,8 +176,8 @@ throws
 >
 deserialize
 (
-realm
 serializedValue
+realm
 {
 nodeCache
 }
@@ -272,8 +272,8 @@ node
 =
 deserialize
 (
-realm
 serializedValue
+realm
 {
 nodeCache
 }
@@ -366,8 +366,8 @@ node
 =
 deserialize
 (
-realm
 serializedValue
+realm
 {
 nodeCache
 }
@@ -460,11 +460,11 @@ throws
 >
 deserialize
 (
+serializedValue
 new
 Realm
 (
 )
-serializedValue
 {
 nodeCache
 }
@@ -600,8 +600,8 @@ node
 =
 deserialize
 (
-realm
 serializedValue
+realm
 {
 nodeCache
 }
