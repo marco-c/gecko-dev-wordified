@@ -1214,7 +1214,13 @@ output_timeout
     
 env
 =
-None
+os
+.
+environ
+.
+copy
+(
+)
     
 npm
 _
@@ -1235,16 +1241,6 @@ env
 "
 )
 :
-        
-env
-=
-os
-.
-environ
-.
-copy
-(
-)
         
 env
 .
