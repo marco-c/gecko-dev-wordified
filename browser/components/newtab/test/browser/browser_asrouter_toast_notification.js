@@ -75,7 +75,7 @@ ToastNotification
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -90,7 +90,9 @@ lib
 /
 ToastNotification
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
