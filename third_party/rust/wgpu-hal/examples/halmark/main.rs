@@ -3228,9 +3228,6 @@ submit
 &
 init_cmd
 ]
-&
-[
-]
 Some
 (
 (
@@ -3428,9 +3425,6 @@ queue
 .
 submit
 (
-&
-[
-]
 &
 [
 ]
@@ -4779,11 +4773,6 @@ submit
 [
 &
 cmd_buf
-]
-&
-[
-&
-surface_tex
 ]
 fence_param
 )

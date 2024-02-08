@@ -151,7 +151,6 @@ error
 [
 derive
 (
-Clone
 Debug
 PartialEq
 )

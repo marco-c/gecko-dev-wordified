@@ -10382,16 +10382,6 @@ super
 :
 CommandBuffer
 ]
-_surface_textures
-:
-&
-[
-&
-super
-:
-:
-Texture
-]
 signal_fence
 :
 Option
