@@ -1107,16 +1107,6 @@ mLock
 )
 override
 ;
-FontVisibility
-GetVisibilityForFamily
-(
-const
-nsACString
-&
-aName
-)
-const
-;
 void
 AppendFaceFromFontListEntry
 (
