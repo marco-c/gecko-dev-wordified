@@ -2991,6 +2991,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+bool
+IsScriptPreloadedAndHasParseError
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 /
 /
 The
