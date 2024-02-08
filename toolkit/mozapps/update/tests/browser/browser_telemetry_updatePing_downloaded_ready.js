@@ -433,7 +433,9 @@ payload
 .
 )
 ;
-ok
+Assert
+.
+equal
 (
 typeof
 updatePing
@@ -442,8 +444,6 @@ payload
 [
 f
 ]
-=
-=
 "
 string
 "

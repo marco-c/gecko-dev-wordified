@@ -502,11 +502,11 @@ remoteTab
 .
 osPid
 ;
-ok
+Assert
+.
+notEqual
 (
 currentPid
-!
-=
 newPid
 "
 The

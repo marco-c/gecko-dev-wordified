@@ -388,11 +388,11 @@ randomization
 is
 disabled
 .
-ok
+Assert
+.
+lessOrEqual
 (
 diffCnt
-<
-=
 expected
 "
 The
@@ -1778,7 +1778,9 @@ testFlushAllChildren
 (
 )
 ;
-ok
+Assert
+.
+greater
 (
 Glean
 .
@@ -1791,7 +1793,6 @@ testGetValue
 )
 .
 sum
->
 0
 "
 The

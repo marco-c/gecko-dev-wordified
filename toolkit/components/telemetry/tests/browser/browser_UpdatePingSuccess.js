@@ -753,12 +753,12 @@ channelField
 null
 )
 {
-ok
+Assert
+.
+equal
 (
 typeof
 channelField
-=
-=
 "
 string
 "

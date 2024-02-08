@@ -1234,13 +1234,13 @@ Escape
 }
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 doc
 .
 activeElement
-!
-=
 input
 "
 The
@@ -1751,7 +1751,9 @@ i
 visibleCommands
 )
 {
-ok
+Assert
+.
+notEqual
 (
 getComputedStyle
 (
@@ -1759,8 +1761,6 @@ row
 )
 .
 display
-!
-=
 "
 none
 "
@@ -1942,7 +1942,9 @@ of
 shortcutRows
 )
 {
-ok
+Assert
+.
+notEqual
 (
 getComputedStyle
 (
@@ -1950,8 +1952,6 @@ row
 )
 .
 display
-!
-=
 "
 none
 "
@@ -2268,7 +2268,9 @@ of
 shortcutRows
 )
 {
-ok
+Assert
+.
+notEqual
 (
 getComputedStyle
 (
@@ -2276,8 +2278,6 @@ row
 )
 .
 display
-!
-=
 "
 none
 "

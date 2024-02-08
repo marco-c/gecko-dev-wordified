@@ -135,13 +135,13 @@ settings
 =
 helper
 ;
-ok
+Assert
+.
+equal
 (
 settings
 .
 outputDestination
-=
-=
 Ci
 .
 nsIPrintSettings

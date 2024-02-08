@@ -315,10 +315,11 @@ data
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 expectedByteLength
->
 0
 "
 Got
@@ -953,7 +954,9 @@ id
 =
 1865850
 .
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -963,8 +966,6 @@ gleanMetric
 -
 mirror
 )
-<
-=
 1
 Expect
 Glean

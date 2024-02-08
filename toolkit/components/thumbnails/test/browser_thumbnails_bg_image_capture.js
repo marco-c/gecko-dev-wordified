@@ -434,7 +434,9 @@ to
 account
 for
 rounding
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -446,8 +448,6 @@ naturalWidth
 -
 expectedWidth
 )
-<
-=
 1
 "
 The
@@ -460,7 +460,9 @@ width
 "
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -472,8 +474,6 @@ naturalHeight
 -
 expectedHeight
 )
-<
-=
 1
 "
 The

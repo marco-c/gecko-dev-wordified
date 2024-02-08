@@ -407,13 +407,13 @@ of
 filePaths
 )
 {
-ok
+Assert
+.
+notEqual
 (
 uri
 .
 file
-!
-=
 null
 Should
 have

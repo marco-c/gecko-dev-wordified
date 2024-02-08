@@ -239,7 +239,9 @@ testAMessage
 aMessage
 )
 ;
-ok
+Assert
+.
+greater
 (
 aMessage
 .
@@ -249,7 +251,6 @@ indexOf
 basicDeprecatedFunction
 "
 )
->
 0
 "
 Callstack
@@ -303,7 +304,9 @@ expectedObservation
 aMessage
 )
 {
-ok
+Assert
+.
+greater
 (
 aMessage
 .
@@ -316,7 +319,6 @@ a
 URL
 "
 )
->
 0
 "
 Deprecation
@@ -372,7 +374,9 @@ testAMessage
 aMessage
 )
 ;
-ok
+Assert
+.
+greater
 (
 aMessage
 .
@@ -382,7 +386,6 @@ indexOf
 deprecationFunctionBogusCallstack
 "
 )
->
 0
 "
 Callstack
@@ -423,7 +426,9 @@ testAMessage
 aMessage
 )
 ;
-ok
+Assert
+.
+greater
 (
 aMessage
 .
@@ -433,7 +438,6 @@ indexOf
 deprecationFunctionCustomCallstack
 "
 )
->
 0
 "
 Callstack
@@ -471,7 +475,9 @@ testAMessage
 aMessage
 )
 {
-ok
+Assert
+.
+strictEqual
 (
 aMessage
 .
@@ -488,9 +494,6 @@ deprecated
 .
 "
 )
-=
-=
-=
 0
 "
 Deprecation
@@ -501,7 +504,9 @@ logged
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 aMessage
 .
@@ -517,7 +522,6 @@ example
 com
 "
 )
->
 0
 "
 URL

@@ -1241,7 +1241,9 @@ value
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 resizedValues
 [
@@ -1249,7 +1251,6 @@ resizedValues
 ]
 -
 50
->
 values
 [
 1
@@ -1260,7 +1261,9 @@ value
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 resizedValues
 [
@@ -1268,7 +1271,6 @@ resizedValues
 ]
 -
 50
->
 values
 [
 2

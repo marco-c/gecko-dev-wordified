@@ -13319,12 +13319,13 @@ normalBmk
 guid
 )
 {
-ok
+Assert
+.
+greater
 (
 field
 .
 lastModified
->
 normalBmk
 .
 lastModified

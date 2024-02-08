@@ -483,11 +483,11 @@ uninstall
 (
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 gCacheFlushCount
->
-=
 1
 )
 ;

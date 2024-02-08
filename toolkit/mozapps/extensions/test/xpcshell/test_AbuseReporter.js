@@ -3479,10 +3479,11 @@ submit
 await
 onRequestReceived
 ;
-ok
+Assert
+.
+greater
 (
 receivedRequestsCount
->
 0
 "
 Got
@@ -3494,8 +3495,9 @@ requests
 "
 )
 ;
-ok
-(
+Assert
+.
+strictEqual
 (
 await
 Promise
@@ -3514,10 +3516,6 @@ pending
 )
 ]
 )
-)
-=
-=
-=
 "
 pending
 "

@@ -2229,14 +2229,13 @@ reason
 }
 else
 {
-ok
+Assert
+.
+strictEqual
 (
 localizedSuggestionsContent
 .
 length
-=
-=
-=
 0
 Category
 suggestions

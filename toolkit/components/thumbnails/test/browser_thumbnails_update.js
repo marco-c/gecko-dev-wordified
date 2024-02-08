@@ -607,7 +607,7 @@ URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL
@@ -690,13 +690,14 @@ gBrowser
 selectedBrowser
 )
 ;
-ok
+Assert
+.
+less
 (
 getThumbnailModifiedTime
 (
 URL
 )
-<
 now
 "
 modified
@@ -919,7 +920,7 @@ URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL

@@ -3041,10 +3041,11 @@ getSheetCount
 helper
 )
 ;
-ok
+Assert
+.
+less
 (
 initialSheetCount
-<
 newSheetCount
 There
 are
@@ -3871,10 +3872,11 @@ getSheetCount
 helper
 )
 ;
-ok
+Assert
+.
+less
 (
 initialSheetCount
-<
 newSheetCount
 There
 are

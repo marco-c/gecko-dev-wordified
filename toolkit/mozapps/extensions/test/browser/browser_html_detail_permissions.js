@@ -1867,7 +1867,9 @@ perms
 added
 ;
 }
-ok
+Assert
+.
+greater
 (
 perms
 .
@@ -1880,7 +1882,6 @@ perms
 origins
 .
 length
->
 0
 "
 Some

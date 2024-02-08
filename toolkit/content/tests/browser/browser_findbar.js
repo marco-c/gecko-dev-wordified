@@ -649,7 +649,9 @@ S
 true
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 gBrowser
 .
@@ -662,9 +664,6 @@ _findStatusDesc
 dataset
 .
 l10nId
-=
-=
-=
 undefined
 "
 Findbar
@@ -864,7 +863,9 @@ S
 true
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 findbar2
 .
@@ -873,9 +874,6 @@ _findStatusDesc
 dataset
 .
 l10nId
-=
-=
-=
 undefined
 "
 Findbar
@@ -1138,7 +1136,9 @@ s
 false
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 findbar
 .
@@ -1147,9 +1147,6 @@ _findStatusDesc
 dataset
 .
 l10nId
-=
-=
-=
 undefined
 "
 Findbar
@@ -1209,7 +1206,7 @@ E10S_PARENT_TEST_PAGE_URI
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 E10S_PARENT_TEST_PAGE_URI
@@ -1326,7 +1323,9 @@ s
 false
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 findbar
 .
@@ -1335,9 +1334,6 @@ _findStatusDesc
 dataset
 .
 l10nId
-=
-=
-=
 undefined
 "
 Findbar
@@ -1880,10 +1876,11 @@ scrollTop
 }
 )
 ;
-ok
+Assert
+.
+greater
 (
 scrollPosition
->
 0
 "
 Scrolled
