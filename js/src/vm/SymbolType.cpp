@@ -621,7 +621,7 @@ description
 )
 -
 >
-dumpCharsNoNewline
+dumpChars
 (
 out
 )
@@ -685,7 +685,7 @@ description
 )
 -
 >
-dumpCharsNoNewline
+dumpChars
 (
 out
 )
@@ -773,7 +773,7 @@ description
 )
 -
 >
-dumpCharsNoNewline
+dumpChars
 (
 out
 )
