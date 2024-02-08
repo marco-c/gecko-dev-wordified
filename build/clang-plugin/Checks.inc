@@ -435,6 +435,17 @@ lambda
 )
 CHECK
 (
+RefCountedThisInsideConstructorChecker
+"
+refcount
+-
+within
+-
+constructor
+"
+)
+CHECK
+(
 ScopeChecker
 "
 scope
