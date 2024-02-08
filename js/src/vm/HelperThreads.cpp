@@ -6997,16 +6997,7 @@ IsHelperThreadSimulatingOOM
 js
 :
 :
-THREAD_TYPE_WASM_COMPILE_TIER1
-)
-|
-|
-IsHelperThreadSimulatingOOM
-(
-js
-:
-:
-THREAD_TYPE_WASM_COMPILE_TIER2
+THREAD_TYPE_PROMISE_TASK
 )
 )
 {
