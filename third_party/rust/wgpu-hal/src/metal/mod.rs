@@ -1893,6 +1893,13 @@ command_buffers
 &
 CommandBuffer
 ]
+_surface_textures
+:
+&
+[
+&
+SurfaceTexture
+]
 signal_fence
 :
 Option
