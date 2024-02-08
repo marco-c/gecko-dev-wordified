@@ -95,12 +95,12 @@ mjs
 ;
 const
 {
-XPIInstall
+XPIExports
 }
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -113,9 +113,11 @@ modules
 /
 addons
 /
-XPIInstall
+XPIExports
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1195,6 +1197,8 @@ mockLangpackInstall
 let
 original
 =
+XPIExports
+.
 XPIInstall
 .
 stageLangpacksForAppUpdate
@@ -1206,6 +1210,8 @@ registerCleanupFunction
 =
 >
 {
+XPIExports
+.
 XPIInstall
 .
 stageLangpacksForAppUpdate
@@ -1224,6 +1230,8 @@ withResolvers
 (
 )
 ;
+XPIExports
+.
 XPIInstall
 .
 stageLangpacksForAppUpdate

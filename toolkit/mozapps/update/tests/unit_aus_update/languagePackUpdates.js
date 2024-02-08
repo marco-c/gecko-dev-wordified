@@ -52,12 +52,12 @@ mjs
 ;
 const
 {
-XPIInstall
+XPIExports
 }
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -70,9 +70,11 @@ modules
 /
 addons
 /
-XPIInstall
+XPIExports
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -317,6 +319,8 @@ withResolvers
 (
 )
 ;
+XPIExports
+.
 XPIInstall
 .
 stageLangpacksForAppUpdate
@@ -1271,6 +1275,8 @@ stageCount
 =
 0
 ;
+XPIExports
+.
 XPIInstall
 .
 stageLangpacksForAppUpdate

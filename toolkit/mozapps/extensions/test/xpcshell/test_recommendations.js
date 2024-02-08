@@ -34,12 +34,12 @@ strict
 ;
 const
 {
-XPIInstall
+XPIExports
 }
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,9 +52,11 @@ modules
 /
 addons
 /
-XPIInstall
+XPIExports
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1532,6 +1534,8 @@ let
 addon
 =
 await
+XPIExports
+.
 XPIInstall
 .
 installTemporaryAddon
@@ -1660,6 +1664,8 @@ let
 addon
 =
 await
+XPIExports
+.
 XPIInstall
 .
 installTemporaryAddon
