@@ -304,10 +304,7 @@ aResult
 }
 #
 endif
-Maybe
-<
 Cursor
->
 GetCursor
 (
 const
@@ -823,13 +820,10 @@ aRepaint
 )
 {
 }
-Maybe
-<
 nsIFrame
 :
 :
 Cursor
->
 nsImageControlFrame
 :
 :
@@ -874,8 +868,6 @@ Pointer
 ;
 }
 return
-Some
-(
 Cursor
 {
 kind
@@ -884,7 +876,6 @@ AllowCustomCursorImage
 :
 Yes
 }
-)
 ;
 }
 nsresult

@@ -19157,13 +19157,10 @@ aEventStatus
 )
 ;
 }
-Maybe
-<
 nsIFrame
 :
 :
 Cursor
->
 nsImageFrame
 :
 :
@@ -19364,8 +19361,6 @@ Default
 ;
 }
 return
-Some
-(
 Cursor
 {
 kind
@@ -19381,7 +19376,6 @@ move
 areaStyle
 )
 }
-)
 ;
 }
 nsresult

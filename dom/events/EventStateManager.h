@@ -7950,11 +7950,6 @@ StyleCursorKind
 mLockCursor
 ;
 bool
-mLastFrameConsumedSetCursor
-=
-false
-;
-bool
 mHidingCursorWhileTyping
 =
 false

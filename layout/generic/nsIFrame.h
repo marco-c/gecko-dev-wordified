@@ -17205,10 +17205,7 @@ frame
 *
 /
 virtual
-Maybe
-<
 Cursor
->
 GetCursor
 (
 const
