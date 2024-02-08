@@ -129,17 +129,6 @@ findBestMatchExpression
 "
 ;
 import
-{
-hasSyntaxError
-}
-from
-"
-.
-/
-validate
-"
-;
-import
 mapExpression
 from
 "
@@ -217,7 +206,6 @@ getScopes
 clearSources
 :
 clearAllHelpersForSources
-hasSyntaxError
 mapExpression
 setSource
 }
