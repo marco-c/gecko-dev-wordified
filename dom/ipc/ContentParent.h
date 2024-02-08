@@ -299,15 +299,6 @@ include
 "
 mozilla
 /
-FileUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HalTypes
 .
 h
@@ -9150,7 +9141,7 @@ process
 s
 lifetime
 .
-ScopedClose
+UniqueFileHandle
 mChildXSocketFdDup
 ;
 #
