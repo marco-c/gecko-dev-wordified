@@ -1,12 +1,6 @@
 import
 pytest
 from
-urllib
-.
-parse
-import
-urlparse
-from
 .
 .
 import
@@ -27,62 +21,49 @@ parametrize
 (
     
 "
-protocol
+secure
 "
     
 [
         
-"
-http
-"
+True
         
-"
-https
-"
+False
+        
+None
     
 ]
 )
 async
 def
-test_page_protocols
+test_cookie_secure
 (
 bidi_session
 set_cookie
-get_test_page
-protocol
+test_page
+domain_value
+secure
 )
 :
-    
-url
-=
-get_test_page
-(
-protocol
-=
-protocol
-)
-    
-domain
-=
-urlparse
-(
-url
-)
-.
-hostname
     
 set_cookie_result
 =
 await
 set_cookie
 (
+        
 cookie
 =
 create_cookie
 (
 domain
 =
-domain
+domain_value
+(
+)
+secure
+=
+secure
 )
 )
     
@@ -102,13 +83,22 @@ partitionKey
 }
     
 #
-Assert
-the
-cookie
-is
-actually
-set
+secure
+defaults
+to
+false
 .
+    
+expected_secure
+=
+secure
+if
+secure
+is
+not
+None
+else
+False
     
 await
 assert_cookie_is_set
@@ -116,5 +106,10 @@ assert_cookie_is_set
 bidi_session
 domain
 =
-domain
+domain_value
+(
+)
+secure
+=
+expected_secure
 )
