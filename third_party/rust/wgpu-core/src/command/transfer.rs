@@ -70,10 +70,6 @@ CommandEncoderId
 DeviceId
 TextureId
 }
-identity
-:
-:
-GlobalIdentityHandlerFactory
 init_tracker
 :
 :
@@ -3639,15 +3635,7 @@ Ok
 )
 }
 impl
-<
-G
-:
-GlobalIdentityHandlerFactory
->
 Global
-<
-G
->
 {
 pub
 fn
