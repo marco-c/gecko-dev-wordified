@@ -129,6 +129,11 @@ keywords
 array
 "
 ]
+score
+:
+0
+.
+24
 }
 ]
 }
@@ -156,7 +161,7 @@ REMOTE_SETTINGS_DATA
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -254,6 +259,19 @@ result
 payload
 .
 provider
+UrlbarPrefs
+.
+get
+(
+"
+quickSuggestRustEnabled
+"
+)
+?
+"
+Mdn
+"
+:
 "
 MDNSuggestions
 "
@@ -325,7 +343,7 @@ row
 group
 label
 .
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -422,7 +440,7 @@ window
 }
 )
 ;
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -539,7 +557,7 @@ menu
 dismissal
 command
 .
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -657,7 +675,7 @@ menu
 dismissal
 command
 .
-add_task
+add_tasks_with_rust
 (
 async
 function
