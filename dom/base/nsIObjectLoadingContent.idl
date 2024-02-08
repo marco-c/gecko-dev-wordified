@@ -110,9 +110,6 @@ interface
 nsIFrame
 ;
 interface
-nsIPluginTag
-;
-interface
 nsIURI
 ;
 webidl

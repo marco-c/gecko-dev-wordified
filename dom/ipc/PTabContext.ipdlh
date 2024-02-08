@@ -222,14 +222,6 @@ maxTouchPoints
 ;
 }
 ;
-struct
-JSPluginFrameIPCTabContext
-{
-uint32_t
-jsPluginId
-;
-}
-;
 /
 /
 IPCTabContext
@@ -319,8 +311,6 @@ IPCTabContext
 PopupIPCTabContext
 ;
 FrameIPCTabContext
-;
-JSPluginFrameIPCTabContext
 ;
 }
 ;
