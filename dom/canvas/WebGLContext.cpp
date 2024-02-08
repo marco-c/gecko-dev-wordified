@@ -1067,6 +1067,13 @@ Create
 "
 )
 ;
+WebGLMemoryTracker
+:
+:
+EnsureRegistered
+(
+)
+;
 }
 WebGLContext
 :

@@ -119,6 +119,12 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIMEMORYREPORTER
+static
+void
+EnsureRegistered
+(
+)
+;
 private
 :
 virtual
