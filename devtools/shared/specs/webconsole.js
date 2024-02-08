@@ -1015,6 +1015,17 @@ nullable
 boolean
 "
 )
+preferConsoleCommandsOverLocalSymbols
+:
+Option
+(
+0
+"
+nullable
+:
+boolean
+"
+)
 }
 response
 :
