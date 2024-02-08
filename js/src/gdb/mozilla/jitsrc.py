@@ -252,13 +252,7 @@ patterns
 (
         
 "
-__memmove_
-(
-avx
-|
-evex
-)
-_unaligned_erms
+__memmove
 "
         
 1
@@ -292,13 +286,7 @@ dst
 (
         
 "
-__memcpy_
-(
-avx
-|
-evex
-)
-_unaligned
+__memcpy
 "
         
 1
@@ -332,13 +320,7 @@ dst
 (
         
 "
-__memmove_
-(
-avx
-|
-evex
-)
-_unaligned_erms
+__memmove
 "
         
 1
@@ -362,13 +344,7 @@ ret
     
 (
 "
-__memcpy_
-(
-avx
-|
-evex
-)
-_unaligned
+__memcpy
 "
 1
 "
@@ -439,13 +415,7 @@ newBuf
 (
         
 "
-__memmove_
-(
-avx
-|
-evex
-)
-_unaligned_erms
+__memmove
 "
         
 1
@@ -480,7 +450,7 @@ dest
 (
         
 "
-__memcpy_sse2_unaligned
+__memcpy
 "
         
 1
@@ -515,7 +485,7 @@ dest
 (
         
 "
-__memcpy_sse2_unaligned
+__memcpy
 "
         
 2
@@ -553,7 +523,7 @@ buffer
     
 (
 "
-__memcpy_sse2_unaligned
+__memcpy
 "
 1
 "
