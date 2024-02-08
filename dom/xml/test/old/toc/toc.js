@@ -221,9 +221,7 @@ contents
 var
 searchTags
 =
-new
-Array
-(
+[
 "
 book
 "
@@ -233,14 +231,12 @@ chapter
 "
 section
 "
-)
+]
 ;
 var
 tocTags
 =
-new
-Array
-(
+[
 "
 level1
 "
@@ -250,7 +246,7 @@ level2
 "
 level3
 "
-)
+]
 ;
 function
 addToToc
