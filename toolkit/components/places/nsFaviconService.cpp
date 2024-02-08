@@ -4446,6 +4446,12 @@ thumb
 "
 _ns
 "
+page
+-
+icon
+"
+_ns
+"
 resource
 "
 _ns

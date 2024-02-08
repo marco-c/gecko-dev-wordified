@@ -73,12 +73,6 @@ https
 /
 /
 "
-"
-page
--
-icon
-:
-"
 ]
 )
 {
@@ -198,6 +192,12 @@ thumb
 :
 /
 /
+"
+"
+page
+-
+icon
+:
 "
 "
 resource

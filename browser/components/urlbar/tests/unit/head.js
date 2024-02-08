@@ -4528,10 +4528,6 @@ undefined
 ?
 iconUri
 :
-cached
--
-favicon
-:
 page
 -
 icon
