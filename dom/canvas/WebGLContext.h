@@ -2838,7 +2838,7 @@ the
 preserveDrawingBuffer
 option
 .
-void
+bool
 CopyToSwapChain
 (
 WebGLFramebuffer
