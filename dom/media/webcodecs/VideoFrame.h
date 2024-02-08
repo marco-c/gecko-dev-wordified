@@ -546,8 +546,6 @@ protected
 VideoFrame
 (
 )
-=
-default
 ;
 public
 :
