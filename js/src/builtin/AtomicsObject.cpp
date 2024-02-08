@@ -462,7 +462,7 @@ bool
 waitable
 MutableHandle
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 >
 unwrappedTypedArray
@@ -478,6 +478,16 @@ implicit
 .
 /
 /
+TODO
+(
+anba
+)
+:
+support
+resizable
+buffers
+/
+/
 Step
 2
 .
@@ -487,7 +497,7 @@ unwrapped
 =
 UnwrapAndTypeCheckValue
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 >
 (
 cx
@@ -705,7 +715,7 @@ JSContext
 cx
 Handle
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 >
 typedArray
@@ -1516,7 +1526,7 @@ Step
 .
 Rooted
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 >
 unwrappedTypedArray
@@ -1793,7 +1803,7 @@ TypedArrayData
 JSContext
 *
 cx
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 typedArray
 size_t
@@ -1931,7 +1941,7 @@ auto
 ops
 Handle
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 >
 unwrappedTypedArray
@@ -2148,7 +2158,7 @@ auto
 ops
 Handle
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 >
 unwrappedTypedArray
@@ -2313,7 +2323,7 @@ auto
 ops
 Handle
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 >
 unwrappedTypedArray
@@ -2489,7 +2499,7 @@ auto
 ops
 Handle
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 >
 unwrappedTypedArray
@@ -4110,7 +4120,7 @@ JSContext
 cx
 Handle
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 >
 unwrappedTypedArray
@@ -4553,7 +4563,7 @@ Step
 .
 Rooted
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 >
 unwrappedTypedArray
@@ -5174,7 +5184,7 @@ Step
 .
 Rooted
 <
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 >
 unwrappedTypedArray
