@@ -970,13 +970,6 @@ ipred_z2
 avx512icl
 )
 ;
-init_angular_ipred_fn
-(
-Z3_PRED
-ipred_z3
-avx512icl
-)
-;
 #
 endif
 init_angular_ipred_fn
@@ -1011,6 +1004,13 @@ init_angular_ipred_fn
 (
 Z1_PRED
 ipred_z1
+avx512icl
+)
+;
+init_angular_ipred_fn
+(
+Z3_PRED
+ipred_z3
 avx512icl
 )
 ;
