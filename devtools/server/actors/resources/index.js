@@ -2516,6 +2516,12 @@ targetType
 )
 ;
 }
+const
+promises
+=
+[
+]
+;
 for
 (
 const
@@ -2630,7 +2636,10 @@ WatcherClass
 (
 )
 ;
-await
+promises
+.
+push
+(
 watcher
 .
 watch
@@ -2678,6 +2687,7 @@ destroyed
 )
 }
 )
+)
 ;
 watchers
 .
@@ -2688,6 +2698,14 @@ watcher
 )
 ;
 }
+await
+Promise
+.
+all
+(
+promises
+)
+;
 }
 exports
 .
