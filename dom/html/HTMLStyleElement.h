@@ -154,6 +154,9 @@ nsStubMutationObserver
 .
 h
 "
+class
+nsDOMTokenList
+;
 namespace
 mozilla
 :
@@ -480,6 +483,12 @@ aError
 )
 ;
 }
+nsDOMTokenList
+*
+Blocking
+(
+)
+;
 virtual
 JSObject
 *
@@ -599,6 +608,12 @@ nsIContent
 *
 aContent
 )
+;
+RefPtr
+<
+nsDOMTokenList
+>
+mBlocking
 ;
 }
 ;
