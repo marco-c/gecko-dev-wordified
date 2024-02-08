@@ -291,6 +291,14 @@ newtab
 common
 "
 )
+modules
+:
+absolute
+(
+"
+modules
+"
+)
 }
 }
 }
