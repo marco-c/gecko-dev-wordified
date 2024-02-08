@@ -206,6 +206,13 @@ sys
 .
 mjs
 "
+"
+modules
+/
+CFRPageActions
+.
+jsm
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +
