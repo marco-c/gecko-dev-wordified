@@ -1058,6 +1058,11 @@ IntrinsicTypedArrayLength
 \
 _
 (
+IntrinsicTypedArrayLengthZeroOnOutOfBounds
+)
+\
+_
+(
 IntrinsicPossiblyWrappedTypedArrayLength
 )
 \
