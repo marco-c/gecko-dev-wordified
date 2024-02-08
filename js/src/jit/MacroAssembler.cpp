@@ -6038,7 +6038,7 @@ liveRegs
 Label
 *
 fail
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 templateObj
 TypedArrayLength
