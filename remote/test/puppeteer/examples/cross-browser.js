@@ -84,8 +84,6 @@ launcher
 option
 .
 *
-*
-*
 /
 const
 firefoxOptions

@@ -7,6 +7,18 @@ https
 ;
 import
 {
+before
+after
+}
+from
+'
+node
+:
+test
+'
+;
+import
+{
 join
 }
 from
@@ -174,7 +186,7 @@ on
 (
 _
 :
-any
+string
 callback
 :
 (
@@ -484,7 +496,7 @@ userOptions
 Record
 <
 string
-any
+unknown
 >
 )
 :
