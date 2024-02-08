@@ -85,7 +85,7 @@ notall
 "
 expectedNumber
 :
-3
+4
 }
 ]
 ;

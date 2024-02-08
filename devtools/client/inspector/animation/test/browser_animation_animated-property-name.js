@@ -575,6 +575,17 @@ notall
 property
 :
 "
+-
+-
+ball
+-
+color
+"
+}
+{
+property
+:
+"
 opacity
 "
 isOnCompositor
