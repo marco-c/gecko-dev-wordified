@@ -71523,6 +71523,9 @@ SetFirstLetterComplete
 }
 if
 (
+brokeText
+&
+&
 breakPriority
 =
 =
