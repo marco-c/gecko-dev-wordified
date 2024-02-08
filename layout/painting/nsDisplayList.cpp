@@ -1373,15 +1373,6 @@ aScrollableFrame
 asr
 -
 >
-mViewId
-=
-Nothing
-(
-)
-;
-asr
--
->
 mDepth
 =
 aParent
