@@ -844,8 +844,6 @@ Origin
 origin
 )
         
-_ACAPN
-        
 (
 "
 Access
@@ -861,24 +859,7 @@ true
 "
 )
         
-(
-"
-Access
--
-Control
--
-Allow
--
-Headers
-"
-"
-Upgrade
--
-Insecure
--
-Requests
-"
-)
+_ACAPN
     
 ]
   
