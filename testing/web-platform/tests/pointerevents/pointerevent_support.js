@@ -215,6 +215,9 @@ check_PointerEvent
 (
 event
 testNamePrefix
+standardAttrs
+=
+true
 )
 {
 if
@@ -285,6 +288,11 @@ type
 ;
 if
 (
+standardAttrs
+)
+{
+if
+(
 expectedPointerType
 !
 =
@@ -351,6 +359,7 @@ event
 "
 )
 ;
+}
 /
 /
 Check
@@ -512,6 +521,12 @@ and
 default
 -
 actions
+if
+(
+!
+standardAttrs
+)
+{
 test
 (
 function
@@ -582,6 +597,9 @@ null
 "
 )
 ;
+}
+else
+{
 test
 (
 function
@@ -1131,6 +1149,7 @@ pointerup
 "
 )
 ;
+}
 }
 }
 function
