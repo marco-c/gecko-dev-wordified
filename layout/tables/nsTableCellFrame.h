@@ -590,6 +590,13 @@ GetContentInsertionFrame
 )
 ;
 }
+nsIFrame
+*
+CellContentFrame
+(
+)
+const
+;
 nsMargin
 GetUsedMargin
 (
