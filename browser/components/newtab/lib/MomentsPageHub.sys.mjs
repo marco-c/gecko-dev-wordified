@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 lazy
 =
@@ -198,6 +193,7 @@ REACH_EVENT_OBJECT
 moments_page
 "
 ;
+export
 class
 _MomentsPageHub
 {
@@ -958,6 +954,7 @@ messages
 .
 *
 /
+export
 const
 MomentsPageHub
 =
@@ -965,16 +962,4 @@ new
 _MomentsPageHub
 (
 )
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-_MomentsPageHub
-"
-"
-MomentsPageHub
-"
-]
 ;
