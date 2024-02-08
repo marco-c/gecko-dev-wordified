@@ -9372,16 +9372,6 @@ client_validation
 true
 )
 ;
-pref
-(
-"
-dom
-.
-send_after_paint_to_content
-"
-false
-)
-;
 /
 /
 Enable
