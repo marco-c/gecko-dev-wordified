@@ -2387,6 +2387,11 @@ TypedArrayObject
 length
 (
 )
+.
+valueOr
+(
+0
+)
 ;
 /
 /

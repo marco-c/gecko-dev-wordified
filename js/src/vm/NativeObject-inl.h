@@ -4947,6 +4947,11 @@ TypedArrayObject
 length
 (
 )
+.
+valueOr
+(
+0
+)
 )
 {
 propp
