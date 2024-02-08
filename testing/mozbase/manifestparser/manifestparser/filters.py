@@ -3472,6 +3472,13 @@ self
 keyword
 =
 keyword
+.
+strip
+(
+'
+"
+'
+)
     
 def
 __call__
