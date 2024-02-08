@@ -30009,7 +30009,7 @@ view
 .
 focusNextOnEnter
 "
-false
+true
 )
 ;
 /
