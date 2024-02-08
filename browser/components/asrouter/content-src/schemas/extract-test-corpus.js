@@ -102,11 +102,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
+/
+asrouter
 /
 OnboardingMessageProvider
 .

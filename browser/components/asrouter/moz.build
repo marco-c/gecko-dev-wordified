@@ -225,6 +225,13 @@ mjs
 "
 modules
 /
+OnboardingMessageProvider
+.
+jsm
+"
+"
+modules
+/
 RemoteL10n
 .
 sys
