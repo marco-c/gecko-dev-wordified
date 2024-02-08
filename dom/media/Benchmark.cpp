@@ -872,6 +872,10 @@ mParameters
 (
 aParameters
 )
+mKeepAliveUntilComplete
+(
+this
+)
 mPlaybackState
 (
 this
@@ -917,10 +921,6 @@ RefPtr
 Benchmark
 >
 self
-=
-this
-;
-mKeepAliveUntilComplete
 =
 this
 ;

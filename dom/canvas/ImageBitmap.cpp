@@ -622,8 +622,8 @@ nsIObserver
 {
 public
 :
-void
-Init
+explicit
+ImageBitmapShutdownObserver
 (
 )
 {
@@ -4071,13 +4071,6 @@ sShutdownObserver
 =
 new
 ImageBitmapShutdownObserver
-(
-)
-;
-sShutdownObserver
--
->
-Init
 (
 )
 ;

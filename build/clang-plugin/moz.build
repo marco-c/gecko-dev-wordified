@@ -274,11 +274,6 @@ RefCountedInsideLambdaChecker
 cpp
 "
 "
-RefCountedThisInsideConstructorChecker
-.
-cpp
-"
-"
 ScopeChecker
 .
 cpp

@@ -304,13 +304,6 @@ h
 #
 include
 "
-RefCountedThisInsideConstructorChecker
-.
-h
-"
-#
-include
-"
 ScopeChecker
 .
 h
