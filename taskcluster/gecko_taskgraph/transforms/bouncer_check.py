@@ -58,7 +58,7 @@ json
 import
 logging
 from
-pipes
+shlex
 import
 quote
 as
