@@ -5004,6 +5004,12 @@ defined
 (
 ZYAN_RISCV64
 )
+|
+|
+defined
+(
+ZYAN_LOONGARCH
+)
 return
 ZyanStringAppendDecU64
 (
@@ -5207,6 +5213,12 @@ ZYAN_PPC64
 defined
 (
 ZYAN_RISCV64
+)
+|
+|
+defined
+(
+ZYAN_LOONGARCH
 )
 return
 ZyanStringAppendHexU64

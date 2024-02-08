@@ -2285,14 +2285,14 @@ disable
 padding
 ZYDIS_PADDING_AUTO
 to
-padd
+pad
 all
 *
 addresses
 to
 the
 current
-stack
+address
 width
 (
 hexadecimal
@@ -2332,14 +2332,14 @@ disable
 padding
 ZYDIS_PADDING_AUTO
 to
-padd
+pad
 all
 *
 addresses
 to
 the
 current
-stack
+address
 width
 (
 hexadecimal
@@ -3045,6 +3045,19 @@ to
 format
 in
 lowercase
+.
+*
+*
+WARNING
+:
+this
+is
+currently
+not
+implemented
+(
+ignored
+)
 .
 *
 /
@@ -8104,7 +8117,7 @@ print_branch_size
 *
 *
 The
-ZYDIS_FORMATTER_DETAILED_PREFIXES
+ZYDIS_FORMATTER_PROP_DETAILED_PREFIXES
 property
 .
 *
@@ -8117,7 +8130,7 @@ detailed_prefixes
 *
 *
 The
-ZYDIS_FORMATTER_ADDR_BASE
+ZYDIS_FORMATTER_PROP_ADDR_BASE
 property
 .
 *
@@ -8130,7 +8143,7 @@ addr_base
 *
 *
 The
-ZYDIS_FORMATTER_ADDR_SIGNEDNESS
+ZYDIS_FORMATTER_PROP_ADDR_SIGNEDNESS
 property
 .
 *
@@ -8143,7 +8156,7 @@ addr_signedness
 *
 *
 The
-ZYDIS_FORMATTER_ADDR_PADDING_ABSOLUTE
+ZYDIS_FORMATTER_PROP_ADDR_PADDING_ABSOLUTE
 property
 .
 *
@@ -8156,7 +8169,7 @@ addr_padding_absolute
 *
 *
 The
-ZYDIS_FORMATTER_ADDR_PADDING_RELATIVE
+ZYDIS_FORMATTER_PROP_ADDR_PADDING_RELATIVE
 property
 .
 *
@@ -8169,7 +8182,7 @@ addr_padding_relative
 *
 *
 The
-ZYDIS_FORMATTER_DISP_BASE
+ZYDIS_FORMATTER_PROP_DISP_BASE
 property
 .
 *
@@ -8182,7 +8195,7 @@ disp_base
 *
 *
 The
-ZYDIS_FORMATTER_DISP_SIGNEDNESS
+ZYDIS_FORMATTER_PROP_DISP_SIGNEDNESS
 property
 .
 *
@@ -8195,7 +8208,7 @@ disp_signedness
 *
 *
 The
-ZYDIS_FORMATTER_DISP_PADDING
+ZYDIS_FORMATTER_PROP_DISP_PADDING
 property
 .
 *
@@ -8208,7 +8221,7 @@ disp_padding
 *
 *
 The
-ZYDIS_FORMATTER_IMM_BASE
+ZYDIS_FORMATTER_PROP_IMM_BASE
 property
 .
 *
@@ -8221,7 +8234,7 @@ imm_base
 *
 *
 The
-ZYDIS_FORMATTER_IMM_SIGNEDNESS
+ZYDIS_FORMATTER_PROP_IMM_SIGNEDNESS
 property
 .
 *
@@ -8234,7 +8247,7 @@ imm_signedness
 *
 *
 The
-ZYDIS_FORMATTER_IMM_PADDING
+ZYDIS_FORMATTER_PROP_IMM_PADDING
 property
 .
 *
@@ -8247,7 +8260,7 @@ imm_padding
 *
 *
 The
-ZYDIS_FORMATTER_UPPERCASE_PREFIXES
+ZYDIS_FORMATTER_PROP_UPPERCASE_PREFIXES
 property
 .
 *
@@ -8260,7 +8273,7 @@ case_prefixes
 *
 *
 The
-ZYDIS_FORMATTER_UPPERCASE_MNEMONIC
+ZYDIS_FORMATTER_PROP_UPPERCASE_MNEMONIC
 property
 .
 *
@@ -8273,7 +8286,7 @@ case_mnemonic
 *
 *
 The
-ZYDIS_FORMATTER_UPPERCASE_REGISTERS
+ZYDIS_FORMATTER_PROP_UPPERCASE_REGISTERS
 property
 .
 *
@@ -8286,7 +8299,7 @@ case_registers
 *
 *
 The
-ZYDIS_FORMATTER_UPPERCASE_TYPECASTS
+ZYDIS_FORMATTER_PROP_UPPERCASE_TYPECASTS
 property
 .
 *
@@ -8299,7 +8312,7 @@ case_typecasts
 *
 *
 The
-ZYDIS_FORMATTER_UPPERCASE_DECORATORS
+ZYDIS_FORMATTER_PROP_UPPERCASE_DECORATORS
 property
 .
 *
@@ -8312,7 +8325,7 @@ case_decorators
 *
 *
 The
-ZYDIS_FORMATTER_HEX_UPPERCASE
+ZYDIS_FORMATTER_PROP_HEX_UPPERCASE
 property
 .
 *
@@ -8325,7 +8338,7 @@ hex_uppercase
 *
 *
 The
-ZYDIS_FORMATTER_HEX_FORCE_LEADING_NUMBER
+ZYDIS_FORMATTER_PROP_HEX_FORCE_LEADING_NUMBER
 property
 .
 *

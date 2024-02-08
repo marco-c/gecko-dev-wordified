@@ -3053,14 +3053,6 @@ active
 machine
 -
 mode
-or
-does
-not
-have
-an
-enclosing
--
-register
 .
 *
 /
