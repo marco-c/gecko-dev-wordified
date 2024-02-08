@@ -14796,12 +14796,12 @@ setBoolean
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 >
 ArrayBufferObject
 :
 :
-MaxByteLengthForSmallBuffer
+ByteLengthLimitForSmallBuffer
 )
 ;
 return

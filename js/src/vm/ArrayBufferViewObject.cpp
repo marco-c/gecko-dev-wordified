@@ -915,7 +915,7 @@ byteOffset
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 MOZ_ASSERT
@@ -926,7 +926,7 @@ length
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 MOZ_ASSERT
@@ -939,7 +939,7 @@ length
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 MOZ_ASSERT_IF
@@ -956,7 +956,7 @@ length
 TypedArrayObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 /
 bytesPerElement
 )
@@ -2538,7 +2538,7 @@ len
 ArrayBufferObject
 :
 :
-MaxByteLengthForSmallBuffer
+ByteLengthLimitForSmallBuffer
 ;
 #
 else
@@ -2559,13 +2559,13 @@ static_assert
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 =
 =
 ArrayBufferObject
 :
 :
-MaxByteLengthForSmallBuffer
+ByteLengthLimitForSmallBuffer
 )
 ;
 return

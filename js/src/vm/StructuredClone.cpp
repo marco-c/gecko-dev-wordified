@@ -16964,7 +16964,7 @@ nelems
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 |
 |
 byteOffset
@@ -16972,7 +16972,7 @@ byteOffset
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 {
 JS_ReportErrorNumberASCII
@@ -17447,7 +17447,7 @@ byteLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 |
 |
 byteOffset
@@ -17455,7 +17455,7 @@ byteOffset
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 {
 JS_ReportErrorNumberASCII
@@ -17734,7 +17734,7 @@ nbytes
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 |
 |
 maxbytes
@@ -17742,7 +17742,7 @@ maxbytes
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 {
 JS_ReportErrorNumberASCII
@@ -18023,7 +18023,7 @@ byteLength
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 {
 JS_ReportErrorNumberASCII
@@ -21247,7 +21247,7 @@ extraData
 ArrayBufferObject
 :
 :
-MaxByteLength
+ByteLengthLimit
 )
 ;
 size_t
