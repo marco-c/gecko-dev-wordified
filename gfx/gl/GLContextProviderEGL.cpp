@@ -7126,16 +7126,6 @@ aSurface
 EGL_NO_SURFACE
 )
 {
-/
-/
-TODO
-:
-This
-breaks
-TLS
-MakeCurrent
-caching
-.
 if
 (
 !
