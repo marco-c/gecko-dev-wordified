@@ -2913,7 +2913,7 @@ taoPassed
 request
 -
 >
-IsData
+ShouldReportRenderTimeForLCP
 (
 )
 |
@@ -2921,7 +2921,7 @@ IsData
 request
 -
 >
-ShouldReportRenderTimeForLCP
+IsData
 (
 )
 ;
