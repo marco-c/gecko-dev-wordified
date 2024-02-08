@@ -5678,6 +5678,9 @@ ffi
 WGPUShaderModuleCompilationMessage
 message
 ;
+ErrorBuffer
+error
+;
 bool
 ok
 =
@@ -5698,6 +5701,17 @@ label
 aCode
 &
 message
+error
+.
+ToFFI
+(
+)
+)
+;
+ForwardError
+(
+aDeviceId
+error
 )
 ;
 nsTArray
