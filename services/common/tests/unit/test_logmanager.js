@@ -455,7 +455,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -479,7 +479,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -503,7 +503,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -632,7 +632,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -656,7 +656,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -680,7 +680,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -756,7 +756,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -780,7 +780,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -804,7 +804,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -910,7 +910,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -936,7 +936,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -962,7 +962,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -1022,7 +1022,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -1048,7 +1048,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -1074,7 +1074,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -1231,7 +1231,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -1257,7 +1257,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log
@@ -1283,7 +1283,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 log

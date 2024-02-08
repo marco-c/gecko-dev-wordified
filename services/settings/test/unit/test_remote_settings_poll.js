@@ -407,7 +407,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 PREF_SETTINGS_SERVER
 http
@@ -1424,7 +1424,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 PREF_LAST_ETAG
 )
@@ -1718,7 +1718,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 PREF_LAST_ETAG
 )
@@ -1806,7 +1806,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 PREF_LAST_ETAG
 '
@@ -4472,7 +4472,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 PREF_LAST_ETAG
 '
@@ -6551,7 +6551,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 PREF_SETTINGS_SERVER_BACKOFF
 {
@@ -6697,7 +6697,7 @@ Services
 .
 prefs
 .
-setCharPref
+setStringPref
 (
 PREF_SETTINGS_SERVER
 "

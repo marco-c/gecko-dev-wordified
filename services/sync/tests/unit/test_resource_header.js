@@ -310,7 +310,7 @@ type
 ;
 prefs
 .
-setCharPref
+setStringPref
 (
 "
 autoconfig_url
