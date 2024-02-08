@@ -1005,6 +1005,10 @@ mMode
 =
 aMode
 ;
+mDuplicateAttributeError
+=
+false
+;
 }
 void
 nsHtml5HtmlAttributes

@@ -2905,9 +2905,10 @@ false
 ;
 /
 /
-query
+Query
 the
 nonce
+.
 nsAutoString
 nonce
 ;
