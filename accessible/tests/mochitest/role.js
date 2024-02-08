@@ -298,6 +298,13 @@ nsIAccessibleRole
 ROLE_EDITCOMBOBOX
 ;
 const
+ROLE_EMPHASIS
+=
+nsIAccessibleRole
+.
+ROLE_EMPHASIS
+;
+const
 ROLE_ENTRY
 =
 nsIAccessibleRole

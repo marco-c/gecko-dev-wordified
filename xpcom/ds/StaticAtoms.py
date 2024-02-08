@@ -4616,6 +4616,16 @@ embed
 Atom
 (
 "
+emphasis
+"
+"
+emphasis
+"
+)
+    
+Atom
+(
+"
 empty
 "
 "
