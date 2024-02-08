@@ -249,6 +249,13 @@ object
 js
 "
 "
+objects
+-
+manager
+.
+js
+"
+"
 page
 -
 style

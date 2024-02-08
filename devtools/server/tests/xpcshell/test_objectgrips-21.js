@@ -1933,13 +1933,6 @@ isUnsafe
 isWorkerServer
 )
 ;
-await
-objClient
-.
-release
-(
-)
-;
 }
 await
 threadFront
