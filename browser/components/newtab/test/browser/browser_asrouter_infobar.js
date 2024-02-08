@@ -39,7 +39,7 @@ InfoBar
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -54,7 +54,9 @@ lib
 /
 InfoBar
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

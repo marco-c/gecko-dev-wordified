@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 lazy
 =
@@ -799,6 +794,7 @@ ping
 ;
 }
 }
+export
 const
 InfoBar
 =
@@ -992,13 +988,4 @@ notification
 ;
 }
 }
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-InfoBar
-"
-]
 ;
