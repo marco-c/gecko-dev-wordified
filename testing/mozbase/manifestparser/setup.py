@@ -67,7 +67,7 @@ PACKAGE_VERSION
 "
 2
 .
-3
+4
 .
 0
 "
@@ -101,9 +101,9 @@ tomlkit
 =
 0
 .
-11
+12
 .
-8
+3
 "
 ]
 setup

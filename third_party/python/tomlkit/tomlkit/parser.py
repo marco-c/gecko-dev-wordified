@@ -308,6 +308,8 @@ self
 string
 :
 str
+|
+bytes
 )
 -
 >
@@ -6704,6 +6706,14 @@ character
 .
 "
                     
+)
+        
+table
+.
+value
+.
+_validate_out_of_order_table
+(
 )
         
 if
