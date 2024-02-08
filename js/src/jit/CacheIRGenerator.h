@@ -3487,6 +3487,11 @@ isPossiblyWrapped
 )
 ;
 AttachDecision
+tryAttachTypedArrayLengthZeroOnOutOfBounds
+(
+)
+;
+AttachDecision
 tryAttachArrayBufferByteLength
 (
 bool
