@@ -5223,7 +5223,7 @@ case
 GuardClassKind
 :
 :
-DataView
+FixedLengthDataView
 :
 if
 (
@@ -5236,7 +5236,7 @@ getClass
 !
 =
 &
-DataViewObject
+FixedLengthDataViewObject
 :
 :
 class_

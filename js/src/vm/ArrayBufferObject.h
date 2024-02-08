@@ -574,6 +574,14 @@ DataViewObject
 /
 /
 -
+FixedLengthDataViewObject
+/
+/
+-
+ResizableDataViewObject
+/
+/
+-
 TypedArrayObject
 (
 declared

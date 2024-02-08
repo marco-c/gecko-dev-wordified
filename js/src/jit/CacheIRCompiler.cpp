@@ -14248,12 +14248,12 @@ case
 GuardClassKind
 :
 :
-DataView
+FixedLengthDataView
 :
 clasp
 =
 &
-DataViewObject
+FixedLengthDataViewObject
 :
 :
 class_
