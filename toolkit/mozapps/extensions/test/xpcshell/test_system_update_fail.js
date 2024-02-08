@@ -888,7 +888,7 @@ xpi
 hashFunction
 :
 "
-sha1
+sha256
 "
 hashValue
 :

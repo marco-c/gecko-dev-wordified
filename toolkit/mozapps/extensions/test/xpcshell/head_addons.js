@@ -2723,7 +2723,7 @@ aAlgorithm
 aAlgorithm
 =
 "
-sha1
+sha256
 "
 ;
 }
