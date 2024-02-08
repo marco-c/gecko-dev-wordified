@@ -66763,8 +66763,6 @@ const
 nsCString
 &
 aMIMEType
-bool
-aNoFakePlugin
 )
 {
 if

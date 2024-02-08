@@ -1088,14 +1088,6 @@ Type
 =
 =
 eType_Document
-|
-|
-Type
-(
-)
-=
-=
-eType_FakePlugin
 )
 {
 if

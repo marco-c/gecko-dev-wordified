@@ -4045,7 +4045,6 @@ nsContentUtils
 HtmlObjectContentTypeForMIMEType
 (
 mimeType
-false
 )
 =
 =
