@@ -608,7 +608,6 @@ nsPresContext_CachedIntPrefType
 kPresContext_ScrollbarSide
 =
 1
-kPresContext_BidiDirection
 }
 ;
 /
@@ -2248,12 +2247,6 @@ kPresContext_ScrollbarSide
 :
 return
 mPrefScrollbarSide
-;
-case
-kPresContext_BidiDirection
-:
-return
-mPrefBidiDirection
 ;
 default
 :
@@ -8086,11 +8079,6 @@ mDoScaledTwips
 ;
 unsigned
 mIsRootPaginatedDocument
-:
-1
-;
-unsigned
-mPrefBidiDirection
 :
 1
 ;
