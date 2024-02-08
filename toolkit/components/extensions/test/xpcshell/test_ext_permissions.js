@@ -4054,9 +4054,6 @@ theme
 unlimitedStorage
 "
 "
-urlbar
-"
-"
 webRequest
 "
 "
