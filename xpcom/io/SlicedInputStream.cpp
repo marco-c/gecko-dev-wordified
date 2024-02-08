@@ -2249,7 +2249,7 @@ InputStreamHelper
 :
 SerializeInputStreamAsPipe
 (
-mInputStream
+this
 aParams
 )
 ;
