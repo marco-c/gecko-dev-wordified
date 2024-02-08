@@ -670,6 +670,14 @@ hasKeyedMutex
 /
 false
 aFenceInfo
+/
+*
+gpuProcessQueryId
+*
+/
+Nothing
+(
+)
 )
 )
 ;

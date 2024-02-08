@@ -801,6 +801,17 @@ return
 mDevice
 ;
 }
+ID3D11DeviceContext
+*
+GetDeviceContext
+(
+)
+const
+{
+return
+mCtx
+;
+}
 IDCompositionDevice2
 *
 GetCompositionDevice

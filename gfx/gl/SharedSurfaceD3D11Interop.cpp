@@ -2833,6 +2833,14 @@ fenceInfo
 Nothing
 (
 )
+/
+*
+gpuProcessQueryId
+*
+/
+Nothing
+(
+)
 )
 )
 ;

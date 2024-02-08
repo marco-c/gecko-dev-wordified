@@ -1179,6 +1179,14 @@ fenceInfo
 Nothing
 (
 )
+/
+*
+gpuProcessQueryId
+*
+/
+Nothing
+(
+)
 )
 )
 ;
