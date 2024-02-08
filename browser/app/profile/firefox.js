@@ -8272,7 +8272,7 @@ autoOpen
 .
 enabled
 "
-true
+false
 )
 ;
 /
