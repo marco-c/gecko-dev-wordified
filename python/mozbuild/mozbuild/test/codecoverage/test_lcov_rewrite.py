@@ -2926,7 +2926,9 @@ addons
 /
 XPIProvider
 .
-jsm
+sys
+.
+mjs
 -
 >
 resource

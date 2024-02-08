@@ -105,7 +105,9 @@ list
 in
 XPIDatabase
 .
-jsm
+sys
+.
+mjs
 .
 const
 updatedAddonFluentIds

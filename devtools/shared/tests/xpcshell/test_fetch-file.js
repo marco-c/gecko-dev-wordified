@@ -166,7 +166,9 @@ modules
 /
 XPIProvider
 .
-jsm
+sys
+.
+mjs
 -
 >
 *
@@ -227,7 +229,9 @@ modules
 /
 XPIProvider
 .
-jsm
+sys
+.
+mjs
 -
 >
 file

@@ -4865,7 +4865,9 @@ Verify
 that
 XPIInstall
 .
-jsm
+sys
+.
+mjs
 will
 not
 collect
