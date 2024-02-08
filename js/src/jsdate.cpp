@@ -1369,6 +1369,8 @@ y
 )
 {
 return
+:
+:
 DayFromYear
 (
 y
@@ -3056,6 +3058,8 @@ Day
 t
 )
 -
+:
+:
 DayFromYear
 (
 year
@@ -4580,6 +4584,8 @@ day
 =
 int
 (
+:
+:
 DayFromYear
 (
 year
@@ -4776,6 +4782,8 @@ equivalentYearForDST
 (
 int
 (
+:
+:
 YearFromTime
 (
 t
@@ -4789,6 +4797,8 @@ day
 MakeDay
 (
 year
+:
+:
 MonthFromTime
 (
 t
@@ -14981,6 +14991,8 @@ result
 {
 result
 =
+:
+:
 YearFromTime
 (
 result
@@ -15149,6 +15161,8 @@ rval
 .
 setNumber
 (
+:
+:
 MonthFromTime
 (
 d
@@ -18983,10 +18997,14 @@ MakeDate
 (
 MakeDay
 (
+:
+:
 YearFromTime
 (
 t
 )
+:
+:
 MonthFromTime
 (
 t
@@ -19169,10 +19187,14 @@ MakeDate
 (
 MakeDay
 (
+:
+:
 YearFromTime
 (
 t
 )
+:
+:
 MonthFromTime
 (
 t
@@ -19317,6 +19339,8 @@ i
 *
 month
 =
+:
+:
 MonthFromTime
 (
 t
@@ -19508,6 +19532,8 @@ MakeDate
 (
 MakeDay
 (
+:
+:
 YearFromTime
 (
 t
@@ -19732,6 +19758,8 @@ MakeDate
 (
 MakeDay
 (
+:
+:
 YearFromTime
 (
 t
@@ -20578,6 +20606,8 @@ day
 MakeDay
 (
 yint
+:
+:
 MonthFromTime
 (
 t
@@ -20910,6 +20940,8 @@ months
 [
 int
 (
+:
+:
 MonthFromTime
 (
 utctime
@@ -20918,6 +20950,8 @@ utctime
 ]
 int
 (
+:
+:
 YearFromTime
 (
 utctime
@@ -21118,6 +21152,8 @@ year
 =
 int
 (
+:
+:
 YearFromTime
 (
 utctime
@@ -21170,6 +21206,8 @@ buf
 "
 int
 (
+:
+:
 YearFromTime
 (
 utctime
@@ -21177,6 +21215,8 @@ utctime
 )
 int
 (
+:
+:
 MonthFromTime
 (
 utctime
@@ -21257,6 +21297,8 @@ buf
 "
 int
 (
+:
+:
 YearFromTime
 (
 utctime
@@ -21264,6 +21306,8 @@ utctime
 )
 int
 (
+:
+:
 MonthFromTime
 (
 utctime
@@ -21836,6 +21880,8 @@ utcTime
 double
 year
 =
+:
+:
 YearFromTime
 (
 localTime
@@ -21912,6 +21958,8 @@ tm_mon
 =
 int8_t
 (
+:
+:
 MonthFromTime
 (
 localTime
@@ -21942,6 +21990,8 @@ tm_yday
 =
 int16_t
 (
+:
+:
 DayWithinYear
 (
 localTime
@@ -22837,6 +22887,8 @@ months
 [
 int
 (
+:
+:
 MonthFromTime
 (
 localTime
@@ -22852,6 +22904,8 @@ localTime
 )
 int
 (
+:
+:
 YearFromTime
 (
 localTime
@@ -22926,6 +22980,8 @@ months
 [
 int
 (
+:
+:
 MonthFromTime
 (
 localTime
@@ -22941,6 +22997,8 @@ localTime
 )
 int
 (
+:
+:
 YearFromTime
 (
 localTime
@@ -23450,6 +23508,8 @@ year
 =
 int
 (
+:
+:
 YearFromTime
 (
 localTime
