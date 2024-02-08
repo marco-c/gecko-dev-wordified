@@ -881,8 +881,6 @@ callback
 to
 stop
 calling
-/
-/
 further
 children
 .
@@ -890,14 +888,8 @@ void
 CallOnAllTopDescendants
 (
 const
-std
-:
-:
-function
+FunctionRef
 <
-mozilla
-:
-:
 CallState
 (
 CanonicalBrowsingContext
