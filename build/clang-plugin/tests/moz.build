@@ -327,11 +327,6 @@ TestTemporaryClass
 cpp
 "
 "
-TestTemporaryLifetimeBound
-.
-cpp
-"
-"
 TestTrivialCtorDtor
 .
 cpp
