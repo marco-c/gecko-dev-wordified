@@ -109,7 +109,10 @@ super
 registry
 :
 :
+{
 PropertyRegistration
+PropertyRegistrationData
+}
 syntax
 :
 :
@@ -762,6 +765,10 @@ Ok
 PropertyRegistration
 {
 name
+data
+:
+PropertyRegistrationData
+{
 syntax
 inherits
 initial_value
@@ -769,6 +776,7 @@ initial_value
 descriptors
 .
 initial_value
+}
 url_data
 :
 context
@@ -1105,6 +1113,8 @@ from
 (
 &
 self
+.
+data
 .
 ident
 )
@@ -1610,6 +1620,8 @@ initial
 =
 self
 .
+data
+.
 initial_value
 else
 {
@@ -1667,7 +1679,10 @@ compute
 &
 mut
 input
+&
 self
+.
+data
 &
 self
 .
