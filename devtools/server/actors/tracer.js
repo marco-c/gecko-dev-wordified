@@ -1369,7 +1369,7 @@ styles
 level
 :
 "
-log
+jstracer
 "
 chromeContext
 :
@@ -1503,7 +1503,7 @@ styles
 level
 :
 "
-error
+jstracer
 "
 chromeContext
 :
