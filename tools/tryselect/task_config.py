@@ -2112,8 +2112,7 @@ chemspill
 prio
 "
 :
-{
-}
+True
 }
 class
 GeckoProfile
