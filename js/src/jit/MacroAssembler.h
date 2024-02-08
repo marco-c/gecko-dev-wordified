@@ -1616,7 +1616,7 @@ class
 StaticStrings
 ;
 class
-TypedArrayObject
+FixedLengthTypedArrayObject
 ;
 enum
 class
@@ -38470,7 +38470,7 @@ liveRegs
 Label
 *
 fail
-TypedArrayObject
+FixedLengthTypedArrayObject
 *
 templateObj
 TypedArrayLength
