@@ -2128,7 +2128,7 @@ len
 ArrayBufferObject
 :
 :
-ByteLengthLimit
+MaxByteLength
 )
 {
 JS_ReportErrorUTF8
@@ -3759,11 +3759,6 @@ obj
 >
 length
 (
-)
-.
-valueOr
-(
-0
 )
 ;
 if

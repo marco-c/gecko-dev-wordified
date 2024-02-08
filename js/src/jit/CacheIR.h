@@ -3266,9 +3266,9 @@ uint8_t
 {
 Array
 PlainObject
-FixedLengthArrayBuffer
-FixedLengthSharedArrayBuffer
-FixedLengthDataView
+ArrayBuffer
+SharedArrayBuffer
+DataView
 MappedArguments
 UnmappedArguments
 WindowProxy
