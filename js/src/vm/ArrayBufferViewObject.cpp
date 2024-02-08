@@ -1960,6 +1960,11 @@ DataViewObject
 byteLength
 (
 )
+.
+valueOr
+(
+0
+)
 :
 obj
 -
@@ -2102,6 +2107,11 @@ DataViewObject
 byteOffset
 (
 )
+.
+valueOr
+(
+0
+)
 :
 obj
 -
@@ -2183,6 +2193,11 @@ DataViewObject
 .
 byteLength
 (
+)
+.
+valueOr
+(
+0
 )
 :
 obj
@@ -2476,6 +2491,11 @@ DataViewObject
 .
 byteLength
 (
+)
+.
+valueOr
+(
+0
 )
 :
 obj
