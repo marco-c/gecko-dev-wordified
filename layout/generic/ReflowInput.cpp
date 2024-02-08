@@ -2497,6 +2497,17 @@ max
 aComputedBSize
 )
 ;
+if
+(
+aFlags
+=
+=
+ResetResizeFlags
+:
+:
+Yes
+)
+{
 InitResizeFlags
 (
 mFrame
@@ -2513,6 +2524,7 @@ Type
 )
 )
 ;
+}
 }
 }
 void
