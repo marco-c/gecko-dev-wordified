@@ -2257,6 +2257,12 @@ canDonateWork
 )
 const
 ;
+bool
+shouldDonateWork
+(
+)
+const
+;
 void
 start
 (
