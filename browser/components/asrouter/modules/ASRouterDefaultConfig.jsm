@@ -237,11 +237,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
+/
+asrouter
 /
 ASRouterTargeting
 .
