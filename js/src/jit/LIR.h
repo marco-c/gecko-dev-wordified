@@ -3396,6 +3396,10 @@ SLOTS
 Slots
 /
 elements
+/
+wasm
+array
+data
 pointer
 that
 may
@@ -3403,6 +3407,8 @@ be
 moved
 by
 minor
+/
+/
 GCs
 (
 GPR

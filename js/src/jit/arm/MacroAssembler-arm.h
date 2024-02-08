@@ -9678,7 +9678,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeOffset
 storePtr
 (
 Register

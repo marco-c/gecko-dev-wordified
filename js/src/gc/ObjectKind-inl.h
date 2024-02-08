@@ -182,6 +182,13 @@ slotsToThingKind
 [
 ]
 ;
+extern
+const
+uint32_t
+slotsToAllocKindBytes
+[
+]
+;
 /
 *
 Get
