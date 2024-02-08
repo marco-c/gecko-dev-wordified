@@ -1530,11 +1530,6 @@ OnUnmap
 )
 ;
 void
-OnUnrealize
-(
-)
-;
-void
 OnSizeAllocate
 (
 GtkAllocation
@@ -3932,7 +3927,7 @@ set
 by
 OnMap
 /
-OnUnrealize
+OnUnmap
 which
 is
 based
