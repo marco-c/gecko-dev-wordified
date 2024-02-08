@@ -78,11 +78,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
+/
+asrouter
 /
 CFRMessageProvider
 .
