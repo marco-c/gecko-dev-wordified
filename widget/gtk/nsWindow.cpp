@@ -33369,6 +33369,13 @@ GdkEventScroll
 aEvent
 )
 {
+LOG
+(
+"
+OnScrollEvent
+"
+)
+;
 /
 /
 check
@@ -53804,8 +53811,11 @@ window
 ;
 if
 (
+NS_WARN_IF
+(
 !
 window
+)
 )
 {
 return
