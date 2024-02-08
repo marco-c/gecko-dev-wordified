@@ -11051,6 +11051,11 @@ tobj
 length
 (
 )
+.
+valueOr
+(
+0
+)
 ;
 /
 /
@@ -13438,6 +13443,11 @@ tobj
 >
 length
 (
+)
+.
+valueOr
+(
+0
 )
 ;
 /
