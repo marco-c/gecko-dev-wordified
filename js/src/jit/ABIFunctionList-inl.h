@@ -918,6 +918,14 @@ _
 js
 :
 :
+EmulatesUndefinedCheckFuse
+)
+\
+_
+(
+js
+:
+:
 ExecuteRegExpAtomRaw
 )
 \
