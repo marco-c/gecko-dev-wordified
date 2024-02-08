@@ -68,7 +68,7 @@ ActivityStreamMessageChannel
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -83,7 +83,9 @@ lib
 /
 ActivityStreamMessageChannel
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
