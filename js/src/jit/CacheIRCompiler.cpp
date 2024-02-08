@@ -46256,6 +46256,13 @@ masm
 output
 )
 ;
+AutoScratchRegister
+scratch2
+(
+allocator
+masm
+)
+;
 if
 (
 IsStrictEqualityOp
@@ -46453,7 +46460,7 @@ masm
 branchIfObjectEmulatesUndefined
 (
 scratch
-scratch
+scratch2
 failure
 -
 >

@@ -252,6 +252,15 @@ include
 "
 vm
 /
+InvalidatingFuse
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h
