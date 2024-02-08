@@ -25835,7 +25835,7 @@ NoAction
 }
 writer
 .
-guardIsTypedArray
+guardIsFixedLengthTypedArray
 (
 objId
 )
@@ -64970,6 +64970,13 @@ guardToObject
 argId
 )
 ;
+writer
+.
+guardIsFixedLengthTypedArray
+(
+objArgId
+)
+;
 if
 (
 tarr
@@ -65389,6 +65396,13 @@ objArgId
 )
 ;
 }
+writer
+.
+guardIsFixedLengthTypedArray
+(
+objArgId
+)
+;
 if
 (
 tarr
