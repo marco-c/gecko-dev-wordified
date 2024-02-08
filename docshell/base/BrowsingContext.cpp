@@ -4784,12 +4784,7 @@ the
 parent
 process
 .
-RefPtr
-<
-CanonicalBrowsingContext
->
-chromeTop
-=
+return
 Canonical
 (
 )
@@ -4798,9 +4793,6 @@ Canonical
 TopCrossChromeBoundary
 (
 )
-;
-return
-chromeTop
 -
 >
 GetIsActiveBrowserWindowInternal
@@ -14882,10 +14874,8 @@ XRE_IsParentProcess
 )
 )
 {
-RefPtr
-<
 CanonicalBrowsingContext
->
+*
 chromeTop
 =
 Canonical
@@ -14912,7 +14902,6 @@ GetActiveWindow
 ;
 isActive
 =
-(
 activeWindow
 =
 =
@@ -14922,14 +14911,12 @@ chromeTop
 GetDOMWindow
 (
 )
-)
 ;
 }
 else
 {
 isActive
 =
-(
 fm
 -
 >
@@ -14940,7 +14927,6 @@ GetActiveBrowsingContext
 =
 Top
 (
-)
 )
 ;
 }
