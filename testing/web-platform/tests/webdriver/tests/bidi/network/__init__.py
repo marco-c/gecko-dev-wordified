@@ -1735,6 +1735,8 @@ https
 /
 /
 not_a_valid_url
+.
+test
 /
 "
 PAGE_OTHER_TEXT
