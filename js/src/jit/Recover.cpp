@@ -10703,7 +10703,7 @@ templateObject
 .
 as
 <
-FixedLengthTypedArrayObject
+TypedArrayObject
 >
 (
 )

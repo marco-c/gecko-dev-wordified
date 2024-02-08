@@ -356,13 +356,12 @@ TYPED_ARRAY_CLASP
 (
 TYPE
 )
-\
 (
 &
 TypedArrayObject
 :
 :
-fixedLengthClasses
+classes
 [
 JS
 :
@@ -695,7 +694,7 @@ REAL
 ArrayBuffer
 OCLASP
 (
-FixedLengthArrayBuffer
+ArrayBuffer
 )
 )
 \
@@ -848,7 +847,7 @@ REAL
 DataView
 OCLASP
 (
-FixedLengthDataView
+DataView
 )
 )
 \
@@ -875,7 +874,7 @@ REAL
 SharedArrayBuffer
 OCLASP
 (
-FixedLengthSharedArrayBuffer
+SharedArrayBuffer
 )
 )
 \

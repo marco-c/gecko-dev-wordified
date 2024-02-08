@@ -4174,13 +4174,13 @@ src
 >
 is
 <
-FixedLengthTypedArrayObject
+TypedArrayObject
 >
 (
 )
 )
 {
-auto
+TypedArrayObject
 *
 tarray
 =
@@ -4190,7 +4190,7 @@ src
 >
 as
 <
-FixedLengthTypedArrayObject
+TypedArrayObject
 >
 (
 )
@@ -4324,7 +4324,7 @@ srcKind
 =
 GetGCObjectKind
 (
-FixedLengthTypedArrayObject
+TypedArrayObject
 :
 :
 FIXED_DATA_START

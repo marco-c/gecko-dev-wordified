@@ -703,7 +703,7 @@ IntrinsicGuardToArrayBuffer
 :
 return
 &
-FixedLengthArrayBufferObject
+ArrayBufferObject
 :
 :
 class_
@@ -716,7 +716,7 @@ IntrinsicGuardToSharedArrayBuffer
 :
 return
 &
-FixedLengthSharedArrayBufferObject
+SharedArrayBufferObject
 :
 :
 class_
@@ -1496,12 +1496,6 @@ InlinableNative
 :
 :
 IntrinsicTypedArrayLength
-:
-case
-InlinableNative
-:
-:
-IntrinsicTypedArrayLengthZeroOnOutOfBounds
 :
 case
 InlinableNative

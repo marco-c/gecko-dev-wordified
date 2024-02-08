@@ -2805,11 +2805,6 @@ code
 byteLength
 (
 )
-.
-valueOr
-(
-0
-)
 )
 )
 {
