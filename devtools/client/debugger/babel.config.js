@@ -65,6 +65,12 @@ strict
 ;
 /
 *
+global
+__dirname
+*
+/
+/
+*
 *
 *
 NOTE

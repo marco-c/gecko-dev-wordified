@@ -63,6 +63,12 @@ use
 strict
 "
 ;
+/
+*
+global
+__dirname
+*
+/
 const
 {
 resolve
