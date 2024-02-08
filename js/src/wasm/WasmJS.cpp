@@ -34680,6 +34680,7 @@ false
 ;
 }
 }
+}
 RootedObject
 tagProto
 (
@@ -34747,7 +34748,6 @@ setWrappedJSValueTag
 wrappedJSValueTagObject
 )
 ;
-}
 #
 ifdef
 ENABLE_WASM_MOZ_INTGEMM
