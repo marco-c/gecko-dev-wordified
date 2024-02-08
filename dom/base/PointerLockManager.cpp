@@ -1717,8 +1717,10 @@ return
 false
 ;
 }
+RefPtr
+<
 nsPresContext
-*
+>
 presContext
 =
 presShell
@@ -1886,7 +1888,7 @@ EventStateManager
 SetPointerLock
 (
 widget
-aElement
+presContext
 )
 ;
 return
