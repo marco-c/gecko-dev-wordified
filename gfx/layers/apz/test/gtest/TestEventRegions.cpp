@@ -1244,11 +1244,6 @@ main
 -
 thread
 response
-uint64_t
-inputBlockId
-=
-0
-;
 QueueMockHitResult
 (
 ScrollableLayerGuid
@@ -1269,6 +1264,9 @@ eIrregularArea
 }
 )
 ;
+APZEventResult
+result
+=
 Tap
 (
 manager
@@ -1279,8 +1277,6 @@ ScreenIntPoint
 )
 tapDuration
 nullptr
-&
-inputBlockId
 )
 ;
 nsTArray
@@ -1306,7 +1302,9 @@ manager
 >
 SetTargetAPZC
 (
-inputBlockId
+result
+.
+mInputBlockId
 targets
 )
 ;
@@ -1515,11 +1513,6 @@ the
 tentative
 target
 .
-uint64_t
-inputBlockId
-=
-0
-;
 QueueMockHitResult
 (
 ScrollableLayerGuid
@@ -1540,6 +1533,9 @@ eIrregularArea
 }
 )
 ;
+APZEventResult
+result
+=
 Tap
 (
 manager
@@ -1556,8 +1552,6 @@ FromMilliseconds
 100
 )
 nullptr
-&
-inputBlockId
 )
 ;
 /
@@ -1645,7 +1639,9 @@ manager
 >
 SetTargetAPZC
 (
-inputBlockId
+result
+.
+mInputBlockId
 targets
 )
 ;
