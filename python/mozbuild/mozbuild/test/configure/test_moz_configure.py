@@ -68,7 +68,6 @@ mozbuild
 util
 import
 ReadOnlyNamespace
-exec_
 memoized_property
 def
 sandbox_class
@@ -98,7 +97,7 @@ sys
 {
 }
             
-exec_
+exec
 (
 "
 from

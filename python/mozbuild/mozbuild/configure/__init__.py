@@ -145,8 +145,6 @@ ReadOnlyDict
     
 ReadOnlyNamespace
     
-exec_
-    
 memoize
     
 memoized_property
@@ -3089,7 +3087,7 @@ source
 path
 )
         
-exec_
+exec
 (
 code
 self
@@ -7355,7 +7353,7 @@ wrapped_os
 {
 }
         
-exec_
+exec
 (
 "
 from
@@ -7419,7 +7417,7 @@ wrapped_path
 {
 }
         
-exec_
+exec
 (
 "
 from
@@ -7483,7 +7481,7 @@ wrapped_subprocess
 {
 }
         
-exec_
+exec
 (
 "
 from
@@ -7655,7 +7653,7 @@ wrapped_six
 {
 }
         
-exec_
+exec
 (
 "
 from
@@ -7673,7 +7671,7 @@ wrapped_six_moves
 {
 }
         
-exec_
+exec
 (
 "
 from
@@ -7693,7 +7691,7 @@ wrapped_six_moves_builtins
 {
 }
         
-exec_
+exec
 (
 "
 from
@@ -8116,7 +8114,7 @@ else
         
 )
         
-exec_
+exec
 (
 import_line
 {

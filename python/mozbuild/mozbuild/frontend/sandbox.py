@@ -187,7 +187,6 @@ mozbuild
 util
 import
 ReadOnlyDict
-exec_
 from
 .
 context
@@ -1236,7 +1235,7 @@ source
 try
 :
                 
-exec_
+exec
 (
 code
 self

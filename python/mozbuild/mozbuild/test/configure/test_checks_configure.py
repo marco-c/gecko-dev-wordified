@@ -101,12 +101,6 @@ import
 quote
 as
 shell_quote
-from
-mozbuild
-.
-util
-import
-exec_
 class
 TestChecksConfigure
 (
@@ -196,7 +190,7 @@ configure
 )
 )
                 
-exec_
+exec
 (
 to_exec
 sandbox
@@ -1013,7 +1007,7 @@ status
 try
 :
             
-exec_
+exec
 (
 command
 sandbox
