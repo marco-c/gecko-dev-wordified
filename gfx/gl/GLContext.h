@@ -553,12 +553,6 @@ false
 bool
 mUseTLSIsCurrent
 ;
-static
-void
-ResetTLSCurrentContext
-(
-)
-;
 class
 TlsScope
 final

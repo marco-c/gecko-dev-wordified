@@ -503,13 +503,6 @@ if
 mContext
 )
 {
-GLContext
-:
-:
-ResetTLSCurrentContext
-(
-)
-;
 if
 (
 !

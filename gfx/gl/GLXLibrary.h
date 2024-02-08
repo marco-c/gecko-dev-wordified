@@ -99,7 +99,7 @@ GFX_GLXLIBRARY_H
 #
 include
 "
-GLContext
+GLContextTypes
 .
 h
 "
@@ -375,13 +375,6 @@ DECL_WRAPPER_SCOPE
 (
 display
 )
-GLContext
-:
-:
-ResetTLSCurrentContext
-(
-)
-;
 return
 mSymbols
 .
