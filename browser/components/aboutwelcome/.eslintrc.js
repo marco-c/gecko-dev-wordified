@@ -354,13 +354,6 @@ files
 :
 [
 "
-.
-/
-*
-.
-js
-"
-"
 content
 -
 src
