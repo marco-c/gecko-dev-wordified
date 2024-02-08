@@ -40,7 +40,7 @@ AboutWelcomeDefaults
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -54,7 +54,9 @@ aboutwelcome
 /
 AboutWelcomeDefaults
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
