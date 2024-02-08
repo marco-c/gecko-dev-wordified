@@ -7970,7 +7970,10 @@ inet
 .
 ip
 =
+PR_htonl
+(
 PR_INADDR_ANY
+)
 ;
 }
 else
@@ -8757,7 +8760,10 @@ inet
 .
 ip
 =
+PR_htonl
+(
 PR_INADDR_ANY
+)
 ;
 }
 else

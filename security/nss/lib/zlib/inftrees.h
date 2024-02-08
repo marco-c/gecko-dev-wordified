@@ -444,7 +444,6 @@ literal
 length
 codes
 returns
-returns
 852
 and
 "

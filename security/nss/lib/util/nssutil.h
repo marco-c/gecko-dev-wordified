@@ -153,7 +153,7 @@ NSSUTIL_VERSION
 "
 3
 .
-97
+98
 Beta
 "
 #
@@ -163,7 +163,7 @@ NSSUTIL_VMAJOR
 #
 define
 NSSUTIL_VMINOR
-97
+98
 #
 define
 NSSUTIL_VPATCH
