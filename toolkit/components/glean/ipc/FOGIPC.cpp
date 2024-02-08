@@ -3895,6 +3895,9 @@ nsIXULRuntime
 :
 PROCESS_TYPE_GPU
 :
+mozilla
+:
+:
 gfx
 :
 :
