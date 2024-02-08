@@ -42698,12 +42698,11 @@ IsPhysicalLTR
 }
 switch
 (
-presContext
--
->
-GetCachedIntPref
+StaticPrefs
+:
+:
+layout_scrollbar_side
 (
-kPresContext_ScrollbarSide
 )
 )
 {
