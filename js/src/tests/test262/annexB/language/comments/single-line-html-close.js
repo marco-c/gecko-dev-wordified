@@ -69,8 +69,7 @@ SingleLineDelimitedComment
 SingleLineHTMLCloseComment
 :
 :
-LineTerminatorSequence
-HTMLCloseComment
+LineTerminatorSequenceHTMLCloseComment
 HTMLCloseComment
 :
 :

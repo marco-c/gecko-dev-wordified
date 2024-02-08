@@ -164,7 +164,7 @@ ArrayBuffer
 const
 views
 =
-nonClampedIntArrayConstructors
+intArrayConstructors
 .
 slice
 (

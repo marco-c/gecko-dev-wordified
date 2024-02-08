@@ -160,5 +160,10 @@ js
 '
 with
 {
+type
+:
+'
+foo
+'
 }
 ;
