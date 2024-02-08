@@ -193,10 +193,13 @@ pub
 struct
 ICU4XDataStruct
 (
-pub
+#
+[
+allow
 (
-crate
+dead_code
 )
+]
 AnyPayload
 )
 ;
