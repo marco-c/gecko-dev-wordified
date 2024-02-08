@@ -1524,6 +1524,13 @@ KnowsCompositor
 aKnowsCompositor
 bool
 aWillReadFrequently
+const
+Maybe
+<
+uint64_t
+>
+&
+aWindowID
 )
 {
 if
@@ -1640,6 +1647,7 @@ aFormat
 aKnowsCompositor
 texture
 aWillReadFrequently
+aWindowID
 )
 ;
 return
@@ -1676,6 +1684,13 @@ TextureClient
 aTexture
 bool
 aWillReadFrequently
+const
+Maybe
+<
+uint64_t
+>
+&
+aWindowID
 )
 :
 mSize
@@ -1699,6 +1714,10 @@ Nothing
 mWillReadFrequently
 (
 aWillReadFrequently
+)
+mWindowID
+(
+aWindowID
 )
 {
 MOZ_ASSERT
@@ -2791,6 +2810,7 @@ mKnowsCompositor
 >
 SyncWithCompositor
 (
+mWindowID
 )
 ;
 /

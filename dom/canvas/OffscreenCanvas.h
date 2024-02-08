@@ -654,6 +654,14 @@ ErrorResult
 aRv
 )
 ;
+Maybe
+<
+uint64_t
+>
+GetWindowID
+(
+)
+;
 nsICanvasRenderingContextInternal
 *
 GetContext

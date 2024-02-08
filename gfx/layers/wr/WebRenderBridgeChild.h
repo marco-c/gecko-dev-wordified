@@ -546,6 +546,17 @@ override
 void
 SyncWithCompositor
 (
+const
+Maybe
+<
+uint64_t
+>
+&
+aWindowID
+=
+Nothing
+(
+)
 )
 override
 ;

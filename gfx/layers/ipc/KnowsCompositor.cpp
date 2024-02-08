@@ -375,6 +375,13 @@ KnowsCompositorMediaProxy
 :
 SyncWithCompositor
 (
+const
+Maybe
+<
+uint64_t
+>
+&
+aWindowID
 )
 {
 mThreadSafeAllocator
@@ -382,6 +389,7 @@ mThreadSafeAllocator
 >
 SyncWithCompositor
 (
+aWindowID
 )
 ;
 }
