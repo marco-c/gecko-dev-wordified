@@ -1436,6 +1436,8 @@ DrawOptions
 aOptions
 )
 {
+if
+(
 RefPtr
 <
 Path
@@ -1450,7 +1452,8 @@ GetPathForGlyphs
 aBuffer
 this
 )
-;
+)
+{
 Stroke
 (
 path
@@ -1459,6 +1462,7 @@ aStrokeOptions
 aOptions
 )
 ;
+}
 }
 already_AddRefed
 <
