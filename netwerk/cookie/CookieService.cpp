@@ -3258,7 +3258,7 @@ the
 connection
 .
 bool
-potentiallyTurstworthy
+potentiallyTrustworthy
 =
 principal
 -
@@ -3493,7 +3493,7 @@ IsSecure
 &
 &
 !
-potentiallyTurstworthy
+potentiallyTrustworthy
 )
 {
 continue
@@ -6801,7 +6801,7 @@ the
 safe
 side
 bool
-potentiallyTurstworthy
+potentiallyTrustworthy
 =
 nsMixedContentBlocker
 :
@@ -7007,7 +7007,7 @@ IsSecure
 &
 &
 !
-potentiallyTurstworthy
+potentiallyTrustworthy
 &
 &
 !
@@ -7861,7 +7861,7 @@ https
 :
 "
 bool
-potentiallyTurstworthy
+potentiallyTrustworthy
 =
 nsMixedContentBlocker
 :
@@ -8325,7 +8325,7 @@ if
 CheckPrefixes
 (
 aCookieData
-potentiallyTurstworthy
+potentiallyTrustworthy
 )
 )
 {
@@ -8576,7 +8576,7 @@ isSecure
 &
 &
 !
-potentiallyTurstworthy
+potentiallyTrustworthy
 )
 {
 COOKIE_LOGFAILURE
