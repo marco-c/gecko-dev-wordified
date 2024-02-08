@@ -1058,11 +1058,6 @@ MakeApzcZoomable
 (
 )
 ;
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -1079,7 +1074,6 @@ ScreenIntPoint
 1
 .
 25
-touchInputId
 PinchOptions
 (
 )
@@ -2048,11 +2042,6 @@ a
 two
 finger
 pan
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -2072,7 +2061,6 @@ ScreenIntPoint
 100
 )
 1
-touchInputId
 PinchOptions
 (
 )
@@ -2138,11 +2126,6 @@ MakeApzcUnzoomable
 Perform
 a
 pinch
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -2162,7 +2145,6 @@ ScreenIntPoint
 100
 )
 2
-touchInputId
 PinchOptions
 (
 )
@@ -2286,11 +2268,6 @@ a
 two
 finger
 pan
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -2310,7 +2287,6 @@ ScreenIntPoint
 100
 )
 1
-touchInputId
 PinchOptions
 (
 )
@@ -2383,11 +2359,6 @@ only
 the
 first
 finger
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -2407,7 +2378,6 @@ ScreenIntPoint
 100
 )
 1
-touchInputId
 PinchOptions
 (
 )
@@ -2540,11 +2510,6 @@ only
 the
 first
 finger
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -2564,7 +2529,6 @@ ScreenIntPoint
 100
 )
 1
-touchInputId
 PinchOptions
 (
 )
@@ -3935,11 +3899,6 @@ Times
 1
 )
 ;
-int
-touchInputId
-=
-0
-;
 uint64_t
 blockId
 =
@@ -3956,7 +3915,6 @@ ScreenIntPoint
 1
 .
 25
-touchInputId
 PinchOptions
 (
 )
