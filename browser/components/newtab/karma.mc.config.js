@@ -1349,7 +1349,9 @@ lib
 /
 ActivityStream
 .
-jsm
+sys
+.
+mjs
 "
 resolve
 :

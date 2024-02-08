@@ -877,17 +877,6 @@ to
 the
 root
 directory
-e
-.
-g
-.
-"
-lib
-/
-ActivityStream
-.
-jsm
-"
 resolve
 :
 {
