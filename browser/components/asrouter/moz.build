@@ -265,6 +265,13 @@ sys
 .
 mjs
 "
+"
+modules
+/
+ToolbarBadgeHub
+.
+jsm
+"
 ]
 BROWSER_CHROME_MANIFESTS
 +

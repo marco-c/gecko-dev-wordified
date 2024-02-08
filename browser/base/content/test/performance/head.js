@@ -1796,11 +1796,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
+/
+asrouter
 /
 ToolbarBadgeHub
 .
