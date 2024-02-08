@@ -215,6 +215,9 @@ GeckoBatteryManager
 GeckoBundle
 "
 "
+GeckoDragAndDrop
+"
+"
 GeckoEditableChild
 "
 "
@@ -460,6 +463,11 @@ AndroidVsync
 h
 "
 "
+AndroidWidgetUtils
+.
+h
+"
+"
 CompositorWidgetChild
 .
 h
@@ -605,6 +613,11 @@ AndroidVsync
 cpp
 "
 "
+AndroidWidgetUtils
+.
+cpp
+"
+"
 CompositorWidgetChild
 .
 cpp
@@ -656,6 +669,11 @@ cpp
 "
 "
 nsDeviceContextAndroid
+.
+cpp
+"
+"
+nsDragService
 .
 cpp
 "
