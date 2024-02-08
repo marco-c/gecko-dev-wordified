@@ -1258,6 +1258,9 @@ final
 :
 public
 TrailingArray
+<
+BaselineScript
+>
 {
 private
 :

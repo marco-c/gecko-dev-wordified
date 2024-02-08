@@ -2652,7 +2652,6 @@ call
 to
 fieldOffsetToAddress
 .
-const
 WasmStructObject
 &
 structObj
@@ -5611,13 +5610,11 @@ AnyRef
 *
 >
 (
-&
 structObj
 .
-inlineData_
-[
-0
-]
+inlineData
+(
+)
 +
 offset
 )
@@ -6140,7 +6137,9 @@ else
 {
 data
 =
-inlineData_
+inlineData
+(
+)
 +
 areaOffset
 ;
