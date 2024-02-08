@@ -212,7 +212,7 @@ getDefaultOptions
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -227,7 +227,9 @@ lib
 /
 ActivityStreamStorage
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

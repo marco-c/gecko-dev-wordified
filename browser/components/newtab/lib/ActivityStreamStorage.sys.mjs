@@ -88,6 +88,7 @@ mjs
 }
 )
 ;
+export
 class
 ActivityStreamStorage
 {
@@ -688,6 +689,7 @@ result
 ;
 }
 }
+export
 function
 getDefaultOptions
 (
@@ -706,15 +708,3 @@ collapsed
 }
 ;
 }
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-ActivityStreamStorage
-"
-"
-getDefaultOptions
-"
-]
-;
