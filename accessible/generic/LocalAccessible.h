@@ -6107,6 +6107,17 @@ or
 /
 root
 element
+or
+if
+the
+initial
+tree
+hasn
+'
+t
+been
+constructed
+yet
 .
 nsCOMPtr
 <
