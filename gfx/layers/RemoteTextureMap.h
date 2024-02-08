@@ -1175,6 +1175,18 @@ UnregisterAllTextureOwners
 (
 )
 ;
+bool
+WaitForTxn
+(
+const
+RemoteTextureOwnerId
+aOwnerId
+RemoteTextureTxnType
+aTxnType
+RemoteTextureTxnId
+aTxnId
+)
+;
 void
 ClearRecycledTextures
 (
@@ -2530,7 +2542,6 @@ TextureOwner
 >
 UnregisterTextureOwner
 (
-const
 MonitorAutoLock
 &
 aProofOfLock

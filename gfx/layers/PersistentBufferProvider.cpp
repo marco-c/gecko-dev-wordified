@@ -1468,7 +1468,10 @@ RequiresRefresh
 )
 ;
 }
-void
+already_AddRefed
+<
+FwdTransactionTracker
+>
 PersistentBufferProviderAccelerated
 :
 :
@@ -1479,6 +1482,7 @@ CompositableForwarder
 aForwarder
 )
 {
+return
 mTexture
 -
 >

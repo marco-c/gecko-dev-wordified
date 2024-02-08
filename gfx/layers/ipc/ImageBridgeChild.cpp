@@ -947,6 +947,13 @@ aSize
 const
 TextureFlags
 aFlags
+const
+RefPtr
+<
+FwdTransactionTracker
+>
+&
+aTracker
 )
 {
 MOZ_ASSERT
@@ -995,6 +1002,11 @@ aSize
 aFlags
 )
 )
+)
+;
+TrackFwdTransaction
+(
+aTracker
 )
 ;
 }
@@ -1960,6 +1972,12 @@ aSize
 const
 TextureFlags
 aFlags
+const
+RefPtr
+<
+FwdTransactionTracker
+>
+aTracker
 )
 {
 if
@@ -2004,6 +2022,7 @@ aTextureId
 aOwnerId
 aSize
 aFlags
+aTracker
 )
 ;
 GetThread
@@ -2103,6 +2122,7 @@ aTextureId
 aOwnerId
 aSize
 aFlags
+aTracker
 )
 ;
 EndTransaction

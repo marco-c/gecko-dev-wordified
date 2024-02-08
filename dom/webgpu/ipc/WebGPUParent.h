@@ -872,6 +872,16 @@ layers
 RemoteTextureOwnerId
 &
 aOwnerId
+layers
+:
+:
+RemoteTextureTxnType
+aTxnType
+layers
+:
+:
+RemoteTextureTxnId
+aTxnId
 )
 ;
 ipc

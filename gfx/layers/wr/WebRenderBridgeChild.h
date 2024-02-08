@@ -1233,6 +1233,13 @@ aSize
 const
 TextureFlags
 aFlags
+const
+RefPtr
+<
+FwdTransactionTracker
+>
+&
+aTracker
 )
 override
 ;

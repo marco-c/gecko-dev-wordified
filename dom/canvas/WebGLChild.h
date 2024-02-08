@@ -298,6 +298,11 @@ FlushPendingCmds
 )
 ;
 void
+Destroy
+(
+)
+;
+void
 ActorDestroy
 (
 ActorDestroyReason
