@@ -56306,9 +56306,6 @@ mDoc
 (
 aDoc
 )
-#
-ifndef
-ANDROID
 mBlockOnload
 (
 aDoc
@@ -56318,8 +56315,6 @@ IsInChromeDocShell
 (
 )
 )
-#
-endif
 {
 if
 (
