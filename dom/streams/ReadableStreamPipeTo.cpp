@@ -4643,11 +4643,12 @@ Promise
 :
 CreateInfallible
 (
-mWriter
--
->
-GetParentObject
+xpc
+:
+:
+CurrentNativeGlobal
 (
+aCx
 )
 )
 ;
