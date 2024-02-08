@@ -3082,9 +3082,7 @@ xpinstall
 -
 disabled
 -
-by
--
-policy
+locked
 "
 ;
 action
@@ -3300,8 +3298,6 @@ blocked
 ?
 "
 addon
--
-install
 -
 domain
 -
@@ -4854,7 +4850,7 @@ formatValueSync
 "
 addon
 -
-installation
+install
 -
 blocked
 -
