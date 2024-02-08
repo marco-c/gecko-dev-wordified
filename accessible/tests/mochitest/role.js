@@ -137,6 +137,13 @@ nsIAccessibleRole
 ROLE_BLOCKQUOTE
 ;
 const
+ROLE_BUTTONMENU
+=
+nsIAccessibleRole
+.
+ROLE_BUTTONMENU
+;
+const
 ROLE_CANVAS
 =
 nsIAccessibleRole
