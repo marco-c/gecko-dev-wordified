@@ -548,6 +548,10 @@ emitNumericGuard
 (
 ValOperandId
 valId
+const
+Value
+&
+v
 Scalar
 :
 :
@@ -2984,6 +2988,10 @@ emitNumericGuard
 (
 ValOperandId
 valId
+const
+Value
+&
+v
 Scalar
 :
 :
@@ -2997,6 +3005,7 @@ generator_
 emitNumericGuard
 (
 valId
+v
 type
 )
 ;
