@@ -505,7 +505,7 @@ view
 .
 gProvider
 .
-_results
+results
 =
 [
 ]
@@ -528,7 +528,7 @@ i
 {
 gProvider
 .
-_results
+results
 .
 push
 (
@@ -733,7 +733,7 @@ bookmark
 ;
 gProvider
 .
-_results
+results
 =
 [
 new
@@ -1731,7 +1731,7 @@ first
 .
 gProvider
 .
-_results
+results
 =
 [
 ]
@@ -1869,7 +1869,7 @@ bookmark
 ;
 gProvider
 .
-_results
+results
 =
 [
 new
@@ -2568,7 +2568,7 @@ suggestion
 .
 gProvider
 .
-_results
+results
 =
 [
 new
@@ -2839,7 +2839,7 @@ bookmark
 ;
 gProvider
 .
-_results
+results
 =
 [
 new
@@ -3428,7 +3428,7 @@ result
 of
 this
 .
-_results
+results
 )
 {
 addCallback

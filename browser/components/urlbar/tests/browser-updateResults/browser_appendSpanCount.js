@@ -344,7 +344,7 @@ suggestions
 .
 provider
 .
-_results
+results
 =
 queryStrings
 .
@@ -586,7 +586,7 @@ rows
 .
 provider
 .
-_results
+results
 =
 queryStrings
 .

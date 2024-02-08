@@ -445,7 +445,7 @@ result
 of
 this
 .
-_results
+results
 )
 {
 addCallback
@@ -2091,7 +2091,7 @@ provider
 .
 provider
 .
-_results
+results
 =
 makeProviderResults
 (
@@ -2237,7 +2237,7 @@ suggestedIndexes
 {
 provider
 .
-_results
+results
 .
 push
 (
@@ -2438,7 +2438,7 @@ provider
 .
 provider
 .
-_results
+results
 =
 makeProviderResults
 (
@@ -2584,7 +2584,7 @@ suggestedIndexes
 {
 provider
 .
-_results
+results
 .
 push
 (

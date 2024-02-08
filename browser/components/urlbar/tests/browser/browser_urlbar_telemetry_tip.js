@@ -544,7 +544,7 @@ super
 ;
 this
 .
-_results
+results
 =
 results
 ;
@@ -611,7 +611,7 @@ result
 of
 this
 .
-_results
+results
 )
 {
 addCallback
