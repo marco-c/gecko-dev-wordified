@@ -78,17 +78,6 @@ sub
 -
 directories
 .
-parserOptions
-:
-{
-ecmaFeatures
-:
-{
-jsx
-:
-true
-}
-}
 plugins
 :
 [
