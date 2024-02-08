@@ -7306,7 +7306,7 @@ wast
 register
 (
 28
-M
+M3
 )
 ;
 /
@@ -7384,7 +7384,7 @@ func
 (
 import
 "
-M
+M3
 "
 "
 g
@@ -7565,7 +7565,7 @@ wast
 register
 (
 30
-M
+M4
 )
 ;
 /
@@ -7704,7 +7704,7 @@ func
 (
 import
 "
-M
+M4
 "
 "
 g
@@ -7850,7 +7850,7 @@ wast
 register
 (
 32
-M
+M5
 )
 ;
 /
@@ -7931,7 +7931,7 @@ func
 (
 import
 "
-M
+M5
 "
 "
 g
@@ -8080,7 +8080,7 @@ wast
 register
 (
 33
-M
+M6
 )
 ;
 /
@@ -8184,7 +8184,7 @@ func
 (
 import
 "
-M
+M6
 "
 "
 g
@@ -8385,7 +8385,7 @@ wast
 register
 (
 35
-M
+M7
 )
 ;
 /
@@ -8544,7 +8544,7 @@ func
 (
 import
 "
-M
+M7
 "
 "
 h
@@ -8560,7 +8560,7 @@ func
 (
 import
 "
-M
+M7
 "
 "
 h
@@ -8729,7 +8729,7 @@ wast
 register
 (
 37
-M
+M8
 )
 ;
 /
@@ -8837,7 +8837,7 @@ func
 (
 import
 "
-M
+M8
 "
 "
 f11
@@ -8853,7 +8853,7 @@ func
 (
 import
 "
-M
+M8
 "
 "
 f11
@@ -8869,7 +8869,7 @@ func
 (
 import
 "
-M
+M8
 "
 "
 f12
@@ -8885,7 +8885,7 @@ func
 (
 import
 "
-M
+M8
 "
 "
 f12
@@ -9132,7 +9132,7 @@ wast
 register
 (
 39
-M
+M9
 )
 ;
 /
@@ -9318,7 +9318,7 @@ func
 (
 import
 "
-M
+M9
 "
 "
 g11
@@ -9334,7 +9334,7 @@ func
 (
 import
 "
-M
+M9
 "
 "
 g11
@@ -9350,7 +9350,7 @@ func
 (
 import
 "
-M
+M9
 "
 "
 g12
@@ -9366,7 +9366,7 @@ func
 (
 import
 "
-M
+M9
 "
 "
 g12
@@ -9382,7 +9382,7 @@ func
 (
 import
 "
-M
+M9
 "
 "
 g11
@@ -9398,7 +9398,7 @@ func
 (
 import
 "
-M
+M9
 "
 "
 g11
@@ -9414,7 +9414,7 @@ func
 (
 import
 "
-M
+M9
 "
 "
 g12
@@ -9430,7 +9430,7 @@ func
 (
 import
 "
-M
+M9
 "
 "
 g12
@@ -9552,7 +9552,7 @@ wast
 register
 (
 41
-M
+M10
 )
 ;
 /
@@ -9611,7 +9611,7 @@ func
 (
 import
 "
-M
+M10
 "
 "
 f
@@ -9760,7 +9760,7 @@ wast
 register
 (
 42
-M
+M11
 )
 ;
 /
@@ -9843,7 +9843,7 @@ func
 (
 import
 "
-M
+M11
 "
 "
 f
