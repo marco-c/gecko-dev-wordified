@@ -100,10 +100,6 @@ error
 ;
 pub
 mod
-identity
-;
-pub
-mod
 server
 ;
 pub
@@ -754,10 +750,13 @@ Cow
 '
 a
 [
+Option
+<
 id
 :
 :
 BindGroupLayoutId
+>
 ]
 >
 }
