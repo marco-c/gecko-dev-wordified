@@ -149,7 +149,7 @@ suggest
 .
 quicksuggest
 .
-nonsponsored
+sponsored
 "
 true
 ]
