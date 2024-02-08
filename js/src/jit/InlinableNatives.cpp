@@ -703,7 +703,7 @@ IntrinsicGuardToArrayBuffer
 :
 return
 &
-ArrayBufferObject
+FixedLengthArrayBufferObject
 :
 :
 class_
