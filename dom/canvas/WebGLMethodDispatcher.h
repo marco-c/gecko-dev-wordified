@@ -152,6 +152,8 @@ size_t
 IdByMethod
 (
 )
+=
+delete
 ;
 #
 define
