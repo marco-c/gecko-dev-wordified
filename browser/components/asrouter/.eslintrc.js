@@ -247,6 +247,12 @@ tests
 *
 *
 "
+"
+modules
+/
+*
+*
+"
 ]
 rules
 :
