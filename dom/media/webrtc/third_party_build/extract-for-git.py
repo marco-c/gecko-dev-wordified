@@ -566,6 +566,7 @@ LIBWEBRTC_DIR
 "
 /
 build
+/
 "
 )
             
@@ -589,6 +590,7 @@ LIBWEBRTC_DIR
 "
 /
 third_party
+/
 "
 )
             
@@ -642,6 +644,7 @@ moz
 patch
 -
 stack
+/
 "
             
 )
