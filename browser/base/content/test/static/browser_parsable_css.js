@@ -2750,6 +2750,9 @@ match
 var
 \
 (
+\
+s
+*
 |
 \
 W
@@ -3002,6 +3005,10 @@ prop
 substring
 (
 4
+)
+.
+trim
+(
 )
 ;
 let
