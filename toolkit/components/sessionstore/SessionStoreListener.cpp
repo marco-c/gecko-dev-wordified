@@ -510,6 +510,11 @@ y
 }
 \
 PR_END_MACRO
+TRY_ALLOWPROP
+(
+Plugins
+)
+;
 /
 /
 Bug
