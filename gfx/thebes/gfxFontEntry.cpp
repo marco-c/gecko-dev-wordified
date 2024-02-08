@@ -920,6 +920,14 @@ Family
 aFamily
 )
 {
+mShmemFace
+=
+aFace
+;
+mShmemFamily
+=
+aFamily
+;
 mStyleRange
 =
 aFace
@@ -956,10 +964,6 @@ aFamily
 IsBadUnderlineFamily
 (
 )
-;
-mShmemFace
-=
-aFace
 ;
 auto
 *

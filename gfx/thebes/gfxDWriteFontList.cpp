@@ -3499,11 +3499,9 @@ SetCharacterMap
 (
 sharedFontList
 charmap
+mShmemFamily
 )
 ;
-/
-/
-async
 if
 (
 TrySetShmemCharacterMap

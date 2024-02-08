@@ -2581,6 +2581,9 @@ IsUserFont
 &
 &
 mShmemFace
+&
+&
+mShmemFamily
 )
 {
 mShmemFace
@@ -2590,11 +2593,9 @@ SetCharacterMap
 (
 sharedFontList
 charmap
+mShmemFamily
 )
 ;
-/
-/
-async
 if
 (
 TrySetShmemCharacterMap
