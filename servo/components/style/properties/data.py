@@ -6001,6 +6001,8 @@ remove
 white
 -
 space
+-
+collapse
 "
 )
     
@@ -6012,6 +6014,8 @@ remove
 text
 -
 wrap
+-
+mode
 "
 )
     
@@ -6797,17 +6801,6 @@ props
 add
 (
 "
-white
--
-space
-"
-)
-        
-props
-.
-add
-(
-"
 text
 -
 wrap
@@ -6847,6 +6840,29 @@ justify
 "
 )
         
+for
+p
+in
+PropertyRestrictions
+.
+shorthand
+(
+data
+"
+white
+-
+space
+"
+)
+:
+            
+props
+.
+add
+(
+p
+)
+        
 return
 props
     
@@ -6884,12 +6900,6 @@ set
 (
             
 [
-                
-"
-white
--
-space
-"
                 
 "
 text
@@ -6947,6 +6957,19 @@ smoothing
 "
             
 ]
+            
++
+PropertyRestrictions
+.
+shorthand
+(
+data
+"
+white
+-
+space
+"
+)
             
 +
 PropertyRestrictions
@@ -7044,12 +7067,6 @@ visibility
 text
 -
 shadow
-"
-                
-"
-white
--
-space
 "
                 
 "
@@ -7158,6 +7175,19 @@ data
 text
 -
 decoration
+"
+)
+            
++
+PropertyRestrictions
+.
+shorthand
+(
+data
+"
+white
+-
+space
 "
 )
             
