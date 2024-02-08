@@ -476,6 +476,14 @@ aSpecialDirectory
 )
 ;
 bool
+MaybeBlockFilePicker
+(
+nsIFilePickerShownCallback
+*
+aCallback
+)
+;
+bool
 mAddToRecentDocs
 ;
 nsCOMPtr
