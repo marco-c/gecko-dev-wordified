@@ -206,14 +206,14 @@ waitForPaused
 dbg
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 getOriginalScope
 (
 dbg
 )
-!
-=
 null
 "
 Scopes

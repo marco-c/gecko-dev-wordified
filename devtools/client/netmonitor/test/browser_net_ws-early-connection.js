@@ -293,12 +293,11 @@ file_ws_backend
 }
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 index
-!
-=
-=
 -
 1
 "

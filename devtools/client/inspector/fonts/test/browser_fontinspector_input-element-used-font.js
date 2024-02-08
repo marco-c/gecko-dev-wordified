@@ -134,13 +134,13 @@ getUsedFontsEls
 viewDoc
 )
 ;
-ok
+Assert
+.
+equal
 (
 fontEls
 .
 length
-=
-=
 1
 Used
 fonts
@@ -151,7 +151,9 @@ input
 element
 )
 ;
-ok
+Assert
+.
+equal
 (
 fontEls
 [
@@ -159,8 +161,6 @@ fontEls
 ]
 .
 textContent
-=
-=
 "
 Ostrich
 Sans

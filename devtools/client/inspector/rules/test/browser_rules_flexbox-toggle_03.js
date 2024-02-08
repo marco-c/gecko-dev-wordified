@@ -701,14 +701,14 @@ active
 "
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 getNodeForActiveHighlighter
 (
 HIGHLIGHTER_TYPE
 )
-!
-=
 firstFlexboxHighterShown
 "
 Flexbox

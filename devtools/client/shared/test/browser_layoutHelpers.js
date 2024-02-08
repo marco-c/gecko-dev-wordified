@@ -851,12 +851,13 @@ false
 true
 )
 ;
-ok
+Assert
+.
+less
 (
 win
 .
 scrollY
-<
 other
 .
 clientHeight

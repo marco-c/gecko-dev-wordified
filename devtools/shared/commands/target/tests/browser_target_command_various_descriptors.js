@@ -353,12 +353,13 @@ targetCommand
 ALL_TYPES
 )
 ;
-ok
+Assert
+.
+greater
 (
 targets
 .
 length
->
 1
 "
 We
@@ -884,10 +885,9 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 SECOND_TEST_URL

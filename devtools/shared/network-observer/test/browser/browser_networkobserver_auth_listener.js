@@ -546,7 +546,9 @@ displayed
 await
 onAuthPrompt
 ;
-ok
+Assert
+.
+equal
 (
 getTabAuthPrompts
 (
@@ -554,8 +556,6 @@ tab
 )
 .
 length
-=
-=
 1
 "
 The
@@ -863,7 +863,9 @@ displayed
 await
 onAuthPrompt
 ;
-ok
+Assert
+.
+equal
 (
 getTabAuthPrompts
 (
@@ -871,8 +873,6 @@ tab
 )
 .
 length
-=
-=
 1
 "
 The

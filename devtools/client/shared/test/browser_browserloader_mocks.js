@@ -388,14 +388,13 @@ browserRequire
 CHROME_URI
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 requiredMethod
 (
 )
-=
-=
-=
 MOCKED_VALUE_1
 "
 Mocked

@@ -247,12 +247,13 @@ scroll
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 scrollableEl
 .
 scrollTop
->
 0
 "
 The

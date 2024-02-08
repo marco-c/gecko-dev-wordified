@@ -962,14 +962,13 @@ stat
 destPath
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 stat
 .
 size
-=
-=
-=
 0
 "
 new

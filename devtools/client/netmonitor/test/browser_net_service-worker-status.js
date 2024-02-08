@@ -590,11 +590,11 @@ a
 stacktrace
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 stackLen
->
-=
 request
 .
 stackFunctions

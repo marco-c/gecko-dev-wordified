@@ -537,10 +537,11 @@ i
 /
 ignore
 timestamp
-ok
+Assert
+.
+greater
 (
 timestamp
->
 0
 "
 timestamp

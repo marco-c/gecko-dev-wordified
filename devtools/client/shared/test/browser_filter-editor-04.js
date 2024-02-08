@@ -515,7 +515,9 @@ LIST_ITEM_HEIGHT
 }
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 first
 (
@@ -526,8 +528,6 @@ getBoundingClientRect
 )
 .
 top
->
-=
 boundaries
 .
 top
@@ -599,7 +599,9 @@ LIST_ITEM_HEIGHT
 }
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 last
 (
@@ -610,8 +612,6 @@ getBoundingClientRect
 )
 .
 bottom
-<
-=
 boundaries
 .
 bottom

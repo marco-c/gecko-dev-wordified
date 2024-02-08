@@ -217,10 +217,11 @@ markup
 doc
 )
 ;
-ok
+Assert
+.
+greater
 (
 bottomScrollPos
->
 0
 "
 The
@@ -290,10 +291,11 @@ markup
 doc
 )
 ;
-ok
+Assert
+.
+less
 (
 topScrollPos
-<
 bottomScrollPos
 "
 The

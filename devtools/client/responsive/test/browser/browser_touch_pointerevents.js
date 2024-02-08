@@ -263,14 +263,13 @@ e
 =
 >
 {
-ok
+Assert
+.
+strictEqual
 (
 e
 .
 pointerType
-=
-=
-=
 "
 touch
 "

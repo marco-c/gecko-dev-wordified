@@ -502,10 +502,11 @@ anchorRect
 bottom
 )
 ;
-ok
+Assert
+.
+less
 (
 xDelta
-<
 1
 "
 xDelta
@@ -519,10 +520,11 @@ xDelta
 "
 )
 ;
-ok
+Assert
+.
+less
 (
 yDelta
-<
 1
 "
 yDelta

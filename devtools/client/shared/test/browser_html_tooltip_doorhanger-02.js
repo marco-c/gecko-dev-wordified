@@ -539,11 +539,11 @@ arrowBounds
 )
 }
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 delta
-<
-=
 1
 Arrow
 center

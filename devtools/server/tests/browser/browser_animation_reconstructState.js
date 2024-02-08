@@ -239,7 +239,9 @@ key
 =
 >
 {
-ok
+Assert
+.
+notStrictEqual
 (
 typeof
 player
@@ -248,9 +250,6 @@ state
 [
 key
 ]
-!
-=
-=
 "
 undefined
 "

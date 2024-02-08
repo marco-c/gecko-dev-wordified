@@ -165,7 +165,9 @@ element
 .
 innerHTML
 ;
-ok
+Assert
+.
+greater
 (
 htmlBefore
 .
@@ -177,7 +179,6 @@ font
 size
 "
 )
->
 -
 1
 "

@@ -608,7 +608,9 @@ VK_DELETE
 }
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 getSelectedRequest
 (
@@ -625,9 +627,6 @@ headers
 [
 0
 ]
-!
-=
-=
 hostHeader
 "
 Value
@@ -670,7 +669,9 @@ change
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 getSelectedRequest
 (
@@ -682,9 +683,6 @@ getState
 )
 .
 method
-=
-=
-=
 "
 "
 "
@@ -707,7 +705,9 @@ focus
 (
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 getSelectedRequest
 (
@@ -719,9 +719,6 @@ getState
 )
 .
 method
-=
-=
-=
 originalMethodValue
 "
 Value

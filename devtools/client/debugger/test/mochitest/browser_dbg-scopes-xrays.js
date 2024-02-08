@@ -500,7 +500,9 @@ dbg
 text
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -509,8 +511,6 @@ dbg
 a
 "
 )
-=
-=
 value
 "
 object

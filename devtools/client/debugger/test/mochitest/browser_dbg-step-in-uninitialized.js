@@ -196,7 +196,9 @@ a
 breakpoint
 position
 .
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -205,8 +207,6 @@ dbg
 x
 "
 )
-=
-=
 "
 undefined
 "
@@ -216,7 +216,9 @@ undefined
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -225,8 +227,6 @@ dbg
 y
 "
 )
-=
-=
 "
 (
 uninitialized
@@ -267,7 +267,9 @@ id
 9
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -276,8 +278,6 @@ dbg
 y
 "
 )
-=
-=
 "
 3
 "

@@ -120,13 +120,13 @@ getThreads
 (
 )
 ;
-ok
+Assert
+.
+equal
 (
 workers
 .
 length
-=
-=
 2
 "
 Got

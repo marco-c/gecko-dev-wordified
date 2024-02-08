@@ -683,12 +683,11 @@ root2
 await
 rootNodePromise
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 root1
-!
-=
-=
 root2
 "
 onAvailable
@@ -732,7 +731,7 @@ r
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 data

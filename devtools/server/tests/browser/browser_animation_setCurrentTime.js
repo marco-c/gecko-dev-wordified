@@ -163,12 +163,13 @@ getAnimationPlayersForNode
 nodeMulti
 )
 ;
-ok
+Assert
+.
+greater
 (
 players
 .
 length
->
 1
 "
 Node

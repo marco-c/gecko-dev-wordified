@@ -321,14 +321,13 @@ expectedEvent
 )
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 sameExtrasEvents
 .
 length
-=
-=
-=
 1
 "
 Found

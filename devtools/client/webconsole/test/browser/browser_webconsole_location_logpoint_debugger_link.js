@@ -1232,12 +1232,11 @@ log
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 hasLogClass
-=
-=
-=
 hasLog
 Breakpoint
 log

@@ -1073,7 +1073,9 @@ selector
 }
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 ancestorDataEl
 .
@@ -1090,9 +1092,6 @@ open
 inspector
 "
 )
-!
-=
-=
 null
 "
 An

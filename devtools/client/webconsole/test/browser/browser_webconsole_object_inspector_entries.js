@@ -1525,12 +1525,13 @@ node
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 oiNodes
 .
 length
->
 10
 "
 The

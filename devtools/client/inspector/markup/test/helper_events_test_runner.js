@@ -1282,12 +1282,11 @@ jQuery
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 disabled
-=
-=
-=
 shouldBeDisabled
 The
 checkbox

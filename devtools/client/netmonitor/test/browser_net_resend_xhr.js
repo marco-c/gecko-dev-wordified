@@ -341,14 +341,13 @@ are
 the
 same
 .
-ok
+Assert
+.
+strictEqual
 (
 originalRequest
 .
 url
-=
-=
-=
 selectedRequest
 .
 url

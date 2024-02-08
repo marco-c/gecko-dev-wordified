@@ -287,13 +287,13 @@ created
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 process
 .
 exitCode
-=
-=
 null
 "
 The

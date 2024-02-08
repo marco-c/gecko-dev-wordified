@@ -634,12 +634,11 @@ expectedResources
 i
 ]
 ;
-ok
+Assert
+.
+strictEqual
 (
 resource
-=
-=
-=
 expectedResource
 The
 {

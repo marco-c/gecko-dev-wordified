@@ -463,12 +463,13 @@ KEY_PageDown
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 outputScroller
 .
 scrollTop
->
 currentPosition
 "
 scroll

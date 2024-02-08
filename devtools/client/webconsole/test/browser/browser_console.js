@@ -2028,12 +2028,13 @@ frame
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 frameNodes
 .
 length
->
 1
 "
 Got

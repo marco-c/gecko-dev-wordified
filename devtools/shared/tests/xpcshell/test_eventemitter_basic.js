@@ -1110,12 +1110,11 @@ arg
 =
 >
 {
-ok
+Assert
+.
+strictEqual
 (
 arg
-=
-=
-=
 undefined
 "
 no

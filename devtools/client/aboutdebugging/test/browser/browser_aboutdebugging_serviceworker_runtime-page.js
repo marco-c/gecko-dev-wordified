@@ -336,7 +336,9 @@ Workers
 document
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 swPane
 .
@@ -355,9 +357,6 @@ item
 )
 .
 length
-=
-=
-=
 1
 "
 Service

@@ -299,7 +299,9 @@ visibility
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 tabpanel
 .
@@ -312,9 +314,6 @@ editor
 mount
 "
 )
-=
-=
-=
 null
 "
 The

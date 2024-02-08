@@ -414,7 +414,9 @@ request
 "
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 all
 (
@@ -431,8 +433,6 @@ division
 )
 .
 length
->
-=
 3
 "
 There

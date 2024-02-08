@@ -2994,12 +2994,11 @@ change
 }
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 resource
-=
-=
-=
 targetUpdate
 .
 resource

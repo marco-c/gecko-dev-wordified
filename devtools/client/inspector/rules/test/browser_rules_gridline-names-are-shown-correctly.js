@@ -364,7 +364,9 @@ of
 gridColLines
 )
 {
-ok
+Assert
+.
+greater
 (
 editor
 .
@@ -376,7 +378,6 @@ indexOf
 (
 lineName
 )
->
 -
 1
 {
@@ -551,7 +552,9 @@ of
 gridRowLines
 )
 {
-ok
+Assert
+.
+greater
 (
 editor
 .
@@ -563,7 +566,6 @@ indexOf
 (
 lineName
 )
->
 -
 1
 {

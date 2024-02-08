@@ -79,11 +79,11 @@ textPanelBox
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 count
-=
-=
 1
 "
 The

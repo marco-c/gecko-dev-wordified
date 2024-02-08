@@ -706,10 +706,11 @@ buttonBounds
 bottom
 )
 ;
-ok
+Assert
+.
+less
 (
 xDelta
-<
 2
 "
 xDelta
@@ -732,10 +733,11 @@ menu
 id
 )
 ;
-ok
+Assert
+.
+less
 (
 yDelta
-<
 6
 "
 yDelta
@@ -825,7 +827,9 @@ arrowCenter
 buttonCenter
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 Math
 .
@@ -833,8 +837,6 @@ round
 (
 delta
 )
-<
-=
 1
 "
 Center

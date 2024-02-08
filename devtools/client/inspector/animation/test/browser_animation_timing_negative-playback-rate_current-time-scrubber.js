@@ -178,10 +178,11 @@ getDuration
 5
 )
 ;
-ok
+Assert
+.
+greater
 (
 initialCurrentTime
->
 animationInspector
 .
 state
@@ -217,10 +218,11 @@ left
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 initialProgressBarX
->
 getProgressBarX
 (
 panel

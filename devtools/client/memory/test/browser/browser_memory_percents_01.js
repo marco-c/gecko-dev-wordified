@@ -155,12 +155,13 @@ checkCells
 cells
 )
 {
-ok
+Assert
+.
+greater
 (
 cells
 .
 length
->
 1
 "
 Should

@@ -855,7 +855,9 @@ file
 .
 js
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 sourceUtils
 .
@@ -867,8 +869,6 @@ longMalformedURL
 short
 .
 length
-<
-=
 100
 "
 short
@@ -1043,13 +1043,13 @@ short
 result
 is
 capped
-ok
+Assert
+.
+lessOrEqual
 (
 longDataURIShort
 .
 length
-<
-=
 100
 "
 short

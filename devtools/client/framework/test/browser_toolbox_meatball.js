@@ -202,7 +202,9 @@ bottom
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 menuDockToBottom
 .
@@ -214,9 +216,6 @@ aria
 checked
 "
 )
-=
-=
-=
 "
 true
 "

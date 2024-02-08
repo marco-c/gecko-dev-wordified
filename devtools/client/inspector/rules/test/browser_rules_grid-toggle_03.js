@@ -791,7 +791,9 @@ active
 "
 )
 ;
-ok
+Assert
+.
+notEqual
 (
 highlighters
 .
@@ -806,8 +808,6 @@ next
 )
 .
 value
-!
-=
 firstGridHighterShown
 "
 Grid

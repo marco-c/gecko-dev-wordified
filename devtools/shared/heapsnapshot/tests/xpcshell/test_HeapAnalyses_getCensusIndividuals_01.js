@@ -375,13 +375,13 @@ number
 "
 )
 ;
-ok
+Assert
+.
+lessOrEqual
 (
 individual
 .
 retainedSize
-<
-=
 lastRetainedSize
 "
 individual

@@ -285,7 +285,9 @@ width
 .
 5
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -295,7 +297,6 @@ barX
 -
 expectedBarX
 )
-<
 1
 "
 Progress

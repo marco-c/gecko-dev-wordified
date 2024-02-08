@@ -341,10 +341,11 @@ result
 .
 count
 ;
-ok
+Assert
+.
+greater
 (
 totalBytes
->
 0
 "
 counted
@@ -356,10 +357,11 @@ census
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 totalCount
->
 0
 "
 counted

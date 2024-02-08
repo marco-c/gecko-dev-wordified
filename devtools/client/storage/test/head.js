@@ -6126,7 +6126,9 @@ if
 state
 )
 {
-ok
+Assert
+.
+greater
 (
 gUI
 .
@@ -6135,7 +6137,6 @@ view
 _currHierarchy
 .
 size
->
 2
 "
 Parse
@@ -6150,7 +6151,9 @@ visible
 }
 else
 {
-ok
+Assert
+.
+lessOrEqual
 (
 gUI
 .
@@ -6159,8 +6162,6 @@ view
 _currHierarchy
 .
 size
-<
-=
 2
 "
 Parse

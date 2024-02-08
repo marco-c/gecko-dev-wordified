@@ -376,14 +376,13 @@ columnBreakpoints
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 bpMarkers
 .
 length
-=
-=
-=
 2
 "
 2

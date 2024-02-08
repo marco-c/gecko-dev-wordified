@@ -154,10 +154,11 @@ waitForDone
 worker
 )
 ;
-ok
+Assert
+.
+greater
 (
 assertionCount
->
 0
 )
 ;

@@ -1815,13 +1815,13 @@ incorrect
 "
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 requestItem
 .
 totalTime
->
-=
 0
 "
 The

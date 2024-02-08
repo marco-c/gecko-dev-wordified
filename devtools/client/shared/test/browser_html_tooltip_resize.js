@@ -430,7 +430,9 @@ updatedPanelBounds
 .
 right
 ;
-ok
+Assert
+.
+strictEqual
 (
 Math
 .
@@ -444,9 +446,6 @@ originalPanelBounds
 .
 right
 )
-=
-=
-=
 100
 Panel
 should
@@ -483,7 +482,9 @@ updatedPanelBounds
 .
 top
 ;
-ok
+Assert
+.
+strictEqual
 (
 Math
 .
@@ -497,9 +498,6 @@ originalPanelBounds
 .
 top
 )
-=
-=
-=
 10
 Panel
 should
@@ -567,7 +565,9 @@ updatedArrowBounds
 .
 left
 ;
-ok
+Assert
+.
+strictEqual
 (
 Math
 .
@@ -581,9 +581,6 @@ originalArrowBounds
 .
 left
 )
-=
-=
-=
 0
 Arrow
 should
@@ -617,7 +614,9 @@ updatedArrowBounds
 .
 top
 ;
-ok
+Assert
+.
+strictEqual
 (
 Math
 .
@@ -631,9 +630,6 @@ originalArrowBounds
 .
 top
 )
-=
-=
-=
 0
 Arrow
 should

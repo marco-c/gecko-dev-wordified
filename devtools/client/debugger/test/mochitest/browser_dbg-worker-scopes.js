@@ -234,7 +234,9 @@ var_array
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -243,8 +245,6 @@ dbg
 0
 "
 )
-=
-=
 '
 "
 mango
@@ -256,7 +256,9 @@ elem0
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -265,8 +267,6 @@ dbg
 1
 "
 )
-=
-=
 '
 "
 pamplemousse
@@ -278,7 +278,9 @@ elem1
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -287,8 +289,6 @@ dbg
 2
 "
 )
-=
-=
 '
 "
 pineapple
@@ -318,7 +318,9 @@ var_tarray
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -327,8 +329,6 @@ dbg
 0
 "
 )
-=
-=
 "
 42
 "
@@ -338,7 +338,9 @@ elem0
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -347,8 +349,6 @@ dbg
 1
 "
 )
-=
-=
 "
 43
 "
@@ -358,7 +358,9 @@ elem1
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -367,8 +369,6 @@ dbg
 2
 "
 )
-=
-=
 "
 44
 "
@@ -407,7 +407,9 @@ entries
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -416,8 +418,6 @@ dbg
 0
 "
 )
-=
-=
 '
 "
 papaya
@@ -429,7 +429,9 @@ elem0
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 findNodeValue
 (
@@ -438,8 +440,6 @@ dbg
 1
 "
 )
-=
-=
 '
 "
 banana

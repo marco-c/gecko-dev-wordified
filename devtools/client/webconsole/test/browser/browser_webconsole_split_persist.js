@@ -431,14 +431,15 @@ height
 1px
 "
 ;
-ok
+Assert
+.
+greater
 (
 toolbox
 .
 webconsolePanel
 .
 clientHeight
->
 1
 "
 The

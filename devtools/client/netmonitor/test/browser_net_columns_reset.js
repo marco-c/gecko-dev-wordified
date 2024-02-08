@@ -247,7 +247,9 @@ columns
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 JSON
 .
@@ -255,9 +257,6 @@ stringify
 (
 prefBefore
 )
-=
-=
-=
 JSON
 .
 stringify
