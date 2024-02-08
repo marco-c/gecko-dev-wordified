@@ -149,6 +149,13 @@ asrouter
 "
 modules
 /
+ASRouter
+.
+jsm
+"
+"
+modules
+/
 ASRouterDefaultConfig
 .
 jsm

@@ -12,11 +12,10 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
+/
+asrouter
 /
 ASRouter
 .
@@ -929,7 +928,7 @@ TEST_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab1
 .
@@ -1076,7 +1075,7 @@ TEST_URL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab2
 .
