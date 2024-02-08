@@ -376,10 +376,6 @@ nsJAR
 *
 aJar
 const
-nsACString
-&
-aJarDirSpec
-const
 char
 *
 aDir
