@@ -61,12 +61,6 @@ use
 strict
 "
 ;
-/
-*
-global
-__dirname
-*
-/
 const
 path
 =
