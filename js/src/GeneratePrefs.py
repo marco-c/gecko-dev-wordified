@@ -934,6 +934,18 @@ init_value
         
 )
         
+is_startup_pref_bool
+=
+"
+true
+"
+if
+is_startup_pref
+else
+"
+false
+"
+        
 #
 Generate
 a
@@ -952,6 +964,7 @@ arraybuffer_transfer
 arraybuffer_transfer
 bool
 setAtStartup_arraybuffer_transfer
+true
 )
         
 macro_entries
@@ -972,15 +985,20 @@ MACRO
 }
 {
 }
+{
+}
 )
 '
 .
 format
 (
+                
 name
 cpp_name
 type
 setter_name
+is_startup_pref_bool
+            
 )
         
 )
@@ -1083,6 +1101,9 @@ Prefs
 {
 }
 (
+mozilla
+:
+:
 StaticPrefs
 :
 :
