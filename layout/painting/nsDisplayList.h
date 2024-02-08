@@ -4150,6 +4150,11 @@ GetCaretFrame
 )
 {
 return
+CurrentPresShellState
+(
+)
+-
+>
 mCaretFrame
 ;
 }
@@ -9997,6 +10002,12 @@ nsIFrame
 *
 mPresShellIgnoreScrollFrame
 ;
+nsIFrame
+*
+mCaretFrame
+=
+nullptr
+;
 }
 ;
 PresShellState
@@ -10163,10 +10174,6 @@ const
 nsIFrame
 *
 mCurrentReferenceFrame
-;
-nsIFrame
-*
-mCaretFrame
 ;
 /
 /
