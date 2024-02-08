@@ -12514,6 +12514,10 @@ GuardIsTypedArray
 )
 CACHEOP_CASE_UNIMPL
 (
+GuardIsFixedLengthTypedArray
+)
+CACHEOP_CASE_UNIMPL
+(
 GuardHasProxyHandler
 )
 CACHEOP_CASE_UNIMPL
