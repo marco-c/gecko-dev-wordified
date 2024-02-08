@@ -326,10 +326,6 @@ menupopup
 nsGkAtoms
 :
 :
-popup
-nsGkAtoms
-:
-:
 panel
 nsGkAtoms
 :
