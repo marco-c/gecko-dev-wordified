@@ -1144,7 +1144,7 @@ __dirname
 newtab
 "
 )
-asroutermodules
+asrouter
 :
 path
 .
@@ -1156,8 +1156,6 @@ __dirname
 .
 /
 asrouter
-/
-modules
 "
 )
 }
@@ -1439,7 +1437,9 @@ asrouter
 /
 /
 "
-asroutermodules
+asrouter
+/
+modules
 /
 "
 ]

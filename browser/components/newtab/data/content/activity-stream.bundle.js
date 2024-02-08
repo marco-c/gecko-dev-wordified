@@ -28892,12 +28892,13 @@ CONCATENATED
 MODULE
 :
 .
+.
+/
+asrouter
 /
 content
 -
 src
-/
-asrouter
 /
 components
 /
