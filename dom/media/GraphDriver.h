@@ -175,7 +175,7 @@ include
 "
 mozilla
 /
-SharedThreadPool
+TaskQueue
 .
 h
 "
@@ -3950,9 +3950,10 @@ FallbackWrapper
 ;
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_DELETE_ON_EVENT_TARGET
 (
 AudioCallbackDriver
+mCubebOperationThread
 override
 )
 ;
@@ -5215,6 +5216,15 @@ mDriver
 ;
 }
 ;
+static
+already_AddRefed
+<
+TaskQueue
+>
+CreateTaskQueue
+(
+)
+;
 /
 *
 Shared
@@ -5258,7 +5268,7 @@ mAudioStream
 const
 RefPtr
 <
-SharedThreadPool
+TaskQueue
 >
 mCubebOperationThread
 ;
