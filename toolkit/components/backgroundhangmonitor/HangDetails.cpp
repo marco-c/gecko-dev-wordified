@@ -204,6 +204,15 @@ include
 "
 mozilla
 /
+FileUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SchedulerGroup
 .
 h
