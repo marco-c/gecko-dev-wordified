@@ -692,6 +692,9 @@ greater
 (
 destructions_after
 destructions_before
+?
+?
+0
 {
 worker_type
 }
@@ -707,6 +710,9 @@ greater
 (
 glean_destructions_after
 glean_destructions_before
+?
+?
+0
 Glean
 {
 worker_type
