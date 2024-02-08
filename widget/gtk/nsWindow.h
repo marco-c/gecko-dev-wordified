@@ -2731,6 +2731,11 @@ ClearRenderingQueue
 (
 )
 ;
+void
+DisableRendering
+(
+)
+;
 bool
 ApplyEnterLeaveMutterWorkaround
 (
