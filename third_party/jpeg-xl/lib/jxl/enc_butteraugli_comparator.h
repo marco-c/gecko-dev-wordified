@@ -71,6 +71,11 @@ memory
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 lib
 /

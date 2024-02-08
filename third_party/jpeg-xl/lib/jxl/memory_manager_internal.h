@@ -78,13 +78,6 @@ h
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 stdlib
 .
 h
@@ -99,11 +92,6 @@ h
 /
 /
 memcpy
-#
-include
-<
-atomic
->
 #
 include
 <

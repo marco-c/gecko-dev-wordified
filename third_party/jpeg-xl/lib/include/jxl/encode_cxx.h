@@ -123,6 +123,15 @@ h
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 memory
 >
 #

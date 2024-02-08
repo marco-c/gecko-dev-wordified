@@ -3050,16 +3050,7 @@ is_last
 )
 ;
 }
-if
-(
-frame_type
-!
-=
-FrameType
-:
-:
-kRegularFrame
-)
+else
 {
 is_last
 =

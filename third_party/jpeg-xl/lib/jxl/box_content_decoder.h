@@ -80,16 +80,6 @@ stdlib
 .
 h
 >
-#
-include
-<
-memory
->
-#
-include
-<
-vector
->
 namespace
 jxl
 {

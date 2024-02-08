@@ -334,12 +334,12 @@ the
 vector
 which
 triggers
-msan
+MSAN
 even
 /
 /
 it
-it
+is
 safe
 to
 do
