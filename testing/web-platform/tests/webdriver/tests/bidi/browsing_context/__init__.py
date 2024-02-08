@@ -45,6 +45,9 @@ None
 url
 =
 None
+user_context
+=
+None
 )
 :
     
@@ -299,6 +302,24 @@ url
 =
 =
 url
+    
+if
+user_context
+is
+not
+None
+:
+      
+assert
+info
+[
+"
+userContext
+"
+]
+=
+=
+user_context
 def
 assert_navigation_info
 (
