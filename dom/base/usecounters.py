@@ -5114,10 +5114,6 @@ constexpr
 struct
 {
     
-UseCounter
-counter
-;
-    
 const
 char
 *
@@ -5218,6 +5214,16 @@ len
 css_doc
 )
     
+index
+=
+0
+;
+    
+static_asserts
+=
+[
+]
+    
 for
 pc
 dc
@@ -5253,6 +5259,37 @@ dc
 1
 ]
         
+static_asserts
+.
+append
+(
+f
+"
+static_assert
+(
+{
+index
+}
+=
+=
+size_t
+(
+UseCounter
+:
+:
+{
+pc
+[
+0
+]
+}
+)
+)
+;
+"
+)
+;
+        
 f
 .
 write
@@ -5266,16 +5303,6 @@ f
         
 {
 {
-          
-UseCounter
-:
-:
-{
-pc
-[
-0
-]
-}
           
 "
 {
@@ -5319,6 +5346,12 @@ pc
 "
         
 )
+        
+index
++
+=
+1
+;
     
 for
 pc
@@ -5355,6 +5388,37 @@ dc
 1
 ]
         
+static_asserts
+.
+append
+(
+f
+"
+static_assert
+(
+{
+index
+}
+=
+=
+size_t
+(
+UseCounter
+:
+:
+{
+pc
+[
+0
+]
+}
+)
+)
+;
+"
+)
+;
+        
 f
 .
 write
@@ -5368,16 +5432,6 @@ f
         
 {
 {
-          
-UseCounter
-:
-:
-{
-pc
-[
-0
-]
-}
           
 "
 deprecated_ops
@@ -5423,6 +5477,11 @@ pc
 "
         
 )
+        
+index
++
+=
+1
     
 for
 pc
@@ -5459,6 +5518,37 @@ dc
 1
 ]
         
+static_asserts
+.
+append
+(
+f
+"
+static_assert
+(
+{
+index
+}
+=
+=
+size_t
+(
+UseCounter
+:
+:
+{
+pc
+[
+0
+]
+}
+)
+)
+;
+"
+)
+;
+        
 f
 .
 write
@@ -5472,16 +5562,6 @@ f
         
 {
 {
-          
-UseCounter
-:
-:
-{
-pc
-[
-0
-]
-}
           
 "
 css
@@ -5527,6 +5607,40 @@ pc
 "
         
 )
+        
+index
++
+=
+1
+    
+f
+.
+write
+(
+"
+}
+;
+\
+n
+"
+)
+;
+    
+f
+.
+write
+(
+"
+\
+n
+"
+.
+join
+(
+static_asserts
+)
+)
+;
     
 f
 .
@@ -5537,9 +5651,6 @@ write
 "
 "
 \
-  
-}
-;
   
 MOZ_ASSERT
 (
@@ -5567,22 +5678,6 @@ size_t
 aUseCounter
 )
 ]
-;
-  
-MOZ_ASSERT
-(
-entry
-.
-counter
-=
-=
-aUseCounter
-"
-Wrongly
-ordered
-array
-"
-)
 ;
   
 (
@@ -5624,10 +5719,6 @@ static
 constexpr
 struct
 {
-    
-UseCounterWorker
-counter
-;
     
 const
 char
@@ -5701,6 +5792,15 @@ len
 service
 )
     
+index
+=
+0
+    
+static_asserts
+=
+[
+]
+    
 for
 dc
 sc
@@ -5762,6 +5862,37 @@ servicec
 1
 ]
         
+static_asserts
+.
+append
+(
+f
+"
+static_assert
+(
+{
+index
+}
+=
+=
+size_t
+(
+UseCounterWorker
+:
+:
+{
+dc
+[
+0
+]
+}
+)
+)
+;
+"
+)
+;
+        
 f
 .
 write
@@ -5775,16 +5906,6 @@ f
         
 {
 {
-          
-UseCounterWorker
-:
-:
-{
-dc
-[
-0
-]
-}
           
 "
 {
@@ -5841,6 +5962,40 @@ dc
 "
         
 )
+        
+index
++
+=
+1
+    
+f
+.
+write
+(
+"
+}
+;
+\
+n
+"
+)
+;
+    
+f
+.
+write
+(
+"
+\
+n
+"
+.
+join
+(
+static_asserts
+)
+)
+;
     
 f
 .
@@ -5851,9 +6006,6 @@ write
 "
 "
 \
-  
-}
-;
   
 MOZ_ASSERT
 (
@@ -5881,22 +6033,6 @@ size_t
 aUseCounter
 )
 ]
-;
-  
-MOZ_ASSERT
-(
-entry
-.
-counter
-=
-=
-aUseCounter
-"
-Wrongly
-ordered
-array
-"
-)
 ;
   
 switch
