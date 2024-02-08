@@ -28955,7 +28955,7 @@ Fn
 jit
 :
 :
-DebugLeaveThenFreshenLexicalEnv
+DebuggeeFreshenLexicalEnv
 >
 (
 )
@@ -29111,7 +29111,7 @@ Fn
 jit
 :
 :
-DebugLeaveThenRecreateLexicalEnv
+DebuggeeRecreateLexicalEnv
 >
 (
 )

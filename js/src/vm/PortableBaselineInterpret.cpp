@@ -33756,7 +33756,7 @@ TRACE_PRINTF
 (
 "
 doing
-DebugLeaveThenRecreateLexicalEnv
+DebuggeeRecreateLexicalEnv
 \
 n
 "
@@ -33765,7 +33765,7 @@ n
 if
 (
 !
-DebugLeaveThenRecreateLexicalEnv
+DebuggeeRecreateLexicalEnv
 (
 cx
 frame
@@ -33787,6 +33787,9 @@ frame
 -
 >
 recreateLexicalEnvironment
+<
+false
+>
 (
 cx
 )
@@ -33828,7 +33831,7 @@ TRACE_PRINTF
 (
 "
 doing
-DebugLeaveThenFreshenLexicalEnv
+DebuggeeFreshenLexicalEnv
 \
 n
 "
@@ -33837,7 +33840,7 @@ n
 if
 (
 !
-DebugLeaveThenFreshenLexicalEnv
+DebuggeeFreshenLexicalEnv
 (
 cx
 frame
@@ -33859,6 +33862,9 @@ frame
 -
 >
 freshenLexicalEnvironment
+<
+false
+>
 (
 cx
 )
