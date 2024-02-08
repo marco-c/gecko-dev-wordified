@@ -2962,9 +2962,7 @@ rule
 .
 elementStyle
 .
-variablesMap
-.
-get
+getAllCustomProperties
 (
 this
 .
@@ -2974,8 +2972,10 @@ pseudoElement
 )
 |
 |
-[
-]
+new
+Map
+(
+)
 getGridLineNames
 :
 this
