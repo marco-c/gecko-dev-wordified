@@ -4689,16 +4689,6 @@ tests
 *
 *
 "
-"
-dom
-/
-xslt
-/
-tests
-/
-*
-*
-"
 ]
 rules
 :
