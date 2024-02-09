@@ -281,7 +281,7 @@ cookies
 )
 ;
 async
-PrepareCookieList
+GetCookieList
 (
 nullable
 nsIURI
@@ -304,6 +304,13 @@ bool
 hadCrossSiteRedirects
 OriginAttributes
 attrs
+)
+returns
+(
+CookieStruct
+[
+]
+cookies
 )
 ;
 async

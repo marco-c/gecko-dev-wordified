@@ -13084,7 +13084,10 @@ IPC_OK
 )
 ;
 }
-void
+RefPtr
+<
+GenericPromise
+>
 ContentChild
 :
 :
@@ -13120,6 +13123,7 @@ CookieServiceChild
 "
 )
 ;
+return
 csChild
 -
 >
