@@ -404,7 +404,7 @@ cdm
 HdcpVersion
 :
 :
-kHdcpVersion2_3
+kHdcpVersion2_2
 >
 {
 }

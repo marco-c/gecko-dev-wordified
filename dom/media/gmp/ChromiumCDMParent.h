@@ -483,10 +483,7 @@ GetStatusForPolicy
 uint32_t
 aPromiseId
 const
-dom
-:
-:
-HDCPVersion
+nsCString
 &
 aMinHdcpVersion
 )
