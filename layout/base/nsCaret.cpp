@@ -2609,10 +2609,9 @@ if
 frame
 )
 {
-SetLastCaretFrame
-(
+mLastCaretFrame
+=
 nullptr
-)
 ;
 return
 ;
@@ -2634,10 +2633,9 @@ frame
 cb
 ;
 }
-SetLastCaretFrame
-(
+mLastCaretFrame
+=
 frame
-)
 ;
 frame
 -
