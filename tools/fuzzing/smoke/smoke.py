@@ -184,15 +184,11 @@ path
 import
 shlex
 import
+shutil
+import
 subprocess
 import
 sys
-from
-distutils
-.
-spawn
-import
-find_executable
 def
 run_jsshell
 (
@@ -257,7 +253,9 @@ None
         
 shell
 =
-find_executable
+shutil
+.
+which
 (
 "
 js

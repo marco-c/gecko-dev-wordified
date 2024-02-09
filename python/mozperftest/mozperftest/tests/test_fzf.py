@@ -101,6 +101,11 @@ fzf_executable
 (
 *
 args
+path
+:
+str
+=
+None
 )
 :
     
@@ -142,7 +147,7 @@ fzf
 .
 fzf
 .
-find_executable
+which
 "
 new
 =
@@ -207,7 +212,7 @@ fzf
 .
 fzf
 .
-find_executable
+which
 "
 new
 =
