@@ -831,10 +831,7 @@ aName
 )
 ;
 static
-RefPtr
-<
-GenericPromise
->
+void
 UpdateCookieStatus
 (
 nsIChannel

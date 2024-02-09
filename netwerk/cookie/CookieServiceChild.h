@@ -225,10 +225,7 @@ GetSingleton
 (
 )
 ;
-RefPtr
-<
-GenericPromise
->
+void
 TrackCookieLoad
 (
 nsIChannel

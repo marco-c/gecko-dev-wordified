@@ -391,7 +391,7 @@ ipc
 :
 :
 IPCResult
-RecvGetCookieList
+RecvPrepareCookieList
 (
 nsIURI
 *
@@ -432,10 +432,6 @@ const
 OriginAttributes
 &
 aAttrs
-GetCookieListResolver
-&
-&
-aResolve
 )
 ;
 static
