@@ -8997,7 +8997,7 @@ get
 mWebgl
 -
 >
-BufferData
+UninitializedBufferData_SizeOnly
 (
 LOCAL_GL_ARRAY_BUFFER
 std
@@ -9014,7 +9014,6 @@ sizeof
 kRectVertexData
 )
 )
-nullptr
 LOCAL_GL_DYNAMIC_DRAW
 )
 ;

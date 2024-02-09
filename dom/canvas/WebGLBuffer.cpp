@@ -427,6 +427,8 @@ maybeData
 const
 GLenum
 usage
+bool
+allowUninitialized
 )
 {
 /
@@ -614,6 +616,10 @@ if
 (
 !
 uploadData
+&
+&
+!
+allowUninitialized
 )
 {
 maybeCalloc
@@ -671,6 +677,9 @@ get
 MOZ_ASSERT
 (
 uploadData
+|
+|
+allowUninitialized
 )
 ;
 UniqueBuffer
