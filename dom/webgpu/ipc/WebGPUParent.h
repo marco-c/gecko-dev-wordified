@@ -481,6 +481,8 @@ IPCResult
 RecvBufferMap
 (
 RawId
+aDeviceId
+RawId
 aBufferId
 uint32_t
 aMode

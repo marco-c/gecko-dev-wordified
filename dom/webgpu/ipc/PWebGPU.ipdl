@@ -621,7 +621,9 @@ async
 BufferMap
 (
 RawId
-selfId
+deviceId
+RawId
+bufferId
 uint32_t
 aMode
 uint64_t
