@@ -243,6 +243,10 @@ EchExtensionStatus
 :
 kNotPresent
 )
+mSentXyberShare
+(
+false
+)
 mIsShortWritePending
 (
 false
