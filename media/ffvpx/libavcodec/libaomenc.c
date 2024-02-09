@@ -2922,7 +2922,7 @@ enccfg
 >
 g_profile
 =
-FF_PROFILE_AV1_MAIN
+AV_PROFILE_AV1_MAIN
 ;
 *
 img_fmt
@@ -2940,7 +2940,7 @@ enccfg
 >
 g_profile
 =
-FF_PROFILE_AV1_PROFESSIONAL
+AV_PROFILE_AV1_PROFESSIONAL
 ;
 *
 img_fmt
@@ -2961,7 +2961,7 @@ enccfg
 >
 g_profile
 =
-FF_PROFILE_AV1_HIGH
+AV_PROFILE_AV1_HIGH
 ;
 *
 img_fmt
@@ -3017,9 +3017,9 @@ g_bit_depth
 =
 10
 ?
-FF_PROFILE_AV1_MAIN
+AV_PROFILE_AV1_MAIN
 :
-FF_PROFILE_AV1_PROFESSIONAL
+AV_PROFILE_AV1_PROFESSIONAL
 ;
 *
 img_fmt
@@ -3056,7 +3056,7 @@ enccfg
 >
 g_profile
 =
-FF_PROFILE_AV1_PROFESSIONAL
+AV_PROFILE_AV1_PROFESSIONAL
 ;
 *
 img_fmt
@@ -3107,9 +3107,9 @@ g_bit_depth
 =
 10
 ?
-FF_PROFILE_AV1_HIGH
+AV_PROFILE_AV1_HIGH
 :
-FF_PROFILE_AV1_PROFESSIONAL
+AV_PROFILE_AV1_PROFESSIONAL
 ;
 *
 img_fmt
@@ -5703,7 +5703,7 @@ avctx
 profile
 !
 =
-FF_PROFILE_UNKNOWN
+AV_PROFILE_UNKNOWN
 )
 enccfg
 .
@@ -7080,7 +7080,7 @@ g_bit_depth
 ;
 cpb_props
 =
-ff_add_cpb_side_data
+ff_encode_add_cpb_side_data
 (
 avctx
 )

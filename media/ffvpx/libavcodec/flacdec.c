@@ -2419,7 +2419,7 @@ i
 ]
 =
 (
-int64_t
+uint64_t
 )
 residual
 [
@@ -2427,7 +2427,7 @@ i
 ]
 +
 (
-int64_t
+uint64_t
 )
 decoded
 [
@@ -2466,7 +2466,7 @@ i
 ]
 =
 (
-int64_t
+uint64_t
 )
 residual
 [
@@ -2476,7 +2476,7 @@ i
 2
 *
 (
-int64_t
+uint64_t
 )
 decoded
 [
@@ -2486,7 +2486,7 @@ i
 ]
 -
 (
-int64_t
+uint64_t
 )
 decoded
 [
@@ -2525,7 +2525,7 @@ i
 ]
 =
 (
-int64_t
+uint64_t
 )
 residual
 [
@@ -2535,7 +2535,7 @@ i
 3
 *
 (
-int64_t
+uint64_t
 )
 decoded
 [
@@ -2547,7 +2547,7 @@ i
 3
 *
 (
-int64_t
+uint64_t
 )
 decoded
 [
@@ -2557,7 +2557,7 @@ i
 ]
 +
 (
-int64_t
+uint64_t
 )
 decoded
 [
@@ -2596,7 +2596,7 @@ i
 ]
 =
 (
-int64_t
+uint64_t
 )
 residual
 [
@@ -2606,7 +2606,7 @@ i
 4
 *
 (
-int64_t
+uint64_t
 )
 decoded
 [
@@ -2618,7 +2618,7 @@ i
 6
 *
 (
-int64_t
+uint64_t
 )
 decoded
 [
@@ -2630,7 +2630,7 @@ i
 4
 *
 (
-int64_t
+uint64_t
 )
 decoded
 [
@@ -2640,7 +2640,7 @@ i
 ]
 -
 (
-int64_t
+uint64_t
 )
 decoded
 [
@@ -5103,6 +5103,9 @@ decoded
 i
 ]
 -
+(
+uint64_t
+)
 decoded_33bps
 [
 i
@@ -5148,6 +5151,9 @@ decoded
 i
 ]
 +
+(
+uint64_t
+)
 decoded_33bps
 [
 i

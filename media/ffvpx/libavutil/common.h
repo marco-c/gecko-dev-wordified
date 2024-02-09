@@ -285,6 +285,13 @@ h
 #
 include
 "
+error
+.
+h
+"
+#
+include
+"
 macros
 .
 h

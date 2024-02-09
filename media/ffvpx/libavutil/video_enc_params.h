@@ -923,6 +923,7 @@ AVVideoBlockParams
 /
 *
 *
+*
 Get
 the
 block
@@ -940,6 +941,8 @@ between
 0
 and
 nb_blocks
+-
+1
 .
 *
 /

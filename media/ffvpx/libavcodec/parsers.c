@@ -345,6 +345,11 @@ ff_jpeg2000_parser
 extern
 const
 AVCodecParser
+ff_jpegxl_parser
+;
+extern
+const
+AVCodecParser
 ff_misc4_parser
 ;
 extern
@@ -395,12 +400,7 @@ ff_qoi_parser
 extern
 const
 AVCodecParser
-ff_rv30_parser
-;
-extern
-const
-AVCodecParser
-ff_rv40_parser
+ff_rv34_parser
 ;
 extern
 const

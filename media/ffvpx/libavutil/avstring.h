@@ -189,13 +189,6 @@ attributes
 .
 h
 "
-#
-include
-"
-version
-.
-h
-"
 /
 *
 *
@@ -1914,7 +1907,8 @@ ASCII
 range
 characters
 are
-replace
+replaced
+.
 *
 /
 char

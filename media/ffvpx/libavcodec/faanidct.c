@@ -189,6 +189,15 @@ common
 .
 h
 "
+#
+include
+"
+libavutil
+/
+emms
+.
+h
+"
 /
 *
 To

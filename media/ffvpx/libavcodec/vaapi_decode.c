@@ -197,6 +197,13 @@ h
 #
 include
 "
+codec_desc
+.
+h
+"
+#
+include
+"
 decode
 .
 h
@@ -2418,7 +2425,7 @@ AV_CODEC_ID_
 #
 #
 c
-FF_PROFILE_
+AV_PROFILE_
 #
 #
 p
@@ -2988,7 +2995,7 @@ i
 codec_profile
 =
 =
-FF_PROFILE_UNKNOWN
+AV_PROFILE_UNKNOWN
 )
 profile_match
 =

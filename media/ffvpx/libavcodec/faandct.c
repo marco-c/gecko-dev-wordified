@@ -213,6 +213,15 @@ include
 "
 libavutil
 /
+emms
+.
+h
+"
+#
+include
+"
+libavutil
+/
 internal
 .
 h

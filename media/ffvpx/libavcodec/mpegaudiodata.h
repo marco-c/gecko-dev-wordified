@@ -334,7 +334,9 @@ tables
 *
 /
 extern
-VLC
+const
+VLCElem
+*
 ff_huff_vlc
 [
 16

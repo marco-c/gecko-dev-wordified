@@ -1411,6 +1411,7 @@ failure
 int
 av_fifo_peek
 (
+const
 AVFifo
 *
 f
@@ -1555,6 +1556,7 @@ failure
 int
 av_fifo_peek_to_cb
 (
+const
 AVFifo
 *
 f

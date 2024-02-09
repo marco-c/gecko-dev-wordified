@@ -162,6 +162,13 @@ AVCODEC_IDCTDSP_H
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 stdint
 .
 h
@@ -173,13 +180,9 @@ config
 .
 h
 "
-#
-include
-"
-avcodec
-.
-h
-"
+struct
+AVCodecContext
+;
 enum
 idct_permutation_type
 {
@@ -724,6 +727,7 @@ ff_idctdsp_init
 IDCTDSPContext
 *
 c
+struct
 AVCodecContext
 *
 avctx
@@ -735,6 +739,7 @@ ff_idctdsp_init_aarch64
 IDCTDSPContext
 *
 c
+struct
 AVCodecContext
 *
 avctx
@@ -748,6 +753,7 @@ ff_idctdsp_init_alpha
 IDCTDSPContext
 *
 c
+struct
 AVCodecContext
 *
 avctx
@@ -761,6 +767,7 @@ ff_idctdsp_init_arm
 IDCTDSPContext
 *
 c
+struct
 AVCodecContext
 *
 avctx
@@ -774,6 +781,7 @@ ff_idctdsp_init_ppc
 IDCTDSPContext
 *
 c
+struct
 AVCodecContext
 *
 avctx
@@ -787,6 +795,7 @@ ff_idctdsp_init_riscv
 IDCTDSPContext
 *
 c
+struct
 AVCodecContext
 *
 avctx
@@ -800,6 +809,7 @@ ff_idctdsp_init_x86
 IDCTDSPContext
 *
 c
+struct
 AVCodecContext
 *
 avctx
@@ -813,6 +823,7 @@ ff_idctdsp_init_mips
 IDCTDSPContext
 *
 c
+struct
 AVCodecContext
 *
 avctx
@@ -826,6 +837,7 @@ ff_idctdsp_init_loongarch
 IDCTDSPContext
 *
 c
+struct
 AVCodecContext
 *
 avctx

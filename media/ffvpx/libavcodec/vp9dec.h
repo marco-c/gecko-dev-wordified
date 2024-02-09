@@ -222,15 +222,6 @@ include
 "
 libavutil
 /
-buffer
-.
-h
-"
-#
-include
-"
-libavutil
-/
 mem_internal
 .
 h
@@ -978,7 +969,8 @@ frame
 specific
 buffer
 pools
-AVBufferPool
+struct
+FFRefStructPool
 *
 frame_extradata_pool
 ;

@@ -984,7 +984,8 @@ arg
 this
 will
 use
-upto
+up
+to
 5
 entries
 .

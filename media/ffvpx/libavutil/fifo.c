@@ -1456,6 +1456,7 @@ ret
 int
 av_fifo_peek
 (
+const
 AVFifo
 *
 f
@@ -1484,6 +1485,7 @@ NULL
 int
 av_fifo_peek_to_cb
 (
+const
 AVFifo
 *
 f
@@ -1655,6 +1657,13 @@ f
 #
 if
 FF_API_FIFO_OLD_API
+#
+include
+"
+internal
+.
+h
+"
 FF_DISABLE_DEPRECATION_WARNINGS
 #
 define

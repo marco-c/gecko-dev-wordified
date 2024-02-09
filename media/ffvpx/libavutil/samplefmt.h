@@ -1725,6 +1725,7 @@ av_samples_copy
 (
 uint8_t
 *
+const
 *
 dst
 uint8_t
@@ -1805,6 +1806,7 @@ av_samples_set_silence
 (
 uint8_t
 *
+const
 *
 audio_data
 int

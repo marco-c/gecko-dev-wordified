@@ -1763,9 +1763,7 @@ flags
 }
 {
 "
-rvv
--
-i32
+zve32x
 "
 NULL
 0
@@ -1785,9 +1783,7 @@ flags
 }
 {
 "
-rvv
--
-f32
+zve32f
 "
 NULL
 0
@@ -1807,9 +1803,7 @@ flags
 }
 {
 "
-rvv
--
-i64
+zve64x
 "
 NULL
 0
@@ -1829,7 +1823,7 @@ flags
 }
 {
 "
-rvv
+zve64d
 "
 NULL
 0
@@ -1849,9 +1843,7 @@ flags
 }
 {
 "
-rvb
--
-addr
+zba
 "
 NULL
 0
@@ -1871,9 +1863,7 @@ flags
 }
 {
 "
-rvb
--
-basic
+zbb
 "
 NULL
 0
