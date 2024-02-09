@@ -11673,7 +11673,7 @@ Unused
 CubebUtils
 :
 :
-GetCubebContext
+GetCubeb
 (
 )
 ;
