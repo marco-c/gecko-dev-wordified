@@ -15056,6 +15056,18 @@ FAILURE
 51
 )
     
+errors
+[
+"
+NS_ERROR_DOM_MEDIA_CDM_HDCP_NOT_SUPPORT
+"
+]
+=
+FAILURE
+(
+52
+)
+    
 #
 Internal
 platform
