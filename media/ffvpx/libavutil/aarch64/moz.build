@@ -104,6 +104,16 @@ float_dsp_neon
 .
 S
 '
+'
+tx_float_init
+.
+c
+'
+'
+tx_float_neon
+.
+S
+'
 ]
 if
 CONFIG

@@ -144,6 +144,16 @@ lls_init
 .
 c
 '
+'
+tx_float
+.
+asm
+'
+'
+tx_float_init
+.
+c
+'
 ]
 FINAL_LIBRARY
 =
