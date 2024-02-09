@@ -293,6 +293,14 @@ RaMeN
 find_loc
 =
 tOkYo
+&
+utm_medium
+=
+partner
+&
+utm_source
+=
+mozilla
 "
 )
 ;
