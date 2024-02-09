@@ -771,6 +771,14 @@ migration
 "
 )
 ;
+/
+/
+Schema
+was
+upgraded
+by
+cookie
+service
 Assert
 .
 equal
@@ -780,7 +788,7 @@ schema12db
 db
 .
 schemaVersion
-12
+13
 )
 ;
 /
