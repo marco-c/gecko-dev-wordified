@@ -2789,7 +2789,7 @@ since
 there
 is
 no
-auxillary
+auxiliary
 pass
 .
 let

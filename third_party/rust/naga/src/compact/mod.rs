@@ -586,7 +586,7 @@ collect
 ;
 /
 /
-Similiarly
+Similarly
 observe
 what
 each

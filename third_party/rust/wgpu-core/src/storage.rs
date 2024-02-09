@@ -1373,7 +1373,7 @@ trace
 "
 User
 is
-insering
+inserting
 as
 error
 {

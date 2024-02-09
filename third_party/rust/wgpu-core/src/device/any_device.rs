@@ -335,7 +335,7 @@ Arc
 :
 into_raw
 is
-gauranteed
+guaranteed
 to
 be
 /

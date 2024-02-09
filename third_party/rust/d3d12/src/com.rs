@@ -868,7 +868,7 @@ actual
 :
 ComObject1
 >
-panicing
+panicking
 on
 failure
 to

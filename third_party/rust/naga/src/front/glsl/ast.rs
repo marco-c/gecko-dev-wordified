@@ -631,7 +631,7 @@ Expression
 /
 /
 /
-Wether
+Whether
 the
 variable
 is
@@ -653,7 +653,7 @@ bool
 /
 /
 /
-Wether
+Whether
 the
 value
 of

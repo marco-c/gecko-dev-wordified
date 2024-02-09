@@ -5713,7 +5713,7 @@ AddressSpace
 /
 /
 /
-Homogenous
+Homogeneous
 list
 of
 elements

@@ -2482,7 +2482,7 @@ vec
 ;
 /
 /
-Splitted
+Split
 ranges
 .
 assert_eq

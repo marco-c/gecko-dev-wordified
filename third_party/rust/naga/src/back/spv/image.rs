@@ -576,7 +576,7 @@ texel
 /
 /
 /
-Ths
+This
 method
 assumes
 that

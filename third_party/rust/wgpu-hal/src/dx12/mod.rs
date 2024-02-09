@@ -10,7 +10,7 @@ Generally
 the
 mapping
 is
-straightforwad
+straightforward
 .
 #
 #

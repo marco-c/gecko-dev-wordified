@@ -781,7 +781,7 @@ sources
 for
 blending
 from
-fragement
+fragment
 shaders
 .
 const

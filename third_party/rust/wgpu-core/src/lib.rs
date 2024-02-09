@@ -141,7 +141,7 @@ linking
 for
 libraries
 .
-Disale
+Disable
 to
 manually
 /
@@ -750,7 +750,7 @@ Needless
 updates
 are
 more
-scaleable
+scalable
 easier
 to
 play

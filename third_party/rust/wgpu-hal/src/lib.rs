@@ -3159,7 +3159,7 @@ the
 command
 buffers
 had
-CommadBuffer
+CommandBuffer
 :
 :
 finish
@@ -4011,7 +4011,7 @@ layout
 of
 all
 the
-preceeding
+preceding
 groups
 to
 be
@@ -11143,7 +11143,7 @@ API
 validation
 errors
 that
-hav
+have
 occurred
 in
 this

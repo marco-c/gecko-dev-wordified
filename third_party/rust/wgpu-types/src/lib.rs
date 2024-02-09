@@ -13358,7 +13358,7 @@ The
 queries
 will
 be
-guarenteed
+guaranteed
 finished
 so
 will
@@ -54384,7 +54384,7 @@ an
 external
 texture
 that
-cna
+can
 be
 used
 to
@@ -54750,7 +54750,7 @@ canvas
 /
 /
 /
-Requies
+Requires
 [
 DownlevelFlags
 :

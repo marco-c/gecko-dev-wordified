@@ -4401,7 +4401,7 @@ location
 may
 be
 used
-whhen
+when
 dual
 source
 blending

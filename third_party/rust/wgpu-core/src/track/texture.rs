@@ -8,7 +8,7 @@ Trackers
 Texture
 trackers
 are
-signifigantly
+significantly
 more
 complicated
 than
@@ -50,7 +50,7 @@ complex
 states
 are
 stored
-seperately
+separately
 from
 the
 simple
@@ -1194,7 +1194,7 @@ be
 in
 a
 constant
-assending
+ascending
 order
 .
 pub
@@ -6645,7 +6645,7 @@ end
 as
 there
 is
-guarenteed
+guaranteed
 to
 be
 /
@@ -6745,7 +6745,7 @@ end
 as
 there
 is
-guarenteed
+guaranteed
 to
 be
 /

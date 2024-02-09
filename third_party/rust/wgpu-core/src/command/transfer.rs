@@ -514,7 +514,7 @@ aspect
 ?
 }
 from
-fromat
+format
 {
 format
 :
@@ -2021,7 +2021,7 @@ value
 so
 it
 is
-preferrable
+preferable
 to
 validate
 /

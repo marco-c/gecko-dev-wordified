@@ -5945,7 +5945,7 @@ it
 '
 s
 merely
-syntatic
+syntactic
 sugar
 for
 it
@@ -6606,7 +6606,7 @@ Expression
 Load
 must
 be
-emited
+emitted
 before
 it
 '

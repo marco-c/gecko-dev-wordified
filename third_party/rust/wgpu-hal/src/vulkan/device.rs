@@ -14450,7 +14450,7 @@ flags
 conv
 :
 :
-map_acceleration_structure_geomety_flags
+map_acceleration_structure_geometry_flags
 (
 triangles
 .
@@ -14620,7 +14620,7 @@ flags
 conv
 :
 :
-map_acceleration_structure_geomety_flags
+map_acceleration_structure_geometry_flags
 (
 aabb
 .

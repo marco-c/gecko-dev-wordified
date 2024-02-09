@@ -1723,7 +1723,7 @@ hardware
 /
 /
 will
-guarentee
+guarantee
 the
 order
 of
@@ -2404,7 +2404,7 @@ efficient
 order
 possible
 (
-assending
+ascending
 order
 )
 .
@@ -2565,7 +2565,7 @@ be
 in
 a
 constant
-assending
+ascending
 order
 .
 pub

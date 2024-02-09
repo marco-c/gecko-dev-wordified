@@ -2584,7 +2584,7 @@ computation
 when
 changing
 states
-intead
+instead
 of
 when
 producing
@@ -2728,7 +2728,7 @@ so
 this
 slot
 can
-accomodate
+accommodate
 any
 number
 of
@@ -10352,7 +10352,7 @@ inputs
 as
 necessary
 to
-accomodate
+accommodate
 all
 slots
 in

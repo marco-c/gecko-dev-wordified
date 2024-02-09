@@ -417,7 +417,7 @@ qualify
 the
 /
 /
-supression
+suppression
 of
 the
 error
@@ -2069,7 +2069,7 @@ name
 VK_EXT_swapchain_colorspace
 /
 /
-Provid
+Provides
 wide
 color
 gamut
@@ -7346,7 +7346,7 @@ for
 Intel
 Vulkan
 returning
-bizzare
+bizarre
 values
 (
 ugh

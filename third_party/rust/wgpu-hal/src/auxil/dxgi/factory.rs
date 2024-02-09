@@ -515,7 +515,7 @@ dxgi1
 we
 can
 grab
-IDXGIAdapater4
+IDXGIAdapter4
 directly
 let
 mut
@@ -765,7 +765,7 @@ aggressive
 casts
 first
 skipping
-Adpater4
+Adapter4
 as
 we
 definitely

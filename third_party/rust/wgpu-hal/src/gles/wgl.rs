@@ -1078,7 +1078,7 @@ cast
 )
 }
 fn
-extensions
+get_extensions
 (
 extra
 :
@@ -2864,9 +2864,9 @@ None
 )
 ;
 let
-extentions
-=
 extensions
+=
+get_extensions
 (
 &
 extra
@@ -2876,7 +2876,7 @@ dc
 let
 can_use_profile
 =
-extentions
+extensions
 .
 contains
 (
@@ -3116,9 +3116,9 @@ None
 )
 ;
 let
-extentions
-=
 extensions
+=
+get_extensions
 (
 &
 extra
@@ -3128,7 +3128,7 @@ dc
 let
 srgb_capable
 =
-extentions
+extensions
 .
 contains
 (
@@ -3138,7 +3138,7 @@ WGL_EXT_framebuffer_sRGB
 )
 |
 |
-extentions
+extensions
 .
 contains
 (
@@ -4681,9 +4681,9 @@ None
 )
 ;
 let
-extentions
-=
 extensions
+=
+get_extensions
 (
 &
 extra
@@ -4695,7 +4695,7 @@ device
 if
 !
 (
-extentions
+extensions
 .
 contains
 (

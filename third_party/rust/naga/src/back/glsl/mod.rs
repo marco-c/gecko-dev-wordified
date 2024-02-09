@@ -1099,7 +1099,7 @@ true
 Returns
 true
 if
-targetting
+targeting
 WebGL
 const
 fn
@@ -2841,7 +2841,7 @@ of
 a
 set
 of
-primatives
+primitives
 (
 scalar
 vector
@@ -2880,7 +2880,7 @@ the
 offset
 of
 each
-primative
+primitive
 in
 the
 /
@@ -3227,7 +3227,7 @@ Assorted
 options
 needed
 for
-generting
+generating
 varyings
 .
 #
@@ -3244,7 +3244,7 @@ VaryingOptions
 output
 :
 bool
-targetting_webgl
+targeting_webgl
 :
 bool
 draw_parameters
@@ -3273,7 +3273,7 @@ Self
 Self
 {
 output
-targetting_webgl
+targeting_webgl
 :
 options
 .
@@ -14212,7 +14212,7 @@ BackendResult
 /
 /
 Write
-parantheses
+parentheses
 around
 the
 dot
@@ -29839,7 +29839,7 @@ ES
 3
 .
 1
-mentiones
+mentions
 in
 Chapter
 "
@@ -29897,7 +29897,7 @@ OpenGL
 .
 2
 Core
-mentiones
+mentions
 in
 Chapter
 "
@@ -30179,7 +30179,7 @@ ones
 /
 /
 Write
-parantheses
+parentheses
 around
 the
 ternary
@@ -30403,7 +30403,7 @@ first
 we
 write
 the
-comparation
+comparison
 function
 in
 case
@@ -30705,7 +30705,7 @@ images
 we
 perform
 the
-comparsion
+comparison
 /
 /
 using
@@ -31677,7 +31677,7 @@ images
 aren
 '
 t
-implmented
+implemented
 crate
 :
 :
@@ -31788,7 +31788,7 @@ out
 /
 Close
 the
-parantheses
+parentheses
 surrounding
 our
 ternary
@@ -34518,7 +34518,7 @@ ViewIndex
 if
 options
 .
-targetting_webgl
+targeting_webgl
 =
 >
 "
@@ -34613,7 +34613,7 @@ else
 /
 Must
 match
-FISRT_INSTANCE_BINDING
+FIRST_INSTANCE_BINDING
 "
 (
 uint

@@ -3082,7 +3082,7 @@ closure
 until
 all
 previously
-occuring
+occurring
 map_async
 closures
 /
@@ -3309,14 +3309,14 @@ if
 let
 Some
 (
-ressources
+resources
 )
 =
 non_referenced_resources
 {
 get_resource_map
 (
-ressources
+resources
 )
 .
 insert

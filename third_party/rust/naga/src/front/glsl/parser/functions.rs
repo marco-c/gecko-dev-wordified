@@ -345,7 +345,7 @@ constructors
 /
 depending
 on
-wether
+whether
 the
 token
 following

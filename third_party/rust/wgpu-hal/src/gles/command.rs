@@ -5088,7 +5088,7 @@ OpenGL
 does
 not
 allow
-parital
+partial
 uniform
 updates
 .

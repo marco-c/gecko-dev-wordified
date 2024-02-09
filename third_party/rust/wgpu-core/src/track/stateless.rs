@@ -230,7 +230,7 @@ be
 in
 a
 constant
-assending
+ascending
 order
 .
 pub

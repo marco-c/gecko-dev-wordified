@@ -584,7 +584,7 @@ Option
 T
 >
 is
-guarnateed
+guaranteed
 to
 be
 niche

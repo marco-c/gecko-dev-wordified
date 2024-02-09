@@ -8745,7 +8745,7 @@ BackendResult
 /
 /
 Write
-parantheses
+parentheses
 around
 the
 dot

@@ -16276,7 +16276,7 @@ input
 and
 result
 to
-usigned
+unsigned
 parse_expr_op
 !
 (
@@ -21734,7 +21734,7 @@ no
 weird
 /
 /
-falltrough
+fallthrough
 cases
 happen
 .
@@ -21917,7 +21917,7 @@ others
 will
 be
 empty
-falltrough
+fallthrough
 so
 that
 they
@@ -21957,7 +21957,7 @@ spir
 -
 v
 defines
-falltrough
+fallthrough
 order
 in
 the

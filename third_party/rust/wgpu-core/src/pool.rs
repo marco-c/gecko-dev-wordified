@@ -553,7 +553,7 @@ the
 entry
 but
 OnceCell
-guarentees
+guarantees
 that
 only
 one

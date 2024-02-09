@@ -16764,7 +16764,7 @@ resolved
 /
 /
 We
-specifcally
+specifically
 lift
 the
 ValuePointer

@@ -80,7 +80,7 @@ an
 optional
 array_specifier
 returning
-wether
+whether
 or
 not
 it

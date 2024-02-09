@@ -1270,7 +1270,7 @@ TypeNotConstructible
 (
 Span
 )
-TypeNotInferrable
+TypeNotInferable
 (
 Span
 )
@@ -4120,7 +4120,7 @@ vec
 Error
 :
 :
-TypeNotInferrable
+TypeNotInferable
 (
 span
 )

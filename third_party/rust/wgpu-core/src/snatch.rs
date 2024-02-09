@@ -139,7 +139,7 @@ be
 taken
 .
 To
-guarentee
+guarantee
 it
 methods
 take
@@ -629,7 +629,7 @@ this
 /
 /
 method
-sould
+should
 be
 called
 is
