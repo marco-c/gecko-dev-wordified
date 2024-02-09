@@ -268,13 +268,6 @@ ch
 }
 )
 ;
-await
-waitForCursorPosition
-(
-dbg
-2
-)
-;
 assertCursorPosition
 (
 dbg
@@ -307,13 +300,6 @@ ch
 :
 0
 }
-)
-;
-await
-waitForCursorPosition
-(
-dbg
-3
 )
 ;
 assertCursorPosition
