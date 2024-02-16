@@ -9,7 +9,9 @@ modules
 /
 ASRouter
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import
@@ -6720,7 +6722,9 @@ in
 /
 ASRouter
 .
-jsm
+sys
+.
+mjs
 to
 match
 the
