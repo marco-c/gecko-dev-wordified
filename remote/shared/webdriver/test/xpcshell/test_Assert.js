@@ -73,9 +73,9 @@ array
 constructor
 no
 -
-new
--
 object
+-
+constructor
 *
 /
 const
