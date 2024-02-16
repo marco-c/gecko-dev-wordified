@@ -2808,12 +2808,6 @@ true
 ;
 #
 endif
-SET_DEFAULT
-(
-useHasSeenEmulatesUndefinedFuse
-false
-)
-;
 }
 bool
 DefaultJitOptions
