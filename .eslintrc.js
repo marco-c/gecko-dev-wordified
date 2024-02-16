@@ -3931,16 +3931,6 @@ tests
 "
 dom
 /
-messagechannel
-/
-tests
-/
-*
-*
-"
-"
-dom
-/
 payments
 /
 test
