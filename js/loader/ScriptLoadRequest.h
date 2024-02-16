@@ -311,7 +311,7 @@ mozilla
 loader
 {
 class
-ComponentLoadContext
+SyncLoadContext
 ;
 }
 /
@@ -1231,9 +1231,9 @@ mozilla
 loader
 :
 :
-ComponentLoadContext
+SyncLoadContext
 *
-GetComponentLoadContext
+GetSyncLoadContext
 (
 )
 ;
