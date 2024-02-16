@@ -212,6 +212,11 @@ highConfidenceKeywords
 high
 "
 ]
+score
+:
+0
+.
+25
 }
 ]
 }

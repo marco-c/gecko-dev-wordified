@@ -5546,7 +5546,7 @@ quicksuggest
 .
 rustEnabled
 "
-false
+true
 )
 ;
 /
