@@ -745,6 +745,16 @@ getElementById
 infoIcon
 "
 )
+spinnerContainer
+:
+document
+.
+getElementById
+(
+"
+spinnerContainer
+"
+)
 checkbox
 :
 document
