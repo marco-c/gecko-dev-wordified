@@ -335,9 +335,6 @@ bb
 )
 )
 ;
-if
-(
-!
 bridge
 -
 >
@@ -357,17 +354,7 @@ move
 bb
 )
 )
-)
-{
-MOZ_CRASH
-(
-"
-IPC
-failure
-"
-)
 ;
-}
 RefPtr
 <
 BindGroupLayout
