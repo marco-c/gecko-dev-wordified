@@ -37095,22 +37095,11 @@ ABORT0
 (
 )
 ;
-bool
-startSeg
-;
 BCMapCellInfo
 info
 (
 this
 )
-ajaInfo
-(
-this
-)
-;
-BCCellBorder
-currentBorder
-adjacentBorder
 ;
 BCCorners
 bStartCorners
@@ -37456,6 +37445,7 @@ SetColumn
 colIdx
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -37604,6 +37594,7 @@ a
 new
 segment
 starts
+bool
 startSeg
 =
 firstRowBStartEdgeBorder
@@ -37882,6 +37873,7 @@ info
 mRowIndex
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -37975,6 +37967,7 @@ a
 new
 segment
 starts
+bool
 startSeg
 =
 SetBorder
@@ -38155,6 +38148,7 @@ info
 mRowIndex
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -38328,6 +38322,7 @@ a
 new
 segment
 starts
+bool
 startSeg
 =
 SetBorder
@@ -38416,6 +38411,12 @@ segLength
 0
 ;
 BCMapCellInfo
+ajaInfo
+(
+this
+)
+;
+BCMapCellInfo
 priorAjaInfo
 (
 this
@@ -38454,6 +38455,7 @@ rowB
 ajaInfo
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -38462,6 +38464,7 @@ GetIEndInternalBorder
 (
 )
 ;
+BCCellBorder
 adjacentBorder
 =
 ajaInfo
@@ -38531,6 +38534,7 @@ a
 new
 segment
 starts
+bool
 startSeg
 =
 SetBorder
@@ -38761,6 +38765,7 @@ GetBEndInternalBorder
 (
 )
 ;
+BCCellBorder
 adjacentBorder
 =
 ajaInfo
@@ -39146,6 +39151,7 @@ SetColumn
 colIdx
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -39314,6 +39320,7 @@ a
 new
 segment
 starts
+bool
 startSeg
 =
 SetInlineDirBorder
@@ -39496,6 +39503,12 @@ segLength
 =
 0
 ;
+BCMapCellInfo
+ajaInfo
+(
+this
+)
+;
 for
 (
 int32_t
@@ -39529,6 +39542,7 @@ colIdx
 ajaInfo
 )
 ;
+BCCellBorder
 currentBorder
 =
 info
@@ -39537,6 +39551,7 @@ GetBEndInternalBorder
 (
 )
 ;
+BCCellBorder
 adjacentBorder
 =
 ajaInfo
@@ -39936,6 +39951,7 @@ a
 new
 segment
 starts
+bool
 startSeg
 =
 SetInlineDirBorder
