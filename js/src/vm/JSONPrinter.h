@@ -177,11 +177,6 @@ first_
 =
 true
 ;
-bool
-afterPropName_
-=
-false
-;
 GenericPrinter
 &
 out_
@@ -650,15 +645,6 @@ reportOutOfMemory
 }
 protected
 :
-void
-propertyNameImpl
-(
-const
-char
-*
-name
-)
-;
 void
 beginInline
 (
