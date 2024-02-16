@@ -3334,13 +3334,11 @@ formatValueSync
 "
 appmenuitem
 -
-moz
--
-accounts
--
 sign
 -
 in
+-
+account
 "
 )
 ;
