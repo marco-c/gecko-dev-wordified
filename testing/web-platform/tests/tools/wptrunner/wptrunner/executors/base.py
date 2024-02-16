@@ -700,7 +700,7 @@ harness_result
 =
 test
 .
-result_cls
+make_result
 (
 self
 .
@@ -724,7 +724,7 @@ harness_result
 [
 test
 .
-subtest_result_cls
+make_subtest_result
 (
 st_name
 self
@@ -1164,7 +1164,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
         
 result
@@ -1228,7 +1228,7 @@ harness_result
 =
 test
 .
-result_cls
+make_result
 (
 *
 harness_data
@@ -1239,7 +1239,7 @@ subtest_results
 [
 test
 .
-subtest_result_cls
+make_subtest_result
 (
 *
 item
@@ -1267,7 +1267,7 @@ result
 return
 test
 .
-result_cls
+make_result
 (
 *
 *
@@ -2659,7 +2659,7 @@ exception_string
 return
 test
 .
-result_cls
+make_result
 (
 status
 message
@@ -4896,7 +4896,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
 *
 data

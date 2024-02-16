@@ -1303,7 +1303,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
 "
 EXTERNAL
@@ -1328,7 +1328,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
 "
 CRASH
@@ -1862,7 +1862,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
 "
 ERROR
@@ -1935,7 +1935,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
 "
 ERROR
@@ -1960,7 +1960,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
 "
 ERROR

@@ -6982,7 +6982,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
 extra
 =
@@ -9311,7 +9311,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
 extra
 =

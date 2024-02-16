@@ -2418,7 +2418,7 @@ return
 (
 test
 .
-result_cls
+make_result
 (
 *
 data
