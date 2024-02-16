@@ -1452,7 +1452,6 @@ dom
 TreeOrderedArray
 <
 Element
-*
 >
 mIdContentList
 ;

@@ -32817,7 +32817,6 @@ processing
 TreeOrderedArray
 <
 HTMLMetaElement
-*
 >
 mColorSchemeMetaTags
 ;

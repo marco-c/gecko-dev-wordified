@@ -1706,7 +1706,6 @@ SlotArray
 TreeOrderedArray
 <
 HTMLSlotElement
-*
 >
 ;
 /
