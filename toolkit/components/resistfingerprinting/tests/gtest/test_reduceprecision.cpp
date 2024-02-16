@@ -289,7 +289,7 @@ conceal
 from
 us
 .
-Specially
+Specifically
 :
 you
 need
@@ -326,7 +326,7 @@ below
 the
 format
 will
-certainly
+probably
 be
 different
 by
@@ -424,6 +424,11 @@ to
 2064
 .
 83
+.
+Good
+luck
+and
+godspeed
 .
 *
 /
