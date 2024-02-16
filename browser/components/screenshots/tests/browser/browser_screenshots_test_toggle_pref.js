@@ -1723,6 +1723,13 @@ restore
 (
 )
 ;
+await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 }
 )
 ;
