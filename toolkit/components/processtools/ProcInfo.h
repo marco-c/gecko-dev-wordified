@@ -417,6 +417,16 @@ UtilityActorName
 aActorName
 )
 ;
+#
+ifdef
+XP_WIN
+int
+GetCpuFrequencyMHz
+(
+)
+;
+#
+endif
 /
 *
 Get
