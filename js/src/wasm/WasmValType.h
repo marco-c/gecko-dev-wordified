@@ -3047,6 +3047,13 @@ isAnyHierarchy
 )
 const
 ;
+inline
+bool
+isExnHierarchy
+(
+)
+const
+;
 static
 bool
 isSubTypeOf
