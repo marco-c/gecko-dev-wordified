@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 PROVIDER_PREF_BRANCH
 =
@@ -261,6 +256,7 @@ message
 targeting
 still
 matches
+export
 const
 TARGETING_PREFERENCES
 =
@@ -268,6 +264,7 @@ TARGETING_PREFERENCES
 FXA_USERNAME_PREF
 ]
 ;
+export
 const
 TEST_PROVIDERS
 =
@@ -294,6 +291,7 @@ true
 }
 ]
 ;
+export
 class
 _ASRouterPreferences
 {
@@ -1425,6 +1423,7 @@ clear
 ;
 }
 }
+export
 const
 ASRouterPreferences
 =
@@ -1432,22 +1431,4 @@ new
 _ASRouterPreferences
 (
 )
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-_ASRouterPreferences
-"
-"
-ASRouterPreferences
-"
-"
-TEST_PROVIDERS
-"
-"
-TARGETING_PREFERENCES
-"
-]
 ;
