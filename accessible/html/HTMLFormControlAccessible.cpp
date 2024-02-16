@@ -2808,7 +2808,7 @@ ENameValueFlag
 HTMLTextFieldAccessible
 :
 :
-NativeName
+Name
 (
 nsString
 &
@@ -2822,7 +2822,7 @@ nameFlag
 LocalAccessible
 :
 :
-NativeName
+Name
 (
 aName
 )
@@ -2838,18 +2838,6 @@ IsEmpty
 )
 return
 nameFlag
-;
-if
-(
-!
-aName
-.
-IsEmpty
-(
-)
-)
-return
-eNameOK
 ;
 /
 /
