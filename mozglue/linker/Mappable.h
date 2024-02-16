@@ -64,6 +64,11 @@ define
 Mappable_h
 #
 include
+<
+optional
+>
+#
+include
 "
 mozilla
 /
@@ -303,7 +308,13 @@ File
 descriptor
 *
 /
+std
+:
+:
+optional
+<
 AutoCloseFD
+>
 fd
 ;
 }
