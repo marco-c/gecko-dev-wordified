@@ -117,7 +117,7 @@ reset
 Bounce
 time
 of
-0
+1
 is
 out
 of
@@ -139,7 +139,7 @@ example
 .
 com
 "
-0
+1
 )
 ;
 bounceTrackingProtection
@@ -151,7 +151,7 @@ example
 .
 net
 "
-0
+1
 )
 ;
 /
