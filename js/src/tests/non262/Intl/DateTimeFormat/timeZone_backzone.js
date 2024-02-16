@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2023c
+2024a
 const
 tzMapper
 =
@@ -858,17 +858,6 @@ Syowa
 Antarctica
 /
 Syowa
-"
-"
-Antarctica
-/
-Vostok
-"
-:
-"
-Antarctica
-/
-Vostok
 "
 "
 Asia
