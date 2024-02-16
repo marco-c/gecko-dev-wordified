@@ -80330,7 +80330,7 @@ JS
 Prefs
 :
 :
-setAtStartup_use_fdlibm_for_sin_cos_tan
+set_use_fdlibm_for_sin_cos_tan
 (
 op
 .
