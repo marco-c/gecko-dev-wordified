@@ -1656,6 +1656,7 @@ ServiceWorkerOp
 :
 :
 ServiceWorkerOpRunnable
+final
 :
 public
 WorkerDebuggeeRunnable
@@ -1678,6 +1679,9 @@ aWorkerPrivate
 WorkerDebuggeeRunnable
 (
 aWorkerPrivate
+"
+ServiceWorkerOpRunnable
+"
 WorkerThread
 )
 mOwner

@@ -189,6 +189,9 @@ aTarget
 WorkerDebuggeeRunnable
 (
 aWorkerPrivate
+"
+MessageEventRunnable
+"
 aTarget
 )
 StructuredCloneHolder

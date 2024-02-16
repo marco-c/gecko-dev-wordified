@@ -2058,6 +2058,9 @@ aDocumentEncoding
 WorkerDebuggeeRunnable
 (
 aWorkerPrivate
+"
+CompileScriptRunnable
+"
 WorkerThread
 )
 mScriptURL
@@ -4852,6 +4855,9 @@ aWorkerPrivate
 WorkerDebuggeeRunnable
 (
 aWorkerPrivate
+"
+CancelingOnParentRunnable
+"
 ParentThread
 )
 {

@@ -3010,6 +3010,14 @@ WorkerDebuggeeRunnable
 WorkerPrivate
 *
 aWorkerPrivate
+const
+char
+*
+aName
+=
+"
+WorkerDebuggeeRunnable
+"
 Target
 aTarget
 =
@@ -3019,9 +3027,7 @@ ParentThread
 WorkerRunnable
 (
 aWorkerPrivate
-"
-WorkerDebuggeeRunnable
-"
+aName
 aTarget
 )
 {

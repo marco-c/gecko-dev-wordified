@@ -326,6 +326,9 @@ aProxy
 EventWithOptionsRunnable
 (
 aWorker
+"
+RTCTransformEventRunnable
+"
 )
 mProxy
 (
