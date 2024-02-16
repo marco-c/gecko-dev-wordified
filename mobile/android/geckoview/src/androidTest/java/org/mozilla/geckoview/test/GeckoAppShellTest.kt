@@ -611,6 +611,12 @@ count
 =
 2
 )
+Suppress
+(
+"
+OVERRIDE_DEPRECATION
+"
+)
 override
 fun
 onLocationChange
