@@ -52441,14 +52441,6 @@ if
 locale
 )
 {
-JS_ReportErrorNumberASCII
-(
-cx
-GetErrorMessage
-nullptr
-JSMSG_DEFAULT_LOCALE_ERROR
-)
-;
 return
 false
 ;
