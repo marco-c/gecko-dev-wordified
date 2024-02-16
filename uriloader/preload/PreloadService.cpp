@@ -1065,7 +1065,7 @@ return
 nsISupportsPriority
 :
 :
-PRIORITY_HIGH
+PRIORITY_NORMAL
 ;
 }
 switch
@@ -1083,7 +1083,7 @@ return
 nsISupportsPriority
 :
 :
-PRIORITY_HIGH
+PRIORITY_NORMAL
 ;
 case
 FetchPriority
@@ -1118,7 +1118,7 @@ return
 nsISupportsPriority
 :
 :
-PRIORITY_HIGH
+PRIORITY_NORMAL
 ;
 }
 }
