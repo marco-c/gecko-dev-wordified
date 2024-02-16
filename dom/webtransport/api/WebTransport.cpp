@@ -3421,6 +3421,11 @@ WebTransportState
 FAILED
 )
 {
+if
+(
+mChild
+)
+{
 mChild
 -
 >
@@ -3433,6 +3438,7 @@ mChild
 =
 nullptr
 ;
+}
 /
 /
 Cleanup
