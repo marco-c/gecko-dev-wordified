@@ -43746,6 +43746,10 @@ tempFixed
 (
 CallTempReg2
 )
+tempFixed
+(
+CallTempReg3
+)
 )
 ;
 defineReturn

@@ -3120,7 +3120,7 @@ int32_t
 count
 )
 ;
-JSObject
+ArrayObject
 *
 InitRestParameter
 (
@@ -3132,8 +3132,12 @@ length
 Value
 *
 rest
-HandleObject
-res
+Handle
+<
+ArrayObject
+*
+>
+arrRes
 )
 ;
 [
