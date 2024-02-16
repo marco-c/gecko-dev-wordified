@@ -2583,11 +2583,8 @@ mPrefix
 bool
 mChromeInstance
 ;
-ConsoleLogLevel
-mMaxLogLevel
-;
-nsString
-mMaxLogLevelPref
+uint32_t
+mCurrentLogLevel
 ;
 enum
 {
