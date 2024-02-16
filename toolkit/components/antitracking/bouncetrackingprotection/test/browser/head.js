@@ -1861,7 +1861,7 @@ window
 }
 bounceTrackingProtection
 .
-reset
+clearAll
 (
 )
 ;

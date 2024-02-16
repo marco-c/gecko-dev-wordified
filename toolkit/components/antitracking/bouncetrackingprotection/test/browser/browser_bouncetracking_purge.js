@@ -108,7 +108,7 @@ initBounceTrackerState
 {
 bounceTrackingProtection
 .
-reset
+clearAll
 (
 )
 ;
@@ -369,7 +369,7 @@ tab
 ;
 bounceTrackingProtection
 .
-reset
+clearAll
 (
 )
 ;
@@ -552,7 +552,7 @@ tab
 ;
 bounceTrackingProtection
 .
-reset
+clearAll
 (
 )
 ;
@@ -745,7 +745,7 @@ tab
 ;
 bounceTrackingProtection
 .
-reset
+clearAll
 (
 )
 ;
