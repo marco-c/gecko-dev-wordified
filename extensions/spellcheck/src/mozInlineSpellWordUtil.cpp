@@ -6138,7 +6138,7 @@ node
 /
 /
 Since
-GetPreviousContent
+GerPrevNode
 follows
 tree
 *
@@ -6149,10 +6149,10 @@ we
 re
 about
 to
-/
-/
 traverse
 up
+/
+/
 out
 of
 '
@@ -6172,13 +6172,13 @@ it
 '
 s
 a
-/
-/
 block
 )
 don
 '
 t
+/
+/
 bother
 trying
 to
@@ -6225,7 +6225,7 @@ node
 node
 -
 >
-GetPreviousContent
+GetPrevNode
 (
 aRootNode
 )

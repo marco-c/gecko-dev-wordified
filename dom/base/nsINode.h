@@ -12599,7 +12599,7 @@ traverse
 /
 nsIContent
 *
-GetPreviousContent
+GetPrevNode
 (
 const
 nsINode
