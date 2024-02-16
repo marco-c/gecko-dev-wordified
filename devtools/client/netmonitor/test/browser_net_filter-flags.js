@@ -34,7 +34,7 @@ strict
 ;
 requestLongerTimeout
 (
-2
+3
 )
 ;
 /
