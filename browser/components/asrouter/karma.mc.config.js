@@ -1528,7 +1528,9 @@ modules
 /
 OnboardingMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ]
