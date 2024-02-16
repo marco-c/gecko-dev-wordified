@@ -600,6 +600,13 @@ JSContext
 aCx
 )
 ;
+bool
+ShouldLog
+(
+ConsoleLogLevel
+aLevel
+)
+;
 /
 /
 For
