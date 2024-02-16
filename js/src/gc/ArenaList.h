@@ -1086,7 +1086,7 @@ adding
 arenas
 to
 a
-segment
+bucket
 corresponding
 to
 the
@@ -1100,7 +1100,7 @@ the
 arena
 .
 Each
-segment
+bucket
 is
 an
 independent
@@ -1110,7 +1110,7 @@ list
 *
 *
 The
-segments
+buckets
 can
 be
 linked
@@ -1219,7 +1219,7 @@ MinCellSize
 The
 number
 of
-segments
+buckets
 required
 :
 one
@@ -1243,7 +1243,7 @@ classes
 static
 const
 size_t
-SegmentCount
+BucketCount
 =
 HowMany
 (
@@ -1258,7 +1258,7 @@ MaxThingsPerArena
 private
 :
 using
-Segment
+Bucket
 =
 SinglyLinkedList
 <
@@ -1269,10 +1269,10 @@ const
 size_t
 thingsPerArena_
 ;
-Segment
-segments
+Bucket
+buckets
 [
-SegmentCount
+BucketCount
 ]
 ;
 #
@@ -1324,7 +1324,7 @@ more
 things
 in
 its
-segment
+bucket
 .
 inline
 void
@@ -1393,7 +1393,7 @@ each
 non
 -
 empty
-segment
+bucket
 to
 the
 head
@@ -1405,7 +1405,7 @@ non
 empty
 /
 /
-segment
+bucket
 .
 /
 /
@@ -1417,7 +1417,7 @@ internal
 state
 to
 |
-maybeSegmentLastOut
+maybeBucketLastOut
 |
 so
 that
@@ -1452,9 +1452,9 @@ convertToArenaList
 (
 Arena
 *
-maybeSegmentLastOut
+maybeBucketLastOut
 [
-SegmentCount
+BucketCount
 ]
 =
 nullptr
@@ -1490,9 +1490,9 @@ ArenaList
 list
 Arena
 *
-segmentLast
+bucketLast
 [
-SegmentCount
+BucketCount
 ]
 )
 ;
@@ -1534,7 +1534,7 @@ const
 ;
 inline
 size_t
-segmentsUsed
+bucketsUsed
 (
 )
 const
@@ -1588,12 +1588,12 @@ later
 .
 Arena
 *
-segmentLastPointers
+bucketLastPointers
 [
 SortedArenaList
 :
 :
-SegmentCount
+BucketCount
 ]
 ;
 /
