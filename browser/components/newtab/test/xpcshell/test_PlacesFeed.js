@@ -552,6 +552,13 @@ dispatch
 action
 )
 ;
+await
+TestUtils
+.
+waitForTick
+(
+)
+;
 Assert
 .
 ok
