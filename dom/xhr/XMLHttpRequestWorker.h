@@ -1201,13 +1201,13 @@ aRv
 )
 ;
 void
-DispatchPrematureAbortEvent
+FireEvent
 (
 EventTarget
 *
 aTarget
 const
-nsAString
+EventType
 &
 aEventType
 bool
