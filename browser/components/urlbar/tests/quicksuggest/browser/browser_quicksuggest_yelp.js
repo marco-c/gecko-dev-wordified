@@ -94,6 +94,11 @@ yelpModifiers
 :
 [
 ]
+icon
+:
+"
+1234
+"
 }
 }
 ]

@@ -133,6 +133,9 @@ Mdn
 Weather
 =
 7
+AmpMobile
+=
+8
 }
 impl
 FromSql

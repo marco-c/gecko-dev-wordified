@@ -121,6 +121,11 @@ yelpModifiers
 :
 [
 ]
+icon
+:
+"
+1234
+"
 }
 }
 ]
@@ -1712,6 +1717,9 @@ expected
 .
 title
 displayUrl
+icon
+:
+null
 }
 }
 ;
