@@ -3447,7 +3447,7 @@ type
 string
 "
 }
-fontDetermination
+supportFontDetermination
 :
 {
 type

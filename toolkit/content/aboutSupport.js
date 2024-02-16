@@ -4935,7 +4935,7 @@ Text
 (
 data
 .
-fontDetermination
+supportFontDetermination
 )
 ]
 )
