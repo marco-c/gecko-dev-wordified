@@ -177,7 +177,6 @@ ComputedStyle
 aStyle
 )
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -203,7 +202,6 @@ nsDisplayListSet
 aLists
 )
 ;
-virtual
 void
 Reflow
 (

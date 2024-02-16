@@ -196,7 +196,6 @@ aPresContext
 /
 nsIFrame
 replacements
-virtual
 void
 BuildDisplayList
 (
@@ -227,7 +226,6 @@ returns
 .
 *
 /
-virtual
 nscoord
 GetMinISize
 (
@@ -237,7 +235,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -333,7 +330,6 @@ nsIFrame
 HandleEvent
 *
 /
-virtual
 nsresult
 HandleEvent
 (
@@ -392,7 +388,6 @@ nsIFrame
 Reflow
 *
 /
-virtual
 void
 Reflow
 (
@@ -416,7 +411,6 @@ override
 /
 new
 behavior
-virtual
 void
 SetFocus
 (
@@ -434,7 +428,6 @@ override
 /
 /
 nsIFormControlFrame
-virtual
 nsresult
 SetFormProperty
 (
