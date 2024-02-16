@@ -195,7 +195,7 @@ browser
 ownerGlobal
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -474,7 +474,7 @@ URLs
 )
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -736,7 +736,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "

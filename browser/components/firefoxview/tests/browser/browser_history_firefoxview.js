@@ -1031,7 +1031,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -1546,7 +1546,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -2213,7 +2213,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -2562,7 +2562,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -2728,7 +2728,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -3347,7 +3347,7 @@ browser
 contentWindow
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -3500,7 +3500,7 @@ back
 to
 History
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -3509,7 +3509,7 @@ syncedtabs
 )
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "

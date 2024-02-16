@@ -1001,7 +1001,9 @@ card
 await
 tabsView
 .
-updateComplete
+getUpdateComplete
+(
+)
 ;
 const
 tabList
@@ -1019,13 +1021,6 @@ tab
 -
 list
 "
-)
-;
-await
-tabList
-.
-getUpdateComplete
-(
 )
 ;
 Assert

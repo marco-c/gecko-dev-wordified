@@ -1624,7 +1624,7 @@ document
 )
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
@@ -1958,7 +1958,7 @@ document
 )
 ;
 await
-navigateToViewAndWait
+navigateToCategoryAndWait
 (
 document
 "
