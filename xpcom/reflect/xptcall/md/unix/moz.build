@@ -1636,11 +1636,15 @@ CONFIG
 OS_ARCH
 "
 ]
-=
-=
+in
+(
 "
 Linux
 "
+"
+OpenBSD
+"
+)
 and
 CONFIG
 [
