@@ -579,6 +579,28 @@ items
 )
 :
             
+chunk_index
+=
+-
+1
+            
+if
+task_name
+.
+endswith
+(
+"
+-
+cf
+"
+)
+:
+                
+chunk_index
+=
+-
+2
+            
 chunks
 =
 task
@@ -644,8 +666,7 @@ split
 )
 [
 :
--
-1
+chunk_index
 ]
 )
 chunks
@@ -716,8 +737,7 @@ split
 )
 [
 :
--
-1
+chunk_index
 ]
 )
                     

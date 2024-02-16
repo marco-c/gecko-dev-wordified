@@ -3053,6 +3053,31 @@ java_coverage_output_dir
             
 )
         
+if
+self
+.
+config
+.
+get
+(
+"
+restartAfterFailure
+"
+False
+)
+:
+            
+cmd
+.
+append
+(
+"
+-
+-
+restartAfterFailure
+"
+)
+        
 return
 cmd
     
