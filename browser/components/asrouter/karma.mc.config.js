@@ -1516,7 +1516,9 @@ modules
 /
 CFRPageActions
 .
-jsm
+sys
+.
+mjs
 "
 )
 path

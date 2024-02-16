@@ -764,7 +764,7 @@ CFRPageActions
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -778,7 +778,9 @@ asrouter
 /
 CFRPageActions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
