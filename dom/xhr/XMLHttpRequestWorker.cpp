@@ -1748,6 +1748,14 @@ aWorkerPrivate
 Proxy
 *
 aProxy
+const
+char
+*
+aName
+=
+"
+MainThreadProxyRunnable
+"
 )
 :
 MainThreadWorkerSyncRunnable
@@ -1759,6 +1767,7 @@ aProxy
 GetEventTarget
 (
 )
+aName
 )
 mProxy
 (
@@ -1922,6 +1931,9 @@ MainThreadProxyRunnable
 (
 aWorkerPrivate
 aProxy
+"
+ProxyCompleteRunnable
+"
 )
 mChannelId
 (
@@ -2320,6 +2332,9 @@ aProxy
 >
 mWorkerPrivate
 aProxy
+"
+EventRunnable
+"
 )
 mType
 (
@@ -2416,6 +2431,9 @@ aProxy
 >
 mWorkerPrivate
 aProxy
+"
+EventRunnable
+"
 )
 mType
 (
