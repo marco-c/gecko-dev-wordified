@@ -223,6 +223,16 @@ yaml
 "
     
 "
+docshell
+/
+base
+/
+metrics
+.
+yaml
+"
+    
+"
 dom
 /
 base
@@ -263,6 +273,16 @@ yaml
 "
     
 "
+dom
+/
+performance
+/
+metrics
+.
+yaml
+"
+    
+"
 gfx
 /
 metrics
@@ -274,6 +294,16 @@ yaml
 image
 /
 decoders
+/
+metrics
+.
+yaml
+"
+    
+"
+layout
+/
+base
 /
 metrics
 .
