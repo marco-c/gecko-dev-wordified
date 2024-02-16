@@ -55,11 +55,6 @@ memory
 #
 include
 <
-queue
->
-#
-include
-<
 utility
 >
 #
@@ -1761,7 +1756,7 @@ state
 std
 :
 :
-queue
+vector
 <
 std
 :
