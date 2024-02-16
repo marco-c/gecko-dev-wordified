@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_loader_SyncModuleLoader_h
+mozilla_loader_ComponentModuleLoader_h
 #
 define
-mozilla_loader_SyncModuleLoader_h
+mozilla_loader_ComponentModuleLoader_h
 #
 include
 "
@@ -159,7 +159,7 @@ namespace
 loader
 {
 class
-SyncScriptLoader
+ComponentScriptLoader
 :
 public
 JS
@@ -176,7 +176,7 @@ NS_DECL_ISUPPORTS
 private
 :
 ~
-SyncScriptLoader
+ComponentScriptLoader
 (
 )
 =
@@ -253,7 +253,7 @@ override
 }
 ;
 class
-SyncModuleLoader
+ComponentModuleLoader
 :
 public
 JS
@@ -269,7 +269,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-SyncModuleLoader
+ComponentModuleLoader
 JS
 :
 :
@@ -278,9 +278,9 @@ loader
 :
 ModuleLoaderBase
 )
-SyncModuleLoader
+ComponentModuleLoader
 (
-SyncScriptLoader
+ComponentScriptLoader
 *
 aScriptLoader
 nsIGlobalObject
@@ -309,7 +309,7 @@ aCx
 private
 :
 ~
-SyncModuleLoader
+ComponentModuleLoader
 (
 )
 ;
@@ -491,7 +491,7 @@ mLoadException
 Data
 specific
 to
-SyncModuleLoader
+ComponentModuleLoader
 that
 is
 associated
@@ -503,7 +503,7 @@ load
 request
 .
 class
-SyncLoadContext
+ComponentLoadContext
 :
 public
 JS
@@ -516,7 +516,7 @@ LoadContextBase
 {
 public
 :
-SyncLoadContext
+ComponentLoadContext
 (
 )
 :
@@ -531,7 +531,7 @@ loader
 ContextKind
 :
 :
-Sync
+Component
 )
 {
 }
@@ -632,4 +632,4 @@ mozilla
 endif
 /
 /
-mozilla_loader_SyncModuleLoader_h
+mozilla_loader_ComponentModuleLoader_h
