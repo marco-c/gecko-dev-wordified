@@ -302,6 +302,12 @@ copy
 )
             
 "
+binary
+"
+:
+None
+            
+"
 package_name
 "
 :
@@ -1077,6 +1083,9 @@ extra_prefs
 disable_fission
 debug_test
 browser_channel
+binary
+                 
+package_name
 certutil_binary
 ca_certificate_path
 )
@@ -1099,6 +1108,7 @@ debug_test
 browser_channel
 None
                          
+package_name
 certutil_binary
 ca_certificate_path
 )
@@ -1619,6 +1629,10 @@ disable_fission
 debug_test
                                               
 browser_channel
+                                              
+None
+                                              
+package_name
                                               
 certutil_binary
                                               
@@ -2635,7 +2649,13 @@ nightly
 headless
 =
 None
+debug_test
+=
+None
                  
+binary
+=
+None
 package_name
 =
 "
@@ -2654,6 +2674,9 @@ None
 adb_binary
 =
 None
+profile_creator_cls
+=
+ProfileCreator
 *
 *
 kwargs
@@ -2668,6 +2691,7 @@ __init__
 (
 logger
 None
+package_name
 prefs_root
 webdriver_binary
 webdriver_args
@@ -2720,6 +2744,13 @@ browser_channel
 headless
 =
 headless
+                         
+debug_test
+=
+debug_test
+profile_creator_cls
+=
+profile_creator_cls
 *
 *
 kwargs
@@ -2730,12 +2761,6 @@ self
 config
 =
 config
-        
-self
-.
-package_name
-=
-package_name
         
 self
 .
