@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 lazy
 =
@@ -615,6 +610,7 @@ methods
 .
 *
 /
+export
 const
 ASRouterTriggerListeners
 =
@@ -7769,13 +7765,4 @@ selectedBrowser
 ]
 ]
 )
-;
-const
-EXPORTED_SYMBOLS
-=
-[
-"
-ASRouterTriggerListeners
-"
-]
 ;
