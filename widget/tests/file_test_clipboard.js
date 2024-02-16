@@ -136,6 +136,16 @@ Ci
 nsIClipboard
 .
 kGlobalClipboard
+SpecialPowers
+.
+wrap
+(
+window
+)
+.
+browsingContext
+.
+currentWindowContext
 )
 ;
 let

@@ -11664,6 +11664,16 @@ trans
 clipid
 .
 kGlobalClipboard
+SpecialPowers
+.
+wrap
+(
+window
+)
+.
+browsingContext
+.
+currentWindowContext
 )
 ;
 const

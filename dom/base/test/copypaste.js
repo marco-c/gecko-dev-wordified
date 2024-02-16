@@ -614,6 +614,16 @@ getData
 (
 transferable
 1
+SpecialPowers
+.
+wrap
+(
+window
+)
+.
+browsingContext
+.
+currentWindowContext
 )
 ;
 var
