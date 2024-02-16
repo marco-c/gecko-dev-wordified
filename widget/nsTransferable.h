@@ -268,11 +268,6 @@ nsISupports
 aData
 )
 ;
-void
-ClearData
-(
-)
-;
 bool
 IsDataAvailable
 (

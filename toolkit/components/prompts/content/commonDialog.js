@@ -1230,6 +1230,8 @@ args
 owningBrowsingContext
 .
 currentURI
+.
+spec
 textContent
 :
 data

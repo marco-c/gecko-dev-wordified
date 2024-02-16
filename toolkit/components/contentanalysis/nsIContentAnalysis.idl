@@ -100,9 +100,6 @@ nsISupports
 .
 idl
 "
-interface
-nsIURI
-;
 webidl
 WindowGlobalParent
 ;
@@ -868,7 +865,7 @@ uploaded
 .
 readonly
 attribute
-nsIURI
+AString
 url
 ;
 /
@@ -1083,7 +1080,7 @@ thread
 /
 readonly
 attribute
-boolean
+bool
 isActive
 ;
 /
