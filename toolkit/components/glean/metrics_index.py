@@ -301,6 +301,16 @@ yaml
 "
     
 "
+js
+/
+xpconnect
+/
+metrics
+.
+yaml
+"
+    
+"
 layout
 /
 base
