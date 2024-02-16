@@ -1994,12 +1994,6 @@ Default
 ;
 widgetData
 .
-mForMenupopupFrame
-=
-true
-;
-widgetData
-.
 mClipSiblings
 =
 true
