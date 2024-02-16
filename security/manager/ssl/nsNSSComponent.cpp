@@ -14395,7 +14395,17 @@ FindClientCertificatesWithPrivateKeys
 )
 )
 ;
+(
+void
+)
 BlockUntilLoadableCertsLoaded
+(
+)
+;
+(
+void
+)
+CheckForSmartCardChanges
 (
 )
 ;
