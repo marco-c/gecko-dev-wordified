@@ -46,7 +46,7 @@ __webpack_modules__
 *
 *
 /
-299
+140
 :
 /
 *
@@ -55,7 +55,7 @@ __webpack_modules__
 /
 (
 (
-__unused_webpack_module
+__unused_webpack___webpack_module__
 __unused_webpack___webpack_exports__
 __webpack_require__
 )
@@ -271,7 +271,7 @@ js
 /
 messages
 .
-js
+mjs
 /
 *
 global
@@ -3175,15 +3175,7 @@ home
 /
 overlay
 .
-js
-/
-*
-global
-Handlebars
-:
-false
-*
-/
+jsx
 /
 *
 HomeOverlay
@@ -4267,7 +4259,7 @@ signup
 /
 overlay
 .
-js
+jsx
 /
 *
 SignupOverlay
@@ -7316,7 +7308,7 @@ saved
 /
 overlay
 .
-js
+jsx
 /
 *
 SavedOverlay
@@ -7576,7 +7568,7 @@ guide
 /
 overlay
 .
-js
+jsx
 var
 StyleGuideOverlay
 =
@@ -8685,7 +8677,7 @@ js
 /
 main
 .
-js
+mjs
 /
 *
 This
@@ -11460,7 +11452,7 @@ undefined
 (
 __webpack_require__
 (
-299
+140
 )
 )
 )

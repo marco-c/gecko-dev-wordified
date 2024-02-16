@@ -26,6 +26,8 @@ components
 Header
 /
 Header
+.
+jsx
 "
 ;
 import
@@ -40,6 +42,8 @@ components
 ArticleList
 /
 ArticleList
+.
+jsx
 "
 ;
 import
@@ -54,6 +58,8 @@ components
 Button
 /
 Button
+.
+jsx
 "
 ;
 import
@@ -68,6 +74,8 @@ components
 PopularTopics
 /
 PopularTopics
+.
+jsx
 "
 ;
 import
@@ -82,6 +90,8 @@ components
 TagPicker
 /
 TagPicker
+.
+jsx
 "
 ;
 var

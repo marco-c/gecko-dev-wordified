@@ -74,7 +74,7 @@ home
 /
 overlay
 .
-js
+jsx
 "
 ;
 import
@@ -87,7 +87,7 @@ signup
 /
 overlay
 .
-js
+jsx
 "
 ;
 import
@@ -100,7 +100,7 @@ saved
 /
 overlay
 .
-js
+jsx
 "
 ;
 import
@@ -115,7 +115,7 @@ guide
 /
 overlay
 .
-js
+jsx
 "
 ;
 import
@@ -126,7 +126,7 @@ from
 /
 messages
 .
-js
+mjs
 "
 ;
 var

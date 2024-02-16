@@ -64,6 +64,8 @@ components
 Saved
 /
 Saved
+.
+jsx
 "
 ;
 var

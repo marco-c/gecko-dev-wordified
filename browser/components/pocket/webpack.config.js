@@ -82,7 +82,7 @@ js
 /
 main
 .
-js
+mjs
 "
 }
 output
@@ -125,7 +125,6 @@ test
 \
 .
 jsx
-?
 /
 exclude
 :
@@ -165,7 +164,7 @@ extensions
 [
 "
 .
-js
+mjs
 "
 "
 .
