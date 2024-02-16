@@ -6605,6 +6605,13 @@ FindNearestAccessibleAncestorFrame
 (
 )
 ;
+LocalAccessible
+*
+GetPopoverTargetDetailsRelation
+(
+)
+const
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
