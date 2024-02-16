@@ -3616,7 +3616,7 @@ to
 PlanarYCbCrImage
 .
 static
-bool
+MediaResult
 SetVideoDataToImage
 (
 PlanarYCbCrImage
