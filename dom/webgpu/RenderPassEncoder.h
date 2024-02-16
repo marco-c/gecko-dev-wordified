@@ -204,7 +204,7 @@ operator
 ffi
 :
 :
-WGPURecordedRenderPass
+WGPURenderPass
 *
 )
 ;
@@ -269,7 +269,7 @@ unique_ptr
 ffi
 :
 :
-WGPURecordedRenderPass
+WGPURenderPass
 ffiWGPURenderPassDeleter
 >
 mPass
