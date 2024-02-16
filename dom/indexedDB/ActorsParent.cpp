@@ -708,15 +708,6 @@ include
 "
 mozilla
 /
-Scoped
-.
-h
-"
-#
-include
-"
-mozilla
-/
 SnappyCompressOutputStream
 .
 h
