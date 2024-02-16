@@ -813,6 +813,12 @@ Init
 this
 )
 ;
+#
+if
+defined
+(
+WEBRTC_USE_PIPEWIRE
+)
 mPromise
 =
 mPromise
@@ -959,6 +965,8 @@ Reject
 }
 )
 ;
+#
+endif
 #
 else
 mCameraBackendInitialized
