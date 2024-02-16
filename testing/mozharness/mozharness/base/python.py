@@ -735,10 +735,6 @@ optional
 =
 False
         
-two_pass
-=
-False
-        
 editable
 =
 False
@@ -814,7 +810,6 @@ url
 method
 requirements
 optional
-two_pass
 editable
 )
         
@@ -1854,6 +1849,21 @@ command
 no
 -
 deps
+"
+]
+            
+command
++
+=
+[
+"
+-
+-
+no
+-
+use
+-
+pep517
 "
 ]
             
@@ -4295,8 +4305,6 @@ requirements
             
 optional
             
-two_pass
-            
 editable
         
 )
@@ -4305,48 +4313,6 @@ self
 .
 _virtualenv_modules
 :
-            
-if
-two_pass
-:
-                
-self
-.
-install_module
-(
-                    
-module
-=
-module
-                    
-module_url
-=
-url
-                    
-install_method
-=
-method
-                    
-requirements
-=
-requirements
-or
-(
-)
-                    
-optional
-=
-optional
-                    
-no_deps
-=
-True
-                    
-editable
-=
-editable
-                
-)
             
 self
 .
@@ -8129,6 +8095,21 @@ pip_args
 no
 -
 index
+"
+]
+        
+pip_args
++
+=
+[
+"
+-
+-
+no
+-
+use
+-
+pep517
 "
 ]
         
