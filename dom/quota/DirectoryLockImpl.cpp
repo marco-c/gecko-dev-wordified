@@ -1567,6 +1567,12 @@ RegisterDirectoryLock
 this
 )
 ;
+mAcquired
+.
+Flip
+(
+)
+;
 }
 #
 ifdef
