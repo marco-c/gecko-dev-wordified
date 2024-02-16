@@ -984,7 +984,13 @@ ASRouterTargeting
 .
 getEnvironmentSnapshot
 (
+{
+targets
+:
+[
 target
+]
+}
 )
 ;
 await

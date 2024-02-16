@@ -2192,7 +2192,13 @@ ASRouterTargeting
 .
 getEnvironmentSnapshot
 (
+{
+targets
+:
+[
 target
+]
+}
 )
 ;
 for
@@ -2567,7 +2573,13 @@ ASRouterTargeting
 .
 getEnvironmentSnapshot
 (
+{
+targets
+:
+[
 target
+]
+}
 )
 ;
 for
