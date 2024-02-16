@@ -1789,7 +1789,7 @@ ToolbarBadgeHub
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1803,7 +1803,9 @@ asrouter
 /
 ToolbarBadgeHub
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
