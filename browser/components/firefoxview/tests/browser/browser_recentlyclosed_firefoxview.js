@@ -1141,7 +1141,7 @@ getFirefoxViewURL
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -1277,7 +1277,8 @@ clearAllParentTelemetryEvents
 (
 )
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -1440,7 +1441,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -1966,7 +1968,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -2280,7 +2283,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -2686,7 +2690,8 @@ firefoxview
 "
 )
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -3028,7 +3033,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -3232,7 +3238,8 @@ browser
 .
 contentWindow
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -3658,7 +3665,7 @@ query
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "

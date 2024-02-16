@@ -195,7 +195,7 @@ browser
 ownerGlobal
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -308,7 +308,7 @@ tabList
 .
 rowEls
 [
-1
+0
 ]
 .
 attention
@@ -474,7 +474,7 @@ URLs
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -736,7 +736,7 @@ browser
 contentWindow
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -878,7 +878,7 @@ tabList
 .
 rowEls
 [
-1
+0
 ]
 ;
 await

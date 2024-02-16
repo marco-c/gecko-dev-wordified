@@ -818,7 +818,7 @@ linkedBrowser
 contentDocument
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
