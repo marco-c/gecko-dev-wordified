@@ -204,7 +204,8 @@ tabSelectedTelemetry
 enteredTelemetry
 ]
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -588,7 +589,8 @@ clearAllParentTelemetryEvents
 (
 )
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -602,7 +604,8 @@ telemetryEvent
 changePageEvent
 )
 ;
-navigateToCategory
+await
+navigateToViewAndWait
 (
 document
 "
@@ -1051,7 +1054,7 @@ context
 menu
 options
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -1427,7 +1430,7 @@ context
 menu
 options
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -1907,7 +1910,7 @@ context
 menu
 options
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
