@@ -718,8 +718,6 @@ SurfaceFormat
 aFormat
 TextureAllocationFlags
 aFlags
-bool
-aUseCompositorDevice
 )
 ;
 bool
@@ -817,10 +815,6 @@ gfx
 :
 SurfaceFormat
 mFormat
-;
-const
-bool
-mUseCompositorDevice
 ;
 public
 :
@@ -2202,10 +2196,6 @@ gfx
 :
 FenceInfo
 mAcquireFenceInfo
-;
-const
-bool
-mUseCompositorDevice
 ;
 public
 :

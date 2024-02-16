@@ -2843,12 +2843,6 @@ gpuProcessQueryId
 Nothing
 (
 )
-/
-*
-useCompositorDevice
-*
-/
-false
 )
 )
 ;

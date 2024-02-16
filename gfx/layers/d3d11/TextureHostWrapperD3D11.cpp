@@ -1527,12 +1527,6 @@ gpuProcessQueryId
 Nothing
 (
 )
-/
-*
-useCompositorDevice
-*
-/
-true
 )
 ;
 RefPtr
