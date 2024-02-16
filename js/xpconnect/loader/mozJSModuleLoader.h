@@ -123,7 +123,7 @@ mozJSModuleLoader_h
 #
 include
 "
-ComponentModuleLoader
+SyncModuleLoader
 .
 h
 "
@@ -775,7 +775,7 @@ methods
 for
 use
 from
-ComponentModuleLoader
+SyncModuleLoader
 .
 static
 bool
@@ -796,7 +796,7 @@ mozilla
 loader
 :
 :
-ComponentModuleLoader
+SyncModuleLoader
 *
 aModuleLoader
 JSContext
@@ -1524,7 +1524,7 @@ mozilla
 loader
 :
 :
-ComponentModuleLoader
+SyncModuleLoader
 >
 mModuleLoader
 ;
