@@ -17695,7 +17695,7 @@ AllAllocKinds
 {
 for
 (
-ArenaIter
+ArenaIterInGC
 arena
 (
 zone
