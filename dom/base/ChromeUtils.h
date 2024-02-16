@@ -1418,6 +1418,10 @@ JSObject
 *
 >
 modules
+const
+ImportESModuleOptionsDictionary
+&
+aOptions
 ErrorResult
 &
 aRv
