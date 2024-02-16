@@ -1183,6 +1183,12 @@ gpuProcessQueryId
 Nothing
 (
 )
+/
+*
+useCompositorDevice
+*
+/
+false
 )
 )
 ;
