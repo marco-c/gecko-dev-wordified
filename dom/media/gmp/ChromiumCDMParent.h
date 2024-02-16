@@ -1197,7 +1197,7 @@ mKnowsCompositor
 VideoInfo
 mVideoInfo
 ;
-uint64_t
+int64_t
 mLastStreamOffset
 =
 0
