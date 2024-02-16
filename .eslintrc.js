@@ -3907,16 +3907,6 @@ test
 "
 dom
 /
-jsurl
-/
-test
-/
-*
-*
-"
-"
-dom
-/
 media
 /
 webaudio
