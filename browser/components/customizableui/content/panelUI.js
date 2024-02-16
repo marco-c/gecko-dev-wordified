@@ -112,17 +112,8 @@ sys
 .
 mjs
 "
-}
-)
-;
-ChromeUtils
-.
-defineModuleGetter
-(
-this
-"
 ToolbarPanelHub
-"
+:
 "
 resource
 :
@@ -137,6 +128,7 @@ ToolbarPanelHub
 .
 jsm
 "
+}
 )
 ;
 /

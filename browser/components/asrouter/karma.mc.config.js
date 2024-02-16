@@ -797,7 +797,9 @@ modules
 /
 ToolbarPanelHub
 .
-jsm
+sys
+.
+mjs
 "
 :
 {
