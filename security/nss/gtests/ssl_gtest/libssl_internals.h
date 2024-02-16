@@ -483,6 +483,17 @@ int
 len
 )
 ;
+SECStatus
+SSLInt_GetCertificateCompressionAlgorithm
+(
+PRFileDesc
+*
+fd
+SSLCertificateCompressionAlgorithm
+*
+alg
+)
+;
 #
 endif
 /

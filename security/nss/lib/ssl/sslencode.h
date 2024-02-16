@@ -582,6 +582,17 @@ int
 lenSize
 )
 ;
+SECStatus
+ssl3_CopyToSECItem
+(
+sslBuffer
+*
+b
+SECItem
+*
+i
+)
+;
 typedef
 struct
 {
