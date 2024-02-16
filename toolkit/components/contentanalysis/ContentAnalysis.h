@@ -228,7 +228,10 @@ bool
 aStringIsFilePath
 nsCString
 aSha256Digest
-nsString
+nsCOMPtr
+<
+nsIURI
+>
 aUrl
 OperationType
 aOperationType
@@ -359,7 +362,10 @@ is
 being
 uploaded
 .
-nsString
+nsCOMPtr
+<
+nsIURI
+>
 mUrl
 ;
 /
