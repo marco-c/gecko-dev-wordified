@@ -321,9 +321,6 @@ shared_ptr
 <
 SharedSurface
 >
-bool
-&
-aSuccess
 )
 ;
 GLuint
