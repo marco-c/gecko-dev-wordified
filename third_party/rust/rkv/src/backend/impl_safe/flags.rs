@@ -179,6 +179,11 @@ derive
 Default
 Serialize
 Deserialize
+PartialEq
+Eq
+Debug
+Clone
+Copy
 )
 ]
 pub
@@ -390,6 +395,11 @@ derive
 Default
 Serialize
 Deserialize
+PartialEq
+Eq
+Debug
+Clone
+Copy
 )
 ]
 pub
@@ -636,6 +646,11 @@ derive
 Default
 Serialize
 Deserialize
+PartialEq
+Eq
+Debug
+Clone
+Copy
 )
 ]
 pub
