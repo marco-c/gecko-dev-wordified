@@ -786,19 +786,11 @@ parameters
 )
         
 if
-parameters
-.
-get
-(
-"
-try_mode
-"
-)
-=
-=
 "
 try_task_config
 "
+in
+parameters
 :
             
 return
