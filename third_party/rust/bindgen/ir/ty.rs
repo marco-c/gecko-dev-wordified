@@ -4019,6 +4019,17 @@ FloatKind
 /
 /
 A
+half
+(
+_Float16
+or
+__fp16
+)
+Float16
+/
+/
+/
+A
 float
 .
 Float
