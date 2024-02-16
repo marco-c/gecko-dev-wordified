@@ -1261,14 +1261,6 @@ mBCInfo
 /
 *
 *
-nsCellMap
-is
-a
-support
-class
-for
-nsTablePart
-.
 *
 It
 maintains
