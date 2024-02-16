@@ -73,6 +73,10 @@ state
 (
 kUninitialized
 )
+pending_merge_peer
+(
+false
+)
 next_sequence_num_to_send
 (
 next_sequence_num_to_send
