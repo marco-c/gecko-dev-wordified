@@ -477,17 +477,6 @@ char
 name
 )
 ;
-GenericPrinter
-&
-beginStringPropertyName
-(
-)
-;
-void
-endStringPropertyName
-(
-)
-;
 /
 /
 JSON
