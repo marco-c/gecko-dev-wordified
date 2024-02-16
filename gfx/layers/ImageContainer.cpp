@@ -5044,7 +5044,7 @@ aStride
 }
 }
 }
-bool
+nsresult
 RecyclingPlanarYCbCrImage
 :
 :
@@ -5146,7 +5146,7 @@ isValid
 )
 )
 return
-false
+NS_ERROR_INVALID_ARG
 ;
 const
 auto
@@ -5176,7 +5176,7 @@ if
 mBuffer
 )
 return
-false
+NS_ERROR_OUT_OF_MEMORY
 ;
 /
 /
@@ -5386,7 +5386,7 @@ TopLeft
 )
 ;
 return
-true
+NS_OK
 ;
 }
 gfxImageFormat

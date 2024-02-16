@@ -289,7 +289,7 @@ GetAsSourceSurface
 )
 override
 ;
-bool
+nsresult
 CopyData
 (
 const

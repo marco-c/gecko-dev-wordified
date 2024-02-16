@@ -239,12 +239,15 @@ ColorRange
 LIMITED
 ;
 return
+NS_SUCCEEDED
+(
 aImage
 -
 >
 CopyData
 (
 data
+)
 )
 ;
 }
