@@ -753,7 +753,7 @@ return
 true
 ;
 }
-bool
+nsresult
 SharedPlanarYCbCrImage
 :
 :
@@ -780,7 +780,7 @@ used
 )
 ;
 return
-false
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 bool

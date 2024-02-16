@@ -5381,7 +5381,7 @@ buffers
 *
 /
 virtual
-bool
+nsresult
 AdoptData
 (
 const

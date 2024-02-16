@@ -299,7 +299,7 @@ aData
 )
 override
 ;
-bool
+nsresult
 AdoptData
 (
 const
