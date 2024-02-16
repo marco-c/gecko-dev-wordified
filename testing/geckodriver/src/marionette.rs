@@ -732,6 +732,13 @@ pub
 (
 crate
 )
+enable_crash_reporter
+:
+bool
+pub
+(
+crate
+)
 android_storage
 :
 AndroidStorageInput
@@ -1271,6 +1278,11 @@ profile_root
 as_deref
 (
 )
+self
+.
+settings
+.
+enable_crash_reporter
 )
 ?
 )
@@ -1310,6 +1322,11 @@ profile_root
 as_deref
 (
 )
+self
+.
+settings
+.
+enable_crash_reporter
 )
 ?
 )
