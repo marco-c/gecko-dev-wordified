@@ -222,6 +222,9 @@ aInternal
 const
 ShouldUpdateLockIdTableFlag
 aShouldUpdateLockIdTableFlag
+const
+DirectoryLockCategory
+aCategory
 )
 :
 mQuotaManager
@@ -288,6 +291,10 @@ ShouldUpdateLockIdTableFlag
 :
 :
 Yes
+)
+mCategory
+(
+aCategory
 )
 mRegistered
 (
@@ -1980,6 +1987,7 @@ ShouldUpdateLockIdTableFlag
 :
 :
 Yes
+mCategory
 )
 ;
 if

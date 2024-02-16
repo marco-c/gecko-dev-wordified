@@ -71689,6 +71689,10 @@ aExclusive
 *
 /
 false
+DirectoryLockCategory
+:
+:
+None
 SomeRef
 (
 mPendingDirectoryLock
