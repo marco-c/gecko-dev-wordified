@@ -1870,7 +1870,7 @@ isEmpty
 ;
 finalizedSorted
 .
-extractEmpty
+extractEmptyTo
 (
 empty
 )
@@ -2173,7 +2173,7 @@ arenas
 =
 finalizedArenas
 .
-toArenaList
+convertToArenaList
 (
 )
 ;
@@ -11477,7 +11477,7 @@ false
 }
 sweepList
 .
-extractEmpty
+extractEmptyTo
 (
 &
 lists
