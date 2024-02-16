@@ -145,11 +145,11 @@ test_fixture
 :
 :
 {
-addr
 anti_replay
 fixture_init
 now
 CountingConnectionIdGenerator
+DEFAULT_ADDR
 DEFAULT_ALPN_H3
 DEFAULT_KEYS
 DEFAULT_SERVER_NAME
@@ -198,12 +198,8 @@ default
 )
 )
 )
-addr
-(
-)
-addr
-(
-)
+DEFAULT_ADDR
+DEFAULT_ADDR
 Http3Parameters
 :
 :
