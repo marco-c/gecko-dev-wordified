@@ -135,7 +135,6 @@ err
 :
 :
 Res
-null_safe_slice
 ssl
 :
 :
@@ -635,10 +634,18 @@ SECStatus
 let
 d
 =
-null_safe_slice
+std
+:
+:
+slice
+:
+:
+from_raw_parts
 (
 data
 len
+as
+usize
 )
 ;
 #

@@ -2953,12 +2953,8 @@ let
 rbuf
 =
 random
-:
-:
-<
-4
->
 (
+4
 )
 ;
 let

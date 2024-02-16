@@ -7357,8 +7357,8 @@ test_fixture
 :
 :
 {
+addr
 now
-DEFAULT_ADDR
 }
 ;
 use
@@ -7808,8 +7808,12 @@ Path
 :
 temporary
 (
-DEFAULT_ADDR
-DEFAULT_ADDR
+addr
+(
+)
+addr
+(
+)
 CC
 true
 NeqoQlog
