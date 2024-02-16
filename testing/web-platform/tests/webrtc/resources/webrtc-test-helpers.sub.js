@@ -668,7 +668,8 @@ candidate
 =
 >
 {
-const
+window
+.
 testRTCPeerConnection
 =
 new
@@ -677,6 +678,8 @@ RTCPeerConnection
 )
 ;
 await
+window
+.
 testRTCPeerConnection
 .
 setRemoteDescription
@@ -685,6 +688,8 @@ sessionDesc
 )
 ;
 await
+window
+.
 testRTCPeerConnection
 .
 addIceCandidate
@@ -732,7 +737,8 @@ candidate
 =
 >
 {
-const
+window
+.
 testRTCPeerConnection
 =
 new
@@ -741,6 +747,8 @@ RTCPeerConnection
 )
 ;
 await
+window
+.
 testRTCPeerConnection
 .
 setRemoteDescription
@@ -749,6 +757,8 @@ sessionDesc
 )
 ;
 await
+window
+.
 testRTCPeerConnection
 .
 addIceCandidate
@@ -756,6 +766,8 @@ addIceCandidate
 candidate
 )
 ;
+window
+.
 testRTCPeerConnection
 .
 close
