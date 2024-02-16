@@ -625,6 +625,17 @@ true
 }
 )
 ;
+consoleAllowList
+.
+push
+(
+"
+Failed
+to
+load
+"
+)
+;
 }
 )
 ;
