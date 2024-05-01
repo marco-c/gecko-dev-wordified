@@ -393,17 +393,6 @@ artifacts
 "
 :
 artifacts
-                
-"
-deadline
-"
-:
-taskcluster
-.
-stringDate
-(
-deadline
-)
             
 }
             
@@ -715,17 +704,6 @@ upstreamZip
 "
 :
 upstreamZip
-                
-"
-deadline
-"
-:
-taskcluster
-.
-stringDate
-(
-deadline
-)
             
 }
             

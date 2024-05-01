@@ -536,17 +536,6 @@ artifacts
 :
 {
 }
-            
-"
-deadline
-"
-:
-taskcluster
-.
-stringDate
-(
-deadline
-)
         
 }
         
