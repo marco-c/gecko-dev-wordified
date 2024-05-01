@@ -1217,7 +1217,7 @@ Millis
 (
 ntp_time_ms
 )
-1
+false
 CreateSimpleNV12Frame
 (
 )
