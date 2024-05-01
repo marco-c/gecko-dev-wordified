@@ -602,7 +602,9 @@ borrowed
 from
 Sanitizer
 .
-jsm
+sys
+.
+mjs
 .
 let
 yieldCounter
@@ -889,7 +891,9 @@ logic
 in
 Sanitizer
 .
-jsm
+sys
+.
+mjs
 or
 nsIClearDataService
 /

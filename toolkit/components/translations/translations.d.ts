@@ -1348,7 +1348,9 @@ settings
 /
 RemoteSettingsClient
 .
-jsm
+sys
+.
+mjs
 *
 /
 interface

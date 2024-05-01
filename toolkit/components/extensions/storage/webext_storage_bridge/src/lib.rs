@@ -210,7 +210,9 @@ implemented
 in
 ExtensionStorageIDB
 .
-jsm
+sys
+.
+mjs
 .
 /
 /
@@ -267,7 +269,9 @@ change
 !
 ExtensionStorageSync
 .
-jsm
+sys
+.
+mjs
 to
 call
 the

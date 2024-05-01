@@ -242,11 +242,13 @@ example
 see
 Sanitizer
 .
-jsm
+sys
+.
+mjs
 )
 so
-they
 *
+they
 block
 Places
 shutdown

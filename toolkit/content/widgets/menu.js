@@ -705,7 +705,9 @@ select
 See
 SelectParentHelper
 .
-jsm
+sys
+.
+mjs
 .
 class
 MozMenuCaption
