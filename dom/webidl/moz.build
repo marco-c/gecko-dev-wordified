@@ -3010,6 +3010,11 @@ AudioData
 webidl
 "
 "
+AudioDecoder
+.
+webidl
+"
+"
 AudioDestinationNode
 .
 webidl
