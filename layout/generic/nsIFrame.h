@@ -10124,12 +10124,6 @@ return
 nullptr
 ;
 }
-bool
-HasUnreflowedContainerQueryAncestor
-(
-)
-const
-;
 private
 :
 /
