@@ -374,6 +374,11 @@ CommandEvent
 webidl
 "
 "
+ConsoleInstance
+.
+webidl
+"
+"
 CSSCustomPropertyRegisteredEvent
 .
 webidl
