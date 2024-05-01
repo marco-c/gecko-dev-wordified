@@ -488,6 +488,11 @@ GetAddrInfoShutdown
 (
 )
 ;
+void
+DNSThreadShutdown
+(
+)
+;
 /
 *
 *
