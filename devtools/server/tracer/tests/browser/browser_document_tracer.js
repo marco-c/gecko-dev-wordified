@@ -346,9 +346,8 @@ firstFrame
 currentDOMEvent
 "
 DOM
-(
+|
 click
-)
 "
 )
 ;
