@@ -1580,10 +1580,7 @@ nsIEventTarget
 >
 eventTarget
 =
-mProgressTracker
--
->
-GetEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

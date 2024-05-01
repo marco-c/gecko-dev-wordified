@@ -122,9 +122,6 @@ nsRect
 .
 h
 "
-class
-nsIEventTarget
-;
 namespace
 mozilla
 {
