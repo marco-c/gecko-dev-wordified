@@ -1231,7 +1231,6 @@ json_close_target
 {
 CDP
 client
-tab
 }
 )
 {

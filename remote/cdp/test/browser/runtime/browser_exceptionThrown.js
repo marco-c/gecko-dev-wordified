@@ -570,10 +570,6 @@ runExceptionThrownTest
 client
 eventCount
 callback
-options
-=
-{
-}
 )
 {
 const

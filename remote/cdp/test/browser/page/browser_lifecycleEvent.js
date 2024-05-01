@@ -1063,7 +1063,6 @@ forEach
 {
 payload
 }
-index
 )
 =
 >

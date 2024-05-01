@@ -41,7 +41,6 @@ eventFiredWhenTabIsClosed
 (
 {
 client
-tab
 }
 )
 {

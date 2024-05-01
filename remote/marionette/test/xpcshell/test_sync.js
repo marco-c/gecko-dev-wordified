@@ -145,7 +145,6 @@ message
 }
 removeMessageListener
 (
-message
 )
 {
 this
@@ -251,8 +250,6 @@ false
 initWithCallback
 (
 cb
-timeout
-type
 )
 {
 this
@@ -1320,7 +1317,8 @@ await
 new
 TimedPromise
 (
-resolve
+(
+)
 =
 >
 {
@@ -1381,7 +1379,8 @@ await
 new
 TimedPromise
 (
-resolve
+(
+)
 =
 >
 {

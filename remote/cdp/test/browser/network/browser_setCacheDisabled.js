@@ -142,9 +142,6 @@ async
 function
 cacheEnabledByDefault
 (
-{
-Network
-}
 )
 {
 await
@@ -408,7 +405,6 @@ onStateChange
 webProgress
 request
 flags
-status
 )
 {
 /
