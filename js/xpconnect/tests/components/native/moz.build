@@ -124,11 +124,6 @@ xpctest_params
 .
 cpp
 "
-"
-xpctest_returncode
-.
-cpp
-"
 ]
 LOCAL_INCLUDES
 +
