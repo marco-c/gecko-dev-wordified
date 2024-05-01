@@ -441,14 +441,6 @@ to
 test
 against
 *
-param
-{
-string
-}
-url
-being
-tested
-*
 returns
 {
 Promise
