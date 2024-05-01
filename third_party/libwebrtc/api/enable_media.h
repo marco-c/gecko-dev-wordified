@@ -97,6 +97,17 @@ peer_connection_interface
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -148,6 +159,7 @@ reduce
 binary
 size
 .
+RTC_EXPORT
 void
 EnableMedia
 (
