@@ -1513,6 +1513,9 @@ RegisterSupplementalVP9Decoder
 (
 )
 {
+#
+ifdef
+XP_MACOSX
 static
 bool
 sRegisterIfAvailable
@@ -1553,6 +1556,16 @@ false
 return
 sRegisterIfAvailable
 ;
+#
+else
+/
+/
+iOS
+return
+false
+;
+#
+endif
 }
 /
 *
