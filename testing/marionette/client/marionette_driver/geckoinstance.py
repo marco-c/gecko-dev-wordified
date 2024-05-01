@@ -4827,6 +4827,26 @@ page
 0
         
 #
+Unload
+the
+previously
+selected
+tab
+immediately
+        
+"
+browser
+.
+tabs
+.
+remote
+.
+unloadDelayMs
+"
+:
+0
+        
+#
 Don
 '
 t
