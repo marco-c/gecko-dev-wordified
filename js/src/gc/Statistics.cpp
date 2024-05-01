@@ -956,10 +956,13 @@ EnumeratedArray
 <
 Phase
 PhaseInfo
+size_t
+(
 Phase
 :
 :
 LIMIT
+)
 >
 ;
 /
@@ -979,10 +982,13 @@ EnumeratedArray
 <
 PhaseKind
 PhaseKindInfo
+size_t
+(
 PhaseKind
 :
 :
 LIMIT
+)
 >
 ;
 #

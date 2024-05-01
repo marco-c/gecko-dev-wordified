@@ -1487,10 +1487,13 @@ EnumeratedArray
 <
 AllocKind
 ValueType
+size_t
+(
 AllocKind
 :
 :
 LIMIT
+)
 >
 ;
 /
@@ -1533,10 +1536,13 @@ EnumeratedArray
 <
 AllocKind
 ValueType
+size_t
+(
 AllocKind
 :
 :
 OBJECT_LIMIT
+)
 >
 ;
 /

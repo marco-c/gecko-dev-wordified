@@ -500,10 +500,13 @@ EnumeratedArray
 <
 CodeKind
 size_t
+size_t
+(
 CodeKind
 :
 :
 Count
+)
 >
 m_codeBytes
 ;

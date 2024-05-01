@@ -206,8 +206,8 @@ typename
 IndexType
 typename
 ValueType
-IndexType
-SizeAsEnumValue
+size_t
+Size
 >
 class
 EnumeratedArray
@@ -467,7 +467,7 @@ typename
 E
 typename
 T
-E
+size_t
 N
 >
 constexpr
@@ -486,10 +486,7 @@ aArr
 )
 {
 return
-size_t
-(
 N
-)
 ;
 }
 /

@@ -142,8 +142,8 @@ typename
 IndexType
 typename
 ValueType
-IndexType
-SizeAsEnumValue
+size_t
+Size
 >
 inline
 void
@@ -156,7 +156,7 @@ EnumeratedArray
 <
 IndexType
 ValueType
-SizeAsEnumValue
+Size
 >
 &
 aField
@@ -171,10 +171,7 @@ i
 ;
 i
 <
-size_t
-(
-SizeAsEnumValue
-)
+Size
 ;
 +
 +
@@ -199,8 +196,8 @@ typename
 IndexType
 typename
 ValueType
-IndexType
-SizeAsEnumValue
+size_t
+Size
 >
 inline
 void
@@ -216,7 +213,7 @@ EnumeratedArray
 <
 IndexType
 ValueType
-SizeAsEnumValue
+Size
 >
 &
 aField
@@ -244,10 +241,7 @@ i
 ;
 i
 <
-size_t
-(
-SizeAsEnumValue
-)
+Size
 ;
 +
 +

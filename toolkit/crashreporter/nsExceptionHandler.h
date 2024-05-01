@@ -966,10 +966,13 @@ EnumeratedArray
 <
 Annotation
 nsCString
+size_t
+(
 Annotation
 :
 :
 Count
+)
 >
 AnnotationTable
 ;

@@ -3899,10 +3899,13 @@ Client
 :
 Type
 nsCString
+size_t
+(
 Client
 :
 :
 TYPE_MAX
+)
 >
 mShutdownSteps
 ;

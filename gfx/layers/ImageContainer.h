@@ -1238,6 +1238,8 @@ UniquePtr
 <
 ImageBackendData
 >
+size_t
+(
 mozilla
 :
 :
@@ -1248,6 +1250,7 @@ LayersBackend
 :
 :
 LAYERS_LAST
+)
 >
 mBackendData
 ;

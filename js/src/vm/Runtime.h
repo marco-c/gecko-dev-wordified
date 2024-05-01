@@ -3604,6 +3604,8 @@ js
 :
 PersistentRootedBase
 >
+size_t
+(
 JS
 :
 :
@@ -3611,6 +3613,7 @@ RootKind
 :
 :
 Limit
+)
 >
 >
 heapRoots

@@ -487,7 +487,10 @@ EnumeratedArray
 <
 Index
 Value
+size_t
+(
 kEnd
+)
 >
 mEntries
 ;

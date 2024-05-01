@@ -875,10 +875,13 @@ EnumeratedArray
 <
 OptimizationLevel
 OptimizationInfo
+size_t
+(
 OptimizationLevel
 :
 :
 Count
+)
 >
 infos_
 ;

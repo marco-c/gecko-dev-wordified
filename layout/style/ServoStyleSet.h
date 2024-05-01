@@ -4413,6 +4413,8 @@ RefPtr
 <
 ComputedStyle
 >
+size_t
+(
 nsCSSAnonBoxes
 :
 :
@@ -4420,6 +4422,7 @@ NonInheriting
 :
 :
 _Count
+)
 >
 mNonInheritingComputedStyles
 ;
