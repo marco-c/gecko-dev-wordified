@@ -103,6 +103,10 @@ mod
 server
 ;
 pub
+mod
+command
+;
+pub
 use
 wgc
 :
