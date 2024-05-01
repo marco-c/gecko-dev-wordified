@@ -1077,6 +1077,15 @@ rate_tracker
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+thread
+.
+h
+"
 namespace
 cricket
 {
