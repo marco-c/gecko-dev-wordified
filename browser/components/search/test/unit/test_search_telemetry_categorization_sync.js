@@ -722,6 +722,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -763,6 +764,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -1056,6 +1058,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -1096,6 +1099,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -1386,6 +1390,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -1427,6 +1432,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -1635,6 +1641,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -1730,6 +1737,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -1770,6 +1778,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -1969,6 +1978,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -2006,6 +2016,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -2192,6 +2203,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
@@ -2375,6 +2387,7 @@ Assert
 .
 deepEqual
 (
+await
 SearchSERPDomainToCategoriesMap
 .
 get
