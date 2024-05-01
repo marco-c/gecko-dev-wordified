@@ -1953,7 +1953,7 @@ which
 uses
 WatcherActor
 .
-getTargetActorsInParentProcess
+getTargetActorInParentProcess
 to
 convey
 session

@@ -458,15 +458,6 @@ thread
 "
 )
 ;
-await
-threadFront
-.
-attach
-(
-{
-}
-)
-;
 /
 /
 Use
