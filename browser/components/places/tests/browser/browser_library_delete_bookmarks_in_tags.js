@@ -218,7 +218,6 @@ map
 (
 uri
 index
-arr
 )
 =
 >

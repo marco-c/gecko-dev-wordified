@@ -1060,7 +1060,8 @@ false
 let
 bookmarkedUri
 =
-arr
+(
+)
 =
 >
 undefined
@@ -1109,7 +1110,6 @@ checkClosure
 =
 function
 (
-aUri
 )
 {
 }

@@ -165,10 +165,6 @@ _notified
 onVisit
 (
 uri
-id
-time
-referrerId
-transition
 )
 {
 info

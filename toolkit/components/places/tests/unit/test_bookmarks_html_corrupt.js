@@ -791,8 +791,6 @@ TEST_FAVICON_PAGE_URL
 (
 aURI
 aDataLen
-aData
-aMimeType
 )
 =
 >

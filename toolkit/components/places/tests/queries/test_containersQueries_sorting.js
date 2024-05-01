@@ -858,7 +858,8 @@ aSequences
 .
 map
 (
-i
+(
+)
 =
 >
 0
@@ -2576,8 +2577,6 @@ comparator
 =
 function
 (
-a
-b
 )
 {
 return

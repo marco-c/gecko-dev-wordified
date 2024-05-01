@@ -664,7 +664,6 @@ get
 (
 target
 property
-receiver
 )
 {
 if
@@ -722,7 +721,6 @@ set
 target
 property
 value
-receiver
 )
 {
 if
@@ -788,8 +786,6 @@ cleartext
 }
 deleteProperty
 (
-target
-property
 )
 {
 }

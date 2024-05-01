@@ -3485,7 +3485,6 @@ stopPropagation
 }
 on_dragend
 (
-event
 )
 {
 this

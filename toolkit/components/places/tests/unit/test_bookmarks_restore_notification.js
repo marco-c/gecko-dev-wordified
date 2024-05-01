@@ -740,9 +740,6 @@ function
 teardown
 (
 file
-begin
-success
-fail
 )
 {
 /

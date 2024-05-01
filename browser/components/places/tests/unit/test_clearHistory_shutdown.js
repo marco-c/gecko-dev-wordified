@@ -883,7 +883,6 @@ storeCacheListener
 {
 onCacheEntryCheck
 (
-entry
 )
 {
 return

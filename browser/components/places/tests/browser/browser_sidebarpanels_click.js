@@ -369,7 +369,6 @@ guid
 }
 cleanup
 (
-aCallback
 )
 {
 return
@@ -536,7 +535,6 @@ bookmarked
 }
 cleanup
 (
-aCallback
 )
 {
 return

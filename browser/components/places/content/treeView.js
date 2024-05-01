@@ -6224,7 +6224,6 @@ function
 PTV_nodeTitleChanged
 (
 aNode
-aNewTitle
 )
 {
 this
@@ -6323,7 +6322,6 @@ PTV_nodeHistoryDetailsChanged
 (
 aNode
 aOldVisitDate
-aOldVisitCount
 )
 {
 this
@@ -6407,8 +6405,6 @@ COLUMN_TYPE_TAGS
 }
 nodeKeywordChanged
 (
-aNode
-aNewKeyword
 )
 {
 }
@@ -6418,7 +6414,6 @@ function
 PTV_nodeDateAddedChanged
 (
 aNode
-aNewValue
 )
 {
 this
@@ -6438,7 +6433,6 @@ function
 PTV_nodeLastModifiedChanged
 (
 aNode
-aNewValue
 )
 {
 this
@@ -6458,8 +6452,6 @@ function
 PTV_containerStateChanged
 (
 aNode
-aOldState
-aNewState
 )
 {
 this
@@ -8470,7 +8462,6 @@ properties
 }
 getColumnProperties
 (
-aColumn
 )
 {
 return
@@ -9920,8 +9911,6 @@ icon
 }
 getCellValue
 (
-aRow
-aColumn
 )
 {
 }
@@ -11608,8 +11597,6 @@ selectionChanged
 }
 cycleCell
 (
-aRow
-aColumn
 )
 {
 }

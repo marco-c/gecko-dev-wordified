@@ -284,8 +284,6 @@ filter
 function
 (
 aVisit
-aIndex
-aArray
 )
 {
 /
@@ -1125,7 +1123,8 @@ aSequences
 .
 map
 (
-i
+(
+)
 =
 >
 0

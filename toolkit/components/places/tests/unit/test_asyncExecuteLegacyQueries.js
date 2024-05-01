@@ -234,7 +234,6 @@ message
 }
 handleCompletion
 (
-aReason
 )
 {
 cleanupTest
@@ -469,7 +468,6 @@ message
 }
 handleCompletion
 (
-aReason
 )
 {
 cleanupTest

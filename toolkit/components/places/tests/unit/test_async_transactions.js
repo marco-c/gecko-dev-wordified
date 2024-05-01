@@ -8366,10 +8366,6 @@ aCurrentKeyword
 =
 "
 "
-aPreviousKeyword
-=
-"
-"
 )
 {
 ensureItemsKeywordChanged

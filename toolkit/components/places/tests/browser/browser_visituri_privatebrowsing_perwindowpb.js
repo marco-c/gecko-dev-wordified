@@ -145,7 +145,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 /
@@ -455,7 +454,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .

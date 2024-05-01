@@ -194,7 +194,7 @@ aCallback
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aWin
 .
@@ -235,9 +235,6 @@ pageURI
 function
 (
 uri
-dataLen
-data
-mimeType
 )
 {
 is

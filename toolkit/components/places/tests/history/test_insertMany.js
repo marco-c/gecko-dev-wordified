@@ -1096,7 +1096,8 @@ history
 insertMany
 (
 places
-pageInfo
+(
+)
 =
 >
 {
