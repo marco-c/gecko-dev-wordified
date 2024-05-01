@@ -821,6 +821,11 @@ CaptivePortalService
 h
 "
 "
+ContentRange
+.
+h
+"
+"
 Dashboard
 .
 h
@@ -912,6 +917,11 @@ cpp
 "
 "
 CaptivePortalService
+.
+cpp
+"
+"
+ContentRange
 .
 cpp
 "
