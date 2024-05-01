@@ -476,9 +476,16 @@ Assert
 .
 greater
 (
+Object
+.
+values
+(
 snapshot
 .
-sum
+values
+)
+.
+length
 0
 )
 ;
