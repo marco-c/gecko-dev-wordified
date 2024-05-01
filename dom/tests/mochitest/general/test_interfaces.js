@@ -1831,6 +1831,9 @@ name
 "
 AudioDecoder
 "
+nightly
+:
+true
 }
 /
 /
