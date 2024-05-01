@@ -380,6 +380,10 @@ isScriptExtraFieldCopiedToStencil
 (
 false
 )
+eligibleForArgumentsLength
+(
+true
+)
 {
 /
 /
