@@ -68,6 +68,8 @@ MockFilePicker
 init
 (
 window
+.
+browsingContext
 )
 ;
 /
