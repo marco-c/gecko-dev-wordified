@@ -233,13 +233,6 @@ h
 #
 include
 "
-nsIMozBrowserFrame
-.
-h
-"
-#
-include
-"
 nsPlaceholderFrame
 .
 h
