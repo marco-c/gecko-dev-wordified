@@ -490,7 +490,7 @@ for
 any
 block
 with
-NS_BLOCK_BFC_STATE_BITS
+NS_BLOCK_BFC
 .
 During
 reflow
@@ -498,9 +498,9 @@ the
 float
 manager
 for
-*
 the
 nearest
+*
 such
 ancestor
 block
