@@ -281,7 +281,7 @@ Issue
 16
 )
 public
-void
+Telemetry
 queuePing
 (
 String
@@ -299,6 +299,7 @@ isCollectionEnabled
 )
 {
 return
+this
 ;
 }
 final
@@ -377,6 +378,7 @@ ping
 yet
 .
 return
+this
 ;
 }
 final
@@ -395,6 +397,9 @@ store
 (
 ping
 )
+;
+return
+this
 ;
 }
 public
@@ -415,7 +420,7 @@ pingType
 ;
 }
 public
-void
+Telemetry
 scheduleUpload
 (
 String
@@ -433,6 +438,7 @@ isUploadEnabled
 )
 {
 return
+this
 ;
 }
 if
@@ -458,6 +464,7 @@ to
 upload
 .
 return
+this
 ;
 }
 scheduler
@@ -467,6 +474,9 @@ scheduleUpload
 configuration
 pingType
 )
+;
+return
+this
 ;
 }
 public
@@ -557,7 +567,7 @@ countSession
 ;
 }
 public
-void
+Telemetry
 recordSessionEnd
 (
 )
@@ -573,6 +583,7 @@ isCollectionEnabled
 )
 {
 return
+this
 ;
 }
 if
@@ -631,6 +642,9 @@ getSessionDurationMeasurement
 recordSessionEnd
 (
 )
+;
+return
+this
 ;
 }
 RestrictTo
