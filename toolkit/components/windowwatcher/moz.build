@@ -148,11 +148,6 @@ nsIWindowWatcher
 idl
 "
 "
-nsPIPromptService
-.
-idl
-"
-"
 nsPIWindowWatcher
 .
 idl
