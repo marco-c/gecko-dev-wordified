@@ -917,6 +917,8 @@ RecvInitTranslator
 (
 TextureType
 aTextureType
+TextureType
+aWebglTextureType
 gfx
 :
 :
@@ -966,6 +968,10 @@ twice
 mTextureType
 =
 aTextureType
+;
+mWebglTextureType
+=
+aWebglTextureType
 ;
 mBackendType
 =
@@ -6631,6 +6637,7 @@ webgl
 >
 CopyToSwapChain
 (
+mWebglTextureType
 aId
 ownerId
 mRemoteTextureOwner

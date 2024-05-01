@@ -486,6 +486,8 @@ InitTranslator
 (
 TextureType
 aTextureType
+TextureType
+aWebglTextureType
 gfx
 :
 :
@@ -596,6 +598,8 @@ Init
 (
 TextureType
 aTextureType
+TextureType
+aWebglTextureType
 gfx
 :
 :

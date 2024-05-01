@@ -425,6 +425,8 @@ Init
 (
 TextureType
 aTextureType
+TextureType
+aWebglTextureType
 gfx
 :
 :
@@ -810,6 +812,7 @@ mHelpers
 InitTranslator
 (
 aTextureType
+aWebglTextureType
 aBackendType
 std
 :
