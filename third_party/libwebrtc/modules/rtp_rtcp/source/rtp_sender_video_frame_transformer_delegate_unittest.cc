@@ -508,8 +508,9 @@ expected_retransmission_time
 TimeDelta
 :
 :
-PlusInfinity
+Millis
 (
+10
 )
 )
 ;
@@ -731,8 +732,9 @@ expected_retransmission_time
 TimeDelta
 :
 :
-PlusInfinity
+Millis
 (
+10
 )
 )
 ;
@@ -1785,8 +1787,9 @@ expected_retransmission_time
 TimeDelta
 :
 :
-PlusInfinity
+Millis
 (
+10
 )
 frame_csrcs
 )
@@ -2100,8 +2103,9 @@ expected_retransmission_time
 TimeDelta
 :
 :
-PlusInfinity
+Millis
 (
+10
 )
 )
 ;
