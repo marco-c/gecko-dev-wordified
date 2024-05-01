@@ -18789,6 +18789,11 @@ if
 debugFilter_
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -18863,6 +18868,11 @@ length
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -18948,6 +18958,11 @@ length
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -19031,6 +19046,11 @@ numElements
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
