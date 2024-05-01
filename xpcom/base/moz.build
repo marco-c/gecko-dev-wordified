@@ -243,6 +243,11 @@ EXPORTS
 =
 [
 "
+CFTypeRefPtr
+.
+h
+"
+"
 nsObjCExceptions
 .
 h

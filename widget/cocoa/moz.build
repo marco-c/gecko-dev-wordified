@@ -161,11 +161,6 @@ EXPORTS
 =
 [
 "
-CFTypeRefPtr
-.
-h
-"
-"
 DesktopBackgroundImage
 .
 h
