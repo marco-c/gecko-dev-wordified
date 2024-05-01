@@ -66,7 +66,6 @@ PictureInPictureVideoWrapper
 {
 play
 (
-video
 )
 {
 let
@@ -97,7 +96,6 @@ click
 }
 pause
 (
-video
 )
 {
 let

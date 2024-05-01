@@ -1528,7 +1528,8 @@ addEventListener
 "
 change
 "
-event
+(
+)
 =
 >
 {
@@ -1550,7 +1551,8 @@ addEventListener
 "
 pointerdown
 "
-event
+(
+)
 =
 >
 {
@@ -6884,7 +6886,6 @@ object
 /
 onResize
 (
-event
 )
 {
 this
@@ -6941,7 +6942,6 @@ object
 /
 onCommand
 (
-event
 )
 {
 this

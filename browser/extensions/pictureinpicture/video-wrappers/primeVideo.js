@@ -419,7 +419,6 @@ callback
 function
 (
 mutationsList
-observer
 )
 {
 /

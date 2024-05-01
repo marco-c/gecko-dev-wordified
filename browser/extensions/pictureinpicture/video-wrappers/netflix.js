@@ -186,7 +186,6 @@ seconds
 /
 getCurrentTime
 (
-video
 )
 {
 return
@@ -246,7 +245,6 @@ seconds
 /
 getDuration
 (
-video
 )
 {
 return
@@ -324,8 +322,6 @@ callback
 =
 function
 (
-mutationsList
-observer
 )
 {
 let

@@ -217,7 +217,6 @@ PictureInPictureParent
 /
 getAPI
 (
-context
 )
 {
 return

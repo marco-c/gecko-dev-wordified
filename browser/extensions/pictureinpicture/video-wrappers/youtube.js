@@ -145,7 +145,6 @@ wrappedJSObject
 }
 isLive
 (
-video
 )
 {
 return
@@ -279,7 +278,6 @@ callback
 function
 (
 mutationsList
-observer
 )
 {
 /

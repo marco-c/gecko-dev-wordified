@@ -214,7 +214,8 @@ browser
 [
 ]
 async
-args
+(
+)
 =
 >
 {

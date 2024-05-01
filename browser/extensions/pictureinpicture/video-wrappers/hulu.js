@@ -214,8 +214,6 @@ callback
 =
 function
 (
-mutationsList
-observer
 )
 {
 /
@@ -413,7 +411,6 @@ true
 }
 getDuration
 (
-video
 )
 {
 return

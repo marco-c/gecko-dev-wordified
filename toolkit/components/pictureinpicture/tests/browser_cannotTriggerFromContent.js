@@ -124,7 +124,8 @@ false
 let
 listener
 =
-msg
+(
+)
 =
 >
 {
