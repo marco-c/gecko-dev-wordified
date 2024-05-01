@@ -435,6 +435,11 @@ Acc
 (
 )
 ;
+bool
+IsControl
+(
+)
+;
 }
 ;
 }
