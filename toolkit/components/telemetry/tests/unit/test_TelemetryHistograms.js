@@ -93,7 +93,6 @@ histogram_type
 name
 min
 max
-bucket_count
 )
 {
 var
@@ -3385,7 +3384,8 @@ numberRange
 .
 map
 (
-i
+(
+)
 =
 >
 JSON
@@ -3772,7 +3772,8 @@ numberRange
 .
 map
 (
-i
+(
+)
 =
 >
 JSON

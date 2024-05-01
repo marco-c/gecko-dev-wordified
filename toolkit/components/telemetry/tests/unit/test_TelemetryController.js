@@ -3576,8 +3576,6 @@ PingServer
 registerPingHandler
 (
 (
-req
-res
 )
 =
 >

@@ -1955,7 +1955,6 @@ reduce
 (
 acc
 [
-bucket
 count
 ]
 )
@@ -2043,7 +2042,6 @@ reduce
 (
 acc
 [
-bucket
 count
 ]
 )

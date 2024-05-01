@@ -570,7 +570,6 @@ HttpServer
 function
 pingHandler
 (
-aRequest
 )
 {
 gSeenPings

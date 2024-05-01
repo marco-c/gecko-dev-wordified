@@ -1928,7 +1928,6 @@ forEach
 (
 (
 {
-optout
 event
 }
 )
