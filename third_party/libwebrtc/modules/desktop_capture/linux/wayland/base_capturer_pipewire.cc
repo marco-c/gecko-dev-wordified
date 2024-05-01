@@ -705,6 +705,10 @@ StopScreenCastStream
 )
 ;
 }
+capturer_failed_
+=
+true
+;
 }
 void
 BaseCapturerPipeWire
