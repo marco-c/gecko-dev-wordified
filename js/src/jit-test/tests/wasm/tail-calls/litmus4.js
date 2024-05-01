@@ -13,12 +13,6 @@ if
 wasmTailCallsEnabled
 (
 )
-|
-|
-!
-wasmExceptionsEnabled
-(
-)
 /
 /
 Mutually
