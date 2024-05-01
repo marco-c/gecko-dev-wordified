@@ -243,10 +243,13 @@ const
 size_t
 kPermissionNameCount
 =
-PermissionNameValues
+ContiguousEnumSize
+<
+PermissionName
+>
 :
 :
-Count
+value
 ;
 static_assert
 (
