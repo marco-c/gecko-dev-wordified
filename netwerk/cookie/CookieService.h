@@ -575,9 +575,12 @@ aHttpBound
 bool
 aAllowSecureCookiesToInsecureOrigin
 const
+nsTArray
+<
 OriginAttributes
+>
 &
-aOriginAttrs
+aOriginAttrsList
 nsTArray
 <
 Cookie
