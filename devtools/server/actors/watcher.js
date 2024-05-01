@@ -164,9 +164,11 @@ sys
 mjs
 "
 {
-loadInDevToolsLoader
+global
 :
-false
+"
+shared
+"
 }
 )
 ;
@@ -198,7 +200,6 @@ sys
 .
 mjs
 "
-{
 /
 /
 WatcherRegistry
@@ -222,9 +223,12 @@ a
 true
 singleton
 .
-loadInDevToolsLoader
+{
+global
 :
-false
+"
+shared
+"
 }
 )
 ;

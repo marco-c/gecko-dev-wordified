@@ -99,9 +99,11 @@ of
 it
 .
 {
-loadInDevToolsLoader
+global
 :
-false
+"
+shared
+"
 }
 )
 ;

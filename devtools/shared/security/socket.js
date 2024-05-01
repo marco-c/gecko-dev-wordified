@@ -314,7 +314,6 @@ sys
 .
 mjs
 "
-{
 /
 /
 DevToolsSocketStatus
@@ -339,9 +338,12 @@ regular
 shared
 global
 .
-loadInDevToolsLoader
+{
+global
 :
-false
+"
+shared
+"
 }
 )
 .

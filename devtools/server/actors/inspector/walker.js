@@ -584,7 +584,6 @@ sys
 .
 mjs
 "
-{
 /
 /
 ContentDOMReference
@@ -605,9 +604,12 @@ a
 shared
 singleton
 .
-loadInDevToolsLoader
+{
+global
 :
-false
+"
+shared
+"
 }
 )
 .

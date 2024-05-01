@@ -360,9 +360,11 @@ sys
 mjs
 "
 {
-loadInDevToolsLoader
+global
 :
-false
+"
+shared
+"
 }
 )
 ;
@@ -721,9 +723,11 @@ loader
 as
 desired
 .
-loadInDevToolsLoader
+global
 :
-false
+"
+shared
+"
 }
 )
 .
