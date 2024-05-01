@@ -414,7 +414,7 @@ n
 "
 )
         
-CodeGen
+Visitor
 .
 visitTranslationUnit
 (
@@ -593,9 +593,6 @@ n
 p
 .
 sendSemantics
-[
-0
-]
 p
 .
 name
@@ -768,15 +765,9 @@ s
 msg
 .
 sendSemantics
-[
-0
-]
 msg
 .
 direction
-[
-0
-]
 msg
 .
 name
