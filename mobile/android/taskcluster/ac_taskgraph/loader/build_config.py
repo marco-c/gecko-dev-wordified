@@ -108,6 +108,7 @@ from
 build_config
 import
 get_components
+ANDROID_COMPONENTS_DIR
 logger
 =
 logging
@@ -561,6 +562,9 @@ cmd
 universal_newlines
 =
 True
+cwd
+=
+ANDROID_COMPONENTS_DIR
 )
 .
 splitlines
