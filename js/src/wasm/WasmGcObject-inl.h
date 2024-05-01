@@ -2818,11 +2818,12 @@ MaxArrayPayloadBytes
 )
 )
 {
-JS_ReportErrorNumberUTF8
+wasm
+:
+:
+ReportTrapError
 (
 cx
-GetErrorMessage
-nullptr
 JSMSG_WASM_ARRAY_IMP_LIMIT
 )
 ;
