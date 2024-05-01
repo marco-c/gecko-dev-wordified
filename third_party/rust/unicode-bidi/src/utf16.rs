@@ -5246,16 +5246,10 @@ tr9
 L4
 fn
 reorder_line
-<
-'
-text
->
 (
 text
 :
 &
-'
-text
 [
 u16
 ]
@@ -5283,7 +5277,7 @@ LevelRun
 Cow
 <
 '
-text
+_
 [
 u16
 ]
@@ -6250,7 +6244,6 @@ Utf16CharIter
 :
 new
 (
-&
 self
 )
 }
@@ -6278,7 +6271,6 @@ Utf16CharIndexIter
 :
 new
 (
-&
 self
 )
 }
@@ -6306,7 +6298,6 @@ Utf16IndexLenIter
 :
 new
 (
-&
 self
 )
 }

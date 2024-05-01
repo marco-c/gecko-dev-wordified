@@ -641,8 +641,8 @@ while
 seq_end
 <
 run_count
-{
-if
+&
+&
 levels
 [
 runs
@@ -652,12 +652,10 @@ seq_end
 .
 start
 ]
-<
+>
+=
 max_level
 {
-break
-;
-}
 seq_end
 +
 =
