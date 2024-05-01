@@ -856,10 +856,11 @@ running
 the
 test
 .
-ok
+Assert
+.
+greater
 (
 DUMP_LAST_MODIFIED
->
 1234
 "
 Assuming
@@ -967,10 +968,11 @@ running
 the
 test
 .
-ok
+Assert
+.
+greater
 (
 DUMP_LAST_MODIFIED
->
 1234
 "
 Assuming

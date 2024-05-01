@@ -499,7 +499,9 @@ NSRange
 )
 )
 ;
-ok
+Assert
+.
+less
 (
 smallBounds
 .
@@ -507,7 +509,6 @@ size
 [
 0
 ]
-<
 largeBounds
 .
 size

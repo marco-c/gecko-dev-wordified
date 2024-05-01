@@ -215,10 +215,11 @@ a
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 duration
->
 delay
 The
 delay

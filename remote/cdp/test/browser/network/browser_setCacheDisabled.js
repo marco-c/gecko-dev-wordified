@@ -651,12 +651,13 @@ removeProgressListener
 this
 )
 ;
-ok
+Assert
+.
+greater
 (
 this
 .
 requestCount
->
 1
 this
 .

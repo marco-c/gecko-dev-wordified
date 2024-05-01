@@ -179,11 +179,11 @@ of
 prettyAccName
 )
 ;
-ok
+Assert
+.
+greaterOrEqual
 (
 height
->
-=
 expectedHeight
 "
 Wrong

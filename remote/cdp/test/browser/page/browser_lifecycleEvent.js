@@ -1068,13 +1068,13 @@ index
 =
 >
 {
-ok
+Assert
+.
+greaterOrEqual
 (
 payload
 .
 timestamp
->
-=
 lastTimestamp
 "
 timestamp

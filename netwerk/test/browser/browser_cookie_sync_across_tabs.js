@@ -206,11 +206,11 @@ implemented
 Bug
 1451850
 )
-ok
+Assert
+.
+notEqual
 (
 pid1
-!
-=
 pid2
 "
 We

@@ -156,10 +156,11 @@ getAudioDecoderPid
 expectation
 )
 ;
-ok
+Assert
+.
+greater
 (
 audioPid
->
 0
 Found
 an

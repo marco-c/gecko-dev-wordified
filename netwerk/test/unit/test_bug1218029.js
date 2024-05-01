@@ -543,10 +543,11 @@ data
 consumed
 )
 {
-ok
+Assert
+.
+less
 (
 chunkIndex
-<
 test
 .
 dataChunks

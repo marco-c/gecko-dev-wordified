@@ -139,12 +139,13 @@ XDG_CONFIG_HOME
 "
 )
 ;
-ok
+Assert
+.
+greater
 (
 xdgConfigHome
 .
 length
->
 1
 "
 XDG_CONFIG_HOME

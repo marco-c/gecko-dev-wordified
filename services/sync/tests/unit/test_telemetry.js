@@ -9066,14 +9066,13 @@ ping
 =
 >
 {
-ok
+Assert
+.
+strictEqual
 (
 ping
 .
 syncNodeType
-=
-=
-=
 undefined
 )
 ;

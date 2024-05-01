@@ -567,7 +567,9 @@ address
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 typeof
 docResponse
@@ -575,8 +577,6 @@ docResponse
 response
 .
 remotePort
-=
-=
 "
 number
 "
@@ -798,7 +798,9 @@ response
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 typeof
 scriptResponse
@@ -806,8 +808,6 @@ scriptResponse
 response
 .
 remotePort
-=
-=
 "
 number
 "
@@ -1047,7 +1047,9 @@ address
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 typeof
 frameDocResponse
@@ -1055,8 +1057,6 @@ frameDocResponse
 response
 .
 remotePort
-=
-=
 "
 number
 "
@@ -1276,7 +1276,9 @@ response
 "
 )
 ;
-ok
+Assert
+.
+equal
 (
 typeof
 frameScriptResponse
@@ -1284,8 +1286,6 @@ frameScriptResponse
 response
 .
 remotePort
-=
-=
 "
 number
 "

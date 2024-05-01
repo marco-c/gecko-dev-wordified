@@ -116,12 +116,11 @@ Ci
 nsIMemoryReporterManager
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 utilityPid
-!
-=
-=
 undefined
 Utility
 process
@@ -299,7 +298,9 @@ reports
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 utilityReports
 .
@@ -327,9 +328,6 @@ amount
 )
 .
 length
-=
-=
-=
 1
 "
 Collected
@@ -338,7 +336,9 @@ report
 "
 )
 ;
-ok
+Assert
+.
+strictEqual
 (
 utilityReports
 .
@@ -366,9 +366,6 @@ amount
 )
 .
 length
-=
-=
-=
 1
 "
 Collected

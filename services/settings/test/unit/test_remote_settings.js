@@ -907,12 +907,13 @@ get
 (
 )
 ;
-ok
+Assert
+.
+greater
 (
 list
 .
 length
->
 20
 The
 dump
@@ -2096,7 +2097,9 @@ field
 }
 )
 ;
-ok
+Assert
+.
+less
 (
 records
 [
@@ -2104,7 +2107,6 @@ records
 ]
 .
 field
-<
 records
 [
 records

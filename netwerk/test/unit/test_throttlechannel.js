@@ -248,14 +248,15 @@ ChannelListener
 =
 >
 {
-ok
+Assert
+.
+greater
 (
 tq
 .
 bytesProcessed
 (
 )
->
 0
 "
 throttled

@@ -6215,7 +6215,9 @@ the
 right
 day
 .
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -6231,7 +6233,6 @@ record3
 .
 dateAdded
 )
-<
 24
 *
 60

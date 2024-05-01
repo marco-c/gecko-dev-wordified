@@ -268,13 +268,14 @@ be
 tracked
 )
 ;
-ok
+Assert
+.
+greater
 (
 changes
 [
 guid
 ]
->
 0
 {
 guid

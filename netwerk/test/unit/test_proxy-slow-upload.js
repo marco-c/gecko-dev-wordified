@@ -679,11 +679,11 @@ responseStatus
 200
 )
 ;
-ok
+Assert
+.
+equal
 (
 buff
-=
-=
 CONTENT
 "
 Content
