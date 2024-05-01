@@ -119,11 +119,11 @@ GpPointR
 pub
 x
 :
-f64
+f32
 pub
 y
 :
-f64
+f32
 }
 impl
 Sub
@@ -276,7 +276,7 @@ rhs
 impl
 MulAssign
 <
-f64
+f32
 >
 for
 GpPointR
@@ -289,7 +289,7 @@ mut
 self
 rhs
 :
-f64
+f32
 )
 {
 *
@@ -305,7 +305,7 @@ rhs
 impl
 Mul
 <
-f64
+f32
 >
 for
 GpPointR
@@ -321,7 +321,7 @@ mul
 self
 rhs
 :
-f64
+f32
 )
 -
 >
@@ -352,7 +352,7 @@ rhs
 impl
 Div
 <
-f64
+f32
 >
 for
 GpPointR
@@ -368,7 +368,7 @@ div
 self
 rhs
 :
-f64
+f32
 )
 -
 >
@@ -404,7 +404,7 @@ GpPointR
 type
 Output
 =
-f64
+f32
 ;
 fn
 mul
@@ -450,7 +450,7 @@ self
 )
 -
 >
-f64
+f32
 {
 self
 .
@@ -480,7 +480,7 @@ self
 )
 -
 >
-f64
+f32
 {
 self
 .
@@ -529,7 +529,7 @@ considered
 const
 SQ_LENGTH_FUZZ
 :
-f64
+f32
 =
 1
 .
@@ -635,7 +635,7 @@ f64
 const
 TWICE_MIN_BEZIER_STEP_SIZE
 :
-f64
+f32
 =
 1
 .
@@ -2057,7 +2057,7 @@ The
 point
 t
 :
-f64
+f32
 /
 /
 Parameter
@@ -2301,7 +2301,7 @@ flattening
 data
 m_rTolerance
 :
-f64
+f32
 /
 /
 Prescribed
@@ -2318,7 +2318,7 @@ if
 true
 m_rQuarterTolerance
 :
-f64
+f32
 /
 /
 Prescribed
@@ -2333,7 +2333,7 @@ step
 )
 m_rFuzz
 :
-f64
+f32
 /
 /
 Computational
@@ -2377,14 +2377,14 @@ the
 curve
 m_rParameter
 :
-f64
+f32
 /
 /
 Parameter
 value
 m_rStepSize
 :
-f64
+f32
 /
 /
 Steps
@@ -3201,7 +3201,7 @@ flattened
 data
 rTolerance
 :
-f64
+f32
 )
 /
 /
