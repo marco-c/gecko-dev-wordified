@@ -15499,15 +15499,6 @@ aDatabaseID
 _ns
 /
 *
-aDatabaseFilePath
-*
-/
-u
-"
-"
-_ns
-/
-*
 aEnforcingQuota
 *
 /
