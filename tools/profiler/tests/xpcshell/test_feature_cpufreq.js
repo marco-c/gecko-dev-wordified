@@ -513,7 +513,6 @@ function
 runProfilerWithCPUSpeed
 (
 features
-filename
 )
 {
 const
