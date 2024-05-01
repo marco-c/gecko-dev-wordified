@@ -1677,6 +1677,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 var
@@ -2042,6 +2045,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 var
@@ -2603,6 +2609,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 for
@@ -2768,6 +2777,11 @@ mainSession
 loadTestPath
 (
 HELLO_HTML_PATH
+)
+mainSession
+.
+waitForPageStop
+(
 )
 assertTrackingProtectionPermission
 (
@@ -3049,6 +3063,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 var
@@ -3388,6 +3405,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 var
@@ -3902,6 +3922,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 var
@@ -4259,6 +4282,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 var
@@ -4615,6 +4641,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 var
@@ -5011,6 +5040,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 var

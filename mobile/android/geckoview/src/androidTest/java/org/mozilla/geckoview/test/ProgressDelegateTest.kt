@@ -276,6 +276,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 assertThat
@@ -2557,6 +2560,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 assertThat
@@ -2698,6 +2704,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 assertThat
@@ -2839,6 +2848,9 @@ MutableList
 <
 ContentPermission
 >
+hasUserGesture
+:
+Boolean
 )
 {
 assertThat
