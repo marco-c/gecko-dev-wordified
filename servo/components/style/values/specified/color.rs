@@ -81,8 +81,8 @@ parsing
 :
 {
 self
-AngleOrNumber
 FromParsedColor
+NumberOrAngle
 NumberOrPercentage
 }
 ;
@@ -3292,7 +3292,7 @@ Output
 Color
 ;
 fn
-parse_angle_or_number
+parse_number_or_angle
 <
 '
 t
@@ -3316,7 +3316,7 @@ t
 >
 Result
 <
-AngleOrNumber
+NumberOrAngle
 ParseError
 <
 '
@@ -3437,7 +3437,7 @@ clone
 ;
 Ok
 (
-AngleOrNumber
+NumberOrAngle
 :
 :
 Angle
@@ -3459,7 +3459,7 @@ value
 >
 Ok
 (
-AngleOrNumber
+NumberOrAngle
 :
 :
 Number
@@ -3497,7 +3497,7 @@ location
 CalcNode
 :
 :
-parse_angle_or_number
+parse_number_or_angle
 (
 self
 .

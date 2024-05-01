@@ -1845,7 +1845,7 @@ p
 |
 color_parser
 .
-parse_angle_or_number
+parse_number_or_angle
 (
 p
 )
@@ -2267,7 +2267,7 @@ arguments
 P
 :
 :
-parse_angle_or_number
+parse_number_or_angle
 P
 :
 :
@@ -2656,7 +2656,7 @@ parse_number_or_percentage
 P
 :
 :
-parse_angle_or_number
+parse_number_or_angle
 )
 ?
 ;
@@ -3491,7 +3491,7 @@ number
 .
 pub
 enum
-AngleOrNumber
+NumberOrAngle
 {
 /
 /
@@ -3542,7 +3542,7 @@ f32
 }
 }
 impl
-AngleOrNumber
+NumberOrAngle
 {
 /
 /
@@ -3553,7 +3553,7 @@ angle
 in
 degrees
 .
-AngleOrNumber
+NumberOrAngle
 :
 :
 Number
@@ -3586,7 +3586,7 @@ match
 *
 self
 {
-AngleOrNumber
+Self
 :
 :
 Number
@@ -3596,7 +3596,7 @@ value
 =
 >
 value
-AngleOrNumber
+Self
 :
 :
 Angle
@@ -3713,7 +3713,7 @@ in
 degrees
 .
 fn
-parse_angle_or_number
+parse_number_or_angle
 <
 '
 t
@@ -3737,7 +3737,7 @@ t
 >
 Result
 <
-AngleOrNumber
+NumberOrAngle
 ParseError
 <
 '
