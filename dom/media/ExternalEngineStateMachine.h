@@ -618,6 +618,17 @@ aProxy
 )
 override
 ;
+bool
+IsExternalEngineStateMachine
+(
+)
+const
+override
+{
+return
+true
+;
+}
 private
 :
 ~
