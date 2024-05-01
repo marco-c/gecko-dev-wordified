@@ -187,17 +187,6 @@ child
 process
 *
 *
-param
-{
-ExtensionContext
-}
-context
-the
-context
-of
-our
-extension
-*
 returns
 {
 object
