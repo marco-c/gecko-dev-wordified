@@ -1330,7 +1330,6 @@ cookieExpectedObserver
 (
 aSubject
 aTopic
-aData
 )
 {
 equal
@@ -1475,7 +1474,6 @@ cookieNotExpectedObserver
 (
 aSubject
 aTopic
-aData
 )
 {
 equal

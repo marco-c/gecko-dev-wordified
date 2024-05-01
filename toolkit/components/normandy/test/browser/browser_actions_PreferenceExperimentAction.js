@@ -4627,7 +4627,6 @@ function
 testNoRecipes
 (
 {
-stopSpy
 _considerTemporaryErrorStub
 prefExperiments
 :
