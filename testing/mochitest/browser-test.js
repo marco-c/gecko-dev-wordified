@@ -271,7 +271,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -3153,7 +3152,6 @@ finish
 function
 Tester_finish
 (
-aSkipSummary
 )
 {
 var
@@ -3567,7 +3565,6 @@ Tester_observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if

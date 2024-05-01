@@ -345,7 +345,6 @@ logWithLevel
 function
 (
 level
-message
 /
 *
 .

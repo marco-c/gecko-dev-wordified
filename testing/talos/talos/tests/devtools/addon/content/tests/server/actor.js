@@ -120,7 +120,6 @@ arg
 {
 option
 }
-arraySize
 )
 {
 /

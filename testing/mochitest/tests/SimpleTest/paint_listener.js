@@ -603,7 +603,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 /

@@ -1561,7 +1561,6 @@ TabRemotenessChange
 "
 function
 (
-evt
 )
 {
 loadFrameScripts
@@ -1873,7 +1872,8 @@ addEventListener
 "
 TabRemotenessChange
 "
-evt
+(
+)
 =
 >
 {
@@ -3468,7 +3468,6 @@ OK
 function
 onTalosContentForceGC
 (
-msg
 )
 {
 mm

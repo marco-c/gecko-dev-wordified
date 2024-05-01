@@ -3079,7 +3079,6 @@ function
 (
 subject
 topic
-data
 )
 {
 if
@@ -5074,8 +5073,6 @@ function
 load_file
 (
 element
-index
-array
 )
 {
 try
@@ -11542,11 +11539,9 @@ sort
 (
 [
 propsA
-funcA
 ]
 [
 propsB
-funcB
 ]
 )
 =

@@ -2456,7 +2456,6 @@ findIndex
 (
 [
 pat
-count
 ]
 )
 =

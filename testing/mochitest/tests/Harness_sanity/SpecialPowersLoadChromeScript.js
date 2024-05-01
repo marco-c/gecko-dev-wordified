@@ -59,7 +59,6 @@ assert
 "
 function
 (
-message
 )
 {
 assert

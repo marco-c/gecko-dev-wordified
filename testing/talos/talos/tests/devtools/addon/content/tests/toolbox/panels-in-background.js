@@ -291,8 +291,6 @@ payloadReady
 function
 onPayloadReady
 (
-_
-id
 )
 {
 payloadReady

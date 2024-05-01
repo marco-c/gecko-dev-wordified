@@ -886,7 +886,6 @@ function
 testProjectSearch
 (
 dbg
-tab
 )
 {
 dump
@@ -1366,7 +1365,6 @@ function
 testOpeningLargeMinifiedFile
 (
 dbg
-tab
 )
 {
 const

@@ -1137,7 +1137,6 @@ content
 async
 openTabFromContent
 (
-gBrowser
 )
 {
 TalosParentProfiler
@@ -1346,11 +1345,7 @@ linkedBrowser
 let
 observer
 =
-(
 subject
-topic
-data
-)
 =
 >
 {

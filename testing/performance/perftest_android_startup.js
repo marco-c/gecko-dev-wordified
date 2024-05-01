@@ -73,8 +73,6 @@ async
 function
 test
 (
-context
-commands
 )
 {
 }

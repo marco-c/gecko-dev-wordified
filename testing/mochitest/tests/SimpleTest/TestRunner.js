@@ -364,7 +364,6 @@ ret
 function
 flattenArguments
 (
-lst
 /
 *
 .

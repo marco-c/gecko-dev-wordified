@@ -436,10 +436,7 @@ length
 :
 ARRAY_SIZE
 }
-(
 _
-i
-)
 =
 >
 bigObject

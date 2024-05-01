@@ -410,8 +410,6 @@ null
 function
 onPayloadReady
 (
-_
-id
 )
 {
 payloadReady

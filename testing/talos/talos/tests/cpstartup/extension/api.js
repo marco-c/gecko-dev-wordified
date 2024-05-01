@@ -834,11 +834,7 @@ linkedBrowser
 let
 observer
 =
-(
 subject
-topic
-data
-)
 =
 >
 {

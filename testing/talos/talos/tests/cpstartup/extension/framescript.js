@@ -42,7 +42,8 @@ CPStartup
 :
 Ping
 "
-e
+(
+)
 =
 >
 {

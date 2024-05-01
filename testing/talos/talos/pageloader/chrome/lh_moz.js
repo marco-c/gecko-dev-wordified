@@ -95,7 +95,6 @@ MozAfterPaint
 function
 afterpaint
 (
-e
 )
 {
 removeEventListener

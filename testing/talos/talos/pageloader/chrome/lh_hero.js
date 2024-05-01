@@ -106,14 +106,14 @@ function
 callback
 (
 entries
-observer
 )
 {
 entries
 .
 forEach
 (
-entry
+(
+)
 =
 >
 {

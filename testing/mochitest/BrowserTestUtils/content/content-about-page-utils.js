@@ -98,7 +98,6 @@ nsIAboutModule
 )
 getURIFlags
 (
-aURI
 )
 {
 /

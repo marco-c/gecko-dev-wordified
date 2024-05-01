@@ -207,7 +207,6 @@ p
 function
 error
 (
-msg
 )
 {
 let

@@ -1701,7 +1701,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 setSmooth

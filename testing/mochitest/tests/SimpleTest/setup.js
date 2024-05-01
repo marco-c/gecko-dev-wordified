@@ -1654,7 +1654,6 @@ runall
 =
 function
 (
-e
 )
 {
 /
@@ -1759,7 +1758,6 @@ runtests
 =
 function
 (
-e
 )
 {
 /
