@@ -100,6 +100,12 @@ OPEN_NEWTAB_BACKGROUND
 "
 true
 ]
+[
+"
+OPEN_NEWTAB_FOREGROUND
+"
+false
+]
 ]
 ;
 for
