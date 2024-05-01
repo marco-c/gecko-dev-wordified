@@ -336,8 +336,7 @@ middleware
 .
 returns
 (
-(
-)
+s
 =
 >
 next

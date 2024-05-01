@@ -123,8 +123,7 @@ await
 observeAllPromise
 ;
 }
-(
-)
+params
 =
 >
 {
@@ -281,8 +280,7 @@ await
 observeAllPromise
 ;
 }
-(
-)
+params
 =
 >
 {
@@ -439,8 +437,7 @@ await
 observeAllPromise
 ;
 }
-(
-)
+params
 =
 >
 {
@@ -742,8 +739,7 @@ popup
 )
 ;
 }
-(
-)
+params
 =
 >
 {
@@ -864,8 +860,7 @@ await
 observeAllPromise
 ;
 }
-(
-)
+params
 =
 >
 {
@@ -988,8 +983,7 @@ await
 observeAllPromise
 ;
 }
-(
-)
+params
 =
 >
 {
@@ -1112,8 +1106,7 @@ await
 observeAllPromise
 ;
 }
-(
-)
+params
 =
 >
 {
@@ -1376,8 +1369,7 @@ await
 observeAllPromise
 ;
 }
-(
-)
+params
 =
 >
 {
@@ -1534,8 +1526,7 @@ await
 observeAllPromise
 ;
 }
-(
-)
+params
 =
 >
 {
@@ -1692,8 +1683,7 @@ await
 observeAllPromise
 ;
 }
-(
-)
+params
 =
 >
 {
@@ -2189,8 +2179,7 @@ cookie
 ;
 }
 }
-(
-)
+params
 =
 >
 {
@@ -2300,7 +2289,11 @@ await
 runTest
 (
 async
+(
 params
+observeAllPromise
+apply
+)
 =
 >
 {
@@ -2396,8 +2389,7 @@ cookie
 )
 ;
 }
-(
-)
+params
 =
 >
 {

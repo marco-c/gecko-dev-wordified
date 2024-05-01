@@ -762,6 +762,10 @@ false
 function
 onError
 (
+.
+.
+.
+args
 )
 {
 called

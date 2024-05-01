@@ -3434,6 +3434,7 @@ _buildEngineDropDown
 (
 list
 currentEngine
+isPrivate
 )
 {
 /
@@ -7824,6 +7825,7 @@ selection
 null
 getRowProperties
 (
+index
 )
 {
 return
@@ -7905,6 +7907,7 @@ return
 }
 getColumnProperties
 (
+column
 )
 {
 return
@@ -7914,6 +7917,7 @@ return
 }
 isContainer
 (
+index
 )
 {
 return
@@ -7922,6 +7926,7 @@ false
 }
 isContainerOpen
 (
+index
 )
 {
 return
@@ -7930,6 +7935,7 @@ false
 }
 isContainerEmpty
 (
+index
 )
 {
 return
@@ -7938,6 +7944,7 @@ false
 }
 isSeparator
 (
+index
 )
 {
 return
@@ -7946,6 +7953,7 @@ false
 }
 isSorted
 (
+index
 )
 {
 return
@@ -7954,6 +7962,7 @@ false
 }
 getParentIndex
 (
+index
 )
 {
 return
@@ -7963,6 +7972,8 @@ return
 }
 hasNextSibling
 (
+parentIndex
+index
 )
 {
 return
@@ -7971,6 +7982,7 @@ false
 }
 getLevel
 (
+index
 )
 {
 return
@@ -8043,11 +8055,13 @@ undefined
 }
 toggleOpenState
 (
+index
 )
 {
 }
 cycleHeader
 (
+column
 )
 {
 }
@@ -8058,6 +8072,8 @@ selectionChanged
 }
 cycleCell
 (
+row
+column
 )
 {
 }

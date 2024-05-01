@@ -953,8 +953,7 @@ CFRPageActions
 .
 _fetchLatestAddonVersion
 =
-(
-)
+x
 =
 >
 "
