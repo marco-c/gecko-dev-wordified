@@ -126,10 +126,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -159,7 +156,6 @@ result
 handleError
 (
 resultCode
-placeInfo
 )
 {
 do_throw

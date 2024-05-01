@@ -3552,17 +3552,13 @@ function
 promiseOneObserver
 (
 topic
-callback
 )
 {
 return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

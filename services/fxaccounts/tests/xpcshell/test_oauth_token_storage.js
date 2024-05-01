@@ -499,10 +499,6 @@ prototype
 function
 MockFxAccounts
 (
-device
-=
-{
-}
 )
 {
 return

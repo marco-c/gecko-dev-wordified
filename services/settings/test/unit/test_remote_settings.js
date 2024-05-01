@@ -3489,8 +3489,6 @@ _verifier
 async
 asyncVerifyContentSignature
 (
-serialized
-signature
 )
 {
 called
@@ -3753,8 +3751,6 @@ _verifier
 async
 asyncVerifyContentSignature
 (
-serialized
-signature
 )
 {
 callCount
@@ -4103,8 +4099,6 @@ _verifier
 async
 asyncVerifyContentSignature
 (
-serialized
-signature
 )
 {
 called
@@ -7241,7 +7235,8 @@ on
 "
 sync
 "
-e
+(
+)
 =
 >
 {

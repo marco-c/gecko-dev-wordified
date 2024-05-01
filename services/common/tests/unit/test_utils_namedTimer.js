@@ -259,7 +259,6 @@ now
 function
 callback
 (
-timer
 )
 {
 /
@@ -379,7 +378,6 @@ namedTimer
 function
 callback
 (
-timer
 )
 {
 do_throw

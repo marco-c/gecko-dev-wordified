@@ -747,7 +747,6 @@ obs
 (
 subject
 topic
-data
 )
 =
 >
@@ -1584,7 +1583,6 @@ obs
 (
 subject
 topic
-data
 )
 =
 >

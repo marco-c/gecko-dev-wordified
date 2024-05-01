@@ -420,7 +420,6 @@ callback
 onRequest
 (
 req
-resp
 )
 {
 let

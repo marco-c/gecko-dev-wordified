@@ -511,10 +511,6 @@ _
 =
 function
 (
-some
-debug
-text
-to
 )
 {
 print
@@ -1169,7 +1165,6 @@ getProxyForURI
 function
 getProxyForURI
 (
-aURI
 )
 {
 throw
@@ -1314,7 +1309,6 @@ map
 (
 (
 [
-i
 category
 method
 object

@@ -1276,10 +1276,7 @@ sendTab
 .
 _encrypt
 =
-(
 bytes
-device
-)
 =
 >
 {
@@ -2438,9 +2435,6 @@ sendTab
 handle
 =
 (
-sender
-data
-reason
 )
 =
 >
@@ -2668,9 +2662,6 @@ sendTab
 handle
 =
 (
-sender
-data
-reason
 )
 =
 >

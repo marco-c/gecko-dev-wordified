@@ -5115,7 +5115,6 @@ function
 observe
 (
 subject
-data
 )
 {
 Svc

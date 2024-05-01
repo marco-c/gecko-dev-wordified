@@ -762,7 +762,6 @@ function
 testInstallAddon
 (
 addon
-metadata
 )
 {
 Assert

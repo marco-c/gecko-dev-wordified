@@ -6478,7 +6478,6 @@ Trace
 function
 MockRESTRequest
 (
-url
 )
 {
 }

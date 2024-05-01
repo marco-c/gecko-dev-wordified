@@ -3138,9 +3138,6 @@ on
 sync
 "
 (
-{
-data
-}
 )
 =
 >
@@ -3559,9 +3556,6 @@ on
 sync
 "
 (
-{
-data
-}
 )
 =
 >
@@ -4974,7 +4968,6 @@ async
 asyncVerifyContentSignature
 (
 serialized
-signature
 )
 {
 sigCalls

@@ -716,7 +716,6 @@ recoveryEmailStatus
 async
 function
 (
-sessionToken
 )
 {
 /
@@ -824,7 +823,6 @@ accountKeys
 =
 function
 (
-keyFetchToken
 )
 {
 return
@@ -1112,9 +1110,6 @@ correctly
 function
 MockFxAccounts
 (
-credentials
-=
-null
 )
 {
 let
@@ -2786,7 +2781,8 @@ p
 .
 then
 (
-success
+(
+)
 =
 >
 {
@@ -2801,7 +2797,8 @@ succeed
 )
 ;
 }
-fail
+(
+)
 =
 >
 {
@@ -2878,9 +2875,6 @@ numNotifications
 function
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 numNotifications
@@ -5871,7 +5865,8 @@ getUserAccountData
 .
 then
 (
-user2
+(
+)
 =
 >
 {
@@ -5903,7 +5898,8 @@ user
 .
 then
 (
-user2
+(
+)
 =
 >
 {
@@ -5921,7 +5917,8 @@ _fetchAndUnwrapAndDeriveKeys
 .
 catch
 (
-error
+(
+)
 =
 >
 {
@@ -7821,7 +7818,6 @@ async
 (
 _sessionTokenHex
 _clientId
-scopeString
 )
 =
 >

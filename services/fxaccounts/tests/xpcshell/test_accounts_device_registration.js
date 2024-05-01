@@ -465,7 +465,6 @@ recoveryEmailStatus
 =
 function
 (
-sessionToken
 )
 {
 /
@@ -647,7 +646,6 @@ registerDevice
 (
 st
 name
-type
 )
 =
 >
@@ -4484,7 +4482,6 @@ checkEmailStatus
 async
 function
 (
-sessionToken
 )
 {
 credentials
@@ -5235,9 +5232,6 @@ count
 0
 observe
 (
-subject
-topic
-data
 )
 {
 this

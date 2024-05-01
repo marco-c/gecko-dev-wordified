@@ -364,8 +364,6 @@ error
 "
 function
 (
-subject
-data
 )
 {
 threw

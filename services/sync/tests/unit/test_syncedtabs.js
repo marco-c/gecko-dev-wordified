@@ -534,7 +534,6 @@ fxaDeviceId
 }
 getClientType
 (
-id
 )
 {
 return

@@ -335,8 +335,6 @@ shorthand
 async
 get
 (
-uid
-email
 )
 {
 this

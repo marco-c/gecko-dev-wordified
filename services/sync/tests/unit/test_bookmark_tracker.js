@@ -4993,10 +4993,6 @@ favicons
 .
 FAVICON_LOAD_NON_PRIVATE
 (
-uri
-dataLen
-data
-mimeType
 )
 =
 >

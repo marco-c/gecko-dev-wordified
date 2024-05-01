@@ -821,7 +821,8 @@ _fetchAndCacheProfile
 .
 then
 (
-result
+(
+)
 =
 >
 {
@@ -835,7 +836,8 @@ succeed
 )
 ;
 }
-err
+(
+)
 =
 >
 {
@@ -966,7 +968,8 @@ _fetchAndCacheProfile
 .
 then
 (
-result
+(
+)
 =
 >
 {
@@ -1720,7 +1723,6 @@ _cacheProfile
 =
 function
 (
-toCache
 )
 {
 do_throw
@@ -3666,9 +3668,6 @@ makeObserver
 ON_PROFILE_CHANGE_NOTIFICATION
 function
 (
-subject
-topic
-data
 )
 {
 profile

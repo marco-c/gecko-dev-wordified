@@ -348,7 +348,6 @@ keys
 {
 getKeyForScope
 (
-scope
 )
 {
 return

@@ -4588,8 +4588,6 @@ onCollectionDeleted
 function
 onCollectionDeleted
 (
-user
-collection
 )
 {
 }
@@ -4598,9 +4596,6 @@ onItemDeleted
 function
 onItemDeleted
 (
-user
-collection
-wboID
 )
 {
 }
@@ -4694,8 +4689,6 @@ onRequest
 function
 onRequest
 (
-request
-response
 )
 {
 }
