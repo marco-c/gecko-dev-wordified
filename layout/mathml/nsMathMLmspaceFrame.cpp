@@ -656,14 +656,6 @@ status
 "
 )
 ;
-mPresentationData
-.
-flags
-&
-=
-~
-NS_MATHML_ERROR
-;
 ProcessAttributes
 (
 aPresContext

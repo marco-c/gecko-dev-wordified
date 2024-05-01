@@ -793,14 +793,6 @@ status
 "
 )
 ;
-mPresentationData
-.
-flags
-&
-=
-~
-NS_MATHML_ERROR
-;
 /
 /
 initializations
