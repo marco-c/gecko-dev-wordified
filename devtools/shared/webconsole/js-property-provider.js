@@ -4123,6 +4123,15 @@ prop
 =
 +
 prop
+|
+|
+prop
+=
+=
+=
+"
+Infinity
+"
 )
 {
 matches
