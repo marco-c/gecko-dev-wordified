@@ -24,7 +24,6 @@ async
 def
 test_params_empty
 (
-bidi_session
 send_blocking_command
 )
 :
@@ -79,7 +78,6 @@ def
 test_params_events_invalid_type
 (
 bidi_session
-send_blocking_command
 value
 )
 :
@@ -94,20 +92,15 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-{
-"
+(
 events
-"
-:
+=
 value
-}
 )
 pytest
 .
@@ -122,8 +115,15 @@ bidi_session
 )
 :
     
-response
-=
+with
+pytest
+.
+raises
+(
+InvalidArgumentException
+)
+:
+        
 await
 bidi_session
 .
@@ -136,13 +136,6 @@ events
 [
 ]
 )
-    
-assert
-response
-=
-=
-{
-}
 pytest
 .
 mark
@@ -171,7 +164,7 @@ async
 def
 test_params_events_value_invalid_type
 (
-send_blocking_command
+bidi_session
 value
 )
 :
@@ -186,22 +179,17 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-{
-"
+(
 events
-"
-:
+=
 [
 value
 ]
-}
 )
 pytest
 .
@@ -234,7 +222,7 @@ async
 def
 test_params_events_value_invalid_event_name
 (
-send_blocking_command
+bidi_session
 value
 )
 :
@@ -249,22 +237,17 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-{
-"
+(
 events
-"
-:
+=
 [
 value
 ]
-}
 )
 pytest
 .
@@ -278,7 +261,6 @@ test_params_events_value_valid_and_invalid_event_name
     
 bidi_session
 subscribe_events
-send_blocking_command
 wait_for_event
 wait_for_future_safe
 top_context
@@ -328,20 +310,16 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-{
-"
+(
 events
-"
-:
+=
 [
+            
 "
 log
 .
@@ -353,8 +331,6 @@ some
 invalidEvent
 "
 ]
-}
-        
 )
     
 #
@@ -422,6 +398,7 @@ bidi_session
 .
 add_event_listener
 (
+        
 "
 log
 .
@@ -481,7 +458,6 @@ test_unsubscribe_from_one_event_and_then_from_module
     
 bidi_session
 subscribe_events
-send_blocking_command
 )
 :
     
@@ -539,26 +515,19 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-{
-"
+(
 events
-"
-:
+=
 [
 "
 browsingContext
 "
 ]
-}
-        
 )
     
 #
@@ -634,7 +603,6 @@ def
 test_params_contexts_invalid_type
 (
 bidi_session
-send_blocking_command
 value
 )
 :
@@ -649,32 +617,24 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-            
-{
-                
-"
+(
 events
-"
-:
+=
 [
+"
+browsingContext
+.
+load
+"
 ]
-                
-"
 contexts
-"
-:
+=
 value
-            
-}
-        
 )
 pytest
 .
@@ -689,8 +649,15 @@ bidi_session
 )
 :
     
-response
-=
+with
+pytest
+.
+raises
+(
+InvalidArgumentException
+)
+:
+        
 await
 bidi_session
 .
@@ -701,19 +668,17 @@ unsubscribe
 events
 =
 [
+"
+browsingContext
+.
+load
+"
 ]
 contexts
 =
 [
 ]
 )
-    
-assert
-response
-=
-=
-{
-}
 pytest
 .
 mark
@@ -742,7 +707,7 @@ async
 def
 test_params_contexts_value_invalid_type
 (
-send_blocking_command
+bidi_session
 value
 )
 :
@@ -757,34 +722,26 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-            
-{
-                
-"
+(
 events
-"
-:
+=
 [
+"
+browsingContext
+.
+load
+"
 ]
-                
-"
 contexts
-"
-:
+=
 [
 value
 ]
-            
-}
-        
 )
 pytest
 .
@@ -795,7 +752,7 @@ async
 def
 test_params_contexts_value_invalid_value
 (
-send_blocking_command
+bidi_session
 )
 :
     
@@ -809,36 +766,28 @@ NoSuchFrameException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-            
-{
-                
-"
+(
 events
-"
-:
+=
 [
+"
+browsingContext
+.
+load
+"
 ]
-                
-"
 contexts
-"
-:
+=
 [
 "
 foo
 "
 ]
-            
-}
-        
 )
 pytest
 .
@@ -852,7 +801,6 @@ test_params_contexts_value_valid_and_invalid_value
     
 bidi_session
 subscribe_events
-send_blocking_command
 wait_for_event
 wait_for_future_safe
 top_context
@@ -912,20 +860,14 @@ NoSuchFrameException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-            
-{
-"
+(
 events
-"
-:
+=
 [
 "
 log
@@ -933,10 +875,8 @@ log
 entryAdded
 "
 ]
-"
 contexts
-"
-:
+=
 [
 top_context
 [
@@ -948,8 +888,6 @@ context
 foo
 "
 ]
-}
-        
 )
     
 #
@@ -1017,6 +955,7 @@ bidi_session
 .
 add_event_listener
 (
+        
 "
 log
 .
@@ -1076,7 +1015,6 @@ test_unsubscribe_from_closed_tab
     
 bidi_session
 subscribe_events
-send_blocking_command
 )
 :
     
@@ -1163,20 +1101,14 @@ NoSuchFrameException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-            
-{
-"
+(
 events
-"
-:
+=
 [
 "
 log
@@ -1184,10 +1116,8 @@ log
 entryAdded
 "
 ]
-"
 contexts
-"
-:
+=
 [
 new_tab
 [
@@ -1196,8 +1126,6 @@ context
 "
 ]
 ]
-}
-        
 )
 pytest
 .
@@ -1208,7 +1136,7 @@ async
 def
 test_params_unsubscribe_globally_without_subscription
 (
-send_blocking_command
+bidi_session
 )
 :
     
@@ -1222,19 +1150,14 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-{
-"
+(
 events
-"
-:
+=
 [
 "
 log
@@ -1242,8 +1165,6 @@ log
 entryAdded
 "
 ]
-}
-        
 )
 pytest
 .
@@ -1256,7 +1177,7 @@ test_params_unsubscribe_globally_with_individual_subscription
 (
     
 subscribe_events
-send_blocking_command
+bidi_session
 top_context
 )
 :
@@ -1307,19 +1228,14 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-{
-"
+(
 events
-"
-:
+=
 [
 "
 log
@@ -1327,8 +1243,6 @@ log
 entryAdded
 "
 ]
-}
-        
 )
 pytest
 .
@@ -1340,7 +1254,7 @@ def
 test_params_unsubscribe_from_one_context_without_subscription
 (
     
-send_blocking_command
+bidi_session
 top_context
 )
 :
@@ -1355,20 +1269,14 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-            
-{
-"
+(
 events
-"
-:
+=
 [
 "
 log
@@ -1376,10 +1284,8 @@ log
 entryAdded
 "
 ]
-"
 contexts
-"
-:
+=
 [
 top_context
 [
@@ -1388,8 +1294,6 @@ context
 "
 ]
 ]
-}
-        
 )
 pytest
 .
@@ -1402,7 +1306,7 @@ test_params_unsubscribe_from_one_context_with_global_subscription
 (
     
 subscribe_events
-send_blocking_command
+bidi_session
 top_context
 )
 :
@@ -1445,20 +1349,14 @@ InvalidArgumentException
 :
         
 await
-send_blocking_command
-(
-            
-"
+bidi_session
+.
 session
 .
 unsubscribe
-"
-            
-{
-"
+(
 events
-"
-:
+=
 [
 "
 log
@@ -1466,10 +1364,8 @@ log
 entryAdded
 "
 ]
-"
 contexts
-"
-:
+=
 [
 top_context
 [
@@ -1478,6 +1374,4 @@ context
 "
 ]
 ]
-}
-        
 )
