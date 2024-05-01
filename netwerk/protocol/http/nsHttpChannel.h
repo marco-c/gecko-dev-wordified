@@ -3841,6 +3841,11 @@ PerformBackgroundCacheRevalidationNow
 (
 )
 ;
+void
+SetPriorityHeader
+(
+)
+;
 private
 :
 nsCOMPtr
