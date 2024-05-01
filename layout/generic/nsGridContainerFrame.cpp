@@ -319,6 +319,13 @@ h
 #
 include
 "
+nsGfxScrollFrame
+.
+h
+"
+#
+include
+"
 nsHashKeys
 .
 h
@@ -28381,10 +28388,12 @@ mFrame
 subgridFrame
 )
 {
-nsIScrollableFrame
+nsHTMLScrollFrame
 *
 scrollFrame
 =
+do_QueryFrame
+(
 aGridItem
 .
 mFrame
@@ -28392,6 +28401,7 @@ mFrame
 >
 GetScrollTargetFrame
 (
+)
 )
 ;
 if
@@ -28495,7 +28505,7 @@ ssz
 scrollFrame
 -
 >
-GetActualScrollbarSizes
+IntrinsicScrollbarGutterSize
 (
 )
 ;
