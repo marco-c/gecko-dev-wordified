@@ -852,10 +852,7 @@ facingString
 dom
 :
 :
-VideoFacingModeEnumValues
-:
-:
-GetString
+GetEnumString
 (
 *
 facingMode
