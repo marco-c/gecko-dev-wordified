@@ -159,6 +159,8 @@ telemetryId
 amazondotcom
 -
 us
+-
+adm
 "
 aliases
 :
@@ -183,6 +185,15 @@ us
 noSuggestionsURL
 :
 true
+searchUrlCode
+:
+"
+tag
+=
+admarketus
+-
+20
+"
 }
 ]
 }
@@ -325,6 +336,8 @@ telemetryId
 amazondotcom
 -
 us
+-
+adm
 "
 )
 ;
@@ -335,6 +348,11 @@ telemetryId
 "
 amazondotcom
 "
+;
+delete
+details
+.
+searchUrlCode
 ;
 await
 test
