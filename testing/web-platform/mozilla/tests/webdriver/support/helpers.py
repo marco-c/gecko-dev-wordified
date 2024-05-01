@@ -1844,10 +1844,17 @@ def
 read_user_preferences
 (
 profile_path
+filename
+=
+"
+user
+.
+js
+"
 )
 :
     
-user_js
+prefs_file
 =
 os
 .
@@ -1856,11 +1863,7 @@ path
 join
 (
 profile_path
-"
-user
-.
-js
-"
+filename
 )
     
 prefs
@@ -1878,7 +1881,7 @@ Preferences
 .
 read_prefs
 (
-user_js
+prefs_file
 )
 :
         
