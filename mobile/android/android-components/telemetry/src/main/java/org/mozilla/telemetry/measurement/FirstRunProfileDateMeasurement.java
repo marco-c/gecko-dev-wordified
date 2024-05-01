@@ -182,7 +182,7 @@ ensureValueExists
 )
 ;
 }
-private
+VisibleForTesting
 void
 ensureValueExists
 (
