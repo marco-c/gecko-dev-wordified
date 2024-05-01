@@ -1879,13 +1879,16 @@ check_call
 (
             
 [
+                
 str
 (
 git
 )
+                
 "
 checkout
 "
+                
 "
 FETCH_HEAD
 "
@@ -1897,10 +1900,12 @@ bookmarks
 /
 central
 "
+                
 "
 -
 -
 "
+            
 ]
             
 cwd
