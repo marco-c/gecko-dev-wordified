@@ -1160,7 +1160,7 @@ IsSafeToRunScript
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoActorName
 (
 CrashReporter
@@ -1180,7 +1180,7 @@ actorName
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoMessageName
 (
 CrashReporter
@@ -1830,7 +1830,7 @@ IsSafeToRunScript
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoMessageName
 (
 CrashReporter
@@ -1901,7 +1901,7 @@ Values
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoActorName
 (
 CrashReporter

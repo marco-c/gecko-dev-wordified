@@ -1369,7 +1369,7 @@ mMutex
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationBool
 (
 CrashReporter
 :

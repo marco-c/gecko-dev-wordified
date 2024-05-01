@@ -1436,7 +1436,7 @@ Clear
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -1448,7 +1448,6 @@ UtilityProcessStatus
 "
 Running
 "
-_ns
 )
 ;
 return
@@ -3655,7 +3654,7 @@ nullptr
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -3667,7 +3666,6 @@ UtilityProcessStatus
 "
 Destroyed
 "
-_ns
 )
 ;
 if

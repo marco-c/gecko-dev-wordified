@@ -519,7 +519,7 @@ value
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -532,7 +532,6 @@ IPCReadErrorReason
 Bad
 iter
 "
-_ns
 )
 ;
 return
@@ -555,7 +554,7 @@ value
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -568,7 +567,6 @@ IPCReadErrorReason
 Illegal
 value
 "
-_ns
 )
 ;
 return

@@ -2043,7 +2043,7 @@ us
 CrashReporter
 :
 :
-AnnotateCrashReport
+AutoRecordAnnotation
 (
 CrashReporter
 :

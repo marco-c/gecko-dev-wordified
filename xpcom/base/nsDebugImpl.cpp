@@ -2568,7 +2568,7 @@ mozilla
 .
 org
 .
-nsCString
+nsAutoCString
 note
 (
 "
@@ -2602,7 +2602,7 @@ note
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -2611,12 +2611,7 @@ Annotation
 :
 :
 AbortMessage
-nsDependentCString
-(
-nonPIDBuf
-.
-buffer
-)
+note
 )
 ;
 }

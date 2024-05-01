@@ -5141,7 +5141,7 @@ mCrashReporter
 mCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationBool
 (
 CrashReporter
 :
@@ -5156,7 +5156,7 @@ true
 mCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationNSCString
 (
 CrashReporter
 :
@@ -5174,7 +5174,7 @@ mName
 mCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationNSCString
 (
 CrashReporter
 :
@@ -5189,7 +5189,7 @@ mDisplayName
 mCrashReporter
 -
 >
-AddAnnotation
+AddAnnotationNSCString
 (
 CrashReporter
 :

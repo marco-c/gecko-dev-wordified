@@ -1712,7 +1712,7 @@ mPluginPath
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSString
 (
 \
 CrashReporter
@@ -1722,11 +1722,7 @@ Annotation
 :
 :
 GMPLibraryPath
-\
-NS_ConvertUTF16toUTF8
-(
 path
-)
 )
 ;
 \
@@ -3634,7 +3630,7 @@ libPath
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -3916,7 +3912,7 @@ platformAPI
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :
@@ -4903,7 +4899,7 @@ profiler_is_active
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -4919,7 +4915,6 @@ Profiling
 -
 GrabShutdownProfileAndShutdown
 "
-_ns
 :
 "
 Not
@@ -4927,7 +4922,6 @@ profiling
 -
 GrabShutdownProfileAndShutdown
 "
-_ns
 )
 ;
 ProfileAndAdditionalInformation
@@ -4943,7 +4937,7 @@ GrabShutdownProfileAndShutdown
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -4960,7 +4954,6 @@ Profiling
 Destroying
 ChildProfilerController
 "
-_ns
 :
 "
 Not
@@ -4969,7 +4962,6 @@ profiling
 Destroying
 ChildProfilerController
 "
-_ns
 )
 ;
 mProfilerController
@@ -4979,7 +4971,7 @@ nullptr
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -4998,7 +4990,6 @@ SendShutdownProfile
 resovling
 )
 "
-_ns
 :
 "
 Not
@@ -5009,7 +5000,6 @@ SendShutdownProfile
 resolving
 )
 "
-_ns
 )
 ;
 if
@@ -5125,7 +5115,7 @@ mProfile
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 CrashReporter
 :
@@ -5144,7 +5134,6 @@ SendShutdownProfile
 resolved
 )
 "
-_ns
 :
 "
 Not
@@ -5155,7 +5144,6 @@ SendShutdownProfile
 resolved
 )
 "
-_ns
 )
 ;
 return

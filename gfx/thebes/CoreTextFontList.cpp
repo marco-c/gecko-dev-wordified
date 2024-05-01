@@ -3602,7 +3602,7 @@ mFontRef
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoFontName
 (
 CrashReporter
@@ -4581,7 +4581,7 @@ mHasAATSmallCaps
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoFontName
 (
 CrashReporter
@@ -8911,7 +8911,7 @@ mLock
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoFontName
 (
 CrashReporter
@@ -9450,7 +9450,7 @@ nullptr
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoFontName
 (
 CrashReporter
@@ -9820,7 +9820,7 @@ aFamilyName
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoFontName
 (
 CrashReporter
@@ -11138,7 +11138,7 @@ SharedFontList
 CrashReporter
 :
 :
-AutoAnnotateCrashReport
+AutoRecordAnnotation
 autoFontName
 (
 CrashReporter

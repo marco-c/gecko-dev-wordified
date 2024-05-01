@@ -1144,7 +1144,7 @@ mType
 CrashReporter
 :
 :
-RemoveCrashReportAnnotation
+UnrecordAnnotation
 (
 CrashReporter
 :
@@ -1359,7 +1359,7 @@ Proxy
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationBool
 (
 CrashReporter
 :

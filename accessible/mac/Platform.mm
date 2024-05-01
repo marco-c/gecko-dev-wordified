@@ -1768,7 +1768,7 @@ MOZ_TELEMETRY_REPORTING
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSCString
 (
 CrashReporter
 :

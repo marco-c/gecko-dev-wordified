@@ -12223,15 +12223,12 @@ JSLargeAllocationFailure
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationCString
 (
 annotation
-nsDependentCString
-(
 OOMStateToString
 (
 aNewState
-)
 )
 )
 ;

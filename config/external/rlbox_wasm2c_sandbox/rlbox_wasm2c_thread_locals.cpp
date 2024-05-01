@@ -313,7 +313,7 @@ else
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationBool
 (
 CrashReporter
 :

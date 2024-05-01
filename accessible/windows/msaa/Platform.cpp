@@ -1263,7 +1263,7 @@ MOZ_TELEMETRY_REPORTING
 CrashReporter
 :
 :
-AnnotateCrashReport
+RecordAnnotationNSString
 (
 CrashReporter
 :
@@ -1272,10 +1272,7 @@ Annotation
 :
 :
 AccessibilityClient
-NS_ConvertUTF16toUTF8
-(
 aValue
-)
 )
 ;
 }
