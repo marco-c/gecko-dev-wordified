@@ -4117,7 +4117,9 @@ in
 *
 GCTelemetry
 .
-jsm
+sys
+.
+mjs
 in
 sync
 .
