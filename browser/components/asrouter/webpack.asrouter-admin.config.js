@@ -263,6 +263,10 @@ js
 .
 jsx
 "
+"
+.
+mjs
+"
 ]
 alias
 :
