@@ -804,10 +804,7 @@ Dispatch
 (
 NewRunnableMethod
 <
-StoreCopyPassByLRef
-<
 FrameToProcess
->
 >
 (
 "
@@ -1001,10 +998,7 @@ Dispatch
 (
 NewRunnableMethod
 <
-StoreCopyPassByLRef
-<
 FrameToProcess
->
 >
 (
 "
@@ -1994,10 +1988,7 @@ Dispatch
 (
 NewRunnableMethod
 <
-StoreCopyPassByLRef
-<
 FrameToProcess
->
 >
 (
 "
