@@ -314,7 +314,10 @@ in
 milliseconds
 .
 virtual
-DurationMs
+webrtc
+:
+:
+TimeDelta
 current_rto
 (
 )

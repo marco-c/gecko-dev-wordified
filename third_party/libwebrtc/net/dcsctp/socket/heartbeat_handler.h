@@ -408,7 +408,10 @@ is
 sent
 .
 const
-DurationMs
+webrtc
+:
+:
+TimeDelta
 interval_duration_
 ;
 /

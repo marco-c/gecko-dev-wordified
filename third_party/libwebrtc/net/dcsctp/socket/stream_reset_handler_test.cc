@@ -557,10 +557,13 @@ kArwnd
 131072
 ;
 constexpr
-DurationMs
+TimeDelta
 kRto
 =
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 250
 )
@@ -1020,7 +1023,10 @@ callbacks_
 .
 AdvanceTime
 (
+DurationMs
+(
 kRto
+)
 )
 ;
 for
@@ -5424,7 +5430,10 @@ Times
 ;
 AdvanceTime
 (
+DurationMs
+(
 kRto
+)
 )
 ;
 std
