@@ -2988,6 +2988,16 @@ redirect_targets
 "
 "
 ]
+[
+"
+media
+.
+peerconnection
+.
+treat_warnings_as_errors
+"
+true
+]
 ]
 }
 ;

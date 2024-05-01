@@ -2487,9 +2487,6 @@ this
 .
 originalAnswer
 =
-new
-RTCSessionDescription
-(
 JSON
 .
 parse
@@ -2499,7 +2496,6 @@ JSON
 stringify
 (
 answer
-)
 )
 )
 ;
@@ -2593,9 +2589,6 @@ this
 .
 originalOffer
 =
-new
-RTCSessionDescription
-(
 JSON
 .
 parse
@@ -2605,7 +2598,6 @@ JSON
 stringify
 (
 offer
-)
 )
 )
 ;
