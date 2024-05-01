@@ -1889,7 +1889,8 @@ const
 timeUpdateHandler
 =
 async
-ev
+(
+)
 =
 >
 {
@@ -2100,7 +2101,8 @@ const
 startPlaybackHandler
 =
 async
-ev
+(
+)
 =
 >
 {
@@ -2156,7 +2158,8 @@ addEventListener
 error
 "
 async
-err
+(
+)
 =
 >
 {

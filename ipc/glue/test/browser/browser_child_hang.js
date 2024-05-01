@@ -191,7 +191,6 @@ true
 async
 function
 (
-browser
 )
 {
 /
