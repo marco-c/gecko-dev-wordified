@@ -37,22 +37,19 @@ async
 def
 test_bidi_session_status
 (
-send_blocking_command
+bidi_session
 )
 :
     
 response
 =
 await
-send_blocking_command
-(
-"
+bidi_session
+.
 session
 .
 status
-"
-{
-}
+(
 )
     
 assert
