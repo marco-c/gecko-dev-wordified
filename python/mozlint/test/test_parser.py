@@ -383,6 +383,12 @@ yml
 "
         
 "
+invalid_ext_and_exclude_ext
+.
+yml
+"
+        
+"
 missing_attrs
 .
 yml
