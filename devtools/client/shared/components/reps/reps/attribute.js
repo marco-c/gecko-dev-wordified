@@ -137,6 +137,7 @@ factories
 Reps
 const
 {
+appendRTLClassNameIfNeeded
 getGripType
 wrapRender
 }
@@ -269,9 +270,13 @@ span
 {
 className
 :
+appendRTLClassNameIfNeeded
+(
 "
 attrName
 "
+attrName
+)
 }
 attrName
 )
