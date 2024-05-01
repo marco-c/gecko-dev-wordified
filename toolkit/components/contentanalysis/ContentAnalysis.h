@@ -499,6 +499,11 @@ ContentAnalysis
 (
 )
 ;
+nsCString
+GetUserActionId
+(
+)
+;
 private
 :
 ~
@@ -561,6 +566,8 @@ nsIContentAnalysisRequest
 aRequest
 bool
 aAutoAcknowledge
+int64_t
+aRequestCount
 const
 RefPtr
 <
@@ -589,6 +596,11 @@ nsCString
 aRequestToken
 nsresult
 aResult
+)
+;
+void
+GenerateUserActionId
+(
 )
 ;
 static
@@ -655,6 +667,14 @@ Client
 nsresult
 false
 >
+;
+nsCString
+mUserActionId
+;
+int64_t
+mRequestCount
+=
+0
 ;
 RefPtr
 <
