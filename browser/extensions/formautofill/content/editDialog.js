@@ -583,13 +583,6 @@ Handle
 input
 events
 *
-*
-param
-{
-DOMEvent
-}
-event
-*
 /
 handleInput
 (
