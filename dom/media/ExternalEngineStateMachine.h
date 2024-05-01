@@ -635,8 +635,6 @@ private
 ExternalEngineStateMachine
 (
 )
-=
-default
 ;
 void
 AssertOnTaskQueue
@@ -1887,6 +1885,16 @@ MediaResult
 aError
 )
 ;
+void
+DecodeError
+(
+const
+MediaResult
+&
+aError
+)
+override
+;
 UniquePtr
 <
 ExternalPlaybackEngine
@@ -2023,6 +2031,11 @@ nsIRunnable
 >
 >
 mPendingTasks
+;
+bool
+mHasFatalError
+=
+false
 ;
 }
 ;
