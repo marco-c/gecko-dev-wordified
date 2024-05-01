@@ -521,6 +521,10 @@ clean
 =
 False
         
+screenshot_on_failure
+=
+False
+        
 *
 *
 kwargs
@@ -804,6 +808,12 @@ clean
 "
 :
 clean
+            
+"
+screenshot_on_failure
+"
+:
+screenshot_on_failure
         
 }
         
