@@ -1936,7 +1936,7 @@ Elements
 ;
 frame
 .
-GetInverseWithoutScaling
+GetInverse
 (
 data
 )
