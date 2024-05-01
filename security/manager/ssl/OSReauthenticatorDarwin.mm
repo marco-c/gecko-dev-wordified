@@ -124,7 +124,9 @@ h
 #
 include
 "
-nsCocoaUtils
+mozilla
+/
+MacStringHelpers
 .
 h
 "
@@ -253,10 +255,10 @@ NSString
 *
 prompt
 =
-nsCocoaUtils
+mozilla
 :
 :
-ToNSString
+XPCOMStringToNSString
 (
 aPrompt
 )
