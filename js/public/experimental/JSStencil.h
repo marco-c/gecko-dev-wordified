@@ -521,6 +521,7 @@ namespace
 JS
 {
 struct
+JS_PUBLIC_API
 CompilationStorage
 ;
 using
