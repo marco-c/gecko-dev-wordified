@@ -28900,7 +28900,7 @@ First
 (
 BCMapCellInfo
 &
-aMapCellInfo
+aMapInfo
 )
 ;
 void
@@ -28908,7 +28908,7 @@ Next
 (
 BCMapCellInfo
 &
-aMapCellInfo
+aMapInfo
 )
 ;
 void
@@ -28918,7 +28918,7 @@ const
 BCMapCellInfo
 &
 aRefInfo
-uint32_t
+int32_t
 aRowIndex
 BCMapCellInfo
 &
@@ -28932,7 +28932,7 @@ const
 BCMapCellInfo
 &
 aRefInfo
-uint32_t
+int32_t
 aColIndex
 BCMapCellInfo
 &
@@ -30720,7 +30720,7 @@ const
 BCMapCellInfo
 &
 aRefInfo
-uint32_t
+int32_t
 aRowIndex
 BCMapCellInfo
 &
@@ -30730,13 +30730,7 @@ aAjaInfo
 PeekIAt
 (
 aRefInfo
-static_cast
-<
-int32_t
->
-(
 aRowIndex
-)
 aRefInfo
 .
 mColIndex
@@ -30758,7 +30752,7 @@ const
 BCMapCellInfo
 &
 aRefInfo
-uint32_t
+int32_t
 aColIndex
 BCMapCellInfo
 &
@@ -31052,11 +31046,17 @@ IsColSpan
 aColIndex
 -
 =
+static_cast
+<
+int32_t
+>
+(
 cellData
 -
 >
 GetColSpanOffset
 (
+)
 )
 ;
 cellData
