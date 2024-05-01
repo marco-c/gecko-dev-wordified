@@ -717,6 +717,11 @@ Pref
 pref
 )
 ;
+async
+ScreenInformationChanged
+(
+)
+;
 /
 /
 Create
