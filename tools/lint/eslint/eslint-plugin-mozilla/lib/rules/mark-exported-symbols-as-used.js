@@ -323,7 +323,6 @@ return
 AssignmentExpression
 (
 node
-parents
 )
 {
 if
@@ -402,7 +401,6 @@ right
 VariableDeclaration
 (
 node
-parents
 )
 {
 if

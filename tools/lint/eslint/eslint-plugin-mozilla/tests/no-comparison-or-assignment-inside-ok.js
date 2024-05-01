@@ -423,10 +423,6 @@ invalidCode
 code
 output
 messageId
-options
-=
-[
-]
 )
 {
 let

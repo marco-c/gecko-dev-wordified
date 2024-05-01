@@ -283,7 +283,6 @@ spawn
 :
 function
 (
-node
 )
 {
 /
@@ -377,7 +376,6 @@ spawn
 :
 function
 (
-node
 )
 {
 for
@@ -499,7 +497,6 @@ spawnChrome
 :
 function
 (
-node
 )
 {
 for

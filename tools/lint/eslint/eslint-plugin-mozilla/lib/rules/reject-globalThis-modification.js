@@ -320,7 +320,6 @@ return
 AssignmentExpression
 (
 node
-parents
 )
 {
 let
