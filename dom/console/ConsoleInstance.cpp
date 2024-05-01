@@ -453,13 +453,11 @@ SetLogLevel
 return
 ;
 }
-CopyUTF16toUTF8
-(
+mMaxLogLevelPref
+=
 aOptions
 .
 mMaxLogLevelPref
-mMaxLogLevelPref
-)
 ;
 Preferences
 :
