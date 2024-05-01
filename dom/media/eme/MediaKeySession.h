@@ -272,6 +272,13 @@ MediaKeyError
 class
 MediaKeyStatusMap
 ;
+nsCString
+ToCString
+(
+MediaKeySessionType
+aType
+)
+;
 nsString
 ToString
 (

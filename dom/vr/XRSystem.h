@@ -635,6 +635,9 @@ Promise
 >
 RequestSession
 (
+JSContext
+*
+aCx
 XRSessionMode
 aMode
 const

@@ -1294,14 +1294,11 @@ static
 EnumeratedArray
 <
 txEXSLTType
-txEXSLTFunctionDescriptor
-size_t
-(
 txEXSLTType
 :
 :
 _LIMIT
-)
+txEXSLTFunctionDescriptor
 >
 descriptTable
 ;

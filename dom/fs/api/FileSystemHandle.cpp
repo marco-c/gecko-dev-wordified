@@ -1457,7 +1457,16 @@ DirectoryHandle
 uint32_t
 kind
 =
-UINT32_MAX
+static_cast
+<
+uint32_t
+>
+(
+FileSystemHandleKind
+:
+:
+EndGuard_
+)
 ;
 if
 (

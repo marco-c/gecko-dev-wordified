@@ -1664,14 +1664,11 @@ TrapSiteVectorArray
 EnumeratedArray
 <
 Trap
-TrapSiteVector
-size_t
-(
 Trap
 :
 :
 Limit
-)
+TrapSiteVector
 >
 {
 bool

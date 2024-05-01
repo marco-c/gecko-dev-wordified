@@ -1806,7 +1806,10 @@ Value
 .
 AssignASCII
 (
-GetEnumString
+VideoFacingModeEnumValues
+:
+:
+GetString
 (
 VideoFacingModeEnum
 :

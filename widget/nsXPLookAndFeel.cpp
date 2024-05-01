@@ -486,11 +486,8 @@ mozilla
 EnumeratedArray
 <
 Index
-Value
-size_t
-(
 kEnd
-)
+Value
 >
 mEntries
 ;

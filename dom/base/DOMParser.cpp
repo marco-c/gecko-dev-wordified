@@ -1185,9 +1185,15 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
-GetEnumString
+nsDependentCSubstring
+(
+SupportedTypeValues
+:
+:
+GetString
 (
 aType
+)
 )
 )
 ;

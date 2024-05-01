@@ -965,14 +965,11 @@ mozilla
 EnumeratedArray
 <
 Annotation
-nsCString
-size_t
-(
 Annotation
 :
 :
 Count
-)
+nsCString
 >
 AnnotationTable
 ;

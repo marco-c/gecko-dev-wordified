@@ -8304,14 +8304,11 @@ mozilla
 EnumeratedArray
 <
 nsLayoutPhase
-uint32_t
-size_t
-(
 nsLayoutPhase
 :
 :
 COUNT
-)
+uint32_t
 >
 mLayoutPhaseCount
 ;

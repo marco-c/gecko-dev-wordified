@@ -1037,14 +1037,11 @@ this
 EnumeratedArray
 <
 FileKind
-Entry
-size_t
-(
 FileKind
 :
 :
 Count
-)
+Entry
 >
 mEntries
 ;

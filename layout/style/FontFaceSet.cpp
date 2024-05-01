@@ -2946,6 +2946,12 @@ MightHavePendingFontLoads
 (
 )
 !
+case
+FontFaceLoadStatus
+:
+:
+EndGuard_
+:
 MOZ_ASSERT_UNREACHABLE
 (
 "
