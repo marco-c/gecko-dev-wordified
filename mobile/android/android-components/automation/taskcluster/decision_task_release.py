@@ -397,8 +397,6 @@ no
 daemon
 clean
 test
-detekt
-ktlint
 '
                  
 +
