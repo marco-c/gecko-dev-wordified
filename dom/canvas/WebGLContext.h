@@ -3991,7 +3991,7 @@ loc
 bool
 transpose
 const
-Span
+Range
 <
 const
 webgl
@@ -7259,7 +7259,7 @@ ValidateInvalidateFramebuffer
 GLenum
 target
 const
-Span
+Range
 <
 const
 GLenum

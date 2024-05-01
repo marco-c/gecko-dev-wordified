@@ -5170,7 +5170,7 @@ public
 :
 Maybe
 <
-Span
+Range
 <
 uint8_t
 >
@@ -6391,7 +6391,7 @@ webgl
 :
 ReadPixelsDesc
 &
-Span
+Range
 <
 uint8_t
 >
