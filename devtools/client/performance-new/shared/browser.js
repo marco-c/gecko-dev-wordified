@@ -1297,7 +1297,14 @@ FilePicker
 .
 init
 (
+/
+/
+ts
+-
+ignore
 window
+.
+browsingContext
 "
 Pick
 build
