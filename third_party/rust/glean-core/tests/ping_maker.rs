@@ -161,6 +161,7 @@ store1
 true
 false
 true
+true
 vec
 !
 [
@@ -747,6 +748,7 @@ store1
 true
 false
 true
+true
 vec
 !
 [
@@ -1125,6 +1127,7 @@ unknown
 true
 false
 true
+true
 vec
 !
 [
@@ -1245,6 +1248,7 @@ unknown
 "
 true
 false
+true
 true
 vec
 !
@@ -1413,6 +1417,7 @@ ping_name
 true
 false
 true
+true
 vec
 !
 [
@@ -1514,6 +1519,7 @@ store1
 "
 true
 false
+true
 true
 vec
 !
@@ -1657,6 +1663,7 @@ store2
 true
 false
 true
+true
 vec
 !
 [
@@ -1738,6 +1745,7 @@ store1
 "
 true
 false
+true
 true
 vec
 !
@@ -1851,6 +1859,7 @@ store1
 "
 true
 false
+true
 true
 vec
 !
@@ -2064,6 +2073,7 @@ store1
 true
 true
 true
+true
 vec
 !
 [
@@ -2216,6 +2226,7 @@ new
 "
 store1
 "
+true
 true
 true
 true

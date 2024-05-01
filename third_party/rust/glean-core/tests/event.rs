@@ -1206,6 +1206,7 @@ clone
 true
 false
 true
+true
 vec
 !
 [
@@ -3357,6 +3358,7 @@ to_string
 )
 true
 false
+true
 true
 vec
 !
