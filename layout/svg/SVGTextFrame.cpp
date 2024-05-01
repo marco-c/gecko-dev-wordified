@@ -16369,6 +16369,10 @@ currently
 needed
 by
 MakeFillPattern
+mPaintingShadows
+=
+false
+;
 GeneralPattern
 fillPattern
 ;
