@@ -7319,7 +7319,7 @@ CopyOptimizedBytecode
 array
 -
 >
-GetDataStartAddress
+begin
 (
 )
 )
@@ -7377,7 +7377,7 @@ RegExpBytecodeDisassemble
 array
 -
 >
-GetDataStartAddress
+begin
 (
 )
 peephole
