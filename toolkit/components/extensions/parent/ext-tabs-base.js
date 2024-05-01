@@ -1345,7 +1345,7 @@ property
 {
 string
 |
-null
+undefined
 }
 url
 *
@@ -1366,7 +1366,7 @@ to
 read
 it
 or
-null
+undefined
 otherwise
 .
 *
@@ -1391,6 +1391,9 @@ this
 _url
 ;
 }
+return
+undefined
+;
 }
 /
 *
@@ -1485,7 +1488,7 @@ property
 {
 nsIURI
 |
-null
+undefined
 }
 title
 *
@@ -1506,7 +1509,7 @@ to
 read
 it
 or
-null
+undefined
 otherwise
 .
 *
@@ -1531,6 +1534,9 @@ this
 _title
 ;
 }
+return
+undefined
+;
 }
 /
 *
@@ -1589,7 +1595,7 @@ property
 {
 nsIURI
 |
-null
+undefined
 }
 faviconUrl
 *
@@ -1611,7 +1617,7 @@ to
 read
 it
 or
-null
+undefined
 otherwise
 .
 *
@@ -1636,6 +1642,9 @@ this
 _favIconUrl
 ;
 }
+return
+undefined
+;
 }
 /
 *
@@ -6826,7 +6835,7 @@ property
 {
 nsIURI
 |
-null
+undefined
 }
 title
 *
@@ -6847,7 +6856,7 @@ to
 read
 it
 or
-null
+undefined
 otherwise
 .
 *
@@ -6908,6 +6917,9 @@ this
 _title
 ;
 }
+return
+undefined
+;
 }
 /
 /

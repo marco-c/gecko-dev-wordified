@@ -955,6 +955,9 @@ timeLeftInSeconds
 )
 ;
 }
+return
+undefined
+;
 }
 get
 state
