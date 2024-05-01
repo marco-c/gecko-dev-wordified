@@ -877,7 +877,8 @@ license
 "
 }
 async
-browser
+(
+)
 =
 >
 {
@@ -1463,7 +1464,8 @@ com
 "
 }
 async
-browser
+(
+)
 =
 >
 {

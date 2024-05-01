@@ -134,7 +134,6 @@ function
 runTests
 (
 browser
-accDoc
 )
 {
 let

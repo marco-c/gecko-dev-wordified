@@ -190,7 +190,6 @@ function
 runTests
 (
 browser
-accDoc
 )
 {
 let
@@ -250,7 +249,7 @@ iframe1
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 data
@@ -346,7 +345,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -442,7 +441,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -554,6 +553,11 @@ browser
 ]
 )
 ;
+BrowserTestUtils
+.
+startLoadingURIString
+(
+browser
 /
 /
 eslint
@@ -572,11 +576,6 @@ no
 insecure
 -
 url
-BrowserTestUtils
-.
-loadURIString
-(
-browser
 "
 http
 :
@@ -636,7 +635,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

@@ -207,7 +207,6 @@ html
 async
 function
 (
-browser
 )
 {
 let
@@ -308,7 +307,8 @@ a11yShutdownPromise
 .
 then
 (
-flag
+(
+)
 =
 >
 canShutdown

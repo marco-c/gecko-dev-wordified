@@ -62,8 +62,6 @@ addAccessibleTask
 async
 function
 (
-browser
-accDoc
 )
 {
 await

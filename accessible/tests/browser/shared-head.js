@@ -4991,10 +4991,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -5030,7 +5027,6 @@ cacheObserver
 {
 observe
 (
-subject
 )
 {
 args
@@ -5772,7 +5768,8 @@ gPythonSocket
 .
 onopen
 =
-evt
+(
+)
 =
 >
 {

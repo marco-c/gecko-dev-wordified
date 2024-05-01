@@ -3638,7 +3638,6 @@ async
 function
 (
 browser
-docAcc
 )
 {
 let

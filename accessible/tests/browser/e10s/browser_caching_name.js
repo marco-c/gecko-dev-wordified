@@ -3411,8 +3411,6 @@ observer
 observe
 (
 subject
-topic
-data
 )
 {
 const

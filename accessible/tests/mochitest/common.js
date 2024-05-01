@@ -5293,7 +5293,6 @@ function
 shortenString
 (
 aString
-aMaxLength
 )
 {
 if

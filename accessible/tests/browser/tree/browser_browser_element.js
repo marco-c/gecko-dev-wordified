@@ -93,7 +93,6 @@ async
 function
 (
 browser
-docAcc
 )
 {
 /

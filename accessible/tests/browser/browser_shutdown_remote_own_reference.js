@@ -617,7 +617,8 @@ contentA11yShutdownPromise
 .
 then
 (
-flag
+(
+)
 =
 >
 contentCanShutdown

@@ -550,7 +550,6 @@ function
 (
 browser
 iframeDocAcc
-contentDocAcc
 )
 {
 ok
@@ -896,7 +895,6 @@ function
 (
 browser
 accDoc
-foo
 )
 {
 const

@@ -757,7 +757,6 @@ async
 function
 (
 browser
-accDoc
 )
 {
 let
@@ -898,7 +897,6 @@ async
 function
 (
 browser
-accDoc
 )
 {
 let

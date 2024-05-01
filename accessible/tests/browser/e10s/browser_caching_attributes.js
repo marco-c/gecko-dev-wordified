@@ -5595,7 +5595,6 @@ function
 testIspopup
 (
 browser
-docAcc
 )
 {
 info

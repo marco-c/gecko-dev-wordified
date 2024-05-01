@@ -103,7 +103,6 @@ function
 (
 browser
 iframeDocAcc
-contentDocAcc
 )
 {
 ok
@@ -325,7 +324,6 @@ function
 (
 browser
 iframeDocAcc
-contentDocAcc
 )
 {
 ok
@@ -449,7 +447,6 @@ function
 (
 browser
 iframeDocAcc
-contentDocAcc
 )
 {
 ok

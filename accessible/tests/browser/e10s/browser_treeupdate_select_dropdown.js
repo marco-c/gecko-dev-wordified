@@ -192,7 +192,6 @@ async
 function
 (
 browser
-accDoc
 )
 {
 await
