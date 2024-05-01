@@ -1866,9 +1866,7 @@ newURI
 (
 document
 .
-location
-.
-href
+baseURI
 )
 ;
 return
