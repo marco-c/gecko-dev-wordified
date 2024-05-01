@@ -5,6 +5,14 @@ jit
 -
 test
 |
+-
+-
+setpref
+=
+property_error_message_fix
+=
+true
+;
 skip
 -
 if
