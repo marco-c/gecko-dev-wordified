@@ -2236,17 +2236,6 @@ toolkit
 /
 modules
 /
-Sqlite
-.
-sys
-.
-mjs
-"
-"
-toolkit
-/
-modules
-/
 tests
 /
 xpcshell
