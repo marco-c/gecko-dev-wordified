@@ -3996,9 +3996,10 @@ bar
 let
 MozMessageBar
 =
+await
 customElements
 .
-get
+whenDefined
 (
 "
 moz
