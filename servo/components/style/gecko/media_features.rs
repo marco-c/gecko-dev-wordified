@@ -4114,6 +4114,15 @@ Linux
 /
 Matches
 any
+iOS
+version
+.
+Ios
+/
+/
+/
+Matches
+any
 macOS
 version
 .
