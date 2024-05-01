@@ -52,7 +52,7 @@ mochitests
 content
 "
 "
-https
+http
 :
 /
 /
