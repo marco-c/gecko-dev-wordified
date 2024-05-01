@@ -209,3 +209,13 @@ components
 conf
 "
 ]
+OS_LIBS
++
+=
+[
+"
+-
+framework
+UIKit
+"
+]
