@@ -34841,6 +34841,13 @@ nsAString
 aSource
 )
 {
+RefPtr
+<
+DocumentFragment
+>
+fragment
+;
+{
 MOZ_ASSERT
 (
 !
@@ -34935,10 +34942,6 @@ OwnerDoc
 (
 )
 ;
-RefPtr
-<
-DocumentFragment
->
 fragment
 =
 doc
@@ -34998,6 +35001,7 @@ SetHTMLUnsafe
 "
 )
 ;
+}
 }
 aTarget
 -
