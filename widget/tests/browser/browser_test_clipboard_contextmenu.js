@@ -377,7 +377,8 @@ nsIAsyncClipboardGetCallback
 nsIAsyncClipboardGetCallback
 onSuccess
 :
-aAsyncGetClipboardData
+(
+)
 =
 >
 {
