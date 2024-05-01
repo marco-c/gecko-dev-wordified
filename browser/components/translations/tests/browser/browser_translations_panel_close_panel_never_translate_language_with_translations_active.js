@@ -104,7 +104,7 @@ available
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 openFromAppMenu
@@ -193,7 +193,7 @@ translated
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 onOpenPanel
@@ -244,7 +244,7 @@ false
 await
 FullPageTranslationsTestUtils
 .
-waitForTranslationsPopupEvent
+waitForPanelPopupEvent
 (
 "
 popuphidden
@@ -391,7 +391,7 @@ available
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 openFromAppMenu
@@ -480,7 +480,7 @@ translated
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 onOpenPanel
@@ -557,7 +557,7 @@ runInPage
 await
 FullPageTranslationsTestUtils
 .
-openTranslationsPanel
+openPanel
 (
 {
 openFromAppMenu
@@ -632,7 +632,7 @@ false
 await
 FullPageTranslationsTestUtils
 .
-waitForTranslationsPopupEvent
+waitForPanelPopupEvent
 (
 "
 popuphidden
