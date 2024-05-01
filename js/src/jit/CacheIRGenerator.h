@@ -3208,6 +3208,13 @@ native
 )
 ;
 AttachDecision
+tryAttachGuardToClass
+(
+GuardClassKind
+kind
+)
+;
+AttachDecision
 tryAttachGuardToArrayBuffer
 (
 )
