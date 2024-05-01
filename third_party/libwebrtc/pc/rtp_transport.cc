@@ -1521,7 +1521,6 @@ flag
 )
 [
 this
-&
 sent_packet
 ]
 {
