@@ -826,6 +826,13 @@ WebglUseHardware
 bool
 true
 )
+\
+_
+(
+WebRenderOverlayVpAutoHDR
+bool
+false
+)
 /
 *
 Add
