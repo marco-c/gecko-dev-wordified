@@ -7589,10 +7589,7 @@ str
 .
 AppendASCII
 (
-MediaKeysRequirementValues
-:
-:
-GetString
+GetEnumString
 (
 aValue
 )

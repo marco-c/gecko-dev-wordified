@@ -894,10 +894,7 @@ featureStr
 dom
 :
 :
-GPUFeatureNameValues
-:
-:
-GetString
+GetEnumString
 (
 feature
 )
@@ -927,7 +924,7 @@ implemented
 "
 featureStr
 .
-data
+get
 (
 )
 )
@@ -2340,10 +2337,7 @@ fstr
 dom
 :
 :
-GPUFeatureNameValues
-:
-:
-GetString
+GetEnumString
 (
 requested
 )
@@ -2383,7 +2377,7 @@ s
 "
 fstr
 .
-data
+get
 (
 )
 astr
