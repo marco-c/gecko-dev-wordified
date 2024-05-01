@@ -370,12 +370,6 @@ SheetLoadDataHolder
 >
 mMainThreadSheetLoadData
 ;
-mozilla
-:
-:
-TimeStamp
-mOnDataFinishedTime
-;
 #
 ifdef
 NIGHTLY_BUILD
