@@ -600,7 +600,7 @@ Worker
 "
 embedded_worker
 .
-js
+py
 "
 )
 ;
