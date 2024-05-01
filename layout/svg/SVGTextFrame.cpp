@@ -15969,10 +15969,6 @@ mImgParams
 (
 aImgParams
 )
-mColor
-(
-0
-)
 {
 }
 void
@@ -16292,6 +16288,14 @@ decorations
 /
 nscolor
 mColor
+=
+NS_RGBA
+(
+0
+0
+0
+0
+)
 ;
 /
 *
@@ -16309,6 +16313,8 @@ shadows
 /
 bool
 mPaintingShadows
+=
+false
 ;
 }
 ;
