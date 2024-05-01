@@ -912,6 +912,9 @@ clearSiteData
 &
 !
 clearCache
+&
+&
+useOldClearHistoryDialog
 )
 {
 /
