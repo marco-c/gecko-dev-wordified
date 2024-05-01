@@ -145,7 +145,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createSellerReportURL
@@ -216,7 +216,7 @@ reportWin
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createSellerReportURL
@@ -289,7 +289,7 @@ exception
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createSellerReportURL
@@ -352,7 +352,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createSellerReportURL
@@ -431,7 +431,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createBidderReportURL
@@ -510,7 +510,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createBidderReportURL
@@ -598,7 +598,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createBidderReportURL
@@ -670,7 +670,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createBidderReportURL
@@ -774,7 +774,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createBidderReportURL
@@ -865,7 +865,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createSellerReportURL

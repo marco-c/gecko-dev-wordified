@@ -204,7 +204,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createBidderReportURL
 (

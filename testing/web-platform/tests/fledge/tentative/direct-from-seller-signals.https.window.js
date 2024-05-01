@@ -209,7 +209,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -318,7 +318,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -422,7 +422,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -526,7 +526,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -626,7 +626,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -732,7 +732,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -791,7 +791,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -907,7 +907,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -1461,7 +1461,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -1561,7 +1561,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -1672,7 +1672,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -1969,7 +1969,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -2079,7 +2079,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -2190,7 +2190,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -2312,7 +2312,7 @@ uuid
 codeToInsert
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -2430,7 +2430,7 @@ uuid
 codeToInsert
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -2560,7 +2560,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -2709,7 +2709,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -2863,7 +2863,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -3030,7 +3030,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -3177,7 +3177,7 @@ perBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -3283,7 +3283,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -3472,7 +3472,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -3644,7 +3644,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -3787,7 +3787,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -3912,7 +3912,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -4037,7 +4037,7 @@ null
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (
@@ -4152,7 +4152,7 @@ samePerBuyerSignals
 )
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createSellerReportURL
 (

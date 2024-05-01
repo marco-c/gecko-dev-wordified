@@ -149,7 +149,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createBidderReportURL
 (
@@ -270,7 +270,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createBidderReportURL
 (
@@ -379,7 +379,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createBidderReportURL
 (
@@ -504,7 +504,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createBidderReportURL
 (
@@ -605,7 +605,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createBidderReportURL
 (
@@ -709,7 +709,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createBidderReportURL
 (
@@ -822,7 +822,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createBidderReportURL
 (
@@ -934,7 +934,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createBidderReportURL
 (
@@ -1046,7 +1046,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 [
 createBidderReportURL
 (

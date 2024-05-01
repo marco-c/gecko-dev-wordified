@@ -149,7 +149,7 @@ the
 response
 (
 "
-renderUrls
+renderURLs
 "
 or
     
@@ -414,7 +414,7 @@ type
 "
 :
 "
-renderUrls
+renderURLs
 "
 "
 urls

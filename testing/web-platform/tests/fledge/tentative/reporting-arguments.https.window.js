@@ -436,7 +436,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createSellerReportURL
@@ -530,7 +530,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createSellerReportURL
@@ -635,7 +635,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createSellerReportURL
@@ -762,7 +762,7 @@ uuid
 }
 /
 /
-expectedReportUrls
+expectedReportURLs
 :
 [
 createSellerReportURL
