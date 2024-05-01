@@ -333,7 +333,7 @@ recentbrowsing
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -430,7 +430,7 @@ opentabs
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -527,7 +527,7 @@ recentlyclosed
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -624,7 +624,7 @@ syncedtabs
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -2040,7 +2040,7 @@ browser
 contentWindow
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -2631,7 +2631,7 @@ browser
 contentWindow
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -2862,7 +2862,7 @@ browser
 contentWindow
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -3126,7 +3126,7 @@ browser
 contentWindow
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
@@ -3496,7 +3496,7 @@ ON_UPDATE
 )
 ;
 await
-navigateToCategoryAndWait
+navigateToViewAndWait
 (
 document
 "
