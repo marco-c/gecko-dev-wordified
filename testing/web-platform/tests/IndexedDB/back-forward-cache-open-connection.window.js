@@ -327,9 +327,7 @@ be
 reported
 as
 "
-internal
--
-error
+masked
 "
 .
 /
@@ -345,9 +343,7 @@ assertNotRestoredFromBFCache
 rc1
 [
 '
-internal
--
-error
+masked
 '
 ]
 )

@@ -229,10 +229,12 @@ assertNotRestoredFromBFCache
 rc1
 [
 '
-WebRTC
+webrtc
 '
 '
-LiveMediaStreamTrack
+media
+-
+stream
 '
 ]
 )
