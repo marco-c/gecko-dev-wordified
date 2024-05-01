@@ -314,11 +314,15 @@ cpp
 ]
 elif
 toolkit
-=
-=
+in
+(
 "
 cocoa
 "
+"
+uikit
+"
+)
 :
 UNIFIED_SOURCES
 +

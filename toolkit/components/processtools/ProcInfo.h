@@ -1013,7 +1013,7 @@ aChildId
 0
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 mach_port_t
 aChildTask
 =
@@ -1022,7 +1022,7 @@ aChildTask
 endif
 /
 /
-XP_MACOSX
+XP_DARWIN
 )
 :
 pid
@@ -1063,7 +1063,7 @@ aChildId
 )
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 childTask
 (
 aChildTask
@@ -1072,7 +1072,7 @@ aChildTask
 endif
 /
 /
-XP_MACOSX
+XP_DARWIN
 {
 }
 const
@@ -1124,7 +1124,7 @@ childId
 ;
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 const
 mach_port_t
 childTask
@@ -1133,7 +1133,7 @@ childTask
 endif
 /
 /
-XP_MACOSX
+XP_DARWIN
 }
 ;
 /
