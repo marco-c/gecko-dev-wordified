@@ -2292,9 +2292,6 @@ onboardingAccept
 onboardingLearnMore
 "
 "
-onboardingReject
-"
-"
 onboardingSkipLink
 "
 "
@@ -4629,9 +4626,6 @@ onboardingLearnMore
 onboardingAccept
 "
 "
-onboardingReject
-"
-"
 onboardingSkipLink
 "
 "
@@ -4952,9 +4946,6 @@ onboardingLearnMore
 "
 "
 onboardingAccept
-"
-"
-onboardingReject
 "
 "
 onboardingSkipLink
