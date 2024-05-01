@@ -448,6 +448,7 @@ AnimationComposition
 AnimationDirection
 ScrollAxis
 ScrollTimelineName
+TransitionBehavior
 TransitionProperty
 ViewTimelineInset
 }
