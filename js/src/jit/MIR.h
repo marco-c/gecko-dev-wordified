@@ -9483,6 +9483,10 @@ MStoreUnboxedScalar
 MResizableTypedArrayLength
 /
 /
+-
+MResizableDataViewByteLength
+/
+/
 /
 /
 Must
