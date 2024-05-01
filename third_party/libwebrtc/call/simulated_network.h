@@ -258,6 +258,7 @@ Queue
 max
 capacity
 class
+RTC_EXPORT
 SimulatedNetwork
 :
 public
