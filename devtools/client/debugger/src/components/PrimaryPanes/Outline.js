@@ -588,6 +588,11 @@ PropTypes
 func
 .
 isRequired
+selectedSourceTextContent
+:
+PropTypes
+.
+object
 canFetchSymbols
 :
 PropTypes
@@ -628,7 +633,7 @@ prevProps
 const
 {
 cursorPosition
-selectedLocation
+selectedSourceTextContent
 canFetchSymbols
 }
 =
@@ -707,6 +712,7 @@ has
 been
 loaded
 and
+it
 is
 different
 if
@@ -716,11 +722,11 @@ canFetchSymbols
 &
 prevProps
 .
-selectedLocation
+selectedSourceTextContent
 !
 =
 =
-selectedLocation
+selectedSourceTextContent
 )
 {
 this
@@ -1967,6 +1973,7 @@ state
 ;
 return
 {
+selectedSourceTextContent
 selectedLocation
 :
 getSelectedLocation
