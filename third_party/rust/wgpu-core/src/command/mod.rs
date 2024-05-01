@@ -467,6 +467,10 @@ Ok
 )
 )
 }
+pub
+(
+crate
+)
 fn
 discard
 (
@@ -709,6 +713,10 @@ A
 HalApi
 >
 {
+pub
+(
+crate
+)
 encoder
 :
 CommandEncoder
@@ -1153,6 +1161,7 @@ CommandBuffer
 as_str
 (
 )
+None
 )
 data
 :
