@@ -711,6 +711,9 @@ domain_category_mappings
 .
 json
 "
+mapping
+:
+CONVERTED_ATTACHMENT_VALUES
 }
 )
 ;
@@ -1030,6 +1033,9 @@ domain_category_mappings
 .
 json
 "
+mapping
+:
+CONVERTED_ATTACHMENT_VALUES
 }
 )
 ;
@@ -1341,6 +1347,9 @@ domain_category_mappings
 .
 json
 "
+mapping
+:
+CONVERTED_ATTACHMENT_VALUES
 }
 )
 ;
@@ -1769,6 +1778,9 @@ domain_category_mappings
 .
 json
 "
+mapping
+:
+CONVERTED_ATTACHMENT_VALUES
 }
 )
 ;
