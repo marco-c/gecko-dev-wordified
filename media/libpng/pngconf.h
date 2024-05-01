@@ -18,7 +18,7 @@ version
 .
 6
 .
-39
+42
 *
 *
 Copyright
@@ -27,7 +27,7 @@ c
 )
 2018
 -
-2022
+2024
 Cosmin
 Truta
 *
