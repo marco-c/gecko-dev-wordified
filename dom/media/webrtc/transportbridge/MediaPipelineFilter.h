@@ -592,7 +592,7 @@ it
 here
 .
 void
-AddUniquePT
+AddUniqueReceivePT
 (
 uint8_t
 payload_type
@@ -665,7 +665,7 @@ set
 <
 uint8_t
 >
-payload_type_set_
+receive_payload_type_set_
 ;
 Maybe
 <

@@ -2299,7 +2299,7 @@ ASSERT_EQ
 (
 a
 .
-GetUniquePayloadTypes
+GetUniqueReceivePayloadTypes
 (
 )
 .
@@ -2308,7 +2308,7 @@ size
 )
 b
 .
-GetUniquePayloadTypes
+GetUniqueReceivePayloadTypes
 (
 )
 .
@@ -2328,7 +2328,7 @@ i
 <
 a
 .
-GetUniquePayloadTypes
+GetUniqueReceivePayloadTypes
 (
 )
 .
@@ -2345,7 +2345,7 @@ ASSERT_EQ
 (
 a
 .
-GetUniquePayloadTypes
+GetUniqueReceivePayloadTypes
 (
 )
 [
@@ -2353,7 +2353,7 @@ i
 ]
 b
 .
-GetUniquePayloadTypes
+GetUniqueReceivePayloadTypes
 (
 )
 [
