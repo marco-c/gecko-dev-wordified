@@ -211,6 +211,10 @@ pocketNewtab
 "
     
 "
+saveToPocket
+"
+    
+"
 searchConfiguration
 "
     
