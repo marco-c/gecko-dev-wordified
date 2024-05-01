@@ -372,6 +372,16 @@ GdkEventKey
 aGdkKeyEvent
 )
 ;
+static
+guint
+ConvertGeckoKeyCodeToGDKKeyval
+(
+const
+nsAString
+&
+aKeyCode
+)
+;
 /
 *
 *
