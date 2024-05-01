@@ -216,6 +216,16 @@ Launchd
 plist
 "
 ]
+DIRS
++
+=
+[
+"
+macos
+-
+frameworks
+"
+]
 GENERATED_FILES
 =
 [
