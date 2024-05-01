@@ -1525,9 +1525,7 @@ crate
 filterdata
 :
 :
-{
 FilterDataHandle
-}
 ;
 use
 crate
@@ -1573,9 +1571,7 @@ crate
 scene_building
 :
 :
-{
 SliceFlags
-}
 ;
 /
 /
@@ -27479,7 +27475,7 @@ SpatialTree
 >
 Option
 <
-DeviceRect
+DeviceIntRect
 >
 {
 let
@@ -27593,6 +27589,10 @@ device_pixel_scale
 )
 .
 round_out
+(
+)
+.
+to_i32
 (
 )
 )

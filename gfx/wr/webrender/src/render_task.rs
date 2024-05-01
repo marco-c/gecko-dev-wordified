@@ -3535,7 +3535,7 @@ new_mask
 (
 outer_rect
 :
-DeviceRect
+DeviceIntRect
 clip_node_range
 :
 ClipNodeRange
@@ -3723,10 +3723,6 @@ outer_rect
 size
 (
 )
-.
-to_i32
-(
-)
 ;
 /
 /
@@ -3800,6 +3796,10 @@ CacheMaskTask
 actual_rect
 :
 outer_rect
+.
+to_f32
+(
+)
 clip_node_range
 root_spatial_node_index
 device_pixel_scale
