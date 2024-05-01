@@ -4562,14 +4562,14 @@ package
 *
 /
 final
-Pref
+PrefWithoutDefault
 <
 Boolean
 >
 mAutomaticallyOfferPopup
 =
 new
-Pref
+PrefWithoutDefault
 <
 Boolean
 >
@@ -4581,7 +4581,6 @@ translations
 .
 automaticallyPopup
 "
-true
 )
 ;
 /
