@@ -101,7 +101,7 @@ environ
 get
 (
 '
-GITHUB_HEAD_REPO_URL
+MOBILE_HEAD_REPOSITORY
 '
 )
 BRANCH
@@ -113,7 +113,7 @@ environ
 get
 (
 '
-GITHUB_HEAD_BRANCH
+MOBILE_HEAD_BRANCH
 '
 )
 COMMIT
@@ -125,7 +125,7 @@ environ
 get
 (
 '
-GITHUB_HEAD_SHA
+MOBILE_HEAD_REV
 '
 )
 PR_TITLE
