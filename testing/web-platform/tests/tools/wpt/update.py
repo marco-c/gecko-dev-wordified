@@ -271,15 +271,6 @@ extra_property
 "
 ]
                                                 
-config
-=
-kwargs
-[
-"
-config
-"
-]
-                                                
 product
 =
 kwargs
