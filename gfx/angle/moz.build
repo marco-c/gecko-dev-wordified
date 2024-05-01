@@ -92,6 +92,11 @@ DIRS
 "
 targets
 /
+angle_common
+"
+"
+targets
+/
 translator
 "
 ]
