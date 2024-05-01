@@ -122,15 +122,6 @@ Any
 str
 None
 )
-    
-Required
-(
-"
-version
-"
-)
-:
-str
 }
 )
 def
@@ -260,21 +251,6 @@ int
 (
 pr_number
 )
-    
-version
-=
-get_version
-(
-)
-    
-parameters
-[
-"
-version
-"
-]
-=
-version
     
 parameters
 .
