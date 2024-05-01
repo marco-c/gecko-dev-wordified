@@ -3104,7 +3104,7 @@ TQ
 such
 as
 the
-TaskQueuePacedSender
+TaskQueueSender
 .
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker

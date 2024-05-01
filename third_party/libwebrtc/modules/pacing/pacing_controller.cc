@@ -565,12 +565,7 @@ Zero
 )
 send_burst_interval_
 (
-TimeDelta
-:
-:
-Zero
-(
-)
+kDefaultBurstInterval
 )
 last_timestamp_
 (

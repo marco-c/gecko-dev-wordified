@@ -591,9 +591,6 @@ Millis
 5
 )
 3
-config
-.
-pacer_burst_interval
 )
 observer_
 (

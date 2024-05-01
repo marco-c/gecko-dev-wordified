@@ -8101,7 +8101,7 @@ rate_bps
 =
 *
 /
-30
+10
 '
 000
 )
@@ -8329,7 +8329,7 @@ Bytes
 (
 kImageSizeBytes
 /
-4
+3
 )
 )
 ;
