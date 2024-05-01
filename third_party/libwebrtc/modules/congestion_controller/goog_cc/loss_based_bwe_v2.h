@@ -817,6 +817,11 @@ Zero
 (
 )
 ;
+bool
+bound_best_candidate
+=
+false
+;
 }
 ;
 struct
@@ -1200,11 +1205,6 @@ const
 PacketResult
 >
 packet_results
-)
-;
-void
-UpdateResult
-(
 )
 ;
 bool
