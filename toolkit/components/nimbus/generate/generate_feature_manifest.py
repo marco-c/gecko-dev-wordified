@@ -211,10 +211,6 @@ newtab
 "
     
 "
-opaqueResponseBlocking
-"
-    
-"
 phc
 "
     
