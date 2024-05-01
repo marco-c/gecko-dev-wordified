@@ -1550,6 +1550,17 @@ moxARIARelevant
 ;
 /
 /
+AXPlaceholderValue
+-
+(
+NSString
+*
+_Nullable
+)
+moxPlaceholderValue
+;
+/
+/
 AXMozDebugDescription
 -
 (
