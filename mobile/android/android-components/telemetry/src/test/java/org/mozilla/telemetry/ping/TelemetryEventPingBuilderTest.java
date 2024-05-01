@@ -211,6 +211,8 @@ getDocumentId
 assertEquals
 (
 "
+focus
+-
 event
 "
 ping
