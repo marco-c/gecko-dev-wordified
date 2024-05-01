@@ -541,9 +541,13 @@ false
 ;
 SpecialPowers
 .
-addSystemEventListener
+wrap
 (
 window
+)
+.
+addEventListener
+(
 "
 auxclick
 "
@@ -755,7 +759,11 @@ runNextTest
 ;
 }
 }
-false
+{
+mozSystemGroup
+:
+true
+}
 )
 ;
 SimpleTest
