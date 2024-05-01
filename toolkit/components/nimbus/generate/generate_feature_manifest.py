@@ -203,10 +203,6 @@ gleanInternalSdk
 "
     
 "
-jitThresholds
-"
-    
-"
 jsParallelParsing
 "
     
