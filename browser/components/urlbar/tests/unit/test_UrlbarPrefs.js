@@ -530,7 +530,7 @@ FORM_HISTORY
 {
 flex
 :
-2
+99
 group
 :
 UrlbarUtils
@@ -943,7 +943,7 @@ FORM_HISTORY
 {
 flex
 :
-2
+99
 group
 :
 UrlbarUtils
