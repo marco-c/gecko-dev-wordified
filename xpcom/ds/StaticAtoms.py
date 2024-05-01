@@ -2316,16 +2316,6 @@ browser
 Atom
 (
 "
-mozbrowser
-"
-"
-mozbrowser
-"
-)
-    
-Atom
-(
-"
 button
 "
 "
