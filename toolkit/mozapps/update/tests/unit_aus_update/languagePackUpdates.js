@@ -960,6 +960,18 @@ getGREDir
 (
 )
 ;
+if
+(
+AppConstants
+.
+platform
+!
+=
+"
+macosx
+"
+)
+{
 let
 updateSettingsIni
 =
@@ -982,6 +994,7 @@ updateSettingsIni
 UPDATE_SETTINGS_CONTENTS
 )
 ;
+}
 await
 downloadUpdate
 (
