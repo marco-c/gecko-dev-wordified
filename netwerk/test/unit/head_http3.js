@@ -382,7 +382,6 @@ onStartRequest
 function
 testOnStartRequest
 (
-request
 )
 {
 }
@@ -410,7 +409,6 @@ function
 testOnStopRequest
 (
 request
-status
 )
 {
 let

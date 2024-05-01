@@ -274,8 +274,6 @@ output
 }
 onHandshakeDone
 (
-socket
-status
 )
 {
 info

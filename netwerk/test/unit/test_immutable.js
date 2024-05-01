@@ -525,7 +525,6 @@ function
 testOnStopRequest
 (
 request
-status
 )
 {
 if

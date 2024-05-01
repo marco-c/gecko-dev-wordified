@@ -264,8 +264,6 @@ function
 make_channel
 (
 url
-callback
-ctx
 )
 {
 return
@@ -613,8 +611,6 @@ responseBody
 function
 secondTimeThrough
 (
-request
-buffer
 )
 {
 httpServer

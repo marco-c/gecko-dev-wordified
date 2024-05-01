@@ -192,7 +192,6 @@ function
 testOnStopRequest
 (
 request
-status
 )
 {
 let

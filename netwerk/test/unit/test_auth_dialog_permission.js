@@ -473,12 +473,6 @@ nsIAuthPrompt
 )
 prompt
 (
-title
-text
-realm
-save
-defaultText
-result
 )
 {
 do_throw
@@ -540,11 +534,6 @@ true
 }
 promptPassword
 (
-title
-text
-realm
-save
-pwd
 )
 {
 do_throw
@@ -915,10 +904,6 @@ NS_ERROR_ABORT
 }
 onDataAvailable
 (
-request
-stream
-offset
-count
 )
 {
 do_throw

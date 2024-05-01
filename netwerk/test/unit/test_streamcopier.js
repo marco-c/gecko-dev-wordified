@@ -222,7 +222,6 @@ observer
 {
 onStartRequest
 (
-aRequest
 )
 {
 }

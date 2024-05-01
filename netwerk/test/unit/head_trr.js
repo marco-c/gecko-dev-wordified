@@ -2138,7 +2138,6 @@ writeResponse
 (
 resp2
 buf2
-context
 )
 =
 >

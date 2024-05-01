@@ -440,7 +440,6 @@ succeeded
 (
 ch
 status
-data
 )
 {
 Assert
@@ -459,7 +458,6 @@ status
 function
 register400Handler
 (
-ch
 )
 {
 srv
@@ -494,8 +492,6 @@ handler
 function
 throwsException
 (
-metadata
-response
 )
 {
 throw

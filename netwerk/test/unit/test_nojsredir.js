@@ -187,7 +187,6 @@ completeIter
 (
 request
 data
-ctx
 )
 {
 Assert

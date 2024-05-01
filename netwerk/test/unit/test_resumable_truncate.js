@@ -38,8 +38,6 @@ function
 make_channel
 (
 url
-callback
-ctx
 )
 {
 return
@@ -377,16 +375,12 @@ nsIRequestObserver
 )
 onStartRequest
 (
-request
 )
 {
 }
 onDataAvailable
 (
 request
-stream
-offset
-count
 )
 {
 request

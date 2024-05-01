@@ -132,8 +132,6 @@ addObserver
 observe
 (
 subject
-topic
-data
 )
 {
 obs
@@ -325,7 +323,6 @@ CL_EXPECT_FAILURE
 (
 request
 data
-context
 )
 =
 >

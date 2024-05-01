@@ -240,7 +240,6 @@ NORMAL
 "
 function
 (
-entry
 )
 {
 mc
@@ -284,7 +283,6 @@ NORMAL
 "
 function
 (
-entry
 )
 {
 mc
@@ -328,7 +326,6 @@ NORMAL
 "
 function
 (
-entry
 )
 {
 mc

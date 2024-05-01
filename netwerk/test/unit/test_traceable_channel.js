@@ -335,8 +335,6 @@ onStartRequest
 }
 onStopRequest
 (
-request
-statusCode
 )
 {
 dump
@@ -558,8 +556,6 @@ listener
 observe
 (
 subject
-topic
-data
 )
 {
 dump
@@ -822,9 +818,6 @@ modified
 function
 channel_finished
 (
-request
-input
-ctx
 )
 {
 httpserver

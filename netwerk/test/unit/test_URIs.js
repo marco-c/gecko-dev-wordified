@@ -3995,7 +3995,6 @@ ref
 "
 function
 (
-aStr
 )
 {
 return

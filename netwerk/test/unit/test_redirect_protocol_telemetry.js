@@ -33,8 +33,6 @@ function
 make_channel
 (
 url
-callback
-ctx
 )
 {
 return
@@ -371,8 +369,6 @@ p
 then
 (
 (
-request
-buffer
 )
 =
 >

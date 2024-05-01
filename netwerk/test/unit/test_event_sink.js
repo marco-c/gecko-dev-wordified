@@ -212,10 +212,6 @@ asyncOnChannelRedirect
 function
 eventsink_onredir
 (
-oldChan
-newChan
-flags
-callback
 )
 {
 /
@@ -536,8 +532,6 @@ onStopRequest
 function
 test_onStopR
 (
-request
-status
 )
 {
 if

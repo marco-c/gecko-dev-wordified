@@ -283,7 +283,6 @@ toString
 }
 getProxyForURI
 (
-aURI
 )
 {
 throw

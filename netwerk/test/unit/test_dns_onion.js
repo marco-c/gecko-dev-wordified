@@ -100,7 +100,6 @@ onLookupComplete
 (
 inRequest
 inRecord
-inStatus
 )
 {
 inRecord

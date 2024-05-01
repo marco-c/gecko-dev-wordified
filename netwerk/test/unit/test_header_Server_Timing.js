@@ -467,7 +467,6 @@ function
 readServerContent
 (
 request
-buffer
 )
 {
 let

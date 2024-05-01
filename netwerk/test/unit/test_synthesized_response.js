@@ -248,9 +248,6 @@ iid
 }
 onProgress
 (
-request
-progress
-progressMax
 )
 {
 gotOnProgress
@@ -260,9 +257,6 @@ true
 }
 onStatus
 (
-request
-status
-statusArg
 )
 {
 gotOnStatus
@@ -1645,7 +1639,6 @@ body
 null
 function
 (
-channel
 )
 {
 throw

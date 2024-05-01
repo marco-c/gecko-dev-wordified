@@ -777,7 +777,6 @@ currentThread
 onStopListening
 (
 aServ
-aStatus
 )
 {
 info
@@ -2658,7 +2657,6 @@ asyncWait
 (
 function
 (
-aStream
 )
 {
 info
@@ -2805,8 +2803,6 @@ close
 function
 stopListening
 (
-aServ
-aStatus
 )
 {
 info
@@ -3887,7 +3883,8 @@ serverInput
 .
 asyncWait
 (
-aStream
+(
+)
 =
 >
 {
@@ -3965,8 +3962,6 @@ currentThread
 onStopListening
 :
 (
-aServ
-aTransport
 )
 =
 >
@@ -4051,7 +4046,8 @@ clientInput
 .
 asyncWait
 (
-aStream
+(
+)
 =
 >
 {

@@ -342,7 +342,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 Assert
@@ -541,7 +540,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 Assert

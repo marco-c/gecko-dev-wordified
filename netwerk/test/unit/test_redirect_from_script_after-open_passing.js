@@ -688,8 +688,6 @@ function
 make_channel
 (
 url
-callback
-ctx
 )
 {
 return
@@ -983,7 +981,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if

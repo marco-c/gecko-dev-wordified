@@ -190,9 +190,6 @@ iid
 }
 getMIMETypeFromContent
 (
-request
-data
-length
 )
 {
 return
@@ -430,8 +427,6 @@ onStopRequest
 function
 test_onStopR
 (
-request
-status
 )
 {
 run_test_iteration

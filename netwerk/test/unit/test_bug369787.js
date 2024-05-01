@@ -171,8 +171,6 @@ onStopRequest
 =
 function
 (
-request
-status
 )
 {
 try
@@ -349,8 +347,6 @@ bug369787
 function
 bug369787
 (
-metadata
-response
 )
 {
 /

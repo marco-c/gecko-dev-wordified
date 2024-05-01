@@ -144,7 +144,6 @@ this
 allowPort
 (
 port
-scheme
 )
 {
 return
@@ -336,8 +335,6 @@ open
 }
 asyncOpen
 (
-aListener
-aContext
 )
 {
 throw
@@ -442,7 +439,6 @@ NS_OK
 }
 cancel
 (
-status
 )
 {
 }

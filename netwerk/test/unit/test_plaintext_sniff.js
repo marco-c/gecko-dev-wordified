@@ -1067,8 +1067,6 @@ onStopRequest
 function
 test_onStopR
 (
-request
-status
 )
 {
 /

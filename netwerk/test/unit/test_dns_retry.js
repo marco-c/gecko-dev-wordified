@@ -919,9 +919,6 @@ iid
 }
 onProgress
 (
-request
-progress
-progressMax
 )
 {
 }
@@ -929,7 +926,6 @@ onStatus
 (
 request
 status
-statusArg
 )
 {
 this
@@ -989,7 +985,6 @@ onStartRequest
 function
 testOnStartRequest
 (
-request
 )
 {
 }
@@ -1053,10 +1048,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

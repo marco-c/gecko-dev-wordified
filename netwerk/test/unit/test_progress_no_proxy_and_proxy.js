@@ -611,9 +611,6 @@ listener
 function
 checkRequest
 (
-request
-data
-context
 )
 {
 Assert

@@ -434,7 +434,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -594,7 +593,6 @@ onStartRequest
 function
 test_onStartR
 (
-request
 )
 {
 }
@@ -623,8 +621,6 @@ onStopRequest
 function
 test_onStopR
 (
-request
-status
 )
 {
 if

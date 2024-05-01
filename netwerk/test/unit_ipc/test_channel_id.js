@@ -309,8 +309,6 @@ function
 observer
 (
 subject
-topic
-data
 )
 {
 let

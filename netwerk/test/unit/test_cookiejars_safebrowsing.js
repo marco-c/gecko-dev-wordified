@@ -1093,9 +1093,6 @@ simple
 {
 completionV2
 (
-hash
-table
-chunkId
 )
 {
 }
@@ -1221,8 +1218,6 @@ function
 completeCheckNonSafeBrowsingCookie
 (
 request
-data
-context
 )
 {
 /
@@ -1412,8 +1407,6 @@ function
 completeCheckSafeBrowsingCookie
 (
 request
-data
-context
 )
 {
 /

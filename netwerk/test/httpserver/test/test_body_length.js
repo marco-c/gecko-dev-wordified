@@ -194,7 +194,6 @@ function
 contentLength
 (
 request
-response
 )
 {
 Assert

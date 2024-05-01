@@ -535,9 +535,6 @@ null
 function
 setNextCookie
 (
-request
-data
-context
 )
 {
 if
@@ -646,8 +643,6 @@ function
 completeCheckCookie
 (
 request
-data
-context
 )
 {
 /

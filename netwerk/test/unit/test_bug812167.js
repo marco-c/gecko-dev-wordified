@@ -204,8 +204,6 @@ function
 make_channel
 (
 url
-callback
-ctx
 )
 {
 return

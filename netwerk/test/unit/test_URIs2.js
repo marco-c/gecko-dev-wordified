@@ -4886,7 +4886,6 @@ ref
 "
 function
 (
-aStr
 )
 {
 return

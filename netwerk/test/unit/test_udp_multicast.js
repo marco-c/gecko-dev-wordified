@@ -226,8 +226,6 @@ data
 }
 onStopListening
 (
-sock
-status
 )
 {
 }

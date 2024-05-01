@@ -268,12 +268,6 @@ prompt
 function
 ap1_prompt
 (
-title
-text
-realm
-save
-defaultText
-result
 )
 {
 do_throw
@@ -632,11 +626,6 @@ promptPassword
 function
 ap1_promptPW
 (
-title
-text
-realm
-save
-pwd
 )
 {
 do_throw
@@ -1472,11 +1461,6 @@ asyncPromptAuth
 function
 realmtest_async
 (
-chan
-cb
-ctx
-lvl
-info
 )
 {
 throw
@@ -2071,7 +2055,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -3944,7 +3927,6 @@ onreadystatechange
 =
 function
 (
-event
 )
 {
 if

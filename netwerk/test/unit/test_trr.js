@@ -371,7 +371,6 @@ makeChan
 (
 url
 mode
-bypassCache
 )
 {
 let

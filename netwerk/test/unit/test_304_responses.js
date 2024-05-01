@@ -258,7 +258,6 @@ function
 consume304
 (
 request
-buffer
 )
 {
 request

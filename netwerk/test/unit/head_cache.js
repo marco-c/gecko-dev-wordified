@@ -430,7 +430,6 @@ null
 function
 (
 status
-entry
 )
 {
 Assert

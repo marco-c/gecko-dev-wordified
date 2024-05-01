@@ -239,8 +239,6 @@ nsIProtocolHandler
 URI_DANGEROUS_TO_LOAD
 newChannel
 (
-uri
-aLoadInfo
 )
 {
 throw
@@ -258,8 +256,6 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 allowPort
 (
-port
-scheme
 )
 {
 return
@@ -740,7 +736,6 @@ onProxyAvailable
 req
 channel
 pi
-status
 )
 {
 this

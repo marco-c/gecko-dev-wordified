@@ -1299,7 +1299,6 @@ promisePumpToSaver
 (
 aSourceString
 aSaverStreamListener
-aCloseWhenDone
 )
 {
 return
@@ -3781,7 +3780,6 @@ BackgroundFileSaverOutputStream
 function
 onTargetChange
 (
-aTarget
 )
 {
 do_throw

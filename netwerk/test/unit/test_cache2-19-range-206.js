@@ -204,7 +204,6 @@ part2
 "
 function
 (
-entry
 )
 {
 mc
@@ -251,7 +250,6 @@ part2
 "
 function
 (
-entry
 )
 {
 mc
@@ -298,7 +296,6 @@ part2
 "
 function
 (
-entry
 )
 {
 mc

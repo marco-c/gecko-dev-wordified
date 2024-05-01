@@ -361,9 +361,6 @@ true
 }
 onStatus
 (
-request
-status
-statusArg
 )
 {
 }
@@ -742,7 +739,6 @@ function
 serverHandler
 (
 metadata
-response
 )
 {
 Assert
@@ -839,9 +835,6 @@ data
 function
 checkRequest
 (
-request
-data
-context
 )
 {
 Assert

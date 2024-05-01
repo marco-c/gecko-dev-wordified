@@ -669,8 +669,6 @@ function
 completeTest1
 (
 request
-data
-ctx
 )
 {
 Assert
@@ -934,8 +932,6 @@ function
 completeTest2
 (
 request
-data
-ctx
 )
 {
 Assert
@@ -1213,8 +1209,6 @@ function
 completeTest3
 (
 request
-data
-ctx
 )
 {
 Assert
@@ -1490,8 +1484,6 @@ function
 completeTest4
 (
 request
-data
-ctx
 )
 {
 Assert
@@ -1769,8 +1761,6 @@ function
 completeTest5
 (
 request
-data
-ctx
 )
 {
 Assert

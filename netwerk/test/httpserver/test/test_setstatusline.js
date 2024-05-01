@@ -532,8 +532,6 @@ setstatusline
 function
 noSetstatusline
 (
-metadata
-response
 )
 {
 }
@@ -560,7 +558,6 @@ stop
 (
 ch
 status
-data
 )
 {
 Assert

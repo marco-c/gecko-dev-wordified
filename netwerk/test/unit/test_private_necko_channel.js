@@ -256,9 +256,6 @@ length
 function
 checkRequest
 (
-request
-data
-context
 )
 {
 get_device_entry_count

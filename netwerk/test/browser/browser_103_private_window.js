@@ -355,7 +355,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -532,7 +531,7 @@ requestUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 requestUrl

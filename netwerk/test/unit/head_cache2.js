@@ -598,7 +598,6 @@ asyncRead
 {
 onStartRequest
 (
-aRequest
 )
 {
 }
@@ -606,8 +605,6 @@ onDataAvailable
 (
 aRequest
 aInputStream
-aOffset
-aCount
 )
 {
 var
@@ -2708,7 +2705,6 @@ forEach
 function
 (
 callback
-index
 )
 {
 callback

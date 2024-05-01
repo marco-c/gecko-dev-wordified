@@ -1194,9 +1194,6 @@ rebuildingObserve
 =
 function
 (
-subject
-topic
-data
 )
 {
 isRebuildingDone

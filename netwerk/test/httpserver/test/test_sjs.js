@@ -1419,7 +1419,6 @@ path
 function
 setupFileMapping
 (
-ch
 )
 {
 srv

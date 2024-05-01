@@ -3413,7 +3413,6 @@ nsIRequestObserver
 }
 onStartRequest
 (
-request
 )
 {
 }
@@ -3446,7 +3445,6 @@ count
 onStopRequest
 (
 request
-status
 )
 {
 if

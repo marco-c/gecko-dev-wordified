@@ -249,8 +249,6 @@ openOutputStream
 }
 onHandshakeDone
 (
-socket
-status
 )
 {
 info

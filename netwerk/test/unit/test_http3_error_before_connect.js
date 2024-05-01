@@ -637,7 +637,6 @@ onStartRequest
 function
 testOnStartRequest
 (
-request
 )
 {
 }

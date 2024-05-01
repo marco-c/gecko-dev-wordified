@@ -560,7 +560,6 @@ function
 secondTimeThrough
 (
 request
-buffer
 )
 {
 Assert

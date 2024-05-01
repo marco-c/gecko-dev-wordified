@@ -773,8 +773,6 @@ function
 completeTest1
 (
 request
-data
-ctx
 )
 {
 try
@@ -1047,8 +1045,6 @@ function
 completeTest2
 (
 request
-data
-ctx
 )
 {
 try
@@ -1325,8 +1321,6 @@ function
 completeTest3
 (
 request
-data
-ctx
 )
 {
 try
@@ -1602,8 +1596,6 @@ function
 completeTest4
 (
 request
-data
-ctx
 )
 {
 try

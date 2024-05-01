@@ -485,10 +485,7 @@ asyncOpen
 new
 ChannelListener
 (
-(
 request
-buffer
-)
 =
 >
 {
@@ -756,10 +753,7 @@ asyncOpen
 new
 ChannelListener
 (
-(
 request
-buffer
-)
 =
 >
 {

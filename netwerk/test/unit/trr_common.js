@@ -9092,9 +9092,6 @@ iid
 }
 onProgress
 (
-request
-progress
-progressMax
 )
 {
 }
@@ -9102,7 +9099,6 @@ onStatus
 (
 request
 status
-statusArg
 )
 {
 this

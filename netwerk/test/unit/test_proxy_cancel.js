@@ -870,9 +870,6 @@ iid
 }
 onProgress
 (
-request
-progress
-progressMax
 )
 {
 }
@@ -880,7 +877,6 @@ onStatus
 (
 request
 status
-statusArg
 )
 {
 info
@@ -2339,7 +2335,6 @@ onStatus
 (
 request
 status
-statusArg
 )
 {
 if

@@ -475,8 +475,6 @@ onTransportStatus
 (
 aTransport
 aStatus
-aProgress
-aProgressMax
 )
 {
 if

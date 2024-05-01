@@ -159,11 +159,6 @@ asyncPromptAuth
 function
 ap_async
 (
-chan
-cb
-ctx
-lvl
-info
 )
 {
 throw
@@ -358,7 +353,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 /
@@ -427,9 +421,6 @@ onStopRequest
 =
 function
 (
-request
-context
-status
 )
 {
 Assert

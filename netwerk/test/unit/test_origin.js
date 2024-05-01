@@ -621,7 +621,6 @@ function
 testOnStopRequest
 (
 request
-status
 )
 {
 Assert
@@ -1804,7 +1803,6 @@ function
 test_onStopR
 (
 request
-status
 )
 {
 dump

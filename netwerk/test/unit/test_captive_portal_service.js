@@ -2014,9 +2014,6 @@ nsIObserver
 )
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 changedNotificationCount

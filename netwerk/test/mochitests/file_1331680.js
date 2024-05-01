@@ -102,7 +102,6 @@ createObserver
 "
 function
 (
-e
 )
 {
 Services
@@ -138,7 +137,6 @@ removeObserver
 "
 function
 (
-e
 )
 {
 Services

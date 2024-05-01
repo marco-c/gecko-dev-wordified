@@ -262,7 +262,6 @@ readystatechange
 "
 function
 (
-event
 )
 {
 if

@@ -933,7 +933,6 @@ function
 (
 request
 data
-ctx
 )
 {
 Assert

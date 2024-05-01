@@ -43,7 +43,6 @@ x1d
 "
 function
 (
-entry
 )
 {
 /
@@ -111,7 +110,6 @@ x1d
 "
 function
 (
-entry
 )
 {
 mc
@@ -155,7 +153,6 @@ x1d
 "
 function
 (
-entry
 )
 {
 mc
@@ -199,7 +196,6 @@ x1d
 "
 function
 (
-entry
 )
 {
 mc

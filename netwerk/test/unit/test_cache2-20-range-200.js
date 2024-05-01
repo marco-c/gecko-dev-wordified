@@ -212,7 +212,6 @@ part2b
 "
 function
 (
-entry
 )
 {
 mc
@@ -259,7 +258,6 @@ part2b
 "
 function
 (
-entry
 )
 {
 mc
@@ -306,7 +304,6 @@ part2b
 "
 function
 (
-entry
 )
 {
 mc
