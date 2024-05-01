@@ -29402,6 +29402,11 @@ virtual
 void
 CollectWasmFrame
 (
+JS
+:
+:
+ProfilingCategoryPair
+aCategory
 const
 char
 *

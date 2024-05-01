@@ -1348,6 +1348,11 @@ ThreadStackHelper
 :
 CollectWasmFrame
 (
+JS
+:
+:
+ProfilingCategoryPair
+aCategory
 const
 char
 *
