@@ -122,11 +122,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestJSON
-.
-h
-"
-"
 TestLatency
 .
 h
@@ -241,11 +236,6 @@ SOURCES
 +
 =
 [
-"
-TestJSON
-.
-cpp
-"
 "
 TestLatency
 .
@@ -383,11 +373,6 @@ IPDL_SOURCES
 =
 [
 "
-PTestHandle
-.
-ipdl
-"
-"
 PTestIndirectProtocolParam
 .
 ipdlh
@@ -404,11 +389,6 @@ ipdl
 "
 "
 PTestIndirectProtocolParamSecond
-.
-ipdl
-"
-"
-PTestJSON
 .
 ipdl
 "
