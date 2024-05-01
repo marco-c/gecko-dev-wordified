@@ -621,6 +621,7 @@ T
 &
 aRefPtr
 )
+noexcept
 :
 mRawPtr
 (
@@ -1523,6 +1524,7 @@ I
 &
 aRefPtr
 )
+noexcept
 {
 assign_assuming_AddRef
 (
