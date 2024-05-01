@@ -127,11 +127,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestUniquePtrIPC
-.
-h
-"
-"
 TestUrgency
 .
 h
@@ -148,11 +143,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestUniquePtrIPC
 .
 cpp
 "
@@ -219,11 +209,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestUniquePtrIPC
 .
 ipdl
 "
