@@ -5103,9 +5103,9 @@ for
 const
 auto
 &
-transferableFlavor
+flavor
 :
-transferableFlavors
+aFlavorList
 )
 {
 for
@@ -5113,9 +5113,9 @@ for
 const
 auto
 &
-flavor
+transferableFlavor
 :
-aFlavorList
+transferableFlavors
 )
 {
 /
