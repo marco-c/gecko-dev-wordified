@@ -6163,8 +6163,6 @@ defined
 ANDROID
 )
 "
-Linux
-;
 Android
 "
 #
