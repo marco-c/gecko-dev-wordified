@@ -1873,6 +1873,8 @@ PurgeExpiredOrOverMemoryLimit
 size_t
 PurgeExpired
 (
+size_t
+minprogress
 )
 ;
 Result
@@ -1882,6 +1884,8 @@ nsresult
 >
 PurgeByFrecency
 (
+size_t
+minprogress
 )
 ;
 size_t
@@ -1889,6 +1893,8 @@ PurgeAll
 (
 uint32_t
 aWhat
+size_t
+minprogress
 )
 ;
 private
