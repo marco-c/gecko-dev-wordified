@@ -1131,7 +1131,7 @@ functions
 .
 friend
 class
-rtc
+webrtc
 :
 :
 scoped_refptr
