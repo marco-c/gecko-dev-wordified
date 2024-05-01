@@ -809,12 +809,17 @@ nsJARURI
 h
 "
 #
+ifndef
+XP_IOS
+#
 include
 "
 nsIconURI
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -11577,6 +11582,9 @@ aURI
 )
 ;
 }
+#
+ifndef
+XP_IOS
 if
 (
 scheme
@@ -11614,6 +11622,8 @@ aURI
 )
 ;
 }
+#
+endif
 #
 ifdef
 MOZ_WIDGET_GTK
