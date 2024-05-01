@@ -1304,6 +1304,8 @@ fp
 init
 (
 window
+.
+browsingContext
 dialogTitle
 .
 value
