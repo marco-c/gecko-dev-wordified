@@ -122,11 +122,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestCancel
-.
-h
-"
-"
 TestCrashCleanup
 .
 h
@@ -306,11 +301,6 @@ SOURCES
 +
 =
 [
-"
-TestCancel
-.
-cpp
-"
 "
 TestCrashCleanup
 .
@@ -512,11 +502,6 @@ IPDL_SOURCES
 +
 =
 [
-"
-PTestCancel
-.
-ipdl
-"
 "
 PTestCrashCleanup
 .

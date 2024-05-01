@@ -145,6 +145,11 @@ TestBasic
 cpp
 "
 "
+TestCancel
+.
+cpp
+"
+"
 TestCrossProcessSemaphore
 .
 cpp
@@ -176,6 +181,11 @@ ipdl
 "
 "
 PTestBasic
+.
+ipdl
+"
+"
+PTestCancel
 .
 ipdl
 "
