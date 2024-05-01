@@ -426,7 +426,6 @@ HTML_URI
 async
 function
 (
-browser
 )
 {
 let
@@ -542,7 +541,6 @@ HTML_URI
 async
 function
 (
-browser
 )
 {
 let

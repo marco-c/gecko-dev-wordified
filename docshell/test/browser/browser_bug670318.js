@@ -613,7 +613,8 @@ addEventListener
 "
 load
 "
-evt
+(
+)
 =
 >
 {
@@ -786,7 +787,7 @@ listener
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL

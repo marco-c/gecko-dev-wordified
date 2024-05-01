@@ -135,10 +135,7 @@ doTest
 actions
 -
 1
-(
 tab
-frames
-)
 =
 >
 {

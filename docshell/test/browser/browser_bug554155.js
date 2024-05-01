@@ -64,7 +64,6 @@ browser
 webProgress
 request
 uri
-flags
 )
 {
 info

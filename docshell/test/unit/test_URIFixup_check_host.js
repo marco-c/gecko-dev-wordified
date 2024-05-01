@@ -1086,7 +1086,6 @@ observe
 (
 aSubject
 aTopicInner
-aData
 )
 {
 if

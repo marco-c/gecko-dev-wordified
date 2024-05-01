@@ -486,7 +486,6 @@ finish
 function
 onLoad
 (
-e
 )
 {
 gBrowser
@@ -525,7 +524,6 @@ nextTest
 function
 eventListener
 (
-event
 )
 {
 setTimeout
@@ -581,7 +579,7 @@ store
 header
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 nostoreURI
@@ -785,7 +783,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 simple
@@ -954,7 +952,7 @@ bug
 )
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 nocacheURI
@@ -1100,7 +1098,7 @@ vertically
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 simple

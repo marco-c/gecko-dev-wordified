@@ -121,7 +121,7 @@ loaded
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 HTML_URI
@@ -163,10 +163,7 @@ blobPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

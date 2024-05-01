@@ -153,7 +153,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 newLocation
@@ -584,7 +584,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 secondLocation
@@ -1094,7 +1094,6 @@ onStateChange
 progress
 request
 flags
-status
 )
 {
 if

@@ -1945,7 +1945,6 @@ windowClosed
 (
 subject
 topic
-data
 )
 {
 if
@@ -2070,7 +2069,7 @@ NAV_URI
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 TestWindow
 .
@@ -3699,7 +3698,6 @@ observer
 (
 subject
 topic
-data
 )
 {
 if

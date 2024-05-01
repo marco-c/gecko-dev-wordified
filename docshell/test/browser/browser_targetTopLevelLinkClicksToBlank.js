@@ -263,7 +263,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 originalBrowser
 TEST_PAGE
@@ -503,7 +503,7 @@ _blank
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 originalBrowser
 TEST_IFRAME_PAGE
@@ -863,7 +863,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 currentBrowser
 TEST_PAGE
@@ -1573,7 +1573,8 @@ addEventListener
 "
 click
 "
-e
+(
+)
 =
 >
 {
@@ -1711,7 +1712,8 @@ addEventListener
 "
 click
 "
-e
+(
+)
 =
 >
 {

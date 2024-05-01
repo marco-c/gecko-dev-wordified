@@ -162,7 +162,7 @@ insecure
 url
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -903,7 +903,7 @@ insecure
 url
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -1319,7 +1319,6 @@ initial
 }
 OnHistoryNewEntry
 (
-aNewURI
 )
 {
 this

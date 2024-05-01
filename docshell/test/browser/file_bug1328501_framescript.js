@@ -24,7 +24,8 @@ frames
 -
 loaded
 "
-e
+(
+)
 =
 >
 sendAsyncMessage
@@ -49,7 +50,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if

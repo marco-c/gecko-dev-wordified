@@ -283,7 +283,6 @@ load
 function
 listener
 (
-aEvent
 )
 {
 /
