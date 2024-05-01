@@ -4035,6 +4035,7 @@ addonStudies
 [
 study
 ]
+sendEventSpy
 }
 )
 =

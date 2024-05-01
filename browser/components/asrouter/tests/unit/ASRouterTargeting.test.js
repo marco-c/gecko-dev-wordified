@@ -194,6 +194,10 @@ class
 static
 combineContexts
 (
+.
+.
+.
+args
 )
 {
 return
@@ -206,6 +210,7 @@ stub
 }
 evalWithDefault
 (
+expr
 )
 {
 return

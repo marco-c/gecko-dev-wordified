@@ -457,6 +457,7 @@ ensureLoaded
 }
 _showLoadPage
 (
+xps
 )
 {
 let
