@@ -195,6 +195,15 @@ include
 "
 mozilla
 /
+ClearOnShutdown
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CORSMode
 .
 h
