@@ -5451,7 +5451,7 @@ length
 }
 uint8_t
 *
-GetDataStartAddress
+begin
 (
 )
 {
