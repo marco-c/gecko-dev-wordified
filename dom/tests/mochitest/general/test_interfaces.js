@@ -4434,6 +4434,9 @@ DOMRequest
 insecureContext
 :
 true
+disabled
+:
+true
 }
 /
 /
