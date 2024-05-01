@@ -6556,7 +6556,6 @@ getRangeError
 )
 ;
 }
-else
 if
 (
 auto
@@ -6890,7 +6889,6 @@ unmapError
 )
 ;
 }
-else
 if
 (
 auto
