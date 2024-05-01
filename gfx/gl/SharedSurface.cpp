@@ -667,8 +667,7 @@ gl
 }
 #
 endif
-return
-nullptr
+break
 ;
 case
 layers
@@ -693,8 +692,7 @@ gl
 ;
 #
 else
-return
-nullptr
+break
 ;
 #
 endif
@@ -748,8 +746,7 @@ gl
 }
 #
 endif
-return
-nullptr
+break
 ;
 case
 layers
@@ -774,8 +771,7 @@ gl
 ;
 #
 else
-return
-nullptr
+break
 ;
 #
 endif
@@ -821,8 +817,7 @@ gl
 }
 #
 endif
-return
-nullptr
+break
 ;
 case
 layers
@@ -855,8 +850,7 @@ gl
 }
 #
 endif
-return
-nullptr
+break
 ;
 case
 layers
@@ -879,9 +873,6 @@ Last
 break
 ;
 }
-#
-ifdef
-MOZ_X11
 /
 /
 Silence
@@ -893,8 +884,6 @@ Unused
 <
 gl
 ;
-#
-endif
 return
 nullptr
 ;
