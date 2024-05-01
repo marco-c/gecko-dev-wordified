@@ -753,6 +753,11 @@ ModuleCyclicFields
 \
 _
 (
+ModuleSyntheticFields
+)
+\
+_
+(
 ModuleExports
 )
 \

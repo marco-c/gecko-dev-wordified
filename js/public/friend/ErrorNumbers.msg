@@ -10832,6 +10832,17 @@ this
 context
 "
 )
+MSG_DEF
+(
+JSMSG_BAD_MODULE_TYPE
+0
+JSEXN_TYPEERR
+"
+invalid
+module
+type
+"
+)
 /
 /
 Import

@@ -309,6 +309,8 @@ JSContext
 cx
 HandleString
 path
+HandleObject
+moduleRequestArg
 MutableHandleValue
 )
 ;
@@ -427,6 +429,8 @@ JSContext
 cx
 HandleString
 path
+HandleObject
+moduleRequestArg
 )
 ;
 bool
