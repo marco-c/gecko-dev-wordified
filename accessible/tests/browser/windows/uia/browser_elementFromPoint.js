@@ -61,7 +61,7 @@ use
 strict
 "
 ;
-addAccessibleTask
+addUiaTask
 (
 <
 button
