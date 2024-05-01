@@ -199,10 +199,6 @@ deviceMigration
 "
     
 "
-fullPageTranslation
-"
-    
-"
 fullPageTranslationAutomaticPopup
 "
     
