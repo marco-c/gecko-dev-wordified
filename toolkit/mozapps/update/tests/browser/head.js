@@ -3360,7 +3360,7 @@ true
 }
 onCloseWindow
 :
-aXULWindow
+_aXULWindow
 =
 >
 {

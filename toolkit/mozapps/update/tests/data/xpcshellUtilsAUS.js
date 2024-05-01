@@ -23904,7 +23904,7 @@ changed
 )
 ;
 }
-reason
+_reason
 =
 >
 {
@@ -26799,7 +26799,7 @@ addDownloadListener
 {
 onStartRequest
 :
-aRequest
+_aRequest
 =
 >
 {
@@ -26807,10 +26807,10 @@ aRequest
 onProgress
 :
 (
-aRequest
-aContext
-aProgress
-aMaxProgress
+_aRequest
+_aContext
+_aProgress
+_aMaxProgress
 )
 =
 >
@@ -26819,9 +26819,9 @@ aMaxProgress
 onStatus
 :
 (
-aRequest
-aStatus
-aStatusText
+_aRequest
+_aStatus
+_aStatusText
 )
 =
 >
@@ -28800,7 +28800,7 @@ notify
 function
 TC_notify
 (
-aTimer
+_aTimer
 )
 {
 gAppTimer
@@ -29451,8 +29451,8 @@ init
 (
 uri
 file
-chunkSize
-intervalInSeconds
+_chunkSize
+_intervalInSeconds
 )
 {
 this
@@ -29776,7 +29776,7 @@ nsIRequest
 /
 cancel
 (
-aStatus
+_aStatus
 )
 {
 throw
