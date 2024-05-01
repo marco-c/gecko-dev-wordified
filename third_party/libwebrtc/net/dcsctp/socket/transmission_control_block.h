@@ -1194,13 +1194,7 @@ rtx
 )
 expires
 .
-absl
-:
-:
-optional
-<
 DurationMs
->
 OnRtxTimerExpiry
 (
 )
@@ -1217,13 +1211,7 @@ ack
 timer
 expires
 .
-absl
-:
-:
-optional
-<
 DurationMs
->
 OnDelayedAckTimerExpiry
 (
 )

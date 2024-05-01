@@ -1907,13 +1907,7 @@ the
 Reconfig
 timer
 .
-absl
-:
-:
-optional
-<
 DurationMs
->
 OnReconfigTimerExpiry
 (
 )
