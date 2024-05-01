@@ -9460,6 +9460,10 @@ MExchangeTypedArrayElement
 MAtomicTypedArrayElementBinop
 /
 /
+-
+MGrowableSharedArrayBufferByteLength
+/
+/
 /
 /
 And
