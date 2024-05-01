@@ -258,12 +258,13 @@ h
 namespace
 mozilla
 {
-typedef
+using
+DecryptPromiseRequestHolder
+=
 MozPromiseRequestHolder
 <
 DecryptPromise
 >
-DecryptPromiseRequestHolder
 ;
 DDLoggedTypeDeclNameAndBase
 (
@@ -425,7 +426,7 @@ mProfile
 )
 mFrequencyIndex
 (
-Adts
+ADTS
 :
 :
 GetFrequencyIndex
@@ -433,6 +434,11 @@ GetFrequencyIndex
 aInfo
 .
 mRate
+)
+.
+unwrapOr
+(
+255
 )
 )
 {
@@ -522,7 +528,7 @@ aSample
 const
 {
 return
-Adts
+ADTS
 :
 :
 ConvertSample
@@ -544,7 +550,7 @@ aSample
 const
 {
 return
-Adts
+ADTS
 :
 :
 RevertSample
@@ -566,6 +572,8 @@ mProfile
 const
 uint8_t
 mFrequencyIndex
+{
+}
 ;
 }
 ;
@@ -920,10 +928,12 @@ __func__
 self
 ]
 (
+const
 RefPtr
 <
 MediaRawData
 >
+&
 aSample
 )
 {
@@ -1571,6 +1581,7 @@ Next
 )
 {
 auto
+*
 holder
 =
 iter
@@ -1717,6 +1728,7 @@ Next
 )
 {
 auto
+*
 holder
 =
 iter
@@ -2206,10 +2218,12 @@ self
 this
 ]
 (
+const
 RefPtr
 <
 MediaRawData
 >
+&
 aSample
 )
 {
