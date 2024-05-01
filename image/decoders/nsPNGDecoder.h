@@ -610,6 +610,9 @@ mGotInfoCallback
 bool
 mUsePipeTransform
 ;
+bool
+mErrorIsRecoverable
+;
 struct
 AnimFrameInfo
 {
