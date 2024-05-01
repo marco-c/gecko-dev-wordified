@@ -897,6 +897,14 @@ MediaByteBuffer
 aBuffer
 )
 ;
+bool
+StripHeader
+(
+MediaRawData
+*
+aSample
+)
+;
 Result
 <
 uint8_t
