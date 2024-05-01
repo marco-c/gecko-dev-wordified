@@ -151,17 +151,6 @@ include
 "
 api
 /
-call
-/
-call_factory_interface
-.
-h
-"
-#
-include
-"
-api
-/
 enable_media_with_defaults
 .
 h
