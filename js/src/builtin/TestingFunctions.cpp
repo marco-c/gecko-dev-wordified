@@ -14148,15 +14148,6 @@ NewPlainObjectWithUniqueNames
 (
 cx
 props
-.
-begin
-(
-)
-props
-.
-length
-(
-)
 )
 ;
 if
