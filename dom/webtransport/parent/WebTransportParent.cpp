@@ -729,6 +729,18 @@ move
 (
 uri
 )
+dedicated
+=
+true
+/
+*
+aDedicated
+see
+BUG
+1915735
+.
+*
+/
 nsServerCertHashes
 =
 std
@@ -785,6 +797,7 @@ mWebTransport
 AsyncConnectWithClient
 (
 uri
+dedicated
 std
 :
 :

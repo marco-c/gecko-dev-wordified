@@ -852,6 +852,11 @@ TRRServiceChannel
 .
 cpp
 "
+"
+WebTransportCertificateVerifier
+.
+cpp
+"
 ]
 if
 CONFIG
