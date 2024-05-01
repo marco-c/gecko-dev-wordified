@@ -64702,6 +64702,10 @@ const
 nsCString
 &
 aDatabaseID
+const
+nsAString
+&
+aDatabaseFilePath
 bool
 aEnforcingQuota
 bool
@@ -64723,6 +64727,10 @@ aDatabaseName
 mDatabaseID
 (
 aDatabaseID
+)
+mDatabaseFilePath
+(
+aDatabaseFilePath
 )
 mCipherKeyManager
 (
@@ -83836,6 +83844,11 @@ mDatabaseId
 ref
 (
 )
+mDatabaseFilePath
+.
+ref
+(
+)
 mEnforcingQuota
 mInPrivateBrowsing
 )
@@ -89745,6 +89758,11 @@ persistenceType
 mOriginMetadata
 databaseName
 mDatabaseId
+.
+ref
+(
+)
+mDatabaseFilePath
 .
 ref
 (
