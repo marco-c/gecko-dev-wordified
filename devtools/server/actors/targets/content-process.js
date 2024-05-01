@@ -1422,6 +1422,12 @@ origin
 }
 destroy
 (
+{
+isModeSwitching
+}
+=
+{
+}
 )
 {
 /
@@ -1501,6 +1507,9 @@ emit
 "
 destroyed
 "
+{
+isModeSwitching
+}
 )
 ;
 super

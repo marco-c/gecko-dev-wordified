@@ -514,7 +514,9 @@ switchToTarget
 will
 end
 calling
-TargetCommandonTargetDestroyed
+TargetCommand
+.
+onTargetDestroyed
 for
 all
 /

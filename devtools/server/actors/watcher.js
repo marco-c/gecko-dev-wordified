@@ -1892,8 +1892,7 @@ options
 Unregister
 the
 JS
-Window
-Actor
+Actors
 if
 there
 is
@@ -1941,7 +1940,7 @@ isModeSwitching
 {
 WatcherRegistry
 .
-maybeUnregisteringJSWindowActor
+maybeUnregisterJSActors
 (
 )
 ;
@@ -4545,7 +4544,7 @@ target
 resource
 WatcherRegistry
 .
-maybeUnregisteringJSWindowActor
+maybeUnregisterJSActors
 (
 )
 ;

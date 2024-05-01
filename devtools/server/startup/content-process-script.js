@@ -873,7 +873,9 @@ WatcherActor
 /
 WatcherRegistry
 .
-jsm
+sys
+.
+mjs
 )
 *
 put
