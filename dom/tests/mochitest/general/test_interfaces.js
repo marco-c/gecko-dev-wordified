@@ -20175,9 +20175,6 @@ onbeforetoggle
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
