@@ -135,6 +135,11 @@ IPDLUnitTest
 cpp
 "
 "
+TestAsyncReturns
+.
+cpp
+"
+"
 TestBasic
 .
 cpp
@@ -161,6 +166,11 @@ IPDL_SOURCES
 [
 "
 PIPDLUnitTest
+.
+ipdl
+"
+"
+PTestAsyncReturns
 .
 ipdl
 "

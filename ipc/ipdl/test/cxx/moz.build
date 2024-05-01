@@ -122,11 +122,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestAsyncReturns
-.
-h
-"
-"
 TestBadActor
 .
 h
@@ -316,11 +311,6 @@ SOURCES
 +
 =
 [
-"
-TestAsyncReturns
-.
-cpp
-"
 "
 TestBadActor
 .
@@ -532,11 +522,6 @@ IPDL_SOURCES
 +
 =
 [
-"
-PTestAsyncReturns
-.
-ipdl
-"
 "
 PTestBadActor
 .
