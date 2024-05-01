@@ -233,10 +233,6 @@ updatePrompt
 "
 upgradeDialog
 "
-    
-"
-windowsJumpList
-"
 }
 def
 write_fm_headers
