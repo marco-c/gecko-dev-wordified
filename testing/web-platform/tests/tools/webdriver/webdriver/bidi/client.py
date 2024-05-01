@@ -1692,7 +1692,10 @@ in
 listeners
 :
                 
-await
+asyncio
+.
+create_task
+(
 listener
 (
 data
@@ -1707,6 +1710,7 @@ data
 params
 "
 ]
+)
 )
         
 else
