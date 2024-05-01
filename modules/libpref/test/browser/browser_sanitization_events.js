@@ -334,7 +334,6 @@ PAGE_URL
 async
 function
 (
-browser
 )
 {
 }
