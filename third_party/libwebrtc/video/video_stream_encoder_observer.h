@@ -332,6 +332,7 @@ class
 DropReason
 {
 kSource
+kBadTimestamp
 kEncoderQueue
 kEncoder
 kMediaOptimization
