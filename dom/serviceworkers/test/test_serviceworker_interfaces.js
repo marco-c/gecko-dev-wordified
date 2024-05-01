@@ -1196,9 +1196,16 @@ a
 DOM
 peer
 !
+{
+name
+:
 "
 DOMRequest
 "
+disabled
+:
+true
+}
 /
 /
 IMPORTANT
