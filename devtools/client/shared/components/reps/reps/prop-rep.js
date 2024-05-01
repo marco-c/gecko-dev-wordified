@@ -134,7 +134,6 @@ factories
 ;
 const
 {
-appendRTLClassNameIfNeeded
 maybeEscapePropertyName
 wrapRender
 }
@@ -547,12 +546,6 @@ span
 (
 {
 className
-:
-appendRTLClassNameIfNeeded
-(
-className
-name
-)
 title
 :
 shouldRenderTooltip
