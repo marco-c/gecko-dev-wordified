@@ -21446,6 +21446,16 @@ handleOctetStream
 true
 )
 ;
+pref
+(
+"
+sidebar
+.
+companion
+"
+false
+)
+;
 /
 /
 Is
