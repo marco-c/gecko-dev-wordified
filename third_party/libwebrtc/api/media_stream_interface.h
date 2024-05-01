@@ -193,6 +193,15 @@ include
 "
 api
 /
+ref_count
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h
@@ -260,15 +269,6 @@ audio_processing
 include
 /
 audio_processing_statistics
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-ref_count
 .
 h
 "
@@ -385,7 +385,7 @@ RTC_EXPORT
 MediaSourceInterface
 :
 public
-rtc
+webrtc
 :
 :
 RefCountInterface
@@ -469,7 +469,7 @@ RTC_EXPORT
 MediaStreamTrackInterface
 :
 public
-rtc
+webrtc
 :
 :
 RefCountInterface
@@ -1947,7 +1947,7 @@ class
 AudioProcessorInterface
 :
 public
-rtc
+webrtc
 :
 :
 RefCountInterface
@@ -2390,7 +2390,7 @@ class
 MediaStreamInterface
 :
 public
-rtc
+webrtc
 :
 :
 RefCountInterface

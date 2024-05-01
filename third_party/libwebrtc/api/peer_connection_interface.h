@@ -1156,6 +1156,15 @@ api
 #
 include
 "
+api
+/
+ref_count
+.
+h
+"
+#
+include
+"
 p2p
 /
 base
@@ -1188,15 +1197,6 @@ include
 rtc_base
 /
 network_monitor_factory
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-ref_count
 .
 h
 "
@@ -1304,7 +1304,7 @@ class
 StreamCollectionInterface
 :
 public
-rtc
+webrtc
 :
 :
 RefCountInterface
@@ -1434,7 +1434,7 @@ class
 StatsObserver
 :
 public
-rtc
+webrtc
 :
 :
 RefCountInterface
@@ -1508,7 +1508,7 @@ RTC_EXPORT
 PeerConnectionInterface
 :
 public
-rtc
+webrtc
 :
 :
 RefCountInterface
@@ -13043,7 +13043,7 @@ RTC_EXPORT
 PeerConnectionFactoryInterface
 :
 public
-rtc
+webrtc
 :
 :
 RefCountInterface
