@@ -9377,6 +9377,10 @@ mAllowDeclarativeShadowRoots
 (
 false
 )
+mSuspendDOMNotifications
+(
+false
+)
 mXMLDeclarationBits
 (
 0
