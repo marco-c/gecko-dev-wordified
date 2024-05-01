@@ -418,6 +418,10 @@ nsString
 &
 trackList
 const
+nsAutoString
+&
+appId
+const
 nsAString
 &
 appFilesystemCommand
