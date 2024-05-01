@@ -6746,7 +6746,7 @@ eventTarget
 aMouseEvent
 -
 >
-GetComposedTarget
+GetOriginalTarget
 (
 )
 )
