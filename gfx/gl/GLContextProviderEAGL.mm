@@ -107,6 +107,13 @@ h
 #
 include
 "
+GLLibraryLoader
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -576,7 +583,7 @@ PR_FindFunctionSymbolAndLibrary
 (
 name
 &
-leakedLibRef
+lib
 )
 ;
 if
@@ -987,7 +994,7 @@ createDesc
 ;
 desc
 .
-isOffcreen
+isOffscreen
 =
 true
 ;
@@ -1053,6 +1060,9 @@ initialized
 "
 )
 ;
+nsCString
+discardFailureId
+;
 RefPtr
 <
 GLContext
@@ -1061,10 +1071,10 @@ temp
 =
 CreateHeadless
 (
-CreateContextFlags
-:
-:
-NONE
+{
+}
+&
+discardFailureId
 )
 ;
 gGlobalContext
