@@ -4519,8 +4519,9 @@ load_running
 gLoadMgr
 .
 change_garbagePerFrame
-=
+(
 value
+)
 ;
 console
 .
