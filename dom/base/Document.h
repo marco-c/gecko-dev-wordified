@@ -18347,6 +18347,10 @@ bool
 aIsImgSet
 bool
 aLinkPreload
+const
+nsAString
+&
+aFetchPriority
 )
 ;
 void
@@ -18367,6 +18371,10 @@ bool
 aLinkPreload
 uint64_t
 aEarlyHintPreloaderId
+const
+nsAString
+&
+aFetchPriority
 )
 ;
 /
