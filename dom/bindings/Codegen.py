@@ -15972,15 +15972,6 @@ legacyFactoryFunctions
 {
 legacyFactoryFunctions
 }
-              
-{
-nullptr
-{
-nullptr
-nullptr
-}
-0
-}
             
 }
 ;
@@ -24262,7 +24253,10 @@ legacyFactoryFunctions
 legacyFactoryFunctions
 =
 "
+Span
+(
 legacyFactoryFunctions
+)
 "
         
 else
@@ -24271,7 +24265,14 @@ else
 legacyFactoryFunctions
 =
 "
-nullptr
+Span
+<
+const
+LegacyFactoryFunction
+0
+>
+{
+}
 "
         
 if
