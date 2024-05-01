@@ -203,10 +203,6 @@ gleanInternalSdk
 "
     
 "
-jitHintsCache
-"
-    
-"
 jitThresholds
 "
     
