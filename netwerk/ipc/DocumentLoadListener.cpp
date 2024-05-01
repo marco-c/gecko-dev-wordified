@@ -16004,7 +16004,7 @@ nsHTTPSOnlyUtils
 :
 PotentiallyDowngradeHttpsFirstRequest
 (
-mChannel
+this
 aStatus
 )
 ;
