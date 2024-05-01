@@ -133,6 +133,17 @@ socket_address
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 rtc
 {
@@ -186,6 +197,7 @@ RTCP
 etc
 .
 class
+RTC_EXPORT
 ReceivedPacket
 {
 public
