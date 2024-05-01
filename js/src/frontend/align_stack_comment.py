@@ -146,6 +146,7 @@ re
 .
 compile
 (
+r
 "
 ^
 (

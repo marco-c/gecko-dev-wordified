@@ -100,6 +100,7 @@ re
 .
 compile
 (
+r
 "
 ^
 #

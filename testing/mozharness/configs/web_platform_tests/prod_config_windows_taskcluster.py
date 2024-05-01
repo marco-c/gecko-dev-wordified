@@ -160,6 +160,7 @@ Windows
 7
 "
 :
+r
 "
 HKCU
 :
@@ -181,6 +182,7 @@ Windows
 10
 "
 :
+r
 "
 HKCU
 :
@@ -812,13 +814,18 @@ HKCU
 :
 Software
 \
+\
 Microsoft
+\
 \
 Windows
 \
+\
 CurrentVersion
 \
+\
 Explorer
+\
 \
 VisualEffects
 '
@@ -900,6 +907,7 @@ powershell
 command
 "
                 
+r
 "
 New
 -

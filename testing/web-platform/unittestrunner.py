@@ -438,6 +438,7 @@ re
 .
 compile
 (
+r
 "
 (
 ?

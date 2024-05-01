@@ -4910,6 +4910,7 @@ re
 .
 compile
 (
+r
 "
 ^
 test

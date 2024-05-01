@@ -208,6 +208,7 @@ re
 .
 compile
 (
+r
 "
 ^
 #

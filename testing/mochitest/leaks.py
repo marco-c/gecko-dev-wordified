@@ -84,6 +84,7 @@ re
 .
 compile
 (
+r
 "
 I
 \
@@ -108,6 +109,7 @@ re
 .
 compile
 (
+r
 "
 I
 \
@@ -1796,6 +1798,7 @@ re
 .
 search
 (
+r
 "
 \
 [
@@ -2441,6 +2444,7 @@ re
 compile
 (
             
+r
 "
 =
 =
@@ -2469,6 +2473,7 @@ re
 compile
 (
             
+r
 "
 =
 =
@@ -2519,6 +2524,7 @@ re
 .
 compile
 (
+r
 "
 #
 \
@@ -2555,6 +2561,7 @@ re
 compile
 (
             
+r
 "
 #
 \

@@ -590,7 +590,7 @@ do_test_pending
 "
 PASSING_TEST_UNICODE
 =
-b
+rb
 "
 "
 "
@@ -4318,6 +4318,7 @@ splitlines
         
 line_pat
 =
+r
 "
 #
 \
@@ -4329,6 +4330,7 @@ d
         
 unknown_pat
 =
+r
 "
 #
 \

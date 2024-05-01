@@ -139,6 +139,7 @@ re
 .
 compile
 (
+r
 "
 ^
 cert
@@ -158,6 +159,7 @@ re
 .
 compile
 (
+r
 "
 ^
 key
@@ -177,6 +179,7 @@ re
 .
 compile
 (
+r
 "
 ^
 secmod
@@ -582,6 +585,7 @@ re
 .
 compile
 (
+r
 "
 ^
 cert

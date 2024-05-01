@@ -1466,9 +1466,8 @@ pref
 cdt_ui_prefs
 +
 =
-"
-"
-"
+r
+'
 org
 .
 eclipse
@@ -1507,7 +1506,6 @@ no
 ?
 >
 \
-\
 n
 <
 profiles
@@ -1518,7 +1516,6 @@ version
 1
 "
 >
-\
 \
 n
 <
@@ -1543,17 +1540,13 @@ version
 "
 >
 \
-\
 n
-"
-"
-"
+'
         
 XML_PREF_TEMPLATE
 =
-"
-"
-"
+r
+'
 <
 setting
 id
@@ -1571,11 +1564,8 @@ PREF_VAL
 /
 >
 \
-\
 n
-"
-"
-"
+'
         
 for
 line
@@ -1627,19 +1617,18 @@ val
 cdt_ui_prefs
 +
 =
+r
 "
 <
 /
 profile
 >
 \
-\
 n
 <
 /
 profiles
 >
-\
 \
 n
 "

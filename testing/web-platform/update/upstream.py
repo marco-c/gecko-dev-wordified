@@ -1270,6 +1270,7 @@ re
 compile
 (
             
+r
 "
 Bug
 \

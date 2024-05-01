@@ -2475,6 +2475,7 @@ re
 .
 compile
 (
+r
 "
 https
 :
@@ -2507,6 +2508,7 @@ re
 .
 compile
 (
+r
 "
 (
 ?

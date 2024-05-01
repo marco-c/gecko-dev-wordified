@@ -8429,6 +8429,7 @@ test_space
 write
 (
             
+r
 "
 "
 "

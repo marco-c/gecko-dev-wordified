@@ -2915,7 +2915,7 @@ re
 .
 search
 (
-b
+rb
 "
 [
 a

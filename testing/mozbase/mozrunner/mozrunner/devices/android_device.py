@@ -1544,6 +1544,7 @@ manifest_version
         
 hu_version_regex
 =
+r
 "
 host
 -

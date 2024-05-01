@@ -144,6 +144,7 @@ re
 compile
 (
     
+r
 '
 ^
 GK_ATOM

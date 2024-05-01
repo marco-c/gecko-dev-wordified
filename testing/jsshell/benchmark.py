@@ -1105,6 +1105,7 @@ search
 (
 score_name
 +
+r
 "
 :
 \
@@ -1206,6 +1207,7 @@ re
 .
 search
 (
+r
 "
 Running
 .
@@ -1290,6 +1292,7 @@ re
 .
 search
 (
+r
 "
 summary
 :
@@ -1612,6 +1615,7 @@ re
 .
 search
 (
+r
 "
 (
 .
@@ -1876,6 +1880,7 @@ re
 .
 search
 (
+r
 "
 (
 .
@@ -2596,6 +2601,7 @@ re
 .
 search
 (
+r
 "
 (
 .

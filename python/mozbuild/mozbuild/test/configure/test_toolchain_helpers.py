@@ -169,6 +169,7 @@ re
 .
 compile
 (
+r
 '
 (
 ?
@@ -203,6 +204,7 @@ re
 .
 compile
 (
+r
 "
 \
 S
@@ -216,6 +218,7 @@ re
 compile
 (
         
+r
 '
 (
 __has_
@@ -289,6 +292,7 @@ self
 .
 setMarker
 (
+r
 "
 #
 \

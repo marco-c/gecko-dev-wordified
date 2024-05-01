@@ -818,6 +818,7 @@ re
 .
 findall
 (
+r
 "
 \
 d
