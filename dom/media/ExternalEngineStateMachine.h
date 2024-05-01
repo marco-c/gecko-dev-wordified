@@ -1939,6 +1939,12 @@ SetCDMPromise
 >
 mSetCDMProxyRequest
 ;
+MozPromiseRequestHolder
+<
+GenericNonExclusivePromise
+>
+mInitEngineForCDMRequest
+;
 /
 /
 It
