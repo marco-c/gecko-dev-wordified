@@ -131,15 +131,6 @@ h
 #
 include
 "
-ipc
-/
-IPCMessageUtilsSpecializations
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ProfilerMarkers
@@ -169,9 +160,9 @@ include
 "
 mozilla
 /
-dom
+glean
 /
-Document
+GleanMetrics
 .
 h
 "
@@ -182,7 +173,7 @@ mozilla
 /
 dom
 /
-PerformanceNavigation
+Document
 .
 h
 "
