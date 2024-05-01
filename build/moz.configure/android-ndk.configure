@@ -1315,7 +1315,7 @@ s
 %
 s
 /
-lib
+lib64
 /
 clang
 "

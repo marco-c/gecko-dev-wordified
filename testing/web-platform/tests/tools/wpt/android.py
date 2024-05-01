@@ -73,7 +73,7 @@ pardir
 NDK_VERSION
 =
 "
-r26c
+r25c
 "
 CMDLINE_TOOLS_VERSION_STRING
 =
