@@ -2080,6 +2080,10 @@ clippy
 :
 :
 single_match
+clippy
+:
+:
+enum_variant_names
 )
 ]
 #
@@ -3813,6 +3817,8 @@ Copy
 Debug
 PartialEq
 Eq
+PartialOrd
+Ord
 Hash
 )
 ]

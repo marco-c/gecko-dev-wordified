@@ -2830,11 +2830,6 @@ base
 dynamic_offsets
 .
 let
-num_dynamic_offsets
-=
-num_dynamic_offsets
-;
-let
 offsets_range
 =
 next_dynamic_offset

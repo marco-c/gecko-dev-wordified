@@ -766,9 +766,8 @@ self
 .
 labels
 .
-get
+first
 (
-0
 )
 .
 map
