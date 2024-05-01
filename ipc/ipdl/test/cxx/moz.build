@@ -122,11 +122,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestCrashCleanup
-.
-h
-"
-"
 TestDataStructures
 .
 h
@@ -301,11 +296,6 @@ SOURCES
 +
 =
 [
-"
-TestCrashCleanup
-.
-cpp
-"
 "
 TestDataStructures
 .
@@ -502,11 +492,6 @@ IPDL_SOURCES
 +
 =
 [
-"
-PTestCrashCleanup
-.
-ipdl
-"
 "
 PTestDataStructures
 .
