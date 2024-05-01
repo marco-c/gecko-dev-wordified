@@ -479,7 +479,7 @@ EXPECT_EQ
 (
 buf_
 .
-outstanding_bytes
+unacked_bytes
 (
 )
 0u
@@ -489,7 +489,7 @@ EXPECT_EQ
 (
 buf_
 .
-outstanding_items
+unacked_items
 (
 )
 0u
@@ -635,7 +635,7 @@ EXPECT_EQ
 (
 buf_
 .
-outstanding_bytes
+unacked_bytes
 (
 )
 DataChunk
@@ -653,7 +653,7 @@ EXPECT_EQ
 (
 buf_
 .
-outstanding_items
+unacked_items
 (
 )
 1u
@@ -845,7 +845,7 @@ EXPECT_EQ
 (
 buf_
 .
-outstanding_bytes
+unacked_bytes
 (
 )
 0u
@@ -855,7 +855,7 @@ EXPECT_EQ
 (
 buf_
 .
-outstanding_items
+unacked_items
 (
 )
 0u
@@ -992,7 +992,7 @@ EXPECT_EQ
 (
 buf_
 .
-outstanding_bytes
+unacked_bytes
 (
 )
 DataChunk
@@ -1010,7 +1010,7 @@ EXPECT_EQ
 (
 buf_
 .
-outstanding_items
+unacked_items
 (
 )
 1u
@@ -1243,7 +1243,7 @@ EXPECT_EQ
 (
 buf_
 .
-outstanding_bytes
+unacked_bytes
 (
 )
 0u
@@ -1253,7 +1253,7 @@ EXPECT_EQ
 (
 buf_
 .
-outstanding_items
+unacked_items
 (
 )
 0u
