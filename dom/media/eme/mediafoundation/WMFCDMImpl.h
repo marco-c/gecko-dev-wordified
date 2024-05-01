@@ -311,16 +311,6 @@ aKeySystem
 )
 {
 }
-static
-bool
-Supports
-(
-const
-nsAString
-&
-aKeySystem
-)
-;
 /
 /
 TODO
