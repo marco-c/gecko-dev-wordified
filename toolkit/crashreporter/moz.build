@@ -414,6 +414,10 @@ DIRS
 [
 "
 client
+-
+rust
+/
+app
 "
 "
 mozannotation_client
