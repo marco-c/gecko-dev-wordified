@@ -591,10 +591,6 @@ app
 "
 )
 )
-.
-join
-(
-)
 ;
 measurement
 .
@@ -615,10 +611,6 @@ search_bar
 "
 )
 )
-.
-join
-(
-)
 ;
 measurement
 .
@@ -638,10 +630,6 @@ click
 erase_button
 "
 )
-)
-.
-join
-(
 )
 ;
 final

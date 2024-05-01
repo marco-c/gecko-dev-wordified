@@ -276,10 +276,6 @@ add
 (
 event
 )
-.
-join
-(
-)
 ;
 final
 Object
@@ -506,10 +502,6 @@ add
 (
 event
 )
-.
-join
-(
-)
 ;
 assertTrue
 (
@@ -594,10 +586,6 @@ search_bar
 "
 )
 )
-.
-join
-(
-)
 ;
 measurement
 .
@@ -617,10 +605,6 @@ click
 erase_button
 "
 )
-)
-.
-join
-(
 )
 ;
 final
@@ -903,10 +887,6 @@ pref_search_engine
 "
 extras
 )
-)
-.
-join
-(
 )
 ;
 final
