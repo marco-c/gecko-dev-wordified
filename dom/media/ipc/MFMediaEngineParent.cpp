@@ -1116,6 +1116,15 @@ mDXGIDeviceManager
 )
 )
 ;
+if
+(
+!
+mDXGIDeviceManager
+)
+{
+return
+;
+}
 RETURN_VOID_IF_FAILED
 (
 mDXGIDeviceManager
