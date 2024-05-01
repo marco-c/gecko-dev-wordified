@@ -175,6 +175,12 @@ defined
 (
 ANDROID
 )
+&
+&
+defined
+(
+GTEST_HAS_DEATH_TEST
+)
 /
 /
 Kept

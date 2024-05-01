@@ -1132,6 +1132,9 @@ CUBEB_OK
 )
 ;
 }
+#
+ifdef
+GTEST_HAS_DEATH_TEST
 TEST
 (
 cubeb
@@ -1267,6 +1270,8 @@ ctx
 )
 ;
 }
+#
+endif
 long
 data_cb_input
 (
