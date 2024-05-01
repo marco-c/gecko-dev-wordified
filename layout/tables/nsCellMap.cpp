@@ -6341,7 +6341,10 @@ aCellMapStart
 ;
 if
 (
-eLogicalCornerBStartIEnd
+LogicalCorner
+:
+:
+BStartIEnd
 =
 =
 aCorner
@@ -6355,7 +6358,10 @@ xPos
 else
 if
 (
-eLogicalCornerBEndIEnd
+LogicalCorner
+:
+:
+BEndIEnd
 =
 =
 aCorner
@@ -6377,7 +6383,10 @@ yPos
 else
 if
 (
-eLogicalCornerBEndIStart
+LogicalCorner
+:
+:
+BEndIStart
 =
 =
 aCorner
