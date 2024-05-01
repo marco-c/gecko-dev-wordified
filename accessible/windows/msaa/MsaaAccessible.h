@@ -155,6 +155,10 @@ h
 #
 include
 "
+mozilla
+/
+a11y
+/
 MsaaIdGenerator
 .
 h
@@ -163,13 +167,6 @@ h
 include
 "
 nsXULAppAPI
-.
-h
-"
-#
-include
-"
-uiaRawElmProvider
 .
 h
 "
@@ -202,8 +199,6 @@ public
 ia2AccessibleHyperlink
 public
 ia2AccessibleValue
-public
-uiaRawElmProvider
 {
 public
 :

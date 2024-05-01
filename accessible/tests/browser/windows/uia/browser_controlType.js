@@ -87,7 +87,7 @@ enable
 camelcase
 *
 /
-addUiaTask
+addAccessibleTask
 (
 <
 button
