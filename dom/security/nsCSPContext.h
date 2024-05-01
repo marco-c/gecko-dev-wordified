@@ -710,6 +710,10 @@ nsAString
 &
 aViolatedDirective
 const
+nsAString
+&
+aViolatedDirectiveString
+const
 CSPDirective
 aEffectiveDirective
 uint32_t
@@ -944,6 +948,10 @@ const
 nsAString
 &
 aViolatedDirective
+const
+nsAString
+&
+aViolatedDirectiveString
 CSPDirective
 aEffectiveDirective
 uint32_t
