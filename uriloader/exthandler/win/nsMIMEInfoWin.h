@@ -175,16 +175,6 @@ _retval
 override
 ;
 NS_IMETHOD
-GetDefaultExecutable
-(
-nsIFile
-*
-*
-aExecutable
-)
-override
-;
-NS_IMETHOD
 GetPossibleLocalHandlers
 (
 nsIArray
@@ -427,10 +417,6 @@ nsString
 >
 &
 trackList
-const
-nsAutoString
-&
-appId
 const
 nsAString
 &
