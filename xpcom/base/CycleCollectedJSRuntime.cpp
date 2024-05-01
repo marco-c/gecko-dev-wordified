@@ -7325,7 +7325,7 @@ MS
 InputType
 :
 :
-String
+CString
 "
 GC
 timings
