@@ -1140,8 +1140,6 @@ function
 onExamResp
 (
 subject
-topic
-data
 )
 {
 let

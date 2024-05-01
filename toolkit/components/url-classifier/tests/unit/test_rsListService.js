@@ -1045,7 +1045,6 @@ nsIStreamListener
 observer
 onStartRequest
 (
-request
 )
 {
 }
@@ -1118,8 +1117,6 @@ event
 }
 onStopRequest
 (
-request
-status
 )
 {
 }
@@ -1318,7 +1315,6 @@ nsIStreamListener
 observer
 onStartRequest
 (
-request
 )
 {
 }
@@ -1391,8 +1387,6 @@ event
 }
 onStopRequest
 (
-request
-status
 )
 {
 }
@@ -1606,7 +1600,6 @@ nsIStreamListener
 observer
 onStartRequest
 (
-request
 )
 {
 }
@@ -1679,8 +1672,6 @@ event
 }
 onStopRequest
 (
-request
-status
 )
 {
 }
@@ -2126,7 +2117,6 @@ done
 function
 updateSuccessOrError
 (
-aEvent
 )
 {
 do_throw
@@ -2157,7 +2147,6 @@ error
 function
 downloadError
 (
-aEvent
 )
 {
 run_next_test
@@ -2259,7 +2248,6 @@ done
 function
 updateSuccessOrDownloadError
 (
-aEvent
 )
 {
 do_throw
@@ -2290,7 +2278,6 @@ error
 function
 updateError
 (
-aEvent
 )
 {
 run_next_test
@@ -2409,7 +2396,6 @@ nsIStreamListener
 observer
 onStartRequest
 (
-request
 )
 {
 }
@@ -2482,8 +2468,6 @@ event
 }
 onStopRequest
 (
-request
-status
 )
 {
 }

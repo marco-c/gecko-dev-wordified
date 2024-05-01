@@ -24,7 +24,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var

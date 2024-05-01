@@ -1351,13 +1351,11 @@ nsIUrlClassifierUpdateObserver
 )
 updateUrlRequested
 (
-url
 )
 {
 }
 streamFinished
 (
-status
 )
 {
 }
@@ -1461,13 +1459,11 @@ nsIUrlClassifierUpdateObserver
 )
 updateUrlRequested
 (
-url
 )
 {
 }
 streamFinished
 (
-status
 )
 {
 }
@@ -2604,7 +2600,6 @@ nsITimerCallback
 )
 notify
 (
-timer
 )
 {
 this

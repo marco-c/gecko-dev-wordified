@@ -2344,7 +2344,6 @@ completionV2
 hash
 table
 chunkId
-trusted
 )
 {
 Assert
@@ -2540,7 +2539,6 @@ completionFinished
 function
 completionFinished
 (
-status
 )
 {
 finishedCompletions

@@ -645,7 +645,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -1500,9 +1499,6 @@ progressListener
 {
 onContentBlockingEvent
 (
-aWebProgress
-aRequest
-aEvent
 )
 {
 expected
@@ -1542,7 +1538,7 @@ NOTIFY_CONTENT_BLOCKING
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 aTestData
