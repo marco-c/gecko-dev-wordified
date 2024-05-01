@@ -417,7 +417,7 @@ InvalidateFramebuffer
 GLenum
 target
 const
-Range
+Span
 <
 const
 GLenum
@@ -432,7 +432,7 @@ InvalidateSubFramebuffer
 GLenum
 target
 const
-Range
+Span
 <
 const
 GLenum

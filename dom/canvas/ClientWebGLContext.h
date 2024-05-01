@@ -5170,7 +5170,7 @@ public
 :
 Maybe
 <
-Range
+Span
 <
 uint8_t
 >
