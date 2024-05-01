@@ -3271,6 +3271,7 @@ ResizableArrayBuffer
 FixedLengthSharedArrayBuffer
 GrowableSharedArrayBuffer
 FixedLengthDataView
+ResizableDataView
 MappedArguments
 UnmappedArguments
 WindowProxy

@@ -1580,6 +1580,15 @@ return
 high
 ;
 }
+Register
+secondScratchReg
+(
+)
+{
+return
+low
+;
+}
 static
 Register64
 Invalid
