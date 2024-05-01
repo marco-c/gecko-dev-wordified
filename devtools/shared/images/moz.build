@@ -88,6 +88,13 @@ MPL
 DevToolsModules
 (
 "
+alert
+-
+small
+.
+svg
+"
+"
 command
 -
 pick
@@ -107,6 +114,13 @@ svg
 "
 "
 error
+-
+small
+.
+svg
+"
+"
+info
 -
 small
 .
