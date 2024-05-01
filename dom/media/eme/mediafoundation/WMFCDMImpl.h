@@ -322,6 +322,8 @@ async
 bool
 GetCapabilities
 (
+bool
+aIsHardwareDecryption
 nsTArray
 <
 KeySystemConfig

@@ -555,6 +555,15 @@ MediaKeySystemConfiguration
 aConfig
 )
 ;
+bool
+IsHardwareDecryptionSupported
+(
+const
+KeySystemConfig
+&
+aConfig
+)
+;
 const
 char
 *
