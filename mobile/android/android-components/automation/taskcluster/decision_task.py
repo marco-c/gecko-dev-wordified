@@ -61,6 +61,8 @@ task
 for
 pull
 requests
+and
+pushes
 "
 "
 "
