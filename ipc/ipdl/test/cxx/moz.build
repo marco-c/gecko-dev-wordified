@@ -122,11 +122,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestInterruptShutdownRace
-.
-h
-"
-"
 TestJSON
 .
 h
@@ -246,11 +241,6 @@ SOURCES
 +
 =
 [
-"
-TestInterruptShutdownRace
-.
-cpp
-"
 "
 TestJSON
 .
@@ -414,11 +404,6 @@ ipdl
 "
 "
 PTestIndirectProtocolParamSecond
-.
-ipdl
-"
-"
-PTestInterruptShutdownRace
 .
 ipdl
 "
