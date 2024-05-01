@@ -126,11 +126,6 @@ TestOffMainThreadPainting
 .
 h
 "
-"
-TestUrgentHangs
-.
-h
-"
 ]
 SOURCES
 +
@@ -138,11 +133,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestUrgentHangs
 .
 cpp
 "
@@ -199,11 +189,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestUrgentHangs
 .
 ipdl
 "
