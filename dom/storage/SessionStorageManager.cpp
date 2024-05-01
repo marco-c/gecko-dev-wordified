@@ -314,6 +314,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 nsTHashMap
 .
 h
@@ -4649,10 +4656,7 @@ MaybeScheduleSessionStoreUpdate
 if
 (
 !
-StaticPrefs
-:
-:
-browser_sessionstore_platform_collection_AtStartup
+SessionStorePlatformCollection
 (
 )
 )

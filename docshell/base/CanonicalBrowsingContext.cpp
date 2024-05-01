@@ -16712,10 +16712,7 @@ MaybeScheduleSessionStoreUpdate
 if
 (
 !
-StaticPrefs
-:
-:
-browser_sessionstore_platform_collection_AtStartup
+SessionStorePlatformCollection
 (
 )
 )
