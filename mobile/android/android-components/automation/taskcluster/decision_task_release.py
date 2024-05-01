@@ -466,9 +466,6 @@ docs
 uploadArchives
 zipMavenArtifacts
 '
-+
-                 
-bintray_publishing
 )
         
 features
