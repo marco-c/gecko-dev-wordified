@@ -371,7 +371,7 @@ namespace
 TEST
 (
 TestAutoOwningEventTarget
-DISABLED_Simple
+Simple
 )
 {
 {
@@ -400,7 +400,7 @@ true
 TEST
 (
 TestAutoOwningEventTarget
-DISABLED_TaskQueue
+TaskQueue
 )
 {
 nsresult
