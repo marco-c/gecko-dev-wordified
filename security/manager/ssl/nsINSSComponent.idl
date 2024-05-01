@@ -440,11 +440,6 @@ getEnterpriseRoots
 (
 )
 ;
-ACString
-getEnterpriseRootsPEM
-(
-)
-;
 /
 *
 *
@@ -465,11 +460,6 @@ octet
 >
 >
 getEnterpriseIntermediates
-(
-)
-;
-ACString
-getEnterpriseIntermediatesPEM
 (
 )
 ;
