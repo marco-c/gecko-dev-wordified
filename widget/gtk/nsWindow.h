@@ -3946,6 +3946,11 @@ mIsAccelerated
 1
 ;
 bool
+mIsAlert
+:
+1
+;
+bool
 mWindowShouldStartDragging
 :
 1
