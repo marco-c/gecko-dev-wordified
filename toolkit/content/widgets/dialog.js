@@ -3347,6 +3347,12 @@ defaultButton
 if
 (
 btn
+&
+&
+!
+btn
+.
+hidden
 )
 {
 this
