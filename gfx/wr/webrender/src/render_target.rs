@@ -5684,6 +5684,9 @@ RenderTaskAddress
 kind
 input_count
 generic_int
+padding
+:
+0
 extra_data_address
 :
 extra_data_address
