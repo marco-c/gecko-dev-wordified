@@ -742,6 +742,26 @@ android
 "
 ]
                 
+elif
+plat
+.
+startswith
+(
+"
+ios
+"
+)
+:
+                    
+art_dict
+=
+manifest
+[
+"
+ios
+"
+]
+                
 else
 :
                     
