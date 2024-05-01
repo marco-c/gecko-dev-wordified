@@ -3449,6 +3449,9 @@ event
 )
 ;
 }
+#
+ifndef
+FUZZING_SNAPSHOT
 /
 /
 Before
@@ -3623,6 +3626,8 @@ OK
 ;
 }
 }
+#
+endif
 int
 ret
 =
