@@ -802,6 +802,19 @@ writeGuardClassKindImm
 )
     
 "
+ArrayBufferViewKindImm
+"
+:
+(
+"
+ArrayBufferViewKind
+"
+"
+writeArrayBufferViewKindImm
+"
+)
+    
+"
 ValueTypeImm
 "
 :
@@ -2104,6 +2117,29 @@ guardClassKind
 )
     
 "
+ArrayBufferViewKindImm
+"
+:
+(
+        
+"
+ArrayBufferViewKind
+"
+        
+"
+"
+        
+"
+reader
+.
+arrayBufferViewKind
+(
+)
+"
+    
+)
+    
+"
 ValueTypeImm
 "
 :
@@ -3001,6 +3037,14 @@ GuardClassKindImm
 :
 "
 spewGuardClassKindImm
+"
+    
+"
+ArrayBufferViewKindImm
+"
+:
+"
+spewArrayBufferViewKindImm
 "
     
 "
@@ -4091,6 +4135,12 @@ ValueTypeImm
     
 "
 GuardClassKindImm
+"
+:
+1
+    
+"
+ArrayBufferViewKindImm
 "
 :
 1

@@ -3289,6 +3289,16 @@ GuardClassKind
 kind
 )
 ;
+enum
+class
+ArrayBufferViewKind
+:
+uint8_t
+{
+FixedLength
+Resizable
+}
+;
 }
 /
 /
