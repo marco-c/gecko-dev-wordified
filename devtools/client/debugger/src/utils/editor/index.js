@@ -145,6 +145,7 @@ export
 function
 getEditor
 (
+useCm6
 )
 {
 if
@@ -160,6 +161,7 @@ editor
 =
 createEditor
 (
+useCm6
 )
 ;
 return
