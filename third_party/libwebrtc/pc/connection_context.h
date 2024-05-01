@@ -741,7 +741,7 @@ get
 )
 ;
 }
-CallFactoryInterface
+MediaFactory
 *
 call_factory
 (
@@ -1122,7 +1122,7 @@ std
 :
 unique_ptr
 <
-CallFactoryInterface
+MediaFactory
 >
 const
 call_factory_
