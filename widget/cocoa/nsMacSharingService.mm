@@ -649,7 +649,7 @@ strVal
 mozilla
 :
 :
-CopyCocoaStringToXPCOMString
+CopyNSStringToXPCOMString
 (
 aVal
 strVal

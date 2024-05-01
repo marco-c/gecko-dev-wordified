@@ -519,7 +519,7 @@ AppendElement
 (
 )
 ;
-CopyCocoaStringToXPCOMString
+CopyNSStringToXPCOMString
 (
 recognizedText
 .

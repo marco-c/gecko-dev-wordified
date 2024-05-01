@@ -1480,7 +1480,7 @@ dictionary
 mozilla
 :
 :
-CopyCocoaStringToXPCOMString
+CopyNSStringToXPCOMString
 (
 (
 NSString
