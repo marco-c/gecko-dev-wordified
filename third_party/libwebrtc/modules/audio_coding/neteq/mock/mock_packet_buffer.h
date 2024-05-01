@@ -132,12 +132,16 @@ const
 TickTimer
 *
 tick_timer
+StatisticsCalculator
+*
+stats
 )
 :
 PacketBuffer
 (
 max_number_of_packets
 tick_timer
+stats
 )
 {
 }
@@ -165,9 +169,6 @@ MOCK_METHOD
 void
 Flush
 (
-StatisticsCalculator
-*
-stats
 )
 (
 override
@@ -195,9 +196,6 @@ Packet
 &
 &
 packet
-StatisticsCalculator
-*
-stats
 )
 (
 override
@@ -234,9 +232,6 @@ uint8_t
 >
 *
 current_cng_rtp_payload_type
-StatisticsCalculator
-*
-stats
 )
 (
 override
@@ -311,9 +306,6 @@ MOCK_METHOD
 int
 DiscardNextPacket
 (
-StatisticsCalculator
-*
-stats
 )
 (
 override
@@ -329,9 +321,6 @@ uint32_t
 timestamp_limit
 uint32_t
 horizon_samples
-StatisticsCalculator
-*
-stats
 )
 (
 override
@@ -345,9 +334,6 @@ DiscardAllOldPackets
 (
 uint32_t
 timestamp_limit
-StatisticsCalculator
-*
-stats
 )
 (
 override

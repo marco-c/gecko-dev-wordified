@@ -210,6 +210,9 @@ const
 TickTimer
 *
 tick_timer
+StatisticsCalculator
+*
+stats
 )
 ;
 /
@@ -268,9 +271,6 @@ virtual
 void
 Flush
 (
-StatisticsCalculator
-*
-stats
 )
 ;
 /
@@ -342,9 +342,6 @@ Packet
 &
 &
 packet
-StatisticsCalculator
-*
-stats
 )
 ;
 /
@@ -473,9 +470,6 @@ uint8_t
 >
 *
 current_cng_rtp_payload_type
-StatisticsCalculator
-*
-stats
 )
 ;
 /
@@ -711,9 +705,6 @@ virtual
 int
 DiscardNextPacket
 (
-StatisticsCalculator
-*
-stats
 )
 ;
 /
@@ -797,9 +788,6 @@ uint32_t
 timestamp_limit
 uint32_t
 horizon_samples
-StatisticsCalculator
-*
-stats
 )
 ;
 /
@@ -822,9 +810,6 @@ DiscardAllOldPackets
 (
 uint32_t
 timestamp_limit
-StatisticsCalculator
-*
-stats
 )
 ;
 /
@@ -847,9 +832,6 @@ DiscardPacketsWithPayloadType
 (
 uint8_t
 payload_type
-StatisticsCalculator
-*
-stats
 )
 ;
 /
@@ -1086,6 +1068,13 @@ horizon_samples
 }
 private
 :
+void
+LogPacketDiscarded
+(
+int
+codec_level
+)
+;
 size_t
 max_number_of_packets_
 ;
@@ -1096,6 +1085,10 @@ const
 TickTimer
 *
 tick_timer_
+;
+StatisticsCalculator
+*
+stats_
 ;
 }
 ;
