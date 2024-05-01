@@ -4162,6 +4162,13 @@ RED
 is
 enabled
 .
+SdpAudioFormat
+format
+=
+spec
+.
+format
+;
 if
 (
 spec
@@ -4215,6 +4222,15 @@ red_config
 )
 field_trials_
 )
+;
+format
+.
+name
+=
+cricket
+:
+:
+kRedCodecName
 ;
 }
 /
@@ -4303,6 +4319,7 @@ send_codec_spec
 -
 >
 payload_type
+format
 std
 :
 :

@@ -98,6 +98,11 @@ memory
 >
 #
 include
+<
+string
+>
+#
+include
 "
 api
 /
@@ -321,6 +326,13 @@ RTPHeader
 header
 uint32_t
 ssrc
+const
+std
+:
+:
+string
+&
+codec_mime_type
 )
 ;
 /
