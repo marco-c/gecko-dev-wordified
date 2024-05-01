@@ -117,11 +117,6 @@ nsIDOMMozBrowserFrame
 .
 idl
 "
-"
-nsIMozBrowserFrame
-.
-idl
-"
 ]
 XPIDL_MODULE
 =
