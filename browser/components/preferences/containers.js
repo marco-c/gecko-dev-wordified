@@ -809,7 +809,6 @@ value
 }
 onAddButtonCommand
 (
-button
 )
 {
 this

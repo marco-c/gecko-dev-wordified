@@ -1117,7 +1117,8 @@ sync
 sync
 "
 async
-browser
+(
+)
 =
 >
 {

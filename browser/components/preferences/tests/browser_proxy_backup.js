@@ -559,7 +559,6 @@ async
 function
 tabOpened
 (
-aContentWindow
 )
 {
 is
