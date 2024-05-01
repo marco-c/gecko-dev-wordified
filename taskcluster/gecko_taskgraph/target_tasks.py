@@ -6080,28 +6080,6 @@ in
 try_name
 :
                     
-#
-Speedometer
-3
-is
-broken
-on
-Safari
-see
-bug
-1802922
-                    
-if
-"
-speedometer3
-"
-in
-try_name
-:
-                        
-return
-False
-                    
 return
 True
         
