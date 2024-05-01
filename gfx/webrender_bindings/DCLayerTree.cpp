@@ -11091,10 +11091,13 @@ GetPowerIsCharging
 ;
 if
 (
-StaticPrefs
+gfx
 :
 :
-gfx_webrender_overlay_vp_super_resolution_AtStartup
+gfxVars
+:
+:
+WebRenderOverlayVpSuperResolution
 (
 )
 &

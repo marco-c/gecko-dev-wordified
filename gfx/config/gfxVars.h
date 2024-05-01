@@ -833,6 +833,13 @@ WebRenderOverlayVpAutoHDR
 bool
 false
 )
+\
+_
+(
+WebRenderOverlayVpSuperResolution
+bool
+false
+)
 /
 *
 Add
