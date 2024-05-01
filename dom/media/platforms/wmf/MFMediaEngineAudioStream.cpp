@@ -731,7 +731,7 @@ audio
 return
 mRawDataQueueForFeedingEngine
 .
-Duration
+PreciseDuration
 (
 )
 >

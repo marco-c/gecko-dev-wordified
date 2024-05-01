@@ -1552,7 +1552,7 @@ video
 return
 mRawDataQueueForFeedingEngine
 .
-Duration
+PreciseDuration
 (
 )
 >
