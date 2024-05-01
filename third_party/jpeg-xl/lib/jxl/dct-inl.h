@@ -1538,6 +1538,11 @@ JXL_RESTRICT
 mem
 float
 *
+/
+*
+tmp
+*
+/
 )
 {
 }
@@ -1567,6 +1572,11 @@ JXL_RESTRICT
 mem
 float
 *
+/
+*
+tmp
+*
+/
 )
 {
 auto
@@ -1843,6 +1853,11 @@ to_stride
 float
 *
 JXL_RESTRICT
+/
+*
+tmp
+*
+/
 )
 {
 StoreU
@@ -1901,6 +1916,11 @@ to_stride
 float
 *
 JXL_RESTRICT
+/
+*
+tmp
+*
+/
 )
 {
 JXL_DASSERT

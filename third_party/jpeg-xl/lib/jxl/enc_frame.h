@@ -508,10 +508,10 @@ from
 the
 FrameHeader
 .
-size_t
+bool
 clamp
 =
-1
+true
 ;
 /
 /

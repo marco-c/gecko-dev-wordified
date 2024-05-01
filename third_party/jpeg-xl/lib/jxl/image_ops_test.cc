@@ -413,7 +413,10 @@ layout
 {
 FillImage
 (
+static_cast
+<
 T
+>
 (
 1
 )
@@ -500,7 +503,10 @@ x
 ]
 !
 =
+static_cast
+<
 T
+>
 (
 1
 )
@@ -572,7 +578,10 @@ row
 x
 ]
 =
+static_cast
+<
 T
+>
 (
 2
 )
@@ -678,7 +687,10 @@ x
 ]
 !
 =
+static_cast
+<
 T
+>
 (
 0
 )
@@ -750,7 +762,10 @@ row
 x
 ]
 =
+static_cast
+<
 T
+>
 (
 3
 )

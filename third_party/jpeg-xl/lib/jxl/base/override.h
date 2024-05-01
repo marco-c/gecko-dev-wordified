@@ -48,6 +48,11 @@ LIB_JXL_BASE_OVERRIDE_H_
 #
 define
 LIB_JXL_BASE_OVERRIDE_H_
+#
+include
+<
+cstdint
+>
 /
 /
 '
@@ -95,7 +100,7 @@ enum
 class
 Override
 :
-int
+int8_t
 {
 kOn
 =

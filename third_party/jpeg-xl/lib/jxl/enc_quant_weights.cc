@@ -56,6 +56,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 stdlib
 .
 h
@@ -899,7 +908,10 @@ writer
 Write
 (
 1
+TO_JXL_BOOL
+(
 all_default
+)
 )
 ;
 if
@@ -1065,7 +1077,10 @@ writer
 Write
 (
 1
+TO_JXL_BOOL
+(
 all_default
+)
 )
 ;
 if

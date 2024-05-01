@@ -192,7 +192,6 @@ BitsOffset
 size_t
 MaxBits
 (
-const
 size_t
 num_sizes
 )

@@ -139,7 +139,6 @@ image
 void
 LowestFrequenciesFromDC
 (
-const
 jxl
 :
 :

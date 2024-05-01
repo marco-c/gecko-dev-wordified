@@ -720,6 +720,9 @@ DU8
 out0
 out1
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -878,6 +881,9 @@ out0
 out1
 out2
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -1066,6 +1072,9 @@ out1
 out2
 out3
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -1411,6 +1420,9 @@ DU16
 out0
 out1
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -1604,6 +1616,9 @@ out0
 out1
 out2
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -1831,6 +1846,9 @@ out1
 out2
 out3
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -2304,6 +2322,9 @@ D
 out0
 out1
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -2481,6 +2502,9 @@ out0
 out1
 out2
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -2684,6 +2708,9 @@ out1
 out2
 out3
 ;
+/
+/
+NOLINT
 for
 (
 size_t

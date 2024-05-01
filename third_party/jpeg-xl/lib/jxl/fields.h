@@ -2608,8 +2608,9 @@ explicit
 VisitorBase
 (
 )
-{
-}
+=
+default
+;
 ~
 VisitorBase
 (

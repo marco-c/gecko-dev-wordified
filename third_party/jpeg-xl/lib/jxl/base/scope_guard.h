@@ -158,13 +158,14 @@ template
 typename
 CallbackParam
 >
-explicit
 ScopeGuard
 (
 CallbackParam
 &
 &
 callback
+bool
+armed
 )
 :
 callback_
@@ -182,7 +183,7 @@ callback
 )
 armed_
 (
-true
+armed
 )
 {
 }
@@ -253,6 +254,7 @@ Callback
 (
 callback
 )
+true
 }
 ;
 }

@@ -1646,6 +1646,8 @@ x
 ;
 V
 r1
+;
+V
 r2
 ;
 #
@@ -2074,7 +2076,6 @@ MinWidth
 )
 )
 {
-return
 Conv
 :
 :
@@ -2087,8 +2088,9 @@ pool
 out
 )
 ;
-}
 return
+;
+}
 SlowSeparable5
 (
 in
@@ -2164,7 +2166,6 @@ ImageF
 out
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 Separable5

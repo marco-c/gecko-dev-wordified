@@ -1028,7 +1028,10 @@ row
 Mirror
 (
 -
+static_cast
+<
 ssize_t
+>
 (
 ix
 )
@@ -1157,7 +1160,10 @@ c
 Mirror
 (
 -
+static_cast
+<
 ssize_t
+>
 (
 y
 )

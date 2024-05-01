@@ -218,6 +218,9 @@ D
 v0
 v1
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -319,6 +322,9 @@ v0
 v1
 v2
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -424,6 +430,9 @@ v1
 v2
 v3
 ;
+/
+/
+NOLINT
 for
 (
 size_t
@@ -738,6 +747,9 @@ v1
 v2
 v3
 ;
+/
+/
+NOLINT
 for
 (
 size_t

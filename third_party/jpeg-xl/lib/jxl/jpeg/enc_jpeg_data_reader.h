@@ -199,7 +199,6 @@ const
 uint8_t
 *
 data
-const
 size_t
 len
 JpegReadMode

@@ -337,7 +337,6 @@ aligned_pointer
 )
 const
 {
-return
 CacheAligned
 :
 :

@@ -56,6 +56,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 hwy
 /
 base
@@ -502,7 +511,7 @@ difference
 .
 #
 if
-0
+JXL_FALSE
 TEST
 (
 GaborishTest

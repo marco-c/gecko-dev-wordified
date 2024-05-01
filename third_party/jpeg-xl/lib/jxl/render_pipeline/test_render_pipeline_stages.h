@@ -198,9 +198,10 @@ xextra
 ;
 x
 <
-(
+static_cast
+<
 int64_t
-)
+>
 (
 xsize
 +
@@ -486,9 +487,10 @@ xextra
 ;
 x
 <
-(
+static_cast
+<
 int64_t
-)
+>
 (
 xsize
 +

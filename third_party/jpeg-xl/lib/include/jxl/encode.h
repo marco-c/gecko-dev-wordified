@@ -769,6 +769,9 @@ kitten
 9
 :
 tortoise
+10
+:
+glacier
 .
 *
 Default
@@ -12277,7 +12280,7 @@ an
 effort
 value
 of
-10
+11
 *
 which
 gives

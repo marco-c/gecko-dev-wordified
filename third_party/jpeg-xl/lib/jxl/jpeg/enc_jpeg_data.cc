@@ -1296,6 +1296,7 @@ index
 .
 AppendTo
 (
+*
 output
 )
 ;
@@ -2706,6 +2707,7 @@ serialized_jpeg_data
 .
 AppendTo
 (
+*
 bytes
 )
 ;

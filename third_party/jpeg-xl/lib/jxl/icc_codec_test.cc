@@ -310,7 +310,6 @@ icc
 .
 AppendTo
 (
-&
 data
 )
 ;
@@ -334,7 +333,6 @@ by
 the
 decoder
 .
-static
 const
 unsigned
 char
@@ -1344,7 +1342,6 @@ kTestProfile
 .
 AppendTo
 (
-&
 profile
 )
 ;

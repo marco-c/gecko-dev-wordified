@@ -1032,7 +1032,6 @@ size_t
 len_out
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 Upsample2Horizontal
@@ -1074,7 +1073,6 @@ size_t
 len
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 Upsample2Vertical

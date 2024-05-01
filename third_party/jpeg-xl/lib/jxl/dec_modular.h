@@ -785,6 +785,7 @@ render_pipeline_input
 Rect
 modular_rect
 )
+const
 ;
 Image
 full_image

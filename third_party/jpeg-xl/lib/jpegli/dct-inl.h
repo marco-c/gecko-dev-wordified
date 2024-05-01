@@ -1453,7 +1453,6 @@ i
 ;
 }
 }
-static
 JXL_INLINE
 JXL_MAYBE_UNUSED
 void
@@ -1503,7 +1502,6 @@ coefficients
 )
 ;
 }
-static
 JXL_INLINE
 JXL_MAYBE_UNUSED
 void
@@ -1540,7 +1538,6 @@ out
 )
 ;
 }
-static
 JXL_INLINE
 JXL_MAYBE_UNUSED
 void

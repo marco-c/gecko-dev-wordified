@@ -56,6 +56,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -786,7 +795,7 @@ kAlias
 endif
 #
 if
-0
+JXL_FALSE
 /
 /
 No

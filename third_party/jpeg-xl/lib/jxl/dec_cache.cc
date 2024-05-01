@@ -1871,6 +1871,11 @@ linear
 false
 ;
 }
+(
+void
+)
+linear
+;
 if
 (
 main_output

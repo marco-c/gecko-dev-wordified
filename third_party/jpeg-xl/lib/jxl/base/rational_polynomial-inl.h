@@ -83,6 +83,15 @@ endif
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 stddef
 .
 h
@@ -271,7 +280,7 @@ const
 {
 #
 if
-1
+JXL_TRUE
 /
 /
 Faster

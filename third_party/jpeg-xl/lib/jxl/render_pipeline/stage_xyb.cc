@@ -552,9 +552,10 @@ xextra
 ;
 x
 <
-(
+static_cast
+<
 ssize_t
-)
+>
 (
 xsize
 +
@@ -690,9 +691,10 @@ xextra
 ;
 x
 <
-(
+static_cast
+<
 ssize_t
-)
+>
 (
 xsize
 +

@@ -71,6 +71,7 @@ AlphaBlend
 PackedPixelFile
 *
 ppf
+const
 float
 background
 [

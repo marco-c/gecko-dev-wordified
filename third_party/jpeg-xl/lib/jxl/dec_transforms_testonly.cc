@@ -144,7 +144,6 @@ float
 scratch_space
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 TransformToPixels
@@ -190,7 +189,6 @@ JXL_RESTRICT
 scratch
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 LowestFrequenciesFromDC
@@ -223,7 +221,6 @@ JXL_RESTRICT
 pixels
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 AFVIDCT4x4

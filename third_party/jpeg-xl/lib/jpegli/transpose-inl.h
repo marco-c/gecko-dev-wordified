@@ -95,7 +95,6 @@ namespace
 #
 if
 HWY_CAP_GE256
-static
 JXL_INLINE
 void
 Transpose8x8Block
@@ -558,7 +557,6 @@ HWY_TARGET
 !
 =
 HWY_SCALAR
-static
 JXL_INLINE
 void
 Transpose8x8Block

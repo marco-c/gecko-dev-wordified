@@ -478,10 +478,13 @@ bits
 %
 u
 "
-(
+static_cast
+<
 int
-)
+>
+(
 data_type
+)
 bits_per_sample
 exponent_bits
 )

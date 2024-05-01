@@ -4660,7 +4660,10 @@ Translate
 (
 group_data_x_border
 -
+static_cast
+<
 ssize_t
+>
 (
 kRenderPipelineXOffset
 )
@@ -4797,7 +4800,10 @@ info
 .
 base_ptr
 +
+static_cast
+<
 ssize_t
+>
 (
 info
 .
@@ -5794,7 +5800,10 @@ size
 =
 2
 *
+static_cast
+<
 size_t
+>
 (
 bordery
 )
@@ -6081,7 +6090,10 @@ num_extra_rows
 ;
 vy
 <
+static_cast
+<
 int
+>
 (
 image_area_rect
 .
@@ -6190,7 +6202,10 @@ second
 ssize_t
 image_y
 =
+static_cast
+<
 ssize_t
+>
 (
 group_rect
 [
@@ -6228,7 +6243,10 @@ image_y
 image_y
 >
 =
+static_cast
+<
 ssize_t
+>
 (
 image_rect_
 [
@@ -6473,7 +6491,10 @@ y
 y
 >
 =
+static_cast
+<
 ssize_t
+>
 (
 image_area_rect
 .
@@ -6559,7 +6580,10 @@ full_image_y
 full_image_y
 >
 =
+static_cast
+<
 ssize_t
+>
 (
 full_image_ysize
 )

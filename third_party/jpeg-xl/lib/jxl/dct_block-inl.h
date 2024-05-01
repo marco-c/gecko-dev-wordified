@@ -318,6 +318,11 @@ D
 LoadPart
 (
 D
+/
+*
+tag
+*
+/
 const
 size_t
 row
@@ -521,6 +526,11 @@ void
 StorePart
 (
 D
+/
+*
+tag
+*
+/
 const
 Vec
 <

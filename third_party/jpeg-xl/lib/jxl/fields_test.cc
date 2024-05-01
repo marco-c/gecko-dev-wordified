@@ -1428,6 +1428,8 @@ size_t
 extension_bits
 =
 999
+;
+size_t
 total_bits
 =
 999
@@ -1654,6 +1656,8 @@ size_t
 extension_bits
 =
 0
+;
+size_t
 total_bits
 =
 0
@@ -1743,6 +1747,8 @@ size_t
 extension_bits
 =
 0
+;
+size_t
 total_bits
 =
 0
@@ -1816,6 +1822,8 @@ size_t
 extension_bits
 =
 999
+;
+size_t
 total_bits
 =
 999
@@ -1985,6 +1993,8 @@ size_t
 extension_bits
 =
 999
+;
+size_t
 total_bits
 =
 999
@@ -2279,9 +2289,14 @@ visitor
 >
 Conditional
 (
+(
 extensions
 &
 1
+)
+!
+=
+0
 )
 )
 {
@@ -2338,9 +2353,14 @@ visitor
 >
 Conditional
 (
+(
 extensions
 &
 2
+)
+!
+=
+0
 )
 )
 {
@@ -2487,6 +2507,8 @@ size_t
 extension_bits
 =
 12345
+;
+size_t
 total_bits
 =
 12345
@@ -2809,6 +2831,8 @@ size_t
 extension_bits
 =
 12345
+;
+size_t
 total_bits
 =
 12345

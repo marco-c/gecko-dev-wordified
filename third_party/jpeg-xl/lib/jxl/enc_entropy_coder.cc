@@ -754,7 +754,10 @@ const
 int32_t
 nzeros
 =
+static_cast
+<
 int32_t
+>
 (
 cx
 *
@@ -1150,7 +1153,10 @@ const
 int32_t
 nzeros
 =
+static_cast
+<
 int32_t
+>
 (
 kDCTBlockSize
 )
@@ -1297,7 +1303,9 @@ const
 AcStrategyImage
 &
 ac_strategy
+const
 YCbCrChromaSubsampling
+&
 cs
 Image3I
 *
@@ -2075,9 +2083,15 @@ u_coeff
 ;
 prev
 =
+(
 coeff
 !
 =
+0
+)
+?
+1
+:
 0
 ;
 nzeros
@@ -2166,7 +2180,9 @@ const
 AcStrategyImage
 &
 ac_strategy
+const
 YCbCrChromaSubsampling
+&
 cs
 Image3I
 *
@@ -2196,7 +2212,6 @@ BlockCtxMap
 block_ctx_map
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 TokenizeCoefficients

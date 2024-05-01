@@ -793,7 +793,6 @@ linear_b
 )
 ;
 }
-static
 inline
 HWY_MAYBE_UNUSED
 bool
@@ -818,7 +817,6 @@ false
 #
 endif
 }
-static
 inline
 HWY_MAYBE_UNUSED
 void

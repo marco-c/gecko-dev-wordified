@@ -258,10 +258,12 @@ namespace
 Codec
 CodecFromPath
 (
+const
 std
 :
 :
 string
+&
 path
 size_t
 *
@@ -721,7 +723,7 @@ info
 .
 uses_original_profile
 =
-true
+JXL_TRUE
 ;
 ppf
 -
@@ -840,6 +842,14 @@ align
 )
 ;
 }
+dparams
+.
+output_bitdepth
+.
+type
+=
+JXL_BIT_DEPTH_FROM_CODESTREAM
+;
 size_t
 decoded_bytes
 ;

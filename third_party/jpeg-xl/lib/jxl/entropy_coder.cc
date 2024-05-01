@@ -286,6 +286,11 @@ ctx_map
 bool
 is_default
 =
+static_cast
+<
+bool
+>
+(
 br
 -
 >
@@ -294,6 +299,7 @@ ReadFixedBits
 1
 >
 (
+)
 )
 ;
 if

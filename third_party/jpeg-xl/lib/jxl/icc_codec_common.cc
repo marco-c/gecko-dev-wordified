@@ -115,7 +115,6 @@ jxl
 {
 namespace
 {
-static
 uint8_t
 ByteKind1
 (
@@ -254,7 +253,6 @@ return
 7
 ;
 }
-static
 uint8_t
 ByteKind2
 (
@@ -1006,7 +1004,6 @@ p
 0
 }
 ;
-const
 Span
 <
 const

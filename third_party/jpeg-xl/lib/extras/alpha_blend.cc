@@ -78,6 +78,7 @@ AlphaBlend
 PackedFrame
 *
 frame
+const
 float
 background
 [
@@ -136,8 +137,14 @@ format
 .
 num_channels
 ;
+JXL_ASSIGN_OR_DIE
+(
 PackedImage
 blended
+PackedImage
+:
+:
+Create
 (
 im
 .
@@ -146,6 +153,7 @@ im
 .
 ysize
 format
+)
 )
 ;
 /
@@ -421,6 +429,7 @@ AlphaBlend
 PackedPixelFile
 *
 ppf
+const
 float
 background
 [

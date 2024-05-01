@@ -121,6 +121,7 @@ namespace
 jxl
 {
 namespace
+detail
 {
 /
 /
@@ -131,6 +132,8 @@ scalar
 implementation
 for
 testing
+static
+JXL_INLINE
 float
 LoadFloat16
 (
@@ -301,6 +304,7 @@ result
 /
 /
 namespace
+detail
 template
 <
 typename
@@ -580,6 +584,9 @@ i
 callback
 (
 i
+detail
+:
+:
 LoadFloat16
 (
 LoadLE16
@@ -616,6 +623,9 @@ i
 callback
 (
 i
+detail
+:
+:
 LoadFloat16
 (
 LoadBE16

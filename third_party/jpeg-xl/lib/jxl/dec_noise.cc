@@ -863,7 +863,6 @@ Rect
 plane2
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 Random3Planes

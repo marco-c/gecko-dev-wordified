@@ -83,7 +83,6 @@ for
 the
 test
 .
-static
 const
 size_t
 kMaxTestIter

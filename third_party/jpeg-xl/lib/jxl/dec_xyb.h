@@ -241,11 +241,8 @@ from
 the
 metadata
 .
-float
+Matrix3x3
 orig_inverse_matrix
-[
-9
-]
 ;
 bool
 default_transform
@@ -377,11 +374,8 @@ sRGB
 '
 s
 .
-float
+Vector3
 luminances
-[
-3
-]
 ;
 /
 /

@@ -56,6 +56,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 string
 .
 h
@@ -178,7 +187,6 @@ len
 )
 {
 \
-return
 JPEGLI_ERROR
 (
 "
@@ -247,7 +255,6 @@ high
 )
 {
 \
-return
 JPEGLI_ERROR
 (
 "
@@ -286,7 +293,6 @@ len
 )
 {
 \
-return
 JPEGLI_ERROR
 (
 "
@@ -299,7 +305,6 @@ declared
 %
 "
 PRIuS
-\
 "
 actual
 =
@@ -456,6 +461,7 @@ cinfo
 >
 progressive_mode
 =
+TO_JXL_BOOL
 (
 cinfo
 -
@@ -1590,7 +1596,6 @@ B
 regarding
 CSj
 )
-return
 JPEGLI_ERROR
 (
 "
@@ -1683,7 +1688,6 @@ if
 comp
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -1972,10 +1976,13 @@ cinfo
 num_components
 |
 |
+FROM_JXL_BOOL
+(
 cinfo
 -
 >
 progressive_mode
+)
 )
 ;
 }
@@ -2364,7 +2371,6 @@ k
 scan_bitmask
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -2419,7 +2425,6 @@ k
 refinement_bitmask
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -2495,7 +2500,6 @@ Al
 10
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -2583,7 +2587,6 @@ pos
 len
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -2657,9 +2660,10 @@ huffman_index
 =
 slot_id
 ;
-int
+bool
 is_ac_table
 =
+(
 (
 slot_id
 &
@@ -2668,6 +2672,7 @@ slot_id
 !
 =
 0
+)
 ;
 JHUFF_TBL
 *
@@ -3031,7 +3036,6 @@ pos
 len
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -3265,7 +3269,6 @@ m
 found_dri_
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -3572,7 +3575,6 @@ payload_size
 2
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -3620,7 +3622,6 @@ icc_index_
 index
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -3641,7 +3642,6 @@ total
 0
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -3685,7 +3685,6 @@ icc_total_
 total
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -3711,7 +3710,6 @@ m
 icc_total_
 )
 {
-return
 JPEGLI_ERROR
 (
 "
@@ -4254,10 +4252,13 @@ marker
 %
 02x
 "
-(
+static_cast
+<
 int
-)
+>
+(
 num_skipped
+)
 marker
 )
 ;

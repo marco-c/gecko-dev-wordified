@@ -65,6 +65,15 @@ h
 #
 include
 <
+jxl
+/
+types
+.
+h
+>
+#
+include
+<
 algorithm
 >
 #
@@ -793,7 +802,7 @@ for
 {
 #
 if
-0
+JXL_FALSE
 /
 /
 dynamic

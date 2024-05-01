@@ -675,6 +675,11 @@ Run
 thread
 src_buf
 dst_buf
+rect
+.
+xsize
+(
+)
 )
 )
 {

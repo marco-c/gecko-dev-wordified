@@ -502,8 +502,9 @@ Token
 Token
 (
 )
-{
-}
+=
+default
+;
 Token
 (
 uint32_t

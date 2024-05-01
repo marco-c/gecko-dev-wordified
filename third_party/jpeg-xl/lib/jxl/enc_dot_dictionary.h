@@ -159,6 +159,10 @@ Image3F
 &
 opsin
 const
+Rect
+&
+rect
+const
 ColorCorrelationMap
 &
 cmap
