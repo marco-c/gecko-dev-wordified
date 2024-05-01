@@ -1917,10 +1917,18 @@ call
 *
 param
 {
+Object
+}
+options
+*
+param
+{
 Debugger
 .
 Frame
 }
+options
+.
 frame
 *
 A
@@ -1936,6 +1944,8 @@ param
 {
 Number
 }
+options
+.
 depth
 *
 Represents
@@ -1954,6 +1964,8 @@ param
 {
 String
 }
+options
+.
 prefix
 *
 A
