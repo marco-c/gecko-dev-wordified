@@ -522,7 +522,7 @@ java
 .
 lang
 .
-IllegalArgumentException
+RuntimeException
 e
 )
 {
