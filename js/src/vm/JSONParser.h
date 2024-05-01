@@ -1080,14 +1080,7 @@ far
 using
 PropertyVector
 =
-JS
-:
-:
-GCVector
-<
-IdValuePair
-10
->
+IdValueVector
 ;
 enum
 class
