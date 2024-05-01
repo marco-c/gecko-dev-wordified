@@ -587,6 +587,7 @@ thread
 allocation
 .
 struct
+JS_PUBLIC_API
 InstantiationStorage
 {
 private
