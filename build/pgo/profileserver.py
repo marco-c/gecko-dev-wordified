@@ -105,10 +105,6 @@ mozrunner
 import
 CLI
 FirefoxRunner
-from
-six
-import
-string_types
 PORT
 =
 8888
@@ -896,7 +892,7 @@ if
 isinstance
 (
 v
-string_types
+str
 )
 :
                 

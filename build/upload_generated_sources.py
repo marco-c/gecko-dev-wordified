@@ -84,6 +84,10 @@ contextlib
 import
 contextmanager
 from
+queue
+import
+Queue
+from
 threading
 import
 Event
@@ -113,14 +117,6 @@ util
 retry
 import
 Retry
-from
-six
-.
-moves
-.
-queue
-import
-Queue
 #
 Arbitrary
 should
