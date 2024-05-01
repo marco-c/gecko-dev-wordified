@@ -3766,10 +3766,6 @@ mModificationTime
 (
 0
 )
-mIsInBrowserElement
-(
-false
-)
 {
 }
 nsCString
@@ -3792,15 +3788,6 @@ mExpireTime
 ;
 int64_t
 mModificationTime
-;
-/
-/
-Legacy
-for
-migration
-.
-bool
-mIsInBrowserElement
 ;
 }
 ;

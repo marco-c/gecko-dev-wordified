@@ -569,12 +569,6 @@ and
 understand
 oldformatted
 entries
-originAttribs
-.
-mInIsolatedMozBrowser
-=
-true
-;
 break
 ;
 case
