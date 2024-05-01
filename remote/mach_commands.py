@@ -941,6 +941,31 @@ run_npm
 (
             
 "
+run
+"
+            
+"
+clean
+"
+            
+cwd
+=
+puppeteer_dir
+            
+env
+=
+env
+            
+exit_on_fail
+=
+False
+        
+)
+        
+run_npm
+(
+            
+"
 install
 "
             
@@ -2793,12 +2818,6 @@ get
 binary
 "
 )
-or
-self
-.
-get_binary_path
-(
-)
         
 headless
 =
@@ -3047,6 +3066,12 @@ BINARY
 ]
 =
 binary
+or
+self
+.
+get_binary_path
+(
+)
             
 env
 [
@@ -3083,6 +3108,19 @@ False
         
 else
 :
+            
+if
+binary
+:
+                
+env
+[
+"
+BINARY
+"
+]
+=
+binary
             
 env
 [
@@ -4927,6 +4965,17 @@ chrome
 env
 [
 "
+PUPPETEER_PRODUCT
+"
+]
+=
+"
+chrome
+"
+        
+env
+[
+"
 PUPPETEER_CACHE_DIR
 "
 ]
@@ -5025,6 +5074,17 @@ env
 env
 )
     
+#
+Build
+Puppeteer
+and
+the
+code
+to
+download
+browsers
+.
+    
 run_npm
 (
         
@@ -5054,6 +5114,35 @@ env
 =
 env
     
+)
+    
+#
+Run
+post
+install
+steps
+including
+downloading
+the
+Chrome
+browser
+if
+requested
+    
+run_npm
+(
+"
+run
+"
+"
+postinstall
+"
+cwd
+=
+puppeteer_dir_full_path
+env
+=
+env
 )
 def
 exit
