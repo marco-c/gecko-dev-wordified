@@ -527,6 +527,9 @@ height
 )
 maximum
 extent
+for
+either
+dimension
 is
 {
 max_texture_dimension_2d

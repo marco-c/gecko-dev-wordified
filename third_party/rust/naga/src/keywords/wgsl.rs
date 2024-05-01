@@ -119,6 +119,9 @@ f16
 i32
 "
 "
+i64
+"
+"
 mat2x2
 "
 "
@@ -204,6 +207,9 @@ texture_depth_multisampled_2d
 "
 "
 u32
+"
+"
+u64
 "
 "
 vec2
