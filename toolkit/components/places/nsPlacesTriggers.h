@@ -964,7 +964,7 @@ VALUES
 \
 "
 (
-md5hex
+sha256hex
 (
 OLD
 .
