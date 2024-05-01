@@ -126,6 +126,10 @@ const
 uint8_t
 >
 payload
+const
+SocketAddress
+&
+source_address
 absl
 :
 :
@@ -153,6 +157,10 @@ move
 arrival_time
 )
 )
+source_address_
+(
+source_address
+)
 {
 }
 /
@@ -172,6 +180,13 @@ size_t
 size
 int64_t
 packet_time_us
+const
+rtc
+:
+:
+SocketAddress
+&
+source_address
 )
 {
 RTC_DCHECK
@@ -210,6 +225,7 @@ data
 size
 )
 )
+source_address
 (
 packet_time_us
 >
