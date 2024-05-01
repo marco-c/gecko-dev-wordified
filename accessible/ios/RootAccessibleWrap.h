@@ -137,6 +137,9 @@ RootAccessible
 .
 h
 "
+struct
+CGRect
+;
 namespace
 mozilla
 {
@@ -233,6 +236,15 @@ void
 *
 *
 aOutView
+)
+;
+CGRect
+DevPixelsRectToUIKit
+(
+const
+LayoutDeviceIntRect
+&
+aRect
 )
 ;
 }
