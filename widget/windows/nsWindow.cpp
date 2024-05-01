@@ -10329,6 +10329,8 @@ dialog
 ;
 return
 WS_EX_TOOLWINDOW
+|
+WS_EX_TOPMOST
 ;
 }
 return
