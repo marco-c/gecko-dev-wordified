@@ -350,6 +350,14 @@ CanvasContext
 >
 mPresentationContexts
 ;
+void
+TrackPresentationContext
+(
+CanvasContext
+*
+aTargetContext
+)
+;
 public
 :
 const

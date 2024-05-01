@@ -498,6 +498,17 @@ aForwarder
 )
 override
 ;
+bool
+IsOffscreenCanvas
+(
+)
+{
+return
+!
+!
+mOffscreenCanvas
+;
+}
 public
 :
 void
