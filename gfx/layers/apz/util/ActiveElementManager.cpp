@@ -1494,6 +1494,9 @@ it
 .
 if
 (
+mCanBePan
+&
+&
 !
 (
 mTarget
