@@ -6736,7 +6736,7 @@ if
 !
 factory
 .
-GetParentObject
+GetOwnerGlobal
 (
 )
 )
