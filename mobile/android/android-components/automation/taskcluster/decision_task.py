@@ -270,6 +270,10 @@ create_task
 name
 description
 command
+scopes
+=
+[
+]
 )
 :
     
@@ -293,6 +297,7 @@ s
 "
 %
 command
+scopes
 )
 def
 create_raw_task
@@ -300,6 +305,10 @@ create_raw_task
 name
 description
 full_command
+scopes
+=
+[
+]
 )
 :
     
@@ -439,8 +448,7 @@ routes
 scopes
 "
 :
-[
-]
+scopes
         
 "
 requires
@@ -463,6 +471,13 @@ features
 "
 :
 {
+                
+'
+taskclusterProxy
+'
+:
+True
+            
 }
             
 "
@@ -558,6 +573,20 @@ artifacts
 "
 :
 {
+}
+            
+"
+env
+"
+:
+{
+                
+"
+TASK_GROUP_ID
+"
+:
+TASK_ID
+            
 }
         
 }
@@ -664,6 +693,11 @@ module
 command
 =
 "
+-
+Pcoverage
+"
++
+"
 "
 .
 join
@@ -693,6 +727,45 @@ lint
 ]
 )
 )
++
+            
+"
+&
+&
+automation
+/
+taskcluster
+/
+action
+/
+upload_coverage_report
+.
+sh
+"
+        
+scopes
+=
+[
+            
+"
+secrets
+:
+get
+:
+project
+/
+mobile
+/
+android
+-
+components
+/
+public
+-
+tokens
+"
+        
+]
 )
 def
 create_detekt_task
