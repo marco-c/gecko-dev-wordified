@@ -137,6 +137,17 @@ include
 "
 api
 /
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
+api
+/
 peer_connection_interface
 .
 h
@@ -321,6 +332,9 @@ ConnectionContext
 :
 Create
 (
+CreateEnvironment
+(
+)
 &
 dependencies_
 )
