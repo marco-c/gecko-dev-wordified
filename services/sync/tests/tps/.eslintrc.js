@@ -19,7 +19,9 @@ tests
 via
 tps
 .
-jsm
+sys
+.
+mjs
 Addons
 :
 false

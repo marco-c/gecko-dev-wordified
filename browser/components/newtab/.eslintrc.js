@@ -464,11 +464,6 @@ files
 :
 [
 "
-*
-.
-jsm
-"
-"
 lib
 /
 cache

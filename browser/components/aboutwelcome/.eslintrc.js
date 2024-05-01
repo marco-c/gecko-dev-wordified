@@ -380,13 +380,6 @@ files
 :
 [
 "
-modules
-/
-*
-.
-jsm
-"
-"
 tests
 /
 *

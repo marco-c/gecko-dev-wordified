@@ -82,7 +82,9 @@ scopes
 by
 ExtensionCommon
 .
-jsm
+sys
+.
+mjs
 Cc
 :
 true

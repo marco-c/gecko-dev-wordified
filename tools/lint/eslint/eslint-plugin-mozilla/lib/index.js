@@ -515,7 +515,7 @@ script
 js
 "
 )
-jsm
+sysmjs
 :
 require
 (
@@ -527,7 +527,7 @@ lib
 /
 environments
 /
-jsm
+sysmjs
 .
 js
 "
