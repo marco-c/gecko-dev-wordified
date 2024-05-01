@@ -726,7 +726,7 @@ modules
 command
 =
 '
-detektCheck
+detekt
 '
 )
 def
