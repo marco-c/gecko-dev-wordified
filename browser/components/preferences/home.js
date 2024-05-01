@@ -1085,6 +1085,13 @@ remove
 let
 extensionOptions
 ;
+await
+ExtensionSettingsStore
+.
+initialize
+(
+)
+;
 if
 (
 select
@@ -1100,7 +1107,6 @@ homeMode
 {
 extensionOptions
 =
-await
 ExtensionSettingsStore
 .
 getAllSettings
@@ -1114,7 +1120,6 @@ else
 {
 extensionOptions
 =
-await
 ExtensionSettingsStore
 .
 getAllSettings
