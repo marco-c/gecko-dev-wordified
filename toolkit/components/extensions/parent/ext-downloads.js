@@ -4978,6 +4978,8 @@ picker
 init
 (
 window
+.
+browsingContext
 null
 Ci
 .
