@@ -10805,7 +10805,6 @@ precache_create
 (
 )
 ;
-if
 compute_precache
 (
 profile
@@ -10837,7 +10836,7 @@ unwrap
 .
 data
 )
-{
+;
 profile
 .
 output_table_r
@@ -10847,7 +10846,6 @@ Some
 output_table_r
 )
 ;
-}
 }
 if
 profile
@@ -10866,7 +10864,6 @@ precache_create
 (
 )
 ;
-if
 compute_precache
 (
 profile
@@ -10898,7 +10895,7 @@ unwrap
 .
 data
 )
-{
+;
 profile
 .
 output_table_g
@@ -10908,7 +10905,6 @@ Some
 output_table_g
 )
 ;
-}
 }
 if
 profile
@@ -10927,7 +10923,6 @@ precache_create
 (
 )
 ;
-if
 compute_precache
 (
 profile
@@ -10959,7 +10954,7 @@ unwrap
 .
 data
 )
-{
+;
 profile
 .
 output_table_b
@@ -10969,7 +10964,6 @@ Some
 output_table_b
 )
 ;
-}
 }
 ;
 }
