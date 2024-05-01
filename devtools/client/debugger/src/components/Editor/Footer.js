@@ -189,7 +189,6 @@ index
 import
 {
 isPretty
-getFilename
 shouldBlackbox
 }
 from
@@ -923,14 +922,6 @@ url
 )
 ;
 const
-filename
-=
-getFilename
-(
-mappedSource
-)
-;
-const
 label
 =
 L10N
@@ -956,7 +947,9 @@ mappedGeneratedSource
 .
 title
 "
-filename
+mappedSource
+.
+shortName
 )
 ;
 return

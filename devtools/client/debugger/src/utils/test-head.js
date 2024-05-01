@@ -638,6 +638,9 @@ makeSourceURL
 (
 filename
 )
+shortName
+:
+filename
 isPrettyPrinted
 :
 false

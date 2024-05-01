@@ -186,6 +186,14 @@ return
 {
 id
 url
+shortName
+:
+getDisplayURL
+(
+url
+)
+.
+filename
 displayURL
 :
 getDisplayURL

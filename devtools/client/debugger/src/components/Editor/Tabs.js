@@ -196,7 +196,6 @@ tabs
 ;
 import
 {
-getFilename
 isPretty
 getFileURL
 }
@@ -868,14 +867,6 @@ this
 props
 ;
 const
-filename
-=
-getFilename
-(
-source
-)
-;
-const
 onClick
 =
 (
@@ -937,7 +928,9 @@ dropdown
 label
 "
 }
-filename
+source
+.
+shortName
 )
 )
 ;

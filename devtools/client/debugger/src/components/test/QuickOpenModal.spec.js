@@ -846,6 +846,13 @@ mozilla
 .
 com
 "
+shortName
+:
+"
+mozilla
+.
+com
+"
 displayURL
 :
 getDisplayURL
@@ -934,6 +941,13 @@ source
 :
 {
 url
+:
+"
+mozilla
+.
+com
+"
+shortName
 :
 "
 mozilla
