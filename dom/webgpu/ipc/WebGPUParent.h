@@ -1567,6 +1567,12 @@ device
 s
 fence
 .
+std
+:
+:
+unordered_map
+<
+RawId
 RefPtr
 <
 gfx
@@ -1574,7 +1580,8 @@ gfx
 :
 FileHandleWrapper
 >
-mFenceHandle
+>
+mDeviceFenceHandles
 ;
 /
 /
