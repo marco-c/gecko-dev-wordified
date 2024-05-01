@@ -846,10 +846,16 @@ tasks
 ]
     
 assert
+sorted
+(
 tasks
+)
 =
 =
+sorted
+(
 expected
+)
 pytest
 .
 mark
