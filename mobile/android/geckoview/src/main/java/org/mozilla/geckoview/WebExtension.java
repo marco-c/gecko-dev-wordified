@@ -11701,7 +11701,9 @@ sync
 with
 AddonManager
 .
-jsm
+sys
+.
+mjs
 /
 *
 *

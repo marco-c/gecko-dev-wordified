@@ -1177,7 +1177,9 @@ to
 match
 GeckoViewSettings
 .
-jsm
+sys
+.
+mjs
 /
 *
 *
@@ -1321,7 +1323,9 @@ js
 and
 GeckoViewSettings
 .
-jsm
+sys
+.
+mjs
 /
 *
 *

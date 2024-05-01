@@ -2026,7 +2026,9 @@ constants
 in
 AddonManager
 .
-jsm
+sys
+.
+mjs
 for
 values
 to
