@@ -166,11 +166,6 @@ ListMutationObserver
 cpp
 "
 "
-nsButtonFrameRenderer
-.
-cpp
-"
-"
 nsCheckboxRadioFrame
 .
 cpp
