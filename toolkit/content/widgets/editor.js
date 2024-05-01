@@ -126,10 +126,6 @@ nsISupportsWeakReference
 )
 doContent
 (
-contentType
-isContentPreferred
-request
-contentHandler
 )
 {
 return
@@ -138,8 +134,6 @@ false
 }
 isPreferred
 (
-contentType
-desiredContentType
 )
 {
 return
@@ -148,9 +142,6 @@ false
 }
 canHandleContent
 (
-contentType
-isContentPreferred
-desiredContentType
 )
 {
 return

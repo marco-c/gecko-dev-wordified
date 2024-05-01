@@ -247,7 +247,8 @@ addEventListener
 "
 compositionstart
 "
-event
+(
+)
 =
 >
 {
@@ -287,7 +288,8 @@ addEventListener
 "
 compositionend
 "
-event
+(
+)
 =
 >
 {
@@ -327,7 +329,8 @@ addEventListener
 "
 focus
 "
-event
+(
+)
 =
 >
 {
@@ -399,7 +402,8 @@ addEventListener
 "
 blur
 "
-event
+(
+)
 =
 >
 {
@@ -3325,7 +3329,6 @@ value
 }
 onInput
 (
-aEvent
 )
 {
 if

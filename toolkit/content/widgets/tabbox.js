@@ -4086,7 +4086,8 @@ startWithAdjacent
 true
 filter
 =
-tab
+(
+)
 =
 >
 true
@@ -4472,7 +4473,6 @@ e
 }
 _canAdvanceToTab
 (
-aTab
 )
 {
 return

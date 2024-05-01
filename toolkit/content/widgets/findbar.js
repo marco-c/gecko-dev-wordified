@@ -1515,7 +1515,8 @@ addEventListener
 "
 input
 "
-event
+(
+)
 =
 >
 {
@@ -1907,7 +1908,8 @@ addEventListener
 "
 blur
 "
-event
+(
+)
 =
 >
 {
@@ -1952,7 +1954,8 @@ addEventListener
 "
 focus
 "
-event
+(
+)
 =
 >
 {
@@ -1974,7 +1977,8 @@ addEventListener
 "
 compositionstart
 "
-event
+(
+)
 =
 >
 {
@@ -2042,7 +2046,8 @@ addEventListener
 "
 compositionend
 "
-event
+(
+)
 =
 >
 {
@@ -8239,7 +8244,6 @@ result
 }
 onHighlightFinished
 (
-result
 )
 {
 /

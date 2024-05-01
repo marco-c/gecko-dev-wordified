@@ -4233,7 +4233,6 @@ aListener
 }
 onPageHide
 (
-aEvent
 )
 {
 /
@@ -10158,8 +10157,6 @@ itself
 .
 afterChangeRemoteness
 (
-browser
-redirectLoadSwitchId
 )
 {
 /

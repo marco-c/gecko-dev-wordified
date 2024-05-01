@@ -991,7 +991,8 @@ addEventListener
 "
 load
 "
-event
+(
+)
 =
 >
 this

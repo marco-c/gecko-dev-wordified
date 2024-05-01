@@ -3647,7 +3647,8 @@ addEventListener
 "
 popupshowing
 "
-event
+(
+)
 =
 >
 {
@@ -3735,7 +3736,8 @@ addEventListener
 "
 popupshown
 "
-event
+(
+)
 =
 >
 {
@@ -3769,7 +3771,8 @@ addEventListener
 "
 popuphiding
 "
-event
+(
+)
 =
 >
 {

@@ -3129,7 +3129,6 @@ value
 }
 _onDragMouseUp
 (
-aEvent
 )
 {
 var
@@ -4877,7 +4876,8 @@ addEventListener
 "
 touchend
 "
-event
+(
+)
 =
 >
 {
@@ -5176,7 +5176,8 @@ addEventListener
 "
 focus
 "
-event
+(
+)
 =
 >
 {
@@ -9743,7 +9744,6 @@ edge
 }
 _handleEnter
 (
-event
 )
 {
 if

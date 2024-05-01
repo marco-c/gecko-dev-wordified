@@ -1243,7 +1243,6 @@ removed
 /
 radioUnattached
 (
-child
 )
 {
 /
@@ -2922,7 +2921,8 @@ addEventListener
 "
 click
 "
-event
+(
+)
 =
 >
 {
@@ -2953,7 +2953,8 @@ addEventListener
 "
 mousedown
 "
-event
+(
+)
 =
 >
 {

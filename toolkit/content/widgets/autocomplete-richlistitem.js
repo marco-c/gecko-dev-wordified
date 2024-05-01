@@ -171,7 +171,8 @@ addEventListener
 "
 mousedown
 "
-event
+(
+)
 =
 >
 {
@@ -4031,7 +4032,6 @@ emphasized
 /
 _getSearchTokens
 (
-aSearch
 )
 {
 return
