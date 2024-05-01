@@ -19225,6 +19225,14 @@ ResizableDataViewByteLengthDoubleResult
 )
 CACHEOP_CASE_UNIMPL
 (
+GrowableSharedArrayBufferByteLengthInt32Result
+)
+CACHEOP_CASE_UNIMPL
+(
+GrowableSharedArrayBufferByteLengthDoubleResult
+)
+CACHEOP_CASE_UNIMPL
+(
 GuardHasAttachedArrayBuffer
 )
 CACHEOP_CASE_UNIMPL
