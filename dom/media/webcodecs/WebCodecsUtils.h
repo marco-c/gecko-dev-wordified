@@ -1407,6 +1407,15 @@ VideoDecoderConfig
 aConfig
 )
 ;
+bool
+IsSupportedVideoCodec
+(
+const
+nsAString
+&
+aCodec
+)
+;
 }
 /
 /
