@@ -825,14 +825,6 @@ nsIPrompt
 .
 MODAL_TYPE_TAB
 ]
-[
-"
-prompts
-.
-tabChromePromptSubDialog
-"
-true
-]
 ]
 }
 )
