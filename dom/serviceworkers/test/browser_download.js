@@ -49,15 +49,13 @@ content
 /
 "
 "
-http
+https
 :
 /
 /
-mochi
+example
 .
-test
-:
-8888
+com
 /
 "
 )
@@ -513,7 +511,7 @@ function
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 url
