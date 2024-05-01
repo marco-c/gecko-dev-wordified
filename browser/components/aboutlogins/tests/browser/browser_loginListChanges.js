@@ -540,7 +540,6 @@ spawn
 (
 browser
 [
-login
 ]
 async
 (

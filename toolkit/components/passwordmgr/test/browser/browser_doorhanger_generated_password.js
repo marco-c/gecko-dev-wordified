@@ -4719,17 +4719,12 @@ spawn
 (
 browser
 [
-[
 passwordInputSelector
-usernameInputSelector
-]
 ]
 function
 checkEmptyPasswordField
 (
-[
 passwordSelector
-]
 )
 {
 Assert

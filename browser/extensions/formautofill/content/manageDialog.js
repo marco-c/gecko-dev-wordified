@@ -1646,8 +1646,9 @@ _selectedOptions
 }
 observe
 (
-subject
+_subject
 topic
+_data
 )
 {
 switch

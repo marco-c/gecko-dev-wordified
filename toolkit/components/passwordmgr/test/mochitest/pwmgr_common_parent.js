@@ -752,8 +752,8 @@ resolve
 function
 storageChanged
 (
-subject
-topic
+_subject
+_topic
 data
 )
 {
@@ -869,8 +869,9 @@ resolve
 function
 promptShown
 (
-subject
+_subject
 topic
+_data
 )
 {
 Services

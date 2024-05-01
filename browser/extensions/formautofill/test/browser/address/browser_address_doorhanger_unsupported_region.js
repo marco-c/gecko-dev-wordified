@@ -330,7 +330,6 @@ DE
 await
 ensureNoDoorhanger
 (
-browser
 )
 ;
 }
@@ -462,7 +461,6 @@ Street
 await
 ensureNoDoorhanger
 (
-browser
 )
 ;
 }

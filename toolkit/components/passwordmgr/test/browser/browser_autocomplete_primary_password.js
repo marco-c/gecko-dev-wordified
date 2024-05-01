@@ -824,8 +824,9 @@ true
 function
 dialogObserver
 (
-subject
+_subject
 topic
+_data
 )
 {
 Assert

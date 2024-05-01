@@ -1269,9 +1269,9 @@ privacy
 "
 }
 async
-function
-(
-)
+_browser
+=
+>
 {
 const
 relayIntegrationCheckbox

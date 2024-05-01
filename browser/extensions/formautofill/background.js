@@ -77,8 +77,7 @@ onUpdateAvailable
 .
 addListener
 (
-(
-)
+_details
 =
 >
 {

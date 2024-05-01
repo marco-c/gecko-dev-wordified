@@ -50,6 +50,9 @@ addObserver
 function
 observer
 (
+_subject
+_topic
+_data
 )
 {
 Services

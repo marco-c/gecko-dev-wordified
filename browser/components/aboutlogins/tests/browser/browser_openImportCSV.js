@@ -211,8 +211,7 @@ MockFilePicker
 .
 showCallback
 =
-(
-)
+_fp
 =
 >
 {
@@ -1453,17 +1452,6 @@ page
 .
 *
 *
-param
-{
-browser
-}
-browser
-*
-The
-browser
-object
-.
-*
 returns
 {
 Promise
@@ -2454,7 +2442,6 @@ CsvImportHelper
 .
 getDetailedReportData
 (
-browser
 )
 ;
 BrowserTestUtils

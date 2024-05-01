@@ -805,6 +805,7 @@ filter
 (
 (
 [
+_time
 category
 method
 object
@@ -812,9 +813,6 @@ object
 )
 =
 >
-{
-return
-(
 category
 =
 =
@@ -840,9 +838,6 @@ object
 telemetryProps
 .
 object
-)
-;
-}
 )
 ;
 resultsCount

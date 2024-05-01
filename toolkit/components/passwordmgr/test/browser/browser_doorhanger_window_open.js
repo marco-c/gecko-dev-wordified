@@ -139,7 +139,7 @@ aTaskFn
 function
 storageChangedObserved
 (
-subject
+_subject
 data
 )
 {
@@ -222,6 +222,7 @@ aPageFile
 async
 function
 (
+_browser
 )
 {
 Assert

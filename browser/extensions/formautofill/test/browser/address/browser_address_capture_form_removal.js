@@ -748,7 +748,6 @@ shown
 await
 ensureNoDoorhanger
 (
-browser
 )
 ;
 }

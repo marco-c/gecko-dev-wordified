@@ -441,17 +441,10 @@ spawn
 (
 browser
 [
-[
 originTuple
-i
-]
 ]
 async
-(
-[
 aOriginTuple
-]
-)
 =
 >
 {
@@ -1574,7 +1567,6 @@ spawn
 (
 browser
 [
-originTuple
 ]
 async
 (
@@ -1658,7 +1650,6 @@ spawn
 (
 browser
 [
-originTuple
 ]
 async
 (
@@ -2093,9 +2084,6 @@ spawn
 (
 browser
 [
-testCases
-.
-length
 ]
 async
 (

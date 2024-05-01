@@ -453,7 +453,6 @@ shown
 await
 ensureNoDoorhanger
 (
-browser
 )
 ;
 }
@@ -755,7 +754,6 @@ shown
 await
 ensureNoDoorhanger
 (
-browser
 )
 ;
 }
@@ -1415,6 +1413,8 @@ shown
 ;
 await
 ensureNoDoorhanger
+(
+)
 ;
 ok
 (

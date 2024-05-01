@@ -776,6 +776,7 @@ function
 test_add_tombstone
 (
 storage
+_record
 )
 {
 info
@@ -985,6 +986,7 @@ function
 test_add_tombstone_without_guid
 (
 storage
+_record
 )
 {
 info
@@ -1201,6 +1203,7 @@ function
 test_update_tombstone
 (
 storage
+_record
 )
 {
 info
@@ -1269,6 +1272,7 @@ function
 test_remove_existing_tombstone
 (
 storage
+_record
 )
 {
 info
