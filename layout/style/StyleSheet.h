@@ -3259,9 +3259,14 @@ BlockParsePromise
 (
 )
 {
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 uint32_t
 count
 =
+#
+endif
 +
 +
 mAsyncParseBlockers
