@@ -687,7 +687,7 @@ mExpirationTime
 ;
 /
 /
-we
+We
 need
 to
 block
@@ -732,7 +732,15 @@ in
 main
 thread
 is
-dispatched
+processed
+for
+stuff
+like
+performance
+/
+/
+resource
+entries
 .
 mSheetLoadData
 -
@@ -740,9 +748,8 @@ mSheetLoadData
 mSheet
 -
 >
-BlockOrUnblockParsePromise
+BlockParsePromise
 (
-true
 )
 ;
 return
@@ -983,9 +990,8 @@ mSheetLoadData
 mSheet
 -
 >
-BlockOrUnblockParsePromise
+UnblockParsePromise
 (
-false
 )
 ;
 }
