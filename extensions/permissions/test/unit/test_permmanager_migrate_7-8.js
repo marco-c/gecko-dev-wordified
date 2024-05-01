@@ -826,7 +826,7 @@ inBrowser
 1
 "
 "
-A
+C
 "
 2
 0
@@ -942,7 +942,7 @@ foo
 com
 "
 "
-A
+C
 "
 1
 0
@@ -1398,13 +1398,9 @@ http
 foo
 .
 com
-^
-inBrowser
-=
-1
 "
 "
-A
+C
 "
 2
 0
