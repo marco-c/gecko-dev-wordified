@@ -66,6 +66,8 @@ path
 as
 mozpath
 import
+six
+import
 toml
 #
 Try
@@ -240,7 +242,6 @@ subprocess
 .
 Popen
 (
-        
 args
 env
 =
@@ -255,10 +256,6 @@ stderr
 subprocess
 .
 PIPE
-text
-=
-True
-    
 )
     
 stdout
@@ -268,6 +265,24 @@ p
 .
 communicate
 (
+)
+    
+stdout
+=
+six
+.
+ensure_text
+(
+stdout
+)
+    
+stderr
+=
+six
+.
+ensure_text
+(
+stderr
 )
     
 if
