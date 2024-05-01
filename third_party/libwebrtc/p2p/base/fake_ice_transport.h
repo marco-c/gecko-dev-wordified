@@ -751,9 +751,8 @@ gathering_state_
 =
 kIceGatheringComplete
 ;
-SignalGatheringState
+SendGatheringStateEvent
 (
-this
 )
 ;
 }
@@ -1260,9 +1259,8 @@ gathering_state_
 =
 kIceGatheringGathering
 ;
-SignalGatheringState
+SendGatheringStateEvent
 (
-this
 )
 ;
 }

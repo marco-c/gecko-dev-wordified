@@ -5703,9 +5703,8 @@ gathering_state_
 =
 kIceGatheringGathering
 ;
-SignalGatheringState
+SendGatheringStateEvent
 (
-this
 )
 ;
 }
@@ -6619,9 +6618,8 @@ gathering
 complete
 "
 ;
-SignalGatheringState
+SendGatheringStateEvent
 (
-this
 )
 ;
 }
