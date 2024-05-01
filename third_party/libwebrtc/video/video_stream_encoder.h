@@ -890,6 +890,10 @@ cwnd_reduce_ratio
 ;
 protected
 :
+friend
+class
+VideoStreamEncoderFrameCadenceRestrictionTest
+;
 /
 /
 Used
