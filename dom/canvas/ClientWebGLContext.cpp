@@ -36452,7 +36452,7 @@ funcScope
 *
 this
 "
-detachShader
+bindAttribLocation
 "
 )
 ;
