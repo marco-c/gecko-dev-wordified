@@ -413,6 +413,8 @@ nsAString
 aKeySystem
 MediaKeySessionType
 aSessionType
+bool
+aHardwareDecryption
 ErrorResult
 &
 aRv
@@ -464,6 +466,10 @@ JS
 GenericNaN
 (
 )
+)
+mHardwareDecryption
+(
+aHardwareDecryption
 )
 {
 EME_LOG
@@ -1868,6 +1874,7 @@ KeySystemSupportsInitDataType
 (
 mKeySystem
 aInitDataType
+mHardwareDecryption
 )
 )
 {
