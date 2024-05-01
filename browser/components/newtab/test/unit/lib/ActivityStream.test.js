@@ -3788,8 +3788,6 @@ addObserver
 callsFake
 (
 (
-pref
-obs
 )
 =
 >

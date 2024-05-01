@@ -336,7 +336,8 @@ necessary
 const
 messageMiddleware
 =
-store
+(
+)
 =
 >
 next

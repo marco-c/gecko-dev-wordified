@@ -339,9 +339,6 @@ id
 }
 attributeChangedCallback
 (
-name
-oldValue
-newValue
 )
 {
 this
