@@ -6160,10 +6160,6 @@ cpp
 EnumeratedArray
 <
 WebGLExtensionID
-WebGLExtensionID
-:
-:
-Max
 std
 :
 :
@@ -6171,6 +6167,10 @@ unique_ptr
 <
 WebGLExtensionBase
 >
+WebGLExtensionID
+:
+:
+Max
 >
 mExtensions
 ;

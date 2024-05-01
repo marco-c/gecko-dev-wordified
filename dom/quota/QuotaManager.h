@@ -3898,11 +3898,11 @@ Client
 :
 :
 Type
+nsCString
 Client
 :
 :
 TYPE_MAX
-nsCString
 >
 mShutdownSteps
 ;

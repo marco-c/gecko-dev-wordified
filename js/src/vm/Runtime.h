@@ -3594,13 +3594,6 @@ JS
 :
 :
 RootKind
-JS
-:
-:
-RootKind
-:
-:
-Limit
 mozilla
 :
 :
@@ -3611,6 +3604,13 @@ js
 :
 PersistentRootedBase
 >
+JS
+:
+:
+RootKind
+:
+:
+Limit
 >
 >
 heapRoots

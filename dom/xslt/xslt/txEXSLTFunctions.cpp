@@ -1294,11 +1294,11 @@ static
 EnumeratedArray
 <
 txEXSLTType
+txEXSLTFunctionDescriptor
 txEXSLTType
 :
 :
 _LIMIT
-txEXSLTFunctionDescriptor
 >
 descriptTable
 ;

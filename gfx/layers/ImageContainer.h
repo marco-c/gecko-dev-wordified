@@ -1234,6 +1234,10 @@ layers
 :
 :
 LayersBackend
+UniquePtr
+<
+ImageBackendData
+>
 mozilla
 :
 :
@@ -1244,10 +1248,6 @@ LayersBackend
 :
 :
 LAYERS_LAST
-UniquePtr
-<
-ImageBackendData
->
 >
 mBackendData
 ;
