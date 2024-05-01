@@ -89,7 +89,6 @@ async
 function
 assertExpectedContentPage
 (
-contentPage
 )
 {
 const
