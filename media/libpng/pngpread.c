@@ -18,8 +18,6 @@ Copyright
 c
 )
 2018
--
-2024
 Cosmin
 Truta
 *
@@ -739,9 +737,6 @@ signature
 num_checked
 num_to_check
 )
-!
-=
-0
 )
 {
 if
@@ -762,9 +757,6 @@ num_to_check
 -
 4
 )
-!
-=
-0
 )
 png_error
 (
@@ -6724,7 +6716,9 @@ png_ptr
 NULL
 )
 return
+(
 NULL
+)
 ;
 return
 png_ptr

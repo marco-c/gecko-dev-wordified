@@ -21,7 +21,7 @@ c
 )
 2018
 -
-2024
+2019
 Cosmin
 Truta
 *
@@ -1556,7 +1556,7 @@ png_debug
 1
 "
 in
-png_set_alpha_mode_fixed
+png_set_alpha_mode
 "
 )
 ;
@@ -5771,7 +5771,7 @@ png_debug
 1
 "
 in
-png_set_rgb_to_gray_fixed
+png_set_rgb_to_gray
 "
 )
 ;
