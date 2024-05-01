@@ -207,10 +207,6 @@ majorRelease2022
 "
     
 "
-migrationWizard
-"
-    
-"
 newtab
 "
     
