@@ -566,6 +566,17 @@ int
 flags
 )
 ;
+flat_set
+<
+uint32_t
+>
+GetSsrcsForSink
+(
+RtpPacketSinkInterface
+*
+sink
+)
+;
 /
 /
 Overridden
