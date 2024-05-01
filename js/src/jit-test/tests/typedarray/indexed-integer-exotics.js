@@ -790,8 +790,6 @@ that
 bug
 landed
 .
-/
-/
 assertThrows
 (
 '
@@ -835,8 +833,6 @@ use
 "
 instead
 .
-/
-/
 assertThrows
 (
 '
@@ -862,8 +858,6 @@ value
 '
 )
 ;
-/
-/
 assertThrows
 (
 '
@@ -887,8 +881,6 @@ value
 '
 )
 ;
-/
-/
 assertThrows
 (
 '
