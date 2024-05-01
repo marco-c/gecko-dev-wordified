@@ -284,7 +284,7 @@ MOZ_ACCESSIBILITY_ATK
 |
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 /
 *
@@ -299,11 +299,10 @@ enabled
 Only
 used
 on
-linux
-with
-atk
-and
+Linux
 MacOS
+and
+iOS
 for
 now
 .
