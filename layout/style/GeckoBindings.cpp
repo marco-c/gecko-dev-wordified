@@ -275,13 +275,6 @@ h
 #
 include
 "
-nsIMozBrowserFrame
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h
