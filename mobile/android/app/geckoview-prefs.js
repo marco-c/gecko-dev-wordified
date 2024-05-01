@@ -1316,14 +1316,10 @@ true
 ;
 /
 /
-Bug
-1809922
-to
-enable
+Enables
+the
 translations
-#
-ifdef
-NIGHTLY_BUILD
+engine
 pref
 (
 "
@@ -1369,8 +1365,6 @@ enableAllTestMocks
 false
 )
 ;
-#
-endif
 /
 /
 SSL
