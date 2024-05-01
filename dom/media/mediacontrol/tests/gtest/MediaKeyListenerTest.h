@@ -124,15 +124,9 @@ override
 {
 mReceivedKey
 =
-mozilla
-:
-:
-Some
-(
 aAction
 .
 mKey
-)
 ;
 }
 bool

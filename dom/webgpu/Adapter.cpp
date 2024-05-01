@@ -807,17 +807,6 @@ Some
 WGPUFeatures_FLOAT32_FILTERABLE
 )
 ;
-case
-dom
-:
-:
-GPUFeatureName
-:
-:
-EndGuard_
-:
-break
-;
 }
 MOZ_CRASH
 (
