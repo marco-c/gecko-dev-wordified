@@ -719,9 +719,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 EncodedImageBufferInterface
 >
 encoded_buffer
@@ -739,9 +736,6 @@ absl
 :
 optional
 <
-webrtc
-:
-:
 ColorSpace
 >
 color_space

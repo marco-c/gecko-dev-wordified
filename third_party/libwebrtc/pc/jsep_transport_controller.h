@@ -885,9 +885,6 @@ suites
 or
 not
 .
-webrtc
-:
-:
 CryptoOptions
 crypto_options
 ;
@@ -936,9 +933,6 @@ transports
 created
 externally
 .
-webrtc
-:
-:
 IceTransportFactory
 *
 ice_transport_factory
@@ -1076,9 +1070,6 @@ Field
 trials
 .
 const
-webrtc
-:
-:
 FieldTrialsView
 *
 field_trials
@@ -1350,9 +1341,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 DtlsTransport
 >
 LookupDtlsTransportByMid
@@ -3061,9 +3049,6 @@ rtc
 :
 scoped_refptr
 <
-webrtc
-:
-:
 IceTransportInterface
 >
 CreateIceTransport
@@ -3084,9 +3069,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 RtpTransport
 >
 CreateUnencryptedRtpTransport
@@ -3117,9 +3099,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 SrtpTransport
 >
 CreateSdesTransport
@@ -3150,9 +3129,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 DtlsSrtpTransport
 >
 CreateDtlsSrtpTransport
@@ -3468,9 +3444,6 @@ void
 OnUnDemuxableRtpPacketReceived_n
 (
 const
-webrtc
-:
-:
 RtpPacketReceived
 &
 packet

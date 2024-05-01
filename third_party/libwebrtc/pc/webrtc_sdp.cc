@@ -20457,9 +20457,6 @@ JsepIceCandidate
 >
 *
 candidates
-webrtc
-:
-:
 SdpParseError
 *
 error

@@ -2690,9 +2690,6 @@ GetParam
 )
 )
 {
-webrtc
-:
-:
 metrics
 :
 :
@@ -4119,9 +4116,6 @@ get
 ;
 EXPECT_METRIC_THAT
 (
-webrtc
-:
-:
 metrics
 :
 :
@@ -11580,9 +11574,6 @@ MoveValue
 )
 ;
 }
-webrtc
-:
-:
 test
 :
 :

@@ -3906,9 +3906,6 @@ stopping
 )
 )
 return
-webrtc
-:
-:
 RtpTransceiverDirection
 :
 :
@@ -4045,9 +4042,6 @@ stopped
 )
 )
 return
-webrtc
-:
-:
 RtpTransceiverDirection
 :
 :
@@ -4272,9 +4266,6 @@ true
 ;
 direction_
 =
-webrtc
-:
-:
 RtpTransceiverDirection
 :
 :

@@ -2184,9 +2184,6 @@ rtc
 scoped_refptr
 <
 const
-webrtc
-:
-:
 RTCStatsReport
 >
 PeerConnectionWrapper

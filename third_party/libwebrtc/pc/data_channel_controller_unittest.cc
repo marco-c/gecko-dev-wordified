@@ -186,9 +186,6 @@ class
 MockDataChannelTransport
 :
 public
-webrtc
-:
-:
 DataChannelTransportInterface
 {
 public

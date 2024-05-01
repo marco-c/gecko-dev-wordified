@@ -2093,9 +2093,6 @@ MediaStreamTrackInterface
 kAudioKind
 ;
 }
-webrtc
-:
-:
 AudioSourceInterface
 *
 GetSource
@@ -2111,9 +2108,6 @@ nullptr
 void
 AddSink
 (
-webrtc
-:
-:
 AudioTrackSinkInterface
 *
 sink
@@ -2124,9 +2118,6 @@ override
 void
 RemoveSink
 (
-webrtc
-:
-:
 AudioTrackSinkInterface
 *
 sink
@@ -16721,9 +16712,6 @@ GetStats
 "
 again
 .
-webrtc
-:
-:
 Call
 :
 :
@@ -19435,9 +19423,6 @@ receivers
 .
 total_decode_time
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -19455,9 +19440,6 @@ receivers
 .
 total_processing_delay
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -19475,9 +19457,6 @@ receivers
 .
 total_assembly_time
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -21714,9 +21693,6 @@ senders
 .
 total_packet_send_delay
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -21748,9 +21724,6 @@ senders
 .
 quality_limitation_durations_ms
 [
-webrtc
-:
-:
 QualityLimitationReason
 :
 :

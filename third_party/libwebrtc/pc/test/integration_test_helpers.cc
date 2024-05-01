@@ -336,9 +336,6 @@ std
 vector
 <
 const
-webrtc
-:
-:
 RTCInboundRtpStreamStats
 *
 >

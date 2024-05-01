@@ -398,9 +398,6 @@ rtc
 :
 VideoSinkInterface
 <
-webrtc
-:
-:
 VideoFrame
 >
 *
@@ -433,9 +430,6 @@ rtc
 :
 VideoSinkInterface
 <
-webrtc
-:
-:
 VideoFrame
 >
 *

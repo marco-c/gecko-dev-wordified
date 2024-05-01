@@ -589,9 +589,6 @@ track
 .
 scoped_refptr
 <
-webrtc
-:
-:
 MediaStreamTrackInterface
 >
 video_track
@@ -746,9 +743,6 @@ track
 .
 scoped_refptr
 <
-webrtc
-:
-:
 MediaStreamTrackInterface
 >
 audio_track
@@ -1078,9 +1072,6 @@ ChangeVideoTrack
 {
 scoped_refptr
 <
-webrtc
-:
-:
 VideoTrackInterface
 >
 video_track
@@ -1114,9 +1105,6 @@ ChangeAudioTrack
 {
 scoped_refptr
 <
-webrtc
-:
-:
 AudioTrackInterface
 >
 audio_track

@@ -452,9 +452,6 @@ be
 functions
 on
 the
-webrtc
-:
-:
 SctpTransport
 interface
 /

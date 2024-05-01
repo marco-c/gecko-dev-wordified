@@ -1292,9 +1292,6 @@ if
 rtc_configuration_parameter
 =
 =
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -2901,9 +2898,6 @@ int
 >
 stun_candidate_keepalive_interval
 ;
-webrtc
-:
-:
 TurnCustomizer
 *
 turn_customizer
@@ -2965,9 +2959,6 @@ int
 >
 stable_writable_connection_ping_interval_ms
 ;
-webrtc
-:
-:
 VpnPreference
 vpn_preference
 ;
@@ -11339,9 +11330,6 @@ this
 callback
 ]
 (
-webrtc
-:
-:
 RTCError
 result
 )
@@ -12061,9 +12049,6 @@ RtcEventLogNewFormat
 {
 output_period_ms
 =
-webrtc
-:
-:
 RtcEventLog
 :
 :
@@ -14691,9 +14676,6 @@ int
 candidate_pool_size
 PortPrunePolicy
 turn_port_prune_policy
-webrtc
-:
-:
 TurnCustomizer
 *
 turn_customizer

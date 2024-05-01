@@ -1323,9 +1323,6 @@ ExtractSenderInfo
 (
 )
 ;
-webrtc
-:
-:
 StatsReport
 *
 GetReport

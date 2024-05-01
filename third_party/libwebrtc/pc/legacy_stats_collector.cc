@@ -2430,9 +2430,6 @@ StatsReport
 :
 :
 kStatsValueNameContentType
-webrtc
-:
-:
 videocontenttypehelpers
 :
 :
@@ -2748,9 +2745,6 @@ StatsReport
 :
 :
 kStatsValueNameContentType
-webrtc
-:
-:
 videocontenttypehelpers
 :
 :
@@ -7095,9 +7089,6 @@ kClosed
 )
 return
 ;
-webrtc
-:
-:
 Call
 :
 :

@@ -1673,9 +1673,6 @@ MockPeerConnectionObserver
 (
 )
 ;
-webrtc
-:
-:
 PeerConnectionDependencies
 dependencies
 (

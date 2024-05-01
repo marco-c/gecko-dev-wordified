@@ -669,9 +669,6 @@ this
 .
 AdvanceTime
 (
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -3776,9 +3773,6 @@ ConnectFakeSignaling
 (
 )
 ;
-webrtc
-:
-:
 DataChannelInit
 init
 ;
@@ -4099,9 +4093,6 @@ ConnectFakeSignaling
 (
 )
 ;
-webrtc
-:
-:
 DataChannelInit
 init
 ;
@@ -4648,9 +4639,6 @@ has_negotiated
 =
 false
 ;
-webrtc
-:
-:
 DataChannelInit
 init
 ;
@@ -5383,9 +5371,6 @@ has_negotiated
 =
 false
 ;
-webrtc
-:
-:
 DataChannelInit
 init
 ;

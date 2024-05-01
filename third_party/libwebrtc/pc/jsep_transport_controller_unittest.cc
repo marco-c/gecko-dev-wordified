@@ -472,9 +472,6 @@ class
 FakeIceTransportFactory
 :
 public
-webrtc
-:
-:
 IceTransportFactory
 {
 public
@@ -571,9 +568,6 @@ IceTransportInternal
 *
 ice
 const
-webrtc
-:
-:
 CryptoOptions
 &
 crypto_options
@@ -2693,9 +2687,6 @@ JsepTransportController
 >
 transport_controller_
 ;
-webrtc
-:
-:
 test
 :
 :
@@ -3060,9 +3051,6 @@ LookupDtlsTransportByMid
 kVideoMid1
 )
 ;
-webrtc
-:
-:
 DtlsTransport
 *
 my_transport
@@ -6658,9 +6646,6 @@ fake_ice_transport
 >
 SetTransportState
 (
-webrtc
-:
-:
 IceTransportState
 :
 :

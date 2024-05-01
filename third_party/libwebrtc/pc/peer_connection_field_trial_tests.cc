@@ -479,9 +479,6 @@ InitializeAndroidObjects
 ;
 #
 endif
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -777,9 +774,6 @@ pc_factory_
 =
 nullptr
 ;
-webrtc
-:
-:
 PeerConnectionInterface
 :
 :
@@ -978,9 +972,6 @@ rtp_header_extensions1
 ]
 (
 const
-webrtc
-:
-:
 RtpExtension
 &
 rtp_extension
@@ -1209,9 +1200,6 @@ rtp_header_extensions1
 ]
 (
 const
-webrtc
-:
-:
 RtpExtension
 &
 rtp_extension
@@ -1255,9 +1243,6 @@ existing_ids
 for
 (
 const
-webrtc
-:
-:
 RtpExtension
 &
 rtp_extension
@@ -1494,9 +1479,6 @@ rtp_header_extensions2
 ]
 (
 const
-webrtc
-:
-:
 RtpExtension
 &
 rtp_extension

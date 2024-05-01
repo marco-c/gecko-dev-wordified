@@ -189,9 +189,6 @@ PeerConnectionDependencies
 )
 PROXY_CONSTMETHOD1
 (
-webrtc
-:
-:
 RtpCapabilities
 GetRtpSenderCapabilities
 cricket
@@ -201,9 +198,6 @@ MediaType
 )
 PROXY_CONSTMETHOD1
 (
-webrtc
-:
-:
 RtpCapabilities
 GetRtpReceiverCapabilities
 cricket

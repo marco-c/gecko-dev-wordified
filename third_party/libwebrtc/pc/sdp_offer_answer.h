@@ -5050,9 +5050,6 @@ std
 :
 unique_ptr
 <
-webrtc
-:
-:
 VideoBitrateAllocatorFactory
 >
 video_bitrate_allocator_factory_

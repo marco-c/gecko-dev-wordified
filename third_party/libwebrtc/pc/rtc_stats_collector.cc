@@ -2138,9 +2138,6 @@ std
 :
 map
 <
-webrtc
-:
-:
 QualityLimitationReason
 int64_t
 >
@@ -3307,9 +3304,6 @@ AudioDeviceModule
 Stats
 &
 audio_device_stats
-webrtc
-:
-:
 Timestamp
 timestamp
 )

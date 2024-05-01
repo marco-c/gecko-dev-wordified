@@ -613,9 +613,6 @@ media_channel
 )
 ;
 }
-webrtc
-:
-:
 VideoTrackSourceInterface
 *
 Source

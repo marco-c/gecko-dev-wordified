@@ -2000,9 +2000,6 @@ field_trials_
 }
 protected
 :
-webrtc
-:
-:
 test
 :
 :

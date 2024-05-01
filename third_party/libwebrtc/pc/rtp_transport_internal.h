@@ -566,9 +566,6 @@ AnyInvocable
 <
 void
 (
-webrtc
-:
-:
 RtpPacketReceived
 &
 )
@@ -1155,9 +1152,6 @@ AnyInvocable
 <
 void
 (
-webrtc
-:
-:
 RtpPacketReceived
 &
 )

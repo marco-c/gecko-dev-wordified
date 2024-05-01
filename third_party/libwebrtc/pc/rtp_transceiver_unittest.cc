@@ -3322,9 +3322,6 @@ RtpHeaderExtensions
 extensions
 =
 {
-webrtc
-:
-:
 RtpExtension
 (
 "
@@ -3332,9 +3329,6 @@ uri1
 "
 1
 )
-webrtc
-:
-:
 RtpExtension
 (
 "
@@ -3541,9 +3535,6 @@ RtpHeaderExtensions
 extensions
 =
 {
-webrtc
-:
-:
 RtpExtension
 (
 "
@@ -3551,9 +3542,6 @@ uri1
 "
 1
 )
-webrtc
-:
-:
 RtpExtension
 (
 "
@@ -3653,9 +3641,6 @@ kStopped
 extensions
 =
 {
-webrtc
-:
-:
 RtpExtension
 (
 "
@@ -3663,9 +3648,6 @@ uri3
 "
 4
 )
-webrtc
-:
-:
 RtpExtension
 (
 "

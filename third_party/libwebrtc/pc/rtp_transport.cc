@@ -1243,9 +1243,6 @@ int64_t
 packet_time_us
 )
 {
-webrtc
-:
-:
 RtpPacketReceived
 parsed_packet
 (
