@@ -170,6 +170,11 @@ TestEndpointOpens
 cpp
 "
 "
+TestHangs
+.
+cpp
+"
+"
 TestInduceConnectionError
 .
 cpp
@@ -246,6 +251,11 @@ ipdl
 "
 "
 PTestEndpointOpensOpened
+.
+ipdl
+"
+"
+PTestHangs
 .
 ipdl
 "
