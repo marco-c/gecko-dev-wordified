@@ -47,7 +47,9 @@ usage
 Update
 vtt
 .
-jsm
+sys
+.
+mjs
 with
 the
 latest
@@ -160,7 +162,9 @@ default
 /
 vtt
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
