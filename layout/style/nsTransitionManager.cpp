@@ -920,6 +920,17 @@ duration
 continue
 ;
 }
+const
+auto
+behavior
+=
+aStyle
+.
+GetTransitionBehavior
+(
+i
+)
+;
 ExpandTransitionProperty
 (
 aStyle
@@ -974,6 +985,7 @@ aStyle
 i
 delay
 duration
+behavior
 aElement
 aPseudoType
 aElementTransitions
@@ -1852,6 +1864,11 @@ float
 aDelay
 float
 aDuration
+mozilla
+:
+:
+StyleTransitionBehavior
+aBehavior
 dom
 :
 :
@@ -2158,6 +2175,7 @@ aOldStyle
 aNewStyle
 &
 property
+aBehavior
 oldTransition
 ?
 oldTransition

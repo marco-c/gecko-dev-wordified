@@ -450,6 +450,11 @@ aDuration
 mozilla
 :
 :
+StyleTransitionBehavior
+aBehavior
+mozilla
+:
+:
 dom
 :
 :
