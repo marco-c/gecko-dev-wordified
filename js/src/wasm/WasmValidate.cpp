@@ -12084,8 +12084,7 @@ d
 fail
 (
 "
-Structure
-types
+gc
 not
 enabled
 "
@@ -12375,7 +12374,6 @@ fail
 (
 "
 gc
-types
 not
 enabled
 "

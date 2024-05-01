@@ -5273,11 +5273,7 @@ return
 fail
 (
 "
-(
-ref
-T
-)
-types
+gc
 not
 enabled
 "
@@ -5422,7 +5418,6 @@ fail
 (
 "
 gc
-types
 not
 enabled
 "
@@ -5821,7 +5816,6 @@ fail
 (
 "
 gc
-types
 not
 enabled
 "
