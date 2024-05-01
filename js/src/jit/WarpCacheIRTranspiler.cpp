@@ -24491,7 +24491,10 @@ alloc
 elements
 index
 elementType
-DoesRequireMemoryBarrier
+MemoryBarrierRequirement
+:
+:
+Required
 )
 ;
 load
@@ -24632,7 +24635,10 @@ elements
 index
 value
 elementType
-DoesRequireMemoryBarrier
+MemoryBarrierRequirement
+:
+:
+Required
 )
 ;
 addEffectful
