@@ -829,7 +829,7 @@ defaultSummaryText
 nsContentUtils
 :
 :
-GetLocalizedString
+GetMaybeLocalizedString
 (
 nsContentUtils
 :
@@ -838,6 +838,9 @@ eFORMS_PROPERTIES
 "
 DefaultSummary
 "
+OwnerDoc
+(
+)
 defaultSummaryText
 )
 ;
