@@ -73,7 +73,6 @@ import
 {
 getFilename
 getSourceClassnames
-getSourceQueryString
 getRelativeUrl
 }
 from
@@ -366,10 +365,11 @@ projectDirectoryRoot
 )
 }
 {
-getSourceQueryString
-(
 source
-)
+.
+displayURL
+.
+search
 |
 |
 "

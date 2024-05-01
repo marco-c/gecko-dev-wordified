@@ -183,7 +183,6 @@ import
 {
 getDisplayPath
 getFileURL
-getSourceQueryString
 getTruncatedFileName
 isPretty
 }
@@ -500,14 +499,6 @@ source
 tabSources
 )
 ;
-const
-query
-=
-getSourceQueryString
-(
-source
-)
-;
 return
 div
 (
@@ -633,7 +624,6 @@ filename
 getTruncatedFileName
 (
 source
-query
 )
 path
 &
