@@ -139,6 +139,9 @@ interfaces
 base
 "
 "
+html
+"
+"
 events
 "
 "
@@ -199,6 +202,11 @@ bindings
 "
 "
 battery
+"
+"
+browser
+-
+element
 "
 "
 cache
