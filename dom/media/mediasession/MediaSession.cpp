@@ -882,6 +882,10 @@ reset
 (
 )
 ;
+NotifyPositionStateChanged
+(
+)
+;
 return
 ;
 }
@@ -2250,7 +2254,6 @@ currentBC
 Id
 (
 )
-*
 mPositionState
 )
 ;

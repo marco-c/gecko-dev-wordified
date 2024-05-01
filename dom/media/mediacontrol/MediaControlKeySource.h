@@ -764,7 +764,10 @@ void
 SetPositionState
 (
 const
+Maybe
+<
 PositionState
+>
 &
 aState
 )
