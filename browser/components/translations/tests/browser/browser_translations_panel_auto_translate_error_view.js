@@ -394,9 +394,9 @@ happen
 )
 ;
 await
-TranslationsParent
+EngineProcess
 .
-destroyEngineProcess
+destroyTranslationsEngine
 (
 )
 ;
