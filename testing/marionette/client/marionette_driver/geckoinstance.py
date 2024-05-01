@@ -514,6 +514,20 @@ dataSubmissionPolicyBypassNotification
 True
         
 #
+Disable
+popup
+-
+blocker
+        
+"
+dom
+.
+disable_open_during_load
+"
+:
+False
+        
+#
 Enabling
 the
 support
