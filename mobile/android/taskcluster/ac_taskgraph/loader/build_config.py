@@ -1300,7 +1300,7 @@ components
 ]
 )
     
-jobs
+tasks
 =
 {
         
@@ -1446,7 +1446,7 @@ regular
 Filter
 away
 overridden
-jobs
+tasks
 that
 we
 wouldn
@@ -1462,11 +1462,11 @@ with
     
 #
 partial
-job
+task
 entries
 .
     
-overridden_jobs
+overridden_tasks
 =
 {
 k
@@ -1483,7 +1483,7 @@ pop
 '
 overriden
 -
-jobs
+tasks
 '
 {
 }
@@ -1499,29 +1499,29 @@ ALL_COMPONENTS
 or
 k
 in
-jobs
+tasks
 .
 keys
 (
 )
 }
     
-jobs
+tasks
 =
 merge
 (
-jobs
-overridden_jobs
+tasks
+overridden_tasks
 )
     
 config
 [
 '
-jobs
+tasks
 '
 ]
 =
-jobs
+tasks
     
 return
 base_loader
