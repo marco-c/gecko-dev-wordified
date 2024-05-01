@@ -678,7 +678,7 @@ fftKernel
 ;
 m_frame
 .
-GetInverseWithoutScaling
+GetInverse
 (
 m_outputBuffer
 .

@@ -417,6 +417,11 @@ FFTBlock
 estimationFrame
 (
 length
+1
+.
+f
+/
+length
 )
 ;
 estimationFrame
