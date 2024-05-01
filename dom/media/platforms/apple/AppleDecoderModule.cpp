@@ -802,14 +802,6 @@ if
 StaticPrefs
 :
 :
-media_ffvpx_enabled
-(
-)
-&
-&
-StaticPrefs
-:
-:
 media_rdd_vpx_enabled
 (
 )

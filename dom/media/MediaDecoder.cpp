@@ -903,12 +903,6 @@ defined
 (
 MOZ_FFMPEG
 )
-#
-if
-defined
-(
-MOZ_FFVPX
-)
 Preferences
 :
 :
@@ -925,14 +919,6 @@ enabled
 "
 )
 ;
-#
-endif
-/
-/
-defined
-(
-MOZ_FFVPX
-)
 #
 if
 defined

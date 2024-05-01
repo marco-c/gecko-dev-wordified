@@ -316,14 +316,6 @@ media
 libwebp
 "
 ]
-if
-CONFIG
-[
-"
-MOZ_FFVPX
-"
-]
-:
 external_dirs
 +
 =

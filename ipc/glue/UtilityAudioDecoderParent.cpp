@@ -562,12 +562,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-defined
-(
-MOZ_FFVPX
-)
 /
 /
 Preload
@@ -627,12 +621,6 @@ MOZ_SANDBOX
 defined
 (
 XP_WIN
-)
-&
-&
-defined
-(
-MOZ_FFVPX
 )
 }
 /
