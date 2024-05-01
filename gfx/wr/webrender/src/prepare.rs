@@ -378,7 +378,7 @@ renderer
 :
 :
 {
-GpuBufferBuilder
+GpuBufferBuilderF
 GpuBufferAddress
 }
 ;
@@ -2695,7 +2695,7 @@ frame_state
 gpu_cache
 frame_state
 .
-frame_gpu_data
+frame_gpu_data_f
 frame_state
 .
 rg_builder
@@ -3858,7 +3858,7 @@ frame_state
 gpu_cache
 frame_state
 .
-frame_gpu_data
+frame_gpu_data_f
 frame_state
 .
 rg_builder
@@ -4721,7 +4721,7 @@ write_prim_blocks
 (
 frame_state
 .
-frame_gpu_data
+frame_gpu_data_f
 prim_data
 .
 common
@@ -6502,7 +6502,7 @@ prim_data
 reverse_stops
 frame_state
 .
-frame_gpu_data
+frame_gpu_data_f
 &
 prim_data
 .
@@ -7551,7 +7551,7 @@ write_prim_blocks
 (
 frame_state
 .
-frame_gpu_data
+frame_gpu_data_f
 prim_local_rect
 prim_instance
 .
@@ -10358,7 +10358,7 @@ frame_state
 gpu_cache
 frame_state
 .
-frame_gpu_data
+frame_gpu_data_f
 frame_state
 .
 resource_cache
@@ -10646,7 +10646,7 @@ frame_state
 gpu_cache
 frame_state
 .
-frame_gpu_data
+frame_gpu_data_f
 frame_state
 .
 resource_cache
@@ -12201,7 +12201,7 @@ builder
 :
 &
 mut
-GpuBufferBuilder
+GpuBufferBuilderF
 prim_rect
 :
 LayoutRect
@@ -12602,7 +12602,7 @@ write_prim_blocks
 (
 frame_state
 .
-frame_gpu_data
+frame_gpu_data_f
 rect
 rect
 color

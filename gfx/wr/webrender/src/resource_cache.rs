@@ -406,7 +406,7 @@ crate
 renderer
 :
 :
-GpuBufferBuilder
+GpuBufferBuilderF
 ;
 use
 crate
@@ -3958,7 +3958,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilder
+GpuBufferBuilderF
 rg_builder
 :
 &
@@ -4002,7 +4002,7 @@ mut
 RenderTaskGraphBuilder
 &
 mut
-GpuBufferBuilder
+GpuBufferBuilderF
 )
 -
 >

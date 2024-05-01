@@ -3336,7 +3336,7 @@ frame_state
 gpu_cache
 frame_state
 .
-frame_gpu_data
+frame_gpu_data_f
 frame_state
 .
 rg_builder
@@ -3524,7 +3524,7 @@ frame_state
 gpu_cache
 frame_state
 .
-frame_gpu_data
+frame_gpu_data_f
 frame_state
 .
 rg_builder

@@ -291,7 +291,7 @@ renderer
 :
 :
 {
-GpuBufferBuilder
+GpuBufferBuilderF
 GpuBufferAddress
 }
 ;
@@ -1092,7 +1092,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilder
+GpuBufferBuilderF
 render_tasks
 :
 &
@@ -2097,7 +2097,7 @@ let
 mut
 gpu_buffer_builder
 =
-GpuBufferBuilder
+GpuBufferBuilderF
 :
 :
 new
@@ -2429,7 +2429,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilder
+GpuBufferBuilderF
 render_tasks
 :
 &
@@ -3323,7 +3323,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilder
+GpuBufferBuilderF
 render_tasks
 :
 &
@@ -5928,7 +5928,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilder
+GpuBufferBuilderF
 transforms
 :
 &
@@ -7010,7 +7010,7 @@ gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilder
+GpuBufferBuilderF
 render_tasks
 :
 &
