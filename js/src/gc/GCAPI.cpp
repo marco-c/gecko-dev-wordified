@@ -5433,6 +5433,9 @@ allowedNurseryCollections_
 allowedNurseryCollections
 )
 {
+if
+(
+!
 JS
 :
 :
@@ -5443,7 +5446,13 @@ cx
 NurseryCollectionCallback
 this
 )
+)
+{
+cx_
+=
+nullptr
 ;
+}
 }
 AutoSelectGCHeap
 :
@@ -5451,6 +5460,11 @@ AutoSelectGCHeap
 ~
 AutoSelectGCHeap
 (
+)
+{
+if
+(
+cx_
 )
 {
 JS
@@ -5464,6 +5478,7 @@ NurseryCollectionCallback
 this
 )
 ;
+}
 }
 /
 *
