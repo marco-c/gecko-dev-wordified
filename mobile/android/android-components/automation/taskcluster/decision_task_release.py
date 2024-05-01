@@ -354,22 +354,6 @@ version
 )
 )
     
-#
-TODO
-re
--
-enable
-bintray
-once
-0
-.
-27
-.
-0
-is
-released
-    
-#
 bintray_publishing
 =
 (
@@ -393,8 +377,7 @@ key
 .
 py
 "
-    
-#
+                          
 "
 &
 &
@@ -512,24 +495,8 @@ docs
 uploadArchives
 zipMavenArtifacts
 '
-)
++
                  
-#
-TODO
-re
--
-enable
-bintray
-once
-0
-.
-27
-.
-0
-is
-released
-                 
-#
 bintray_publishing
 )
         
