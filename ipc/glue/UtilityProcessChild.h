@@ -483,6 +483,16 @@ PUtilityAudioDecoderParent
 &
 &
 aEndpoint
+nsTArray
+<
+gfx
+:
+:
+GfxVarUpdate
+>
+&
+&
+aUpdates
 )
 ;
 mozilla
