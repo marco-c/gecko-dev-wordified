@@ -122,11 +122,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestHangs
-.
-h
-"
-"
 TestHighestPrio
 .
 h
@@ -266,11 +261,6 @@ SOURCES
 +
 =
 [
-"
-TestHangs
-.
-cpp
-"
 "
 TestHighestPrio
 .
@@ -434,11 +424,6 @@ IPDL_SOURCES
 [
 "
 PTestHandle
-.
-ipdl
-"
-"
-PTestHangs
 .
 ipdl
 "
