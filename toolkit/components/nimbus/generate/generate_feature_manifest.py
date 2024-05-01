@@ -191,10 +191,6 @@ aboutwelcome
 "
     
 "
-backgroundUpdate
-"
-    
-"
 bookmarks
 "
     
