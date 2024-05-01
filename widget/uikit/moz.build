@@ -124,11 +124,6 @@ nsLookAndFeel
 mm
 "
 "
-nsScreenManager
-.
-mm
-"
-"
 nsWidgetFactory
 .
 mm
@@ -166,5 +161,15 @@ LOCAL_INCLUDES
 "
 /
 widget
+"
+]
+XPCOM_MANIFESTS
++
+=
+[
+"
+components
+.
+conf
 "
 ]

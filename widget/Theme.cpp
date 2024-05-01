@@ -10629,7 +10629,16 @@ ScrollbarDrawingWin
 ;
 #
 elif
+defined
+(
 MOZ_WIDGET_COCOA
+)
+|
+|
+defined
+(
+MOZ_WIDGET_UIKIT
+)
 return
 MakeUnique
 <
