@@ -243,8 +243,8 @@ gchar
 *
 aMethodName
 const
-nsACString
-&
+gchar
+*
 aParam
 )
 ;
