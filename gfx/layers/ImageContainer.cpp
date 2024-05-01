@@ -414,7 +414,7 @@ for
 NS_IF_ADDREF
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 #
 include
 "
@@ -3356,7 +3356,7 @@ mD3D11YCbCrRecycleAllocator
 endif
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 already_AddRefed
 <
 MacIOSurfaceRecycleAllocator

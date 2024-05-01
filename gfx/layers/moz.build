@@ -1661,11 +1661,15 @@ CONFIG
 MOZ_WIDGET_TOOLKIT
 "
 ]
-=
-=
+in
+(
 "
 cocoa
 "
+"
+uikit
+"
+)
 :
 EXPORTS
 .
