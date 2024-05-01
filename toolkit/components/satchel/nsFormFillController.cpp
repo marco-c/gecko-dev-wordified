@@ -624,7 +624,9 @@ passwordmgr
 /
 LoginManagerChild
 .
-jsm
+sys
+.
+mjs
 .
 mFocusAfterRightClickThreshold
 (
