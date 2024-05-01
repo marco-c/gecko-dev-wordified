@@ -4571,6 +4571,13 @@ nsAString
 tld
 )
 {
+restrictionProfile
+profile
+{
+eASCIIOnlyProfile
+}
+;
+{
 AutoReadLock
 lock
 (
@@ -4632,6 +4639,11 @@ eASCIIOnlyProfile
 {
 return
 false
+;
+}
+profile
+=
+mRestrictionProfile
 ;
 }
 nsAString
@@ -4841,6 +4853,7 @@ if
 (
 illegalScriptCombo
 (
+profile
 script
 savedScript
 )
@@ -6058,6 +6071,8 @@ nsIDNService
 :
 illegalScriptCombo
 (
+restrictionProfile
+profile
 Script
 script
 ScriptCombo
@@ -6158,7 +6173,7 @@ savedScript
 OTHR
 &
 &
-mRestrictionProfile
+profile
 =
 =
 eHighlyRestrictiveProfile
