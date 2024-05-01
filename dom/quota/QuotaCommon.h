@@ -12161,7 +12161,7 @@ ScopedLogExtraInfo
 ScopedLogExtraInfo
 :
 :
-kTagContext
+kTagContextTainted
 aContext
 }
 )

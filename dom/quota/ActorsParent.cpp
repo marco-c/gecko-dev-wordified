@@ -14608,7 +14608,7 @@ scope
 ScopedLogExtraInfo
 :
 :
-kTagContext
+kTagContextTainted
 "
 dom
 :

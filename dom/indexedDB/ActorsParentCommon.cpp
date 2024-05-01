@@ -4209,7 +4209,7 @@ quota
 ScopedLogExtraInfo
 :
 :
-kTagQuery
+kTagQueryTainted
 aSQLCommand
 }
 ;
