@@ -453,7 +453,9 @@ lintargs
 get
 (
 "
-include_thirdparty
+include_third
+-
+party
 "
 )
 :
