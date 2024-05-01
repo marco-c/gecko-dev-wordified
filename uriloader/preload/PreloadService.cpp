@@ -1539,7 +1539,6 @@ aCORS
 aReferrerPolicy
 isImgSet
 aEarlyHintPreloaderId
-aFetchPriority
 )
 ;
 }
@@ -1716,10 +1715,6 @@ bool
 aIsImgSet
 uint64_t
 aEarlyHintPreloaderId
-const
-nsAString
-&
-aFetchPriority
 )
 {
 mDocument
@@ -1736,7 +1731,6 @@ aImageReferrerPolicy
 aIsImgSet
 true
 aEarlyHintPreloaderId
-aFetchPriority
 )
 ;
 }

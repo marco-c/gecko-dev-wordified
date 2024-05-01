@@ -251,7 +251,6 @@ mCharsetOrSrcset
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mReferrerPolicyOrIntegrity
 mIsLinkPreload
-mFetchPriority
 )
 ;
 break

@@ -25436,14 +25436,6 @@ bool
 aLinkPreload
 uint64_t
 aEarlyHintPreloaderId
-mozilla
-:
-:
-dom
-:
-:
-FetchPriority
-aFetchPriority
 )
 {
 MOZ_ASSERT
@@ -25718,7 +25710,6 @@ initiator
 *
 /
 aEarlyHintPreloaderId
-aFetchPriority
 aRequest
 )
 ;
