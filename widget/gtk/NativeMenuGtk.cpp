@@ -4761,7 +4761,7 @@ surface
 ;
 xdg_dbus_annotation_v1_set_address
 (
-annotation
+mAnnotation
 myServiceName
 mObjectPath
 .
