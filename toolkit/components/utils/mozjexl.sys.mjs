@@ -5,8 +5,8 @@ eslint
 disable
 *
 /
-this
-.
+export
+const
 mozjexl
 =
 function
@@ -5240,14 +5240,4 @@ a
 }
 }
 )
-;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-mozjexl
-"
-]
 ;
