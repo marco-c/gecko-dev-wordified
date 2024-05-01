@@ -1318,6 +1318,7 @@ GpuBufferBuilderF
 GpuBufferI
 GpuBufferBuilderI
 GpuBufferAddress
+GpuBufferBuilder
 }
 ;
 /
