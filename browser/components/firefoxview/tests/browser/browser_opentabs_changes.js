@@ -2792,12 +2792,11 @@ TabChange
 private2Listener
 )
 ;
-ok
+Assert
+.
+notStrictEqual
 (
 privateTabsChanges
-!
-=
-=
 getTabsTargetForWindow
 (
 private2Win

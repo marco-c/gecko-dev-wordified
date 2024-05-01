@@ -391,7 +391,9 @@ key
 ]
 )
 ;
-ok
+Assert
+.
+less
 (
 Math
 .
@@ -401,7 +403,6 @@ actual
 -
 expected
 )
-<
 0
 .
 01
