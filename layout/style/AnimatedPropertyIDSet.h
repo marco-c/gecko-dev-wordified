@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsCSSPropertyIDSet
+.
+h
+"
+#
+include
+"
 nsTHashSet
 .
 h
@@ -404,8 +411,6 @@ name
 ;
 }
 }
-private
-:
 using
 CustomNameSet
 =
@@ -417,8 +422,6 @@ nsAtom
 >
 >
 ;
-public
-:
 /
 /
 Iterator
@@ -777,7 +780,6 @@ mPropertyID
 }
 private
 :
-explicit
 Iterator
 (
 const
