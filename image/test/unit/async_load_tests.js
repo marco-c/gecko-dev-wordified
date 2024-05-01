@@ -352,8 +352,6 @@ ImageListener
 null
 function
 (
-foo
-bar
 )
 {
 do_test_finished
@@ -448,7 +446,6 @@ function
 checkSizeAndLoad
 (
 listener
-aRequest
 )
 {
 Assert
@@ -771,8 +768,6 @@ false
 function
 firstLoadDone
 (
-oldlistener
-aRequest
 )
 {
 checkSecondLoad
@@ -820,8 +815,6 @@ return
 function
 channelLoadStop
 (
-imglistener
-aRequest
 )
 {
 next
@@ -1223,8 +1216,6 @@ ImageListener
 null
 function
 (
-foo
-bar
 )
 {
 do_test_finished

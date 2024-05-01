@@ -185,7 +185,6 @@ frameComplete
 function
 onFrameComplete
 (
-aRequest
 )
 {
 Assert
@@ -214,7 +213,6 @@ decodeComplete
 function
 onDecodeComplete
 (
-aRequest
 )
 {
 Assert
@@ -288,7 +286,6 @@ frameUpdate
 function
 onFrameUpdate
 (
-aRequest
 )
 {
 }

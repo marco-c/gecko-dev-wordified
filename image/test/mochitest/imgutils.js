@@ -834,7 +834,6 @@ sizeAvailable
 function
 sizeAvailable
 (
-aRequest
 )
 {
 }
@@ -846,7 +845,6 @@ frameComplete
 function
 frameComplete
 (
-aRequest
 )
 {
 }
@@ -858,7 +856,6 @@ decodeComplete
 function
 decodeComplete
 (
-aRequest
 )
 {
 }
@@ -870,7 +867,6 @@ loadComplete
 function
 loadComplete
 (
-aRequest
 )
 {
 }
@@ -882,7 +878,6 @@ frameUpdate
 function
 frameUpdate
 (
-aRequest
 )
 {
 }
@@ -894,7 +889,6 @@ discard
 function
 discard
 (
-aRequest
 )
 {
 }
@@ -906,7 +900,6 @@ isAnimated
 function
 isAnimated
 (
-aRequest
 )
 {
 }
@@ -918,7 +911,6 @@ hasTransparency
 function
 hasTransparency
 (
-aRequest
 )
 {
 }
