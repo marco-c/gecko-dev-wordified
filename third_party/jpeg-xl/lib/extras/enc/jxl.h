@@ -226,7 +226,7 @@ distance
 float
 alpha_distance
 =
-1
+0
 .
 0f
 ;

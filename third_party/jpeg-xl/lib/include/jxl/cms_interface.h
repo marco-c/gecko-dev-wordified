@@ -199,6 +199,7 @@ data
 *
 param
 user_data
+ref
 JxlCmsInterface
 :
 :
@@ -232,6 +233,7 @@ valid
 param
 c
 a
+ref
 JxlColorEncoding
 to
 populate
@@ -491,6 +493,7 @@ transform
 per
 call
 to
+ref
 JxlCmsInterface
 :
 :
@@ -503,6 +506,7 @@ comes
 directly
 from
 the
+ref
 JxlCmsInterface
 instance
 .
@@ -511,8 +515,8 @@ c
 run
 only
 receives
-the
 *
+the
 data
 returned
 by
@@ -526,8 +530,8 @@ init_data
 should
 be
 kept
-there
 *
+there
 if
 access
 to
@@ -540,6 +544,8 @@ run
 .
 Likewise
 for
+ref
+*
 JxlCmsInterface
 :
 :
@@ -576,6 +582,7 @@ cycle
 *
 param
 init_data
+ref
 JxlCmsInterface
 :
 :
@@ -596,6 +603,7 @@ threads
 from
 which
 *
+ref
 JxlCmsInterface
 :
 :
@@ -617,6 +625,7 @@ each
 call
 to
 *
+ref
 JxlCmsInterface
 :
 :
@@ -643,12 +652,13 @@ the
 colorspace
 to
 which
+ref
 JxlCmsInterface
 :
 :
 run
-should
 *
+should
 convert
 the
 input
@@ -1275,9 +1285,13 @@ output
 .
 *
 return
+:
+:
 JXL_TRUE
 on
 success
+:
+:
 JXL_FALSE
 on
 failure
@@ -1905,6 +1919,7 @@ set_fields_data
 *
 Populates
 a
+ref
 JxlColorEncoding
 from
 an

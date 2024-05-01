@@ -296,7 +296,10 @@ about
 ac
 strategy
 .
+StatusOr
+<
 ImageF
+>
 InitialQuantField
 (
 float
@@ -392,7 +395,7 @@ mode
 or
 slower
 .
-void
+Status
 FindBestQuantizer
 (
 const

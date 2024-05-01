@@ -382,7 +382,7 @@ y
 }
 }
 }
-void
+Status
 ProcessRow
 (
 const
@@ -618,6 +618,9 @@ N
 )
 ;
 }
+return
+true
+;
 }
 RenderPipelineChannelMode
 GetChannelMode

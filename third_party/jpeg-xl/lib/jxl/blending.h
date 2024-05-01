@@ -98,7 +98,7 @@ FrameHeader
 frame_header
 )
 ;
-void
+Status
 PerformBlending
 (
 const

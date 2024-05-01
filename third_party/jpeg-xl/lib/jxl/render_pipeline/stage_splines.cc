@@ -133,7 +133,7 @@ splines
 )
 {
 }
-void
+Status
 ProcessRow
 (
 const
@@ -206,6 +206,9 @@ xsize
 1
 )
 )
+;
+return
+true
 ;
 }
 RenderPipelineChannelMode

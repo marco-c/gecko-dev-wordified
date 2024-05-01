@@ -2020,7 +2020,7 @@ BitReader
 br
 )
 ;
-void
+Status
 FinalizeDC
 (
 )
@@ -2067,6 +2067,7 @@ SectionInfo
 sections
 size_t
 num
+const
 SectionStatus
 *
 section_status
@@ -2251,6 +2252,7 @@ thread
 size_t
 task
 )
+const
 {
 if
 (

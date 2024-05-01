@@ -107,7 +107,7 @@ h
 namespace
 jxl
 {
-void
+Status
 GaborishInverse
 (
 Image3F
@@ -117,6 +117,7 @@ const
 Rect
 &
 rect
+const
 float
 mul
 [
@@ -480,6 +481,14 @@ image
 .
 ImageF
 temp
+;
+JXL_ASSIGN_OR_RETURN
+(
+temp
+ImageF
+:
+:
+Create
 (
 in_out
 -
@@ -502,6 +511,7 @@ Plane
 .
 ysize
 (
+)
 )
 )
 ;
@@ -656,6 +666,9 @@ Plane
 2
 )
 )
+;
+return
+true
 ;
 }
 }

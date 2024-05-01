@@ -214,7 +214,7 @@ kXYB
 )
 {
 }
-void
+Status
 ProcessRow
 (
 const
@@ -872,6 +872,9 @@ xsize
 )
 )
 ;
+return
+true
+;
 }
 RenderPipelineChannelMode
 GetChannelMode
@@ -1087,7 +1090,7 @@ alpha_c
 )
 {
 }
-void
+Status
 ProcessRow
 (
 const
@@ -1120,6 +1123,7 @@ ypos
 height_
 )
 return
+true
 ;
 JXL_ASSERT
 (
@@ -1206,6 +1210,9 @@ width_
 -
 xpos
 )
+;
+return
+true
 ;
 }
 RenderPipelineChannelMode

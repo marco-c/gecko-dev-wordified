@@ -146,6 +146,7 @@ Only
 one
 concurrent
 *
+ref
 JxlResizableParallelRunner
 call
 per
@@ -319,6 +320,7 @@ thread
 .
 Use
 as
+ref
 JxlParallelRunner
 .
 *
@@ -350,6 +352,7 @@ Creates
 the
 runner
 for
+ref
 JxlResizableParallelRunner
 .
 Use
@@ -397,6 +400,7 @@ number
 of
 threads
 for
+ref
 JxlResizableParallelRunner
 .
 *
@@ -449,6 +453,7 @@ the
 runner
 created
 by
+ref
 JxlResizableParallelRunnerCreate
 .
 *

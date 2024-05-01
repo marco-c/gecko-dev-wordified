@@ -94,17 +94,6 @@ epf
 h
 "
 #
-include
-"
-lib
-/
-jxl
-/
-sanitizers
-.
-h
-"
-#
 undef
 HWY_TARGET_INCLUDE
 #
@@ -657,7 +646,7 @@ B
 )
 ;
 }
-void
+Status
 ProcessRow
 (
 const
@@ -1676,6 +1665,9 @@ x
 )
 ;
 }
+return
+true
+;
 }
 RenderPipelineChannelMode
 GetChannelMode
@@ -2066,7 +2058,7 @@ B
 )
 ;
 }
-void
+Status
 ProcessRow
 (
 const
@@ -3453,6 +3445,9 @@ x
 )
 ;
 }
+return
+true
+;
 }
 RenderPipelineChannelMode
 GetChannelMode
@@ -3918,7 +3913,7 @@ B
 )
 ;
 }
-void
+Status
 ProcessRow
 (
 const
@@ -4588,6 +4583,9 @@ x
 )
 ;
 }
+return
+true
+;
 }
 RenderPipelineChannelMode
 GetChannelMode

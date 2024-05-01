@@ -125,6 +125,7 @@ Allocated
 and
 initialized
 with
+ref
 JxlEncoderStatsCreate
 (
 )
@@ -135,6 +136,7 @@ up
 and
 deallocated
 with
+ref
 JxlEncoderStatsDestroy
 (
 )
@@ -165,6 +167,7 @@ return
 pointer
 to
 initialized
+ref
 JxlEncoderStats
 instance
 *
@@ -227,6 +230,7 @@ Data
 type
 for
 querying
+ref
 JxlEncoderStats
 object
 *

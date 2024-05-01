@@ -95,7 +95,7 @@ h
 namespace
 jxl
 {
-void
+Status
 DumpImage
 (
 const
@@ -115,7 +115,7 @@ float
 image
 )
 ;
-void
+Status
 DumpImage
 (
 const
@@ -135,7 +135,7 @@ uint8_t
 image
 )
 ;
-void
+Status
 DumpXybImage
 (
 const
@@ -155,7 +155,7 @@ float
 image
 )
 ;
-void
+Status
 DumpPlaneNormalized
 (
 const
@@ -175,7 +175,7 @@ float
 image
 )
 ;
-void
+Status
 DumpPlaneNormalized
 (
 const

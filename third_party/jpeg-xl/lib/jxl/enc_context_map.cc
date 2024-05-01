@@ -150,6 +150,17 @@ lib
 /
 jxl
 /
+fields
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 pack_signed
 .
 h

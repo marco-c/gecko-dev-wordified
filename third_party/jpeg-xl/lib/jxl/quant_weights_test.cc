@@ -424,8 +424,11 @@ frame_header
 CompressParams
 {
 }
+false
 )
 ;
+JXL_CHECK
+(
 DequantMatricesSetCustom
 (
 &
@@ -433,6 +436,7 @@ mat
 encodings
 &
 encoder
+)
 )
 ;
 const
@@ -1496,8 +1500,11 @@ frame_header
 CompressParams
 {
 }
+false
 )
 ;
+JXL_CHECK
+(
 DequantMatricesSetCustom
 (
 &
@@ -1505,6 +1512,7 @@ dequant_matrices
 encodings
 &
 encoder
+)
 )
 ;
 JXL_CHECK

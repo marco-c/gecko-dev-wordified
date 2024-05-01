@@ -1039,8 +1039,14 @@ most
 1
 different
 .
+JXL_ASSIGN_OR_RETURN
+(
 Channel
 chout
+Channel
+:
+:
+Create
 (
 chin
 .
@@ -1060,6 +1066,7 @@ hshift
 chin
 .
 vshift
+)
 )
 ;
 JXL_DEBUG_V
@@ -2128,8 +2135,14 @@ most
 1
 different
 .
+JXL_ASSIGN_OR_RETURN
+(
 Channel
 chout
+Channel
+:
+:
+Create
 (
 chin
 .
@@ -2149,6 +2162,7 @@ chin
 vshift
 -
 1
+)
 )
 ;
 JXL_DEBUG_V
@@ -2784,6 +2798,7 @@ InvSqueeze
 Image
 &
 input
+const
 std
 :
 :
@@ -2791,6 +2806,7 @@ vector
 <
 SqueezeParams
 >
+&
 parameters
 ThreadPool
 *
@@ -3181,6 +3197,7 @@ InvSqueeze
 Image
 &
 input
+const
 std
 :
 :
@@ -3188,6 +3205,7 @@ vector
 <
 SqueezeParams
 >
+&
 parameters
 ThreadPool
 *
@@ -4231,6 +4249,8 @@ h
 2
 ;
 }
+JXL_RETURN_IF_ERROR
+(
 image
 .
 channel
@@ -4241,12 +4261,20 @@ c
 shrink
 (
 )
+)
 ;
+JXL_ASSIGN_OR_RETURN
+(
 Channel
 placeholder
+Channel
+:
+:
+Create
 (
 w
 h
+)
 )
 ;
 placeholder

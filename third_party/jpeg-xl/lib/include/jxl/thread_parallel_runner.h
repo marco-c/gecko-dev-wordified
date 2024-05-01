@@ -335,6 +335,7 @@ thread
 .
 Use
 as
+ref
 JxlParallelRunner
 .
 *
@@ -366,6 +367,7 @@ Creates
 the
 runner
 for
+ref
 JxlThreadParallelRunner
 .
 Use
@@ -398,6 +400,7 @@ the
 runner
 created
 by
+ref
 JxlThreadParallelRunnerCreate
 .
 *
@@ -421,6 +424,7 @@ num_worker_threads
 value
 for
 *
+ref
 JxlThreadParallelRunnerCreate
 .
 *

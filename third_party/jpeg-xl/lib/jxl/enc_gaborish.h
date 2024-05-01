@@ -83,6 +83,19 @@ lib
 /
 jxl
 /
+base
+/
+status
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 image
 .
 h
@@ -132,7 +145,7 @@ in
 XYB
 space
 .
-void
+Status
 GaborishInverse
 (
 Image3F
@@ -142,6 +155,7 @@ const
 Rect
 &
 rect
+const
 float
 mul
 [

@@ -211,7 +211,7 @@ RenderPipelineInput
 =
 default
 ;
-void
+Status
 Done
 (
 )
@@ -414,12 +414,15 @@ at
 this
 point
 .
+StatusOr
+<
 std
 :
 :
 unique_ptr
 <
 RenderPipeline
+>
 >
 Finalize
 (
@@ -766,7 +769,7 @@ RenderPipelineInput
 ;
 private
 :
-void
+Status
 InputReady
 (
 size_t
@@ -820,7 +823,7 @@ thread_id
 0
 ;
 virtual
-void
+Status
 ProcessBuffers
 (
 size_t
@@ -853,7 +856,7 @@ equal
 num
 .
 virtual
-void
+Status
 PrepareForThreadsInternal
 (
 size_t
@@ -876,11 +879,14 @@ are
 known
 .
 virtual
-void
+Status
 Init
 (
 )
 {
+return
+true
+;
 }
 }
 ;

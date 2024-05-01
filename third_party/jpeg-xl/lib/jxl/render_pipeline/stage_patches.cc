@@ -98,7 +98,7 @@ num_channels
 )
 {
 }
-void
+Status
 ProcessRow
 (
 const
@@ -194,6 +194,7 @@ x0
 xpos
 ;
 }
+return
 patches_
 .
 AddOneRow

@@ -386,6 +386,8 @@ The
 special
 value
 *
+:
+:
 JXL_PARALLEL_RET_RUNNER_ERROR
 can
 be
@@ -415,6 +417,7 @@ error
 returned
 by
 the
+ref
 JxlParallelRunInit
 function
 to
@@ -442,6 +445,7 @@ initialization
 callback
 .
 See
+ref
 JxlParallelRunner
 for
 details
@@ -465,13 +469,14 @@ same
 thread
 that
 called
+ref
 JxlParallelRunner
 before
 any
 parallel
+*
 execution
 .
-*
 The
 purpose
 of
@@ -484,10 +489,12 @@ the
 maximum
 number
 of
+*
 threads
 that
 the
 *
+ref
 JxlParallelRunner
 will
 use
@@ -519,6 +526,7 @@ handle
 provided
 to
 *
+ref
 JxlParallelRunner
 (
 )
@@ -569,6 +577,7 @@ be
 returned
 by
 *
+ref
 JxlParallelRunner
 (
 )
@@ -600,8 +609,10 @@ processing
 callback
 .
 See
+ref
 JxlParallelRunner
 for
+*
 details
 .
 *
@@ -665,6 +676,7 @@ handle
 provided
 to
 *
+ref
 JxlParallelRunner
 (
 )
@@ -716,6 +728,7 @@ value
 passed
 to
 *
+ref
 JxlParallelRunInit
 .
 *
@@ -822,6 +835,7 @@ parallel
 *
 *
 The
+ref
 JxlParallelRunner
 function
 does
@@ -834,18 +848,19 @@ re
 entrant
 .
 This
-means
 *
+means
 that
 the
 same
+ref
 JxlParallelRunner
 function
 with
 the
 same
-runner_opaque
 *
+runner_opaque
 provided
 parameter
 will
@@ -856,6 +871,7 @@ from
 the
 library
 from
+*
 either
 p
 init
@@ -883,6 +899,7 @@ may
 call
 the
 provided
+ref
 JxlParallelRunner
 multiple
 *
@@ -990,6 +1007,7 @@ an
 example
 of
 a
+ref
 JxlParallelRunner
 that
 doesn

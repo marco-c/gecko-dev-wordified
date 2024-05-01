@@ -395,6 +395,7 @@ bx
 struct
 AcStrategyHeuristics
 {
+explicit
 AcStrategyHeuristics
 (
 const
@@ -453,7 +454,7 @@ AcStrategyImage
 ac_strategy
 )
 ;
-void
+Status
 Finalize
 (
 const

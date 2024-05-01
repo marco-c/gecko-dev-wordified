@@ -386,7 +386,7 @@ with
 alpha
 channel
 .
-float
+Status
 ComputeScore
 (
 const
@@ -404,6 +404,9 @@ const
 JxlCmsInterface
 &
 cms
+float
+*
+score
 ImageF
 *
 diffmap

@@ -273,6 +273,19 @@ jxl
 /
 base
 /
+override
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
+base
+/
 span
 .
 h
@@ -1733,7 +1746,7 @@ VerifyFrameEncoding
 129
 enc
 frame_settings
-2700
+27000
 /
 *
 lossy_use_original_profile
@@ -1829,7 +1842,7 @@ get
 )
 nullptr
 )
-4300
+4550
 false
 )
 ;
@@ -2296,7 +2309,7 @@ nb_options
 -
 2
 -
-1
+2
 -
 2
 -
@@ -2498,7 +2511,7 @@ i
 /
 /
 Effort
-10
+11
 should
 only
 work
@@ -2514,7 +2527,7 @@ JxlEncoderFrameSettingsSetOption
 (
 frame_settings
 JXL_ENC_FRAME_SETTING_EFFORT
-10
+11
 )
 )
 ;
@@ -2534,7 +2547,7 @@ JxlEncoderFrameSettingsSetOption
 (
 frame_settings
 JXL_ENC_FRAME_SETTING_EFFORT
-10
+11
 )
 )
 ;
@@ -2758,7 +2771,7 @@ get
 (
 )
 frame_settings
-2500
+3700
 false
 )
 ;
@@ -2889,7 +2902,7 @@ get
 (
 )
 frame_settings
-3030
+3130
 false
 )
 ;
@@ -3200,7 +3213,7 @@ get
 (
 )
 frame_settings
-2830
+3430
 /
 *
 lossy_use_original_profile

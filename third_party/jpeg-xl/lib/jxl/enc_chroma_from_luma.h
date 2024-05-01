@@ -186,7 +186,7 @@ aux_out
 struct
 CfLHeuristics
 {
-void
+Status
 Init
 (
 const

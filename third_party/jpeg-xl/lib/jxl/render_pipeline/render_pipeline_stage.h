@@ -75,6 +75,19 @@ lib
 /
 jxl
 /
+base
+/
+status
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 frame_header
 .
 h
@@ -692,7 +705,7 @@ different
 buffers
 .
 virtual
-void
+Status
 ProcessRow
 (
 const
@@ -810,7 +823,7 @@ this
 information
 .
 virtual
-void
+Status
 SetInputSizes
 (
 const
@@ -832,6 +845,9 @@ size_t
 input_sizes
 )
 {
+return
+true
+;
 }
 virtual
 Status

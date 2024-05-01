@@ -912,6 +912,7 @@ InvSqueeze
 Image
 &
 input
+const
 std
 :
 :
@@ -919,6 +920,7 @@ vector
 <
 SqueezeParams
 >
+&
 parameters
 ThreadPool
 *

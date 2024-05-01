@@ -733,7 +733,7 @@ false
 )
 {
 }
-void
+Status
 ProcessRow
 (
 const
@@ -1069,6 +1069,9 @@ xsize_v
 xsize
 )
 )
+;
+return
+true
 ;
 }
 RenderPipelineChannelMode

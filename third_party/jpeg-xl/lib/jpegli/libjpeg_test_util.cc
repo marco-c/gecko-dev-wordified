@@ -1009,7 +1009,16 @@ nullptr
 unsigned
 int
 icc_len
+=
+0
 ;
+/
+/
+"
+unpoison
+"
+via
+initialization
 JXL_CHECK
 (
 jpeg_read_icc_profile
