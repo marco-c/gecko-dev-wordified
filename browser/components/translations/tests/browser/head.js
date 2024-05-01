@@ -1282,7 +1282,7 @@ new
 page
 .
 await
-closeTranslationsPanelIfOpen
+closeAllOpenPanelsAndMenus
 (
 )
 ;
@@ -5742,7 +5742,7 @@ logAction
 )
 ;
 await
-closeTranslationsPanelIfOpen
+closeAllOpenPanelsAndMenus
 (
 )
 ;
@@ -7056,12 +7056,7 @@ message
 ;
 }
 await
-closeTranslationsPanelIfOpen
-(
-)
-;
-await
-closeContextMenuIfOpen
+closeAllOpenPanelsAndMenus
 (
 )
 ;
