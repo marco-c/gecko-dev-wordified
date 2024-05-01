@@ -1935,16 +1935,6 @@ mjs
 "
 browser
 /
-components
-/
-urlbar
-/
-*
-*
-"
-"
-browser
-/
 tools
 /
 mozscreenshots
