@@ -2618,7 +2618,7 @@ deps
 webrtc
 :
 :
-SetMediaEngineDefaults
+DeprecatedSetMediaEngineDefaults
 (
 &
 deps
