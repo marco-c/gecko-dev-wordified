@@ -1392,7 +1392,7 @@ Constructor
 *
 The
 constructor
-aquires
+acquires
 the
 given
 lock
@@ -2112,7 +2112,7 @@ Constructor
 *
 The
 constructor
-aquires
+acquires
 the
 given
 lock
