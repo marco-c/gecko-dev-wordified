@@ -1153,10 +1153,6 @@ JS
 :
 :
 CompileModuleScriptToStencil
-JS
-:
-:
-CompilationStorage
 #
 include
 "
@@ -4667,12 +4663,6 @@ Kind
 CompileScript
 :
 {
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 stencil_
 =
 JS
@@ -4683,7 +4673,6 @@ CompileGlobalScriptToStencil
 fc_
 options_
 srcBuf_
-compileStorage
 )
 ;
 break
@@ -4696,12 +4685,6 @@ Kind
 CompileModule
 :
 {
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 stencil_
 =
 JS
@@ -4712,7 +4695,6 @@ CompileModuleScriptToStencil
 fc_
 options_
 srcBuf_
-compileStorage
 )
 ;
 break

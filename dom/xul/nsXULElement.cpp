@@ -13200,12 +13200,6 @@ Borrowed
 return
 ;
 }
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 mStencil
 =
 JS
@@ -13216,7 +13210,6 @@ CompileGlobalScriptToStencil
 mFrontendContext
 mOptions
 srcBuf
-compileStorage
 )
 ;
 #

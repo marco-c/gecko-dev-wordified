@@ -264,10 +264,6 @@ JS
 :
 :
 InstantiateGlobalStencil
-JS
-:
-:
-CompilationStorage
 #
 include
 "
@@ -888,12 +884,6 @@ stackSize
 )
 )
 ;
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 mStencil
 =
 JS
@@ -904,7 +894,6 @@ CompileGlobalScriptToStencil
 mFrontendContext
 mOptions
 mSrcBuf
-compileStorage
 )
 ;
 }

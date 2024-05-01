@@ -1474,12 +1474,6 @@ options
 prefableOptions
 )
 ;
-JS
-:
-:
-CompilationStorage
-storage
-;
 RefPtr
 <
 JS
@@ -1497,7 +1491,6 @@ CompileGlobalScriptToStencil
 fc
 options
 srcBuf
-storage
 )
 ;
 if

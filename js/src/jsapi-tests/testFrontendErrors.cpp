@@ -605,12 +605,6 @@ Borrowed
 )
 )
 ;
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 RefPtr
 <
 JS
@@ -628,7 +622,6 @@ CompileGlobalScriptToStencil
 fc
 options
 srcBuf
-compileStorage
 )
 ;
 CHECK
@@ -1129,12 +1122,6 @@ Borrowed
 )
 )
 ;
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 RefPtr
 <
 JS
@@ -1152,7 +1139,6 @@ CompileGlobalScriptToStencil
 fc
 options
 srcBuf
-compileStorage
 )
 ;
 CHECK

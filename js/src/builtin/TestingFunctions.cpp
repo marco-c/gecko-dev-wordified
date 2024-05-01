@@ -46987,12 +46987,6 @@ Stencil
 >
 stencil
 ;
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 if
 (
 isModule
@@ -47009,7 +47003,6 @@ CompileModuleScriptToStencil
 fc
 options
 srcBuf
-compileStorage
 )
 ;
 }
@@ -47026,7 +47019,6 @@ CompileGlobalScriptToStencil
 fc
 options
 srcBuf
-compileStorage
 )
 ;
 }

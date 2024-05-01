@@ -13275,12 +13275,6 @@ stackSize
 )
 )
 ;
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 auto
 compile
 =
@@ -13314,7 +13308,6 @@ CompileGlobalScriptToStencil
 mFrontendContext
 mOptions
 source
-compileStorage
 )
 ;
 }
@@ -13327,7 +13320,6 @@ CompileModuleScriptToStencil
 mFrontendContext
 mOptions
 source
-compileStorage
 )
 ;
 }
@@ -13624,12 +13616,6 @@ the
 stack
 quota
 .
-JS
-:
-:
-CompilationStorage
-compileStorage
-;
 RefPtr
 <
 JS
