@@ -291,7 +291,7 @@ gKioskMonitor
 ;
 extern
 bool
-gAllowContentAnalysis
+gAllowContentAnalysisArgPresent
 ;
 namespace
 mozilla

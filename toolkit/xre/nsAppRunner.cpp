@@ -2085,7 +2085,7 @@ gKioskMonitor
 1
 ;
 bool
-gAllowContentAnalysis
+gAllowContentAnalysisArgPresent
 =
 false
 ;
@@ -23342,7 +23342,7 @@ kioskMonitorNumber
 )
 ;
 }
-gAllowContentAnalysis
+gAllowContentAnalysisArgPresent
 =
 CheckArg
 (
