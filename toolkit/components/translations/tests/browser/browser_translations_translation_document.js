@@ -369,6 +369,12 @@ param
 {
 string
 }
+message
+*
+param
+{
+string
+}
 html
 *
 /
