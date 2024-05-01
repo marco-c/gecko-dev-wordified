@@ -142,6 +142,11 @@ sum
 &
 mut
 u64
+count
+:
+&
+mut
+u64
 buckets
 :
 &
@@ -183,6 +188,15 @@ sum
 val
 .
 sum
+as
+_
+;
+*
+count
+=
+val
+.
+count
 as
 _
 ;
