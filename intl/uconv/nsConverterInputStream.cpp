@@ -278,9 +278,7 @@ else
 /
 NetUtil
 .
-sys
-.
-mjs
+jsm
 assumes
 that
 if

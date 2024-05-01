@@ -198,9 +198,7 @@ actors
 /
 AutoScrollChild
 .
-sys
-.
-mjs
+jsm
 .
 static
 float

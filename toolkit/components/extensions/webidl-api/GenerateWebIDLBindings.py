@@ -1015,9 +1015,7 @@ available
 in
 Schemas
 .
-sys
-.
-mjs
+jsm
 :
     
 https
@@ -1034,7 +1032,7 @@ central
 /
 rev
 /
-b60cb73160843adb5a5a3ec8058e75a69b46acf7
+3434a9df60373a997263107e6f124fb164ddebf2
 /
 toolkit
 /
@@ -1044,11 +1042,9 @@ extensions
 /
 Schemas
 .
-sys
-.
-mjs
+jsm
 #
-53
+70
     
 "
 "

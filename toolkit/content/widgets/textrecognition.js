@@ -86,9 +86,7 @@ loaded
 by
 UAWidgetsChild
 .
-sys
-.
-mjs
+jsm
 .
 this
 .

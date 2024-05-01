@@ -1531,9 +1531,7 @@ generated
 by
 Schemas
 .
-sys
-.
-mjs
+jsm
 accepts
 any
 input

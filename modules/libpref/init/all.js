@@ -50391,9 +50391,7 @@ level
 for
 CookieBannerListService
 .
-sys
-.
-mjs
+jsm
 .
 pref
 (

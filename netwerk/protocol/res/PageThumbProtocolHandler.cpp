@@ -1383,9 +1383,7 @@ scheme
 in
 PageThumbs
 .
-sys
-.
-mjs
+jsm
 .
 We
 will

@@ -1114,9 +1114,7 @@ void
 if
 ExtensionStorageSyncKinto
 .
-sys
-.
-mjs
+jsm
 was
 not
 used
@@ -1125,9 +1123,7 @@ used
 /
 ExtensionStorageSync
 .
-sys
-.
-mjs
+jsm
 does
 not
 use

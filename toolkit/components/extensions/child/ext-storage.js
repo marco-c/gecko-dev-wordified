@@ -993,9 +993,7 @@ method
 from
 Schemas
 .
-sys
-.
-mjs
+jsm
 .
 The
 object

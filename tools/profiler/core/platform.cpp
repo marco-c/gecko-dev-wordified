@@ -2030,9 +2030,9 @@ shared
 /
 background
 .
-sys
+jsm
 .
-mjs
+js
 profiler_start
 (
 PowerOfTwo32

@@ -26075,9 +26075,7 @@ in
 /
 UpdateService
 .
-sys
-.
-mjs
+jsm
 .
 WriteStatusFile
 (

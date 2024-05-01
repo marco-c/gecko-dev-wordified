@@ -3253,9 +3253,7 @@ Set
 in
 HelperAppDlg
 .
-sys
-.
-mjs
+jsm
 .
 This
 is
@@ -3266,8 +3264,8 @@ the
 user
 has
 chosen
-*
 an
+*
 action
 .
 *

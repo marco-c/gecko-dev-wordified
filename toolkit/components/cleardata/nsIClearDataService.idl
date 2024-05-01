@@ -1179,9 +1179,7 @@ to
 use
 PrincipalsCollector
 .
-sys
-.
-mjs
+jsm
 for
 that
 .

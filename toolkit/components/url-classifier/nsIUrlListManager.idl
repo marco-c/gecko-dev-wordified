@@ -596,9 +596,7 @@ out
 it
 SafeBrowsing
 .
-sys
-.
-mjs
+jsm
 is
 initialized
 .

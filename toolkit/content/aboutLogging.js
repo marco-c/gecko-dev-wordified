@@ -483,9 +483,9 @@ shared
 /
 background
 .
-sys
+jsm
 .
-mjs
+js
 *
 /
 const
