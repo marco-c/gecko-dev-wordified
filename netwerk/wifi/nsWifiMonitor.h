@@ -369,7 +369,6 @@ DoScan
 nsresult
 CallWifiListeners
 (
-const
 nsTArray
 <
 RefPtr
@@ -377,6 +376,7 @@ RefPtr
 nsIWifiAccessPoint
 >
 >
+&
 &
 aAccessPoints
 bool
