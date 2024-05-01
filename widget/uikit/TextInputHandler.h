@@ -209,6 +209,7 @@ TextEventDispatcherListener
 {
 public
 :
+explicit
 TextInputHandler
 (
 nsWindow
