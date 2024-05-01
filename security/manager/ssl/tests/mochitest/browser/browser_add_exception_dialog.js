@@ -194,9 +194,6 @@ async
 function
 onCertUI
 (
-aSubject
-aTopic
-aData
 )
 {
 Services
@@ -329,7 +326,7 @@ INVALID_CERT_DOMAIN
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 INVALID_CERT_LOCATION

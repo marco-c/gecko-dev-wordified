@@ -299,8 +299,6 @@ nsIPromptFactory
 getPrompt
 :
 (
-aWindow
-aIID
 )
 =
 >

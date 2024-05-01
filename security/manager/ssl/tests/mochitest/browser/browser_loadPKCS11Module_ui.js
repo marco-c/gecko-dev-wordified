@@ -211,7 +211,6 @@ exception
 }
 deleteModule
 (
-moduleName
 )
 {
 Assert

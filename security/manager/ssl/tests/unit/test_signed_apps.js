@@ -599,8 +599,6 @@ close
 function
 removeEntry
 (
-entry
-entryInput
 )
 {
 return

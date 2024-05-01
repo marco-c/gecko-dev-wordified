@@ -156,11 +156,6 @@ gMockPrompter
 {
 promptPassword
 (
-dialogTitle
-text
-password
-checkMsg
-checkValue
 )
 {
 /

@@ -1566,10 +1566,7 @@ push
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1593,7 +1590,6 @@ now
 (
 aPRErrorCode
 aVerifiedChain
-aHasEVPolicy
 )
 =
 >

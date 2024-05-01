@@ -179,8 +179,6 @@ true
 setPKCS12FilePassword
 :
 (
-ctx
-password
 )
 =
 >
@@ -213,8 +211,6 @@ called
 getPKCS12FilePassword
 :
 (
-ctx
-password
 )
 =
 >
@@ -325,7 +321,6 @@ dialogTitle
 text
 password
 checkMsg
-checkValue
 )
 {
 this

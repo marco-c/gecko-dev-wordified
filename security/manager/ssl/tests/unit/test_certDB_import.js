@@ -176,8 +176,6 @@ true
 setPKCS12FilePassword
 :
 (
-ctx
-password
 )
 =
 >
@@ -210,8 +208,6 @@ called
 getPKCS12FilePassword
 :
 (
-ctx
-password
 )
 =
 >

@@ -1888,10 +1888,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -3501,8 +3498,6 @@ onTransportStatus
 (
 aTransport
 aStatus
-aProgress
-aProgressMax
 )
 {
 if
@@ -3659,7 +3654,6 @@ this
 nsIOutputStreamCallback
 onOutputStreamReady
 (
-aStream
 )
 {
 if
@@ -5080,8 +5074,6 @@ registerPrefixHandler
 "
 function
 (
-request
-response
 )
 {
 Assert
@@ -5906,10 +5898,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -6378,8 +6367,6 @@ resolve
 verifyCertFinished
 (
 aPRErrorCode
-aVerifiedChain
-aHasEVPolicy
 )
 {
 if
@@ -6629,10 +6616,7 @@ promise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

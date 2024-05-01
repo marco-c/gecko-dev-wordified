@@ -1472,7 +1472,6 @@ sandbox
 function
 minProfileReadSandboxLevel
 (
-level
 )
 {
 switch
@@ -1556,7 +1555,6 @@ sandbox
 function
 minHomeReadSandboxLevel
 (
-level
 )
 {
 switch
