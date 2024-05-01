@@ -1110,6 +1110,15 @@ info
 src
 )
 ;
+assert
+(
+!
+src
+-
+>
+setjmp
+)
+;
 if
 (
 !

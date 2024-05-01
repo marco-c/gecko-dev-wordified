@@ -237,7 +237,9 @@ by
 .
 /
 /
-eg
+e
+.
+g
 .
 DOWNSAMPLE_SHIFT
 =
@@ -668,10 +670,10 @@ x
 is
 calculated
 from
-(
-eg
+e
 .
-)
+g
+.
 u_frac
 =
 u

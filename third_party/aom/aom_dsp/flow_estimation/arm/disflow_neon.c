@@ -218,10 +218,10 @@ x
 is
 calculated
 from
-(
-eg
+e
 .
-)
+g
+.
 u_frac
 =
 u

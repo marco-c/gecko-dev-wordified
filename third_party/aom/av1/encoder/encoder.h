@@ -16582,7 +16582,7 @@ frame_index_set
 *
 !
 *
-Store
+Stores
 the
 cm
 -
@@ -16597,7 +16597,7 @@ alloc_compressor_data
 (
 )
 .
-Help
+Helps
 *
 determine
 whether
@@ -16623,7 +16623,7 @@ data_alloc_width
 *
 !
 *
-Store
+Stores
 the
 cm
 -
@@ -16638,7 +16638,7 @@ alloc_compressor_data
 (
 )
 .
-Help
+Helps
 *
 determine
 whether
