@@ -2195,6 +2195,7 @@ class
 /
 class
 AudioSegment
+final
 :
 public
 MediaSegmentBase
