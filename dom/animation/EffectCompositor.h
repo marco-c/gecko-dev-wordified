@@ -1983,10 +1983,7 @@ nsTHashMap
 PseudoElementHashEntry
 bool
 >
-CascadeLevel
-(
 kCascadeLevelCount
-)
 >
 mElementsToRestyle
 ;

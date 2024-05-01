@@ -6167,10 +6167,13 @@ unique_ptr
 <
 WebGLExtensionBase
 >
+size_t
+(
 WebGLExtensionID
 :
 :
 Max
+)
 >
 mExtensions
 ;

@@ -755,10 +755,13 @@ RefPtr
 <
 MediaSessionActionHandler
 >
+size_t
+(
 MediaSessionAction
 :
 :
 EndGuard_
+)
 >
 mActionHandlers
 ;

@@ -941,10 +941,13 @@ EnumeratedArray
 <
 ThreadType
 size_t
+size_t
+(
 ThreadType
 :
 :
 THREAD_TYPE_MAX
+)
 >
 runningTaskCount
 ;

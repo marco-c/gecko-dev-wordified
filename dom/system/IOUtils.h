@@ -496,6 +496,8 @@ IOUtils
 :
 ShutdownPhase
 T
+size_t
+(
 IOUtils
 :
 :
@@ -503,6 +505,7 @@ ShutdownPhase
 :
 :
 Count
+)
 >
 ;
 static

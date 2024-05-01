@@ -753,10 +753,7 @@ EnumeratedArray
 <
 BaselineSharingGroup
 T
-BaselineSharingGroup
-(
 2
-)
 >
 ;
 template
@@ -774,10 +771,7 @@ EnumeratedArray
 <
 LogicalAxis
 T
-LogicalAxis
-(
 2
-)
 >
 ;
 /

@@ -209,10 +209,13 @@ EnumeratedArray
 VideoBridgeSource
 VideoBridgeParent
 *
+size_t
+(
 VideoBridgeSource
 :
 :
 _Count
+)
 >
 ;
 static

@@ -1038,10 +1038,13 @@ EnumeratedArray
 <
 FileKind
 Entry
+size_t
+(
 FileKind
 :
 :
 Count
+)
 >
 mEntries
 ;

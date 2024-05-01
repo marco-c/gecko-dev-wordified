@@ -761,10 +761,13 @@ EnumeratedArray
 <
 SymbolicAddress
 Uint32Vector
+size_t
+(
 SymbolicAddress
 :
 :
 Limit
+)
 >
 {
 size_t
