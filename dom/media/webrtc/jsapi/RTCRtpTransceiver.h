@@ -693,8 +693,11 @@ SetDtlsTransport
 RTCDtlsTransport
 *
 aDtlsTransport
-bool
-aStable
+)
+;
+void
+SaveStateForRollback
+(
 )
 ;
 void
