@@ -587,6 +587,9 @@ RTC_GUARDED_BY
 thread_
 )
 ;
+class
+AsyncPacketSocketWrapper
+;
 std
 :
 :
@@ -596,10 +599,7 @@ rtc
 :
 :
 SocketAddress
-rtc
-:
-:
-AsyncPacketSocket
+AsyncPacketSocketWrapper
 *
 >
 sockets_
