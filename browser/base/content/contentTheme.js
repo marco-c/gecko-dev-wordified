@@ -782,9 +782,11 @@ the
 whitelist
 *
 in
-LightweightThemeChildListener
+LightweightThemeChild
 .
-jsm
+sys
+.
+mjs
 *
 /
 const
