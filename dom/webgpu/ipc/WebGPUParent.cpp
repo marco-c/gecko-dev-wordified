@@ -6582,6 +6582,12 @@ present
 :
 buffer
 get_mapped_range
+for
+internal
+"
+"
+presentation
+readback
 failed
 :
 %
@@ -6874,6 +6880,12 @@ present
 :
 buffer
 unmap
+for
+internal
+presentation
+"
+"
+readback
 failed
 :
 %
