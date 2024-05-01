@@ -861,6 +861,8 @@ error
 .
 message
 '
+Error
+:
 Received
 the
 message
