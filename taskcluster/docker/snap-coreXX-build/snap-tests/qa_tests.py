@@ -81,7 +81,6 @@ common
 .
 exceptions
 import
-StaleElementReferenceException
 TimeoutException
 from
 selenium
@@ -2158,73 +2157,13 @@ page
         
 )
         
-try
-:
-            
 self
 .
 _wait
 .
 until
 (
-lambda
-d
-:
-page
-.
-is_displayed
-(
-)
-is
-True
-)
-        
-except
-StaleElementReferenceException
-as
-ex
-:
             
-self
-.
-_logger
-.
-info
-(
-"
-Stale
-element
-but
-who
-cares
-?
-:
-{
-}
-"
-.
-format
-(
-ex
-)
-)
-            
-time
-.
-sleep
-(
-2
-)
-        
-#
-self
-.
-_wait
-.
-until
-(
-        
-#
 lambda
 d
 :
@@ -2232,8 +2171,7 @@ d
 .
 execute_script
 (
-        
-#
+                
 '
 return
 window
@@ -2266,18 +2204,15 @@ visibility
 )
 ;
 '
-        
-#
+            
 )
-        
-#
-=
+            
+!
 =
 "
-hidden
+visible
 "
         
-#
 )
         
 #
@@ -2312,7 +2247,7 @@ time
 .
 sleep
 (
-2
+1
 )
         
 return
@@ -2436,8 +2371,6 @@ pdf_select_zoom
 "
 )
         
-page_1
-=
 self
 .
 pdf_get_page
@@ -2455,7 +2388,9 @@ exp
 base
 "
 ]
-page_1
+self
+.
+_driver
 )
         
 #
@@ -3336,6 +3271,15 @@ paragraph
 .
 perform
 (
+)
+        
+time
+.
+sleep
+(
+0
+.
+75
 )
         
 self
