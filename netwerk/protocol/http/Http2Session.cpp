@@ -1424,7 +1424,7 @@ if
 mCleanShutdown
 &
 &
-SecurityErrorThatMayNeedRestart
+PossibleZeroRTTRetryError
 (
 aReason
 )

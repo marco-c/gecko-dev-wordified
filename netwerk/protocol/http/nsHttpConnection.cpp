@@ -4759,7 +4759,7 @@ EarlyDataWasAvailable
 )
 &
 &
-SecurityErrorThatMayNeedRestart
+PossibleZeroRTTRetryError
 (
 reason
 )
