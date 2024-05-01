@@ -774,7 +774,6 @@ async
 function
 background
 (
-SEARCH_TERM
 )
 {
 /
@@ -919,7 +918,6 @@ async
 function
 background
 (
-SEARCH_TERM
 )
 {
 /

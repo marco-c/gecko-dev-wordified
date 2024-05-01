@@ -467,7 +467,6 @@ browser
 async
 function
 (
-args
 )
 {
 SpecialPowers

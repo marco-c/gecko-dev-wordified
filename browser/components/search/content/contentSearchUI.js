@@ -3513,7 +3513,6 @@ data
 }
 _onMsgFocusInput
 (
-event
 )
 {
 this
@@ -3527,7 +3526,6 @@ focus
 }
 _onMsgBlur
 (
-event
 )
 {
 this

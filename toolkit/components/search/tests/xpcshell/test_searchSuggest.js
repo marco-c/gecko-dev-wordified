@@ -5079,7 +5079,8 @@ controller
 new
 SearchSuggestionController
 (
-result
+(
+)
 =
 >
 {

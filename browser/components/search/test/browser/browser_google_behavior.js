@@ -335,7 +335,6 @@ browser
 async
 function
 (
-args
 )
 {
 return
@@ -923,7 +922,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -973,7 +972,6 @@ linkedBrowser
 async
 function
 (
-args
 )
 {
 let
