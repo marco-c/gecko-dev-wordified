@@ -130,7 +130,7 @@ if
 CONFIG
 [
 '
-OS_TARGET
+TARGET_OS
 '
 ]
 in
@@ -139,7 +139,7 @@ in
 WINNT
 '
 '
-Darwin
+OSX
 '
 ]
 :
@@ -173,7 +173,7 @@ if
 CONFIG
 [
 '
-OS_TARGET
+TARGET_OS
 '
 ]
 =
@@ -200,13 +200,13 @@ if
 CONFIG
 [
 '
-OS_TARGET
+TARGET_OS
 '
 ]
 =
 =
 '
-Darwin
+OSX
 '
 :
 UNIFIED_SOURCES
