@@ -7142,7 +7142,7 @@ c
 return
 send_codec
 .
-MatchesWithoutPacketization
+Matches
 (
 *
 c
@@ -7830,7 +7830,7 @@ c
 return
 recv_codec
 .
-MatchesWithoutPacketization
+Matches
 (
 *
 c
