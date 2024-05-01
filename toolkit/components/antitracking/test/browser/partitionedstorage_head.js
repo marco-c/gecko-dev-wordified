@@ -451,6 +451,18 @@ true
 ]
 [
 "
+network
+.
+cookie
+.
+cookieBehavior
+.
+optInPartitioning
+"
+true
+]
+[
+"
 privacy
 .
 partition
@@ -591,7 +603,7 @@ addTab
 win
 .
 gBrowser
-TEST_TOP_PAGE
+TEST_TOP_PAGE_HTTPS
 )
 ;
 win
@@ -642,7 +654,7 @@ addTab
 win
 .
 gBrowser
-TEST_TOP_PAGE_6
+TEST_TOP_PAGE_9
 )
 ;
 win
@@ -693,7 +705,7 @@ addTab
 win
 .
 gBrowser
-TEST_4TH_PARTY_PARTITIONED_PAGE
+TEST_4TH_PARTY_PARTITIONED_PAGE_HTTPS
 )
 ;
 win
@@ -757,7 +769,7 @@ addTab
 win
 .
 gBrowser
-TEST_TOP_PAGE
+TEST_TOP_PAGE_HTTPS
 )
 ;
 win
@@ -857,7 +869,7 @@ browser
 {
 page
 :
-TEST_4TH_PARTY_PARTITIONED_PAGE
+TEST_4TH_PARTY_PARTITIONED_PAGE_HTTPS
 +
 "
 ?
@@ -1323,7 +1335,7 @@ browser
 {
 page
 :
-TEST_4TH_PARTY_PARTITIONED_PAGE
+TEST_4TH_PARTY_PARTITIONED_PAGE_HTTPS
 +
 "
 ?
@@ -1922,7 +1934,7 @@ type
 "
 3rdPartyStorage
 ^
-http
+https
 :
 /
 /

@@ -3360,6 +3360,15 @@ StaticPrefs
 network_cookie_cookieBehavior_optInPartitioning
 (
 )
+&
+&
+!
+aCookie
+-
+>
+IsPartitioned
+(
+)
 )
 {
 return
