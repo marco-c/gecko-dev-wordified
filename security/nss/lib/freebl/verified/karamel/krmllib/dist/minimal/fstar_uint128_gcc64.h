@@ -829,7 +829,13 @@ y
 &
 FStar_UInt64_eq_mask
 (
+(
+uint64_t
+)
 x
+(
+uint64_t
+)
 y
 )
 ;
@@ -905,7 +911,13 @@ y
 &
 FStar_UInt64_gte_mask
 (
+(
+uint64_t
+)
 x
+(
+uint64_t
+)
 y
 )
 )

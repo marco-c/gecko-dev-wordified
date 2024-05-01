@@ -275,6 +275,9 @@ rsaOaepKey
 kyberKey
 =
 9
+edKey
+=
+10
 }
 KeyType
 ;

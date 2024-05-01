@@ -803,6 +803,7 @@ ECCurve_NIST_P224
 *
 /
 ECCurve25519
+ECCurve_Ed25519
 ECCurve_pastLastCurve
 }
 ECCurveName

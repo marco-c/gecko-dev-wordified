@@ -23684,6 +23684,10 @@ EXP
 (
 SetTimeFunc
 )
+EXP
+(
+SetCertificateCompressionAlgorithm
+)
 #
 endif
 {

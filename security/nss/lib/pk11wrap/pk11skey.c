@@ -11990,7 +11990,7 @@ case
 RandomA
 is
 generate
-outherwize
+otherwise
 it
 is
 passed
@@ -12740,6 +12740,16 @@ crv
 )
 ;
 }
+break
+;
+case
+edKey
+:
+PORT_SetError
+(
+SEC_ERROR_BAD_KEY
+)
+;
 break
 ;
 case

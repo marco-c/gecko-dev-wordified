@@ -622,6 +622,11 @@ FStar_UInt128_uint128
 uu___
 )
 {
+KRML_HOST_IGNORE
+(
+uu___
+)
+;
 uint64_t
 f10
 =
@@ -1390,6 +1395,11 @@ FStar_UInt128_uint128
 uu___
 )
 {
+KRML_HOST_IGNORE
+(
+uu___
+)
+;
 uint64_t
 f10
 =
@@ -3352,6 +3362,11 @@ FStar_UInt128_uint128
 uu___
 )
 {
+KRML_HOST_IGNORE
+(
+uu___
+)
+;
 uint64_t
 f0
 =
@@ -3917,6 +3932,11 @@ FStar_UInt128_uint128
 uu___
 )
 {
+KRML_HOST_IGNORE
+(
+uu___
+)
+;
 uint64_t
 f10
 =

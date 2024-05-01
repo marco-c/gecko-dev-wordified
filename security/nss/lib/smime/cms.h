@@ -5470,6 +5470,15 @@ methods
 *
 *
 /
+extern
+PRBool
+NSS_CMSRecipient_IsSupported
+(
+CERTCertificate
+*
+cert
+)
+;
 /
 *
 *

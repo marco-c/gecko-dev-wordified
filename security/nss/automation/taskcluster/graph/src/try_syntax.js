@@ -642,6 +642,9 @@ build
 hacl
 "
 "
+acvp
+"
+"
 ecckiila
 "
 "

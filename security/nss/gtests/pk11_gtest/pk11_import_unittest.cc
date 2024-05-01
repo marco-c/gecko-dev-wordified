@@ -622,6 +622,9 @@ publicValue
 case
 ecKey
 :
+case
+edKey
+:
 return
 pub_key
 -
