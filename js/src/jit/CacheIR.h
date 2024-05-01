@@ -3278,6 +3278,15 @@ Set
 Map
 }
 ;
+const
+JSClass
+*
+ClassFor
+(
+GuardClassKind
+kind
+)
+;
 }
 /
 /
