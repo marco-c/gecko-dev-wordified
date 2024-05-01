@@ -4011,15 +4011,6 @@ target
 return
 target
 .
-os
-=
-=
-"
-OSX
-"
-and
-target
-.
 kernel
 =
 =
