@@ -236,9 +236,6 @@ navigate
 true
 }
 }
-has_noodles
-:
-true
 }
 }
 {
@@ -292,9 +289,6 @@ data
 }
 }
 }
-has_noodles
-:
-true
 }
 }
 ]
