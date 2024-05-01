@@ -489,7 +489,7 @@ lexdata
         
 self
 .
-_file
+filename
 =
 filename
 if
@@ -521,24 +521,12 @@ _lexpos
 and
 self
 .
-_file
+filename
 =
 =
 other
 .
-_file
-    
-def
 filename
-(
-self
-)
-:
-        
-return
-self
-.
-_file
     
 def
 resolve
@@ -705,7 +693,7 @@ s
 (
 self
 .
-_file
+filename
 self
 .
 _lineno
@@ -770,7 +758,7 @@ s
             
 self
 .
-_file
+filename
             
 self
 .
@@ -816,6 +804,16 @@ text
 \
 n
 "
+        
+self
+.
+filename
+=
+"
+<
+builtin
+>
+"
     
 def
 __eq__
@@ -840,20 +838,6 @@ msg
 other
 .
 msg
-    
-def
-filename
-(
-self
-)
-:
-        
-return
-"
-<
-builtin
->
-"
     
 def
 resolve
@@ -920,22 +904,16 @@ userData
 dict
 (
 )
-    
-def
-filename
-(
-self
-)
-:
         
-return
 self
 .
+filename
+=
+location
+and
 location
 .
 filename
-(
-)
     
 def
 isInterface
@@ -1282,8 +1260,6 @@ if
 self
 .
 filename
-(
-)
 !
 =
 "
@@ -1300,8 +1276,6 @@ add
 self
 .
 filename
-(
-)
 )
         
 for
