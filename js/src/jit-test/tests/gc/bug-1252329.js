@@ -22,13 +22,9 @@ helperThreadCount
 |
 |
 !
-(
-'
+hasFunction
+.
 oomAfterAllocations
-'
-in
-this
-)
 var
 lfcode
 =

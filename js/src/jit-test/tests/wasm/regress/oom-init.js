@@ -22,13 +22,9 @@ wasmIsSupported
 |
 |
 !
-(
-'
+hasFunction
+.
 oomTest
-'
-in
-this
-)
 Object
 .
 getOwnPropertyNames

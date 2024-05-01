@@ -20,13 +20,9 @@ skip
 if
 :
 !
-(
-'
+hasFunction
+.
 oomAtAllocation
-'
-in
-this
-)
 function
 main
 (

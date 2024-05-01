@@ -14,13 +14,9 @@ skip
 if
 :
 !
-(
-'
+hasFunction
+.
 oomTest
-'
-in
-this
-)
 evalcx
 (
 '

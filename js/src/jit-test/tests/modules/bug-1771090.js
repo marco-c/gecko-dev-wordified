@@ -10,13 +10,9 @@ skip
 if
 :
 !
-(
-'
+hasFunction
+.
 oomAfterAllocations
-'
-in
-this
-)
 asyncFunc1
 (
 "

@@ -36,11 +36,9 @@ in
 this
 &
 &
-'
+hasFunction
+.
 oomAfterAllocations
-'
-in
-this
 )
 gczeal
 (

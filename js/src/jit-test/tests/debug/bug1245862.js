@@ -14,13 +14,9 @@ skip
 if
 :
 !
-(
-'
+hasFunction
+.
 oomAfterAllocations
-'
-in
-this
-)
 var
 g
 =

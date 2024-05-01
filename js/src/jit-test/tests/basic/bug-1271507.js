@@ -13,14 +13,10 @@ skip
 -
 if
 :
-typeof
-oomAfterAllocations
 !
-=
-=
-'
-function
-'
+hasFunction
+.
+oomAfterAllocations
 lfcode
 =
 new
