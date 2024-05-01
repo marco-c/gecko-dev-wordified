@@ -70,7 +70,7 @@ data
 const
 TEST_URL
 =
-https
+http
 :
 /
 /
@@ -89,7 +89,7 @@ html
 const
 DOWNLOAD_URL
 =
-https
+http
 :
 /
 /
