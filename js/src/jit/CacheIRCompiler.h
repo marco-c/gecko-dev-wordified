@@ -5191,6 +5191,8 @@ Scalar
 :
 Type
 elementType
+ArrayBufferViewKind
+viewKind
 AtomicsReadWriteModifyFn
 fn
 )
@@ -5239,6 +5241,8 @@ IntPtrOperandId
 indexId
 uint32_t
 valueId
+ArrayBufferViewKind
+viewKind
 )
 ;
 void
