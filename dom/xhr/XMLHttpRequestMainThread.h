@@ -2390,8 +2390,13 @@ RefPtr
 ThreadSafeWorkerRef
 >
 mTSWorkerRef
-=
-nullptr
+MOZ_GUARDED_BY
+(
+mTSWorkerRefMutex
+)
+;
+Mutex
+mTSWorkerRefMutex
 ;
 #
 endif
