@@ -1510,8 +1510,9 @@ UpdateListener
 =
 ChromeUtils
 .
-import
+importESModule
 (
+                
 "
 resource
 :
@@ -1523,8 +1524,11 @@ modules
 /
 UpdateListener
 .
-jsm
+sys
+.
+mjs
 "
+            
 )
 ;
             

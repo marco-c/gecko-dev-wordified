@@ -1115,7 +1115,7 @@ AddonManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
             
 "
@@ -1129,7 +1129,9 @@ modules
 /
 AddonManager
 .
-jsm
+sys
+.
+mjs
 "
         
 )
@@ -1142,7 +1144,7 @@ ExtensionPermissions
 =
 ChromeUtils
 .
-import
+importESModule
 (
             
 "
@@ -1156,7 +1158,9 @@ modules
 /
 ExtensionPermissions
 .
-jsm
+sys
+.
+mjs
 "
         
 )

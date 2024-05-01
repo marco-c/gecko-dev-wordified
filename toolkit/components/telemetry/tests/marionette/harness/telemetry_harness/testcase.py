@@ -1373,7 +1373,7 @@ TelemetryEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
               
 "
@@ -1387,7 +1387,9 @@ modules
 /
 TelemetryEnvironment
 .
-jsm
+sys
+.
+mjs
 "
             
 )
@@ -1634,7 +1636,7 @@ ClientID
 =
 ChromeUtils
 .
-import
+importESModule
 (
                   
 "
@@ -1648,7 +1650,9 @@ modules
 /
 ClientID
 .
-jsm
+sys
+.
+mjs
 "
                 
 )
@@ -1728,7 +1732,7 @@ TelemetryController
 =
 ChromeUtils
 .
-import
+importESModule
 (
                   
 "
@@ -1742,7 +1746,9 @@ modules
 /
 TelemetryController
 .
-jsm
+sys
+.
+mjs
 "
                 
 )

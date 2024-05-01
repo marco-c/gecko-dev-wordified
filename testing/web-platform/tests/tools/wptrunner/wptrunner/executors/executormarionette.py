@@ -3830,8 +3830,9 @@ PerTestCoverageUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
+                
 "
 chrome
 :
@@ -3845,8 +3846,11 @@ marionette
 /
 PerTestCoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
+            
 )
 ;
             
@@ -3921,8 +3925,9 @@ PerTestCoverageUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
+                
 "
 chrome
 :
@@ -3936,8 +3941,11 @@ marionette
 /
 PerTestCoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
+            
 )
 ;
             
@@ -4098,8 +4106,9 @@ PerTestCoverageUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
+                
 "
 chrome
 :
@@ -4113,8 +4122,11 @@ marionette
 /
 PerTestCoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
+            
 )
 ;
             
@@ -4949,43 +4961,6 @@ CONTEXT_CHROME
 )
 :
             
-#
-Once
-ESR
-is
-107
-is
-released
-we
-can
-replace
-the
-ChromeUtils
-.
-import
-(
-DevToolsShim
-.
-jsm
-)
-            
-#
-with
-ChromeUtils
-.
-importESModule
-(
-DevToolsShim
-.
-sys
-.
-mjs
-)
-in
-this
-snippet
-:
-            
 self
 .
 parent
@@ -5004,7 +4979,7 @@ DevToolsShim
 =
 ChromeUtils
 .
-import
+importESModule
 (
   
 "
@@ -5020,7 +4995,9 @@ content
 /
 DevToolsShim
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

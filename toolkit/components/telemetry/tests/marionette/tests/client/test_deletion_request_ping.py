@@ -417,7 +417,7 @@ ClientID
 =
 ChromeUtils
 .
-import
+importESModule
 (
                   
 "
@@ -431,7 +431,9 @@ modules
 /
 ClientID
 .
-jsm
+sys
+.
+mjs
 "
                 
 )

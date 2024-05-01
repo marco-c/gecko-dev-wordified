@@ -211,7 +211,7 @@ AddonManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
                 
 "
@@ -225,7 +225,9 @@ modules
 /
 AddonManager
 .
-jsm
+sys
+.
+mjs
 "
               
 )
@@ -351,7 +353,7 @@ AddonManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
                     
 "
@@ -365,7 +367,9 @@ modules
 /
 AddonManager
 .
-jsm
+sys
+.
+mjs
 "
                   
 )

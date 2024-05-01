@@ -1642,7 +1642,7 @@ FxAccountsStorageManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
             
 "
@@ -1656,7 +1656,9 @@ modules
 /
 FxAccountsStorage
 .
-jsm
+sys
+.
+mjs
 "
           
 )
@@ -3376,7 +3378,7 @@ FxAccountsStorageManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
             
 "
@@ -3390,7 +3392,9 @@ modules
 /
 FxAccountsStorage
 .
-jsm
+sys
+.
+mjs
 "
           
 )
@@ -4005,7 +4009,7 @@ FormHistory
 =
 ChromeUtils
 .
-import
+importESModule
 (
             
 "
@@ -4019,7 +4023,9 @@ modules
 /
 FormHistory
 .
-jsm
+sys
+.
+mjs
 "
           
 )
@@ -4059,7 +4065,7 @@ formAutofillStorage
 =
 ChromeUtils
 .
-import
+importESModule
 (
               
 "
@@ -4071,7 +4077,9 @@ formautofill
 /
 FormAutofillStorage
 .
-jsm
+sys
+.
+mjs
 "
             
 )
