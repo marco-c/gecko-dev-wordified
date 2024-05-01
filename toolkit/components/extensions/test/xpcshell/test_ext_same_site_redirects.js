@@ -805,10 +805,7 @@ registerPathHandler
 /
 final_and_clean
 "
-(
 request
-response
-)
 =
 >
 {

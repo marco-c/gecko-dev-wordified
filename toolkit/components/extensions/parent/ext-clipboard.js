@@ -163,7 +163,6 @@ ExtensionAPI
 {
 getAPI
 (
-context
 )
 {
 return

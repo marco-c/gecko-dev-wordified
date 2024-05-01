@@ -1152,7 +1152,8 @@ swRegInfo
 scriptURL
 ]
 async
-url
+(
+)
 =
 >
 {

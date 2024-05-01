@@ -2509,7 +2509,8 @@ filter
 .
 ondata
 =
-event
+(
+)
 =
 >
 {

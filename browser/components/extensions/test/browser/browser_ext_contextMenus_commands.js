@@ -184,11 +184,7 @@ onUpdated
 .
 addListener
 (
-(
 tabId
-changeInfo
-tab
-)
 =
 >
 {

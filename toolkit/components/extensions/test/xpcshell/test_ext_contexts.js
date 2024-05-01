@@ -84,9 +84,6 @@ global
 }
 logActivity
 (
-type
-name
-data
 )
 {
 /
@@ -790,9 +787,6 @@ false
 }
 logActivity
 (
-type
-name
-data
 )
 {
 /

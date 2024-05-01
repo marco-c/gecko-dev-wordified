@@ -108,7 +108,6 @@ msg
 expectedStates
 readyState
 ]
-sender
 )
 =
 >

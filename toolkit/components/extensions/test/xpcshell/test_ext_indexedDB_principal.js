@@ -238,7 +238,6 @@ onerror
 =
 function
 (
-e
 )
 {
 browser
@@ -290,7 +289,6 @@ onerror
 =
 function
 (
-e
 )
 {
 browser
@@ -433,7 +431,6 @@ onerror
 =
 function
 (
-e
 )
 {
 browser
@@ -497,7 +494,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 browser
@@ -539,7 +535,6 @@ onerror
 =
 function
 (
-e
 )
 {
 browser
@@ -581,7 +576,6 @@ onerror
 =
 function
 (
-e
 )
 {
 browser

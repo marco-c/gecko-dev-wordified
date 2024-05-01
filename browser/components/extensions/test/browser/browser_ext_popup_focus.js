@@ -193,7 +193,8 @@ addEventListener
 "
 focus
 "
-event
+(
+)
 =
 >
 {
@@ -428,7 +429,8 @@ addEventListener
 "
 focus
 "
-event
+(
+)
 =
 >
 {

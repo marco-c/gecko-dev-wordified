@@ -1007,7 +1007,8 @@ resolve
 let
 onPopupHidden
 =
-event
+(
+)
 =
 >
 {
@@ -1884,9 +1885,6 @@ awaitLoad
 function
 getCustomizableUIPanelID
 (
-win
-=
-window
 )
 {
 return
@@ -3440,9 +3438,6 @@ function
 openSubmenu
 (
 submenuItem
-win
-=
-window
 )
 {
 const
@@ -4312,10 +4307,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 Preferences

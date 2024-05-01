@@ -1455,7 +1455,6 @@ function
 (
 extension
 tab
-toolbox
 )
 {
 info

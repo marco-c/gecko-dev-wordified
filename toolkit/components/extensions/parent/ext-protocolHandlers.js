@@ -257,7 +257,6 @@ ExtensionAPI
 {
 onManifestEntry
 (
-entryName
 )
 {
 let

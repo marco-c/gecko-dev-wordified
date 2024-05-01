@@ -93,10 +93,7 @@ imageLoadingPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -310,10 +307,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-sender
-)
 =
 >
 {
@@ -410,7 +404,6 @@ message
 function
 rcv
 (
-event
 )
 {
 browser
@@ -741,8 +734,6 @@ events
 observe
 (
 subject
-topic
-data
 )
 {
 this

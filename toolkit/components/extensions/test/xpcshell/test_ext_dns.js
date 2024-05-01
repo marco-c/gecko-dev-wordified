@@ -80,9 +80,6 @@ XPCShell
 function
 getExtension
 (
-background
-=
-undefined
 )
 {
 let

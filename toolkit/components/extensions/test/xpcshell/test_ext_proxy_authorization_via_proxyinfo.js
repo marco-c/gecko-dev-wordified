@@ -464,7 +464,8 @@ onAuthRequired
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

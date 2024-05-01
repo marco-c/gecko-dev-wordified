@@ -606,7 +606,8 @@ code
 .
 then
 (
-result
+(
+)
 =
 >
 {
@@ -1194,7 +1195,8 @@ window
 .
 then
 (
-result
+(
+)
 =
 >
 {
@@ -1302,7 +1304,8 @@ window
 .
 then
 (
-result
+(
+)
 =
 >
 {
@@ -1407,7 +1410,8 @@ js
 .
 then
 (
-result
+(
+)
 =
 >
 {
@@ -1528,7 +1532,8 @@ code
 .
 then
 (
-result
+(
+)
 =
 >
 {
@@ -1637,7 +1642,8 @@ code
 .
 then
 (
-result
+(
+)
 =
 >
 {

@@ -1252,7 +1252,8 @@ onTabReplaced
 "
 register
 :
-fire
+(
+)
 =
 >
 {

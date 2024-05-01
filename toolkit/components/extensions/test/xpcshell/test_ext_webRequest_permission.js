@@ -314,13 +314,6 @@ messageListener
 async
 receiveMessage
 (
-{
-target
-messageName
-recipient
-data
-name
-}
 )
 {
 /
@@ -758,7 +751,8 @@ eventName
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

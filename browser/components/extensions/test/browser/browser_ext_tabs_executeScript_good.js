@@ -95,10 +95,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-sender
-)
 =
 >
 {
@@ -958,7 +955,6 @@ setup
 async
 function
 (
-extension
 )
 {
 let

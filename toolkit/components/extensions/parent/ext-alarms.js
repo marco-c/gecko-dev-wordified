@@ -318,9 +318,6 @@ true
 }
 observe
 (
-subject
-topic
-data
 )
 {
 if
@@ -555,7 +552,6 @@ callback
 convert
 (
 _fire
-context
 )
 {
 fire

@@ -246,7 +246,8 @@ resolve
 let
 listener
 =
-args
+(
+)
 =
 >
 {

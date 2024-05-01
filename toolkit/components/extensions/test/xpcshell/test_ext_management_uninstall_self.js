@@ -360,7 +360,8 @@ onMessage
 .
 addListener
 (
-msg
+(
+)
 =
 >
 {
@@ -489,7 +490,8 @@ onMessage
 .
 addListener
 (
-msg
+(
+)
 =
 >
 {
@@ -702,7 +704,8 @@ onMessage
 addListener
 (
 async
-msg
+(
+)
 =
 >
 {

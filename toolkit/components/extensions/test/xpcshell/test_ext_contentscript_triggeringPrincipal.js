@@ -6770,11 +6770,7 @@ nsIChannel
 ;
 observer
 =
-(
 channel
-topic
-data
-)
 =
 >
 {

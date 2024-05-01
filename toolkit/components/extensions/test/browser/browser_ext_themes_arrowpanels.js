@@ -99,8 +99,6 @@ async
 function
 test_popup_styling
 (
-browser
-accDoc
 )
 {
 const
@@ -209,7 +207,6 @@ com
 async
 function
 (
-browser
 )
 {
 await

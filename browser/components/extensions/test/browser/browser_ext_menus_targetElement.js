@@ -264,10 +264,7 @@ onShown
 addListener
 (
 async
-(
 info
-tab
-)
 =
 >
 {
@@ -534,10 +531,7 @@ onShown
 .
 addListener
 (
-(
 info
-tab
-)
 =
 >
 {

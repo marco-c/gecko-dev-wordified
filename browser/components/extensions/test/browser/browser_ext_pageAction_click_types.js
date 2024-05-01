@@ -828,8 +828,6 @@ background
 function
 onBrowserActionClicked
 (
-tab
-info
 )
 {
 /

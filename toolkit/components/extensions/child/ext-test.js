@@ -1841,7 +1841,8 @@ promise
 .
 then
 (
-result
+(
+)
 =
 >
 {

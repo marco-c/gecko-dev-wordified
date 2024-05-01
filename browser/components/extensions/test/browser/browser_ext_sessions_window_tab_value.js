@@ -823,7 +823,6 @@ async
 function
 newTabListener
 (
-details
 )
 {
 browser

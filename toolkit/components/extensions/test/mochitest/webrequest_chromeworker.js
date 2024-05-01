@@ -15,7 +15,6 @@ onmessage
 =
 function
 (
-event
 )
 {
 fetch

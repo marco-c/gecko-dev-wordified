@@ -638,7 +638,6 @@ message
 }
 handleCompletion
 (
-reason
 )
 {
 resolve

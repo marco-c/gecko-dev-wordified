@@ -230,7 +230,6 @@ extension
 }
 onManifestEntry
 (
-entryName
 )
 {
 let

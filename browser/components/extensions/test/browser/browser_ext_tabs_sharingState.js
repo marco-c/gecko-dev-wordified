@@ -509,7 +509,6 @@ async
 (
 tabId
 changeInfo
-tab
 )
 =
 >

@@ -459,7 +459,6 @@ async
 function
 clearDownloads
 (
-callback
 )
 {
 let

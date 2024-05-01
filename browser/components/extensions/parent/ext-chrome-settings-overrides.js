@@ -1745,7 +1745,6 @@ id
 async
 onManifestEntry
 (
-entryName
 )
 {
 let

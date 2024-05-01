@@ -531,7 +531,6 @@ preprocessors
 localize
 (
 value
-context
 )
 {
 return
@@ -601,7 +600,6 @@ shouldInject
 (
 ns
 name
-allowedContexts
 )
 {
 return

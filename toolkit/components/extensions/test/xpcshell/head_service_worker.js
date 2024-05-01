@@ -961,9 +961,6 @@ startWatchingWorkers
 }
 observe
 (
-subject
-topic
-childIDString
 )
 {
 /

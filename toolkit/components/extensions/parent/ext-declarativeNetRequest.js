@@ -252,7 +252,6 @@ extension
 }
 getAPI
 (
-context
 )
 {
 const

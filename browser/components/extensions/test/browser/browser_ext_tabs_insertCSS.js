@@ -433,7 +433,8 @@ author
 .
 then
 (
-r
+(
+)
 =
 >
 browser
@@ -540,7 +541,8 @@ user
 .
 then
 (
-r
+(
+)
 =
 >
 browser

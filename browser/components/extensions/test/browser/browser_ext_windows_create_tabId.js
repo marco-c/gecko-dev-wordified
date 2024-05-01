@@ -251,7 +251,6 @@ listener
 (
 tabId
 changeInfo
-tab
 )
 {
 if

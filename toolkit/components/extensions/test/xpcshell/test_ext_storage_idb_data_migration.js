@@ -2241,7 +2241,6 @@ filterByCategory
 =
 (
 [
-timestamp
 category
 ]
 )

@@ -149,10 +149,7 @@ bookmark
 ]
 onclick
 :
-(
 info
-tab
-)
 =
 >
 {

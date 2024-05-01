@@ -555,10 +555,7 @@ this
 let
 observer
 =
-(
 subject
-topic
-)
 =
 >
 {
@@ -717,7 +714,6 @@ report
 convert
 (
 _fire
-context
 )
 {
 fire

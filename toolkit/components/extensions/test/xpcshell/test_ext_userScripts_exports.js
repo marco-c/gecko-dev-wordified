@@ -1116,7 +1116,6 @@ testAPIMethod
 param
 cb
 cb2
-objWithCb
 )
 {
 browser
@@ -3354,9 +3353,6 @@ trap
 }
 get
 (
-target
-prop
-receiver
 )
 {
 throw

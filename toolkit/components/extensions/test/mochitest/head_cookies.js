@@ -278,7 +278,8 @@ failures
 let
 tallyFailure
 =
-error
+(
+)
 =
 >
 {

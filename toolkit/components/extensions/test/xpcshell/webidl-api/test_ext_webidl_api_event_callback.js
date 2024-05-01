@@ -133,7 +133,6 @@ backgroundScript
 (
 {
 testAsserts
-testLog
 }
 )
 {
@@ -275,7 +274,6 @@ assertResults
 (
 {
 testError
-testResult
 }
 )
 {
@@ -588,7 +586,6 @@ result
 backgroundScript
 (
 {
-testAsserts
 testLog
 }
 )
@@ -1165,7 +1162,6 @@ call
 backgroundScript
 (
 {
-testAsserts
 testLog
 }
 )
@@ -1184,10 +1180,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1489,7 +1482,6 @@ call
 backgroundScript
 (
 {
-testAsserts
 testLog
 }
 )
@@ -1600,7 +1592,6 @@ assertResults
 (
 {
 testError
-testResult
 }
 )
 {
@@ -1736,7 +1727,6 @@ argument
 backgroundScript
 (
 {
-testAsserts
 testLog
 }
 )
@@ -2021,7 +2011,6 @@ eventListeners
 backgroundScript
 (
 {
-testAsserts
 testLog
 }
 )
@@ -2064,8 +2053,6 @@ fired
 listenerNoReply
 =
 (
-msg
-sendResponse
 )
 =
 >

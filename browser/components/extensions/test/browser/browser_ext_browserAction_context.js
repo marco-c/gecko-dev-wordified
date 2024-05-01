@@ -1627,7 +1627,6 @@ getTests
 function
 (
 tabs
-windows
 )
 {
 let
@@ -3243,7 +3242,6 @@ getTests
 function
 (
 tabs
-windows
 )
 {
 let

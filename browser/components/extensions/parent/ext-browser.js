@@ -763,7 +763,6 @@ browser
 webProgress
 request
 locationURI
-flags
 )
 {
 if

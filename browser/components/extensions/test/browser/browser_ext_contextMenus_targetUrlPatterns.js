@@ -497,7 +497,6 @@ async
 function
 testScript
 (
-testcases
 )
 {
 let

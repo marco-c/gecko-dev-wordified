@@ -150,7 +150,6 @@ ExtensionAPI
 {
 getAPI
 (
-context
 )
 {
 return

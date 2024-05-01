@@ -6972,7 +6972,7 @@ param
 {
 DOMWindow
 }
-window
+_window
 *
 The
 window
@@ -7025,7 +7025,7 @@ abstract
 static
 getState
 (
-window
+_window
 )
 {
 throw
@@ -7181,7 +7181,7 @@ param
 {
 integer
 }
-index
+_index
 *
 The
 index
@@ -7202,7 +7202,7 @@ undefined
 /
 getTabAtIndex
 (
-index
+_index
 )
 {
 throw
@@ -8101,7 +8101,7 @@ param
 {
 NativeTab
 }
-nativeTab
+_nativeTab
 *
 The
 native
@@ -8133,7 +8133,7 @@ abstract
 /
 getId
 (
-nativeTab
+_nativeTab
 )
 {
 throw
@@ -8167,7 +8167,7 @@ param
 {
 integer
 }
-tabId
+_tabId
 *
 The
 numeric
@@ -8183,7 +8183,7 @@ param
 {
 *
 }
-default_
+_default
 *
 The
 value
@@ -8234,10 +8234,8 @@ abstract
 /
 getTab
 (
-tabId
-default_
-=
-undefined
+_tabId
+_default
 )
 {
 throw
@@ -8311,7 +8309,6 @@ jsdoc
 /
 getBrowserData
 (
-browser
 )
 {
 throw
@@ -8612,7 +8609,6 @@ browser
 webProgress
 request
 locationURI
-flags
 )
 {
 if
@@ -11163,7 +11159,7 @@ param
 {
 DOMWindow
 }
-window
+_window
 *
 The
 browser
@@ -11180,7 +11176,7 @@ param
 {
 object
 }
-listener
+_listener
 *
 The
 tab
@@ -11195,8 +11191,8 @@ abstract
 /
 addProgressListener
 (
-window
-listener
+_window
+_listener
 )
 {
 throw
@@ -11231,7 +11227,7 @@ param
 {
 DOMWindow
 }
-window
+_window
 *
 The
 browser
@@ -11248,7 +11244,7 @@ param
 {
 object
 }
-listener
+_listener
 *
 The
 tab
@@ -11263,8 +11259,8 @@ abstract
 /
 removeProgressListener
 (
-window
-listener
+_window
+_listener
 )
 {
 throw
@@ -12080,7 +12076,7 @@ param
 {
 NativeTab
 }
-nativeTab
+_nativeTab
 *
 The
 tab
@@ -12113,7 +12109,7 @@ abstract
 /
 canAccessTab
 (
-nativeTab
+_nativeTab
 )
 {
 throw
@@ -12693,7 +12689,7 @@ param
 {
 integer
 }
-tabId
+_tabId
 *
 The
 ID
@@ -12734,7 +12730,7 @@ abstract
 /
 get
 (
-tabId
+_tabId
 )
 {
 throw
@@ -12769,7 +12765,7 @@ param
 {
 NativeTab
 }
-nativeTab
+_nativeTab
 *
 The
 native
@@ -12793,19 +12789,9 @@ protected
 abstract
 *
 /
-/
-*
-eslint
--
-enable
-valid
--
-jsdoc
-*
-/
 wrapTab
 (
-nativeTab
+_nativeTab
 )
 {
 throw
@@ -13519,7 +13505,7 @@ param
 {
 integer
 }
-windowId
+_windowId
 *
 The
 ID
@@ -13539,7 +13525,7 @@ param
 {
 BaseContext
 }
-context
+_context
 *
 The
 extension
@@ -13590,8 +13576,8 @@ abstract
 /
 get
 (
-windowId
-context
+_windowId
+_context
 )
 {
 throw
@@ -13672,7 +13658,7 @@ param
 {
 DOMWindow
 }
-window
+_window
 *
 The
 browser
@@ -13698,7 +13684,7 @@ abstract
 /
 wrapWindow
 (
-window
+_window
 )
 {
 throw

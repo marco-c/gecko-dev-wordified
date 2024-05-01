@@ -2320,7 +2320,6 @@ _context
 ;
 onManifestEntry
 (
-entryName
 )
 {
 let

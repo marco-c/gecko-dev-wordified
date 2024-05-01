@@ -282,7 +282,8 @@ id
 .
 then
 (
-sessions
+(
+)
 =
 >
 {
@@ -551,7 +552,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -1500,7 +1501,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .

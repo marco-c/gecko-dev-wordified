@@ -120,7 +120,6 @@ backgroundScript
 (
 {
 testAsserts
-testLog
 }
 )
 {

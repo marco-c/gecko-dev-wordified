@@ -230,7 +230,8 @@ onBeforeSendHeaders
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -286,7 +287,8 @@ onBeforeSendHeaders
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

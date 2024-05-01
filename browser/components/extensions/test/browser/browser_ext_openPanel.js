@@ -74,7 +74,6 @@ async
 (
 tabId
 changeInfo
-tabInfo
 )
 =
 >

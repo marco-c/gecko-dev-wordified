@@ -1447,7 +1447,6 @@ onBeforeRequest
 (
 expected
 details
-result
 )
 {
 /
@@ -1835,7 +1834,6 @@ onSendHeaders
 (
 expected
 details
-result
 )
 {
 if
@@ -2003,7 +2001,6 @@ onCompleted
 (
 expected
 details
-result
 )
 {
 /
@@ -2257,7 +2254,6 @@ onErrorOccurred
 (
 expected
 details
-result
 )
 {
 if

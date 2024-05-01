@@ -1402,7 +1402,6 @@ addListener
 function
 listener
 (
-tabId
 )
 {
 browser
@@ -2616,7 +2615,6 @@ listener
 (
 tabId_
 changed
-tab
 )
 {
 if
@@ -2668,10 +2666,7 @@ onRemoved
 .
 addListener
 (
-(
 tabId
-info
-)
 =
 >
 {
@@ -2843,7 +2838,8 @@ onActivated
 .
 addListener
 (
-info
+(
+)
 =
 >
 {
@@ -3189,10 +3185,7 @@ onRemoved
 .
 addListener
 (
-(
 tabId
-info
-)
 =
 >
 {

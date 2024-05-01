@@ -401,8 +401,6 @@ simple
 js
 "
 (
-request
-response
 )
 =
 >

@@ -848,8 +848,6 @@ registerPathHandler
 empty
 "
 (
-req
-res
 )
 =
 >

@@ -1916,7 +1916,6 @@ contextData
 createMenuElement
 (
 doc
-item
 )
 {
 let
@@ -6585,8 +6584,6 @@ cleanupLibrary
 observe
 (
 subject
-topic
-data
 )
 {
 subject

@@ -1230,7 +1230,8 @@ extension
 .
 id
 async
-extensionId
+(
+)
 =
 >
 {
@@ -1518,7 +1519,8 @@ extension
 .
 id
 async
-extensionId
+(
+)
 =
 >
 {

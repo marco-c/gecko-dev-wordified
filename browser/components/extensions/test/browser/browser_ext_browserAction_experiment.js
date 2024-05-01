@@ -252,7 +252,6 @@ ExtensionAPI
 {
 getAPI
 (
-context
 )
 {
 return
@@ -307,7 +306,6 @@ ExtensionAPI
 {
 getAPI
 (
-context
 )
 {
 return

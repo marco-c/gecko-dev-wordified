@@ -644,10 +644,7 @@ fire
 let
 observer
 =
-(
 subject
-topic
-)
 =
 >
 {

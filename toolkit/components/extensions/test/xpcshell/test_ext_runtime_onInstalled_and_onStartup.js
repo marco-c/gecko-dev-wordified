@@ -354,7 +354,8 @@ onUpdateAvailable
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

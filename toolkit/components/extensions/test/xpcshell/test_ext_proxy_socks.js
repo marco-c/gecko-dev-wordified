@@ -281,7 +281,8 @@ socket
 .
 onclose
 =
-event
+(
+)
 =
 >
 {
@@ -3219,7 +3220,8 @@ onAuthRequired
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

@@ -257,7 +257,6 @@ ExtensionAPI
 {
 getAPI
 (
-context
 )
 {
 let

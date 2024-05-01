@@ -890,10 +890,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-sender
-)
 =
 >
 {
@@ -1274,7 +1271,8 @@ onMessage
 .
 addListener
 (
-msg
+(
+)
 =
 >
 {
