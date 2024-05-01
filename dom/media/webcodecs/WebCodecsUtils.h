@@ -566,6 +566,9 @@ const
 OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
 &
 aSrc
+ErrorResult
+&
+aRv
 )
 ;
 Result
