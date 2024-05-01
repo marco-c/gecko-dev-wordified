@@ -119,11 +119,6 @@ this
 require
 exports
 module
-{
-Cc
-Ci
-Cu
-}
 ChromeWorker
 dumpn
 )
@@ -188,11 +183,6 @@ exports
 :
 this
 }
-{
-Cc
-Ci
-Cu
-}
 ChromeWorker
 null
 )
@@ -222,8 +212,6 @@ function
 require
 exports
 module
-{
-}
 ChromeWorker
 dumpn
 )
