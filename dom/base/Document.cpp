@@ -9510,10 +9510,6 @@ ViewportFitType
 :
 Auto
 )
-mSubDocuments
-(
-nullptr
-)
 mHeaderData
 (
 nullptr
@@ -14600,9 +14596,6 @@ references
 if
 any
 .
-delete
-mSubDocuments
-;
 mSubDocuments
 =
 nullptr
@@ -16431,12 +16424,6 @@ mStyleSheetSetList
 nullptr
 ;
 }
-delete
-tmp
--
->
-mSubDocuments
-;
 tmp
 -
 >
@@ -17385,9 +17372,6 @@ a
 bit
 faster
 .
-delete
-mSubDocuments
-;
 mSubDocuments
 =
 nullptr
@@ -43836,8 +43820,10 @@ SubDocInitEntry
 ;
 mSubDocuments
 =
-new
+MakeUnique
+<
 PLDHashTable
+>
 (
 &
 hash_table_ops
