@@ -271,6 +271,14 @@ testing
 :
 SizeIs
 ;
+using
+:
+:
+webrtc
+:
+:
+TimeDelta
+;
 constexpr
 DurationMs
 kHeartbeatInterval
@@ -896,6 +904,10 @@ context_
 ObserveRTT
 (
 rtt
+.
+ToTimeDelta
+(
+)
 )
 )
 .

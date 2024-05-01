@@ -446,8 +446,11 @@ MOCK_METHOD
 void
 ObserveRTT
 (
-DurationMs
-rtt_ms
+webrtc
+:
+:
+TimeDelta
+rtt
 )
 (
 override
