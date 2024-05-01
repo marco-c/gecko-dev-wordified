@@ -1502,6 +1502,9 @@ WebRenderBridgeChild
 >
 mWrChild
 ;
+bool
+mHasFlushedThisChild
+;
 RefPtr
 <
 TransactionIdAllocator
@@ -1784,6 +1787,9 @@ mDLBuilder
 ;
 ScrollUpdatesMap
 mPendingScrollUpdates
+;
+LayoutDeviceIntSize
+mFlushWidgetSize
 ;
 }
 ;
