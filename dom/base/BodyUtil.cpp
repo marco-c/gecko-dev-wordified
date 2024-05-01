@@ -1881,7 +1881,7 @@ boundary
 from
 mimetype
 .
-UniquePtr
+RefPtr
 <
 CMimeType
 >

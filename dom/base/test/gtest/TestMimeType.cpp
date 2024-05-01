@@ -137,12 +137,6 @@ nsString
 .
 h
 "
-using
-mozilla
-:
-:
-UniquePtr
-;
 TEST
 (
 MimeType
@@ -158,7 +152,7 @@ u
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -205,7 +199,7 @@ n
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -248,7 +242,7 @@ u
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -290,7 +284,7 @@ u
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -334,7 +328,7 @@ bogus
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -385,7 +379,7 @@ bogus
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -429,7 +423,7 @@ bogus
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -474,7 +468,7 @@ bogus
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -519,7 +513,7 @@ bogus
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -570,7 +564,7 @@ t
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -618,7 +612,7 @@ bogus
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -669,7 +663,7 @@ html
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -720,7 +714,7 @@ tl
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -765,7 +759,7 @@ u
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -814,7 +808,7 @@ u
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -863,7 +857,7 @@ u
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -914,7 +908,7 @@ u
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -965,7 +959,7 @@ u
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -1019,7 +1013,7 @@ matter
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -1066,7 +1060,7 @@ u
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -1117,7 +1111,7 @@ x0100
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -1182,7 +1176,7 @@ yes
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -1285,7 +1279,7 @@ windows
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -1377,7 +1371,7 @@ GBK
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -1473,7 +1467,7 @@ GBK
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 CMimeType
 >
@@ -1590,7 +1584,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -1708,7 +1702,7 @@ bk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -1818,7 +1812,7 @@ bk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -1931,7 +1925,7 @@ k
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2034,7 +2028,7 @@ test
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2130,7 +2124,7 @@ test
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2232,7 +2226,7 @@ x
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2324,7 +2318,7 @@ charset
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2418,7 +2412,7 @@ charset
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2531,7 +2525,7 @@ t
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2620,7 +2614,7 @@ t
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2701,7 +2695,7 @@ test
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2783,7 +2777,7 @@ test
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2871,7 +2865,7 @@ t
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -2956,7 +2950,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3046,7 +3040,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3134,7 +3128,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3223,7 +3217,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3311,7 +3305,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3406,7 +3400,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3499,7 +3493,7 @@ GBK
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3603,7 +3597,7 @@ charset
 "
 )
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3691,7 +3685,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3781,7 +3775,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3870,7 +3864,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -3962,7 +3956,7 @@ GBK
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -4055,7 +4049,7 @@ GBK
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -4148,7 +4142,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -4237,7 +4231,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -4326,7 +4320,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -4425,7 +4419,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -4520,7 +4514,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -4617,7 +4611,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -4720,7 +4714,7 @@ k
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -4812,7 +4806,7 @@ x
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -4906,7 +4900,7 @@ GBK
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -5001,7 +4995,7 @@ GBK
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -5097,7 +5091,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -5199,7 +5193,7 @@ u
 "
 )
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -5292,7 +5286,7 @@ gbk
 "
 )
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -5713,7 +5707,7 @@ u00FF
 "
 )
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -5792,7 +5786,7 @@ TEST
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -5944,7 +5938,7 @@ _
 "
 )
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -6095,7 +6089,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
@@ -6190,7 +6184,7 @@ gbk
 "
 _ns
 ;
-UniquePtr
+RefPtr
 <
 MimeType
 >
