@@ -69,6 +69,9 @@ testWebNNOperation
 averagePool2d
 '
 '
+l2Pool2d
+'
+'
 maxPool2d
 '
 ]
