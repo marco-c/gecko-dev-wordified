@@ -2079,6 +2079,7 @@ chan
 >
 DoNotifyListener
 (
+false
 )
 ;
 }
@@ -9570,6 +9571,8 @@ HttpChannelChild
 :
 DoNotifyListener
 (
+bool
+aUseEventQueue
 )
 {
 LOG
@@ -9696,6 +9699,11 @@ StoreOnStartRequestCalled
 true
 )
 ;
+if
+(
+aUseEventQueue
+)
+{
 mEventQ
 -
 >
@@ -9728,6 +9736,14 @@ ContinueDoNotifyListener
 )
 )
 ;
+}
+else
+{
+ContinueDoNotifyListener
+(
+)
+;
+}
 }
 void
 HttpChannelChild
