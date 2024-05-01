@@ -214,6 +214,11 @@ TestShmem
 .
 cpp
 "
+"
+TestSyncError
+.
+cpp
+"
 ]
 IPDL_SOURCES
 +
@@ -356,6 +361,11 @@ ipdl
 "
 "
 PTestShmem
+.
+ipdl
+"
+"
+PTestSyncError
 .
 ipdl
 "
