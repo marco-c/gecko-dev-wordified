@@ -1463,12 +1463,6 @@ move
 (
 function
 )
-/
-*
-aWaitForRemoteTextureOwner
-*
-/
-false
 )
 ;
 }
