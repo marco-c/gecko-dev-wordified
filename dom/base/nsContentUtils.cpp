@@ -72846,6 +72846,8 @@ aHost
 ShadowRootMode
 aMode
 bool
+aIsClonable
+bool
 aDelegatesFocus
 )
 {
@@ -72907,7 +72909,7 @@ init
 .
 mClonable
 =
-true
+aIsClonable
 ;
 RefPtr
 shadowRoot

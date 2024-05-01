@@ -14712,6 +14712,18 @@ null
 ;
 }
 boolean
+shadowRootIsClonable
+=
+attributes
+.
+contains
+(
+AttributeName
+.
+SHADOWROOTCLONABLE
+)
+;
+boolean
 shadowRootDelegatesFocus
 =
 attributes
@@ -14729,6 +14741,7 @@ getShadowRootFromHost
 currentNode
 templateNode
 shadowRootMode
+shadowRootIsClonable
 shadowRootDelegatesFocus
 )
 ;
@@ -28330,6 +28343,8 @@ T
 template
 String
 shadowRootMode
+boolean
+shadowRootIsClonable
 boolean
 shadowRootDelegatesFocus
 )

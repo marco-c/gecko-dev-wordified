@@ -5982,6 +5982,9 @@ aOperation
 mShadowRootMode
 aOperation
 .
+mShadowRootIsClonable
+aOperation
+.
 mShadowRootDelegatesFocus
 )
 ;

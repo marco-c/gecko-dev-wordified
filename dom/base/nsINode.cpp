@@ -23681,11 +23681,6 @@ IsDeclarative
 )
 )
 ;
-if
-(
-aDeep
-)
-{
 for
 (
 nsIContent
@@ -23721,7 +23716,7 @@ CloneAndAdopt
 (
 origChild
 aClone
-aDeep
+true
 nodeInfoManager
 aReparentScope
 newShadowRoot
@@ -23743,7 +23738,6 @@ Failed
 return
 nullptr
 ;
-}
 }
 }
 }

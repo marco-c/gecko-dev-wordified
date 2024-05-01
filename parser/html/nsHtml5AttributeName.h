@@ -1556,6 +1556,11 @@ ATTR_SEED
 static
 nsHtml5AttributeName
 *
+ATTR_SHADOWROOTCLONABLE
+;
+static
+nsHtml5AttributeName
+*
 ATTR_SRCDOC
 ;
 static

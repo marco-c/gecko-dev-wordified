@@ -11430,6 +11430,8 @@ aTemplateNode
 nsHtml5String
 aShadowRootMode
 bool
+aShadowRootIsClonable
+bool
 aShadowRootDelegatesFocus
 )
 {
@@ -11524,6 +11526,7 @@ nsIContent
 aHost
 )
 mode
+aShadowRootIsClonable
 aShadowRootDelegatesFocus
 )
 ;
@@ -11629,6 +11632,7 @@ aHost
 fragHandle
 aTemplateNode
 mode
+aShadowRootIsClonable
 aShadowRootDelegatesFocus
 )
 ;

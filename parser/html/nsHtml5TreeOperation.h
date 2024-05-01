@@ -1372,6 +1372,9 @@ ShadowRootMode
 mShadowRootMode
 ;
 bool
+mShadowRootIsClonable
+;
+bool
 mShadowRootDelegatesFocus
 ;
 explicit
@@ -1394,6 +1397,8 @@ dom
 :
 ShadowRootMode
 aShadowRootMode
+bool
+aShadowRootIsClonable
 bool
 aShadowRootDelegatesFocus
 )
@@ -1437,6 +1442,10 @@ aTemplateNode
 mShadowRootMode
 =
 aShadowRootMode
+;
+mShadowRootIsClonable
+=
+aShadowRootIsClonable
 ;
 mShadowRootDelegatesFocus
 =
