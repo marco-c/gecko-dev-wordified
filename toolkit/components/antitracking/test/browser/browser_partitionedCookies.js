@@ -26,8 +26,6 @@ cookies
 sjs
 ?
 3rd
-;
-Partitioned
 "
 )
 .
@@ -324,8 +322,6 @@ cookie
 foo
 =
 3rd
-;
-Partitioned
 "
 ;
 is
@@ -525,11 +521,6 @@ document
 cookie
 =
 value
-+
-"
-;
-Partitioned
-"
 ;
 return
 true
@@ -672,11 +663,6 @@ sjs
 "
 +
 value
-+
-"
-;
-Partitioned
-"
 )
 .
 then
