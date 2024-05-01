@@ -122,11 +122,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestInterruptRaces
-.
-h
-"
-"
 TestInterruptShutdownRace
 .
 h
@@ -251,11 +246,6 @@ SOURCES
 +
 =
 [
-"
-TestInterruptRaces
-.
-cpp
-"
 "
 TestInterruptShutdownRace
 .
@@ -424,11 +414,6 @@ ipdl
 "
 "
 PTestIndirectProtocolParamSecond
-.
-ipdl
-"
-"
-PTestInterruptRaces
 .
 ipdl
 "
