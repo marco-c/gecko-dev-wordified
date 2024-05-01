@@ -178,6 +178,14 @@ int
 window_size_ms
 )
 ;
+virtual
+~
+PacketArrivalHistory
+(
+)
+=
+default
+;
 /
 /
 Insert
@@ -247,6 +255,7 @@ the
 /
 delay
 .
+virtual
 int
 GetDelayMs
 (
@@ -270,6 +279,7 @@ in
 the
 history
 .
+virtual
 int
 GetMaxDelayMs
 (
