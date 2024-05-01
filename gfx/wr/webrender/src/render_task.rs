@@ -5717,17 +5717,6 @@ RenderTaskKind
 >
 Self
 {
-assert
-!
-(
-!
-size
-.
-is_empty
-(
-)
-)
-;
 RenderTask
 :
 :

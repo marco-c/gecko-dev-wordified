@@ -4162,12 +4162,7 @@ panic
 "
 unexpected
 format
-{
-:
-?
-}
 "
-format
 )
 ;
 }
