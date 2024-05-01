@@ -1203,7 +1203,10 @@ rtx
 )
 expires
 .
-DurationMs
+webrtc
+:
+:
+TimeDelta
 OnRtxTimerExpiry
 (
 )
@@ -1220,7 +1223,10 @@ ack
 timer
 expires
 .
-DurationMs
+webrtc
+:
+:
+TimeDelta
 OnDelayedAckTimerExpiry
 (
 )
