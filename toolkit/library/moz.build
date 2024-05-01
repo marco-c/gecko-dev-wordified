@@ -1641,6 +1641,11 @@ OpenGLES
 framework
 QuartzCore
 "
+"
+-
+framework
+Security
+"
 ]
 if
 CONFIG
