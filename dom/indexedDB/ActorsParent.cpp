@@ -16562,7 +16562,7 @@ thread
 dispatched
 to
 the
-main
+current
 thread
 .
 /
@@ -50302,7 +50302,7 @@ aActor
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-NS_DispatchToMainThread
+NS_DispatchToCurrentThread
 (
 op
 )
@@ -80800,7 +80800,7 @@ Open
 (
 )
 {
-AssertIsOnMainThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -80822,14 +80822,13 @@ NS_WARN_IF
 QuotaClient
 :
 :
-IsShuttingDownOnNonBackgroundThread
+IsShuttingDownOnBackgroundThread
 (
 )
 )
 |
 |
-!
-OperationMayProceed
+IsActorDestroyed
 (
 )
 )
