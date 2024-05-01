@@ -165,6 +165,10 @@ document
 getElementById
 (
 "
+full
+-
+page
+-
 translations
 -
 panel

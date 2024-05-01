@@ -2382,6 +2382,10 @@ await
 closePopupIfOpen
 (
 "
+full
+-
+page
+-
 translations
 -
 panel
@@ -2418,6 +2422,10 @@ await
 closePopupIfOpen
 (
 "
+full
+-
+page
+-
 translations
 -
 panel
@@ -3122,6 +3130,10 @@ document
 getElementById
 (
 "
+full
+-
+page
+-
 translations
 -
 panel

@@ -4027,6 +4027,10 @@ FullPageTranslationsTestUtils
 assertPanelMainViewId
 (
 "
+full
+-
+page
+-
 translations
 -
 panel
@@ -4110,6 +4114,10 @@ FullPageTranslationsTestUtils
 assertPanelMainViewId
 (
 "
+full
+-
+page
+-
 translations
 -
 panel
@@ -4288,6 +4296,10 @@ FullPageTranslationsTestUtils
 assertPanelMainViewId
 (
 "
+full
+-
+page
+-
 translations
 -
 panel
@@ -4385,6 +4397,10 @@ FullPageTranslationsTestUtils
 assertPanelMainViewId
 (
 "
+full
+-
+page
+-
 translations
 -
 panel
@@ -4479,6 +4495,10 @@ FullPageTranslationsTestUtils
 assertPanelMainViewId
 (
 "
+full
+-
+page
+-
 translations
 -
 panel
@@ -4578,6 +4598,10 @@ FullPageTranslationsTestUtils
 assertPanelMainViewId
 (
 "
+full
+-
+page
+-
 translations
 -
 panel
@@ -7056,6 +7080,10 @@ SharedTranslationsTestUtils
 _waitForPopupEvent
 (
 "
+full
+-
+page
+-
 translations
 -
 panel
