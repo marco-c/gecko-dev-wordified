@@ -211,6 +211,9 @@ RUST_TESTS
 =
 [
 "
+crashreporter
+"
+"
 firefox
 -
 on
@@ -266,6 +269,16 @@ issues
 gkrust
 "
 ]
+RUST_TEST_FEATURES
+.
+append
+(
+"
+crashreporter
+/
+mock
+"
+)
 #
 Code
 coverage
