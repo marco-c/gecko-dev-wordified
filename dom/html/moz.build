@@ -646,11 +646,6 @@ MediaError
 h
 "
 "
-nsBrowserElement
-.
-h
-"
-"
 PlayPromise
 .
 h
@@ -1062,11 +1057,6 @@ cpp
 "
 "
 MediaError
-.
-cpp
-"
-"
-nsBrowserElement
 .
 cpp
 "
