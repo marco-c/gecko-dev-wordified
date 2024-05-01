@@ -372,7 +372,7 @@ renderer
 :
 {
 MAX_VERTEX_TEXTURE_WIDTH
-GpuBufferBuilderF
+GpuBufferBuilder
 GpuBufferAddress
 }
 ;
@@ -5006,7 +5006,7 @@ _gpu_buffer_builder
 :
 &
 mut
-GpuBufferBuilderF
+GpuBufferBuilder
 segments
 :
 &
