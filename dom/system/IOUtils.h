@@ -889,6 +889,11 @@ int64_t
 aNewTime
 SetTimeFn
 aSetTimeFn
+const
+char
+*
+const
+aTimeKind
 ErrorResult
 &
 aError
