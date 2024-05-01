@@ -1224,6 +1224,8 @@ many
 files
 to
 read
+\
+n
 "
 )
 ;
@@ -3207,6 +3209,8 @@ WAYLAND_DISPLAY
 is
 empty
 .
+\
+n
 "
 )
 ;
@@ -3243,6 +3247,8 @@ SetupWaylandDisplays
 )
 Missing
 XDG_RUNTIME_DIR
+\
+n
 "
 )
 ;
@@ -3295,6 +3301,8 @@ is
 too
 large
 .
+\
+n
 "
 )
 ;
@@ -3358,6 +3366,8 @@ is
 too
 large
 .
+\
+n
 "
 )
 ;
@@ -3432,6 +3442,8 @@ is
 too
 large
 .
+\
+n
 "
 )
 ;
@@ -4770,6 +4782,8 @@ missing
 application
 to
 run
+\
+n
 "
 )
 ;
