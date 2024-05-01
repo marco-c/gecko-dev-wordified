@@ -346,13 +346,6 @@ h
 #
 include
 "
-nsContentCID
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
