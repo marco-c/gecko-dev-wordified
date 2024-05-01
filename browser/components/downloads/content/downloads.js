@@ -8824,7 +8824,6 @@ handled
 /
 onClick
 (
-aEvent
 )
 {
 DownloadsPanel

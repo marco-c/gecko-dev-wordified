@@ -242,7 +242,8 @@ addEventListener
 "
 visibilitychange
 "
-aEvent
+(
+)
 =
 >
 {

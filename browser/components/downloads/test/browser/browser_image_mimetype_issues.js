@@ -634,7 +634,8 @@ convert
 =
 webp
 async
-browser
+(
+)
 =
 >
 {
@@ -776,7 +777,8 @@ blank
 .
 JPG
 async
-browser
+(
+)
 =
 >
 {

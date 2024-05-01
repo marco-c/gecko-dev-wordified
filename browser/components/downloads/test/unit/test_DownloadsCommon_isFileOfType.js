@@ -606,7 +606,6 @@ function
 test_isFileOfType
 (
 {
-name
 typeArg
 downloadProps
 expected

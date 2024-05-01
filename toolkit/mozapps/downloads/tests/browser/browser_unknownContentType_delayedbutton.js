@@ -146,7 +146,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 let
@@ -174,7 +173,6 @@ load
 function
 onLoad
 (
-event
 )
 {
 /
@@ -253,10 +251,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

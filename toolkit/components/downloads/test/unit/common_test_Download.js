@@ -581,7 +581,8 @@ resolve
 let
 waitFn
 =
-base
+(
+)
 =
 >
 (
@@ -701,7 +702,8 @@ resolve
 let
 waitFn
 =
-base
+(
+)
 =
 >
 (
@@ -4626,8 +4628,6 @@ resolve
 function
 secondPart
 (
-aRequest
-aResponse
 )
 {
 }
@@ -12879,7 +12879,8 @@ test_blocked_parental_controls
 let
 blockFn
 =
-base
+(
+)
 =
 >
 (
@@ -13598,7 +13599,8 @@ true
 let
 blockFn
 =
-base
+(
+)
 =
 >
 (
@@ -18165,10 +18167,7 @@ modify
 -
 request
 "
-(
 subject
-data
-)
 =
 >
 {

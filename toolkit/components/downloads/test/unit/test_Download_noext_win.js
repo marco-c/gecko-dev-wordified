@@ -409,7 +409,8 @@ resolve
 let
 waitFn
 =
-base
+(
+)
 =
 >
 (
