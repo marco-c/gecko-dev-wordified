@@ -703,8 +703,12 @@ is
 not
 null
 .
+const
+Maybe
+<
 BounceTrackingRecord
-*
+>
+&
 record
 =
 aBounceTrackingState
