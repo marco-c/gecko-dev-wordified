@@ -445,7 +445,8 @@ Loaded
 const
 {
 return
-mLoaded
+!
+mFailed
 &
 &
 (
@@ -494,7 +495,7 @@ WaylandMessage
 ;
 private
 :
-bool
+void
 Read
 (
 int
@@ -503,11 +504,6 @@ aSocket
 ;
 private
 :
-bool
-mLoaded
-=
-false
-;
 bool
 mFailed
 =
@@ -834,7 +830,7 @@ fd
 ;
 }
 }
-bool
+void
 WaylandMessage
 :
 :
@@ -858,7 +854,9 @@ read
 assert
 (
 !
-mLoaded
+Loaded
+(
+)
 &
 &
 !
@@ -994,7 +992,6 @@ mFailed
 true
 ;
 return
-false
 ;
 }
 if
@@ -1049,7 +1046,6 @@ errno
 )
 ;
 return
-false
 ;
 default
 :
@@ -1071,7 +1067,6 @@ mFailed
 true
 ;
 return
-false
 ;
 }
 }
@@ -1297,13 +1292,6 @@ header
 next
 ;
 }
-mLoaded
-=
-true
-;
-return
-true
-;
 }
 bool
 WaylandMessage
@@ -1318,10 +1306,9 @@ aSocket
 if
 (
 !
-mLoaded
-|
-|
-mFailed
+Loaded
+(
+)
 )
 {
 return
