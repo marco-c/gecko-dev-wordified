@@ -585,7 +585,6 @@ makeTestChecker
 (
 input
 expected
-errors
 )
 {
 return

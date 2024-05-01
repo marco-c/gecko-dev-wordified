@@ -127,7 +127,6 @@ functions
 function
 log
 (
-entry
 )
 {
 }
