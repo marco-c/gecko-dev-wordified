@@ -10521,7 +10521,7 @@ func
 ;
 NS_ENSURE_TRUE
 (
-func
+script
 NS_ERROR_FAILURE
 )
 ;
