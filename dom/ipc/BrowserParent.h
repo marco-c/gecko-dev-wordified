@@ -3385,6 +3385,13 @@ nsIFilePicker
 Mode
 &
 aMode
+const
+MaybeDiscarded
+<
+BrowsingContext
+>
+&
+aBrowsingContext
 )
 ;
 bool
