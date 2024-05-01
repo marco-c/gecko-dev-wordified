@@ -620,6 +620,9 @@ bool
 js_regexp_modifiers
 ;
 bool
+js_regexp_duplicate_named_groups
+;
+bool
 regexp_possessive_quantifier
 ;
 bool
