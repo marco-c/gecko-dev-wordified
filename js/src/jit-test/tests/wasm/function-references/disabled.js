@@ -9,7 +9,7 @@ skip
 -
 if
 :
-wasmFunctionReferencesEnabled
+wasmGcEnabled
 (
 )
 const

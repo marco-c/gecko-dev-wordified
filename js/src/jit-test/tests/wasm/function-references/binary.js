@@ -10,7 +10,7 @@ skip
 if
 :
 !
-wasmFunctionReferencesEnabled
+wasmGcEnabled
 (
 )
 load

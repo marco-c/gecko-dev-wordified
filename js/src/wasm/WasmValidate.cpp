@@ -1365,7 +1365,7 @@ unusedArgs
 endif
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 case
 uint16_t
 (
@@ -1381,7 +1381,7 @@ if
 !
 env
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -1440,7 +1440,7 @@ if
 !
 env
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 |
@@ -9461,7 +9461,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 case
 uint16_t
 (
@@ -9477,7 +9477,7 @@ if
 !
 env
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -9519,7 +9519,7 @@ if
 !
 env
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -9570,7 +9570,7 @@ if
 !
 env
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )

@@ -13,14 +13,6 @@ wasm_gc
 =
 true
 ;
--
--
-setpref
-=
-wasm_function_references
-=
-true
-;
 skip
 -
 if
@@ -32,7 +24,7 @@ wasmGcEnabled
 |
 |
 !
-wasmFunctionReferencesEnabled
+wasmGcEnabled
 (
 )
 function

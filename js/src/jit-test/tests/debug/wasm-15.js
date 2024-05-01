@@ -448,7 +448,7 @@ frame
 at
 return_call_ref
 .
-wasmFunctionReferencesEnabled
+wasmGcEnabled
 (
 )
 &

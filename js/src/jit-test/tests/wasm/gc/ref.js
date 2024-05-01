@@ -1535,7 +1535,7 @@ null
 if
 (
 !
-wasmFunctionReferencesEnabled
+wasmGcEnabled
 (
 )
 )

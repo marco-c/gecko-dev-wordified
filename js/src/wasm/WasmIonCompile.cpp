@@ -6077,7 +6077,7 @@ true
 }
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 [
 [
 nodiscard
@@ -6374,7 +6374,7 @@ true
 endif
 /
 /
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 #
 ifdef
 ENABLE_WASM_GC
@@ -16397,7 +16397,7 @@ def
 }
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 [
 [
 nodiscard
@@ -16625,7 +16625,7 @@ ENABLE_WASM_TAIL_CALLS
 endif
 /
 /
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 /
 *
 *
@@ -35616,7 +35616,7 @@ ENABLE_WASM_TAIL_CALLS
 &
 defined
 (
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 )
 static
 bool
@@ -45689,7 +45689,7 @@ endif
 ENABLE_WASM_SIMD
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 static
 bool
 EmitRefAsNonNull
@@ -45988,7 +45988,7 @@ true
 endif
 /
 /
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 #
 ifdef
 ENABLE_WASM_GC
@@ -55171,7 +55171,7 @@ f
 endif
 #
 ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 case
 uint16_t
 (
@@ -55190,7 +55190,7 @@ moduleEnv
 (
 )
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -55236,7 +55236,7 @@ moduleEnv
 (
 )
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -55283,7 +55283,7 @@ moduleEnv
 (
 )
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -55330,7 +55330,7 @@ moduleEnv
 (
 )
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 )
@@ -55370,7 +55370,7 @@ ENABLE_WASM_TAIL_CALLS
 &
 defined
 (
-ENABLE_WASM_FUNCTION_REFERENCES
+ENABLE_WASM_GC
 )
 case
 uint16_t
@@ -55391,7 +55391,7 @@ moduleEnv
 (
 )
 .
-functionReferencesEnabled
+gcEnabled
 (
 )
 |

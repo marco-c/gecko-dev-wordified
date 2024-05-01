@@ -9,14 +9,6 @@ test
 -
 setpref
 =
-wasm_function_references
-=
-true
-;
--
--
-setpref
-=
 wasm_gc
 =
 true
