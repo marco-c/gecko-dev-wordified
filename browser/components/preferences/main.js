@@ -6104,7 +6104,6 @@ readBrowserContainersCheckbox
 async
 onGetStarted
 (
-aEvent
 )
 {
 if
@@ -12739,7 +12738,6 @@ description
 async
 checkBrowserContainers
 (
-event
 )
 {
 let
@@ -13682,7 +13680,6 @@ error
 }
 onMigrationButtonCommand
 (
-command
 )
 {
 /
@@ -14582,9 +14579,6 @@ false
 }
 updatePerformanceSettingsBox
 (
-{
-duringChangeEvent
-}
 )
 {
 let
@@ -26739,9 +26733,6 @@ _update
 }
 observe
 (
-subject
-topic
-data
 )
 {
 this
