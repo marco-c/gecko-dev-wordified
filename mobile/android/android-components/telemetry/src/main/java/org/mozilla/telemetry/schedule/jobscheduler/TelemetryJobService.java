@@ -448,8 +448,7 @@ upload
 "
 )
 ;
-return
-null
+continue
 ;
 }
 if
