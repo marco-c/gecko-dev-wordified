@@ -810,6 +810,17 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
+Promise
+>
+Databases
+(
+JSContext
+*
+aCx
+)
+;
 int16_t
 Cmp
 (
