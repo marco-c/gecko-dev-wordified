@@ -88,11 +88,9 @@ tree
 #
 include
 "
-net
+rtc_base
 /
-dcsctp
-/
-common
+strings
 /
 str_join
 .
@@ -118,12 +116,12 @@ include
 "
 test
 /
-gmock
+gtest
 .
 h
 "
 namespace
-dcsctp
+webrtc
 {
 namespace
 {
@@ -363,4 +361,4 @@ namespace
 /
 /
 namespace
-dcsctp
+webrtc
