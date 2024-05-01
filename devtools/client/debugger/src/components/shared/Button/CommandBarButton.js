@@ -176,13 +176,9 @@ type
 className
 )
 disabled
-:
-disabled
 key
 :
 type
-onClick
-:
 onClick
 pressed
 :

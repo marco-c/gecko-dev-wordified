@@ -350,8 +350,6 @@ status
 done
 "
 value
-:
-value
 }
 )
 ;

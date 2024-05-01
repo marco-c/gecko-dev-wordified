@@ -553,8 +553,6 @@ createElement
 ExceptionPopup
 {
 exception
-:
-exception
 clearPreview
 :
 this
@@ -904,10 +902,6 @@ targetPosition
 :
 cursorPos
 type
-:
-type
-editorRef
-:
 editorRef
 target
 :

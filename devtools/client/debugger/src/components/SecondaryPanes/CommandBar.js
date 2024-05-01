@@ -2215,8 +2215,6 @@ menu
 button
 "
 toolboxDoc
-:
-toolboxDoc
 className
 :
 "

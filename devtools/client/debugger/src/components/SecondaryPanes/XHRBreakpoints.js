@@ -1128,8 +1128,6 @@ focused
 }
 )
 onSubmit
-:
-onSubmit
 }
 input
 (
@@ -1148,8 +1146,6 @@ type
 "
 text
 "
-placeholder
-:
 placeholder
 onChange
 :

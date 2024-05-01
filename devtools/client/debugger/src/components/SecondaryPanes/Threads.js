@@ -225,8 +225,6 @@ createElement
 Thread
 {
 thread
-:
-thread
 key
 :
 thread

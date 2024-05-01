@@ -364,8 +364,6 @@ true
 return
 {
 token
-:
-function
 (
 stream
 state

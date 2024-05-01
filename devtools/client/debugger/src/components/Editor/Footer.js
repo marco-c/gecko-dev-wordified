@@ -1355,8 +1355,6 @@ map
 button
 "
 toolboxDoc
-:
-toolboxDoc
 className
 :
 classnames

@@ -135,8 +135,6 @@ checked
 :
 isChecked
 onChange
-:
-onChange
 }
 )
 div

@@ -379,8 +379,6 @@ button
 (
 {
 onClick
-:
-onClick
 className
 :
 {

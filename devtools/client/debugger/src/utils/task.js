@@ -93,8 +93,6 @@ cases
 .
 .
 async
-:
-function
 (
 task
 )
@@ -146,8 +144,6 @@ terminates
 *
 /
 spawn
-:
-function
 (
 task
 scope

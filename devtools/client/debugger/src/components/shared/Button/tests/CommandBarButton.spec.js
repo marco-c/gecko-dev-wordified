@@ -182,8 +182,6 @@ createElement
 CommandBarButton
 {
 children
-:
-children
 className
 :
 "

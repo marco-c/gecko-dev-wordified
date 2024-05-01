@@ -2494,8 +2494,6 @@ createElement
 SearchInput
 {
 query
-:
-query
 hasPrefix
 :
 true
@@ -2550,8 +2548,6 @@ handleClose
 this
 .
 closeModal
-expanded
-:
 expanded
 showClose
 :
@@ -2617,8 +2613,6 @@ key
 results
 "
 items
-:
-items
 selected
 :
 selectedIndex
@@ -2632,8 +2626,6 @@ ref
 "
 resultList
 "
-expanded
-:
 expanded
 .
 .

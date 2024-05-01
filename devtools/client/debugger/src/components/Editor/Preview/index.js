@@ -737,8 +737,6 @@ createElement
 Popup
 {
 preview
-:
-preview
 editor
 :
 this

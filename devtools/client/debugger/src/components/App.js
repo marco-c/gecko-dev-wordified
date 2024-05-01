@@ -1533,13 +1533,7 @@ createElement
 EditorTabs
 {
 startPanelCollapsed
-:
-startPanelCollapsed
 endPanelCollapsed
-:
-endPanelCollapsed
-horizontal
-:
 horizontal
 }
 )
@@ -1550,10 +1544,6 @@ createElement
 Editor
 {
 startPanelSize
-:
-startPanelSize
-endPanelSize
-:
 endPanelSize
 }
 )
@@ -1826,8 +1816,6 @@ triggerEditorPaneResize
 ;
 }
 startPanelCollapsed
-:
-startPanelCollapsed
 startPanel
 :
 React
@@ -1862,8 +1850,6 @@ SecondaryPanes
 horizontal
 }
 )
-endPanelCollapsed
-:
 endPanelCollapsed
 }
 )

@@ -732,8 +732,6 @@ focused
 }
 )
 placeholder
-:
-placeholder
 value
 :
 searchText
@@ -1175,8 +1173,6 @@ checked
 )
 ;
 }
-checked
-:
 checked
 ref
 :
