@@ -104,10 +104,6 @@ collections
 :
 :
 VecDeque
-convert
-:
-:
-TryFrom
 ops
 :
 :

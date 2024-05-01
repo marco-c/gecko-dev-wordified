@@ -109,7 +109,6 @@ test_fixture
 :
 :
 {
-self
 now
 split_datagram
 }
@@ -2655,10 +2654,6 @@ default
 (
 )
 )
-.
-unwrap
-(
-)
 ;
 assert_eq
 !
@@ -2703,10 +2698,6 @@ FrameStats
 default
 (
 )
-)
-.
-unwrap
-(
 )
 ;
 assert

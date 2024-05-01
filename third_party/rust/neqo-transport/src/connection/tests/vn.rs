@@ -110,7 +110,6 @@ test_fixture
 :
 :
 {
-self
 assertions
 datagram
 now

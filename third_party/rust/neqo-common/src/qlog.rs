@@ -108,7 +108,6 @@ qlog
 :
 :
 {
-self
 streamer
 :
 :

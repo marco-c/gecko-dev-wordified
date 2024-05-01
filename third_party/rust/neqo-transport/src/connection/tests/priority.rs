@@ -109,10 +109,7 @@ use
 test_fixture
 :
 :
-{
-self
 now
-}
 ;
 use
 super
@@ -2903,14 +2900,8 @@ server
 .
 set_validation
 (
-Rc
-:
-:
-clone
-(
 &
 validation
-)
 )
 ;
 connect

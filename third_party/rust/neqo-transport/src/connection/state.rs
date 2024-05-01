@@ -137,7 +137,6 @@ recovery
 RecoveryToken
 ConnectionError
 Error
-Res
 }
 ;
 #
@@ -355,6 +354,10 @@ _
 )
 )
 }
+#
+[
+must_use
+]
 pub
 fn
 error
@@ -1466,12 +1469,9 @@ PacketBuilder
 )
 -
 >
-Res
-<
 Option
 <
 RecoveryToken
->
 >
 {
 if
@@ -1510,8 +1510,6 @@ encode_varint
 FRAME_TYPE_HANDSHAKE_DONE
 )
 ;
-Ok
-(
 Some
 (
 RecoveryToken
@@ -1519,14 +1517,10 @@ RecoveryToken
 :
 HandshakeDone
 )
-)
 }
 else
 {
-Ok
-(
 None
-)
 }
 }
 pub

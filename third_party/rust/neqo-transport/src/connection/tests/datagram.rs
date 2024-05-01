@@ -89,10 +89,6 @@ cell
 :
 :
 RefCell
-convert
-:
-:
-TryFrom
 rc
 :
 :

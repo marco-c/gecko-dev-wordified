@@ -118,7 +118,6 @@ test_fixture
 :
 :
 {
-self
 assertions
 now
 }

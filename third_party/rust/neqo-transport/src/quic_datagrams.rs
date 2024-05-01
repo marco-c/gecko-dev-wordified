@@ -116,10 +116,6 @@ collections
 :
 :
 VecDeque
-convert
-:
-:
-TryFrom
 }
 ;
 use

@@ -80,17 +80,6 @@ to
 those
 terms
 .
-#
-!
-[
-deny
-(
-clippy
-:
-:
-pedantic
-)
-]
 use
 std
 :

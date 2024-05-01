@@ -94,7 +94,6 @@ test_fixture
 :
 :
 {
-self
 datagram
 now
 }

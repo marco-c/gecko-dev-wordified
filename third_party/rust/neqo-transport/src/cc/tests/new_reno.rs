@@ -84,17 +84,6 @@ terms
 /
 Congestion
 control
-#
-!
-[
-deny
-(
-clippy
-:
-:
-pedantic
-)
-]
 use
 std
 :

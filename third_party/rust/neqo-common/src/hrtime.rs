@@ -89,10 +89,6 @@ cell
 :
 :
 RefCell
-convert
-:
-:
-TryFrom
 rc
 :
 :
@@ -2150,7 +2146,7 @@ Handle
 {
 thread_local
 !
-{
+(
 static
 HR_TIME
 :
@@ -2171,8 +2167,8 @@ RefCell
 default
 (
 )
+)
 ;
-}
 HR_TIME
 .
 with

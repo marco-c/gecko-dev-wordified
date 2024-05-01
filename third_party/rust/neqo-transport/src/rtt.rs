@@ -91,17 +91,6 @@ detecting
 their
 loss
 .
-#
-!
-[
-deny
-(
-clippy
-:
-:
-pedantic
-)
-]
 use
 std
 :

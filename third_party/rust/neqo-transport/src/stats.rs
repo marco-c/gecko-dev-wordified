@@ -88,17 +88,6 @@ some
 useful
 statistics
 .
-#
-!
-[
-deny
-(
-clippy
-:
-:
-pedantic
-)
-]
 use
 std
 :

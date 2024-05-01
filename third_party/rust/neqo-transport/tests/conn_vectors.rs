@@ -94,17 +94,6 @@ spec
 #
 !
 [
-deny
-(
-clippy
-:
-:
-pedantic
-)
-]
-#
-!
-[
 cfg
 (
 not
@@ -149,7 +138,6 @@ test_fixture
 :
 :
 {
-self
 datagram
 now
 }
