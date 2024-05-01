@@ -357,6 +357,17 @@ correct
 "
 )
 ;
+await
+waitForSource
+(
+dbg
+"
+worker
+.
+js
+"
+)
+;
 const
 source
 =

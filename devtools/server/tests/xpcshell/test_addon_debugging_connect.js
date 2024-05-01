@@ -304,7 +304,9 @@ separate
 child
 process
 otherwise
-attachThread
+the
+thread
+actor
 would
 pause
 the
@@ -576,8 +578,11 @@ threadFront
 await
 addonTarget
 .
-attachThread
+getFront
 (
+"
+thread
+"
 )
 ;
 ok
