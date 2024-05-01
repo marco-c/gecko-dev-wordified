@@ -4731,7 +4731,7 @@ is_ancestor_or_self_zooming
 =
 self
 .
-is_async_zooming
+is_ancestor_or_self_zooming
 ;
 state
 .
