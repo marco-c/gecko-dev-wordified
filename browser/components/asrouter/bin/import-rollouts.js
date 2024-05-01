@@ -240,9 +240,6 @@ message2
 eslint
 -
 disable
-max
--
-depth
 no
 -
 console
