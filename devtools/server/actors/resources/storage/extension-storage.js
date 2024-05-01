@@ -2044,9 +2044,7 @@ editItem
 (
 {
 host
-field
 items
-oldValue
 }
 )
 {

@@ -241,7 +241,8 @@ resources
 const
 onCssMessageAvailable
 =
-resources
+(
+)
 =
 >
 {

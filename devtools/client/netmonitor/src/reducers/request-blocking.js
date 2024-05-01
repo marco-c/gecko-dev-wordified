@@ -576,7 +576,6 @@ function
 removeAllBlockedUrls
 (
 state
-action
 )
 {
 return
@@ -596,7 +595,6 @@ function
 enableAllBlockedUrls
 (
 state
-action
 )
 {
 const
@@ -638,7 +636,6 @@ function
 disableAllBlockedUrls
 (
 state
-action
 )
 {
 const

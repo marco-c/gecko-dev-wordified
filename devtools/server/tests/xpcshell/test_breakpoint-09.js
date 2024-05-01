@@ -305,7 +305,6 @@ paused
 "
 function
 (
-packet
 )
 {
 /

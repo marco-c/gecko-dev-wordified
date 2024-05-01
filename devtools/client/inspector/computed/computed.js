@@ -8262,7 +8262,6 @@ property
 /
 mdnLinkClick
 (
-event
 )
 {
 if

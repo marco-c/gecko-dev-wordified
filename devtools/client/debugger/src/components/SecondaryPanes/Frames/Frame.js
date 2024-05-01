@@ -678,7 +678,6 @@ onMouseDown
 (
 e
 frame
-selectedFrame
 )
 {
 if
@@ -709,7 +708,6 @@ onKeyUp
 (
 event
 frame
-selectedFrame
 )
 {
 if

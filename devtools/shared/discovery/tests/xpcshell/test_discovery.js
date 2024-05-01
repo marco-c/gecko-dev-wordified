@@ -442,8 +442,6 @@ object
 }
 onStopListening
 (
-socket
-status
 )
 {
 }

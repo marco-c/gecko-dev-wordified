@@ -55,7 +55,8 @@ self
 .
 onmessage
 =
-ex
+(
+)
 =
 >
 {

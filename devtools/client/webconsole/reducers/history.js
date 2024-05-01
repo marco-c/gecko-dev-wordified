@@ -538,7 +538,6 @@ state
 function
 clearHistory
 (
-state
 )
 {
 return

@@ -1787,9 +1787,6 @@ query
 _dispatchQuery
 (
 query
-newSubscribers
-=
-null
 )
 {
 if

@@ -723,11 +723,7 @@ expectContrastRange
 =
 false
 expectedMinContrastValueResult
-expectedMinContrastValueTitle
-expectedMinContrastValueScore
 expectedMaxContrastValueResult
-expectedMaxContrastValueTitle
-expectedMaxContrastValueScore
 }
 )
 {

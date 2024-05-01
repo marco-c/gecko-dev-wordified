@@ -131,7 +131,6 @@ async
 (
 {
 dispatch
-client
 getState
 }
 )

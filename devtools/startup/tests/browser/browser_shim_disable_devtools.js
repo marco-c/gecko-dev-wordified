@@ -977,7 +977,6 @@ function
 observer
 (
 subject
-topic
 )
 {
 if

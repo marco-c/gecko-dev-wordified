@@ -856,7 +856,6 @@ stateText
 }
 getClassNameForStatus
 (
-baseClass
 )
 {
 const

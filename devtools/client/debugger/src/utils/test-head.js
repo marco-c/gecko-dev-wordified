@@ -621,10 +621,6 @@ function
 createSourceObject
 (
 filename
-props
-=
-{
-}
 )
 {
 return

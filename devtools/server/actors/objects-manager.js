@@ -148,7 +148,6 @@ Actor
 constructor
 (
 conn
-targetActor
 )
 {
 super

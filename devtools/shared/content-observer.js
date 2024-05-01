@@ -320,8 +320,6 @@ up
 _onContentGlobalCreated
 (
 subject
-topic
-data
 )
 {
 if
@@ -372,8 +370,6 @@ cache
 _onInnerWindowDestroyed
 (
 subject
-topic
-data
 )
 {
 const

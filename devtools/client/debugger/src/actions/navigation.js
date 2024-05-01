@@ -157,9 +157,7 @@ function
 {
 dispatch
 getState
-client
 sourceMapLoader
-parserWorker
 }
 )
 {
@@ -239,7 +237,6 @@ async
 function
 (
 {
-getState
 dispatch
 panel
 }

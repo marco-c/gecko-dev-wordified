@@ -2629,7 +2629,6 @@ read
 =
 function
 (
-stream
 )
 {
 /

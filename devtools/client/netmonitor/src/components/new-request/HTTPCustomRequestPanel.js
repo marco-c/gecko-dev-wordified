@@ -2670,7 +2670,6 @@ map
 (
 (
 {
-checked
 .
 .
 .
@@ -2708,7 +2707,6 @@ map
 (
 (
 {
-checked
 .
 .
 .
@@ -2787,10 +2785,7 @@ state
 )
 }
 )
-(
 dispatch
-props
-)
 =
 >
 (

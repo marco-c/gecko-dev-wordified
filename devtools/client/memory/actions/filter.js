@@ -241,7 +241,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =

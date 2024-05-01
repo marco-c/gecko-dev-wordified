@@ -916,7 +916,6 @@ function
 {
 ui
 manager
-browser
 }
 )
 {

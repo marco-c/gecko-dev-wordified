@@ -422,7 +422,6 @@ newState
 RESET_EDITOR
 ]
 (
-state
 )
 {
 return

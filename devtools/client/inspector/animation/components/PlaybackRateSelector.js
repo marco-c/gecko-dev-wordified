@@ -269,7 +269,6 @@ static
 getDerivedStateFromProps
 (
 props
-state
 )
 {
 const

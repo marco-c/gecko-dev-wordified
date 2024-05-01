@@ -73,7 +73,6 @@ onfetch
 =
 function
 (
-event
 )
 {
 /

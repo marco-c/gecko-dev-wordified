@@ -1429,13 +1429,6 @@ tooltip
 this
 .
 popover
-type
-:
-this
-.
-props
-.
-type
 gapHeight
 :
 this

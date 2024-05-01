@@ -1771,7 +1771,7 @@ param
 {
 Boolean
 }
-option
+options
 .
 deadzoneIncluded
 True
@@ -1799,12 +1799,6 @@ the
 distance
 .
 *
-param
-{
-CSSRuleView
-}
-view
-*
 /
 async
 function
@@ -1812,7 +1806,6 @@ testIncrement
 (
 editor
 options
-view
 )
 {
 info

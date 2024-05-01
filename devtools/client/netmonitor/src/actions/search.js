@@ -921,7 +921,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =
@@ -993,7 +992,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =
@@ -1046,7 +1044,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =
@@ -1105,7 +1102,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =
@@ -1402,7 +1398,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =

@@ -582,7 +582,6 @@ then
 (
 [
 applicationType
-traits
 ]
 )
 =

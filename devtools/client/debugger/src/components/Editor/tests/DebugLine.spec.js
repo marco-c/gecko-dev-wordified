@@ -171,7 +171,8 @@ clear
 )
 getLine
 :
-line
+(
+)
 =
 >
 "

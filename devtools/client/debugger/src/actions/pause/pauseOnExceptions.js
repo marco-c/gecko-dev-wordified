@@ -116,7 +116,6 @@ return
 (
 {
 dispatch
-getState
 client
 }
 )

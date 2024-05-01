@@ -1318,7 +1318,8 @@ getWalker
 .
 then
 (
-walker
+(
+)
 =
 >
 {

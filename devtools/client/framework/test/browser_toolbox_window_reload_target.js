@@ -422,7 +422,8 @@ reloadDetected
 const
 reloadCounter
 =
-msg
+(
+)
 =
 >
 {

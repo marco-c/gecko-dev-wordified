@@ -877,7 +877,6 @@ true
 onWillNavigate
 (
 {
-window
 isTopLevel
 newURI
 navigationStart
@@ -1339,7 +1338,6 @@ onStateChange
 progress
 request
 flag
-status
 )
 {
 progress

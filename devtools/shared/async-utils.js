@@ -219,7 +219,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 const

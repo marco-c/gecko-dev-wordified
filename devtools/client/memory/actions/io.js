@@ -193,7 +193,6 @@ function
 (
 {
 dispatch
-getState
 }
 )
 {
@@ -306,7 +305,6 @@ function
 (
 {
 dispatch
-getState
 }
 )
 {
@@ -420,7 +418,6 @@ function
 (
 {
 dispatch
-getState
 }
 )
 {

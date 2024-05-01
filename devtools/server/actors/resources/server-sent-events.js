@@ -651,7 +651,6 @@ specific
 functions
 eventSourceConnectionOpened
 (
-httpChannelId
 )
 {
 }

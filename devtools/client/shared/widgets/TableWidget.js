@@ -10789,7 +10789,8 @@ addEventListener
 "
 contextmenu
 "
-event
+(
+)
 =
 >
 {

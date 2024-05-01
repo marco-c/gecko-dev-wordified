@@ -94,7 +94,6 @@ function
 (
 {
 ui
-manager
 }
 )
 {

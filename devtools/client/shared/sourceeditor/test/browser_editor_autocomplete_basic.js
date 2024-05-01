@@ -141,7 +141,6 @@ function
 testJS
 (
 ed
-win
 )
 {
 ok
@@ -206,7 +205,6 @@ function
 testCSS
 (
 ed
-win
 )
 {
 ok
@@ -270,7 +268,6 @@ function
 testPref
 (
 ed
-win
 )
 {
 ed

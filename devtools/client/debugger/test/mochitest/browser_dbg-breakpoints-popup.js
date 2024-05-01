@@ -212,7 +212,6 @@ popupBrowsingContext
 ]
 function
 (
-url
 )
 {
 return

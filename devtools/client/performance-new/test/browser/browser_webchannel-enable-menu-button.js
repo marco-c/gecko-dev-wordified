@@ -96,7 +96,8 @@ await
 withWebChannelTestDocument
 (
 async
-browser
+(
+)
 =
 >
 {

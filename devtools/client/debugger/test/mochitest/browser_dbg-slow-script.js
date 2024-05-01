@@ -550,7 +550,8 @@ infiniteLoop
 .
 catch
 (
-e
+(
+)
 =
 >
 {

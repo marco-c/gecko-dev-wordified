@@ -369,7 +369,6 @@ isRequired
 static
 getDerivedStateFromError
 (
-error
 )
 {
 return

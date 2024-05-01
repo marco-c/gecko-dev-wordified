@@ -463,15 +463,7 @@ setExpanded
 customFormat
 onCmdCtrlClick
 :
-(
 node
-{
-depth
-event
-focused
-expanded
-}
-)
 =
 >
 {

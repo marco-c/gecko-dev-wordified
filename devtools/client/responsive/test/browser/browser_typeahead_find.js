@@ -173,7 +173,6 @@ function
 (
 {
 ui
-manager
 }
 )
 {

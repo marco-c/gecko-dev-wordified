@@ -689,10 +689,9 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 secondLocation
@@ -1183,10 +1182,9 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 secondLocation
@@ -2605,7 +2603,6 @@ async
 function
 testTabFrames
 (
-mainRoot
 )
 {
 info
@@ -3380,10 +3377,9 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 SECOND_PAGE_URL

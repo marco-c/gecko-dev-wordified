@@ -1733,7 +1733,6 @@ message
 function
 emitContentBlockedMessage
 (
-hud
 )
 {
 const

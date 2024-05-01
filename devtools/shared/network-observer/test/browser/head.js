@@ -453,7 +453,6 @@ NetworkEventOwner
 function
 createNetworkEventOwner
 (
-event
 )
 {
 return

@@ -203,7 +203,6 @@ function
 context
 (
 {
-dispatch
 getState
 }
 )

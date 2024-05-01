@@ -121,8 +121,6 @@ addOrSetSessionDataEntry
 (
 targetActor
 entries
-isDocumentCreation
-updateType
 )
 {
 /
@@ -375,9 +373,6 @@ threadOptions
 }
 removeSessionDataEntry
 (
-targetActor
-entries
-isDocumentCreation
 )
 {
 /

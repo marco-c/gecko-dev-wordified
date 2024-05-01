@@ -387,7 +387,6 @@ filter
 (
 [
 key
-value
 ]
 )
 =

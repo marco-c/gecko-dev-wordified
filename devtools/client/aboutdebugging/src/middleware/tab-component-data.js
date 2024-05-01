@@ -119,7 +119,8 @@ DebugTargetItem
 const
 tabComponentDataMiddleware
 =
-store
+(
+)
 =
 >
 next

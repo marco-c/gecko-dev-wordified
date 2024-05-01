@@ -350,9 +350,10 @@ args
 /
 getString
 (
-id
+.
+.
+.
 args
-fallback
 )
 {
 /
@@ -400,7 +401,7 @@ apply
 this
 .
 _reactLocalization
-arguments
+args
 )
 ;
 }

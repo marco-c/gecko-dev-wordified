@@ -3313,14 +3313,12 @@ strings
 {
 createBundle
 (
-bundle
 )
 {
 return
 {
 GetStringFromName
 (
-str
 )
 {
 return

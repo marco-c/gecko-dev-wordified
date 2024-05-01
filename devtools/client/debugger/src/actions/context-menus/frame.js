@@ -230,7 +230,6 @@ function
 isValidRestartFrame
 (
 frame
-callbacks
 )
 {
 /
@@ -311,7 +310,6 @@ return
 async
 (
 {
-dispatch
 getState
 }
 )

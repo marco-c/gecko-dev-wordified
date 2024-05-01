@@ -248,7 +248,6 @@ CompatibilityView
 constructor
 (
 inspector
-window
 )
 {
 this
@@ -847,7 +846,6 @@ isConnected
 }
 _parseMarkup
 (
-str
 )
 {
 /

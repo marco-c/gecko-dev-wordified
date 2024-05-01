@@ -422,7 +422,6 @@ hooks
 {
 onPacket
 (
-packet
 )
 {
 this
@@ -490,7 +489,6 @@ _flushOutgoing
 }
 onTransportClosed
 (
-status
 )
 {
 Assert

@@ -2173,7 +2173,6 @@ id
 1774507
 UNSAFE_componentWillReceiveProps
 (
-nextProps
 )
 {
 this
@@ -3622,17 +3621,9 @@ view
 rendering
 .
 *
-*
-param
-{
-Event
-}
-e
-*
 /
 _onScroll
 (
-e
 )
 {
 this
@@ -5550,7 +5541,6 @@ isRequired
 shouldComponentUpdate
 (
 nextProps
-nextState
 )
 {
 return

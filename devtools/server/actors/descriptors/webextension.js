@@ -1418,9 +1418,6 @@ reloads
 /
 reloadDescriptor
 (
-{
-bypassCache
-}
 )
 {
 return

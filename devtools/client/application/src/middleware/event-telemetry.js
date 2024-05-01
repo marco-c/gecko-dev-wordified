@@ -119,7 +119,8 @@ details
 ;
 }
 return
-store
+(
+)
 =
 >
 next

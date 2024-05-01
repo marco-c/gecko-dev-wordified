@@ -612,9 +612,6 @@ the
 nsIWebSocketEventService
 webSocketCreated
 (
-webSocketSerialID
-uri
-protocols
 )
 {
 }
@@ -667,9 +664,6 @@ resource
 }
 webSocketMessageAvailable
 (
-webSocketSerialID
-data
-messageType
 )
 {
 }

@@ -189,8 +189,6 @@ getInScopeLines
 location
 sourceTextContent
 {
-dispatch
-getState
 parserWorker
 }
 )

@@ -1013,8 +1013,6 @@ reduce
 (
 arr
 name
-i
-keys
 )
 =
 >

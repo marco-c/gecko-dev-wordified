@@ -1382,7 +1382,6 @@ true
 function
 onCloseCommand
 (
-event
 )
 {
 window

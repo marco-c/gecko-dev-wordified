@@ -501,8 +501,6 @@ const
 onSelect
 =
 (
-event
-id
 )
 =
 >

@@ -546,7 +546,6 @@ onerror
 =
 function
 (
-event
 )
 {
 dumpn
@@ -574,7 +573,6 @@ onopen
 =
 function
 (
-event
 )
 {
 dumpn
@@ -605,7 +603,6 @@ onclose
 =
 function
 (
-event
 )
 {
 resolve

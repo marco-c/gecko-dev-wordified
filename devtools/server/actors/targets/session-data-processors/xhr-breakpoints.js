@@ -213,7 +213,6 @@ removeSessionDataEntry
 (
 targetActor
 entries
-isDocumentCreation
 )
 {
 for

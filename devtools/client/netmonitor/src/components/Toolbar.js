@@ -2178,7 +2178,6 @@ button
 /
 renderBlockingButton
 (
-toggleSearchPanel
 )
 {
 const

@@ -450,7 +450,6 @@ selectingPresetUpdatesBezier
 widget
 win
 doc
-rect
 )
 {
 info

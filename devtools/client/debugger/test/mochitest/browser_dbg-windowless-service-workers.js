@@ -1140,8 +1140,8 @@ async
 function
 checkWorkerStatus
 (
-dbg
-status
+_dbg
+_status
 )
 {
 /

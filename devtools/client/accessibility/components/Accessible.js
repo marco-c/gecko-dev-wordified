@@ -1464,7 +1464,6 @@ NEW_ACCESSIBLE_FRONT_INSPECTED
 openLink
 (
 link
-e
 )
 {
 openContentLink

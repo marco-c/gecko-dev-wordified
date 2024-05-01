@@ -576,7 +576,6 @@ advanceChars
 "
 start
 (
-editor
 )
 {
 EventUtils
@@ -649,7 +648,6 @@ advanceChars
 (
 charCode
 text
-insertionPoint
 )
 {
 if
@@ -701,7 +699,6 @@ length
 }
 start
 (
-editor
 )
 {
 for

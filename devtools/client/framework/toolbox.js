@@ -12780,7 +12780,8 @@ isInStartContainer
 false
 isToolSupported
 :
-toolbox
+(
+)
 =
 >
 true
@@ -21076,7 +21077,6 @@ DISABLE_AUTOHIDE_PREF
 async
 _listFrames
 (
-event
 )
 {
 if

@@ -8908,14 +8908,6 @@ and
 comment
 *
 tokens
-depending
-on
-the
-value
-of
-|
-aSkip
-|
 .
 *
 *
@@ -8960,7 +8952,6 @@ EOF
 Next
 (
 aToken
-aSkip
 )
 {
 /

@@ -4645,9 +4645,6 @@ null
 }
 getProperty
 (
-obj
-name
-rootObj
 )
 {
 /

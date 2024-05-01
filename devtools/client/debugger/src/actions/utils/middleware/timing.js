@@ -110,7 +110,8 @@ window
 performance
 )
 :
-a
+(
+)
 =
 >
 {
@@ -140,9 +141,6 @@ performance
 )
 :
 (
-a
-b
-c
 )
 =
 >
@@ -153,7 +151,6 @@ export
 function
 timing
 (
-store
 )
 {
 return

@@ -106,7 +106,6 @@ TAKE_SCREENSHOT_END
 ]
 (
 screenshot
-action
 )
 {
 return
@@ -126,7 +125,6 @@ TAKE_SCREENSHOT_START
 ]
 (
 screenshot
-action
 )
 {
 return

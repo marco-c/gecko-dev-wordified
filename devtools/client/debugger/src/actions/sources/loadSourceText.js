@@ -309,7 +309,6 @@ loadOriginalSource
 source
 {
 getState
-client
 sourceMapLoader
 prettyPrintWorker
 }

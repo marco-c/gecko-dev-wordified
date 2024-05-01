@@ -964,7 +964,6 @@ window
 }
 _startListeners
 (
-windows
 )
 {
 /
@@ -980,7 +979,6 @@ classes
 }
 _stopListeners
 (
-windows
 )
 {
 /

@@ -851,7 +851,6 @@ strings
 /
 getNames
 (
-property
 )
 {
 return

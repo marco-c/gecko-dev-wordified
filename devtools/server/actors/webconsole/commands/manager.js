@@ -707,7 +707,6 @@ name
 isSideEffectFree
 command
 validArguments
-usage
 }
 )
 {
@@ -4161,7 +4160,6 @@ false
 command
 (
 owner
-args
 )
 {
 owner

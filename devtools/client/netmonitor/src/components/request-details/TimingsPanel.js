@@ -591,7 +591,6 @@ map
 key
 value
 ]
-index
 )
 =
 >

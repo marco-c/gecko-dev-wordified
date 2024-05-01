@@ -139,7 +139,6 @@ promiseMiddleware
 (
 {
 dispatch
-getState
 }
 )
 {

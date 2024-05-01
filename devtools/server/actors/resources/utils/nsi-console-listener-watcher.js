@@ -479,7 +479,6 @@ Boolean
 /
 shouldHandleTarget
 (
-targetActor
 )
 {
 return
@@ -539,8 +538,6 @@ Boolean
 /
 shouldHandleMessage
 (
-targetActor
-message
 )
 {
 throw
@@ -591,13 +588,13 @@ class
 *
 *
 param
-targetActor
+_targetActor
 *
 param
 nsIScriptError
 |
 nsIConsoleMessage
-message
+_message
 *
 return
 object
@@ -616,8 +613,8 @@ client
 /
 buildResource
 (
-targetActor
-message
+_targetActor
+_message
 )
 {
 throw

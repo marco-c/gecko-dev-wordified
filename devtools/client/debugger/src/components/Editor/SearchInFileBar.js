@@ -662,8 +662,6 @@ onEscape
 }
 componentDidUpdate
 (
-prevProps
-prevState
 )
 {
 if
@@ -755,11 +753,6 @@ codeMirror
 removeOverlay
 (
 ctx
-this
-.
-state
-.
-query
 )
 ;
 }
@@ -1061,7 +1054,6 @@ clearSearch
 ctx
 .
 cm
-query
 )
 ;
 return
@@ -1471,7 +1463,8 @@ value
 ;
 onFocus
 =
-e
+(
+)
 =
 >
 {
@@ -1490,7 +1483,8 @@ true
 ;
 onBlur
 =
-e
+(
+)
 =
 >
 {
@@ -1977,10 +1971,7 @@ object
 const
 mapStateToProps
 =
-(
 state
-p
-)
 =
 >
 {

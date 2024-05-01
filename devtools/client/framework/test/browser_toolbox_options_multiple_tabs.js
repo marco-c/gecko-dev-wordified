@@ -459,10 +459,8 @@ function
 toggleTool
 (
 {
-doc
 panelWin
 checkbox
-tab
 }
 toolId
 )

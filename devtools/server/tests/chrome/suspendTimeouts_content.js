@@ -530,9 +530,6 @@ completion
 function
 handle_echo
 (
-{
-data
-}
 )
 {
 ok

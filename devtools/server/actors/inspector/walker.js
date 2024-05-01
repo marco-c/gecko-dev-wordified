@@ -2993,7 +2993,6 @@ name
 onCustomElementDefined
 (
 {
-name
 actors
 }
 )
@@ -3034,7 +3033,6 @@ getCustomElementLocation
 }
 _onReflows
 (
-reflows
 )
 {
 /

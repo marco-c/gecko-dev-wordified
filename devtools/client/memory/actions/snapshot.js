@@ -4079,7 +4079,6 @@ heapWorker
 id
 removeFromCache
 dispatch
-getState
 )
 {
 const
@@ -4742,7 +4741,6 @@ function
 (
 {
 dispatch
-getState
 }
 )
 {

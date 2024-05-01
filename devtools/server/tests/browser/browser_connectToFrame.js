@@ -298,7 +298,6 @@ Actor
 constructor
 (
 conn
-tab
 )
 {
 super

@@ -172,7 +172,6 @@ function
 (
 {
 dispatch
-getState
 }
 )
 {

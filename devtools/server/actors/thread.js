@@ -6019,9 +6019,6 @@ undefined
 }
 _makeOnEnterFrame
 (
-{
-pauseAndRespond
-}
 )
 {
 return
@@ -6624,7 +6621,6 @@ _makeOnStep
 {
 pauseAndRespond
 startFrame
-steppingType
 completion
 }
 )
@@ -8006,12 +8002,6 @@ down
 /
 doResume
 (
-{
-resumeLimit
-}
-=
-{
-}
 )
 {
 this
@@ -9198,7 +9188,6 @@ sources
 }
 sources
 (
-request
 )
 {
 this
@@ -11008,7 +10997,6 @@ _onWindowReady
 {
 isTopLevel
 isBFCache
-window
 }
 )
 {

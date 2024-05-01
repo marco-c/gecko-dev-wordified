@@ -447,7 +447,8 @@ await
 testGetTargetWithConcurrentCalls
 (
 processes
-processTarget
+(
+)
 =
 >
 {

@@ -430,7 +430,6 @@ forEach
 function
 (
 name
-index
 )
 {
 /

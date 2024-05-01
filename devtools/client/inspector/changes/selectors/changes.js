@@ -500,7 +500,6 @@ filter
 (
 [
 sourceId
-source
 ]
 )
 =
@@ -705,7 +704,6 @@ filter
 (
 [
 ruleId
-rule
 ]
 )
 =
@@ -1767,7 +1765,7 @@ string
 return
 Object
 .
-entries
+values
 (
 changeTree
 )
@@ -1776,10 +1774,7 @@ reduce
 (
 (
 stylesheetText
-[
-sourceId
 source
-]
 )
 =
 >

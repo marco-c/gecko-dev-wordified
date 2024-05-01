@@ -67,7 +67,6 @@ function
 (
 require
 exports
-module
 )
 {
 const
@@ -260,7 +259,6 @@ this
 Commands
 onPrettify
 (
-event
 )
 {
 this
@@ -276,7 +274,6 @@ onPrettify
 }
 onSave
 (
-event
 )
 {
 this
@@ -292,7 +289,6 @@ onSaveJson
 }
 onCopy
 (
-event
 )
 {
 this

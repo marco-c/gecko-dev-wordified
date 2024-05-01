@@ -73,7 +73,6 @@ async
 (
 {
 threadFront
-client
 debuggee
 }
 )

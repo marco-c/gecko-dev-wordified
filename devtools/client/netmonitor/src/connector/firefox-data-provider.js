@@ -2859,10 +2859,6 @@ extensions
 async
 onWebSocketOpened
 (
-httpChannelId
-effectiveURI
-protocols
-extensions
 )
 {
 }

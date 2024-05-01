@@ -1299,7 +1299,6 @@ resume_timeouts
 function
 finish
 (
-message
 )
 {
 SimpleTest

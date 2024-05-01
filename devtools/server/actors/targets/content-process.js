@@ -574,7 +574,8 @@ unsafeDereference
 )
 shouldAddNewGlobalAsDebuggee
 :
-global
+(
+)
 =
 >
 true

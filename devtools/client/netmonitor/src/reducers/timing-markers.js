@@ -263,7 +263,6 @@ state
 function
 clearTimingMarkers
 (
-state
 )
 {
 return

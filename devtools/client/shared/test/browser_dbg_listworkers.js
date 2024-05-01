@@ -322,7 +322,8 @@ linkedBrowser
 [
 WORKER2_URL
 ]
-workerUrl
+(
+)
 =
 >
 {
@@ -389,7 +390,8 @@ linkedBrowser
 [
 WORKER2_URL
 ]
-workerUrl
+(
+)
 =
 >
 {

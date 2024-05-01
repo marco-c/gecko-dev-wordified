@@ -365,7 +365,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =
@@ -399,7 +398,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =
@@ -433,7 +431,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =
@@ -472,7 +469,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =
@@ -989,7 +985,6 @@ location
 return
 (
 {
-dispatch
 getState
 }
 )
@@ -1137,7 +1132,6 @@ return
 (
 {
 dispatch
-getState
 }
 )
 =

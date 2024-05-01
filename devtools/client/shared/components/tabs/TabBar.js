@@ -465,10 +465,7 @@ tabs
 .
 findIndex
 (
-(
 tab
-index
-)
 =
 >
 tab
@@ -751,10 +748,7 @@ tabs
 .
 findIndex
 (
-(
 tab
-index
-)
 =
 >
 tab

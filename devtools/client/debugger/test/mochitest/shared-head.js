@@ -881,7 +881,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 findSource
@@ -1232,7 +1233,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 {
@@ -1374,7 +1376,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 {
@@ -3194,7 +3197,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 dbg
@@ -3520,7 +3524,8 @@ await
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 isPaused
@@ -3617,7 +3622,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 !
@@ -3666,7 +3672,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 dbg
@@ -3705,7 +3712,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 dbg
@@ -3745,7 +3753,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 dbg
@@ -3763,7 +3772,6 @@ function
 isSelectedFrameSelected
 (
 dbg
-state
 )
 {
 const
@@ -4817,7 +4825,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 {
@@ -16597,19 +16606,6 @@ preview
 *
 param
 {
-String
-}
-options
-.
-expression
--
-The
-expression
-hovered
-over
-*
-param
-{
 Array
 }
 options
@@ -16630,7 +16626,6 @@ dbg
 line
 column
 {
-expression
 result
 fields
 }
@@ -16917,7 +16912,8 @@ await
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 {
@@ -19302,7 +19298,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 dbg
@@ -20249,7 +20246,8 @@ await
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 {

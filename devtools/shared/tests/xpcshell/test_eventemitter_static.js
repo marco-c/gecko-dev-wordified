@@ -2024,7 +2024,6 @@ object
 handler
 ]
 (
-type
 )
 {
 actual

@@ -180,7 +180,6 @@ async
 function
 (
 {
-tab
 panel
 }
 )

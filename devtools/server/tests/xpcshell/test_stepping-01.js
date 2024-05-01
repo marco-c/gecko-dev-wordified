@@ -65,7 +65,6 @@ function
 testFinish
 (
 {
-threadFront
 devToolsClient
 }
 )

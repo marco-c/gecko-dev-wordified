@@ -5798,7 +5798,6 @@ _onResourceDestroyed
 (
 {
 targetFront
-watcherFront
 }
 resources
 )
@@ -6394,7 +6393,6 @@ null
 }
 _onWillNavigate
 (
-targetFront
 )
 {
 /
@@ -8607,7 +8605,6 @@ DOCUMENT_EVENT
 ]
 (
 {
-targetCommand
 targetFront
 onAvailable
 }

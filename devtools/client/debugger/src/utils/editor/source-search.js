@@ -182,7 +182,6 @@ function
 getSearchState
 (
 cm
-query
 )
 {
 const
@@ -366,7 +365,6 @@ return
 token
 (
 stream
-state
 )
 {
 /
@@ -825,7 +823,6 @@ query
 clearSearch
 (
 cm
-query
 )
 ;
 return
@@ -838,7 +835,6 @@ state
 getSearchState
 (
 cm
-query
 )
 ;
 const
@@ -1003,7 +999,6 @@ state
 getSearchState
 (
 cm
-query
 )
 ;
 const
@@ -1149,7 +1144,6 @@ state
 getSearchState
 (
 cm
-query
 )
 ;
 const
@@ -1466,7 +1460,6 @@ function
 removeOverlay
 (
 ctx
-query
 )
 {
 const
@@ -1477,7 +1470,6 @@ getSearchState
 ctx
 .
 cm
-query
 )
 ;
 ctx
@@ -1556,7 +1548,6 @@ function
 clearSearch
 (
 cm
-query
 )
 {
 const
@@ -1565,7 +1556,6 @@ state
 getSearchState
 (
 cm
-query
 )
 ;
 state
@@ -1639,7 +1629,6 @@ clearSearch
 ctx
 .
 cm
-query
 )
 ;
 return

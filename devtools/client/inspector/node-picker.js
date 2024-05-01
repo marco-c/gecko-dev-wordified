@@ -195,17 +195,6 @@ shared
 commands
 /
 *
-param
-{
-Selection
-}
-selection
-*
-The
-global
-Selection
-object
-*
 /
 class
 NodePicker
@@ -215,7 +204,6 @@ EventEmitter
 constructor
 (
 commands
-selection
 )
 {
 super
@@ -2119,7 +2107,8 @@ focus
 #
 onCanceled
 =
-data
+(
+)
 =
 >
 {

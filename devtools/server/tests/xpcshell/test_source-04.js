@@ -281,7 +281,6 @@ paused
 "
 function
 (
-packet
 )
 {
 pausedOne
@@ -488,7 +487,6 @@ paused
 "
 function
 (
-packet
 )
 {
 pausedTwo

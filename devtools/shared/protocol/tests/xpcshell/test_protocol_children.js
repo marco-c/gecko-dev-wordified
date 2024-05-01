@@ -967,7 +967,6 @@ onEvent2b
 (
 a
 b
-c
 )
 {
 this
@@ -3566,7 +3565,6 @@ async
 function
 testGenerator
 (
-trace
 )
 {
 /
@@ -3776,7 +3774,6 @@ async
 function
 testPolymorphism
 (
-trace
 )
 {
 /
@@ -4038,7 +4035,6 @@ async
 function
 testUnmanageChildren
 (
-trace
 )
 {
 /
@@ -4162,7 +4158,6 @@ async
 function
 testDestroy
 (
-trace
 )
 {
 const

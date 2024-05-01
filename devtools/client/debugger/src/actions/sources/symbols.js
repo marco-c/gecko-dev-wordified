@@ -145,7 +145,6 @@ doSetSymbols
 location
 {
 dispatch
-getState
 parserWorker
 }
 )

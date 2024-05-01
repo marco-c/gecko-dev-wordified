@@ -1742,12 +1742,6 @@ WheelEvent
 }
 event
 *
-param
-{
-Window
-}
-window
-*
 return
 {
 Number
@@ -1763,7 +1757,6 @@ function
 getScrollDelta
 (
 event
-window
 )
 {
 if

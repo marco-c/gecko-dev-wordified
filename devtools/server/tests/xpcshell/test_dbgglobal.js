@@ -432,7 +432,6 @@ close
 }
 onTransportClosed
 (
-result
 )
 {
 client1
@@ -453,7 +452,6 @@ ready
 }
 onTransportClosed
 (
-result
 )
 {
 do_test_finished

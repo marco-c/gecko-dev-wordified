@@ -1533,7 +1533,8 @@ logMethod
 )
 onClick
 :
-event
+(
+)
 =
 >
 {

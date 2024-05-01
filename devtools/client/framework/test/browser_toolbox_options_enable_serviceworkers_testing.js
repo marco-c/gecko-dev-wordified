@@ -515,7 +515,6 @@ register
 function
 unregister
 (
-swr
 )
 {
 return

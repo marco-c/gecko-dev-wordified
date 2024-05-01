@@ -298,7 +298,6 @@ this
 }
 onToggleGeometryEditor
 (
-e
 )
 {
 this

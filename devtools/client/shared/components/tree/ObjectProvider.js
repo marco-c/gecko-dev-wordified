@@ -78,7 +78,6 @@ function
 (
 require
 exports
-module
 )
 {
 /

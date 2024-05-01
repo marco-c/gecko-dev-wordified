@@ -423,7 +423,6 @@ function
 waitForWorkerDebugger
 (
 url
-dbgUrl
 )
 {
 return

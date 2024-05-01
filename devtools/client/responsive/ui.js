@@ -375,7 +375,7 @@ enabled
 function
 debug
 (
-msg
+_msg
 )
 {
 /
@@ -388,7 +388,7 @@ RDM
 manager
 :
 {
-msg
+_msg
 }
 )
 ;

@@ -85,10 +85,6 @@ console
 function
 log
 (
-{
-dispatch
-getState
-}
 )
 {
 return

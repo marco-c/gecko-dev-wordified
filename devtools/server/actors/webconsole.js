@@ -9893,7 +9893,6 @@ scope
 _onWillNavigate
 (
 {
-window
 isTopLevel
 }
 )

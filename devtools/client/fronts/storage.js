@@ -223,7 +223,6 @@ async
 _onStoreUpdate
 (
 {
-changed
 added
 deleted
 }

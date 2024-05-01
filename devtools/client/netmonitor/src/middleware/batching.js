@@ -175,7 +175,6 @@ queue
 function
 batchingMiddleware
 (
-store
 )
 {
 return

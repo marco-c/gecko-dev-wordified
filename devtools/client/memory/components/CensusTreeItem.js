@@ -381,7 +381,6 @@ this
 shouldComponentUpdate
 (
 nextProps
-nextState
 )
 {
 return

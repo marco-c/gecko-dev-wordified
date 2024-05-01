@@ -67,7 +67,6 @@ async
 function
 getDwarfToWasmData
 (
-name
 )
 {
 const

@@ -99,7 +99,6 @@ Actor
 constructor
 (
 conn
-id
 )
 {
 super
@@ -126,7 +125,6 @@ instantiated
 }
 hello
 (
-str
 )
 {
 return

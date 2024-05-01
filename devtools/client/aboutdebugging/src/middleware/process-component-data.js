@@ -147,7 +147,8 @@ DebugTargetItem
 const
 processComponentDataMiddleware
 =
-store
+(
+)
 =
 >
 next
@@ -201,7 +202,6 @@ action
 function
 toMainProcessComponentData
 (
-process
 )
 {
 const

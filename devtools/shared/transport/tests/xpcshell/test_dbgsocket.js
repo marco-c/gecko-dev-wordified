@@ -704,7 +704,6 @@ root
 }
 onTransportClosed
 (
-status
 )
 {
 resolve
@@ -1012,7 +1011,6 @@ close
 }
 onTransportClosed
 (
-status
 )
 {
 run_next_test

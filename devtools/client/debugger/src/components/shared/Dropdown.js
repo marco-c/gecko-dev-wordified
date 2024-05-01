@@ -170,7 +170,8 @@ isRequired
 }
 toggleDropdown
 =
-e
+(
+)
 =
 >
 {

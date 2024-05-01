@@ -2419,10 +2419,7 @@ frameMap
 .
 forEach
 (
-(
 frame
-index
-)
 =
 >
 {

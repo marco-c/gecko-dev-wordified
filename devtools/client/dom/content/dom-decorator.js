@@ -239,8 +239,6 @@ column
 /
 getValueRep
 (
-value
-colId
 )
 {
 }

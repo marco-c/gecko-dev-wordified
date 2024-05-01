@@ -6545,10 +6545,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -6633,7 +6630,6 @@ loadend
 "
 function
 (
-event
 )
 {
 resolve
@@ -6819,10 +6815,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -6898,7 +6891,8 @@ socket
 .
 onclose
 =
-e
+(
+)
 =
 >
 {
@@ -6927,7 +6921,8 @@ socket
 .
 onerror
 =
-e
+(
+)
 =
 >
 {
@@ -9669,10 +9664,7 @@ const
 listener
 =
 async
-(
 name
-data
-)
 =
 >
 {

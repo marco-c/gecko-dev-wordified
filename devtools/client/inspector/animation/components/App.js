@@ -509,7 +509,6 @@ isRequired
 shouldComponentUpdate
 (
 nextProps
-nextState
 )
 {
 return

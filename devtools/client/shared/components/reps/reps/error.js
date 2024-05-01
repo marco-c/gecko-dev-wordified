@@ -1040,7 +1040,6 @@ forEach
 (
 frame
 index
-frames
 )
 =
 >

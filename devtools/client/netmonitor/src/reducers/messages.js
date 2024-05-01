@@ -902,7 +902,6 @@ function
 toggleControlFrames
 (
 state
-action
 )
 {
 return

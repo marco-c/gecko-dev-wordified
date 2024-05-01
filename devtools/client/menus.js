@@ -1060,7 +1060,6 @@ extensions
 "
 oncommand
 (
-event
 )
 {
 openDocLink

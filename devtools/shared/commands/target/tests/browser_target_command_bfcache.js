@@ -645,7 +645,7 @@ secondPageUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -1588,7 +1588,6 @@ async
 function
 testTopLevelNavigationsOnDocumentWithIframe
 (
-bfcacheInParent
 )
 {
 info
@@ -2063,7 +2062,7 @@ secondPageUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

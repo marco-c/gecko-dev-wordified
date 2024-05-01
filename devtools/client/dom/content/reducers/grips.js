@@ -229,7 +229,6 @@ function
 onRequestProperties
 (
 state
-action
 )
 {
 return

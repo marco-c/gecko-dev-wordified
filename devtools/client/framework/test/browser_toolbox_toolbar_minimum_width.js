@@ -101,8 +101,6 @@ add_task
 async
 function
 (
-pickerEnable
-commandsEnable
 )
 {
 /

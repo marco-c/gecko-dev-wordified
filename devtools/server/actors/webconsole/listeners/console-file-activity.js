@@ -382,7 +382,6 @@ _checkFileActivity
 progress
 request
 state
-status
 )
 {
 if

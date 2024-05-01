@@ -121,7 +121,8 @@ DebugTargetItem
 const
 workerComponentDataMiddleware
 =
-store
+(
+)
 =
 >
 next

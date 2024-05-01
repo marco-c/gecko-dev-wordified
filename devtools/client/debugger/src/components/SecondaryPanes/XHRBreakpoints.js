@@ -897,7 +897,8 @@ true
 ;
 onMouseDown
 =
-e
+(
+)
 =
 >
 {
@@ -1399,8 +1400,6 @@ path
 onDoubleClick
 :
 (
-items
-options
 )
 =
 >
@@ -1513,7 +1512,8 @@ CloseButton
 {
 handleClick
 :
-e
+(
+)
 =
 >
 removeXHRBreakpoint

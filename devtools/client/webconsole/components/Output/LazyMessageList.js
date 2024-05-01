@@ -676,7 +676,6 @@ id
 UNSAFE_componentWillUpdate
 (
 nextProps
-nextState
 )
 {
 if
@@ -1827,7 +1826,8 @@ resizeObserver
 new
 ResizeObserver
 (
-entries
+(
+)
 =
 >
 {

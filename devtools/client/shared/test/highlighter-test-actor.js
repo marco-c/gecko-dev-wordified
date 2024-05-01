@@ -1090,7 +1090,6 @@ constructor
 (
 conn
 targetActor
-options
 )
 {
 super

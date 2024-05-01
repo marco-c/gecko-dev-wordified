@@ -185,7 +185,6 @@ function
 (
 {
 ui
-manager
 }
 )
 {

@@ -500,8 +500,6 @@ left
 getCoordinates
 :
 (
-width
-height
 )
 =
 >
@@ -545,10 +543,7 @@ right
 "
 getCoordinates
 :
-(
 width
-height
-)
 =
 >
 {

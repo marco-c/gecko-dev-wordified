@@ -670,7 +670,6 @@ function
 getJestErrors
 (
 out
-err
 )
 {
 /

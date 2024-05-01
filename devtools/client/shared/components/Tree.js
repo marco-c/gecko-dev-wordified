@@ -506,7 +506,6 @@ bool
 shouldComponentUpdate
 (
 nextProps
-nextState
 )
 {
 return
@@ -3663,7 +3662,6 @@ id
 1774507
 UNSAFE_componentWillReceiveProps
 (
-nextProps
 )
 {
 this
@@ -3676,7 +3674,6 @@ _autoExpand
 componentDidUpdate
 (
 prevProps
-prevState
 )
 {
 if

@@ -2934,9 +2934,6 @@ function
 async
 _onTargetAvailable
 (
-{
-targetFront
-}
 )
 {
 }
@@ -10477,7 +10474,6 @@ preventDefault
 }
 onVariableViewPopupShowing
 (
-event
 )
 {
 const

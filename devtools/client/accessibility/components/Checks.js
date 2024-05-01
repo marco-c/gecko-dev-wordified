@@ -652,7 +652,6 @@ mapStateToProps
 (
 {
 details
-ui
 }
 )
 =

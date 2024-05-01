@@ -401,7 +401,6 @@ createClientForRuntime
 =
 function
 (
-runtime
 )
 {
 console

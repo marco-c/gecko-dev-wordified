@@ -1545,8 +1545,6 @@ entry
 }
 buildPageTimings
 (
-page
-networkEvent
 )
 {
 /

@@ -531,7 +531,6 @@ function
 {
 ui
 manager
-browser
 }
 )
 {

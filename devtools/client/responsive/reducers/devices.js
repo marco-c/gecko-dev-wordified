@@ -350,7 +350,6 @@ LOAD_DEVICE_LIST_START
 ]
 (
 devices
-action
 )
 {
 return
@@ -374,7 +373,6 @@ LOAD_DEVICE_LIST_ERROR
 ]
 (
 devices
-action
 )
 {
 return
@@ -398,7 +396,6 @@ LOAD_DEVICE_LIST_END
 ]
 (
 devices
-action
 )
 {
 return

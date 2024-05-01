@@ -2066,9 +2066,6 @@ function
 supportsObject
 (
 object
-noGrip
-=
-false
 )
 {
 if

@@ -576,7 +576,8 @@ resizeObserver
 new
 ResizeObserver
 (
-entries
+(
+)
 =
 >
 {
@@ -922,7 +923,6 @@ id
 UNSAFE_componentWillUpdate
 (
 nextProps
-nextState
 )
 {
 this
@@ -2208,7 +2208,6 @@ function
 mapStateToProps
 (
 state
-props
 )
 {
 const

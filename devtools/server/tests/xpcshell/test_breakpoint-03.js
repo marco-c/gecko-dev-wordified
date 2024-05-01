@@ -445,7 +445,6 @@ remove
 (
 function
 (
-response
 )
 {
 threadFront

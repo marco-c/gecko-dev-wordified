@@ -377,7 +377,8 @@ return
 waitForState
 (
 dbg
-state
+(
+)
 =
 >
 {

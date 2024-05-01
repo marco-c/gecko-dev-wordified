@@ -290,7 +290,6 @@ newTreeMap
 }
 componentDidUpdate
 (
-prevProps
 )
 {
 this

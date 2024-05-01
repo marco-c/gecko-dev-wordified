@@ -324,12 +324,12 @@ param
 {
 string
 }
-eventName
+_eventName
 *
 /
 emit
 (
-eventName
+_eventName
 )
 {
 }

@@ -150,7 +150,8 @@ DebugTargetItem
 const
 extensionComponentDataMiddleware
 =
-store
+(
+)
 =
 >
 next

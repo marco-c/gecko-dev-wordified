@@ -149,7 +149,6 @@ function
 testButton
 (
 toolbox
-Telemetry
 )
 {
 info

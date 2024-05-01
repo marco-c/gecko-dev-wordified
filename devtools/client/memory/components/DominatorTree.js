@@ -412,7 +412,6 @@ isRequired
 shouldComponentUpdate
 (
 nextProps
-nextState
 )
 {
 return
@@ -653,7 +652,6 @@ isRequired
 shouldComponentUpdate
 (
 nextProps
-nextState
 )
 {
 return
@@ -915,7 +913,6 @@ isRequired
 shouldComponentUpdate
 (
 nextProps
-nextState
 )
 {
 /

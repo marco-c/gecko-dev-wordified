@@ -3825,17 +3825,9 @@ to
 unhighlight
 .
 *
-param
-{
-DOMEvent
-}
-event
-.
-*
 /
 handleMouseOut
 (
-event
 )
 {
 this

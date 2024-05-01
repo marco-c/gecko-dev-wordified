@@ -339,13 +339,13 @@ param
 {
 int
 }
-pos
+_pos
 *
 param
 {
 MenuItem
 }
-menuItem
+_menuItem
 *
 /
 Menu
@@ -356,8 +356,8 @@ insert
 =
 function
 (
-pos
-menuItem
+_pos
+_menuItem
 )
 {
 throw

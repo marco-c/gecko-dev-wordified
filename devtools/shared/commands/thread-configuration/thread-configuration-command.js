@@ -230,7 +230,6 @@ filter
 (
 [
 key
-value
 ]
 )
 =

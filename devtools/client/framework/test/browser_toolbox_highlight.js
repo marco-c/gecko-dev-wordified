@@ -434,7 +434,8 @@ finish
 .
 catch
 (
-error
+(
+)
 =
 >
 {

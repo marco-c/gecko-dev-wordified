@@ -332,7 +332,6 @@ onMouseDown
 }
 updateListeners
 (
-prevProps
 )
 {
 const

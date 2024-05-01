@@ -77,7 +77,6 @@ async
 (
 {
 threadFront
-client
 debuggee
 }
 )

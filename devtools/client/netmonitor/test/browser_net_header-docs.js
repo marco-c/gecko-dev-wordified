@@ -326,7 +326,6 @@ MDN
 function
 testShowLearnMore
 (
-data
 )
 {
 const
@@ -352,10 +351,7 @@ selector
 .
 forEach
 (
-(
 rowEl
-index
-)
 =
 >
 {

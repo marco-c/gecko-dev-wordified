@@ -668,7 +668,6 @@ SmartGap
 {
 token
 preview
-type
 gapHeight
 coords
 offset

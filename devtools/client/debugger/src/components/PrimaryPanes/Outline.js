@@ -855,7 +855,6 @@ filter
 (
 (
 {
-name
 location
 }
 )

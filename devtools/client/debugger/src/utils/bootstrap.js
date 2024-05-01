@@ -400,10 +400,7 @@ timing
 debugJsModules
 makeThunkArgs
 :
-(
 args
-state
-)
 =
 >
 {

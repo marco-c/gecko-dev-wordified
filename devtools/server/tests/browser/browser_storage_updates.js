@@ -136,7 +136,6 @@ index
 async
 action
 (
-win
 )
 {
 await

@@ -67,7 +67,6 @@ function
 (
 require
 exports
-module
 )
 {
 const
@@ -230,7 +229,6 @@ this
 Commands
 onCopy
 (
-event
 )
 {
 this

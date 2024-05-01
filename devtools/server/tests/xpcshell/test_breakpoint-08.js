@@ -401,7 +401,6 @@ remove
 (
 function
 (
-response
 )
 {
 threadFront

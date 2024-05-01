@@ -2252,11 +2252,9 @@ sort
 (
 (
 [
-srcA
 itemA
 ]
 [
-srcB
 itemB
 ]
 )
@@ -2338,7 +2336,6 @@ filter
 (
 (
 [
-line
 count
 ]
 )

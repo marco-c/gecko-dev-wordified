@@ -1451,7 +1451,6 @@ toolbarButtons
 }
 togglePicker
 (
-focus
 )
 {
 this

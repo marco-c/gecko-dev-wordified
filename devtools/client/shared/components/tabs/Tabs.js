@@ -67,7 +67,6 @@ function
 (
 require
 exports
-module
 )
 {
 const
