@@ -509,9 +509,16 @@ readLine
 (
 )
 ;
+final
 boolean
 processed
 =
+serializedPing
+=
+=
+null
+|
+|
 callback
 .
 onTelemetryPingLoaded
