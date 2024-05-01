@@ -1493,6 +1493,11 @@ nsIAboutModule
 :
 :
 URI_CAN_LOAD_IN_PRIVILEGEDABOUT_PROCESS
+|
+nsIAboutModule
+:
+:
+HIDE_FROM_ABOUTABOUT
 }
 }
 ;
