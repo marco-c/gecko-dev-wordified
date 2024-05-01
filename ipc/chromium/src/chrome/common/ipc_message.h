@@ -315,6 +315,13 @@ Generated
 by
 IPDL
 compiler
+bool
+IPCMessageTypeIsSync
+(
+uint32_t
+aMessageType
+)
+;
 const
 char
 *
