@@ -760,11 +760,11 @@ SymbolicLinkArray
 EnumeratedArray
 <
 SymbolicAddress
+Uint32Vector
 SymbolicAddress
 :
 :
 Limit
-Uint32Vector
 >
 {
 size_t

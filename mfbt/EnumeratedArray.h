@@ -256,11 +256,11 @@ Count
 EnumeratedArray
 <
 AnimalSpecies
+int
 AnimalSpecies
 :
 :
 Count
-int
 >
 headCount
 ;
@@ -294,10 +294,10 @@ template
 <
 typename
 IndexType
-IndexType
-SizeAsEnumValue
 typename
 ValueType
+IndexType
+SizeAsEnumValue
 >
 class
 EnumeratedArray

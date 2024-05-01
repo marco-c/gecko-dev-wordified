@@ -1486,11 +1486,11 @@ mozilla
 EnumeratedArray
 <
 AllocKind
+ValueType
 AllocKind
 :
 :
 LIMIT
-ValueType
 >
 ;
 /
@@ -1532,11 +1532,11 @@ mozilla
 EnumeratedArray
 <
 AllocKind
+ValueType
 AllocKind
 :
 :
 OBJECT_LIMIT
-ValueType
 >
 ;
 /

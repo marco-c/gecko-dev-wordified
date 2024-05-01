@@ -486,8 +486,8 @@ mozilla
 EnumeratedArray
 <
 Index
-kEnd
 Value
+kEnd
 >
 mEntries
 ;

@@ -495,6 +495,7 @@ IOUtils
 :
 :
 ShutdownPhase
+T
 IOUtils
 :
 :
@@ -502,7 +503,6 @@ ShutdownPhase
 :
 :
 Count
-T
 >
 ;
 static

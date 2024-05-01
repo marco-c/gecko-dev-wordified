@@ -6749,11 +6749,11 @@ mozilla
 EnumeratedArray
 <
 FontVisibility
+gfxSparseBitSet
 FontVisibility
 :
 :
 Count
-gfxSparseBitSet
 >
 mCodepointsWithNoFonts
 MOZ_GUARDED_BY
@@ -6792,11 +6792,11 @@ mozilla
 EnumeratedArray
 <
 FontVisibility
+FontFamily
 FontVisibility
 :
 :
 Count
-FontFamily
 >
 mReplacementCharFallbackFamily
 MOZ_GUARDED_BY
