@@ -624,8 +624,8 @@ AboutReaderParent
 addMessageListener
 :
 (
-messageName
-listener
+_messageName
+_listener
 )
 =
 >
@@ -634,8 +634,8 @@ listener
 removeMessageListener
 :
 (
-messageName
-listener
+_messageName
+_listener
 )
 =
 >
@@ -1440,9 +1440,9 @@ EveryWindow
 registerCallback
 :
 (
-id
-init
-uninit
+_id
+_init
+_uninit
 )
 =
 >
@@ -1450,7 +1450,7 @@ uninit
 }
 unregisterCallback
 :
-id
+_id
 =
 >
 {
@@ -2060,8 +2060,8 @@ mm
 addMessageListener
 :
 (
-msg
-cb
+_msg
+_cb
 )
 =
 >
@@ -2108,7 +2108,7 @@ setEventRecordingEnabled
 }
 recordEvent
 :
-eventDetails
+_eventDetails
 =
 >
 {
@@ -2842,8 +2842,8 @@ Sampling
 {
 ratioSample
 (
-seed
-ratios
+_seed
+_ratios
 )
 {
 return

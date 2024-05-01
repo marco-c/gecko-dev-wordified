@@ -756,7 +756,6 @@ function
 chaiAssertions
 (
 _chai
-utils
 )
 {
 const

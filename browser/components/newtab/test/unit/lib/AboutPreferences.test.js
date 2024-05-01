@@ -986,8 +986,6 @@ stub
 callsFake
 (
 (
-NS
-el
 )
 =
 >
