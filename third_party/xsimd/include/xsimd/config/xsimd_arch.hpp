@@ -1304,6 +1304,10 @@ join
 all_sve_architectures
 arch_list
 <
+i8mm
+<
+neon64
+>
 neon64
 neon
 >
