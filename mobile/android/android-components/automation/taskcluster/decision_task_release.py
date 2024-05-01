@@ -789,6 +789,17 @@ info
 )
 :
     
+version
+=
+version
+.
+lstrip
+(
+'
+v
+'
+)
+    
 upstreamArtifacts
 =
 [
