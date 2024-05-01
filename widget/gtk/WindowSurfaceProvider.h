@@ -265,8 +265,6 @@ WindowSurfaceProvider
 WindowSurfaceProvider
 (
 )
-=
-default
 ;
 /
 *
