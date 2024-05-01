@@ -11,11 +11,11 @@ also
 =
 -
 -
-wasm
--
-test
--
-serialization
+setpref
+=
+wasm_test_serialization
+=
+true
 ;
 skip
 -

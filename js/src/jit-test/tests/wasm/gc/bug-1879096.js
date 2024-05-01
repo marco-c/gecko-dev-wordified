@@ -10,12 +10,8 @@ test
 also
 =
 -
--
-wasm
--
-test
--
-serialization
+P
+wasm_test_serialization
 ;
 skip
 -

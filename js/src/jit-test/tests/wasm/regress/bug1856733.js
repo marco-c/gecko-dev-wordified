@@ -7,9 +7,11 @@ test
 |
 -
 -
-wasm
--
-gc
+setpref
+=
+wasm_gc
+=
+true
 ;
 skip
 -

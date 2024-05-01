@@ -7,11 +7,11 @@ test
 |
 -
 -
-no
--
-wasm
--
-gc
+setpref
+=
+wasm_gc
+=
+false
 /
 *
 Copyright

@@ -7,11 +7,11 @@ test
 |
 -
 -
-wasm
--
-relaxed
--
-simd
+setpref
+=
+wasm_relaxed_simd
+=
+true
 ;
 skip
 -

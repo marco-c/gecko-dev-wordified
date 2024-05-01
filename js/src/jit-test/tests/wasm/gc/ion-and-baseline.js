@@ -150,9 +150,11 @@ present
 with
 -
 -
-wasm
--
-gc
+setpref
+=
+wasm_gc
+=
+true
 enabled
 .
 var

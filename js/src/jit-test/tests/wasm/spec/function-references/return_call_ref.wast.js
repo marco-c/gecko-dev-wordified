@@ -7,11 +7,11 @@ test
 |
 -
 -
-wasm
--
-tail
--
-calls
+setpref
+=
+wasm_tail_calls
+=
+true
 ;
 skip
 -

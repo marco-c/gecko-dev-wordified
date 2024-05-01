@@ -7,9 +7,11 @@ test
 |
 -
 -
-wasm
--
-exceptions
+setpref
+=
+wasm_exceptions
+=
+true
 ;
 skip
 -
