@@ -1645,11 +1645,6 @@ hidden
 true
 ;
 }
-await
-this
-.
-dataSizesFinishedUpdatingPromise
-;
 if
 (
 !
@@ -1668,6 +1663,11 @@ open
 )
 ;
 }
+await
+this
+.
+dataSizesFinishedUpdatingPromise
+;
 }
 updateAcceptButtonState
 (
