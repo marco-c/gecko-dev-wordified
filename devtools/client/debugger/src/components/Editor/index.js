@@ -2547,6 +2547,16 @@ bundle
 keepContext
 :
 false
+/
+/
+Avoid
+highlighting
+the
+selected
+line
+highlight
+:
+false
 }
 )
 ;
