@@ -734,6 +734,12 @@ mExposeVisitedStyle
 aExpose
 ;
 }
+float
+UsedFontSize
+(
+)
+final
+;
 void
 GetCSSImageURLs
 (
