@@ -1586,7 +1586,7 @@ start
 offsets
 per
 tile
-int
+unsigned
 *
 tile_start_off
 ;

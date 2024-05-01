@@ -656,6 +656,14 @@ decl_itx16_fns
 8
 ext
 )
+;
+\
+decl_itx16_fns
+(
+16
+16
+ext
+)
 decl_itx_fns
 (
 rvv
@@ -1019,7 +1027,7 @@ BITDEPTH
 =
 =
 8
-assign_itx16_fn
+assign_itx17_fn
 (
 4
 4
@@ -1030,6 +1038,13 @@ assign_itx16_fn
 (
 8
 8
+rvv
+)
+;
+assign_itx12_fn
+(
+16
+16
 rvv
 )
 ;
