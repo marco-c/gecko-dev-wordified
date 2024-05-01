@@ -32,7 +32,9 @@ set
 "
 ui
 .
-tooltipDelay
+tooltip
+.
+delay_ms
 "
 0
 ]

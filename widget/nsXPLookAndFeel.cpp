@@ -1079,11 +1079,6 @@ scrollbarButtonAutoRepeatBehavior
 "
 ui
 .
-tooltipDelay
-"
-"
-ui
-.
 swipeAnimationEnabled
 "
 "
