@@ -3390,10 +3390,7 @@ this
 ]
 (
 const
-Maybe
-<
 PositionState
->
 &
 aState
 )

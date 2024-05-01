@@ -1044,10 +1044,7 @@ void
 HandlePositionStateChanged
 (
 const
-Maybe
-<
 PositionState
->
 &
 aState
 )
