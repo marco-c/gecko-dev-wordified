@@ -251,6 +251,14 @@ i64
 )
 )
 ;
+if
+(
+!
+wasmMultiMemoryEnabled
+(
+)
+)
+{
 /
 /
 .
@@ -338,6 +346,7 @@ multiple
 memories
 )
 ;
+}
 /
 /
 .

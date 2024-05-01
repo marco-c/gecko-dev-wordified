@@ -301,6 +301,14 @@ memory
 )
 )
 ;
+if
+(
+!
+wasmMultiMemoryEnabled
+(
+)
+)
+{
 /
 /
 .
@@ -384,6 +392,7 @@ multiple
 memories
 )
 ;
+}
 /
 /
 .

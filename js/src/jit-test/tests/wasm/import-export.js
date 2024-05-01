@@ -6347,6 +6347,14 @@ memory
 /
 table
 rules
+if
+(
+!
+wasmMultiMemoryEnabled
+(
+)
+)
+{
 wasmFailValidateText
 (
 '
@@ -6424,6 +6432,7 @@ memory
 /
 )
 ;
+}
 /
 /
 Data
