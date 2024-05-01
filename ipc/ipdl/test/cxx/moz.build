@@ -127,11 +127,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestRPC
-.
-h
-"
-"
 TestSanity
 .
 h
@@ -193,11 +188,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestRPC
 .
 cpp
 "
@@ -309,11 +299,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestRPC
 .
 ipdl
 "
