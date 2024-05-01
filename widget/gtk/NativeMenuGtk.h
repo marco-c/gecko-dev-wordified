@@ -442,12 +442,17 @@ GDBusProxy
 >
 mProxy
 ;
+#
+ifdef
+MOZ_WAYLAND
 xdg_dbus_annotation_v1
 *
 mAnnotation
 =
 nullptr
 ;
+#
+endif
 }
 ;
 }
