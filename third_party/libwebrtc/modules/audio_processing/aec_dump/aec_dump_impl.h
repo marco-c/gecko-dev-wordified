@@ -137,15 +137,6 @@ include
 "
 rtc_base
 /
-ignore_wundef
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 race_checker
 .
 h
@@ -192,9 +183,6 @@ the
 protobuf
 compiler
 .
-RTC_PUSH_IGNORING_WUNDEF
-(
-)
 #
 ifdef
 WEBRTC_ANDROID_PLATFORM_BUILD
@@ -234,9 +222,6 @@ h
 "
 #
 endif
-RTC_POP_IGNORING_WUNDEF
-(
-)
 namespace
 webrtc
 {

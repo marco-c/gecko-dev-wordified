@@ -134,15 +134,6 @@ include
 "
 rtc_base
 /
-ignore_wundef
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 system
 /
 no_unique_address
@@ -152,9 +143,6 @@ h
 #
 ifdef
 WEBRTC_NETWORK_TESTER_PROTO
-RTC_PUSH_IGNORING_WUNDEF
-(
-)
 #
 include
 "
@@ -168,9 +156,6 @@ pb
 .
 h
 "
-RTC_POP_IGNORING_WUNDEF
-(
-)
 using
 webrtc
 :
