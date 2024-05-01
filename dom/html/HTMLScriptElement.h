@@ -926,6 +926,12 @@ Blocking
 (
 )
 ;
+bool
+IsPotentiallyRenderBlocking
+(
+)
+override
+;
 /
 /
 Required
