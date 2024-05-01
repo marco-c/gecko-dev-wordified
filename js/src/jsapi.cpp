@@ -8532,7 +8532,7 @@ nursery
 (
 )
 .
-shouldCollect
+wantEagerCollection
 (
 )
 )
@@ -8621,7 +8621,7 @@ nursery
 (
 )
 .
-shouldCollect
+wantEagerCollection
 (
 )
 )
