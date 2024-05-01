@@ -166,7 +166,7 @@ consoleAllowList
 push
 (
 #
-installExtensionEngine
+createAndAddAddonEngine
 failed
 for
 {
