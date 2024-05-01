@@ -2020,7 +2020,7 @@ the
 latest
 node
 -
-16
+18
 binary
 and
 install
@@ -2094,7 +2094,7 @@ browsertime
 "
 node
 -
-16
+18
 "
 )
     
@@ -2119,7 +2119,7 @@ min_version
 Version
 (
 "
-16
+18
 .
 0
 .
@@ -2218,7 +2218,7 @@ browsertime
 "
 node
 -
-16
+18
 "
                 
 "
@@ -2248,7 +2248,7 @@ browsertime
 "
 node
 -
-16
+18
 "
                 
 "
@@ -2311,7 +2311,7 @@ toolchain_job
 -
 node
 -
-16
+18
 "
         
 plat
@@ -2411,7 +2411,7 @@ print
 "
 Downloading
 Node
-v16
+v18
 from
 Taskcluster
 toolchain
@@ -2560,7 +2560,7 @@ Could
 not
 find
 Node
-v16
+v18
 binary
 for
 Raptor
@@ -2575,7 +2575,7 @@ print
 Finished
 downloading
 Node
-v16
+v18
 from
 Taskcluster
 "
@@ -2585,7 +2585,7 @@ print
 (
 "
 Node
-v16
+v18
 +
 found
 at
