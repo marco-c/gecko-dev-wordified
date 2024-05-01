@@ -1819,6 +1819,13 @@ last
 >
 next
 ;
+last
+-
+>
+next
+=
+nullptr
+;
 new
 (
 &
