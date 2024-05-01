@@ -837,7 +837,7 @@ use_current_estimate_as_min_upper_bound_
 "
 c_upper
 "
-false
+true
 }
 ;
 absl
