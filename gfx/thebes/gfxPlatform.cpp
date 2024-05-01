@@ -696,7 +696,7 @@ h
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -2793,7 +2793,7 @@ enabled
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 define
@@ -5683,7 +5683,7 @@ CheckVariationFontSupport
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 sHasVariationFontSupport
 =
@@ -6482,7 +6482,7 @@ gfxWindowsPlatform
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 gPlatform
 =
@@ -15054,7 +15054,7 @@ if
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 !
 strcmp
