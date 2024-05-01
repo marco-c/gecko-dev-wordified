@@ -110,11 +110,6 @@ TestAtoms
 cpp
 "
 "
-TestAutoOwningEventTarget
-.
-cpp
-"
-"
 TestAutoRefCnt
 .
 cpp
