@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-TestContentAnalysis
+TestContentAnalysisAgent
 .
 h
 "
