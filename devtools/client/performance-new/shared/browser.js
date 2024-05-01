@@ -1297,11 +1297,6 @@ FilePicker
 .
 init
 (
-/
-/
-ts
--
-ignore
 window
 .
 browsingContext
