@@ -204,6 +204,7 @@ set_cookie_result
 =
 =
 {
+        
 "
 partitionKey
 "
@@ -214,7 +215,15 @@ sourceOrigin
 "
 :
 source_origin_1
+"
+userContext
+"
+:
+"
+default
+"
 }
+    
 }
     
 #
@@ -386,12 +395,14 @@ recursive_compare
 (
         
 {
+            
 "
 cookies
 "
 :
 [
 ]
+            
 "
 partitionKey
 "
@@ -402,8 +413,17 @@ sourceOrigin
 "
 :
 source_origin_2
+"
+userContext
+"
+:
+"
+default
+"
 }
+        
 }
+        
 cookies
     
 )
@@ -753,11 +773,21 @@ partitionKey
 "
 :
 {
+                
 "
 sourceOrigin
 "
 :
 source_origin_for_iframe
+                
+"
+userContext
+"
+:
+"
+default
+"
+            
 }
         
 }
@@ -837,11 +867,21 @@ partitionKey
 "
 :
 {
+                    
 "
 sourceOrigin
 "
 :
 source_origin_for_page
+                    
+"
+userContext
+"
+:
+"
+default
+"
+                
 }
             
 }
@@ -910,11 +950,21 @@ partitionKey
 "
 :
 {
+                    
 "
 sourceOrigin
 "
 :
 source_origin_for_page
+                    
+"
+userContext
+"
+:
+"
+default
+"
+                
 }
             
 }
