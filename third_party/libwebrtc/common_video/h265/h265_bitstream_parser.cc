@@ -3360,7 +3360,7 @@ H265
 NaluType
 :
 :
-kAP
+kAp
 :
 case
 H265
@@ -3369,7 +3369,7 @@ H265
 NaluType
 :
 :
-kFU
+kFu
 :
 break
 ;
