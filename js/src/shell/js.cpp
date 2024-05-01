@@ -9948,16 +9948,6 @@ if
 causeString
 )
 {
-MOZ_ASSERT
-(
-cx
--
->
-isExceptionPending
-(
-)
-)
-;
 return
 false
 ;
