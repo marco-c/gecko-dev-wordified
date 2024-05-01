@@ -1443,6 +1443,10 @@ const
 LoggingInfo
 &
 aLoggingInfo
+const
+nsACString
+&
+aSystemLocale
 )
 -
 >
@@ -1475,6 +1479,7 @@ return
 AllocPBackgroundIDBFactoryParent
 (
 aLoggingInfo
+aSystemLocale
 )
 ;
 }
@@ -1497,6 +1502,10 @@ const
 LoggingInfo
 &
 aLoggingInfo
+const
+nsACString
+&
+aSystemLocale
 )
 {
 using
@@ -1531,6 +1540,7 @@ RecvPBackgroundIDBFactoryConstructor
 (
 aActor
 aLoggingInfo
+aSystemLocale
 )
 )
 {
