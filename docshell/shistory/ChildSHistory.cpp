@@ -1007,6 +1007,15 @@ Count
 if
 (
 !
+StaticPrefs
+:
+:
+browser_navigation_requireUserInteraction
+(
+)
+|
+|
+!
 aRequireUserInteraction
 |
 |
