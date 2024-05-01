@@ -2106,7 +2106,7 @@ status
 )
 ;
 const
-int
+int64_t
 low_limit
 =
 TargetLevelMs
@@ -2114,7 +2114,7 @@ TargetLevelMs
 )
 ;
 const
-int
+int64_t
 high_limit
 =
 low_limit
