@@ -203,10 +203,6 @@ gleanInternalSdk
 "
     
 "
-jsParallelParsing
-"
-    
-"
 majorRelease2022
 "
     
