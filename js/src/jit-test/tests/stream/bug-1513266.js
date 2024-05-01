@@ -22,14 +22,6 @@ skip
 if
 :
 !
-(
-'
-oomTest
-'
-in
-this
-&
-&
 this
 .
 hasOwnProperty
@@ -37,7 +29,6 @@ hasOwnProperty
 "
 ReadableStream
 "
-)
 )
 ignoreUnhandledRejections
 (

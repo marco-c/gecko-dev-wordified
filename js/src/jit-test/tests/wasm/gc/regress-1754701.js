@@ -13,16 +13,6 @@ if
 wasmGcEnabled
 (
 )
-|
-|
-!
-(
-'
-oomTest
-'
-in
-this
-)
 let
 {
 testArray

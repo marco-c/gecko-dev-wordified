@@ -16,16 +16,6 @@ helperThreadCount
 =
 =
 0
-|
-|
-!
-(
-'
-oomTest
-'
-in
-this
-)
 oomTest
 (
 new

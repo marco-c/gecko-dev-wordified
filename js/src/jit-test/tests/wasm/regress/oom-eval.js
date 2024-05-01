@@ -19,16 +19,6 @@ if
 wasmIsSupported
 (
 )
-|
-|
-!
-(
-'
-oomTest
-'
-in
-this
-)
 function
 foo
 (

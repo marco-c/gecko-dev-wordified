@@ -9,16 +9,6 @@ skip
 -
 if
 :
-!
-(
-'
-gczeal
-'
-in
-this
-)
-|
-|
 helperThreadCount
 (
 )

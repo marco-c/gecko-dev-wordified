@@ -16,16 +16,6 @@ helperThreadCount
 =
 =
 0
-|
-|
-!
-(
-'
-oomAtAllocation
-'
-in
-this
-)
 if
 (
 "

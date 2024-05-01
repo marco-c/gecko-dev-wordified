@@ -28,14 +28,6 @@ skip
 if
 :
 !
-(
-'
-oomAfterAllocations
-'
-in
-this
-&
-&
 this
 .
 hasOwnProperty
@@ -43,7 +35,6 @@ hasOwnProperty
 "
 ReadableStream
 "
-)
 )
 /
 /

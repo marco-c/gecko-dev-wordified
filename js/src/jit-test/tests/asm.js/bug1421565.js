@@ -23,16 +23,6 @@ if
 isAsmJSCompilationAvailable
 (
 )
-|
-|
-!
-(
-'
-oomTest
-'
-in
-this
-)
 load
 (
 libdir

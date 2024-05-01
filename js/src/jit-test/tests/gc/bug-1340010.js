@@ -16,16 +16,6 @@ helperThreadCount
 =
 =
 0
-|
-|
-!
-(
-'
-deterministicgc
-'
-in
-this
-)
 gczeal
 (
 0

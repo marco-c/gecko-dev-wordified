@@ -23,16 +23,6 @@ skip
 -
 if
 :
-!
-(
-'
-oomTest
-'
-in
-this
-)
-|
-|
 isLcovEnabled
 (
 )

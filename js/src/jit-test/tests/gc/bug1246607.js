@@ -10,16 +10,6 @@ skip
 if
 :
 typeof
-oomTest
-!
-=
-=
-'
-function
-'
-|
-|
-typeof
 Intl
 !
 =
