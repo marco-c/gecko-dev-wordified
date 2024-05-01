@@ -35602,6 +35602,10 @@ UIResolutionChanged
 )
 ;
 }
+NotifyAPZOfDPIChange
+(
+)
+;
 }
 void
 nsWindow
@@ -35769,6 +35773,10 @@ newFractional
 return
 ;
 }
+NotifyAPZOfDPIChange
+(
+)
+;
 LOG
 (
 "

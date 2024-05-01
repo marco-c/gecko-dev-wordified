@@ -61547,6 +61547,10 @@ BackingScaleFactorChanged
 ;
 }
 }
+NotifyAPZOfDPIChange
+(
+)
+;
 }
 static
 Result
