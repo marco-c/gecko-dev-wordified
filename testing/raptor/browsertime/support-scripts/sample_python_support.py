@@ -69,6 +69,7 @@ modify_command
 (
 self
 cmd
+test
 )
 :
         
