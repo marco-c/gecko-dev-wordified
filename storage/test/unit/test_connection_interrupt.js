@@ -317,7 +317,6 @@ listener
 {
 handleResult
 (
-aResultSet
 )
 {
 reject
@@ -327,7 +326,6 @@ reject
 }
 handleError
 (
-aError
 )
 {
 reject
@@ -586,7 +584,6 @@ listener
 {
 handleResult
 (
-aResultSet
 )
 {
 reject
@@ -596,7 +593,6 @@ reject
 }
 handleError
 (
-aError
 )
 {
 reject

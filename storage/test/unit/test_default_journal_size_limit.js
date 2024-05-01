@@ -94,7 +94,6 @@ getResultByIndex
 }
 handleError
 (
-error
 )
 {
 reject

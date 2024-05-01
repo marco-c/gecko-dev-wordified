@@ -2632,7 +2632,6 @@ executeAsync
 {
 handleResult
 (
-aResultSet
 )
 {
 }
@@ -2646,7 +2645,6 @@ executeAsync
 {
 handleError
 (
-aError
 )
 {
 }
@@ -2660,7 +2658,6 @@ executeAsync
 {
 handleCompletion
 (
-aReason
 )
 {
 }

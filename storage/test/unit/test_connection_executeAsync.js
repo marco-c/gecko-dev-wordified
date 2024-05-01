@@ -426,7 +426,6 @@ db
 stmts
 function
 (
-aResultSet
 )
 {
 ok
@@ -1081,7 +1080,6 @@ db
 stmts
 function
 (
-aResultSet
 )
 {
 ok
