@@ -1541,6 +1541,13 @@ defined
 (
 HAVE_THREAD_TLS_KEYWORD
 )
+&
+&
+!
+defined
+(
+MOZ_LINKER
+)
 #
 define
 MOZ_THREAD_LOCAL
