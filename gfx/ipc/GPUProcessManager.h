@@ -1509,11 +1509,6 @@ char16_t
 aData
 )
 ;
-void
-ScreenInformationChanged
-(
-)
-;
 bool
 CreateContentCompositorManager
 (
