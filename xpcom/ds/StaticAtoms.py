@@ -8909,6 +8909,16 @@ onfullscreenerror
 Atom
 (
 "
+ongatheringstatechange
+"
+"
+ongatheringstatechange
+"
+)
+    
+Atom
+(
+"
 onget
 "
 "

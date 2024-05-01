@@ -6153,6 +6153,11 @@ RTCIceCandidate
 webidl
 "
 "
+RTCIceTransport
+.
+webidl
+"
+"
 RTCIdentityAssertion
 .
 webidl
