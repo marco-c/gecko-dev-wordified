@@ -4996,6 +4996,14 @@ JS_HAS_INTL_API
 "
 ]
 :
+if
+CONFIG
+[
+"
+JS_STANDALONE
+"
+]
+:
 DIRS
 +
 =
