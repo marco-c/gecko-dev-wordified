@@ -414,8 +414,6 @@ DIRS
 [
 "
 client
--
-rust
 /
 app
 "
