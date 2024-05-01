@@ -329,7 +329,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 setTimeout
@@ -492,7 +491,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 filePickerShown
@@ -705,7 +703,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 filePickerShown
@@ -1042,7 +1039,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 filePickerShown

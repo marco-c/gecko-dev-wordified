@@ -860,7 +860,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 resolve

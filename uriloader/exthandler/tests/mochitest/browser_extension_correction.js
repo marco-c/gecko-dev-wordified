@@ -1005,7 +1005,8 @@ text
 html
 "
 async
-browser
+(
+)
 =
 >
 {
