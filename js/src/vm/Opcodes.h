@@ -22647,16 +22647,6 @@ self
 -
 hosted
 code
-*
-and
-if
-the
-script
-uses
-only
-arguments
-.
-length
 .
 *
 *
