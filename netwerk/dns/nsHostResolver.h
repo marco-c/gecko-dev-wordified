@@ -1433,11 +1433,6 @@ MOZ_REQUIRES
 mLock
 )
 ;
-void
-ResetDNSConfigurations
-(
-)
-;
 private
 :
 explicit
