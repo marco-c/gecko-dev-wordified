@@ -166,6 +166,13 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+uiaRawElmProvider
+.
+h
+"
 namespace
 mozilla
 {
@@ -195,6 +202,8 @@ public
 ia2AccessibleHyperlink
 public
 ia2AccessibleValue
+public
+uiaRawElmProvider
 {
 public
 :
