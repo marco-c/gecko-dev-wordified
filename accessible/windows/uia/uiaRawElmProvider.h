@@ -145,7 +145,7 @@ namespace
 a11y
 {
 class
-AccessibleWrap
+Accessible
 ;
 /
 *
@@ -429,9 +429,9 @@ aRawElmProvider
 ;
 private
 :
-AccessibleWrap
+Accessible
 *
-LocalAcc
+Acc
 (
 )
 ;
