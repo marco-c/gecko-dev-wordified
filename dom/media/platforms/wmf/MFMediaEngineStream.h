@@ -844,6 +844,7 @@ OutputDataInternal
 =
 0
 ;
+virtual
 void
 SendRequestSampleEvent
 (
@@ -861,6 +862,11 @@ const
 CryptoSample
 &
 aCryptoConfig
+)
+;
+void
+NotifyEndEvent
+(
 )
 ;
 void

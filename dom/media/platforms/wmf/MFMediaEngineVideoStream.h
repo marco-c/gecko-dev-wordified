@@ -527,6 +527,14 @@ ShouldDelayVideoDecodeBeforeDcompReady
 (
 )
 ;
+void
+SendRequestSampleEvent
+(
+bool
+aIsEnough
+)
+override
+;
 /
 /
 Task
