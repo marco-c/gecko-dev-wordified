@@ -169,7 +169,7 @@ it
 const
 url
 =
-BASE_URL
+BASE_URL_HTTPS
 +
 "
 single_frame
@@ -641,7 +641,7 @@ it
 const
 url
 =
-BASE_URL
+BASE_URL_HTTPS
 +
 "
 single_frame

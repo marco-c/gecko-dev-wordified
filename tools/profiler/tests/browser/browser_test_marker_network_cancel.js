@@ -110,7 +110,7 @@ startProfilerForMarkerTests
 const
 url
 =
-BASE_URL
+BASE_URL_HTTPS
 +
 "
 simple
@@ -168,7 +168,7 @@ tab
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
