@@ -4064,7 +4064,7 @@ clickTarget
 =
 itemElem
 .
-secondaryButtonEl
+buttonEl
 ;
 break
 ;

@@ -1144,7 +1144,7 @@ synthesizeMouseAtCenter
 (
 firstItem
 .
-secondaryButtonEl
+buttonEl
 {
 }
 content
@@ -1520,7 +1520,7 @@ synthesizeMouseAtCenter
 (
 firstItem
 .
-secondaryButtonEl
+buttonEl
 {
 }
 content
@@ -1578,7 +1578,7 @@ synthesizeMouseAtCenter
 (
 firstItem
 .
-secondaryButtonEl
+buttonEl
 {
 }
 content
@@ -2000,7 +2000,7 @@ synthesizeMouseAtCenter
 (
 firstItem
 .
-secondaryButtonEl
+buttonEl
 {
 }
 content
@@ -2058,7 +2058,7 @@ synthesizeMouseAtCenter
 (
 firstItem
 .
-secondaryButtonEl
+buttonEl
 {
 }
 content
