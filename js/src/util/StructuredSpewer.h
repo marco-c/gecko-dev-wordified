@@ -637,11 +637,6 @@ BaselineICStats
 \
 _
 (
-ScriptStats
-)
-\
-_
-(
 CacheIRHealthReport
 )
 /
