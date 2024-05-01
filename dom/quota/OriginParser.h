@@ -378,9 +378,6 @@ State
 mState
 ;
 bool
-mInIsolatedMozBrowser
-;
-bool
 mUniversalFileOrigin
 ;
 bool
@@ -441,10 +438,6 @@ eNone
 mState
 (
 eExpectingAppIdOrScheme
-)
-mInIsolatedMozBrowser
-(
-false
 )
 mUniversalFileOrigin
 (
