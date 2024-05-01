@@ -514,6 +514,14 @@ webrtc
 :
 TimeDelta
 ;
+using
+:
+:
+webrtc
+:
+:
+Timestamp
+;
 constexpr
 uint32_t
 kArwnd
@@ -669,7 +677,7 @@ SendQueue
 :
 DataToSend
 (
-TimeMs
+Timestamp
 size_t
 )
 >
@@ -685,7 +693,7 @@ this
 message_id
 ]
 (
-TimeMs
+Timestamp
 now
 size_t
 max_size
@@ -979,12 +987,14 @@ options_
 DataGenerator
 gen_
 ;
-TimeMs
+Timestamp
 now_
 =
-TimeMs
+Timestamp
+:
+:
+Zero
 (
-0
 )
 ;
 FakeTimeoutManager
@@ -1106,7 +1116,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -1209,7 +1219,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -1340,7 +1350,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -1547,7 +1557,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -1842,7 +1852,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -1946,7 +1956,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -2149,7 +2159,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -2251,7 +2261,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -2728,7 +2738,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -2743,10 +2753,15 @@ nullopt
 ;
 static
 constexpr
-TimeMs
+Timestamp
 kStartTime
+=
+Timestamp
+:
+:
+Seconds
 (
-100000
+100
 )
 ;
 now_
@@ -2790,7 +2805,10 @@ after
 now_
 +
 =
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 100
 )
@@ -2897,7 +2915,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -2941,7 +2959,10 @@ after
 now_
 +
 =
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 100
 )
@@ -2999,7 +3020,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -3044,7 +3065,10 @@ ms
 now_
 +
 =
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 100
 )
@@ -3324,8 +3348,15 @@ now_
 options_
 .
 rto_initial
+.
+ToTimeDelta
+(
+)
 -
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 1
 )
@@ -3355,7 +3386,10 @@ running
 now_
 +
 =
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 1
 )
@@ -3419,7 +3453,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -3458,7 +3492,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -3496,7 +3530,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -3632,7 +3666,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -3670,7 +3704,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -3974,7 +4008,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -4021,7 +4055,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -4228,7 +4262,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -4275,7 +4309,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -4585,7 +4619,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -4632,7 +4666,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -5029,7 +5063,7 @@ this
 payload
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -5062,7 +5096,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -5381,7 +5415,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -5429,7 +5463,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -5476,7 +5510,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -5522,7 +5556,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -5880,7 +5914,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -5928,7 +5962,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -5975,7 +6009,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -6022,7 +6056,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -6361,7 +6395,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -6425,7 +6459,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -6489,7 +6523,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -6553,7 +6587,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -6616,7 +6650,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -7468,7 +7502,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -7518,7 +7552,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -7575,7 +7609,10 @@ now_
 =
 now_
 +
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 123
 )
@@ -7819,7 +7856,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -8233,7 +8270,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -8667,7 +8704,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -8986,7 +9023,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 size
 )
@@ -9044,7 +9081,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 size
 )
@@ -9172,7 +9209,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -9220,7 +9257,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -9267,7 +9304,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -9313,7 +9350,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -9767,7 +9804,7 @@ MID
 42
 )
 ;
-TimeMs
+Timestamp
 test_start
 =
 now_
@@ -9784,7 +9821,7 @@ WillOnce
 &
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -9816,11 +9853,14 @@ dts
 .
 expires_at
 =
-TimeMs
+Timestamp
 (
 test_start
 +
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 10
 )
@@ -9838,7 +9878,7 @@ WillOnce
 &
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -9869,11 +9909,14 @@ dts
 .
 expires_at
 =
-TimeMs
+Timestamp
 (
 test_start
 +
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 10
 )
@@ -9890,7 +9933,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -9967,7 +10010,10 @@ true
 now_
 +
 =
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 100
 )
@@ -10072,7 +10118,7 @@ CreateQueue
 (
 )
 ;
-TimeMs
+Timestamp
 test_start
 =
 now_
@@ -10089,7 +10135,7 @@ WillOnce
 &
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -10132,11 +10178,14 @@ dts
 .
 expires_at
 =
-TimeMs
+Timestamp
 (
 test_start
 +
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 10
 )
@@ -10154,7 +10203,7 @@ WillOnce
 &
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -10197,11 +10246,14 @@ dts
 .
 expires_at
 =
-TimeMs
+Timestamp
 (
 test_start
 +
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 10
 )
@@ -10230,7 +10282,7 @@ WillOnce
 &
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -10273,11 +10325,14 @@ dts
 .
 expires_at
 =
-TimeMs
+Timestamp
 (
 test_start
 +
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 10
 )
@@ -10295,7 +10350,7 @@ WillOnce
 &
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -10337,11 +10392,14 @@ dts
 .
 expires_at
 =
-TimeMs
+Timestamp
 (
 test_start
 +
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 10
 )
@@ -10358,7 +10416,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -10497,7 +10555,10 @@ MID
 now_
 +
 =
-DurationMs
+TimeDelta
+:
+:
+Millis
 (
 100
 )
@@ -10651,7 +10712,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -10731,7 +10792,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -11313,7 +11374,7 @@ WillOnce
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -11459,7 +11520,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -12781,7 +12842,7 @@ this
 payload
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -12814,7 +12875,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -13018,7 +13079,7 @@ chunk_size
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -13060,7 +13121,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -13282,7 +13343,7 @@ chunk_size
 this
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -13324,7 +13385,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -13445,7 +13506,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -13630,7 +13691,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -13716,7 +13777,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -13812,7 +13873,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -13908,7 +13969,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -14193,7 +14254,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -14295,7 +14356,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -14459,7 +14520,7 @@ this
 payload
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -14494,7 +14555,7 @@ this
 payload
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -14528,7 +14589,7 @@ this
 payload
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -14562,7 +14623,7 @@ this
 payload
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -14596,7 +14657,7 @@ this
 payload
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
@@ -14629,7 +14690,7 @@ WillRepeatedly
 [
 ]
 (
-TimeMs
+Timestamp
 size_t
 )
 {
