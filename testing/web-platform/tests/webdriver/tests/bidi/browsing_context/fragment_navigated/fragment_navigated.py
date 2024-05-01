@@ -382,6 +382,7 @@ subscribe_events
 url
 new_tab
 wait_for_event
+wait_for_future_safe
 )
 :
     
