@@ -5971,6 +5971,17 @@ C1756713
 "
 "
         
+#
+Bug
+1884547
+-
+we
+get
+captcha
+        
+return
+True
+        
 download_site
 =
 self
@@ -6412,6 +6423,17 @@ C1756715
 "
 "
 "
+        
+#
+Bug
+1884547
+-
+we
+get
+captcha
+        
+return
+True
         
 download_site
 =
