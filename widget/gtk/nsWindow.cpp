@@ -45670,6 +45670,9 @@ aRegion
 ;
 }
 }
+#
+ifdef
+MOZ_ENABLE_DBUS
 void
 nsWindow
 :
@@ -45700,6 +45703,8 @@ aDbusMenuBar
 )
 ;
 }
+#
+endif
 LayoutDeviceIntCoord
 nsWindow
 :

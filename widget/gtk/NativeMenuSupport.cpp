@@ -183,6 +183,9 @@ thread
 "
 )
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 if
 (
 aMenuBarElement
@@ -226,6 +229,8 @@ aMenuBarElement
 )
 ;
 }
+#
+endif
 }
 already_AddRefed
 <

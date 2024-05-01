@@ -2291,6 +2291,9 @@ aRegion
 )
 override
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 void
 SetDBusMenuBar
 (
@@ -2307,6 +2310,8 @@ DBusMenuBar
 aDbusMenuBar
 )
 ;
+#
+endif
 /
 /
 HiDPI
@@ -5459,6 +5464,9 @@ nsWindow
 >
 mWaylandPopupPrev
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 RefPtr
 <
 mozilla
@@ -5471,6 +5479,8 @@ DBusMenuBar
 >
 mDBusMenuBar
 ;
+#
+endif
 /
 /
 When

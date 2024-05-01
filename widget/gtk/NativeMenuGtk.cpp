@@ -2853,6 +2853,9 @@ testing
 mostly
 .
 }
+#
+ifdef
+MOZ_ENABLE_DBUS
 class
 MenubarModelDBus
 final
@@ -3294,7 +3297,7 @@ TODO
 emilio
 )
 :
-Unifiy
+Unify
 with
 nsMenuUtilsX
 :
@@ -5206,6 +5209,8 @@ DBusMenuBar
 =
 default
 ;
+#
+endif
 }
 /
 /

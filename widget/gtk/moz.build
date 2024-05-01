@@ -414,11 +414,6 @@ CompositorWidgetParent
 cpp
 "
 "
-DBusMenu
-.
-cpp
-"
-"
 DMABufLibWrapper
 .
 cpp
@@ -952,6 +947,11 @@ UNIFIED_SOURCES
 [
 "
 AsyncDBus
+.
+cpp
+"
+"
+DBusMenu
 .
 cpp
 "
