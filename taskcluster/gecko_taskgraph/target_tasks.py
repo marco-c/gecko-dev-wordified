@@ -6813,6 +6813,7 @@ filter
 =
 make_desktop_nightly_filter
 (
+        
 {
 "
 linux64
@@ -6824,7 +6825,15 @@ linux
 -
 shippable
 "
+"
+linux
+-
+aarch64
+-
+shippable
+"
 }
+    
 )
     
 return
