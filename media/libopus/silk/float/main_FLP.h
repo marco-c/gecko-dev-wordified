@@ -1369,6 +1369,8 @@ dB
 )
 *
 /
+int
+arch
 )
 ;
 /
@@ -1460,6 +1462,8 @@ of
 subframes
 *
 /
+int
+arch
 )
 ;
 void
@@ -2178,6 +2182,8 @@ order
 ]
 *
 /
+int
+arch
 )
 ;
 /
@@ -2270,6 +2276,8 @@ order
 ]
 *
 /
+int
+arch
 )
 ;
 /

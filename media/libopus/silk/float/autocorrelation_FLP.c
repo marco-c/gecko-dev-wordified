@@ -475,6 +475,8 @@ to
 compute
 *
 /
+int
+arch
 )
 {
 opus_int
@@ -524,6 +526,7 @@ i
 inputDataSize
 -
 i
+arch
 )
 ;
 }

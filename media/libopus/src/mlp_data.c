@@ -7542,7 +7542,7 @@ layer2_bias
 }
 ;
 const
-DenseLayer
+AnalysisDenseLayer
 layer0
 =
 {
@@ -7554,7 +7554,7 @@ layer0_weights
 }
 ;
 const
-GRULayer
+AnalysisGRULayer
 layer1
 =
 {
@@ -7566,7 +7566,7 @@ layer1_recur_weights
 }
 ;
 const
-DenseLayer
+AnalysisDenseLayer
 layer2
 =
 {

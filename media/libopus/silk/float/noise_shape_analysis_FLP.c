@@ -2480,6 +2480,12 @@ sCmn
 shapingLPCOrder
 +
 1
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 }

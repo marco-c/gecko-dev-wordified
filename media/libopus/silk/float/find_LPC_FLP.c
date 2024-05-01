@@ -480,6 +480,8 @@ prediction
 gain
 *
 /
+int
+arch
 )
 {
 opus_int
@@ -584,6 +586,7 @@ psEncC
 -
 >
 predictLPCOrder
+arch
 )
 ;
 if
@@ -677,6 +680,7 @@ psEncC
 -
 >
 predictLPCOrder
+arch
 )
 ;
 /

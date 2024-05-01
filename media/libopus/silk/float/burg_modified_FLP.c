@@ -560,6 +560,8 @@ I
 order
 *
 /
+int
+arch
 )
 {
 opus_int
@@ -712,6 +714,7 @@ n
 subfr_length
 -
 n
+arch
 )
 ;
 }

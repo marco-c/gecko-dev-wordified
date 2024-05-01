@@ -243,10 +243,10 @@ DAMAGE
 /
 #
 ifndef
-__CELT_MIPSR1_H__
+CELT_MIPSR1_H__
 #
 define
-__CELT_MIPSR1_H__
+CELT_MIPSR1_H__
 #
 ifdef
 HAVE_CONFIG_H
@@ -1448,6 +1448,6 @@ x0
 endif
 /
 *
-__CELT_MIPSR1_H__
+CELT_MIPSR1_H__
 *
 /

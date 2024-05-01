@@ -500,6 +500,8 @@ of
 subframes
 *
 /
+int
+arch
 )
 {
 opus_int
@@ -564,6 +566,7 @@ lag_ptr
 subfr_length
 LTP_ORDER
 XX_ptr
+arch
 )
 ;
 silk_corrVector_FLP
@@ -573,6 +576,7 @@ r_ptr
 subfr_length
 LTP_ORDER
 xX_ptr
+arch
 )
 ;
 xx

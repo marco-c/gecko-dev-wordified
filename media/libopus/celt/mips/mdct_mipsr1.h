@@ -339,10 +339,10 @@ places
 /
 #
 ifndef
-__MDCT_MIPSR1_H__
+MDCT_MIPSR1_H__
 #
 define
-__MDCT_MIPSR1_H__
+MDCT_MIPSR1_H__
 #
 ifndef
 SKIP_CONFIG_H
@@ -2242,6 +2242,6 @@ wp2
 endif
 /
 *
-__MDCT_MIPSR1_H__
+MDCT_MIPSR1_H__
 *
 /

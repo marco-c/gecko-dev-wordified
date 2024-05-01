@@ -562,6 +562,14 @@ Loss
 flag
 *
 /
+#
+ifdef
+ENABLE_DEEP_PLC
+LPCNetPLCState
+*
+lpcnet
+#
+endif
 int
 arch
 /

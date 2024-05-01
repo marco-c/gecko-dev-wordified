@@ -1427,7 +1427,7 @@ e
 g
 .
 for
-outputing
+outputting
 in
 WAV
 order

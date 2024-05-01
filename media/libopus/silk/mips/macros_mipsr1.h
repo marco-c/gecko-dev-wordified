@@ -393,10 +393,10 @@ DAMAGE
 /
 #
 ifndef
-__SILK_MACROS_MIPSR1_H__
+SILK_MACROS_MIPSR1_H__
 #
 define
-__SILK_MACROS_MIPSR1_H__
+SILK_MACROS_MIPSR1_H__
 #
 define
 mips_clz
@@ -634,6 +634,6 @@ re32
 endif
 /
 *
-__SILK_MACROS_MIPSR1_H__
+SILK_MACROS_MIPSR1_H__
 *
 /

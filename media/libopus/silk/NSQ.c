@@ -837,12 +837,8 @@ signal
 /
 const
 opus_int16
-PredCoef_Q12
-[
-2
 *
-MAX_LPC_ORDER
-]
+PredCoef_Q12
 /
 *
 I

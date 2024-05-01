@@ -730,6 +730,12 @@ psEnc
 sCmn
 .
 nb_subfr
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 /
@@ -1129,6 +1135,12 @@ sCmn
 NLSF_Q15
 LPC_in_pre
 minInvGain
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 /

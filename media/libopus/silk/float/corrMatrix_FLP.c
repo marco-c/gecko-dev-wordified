@@ -650,6 +650,8 @@ order
 ]
 *
 /
+int
+arch
 )
 {
 opus_int
@@ -730,6 +732,7 @@ silk_inner_product_FLP
 ptr1
 t
 L
+arch
 )
 ;
 ptr1
@@ -824,6 +827,8 @@ order
 ]
 *
 /
+int
+arch
 )
 {
 opus_int
@@ -1033,6 +1038,7 @@ silk_inner_product_FLP
 ptr1
 ptr2
 L
+arch
 )
 ;
 matrix_ptr
