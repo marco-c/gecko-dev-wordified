@@ -3005,6 +3005,11 @@ AudioContext
 webidl
 "
 "
+AudioData
+.
+webidl
+"
+"
 AudioDestinationNode
 .
 webidl
