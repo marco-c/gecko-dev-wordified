@@ -127,11 +127,6 @@ TestOffMainThreadPainting
 h
 "
 "
-TestRacyUndefer
-.
-h
-"
-"
 TestRPC
 .
 h
@@ -198,11 +193,6 @@ SOURCES
 [
 "
 TestOffMainThreadPainting
-.
-cpp
-"
-"
-TestRacyUndefer
 .
 cpp
 "
@@ -319,11 +309,6 @@ ipdl
 "
 "
 PTestPriority
-.
-ipdl
-"
-"
-PTestRacyUndefer
 .
 ipdl
 "
