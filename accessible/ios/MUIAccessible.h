@@ -363,6 +363,14 @@ accessibilityLabel
 ;
 -
 (
+nullable
+NSString
+*
+)
+accessibilityHint
+;
+-
+(
 CGRect
 )
 accessibilityFrame
