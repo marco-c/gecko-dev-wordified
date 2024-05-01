@@ -41,10 +41,6 @@ function
 openSelectPopup
 (
 selector
-=
-"
-select
-"
 win
 =
 window
