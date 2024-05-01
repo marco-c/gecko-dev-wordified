@@ -3329,8 +3329,6 @@ fp
 init
 (
 window
-.
-browsingContext
 PlacesUIUtils
 .
 promptLocalization
@@ -3486,8 +3484,6 @@ fp
 init
 (
 window
-.
-browsingContext
 PlacesUIUtils
 .
 promptLocalization
@@ -4196,8 +4192,6 @@ fp
 init
 (
 window
-.
-browsingContext
 title
 Ci
 .
@@ -4676,8 +4670,6 @@ fp
 init
 (
 window
-.
-browsingContext
 title
 Ci
 .

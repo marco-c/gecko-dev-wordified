@@ -641,8 +641,6 @@ dirChooser
 init
 (
 window
-.
-browsingContext
 gProfileManagerBundle
 .
 getString

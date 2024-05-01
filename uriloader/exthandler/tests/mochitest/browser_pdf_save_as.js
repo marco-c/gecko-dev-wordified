@@ -136,8 +136,6 @@ MockFilePicker
 init
 (
 window
-.
-browsingContext
 )
 ;
 async

@@ -2609,8 +2609,6 @@ fp
 init
 (
 window
-.
-browsingContext
 "
 Select
 a

@@ -5759,8 +5759,6 @@ fp
 init
 (
 parentWindow
-.
-browsingContext
 null
 fp
 .

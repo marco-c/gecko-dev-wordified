@@ -520,8 +520,6 @@ fp
 init
 (
 window
-.
-browsingContext
 "
 Test
 :

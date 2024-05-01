@@ -4176,8 +4176,6 @@ fp
 init
 (
 window
-.
-browsingContext
 titleText
 nsIFilePicker
 .

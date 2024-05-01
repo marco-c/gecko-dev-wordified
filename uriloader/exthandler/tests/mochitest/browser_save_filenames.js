@@ -447,8 +447,6 @@ MockFilePicker
 init
 (
 window
-.
-browsingContext
 )
 ;
 let
