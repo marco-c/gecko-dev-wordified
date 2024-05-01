@@ -3313,6 +3313,12 @@ defined
 (
 ANDROID
 )
+|
+|
+defined
+(
+MOZ_WIDGET_UIKIT
+)
 printf_stderr
 (
 "
