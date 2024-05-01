@@ -60296,6 +60296,8 @@ builtinModuleFunc
 -
 >
 usesMemory
+(
+)
 )
 {
 /
@@ -60325,10 +60327,13 @@ builtinModuleFunc
 return
 emitInstanceCall
 (
+*
 builtinModuleFunc
 -
 >
-signature
+sig
+(
+)
 )
 ;
 }
