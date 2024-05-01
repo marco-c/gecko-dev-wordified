@@ -423,7 +423,7 @@ enum
 SpecifierSlot
 =
 0
-AssertionSlot
+AttributesSlot
 SlotCount
 }
 ;
@@ -464,7 +464,7 @@ Handle
 ArrayObject
 *
 >
-maybeAssertions
+maybeAttributes
 )
 ;
 JSAtom
@@ -476,7 +476,7 @@ const
 ;
 ArrayObject
 *
-assertions
+attributes
 (
 )
 const
