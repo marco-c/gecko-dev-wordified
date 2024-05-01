@@ -7359,7 +7359,16 @@ barrier
 MembarStoreLoad
 )
 {
-storeLoadFence
+/
+/
+This
+implementation
+follows
+Linux
+.
+masm
+.
+mfence
 (
 )
 ;
