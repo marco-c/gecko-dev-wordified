@@ -1931,10 +1931,7 @@ output
 i
 ]
 =
-ConvertAudioSample
-<
-float
->
+AudioSampleToFloat
 (
 mBuffer
 .
