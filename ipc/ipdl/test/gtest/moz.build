@@ -209,6 +209,11 @@ TestSelfManage
 .
 cpp
 "
+"
+TestShmem
+.
+cpp
+"
 ]
 IPDL_SOURCES
 +
@@ -346,6 +351,11 @@ ipdl
 "
 "
 PTestSelfManageRoot
+.
+ipdl
+"
+"
+PTestShmem
 .
 ipdl
 "
