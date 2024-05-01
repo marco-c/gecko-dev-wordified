@@ -11636,7 +11636,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 codec
 :
@@ -11644,11 +11644,6 @@ content
 -
 >
 media_description
-(
-)
--
->
-as_audio
 (
 )
 -
