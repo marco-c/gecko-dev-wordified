@@ -845,7 +845,10 @@ UpdatePositionState
 uint64_t
 aBrowsingContextId
 const
+Maybe
+<
 PositionState
+>
 &
 aState
 )
@@ -1203,7 +1206,10 @@ UpdatePositionState
 uint64_t
 aBrowsingContextId
 const
+Maybe
+<
 PositionState
+>
 &
 aState
 )
@@ -1310,7 +1316,10 @@ mMetadataChangedEvent
 }
 MediaEventSource
 <
+Maybe
+<
 PositionState
+>
 >
 &
 PositionChangedEvent
@@ -1877,7 +1886,10 @@ mSupportedActionsChangedEvent
 ;
 MediaEventProducer
 <
+Maybe
+<
 PositionState
+>
 >
 mPositionStateChangedEvent
 ;
