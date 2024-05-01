@@ -180,16 +180,7 @@ use
 core
 :
 :
-{
-convert
-:
-:
-{
-From
-Into
-}
 slice
-}
 ;
 use
 super

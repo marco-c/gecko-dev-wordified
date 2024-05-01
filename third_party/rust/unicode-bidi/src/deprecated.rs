@@ -118,15 +118,6 @@ assets
 only
 .
 use
-alloc
-:
-:
-vec
-:
-:
-Vec
-;
-use
 super
 :
 :

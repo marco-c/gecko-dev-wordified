@@ -170,6 +170,7 @@ Direction
 Level
 LevelRun
 ParagraphInfo
+ParagraphInfoFlags
 }
 ;
 #
@@ -837,11 +838,11 @@ codes
 present
 )
 .
-pure_ltr
+flags
 :
 Vec
 <
-bool
+ParagraphInfoFlags
 >
 }
 impl
@@ -1078,13 +1079,13 @@ new
 ;
 let
 mut
-pure_ltr
+flags
 =
 Vec
 :
 :
 <
-bool
+ParagraphInfoFlags
 >
 :
 :
@@ -1095,6 +1096,7 @@ new
 let
 (
 original_classes
+_
 _
 _
 )
@@ -1112,7 +1114,7 @@ mut
 paragraphs
 &
 mut
-pure_ltr
+flags
 )
 )
 )
@@ -1127,7 +1129,7 @@ text
 original_classes
 paragraphs
 }
-pure_ltr
+flags
 }
 }
 }
@@ -1718,7 +1720,7 @@ let
 InitialInfoExt
 {
 base
-pure_ltr
+flags
 .
 .
 }
@@ -1769,7 +1771,7 @@ clone
 for
 (
 para
-is_pure_ltr
+flags
 )
 in
 base
@@ -1782,7 +1784,7 @@ iter
 .
 zip
 (
-pure_ltr
+flags
 .
 iter
 (
@@ -1825,8 +1827,12 @@ compute_bidi_info_for_para
 (
 data_source
 para
-*
+flags
+.
 is_pure_ltr
+flags
+.
+has_isolate_controls
 text
 original_classes
 &
@@ -4124,6 +4130,7 @@ let
 original_classes
 paragraph_level
 is_pure_ltr
+has_isolate_controls
 )
 =
 compute_initial_info
@@ -4196,6 +4203,7 @@ data_source
 &
 para_info
 is_pure_ltr
+has_isolate_controls
 text
 &
 original_classes
