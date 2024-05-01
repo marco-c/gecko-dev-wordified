@@ -413,6 +413,13 @@ DIRS
 =
 [
 "
+mozapps
+/
+macos
+-
+frameworks
+"
+"
 system
 /
 commonproxy
