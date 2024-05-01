@@ -44,9 +44,11 @@ resource
 :
 /
 /
-autofill
+gre
 /
-phonenumberutils
+modules
+/
+shared
 /
 PhoneNumber
 .
@@ -71,9 +73,11 @@ resource
 :
 /
 /
-autofill
+gre
 /
-phonenumberutils
+modules
+/
+shared
 /
 PhoneNumberNormalizer
 .
