@@ -855,6 +855,10 @@ TelemetryTest
 test
 /
 123
+?
+v
+=
+4
 HTTP
 /
 1
@@ -1517,6 +1521,10 @@ TelemetryTest
 test
 /
 456
+?
+v
+=
+4
 HTTP
 /
 1
