@@ -298,7 +298,7 @@ h
 endif
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 #
 include
 "
@@ -1157,7 +1157,7 @@ UseSoftwareWebRender
 {
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 /
 /
 Mac
@@ -1415,7 +1415,7 @@ nullptr
 elif
 defined
 (
-XP_DARWIN
+XP_MACOSX
 )
 /
 /

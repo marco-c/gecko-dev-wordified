@@ -8690,7 +8690,7 @@ SharedSurfacePool
 if
 defined
 (
-XP_DARWIN
+XP_MACOSX
 )
 |
 |
@@ -9763,7 +9763,7 @@ forget
 endif
 #
 ifdef
-XP_DARWIN
+XP_MACOSX
 static
 already_AddRefed
 <
@@ -9900,7 +9900,7 @@ CreateGLContextEGL
 }
 #
 elif
-XP_DARWIN
+XP_MACOSX
 gl
 =
 CreateGLContextCGL
