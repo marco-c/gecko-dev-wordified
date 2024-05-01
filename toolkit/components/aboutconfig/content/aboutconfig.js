@@ -1841,6 +1841,16 @@ this
 .
 value
 ;
+this
+.
+inputField
+.
+ariaLabel
+=
+this
+.
+name
+;
 if
 (
 this
