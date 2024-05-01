@@ -4978,16 +4978,6 @@ flip
 Atom
 (
 "
-floating
-"
-"
-floating
-"
-)
-    
-Atom
-(
-"
 floor
 "
 "
@@ -13158,16 +13148,6 @@ title
 "
 "
 title
-"
-)
-    
-Atom
-(
-"
-titlebar
-"
-"
-titlebar
 "
 )
     
