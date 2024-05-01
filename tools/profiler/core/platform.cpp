@@ -1007,7 +1007,7 @@ endif
 if
 defined
 (
-GP_OS_darwin
+XP_MACOSX
 )
 #
 include
@@ -19453,7 +19453,7 @@ mHttpPlatform
 if
 defined
 (
-GP_OS_darwin
+XP_MACOSX
 )
 /
 /
