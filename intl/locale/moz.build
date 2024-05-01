@@ -139,11 +139,15 @@ windows
 ]
 elif
 toolkit
-=
-=
+in
+(
 "
 cocoa
 "
+"
+uikit
+"
+)
 :
 DIRS
 +
