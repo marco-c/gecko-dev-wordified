@@ -637,8 +637,9 @@ HTMLDialogElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 RemoveFromTopLayerIfNeeded
@@ -650,7 +651,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

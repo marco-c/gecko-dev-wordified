@@ -1323,8 +1323,9 @@ HTMLSharedElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 Document
@@ -1340,7 +1341,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 /

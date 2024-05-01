@@ -370,8 +370,8 @@ const
 void
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
 )
 override
 ;

@@ -693,8 +693,9 @@ SVGStyleElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 nsCOMPtr
@@ -720,7 +721,7 @@ SVGStyleElementBase
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 Unused

@@ -287,8 +287,9 @@ nsXMLElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 nsAtom
@@ -394,7 +395,7 @@ Element
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

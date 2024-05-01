@@ -503,8 +503,9 @@ HTMLAnchorElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 /
@@ -567,7 +568,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 /

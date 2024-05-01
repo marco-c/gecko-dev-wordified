@@ -462,8 +462,9 @@ HTMLTitleElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 SendTitleChangeEvent
@@ -483,7 +484,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

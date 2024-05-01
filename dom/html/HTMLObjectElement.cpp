@@ -579,8 +579,9 @@ HTMLObjectElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 nsObjectLoadingContent
@@ -588,7 +589,6 @@ nsObjectLoadingContent
 :
 UnbindFromTree
 (
-aNullParent
 )
 ;
 nsGenericHTMLFormControlElement
@@ -596,7 +596,7 @@ nsGenericHTMLFormControlElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

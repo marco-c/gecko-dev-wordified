@@ -1509,8 +1509,9 @@ HTMLOptionElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 nsGenericHTMLElement
@@ -1518,7 +1519,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 /

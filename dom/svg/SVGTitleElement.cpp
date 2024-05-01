@@ -523,8 +523,9 @@ SVGTitleElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 SendTitleChangeEvent
@@ -544,7 +545,7 @@ SVGTitleElementBase
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

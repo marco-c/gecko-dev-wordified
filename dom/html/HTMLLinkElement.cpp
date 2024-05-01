@@ -715,8 +715,9 @@ HTMLLinkElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 CancelDNSPrefetch
@@ -844,7 +845,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 Unused

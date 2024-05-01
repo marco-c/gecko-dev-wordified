@@ -1995,8 +1995,9 @@ XULButtonElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 StopBlinking
@@ -2008,7 +2009,7 @@ nsXULElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

@@ -1007,8 +1007,9 @@ XULFrameElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 if
@@ -1041,7 +1042,7 @@ nsXULElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }

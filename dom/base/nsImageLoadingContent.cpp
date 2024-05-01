@@ -10008,8 +10008,6 @@ nsImageLoadingContent
 :
 UnbindFromTree
 (
-bool
-aNullParent
 )
 {
 /
@@ -10044,8 +10042,10 @@ if
 !
 doc
 )
+{
 return
 ;
+}
 UntrackImage
 (
 mCurrentRequest

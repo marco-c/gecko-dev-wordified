@@ -1484,8 +1484,6 @@ nsObjectLoadingContent
 :
 UnbindFromTree
 (
-bool
-aNullParent
 )
 {
 /

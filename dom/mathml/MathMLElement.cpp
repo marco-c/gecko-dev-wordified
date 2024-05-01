@@ -667,8 +667,9 @@ MathMLElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 MathMLElementBase
@@ -676,7 +677,7 @@ MathMLElementBase
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 /

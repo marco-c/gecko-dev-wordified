@@ -1145,8 +1145,9 @@ HTMLSourceElement
 :
 UnbindFromTree
 (
-bool
-aNullParent
+UnbindContext
+&
+aContext
 )
 {
 mMappedAttributesForImage
@@ -1158,7 +1159,7 @@ nsGenericHTMLElement
 :
 UnbindFromTree
 (
-aNullParent
+aContext
 )
 ;
 }
