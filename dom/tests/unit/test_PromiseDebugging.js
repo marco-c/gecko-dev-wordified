@@ -39,7 +39,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 res

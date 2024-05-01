@@ -4412,7 +4412,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 /

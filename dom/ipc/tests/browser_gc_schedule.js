@@ -167,9 +167,6 @@ observe
 =
 function
 (
-subject
-topic
-data
 )
 {
 resolve
@@ -322,9 +319,6 @@ observe
 =
 function
 (
-subject
-topic
-data
 )
 {
 resolve

@@ -456,7 +456,6 @@ testHandlers
 {
 publicKey
 (
-data
 )
 {
 return
@@ -638,7 +637,6 @@ endpoint
 }
 denySubscribe
 (
-data
 )
 {
 return

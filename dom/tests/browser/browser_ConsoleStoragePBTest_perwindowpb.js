@@ -223,7 +223,6 @@ then
 function
 observe
 (
-aSubject
 )
 {
 afterEvents
@@ -361,7 +360,7 @@ innerID
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aWindow
 .

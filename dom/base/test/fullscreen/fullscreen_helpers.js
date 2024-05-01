@@ -547,7 +547,8 @@ aWindow
 fullscreen
 "
 false
-aEvent
+(
+)
 =
 >
 {
@@ -630,8 +631,6 @@ fullscreen
 painted
 "
 (
-subject
-data
 )
 =
 >

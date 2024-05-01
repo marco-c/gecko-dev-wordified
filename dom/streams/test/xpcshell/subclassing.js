@@ -136,7 +136,6 @@ method
 )
 start
 (
-c
 )
 {
 started

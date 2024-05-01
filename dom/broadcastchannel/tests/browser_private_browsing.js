@@ -256,7 +256,6 @@ browser1
 ]
 function
 (
-opts
 )
 {
 return
@@ -329,7 +328,6 @@ browser2
 ]
 function
 (
-opts
 )
 {
 return
@@ -400,7 +398,6 @@ browser1
 ]
 function
 (
-opts
 )
 {
 return
@@ -463,7 +460,6 @@ browser2
 ]
 function
 (
-opts
 )
 {
 return

@@ -76,7 +76,6 @@ script
 function
 debug
 (
-msg
 )
 {
 /

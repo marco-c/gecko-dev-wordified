@@ -138,7 +138,6 @@ domwindow
 }
 onCloseWindow
 (
-aXULWindow
 )
 {
 }
@@ -159,10 +158,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -307,7 +303,7 @@ xhtml
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 kTestURI
@@ -443,7 +439,7 @@ PUBLIC
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 kTestURI

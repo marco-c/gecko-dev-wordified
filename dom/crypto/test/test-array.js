@@ -769,7 +769,8 @@ worker
 .
 onerror
 =
-e
+(
+)
 =
 >
 this

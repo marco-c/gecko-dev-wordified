@@ -133,13 +133,11 @@ ReadableStream
 {
 start
 (
-controller
 )
 {
 }
 pull
 (
-controller
 )
 {
 /

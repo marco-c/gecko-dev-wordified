@@ -449,7 +449,6 @@ teardown
 "
 function
 (
-msg
 )
 {
 pushService

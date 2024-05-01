@@ -719,7 +719,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 let
@@ -943,7 +942,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 let
@@ -1119,7 +1117,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 let

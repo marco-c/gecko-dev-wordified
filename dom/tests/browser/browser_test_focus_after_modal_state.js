@@ -231,7 +231,6 @@ focus
 "
 function
 (
-event
 )
 {
 focusOccurred
@@ -261,7 +260,6 @@ blur
 "
 function
 (
-event
 )
 {
 blurOccurred

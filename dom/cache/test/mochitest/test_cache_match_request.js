@@ -1017,7 +1017,6 @@ then
 (
 function
 (
-result
 )
 {
 is

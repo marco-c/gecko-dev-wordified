@@ -434,7 +434,8 @@ addEventListener
 "
 fullscreenchange
 "
-e
+(
+)
 =
 >
 {

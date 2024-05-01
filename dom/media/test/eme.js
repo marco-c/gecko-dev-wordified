@@ -2732,7 +2732,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -2853,7 +2852,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 target

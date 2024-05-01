@@ -25,8 +25,6 @@ function
 dialogObserver
 (
 subj
-topic
-data
 )
 {
 subj
@@ -57,7 +55,8 @@ addMessageListener
 "
 init
 "
-message
+(
+)
 =
 >
 {
@@ -86,7 +85,8 @@ addMessageListener
 "
 cleanup
 "
-message
+(
+)
 =
 >
 {

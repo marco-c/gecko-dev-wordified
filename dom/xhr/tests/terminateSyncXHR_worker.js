@@ -34,7 +34,6 @@ onmessage
 =
 function
 (
-event
 )
 {
 throw

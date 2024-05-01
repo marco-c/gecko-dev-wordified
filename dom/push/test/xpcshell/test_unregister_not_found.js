@@ -90,7 +90,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

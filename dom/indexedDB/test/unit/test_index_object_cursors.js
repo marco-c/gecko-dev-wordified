@@ -630,7 +630,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 ok
@@ -667,7 +666,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 ok

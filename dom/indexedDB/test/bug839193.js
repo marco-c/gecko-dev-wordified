@@ -84,7 +84,6 @@ localhost
 function
 onUsageCallback
 (
-request
 )
 {
 }

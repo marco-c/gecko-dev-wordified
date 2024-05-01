@@ -250,10 +250,7 @@ didPlayPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -264,7 +261,8 @@ addEventListener
 "
 playing
 "
-e
+(
+)
 =
 >
 {
@@ -293,7 +291,8 @@ addEventListener
 "
 blocked
 "
-e
+(
+)
 =
 >
 {
@@ -384,7 +383,8 @@ addEventListener
 "
 loadedmetadata
 "
-e
+(
+)
 =
 >
 {

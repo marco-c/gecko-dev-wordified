@@ -424,7 +424,8 @@ addEventListener
 "
 load
 "
-event
+(
+)
 =
 >
 {

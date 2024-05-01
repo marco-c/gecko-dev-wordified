@@ -44,7 +44,6 @@ open
 "
 function
 (
-e
 )
 {
 var
@@ -206,7 +205,6 @@ open
 "
 function
 (
-e
 )
 {
 var

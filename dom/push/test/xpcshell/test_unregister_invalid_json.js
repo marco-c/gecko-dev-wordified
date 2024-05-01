@@ -309,7 +309,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this
@@ -342,7 +341,6 @@ true
 }
 onUnregister
 (
-request
 )
 {
 this

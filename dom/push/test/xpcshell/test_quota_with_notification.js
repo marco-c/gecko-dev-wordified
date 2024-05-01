@@ -332,8 +332,6 @@ PushServiceComponent
 .
 pushTopic
 (
-subject
-data
 )
 =
 >
@@ -365,8 +363,6 @@ PushServiceComponent
 .
 subscriptionModifiedTopic
 (
-subject
-data
 )
 =
 >
@@ -422,10 +418,7 @@ updateQuotaPromise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -497,7 +490,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this
@@ -600,7 +592,6 @@ version
 }
 onUnregister
 (
-request
 )
 {
 ok
@@ -637,7 +628,6 @@ contents
 .
 onACK
 (
-request
 )
 {
 }

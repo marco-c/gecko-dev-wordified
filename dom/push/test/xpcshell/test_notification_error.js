@@ -449,7 +449,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this

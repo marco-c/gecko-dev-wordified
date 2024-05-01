@@ -533,7 +533,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -608,7 +608,6 @@ mousedown
 "
 function
 (
-e
 )
 {
 content

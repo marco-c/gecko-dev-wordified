@@ -226,7 +226,6 @@ then
 (
 function
 (
-res
 )
 {
 ok

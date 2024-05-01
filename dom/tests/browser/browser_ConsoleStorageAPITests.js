@@ -233,7 +233,6 @@ null
 async
 function
 (
-opt
 )
 {
 let
@@ -279,7 +278,6 @@ apiCallCount
 function
 observe
 (
-aSubject
 )
 {
 apiCallCount

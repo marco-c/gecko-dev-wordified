@@ -2837,7 +2837,6 @@ onmessage
 =
 function
 (
-event
 )
 {
 _fun_

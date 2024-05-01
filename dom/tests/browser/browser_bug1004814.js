@@ -130,7 +130,6 @@ aBrowser
 ]
 function
 (
-opts
 )
 {
 const

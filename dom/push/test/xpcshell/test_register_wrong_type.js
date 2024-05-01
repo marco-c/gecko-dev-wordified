@@ -153,7 +153,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this
@@ -187,7 +186,6 @@ helloDone
 }
 onRegister
 (
-request
 )
 {
 registers

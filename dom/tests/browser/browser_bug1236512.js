@@ -231,7 +231,8 @@ true
 capture
 *
 /
-aEvent
+(
+)
 =
 >
 {
@@ -405,7 +406,8 @@ winTest
 resize
 "
 false
-e
+(
+)
 =
 >
 {
@@ -467,7 +469,7 @@ testPageURL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browserTest
 .

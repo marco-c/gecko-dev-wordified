@@ -775,7 +775,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this
@@ -897,7 +896,6 @@ channelID
 }
 onACK
 (
-request
 )
 {
 }

@@ -186,7 +186,6 @@ onmessage
 async
 function
 (
-ev
 )
 {
 xhr

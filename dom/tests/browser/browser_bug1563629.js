@@ -77,7 +77,6 @@ win
 function
 listener
 (
-event
 )
 {
 ok
@@ -183,7 +182,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL1

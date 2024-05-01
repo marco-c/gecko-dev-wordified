@@ -206,7 +206,6 @@ Promise
 function
 (
 aResolve
-aReject
 )
 {
 var
@@ -2134,9 +2133,6 @@ requestObserver
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 is
@@ -2199,7 +2195,6 @@ Promise
 function
 (
 aResolve
-aReject
 )
 {
 xhr
@@ -2419,7 +2414,6 @@ Promise
 function
 (
 aResolve
-aReject
 )
 {
 self
@@ -2557,7 +2551,6 @@ error
 "
 function
 (
-e
 )
 {
 ok
@@ -2625,7 +2618,6 @@ Promise
 function
 (
 aResolve
-aReject
 )
 {
 var

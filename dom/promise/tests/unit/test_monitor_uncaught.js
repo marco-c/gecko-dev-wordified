@@ -173,7 +173,8 @@ p1
 new
 Promise
 (
-resolve
+(
+)
 =
 >
 {
@@ -186,7 +187,8 @@ p2
 new
 Promise
 (
-resolve
+(
+)
 =
 >
 {
@@ -725,7 +727,6 @@ observer
 onLeftUncaught
 (
 promise
-data
 )
 {
 onLeftUncaught
@@ -781,10 +782,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 setTimeout

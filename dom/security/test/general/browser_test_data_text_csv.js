@@ -48,7 +48,6 @@ function
 addWindowListener
 (
 aURL
-aCallback
 )
 {
 return
@@ -139,7 +138,6 @@ domwindow
 }
 onCloseWindow
 (
-aXULWindow
 )
 {
 }
@@ -261,7 +259,7 @@ xhtml
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 kTestURI
@@ -420,7 +418,7 @@ enabled
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 kTestURI

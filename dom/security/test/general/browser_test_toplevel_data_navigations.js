@@ -145,7 +145,6 @@ kDataURI
 async
 function
 (
-browser
 )
 {
 await

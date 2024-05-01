@@ -569,8 +569,6 @@ PushServiceComponent
 .
 pushTopic
 (
-subject
-data
 )
 =
 >
@@ -640,7 +638,6 @@ uri
 {
 onHello
 (
-request
 )
 {
 this
@@ -887,7 +884,6 @@ contents
 .
 onACK
 (
-request
 )
 {
 }

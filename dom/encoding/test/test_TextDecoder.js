@@ -509,8 +509,6 @@ function
 function
 testConstructorFatalOption
 (
-data
-expectedString
 )
 {
 /

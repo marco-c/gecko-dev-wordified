@@ -193,7 +193,6 @@ return
 function
 (
 request
-response
 )
 {
 /

@@ -225,7 +225,6 @@ onversionchange
 =
 function
 (
-event
 )
 {
 info
@@ -323,7 +322,6 @@ onblocked
 =
 function
 (
-event
 )
 {
 ok
@@ -603,7 +601,6 @@ onversionchange
 =
 function
 (
-event
 )
 {
 if
@@ -754,7 +751,6 @@ onblocked
 =
 function
 (
-event
 )
 {
 ok

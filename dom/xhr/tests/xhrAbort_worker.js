@@ -261,7 +261,6 @@ onerror
 =
 function
 (
-event
 )
 {
 throw
@@ -286,7 +285,6 @@ onload
 =
 function
 (
-event
 )
 {
 throw

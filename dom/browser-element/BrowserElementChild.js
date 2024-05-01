@@ -83,7 +83,7 @@ strict
 function
 debug
 (
-msg
+_msg
 )
 {
 /
@@ -95,7 +95,7 @@ BrowserElementChild
 -
 "
 +
-msg
+_msg
 +
 "
 \

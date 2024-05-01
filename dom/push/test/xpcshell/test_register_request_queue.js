@@ -125,7 +125,6 @@ after
 function
 onHelloReceived
 (
-request
 )
 {
 this

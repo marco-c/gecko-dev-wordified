@@ -804,7 +804,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 pendingResolve
@@ -967,7 +966,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 pendingResolve
@@ -1015,7 +1013,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 pendingResolve
@@ -1134,7 +1131,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 /

@@ -186,7 +186,7 @@ https
 /
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 kTestURI
@@ -204,7 +204,8 @@ browser
 {
 }
 async
-args
+(
+)
 =
 >
 {

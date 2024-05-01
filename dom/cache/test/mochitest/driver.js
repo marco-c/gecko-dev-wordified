@@ -326,7 +326,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -388,7 +387,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var
@@ -617,7 +615,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 resolve
@@ -648,7 +645,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 var

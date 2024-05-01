@@ -485,7 +485,6 @@ onsuccess
 =
 function
 (
-event
 )
 {
 let

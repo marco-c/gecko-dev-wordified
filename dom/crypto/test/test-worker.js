@@ -197,7 +197,6 @@ value
 function
 error
 (
-test
 )
 {
 return

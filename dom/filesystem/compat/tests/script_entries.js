@@ -51,7 +51,6 @@ open
 "
 function
 (
-e
 )
 {
 tmpFile
@@ -330,7 +329,6 @@ delete
 "
 function
 (
-e
 )
 {
 tmpFile

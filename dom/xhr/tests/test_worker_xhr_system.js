@@ -75,7 +75,6 @@ onmessage
 function
 onmessage
 (
-event
 )
 {
 /

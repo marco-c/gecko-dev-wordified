@@ -893,7 +893,6 @@ true
 async
 test
 (
-browser
 )
 {
 info
@@ -1031,7 +1030,6 @@ diddestroy
 function
 onmessage
 (
-msg
 )
 {
 Services

@@ -169,8 +169,6 @@ function
 todo
 (
 condition
-name
-diag
 )
 {
 todo_check_true
@@ -613,7 +611,6 @@ event
 function
 expectUncaughtException
 (
-expecting
 )
 {
 /
@@ -1007,8 +1004,6 @@ false
 function
 addPermission
 (
-permission
-url
 )
 {
 throw
@@ -1024,8 +1019,6 @@ addPermission
 function
 removePermission
 (
-permission
-url
 )
 {
 throw
@@ -1041,7 +1034,6 @@ removePermission
 function
 allowIndexedDB
 (
-url
 )
 {
 throw
@@ -1057,7 +1049,6 @@ allowIndexedDB
 function
 disallowIndexedDB
 (
-url
 )
 {
 throw
@@ -1215,7 +1206,6 @@ event
 {
 notify
 (
-timer
 )
 {
 fun

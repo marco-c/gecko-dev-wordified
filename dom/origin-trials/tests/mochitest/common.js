@@ -203,9 +203,6 @@ port
 }
 process
 (
-inputs
-outputs
-parameters
 )
 {
 /
