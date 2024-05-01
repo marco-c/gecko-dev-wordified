@@ -133,6 +133,14 @@ h
 namespace
 mozilla
 {
+template
+<
+typename
+T
+>
+class
+Maybe
+;
 namespace
 layers
 {
@@ -370,7 +378,10 @@ ImageUtils
 (
 )
 ;
+Maybe
+<
 ImageBitmapFormat
+>
 GetFormat
 (
 )
