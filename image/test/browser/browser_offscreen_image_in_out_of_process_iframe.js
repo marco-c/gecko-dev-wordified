@@ -218,7 +218,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 parentURL
@@ -1065,10 +1065,11 @@ iframe
 observeFrameUpdate
 )
 ;
-ok
+Assert
+.
+greater
 (
 frameCount
->
 0
 "
 There
