@@ -962,7 +962,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -1025,7 +1024,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

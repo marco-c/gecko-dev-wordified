@@ -216,7 +216,6 @@ addQueryListener
 async
 onQueryResults
 (
-queryContext
 )
 {
 Assert

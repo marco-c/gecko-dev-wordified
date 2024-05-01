@@ -1718,7 +1718,6 @@ browser
 webProgress
 req
 flags
-status
 )
 {
 if

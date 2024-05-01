@@ -313,7 +313,8 @@ home
 "
 }
 async
-browser
+(
+)
 =
 >
 {

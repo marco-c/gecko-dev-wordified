@@ -254,7 +254,8 @@ blank
 "
 }
 async
-browser
+(
+)
 =
 >
 {

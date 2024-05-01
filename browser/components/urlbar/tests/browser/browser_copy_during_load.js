@@ -112,7 +112,8 @@ withNewTab
 (
 gBrowser
 async
-tab
+(
+)
 =
 >
 {

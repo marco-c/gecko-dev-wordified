@@ -313,7 +313,8 @@ blank
 "
 }
 async
-browser
+(
+)
 =
 >
 {
@@ -573,7 +574,7 @@ tab
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

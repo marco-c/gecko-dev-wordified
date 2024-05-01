@@ -505,7 +505,6 @@ validUrl
 async
 function
 (
-browser
 )
 {
 gURLBar

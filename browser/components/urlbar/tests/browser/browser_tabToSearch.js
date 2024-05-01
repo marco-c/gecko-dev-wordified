@@ -1824,7 +1824,7 @@ PROFILE
 }
 isActive
 (
-context
+_context
 )
 {
 executeSoon
@@ -1838,7 +1838,7 @@ false
 }
 isRestricting
 (
-context
+_context
 )
 {
 return
@@ -1848,8 +1848,8 @@ false
 async
 startQuery
 (
-context
-addCallback
+_context
+_addCallback
 )
 {
 /

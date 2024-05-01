@@ -247,7 +247,7 @@ testURL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 deletedURLTab
 .
@@ -257,7 +257,7 @@ testURL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 fullURLTab
 .
@@ -267,7 +267,7 @@ testURL
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 partialURLTab
 .
@@ -474,10 +474,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

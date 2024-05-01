@@ -213,7 +213,7 @@ desktop
 }
 remoteClientExists
 (
-id
+_id
 )
 {
 return
@@ -3959,8 +3959,6 @@ fill
 map
 (
 (
-e
-i
 )
 =
 >

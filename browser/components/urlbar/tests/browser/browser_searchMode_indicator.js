@@ -1294,7 +1294,8 @@ example
 com
 "
 async
-browser
+(
+)
 =
 >
 {
@@ -2403,7 +2404,6 @@ robots
 async
 function
 (
-browser
 )
 {
 await

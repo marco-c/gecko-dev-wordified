@@ -3417,8 +3417,8 @@ result
 }
 getViewUpdate
 (
-result
-idsByName
+_result
+_idsByName
 )
 {
 return
@@ -3605,8 +3605,8 @@ TestHighlightProvider
 {
 getViewUpdate
 (
-result
-idsByName
+_result
+_idsByName
 )
 {
 return
@@ -4824,7 +4824,7 @@ onEngagement
 state
 queryContext
 details
-controller
+_controller
 )
 {
 if

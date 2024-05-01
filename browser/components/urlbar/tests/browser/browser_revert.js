@@ -50,7 +50,6 @@ com
 async
 function
 (
-browser
 )
 {
 let

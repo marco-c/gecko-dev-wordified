@@ -47,7 +47,6 @@ async
 function
 checkURLBarValueStays
 (
-browser
 )
 {
 gURLBar

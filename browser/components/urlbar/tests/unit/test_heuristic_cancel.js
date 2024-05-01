@@ -765,9 +765,6 @@ observe
 =
 async
 (
-subject
-topic
-data
 )
 =
 >

@@ -427,7 +427,6 @@ robots
 async
 function
 (
-browser
 )
 {
 await
@@ -725,7 +724,6 @@ robots
 async
 function
 (
-browser
 )
 {
 await
@@ -1063,7 +1061,6 @@ robots
 async
 function
 (
-browser
 )
 {
 await
@@ -1317,7 +1314,6 @@ robots
 async
 function
 (
-browser
 )
 {
 await
@@ -1561,7 +1557,6 @@ robots
 async
 function
 (
-browser
 )
 {
 await
@@ -1750,7 +1745,6 @@ robots
 async
 function
 (
-browser
 )
 {
 await
@@ -1952,7 +1946,6 @@ robots
 async
 function
 (
-browser
 )
 {
 let
@@ -2180,7 +2173,6 @@ robots
 async
 function
 (
-browser
 )
 {
 let
@@ -2562,7 +2554,6 @@ robots
 async
 function
 (
-browser
 )
 {
 await
@@ -3063,7 +3054,6 @@ robots
 async
 function
 (
-browser
 )
 {
 let

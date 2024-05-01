@@ -396,7 +396,8 @@ tab
 let
 onTabSelect
 =
-event
+(
+)
 =
 >
 {

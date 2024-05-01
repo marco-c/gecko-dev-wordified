@@ -492,11 +492,6 @@ UrlbarSearchUtils
 enginesForDomainPrefix
 (
 token
-{
-onlyEnabled
-:
-true
-}
 )
 ;
 Assert
@@ -526,11 +521,6 @@ UrlbarSearchUtils
 enginesForDomainPrefix
 (
 token
-{
-onlyEnabled
-:
-true
-}
 )
 ;
 Assert

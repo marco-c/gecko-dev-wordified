@@ -799,7 +799,8 @@ waitForLoad
 false
 }
 async
-browser
+(
+)
 =
 >
 {
@@ -2099,7 +2100,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .

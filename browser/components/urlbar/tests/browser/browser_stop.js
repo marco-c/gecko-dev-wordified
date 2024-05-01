@@ -348,7 +348,6 @@ browser
 webProgress
 request
 stateFlags
-status
 )
 {
 if

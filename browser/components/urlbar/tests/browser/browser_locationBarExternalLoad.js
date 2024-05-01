@@ -278,7 +278,6 @@ testURL
 (
 url
 loadFunc
-endFunc
 )
 {
 let
@@ -388,7 +387,6 @@ gMultiProcessBrowser
 async
 function
 (
-arg
 )
 {
 Assert

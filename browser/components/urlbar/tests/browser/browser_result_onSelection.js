@@ -283,8 +283,6 @@ priority
 onSelection
 :
 (
-result
-element
 )
 =
 >

@@ -296,7 +296,6 @@ withNewTab
 TEST_URL
 function
 (
-browser
 )
 {
 info
@@ -408,7 +407,6 @@ withNewTab
 TEST_URL
 function
 (
-browser
 )
 {
 /

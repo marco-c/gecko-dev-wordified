@@ -139,7 +139,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {
@@ -822,7 +823,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {
@@ -862,7 +864,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {
@@ -916,7 +919,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {
@@ -960,7 +964,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {
@@ -1121,7 +1126,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {
@@ -1240,7 +1246,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {
@@ -1440,7 +1447,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {
@@ -1705,7 +1713,8 @@ await
 doTest
 (
 async
-browser
+(
+)
 =
 >
 {

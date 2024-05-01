@@ -196,8 +196,8 @@ true
 }
 getViewUpdate
 (
-result
-idsByName
+_result
+_idsByName
 )
 {
 return
