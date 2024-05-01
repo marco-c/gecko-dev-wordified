@@ -50,8 +50,6 @@ addObserver
 function
 observer
 (
-subject
-topic
 )
 {
 Services

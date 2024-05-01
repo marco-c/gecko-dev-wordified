@@ -1271,7 +1271,6 @@ privacy
 async
 function
 (
-browser
 )
 {
 const

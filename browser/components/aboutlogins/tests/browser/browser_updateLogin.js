@@ -1762,7 +1762,8 @@ TEST_LOGIN1
 )
 ]
 async
-login
+(
+)
 =
 >
 {
@@ -2233,7 +2234,8 @@ TEST_LOGIN1
 )
 ]
 async
-login
+(
+)
 =
 >
 {

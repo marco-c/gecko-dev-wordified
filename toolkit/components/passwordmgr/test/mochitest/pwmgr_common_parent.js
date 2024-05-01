@@ -745,10 +745,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -874,7 +871,6 @@ promptShown
 (
 subject
 topic
-data
 )
 {
 Services

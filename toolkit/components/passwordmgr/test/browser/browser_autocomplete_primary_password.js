@@ -826,7 +826,6 @@ dialogObserver
 (
 subject
 topic
-data
 )
 {
 Assert

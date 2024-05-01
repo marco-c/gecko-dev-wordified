@@ -673,7 +673,6 @@ event
 /
 handleInput
 (
-event
 )
 {
 }
@@ -828,7 +827,6 @@ validated
 /
 updateCustomValidity
 (
-field
 )
 {
 }

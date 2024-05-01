@@ -222,7 +222,6 @@ aPageFile
 async
 function
 (
-browser
 )
 {
 Assert

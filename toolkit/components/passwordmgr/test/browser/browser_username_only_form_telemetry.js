@@ -52,7 +52,6 @@ setupForms
 (
 numUsernameOnly
 numBasic
-numOther
 )
 {
 const

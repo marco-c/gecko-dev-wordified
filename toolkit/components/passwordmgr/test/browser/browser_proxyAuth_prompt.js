@@ -98,10 +98,6 @@ nsIProtocolProxyCallback
 )
 onProxyAvailable
 (
-req
-uri
-pi
-status
 )
 {
 class
@@ -109,7 +105,6 @@ ProxyChannelListener
 {
 onStartRequest
 (
-request
 )
 {
 resolve
@@ -120,8 +115,6 @@ proxyChannel
 }
 onStopRequest
 (
-request
-status
 )
 {
 }

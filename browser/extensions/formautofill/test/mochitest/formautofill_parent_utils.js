@@ -616,8 +616,6 @@ storageChangePromise
 async
 operateAddress
 (
-type
-msgData
 )
 {
 await
@@ -636,8 +634,6 @@ arguments
 async
 operateCreditCard
 (
-type
-msgData
 )
 {
 await
@@ -1243,7 +1239,8 @@ FormAutofillTest
 :
 CleanUpAddresses
 "
-msg
+(
+)
 =
 >
 {
@@ -1336,7 +1333,8 @@ FormAutofillTest
 :
 CleanUpCreditCards
 "
-msg
+(
+)
 =
 >
 {
@@ -1357,7 +1355,8 @@ FormAutofillTest
 :
 CanTestOSKeyStoreLogin
 "
-msg
+(
+)
 =
 >
 {

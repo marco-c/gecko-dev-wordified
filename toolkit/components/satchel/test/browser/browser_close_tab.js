@@ -131,7 +131,6 @@ url
 async
 function
 (
-browser
 )
 {
 }

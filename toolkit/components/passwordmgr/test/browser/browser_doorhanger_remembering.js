@@ -921,10 +921,7 @@ LoginStats
 :
 NewSavedPassword
 "
-(
 subject
-data
-)
 =
 >
 subject
@@ -4138,10 +4135,7 @@ LoginStats
 :
 LoginUpdateSaved
 "
-(
 subject
-data
-)
 =
 >
 subject
@@ -7535,7 +7529,6 @@ html
 async
 function
 (
-fieldValues
 )
 {
 info
@@ -7734,7 +7727,6 @@ html
 async
 function
 (
-fieldValues
 )
 {
 info

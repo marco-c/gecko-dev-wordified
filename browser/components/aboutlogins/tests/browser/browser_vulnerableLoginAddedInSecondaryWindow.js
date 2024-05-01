@@ -1242,10 +1242,8 @@ find
 (
 (
 [
-guid
 {
 login
-listItem
 }
 ]
 )

@@ -1681,7 +1681,6 @@ async
 function
 ensureNoDoorhanger
 (
-browser
 )
 {
 await
@@ -2024,10 +2023,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

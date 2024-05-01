@@ -198,7 +198,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -561,7 +561,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -690,7 +690,6 @@ load
 "
 function
 (
-e
 )
 {
 resolve
@@ -865,7 +864,6 @@ load
 "
 function
 (
-e
 )
 {
 resolve

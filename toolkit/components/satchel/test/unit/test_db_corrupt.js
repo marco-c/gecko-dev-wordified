@@ -411,7 +411,8 @@ run_next_test
 .
 catch
 (
-error
+(
+)
 =
 >
 {

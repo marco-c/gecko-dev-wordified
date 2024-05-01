@@ -77,7 +77,8 @@ onUpdateAvailable
 .
 addListener
 (
-details
+(
+)
 =
 >
 {

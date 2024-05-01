@@ -593,7 +593,6 @@ event
 /
 handleInput
 (
-event
 )
 {
 this

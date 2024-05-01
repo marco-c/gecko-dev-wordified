@@ -4729,7 +4729,6 @@ checkEmptyPasswordField
 (
 [
 passwordSelector
-usernameSelector
 ]
 )
 {

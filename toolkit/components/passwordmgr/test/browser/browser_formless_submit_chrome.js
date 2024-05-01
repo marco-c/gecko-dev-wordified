@@ -423,7 +423,6 @@ withTestPage
 (
 function
 (
-aBrowser
 )
 {
 gURLBar
@@ -518,7 +517,7 @@ going
 back
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aBrowser
 "
@@ -914,7 +913,7 @@ going
 back
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aBrowser
 "

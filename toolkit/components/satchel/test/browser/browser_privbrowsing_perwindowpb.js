@@ -154,7 +154,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testURI
@@ -262,7 +262,6 @@ function
 testOnWindow
 (
 aOptions
-aCallback
 )
 {
 return
