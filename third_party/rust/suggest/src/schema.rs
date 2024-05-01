@@ -151,7 +151,7 @@ VERSION
 :
 u32
 =
-13
+14
 ;
 /
 /
@@ -513,6 +513,10 @@ icon_id
 TEXT
 PRIMARY
 KEY
+score
+REAL
+NOT
+NULL
 record_id
 TEXT
 NOT
@@ -751,7 +755,7 @@ version
 .
 .
 =
-12
+13
 =
 >
 {
