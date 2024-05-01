@@ -215,10 +215,6 @@ pocketNewtab
 "
     
 "
-reportBrokenSite
-"
-    
-"
 saveToPocket
 "
     
