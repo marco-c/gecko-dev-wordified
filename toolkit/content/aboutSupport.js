@@ -8071,6 +8071,16 @@ getCapabilities
 (
 rvArray
 )
+null
+{
+"
+colspan
+"
+:
+"
+4
+"
+}
 )
 .
 new
