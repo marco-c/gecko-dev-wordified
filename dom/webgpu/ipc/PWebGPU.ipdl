@@ -530,6 +530,17 @@ buf
 )
 ;
 async
+ComputePass
+(
+RawId
+selfId
+RawId
+aDeviceId
+ByteBuf
+buf
+)
+;
+async
 BumpImplicitBindGroupLayout
 (
 RawId
