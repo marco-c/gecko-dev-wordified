@@ -1050,6 +1050,7 @@ these
 tests
 .
 *
+*
 param
 {
 string
@@ -2234,6 +2235,7 @@ it
 is
 open
 .
+*
 *
 param
 {
@@ -3727,9 +3729,10 @@ page
 and
 run
 *
+*
 param
 {
-Object
+object
 }
 options
 -
@@ -4763,7 +4766,7 @@ autoDownloadFromRemoteSettings
 *
 param
 {
-Object
+object
 [
 ]
 }
@@ -5587,7 +5590,7 @@ assertVisibility
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -5782,7 +5785,7 @@ hidden
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -6409,7 +6412,7 @@ metric
 *
 param
 {
-Object
+object
 }
 counter
 -
@@ -6421,7 +6424,7 @@ object
 *
 param
 {
-Object
+object
 }
 expectedCount
 -
@@ -6535,7 +6538,7 @@ metric
 *
 param
 {
-Object
+object
 }
 event
 -
@@ -6547,7 +6550,7 @@ object
 *
 param
 {
-Object
+object
 }
 expectations
 -
@@ -6608,7 +6611,7 @@ param
 {
 Array
 <
-function
+Function
 >
 }
 [
@@ -6638,7 +6641,7 @@ param
 {
 Array
 <
-function
+Function
 >
 }
 [
@@ -7177,7 +7180,7 @@ metric
 *
 param
 {
-Object
+object
 }
 rate
 -
@@ -7189,7 +7192,7 @@ object
 *
 param
 {
-Object
+object
 }
 expectations
 -
@@ -7634,6 +7637,7 @@ about
 :
 preferences
 *
+*
 param
 {
 string
@@ -7664,7 +7668,7 @@ UI
 *
 returns
 {
-Object
+object
 }
 The
 dialog
@@ -7723,7 +7727,7 @@ close
 *
 param
 {
-Object
+object
 }
 dialogWindow
 *
