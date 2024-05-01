@@ -2999,6 +2999,12 @@ IsHardwareDecryptionSupported
 (
 mConfig
 )
+|
+|
+DoesKeySystemSupportHardwareDecryption
+(
+mKeySystem
+)
 ;
 EME_LOG
 (

@@ -628,6 +628,15 @@ MediaKeySystemConfiguration
 aConfigs
 )
 ;
+bool
+DoesKeySystemSupportHardwareDecryption
+(
+const
+nsAString
+&
+aKeySystem
+)
+;
 }
 /
 /
