@@ -73,6 +73,12 @@ from
 gecko_taskgraph
 import
 GECKO
+from
+gecko_taskgraph
+.
+files_changed
+import
+get_locally_changed_files
 logger
 =
 logging
@@ -126,6 +132,17 @@ bool
 str
 ]
 )
+    
+Required
+(
+"
+files_changed
+"
+)
+:
+[
+str
+]
     
 Required
 (
@@ -919,6 +936,18 @@ docker
 image
 "
 ]
+        
+"
+files_changed
+"
+:
+sorted
+(
+get_locally_changed_files
+(
+repo_root
+)
+)
         
 "
 head_repository
