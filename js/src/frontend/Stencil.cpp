@@ -4311,7 +4311,7 @@ hasSyntacticEnvironment
 )
 ;
 auto
-setCacthAll
+setCatchAll
 =
 [
 &
@@ -4521,7 +4521,7 @@ funHasExtensibleScope
 )
 )
 {
-setCacthAll
+setCatchAll
 (
 NameLocation
 :
@@ -5373,7 +5373,7 @@ ScopeKind
 NonSyntactic
 )
 {
-setCacthAll
+setCatchAll
 (
 NameLocation
 :
@@ -5391,7 +5391,7 @@ return
 ;
 }
 }
-setCacthAll
+setCatchAll
 (
 NameLocation
 :
@@ -5409,7 +5409,7 @@ ScopeKind
 :
 Global
 :
-setCacthAll
+setCatchAll
 (
 NameLocation
 :
@@ -5437,7 +5437,7 @@ ScopeKind
 :
 NonSyntactic
 :
-setCacthAll
+setCatchAll
 (
 NameLocation
 :
