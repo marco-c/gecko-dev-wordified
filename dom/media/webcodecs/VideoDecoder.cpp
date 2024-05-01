@@ -6338,7 +6338,9 @@ MaybeRejectWithTypeError
 nsPrintfCString
 (
 "
-VideoDecoderConfig
+IsConfigSupported
+:
+config
 is
 invalid
 :
