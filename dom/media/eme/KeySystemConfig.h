@@ -290,6 +290,16 @@ _ns
 static
 constexpr
 auto
+EME_CODEC_AV1
+=
+"
+av1
+"
+_ns
+;
+static
+constexpr
+auto
 EME_CODEC_VP8
 =
 "
