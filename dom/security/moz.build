@@ -123,6 +123,11 @@ featurepolicy
 "
 sanitizer
 "
+"
+trusted
+-
+types
+"
 ]
 EXPORTS
 .
