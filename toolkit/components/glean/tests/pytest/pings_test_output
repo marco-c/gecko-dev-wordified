@@ -192,6 +192,7 @@ baseline
 true
 false
 true
+true
 vec
 !
 [
@@ -333,6 +334,7 @@ request
 true
 true
 true
+true
 vec
 !
 [
@@ -417,6 +419,7 @@ events
 "
 true
 false
+true
 true
 vec
 !
@@ -603,6 +606,7 @@ metrics
 "
 true
 false
+true
 true
 vec
 !
