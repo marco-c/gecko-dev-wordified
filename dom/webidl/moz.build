@@ -3520,11 +3520,6 @@ DOMRectList
 webidl
 "
 "
-DOMRequest
-.
-webidl
-"
-"
 DOMStringList
 .
 webidl

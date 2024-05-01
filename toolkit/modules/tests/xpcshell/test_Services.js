@@ -192,16 +192,6 @@ nsIProperties
 checkService
 (
 "
-DOMRequest
-"
-Ci
-.
-nsIDOMRequestService
-)
-;
-checkService
-(
-"
 domStorageManager
 "
 Ci
