@@ -66,6 +66,10 @@ pushes
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 datetime
 import
@@ -832,6 +836,7 @@ PR_TITLE
 :
         
 print
+(
 "
 Pull
 request
@@ -839,11 +844,14 @@ title
 contains
 "
 SKIP_TASKS_TRIGGER
+)
         
 print
+(
 "
 Exit
 "
+)
         
 exit
 (
@@ -911,6 +919,7 @@ modules
 :
         
 print
+(
 "
 Could
 not
@@ -920,6 +929,7 @@ names
 from
 gradle
 "
+)
         
 sys
 .
