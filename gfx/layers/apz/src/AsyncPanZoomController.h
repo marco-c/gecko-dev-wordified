@@ -9029,6 +9029,12 @@ GetCurrentScrollRangeInCssPixels
 )
 const
 ;
+bool
+AllowOneTouchPinch
+(
+)
+const
+;
 private
 :
 /
