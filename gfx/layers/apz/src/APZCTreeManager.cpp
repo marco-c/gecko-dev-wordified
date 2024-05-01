@@ -925,6 +925,8 @@ APZTestData
 aTestData
 uint32_t
 aPaintSequence
+bool
+aIsTestLoggingEnabled
 )
 :
 mIsFirstPaint
@@ -939,6 +941,7 @@ mPaintLogger
 (
 aTestData
 aPaintSequence
+aIsTestLoggingEnabled
 )
 {
 CompositorBridgeParent
@@ -3171,14 +3174,20 @@ testData
 =
 nullptr
 ;
-if
-(
+const
+bool
+testLoggingEnabled
+=
 StaticPrefs
 :
 :
 apz_test_logging_enabled
 (
 )
+;
+if
+(
+testLoggingEnabled
 )
 {
 MutexAutoLock
@@ -3253,6 +3262,7 @@ aIsFirstPaint
 aOriginatingLayersId
 testData
 aPaintSequenceNumber
+testLoggingEnabled
 )
 ;
 /

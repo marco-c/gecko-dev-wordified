@@ -1158,6 +1158,8 @@ APZTestData
 aTestData
 SequenceNumber
 aPaintSequenceNumber
+bool
+aIsTestLoggingEnabled
 )
 :
 mTestData
@@ -1175,12 +1177,7 @@ MOZ_ASSERT
 aTestData
 |
 |
-StaticPrefs
-:
-:
-apz_test_logging_enabled
-(
-)
+aIsTestLoggingEnabled
 "
 don
 '
