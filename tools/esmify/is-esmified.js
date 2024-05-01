@@ -274,7 +274,7 @@ uri_map
 {
 console
 .
-log
+warn
 (
 WARNING
 :

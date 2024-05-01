@@ -2987,7 +2987,7 @@ e
 {
 console
 .
-log
+error
 (
 "
 TOML
