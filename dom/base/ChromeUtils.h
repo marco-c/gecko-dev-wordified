@@ -818,16 +818,6 @@ aB
 return
 aA
 .
-mInIsolatedMozBrowser
-=
-=
-aB
-.
-mInIsolatedMozBrowser
-&
-&
-aA
-.
 mUserContextId
 =
 =
