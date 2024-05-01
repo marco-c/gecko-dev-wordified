@@ -564,14 +564,6 @@ transport
 {
 CreateSenderCall
 (
-CallConfig
-(
-send_event_log_
-.
-get
-(
-)
-)
 )
 ;
 sender_call_
