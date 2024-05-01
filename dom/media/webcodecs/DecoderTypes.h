@@ -964,6 +964,9 @@ const
 ConfigType
 &
 aConfig
+nsCString
+&
+aErrorMessage
 )
 ;
 static
