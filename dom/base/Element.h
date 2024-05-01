@@ -7818,6 +7818,13 @@ Element
 aElement
 )
 ;
+void
+ClearExplicitlySetAttrElement
+(
+nsAtom
+*
+)
+;
 PseudoStyleType
 GetPseudoElementType
 (
