@@ -233,7 +233,6 @@ sendResponse
 (
 id
 response
-exception
 )
 {
 Promise

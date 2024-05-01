@@ -1192,7 +1192,6 @@ onEvent
 (
 event
 data
-callback
 )
 {
 listener

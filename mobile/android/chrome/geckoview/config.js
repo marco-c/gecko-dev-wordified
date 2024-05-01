@@ -1095,7 +1095,6 @@ create
 function
 AC_create
 (
-aEvent
 )
 {
 if
@@ -2411,7 +2410,6 @@ onScroll
 function
 AC_onScroll
 (
-aEvent
 )
 {
 if

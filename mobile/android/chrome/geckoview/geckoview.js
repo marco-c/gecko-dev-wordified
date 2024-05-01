@@ -1497,7 +1497,6 @@ onEvent
 (
 aEvent
 aData
-aCallback
 )
 {
 debug
@@ -4493,7 +4492,8 @@ addEventListener
 "
 WillChangeBrowserRemoteness
 "
-event
+(
+)
 =
 >
 ModuleManager
@@ -4510,7 +4510,8 @@ addEventListener
 "
 DidChangeBrowserRemoteness
 "
-event
+(
+)
 =
 >
 ModuleManager

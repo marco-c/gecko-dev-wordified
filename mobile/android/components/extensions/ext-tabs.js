@@ -219,8 +219,6 @@ onLocationChange
 browser
 webProgress
 request
-locationURI
-flags
 )
 {
 if
@@ -655,7 +653,6 @@ onActivated
 fire
 context
 }
-params
 )
 {
 const
@@ -868,7 +865,6 @@ onUpdated
 {
 fire
 }
-params
 )
 {
 const
@@ -1856,7 +1852,8 @@ onAttached
 "
 register
 :
-fire
+(
+)
 =
 >
 {
@@ -1891,7 +1888,8 @@ onDetached
 "
 register
 :
-fire
+(
+)
 =
 >
 {
@@ -1946,7 +1944,8 @@ onReplaced
 "
 register
 :
-fire
+(
+)
 =
 >
 {
@@ -1981,7 +1980,8 @@ onMoved
 "
 register
 :
-fire
+(
+)
 =
 >
 {
@@ -2030,7 +2030,6 @@ discarded
 index
 openInReaderMode
 pinned
-title
 url
 }
 =

@@ -271,7 +271,6 @@ called
 }
 onPortMessage
 (
-holder
 )
 {
 Assert
