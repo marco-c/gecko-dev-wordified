@@ -143,7 +143,6 @@ observer
 {
 onStartRequest
 (
-request
 )
 {
 }

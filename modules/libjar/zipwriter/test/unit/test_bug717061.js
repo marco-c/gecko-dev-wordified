@@ -147,7 +147,6 @@ callback
 null
 onStartRequest
 (
-aRequest
 )
 {
 }

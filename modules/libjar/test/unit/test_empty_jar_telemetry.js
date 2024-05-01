@@ -421,7 +421,6 @@ ex
 }
 onStartRequest
 (
-request
 )
 {
 this
@@ -591,7 +590,6 @@ Listener
 (
 function
 (
-l
 )
 {
 Assert

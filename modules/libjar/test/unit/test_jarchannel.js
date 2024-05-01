@@ -281,7 +281,6 @@ ex
 }
 onStartRequest
 (
-request
 )
 {
 this
@@ -810,7 +809,6 @@ add_test
 function
 testAsyncNested
 (
-next
 )
 {
 var
@@ -1187,7 +1185,6 @@ Listener
 (
 function
 (
-l
 )
 {
 Assert
