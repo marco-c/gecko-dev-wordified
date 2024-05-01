@@ -2283,6 +2283,23 @@ py
 )
     
 "
+ts
+"
+:
+MachCommandReference
+(
+"
+tools
+/
+ts
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 uniffi
 "
 :
