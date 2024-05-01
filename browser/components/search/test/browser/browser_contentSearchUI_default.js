@@ -577,6 +577,7 @@ false
 let
 engineIcon
 =
+await
 defaultEngine
 .
 getIconURL
@@ -952,6 +953,7 @@ selectedTab
 let
 engineIcon
 =
+await
 defaultEngine
 .
 getIconURL

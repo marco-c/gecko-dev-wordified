@@ -668,6 +668,7 @@ Assert
 .
 equal
 (
+await
 matchedEngine
 .
 getIconURL
@@ -751,6 +752,7 @@ Assert
 .
 equal
 (
+await
 matchedEngine
 .
 getIconURL
@@ -1007,6 +1009,7 @@ Assert
 .
 equal
 (
+await
 matchedEngine
 .
 getIconURL
@@ -1070,6 +1073,7 @@ Assert
 .
 equal
 (
+await
 matchedEngine
 .
 getIconURL
@@ -1133,6 +1137,7 @@ Assert
 .
 equal
 (
+await
 matchedEngine
 .
 getIconURL
@@ -1261,6 +1266,7 @@ Assert
 .
 equal
 (
+await
 matchedEngine
 .
 getIconURL
@@ -1324,6 +1330,7 @@ Assert
 .
 equal
 (
+await
 matchedEngine
 .
 getIconURL
@@ -1387,6 +1394,7 @@ Assert
 .
 equal
 (
+await
 matchedEngine
 .
 getIconURL

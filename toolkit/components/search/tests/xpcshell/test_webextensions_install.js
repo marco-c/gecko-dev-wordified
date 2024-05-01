@@ -746,10 +746,13 @@ Assert
 .
 ok
 (
+(
+await
 engine
 .
 getIconURL
 (
+)
 )
 .
 endsWith
@@ -919,6 +922,7 @@ Assert
 equal
 (
 null
+await
 engine
 .
 getIconURL
@@ -1067,6 +1071,7 @@ Assert
 equal
 (
 null
+await
 engine
 .
 getIconURL
@@ -1191,6 +1196,7 @@ Assert
 .
 ok
 (
+await
 engine
 .
 getIconURL
@@ -1209,10 +1215,13 @@ Assert
 .
 ok
 (
+(
+await
 engine
 .
 getIconURL
 (
+)
 )
 .
 startsWith

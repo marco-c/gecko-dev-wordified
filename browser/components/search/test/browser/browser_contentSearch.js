@@ -2882,6 +2882,7 @@ getVisibleEngines
 let
 uri
 =
+await
 engine
 .
 getIconURL
@@ -2964,6 +2965,7 @@ engine
 let
 uriFavicon
 =
+await
 engine
 .
 getIconURL

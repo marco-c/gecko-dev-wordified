@@ -368,6 +368,7 @@ name
 let
 expectedImage
 =
+await
 originalEngine
 .
 getIconURL
@@ -387,6 +388,7 @@ name
 ;
 expectedImage
 =
+await
 originalPrivateEngine
 .
 getIconURL

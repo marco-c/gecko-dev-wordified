@@ -797,6 +797,7 @@ equal
 image
 .
 src
+await
 engine
 .
 getIconURL

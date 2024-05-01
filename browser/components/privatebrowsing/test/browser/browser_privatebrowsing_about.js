@@ -406,6 +406,7 @@ aliases
 ;
 expectedIconURL
 =
+await
 privateEngine
 .
 getIconURL
