@@ -415,7 +415,5 @@ TEST_DIRS
 [
 "
 tests
-/
-gtest
 "
 ]
