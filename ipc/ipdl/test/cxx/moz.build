@@ -122,11 +122,6 @@ IPDLUnitTestUtils
 h
 "
 "
-TestHighestPrio
-.
-h
-"
-"
 TestInterruptErrorCleanup
 .
 h
@@ -261,11 +256,6 @@ SOURCES
 +
 =
 [
-"
-TestHighestPrio
-.
-cpp
-"
 "
 TestInterruptErrorCleanup
 .
@@ -424,11 +414,6 @@ IPDL_SOURCES
 [
 "
 PTestHandle
-.
-ipdl
-"
-"
-PTestHighestPrio
 .
 ipdl
 "
