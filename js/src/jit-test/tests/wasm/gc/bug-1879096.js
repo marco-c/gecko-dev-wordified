@@ -10,7 +10,9 @@ test
 also
 =
 -
-P
+-
+setpref
+=
 wasm_test_serialization
 ;
 skip

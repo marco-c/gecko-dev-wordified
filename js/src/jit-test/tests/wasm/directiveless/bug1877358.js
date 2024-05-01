@@ -6,12 +6,10 @@ jit
 test
 |
 -
--
-no
--
-wasm
--
-exceptions
+P
+wasm_exceptions
+=
+false
 ;
 include
 :
