@@ -121,10 +121,11 @@ mozilla
 -
 mobile
 /
-android
+firefox
 -
-components
+android
 "
+    
 "
 https
 :
@@ -140,9 +141,9 @@ releng
 /
 staging
 -
-android
+firefox
 -
-components
+android
 "
 )
 def
