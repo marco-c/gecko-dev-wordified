@@ -361,7 +361,7 @@ removeEditor
 )
 ;
 }
-getEditor
+getHeadlessEditor
 (
 )
 {
@@ -673,7 +673,7 @@ editor
 =
 this
 .
-getEditor
+getHeadlessEditor
 (
 )
 ;
