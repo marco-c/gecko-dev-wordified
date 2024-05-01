@@ -1704,6 +1704,19 @@ git
 )
                 
 "
+-
+c
+"
+                
+"
+fetch
+.
+prune
+=
+true
+"
+                
+"
 clone
 "
                 
