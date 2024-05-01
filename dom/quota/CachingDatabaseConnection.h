@@ -171,6 +171,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -500,7 +507,7 @@ const
 #
 ifdef
 MOZ_THREAD_SAFETY_OWNERSHIP_CHECKS_SUPPORTED
-mOwningThread
+mOwningEventTarget
 -
 >
 AssertOwnership
@@ -754,9 +761,9 @@ MOZ_THREAD_SAFETY_OWNERSHIP_CHECKS_SUPPORTED
 LazyInitializedOnce
 <
 const
-nsAutoOwningThread
+nsAutoOwningEventTarget
 >
-mOwningThread
+mOwningEventTarget
 ;
 #
 endif

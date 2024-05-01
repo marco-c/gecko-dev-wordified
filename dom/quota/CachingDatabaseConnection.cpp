@@ -174,9 +174,9 @@ aStorageConnection
 #
 ifdef
 MOZ_THREAD_SAFETY_OWNERSHIP_CHECKS_SUPPORTED
-mOwningThread
+mOwningEventTarget
 {
-nsAutoOwningThread
+nsAutoOwningEventTarget
 {
 }
 }
@@ -213,7 +213,7 @@ aStorageConnection
 #
 ifdef
 MOZ_THREAD_SAFETY_OWNERSHIP_CHECKS_SUPPORTED
-mOwningThread
+mOwningEventTarget
 .
 init
 (
