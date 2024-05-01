@@ -3464,12 +3464,10 @@ DebugOnly
 bool
 >
 hugeMemory
-const
 jit
 :
 :
 Synchronization
-&
 sync
 =
 jit
@@ -3785,12 +3783,10 @@ type
 )
 ;
 }
-const
 jit
 :
 :
 Synchronization
-&
 sync
 (
 )

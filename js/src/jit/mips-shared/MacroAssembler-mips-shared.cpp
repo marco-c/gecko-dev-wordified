@@ -13834,9 +13834,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 T
@@ -14385,9 +14383,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 Address
@@ -14435,9 +14431,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -14612,9 +14606,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 T
@@ -15114,9 +15106,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 Address
@@ -15161,9 +15151,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -15329,9 +15317,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -15989,9 +15975,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -16039,9 +16023,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -16216,9 +16198,7 @@ Scalar
 :
 Type
 type
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -16989,9 +16969,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 T
@@ -17086,9 +17064,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 Address
@@ -17138,9 +17114,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -17196,9 +17170,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 T
@@ -17289,9 +17261,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 Address
@@ -17338,9 +17308,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 const
 BaseIndex
@@ -17393,9 +17361,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -17490,9 +17456,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -17542,9 +17506,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -17594,9 +17556,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 AtomicOp
 op
@@ -17641,9 +17601,7 @@ Scalar
 :
 Type
 arrayType
-const
 Synchronization
-&
 sync
 AtomicOp
 op

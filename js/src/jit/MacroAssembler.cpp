@@ -52299,9 +52299,7 @@ MacroAssembler
 :
 memoryBarrierBefore
 (
-const
 Synchronization
-&
 sync
 )
 {
@@ -52319,9 +52317,7 @@ MacroAssembler
 :
 memoryBarrierAfter
 (
-const
 Synchronization
-&
 sync
 )
 {

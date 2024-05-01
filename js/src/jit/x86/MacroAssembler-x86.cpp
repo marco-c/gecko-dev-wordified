@@ -11200,9 +11200,7 @@ MacroAssembler
 :
 atomicLoad64
 (
-const
 Synchronization
-&
 const
 Address
 &
@@ -11230,9 +11228,7 @@ MacroAssembler
 :
 atomicLoad64
 (
-const
 Synchronization
-&
 const
 BaseIndex
 &
@@ -11260,9 +11256,7 @@ MacroAssembler
 :
 atomicStore64
 (
-const
 Synchronization
-&
 const
 Address
 &
@@ -11290,9 +11284,7 @@ MacroAssembler
 :
 atomicStore64
 (
-const
 Synchronization
-&
 const
 BaseIndex
 &
@@ -11320,9 +11312,7 @@ MacroAssembler
 :
 compareExchange64
 (
-const
 Synchronization
-&
 const
 Address
 &
@@ -11353,9 +11343,7 @@ MacroAssembler
 :
 compareExchange64
 (
-const
 Synchronization
-&
 const
 BaseIndex
 &
@@ -11386,9 +11374,7 @@ MacroAssembler
 :
 atomicExchange64
 (
-const
 Synchronization
-&
 const
 Address
 &
@@ -11416,9 +11402,7 @@ MacroAssembler
 :
 atomicExchange64
 (
-const
 Synchronization
-&
 const
 BaseIndex
 &
@@ -11446,9 +11430,7 @@ MacroAssembler
 :
 atomicFetchOp64
 (
-const
 Synchronization
-&
 AtomicOp
 op
 const
@@ -11484,9 +11466,7 @@ MacroAssembler
 :
 atomicFetchOp64
 (
-const
 Synchronization
-&
 AtomicOp
 op
 const
