@@ -790,6 +790,8 @@ fetch
     
 wait_for_event
     
+wait_for_future_safe
+    
 top_context
 )
 :
@@ -1091,6 +1093,20 @@ blocked_url
         
 )
         
+network_event
+=
+wait_for_event
+(
+f
+"
+network
+.
+{
+phase
+}
+"
+)
+        
 if
 navigate
 :
@@ -1109,7 +1125,7 @@ navigate
                     
 context
 =
-top_context
+context
 [
 "
 context
@@ -1138,22 +1154,18 @@ ensure_future
 fetch
 (
 blocked_url
+context
+=
+context
 )
 )
         
 event
 =
 await
-wait_for_event
+wait_for_future_safe
 (
-f
-"
-network
-.
-{
-phase
-}
-"
+network_event
 )
         
 request
