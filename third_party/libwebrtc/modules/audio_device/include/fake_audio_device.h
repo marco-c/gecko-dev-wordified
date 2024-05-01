@@ -183,7 +183,7 @@ const
 override
 {
 }
-rtc
+webrtc
 :
 :
 RefCountReleaseStatus
@@ -194,7 +194,7 @@ const
 override
 {
 return
-rtc
+webrtc
 :
 :
 RefCountReleaseStatus

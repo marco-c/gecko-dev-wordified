@@ -357,9 +357,6 @@ override
 ;
 MOCK_METHOD
 (
-rtc
-:
-:
 RefCountReleaseStatus
 Release
 (

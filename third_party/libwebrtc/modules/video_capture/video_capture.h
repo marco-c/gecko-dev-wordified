@@ -217,9 +217,6 @@ class
 VideoCaptureModule
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public
@@ -451,6 +448,11 @@ productUniqueIdUTF8Length
 pid_t
 *
 pid
+=
+0
+bool
+*
+deviceIsPlaceholder
 =
 0
 )

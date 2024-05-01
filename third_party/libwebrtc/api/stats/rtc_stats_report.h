@@ -963,9 +963,6 @@ protected
 :
 friend
 class
-rtc
-:
-:
 RefCountedNonVirtual
 <
 RTCStatsReport
