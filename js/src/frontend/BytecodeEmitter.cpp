@@ -17183,6 +17183,12 @@ case
 ParseNodeKind
 :
 :
+ArgumentsLength
+:
+case
+ParseNodeKind
+:
+:
 DotExpr
 :
 {
@@ -18221,6 +18227,12 @@ false
 break
 ;
 }
+case
+ParseNodeKind
+:
+:
+ArgumentsLength
+:
 case
 ParseNodeKind
 :
