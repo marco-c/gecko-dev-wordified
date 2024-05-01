@@ -170,9 +170,7 @@ ArchMeasurement
 doReturn
 (
 "
-armeabi
--
-v7a
+x86_64
 "
 )
 .
@@ -219,9 +217,7 @@ value
 assertEquals
 (
 "
-armeabi
--
-v7a
+x86_64
 "
 architecture
 )
@@ -249,7 +245,9 @@ ArchMeasurement
 assertEquals
 (
 "
-unknown
+armeabi
+-
+v7a
 "
 measurement
 .
