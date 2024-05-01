@@ -16397,15 +16397,6 @@ nscoord
 aWidth
 )
 {
-if
-(
-!
-aLength
-)
-{
-return
-;
-}
 /
 /
 Get
