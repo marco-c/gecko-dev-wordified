@@ -5128,6 +5128,10 @@ friend
 class
 ArrayBufferObject
 ;
+friend
+class
+ResizableArrayBufferObject
+;
 bool
 addView
 (
