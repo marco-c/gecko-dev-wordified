@@ -7836,6 +7836,10 @@ nsAString
 aImageReferrerPolicy
 bool
 aLinkPreload
+const
+nsAString
+&
+aFetchPriority
 )
 {
 nsCOMPtr
@@ -7909,6 +7913,7 @@ aImageReferrerPolicy
 )
 isImgSet
 aLinkPreload
+aFetchPriority
 )
 ;
 }

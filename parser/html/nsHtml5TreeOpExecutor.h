@@ -1138,6 +1138,10 @@ nsAString
 aImageReferrerPolicy
 bool
 aLinkPreload
+const
+nsAString
+&
+aFetchPriority
 )
 ;
 void
