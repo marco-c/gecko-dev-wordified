@@ -11639,6 +11639,19 @@ main_platform
 android
 "
         
+elif
+build_platform
+.
+startswith
+(
+"
+ios
+"
+)
+:
+            
+return
+        
 else
 :
             
@@ -11663,9 +11676,12 @@ linux
 '
 win
 '
-or
 '
 android
+'
+or
+'
+ios
 '
 "
 .

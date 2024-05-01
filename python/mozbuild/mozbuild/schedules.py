@@ -349,6 +349,10 @@ macosx
 windows
 "
     
+"
+ios
+"
+    
 #
 broad
 test
