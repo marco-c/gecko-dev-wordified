@@ -1058,6 +1058,8 @@ tag
 attribute
 value
 expected
+elementNamespace
+attributeNamespace
 )
 {
 let
@@ -1065,8 +1067,9 @@ elem
 =
 document
 .
-createElement
+createElementNS
 (
+elementNamespace
 tag
 )
 ;
@@ -1074,7 +1077,7 @@ elem
 .
 setAttributeNS
 (
-namespace
+attributeNamespace
 attribute
 value
 )
@@ -1086,7 +1089,7 @@ elem
 .
 getAttributeNodeNS
 (
-namespace
+attributeNamespace
 attribute
 )
 ;
