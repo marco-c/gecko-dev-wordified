@@ -4189,8 +4189,9 @@ loc
 bool
 transpose
 const
-RawBuffer
+Span
 <
+const
 webgl
 :
 :
@@ -4209,10 +4210,6 @@ UniformData
 loc
 transpose
 data
-.
-Data
-(
-)
 )
 ;
 }

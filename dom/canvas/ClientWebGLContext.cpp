@@ -29888,7 +29888,7 @@ const
 auto
 range
 =
-Range
+Span
 {
 begin
 availCount
@@ -29911,10 +29911,7 @@ nogc
 )
 locId
 transpose
-RawBuffer
-{
 range
-}
 )
 ;
 }
