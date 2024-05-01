@@ -1869,10 +1869,6 @@ dropdown
 value
 )
 ;
-setLogModules
-(
-)
-;
 Services
 .
 prefs
@@ -2786,10 +2782,6 @@ true
 someElementsDisabled
 =
 true
-;
-setLogModules
-(
-)
 ;
 updateLogModules
 (
