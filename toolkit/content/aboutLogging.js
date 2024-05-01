@@ -608,6 +608,9 @@ nsSocketTransport
 nsHostResolver
 :
 5
+EarlyHint
+:
+5
 "
 l10nIds
 :
