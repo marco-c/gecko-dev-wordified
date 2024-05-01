@@ -1068,16 +1068,6 @@ LocalAccessible
 *
 actionAcc
 =
-const_cast
-<
-LinkableAccessible
-*
->
-(
-this
-)
--
->
 ActionWalk
 (
 )
