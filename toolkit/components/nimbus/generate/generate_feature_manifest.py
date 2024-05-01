@@ -199,10 +199,6 @@ deviceMigration
 "
     
 "
-frecency
-"
-    
-"
 fullPageTranslation
 "
     
