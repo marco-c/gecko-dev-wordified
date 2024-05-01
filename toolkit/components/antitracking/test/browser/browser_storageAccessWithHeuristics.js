@@ -732,7 +732,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -1220,7 +1221,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -1687,7 +1689,6 @@ notification
 (
 aSubject
 aTopic
-aData
 )
 {
 /
@@ -2438,7 +2439,6 @@ notification
 (
 aSubject
 aTopic
-aData
 )
 {
 /
@@ -2794,7 +2794,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -3269,7 +3270,6 @@ notification
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -3904,7 +3904,6 @@ notification
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -4233,7 +4232,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
@@ -5195,7 +5195,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve

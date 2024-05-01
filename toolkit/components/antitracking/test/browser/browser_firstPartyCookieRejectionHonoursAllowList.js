@@ -184,7 +184,6 @@ browser
 async
 function
 (
-obj
 )
 {
 await
@@ -494,7 +493,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve

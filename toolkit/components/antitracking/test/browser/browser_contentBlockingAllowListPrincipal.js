@@ -638,7 +638,8 @@ frame
 add_task
 (
 async
-setup
+(
+)
 =
 >
 {
@@ -770,7 +771,8 @@ site
 add_task
 (
 async
-test_contentPrincipalHTTPS
+(
+)
 =
 >
 {
@@ -833,7 +835,8 @@ HTTP
 add_task
 (
 async
-test_contentPrincipalHTTP
+(
+)
 =
 >
 {
@@ -919,7 +922,8 @@ site
 add_task
 (
 async
-test_systemPrincipal
+(
+)
 =
 >
 {
@@ -983,7 +987,8 @@ principal
 add_task
 (
 async
-test_TopLevelSandbox
+(
+)
 =
 >
 {
@@ -1082,7 +1087,8 @@ open
 add_task
 (
 async
-test_windowOpen
+(
+)
 =
 >
 {
@@ -1238,7 +1244,8 @@ iframe
 add_task
 (
 async
-test_windowOpenFromSandboxedFrame
+(
+)
 =
 >
 {

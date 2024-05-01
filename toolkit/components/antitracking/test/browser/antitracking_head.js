@@ -1318,7 +1318,6 @@ observer
 (
 subject
 topic
-data
 )
 {
 if
@@ -3473,7 +3472,7 @@ topframe
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_4TH_PARTY_PAGE
@@ -5670,7 +5669,6 @@ notification
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -6322,7 +6320,6 @@ notification
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -6737,7 +6734,6 @@ prototype
 {
 onStartRequest
 (
-request
 )
 {
 }
@@ -6772,7 +6768,6 @@ cnt
 onStopRequest
 (
 request
-st
 )
 {
 let

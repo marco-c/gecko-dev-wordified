@@ -228,7 +228,6 @@ onerror
 =
 function
 (
-e
 )
 {
 reject
@@ -474,7 +473,6 @@ onerror
 =
 function
 (
-e
 )
 {
 reject
@@ -655,7 +653,6 @@ onerror
 =
 function
 (
-e
 )
 {
 reject
@@ -765,7 +762,6 @@ onerror
 =
 function
 (
-e
 )
 {
 reject
@@ -802,7 +798,8 @@ Ci
 nsIClearDataService
 .
 CLEAR_ALL
-value
+(
+)
 =
 >
 resolve
