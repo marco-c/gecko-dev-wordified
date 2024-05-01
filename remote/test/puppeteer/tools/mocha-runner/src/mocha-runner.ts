@@ -6,6 +6,8 @@ usr
 bin
 /
 env
+-
+S
 node
 /
 *
@@ -218,7 +220,7 @@ boolean
 true
 default
 :
-true
+false
 }
 )
 .

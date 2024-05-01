@@ -393,6 +393,11 @@ puppeteer
 await
 getTestState
 (
+{
+skipContextCreation
+:
+true
+}
 )
 ;
 const
@@ -486,6 +491,11 @@ puppeteer
 await
 getTestState
 (
+{
+skipContextCreation
+:
+true
+}
 )
 ;
 const

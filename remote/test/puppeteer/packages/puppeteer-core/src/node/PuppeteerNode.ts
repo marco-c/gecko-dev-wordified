@@ -1418,13 +1418,6 @@ this
 .
 configuration
 .
-downloadPath
-?
-?
-this
-.
-configuration
-.
 cacheDirectory
 ;
 }
@@ -1781,13 +1774,6 @@ supported
 const
 cacheDir
 =
-this
-.
-configuration
-.
-downloadPath
-?
-?
 this
 .
 configuration

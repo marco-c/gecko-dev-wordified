@@ -196,7 +196,7 @@ state
 .
 browser
 .
-createIncognitoBrowserContext
+createBrowserContext
 (
 )
 ;

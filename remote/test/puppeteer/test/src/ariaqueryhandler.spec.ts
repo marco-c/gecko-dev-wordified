@@ -3068,8 +3068,9 @@ waitError
 message
 )
 .
-toContain
+atLeastOneToContain
 (
+[
 '
 waitForFunction
 failed
@@ -3079,6 +3080,14 @@ got
 detached
 .
 '
+'
+Browsing
+context
+already
+closed
+.
+'
+]
 )
 ;
 }

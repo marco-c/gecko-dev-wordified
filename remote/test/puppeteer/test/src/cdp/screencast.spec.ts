@@ -47,6 +47,7 @@ setupTestBrowserHooks
 from
 '
 .
+.
 /
 mocha
 -
@@ -61,6 +62,7 @@ getUniqueVideoFilePlaceholder
 }
 from
 '
+.
 .
 /
 utils

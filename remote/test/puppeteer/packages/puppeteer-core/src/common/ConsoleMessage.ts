@@ -160,7 +160,7 @@ error
 '
 |
 '
-warning
+warn
 '
 |
 '

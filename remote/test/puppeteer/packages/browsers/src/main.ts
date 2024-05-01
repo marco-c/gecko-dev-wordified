@@ -132,6 +132,7 @@ Browser
 BrowserPlatform
 ChromeReleaseChannel
 createProfile
+getVersionComparator
 }
 from
 '

@@ -649,7 +649,7 @@ context
 await
 browser
 .
-createIncognitoBrowserContext
+createBrowserContext
 (
 )
 ;
@@ -761,7 +761,7 @@ context
 await
 browser
 .
-createIncognitoBrowserContext
+createBrowserContext
 (
 )
 ;

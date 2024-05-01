@@ -919,7 +919,7 @@ context
 await
 browser
 .
-createIncognitoBrowserContext
+createBrowserContext
 (
 )
 ;
@@ -1083,7 +1083,7 @@ context
 await
 browser
 .
-createIncognitoBrowserContext
+createBrowserContext
 (
 )
 ;
@@ -1229,7 +1229,7 @@ context
 await
 browser
 .
-createIncognitoBrowserContext
+createBrowserContext
 (
 {
 proxyServer
@@ -1367,7 +1367,7 @@ context
 await
 browser
 .
-createIncognitoBrowserContext
+createBrowserContext
 (
 {
 proxyServer

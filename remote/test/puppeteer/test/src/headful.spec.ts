@@ -99,7 +99,6 @@ js
 import
 {
 getTestState
-isHeadless
 launch
 }
 from
@@ -131,16 +130,7 @@ pptr_tmp_folder
 '
 )
 ;
-(
-!
-isHeadless
-?
 describe
-:
-describe
-.
-skip
-)
 (
 '
 headful
@@ -181,8 +171,12 @@ let
 headfulOptions
 :
 PuppeteerLaunchOptions
-|
-undefined
+&
+{
+headless
+:
+false
+}
 ;
 let
 headlessOptions
@@ -192,7 +186,7 @@ PuppeteerLaunchOptions
 {
 headless
 :
-boolean
+true
 }
 ;
 const
@@ -249,6 +243,8 @@ defaultBrowserOptions
 headless
 :
 false
+as
+const
 }
 )
 ;
@@ -265,6 +261,8 @@ defaultBrowserOptions
 headless
 :
 true
+as
+const
 }
 )
 ;
@@ -444,6 +442,8 @@ headfulOptions
 )
 )
 ;
+try
+{
 const
 headfulPage
 =
@@ -503,6 +503,9 @@ GMT
 }
 )
 ;
+}
+finally
+{
 await
 headfulBrowser
 .
@@ -510,6 +513,7 @@ close
 (
 )
 ;
+}
 /
 /
 Read
@@ -535,6 +539,14 @@ headlessOptions
 )
 )
 ;
+let
+cookie
+=
+'
+'
+;
+try
+{
 const
 headlessPage
 =
@@ -555,7 +567,6 @@ server
 EMPTY_PAGE
 )
 ;
-const
 cookie
 =
 await
@@ -576,6 +587,9 @@ cookie
 }
 )
 ;
+}
+finally
+{
 await
 headlessBrowser
 .
@@ -583,6 +597,7 @@ close
 (
 )
 ;
+}
 /
 /
 This

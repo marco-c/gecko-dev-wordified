@@ -47,7 +47,6 @@ protocol
 ;
 import
 {
-filterAsync
 firstValueFrom
 from
 merge
@@ -109,6 +108,7 @@ import
 {
 debugError
 fromEmitterEvent
+filterAsync
 timeout
 }
 from
@@ -794,7 +794,7 @@ includes
 target
 changes
 in
-incognito
+all
 browser
 *
 contexts
@@ -889,7 +889,7 @@ includes
 target
 creations
 in
-incognito
+all
 browser
 *
 contexts
@@ -938,7 +938,7 @@ includes
 target
 destructions
 in
-incognito
+all
 browser
 *
 contexts
@@ -963,26 +963,6 @@ TargetDiscovered
 targetdiscovered
 '
 }
-export
-{
-/
-*
-*
-*
-deprecated
-Use
-{
-link
-BrowserEvent
-}
-.
-*
-/
-BrowserEvent
-as
-BrowserEmittedEvents
-}
-;
 /
 *
 *
@@ -1434,7 +1414,6 @@ null
 Creates
 a
 new
-incognito
 {
 link
 BrowserContext
@@ -1495,7 +1474,6 @@ launch
 Create
 a
 new
-incognito
 browser
 context
 .
@@ -1506,7 +1484,7 @@ context
 await
 browser
 .
-createIncognitoBrowserContext
+createBrowserContext
 (
 )
 ;
@@ -1559,7 +1537,7 @@ com
 *
 /
 abstract
-createIncognitoBrowserContext
+createBrowserContext
 (
 options
 ?
