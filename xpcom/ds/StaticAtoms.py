@@ -25853,6 +25853,22 @@ enabled
 "
 )
     
+Atom
+(
+"
+dom_forms_number_hide_spin_buttons_when_no_hover_or_focus
+"
+"
+dom
+.
+forms
+.
+number
+.
+hide_spin_buttons_when_no_hover_or_focus
+"
+)
+    
 #
 Contextual
 Identity
