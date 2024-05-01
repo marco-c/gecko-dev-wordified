@@ -121,9 +121,13 @@ FullPageTranslationsTestUtils
 .
 assertSelectedFromLanguage
 (
+{
+langTag
+:
 "
 es
 "
+}
 )
 ;
 FullPageTranslationsTestUtils
@@ -469,9 +473,13 @@ FullPageTranslationsTestUtils
 .
 assertSelectedToLanguage
 (
+{
+langTag
+:
 "
 en
 "
+}
 )
 ;
 FullPageTranslationsTestUtils
