@@ -3095,10 +3095,13 @@ static_assert
 NUMBER_OF_NAMESPACES
 =
 =
-CacheStorageNamespaceValues
+ContiguousEnumSize
+<
+CacheStorageNamespace
+>
 :
 :
-Count
+value
 "
 Number
 of
