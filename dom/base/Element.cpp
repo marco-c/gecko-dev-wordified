@@ -11755,6 +11755,8 @@ aAttr
 )
 const
 {
+if
+(
 const
 nsExtendedDOMSlots
 *
@@ -11763,10 +11765,6 @@ slots
 GetExistingExtendedDOMSlots
 (
 )
-;
-if
-(
-slots
 )
 {
 nsWeakPtr
