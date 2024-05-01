@@ -1154,6 +1154,14 @@ OnTaskQueue
 )
 )
 ;
+if
+(
+aError
+!
+=
+NS_ERROR_DOM_MEDIA_EXTERNAL_ENGINE_NOT_SUPPORTED_ERR
+)
+{
 LOGE
 (
 "
@@ -1174,6 +1182,7 @@ get
 )
 )
 ;
+}
 PROFILER_MARKER_TEXT
 (
 "
