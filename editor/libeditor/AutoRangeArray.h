@@ -613,6 +613,14 @@ CT
 aPoint
 )
 ;
+explicit
+AutoRangeArray
+(
+nsRange
+&
+aRange
+)
+;
 /
 /
 The
