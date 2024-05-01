@@ -140,12 +140,17 @@ WebRenderTypes
 h
 "
 #
+ifdef
+MOZ_WIDGET_COCOA
+#
 include
 "
 nsCocoaFeatures
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -456,6 +461,9 @@ CTFontDescriptorRef
 aFontDesc
 )
 {
+#
+ifdef
+MOZ_WIDGET_COCOA
 /
 /
 New
@@ -661,6 +669,8 @@ forget
 )
 ;
 }
+#
+endif
 /
 /
 Older
