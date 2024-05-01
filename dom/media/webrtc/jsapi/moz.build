@@ -254,6 +254,11 @@ RTCEncodedVideoFrame
 cpp
 "
 "
+RTCIceTransport
+.
+cpp
+"
+"
 RTCRtpReceiver
 .
 cpp
@@ -339,6 +344,11 @@ h
 "
 "
 RTCEncodedVideoFrame
+.
+h
+"
+"
+RTCIceTransport
 .
 h
 "
