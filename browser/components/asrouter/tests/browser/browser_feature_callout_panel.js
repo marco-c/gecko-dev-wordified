@@ -1199,8 +1199,6 @@ click
 ;
 }
 (
-win
-calloutContainer
 )
 =
 >
