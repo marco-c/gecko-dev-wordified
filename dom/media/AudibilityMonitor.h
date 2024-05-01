@@ -514,7 +514,10 @@ std
 :
 fabs
 (
-AudioSampleToFloat
+ConvertAudioSample
+<
+float
+>
 (
 samples
 [
