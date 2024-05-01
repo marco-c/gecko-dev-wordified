@@ -149,6 +149,13 @@ h
 #
 include
 "
+MsaaAccessible
+.
+h
+"
+#
+include
+"
 mozilla
 /
 FloatingPoint

@@ -147,6 +147,13 @@ h
 #
 include
 "
+MsaaAccessible
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
