@@ -17684,6 +17684,12 @@ ParseNodeKind
 :
 OptionalDotExpr
 :
+case
+ParseNodeKind
+:
+:
+ArgumentsLength
+:
 {
 PropertyAccessBase
 *
