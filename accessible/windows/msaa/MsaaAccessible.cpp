@@ -4869,6 +4869,7 @@ macSubrole
 _msaaRole
 ia2Role
 androidClass
+iosIsElement
 nameRule
 )
 \
