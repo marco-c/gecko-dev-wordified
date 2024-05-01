@@ -307,13 +307,6 @@ connection
 "
 )
 ;
-dropDefaultHeader
-(
-"
-priority
-"
-)
-;
 res
 .
 write

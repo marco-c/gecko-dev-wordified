@@ -411,9 +411,6 @@ Host
 Pragma
 "
 "
-Priority
-"
-"
 Sec
 -
 Fetch
@@ -760,9 +757,6 @@ Sec
 Fetch
 -
 Site
-"
-"
-Priority
 "
 "
 Pragma
