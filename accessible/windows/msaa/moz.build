@@ -119,16 +119,6 @@ LazyInstantiator
 h
 "
 "
-MsaaAccessible
-.
-h
-"
-"
-MsaaIdGenerator
-.
-h
-"
-"
 nsWinUtils
 .
 h
