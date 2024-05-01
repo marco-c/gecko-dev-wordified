@@ -502,7 +502,9 @@ WebVTTParserWrapper
 (
 vtt
 .
-jsm
+sys
+.
+mjs
 )
 NS_ENSURE_SUCCESS
 (

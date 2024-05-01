@@ -1744,7 +1744,9 @@ JSActor
 (
 ContentDelegateChild
 .
-jsm
+sys
+.
+mjs
 )
 when
 opening

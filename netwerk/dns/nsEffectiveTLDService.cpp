@@ -569,7 +569,9 @@ dns
 /
 PublicSuffixList
 .
-jsm
+sys
+.
+mjs
 *
 aSubject
 is
