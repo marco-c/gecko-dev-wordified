@@ -2790,6 +2790,9 @@ mozilla
 :
 MallocSizeOf
 mallocSizeOf
+size_t
+*
+zoneObject
 JS
 :
 :

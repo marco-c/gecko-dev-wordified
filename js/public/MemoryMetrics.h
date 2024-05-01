@@ -3445,6 +3445,13 @@ MACRO
 (
 Other
 MallocHeap
+zoneObject
+)
+\
+MACRO
+(
+Other
+MallocHeap
 regexpZone
 )
 \

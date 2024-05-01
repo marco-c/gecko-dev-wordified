@@ -1519,6 +1519,10 @@ mallocSizeOf_
 &
 zStats
 .
+zoneObject
+&
+zStats
+.
 code
 &
 zStats

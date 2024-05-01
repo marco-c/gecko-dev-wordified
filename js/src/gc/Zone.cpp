@@ -4475,6 +4475,9 @@ mozilla
 :
 MallocSizeOf
 mallocSizeOf
+size_t
+*
+zoneObject
 JS
 :
 :
@@ -4516,6 +4519,15 @@ size_t
 scriptCountsMapArg
 )
 {
+*
+zoneObject
++
+=
+mallocSizeOf
+(
+this
+)
+;
 *
 regexpZone
 +
