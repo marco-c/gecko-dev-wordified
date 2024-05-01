@@ -5486,15 +5486,11 @@ toolkit
 :
 if
 toolkit
-in
-(
+=
+=
 "
 cocoa
 "
-"
-uikit
-"
-)
 :
 return
 True
