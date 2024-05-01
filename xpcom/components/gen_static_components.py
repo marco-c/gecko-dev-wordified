@@ -6544,7 +6544,6 @@ contract_phf
 =
 PerfectHash
 (
-        
 contracts
 PHF_SIZE
 key
@@ -6555,11 +6554,6 @@ entry
 entry
 .
 contract
-.
-encode
-(
-)
-    
 )
     
 js_services_phf
@@ -6584,10 +6578,6 @@ entry
 entry
 .
 js_name
-.
-encode
-(
-)
     
 )
     
@@ -6604,9 +6594,7 @@ values
 (
 )
 )
-        
 TINY_PHF_SIZE
-        
 key
 =
 lambda
@@ -6615,10 +6603,6 @@ entry
 entry
 .
 scheme
-.
-encode
-(
-)
     
 )
     
@@ -6742,7 +6726,6 @@ protocol_handlers_phf
 .
 get_index
 (
-b
 "
 default
 "

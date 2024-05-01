@@ -70,6 +70,8 @@ import
 string
 import
 textwrap
+import
+six
 from
 Configuration
 import
@@ -1704,6 +1706,29 @@ character
 on
 them
 .
+lineStartDetector
+=
+re
+.
+compile
+(
+"
+^
+(
+?
+=
+[
+^
+\
+n
+#
+]
+)
+"
+re
+.
+MULTILINE
+)
 def
 indent
 (
@@ -1760,18 +1785,10 @@ endif
 "
     
 if
-not
 s
-or
-s
-[
-0
-]
-in
+=
+=
 "
-\
-n
-#
 "
 :
         
@@ -1779,14 +1796,17 @@ return
 s
     
 return
+re
+.
+sub
 (
+lineStartDetector
 indentLevel
 *
 "
 "
-)
-+
 s
+)
 #
 dedent
 (
@@ -10779,6 +10799,8 @@ basename
 decl
 .
 filename
+(
+)
 )
         
 return
@@ -101267,15 +101289,16 @@ body
 in
 sorted
 (
+six
+.
+iteritems
+(
 switchDecriptor
 [
 "
 cases
 "
 ]
-.
-items
-(
 )
 )
 :
@@ -124935,10 +124958,6 @@ append
 (
 (
 name
-.
-encode
-(
-)
 nativeEntry
 )
 )
@@ -126128,12 +126147,13 @@ child
 in
 sorted
 (
+six
+.
+iteritems
+(
 self
 .
 children
-.
-items
-(
 )
 )
 :
@@ -130756,10 +130776,11 @@ for
 header
 include
 in
-bindingHeaders
+six
 .
-items
+iteritems
 (
+bindingHeaders
 )
 if
 include
@@ -130771,15 +130792,18 @@ bindingDeclareHeaders
 [
             
 header
+            
 for
 header
 include
 in
-bindingDeclareHeaders
+six
 .
-items
+iteritems
 (
+bindingDeclareHeaders
 )
+            
 if
 include
         
@@ -166789,6 +166813,8 @@ descriptor
 interface
 .
 filename
+(
+)
 )
             
 )
