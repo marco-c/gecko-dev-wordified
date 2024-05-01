@@ -792,6 +792,7 @@ nscoord
 IntrinsicScrollbarGutterSizeAtInlineEdges
 (
 )
+const
 ;
 /
 /

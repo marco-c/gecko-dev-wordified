@@ -8832,6 +8832,7 @@ nsHTMLScrollFrame
 IntrinsicScrollbarGutterSizeAtInlineEdges
 (
 )
+const
 {
 const
 bool
