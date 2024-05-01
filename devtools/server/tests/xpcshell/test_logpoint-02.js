@@ -94,11 +94,11 @@ lastMessage
 lastExpression
 ;
 const
+{
 targetActor
+}
 =
 threadActor
-.
-_parent
 ;
 /
 /

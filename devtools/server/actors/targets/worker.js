@@ -625,9 +625,6 @@ new
 ThreadActor
 (
 this
-this
-.
-workerGlobal
 )
 ;
 /

@@ -2671,7 +2671,7 @@ this
 .
 _thread
 .
-_parent
+targetActor
 .
 browsingContext
 )
@@ -2684,7 +2684,7 @@ this
 .
 _thread
 .
-_parent
+targetActor
 .
 browsingContext
 .
@@ -2720,7 +2720,7 @@ this
 .
 _thread
 .
-_parent
+targetActor
 .
 window
 ;
