@@ -617,6 +617,9 @@ V128Load
 48
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 opcode
@@ -791,6 +794,9 @@ V128Load
 0
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 opcode
@@ -913,6 +919,9 @@ V128Load
 32
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 I8x16RelaxedSwizzleCode
@@ -1136,6 +1145,9 @@ V128Load
 16
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 I8x16RelaxedSwizzleCode
@@ -1427,6 +1439,9 @@ V128Load
 32
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 minOpcode
@@ -1468,6 +1483,9 @@ V128Load
 32
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 maxOpcode
@@ -1738,6 +1756,9 @@ V128Load
 0
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 op
@@ -1889,6 +1910,9 @@ V128Load
 16
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 I32x4RelaxedTruncSSatF32x4Code
@@ -1923,6 +1947,9 @@ V128Load
 16
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 I32x4RelaxedTruncUSatF32x4Code
@@ -1957,6 +1984,9 @@ V128Load
 16
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 I32x4RelaxedTruncSatF64x2SZeroCode
@@ -1991,6 +2021,9 @@ V128Load
 16
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 I32x4RelaxedTruncSatF64x2UZeroCode
@@ -2341,6 +2374,9 @@ V128StoreExpr
 0
 [
 SimdPrefix
+.
+.
+.
 varU32
 (
 op
@@ -2505,6 +2541,9 @@ V128Load
 48
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 opcode
@@ -2830,6 +2869,9 @@ V128Load
 0
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 opcode
@@ -2940,6 +2982,9 @@ V128Load
 32
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 I16x8RelaxedQ15MulrSCode
@@ -3234,6 +3279,9 @@ V128Load
 32
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 I16x8DotI8x16I7x16SCode
@@ -3582,6 +3630,9 @@ V128Load
 48
 )
 SimdPrefix
+.
+.
+.
 varU32
 (
 I32x4DotI8x16I7x16AddSCode
