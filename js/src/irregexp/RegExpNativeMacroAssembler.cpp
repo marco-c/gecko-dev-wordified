@@ -1863,6 +1863,8 @@ ranges
 -
 >
 length
+(
+)
 %
 sizeof
 (
@@ -1880,6 +1882,8 @@ ranges
 -
 >
 length
+(
+)
 /
 sizeof
 (

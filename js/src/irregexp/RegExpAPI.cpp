@@ -4634,6 +4634,8 @@ bytecode
 -
 >
 length
+(
+)
 ;
 re
 -
