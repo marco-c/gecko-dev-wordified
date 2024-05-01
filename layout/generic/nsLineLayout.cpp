@@ -5316,15 +5316,6 @@ LayoutFrameType
 :
 :
 FieldSet
-|
-|
-fType
-=
-=
-LayoutFrameType
-:
-:
-ComboboxDisplay
 )
 {
 return
