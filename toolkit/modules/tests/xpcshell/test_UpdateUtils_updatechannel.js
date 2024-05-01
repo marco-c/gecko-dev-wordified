@@ -256,6 +256,13 @@ currentChannel
 ;
 defaultPrefs
 .
+unlock
+(
+PREF_APP_UPDATE_CHANNEL
+)
+;
+defaultPrefs
+.
 set
 (
 PREF_APP_UPDATE_CHANNEL

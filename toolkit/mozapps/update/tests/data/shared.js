@@ -1636,6 +1636,13 @@ gChannel
 ;
 gDefaultPrefBranch
 .
+unlockPref
+(
+PREF_APP_UPDATE_CHANNEL
+)
+;
+gDefaultPrefBranch
+.
 setCharPref
 (
 PREF_APP_UPDATE_CHANNEL
