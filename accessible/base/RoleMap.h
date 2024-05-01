@@ -2232,7 +2232,7 @@ IsAccessibilityElementRule
 :
 :
 IfChildlessWithNameAndFocusable
-eNoNameRule
+eNameFromValueRule
 )
 ROLE
 (
