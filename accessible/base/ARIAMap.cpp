@@ -1785,7 +1785,7 @@ grid
 roles
 :
 :
-TABLE
+GRID
 kUseMapRole
 eNoValue
 eNoAction
