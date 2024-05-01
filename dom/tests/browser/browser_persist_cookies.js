@@ -104,6 +104,8 @@ MockFilePicker
 init
 (
 window
+.
+browsingContext
 )
 ;
 registerCleanupFunction
@@ -610,7 +612,7 @@ request
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_PATH

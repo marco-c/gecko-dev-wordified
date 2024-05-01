@@ -943,6 +943,8 @@ picker
 init
 (
 window
+.
+browsingContext
 "
 "
 Ci

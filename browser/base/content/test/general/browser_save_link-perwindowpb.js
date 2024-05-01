@@ -39,6 +39,8 @@ MockFilePicker
 init
 (
 window
+.
+browsingContext
 )
 ;
 /
@@ -173,7 +175,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 testBrowser
 testURI

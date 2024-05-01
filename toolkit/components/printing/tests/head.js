@@ -2783,6 +2783,8 @@ MockFilePicker
 init
 (
 window
+.
+browsingContext
 )
 ;
 registerCleanupFunction
@@ -2828,6 +2830,8 @@ MockFilePicker
 init
 (
 window
+.
+browsingContext
 )
 ;
 registerCleanupFunction

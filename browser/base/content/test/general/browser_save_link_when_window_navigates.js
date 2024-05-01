@@ -39,6 +39,8 @@ MockFilePicker
 init
 (
 window
+.
+browsingContext
 )
 ;
 const
@@ -358,7 +360,7 @@ onUCTDialog
 }
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 testBrowser
 testURI

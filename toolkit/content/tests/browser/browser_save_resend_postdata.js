@@ -68,6 +68,8 @@ MockFilePicker
 init
 (
 window
+.
+browsingContext
 )
 ;
 /
@@ -190,7 +192,7 @@ waitForExplicitFinish
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 "
