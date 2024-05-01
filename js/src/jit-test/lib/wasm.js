@@ -348,6 +348,7 @@ wasmEvalText
 (
 str
 imports
+compileOptions
 )
 {
 let
@@ -366,6 +367,7 @@ WebAssembly
 validate
 (
 binary
+compileOptions
 )
 ;
 let
@@ -381,6 +383,7 @@ WebAssembly
 Module
 (
 binary
+compileOptions
 )
 ;
 assertEq
