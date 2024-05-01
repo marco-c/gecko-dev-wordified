@@ -191,6 +191,9 @@ appendChild
 script
 )
 ;
+return
+script
+;
 }
 class
 PrerenderChannel
