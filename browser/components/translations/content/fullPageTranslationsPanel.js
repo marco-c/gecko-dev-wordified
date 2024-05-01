@@ -1152,7 +1152,7 @@ actor
 *
 /
 var
-TranslationsPanel
+FullPageTranslationsPanel
 =
 new
 (
@@ -5743,7 +5743,7 @@ onLearnMoreLink
 (
 )
 ;
-TranslationsPanel
+FullPageTranslationsPanel
 .
 close
 (
@@ -6876,7 +6876,7 @@ null
 *
 Opens
 the
-TranslationsPanel
+FullPageTranslationsPanel
 .
 *
 *
@@ -6990,7 +6990,7 @@ the
 panel
 .
 Prefer
-TranslationsPanel
+FullPageTranslationsPanel
 .
 open
 .
@@ -8419,7 +8419,7 @@ handler
 that
 allows
 the
-TranslationsPanel
+FullPageTranslationsPanel
 object
 *
 to
@@ -8820,7 +8820,7 @@ user
 switches
 tabs
 .
-TranslationsPanel
+FullPageTranslationsPanel
 .
 detectedLanguages
 =
@@ -9431,7 +9431,7 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-TranslationsPanel
+FullPageTranslationsPanel
 "
 _hasShownPanel
 "

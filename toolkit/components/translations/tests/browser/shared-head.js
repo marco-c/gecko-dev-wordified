@@ -2202,7 +2202,7 @@ closeSettingsMenuIfOpen
 )
 ;
 await
-closeTranslationsPanelIfOpen
+closeFullPageTranslationsPanelIfOpen
 (
 )
 ;
@@ -2414,7 +2414,7 @@ open
 /
 async
 function
-closeTranslationsPanelIfOpen
+closeFullPageTranslationsPanelIfOpen
 (
 )
 {

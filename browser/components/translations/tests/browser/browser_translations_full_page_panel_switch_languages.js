@@ -117,7 +117,7 @@ const
 translateButton
 }
 =
-TranslationsPanel
+FullPageTranslationsPanel
 .
 elements
 ;
