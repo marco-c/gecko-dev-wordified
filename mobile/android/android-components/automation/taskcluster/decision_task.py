@@ -1491,7 +1491,7 @@ zipMavenArtifacts
 def
 _get_release_artifacts
 (
-artifact_info
+module_definition
 version
 )
 :
@@ -1537,22 +1537,10 @@ use
 cartesian
 product
     
-#
-TODO
-:
-potentially
-reorganize
-this
-code
-as
-PR
-/
-push
-will
-most
-likely
-fail
-?
+artifacts
+=
+[
+]
     
 for
 f
@@ -1582,8 +1570,8 @@ artifact_filename
 .
 format
 (
-                    
-artifact_info
+                
+module_definition
 [
 '
 name
@@ -1595,7 +1583,15 @@ e
 )
             
 artifacts
-[
+.
+append
+(
+{
+                
+'
+taskcluster_path
+'
+:
 '
 public
 /
@@ -1609,36 +1605,9 @@ format
 (
 artifact_filename
 )
-]
-=
-{
                 
 '
-type
-'
-:
-'
-file
-'
-                
-'
-expires
-'
-:
-taskcluster
-.
-stringDate
-(
-taskcluster
-.
-fromNow
-(
-DEFAULT_EXPIRES_IN
-)
-)
-                
-'
-path
+build_fs_path
 '
 :
 '
@@ -1667,37 +1636,41 @@ components
 .
 format
 (
-                            
+                    
 os
 .
 path
 .
 abspath
 (
-artifact_info
+module_definition
 [
 '
 path
 '
 ]
 )
-                            
-artifact_info
+                    
+module_definition
 [
 '
 name
 '
 ]
-                            
+                    
 version
 artifact_filename
 )
             
 }
+)
+    
+return
+artifacts
 def
 release
 (
-artifacts_info
+module_definitions
 is_snapshot
 is_staging
 )
@@ -1738,16 +1711,18 @@ slugId
 )
     
 for
-artifact_info
+module_definition
 in
-artifacts_info
+module_definitions
 :
         
-#
-FIXME
-:
-from
-here
+artifacts
+=
+_get_release_artifacts
+(
+module_definition
+version
+)
         
 build_task_id
 =
@@ -1761,7 +1736,7 @@ module_name
 =
 _get_gradle_module_name
 (
-artifact_info
+module_definition
 )
         
 build_tasks
@@ -1811,10 +1786,6 @@ else
 '
 )
             
-version
-=
-version
-            
 run_coverage
 =
 False
@@ -1823,9 +1794,13 @@ is_snapshot
 =
 is_snapshot
             
-artifact_info
+module_definition
 =
-artifact_info
+module_definition
+            
+artifacts
+=
+artifacts
         
 )
         
@@ -2137,7 +2112,7 @@ result
 .
 command
     
-artifacts_info
+module_definitions
 =
 module_definitions
 (
@@ -2152,14 +2127,14 @@ release
 '
 :
         
-artifacts_info
+module_definitions
 =
 [
 info
 for
 info
 in
-artifacts_info
+module_definitions
 if
 info
 [
@@ -2172,7 +2147,7 @@ shouldPublish
 if
 len
 (
-artifacts_info
+module_definitions
 )
 =
 =
@@ -2245,7 +2220,7 @@ ordered_groups_of_tasks
 release
 (
             
-artifacts_info
+module_definitions
 result
 .
 is_snapshot
