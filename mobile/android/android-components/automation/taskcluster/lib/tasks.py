@@ -610,8 +610,17 @@ priority
 "
 :
 "
-lowest
+highest
 "
+#
+We
+now
+use
+dedicated
+build
+worker
+type
+.
             
 "
 deadline
