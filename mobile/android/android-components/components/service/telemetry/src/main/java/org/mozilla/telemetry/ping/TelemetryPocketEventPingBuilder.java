@@ -391,6 +391,11 @@ new
 EventsMeasurement
 (
 configuration
+"
+pocket
+-
+events
+"
 )
 )
 ;
