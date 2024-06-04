@@ -628,6 +628,9 @@ Test
 ServoArm
 "
 "
+ServoX86
+"
+"
 SystemUniversal
 "
 ]
