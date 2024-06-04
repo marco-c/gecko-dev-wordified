@@ -78,6 +78,7 @@ owner
 source
 scheduler_id
 build_worker_type
+beetmover_worker_type
 tasks_priority
 =
 '
@@ -133,6 +134,12 @@ self
 build_worker_type
 =
 build_worker_type
+        
+self
+.
+beetmover_worker_type
+=
+beetmover_worker_type
         
 self
 .
@@ -791,9 +798,6 @@ scopes
 [
 ]
                        
-is_staging
-=
-False
 is_snapshot
 =
 False
@@ -841,23 +845,9 @@ return
 workerType
 "
 :
-"
-mobile
--
-beetmover
--
-dev
-"
-if
-is_staging
-else
-"
-mobile
--
-beetmover
--
-v1
-"
+self
+.
+beetmover_worker_type
             
 "
 taskGroupId

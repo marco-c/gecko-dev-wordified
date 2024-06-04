@@ -231,6 +231,19 @@ BUILD_WORKER_TYPE
 '
 )
     
+beetmover_worker_type
+=
+os
+.
+environ
+.
+get
+(
+'
+BEETMOVER_WORKER_TYPE
+'
+)
+    
 tasks_priority
 =
 os
@@ -875,10 +888,6 @@ upstream_artifacts
 scopes
 =
 scopes
-        
-is_staging
-=
-is_staging
         
 is_snapshot
 =
