@@ -236,25 +236,6 @@ not
 None
 :
             
-#
-component
-is
-not
-None
-when
-this
-is
-a
-release
-build
-in
-which
-case
-artifacts
-is
-defined
-too
-            
 taskcluster_artifacts
 =
 {
