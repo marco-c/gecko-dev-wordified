@@ -2515,32 +2515,6 @@ components
 (
 )
     
-#
-XXX
-:
-TO
-DELETE
-once
-bug
-1558795
-is
-fixed
-in
-early
-Q3
-    
-if
-result
-.
-is_snapshot
-:
-        
-components
-=
-snapshot_components
-(
-)
-    
 if
 command
 =
@@ -2610,7 +2584,7 @@ ordered_groups_of_tasks
 =
 pr
 (
-artifacts_info
+components
 )
     
 elif
@@ -2626,7 +2600,7 @@ ordered_groups_of_tasks
 =
 push
 (
-artifacts_info
+components
 )
     
 elif
@@ -2637,6 +2611,32 @@ command
 release
 '
 :
+        
+#
+XXX
+:
+TO
+DELETE
+once
+bug
+1558795
+is
+fixed
+in
+early
+Q3
+        
+if
+result
+.
+is_snapshot
+:
+            
+components
+=
+snapshot_components
+(
+)
         
 ordered_groups_of_tasks
 =

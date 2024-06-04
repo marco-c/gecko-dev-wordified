@@ -1258,6 +1258,8 @@ artifacts
 env_vars
 =
 env_vars
+        
+)
     
 def
 craft_beetmover_task
