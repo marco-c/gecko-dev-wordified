@@ -60,8 +60,6 @@ jsone
 import
 os
 import
-slugid
-import
 taskcluster
 import
 yaml
@@ -75,6 +73,7 @@ lib
 tasks
 import
 schedule_task
+craft_new_task_id
 ROOT
 =
 os
@@ -300,9 +299,7 @@ slugids
 name
 ]
 =
-slugid
-.
-nice
+craft_new_task_id
 (
 )
         
@@ -311,6 +308,28 @@ slugids
 [
 name
 ]
+    
+now_in_iso_format
+=
+datetime
+.
+datetime
+.
+utcnow
+(
+)
+.
+isoformat
+(
+)
+[
+:
+23
+]
++
+'
+Z
+'
     
 #
 provide
@@ -362,25 +381,7 @@ cron_task_id
 now
 '
 :
-datetime
-.
-datetime
-.
-utcnow
-(
-)
-.
-isoformat
-(
-)
-[
-:
-23
-]
-+
-'
-Z
-'
+now_in_iso_format
         
 '
 as_slugid
@@ -440,6 +441,12 @@ params
 branch
 '
 ]
+                
+'
+published_at
+'
+:
+now_in_iso_format
             
 }
             
