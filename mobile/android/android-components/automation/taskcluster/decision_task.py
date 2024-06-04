@@ -1480,6 +1480,12 @@ publish
 '
 +
 '
+'
++
+module_name
++
+'
+:
 zipMavenArtifacts
 '
 def
