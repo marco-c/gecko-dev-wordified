@@ -160,6 +160,18 @@ GITHUB_PULL_TITLE
 '
 '
 )
+BUILD_WORKER_TYPE
+=
+os
+.
+environ
+.
+get
+(
+'
+BUILD_WORKER_TYPE
+'
+)
 #
 If
 we
@@ -347,13 +359,7 @@ return
 workerType
 "
 :
-'
-android
--
-components
--
-g
-'
+BUILD_WORKER_TYPE
         
 "
 taskGroupId
