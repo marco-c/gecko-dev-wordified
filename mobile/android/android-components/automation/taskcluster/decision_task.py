@@ -98,6 +98,18 @@ get
 TASK_ID
 '
 )
+TASKS_PRIORITY
+=
+os
+.
+environ
+.
+get
+(
+'
+TASKS_PRIORITY
+'
+)
 REPO_URL
 =
 os
@@ -388,9 +400,7 @@ tags
 priority
 "
 :
-"
-lowest
-"
+TASKS_PRIORITY
         
 "
 schedulerId
