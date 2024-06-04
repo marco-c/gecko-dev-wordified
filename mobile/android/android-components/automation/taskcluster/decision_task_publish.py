@@ -235,7 +235,7 @@ BUILD_GRADLE_TASK_NAMES
 =
 (
 '
-assemble
+assembleRelease
 '
 '
 test
@@ -496,6 +496,16 @@ no
 -
 daemon
 clean
+&
+&
+.
+/
+gradlew
+-
+-
+no
+-
+daemon
 '
 +
             
@@ -505,7 +515,6 @@ gradle_tasks_for_this_module_only
 +
             
 '
-docs
 uploadArchives
 zipMavenArtifacts
 '
