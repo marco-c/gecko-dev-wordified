@@ -514,7 +514,7 @@ taskcluster_artifacts
 )
     
 def
-craft_wait_on_builds_task
+craft_wait_on_all_signing_task
 (
 self
 dependencies
@@ -536,7 +536,8 @@ Components
 Wait
 on
 all
-builds
+signing
+tasks
 to
 be
 completed
@@ -550,7 +551,10 @@ tasks
 that
 ensures
 all
-builds
+build
+and
+signing
+tasks
 are
 correctly
 done
@@ -975,7 +979,6 @@ craft_sign_task
 (
 self
 build_task_id
-wait_on_builds_task_id
 artifacts
 component_name
 is_staging
@@ -1087,7 +1090,6 @@ dependencies
 =
 [
 build_task_id
-wait_on_builds_task_id
 ]
             
 routes
@@ -1181,6 +1183,7 @@ craft_beetmover_task
 self
 build_task_id
 sign_task_id
+wait_on_all_sign_tasks_id
 build_artifacts
 sign_artifacts
 component_name
@@ -1485,7 +1488,7 @@ taskType
 '
 :
 '
-sign
+signing
 '
             
 }
@@ -1538,6 +1541,7 @@ dependencies
 [
 build_task_id
 sign_task_id
+wait_on_all_sign_tasks_id
 ]
             
 routes
