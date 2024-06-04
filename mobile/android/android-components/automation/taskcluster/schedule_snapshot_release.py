@@ -176,7 +176,7 @@ HTTPs
 '
 )
     
-url
+html_url
 =
 remote
 .
@@ -204,7 +204,7 @@ remote
 url
     
 return
-url
+html_url
 str
 (
 branch
@@ -407,7 +407,7 @@ html_url
 params
 [
 '
-repository_github_http_url
+repository_github_html_url
 '
 ]
             
@@ -563,7 +563,7 @@ v1
 }
 )
     
-repository_github_http_url
+repository_github_html_url
 branch
 head_rev
 =
@@ -577,10 +577,10 @@ params
 {
         
 '
-repository_github_http_url
+repository_github_html_url
 '
 :
-repository_github_http_url
+repository_github_html_url
         
 '
 head_rev
