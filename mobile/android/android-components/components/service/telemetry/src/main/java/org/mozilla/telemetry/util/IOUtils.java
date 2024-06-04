@@ -66,9 +66,7 @@ telemetry
 util
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .
