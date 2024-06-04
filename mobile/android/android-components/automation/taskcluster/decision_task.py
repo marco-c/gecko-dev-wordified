@@ -1617,6 +1617,7 @@ artifact_info
         
 )
         
+#
 beetmover_tasks
 [
 taskcluster
@@ -1631,6 +1632,7 @@ BUILDER
 craft_beetmover_task
 (
             
+#
 build_task_id
 wait_on_builds_task_id
 version
@@ -1641,6 +1643,7 @@ artifact
 '
 ]
             
+#
 artifact_info
 [
 '
@@ -1650,6 +1653,7 @@ name
 is_snapshot
 is_staging
         
+#
 )
     
 wait_on_builds_tasks
