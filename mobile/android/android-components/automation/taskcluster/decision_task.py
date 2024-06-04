@@ -1492,9 +1492,8 @@ module_name
 zipMavenArtifacts
 '
 #
-XXX
+TODO
 :
-TO
 DELETE
 once
 bug
@@ -1725,29 +1724,22 @@ is_staging
 )
 :
     
-#
-XXX
-:
-temporarily
-until
-we
-add
-signing
-support
-in
-snapshots
-in
-bug
-155879
-    
-#
-in
-early
-Q3
-    
 if
 is_snapshot
 :
+        
+#
+TODO
+:
+DELETE
+once
+bug
+1558795
+is
+fixed
+in
+early
+Q3
         
 return
 release_snapshot
@@ -2524,10 +2516,15 @@ release
 '
 :
         
-#
-XXX
+if
+result
+.
+is_snapshot
 :
-TO
+            
+#
+TODO
+:
 DELETE
 once
 bug
@@ -2537,12 +2534,6 @@ fixed
 in
 early
 Q3
-        
-if
-result
-.
-is_snapshot
-:
             
 components
 =
