@@ -670,7 +670,7 @@ production
 bucket_public_url
 =
 '
-http
+https
 :
 /
 /
