@@ -982,12 +982,6 @@ is_staging
 )
 :
         
-signing_format
-=
-"
-autograph_gpg
-"
-        
 payload
 =
 {
@@ -1027,7 +1021,9 @@ formats
 "
 :
 [
-signing_format
+"
+autograph_gpg
+"
 ]
                 
 "
@@ -1116,15 +1112,25 @@ releng
 :
 signing
 :
-format
+cert
 :
 {
 }
+-
+signing
 "
 .
 format
 (
-signing_format
+"
+dep
+"
+if
+is_staging
+else
+"
+release
+"
 )
             
 ]
