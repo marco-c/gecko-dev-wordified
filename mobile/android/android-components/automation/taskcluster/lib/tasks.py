@@ -2485,7 +2485,7 @@ command
 /
 bin
 /
-bash
+sh
 "
                 
 "
