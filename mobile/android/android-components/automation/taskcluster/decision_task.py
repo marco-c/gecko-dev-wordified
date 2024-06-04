@@ -81,7 +81,7 @@ sys
 import
 lib
 .
-module_definitions
+build_config
 import
 lib
 .
@@ -1818,9 +1818,9 @@ artifact
 in
 lib
 .
-module_definitions
+build_config
 .
-from_gradle
+module_definitions
 (
 )
 ]
