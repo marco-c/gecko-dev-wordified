@@ -2442,13 +2442,13 @@ _craft_dummy_task
 self
 name
 description
-command
 dependencies
 =
 None
 routes
 =
-None
+[
+]
 scopes
 =
 [
