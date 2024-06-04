@@ -660,34 +660,22 @@ Test
                 
 [
 "
-ServoArm
-"
-"
-ServoX86
-"
-"
-SystemUniversal
+System
 "
 ]
                 
 [
                     
 "
-GeckoBetaUniversal
+GeckoBeta
 "
                     
 "
-GeckoNightlyUniversal
+GeckoNightly
 "
                     
 "
-GeckoReleaseAarch64
-"
-"
-GeckoReleaseArm
-"
-"
-GeckoReleaseX86
+GeckoRelease
 "
                 
 ]
@@ -699,7 +687,7 @@ lintTask
 "
 :
 "
-lintGeckoNightlyUniversal
+lintGeckoNightly
 "
         
 }
