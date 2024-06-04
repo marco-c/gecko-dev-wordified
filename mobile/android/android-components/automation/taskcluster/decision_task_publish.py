@@ -657,18 +657,6 @@ net
 else
 :
             
-#
-TODO
-:
-switch
-to
-prod
-bucket
-once
-staging
-works
-smoothly
-            
 bucket_name
 =
 '
@@ -676,25 +664,23 @@ maven
 -
 snapshot
 -
-staging
+production
 '
             
 bucket_public_url
 =
 '
-https
+http
 :
 /
 /
-maven
--
 snapshots
 .
-stage
+maven
 .
-mozaws
+mozilla
 .
-net
+org
 /
 '
     
