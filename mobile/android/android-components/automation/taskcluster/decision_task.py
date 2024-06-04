@@ -1547,18 +1547,6 @@ slugId
 (
 )
     
-#
-TODO
-:
-check
-components
-structure
-to
-match
-the
-old
-one
-    
 for
 component
 in
