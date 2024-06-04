@@ -1492,7 +1492,6 @@ def
 release
 (
 artifacts_info
-version
 is_snapshot
 is_staging
 )
@@ -1503,12 +1502,6 @@ version
 components_version
 (
 )
-if
-version
-is
-None
-else
-version
     
 build_tasks
 =
@@ -1605,6 +1598,10 @@ else
 '
 '
 )
+            
+version
+=
+version
             
 run_coverage
 =
@@ -1791,37 +1788,6 @@ add_parser
 '
 release
 '
-)
-    
-release_parser
-.
-add_argument
-(
-        
-'
--
--
-version
-'
-action
-=
-'
-store
-'
-help
-=
-'
-git
-tag
-to
-build
-from
-'
-        
-default
-=
-None
-    
 )
     
 release_parser
@@ -2055,9 +2021,6 @@ release
 (
             
 artifacts_info
-result
-.
-version
 result
 .
 is_snapshot
