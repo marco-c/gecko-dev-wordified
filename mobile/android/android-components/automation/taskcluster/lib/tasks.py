@@ -460,9 +460,11 @@ features
 worker_type
 =
 '
-github
+android
 -
-worker
+components
+-
+g
 '
 )
 :
