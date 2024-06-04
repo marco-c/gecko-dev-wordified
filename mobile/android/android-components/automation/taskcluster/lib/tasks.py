@@ -457,15 +457,9 @@ features
 {
 }
                    
-worker_type
+is_staging
 =
-'
-android
--
-components
--
-g
-'
+False
 )
 :
         
@@ -529,11 +523,36 @@ True
 return
 {
             
+#
+TODO
+:
+Use
+mobile
+-
+X
+-
+build
+workerType
+            
 "
 workerType
 "
 :
-worker_type
+'
+android
+-
+components
+-
+g
+'
+if
+is_staging
+else
+'
+gecko
+-
+focus
+'
             
 "
 taskGroupId
@@ -781,15 +800,9 @@ scopes
 [
 ]
                        
-worker_type
+is_staging
 =
-'
-mobile
--
-beetmover
--
-v1
-'
+False
 is_snapshot
 =
 False
@@ -837,7 +850,23 @@ return
 workerType
 "
 :
-worker_type
+"
+mobile
+-
+beetmover
+-
+dev
+"
+if
+is_staging
+else
+"
+mobile
+-
+beetmover
+-
+v1
+"
             
 "
 taskGroupId
