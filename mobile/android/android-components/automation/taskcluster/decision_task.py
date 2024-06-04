@@ -1570,7 +1570,6 @@ artifact_filename
 .
 format
 (
-                
 module_definition
 [
 '
@@ -1660,6 +1659,45 @@ name
                     
 version
 artifact_filename
+)
+                
+'
+maven_destination
+'
+:
+'
+maven2
+/
+org
+/
+mozilla
+/
+components
+/
+{
+}
+/
+{
+}
+/
+{
+}
+'
+.
+format
+(
+                    
+module_definition
+[
+'
+name
+'
+]
+                    
+version
+                    
+artifact_filename
+                
 )
             
 }
@@ -1813,7 +1851,6 @@ tasks
 as
 well
         
-#
 beetmover_tasks
 [
 taskcluster
@@ -1828,19 +1865,12 @@ BUILDER
 craft_beetmover_task
 (
             
-#
 build_task_id
 wait_on_builds_task_id
 version
-artifact_info
-[
-'
-artifact
-'
-]
+artifacts
             
-#
-artifact_info
+module_definition
 [
 '
 name
@@ -1849,7 +1879,6 @@ name
 is_snapshot
 is_staging
         
-#
 )
     
 wait_on_builds_tasks
