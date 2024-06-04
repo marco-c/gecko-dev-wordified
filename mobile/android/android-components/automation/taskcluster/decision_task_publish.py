@@ -476,7 +476,7 @@ slugId
 )
 BUILDER
 .
-build_task
+craft_build_ish_task
 (
         
 name
@@ -825,7 +825,7 @@ slugId
 )
 BUILDER
 .
-beetmover_task
+craft_beetmover_task
 (
         
 name
@@ -959,7 +959,7 @@ slugId
 )
 BUILDER
 .
-raw_task
+craft_build_ish_task
 (
         
 name
@@ -975,7 +975,6 @@ command
 (
 checkout
 +
-                 
 command_to_run
 )
     
