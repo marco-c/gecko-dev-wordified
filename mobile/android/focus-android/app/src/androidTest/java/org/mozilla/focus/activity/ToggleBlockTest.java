@@ -218,8 +218,6 @@ mozilla
 .
 focus
 .
-activity
-.
 helpers
 .
 SessionLoadedIdlingResource

@@ -239,8 +239,6 @@ mozilla
 .
 focus
 .
-activity
-.
 helpers
 .
 MainActivityFirstrunTestRule
@@ -609,8 +607,6 @@ mozilla
 .
 focus
 .
-activity
-.
 helpers
 .
 EspressoHelper
@@ -624,8 +620,6 @@ org
 mozilla
 .
 focus
-.
-activity
 .
 helpers
 .
