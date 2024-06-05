@@ -1785,11 +1785,15 @@ rootUrl
 '
 :
 '
-https
+http
 :
 /
 /
 taskcluster
+/
+queue
+/
+v1
 '
 }
 )
