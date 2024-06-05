@@ -249,7 +249,7 @@ setColor
 (
 Color
 .
-BLACK
+WHITE
 )
 ;
 final
@@ -298,7 +298,7 @@ textSize
 }
 public
 void
-updateTabsCount
+updateSessionsCount
 (
 int
 tabCount
