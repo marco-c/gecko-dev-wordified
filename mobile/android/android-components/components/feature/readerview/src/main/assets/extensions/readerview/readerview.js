@@ -2558,8 +2558,6 @@ href
 let
 colorScheme
 =
-decodeURIComponent
-(
 url
 .
 searchParams
@@ -2569,7 +2567,6 @@ get
 "
 colorScheme
 "
-)
 )
 ;
 let
