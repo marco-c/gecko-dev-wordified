@@ -1689,17 +1689,6 @@ ANIMATION_DURATION
 ;
 progressView
 .
-setProgress
-(
-progressView
-.
-getMax
-(
-)
-)
-;
-progressView
-.
 setVisibility
 (
 View
