@@ -160,16 +160,6 @@ components
 .
 browser
 .
-session
-.
-Session
-import
-mozilla
-.
-components
-.
-browser
-.
 state
 .
 state
@@ -780,7 +770,7 @@ Context
 val
 session
 =
-Session
+createTab
 (
 SupportUtils
 .
