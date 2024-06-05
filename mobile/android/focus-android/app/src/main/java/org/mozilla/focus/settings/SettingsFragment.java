@@ -300,10 +300,10 @@ public
 static
 final
 String
-FRAGMENT_RESID_INTENT_EXTRA
+PREFERENCES_RESID_INTENT_EXTRA
 =
 "
-extra_frament_resid
+extra_preferences_resid
 "
 ;
 public
@@ -450,7 +450,7 @@ args
 .
 getInt
 (
-FRAGMENT_RESID_INTENT_EXTRA
+PREFERENCES_RESID_INTENT_EXTRA
 R
 .
 xml
@@ -972,7 +972,7 @@ getSettingsIntent
 Context
 context
 int
-fragmentResId
+prefsResId
 int
 titleResId
 )
@@ -981,7 +981,7 @@ return
 getSettingsIntent
 (
 context
-fragmentResId
+prefsResId
 titleResId
 EXTRA_VALUE_NONE
 EXTRA_VALUE_NONE
@@ -996,7 +996,7 @@ getSettingsIntent
 Context
 context
 int
-fragmentResId
+prefsResId
 int
 titleResId
 int
@@ -1022,8 +1022,8 @@ intent
 .
 putExtra
 (
-FRAGMENT_RESID_INTENT_EXTRA
-fragmentResId
+PREFERENCES_RESID_INTENT_EXTRA
+prefsResId
 )
 ;
 intent
