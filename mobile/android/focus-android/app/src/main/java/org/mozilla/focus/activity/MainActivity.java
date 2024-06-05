@@ -533,13 +533,13 @@ getDataString
 Override
 protected
 void
-onResume
+onResumeFragments
 (
 )
 {
 super
 .
-onResume
+onResumeFragments
 (
 )
 ;
