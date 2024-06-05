@@ -501,9 +501,6 @@ description
 "
 Firefox
 Focus
-(
-Dev
-)
 puts
 you
 in
