@@ -223,6 +223,16 @@ public
 enum
 SumoTopic
 {
+ADD_SEARCH_ENGINE
+(
+"
+add
+-
+search
+-
+engine
+"
+)
 AUTOCOMPLETE
 (
 "
