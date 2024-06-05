@@ -68,7 +68,7 @@ exportFunction
 module
 *
 /
-const
+var
 UAHelpers
 =
 {
