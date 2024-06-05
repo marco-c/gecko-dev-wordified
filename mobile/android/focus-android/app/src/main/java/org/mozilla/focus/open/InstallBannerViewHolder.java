@@ -205,6 +205,8 @@ view
 {
 InstallFirefoxActivity
 .
+Companion
+.
 open
 (
 view
