@@ -593,13 +593,6 @@ memory
 from
 the
 network
-TelemetryWrapper
-.
-recordActiveExperiments
-(
-this
-FocusApplication
-)
 }
 }
 private
