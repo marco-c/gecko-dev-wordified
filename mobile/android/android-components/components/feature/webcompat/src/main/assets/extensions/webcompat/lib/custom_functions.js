@@ -64,6 +64,7 @@ strict
 /
 *
 globals
+browser
 module
 *
 /
@@ -247,7 +248,7 @@ const
 CUSTOM_FUNCTIONS
 =
 {
-dtagFix
+noSniffFix
 :
 injection
 =
@@ -321,7 +322,7 @@ responseHeaders
 )
 ;
 }
-dtagFixDisable
+noSniffFixDisable
 :
 injection
 =
