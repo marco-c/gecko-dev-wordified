@@ -769,7 +769,7 @@ languageHeading
 =
 TestHelper
 .
-settingsList
+settingsMenu
 .
 getChild
 (
