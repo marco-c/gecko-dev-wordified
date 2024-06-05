@@ -479,6 +479,7 @@ def
 craft_barrier_task
 (
 self
+label
 dependencies
 )
 :
@@ -491,20 +492,7 @@ _craft_dummy_task
             
 name
 =
-'
-Android
-Components
--
-Barrier
-task
-to
-wait
-on
-other
-tasks
-to
-complete
-'
+label
             
 description
 =
@@ -706,8 +694,8 @@ def
 craft_sign_task
 (
 self
-build_task_id
-barrier_task_id
+build_task_label
+barrier_task_label
 artifacts
 component_name
 is_staging
@@ -756,7 +744,19 @@ autograph_gpg
 taskId
 "
 :
-build_task_id
+{
+'
+task
+-
+reference
+'
+:
+'
+<
+build
+>
+'
+}
                 
 "
 taskType
@@ -811,10 +811,18 @@ v1
             
 dependencies
 =
-[
-build_task_id
-barrier_task_id
-]
+{
+'
+build
+'
+:
+build_task_label
+'
+barrier
+'
+:
+barrier_task_label
+}
             
 routes
 =
@@ -1133,8 +1141,8 @@ craft_beetmover_task
 (
         
 self
-build_task_id
-sign_task_id
+build_task_label
+sign_task_label
 build_artifacts
 sign_artifacts
 component_name
@@ -1357,7 +1365,19 @@ build_artifacts
 taskId
 "
 :
-build_task_id
+{
+'
+task
+-
+reference
+'
+:
+'
+<
+build
+>
+'
+}
             
 }
 {
@@ -1436,7 +1456,19 @@ sign_artifacts
 taskId
 "
 :
-sign_task_id
+{
+'
+task
+-
+reference
+'
+:
+'
+<
+signing
+>
+'
+}
             
 }
 ]
@@ -1469,7 +1501,19 @@ build_artifacts
 taskId
 '
 :
-build_task_id
+{
+'
+task
+-
+reference
+'
+:
+'
+<
+build
+>
+'
+}
                 
 '
 taskType
@@ -1503,7 +1547,19 @@ sign_artifacts
 taskId
 '
 :
-sign_task_id
+{
+'
+task
+-
+reference
+'
+:
+'
+<
+signing
+>
+'
+}
                 
 '
 taskType
@@ -1560,10 +1616,18 @@ v1
             
 dependencies
 =
-[
-build_task_id
-sign_task_id
-]
+{
+'
+build
+'
+:
+build_task_label
+'
+signing
+'
+:
+sign_task_label
+}
             
 routes
 =
