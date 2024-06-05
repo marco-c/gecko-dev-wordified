@@ -245,10 +245,6 @@ button
 ;
 private
 boolean
-animating
-;
-private
-boolean
 visible
 ;
 public
@@ -464,10 +460,6 @@ boolean
 hide
 )
 {
-animating
-=
-true
-;
 child
 .
 animate
@@ -580,10 +572,6 @@ Animator
 animation
 )
 {
-animating
-=
-false
-;
 visible
 =
 !
