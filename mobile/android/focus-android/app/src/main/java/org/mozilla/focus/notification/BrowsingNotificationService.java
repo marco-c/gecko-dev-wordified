@@ -508,6 +508,10 @@ getAction
 case
 ACTION_START
 :
+foreground
+=
+true
+;
 startBrowsingSession
 (
 )
