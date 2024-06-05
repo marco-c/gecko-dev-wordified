@@ -756,7 +756,7 @@ scopes
 =
 [
 ]
-track
+channel
 =
 '
 internal
@@ -933,10 +933,10 @@ commit
 commit
                 
 "
-google_play_track
+channel
 "
 :
-track
+channel
                 
 "
 upstreamArtifacts

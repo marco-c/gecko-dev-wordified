@@ -767,7 +767,7 @@ generate_push_task
 (
 signing_task_id
 apks
-track
+channel
 commit
 )
 :
@@ -872,9 +872,9 @@ focus
         
 ]
         
-track
+channel
 =
-track
+channel
         
 commit
 =
@@ -991,7 +991,7 @@ def
 release
 (
 apks
-track
+channel
 commit
 tag
 )
@@ -1125,7 +1125,7 @@ generate_push_task
 (
 sign_task_id
 apks
-track
+channel
 commit
 )
     
@@ -1259,12 +1259,12 @@ add_argument
 '
 -
 -
-track
+channel
 '
 dest
 =
 "
-track
+channel
 "
 action
 =
@@ -1465,7 +1465,7 @@ release
 apks
 result
 .
-track
+channel
 result
 .
 commit
