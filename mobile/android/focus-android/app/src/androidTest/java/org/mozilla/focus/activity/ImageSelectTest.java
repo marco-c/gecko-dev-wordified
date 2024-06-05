@@ -1131,7 +1131,7 @@ rabbitImage
 dragTo
 (
 rabbitImage
-5
+10
 )
 ;
 imageMenuTitle
@@ -1476,7 +1476,7 @@ rabbitImage
 dragTo
 (
 rabbitImage
-5
+10
 )
 ;
 imageMenuTitle
@@ -1712,7 +1712,7 @@ rabbitImage
 dragTo
 (
 rabbitImage
-5
+10
 )
 ;
 imageMenuTitle
