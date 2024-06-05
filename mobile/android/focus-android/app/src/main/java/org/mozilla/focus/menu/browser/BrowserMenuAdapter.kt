@@ -798,14 +798,6 @@ AppConstants
 isGeckoBuild
 )
 {
-items
-.
-add
-(
-MenuItem
-.
-RequestDesktopCheck
-)
 /
 /
 "
