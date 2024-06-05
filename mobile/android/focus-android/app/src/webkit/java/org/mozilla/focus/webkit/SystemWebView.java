@@ -156,15 +156,6 @@ support
 .
 annotation
 .
-Nullable
-;
-import
-android
-.
-support
-.
-annotation
-.
 VisibleForTesting
 ;
 import
@@ -365,7 +356,7 @@ WebViewProvider
 ;
 public
 class
-WebkitView
+SystemWebView
 extends
 NestedWebView
 implements
@@ -398,7 +389,7 @@ LinkHandler
 linkHandler
 ;
 public
-WebkitView
+SystemWebView
 (
 Context
 context

@@ -212,7 +212,7 @@ focus
 .
 webkit
 .
-WebkitView
+SystemWebView
 ;
 /
 *
@@ -308,7 +308,7 @@ Context
 context
 )
 {
-WebkitView
+SystemWebView
 .
 deleteContentFromKnownLocations
 (
@@ -328,11 +328,11 @@ attrs
 )
 {
 final
-WebkitView
+SystemWebView
 webkitView
 =
 new
-WebkitView
+SystemWebView
 (
 context
 attrs
