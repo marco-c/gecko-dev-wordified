@@ -543,8 +543,6 @@ x86
 debug
 model
 =
-model
-=
 Nexus9
 version
 =
