@@ -850,6 +850,16 @@ beginTransaction
 (
 )
 .
+setCustomAnimations
+(
+0
+R
+.
+anim
+.
+erase_animation
+)
+.
 replace
 (
 R
