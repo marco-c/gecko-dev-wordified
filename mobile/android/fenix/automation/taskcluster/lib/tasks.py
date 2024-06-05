@@ -215,7 +215,7 @@ def
 craft_assemble_release_task
 (
 self
-apks
+architectures
 is_staging
 =
 False
@@ -229,20 +229,17 @@ artifacts
 '
 public
 /
+target
+.
 {
 }
+.
+apk
 '
 .
 format
 (
-os
-.
-path
-.
-basename
-(
-apk
-)
+arch
 )
 :
 {
@@ -259,7 +256,48 @@ file
 path
 "
 :
+'
+/
+opt
+/
+fenix
+/
+app
+/
+build
+/
+outputs
+/
 apk
+/
+'
+                        
+'
+{
+}
+Greenfield
+/
+release
+/
+app
+-
+{
+}
+-
+greenfield
+-
+release
+-
+unsigned
+.
+apk
+'
+.
+format
+(
+arch
+arch
+)
                 
 "
 expires
@@ -280,9 +318,9 @@ DEFAULT_EXPIRES_IN
 }
             
 for
-apk
+arch
 in
-apks
+architectures
         
 }
         
@@ -2572,9 +2610,6 @@ apks
 is_staging
 =
 True
-commit
-=
-False
     
 )
 :
@@ -2587,7 +2622,7 @@ payload
 commit
 "
 :
-commit
+True
             
 "
 google_play_track
