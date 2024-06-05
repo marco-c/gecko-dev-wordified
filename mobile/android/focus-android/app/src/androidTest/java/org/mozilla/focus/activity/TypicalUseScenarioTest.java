@@ -834,6 +834,15 @@ google
 )
 )
 ;
+TestHelper
+.
+lockIcon
+.
+waitForExists
+(
+waitingTime
+)
+;
 assertTrue
 (
 TestHelper
