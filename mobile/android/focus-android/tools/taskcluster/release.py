@@ -311,6 +311,7 @@ clean
 test
 assembleRelease
 '
+)
         
 features
 =
