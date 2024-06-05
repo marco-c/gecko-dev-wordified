@@ -581,7 +581,7 @@ EXTRA_ACTION_BUTTON_BUNDLE
 )
 {
 final
-Bundle
+SafeBundle
 actionButtonBundle
 =
 intent
