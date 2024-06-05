@@ -392,6 +392,14 @@ binding
 pager
 true
 )
+binding
+.
+skip
+.
+setOnClickListener
+(
+this
+)
 return
 binding
 .
