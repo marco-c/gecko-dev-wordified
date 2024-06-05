@@ -424,6 +424,12 @@ break
 case
 ACTION_ERASE
 :
+TelemetryWrapper
+.
+eraseNotificationEvent
+(
+)
+;
 SessionManager
 .
 getInstance
@@ -431,12 +437,6 @@ getInstance
 )
 .
 removeAllSessions
-(
-)
-;
-TelemetryWrapper
-.
-eraseNotificationEvent
 (
 )
 ;
