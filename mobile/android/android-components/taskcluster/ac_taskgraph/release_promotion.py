@@ -1385,12 +1385,3 @@ read
 strip
 (
 )
-.
-decode
-(
-'
-utf
--
-8
-'
-)
