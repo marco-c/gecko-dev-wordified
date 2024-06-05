@@ -456,7 +456,7 @@ PcrashReports
 true
 clean
 test
-assembleGreenfieldRelease
+assembleRelease
 '
 )
         
