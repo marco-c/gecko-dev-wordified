@@ -2663,12 +2663,10 @@ else
 '
 '
         
-#
 routes
 =
 [
-        
-#
+            
 "
 index
 .
@@ -2703,8 +2701,7 @@ latest
 .
 format
 (
-        
-#
+                
 staging_prefix
 self
 .
@@ -2724,11 +2721,9 @@ day
 variant
 .
 abi
-        
-#
+            
 )
-        
-#
+            
 "
 index
 .
@@ -2766,8 +2761,7 @@ revision
 .
 format
 (
-        
-#
+                
 staging_prefix
 self
 .
@@ -2790,11 +2784,9 @@ commit
 variant
 .
 abi
-        
-#
+            
 )
-        
-#
+            
 "
 index
 .
@@ -2826,12 +2818,6 @@ variant
 abi
 )
         
-#
-]
-        
-routes
-=
-[
 ]
         
 return
