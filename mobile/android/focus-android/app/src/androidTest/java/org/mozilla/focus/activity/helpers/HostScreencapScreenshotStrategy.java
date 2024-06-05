@@ -318,6 +318,7 @@ screenshotCallback
 {
 takeScreenshotViaHost
 (
+screenshotName
 )
 ;
 Bitmap
@@ -355,6 +356,8 @@ private
 void
 takeScreenshotViaHost
 (
+String
+name
 )
 {
 try
@@ -383,6 +386,12 @@ HOST_LOOPBACK
 "
 +
 PORT
++
+"
+/
+"
++
+name
 )
 .
 openConnection
