@@ -833,6 +833,12 @@ openNotification
 (
 )
 ;
+TestHelper
+.
+waitForIdle
+(
+)
+;
 /
 /
 If
