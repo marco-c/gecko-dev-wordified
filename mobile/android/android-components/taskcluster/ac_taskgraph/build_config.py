@@ -58,10 +58,6 @@ os
 import
 yaml
 from
-six
-import
-ensure_text
-from
 taskgraph
 .
 util
@@ -258,8 +254,7 @@ as
 fh
 :
         
-version
-=
+return
 fh
 .
 read
@@ -268,12 +263,6 @@ read
 .
 strip
 (
-)
-    
-return
-ensure_text
-(
-version
 )
 def
 get_path
