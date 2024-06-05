@@ -236,6 +236,10 @@ an
 "
 	
 "
+anp
+"
+	
+"
 ar
 "
 	
@@ -422,6 +426,10 @@ ko
 "
 	
 "
+kw
+"
+	
+"
 lo
 "
 	
@@ -528,6 +536,10 @@ trs
 "
 	
 "
+tsz
+"
+	
+"
 tt
 "
 	
@@ -612,10 +624,6 @@ progress
 ADDITIONAL_SCREENSHOT_LOCALES
 =
 [
-	
-"
-anp
-"
 	
 "
 lt
