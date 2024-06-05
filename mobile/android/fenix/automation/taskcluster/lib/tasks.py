@@ -414,6 +414,36 @@ cmd
         
 )
         
+routes
+=
+[
+]
+if
+is_staging
+else
+[
+            
+"
+notify
+.
+email
+.
+fenix
+-
+eng
+-
+notifications
+mozilla
+.
+com
+.
+on
+-
+failed
+"
+        
+]
+        
 return
 self
 .
@@ -476,26 +506,7 @@ artifacts
             
 routes
 =
-[
-"
-notify
-.
-email
-.
-fenix
--
-eng
--
-notifications
-mozilla
-.
-com
-.
-on
--
-failed
-"
-]
+routes
             
 is_staging
 =
