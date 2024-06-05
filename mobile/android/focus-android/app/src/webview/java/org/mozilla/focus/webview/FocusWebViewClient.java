@@ -1264,7 +1264,7 @@ dealing
 with
 error
 pages
-webkit
+WebView
 sometimes
 sends
 onPageStarted
@@ -2208,7 +2208,7 @@ cancel
 ;
 /
 /
-Webkit
+WebView
 can
 try
 to
@@ -2235,7 +2235,7 @@ loadErrorPage
 (
 )
 again
-webkit
+WebView
 tries
 to
 load

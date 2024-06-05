@@ -642,7 +642,7 @@ s
 )
 URIs
 .
-Webkit
+WebView
 will
 already
 ignore
@@ -692,7 +692,7 @@ are
 automatically
 handled
 by
-webkit
+WebView
 and
 won
 '

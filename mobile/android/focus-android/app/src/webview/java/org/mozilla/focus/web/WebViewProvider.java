@@ -222,9 +222,9 @@ WebViewProvider
 for
 creating
 a
-WebKit
+WebView
 based
-IWebVIew
+IWebView
 implementation
 .
 *
