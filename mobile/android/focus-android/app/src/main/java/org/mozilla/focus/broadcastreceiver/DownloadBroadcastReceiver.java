@@ -706,7 +706,7 @@ R
 .
 color
 .
-download_dialog_text
+snackbarActionText
 )
 )
 ;
