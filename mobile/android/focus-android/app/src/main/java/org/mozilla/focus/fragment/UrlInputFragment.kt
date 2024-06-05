@@ -741,7 +741,7 @@ let
 {
 urlAutoCompleteFilter
 .
-loadDomainsInBackground
+initialize
 (
 it
 .
