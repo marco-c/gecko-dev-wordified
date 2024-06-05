@@ -390,10 +390,6 @@ CustomTabConfig
 isCustomTabIntent
 (
 intent
-.
-getUnsafe
-(
-)
 )
 )
 {
