@@ -68,7 +68,7 @@ is
 pushed
 to
 the
-master
+main
 branch
 .
 It
@@ -181,7 +181,7 @@ android
 /
 tree
 /
-master
+main
 /
 tools
 /

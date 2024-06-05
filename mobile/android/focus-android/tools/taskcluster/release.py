@@ -322,7 +322,7 @@ reset
 hard
 origin
 /
-master
+main
 "
 if
 tag

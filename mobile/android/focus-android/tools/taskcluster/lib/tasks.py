@@ -1034,7 +1034,7 @@ android
 /
 tree
 /
-master
+main
 /
 tools
 /
