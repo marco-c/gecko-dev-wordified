@@ -671,6 +671,7 @@ querySelectorAll
 "
 p
 pre
+article
 "
 )
 ;
