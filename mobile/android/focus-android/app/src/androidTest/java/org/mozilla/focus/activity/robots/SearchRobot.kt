@@ -186,7 +186,7 @@ helpers
 .
 TestHelper
 .
-appName
+mDevice
 import
 org
 .
@@ -198,7 +198,7 @@ helpers
 .
 TestHelper
 .
-mDevice
+packageName
 import
 org
 .
@@ -496,7 +496,7 @@ UiSelector
 resourceId
 (
 "
-appName
+packageName
 :
 id
 /
@@ -574,7 +574,7 @@ UiSelector
 resourceId
 (
 "
-appName
+packageName
 :
 id
 /
@@ -597,7 +597,7 @@ UiSelector
 resourceId
 (
 "
-appName
+packageName
 :
 id
 /
@@ -625,7 +625,7 @@ UiSelector
 resourceId
 (
 "
-appName
+packageName
 :
 id
 /
@@ -653,7 +653,7 @@ UiSelector
 resourceId
 (
 "
-appName
+packageName
 :
 id
 /
@@ -681,7 +681,7 @@ UiSelector
 resourceId
 (
 "
-appName
+packageName
 :
 id
 /
