@@ -147,7 +147,7 @@ R
 ;
 public
 class
-FloatingTabsButton
+FloatingSessionsButton
 extends
 FloatingActionButton
 {
@@ -169,7 +169,7 @@ int
 tabCount
 ;
 public
-FloatingTabsButton
+FloatingSessionsButton
 (
 Context
 context
@@ -186,7 +186,7 @@ init
 ;
 }
 public
-FloatingTabsButton
+FloatingSessionsButton
 (
 Context
 context
@@ -206,7 +206,7 @@ init
 ;
 }
 public
-FloatingTabsButton
+FloatingSessionsButton
 (
 Context
 context
