@@ -532,7 +532,7 @@ Settings
 /
 TestHelper
 .
-urlBar
+inlineAutocompleteEditText
 .
 waitForExists
 (

@@ -786,7 +786,7 @@ Settings
 /
 TestHelper
 .
-urlBar
+inlineAutocompleteEditText
 .
 waitForExists
 (
@@ -1173,7 +1173,7 @@ fr
 ;
 TestHelper
 .
-urlBar
+inlineAutocompleteEditText
 .
 waitForExists
 (

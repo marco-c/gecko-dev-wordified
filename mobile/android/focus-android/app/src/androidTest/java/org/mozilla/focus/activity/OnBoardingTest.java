@@ -405,7 +405,7 @@ click
 ;
 TestHelper
 .
-urlBar
+inlineAutocompleteEditText
 .
 waitForExists
 (
@@ -418,7 +418,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+inlineAutocompleteEditText
 .
 exists
 (

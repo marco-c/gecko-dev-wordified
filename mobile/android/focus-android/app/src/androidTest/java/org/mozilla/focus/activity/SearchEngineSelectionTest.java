@@ -735,14 +735,6 @@ anything
 /
 TestHelper
 .
-urlBar
-.
-click
-(
-)
-;
-TestHelper
-.
 inlineAutocompleteEditText
 .
 waitForExists
