@@ -115,13 +115,6 @@ net
 Uri
 ;
 import
-android
-.
-preference
-.
-PreferenceManager
-;
-import
 androidx
 .
 browser
@@ -129,6 +122,13 @@ browser
 customtabs
 .
 CustomTabsIntent
+;
+import
+androidx
+.
+preference
+.
+PreferenceManager
 ;
 import
 androidx

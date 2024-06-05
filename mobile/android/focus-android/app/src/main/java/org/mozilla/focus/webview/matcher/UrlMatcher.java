@@ -122,13 +122,6 @@ net
 Uri
 ;
 import
-android
-.
-preference
-.
-PreferenceManager
-;
-import
 androidx
 .
 annotation
@@ -155,6 +148,13 @@ androidx
 collection
 .
 ArrayMap
+;
+import
+androidx
+.
+preference
+.
+PreferenceManager
 ;
 import
 android
