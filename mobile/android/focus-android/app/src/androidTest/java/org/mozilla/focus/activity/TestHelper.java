@@ -362,6 +362,7 @@ final
 class
 TestHelper
 {
+public
 static
 UiDevice
 mDevice
@@ -424,6 +425,7 @@ Locators
 *
 *
 /
+public
 static
 UiObject
 firstSlide
@@ -453,6 +455,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 secondSlide
@@ -482,6 +485,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 thirdSlide
@@ -513,6 +517,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 lastSlide
@@ -542,6 +547,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 nextBtn
@@ -578,6 +584,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 finishBtn
@@ -675,6 +682,7 @@ Locators
 *
 *
 /
+public
 static
 ViewInteraction
 menuButton
@@ -722,6 +730,7 @@ Locators
 *
 *
 /
+public
 static
 UiObject
 browserURLbar
@@ -758,6 +767,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 inlineAutocompleteEditText
@@ -835,6 +845,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 hint
@@ -871,6 +882,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 webView
@@ -964,6 +976,7 @@ true
 )
 )
 ;
+public
 static
 ViewInteraction
 floatingEraseButton
@@ -1179,6 +1192,7 @@ connection
 )
 )
 ;
+public
 static
 UiObject
 notificationBarDeleteItem
@@ -1429,6 +1443,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 AddtoHSmenuItem
@@ -1461,12 +1476,13 @@ add_to_homescreen
 "
 )
 .
-clickable
+enabled
 (
 true
 )
 )
 ;
+public
 static
 UiObject
 AddtoHSCancelBtn
@@ -1637,6 +1653,7 @@ Locators
 *
 *
 /
+public
 static
 UiObject
 RightsItem
@@ -1667,6 +1684,7 @@ instance
 )
 )
 ;
+public
 static
 UiObject
 AboutItem
@@ -1702,6 +1720,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 HelpItem
@@ -1737,6 +1756,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 settingsMenuItem
@@ -1989,6 +2009,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 shareAppList
@@ -2047,6 +2068,7 @@ Locators
 *
 *
 /
+public
 static
 UiScrollable
 settingsList
@@ -2076,6 +2098,7 @@ true
 )
 )
 ;
+public
 static
 UiObject
 settingsHeading
@@ -2222,6 +2245,7 @@ waitingTime
 )
 ;
 }
+public
 static
 void
 pressEnterKey
@@ -2236,6 +2260,7 @@ KEYCODE_ENTER
 )
 ;
 }
+public
 static
 void
 pressBackKey
@@ -2421,6 +2446,7 @@ fileName
 )
 ;
 }
+public
 static
 Buffer
 readTestAsset
