@@ -1096,7 +1096,7 @@ app
 /
 src
 /
-main
+webkit
 /
 res
 /
@@ -1130,7 +1130,7 @@ app
 /
 src
 /
-main
+webkit
 /
 res
 /
