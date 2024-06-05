@@ -1062,6 +1062,11 @@ Bitmap
 favicon
 )
 {
+if
+(
+blockingEnabled
+)
+{
 BrowsingSession
 .
 getInstance
@@ -1072,6 +1077,7 @@ resetTrackerCount
 (
 )
 ;
+}
 currentPageURL
 =
 url
