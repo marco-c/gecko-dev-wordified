@@ -1545,7 +1545,7 @@ R
 .
 string
 .
-pref_key_privacy_block_other2
+pref_key_privacy_block_other3
 )
 resources
 .
