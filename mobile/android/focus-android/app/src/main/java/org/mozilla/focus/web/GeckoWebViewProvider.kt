@@ -1001,6 +1001,14 @@ createGeckoSession
 applySettingsAndSetDelegates
 (
 )
+geckoSession
+.
+open
+(
+geckoRuntime
+!
+!
+)
 setSession
 (
 geckoSession
