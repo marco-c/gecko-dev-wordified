@@ -1244,6 +1244,9 @@ join
 tokens
 )
 +
+"
+"
++
 focusToken
 ;
 }
