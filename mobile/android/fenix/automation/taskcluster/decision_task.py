@@ -321,6 +321,8 @@ BUILD_DATE
     
 trust_level
 =
+int
+(
 os
 .
 environ
@@ -330,6 +332,7 @@ get
 '
 TRUST_LEVEL
 '
+)
 )
 )
 def
