@@ -1533,16 +1533,6 @@ R
 .
 string
 .
-pref_key_homescreen_tips
-)
-resources
-.
-getString
-(
-R
-.
-string
-.
 pref_key_show_search_suggestions
 )
 )
