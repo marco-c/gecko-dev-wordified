@@ -242,22 +242,6 @@ level
 "
 :
             
-build_type
-=
-task
-[
-"
-attributes
-"
-]
-[
-"
-build
--
-type
-"
-]
-            
 gradle_build_type
 =
 task
@@ -289,7 +273,7 @@ focus
 android
 /
 {
-build_type
+gradle_build_type
 }
 '
             
