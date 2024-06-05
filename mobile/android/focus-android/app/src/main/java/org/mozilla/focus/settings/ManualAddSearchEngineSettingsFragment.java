@@ -420,6 +420,12 @@ startActivity
 intent
 )
 ;
+TelemetryWrapper
+.
+addSearchEngineLearnMoreEvent
+(
+)
+;
 return
 true
 ;
