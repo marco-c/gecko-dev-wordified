@@ -590,6 +590,12 @@ ADDITIONAL_SCREENSHOT_LOCALES
 "
 lt
 "
+	
+"
+gu
+-
+IN
+"
 ]
 #
 Those
