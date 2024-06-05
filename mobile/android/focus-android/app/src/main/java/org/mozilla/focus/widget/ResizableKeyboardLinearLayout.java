@@ -251,4 +251,17 @@ onDetachedFromWindow
 )
 ;
 }
+public
+void
+reset
+(
+)
+{
+delegate
+.
+reset
+(
+)
+;
+}
 }
