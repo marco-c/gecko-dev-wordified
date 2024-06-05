@@ -274,7 +274,7 @@ false
 val
 domains
 =
-setOf
+listOf
 (
 "
 mozilla
@@ -297,7 +297,7 @@ filter
 onDomainsLoaded
 (
 domains
-HashSet
+emptyList
 (
 )
 )
@@ -477,7 +477,7 @@ apply
 val
 domains
 =
-setOf
+listOf
 (
 "
 facebook
@@ -498,7 +498,7 @@ org
 val
 customDomains
 =
-setOf
+listOf
 (
 "
 gap
