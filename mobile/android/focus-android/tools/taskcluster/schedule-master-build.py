@@ -592,7 +592,7 @@ week
 def
 generate_release_task
 (
-uiTestTaskId
+dependencies
 )
 :
 	
@@ -732,9 +732,7 @@ COMMIT
 		
 dependencies
 =
-[
-uiTestTaskId
-]
+dependencies
 		
 scopes
 =
@@ -1338,7 +1336,10 @@ releaseTask
 =
 generate_release_task
 (
-uiTestTaskId
+[
+unitTestTaskId
+codeQualityTaskId
+]
 )
 	
 schedule_task
