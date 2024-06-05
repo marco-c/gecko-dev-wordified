@@ -194,17 +194,6 @@ mozilla
 .
 gecko
 .
-GeckoSession
-.
-*
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoSessionSettings
 ;
 /
@@ -1061,6 +1050,8 @@ socialTrackersBlocked
 categories
 +
 =
+GeckoSession
+.
 TrackingProtectionDelegate
 .
 CATEGORY_SOCIAL
@@ -1074,6 +1065,8 @@ adTrackersBlocked
 categories
 +
 =
+GeckoSession
+.
 TrackingProtectionDelegate
 .
 CATEGORY_AD
@@ -1087,6 +1080,8 @@ analyticTrackersBlocked
 categories
 +
 =
+GeckoSession
+.
 TrackingProtectionDelegate
 .
 CATEGORY_ANALYTIC
@@ -1100,6 +1095,8 @@ contentTrackersBlocked
 categories
 +
 =
+GeckoSession
+.
 TrackingProtectionDelegate
 .
 CATEGORY_CONTENT
@@ -1123,6 +1120,8 @@ categories
 }
 }
 private
+GeckoSession
+.
 ContentListener
 createContentListener
 (
@@ -1130,6 +1129,8 @@ createContentListener
 {
 return
 new
+GeckoSession
+.
 ContentListener
 (
 )
@@ -1313,6 +1314,8 @@ geckoSession
 ;
 }
 private
+GeckoSession
+.
 ProgressListener
 createProgressListener
 (
@@ -1320,6 +1323,8 @@ createProgressListener
 {
 return
 new
+GeckoSession
+.
 ProgressListener
 (
 )
@@ -1454,6 +1459,8 @@ isSecure
 ;
 }
 private
+GeckoSession
+.
 NavigationListener
 createNavigationListener
 (
@@ -1461,6 +1468,8 @@ createNavigationListener
 {
 return
 new
+GeckoSession
+.
 NavigationListener
 (
 )
@@ -1584,6 +1593,10 @@ if
 where
 =
 =
+GeckoSession
+.
+NavigationListener
+.
 TargetWindow
 .
 NEW
@@ -1613,6 +1626,8 @@ link
 if
 (
 LocalizedContentGecko
+.
+INSTANCE
 .
 handleInternalContent
 (
@@ -1645,6 +1660,8 @@ false
 ;
 }
 private
+GeckoSession
+.
 TrackingProtectionDelegate
 createTrackingProtectionDelegate
 (
@@ -1652,6 +1669,8 @@ createTrackingProtectionDelegate
 {
 return
 new
+GeckoSession
+.
 TrackingProtectionDelegate
 (
 )
@@ -1689,6 +1708,8 @@ countBlockedTracker
 ;
 }
 private
+GeckoSession
+.
 PromptDelegate
 createPromptDelegate
 (
