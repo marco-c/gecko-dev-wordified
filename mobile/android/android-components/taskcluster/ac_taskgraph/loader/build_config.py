@@ -253,6 +253,10 @@ geckoReleaseImplementation
 "
 implementation
 "
+    
+"
+testImplementation
+"
 )
 ALL_COMPONENTS
 =
