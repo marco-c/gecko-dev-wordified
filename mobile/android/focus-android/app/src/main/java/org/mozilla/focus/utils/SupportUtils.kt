@@ -783,7 +783,9 @@ SessionState
 .
 Source
 .
-MENU
+Internal
+.
+Menu
 selectTab
 =
 true
