@@ -726,7 +726,9 @@ PreferenceManager
 .
 getDefaultSharedPreferences
 (
-context
+requireContext
+(
+)
 )
 .
 edit
