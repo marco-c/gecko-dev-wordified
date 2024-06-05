@@ -1650,7 +1650,7 @@ openWhatsNewEvent
 (
 WhatsNew
 .
-wasUpdatedRecently
+shouldHighlightWhatsNew
 (
 getContext
 (
@@ -1660,7 +1660,7 @@ getContext
 ;
 WhatsNew
 .
-reset
+userViewedWhatsNew
 (
 getContext
 (
