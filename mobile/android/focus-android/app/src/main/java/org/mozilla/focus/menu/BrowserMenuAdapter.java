@@ -353,6 +353,19 @@ ArrayList
 (
 )
 ;
+if
+(
+customTabConfig
+=
+=
+null
+|
+|
+customTabConfig
+.
+showShareMenuItem
+)
+{
 items
 .
 add
@@ -378,6 +391,7 @@ menu_share
 )
 )
 ;
+}
 if
 (
 browsers
