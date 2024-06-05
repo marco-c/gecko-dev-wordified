@@ -1041,7 +1041,7 @@ fromShortcut
 {
 TelemetryWrapper
 .
-eraseEvent
+eraseShortcutEvent
 (
 )
 ;
