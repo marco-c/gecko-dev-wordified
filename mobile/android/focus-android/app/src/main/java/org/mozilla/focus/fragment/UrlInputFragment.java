@@ -2654,6 +2654,10 @@ if
 !
 input
 .
+trim
+(
+)
+.
 isEmpty
 (
 )
