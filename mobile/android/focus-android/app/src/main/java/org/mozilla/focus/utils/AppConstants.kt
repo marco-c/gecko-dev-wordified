@@ -175,7 +175,7 @@ PRODUCT_FLAVOR_KLAR
 =
 BuildConfig
 .
-FLAVOR_product
+FLAVOR
 val
 isReleaseBuild
 :
