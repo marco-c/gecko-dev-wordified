@@ -1299,6 +1299,17 @@ pull_request_number
 =
 None
     
+parameters
+[
+'
+tasks_for
+'
+]
+=
+'
+action
+'
+    
 #
 make
 parameters
