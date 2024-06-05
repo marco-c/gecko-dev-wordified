@@ -130,7 +130,11 @@ get
 '
 project
 /
+mobile
+/
 focus
+-
+android
 /
 tokens
 '

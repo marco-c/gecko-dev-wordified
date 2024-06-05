@@ -67,15 +67,15 @@ service
 to
 obtain
 the
-Sentry
-token
+Nimbus
+endpoint
 and
 write
 it
 to
 the
 .
-sentry_token
+nimbus
 file
 in
 the
@@ -163,7 +163,7 @@ __file__
 .
 /
 .
-sentry_token
+nimbus
 '
 )
 with
@@ -190,7 +190,7 @@ secret
 ]
 [
 '
-sentryToken
+nimbus
 '
 ]
 )
@@ -198,8 +198,8 @@ print
 (
 "
 Imported
-sentry
-token
+Nimbus
+endpoint
 from
 secrets
 service
