@@ -197,7 +197,6 @@ defStyleRes
 ;
 init
 (
-context
 )
 ;
 }
@@ -233,7 +232,6 @@ defStyleAttr
 ;
 init
 (
-context
 )
 ;
 }
@@ -266,7 +264,6 @@ attrs
 ;
 init
 (
-context
 )
 ;
 }
@@ -296,7 +293,6 @@ context
 ;
 init
 (
-context
 )
 ;
 }
@@ -304,20 +300,21 @@ private
 void
 init
 (
-Context
-context
 )
 {
 setTitle
 (
 SearchEngineManager
 .
-getDefaultSearchEngine
+getInstance
 (
-context
 )
 .
-getLabel
+getDefaultSearchEngine
+(
+)
+.
+getName
 (
 )
 )
@@ -341,9 +338,6 @@ adapter
 new
 SearchEngineAdapter
 (
-getContext
-(
-)
 )
 ;
 builder
@@ -433,7 +427,7 @@ setTitle
 (
 searchEngine
 .
-getLabel
+getName
 (
 )
 )
