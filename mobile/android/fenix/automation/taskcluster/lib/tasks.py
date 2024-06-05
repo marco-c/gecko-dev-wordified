@@ -500,8 +500,10 @@ daemon
 -
 PversionName
 =
+"
 {
 }
+"
 clean
 test
 assemble
