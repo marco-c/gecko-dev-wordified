@@ -396,6 +396,8 @@ learnMoreURL
 =
 SupportUtils
 .
+INSTANCE
+.
 getManifestoURL
 (
 )

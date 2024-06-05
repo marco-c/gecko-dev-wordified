@@ -342,6 +342,8 @@ context
 {
 SystemWebView
 .
+Companion
+.
 deleteContentFromKnownLocations
 (
 context
