@@ -1340,7 +1340,7 @@ modules
 gradle_task
 =
 '
-lint
+lintAarch64GreenfieldRelease
 '
             
 treeherder
