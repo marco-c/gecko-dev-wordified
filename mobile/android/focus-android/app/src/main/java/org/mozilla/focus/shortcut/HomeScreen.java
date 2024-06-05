@@ -619,14 +619,6 @@ shortcut
 null
 )
 ;
-MainActivity
-.
-requestShortcut
-(
-shortcutManager
-shortcut
-)
-;
 }
 }
 private
