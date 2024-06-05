@@ -314,11 +314,6 @@ whitelist
 }
 public
 final
-char
-character
-;
-public
-final
 SparseArray
 <
 Trie
@@ -646,12 +641,6 @@ Trie
 parent
 )
 {
-this
-.
-character
-=
-character
-;
 if
 (
 parent
