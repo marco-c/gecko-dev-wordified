@@ -335,13 +335,15 @@ data
 WHATS_NEW
 (
 "
+whats
+-
 new
 -
 focus
 -
 android
 -
-5
+6
 "
 )
 ;
