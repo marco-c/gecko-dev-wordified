@@ -502,12 +502,6 @@ onPause
 ;
 }
 Override
-SuppressLint
-(
-"
-CommitTransaction
-"
-)
 protected
 void
 onNewIntent
