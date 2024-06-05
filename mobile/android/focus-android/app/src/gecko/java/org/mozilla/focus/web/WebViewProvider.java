@@ -920,8 +920,6 @@ restoreWebViewState
 (
 Session
 session
-Bundle
-inState
 )
 {
 /
@@ -945,9 +943,6 @@ saveWebViewState
 NonNull
 Session
 session
-NonNull
-Bundle
-outState
 )
 {
 /

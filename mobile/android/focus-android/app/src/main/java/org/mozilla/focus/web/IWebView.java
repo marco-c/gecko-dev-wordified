@@ -567,8 +567,6 @@ restoreWebViewState
 (
 Session
 session
-Bundle
-inState
 )
 ;
 void
@@ -577,9 +575,6 @@ saveWebViewState
 NonNull
 Session
 session
-NonNull
-Bundle
-outState
 )
 ;
 /
