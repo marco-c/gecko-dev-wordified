@@ -114,17 +114,6 @@ v4
 .
 view
 .
-MotionEventCompat
-;
-import
-android
-.
-support
-.
-v4
-.
-view
-.
 NestedScrollingChild
 ;
 import
