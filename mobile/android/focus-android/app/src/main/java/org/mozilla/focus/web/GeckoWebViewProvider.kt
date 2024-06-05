@@ -2548,6 +2548,7 @@ geckoErrorToErrorType
 (
 error
 )
+uri
 )
 .
 apply
