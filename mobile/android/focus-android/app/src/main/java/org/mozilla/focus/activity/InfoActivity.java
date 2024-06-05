@@ -421,7 +421,7 @@ R
 .
 string
 .
-menu_about
+menu_rights
 )
 )
 ;
