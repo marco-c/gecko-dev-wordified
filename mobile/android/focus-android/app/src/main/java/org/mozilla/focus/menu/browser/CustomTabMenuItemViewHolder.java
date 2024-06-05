@@ -295,7 +295,11 @@ parse
 (
 browserFragment
 .
-getSession
+getTab
+(
+)
+.
+getContent
 (
 )
 .
