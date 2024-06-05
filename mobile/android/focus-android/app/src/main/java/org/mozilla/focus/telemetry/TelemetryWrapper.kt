@@ -1527,6 +1527,16 @@ string
 .
 pref_key_autocomplete_custom
 )
+resources
+.
+getString
+(
+R
+.
+string
+.
+pref_key_remote_debugging
+)
 )
 .
 setSettingsProvider
