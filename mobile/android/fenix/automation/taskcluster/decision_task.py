@@ -1063,6 +1063,11 @@ push_tasks
 {
 }
     
+other_tasks
+=
+{
+}
+    
 build_task_id
 =
 taskcluster
@@ -1205,11 +1210,34 @@ is_staging
     
 )
     
+nimbledroid_task_id
+=
+taskcluster
+.
+slugId
+(
+)
+    
+other_tasks
+[
+nimbledroid_task_id
+]
+=
+BUILDER
+.
+craft_upload_apk_nimbledroid_task
+(
+        
+build_task_id
+    
+)
+    
 return
 (
 build_tasks
 signing_tasks
 push_tasks
+other_tasks
 )
 if
 __name__
