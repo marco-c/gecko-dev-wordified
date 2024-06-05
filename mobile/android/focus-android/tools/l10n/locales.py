@@ -232,6 +232,10 @@ am
 "
 	
 "
+an
+"
+	
+"
 ar
 "
 	
@@ -352,6 +356,12 @@ IE
 "
 	
 "
+gu
+-
+IN
+"
+	
+"
 hi
 -
 IN
@@ -454,6 +464,10 @@ NO
 "
 	
 "
+oc
+"
+	
+"
 pl
 "
 	
@@ -511,6 +525,10 @@ tr
 	
 "
 trs
+"
+	
+"
+tt
 "
 	
 "
@@ -596,29 +614,11 @@ ADDITIONAL_SCREENSHOT_LOCALES
 [
 	
 "
-an
-"
-	
-"
 anp
 "
 	
 "
-gu
--
-IN
-"
-	
-"
 lt
-"
-	
-"
-oc
-"
-	
-"
-tt
 "
 	
 "
