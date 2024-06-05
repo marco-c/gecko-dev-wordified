@@ -274,6 +274,10 @@ BrowserMenu
 menu
 BrowserFragment
 fragment
+final
+Nullable
+CustomTabConfig
+customTabConfig
 )
 {
 this
@@ -301,6 +305,7 @@ fragment
 getUrl
 (
 )
+customTabConfig
 )
 ;
 }
@@ -310,6 +315,10 @@ initializeMenu
 (
 String
 url
+final
+Nullable
+CustomTabConfig
+customTabConfig
 )
 {
 final
