@@ -111,7 +111,7 @@ kind
 )
 :
 {
-basestring
+str
 :
 Task
 }

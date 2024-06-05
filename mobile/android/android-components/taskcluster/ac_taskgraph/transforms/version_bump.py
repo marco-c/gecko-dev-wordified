@@ -224,15 +224,6 @@ params
 head_ref
 "
 ]
-.
-decode
-(
-"
-utf
--
-8
-"
-)
         
 }
         

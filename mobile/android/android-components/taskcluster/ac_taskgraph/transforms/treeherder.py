@@ -129,6 +129,8 @@ else
             
 dep
 =
+list
+(
 task
 [
 "
@@ -140,6 +142,7 @@ tasks
 .
 values
 (
+)
 )
 [
 0
