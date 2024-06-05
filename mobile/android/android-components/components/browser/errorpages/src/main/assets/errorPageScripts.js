@@ -375,6 +375,7 @@ showSSL
 queryMap
 .
 showSSL
+;
 if
 (
 typeof
@@ -412,6 +413,12 @@ else
 if
 (
 showSSL
+=
+=
+=
+'
+true
+'
 )
 {
 document
