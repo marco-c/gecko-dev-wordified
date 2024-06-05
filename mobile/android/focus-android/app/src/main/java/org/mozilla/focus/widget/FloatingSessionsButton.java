@@ -371,6 +371,16 @@ int
 tabCount
 )
 {
+if
+(
+this
+.
+tabCount
+!
+=
+tabCount
+)
+{
 this
 .
 tabCount
@@ -474,6 +484,7 @@ hide
 ;
 }
 }
+}
 Override
 protected
 void
@@ -481,6 +492,14 @@ onDraw
 (
 Canvas
 canvas
+)
+{
+if
+(
+tabCount
+>
+=
+2
 )
 {
 super
@@ -561,5 +580,6 @@ y
 textPaint
 )
 ;
+}
 }
 }
