@@ -580,7 +580,7 @@ from_values
 abi
 False
 '
-raptor
+forPerformanceTest
 '
 )
 for
@@ -612,7 +612,7 @@ assemble_task_id
 =
 BUILDER
 .
-craft_assemble_task
+craft_assemble_raptor_task
 (
 variant
 )
