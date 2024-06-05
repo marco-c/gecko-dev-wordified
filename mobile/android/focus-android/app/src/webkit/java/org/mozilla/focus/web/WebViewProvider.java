@@ -644,13 +644,6 @@ setLoadWithOverviewMode
 true
 )
 ;
-settings
-.
-setUseWideViewPort
-(
-true
-)
-;
 /
 /
 Also
