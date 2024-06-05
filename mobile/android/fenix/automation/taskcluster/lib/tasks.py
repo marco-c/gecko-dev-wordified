@@ -388,6 +388,37 @@ else
         
 )
         
+adjust_secret
+=
+'
+{
+}
+project
+/
+mobile
+/
+fenix
+/
+adjust
+'
+.
+format
+(
+            
+'
+garbage
+/
+staging
+/
+'
+if
+is_staging
+else
+'
+'
+        
+)
+        
 pre_gradle_commands
 =
 (
@@ -454,6 +485,17 @@ production
 '
 .
 leanplum_token
+'
+)
+                
+(
+adjust_secret
+'
+Greenfield
+'
+'
+.
+adjust_token
 '
 )
             
@@ -599,6 +641,7 @@ in
 (
 sentry_secret
 leanplum_secret
+adjust_secret
 )
             
 ]
