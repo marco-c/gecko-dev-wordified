@@ -2154,8 +2154,11 @@ UiSelector
 .
 resourceId
 (
+getAppName
+(
+)
++
 "
-android
 :
 id
 /
