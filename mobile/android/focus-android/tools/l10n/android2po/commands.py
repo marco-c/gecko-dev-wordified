@@ -46,6 +46,10 @@ colored
 import
 convert
 from
+patch
+import
+read_po
+from
 env
 import
 resolve_locale
@@ -116,8 +120,6 @@ try
 :
         
 return
-pofile
-.
 read_po
 (
 f
