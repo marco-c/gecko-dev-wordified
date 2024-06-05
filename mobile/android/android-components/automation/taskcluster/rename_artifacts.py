@@ -121,20 +121,6 @@ sha1
 md5
 '
 )
-#
-TODO
-:
-to
-replace
-here
-with
-mozilla
--
-version
-sanity
-check
-and
-parsing
 MAVEN_VERSION_REGEX
 =
 re
@@ -222,7 +208,7 @@ archive_filename
 try
 :
         
-version
+_
 =
 match
 .
@@ -275,7 +261,11 @@ archive_filename
 )
     
 return
-version
+match
+.
+groupdict
+(
+)
 def
 _extract_version
 (
@@ -313,10 +303,17 @@ files
 identifiers
 =
 {
+frozenset
+(
 _extract_and_check_version
 (
 file_
 MAVEN_VERSION_REGEX
+)
+.
+items
+(
+)
 )
         
 for
@@ -393,10 +390,13 @@ files
 )
     
 return
+dict
+(
 identifiers
 .
 pop
 (
+)
 )
 def
 does_file_name_contain_version
@@ -463,7 +463,7 @@ def
 process_artifacts
 (
 path
-buildid
+nightly_version
 )
 :
     
@@ -514,27 +514,34 @@ it
 s
 unique
     
-old_version
+old_version_dict
 =
 _extract_version
 (
 versioned_files
 )
     
-new_version
+old_version
 =
 '
 {
+major_number
 }
--
+.
 {
+minor_number
+}
+.
+{
+patch_number
 }
 '
 .
 format
 (
-old_version
-buildid
+*
+*
+old_version_dict
 )
     
 #
@@ -583,7 +590,7 @@ filename
 replace
 (
 old_version
-new_version
+nightly_version
 )
                 
 os
@@ -684,7 +691,9 @@ add_argument
 '
 -
 -
-buildid
+nightly
+-
+version
 '
         
 help
@@ -695,7 +704,9 @@ decision
 -
 task
 generated
-buildid
+nightly
+-
+version
 to
 be
 inferred
@@ -707,7 +718,7 @@ artifacts
 dest
 =
 '
-buildid
+nightly_version
 '
         
 required
@@ -764,5 +775,5 @@ args
 path
 args
 .
-buildid
+nightly_version
 )
