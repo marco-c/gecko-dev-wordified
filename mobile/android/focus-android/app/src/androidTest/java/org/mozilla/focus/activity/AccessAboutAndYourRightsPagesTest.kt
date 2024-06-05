@@ -252,7 +252,7 @@ mozilla
 .
 focus
 .
-helpers
+idlingResources
 .
 SessionLoadedIdlingResource
 /
