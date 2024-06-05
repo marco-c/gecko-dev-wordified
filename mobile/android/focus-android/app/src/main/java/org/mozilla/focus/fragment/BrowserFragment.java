@@ -4307,12 +4307,12 @@ R
 id
 .
 container
-HomeFragment
+UrlInputFragment
 .
-create
+createWithBackground
 (
 )
-HomeFragment
+UrlInputFragment
 .
 FRAGMENT_TAG
 )
@@ -4466,7 +4466,7 @@ urlFragment
 =
 UrlInputFragment
 .
-createWithBrowserScreenAnimation
+createAsOverlay
 (
 UrlUtils
 .
