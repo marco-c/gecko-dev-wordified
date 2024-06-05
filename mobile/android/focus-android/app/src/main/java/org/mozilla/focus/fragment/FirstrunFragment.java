@@ -360,7 +360,7 @@ FIRSTRUN_PREF
 true
 )
 .
-commit
+apply
 (
 )
 ;
