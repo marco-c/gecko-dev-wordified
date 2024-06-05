@@ -498,9 +498,6 @@ return
 eventHandled
 ;
 }
-/
-/
-NestedScrollingChild
 Override
 public
 void

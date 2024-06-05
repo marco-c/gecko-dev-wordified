@@ -1494,7 +1494,7 @@ R
 .
 string
 .
-username_hint
+gv_prompt_username_hint
 )
 ;
 username
@@ -1548,7 +1548,7 @@ R
 .
 string
 .
-password_hint
+gv_prompt_password_hint
 )
 ;
 password
@@ -4729,7 +4729,7 @@ R
 .
 string
 .
-clear_prompt
+gv_prompt_clear
 listener
 )
 .
