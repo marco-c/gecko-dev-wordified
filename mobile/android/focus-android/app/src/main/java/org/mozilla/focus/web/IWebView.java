@@ -272,6 +272,17 @@ isSecure
 )
 ;
 void
+onSecurityChanged
+(
+boolean
+isSecure
+String
+host
+String
+organization
+)
+;
+void
 onProgress
 (
 int
