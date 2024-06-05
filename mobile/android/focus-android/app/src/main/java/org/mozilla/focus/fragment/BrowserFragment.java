@@ -1916,7 +1916,7 @@ R
 .
 id
 .
-menu
+menuView
 )
 ;
 menuView
@@ -4825,7 +4825,7 @@ R
 .
 id
 .
-menu
+menuView
 :
 BrowserMenu
 menu

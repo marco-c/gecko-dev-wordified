@@ -591,7 +591,7 @@ R
 .
 id
 .
-url_edit
+urlView
 )
 )
 .
