@@ -1030,19 +1030,6 @@ task
 sign_task_id
 )
     
-#
-TODO
-enable
-once
-first
-apk
-uploaded
-to
-Google
-Play
-manually
-    
-#
 push_task_id
 push_task
 =
@@ -1054,7 +1041,6 @@ commit
 is_staging
 )
     
-#
 lib
 .
 tasks
@@ -1066,9 +1052,6 @@ push_task_id
 push_task
 )
     
-#
-    
-#
 task_graph
 [
 push_task_id
@@ -1077,7 +1060,6 @@ push_task_id
 {
 }
     
-#
 task_graph
 [
 push_task_id
