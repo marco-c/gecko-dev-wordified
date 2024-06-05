@@ -361,6 +361,18 @@ cmd
 /
 gradlew
 "
+"
+-
+-
+console
+=
+plain
+"
+"
+-
+-
+parallel
+"
 ]
         
 #
