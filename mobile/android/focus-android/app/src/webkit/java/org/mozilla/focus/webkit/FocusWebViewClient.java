@@ -434,7 +434,7 @@ String
 CLEAR_VISITED_CSS
 =
 "
-let
+var
 nSheets
 =
 document
@@ -464,7 +464,7 @@ s
 "
 +
 "
-let
+var
 stylesheet
 =
 document
@@ -477,7 +477,7 @@ s
 "
 +
 "
-let
+var
 nRules
 =
 stylesheet
@@ -616,7 +616,7 @@ i
 "
 +
 "
-let
+var
 cssRule
 =
 stylesheet
@@ -663,7 +663,7 @@ visited
 "
 +
 "
-let
+var
 tokens
 =
 cssRule
@@ -679,7 +679,7 @@ split
 "
 +
 "
-let
+var
 j
 =
 tokens
@@ -899,7 +899,7 @@ is
 loaded
 :
 "
-let
+var
 links
 =
 document
