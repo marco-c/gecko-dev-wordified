@@ -3856,6 +3856,12 @@ shouldStoreMetrics
 )
 )
 return
+Suppress
+(
+"
+DEPRECATION
+"
+)
 geckoRuntime
 !
 !
