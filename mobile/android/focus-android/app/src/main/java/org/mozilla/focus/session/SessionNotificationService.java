@@ -440,6 +440,13 @@ removeAllSessions
 (
 )
 ;
+VisibilityLifeCycleCallback
+.
+finishAndRemoveTaskIfInBackground
+(
+this
+)
+;
 break
 ;
 default
