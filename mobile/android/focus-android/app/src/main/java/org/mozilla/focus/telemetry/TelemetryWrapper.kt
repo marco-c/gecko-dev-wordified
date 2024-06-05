@@ -5294,7 +5294,7 @@ R
 .
 string
 .
-tip_disable_tracking_protection
+tip_disable_tracking_protection2
 -
 >
 Value
