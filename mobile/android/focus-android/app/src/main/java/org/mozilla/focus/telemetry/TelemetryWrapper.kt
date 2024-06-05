@@ -159,6 +159,14 @@ annotation
 .
 CheckResult
 import
+android
+.
+support
+.
+annotation
+.
+VisibleForTesting
+import
 kotlinx
 .
 coroutines
@@ -1884,7 +1892,7 @@ queue
 (
 )
 }
-private
+VisibleForTesting
 var
 histogram
 =
@@ -1892,7 +1900,7 @@ IntArray
 (
 HISTOGRAM_SIZE
 )
-private
+VisibleForTesting
 var
 domainMap
 =
@@ -1902,7 +1910,7 @@ String
 >
 (
 )
-private
+VisibleForTesting
 var
 numUri
 =
