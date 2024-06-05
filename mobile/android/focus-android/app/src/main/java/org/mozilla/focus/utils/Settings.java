@@ -292,6 +292,8 @@ v1
 #
 188
 )
+/
+*
 return
 preferences
 .
@@ -310,6 +312,11 @@ pref_key_performance_block_images
 false
 )
 ;
+*
+/
+return
+false
+;
 }
 public
 boolean
@@ -317,11 +324,6 @@ shouldShowFirstrun
 (
 )
 {
-return
-true
-;
-/
-/
 return
 !
 preferences
