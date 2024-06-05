@@ -74,6 +74,7 @@ task_id
 owner
 source
 scheduler_id
+build_worker_type
 )
 :
         
@@ -100,6 +101,12 @@ self
 scheduler_id
 =
 scheduler_id
+        
+self
+.
+build_worker_type
+=
+build_worker_type
     
 def
 build_task
@@ -110,7 +117,6 @@ description
 command
 artifacts
 features
-worker_type
 scopes
 =
 [
@@ -159,7 +165,9 @@ return
 workerType
 "
 :
-worker_type
+self
+.
+build_worker_type
             
 "
 taskGroupId
