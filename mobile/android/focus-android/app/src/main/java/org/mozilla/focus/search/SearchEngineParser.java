@@ -280,6 +280,8 @@ load
 AssetManager
 assetManager
 String
+identifier
+String
 path
 )
 throws
@@ -301,6 +303,7 @@ try
 return
 load
 (
+identifier
 stream
 )
 ;
@@ -343,6 +346,8 @@ static
 SearchEngine
 load
 (
+String
+identifier
 InputStream
 stream
 )
@@ -357,6 +362,7 @@ searchEngine
 new
 SearchEngine
 (
+identifier
 )
 ;
 XmlPullParser
