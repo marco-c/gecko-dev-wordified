@@ -666,7 +666,7 @@ R
 .
 drawable
 .
-ic_tracking_protection_16_disabled
+ic_tracking_protection_disabled
 )
 ;
 final
