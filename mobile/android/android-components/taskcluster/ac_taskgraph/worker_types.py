@@ -54,12 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 six
 import
 text_type
@@ -149,7 +143,7 @@ type
 "
 )
 :
-text_type
+str
         
 #
 list
@@ -212,7 +206,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 #
 Paths
@@ -230,7 +224,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
                 
 #
@@ -252,7 +246,7 @@ formats
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -419,8 +413,10 @@ extend
         
 [
             
+f
 "
 {
+scope_prefix
 }
 :
 signing
@@ -428,14 +424,9 @@ signing
 format
 :
 {
+format
 }
 "
-.
-format
-(
-scope_prefix
-format
-)
             
 for
 format
@@ -468,7 +459,7 @@ action
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -477,7 +468,7 @@ version
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -502,7 +493,7 @@ paths
                 
 Any
 (
-text_type
+str
 )
 :
 {
@@ -515,7 +506,7 @@ destinations
 )
 :
 [
-text_type
+str
 ]
                 
 }
@@ -545,7 +536,7 @@ name
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -554,7 +545,7 @@ bucket
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -584,7 +575,7 @@ taskType
 "
 )
 :
-text_type
+str
             
 Required
 (
@@ -594,7 +585,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
         
 }
@@ -886,7 +877,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Required
 (
@@ -896,7 +887,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -923,7 +914,7 @@ action
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -934,7 +925,7 @@ tag
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -945,7 +936,7 @@ revision
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -956,7 +947,7 @@ project
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -978,7 +969,7 @@ name
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -1212,7 +1203,7 @@ name
 "
 )
 :
-text_type
+str
     
 }
 )
@@ -1317,7 +1308,7 @@ taskType
 "
 )
 :
-text_type
+str
                 
 Optional
 (
@@ -1327,7 +1318,7 @@ paths
 )
 :
 [
-text_type
+str
 ]
             
 }
@@ -1353,7 +1344,7 @@ files
 )
 :
 [
-text_type
+str
 ]
         
 Optional
@@ -1372,7 +1363,7 @@ branch
 "
 )
 :
-text_type
+str
     
 }
 )
