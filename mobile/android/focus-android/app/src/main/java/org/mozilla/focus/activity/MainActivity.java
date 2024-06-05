@@ -920,6 +920,13 @@ null
 &
 browserFragment
 .
+isVisible
+(
+)
+&
+&
+browserFragment
+.
 canGoBack
 (
 )
