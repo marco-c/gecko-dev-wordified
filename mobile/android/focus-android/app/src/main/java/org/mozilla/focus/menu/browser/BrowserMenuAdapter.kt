@@ -223,12 +223,6 @@ CustomTabConfig
 ?
 )
 :
-androidx
-.
-recyclerview
-.
-widget
-.
 RecyclerView
 .
 Adapter
