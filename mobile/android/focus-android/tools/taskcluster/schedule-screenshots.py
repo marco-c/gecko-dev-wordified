@@ -743,15 +743,11 @@ rootUrl
 '
 :
 '
-http
+https
 :
 /
 /
 taskcluster
-/
-queue
-/
-v1
 '
 	
 }
