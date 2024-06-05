@@ -1630,6 +1630,17 @@ checkout
 s
 &
 &
+tools
+/
+taskcluster
+/
+accept
+-
+license
+.
+sh
+&
+&
 %
 s
 "
