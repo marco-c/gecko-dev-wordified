@@ -475,6 +475,12 @@ waitingTime
 class
 Transition
 {
+private
+lateinit
+var
+sessionLoadedIdlingResource
+:
+SessionLoadedIdlingResource
 fun
 loadPage
 (
@@ -496,12 +502,6 @@ BrowserRobot
 .
 Transition
 {
-val
-sessionLoadedIdlingResource
-=
-SessionLoadedIdlingResource
-(
-)
 val
 geckoEngineView
 =
@@ -545,6 +545,11 @@ id
 message
 "
 )
+)
+sessionLoadedIdlingResource
+=
+SessionLoadedIdlingResource
+(
 )
 searchScreen
 {
