@@ -311,7 +311,9 @@ i
 ;
 i
 <
-searchEngineGroup
+getSearchEngineGroup
+(
+)
 .
 getChildCount
 (
@@ -329,7 +331,9 @@ engineButton
 (
 CompoundButton
 )
-searchEngineGroup
+getSearchEngineGroup
+(
+)
 .
 getChildAt
 (
@@ -393,7 +397,9 @@ i
 ;
 i
 <
-searchEngineGroup
+getSearchEngineGroup
+(
+)
 .
 getChildCount
 (
@@ -411,7 +417,9 @@ engineButton
 (
 CompoundButton
 )
-searchEngineGroup
+getSearchEngineGroup
+(
+)
 .
 getChildAt
 (
@@ -474,7 +482,9 @@ i
 ;
 i
 <
-searchEngineGroup
+getSearchEngineGroup
+(
+)
 .
 getChildCount
 (
@@ -492,7 +502,9 @@ engineButton
 (
 CompoundButton
 )
-searchEngineGroup
+getSearchEngineGroup
+(
+)
 .
 getChildAt
 (

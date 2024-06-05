@@ -185,6 +185,8 @@ mozilla
 .
 components
 .
+support
+.
 utils
 .
 SafeBundle
@@ -193,6 +195,8 @@ import
 mozilla
 .
 components
+.
+support
 .
 utils
 .

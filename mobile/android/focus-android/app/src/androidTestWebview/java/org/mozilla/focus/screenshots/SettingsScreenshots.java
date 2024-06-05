@@ -591,6 +591,8 @@ mozilla
 .
 components
 .
+browser
+.
 domains
 .
 CustomDomains

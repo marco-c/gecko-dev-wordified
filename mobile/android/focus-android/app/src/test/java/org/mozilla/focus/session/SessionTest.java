@@ -191,6 +191,8 @@ mozilla
 .
 components
 .
+support
+.
 utils
 .
 SafeIntent

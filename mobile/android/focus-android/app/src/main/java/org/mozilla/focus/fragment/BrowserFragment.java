@@ -736,6 +736,8 @@ mozilla
 .
 components
 .
+support
+.
 utils
 .
 ColorUtils
@@ -745,6 +747,8 @@ mozilla
 .
 components
 .
+support
+.
 utils
 .
 DownloadUtils
@@ -753,6 +757,8 @@ import
 mozilla
 .
 components
+.
+support
 .
 utils
 .

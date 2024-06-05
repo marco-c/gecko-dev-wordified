@@ -186,6 +186,8 @@ mozilla
 .
 components
 .
+support
+.
 utils
 .
 DownloadUtils
