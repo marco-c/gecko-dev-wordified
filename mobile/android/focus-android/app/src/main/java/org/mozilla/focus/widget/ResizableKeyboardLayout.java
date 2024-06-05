@@ -473,6 +473,7 @@ is
 in
 multiview
 mode
+.
 if
 (
 difference
