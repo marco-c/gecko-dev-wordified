@@ -153,7 +153,7 @@ mozilla
 .
 focus
 .
-utils
+locale
 .
 Locales
 ;
