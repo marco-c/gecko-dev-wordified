@@ -431,7 +431,6 @@ SearchTest
 (
 )
 throws
-InterruptedException
 UiObjectNotFoundException
 {
 UiObject
