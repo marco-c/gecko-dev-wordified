@@ -169,6 +169,10 @@ Eg
 [
             
 "
+android
+-
+components
+/
 components
 /
 service
@@ -199,6 +203,10 @@ kt
 "
             
 "
+android
+-
+components
+/
 components
 /
 service
@@ -262,9 +270,9 @@ split
 "
 )
 [
-1
+2
 :
-3
+4
 ]
 )
 for
@@ -277,6 +285,8 @@ f
 startswith
 (
 "
+android
+-
 components
 "
 )
