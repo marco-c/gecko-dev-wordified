@@ -87,7 +87,7 @@ from
 .
 build
 import
-_get_nightly_version
+get_nightly_version
 transforms
 =
 TransformSequence
@@ -239,7 +239,7 @@ section
 "
 "
         
-ret
+path_version
 =
 "
 {
@@ -296,21 +296,31 @@ buildid
 >
 /
 g
-for
-the
+in
+version
         
 #
-version
 within
 the
 destination
 path
+.
+This
+change
+is
+needed
+to
+ensure
+the
+version
+folder
+is
+set
+correctly
+so
+that
         
 #
-e
-.
-g
-.
 maven2
 /
 org
@@ -319,9 +329,47 @@ mozilla
 /
 components
 /
-browser
+<
+component
+>
+/
+34
+.
+0
+.
+0
+/
+<
+component
+>
 -
-awesomebar
+34
+.
+0
+.
+20200212190116
+-
+sources
+.
+jar
+        
+#
+becomes
+-
+>
+        
+#
+maven2
+/
+org
+/
+mozilla
+/
+components
+/
+<
+component
+>
 /
 34
 .
@@ -329,6 +377,19 @@ awesomebar
 .
 20200212190116
 /
+<
+component
+>
+-
+34
+.
+0
+.
+20200212190116
+-
+sources
+.
+jar
         
 if
 build_type
@@ -339,15 +400,9 @@ nightly
 '
 :
             
-if
-version
-in
-ret
-:
-                
-ret
+path_version
 =
-ret
+path_version
 .
 replace
 (
@@ -356,7 +411,7 @@ nightly_version
 )
         
 return
-ret
+path_version
     
 version
 =
@@ -366,7 +421,7 @@ get_version
     
 nightly_version
 =
-_get_nightly_version
+get_nightly_version
 (
 config
 version
