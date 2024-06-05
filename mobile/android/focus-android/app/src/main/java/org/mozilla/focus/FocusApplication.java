@@ -262,6 +262,10 @@ detectAll
 (
 )
 .
+penaltyLog
+(
+)
+.
 penaltyDeath
 (
 )
@@ -285,6 +289,10 @@ Builder
 )
 .
 detectAll
+(
+)
+.
+penaltyLog
 (
 )
 .
