@@ -2851,16 +2851,6 @@ value
 +
 =
 t
-.
-replace
-(
-'
-\
-n
-'
-'
-'
-)
                 
 else
 :
