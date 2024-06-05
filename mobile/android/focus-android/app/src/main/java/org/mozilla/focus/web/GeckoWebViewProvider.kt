@@ -1932,7 +1932,7 @@ if
 progress
 =
 =
-100
+PROGRESS_100
 )
 {
 if
@@ -3301,5 +3301,10 @@ String
 "
 first_gecko_run
 "
+const
+val
+PROGRESS_100
+=
+100
 }
 }
