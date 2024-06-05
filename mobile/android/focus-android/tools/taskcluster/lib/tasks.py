@@ -469,6 +469,7 @@ self
 build_task_id
 name
 description
+signing_format
 apks
 =
 [
@@ -481,13 +482,6 @@ routes
 =
 [
 ]
-signing_format
-=
-'
-focus
--
-jar
-'
 )
 :
         

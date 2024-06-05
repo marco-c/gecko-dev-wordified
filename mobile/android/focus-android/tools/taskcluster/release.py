@@ -575,35 +575,11 @@ routes
 [
 ]
     
-#
-Only
-nightlies
-are
-signed
-with
-autograph
-.
-Releases
-are
-kept
-on
-the
-signing
-servers
-    
 signing_format
 =
-"
-focus
--
-jar
-"
-if
-tag
-else
-"
+'
 autograph_focus
-"
+'
     
 scopes
 =
@@ -769,6 +745,10 @@ Focus
 Klar
 "
         
+signing_format
+=
+signing_format
+        
 apks
 =
 artifacts
@@ -780,10 +760,6 @@ scopes
 routes
 =
 routes
-        
-signing_format
-=
-signing_format
     
 )
 def
