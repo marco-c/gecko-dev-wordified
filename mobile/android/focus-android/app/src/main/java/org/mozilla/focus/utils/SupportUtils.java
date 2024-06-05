@@ -189,15 +189,6 @@ public
 static
 final
 String
-BLOCKING_HELP_URL
-=
-"
-"
-;
-public
-static
-final
-String
 DEFAULT_BROWSER_URL
 =
 "
