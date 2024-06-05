@@ -1569,6 +1569,16 @@ R
 .
 string
 .
+pref_key_open_new_tab
+)
+resources
+.
+getString
+(
+R
+.
+string
+.
 pref_key_show_search_suggestions
 )
 )
