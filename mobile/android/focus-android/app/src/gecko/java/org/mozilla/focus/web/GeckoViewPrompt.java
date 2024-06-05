@@ -321,7 +321,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoSession
 ;
@@ -330,7 +330,7 @@ org
 .
 mozilla
 .
-gecko
+geckoview
 .
 GeckoSession
 .
