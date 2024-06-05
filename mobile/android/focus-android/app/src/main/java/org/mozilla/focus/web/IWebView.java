@@ -580,6 +580,11 @@ Session
 session
 )
 ;
+void
+exitFullscreen
+(
+)
+;
 /
 *
 *
