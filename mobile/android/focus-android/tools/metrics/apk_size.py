@@ -72,7 +72,7 @@ import
 exit
 SIZE_LIMIT
 =
-4500000
+5242880
 PATH
 =
 path
