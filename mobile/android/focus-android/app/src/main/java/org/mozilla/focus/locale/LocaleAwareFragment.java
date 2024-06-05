@@ -75,17 +75,6 @@ lifecycle
 LifecycleFragment
 ;
 import
-android
-.
-support
-.
-v4
-.
-app
-.
-Fragment
-;
-import
 java
 .
 util

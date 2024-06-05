@@ -143,7 +143,7 @@ junit
 .
 Assert
 .
-*
+assertEquals
 ;
 RunWith
 (

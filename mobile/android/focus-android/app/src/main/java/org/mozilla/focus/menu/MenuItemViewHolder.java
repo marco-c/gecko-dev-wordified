@@ -121,17 +121,6 @@ focus
 .
 R
 ;
-import
-org
-.
-mozilla
-.
-focus
-.
-fragment
-.
-BrowserFragment
-;
 /
 *
 package

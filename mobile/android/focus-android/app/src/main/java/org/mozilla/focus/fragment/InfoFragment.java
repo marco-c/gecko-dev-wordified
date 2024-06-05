@@ -178,17 +178,6 @@ mozilla
 .
 focus
 .
-utils
-.
-IntentUtils
-;
-import
-org
-.
-mozilla
-.
-focus
-.
 web
 .
 Download

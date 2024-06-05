@@ -162,13 +162,6 @@ SearchEngineManager
 import
 java
 .
-io
-.
-UnsupportedEncodingException
-;
-import
-java
-.
 net
 .
 URI
@@ -179,13 +172,6 @@ java
 net
 .
 URISyntaxException
-;
-import
-java
-.
-net
-.
-URLDecoder
 ;
 public
 class

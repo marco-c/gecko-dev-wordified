@@ -277,17 +277,6 @@ telemetry
 .
 net
 .
-DebugLogClient
-;
-import
-org
-.
-mozilla
-.
-telemetry
-.
-net
-.
 HttpURLConnectionTelemetryClient
 ;
 import
