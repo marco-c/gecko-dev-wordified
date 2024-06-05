@@ -456,10 +456,10 @@ R
 .
 string
 .
-pref_key_privacy_block_fingerprinting
+pref_key_privacy_block_cryptomining
 )
 "
-Fingerprinting
+Cryptomining
 "
 )
 ;
@@ -475,10 +475,10 @@ R
 .
 string
 .
-pref_key_privacy_block_cryptomining
+pref_key_privacy_block_fingerprinting
 )
 "
-Cryptomining
+Fingerprinting
 "
 )
 ;
