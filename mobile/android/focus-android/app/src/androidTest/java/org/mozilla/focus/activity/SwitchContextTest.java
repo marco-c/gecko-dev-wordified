@@ -773,6 +773,8 @@ Assert
 website
 is
 loaded
+assertTrue
+(
 TestHelper
 .
 webView
@@ -780,6 +782,7 @@ webView
 waitForExists
 (
 waitingTime
+)
 )
 ;
 Assert
@@ -1040,6 +1043,8 @@ Assert
 website
 is
 loaded
+assertTrue
+(
 TestHelper
 .
 webView
@@ -1047,6 +1052,7 @@ webView
 waitForExists
 (
 waitingTime
+)
 )
 ;
 Assert
@@ -1357,6 +1363,8 @@ Assert
 website
 is
 loaded
+assertTrue
+(
 TestHelper
 .
 webView
@@ -1364,6 +1372,17 @@ webView
 waitForExists
 (
 waitingTime
+)
+)
+;
+assertTrue
+(
+titleMsg
+.
+waitForExists
+(
+waitingTime
+)
 )
 ;
 Assert
