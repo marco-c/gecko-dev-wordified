@@ -1334,6 +1334,16 @@ R
 .
 string
 .
+pref_key_secure
+)
+resources
+.
+getString
+(
+R
+.
+string
+.
 pref_key_default_browser
 )
 )
