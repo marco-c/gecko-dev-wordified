@@ -5540,6 +5540,12 @@ commit
 (
 )
 ;
+TelemetryWrapper
+.
+openFullBrowser
+(
+)
+;
 break
 ;
 }
