@@ -745,6 +745,12 @@ class
 .
 java
 )
+runtimeSettingsBuilder
+.
+consoleOutput
+(
+false
+)
 geckoRuntime
 =
 GeckoRuntime
