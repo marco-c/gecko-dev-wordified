@@ -760,7 +760,7 @@ case
 return
 url1
 .
-equals
+equalsIgnoreCase
 (
 url2
 )
@@ -805,6 +805,7 @@ url1
 .
 regionMatches
 (
+true
 0
 url2
 0
@@ -850,6 +851,7 @@ url2
 .
 regionMatches
 (
+true
 0
 url1
 0
