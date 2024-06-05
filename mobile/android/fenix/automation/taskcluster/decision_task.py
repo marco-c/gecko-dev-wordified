@@ -1166,6 +1166,7 @@ compile
 r
 '
 ^
+v
 \
 d
 +
@@ -1213,13 +1214,20 @@ in
 beta
 semver
 format
+and
+prefixed
+with
+a
+"
+v
+"
 e
 .
 g
 .
 :
 "
-1
+v1
 .
 0
 .
@@ -1228,8 +1236,25 @@ g
 beta
 .
 0
+"
 '
 )
+        
+version
+=
+result
+.
+tag
+[
+1
+:
+]
+#
+remove
+prefixed
+"
+v
+"
         
 ordered_groups_of_tasks
 =
@@ -1239,9 +1264,7 @@ release
 beta
 '
 False
-result
-.
-tag
+version
 )
     
 else
