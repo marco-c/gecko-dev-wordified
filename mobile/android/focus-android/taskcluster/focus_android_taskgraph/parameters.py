@@ -61,12 +61,6 @@ print_function
 unicode_literals
 import
 os
-import
-re
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -158,7 +152,7 @@ release_type
 "
 )
 :
-text_type
+str
     
 Optional
 (
@@ -185,7 +179,7 @@ version
 "
 )
 :
-text_type
+str
     
 Required
 (
@@ -197,7 +191,7 @@ next_version
 Any
 (
 None
-text_type
+str
 )
 }
 defaults_fn
