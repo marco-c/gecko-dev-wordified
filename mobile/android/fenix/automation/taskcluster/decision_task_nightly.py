@@ -399,7 +399,7 @@ apks
 signing_format
 =
 '
-autograph_fenix
+autograph_apk
 '
     
 index_release
@@ -1194,11 +1194,6 @@ add_argument
 -
 commit
 '
-dest
-=
-"
-commit
-"
 action
 =
 "
@@ -1265,11 +1260,6 @@ add_argument
 -
 output
 '
-dest
-=
-"
-track
-"
 metavar
 =
 "
@@ -1304,11 +1294,6 @@ add_argument
 -
 date
 '
-dest
-=
-"
-date
-"
 action
 =
 "
