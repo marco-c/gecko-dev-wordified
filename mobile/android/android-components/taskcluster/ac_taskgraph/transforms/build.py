@@ -88,8 +88,7 @@ build_config
 import
 get_version
 get_path
-AAR_EXTENSIONS
-CHECKSUMS_EXTENSIONS
+get_extensions
 transforms
 =
 TransformSequence
@@ -743,28 +742,10 @@ artifacts
             
 all_extensions
 =
-[
-                
-extension
-+
-checksum_extension
-                
-for
-extension
-in
-AAR_EXTENSIONS
-                
-for
-checksum_extension
-in
+get_extensions
 (
-'
-'
+component
 )
-+
-CHECKSUMS_EXTENSIONS
-            
-]
             
 artifact_file_names_per_extension
 =
