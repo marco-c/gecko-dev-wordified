@@ -112,6 +112,13 @@ android
 .
 content
 .
+Context
+;
+import
+android
+.
+content
+.
 Intent
 ;
 import
@@ -378,6 +385,10 @@ loadCustomTabConfig
 (
 final
 NonNull
+Context
+context
+final
+NonNull
 SafeIntent
 intent
 )
@@ -406,6 +417,7 @@ CustomTabConfig
 .
 parseCustomTabIntent
 (
+context
 intent
 )
 ;
