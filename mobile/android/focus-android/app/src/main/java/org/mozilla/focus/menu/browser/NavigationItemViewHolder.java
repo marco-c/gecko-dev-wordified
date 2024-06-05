@@ -240,7 +240,11 @@ if
 !
 fragment
 .
-getSession
+getTab
+(
+)
+.
+getContent
 (
 )
 .
