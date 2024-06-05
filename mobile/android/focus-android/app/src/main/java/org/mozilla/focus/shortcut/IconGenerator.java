@@ -736,9 +736,8 @@ getWidth
 )
 /
 2
-(
-int
-)
+.
+0f
 (
 (
 canvas
@@ -748,6 +747,8 @@ getHeight
 )
 /
 2
+.
+0f
 )
 -
 (
@@ -766,6 +767,8 @@ ascent
 )
 /
 2
+.
+0f
 )
 )
 paint
