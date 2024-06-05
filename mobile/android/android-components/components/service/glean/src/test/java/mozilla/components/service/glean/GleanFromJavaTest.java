@@ -221,6 +221,7 @@ INSTANCE
 initialize
 (
 context
+true
 )
 ;
 }
@@ -270,6 +271,7 @@ INSTANCE
 initialize
 (
 context
+true
 config
 )
 ;
