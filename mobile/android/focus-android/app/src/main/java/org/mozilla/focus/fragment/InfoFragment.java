@@ -588,6 +588,16 @@ url
 Override
 public
 void
+onRequest
+(
+boolean
+isTriggeredByUserGesture
+)
+{
+}
+Override
+public
+void
 onEnterFullScreen
 (
 NonNull

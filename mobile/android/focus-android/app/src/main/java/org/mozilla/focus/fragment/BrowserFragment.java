@@ -2694,6 +2694,16 @@ url
 Override
 public
 void
+onRequest
+(
+boolean
+isTriggeredByUserGesture
+)
+{
+}
+Override
+public
+void
 onProgress
 (
 int
