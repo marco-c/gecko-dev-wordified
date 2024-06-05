@@ -135,15 +135,6 @@ mozilla
 .
 focus
 .
-BuildConfig
-;
-import
-org
-.
-mozilla
-.
-focus
-.
 search
 .
 SearchEngine
@@ -182,6 +173,7 @@ static
 String
 normalize
 (
+NonNull
 String
 input
 )
