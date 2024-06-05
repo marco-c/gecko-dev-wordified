@@ -3486,6 +3486,35 @@ That
 sucks
 .
                 
+#
+Pontoon
+creates
+folders
+like
+zh
+-
+tw
+but
+babel
+expects
+zh_tw
+                
+locale
+=
+language
+.
+code
+.
+replace
+(
+'
+-
+'
+'
+_
+'
+)
+                
 lang_catalog
 =
 read_catalog
@@ -3493,9 +3522,7 @@ read_catalog
 target_po
 locale
 =
-language
-.
-code
+locale
 )
                 
 catalog
