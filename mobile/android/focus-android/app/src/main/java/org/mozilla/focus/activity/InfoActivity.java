@@ -636,9 +636,11 @@ SupportUtils
 getSumoURLForTopic
 (
 context
-"
-trackers
-"
+SupportUtils
+.
+SumoTopic
+.
+TRACKERS
 )
 resources
 .
