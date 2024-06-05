@@ -64,7 +64,6 @@ exportFunction
 /
 "
 use
--
 strict
 "
 ;
