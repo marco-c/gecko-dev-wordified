@@ -1688,7 +1688,7 @@ design_menu_item_text
 .
 index
 (
-0
+1
 )
 .
 enabled
