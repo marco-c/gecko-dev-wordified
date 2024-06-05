@@ -1111,26 +1111,15 @@ builder
 artifacts_info
 )
     
-other_tasks
-=
 all_tasks
-[
-1
-]
-    
-other_tasks
-[
-taskcluster
 .
-slugId
+append
 (
-)
-]
-=
 builder
 .
 craft_ui_tests_task
 (
+)
 )
     
 return
