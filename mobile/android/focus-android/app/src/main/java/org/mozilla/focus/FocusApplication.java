@@ -484,7 +484,7 @@ detectAll
 ;
 threadPolicyBuilder
 .
-penaltyDialog
+penaltyLog
 (
 )
 ;
