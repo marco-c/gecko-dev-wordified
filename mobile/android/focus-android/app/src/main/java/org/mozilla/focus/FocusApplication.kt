@@ -445,6 +445,7 @@ components
 migrateTrackingProtectionExceptions
 (
 this
+FocusApplication
 )
 }
 }
