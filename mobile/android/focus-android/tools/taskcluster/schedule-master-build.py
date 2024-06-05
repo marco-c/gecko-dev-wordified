@@ -772,6 +772,9 @@ assemble
 {
 0
 }
+{
+1
+}
 Debug
 "
 .
@@ -791,6 +794,9 @@ build_dir_test
 assemble
 {
 0
+}
+{
+1
 }
 DebugAndroidTest
 "
