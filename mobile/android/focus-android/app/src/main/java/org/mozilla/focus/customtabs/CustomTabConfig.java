@@ -1145,8 +1145,7 @@ CustomTabsIntent
 EXTRA_DEFAULT_SHARE_MENU_ITEM
 /
 /
-Other
-than
+Unlike
 Chrome
 we
 will
