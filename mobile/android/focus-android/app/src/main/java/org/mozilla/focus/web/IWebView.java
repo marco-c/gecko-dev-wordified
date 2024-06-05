@@ -126,6 +126,14 @@ int
 progress
 )
 ;
+void
+onURLChanged
+(
+final
+String
+url
+)
+;
 /
 *
 *
