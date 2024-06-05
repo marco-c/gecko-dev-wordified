@@ -664,6 +664,11 @@ Boolean
 aBoolean
 )
 {
+if
+(
+aBoolean
+)
+{
 ExperimentsSettingsFragment
 preferenceFragment
 =
@@ -702,6 +707,7 @@ commitAllowingStateLoss
 (
 )
 ;
+}
 }
 }
 )
