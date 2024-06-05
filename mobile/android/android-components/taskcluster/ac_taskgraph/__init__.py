@@ -441,7 +441,6 @@ tree
                 
 "
 {
-version
 }
 from
 buildconfig
