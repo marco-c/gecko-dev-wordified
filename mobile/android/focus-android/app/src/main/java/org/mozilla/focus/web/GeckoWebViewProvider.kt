@@ -3752,11 +3752,6 @@ try
 value
 ?
 .
-toJSONObject
-(
-)
-?
-.
 also
 {
 storage
@@ -4011,9 +4006,6 @@ internal
 fun
 geckoErrorToErrorType
 (
-WebRequestError
-.
-Error
 errorCode
 :
 Int
