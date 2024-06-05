@@ -599,9 +599,6 @@ in
 google
 "
 "
-jcenter
-"
-"
 central
 "
 )
