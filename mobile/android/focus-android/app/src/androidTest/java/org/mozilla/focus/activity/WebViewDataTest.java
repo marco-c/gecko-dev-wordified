@@ -1191,17 +1191,6 @@ Actual
 URL
 "
 /
-favicon
-.
-ico
-"
-/
-/
-Thank
-you
-WebView
-"
-/
 copper
 /
 truck
