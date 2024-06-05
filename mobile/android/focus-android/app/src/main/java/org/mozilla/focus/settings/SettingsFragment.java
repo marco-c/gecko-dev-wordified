@@ -261,16 +261,6 @@ xml
 settings
 )
 ;
-if
-(
-!
-AppConstants
-.
-isGeckoBuild
-(
-)
-)
-{
 getPreferenceScreen
 (
 )
@@ -290,7 +280,6 @@ pref_key_advanced_screen
 )
 )
 ;
-}
 }
 Override
 public
