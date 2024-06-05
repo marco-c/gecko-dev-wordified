@@ -408,9 +408,11 @@ activity
 null
 }
 else
+{
 resolveInfo
 .
 activityInfo
+}
 }
 private
 fun
