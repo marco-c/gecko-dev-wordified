@@ -134,7 +134,7 @@ parameters
 _target_task
 (
 "
-nightly_release
+nightly
 "
 )
 def
@@ -173,8 +173,6 @@ type
 =
 "
 nightly
--
-release
 "
     
 return

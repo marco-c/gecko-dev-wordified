@@ -925,8 +925,6 @@ build_type
 =
 '
 nightly
--
-release
 '
 :
             
@@ -1162,8 +1160,6 @@ the
 dictionary
 for
 nightly
--
-release
 types
 of
 graphs
@@ -1186,8 +1182,6 @@ type
 =
 '
 nightly
--
-release
 '
 :
                 
