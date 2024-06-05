@@ -1244,6 +1244,24 @@ week
 		
 }
 )
+#
+For
+GeckoView
+upload
+nightly
+(
+it
+has
+release
+config
+)
+by
+default
+all
+Release
+builds
+have
+WV
 def
 upload_apk_nimbledroid_task
 (
@@ -1317,7 +1335,7 @@ no
 daemon
 clean
 assembleFocusArmRelease
-assembleKlarArmRelease
+assembleKlarArmNightly
 '
 				   
 '
