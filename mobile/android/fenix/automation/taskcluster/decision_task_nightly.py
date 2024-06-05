@@ -389,7 +389,7 @@ chainOfTrust
 True
             
 "
-taskClusterProxy
+taskclusterProxy
 "
 :
 True
