@@ -112,15 +112,8 @@ join
 (
 os
 .
-path
-.
-dirname
-(
-os
-.
 getcwd
 (
-)
 )
 path
 )
