@@ -113,9 +113,7 @@ mobile
 REPO_NAME_TO_IMPORT
 =
 "
-focus
--
-android
+fenix
 "
 def
 divide_chunks
@@ -252,7 +250,7 @@ regex
 =
 >
 [
-focus
+fenix
 ]
 "
     
