@@ -646,10 +646,18 @@ Klar
 Webview
     
 :
+param
+str
+device
+:
+ARM
+X86
+    
+:
 return
 :
-uiWebviewTestTaskId
-uiWebviewTestTask
+uiWebviewARMTestTaskId
+uiWebviewARMTestTask
     
 '
 '
@@ -727,11 +735,15 @@ tests
 {
 0
 }
+{
+1
+}
 "
 .
 format
 (
 engine
+device
 )
     
 task_description
@@ -753,6 +765,7 @@ Android
 format
 (
 engine
+device
 )
     
 build_dir
@@ -768,6 +781,11 @@ Debug
 format
 (
 assemble_engine
+device
+.
+capitalize
+(
+)
 )
     
 build_dir_test
@@ -783,6 +801,11 @@ DebugAndroidTest
 format
 (
 assemble_engine
+device
+.
+capitalize
+(
+)
 )
     
 print
@@ -1111,7 +1134,7 @@ no
 -
 daemon
 clean
-assembleKlarNightly
+assembleKlarArmNightly
 '
                  
 '

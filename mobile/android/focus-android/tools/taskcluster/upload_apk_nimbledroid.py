@@ -464,9 +464,7 @@ app
 -
 klar
 -
-armeabi
--
-v7a
+arm
 -
 nightly
 -
