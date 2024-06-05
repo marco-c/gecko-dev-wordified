@@ -5499,10 +5499,6 @@ download
 ;
 }
 }
-/
-/
-Biometric
-Authentication
 Override
 public
 void
@@ -5866,7 +5862,11 @@ findFragmentByTag
 (
 BiometricAuthenticationDialogFragment
 .
-FRAGMENT_TAG
+Companion
+.
+getFRAGMENT_TAG
+(
+)
 )
 !
 =
@@ -5901,7 +5901,11 @@ show
 fragmentManager
 BiometricAuthenticationDialogFragment
 .
-FRAGMENT_TAG
+Companion
+.
+getFRAGMENT_TAG
+(
+)
 )
 ;
 }
