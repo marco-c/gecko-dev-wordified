@@ -64,14 +64,6 @@ loader
 as
 base_loader
 from
-taskgraph
-.
-util
-.
-templates
-import
-merge
-from
 .
 .
 build_config
@@ -170,6 +162,32 @@ component
 name
 '
 ]
+                
+#
+Treeherder
+group
+are
+capped
+at
+25
+chars
+                
+'
+treeherder
+-
+group
+'
+:
+component
+[
+'
+name
+'
+]
+[
+:
+25
+]
             
 }
         
@@ -230,29 +248,6 @@ regular
 )
     
 }
-    
-overridden_tasks
-=
-config
-.
-pop
-(
-'
-overriden
--
-tasks
-'
-{
-}
-)
-    
-tasks
-=
-merge
-(
-tasks
-overridden_tasks
-)
     
 config
 [
