@@ -691,6 +691,7 @@ getContext
 getSettings
 (
 )
+this
 )
 ;
 }
@@ -1135,6 +1136,7 @@ getContext
 getSettings
 (
 )
+this
 )
 ;
 }
@@ -1147,6 +1149,7 @@ disableBlocking
 getSettings
 (
 )
+this
 )
 ;
 }

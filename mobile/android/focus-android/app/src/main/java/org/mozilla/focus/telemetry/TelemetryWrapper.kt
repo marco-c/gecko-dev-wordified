@@ -1268,6 +1268,16 @@ R
 .
 string
 .
+pref_key_performance_enable_cookies
+)
+resources
+.
+getString
+(
+R
+.
+string
+.
 pref_key_performance_block_webfonts
 )
 resources
