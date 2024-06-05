@@ -2252,6 +2252,17 @@ int
 count
 )
 {
+if
+(
+!
+TextUtils
+.
+isEmpty
+(
+s
+)
+)
+{
 final
 IWebView
 webView
@@ -2282,6 +2293,7 @@ toString
 )
 )
 ;
+}
 }
 }
 )
