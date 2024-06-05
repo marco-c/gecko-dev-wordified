@@ -126,6 +126,19 @@ None
 Required
 (
 "
+next_version
+"
+)
+:
+Any
+(
+basestring
+None
+)
+    
+Required
+(
+"
 version
 "
 )
@@ -340,6 +353,16 @@ version
 ]
 =
 version
+    
+parameters
+.
+setdefault
+(
+"
+next_version
+"
+None
+)
     
 if
 parameters
