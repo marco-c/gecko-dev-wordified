@@ -101,6 +101,13 @@ utils
 import
 android
 .
+content
+.
+Context
+;
+import
+android
+.
 net
 .
 Uri
@@ -298,6 +305,8 @@ static
 String
 createSearchUrl
 (
+Context
+context
 String
 searchTerm
 )
@@ -314,6 +323,7 @@ getInstance
 .
 getDefaultSearchEngine
 (
+context
 )
 ;
 return
