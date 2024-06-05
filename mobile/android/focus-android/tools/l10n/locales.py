@@ -596,13 +596,33 @@ ADDITIONAL_SCREENSHOT_LOCALES
 [
 	
 "
-lt
+an
+"
+	
+"
+anp
 "
 	
 "
 gu
 -
 IN
+"
+	
+"
+lt
+"
+	
+"
+oc
+"
+	
+"
+tt
+"
+	
+"
+wo
 "
 ]
 #
