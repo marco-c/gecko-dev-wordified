@@ -218,10 +218,6 @@ getSession
 getLoading
 (
 )
-.
-getValue
-(
-)
 )
 ;
 final

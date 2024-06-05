@@ -132,7 +132,7 @@ mozilla
 .
 focus
 .
-Components
+R
 import
 org
 .
@@ -140,7 +140,9 @@ mozilla
 .
 focus
 .
-R
+ext
+.
+components
 import
 org
 .
@@ -314,7 +316,9 @@ get
 (
 )
 =
-Components
+context
+.
+components
 .
 searchEngineManager
 .

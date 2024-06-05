@@ -260,7 +260,7 @@ getSession
 (
 )
 .
-isBlockingEnabled
+getTrackerBlockingEnabled
 (
 )
 )
@@ -348,11 +348,11 @@ getSession
 (
 )
 .
-getBlockedTrackers
+getTrackersBlocked
 (
 )
 .
-getValue
+size
 (
 )
 )
@@ -378,7 +378,7 @@ getSession
 (
 )
 .
-isBlockingEnabled
+getTrackerBlockingEnabled
 (
 )
 )

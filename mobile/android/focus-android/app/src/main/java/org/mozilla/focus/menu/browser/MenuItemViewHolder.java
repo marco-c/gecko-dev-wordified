@@ -321,10 +321,6 @@ getSession
 getLoading
 (
 )
-.
-getValue
-(
-)
 ;
 if
 (
