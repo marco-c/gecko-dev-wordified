@@ -228,6 +228,10 @@ RELEASE_LOCALES
 [
 	
 "
+am
+"
+	
+"
 ar
 "
 	
@@ -351,6 +355,10 @@ IE
 hi
 -
 IN
+"
+	
+"
+hr
 "
 	
 "
