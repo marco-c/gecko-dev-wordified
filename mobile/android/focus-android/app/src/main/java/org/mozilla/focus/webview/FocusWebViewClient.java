@@ -2365,6 +2365,8 @@ null
 &
 IntentUtils
 .
+INSTANCE
+.
 handleExternalUri
 (
 view

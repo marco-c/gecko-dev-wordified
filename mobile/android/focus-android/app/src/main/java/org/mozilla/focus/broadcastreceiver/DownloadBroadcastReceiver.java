@@ -575,6 +575,8 @@ openFileIntent
 =
 IntentUtils
 .
+INSTANCE
+.
 createOpenFileIntent
 (
 uriForFile
@@ -644,6 +646,8 @@ LENGTH_LONG
 if
 (
 IntentUtils
+.
+INSTANCE
 .
 activitiesFoundForIntent
 (
