@@ -506,18 +506,6 @@ packageManager
 url
 )
 ;
-if
-(
-browsers
-.
-size
-(
-)
-<
-=
-1
-)
-{
 /
 /
 If
@@ -537,7 +525,7 @@ won
 t
 return
 other
-options
+browsers
 /
 /
 anymore
@@ -590,7 +578,6 @@ browsers
 url
 )
 ;
-}
 this
 .
 browsers
