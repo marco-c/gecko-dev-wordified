@@ -928,8 +928,6 @@ org
 *
 /
 matchPatternsForTLDs
-:
-function
 (
 base
 suffix
@@ -978,8 +976,6 @@ TLDs
 *
 /
 matchPatternsForGoogle
-:
-function
 (
 base
 suffix

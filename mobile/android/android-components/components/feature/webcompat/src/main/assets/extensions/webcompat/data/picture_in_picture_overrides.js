@@ -303,7 +303,7 @@ https
 :
 /
 /
-www
+*
 .
 udemy
 .
