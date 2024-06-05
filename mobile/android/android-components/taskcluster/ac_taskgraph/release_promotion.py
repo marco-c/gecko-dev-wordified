@@ -140,8 +140,12 @@ github
 .
 com
 /
-escapewindow
+mozilla
+-
+releng
 /
+staging
+-
 android
 -
 components
