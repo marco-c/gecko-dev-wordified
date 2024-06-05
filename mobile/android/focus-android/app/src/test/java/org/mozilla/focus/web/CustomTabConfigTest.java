@@ -1592,7 +1592,7 @@ R
 .
 dimen
 .
-customtabs_close_button_max_size
+customtabs_toolbar_icon_size
 )
 ;
 final
@@ -1744,7 +1744,7 @@ R
 .
 dimen
 .
-customtabs_close_button_max_size
+customtabs_toolbar_icon_size
 )
 ;
 final
