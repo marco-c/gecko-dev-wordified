@@ -228,7 +228,7 @@ focus
 .
 telemetry
 .
-SentryWrapper
+CrashReporterWrapper
 import
 org
 .
@@ -423,7 +423,7 @@ super
 onCreate
 (
 )
-SentryWrapper
+CrashReporterWrapper
 .
 init
 (
