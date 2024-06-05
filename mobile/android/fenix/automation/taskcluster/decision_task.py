@@ -85,7 +85,6 @@ lib
 gradle
 import
 get_variants_for_build_type
-get_geckoview_versions
 from
 lib
 .
@@ -526,17 +525,10 @@ other_tasks
 {
 }
     
-geckoview_version
-=
-get_geckoview_versions
-(
-)
-    
 mozharness_task_id
 =
 fetch_mozharness_task_id
 (
-geckoview_version
 )
     
 gecko_revision
