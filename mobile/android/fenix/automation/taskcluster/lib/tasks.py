@@ -108,13 +108,23 @@ __init__
 (
         
 self
+        
 task_id
+        
 repo_url
+        
 git_ref
+        
+short_head_branch
+        
 commit
+        
 owner
+        
 source
+        
 scheduler_id
+        
 date_string
         
 tasks_priority
@@ -122,6 +132,7 @@ tasks_priority
 '
 lowest
 '
+        
 trust_level
 =
 1
@@ -146,6 +157,12 @@ self
 git_ref
 =
 git_ref
+        
+self
+.
+short_head_branch
+=
+short_head_branch
         
 self
 .
@@ -872,14 +889,10 @@ _OFFICIAL_REPO_URL
 and
 self
 .
-git_ref
+short_head_branch
 =
 =
 '
-refs
-/
-heads
-/
 master
 '
 :
@@ -956,7 +969,7 @@ format
                     
 self
 .
-git_ref
+short_head_branch
 self
 .
 commit
@@ -993,7 +1006,7 @@ format
                     
 self
 .
-git_ref
+short_head_branch
 product
 postfix
                 
@@ -1041,7 +1054,7 @@ format
                     
 self
 .
-git_ref
+short_head_branch
 self
 .
 date
@@ -1057,10 +1070,10 @@ self
 date
 .
 day
+                    
 self
 .
 commit
-                    
 product
 postfix
                 
@@ -1105,7 +1118,7 @@ format
                     
 self
 .
-git_ref
+short_head_branch
 .
 self
 .
@@ -1122,6 +1135,7 @@ self
 date
 .
 day
+                    
 product
 postfix
                 

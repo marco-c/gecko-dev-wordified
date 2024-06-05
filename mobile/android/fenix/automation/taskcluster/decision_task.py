@@ -200,6 +200,19 @@ MOBILE_HEAD_BRANCH
 '
 )
     
+short_head_branch
+=
+os
+.
+environ
+.
+get
+(
+'
+SHORT_HEAD_BRANCH
+'
+)
+    
 commit
 =
 COMMIT
