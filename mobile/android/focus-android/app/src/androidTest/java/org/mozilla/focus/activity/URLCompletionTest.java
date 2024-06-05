@@ -343,14 +343,6 @@ TestHelper
 .
 inlineAutocompleteEditText
 .
-clearTextField
-(
-)
-;
-TestHelper
-.
-inlineAutocompleteEditText
-.
 setText
 (
 "
@@ -421,6 +413,10 @@ getText
 equals
 (
 "
+Search
+or
+enter
+address
 "
 )
 )
