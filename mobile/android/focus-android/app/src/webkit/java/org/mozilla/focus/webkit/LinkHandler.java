@@ -319,7 +319,7 @@ HitTarget
 (
 false
 null
-false
+true
 imageURL
 )
 )
