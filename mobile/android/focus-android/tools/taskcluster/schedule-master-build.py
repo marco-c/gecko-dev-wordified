@@ -533,7 +533,7 @@ firebase
 test
 .
 sh
-focusX86Debug
+focusX86
 app
 -
 focus
@@ -738,7 +738,7 @@ firebase
 test
 .
 sh
-focusArmDebug
+focusArm
 app
 -
 focus
@@ -909,8 +909,8 @@ no
 -
 daemon
 clean
-assembleKlarX86Nightly
-assembleKlarX86NightlyAndroidTest
+assembleKlarX86Debug
+assembleKlarX86DebugAndroidTest
 '
 			
 '
@@ -947,14 +947,14 @@ firebase
 test
 .
 sh
-klarX86Nightly
+klarX86
 app
 -
 klar
 -
 x86
 -
-nightly
+debug
 model
 =
 Nexus9
@@ -1113,8 +1113,8 @@ no
 -
 daemon
 clean
-assembleKlarArmNightly
-assembleKlarArmNightlyAndroidTest
+assembleKlarArmDebug
+assembleKlarArmDebugAndroidTest
 '
 			
 '
@@ -1151,14 +1151,14 @@ firebase
 test
 .
 sh
-klarArmNightly
+klarArm
 app
 -
 klar
 -
 arm
 -
-nightly
+debug
 model
 =
 sailfish
