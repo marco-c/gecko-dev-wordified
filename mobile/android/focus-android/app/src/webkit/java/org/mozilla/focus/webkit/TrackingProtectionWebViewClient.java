@@ -354,6 +354,17 @@ R
 raw
 .
 blocklist
+new
+int
+[
+]
+{
+R
+.
+raw
+.
+google_mapping
+}
 R
 .
 raw
