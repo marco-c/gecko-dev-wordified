@@ -1176,18 +1176,7 @@ jobs
 merge
 (
 jobs
-config
-.
-pop
-(
-'
-overriden
--
-jobs
-'
-{
-}
-)
+overridden_jobs
 )
     
 config
