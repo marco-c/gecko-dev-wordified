@@ -344,8 +344,9 @@ null
 {
 MATCHER
 =
-new
 UrlMatcher
+.
+loadMatcher
 (
 context
 R
