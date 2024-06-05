@@ -358,6 +358,8 @@ bind
 BrowserMenuAdapter
 .
 MenuItem
+.
+Custom
 menuItem
 )
 {
