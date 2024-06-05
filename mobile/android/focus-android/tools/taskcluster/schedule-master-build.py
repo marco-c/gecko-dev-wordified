@@ -1298,11 +1298,9 @@ schedulerId
 "
 :
 "
-mobile
+taskcluster
 -
-level
--
-3
+github
 "
         
 "
