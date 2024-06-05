@@ -68,6 +68,15 @@ locale
 import
 android
 .
+arch
+.
+lifecycle
+.
+LifecycleFragment
+;
+import
+android
+.
 support
 .
 v4
@@ -88,7 +97,7 @@ abstract
 class
 LocaleAwareFragment
 extends
-Fragment
+LifecycleFragment
 {
 private
 Locale
