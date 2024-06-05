@@ -702,7 +702,7 @@ other_tasks
 def
 release
 (
-track
+channel
 is_staging
 version_name
 )
@@ -712,7 +712,7 @@ variants
 =
 get_variants_for_build_type
 (
-track
+channel
 )
     
 architectures
@@ -784,7 +784,7 @@ BUILDER
 craft_assemble_release_task
 (
 architectures
-track
+channel
 is_staging
 version_name
 )
@@ -813,9 +813,9 @@ apk_paths
 =
 apk_paths
         
-track
+channel
 =
-track
+channel
         
 is_staging
 =
@@ -847,9 +847,9 @@ apks
 =
 apk_paths
         
-track
+channel
 =
-track
+channel
         
 is_staging
 =
