@@ -1251,7 +1251,7 @@ refs
 /
 heads
 /
-master
+main
 "
 :
             
@@ -1280,7 +1280,7 @@ for
 pushes
 to
 '
-master
+main
 '
 .
             
@@ -1321,7 +1321,7 @@ refs
 /
 heads
 /
-master
+main
 .
 Building
 every
