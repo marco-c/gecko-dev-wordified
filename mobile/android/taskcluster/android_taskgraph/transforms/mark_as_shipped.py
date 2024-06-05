@@ -173,9 +173,9 @@ tasks
 product
 =
 "
-Android
+Firefox
 -
-components
+android
 "
 #
 shipit
