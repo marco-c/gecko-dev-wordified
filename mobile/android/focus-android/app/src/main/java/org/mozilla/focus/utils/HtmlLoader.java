@@ -88,6 +88,15 @@ InputStreamReader
 import
 java
 .
+nio
+.
+charset
+.
+StandardCharsets
+;
+import
+java
+.
 util
 .
 Map
@@ -226,6 +235,9 @@ openRawResource
 (
 resourceID
 )
+StandardCharsets
+.
+UTF_8
 )
 )
 )

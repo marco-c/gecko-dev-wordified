@@ -154,6 +154,15 @@ io
 .
 InputStreamReader
 ;
+import
+java
+.
+nio
+.
+charset
+.
+StandardCharsets
+;
 public
 class
 IOUtils
@@ -193,6 +202,9 @@ open
 (
 fileName
 )
+StandardCharsets
+.
+UTF_8
 )
 )
 )
