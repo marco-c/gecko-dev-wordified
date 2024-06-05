@@ -96,7 +96,7 @@ mozilla
 .
 focus
 .
-webkit
+webview
 ;
 import
 android
@@ -190,7 +190,7 @@ mozilla
 .
 focus
 .
-webkit
+webview
 .
 matcher
 .
