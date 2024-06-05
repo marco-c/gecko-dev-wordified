@@ -391,11 +391,15 @@ getUserInfo
 if
 (
 userInfo
-!
+=
 =
 null
 )
 {
+return
+url
+;
+}
 /
 /
 Strip
@@ -468,7 +472,6 @@ getFragment
 )
 )
 ;
-}
 return
 uri
 .
