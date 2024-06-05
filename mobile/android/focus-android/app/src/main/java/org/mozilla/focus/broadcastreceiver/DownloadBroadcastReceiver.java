@@ -534,6 +534,7 @@ DownloadUtils
 guessFileName
 (
 null
+null
 decoded
 null
 )
@@ -546,6 +547,7 @@ DownloadUtils
 .
 guessFileName
 (
+null
 null
 decoded
 mimeType
