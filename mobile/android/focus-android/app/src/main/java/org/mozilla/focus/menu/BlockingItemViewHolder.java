@@ -286,7 +286,7 @@ R
 .
 id
 .
-help
+help_trackers
 )
 ;
 helpView
