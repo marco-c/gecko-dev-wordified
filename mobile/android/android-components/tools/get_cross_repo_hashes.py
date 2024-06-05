@@ -700,6 +700,20 @@ hash
 was
 added
 .
+PATH_AC_ROOT
+=
+os
+.
+path
+.
+join
+(
+SCRIPT_DIR
+'
+.
+.
+'
+)
 PATH_AC_VERSION
 =
 os
@@ -1789,28 +1803,13 @@ ac_root
 )
 :
     
-gv_version_path
-=
-os
-.
-path
-.
-join
-(
-SCRIPT_DIR
-'
-.
-.
-'
-)
-    
 releasev
 betav
 nightlyv
 =
 ac_checkout_to_gv_versions
 (
-gv_version_path
+ac_root
 )
     
 validate_gv_nightly_version
@@ -1959,9 +1958,7 @@ nightlyv
 =
 ac_checkout_to_mc_hash
 (
-'
-.
-'
+PATH_AC_ROOT
 )
     
 print
