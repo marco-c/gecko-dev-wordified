@@ -1930,13 +1930,9 @@ equals
 )
 {
 return
-LocaleManager
+Locale
 .
-getInstance
-(
-)
-.
-getSystemLocale
+getDefault
 (
 )
 ;
