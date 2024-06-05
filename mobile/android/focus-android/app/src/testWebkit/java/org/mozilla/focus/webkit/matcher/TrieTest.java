@@ -445,9 +445,12 @@ here
 yet
 .
 final
-Trie
+WhiteListTrie
 foundWhitelist
 =
+(
+WhiteListTrie
+)
 trie
 .
 findNode
@@ -470,6 +473,8 @@ foundWhitelist
 assertNotNull
 (
 foundWhitelist
+.
+whitelist
 .
 findNode
 (
