@@ -440,13 +440,6 @@ addObserver
 (
 lockObserver
 )
-components
-.
-migrateTrackingProtectionExceptions
-(
-this
-FocusApplication
-)
 }
 }
 private
