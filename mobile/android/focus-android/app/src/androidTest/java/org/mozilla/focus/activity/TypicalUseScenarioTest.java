@@ -627,7 +627,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
@@ -645,7 +645,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
@@ -825,7 +825,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
@@ -1023,7 +1023,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
@@ -1188,7 +1188,7 @@ assertTrue
 (
 TestHelper
 .
-urlBar
+browserURLbar
 .
 getText
 (
