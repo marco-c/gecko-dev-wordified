@@ -2830,8 +2830,8 @@ currentUrl
 =
 baseURL
 ;
-if
-(
+isLoadingInternalUrl
+=
 currentUrl
 .
 equals
@@ -2850,13 +2850,7 @@ LocalizedContent
 .
 URL_ABOUT
 )
-)
-{
-isLoadingInternalUrl
-=
-true
 ;
-}
 }
 private
 void
