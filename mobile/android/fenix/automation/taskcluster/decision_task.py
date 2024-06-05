@@ -86,7 +86,7 @@ tasks
 import
 TaskBuilder
 schedule_task_graph
-_get_architecture_and_build_type_and_product_from_variant
+get_architecture_and_build_type_from_variant
 from
 lib
 .
@@ -412,9 +412,8 @@ variant
         
 arch
 build_type
-_
 =
-_get_architecture_and_build_type_and_product_from_variant
+get_architecture_and_build_type_from_variant
 (
 variant
 )
@@ -619,7 +618,7 @@ build_task_id
 =
 BUILDER
 .
-craft_assemble_release_task
+craft_assemble_nightly_task
 (
 architectures
 is_staging
