@@ -526,7 +526,7 @@ Rule
 public
 ActivityTestRule
 <
-MainActivity
+IntentReceiverActivity
 >
 activityTestRule
 =
@@ -535,7 +535,7 @@ ActivityTestRule
 <
 >
 (
-MainActivity
+IntentReceiverActivity
 .
 class
 true
