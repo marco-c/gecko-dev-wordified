@@ -614,6 +614,16 @@ prefs
 focus
 "
 )
+COOKIE_BANNER
+(
+"
+auto
+-
+cookie
+-
+banner
+"
+)
 }
 fun
 getGenericSumoURLForTopic
