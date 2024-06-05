@@ -702,7 +702,7 @@ String
 CUSTOM_TAB_CLOSE_BUTTON
 =
 "
-custom_tab_close_button
+custom_tab_close_but
 "
 ;
 private
@@ -712,7 +712,7 @@ String
 CUSTOM_TAB_ACTION_BUTTON
 =
 "
-custom_tab_action_button
+custom_tab_action_bu
 "
 ;
 }
