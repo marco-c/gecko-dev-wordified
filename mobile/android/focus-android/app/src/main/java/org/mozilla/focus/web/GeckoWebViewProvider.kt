@@ -3916,7 +3916,15 @@ LocalizedContent
 URL_ABOUT
 geckoSession
 .
-loadData
+load
+(
+GeckoSession
+.
+Loader
+(
+)
+.
+data
 (
 data
 .
@@ -3927,6 +3935,7 @@ Charsets
 UTF_8
 )
 mimeType
+)
 )
 currentUrl
 =
