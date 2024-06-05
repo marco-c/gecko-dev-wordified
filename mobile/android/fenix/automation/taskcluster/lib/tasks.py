@@ -3397,7 +3397,9 @@ gecko
 -
 t
 -
-ap
+bitbar
+-
+gw
 -
 perf
 -
@@ -3418,7 +3420,9 @@ gecko
 -
 t
 -
-ap
+bitbar
+-
+gw
 -
 perf
 -
