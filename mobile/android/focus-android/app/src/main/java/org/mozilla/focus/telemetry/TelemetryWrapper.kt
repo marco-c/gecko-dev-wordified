@@ -452,10 +452,10 @@ GeckoView
 private
 const
 val
-lastMobileMetricsPing
+LAST_MOBILE_METRICS_PINGS
 =
 "
-lastMobileMetricsPing
+LAST_MOBILE_METRICS_PINGS
 "
 private
 val
@@ -1891,7 +1891,7 @@ edit
 .
 putLong
 (
-lastMobileMetricsPing
+LAST_MOBILE_METRICS_PINGS
 (
 dateFormat
 .
@@ -4563,7 +4563,7 @@ context
 .
 getLong
 (
-lastMobileMetricsPing
+LAST_MOBILE_METRICS_PINGS
 0
 )
 /
