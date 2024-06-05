@@ -1290,6 +1290,12 @@ Callback
 callback
 )
 {
+this
+.
+callback
+=
+callback
+;
 client
 .
 setCallback
