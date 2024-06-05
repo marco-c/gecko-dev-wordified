@@ -3783,6 +3783,11 @@ newInstance
 (
 url
 title
+session
+.
+isBlockingEnabled
+(
+)
 )
 ;
 addToHomescreenDialogFragment
