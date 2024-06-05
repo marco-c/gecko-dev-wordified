@@ -68,8 +68,9 @@ variant
 import
 Variant
 def
-get_debug_variants
+get_variants_for_build_type
 (
+build_type
 )
 :
     
@@ -199,9 +200,7 @@ buildType
 ]
 =
 =
-'
-debug
-'
+build_type
 ]
 def
 get_geckoview_versions
