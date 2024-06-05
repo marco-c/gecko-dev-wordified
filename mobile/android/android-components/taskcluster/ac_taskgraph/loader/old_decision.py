@@ -56,6 +56,7 @@ MPL
 from
 __future__
 import
+absolute_import
 print_function
 unicode_literals
 import
@@ -123,8 +124,6 @@ taskcluster
 .
 decision_task
 import
-pr
-push
 release
 from
 automation
@@ -374,17 +373,13 @@ components
     
 if
 tasks_for
-in
-(
+=
+=
 '
 github
 -
 release
 '
-'
-cron
-'
-)
 :
         
 artifacts_info
@@ -437,8 +432,8 @@ trust_level
     
 if
 tasks_for
-=
-=
+in
+(
 '
 github
 -
@@ -446,34 +441,18 @@ pull
 -
 request
 '
-:
-        
-ordered_groups_of_tasks
-=
-pr
-(
-builder
-artifacts_info
-)
-    
-elif
-tasks_for
-=
-=
 '
 github
 -
 push
 '
+)
 :
         
 ordered_groups_of_tasks
 =
-push
-(
-builder
-artifacts_info
-)
+[
+]
     
 elif
 tasks_for
