@@ -397,11 +397,11 @@ push
 '
 URL
 BRANCH
-]
 '
 -
 f
 '
+]
 )
 		
 exit
