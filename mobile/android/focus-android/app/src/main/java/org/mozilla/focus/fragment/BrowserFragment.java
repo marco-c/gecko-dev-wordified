@@ -9411,9 +9411,10 @@ if
 !
 AppConstants
 .
+INSTANCE
+.
 isGeckoBuild
 (
-context
 )
 )
 {

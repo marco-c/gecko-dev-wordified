@@ -414,9 +414,10 @@ engineIndicator
 =
 AppConstants
 .
+INSTANCE
+.
 isGeckoBuild
 (
-context
 )
 ?
 "

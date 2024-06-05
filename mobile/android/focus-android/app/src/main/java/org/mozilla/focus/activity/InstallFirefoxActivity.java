@@ -382,6 +382,8 @@ if
 (
 AppConstants
 .
+INSTANCE
+.
 isKlarBuild
 (
 )
