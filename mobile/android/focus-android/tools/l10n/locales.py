@@ -626,6 +626,10 @@ ADDITIONAL_SCREENSHOT_LOCALES
 [
 	
 "
+ixl
+"
+	
+"
 lt
 "
 	
