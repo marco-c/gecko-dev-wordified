@@ -254,6 +254,10 @@ bn
 -
 IN
 "
+        
+"
+bs
+"
 	
 "
 ca
@@ -401,6 +405,10 @@ ko
 	
 "
 lo
+"
+        
+"
+meh
 "
     
 "
@@ -581,14 +589,6 @@ ADDITIONAL_SCREENSHOT_LOCALES
 	
 "
 lt
-"
-	
-"
-meh
-"
-	
-"
-bs
 "
 ]
 #
