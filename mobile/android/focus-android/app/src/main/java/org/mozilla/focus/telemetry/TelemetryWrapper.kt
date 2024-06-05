@@ -407,7 +407,7 @@ java
 .
 net
 .
-URI
+URL
 import
 java
 .
@@ -2086,7 +2086,7 @@ UrlUtils
 .
 stripCommonSubdomains
 (
-URI
+URL
 (
 url
 )
