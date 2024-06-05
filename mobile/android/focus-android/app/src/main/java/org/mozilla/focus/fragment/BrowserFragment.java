@@ -591,7 +591,9 @@ ContextCompat
 .
 getColor
 (
-getActivity
+urlBarView
+.
+getContext
 (
 )
 R
