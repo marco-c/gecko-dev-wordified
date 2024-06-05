@@ -630,5 +630,11 @@ exists
 )
 )
 ;
+TestHelper
+.
+pressBackKey
+(
+)
+;
 }
 }
