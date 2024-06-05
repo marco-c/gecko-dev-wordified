@@ -385,14 +385,17 @@ will
 be
 used
 .
+def
 dummy_warn
-=
-lambda
+(
 message
 severity
 =
 None
+)
 :
+    
+return
 None
 #
 These
@@ -469,6 +472,7 @@ StringArray
 list
 )
 :
+    
 pass
 class
 Plurals
@@ -476,6 +480,7 @@ Plurals
 dict
 )
 :
+    
 pass
 Translation
 =
@@ -3617,7 +3622,7 @@ incomplete
 '
 )
 %
-                                    
+                             
 (
 name
 e
@@ -4610,7 +4615,7 @@ translation
 '
 )
 %
-                                    
+                             
 name
 '
 warning
@@ -4817,7 +4822,7 @@ translation
 '
 )
 %
-                                    
+                             
 name
 '
 warning
@@ -5227,7 +5232,7 @@ ignored
 '
 )
 %
-                                    
+                            
 (
 name
 quantity

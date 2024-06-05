@@ -783,6 +783,7 @@ languages
 =
 getattr
 (
+        
 env
         
 '
@@ -1574,7 +1575,7 @@ given
 all
 '
 +
-                            
+                                 
 '
 languages
 lacking
@@ -2678,10 +2679,8 @@ language
 )
                 
 if
+not
 language_data
-=
-=
-False
 :
                     
 #
@@ -3809,8 +3808,7 @@ were
 skipped
 "
 +
-\
-                  
+                          
 "
 because
 they
@@ -3827,8 +3825,7 @@ init
 command
 "
 +
-\
-                  
+                          
 "
 to
 generate
@@ -3839,7 +3836,7 @@ first
 time
 .
 "
-                  
+                          
 color
 =
 '
