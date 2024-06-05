@@ -206,7 +206,9 @@ setId
 (
 menuItem
 .
-id
+getId
+(
+)
 )
 ;
 menuItemView
@@ -215,7 +217,9 @@ setText
 (
 menuItem
 .
-label
+getLabel
+(
+)
 )
 ;
 final
@@ -240,7 +244,9 @@ if
 (
 menuItem
 .
-id
+getId
+(
+)
 =
 =
 R
