@@ -456,7 +456,7 @@ null
 {
 behavior
 .
-setEnabled
+setAutoHideEnabled
 (
 shouldBeVisible
 )

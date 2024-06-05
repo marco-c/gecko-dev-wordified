@@ -289,7 +289,7 @@ is
 enabled
 behavior
 .
-setEnabled
+setAutoHideEnabled
 (
 false
 )
@@ -299,7 +299,7 @@ else
 {
 behavior
 .
-setEnabled
+setAutoHideEnabled
 (
 !
 keepHidden
