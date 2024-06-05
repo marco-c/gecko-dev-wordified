@@ -193,6 +193,8 @@ target
 print
 (
 "
+Error
+:
 *
 [
 {
@@ -250,6 +252,8 @@ source
 print
 (
 "
+Error
+:
 *
 [
 {
@@ -309,6 +313,8 @@ match
 print
 (
 "
+Warning
+:
 *
 [
 {
