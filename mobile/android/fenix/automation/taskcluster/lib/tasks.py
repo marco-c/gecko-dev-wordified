@@ -4227,7 +4227,7 @@ releases
 /
 mozilla
 -
-beta
+release
 "
                     
 "
@@ -4432,7 +4432,7 @@ releases
 /
 mozilla
 -
-beta
+release
 /
 raw
 -
@@ -4794,7 +4794,7 @@ v2
 .
 mozilla
 -
-beta
+release
 .
 geckoview
 -
