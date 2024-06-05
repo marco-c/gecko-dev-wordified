@@ -781,7 +781,7 @@ R
 .
 drawable
 .
-ic_settings
+ic_settings2
 )
 )
 }
