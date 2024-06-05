@@ -243,10 +243,12 @@ FirstrunPage
 pages
 ;
 private
+final
 Context
 context
 ;
 private
+final
 View
 .
 OnClickListener

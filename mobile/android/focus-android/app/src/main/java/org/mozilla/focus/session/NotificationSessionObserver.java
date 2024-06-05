@@ -112,6 +112,7 @@ Session
 >
 {
 private
+final
 Context
 context
 ;

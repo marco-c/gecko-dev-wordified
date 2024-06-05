@@ -154,6 +154,7 @@ layout
 menu_item
 ;
 private
+final
 TextView
 menuItemView
 ;

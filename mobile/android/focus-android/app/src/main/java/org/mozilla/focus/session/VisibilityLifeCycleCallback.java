@@ -242,6 +242,7 @@ finishAndRemoveTaskIfInBackground
 ;
 }
 private
+final
 Context
 context
 ;

@@ -166,14 +166,17 @@ class
 App
 {
 private
+final
 Context
 context
 ;
 private
+final
 ActivityInfo
 info
 ;
 private
+final
 String
 label
 ;

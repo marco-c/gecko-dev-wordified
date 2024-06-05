@@ -201,10 +201,12 @@ layout
 menu_blocking_switch
 ;
 private
+final
 TextView
 trackerCounter
 ;
 private
+final
 BrowserFragment
 fragment
 ;

@@ -153,6 +153,7 @@ loadStarted
 false
 ;
 private
+final
 Session
 session
 ;

@@ -580,6 +580,7 @@ be
 stored
 here
 private
+final
 ActivityInfo
 firefoxBrandedBrowser
 ;

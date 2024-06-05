@@ -428,6 +428,7 @@ Callback
 callback
 ;
 private
+final
 FocusWebViewClient
 client
 ;
