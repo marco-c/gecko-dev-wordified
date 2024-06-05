@@ -187,7 +187,7 @@ repo_url
 =
 REPO_URL
     
-branch
+git_ref
 =
 os
 .
