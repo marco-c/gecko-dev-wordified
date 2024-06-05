@@ -86,7 +86,7 @@ StatusBarUtils
 private
 static
 int
-STATUS_BAR_SIZE
+STATUS_BAR_HEIGHT
 =
 -
 1
@@ -118,7 +118,7 @@ listener
 {
 if
 (
-STATUS_BAR_SIZE
+STATUS_BAR_HEIGHT
 >
 0
 )
@@ -127,12 +127,10 @@ listener
 .
 onStatusBarHeightFetched
 (
-STATUS_BAR_SIZE
+STATUS_BAR_HEIGHT
 )
 ;
 }
-else
-{
 view
 .
 setOnApplyWindowInsetsListener
@@ -155,7 +153,7 @@ WindowInsets
 insets
 )
 {
-STATUS_BAR_SIZE
+STATUS_BAR_HEIGHT
 =
 insets
 .
@@ -167,14 +165,7 @@ listener
 .
 onStatusBarHeightFetched
 (
-STATUS_BAR_SIZE
-)
-;
-view
-.
-setOnApplyWindowInsetsListener
-(
-null
+STATUS_BAR_HEIGHT
 )
 ;
 return
@@ -184,6 +175,5 @@ insets
 }
 )
 ;
-}
 }
 }
