@@ -1897,6 +1897,12 @@ callback
 }
 }
 }
+Suppress
+(
+"
+ComplexMethod
+"
+)
 private
 fun
 createProgressDelegate
