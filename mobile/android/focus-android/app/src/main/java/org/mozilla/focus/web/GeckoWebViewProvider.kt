@@ -2599,7 +2599,7 @@ uri
 )
 AllowOrDeny
 .
-ALLOW
+DENY
 }
 LocalizedContent
 .
@@ -2617,7 +2617,7 @@ context
 {
 AllowOrDeny
 .
-ALLOW
+DENY
 }
 !
 UrlUtils
@@ -2652,7 +2652,7 @@ uri
 {
 AllowOrDeny
 .
-ALLOW
+DENY
 }
 else
 -
@@ -2669,7 +2669,7 @@ isUserTriggered
 )
 AllowOrDeny
 .
-DENY
+ALLOW
 }
 }
 return

@@ -5322,7 +5322,7 @@ fromValue
 (
 AllowOrDeny
 .
-ALLOW
+DENY
 )
 ;
 }
