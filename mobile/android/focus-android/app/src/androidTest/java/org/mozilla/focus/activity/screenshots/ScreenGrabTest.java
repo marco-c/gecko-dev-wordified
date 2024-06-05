@@ -2380,6 +2380,13 @@ waitForExists
 waitingTime
 )
 ;
+titleMsg
+.
+waitForExists
+(
+waitingTime
+)
+;
 assertTrue
 (
 "
