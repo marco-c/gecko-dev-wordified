@@ -774,7 +774,7 @@ components
 .
 tabsUseCases
 .
-addPrivateTab
+addTab
 (
 DEFAULT_BROWSER_URL
 source
@@ -785,6 +785,9 @@ Source
 .
 MENU
 selectTab
+=
+true
+private
 =
 true
 )
