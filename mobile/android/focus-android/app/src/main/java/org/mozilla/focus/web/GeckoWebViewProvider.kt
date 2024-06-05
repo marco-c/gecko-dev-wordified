@@ -3656,6 +3656,16 @@ Void
 }
 override
 fun
+releaseGeckoSession
+(
+)
+{
+releaseSession
+(
+)
+}
+override
+fun
 onDetachedFromWindow
 (
 )

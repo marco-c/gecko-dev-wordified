@@ -689,6 +689,11 @@ String
 historyURL
 )
 ;
+void
+releaseGeckoSession
+(
+)
+;
 /
 *
 *
