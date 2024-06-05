@@ -339,6 +339,10 @@ id
 webview
 )
 ;
+isWebViewAvailable
+=
+true
+;
 webView
 .
 setCallback
@@ -372,10 +376,6 @@ url
 )
 ;
 }
-isWebViewAvailable
-=
-true
-;
 return
 view
 ;
