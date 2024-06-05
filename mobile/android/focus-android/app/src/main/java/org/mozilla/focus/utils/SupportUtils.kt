@@ -545,6 +545,12 @@ android
 allowlist
 "
 )
+STUDIES
+(
+"
+studies
+"
+)
 }
 fun
 getSumoURLForTopic
