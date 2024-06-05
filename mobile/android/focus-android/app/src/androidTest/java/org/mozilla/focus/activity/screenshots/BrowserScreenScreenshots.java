@@ -1270,11 +1270,10 @@ UiSelector
 (
 )
 .
-description
+resourceId
 (
 "
 download
-icon
 "
 )
 .
@@ -1430,8 +1429,9 @@ assertTrue
 (
 mozillaImage
 .
-exists
+waitForExists
 (
+waitingTime
 )
 )
 ;
