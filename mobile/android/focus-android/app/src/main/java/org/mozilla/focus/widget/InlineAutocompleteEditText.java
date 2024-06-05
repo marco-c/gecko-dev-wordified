@@ -3143,6 +3143,12 @@ textLength
 textLengthBeforeChange
 -
 1
+|
+|
+textLength
+=
+=
+0
 )
 {
 /
