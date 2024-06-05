@@ -578,14 +578,14 @@ canGoBack
 )
 ;
 void
-restoreWebviewState
+restoreWebViewState
 (
 Bundle
-savedInstanceState
+inState
 )
 ;
 void
-onSaveInstanceState
+saveWebViewState
 (
 Bundle
 outState
