@@ -7,7 +7,7 @@ populate_chain_of_trust_required_but_unused_files
 :
     
 #
-Thoses
+These
 files
 are
 needed
