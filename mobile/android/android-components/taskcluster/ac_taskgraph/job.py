@@ -601,6 +601,9 @@ google
 "
 jcenter
 "
+"
+central
+"
 )
     
 ]
