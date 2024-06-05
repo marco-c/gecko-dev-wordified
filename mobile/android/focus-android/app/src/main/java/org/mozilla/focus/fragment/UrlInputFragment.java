@@ -2667,7 +2667,7 @@ existence
 .
 browserFragment
 .
-loadURL
+loadUrl
 (
 url
 )
