@@ -63,7 +63,7 @@ MPL
 /
 .
 import
-get_cross_repo_hashes
+list_compatible_dependency_versions
 as
 module
 import
