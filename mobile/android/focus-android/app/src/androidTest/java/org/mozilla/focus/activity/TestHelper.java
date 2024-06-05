@@ -664,7 +664,7 @@ debug
 :
 id
 /
-brand_background
+backgroundView
 "
 )
 .
@@ -852,7 +852,7 @@ debug
 :
 id
 /
-clear
+clearView
 "
 )
 .

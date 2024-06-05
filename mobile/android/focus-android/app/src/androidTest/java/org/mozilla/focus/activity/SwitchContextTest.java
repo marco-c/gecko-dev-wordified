@@ -930,7 +930,7 @@ exists
 Test
 public
 void
-EraseandOpenTest
+eraseAndOpenTest
 (
 )
 throws
