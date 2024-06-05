@@ -374,13 +374,17 @@ components
     
 if
 tasks_for
-=
-=
+in
+(
 '
 github
 -
 release
 '
+'
+cron
+'
+)
 :
         
 artifacts_info
