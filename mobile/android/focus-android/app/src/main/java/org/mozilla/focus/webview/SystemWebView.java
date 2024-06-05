@@ -697,6 +697,8 @@ key
 {
 WebViewProvider
 .
+INSTANCE
+.
 applyAppSettings
 (
 getContext
@@ -1142,6 +1144,8 @@ enabled
 {
 WebViewProvider
 .
+INSTANCE
+.
 applyAppSettings
 (
 getContext
@@ -1157,6 +1161,8 @@ this
 else
 {
 WebViewProvider
+.
+INSTANCE
 .
 disableBlocking
 (
@@ -1200,6 +1206,8 @@ shouldRequestDesktop
 {
 WebViewProvider
 .
+INSTANCE
+.
 requestDesktopSite
 (
 getSettings
@@ -1211,6 +1219,8 @@ getSettings
 else
 {
 WebViewProvider
+.
+INSTANCE
 .
 requestMobileSite
 (

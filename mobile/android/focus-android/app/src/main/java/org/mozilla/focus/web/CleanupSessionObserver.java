@@ -187,6 +187,8 @@ anymore
 .
 WebViewProvider
 .
+INSTANCE
+.
 performCleanup
 (
 context

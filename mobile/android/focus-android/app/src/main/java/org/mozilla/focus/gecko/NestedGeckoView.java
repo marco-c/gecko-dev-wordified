@@ -96,7 +96,7 @@ mozilla
 .
 focus
 .
-web
+gecko
 ;
 import
 android

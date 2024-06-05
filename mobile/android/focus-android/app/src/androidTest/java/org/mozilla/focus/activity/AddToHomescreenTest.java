@@ -981,6 +981,11 @@ AppConstants
 .
 isGeckoBuild
 (
+mActivityTestRule
+.
+getActivity
+(
+)
 )
 )
 {
@@ -1353,6 +1358,11 @@ AppConstants
 .
 isGeckoBuild
 (
+mActivityTestRule
+.
+getActivity
+(
+)
 )
 )
 {

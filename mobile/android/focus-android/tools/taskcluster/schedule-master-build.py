@@ -494,8 +494,8 @@ no
 -
 daemon
 clean
-assembleFocusWebviewUniversalDebug
-assembleFocusWebviewUniversalDebugAndroidTest
+assembleFocusWebviewX86Debug
+assembleFocusWebviewX86DebugAndroidTest
 '
 			
 '
@@ -532,14 +532,14 @@ firebase
 test
 .
 sh
-focusWebviewUniversal
+focusWebviewX86
 app
 -
 focus
 -
 webview
 -
-universal
+x86
 -
 debug
 model
@@ -1176,7 +1176,7 @@ no
 -
 daemon
 clean
-assembleFocusWebviewUniversalRelease
+assembleFocusWebviewArmRelease
 assembleKlarGeckoArmRelease
 '
 				   
