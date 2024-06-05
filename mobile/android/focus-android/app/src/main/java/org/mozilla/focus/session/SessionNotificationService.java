@@ -478,6 +478,12 @@ Intent
 rootIntent
 )
 {
+TelemetryWrapper
+.
+eraseTaskRemoved
+(
+)
+;
 SessionManager
 .
 getInstance
