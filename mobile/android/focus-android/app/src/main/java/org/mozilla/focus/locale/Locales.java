@@ -196,16 +196,6 @@ public
 class
 Locales
 {
-private
-static
-final
-String
-LOGTAG
-=
-"
-Locales
-"
-;
 /
 *
 *
