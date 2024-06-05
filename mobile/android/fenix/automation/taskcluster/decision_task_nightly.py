@@ -275,6 +275,35 @@ format
 GITHUB_HTTP_REPOSITORY
 )
     
+sentry_secret
+=
+'
+{
+}
+project
+/
+mobile
+/
+fenix
+/
+sentry
+'
+.
+format
+(
+'
+garbage
+/
+staging
+/
+'
+if
+is_staging
+else
+'
+'
+)
+    
 return
 taskcluster
 .
@@ -341,13 +370,8 @@ py
 '
 -
 s
-project
-/
-mobile
-/
-fenix
-/
-sentry
+{
+}
 -
 k
 dsn
@@ -356,6 +380,12 @@ f
 .
 sentry_token
 '
+.
+format
+(
+sentry_secret
+)
++
             
 '
 &
@@ -427,14 +457,14 @@ secrets
 :
 get
 :
-project
-/
-mobile
-/
-fenix
-/
-sentry
+{
+}
 "
+.
+format
+(
+sentry_secret
+)
         
 ]
     
