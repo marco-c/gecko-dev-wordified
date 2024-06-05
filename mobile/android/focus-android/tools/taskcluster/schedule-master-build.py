@@ -413,7 +413,7 @@ no
 -
 daemon
 clean
-detektCheck
+detekt
 ktlint
 lint
 '
