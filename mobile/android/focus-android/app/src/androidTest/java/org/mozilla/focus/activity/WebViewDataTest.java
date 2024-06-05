@@ -1105,13 +1105,6 @@ exists
 Erase
 browsing
 session
-Thread
-.
-sleep
-(
-5000
-)
-;
 TestHelper
 .
 floatingEraseButton
