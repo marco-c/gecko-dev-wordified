@@ -93,7 +93,7 @@ resolve_keyed_by
 from
 android_taskgraph
 .
-gradle
+build_config
 import
 get_variant
 transforms
