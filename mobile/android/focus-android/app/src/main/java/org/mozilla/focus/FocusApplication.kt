@@ -665,8 +665,6 @@ WebViewProvider
 .
 determineEngine
 (
-this
-FocusApplication
 )
 }
 private
