@@ -98,6 +98,14 @@ focus
 import
 android
 .
+arch
+.
+lifecycle
+.
+LifecycleObserver
+import
+android
+.
 os
 .
 StrictMode
@@ -249,6 +257,7 @@ FocusApplication
 LocaleAwareApplication
 (
 )
+LifecycleObserver
 {
 var
 visibilityLifeCycleCallback
