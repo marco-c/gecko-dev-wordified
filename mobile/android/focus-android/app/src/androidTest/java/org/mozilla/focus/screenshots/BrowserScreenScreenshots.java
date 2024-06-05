@@ -763,7 +763,7 @@ R
 .
 id
 .
-urlView
+mozac_browser_toolbar_edit_url_view
 )
 )
 .
@@ -1145,7 +1145,7 @@ R
 .
 id
 .
-urlView
+mozac_browser_toolbar_edit_url_view
 )
 )
 .
@@ -1287,7 +1287,7 @@ R
 .
 id
 .
-urlView
+mozac_browser_toolbar_edit_url_view
 )
 )
 .
@@ -1362,7 +1362,7 @@ R
 .
 id
 .
-display_url
+mozac_browser_toolbar_url_view
 )
 )
 .
@@ -1410,7 +1410,7 @@ R
 .
 id
 .
-display_url
+mozac_browser_toolbar_url_view
 )
 )
 .
@@ -1488,7 +1488,7 @@ R
 .
 id
 .
-display_url
+mozac_browser_toolbar_url_view
 )
 )
 .
@@ -2393,7 +2393,7 @@ R
 .
 id
 .
-urlView
+mozac_browser_toolbar_edit_url_view
 )
 )
 .

@@ -596,7 +596,7 @@ packageName
 :
 id
 /
-urlView
+mozac_browser_toolbar_edit_url_view
 "
 )
 )
@@ -719,6 +719,6 @@ R
 .
 id
 .
-clearView
+mozac_browser_toolbar_clear_view
 )
 )
