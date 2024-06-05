@@ -302,8 +302,8 @@ env
 .
 update
 (
-        
 {
+        
 "
 ANDROID_SDK_ROOT
 "
@@ -312,10 +312,22 @@ path
 .
 join
 (
+            
 run
 [
 "
 workdir
+"
+]
+worker
+[
+"
+env
+"
+]
+[
+"
+MOZ_FETCHES_DIR
 "
 ]
 "
@@ -325,9 +337,10 @@ sdk
 -
 linux
 "
+        
 )
-}
     
+}
 )
     
 #
