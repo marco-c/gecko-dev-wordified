@@ -532,7 +532,7 @@ id
 menu_link_share
 )
 .
-setEnabled
+setVisible
 (
 hitTarget
 .
@@ -554,7 +554,7 @@ id
 menu_link_copy
 )
 .
-setEnabled
+setVisible
 (
 hitTarget
 .
@@ -576,7 +576,7 @@ id
 menu_image_share
 )
 .
-setEnabled
+setVisible
 (
 hitTarget
 .
@@ -598,7 +598,7 @@ id
 menu_image_copy
 )
 .
-setEnabled
+setVisible
 (
 hitTarget
 .
