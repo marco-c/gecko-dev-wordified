@@ -1077,9 +1077,10 @@ handling
 )
 if
 (
+!
 UrlUtils
 .
-focusSupportURLProtocol
+isSupportedProtocol
 (
 url
 )
