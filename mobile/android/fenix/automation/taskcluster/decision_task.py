@@ -504,7 +504,7 @@ build_type
 =
 =
 '
-releaseRaptor
+raptor
 '
 and
             
@@ -545,7 +545,7 @@ signing_task_id
 =
 BUILDER
 .
-craft_master_commit_signing_task
+craft_raptor_signing_task
 (
 assemble_task_id
 variant

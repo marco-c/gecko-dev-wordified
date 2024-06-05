@@ -1162,7 +1162,7 @@ variant
 gradle_task
 =
 '
-lintAarch64Release
+lintAarch64Nightly
 '
             
 treeherder
@@ -2236,7 +2236,7 @@ source
 }
     
 def
-craft_master_commit_signing_task
+craft_raptor_signing_task
 (
         
 self
@@ -2247,18 +2247,11 @@ variant
 :
         
 architecture
-build_type
+_
 =
 get_architecture_and_build_type_from_variant
 (
 variant
-)
-        
-build_type
-=
-convert_camel_case_into_kebab_case
-(
-build_type
 )
         
 routes
@@ -2312,7 +2305,9 @@ format
 self
 .
 commit
-build_type
+'
+raptor
+'
 architecture
                 
 )
@@ -2344,7 +2339,9 @@ latest
 format
 (
                     
-build_type
+'
+raptor
+'
 architecture
                 
 )
@@ -2409,7 +2406,9 @@ self
 .
 commit
                     
-build_type
+'
+raptor
+'
 architecture
                 
 )
@@ -2467,7 +2466,9 @@ self
 date
 .
 day
-build_type
+'
+raptor
+'
 architecture
                 
 )
@@ -3682,6 +3683,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 "
                     
 "
