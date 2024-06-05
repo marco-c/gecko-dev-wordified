@@ -492,8 +492,8 @@ no
 -
 daemon
 clean
-assembleFocusWebviewDebug
-assembleFocusWebviewDebugAndroidTest
+assembleFocusWebviewUniversalDebug
+assembleFocusWebviewUniversalDebugAndroidTest
 '
 			
 '
