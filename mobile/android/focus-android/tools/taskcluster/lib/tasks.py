@@ -78,6 +78,7 @@ branch
 commit
 owner
 source
+scheduler_id
 )
 :
         
@@ -116,6 +117,12 @@ self
 source
 =
 source
+        
+self
+.
+scheduler_id
+=
+scheduler_id
     
 def
 build_task
@@ -229,6 +236,14 @@ self
 task_id
             
 "
+schedulerId
+"
+:
+self
+.
+scheduler_id
+            
+"
 expires
 "
 :
@@ -269,16 +284,6 @@ priority
 :
 "
 lowest
-"
-            
-"
-schedulerId
-"
-:
-"
-taskcluster
--
-github
 "
             
 "
@@ -537,6 +542,14 @@ self
 task_id
             
 "
+schedulerId
+"
+:
+self
+.
+scheduler_id
+            
+"
 expires
 "
 :
@@ -577,16 +590,6 @@ priority
 :
 "
 lowest
-"
-            
-"
-schedulerId
-"
-:
-"
-taskcluster
--
-github
 "
             
 "
@@ -827,6 +830,14 @@ self
 task_id
             
 "
+schedulerId
+"
+:
+self
+.
+scheduler_id
+            
+"
 expires
 "
 :
@@ -867,16 +878,6 @@ priority
 :
 "
 lowest
-"
-            
-"
-schedulerId
-"
-:
-"
-taskcluster
--
-github
 "
             
 "
