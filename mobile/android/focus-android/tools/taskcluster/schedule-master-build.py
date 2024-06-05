@@ -1790,6 +1790,8 @@ https
 /
 /
 taskcluster
+.
+net
 '
 }
 )
