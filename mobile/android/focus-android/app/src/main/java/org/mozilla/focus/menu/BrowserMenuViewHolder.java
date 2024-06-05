@@ -133,7 +133,7 @@ private
 BrowserMenu
 menu
 ;
-private
+protected
 View
 .
 OnClickListener
