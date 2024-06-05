@@ -2190,11 +2190,6 @@ new
 session
 "
 )
-CrashReporterWrapper
-.
-captureGeckoCrash
-(
-)
 geckoSession
 .
 close
