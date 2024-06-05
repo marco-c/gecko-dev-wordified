@@ -575,7 +575,9 @@ android
 -
 components
 /
-buildSrc
+plugins
+/
+dependencies
 /
 src
 /
