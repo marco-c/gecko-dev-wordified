@@ -313,7 +313,7 @@ list
 (
 task
 .
-get
+pop
 (
 '
 soft
