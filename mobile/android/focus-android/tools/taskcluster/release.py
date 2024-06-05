@@ -319,24 +319,6 @@ s
 tag
 )
     
-checkout
-=
-checkout
-+
-'
-&
-&
-tools
-/
-taskcluster
-/
-accept
--
-license
-.
-sh
-'
-    
 assemble_task
 =
 '
