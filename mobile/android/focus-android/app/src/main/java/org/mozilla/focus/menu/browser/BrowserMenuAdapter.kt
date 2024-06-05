@@ -319,7 +319,12 @@ Int
 get
 (
 )
+{
+val
+offset
 =
+2
+return
 if
 (
 hasCustomTabConfig
@@ -328,7 +333,8 @@ hasCustomTabConfig
 else
 itemCount
 -
-2
+offset
+}
 init
 {
 initializeMenu
@@ -612,6 +618,8 @@ a
 custom
 tab
 .
+/
+/
 The
 user
 can
