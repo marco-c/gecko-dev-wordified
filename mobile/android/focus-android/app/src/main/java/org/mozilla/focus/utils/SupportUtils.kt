@@ -473,10 +473,6 @@ firefox
 focus
 -
 android
--
-version
--
-93
 "
 )
 SEARCH_SUGGESTIONS
