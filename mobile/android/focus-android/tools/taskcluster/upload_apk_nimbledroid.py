@@ -210,6 +210,7 @@ json
 		
 exit
 (
+1
 )
 	
 #
@@ -287,7 +288,7 @@ v1
 '
 }
 )
-api_key
+data
 =
 secrets
 .
@@ -376,10 +377,30 @@ apk
 uploadApk
 (
 klar_file
+data
+[
+'
+secret
+'
+]
+[
+'
 api_key
+'
+]
 )
 uploadApk
 (
 focus_file
+data
+[
+'
+secret
+'
+]
+[
+'
 api_key
+'
+]
 )
