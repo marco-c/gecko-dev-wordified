@@ -976,8 +976,6 @@ https
 /
 /
 taskcluster
-.
-net
 '
 }
 )
