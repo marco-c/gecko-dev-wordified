@@ -325,6 +325,7 @@ new
 MainActivityFirstrunTestRule
 (
 true
+true
 )
 {
 Override

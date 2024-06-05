@@ -241,6 +241,7 @@ mActivityTestRule
 new
 MainActivityFirstrunTestRule
 (
+true
 false
 )
 {
