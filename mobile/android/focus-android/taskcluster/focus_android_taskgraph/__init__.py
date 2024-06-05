@@ -94,6 +94,10 @@ _import_modules
 [
         
 "
+parameters
+"
+        
+"
 job
 "
         
@@ -107,6 +111,10 @@ routes
         
 "
 target_tasks
+"
+        
+"
+release_promotion
 "
     
 ]
