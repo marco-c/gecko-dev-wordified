@@ -197,7 +197,7 @@ focus
 .
 activity
 .
-MainActivity
+IntentReceiverActivity
 ;
 import
 org
@@ -592,7 +592,7 @@ new
 Intent
 (
 context
-MainActivity
+IntentReceiverActivity
 .
 class
 )
