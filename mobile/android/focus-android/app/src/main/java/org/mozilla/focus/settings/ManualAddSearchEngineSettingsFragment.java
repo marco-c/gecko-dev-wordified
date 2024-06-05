@@ -342,6 +342,7 @@ SettingsFragment
 {
 private
 static
+final
 String
 LOGTAG
 =
