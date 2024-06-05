@@ -418,9 +418,6 @@ clean
 detektCheck
 ktlint
 lint
-pmd
-checkstyle
-spotbugs
 '
         
 dependencies
