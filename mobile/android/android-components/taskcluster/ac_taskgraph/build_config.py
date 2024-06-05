@@ -194,9 +194,6 @@ items
 def
 get_version
 (
-is_snapshot
-=
-False
 )
 :
     

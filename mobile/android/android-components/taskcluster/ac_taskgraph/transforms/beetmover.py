@@ -310,7 +310,7 @@ component
 "
 ]
                             
-version_with_snapshot
+version
 =
 craft_path_version
 (

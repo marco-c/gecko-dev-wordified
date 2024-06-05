@@ -206,9 +206,6 @@ nightly
 '
 release
 '
-'
-snapshot
-'
 )
         
 if
