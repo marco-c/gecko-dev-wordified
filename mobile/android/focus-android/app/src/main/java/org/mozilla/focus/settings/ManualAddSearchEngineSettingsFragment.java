@@ -123,6 +123,15 @@ support
 .
 annotation
 .
+VisibleForTesting
+;
+import
+android
+.
+support
+.
+annotation
+.
 WorkerThread
 ;
 import
@@ -1438,7 +1447,7 @@ makes
 network
 request
 .
-private
+VisibleForTesting
 static
 boolean
 isValidSearchQueryURL
