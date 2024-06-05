@@ -122,6 +122,15 @@ Any
 basestring
 None
 )
+    
+Required
+(
+"
+version
+"
+)
+:
+basestring
 }
 )
 def
@@ -317,6 +326,21 @@ MOBILE_BASE_REV
 "
 )
     
+version
+=
+get_version
+(
+)
+    
+parameters
+[
+"
+version
+"
+]
+=
+version
+    
 if
 parameters
 [
@@ -384,12 +408,6 @@ head_tag
                 
 )
             
-)
-        
-version
-=
-get_version
-(
 )
         
 #

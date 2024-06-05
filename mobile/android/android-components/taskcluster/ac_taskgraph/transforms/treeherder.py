@@ -98,6 +98,19 @@ in
 tasks
 :
         
+if
+task
+.
+get
+(
+"
+primary
+-
+dependency
+"
+)
+:
+            
 dep
 =
 task
@@ -110,6 +123,27 @@ primary
 dependency
 "
 )
+        
+else
+:
+            
+dep
+=
+task
+[
+"
+dependent
+-
+tasks
+"
+]
+.
+values
+(
+)
+[
+0
+]
         
 task
 .
