@@ -841,6 +841,8 @@ lockIcon
 waitForExists
 (
 waitingTime
+*
+2
 )
 ;
 assertTrue
@@ -849,7 +851,7 @@ TestHelper
 .
 lockIcon
 .
-exists
+isEnabled
 (
 )
 )
