@@ -324,6 +324,13 @@ showHomeScreen
 )
 ;
 }
+WebViewProvider
+.
+preload
+(
+this
+)
+;
 }
 Override
 SuppressLint
