@@ -64,6 +64,10 @@ os
 import
 yaml
 from
+six
+import
+ensure_text
+from
 taskgraph
 .
 util
@@ -198,6 +202,8 @@ get_version
 :
     
 return
+ensure_text
+(
 _read_build_config
 (
 )
@@ -206,6 +212,7 @@ _read_build_config
 componentsVersion
 "
 ]
+)
 def
 get_path
 (
