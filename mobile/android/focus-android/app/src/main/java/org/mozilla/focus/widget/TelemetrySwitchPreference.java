@@ -685,7 +685,7 @@ getContext
 )
 )
 .
-onBackPressed
+finish
 (
 )
 ;
