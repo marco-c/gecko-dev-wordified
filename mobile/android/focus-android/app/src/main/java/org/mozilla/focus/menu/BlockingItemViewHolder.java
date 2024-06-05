@@ -235,9 +235,6 @@ final
 Switch
 switchView
 =
-(
-Switch
-)
 itemView
 .
 findViewById
@@ -254,6 +251,10 @@ switchView
 setChecked
 (
 fragment
+.
+getSession
+(
+)
 .
 isBlockingEnabled
 (
@@ -324,9 +325,6 @@ view
 ;
 trackerCounter
 =
-(
-TextView
-)
 itemView
 .
 findViewById
@@ -371,6 +369,10 @@ trackers
 if
 (
 fragment
+.
+getSession
+(
+)
 .
 isBlockingEnabled
 (
