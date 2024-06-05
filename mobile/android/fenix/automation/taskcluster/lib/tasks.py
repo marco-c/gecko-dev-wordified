@@ -1441,6 +1441,7 @@ tier
 routes
 =
 [
+                
 '
 index
 .
@@ -1456,8 +1457,19 @@ branch
 .
 master
 .
-latest
+revision
+.
+{
+}
 '
+.
+format
+(
+self
+.
+commit
+)
+            
 ]
             
 artifacts
