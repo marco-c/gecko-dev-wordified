@@ -448,6 +448,10 @@ INVISIBLE
 )
 ;
 }
+applyLocale
+(
+)
+;
 return
 view
 ;
