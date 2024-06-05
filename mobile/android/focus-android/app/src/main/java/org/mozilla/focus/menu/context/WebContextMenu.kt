@@ -1054,6 +1054,15 @@ navigationView
 val
 appLinkData
 =
+if
+(
+hitTarget
+.
+linkURL
+!
+=
+null
+)
 getAppDataForLink
 (
 context
@@ -1061,6 +1070,8 @@ hitTarget
 .
 linkURL
 )
+else
+null
 inflateMenu
 (
 R
