@@ -63,8 +63,6 @@ mozilla
 .
 focus
 .
-activity
-.
 screenshots
 ;
 import
