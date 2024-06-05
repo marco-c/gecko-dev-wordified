@@ -387,6 +387,12 @@ chainOfTrust
 "
 :
 True
+            
+"
+taskClusterProxy
+"
+:
+True
         
 }
         
