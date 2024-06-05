@@ -599,7 +599,6 @@ context
 Source
 .
 HOME_SCREEN
-;
 intent
 intent
 .
@@ -656,7 +655,6 @@ EXTRA_TEXT
 ;
 if
 (
-!
 TextUtils
 .
 isEmpty
@@ -665,6 +663,9 @@ dataString
 )
 )
 {
+return
+;
+}
 final
 boolean
 isSearch
@@ -718,7 +719,6 @@ SHARE
 url
 )
 ;
-}
 }
 }
 }
