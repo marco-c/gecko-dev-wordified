@@ -343,7 +343,7 @@ R
 .
 string
 .
-launcher_name
+app_name
 )
 )
 R
