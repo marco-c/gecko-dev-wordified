@@ -150,10 +150,6 @@ os
 import
 sys
 from
-enum
-import
-Enum
-from
 urllib
 .
 error
@@ -1781,8 +1777,6 @@ print
 )
     
 mc_hash
-_
-_
 nightlyv
 =
 ac_checkout_to_mc_hash
