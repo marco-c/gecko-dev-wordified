@@ -290,12 +290,15 @@ setupAdjustIfNeeded
 (
 this
 )
-registerActivityLifecycleCallbacks
-(
+visibilityLifeCycleCallback
+=
 VisibilityLifeCycleCallback
 (
 this
 )
+registerActivityLifecycleCallbacks
+(
+visibilityLifeCycleCallback
 )
 val
 sessions
