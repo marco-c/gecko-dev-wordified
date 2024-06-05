@@ -470,6 +470,14 @@ link
 )
 ;
 }
+if
+(
+callback
+!
+=
+null
+)
+{
 callback
 .
 onLongPress
@@ -486,6 +494,7 @@ src
 )
 )
 ;
+}
 }
 }
 )
