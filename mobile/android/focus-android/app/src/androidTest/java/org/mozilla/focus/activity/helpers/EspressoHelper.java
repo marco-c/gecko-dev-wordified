@@ -147,7 +147,7 @@ action
 .
 ViewActions
 .
-typeText
+replaceText
 ;
 import
 static
@@ -276,7 +276,7 @@ hasFocus
 .
 perform
 (
-typeText
+replaceText
 (
 input
 )
