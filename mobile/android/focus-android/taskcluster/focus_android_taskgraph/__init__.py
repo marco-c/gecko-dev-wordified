@@ -97,25 +97,16 @@ _import_modules
 job
 "
         
-#
-parameters
+"
+worker_types
+"
         
-#
-release_promotion
-        
-#
 "
 routes
 "
         
-#
 "
 target_tasks
-"
-        
-#
-"
-worker_types
 "
     
 ]
