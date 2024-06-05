@@ -465,7 +465,6 @@ type
 ]
             
 nightly_version
-)
         
 )
         
