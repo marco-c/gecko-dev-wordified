@@ -58,8 +58,6 @@ datetime
 import
 json
 import
-os
-import
 taskcluster
 class
 TaskBuilder
@@ -968,44 +966,17 @@ description
 owner
 "
 :
-"
-android
--
-components
--
-team
-mozilla
+self
 .
-com
-"
+owner
                 
 "
 source
 "
 :
-"
-https
-:
-/
-/
-github
+self
 .
-com
-/
-mozilla
--
-mobile
-/
-fenix
-/
-tree
-/
-master
-/
-automation
-/
-taskcluster
-"
+source
             
 }
         
