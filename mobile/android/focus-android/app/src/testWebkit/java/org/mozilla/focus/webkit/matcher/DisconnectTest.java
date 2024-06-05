@@ -110,6 +110,13 @@ SharedPreferences
 import
 android
 .
+net
+.
+Uri
+;
+import
+android
+.
 preference
 .
 PreferenceManager
@@ -545,6 +552,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -556,6 +567,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -588,6 +600,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -599,6 +615,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -621,6 +638,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -634,6 +655,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -652,6 +674,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -665,6 +691,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -687,6 +714,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -700,6 +731,7 @@ com
 /
 something
 "
+)
 "
 http
 :
@@ -718,6 +750,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -731,6 +767,7 @@ com
 /
 something
 "
+)
 "
 http
 :
@@ -766,6 +803,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -775,6 +816,7 @@ facebook
 .
 fr
 "
+)
 "
 http
 :
@@ -793,6 +835,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -802,6 +848,7 @@ facebook
 .
 fr
 "
+)
 "
 http
 :
@@ -916,6 +963,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -927,6 +978,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -945,6 +997,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -956,6 +1012,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -978,6 +1035,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -991,6 +1052,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -1009,6 +1071,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1022,6 +1088,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -1044,6 +1111,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1057,6 +1128,7 @@ com
 /
 something
 "
+)
 "
 http
 :
@@ -1075,6 +1147,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1088,6 +1164,7 @@ com
 /
 something
 "
+)
 "
 http
 :
@@ -1118,6 +1195,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1127,6 +1208,7 @@ facebook
 .
 fr
 "
+)
 "
 http
 :
@@ -1145,6 +1227,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1154,6 +1240,7 @@ facebook
 .
 fr
 "
+)
 "
 http
 :
@@ -1265,6 +1352,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1276,6 +1367,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -1294,6 +1386,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1305,6 +1401,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -1327,6 +1424,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1340,6 +1441,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -1358,6 +1460,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1371,6 +1477,7 @@ com
 /
 foobar
 "
+)
 "
 http
 :
@@ -1393,6 +1500,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1406,6 +1517,7 @@ com
 /
 something
 "
+)
 "
 http
 :
@@ -1424,6 +1536,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1437,6 +1553,7 @@ com
 /
 something
 "
+)
 "
 http
 :
@@ -1472,6 +1589,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1481,6 +1602,7 @@ facebook
 .
 fr
 "
+)
 "
 http
 :
@@ -1499,6 +1621,10 @@ matcher
 .
 matches
 (
+Uri
+.
+parse
+(
 "
 http
 :
@@ -1508,6 +1634,7 @@ facebook
 .
 fr
 "
+)
 "
 http
 :
