@@ -241,6 +241,16 @@ parameters
 )
 :
     
+#
+Environment
+is
+defined
+in
+.
+taskcluster
+.
+yml
+    
 pr_number
 =
 os
@@ -288,6 +298,24 @@ get
 (
 "
 MOBILE_BASE_REV
+"
+)
+    
+parameters
+[
+"
+head_ref
+"
+]
+=
+os
+.
+environ
+.
+get
+(
+"
+MOBILE_HEAD_REF
 "
 )
     
