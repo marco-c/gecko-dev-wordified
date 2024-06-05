@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 This
 Source
@@ -169,19 +169,16 @@ raise
     
 print
 (
+f
 "
 Outputting
 secret
 to
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
     
 with
@@ -238,6 +235,27 @@ json
 dumps
 (
 value
+)
+        
+if
+isinstance
+(
+value
+bytes
+)
+:
+            
+value
+=
+value
+.
+decode
+(
+"
+utf
+-
+8
+"
 )
         
 f

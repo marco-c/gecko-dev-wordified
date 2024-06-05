@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 This
 Source
@@ -149,19 +149,16 @@ raise
     
 print
 (
+f
 "
 Outputting
 secret
 to
 :
 {
+path
 }
 "
-.
-format
-(
-path
-)
 )
     
 with

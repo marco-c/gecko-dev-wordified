@@ -573,16 +573,13 @@ gradlew
 clean
 "
             
+f
 "
 assemble
 {
+variant_name
 }
 "
-.
-format
-(
-variant_name
-)
         
 ]
         
