@@ -1294,6 +1294,7 @@ attributes
 )
 ;
 }
+public
 interface
 EntriesListener
 {
