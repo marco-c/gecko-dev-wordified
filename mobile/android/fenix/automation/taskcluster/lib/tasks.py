@@ -1727,11 +1727,13 @@ dep
 v1
 '
 if
-signing_format
+signing_type
 =
 =
 '
 dep
+-
+signing
 '
 else
 '
