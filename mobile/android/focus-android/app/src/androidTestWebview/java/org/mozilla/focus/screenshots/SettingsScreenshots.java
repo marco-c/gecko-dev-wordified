@@ -226,9 +226,9 @@ mozilla
 .
 focus
 .
-helpers
+autocomplete
 .
-TestHelper
+CustomAutocomplete
 ;
 import
 org
@@ -248,9 +248,9 @@ mozilla
 .
 focus
 .
-autocomplete
+helpers
 .
-CustomAutocomplete
+TestHelper
 ;
 import
 java
