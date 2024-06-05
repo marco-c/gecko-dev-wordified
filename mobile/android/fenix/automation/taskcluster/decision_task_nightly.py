@@ -147,11 +147,11 @@ TASK_ID
 owner
 =
 "
-android
+fenix
 -
-components
+eng
 -
-team
+notifications
 mozilla
 .
 com
@@ -188,6 +188,7 @@ def
 generate_build_task
 (
 apks
+is_staging
 )
 :
     
@@ -345,18 +346,30 @@ chainOfTrust
 "
 :
 True
-            
-"
-taskClusterProxy
-"
-:
-True
         
 }
         
 artifacts
 =
 artifacts
+        
+worker_type
+=
+'
+android
+-
+components
+-
+g
+'
+if
+is_staging
+else
+'
+gecko
+-
+focus
+'
     
 )
 def
@@ -602,7 +615,7 @@ slugId
 )
 BUILDER
 .
-build_signing_task
+craft_signing_task
 (
         
 build_task_id
@@ -693,7 +706,7 @@ slugId
 )
 BUILDER
 .
-build_push_task
+craft_push_task
 (
         
 signing_task_id
@@ -794,8 +807,7 @@ have
 no
 need
 for
-Reference
-Browser
+Fenix
     
 #
 at
@@ -932,6 +944,7 @@ build_task
 generate_build_task
 (
 apks
+is_staging
 )
     
 lib

@@ -110,6 +110,7 @@ description
 command
 artifacts
 features
+worker_type
 )
 :
         
@@ -147,29 +148,6 @@ day
 '
 )
         
-features
-=
-features
-.
-copy
-(
-)
-        
-features
-.
-update
-(
-{
-            
-"
-taskclusterProxy
-"
-:
-True
-        
-}
-)
-        
 return
 {
             
@@ -177,11 +155,7 @@ return
 workerType
 "
 :
-'
-gecko
--
-focus
-'
+worker_type
             
 "
 taskGroupId
@@ -417,7 +391,7 @@ source
 }
     
 def
-build_signing_task
+craft_signing_task
 (
 self
 build_task_id
@@ -700,7 +674,7 @@ source
 }
     
 def
-build_push_task
+craft_push_task
 (
 self
 signing_task_id
