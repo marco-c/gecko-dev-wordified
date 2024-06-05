@@ -473,6 +473,15 @@ text_type
 Required
 (
 "
+version
+"
+)
+:
+text_type
+        
+Required
+(
+"
 artifact
 -
 map
