@@ -483,6 +483,14 @@ context
 Context
 )
 {
+if
+(
+geckoRuntime
+=
+=
+null
+)
+{
 val
 runtimeSettingsBuilder
 =
@@ -518,6 +526,7 @@ build
 (
 )
 )
+}
 }
 override
 fun
@@ -1039,6 +1048,8 @@ applyAppSettings
 else
 {
 geckoRuntime
+!
+!
 .
 settings
 .
@@ -1046,6 +1057,8 @@ javaScriptEnabled
 =
 true
 geckoRuntime
+!
+!
 .
 settings
 .
@@ -1053,6 +1066,8 @@ webFontsEnabled
 =
 true
 geckoRuntime
+!
+!
 .
 settings
 .
@@ -1124,6 +1139,8 @@ applyAppSettings
 )
 {
 geckoRuntime
+!
+!
 .
 settings
 .
@@ -1141,6 +1158,8 @@ shouldBlockJavaScript
 (
 )
 geckoRuntime
+!
+!
 .
 settings
 .
@@ -1158,6 +1177,8 @@ shouldBlockWebFonts
 (
 )
 geckoRuntime
+!
+!
 .
 settings
 .
@@ -1223,6 +1244,8 @@ GeckoRuntimeSettings
 COOKIE_ACCEPT_ALL
 }
 geckoRuntime
+!
+!
 .
 settings
 .
@@ -1322,6 +1345,8 @@ TrackingProtectionDelegate
 CATEGORY_CONTENT
 }
 geckoRuntime
+!
+!
 .
 settings
 .
@@ -1752,6 +1777,8 @@ geckoSession
 open
 (
 geckoRuntime
+!
+!
 )
 setSession
 (
@@ -3006,6 +3033,8 @@ message
 }
 }
 geckoRuntime
+!
+!
 .
 telemetry
 .
@@ -3056,11 +3085,13 @@ object
 {
 Volatile
 private
-lateinit
 var
 geckoRuntime
 :
 GeckoRuntime
+?
+=
+null
 private
 var
 internalAboutData
