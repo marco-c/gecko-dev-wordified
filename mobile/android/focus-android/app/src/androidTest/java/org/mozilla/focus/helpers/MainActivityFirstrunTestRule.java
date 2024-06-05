@@ -131,11 +131,9 @@ session
 SessionManager
 ;
 import
-org
-.
 mozilla
 .
-focus
+components
 .
 utils
 .
@@ -265,6 +263,8 @@ finishAndRemoveTask
 )
 ;
 ThreadUtils
+.
+INSTANCE
 .
 postToMainThread
 (
