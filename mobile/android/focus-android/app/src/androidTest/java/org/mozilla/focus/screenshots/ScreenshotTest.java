@@ -256,6 +256,7 @@ MainActivityFirstrunTestRule
 (
 true
 false
+true
 )
 {
 Override
