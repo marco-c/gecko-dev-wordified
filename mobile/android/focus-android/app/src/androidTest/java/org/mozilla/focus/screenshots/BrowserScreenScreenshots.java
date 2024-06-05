@@ -1921,7 +1921,7 @@ R
 .
 string
 .
-contextmenu_open_in_new_tab
+mozac_feature_contextmenu_open_link_in_private_tab
 )
 )
 .
