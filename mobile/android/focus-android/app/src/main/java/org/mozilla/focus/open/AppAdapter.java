@@ -210,6 +210,7 @@ package
 private
 *
 /
+static
 class
 App
 {
