@@ -1407,7 +1407,7 @@ setEnabled
 (
 Features
 .
-SWIPE_TO_REFERSH
+SWIPE_TO_REFRESH
 )
 ;
 swipeRefresh
