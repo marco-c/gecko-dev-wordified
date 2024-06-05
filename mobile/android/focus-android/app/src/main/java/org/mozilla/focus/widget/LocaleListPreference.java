@@ -500,6 +500,17 @@ Wolof
 "
 )
 ;
+languageCodeToNameMap
+.
+put
+(
+"
+anp
+"
+"
+"
+)
+;
 }
 /
 *
