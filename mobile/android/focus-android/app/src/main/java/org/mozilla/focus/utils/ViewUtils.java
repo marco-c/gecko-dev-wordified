@@ -645,17 +645,6 @@ View
 view
 )
 {
-if
-(
-view
-=
-=
-null
-)
-{
-return
-;
-}
 InputMethodManager
 imm
 =
