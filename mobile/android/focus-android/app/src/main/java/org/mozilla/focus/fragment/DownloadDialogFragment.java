@@ -644,6 +644,7 @@ TelemetryWrapper
 .
 downloadDialogDownloadEvent
 (
+shouldDownload
 )
 ;
 dismiss
