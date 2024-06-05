@@ -2636,7 +2636,7 @@ remove
 PREF_KEY_HIDDEN_DEFAULT_ENGINES
 )
 .
-commit
+apply
 (
 )
 ;
