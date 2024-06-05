@@ -444,7 +444,7 @@ R
 .
 drawable
 .
-ic_tracking_protection_disabled2
+mozac_ic_shield_disabled
 )
 val
 warning
