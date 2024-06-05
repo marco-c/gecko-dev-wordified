@@ -359,15 +359,6 @@ parameters
 head_tag
 "
 ]
-.
-decode
-(
-"
-utf
--
-8
-"
-)
         
 if
 not
@@ -548,13 +539,4 @@ next_version
 str
 (
 next_version
-)
-.
-decode
-(
-"
-utf
--
-8
-"
 )
