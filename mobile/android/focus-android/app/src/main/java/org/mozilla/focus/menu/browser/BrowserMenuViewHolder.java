@@ -101,11 +101,9 @@ menu
 browser
 ;
 import
-android
+androidx
 .
-support
-.
-v7
+recyclerview
 .
 widget
 .

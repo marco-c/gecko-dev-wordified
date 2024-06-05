@@ -66,11 +66,9 @@ focus
 open
 ;
 import
-android
+androidx
 .
-support
-.
-v7
+recyclerview
 .
 widget
 .
