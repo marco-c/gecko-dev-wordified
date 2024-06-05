@@ -424,6 +424,16 @@ android
 browser
 "
 )
+VIVALDI
+(
+"
+com
+.
+vivaldi
+.
+browser
+"
+)
 SAMSUNG_INTERNET
 (
 "
