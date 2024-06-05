@@ -1045,7 +1045,7 @@ R
 .
 color
 .
-colorAutocompleteHighlight
+colorAccent
 )
 )
 }
