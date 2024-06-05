@@ -1343,6 +1343,7 @@ null
 Environment
 .
 DIRECTORY_PICTURES
+null
 )
 ;
 callback
