@@ -128,7 +128,13 @@ kotlinx
 .
 coroutines
 .
-experimental
+Dispatchers
+.
+IO
+import
+kotlinx
+.
+coroutines
 .
 launch
 import
@@ -491,7 +497,12 @@ url
 String
 )
 {
+fragment
+.
 launch
+(
+IO
+)
 {
 val
 host
