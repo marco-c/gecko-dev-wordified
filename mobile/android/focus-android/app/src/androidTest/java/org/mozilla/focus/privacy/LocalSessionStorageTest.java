@@ -96,7 +96,7 @@ mozilla
 .
 focus
 .
-activity
+privacy
 ;
 import
 android
@@ -222,6 +222,17 @@ okhttp3
 mockwebserver
 .
 MockWebServer
+;
+import
+org
+.
+mozilla
+.
+focus
+.
+activity
+.
+MainActivity
 ;
 import
 org
