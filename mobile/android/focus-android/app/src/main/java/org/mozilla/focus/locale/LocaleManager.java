@@ -405,7 +405,6 @@ instance
 new
 AtomicReference
 <
-LocaleManager
 >
 (
 )

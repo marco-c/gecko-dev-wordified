@@ -3846,7 +3846,7 @@ catch
 (
 final
 ParseException
-e
+ignored
 )
 {
 }
@@ -4427,7 +4427,7 @@ final
 ClassCastException
 |
 InflateException
-e
+ignored
 )
 {
 }
@@ -4626,7 +4626,7 @@ final
 ClassCastException
 |
 InflateException
-e
+ignored
 )
 {
 }

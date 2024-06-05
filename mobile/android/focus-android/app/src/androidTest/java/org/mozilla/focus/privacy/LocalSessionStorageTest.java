@@ -632,8 +632,6 @@ void
 tearDown
 (
 )
-throws
-Exception
 {
 mActivityTestRule
 .

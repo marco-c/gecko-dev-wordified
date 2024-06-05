@@ -669,7 +669,6 @@ socialOverrides
 new
 LinkedList
 <
-String
 >
 (
 )

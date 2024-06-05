@@ -554,9 +554,6 @@ getParcelableArray
 (
 ARGUMENT_KEY_APPS
 )
-(
-ActivityInfo
-)
 getArguments
 (
 )

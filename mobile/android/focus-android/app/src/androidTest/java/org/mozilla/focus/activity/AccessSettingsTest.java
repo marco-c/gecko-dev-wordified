@@ -163,17 +163,6 @@ test
 .
 uiautomator
 .
-UiObjectNotFoundException
-;
-import
-android
-.
-support
-.
-test
-.
-uiautomator
-.
 UiSelector
 ;
 import
@@ -448,8 +437,6 @@ void
 AccessSettingsTest
 (
 )
-throws
-UiObjectNotFoundException
 {
 UiObject
 generalHeading

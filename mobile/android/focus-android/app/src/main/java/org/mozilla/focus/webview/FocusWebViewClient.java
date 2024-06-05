@@ -2389,8 +2389,7 @@ parse
 url
 )
 ;
-if
-(
+return
 !
 UrlUtils
 .
@@ -2427,13 +2426,8 @@ IWebView
 view
 url
 )
-)
-{
-return
-true
-;
-}
-return
+|
+|
 super
 .
 shouldOverrideUrlLoading

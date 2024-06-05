@@ -136,13 +136,6 @@ IBinder
 import
 android
 .
-os
-.
-RemoteException
-;
-import
-android
-.
 support
 .
 customtabs
@@ -196,8 +189,6 @@ warmup
 long
 flags
 )
-throws
-RemoteException
 {
 return
 true
@@ -211,8 +202,6 @@ newSession
 ICustomTabsCallback
 callback
 )
-throws
-RemoteException
 {
 return
 true
@@ -235,8 +224,6 @@ Bundle
 >
 otherLikelyBundles
 )
-throws
-RemoteException
 {
 return
 true
@@ -252,8 +239,6 @@ s
 Bundle
 bundle
 )
-throws
-RemoteException
 {
 return
 null
@@ -269,8 +254,6 @@ callback
 Bundle
 bundle
 )
-throws
-RemoteException
 {
 return
 false
@@ -286,8 +269,6 @@ iCustomTabsCallback
 Uri
 uri
 )
-throws
-RemoteException
 {
 return
 false
@@ -305,8 +286,6 @@ s
 Bundle
 bundle
 )
-throws
-RemoteException
 {
 return
 0
@@ -326,8 +305,6 @@ uri
 Bundle
 bundle
 )
-throws
-RemoteException
 {
 return
 false
