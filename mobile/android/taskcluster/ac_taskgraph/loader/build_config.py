@@ -1254,7 +1254,7 @@ components
 upstream_component_dependencies
 downstream_component_dependencies
 )
-    
+        
 if
 "
 dependencies
@@ -1264,7 +1264,7 @@ src
 in
 affected_components
 :
-        
+            
 logger
 .
 info
@@ -1280,7 +1280,7 @@ component
 .
 "
 )
-        
+            
 affected_components
 =
 ALL_COMPONENTS
