@@ -504,6 +504,7 @@ warning
 .
 isVisible
 =
+!
 blockingEnabled
 val
 editableTitle
