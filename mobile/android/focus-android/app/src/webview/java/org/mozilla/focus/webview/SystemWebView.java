@@ -1869,6 +1869,15 @@ onURLChanged
 viewURL
 )
 ;
+callback
+.
+onTitleChanged
+(
+getTitle
+(
+)
+)
+;
 }
 callback
 .
