@@ -257,6 +257,17 @@ runner
 RunWith
 ;
 import
+org
+.
+mozilla
+.
+focus
+.
+helpers
+.
+TestHelper
+;
+import
 java
 .
 util
@@ -299,7 +310,7 @@ mozilla
 .
 focus
 .
-activity
+helpers
 .
 TestHelper
 .

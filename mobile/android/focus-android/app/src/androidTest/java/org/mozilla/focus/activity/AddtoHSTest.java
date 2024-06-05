@@ -249,6 +249,17 @@ mockwebserver
 MockWebServer
 ;
 import
+org
+.
+mozilla
+.
+focus
+.
+helpers
+.
+TestHelper
+;
+import
 static
 android
 .
@@ -282,7 +293,7 @@ mozilla
 .
 focus
 .
-activity
+helpers
 .
 TestHelper
 .
@@ -296,7 +307,7 @@ mozilla
 .
 focus
 .
-activity
+helpers
 .
 TestHelper
 .

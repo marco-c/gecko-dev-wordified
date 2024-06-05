@@ -146,7 +146,7 @@ mozilla
 .
 focus
 .
-activity
+helpers
 .
 TestHelper
 ;

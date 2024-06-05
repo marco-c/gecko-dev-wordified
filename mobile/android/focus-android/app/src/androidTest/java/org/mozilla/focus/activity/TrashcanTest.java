@@ -221,6 +221,17 @@ runner
 RunWith
 ;
 import
+org
+.
+mozilla
+.
+focus
+.
+helpers
+.
+TestHelper
+;
+import
 static
 android
 .
@@ -286,7 +297,7 @@ mozilla
 .
 focus
 .
-activity
+helpers
 .
 TestHelper
 .
