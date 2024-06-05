@@ -163,6 +163,17 @@ focus
 .
 webkit
 .
+NestedWebView
+;
+import
+org
+.
+mozilla
+.
+focus
+.
+webkit
+.
 TrackingProtectionWebViewClient
 ;
 /
@@ -384,7 +395,7 @@ static
 class
 WebkitView
 extends
-WebView
+NestedWebView
 implements
 IWebView
 {
