@@ -144,8 +144,6 @@ FloatingActionButton
 private
 boolean
 keepHidden
-=
-true
 ;
 public
 FloatingEraseButton
