@@ -2350,7 +2350,7 @@ searchUrl
 ;
 TelemetryWrapper
 .
-searchEvent
+searchSelectEvent
 (
 )
 ;
