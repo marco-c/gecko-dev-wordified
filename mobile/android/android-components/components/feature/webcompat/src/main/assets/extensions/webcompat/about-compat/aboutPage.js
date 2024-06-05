@@ -69,10 +69,13 @@ XPCOMUtils
 *
 /
 const
-{
 Services
-}
 =
+globalThis
+.
+Services
+|
+|
 ChromeUtils
 .
 import
@@ -91,6 +94,8 @@ Services
 jsm
 "
 )
+.
+Services
 ;
 XPCOMUtils
 .
