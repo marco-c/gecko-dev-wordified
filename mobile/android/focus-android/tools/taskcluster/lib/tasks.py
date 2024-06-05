@@ -481,6 +481,13 @@ routes
 =
 [
 ]
+signing_format
+=
+'
+focus
+-
+jar
+'
 )
 :
         
@@ -667,13 +674,7 @@ formats
 "
 :
 [
-                        
-"
-focus
--
-jar
-"
-                    
+signing_format
 ]
                     
 "
