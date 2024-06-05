@@ -291,6 +291,16 @@ helpers
 TestHelper
 .
 waitForWebContent
+import
+org
+.
+mozilla
+.
+focus
+.
+testAnnotations
+.
+SmokeTest
 /
 /
 https
@@ -536,6 +546,7 @@ waitForIdle
 (
 )
 }
+SmokeTest
 Test
 Throws
 (
