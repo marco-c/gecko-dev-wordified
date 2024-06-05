@@ -591,7 +591,7 @@ session
 Test
 public
 void
-testLocaleAndSessionStorageIsWrittenAndRemoved
+testLocalAndSessionStorageIsWrittenAndRemoved
 (
 )
 throws
@@ -611,7 +611,7 @@ in
 the
 session
 /
-locale
+local
 store
 .
 goToUrlFromHomeScreen
@@ -901,7 +901,7 @@ in
 the
 session
 /
-locale
+local
 store
 goToUrlFromHomeScreen
 (
