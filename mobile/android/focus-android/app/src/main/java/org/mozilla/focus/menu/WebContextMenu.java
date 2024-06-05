@@ -1101,6 +1101,12 @@ onDownloadStart
 download
 )
 ;
+TelemetryWrapper
+.
+saveImageEvent
+(
+)
+;
 return
 true
 ;
