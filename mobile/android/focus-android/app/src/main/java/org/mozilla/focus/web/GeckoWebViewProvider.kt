@@ -2685,6 +2685,12 @@ savedGeckoSession
 !
 =
 null
+&
+&
+geckoSession
+!
+=
+savedGeckoSession
 )
 {
 /
@@ -2766,6 +2772,9 @@ geckoRuntime
 !
 )
 }
+releaseSession
+(
+)
 setSession
 (
 geckoSession
