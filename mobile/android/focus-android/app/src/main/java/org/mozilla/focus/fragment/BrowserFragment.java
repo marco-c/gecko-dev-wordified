@@ -486,6 +486,17 @@ web
 IWebView
 ;
 import
+org
+.
+mozilla
+.
+focus
+.
+widget
+.
+AnimatedProgressBar
+;
+import
 java
 .
 lang
@@ -619,7 +630,7 @@ TextView
 urlView
 ;
 private
-ProgressBar
+AnimatedProgressBar
 progressView
 ;
 private
@@ -1031,7 +1042,7 @@ lock
 progressView
 =
 (
-ProgressBar
+AnimatedProgressBar
 )
 view
 .
@@ -2033,7 +2044,7 @@ setVisibility
 (
 View
 .
-INVISIBLE
+GONE
 )
 ;
 if
