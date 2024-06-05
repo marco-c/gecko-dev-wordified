@@ -477,7 +477,7 @@ version
 "
 )
 :
-text_type
+str
         
 Required
 (
@@ -603,7 +603,7 @@ text_type
 }
 )
 def
-build_scriptworker_signing_payload
+build_scriptworker_beetmover_payload
 (
 config
 task
@@ -751,6 +751,17 @@ worker
 upstream
 -
 artifacts
+"
+]
+        
+"
+version
+"
+:
+worker
+[
+"
+version
 "
 ]
     
