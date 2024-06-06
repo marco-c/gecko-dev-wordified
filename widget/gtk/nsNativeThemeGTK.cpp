@@ -1857,7 +1857,6 @@ aState
 >
 backdrop
 =
-!
 aFrame
 -
 >
