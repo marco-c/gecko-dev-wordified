@@ -605,12 +605,6 @@ muted
 Unmute
 using
 keyboard
-card
-.
-tabList
-.
-currentActiveElementId
-=
 mutedTab
 .
 focusMediaButton
@@ -798,12 +792,6 @@ rowEls
 0
 ]
 ;
-card
-.
-tabList
-.
-currentActiveElementId
-=
 mutedTab
 .
 focusLink
