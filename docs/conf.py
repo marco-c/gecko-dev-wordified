@@ -445,6 +445,19 @@ browser
 /
 components
 /
+backup
+/
+resources
+"
+    
+"
+.
+.
+/
+browser
+/
+components
+/
 extensions
 "
     
