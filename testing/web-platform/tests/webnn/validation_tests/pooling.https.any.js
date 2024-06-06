@@ -33,13 +33,6 @@ resources
 utils_validation
 .
 js
-/
-/
-META
-:
-timeout
-=
-long
 '
 use
 strict
