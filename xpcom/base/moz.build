@@ -260,6 +260,11 @@ mozilla
 =
 [
 "
+DarwinObjectPtr
+.
+h
+"
+"
 MacStringHelpers
 .
 h
