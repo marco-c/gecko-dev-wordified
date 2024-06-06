@@ -2766,6 +2766,15 @@ fromNow
 DEFAULT_EXPIRES_IN
 )
         
+routes
+.
+append
+(
+'
+checks
+'
+)
+        
 if
 self
 .
