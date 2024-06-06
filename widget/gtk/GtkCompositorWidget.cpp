@@ -480,7 +480,7 @@ get
 )
 )
 ;
-DisableRendering
+CleanupResources
 (
 )
 ;
@@ -1130,7 +1130,7 @@ void
 GtkCompositorWidget
 :
 :
-DisableRendering
+CleanupResources
 (
 )
 {
@@ -1140,7 +1140,7 @@ LOG
 GtkCompositorWidget
 :
 :
-DisableRendering
+CleanupResources
 [
 %
 p
@@ -1263,7 +1263,7 @@ void
 GtkCompositorWidget
 :
 :
-EnableRendering
+SetRenderingSurface
 (
 const
 uintptr_t
@@ -1279,7 +1279,7 @@ LOG
 GtkCompositorWidget
 :
 :
-EnableRendering
+SetRenderingSurface
 (
 )
 [
