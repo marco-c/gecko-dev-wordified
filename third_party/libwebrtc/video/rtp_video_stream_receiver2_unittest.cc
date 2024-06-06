@@ -881,15 +881,7 @@ buffer_
 .
 WriteBytes
 (
-reinterpret_cast
-<
-const
-char
-*
->
-(
 data
-)
 size_in_bytes
 )
 ;

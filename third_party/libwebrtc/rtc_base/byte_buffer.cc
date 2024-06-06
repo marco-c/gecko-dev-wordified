@@ -119,7 +119,7 @@ ByteBufferWriter
 ByteBufferWriter
 (
 const
-char
+uint8_t
 *
 bytes
 size_t

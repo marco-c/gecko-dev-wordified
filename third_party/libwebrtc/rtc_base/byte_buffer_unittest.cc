@@ -1207,7 +1207,7 @@ Write
 and
 read
 bytes
-char
+uint8_t
 write_bytes
 [
 ]
@@ -1299,7 +1299,7 @@ read
 reserved
 buffer
 space
-char
+uint8_t
 *
 write_dst
 =
