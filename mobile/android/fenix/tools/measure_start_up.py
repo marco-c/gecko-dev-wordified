@@ -796,9 +796,10 @@ n
     
 if
 test_name
-=
-=
+in
+[
 TEST_COLD_MAIN_FF
+]
 :
         
 cmd
@@ -822,14 +823,11 @@ pkg_id
     
 elif
 test_name
-=
-=
+in
+[
 TEST_COLD_VIEW_FF
-or
-test_name
-=
-=
 TEST_COLD_VIEW_NAV_START
+]
 :
         
 pkg_activity
@@ -1179,14 +1177,11 @@ stdout
     
 if
 test_name
-=
-=
+in
+[
 TEST_COLD_MAIN_FF
-or
-test_name
-=
-=
 TEST_COLD_VIEW_FF
+]
 :
         
 measurement
@@ -1198,9 +1193,10 @@ stdout
     
 elif
 test_name
-=
-=
+in
+[
 TEST_COLD_VIEW_NAV_START
+]
 :
         
 time
@@ -2111,9 +2107,10 @@ py
     
 if
 test_name
-=
-=
+in
+[
 TEST_COLD_MAIN_FF
+]
 :
         
 print
@@ -2137,14 +2134,11 @@ manually
     
 elif
 test_name
-=
-=
+in
+[
 TEST_COLD_VIEW_FF
-or
-test_name
-=
-=
 TEST_COLD_VIEW_NAV_START
+]
 :
         
 print
