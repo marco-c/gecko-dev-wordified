@@ -837,8 +837,10 @@ gradlew
 "
 ]
 .
-append
+extend
 (
+[
+                
 '
 -
 PversionName
@@ -851,6 +853,13 @@ format
 (
 formated_date_time
 )
+                
+'
+-
+Pofficial
+'
+            
+]
 )
         
 yield
@@ -900,8 +909,9 @@ gradlew
 "
 ]
 .
-append
+extend
 (
+[
                 
 '
 -
@@ -922,7 +932,13 @@ version
 "
 ]
 )
+                
+'
+-
+Pofficial
+'
             
+]
 )
         
 yield
