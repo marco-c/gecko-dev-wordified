@@ -101,7 +101,7 @@ expected
 bookmark
 state
 var
-bookmarksExpected
+bookmarksCreated
 =
 {
 "
@@ -152,8 +152,11 @@ Sync
 [
 Bookmarks
 .
-verify
-bookmarksExpected
+add
+bookmarksCreated
+]
+[
+Sync
 ]
 ]
 )
