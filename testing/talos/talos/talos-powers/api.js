@@ -2092,7 +2092,7 @@ if
 !
 startupInfo
 .
-firstPaint
+firstPaint2
 )
 {
 /
@@ -2111,7 +2111,7 @@ that
 /
 /
 the
-firstPaint
+firstPaint2
 measurement
 hasn
 '
