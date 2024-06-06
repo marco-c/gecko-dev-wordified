@@ -3174,6 +3174,10 @@ sanitizers
 =
 true
         
+profiler
+=
+true
+        
 extended
 =
 true
