@@ -7501,21 +7501,11 @@ machine
 "
 )
 :
-Any
-(
-"
-ref
--
-hw
--
-2017
-"
 "
 hw
 -
 ref
 "
-)
         
 }
         
@@ -7918,14 +7908,6 @@ trunk
 "
         
 "
-ref
--
-hw
--
-2017
-"
-        
-"
 hw
 -
 ref
@@ -8300,33 +8282,6 @@ isdigit
 :
                 
 os_build
-=
-parts
-.
-pop
-(
-0
-)
-            
-if
-parts
-and
-parts
-[
-0
-]
-=
-=
-"
-ref
--
-hw
--
-2017
-"
-:
-                
-machine
 =
 parts
 .
