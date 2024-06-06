@@ -2918,7 +2918,9 @@ z_id
 pattern_input
 .
 0
-0
+pattern_input
+.
+1
 ]
 )
 ;
