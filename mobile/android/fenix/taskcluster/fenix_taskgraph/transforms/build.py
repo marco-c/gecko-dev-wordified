@@ -82,6 +82,8 @@ print_function
 unicode_literals
 import
 datetime
+import
+os
 from
 taskgraph
 .
@@ -694,10 +696,8 @@ append
 -
 PversionName
 =
-"
 {
 }
-"
 '
 .
 format
@@ -754,11 +754,16 @@ git_tag
 os
 .
 environ
-[
+.
+get
+(
 '
 GIT_TAG
 '
-]
+'
+vUNSET
+'
+)
             
 version
 =
@@ -792,10 +797,8 @@ append
 -
 PversionName
 =
-"
 {
 }
-"
 '
 .
 format
