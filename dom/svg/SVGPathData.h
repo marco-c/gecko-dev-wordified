@@ -209,6 +209,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoStyleConsts
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -223,9 +232,6 @@ h
 namespace
 mozilla
 {
-struct
-StylePathCommand
-;
 struct
 SVGMark
 ;
