@@ -26690,16 +26690,6 @@ mFrame
 )
 )
 {
-NS_ASSERTION
-(
-false
-"
-Caret
-invalidation
-bug
-"
-)
-;
 return
 true
 ;
