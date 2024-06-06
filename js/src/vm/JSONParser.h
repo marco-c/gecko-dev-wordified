@@ -2648,6 +2648,9 @@ parseRecord
 ;
 #
 endif
+/
+/
+ENABLE_JSON_PARSE_WITH_SOURCE
 template
 <
 typename
