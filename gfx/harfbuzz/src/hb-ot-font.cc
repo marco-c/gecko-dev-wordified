@@ -1185,7 +1185,7 @@ const
 OT
 :
 :
-VariationStore
+ItemVariationStore
 &
 varStore
 =
@@ -1199,7 +1199,7 @@ varStore
 OT
 :
 :
-VariationStore
+ItemVariationStore
 :
 :
 cache_t
@@ -1237,7 +1237,7 @@ else
 OT
 :
 :
-VariationStore
+ItemVariationStore
 :
 :
 cache_t
@@ -1614,7 +1614,7 @@ HB_NO_OT_FONT_ADVANCE_CACHE
 OT
 :
 :
-VariationStore
+ItemVariationStore
 :
 :
 destroy_cache
@@ -1828,7 +1828,7 @@ const
 OT
 :
 :
-VariationStore
+ItemVariationStore
 &
 varStore
 =
@@ -1842,7 +1842,7 @@ varStore
 OT
 :
 :
-VariationStore
+ItemVariationStore
 :
 :
 cache_t
@@ -1867,7 +1867,7 @@ else
 OT
 :
 :
-VariationStore
+ItemVariationStore
 :
 :
 cache_t
@@ -1960,7 +1960,7 @@ HB_NO_OT_FONT_ADVANCE_CACHE
 OT
 :
 :
-VariationStore
+ItemVariationStore
 :
 :
 destroy_cache

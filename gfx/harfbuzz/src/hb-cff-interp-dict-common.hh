@@ -326,11 +326,9 @@ fini
 )
 ;
 }
-unsigned
 int
 charStringsOffset
 ;
-unsigned
 int
 FDArrayOffset
 ;
@@ -818,7 +816,7 @@ env
 .
 argStack
 .
-pop_uint
+pop_int
 (
 )
 ;
@@ -841,7 +839,7 @@ env
 .
 argStack
 .
-pop_uint
+pop_int
 (
 )
 ;

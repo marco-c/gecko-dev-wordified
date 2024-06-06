@@ -2181,7 +2181,7 @@ axisValues
 struct
 AxisValue
 {
-bool
+float
 get_value
 (
 unsigned
@@ -2254,6 +2254,8 @@ default
 :
 return
 0
+.
+f
 ;
 }
 }
@@ -3082,6 +3084,8 @@ AxisValue
 axis_value
 =
 this
++
+offsetToAxisValueOffsets
 +
 axis_values
 [

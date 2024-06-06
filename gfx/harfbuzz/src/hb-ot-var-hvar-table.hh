@@ -1205,7 +1205,7 @@ DeltaSetIndexMap
 &
 index_maps
 const
-VariationStore
+ItemVariationStore
 &
 _var_store
 const
@@ -1701,7 +1701,7 @@ index_map_subset_plan_t
 index_map_plans
 ;
 const
-VariationStore
+ItemVariationStore
 *
 var_store
 ;
@@ -1913,7 +1913,7 @@ this
 ;
 }
 const
-VariationStore
+ItemVariationStore
 &
 get_var_store
 (
@@ -2475,7 +2475,7 @@ coords
 unsigned
 int
 coord_count
-VariationStore
+ItemVariationStore
 :
 :
 cache_t
@@ -2600,7 +2600,7 @@ to
 /
 Offset32To
 <
-VariationStore
+ItemVariationStore
 >
 varStore
 ;

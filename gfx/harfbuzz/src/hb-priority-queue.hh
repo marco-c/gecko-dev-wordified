@@ -907,6 +907,7 @@ a
 unsigned
 b
 )
+noexcept
 {
 assert
 (

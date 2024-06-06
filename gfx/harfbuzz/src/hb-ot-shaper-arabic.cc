@@ -3977,8 +3977,8 @@ count
 u
 width
 %
-d
 "
+PRId32
 start
 -
 context
@@ -4000,8 +4000,8 @@ d
 width
 =
 %
-d
 "
+PRId32
 n_fixed
 w_fixed
 )
@@ -4021,8 +4021,8 @@ d
 width
 =
 %
-d
 "
+PRId32
 n_repeating
 w_repeating
 )
@@ -4313,7 +4313,9 @@ copies
 of
 glyph
 %
-u
+"
+PRIu32
+"
 ;
 j
 =

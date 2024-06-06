@@ -358,7 +358,7 @@ Outer
 inner
 index
 into
-VariationStore
+ItemVariationStore
 item
 .
 *
@@ -627,7 +627,7 @@ item_variations_t
 item_vars
 ;
 const
-VariationStore
+ItemVariationStore
 &
 src_var_store
 =
@@ -980,7 +980,7 @@ zero
 /
 Offset16To
 <
-VariationStore
+ItemVariationStore
 >
 varStore
 ;

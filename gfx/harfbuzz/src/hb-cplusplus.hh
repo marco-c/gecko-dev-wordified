@@ -316,6 +316,7 @@ shared_ptr
 &
 o
 )
+noexcept
 :
 p
 (
@@ -382,6 +383,7 @@ shared_ptr
 &
 o
 )
+noexcept
 {
 v
 :
@@ -444,6 +446,7 @@ shared_ptr
 &
 o
 )
+noexcept
 {
 std
 :
@@ -468,6 +471,7 @@ shared_ptr
 &
 b
 )
+noexcept
 {
 std
 :
@@ -768,6 +772,7 @@ unique_ptr
 &
 o
 )
+noexcept
 :
 p
 (
@@ -806,6 +811,7 @@ unique_ptr
 &
 o
 )
+noexcept
 {
 v
 :
@@ -888,6 +894,7 @@ unique_ptr
 &
 o
 )
+noexcept
 {
 std
 :
@@ -912,6 +919,7 @@ unique_ptr
 &
 b
 )
+noexcept
 {
 std
 :

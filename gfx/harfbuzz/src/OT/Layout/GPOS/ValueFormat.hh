@@ -889,7 +889,7 @@ return
 ret
 ;
 const
-VariationStore
+ItemVariationStore
 &
 store
 =

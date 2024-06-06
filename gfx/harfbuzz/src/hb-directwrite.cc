@@ -849,6 +849,12 @@ defined
 (
 __GNUC__
 )
+|
+|
+defined
+(
+__clang__
+)
 #
 pragma
 GCC
@@ -890,6 +896,12 @@ if
 defined
 (
 __GNUC__
+)
+|
+|
+defined
+(
+__clang__
 )
 #
 pragma

@@ -13890,7 +13890,11 @@ extents
 {
 hb_position_t
 min
+=
+0
 max
+=
+0
 ;
 if
 (

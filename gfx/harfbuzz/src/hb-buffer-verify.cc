@@ -871,7 +871,7 @@ text_end
 ;
 if
 (
-0
+false
 )
 printf
 (
@@ -1749,7 +1749,7 @@ text_end
 ;
 if
 (
-0
+false
 )
 printf
 (

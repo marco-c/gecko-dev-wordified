@@ -539,6 +539,7 @@ hb_vector_t
 &
 o
 )
+noexcept
 {
 allocated
 =
@@ -733,6 +734,7 @@ hb_vector_t
 &
 b
 )
+noexcept
 {
 hb_swap
 (
@@ -825,6 +827,7 @@ hb_vector_t
 &
 o
 )
+noexcept
 {
 hb_swap
 (

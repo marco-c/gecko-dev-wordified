@@ -1406,7 +1406,7 @@ hb_serialize_context_t
 *
 c
 const
-CFF2VariationStore
+CFF2ItemVariationStore
 *
 varStore
 hb_array_t
@@ -1605,7 +1605,7 @@ float
 scalars
 ;
 const
-CFF2VariationStore
+CFF2ItemVariationStore
 *
 varStore
 =
@@ -2127,7 +2127,7 @@ const
 CFF
 :
 :
-CFF2VariationStore
+CFF2ItemVariationStore
 *
 varStore_
 hb_array_t
@@ -2324,7 +2324,7 @@ const
 CFF
 :
 :
-CFF2VariationStore
+CFF2ItemVariationStore
 *
 varStore
 ;
@@ -3509,7 +3509,7 @@ varStore
 &
 Null
 (
-CFF2VariationStore
+CFF2ItemVariationStore
 )
 &
 &
@@ -3528,7 +3528,7 @@ c
 >
 push
 <
-CFF2VariationStore
+CFF2ItemVariationStore
 >
 (
 )

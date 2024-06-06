@@ -256,6 +256,7 @@ hb_bit_set_invertible_t
 &
 other
 )
+noexcept
 :
 hb_bit_set_invertible_t
 (
@@ -292,6 +293,7 @@ hb_bit_set_invertible_t
 &
 other
 )
+noexcept
 {
 hb_swap
 (
@@ -316,6 +318,7 @@ hb_bit_set_invertible_t
 &
 b
 )
+noexcept
 {
 if
 (

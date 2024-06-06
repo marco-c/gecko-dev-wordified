@@ -264,6 +264,7 @@ hb_bit_set_t
 &
 other
 )
+noexcept
 :
 hb_bit_set_t
 (
@@ -308,6 +309,7 @@ hb_bit_set_t
 &
 other
 )
+noexcept
 {
 hb_swap
 (
@@ -332,6 +334,7 @@ hb_bit_set_t
 &
 b
 )
+noexcept
 {
 if
 (

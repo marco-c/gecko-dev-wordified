@@ -374,7 +374,7 @@ table
 /
 Offset32To
 <
-VariationStore
+ItemVariationStore
 >
 varStore
 ;
@@ -1595,13 +1595,7 @@ value_mappings
 .
 push
 (
-std
-:
-:
-move
-(
 mapping
-)
 )
 ;
 }
@@ -2259,7 +2253,7 @@ i
 OT
 :
 :
-VariationStore
+ItemVariationStore
 :
 :
 destroy_cache
