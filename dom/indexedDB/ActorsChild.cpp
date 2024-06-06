@@ -8691,6 +8691,10 @@ BackgroundTransactionChild
 AllocPBackgroundIDBRequestChild
 (
 const
+int64_t
+&
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -9248,6 +9252,10 @@ BackgroundVersionChangeTransactionChild
 :
 AllocPBackgroundIDBRequestChild
 (
+const
+int64_t
+&
+aRequestId
 const
 RequestParams
 &

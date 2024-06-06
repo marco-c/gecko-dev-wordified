@@ -1830,6 +1830,7 @@ aRequest
 DoWithTransactionChild
 (
 [
+this
 actor
 &
 aParams
@@ -1845,6 +1846,9 @@ transactionChild
 SendPBackgroundIDBRequestConstructor
 (
 actor
+NextRequestId
+(
+)
 aParams
 )
 ;

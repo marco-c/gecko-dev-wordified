@@ -1624,6 +1624,10 @@ PBackgroundIDBRequestChild
 AllocPBackgroundIDBRequestChild
 (
 const
+int64_t
+&
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -1786,6 +1790,10 @@ PBackgroundIDBRequestChild
 *
 AllocPBackgroundIDBRequestChild
 (
+const
+int64_t
+&
+aRequestId
 const
 RequestParams
 &

@@ -11904,7 +11904,6 @@ Cleanup
 ;
 protected
 :
-explicit
 TransactionDatabaseOperationBase
 (
 SafeRefPtr
@@ -11912,6 +11911,8 @@ SafeRefPtr
 TransactionBase
 >
 aTransaction
+int64_t
+aRequestId
 )
 ;
 TransactionDatabaseOperationBase
@@ -15596,6 +15597,9 @@ PBackgroundIDBRequestParent
 *
 AllocRequest
 (
+const
+int64_t
+aRequestId
 RequestParams
 &
 &
@@ -16021,6 +16025,10 @@ PBackgroundIDBRequestParent
 AllocPBackgroundIDBRequestParent
 (
 const
+int64_t
+&
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -16039,6 +16047,10 @@ RecvPBackgroundIDBRequestConstructor
 PBackgroundIDBRequestParent
 *
 aActor
+const
+int64_t
+&
+aRequestId
 const
 RequestParams
 &
@@ -16434,6 +16446,10 @@ PBackgroundIDBRequestParent
 AllocPBackgroundIDBRequestParent
 (
 const
+int64_t
+&
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -16452,6 +16468,10 @@ RecvPBackgroundIDBRequestConstructor
 PBackgroundIDBRequestParent
 *
 aActor
+const
+int64_t
+&
+aRequestId
 const
 RequestParams
 &
@@ -18144,6 +18164,12 @@ move
 (
 aTransaction
 )
+/
+*
+aRequestId
+*
+/
+0
 )
 {
 }
@@ -18890,7 +18916,6 @@ override
 ;
 protected
 :
-explicit
 NormalTransactionOp
 (
 SafeRefPtr
@@ -18898,6 +18923,9 @@ SafeRefPtr
 TransactionBase
 >
 aTransaction
+const
+int64_t
+aRequestId
 )
 :
 TransactionDatabaseOperationBase
@@ -18909,6 +18937,7 @@ move
 (
 aTransaction
 )
+aRequestId
 )
 #
 ifdef
@@ -19511,6 +19540,9 @@ SafeRefPtr
 TransactionBase
 >
 aTransaction
+const
+int64_t
+aRequestId
 RequestParams
 &
 &
@@ -20927,6 +20959,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -21058,6 +21093,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -21126,6 +21164,9 @@ SafeRefPtr
 TransactionBase
 >
 aTransaction
+const
+int64_t
+aRequestId
 const
 ObjectStoreDeleteParams
 &
@@ -21210,6 +21251,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 ObjectStoreClearParams
 &
 aParams
@@ -21290,6 +21334,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 ObjectStoreCountParams
 &
 aParams
@@ -21304,6 +21351,7 @@ move
 (
 aTransaction
 )
+aRequestId
 )
 mParams
 (
@@ -21386,6 +21434,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -21400,6 +21451,7 @@ move
 (
 aTransaction
 )
+aRequestId
 )
 mMetadata
 (
@@ -21502,6 +21554,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -21590,6 +21645,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -21663,6 +21721,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -21677,6 +21738,7 @@ move
 (
 aTransaction
 )
+aRequestId
 aParams
 )
 mParams
@@ -23383,6 +23445,12 @@ mTransaction
 clonePtr
 (
 )
+/
+*
+aRequestId
+*
+/
+0
 )
 mCursor
 (
@@ -57077,6 +57145,9 @@ TransactionBase
 :
 AllocRequest
 (
+const
+int64_t
+aRequestId
 RequestParams
 &
 &
@@ -57189,6 +57260,7 @@ ObjectStoreAddOrPutRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 std
 :
 :
@@ -57214,6 +57286,7 @@ ObjectStoreGetRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 /
 *
@@ -57239,6 +57312,7 @@ ObjectStoreGetRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 /
 *
@@ -57264,6 +57338,7 @@ ObjectStoreGetKeyRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 /
 *
@@ -57289,6 +57364,7 @@ ObjectStoreGetKeyRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 /
 *
@@ -57314,6 +57390,7 @@ ObjectStoreDeleteRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 .
 get_ObjectStoreDeleteParams
@@ -57337,6 +57414,7 @@ ObjectStoreClearRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 .
 get_ObjectStoreClearParams
@@ -57360,6 +57438,7 @@ ObjectStoreCountRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 .
 get_ObjectStoreCountParams
@@ -57383,6 +57462,7 @@ IndexGetRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 /
 *
@@ -57408,6 +57488,7 @@ IndexGetKeyRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 /
 *
@@ -57433,6 +57514,7 @@ IndexGetRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 /
 *
@@ -57458,6 +57540,7 @@ IndexGetKeyRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 /
 *
@@ -57483,6 +57566,7 @@ IndexCountRequestOp
 SafeRefPtrFromThis
 (
 )
+aRequestId
 aParams
 )
 ;
@@ -58655,6 +58739,10 @@ NormalTransaction
 AllocPBackgroundIDBRequestParent
 (
 const
+int64_t
+&
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -58682,6 +58770,7 @@ T__None
 return
 AllocRequest
 (
+aRequestId
 std
 :
 :
@@ -58718,6 +58807,10 @@ PBackgroundIDBRequestParent
 *
 const
 aActor
+const
+int64_t
+&
+aRequestId
 const
 RequestParams
 &
@@ -62116,6 +62209,10 @@ VersionChangeTransaction
 AllocPBackgroundIDBRequestParent
 (
 const
+int64_t
+&
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -62143,6 +62240,7 @@ T__None
 return
 AllocRequest
 (
+aRequestId
 std
 :
 :
@@ -62178,6 +62276,10 @@ RecvPBackgroundIDBRequestConstructor
 PBackgroundIDBRequestParent
 *
 aActor
+const
+int64_t
+&
+aRequestId
 const
 RequestParams
 &
@@ -91556,6 +91658,9 @@ SafeRefPtr
 TransactionBase
 >
 aTransaction
+const
+int64_t
+aRequestId
 )
 :
 DatabaseOperationBase
@@ -91598,7 +91703,7 @@ aTransaction
 )
 mRequestId
 (
-0
+aRequestId
 )
 mTransactionIsAborted
 (
@@ -101149,6 +101254,9 @@ SafeRefPtr
 TransactionBase
 >
 aTransaction
+const
+int64_t
+aRequestId
 RequestParams
 &
 &
@@ -101164,6 +101272,7 @@ move
 (
 aTransaction
 )
+aRequestId
 )
 mParams
 (
@@ -104094,6 +104203,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -104110,6 +104222,7 @@ move
 (
 aTransaction
 )
+aRequestId
 )
 mObjectStoreId
 (
@@ -105125,6 +105238,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -105141,6 +105257,7 @@ move
 (
 aTransaction
 )
+aRequestId
 )
 mObjectStoreId
 (
@@ -105697,6 +105814,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 ObjectStoreDeleteParams
 &
 aParams
@@ -105711,6 +105831,7 @@ move
 (
 aTransaction
 )
+aRequestId
 )
 mParams
 (
@@ -106015,6 +106136,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 ObjectStoreClearParams
 &
 aParams
@@ -106029,6 +106153,7 @@ move
 (
 aTransaction
 )
+aRequestId
 )
 mParams
 (
@@ -106968,6 +107093,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -106984,6 +107112,7 @@ move
 (
 aTransaction
 )
+aRequestId
 aParams
 )
 mDatabase
@@ -107768,6 +107897,9 @@ TransactionBase
 >
 aTransaction
 const
+int64_t
+aRequestId
+const
 RequestParams
 &
 aParams
@@ -107784,6 +107916,7 @@ move
 (
 aTransaction
 )
+aRequestId
 aParams
 )
 mOptionalKeyRange
