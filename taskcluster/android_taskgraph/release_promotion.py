@@ -1466,6 +1466,12 @@ __file__
 .
 "
 "
+mobile
+"
+"
+android
+"
+"
 version
 .
 txt
