@@ -260,10 +260,7 @@ use
 crate
 :
 :
-prepare
-:
-:
-write_prim_blocks
+quad
 ;
 use
 crate
@@ -6462,6 +6459,9 @@ clip_instance
 let
 clip_prim_address
 =
+quad
+:
+:
 write_prim_blocks
 (
 &
@@ -6761,6 +6761,9 @@ spatial_tree
 let
 main_prim_address
 =
+quad
+:
+:
 write_prim_blocks
 (
 &
