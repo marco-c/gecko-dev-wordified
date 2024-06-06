@@ -444,15 +444,15 @@ try
 with
 open
 (
-'
+"
 .
 testrail_credentials
 .
 json
-'
-'
+"
+"
 r
-'
+"
 )
 as
 file
@@ -471,27 +471,27 @@ TESTRAIL_HOST
 =
 secret
 [
-'
+"
 host
-'
+"
 ]
         
 TESTRAIL_USERNAME
 =
 secret
 [
-'
+"
 username
-'
+"
 ]
         
 TESTRAIL_PASSWORD
 =
 secret
 [
-'
+"
 password
-'
+"
 ]
 except
 json
@@ -568,12 +568,12 @@ TEST_STATUS
 not
 in
 (
-'
+"
 PASS
-'
-'
+"
+"
 FAIL
-'
+"
 )
 :
         
@@ -628,9 +628,9 @@ VERSION_NUMBER
 .
 split
 (
-'
+"
 _
-'
+"
 )
     
 return
@@ -705,6 +705,7 @@ textwrap
 .
 dedent
 (
+        
 f
 "
 "
@@ -821,11 +822,10 @@ issue
 "
 "
 "
+    
 )
 class
 TestRail
-(
-)
 :
     
 def
@@ -924,45 +924,51 @@ client
 send_post
 (
 f
-'
+"
 add_milestone
 /
 {
 testrail_project_id
 }
-'
+"
 data
 )
     
 def
 create_test_run
 (
+        
 self
 testrail_project_id
 testrail_milestone_id
 name_run
 testrail_suite_id
+    
 )
 :
         
 data
 =
 {
+            
 "
 name
 "
 :
 name_run
+            
 "
 milestone_id
 "
 :
 testrail_milestone_id
+            
 "
 suite_id
 "
 :
 testrail_suite_id
+        
 }
         
 return
@@ -973,23 +979,25 @@ client
 send_post
 (
 f
-'
+"
 add_run
 /
 {
 testrail_project_id
 }
-'
+"
 data
 )
     
 def
 update_test_cases_to_passed
 (
+        
 self
 testrail_project_id
 testrail_run_id
 testrail_suite_id
+    
 )
 :
         
@@ -1006,11 +1014,13 @@ testrail_suite_id
 data
 =
 {
+            
 "
 results
 "
 :
 [
+                
 {
 "
 case_id
@@ -1018,9 +1028,9 @@ case_id
 :
 test_case
 [
-'
+"
 id
-'
+"
 ]
 "
 status_id
@@ -1032,7 +1042,9 @@ for
 test_case
 in
 test_cases
+            
 ]
+        
 }
         
 return
@@ -1064,8 +1076,9 @@ client
 .
 send_get
 (
+            
 f
-'
+"
 get_cases
 /
 {
@@ -1077,7 +1090,8 @@ suite_id
 {
 testrail_test_suite_id
 }
-'
+"
+        
 )
     
 def
@@ -1097,13 +1111,13 @@ client
 send_post
 (
 f
-'
+"
 add_results_for_cases
 /
 {
 testrail_run_id
 }
-'
+"
 data
 )
 if
@@ -1119,9 +1133,9 @@ if
 TEST_STATUS
 !
 =
-'
+"
 PASS
-'
+"
 :
         
 raise
@@ -1196,12 +1210,14 @@ milestone_name
 =
 build_milestone_name
 (
+        
 PRODUCT_TYPE
 RELEASE_TYPE
 parse_release_number
 (
 VERSION_NUMBER
 )
+    
 )
     
 milestone_description
@@ -1231,14 +1247,16 @@ testrail
 .
 create_milestone
 (
+        
 PROJECT_ID
 milestone_name
 milestone_description
+    
 )
 [
-'
+"
 id
-'
+"
 ]
     
 #
@@ -1287,21 +1305,21 @@ for
 test_run_name
 in
 [
-'
+"
 Google
 Pixel
 32
 (
 Android11
 )
-'
-'
+"
+"
 Google
 Pixel2
 (
 Android9
 )
-'
+"
 ]
 :
         
@@ -1311,15 +1329,17 @@ testrail
 .
 create_test_run
 (
+            
 PROJECT_ID
 milestone_id
 test_run_name
 TEST_SUITE_ID
+        
 )
 [
-'
+"
 id
-'
+"
 ]
         
 testrail
