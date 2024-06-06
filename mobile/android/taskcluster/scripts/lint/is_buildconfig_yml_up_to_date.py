@@ -312,11 +312,12 @@ curl
 -
 -
 location
+-
+-
+compressed
 {
 artifact_url
 }
-|
-gunzip
 |
 git
 apply
