@@ -1324,7 +1324,9 @@ url
 otherwise
 Extensioncontent
 .
-jsm
+sys
+.
+mjs
 /
 /
 ScriptCache

@@ -332,7 +332,9 @@ implemented
 in
 ExtensionChild
 .
-jsm
+sys
+.
+mjs
 .
 browser
 .
@@ -445,7 +447,9 @@ implemented
 in
 Extension
 .
-jsm
+sys
+.
+mjs
 .
 equal
 (
@@ -541,7 +545,9 @@ implemented
 in
 ExtensionChild
 .
-jsm
+sys
+.
+mjs
 .
 browser
 .
@@ -656,7 +662,9 @@ implemented
 in
 Extension
 .
-jsm
+sys
+.
+mjs
 .
 equal
 (

@@ -34,7 +34,9 @@ Tests
 that
 PerrmissionsUtils
 .
-jsm
+sys
+.
+mjs
 works
 as
 expected

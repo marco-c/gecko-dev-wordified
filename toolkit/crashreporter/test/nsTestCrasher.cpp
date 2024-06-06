@@ -509,7 +509,9 @@ sync
 with
 CrashTestUtils
 .
-jsm
+sys
+.
+mjs
 !
 const
 int16_t

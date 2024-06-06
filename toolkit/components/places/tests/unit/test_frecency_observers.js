@@ -257,7 +257,9 @@ promise
 /
 History
 .
-jsm
+sys
+.
+mjs
 invalidateFrecencies
 (
 )
@@ -394,7 +396,9 @@ promise
 /
 History
 .
-jsm
+sys
+.
+mjs
 clear
 (
 )

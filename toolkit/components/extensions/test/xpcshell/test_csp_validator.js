@@ -1472,7 +1472,9 @@ policy
 While
 Schemas
 .
-jsm
+sys
+.
+mjs
 uses
 Ci
 .
@@ -1480,11 +1482,11 @@ nsIAddonContentPolicy
 .
 CSP_ALLOW_WASM
 we
+/
+/
 don
 '
 t
-/
-/
 pass
 that
 here

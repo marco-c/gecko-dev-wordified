@@ -50,7 +50,9 @@ data
 /
 ExtensionContent
 .
-jsm
+sys
+.
+mjs
 needs
 to
 know

@@ -1742,7 +1742,9 @@ allRequiredCharacters
 in
 PasswordGenerator
 .
-jsm
+sys
+.
+mjs
 .
 /
 /

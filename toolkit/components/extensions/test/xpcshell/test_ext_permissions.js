@@ -101,7 +101,9 @@ true
 /
 ExtensionParent
 .
-jsm
+sys
+.
+mjs
 is
 being
 imported
@@ -130,7 +132,9 @@ effect
 of
 Schemas
 .
-jsm
+sys
+.
+mjs
 being
 imported
 )

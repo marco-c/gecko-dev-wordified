@@ -35,7 +35,9 @@ zero
 Tests
 PlacesPreviews
 .
-jsm
+sys
+.
+mjs
 *
 /
 const

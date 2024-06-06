@@ -52,7 +52,9 @@ suggestions
 from
 SearchSuggestionController
 .
-jsm
+sys
+.
+mjs
 .
 *
 /

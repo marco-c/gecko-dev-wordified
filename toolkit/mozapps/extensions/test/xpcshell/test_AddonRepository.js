@@ -33,7 +33,9 @@ zero
 Tests
 AddonRepository
 .
-jsm
+sys
+.
+mjs
 var
 gServer
 =

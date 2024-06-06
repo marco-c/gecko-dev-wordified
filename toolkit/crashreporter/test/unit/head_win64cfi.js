@@ -1247,7 +1247,9 @@ in
 both
 CrashTestUtils
 .
-jsm
+sys
+.
+mjs
 /
 /
 and

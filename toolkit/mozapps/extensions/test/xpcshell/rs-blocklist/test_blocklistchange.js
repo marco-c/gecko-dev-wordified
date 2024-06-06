@@ -1512,7 +1512,9 @@ code
 in
 Blocklist
 .
-jsm
+sys
+.
+mjs
 (
 specific
 to

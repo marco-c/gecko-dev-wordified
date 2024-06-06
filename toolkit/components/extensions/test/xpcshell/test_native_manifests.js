@@ -1403,7 +1403,9 @@ used
 in
 NativeMessaging
 .
-jsm
+sys
+.
+mjs
 .
 deepEqual
 (

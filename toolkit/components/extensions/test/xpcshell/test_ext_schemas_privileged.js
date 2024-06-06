@@ -604,7 +604,9 @@ Test
 that
 Extension
 .
-jsm
+sys
+.
+mjs
 and
 schema
 correctly

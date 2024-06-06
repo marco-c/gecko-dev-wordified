@@ -40,7 +40,9 @@ type
 in
 CrashManager
 .
-jsm
+sys
+.
+mjs
 .
 *
 /

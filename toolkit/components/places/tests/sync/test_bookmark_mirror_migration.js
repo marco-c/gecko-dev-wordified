@@ -36,7 +36,9 @@ sync
 with
 SyncedBookmarksMirror
 .
-jsm
+sys
+.
+mjs
 .
 const
 CURRENT_MIRROR_SCHEMA_VERSION

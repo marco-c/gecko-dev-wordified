@@ -39,7 +39,9 @@ suggestions
 from
 SearchSuggestionController
 .
-jsm
+sys
+.
+mjs
 don
 '
 t

@@ -89,7 +89,9 @@ Test
 that
 CrashMonitor
 .
-jsm
+sys
+.
+mjs
 is
 correctly
 loaded
