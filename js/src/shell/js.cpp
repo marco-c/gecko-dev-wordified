@@ -13816,6 +13816,13 @@ if
 str
 )
 {
+cx
+-
+>
+clearPendingException
+(
+)
+;
 JS_ReportErrorNumberASCII
 (
 cx
