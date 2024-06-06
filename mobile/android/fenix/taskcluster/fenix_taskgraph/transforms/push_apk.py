@@ -132,15 +132,6 @@ worker
 .
 dep
 "
-"
-worker
-.
-google
--
-play
--
-track
-"
 )
 :
             
