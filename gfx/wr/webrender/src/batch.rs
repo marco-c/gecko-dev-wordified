@@ -130,7 +130,10 @@ crate
 pattern
 :
 :
+{
 PatternKind
+PatternShaderInput
+}
 ;
 use
 crate
@@ -4779,6 +4782,9 @@ self
 kind
 :
 PatternKind
+pattern_input
+:
+PatternShaderInput
 prim_instance_index
 :
 PrimitiveInstanceIndex
@@ -4865,6 +4871,7 @@ next
 add_quad_to_batch
 (
 kind
+pattern_input
 self
 .
 batcher
@@ -5102,6 +5109,7 @@ PrimitiveCommand
 Quad
 {
 pattern
+pattern_input
 prim_instance_index
 gpu_buffer_address
 quad_flags
@@ -5124,6 +5132,8 @@ add_quad_to_batch
 (
 *
 pattern
+*
+pattern_input
 *
 prim_instance_index
 *
@@ -5201,6 +5211,8 @@ add_quad_to_batch
 (
 *
 pattern
+*
+pattern_input
 *
 prim_instance_index
 *
@@ -19115,6 +19127,9 @@ F
 kind
 :
 PatternKind
+pattern_input
+:
+PatternShaderInput
 render_task_address
 :
 RenderTaskAddress
@@ -19217,6 +19232,8 @@ i32
 z_id
 .
 0
+pattern_input
+.
 0
 0
 ]
