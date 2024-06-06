@@ -7123,6 +7123,11 @@ aPermitUnload
 =
 true
 ;
+NS_ENSURE_STATE
+(
+mContainer
+)
+;
 RefPtr
 <
 BrowsingContext
@@ -7635,6 +7640,10 @@ mInPermitUnload
 |
 |
 mInPermitUnloadPrompt
+|
+|
+!
+mContainer
 )
 {
 return
@@ -16018,6 +16027,11 @@ int32_t
 aHeight
 )
 {
+NS_ENSURE_STATE
+(
+mContainer
+)
+;
 RefPtr
 <
 BrowsingContext
