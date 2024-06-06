@@ -718,16 +718,6 @@ ret
 )
 ;
 IPCResult
-RecvIsEnabled
-(
-GLenum
-cap
-bool
-*
-ret
-)
-;
-IPCResult
 RecvOnMemoryPressure
 (
 )
