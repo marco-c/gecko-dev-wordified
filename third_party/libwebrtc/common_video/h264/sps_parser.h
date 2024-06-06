@@ -111,6 +111,17 @@ bitstream_reader
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -134,6 +145,7 @@ H264
 NALU
 .
 class
+RTC_EXPORT
 SpsParser
 {
 public
@@ -165,6 +177,7 @@ actually
 needed
 .
 struct
+RTC_EXPORT
 SpsState
 {
 SpsState

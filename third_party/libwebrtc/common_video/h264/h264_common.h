@@ -119,6 +119,17 @@ buffer
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -353,6 +364,7 @@ the
 given
 buffer
 .
+RTC_EXPORT
 std
 :
 :
@@ -385,6 +397,7 @@ following
 start
 sequence
 .
+RTC_EXPORT
 NaluType
 ParseNaluType
 (

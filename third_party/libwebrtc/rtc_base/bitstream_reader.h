@@ -1056,6 +1056,14 @@ data
 )
 remaining_bits_
 (
+rtc
+:
+:
+checked_cast
+<
+int
+>
+(
 bytes
 .
 size
@@ -1063,6 +1071,7 @@ size
 )
 *
 8
+)
 )
 {
 }
@@ -1097,6 +1106,14 @@ data
 )
 remaining_bits_
 (
+rtc
+:
+:
+checked_cast
+<
+int
+>
+(
 bytes
 .
 size
@@ -1104,6 +1121,7 @@ size
 )
 *
 8
+)
 )
 {
 }
