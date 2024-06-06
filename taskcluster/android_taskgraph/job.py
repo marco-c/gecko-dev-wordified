@@ -586,28 +586,14 @@ worker
     
 fetches_dir
 =
-path
-.
-join
-(
-run
-[
 "
-workdir
-"
-]
+/
+builds
+/
 worker
-[
+/
+fetches
 "
-env
-"
-]
-[
-"
-MOZ_FETCHES_DIR
-"
-]
-)
     
 worker
 .
