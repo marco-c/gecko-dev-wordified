@@ -2813,6 +2813,17 @@ for
 the
 elements
 .
+if
+(
+!
+sPointerCaptureList
+-
+>
+IsEmpty
+(
+)
+)
+{
 for
 (
 const
@@ -2866,6 +2877,7 @@ GetKey
 )
 )
 ;
+}
 }
 }
 }
