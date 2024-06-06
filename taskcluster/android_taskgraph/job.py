@@ -756,7 +756,7 @@ join
 (
 fetches_dir
 "
-external
+android
 -
 gradle
 -
