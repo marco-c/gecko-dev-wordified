@@ -448,6 +448,7 @@ redraw
 }
 )
 ;
+async
 function
 onMessageFromAddon
 (
@@ -467,6 +468,9 @@ hash
 #
 all
 "
+;
+await
+DOMContentLoadedPromise
 ;
 if
 (
