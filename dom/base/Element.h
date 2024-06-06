@@ -8531,13 +8531,6 @@ aInit
 ErrorResult
 &
 aError
-ShadowRootDeclarative
-aNewShadowIsDeclarative
-=
-ShadowRootDeclarative
-:
-:
-No
 )
 ;
 bool
@@ -8591,13 +8584,6 @@ ShadowRootClonable
 aClonable
 =
 ShadowRootClonable
-:
-:
-No
-ShadowRootDeclarative
-aDeclarative
-=
-ShadowRootDeclarative
 :
 :
 No
