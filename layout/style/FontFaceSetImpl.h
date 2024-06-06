@@ -507,6 +507,16 @@ loader
 has
 completed
 normally
+/
+/
+or
+by
+gfxUserFontSet
+if
+it
+cancels
+the
+loader
 .
 /
 /
@@ -519,7 +529,6 @@ the
 mLoaders
 set
 .
-virtual
 void
 RemoveLoader
 (
@@ -527,6 +536,7 @@ nsFontFaceLoader
 *
 aLoader
 )
+override
 ;
 virtual
 bool
