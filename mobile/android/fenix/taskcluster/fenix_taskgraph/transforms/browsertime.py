@@ -1496,8 +1496,8 @@ task
 name
 "
 ]
-.
-append
++
+=
 (
 "
 -
