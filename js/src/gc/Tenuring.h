@@ -186,6 +186,9 @@ namespace
 gc
 {
 class
+ArenaCellSet
+;
+class
 RelocationOverlay
 ;
 class
