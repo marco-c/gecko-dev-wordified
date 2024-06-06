@@ -337,6 +337,10 @@ file_list
 [
         
 "
+mobile
+/
+android
+/
 android
 -
 components
@@ -351,6 +355,10 @@ gradle
 "
         
 "
+mobile
+/
+android
+/
 android
 -
 components
@@ -365,6 +373,10 @@ gradle
 "
         
 "
+mobile
+/
+android
+/
 android
 -
 components
@@ -512,6 +524,10 @@ focus
 project_dir
 =
 "
+mobile
+/
+android
+/
 focus
 -
 android
@@ -529,6 +545,10 @@ fenix
 project_dir
 =
 "
+mobile
+/
+android
+/
 fenix
 "
     
@@ -538,6 +558,10 @@ else
 project_dir
 =
 "
+mobile
+/
+android
+/
 android
 -
 components
