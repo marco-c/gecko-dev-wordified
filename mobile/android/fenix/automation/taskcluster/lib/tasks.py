@@ -1033,21 +1033,35 @@ variant
 )
 :
         
-command
-=
-'
-test
-{
-}
-UnitTest
-'
-.
-format
-(
+#
+upload
+coverage
+only
+once
+if
+the
 variant
+is
+arm64
+        
+test_gradle_command
+=
+\
+            
+'
+-
+Pcoverage
+jacocoGeckoNightlyDebugTestReport
+&
+&
+automation
+/
+taskcluster
+/
+upload_coverage_report
 .
-name
-)
+sh
+'
         
 return
 self
@@ -1091,7 +1105,7 @@ name
             
 gradle_task
 =
-command
+test_gradle_command
             
 treeherder
 =
