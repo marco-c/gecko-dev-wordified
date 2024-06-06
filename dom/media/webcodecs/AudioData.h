@@ -492,6 +492,12 @@ Close
 (
 )
 ;
+bool
+IsClosed
+(
+)
+const
+;
 /
 /
 [
