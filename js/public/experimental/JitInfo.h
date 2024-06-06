@@ -128,6 +128,18 @@ h
 MOZ_ASSERT
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+/
+/
+MOZ_NON_PARAM
+#
+include
 <
 stddef
 .
@@ -570,6 +582,7 @@ JSJitMethodOp
 *
 /
 class
+MOZ_NON_PARAM
 JSJitMethodCallArgs
 :
 protected

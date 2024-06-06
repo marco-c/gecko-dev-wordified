@@ -43679,7 +43679,9 @@ TryInstantiate
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 const
 Module
@@ -43953,7 +43955,9 @@ HandleInstantiationFailure
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 const
 AsmJSMetadata

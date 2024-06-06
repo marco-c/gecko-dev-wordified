@@ -2620,7 +2620,9 @@ JSContext
 cx
 uint32_t
 funcIndex
+const
 CallArgs
+&
 args
 CoercionLevel
 level
