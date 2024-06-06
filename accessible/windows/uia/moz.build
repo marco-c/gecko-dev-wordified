@@ -94,6 +94,11 @@ uiaRawElmProvider
 .
 cpp
 "
+"
+UiaRoot
+.
+cpp
+"
 ]
 LOCAL_INCLUDES
 +
