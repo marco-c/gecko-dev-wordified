@@ -1553,9 +1553,6 @@ mBuilder
 RetainedDisplayList
 mList
 ;
-WeakFrame
-mPreviousCaret
-;
 RetainedDisplayListMetrics
 mMetrics
 ;
