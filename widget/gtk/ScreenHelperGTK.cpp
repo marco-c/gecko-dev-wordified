@@ -1613,13 +1613,6 @@ IsPseudoDisplay
 :
 :
 No
-Screen
-:
-:
-IsHDR
-:
-:
-No
 )
 ;
 }
