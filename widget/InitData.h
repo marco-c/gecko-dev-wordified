@@ -158,16 +158,6 @@ differently
 by
 the
 OS
-Sheet
-/
-/
-MacOSX
-sheet
-(
-special
-dialog
-class
-)
 Popup
 /
 /
