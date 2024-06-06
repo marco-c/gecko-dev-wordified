@@ -104,6 +104,7 @@ h
 void
 vpx_clear_system_state
 (
+void
 )
 {
 _mm_empty

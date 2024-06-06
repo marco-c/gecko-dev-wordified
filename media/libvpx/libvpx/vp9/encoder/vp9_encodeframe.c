@@ -177,6 +177,15 @@ system_state
 h
 "
 #
+include
+"
+vpx_util
+/
+vpx_pthread
+.
+h
+"
+#
 if
 CONFIG_MISMATCH_DEBUG
 #
@@ -19601,6 +19610,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 leaf_split
 [
 0
@@ -19623,6 +19634,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 0
@@ -19644,6 +19657,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 1
@@ -19665,6 +19680,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 2
@@ -19688,6 +19705,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 3
@@ -22259,6 +22278,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 0
@@ -22280,6 +22301,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 1
@@ -22301,6 +22324,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 2
@@ -22324,6 +22349,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 3
@@ -23481,6 +23508,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 leaf_split
 [
 0
@@ -23648,6 +23677,8 @@ i
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -23992,6 +24023,8 @@ bsize
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -24020,6 +24053,8 @@ split_subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -24112,6 +24147,8 @@ split_subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -27911,6 +27948,8 @@ this_rd
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -32434,6 +32473,8 @@ store_superblock_info
 pc_tree
 -
 >
+u
+.
 split
 [
 0
@@ -32454,6 +32495,8 @@ store_superblock_info
 pc_tree
 -
 >
+u
+.
 split
 [
 1
@@ -32476,6 +32519,8 @@ store_superblock_info
 pc_tree
 -
 >
+u
+.
 split
 [
 2
@@ -32498,6 +32543,8 @@ store_superblock_info
 pc_tree
 -
 >
+u
+.
 split
 [
 3
@@ -33576,6 +33623,8 @@ i
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -34201,6 +34250,8 @@ check
 pc_tree
 -
 >
+u
+.
 split
 [
 0
@@ -34216,6 +34267,8 @@ rdcost
 pc_tree
 -
 >
+u
+.
 split
 [
 1
@@ -34231,6 +34284,8 @@ rdcost
 pc_tree
 -
 >
+u
+.
 split
 [
 2
@@ -34246,6 +34301,8 @@ rdcost
 pc_tree
 -
 >
+u
+.
 split
 [
 3
@@ -34307,6 +34364,8 @@ partition_none_allowed
 pc_tree
 -
 >
+u
+.
 leaf_split
 [
 0
@@ -34330,6 +34389,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 leaf_split
 [
 0
@@ -34378,6 +34439,8 @@ ref1
 pc_tree
 -
 >
+u
+.
 leaf_split
 [
 0
@@ -34398,6 +34461,8 @@ ref2
 pc_tree
 -
 >
+u
+.
 leaf_split
 [
 0
@@ -34692,6 +34757,8 @@ continue
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -34714,6 +34781,8 @@ prune_ref_frame_for_rect_partitions
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -34747,6 +34816,8 @@ best_rdc_split
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -34785,6 +34856,8 @@ prune_ref_frame_for_rect_partitions
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -34806,6 +34879,8 @@ ref1
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -34828,6 +34903,8 @@ ref2
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -39049,6 +39126,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 0
@@ -39067,6 +39146,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 1
@@ -39085,6 +39166,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 2
@@ -39105,6 +39188,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 split
 [
 3
@@ -39236,6 +39321,8 @@ pred_pixel_ready_reset
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -40836,6 +40923,8 @@ rdcost
 pc_tree
 -
 >
+u
+.
 split
 [
 i
@@ -42864,6 +42953,8 @@ rd_cost
 pc_tree
 -
 >
+u
+.
 split
 [
 0
@@ -42890,6 +42981,8 @@ this_rdc
 pc_tree
 -
 >
+u
+.
 split
 [
 1
@@ -42975,6 +43068,8 @@ this_rdc
 pc_tree
 -
 >
+u
+.
 split
 [
 2
@@ -43064,6 +43159,8 @@ this_rdc
 pc_tree
 -
 >
+u
+.
 split
 [
 3
@@ -44049,6 +44146,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 leaf_split
 [
 0
@@ -44068,6 +44167,8 @@ subsize
 pc_tree
 -
 >
+u
+.
 leaf_split
 [
 0
@@ -44092,6 +44193,8 @@ dummy_cost
 pc_tree
 -
 >
+u
+.
 split
 [
 0
@@ -44117,6 +44220,8 @@ dummy_cost
 pc_tree
 -
 >
+u
+.
 split
 [
 1
@@ -44144,6 +44249,8 @@ dummy_cost
 pc_tree
 -
 >
+u
+.
 split
 [
 2
@@ -44175,6 +44282,8 @@ dummy_cost
 pc_tree
 -
 >
+u
+.
 split
 [
 3

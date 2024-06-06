@@ -96,7 +96,7 @@ include
 "
 vpx_util
 /
-vpx_thread
+vpx_pthread
 .
 h
 "

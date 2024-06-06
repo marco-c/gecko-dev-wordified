@@ -170,17 +170,6 @@ const
 filter
 )
 {
-assert
-(
-filter
-[
-3
-]
-!
-=
-128
-)
-;
 if
 (
 filter

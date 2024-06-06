@@ -1003,6 +1003,7 @@ p
 void
 init_bit_trees
 (
+void
 )
 {
 init_bit_tree

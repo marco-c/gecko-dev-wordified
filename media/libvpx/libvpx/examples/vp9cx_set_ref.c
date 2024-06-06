@@ -537,6 +537,7 @@ exec_name
 void
 usage_exit
 (
+void
 )
 {
 fprintf

@@ -367,10 +367,10 @@ block_stats
 mv_r
 block_stats
 .
-recrf_dist
+srcrf_dist
 block_stats
 .
-recrf_rate
+srcrf_rate
 block_stats
 .
 ref_frame_index
@@ -688,12 +688,12 @@ mv_r
 block_stats
 -
 >
-recrf_dist
+srcrf_dist
 &
 block_stats
 -
 >
-recrf_rate
+srcrf_rate
 &
 block_stats
 -

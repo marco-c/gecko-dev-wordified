@@ -114,15 +114,6 @@ h
 #
 include
 "
-vpx_util
-/
-vpx_thread
-.
-h
-"
-#
-include
-"
 .
 /
 vp9_rtcd

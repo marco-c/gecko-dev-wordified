@@ -152,6 +152,7 @@ vp8_sub_pel_filters
 {
 0
 0
+-
 128
 0
 0

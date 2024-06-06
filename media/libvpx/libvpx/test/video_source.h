@@ -1464,8 +1464,6 @@ seed
 )
 {
 }
-protected
-:
 /
 /
 Reset
@@ -1502,6 +1500,8 @@ FillFrame
 )
 ;
 }
+protected
+:
 /
 /
 15

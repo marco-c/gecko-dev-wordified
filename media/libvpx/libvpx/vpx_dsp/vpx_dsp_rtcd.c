@@ -118,6 +118,7 @@ h
 void
 vpx_dsp_rtcd
 (
+void
 )
 {
 once
