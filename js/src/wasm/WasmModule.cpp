@@ -5864,11 +5864,10 @@ globalVal
 globalObj
 -
 >
-val
+setVal
 (
-)
-=
 globalVal
+)
 ;
 return
 true
