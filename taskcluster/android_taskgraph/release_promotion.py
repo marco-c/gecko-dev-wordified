@@ -1443,12 +1443,14 @@ read_version_file
 with
 open
 (
+        
 os
 .
 path
 .
 join
 (
+            
 os
 .
 path
@@ -1476,7 +1478,9 @@ version
 .
 txt
 "
+        
 )
+    
 )
 as
 f

@@ -226,20 +226,6 @@ tasks
 )
 :
     
-#
-TODO
-:
-change
-kind
-.
-yml
-to
-have
-the
-right
-dependency
-upfront
-    
 for
 task
 in

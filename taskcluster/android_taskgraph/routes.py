@@ -386,7 +386,6 @@ format
 *
 subs
 )
-            
 for
 template
 in
@@ -459,8 +458,8 @@ new_signing_routes
 .
 extend
 (
-[
                 
+[
 template
 .
 format
@@ -469,13 +468,12 @@ format
 *
 subs
 )
-                
 for
 template
 in
 SIGNING_ROUTE_TEMPLATES
-            
 ]
+            
 )
     
 elif

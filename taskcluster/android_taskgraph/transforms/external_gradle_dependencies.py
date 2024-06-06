@@ -143,12 +143,14 @@ attributes
 .
 get
 (
+                
 "
 treeherder
 -
 group
 "
 gradle_project
+            
 )
             
 treeherder
@@ -249,15 +251,16 @@ resources
 .
 extend
 (
+                
 [
-                
+                    
 path
-                
+                    
 for
 gradle_project
 in
 gradle_project_and_deps
-                
+                    
 for
 path
 in
@@ -265,8 +268,9 @@ _get_build_gradle_paths
 (
 gradle_project
 )
-            
+                
 ]
+            
 )
         
 run
@@ -446,6 +450,7 @@ file_list
 .
 append
 (
+            
 f
 "
 {
@@ -466,6 +471,7 @@ FenixDependenciesPlugin
 .
 kt
 "
+        
 )
     
 elif
@@ -481,6 +487,7 @@ file_list
 .
 append
 (
+            
 f
 "
 {
@@ -501,6 +508,7 @@ FocusDependenciesPlugin
 .
 kt
 "
+        
 )
     
 return
@@ -640,11 +648,14 @@ project_dir
             
 gradle_task_template
 =
+(
+                
 "
 {
 gradle_task_name
 }
 "
+                
 if
 gradle_project
 in
@@ -656,6 +667,7 @@ focus
 fenix
 "
 )
+                
 else
 "
 {
@@ -667,27 +679,30 @@ gradle_task_name
 }
 "
             
+)
+            
 arguments
 .
 extend
 (
-[
                 
+[
+                    
 gradle_task_template
 .
 format
 (
-                    
+                        
 gradle_project
 =
 gradle_project
-                    
+                        
 gradle_task_name
 =
 gradle_task_name
-                
+                    
 )
-                
+                    
 for
 gradle_task_name
 in
@@ -695,8 +710,9 @@ _get_gradle_task_names
 (
 gradle_project
 )
-            
+                
 ]
+            
 )
         
 yield
@@ -726,20 +742,27 @@ gradle_tasks_name
 .
 extend
 (
+            
 [
+                
 "
 assembleFocusDebug
 "
+                
 "
 assembleAndroidTest
 "
+                
 "
 testFocusDebugUnitTest
 "
+                
 "
 lint
 "
+            
 ]
+        
 )
     
 elif
@@ -755,6 +778,7 @@ gradle_tasks_name
 .
 extend
 (
+            
 [
 "
 assemble
@@ -769,6 +793,7 @@ testClasses
 lint
 "
 ]
+        
 )
     
 else
@@ -776,9 +801,12 @@ else
         
 lint_task_name
 =
+(
+            
 "
 lint
 "
+            
 if
 gradle_project
 in
@@ -794,15 +822,19 @@ samples
 browser
 "
 )
+            
 else
 "
 lintRelease
 "
         
+)
+        
 gradle_tasks_name
 .
 extend
 (
+            
 [
 "
 assemble
@@ -815,6 +847,7 @@ test
 "
 lint_task_name
 ]
+        
 )
     
 return
