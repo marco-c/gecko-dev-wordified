@@ -1103,8 +1103,25 @@ utf
 )
 )
     
+if
+os
+.
+environ
+.
+get
+(
+"
+BUILD_VERBOSE_LOG
+"
+)
+:
+        
 print
 (
+"
+Executing
+:
+"
 "
 "
 .
