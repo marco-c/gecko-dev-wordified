@@ -82,10 +82,6 @@ import
 logging
 import
 os
-from
-copy
-import
-deepcopy
 import
 mozpack
 .
@@ -309,6 +305,26 @@ ll
 still
 document
 it
+.
+    
+Any
+set
+stored
+in
+this
+dict
+should
+be
+copied
+and
+sorted
+in
+the
+dump
+(
+)
+    
+method
 .
     
 Fields
@@ -801,9 +817,30 @@ handle
         
 normalized
 =
-deepcopy
-(
 self
+.
+copy
+(
+)
+        
+webidls
+=
+normalized
+[
+"
+webidls
+"
+]
+=
+self
+[
+"
+webidls
+"
+]
+.
+copy
+(
 )
         
 for
@@ -822,6 +859,19 @@ items
 )
 :
             
+webidls_k
+=
+webidls
+[
+k
+]
+=
+v
+.
+copy
+(
+)
+            
 #
 Convert
 sets
@@ -836,15 +886,7 @@ support
 sets
 .
             
-normalized
-[
-"
-webidls
-"
-]
-[
-k
-]
+webidls_k
 [
 "
 outputs
@@ -861,15 +903,7 @@ outputs
 ]
 )
             
-normalized
-[
-"
-webidls
-"
-]
-[
-k
-]
+webidls_k
 [
 "
 inputs
