@@ -60,7 +60,7 @@ quote
 as
 shell_quote
 from
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
