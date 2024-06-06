@@ -155,11 +155,6 @@ xhr
 new
 XMLHttpRequest
 (
-{
-mozAnon
-:
-false
-}
 )
 ;
 xhr
