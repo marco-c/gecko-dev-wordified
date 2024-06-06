@@ -72,14 +72,6 @@ description
 import
 logging
 from
-android_taskgraph
-.
-util
-.
-scriptworker
-import
-generate_beetmover_artifact_map
-from
 taskgraph
 .
 transforms
@@ -111,6 +103,14 @@ ALLOW_EXTRA
 Optional
 Required
 Schema
+from
+android_taskgraph
+.
+util
+.
+scriptworker
+import
+generate_beetmover_artifact_map
 logger
 =
 logging
@@ -445,7 +445,7 @@ scope
 "
 )
         
-task
+taskdesc
 =
 {
             
@@ -543,7 +543,7 @@ treeherder
 }
         
 yield
-task
+taskdesc
 _STAGING_PREFIX
 =
 "

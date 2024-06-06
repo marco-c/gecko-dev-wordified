@@ -824,8 +824,6 @@ tasks
 )
 :
     
-timestamp
-=
 _get_timestamp
 (
 config
