@@ -245,6 +245,9 @@ _BeginAudio_
 _EndVideo_
 Opus
 Vorbis
+Flac
+AAC
+PCM
 G722
 _EndAudio_
 Unknown
