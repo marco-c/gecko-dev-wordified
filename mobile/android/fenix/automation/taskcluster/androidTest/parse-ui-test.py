@@ -411,6 +411,7 @@ result
 |
 logs
 |
+details
 \
 n
 "
@@ -419,6 +420,10 @@ n
 print
 (
 "
+|
+-
+-
+-
 |
 -
 -
@@ -469,6 +474,15 @@ webLink
 }
 )
 |
+{
+testAxises
+[
+0
+]
+[
+details
+]
+}
 \
 n
 "
