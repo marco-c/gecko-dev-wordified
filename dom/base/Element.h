@@ -9436,6 +9436,12 @@ Width
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+double
+CurrentCSSZoom
+(
+)
+;
 /
 /
 This
