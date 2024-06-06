@@ -4660,6 +4660,10 @@ getAttribute
 label
 "
 )
+|
+|
+"
+"
 ;
 }
 set
@@ -4800,12 +4804,10 @@ this
 .
 labelElement
 ?
-this
-.
-labelElement
 .
 accessKey
-:
+|
+|
 this
 .
 getAttribute

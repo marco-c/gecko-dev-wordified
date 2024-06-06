@@ -168,6 +168,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 ;
 }
 /

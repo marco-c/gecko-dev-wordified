@@ -514,8 +514,7 @@ is
 getBadgeStatus
 (
 )
-"
-"
+null
 "
 Should
 not
@@ -1022,8 +1021,7 @@ is
 getBadgeStatus
 (
 )
-"
-"
+null
 "
 Addon
 alert
@@ -1358,8 +1356,7 @@ is
 getBadgeStatus
 (
 )
-"
-"
+null
 "
 Addon
 alert

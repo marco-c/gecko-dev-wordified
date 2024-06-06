@@ -3507,8 +3507,7 @@ getAttribute
 context
 "
 )
-"
-"
+null
 "
 Should
 not
@@ -3590,8 +3589,7 @@ getAttribute
 context
 "
 )
-"
-"
+null
 "
 Should
 not
@@ -3669,8 +3667,7 @@ getAttribute
 context
 "
 )
-"
-"
+null
 "
 Should
 not

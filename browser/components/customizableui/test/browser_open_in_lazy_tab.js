@@ -61,8 +61,7 @@ is
 tab
 .
 linkedPanel
-"
-"
+null
 "
 Tab
 should

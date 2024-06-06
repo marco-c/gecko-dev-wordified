@@ -765,8 +765,7 @@ default
 )
 loadBookmarksInNewTab
 ?
-"
-"
+null
 :
 "
 true
@@ -829,8 +828,7 @@ loadBookmarksInNewTab
 true
 "
 :
-"
-"
+null
 placesContext_open
 :
 newtab

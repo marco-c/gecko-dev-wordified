@@ -1559,15 +1559,7 @@ acceptButtonShouldBeDisabled
 true
 "
 :
-"
-"
-/
-/
-it
-'
-s
-a
-string
+null
 dialog
 accept
 button

@@ -1001,6 +1001,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 ;
 }
 /
@@ -1040,6 +1044,10 @@ getAttribute
 image
 "
 )
+|
+|
+"
+"
 ;
 }
 /
@@ -1059,6 +1067,10 @@ getAttribute
 label
 "
 )
+|
+|
+"
+"
 ;
 }
 set
@@ -1092,6 +1104,10 @@ getAttribute
 description
 "
 )
+|
+|
+"
+"
 ;
 }
 /

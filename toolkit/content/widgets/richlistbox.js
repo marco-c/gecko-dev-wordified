@@ -751,6 +751,10 @@ getAttribute
 label
 "
 )
+|
+|
+"
+"
 ;
 /
 /
@@ -1351,6 +1355,10 @@ getAttribute
 seltype
 "
 )
+|
+|
+"
+"
 ;
 }
 /
@@ -5486,6 +5494,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 ;
 }
 /

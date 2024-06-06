@@ -852,8 +852,7 @@ getAttribute
 style
 "
 )
-"
-"
+null
 "
 inline
 styles

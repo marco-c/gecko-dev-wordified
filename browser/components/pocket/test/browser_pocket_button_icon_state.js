@@ -533,8 +533,7 @@ getAttribute
 pocketed
 "
 )
-"
-"
+null
 "
 Pocket
 item
@@ -833,7 +832,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

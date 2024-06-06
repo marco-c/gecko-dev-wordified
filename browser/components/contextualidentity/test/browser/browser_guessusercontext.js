@@ -688,8 +688,7 @@ getAttribute
 usercontextid
 "
 )
-"
-"
+null
 "
 opener
 flow

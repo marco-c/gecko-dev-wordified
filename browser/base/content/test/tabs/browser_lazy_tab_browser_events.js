@@ -690,8 +690,7 @@ is
 lazyTab
 .
 linkedPanel
-"
-"
+null
 "
 lazyTab
 is
@@ -704,8 +703,7 @@ is
 hiddenTab
 .
 linkedPanel
-"
-"
+null
 "
 hiddenTab
 is
@@ -718,8 +716,7 @@ is
 mutedTab
 .
 linkedPanel
-"
-"
+null
 "
 mutedTab
 is
@@ -732,8 +729,7 @@ is
 normalTab
 .
 linkedPanel
-"
-"
+null
 "
 normalTab
 is
@@ -862,8 +858,7 @@ is
 lazyTab
 .
 linkedPanel
-"
-"
+null
 "
 muted
 lazyTab
@@ -959,8 +954,7 @@ is
 lazyTab
 .
 linkedPanel
-"
-"
+null
 "
 hidden
 lazyTab
@@ -1058,8 +1052,7 @@ is
 lazyTab
 .
 linkedPanel
-"
-"
+null
 "
 normal
 lazyTab

@@ -364,8 +364,7 @@ getAttribute
 sharing
 "
 )
-"
-"
+null
 "
 the
 new
@@ -573,8 +572,7 @@ getAttribute
 sharing
 "
 )
-"
-"
+null
 "
 the
 tab

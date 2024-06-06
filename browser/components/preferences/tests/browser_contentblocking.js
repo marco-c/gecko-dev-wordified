@@ -5788,8 +5788,7 @@ getAttribute
 checked
 "
 )
-"
-"
+null
 "
 Tracking
 protection

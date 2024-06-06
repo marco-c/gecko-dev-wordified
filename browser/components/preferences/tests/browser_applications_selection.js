@@ -2284,6 +2284,7 @@ i
 let
 aType
 =
+(
 siteItems
 [
 i
@@ -2295,6 +2296,11 @@ getAttribute
 actionDescription
 "
 )
+|
+|
+"
+"
+)
 .
 toLowerCase
 (
@@ -2303,6 +2309,7 @@ toLowerCase
 let
 bType
 =
+(
 siteItems
 [
 i
@@ -2314,6 +2321,11 @@ getAttribute
 (
 "
 actionDescription
+"
+)
+|
+|
+"
 "
 )
 .
@@ -2488,6 +2500,7 @@ i
 let
 aType
 =
+(
 siteItems
 [
 i
@@ -2499,6 +2512,11 @@ getAttribute
 typeDescription
 "
 )
+|
+|
+"
+"
+)
 .
 toLowerCase
 (
@@ -2507,6 +2525,7 @@ toLowerCase
 let
 bType
 =
+(
 siteItems
 [
 i
@@ -2518,6 +2537,11 @@ getAttribute
 (
 "
 typeDescription
+"
+)
+|
+|
+"
 "
 )
 .

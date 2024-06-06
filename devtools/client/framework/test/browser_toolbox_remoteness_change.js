@@ -156,8 +156,7 @@ getAttribute
 remote
 "
 )
-"
-"
+null
 "
 And
 running

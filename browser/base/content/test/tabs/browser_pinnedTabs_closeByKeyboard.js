@@ -103,8 +103,7 @@ key_close
 disabled
 "
 )
-"
-"
+null
 "
 key_closed
 should

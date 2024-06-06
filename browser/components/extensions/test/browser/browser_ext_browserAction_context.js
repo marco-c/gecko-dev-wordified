@@ -1261,6 +1261,10 @@ getAttribute
 badge
 "
 )
+|
+|
+"
+"
 details
 .
 badge

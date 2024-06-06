@@ -2043,9 +2043,8 @@ is
 (
 properties
 expectedProperties
-?
-expectedProperties
-:
+|
+|
 "
 "
 adjtestid
@@ -11692,9 +11691,6 @@ push
 {
 label
 :
-"
-"
-+
 cell
 .
 getAttribute
@@ -11703,6 +11699,10 @@ getAttribute
 label
 "
 )
+|
+|
+"
+"
 value
 :
 cell
@@ -11713,6 +11713,10 @@ getAttribute
 value
 "
 )
+|
+|
+"
+"
 properties
 :
 cell
@@ -11723,6 +11727,10 @@ getAttribute
 properties
 "
 )
+|
+|
+"
+"
 editable
 :
 cell
@@ -11763,6 +11771,10 @@ getAttribute
 src
 "
 )
+|
+|
+"
+"
 mode
 :
 cell
@@ -11837,6 +11849,10 @@ getAttribute
 properties
 "
 )
+|
+|
+"
+"
 container
 :
 treeitem
