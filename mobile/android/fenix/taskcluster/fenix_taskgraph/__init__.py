@@ -535,6 +535,15 @@ read
 strip
 (
 )
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 def
 _resolve_release_type
 (
