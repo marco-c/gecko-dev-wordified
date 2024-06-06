@@ -193,6 +193,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -782,6 +789,12 @@ RefPtr
 nsIGlobalObject
 >
 mGlobalObject
+;
+nsTArray
+<
+nsString
+>
+mCreatedPolicyNames
 ;
 }
 ;
