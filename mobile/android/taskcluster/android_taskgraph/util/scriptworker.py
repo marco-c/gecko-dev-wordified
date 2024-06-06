@@ -68,12 +68,6 @@ datetime
 import
 jsone
 from
-.
-.
-release_promotion
-import
-read_version_file
-from
 taskgraph
 .
 util
@@ -105,6 +99,12 @@ util
 yaml
 import
 load_yaml
+from
+.
+.
+release_promotion
+import
+read_version_file
 cached_load_yaml
 =
 memoize

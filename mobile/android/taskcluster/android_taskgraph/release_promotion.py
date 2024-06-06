@@ -72,20 +72,6 @@ register_callback_action
 from
 taskgraph
 .
-util
-.
-taskcluster
-import
-get_artifact
-from
-taskgraph
-.
-taskgraph
-import
-TaskGraph
-from
-taskgraph
-.
 decision
 import
 taskgraph_decision
@@ -98,12 +84,30 @@ Parameters
 from
 taskgraph
 .
+taskgraph
+import
+TaskGraph
+from
+taskgraph
+.
+util
+.
+taskcluster
+import
+get_artifact
+from
+taskgraph
+.
 util
 .
 taskgraph
 import
+(
+    
 find_decision_task
+    
 find_existing_tasks_from_previous_kinds
+)
 RELEASE_PROMOTION_PROJECTS
 =
 (
@@ -156,9 +160,9 @@ parameters
 return
 parameters
 [
-'
+"
 head_repository
-'
+"
 ]
 in
 RELEASE_PROMOTION_PROJECTS
@@ -167,28 +171,28 @@ register_callback_action
     
 name
 =
-'
+"
 release
 -
 promotion
-'
+"
     
 title
 =
-'
+"
 Release
 Promotion
-'
+"
     
 symbol
 =
-'
+"
 {
 input
 .
 release_promotion_flavor
 }
-'
+"
     
 description
 =
@@ -221,63 +225,64 @@ graph_config
 :
 {
         
-'
+"
 type
-'
+"
 :
-'
+"
 object
-'
+"
         
-'
+"
 properties
-'
+"
 :
 {
             
-'
+"
 build_number
-'
+"
 :
 {
                 
-'
+"
 type
-'
+"
 :
-'
+"
 integer
-'
+"
                 
-'
+"
 default
-'
+"
 :
 1
                 
-'
+"
 minimum
-'
+"
 :
 1
                 
-'
+"
 title
-'
+"
 :
-'
+"
 The
 release
 build
 number
-'
+"
                 
-'
+"
 description
-'
+"
 :
 (
-'
+                    
+"
 The
 release
 build
@@ -287,9 +292,9 @@ Starts
 at
 1
 per
-'
-                                
-'
+"
+                    
+"
 release
 version
 and
@@ -297,31 +302,33 @@ increments
 on
 rebuild
 .
-'
+"
+                
 )
             
 }
             
-'
+"
 do_not_optimize
-'
+"
 :
 {
                 
-'
+"
 type
-'
+"
 :
-'
+"
 array
-'
+"
                 
-'
+"
 description
-'
+"
 :
 (
-'
+                    
+"
 Optional
 :
 a
@@ -332,9 +339,9 @@ to
 avoid
 optimizing
 out
-'
-                                
-'
+"
+                    
+"
 of
 the
 graph
@@ -345,9 +352,9 @@ a
 rerun
 of
 say
-'
-                                
-'
+"
+                    
+"
 funsize
 docker
 -
@@ -355,59 +362,60 @@ image
 tasks
 )
 .
-'
+"
+                
 )
                 
-'
+"
 items
-'
+"
 :
 {
                     
-'
+"
 type
-'
+"
 :
-'
+"
 string
-'
+"
                 
 }
             
 }
             
-'
+"
 revision
-'
+"
 :
 {
                 
-'
+"
 type
-'
+"
 :
-'
+"
 string
-'
+"
                 
-'
+"
 title
-'
+"
 :
-'
+"
 Optional
 :
 revision
 to
 ship
-'
+"
                 
-'
+"
 description
-'
+"
 :
 (
-'
+"
 Optional
 :
 the
@@ -415,30 +423,30 @@ revision
 to
 ship
 .
-'
+"
 )
             
 }
             
-'
+"
 release_promotion_flavor
-'
+"
 :
 {
                 
-'
+"
 type
-'
+"
 :
-'
+"
 string
-'
+"
                 
-'
+"
 description
-'
+"
 :
-'
+"
 The
 flavor
 of
@@ -447,34 +455,34 @@ promotion
 to
 perform
 .
-'
+"
                 
-'
+"
 default
-'
+"
 :
-'
+"
 build
-'
+"
                 
-'
+"
 enum
-'
+"
 :
 sorted
 (
 graph_config
 [
-'
+"
 release
 -
 promotion
-'
+"
 ]
 [
-'
+"
 flavors
-'
+"
 ]
 .
 keys
@@ -484,26 +492,27 @@ keys
             
 }
             
-'
+"
 rebuild_kinds
-'
+"
 :
 {
                 
-'
+"
 type
-'
+"
 :
-'
+"
 array
-'
+"
                 
-'
+"
 description
-'
+"
 :
 (
-'
+                    
+"
 Optional
 :
 an
@@ -515,55 +524,57 @@ ignore
 from
 the
 previous
-'
-                                
-'
+"
+                    
+"
 graph
 (
 s
 )
 .
-'
+"
+                
 )
                 
-'
+"
 items
-'
+"
 :
 {
                     
-'
+"
 type
-'
+"
 :
-'
+"
 string
-'
+"
                 
 }
             
 }
             
-'
+"
 previous_graph_ids
-'
+"
 :
 {
                 
-'
+"
 type
-'
+"
 :
-'
+"
 array
-'
+"
                 
-'
+"
 description
-'
+"
 :
 (
-'
+                    
+"
 Optional
 :
 an
@@ -574,9 +585,9 @@ of
 decision
 or
 action
-'
-                                
-'
+"
+                    
+"
 tasks
 from
 the
@@ -589,53 +600,55 @@ to
 use
 to
 populate
-'
-                                
-'
+"
+                    
+"
 our
 previous_graph_kinds
 .
-'
+"
+                
 )
                 
-'
+"
 items
-'
+"
 :
 {
                     
-'
+"
 type
-'
+"
 :
-'
+"
 string
-'
+"
                 
 }
             
 }
             
-'
+"
 version
-'
+"
 :
 {
                 
-'
+"
 type
-'
+"
 :
-'
+"
 string
-'
+"
                 
-'
+"
 description
-'
+"
 :
 (
-'
+                    
+"
 Optional
 :
 override
@@ -645,8 +658,8 @@ for
 release
 promotion
 .
-'
-                                
+"
+                    
 "
 Occasionally
 we
@@ -660,8 +673,8 @@ in
 a
 later
 "
-                                
-'
+                    
+"
 commit
 but
 want
@@ -673,9 +686,9 @@ build
 from
 a
 previous
-'
-                                
-'
+"
+                    
+"
 commit
 .
 If
@@ -687,9 +700,9 @@ landed
 in
 the
 meantime
-'
-                                
-'
+"
+                    
+"
 relying
 on
 the
@@ -701,15 +714,16 @@ will
 break
 things
 .
-'
+"
+                
 )
                 
-'
+"
 default
-'
+"
 :
-'
-'
+"
+"
             
 }
             
@@ -753,18 +767,23 @@ required
 "
 :
 [
+            
 "
 release_promotion_flavor
 "
+            
 "
 version
 "
+            
 "
 build_number
 "
+            
 "
 next_version
 "
+        
 ]
     
 }
@@ -784,41 +803,43 @@ release_promotion_flavor
 =
 input
 [
-'
+"
 release_promotion_flavor
-'
+"
 ]
     
 promotion_config
 =
 graph_config
 [
-'
+"
 release
 -
 promotion
-'
+"
 ]
 [
-'
+"
 flavors
-'
+"
 ]
 [
+        
 release_promotion_flavor
+    
 ]
     
 target_tasks_method
 =
 promotion_config
 [
-'
+"
 target
 -
 tasks
 -
 method
-'
+"
 ]
 .
 format
@@ -828,9 +849,9 @@ project
 =
 parameters
 [
-'
+"
 project
-'
+"
 ]
     
 )
@@ -841,22 +862,24 @@ input
 .
 get
 (
-'
+"
 rebuild_kinds
-'
+"
 )
 or
 promotion_config
 .
 get
 (
-'
+        
+"
 rebuild
 -
 kinds
-'
+"
 [
 ]
+    
 )
     
 do_not_optimize
@@ -865,24 +888,26 @@ input
 .
 get
 (
-'
+"
 do_not_optimize
-'
+"
 )
 or
 promotion_config
 .
 get
 (
-'
+        
+"
 do
 -
 not
 -
 optimize
-'
+"
 [
 ]
+    
 )
     
 #
@@ -914,9 +939,9 @@ input
 .
 get
 (
-'
+"
 previous_graph_ids
-'
+"
 )
     
 if
@@ -1067,9 +1092,9 @@ combined_full_task_graph
     
 parameters
 [
-'
+"
 existing_tasks
-'
+"
 ]
 =
 find_existing_tasks_from_previous_kinds
@@ -1083,36 +1108,36 @@ rebuild_kinds
     
 parameters
 [
-'
+"
 do_not_optimize
-'
+"
 ]
 =
 do_not_optimize
     
 parameters
 [
-'
+"
 target_tasks_method
-'
+"
 ]
 =
 target_tasks_method
     
 parameters
 [
-'
+"
 build_number
-'
+"
 ]
 =
 int
 (
 input
 [
-'
+"
 build_number
-'
+"
 ]
 )
     
@@ -1140,25 +1165,25 @@ graphs
     
 parameters
 [
-'
+"
 optimize_target_tasks
-'
+"
 ]
 =
 True
     
 parameters
 [
-'
+"
 shipping_phase
-'
+"
 ]
 =
 input
 [
-'
+"
 release_promotion_flavor
-'
+"
 ]
     
 version_in_file
@@ -1173,9 +1198,9 @@ input
 .
 get
 (
-'
+"
 version
-'
+"
 None
 )
     
@@ -1224,6 +1249,7 @@ version_in_file
 raise
 ValueError
 (
+            
 "
 Version
 given
@@ -1250,32 +1276,35 @@ txt
 .
 format
 (
+                
 version_string
 version_in_file
+            
 )
+        
 )
     
 parameters
 [
-'
+"
 version
-'
+"
 ]
 =
 version_string
     
 parameters
 [
-'
+"
 head_tag
-'
+"
 ]
 =
-'
+"
 v
 {
 }
-'
+"
 .
 format
 (
@@ -1284,16 +1313,16 @@ version_string
     
 parameters
 [
-'
+"
 next_version
-'
+"
 ]
 =
 input
 [
-'
+"
 next_version
-'
+"
 ]
     
 release_type
@@ -1325,29 +1354,29 @@ beta
     
 parameters
 [
-'
+"
 release_type
-'
+"
 ]
 =
 release_type
     
 parameters
 [
-'
+"
 tasks_for
-'
+"
 ]
 =
-'
+"
 action
-'
+"
     
 parameters
 [
-'
+"
 pull_request_number
-'
+"
 ]
 =
 None
@@ -1371,9 +1400,9 @@ parameters
 taskgraph_decision
 (
 {
-'
+"
 root
-'
+"
 :
 graph_config
 .
@@ -1406,19 +1435,19 @@ dirname
 (
 __file__
 )
-'
+"
 .
 .
-'
-'
+"
+"
 .
 .
-'
-'
+"
+"
 version
 .
 txt
-'
+"
 )
 )
 as

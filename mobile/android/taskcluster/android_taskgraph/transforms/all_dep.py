@@ -119,7 +119,6 @@ dependencies
 ]
 =
 {
-            
 dep
 .
 label
@@ -127,12 +126,10 @@ label
 dep
 .
 label
-            
 for
 dep
 in
 all_dependent_tasks
-        
 }
         
 first_dep
@@ -220,9 +217,9 @@ for
 "
 copy_of_attributes
 [
-'
+"
 run_on_tasks_for
-'
+"
 ]
 )
         
@@ -244,11 +241,11 @@ config
 .
 config
 [
-'
+"
 group
 -
 by
-'
+"
 ]
 ]
         

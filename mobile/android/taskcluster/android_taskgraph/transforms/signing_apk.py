@@ -236,6 +236,7 @@ for
 key
 in
 (
+            
 "
 run
 -
@@ -245,19 +246,23 @@ tasks
 -
 for
 "
+            
 "
 signing
 -
 format
 "
+            
 "
 notify
 "
+            
 "
 treeherder
 .
 platform
 "
+        
 )
 :
             
@@ -281,11 +286,11 @@ name
 *
 {
                     
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
@@ -301,9 +306,9 @@ type
 "
 ]
                     
-'
+"
 level
-'
+"
 :
 config
 .
@@ -314,11 +319,11 @@ level
 "
 ]
                     
-'
+"
 tasks
 -
 for
-'
+"
 :
 config
 .
@@ -469,8 +474,6 @@ signing
 "
         
 if
-(
-            
 str
 (
 config
@@ -487,7 +490,6 @@ level
 "
 3
 "
-            
 and
 config
 .
@@ -499,18 +501,20 @@ tasks_for
 ]
 in
 (
+            
 "
 cron
 "
+            
 "
 github
 -
 release
 "
+            
 "
 action
 "
-)
         
 )
 :

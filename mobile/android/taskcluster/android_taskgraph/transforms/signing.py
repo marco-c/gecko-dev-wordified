@@ -101,14 +101,17 @@ for
 key
 in
 (
+            
 "
 index
 "
+            
 "
 worker
 -
 type
 "
+            
 "
 worker
 .
@@ -116,6 +119,7 @@ signing
 -
 type
 "
+            
 "
 treeherder
 .
@@ -123,6 +127,7 @@ job
 -
 symbol
 "
+        
 )
 :
             
@@ -130,6 +135,7 @@ resolve_keyed_by
 (
                 
 task
+                
 key
                 
 item_name
@@ -345,10 +351,10 @@ yield
 task
 _DETACHED_SIGNATURE_EXTENSION
 =
-'
+"
 .
 asc
-'
+"
 transforms
 .
 add
@@ -381,10 +387,12 @@ artifacts
 {
             
 extension
+            
 +
 _DETACHED_SIGNATURE_EXTENSION
 :
 path
+            
 +
 _DETACHED_SIGNATURE_EXTENSION
             

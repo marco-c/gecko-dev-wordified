@@ -147,11 +147,11 @@ name
 *
 {
                     
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
@@ -167,9 +167,9 @@ type
 "
 ]
                     
-'
+"
 level
-'
+"
 :
 config
 .
@@ -265,9 +265,9 @@ config
 .
 params
 [
-'
+"
 version
-'
+"
 ]
 or
 "
@@ -278,19 +278,21 @@ ver
         
 task
 [
-'
+"
 worker
-'
+"
 ]
 [
-'
+            
+"
 release
 -
 name
-'
+"
+        
 ]
 =
-'
+"
 {
 product
 }
@@ -303,7 +305,7 @@ build
 {
 build_number
 }
-'
+"
 .
 format
 (
@@ -324,9 +326,9 @@ params
 .
 get
 (
-'
+"
 build_number
-'
+"
 1
 )
         

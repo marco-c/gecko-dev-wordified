@@ -54,13 +54,13 @@ MPL
 /
 .
 import
-subprocess
-import
-webbrowser
+argparse
 import
 os
 import
-argparse
+subprocess
+import
+webbrowser
 DESCRIPTION
 =
 "
@@ -106,12 +106,12 @@ in
 "
 ff_browser
 =
-'
+"
 firefox
-'
+"
 target_directory
 =
-'
+"
 {
 cwd
 }
@@ -120,7 +120,7 @@ app
 /
 build
 /
-'
+"
 .
 format
 (
@@ -134,7 +134,7 @@ getcwd
 )
 output_path
 =
-'
+"
 /
 storage
 /
@@ -144,10 +144,10 @@ emulated
 /
 benchmark
 /
-'
+"
 output_file
 =
-'
+"
 org
 .
 mozilla
@@ -157,7 +157,7 @@ fenix
 benchmarkData
 .
 json
-'
+"
 file_url
 =
 "
@@ -188,10 +188,11 @@ parser
 .
 add_argument
 (
+        
 "
 class_to_test
 "
-                        
+        
 help
 =
 "
@@ -215,18 +216,20 @@ fenix
 [
 path_to_benchmark_test
 "
+    
 )
     
 parser
 .
 add_argument
 (
+        
 "
 -
 -
 open_file_in_browser
 "
-                        
+        
 help
 =
 "
@@ -244,6 +247,7 @@ are
 done
 .
 "
+    
 )
     
 return
@@ -262,20 +266,20 @@ class_to_test
 args
 =
 [
-'
+"
 .
 /
 gradlew
-'
-'
+"
+"
 -
 Pbenchmark
-'
-'
+"
+"
 app
 :
 connectedCheck
-'
+"
 ]
     
 if
@@ -286,6 +290,7 @@ args
 .
 append
 (
+            
 "
 -
 Pandroid
@@ -301,10 +306,13 @@ clazz
 .
 format
 (
+                
 clazz
 =
 class_to_test
+            
 )
+        
 )
     
 subprocess
@@ -331,12 +339,12 @@ run
 (
         
 [
-'
+"
 adb
-'
-'
+"
+"
 pull
-'
+"
 "
 {
 path
@@ -360,16 +368,20 @@ output_file
 cwd
 =
 target_directory
+        
 check
 =
 True
+        
 text
 =
 True
+    
 )
     
 print
 (
+        
 "
 The
 benchmark
@@ -386,7 +398,7 @@ file_path
 .
 format
 (
-         
+            
 file_path
 =
 os
@@ -410,7 +422,9 @@ file
 file_url
 )
 )
+        
 )
+    
 )
 def
 open_in_browser
@@ -426,6 +440,7 @@ path
 .
 abspath
 (
+        
 "
 {
 target_directory
@@ -437,14 +452,16 @@ file
 .
 format
 (
+            
 target_directory
 =
 target_directory
-                               
 file
 =
 output_file
+        
 )
+    
 )
     
 webbrowser
@@ -496,9 +513,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

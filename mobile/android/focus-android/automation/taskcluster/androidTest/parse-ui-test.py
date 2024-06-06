@@ -11,15 +11,15 @@ __future__
 import
 print_function
 import
-sys
-import
 argparse
+import
+json
+import
+sys
 from
 pathlib
 import
 Path
-import
-json
 import
 yaml
 def
@@ -455,6 +455,7 @@ items
         
 print
 (
+            
 "
 |
 {
@@ -489,10 +490,13 @@ n
 .
 format
 (
+                
 *
 *
 matrix_result
+            
 )
+        
 )
 if
 __name__

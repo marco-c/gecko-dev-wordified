@@ -81,8 +81,8 @@ from
 .
 build_components
 import
-get_nightly_version
 craft_path_version
+get_nightly_version
 transforms
 =
 TransformSequence
@@ -109,6 +109,7 @@ for
 key
 in
 (
+            
 "
 treeherder
 .
@@ -116,11 +117,13 @@ job
 -
 symbol
 "
+            
 "
 worker
 .
 bucket
 "
+            
 "
 worker
 .
@@ -130,6 +133,7 @@ application
 -
 name
 "
+        
 )
 :
             
@@ -137,6 +141,7 @@ resolve_keyed_by
 (
                 
 task
+                
 key
                 
 item_name
@@ -267,29 +272,30 @@ map
 ]
 =
 [
-{
             
+{
+                
 "
 paths
 "
 :
 {
-                
+                    
 artifact_path
 :
 {
-                    
+                        
 "
 destinations
 "
 :
 [
-                        
+                            
 maven_destination
 .
 format
 (
-                            
+                                
 component
 =
 task
@@ -303,13 +309,14 @@ attributes
 component
 "
 ]
-                            
+                                
 version
 =
 craft_path_version
 (
+                                    
 version
-                                
+                                    
 task
 [
 "
@@ -323,9 +330,11 @@ build
 type
 "
 ]
+                                    
 nightly_version
+                                
 )
-                            
+                                
 artifact_file_name
 =
 os
@@ -336,13 +345,13 @@ basename
 (
 artifact_path
 )
-                        
+                            
 )
-                    
+                        
 ]
-                
+                    
 }
-                
+                    
 for
 artifact_path
 in
@@ -358,9 +367,9 @@ artifacts
 values
 (
 )
-            
+                
 }
-            
+                
 "
 taskId
 "
@@ -383,12 +392,14 @@ kind
 >
 "
 }
-        
+            
 }
+            
 for
 dep
 in
 deps
+        
 ]
         
 yield
@@ -440,7 +451,6 @@ craft_path_version
 (
             
 version
-            
 task
 [
 "
@@ -454,7 +464,6 @@ build
 type
 "
 ]
-            
 nightly_version
         
 )

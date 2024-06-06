@@ -75,6 +75,12 @@ kind
 "
 "
 from
+android_taskgraph
+.
+build_config
+import
+get_variant
+from
 taskgraph
 .
 transforms
@@ -90,12 +96,6 @@ util
 schema
 import
 resolve_keyed_by
-from
-android_taskgraph
-.
-build_config
-import
-get_variant
 transforms
 =
 TransformSequence
@@ -184,11 +184,9 @@ for
 field
 in
 (
-            
-'
+"
 optimization
-'
-        
+"
 )
 :
             
@@ -196,7 +194,9 @@ resolve_keyed_by
 (
                 
 task
+                
 field
+                
 item_name
 =
 task
@@ -210,11 +210,11 @@ name
 *
 {
                     
-'
+"
 tasks
 -
 for
-'
+"
 :
 config
 .
@@ -466,43 +466,43 @@ secrets
 [
         
 (
-'
+"
 adjust
-'
-'
+"
+"
 .
 adjust_token
-'
+"
 )
         
 (
-'
+"
 sentry_dsn
-'
-'
+"
+"
 .
 sentry_token
-'
+"
 )
         
 (
-'
+"
 mls
-'
-'
+"
+"
 .
 mls_token
-'
+"
 )
         
 (
-'
+"
 nimbus_url
-'
-'
+"
+"
 .
 nimbus
-'
+"
 )
     
 ]
@@ -546,14 +546,15 @@ secrets
 .
 extend
 (
-[
             
-(
+[
                 
+(
+                    
 "
 firebase
 "
-                
+                    
 "
 app
 /
@@ -573,13 +574,11 @@ xml
 .
 format
 (
-                    
 gradle_build_type
+)
                 
 )
-            
-)
-            
+                
 (
 "
 wallpaper_url
@@ -589,7 +588,7 @@ wallpaper_url
 wallpaper_url
 "
 )
-            
+                
 (
 "
 pocket_consumer_key
@@ -599,8 +598,9 @@ pocket_consumer_key
 pocket_consumer_key
 "
 )
-        
+            
 ]
+        
 )
     
 return
@@ -641,6 +641,8 @@ product_name
     
 secret_project_name
 =
+(
+        
 "
 focus
 -
@@ -660,9 +662,11 @@ klar
 else
 product_name
     
+)
+    
 return
 f
-'
+"
 project
 /
 mobile
@@ -678,7 +682,7 @@ secret_project_name
 {
 secret_name
 }
-'
+"
 transforms
 .
 add
@@ -1016,7 +1020,6 @@ gradlew
 .
 append
 (
-                
 f
 "
 -
@@ -1026,7 +1029,6 @@ PtestBuildType
 test_build_type
 }
 "
-            
 )
         
 yield
@@ -1131,8 +1133,9 @@ gradlew
 .
 extend
 (
-[
                 
+[
+                    
 #
 We
 only
@@ -1149,7 +1152,7 @@ name
 will
 be
 determined
-                
+                    
 #
 by
 Gradle
@@ -1166,13 +1169,14 @@ version
 being
 used
 )
-                
-'
+                    
+"
 -
 Pofficial
-'
-            
+"
+                
 ]
+            
 )
         
 yield
@@ -1224,15 +1228,15 @@ gradlew
 .
 extend
 (
-[
                 
-'
+[
+"
 -
 PversionName
 =
 {
 }
-'
+"
 .
 format
 (
@@ -1245,13 +1249,12 @@ version
 "
 ]
 )
-                
-'
+"
 -
 Pofficial
-'
-            
+"
 ]
+            
 )
         
 yield
@@ -1446,7 +1449,6 @@ format
 gradle_build
 =
 gradle_build
-                    
 *
 *
 apk
@@ -1457,8 +1459,9 @@ artifacts
 .
 append
 (
-{
                     
+{
+                        
 "
 type
 "
@@ -1469,13 +1472,13 @@ artifact_template
 type
 "
 ]
-                    
+                        
 "
 name
 "
 :
 apk_name
-                    
+                        
 "
 path
 "
@@ -1489,26 +1492,27 @@ path
 .
 format
 (
-                        
+                            
 gradle_build_type
 =
 gradle_build_type
-                        
+                            
 gradle_build
 =
 gradle_build
-                        
+                            
 source_project_name
 =
 source_project_name
-                        
+                            
 *
 *
 apk
-                    
+                        
 )
-                
+                    
 }
+                
 )
                 
 apks

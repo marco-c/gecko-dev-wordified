@@ -56,10 +56,6 @@ MPL
 import
 copy
 from
-voluptuous
-import
-Required
-from
 taskgraph
 .
 task
@@ -82,6 +78,10 @@ schema
 import
 Schema
 from
+voluptuous
+import
+Required
+from
 .
 import
 group_tasks
@@ -89,34 +89,35 @@ schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
-'
+"
 primary
 -
 dependency
-'
-'
+"
+"
 primary
 dependency
 task
-'
+"
 )
 :
 Task
-    
+        
 Required
 (
-        
-'
+            
+"
 dependent
 -
 tasks
-'
-        
-'
+"
+            
+"
 dictionary
 of
 dependent
@@ -124,8 +125,8 @@ tasks
 keyed
 by
 kind
-'
-    
+"
+        
 )
 :
 {
@@ -133,6 +134,7 @@ str
 :
 Task
 }
+    
 }
 )
 def
@@ -294,11 +296,11 @@ config
 .
 get
 (
-'
+"
 task
 -
 template
-'
+"
 )
     
 for
@@ -327,6 +329,7 @@ assert_unique_members
 (
             
 kinds
+            
 error_msg
 =
 "
@@ -363,22 +366,22 @@ dep_tasks
 task
 =
 {
-'
+"
 dependent
 -
 tasks
-'
+"
 :
 dep_tasks_per_kind
 }
         
 task
 [
-'
+"
 primary
 -
 dependency
-'
+"
 ]
 =
 get_primary_dep
@@ -531,11 +534,11 @@ config
 .
 get
 (
-'
+"
 primary
 -
 dependency
-'
+"
 )
     
 if
@@ -609,11 +612,13 @@ primary_kind
 :
                 
 assert
+(
+                    
 primary_dep
 is
 None
-\
-                    
+                
+)
 "
 Too
 many
@@ -630,7 +635,7 @@ dep_tasks
 .
 format
 (
-                        
+                    
 [
 t
 .
@@ -640,7 +645,7 @@ t
 in
 dep_tasks
 ]
-                    
+                
 )
                 
 primary_dep
@@ -659,6 +664,7 @@ None
 raise
 Exception
 (
+            
 "
 Can
 '
@@ -675,18 +681,19 @@ of
 .
 format
 (
-            
+                
 config
 [
-'
+"
 primary
 -
 dependency
-'
+"
 ]
 config
-        
+            
 )
+        
 )
     
 return

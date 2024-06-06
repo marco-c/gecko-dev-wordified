@@ -63,13 +63,13 @@ MPL
 /
 .
 import
-list_compatible_dependency_versions
-as
-module
-import
 os
 import
 unittest
+import
+list_compatible_dependency_versions
+as
+module
 SCRIPT_DIR
 =
 os
@@ -96,10 +96,10 @@ path
 join
 (
 SCRIPT_DIR
-'
+"
 .
 .
-'
+"
 )
 class
 AssumptionsTestCase
@@ -237,9 +237,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 unittest

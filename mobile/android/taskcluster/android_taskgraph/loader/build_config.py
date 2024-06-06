@@ -76,8 +76,8 @@ from
 .
 build_config
 import
-get_components
 get_apk_based_projects
+get_components
 def
 components_loader
 (
@@ -294,66 +294,65 @@ tasks
 =
 {
         
-'
+"
 {
 }
 {
 }
-'
+"
 .
 format
 (
             
-'
-'
+"
+"
 if
 build_type
 =
 =
-'
+"
 regular
-'
+"
 else
 build_type
 +
-'
+"
 -
-'
-            
+"
 component
 [
-'
+"
 name
-'
+"
 ]
         
 )
 :
 {
             
-'
+"
 attributes
-'
+"
 :
 {
                 
-'
+"
 build
 -
 type
-'
+"
 :
 build_type
                 
-'
+"
 component
-'
+"
 :
 component
 [
-'
+"
 name
-'
+"
 ]
                 
 #
@@ -365,17 +364,17 @@ at
 25
 chars
                 
-'
+"
 treeherder
 -
 group
-'
+"
 :
 component
 [
-'
+"
 name
-'
+"
 ]
 [
 :
@@ -397,18 +396,18 @@ for
 build_type
 in
 (
-'
+"
 regular
-'
-'
+"
+"
 nightly
-'
-'
+"
+"
 beta
-'
-'
+"
+"
 release
-'
+"
 )
         
 if
@@ -416,9 +415,9 @@ if
             
 component
 [
-'
+"
 name
-'
+"
 ]
 not
 in
@@ -428,17 +427,17 @@ and
 (
 component
 [
-'
+"
 shouldPublish
-'
+"
 ]
 or
 build_type
 =
 =
-'
+"
 regular
-'
+"
 )
             
 and

@@ -7,11 +7,13 @@ os
 import
 time
 import
-os
-.
-path
-as
-path
+mozinstall
+import
+mozversion
+import
+pytest
+import
+requests
 from
 mozdownload
 import
@@ -21,24 +23,16 @@ from
 mozprofile
 import
 Profile
-import
-mozinstall
-import
-mozversion
-import
-pytest
-import
-requests
-from
-.
-tps
-import
-TPS
 from
 .
 gradlewbuild
 import
 GradlewBuild
+from
+.
+tps
+import
+TPS
 here
 =
 os
@@ -55,9 +49,9 @@ fixture
 (
 scope
 =
-'
+"
 session
-'
+"
 )
 def
 firefox
@@ -73,17 +67,16 @@ os
 .
 getenv
 (
-'
+"
 MOZREGRESSION_BINARY
-'
-                       
+"
 pytestconfig
 .
 getoption
 (
-'
+"
 firefox
-'
+"
 )
 )
     
@@ -103,9 +96,9 @@ cache
 .
 makedir
 (
-'
+"
 firefox
-'
+"
 )
 )
         
@@ -113,9 +106,9 @@ scraper
 =
 FactoryScraper
 (
-'
+"
 daily
-'
+"
 destination
 =
 cache_dir
@@ -137,9 +130,9 @@ tmpdir_factory
 .
 mktemp
 (
-'
+"
 firefox
-'
+"
 )
 )
         
@@ -164,9 +157,9 @@ mozinstall
 get_binary
 (
 install_dir
-'
+"
 firefox
-'
+"
 )
     
 version
@@ -182,9 +175,9 @@ if
 hasattr
 (
 pytestconfig
-'
+"
 _metadata
-'
+"
 )
 :
         
@@ -218,11 +211,11 @@ tmpdir
 .
 join
 (
-'
+"
 firefox
 .
 log
-'
+"
 )
 )
     
@@ -240,9 +233,9 @@ fixture
 (
 scope
 =
-'
+"
 session
-'
+"
 )
 def
 tps_addon
@@ -258,9 +251,9 @@ pytestconfig
 .
 getoption
 (
-'
+"
 tps
-'
+"
 )
     
 if
@@ -275,7 +268,9 @@ path
     
 task_url
 =
-'
+(
+        
+"
 https
 :
 /
@@ -300,10 +295,9 @@ v1
 /
 task
 /
-'
-\
-               
-'
+"
+        
+"
 gecko
 .
 v2
@@ -319,7 +313,9 @@ firefox
 addons
 .
 tps
-'
+"
+    
+)
     
 task_id
 =
@@ -336,9 +332,9 @@ json
 .
 get
 (
-'
+"
 taskId
-'
+"
 )
     
 cache_dir
@@ -351,12 +347,12 @@ cache
 .
 makedir
 (
-'
+"
 tps
 -
 {
 }
-'
+"
 .
 format
 (
@@ -367,7 +363,9 @@ task_id
     
 addon_url
 =
-'
+(
+        
+"
 https
 :
 /
@@ -392,10 +390,9 @@ v1
 /
 task
 /
-'
-\
-                
-'
+"
+        
+"
 {
 }
 /
@@ -406,11 +403,13 @@ public
 tps
 .
 xpi
-'
+"
 .
 format
 (
 task_id
+)
+    
 )
     
 scraper
@@ -444,9 +443,9 @@ monkeypatch
 .
 setenv
 (
-'
+"
 FXA_EMAIL
-'
+"
 fxa_account
 .
 email
@@ -456,9 +455,9 @@ monkeypatch
 .
 setenv
 (
-'
+"
 FXA_PASSWORD
-'
+"
 fxa_account
 .
 password
@@ -474,7 +473,7 @@ os
 .
 chdir
 (
-'
+"
 .
 .
 /
@@ -489,15 +488,15 @@ chdir
 /
 .
 .
-'
+"
 )
     
 resources
 =
 r
-'
+"
 resources
-'
+"
     
 resourcesDir
 =
@@ -525,11 +524,11 @@ path
 join
 (
 resourcesDir
-'
+"
 email
 .
 txt
-'
+"
 )
 "
 w
@@ -558,11 +557,11 @@ path
 join
 (
 resourcesDir
-'
+"
 password
 .
 txt
-'
+"
 )
 "
 w
@@ -593,11 +592,11 @@ os
 .
 chdir
 (
-'
+"
 .
 .
 /
-'
+"
 )
     
 currentDir
@@ -636,23 +635,22 @@ testsDir
     
 yield
 {
-'
+        
+"
 fx_account
-'
+"
 :
 {
-        
-'
+"
 username
-'
+"
 :
 fxa_account
 .
 email
-        
-'
+"
 password
-'
+"
 :
 fxa_account
 .
@@ -679,11 +677,11 @@ tmpdir
 .
 join
 (
-'
+"
 tps
 .
 log
-'
+"
 )
 )
     
@@ -713,17 +711,17 @@ preferences
 =
 {
         
-'
+"
 app
 .
 update
 .
 enabled
-'
+"
 :
 False
         
-'
+"
 browser
 .
 dom
@@ -733,41 +731,41 @@ window
 dump
 .
 enabled
-'
+"
 :
 True
         
-'
+"
 browser
 .
 onboarding
 .
 enabled
-'
+"
 :
 False
         
-'
+"
 browser
 .
 sessionstore
 .
 resume_from_crash
-'
+"
 :
 False
         
-'
+"
 browser
 .
 shell
 .
 checkDefaultBrowser
-'
+"
 :
 False
         
-'
+"
 browser
 .
 startup
@@ -775,47 +773,47 @@ startup
 homepage_override
 .
 mstone
-'
+"
 :
-'
+"
 ignore
-'
+"
         
-'
+"
 browser
 .
 startup
 .
 page
-'
+"
 :
 0
         
-'
+"
 browser
 .
 tabs
 .
 warnOnClose
-'
+"
 :
 False
         
-'
+"
 browser
 .
 warnOnQuit
-'
+"
 :
 False
         
-'
+"
 datareporting
 .
 policy
 .
 dataSubmissionEnabled
-'
+"
 :
 False
         
@@ -843,7 +841,7 @@ enabled
 :
 True
         
-'
+"
 engine
 .
 bookmarks
@@ -851,45 +849,45 @@ bookmarks
 repair
 .
 enabled
-'
+"
 :
 False
         
-'
+"
 extensions
 .
 autoDisableScopes
-'
+"
 :
 10
         
-'
+"
 extensions
 .
 experiments
 .
 enabled
-'
+"
 :
 True
         
-'
+"
 extensions
 .
 update
 .
 enabled
-'
+"
 :
 False
         
-'
+"
 extensions
 .
 update
 .
 notifyUser
-'
+"
 :
 False
         
@@ -906,7 +904,7 @@ instead
 of
 stage
         
-'
+"
 identity
 .
 fxaccounts
@@ -914,52 +912,52 @@ fxaccounts
 autoconfig
 .
 uri
-'
+"
 :
 fxa_urls
 [
-'
+"
 content
-'
+"
 ]
         
-'
+"
 testing
 .
 tps
 .
 skipPingValidation
-'
+"
 :
 True
         
-'
+"
 services
 .
 sync
 .
 firstSync
-'
+"
 :
-'
+"
 notReady
-'
+"
         
-'
+"
 services
 .
 sync
 .
 lastversion
-'
+"
 :
-'
+"
 1
 .
 0
-'
+"
         
-'
+"
 services
 .
 sync
@@ -969,13 +967,13 @@ log
 appender
 .
 console
-'
+"
 :
-'
+"
 Trace
-'
+"
         
-'
+"
 services
 .
 sync
@@ -985,13 +983,13 @@ log
 appender
 .
 dump
-'
+"
 :
-'
+"
 Trace
-'
+"
         
-'
+"
 services
 .
 sync
@@ -1003,13 +1001,13 @@ appender
 file
 .
 level
-'
+"
 :
-'
+"
 Trace
-'
+"
         
-'
+"
 services
 .
 sync
@@ -1021,11 +1019,11 @@ appender
 file
 .
 logOnSuccess
-'
+"
 :
 True
         
-'
+"
 services
 .
 sync
@@ -1033,13 +1031,13 @@ sync
 log
 .
 logger
-'
+"
 :
-'
+"
 Trace
-'
+"
         
-'
+"
 services
 .
 sync
@@ -1049,13 +1047,13 @@ log
 logger
 .
 engine
-'
+"
 :
-'
+"
 Trace
-'
+"
         
-'
+"
 services
 .
 sync
@@ -1063,36 +1061,36 @@ sync
 testing
 .
 tps
-'
+"
 :
 True
         
-'
+"
 testing
 .
 tps
 .
 logFile
-'
+"
 :
 tps_log
         
-'
+"
 toolkit
 .
 startup
 .
 max_resumed_crashes
-'
+"
 :
 -
 1
         
-'
+"
 tps
 .
 config
-'
+"
 :
 json
 .
@@ -1101,11 +1099,11 @@ dumps
 tps_config
 )
         
-'
+"
 tps
 .
 seconds_since_epoch
-'
+"
 :
 int
 (
@@ -1116,13 +1114,13 @@ time
 )
 )
         
-'
+"
 xpinstall
 .
 signatures
 .
 required
-'
+"
 :
 False
     
@@ -1194,11 +1192,11 @@ tmpdir
 .
 join
 (
-'
+"
 gradlewbuild
 .
 log
-'
+"
 )
 )
     
@@ -1226,9 +1224,9 @@ monkeypatch
 .
 setenv
 (
-'
+"
 FXA_EMAIL
-'
+"
 fxa_account
 .
 email
@@ -1238,9 +1236,9 @@ monkeypatch
 .
 setenv
 (
-'
+"
 FXA_PASSWORD
-'
+"
 fxa_account
 .
 password
@@ -1262,14 +1260,16 @@ parser
 .
 addoption
 (
-'
+        
+"
 -
 -
 firefox
-'
+"
+        
 help
 =
-'
+"
 path
 to
 firefox
@@ -1277,29 +1277,31 @@ binary
 (
 defaults
 to
-'
-                     
-'
+"
+"
 downloading
 latest
 nightly
 build
 )
-'
+"
+    
 )
     
 parser
 .
 addoption
 (
-'
+        
+"
 -
 -
 tps
-'
+"
+        
 help
 =
-'
+"
 path
 to
 tps
@@ -1309,15 +1311,15 @@ on
 (
 defaults
 to
-'
-                     
-'
+"
+"
 downloading
 latest
 nightly
 build
 )
-'
+"
+    
 )
 pytest
 .
@@ -1349,9 +1351,9 @@ extra
 getattr
 (
 report
-'
+"
 extra
-'
+"
 [
 ]
 )
@@ -1366,9 +1368,9 @@ pluginmanager
 .
 getplugin
 (
-'
+"
 html
-'
+"
 )
     
 profile
@@ -1378,9 +1380,9 @@ getattr
 item
 .
 config
-'
+"
 _profile
-'
+"
 None
 )
     
@@ -1424,12 +1426,12 @@ path
 join
 (
 profile
-'
+"
 weave
-'
-'
+"
+"
 logs
-'
+"
 )
 )
 :
@@ -1465,14 +1467,14 @@ io
 open
 (
 path
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf8
-'
+"
 )
 as
 f
@@ -1493,9 +1495,9 @@ f
 read
 (
 )
-'
+"
 Sync
-'
+"
 )
 )
                 
@@ -1506,15 +1508,15 @@ sections
 append
 (
 (
-'
+"
 Sync
-'
-'
+"
+"
 Log
 :
 {
 }
-'
+"
 .
 format
 (
@@ -1527,26 +1529,26 @@ for
 log
 in
 (
-'
+"
 Firefox
-'
-'
+"
+"
 TPS
-'
-'
+"
+"
 GradlewBuild
-'
+"
 )
 :
         
 attr
 =
-'
+"
 _
 {
 }
 _log
-'
+"
 .
 format
 (
@@ -1597,14 +1599,14 @@ io
 open
 (
 path
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf8
-'
+"
 )
 as
 f
@@ -1637,12 +1639,12 @@ append
 (
 (
 log
-'
+"
 Log
 :
 {
 }
-'
+"
 .
 format
 (

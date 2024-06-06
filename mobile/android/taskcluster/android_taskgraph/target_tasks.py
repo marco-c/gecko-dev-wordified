@@ -62,15 +62,21 @@ subprocess
 import
 CalledProcessError
 from
-redo
+android_taskgraph
+.
+release_type
 import
-retry
+does_task_match_release_type
 from
 mozilla_version
 .
 maven
 import
 MavenVersion
+from
+redo
+import
+retry
 from
 taskgraph
 .
@@ -94,12 +100,6 @@ util
 vcs
 import
 get_repository
-from
-android_taskgraph
-.
-release_type
-import
-does_task_match_release_type
 def
 index_exists
 (
@@ -473,11 +473,14 @@ _filter_release_promotion
 (
         
 full_task_graph
+        
 parameters
+        
 filtered_for_candidates
 =
 [
 ]
+        
 shipping_phase
 =
 "
@@ -572,6 +575,7 @@ ship
 def
 _filter_release_promotion
 (
+    
 full_task_graph
 parameters
 filtered_for_candidates
@@ -610,25 +614,25 @@ return
 True
         
 if
-(
-            
 task
 .
 attributes
 .
 get
 (
+            
 "
 shipping_phase
 "
+        
 )
 =
 =
 shipping_phase
-            
 and
 does_task_match_release_type
 (
+            
 task
 parameters
 [
@@ -636,7 +640,6 @@ parameters
 release_type
 "
 ]
-)
         
 )
 :
@@ -816,7 +819,6 @@ repo
 .
 run
 (
-        
 "
 show
 "
@@ -830,7 +832,6 @@ revision
 gecko_kt_path
 }
 "
-    
 )
     
 match
@@ -977,7 +978,6 @@ repo
 .
 run
 (
-            
 "
 merge
 -
@@ -992,7 +992,6 @@ ancestor
 "
 GECKO_KT_MOVED_REVISION
 revision
-        
 )
         
 return

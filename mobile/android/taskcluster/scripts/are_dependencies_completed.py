@@ -65,20 +65,21 @@ MPL
 import
 argparse
 import
-taskcluster
-import
 os
+import
+taskcluster
 queue
 =
 taskcluster
 .
 Queue
 (
-{
     
-'
+{
+        
+"
 rootUrl
-'
+"
 :
 os
 .
@@ -86,10 +87,10 @@ environ
 .
 get
 (
-'
+"
 TASKCLUSTER_PROXY_URL
-'
-'
+"
+"
 https
 :
 /
@@ -97,8 +98,9 @@ https
 taskcluster
 .
 net
-'
+"
 )
+    
 }
 )
 def
@@ -111,7 +113,7 @@ current_task_id
 print
 (
 f
-'
+"
 Fetching
 task
 definition
@@ -122,7 +124,7 @@ current_task_id
 .
 .
 .
-'
+"
 )
     
 task
@@ -138,15 +140,15 @@ dependencies_task_ids
 =
 task
 [
-'
+"
 dependencies
-'
+"
 ]
     
 print
 (
 f
-'
+"
 Fetching
 status
 of
@@ -160,7 +162,7 @@ dependencies
 .
 .
 .
-'
+"
 )
     
 #
@@ -190,14 +192,14 @@ status
 task_id
 )
 [
-'
+"
 status
-'
+"
 ]
 [
-'
+"
 state
-'
+"
 ]
         
 for
@@ -209,11 +211,11 @@ dependencies_task_ids
     
 print
 (
-'
+"
 Statuses
 fetched
 .
-'
+"
 )
     
 non_completed_tasks
@@ -238,9 +240,9 @@ if
 state
 !
 =
-'
+"
 completed
-'
+"
     
 }
     
@@ -252,7 +254,7 @@ raise
 ValueError
 (
 f
-'
+"
 Some
 tasks
 are
@@ -262,7 +264,7 @@ completed
 {
 non_completed_tasks
 }
-'
+"
 )
 def
 main
@@ -305,14 +307,15 @@ parser
 add_argument
 (
         
-'
+"
 current_task_id
-'
+"
+        
 metavar
 =
-'
+"
 CURRENT_TASK_ID
-'
+"
         
 help
 =
@@ -346,7 +349,7 @@ current_task_id
     
 print
 (
-'
+"
 All
 dependencies
 are
@@ -357,7 +360,7 @@ a
 green
 task
 !
-'
+"
 )
     
 exit

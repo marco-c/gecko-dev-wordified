@@ -56,6 +56,12 @@ MPL
 import
 datetime
 from
+mozilla_version
+.
+mobile
+import
+MobileVersion
+from
 taskgraph
 .
 transforms
@@ -72,19 +78,13 @@ schema
 import
 resolve_keyed_by
 from
-mozilla_version
-.
-mobile
-import
-MobileVersion
-from
 .
 .
 build_config
 import
-get_version
-get_path
 get_extensions
+get_path
+get_version
 transforms
 =
 TransformSequence
@@ -112,33 +112,33 @@ field
 in
 (
             
-'
+"
 attributes
 .
 code
 -
 review
-'
+"
             
-'
+"
 expose
 -
 artifacts
-'
+"
             
-'
+"
 include
 -
 coverage
-'
+"
             
-'
+"
 shipping
 -
 phase
-'
+"
             
-'
+"
 run
 -
 on
@@ -146,19 +146,19 @@ on
 tasks
 -
 for
-'
+"
             
-'
+"
 run
 .
 gradlew
-'
+"
             
-'
+"
 treeherder
 .
 symbol
-'
+"
         
 )
 :
@@ -167,7 +167,9 @@ resolve_keyed_by
 (
                 
 task
+                
 field
+                
 item_name
 =
 task
@@ -181,11 +183,11 @@ name
 *
 {
                     
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
@@ -201,9 +203,9 @@ type
 "
 ]
                     
-'
+"
 component
-'
+"
 :
 task
 [
@@ -245,34 +247,34 @@ task
 .
 pop
 (
-'
+"
 include
 -
 coverage
-'
+"
 False
 )
 :
             
 task
 [
-'
+"
 run
-'
+"
 ]
 [
-'
+"
 gradlew
-'
+"
 ]
 .
 insert
 (
 0
-'
+"
 -
 Pcoverage
-'
+"
 )
         
 yield
@@ -319,19 +321,19 @@ for
 field
 in
 (
-'
+"
 description
-'
-'
+"
+"
 run
 .
 gradlew
-'
-'
+"
+"
 treeherder
 .
 symbol
-'
+"
 )
 :
             
@@ -436,7 +438,7 @@ push_date_time
 .
 strftime
 (
-'
+"
 %
 Y
 %
@@ -452,7 +454,7 @@ M
 S
 -
 1
-'
+"
 )
 def
 _get_buildid
@@ -470,7 +472,7 @@ moz_build_date
 .
 strftime
 (
-'
+"
 %
 Y
 %
@@ -483,7 +485,7 @@ H
 M
 %
 S
-'
+"
 )
 def
 get_nightly_version
@@ -597,9 +599,9 @@ if
 build_type
 =
 =
-'
+"
 nightly
-'
+"
 :
         
 path_version
@@ -631,9 +633,9 @@ field
 .
 split
 (
-'
+"
 .
-'
+"
 )
     
 last_key
@@ -709,6 +711,7 @@ last_key
 ]
 =
 [
+            
 item
 .
 format
@@ -721,6 +724,7 @@ for
 item
 in
 object
+        
 ]
     
 else
@@ -730,7 +734,7 @@ raise
 ValueError
 (
 f
-'
+"
 Unsupported
 type
 for
@@ -739,7 +743,7 @@ object
 {
 object
 }
-'
+"
 )
 transforms
 .
@@ -787,6 +791,7 @@ dependencies
         
 dependencies
 [
+            
 "
 external
 -
@@ -794,6 +799,7 @@ gradle
 -
 dependencies
 "
+        
 ]
 =
 f
@@ -910,17 +916,20 @@ worker
 .
 setdefault
 (
+            
 "
 artifacts
 "
 [
 ]
+        
 )
         
 for
 key
 in
 [
+            
 "
 tests
 -
@@ -928,6 +937,7 @@ artifact
 -
 template
 "
+            
 "
 lint
 -
@@ -935,6 +945,7 @@ artifact
 -
 template
 "
+            
 "
 text
 -
@@ -942,6 +953,7 @@ artifact
 -
 template
 "
+            
 "
 jacoco
 -
@@ -949,6 +961,7 @@ coverage
 -
 template
 "
+        
 ]
 :
             
@@ -973,8 +986,9 @@ build_artifact_definitions
 .
 append
 (
+                    
 {
-                    
+                        
 "
 type
 "
@@ -985,7 +999,7 @@ optional_artifact_template
 type
 "
 ]
-                    
+                        
 "
 name
 "
@@ -996,7 +1010,7 @@ optional_artifact_template
 name
 "
 ]
-                    
+                        
 "
 path
 "
@@ -1010,17 +1024,18 @@ path
 .
 format
 (
-                        
+                            
 component_path
 =
 get_path
 (
 component
 )
-                    
+                        
 )
-                
+                    
 }
+                
 )
         
 if
@@ -1050,7 +1065,7 @@ artifact_file_names_per_extension
                 
 extension
 :
-'
+"
 {
 component
 }
@@ -1064,7 +1079,7 @@ timestamp
 {
 extension
 }
-'
+"
 .
 format
 (
@@ -1079,8 +1094,8 @@ version
                     
 timestamp
 =
-'
-'
+"
+"
                     
 extension
 =
@@ -1123,22 +1138,22 @@ graphs
 if
 task
 [
-'
+"
 attributes
-'
+"
 ]
 [
-'
+"
 build
 -
 type
-'
+"
 ]
 =
 =
-'
+"
 nightly
-'
+"
 :
                 
 for
@@ -1167,13 +1182,20 @@ path
 .
 replace
 (
+                            
 version
 nightly_version
+                        
 )
             
 for
+(
+                
 extension
+                
 artifact_file_name
+            
+)
 in
 artifact_file_names_per_extension
 .
@@ -1204,8 +1226,9 @@ build_artifact_definitions
 .
 append
 (
-{
                     
+{
+                        
 "
 type
 "
@@ -1216,13 +1239,13 @@ artifact_template
 type
 "
 ]
-                    
+                        
 "
 name
 "
 :
 artifact_full_name
-                    
+                        
 "
 path
 "
@@ -1236,22 +1259,23 @@ path
 .
 format
 (
-                        
+                            
 component_path
 =
 get_path
 (
 component
 )
-                        
+                            
 component
 =
 component
-                        
+                            
 version
 =
 craft_path_version
 (
+                                
 version
                                 
 task
@@ -1267,16 +1291,19 @@ build
 type
 "
 ]
+                                
 nightly_version
+                            
 )
-                        
+                            
 artifact_file_name
 =
 artifact_file_name
-                    
+                        
 )
-                
+                    
 }
+                
 )
                 
 artifacts

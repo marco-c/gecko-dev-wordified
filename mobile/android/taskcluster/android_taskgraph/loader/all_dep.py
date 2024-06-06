@@ -56,10 +56,6 @@ MPL
 import
 copy
 from
-voluptuous
-import
-Required
-from
 taskgraph
 .
 task
@@ -74,6 +70,10 @@ schema
 import
 Schema
 from
+voluptuous
+import
+Required
+from
 .
 import
 group_tasks
@@ -81,18 +81,19 @@ schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
-        
-'
+            
+"
 dependent
 -
 tasks
-'
-        
-'
+"
+            
+"
 dictionary
 of
 dependent
@@ -100,8 +101,8 @@ tasks
 keyed
 by
 kind
-'
-    
+"
+        
 )
 :
 {
@@ -109,6 +110,7 @@ str
 :
 Task
 }
+    
 }
 )
 def
@@ -223,11 +225,11 @@ config
 .
 get
 (
-'
+"
 task
 -
 template
-'
+"
 )
     
 for
@@ -243,11 +245,11 @@ loaded_tasks
 task
 =
 {
-'
+"
 dependent
 -
 tasks
-'
+"
 :
 {
 dep
