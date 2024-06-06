@@ -1297,6 +1297,18 @@ release_type
 release
 "
     
+elif
+version
+.
+is_release_candidate
+:
+        
+release_type
+=
+"
+release
+"
+    
 else
 :
         
