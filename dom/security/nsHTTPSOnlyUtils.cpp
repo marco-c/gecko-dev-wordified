@@ -2921,14 +2921,6 @@ httpsOnlyStatus
 nsILoadInfo
 :
 :
-HTTPS_ONLY_UPGRADED_HTTPS_FIRST
-|
-|
-httpsOnlyStatus
-&
-nsILoadInfo
-:
-:
 HTTPS_ONLY_EXEMPT
 )
 {
