@@ -4925,16 +4925,6 @@ UseDesktopZoomingScrollbars
 (
 )
 ;
-virtual
-bool
-SupportsHDR
-(
-)
-{
-return
-false
-;
-}
 protected
 :
 gfxPlatform
