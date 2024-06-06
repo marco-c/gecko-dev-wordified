@@ -1504,7 +1504,8 @@ await
 new
 Promise
 (
-resolve
+(
+)
 =
 >
 {

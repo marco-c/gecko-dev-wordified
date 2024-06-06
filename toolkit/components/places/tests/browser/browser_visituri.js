@@ -855,7 +855,8 @@ gBrowser
 selectedBrowser
 null
 async
-args
+(
+)
 =
 >
 {

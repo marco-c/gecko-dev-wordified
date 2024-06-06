@@ -512,7 +512,6 @@ filter
 (
 [
 prefix
-hostPort
 ]
 )
 =
