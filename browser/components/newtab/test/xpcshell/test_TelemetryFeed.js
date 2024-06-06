@@ -86,8 +86,6 @@ asrouter
 /
 ActorConstants
 .
-sys
-.
 mjs
 "
 )
