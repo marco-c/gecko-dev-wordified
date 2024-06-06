@@ -216,7 +216,7 @@ ipc
 :
 :
 IPCResult
-RecvDisableRendering
+RecvCleanupResources
 (
 )
 override
@@ -228,7 +228,7 @@ ipc
 :
 :
 IPCResult
-RecvEnableRendering
+RecvSetRenderingSurface
 (
 const
 uintptr_t

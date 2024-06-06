@@ -190,7 +190,7 @@ nullptr
 ;
 virtual
 void
-DisableRendering
+CleanupResources
 (
 )
 =
@@ -198,7 +198,7 @@ DisableRendering
 ;
 virtual
 void
-EnableRendering
+SetRenderingSurface
 (
 const
 uintptr_t
@@ -413,7 +413,7 @@ hidden
 unmapped
 .
 void
-DisableRendering
+CleanupResources
 (
 )
 override
@@ -436,7 +436,7 @@ Wayland
 )
 .
 void
-EnableRendering
+SetRenderingSurface
 (
 const
 uintptr_t
