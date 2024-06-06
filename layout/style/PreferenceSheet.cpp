@@ -1496,6 +1496,10 @@ XP_WIN
 if
 (
 mUseAccessibilityTheme
+&
+&
+!
+mUseDocumentColors
 )
 {
 /
