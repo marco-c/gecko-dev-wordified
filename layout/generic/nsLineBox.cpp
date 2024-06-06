@@ -1665,7 +1665,7 @@ not
 -
 wrapped
 "
-HasForcedLineBreak
+HasForcedLineBreakAfter
 (
 )
 ?
@@ -1673,6 +1673,8 @@ HasForcedLineBreak
 forced
 -
 break
+-
+after
 "
 :
 "
