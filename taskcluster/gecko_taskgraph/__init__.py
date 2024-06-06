@@ -389,6 +389,9 @@ object
 "
 "
     
+import
+android_taskgraph
+    
 from
 taskgraph
 import
@@ -417,6 +420,13 @@ registration
         
 target_tasks
     
+)
+    
+android_taskgraph
+.
+register
+(
+graph_config
 )
     
 from
