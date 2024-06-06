@@ -320,7 +320,7 @@ OptimizeGetIteratorFuse
 final
 :
 public
-RealmFuse
+InvalidatingRealmFuse
 {
 virtual
 const
