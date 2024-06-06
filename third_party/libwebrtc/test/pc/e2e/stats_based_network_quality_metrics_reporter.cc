@@ -2222,7 +2222,7 @@ stat
 >
 bytes_received
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -2232,7 +2232,7 @@ stat
 >
 header_bytes_received
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -2277,7 +2277,7 @@ stat
 >
 bytes_sent
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -2287,7 +2287,7 @@ stat
 >
 header_bytes_sent
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -2332,7 +2332,7 @@ stat
 >
 bytes_received
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -2353,7 +2353,7 @@ stat
 >
 bytes_sent
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -2369,7 +2369,7 @@ stat
 >
 packets_received
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -2384,7 +2384,7 @@ stat
 >
 packets_sent
 .
-ValueOrDefault
+value_or
 (
 0ul
 )

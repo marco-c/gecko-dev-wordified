@@ -594,7 +594,7 @@ s
 >
 retransmitted_bytes_sent
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -615,7 +615,7 @@ s
 >
 bytes_sent
 .
-ValueOrDefault
+value_or
 (
 0ul
 )
@@ -636,7 +636,7 @@ s
 >
 header_bytes_sent
 .
-ValueOrDefault
+value_or
 (
 0ul
 )

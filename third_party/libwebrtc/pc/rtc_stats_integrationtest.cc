@@ -4874,7 +4874,7 @@ inbound_stream
 .
 frames_received
 .
-ValueOrDefault
+value_or
 (
 0
 )
