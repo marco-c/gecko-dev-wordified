@@ -149,7 +149,7 @@ const
 HAR_EXAMPLE_URL
 =
 "
-http
+https
 :
 /
 /
