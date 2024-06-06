@@ -645,6 +645,14 @@ aSamples
 )
 ;
 void
+AccumulateSingleSample
+(
+const
+int64_t
+aSample
+)
+;
+void
 TestGetValue
 (
 const

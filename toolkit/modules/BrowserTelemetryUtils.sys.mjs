@@ -451,11 +451,9 @@ geckoview
 .
 documentSiteOrigins
 .
-accumulateSamples
+accumulateSingleSample
 (
-[
 originCount
-]
 )
 ;
 }
