@@ -2728,6 +2728,14 @@ nsACString
 hostLine
 )
 ;
+static
+uint8_t
+UrgencyFromCoSFlags
+(
+uint32_t
+cos
+)
+;
 SpdyInformation
 *
 SpdyInfo

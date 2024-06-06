@@ -358,13 +358,6 @@ StartRequest
 )
 ;
 void
-SetPriority
-(
-uint32_t
-aCos
-)
-;
-void
 SetIncremental
 (
 bool
