@@ -131,6 +131,11 @@ tasks
 -
 for
 "
+"
+signing
+-
+format
+"
 )
 :
             
@@ -466,6 +471,16 @@ android
 test
 -
 nightly
+"
+"
+beta
+-
+mozillaonline
+"
+"
+release
+-
+mozillaonline
 "
 )
 :
