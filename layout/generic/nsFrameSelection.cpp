@@ -9664,8 +9664,11 @@ flag
 is
 set
 to
-false
+NotApplicable
 in
+Selection
+:
+:
 NotifySelectionListeners
 .
 /
@@ -9693,11 +9696,11 @@ useless
 .
 AutoRestore
 <
-bool
+ClickSelectionType
 >
-restoreIsDoubleClickSelectionFlag
+restoreClickSelectionType
 (
-mIsDoubleClickSelection
+mClickSelectionType
 )
 ;
 /
