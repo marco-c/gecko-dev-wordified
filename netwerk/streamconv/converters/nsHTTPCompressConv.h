@@ -461,6 +461,12 @@ false
 bool
 mFailUncleanStops
 ;
+bool
+mDispatchToMainThread
+{
+false
+}
+;
 z_stream
 d_stream
 {
