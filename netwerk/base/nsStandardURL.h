@@ -1314,13 +1314,6 @@ nsCString
 result
 )
 ;
-static
-nsIIDNService
-*
-GetIDNService
-(
-)
-;
 protected
 :
 /
