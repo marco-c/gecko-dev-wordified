@@ -286,23 +286,6 @@ index
 1
 }
     
-CHROMIUM
-=
-{
-"
-value
-"
-:
-"
-chromium
-"
-"
-index
-"
-:
-2
-}
-    
 GECKOVIEW
 =
 {
@@ -317,7 +300,7 @@ geckoview
 index
 "
 :
-3
+2
 }
     
 FENIX
@@ -334,7 +317,7 @@ fenix
 index
 "
 :
-4
+3
 }
     
 CHROME_M
@@ -353,7 +336,7 @@ m
 index
 "
 :
-5
+4
 }
     
 SAFARI
@@ -370,7 +353,7 @@ safari
 index
 "
 :
-6
+5
 }
     
 CHROMIUM_RELEASE
@@ -389,7 +372,7 @@ car
 index
 "
 :
-7
+6
 }
     
 CHROMIUM_RELEASE_M
@@ -410,7 +393,7 @@ m
 index
 "
 :
-8
+7
 }
 class
 Suites
@@ -1061,52 +1044,6 @@ value
             
 Apps
 .
-CHROMIUM
-.
-value
-:
-{
-                
-"
-query
-"
-:
-"
-'
-chromium
-"
-                
-"
-negation
-"
-:
-"
-!
-chrom
-"
-                
-"
-restriction
-"
-:
-check_for_chrome
-                
-"
-platforms
-"
-:
-[
-Platforms
-.
-DESKTOP
-.
-value
-]
-            
-}
-            
-Apps
-.
 GECKOVIEW
 .
 value
@@ -1586,12 +1523,6 @@ value
 Apps
 .
 CHROME
-.
-value
-                    
-Apps
-.
-CHROMIUM
 .
 value
                     
@@ -2399,12 +2330,6 @@ value
                         
 Apps
 .
-CHROMIUM
-.
-value
-                        
-Apps
-.
 FENIX
 .
 value
@@ -3152,12 +3077,6 @@ value
 Apps
 .
 CHROME
-.
-value
-                        
-Apps
-.
-CHROMIUM
 .
 value
                         

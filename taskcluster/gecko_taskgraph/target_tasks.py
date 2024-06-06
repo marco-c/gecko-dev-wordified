@@ -5802,35 +5802,6 @@ False
 return
 True
                 
-if
-"
-chromium
-"
-in
-try_name
-:
-                    
-if
-"
-tp6
-"
-in
-try_name
-and
-"
-essential
-"
-not
-in
-try_name
-:
-                        
-return
-False
-                    
-return
-True
-                
 #
 chromium
 -
@@ -5838,9 +5809,7 @@ as
 -
 release
 has
-it
-'
-s
+its
 own
 cron
                 

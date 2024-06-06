@@ -3114,10 +3114,6 @@ chrome
 "
         
 "
-chromium
-"
-        
-"
 custom
 -
 car

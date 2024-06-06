@@ -193,10 +193,6 @@ chrome
 "
             
 "
-chromium
-"
-            
-"
 custom
 -
 car

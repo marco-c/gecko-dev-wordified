@@ -68,7 +68,6 @@ add_logging_group
 (
 FIREFOX
 CHROME
-CHROMIUM
 SAFARI
 CHROMIUM_RELEASE
 )
@@ -83,10 +82,6 @@ firefox
     
 "
 chrome
-"
-    
-"
-chromium
 "
     
 "
@@ -155,7 +150,7 @@ CHROMIUM_DISTROS
 =
 [
 CHROME
-CHROMIUM
+CHROMIUM_RELEASE
 ]
 APPS
 =
@@ -184,20 +179,6 @@ long_name
 "
 Google
 Chrome
-Desktop
-"
-}
-    
-CHROMIUM
-:
-{
-"
-long_name
-"
-:
-"
-Google
-Chromium
 Desktop
 "
 }
@@ -507,7 +488,6 @@ TRACE_APPS
 =
 (
 CHROME
-CHROMIUM
 CHROMIUM_RELEASE
 )
 APP_BINARIES

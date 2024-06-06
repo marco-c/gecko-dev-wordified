@@ -625,14 +625,6 @@ ChR
 "
         
 "
-chromium
-"
-:
-"
-Cr
-"
-        
-"
 fenix
 "
 :

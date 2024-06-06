@@ -1627,10 +1627,6 @@ chrome
 "
             
 "
-chromium
-"
-            
-"
 refbrow
 "
             

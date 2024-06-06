@@ -1222,10 +1222,6 @@ m
 "
                         
 "
-chromium
-"
-                        
-"
 fennec
 "
                         
@@ -5961,7 +5957,6 @@ win
 "
         
 chrome
-chromium
 chromium_release
 chromium_release_android
 =
@@ -5969,10 +5964,6 @@ chromium_release_android
             
 "
 chrome
-"
-            
-"
-chromium
 "
             
 "
@@ -5997,8 +5988,6 @@ available_chromium_dists
             
 chrome
             
-chromium
-            
 chromium_release
             
 chromium_release_android
@@ -6008,64 +5997,6 @@ chromium_release_android
 binary_location
 =
 {
-            
-chromium
-:
-{
-                
-linux
-:
-[
-"
-chrome
--
-linux
-"
-"
-chrome
-"
-]
-                
-mac
-:
-[
-"
-chrome
--
-mac
-"
-"
-Chromium
-.
-app
-"
-"
-Contents
-"
-"
-MacOS
-"
-"
-Chromium
-"
-]
-                
-win
-:
-[
-"
-chrome
--
-win
-"
-"
-Chrome
-.
-exe
-"
-]
-            
-}
             
 chromium_release
 :
