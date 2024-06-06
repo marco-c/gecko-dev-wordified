@@ -1477,6 +1477,20 @@ treeherder
 symbol
 "
 ]
+=
+(
+            
+task
+[
+"
+treeherder
+"
+]
+[
+"
+symbol
+"
+]
 .
 replace
 (
@@ -1488,6 +1502,8 @@ Btime
 -
 nofis
 "
+)
+        
 )
         
 task
