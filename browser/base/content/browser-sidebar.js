@@ -1827,6 +1827,7 @@ menuitem
 this
 .
 _switcherPanel
+?
 .
 querySelector
 (
