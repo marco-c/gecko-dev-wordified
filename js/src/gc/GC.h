@@ -612,6 +612,15 @@ systemPageSizeKB
 JSGC_SYSTEM_PAGE_SIZE_KB
 false
 )
+\
+_
+(
+"
+semispaceNurseryEnabled
+"
+JSGC_SEMISPACE_NURSERY_ENABLED
+true
+)
 /
 /
 Get
