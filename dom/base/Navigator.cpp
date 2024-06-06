@@ -1204,6 +1204,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mXRSystem
 )
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mClipboard
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 void
 Navigator
@@ -1512,6 +1516,10 @@ mSharePromise
 nullptr
 ;
 mWakeLock
+=
+nullptr
+;
+mClipboard
 =
 nullptr
 ;
