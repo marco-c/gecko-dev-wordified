@@ -495,12 +495,6 @@ bucket_scope
 "
 project
 :
-mobile
-:
-firefox
--
-android
-:
 releng
 :
 beetmover
