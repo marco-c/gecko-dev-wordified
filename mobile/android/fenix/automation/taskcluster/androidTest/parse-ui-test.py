@@ -475,7 +475,7 @@ webLink
 )
 |
 {
-testAxises
+axes
 [
 0
 ]
