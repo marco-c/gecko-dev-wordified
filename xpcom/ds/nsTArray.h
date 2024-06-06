@@ -17804,10 +17804,14 @@ std
 :
 sort
 (
-begin
+Elements
 (
 )
-end
+Elements
+(
+)
++
+Length
 (
 )
 [
