@@ -212,6 +212,9 @@ linePos
 msg
 .
 offset
+msg
+.
+length
 std
 :
 :
