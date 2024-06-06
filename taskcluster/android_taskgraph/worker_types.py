@@ -54,7 +54,7 @@ MPL
 /
 .
 from
-taskgraph
+gecko_taskgraph
 .
 transforms
 .
