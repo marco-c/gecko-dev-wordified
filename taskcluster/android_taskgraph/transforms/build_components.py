@@ -126,19 +126,17 @@ coverage
 "
             
 "
-shipping
--
-phase
-"
-            
-"
 run
 -
 on
 -
-tasks
+projects
+"
+            
+"
+shipping
 -
-for
+phase
 "
             
 "
