@@ -6894,6 +6894,14 @@ SessionType
 PersistentLicense
 )
 ;
+aCapabilitiesOut
+.
+isHardwareDecryption
+(
+)
+=
+isHardwareDecryption
+;
 }
 mozilla
 :
