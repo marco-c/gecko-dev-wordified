@@ -115,6 +115,21 @@ using
 gradlew
 "
         
+Optional
+(
+"
+pre
+-
+gradlew
+"
+)
+:
+[
+[
+text_type
+]
+]
+        
 Required
 (
 "
@@ -442,21 +457,18 @@ run
     
 pre_gradle_commands
 =
-[
-[
-"
-taskcluster
-/
-scripts
-/
-install
--
-sdk
+run
 .
-sh
+pop
+(
 "
+pre
+-
+gradlew
+"
+[
 ]
-]
+)
     
 pre_gradle_commands
 +
