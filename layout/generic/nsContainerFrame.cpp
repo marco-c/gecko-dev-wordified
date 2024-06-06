@@ -5844,14 +5844,6 @@ ISize
 aWM
 )
 ;
-/
-/
-replaced
-elements
-always
-shrink
--
-wrap
 if
 (
 aFlags
@@ -5862,11 +5854,6 @@ ComputeSizeFlag
 :
 :
 ShrinkWrap
-)
-|
-|
-IsReplaced
-(
 )
 )
 {
