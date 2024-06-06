@@ -5445,7 +5445,7 @@ std
 :
 :
 string
-redFmtp
+red_fmtp
 =
 rtc
 :
@@ -5481,7 +5481,7 @@ kRedCodecName
 {
 "
 "
-redFmtp
+red_fmtp
 }
 }
 }
@@ -8959,6 +8959,9 @@ mid
 }
 if
 (
+send_codec_spec_
+&
+&
 !
 SetMaxSendBitrate
 (
@@ -9572,8 +9575,18 @@ if
 send_codec_spec
 )
 {
+/
+/
+No
+codecs
+in
+common
+bail
+out
+early
+.
 return
-false
+true
 ;
 }
 RTC_DCHECK
