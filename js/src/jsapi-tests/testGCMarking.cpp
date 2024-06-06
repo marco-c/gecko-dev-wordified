@@ -2593,6 +2593,14 @@ can
 use
 them
 .
+AutoGCParameter
+disableSemispace
+(
+cx
+JSGC_SEMISPACE_NURSERY_ENABLED
+0
+)
+;
 cx
 -
 >
