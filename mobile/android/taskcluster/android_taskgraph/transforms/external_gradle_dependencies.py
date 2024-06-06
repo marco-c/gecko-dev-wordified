@@ -322,25 +322,6 @@ project_subdir
 app
 "
     
-elif
-gradle_project
-=
-=
-"
-service
--
-telemetry
-"
-:
-        
-project_subdir
-=
-"
-service
--
-telemetry
-"
-    
 else
 :
         
@@ -525,11 +506,6 @@ in
 (
 "
 focus
-"
-"
-service
--
-telemetry
 "
 )
 :
