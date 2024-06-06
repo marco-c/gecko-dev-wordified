@@ -8199,6 +8199,10 @@ rowFrame
 >
 DidResize
 (
+ForceAlignTopForTableCell
+:
+:
+Yes
 )
 ;
 if
