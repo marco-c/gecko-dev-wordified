@@ -310,6 +310,7 @@ craft_assemble_release_task
 (
 self
 variant
+channel
 is_staging
 version_name
 )
@@ -351,9 +352,7 @@ fenix
 .
 format
 (
-variant
-.
-build_type
+channel
 )
         
 pre_gradle_commands
