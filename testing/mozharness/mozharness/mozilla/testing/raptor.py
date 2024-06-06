@@ -7539,17 +7539,32 @@ in
 option
 :
                     
-kw_option
-value
+eq_index
 =
 option
 .
-split
+find
 (
 "
 =
 "
 )
+                    
+kw_option
+value
+=
+option
+[
+:
+eq_index
+]
+option
+[
+eq_index
++
+1
+:
+]
                     
 kw_options
 [
