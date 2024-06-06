@@ -78466,10 +78466,10 @@ childHint
 ServoRestyleState
 :
 :
-Type
+CanUseHandledHints
 :
 :
-InFlow
+Yes
 )
 ;
 aChildFrame
