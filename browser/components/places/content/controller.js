@@ -2368,7 +2368,12 @@ n
 >
 n
 .
-guid
+bookmarkGuid
+?
+?
+n
+.
+pageGuid
 ?
 ?
 n
