@@ -293,10 +293,10 @@ a
 breakout
 angle
 of
-45
+30
 (
 bug
-1226655
+1885506
 )
 pref
 (
@@ -310,7 +310,7 @@ breakout_angle
 "
 0
 .
-7853982
+5235988
 "
 )
 ;
