@@ -157,8 +157,6 @@ task
 "
 treeherder
 .
-job
--
 symbol
 "
             
@@ -369,8 +367,6 @@ treeherder
 pop
 (
 "
-job
--
 symbol
 "
 )

@@ -115,8 +115,6 @@ in
 "
 treeherder
 .
-job
--
 symbol
 "
             

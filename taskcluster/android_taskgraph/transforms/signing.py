@@ -123,8 +123,6 @@ type
 "
 treeherder
 .
-job
--
 symbol
 "
         
