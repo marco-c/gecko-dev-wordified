@@ -1474,6 +1474,14 @@ artifacts
 /
 public
 /
+build
+/
+armeabi
+-
+v7a
+/
+geckoNightly
+/
 target
 .
 apk
