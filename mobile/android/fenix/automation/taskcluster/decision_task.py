@@ -1175,15 +1175,13 @@ sign
 for
 production
         
-index_channel
+is_staging
 =
-'
-nightly
-'
+is_staging
         
-is_staging
+publish_to_index
 =
-is_staging
+False
     
 )
     
