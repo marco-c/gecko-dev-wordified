@@ -132,7 +132,7 @@ test_with_rs_messages
 /
 Force
 the
-WNPanel
+cfr
 provider
 cache
 to
@@ -163,11 +163,7 @@ asrouter
 .
 providers
 .
-whats
--
-new
--
-panel
+cfr
 "
 {
 "

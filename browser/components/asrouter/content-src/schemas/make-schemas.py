@@ -641,28 +641,6 @@ json
 "
             
 )
-            
-"
-WhatsNewMessage
-"
-:
-(
-                
-SCHEMA_DIR
-/
-"
-OnboardingMessage
-"
-/
-"
-WhatsNewMessage
-.
-schema
-.
-json
-"
-            
-)
         
 }
         

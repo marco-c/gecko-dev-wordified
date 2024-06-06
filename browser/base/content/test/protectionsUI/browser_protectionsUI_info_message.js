@@ -382,9 +382,7 @@ document
 getElementById
 (
 "
-messaging
--
-system
+info
 -
 message
 -
@@ -417,9 +415,7 @@ querySelector
 (
 "
 #
-messaging
--
-system
+info
 -
 message
 -
