@@ -256,6 +256,9 @@ worker_types
 "
 release_promotion
 "
+"
+morph
+"
 ]
 )
 def
