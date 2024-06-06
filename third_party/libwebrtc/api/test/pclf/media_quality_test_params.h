@@ -1106,6 +1106,12 @@ video_encoder_bitrate_multiplier
 .
 0
 ;
+PeerConnectionFactoryInterface
+:
+:
+Options
+peer_connection_factory_options
+;
 PeerConnectionInterface
 :
 :

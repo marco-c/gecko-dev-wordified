@@ -1471,6 +1471,17 @@ path
 ;
 PeerConfigurer
 *
+SetPCFOptions
+(
+PeerConnectionFactoryInterface
+:
+:
+Options
+options
+)
+;
+PeerConfigurer
+*
 SetRTCConfiguration
 (
 PeerConnectionInterface
