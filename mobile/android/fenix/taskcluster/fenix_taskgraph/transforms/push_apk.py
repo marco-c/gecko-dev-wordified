@@ -130,6 +130,11 @@ channel
 "
 worker
 .
+commit
+"
+"
+worker
+.
 dep
 "
 )
@@ -261,6 +266,22 @@ channel
         
 )
         
+build_type
+=
+task
+[
+"
+attributes
+"
+]
+[
+"
+build
+-
+type
+"
+]
+        
 #
 Fenix
 production
@@ -279,19 +300,7 @@ channel
 }
         
 if
-task
-[
-"
-attributes
-"
-]
-[
-"
-build
--
-type
-"
-]
+build_type
 =
 =
 "
@@ -314,31 +323,21 @@ fenix
         
 #
 Neither
-does
+do
 Fennec
-nightly
+flavored
+builds
         
 elif
-task
-[
-"
-attributes
-"
-]
-[
-"
-build
--
-type
-"
-]
-=
-=
+build_type
+.
+startswith
+(
 "
 fennec
 -
-nightly
 "
+)
 :
             
 worker_definition
@@ -350,11 +349,7 @@ alias
 "
 ]
 =
-"
-fennec
--
-nightly
-"
+build_type
         
 task
 [
