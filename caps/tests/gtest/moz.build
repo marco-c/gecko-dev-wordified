@@ -119,6 +119,11 @@ TestRedirectChainURITruncation
 .
 cpp
 "
+"
+TestScriptSecurityManager
+.
+cpp
+"
 ]
 include
 (
