@@ -5669,8 +5669,11 @@ move
 (
 frame_transformer
 )
-&
 encoder_queue_
+.
+Get
+(
+)
 )
 ;
 frame_transformer_delegate_
