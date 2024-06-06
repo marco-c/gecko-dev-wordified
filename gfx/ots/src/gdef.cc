@@ -1449,7 +1449,7 @@ i
 )
 ;
 }
-uint16_t
+size_t
 absolute_offset
 =
 lig_glyphs
