@@ -295,11 +295,6 @@ ContentParent
 h
 "
 "
-ContentParent_NotifyUpdatedDictionaries
-.
-h
-"
-"
 ContentProcess
 .
 h
