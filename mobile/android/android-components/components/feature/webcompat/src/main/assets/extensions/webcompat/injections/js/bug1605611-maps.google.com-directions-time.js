@@ -159,8 +159,6 @@ dialog
 ]
 [
 disabled
-=
-true
 ]
 "
 ;
