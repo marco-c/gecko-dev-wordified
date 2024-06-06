@@ -227,11 +227,6 @@ is_staging
 )
 :
     
-tasks
-=
-[
-]
-    
 mozharness_task_id
 =
 fetch_mozharness_task_id
@@ -244,6 +239,33 @@ taskcluster
 .
 Queue
 (
+{
+      
+'
+rootUrl
+'
+:
+os
+.
+environ
+.
+get
+(
+'
+TASKCLUSTER_PROXY_URL
+'
+'
+https
+:
+/
+/
+taskcluster
+.
+net
+'
+)
+    
+}
 )
 .
 task
@@ -287,13 +309,6 @@ craft_assemble_raptor_task
 variant
 )
     
-tasks
-.
-append
-(
-build_task
-)
-    
 signing_task
 =
 builder
@@ -311,11 +326,11 @@ is_staging
 )
     
 tasks
-.
-append
-(
+=
+[
+build_task
 signing_task
-)
+]
     
 for
 abi
@@ -386,7 +401,12 @@ raptor_task
 craft_function
 (
                 
-signing_task_id
+signing_task
+[
+'
+label
+'
+]
 mozharness_task_id
 variant_apk
 gecko_revision

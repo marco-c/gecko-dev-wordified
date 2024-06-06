@@ -64,6 +64,8 @@ datetime
 import
 json
 import
+os
+import
 taskcluster
 from
 .
@@ -3893,7 +3895,7 @@ for_suite
 def
 craft_function
 (
-signing_task_id
+signing_task_label
 mozharness_task_id
 variant_apk
 gecko_revision
@@ -3910,7 +3912,7 @@ self
 _craft_raptor_task
 (
                 
-signing_task_id
+signing_task_label
                 
 mozharness_task_id
                 
@@ -3994,7 +3996,7 @@ def
 craft_raptor_youtube_playback_task
 (
 self
-signing_task_id
+signing_task_label
 mozharness_task_id
 variant_apk
 gecko_revision
@@ -4012,7 +4014,7 @@ self
 _craft_raptor_task
 (
             
-signing_task_id
+signing_task_label
             
 mozharness_task_id
             
@@ -4074,7 +4076,7 @@ _craft_raptor_task
         
 self
         
-signing_task_id
+signing_task_label
         
 mozharness_task_id
         
@@ -4262,6 +4264,8 @@ task_name
 '
 {
 }
+{
+}
 :
 forPerformanceTest
 {
@@ -4272,6 +4276,9 @@ format
 (
             
 name_prefix
+variant_apk
+.
+abi
 '
 (
 on
@@ -4296,8 +4303,9 @@ apk_url
 {
 }
 /
-{
-}
+<
+signing
+>
 /
 artifacts
 /
@@ -4308,7 +4316,6 @@ artifacts
 format
 (
 _DEFAULT_TASK_URL
-signing_task_id
 variant_apk
 .
 taskcluster_path
@@ -4528,9 +4535,13 @@ autophone
             
 dependencies
 =
-[
-signing_task_id
-]
+{
+'
+signing
+'
+:
+signing_task_label
+}
             
 name
 =
@@ -4700,6 +4711,13 @@ env
 EXTRA_MOZHARNESS_CONFIG
 "
 :
+{
+'
+task
+-
+reference
+'
+:
 json
 .
 dumps
@@ -4748,6 +4766,7 @@ apk_url
                     
 }
 )
+}
                     
 "
 GECKO_HEAD_REPOSITORY
@@ -4872,7 +4891,15 @@ mozharness_task_id
 MOZILLA_BUILD_URL
 "
 :
+{
+'
+task
+-
+reference
+'
+:
 apk_url
+}
                     
 "
 NEED_XVFB
@@ -5425,6 +5452,33 @@ taskcluster
 .
 Index
 (
+{
+      
+'
+rootUrl
+'
+:
+os
+.
+environ
+.
+get
+(
+'
+TASKCLUSTER_PROXY_URL
+'
+'
+https
+:
+/
+/
+taskcluster
+.
+net
+'
+)
+    
+}
 )
 .
 findTask
