@@ -177,6 +177,10 @@ craft_lint_task
 builder
 .
 craft_compare_locales_task
+        
+builder
+.
+craft_ui_tests_task
     
 )
 :
@@ -217,30 +221,28 @@ tasks
 def
 push
 (
-builder
 )
 :
     
-all_tasks
-=
-pr
-(
-builder
-)
-    
-all_tasks
+#
+We
+want
+the
+same
+tasks
+on
+pushes
+than
+on
+PRs
+for
+now
 .
-append
-(
-builder
-.
-craft_ui_tests_task
-(
-)
-)
     
 return
-all_tasks
+pr
+(
+)
 def
 raptor
 (
