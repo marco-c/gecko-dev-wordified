@@ -5623,7 +5623,7 @@ depth
 gfxVars
 :
 :
-ScreenDepth
+PrimaryScreenDepth
 (
 )
 ;

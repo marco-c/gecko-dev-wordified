@@ -495,7 +495,7 @@ false
 \
 _
 (
-ScreenDepth
+PrimaryScreenDepth
 int32_t
 0
 )
