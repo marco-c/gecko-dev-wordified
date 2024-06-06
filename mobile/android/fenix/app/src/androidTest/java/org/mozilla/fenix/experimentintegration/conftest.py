@@ -59,14 +59,14 @@ import
 logging
 import
 os
-from
-pathlib
-import
-Path
 import
 subprocess
 import
 time
+from
+pathlib
+import
+Path
 import
 pytest
 import
@@ -908,7 +908,6 @@ _
         
 command
 =
-f
 "
 nimbus
 -
