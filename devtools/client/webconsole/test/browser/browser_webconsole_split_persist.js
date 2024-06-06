@@ -630,7 +630,9 @@ devtools
 .
 toolbox
 .
-splitconsoleEnabled
+splitconsole
+.
+open
 "
 )
 ;
