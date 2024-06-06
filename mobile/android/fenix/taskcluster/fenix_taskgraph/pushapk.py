@@ -132,28 +132,6 @@ production
 production
 '
 }
-_GOOGLE_PLAY_TRACK_PER_TASK_NAME
-=
-{
-    
-'
-nightly
-'
-:
-'
-internal
-'
-    
-'
-nightly
--
-legacy
-'
-:
-'
-nightly
-'
-}
 transforms
 .
 add
@@ -549,12 +527,14 @@ channel
 )
         
 if
-_GOOGLE_PLAY_TRACK_PER_TASK_NAME
-.
-get
-(
 task_name
-)
+=
+=
+'
+nightly
+-
+legacy
+'
 :
             
 worker_definition
@@ -568,10 +548,9 @@ track
 "
 ]
 =
-_GOOGLE_PLAY_TRACK_PER_TASK_NAME
-[
-task_name
-]
+'
+nightly
+'
         
 task
 [
