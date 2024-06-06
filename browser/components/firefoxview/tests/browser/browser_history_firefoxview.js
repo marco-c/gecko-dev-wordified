@@ -448,6 +448,8 @@ waitForCondition
 .
 historyComponent
 .
+controller
+.
 allHistoryItems
 .
 values
@@ -485,6 +487,8 @@ let
 expected
 =
 historyComponent
+.
+controller
 .
 historyMapByDate
 .
@@ -1429,6 +1433,8 @@ let
 expectedNumOfCards
 =
 historyComponent
+.
+controller
 .
 historyMapBySite
 .
@@ -3184,6 +3190,8 @@ length
 =
 historyComponent
 .
+controller
+.
 historyMapByDate
 .
 length
@@ -3391,6 +3399,8 @@ length
 =
 historyComponent
 .
+controller
+.
 historyMapByDate
 .
 length
@@ -3487,6 +3497,8 @@ waitForCondition
 .
 .
 historyComponent
+.
+controller
 .
 allHistoryItems
 .
