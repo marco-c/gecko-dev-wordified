@@ -18966,9 +18966,9 @@ lists
 to
 ensure
 that
+/
+/
 subsequent
-/
-/
 allocations
 refill
 them
@@ -18980,9 +18980,9 @@ new
 cells
 black
 .
+/
+/
 See
-/
-/
 arenaAllocatedDuringGC
 (
 )
