@@ -371,16 +371,6 @@ gradle_build_type
                 
 (
 '
-leanplum
-'
-'
-.
-leanplum_token
-'
-)
-                
-(
-'
 sentry_dsn
 '
 '
@@ -451,24 +441,6 @@ faketoken
 adjust_token
 "
 )
-                
-(
-"
-fake
-:
-token
-"
-"
-.
-leanplum_token
-"
-)
-#
-:
-is
-used
-by
-leanplum
                 
 (
 "
