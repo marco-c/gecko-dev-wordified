@@ -5,12 +5,6 @@ jit
 -
 test
 |
--
-P
-wasm_exceptions
-=
-false
-;
 include
 :
 wasm
