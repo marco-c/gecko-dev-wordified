@@ -295,7 +295,7 @@ mozilla
 /
 gfx
 /
-CanvasRenderThread
+CanvasManagerChild
 .
 h
 "
@@ -306,7 +306,7 @@ mozilla
 /
 gfx
 /
-CanvasShutdownManager
+CanvasRenderThread
 .
 h
 "
@@ -9170,7 +9170,7 @@ ShutDown
 gfx
 :
 :
-CanvasShutdownManager
+CanvasManagerChild
 :
 :
 Shutdown
@@ -9250,7 +9250,7 @@ ShutDown
 gfx
 :
 :
-CanvasShutdownManager
+CanvasManagerChild
 :
 :
 Shutdown
