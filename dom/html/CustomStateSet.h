@@ -242,12 +242,6 @@ ErrorResult
 aRv
 )
 ;
-void
-InvalidateStyleFromCustomStateSetChange
-(
-)
-const
-;
 MOZ_CAN_RUN_SCRIPT
 void
 Clear
