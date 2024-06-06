@@ -9818,9 +9818,10 @@ true
 )
 ;
 }
-namespace
-{
 void
+URLParams
+:
+:
 SerializeString
 (
 const
@@ -10014,10 +10015,6 @@ p
 ;
 }
 }
-}
-/
-/
-namespace
 void
 URLParams
 :
