@@ -402,6 +402,7 @@ Length
 )
 ;
 }
+const
 char
 *
 DataAsCharPointer
@@ -412,6 +413,7 @@ const
 return
 reinterpret_cast
 <
+const
 char
 *
 >
@@ -741,10 +743,18 @@ val
 {
 WriteBytes
 (
+reinterpret_cast
+<
+const
+value_type
+*
+>
+(
 val
 .
 data
 (
+)
 )
 val
 .
