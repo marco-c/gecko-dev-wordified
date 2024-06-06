@@ -440,6 +440,16 @@ adjust_token
                 
 (
 '
+digital_asset_links
+'
+'
+.
+digital_asset_links_token
+'
+)
+                
+(
+'
 firebase
 '
 '
@@ -770,6 +780,12 @@ echo
 >
 .
 leanplum_token
+'
+            
+'
+touch
+.
+digital_asset_links_token
 '
             
 '
