@@ -189,8 +189,6 @@ parser
 add_argument
 (
 "
--
--
 class_to_test
 "
                         
@@ -218,7 +216,7 @@ fenix
 path_to_benchmark_test
 "
 )
-     
+    
 parser
 .
 add_argument
@@ -228,7 +226,7 @@ add_argument
 -
 open_file_in_browser
 "
-                            
+                        
 help
 =
 "
