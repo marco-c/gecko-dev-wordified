@@ -175,6 +175,16 @@ aProtocolScheme
 protected
 :
 NS_IMETHOD
+GetDefaultExecutable
+(
+nsIFile
+*
+*
+aExecutable
+)
+override
+;
+NS_IMETHOD
 GetHasDefaultHandler
 (
 bool
