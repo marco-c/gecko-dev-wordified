@@ -249,6 +249,27 @@ project
             
 )
             
+resolve_keyed_by
+(
+                
+notifications
+"
+message
+"
+label
+project
+=
+config
+.
+params
+[
+"
+project
+"
+]
+            
+)
+            
 emails
 =
 notifications
