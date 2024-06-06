@@ -431,6 +431,7 @@ to
 aTarget
 asynchronously
 .
+virtual
 RefPtr
 <
 MediaDecoder
