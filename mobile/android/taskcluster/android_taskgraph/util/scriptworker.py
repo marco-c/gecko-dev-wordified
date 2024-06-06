@@ -1875,6 +1875,8 @@ type
 =
 =
 "
+fenix
+-
 nightly
 "
 :
