@@ -1100,7 +1100,7 @@ CheckListenerChain
 )
 {
 return
-NS_OK
+NS_ERROR_NO_INTERFACE
 ;
 }
 NS_IMETHODIMP
