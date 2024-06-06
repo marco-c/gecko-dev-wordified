@@ -34,7 +34,9 @@ url
 Replaces
 PushService
 .
-jsm
+sys
+.
+mjs
 with
 a
 mock
@@ -63,7 +65,9 @@ bypassing
 the
 PushService
 .
-jsm
+sys
+.
+mjs
 machinery
 .
 *
@@ -369,7 +373,9 @@ layer
 ;
 PushService
 .
-jsm
+sys
+.
+mjs
 still
 handles
 DOM

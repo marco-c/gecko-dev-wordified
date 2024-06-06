@@ -38,7 +38,9 @@ strict
 Tests
 DER
 .
-jsm
+sys
+.
+mjs
 functionality
 .
 /
@@ -46,7 +48,9 @@ functionality
 Until
 DER
 .
-jsm
+sys
+.
+mjs
 is
 actually
 used

@@ -38,7 +38,9 @@ strict
 Tests
 X509
 .
-jsm
+sys
+.
+mjs
 functionality
 .
 function

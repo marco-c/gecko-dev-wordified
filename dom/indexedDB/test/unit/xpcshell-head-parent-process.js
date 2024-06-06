@@ -3594,11 +3594,9 @@ testing
 /
 specialpowers
 /
-content
-/
-SpecialPowersAPI
+api
 .
-jsm
+js
 exactGC
 (
 callback
