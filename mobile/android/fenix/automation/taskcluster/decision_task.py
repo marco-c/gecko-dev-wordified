@@ -391,14 +391,6 @@ capitalize
 engine
 )
     
-taskcluster_apk_paths
-=
-variant
-.
-upstream_artifacts
-(
-)
-    
 build_task
 =
 builder
@@ -425,7 +417,7 @@ label
 '
 ]
         
-taskcluster_apk_paths
+variant
         
 channel
 =
@@ -437,78 +429,21 @@ is_staging
     
 )
     
-push_task
-=
-builder
-.
-craft_push_task
-(
-        
-signing_task
-[
-'
-label
-'
-]
-        
-taskcluster_apk_paths
-        
-channel
-=
-channel
-        
-variant
-=
-variant
-        
 #
-TODO
-until
-org
-.
-mozilla
-.
-fenix
-.
-nightly
-is
-made
-public
-put
-it
-on
-the
-internally
+The
+push
 -
-testable
-track
-        
-override_google_play_track
-=
-None
-if
-channel
-!
-=
-"
-nightly
-"
-else
-"
-internal
-"
-        
-is_staging
-=
-is_staging
-    
-)
+apk
+task
+is
+generated
+by
+taskgraph
     
 return
 [
 build_task
 signing_task
-push_task
 ]
 def
 release_as_fennec
@@ -566,10 +501,6 @@ label
 ]
         
 variant
-.
-upstream_artifacts
-(
-)
         
 channel
         
@@ -710,7 +641,7 @@ label
 '
 ]
         
-taskcluster_apk_paths
+variant
         
 channel
 =
@@ -746,67 +677,22 @@ False
     
 )
     
-push_task
-=
-builder
-.
-craft_push_task
-(
-        
-signing_task
-[
-'
-label
-'
-]
-        
-taskcluster_apk_paths
-        
-channel
-=
-'
-production
-'
 #
-We
-'
-re
-publishing
-to
-the
-"
-production
-"
-app
-on
-the
-"
-nightly
-"
-track
-        
-variant
-=
-variant
-        
-override_google_play_track
-=
-'
-nightly
-'
-        
-is_staging
-=
-is_staging
-    
-)
+The
+push
+-
+apk
+task
+is
+generated
+by
+taskgraph
     
 tasks
 =
 [
 build_task
 signing_task
-push_task
 ]
     
 if
