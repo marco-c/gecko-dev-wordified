@@ -922,7 +922,7 @@ unique_ptr
 <
 Metronome
 >
-metronome_
+decode_metronome_
 RTC_GUARDED_BY
 (
 worker_thread

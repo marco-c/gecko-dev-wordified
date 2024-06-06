@@ -426,7 +426,7 @@ nullptr
 ;
 Metronome
 *
-metronome
+decode_metronome
 =
 nullptr
 ;

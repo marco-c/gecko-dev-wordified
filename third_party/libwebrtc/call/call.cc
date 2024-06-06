@@ -4297,7 +4297,7 @@ decode_sync_
 (
 config
 .
-metronome
+decode_metronome
 ?
 std
 :
@@ -4310,7 +4310,7 @@ DecodeSynchronizer
 clock_
 config
 .
-metronome
+decode_metronome
 worker_thread_
 )
 :

@@ -5340,7 +5340,7 @@ FieldTrialBasedConfig
 ;
 pc_factory_dependencies
 .
-metronome
+decode_metronome
 =
 std
 :
