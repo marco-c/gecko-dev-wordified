@@ -3744,7 +3744,6 @@ aMeta
 messageName
 (
 )
-*
 aData
 )
 ;
