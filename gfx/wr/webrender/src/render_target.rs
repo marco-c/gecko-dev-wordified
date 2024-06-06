@@ -91,7 +91,6 @@ batch
 AlphaBatchBuilder
 AlphaBatchContainer
 BatchTextures
-add_quad_to_batch
 }
 ;
 use
@@ -2508,7 +2507,10 @@ get_target_rect
 (
 )
 ;
-add_quad_to_batch
+quad
+:
+:
+add_to_batch
 (
 info
 .
@@ -6518,7 +6520,10 @@ tile
 "
 )
 ;
-add_quad_to_batch
+quad
+:
+:
+add_to_batch
 (
 PatternKind
 :
@@ -6906,7 +6911,10 @@ empty
 )
 }
 ;
-add_quad_to_batch
+quad
+:
+:
+add_to_batch
 (
 PatternKind
 :
