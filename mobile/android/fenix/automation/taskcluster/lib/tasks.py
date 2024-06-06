@@ -1561,8 +1561,9 @@ location
 {
 }
 /
-{
-}
+<
+build
+>
 /
 artifacts
 /
@@ -1589,7 +1590,6 @@ apk
 format
 (
 _DEFAULT_TASK_URL
-assemble_task_id
 )
                 
 '
@@ -2371,7 +2371,25 @@ login
 cx
 "
                 
+#
+Some
+tasks
+like
+nimbledroid
+do
+have
+tasks
+references
+                
+{
+'
+task
+-
+reference
+'
+:
 command
+}
             
 ]
             
