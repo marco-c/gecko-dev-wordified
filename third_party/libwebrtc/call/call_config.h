@@ -430,6 +430,12 @@ decode_metronome
 =
 nullptr
 ;
+Metronome
+*
+encode_metronome
+=
+nullptr
+;
 /
 /
 The

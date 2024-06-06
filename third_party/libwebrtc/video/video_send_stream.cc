@@ -708,6 +708,9 @@ const
 FieldTrialsView
 &
 field_trials
+Metronome
+*
+metronome
 webrtc
 :
 :
@@ -786,6 +789,19 @@ Create
 (
 clock
 encoder_queue_ptr
+metronome
+/
+*
+worker_queue
+=
+*
+/
+TaskQueueBase
+:
+:
+Current
+(
+)
 field_trials
 )
 std
@@ -830,6 +846,9 @@ call_stats
 RtpTransportControllerSendInterface
 *
 transport
+Metronome
+*
+metronome
 BitrateAllocatorInterface
 *
 bitrate_allocator
@@ -935,6 +954,7 @@ config_
 field_trials
 )
 field_trials
+metronome
 config_
 .
 encoder_selector

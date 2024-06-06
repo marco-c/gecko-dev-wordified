@@ -5869,6 +5869,9 @@ transport_send_
 get
 (
 )
+config_
+.
+encode_metronome
 bitrate_allocator_
 .
 get

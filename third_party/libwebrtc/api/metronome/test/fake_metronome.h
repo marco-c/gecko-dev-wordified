@@ -393,6 +393,13 @@ TimeDelta
 tick_period
 )
 ;
+void
+SetTickPeriod
+(
+TimeDelta
+tick_period
+)
+;
 /
 /
 Metronome
@@ -425,7 +432,6 @@ override
 ;
 private
 :
-const
 TimeDelta
 tick_period_
 ;
