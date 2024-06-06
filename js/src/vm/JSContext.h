@@ -2965,6 +2965,15 @@ bool
 >
 hasAutoUnsafeCallWithABI
 ;
+js
+:
+:
+ContextData
+<
+uint32_t
+>
+liveArraySortDataInstances
+;
 #
 endif
 #
