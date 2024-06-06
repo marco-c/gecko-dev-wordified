@@ -48,7 +48,7 @@ SessionDataHelpers
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -65,8 +65,17 @@ watcher
 /
 SessionDataHelpers
 .
-jsm
+sys
+.
+mjs
 "
+{
+global
+:
+"
+contextual
+"
+}
 )
 ;
 const

@@ -94,7 +94,7 @@ validateBreakpointLocation
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -109,8 +109,17 @@ validate
 -
 breakpoint
 .
-jsm
+sys
+.
+mjs
 "
+{
+global
+:
+"
+contextual
+"
+}
 )
 ;
 const
