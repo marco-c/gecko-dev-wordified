@@ -143,3 +143,10 @@ than
 "
 )
 ;
+validateInputFromAnotherBuilder
+(
+'
+triangular
+'
+)
+;
