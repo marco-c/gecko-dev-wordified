@@ -91,8 +91,6 @@ engines
 "
 gecko
 servo
--
-2013
 "
 sub_properties
 =

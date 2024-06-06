@@ -1324,11 +1324,7 @@ extra_gecko_values
 =
 None
         
-extra_servo_2013_values
-=
-None
-        
-extra_servo_2020_values
+extra_servo_values
 =
 None
         
@@ -1336,11 +1332,7 @@ gecko_aliases
 =
 None
         
-servo_2013_aliases
-=
-None
-        
-servo_2020_aliases
+servo_aliases
 =
 None
         
@@ -1453,25 +1445,10 @@ split
         
 self
 .
-extra_servo_2013_values
+extra_servo_values
 =
 (
-extra_servo_2013_values
-or
-"
-"
-)
-.
-split
-(
-)
-        
-self
-.
-extra_servo_2020_values
-=
-(
-extra_servo_2020_values
+extra_servo_values
 or
 "
 "
@@ -1495,23 +1472,11 @@ or
         
 self
 .
-servo_2013_aliases
+servo_aliases
 =
 parse_aliases
 (
-servo_2013_aliases
-or
-"
-"
-)
-        
-self
-.
-servo_2020_aliases
-=
-parse_aliases
-(
-servo_2020_aliases
+servo_aliases
 or
 "
 "
@@ -1590,8 +1555,6 @@ engine
 =
 "
 servo
--
-2013
 "
 :
             
@@ -1602,27 +1565,7 @@ values
 +
 self
 .
-extra_servo_2013_values
-        
-elif
-engine
-=
-=
-"
-servo
--
-2020
-"
-:
-            
-return
-self
-.
-values
-+
-self
-.
-extra_servo_2020_values
+extra_servo_values
         
 else
 :
@@ -1667,31 +1610,13 @@ engine
 =
 "
 servo
--
-2013
 "
 :
             
 return
 self
 .
-servo_2013_aliases
-        
-elif
-engine
-=
-=
-"
-servo
--
-2020
-"
-:
-            
-return
-self
-.
-servo_2020_aliases
+servo_aliases
         
 else
 :
@@ -2148,9 +2073,7 @@ name
         
 spec
         
-servo_2013_pref
-        
-servo_2020_pref
+servo_pref
         
 gecko_pref
         
@@ -2220,15 +2143,9 @@ ident
         
 self
 .
-servo_2013_pref
+servo_pref
 =
-servo_2013_pref
-        
-self
-.
-servo_2020_pref
-=
-servo_2020_pref
+servo_pref
         
 self
 .
@@ -2454,8 +2371,6 @@ engine
 =
 "
 servo
--
-2013
 "
 :
             
@@ -2464,26 +2379,7 @@ bool
 (
 self
 .
-servo_2013_pref
-)
-        
-elif
-engine
-=
-=
-"
-servo
--
-2020
-"
-:
-            
-return
-bool
-(
-self
-.
-servo_2020_pref
+servo_pref
 )
         
 else
@@ -2635,11 +2531,7 @@ predefined_type
 =
 None
         
-servo_2013_pref
-=
-None
-        
-servo_2020_pref
+servo_pref
 =
 None
         
@@ -2745,13 +2637,9 @@ spec
 =
 spec
             
-servo_2013_pref
+servo_pref
 =
-servo_2013_pref
-            
-servo_2020_pref
-=
-servo_2020_pref
+servo_pref
             
 gecko_pref
 =
@@ -3715,59 +3603,22 @@ engine
 =
 "
 servo
--
-2013
 "
 :
             
 return
-(
-                
 self
 .
-servo_2013_pref
-                
+servo_pref
 and
 self
 .
-servo_2013_pref
+servo_pref
 !
 =
 shorthand
 .
-servo_2013_pref
-            
-)
-        
-elif
-engine
-=
-=
-"
-servo
--
-2020
-"
-:
-            
-return
-(
-                
-self
-.
-servo_2020_pref
-                
-and
-self
-.
-servo_2020_pref
-!
-=
-shorthand
-.
-servo_2020_pref
-            
-)
+servo_pref
         
 else
 :
@@ -4441,11 +4292,7 @@ spec
 =
 None
         
-servo_2013_pref
-=
-None
-        
-servo_2020_pref
+servo_pref
 =
 None
         
@@ -4493,13 +4340,9 @@ spec
 =
 spec
             
-servo_2013_pref
+servo_pref
 =
-servo_2013_pref
-            
-servo_2020_pref
-=
-servo_2020_pref
+servo_pref
             
 gecko_pref
 =
@@ -4646,19 +4489,11 @@ animatable
         
 self
 .
-servo_2013_pref
+servo_pref
 =
 original
 .
-servo_2013_pref
-        
-self
-.
-servo_2020_pref
-=
-original
-.
-servo_2020_pref
+servo_pref
         
 self
 .
@@ -4756,8 +4591,6 @@ engine
 =
 "
 servo
--
-2013
 "
 :
             
@@ -4766,26 +4599,7 @@ bool
 (
 self
 .
-servo_2013_pref
-)
-        
-elif
-engine
-=
-=
-"
-servo
--
-2020
-"
-:
-            
-return
-bool
-(
-self
-.
-servo_2020_pref
+servo_pref
 )
         
 else
@@ -5782,19 +5596,11 @@ assert
 data
 .
 engine
-in
-[
+=
+=
 "
 servo
--
-2013
 "
-"
-servo
--
-2020
-"
-]
             
 continue
         

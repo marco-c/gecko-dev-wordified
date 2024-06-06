@@ -1841,10 +1841,6 @@ feature
 =
 "
 servo
--
-layout
--
-2013
 "
 )
 ]

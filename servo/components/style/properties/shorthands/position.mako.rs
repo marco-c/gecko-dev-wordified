@@ -93,13 +93,8 @@ engines
 "
 gecko
 servo
--
-2013
-servo
--
-2020
 "
-servo_2020_pref
+servo_pref
 =
 "
 layout
@@ -506,13 +501,8 @@ engines
 "
 gecko
 servo
--
-2013
-servo
--
-2020
 "
-servo_2020_pref
+servo_pref
 =
 "
 layout
@@ -6895,8 +6885,6 @@ engines
 "
 gecko
 servo
--
-2013
 "
 spec
 =
@@ -6965,8 +6953,6 @@ engines
 "
 gecko
 servo
--
-2013
 "
 spec
 =
@@ -7032,8 +7018,6 @@ engines
 "
 gecko
 servo
--
-2013
 "
 spec
 =

@@ -272,12 +272,6 @@ Usage
 s
 [
 servo
--
-2013
-|
-servo
--
-2020
 |
 gecko
 ]
@@ -346,13 +340,6 @@ in
 [
 "
 servo
--
-2013
-"
-"
-servo
--
-2020
 "
 "
 gecko
@@ -691,54 +678,12 @@ rust
         
 if
 engine
-in
-[
-"
-servo
--
-2013
-"
-"
-servo
--
-2020
-"
-]
-:
-            
-if
-engine
 =
 =
 "
 servo
--
-2013
 "
 :
-                
-pref_attr
-=
-"
-servo_2013_pref
-"
-            
-if
-engine
-=
-=
-"
-servo
--
-2020
-"
-:
-                
-pref_attr
-=
-"
-servo_2020_pref
-"
             
 properties_dict
 =
@@ -760,7 +705,9 @@ pref
 getattr
 (
 p
-pref_attr
+"
+servo_pref
+"
 )
 }
                     
@@ -785,7 +732,7 @@ prop
 +
 prop
 .
-alias
+aliases
                 
 }
                 
