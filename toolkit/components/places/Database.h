@@ -1714,7 +1714,7 @@ MigrateV75Up
 )
 ;
 nsresult
-MigrateV76Up
+MigrateV77Up
 (
 )
 ;
