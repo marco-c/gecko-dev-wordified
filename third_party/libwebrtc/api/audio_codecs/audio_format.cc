@@ -184,7 +184,7 @@ clockrate_hz
 size_t
 num_channels
 const
-Parameters
+CodecParameterMap
 &
 param
 )
@@ -221,7 +221,7 @@ int
 clockrate_hz
 size_t
 num_channels
-Parameters
+CodecParameterMap
 &
 &
 param

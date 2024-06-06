@@ -207,10 +207,7 @@ SdpVideoFormat
 "
 VP8
 "
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 (
 )
 scalability_modes

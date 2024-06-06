@@ -1050,10 +1050,7 @@ profile_level_id
 =
 ParseSdpForH264ProfileLevelId
 (
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 (
 )
 )
@@ -1094,10 +1091,7 @@ H264ProfileLevelId
 TestParseSdpProfileLevelIdConstrainedHigh
 )
 {
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 params
 ;
 params
@@ -1166,10 +1160,7 @@ H264ProfileLevelId
 TestParseSdpProfileLevelIdInvalid
 )
 {
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 params
 ;
 params

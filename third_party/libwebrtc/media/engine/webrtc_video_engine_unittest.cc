@@ -29323,10 +29323,7 @@ VP9
 webrtc
 :
 :
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 (
 )
 {
@@ -67838,10 +67835,7 @@ VP8
 webrtc
 :
 :
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 (
 )
 kSupportedModes
@@ -68378,10 +68372,7 @@ VP8
 webrtc
 :
 :
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 (
 )
 {
@@ -68409,10 +68400,7 @@ VP9
 webrtc
 :
 :
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 (
 )
 {

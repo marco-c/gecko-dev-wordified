@@ -572,10 +572,7 @@ ssrc
 =
 ssrc_
 ;
-SdpAudioFormat
-:
-:
-Parameters
+CodecParameterMap
 sdp_params
 ;
 if

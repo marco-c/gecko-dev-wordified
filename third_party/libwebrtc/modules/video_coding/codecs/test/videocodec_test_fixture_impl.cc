@@ -1454,10 +1454,7 @@ NonInterleaved
 0
 "
 ;
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 codec_params
 =
 {

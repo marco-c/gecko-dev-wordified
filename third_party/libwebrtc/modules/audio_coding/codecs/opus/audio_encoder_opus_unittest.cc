@@ -300,10 +300,7 @@ AudioEncoderOpusConfig
 CreateConfigWithParameters
 (
 const
-SdpAudioFormat
-:
-:
-Parameters
+CodecParameterMap
 &
 params
 )
