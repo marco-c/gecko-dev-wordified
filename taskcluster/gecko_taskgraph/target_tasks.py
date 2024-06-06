@@ -238,15 +238,13 @@ tasks
     
 r
 "
-windows11
+windows10
 -
 64
 -
-2009
+ref
 -
 hw
--
-ref
 "
     
 r
