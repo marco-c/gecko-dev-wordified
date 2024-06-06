@@ -534,8 +534,6 @@ logging
 .
 error
 (
-msg
-=
 error_message
 )
         
@@ -602,8 +600,6 @@ logging
 error
 (
             
-msg
-=
 "
 Error
 :
@@ -998,8 +994,6 @@ logging
 .
 info
 (
-msg
-=
 "
 All
 UI
