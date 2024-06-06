@@ -1186,6 +1186,7 @@ getAttribute
 (
 hidingAttribute
 )
+?
 .
 toLowerCase
 (
