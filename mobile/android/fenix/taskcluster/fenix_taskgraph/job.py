@@ -375,10 +375,8 @@ scopes
 ]
 )
     
-scopes
-.
-extend
-(
+new_secret_scopes
+=
 [
 "
 secrets
@@ -403,6 +401,29 @@ secret
 in
 secrets
 ]
+    
+new_secret_scopes
+=
+list
+(
+set
+(
+new_secret_scopes
+)
+)
+#
+Scopes
+must
+not
+have
+any
+duplicates
+    
+scopes
+.
+extend
+(
+new_secret_scopes
 )
     
 run
