@@ -181,7 +181,7 @@ on
 MIPS64
 .
 static
-const
+constexpr
 uint32_t
 ShadowStackSpace
 =

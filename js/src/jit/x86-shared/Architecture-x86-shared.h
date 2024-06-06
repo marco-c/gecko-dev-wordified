@@ -252,7 +252,7 @@ defined
 _WIN64
 )
 static
-const
+constexpr
 uint32_t
 ShadowStackSpace
 =
@@ -261,7 +261,7 @@ ShadowStackSpace
 #
 else
 static
-const
+constexpr
 uint32_t
 ShadowStackSpace
 =

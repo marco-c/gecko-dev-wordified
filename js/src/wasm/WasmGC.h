@@ -667,11 +667,9 @@ aligned
 .
 static_assert
 (
-FrameWithInstances
-:
-:
-sizeOf
+sizeof
 (
+FrameWithInstances
 )
 /
 sizeof

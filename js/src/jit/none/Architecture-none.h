@@ -1071,7 +1071,7 @@ MOZ_CRASH
 ;
 }
 static
-const
+constexpr
 uint32_t
 ShadowStackSpace
 =
