@@ -150,6 +150,16 @@ treeherder
 .
 symbol
 "
+            
+"
+dependencies
+.
+build
+-
+fat
+-
+aar
+"
         
 )
 :
