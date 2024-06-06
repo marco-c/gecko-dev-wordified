@@ -123,6 +123,11 @@ worker
 .
 push
 "
+"
+treeherder
+.
+symbol
+"
 )
 :
             
