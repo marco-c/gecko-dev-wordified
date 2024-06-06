@@ -419,6 +419,16 @@ size
 (
 )
 ;
+if
+(
+!
+payload
+.
+empty
+(
+)
+)
+{
 payload_sizes_
 =
 SplitAboutEqually
@@ -431,6 +441,7 @@ size
 limits
 )
 ;
+}
 current_packet_
 =
 payload_sizes_
