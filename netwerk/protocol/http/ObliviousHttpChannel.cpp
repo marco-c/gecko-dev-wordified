@@ -2198,6 +2198,8 @@ const
 aUnsafeHeaders
 bool
 aShouldStripRequestBodyHeader
+bool
+aShouldStripAuthHeader
 )
 {
 if
@@ -2212,6 +2214,7 @@ SetCorsPreflightParameters
 (
 aUnsafeHeaders
 aShouldStripRequestBodyHeader
+aShouldStripAuthHeader
 )
 ;
 }

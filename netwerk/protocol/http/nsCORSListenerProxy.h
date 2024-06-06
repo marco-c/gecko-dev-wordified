@@ -494,6 +494,8 @@ DataURIHandling
 aAllowDataURI
 UpdateType
 aUpdateType
+bool
+aStripAuthHeader
 )
 ;
 [
@@ -522,6 +524,8 @@ nsIChannel
 aChannel
 UpdateType
 aUpdateType
+bool
+aStripAuthHeader
 )
 ;
 nsCOMPtr
