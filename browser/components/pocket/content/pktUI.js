@@ -989,7 +989,6 @@ getFirefoxAccountSignedInUser
 (
 function
 (
-userdata
 )
 {
 showPanel
@@ -1857,7 +1856,6 @@ options
 success
 (
 data
-request
 )
 {
 var
@@ -2857,7 +2855,8 @@ userData
 then
 (
 null
-error
+(
+)
 =
 >
 {
