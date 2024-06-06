@@ -130,9 +130,9 @@ secrets
 "
 run
 .
-pre
+dummy
 -
-commands
+secrets
 "
 )
 :

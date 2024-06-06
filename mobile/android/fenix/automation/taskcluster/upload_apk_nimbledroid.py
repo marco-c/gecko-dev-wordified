@@ -304,10 +304,9 @@ rstrip
 )
 =
 =
-'
--
--
-'
+"
+faketoken
+"
 :
 	
 print
@@ -316,8 +315,7 @@ print
 Nimbledroid
 key
 "
--
--
+faketoken
 "
 detected
 .
