@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsContentSecurityUtils
 .
 h
@@ -224,13 +217,6 @@ h
 include
 "
 nsHttpHandler
-.
-h
-"
-#
-include
-"
-nsIStreamConverter
 .
 h
 "

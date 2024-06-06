@@ -1837,7 +1837,7 @@ CheckListenerChain
 ;
 }
 return
-NS_ERROR_NO_INTERFACE
+NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP

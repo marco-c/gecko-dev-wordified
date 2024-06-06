@@ -317,7 +317,7 @@ mozilla
 Telemetry
 :
 :
-LABELS_HTTP_CHILD_OMT_STATS_2
+LABELS_HTTP_CHILD_OMT_STATS
 ;
 class
 nsIEventTarget
@@ -1693,17 +1693,6 @@ nsresult
 aStatus
 )
 ;
-void
-RetargetDeliveryToImpl
-(
-nsISerialEventTarget
-*
-aNewTarget
-MutexAutoLock
-&
-aLockRef
-)
-;
 private
 :
 /
@@ -1934,7 +1923,7 @@ owner
 .
 Atomic
 <
-LABELS_HTTP_CHILD_OMT_STATS_2
+LABELS_HTTP_CHILD_OMT_STATS
 mozilla
 :
 :
@@ -1942,7 +1931,7 @@ Relaxed
 >
 mOMTResult
 {
-LABELS_HTTP_CHILD_OMT_STATS_2
+LABELS_HTTP_CHILD_OMT_STATS
 :
 :
 notRequested
