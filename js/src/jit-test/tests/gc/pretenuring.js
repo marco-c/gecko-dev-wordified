@@ -15,6 +15,14 @@ gczeal
 gcparam
 (
 "
+semispaceNurseryEnabled
+"
+0
+)
+;
+gcparam
+(
+"
 minNurseryBytes
 "
 4096

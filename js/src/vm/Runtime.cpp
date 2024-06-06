@@ -1977,7 +1977,7 @@ nursery
 (
 )
 .
-committed
+totalCommitted
 (
 )
 ;
