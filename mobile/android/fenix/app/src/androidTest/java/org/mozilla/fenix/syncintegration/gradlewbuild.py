@@ -147,7 +147,7 @@ gradlew
 '
 app
 :
-connectedGeckoNightlyDebugAndroidTest
+connectedDebugAndroidTest
 -
 Pandroid
 .
