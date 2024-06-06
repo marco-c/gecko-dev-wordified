@@ -65,6 +65,17 @@ data
 :
 Property
 ;
+/
+/
+/
+A
+checkbox
+(
+with
+optional
+label
+)
+.
 #
 [
 derive
