@@ -3689,7 +3689,7 @@ waitPopupStateInChild
 (
 browser
 "
-FormAutoComplete
+AutoComplete
 :
 PopupOpened
 "
@@ -3783,7 +3783,7 @@ waitPopupStateInChild
 (
 frameBrowsingContext
 "
-FormAutoComplete
+AutoComplete
 :
 PopupOpened
 "
@@ -3899,7 +3899,7 @@ waitPopupStateInChild
 (
 browser
 "
-FormAutoComplete
+AutoComplete
 :
 PopupClosed
 "
@@ -3968,7 +3968,7 @@ waitPopupStateInChild
 (
 browser
 "
-FormAutoComplete
+AutoComplete
 :
 PopupClosed
 "
