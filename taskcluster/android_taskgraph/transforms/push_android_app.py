@@ -282,6 +282,8 @@ kind
 =
 =
 "
+android
+-
 startup
 -
 test
