@@ -153,7 +153,7 @@ h
 #
 include
 "
-nsIFormAutoComplete
+nsIFormHistoryAutoComplete
 .
 h
 "
@@ -259,7 +259,7 @@ nsIAutoCompleteInput
 public
 nsIAutoCompleteSearch
 public
-nsIFormAutoCompleteObserver
+nsIFormFillCompleteObserver
 public
 nsIDOMEventListener
 public
@@ -273,7 +273,7 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIFORMFILLCONTROLLER
 NS_DECL_NSIAUTOCOMPLETESEARCH
 NS_DECL_NSIAUTOCOMPLETEINPUT
-NS_DECL_NSIFORMAUTOCOMPLETEOBSERVER
+NS_DECL_NSIFORMFILLCOMPLETEOBSERVER
 NS_DECL_NSIDOMEVENTLISTENER
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIMUTATIONOBSERVER
@@ -709,9 +709,9 @@ StopSearch
 .
 nsCOMPtr
 <
-nsIFormAutoComplete
+nsIFormHistoryAutoComplete
 >
-mLastFormAutoComplete
+mLastFormHistoryAutoComplete
 ;
 nsString
 mLastSearchString

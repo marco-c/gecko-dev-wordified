@@ -105,9 +105,11 @@ FormHistory
 /
 requests
 from
-nsFormAutoComplete
+FormHistoryAutoComplete
 .
-js
+sys
+.
+mjs
 .
 var
 formHistoryStartup

@@ -275,6 +275,8 @@ satchel
 /
 form
 -
+history
+-
 autocomplete
 ;
 1
@@ -285,7 +287,7 @@ getService
 (
 Ci
 .
-nsIFormAutoComplete
+nsIFormHistoryAutoComplete
 )
 ;
 timeGroupingSize
