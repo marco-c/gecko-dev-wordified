@@ -597,6 +597,17 @@ empty
 const
 override
 ;
+bool
+isDrainingStopped
+(
+)
+const
+override
+{
+return
+interrupted_
+;
+}
 /
 /
 If

@@ -5583,10 +5583,6 @@ if
 interrupted_
 )
 {
-interrupted_
-=
-false
-;
 break
 ;
 }

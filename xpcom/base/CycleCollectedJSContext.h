@@ -1785,6 +1785,17 @@ empty
 const
 override
 ;
+bool
+isDrainingStopped
+(
+)
+const
+override
+{
+return
+false
+;
+}
 class
 SavedMicroTaskQueue
 ;
