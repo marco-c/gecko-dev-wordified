@@ -3263,6 +3263,15 @@ Maybe
 <
 GdkPoint
 >
+mGdkWindowOrigin
+;
+mozilla
+:
+:
+Maybe
+<
+GdkPoint
+>
 mGdkWindowRootOrigin
 ;
 PlatformCompositorWidgetDelegate
