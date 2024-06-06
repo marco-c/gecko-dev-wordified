@@ -450,22 +450,26 @@ lstrip
 .
 replace
 (
+                
 "
 .
 "
 "
 _
 "
+            
 )
             
 result
 =
 {
+                
 "
 #
 "
 :
 total_count
+                
 "
 name
 "
@@ -478,12 +482,14 @@ lstrip
 .
 "
 )
+                
 "
 glean
 dictionary
 "
 :
 dictionary_url
+            
 }
             
 result
@@ -885,6 +891,7 @@ argv
 ]
     
 except
+Exception
 :
         
 print

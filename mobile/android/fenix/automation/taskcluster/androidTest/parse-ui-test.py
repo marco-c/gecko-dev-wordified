@@ -440,6 +440,7 @@ axes
             
 print
 (
+                
 f
 "
 |
@@ -461,7 +462,7 @@ outcome
 ]
 }
 "
-                  
+                
 f
 "
 |
@@ -492,6 +493,7 @@ details
 \
 n
 "
+            
 )
     
 print
@@ -519,6 +521,7 @@ n
     
 print
 (
+        
 "
 *
 [
@@ -559,10 +562,12 @@ md
 \
 n
 "
+    
 )
     
 print
 (
+        
 "
 *
 Mobile
@@ -636,6 +641,7 @@ C0134KJ4JHL
 \
 n
 "
+    
 )
 if
 __name__
