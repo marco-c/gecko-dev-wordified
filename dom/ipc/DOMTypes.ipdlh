@@ -814,6 +814,9 @@ orientationAngle
 bool
 isPseudoDisplay
 ;
+bool
+isHDR
+;
 }
 ;
 struct
