@@ -148,6 +148,9 @@ u8
 )
 ]
 pub
+(
+crate
+)
 enum
 KeywordConfidence
 {
