@@ -1112,6 +1112,11 @@ contextMenuOffsetHorizontal
 "
 ui
 .
+tooltipOffsetVertical
+"
+"
+ui
+.
 GtkCSDAvailable
 "
 "
