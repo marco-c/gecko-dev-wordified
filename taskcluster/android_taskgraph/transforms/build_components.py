@@ -112,14 +112,6 @@ in
 (
             
 "
-attributes
-.
-code
--
-review
-"
-            
-"
 include
 -
 coverage
