@@ -18708,11 +18708,9 @@ performance_clone_deserialize
 :
 items
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 sample
-}
 )
 ;
 break

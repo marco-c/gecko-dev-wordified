@@ -1766,11 +1766,9 @@ geckoview
 :
 per_document_site_origins
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 mMaxOrigins
-}
 )
 ;
 mMaxOrigins

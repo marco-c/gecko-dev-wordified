@@ -1952,9 +1952,8 @@ power_battery
 :
 percentage_when_user_active
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 uint64_t
 (
 batteryInfo
@@ -1965,7 +1964,6 @@ level
 *
 100
 )
-}
 )
 ;
 }

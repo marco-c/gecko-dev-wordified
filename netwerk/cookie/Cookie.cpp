@@ -968,11 +968,9 @@ networking
 :
 cookie_creation_fixup_diff
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 diffInSeconds
-}
 )
 ;
 glean
@@ -1054,11 +1052,9 @@ networking
 :
 cookie_access_fixup_diff
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 diffInSeconds
-}
 )
 ;
 glean

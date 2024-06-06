@@ -4954,11 +4954,9 @@ networking
 :
 cookie_purge_entry_max
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 purgedLength
-}
 )
 ;
 }
@@ -5116,11 +5114,9 @@ networking
 :
 cookie_purge_max
 .
-AccumulateSamples
+AccumulateSingleSample
 (
-{
 purgedLength
-}
 )
 ;
 }
