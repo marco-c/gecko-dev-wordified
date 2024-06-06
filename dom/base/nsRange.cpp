@@ -1514,7 +1514,7 @@ nsRange
 )
 <
 =
-240
+248
 "
 nsRange
 size
@@ -1913,6 +1913,11 @@ mEnd
 and
 mRoot
 .
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mCrossShadowBoundaryRange
+)
+;
 tmp
 -
 >
@@ -1930,6 +1935,11 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mRoot
 )
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mCrossShadowBoundaryRange
+)
+;
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
