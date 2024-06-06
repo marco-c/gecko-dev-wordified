@@ -250,6 +250,24 @@ type
 "
 ]
             
+gradle_build_type
+=
+task
+[
+"
+run
+"
+]
+[
+"
+gradle
+-
+build
+-
+type
+"
+]
+            
 secret_index
 =
 '
@@ -333,7 +351,7 @@ xml
 .
 format
 (
-build_type
+gradle_build_type
 )
 )
                 
