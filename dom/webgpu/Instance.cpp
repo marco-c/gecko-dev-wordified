@@ -650,7 +650,7 @@ MaybeRejectWithInvalidStateError
 Failed
 to
 create
-CanavasManagerChild
+CanvasManagerChild
 "
 )
 ;
