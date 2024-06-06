@@ -1161,16 +1161,16 @@ type
 :
 job
 [
-'
+"
 attributes
-'
+"
 ]
 [
-'
+"
 build
 -
 type
-'
+"
 ]
         
 }
@@ -1871,7 +1871,28 @@ build_date
 ]
 )
         
-dated_path
+if
+job
+[
+"
+attributes
+"
+]
+[
+"
+build
+-
+type
+"
+]
+=
+=
+"
+nightly
+"
+:
+            
+folder_prefix
 =
 upload_date
 .
@@ -1901,8 +1922,24 @@ M
 -
 %
 S
+-
 "
 )
+        
+else
+:
+            
+folder_prefix
+=
+f
+"
+{
+version
+}
+/
+android
+/
+"
         
 kwargs
 .
@@ -1924,10 +1961,10 @@ version
 version
                 
 "
-dated_path
+folder_prefix
 "
 :
-dated_path
+folder_prefix
             
 }
         
