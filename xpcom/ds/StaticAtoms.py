@@ -6860,16 +6860,6 @@ ltr
 Atom
 (
 "
-lwtheme
-"
-"
-lwtheme
-"
-)
-    
-Atom
-(
-"
 main
 "
 "

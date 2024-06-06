@@ -969,17 +969,6 @@ PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 -
 moz
 -
-lwtheme
-"
-MozLWTheme
-_
-PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
-)
-(
-"
--
-moz
--
 window
 -
 inactive
