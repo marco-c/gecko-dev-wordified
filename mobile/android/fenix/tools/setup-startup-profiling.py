@@ -168,6 +168,7 @@ leaf
 screenshots
 ipcmessages
 java
+cpu
   
 MOZ_PROFILER_STARTUP_FILTERS
 :
