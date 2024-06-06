@@ -231,7 +231,9 @@ consts
 in
 UrlbarProviderSearchTips
 .
-jsm
+sys
+.
+mjs
 .
 const
 MAX_SHOWN_COUNT

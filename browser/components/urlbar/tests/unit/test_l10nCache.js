@@ -35,7 +35,9 @@ L10nCache
 in
 UrlbarUtils
 .
-jsm
+sys
+.
+mjs
 .
 "
 use

@@ -89,7 +89,9 @@ modules
 /
 PartnerLinkAttribution
 .
-jsm
+sys
+.
+mjs
 "
 QuickSuggest
 :
