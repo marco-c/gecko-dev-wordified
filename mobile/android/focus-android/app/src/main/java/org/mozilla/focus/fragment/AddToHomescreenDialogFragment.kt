@@ -336,6 +336,8 @@ getString
 (
 URL
 )
+!
+!
 val
 title
 =
@@ -449,10 +451,6 @@ iconView
 IconRequest
 (
 url
-.
-toString
-(
-)
 isPrivate
 =
 true
@@ -575,7 +573,6 @@ EditText
 iconUrl
 :
 String
-?
 blockingEnabled
 :
 Boolean
@@ -651,7 +648,9 @@ HomeScreen
 .
 installShortCut
 (
-context
+requireContext
+(
+)
 IconGenerator
 .
 generateLauncherIcon
