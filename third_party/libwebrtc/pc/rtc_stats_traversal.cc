@@ -309,7 +309,7 @@ if
 (
 id
 .
-is_defined
+has_value
 (
 )
 )

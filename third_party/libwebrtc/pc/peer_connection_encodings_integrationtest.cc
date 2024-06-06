@@ -700,7 +700,7 @@ outbound_rtp
 .
 codec_id
 .
-is_defined
+has_value
 (
 )
 ?
@@ -786,7 +786,7 @@ outbound_rtp
 >
 rid
 .
-is_defined
+has_value
 (
 )
 &
@@ -2029,7 +2029,7 @@ outbound_rtp
 >
 bytes_sent
 .
-is_defined
+has_value
 (
 )
 &
@@ -2139,7 +2139,7 @@ outbound_rtp
 >
 scalability_mode
 .
-is_defined
+has_value
 (
 )
 |
@@ -2165,7 +2165,7 @@ outbound_rtp
 >
 frame_height
 .
-is_defined
+has_value
 (
 )
 )
@@ -2244,7 +2244,7 @@ outbound_rtp
 >
 frame_height
 .
-is_defined
+has_value
 (
 )
 |
@@ -2429,7 +2429,7 @@ outbound_rtp
 >
 frame_width
 .
-is_defined
+has_value
 (
 )
 |
@@ -2440,7 +2440,7 @@ outbound_rtp
 >
 frame_height
 .
-is_defined
+has_value
 (
 )
 )

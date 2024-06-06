@@ -11037,7 +11037,7 @@ stat
 >
 bytes_sent
 .
-is_defined
+has_value
 (
 )
 )
@@ -11073,7 +11073,7 @@ stat
 >
 key_frames_encoded
 .
-is_defined
+has_value
 (
 )
 )
@@ -11095,7 +11095,7 @@ stat
 >
 frames_encoded
 .
-is_defined
+has_value
 (
 )
 )
@@ -11122,7 +11122,7 @@ stat
 >
 media_source_id
 .
-is_defined
+has_value
 (
 )
 )
@@ -11254,7 +11254,7 @@ stat
 >
 bytes_received
 .
-is_defined
+has_value
 (
 )
 )
@@ -11290,7 +11290,7 @@ stat
 >
 key_frames_decoded
 .
-is_defined
+has_value
 (
 )
 )
@@ -11312,7 +11312,7 @@ stat
 >
 frames_decoded
 .
-is_defined
+has_value
 (
 )
 )
@@ -11560,7 +11560,7 @@ inbound_stream_stats
 >
 bytes_received
 .
-is_defined
+has_value
 (
 )
 )
@@ -11941,7 +11941,7 @@ index
 >
 audio_level
 .
-is_defined
+has_value
 (
 )
 )
@@ -23962,7 +23962,7 @@ inbound_rtp
 >
 total_audio_energy
 .
-is_defined
+has_value
 (
 )
 )
@@ -30321,7 +30321,7 @@ sender_stats
 >
 nack_count
 .
-is_defined
+has_value
 (
 )
 )
@@ -30409,7 +30409,7 @@ receiver_stats
 >
 nack_count
 .
-is_defined
+has_value
 (
 )
 )

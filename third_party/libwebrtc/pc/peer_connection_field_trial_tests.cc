@@ -1932,7 +1932,7 @@ outbound_rtp_stats
 >
 target_bitrate
 .
-is_defined
+has_value
 (
 )
 )

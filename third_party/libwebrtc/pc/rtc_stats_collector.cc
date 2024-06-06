@@ -3556,7 +3556,7 @@ inbound_audio_stats
 .
 codec_id
 .
-is_defined
+has_value
 (
 )
 )
@@ -5994,7 +5994,7 @@ transport
 .
 rtcp_transport_stats_id
 .
-is_defined
+has_value
 (
 )
 ?
@@ -6080,7 +6080,7 @@ outbound_rtp
 .
 codec_id
 .
-is_defined
+has_value
 (
 )
 ?
@@ -6132,7 +6132,7 @@ codec
 .
 clock_rate
 .
-is_defined
+has_value
 (
 )
 )
@@ -7284,7 +7284,7 @@ outbound_rtp
 >
 ssrc
 .
-is_defined
+has_value
 (
 )
 )
@@ -7459,7 +7459,7 @@ inbound_rtp
 >
 ssrc
 .
-is_defined
+has_value
 (
 )
 )

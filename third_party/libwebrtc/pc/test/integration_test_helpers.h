@@ -4394,7 +4394,7 @@ rtp_stats
 >
 relative_packet_arrival_delay
 .
-is_defined
+has_value
 (
 )
 )
@@ -4406,7 +4406,7 @@ rtp_stats
 >
 packets_received
 .
-is_defined
+has_value
 (
 )
 )

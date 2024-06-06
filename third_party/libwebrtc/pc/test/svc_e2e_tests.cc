@@ -1535,7 +1535,7 @@ stat
 >
 scalability_mode
 .
-is_defined
+has_value
 (
 )
 )
