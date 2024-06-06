@@ -344,7 +344,7 @@ release_version
 "
 125
 .
-0b4
+0b6
 "
     
 release_type
