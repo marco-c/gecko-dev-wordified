@@ -483,17 +483,8 @@ props
 /
 /
 ignore
-ctrl
-+
-click
-and
 right
 clicks
-when
-clicking
-on
-the
-breakpoint
 if
 (
 (
