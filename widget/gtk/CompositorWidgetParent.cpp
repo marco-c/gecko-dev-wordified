@@ -287,11 +287,11 @@ IPCResult
 CompositorWidgetParent
 :
 :
-RecvCleanupResources
+RecvDisableRendering
 (
 )
 {
-CleanupResources
+DisableRendering
 (
 )
 ;
@@ -311,7 +311,7 @@ IPCResult
 CompositorWidgetParent
 :
 :
-RecvSetRenderingSurface
+RecvEnableRendering
 (
 const
 uintptr_t
@@ -323,7 +323,7 @@ bool
 aShaped
 )
 {
-SetRenderingSurface
+EnableRendering
 (
 aXWindow
 aShaped

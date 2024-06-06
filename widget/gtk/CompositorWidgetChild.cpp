@@ -273,14 +273,14 @@ void
 CompositorWidgetChild
 :
 :
-CleanupResources
+DisableRendering
 (
 )
 {
 Unused
 <
 <
-SendCleanupResources
+SendDisableRendering
 (
 )
 ;
@@ -289,7 +289,7 @@ void
 CompositorWidgetChild
 :
 :
-SetRenderingSurface
+EnableRendering
 (
 const
 uintptr_t
@@ -302,7 +302,7 @@ aShaped
 Unused
 <
 <
-SendSetRenderingSurface
+SendEnableRendering
 (
 aXWindow
 aShaped
