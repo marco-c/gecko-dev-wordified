@@ -571,7 +571,7 @@ version_name
 )
     
 #
-The
+Nimbledroid
 signing
 and
 push
@@ -583,33 +583,7 @@ generated
 by
 taskgraph
     
-tasks
-=
-[
-build_task
-]
-    
-if
-not
-is_staging
-:
-        
-tasks
-.
-append
-(
-builder
-.
-craft_upload_apk_nimbledroid_task
-(
-build_task
-[
-'
-label
-'
-]
-)
-)
-    
 return
-tasks
+[
+build_task
+]
