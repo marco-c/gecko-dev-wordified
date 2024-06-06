@@ -84,7 +84,7 @@ lib
 .
 gradle
 import
-get_variants_for_build_type
+get_variant
 from
 lib
 .
@@ -109,12 +109,6 @@ populate_chain_of_trust_task_graph
     
 populate_chain_of_trust_required_but_unused_files
 )
-from
-lib
-.
-variant
-import
-Variant
 REPO_URL
 =
 os
@@ -383,17 +377,18 @@ other_tasks
 {
 }
     
-for
 variant
-in
-get_variants_for_build_type
+=
+get_variant
 (
 '
 debug
 '
+'
+geckoNightly
+'
 )
-:
-        
+    
 assemble_task_id
 =
 taskcluster
@@ -401,7 +396,7 @@ taskcluster
 slugId
 (
 )
-        
+    
 build_tasks
 [
 assemble_task_id
@@ -413,7 +408,7 @@ craft_assemble_pr_task
 (
 variant
 )
-        
+    
 build_tasks
 [
 taskcluster
@@ -428,7 +423,6 @@ BUILDER
 craft_test_pr_task
 (
 variant
-True
 )
     
 for
@@ -591,34 +585,18 @@ GECKO_HEAD_REV
 '
 ]
     
-for
 variant
-in
-[
-Variant
-.
-from_values
+=
+get_variant
 (
-abi
-False
 '
 forPerformanceTest
 '
-)
-for
-abi
-in
-(
 '
-aarch64
-'
-'
-arm
+geckoNightly
 '
 )
-]
-:
-        
+    
 assemble_task_id
 =
 taskcluster
@@ -626,7 +604,7 @@ taskcluster
 slugId
 (
 )
-        
+    
 build_tasks
 [
 assemble_task_id
@@ -638,7 +616,7 @@ craft_assemble_raptor_task
 (
 variant
 )
-        
+    
 signing_task_id
 =
 taskcluster
@@ -646,7 +624,7 @@ taskcluster
 slugId
 (
 )
-        
+    
 signing_tasks
 [
 signing_task_id
@@ -660,6 +638,19 @@ assemble_task_id
 variant
 is_staging
 )
+    
+for
+abi
+in
+(
+'
+aarch64
+'
+'
+arm
+'
+)
+:
         
 all_raptor_craft_functions
 =
@@ -673,7 +664,7 @@ for_suite
 =
 i
 )
-            
+                
 for
 i
 in
@@ -682,15 +673,15 @@ range
 1
 28
 )
-        
+            
 ]
 +
 [
-            
+                
 BUILDER
 .
 craft_raptor_youtube_playback_task
-        
+            
 ]
         
 for
@@ -704,7 +695,7 @@ args
 (
 signing_task_id
 mozharness_task_id
-variant
+abi
 gecko_revision
 )
             
@@ -733,55 +724,35 @@ def
 release
 (
 channel
+engine
 is_staging
 version_name
 )
 :
     
-variants
+variant
 =
-get_variants_for_build_type
+get_variant
 (
+'
+fenix
+'
++
 channel
-)
-    
-architectures
-=
-[
-variant
 .
-abi
-for
-variant
-in
-variants
-]
-    
-apk_paths
-=
-[
-"
-public
-/
-build
-/
-{
-}
-/
-target
-.
-apk
-"
-.
-format
+capitalize
 (
-arch
 )
-for
-arch
-in
-architectures
-]
+engine
+)
+    
+taskcluster_apk_paths
+=
+variant
+.
+upstream_artifacts
+(
+)
     
 build_tasks
 =
@@ -815,8 +786,7 @@ BUILDER
 .
 craft_assemble_release_task
 (
-architectures
-channel
+variant
 is_staging
 version_name
 )
@@ -841,9 +811,7 @@ craft_release_signing_task
         
 build_task_id
         
-apk_paths
-=
-apk_paths
+taskcluster_apk_paths
         
 channel
 =
@@ -875,9 +843,7 @@ craft_push_task
         
 signing_task_id
         
-apks
-=
-apk_paths
+taskcluster_apk_paths
         
 channel
 =
@@ -1006,56 +972,25 @@ a
 while
 yet
     
-build_type
+variant
 =
-'
-nightlyLegacy
-'
-    
-variants
-=
-get_variants_for_build_type
+get_variant
 (
-build_type
+'
+fenixNightlyLegacy
+'
+'
+geckoNightly
+'
 )
     
-architectures
+taskcluster_apk_paths
 =
-[
 variant
 .
-abi
-for
-variant
-in
-variants
-]
-    
-apk_paths
-=
-[
-"
-public
-/
-build
-/
-{
-}
-/
-target
-.
-apk
-"
-.
-format
+upstream_artifacts
 (
-arch
 )
-for
-arch
-in
-architectures
-]
     
 build_tasks
 =
@@ -1094,8 +1029,7 @@ BUILDER
 .
 craft_assemble_release_task
 (
-architectures
-build_type
+variant
 is_staging
 version_name
 )
@@ -1120,9 +1054,7 @@ craft_release_signing_task
         
 build_task_id
         
-apk_paths
-=
-apk_paths
+taskcluster_apk_paths
         
 channel
 =
@@ -1180,9 +1112,7 @@ craft_push_task
         
 signing_task_id
         
-apks
-=
-apk_paths
+taskcluster_apk_paths
         
 channel
 =
@@ -1219,6 +1149,11 @@ is_staging
     
 )
     
+if
+not
+is_staging
+:
+        
 nimbledroid_task_id
 =
 taskcluster
@@ -1226,7 +1161,7 @@ taskcluster
 slugId
 (
 )
-    
+        
 other_tasks
 [
 nimbledroid_task_id
@@ -1236,9 +1171,9 @@ BUILDER
 .
 craft_upload_apk_nimbledroid_task
 (
-        
+            
 build_task_id
-    
+        
 )
     
 return
@@ -1420,41 +1355,15 @@ result
 .
 command
     
-taskcluster_queue
-=
-taskcluster
-.
-Queue
-(
-{
-'
-baseUrl
-'
-:
-'
-http
-:
-/
-/
-taskcluster
-/
-queue
-/
-v1
-'
-}
-)
-    
 if
 command
-in
-(
+=
+=
 '
 pull
 -
 request
 '
-)
 :
         
 ordered_groups_of_tasks
@@ -1465,12 +1374,11 @@ pr
     
 elif
 command
-in
-(
+=
+=
 '
 push
 '
-)
 :
         
 ordered_groups_of_tasks
@@ -1540,6 +1448,9 @@ release
 (
 '
 nightly
+'
+'
+geckoNightly
 '
 result
 .
@@ -1671,6 +1582,9 @@ release
 '
 beta
 '
+'
+geckoBeta
+'
 result
 .
 staging
@@ -1694,6 +1608,9 @@ release
 (
 '
 production
+'
+'
+geckoBeta
 '
 result
 .

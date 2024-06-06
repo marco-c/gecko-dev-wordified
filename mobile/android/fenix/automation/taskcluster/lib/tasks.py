@@ -309,123 +309,11 @@ def
 craft_assemble_release_task
 (
 self
-architectures
-build_type
+variant
 is_staging
 version_name
 )
 :
-        
-artifacts
-=
-{
-            
-'
-public
-/
-build
-/
-{
-}
-/
-target
-.
-apk
-'
-.
-format
-(
-arch
-)
-:
-{
-                
-"
-type
-"
-:
-'
-file
-'
-                
-"
-path
-"
-:
-'
-/
-opt
-/
-fenix
-/
-app
-/
-build
-/
-outputs
-/
-apk
-/
-'
-                        
-'
-{
-arch
-}
-/
-{
-build_type
-}
-/
-app
--
-{
-arch
-}
--
-{
-build_type
-}
--
-unsigned
-.
-apk
-'
-.
-format
-(
-arch
-=
-arch
-build_type
-=
-build_type
-)
-                
-"
-expires
-"
-:
-taskcluster
-.
-stringDate
-(
-taskcluster
-.
-fromNow
-(
-DEFAULT_EXPIRES_IN
-)
-)
-            
-}
-            
-for
-arch
-in
-architectures
-        
-}
         
 if
 is_staging
@@ -463,6 +351,8 @@ fenix
 .
 format
 (
+variant
+.
 build_type
 )
         
@@ -565,6 +455,8 @@ xml
 .
 format
 (
+variant
+.
 build_type
 )
 )
@@ -577,6 +469,8 @@ capitalized_build_type
 =
 upper_case_first_letter
 (
+variant
+.
 build_type
 )
         
@@ -739,7 +633,11 @@ secret_index
             
 artifacts
 =
+variant
+.
 artifacts
+(
+)
             
 routes
 =
@@ -788,6 +686,8 @@ A
 .
 format
 (
+variant
+.
 build_type
 )
                 
@@ -885,7 +785,7 @@ format
 (
 variant
 .
-for_gradle_command
+name
 )
         
 )
@@ -910,7 +810,7 @@ format
 (
 variant
 .
-raw
+name
 )
             
 description
@@ -928,7 +828,7 @@ format
 (
 variant
 .
-raw
+name
 )
             
 command
@@ -937,9 +837,10 @@ command
             
 artifacts
 =
-_craft_artifacts_from_variant
-(
 variant
+.
+artifacts
+(
 )
             
 treeherder
@@ -972,9 +873,11 @@ machine
 platform
 '
 :
-variant
-.
-platform
+'
+android
+-
+all
+'
                 
 }
                 
@@ -1004,21 +907,6 @@ variant
 )
 :
         
-assemble_gradle_command
-=
-'
-assemble
-{
-}
-'
-.
-format
-(
-variant
-.
-for_gradle_command
-)
-        
 return
 self
 .
@@ -1038,7 +926,7 @@ format
 (
 variant
 .
-raw
+name
 )
             
 description
@@ -1056,18 +944,30 @@ format
 (
 variant
 .
-raw
+name
 )
             
 gradle_task
 =
-assemble_gradle_command
+'
+assemble
+{
+}
+'
+.
+format
+(
+variant
+.
+name
+)
             
 artifacts
 =
-_craft_artifacts_from_variant
-(
 variant
+.
+artifacts
+(
 )
             
 treeherder
@@ -1095,14 +995,16 @@ machine
 '
 :
 {
-                  
+                    
 '
 platform
 '
 :
-variant
-.
-platform
+'
+android
+-
+all
+'
                 
 }
                 
@@ -1129,47 +1031,11 @@ craft_test_pr_task
 (
 self
 variant
-run_coverage
-=
-False
 )
 :
         
-test_gradle_command
+command
 =
-'
--
-Pcoverage
-jacoco
-{
-}
-TestReport
-'
-.
-format
-(
-variant
-.
-for_gradle_command
-)
-\
-            
-if
-(
-run_coverage
-and
-variant
-.
-abi
-=
-=
-'
-aarch64
-'
-)
-\
-            
-else
 '
 test
 {
@@ -1181,77 +1047,8 @@ format
 (
 variant
 .
-for_gradle_command
+name
 )
-        
-post_gradle_command
-=
-(
-'
-automation
-/
-taskcluster
-/
-upload_coverage_report
-.
-sh
-'
-if
-run_coverage
-else
-'
-'
-)
-        
-if
-variant
-.
-abi
-=
-=
-'
-aarch64
-'
-:
-            
-command
-=
-'
-&
-&
-'
-.
-join
-(
-                
-cmd
-                
-for
-commands
-in
-(
-(
-test_gradle_command
-)
-post_gradle_command
-)
-                
-for
-cmd
-in
-commands
-                
-if
-cmd
-            
-)
-        
-else
-:
-            
-command
-=
-test_gradle_command
         
 return
 self
@@ -1272,7 +1069,7 @@ format
 (
 variant
 .
-raw
+name
 )
             
 description
@@ -1290,7 +1087,7 @@ format
 (
 variant
 .
-raw
+name
 )
             
 gradle_task
@@ -1327,9 +1124,11 @@ machine
 platform
 '
 :
-variant
-.
-platform
+'
+android
+-
+all
+'
                 
 }
                 
@@ -3392,9 +3191,6 @@ test
 }
 .
 latest
-.
-{
-}
 "
 .
 format
@@ -3416,9 +3212,6 @@ self
 date
 .
 day
-variant
-.
-abi
             
 )
             
@@ -3452,9 +3245,6 @@ revision
 .
 {
 }
-.
-{
-}
 "
 .
 format
@@ -3479,9 +3269,6 @@ day
 self
 .
 commit
-variant
-.
-abi
             
 )
             
@@ -3503,17 +3290,11 @@ performance
 test
 .
 latest
-.
-{
-}
 "
 .
 format
 (
 staging_prefix
-variant
-.
-abi
 )
         
 ]
@@ -3535,9 +3316,9 @@ sign
 .
 format
 (
-variant
-.
-raw
+'
+forPerformanceTest
+'
 )
             
 description
@@ -3553,9 +3334,9 @@ variant
 .
 format
 (
-variant
-.
-raw
+'
+forPerformanceTest
+'
 )
             
 signing_type
@@ -3570,9 +3351,11 @@ assemble_task_id
             
 apk_paths
 =
-[
-DEFAULT_APK_ARTIFACT_LOCATION
-]
+variant
+.
+upstream_artifacts
+(
+)
             
 routes
 =
@@ -3586,9 +3369,9 @@ treeherder
 groupSymbol
 '
 :
-variant
-.
-build_type
+'
+forPerformanceTest
+'
                 
 '
 jobKind
@@ -3608,9 +3391,11 @@ machine
 platform
 '
 :
-variant
-.
-platform
+'
+android
+-
+all
+'
                 
 }
                 
@@ -3932,7 +3717,7 @@ craft_push_task
         
 self
 signing_task_id
-apks
+apk_paths
 channel
 is_staging
 =
@@ -3994,7 +3779,7 @@ upstreamArtifacts
 paths
 "
 :
-apks
+apk_paths
                     
 "
 taskId
@@ -4211,7 +3996,7 @@ craft_function
 (
 signing_task_id
 mozharness_task_id
-variant
+abi
 gecko_revision
 force_run_on_64_bit_device
 =
@@ -4229,7 +4014,7 @@ signing_task_id
                 
 mozharness_task_id
                 
-variant
+abi
                 
 gecko_revision
                 
@@ -4309,7 +4094,7 @@ craft_raptor_youtube_playback_task
 self
 signing_task_id
 mozharness_task_id
-variant
+abi
 gecko_revision
                                            
 force_run_on_64_bit_device
@@ -4328,7 +4113,7 @@ signing_task_id
             
 mozharness_task_id
             
-variant
+abi
             
 gecko_revision
             
@@ -4388,7 +4173,7 @@ signing_task_id
         
 mozharness_task_id
         
-variant
+abi
         
 gecko_revision
         
@@ -4429,8 +4214,6 @@ p2
 if
 force_run_on_64_bit_device
 or
-variant
-.
 abi
 =
 =
@@ -4477,8 +4260,6 @@ api
 '
         
 elif
-variant
-.
 abi
 =
 =
@@ -4508,8 +4289,6 @@ api
 '
         
 elif
-variant
-.
 abi
 =
 =
@@ -4553,8 +4332,6 @@ architecture
 .
 format
 (
-variant
-.
 abi
 )
 )
@@ -4565,8 +4342,7 @@ task_name
 {
 }
 :
-{
-}
+forPerformanceTest
 {
 }
 '
@@ -4575,9 +4351,6 @@ format
 (
             
 name_prefix
-variant
-.
-raw
 '
 (
 on
@@ -4749,8 +4522,6 @@ for
 cases
         
 if
-variant
-.
 abi
 =
 =
@@ -5482,57 +5253,6 @@ Treeherder
 }
         
 )
-def
-_craft_artifacts_from_variant
-(
-variant
-)
-:
-    
-return
-{
-        
-DEFAULT_APK_ARTIFACT_LOCATION
-:
-{
-            
-'
-type
-'
-:
-'
-file
-'
-            
-'
-path
-'
-:
-variant
-.
-apk_absolute_path
-(
-)
-            
-'
-expires
-'
-:
-taskcluster
-.
-stringDate
-(
-taskcluster
-.
-fromNow
-(
-DEFAULT_EXPIRES_IN
-)
-)
-        
-}
-    
-}
 def
 schedule_task
 (
