@@ -1291,6 +1291,11 @@ AV_FUNC_AVUTIL_60
 )
 AV_FUNC_OPTION
 (
+av_channel_layout_copy
+AV_FUNC_AVUTIL_60
+)
+AV_FUNC_OPTION
+(
 av_buffer_get_opaque
 (
 AV_FUNC_AVUTIL_56
