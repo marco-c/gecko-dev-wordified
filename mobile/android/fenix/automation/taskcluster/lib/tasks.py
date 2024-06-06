@@ -2450,7 +2450,7 @@ self
 name
 description
 signing_type
-assemble_task_id
+assemble_task_label
 apk_paths
 routes
 treeherder
@@ -2492,7 +2492,19 @@ signing_format
 taskId
 '
 :
-assemble_task_id
+{
+'
+task
+-
+reference
+'
+:
+'
+<
+build
+>
+'
+}
                 
 '
 taskType
@@ -2552,9 +2564,13 @@ v1
             
 dependencies
 =
-[
-assemble_task_id
-]
+{
+'
+build
+'
+:
+assemble_task_label
+}
             
 routes
 =
@@ -3002,7 +3018,7 @@ craft_raptor_signing_task
 (
         
 self
-assemble_task_id
+assemble_task_label
 variant
 is_staging
     
@@ -3206,9 +3222,9 @@ signing_type
 dep
 "
             
-assemble_task_id
+assemble_task_label
 =
-assemble_task_id
+assemble_task_label
             
 apk_paths
 =
@@ -3510,7 +3526,7 @@ is_staging
 else
 channel
             
-assemble_task_id
+assemble_task_label
 =
 build_task_id
             
@@ -3583,7 +3599,7 @@ craft_push_task
 (
         
 self
-signing_task_id
+signing_task_label
 apk_paths
 channel
 is_staging
@@ -3652,7 +3668,19 @@ apk_paths
 taskId
 "
 :
-signing_task_id
+{
+'
+task
+-
+reference
+'
+:
+'
+<
+signing
+>
+'
+}
                     
 "
 taskType
@@ -3721,9 +3749,13 @@ v1
             
 dependencies
 =
-[
-signing_task_id
-]
+{
+'
+signing
+'
+:
+signing_task_label
+}
             
 routes
 =
