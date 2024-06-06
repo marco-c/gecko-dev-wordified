@@ -190,6 +190,12 @@ openNewBrowserWindow
 (
 )
 ;
+await
+switchToWindow
+(
+win
+)
+;
 const
 TEST_ROOT
 =
