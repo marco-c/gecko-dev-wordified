@@ -1116,6 +1116,13 @@ DefaultInterval
 ;
 if
 (
+mLastCaptureTime
+.
+IsNull
+(
+)
+|
+|
 next
 <
 =
