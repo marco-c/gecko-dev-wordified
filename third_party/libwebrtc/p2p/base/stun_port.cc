@@ -2024,12 +2024,9 @@ Candidates
 0
 ]
 .
-type
+is_local
 (
 )
-=
-=
-LOCAL_PORT_TYPE
 |
 |
 mdns_name_registration_status
@@ -4351,12 +4348,9 @@ if
 it
 -
 >
-type
+is_stun
 (
 )
-=
-=
-STUN_PORT_TYPE
 &
 &
 it
