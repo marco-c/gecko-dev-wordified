@@ -1128,6 +1128,11 @@ aCallerType
 )
 override
 ;
+void
+ResetScreenBounds
+(
+)
+;
 LayoutDeviceIntRect
 GetScreenBounds
 (
@@ -3255,6 +3260,15 @@ GdkWindow
 mGdkWindow
 =
 nullptr
+;
+mozilla
+:
+:
+Maybe
+<
+GdkPoint
+>
+mGdkWindowRootOrigin
 ;
 PlatformCompositorWidgetDelegate
 *
