@@ -51,10 +51,7 @@ use
 libc
 :
 :
-{
-self
 cmsghdr
-}
 ;
 use
 std

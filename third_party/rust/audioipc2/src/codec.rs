@@ -106,10 +106,7 @@ use
 bincode
 :
 :
-{
-self
 Options
-}
 ;
 use
 byteorder

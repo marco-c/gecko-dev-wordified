@@ -125,10 +125,7 @@ std
 convert
 :
 :
-{
-From
 TryInto
-}
 ;
 use
 std
