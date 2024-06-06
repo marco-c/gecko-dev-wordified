@@ -516,6 +516,10 @@ channel
 =
 channel
         
+variant
+=
+variant
+        
 #
 TODO
 until
@@ -594,26 +598,7 @@ fennec
 production
 '
     
-build_tasks
-=
-{
-}
-    
-signing_tasks
-=
-{
-}
-    
-build_task_id
-=
-_generate_slug_id
-(
-)
-    
-build_tasks
-[
-build_task_id
-]
+build_task
 =
 builder
 .
@@ -625,23 +610,19 @@ is_staging
 version_name
 )
     
-signing_task_id
-=
-_generate_slug_id
-(
-)
-    
-signing_tasks
-[
-signing_task_id
-]
+signing_task
 =
 builder
 .
 craft_release_signing_task
 (
         
-build_task_id
+build_task
+[
+'
+label
+'
+]
         
 variant
 .
@@ -651,15 +632,17 @@ upstream_artifacts
         
 channel
         
+variant
+        
 is_staging
     
 )
     
 return
-(
-build_tasks
-signing_tasks
-)
+[
+build_task
+signing_task
+]
 def
 nightly_to_production_app
 (
@@ -755,36 +738,7 @@ upstream_artifacts
 (
 )
     
-build_tasks
-=
-{
-}
-    
-signing_tasks
-=
-{
-}
-    
-push_tasks
-=
-{
-}
-    
-other_tasks
-=
-{
-}
-    
-build_task_id
-=
-_generate_slug_id
-(
-)
-    
-build_tasks
-[
-build_task_id
-]
+build_task
 =
 builder
 .
@@ -801,23 +755,19 @@ is_staging
 version_name
 )
     
-signing_task_id
-=
-_generate_slug_id
-(
-)
-    
-signing_tasks
-[
-signing_task_id
-]
+signing_task
 =
 builder
 .
 craft_release_signing_task
 (
         
-build_task_id
+build_task
+[
+'
+label
+'
+]
         
 taskcluster_apk_paths
         
@@ -855,23 +805,19 @@ False
     
 )
     
-push_task_id
-=
-_generate_slug_id
-(
-)
-    
-push_tasks
-[
-push_task_id
-]
+push_task
 =
 builder
 .
 craft_push_task
 (
         
-signing_task_id
+signing_task
+[
+'
+label
+'
+]
         
 taskcluster_apk_paths
         
@@ -898,6 +844,10 @@ nightly
 "
 track
         
+variant
+=
+variant
+        
 override_google_play_track
 =
 '
@@ -910,47 +860,35 @@ is_staging
     
 )
     
+tasks
+=
+[
+build_task
+signing_task
+push_task
+]
+    
 if
 not
 is_staging
 :
         
-nimbledroid_task_id
-=
-_generate_slug_id
+tasks
+.
+append
 (
-)
-        
-other_tasks
-[
-nimbledroid_task_id
-]
-=
 builder
 .
 craft_upload_apk_nimbledroid_task
 (
-            
-build_task_id
-        
+build_task
+[
+'
+label
+'
+]
+)
 )
     
 return
-(
-build_tasks
-signing_tasks
-push_tasks
-other_tasks
-)
-def
-_generate_slug_id
-(
-)
-:
-    
-return
-taskcluster
-.
-slugId
-(
-)
+tasks

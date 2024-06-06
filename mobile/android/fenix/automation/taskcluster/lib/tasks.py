@@ -3604,6 +3604,7 @@ self
 signing_task_label
 apk_paths
 channel
+variant
 is_staging
 =
 False
@@ -3808,7 +3809,16 @@ name
 "
 Push
 task
+{
+}
 "
+.
+format
+(
+variant
+.
+name
+)
             
 description
 =
