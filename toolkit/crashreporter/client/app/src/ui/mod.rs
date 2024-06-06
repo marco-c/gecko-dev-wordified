@@ -1704,9 +1704,11 @@ string
 "
 crashreporter
 -
-crash
+crashed
 -
-message
+and
+-
+restore
 "
 )
 )
