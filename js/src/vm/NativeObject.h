@@ -6908,9 +6908,9 @@ newCapacity
 bool
 allocateSlots
 (
-JSContext
-*
-cx
+Nursery
+&
+nursery
 uint32_t
 newCapacity
 )
@@ -8793,9 +8793,9 @@ nodiscard
 bool
 setUniqueId
 (
-JSContext
+JSRuntime
 *
-cx
+runtime
 uint64_t
 uid
 )
