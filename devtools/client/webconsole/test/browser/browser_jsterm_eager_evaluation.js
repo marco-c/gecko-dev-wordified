@@ -2162,7 +2162,6 @@ waitForEagerEvaluationResult
 (
 hud
 function
-XMLDocument
 (
 )
 )
