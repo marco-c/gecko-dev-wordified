@@ -161,14 +161,6 @@ dom
 :
 GPUCompilationMessageType
 mType
-=
-dom
-:
-:
-GPUCompilationMessageType
-:
-:
-Error
 ;
 uint64_t
 mLineNum
@@ -210,6 +202,11 @@ Device
 *
 const
 aParent
+dom
+:
+:
+GPUCompilationMessageType
+aType
 uint64_t
 aLineNum
 uint64_t

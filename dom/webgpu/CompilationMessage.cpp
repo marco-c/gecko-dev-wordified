@@ -142,6 +142,11 @@ Device
 *
 const
 aParent
+dom
+:
+:
+GPUCompilationMessageType
+aType
 uint64_t
 aLineNum
 uint64_t
@@ -159,6 +164,10 @@ aMessage
 ChildOf
 (
 aParent
+)
+mType
+(
+aType
 )
 mLineNum
 (
