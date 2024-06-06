@@ -114,3 +114,12 @@ Core
 General
 "
 )
+SCHEDULES
+.
+exclusive
+=
+[
+"
+ios
+"
+]

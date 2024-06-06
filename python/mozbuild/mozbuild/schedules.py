@@ -354,6 +354,23 @@ ios
 "
     
 #
+application
+    
+"
+firefox
+"
+    
+"
+fenix
+"
+    
+"
+focus
+-
+android
+"
+    
+#
 broad
 test
 harness

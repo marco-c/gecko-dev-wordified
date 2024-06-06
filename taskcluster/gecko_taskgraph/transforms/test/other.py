@@ -9815,6 +9815,15 @@ platform
 )
 )
         
+schedules
+.
+add
+(
+"
+firefox
+"
+)
+        
 task
 [
 "
