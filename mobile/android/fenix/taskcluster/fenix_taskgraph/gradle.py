@@ -75,7 +75,6 @@ def
 get_variant
 (
 build_type
-engine
 )
 :
     
@@ -105,16 +104,6 @@ build_type
 =
 =
 build_type
-and
-variant
-[
-"
-engine
-"
-]
-=
-=
-engine
     
 ]
     
@@ -146,19 +135,12 @@ type
 {
 }
 "
-and
-engine
-"
-{
-}
-"
 '
 .
 format
 (
             
 build_type
-engine
         
 )
 )
@@ -184,11 +166,6 @@ type
 {
 }
 "
-and
-engine
-"
-{
-}
 "
 :
 {
@@ -199,7 +176,6 @@ format
 (
             
 build_type
-engine
 matching_variants
         
 )
