@@ -1974,6 +1974,11 @@ ThreadSafeWorkerRef
 >
 mWorkerRef
 ;
+uint64_t
+mPacketsOutput
+=
+0
+;
 }
 ;
 }
