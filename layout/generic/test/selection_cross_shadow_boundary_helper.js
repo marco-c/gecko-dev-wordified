@@ -16,6 +16,9 @@ fromY
 toTarget
 toX
 toY
+withAccelKey
+=
+false
 )
 {
 synthesizeMouse
@@ -29,6 +32,9 @@ type
 "
 mousemove
 "
+accelKey
+:
+withAccelKey
 }
 )
 ;
@@ -43,6 +49,9 @@ type
 "
 mousedown
 "
+accelKey
+:
+withAccelKey
 }
 )
 ;
@@ -57,6 +66,9 @@ type
 "
 mousemove
 "
+accelKey
+:
+withAccelKey
 }
 )
 ;
@@ -71,6 +83,9 @@ type
 "
 mouseup
 "
+accelKey
+:
+withAccelKey
 }
 )
 ;
