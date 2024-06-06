@@ -1477,18 +1477,18 @@ treeherder
 symbol
 "
 ]
-=
+.
+replace
+(
+"
+Btime
+"
 "
 Btime
 -
 nofis
-(
-%
-s
-)
 "
-%
-symbol
+)
         
 task
 [
