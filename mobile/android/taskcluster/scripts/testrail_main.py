@@ -328,24 +328,11 @@ e
 Release
 information
     
-#
 release_version
 =
 get_release_version
 (
 )
-#
-disable
-for
-testing
-    
-release_version
-=
-"
-125
-.
-0b6
-"
     
 release_type
 =
@@ -519,23 +506,10 @@ testrail_product_type
         
 }
         
-#
-disable
-for
-testing
-        
-#
 send_success_notification
 (
 success_values
 SUCCESS_CHANNEL_ID
-options
-)
-        
-send_success_notification
-(
-success_values
-ERROR_CHANNEL_ID
 options
 )
     
