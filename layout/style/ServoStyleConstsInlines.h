@@ -454,6 +454,13 @@ StyleContainerRule
 >
 ;
 template
+struct
+StyleStrong
+<
+StyleScopeRule
+>
+;
+template
 <
 typename
 T

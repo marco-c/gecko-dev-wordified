@@ -2958,6 +2958,12 @@ StyleCssRuleType
 :
 FontPaletteValues
 :
+case
+StyleCssRuleType
+:
+:
+Scope
+:
 break
 ;
 }
