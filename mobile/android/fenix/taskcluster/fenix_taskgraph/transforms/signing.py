@@ -137,6 +137,11 @@ signing
 -
 type
 "
+"
+signing
+-
+format
+"
 )
 :
             
@@ -249,6 +254,19 @@ in
 tasks
 :
         
+signing_format
+=
+task
+.
+pop
+(
+"
+signing
+-
+format
+"
+)
+        
 for
 upstream_artifact
 in
@@ -275,9 +293,7 @@ formats
 ]
 =
 [
-"
-autograph_apk
-"
+signing_format
 ]
         
 yield
