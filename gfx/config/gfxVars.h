@@ -840,6 +840,13 @@ WebRenderOverlayVpSuperResolution
 bool
 false
 )
+\
+_
+(
+AllowWebGPUPresentWithoutReadback
+bool
+false
+)
 /
 *
 Add
