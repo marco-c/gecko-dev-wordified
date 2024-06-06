@@ -2411,14 +2411,6 @@ false
 ;
 }
 mFontFaceSet
--
->
-RemoveLoader
-(
-this
-)
-;
-mFontFaceSet
 =
 nullptr
 ;
