@@ -65003,6 +65003,10 @@ IndexedDBCipherKeyManager
 :
 nullptr
 )
+mDatabaseVersion
+(
+0
+)
 mEnforcingQuota
 (
 aEnforcingQuota
@@ -87731,6 +87735,14 @@ version
 )
 =
 mRequestedVersion
+;
+mFileManager
+-
+>
+UpdateDatabaseVersion
+(
+mRequestedVersion
+)
 ;
 nsresult
 rv
