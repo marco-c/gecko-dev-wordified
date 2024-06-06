@@ -225,20 +225,22 @@ type
         
 return
 build_type
-=
-=
+in
+(
 "
 nightly
 "
-or
-build_type
-=
-=
 "
 focus
 -
 nightly
 "
+"
+fenix
+-
+nightly
+"
+)
     
 index_path
 =
