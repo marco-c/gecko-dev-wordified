@@ -1385,8 +1385,17 @@ aExtraOpts
 )
 {
 #
-ifdef
+if
+defined
+(
 ANDROID
+)
+|
+|
+defined
+(
+XP_IOS
+)
 /
 /
 The
@@ -1394,6 +1403,8 @@ code
 to
 support
 Android
+/
+iOS
 is
 added
 in
