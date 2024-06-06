@@ -951,7 +951,7 @@ void
 JSONPrinter
 :
 :
-formatProperty
+formatPropertyVA
 (
 const
 char

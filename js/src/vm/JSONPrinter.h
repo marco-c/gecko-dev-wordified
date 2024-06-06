@@ -454,7 +454,7 @@ MOZ_FORMAT_PRINTF
 )
 ;
 void
-formatProperty
+formatPropertyVA
 (
 const
 char
