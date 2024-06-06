@@ -12809,6 +12809,9 @@ CursorType
 SendContinueInternal
 (
 const
+int64_t
+aRequestId
+const
 CursorRequestParams
 &
 aParams
@@ -14063,6 +14066,7 @@ PBackgroundIDBCursorChild
 :
 SendContinue
 (
+aRequestId
 params
 currentKey
 currentObjectStoreKey

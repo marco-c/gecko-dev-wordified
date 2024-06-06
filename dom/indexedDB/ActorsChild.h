@@ -2446,6 +2446,9 @@ void
 SendContinueInternal
 (
 const
+int64_t
+aRequestId
+const
 CursorRequestParams
 &
 aParams
@@ -2655,6 +2658,10 @@ SendContinueInternal
 bool
 SendContinue
 (
+const
+int64_t
+&
+aRequestId
 const
 CursorRequestParams
 &
