@@ -1306,7 +1306,9 @@ ui
 test
 .
 sh
-aarch64
+arm64
+-
+v8a
 -
 1
 '
@@ -1323,7 +1325,9 @@ ui
 test
 .
 sh
-arm
+armeabi
+-
+v7a
 -
 1
 '
