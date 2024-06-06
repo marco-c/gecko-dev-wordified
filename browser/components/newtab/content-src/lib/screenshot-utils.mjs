@@ -282,7 +282,7 @@ return
 {
 url
 :
-global
+globalThis
 .
 URL
 .
@@ -358,7 +358,7 @@ localImage
 )
 )
 {
-global
+globalThis
 .
 URL
 .

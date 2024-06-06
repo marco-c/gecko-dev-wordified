@@ -60,12 +60,12 @@ export
 const
 IS_NEWTAB
 =
-global
+globalThis
 .
 document
 &
 &
-global
+globalThis
 .
 document
 .

@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 let
 usablePerfObj
 =
@@ -252,7 +247,7 @@ getEntriesByName
 function
 getEntriesByName
 (
-name
+entryName
 type
 )
 {
@@ -263,7 +258,7 @@ _perf
 .
 getEntriesByName
 (
-name
+entryName
 type
 )
 ;
@@ -665,7 +660,7 @@ info
 /
 getMostRecentAbsMarkStartByName
 (
-name
+entryName
 )
 {
 let
@@ -675,7 +670,7 @@ this
 .
 getEntriesByName
 (
-name
+entryName
 "
 mark
 "
@@ -699,7 +694,7 @@ with
 the
 name
 {
-name
+entryName
 }
 )
 ;
