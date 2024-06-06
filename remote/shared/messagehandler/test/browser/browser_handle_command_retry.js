@@ -127,10 +127,12 @@ windowglobal
 /
 retry
 .
-jsm
+sys
+.
+mjs
+/
+/
 and
-/
-/
 then
 trigger
 reload

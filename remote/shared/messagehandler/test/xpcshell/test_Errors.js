@@ -118,7 +118,9 @@ webdriver
 /
 Errors
 .
-jsm
+sys
+.
+mjs
 and
 shared
 /
@@ -126,7 +128,9 @@ messagehandler
 /
 Errors
 .
-jsm
+sys
+.
+mjs
 share
 /
 /

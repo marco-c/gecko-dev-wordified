@@ -238,7 +238,9 @@ the
 windowglobal
 command
 .
-jsm
+sys
+.
+mjs
 module
 applies
 the
