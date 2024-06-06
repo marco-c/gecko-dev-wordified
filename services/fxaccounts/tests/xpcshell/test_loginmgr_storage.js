@@ -52,7 +52,9 @@ logging
 from
 FxAccounts
 .
-jsm
+sys
+.
+mjs
 Services
 .
 prefs
