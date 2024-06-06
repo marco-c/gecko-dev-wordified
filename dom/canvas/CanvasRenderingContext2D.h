@@ -5216,12 +5216,6 @@ mHasShutdown
 =
 false
 ;
-RefPtr
-<
-CanvasShutdownObserver
->
-mShutdownObserver
-;
 bool
 AddShutdownObserver
 (

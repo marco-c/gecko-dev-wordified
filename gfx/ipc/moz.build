@@ -145,6 +145,11 @@ CanvasRenderThread
 h
 "
 "
+CanvasShutdownManager
+.
+h
+"
+"
 CrossProcessPaint
 .
 h
@@ -264,6 +269,11 @@ cpp
 "
 "
 CanvasRenderThread
+.
+cpp
+"
+"
+CanvasShutdownManager
 .
 cpp
 "
