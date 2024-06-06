@@ -554,6 +554,12 @@ title
 "
 )
 ;
+gBrowser
+.
+selectedTab
+=
+tab
+;
 const
 toolbox
 =
@@ -562,9 +568,7 @@ gDevTools
 .
 showToolboxForTab
 (
-gBrowser
-.
-selectedTab
+tab
 {
 toolId
 :
