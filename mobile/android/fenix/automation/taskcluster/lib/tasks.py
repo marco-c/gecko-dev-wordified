@@ -1487,7 +1487,7 @@ def
 craft_upload_apk_nimbledroid_task
 (
 self
-assemble_task_id
+assemble_task_label
 )
 :
         
@@ -1674,9 +1674,13 @@ nimbledroid
             
 dependencies
 =
-[
-assemble_task_id
-]
+{
+'
+build
+'
+:
+assemble_task_label
+}
         
 )
     
