@@ -354,6 +354,11 @@ aGivenProto
 )
 override
 ;
+[
+[
+nodiscard
+]
+]
 JSObject
 *
 GetOrCreateWrapper
@@ -473,8 +478,13 @@ PrivilegedJunkScope
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 virtual
-void
+bool
 LoadScript
 (
 const

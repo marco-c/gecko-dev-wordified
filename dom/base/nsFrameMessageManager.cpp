@@ -8907,6 +8907,10 @@ MOZ_ASSERT
 aRunInGlobalScope
 )
 ;
+return
+global
+&
+&
 global
 -
 >
@@ -8914,9 +8918,6 @@ LoadScript
 (
 aURL
 )
-;
-return
-true
 ;
 }
 nsresult
