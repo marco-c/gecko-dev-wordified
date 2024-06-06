@@ -111,6 +111,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 time_delta
@@ -238,6 +247,10 @@ CreateTimeController
 (
 TimeMode
 mode
+const
+FieldTrialsView
+*
+field_trials
 )
 {
 switch
@@ -260,6 +273,7 @@ make_unique
 RealTimeController
 >
 (
+field_trials
 )
 ;
 case
@@ -329,6 +343,10 @@ TimeMode
 mode
 EmulatedNetworkStatsGatheringMode
 stats_gathering_mode
+const
+FieldTrialsView
+*
+field_trials
 )
 :
 time_mode_
@@ -344,6 +362,7 @@ time_controller_
 CreateTimeController
 (
 mode
+field_trials
 )
 )
 clock_
