@@ -834,15 +834,6 @@ StyleCssRuleType
 :
 :
 Container
-|
-|
-type
-=
-=
-StyleCssRuleType
-:
-:
-Scope
 )
 ;
 }

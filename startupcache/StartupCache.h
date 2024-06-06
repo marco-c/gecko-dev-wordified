@@ -1844,9 +1844,6 @@ nsIFile
 >
 mFile
 ;
-mozilla
-:
-:
 loader
 :
 :
