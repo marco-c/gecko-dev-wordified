@@ -467,6 +467,13 @@ noqa
 -
 too
 long
+    
+r
+"
+nightly
+-
+simulation
+"
 ]
 def
 index_exists
