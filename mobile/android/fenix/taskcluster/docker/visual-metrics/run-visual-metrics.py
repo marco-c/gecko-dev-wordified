@@ -85,6 +85,8 @@ json
 import
 os
 import
+statistics
+import
 subprocess
 import
 sys
@@ -832,19 +834,6 @@ subtest
 return
 subtest
     
-series
-=
-subtest
-[
-"
-replicates
-"
-]
-[
-1
-:
-]
-    
 subtest
 [
 "
@@ -852,20 +841,16 @@ value
 "
 ]
 =
-float
+statistics
+.
+median
 (
-sum
-(
-series
-)
-)
-/
-float
-(
-len
-(
-series
-)
+subtest
+[
+"
+replicates
+"
+]
 )
     
 return
@@ -1563,11 +1548,11 @@ visualmetrics
 py
 "
                     
-video_location
+video_path
 =
 job
 .
-video_location
+video_path
                     
 error
 =
