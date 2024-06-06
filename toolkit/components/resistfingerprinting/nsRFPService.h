@@ -417,6 +417,8 @@ MOZ_WIDGET_ANDROID
 define
 SPOOFED_UA_OS
 "
+Linux
+;
 Android
 10
 ;
@@ -430,6 +432,8 @@ SPOOFED_APPVERSION
 .
 0
 (
+Linux
+;
 Android
 10
 )
@@ -563,6 +567,8 @@ MOZ_WIDGET_ANDROID
 define
 SPOOFED_HTTP_UA_OS
 "
+Linux
+;
 Android
 10
 ;
