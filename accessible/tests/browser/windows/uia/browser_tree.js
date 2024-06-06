@@ -428,8 +428,6 @@ table
 async
 function
 (
-browser
-docAcc
 )
 {
 await
