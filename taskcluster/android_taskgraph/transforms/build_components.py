@@ -982,14 +982,6 @@ template
 "
             
 "
-text
--
-artifact
--
-template
-"
-            
-"
 jacoco
 -
 coverage
