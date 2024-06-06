@@ -183,6 +183,11 @@ focus
 -
 android
 "
+"
+firefox
+-
+android
+"
 )
 NUMBER_TYPES
 =
