@@ -123,6 +123,13 @@ pub
 struct
 QuitToken
 (
+#
+[
+allow
+(
+dead_code
+)
+]
 Rc
 <
 QuitTokenInternal
