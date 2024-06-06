@@ -3813,7 +3813,7 @@ eStartTouch
 :
 {
 bool
-canBePan
+canBePanOrZoom
 =
 aArg
 ;
@@ -3822,7 +3822,7 @@ mActiveElementManager
 >
 HandleTouchStart
 (
-canBePan
+canBePanOrZoom
 )
 ;
 /
@@ -3872,6 +3872,10 @@ can
 be
 -
 pan
+-
+or
+-
+zoom
 =
 %
 d
@@ -3883,7 +3887,7 @@ aArg
 if
 (
 !
-canBePan
+canBePanOrZoom
 )
 {
 MOZ_ASSERT

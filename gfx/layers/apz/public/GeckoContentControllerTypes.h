@@ -199,6 +199,8 @@ can
 be
 a
 pan
+or
+zoom
 0
 otherwise
 .
