@@ -571,6 +571,13 @@ UNIFIED_SOURCES
 "
 win
 /
+nsLocalHandlerAppWin
+.
+cpp
+"
+"
+win
+/
 nsMIMEInfoWin
 .
 cpp
