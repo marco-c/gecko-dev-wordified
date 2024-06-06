@@ -2063,6 +2063,13 @@ logSink
 =
 nsCycleCollector_createLogSink
 (
+/
+*
+aLogGC
+=
+*
+/
+true
 )
 ;
 logSink
