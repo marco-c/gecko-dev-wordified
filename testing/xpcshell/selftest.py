@@ -8216,17 +8216,6 @@ assertInLog
 run_test
 "
 )
-        
-self
-.
-assertNotInLog
-(
-"
-Task
-.
-jsm
-"
-)
     
 def
 testAddTaskSkip

@@ -130,7 +130,9 @@ test
 /
 module
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
