@@ -286,6 +286,17 @@ threadOptions
 ;
 }
 else
+if
+(
+!
+targetActor
+.
+threadActor
+.
+isDestroyed
+(
+)
+)
 {
 /
 /
