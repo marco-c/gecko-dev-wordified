@@ -240,6 +240,20 @@ fenix
 -
 nightly
 "
+"
+fenix
+-
+nightly
+-
+firebase
+"
+"
+focus
+-
+nightly
+-
+firebase
+"
 )
     
 index_path
