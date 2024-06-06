@@ -4034,8 +4034,9 @@ craft_function
 (
 signing_task_id
 mozharness_task_id
-abi
+variant_apk
 gecko_revision
+is_staging
 force_run_on_64_bit_device
 =
 False
@@ -4052,9 +4053,11 @@ signing_task_id
                 
 mozharness_task_id
                 
-abi
+variant_apk
                 
 gecko_revision
+                
+is_staging
                 
 name_prefix
 =
@@ -4132,9 +4135,10 @@ craft_raptor_youtube_playback_task
 self
 signing_task_id
 mozharness_task_id
-abi
+variant_apk
 gecko_revision
                                            
+is_staging
 force_run_on_64_bit_device
 =
 False
@@ -4151,9 +4155,11 @@ signing_task_id
             
 mozharness_task_id
             
-abi
+variant_apk
             
 gecko_revision
+            
+is_staging
             
 name_prefix
 =
@@ -4211,9 +4217,11 @@ signing_task_id
         
 mozharness_task_id
         
-abi
+variant_apk
         
 gecko_revision
+        
+is_staging
         
 name_prefix
         
@@ -4252,11 +4260,15 @@ p2
 if
 force_run_on_64_bit_device
 or
+variant_apk
+.
 abi
 =
 =
 '
-aarch64
+arm64
+-
+v8a
 '
 else
 '
@@ -4298,11 +4310,15 @@ api
 '
         
 elif
+variant_apk
+.
 abi
 =
 =
 '
-arm
+armeabi
+-
+v7a
 '
 :
             
@@ -4327,11 +4343,15 @@ api
 '
         
 elif
+variant_apk
+.
 abi
 =
 =
 '
-aarch64
+arm64
+-
+v8a
 '
 :
             
@@ -4370,6 +4390,8 @@ architecture
 .
 format
 (
+variant_apk
+.
 abi
 )
 )
@@ -4426,8 +4448,9 @@ format
 (
 _DEFAULT_TASK_URL
 signing_task_id
-                                                        
-DEFAULT_APK_ARTIFACT_LOCATION
+variant_apk
+.
+taskcluster_path
 )
         
 command
@@ -4560,11 +4583,15 @@ for
 cases
         
 if
+variant_apk
+.
 abi
 =
 =
 '
-arm
+armeabi
+-
+v7a
 '
 and
 test_name
@@ -4671,6 +4698,12 @@ on
 -
 failed
 '
+]
+if
+not
+is_staging
+else
+[
 ]
             
 payload
