@@ -5957,9 +5957,6 @@ ShowFilePicker
 initialDir
 )
 ;
-auto
-p2
-=
 promise
 -
 >
