@@ -59,9 +59,9 @@ mockPressureService
 >
 {
 const
-sampleRateInHz
+sampleIntervalInMs
 =
-10
+100
 ;
 const
 readings
@@ -162,9 +162,9 @@ changes
 ;
 }
 {
-sampleRate
+sampleInterval
 :
-sampleRateInHz
+sampleIntervalInMs
 }
 )
 ;
@@ -181,7 +181,7 @@ mockPressureService
 .
 startPlatformCollector
 (
-sampleRateInHz
+sampleIntervalInMs
 )
 ;
 let

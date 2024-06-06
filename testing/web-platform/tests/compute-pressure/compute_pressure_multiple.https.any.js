@@ -231,13 +231,11 @@ startPlatformCollector
 (
 /
 *
-sampleRate
+sampleInterval
 =
 *
 /
-5
-.
-0
+200
 )
 ;
 const
