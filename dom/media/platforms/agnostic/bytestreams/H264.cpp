@@ -65,11 +65,6 @@ h
 "
 #
 include
-<
-limits
->
-#
-include
 "
 AnnexB
 .
@@ -113,6 +108,13 @@ h
 #
 include
 "
+MediaInfo
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PodOperations
@@ -137,6 +139,11 @@ Try
 .
 h
 "
+#
+include
+<
+limits
+>
 #
 define
 READSE
