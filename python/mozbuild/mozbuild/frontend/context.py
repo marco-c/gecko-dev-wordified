@@ -9051,13 +9051,13 @@ directory
     
 *
 .
-jsm
+mjs
        
 Will
 match
 all
 .
-jsm
+mjs
 files
 in
 the
@@ -20678,9 +20678,6 @@ destination
 Some
 JavaScript
 modules
-(
-JSMs
-)
 are
 test
 -
@@ -20730,7 +20727,9 @@ foo
 '
 module
 .
-jsm
+sys
+.
+mjs
 '
 ]
 .
