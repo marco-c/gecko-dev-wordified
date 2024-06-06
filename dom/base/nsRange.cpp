@@ -20998,6 +20998,10 @@ SetStartBefore
 *
 node
 err
+AllowRangeCrossShadowBoundary
+:
+:
+Yes
 )
 ;
 if
@@ -21095,6 +21099,10 @@ SetEndBefore
 *
 firstNonSelectableContent
 err
+AllowRangeCrossShadowBoundary
+:
+:
+Yes
 )
 ;
 /
