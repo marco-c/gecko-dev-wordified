@@ -143,6 +143,7 @@ toolchain
 ]
 =
 [
+            
 "
 android
 -
@@ -150,6 +151,7 @@ sdk
 -
 linux
 "
+            
 "
 android
 -
@@ -157,6 +159,7 @@ gradle
 -
 dependencies
 "
+            
 "
 android
 -
@@ -166,6 +169,13 @@ python
 -
 envs
 "
+            
+"
+linux64
+-
+jdk
+"
+        
 ]
         
 fetches
