@@ -239,10 +239,11 @@ vars
 error
 "
 {
-args
+argsIgnorePattern
 :
 "
-none
+^
+_
 "
 vars
 :

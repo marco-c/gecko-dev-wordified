@@ -700,10 +700,11 @@ vars
 error
 "
 {
-args
+argsIgnorePattern
 :
 "
-none
+^
+_
 "
 vars
 :
@@ -2687,10 +2688,11 @@ vars
 error
 "
 {
-args
+argsIgnorePattern
 :
 "
-none
+^
+_
 "
 vars
 :
