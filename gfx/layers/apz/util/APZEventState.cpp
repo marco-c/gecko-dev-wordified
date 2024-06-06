@@ -3914,6 +3914,7 @@ mActiveElementManager
 >
 HandleTouchEnd
 (
+mEndTouchIsClick
 )
 ;
 break
