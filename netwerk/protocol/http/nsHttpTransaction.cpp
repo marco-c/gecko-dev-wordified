@@ -16738,10 +16738,10 @@ if
 (
 mCurrentHttpResponseHeaderSize
 >
-gHttpHandler
--
->
-MaxHttpResponseHeaderSize
+StaticPrefs
+:
+:
+network_http_max_response_header_size
 (
 )
 )
