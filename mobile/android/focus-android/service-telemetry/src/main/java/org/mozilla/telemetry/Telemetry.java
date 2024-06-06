@@ -320,7 +320,6 @@ Function0
 *
 *
 *
-deprecated
 The
 whole
 service
@@ -371,6 +370,12 @@ instead
 /
 /
 Deprecated
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 class
 Telemetry

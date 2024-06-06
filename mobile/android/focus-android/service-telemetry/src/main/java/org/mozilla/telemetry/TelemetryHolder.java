@@ -114,7 +114,6 @@ better
 .
 *
 *
-deprecated
 The
 whole
 service
@@ -165,6 +164,12 @@ instead
 /
 /
 Deprecated
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 class
 TelemetryHolder
