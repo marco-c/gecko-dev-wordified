@@ -3039,6 +3039,11 @@ we
 always
 use
 pthread_jit_write_protect_np
+or
+/
+/
+be_memory_inline_jit_restrict_
+*
 .
 MOZ_ASSERT
 (
