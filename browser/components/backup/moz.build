@@ -160,6 +160,15 @@ mjs
 "
 resources
 /
+CredentialsAndSecurityBackupResource
+.
+sys
+.
+mjs
+"
+"
+resources
+/
 PlacesBackupResource
 .
 sys
