@@ -294,6 +294,17 @@ case
 CodecType
 :
 :
+Vorbis
+:
+return
+"
+Vorbis
+"
+;
+case
+CodecType
+:
+:
 G722
 :
 return
