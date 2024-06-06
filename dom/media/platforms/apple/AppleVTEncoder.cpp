@@ -1401,13 +1401,7 @@ InitPromise
 :
 CreateAndResolve
 (
-TrackInfo
-:
-:
-TrackType
-:
-:
-kVideoTrack
+true
 __func__
 )
 ;

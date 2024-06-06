@@ -940,10 +940,7 @@ InitPromise
 =
 MozPromise
 <
-TrackInfo
-:
-:
-TrackType
+bool
 MediaResult
 /
 *
