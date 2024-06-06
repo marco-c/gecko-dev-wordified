@@ -7659,8 +7659,10 @@ clear
 (
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+semispaceEnabled_
 !
 pretenuringNursery
 .
