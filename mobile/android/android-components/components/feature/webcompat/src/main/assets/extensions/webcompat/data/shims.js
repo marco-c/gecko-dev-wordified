@@ -6089,8 +6089,6 @@ com
 /
 embed
 /
-track
-/
 *
 "
 ]
