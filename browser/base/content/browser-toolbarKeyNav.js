@@ -970,7 +970,6 @@ onWidgetAdded
 (
 aWidgetId
 aArea
-aPosition
 )
 {
 if

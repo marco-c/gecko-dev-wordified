@@ -339,7 +339,6 @@ KEY_Escape
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -528,7 +527,6 @@ KEY_Escape
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -790,7 +788,6 @@ remove
 }
 onHidden
 (
-popup
 )
 {
 }

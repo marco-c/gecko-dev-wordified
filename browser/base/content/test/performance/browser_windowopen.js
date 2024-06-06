@@ -300,7 +300,6 @@ filter
 (
 rects
 frame
-previousFrame
 )
 {
 /

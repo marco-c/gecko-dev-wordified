@@ -528,7 +528,6 @@ onTransferComplete
 (
 aWindow2
 downloadSuccess
-destDir
 )
 {
 ok
@@ -828,7 +827,6 @@ observer
 (
 subject
 topic
-state
 )
 {
 info

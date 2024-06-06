@@ -2257,9 +2257,6 @@ let
 observer
 =
 (
-subject
-topic
-data
 )
 =
 >
@@ -2507,7 +2504,6 @@ function
 test_browser_swapping
 (
 tab
-browser
 )
 {
 /
@@ -2943,7 +2939,7 @@ process
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

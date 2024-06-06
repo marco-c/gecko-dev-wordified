@@ -110,11 +110,7 @@ modify
 -
 request
 "
-(
 s
-t
-d
-)
 =
 >
 {
@@ -178,7 +174,7 @@ Referer
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 {
@@ -266,11 +262,7 @@ modify
 -
 request
 "
-(
 s
-t
-d
-)
 =
 >
 {
@@ -325,7 +317,7 @@ Referer
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 {

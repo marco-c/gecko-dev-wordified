@@ -598,7 +598,6 @@ AUTOPLAY_PAGE
 async
 function
 (
-browser
 )
 {
 let

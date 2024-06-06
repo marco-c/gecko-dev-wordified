@@ -246,7 +246,8 @@ true
 includeSubFrames
 *
 /
-url
+(
+)
 =
 >
 {
@@ -269,7 +270,7 @@ maybeErrorPage
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testPage

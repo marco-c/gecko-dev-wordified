@@ -1241,7 +1241,6 @@ loaded
 function
 someTabLoaded
 (
-aWindow
 )
 {
 return

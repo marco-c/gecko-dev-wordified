@@ -3964,9 +3964,6 @@ accessed
 "
 false
 (
-aPref
-aOldVal
-aNewVal
 )
 =
 >
@@ -6525,7 +6522,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -6632,7 +6628,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -7070,8 +7065,6 @@ button
 "
 callback
 (
-notificationBar
-button
 )
 {
 /
@@ -9419,8 +9412,6 @@ originAttributes
 observe
 (
 fixupInfo
-topic
-data
 )
 {
 fixupInfo
@@ -24894,8 +24885,6 @@ observer
 function
 (
 subject
-topic
-data
 )
 {
 if
@@ -30702,7 +30691,7 @@ xDevPix
 yDevPix
 tooltip
 direction
-browser
+_browser
 )
 {
 if
@@ -30832,12 +30821,6 @@ length
 }
 onProgressChange
 (
-aWebProgress
-aRequest
-aCurSelfProgress
-aMaxSelfProgress
-aCurTotalProgress
-aMaxTotalProgress
 )
 {
 /
@@ -33769,7 +33752,7 @@ onSecurityChange
 aWebProgress
 aRequest
 aState
-aIsSimulated
+_aIsSimulated
 )
 {
 /
@@ -34042,7 +34025,7 @@ XWB_onUpdateCurrentBrowser
 aStateFlags
 aStatus
 aMessage
-aTotalProgress
+_aTotalProgress
 )
 {
 if
@@ -44594,7 +44577,6 @@ observe
 (
 aSubject
 aTopic
-aState
 )
 {
 if
@@ -46582,7 +46564,6 @@ toString
 )
 callback
 (
-aState
 )
 {
 mgr
@@ -48765,8 +48746,6 @@ receivePong
 function
 (
 aSubject
-aTopic
-aData
 )
 {
 let
@@ -49012,7 +48991,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 Services
@@ -50162,9 +50140,6 @@ gRemoteControl
 {
 observe
 (
-subject
-topic
-data
 )
 {
 gRemoteControl

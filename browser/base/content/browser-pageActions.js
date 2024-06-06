@@ -6125,7 +6125,6 @@ updateBookmarkPageMenuItem
 onCommand
 (
 event
-buttonNode
 )
 {
 PanelMultiView

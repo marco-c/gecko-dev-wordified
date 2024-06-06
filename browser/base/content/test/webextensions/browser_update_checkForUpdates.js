@@ -41,9 +41,6 @@ observer
 {
 observe
 (
-subject
-topic
-data
 )
 {
 Services

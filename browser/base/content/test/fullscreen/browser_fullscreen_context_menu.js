@@ -273,7 +273,8 @@ window
 sizemodechange
 "
 false
-e
+(
+)
 =
 >
 window
@@ -564,7 +565,8 @@ window
 sizemodechange
 "
 false
-e
+(
+)
 =
 >
 !

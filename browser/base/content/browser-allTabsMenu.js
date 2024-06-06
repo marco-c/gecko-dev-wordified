@@ -388,7 +388,8 @@ addEventListener
 "
 ViewShowing
 "
-e
+(
+)
 =
 >
 {
@@ -503,7 +504,8 @@ addEventListener
 "
 ViewShown
 "
-e
+(
+)
 =
 >
 this
@@ -1047,7 +1049,8 @@ addEventListener
 "
 ViewShown
 "
-e
+(
+)
 =
 >
 {

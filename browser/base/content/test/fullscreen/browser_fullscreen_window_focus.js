@@ -533,7 +533,8 @@ linkedBrowser
 {
 }
 async
-args
+(
+)
 =
 >
 {

@@ -113,7 +113,8 @@ about
 blank
 "
 async
-browser
+(
+)
 =
 >
 {

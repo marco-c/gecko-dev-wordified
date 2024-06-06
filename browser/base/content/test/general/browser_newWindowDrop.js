@@ -1379,9 +1379,6 @@ drop
 (
 dragData
 expectedURLs
-ignoreFirstWindow
-=
-false
 )
 {
 let

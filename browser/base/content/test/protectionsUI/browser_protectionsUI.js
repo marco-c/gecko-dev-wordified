@@ -2856,7 +2856,8 @@ mut
 new
 MutationObserver
 (
-mutations
+(
+)
 =
 >
 {

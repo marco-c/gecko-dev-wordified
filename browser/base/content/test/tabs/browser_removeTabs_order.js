@@ -149,7 +149,6 @@ beforeunload
 "
 function
 (
-event
 )
 {
 }

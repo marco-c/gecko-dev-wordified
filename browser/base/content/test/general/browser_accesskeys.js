@@ -1053,8 +1053,6 @@ removeKeyUp
 function
 callback
 (
-eventName
-result
 )
 {
 removeFocus
@@ -1416,7 +1414,6 @@ function
 performAccessKeyForChrome
 (
 key
-inChild
 )
 {
 let

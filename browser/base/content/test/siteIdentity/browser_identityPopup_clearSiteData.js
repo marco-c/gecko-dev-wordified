@@ -436,7 +436,6 @@ testURI
 async
 function
 (
-browser
 )
 {
 /

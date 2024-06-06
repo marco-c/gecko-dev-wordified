@@ -257,7 +257,6 @@ page
 .
 function
 (
-e
 )
 {
 return

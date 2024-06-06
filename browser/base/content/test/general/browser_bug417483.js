@@ -49,7 +49,7 @@ iframe
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 htmlContent
@@ -71,7 +71,6 @@ selectedBrowser
 async
 function
 (
-arg
 )
 {
 let

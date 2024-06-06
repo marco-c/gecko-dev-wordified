@@ -3034,7 +3034,6 @@ event
 }
 on_mouseup
 (
-event
 )
 {
 /
@@ -4500,7 +4499,6 @@ desc
 }
 on_focus
 (
-event
 )
 {
 this
@@ -4512,7 +4510,6 @@ updateA11yDescription
 }
 on_AriaFocus
 (
-event
 )
 {
 this

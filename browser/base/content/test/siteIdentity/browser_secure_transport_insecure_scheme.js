@@ -727,8 +727,6 @@ openOutputStream
 }
 onHandshakeDone
 (
-socket
-status
 )
 {
 input
@@ -1062,10 +1060,6 @@ null
 getProxyForURI
 :
 (
-aSpec
-aScheme
-aHost
-aPort
 )
 =
 >
@@ -1345,7 +1339,8 @@ com
 /
 "
 async
-browser
+(
+)
 =
 >
 {

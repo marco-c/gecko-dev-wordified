@@ -192,7 +192,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -443,7 +442,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 this
@@ -757,7 +755,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 this
@@ -911,7 +908,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -1066,7 +1062,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -1885,7 +1880,6 @@ notifyObj
 async
 onShown
 (
-popup
 )
 {
 info

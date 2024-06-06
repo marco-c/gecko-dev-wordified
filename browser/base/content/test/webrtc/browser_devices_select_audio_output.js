@@ -1377,11 +1377,7 @@ response
 allow
 "
 1
-(
 aSubject
-aTopic
-aData
-)
 =
 >
 {

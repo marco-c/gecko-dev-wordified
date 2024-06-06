@@ -1971,7 +1971,6 @@ handleKeyPress
 =
 function
 (
-event
 )
 {
 ok

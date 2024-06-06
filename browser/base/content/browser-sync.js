@@ -344,7 +344,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -3986,7 +3985,6 @@ delay
 async
 ensureFxaDevices
 (
-options
 )
 {
 if
@@ -4797,7 +4795,8 @@ addEventListener
 "
 command
 "
-event
+(
+)
 =
 >
 {
@@ -8732,8 +8731,6 @@ createDeviceNodeFn
 (
 targetId
 name
-targetType
-lastModified
 )
 =
 >
@@ -9306,7 +9303,8 @@ flushLogFile
 const
 onSendAllCommand
 =
-event
+(
+)
 =
 >
 {

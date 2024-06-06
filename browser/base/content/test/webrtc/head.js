@@ -832,10 +832,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1770,7 +1767,6 @@ filterFunctionSource
 (
 subject
 topic
-data
 )
 =
 >
@@ -5963,7 +5959,8 @@ gBrowser
 .
 selectedBrowser
 true
-arg
+(
+)
 =
 >
 {

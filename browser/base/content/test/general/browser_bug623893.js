@@ -33,7 +33,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -62,7 +62,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -229,7 +229,6 @@ function
 (
 delta
 msg
-cb
 )
 {
 var

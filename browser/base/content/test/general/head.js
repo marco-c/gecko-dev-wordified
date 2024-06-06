@@ -852,8 +852,6 @@ function
 onDS
 (
 aSubject
-aTopic
-aData
 )
 {
 if

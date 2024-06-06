@@ -1645,7 +1645,8 @@ domWindow
 let
 onLoad
 =
-aEvent
+(
+)
 =
 >
 {
@@ -1772,7 +1773,6 @@ true
 }
 onCloseWindow
 (
-aXULWindow
 )
 {
 }

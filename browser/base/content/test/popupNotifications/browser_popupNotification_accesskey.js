@@ -267,7 +267,6 @@ hiding
 }
 onHidden
 (
-popup
 )
 {
 window

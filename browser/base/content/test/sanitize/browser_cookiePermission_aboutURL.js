@@ -148,7 +148,6 @@ onupgradeneeded
 =
 function
 (
-e
 )
 {
 data
@@ -163,7 +162,6 @@ onsuccess
 =
 function
 (
-e
 )
 {
 resolve

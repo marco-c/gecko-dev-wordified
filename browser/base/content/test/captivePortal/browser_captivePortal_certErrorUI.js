@@ -806,7 +806,8 @@ browser
 BAD_CERT_PAGE
 ]
 async
-expectedURL
+(
+)
 =
 >
 {

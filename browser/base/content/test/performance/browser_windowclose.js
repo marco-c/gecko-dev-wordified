@@ -338,7 +338,6 @@ filter
 (
 rects
 frame
-previousFrame
 )
 {
 /

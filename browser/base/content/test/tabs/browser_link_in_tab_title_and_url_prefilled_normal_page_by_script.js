@@ -302,7 +302,6 @@ BLANK_URL
 async
 actionWhileLoading
 (
-onTabLoaded
 )
 {
 info

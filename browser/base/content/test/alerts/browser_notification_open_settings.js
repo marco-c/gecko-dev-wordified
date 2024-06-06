@@ -111,7 +111,6 @@ async
 function
 dummyTabTask
 (
-aBrowser
 )
 {
 /

@@ -14995,8 +14995,6 @@ uriString
 animate
 userContextId
 openerTab
-createLazyBrowser
-skipAnimation
 pinned
 noInitialLabel
 skipBackgroundNotify
@@ -15713,8 +15711,6 @@ _createTab
 uriString
 userContextId
 openerTab
-createLazyBrowser
-skipAnimation
 pinned
 noInitialLabel
 skipBackgroundNotify
@@ -18308,7 +18304,6 @@ find
 (
 (
 [
-k
 v
 ]
 )
@@ -20127,6 +20122,25 @@ _startRemoveTabs
 tabs
 {
 animate
+/
+/
+See
+bug
+1883051
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+unused
+-
+vars
 suppressWarnAboutClosingWindow
 skipPermitUnload
 skipRemoves
@@ -32623,7 +32637,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 switch
@@ -35691,7 +35704,8 @@ didStartLoadSinceLastUserTyping
 let
 didChange
 =
-didChangeEvent
+(
+)
 =
 >
 {
@@ -44331,7 +44345,6 @@ muteReason
 }
 closeContextTabs
 (
-event
 )
 {
 if

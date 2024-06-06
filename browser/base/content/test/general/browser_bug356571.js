@@ -278,7 +278,6 @@ aBrowser
 aWebProgress
 aRequest
 aStateFlags
-aStatus
 )
 {
 if

@@ -427,7 +427,6 @@ showCallback
 =
 function
 (
-fp
 )
 {
 ok

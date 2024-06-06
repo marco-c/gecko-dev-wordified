@@ -1588,7 +1588,6 @@ _doEnd
 function
 GS__doEnd
 (
-aEvent
 )
 {
 gHistorySwipeAnimation
@@ -2349,7 +2348,6 @@ handle
 /
 _doUpdate
 (
-aEvent
 )
 {
 }
@@ -2385,7 +2383,6 @@ handle
 /
 _doEnd
 (
-aEvent
 )
 {
 }
@@ -5391,7 +5388,6 @@ _completeFadeOut
 function
 HSA__completeFadeOut
 (
-aEvent
 )
 {
 if
@@ -5789,7 +5785,6 @@ observe
 (
 subj
 topic
-data
 )
 {
 switch

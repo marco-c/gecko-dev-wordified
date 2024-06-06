@@ -385,7 +385,7 @@ way
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 HOME_URL
@@ -888,7 +888,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 HOME_URL
@@ -1388,7 +1388,6 @@ aBrowser
 aWebProgress
 aRequest
 aStateFlags
-aStatus
 )
 {
 if

@@ -161,7 +161,6 @@ EMPTY_PAGE
 async
 function
 (
-browser
 )
 {
 Services
@@ -451,7 +450,6 @@ SUBDOMAIN_EMPTY_PAGE
 async
 function
 (
-browser
 )
 {
 Services

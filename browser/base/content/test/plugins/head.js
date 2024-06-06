@@ -841,10 +841,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1035,7 +1032,6 @@ popupshown
 "
 function
 (
-e
 )
 {
 callback

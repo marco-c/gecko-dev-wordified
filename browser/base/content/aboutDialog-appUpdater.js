@@ -216,7 +216,7 @@ gAppUpdater
 function
 onUnload
 (
-aEvent
+_aEvent
 )
 {
 if

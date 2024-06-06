@@ -823,7 +823,6 @@ withResolvers
 function
 listener
 (
-e
 )
 {
 deferred

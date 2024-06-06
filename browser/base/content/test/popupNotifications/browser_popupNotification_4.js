@@ -160,7 +160,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -246,7 +245,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -517,7 +515,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 this
@@ -1266,7 +1263,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 ok
@@ -1394,7 +1390,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 ok

@@ -589,7 +589,6 @@ initChildFrames
 browser
 function
 (
-browsingContext
 )
 {
 return

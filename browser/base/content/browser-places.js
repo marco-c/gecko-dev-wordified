@@ -117,9 +117,6 @@ showOtherBookmarks
 "
 true
 (
-aPref
-aPrevVal
-aNewVal
 )
 =
 >
@@ -1605,7 +1602,6 @@ popupshown
 "
 function
 (
-event
 )
 {
 fn
@@ -6903,7 +6899,6 @@ null
 onWidgetUnderflow
 (
 aNode
-aContainer
 )
 {
 /
@@ -6971,8 +6966,6 @@ _resetView
 onWidgetAdded
 (
 aWidgetId
-aArea
-aPosition
 )
 {
 if
@@ -10056,7 +10049,6 @@ function
 BUI_widgetReset
 (
 aNode
-aContainer
 )
 {
 if
@@ -10083,7 +10075,6 @@ function
 BUI_undoWidgetUndoMove
 (
 aNode
-aContainer
 )
 {
 if
@@ -13120,7 +13111,6 @@ error
 onWidgetUnderflow
 (
 aNode
-aContainer
 )
 {
 let

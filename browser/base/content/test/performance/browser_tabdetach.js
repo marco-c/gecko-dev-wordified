@@ -490,7 +490,8 @@ frames
 {
 filter
 :
-rects
+(
+)
 =
 >
 [
@@ -633,7 +634,8 @@ frames
 {
 filter
 :
-rects
+(
+)
 =
 >
 [

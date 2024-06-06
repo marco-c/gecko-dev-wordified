@@ -1310,7 +1310,8 @@ example
 com
 "
 async
-browser
+(
+)
 =
 >
 {

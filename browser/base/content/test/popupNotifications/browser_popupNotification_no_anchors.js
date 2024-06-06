@@ -282,7 +282,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 this
@@ -524,7 +523,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 this
@@ -805,7 +803,6 @@ popup
 }
 onHidden
 (
-popup
 )
 {
 this

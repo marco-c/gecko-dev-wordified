@@ -82,9 +82,6 @@ wpl
 {
 onLocationChange
 (
-aWebProgress
-aRequest
-aLocation
 )
 {
 gBrowser
@@ -1126,7 +1123,7 @@ aBrowser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aBrowser
 "
@@ -1849,7 +1846,6 @@ com
 async
 function
 (
-aBrowser
 )
 {
 let
@@ -2590,7 +2586,6 @@ com
 async
 function
 (
-aBrowser
 )
 {
 let

@@ -254,7 +254,6 @@ browser
 async
 function
 (
-arg
 )
 {
 Assert
@@ -425,7 +424,6 @@ browser
 async
 function
 (
-arg
 )
 {
 Assert
@@ -627,7 +625,6 @@ browser
 async
 function
 (
-arg
 )
 {
 Assert
@@ -699,7 +696,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 test

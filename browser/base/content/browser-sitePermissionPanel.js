@@ -2064,7 +2064,6 @@ true
 }
 handleEvent
 (
-event
 )
 {
 let
@@ -2167,7 +2166,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 switch
