@@ -9614,7 +9614,7 @@ ChildId
 .
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 /
 *
 aChildTask
@@ -9631,7 +9631,7 @@ GetChildTask
 endif
 /
 /
-XP_MACOSX
+XP_DARWIN
 )
 ;
 }
@@ -10381,7 +10381,7 @@ ChildID
 )
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 /
 *
 aChildTask
@@ -10403,7 +10403,7 @@ GetChildTask
 endif
 /
 /
-XP_MACOSX
+XP_DARWIN
 )
 ;
 }

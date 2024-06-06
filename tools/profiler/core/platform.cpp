@@ -35593,7 +35593,7 @@ aChild
 0
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 /
 *
 aChildTask
@@ -35605,7 +35605,7 @@ MACH_PORT_NULL
 endif
 /
 /
-XP_MACOSX
+XP_DARWIN
 )
 ;
 const
