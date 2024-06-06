@@ -9969,16 +9969,6 @@ computeLine
 columnNumber
 )
 ;
-/
-/
-NOTE
-:
-Wasm
-frame
-cannot
-appear
-here
-.
 err
 -
 >
@@ -9991,7 +9981,7 @@ ColumnNumberOneOrigin
 (
 columnNumber
 .
-toLimitedColumnNumber
+oneOriginValue
 (
 )
 )
