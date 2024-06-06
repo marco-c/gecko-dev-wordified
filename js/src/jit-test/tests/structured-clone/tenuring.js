@@ -8,7 +8,7 @@ to
 allocating
 in
 the
-tenure
+tenured
 heap
 after
 the
@@ -440,6 +440,14 @@ maxNurseryBytes
 1024
 *
 1024
+)
+;
+gcparam
+(
+'
+semispaceNurseryEnabled
+'
+0
 )
 ;
 gc

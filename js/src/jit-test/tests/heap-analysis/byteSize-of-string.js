@@ -157,6 +157,14 @@ control
 when
 tenuring
 happens
+gcparam
+(
+'
+semispaceNurseryEnabled
+'
+0
+)
+;
 /
 /
 Hack
