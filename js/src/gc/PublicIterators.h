@@ -291,6 +291,12 @@ selector
 =
 =
 SkipAtoms
+&
+&
+!
+done
+(
+)
 )
 {
 MOZ_ASSERT
