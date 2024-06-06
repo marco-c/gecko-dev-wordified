@@ -1064,9 +1064,6 @@ VPXSVCSetting
 GetVPXSVCSetting
 (
 const
-MediaDataEncoder
-:
-:
 ScalabilityMode
 &
 aMode
@@ -1079,9 +1076,6 @@ if
 aMode
 =
 =
-MediaDataEncoder
-:
-:
 ScalabilityMode
 :
 :
@@ -1188,9 +1182,6 @@ if
 aMode
 =
 =
-MediaDataEncoder
-:
-:
 ScalabilityMode
 :
 :
@@ -1357,9 +1348,6 @@ MOZ_ASSERT
 aMode
 =
 =
-MediaDataEncoder
-:
-:
 ScalabilityMode
 :
 :
@@ -2086,9 +2074,6 @@ mConfig
 mUsage
 =
 =
-MediaDataEncoder
-:
-:
 Usage
 :
 :

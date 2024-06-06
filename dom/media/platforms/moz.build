@@ -130,6 +130,11 @@ AllocationPolicy
 h
 "
 "
+EncoderConfig
+.
+h
+"
+"
 MediaCodecsSupport
 .
 h
@@ -239,6 +244,11 @@ cpp
 "
 "
 AllocationPolicy
+.
+cpp
+"
+"
+EncoderConfig
 .
 cpp
 "
