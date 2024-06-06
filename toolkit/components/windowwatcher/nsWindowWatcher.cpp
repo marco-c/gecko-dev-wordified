@@ -9951,7 +9951,7 @@ isAppModal
 parentWidget
 -
 >
-SetFakeModal
+SetModal
 (
 true
 )
