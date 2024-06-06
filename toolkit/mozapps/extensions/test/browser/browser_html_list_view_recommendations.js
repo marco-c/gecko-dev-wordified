@@ -785,10 +785,6 @@ testListRecommendations
 (
 {
 type
-manifestExtra
-=
-{
-}
 }
 )
 {

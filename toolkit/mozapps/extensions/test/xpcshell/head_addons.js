@@ -5254,7 +5254,6 @@ addon
 onUninstalling
 (
 addon
-requiresRestart
 )
 {
 return
@@ -5766,7 +5765,6 @@ error
 onInstallEnded
 (
 install
-newAddon
 )
 {
 return

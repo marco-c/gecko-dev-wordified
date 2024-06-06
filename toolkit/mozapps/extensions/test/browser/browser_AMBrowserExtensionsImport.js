@@ -290,8 +290,6 @@ return
 async
 getMappedAddons
 (
-browserID
-extensionIDs
 )
 {
 return

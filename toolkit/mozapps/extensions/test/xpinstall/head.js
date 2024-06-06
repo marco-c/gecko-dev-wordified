@@ -3208,7 +3208,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 var

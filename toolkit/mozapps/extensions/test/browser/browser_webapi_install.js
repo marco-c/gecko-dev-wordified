@@ -621,7 +621,8 @@ install
 addEventListener
 (
 event
-e
+(
+)
 =
 >
 {

@@ -1200,7 +1200,6 @@ openAbuseReportAMOForm
 (
 {
 addonId
-reportEntryPoint
 }
 )
 {

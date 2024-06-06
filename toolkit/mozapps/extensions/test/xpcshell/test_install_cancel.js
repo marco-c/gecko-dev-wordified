@@ -180,8 +180,6 @@ observer
 observe
 (
 subject
-topic
-data
 )
 {
 let

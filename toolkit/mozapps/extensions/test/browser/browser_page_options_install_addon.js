@@ -81,8 +81,6 @@ observer
 observe
 (
 aSubject
-aTopic
-aData
 )
 {
 var

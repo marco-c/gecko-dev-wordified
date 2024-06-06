@@ -309,7 +309,8 @@ document
 let
 getInputs
 =
-updateRow
+(
+)
 =
 >
 (

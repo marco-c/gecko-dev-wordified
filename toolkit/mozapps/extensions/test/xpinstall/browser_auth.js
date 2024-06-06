@@ -279,7 +279,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 TESTROOT
@@ -314,7 +314,6 @@ testpass
 function
 download_failed
 (
-install
 )
 {
 ok

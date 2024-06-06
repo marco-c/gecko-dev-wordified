@@ -174,7 +174,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 TESTROOT
@@ -193,7 +193,6 @@ triggers
 function
 confirm_install
 (
-panel
 )
 {
 ok

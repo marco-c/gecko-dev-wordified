@@ -259,8 +259,6 @@ registerPathHandler
 get
 "
 (
-request
-response
 )
 =
 >

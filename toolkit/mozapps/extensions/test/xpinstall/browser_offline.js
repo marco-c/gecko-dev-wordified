@@ -193,7 +193,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 TESTROOT
@@ -212,9 +212,6 @@ triggers
 function
 download_progress
 (
-addon
-value
-maxValue
 )
 {
 try
@@ -440,7 +437,7 @@ finish
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

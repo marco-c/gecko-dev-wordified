@@ -1106,9 +1106,6 @@ addObserver
 (
 function
 (
-aSubject
-aTopic
-aData
 )
 {
 /

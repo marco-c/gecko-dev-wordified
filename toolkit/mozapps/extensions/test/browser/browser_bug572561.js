@@ -94,7 +94,6 @@ gTestInstallListener
 {
 onInstallStarted
 (
-aInstall
 )
 {
 check_hidden
@@ -105,7 +104,6 @@ false
 }
 onInstallEnded
 (
-aInstall
 )
 {
 check_hidden
@@ -120,7 +118,6 @@ run_next_test
 }
 onInstallCancelled
 (
-aInstall
 )
 {
 ok
@@ -146,7 +143,6 @@ run_next_test
 }
 onInstallFailed
 (
-aInstall
 )
 {
 ok

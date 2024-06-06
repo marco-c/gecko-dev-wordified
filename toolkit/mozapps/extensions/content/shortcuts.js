@@ -1522,7 +1522,6 @@ filter
 (
 (
 [
-key
 isDown
 ]
 )

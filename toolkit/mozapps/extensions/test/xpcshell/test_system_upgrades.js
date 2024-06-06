@@ -134,7 +134,8 @@ AddonTestUtils
 .
 usePrivilegedSignatures
 =
-id
+(
+)
 =
 >
 "

@@ -272,7 +272,7 @@ then
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 xpipath
@@ -285,7 +285,6 @@ xpipath
 function
 allow_blocked
 (
-installInfo
 )
 {
 ok

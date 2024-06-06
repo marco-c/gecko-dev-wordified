@@ -39,7 +39,8 @@ AddonTestUtils
 .
 usePrivilegedSignatures
 =
-id
+(
+)
 =
 >
 "
@@ -3107,7 +3108,8 @@ AddonTestUtils
 .
 usePrivilegedSignatures
 =
-id
+(
+)
 =
 >
 "

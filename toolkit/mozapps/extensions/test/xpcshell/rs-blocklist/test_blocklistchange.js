@@ -378,8 +378,6 @@ function
 permissionPromptHandler
 (
 subject
-topic
-data
 )
 {
 ok
@@ -1903,10 +1901,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1927,7 +1922,6 @@ addInstallListener
 {
 onNewInstall
 (
-aInstall
 )
 {
 installCount
@@ -1937,7 +1931,6 @@ installCount
 }
 onInstallEnded
 (
-aInstall
 )
 {
 installCount

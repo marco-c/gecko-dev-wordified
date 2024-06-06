@@ -323,7 +323,6 @@ listener
 onPropetyChanged
 (
 _addon
-properties
 )
 {
 Assert

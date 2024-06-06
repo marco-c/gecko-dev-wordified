@@ -197,8 +197,6 @@ return
 {
 onUpdateAvailable
 (
-addon
-install
 )
 {
 reject

@@ -488,7 +488,8 @@ addAddonListener
 {
 onDisabled
 :
-aAddon
+(
+)
 =
 >
 {
@@ -507,7 +508,8 @@ true
 }
 onEnabled
 :
-aAddon
+(
+)
 =
 >
 {

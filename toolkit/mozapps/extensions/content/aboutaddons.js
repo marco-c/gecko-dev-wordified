@@ -1982,10 +1982,6 @@ failed
 onInstallEnded
 :
 (
-.
-.
-.
-args
 )
 =
 >
@@ -2021,10 +2017,6 @@ true
 onInstallPostponed
 :
 (
-.
-.
-.
-args
 )
 =
 >
@@ -2355,7 +2347,6 @@ function
 getOptionsType
 (
 addon
-type
 )
 {
 return
@@ -6899,7 +6890,6 @@ break
 async
 checkForUpdates
 (
-e
 )
 {
 let
@@ -13390,7 +13380,6 @@ extensionStartup
 }
 onDisabled
 (
-addon
 )
 {
 this
@@ -13402,7 +13391,6 @@ extensionShutdown
 }
 onEnabled
 (
-addon
 )
 {
 this
@@ -19308,7 +19296,6 @@ postponed
 }
 onDisabled
 (
-addon
 )
 {
 if
@@ -19329,7 +19316,6 @@ update
 }
 onEnabled
 (
-addon
 )
 {
 this
@@ -19347,7 +19333,6 @@ update
 }
 onInstalled
 (
-addon
 )
 {
 /

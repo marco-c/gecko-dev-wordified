@@ -1282,7 +1282,8 @@ onUpdateAvailable
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -1707,7 +1708,8 @@ onUpdateAvailable
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -2429,7 +2431,8 @@ onUpdateAvailable
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
@@ -2958,7 +2961,8 @@ onUpdateAvailable
 .
 addListener
 (
-details
+(
+)
 =
 >
 {
