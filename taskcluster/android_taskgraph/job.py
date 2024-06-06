@@ -706,6 +706,19 @@ lints
 "
             
 )
+            
+"
+MOZ_BUILD_DATE
+"
+:
+config
+.
+params
+[
+"
+moz_build_date
+"
+]
         
 }
     
