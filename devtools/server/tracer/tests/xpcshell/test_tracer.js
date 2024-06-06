@@ -34,15 +34,12 @@ strict
 ;
 const
 {
-addTracingListener
-removeTracingListener
-startTracing
-stopTracing
+JSTracer
 }
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -57,8 +54,17 @@ tracer
 /
 tracer
 .
-jsm
+sys
+.
+mjs
 "
+{
+global
+:
+"
+shared
+"
+}
 )
 ;
 add_task
@@ -184,6 +190,8 @@ listener
 "
 )
 ;
+JSTracer
+.
 addTracingListener
 (
 listener
@@ -241,6 +249,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -415,6 +425,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -483,6 +495,8 @@ code
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -535,6 +549,8 @@ code
 "
 )
 ;
+JSTracer
+.
 removeTracingListener
 (
 listener
@@ -575,6 +591,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -729,6 +747,8 @@ listener
 "
 )
 ;
+JSTracer
+.
 addTracingListener
 (
 listenerSandbox
@@ -744,6 +764,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -962,6 +984,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -991,6 +1015,8 @@ toggles
 false
 )
 ;
+JSTracer
+.
 removeTracingListener
 (
 listenerSandbox
@@ -1148,6 +1174,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -1276,6 +1304,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -1391,6 +1421,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -1506,6 +1538,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -1635,6 +1669,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -1789,6 +1825,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -2050,6 +2088,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -2517,6 +2557,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -2663,6 +2705,8 @@ pause
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -2765,6 +2809,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -2792,6 +2838,8 @@ pause
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -3070,6 +3118,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -3097,6 +3147,8 @@ pause
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -3396,6 +3448,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -3567,6 +3621,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -3664,6 +3720,8 @@ tracing
 "
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
@@ -3946,6 +4004,8 @@ globals
 "
 )
 ;
+JSTracer
+.
 startTracing
 (
 {
@@ -3979,6 +4039,8 @@ foo
 (
 )
 ;
+JSTracer
+.
 stopTracing
 (
 )
