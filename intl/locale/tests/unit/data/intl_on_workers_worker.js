@@ -12,7 +12,6 @@ onmessage
 =
 function
 (
-data
 )
 {
 let

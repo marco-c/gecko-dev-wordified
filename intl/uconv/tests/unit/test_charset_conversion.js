@@ -854,7 +854,6 @@ function
 getBinaryInputStream
 (
 filename
-encoding
 )
 {
 var

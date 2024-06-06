@@ -332,7 +332,6 @@ each
 (
 function
 (
-index
 )
 {
 (

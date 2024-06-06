@@ -1059,7 +1059,6 @@ function
 cleanup_test_run
 (
 testKey
-keyName
 )
 {
 info

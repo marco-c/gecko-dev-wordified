@@ -151,7 +151,6 @@ each
 (
 function
 (
-index
 )
 {
 let
@@ -241,7 +240,6 @@ each
 (
 function
 (
-index
 )
 {
 for
@@ -586,7 +584,6 @@ each
 (
 function
 (
-index
 )
 {
 let

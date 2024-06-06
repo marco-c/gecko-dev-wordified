@@ -194,7 +194,6 @@ function
 test_removed_mapping
 (
 chromeURL
-target
 )
 {
 var
