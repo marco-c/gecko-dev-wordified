@@ -176,8 +176,8 @@ promotion
 title
 =
 "
-Ship
-Fenix
+Release
+Promotion
 "
     
 symbol
@@ -193,8 +193,10 @@ release_promotion_flavor
 description
 =
 "
-Ship
-Fenix
+Promote
+a
+release
+.
 "
     
 generic
