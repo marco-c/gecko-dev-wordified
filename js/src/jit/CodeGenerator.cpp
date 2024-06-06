@@ -44718,9 +44718,14 @@ single
 targets
 (
 except
-wasm
+Wasm
+and
+TrampolineNative
+functions
 )
 are
+/
+/
 handled
 by
 LCallNative

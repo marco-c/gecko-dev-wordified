@@ -27304,14 +27304,14 @@ FunctionFlags
 Flags
 :
 :
-WASM_JIT_ENTRY
+NATIVE_JIT_ENTRY
 :
 json
 .
 value
 (
 "
-WASM_JIT_ENTRY
+NATIVE_JIT_ENTRY
 "
 )
 ;
