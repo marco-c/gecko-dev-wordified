@@ -462,6 +462,23 @@ changed
 "
 ]
             
+skip_unless_changed
+.
+append
+(
+f
+"
+{
+config
+.
+path
+}
+/
+*
+*
+"
+)
+            
 gradle_project
 =
 get_gradle_project
