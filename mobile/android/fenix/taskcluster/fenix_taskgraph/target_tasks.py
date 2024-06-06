@@ -457,11 +457,17 @@ return
 task
 .
 kind
-=
-=
+in
+(
 '
 browsertime
 '
+'
+visual
+-
+metrics
+'
+)
     
 return
 [
