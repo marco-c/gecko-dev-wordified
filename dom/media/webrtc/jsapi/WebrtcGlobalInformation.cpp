@@ -1557,6 +1557,7 @@ apply
 &
 ]
 (
+const
 auto
 &
 hist
