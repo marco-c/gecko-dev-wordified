@@ -8895,6 +8895,7 @@ genObj
 >
 setClosed
 (
+cx
 )
 ;
 }
@@ -27267,6 +27268,7 @@ AbstractGeneratorObject
 :
 finalSuspend
 (
+cx
 gen
 )
 ;

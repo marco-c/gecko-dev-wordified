@@ -7578,6 +7578,7 @@ generator
 >
 setClosed
 (
+cx
 )
 ;
 }
