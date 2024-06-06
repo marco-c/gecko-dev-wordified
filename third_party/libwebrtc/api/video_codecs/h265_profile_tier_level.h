@@ -651,6 +651,7 @@ profile
 otherwise
 false
 .
+RTC_EXPORT
 bool
 H265IsSameProfileTierLevel
 (
