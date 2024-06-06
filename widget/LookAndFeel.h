@@ -307,17 +307,6 @@ caret
 CaretWidth
 /
 /
-show
-the
-caret
-when
-text
-is
-selected
-?
-ShowCaretDuringSelection
-/
-/
 select
 textfields
 when
