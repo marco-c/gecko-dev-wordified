@@ -146,8 +146,6 @@ addObserver
 function
 observer
 (
-aSubject
-aTopic
 )
 {
 Services
@@ -259,7 +257,7 @@ privateWin
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 privateWin
 .

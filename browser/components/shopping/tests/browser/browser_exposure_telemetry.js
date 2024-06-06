@@ -263,7 +263,6 @@ async
 function
 teardown
 (
-pref
 )
 {
 await

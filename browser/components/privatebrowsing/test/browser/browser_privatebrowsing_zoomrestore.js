@@ -137,7 +137,6 @@ onLocationChange
 (
 subj
 topic
-data
 )
 {
 Services
@@ -259,7 +258,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -407,7 +406,6 @@ function
 testOnWindow
 (
 options
-callback
 )
 {
 return

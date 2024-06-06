@@ -398,7 +398,6 @@ ControlCenter
 {
 init
 (
-libDir
 )
 {
 }
@@ -535,7 +534,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -1385,7 +1384,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

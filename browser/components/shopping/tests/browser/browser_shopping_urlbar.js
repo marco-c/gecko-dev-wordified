@@ -80,7 +80,6 @@ CONTENT_PAGE
 async
 function
 (
-browser
 )
 {
 let
@@ -143,7 +142,6 @@ PRODUCT_PAGE
 async
 function
 (
-browser
 )
 {
 let
@@ -372,7 +370,6 @@ PRODUCT_PAGE
 async
 function
 (
-browser
 )
 {
 let
@@ -460,7 +457,6 @@ PRODUCT_PAGE
 async
 function
 (
-browser
 )
 {
 let
@@ -1515,7 +1511,6 @@ CONTENT_PAGE
 async
 function
 (
-browser
 )
 {
 let

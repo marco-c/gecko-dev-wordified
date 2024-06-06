@@ -1696,7 +1696,6 @@ function
 (
 aSubject
 aTopic
-aData
 )
 {
 if

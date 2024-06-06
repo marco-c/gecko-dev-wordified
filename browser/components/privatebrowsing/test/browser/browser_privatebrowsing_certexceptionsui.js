@@ -242,9 +242,6 @@ addObserver
 function
 onCertUI
 (
-aSubject
-aTopic
-aData
 )
 {
 Services

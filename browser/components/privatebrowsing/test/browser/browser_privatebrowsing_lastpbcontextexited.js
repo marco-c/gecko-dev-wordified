@@ -133,7 +133,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 is
@@ -208,7 +207,6 @@ observe
 (
 aSubject
 aTopic
-aData
 )
 {
 is

@@ -4496,7 +4496,6 @@ async
 function
 setupStrictETP
 (
-fn
 )
 {
 await

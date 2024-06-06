@@ -2274,7 +2274,6 @@ saved
 .
 _isLinkSaveable
 (
-aLink
 )
 {
 /
@@ -4049,7 +4048,6 @@ linkURI
 /
 _cleanContext
 (
-aEvent
 )
 {
 const

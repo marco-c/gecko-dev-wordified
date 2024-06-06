@@ -1678,8 +1678,6 @@ function
 onDS
 (
 aSubject
-aTopic
-aData
 )
 {
 if
@@ -1888,7 +1886,6 @@ seconds
 function
 onPanelOpen
 (
-e
 )
 {
 aPanel
@@ -2001,7 +1998,6 @@ seconds
 function
 onPanelClose
 (
-e
 )
 {
 aPanel
@@ -2177,7 +2173,6 @@ seconds
 function
 onViewShown
 (
-e
 )
 {
 aSubview
@@ -2282,7 +2277,6 @@ seconds
 function
 onViewHiding
 (
-e
 )
 {
 aSubview
@@ -2533,10 +2527,7 @@ return
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

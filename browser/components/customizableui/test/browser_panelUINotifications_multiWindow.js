@@ -105,7 +105,6 @@ options
 async
 function
 (
-browser
 )
 {
 let
@@ -506,7 +505,6 @@ options
 async
 function
 (
-browser
 )
 {
 let
@@ -761,7 +759,6 @@ options
 async
 function
 (
-browser
 )
 {
 let

@@ -7351,7 +7351,6 @@ resolve
 function
 eventHandler
 (
-aEvent
 )
 {
 verifyKeyboardEvent

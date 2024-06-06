@@ -1846,7 +1846,6 @@ animationstart
 "
 function
 (
-aEvent
 )
 {
 ok

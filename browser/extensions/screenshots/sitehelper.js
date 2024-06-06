@@ -232,7 +232,8 @@ catcher
 .
 watchFunction
 (
-event
+(
+)
 =
 >
 {

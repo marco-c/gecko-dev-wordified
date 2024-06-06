@@ -197,7 +197,6 @@ browser1
 ]
 function
 (
-opts
 )
 {
 content
@@ -276,7 +275,6 @@ browser2
 ]
 function
 (
-opts
 )
 {
 content

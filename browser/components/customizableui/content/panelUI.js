@@ -3559,7 +3559,6 @@ onWidgetAfterDOMChange
 aNode
 aNextNode
 aContainer
-aWasRemoval
 )
 {
 if
@@ -3723,7 +3722,6 @@ closed2
 }
 _onHelpViewShow
 (
-aEvent
 )
 {
 /

@@ -1045,12 +1045,6 @@ one
 function
 showInfoPromise
 (
-target
-title
-text
-icon
-buttonsFunctionName
-optionsFunctionName
 )
 {
 let
@@ -1427,7 +1421,6 @@ seconds
 function
 onPanelEvent
 (
-e
 )
 {
 aPanel
@@ -1735,7 +1728,6 @@ get
 (
 target
 prop
-receiver
 )
 {
 return

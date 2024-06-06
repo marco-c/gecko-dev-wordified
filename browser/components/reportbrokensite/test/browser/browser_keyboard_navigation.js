@@ -89,7 +89,6 @@ REPORTABLE_PAGE_URL
 async
 function
 (
-browser
 )
 {
 for
@@ -611,7 +610,6 @@ REPORTABLE_PAGE_URL
 async
 function
 (
-browser
 )
 {
 for

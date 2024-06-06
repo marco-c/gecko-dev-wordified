@@ -351,7 +351,6 @@ async
 function
 onTabLoad
 (
-event
 )
 {
 clearTimeout

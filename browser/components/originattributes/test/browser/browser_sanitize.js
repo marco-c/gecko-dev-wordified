@@ -113,15 +113,12 @@ cacheVisitor
 {
 onCacheStorageInfo
 (
-num
-consumption
 )
 {
 }
 onCacheEntryInfo
 (
 uri
-idEnhance
 )
 {
 cachedURIs

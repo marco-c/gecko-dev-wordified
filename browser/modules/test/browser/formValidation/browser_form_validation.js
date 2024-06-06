@@ -220,7 +220,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -999,10 +999,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -1713,10 +1710,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -2468,7 +2462,7 @@ popuphidden
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -2700,10 +2694,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

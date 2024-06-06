@@ -581,7 +581,6 @@ resolve
 }
 unregisterFailed
 (
-aState
 )
 {
 ok

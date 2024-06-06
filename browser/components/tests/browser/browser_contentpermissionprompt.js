@@ -894,7 +894,8 @@ true
 let
 integration
 =
-base
+(
+)
 =
 >
 (

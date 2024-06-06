@@ -240,8 +240,6 @@ callsFake
 (
 function
 (
-window
-type
 )
 {
 notifierSpy

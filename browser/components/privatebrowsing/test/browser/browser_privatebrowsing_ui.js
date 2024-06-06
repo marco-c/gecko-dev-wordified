@@ -306,7 +306,7 @@ aCallback
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aWindow
 .
@@ -334,8 +334,6 @@ function
 observer
 (
 aSubject
-aTopic
-aData
 )
 {
 aSubject

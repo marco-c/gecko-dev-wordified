@@ -763,7 +763,6 @@ message
 "
 function
 (
-event
 )
 {
 session

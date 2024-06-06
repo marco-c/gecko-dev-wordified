@@ -564,7 +564,6 @@ nsICacheEntryOpenCallback
 )
 onCacheEntryCheck
 (
-entry
 )
 {
 return
@@ -577,9 +576,6 @@ ENTRY_WANTED
 }
 onCacheEntryAvailable
 (
-entry
-isnew
-status
 )
 {
 resolve
@@ -1867,7 +1863,8 @@ storeRequest
 .
 onsuccess
 =
-event
+(
+)
 =
 >
 {

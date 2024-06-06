@@ -1918,8 +1918,6 @@ aTargetWidth
 aTargetHeight
 aMaxAvailWidth
 aMaxAvailHeight
-aPopupChromeUIWidth
-aPopupChromeUIHeight
 )
 {
 /
@@ -3582,7 +3580,6 @@ filter
 (
 [
 k
-v
 ]
 )
 =

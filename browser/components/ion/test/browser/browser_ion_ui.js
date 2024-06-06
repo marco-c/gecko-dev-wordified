@@ -2282,7 +2282,6 @@ async
 function
 taskFn
 (
-browser
 )
 {
 const
@@ -2789,7 +2788,6 @@ async
 function
 taskFn
 (
-browser
 )
 {
 const
@@ -4534,9 +4532,6 @@ PREF_ION_ID
 function
 observer
 (
-subject
-topic
-data
 )
 {
 try
@@ -5032,7 +5027,6 @@ async
 function
 taskFn
 (
-browser
 )
 {
 const
@@ -6144,7 +6138,6 @@ async
 function
 taskFn
 (
-browser
 )
 {
 /
@@ -6587,7 +6580,6 @@ async
 function
 taskFn
 (
-browser
 )
 {
 /
@@ -6776,7 +6768,6 @@ async
 function
 taskFn
 (
-browser
 )
 {
 const
@@ -6880,7 +6871,6 @@ async
 function
 taskFn
 (
-browser
 )
 {
 const

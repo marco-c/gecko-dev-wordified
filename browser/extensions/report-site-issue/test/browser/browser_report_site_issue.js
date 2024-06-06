@@ -1706,7 +1706,6 @@ linkedBrowser
 async
 function
 (
-args
 )
 {
 let
@@ -1864,7 +1863,6 @@ linkedBrowser
 async
 function
 (
-args
 )
 {
 let
@@ -1994,7 +1992,6 @@ linkedBrowser
 async
 function
 (
-args
 )
 {
 let

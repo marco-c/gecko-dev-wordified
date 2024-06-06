@@ -772,7 +772,8 @@ logo
 "
 }
 async
-browser
+(
+)
 =
 >
 {

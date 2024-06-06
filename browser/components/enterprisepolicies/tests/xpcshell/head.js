@@ -694,7 +694,6 @@ function
 checkClearPref
 (
 prefName
-prefValue
 )
 {
 equal

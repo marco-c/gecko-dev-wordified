@@ -205,9 +205,6 @@ this
 }
 observe
 (
-subject
-topic
-data
 )
 {
 var

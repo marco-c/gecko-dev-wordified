@@ -396,8 +396,6 @@ cacheVisitor
 {
 onCacheStorageInfo
 (
-num
-consumption
 )
 {
 }
@@ -1675,8 +1673,6 @@ function
 doCheck
 (
 aShouldIsolate
-aInputA
-aInputB
 )
 {
 let

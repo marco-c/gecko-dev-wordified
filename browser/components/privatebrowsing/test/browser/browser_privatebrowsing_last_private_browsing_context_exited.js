@@ -51,9 +51,6 @@ observerExited
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 observedLastPBContext
@@ -213,9 +210,6 @@ observerExited
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 observedLastPBContext

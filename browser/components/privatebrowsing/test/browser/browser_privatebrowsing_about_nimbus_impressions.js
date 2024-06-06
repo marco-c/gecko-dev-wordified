@@ -336,7 +336,6 @@ LOCALE
 async
 function
 (
-locale
 )
 {
 is
@@ -490,7 +489,6 @@ LOCALE
 async
 function
 (
-locale
 )
 {
 is

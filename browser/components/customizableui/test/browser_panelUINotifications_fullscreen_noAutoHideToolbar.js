@@ -175,7 +175,8 @@ true
 capture
 *
 /
-aEvent
+(
+)
 =
 >
 {

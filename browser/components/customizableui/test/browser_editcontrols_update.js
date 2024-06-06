@@ -226,7 +226,6 @@ cmd_delete
 }
 isCommandEnabled
 (
-cmd
 )
 {
 if

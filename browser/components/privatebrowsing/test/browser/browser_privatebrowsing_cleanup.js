@@ -148,7 +148,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 privateTab
 TOP_PAGE
@@ -168,9 +168,6 @@ observerExited
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 ok

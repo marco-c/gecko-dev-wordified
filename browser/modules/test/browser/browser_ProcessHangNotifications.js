@@ -20,7 +20,6 @@ function
 promiseNotificationShown
 (
 aWindow
-aName
 )
 {
 return
@@ -263,10 +262,7 @@ promise
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {

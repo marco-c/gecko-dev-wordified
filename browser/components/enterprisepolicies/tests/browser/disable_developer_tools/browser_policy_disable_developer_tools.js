@@ -473,7 +473,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 page
@@ -502,7 +502,6 @@ page
 async
 function
 (
-innerPage
 )
 {
 ok

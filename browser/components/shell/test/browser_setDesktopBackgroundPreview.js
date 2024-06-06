@@ -70,7 +70,8 @@ logo
 "
 }
 async
-browser
+(
+)
 =
 >
 {
