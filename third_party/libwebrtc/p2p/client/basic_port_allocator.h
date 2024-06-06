@@ -544,16 +544,6 @@ get
 }
 private
 :
-void
-OnIceRegathering
-(
-PortAllocatorSession
-*
-session
-IceRegatheringReason
-reason
-)
-;
 bool
 MdnsObfuscationEnabled
 (
