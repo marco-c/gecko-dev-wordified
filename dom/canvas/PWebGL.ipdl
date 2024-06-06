@@ -1070,7 +1070,6 @@ cap
 returns
 (
 bool
-?
 ret
 )
 ;

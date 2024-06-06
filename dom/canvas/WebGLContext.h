@@ -4796,10 +4796,7 @@ pname
 )
 const
 ;
-Maybe
-<
 bool
->
 IsEnabled
 (
 GLenum
