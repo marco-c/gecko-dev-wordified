@@ -422,7 +422,12 @@ Keepalive
 const
 {
 return
-false
+mRequest
+-
+>
+GetKeepalive
+(
+)
 ;
 }
 bool
