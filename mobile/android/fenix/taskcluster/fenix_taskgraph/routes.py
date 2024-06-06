@@ -88,7 +88,7 @@ domain
 project
 }
 .
-v3
+v2
 .
 {
 variant
@@ -120,7 +120,7 @@ domain
 project
 }
 .
-v3
+v2
 .
 {
 variant
@@ -148,7 +148,7 @@ domain
 project
 }
 .
-v3
+v2
 .
 {
 variant
