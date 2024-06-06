@@ -195,9 +195,9 @@ USAGE
 {
 }
 [
-push
+activate
 |
-remove
+deactivate
 ]
 [
 nightly
@@ -230,7 +230,7 @@ example
 /
 {
 }
-push
+activate
 nightly
 '
 .
@@ -409,7 +409,7 @@ reinstall
 Call
 script
 with
-remove
+deactivate
 to
 disable
 it
@@ -665,7 +665,7 @@ cmd
 =
 =
 '
-push
+activate
 '
 :
         
@@ -680,7 +680,7 @@ cmd
 =
 =
 '
-remove
+deactivate
 '
 :
         
