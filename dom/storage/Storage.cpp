@@ -295,7 +295,7 @@ mPrivateBrowsing
 (
 false
 )
-mSessionScopedOrLess
+mPrivateBrowsingOrLess
 (
 false
 )
@@ -319,7 +319,7 @@ mPrivateBrowsing
 =
 false
 ;
-mSessionScopedOrLess
+mPrivateBrowsingOrLess
 =
 false
 ;
@@ -355,7 +355,7 @@ StorageAccess
 :
 ePrivateBrowsing
 ;
-mSessionScopedOrLess
+mPrivateBrowsingOrLess
 =
 access
 <
@@ -363,7 +363,7 @@ access
 StorageAccess
 :
 :
-eSessionScoped
+ePrivateBrowsing
 ;
 }
 }
