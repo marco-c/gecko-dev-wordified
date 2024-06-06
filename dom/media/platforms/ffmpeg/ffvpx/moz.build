@@ -122,6 +122,14 @@ cpp
 .
 .
 /
+FFmpegAudioEncoder
+.
+cpp
+"
+"
+.
+.
+/
 FFmpegDataDecoder
 .
 cpp
