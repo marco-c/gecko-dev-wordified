@@ -4513,7 +4513,6 @@ _onMessageFromShim
 (
 payload
 sender
-sendResponse
 )
 {
 const

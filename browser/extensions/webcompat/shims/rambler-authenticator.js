@@ -317,7 +317,7 @@ getProfileInfo
 :
 (
 successCallback
-errorCallback
+_errorCallback
 )
 =
 >

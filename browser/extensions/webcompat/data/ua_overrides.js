@@ -1694,7 +1694,8 @@ cz
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -2234,7 +2235,8 @@ gov
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -3094,7 +3096,8 @@ fr
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -3871,7 +3874,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -4021,7 +4025,8 @@ video
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -4144,7 +4149,8 @@ address
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -4270,7 +4276,8 @@ gr
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -4391,7 +4398,8 @@ zoomcast
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -4496,7 +4504,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -4732,7 +4741,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -4838,7 +4848,8 @@ gov
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -4936,7 +4947,8 @@ edu
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5034,7 +5046,8 @@ id
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5126,7 +5139,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5222,7 +5236,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5314,7 +5329,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5410,7 +5426,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5506,7 +5523,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5602,7 +5620,8 @@ tv
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5710,7 +5729,8 @@ tw
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5806,7 +5826,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5898,7 +5919,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -5990,7 +6012,8 @@ org
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -6092,7 +6115,8 @@ ca
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -6276,7 +6300,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -6368,7 +6393,8 @@ jp
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -6470,7 +6496,8 @@ jp
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -6570,7 +6597,8 @@ my
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -6665,7 +6693,8 @@ editor
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -7176,7 +7205,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -7283,7 +7313,8 @@ myaccount
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -7388,7 +7419,8 @@ com
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -7512,7 +7544,8 @@ my
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -7624,7 +7657,8 @@ nz
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -8061,7 +8095,8 @@ nl
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -8164,7 +8199,8 @@ ca
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -8280,7 +8316,8 @@ started
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -8381,7 +8418,8 @@ net
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {
@@ -8486,7 +8524,8 @@ ms
 ]
 uaTransformer
 :
-originalUA
+(
+)
 =
 >
 {

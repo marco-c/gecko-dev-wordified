@@ -183,10 +183,6 @@ exportFunction
 (
 function
 (
-value
-=
-{
-}
 )
 {
 }

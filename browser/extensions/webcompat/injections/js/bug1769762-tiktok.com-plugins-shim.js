@@ -285,7 +285,6 @@ exportFunction
 (
 function
 (
-val
 )
 {
 }

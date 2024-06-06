@@ -391,7 +391,6 @@ observe
 (
 subject
 topic
-data
 )
 =
 >
@@ -952,7 +951,6 @@ ExtensionAPI
 {
 onShutdown
 (
-isAppShutdown
 )
 {
 if
