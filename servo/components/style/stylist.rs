@@ -20492,6 +20492,15 @@ FontFeatureValues
 .
 .
 )
+|
+CssRule
+:
+:
+Scope
+(
+.
+.
+)
 =
 >
 {

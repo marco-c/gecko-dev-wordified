@@ -1124,6 +1124,10 @@ UNLOCKED_RULE_TYPE
 (
 FontPaletteValues
 )
+UNLOCKED_RULE_TYPE
+(
+Scope
+)
 SERVO_ARC_TYPE
 (
 AnimationValue

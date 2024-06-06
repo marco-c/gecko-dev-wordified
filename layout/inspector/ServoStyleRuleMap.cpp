@@ -652,6 +652,12 @@ StyleCssRuleType
 :
 Document
 :
+case
+StyleCssRuleType
+:
+:
+Scope
+:
 {
 /
 /
@@ -865,6 +871,12 @@ StyleCssRuleType
 :
 :
 Document
+:
+case
+StyleCssRuleType
+:
+:
+Scope
 :
 {
 auto
