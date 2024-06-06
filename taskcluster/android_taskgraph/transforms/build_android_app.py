@@ -179,6 +179,29 @@ xz
         
 ]
         
+fetches
+[
+"
+build
+-
+fat
+-
+aar
+"
+]
+=
+[
+"
+target
+.
+maven
+.
+tar
+.
+xz
+"
+]
+        
 run
 =
 task
