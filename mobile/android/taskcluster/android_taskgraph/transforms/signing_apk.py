@@ -253,6 +253,11 @@ format
 "
 notify
 "
+"
+treeherder
+.
+platform
+"
 )
 :
             
