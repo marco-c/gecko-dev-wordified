@@ -136,7 +136,7 @@ chdir
 '
 )
         
-args
+cmd
 =
 '
 .
@@ -182,6 +182,7 @@ info
 (
 '
 Running
+cmd
 :
 {
 }
@@ -189,15 +190,14 @@ Running
 .
 format
 (
-'
-'
-.
-join
-(
-args
+cmd
 )
 )
-)
+        
+out
+=
+"
+"
         
 try
 :
@@ -209,10 +209,17 @@ subprocess
 check_output
 (
                 
-args
+cmd
+                
 shell
 =
 True
+                
+stderr
+=
+subprocess
+.
+STDOUT
 )
         
 except
@@ -284,7 +291,7 @@ f
                 
 f
 .
-writelines
+write
 (
 out
 )
