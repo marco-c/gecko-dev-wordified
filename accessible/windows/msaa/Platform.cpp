@@ -484,6 +484,15 @@ aTarget
 aEventType
 )
 ;
+uiaRawElmProvider
+:
+:
+RaiseUiaEventForGeckoEvent
+(
+aTarget
+aEventType
+)
+;
 }
 void
 a11y
