@@ -1275,6 +1275,20 @@ env_
 (
 env
 )
+packet_sequence_checker_
+(
+SequenceChecker
+:
+:
+kDetached
+)
+decode_sequence_checker_
+(
+SequenceChecker
+:
+:
+kDetached
+)
 transport_adapter_
 (
 config
@@ -1556,12 +1570,6 @@ renderer
 RTC_DCHECK
 (
 call_stats_
-)
-;
-packet_sequence_checker_
-.
-Detach
-(
 )
 ;
 RTC_DCHECK
@@ -2492,7 +2500,8 @@ DecoderThreadStarting
 )
 ;
 decode_queue_
-.
+-
+>
 PostTask
 (
 [
@@ -2502,7 +2511,7 @@ this
 RTC_DCHECK_RUN_ON
 (
 &
-decode_queue_
+decode_sequence_checker_
 )
 ;
 decoder_stopped_
@@ -2675,7 +2684,8 @@ Event
 done
 ;
 decode_queue_
-.
+-
+>
 PostTask
 (
 [
@@ -2687,7 +2697,7 @@ done
 RTC_DCHECK_RUN_ON
 (
 &
-decode_queue_
+decode_sequence_checker_
 )
 ;
 /
@@ -5160,7 +5170,8 @@ qp
 )
 ;
 decode_queue_
-.
+-
+>
 PostTask
 (
 [
@@ -5188,7 +5199,7 @@ mutable
 RTC_DCHECK_RUN_ON
 (
 &
-decode_queue_
+decode_sequence_checker_
 )
 ;
 if
@@ -5581,7 +5592,7 @@ keyframe_required
 RTC_DCHECK_RUN_ON
 (
 &
-decode_queue_
+decode_sequence_checker_
 )
 ;
 bool
@@ -5810,7 +5821,7 @@ frame
 RTC_DCHECK_RUN_ON
 (
 &
-decode_queue_
+decode_sequence_checker_
 )
 ;
 /
@@ -7125,7 +7136,8 @@ value_or
 ;
 }
 decode_queue_
-.
+-
+>
 PostTask
 (
 [
@@ -7159,7 +7171,7 @@ last_keyframe_request
 RTC_DCHECK_RUN_ON
 (
 &
-decode_queue_
+decode_sequence_checker_
 )
 ;
 old_state
