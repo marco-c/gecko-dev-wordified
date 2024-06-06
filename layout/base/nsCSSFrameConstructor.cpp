@@ -41293,13 +41293,6 @@ mContainer
 ;
 if
 (
-iter
-.
-ShadowDOMInvolved
-(
-)
-|
-|
 !
 aChild
 -
@@ -59136,7 +59129,7 @@ using
 StyleChildrenIterator
 rather
 than
-FlattenedTreeIterator
+FlattenedChildIterator
 .
 But
 we
