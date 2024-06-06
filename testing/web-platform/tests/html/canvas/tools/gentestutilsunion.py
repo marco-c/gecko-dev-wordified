@@ -2944,7 +2944,7 @@ expanding
         
 #
 to
-multuple
+multiple
 lines
 .
 This
