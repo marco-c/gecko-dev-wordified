@@ -569,9 +569,11 @@ secret_command
 [
         
 "
+automation
+/
 taskcluster
 /
-scripts
+helper
 /
 get
 -
