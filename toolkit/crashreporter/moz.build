@@ -423,6 +423,13 @@ DIRS
 =
 [
 "
+client
+-
+rust
+/
+app
+"
+"
 minidump
 -
 analyzer
@@ -432,9 +439,6 @@ DIRS
 +
 =
 [
-"
-client
-"
 "
 mozannotation_client
 "

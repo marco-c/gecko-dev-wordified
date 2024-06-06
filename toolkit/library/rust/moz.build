@@ -211,6 +211,9 @@ RUST_TESTS
 =
 [
 "
+crashreporter
+"
+"
 firefox
 -
 on
@@ -291,6 +294,16 @@ RUST_TESTS
 nmhproxy
 "
 ]
+RUST_TEST_FEATURES
+.
+append
+(
+"
+crashreporter
+/
+mock
+"
+)
 #
 Code
 coverage
