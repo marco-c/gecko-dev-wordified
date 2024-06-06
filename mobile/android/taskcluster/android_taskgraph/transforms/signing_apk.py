@@ -68,11 +68,8 @@ jobs
 defined
 in
 the
-APK
-and
-AAB
-signing
-kinds
+build
+kind
 .
 "
 "
