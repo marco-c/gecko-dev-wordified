@@ -171,6 +171,11 @@ import
 render_actions_json
 from
 .
+files_changed
+import
+get_changed_files
+from
+.
 parameters
 import
 get_app_version
@@ -2040,6 +2045,34 @@ parameters
 head_rev
 "
 ]
+    
+)
+    
+parameters
+[
+"
+files_changed
+"
+]
+=
+sorted
+(
+        
+get_changed_files
+(
+parameters
+[
+"
+head_repository
+"
+]
+parameters
+[
+"
+head_rev
+"
+]
+)
     
 )
     
