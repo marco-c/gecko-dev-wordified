@@ -3217,17 +3217,6 @@ been
 initialzied
 yet
 .
-if
-(
-!
-aWorkerPrivate
--
->
-IsServiceWorker
-(
-)
-)
-{
 self
 -
 >
@@ -3235,7 +3224,6 @@ InitModuleLoader
 (
 )
 ;
-}
 return
 self
 .

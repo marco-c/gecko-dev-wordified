@@ -1714,6 +1714,16 @@ aPromise
 =
 0
 ;
+virtual
+bool
+IsDynamicImportSupported
+(
+)
+{
+return
+true
+;
+}
 /
 /
 Called
