@@ -17151,16 +17151,8 @@ confirmation
 .
 if
 (
-StaticPrefs
-:
-:
-apz_drag_initial_enabled
-(
-)
-&
-&
 /
-/
+*
 check
 that
 the
@@ -17172,6 +17164,8 @@ scroll
 frame
 is
 layerized
+*
+/
 aScrollThumbNode
 -
 >
