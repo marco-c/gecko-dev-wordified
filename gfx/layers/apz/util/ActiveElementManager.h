@@ -379,7 +379,7 @@ a
 click
 *
 /
-void
+bool
 HandleTouchEndEvent
 (
 bool
@@ -418,7 +418,7 @@ APZ
 .
 *
 /
-void
+bool
 HandleTouchEnd
 (
 bool
@@ -703,7 +703,7 @@ CancelTask
 (
 )
 ;
-void
+bool
 MaybeChangeActiveState
 (
 bool
