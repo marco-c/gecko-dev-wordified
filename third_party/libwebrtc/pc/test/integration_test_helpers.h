@@ -5492,13 +5492,6 @@ make_unique
 RtcEventLogFactory
 >
 (
-pc_factory_dependencies
-.
-task_queue_factory
-.
-get
-(
-)
 )
 ;
 }

@@ -391,9 +391,6 @@ SetMandatoryEntities
 InjectableComponents
 *
 components
-TimeController
-&
-time_controller
 )
 {
 RTC_DCHECK
@@ -451,11 +448,6 @@ make_unique
 RtcEventLogFactory
 >
 (
-time_controller
-.
-GetTaskQueueFactory
-(
-)
 )
 ;
 }
@@ -2002,7 +1994,6 @@ components
 get
 (
 )
-time_controller_
 )
 ;
 params
