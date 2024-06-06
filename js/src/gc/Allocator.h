@@ -172,6 +172,9 @@ Cell
 class
 TenuredCell
 ;
+class
+TenuringTracer
+;
 /
 /
 Allocator
@@ -669,6 +672,10 @@ AllocSite
 *
 site
 )
+;
+friend
+class
+TenuringTracer
 ;
 /
 /

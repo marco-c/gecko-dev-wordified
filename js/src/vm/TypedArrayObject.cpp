@@ -1503,16 +1503,6 @@ elementsRaw
 )
 )
 ;
-MOZ_ASSERT
-(
-obj
--
->
-isTenured
-(
-)
-)
-;
 /
 /
 Typed

@@ -1873,7 +1873,7 @@ MEM_PRESSURE
 }
 void
 *
-AllocateCellInGC
+AllocateTenuredCellInGC
 (
 JS
 :

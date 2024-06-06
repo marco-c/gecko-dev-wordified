@@ -5216,6 +5216,17 @@ canOwnDependentChars
 )
 const
 ;
+/
+/
+Only
+called
+by
+the
+GC
+during
+nursery
+collection
+.
 inline
 void
 setBase

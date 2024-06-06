@@ -1463,7 +1463,7 @@ TenuredCell
 *
 >
 (
-AllocateCellInGC
+AllocateTenuredCellInGC
 (
 zone
 thingKind
