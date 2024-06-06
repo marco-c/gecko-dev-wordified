@@ -223,10 +223,6 @@ testFeature
 "
     
 "
-updatePrompt
-"
-    
-"
 upgradeDialog
 "
 }
