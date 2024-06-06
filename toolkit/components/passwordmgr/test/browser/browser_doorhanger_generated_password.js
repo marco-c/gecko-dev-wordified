@@ -2639,8 +2639,7 @@ dismissed
 true
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -2709,8 +2708,7 @@ dismissed
 false
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -3464,8 +3462,7 @@ dismissed
 true
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -3535,8 +3532,7 @@ dismissed
 false
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -3816,8 +3812,7 @@ dismissed
 true
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -3886,8 +3881,7 @@ dismissed
 false
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -4188,8 +4182,7 @@ dismissed
 true
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -4314,8 +4307,7 @@ dismissed
 true
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -4410,8 +4402,7 @@ dismissed
 false
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -4984,8 +4975,7 @@ dismissed
 false
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -7306,8 +7296,7 @@ dismissed
 false
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
@@ -8533,8 +8522,7 @@ dismissed
 true
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 user1LoginSnapshot
@@ -9721,8 +9709,7 @@ dismissed
 false
 anchorExtraAttr
 :
-"
-"
+null
 usernameValue
 :
 "
