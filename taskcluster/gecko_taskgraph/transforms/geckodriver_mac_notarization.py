@@ -58,8 +58,8 @@ MPL
 "
 Transform
 the
-repackage
-signing
+geckodriver
+notarization
 task
 into
 an
@@ -122,7 +122,7 @@ util
 scriptworker
 import
 add_scope_prefix
-repackage_signing_description_schema
+geckodriver_notarization_description_schema
 =
 Schema
 (
@@ -294,7 +294,7 @@ transforms
 .
 add_validate
 (
-repackage_signing_description_schema
+geckodriver_notarization_description_schema
 )
 transforms
 .
