@@ -2217,7 +2217,10 @@ E
 local_name
 :
 &
-AtomIdent
+crate
+:
+:
+LocalName
 )
 -
 >
@@ -2349,7 +2352,10 @@ SelectorImpl
 Option
 <
 &
-AtomIdent
+crate
+:
+:
+LocalName
 >
 {
 let
@@ -2948,7 +2954,10 @@ Attr
 &
 '
 a
-AtomIdent
+crate
+:
+:
+LocalName
 )
 LocalName
 (
