@@ -373,7 +373,6 @@ firstWindowObserver
 (
 aSubject
 aTopic
-aData
 )
 {
 if
@@ -544,7 +543,6 @@ window
 function
 onSSWindowStateBusy
 (
-aEvent
 )
 {
 busyEventCount
@@ -555,7 +553,6 @@ busyEventCount
 function
 onSSWindowStateReady
 (
-aEvent
 )
 {
 readyEventCount
@@ -566,7 +563,6 @@ readyEventCount
 function
 onSSTabRestored
 (
-aEvent
 )
 {
 if

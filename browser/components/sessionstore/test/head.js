@@ -906,9 +906,6 @@ aTimeout
 function
 observer
 (
-subject
-topic
-data
 )
 {
 removeObserver
@@ -1522,7 +1519,7 @@ aBrowser
 aWebProgress
 aRequest
 aStateFlags
-aStatus
+_aStatus
 )
 {
 if
@@ -1657,8 +1654,6 @@ restored
 observe
 (
 browser
-topic
-data
 )
 {
 gProgressListener
@@ -2574,7 +2569,6 @@ function
 (
 [
 data
-options
 ]
 )
 {

@@ -390,7 +390,6 @@ onLastSSTabRestoring
 function
 onSSTabRestored
 (
-aEvent
 )
 {
 if

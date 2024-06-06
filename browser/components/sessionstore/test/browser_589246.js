@@ -1059,9 +1059,6 @@ testState
 function
 onStateRestored
 (
-aSubject
-aTopic
-aData
 )
 {
 info
@@ -1175,7 +1172,6 @@ load
 "
 function
 (
-aEvent
 )
 {
 promiseBrowserLoaded
@@ -1449,9 +1445,6 @@ closed
 function
 onLastWindowClosed
 (
-aSubject
-aTopic
-aData
 )
 {
 info
@@ -1646,7 +1639,6 @@ load
 "
 function
 (
-aEvent
 )
 {
 newWin

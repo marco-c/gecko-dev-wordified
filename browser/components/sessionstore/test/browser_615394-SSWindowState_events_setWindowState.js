@@ -172,7 +172,6 @@ tabRestoredCount
 function
 onSSWindowStateBusy
 (
-aEvent
 )
 {
 busyEventCount
@@ -183,7 +182,6 @@ busyEventCount
 function
 onSSWindowStateReady
 (
-aEvent
 )
 {
 readyEventCount
@@ -236,7 +234,6 @@ qux
 function
 onSSTabRestored
 (
-aEvent
 )
 {
 if

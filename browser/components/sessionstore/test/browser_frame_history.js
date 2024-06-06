@@ -1435,7 +1435,6 @@ load
 function
 listener
 (
-aEvent
 )
 {
 if

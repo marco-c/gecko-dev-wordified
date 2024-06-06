@@ -149,7 +149,6 @@ load
 function
 onLoad
 (
-aEvent
 )
 {
 /

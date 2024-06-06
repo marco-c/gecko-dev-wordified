@@ -547,7 +547,7 @@ aBrowser
 aWebProgress
 aRequest
 aStateFlags
-aStatus
+_aStatus
 )
 {
 if

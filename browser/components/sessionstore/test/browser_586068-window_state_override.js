@@ -421,8 +421,6 @@ function
 (
 aBrowser
 aNeedRestore
-aRestoring
-aRestored
 )
 {
 /

@@ -101,9 +101,6 @@ observer
 {
 observe
 (
-aSubject
-aTopic
-aData
 )
 {
 Services

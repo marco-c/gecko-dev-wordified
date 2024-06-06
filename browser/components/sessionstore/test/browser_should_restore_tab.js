@@ -105,8 +105,6 @@ false
 function
 topicObserver
 (
-_
-topic
 )
 {
 notified
@@ -555,7 +553,7 @@ tabOpenedAndSwitchedTo
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

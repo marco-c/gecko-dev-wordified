@@ -766,8 +766,6 @@ function
 (
 aBrowser
 aNeedRestore
-aRestoring
-aRestored
 )
 {
 loadCount
@@ -993,7 +991,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 if

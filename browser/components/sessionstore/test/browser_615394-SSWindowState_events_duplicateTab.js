@@ -203,7 +203,6 @@ bar
 function
 onSSWindowStateBusy
 (
-aEvent
 )
 {
 busyEventCount
@@ -214,7 +213,6 @@ busyEventCount
 function
 onSSWindowStateReady
 (
-aEvent
 )
 {
 newTab

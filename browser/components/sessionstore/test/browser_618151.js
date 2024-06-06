@@ -341,7 +341,6 @@ test_setup
 function
 onSSTabRestored
 (
-aEvent
 )
 {
 gBrowser

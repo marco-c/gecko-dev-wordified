@@ -310,7 +310,6 @@ observer
 (
 aSubject
 aTopic
-aData
 )
 {
 is

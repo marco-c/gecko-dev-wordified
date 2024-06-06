@@ -84,7 +84,6 @@ nsIAboutModule
 )
 getURIFlags
 (
-aURI
 )
 {
 /
@@ -384,7 +383,7 @@ onStateChange
 listener
 request
 state
-status
+_status
 )
 {
 let

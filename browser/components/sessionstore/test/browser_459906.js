@@ -170,7 +170,6 @@ load
 function
 listener
 (
-aEvent
 )
 {
 /
@@ -257,7 +256,6 @@ load
 function
 loadListener
 (
-eventTab2
 )
 {
 /
