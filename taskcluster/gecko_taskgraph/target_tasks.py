@@ -6290,6 +6290,35 @@ try_name
                     
 return
 True
+                
+if
+"
+motionmark
+"
+in
+try_name
+and
+"
+1
+-
+3
+"
+in
+try_name
+:
+                    
+if
+"
+chrome
+-
+m
+"
+in
+try_name
+:
+                        
+return
+True
         
 return
 False
