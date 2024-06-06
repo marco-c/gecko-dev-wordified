@@ -2895,6 +2895,9 @@ kSegmentSize
 =
 512
 ;
+using
+NurseryObjectsVector
+=
 SegmentedVector
 <
 nsWrapperCache
@@ -2902,6 +2905,8 @@ nsWrapperCache
 kSegmentSize
 InfallibleAllocPolicy
 >
+;
+NurseryObjectsVector
 mNurseryObjects
 ;
 nsTHashSet
