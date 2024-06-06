@@ -667,7 +667,7 @@ file_thirdPartyChild
 .
 video
 .
-ogv
+webm
 "
 ;
 let
@@ -1148,7 +1148,7 @@ ogg
 "
 video
 .
-ogv
+webm
 "
 "
 fetch
