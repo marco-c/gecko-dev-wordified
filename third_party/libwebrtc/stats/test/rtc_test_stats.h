@@ -159,14 +159,6 @@ Timestamp
 timestamp
 )
 ;
-RTCTestStats
-(
-const
-RTCTestStats
-&
-other
-)
-;
 ~
 RTCTestStats
 (

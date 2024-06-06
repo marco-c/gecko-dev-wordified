@@ -30327,12 +30327,6 @@ RTCStats
 id
 timestamp
 )
-dummy_stat
-(
-"
-dummyStat
-"
-)
 {
 }
 RTCStatsMember
@@ -30352,8 +30346,14 @@ test
 -
 stats
 "
+AttributeInit
+(
+"
+dummyStat
+"
 &
 dummy_stat
+)
 )
 /
 /
