@@ -220,8 +220,8 @@ onBoolPref
 kind
 name
 value
-isSticky
-isLocked
+_isSticky
+_isLocked
 )
 {
 if
