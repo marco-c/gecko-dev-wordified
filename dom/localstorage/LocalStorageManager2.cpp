@@ -1315,7 +1315,7 @@ spot
 ContentParent
 :
 :
-AboutToLoadHttpFtpDocumentForChild
+AboutToLoadHttpDocumentForChild
 .
 return
 NS_ERROR_NOT_IMPLEMENTED

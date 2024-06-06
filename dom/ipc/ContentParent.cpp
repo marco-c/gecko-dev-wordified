@@ -21792,7 +21792,7 @@ demand
 by
 /
 /
-AboutToLoadHttpFtpDocumentForChild
+AboutToLoadHttpDocumentForChild
 and
 RemoteWorkerManager
 .
@@ -41498,7 +41498,7 @@ nsresult
 ContentParent
 :
 :
-AboutToLoadHttpFtpDocumentForChild
+AboutToLoadHttpDocumentForChild
 (
 nsIChannel
 *

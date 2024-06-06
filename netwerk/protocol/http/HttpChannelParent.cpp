@@ -8199,7 +8199,7 @@ pcp
 )
 -
 >
-AboutToLoadHttpFtpDocumentForChild
+AboutToLoadHttpDocumentForChild
 (
 chan
 &

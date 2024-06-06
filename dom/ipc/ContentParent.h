@@ -3101,8 +3101,6 @@ HTTP
 (
 S
 )
-or
-FTP
 channel
 for
 a
@@ -3157,7 +3155,7 @@ are
 sent
 .
 nsresult
-AboutToLoadHttpFtpDocumentForChild
+AboutToLoadHttpDocumentForChild
 (
 nsIChannel
 *
