@@ -265,7 +265,7 @@ value
 in
 kwargs
 .
-iteritems
+items
 (
 )
     
@@ -304,6 +304,9 @@ stdout
 subprocess
 .
 PIPE
+universal_newlines
+=
+True
 )
     
 output
@@ -325,8 +328,8 @@ wait
     
 if
 exit_code
-is
-not
+!
+=
 0
 :
         

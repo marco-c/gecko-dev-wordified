@@ -195,15 +195,6 @@ parameters
 head_tag
 "
 ]
-.
-decode
-(
-"
-utf
--
-8
-"
-)
     
 parameters
 [
@@ -474,15 +465,6 @@ next_version
 str
 (
 next_version
-)
-.
-decode
-(
-"
-utf
--
-8
-"
 )
         
 parameters

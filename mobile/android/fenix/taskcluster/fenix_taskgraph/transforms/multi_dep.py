@@ -147,7 +147,7 @@ _get_all_deps
 task
 )
 .
-iteritems
+items
 (
 )
         
