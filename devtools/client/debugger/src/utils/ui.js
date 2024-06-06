@@ -324,7 +324,7 @@ export
 function
 resizeToggleButton
 (
-editor
+newSize
 )
 {
 const
@@ -343,7 +343,7 @@ header
 toggle
 -
 button
--
+.
 start
 "
 )
@@ -360,10 +360,7 @@ style
 width
 =
 {
-getLineNumberWidth
-(
-editor
-)
+newSize
 }
 px
 ;
