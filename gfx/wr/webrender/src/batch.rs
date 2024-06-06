@@ -127,6 +127,15 @@ use
 crate
 :
 :
+pattern
+:
+:
+PatternKind
+;
+use
+crate
+:
+:
 spatial_tree
 :
 :
@@ -690,7 +699,10 @@ Brush
 (
 BrushBatchKind
 )
-Primitive
+Quad
+(
+PatternKind
+)
 }
 /
 /
@@ -4764,6 +4776,9 @@ add_quad_to_batch
 &
 mut
 self
+kind
+:
+PatternKind
 prim_instance_index
 :
 PrimitiveInstanceIndex
@@ -4849,6 +4864,7 @@ next
 ;
 add_quad_to_batch
 (
+kind
 self
 .
 batcher
@@ -5085,6 +5101,7 @@ PrimitiveCommand
 :
 Quad
 {
+pattern
 prim_instance_index
 gpu_buffer_address
 quad_flags
@@ -5105,6 +5122,8 @@ self
 .
 add_quad_to_batch
 (
+*
+pattern
 *
 prim_instance_index
 *
@@ -5180,6 +5199,8 @@ self
 .
 add_quad_to_batch
 (
+*
+pattern
 *
 prim_instance_index
 *
@@ -19091,6 +19112,9 @@ add_quad_to_batch
 F
 >
 (
+kind
+:
+PatternKind
 render_task_address
 :
 RenderTaskAddress
@@ -19330,7 +19354,10 @@ kind
 BatchKind
 :
 :
-Primitive
+Quad
+(
+kind
+)
 textures
 }
 ;
@@ -19350,7 +19377,10 @@ kind
 BatchKind
 :
 :
-Primitive
+Quad
+(
+kind
+)
 textures
 }
 ;

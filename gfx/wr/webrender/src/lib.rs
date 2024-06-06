@@ -734,6 +734,9 @@ mod
 lru_cache
 ;
 mod
+pattern
+;
+mod
 picture
 ;
 mod
@@ -747,6 +750,9 @@ prim_store
 ;
 mod
 print_tree
+;
+mod
+quad
 ;
 mod
 render_backend
