@@ -305,9 +305,15 @@ number_type
                 
 regex
 =
+(
+r
 "
 regex
 :
+(
+\
+W
+)
 (
 (
 {
@@ -337,19 +343,22 @@ D
 =
 =
 >
+\
+1
 {
 url
 }
 /
 \
-\
-3
-\
-\
 4
+\
+5
+"
+"
 \
 n
 "
+)
 .
 format
 (
@@ -395,6 +404,7 @@ repo_name
                     
 repo_suffix
 =
+r
 "
 ?
 "
@@ -404,8 +414,8 @@ repo_name
 =
 REPO_NAME_TO_IMPORT
 else
+r
 "
-\
 \
 s
 *
