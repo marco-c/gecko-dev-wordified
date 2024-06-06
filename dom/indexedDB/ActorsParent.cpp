@@ -15645,6 +15645,9 @@ PBackgroundIDBCursorParent
 *
 aActor
 const
+int64_t
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -16074,6 +16077,10 @@ PBackgroundIDBCursorParent
 AllocPBackgroundIDBCursorParent
 (
 const
+int64_t
+&
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -16092,6 +16099,10 @@ RecvPBackgroundIDBCursorConstructor
 PBackgroundIDBCursorParent
 *
 aActor
+const
+int64_t
+&
+aRequestId
 const
 OpenCursorParams
 &
@@ -16495,6 +16506,10 @@ PBackgroundIDBCursorParent
 AllocPBackgroundIDBCursorParent
 (
 const
+int64_t
+&
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -16513,6 +16528,10 @@ RecvPBackgroundIDBCursorConstructor
 PBackgroundIDBCursorParent
 *
 aActor
+const
+int64_t
+&
+aRequestId
 const
 OpenCursorParams
 &
@@ -22303,6 +22322,9 @@ bool
 Start
 (
 const
+int64_t
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -23097,6 +23119,9 @@ bool
 Start
 (
 const
+int64_t
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -23433,6 +23458,9 @@ CursorOpBase
 Cursor
 *
 aCursor
+const
+int64_t
+aRequestId
 )
 :
 TransactionDatabaseOperationBase
@@ -23450,7 +23478,7 @@ clonePtr
 aRequestId
 *
 /
-0
+aRequestId
 )
 mCursor
 (
@@ -24263,6 +24291,9 @@ Cursor
 const
 aCursor
 const
+int64_t
+aRequestId
+const
 Maybe
 <
 SerializedKeyRange
@@ -24274,6 +24305,7 @@ aOptionalKeyRange
 CursorOpBase
 (
 aCursor
+aRequestId
 )
 mOptionalKeyRange
 (
@@ -24377,6 +24409,7 @@ aPosition
 CursorOpBase
 (
 aCursor
+0
 )
 mParams
 (
@@ -58193,6 +58226,9 @@ PBackgroundIDBCursorParent
 const
 aActor
 const
+int64_t
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -58246,6 +58282,7 @@ op
 >
 Start
 (
+aRequestId
 aParams
 )
 )
@@ -58906,6 +58943,10 @@ NormalTransaction
 AllocPBackgroundIDBCursorParent
 (
 const
+int64_t
+&
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -58942,6 +58983,10 @@ PBackgroundIDBCursorParent
 const
 aActor
 const
+int64_t
+&
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -58977,6 +59022,7 @@ if
 StartCursor
 (
 aActor
+aRequestId
 aParams
 )
 )
@@ -62374,6 +62420,10 @@ VersionChangeTransaction
 AllocPBackgroundIDBCursorParent
 (
 const
+int64_t
+&
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -62408,6 +62458,10 @@ RecvPBackgroundIDBCursorConstructor
 PBackgroundIDBCursorParent
 *
 aActor
+const
+int64_t
+&
+aRequestId
 const
 OpenCursorParams
 &
@@ -62444,6 +62498,7 @@ if
 StartCursor
 (
 aActor
+aRequestId
 aParams
 )
 )
@@ -63379,6 +63434,9 @@ CursorType
 Start
 (
 const
+int64_t
+aRequestId
+const
 OpenCursorParams
 &
 aParams
@@ -63451,6 +63509,7 @@ new
 OpenOp
 (
 this
+aRequestId
 optionalKeyRange
 )
 ;
