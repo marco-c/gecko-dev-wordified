@@ -321,11 +321,6 @@ in
 cron
 "
 "
-github
--
-release
-"
-"
 action
 "
 )
@@ -410,11 +405,6 @@ in
 (
 "
 cron
-"
-"
-github
--
-release
 "
 "
 action
@@ -565,11 +555,6 @@ in
 (
 "
 cron
-"
-"
-github
--
-release
 "
 "
 action
