@@ -1129,6 +1129,15 @@ DAV1D_ARM_CPU_FLAG_NEON
 )
 return
 ;
+assign_itx_fn
+(
+4
+4
+wht_wht
+WHT_WHT
+neon
+)
+;
 if
 (
 BITDEPTH
@@ -1144,7 +1153,7 @@ bpc
 )
 return
 ;
-assign_itx17_fn
+assign_itx16_fn
 (
 4
 4
