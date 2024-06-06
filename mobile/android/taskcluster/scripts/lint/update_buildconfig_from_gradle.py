@@ -556,11 +556,23 @@ app
 "
 ]
     
-#
-TODO
-:
-Support
+elif
+gradle_root
+.
+endswith
+(
+"
 fenix
+"
+)
+:
+        
+return
+[
+"
+app
+"
+]
     
 raise
 NotImplementedError
@@ -887,13 +899,16 @@ gradle_root
 )
 :
     
-#
-TODO
-:
-Support
-fenix
-    
 return
+gradle_root
+.
+endswith
+(
+"
+fenix
+"
+)
+or
 gradle_root
 .
 endswith
