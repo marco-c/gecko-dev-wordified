@@ -635,10 +635,10 @@ cap
 2fms
 )
 "
-sinceLast
->
-=
-mFrameInterval
+FrameCaptureRequested
+(
+aTime
+)
 ?
 "
 "
