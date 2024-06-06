@@ -60,7 +60,7 @@ mozilla_version
 .
 mobile
 import
-MobileVersion
+GeckoVersion
 from
 taskgraph
 .
@@ -500,7 +500,7 @@ config
     
 parsed_version
 =
-MobileVersion
+GeckoVersion
 .
 parse
 (
