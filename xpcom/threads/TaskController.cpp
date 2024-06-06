@@ -5942,6 +5942,11 @@ insertion
 .
 first
 ;
+if
+(
+manager
+)
+{
 manager
 -
 >
@@ -5949,6 +5954,7 @@ WillRunTask
 (
 )
 ;
+}
 }
 else
 {

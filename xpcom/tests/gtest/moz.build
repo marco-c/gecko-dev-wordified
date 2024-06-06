@@ -370,6 +370,11 @@ TestTArray2
 cpp
 "
 "
+TestTaskController
+.
+cpp
+"
+"
 TestTaskQueue
 .
 cpp
