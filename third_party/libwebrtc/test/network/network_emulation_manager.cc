@@ -532,8 +532,11 @@ EmulatedNetworkNode
 >
 (
 clock_
-&
 task_queue_
+.
+Get
+(
+)
 std
 :
 :
@@ -799,8 +802,11 @@ stats_gathering_mode_
 config
 .
 start_as_enabled
-&
 task_queue_
+.
+Get
+(
+)
 clock_
 )
 ;
