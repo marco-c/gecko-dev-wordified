@@ -3115,6 +3115,19 @@ exp
 )
 :
         
+#
+Bug
+1885473
+:
+require
+sign
+-
+in
+?
+        
+return
+True
+        
 self
 .
 open_tab
