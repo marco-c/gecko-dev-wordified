@@ -4405,11 +4405,13 @@ purgeAtomCache
 (
 )
 {
-atomCache
+atomCache_
+.
+ref
 (
 )
 .
-clearAndCompact
+reset
 (
 )
 ;
