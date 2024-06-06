@@ -30217,7 +30217,10 @@ wm
 .
 PhysicalSide
 (
-eLogicalSideBStart
+LogicalSide
+:
+:
+BStart
 )
 )
 !
@@ -30234,7 +30237,10 @@ wm
 .
 PhysicalSide
 (
-eLogicalSideBEnd
+LogicalSide
+:
+:
+BEnd
 )
 )
 !

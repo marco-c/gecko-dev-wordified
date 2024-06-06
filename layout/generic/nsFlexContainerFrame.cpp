@@ -19204,7 +19204,10 @@ mWM
 .
 PhysicalSide
 (
-eLogicalSideBStart
+LogicalSide
+:
+:
+BStart
 )
 ;
 /
@@ -20500,7 +20503,10 @@ mWM
 .
 PhysicalSide
 (
-eLogicalSideBStart
+LogicalSide
+:
+:
+BStart
 )
 ;
 nscoord

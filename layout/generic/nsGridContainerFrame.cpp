@@ -26822,7 +26822,10 @@ row
 start
 line
 pass
-eLogicalSideBStart
+LogicalSide
+:
+:
+BStart
 )
 *
 param
