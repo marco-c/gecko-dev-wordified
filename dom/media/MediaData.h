@@ -2632,6 +2632,12 @@ char
 *
 sTypeName
 ;
+nsCString
+ToString
+(
+)
+const
+;
 /
 /
 Access
