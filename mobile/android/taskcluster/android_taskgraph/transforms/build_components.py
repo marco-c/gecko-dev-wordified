@@ -120,12 +120,6 @@ review
 "
             
 "
-expose
--
-artifacts
-"
-            
-"
 include
 -
 coverage
@@ -1048,17 +1042,7 @@ component
 )
         
 if
-task
-.
-pop
-(
-"
-expose
--
-artifacts
-"
-False
-)
+artifact_template
 :
             
 all_extensions
