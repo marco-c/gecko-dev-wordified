@@ -96,8 +96,6 @@ NormalPolicy
 {
 onProfileAfterChange
 (
-manager
-param
 )
 {
 normalPolicyRan
@@ -114,8 +112,6 @@ EnterpriseOnlyPolicy
 {
 onProfileAfterChange
 (
-manager
-param
 )
 {
 enterprisePolicyRan

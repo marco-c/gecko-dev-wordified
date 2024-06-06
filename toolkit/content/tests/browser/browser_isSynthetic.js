@@ -50,10 +50,6 @@ this
 }
 onLocationChange
 (
-webProgress
-request
-location
-flags
 )
 {
 this
@@ -213,7 +209,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -275,7 +271,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 FILES

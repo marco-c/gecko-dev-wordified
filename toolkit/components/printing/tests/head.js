@@ -1331,7 +1331,6 @@ _showPrintDialog
 (
 window
 haveSelection
-settings
 )
 =
 >

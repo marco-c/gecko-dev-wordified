@@ -963,7 +963,6 @@ notify
 function
 T0CB_notify
 (
-aTimer
 )
 {
 /
@@ -1052,7 +1051,6 @@ notify
 function
 T1CB_notify
 (
-aTimer
 )
 {
 /
@@ -1141,7 +1139,6 @@ notify
 function
 T2CB_notify
 (
-aTimer
 )
 {
 /
@@ -1271,7 +1268,6 @@ notify
 function
 T4CB_notify
 (
-aTimer
 )
 {
 Services
@@ -1350,7 +1346,6 @@ notify
 function
 T5CB_notify
 (
-aTimer
 )
 {
 Services
@@ -1429,7 +1424,6 @@ notify
 function
 T6CB_notify
 (
-aTimer
 )
 {
 Services
@@ -1508,7 +1502,6 @@ notify
 function
 T7CB_notify
 (
-aTimer
 )
 {
 Services
@@ -1587,7 +1580,6 @@ notify
 function
 T8CB_notify
 (
-aTimer
 )
 {
 TESTS
@@ -1673,7 +1665,6 @@ notify
 function
 T9CB_notify
 (
-aTimer
 )
 {
 TESTS
@@ -1736,7 +1727,6 @@ notify
 function
 T9CB_notify
 (
-aTimer
 )
 {
 /

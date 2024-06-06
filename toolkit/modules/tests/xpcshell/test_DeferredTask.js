@@ -2243,10 +2243,7 @@ longer
 .
 replaceIdleDispatch
 (
-(
 callback
-timeout
-)
 =
 >
 {

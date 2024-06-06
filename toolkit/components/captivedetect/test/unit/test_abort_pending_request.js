@@ -208,7 +208,6 @@ observe
 (
 subject
 topic
-data
 )
 {
 if
@@ -409,7 +408,6 @@ complete
 function
 complete
 (
-success
 )
 {
 do_throw

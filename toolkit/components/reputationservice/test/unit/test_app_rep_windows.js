@@ -1429,8 +1429,6 @@ throw
 "
 function
 (
-request
-response
 )
 {
 do_throw

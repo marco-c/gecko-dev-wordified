@@ -249,7 +249,6 @@ popup
 {
 setSelectedIndex
 (
-aIndex
 )
 {
 }
@@ -451,7 +450,6 @@ aIndex
 }
 getImageAt
 (
-aIndex
 )
 {
 return
@@ -475,7 +473,6 @@ aIndex
 }
 isRemovableAt
 (
-aRowIndex
 )
 {
 return
@@ -484,7 +481,6 @@ true
 }
 removeValueAt
 (
-aRowIndex
 )
 {
 }

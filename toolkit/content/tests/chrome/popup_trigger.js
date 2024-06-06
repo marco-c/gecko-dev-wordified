@@ -1356,7 +1356,6 @@ gTrigger
 result
 (
 testname
-step
 )
 {
 is
@@ -2983,8 +2982,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 /
@@ -3032,7 +3029,6 @@ gCachedEvent
 result
 (
 testname
-step
 )
 {
 gExpectedTriggerNode
@@ -3109,7 +3105,6 @@ thepopup
 test
 (
 testname
-step
 )
 {
 synthesizeKey
@@ -3170,8 +3165,6 @@ thepopup
 "
 test
 (
-testname
-step
 )
 {
 /
@@ -3212,7 +3205,6 @@ true
 result
 (
 testname
-step
 )
 {
 compareEdge
@@ -3271,8 +3263,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 gMenuPopup
@@ -3292,7 +3282,6 @@ false
 result
 (
 testname
-step
 )
 {
 var
@@ -3366,8 +3355,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 var
@@ -3395,7 +3382,6 @@ item3
 result
 (
 testname
-step
 )
 {
 checkClosed
@@ -3441,8 +3427,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 gMenuPopup
@@ -3476,8 +3460,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 gExpectedTriggerNode
@@ -3503,7 +3485,6 @@ false
 result
 (
 testname
-step
 )
 {
 gExpectedTriggerNode
@@ -3728,8 +3709,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 gExpectedTriggerNode
@@ -3756,7 +3735,6 @@ gCachedEvent
 result
 (
 testname
-step
 )
 {
 gExpectedTriggerNode
@@ -4818,8 +4796,6 @@ thepopup
 "
 test
 (
-testname
-step
 )
 {
 gMenuPopup
@@ -4862,8 +4838,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 openMenu
@@ -4875,7 +4849,6 @@ gTrigger
 result
 (
 testname
-step
 )
 {
 checkOpen
@@ -4934,8 +4907,6 @@ submenupopup
 ]
 test
 (
-testname
-step
 )
 {
 openMenu
@@ -4954,7 +4925,6 @@ submenu
 result
 (
 testname
-step
 )
 {
 checkOpen
@@ -5083,7 +5053,6 @@ hidePopup
 result
 (
 testname
-step
 )
 {
 checkClosed
@@ -5119,8 +5088,6 @@ open
 "
 test
 (
-testname
-step
 )
 {
 openMenu
@@ -5139,7 +5106,6 @@ submenu
 result
 (
 testname
-step
 )
 {
 checkClosed
@@ -5194,8 +5160,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 gMenuPopup
@@ -5219,7 +5183,6 @@ gTrigger
 result
 (
 testname
-step
 )
 {
 compareEdge
@@ -5272,8 +5235,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 closeMenu
@@ -5286,7 +5247,6 @@ gMenuPopup
 result
 (
 testname
-step
 )
 {
 checkClosed
@@ -5340,8 +5300,6 @@ thepopup
 "
 test
 (
-testname
-step
 )
 {
 gMenuPopup
@@ -5389,7 +5347,6 @@ gTrigger
 result
 (
 testname
-step
 )
 {
 compareEdge
@@ -5446,8 +5403,6 @@ thepopup
 "
 test
 (
-testname
-step
 )
 {
 gMenuPopup
@@ -5492,7 +5447,6 @@ gTrigger
 result
 (
 testname
-step
 )
 {
 compareEdge
@@ -5565,8 +5519,6 @@ thepopup
 "
 test
 (
-testname
-step
 )
 {
 gTrigger
@@ -5594,7 +5546,6 @@ platformIsMac
 result
 (
 testname
-step
 )
 {
 checkOpen
@@ -5648,8 +5599,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 gTrigger
@@ -5677,7 +5626,6 @@ platformIsMac
 result
 (
 testname
-step
 )
 {
 checkOpen
@@ -5746,8 +5694,6 @@ thepopup
 ]
 test
 (
-testname
-step
 )
 {
 synthesizeKey
@@ -5768,7 +5714,6 @@ KEY_Enter
 result
 (
 testname
-step
 )
 {
 checkClosed
@@ -5819,8 +5764,6 @@ thepopup
 "
 test
 (
-testname
-step
 )
 {
 gTrigger
@@ -5847,7 +5790,6 @@ KEY_F4
 result
 (
 testname
-step
 )
 {
 checkOpen
@@ -5905,8 +5847,6 @@ gIsMenu
 }
 test
 (
-testname
-step
 )
 {
 gTrigger
@@ -5953,7 +5893,6 @@ true
 result
 (
 testname
-step
 )
 {
 checkClosed
@@ -5986,8 +5925,6 @@ gIsMenu
 }
 test
 (
-testname
-step
 )
 {
 gTrigger
@@ -6015,7 +5952,6 @@ gTrigger
 result
 (
 testname
-step
 )
 {
 checkClosed
@@ -6075,7 +6011,6 @@ thepopup
 test
 (
 testname
-step
 )
 {
 gMenuPopup
@@ -6110,7 +6045,6 @@ testname
 result
 (
 testname
-step
 )
 {
 var
@@ -6221,7 +6155,6 @@ thepopup
 test
 (
 testname
-step
 )
 {
 gMenuPopup
@@ -6296,8 +6229,6 @@ thepopup
 "
 test
 (
-testname
-step
 )
 {
 gMenuPopup
@@ -6310,7 +6241,6 @@ openPopup
 result
 (
 testname
-step
 )
 {
 let
@@ -6464,7 +6394,6 @@ submenupopup
 test
 (
 testname
-step
 )
 {
 gMenuPopup
@@ -6538,8 +6467,6 @@ content
 "
 test
 (
-testname
-step
 )
 {
 var

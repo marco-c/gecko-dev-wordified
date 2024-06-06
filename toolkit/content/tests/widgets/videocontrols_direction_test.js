@@ -204,7 +204,6 @@ suspend
 "
 function
 (
-aEvent
 )
 {
 setTimeout

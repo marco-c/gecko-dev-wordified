@@ -988,7 +988,6 @@ download
 function
 (
 request
-response
 )
 {
 if

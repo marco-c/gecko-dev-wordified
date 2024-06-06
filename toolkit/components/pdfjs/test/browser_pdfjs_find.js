@@ -116,7 +116,8 @@ withNewTab
 (
 OS_PDF_URL
 async
-browser
+(
+)
 =
 >
 {
@@ -793,7 +794,7 @@ webpage
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

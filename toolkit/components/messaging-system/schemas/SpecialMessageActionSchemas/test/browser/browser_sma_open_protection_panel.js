@@ -47,7 +47,8 @@ withNewTab
 (
 EXAMPLE_URL
 async
-browser
+(
+)
 =
 >
 {

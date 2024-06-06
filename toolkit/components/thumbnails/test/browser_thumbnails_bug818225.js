@@ -123,7 +123,8 @@ url
 URL
 }
 async
-browser
+(
+)
 =
 >
 {

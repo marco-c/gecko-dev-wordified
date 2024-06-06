@@ -669,7 +669,6 @@ function
 assertContentFlags
 (
 chromeFlags
-isPopup
 )
 {
 for
@@ -1018,7 +1017,6 @@ SCRIPT_PAGE
 async
 function
 (
-browser
 )
 {
 let
@@ -1258,7 +1256,6 @@ SCRIPT_PAGE_FOR_CHROME_ALL
 async
 function
 (
-browser
 )
 {
 let
@@ -1422,7 +1419,6 @@ SCRIPT_PAGE
 async
 function
 (
-browser
 )
 {
 let

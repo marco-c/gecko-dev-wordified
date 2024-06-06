@@ -287,10 +287,6 @@ stopSearchInvoked
 true
 startSearch
 (
-aSearchString
-aSearchParam
-aPreviousResult
-aListener
 )
 {
 info

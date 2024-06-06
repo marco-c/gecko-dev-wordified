@@ -288,7 +288,6 @@ COMMIT
 function
 prepareVersion3Schema
 (
-callback
 )
 {
 var

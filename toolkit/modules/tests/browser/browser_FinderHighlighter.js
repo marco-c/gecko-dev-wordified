@@ -182,7 +182,6 @@ function
 (
 maskNode
 outlineNode
-rects
 )
 {
 Assert
@@ -1581,7 +1580,7 @@ removeCalls
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url

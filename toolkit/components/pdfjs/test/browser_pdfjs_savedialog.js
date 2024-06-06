@@ -326,7 +326,6 @@ domwindow
 }
 onCloseWindow
 (
-aXULWindow
 )
 {
 }

@@ -501,7 +501,6 @@ DUMMY_URL
 async
 function
 (
-browser
 )
 {
 /

@@ -305,10 +305,7 @@ time
 waitForOnBeforeUnloadDialog
 (
 browser
-(
 btnLeave
-btnStay
-)
 =
 >
 {

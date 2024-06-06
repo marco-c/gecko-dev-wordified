@@ -72,7 +72,6 @@ blank
 }
 function
 (
-browser
 )
 {
 ok

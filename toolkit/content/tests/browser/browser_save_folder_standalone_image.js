@@ -324,7 +324,6 @@ IMAGE_URL
 async
 function
 (
-browser
 )
 {
 let

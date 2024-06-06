@@ -134,7 +134,8 @@ credentials
 .
 forEach
 (
-c
+(
+)
 =
 >
 {

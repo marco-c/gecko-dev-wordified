@@ -1010,7 +1010,8 @@ test_override_error
 let
 errorOverrideFn
 =
-base
+(
+)
 =
 >
 {

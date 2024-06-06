@@ -802,7 +802,6 @@ click
 "
 function
 (
-e
 )
 {
 value

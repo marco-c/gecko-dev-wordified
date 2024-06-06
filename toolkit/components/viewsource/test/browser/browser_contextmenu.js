@@ -314,7 +314,6 @@ browser
 async
 function
 (
-arg
 )
 {
 let

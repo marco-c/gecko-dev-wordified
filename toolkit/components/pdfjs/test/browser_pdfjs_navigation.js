@@ -1110,7 +1110,6 @@ pagerendered
 "
 function
 (
-e
 )
 {
 document

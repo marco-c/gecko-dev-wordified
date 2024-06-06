@@ -45,8 +45,6 @@ TryOverrideExceptionHandler
 }
 function
 (
-mdump
-extra
 )
 {
 }

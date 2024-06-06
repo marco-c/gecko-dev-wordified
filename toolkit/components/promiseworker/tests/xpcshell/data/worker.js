@@ -319,10 +319,6 @@ args
 throwError
 (
 msg
-.
-.
-.
-args
 )
 {
 throw

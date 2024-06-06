@@ -467,8 +467,6 @@ onDataAvailable
 (
 request
 stream
-offset
-count
 )
 {
 try
@@ -536,8 +534,6 @@ ex
 }
 onStopRequest
 (
-request
-status
 )
 {
 testRan

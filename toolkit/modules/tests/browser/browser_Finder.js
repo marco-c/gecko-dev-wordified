@@ -363,7 +363,6 @@ linkedBrowser
 async
 function
 (
-arg
 )
 {
 Assert
@@ -464,7 +463,6 @@ linkedBrowser
 async
 function
 (
-arg
 )
 {
 Assert

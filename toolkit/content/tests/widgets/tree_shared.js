@@ -3372,7 +3372,6 @@ keypressFired
 function
 keydownListener
 (
-event
 )
 {
 keydownFired
@@ -3383,7 +3382,6 @@ keydownFired
 function
 keypressListener
 (
-event
 )
 {
 keypressFired
@@ -7036,7 +7034,6 @@ container
 }
 isContainerOpen
 (
-row
 )
 {
 return
@@ -7113,7 +7110,6 @@ parent
 }
 hasNextSibling
 (
-row
 )
 {
 return
@@ -7691,8 +7687,6 @@ function
 testtag_tree_TreeView_rows_sort
 (
 tree
-testid
-rowInfo
 )
 {
 /
@@ -9416,7 +9410,6 @@ defaultPrevented
 function
 wheelListener
 (
-event
 )
 {
 defaultPrevented
@@ -11433,7 +11426,6 @@ mouseDblClickOnCell
 tree
 row
 column
-testname
 )
 {
 /

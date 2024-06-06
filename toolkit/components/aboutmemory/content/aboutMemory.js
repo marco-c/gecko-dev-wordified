@@ -4299,7 +4299,6 @@ displayInfo
 (
 aGCLog
 aCCLog
-aIsParent
 )
 {
 appendElementWithText
@@ -5282,8 +5281,6 @@ data
 ]
 onStartRequest
 (
-aR
-aC
 )
 {
 }

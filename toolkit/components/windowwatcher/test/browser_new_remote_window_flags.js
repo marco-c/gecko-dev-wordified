@@ -386,7 +386,6 @@ SCRIPT_PAGE
 async
 function
 (
-browser
 )
 {
 let

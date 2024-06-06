@@ -7176,7 +7176,6 @@ onStartRequest
 function
 ll_start
 (
-aRequest
 )
 {
 appstartup
@@ -7191,8 +7190,6 @@ onStopRequest
 function
 ll_stop
 (
-aRequest
-aStatusCode
 )
 {
 appstartup
@@ -7231,10 +7228,6 @@ uriListener
 {
 doContent
 (
-ctype
-preferred
-request
-handler
 )
 {
 return
@@ -7243,8 +7236,6 @@ false
 }
 isPreferred
 (
-ctype
-desired
 )
 {
 return
@@ -7253,9 +7244,6 @@ false
 }
 canHandleContent
 (
-ctype
-preferred
-desired
 )
 {
 return

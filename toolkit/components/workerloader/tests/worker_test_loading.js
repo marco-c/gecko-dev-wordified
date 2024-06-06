@@ -1341,7 +1341,6 @@ onmessage
 =
 function
 (
-message
 )
 {
 for

@@ -1671,7 +1671,8 @@ browser
 profilerPresetInURL
 ]
 async
-inURL
+(
+)
 =
 >
 {
@@ -2928,7 +2929,8 @@ browser
 [
 ]
 async
-savedLogModules
+(
+)
 =
 >
 {

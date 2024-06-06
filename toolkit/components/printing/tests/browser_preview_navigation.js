@@ -145,9 +145,6 @@ function
 waitUntilVisible
 (
 elem
-visible
-=
-true
 )
 {
 await

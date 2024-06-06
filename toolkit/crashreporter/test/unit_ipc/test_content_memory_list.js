@@ -182,7 +182,6 @@ null
 function
 (
 mdump
-extra
 )
 {
 Assert

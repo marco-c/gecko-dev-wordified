@@ -685,7 +685,8 @@ third
 party
 "
 async
-browser
+(
+)
 =
 >
 {

@@ -348,7 +348,6 @@ listener
 {
 onFindResult
 (
-aData
 )
 {
 info

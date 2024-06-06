@@ -232,7 +232,6 @@ BLANK_PAGE
 async
 function
 (
-browser
 )
 {
 /
@@ -291,7 +290,7 @@ NON_POPUP_OPENER
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 POPUP_OPENER

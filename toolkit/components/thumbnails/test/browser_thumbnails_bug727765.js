@@ -158,7 +158,8 @@ url
 URL
 }
 async
-browser
+(
+)
 =
 >
 {

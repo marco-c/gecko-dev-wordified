@@ -166,7 +166,8 @@ url
 :
 URL
 }
-browser
+(
+)
 =
 >
 {
@@ -199,7 +200,8 @@ url
 URL
 }
 async
-browser
+(
+)
 =
 >
 {

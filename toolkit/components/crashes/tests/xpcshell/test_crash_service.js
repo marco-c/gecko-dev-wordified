@@ -1187,7 +1187,6 @@ addObserver
 (
 subject
 topic
-data
 )
 =
 >

@@ -738,7 +738,6 @@ BLANK_PAGE
 async
 function
 (
-browser
 )
 {
 const
@@ -752,7 +751,7 @@ waitForNewWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 SCRIPT_PAGE
@@ -895,7 +894,6 @@ BLANK_PAGE
 async
 function
 (
-browser
 )
 {
 const
@@ -911,7 +909,7 @@ OPEN_PAGE
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 SCRIPT_PAGE
@@ -971,7 +969,7 @@ OPEN_PAGE
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 SCRIPT_PAGE

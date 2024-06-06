@@ -25091,7 +25091,6 @@ null
 function
 run_readstring_tests
 (
-library
 )
 {
 /

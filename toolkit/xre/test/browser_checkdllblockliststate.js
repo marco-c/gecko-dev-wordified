@@ -65,7 +65,6 @@ blank
 }
 function
 (
-browser
 )
 {
 ok

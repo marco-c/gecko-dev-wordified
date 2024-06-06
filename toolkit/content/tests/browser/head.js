@@ -1095,7 +1095,6 @@ Promise
 function
 (
 resolve
-reject
 )
 {
 target

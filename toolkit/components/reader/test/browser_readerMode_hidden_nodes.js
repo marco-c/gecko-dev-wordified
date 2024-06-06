@@ -172,7 +172,6 @@ forEach
 (
 [
 name
-value
 ]
 )
 =
@@ -358,7 +357,7 @@ complete
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

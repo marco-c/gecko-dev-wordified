@@ -1059,7 +1059,6 @@ onload
 =
 function
 (
-e
 )
 {
 var
