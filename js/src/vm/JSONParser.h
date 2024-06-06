@@ -2067,7 +2067,7 @@ protected
 :
 inline
 bool
-createJSONParseRecord
+finishPrimitiveParseRecord
 (
 const
 Value
