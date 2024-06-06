@@ -3877,7 +3877,7 @@ if
 opaque
 )
 {
-FFMPEG_LOGV
+FFMPEGV_LOG
 (
 "
 ReleaseVideoBufferWrapper
