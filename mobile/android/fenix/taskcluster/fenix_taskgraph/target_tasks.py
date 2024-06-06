@@ -54,12 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 target_tasks
@@ -67,9 +61,9 @@ import
 _target_task
 _target_task
 (
-'
+"
 release
-'
+"
 )
 def
 target_tasks_default
@@ -294,7 +288,9 @@ key
     
 return
 [
+        
 l
+        
 for
 l
 t
@@ -306,6 +302,7 @@ tasks
 items
 (
 )
+        
 if
 _filter_fennec
 (
@@ -315,6 +312,7 @@ production
 t
 parameters
 )
+    
 ]
 _target_task
 (

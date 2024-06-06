@@ -71,12 +71,6 @@ jobs
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -145,7 +139,6 @@ dep_key
 dep
 .
 label
-            
 for
 dep_key
 dep
@@ -225,9 +218,9 @@ for
 "
 copy_of_attributes
 [
-'
+"
 run_on_tasks_for
-'
+"
 ]
 )
         
@@ -362,11 +355,11 @@ name
 *
 {
                 
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
@@ -382,9 +375,9 @@ type
 "
 ]
                 
-'
+"
 level
-'
+"
 :
 config
 .
@@ -488,21 +481,21 @@ type
             
 worker_definition
 [
+                
 "
 upstream
 -
 artifacts
 "
+            
 ]
 =
 generate_beetmover_upstream_artifacts
 (
-                
 config
 task
 build_type
 locale
-            
 )
         
 else
@@ -525,15 +518,16 @@ paths
 =
 sorted
 (
-[
                     
+[
+                        
 apk_metadata
 [
 "
 name
 "
 ]
-                    
+                        
 for
 apk_metadata
 in
@@ -553,8 +547,9 @@ apks
 values
 (
 )
-                
+                    
 ]
+                
 )
                 
 if
@@ -572,8 +567,9 @@ artifacts
 .
 append
 (
-{
                         
+{
+                            
 "
 taskId
 "
@@ -599,7 +595,7 @@ dep
 kind
 )
 }
-                        
+                            
 "
 taskType
 "
@@ -607,14 +603,15 @@ taskType
 dep
 .
 kind
-                        
+                            
 "
 paths
 "
 :
 paths
-                    
+                        
 }
+                    
 )
         
 task

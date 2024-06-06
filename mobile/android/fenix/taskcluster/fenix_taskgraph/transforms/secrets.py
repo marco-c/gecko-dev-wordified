@@ -65,12 +65,6 @@ secrets
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -131,9 +125,7 @@ resolve_keyed_by
 (
                 
 task
-                
 key
-                
 item_name
 =
 task
@@ -142,7 +134,6 @@ task
 name
 "
 ]
-                
 level
 =
 config

@@ -54,12 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -89,10 +83,6 @@ import
 Required
 Optional
 from
-six
-import
-text_type
-from
 pipes
 import
 quote
@@ -109,7 +99,7 @@ name
 "
 )
 :
-text_type
+str
     
 Required
 (
@@ -118,7 +108,7 @@ path
 "
 )
 :
-text_type
+str
     
 Required
 (
@@ -127,7 +117,7 @@ key
 "
 )
 :
-text_type
+str
     
 Optional
 (
@@ -149,7 +139,7 @@ content
 "
 )
 :
-text_type
+str
     
 Required
 (
@@ -158,7 +148,7 @@ path
 "
 )
 :
-text_type
+str
     
 Optional
 (
@@ -173,8 +163,9 @@ gradlew_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -185,7 +176,7 @@ using
 "
 gradlew
 "
-    
+        
 Optional
 (
 "
@@ -197,10 +188,10 @@ gradlew
 :
 [
 [
-text_type
+str
 ]
 ]
-    
+        
 Required
 (
 "
@@ -209,9 +200,9 @@ gradlew
 )
 :
 [
-text_type
+str
 ]
-    
+        
 Optional
 (
 "
@@ -223,10 +214,10 @@ gradlew
 :
 [
 [
-text_type
+str
 ]
 ]
-    
+        
 #
 Base
 work
@@ -238,7 +229,7 @@ up
 the
 task
 .
-    
+        
 Required
 (
 "
@@ -246,8 +237,8 @@ workdir
 "
 )
 :
-text_type
-    
+str
+        
 Optional
 (
 "
@@ -258,7 +249,7 @@ caches
 )
 :
 bool
-    
+        
 Optional
 (
 "
@@ -269,7 +260,7 @@ secrets
 [
 secret_schema
 ]
-    
+        
 Optional
 (
 "
@@ -282,14 +273,16 @@ secrets
 [
 dummy_secret_schema
 ]
+    
 }
 )
 run_commands_schema
 =
 Schema
 (
-{
     
+{
+        
 Required
 (
 "
@@ -302,7 +295,7 @@ run
 -
 commands
 "
-    
+        
 Optional
 (
 "
@@ -314,10 +307,10 @@ commands
 :
 [
 [
-text_type
+str
 ]
 ]
-    
+        
 Required
 (
 "
@@ -330,7 +323,7 @@ commands
 taskref_or_string
 ]
 ]
-    
+        
 Required
 (
 "
@@ -338,8 +331,8 @@ workdir
 "
 )
 :
-text_type
-    
+str
+        
 Optional
 (
 "
@@ -350,7 +343,7 @@ caches
 )
 :
 bool
-    
+        
 Optional
 (
 "
@@ -361,7 +354,7 @@ secrets
 [
 secret_schema
 ]
-    
+        
 Optional
 (
 "
@@ -374,6 +367,7 @@ secrets
 [
 dummy_secret_schema
 ]
+    
 }
 )
 run_job_using
@@ -434,6 +428,7 @@ _generate_dummy_secret_command
 (
 secret
 )
+        
 for
 secret
 in
@@ -618,8 +613,8 @@ env
 .
 update
 (
-{
         
+{
 "
 ANDROID_SDK_ROOT
 "
@@ -628,7 +623,6 @@ path
 .
 join
 (
-            
 fetches_dir
 "
 android
@@ -637,10 +631,9 @@ sdk
 -
 linux
 "
-        
 )
-    
 }
+    
 )
     
 run
@@ -716,6 +709,7 @@ _generate_dummy_secret_command
 (
 secret
 )
+        
 for
 secret
 in
@@ -828,6 +822,8 @@ central
     
 gradle_command
 =
+(
+        
 [
 "
 .
@@ -851,6 +847,8 @@ pop
 "
 gradlew
 "
+)
+    
 )
     
 post_gradle_commands
@@ -910,6 +908,7 @@ py
 -
 s
 "
+        
 secret
 [
 "
@@ -921,6 +920,7 @@ name
 -
 k
 "
+        
 secret
 [
 "
@@ -932,6 +932,7 @@ key
 -
 f
 "
+        
 secret
 [
 "
@@ -994,6 +995,7 @@ py
 -
 f
 "
+        
 secret
 [
 "
@@ -1005,6 +1007,7 @@ path
 -
 c
 "
+        
 secret
 [
 "
@@ -1139,13 +1142,13 @@ else
 raise
 ValueError
 (
-'
+"
 Unsupported
 dict
 :
 {
 }
-'
+"
 .
 format
 (
@@ -1177,6 +1180,7 @@ sanitized_parts
 shell_quoted_commands
 =
 [
+        
 "
 "
 .
@@ -1192,6 +1196,7 @@ for
 command
 in
 sanitized_commands
+    
 ]
     
 full_string_command
@@ -1215,6 +1220,7 @@ should_task_reference
 raise
 NotImplementedError
 (
+            
 '
 "
 arifact
@@ -1232,6 +1238,7 @@ be
 both
 used
 '
+        
 )
     
 elif
@@ -1334,10 +1341,12 @@ new_secret_scopes
 =
 list
 (
+        
 set
 (
 new_secret_scopes
 )
+    
 )
 #
 Scopes

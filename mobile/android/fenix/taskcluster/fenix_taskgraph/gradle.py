@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 json
 import
@@ -93,7 +87,6 @@ for
 variant
 in
 all_variants
-        
 if
 variant
 [
@@ -139,9 +132,7 @@ type
 .
 format
 (
-            
 build_type
-        
 )
 )
     
@@ -154,6 +145,7 @@ number_of_matching_variants
 raise
 ValueError
 (
+            
 '
 Too
 many
@@ -174,11 +166,12 @@ type
 .
 format
 (
-            
+                
 build_type
 matching_variants
-        
+            
 )
+        
 )
     
 return
@@ -198,9 +191,9 @@ output
 =
 _run_gradle_process
 (
-'
+"
 printVariants
-'
+"
 )
     
 content
@@ -210,10 +203,10 @@ _extract_content_from_command_output
 output
 prefix
 =
-'
+"
 variants
 :
-'
+"
 )
     
 return
@@ -237,7 +230,7 @@ gradle_properties
 =
 [
         
-'
+"
 -
 P
 {
@@ -247,7 +240,7 @@ property_name
 {
 value
 }
-'
+"
 .
 format
 (
@@ -277,6 +270,7 @@ subprocess
 .
 Popen
 (
+        
 [
 "
 .
@@ -299,14 +293,17 @@ gradle_command
 ]
 +
 gradle_properties
+        
 stdout
 =
 subprocess
 .
 PIPE
+        
 universal_newlines
 =
 True
+    
 )
     
 output
@@ -373,10 +370,10 @@ output
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 if
 line
@@ -395,8 +392,8 @@ variants_line
 .
 split
 (
-'
-'
+"
+"
 1
 )
 [

@@ -75,12 +75,6 @@ kind
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -122,6 +116,7 @@ for
 key
 in
 (
+            
 "
 worker
 .
@@ -129,6 +124,7 @@ github
 -
 project
 "
+            
 "
 worker
 .
@@ -136,6 +132,7 @@ is
 -
 prerelease
 "
+            
 "
 worker
 .
@@ -143,6 +140,7 @@ release
 -
 name
 "
+        
 )
 :
             
@@ -166,11 +164,11 @@ name
 *
 {
                     
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
@@ -186,9 +184,9 @@ type
 "
 ]
                     
-'
+"
 level
-'
+"
 :
 config
 .
@@ -289,6 +287,7 @@ name
 .
 format
 (
+                
 version
 =
 config
@@ -299,6 +298,7 @@ params
 version
 "
 ]
+            
 )
         
 }
@@ -431,7 +431,6 @@ path
 ]
 =
 {
-                
 "
 destinations
 "
@@ -442,7 +441,6 @@ github_names_per_path
 path
 ]
 ]
-            
 }
         
 artifact_map

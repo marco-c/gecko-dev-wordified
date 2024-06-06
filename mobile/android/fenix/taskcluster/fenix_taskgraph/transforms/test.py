@@ -54,12 +54,6 @@ MPL
 /
 .
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -138,6 +132,7 @@ PULL_REQUEST_NUMBER
 =
 str
 (
+                
 config
 .
 params
@@ -146,6 +141,7 @@ params
 pull_request_number
 "
 ]
+            
 )
         
 yield

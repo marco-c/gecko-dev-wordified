@@ -75,12 +75,6 @@ kind
 "
 "
 from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
-from
 taskgraph
 .
 transforms
@@ -162,11 +156,11 @@ name
 *
 {
                     
-'
+"
 build
 -
 type
-'
+"
 :
 task
 [
@@ -182,9 +176,9 @@ type
 "
 ]
                     
-'
+"
 level
-'
+"
 :
 config
 .
@@ -195,11 +189,11 @@ level
 "
 ]
                     
-'
+"
 tasks
 -
 for
-'
+"
 :
 config
 .
@@ -278,15 +272,19 @@ type
             
 in
 (
+                
 "
 nightly
 "
+                
 "
 beta
 "
+                
 "
 release
 "
+                
 "
 android
 -
@@ -294,16 +292,19 @@ test
 -
 nightly
 "
+                
 "
 beta
 -
 mozillaonline
 "
+                
 "
 release
 -
 mozillaonline
 "
+            
 )
             
 and
@@ -373,8 +374,6 @@ signing
 "
         
 if
-(
-            
 str
 (
 config
@@ -391,7 +390,6 @@ level
 "
 3
 "
-            
 and
 config
 .
@@ -403,13 +401,14 @@ tasks_for
 ]
 in
 (
+            
 "
 cron
 "
+            
 "
 action
 "
-)
         
 )
 :
@@ -465,9 +464,11 @@ type
 ]
 in
 (
+                
 "
 nightly
 "
+                
 "
 android
 -
@@ -475,16 +476,19 @@ test
 -
 nightly
 "
+                
 "
 beta
 -
 mozillaonline
 "
+                
 "
 release
 -
 mozillaonline
 "
+            
 )
 :
                 
@@ -541,8 +545,6 @@ index
 }
         
 if
-(
-            
 config
 .
 params
@@ -560,7 +562,6 @@ cron
 action
 "
 )
-            
 and
 task
 [
@@ -569,13 +570,14 @@ attributes
 "
 ]
 [
+            
 "
 build
 -
 type
 "
+        
 ]
-            
 in
 (
 "
@@ -595,8 +597,6 @@ beta
 "
 release
 "
-)
-        
 )
 :
             
