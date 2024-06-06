@@ -761,6 +761,7 @@ apply
 &
 ]
 (
+const
 auto
 &
 lock
@@ -853,6 +854,7 @@ apply
 &
 ]
 (
+const
 auto
 &
 lock
@@ -1027,6 +1029,7 @@ apply
 &
 ]
 (
+const
 auto
 &
 lock

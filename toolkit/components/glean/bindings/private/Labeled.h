@@ -486,6 +486,7 @@ apply
 &
 ]
 (
+const
 auto
 &
 lock

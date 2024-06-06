@@ -328,6 +328,7 @@ apply
 &
 ]
 (
+const
 auto
 &
 lock

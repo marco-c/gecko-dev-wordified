@@ -244,6 +244,7 @@ apply
 &
 ]
 (
+const
 auto
 &
 lock
