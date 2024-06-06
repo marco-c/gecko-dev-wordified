@@ -113,7 +113,9 @@ mobile
 REPO_NAME_TO_IMPORT
 =
 "
-fenix
+firefox
+-
+android
 "
 def
 divide_chunks
@@ -241,19 +243,6 @@ f
 regexes
 =
 [
-        
-"
-regex
-:
-^
-=
-=
->
-[
-fenix
-]
-"
-    
 ]
     
 for
