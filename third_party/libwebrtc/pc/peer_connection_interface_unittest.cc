@@ -23795,7 +23795,7 @@ specific
 TEST_F
 (
 PeerConnectionInterfaceTestPlanB
-VerifyDefaultStreamIsNotCreated
+VerifyDefaultStreamIsNotRecreated
 )
 {
 RTCConfiguration
@@ -23848,7 +23848,7 @@ get
 ;
 CreateAndSetRemoteOffer
 (
-kSdpStringWithoutStreams
+kSdpStringWithMsidWithoutStreams
 )
 ;
 EXPECT_EQ
