@@ -470,20 +470,21 @@ view
 .
 format
 (
-    
+            
 cold_main_ff
 =
 TEST_COLD_MAIN_FF
 cold_main_restore
 =
 TEST_COLD_MAIN_RESTORE
-    
+            
 cold_view_ff
 =
 TEST_COLD_VIEW_FF
 cold_view_nav_start
 =
 TEST_COLD_VIEW_NAV_START
+        
 )
 )
     
@@ -575,6 +576,7 @@ action
 "
 store_true
 "
+                        
 help
 =
 "
@@ -1035,14 +1037,10 @@ True
 #
 capture_output
 so
-it
-doesn
-'
-t
+no
 print
 to
-the
-console
+stdout
 .
     
 time
@@ -1284,27 +1282,6 @@ proc
 stdout
 )
     
-else
-:
-raise
-NotImplementedError
-(
-'
-method
-unexpectedly
-undefined
-for
-test_name
-{
-}
-'
-.
-format
-(
-test_name
-)
-)
-    
 return
 measurement
 def
@@ -1543,6 +1520,8 @@ IntentReceiverActivity
 from
 uid
 2000
+#
+noqa
     
 #
 05
@@ -1581,6 +1560,8 @@ fenix
 /
 .
 IntentReceiverActivity
+#
+noqa
     
 #
 05
@@ -1766,6 +1747,7 @@ re
 .
 compile
 (
+r
 '
 ActivityManager
 :
@@ -1884,14 +1866,12 @@ page_start_lines
 )
 )
 #
-One
-for
+Lines
+:
 about
 :
 blank
 &
-one
-for
 target
 URL
 .
@@ -2017,6 +1997,32 @@ time
 stamps
 .
     
+#
+    
+#
+For
+total_seconds
+(
+)
+values
+<
+1s
+are
+expressed
+in
+decimal
+(
+e
+.
+g
+.
+.
+001
+is
+1ms
+)
+.
+    
 elapsed_seconds
 =
 (
@@ -2032,15 +2038,6 @@ get_proc_start_datetime
 total_seconds
 (
 )
-#
-values
-<
-1s
-are
-expressed
-in
-decimal
-.
     
 elapsed_millis
 =
