@@ -11,7 +11,9 @@ url
 in
 SafeBrowsing
 .
-jsm
+sys
+.
+mjs
 addMozEntries
 const
 PHISH_TABLE
@@ -307,7 +309,7 @@ url
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .

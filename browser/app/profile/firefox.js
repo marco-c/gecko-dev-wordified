@@ -4404,9 +4404,11 @@ Browser
 Console
 .
 See
-Log
+/
+/
+ConsoleInstance
 .
-jsm
+webidl
 .
 pref
 (

@@ -384,9 +384,11 @@ defined
 /
 /
 in
-XPInstall
+XPIInstall
 .
-jsm
+sys
+.
+mjs
 )
 .
 const

@@ -5,11 +5,15 @@
 Tests
 PhoneNumber
 .
-jsm
+sys
+.
+mjs
 and
 PhoneNumberNormalizer
 .
-jsm
+sys
+.
+mjs
 .
 *
 /

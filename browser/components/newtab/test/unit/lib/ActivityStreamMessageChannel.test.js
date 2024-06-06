@@ -94,7 +94,9 @@ map
 in
 ActivityStreamMessageChannel
 .
-jsm
+sys
+.
+mjs
 .
 function
 getTabDetails

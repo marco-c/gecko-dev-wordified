@@ -79,9 +79,11 @@ meta_tags
 html
 ContentMetaHandler
 .
-jsm
-parses
+sys
+.
+mjs
 *
+parses
 out
 the
 meta
@@ -95,8 +97,8 @@ best
 one
 for
 description
-and
 *
+and
 one
 for
 preview
@@ -145,7 +147,9 @@ found
 in
 ContentMetaHandler
 .
-jsm
+sys
+.
+mjs
 .
 *
 /

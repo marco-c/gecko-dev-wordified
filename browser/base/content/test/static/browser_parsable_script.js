@@ -220,7 +220,9 @@ would
 use
 reflect
 .
-jsm
+sys
+.
+mjs
 to
 get
 Reflect
@@ -244,7 +246,9 @@ allocated
 in
 reflect
 .
-jsm
+sys
+.
+mjs
 '
 s
 /
@@ -264,7 +268,9 @@ GC
 collects
 reflect
 .
-jsm
+sys
+.
+mjs
 '
 s
 /

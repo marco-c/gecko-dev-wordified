@@ -863,7 +863,9 @@ in
 old
 XULStore
 .
-jsm
+sys
+.
+mjs
 return
 ;
 }

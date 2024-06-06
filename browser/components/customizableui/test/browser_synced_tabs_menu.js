@@ -295,7 +295,9 @@ use
 for
 SyncedTabs
 .
-jsm
+sys
+.
+mjs
 -
 tests
 may

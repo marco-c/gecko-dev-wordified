@@ -633,7 +633,9 @@ file
 and
 CrashSubmit
 .
-jsm
+sys
+.
+mjs
 /
 /
 expects

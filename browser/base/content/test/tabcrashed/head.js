@@ -827,7 +827,9 @@ MOZ_CRASHREPORTER_URL
 which
 CrashSubmit
 .
-jsm
+sys
+.
+mjs
 uses
 as
 a
