@@ -642,14 +642,6 @@ linux
 "
 )
             
-#
-TODO
-:
-switch
-to
-offline
-builds
-            
 "
 GRADLE_USER_HOME
 "
