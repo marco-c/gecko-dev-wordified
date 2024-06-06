@@ -68,6 +68,14 @@ taskgraph
 .
 util
 .
+dependencies
+import
+get_dependencies
+from
+taskgraph
+.
+util
+.
 schema
 import
 resolve_keyed_by
@@ -242,19 +250,10 @@ destination
         
 deps
 =
+get_dependencies
+(
+config
 task
-.
-pop
-(
-"
-dependent
--
-tasks
-"
-)
-.
-values
-(
 )
         
 task

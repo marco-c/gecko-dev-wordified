@@ -138,10 +138,12 @@ dependency
 "
 )
         
-else
+elif
+not
+primary_dep
 :
             
-primary_dep
+deps
 =
 list
 (
@@ -151,6 +153,28 @@ config
 task
 )
 )
+or
+list
+(
+                
+task
+[
+"
+dependent
+-
+tasks
+"
+]
+.
+values
+(
+)
+            
+)
+            
+primary_dep
+=
+deps
 [
 0
 ]

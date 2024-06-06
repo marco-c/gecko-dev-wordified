@@ -107,6 +107,7 @@ resolve_keyed_by
 from
 voluptuous
 import
+ALLOW_EXTRA
 Optional
 Required
 Schema
@@ -268,6 +269,10 @@ str
 )
     
 }
+    
+extra
+=
+ALLOW_EXTRA
 )
 transforms
 =
