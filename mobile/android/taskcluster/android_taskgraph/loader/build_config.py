@@ -404,6 +404,9 @@ regular
 nightly
 '
 '
+beta
+'
+'
 release
 '
 )
