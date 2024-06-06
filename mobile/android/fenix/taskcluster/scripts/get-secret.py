@@ -62,16 +62,22 @@ MPL
 0
 /
 .
+from
+__future__
+import
+absolute_import
+print_function
+unicode_literals
 import
 argparse
 import
 base64
 import
+errno
+import
 json
 import
 os
-import
-errno
 import
 taskcluster
 def
@@ -102,6 +108,12 @@ os
 .
 path
 .
+abspath
+(
+os
+.
+path
+.
 join
 (
 os
@@ -119,12 +131,10 @@ __file__
 .
 .
 /
-.
-.
-/
 '
 +
 path
+)
 )
     
 try
@@ -162,6 +172,23 @@ EEXIST
 :
             
 raise
+    
+print
+(
+"
+Outputting
+secret
+to
+:
+{
+}
+"
+.
+format
+(
+path
+)
+)
     
 with
 open
