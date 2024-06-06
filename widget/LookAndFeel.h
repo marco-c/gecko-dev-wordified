@@ -1487,7 +1487,6 @@ High
 *
 /
 DynamicRange
-VideoDynamicRange
 /
 *
 *
