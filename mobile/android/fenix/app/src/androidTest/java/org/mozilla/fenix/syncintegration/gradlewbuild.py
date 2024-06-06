@@ -5,6 +5,7 @@ os
 import
 subprocess
 from
+.
 adbrun
 import
 ADBrun
@@ -293,5 +294,8 @@ f
 .
 write
 (
+str
+(
 out
+)
 )
