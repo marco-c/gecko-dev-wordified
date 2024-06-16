@@ -2989,6 +2989,13 @@ mWorkerPrivate
 aRv
 )
 ;
+mWorkerPrivate
+-
+>
+NotifyStorageKeyUsed
+(
+)
+;
 }
 RefPtr
 <
@@ -4497,6 +4504,13 @@ mIndexedDB
 indexedDB
 ;
 }
+mWorkerPrivate
+-
+>
+NotifyStorageKeyUsed
+(
+)
+;
 return
 indexedDB
 .
