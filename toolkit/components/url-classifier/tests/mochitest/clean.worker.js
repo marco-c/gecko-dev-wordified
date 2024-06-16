@@ -1,11 +1,3 @@
-/
-*
-eslint
--
-env
-worker
-*
-/
 onmessage
 =
 function
@@ -17,7 +9,9 @@ try
 importScripts
 (
 "
-evilWorker
+evil
+.
+worker
 .
 js
 "

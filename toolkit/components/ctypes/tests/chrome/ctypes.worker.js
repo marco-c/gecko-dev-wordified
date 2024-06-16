@@ -81,14 +81,6 @@ MPL
 .
 *
 /
-/
-*
-eslint
--
-env
-worker
-*
-/
 importScripts
 (
 "

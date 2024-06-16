@@ -3,14 +3,6 @@ use
 strict
 "
 ;
-/
-*
-eslint
--
-env
-worker
-*
-/
 onmessage
 =
 function
