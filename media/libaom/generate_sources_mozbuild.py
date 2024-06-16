@@ -1005,13 +1005,15 @@ OSes
         
 if
 cpu
-is
+=
+=
 '
 x86_64
 '
 and
 system
-is
+=
+=
 '
 win
 '
