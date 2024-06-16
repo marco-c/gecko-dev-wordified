@@ -4507,7 +4507,7 @@ ev
 PR_GetEnvSecure
 (
 "
-NSS_ENABLE_PKIX_VERIFY
+NSS_DISABLE_PKIX_VERIFY
 "
 )
 ;
@@ -4524,7 +4524,7 @@ ev
 {
 CERT_SetUsePKIXForValidation
 (
-PR_TRUE
+PR_FALSE
 )
 ;
 }

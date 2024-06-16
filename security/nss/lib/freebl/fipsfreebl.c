@@ -12241,7 +12241,7 @@ fieldID
 /
 {
 256
-ec_field_GFp
+ec_field_plain
 /
 *
 size

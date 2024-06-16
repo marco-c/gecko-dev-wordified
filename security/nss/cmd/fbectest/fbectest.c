@@ -150,9 +150,6 @@ char
 *
 name
 ;
-ECFieldType
-fieldType
-;
 }
 ECDH_KAT
 ;
@@ -169,9 +166,6 @@ point
 char
 *
 name
-;
-ECFieldType
-fieldType
 ;
 }
 ECDH_BAD
@@ -292,8 +286,6 @@ PLArenaPool
 *
 *
 arena
-ECFieldType
-type
 )
 {
 if
@@ -437,7 +429,7 @@ fieldID
 .
 type
 =
-type
+ec_field_plain
 ;
 ecParams
 -
@@ -1021,10 +1013,6 @@ bad
 curve
 &
 arena
-bad
--
->
-fieldType
 )
 ;
 if
