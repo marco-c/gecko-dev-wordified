@@ -136,15 +136,6 @@ units
 *
 ;
 use
-bytemuck
-:
-:
-{
-Pod
-Zeroable
-}
-;
-use
 crate
 :
 :
@@ -2436,10 +2427,7 @@ C
 derive
 (
 Clone
-Copy
 Debug
-Pod
-Zeroable
 )
 ]
 pub

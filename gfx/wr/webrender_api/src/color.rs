@@ -57,15 +57,6 @@ MPL
 *
 /
 use
-bytemuck
-:
-:
-{
-Pod
-Zeroable
-}
-;
-use
 peek_poke
 :
 :
@@ -188,8 +179,6 @@ Deserialize
 PartialEq
 PartialOrd
 Serialize
-Pod
-Zeroable
 )
 ]
 pub
@@ -1011,8 +1000,6 @@ Ord
 Serialize
 PeekPoke
 Default
-Pod
-Zeroable
 )
 ]
 pub

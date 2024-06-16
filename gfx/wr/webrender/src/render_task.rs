@@ -97,15 +97,6 @@ units
 *
 ;
 use
-bytemuck
-:
-:
-{
-Pod
-Zeroable
-}
-;
-use
 crate
 :
 :
@@ -461,8 +452,6 @@ Debug
 Copy
 Clone
 PartialEq
-Pod
-Zeroable
 )
 ]
 #
