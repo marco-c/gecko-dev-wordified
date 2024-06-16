@@ -3932,6 +3932,16 @@ rt
 )
 ;
 bool
+TypeOfEqObject
+(
+JSObject
+*
+obj
+JSType
+type
+)
+;
+bool
 GetPrototypeOf
 (
 JSContext
