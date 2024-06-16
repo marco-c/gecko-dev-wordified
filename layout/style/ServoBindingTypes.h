@@ -1128,10 +1128,6 @@ UNLOCKED_RULE_TYPE
 (
 Scope
 )
-UNLOCKED_RULE_TYPE
-(
-StartingStyle
-)
 SERVO_ARC_TYPE
 (
 AnimationValue

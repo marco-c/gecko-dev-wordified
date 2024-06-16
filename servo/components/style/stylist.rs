@@ -20774,15 +20774,6 @@ Scope
 .
 .
 )
-|
-CssRule
-:
-:
-StartingStyle
-(
-.
-.
-)
 =
 >
 {
