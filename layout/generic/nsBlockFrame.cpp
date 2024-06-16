@@ -2826,7 +2826,7 @@ OverflowOutOfFlowsProperty
 )
 NS_DECLARE_FRAME_PROPERTY_FRAMELIST
 (
-PushedFloatProperty
+PushedFloatsProperty
 )
 NS_DECLARE_FRAME_PROPERTY_FRAMELIST
 (
@@ -3145,7 +3145,7 @@ SafelyDestroyFrameListProp
 (
 aContext
 presShell
-PushedFloatProperty
+PushedFloatsProperty
 (
 )
 )
@@ -45043,7 +45043,7 @@ IsEmpty
 )
 )
 {
-RemovePushedFloats
+StealPushedFloats
 (
 )
 -
@@ -45129,7 +45129,7 @@ PresContext
 prevBlock
 -
 >
-RemovePushedFloats
+StealPushedFloats
 (
 )
 )
@@ -46044,7 +46044,7 @@ result
 =
 GetProperty
 (
-PushedFloatProperty
+PushedFloatsProperty
 (
 )
 )
@@ -46108,7 +46108,7 @@ nsFrameList
 ;
 SetProperty
 (
-PushedFloatProperty
+PushedFloatsProperty
 (
 )
 result
@@ -46128,7 +46128,7 @@ nsFrameList
 nsBlockFrame
 :
 :
-RemovePushedFloats
+StealPushedFloats
 (
 )
 {
@@ -46150,7 +46150,7 @@ result
 =
 TakeProperty
 (
-PushedFloatProperty
+PushedFloatsProperty
 (
 )
 )
