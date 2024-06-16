@@ -114,12 +114,6 @@ units
 *
 ;
 use
-bytemuck
-:
-:
-Pod
-;
-use
 euclid
 :
 :
@@ -23047,8 +23041,6 @@ fn
 update_vbo_data
 <
 V
-:
-Pod
 >
 (
 &
@@ -23184,8 +23176,6 @@ fn
 update_vao_main_vertices
 <
 V
-:
-Pod
 >
 (
 &
@@ -23234,8 +23224,6 @@ update_vao_instances
 <
 V
 :
-Pod
-+
 Clone
 >
 (

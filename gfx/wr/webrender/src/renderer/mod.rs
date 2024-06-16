@@ -584,12 +584,6 @@ api
 DebugFlags
 ;
 use
-bytemuck
-:
-:
-Pod
-;
-use
 core
 :
 :
@@ -13715,8 +13709,6 @@ draw_instanced_batch
 <
 T
 :
-Pod
-+
 Clone
 >
 (
