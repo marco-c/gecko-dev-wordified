@@ -378,7 +378,7 @@ ContentRelevancyManager
 .
 notify
 .
-calledOnce
+called
 "
 The
 timer
@@ -553,7 +553,7 @@ ContentRelevancyManager
 .
 notify
 .
-calledOnce
+called
 "
 The
 timer
