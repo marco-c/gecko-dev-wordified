@@ -329,7 +329,14 @@ EntryArg
 {
 name
 :
-None
+Some
+(
+name
+.
+into
+(
+)
+)
 binding
 :
 Binding

@@ -1003,7 +1003,7 @@ phd_capabilities
 adapter
 :
 :
-PhysicalDeviceCapabilities
+PhysicalDeviceProperties
 /
 /
 phd_features
@@ -3434,12 +3434,14 @@ crate
 :
 :
 Queue
-<
-Api
->
 for
 Queue
 {
+type
+A
+=
+Api
+;
 unsafe
 fn
 submit
