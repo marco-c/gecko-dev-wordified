@@ -748,8 +748,8 @@ ObjOperandId
 receiverId
 ObjOperandId
 handlerId
-uint32_t
-trapOffset
+ObjOperandId
+trapId
 IdType
 id
 uint32_t
