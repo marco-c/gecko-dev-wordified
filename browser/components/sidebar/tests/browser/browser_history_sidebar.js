@@ -157,6 +157,15 @@ true
 }
 )
 ;
+await
+PlacesUtils
+.
+history
+.
+clear
+(
+)
+;
 const
 pageInfos
 =
