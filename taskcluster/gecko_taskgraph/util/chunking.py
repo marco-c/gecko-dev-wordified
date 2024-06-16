@@ -256,6 +256,14 @@ cache
 -
 storage
 "
+    
+"
+webcodecs
+"
+:
+"
+webcodecs
+"
 }
 def
 guess_mozinfo_from_task
