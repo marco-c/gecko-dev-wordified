@@ -1298,13 +1298,6 @@ h
 #
 include
 "
-nsMenuPopupFrame
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -10880,7 +10873,7 @@ nullptr
 }
 nsTArray
 <
-nsMenuPopupFrame
+nsIFrame
 *
 >
 popups
@@ -10902,7 +10895,7 @@ to
 bottom
 for
 (
-nsMenuPopupFrame
+nsIFrame
 *
 popup
 :

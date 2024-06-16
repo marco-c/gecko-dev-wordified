@@ -339,7 +339,7 @@ parent
 process
 .
 static
-void
+bool
 SetLockedRemoteTarget
 (
 dom
@@ -348,9 +348,6 @@ dom
 BrowserParent
 *
 aBrowserParent
-nsACString
-&
-aError
 )
 ;
 static

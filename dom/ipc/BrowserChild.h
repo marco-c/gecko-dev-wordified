@@ -3893,17 +3893,6 @@ RecvReleaseAllPointerCapture
 (
 )
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvReleasePointerLock
-(
-)
-;
 private
 :
 void
