@@ -939,6 +939,10 @@ local_clip_rect
 pattern
 .
 base_color
+.
+premultiplied
+(
+)
 &
 [
 ]
@@ -3554,6 +3558,10 @@ clip_rect
 pattern
 .
 base_color
+.
+premultiplied
+(
+)
 segments
 pattern_transform
 )

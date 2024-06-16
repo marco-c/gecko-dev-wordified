@@ -60,10 +60,7 @@ use
 api
 :
 :
-{
 ColorF
-PremultipliedColorF
-}
 ;
 #
 [
@@ -326,7 +323,7 @@ PatternShaderInput
 pub
 base_color
 :
-PremultipliedColorF
+ColorF
 pub
 is_opaque
 :
@@ -366,10 +363,6 @@ default
 base_color
 :
 color
-.
-premultiplied
-(
-)
 is_opaque
 :
 color
@@ -417,7 +410,7 @@ default
 )
 base_color
 :
-PremultipliedColorF
+ColorF
 :
 :
 WHITE
