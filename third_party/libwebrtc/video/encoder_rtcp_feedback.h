@@ -229,6 +229,8 @@ EncoderRtcpFeedback
 Clock
 *
 clock
+bool
+per_layer_keyframes
 const
 std
 :
@@ -328,6 +330,10 @@ uint32_t
 ssrcs_
 ;
 const
+bool
+per_layer_keyframes_
+;
+const
 std
 :
 :
@@ -369,7 +375,13 @@ RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 packet_delivery_queue_
 ;
+std
+:
+:
+vector
+<
 Timestamp
+>
 time_last_packet_delivery_queue_
 RTC_GUARDED_BY
 (
