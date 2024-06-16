@@ -104,6 +104,10 @@ None
 super
 (
 )
+.
+__init__
+(
+)
         
 self
 .
@@ -153,7 +157,7 @@ __name__
 {
 self
 .
-error
+error_code
 }
 {
 self
