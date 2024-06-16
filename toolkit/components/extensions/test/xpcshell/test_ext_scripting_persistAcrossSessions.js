@@ -2430,6 +2430,9 @@ matches
 script
 .
 matches
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
@@ -4655,6 +4658,9 @@ file_sample
 html
 "
 ]
+matchOriginAsFallback
+:
+false
 runAt
 :
 "
