@@ -516,11 +516,9 @@ CreateEncoder
 override
 {
 return
-VP8Encoder
-:
-:
-Create
+CreateVp8Encoder
 (
+env_
 )
 ;
 }
@@ -539,9 +537,7 @@ override
 return
 CreateVp8Decoder
 (
-CreateEnvironment
-(
-)
+env_
 )
 ;
 }
