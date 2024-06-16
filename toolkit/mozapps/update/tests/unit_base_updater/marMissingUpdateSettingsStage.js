@@ -244,6 +244,7 @@ waitForUpdateXMLFiles
 (
 )
 ;
+await
 checkUpdateManager
 (
 STATE_NONE

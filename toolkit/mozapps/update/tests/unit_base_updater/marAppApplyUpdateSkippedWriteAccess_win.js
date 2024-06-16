@@ -328,6 +328,7 @@ checkFilesAfterUpdateFailure
 getApplyDirFile
 )
 ;
+await
 checkUpdateManager
 (
 STATE_PENDING
