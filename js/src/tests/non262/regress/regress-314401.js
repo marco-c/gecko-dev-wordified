@@ -13,14 +13,7 @@ shell
 |
 |
 (
-xulRuntime
-.
-OS
-=
-=
-"
-WINNT
-"
+winWidget
 &
 &
 isDebugBuild
