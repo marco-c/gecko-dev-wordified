@@ -3754,7 +3754,9 @@ so
 .
 SimpleMap
 <
+int64_t
 InputInfo
+ThreadSafePolicy
 >
 mInputInfos
 ;

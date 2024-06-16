@@ -894,7 +894,9 @@ nullptr
 typedef
 SimpleMap
 <
+int64_t
 uint64_t
+ThreadSafePolicy
 >
 DurationMap
 ;

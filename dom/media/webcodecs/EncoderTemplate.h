@@ -1483,6 +1483,7 @@ settled
 .
 SimpleMap
 <
+int64_t
 RefPtr
 <
 Promise

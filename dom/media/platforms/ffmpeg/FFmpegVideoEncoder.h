@@ -199,6 +199,8 @@ DurationMap
 SimpleMap
 <
 int64_t
+int64_t
+ThreadSafePolicy
 >
 ;
 public
