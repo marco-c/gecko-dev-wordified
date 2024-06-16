@@ -38,6 +38,7 @@ Glean
 SERP
 abandonment
 event
+.
 *
 /
 "
@@ -356,6 +357,11 @@ shopping_tab_displayed
 "
 false
 "
+is_signed_in
+:
+"
+false
+"
 }
 abandonment
 :
@@ -487,6 +493,11 @@ is_private
 false
 "
 shopping_tab_displayed
+:
+"
+false
+"
+is_signed_in
 :
 "
 false
@@ -628,6 +639,11 @@ is_private
 false
 "
 shopping_tab_displayed
+:
+"
+false
+"
+is_signed_in
 :
 "
 false
@@ -837,6 +853,11 @@ is_private
 false
 "
 shopping_tab_displayed
+:
+"
+false
+"
+is_signed_in
 :
 "
 false

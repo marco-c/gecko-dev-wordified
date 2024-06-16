@@ -48,7 +48,6 @@ Web
 Extensions
 .
 *
-*
 /
 "
 use
@@ -685,6 +684,11 @@ is_private
 false
 "
 shopping_tab_displayed
+:
+"
+false
+"
+is_signed_in
 :
 "
 false
