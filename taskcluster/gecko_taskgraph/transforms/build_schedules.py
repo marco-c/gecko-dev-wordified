@@ -216,13 +216,21 @@ elif
 config
 .
 kind
-=
-=
+in
+(
 "
 build
 -
 components
 "
+"
+build
+-
+samples
+-
+browser
+"
+)
 :
             
 #
