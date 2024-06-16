@@ -205,7 +205,10 @@ i32
 )
 (
 result
-externref
+(
+ref
+extern
+)
 )
 )
 (
@@ -239,7 +242,10 @@ i32
 )
 (
 result
-externref
+(
+ref
+extern
+)
 )
 )
 (
@@ -378,7 +384,10 @@ externref
 )
 (
 result
-externref
+(
+ref
+extern
+)
 )
 )
 (
@@ -414,7 +423,10 @@ i32
 )
 (
 result
-externref
+(
+ref
+extern
+)
 )
 )
 (
