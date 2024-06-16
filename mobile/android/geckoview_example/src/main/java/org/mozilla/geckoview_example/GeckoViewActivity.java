@@ -998,6 +998,16 @@ final
 NonNull
 WebExtension
 extension
+NonNull
+String
+[
+]
+permissions
+NonNull
+String
+[
+]
+origins
 )
 {
 return
