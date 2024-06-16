@@ -1062,6 +1062,7 @@ IPAddress
 ip
 )
 ;
+RTC_EXPORT
 bool
 IPIsLoopback
 (
@@ -1071,6 +1072,7 @@ IPAddress
 ip
 )
 ;
+RTC_EXPORT
 bool
 IPIsLinkLocal
 (
