@@ -378,7 +378,7 @@ convert_to_cpp_identifier
 (
 category_name
 "
-_
+.
 "
 )
 +
@@ -393,7 +393,7 @@ convert_to_cpp_identifier
 (
 metric_name
 "
-.
+_
 "
 )
 +
@@ -411,7 +411,7 @@ event_objects
 0
 ]
 "
-.
+_
 "
 )
     
@@ -853,7 +853,7 @@ metric
 name
 )
             
-category_name
+category_snake
 =
 util
 .
@@ -868,7 +868,7 @@ metric_name
 =
 event_name
 or
-category_name
+category_snake
 !
 =
 event_category
@@ -1136,7 +1136,7 @@ metric_dict
 metric_dict
 =
 {
-category_name
+category_snake
 :
 metric_dict
 }
@@ -1249,8 +1249,8 @@ correct
                 
 create_legacy_mirror_def
 (
+category_snake
 event_name
-category_name
 event_objects
 )
                 
@@ -1264,8 +1264,8 @@ metric_yaml
             
 create_legacy_mirror_def
 (
+category_snake
 event_name
-category_name
 event_objects
 )
     
