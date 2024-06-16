@@ -1672,6 +1672,8 @@ event
 {
 where
 =
+BrowserUtils
+.
 whereToOpenLink
 (
 event

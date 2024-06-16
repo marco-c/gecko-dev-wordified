@@ -5403,9 +5403,7 @@ opened
 let
 openWhere
 =
-target
-.
-ownerGlobal
+BrowserUtils
 .
 whereToOpenLink
 (
