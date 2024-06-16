@@ -462,6 +462,11 @@ buttonCount
 AppConstants
 .
 MOZ_DEV_EDITION
+|
+|
+AppConstants
+.
+NIGHTLY_BUILD
 ?
 2
 :
