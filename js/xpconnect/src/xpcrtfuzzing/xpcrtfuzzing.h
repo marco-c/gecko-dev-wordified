@@ -148,13 +148,10 @@ AutoJSAPI
 #
 include
 "
-FuzzerRegistry
+XREShellData
 .
 h
 "
-/
-/
-LibFuzzerDriver
 /
 /
 This
@@ -192,7 +189,9 @@ char
 *
 *
 argv
-LibFuzzerDriver
+const
+XREShellData
+*
 )
 ;
 /

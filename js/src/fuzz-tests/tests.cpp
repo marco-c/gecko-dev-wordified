@@ -167,6 +167,15 @@ include
 "
 js
 /
+RealmOptions
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h

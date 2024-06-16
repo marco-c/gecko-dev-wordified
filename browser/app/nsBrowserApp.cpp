@@ -1385,6 +1385,17 @@ FuzzerDriver
 ;
 #
 endif
+#
+ifdef
+AFLFUZZ
+shellData
+.
+fuzzerDriver
+=
+afl_interface_raw
+;
+#
+endif
 return
 gBootstrap
 -
