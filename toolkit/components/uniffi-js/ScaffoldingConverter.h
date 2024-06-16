@@ -238,11 +238,6 @@ mozilla
 :
 uniffi
 {
-class
-ScaffoldingConverterTagDefault
-{
-}
-;
 /
 /
 Handle
@@ -395,10 +390,6 @@ template
 <
 typename
 T
-typename
-Tag
-=
-ScaffoldingConverterTagDefault
 >
 class
 ScaffoldingConverter
