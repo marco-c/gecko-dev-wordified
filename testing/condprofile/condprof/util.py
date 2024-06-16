@@ -795,7 +795,7 @@ see
 #
 taskcluster
 /
-ci
+kinds
 /
 fetch
 /

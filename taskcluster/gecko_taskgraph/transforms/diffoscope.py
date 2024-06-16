@@ -257,7 +257,7 @@ in
 #
 taskcluster
 /
-ci
+kinds
 /
 diffoscope
 /

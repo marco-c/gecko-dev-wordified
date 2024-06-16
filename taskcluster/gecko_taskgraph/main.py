@@ -2565,8 +2565,6 @@ repo
 >
 /
 taskcluster
-/
-ci
         
 repo_root
 =
@@ -5191,8 +5189,6 @@ default
 =
 "
 taskcluster
-/
-ci
 "
     
 help
@@ -5438,8 +5434,6 @@ default
 =
 "
 taskcluster
-/
-ci
 "
     
 help

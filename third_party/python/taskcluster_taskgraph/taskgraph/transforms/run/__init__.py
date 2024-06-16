@@ -58,14 +58,14 @@ MPL
 "
 Convert
 a
-job
+run
 description
 into
 a
 task
 description
 .
-Jobs
+Run
 descriptions
 are
 similar
@@ -79,7 +79,7 @@ how
 to
 run
 the
-job
+task
 at
 a
 higher
@@ -106,7 +106,7 @@ taskgraph
 /
 transforms
 /
-job
+run
 .
 "
 "
@@ -213,7 +213,7 @@ along
 #
 to
 a
-job
+task
 (
 eg
 :
@@ -226,9 +226,7 @@ here
 allows
 them
 to
-re
--
-use
+reuse
 #
 the
 schema
@@ -284,7 +282,7 @@ for
 a
 build
 description
-job_description_schema
+run_description_schema
 =
 Schema
 (
@@ -296,10 +294,10 @@ The
 name
 of
 the
-job
+task
 and
 the
-job
+task
 '
 s
 label
@@ -495,6 +493,24 @@ task_description_schema
 [
 "
 requires
+"
+]
+        
+Optional
+(
+"
+deadline
+-
+after
+"
+)
+:
+task_description_schema
+[
+"
+deadline
+-
+after
 "
 ]
         
@@ -788,7 +804,7 @@ be
 specified
 in
 a
-job
+run
 description
 that
         
@@ -931,7 +947,7 @@ how
 to
 run
 this
-job
+task
 .
         
 "
@@ -945,7 +961,7 @@ The
 key
 to
 a
-job
+run
 implementation
 in
 a
@@ -990,7 +1006,7 @@ is
 verified
 against
 that
-job
+run
 implementation
 '
 s
@@ -1042,7 +1058,7 @@ additions
 provided
 by
 the
-job
+task
 '
 s
 run
@@ -1070,7 +1086,7 @@ transforms
 .
 add_validate
 (
-job_description_schema
+run_description_schema
 )
 transforms
 .
@@ -1079,19 +1095,19 @@ def
 rewrite_when_to_optimization
 (
 config
-jobs
+tasks
 )
 :
     
 for
-job
+task
 in
-jobs
+tasks
 :
         
 when
 =
-job
+task
 .
 pop
 (
@@ -1108,7 +1124,7 @@ when
 :
             
 yield
-job
+task
             
 continue
         
@@ -1167,7 +1183,7 @@ not
 changed
 "
         
-job
+task
 [
 "
 optimization
@@ -1192,10 +1208,10 @@ when
 "
 not
 in
-job
+task
         
 yield
-job
+task
 transforms
 .
 add
@@ -1203,14 +1219,14 @@ def
 set_implementation
 (
 config
-jobs
+tasks
 )
 :
     
 for
-job
+task
 in
-jobs
+tasks
 :
         
 impl
@@ -1221,7 +1237,7 @@ worker_type_implementation
 config
 .
 graph_config
-job
+task
 [
 "
 worker
@@ -1235,7 +1251,7 @@ if
 os
 :
             
-job
+task
 .
 setdefault
 (
@@ -1257,7 +1273,7 @@ if
 impl
 :
             
-job
+task
 .
 setdefault
 (
@@ -1279,7 +1295,7 @@ impl
         
 worker
 =
-job
+task
 .
 setdefault
 (
@@ -1321,7 +1337,7 @@ os
 os
         
 yield
-job
+task
 transforms
 .
 add
@@ -1329,14 +1345,14 @@ def
 set_label
 (
 config
-jobs
+tasks
 )
 :
     
 for
-job
+task
 in
-jobs
+tasks
 :
         
 if
@@ -1345,7 +1361,7 @@ label
 "
 not
 in
-job
+task
 :
             
 if
@@ -1354,14 +1370,14 @@ name
 "
 not
 in
-job
+task
 :
                 
 raise
 Exception
 (
 "
-job
+task
 has
 neither
 a
@@ -1372,7 +1388,7 @@ label
 "
 )
             
-job
+task
 [
 "
 label
@@ -1392,7 +1408,7 @@ format
 config
 .
 kind
-job
+task
 [
 "
 name
@@ -1401,7 +1417,7 @@ name
 )
         
 if
-job
+task
 .
 get
 (
@@ -1412,7 +1428,7 @@ name
 :
             
 del
-job
+task
 [
 "
 name
@@ -1420,7 +1436,7 @@ name
 ]
         
 yield
-job
+task
 transforms
 .
 add
@@ -1428,18 +1444,18 @@ def
 add_resource_monitor
 (
 config
-jobs
+tasks
 )
 :
     
 for
-job
+task
 in
-jobs
+tasks
 :
         
 if
-job
+task
 .
 get
 (
@@ -1469,7 +1485,7 @@ worker_type_implementation
 config
 .
 graph_config
-job
+task
 [
 "
 worker
@@ -1515,7 +1531,7 @@ if
 win7
 "
 in
-job
+task
 [
 "
 worker
@@ -1540,7 +1556,7 @@ arch
 64
 "
             
-job
+task
 .
 setdefault
 (
@@ -1551,7 +1567,7 @@ fetches
 }
 )
             
-job
+task
 [
 "
 fetches
@@ -1567,7 +1583,7 @@ toolchain
 ]
 )
             
-job
+task
 [
 "
 fetches
@@ -1639,7 +1655,7 @@ monitor
 json
 "
             
-job
+task
 [
 "
 worker
@@ -1655,7 +1671,7 @@ artifacts
 ]
 )
             
-job
+task
 [
 "
 worker
@@ -1713,7 +1729,7 @@ for
 output
 file
             
-job
+task
 [
 "
 worker
@@ -1729,7 +1745,7 @@ env
 }
 )
             
-job
+task
 [
 "
 worker
@@ -1749,7 +1765,7 @@ RESOURCE_MONITOR_OUTPUT
 artifact_source
         
 yield
-job
+task
 def
 get_attribute
 (
@@ -1816,7 +1832,7 @@ def
 use_fetches
 (
 config
-jobs
+tasks
 )
 :
     
@@ -1850,22 +1866,22 @@ fetch
 )
 :
         
-jobs
+tasks
 =
 list
 (
-jobs
+tasks
 )
         
 for
-job
+task
 in
-jobs
+tasks
 :
             
 run
 =
-job
+task
 .
 get
 (
@@ -1878,7 +1894,7 @@ run
             
 label
 =
-job
+task
 [
 "
 label
@@ -2061,18 +2077,18 @@ artifact_prefixes
 }
     
 for
-job
+task
 in
 order_tasks
 (
 config
-jobs
+tasks
 )
 :
         
 artifact_prefixes
 [
-job
+task
 [
 "
 label
@@ -2082,12 +2098,12 @@ label
 =
 get_artifact_prefix
 (
-job
+task
 )
         
 fetches
 =
-job
+task
 .
 pop
 (
@@ -2103,25 +2119,25 @@ fetches
 :
             
 yield
-job
+task
             
 continue
         
-job_fetches
+task_fetches
 =
 [
 ]
         
 name
 =
-job
+task
 .
 get
 (
 "
 name
 "
-job
+task
 .
 get
 (
@@ -2133,7 +2149,7 @@ label
         
 dependencies
 =
-job
+task
 .
 setdefault
 (
@@ -2146,7 +2162,7 @@ dependencies
         
 worker
 =
-job
+task
 .
 setdefault
 (
@@ -2174,7 +2190,7 @@ prefix
 =
 get_artifact_prefix
 (
-job
+task
 )
         
 for
@@ -2249,12 +2265,15 @@ raise
 Exception
 (
                             
+f
 "
 Missing
 fetch
-job
+task
 for
 {
+config
+.
 kind
 }
 -
@@ -2263,26 +2282,9 @@ name
 }
 :
 {
-fetch
+fetch_name
 }
 "
-.
-format
-(
-                                
-kind
-=
-config
-.
-kind
-name
-=
-name
-fetch
-=
-fetch_name
-                            
-)
                         
 )
                     
@@ -2316,7 +2318,7 @@ label
 =
 label
                     
-job_fetches
+task_fetches
 .
 append
 (
@@ -2366,6 +2368,7 @@ raise
 Exception
 (
                         
+f
 "
 {
 name
@@ -2381,6 +2384,7 @@ artifacts
 because
 "
                         
+f
 "
 it
 has
@@ -2391,16 +2395,6 @@ kind
 dependencies
 !
 "
-.
-format
-(
-name
-=
-name
-kind
-=
-kind
-)
                     
 )
                 
@@ -2519,11 +2513,13 @@ kind
                                 
 tasks
 =
+(
+                                    
 "
 no
 tasks
 "
-                                
+                                    
 if
 len
 (
@@ -2532,12 +2528,14 @@ dep_tasks
 =
 =
 0
-                                
+                                    
 else
 "
 multiple
 tasks
 "
+                                
+)
                             
 )
                         
@@ -2738,14 +2736,14 @@ hash
 =
 verify_hash
                     
-job_fetches
+task_fetches
 .
 append
 (
 fetch
 )
         
-job_artifact_prefixes
+task_artifact_prefixes
 =
 {
             
@@ -2764,7 +2762,7 @@ artifact
 for
 fetch
 in
-job_fetches
+task_fetches
             
 if
 not
@@ -2786,7 +2784,7 @@ public
 }
         
 if
-job_artifact_prefixes
+task_artifact_prefixes
 :
             
 #
@@ -2851,7 +2849,7 @@ prefix
 in
 sorted
 (
-job_artifact_prefixes
+task_artifact_prefixes
 )
 :
                 
@@ -2876,7 +2874,7 @@ if
 scope
 not
 in
-job
+task
 .
 setdefault
 (
@@ -2888,7 +2886,7 @@ scopes
 )
 :
                     
-job
+task
 [
 "
 scopes
@@ -2908,6 +2906,7 @@ MOZ_FETCHES
 ]
 =
 {
+            
 "
 task
 -
@@ -2918,11 +2917,12 @@ json
 .
 dumps
 (
-job_fetches
+task_fetches
 sort_keys
 =
 True
 )
+        
 }
         
 env
@@ -2938,7 +2938,7 @@ fetches
 )
         
 yield
-job
+task
 transforms
 .
 add
@@ -2946,7 +2946,7 @@ def
 make_task_description
 (
 config
-jobs
+tasks
 )
 :
     
@@ -2973,7 +2973,7 @@ first
 before
 iterating
 over
-jobs
+tasks
     
 import_sibling_modules
 (
@@ -2989,9 +2989,9 @@ py
 )
     
 for
-job
+task
 in
-jobs
+tasks
 :
         
 #
@@ -3007,7 +3007,7 @@ no
 workdir
         
 if
-job
+task
 [
 "
 worker
@@ -3033,7 +3033,7 @@ worker
 )
 :
             
-job
+task
 [
 "
 run
@@ -3059,7 +3059,7 @@ copy
 .
 deepcopy
 (
-job
+task
 )
         
 #
@@ -3147,7 +3147,7 @@ give
 the
 function
 for
-job
+task
 .
 run
 .
@@ -3172,9 +3172,9 @@ configure_taskdesc_for_run
 (
             
 config
-job
+task
 taskdesc
-job
+task
 [
 "
 worker
@@ -3204,7 +3204,7 @@ task
 description
 discarding
 the
-job
+task
 description
         
 yield
@@ -3217,13 +3217,13 @@ all
 functions
 decorated
 with
-run_job_using
+run_task_using
 registry
 =
 {
 }
 def
-run_job_using
+run_task_using
 (
 worker_implementation
 run_using
@@ -3254,7 +3254,7 @@ task
 description
 for
     
-jobs
+tasks
 with
 the
 given
@@ -3272,7 +3272,7 @@ schema
 is
 given
 the
-job
+task
 '
 s
 run
@@ -3295,7 +3295,7 @@ signature
 using_foo
 (
 config
-job
+task
 taskdesc
 )
     
@@ -3357,14 +3357,17 @@ raise
 Exception
 (
                 
+f
 "
-run_job_using
+run_task_using
 (
 {
+run_using
 !
 r
 }
 {
+worker_implementation
 !
 r
 }
@@ -3373,24 +3376,14 @@ already
 exists
 :
 {
-!
-r
-}
-"
-.
-format
-(
-                    
-run_using
-                    
-worker_implementation
-                    
 for_run_using
 [
 worker_implementation
 ]
-                
-)
+!
+r
+}
+"
             
 )
         
@@ -3410,7 +3403,7 @@ func
     
 return
 wrap
-run_job_using
+run_task_using
 (
     
 "
@@ -3442,7 +3435,7 @@ def
 always_optimized
 (
 config
-job
+task
 taskdesc
 )
 :
@@ -3452,7 +3445,7 @@ def
 configure_taskdesc_for_run
 (
 config
-job
+task
 taskdesc
 worker_implementation
 )
@@ -3468,7 +3461,7 @@ appropriate
 function
 for
 this
-job
+task
 against
 the
 given
@@ -3490,7 +3483,7 @@ exists
 or
 if
 the
-job
+task
 '
 s
     
@@ -3510,7 +3503,7 @@ schema
     
 run_using
 =
-job
+task
 [
 "
 run
@@ -3562,6 +3555,7 @@ raise
 Exception
 (
             
+f
 "
 no
 functions
@@ -3570,23 +3564,17 @@ run
 .
 using
 {
+run_using
 !
 r
 }
 on
 {
+worker_implementation
 !
 r
 }
 "
-.
-format
-(
-                
-run_using
-worker_implementation
-            
-)
         
 )
     
@@ -3613,7 +3601,7 @@ items
 )
 :
         
-job
+task
 [
 "
 run
@@ -3635,7 +3623,7 @@ validate_schema
             
 schema
             
-job
+task
 [
 "
 run
@@ -3644,7 +3632,7 @@ run
             
 "
 In
-job
+task
 .
 run
 using
@@ -3658,7 +3646,7 @@ r
 r
 }
 for
-job
+task
 {
 !
 r
@@ -3669,7 +3657,7 @@ r
 format
 (
                 
-job
+task
 [
 "
 run
@@ -3681,7 +3669,7 @@ using
 "
 ]
 worker_implementation
-job
+task
 [
 "
 label
@@ -3695,6 +3683,6 @@ label
 func
 (
 config
-job
+task
 taskdesc
 )

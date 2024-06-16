@@ -87,7 +87,7 @@ done
 via
 taskcluster
 /
-ci
+kinds
 /
 fuzzing
 /
