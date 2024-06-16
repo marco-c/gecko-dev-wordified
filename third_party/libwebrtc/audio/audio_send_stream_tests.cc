@@ -701,15 +701,8 @@ packet
 )
 )
 ;
-uint8_t
+AudioLevel
 audio_level
-=
-0
-;
-bool
-voice
-=
-false
 ;
 EXPECT_TRUE
 (
@@ -721,8 +714,6 @@ AudioLevelExtension
 >
 (
 &
-voice
-&
 audio_level
 )
 )
@@ -730,6 +721,10 @@ audio_level
 if
 (
 audio_level
+.
+level
+(
+)
 !
 =
 0

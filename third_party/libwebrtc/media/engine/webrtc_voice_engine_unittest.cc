@@ -11815,6 +11815,11 @@ webrtc
 AudioLevelExtension
 >
 (
+webrtc
+:
+:
+AudioLevel
+(
 /
 *
 voice_activity
@@ -11823,6 +11828,7 @@ voice_activity
 /
 true
 kAudioLevel
+)
 )
 ;
 /
@@ -11884,10 +11890,10 @@ ProcessMessages
 0
 )
 ;
-bool
-voice_activity
-;
-uint8_t
+webrtc
+:
+:
+AudioLevel
 audio_level
 ;
 EXPECT_TRUE
@@ -11907,8 +11913,6 @@ AudioLevelExtension
 >
 (
 &
-voice_activity
-&
 audio_level
 )
 )
@@ -11916,6 +11920,10 @@ audio_level
 EXPECT_EQ
 (
 audio_level
+.
+level
+(
+)
 kAudioLevel
 )
 ;

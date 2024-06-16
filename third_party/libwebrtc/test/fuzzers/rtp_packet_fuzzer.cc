@@ -603,10 +603,8 @@ break
 case
 kRtpExtensionAudioLevel
 :
-bool
-voice_activity
-;
-uint8_t
+{
+AudioLevel
 audio_level
 ;
 packet
@@ -617,13 +615,12 @@ AudioLevelExtension
 >
 (
 &
-voice_activity
-&
 audio_level
 )
 ;
 break
 ;
+}
 #
 if
 !
