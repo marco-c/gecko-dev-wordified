@@ -7130,10 +7130,6 @@ JS
 HelperThreadTask
 *
 aTask
-JS
-:
-:
-DispatchReason
 )
 {
 TaskController
