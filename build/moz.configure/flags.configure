@@ -1447,7 +1447,7 @@ depends
 developer_options
 when
 =
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 )
 def
 check_build_id_uuid
@@ -1462,7 +1462,7 @@ depends
 developer_options
 when
 =
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 )
 def
 check_build_id_sha1
@@ -1528,7 +1528,7 @@ noexecstack
 "
 when
 =
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 )
 check_and_add_linker_flag
 (
@@ -1541,7 +1541,7 @@ noexecstack
 "
 when
 =
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 )
 check_and_add_linker_flag
 (
@@ -1554,7 +1554,7 @@ text
 "
 when
 =
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 )
 check_and_add_linker_flag
 (
@@ -1567,7 +1567,7 @@ relro
 "
 when
 =
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 )
 check_and_add_linker_flag
 (
@@ -1580,7 +1580,7 @@ now
 "
 when
 =
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 )
 check_and_add_linker_flag
 (
@@ -1593,7 +1593,7 @@ nocopyreloc
 "
 when
 =
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 )
 check_and_add_linker_optimize_flag
 (
@@ -1648,7 +1648,7 @@ linker
 "
 when
 =
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 &
 gcc_use_gnu_ld
 )
@@ -1670,19 +1670,19 @@ address
 -
 sanitizer
 "
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 )
 def
 check_Bsymbolic
 (
 enable_asan
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 )
 :
 return
 enable_asan
 and
-building_with_gnu_compatible_cc
+building_with_gnu_cc
 #
 ASan
 assumes
