@@ -25707,12 +25707,6 @@ StyleTextAlign
 :
 Start
 :
-case
-StyleTextAlign
-:
-:
-Char
-:
 /
 /
 Default
