@@ -448,8 +448,10 @@ SerializeCookieListTable
 const
 nsTArray
 <
+RefPtr
+<
 Cookie
-*
+>
 >
 &
 aFoundCookieList

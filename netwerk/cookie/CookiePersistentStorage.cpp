@@ -4363,8 +4363,10 @@ StaleCookies
 const
 nsTArray
 <
+RefPtr
+<
 Cookie
-*
+>
 >
 &
 aCookieList

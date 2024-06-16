@@ -1218,8 +1218,10 @@ Child
 .
 nsTArray
 <
+RefPtr
+<
 Cookie
-*
+>
 >
 foundCookieList
 ;
@@ -1424,8 +1426,10 @@ SerializeCookieListTable
 const
 nsTArray
 <
+RefPtr
+<
 Cookie
-*
+>
 >
 &
 aFoundCookieList
@@ -1758,8 +1762,10 @@ attrs
 }
 nsTArray
 <
+RefPtr
+<
 Cookie
-*
+>
 >
 foundCookieList
 ;

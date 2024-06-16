@@ -585,8 +585,10 @@ OriginAttributes
 aOriginAttrsList
 nsTArray
 <
+RefPtr
+<
 Cookie
-*
+>
 >
 &
 aCookieList
