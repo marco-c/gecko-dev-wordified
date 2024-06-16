@@ -153,7 +153,7 @@ AVDOVICConfRecord
 }
 AVDOVIDecoderConfigurationRecord
 ;
-inline
+static
 void
 ff_dovi_ctx_unref
 (
@@ -163,7 +163,7 @@ ctx
 )
 {
 }
-inline
+static
 void
 ff_dovi_update_cfg
 (
@@ -176,7 +176,7 @@ record
 )
 {
 }
-inline
+static
 int
 ff_dovi_rpu_parse
 (
@@ -196,7 +196,7 @@ return
 0
 ;
 }
-inline
+static
 int
 ff_dovi_attach_side_data
 (
