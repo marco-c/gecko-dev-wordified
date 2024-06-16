@@ -260,13 +260,6 @@ aClosureData
 )
 final
 ;
-Document
-*
-DocToUpdate
-(
-)
-final
-;
 ParsingEnvironment
 GetParsingEnvironment
 (

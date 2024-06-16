@@ -837,7 +837,7 @@ Document
 DocToUpdate
 (
 )
-override
+final
 ;
 nsDOMCSSDeclaration
 :

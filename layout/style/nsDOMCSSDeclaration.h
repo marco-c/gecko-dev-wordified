@@ -970,9 +970,11 @@ Document
 DocToUpdate
 (
 )
-=
-0
+{
+return
+nullptr
 ;
+}
 /
 /
 mUrlExtraData
