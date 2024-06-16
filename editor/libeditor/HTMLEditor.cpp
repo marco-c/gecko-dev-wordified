@@ -7901,6 +7901,7 @@ the
 visible
 character
 .
+const
 WSScanResult
 scanResultInTextNode
 =

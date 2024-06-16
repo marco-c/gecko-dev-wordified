@@ -3333,6 +3333,7 @@ BlockInlineCheck
 UseComputedDisplayStyle
 )
 ;
+const
 WSScanResult
 backwardScanFromPointToCaretResult
 =
