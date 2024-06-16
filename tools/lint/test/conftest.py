@@ -1749,6 +1749,8 @@ SAMPLE_CONFIG
         
 SAMPLE_INI
         
+SAMPLE_METRICS_CONFIG
+        
 SAMPLE_TEST
         
 temp_dir
@@ -2012,16 +2014,39 @@ temp_file
 (
             
 "
-index
+config_metrics
 .
-rst
+yml
 "
 tempdir
 =
 perfdocs_dir
 content
 =
+SAMPLE_METRICS_CONFIG
+        
+)
+as
+tmpconfig_metrics
+temp_file
+(
+            
 "
+index
+.
+rst
+"
+            
+tempdir
+=
+perfdocs_dir
+            
+content
+=
+"
+{
+metrics_rst_name
+}
 {
 documentation
 }
@@ -2082,6 +2107,12 @@ config_2
 "
 :
 tmpconfig_2
+                
+"
+config_metrics
+"
+:
+tmpconfig_metrics
                 
 "
 index
