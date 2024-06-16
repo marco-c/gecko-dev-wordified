@@ -1252,6 +1252,12 @@ aLocalized
 )
 const
 ;
+long
+GetLiveSetting
+(
+)
+const
+;
 }
 ;
 SAFEARRAY
