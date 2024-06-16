@@ -2634,10 +2634,7 @@ IObjectCollection
 >
 collection
 ;
-DebugOnly
-<
 HRESULT
->
 hr
 =
 CoCreateInstance
@@ -2652,7 +2649,7 @@ collection
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 SUCCEEDED
 (
@@ -2680,7 +2677,7 @@ link
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 SUCCEEDED
 (
@@ -2855,7 +2852,7 @@ pArray
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 SUCCEEDED
 (

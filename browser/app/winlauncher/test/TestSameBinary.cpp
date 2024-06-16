@@ -1425,7 +1425,7 @@ return
 1
 ;
 }
-MOZ_ASSERT_UNREACHABLE
+MOZ_CRASH
 (
 "
 This
@@ -1437,9 +1437,6 @@ by
 now
 "
 )
-;
-return
-0
 ;
 }
 static
