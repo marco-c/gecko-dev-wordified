@@ -2038,9 +2038,8 @@ void
 EnableVad
 (
 )
-=
-0
-;
+{
+}
 /
 /
 Disables
@@ -2054,9 +2053,8 @@ void
 DisableVad
 (
 )
-=
-0
-;
+{
+}
 /
 /
 Returns
