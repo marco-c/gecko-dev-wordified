@@ -291,7 +291,7 @@ equal
 (
 session
 .
-userPromptHandler
+unhandledPromptBehavior
 session
 .
 capabilities
