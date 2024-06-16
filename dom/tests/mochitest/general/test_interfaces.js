@@ -3577,9 +3577,6 @@ CSSPropertyRule
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
