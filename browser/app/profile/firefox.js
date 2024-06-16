@@ -19039,7 +19039,7 @@ stream
 .
 showWeather
 "
-false
+true
 )
 ;
 pref
