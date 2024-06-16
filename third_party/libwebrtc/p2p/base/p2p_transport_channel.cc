@@ -11607,7 +11607,7 @@ P2PTransportChannel
 IsPortPruned
 (
 const
-Port
+PortInterface
 *
 port
 )
