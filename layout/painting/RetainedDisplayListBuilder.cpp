@@ -135,15 +135,6 @@ include
 "
 mozilla
 /
-ScrollContainerFrame
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_layout
 .
 h
@@ -159,6 +150,13 @@ h
 include
 "
 nsIFrameInlines
+.
+h
+"
+#
+include
+"
+nsIScrollableFrame
 .
 h
 "
@@ -2590,7 +2588,7 @@ GetActiveScrolledRoot
 )
 -
 >
-mScrollContainerFrame
+mScrollableFrame
 -
 >
 GetScrolledFrame
@@ -2917,7 +2915,7 @@ itemClipASR
 itemClipASR
 -
 >
-mScrollContainerFrame
+mScrollableFrame
 )
 ;
 const
@@ -7114,7 +7112,7 @@ port
 nsRect
 displayPort
 ;
-ScrollContainerFrame
+nsIScrollableFrame
 *
 sf
 =
@@ -11692,7 +11690,7 @@ MarkFrameForDisplayIfVisible
 before
 ComputeRebuildRegion
 .
-ScrollContainerFrame
+nsIScrollableFrame
 *
 sf
 =
@@ -11706,7 +11704,7 @@ PresShell
 )
 -
 >
-GetRootScrollContainerFrame
+GetRootScrollFrameAsScrollable
 (
 )
 ;

@@ -3318,7 +3318,7 @@ parent
 frame
 is
 an
-ScrollContainerFrame
+nsIScrollableFrame
 and
 it
 is
@@ -3339,7 +3339,7 @@ parent
 frame
 is
 an
-ScrollContainerFrame
+nsIScrollableFrame
 and
 it
 is

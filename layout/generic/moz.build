@@ -818,6 +818,11 @@ nsIntervalSet
 h
 "
 "
+nsIScrollableFrame
+.
+h
+"
+"
 nsIScrollPositionListener
 .
 h
@@ -924,11 +929,6 @@ h
 "
 "
 ScrollSnap
-.
-h
-"
-"
-ScrollVelocityQueue
 .
 h
 "

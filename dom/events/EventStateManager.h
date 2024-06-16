@@ -261,6 +261,9 @@ class
 nsIDocumentViewer
 ;
 class
+nsIScrollableFrame
+;
+class
 nsITimer
 ;
 class
@@ -289,9 +292,6 @@ IMEContentObserver
 ;
 class
 ScrollbarsForWheel
-;
-class
-ScrollContainerFrame
 ;
 class
 TextControlElement
@@ -6662,7 +6662,7 @@ mozilla
 :
 :
 WheelDeltaAdjustmentStrategy
-ScrollContainerFrame
+nsIFrame
 *
 ComputeScrollTargetAndMayAdjustWheelEvent
 (
@@ -6676,7 +6676,7 @@ ComputeScrollTargetOptions
 aOptions
 )
 ;
-ScrollContainerFrame
+nsIFrame
 *
 ComputeScrollTargetAndMayAdjustWheelEvent
 (
@@ -6694,7 +6694,7 @@ ComputeScrollTargetOptions
 aOptions
 )
 ;
-ScrollContainerFrame
+nsIFrame
 *
 ComputeScrollTarget
 (
@@ -6737,7 +6737,7 @@ aOptions
 )
 ;
 }
-ScrollContainerFrame
+nsIFrame
 *
 ComputeScrollTarget
 (
@@ -6837,7 +6837,7 @@ height
 *
 *
 param
-aScrollContainerFrame
+aScrollableFrame
 A
 frame
 which
@@ -6894,7 +6894,6 @@ area
 s
 width
 and
-*
 height
 .
 *
@@ -6908,9 +6907,9 @@ aPresContext
 WidgetWheelEvent
 *
 aEvent
-ScrollContainerFrame
+nsIScrollableFrame
 *
-aScrollContainerFrame
+aScrollableFrame
 )
 ;
 /
@@ -6922,8 +6921,7 @@ DoScrollText
 )
 scrolls
 the
-scroll
-container
+scrollable
 frame
 for
 aEvent
@@ -6933,9 +6931,9 @@ aEvent
 void
 DoScrollText
 (
-ScrollContainerFrame
+nsIScrollableFrame
 *
-aScrollContainerFrame
+aScrollableFrame
 WidgetWheelEvent
 *
 aEvent

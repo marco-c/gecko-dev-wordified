@@ -709,6 +709,13 @@ h
 #
 include
 "
+nsIScrollableFrame
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h
@@ -37310,9 +37317,9 @@ LayoutFrameType
 ScrollContainer
 )
 {
-ScrollContainerFrame
+nsIScrollableFrame
 *
-scrollContainerFrame
+scrollFrame
 =
 do_QueryFrame
 (
@@ -37321,7 +37328,7 @@ absPosCBCandidate
 ;
 absPosCBCandidate
 =
-scrollContainerFrame
+scrollFrame
 -
 >
 GetScrolledFrame

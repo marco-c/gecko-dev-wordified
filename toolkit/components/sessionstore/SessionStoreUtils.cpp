@@ -615,6 +615,13 @@ h
 #
 include
 "
+nsIScrollableFrame
+.
+h
+"
+#
+include
+"
 nsISHistory
 .
 h

@@ -450,7 +450,7 @@ the
 /
 element
 with
-ScrollContainerFrame
+nsIScrollableFrame
 )
 .
 /

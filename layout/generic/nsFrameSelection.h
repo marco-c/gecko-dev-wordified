@@ -1495,6 +1495,9 @@ selected
 namespace
 mozilla
 class
+nsIScrollableFrame
+;
+class
 nsFrameSelection
 final
 {

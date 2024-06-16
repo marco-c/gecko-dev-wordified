@@ -144,15 +144,6 @@ include
 "
 mozilla
 /
-ScrollContainerFrame
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_layout
 .
 h
@@ -246,6 +237,13 @@ h
 include
 "
 nsIFrameInlines
+.
+h
+"
+#
+include
+"
+nsIScrollableFrame
 .
 h
 "
@@ -3754,7 +3752,7 @@ FirstChild
 ;
 if
 (
-ScrollContainerFrame
+nsIScrollableFrame
 *
 sf
 =
@@ -4229,7 +4227,7 @@ return
 colSpan
 ;
 }
-ScrollContainerFrame
+nsIScrollableFrame
 *
 nsTableCellFrame
 :

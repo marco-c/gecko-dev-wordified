@@ -83,7 +83,7 @@ scrolling
 interfaces
 such
 as
-ScrollContainerFrame
+nsIScrollableFrame
 .
 namespace
 mozilla
@@ -107,7 +107,7 @@ mostly
 used
 *
 by
-ScrollContainerFrame
+nsIScrollableFrame
 methods
 .
 *

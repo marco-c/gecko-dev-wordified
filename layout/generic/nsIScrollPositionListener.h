@@ -142,7 +142,7 @@ position
 changes
 of
 *
-ScrollContainerFrame
+nsIScrollableFrame
 '
 s
 .

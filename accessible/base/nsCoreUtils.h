@@ -1103,10 +1103,9 @@ scrollSubstringToPoint
 *
 *
 param
-aScrollContainerFrame
+aScrollableFrame
 the
-scroll
-container
+scrollable
 frame
 *
 param
@@ -1135,7 +1134,7 @@ ScrollFrameToPoint
 (
 nsIFrame
 *
-aScrollContainerFrame
+aScrollableFrame
 nsIFrame
 *
 aFrame
