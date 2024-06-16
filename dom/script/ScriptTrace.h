@@ -382,7 +382,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForTrace
 (
 )
 ;

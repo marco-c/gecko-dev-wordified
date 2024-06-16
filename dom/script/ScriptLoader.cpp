@@ -4198,7 +4198,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForLoadingNode
 (
 )
 )
@@ -14666,7 +14666,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForExecuteEvents
 (
 )
 )
@@ -14749,7 +14749,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForCurrentParserInsertedScript
 (
 )
 ;
@@ -15229,7 +15229,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForObserver
 (
 )
 aRequest
@@ -15293,7 +15293,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForObserver
 (
 )
 ;
@@ -15392,7 +15392,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForObserver
 (
 )
 ;
@@ -15429,7 +15429,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForObserver
 (
 )
 ;
@@ -17197,7 +17197,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForCurrentScript
 (
 )
 ;
@@ -23406,7 +23406,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForUrlClassifier
 (
 )
 )
@@ -23886,19 +23886,8 @@ Ensure
 that
 we
 treat
-aRequest
--
->
-GetScriptLoadContext
-(
-)
--
->
-GetScriptElement
-(
-)
-/
-/
+the
+script
 as
 our
 current
@@ -23906,6 +23895,8 @@ parser
 -
 inserted
 script
+/
+/
 while
 firing
 onerror
@@ -23945,7 +23936,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
+GetScriptElementForCurrentParserInsertedScript
 (
 )
 ;
