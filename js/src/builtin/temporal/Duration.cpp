@@ -1111,8 +1111,13 @@ nanoseconds
 )
 *
 /
-static
 int32_t
+js
+:
+:
+temporal
+:
+:
 DurationSign
 (
 const
@@ -2988,8 +2993,6 @@ Step
 int32_t
 dateSign
 =
-:
-:
 DurationSign
 (
 date
@@ -3534,8 +3537,6 @@ time
 &
 &
 (
-:
-:
 DurationSign
 (
 duration
@@ -4158,8 +4159,6 @@ Step
 int32_t
 sign
 =
-:
-:
 DurationSign
 (
 duration
