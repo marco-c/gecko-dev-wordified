@@ -3686,8 +3686,8 @@ checkTabsPage
 25
 "
 Show
-More
-Tabs
+more
+tabs
 "
 )
 ;
