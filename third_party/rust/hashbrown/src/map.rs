@@ -65,10 +65,7 @@ core
 iter
 :
 :
-{
-FromIterator
 FusedIterator
-}
 ;
 use
 core
@@ -2041,11 +2038,7 @@ Iceland
 /
 /
 .
-iter
-(
-)
-.
-cloned
+into_iter
 (
 )
 .
@@ -65150,6 +65143,8 @@ i32
 >
 >
 =
+const
+{
 RefCell
 :
 :
@@ -65162,6 +65157,7 @@ new
 (
 )
 )
+}
 }
 #
 [
@@ -78041,8 +78037,6 @@ test_clone_from_memory_leaks
 )
 {
 use
-:
-:
 alloc
 :
 :
