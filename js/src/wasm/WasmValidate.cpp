@@ -20960,9 +20960,11 @@ encountered
 during
 parsing
 .
-(
-void
-)
+env
+-
+>
+parsedBranchHints
+=
 ParseBranchHintingSection
 (
 d

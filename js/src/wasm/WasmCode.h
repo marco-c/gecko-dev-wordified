@@ -2126,6 +2126,9 @@ featureUsage
 bool
 filenameIsURL
 ;
+bool
+parsedBranchHints
+;
 uint32_t
 typeDefsOffsetStart
 ;
@@ -2150,6 +2153,7 @@ nameCustomSectionIndex
 builtinModules
 featureUsage
 filenameIsURL
+parsedBranchHints
 typeDefsOffsetStart
 memoriesOffsetStart
 tablesOffsetStart
@@ -2178,6 +2182,10 @@ FeatureUsage
 None
 )
 filenameIsURL
+(
+false
+)
+parsedBranchHints
 (
 false
 )
