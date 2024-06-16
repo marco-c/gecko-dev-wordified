@@ -3885,6 +3885,11 @@ Actions
 .
 clearRequests
 (
+{
+isExplicitClear
+:
+true
+}
 )
 )
 disableBrowserCache
