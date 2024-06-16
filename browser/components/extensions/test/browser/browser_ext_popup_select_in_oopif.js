@@ -385,6 +385,16 @@ async
 >
 {
 await
+SpecialPowers
+.
+contentTransformsReceived
+(
+content
+.
+window
+)
+;
+await
 ContentTaskUtils
 .
 waitForCondition
