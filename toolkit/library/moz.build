@@ -1049,6 +1049,9 @@ DIRS
 build
 "
 "
+buildid_reader
+"
+"
 gtest
 "
 ]
