@@ -80,7 +80,7 @@ indices
 dataType
 :
 '
-uint64
+int64
 '
 dimensions
 :
