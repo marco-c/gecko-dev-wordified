@@ -2726,8 +2726,13 @@ datetime
 .
 datetime
 .
-utcnow
+now
 (
+datetime
+.
+timezone
+.
+utc
 )
 .
 date
@@ -3175,8 +3180,13 @@ datetime
 .
 datetime
 .
-utcnow
+now
 (
+datetime
+.
+timezone
+.
+utc
 )
     
 return

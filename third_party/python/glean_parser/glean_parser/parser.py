@@ -2077,19 +2077,6 @@ add
 (
 ping_key
 )
-            
-del
-ping_val
-[
-"
-metadata
-"
-]
-[
-"
-ping_schedule
-"
-]
         
 try
 :
@@ -2303,8 +2290,18 @@ items
 :
         
 if
+scheduler
+in
+all_objects
+[
+"
+pings
+"
+]
+and
 isinstance
 (
+            
 all_objects
 [
 "
@@ -2315,6 +2312,7 @@ pings
 scheduler
 ]
 Ping
+        
 )
 :
             
