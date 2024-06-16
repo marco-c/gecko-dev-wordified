@@ -2643,8 +2643,7 @@ nodiscard
 nsresult
 ReadFromCache
 (
-bool
-alreadyMarkedValid
+void
 )
 ;
 void
