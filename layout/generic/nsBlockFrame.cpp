@@ -60523,7 +60523,7 @@ IsNone
 list
 -
 >
-mListStyleType
+mCounterStyle
 .
 IsNone
 (

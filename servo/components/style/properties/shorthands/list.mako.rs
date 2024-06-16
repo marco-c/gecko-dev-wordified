@@ -610,9 +610,7 @@ list_style_type
 ListStyleType
 :
 :
-none
-(
-)
+None
 }
 )
 }
@@ -644,9 +642,7 @@ list_style_type
 ListStyleType
 :
 :
-none
-(
-)
+None
 }
 )
 }
@@ -710,9 +706,7 @@ list_style_type
 ListStyleType
 :
 :
-none
-(
-)
+None
 }
 )
 }
