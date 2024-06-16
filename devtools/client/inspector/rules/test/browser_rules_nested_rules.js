@@ -489,6 +489,7 @@ declarations
 {
 selector
 :
+&
 .
 foo
 /
@@ -561,6 +562,7 @@ declarations
 {
 selector
 :
+&
 #
 bar
 /
@@ -707,6 +709,7 @@ declarations
 {
 selector
 :
+&
 [
 href
 ]
