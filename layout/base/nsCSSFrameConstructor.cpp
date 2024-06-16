@@ -37499,7 +37499,7 @@ type
 LayoutFrameType
 :
 :
-Scroll
+ScrollContainer
 )
 {
 nsIScrollableFrame

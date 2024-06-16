@@ -701,7 +701,7 @@ IsAnonBox
 f
 -
 >
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 )

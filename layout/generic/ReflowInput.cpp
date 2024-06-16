@@ -2944,7 +2944,7 @@ NS_FRAME_IN_CONSTRAINED_BSIZE
 parent
 -
 >
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 &
@@ -3901,7 +3901,7 @@ aFrameType
 LayoutFrameType
 :
 :
-Scroll
+ScrollContainer
 =
 =
 aFrameType
@@ -16067,7 +16067,7 @@ frameType
 LayoutFrameType
 :
 :
-Scroll
+ScrollContainer
 =
 =
 frameType

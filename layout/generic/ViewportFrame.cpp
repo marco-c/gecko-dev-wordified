@@ -499,7 +499,7 @@ if
 kid
 -
 >
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 )

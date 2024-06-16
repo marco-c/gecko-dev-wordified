@@ -12542,7 +12542,7 @@ preserve
 .
 if
 (
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 )
@@ -68640,7 +68640,7 @@ aLockScroll
 parentFrame
 -
 >
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 )
@@ -71542,7 +71542,7 @@ fType
 LayoutFrameType
 :
 :
-Scroll
+ScrollContainer
 |
 |
 fType
@@ -77398,7 +77398,7 @@ IsFocusableDueToScrollFrame
 if
 (
 !
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 )
@@ -82953,7 +82953,7 @@ IsContainPaint
 &
 &
 !
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 &

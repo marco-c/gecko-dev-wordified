@@ -5480,7 +5480,7 @@ if
 firstKid
 -
 >
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 )

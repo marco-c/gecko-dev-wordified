@@ -8389,7 +8389,7 @@ if
 aFrame
 -
 >
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 )

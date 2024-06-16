@@ -33624,7 +33624,7 @@ const
 bool
 result
 =
-IsScrollFrame
+IsScrollContainerFrame
 (
 )
 |
