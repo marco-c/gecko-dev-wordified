@@ -764,7 +764,7 @@ U
 >
 \
 static
-inline
+XSIMD_INLINE
 type
 bitcast
 (
@@ -812,7 +812,7 @@ template
 <
 >
 \
-inline
+XSIMD_INLINE
 type
 bitcast
 <
@@ -830,7 +830,7 @@ x
 }
 \
 static
-inline
+XSIMD_INLINE
 byte_type
 as_bytes
 (
@@ -2031,7 +2031,7 @@ T
 >
 \
 static
-inline
+XSIMD_INLINE
 type
 bitcast
 (
@@ -2061,7 +2061,7 @@ template
 <
 >
 static
-inline
+XSIMD_INLINE
 type
 bitcast
 (

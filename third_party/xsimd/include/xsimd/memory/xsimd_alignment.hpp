@@ -611,7 +611,7 @@ Arch
 =
 default_arch
 >
-inline
+XSIMD_INLINE
 bool
 is_aligned
 (

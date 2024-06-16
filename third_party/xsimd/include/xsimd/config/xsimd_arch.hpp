@@ -479,7 +479,7 @@ template
 typename
 T
 >
-inline
+XSIMD_INLINE
 constexpr
 T
 max_of
@@ -503,7 +503,7 @@ typename
 .
 Ts
 >
-inline
+XSIMD_INLINE
 constexpr
 T
 max_of
@@ -712,7 +712,7 @@ class
 F
 >
 static
-inline
+XSIMD_INLINE
 void
 for_each
 (
@@ -1328,7 +1328,7 @@ class
 .
 Tys
 >
-inline
+XSIMD_INLINE
 auto
 walk_archs
 (
@@ -1432,7 +1432,7 @@ class
 .
 Tys
 >
-inline
+XSIMD_INLINE
 auto
 walk_archs
 (
@@ -1543,7 +1543,7 @@ args
 }
 public
 :
-inline
+XSIMD_INLINE
 dispatcher
 (
 F
@@ -1571,7 +1571,7 @@ class
 .
 Tys
 >
-inline
+XSIMD_INLINE
 auto
 operator
 (
@@ -1652,7 +1652,7 @@ supported_architectures
 class
 F
 >
-inline
+XSIMD_INLINE
 detail
 :
 :

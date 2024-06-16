@@ -306,7 +306,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -332,7 +332,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -364,7 +364,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 bool
 any
 (
@@ -386,7 +386,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -422,7 +422,7 @@ T_out
 class
 T_in
 >
-inline
+XSIMD_INLINE
 batch
 <
 T_out
@@ -455,7 +455,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -483,7 +483,7 @@ T_in
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T_out
@@ -509,7 +509,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -535,7 +535,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -561,7 +561,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -587,7 +587,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -629,7 +629,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -671,7 +671,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -713,7 +713,7 @@ uint64_t
 .
 Coefs
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -739,7 +739,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -765,7 +765,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -791,7 +791,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -817,7 +817,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -843,7 +843,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 typename
 batch
 <
@@ -873,7 +873,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 typename
 batch
 <
@@ -903,7 +903,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 typename
 batch
 <
@@ -933,7 +933,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -970,7 +970,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -996,7 +996,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1022,7 +1022,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 as_integer_t
@@ -1051,7 +1051,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 T
 reduce_add
 (
@@ -1072,7 +1072,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1111,7 +1111,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -1168,7 +1168,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1194,7 +1194,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1220,7 +1220,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1246,7 +1246,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1272,7 +1272,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -1309,7 +1309,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1335,7 +1335,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1361,7 +1361,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 as_float_t
@@ -1390,7 +1390,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 as_integer_t
@@ -1419,7 +1419,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1458,7 +1458,7 @@ class
 .
 Batches
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1619,7 +1619,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 U
@@ -1807,7 +1807,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint8_t
@@ -1852,7 +1852,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint16_t
@@ -1897,7 +1897,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint32_t
@@ -1942,7 +1942,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint64_t
@@ -1987,7 +1987,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int8_t
@@ -2032,7 +2032,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int16_t
@@ -2077,7 +2077,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int32_t
@@ -2122,7 +2122,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 int64_t
@@ -2234,7 +2234,7 @@ A
 )
 )
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -2508,7 +2508,7 @@ A
 )
 )
 >
-inline
+XSIMD_INLINE
 batch
 <
 uint32_t
@@ -2991,7 +2991,7 @@ B
 uint64_t
 c
 >
-inline
+XSIMD_INLINE
 B
 coef
 (
@@ -3031,7 +3031,7 @@ template
 class
 B
 >
-inline
+XSIMD_INLINE
 B
 horner
 (
@@ -3063,7 +3063,7 @@ B
 uint64_t
 c0
 >
-inline
+XSIMD_INLINE
 B
 horner
 (
@@ -3097,7 +3097,7 @@ uint64_t
 .
 args
 >
-inline
+XSIMD_INLINE
 B
 horner
 (
@@ -3297,7 +3297,7 @@ template
 class
 B
 >
-inline
+XSIMD_INLINE
 B
 horner1
 (
@@ -3322,7 +3322,7 @@ B
 uint64_t
 c0
 >
-inline
+XSIMD_INLINE
 B
 horner1
 (
@@ -3362,7 +3362,7 @@ uint64_t
 .
 args
 >
-inline
+XSIMD_INLINE
 B
 horner1
 (

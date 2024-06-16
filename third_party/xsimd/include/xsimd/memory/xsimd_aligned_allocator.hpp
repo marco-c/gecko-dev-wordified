@@ -411,13 +411,13 @@ Align
 ;
 }
 ;
-inline
+XSIMD_INLINE
 aligned_allocator
 (
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 aligned_allocator
 (
 const
@@ -432,7 +432,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 aligned_allocator
 (
 const
@@ -446,13 +446,13 @@ rhs
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 ~
 aligned_allocator
 (
 )
 ;
-inline
+XSIMD_INLINE
 pointer
 address
 (
@@ -460,7 +460,7 @@ reference
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 const_pointer
 address
 (
@@ -469,7 +469,7 @@ const_reference
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 pointer
 allocate
 (
@@ -483,7 +483,7 @@ hint
 0
 )
 ;
-inline
+XSIMD_INLINE
 void
 deallocate
 (
@@ -493,7 +493,7 @@ size_type
 n
 )
 ;
-inline
+XSIMD_INLINE
 size_type
 max_size
 (
@@ -501,7 +501,7 @@ max_size
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 size_type
 size_max
 (
@@ -519,7 +519,7 @@ class
 .
 Args
 >
-inline
+XSIMD_INLINE
 void
 construct
 (
@@ -540,7 +540,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 destroy
 (
@@ -562,7 +562,7 @@ T2
 size_t
 Align2
 >
-inline
+XSIMD_INLINE
 bool
 operator
 =
@@ -598,7 +598,7 @@ T2
 size_t
 Align2
 >
-inline
+XSIMD_INLINE
 bool
 operator
 !
@@ -623,7 +623,7 @@ rhs
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 void
 *
 aligned_malloc
@@ -634,7 +634,7 @@ size_t
 alignment
 )
 ;
-inline
+XSIMD_INLINE
 void
 aligned_free
 (
@@ -648,7 +648,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 size_t
 get_alignment_offset
 (
@@ -756,7 +756,7 @@ T
 size_t
 A
 >
-inline
+XSIMD_INLINE
 aligned_allocator
 <
 T
@@ -786,7 +786,7 @@ T
 size_t
 A
 >
-inline
+XSIMD_INLINE
 aligned_allocator
 <
 T
@@ -825,7 +825,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 aligned_allocator
 <
 T
@@ -861,7 +861,7 @@ T
 size_t
 A
 >
-inline
+XSIMD_INLINE
 aligned_allocator
 <
 T
@@ -926,7 +926,7 @@ T
 size_t
 A
 >
-inline
+XSIMD_INLINE
 auto
 aligned_allocator
 <
@@ -1001,7 +1001,7 @@ T
 size_t
 A
 >
-inline
+XSIMD_INLINE
 auto
 aligned_allocator
 <
@@ -1127,7 +1127,7 @@ T
 size_t
 A
 >
-inline
+XSIMD_INLINE
 auto
 aligned_allocator
 <
@@ -1294,7 +1294,7 @@ T
 size_t
 A
 >
-inline
+XSIMD_INLINE
 void
 aligned_allocator
 <
@@ -1360,7 +1360,7 @@ T
 size_t
 A
 >
-inline
+XSIMD_INLINE
 auto
 aligned_allocator
 <
@@ -1413,7 +1413,7 @@ T
 size_t
 A
 >
-inline
+XSIMD_INLINE
 auto
 aligned_allocator
 <
@@ -1509,7 +1509,7 @@ class
 .
 Args
 >
-inline
+XSIMD_INLINE
 void
 aligned_allocator
 <
@@ -1603,7 +1603,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 aligned_allocator
 <
@@ -1713,7 +1713,7 @@ T2
 size_t
 A2
 >
-inline
+XSIMD_INLINE
 bool
 operator
 =
@@ -1823,7 +1823,7 @@ T2
 size_t
 A2
 >
-inline
+XSIMD_INLINE
 bool
 operator
 !
@@ -1950,7 +1950,7 @@ implementation
 namespace
 detail
 {
-inline
+XSIMD_INLINE
 void
 *
 xaligned_malloc
@@ -2062,7 +2062,7 @@ return
 res
 ;
 }
-inline
+XSIMD_INLINE
 void
 xaligned_free
 (
@@ -2090,7 +2090,7 @@ ptr
 endif
 }
 }
-inline
+XSIMD_INLINE
 void
 *
 aligned_malloc
@@ -2112,7 +2112,7 @@ alignment
 )
 ;
 }
-inline
+XSIMD_INLINE
 void
 aligned_free
 (
@@ -2135,7 +2135,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 size_t
 get_alignment_offset
 (

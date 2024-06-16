@@ -617,7 +617,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 static_check_supported_config
 (

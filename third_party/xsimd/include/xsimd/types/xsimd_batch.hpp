@@ -293,7 +293,7 @@ A
 struct
 integral_only_operators
 {
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -315,7 +315,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -332,7 +332,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -355,7 +355,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -372,7 +372,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -409,7 +409,7 @@ mod
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -465,7 +465,7 @@ bitwise_rshift
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -523,7 +523,7 @@ bitwise_lshift
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -581,7 +581,7 @@ bitwise_rshift
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -633,7 +633,7 @@ bitwise_lshift
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -753,7 +753,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -787,7 +787,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -821,7 +821,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -855,7 +855,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -889,7 +889,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -923,7 +923,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1200,7 +1200,7 @@ batch
 /
 /
 constructors
-inline
+XSIMD_INLINE
 batch
 (
 )
@@ -1219,7 +1219,7 @@ with
 undefined
 values
 .
-inline
+XSIMD_INLINE
 batch
 (
 T
@@ -1235,7 +1235,7 @@ class
 .
 Ts
 >
-inline
+XSIMD_INLINE
 batch
 (
 T
@@ -1250,7 +1250,7 @@ vals
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 explicit
 batch
 (
@@ -1261,7 +1261,7 @@ b
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 (
 register_type
@@ -1276,7 +1276,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 broadcast
 (
@@ -1294,7 +1294,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -1310,7 +1310,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -1326,7 +1326,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 store
 (
@@ -1343,7 +1343,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 store
 (
@@ -1362,7 +1362,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load_aligned
 (
@@ -1380,7 +1380,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load_unaligned
 (
@@ -1398,7 +1398,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load
 (
@@ -1417,7 +1417,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load
 (
@@ -1438,7 +1438,7 @@ V
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 gather
 (
@@ -1464,7 +1464,7 @@ U
 class
 V
 >
-inline
+XSIMD_INLINE
 void
 scatter
 (
@@ -1483,7 +1483,7 @@ index
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 T
 get
 (
@@ -1532,7 +1532,7 @@ details
 :
 .
 friend
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1569,7 +1569,7 @@ other
 ;
 }
 friend
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1606,7 +1606,7 @@ other
 ;
 }
 friend
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1643,7 +1643,7 @@ other
 ;
 }
 friend
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1680,7 +1680,7 @@ other
 ;
 }
 friend
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1716,7 +1716,7 @@ other
 ;
 }
 friend
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -1755,7 +1755,7 @@ other
 /
 Update
 operators
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -1769,7 +1769,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -1783,7 +1783,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -1797,7 +1797,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -1811,7 +1811,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -1825,7 +1825,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -1839,7 +1839,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -1859,7 +1859,7 @@ incr
 /
 decr
 operators
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -1869,7 +1869,7 @@ operator
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -1879,7 +1879,7 @@ operator
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 operator
 +
@@ -1889,7 +1889,7 @@ int
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 operator
 -
@@ -1903,7 +1903,7 @@ noexcept
 /
 unary
 operators
-inline
+XSIMD_INLINE
 batch_bool_type
 operator
 !
@@ -1912,7 +1912,7 @@ operator
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 operator
 ~
@@ -1921,7 +1921,7 @@ operator
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 operator
 -
@@ -1930,7 +1930,7 @@ operator
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 operator
 +
@@ -1986,7 +1986,7 @@ add
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 +
@@ -2026,7 +2026,7 @@ sub
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 -
@@ -2066,7 +2066,7 @@ mul
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 *
@@ -2106,7 +2106,7 @@ div
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 /
@@ -2146,7 +2146,7 @@ bitwise_and
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 &
@@ -2186,7 +2186,7 @@ bitwise_or
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 |
@@ -2226,7 +2226,7 @@ bitwise_xor
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 ^
@@ -2266,7 +2266,7 @@ logical_and
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 &
@@ -2309,7 +2309,7 @@ logical_or
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 |
@@ -2340,7 +2340,7 @@ other
 }
 private
 :
-inline
+XSIMD_INLINE
 batch
 logical_and
 (
@@ -2352,7 +2352,7 @@ other
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 logical_or
 (
@@ -2597,7 +2597,7 @@ for
 /
 /
 constructors
-inline
+XSIMD_INLINE
 batch_bool
 (
 )
@@ -2616,7 +2616,7 @@ with
 undefined
 values
 .
-inline
+XSIMD_INLINE
 batch_bool
 (
 bool
@@ -2624,7 +2624,7 @@ val
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch_bool
 (
 register_type
@@ -2640,7 +2640,7 @@ class
 .
 Ts
 >
-inline
+XSIMD_INLINE
 batch_bool
 (
 bool
@@ -2660,7 +2660,7 @@ template
 class
 Tp
 >
-inline
+XSIMD_INLINE
 batch_bool
 (
 Tp
@@ -2674,7 +2674,7 @@ delete
 /
 memory
 operators
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -2685,7 +2685,7 @@ mem
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -2698,7 +2698,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch_bool
 load_aligned
 (
@@ -2711,7 +2711,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch_bool
 load_unaligned
 (
@@ -2722,7 +2722,7 @@ mem
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 bool
 get
 (
@@ -2739,7 +2739,7 @@ noexcept
 /
 mask
 operations
-inline
+XSIMD_INLINE
 uint64_t
 mask
 (
@@ -2747,7 +2747,7 @@ mask
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 static
 batch_bool
 from_mask
@@ -2761,7 +2761,7 @@ noexcept
 /
 comparison
 operators
-inline
+XSIMD_INLINE
 batch_bool
 operator
 =
@@ -2775,7 +2775,7 @@ other
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch_bool
 operator
 !
@@ -2793,7 +2793,7 @@ noexcept
 /
 logical
 operators
-inline
+XSIMD_INLINE
 batch_bool
 operator
 ~
@@ -2802,7 +2802,7 @@ operator
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch_bool
 operator
 !
@@ -2811,7 +2811,7 @@ operator
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch_bool
 operator
 &
@@ -2824,7 +2824,7 @@ other
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch_bool
 operator
 |
@@ -2837,7 +2837,7 @@ other
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch_bool
 operator
 ^
@@ -2850,7 +2850,7 @@ other
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch_bool
 operator
 &
@@ -2864,7 +2864,7 @@ other
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch_bool
 operator
 |
@@ -2882,7 +2882,7 @@ noexcept
 /
 update
 operators
-inline
+XSIMD_INLINE
 batch_bool
 &
 operator
@@ -2910,7 +2910,7 @@ this
 other
 ;
 }
-inline
+XSIMD_INLINE
 batch_bool
 &
 operator
@@ -2938,7 +2938,7 @@ this
 other
 ;
 }
-inline
+XSIMD_INLINE
 batch_bool
 &
 operator
@@ -2986,7 +2986,7 @@ size_t
 Is
 >
 static
-inline
+XSIMD_INLINE
 register_type
 make_register
 (
@@ -3020,7 +3020,7 @@ class
 V
 >
 static
-inline
+XSIMD_INLINE
 register_type
 make_register
 (
@@ -3245,7 +3245,7 @@ batch
 /
 /
 constructors
-inline
+XSIMD_INLINE
 batch
 (
 )
@@ -3264,7 +3264,7 @@ with
 undefined
 values
 .
-inline
+XSIMD_INLINE
 batch
 (
 value_type
@@ -3274,7 +3274,7 @@ val
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 (
 real_batch
@@ -3288,7 +3288,7 @@ imag
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 (
 real_batch
@@ -3298,7 +3298,7 @@ real
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 (
 T
@@ -3314,7 +3314,7 @@ class
 .
 Ts
 >
-inline
+XSIMD_INLINE
 batch
 (
 value_type
@@ -3329,7 +3329,7 @@ vals
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 explicit
 batch
 (
@@ -3347,7 +3347,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 broadcast
 (
@@ -3362,7 +3362,7 @@ memory
 operators
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load_aligned
 (
@@ -3381,7 +3381,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load_unaligned
 (
@@ -3398,7 +3398,7 @@ nullptr
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -3412,7 +3412,7 @@ imag_dst
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -3428,7 +3428,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load_aligned
 (
@@ -3441,7 +3441,7 @@ noexcept
 ;
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load_unaligned
 (
@@ -3452,7 +3452,7 @@ src
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -3463,7 +3463,7 @@ dst
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -3481,7 +3481,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load
 (
@@ -3500,7 +3500,7 @@ U
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load
 (
@@ -3517,7 +3517,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 store
 (
@@ -3534,7 +3534,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 store
 (
@@ -3546,7 +3546,7 @@ unaligned_mode
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 real_batch
 real
 (
@@ -3554,7 +3554,7 @@ real
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 real_batch
 imag
 (
@@ -3562,7 +3562,7 @@ imag
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 value_type
 get
 (
@@ -3589,7 +3589,7 @@ template
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 batch
 (
 xtl
@@ -3617,7 +3617,7 @@ class
 .
 Ts
 >
-inline
+XSIMD_INLINE
 batch
 (
 xtl
@@ -3655,7 +3655,7 @@ i3ec
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load_aligned
 (
@@ -3681,7 +3681,7 @@ i3ec
 >
 XSIMD_NO_DISCARD
 static
-inline
+XSIMD_INLINE
 batch
 load_unaligned
 (
@@ -3705,7 +3705,7 @@ template
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 void
 store_aligned
 (
@@ -3729,7 +3729,7 @@ template
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 void
 store_unaligned
 (
@@ -3754,7 +3754,7 @@ endif
 /
 comparison
 operators
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -3772,7 +3772,7 @@ other
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -3794,7 +3794,7 @@ noexcept
 /
 Update
 operators
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -3808,7 +3808,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -3822,7 +3822,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -3836,7 +3836,7 @@ other
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -3856,7 +3856,7 @@ incr
 /
 decr
 operators
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -3866,7 +3866,7 @@ operator
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 &
 operator
@@ -3876,7 +3876,7 @@ operator
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 operator
 +
@@ -3886,7 +3886,7 @@ int
 )
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 operator
 -
@@ -3900,7 +3900,7 @@ noexcept
 /
 unary
 operators
-inline
+XSIMD_INLINE
 batch_bool_type
 operator
 !
@@ -3909,7 +3909,7 @@ operator
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 operator
 ~
@@ -3918,7 +3918,7 @@ operator
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 operator
 -
@@ -3927,7 +3927,7 @@ operator
 const
 noexcept
 ;
-inline
+XSIMD_INLINE
 batch
 operator
 +
@@ -3972,7 +3972,7 @@ add
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 +
@@ -4012,7 +4012,7 @@ sub
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 -
@@ -4052,7 +4052,7 @@ mul
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 *
@@ -4092,7 +4092,7 @@ div
 *
 /
 friend
-inline
+XSIMD_INLINE
 batch
 operator
 /
@@ -4282,7 +4282,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4385,7 +4385,7 @@ class
 .
 Ts
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4527,7 +4527,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4604,7 +4604,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4675,7 +4675,7 @@ class
 U
 >
 XSIMD_NO_DISCARD
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -4816,7 +4816,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -4937,7 +4937,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -5009,7 +5009,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -5072,7 +5072,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -5148,7 +5148,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5280,7 +5280,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5364,7 +5364,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5431,7 +5431,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5542,7 +5542,7 @@ U
 typename
 V
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -5700,7 +5700,7 @@ U
 class
 V
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -5828,7 +5828,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 T
 batch
 <
@@ -5954,7 +5954,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6030,7 +6030,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6106,7 +6106,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6182,7 +6182,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6258,7 +6258,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6334,7 +6334,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -6456,7 +6456,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6524,7 +6524,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6592,7 +6592,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6660,7 +6660,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6728,7 +6728,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6826,7 +6826,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6894,7 +6894,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -6962,7 +6962,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7030,7 +7030,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7129,7 +7129,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7228,7 +7228,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7321,7 +7321,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7481,7 +7481,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7529,7 +7529,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7577,7 +7577,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7638,7 +7638,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7752,7 +7752,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -7811,7 +7811,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7866,7 +7866,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -7921,7 +7921,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -8019,7 +8019,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -8071,7 +8071,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -8183,7 +8183,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -8228,7 +8228,7 @@ class
 .
 Ts
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -8386,7 +8386,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 batch_bool
 <
@@ -8425,7 +8425,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 batch_bool
 <
@@ -8456,7 +8456,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -8555,7 +8555,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -8612,7 +8612,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 uint64_t
 batch_bool
 <
@@ -8669,7 +8669,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -8716,7 +8716,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 bool
 batch_bool
 <
@@ -8835,7 +8835,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -8891,7 +8891,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9018,7 +9018,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9064,7 +9064,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9103,7 +9103,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9158,7 +9158,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9213,7 +9213,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9268,7 +9268,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9308,7 +9308,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9415,7 +9415,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -9474,7 +9474,7 @@ size_t
 .
 Is
 >
-inline
+XSIMD_INLINE
 auto
 batch_bool
 <
@@ -9548,7 +9548,7 @@ class
 .
 V
 >
-inline
+XSIMD_INLINE
 auto
 batch_bool
 <
@@ -9682,7 +9682,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -9730,7 +9730,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -9774,7 +9774,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -9814,7 +9814,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -9860,7 +9860,7 @@ class
 .
 Ts
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -9951,7 +9951,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -9997,7 +9997,7 @@ class
 U
 >
 XSIMD_NO_DISCARD
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -10135,7 +10135,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -10218,7 +10218,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -10301,7 +10301,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -10402,7 +10402,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -10468,7 +10468,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -10549,7 +10549,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -10595,7 +10595,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -10644,7 +10644,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -10698,7 +10698,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -10752,7 +10752,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -10806,7 +10806,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -10850,7 +10850,7 @@ template
 class
 U
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -10889,7 +10889,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 auto
 batch
 <
@@ -10924,7 +10924,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 auto
 batch
 <
@@ -10959,7 +10959,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 auto
 batch
 <
@@ -11106,7 +11106,7 @@ template
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -11172,7 +11172,7 @@ class
 .
 Ts
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -11327,7 +11327,7 @@ template
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -11402,7 +11402,7 @@ template
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -11477,7 +11477,7 @@ template
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -11540,7 +11540,7 @@ template
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 void
 batch
 <
@@ -11688,7 +11688,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -11743,7 +11743,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -11878,7 +11878,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -11941,7 +11941,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -12004,7 +12004,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -12109,7 +12109,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -12317,7 +12317,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -12366,7 +12366,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -12415,7 +12415,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -12473,7 +12473,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -12609,7 +12609,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch_bool
 <
 T
@@ -12654,7 +12654,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -12702,7 +12702,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -12750,7 +12750,7 @@ T
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 std

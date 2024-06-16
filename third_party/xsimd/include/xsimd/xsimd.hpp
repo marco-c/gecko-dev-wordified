@@ -501,6 +501,15 @@ hpp
 #
 include
 "
+config
+/
+xsimd_inline
+.
+hpp
+"
+#
+include
+"
 arch
 /
 xsimd_scalar

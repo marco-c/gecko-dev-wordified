@@ -1139,7 +1139,7 @@ p
 batch_constant
 *
 /
-inline
+XSIMD_INLINE
 batch_type
 as_batch
 (
@@ -1173,7 +1173,7 @@ p
 batch_constant
 *
 /
-inline
+XSIMD_INLINE
 operator
 batch_type
 (
@@ -1918,7 +1918,7 @@ size_t
 .
 Is
 >
-inline
+XSIMD_INLINE
 constexpr
 auto
 make_batch_constant
@@ -1985,7 +1985,7 @@ size_t
 .
 Is
 >
-inline
+XSIMD_INLINE
 constexpr
 auto
 make_batch_bool_constant
@@ -2199,7 +2199,7 @@ A
 class
 G
 >
-inline
+XSIMD_INLINE
 constexpr
 auto
 make_batch_constant
@@ -2278,7 +2278,7 @@ A
 class
 G
 >
-inline
+XSIMD_INLINE
 constexpr
 auto
 make_batch_bool_constant

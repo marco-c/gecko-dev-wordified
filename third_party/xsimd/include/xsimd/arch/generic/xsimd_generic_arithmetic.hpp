@@ -293,7 +293,7 @@ type
 *
 /
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -389,7 +389,7 @@ type
 *
 /
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -458,7 +458,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -502,7 +502,7 @@ T
 class
 Mask
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -574,7 +574,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -645,7 +645,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -699,7 +699,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -849,7 +849,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -903,7 +903,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -1053,7 +1053,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1108,7 +1108,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -1260,7 +1260,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1315,7 +1315,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 std
@@ -1494,7 +1494,7 @@ type
 *
 /
 >
-inline
+XSIMD_INLINE
 T
 hadd
 (
@@ -1575,7 +1575,7 @@ A
 class
 T
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1619,7 +1619,7 @@ T
 class
 Mask
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1695,7 +1695,7 @@ type
 *
 /
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1768,7 +1768,7 @@ T
 class
 STy
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1840,7 +1840,7 @@ T
 class
 STy
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -1908,7 +1908,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -1990,7 +1990,7 @@ type
 *
 /
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2161,7 +2161,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double
@@ -2217,7 +2217,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 float
@@ -2299,7 +2299,7 @@ type
 *
 /
 >
-inline
+XSIMD_INLINE
 batch
 <
 T
@@ -2377,7 +2377,7 @@ template
 class
 A
 >
-inline
+XSIMD_INLINE
 batch
 <
 double

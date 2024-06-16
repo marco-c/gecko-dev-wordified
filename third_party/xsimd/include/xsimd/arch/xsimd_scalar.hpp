@@ -258,6 +258,17 @@ include
 type_traits
 >
 #
+include
+"
+xsimd
+/
+config
+/
+xsimd_inline
+.
+hpp
+"
+#
 ifdef
 XSIMD_ENABLE_XTL_COMPLEX
 #
@@ -600,7 +611,7 @@ std
 :
 trunc
 ;
-inline
+XSIMD_INLINE
 signed
 char
 abs
@@ -648,7 +659,7 @@ template
 typename
 char_type
 >
-inline
+XSIMD_INLINE
 char
 abs
 (
@@ -669,7 +680,7 @@ template
 typename
 char_type
 >
-inline
+XSIMD_INLINE
 char
 abs
 (
@@ -693,7 +704,7 @@ v
 ;
 }
 }
-inline
+XSIMD_INLINE
 char
 abs
 (
@@ -723,7 +734,7 @@ type
 )
 ;
 }
-inline
+XSIMD_INLINE
 short
 abs
 (
@@ -742,7 +753,7 @@ v
 v
 ;
 }
-inline
+XSIMD_INLINE
 unsigned
 char
 abs
@@ -756,7 +767,7 @@ return
 v
 ;
 }
-inline
+XSIMD_INLINE
 unsigned
 short
 abs
@@ -770,7 +781,7 @@ return
 v
 ;
 }
-inline
+XSIMD_INLINE
 unsigned
 int
 abs
@@ -784,7 +795,7 @@ return
 v
 ;
 }
-inline
+XSIMD_INLINE
 unsigned
 long
 abs
@@ -798,7 +809,7 @@ return
 v
 ;
 }
-inline
+XSIMD_INLINE
 unsigned
 long
 long
@@ -849,7 +860,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -893,7 +904,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -937,7 +948,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -981,7 +992,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -1025,7 +1036,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -1069,7 +1080,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -1117,7 +1128,7 @@ T
 class
 Tp
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -1156,7 +1167,7 @@ T
 class
 Tp
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -1377,7 +1388,7 @@ T
 class
 Tp
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -1465,7 +1476,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 incr
 (
@@ -1490,7 +1501,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 incr_if
 (
@@ -1516,7 +1527,7 @@ mask
 )
 ;
 }
-inline
+XSIMD_INLINE
 bool
 all
 (
@@ -1528,7 +1539,7 @@ return
 mask
 ;
 }
-inline
+XSIMD_INLINE
 bool
 any
 (
@@ -1540,7 +1551,7 @@ return
 mask
 ;
 }
-inline
+XSIMD_INLINE
 bool
 none
 (
@@ -1558,7 +1569,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -1602,7 +1613,7 @@ T_out
 class
 T_in
 >
-inline
+XSIMD_INLINE
 T_out
 bitwise_cast
 (
@@ -1664,7 +1675,7 @@ return
 r
 ;
 }
-inline
+XSIMD_INLINE
 float
 bitwise_and
 (
@@ -1764,7 +1775,7 @@ return
 r
 ;
 }
-inline
+XSIMD_INLINE
 double
 bitwise_and
 (
@@ -1871,7 +1882,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -1928,7 +1939,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -1983,7 +1994,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -2017,7 +2028,7 @@ return
 x
 ;
 }
-inline
+XSIMD_INLINE
 bool
 bitwise_not
 (
@@ -2031,7 +2042,7 @@ return
 x
 ;
 }
-inline
+XSIMD_INLINE
 float
 bitwise_not
 (
@@ -2104,7 +2115,7 @@ return
 r
 ;
 }
-inline
+XSIMD_INLINE
 double
 bitwise_not
 (
@@ -2182,7 +2193,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -2229,7 +2240,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -2266,7 +2277,7 @@ x
 y
 ;
 }
-inline
+XSIMD_INLINE
 float
 bitwise_or
 (
@@ -2366,7 +2377,7 @@ return
 r
 ;
 }
-inline
+XSIMD_INLINE
 double
 bitwise_or
 (
@@ -2471,7 +2482,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -2508,7 +2519,7 @@ x
 y
 ;
 }
-inline
+XSIMD_INLINE
 float
 bitwise_xor
 (
@@ -2608,7 +2619,7 @@ return
 r
 ;
 }
-inline
+XSIMD_INLINE
 double
 bitwise_xor
 (
@@ -2715,7 +2726,7 @@ T
 class
 Tp
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -2754,7 +2765,7 @@ T
 class
 Tp
 >
-inline
+XSIMD_INLINE
 auto
 mod
 (
@@ -2790,7 +2801,7 @@ T
 class
 Tp
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -2827,7 +2838,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 neg
 (
@@ -2848,7 +2859,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 auto
 pos
 (
@@ -2871,7 +2882,7 @@ return
 x
 ;
 }
-inline
+XSIMD_INLINE
 float
 reciprocal
 (
@@ -2890,7 +2901,7 @@ f
 x
 ;
 }
-inline
+XSIMD_INLINE
 double
 reciprocal
 (
@@ -2915,7 +2926,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -3000,7 +3011,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -3083,7 +3094,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 bool
 isnan
 (
@@ -3134,7 +3145,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 bool
 isinf
 (
@@ -3185,7 +3196,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 bool
 isfinite
 (
@@ -3383,7 +3394,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 clip
 (
@@ -3462,7 +3473,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 bool
 is_flint
 (
@@ -3532,7 +3543,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 bool
 is_even
 (
@@ -3584,7 +3595,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 bool
 is_odd
 (
@@ -3605,7 +3616,7 @@ x
 )
 ;
 }
-inline
+XSIMD_INLINE
 int32_t
 nearbyint_as_int
 (
@@ -3630,7 +3641,7 @@ var
 )
 ;
 }
-inline
+XSIMD_INLINE
 int64_t
 nearbyint_as_int
 (
@@ -3682,7 +3693,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 bool
 eq
 (
@@ -3709,7 +3720,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 bool
 eq
 (
@@ -3770,7 +3781,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 bool
 ge
 (
@@ -3819,7 +3830,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 bool
 gt
 (
@@ -3867,7 +3878,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 bool
 le
 (
@@ -3916,7 +3927,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 bool
 lt
 (
@@ -3964,7 +3975,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 bool
 neq
 (
@@ -3991,7 +4002,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 bool
 neq
 (
@@ -4041,7 +4052,7 @@ MAC_OS_X_VERSION_MIN_REQUIRED
 >
 1080
 )
-inline
+XSIMD_INLINE
 float
 exp10
 (
@@ -4059,7 +4070,7 @@ x
 )
 ;
 }
-inline
+XSIMD_INLINE
 double
 exp10
 (
@@ -4083,7 +4094,7 @@ defined
 (
 __GLIBC__
 )
-inline
+XSIMD_INLINE
 float
 exp10
 (
@@ -4103,7 +4114,7 @@ x
 )
 ;
 }
-inline
+XSIMD_INLINE
 double
 exp10
 (
@@ -4144,7 +4155,7 @@ __GNUC__
 =
 5
 )
-inline
+XSIMD_INLINE
 float
 exp10
 (
@@ -4162,7 +4173,7 @@ x
 )
 ;
 }
-inline
+XSIMD_INLINE
 double
 exp10
 (
@@ -4213,7 +4224,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 exp10
 (
@@ -4254,7 +4265,7 @@ x
 }
 #
 else
-inline
+XSIMD_INLINE
 float
 exp10
 (
@@ -4291,7 +4302,7 @@ x
 )
 ;
 }
-inline
+XSIMD_INLINE
 double
 exp10
 (
@@ -4356,7 +4367,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 auto
 rsqrt
 (
@@ -4419,7 +4430,7 @@ template
 class
 C
 >
-inline
+XSIMD_INLINE
 C
 expm1_complex_scalar_impl
 (
@@ -4536,7 +4547,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -4579,7 +4590,7 @@ T
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 xtl
 :
 :
@@ -4626,7 +4637,7 @@ template
 class
 C
 >
-inline
+XSIMD_INLINE
 C
 log1p_complex_scalar_impl
 (
@@ -4713,7 +4724,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -4751,7 +4762,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -4819,7 +4830,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 sadd
 (
@@ -5020,7 +5031,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 ssub
 (
@@ -5161,7 +5172,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -5315,7 +5326,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -5368,7 +5379,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 auto
 pow
 (
@@ -5446,7 +5457,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -5511,7 +5522,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -5577,7 +5588,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 auto
 pow
 (
@@ -5669,7 +5680,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 bitofsign
 (
@@ -5692,12 +5703,90 @@ T
 )
 ;
 }
+XSIMD_INLINE
+float
+bitofsign
+(
+float
+const
+&
+x
+)
+noexcept
+{
+return
+float
+(
+std
+:
+:
+signbit
+(
+x
+)
+)
+;
+}
+XSIMD_INLINE
+double
+bitofsign
+(
+double
+const
+&
+x
+)
+noexcept
+{
+return
+double
+(
+std
+:
+:
+signbit
+(
+x
+)
+)
+;
+}
+XSIMD_INLINE
+long
+double
+bitofsign
+(
+long
+double
+const
+&
+x
+)
+noexcept
+{
+return
+static_cast
+<
+long
+double
+>
+(
+std
+:
+:
+signbit
+(
+x
+)
+)
+;
+}
 template
 <
 class
 T
 >
-inline
+XSIMD_INLINE
 auto
 signbit
 (
@@ -5724,7 +5813,7 @@ v
 )
 ;
 }
-inline
+XSIMD_INLINE
 double
 sign
 (
@@ -5766,7 +5855,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 sign
 (
@@ -5821,7 +5910,7 @@ template
 class
 C
 >
-inline
+XSIMD_INLINE
 C
 sign_complex_scalar_impl
 (
@@ -5895,7 +5984,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -5938,7 +6027,7 @@ T
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 xtl
 :
 :
@@ -5977,7 +6066,7 @@ v
 }
 #
 endif
-inline
+XSIMD_INLINE
 double
 signnz
 (
@@ -6018,7 +6107,7 @@ value
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 signnz
 (
@@ -6058,7 +6147,7 @@ T
 class
 Tp
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -6095,7 +6184,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 decr
 (
@@ -6120,7 +6209,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 decr_if
 (
@@ -6156,7 +6245,7 @@ T
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 xtl
 :
 :
@@ -6210,7 +6299,7 @@ T
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 xtl
 :
 :
@@ -6256,7 +6345,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 auto
 min
 (
@@ -6353,7 +6442,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -6459,7 +6548,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 auto
 max
 (
@@ -6556,7 +6645,7 @@ T0
 class
 T1
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -6660,7 +6749,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -6712,7 +6801,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -6768,7 +6857,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -6823,7 +6912,7 @@ template
 class
 C
 >
-inline
+XSIMD_INLINE
 C
 fma_complex_scalar_impl
 (
@@ -6915,7 +7004,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -6980,7 +7069,7 @@ T
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 xtl
 :
 :
@@ -7053,7 +7142,7 @@ template
 class
 C
 >
-inline
+XSIMD_INLINE
 C
 fms_complex_scalar_impl
 (
@@ -7145,7 +7234,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -7210,7 +7299,7 @@ T
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 xtl
 :
 :
@@ -7280,7 +7369,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -7335,7 +7424,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -7395,7 +7484,7 @@ template
 class
 C
 >
-inline
+XSIMD_INLINE
 C
 fnma_complex_scalar_impl
 (
@@ -7488,7 +7577,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -7553,7 +7642,7 @@ T
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 xtl
 :
 :
@@ -7623,7 +7712,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -7678,7 +7767,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -7738,7 +7827,7 @@ template
 class
 C
 >
-inline
+XSIMD_INLINE
 C
 fnms_complex_scalar_impl
 (
@@ -7831,7 +7920,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -7896,7 +7985,7 @@ T
 bool
 i3ec
 >
-inline
+XSIMD_INLINE
 xtl
 :
 :
@@ -7992,7 +8081,7 @@ T
 >
 \
 static
-inline
+XSIMD_INLINE
 auto
 get
 (
@@ -8046,7 +8135,7 @@ true_type
 ;
 \
 static
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -8126,7 +8215,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -8172,7 +8261,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -8226,7 +8315,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -8297,7 +8386,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -8343,7 +8432,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -8397,7 +8486,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 typename
 std
 :
@@ -8467,7 +8556,7 @@ XSIMD_HASSINCOS_TRAIT
 undef
 XSIMD_HASSINCOS
 }
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -8510,7 +8599,7 @@ c
 )
 ;
 }
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -8558,7 +8647,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -8625,7 +8714,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 std
 :
 :
@@ -8709,7 +8798,7 @@ void
 :
 type
 >
-inline
+XSIMD_INLINE
 T
 frexp
 (
@@ -8740,7 +8829,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 T
 select
 (

@@ -260,7 +260,7 @@ class
 T
 >
 \
-inline
+XSIMD_INLINE
 T
 NAME
 (
@@ -291,7 +291,7 @@ template
 <
 >
 \
-inline
+XSIMD_INLINE
 float
 NAME
 <
@@ -313,7 +313,7 @@ template
 <
 >
 \
-inline
+XSIMD_INLINE
 double
 NAME
 <
@@ -345,7 +345,7 @@ class
 T
 >
 \
-inline
+XSIMD_INLINE
 T
 NAME
 (
@@ -376,7 +376,7 @@ template
 <
 >
 \
-inline
+XSIMD_INLINE
 float
 NAME
 <
@@ -407,7 +407,7 @@ template
 <
 >
 \
-inline
+XSIMD_INLINE
 double
 NAME
 <
@@ -1166,7 +1166,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 constexpr
 T
 allbits
@@ -1265,7 +1265,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 constexpr
 as_integer_t
 <
@@ -1298,7 +1298,7 @@ value_type
 template
 <
 >
-inline
+XSIMD_INLINE
 constexpr
 int32_t
 mask1frexp
@@ -1316,7 +1316,7 @@ return
 template
 <
 >
-inline
+XSIMD_INLINE
 constexpr
 int64_t
 mask1frexp
@@ -1400,7 +1400,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 constexpr
 as_integer_t
 <
@@ -1433,7 +1433,7 @@ value_type
 template
 <
 >
-inline
+XSIMD_INLINE
 constexpr
 int32_t
 mask2frexp
@@ -1451,7 +1451,7 @@ return
 template
 <
 >
-inline
+XSIMD_INLINE
 constexpr
 int64_t
 mask2frexp
@@ -1537,7 +1537,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 constexpr
 as_integer_t
 <
@@ -1570,7 +1570,7 @@ value_type
 template
 <
 >
-inline
+XSIMD_INLINE
 constexpr
 int32_t
 maxexponent
@@ -1588,7 +1588,7 @@ return
 template
 <
 >
-inline
+XSIMD_INLINE
 constexpr
 int64_t
 maxexponent
@@ -1674,7 +1674,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 constexpr
 as_integer_t
 <
@@ -1707,7 +1707,7 @@ value_type
 template
 <
 >
-inline
+XSIMD_INLINE
 constexpr
 int32_t
 maxexponentm1
@@ -1725,7 +1725,7 @@ return
 template
 <
 >
-inline
+XSIMD_INLINE
 constexpr
 int64_t
 maxexponentm1
@@ -1795,7 +1795,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 constexpr
 int32_t
 nmb
@@ -1819,7 +1819,7 @@ value_type
 template
 <
 >
-inline
+XSIMD_INLINE
 constexpr
 int32_t
 nmb
@@ -1837,7 +1837,7 @@ return
 template
 <
 >
-inline
+XSIMD_INLINE
 constexpr
 int32_t
 nmb
@@ -1909,7 +1909,7 @@ template
 class
 T
 >
-inline
+XSIMD_INLINE
 constexpr
 T
 zero
@@ -2201,7 +2201,7 @@ minvalue_impl
 float
 >
 {
-inline
+XSIMD_INLINE
 static
 float
 get_value
@@ -2233,7 +2233,7 @@ minvalue_impl
 double
 >
 {
-inline
+XSIMD_INLINE
 static
 double
 get_value
