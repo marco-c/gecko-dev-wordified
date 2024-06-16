@@ -5648,7 +5648,6 @@ ResizeView
 (
 aView
 aInkOverflowArea
-true
 )
 ;
 }
