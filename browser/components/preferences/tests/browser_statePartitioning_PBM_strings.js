@@ -595,6 +595,7 @@ rpTop
 ocsp
 fpp
 fppPrivate
+3pcd
 "
 false
 )
@@ -647,6 +648,7 @@ rpTop
 ocsp
 fpp
 fppPrivate
+3pcd
 "
 true
 )
