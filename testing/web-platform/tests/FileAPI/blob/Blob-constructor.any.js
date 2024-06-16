@@ -1969,6 +1969,18 @@ Int32Array
 ]
 )
 new
+Float16Array
+(
+[
+2
+.
+65625
+58
+.
+59375
+]
+)
+new
 Float32Array
 (
 [
@@ -1983,7 +1995,7 @@ Float32Array
 expected
 :
 "
-PASSPASSPASSPASSPASSPASSPASS
+PASSPASSPASSPASSPASSPASSPASSPASS
 "
 type
 :
