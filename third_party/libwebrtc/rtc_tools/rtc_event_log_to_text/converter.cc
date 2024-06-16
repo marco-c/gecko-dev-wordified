@@ -1950,7 +1950,7 @@ candidate_type_name
 IceCandidateType
 :
 :
-kLocal
+kHost
 "
 LOCAL
 "
@@ -1959,7 +1959,7 @@ LOCAL
 IceCandidateType
 :
 :
-kStun
+kSrflx
 "
 STUN
 "

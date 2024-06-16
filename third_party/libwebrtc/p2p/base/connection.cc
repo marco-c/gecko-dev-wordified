@@ -575,7 +575,7 @@ webrtc
 IceCandidateType
 :
 :
-kLocal
+kHost
 ;
 }
 else
@@ -595,7 +595,7 @@ webrtc
 IceCandidateType
 :
 :
-kStun
+kSrflx
 ;
 }
 else

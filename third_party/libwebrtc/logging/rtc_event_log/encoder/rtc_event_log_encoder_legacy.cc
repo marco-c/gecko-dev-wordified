@@ -1054,7 +1054,7 @@ case
 IceCandidateType
 :
 :
-kLocal
+kHost
 :
 return
 rtclog
@@ -1069,7 +1069,7 @@ case
 IceCandidateType
 :
 :
-kStun
+kSrflx
 :
 return
 rtclog

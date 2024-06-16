@@ -1640,7 +1640,7 @@ type
 IceCandidateType
 :
 :
-kLocal
+kHost
 ;
 switch
 (
@@ -1651,13 +1651,13 @@ case
 IceCandidateType
 :
 :
-kLocal
+kHost
 :
 case
 IceCandidateType
 :
 :
-kStun
+kSrflx
 :
 case
 IceCandidateType
@@ -1702,7 +1702,7 @@ int
 IceCandidateType
 :
 :
-kLocal
+kHost
 )
 =
 =

@@ -2188,7 +2188,7 @@ case
 IceCandidateType
 :
 :
-kLocal
+kHost
 :
 return
 kIceCandidateTypeLocal
@@ -2197,7 +2197,7 @@ case
 IceCandidateType
 :
 :
-kStun
+kSrflx
 :
 return
 kIceCandidateTypeStun
