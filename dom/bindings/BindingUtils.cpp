@@ -28531,7 +28531,7 @@ fromMarkedLocation
 (
 entrySlot
 .
-address
+unsafeAddress
 (
 )
 )

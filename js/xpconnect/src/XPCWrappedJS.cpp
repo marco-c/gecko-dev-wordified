@@ -4273,14 +4273,12 @@ xpc_GetSafeJSContext
 )
 )
 ;
-*
 mJSObj
 .
-unsafeGet
+unbarrieredSet
 (
-)
-=
 nullptr
+)
 ;
 if
 (
