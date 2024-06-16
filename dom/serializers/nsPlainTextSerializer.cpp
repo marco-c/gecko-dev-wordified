@@ -312,6 +312,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+AbstractRange
+.
+h
+"
+#
+include
+"
 nsUnicodeProperties
 .
 h

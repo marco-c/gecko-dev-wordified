@@ -19672,7 +19672,7 @@ aDocument
 |
 aSelection
 .
-IsCollapsed
+AreNormalAndCrossShadowBoundaryRangesCollapsed
 (
 )
 )
