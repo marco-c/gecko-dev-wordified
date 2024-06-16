@@ -2005,7 +2005,15 @@ hasEventListeners
 :
 actor
 .
-_hasEventListeners
+hasEventListeners
+(
+/
+*
+refreshCache
+*
+/
+true
+)
 }
 ;
 this
