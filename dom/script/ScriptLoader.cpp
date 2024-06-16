@@ -14762,12 +14762,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
-(
-)
--
->
-BeginEvaluating
+BeginEvaluatingTopLevel
 (
 )
 ;
@@ -14987,12 +14982,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
-(
-)
--
->
-EndEvaluating
+EndEvaluatingTopLevel
 (
 )
 ;
