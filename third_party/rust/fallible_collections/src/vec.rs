@@ -4065,6 +4065,16 @@ additional
 [
 cfg
 (
+all
+(
+not
+(
+feature
+=
+"
+unstable
+"
+)
 not
 (
 feature
@@ -4072,6 +4082,7 @@ feature
 "
 rust_1_57
 "
+)
 )
 )
 ]
@@ -4836,7 +4847,11 @@ write
 (
 self
 .
-get_unchecked_mut
+as_mut_ptr
+(
+)
+.
+add
 (
 len
 )
