@@ -7454,6 +7454,15 @@ aUserToOuterSVG
 HasNonTranslation
 (
 )
+&
+&
+!
+aUserToOuterSVG
+-
+>
+IsSingular
+(
+)
 ;
 }
 /
