@@ -1356,9 +1356,13 @@ Core
 "
 DOM
 :
-Core
+Copy
 &
-HTML
+Paste
+and
+Drag
+&
+Drop
 "
 )
 with
