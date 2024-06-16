@@ -407,7 +407,9 @@ txt
 "
 )
 .
-value
+firstChild
+.
+textContent
 ;
 state
 .
