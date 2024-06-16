@@ -2688,7 +2688,7 @@ ShellModuleRequestObjectWrapper_specifierGetter
 JS_PSG
 (
 "
-assertions
+attributes
 "
 ShellModuleRequestObjectWrapper_attributesGetter
 0

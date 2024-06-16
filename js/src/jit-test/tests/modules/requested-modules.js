@@ -11,7 +11,7 @@ enable
 -
 import
 -
-assertions
+attributes
 /
 /
 Test
@@ -92,7 +92,7 @@ expected
 i
 ]
 .
-assertions
+attributes
 =
 =
 =
@@ -108,7 +108,7 @@ i
 .
 moduleRequest
 .
-assertions
+attributes
 null
 )
 ;
@@ -116,17 +116,17 @@ null
 else
 {
 var
-expectedAssertions
+expectedAttributes
 =
 expected
 [
 i
 ]
 .
-assertions
+attributes
 ;
 var
-actualAssertions
+actualAttributes
 =
 actual
 [
@@ -135,14 +135,14 @@ i
 .
 moduleRequest
 .
-assertions
+attributes
 ;
 assertEq
 (
-actualAssertions
+actualAttributes
 .
 length
-expectedAssertions
+expectedAttributes
 .
 length
 )
@@ -156,7 +156,7 @@ j
 ;
 j
 <
-expectedAssertions
+expectedAttributes
 .
 length
 ;
@@ -167,13 +167,13 @@ j
 {
 assertEq
 (
-expectedAssertions
+expectedAttributes
 [
 j
 ]
 .
 type
-actualAssertions
+actualAttributes
 [
 j
 ]
@@ -210,7 +210,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 null
 }
@@ -241,7 +241,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 null
 }
@@ -251,7 +251,7 @@ specifier
 '
 bar
 '
-assertions
+attributes
 :
 null
 }
@@ -289,7 +289,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 null
 }
@@ -299,7 +299,7 @@ specifier
 '
 bar
 '
-assertions
+attributes
 :
 null
 }
@@ -324,7 +324,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 null
 }
@@ -348,7 +348,7 @@ specifier
 '
 bar
 '
-assertions
+attributes
 :
 null
 }
@@ -387,7 +387,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 null
 }
@@ -397,7 +397,7 @@ specifier
 '
 bar
 '
-assertions
+attributes
 :
 null
 }
@@ -407,7 +407,7 @@ specifier
 '
 baz
 '
-assertions
+attributes
 :
 null
 }
@@ -433,7 +433,7 @@ from
 '
 foo
 '
-assert
+with
 {
 }
 "
@@ -444,7 +444,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 null
 }
@@ -460,7 +460,7 @@ from
 '
 foo
 '
-assert
+with
 {
 type
 :
@@ -476,7 +476,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 [
 {
@@ -500,7 +500,7 @@ from
 '
 foo
 '
-assert
+with
 {
 unsupported
 :
@@ -516,7 +516,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 null
 }
@@ -532,7 +532,7 @@ from
 '
 foo
 '
-assert
+with
 {
 unsupported
 :
@@ -558,7 +558,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 [
 {
@@ -582,7 +582,7 @@ from
 '
 foo
 '
-assert
+with
 {
 type
 :
@@ -598,7 +598,7 @@ from
 '
 bar
 '
-assert
+with
 {
 type
 :
@@ -613,7 +613,7 @@ from
 '
 baz
 '
-assert
+with
 {
 type
 :
@@ -629,7 +629,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 [
 {
@@ -647,7 +647,7 @@ specifier
 '
 bar
 '
-assertions
+attributes
 :
 [
 {
@@ -665,7 +665,7 @@ specifier
 '
 baz
 '
-assertions
+attributes
 :
 [
 {
@@ -690,7 +690,7 @@ from
 '
 foo
 '
-assert
+with
 {
 type
 :
@@ -706,7 +706,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 [
 {
@@ -730,7 +730,7 @@ from
 '
 bar
 '
-assert
+with
 {
 type
 :
@@ -746,7 +746,7 @@ specifier
 '
 bar
 '
-assertions
+attributes
 :
 [
 {
@@ -777,7 +777,7 @@ from
 '
 bar
 '
-assert
+with
 {
 type
 :
@@ -794,7 +794,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 null
 }
@@ -804,7 +804,7 @@ specifier
 '
 bar
 '
-assertions
+attributes
 :
 [
 {
@@ -828,7 +828,7 @@ from
 '
 bar
 '
-assert
+with
 {
 type
 :
@@ -852,7 +852,7 @@ specifier
 '
 bar
 '
-assertions
+attributes
 :
 [
 {
@@ -870,7 +870,7 @@ specifier
 '
 foo
 '
-assertions
+attributes
 :
 null
 }
