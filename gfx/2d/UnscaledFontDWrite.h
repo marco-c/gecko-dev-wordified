@@ -129,6 +129,11 @@ h
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 2D
 .
@@ -346,6 +351,15 @@ RefPtr
 IDWriteFont
 >
 mFont
+;
+std
+:
+:
+vector
+<
+WCHAR
+>
+mFontFileName
 ;
 }
 ;
