@@ -952,6 +952,7 @@ RTCRtpCodecParameters
 [
 readonly
 ]
+required
 unsigned
 short
 payloadType
@@ -959,12 +960,14 @@ payloadType
 [
 readonly
 ]
+required
 DOMString
 mimeType
 ;
 [
 readonly
 ]
+required
 unsigned
 long
 clockRate
@@ -992,7 +995,7 @@ validateCodecParameters
 codec
 )
 {
-assert_optional_unsigned_int_field
+assert_unsigned_int_field
 (
 codec
 '
@@ -1000,7 +1003,7 @@ payloadType
 '
 )
 ;
-assert_optional_string_field
+assert_string_field
 (
 codec
 '
@@ -1008,7 +1011,7 @@ mimeType
 '
 )
 ;
-assert_optional_unsigned_int_field
+assert_unsigned_int_field
 (
 codec
 '
