@@ -3234,9 +3234,12 @@ duration
 .
 days
 +
+double
+(
 balancedTime
 .
 days
+)
 }
 ;
 /

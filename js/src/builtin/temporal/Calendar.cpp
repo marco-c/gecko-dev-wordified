@@ -18137,9 +18137,12 @@ duration
 .
 days
 +
+double
+(
 balanceResult
 .
 days
+)
 }
 ;
 return
