@@ -42271,6 +42271,12 @@ through
 anonymous
 boxes
 .
+nsIContent
+*
+content
+=
+nullptr
+;
 nsIFrame
 *
 targetFrame
@@ -42280,8 +42286,11 @@ GetFirstNonAnonBoxInSubtree
 frame
 )
 ;
-nsIContent
-*
+if
+(
+targetFrame
+)
+{
 content
 =
 targetFrame
@@ -42291,6 +42300,7 @@ GetContent
 (
 )
 ;
+}
 /
 /
 Skip
