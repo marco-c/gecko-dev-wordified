@@ -232,6 +232,7 @@ matches_compound_selector_from
 matches_selector
 CompoundSelectorMatchingResult
 ElementSelectorFlags
+IncludeStartingStyle
 MatchingContext
 MatchingForInvalidation
 MatchingMode
@@ -5036,6 +5037,10 @@ VisitedHandlingMode
 :
 :
 AllLinksVisitedAndUnvisited
+IncludeStartingStyle
+:
+:
+No
 self
 .
 quirks_mode
@@ -6287,6 +6292,10 @@ VisitedHandlingMode
 :
 :
 AllLinksVisitedAndUnvisited
+IncludeStartingStyle
+:
+:
+No
 quirks_mode
 NeedsSelectorFlags
 :
