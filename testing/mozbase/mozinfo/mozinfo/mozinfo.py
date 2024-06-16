@@ -478,6 +478,53 @@ major
 =
 11
     
+#
+2009
+=
+=
+22H2
+software
+update
+.
+These
+are
+the
+build
+numbers
+    
+#
+we
+use
+2009
+as
+the
+"
+build
+"
+which
+maps
+to
+what
+taskcluster
+tasks
+see
+    
+if
+build_number
+=
+=
+22621
+or
+build_number
+=
+=
+19045
+:
+        
+build_number
+=
+2009
+    
 os_version
 =
 "
@@ -490,7 +537,7 @@ d
 %
 (
 major
-minor
+build_number
 )
 elif
 system
@@ -875,6 +922,14 @@ versionNums
 [
 1
 ]
+.
+ljust
+(
+2
+"
+0
+"
+)
 )
     
 info
@@ -2117,7 +2172,7 @@ MozconfigFindException
 pass
     
 for
-d
+dir
 in
 dirs
 :
@@ -2130,7 +2185,7 @@ path
 .
 abspath
 (
-d
+dir
 )
         
 json_path
