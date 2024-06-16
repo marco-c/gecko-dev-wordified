@@ -588,9 +588,11 @@ called
 multiple
 times
 the
-most
-strict
-value
+information
+set
+earliest
+/
+/
 wins
 .
 static
@@ -603,10 +605,6 @@ aEntry
 nsIRequest
 *
 aRequest
-bool
-aForceTouch
-=
-false
 )
 ;
 bool
