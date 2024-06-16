@@ -821,7 +821,7 @@ rust
 !
 #
 use
-std
+core
 :
 :
 i32
@@ -1452,7 +1452,7 @@ rust
 !
 #
 use
-std
+core
 :
 :
 fmt
@@ -2305,7 +2305,7 @@ thiserror
 .
 0
 .
-59
+61
 "
 )
 ]

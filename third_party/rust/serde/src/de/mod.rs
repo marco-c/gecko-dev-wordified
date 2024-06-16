@@ -14202,7 +14202,7 @@ alloc
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14749,7 +14749,7 @@ alloc
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

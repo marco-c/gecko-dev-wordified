@@ -115,13 +115,6 @@ macos
 ]
 #
 [
-cfg_attr
-(
-feature
-=
-"
-link
-"
 link
 (
 name
@@ -134,7 +127,6 @@ kind
 "
 framework
 "
-)
 )
 ]
 extern
@@ -1857,6 +1849,13 @@ Duration
 /
 /
 TODO
+_fence
+:
+&
+super
+:
+:
+Fence
 )
 -
 >

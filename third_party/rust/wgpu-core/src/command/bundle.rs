@@ -5715,7 +5715,7 @@ duplicating
 the
 logic
 of
-command_encoder_run_render_pass
+render_pass_end
 .
 /
 /
