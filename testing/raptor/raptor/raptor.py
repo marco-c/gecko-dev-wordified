@@ -840,6 +840,12 @@ screenshot_on_failure
 args
 .
 screenshot_on_failure
+            
+power_test
+=
+args
+.
+power_test
         
 )
     
