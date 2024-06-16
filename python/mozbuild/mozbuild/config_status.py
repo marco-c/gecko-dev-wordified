@@ -1457,6 +1457,22 @@ selected_backends
 else
 :
         
+if
+len
+(
+selected_backends
+)
+>
+1
+:
+            
+definitions
+=
+list
+(
+definitions
+)
+        
 for
 backend
 in
