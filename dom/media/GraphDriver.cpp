@@ -3221,14 +3221,6 @@ count
 "
 )
 ;
-MOZ_ASSERT
-(
-mOutputChannelCount
-<
-=
-8
-)
-;
 if
 (
 aAudioInputType
