@@ -3473,6 +3473,7 @@ mClassOfService
 Flags
 (
 )
+mPriority
 )
 ;
 bool
