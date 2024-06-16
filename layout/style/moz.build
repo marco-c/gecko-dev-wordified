@@ -830,6 +830,11 @@ CSSLayerStatementRule
 h
 "
 "
+CSSMarginRule
+.
+h
+"
+"
 CSSMediaRule
 .
 h
@@ -1075,6 +1080,11 @@ cpp
 "
 "
 CSSLayerStatementRule
+.
+cpp
+"
+"
+CSSMarginRule
 .
 cpp
 "
