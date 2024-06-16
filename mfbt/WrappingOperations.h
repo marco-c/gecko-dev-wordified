@@ -250,11 +250,13 @@ see
 *
 build
 /
-autoconf
-/
-sanitize
+moz
 .
-m4
+configure
+/
+toolchain
+.
+configure
 )
 that
 in
