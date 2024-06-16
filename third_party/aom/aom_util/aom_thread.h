@@ -164,10 +164,6 @@ C
 {
 #
 endif
-#
-define
-MAX_NUM_THREADS
-64
 /
 /
 State

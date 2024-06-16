@@ -125,6 +125,15 @@ AOM_AV1_ENCODER_ENC_ENUMS_H_
 define
 AOM_AV1_ENCODER_ENC_ENUMS_H_
 #
+include
+"
+aom_ports
+/
+mem
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
@@ -134,6 +143,10 @@ C
 {
 #
 endif
+#
+define
+MAX_NUM_THREADS
+64
 /
 /
 This

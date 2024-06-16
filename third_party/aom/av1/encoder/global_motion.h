@@ -147,15 +147,6 @@ h
 #
 include
 "
-aom_scale
-/
-yv12config
-.
-h
-"
-#
-include
-"
 aom_util
 /
 aom_pthread
@@ -165,9 +156,11 @@ h
 #
 include
 "
-aom_util
+av1
 /
-aom_thread
+encoder
+/
+enc_enums
 .
 h
 "
@@ -437,7 +430,7 @@ MAX_DIRECTIONS
 ]
 ;
 }
-JobInfo
+GlobalMotionJobInfo
 ;
 typedef
 struct
@@ -456,7 +449,7 @@ multi
 -
 threading
 .
-JobInfo
+GlobalMotionJobInfo
 job_info
 ;
 #
