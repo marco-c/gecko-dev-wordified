@@ -72,10 +72,15 @@ mozpath
 from
 mozbuild
 .
+lock
+import
+lock_file
+from
+mozbuild
+.
 util
 import
 ensureParentDir
-lock_file
 contextmanager
 def
 gradle_lock
