@@ -1387,9 +1387,6 @@ sSupportedCodecs
 )
 ;
 }
-DecodeSupportSet
-support
-;
 /
 /
 Process
@@ -1516,6 +1513,11 @@ s
 2
 )
 ;
+DecodeSupport
+support
+{
+}
+;
 if
 (
 caps
@@ -1536,7 +1538,6 @@ mimeType
 )
 ;
 support
-+
 =
 DecodeSupport
 :
@@ -1565,7 +1566,6 @@ mimeType
 )
 ;
 support
-+
 =
 DecodeSupport
 :

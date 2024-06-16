@@ -1266,7 +1266,7 @@ MediaCodec
 &
 aCodec
 const
-DecodeSupportSet
+DecodeSupport
 &
 aSupport
 )
