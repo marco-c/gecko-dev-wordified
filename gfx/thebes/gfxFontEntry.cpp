@@ -564,6 +564,13 @@ LazyFlag
 :
 Uninitialized
 )
+mNeedsMaskForShadow
+(
+LazyFlag
+:
+:
+Uninitialized
+)
 mHasSpaceFeatures
 (
 SpaceFeatures
@@ -2341,6 +2348,9 @@ if
 GetSVGGlyphs
 (
 )
+&
+&
+aFont
 )
 {
 AutoWriteLock
