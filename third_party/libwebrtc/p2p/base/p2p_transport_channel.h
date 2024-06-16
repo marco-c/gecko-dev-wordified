@@ -679,13 +679,6 @@ webrtc
 namespace
 cricket
 {
-static
-const
-int
-MIN_PINGS_AT_WEAK_PING_INTERVAL
-=
-3
-;
 bool
 IceCredentialsChanged
 (

@@ -135,17 +135,6 @@ ice_controller_interface
 .
 h
 "
-#
-include
-"
-p2p
-/
-base
-/
-p2p_transport_channel
-.
-h
-"
 namespace
 cricket
 {
