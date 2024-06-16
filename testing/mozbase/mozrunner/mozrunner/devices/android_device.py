@@ -76,12 +76,6 @@ telnetlib
 import
 time
 from
-distutils
-.
-spawn
-import
-find_executable
-from
 enum
 import
 Enum
@@ -7094,7 +7088,9 @@ PATH
         
 exe_path
 =
-find_executable
+shutil
+.
+which
 (
 exe
 )

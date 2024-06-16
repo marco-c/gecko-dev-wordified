@@ -21,13 +21,9 @@ moznetwork
 import
 re
 import
-subprocess
-from
-distutils
-.
-spawn
+shutil
 import
-find_executable
+subprocess
 from
 unittest
 import
@@ -285,7 +281,9 @@ commands
 :
         
 if
-find_executable
+shutil
+.
+which
 (
 command
 [
