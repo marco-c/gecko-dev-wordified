@@ -3273,9 +3273,7 @@ uint32_t
 fontSet
 -
 >
-GetGeneration
-(
-)
+mGeneration
 )
 )
 )
@@ -5745,9 +5743,7 @@ uint32_t
 fontSet
 -
 >
-GetGeneration
-(
-)
+mGeneration
 )
 fontCompressionRatio
 )

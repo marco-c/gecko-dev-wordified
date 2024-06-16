@@ -2103,15 +2103,6 @@ GetGeneration
 (
 )
 {
-mozilla
-:
-:
-RecursiveMutexAutoLock
-lock
-(
-mMutex
-)
-;
 return
 mGeneration
 ;
