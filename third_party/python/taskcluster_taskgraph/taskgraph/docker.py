@@ -98,8 +98,12 @@ util
 .
 taskcluster
 import
+(
+    
 get_artifact_url
+    
 get_session
+)
 DEPLOY_WARNING
 =
 "
@@ -489,23 +493,8 @@ image_name
 "
 ]
     
-deadline
+indexes
 =
-None
-    
-task_id
-=
-IndexSearch
-(
-)
-.
-should_replace_task
-(
-        
-task
-{
-}
-deadline
 task
 .
 optimization
@@ -521,6 +510,19 @@ search
 ]
 )
     
+task_id
+=
+IndexSearch
+(
+)
+.
+should_replace_task
+(
+task
+{
+}
+None
+indexes
 )
     
 if
