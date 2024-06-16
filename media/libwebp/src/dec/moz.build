@@ -174,7 +174,7 @@ mozbuild
 FINAL_LIBRARY
 =
 '
-gkmedias
+xul
 '
 #
 We
