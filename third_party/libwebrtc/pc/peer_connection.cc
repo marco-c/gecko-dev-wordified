@@ -4984,17 +4984,6 @@ s
 }
 }
 ;
-config
-.
-field_trials
-=
-&
-env_
-.
-field_trials
-(
-)
-;
 transport_controller_
 .
 reset
@@ -5002,6 +4991,7 @@ reset
 new
 JsepTransportController
 (
+env_
 network_thread
 (
 )

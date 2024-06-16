@@ -214,6 +214,10 @@ public
 :
 ScenarioIceConnectionImpl
 (
+const
+Environment
+&
+env
 test
 :
 :
@@ -524,6 +528,10 @@ ScenarioIceConnection
 :
 Create
 (
+const
+Environment
+&
+env
 webrtc
 :
 :
@@ -547,6 +555,7 @@ make_unique
 ScenarioIceConnectionImpl
 >
 (
+env
 net
 observer
 )
@@ -557,6 +566,10 @@ ScenarioIceConnectionImpl
 :
 ScenarioIceConnectionImpl
 (
+const
+Environment
+&
+env
 test
 :
 :
@@ -736,6 +749,7 @@ jsep_controller_
 new
 JsepTransportController
 (
+env
 network_thread_
 port_allocator_
 .
@@ -945,13 +959,6 @@ packet
 )
 ;
 }
-;
-config
-.
-field_trials
-=
-&
-field_trials
 ;
 return
 config
