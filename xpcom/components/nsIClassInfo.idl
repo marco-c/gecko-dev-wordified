@@ -243,6 +243,9 @@ needed
 .
 *
 /
+[
+noscript
+]
 nsIXPCScriptable
 getScriptableHelper
 (

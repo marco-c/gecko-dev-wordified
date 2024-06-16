@@ -152,8 +152,6 @@ thread
 *
 /
 [
-builtinclass
-scriptable
 rust_sync
 uuid
 (
