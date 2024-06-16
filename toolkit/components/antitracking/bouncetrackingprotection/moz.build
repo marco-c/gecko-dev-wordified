@@ -145,11 +145,6 @@ mozilla
 =
 [
 "
-BounceTrackingAllowList
-.
-h
-"
-"
 BounceTrackingMapEntry
 .
 h
@@ -181,11 +176,6 @@ h
 "
 "
 BounceTrackingStorageObserver
-.
-h
-"
-"
-ClearDataCallback
 .
 h
 "
@@ -195,11 +185,6 @@ UNIFIED_SOURCES
 =
 [
 "
-BounceTrackingAllowList
-.
-cpp
-"
-"
 BounceTrackingMapEntry
 .
 cpp
@@ -231,11 +216,6 @@ cpp
 "
 "
 BounceTrackingStorageObserver
-.
-cpp
-"
-"
-ClearDataCallback
 .
 cpp
 "
