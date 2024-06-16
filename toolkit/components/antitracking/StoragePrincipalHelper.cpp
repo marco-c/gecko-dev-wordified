@@ -2646,7 +2646,11 @@ aAttributes
 bool
 isPrivate
 =
-false
+aAttributes
+.
+mPrivateBrowsingId
+>
+0
 ;
 nsCOMPtr
 <
@@ -2705,11 +2709,13 @@ aChannel
 loadContext
 )
 ;
+if
+(
+loadContext
+)
+{
 isPrivate
 =
-loadContext
-&
-&
 loadContext
 -
 >
@@ -2717,6 +2723,7 @@ UsePrivateBrowsing
 (
 )
 ;
+}
 }
 aAttributes
 .
