@@ -24697,9 +24697,6 @@ name
 "
 WakeLock
 "
-earlyBetaOrEarlier
-:
-true
 }
 /
 /
@@ -24723,9 +24720,6 @@ name
 "
 WakeLockSentinel
 "
-earlyBetaOrEarlier
-:
-true
 }
 /
 /
