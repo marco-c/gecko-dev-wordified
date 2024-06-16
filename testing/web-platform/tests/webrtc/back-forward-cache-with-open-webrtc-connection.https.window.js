@@ -122,6 +122,13 @@ helpers
 sub
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 '
 use
 strict
