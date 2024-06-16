@@ -1223,6 +1223,13 @@ aTypes
 )
 const
 ;
+Accessible
+*
+GetLabeledBy
+(
+)
+const
+;
 }
 ;
 SAFEARRAY
