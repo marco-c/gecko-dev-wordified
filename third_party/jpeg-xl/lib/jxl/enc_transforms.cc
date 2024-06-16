@@ -125,10 +125,7 @@ void
 TransformFromPixels
 (
 const
-AcStrategy
-:
-:
-Type
+AcStrategyType
 strategy
 const
 float
@@ -167,10 +164,7 @@ DCFromLowestFrequencies
 void
 DCFromLowestFrequencies
 (
-AcStrategy
-:
-:
-Type
+AcStrategyType
 strategy
 const
 float

@@ -1212,6 +1212,7 @@ visitor
 )
 override
 {
+return
 JXL_UNREACHABLE
 (
 "
@@ -1454,6 +1455,7 @@ jpeg_data
 /
 )
 {
+return
 JXL_UNREACHABLE
 (
 "

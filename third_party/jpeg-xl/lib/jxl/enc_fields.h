@@ -50,6 +50,11 @@ define
 LIB_JXL_ENC_FIELDS_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 lib
 /
@@ -122,6 +127,12 @@ jxl
 struct
 AuxOut
 ;
+enum
+class
+LayerType
+:
+uint8_t
+;
 /
 /
 Write
@@ -185,7 +196,7 @@ BitWriter
 *
 JXL_RESTRICT
 writer
-size_t
+LayerType
 layer
 AuxOut
 *
@@ -203,7 +214,7 @@ BitWriter
 *
 JXL_RESTRICT
 writer
-size_t
+LayerType
 layer
 AuxOut
 *

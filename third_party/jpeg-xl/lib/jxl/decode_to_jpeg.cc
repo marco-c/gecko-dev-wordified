@@ -176,7 +176,7 @@ if
 inside_box_
 )
 {
-JXL_UNREACHABLE
+JXL_WARNING
 (
 "
 processing
@@ -192,6 +192,9 @@ reconstruction
 box
 "
 )
+;
+return
+JXL_DEC_ERROR
 ;
 }
 Span
@@ -386,7 +389,7 @@ size
 box_size_
 )
 {
-JXL_UNREACHABLE
+JXL_WARNING
 (
 "
 JPEG
@@ -399,6 +402,9 @@ than
 expected
 "
 )
+;
+return
+JXL_DEC_ERROR
 ;
 }
 if

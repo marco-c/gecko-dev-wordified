@@ -1108,16 +1108,7 @@ if
 blend_mode
 >
 =
-static_cast
-<
-uint32_t
->
-(
-PatchBlendMode
-:
-:
-kNumBlendModes
-)
+kNumPatchBlendModes
 )
 {
 return
