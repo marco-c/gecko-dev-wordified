@@ -116,10 +116,7 @@ join
 (
 __dirname
 "
-.
-.
-/
-fixtures
+baselines
 /
 xpctest
 .
