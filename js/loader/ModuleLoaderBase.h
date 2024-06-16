@@ -3287,6 +3287,14 @@ ModuleLoadRequest
 aRequest
 )
 ;
+bool
+IsFetchingAndHasWaitingRequest
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 /
 /
 The
