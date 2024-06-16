@@ -1149,7 +1149,7 @@ util
 .
 get_task_definition
 .
-clear
+cache_clear
 (
 )
     
