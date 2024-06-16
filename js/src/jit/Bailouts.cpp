@@ -414,6 +414,13 @@ pop
 )
 #
 endif
+#
+if
+!
+defined
+(
+JS_CODEGEN_NONE
+)
 /
 /
 Make
@@ -457,6 +464,8 @@ aligned
 "
 )
 ;
+#
+endif
 BailoutFrameInfo
 :
 :
