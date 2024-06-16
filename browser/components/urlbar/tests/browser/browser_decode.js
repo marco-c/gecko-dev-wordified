@@ -584,12 +584,7 @@ equal
 gURLBar
 .
 value
-UrlbarTestUtils
-.
-trimURL
-(
 urlNoScheme
-)
 "
 The
 string
