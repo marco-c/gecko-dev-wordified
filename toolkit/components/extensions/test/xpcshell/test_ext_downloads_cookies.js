@@ -315,6 +315,7 @@ Type
 "
 dummy
 /
+x
 {
 encodeURIComponent
 (
@@ -680,6 +681,7 @@ replace
 "
 dummy
 /
+x
 "
 "
 "
