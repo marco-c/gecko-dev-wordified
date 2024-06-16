@@ -17,14 +17,7 @@ shell
 Android
 |
 |
-xulRuntime
-.
-OS
-=
-=
-"
-WINNT
-"
+winWidget
 )
 )
 silentfail
