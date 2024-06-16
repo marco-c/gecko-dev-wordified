@@ -48,7 +48,7 @@ use
 in
 scrollsnapchange
 &
-snapchanging
+scrollsnapchanging
 tests
 for
 triggering
@@ -602,7 +602,7 @@ scrollsnapchange
 }
 async
 function
-test_no_snapchanging
+test_no_scrollsnapchanging
 (
 t
 scroller
@@ -616,7 +616,7 @@ t
 scroller
 delta
 "
-snapchanging
+scrollsnapchanging
 "
 )
 ;
