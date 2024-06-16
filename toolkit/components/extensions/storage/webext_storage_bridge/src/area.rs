@@ -103,7 +103,6 @@ moz_task
 :
 :
 {
-self
 DispatchOptions
 TaskRunnable
 }
