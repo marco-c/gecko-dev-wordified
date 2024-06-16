@@ -3492,7 +3492,7 @@ AUTO_PROFILER_LABEL_DYNAMIC_LOSSY_NSSTRING
 nsFrameMessageManager
 :
 :
-SendMessage
+SendSyncMessage
 "
 OTHER
 aMessageName
