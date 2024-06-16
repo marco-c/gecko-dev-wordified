@@ -188,6 +188,12 @@ self
 Write
 }
 ;
+use
+super
+:
+:
+CssRuleType
+;
 /
 /
 /
@@ -982,6 +988,12 @@ usize
 nested
 :
 CssRuleTypes
+parse_relative_rule_type
+:
+Option
+<
+CssRuleType
+>
 loader
 :
 Option
@@ -1034,6 +1046,12 @@ usize
 containing_rule_types
 :
 CssRuleTypes
+parse_relative_rule_type
+:
+Option
+<
+CssRuleType
+>
 loader
 :
 Option
@@ -1117,6 +1135,7 @@ rules
 0
 index
 containing_rule_types
+parse_relative_rule_type
 }
 ;
 /

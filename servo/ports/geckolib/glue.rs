@@ -13253,6 +13253,13 @@ u32
 containing_rule_types
 :
 u32
+parse_relative_rule_type
+:
+Option
+<
+&
+CssRuleType
+>
 loader
 :
 *
@@ -13377,6 +13384,11 @@ CssRuleTypes
 from_bits
 (
 containing_rule_types
+)
+parse_relative_rule_type
+.
+cloned
+(
 )
 loader
 allow_import_rules
