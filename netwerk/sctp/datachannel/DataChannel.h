@@ -1805,6 +1805,10 @@ size_t
 *
 aWritten
 )
+MOZ_REQUIRES
+(
+mLock
+)
 ;
 int
 SendMsgInternal
@@ -1815,6 +1819,10 @@ msg
 size_t
 *
 aWritten
+)
+MOZ_REQUIRES
+(
+mLock
 )
 ;
 int
@@ -3207,6 +3215,13 @@ DataChannelOnMessageAvailable
 *
 aMessage
 )
+MOZ_REQUIRES
+(
+mConnection
+-
+>
+mLock
+)
 ;
 TrafficCounters
 GetTrafficCounters
@@ -3457,9 +3472,6 @@ BufferedOutgoingMsg
 >
 >
 mBufferedData
-;
-/
-/
 MOZ_GUARDED_BY
 (
 mConnection
@@ -3467,6 +3479,7 @@ mConnection
 >
 mLock
 )
+;
 nsCOMPtr
 <
 nsISerialEventTarget
