@@ -230,9 +230,6 @@ CGRect
 ;
 use
 core_text
-;
-use
-core_text
 :
 :
 font
