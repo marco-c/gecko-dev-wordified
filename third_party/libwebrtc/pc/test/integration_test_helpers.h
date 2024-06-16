@@ -1245,6 +1245,13 @@ kDefaultTimeout
 static
 const
 int
+kLongTimeout
+=
+60000
+;
+static
+const
+int
 kMaxWaitForStatsMs
 =
 3000
