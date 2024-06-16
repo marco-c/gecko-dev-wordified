@@ -57,6 +57,8 @@ import
 sys
 import
 tempfile
+import
+time
 from
 pathlib
 import
@@ -1215,6 +1217,23 @@ App
 "
         
 )
+        
+time
+.
+sleep
+(
+4
+)
+#
+ensure
+skip
+onboarding
+call
+has
+time
+to
+propagate
+.
     
 def
 setup
