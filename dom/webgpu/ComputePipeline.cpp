@@ -216,6 +216,7 @@ Cleanup
 {
 if
 (
+!
 mValid
 )
 {
