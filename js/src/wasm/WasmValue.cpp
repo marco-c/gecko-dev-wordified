@@ -4818,6 +4818,16 @@ prototype
 )
 )
 ;
+if
+(
+!
+srcGlobal
+)
+{
+return
+false
+;
+}
 dst
 .
 set
