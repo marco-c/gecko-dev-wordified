@@ -18864,8 +18864,10 @@ Hidden
 )
 ;
 }
-static
 void
+ScrollContainerFrame
+:
+:
 RemoveDisplayPortCallback
 (
 nsITimer
@@ -42837,6 +42839,9 @@ aIncrement
 }
 class
 MOZ_RAII
+ScrollContainerFrame
+:
+:
 AutoMinimumScaleSizeChangeDetector
 final
 {
