@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Result
 .
 h
@@ -333,7 +342,10 @@ GatherTotalMemory
 nsresult
 FinishGatheringTotalMemory
 (
+Maybe
+<
 int64_t
+>
 aTotalMemory
 const
 nsTArray
