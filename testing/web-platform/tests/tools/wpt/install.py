@@ -65,7 +65,7 @@ nightly
 '
     
 '
-edgechromium
+edge
 '
 :
 '

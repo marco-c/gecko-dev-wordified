@@ -165,7 +165,7 @@ abstract
 %
 name
 def
-test_edgechromium_webdriver_supports_browser
+test_edge_webdriver_supports_browser
 (
 )
 :
@@ -182,7 +182,7 @@ edge
 =
 browser
 .
-EdgeChromium
+Edge
 (
 logger
 )
@@ -239,7 +239,7 @@ edge
 =
 browser
 .
-EdgeChromium
+Edge
 (
 logger
 )
@@ -312,7 +312,7 @@ edge
 =
 browser
 .
-EdgeChromium
+Edge
 (
 logger
 )
@@ -406,7 +406,7 @@ edge
 =
 browser
 .
-EdgeChromium
+Edge
 (
 logger
 )
@@ -494,7 +494,7 @@ edge
 =
 browser
 .
-EdgeChromium
+Edge
 (
 logger
 )
@@ -680,7 +680,7 @@ call
 '
 )
 def
-test_edgechromium_webdriver_version
+test_edge_webdriver_version
 (
 mocked_call
 )
@@ -690,7 +690,7 @@ edge
 =
 browser
 .
-EdgeChromium
+Edge
 (
 logger
 )

@@ -14065,7 +14065,7 @@ group
 0
 )
 class
-EdgeChromium
+Edge
 (
 Browser
 )
@@ -14087,7 +14087,7 @@ class
 product
 =
 "
-edgechromium
+edge
 "
     
 requirements
