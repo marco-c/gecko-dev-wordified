@@ -110,6 +110,7 @@ literal
 trailing
 spaces
 are
+not
 stripped
 const
 name_go
