@@ -86,6 +86,14 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 dependencies
 import
 get_dependencies
@@ -160,14 +168,6 @@ sorted_unique_list
     
 task_name
 )
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 def
 _by_platform
 (
@@ -1835,7 +1835,7 @@ jobs
         
 job
 =
-copy_task
+deepcopy
 (
 job
 )
@@ -2267,7 +2267,7 @@ chunks
                 
 chunked
 =
-copy_task
+deepcopy
 (
 job
 )

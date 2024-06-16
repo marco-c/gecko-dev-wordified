@@ -87,6 +87,14 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 schema
 import
 Schema
@@ -110,14 +118,6 @@ transforms
 task
 import
 task_description_schema
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 diff_description_schema
 =
 Schema
@@ -657,7 +657,7 @@ worker
 type
 "
 :
-copy_task
+deepcopy
 (
 task
 [
@@ -673,7 +673,7 @@ type
 worker
 "
 :
-copy_task
+deepcopy
 (
 task
 [
@@ -687,7 +687,7 @@ worker
 index
 "
 :
-copy_task
+deepcopy
 (
 index
 )
@@ -746,7 +746,7 @@ tooltool
 downloads
 "
 :
-copy_task
+deepcopy
 (
 task
 [
@@ -789,7 +789,7 @@ on
 projects
 "
 :
-copy_task
+deepcopy
 (
 task
 [
@@ -807,7 +807,7 @@ projects
 scopes
 "
 :
-copy_task
+deepcopy
 (
 task
 [
@@ -821,7 +821,7 @@ scopes
 dependencies
 "
 :
-copy_task
+deepcopy
 (
 task
 [
@@ -835,7 +835,7 @@ dependencies
 fetches
 "
 :
-copy_task
+deepcopy
 (
 task
 [

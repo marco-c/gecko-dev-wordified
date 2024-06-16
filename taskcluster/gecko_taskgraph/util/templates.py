@@ -54,13 +54,13 @@ MPL
 /
 .
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
-copy_task
+copy
 import
-copy_task
+deepcopy
 def
 merge_to
 (
@@ -369,7 +369,7 @@ objects
 :
         
 return
-copy_task
+deepcopy
 (
 objects
 [

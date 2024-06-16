@@ -66,18 +66,18 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 treeherder
 import
 join_symbol
 split_symbol
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 transforms
 =
 TransformSequence
@@ -264,7 +264,7 @@ env
             
 cftask
 =
-copy_task
+deepcopy
 (
 task
 )

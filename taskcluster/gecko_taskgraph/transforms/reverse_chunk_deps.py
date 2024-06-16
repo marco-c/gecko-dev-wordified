@@ -78,6 +78,14 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 treeherder
 import
 add_suffix
@@ -91,14 +99,6 @@ gecko_taskgraph
 transforms
 import
 release_deps
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 transforms
 =
 TransformSequence
@@ -115,7 +115,7 @@ count
     
 job
 =
-copy_task
+deepcopy
 (
 orig_job
 )

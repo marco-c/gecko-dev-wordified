@@ -140,6 +140,14 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 python_path
 import
 import_sibling_modules
@@ -185,14 +193,6 @@ transforms
 task
 import
 task_description_schema
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 from
 gecko_taskgraph
 .
@@ -1918,7 +1918,7 @@ worker
         
 taskdesc
 =
-copy_task
+deepcopy
 (
 job
 )

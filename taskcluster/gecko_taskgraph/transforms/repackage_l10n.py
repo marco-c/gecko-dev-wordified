@@ -82,17 +82,17 @@ taskgraph
 .
 util
 .
-dependencies
+copy
 import
-get_primary_dependency
+deepcopy
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
-copy_task
+dependencies
 import
-copy_task
+get_primary_dependency
 transforms
 =
 TransformSequence
@@ -145,7 +145,7 @@ chunk_locales
             
 locale_job
 =
-copy_task
+deepcopy
 (
 job
 )

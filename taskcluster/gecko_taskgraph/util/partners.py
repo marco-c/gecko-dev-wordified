@@ -86,6 +86,14 @@ taskgraph
 .
 util
 .
+copy
+import
+deepcopy
+from
+taskgraph
+.
+util
+.
 schema
 import
 resolve_keyed_by
@@ -97,14 +105,6 @@ util
 attributes
 import
 release_level
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 #
 Suppress
 chatty
@@ -3250,7 +3250,7 @@ dict
             
 all_configs
 =
-copy_task
+deepcopy
 (
 kind_config
 .
@@ -3315,7 +3315,7 @@ all_locales
     
 subpartner_config
 =
-copy_task
+deepcopy
 (
 orig_config
 )
@@ -3826,7 +3826,7 @@ graph_config
     
 partner_url_config
 =
-copy_task
+deepcopy
 (
 graph_config
 [

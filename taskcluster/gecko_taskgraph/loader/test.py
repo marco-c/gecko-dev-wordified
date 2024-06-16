@@ -60,17 +60,17 @@ taskgraph
 .
 util
 .
-yaml
+copy
 import
-load_yaml
+deepcopy
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
-copy_task
+yaml
 import
-copy_task
+load_yaml
 from
 .
 transform
@@ -285,7 +285,7 @@ names
             
 test
 =
-copy_task
+deepcopy
 (
 test_descriptions
 [
