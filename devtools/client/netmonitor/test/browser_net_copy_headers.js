@@ -314,14 +314,6 @@ avif
 image
 /
 webp
-image
-/
-png
-image
-/
-svg
-+
-xml
 *
 /
 *
