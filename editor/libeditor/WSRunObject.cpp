@@ -6878,6 +6878,8 @@ const
 EditorDOMRange
 &
 aRangeToBeReplaced
+InsertTextTo
+aInsertTextTo
 const
 Element
 &
@@ -9515,6 +9517,7 @@ InsertTextWithTransaction
 document
 theString
 pointToInsert
+aInsertTextTo
 )
 ;
 if

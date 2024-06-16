@@ -5316,6 +5316,8 @@ const
 EditorDOMPoint
 &
 aPointToInsert
+InsertTextTo
+aInsertTextTo
 )
 final
 ;

@@ -26968,6 +26968,10 @@ EditorDOMPoint
 aTextNode
 aOffset
 )
+InsertTextTo
+:
+:
+ExistingTextNodeIfAvailable
 )
 ;
 NS_WARNING_ASSERTION
@@ -27494,6 +27498,8 @@ const
 EditorDOMPoint
 &
 aPointToInsert
+InsertTextTo
+aInsertTextTo
 )
 {
 if
@@ -27566,6 +27572,7 @@ InsertTextWithTransaction
 aDocument
 aStringToInsert
 aPointToInsert
+aInsertTextTo
 )
 ;
 }

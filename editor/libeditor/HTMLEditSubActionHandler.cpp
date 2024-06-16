@@ -7794,6 +7794,10 @@ InsertTextWithTransaction
 document
 aInsertionString
 compositionStartPoint
+InsertTextTo
+:
+:
+ExistingTextNodeIfAvailable
 )
 ;
 if
@@ -7959,6 +7963,10 @@ EditorDOMRange
 compositionStartPoint
 compositionEndPoint
 )
+InsertTextTo
+:
+:
+ExistingTextNodeIfAvailable
 *
 editingHost
 )
@@ -8774,6 +8782,10 @@ InsertTextWithTransaction
 document
 subStr
 currentPoint
+InsertTextTo
+:
+:
+ExistingTextNodeIfAvailable
 )
 ;
 if
@@ -9060,6 +9072,10 @@ InsertText
 this
 spacesStr
 currentPoint
+InsertTextTo
+:
+:
+ExistingTextNodeIfAvailable
 *
 editingHost
 )
@@ -9544,6 +9560,10 @@ InsertText
 this
 subStr
 currentPoint
+InsertTextTo
+:
+:
+ExistingTextNodeIfAvailable
 *
 editingHost
 )
@@ -17142,6 +17162,10 @@ n
 "
 _ns
 pointToInsert
+InsertTextTo
+:
+:
+ExistingTextNodeIfAvailable
 )
 ;
 if
