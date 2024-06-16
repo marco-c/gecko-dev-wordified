@@ -571,13 +571,13 @@ GetAudioDataListener
 const
 ;
 bool
-ConnectToNativeDevice
+ConnectedToNativeDevice
 (
 )
 const
 ;
 bool
-ConnectToNonNativeDevice
+ConnectedToNonNativeDevice
 (
 )
 const

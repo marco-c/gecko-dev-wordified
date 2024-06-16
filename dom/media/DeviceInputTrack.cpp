@@ -826,7 +826,7 @@ bool
 DeviceInputConsumerTrack
 :
 :
-ConnectToNativeDevice
+ConnectedToNativeDevice
 (
 )
 const
@@ -854,7 +854,7 @@ bool
 DeviceInputConsumerTrack
 :
 :
-ConnectToNonNativeDevice
+ConnectedToNonNativeDevice
 (
 )
 const

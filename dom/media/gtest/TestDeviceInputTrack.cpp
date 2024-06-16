@@ -954,7 +954,7 @@ EXPECT_TRUE
 track1
 -
 >
-ConnectToNativeDevice
+ConnectedToNativeDevice
 (
 )
 )
@@ -964,7 +964,7 @@ EXPECT_FALSE
 track1
 -
 >
-ConnectToNonNativeDevice
+ConnectedToNonNativeDevice
 (
 )
 )
@@ -1028,7 +1028,7 @@ EXPECT_FALSE
 track2
 -
 >
-ConnectToNativeDevice
+ConnectedToNativeDevice
 (
 )
 )
@@ -1038,7 +1038,7 @@ EXPECT_TRUE
 track2
 -
 >
-ConnectToNonNativeDevice
+ConnectedToNonNativeDevice
 (
 )
 )
