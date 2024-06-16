@@ -159,12 +159,6 @@ PacketOptions
 ;
 /
 /
-A
-16
-bits
-positive
-id
-.
 Negative
 ids
 are
@@ -181,7 +175,7 @@ not
 being
 set
 .
-int
+int64_t
 packet_id
 =
 -
