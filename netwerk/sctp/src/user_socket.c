@@ -19913,6 +19913,11 @@ USRSCTP_SYSCTL_SET_DEF
 sctp_initial_cwnd
 SCTPCTL_INITIAL_CWND
 )
+USRSCTP_SYSCTL_SET_DEF
+(
+sctp_ootb_with_zero_cksum
+SCTPCTL_OOTB_WITH_ZERO_CKSUM
+)
 #
 ifdef
 SCTP_DEBUG
@@ -20260,6 +20265,10 @@ sctp_buffer_splitting
 USRSCTP_SYSCTL_GET_DEF
 (
 sctp_initial_cwnd
+)
+USRSCTP_SYSCTL_GET_DEF
+(
+sctp_ootb_with_zero_cksum
 )
 #
 ifdef
