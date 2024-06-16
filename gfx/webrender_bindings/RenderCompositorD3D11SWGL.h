@@ -255,7 +255,7 @@ Resume
 )
 override
 ;
-DeviceResetReason
+GLenum
 IsContextLost
 (
 bool
