@@ -952,18 +952,9 @@ directory
 command
 "
 :
-"
-"
-.
-join
-(
 shell_quote
 (
-a
-)
-for
-a
-in
+*
 c
 )
                     
