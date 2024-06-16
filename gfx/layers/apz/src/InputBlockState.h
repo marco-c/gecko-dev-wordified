@@ -3034,6 +3034,8 @@ false
 void
 SetWaitingLongTapResult
 (
+bool
+aResult
 )
 {
 MOZ_ASSERT
@@ -3044,7 +3046,7 @@ mForLongTap
 ;
 mIsWaitingLongTapResult
 =
-true
+aResult
 ;
 }
 bool
