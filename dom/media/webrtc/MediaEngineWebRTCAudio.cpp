@@ -8777,10 +8777,6 @@ DeviceInputConsumerTrack
 GetInputSourceData
 (
 data
-mInputs
-[
-0
-]
 aFrom
 aTo
 )
