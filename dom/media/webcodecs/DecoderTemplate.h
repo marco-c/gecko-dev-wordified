@@ -601,6 +601,10 @@ ConfigTypeInternal
 >
 mConfig
 ;
+const
+nsCString
+mCodec
+;
 }
 ;
 class
