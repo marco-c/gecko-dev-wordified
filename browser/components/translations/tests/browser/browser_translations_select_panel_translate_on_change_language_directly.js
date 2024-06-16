@@ -322,12 +322,14 @@ en
 "
 expectedToLanguage
 :
-null
+"
+en
+"
 onOpenPanel
 :
 SelectTranslationsTestUtils
 .
-assertPanelViewNoToLangSelected
+assertPanelViewTranslated
 }
 )
 ;
