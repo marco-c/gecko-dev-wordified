@@ -249,7 +249,7 @@ timeout
         
 ignored_exceptions
 =
-FileNotFoundError
+IOError
         
 message
 =
