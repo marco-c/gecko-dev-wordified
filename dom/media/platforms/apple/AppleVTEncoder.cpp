@@ -3397,17 +3397,6 @@ AVC
 bool
 asAnnexB
 =
-mConfig
-.
-mUsage
-=
-=
-Usage
-:
-:
-Realtime
-&
-&
 !
 forceAvcc
 ;
