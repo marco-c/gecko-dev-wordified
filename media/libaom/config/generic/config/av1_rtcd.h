@@ -4894,7 +4894,7 @@ intbuf
 int
 height
 int
-filteredlength
+filtered_length
 int
 width2
 )

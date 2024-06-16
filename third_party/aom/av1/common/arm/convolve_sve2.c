@@ -428,7 +428,7 @@ assert
 (
 vgetq_lane_s16
 (
-x_filter_0_7
+y_filter_0_7
 5
 )
 !

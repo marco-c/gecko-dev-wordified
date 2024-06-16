@@ -4100,12 +4100,7 @@ g_timebase
 .
 num
 1
-cfg
--
->
-g_timebase
-.
-den
+1000000000
 )
 ;
 RANGE_CHECK_HI
