@@ -240,7 +240,7 @@ browser
 .
 tabs
 .
-cardPreview
+hoverPreview
 .
 enabled
 "
@@ -252,7 +252,7 @@ browser
 .
 tabs
 .
-cardPreview
+hoverPreview
 .
 showThumbnails
 "
@@ -738,7 +738,7 @@ resolve
 setTimeout
 (
 resolve
-100
+500
 )
 )
 ;
@@ -1492,7 +1492,7 @@ browser
 .
 tabs
 .
-cardPreview
+hoverPreview
 .
 showThumbnails
 is
@@ -1538,7 +1538,7 @@ browser
 .
 tabs
 .
-cardPreview
+hoverPreview
 .
 showThumbnails
 "

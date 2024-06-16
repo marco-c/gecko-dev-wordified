@@ -708,7 +708,7 @@ browser
 .
 tabs
 .
-cardPreview
+hoverPreview
 .
 enabled
 "
