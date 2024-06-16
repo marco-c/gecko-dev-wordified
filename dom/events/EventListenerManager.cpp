@@ -8031,6 +8031,9 @@ aDOMEvent
 )
 ;
 }
+nsAutoMicroTask
+mt
+;
 /
 /
 Event
