@@ -27172,7 +27172,7 @@ Maybe
 <
 nscoord
 >
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 const
 LengthPercentageLike
@@ -27255,7 +27255,7 @@ on
 aSize
 for
 which
-GetAbsoluteCoord
+GetAbsoluteSize
 returned
 Nothing
 (
@@ -27321,7 +27321,7 @@ on
 aSize
 for
 which
-GetAbsoluteCoord
+GetAbsoluteSize
 returned
 Nothing
 (
@@ -27370,7 +27370,7 @@ ConvertsToLength
 (
 )
 "
-GetAbsoluteCoord
+GetAbsoluteSize
 should
 have
 handled
@@ -27522,7 +27522,7 @@ aSize
 )
 {
 return
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 aSize
 )
@@ -28524,7 +28524,7 @@ aPadding
 )
 {
 return
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 aPadding
 )
@@ -29084,7 +29084,7 @@ Maybe
 <
 nscoord
 >
-GetIntrinsicCoord
+GetIntrinsicSize
 (
 nsIFrame
 :
@@ -29427,7 +29427,7 @@ Maybe
 <
 nscoord
 >
-GetIntrinsicCoord
+GetIntrinsicSize
 (
 const
 SizeOrMaxSize
@@ -29477,7 +29477,7 @@ Nothing
 ;
 }
 return
-GetIntrinsicCoord
+GetIntrinsicSize
 (
 *
 length
@@ -29679,7 +29679,7 @@ nscoord
 >
 length
 =
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 aStyleSize
 )
@@ -30333,7 +30333,7 @@ nscoord
 >
 size
 =
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 aStyleSize
 )
@@ -30347,7 +30347,7 @@ orElse
 )
 {
 return
-GetIntrinsicCoord
+GetIntrinsicSize
 (
 aStyleSize
 aRenderingContext
@@ -30499,7 +30499,7 @@ orElse
 )
 {
 return
-GetIntrinsicCoord
+GetIntrinsicSize
 (
 aStyleMaxSize
 aRenderingContext
@@ -30628,7 +30628,7 @@ orElse
 )
 {
 return
-GetIntrinsicCoord
+GetIntrinsicSize
 (
 aStyleMinSize
 aRenderingContext
@@ -30685,7 +30685,7 @@ IsFitContentFunction
 {
 minSize
 =
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 aStyleMinSize
 .
@@ -31696,7 +31696,7 @@ nscoord
 >
 fixedMaxISize
 =
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 styleMaxISize
 )
@@ -31801,7 +31801,7 @@ else
 {
 fixedMinISize
 =
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 styleMinISize
 )
@@ -32167,7 +32167,7 @@ in
 /
 this
 case
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 styleISize
 )
@@ -34739,7 +34739,7 @@ Auto
 }
 fixedMinSize
 =
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 size
 )
@@ -34851,7 +34851,7 @@ else
 {
 fixedMinSize
 =
-GetAbsoluteCoord
+GetAbsoluteSize
 (
 size
 )
