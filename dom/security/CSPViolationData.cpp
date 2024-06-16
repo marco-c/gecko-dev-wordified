@@ -147,6 +147,10 @@ Resource
 &
 &
 aResource
+uint32_t
+aLineNumber
+uint32_t
+aColumnNumber
 )
 :
 mViolatedPolicyIndex
@@ -162,6 +166,14 @@ move
 (
 aResource
 )
+}
+mLineNumber
+{
+aLineNumber
+}
+mColumnNumber
+{
+aColumnNumber
 }
 {
 }
