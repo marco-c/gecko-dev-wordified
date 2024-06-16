@@ -1175,9 +1175,6 @@ detected
 "
 :
 {
-createActor
-:
-false
 }
 }
 }
