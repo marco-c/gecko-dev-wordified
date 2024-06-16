@@ -2040,6 +2040,17 @@ CookieStruct
 aCookies
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvOnInitialStorageAccess
+(
+)
+;
 private
 :
 WindowGlobalParent
