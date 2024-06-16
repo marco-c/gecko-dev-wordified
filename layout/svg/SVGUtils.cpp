@@ -340,6 +340,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_svg
 .
 h
