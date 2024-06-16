@@ -13571,7 +13571,10 @@ mStyleDisplay
 )
 !
 =
-kPhysicalAxesBoth
+PhysicalAxes
+:
+:
+Both
 )
 {
 /
@@ -14098,7 +14101,10 @@ StyleDisplay
 )
 !
 =
-kPhysicalAxesBoth
+PhysicalAxes
+:
+:
+Both
 )
 {
 nsRect
