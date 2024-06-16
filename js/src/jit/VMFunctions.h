@@ -187,6 +187,15 @@ TypeDecls
 .
 h
 "
+#
+include
+"
+vm
+/
+TypeofEqOperand
+.
+h
+"
 class
 JSJitInfo
 ;
@@ -3937,8 +3946,8 @@ TypeOfEqObject
 JSObject
 *
 obj
-JSType
-type
+TypeofEqOperand
+operand
 )
 ;
 bool

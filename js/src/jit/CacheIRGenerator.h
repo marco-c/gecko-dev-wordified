@@ -2375,6 +2375,9 @@ val_
 JSType
 type_
 ;
+JSOp
+compareOp_
+;
 AttachDecision
 tryAttachPrimitive
 (
@@ -2425,6 +2428,8 @@ HandleValue
 value
 JSType
 type
+JSOp
+compareOp
 )
 ;
 AttachDecision
