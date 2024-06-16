@@ -719,7 +719,7 @@ h
 #
 include
 "
-SessionStoreFunctions
+nsISessionStoreFunctions
 .
 h
 "

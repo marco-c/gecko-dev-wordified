@@ -286,6 +286,13 @@ sys
 mjs
 "
 "
+SessionStoreFunctions
+.
+sys
+.
+mjs
+"
+"
 ShareDelegate
 .
 sys
