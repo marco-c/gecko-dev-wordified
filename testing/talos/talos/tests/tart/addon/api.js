@@ -415,7 +415,9 @@ win
 .
 gBrowserInit
 .
-idleTasksFinishedPromise
+idleTasksFinished
+.
+promise
 .
 then
 (

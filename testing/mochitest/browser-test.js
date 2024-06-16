@@ -2321,7 +2321,9 @@ window
 .
 gBrowserInit
 .
-idleTasksFinishedPromise
+idleTasksFinished
+.
+promise
 ;
 }
 }

@@ -6761,13 +6761,3 @@ null
 }
 }
 ;
-gBrowserInit
-.
-idleTasksFinishedPromise
-=
-gBrowserInit
-.
-idleTasksFinished
-.
-promise
-;

@@ -671,7 +671,9 @@ startupIdleTaskPromise
               
 gBrowserInit
 .
-idleTasksFinishedPromise
+idleTasksFinished
+.
+promise
             
 ]
 ;
