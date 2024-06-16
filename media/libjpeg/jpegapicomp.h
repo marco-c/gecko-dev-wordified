@@ -1,7 +1,7 @@
 /
 *
 *
-jpegcomp
+jpegapicomp
 .
 h
 *

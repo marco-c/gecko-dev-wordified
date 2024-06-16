@@ -44,6 +44,7 @@ Copyright
 C
 )
 2015
+2022
 D
 .
 R
@@ -632,7 +633,7 @@ For
 8
 -
 bit
-JSAMPLEs
+samples
 we
 choose
 IFAST_SCALE_BITS
@@ -671,7 +672,7 @@ For
 12
 -
 bit
-JSAMPLEs
+samples
 there
 '
 s
@@ -1445,7 +1446,7 @@ GLOBAL
 (
 void
 )
-jpeg_idct_ifast
+_jpeg_idct_ifast
 (
 j_decompress_ptr
 cinfo
@@ -1454,7 +1455,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -1494,10 +1495,10 @@ int
 *
 wsptr
 ;
-JSAMPROW
+_JSAMPROW
 outptr
 ;
-JSAMPLE
+_JSAMPLE
 *
 range_limit
 =
@@ -2654,7 +2655,7 @@ all
 zero
 *
 /
-JSAMPLE
+_JSAMPLE
 dcval
 =
 range_limit

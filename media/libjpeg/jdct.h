@@ -44,6 +44,7 @@ Copyright
 C
 )
 2015
+2022
 D
 .
 R
@@ -134,6 +135,13 @@ coding
 .
 *
 /
+#
+include
+"
+jsamplecomp
+.
+h
+"
 /
 *
 *
@@ -217,7 +225,7 @@ signed
 range
 +
 -
-CENTERJSAMPLE
+_CENTERJSAMPLE
 )
 .
 *
@@ -656,7 +664,7 @@ form
 0
 .
 .
-MAXJSAMPLE
+_MAXJSAMPLE
 )
 .
 The
@@ -730,6 +738,12 @@ IDCT_range_limit
 (
 cinfo
 )
+\
+(
+(
+_JSAMPLE
+*
+)
 (
 (
 cinfo
@@ -737,14 +751,15 @@ cinfo
 -
 >
 sample_range_limit
+)
 +
-CENTERJSAMPLE
+_CENTERJSAMPLE
 )
 #
 define
 RANGE_MASK
 (
-MAXJSAMPLE
+_MAXJSAMPLE
 *
 4
 +
@@ -778,7 +793,7 @@ EXTERN
 (
 void
 )
-jpeg_fdct_islow
+_jpeg_fdct_islow
 (
 DCTELEM
 *
@@ -789,7 +804,7 @@ EXTERN
 (
 void
 )
-jpeg_fdct_ifast
+_jpeg_fdct_ifast
 (
 DCTELEM
 *
@@ -811,7 +826,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_islow
+_jpeg_idct_islow
 (
 j_decompress_ptr
 cinfo
@@ -820,7 +835,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -830,7 +845,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_ifast
+_jpeg_idct_ifast
 (
 j_decompress_ptr
 cinfo
@@ -839,7 +854,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -849,7 +864,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_float
+_jpeg_idct_float
 (
 j_decompress_ptr
 cinfo
@@ -858,7 +873,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -868,7 +883,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_7x7
+_jpeg_idct_7x7
 (
 j_decompress_ptr
 cinfo
@@ -877,7 +892,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -887,7 +902,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_6x6
+_jpeg_idct_6x6
 (
 j_decompress_ptr
 cinfo
@@ -896,7 +911,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -906,7 +921,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_5x5
+_jpeg_idct_5x5
 (
 j_decompress_ptr
 cinfo
@@ -915,7 +930,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -925,7 +940,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_4x4
+_jpeg_idct_4x4
 (
 j_decompress_ptr
 cinfo
@@ -934,7 +949,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -944,7 +959,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_3x3
+_jpeg_idct_3x3
 (
 j_decompress_ptr
 cinfo
@@ -953,7 +968,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -963,7 +978,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_2x2
+_jpeg_idct_2x2
 (
 j_decompress_ptr
 cinfo
@@ -972,7 +987,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -982,7 +997,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_1x1
+_jpeg_idct_1x1
 (
 j_decompress_ptr
 cinfo
@@ -991,7 +1006,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -1001,7 +1016,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_9x9
+_jpeg_idct_9x9
 (
 j_decompress_ptr
 cinfo
@@ -1010,7 +1025,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -1020,7 +1035,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_10x10
+_jpeg_idct_10x10
 (
 j_decompress_ptr
 cinfo
@@ -1029,7 +1044,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -1039,7 +1054,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_11x11
+_jpeg_idct_11x11
 (
 j_decompress_ptr
 cinfo
@@ -1048,7 +1063,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -1058,7 +1073,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_12x12
+_jpeg_idct_12x12
 (
 j_decompress_ptr
 cinfo
@@ -1067,7 +1082,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -1077,7 +1092,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_13x13
+_jpeg_idct_13x13
 (
 j_decompress_ptr
 cinfo
@@ -1086,7 +1101,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -1096,7 +1111,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_14x14
+_jpeg_idct_14x14
 (
 j_decompress_ptr
 cinfo
@@ -1105,7 +1120,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -1115,7 +1130,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_15x15
+_jpeg_idct_15x15
 (
 j_decompress_ptr
 cinfo
@@ -1124,7 +1139,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -1134,7 +1149,7 @@ EXTERN
 (
 void
 )
-jpeg_idct_16x16
+_jpeg_idct_16x16
 (
 j_decompress_ptr
 cinfo
@@ -1143,7 +1158,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col

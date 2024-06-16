@@ -44,6 +44,7 @@ Copyright
 C
 )
 2020
+2022
 D
 .
 R
@@ -75,6 +76,13 @@ JPEG_INTERNALS
 include
 "
 jpeglib
+.
+h
+"
+#
+include
+"
+jsamplecomp
 .
 h
 "
@@ -125,11 +133,11 @@ upmethod
 (
 j_decompress_ptr
 cinfo
-JSAMPIMAGE
+_JSAMPIMAGE
 input_buf
 JDIMENSION
 in_row_group_ctr
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 )
 ;
@@ -274,7 +282,7 @@ odd
 .
 *
 /
-JSAMPROW
+_JSAMPROW
 spare_row
 ;
 boolean

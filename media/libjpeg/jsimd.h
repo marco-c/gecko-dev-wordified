@@ -96,6 +96,9 @@ inc
 *
 /
 #
+ifdef
+WITH_SIMD
+#
 include
 "
 jchuff
@@ -641,3 +644,10 @@ size_t
 bits
 )
 ;
+#
+endif
+/
+*
+WITH_SIMD
+*
+/

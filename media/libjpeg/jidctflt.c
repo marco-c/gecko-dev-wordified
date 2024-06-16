@@ -51,6 +51,7 @@ Copyright
 C
 )
 2014
+2022
 D
 .
 R
@@ -576,7 +577,7 @@ GLOBAL
 (
 void
 )
-jpeg_idct_float
+_jpeg_idct_float
 (
 j_decompress_ptr
 cinfo
@@ -585,7 +586,7 @@ jpeg_component_info
 compptr
 JCOEFPTR
 coef_block
-JSAMPARRAY
+_JSAMPARRAY
 output_buf
 JDIMENSION
 output_col
@@ -625,13 +626,17 @@ FAST_FLOAT
 *
 wsptr
 ;
-JSAMPROW
+_JSAMPROW
 outptr
 ;
-JSAMPLE
+_JSAMPLE
 *
 range_limit
 =
+(
+_JSAMPLE
+*
+)
 cinfo
 -
 >
@@ -1691,7 +1696,7 @@ wsptr
 (
 FAST_FLOAT
 )
-CENTERJSAMPLE
+_CENTERJSAMPLE
 +
 (
 FAST_FLOAT

@@ -45,6 +45,7 @@ C
 )
 2015
 2020
+2022
 D
 .
 R
@@ -1319,7 +1320,7 @@ GLOBAL
 (
 void
 )
-jpeg_fdct_islow
+_jpeg_fdct_islow
 (
 DCTELEM
 *
