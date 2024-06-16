@@ -381,10 +381,6 @@ CFLAGS
 [
 '
 -
-Wall
-'
-'
--
 Wextra
 '
 '
