@@ -612,10 +612,6 @@ const
 nsAString
 &
 aIntegrity
-const
-bool
-&
-aKeepAlive
 )
 ;
 explicit

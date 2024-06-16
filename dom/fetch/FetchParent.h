@@ -518,12 +518,6 @@ mIsThirdPartyContext
 true
 }
 ;
-bool
-mIsWorkerFetch
-{
-false
-}
-;
 Atomic
 <
 bool
