@@ -410,6 +410,11 @@ private
 :
 SctpTransportState
 state_
+=
+SctpTransportState
+:
+:
+kNew
 ;
 rtc
 :
