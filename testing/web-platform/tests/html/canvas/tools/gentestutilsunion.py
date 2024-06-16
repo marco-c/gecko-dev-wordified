@@ -2453,19 +2453,19 @@ Enum
 HTML_CANVAS
 =
 '
-htmlcanvas
+HtmlCanvas
 '
     
 OFFSCREEN_CANVAS
 =
 '
-offscreencanvas
+OffscreenCanvas
 '
     
 WORKER
 =
 '
-worker
+Worker
 '
 def
 _get_enabled_canvas_types
@@ -2488,16 +2488,10 @@ _CanvasType
     
 return
 {
-        
 _CanvasType
 (
 t
-.
-lower
-(
 )
-)
-        
 for
 t
 in
@@ -2506,11 +2500,10 @@ test
 get
 (
 '
-canvasType
+canvas_types
 '
 _CanvasType
 )
-    
 }
 dataclasses
 .
