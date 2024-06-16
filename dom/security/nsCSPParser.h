@@ -590,14 +590,6 @@ aDir
 )
 ;
 void
-handleTrustedTypesDirective
-(
-nsCSPDirective
-*
-aDir
-)
-;
-void
 sourceList
 (
 nsTArray
