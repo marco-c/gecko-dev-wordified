@@ -1003,9 +1003,6 @@ elements
 EventNameType_HTMLBodyOrFramesetOnly
 =
 0x0020
-EventNameType_HTMLMarqueeOnly
-=
-0x0040
 EventNameType_HTMLXUL
 =
 0x0003
