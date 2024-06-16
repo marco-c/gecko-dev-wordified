@@ -2189,7 +2189,7 @@ fetch
 "
 )
 ;
-RequestOrUSVString
+RequestOrUTF8String
 request
 ;
 if
@@ -9110,7 +9110,6 @@ SetRequestContextWithPrincipal
 (
 clonedPrincipal
 selfURI
-u
 "
 "
 _ns

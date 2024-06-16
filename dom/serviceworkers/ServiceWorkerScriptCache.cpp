@@ -864,7 +864,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsAString
+nsACString
 &
 aURL
 Cache
@@ -893,7 +893,7 @@ aRv
 )
 ;
 const
-nsString
+nsCString
 &
 URL
 (
@@ -1074,7 +1074,7 @@ mChannel
 nsString
 mBuffer
 ;
-nsString
+nsCString
 mURL
 ;
 ChannelInfo
@@ -1214,7 +1214,7 @@ Cache
 const
 aCache
 const
-nsAString
+nsACString
 &
 aURL
 )
@@ -1355,7 +1355,7 @@ nsIInputStreamPump
 >
 mPump
 ;
-nsString
+nsCString
 mURL
 ;
 nsString
@@ -1455,7 +1455,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsAString
+nsACString
 &
 aURL
 const
@@ -1738,7 +1738,7 @@ nsresult
 FetchScript
 (
 const
-nsAString
+nsACString
 &
 aURL
 bool
@@ -1955,7 +1955,7 @@ return
 }
 Optional
 <
-RequestOrUSVString
+RequestOrUTF8String
 >
 request
 ;
@@ -2201,7 +2201,7 @@ false
 ;
 AutoTArray
 <
-nsString
+nsCString
 8
 >
 urlList
@@ -2323,7 +2323,7 @@ return
 ;
 }
 ;
-nsString
+nsCString
 url
 ;
 request
@@ -2355,7 +2355,13 @@ urlList
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 url
+)
 )
 ;
 }
@@ -3240,12 +3246,12 @@ ir
 nullptr
 )
 ;
-RequestOrUSVString
+RequestOrUTF8String
 request
 ;
 request
 .
-SetAsUSVString
+SetAsUTF8String
 (
 )
 .
@@ -3420,7 +3426,7 @@ CompareNetwork
 >
 mCNList
 ;
-nsString
+nsCString
 mURL
 ;
 RefPtr
@@ -3511,7 +3517,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsAString
+nsACString
 &
 aURL
 Cache
@@ -3573,10 +3579,7 @@ mURLList
 .
 AppendElement
 (
-NS_ConvertUTF16toUTF8
-(
 mURL
-)
 )
 ;
 nsCOMPtr
@@ -6056,7 +6059,10 @@ Scope
 )
 )
 statusAsText
+NS_ConvertUTF8toUTF16
+(
 mURL
+)
 }
 )
 ;
@@ -6313,7 +6319,10 @@ NS_ConvertUTF8toUTF16
 (
 mimeType
 )
+NS_ConvertUTF8toUTF16
+(
 mURL
+)
 }
 )
 ;
@@ -6526,7 +6535,7 @@ Cache
 const
 aCache
 const
-nsAString
+nsACString
 &
 aURL
 )
@@ -6581,12 +6590,12 @@ Init
 (
 )
 ;
-RequestOrUSVString
+RequestOrUTF8String
 request
 ;
 request
 .
-SetAsUSVString
+SetAsUTF8String
 (
 )
 .
@@ -7454,7 +7463,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsAString
+nsACString
 &
 aURL
 const
@@ -8544,7 +8553,7 @@ nsAString
 &
 aCacheName
 const
-nsAString
+nsACString
 &
 aURL
 CompareCallback

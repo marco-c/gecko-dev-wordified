@@ -2024,7 +2024,7 @@ from
 query
 string
 .
-nsAutoString
+nsAutoCString
 url
 ;
 bool
@@ -2042,7 +2042,6 @@ queryIndex
 +
 1
 )
-u
 "
 url
 "
@@ -2147,7 +2146,10 @@ pageThumbsStorage
 >
 GetFilePathForURL
 (
+NS_ConvertUTF8toUTF16
+(
 url
+)
 aThumbnailPath
 )
 ;
@@ -2213,7 +2215,10 @@ helper
 >
 GetFilePathForURL
 (
+NS_ConvertUTF8toUTF16
+(
 url
+)
 aThumbnailPath
 )
 ;

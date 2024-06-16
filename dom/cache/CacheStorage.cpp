@@ -2215,7 +2215,7 @@ JSContext
 *
 aCx
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aRequest
 const

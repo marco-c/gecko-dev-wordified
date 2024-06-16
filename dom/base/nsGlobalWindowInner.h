@@ -649,7 +649,7 @@ struct
 RequestInit
 ;
 class
-RequestOrUSVString
+RequestOrUTF8String
 ;
 class
 SharedWorker
@@ -4502,7 +4502,7 @@ mozilla
 dom
 :
 :
-RequestOrUSVString
+RequestOrUTF8String
 &
 aInput
 const

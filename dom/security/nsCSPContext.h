@@ -962,7 +962,7 @@ uint32_t
 aColumnNumber
 )
 ;
-nsString
+nsCString
 mReferrer
 ;
 uint64_t

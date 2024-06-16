@@ -998,7 +998,7 @@ a
 /
 ServiceWorker
 .
-nsString
+nsCString
 mFullURL
 ;
 /

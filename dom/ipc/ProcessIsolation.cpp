@@ -2896,7 +2896,7 @@ principal
 from
 it
 .
-nsAutoString
+nsAutoCString
 readerSpec
 ;
 if
@@ -2907,7 +2907,6 @@ URLParams
 Extract
 (
 query
-u
 "
 url
 "

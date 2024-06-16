@@ -427,7 +427,7 @@ class
 Promise
 ;
 class
-RequestOrUSVString
+RequestOrUTF8String
 ;
 template
 <
@@ -1642,7 +1642,7 @@ Promise
 Fetch
 (
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aInput
 const

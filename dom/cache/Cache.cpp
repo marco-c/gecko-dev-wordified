@@ -377,7 +377,7 @@ bool
 IsValidPutRequestURL
 (
 const
-nsAString
+nsACString
 &
 aUrl
 ErrorResult
@@ -400,7 +400,7 @@ ProcessURL
 strips
 the
 fragmet
-NS_ConvertUTF16toUTF8
+nsAutoCString
 url
 (
 aUrl
@@ -462,10 +462,7 @@ MSG_INVALID_URL_SCHEME
 "
 Request
 "
-NS_ConvertUTF16toUTF8
-(
 aUrl
-)
 )
 ;
 return
@@ -535,7 +532,7 @@ bool
 IsValidPutRequestMethod
 (
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aRequest
 ErrorResult
@@ -637,7 +634,7 @@ Status
 206
 )
 {
-nsAutoString
+nsAutoCString
 url
 ;
 aResponse
@@ -670,10 +667,7 @@ Status
 (
 )
 )
-NS_ConvertUTF16toUTF8
-(
 url
-)
 )
 ;
 return
@@ -1693,7 +1687,7 @@ JSContext
 *
 aCx
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aRequest
 const
@@ -1841,7 +1835,7 @@ aCx
 const
 Optional
 <
-RequestOrUSVString
+RequestOrUTF8String
 >
 &
 aRequest
@@ -1996,7 +1990,7 @@ JSContext
 *
 aContext
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aRequest
 CallerType
@@ -2126,7 +2120,7 @@ return
 nullptr
 ;
 }
-nsAutoString
+nsAutoCString
 url
 ;
 request
@@ -2198,7 +2192,7 @@ aContext
 const
 Sequence
 <
-OwningRequestOrUSVString
+OwningRequestOrUTF8String
 >
 &
 aRequestList
@@ -2297,7 +2291,7 @@ Length
 i
 )
 {
-RequestOrUSVString
+RequestOrUTF8String
 requestOrString
 ;
 if
@@ -2353,7 +2347,7 @@ else
 {
 requestOrString
 .
-SetAsUSVString
+SetAsUTF8String
 (
 )
 .
@@ -2364,7 +2358,7 @@ aRequestList
 i
 ]
 .
-GetAsUSVString
+GetAsUTF8String
 (
 )
 )
@@ -2412,7 +2406,7 @@ return
 nullptr
 ;
 }
-nsAutoString
+nsAutoCString
 url
 ;
 request
@@ -2483,7 +2477,7 @@ JSContext
 *
 aCx
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aRequest
 Response
@@ -2758,7 +2752,7 @@ JSContext
 *
 aCx
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aRequest
 const
@@ -2903,7 +2897,7 @@ aCx
 const
 Optional
 <
-RequestOrUSVString
+RequestOrUTF8String
 >
 &
 aRequest
@@ -3506,7 +3500,7 @@ Length
 i
 )
 {
-RequestOrUSVString
+RequestOrUTF8String
 requestOrString
 ;
 requestOrString

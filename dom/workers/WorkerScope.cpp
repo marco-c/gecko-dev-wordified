@@ -4284,7 +4284,7 @@ WorkerGlobalScope
 Fetch
 (
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aInput
 const

@@ -165,13 +165,13 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aURL
 const
 Optional
 <
-nsAString
+nsACString
 >
 &
 aBase
@@ -192,11 +192,11 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aURL
 const
-nsAString
+nsACString
 &
 aBase
 ErrorResult
@@ -215,7 +215,7 @@ aGlobal
 Blob
 &
 aBlob
-nsAString
+nsACString
 &
 aResult
 mozilla
@@ -235,7 +235,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aUrl
 ErrorResult
@@ -252,7 +252,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aUrl
 ErrorResult

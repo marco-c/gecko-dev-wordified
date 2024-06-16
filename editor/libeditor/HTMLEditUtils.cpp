@@ -4179,7 +4179,7 @@ return
 false
 ;
 }
-nsAutoString
+nsAutoCString
 tmpText
 ;
 anchor

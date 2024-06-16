@@ -20621,7 +20621,7 @@ nsIURI
 *
 aURI
 const
-nsAString
+nsACString
 &
 aProtocol
 )
@@ -20631,7 +20631,7 @@ MOZ_ASSERT
 aURI
 )
 ;
-nsAString
+nsACString
 :
 :
 const_iterator
@@ -20644,7 +20644,7 @@ BeginReading
 start
 )
 ;
-nsAString
+nsACString
 :
 :
 const_iterator
@@ -20657,7 +20657,7 @@ EndReading
 end
 )
 ;
-nsAString
+nsACString
 :
 :
 const_iterator
@@ -20734,13 +20734,10 @@ aURI
 .
 SetScheme
 (
-NS_ConvertUTF16toUTF8
-(
 Substring
 (
 start
 iter
-)
 )
 )
 .

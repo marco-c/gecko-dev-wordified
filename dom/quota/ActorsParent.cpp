@@ -42850,11 +42850,11 @@ true
 ]
 (
 const
-nsAString
+nsACString
 &
 aName
 const
-nsAString
+nsACString
 &
 aValue
 )

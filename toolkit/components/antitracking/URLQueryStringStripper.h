@@ -288,7 +288,7 @@ void
 PopulateStripList
 (
 const
-nsAString
+nsACString
 &
 aList
 )
@@ -356,7 +356,7 @@ aStripNestedURIs
 ;
 nsTHashSet
 <
-nsString
+nsCString
 >
 mList
 ;

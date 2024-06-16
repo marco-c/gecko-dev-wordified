@@ -1575,7 +1575,7 @@ selfURISpec
 )
 ;
 }
-nsAutoString
+nsAutoCString
 referrer
 ;
 aCSP

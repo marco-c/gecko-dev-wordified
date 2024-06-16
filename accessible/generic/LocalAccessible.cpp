@@ -16725,7 +16725,7 @@ the
 /
 target
 .
-nsAutoString
+nsAutoCString
 hash
 ;
 anchor
@@ -16779,13 +16779,14 @@ or
 name
 alone
 .
-hash
-.
-Trim
+NS_ConvertUTF8toUTF16
+hash16
 (
-"
-#
-"
+Substring
+(
+hash
+1
+)
 )
 ;
 if
@@ -16807,7 +16808,7 @@ OwnerDoc
 >
 GetElementById
 (
-hash
+hash16
 )
 )
 {
@@ -16844,7 +16845,7 @@ OwnerDoc
 >
 GetElementsByName
 (
-hash
+hash16
 )
 )
 {

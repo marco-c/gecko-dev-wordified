@@ -2987,7 +2987,7 @@ referrerInfo
 return
 ;
 }
-nsAutoString
+nsAutoCString
 computedReferrerSpec
 ;
 mRequest

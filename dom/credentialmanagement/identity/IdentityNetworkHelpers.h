@@ -295,7 +295,7 @@ Fetch
 the
 provided
 request
-RequestOrUSVString
+RequestOrUTF8String
 fetchInput
 ;
 fetchInput

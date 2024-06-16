@@ -187,7 +187,7 @@ namespace
 dom
 {
 class
-OwningRequestOrUSVString
+OwningRequestOrUTF8String
 ;
 class
 Promise
@@ -196,7 +196,7 @@ struct
 CacheQueryOptions
 ;
 class
-RequestOrUSVString
+RequestOrUTF8String
 ;
 class
 Response
@@ -272,7 +272,7 @@ JSContext
 *
 aCx
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aRequest
 const
@@ -296,7 +296,7 @@ aCx
 const
 Optional
 <
-RequestOrUSVString
+RequestOrUTF8String
 >
 &
 aRequest
@@ -319,7 +319,7 @@ JSContext
 *
 aContext
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aRequest
 CallerType
@@ -341,7 +341,7 @@ aContext
 const
 Sequence
 <
-OwningRequestOrUSVString
+OwningRequestOrUTF8String
 >
 &
 aRequests
@@ -362,7 +362,7 @@ JSContext
 *
 aCx
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aRequest
 Response
@@ -383,7 +383,7 @@ JSContext
 *
 aCx
 const
-RequestOrUSVString
+RequestOrUTF8String
 &
 aRequest
 const
@@ -407,7 +407,7 @@ aCx
 const
 Optional
 <
-RequestOrUSVString
+RequestOrUTF8String
 >
 &
 aRequest
