@@ -464,8 +464,6 @@ as
 {
 link
 PDFOptions
-|
-PDFOptions
 .
 headerTemplate
 }

@@ -1035,7 +1035,7 @@ also
 be
 *
 "
-icognito
+incognito
 "
 if
 configured

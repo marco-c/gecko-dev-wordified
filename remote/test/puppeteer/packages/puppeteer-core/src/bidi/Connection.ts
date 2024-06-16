@@ -596,6 +596,10 @@ T
 params
 '
 ]
+timeout
+?
+:
+number
 )
 :
 Promise
@@ -641,6 +645,9 @@ callbacks
 create
 (
 method
+timeout
+?
+?
 this
 .
 #

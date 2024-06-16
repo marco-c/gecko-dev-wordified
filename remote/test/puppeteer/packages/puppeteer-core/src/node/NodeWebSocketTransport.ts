@@ -250,6 +250,13 @@ event
 =
 >
 {
+setImmediate
+(
+(
+)
+=
+>
+{
 if
 (
 this
@@ -273,6 +280,9 @@ data
 }
 )
 ;
+}
+)
+;
 this
 .
 #
@@ -283,6 +293,13 @@ addEventListener
 '
 close
 '
+(
+)
+=
+>
+{
+setImmediate
+(
 (
 )
 =
@@ -305,6 +322,9 @@ null
 )
 ;
 }
+}
+)
+;
 }
 )
 ;

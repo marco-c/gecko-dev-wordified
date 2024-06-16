@@ -1653,6 +1653,10 @@ timeout
 ms
 :
 number
+cause
+?
+:
+Error
 )
 :
 Observable
@@ -1695,6 +1699,9 @@ waiting
 ms
 }
 ms
+{
+cause
+}
 )
 ;
 }

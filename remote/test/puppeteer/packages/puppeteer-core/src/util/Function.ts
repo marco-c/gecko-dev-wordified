@@ -512,7 +512,7 @@ this
 ensures
 tersers
 that
-accidently
+accidentally
 inline
 PLACEHOLDER
 calls

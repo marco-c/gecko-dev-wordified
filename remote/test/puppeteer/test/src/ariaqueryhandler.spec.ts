@@ -5945,9 +5945,6 @@ node5
 node6
 '
 '
-node7
-'
-'
 node8
 '
 '
@@ -6028,9 +6025,6 @@ toEqual
 [
 '
 shown
-'
-'
-hidden
 '
 '
 node11

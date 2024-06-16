@@ -60,11 +60,16 @@ message
 ?
 :
 string
+options
+?
+:
+ErrorOptions
 )
 {
 super
 (
 message
+options
 )
 ;
 this

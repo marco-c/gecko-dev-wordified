@@ -1014,12 +1014,7 @@ rejects
 .
 toThrowError
 (
-Runtime
-.
-evaluate
-timed
-out
-.
+/
 Increase
 the
 '
@@ -1028,6 +1023,7 @@ protocolTimeout
 setting
 in
 launch
+\
 /
 connect
 calls
@@ -1038,6 +1034,8 @@ timeout
 if
 needed
 .
+/
+gi
 )
 ;
 }

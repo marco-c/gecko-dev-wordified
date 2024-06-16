@@ -797,6 +797,8 @@ core
 {
 link
 LaunchOptions
+.
+executablePath
 |
 options
 .
@@ -807,6 +809,8 @@ or
 {
 link
 LaunchOptions
+.
+channel
 |
 options
 .
@@ -826,6 +830,8 @@ use
 {
 link
 LaunchOptions
+.
+ignoreDefaultArgs
 |
 options
 .

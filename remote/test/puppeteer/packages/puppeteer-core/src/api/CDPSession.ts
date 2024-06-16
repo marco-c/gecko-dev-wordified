@@ -474,10 +474,6 @@ client
 await
 page
 .
-target
-(
-)
-.
 createCDPSession
 (
 )

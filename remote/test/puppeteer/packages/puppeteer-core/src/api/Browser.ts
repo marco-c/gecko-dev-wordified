@@ -1101,6 +1101,8 @@ Browser
 {
 link
 EventEmitter
+.
+emit
 |
 emits
 }

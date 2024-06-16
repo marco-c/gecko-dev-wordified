@@ -163,7 +163,6 @@ js
 import
 type
 {
-Credentials
 NetworkConditions
 }
 from
@@ -694,6 +693,26 @@ JSHeapTotalSize
 ?
 :
 number
+;
+}
+/
+*
+*
+*
+public
+*
+/
+export
+interface
+Credentials
+{
+username
+:
+string
+;
+password
+:
+string
 ;
 }
 /
@@ -1337,6 +1356,8 @@ region
 of
 the
 page
+/
+element
 to
 clip
 .
@@ -3589,8 +3610,6 @@ the
 {
 link
 Page
-|
-Page
 .
 mouse
 }
@@ -4950,8 +4969,6 @@ the
 *
 {
 link
-Page
-|
 Page
 .
 mouse
@@ -8200,7 +8217,6 @@ navigations
 :
 :
 :
-note
 *
 *
 example
@@ -13706,7 +13722,10 @@ via
 {
 link
 BrowserConnectOptions
+.
+defaultViewport
 |
+*
 BrowserConnectOptions
 .
 defaultViewport
@@ -15808,7 +15827,7 @@ here
 due
 to
 browser
-compatability
+compatibility
 .
 const
 extension
@@ -16726,8 +16745,6 @@ uses
 {
 link
 Page
-|
-Page
 .
 mouse
 }
@@ -17162,8 +17179,6 @@ uses
 {
 link
 Page
-|
-Page
 .
 mouse
 }
@@ -17579,8 +17594,6 @@ then
 uses
 {
 link
-Page
-|
 Page
 .
 touchscreen
