@@ -193,6 +193,13 @@ sys
 mjs
 "
 "
+ExtensionMenus
+.
+sys
+.
+mjs
+"
+"
 ExtensionPageChild
 .
 sys
