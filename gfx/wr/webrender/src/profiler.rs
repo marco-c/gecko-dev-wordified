@@ -14844,10 +14844,6 @@ frame_send
 :
 f64
 pub
-renderer
-:
-f64
-pub
 uploads
 :
 f64
@@ -15180,7 +15176,6 @@ glyph_resolve
 batching
 frame_building_other
 frame_send
-renderer
 uploads
 gpu_cache
 draw_calls
