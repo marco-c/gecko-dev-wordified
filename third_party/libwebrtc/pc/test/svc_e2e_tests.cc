@@ -3241,6 +3241,8 @@ Enabled
 SvcTestNameGenerator
 )
 ;
+#
+endif
 INSTANTIATE_TEST_SUITE_P
 (
 SvcTestAV1
@@ -3711,8 +3713,6 @@ Enabled
 SvcTestNameGenerator
 )
 ;
-#
-endif
 }
 /
 /
