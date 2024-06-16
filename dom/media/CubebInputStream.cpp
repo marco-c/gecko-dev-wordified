@@ -859,7 +859,8 @@ macOS
 /
 platform
 and
-MockCubebfor
+MockCubeb
+for
 now
 .
 InvokeCubebWithLog
