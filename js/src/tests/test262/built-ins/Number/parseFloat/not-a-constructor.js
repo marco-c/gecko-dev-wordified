@@ -191,16 +191,6 @@ parseFloat
 )
 ;
 }
-'
-new
-Number
-.
-parseFloat
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

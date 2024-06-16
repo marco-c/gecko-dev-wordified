@@ -259,8 +259,6 @@ locale
 :
 [
 en
--
-US
 ]
 includes
 :

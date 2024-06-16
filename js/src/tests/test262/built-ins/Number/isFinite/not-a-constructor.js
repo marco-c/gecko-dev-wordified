@@ -191,16 +191,6 @@ isFinite
 )
 ;
 }
-'
-new
-Number
-.
-isFinite
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

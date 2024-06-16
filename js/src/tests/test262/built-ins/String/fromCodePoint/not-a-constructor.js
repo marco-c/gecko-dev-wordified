@@ -191,16 +191,6 @@ fromCodePoint
 )
 ;
 }
-'
-new
-String
-.
-fromCodePoint
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

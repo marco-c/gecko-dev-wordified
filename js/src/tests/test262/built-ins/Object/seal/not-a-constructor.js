@@ -191,16 +191,6 @@ seal
 )
 ;
 }
-'
-new
-Object
-.
-seal
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

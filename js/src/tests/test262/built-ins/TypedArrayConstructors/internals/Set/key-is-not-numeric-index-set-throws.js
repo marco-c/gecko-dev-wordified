@@ -253,15 +253,6 @@ test262
 1
 ;
 }
-'
-sample
-.
-test262
-=
-1
-throws
-Test262Error
-'
 )
 ;
 assert

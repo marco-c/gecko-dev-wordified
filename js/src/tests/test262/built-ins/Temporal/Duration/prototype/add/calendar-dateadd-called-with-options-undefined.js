@@ -170,7 +170,7 @@ sameValue
 calendar
 .
 dateAddCallCount
-3
+2
 )
 ;
 reportCompare

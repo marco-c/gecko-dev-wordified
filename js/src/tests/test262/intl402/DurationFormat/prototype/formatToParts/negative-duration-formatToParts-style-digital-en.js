@@ -76,8 +76,6 @@ locale
 :
 [
 en
--
-US
 ]
 includes
 :

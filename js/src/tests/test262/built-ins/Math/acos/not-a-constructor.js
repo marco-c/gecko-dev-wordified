@@ -191,16 +191,6 @@ acos
 )
 ;
 }
-'
-new
-Math
-.
-acos
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

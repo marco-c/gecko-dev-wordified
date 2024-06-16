@@ -191,16 +191,6 @@ isSafeInteger
 )
 ;
 }
-'
-new
-Number
-.
-isSafeInteger
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

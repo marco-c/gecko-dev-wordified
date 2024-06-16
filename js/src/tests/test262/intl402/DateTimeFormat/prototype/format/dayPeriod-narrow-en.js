@@ -58,8 +58,6 @@ locale
 :
 [
 en
--
-US
 ]
 -
 -
