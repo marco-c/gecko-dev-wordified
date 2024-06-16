@@ -76,6 +76,15 @@ distributions
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cstddef
 >
 #
@@ -695,6 +704,9 @@ num_contexts
 size_t
 BuildAndEncodeHistograms
 (
+JxlMemoryManager
+*
+memory_manager
 const
 HistogramParams
 &

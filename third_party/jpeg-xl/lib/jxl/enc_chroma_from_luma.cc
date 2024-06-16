@@ -56,6 +56,15 @@ h
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 algorithm
 >
 #
@@ -1535,6 +1544,9 @@ x
 Status
 InitDCStorage
 (
+JxlMemoryManager
+*
+memory_manager
 size_t
 num_blocks
 ImageF
@@ -1579,6 +1591,7 @@ ImageF
 :
 Create
 (
+memory_manager
 RoundUpTo
 (
 num_blocks
@@ -3139,6 +3152,9 @@ CfLHeuristics
 :
 Init
 (
+JxlMemoryManager
+*
+memory_manager
 const
 Rect
 &
@@ -3173,6 +3189,7 @@ HWY_DYNAMIC_DISPATCH
 InitDCStorage
 )
 (
+memory_manager
 xsize_blocks
 *
 ysize_blocks

@@ -55,6 +55,15 @@ h
 "
 #
 include
+<
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
 "
 lib
 /
@@ -169,6 +178,15 @@ shared
 >
 frame_dim
 ;
+JxlMemoryManager
+*
+memory_manager
+=
+shared
+-
+>
+memory_manager
+;
 JXL_ASSIGN_OR_RETURN
 (
 shared
@@ -180,6 +198,7 @@ AcStrategyImage
 :
 Create
 (
+memory_manager
 frame_dim
 .
 xsize_blocks
@@ -200,6 +219,7 @@ ImageI
 :
 Create
 (
+memory_manager
 frame_dim
 .
 xsize_blocks
@@ -220,6 +240,7 @@ ImageB
 :
 Create
 (
+memory_manager
 frame_dim
 .
 xsize_blocks
@@ -240,6 +261,7 @@ ColorCorrelationMap
 :
 Create
 (
+memory_manager
 frame_dim
 .
 xsize
@@ -340,6 +362,7 @@ ImageB
 :
 Create
 (
+memory_manager
 frame_dim
 .
 xsize_blocks
@@ -503,6 +526,7 @@ Image3F
 :
 Create
 (
+memory_manager
 frame_dim
 .
 xsize_blocks

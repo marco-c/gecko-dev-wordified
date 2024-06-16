@@ -56,6 +56,15 @@ h
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cstddef
 >
 #
@@ -267,6 +276,9 @@ true
 Status
 PerformBlending
 (
+JxlMemoryManager
+*
+memory_manager
 const
 float
 *
@@ -374,6 +386,7 @@ ImageF
 :
 Create
 (
+memory_manager
 xsize
 3
 +

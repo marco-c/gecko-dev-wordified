@@ -80,6 +80,15 @@ channel
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cmath
 >
 #
@@ -436,6 +445,9 @@ ColorCorrelationMap
 >
 Create
 (
+JxlMemoryManager
+*
+memory_manager
 size_t
 xsize
 size_t

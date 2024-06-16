@@ -66,6 +66,11 @@ cstdint
 #
 include
 <
+cstring
+>
+#
+include
+<
 fstream
 >
 #
@@ -130,7 +135,7 @@ jxl
 /
 base
 /
-status
+sanitizers
 .
 h
 "
@@ -141,7 +146,9 @@ lib
 /
 jxl
 /
-sanitizers
+base
+/
+status
 .
 h
 "

@@ -80,6 +80,15 @@ channel
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cstddef
 >
 #
@@ -215,6 +224,9 @@ CfLHeuristics
 Status
 Init
 (
+JxlMemoryManager
+*
+memory_manager
 const
 Rect
 &

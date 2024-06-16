@@ -1182,7 +1182,8 @@ direct
 fields
 such
 as
-whitepoint
+white
+point
 primaries
 and
 color

@@ -201,7 +201,8 @@ JxlColorSpace
 Built
 -
 in
-whitepoints
+white
+points
 for
 color
 encoding
@@ -212,7 +213,8 @@ the
 numerical
 xy
 *
-whitepoint
+white
+point
 value
 can
 be
@@ -222,8 +224,8 @@ the
 ref
 JxlColorEncoding
 white_point
-field
 *
+field
 regardless
 of
 the
@@ -684,11 +686,14 @@ enum
 As
 specified
 in
-SMPTE
-RP
-431
+ITU
 -
-2
+R
+BT
+.
+709
+-
+6
 *
 /
 JXL_TRANSFER_FUNCTION_709
@@ -831,7 +836,7 @@ JxlTransferFunction
 /
 *
 *
-Renderig
+Rendering
 intent
 for
 color
@@ -944,7 +949,8 @@ must
 use
 the
 numerical
-whitepoint
+white
+point
 values
 from
 white_point_xy

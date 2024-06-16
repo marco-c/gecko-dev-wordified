@@ -60,6 +60,15 @@ h
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 array
 >
 #
@@ -1397,6 +1406,16 @@ input
 nb_meta_channels
 )
 ;
+JxlMemoryManager
+*
+memory_manager
+=
+input
+.
+memory_manager
+(
+)
+;
 uint32_t
 nb
 =
@@ -1698,6 +1717,7 @@ Channel
 :
 Create
 (
+memory_manager
 idx
 1
 )
@@ -2042,6 +2062,7 @@ Channel
 :
 Create
 (
+memory_manager
 idx
 1
 )
@@ -2231,6 +2252,9 @@ true
 }
 Image
 quantized_input
+(
+memory_manager
+)
 ;
 if
 (
@@ -2245,6 +2269,7 @@ Image
 :
 Create
 (
+memory_manager
 w
 h
 input
@@ -3317,6 +3342,7 @@ Channel
 :
 Create
 (
+memory_manager
 nb_colors
 nb
 )

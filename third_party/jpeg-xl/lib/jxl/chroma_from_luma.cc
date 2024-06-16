@@ -55,6 +55,15 @@ h
 "
 #
 include
+<
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
 "
 lib
 /
@@ -76,6 +85,9 @@ ColorCorrelationMap
 :
 Create
 (
+JxlMemoryManager
+*
+memory_manager
 size_t
 xsize
 size_t
@@ -115,6 +127,7 @@ ImageSB
 :
 Create
 (
+memory_manager
 xblocks
 yblocks
 )
@@ -130,6 +143,7 @@ ImageSB
 :
 Create
 (
+memory_manager
 xblocks
 yblocks
 )

@@ -67,6 +67,15 @@ include
 <
 jxl
 /
+memory_manager
+.
+h
+>
+#
+include
+<
+jxl
+/
 types
 .
 h
@@ -552,6 +561,17 @@ Write
 return
 ;
 }
+JxlMemoryManager
+*
+memory_manager
+=
+writer
+-
+>
+memory_manager
+(
+)
+;
 std
 :
 :
@@ -684,6 +704,7 @@ ans_cost
 =
 BuildAndEncodeHistograms
 (
+memory_manager
 params
 1
 tokens
@@ -714,6 +735,7 @@ mtf_cost
 =
 BuildAndEncodeHistograms
 (
+memory_manager
 params
 1
 mtf_tokens
@@ -959,6 +981,7 @@ sink_context_map
 ;
 BuildAndEncodeHistograms
 (
+memory_manager
 params
 1
 tokens

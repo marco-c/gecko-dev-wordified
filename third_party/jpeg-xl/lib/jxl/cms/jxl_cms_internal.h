@@ -617,7 +617,8 @@ kBradfordInv
 /
 /
 Adapts
-whitepoint
+white
+point
 x
 y
 to
@@ -3132,7 +3133,8 @@ given
 RGB
 primaries
 and
-whitepoint
+white
+point
 in
 xy
 .

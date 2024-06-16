@@ -79,14 +79,12 @@ endif
 #
 include
 <
-stdint
-.
-h
+algorithm
 >
 #
 include
 <
-algorithm
+cstdint
 >
 #
 include
@@ -123,7 +121,7 @@ jxl
 /
 base
 /
-status
+sanitizers
 .
 h
 "
@@ -134,7 +132,9 @@ lib
 /
 jxl
 /
-sanitizers
+base
+/
+status
 .
 h
 "

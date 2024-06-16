@@ -56,6 +56,15 @@ stage_blending
 h
 "
 #
+include
+<
+jxl
+/
+memory_manager
+.
+h
+>
+#
 undef
 HWY_TARGET_INCLUDE
 #
@@ -231,6 +240,7 @@ ImageBundle
 &
 bg
 =
+*
 state_
 .
 reference_frames
@@ -355,6 +365,7 @@ ImageBundle
 &
 bg
 =
+*
 state_
 .
 reference_frames
@@ -542,6 +553,7 @@ ImageBundle
 &
 bg
 =
+*
 state_
 .
 reference_frames
@@ -885,6 +897,14 @@ JXL_ASSERT
 initialized_
 )
 ;
+JxlMemoryManager
+*
+memory_manager
+=
+state_
+.
+memory_manager
+;
 const
 FrameOrigin
 &
@@ -1194,6 +1214,7 @@ ImageBundle
 &
 ec_bg
 =
+*
 state_
 .
 reference_frames
@@ -1265,6 +1286,7 @@ data
 return
 PerformBlending
 (
+memory_manager
 bg_row_ptrs_
 .
 data
@@ -1511,6 +1533,7 @@ ImageBundle
 &
 ec_bg
 =
+*
 state_
 .
 reference_frames

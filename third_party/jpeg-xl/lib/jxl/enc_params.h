@@ -290,6 +290,11 @@ max_error
 0
 }
 ;
+bool
+disable_percepeptual_optimizations
+=
+false
+;
 SpeedTier
 speed_tier
 =

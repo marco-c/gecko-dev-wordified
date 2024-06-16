@@ -79,9 +79,7 @@ h
 #
 include
 <
-string
-.
-h
+cstring
 >
 #
 include
@@ -141,6 +139,8 @@ include
 lib
 /
 jxl
+/
+base
 /
 sanitizers
 .

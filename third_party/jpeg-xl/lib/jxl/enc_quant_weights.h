@@ -51,6 +51,15 @@ LIB_JXL_ENC_QUANT_WEIGHTS_H_
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 cstddef
 >
 #
@@ -94,6 +103,9 @@ BitWriter
 Status
 DequantMatricesEncode
 (
+JxlMemoryManager
+*
+memory_manager
 const
 DequantMatrices
 &
@@ -148,6 +160,9 @@ precision
 void
 DequantMatricesSetCustomDC
 (
+JxlMemoryManager
+*
+memory_manager
 DequantMatrices
 *
 matrices
@@ -160,6 +175,9 @@ dc
 void
 DequantMatricesScaleDC
 (
+JxlMemoryManager
+*
+memory_manager
 DequantMatrices
 *
 matrices
@@ -206,6 +224,9 @@ decoder
 void
 DequantMatricesRoundtrip
 (
+JxlMemoryManager
+*
+memory_manager
 DequantMatrices
 *
 matrices

@@ -1764,6 +1764,7 @@ ImageF
 :
 Create
 (
+memory_manager_
 horizontal
 .
 xsize
@@ -1815,6 +1816,7 @@ ImageF
 :
 Create
 (
+memory_manager_
 vertical
 .
 xsize
@@ -3352,6 +3354,7 @@ ImageF
 :
 Create
 (
+memory_manager_
 GroupInputXSize
 (
 c
@@ -3616,6 +3619,7 @@ ImageF
 :
 Create
 (
+memory_manager_
 stage_buffer_xsize
 stage_buffer_ysize
 )
@@ -3804,6 +3808,7 @@ ImageF
 :
 Create
 (
+memory_manager_
 out_of_frame_xsize
 shifts
 .
