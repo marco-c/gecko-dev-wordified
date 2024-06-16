@@ -9462,7 +9462,7 @@ IsDynamicRange
 )
 )
 ;
-StaticRange
+CrossShadowBoundaryRange
 *
 crossBoundaryRange
 =

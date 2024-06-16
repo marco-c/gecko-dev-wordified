@@ -525,7 +525,7 @@ collapsed
 =
 selection
 .
-isCollapsed
+areNormalAndCrossShadowBoundaryRangesCollapsed
 ;
 if
 (

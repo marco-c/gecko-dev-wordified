@@ -35601,7 +35601,7 @@ selectionIsCollapsed
 selection
 -
 >
-IsCollapsed
+AreNormalAndCrossShadowBoundaryRangesCollapsed
 (
 )
 ;
@@ -35618,6 +35618,8 @@ we
 should
 not
 collapse
+/
+/
 selection
 .
 if
@@ -35641,6 +35643,12 @@ uint32_t
 (
 aOffsetAtEventPoint
 )
+true
+/
+*
+aAllowCrossShadowBoundary
+*
+/
 )
 )
 {
