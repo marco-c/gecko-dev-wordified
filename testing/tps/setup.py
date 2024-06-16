@@ -64,6 +64,8 @@ version
 0
 .
 6
+.
+1
 "
 deps
 =
@@ -131,9 +133,9 @@ mozprocess
 mozprofile
 ~
 =
-2
+3
 .
-1
+0
 "
     
 "
@@ -142,7 +144,7 @@ mozrunner
 =
 8
 .
-2
+3
 "
     
 "
