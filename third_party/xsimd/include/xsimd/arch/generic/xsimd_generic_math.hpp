@@ -19060,11 +19060,8 @@ swizzle
 self
 make_batch_constant
 <
-batch
-<
 index_type
 A
->
 split_high
 <
 index_type
