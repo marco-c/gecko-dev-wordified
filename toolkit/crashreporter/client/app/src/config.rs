@@ -629,17 +629,6 @@ the
 application
 environment
 .
-#
-[
-cfg_attr
-(
-mock
-allow
-(
-unused
-)
-)
-]
 pub
 fn
 read_from_environment

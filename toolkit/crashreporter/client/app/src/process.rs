@@ -159,17 +159,6 @@ windows
 )
 ]
 {
-#
-[
-cfg_attr
-(
-mock
-allow
-(
-unused
-)
-)
-]
 use
 std
 :
