@@ -66,10 +66,6 @@ dap_ffi_gtest
 ;
 extern
 crate
-dllservices_gtest
-;
-extern
-crate
 fog_gtest
 ;
 #
