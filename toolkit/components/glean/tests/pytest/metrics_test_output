@@ -484,7 +484,7 @@ lifetime
 Lifetime
 :
 :
-Application
+Ping
 disabled
 :
 false
@@ -2078,7 +2078,7 @@ lifetime
 Lifetime
 :
 :
-Application
+Ping
 disabled
 :
 false
@@ -2641,7 +2641,7 @@ lifetime
 Lifetime
 :
 :
-Application
+Ping
 disabled
 :
 false
