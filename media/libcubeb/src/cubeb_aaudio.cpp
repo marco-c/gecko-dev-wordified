@@ -6909,6 +6909,15 @@ istream
 nullptr
 ;
 }
+stm
+-
+>
+timing_info
+.
+invalidate
+(
+)
+;
 if
 (
 stm
