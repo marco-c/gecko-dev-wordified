@@ -11592,7 +11592,8 @@ lock
 .
 MOZ_ASSERT
 (
-CurrentThreadIsGCSweeping
+!
+CurrentThreadIsGCMarking
 (
 )
 )
