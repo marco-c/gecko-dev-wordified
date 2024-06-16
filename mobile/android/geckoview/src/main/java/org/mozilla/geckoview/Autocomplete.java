@@ -7054,11 +7054,7 @@ option
 .
 *
 /
-/
-*
-package
-*
-/
+public
 LoginSelectOption
 (
 final
