@@ -198,6 +198,19 @@ build
 {
 include
 }
+Identity
+LimitedAccessFeature
+{
+{
+L
+"
+{
+lafidentity
+}
+_pcsmm0jrprpb2
+"
+}
+}
 /
 /
 /
@@ -820,7 +833,7 @@ manifest_id
 :
     
 for
-line
+lineFromInput
 in
 module_rc
 .
@@ -831,7 +844,7 @@ splitlines
         
 line
 =
-line
+lineFromInput
 .
 split
 (
@@ -1222,6 +1235,48 @@ include
 "
 "
     
+#
+Set
+the
+identity
+field
+for
+the
+Limited
+Access
+Feature
+    
+#
+Must
+match
+the
+tokens
+used
+in
+Win11LimitedAccessFeatures
+.
+cpp
+    
+lafidentity
+=
+"
+MozillaFirefox
+"
+    
+#
+lafidentity
+=
+"
+FirefoxBeta
+"
+    
+#
+lafidentity
+=
+"
+FirefoxNightly
+"
+    
 data
 =
 TEMPLATE
@@ -1232,6 +1287,10 @@ format
 include
 =
 include
+        
+lafidentity
+=
+lafidentity
         
 fileversion
 =
