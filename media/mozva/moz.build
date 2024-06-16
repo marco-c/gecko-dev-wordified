@@ -95,15 +95,6 @@ mozva
 c
 "
 ]
-OS_LIBS
-+
-=
-CONFIG
-[
-"
-DL_LIBS
-"
-]
 Library
 (
 "
