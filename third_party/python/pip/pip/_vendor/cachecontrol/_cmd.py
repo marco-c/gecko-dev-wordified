@@ -19,8 +19,20 @@ Apache
 2
 .
 0
+from
+__future__
+import
+annotations
 import
 logging
+from
+argparse
+import
+ArgumentParser
+from
+typing
+import
+TYPE_CHECKING
 from
 pip
 .
@@ -57,14 +69,32 @@ cachecontrol
 controller
 import
 logger
+if
+TYPE_CHECKING
+:
+    
 from
 argparse
 import
-ArgumentParser
+Namespace
+    
+from
+pip
+.
+_vendor
+.
+cachecontrol
+.
+controller
+import
+CacheController
 def
 setup_logging
 (
 )
+-
+>
+None
 :
     
 logger
@@ -94,6 +124,11 @@ def
 get_session
 (
 )
+-
+>
+requests
+.
+Session
 :
     
 adapter
@@ -157,6 +192,15 @@ cache_controller
 adapter
 .
 controller
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
     
 return
 sess
@@ -164,6 +208,9 @@ def
 get_args
 (
 )
+-
+>
+Namespace
 :
     
 parser
@@ -200,10 +247,10 @@ parse_args
 def
 main
 (
-args
-=
-None
 )
+-
+>
+None
 :
     
 args
@@ -253,8 +300,27 @@ setting
 the
 cache
     
+cache_controller
+:
+CacheController
+=
+(
+        
 sess
 .
+cache_controller
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
+    
+)
+    
 cache_controller
 .
 cache_response
@@ -275,8 +341,6 @@ get
 it
     
 if
-sess
-.
 cache_controller
 .
 cached_request

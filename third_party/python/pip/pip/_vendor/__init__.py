@@ -1193,6 +1193,13 @@ tomli
 vendored
 (
 "
+truststore
+"
+)
+    
+vendored
+(
+"
 urllib3
 "
 )

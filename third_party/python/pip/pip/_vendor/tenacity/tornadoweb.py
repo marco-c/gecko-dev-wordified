@@ -247,19 +247,17 @@ sleep
 gen
 .
 coroutine
-    
-def
-__call__
-(
 #
 type
 :
 ignore
-#
-Change
-signature
-from
-supertype
+[
+misc
+]
+    
+def
+__call__
+(
         
 self
         
@@ -411,6 +409,15 @@ exc_info
 (
 )
 )
+#
+type
+:
+ignore
+[
+arg
+-
+type
+]
                 
 else
 :

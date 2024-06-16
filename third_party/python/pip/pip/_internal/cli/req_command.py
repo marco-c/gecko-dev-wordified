@@ -362,41 +362,34 @@ None
 try
 :
         
+from
+pip
+.
+_vendor
 import
 truststore
     
 except
 ImportError
+as
+e
 :
         
 raise
 CommandError
 (
-            
+f
 "
-To
-use
-the
+The
 truststore
 feature
-'
-truststore
-'
-must
-be
-installed
-into
+is
+unavailable
+:
+{
+e
+}
 "
-            
-"
-pip
-'
-s
-current
-environment
-.
-"
-        
 )
     
 return
@@ -808,6 +801,8 @@ join
 cache_dir
 "
 http
+-
+v2
 "
 )
 if
@@ -978,6 +973,16 @@ not
 options
 .
 no_input
+        
+session
+.
+auth
+.
+keyring_provider
+=
+options
+.
+keyring_provider
         
 return
 session
@@ -1749,9 +1754,7 @@ legacy
         
 return
 "
-2020
--
-resolver
+resolvelib
 "
     
 classmethod
@@ -1837,6 +1840,10 @@ is
 not
 None
         
+legacy_resolver
+=
+False
+        
 resolver_variant
 =
 cls
@@ -1851,9 +1858,7 @@ resolver_variant
 =
 =
 "
-2020
--
-resolver
+resolvelib
 "
 :
             
@@ -1935,6 +1940,10 @@ production
         
 else
 :
+            
+legacy_resolver
+=
+True
             
 lazy_wheel
 =
@@ -2040,6 +2049,10 @@ lazy_wheel
 verbosity
 =
 verbosity
+            
+legacy_resolver
+=
+legacy_resolver
         
 )
     
@@ -2172,17 +2185,6 @@ isolated_mode
 use_pep517
 =
 use_pep517
-            
-config_settings
-=
-getattr
-(
-options
-"
-config_settings
-"
-None
-)
         
 )
         
@@ -2234,9 +2236,7 @@ resolver_variant
 =
 =
 "
-2020
--
-resolver
+resolvelib
 "
 :
             
@@ -2523,6 +2523,8 @@ install_req_from_line
                 
 req
                 
+comes_from
+=
 None
                 
 isolated
@@ -2680,6 +2682,27 @@ use_pep517
 user_supplied
 =
 True
+                    
+config_settings
+=
+parsed_req
+.
+options
+.
+get
+(
+"
+config_settings
+"
+)
+                    
+if
+parsed_req
+.
+options
+                    
+else
+None
                 
 )
                 

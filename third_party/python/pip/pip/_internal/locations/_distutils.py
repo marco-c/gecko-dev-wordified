@@ -375,19 +375,6 @@ except
 UnicodeDecodeError
 :
             
-#
-Typeshed
-does
-not
-include
-find_config_files
-(
-)
-for
-some
-reason
-.
-            
 paths
 =
 d
@@ -395,10 +382,6 @@ d
 find_config_files
 (
 )
-#
-type
-:
-ignore
             
 logger
 .
@@ -740,19 +723,22 @@ scheme
 .
 update
 (
-dict
-(
+{
+"
 purelib
-=
+"
+:
 i
 .
 install_lib
+"
 platlib
-=
+"
+:
 i
 .
 install_lib
-)
+}
 )
     
 if

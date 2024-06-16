@@ -54,6 +54,8 @@ os
 import
 re
 import
+shutil
+import
 sys
 try
 :
@@ -191,10 +193,9 @@ HTTPError
                          
 HTTPBasicAuthHandler
 HTTPPasswordMgr
-                         
 HTTPHandler
-HTTPRedirectHandler
                          
+HTTPRedirectHandler
 build_opener
 )
     
@@ -271,7 +272,7 @@ splituser
 host
 )
 :
-        
+    
 #
 "
 "
@@ -312,22 +313,22 @@ port
 "
 "
 "
-        
+    
 #
 global
 _userprog
-        
+    
 #
 if
 _userprog
 is
 None
 :
-            
+    
 #
 import
 re
-            
+    
 #
 _userprog
 =
@@ -347,7 +348,7 @@ compile
 )
 '
 )
-        
+    
 #
 match
 =
@@ -357,7 +358,7 @@ match
 (
 host
 )
-        
+    
 #
 if
 match
@@ -370,7 +371,7 @@ group
 1
 2
 )
-        
+    
 #
 return
 None
@@ -409,9 +410,6 @@ builtins
 import
 configparser
     
-import
-shutil
-    
 from
 urllib
 .
@@ -422,8 +420,8 @@ urlparse
 urlunparse
 urljoin
 quote
-                              
 unquote
+                              
 urlsplit
 urlunsplit
 splittype
@@ -441,13 +439,12 @@ Request
 url2pathname
                                 
 pathname2url
-                                
 HTTPBasicAuthHandler
+                                
 HTTPPasswordMgr
-                                
 HTTPHandler
-HTTPRedirectHandler
                                 
+HTTPRedirectHandler
 build_opener
 )
     
@@ -1299,7 +1296,7 @@ hostname
 %
 r
 "
-                
+                                   
 "
 doesn
 '
@@ -1310,8 +1307,8 @@ of
 %
 s
 "
-                
 %
+                                   
 (
 hostname
 '
@@ -1346,7 +1343,7 @@ hostname
 %
 r
 "
-                
+                                   
 "
 doesn
 '
@@ -1355,8 +1352,8 @@ match
 %
 r
 "
-                
 %
+                                   
 (
 hostname
 dnsnames
@@ -1378,7 +1375,7 @@ appropriate
 commonName
 or
 "
-                
+                                   
 "
 subjectAltName
 fields
@@ -1779,10 +1776,10 @@ Windows
 .
             
 if
-not
 os
 .
 curdir
+not
 in
 path
 :
@@ -1990,8 +1987,8 @@ dir
 )
             
 if
-not
 normdir
+not
 in
 seen
 :
@@ -2317,8 +2314,6 @@ return
 '
 CPython
 '
-import
-shutil
 import
 sysconfig
 try
@@ -2650,9 +2645,6 @@ codecs
 import
 BOM_UTF8
 lookup
-    
-import
-re
     
 cookie_re
 =
@@ -3273,8 +3265,8 @@ r
 .
 format
 (
+                        
 filename
-                            
 encoding
 )
                 
@@ -3347,6 +3339,7 @@ utf
 .
 format
 (
+                            
 filename
 )
                     
@@ -3726,6 +3719,7 @@ __annotations__
 getattr
 (
 user_function
+                                                  
 '
 __annotations__
 '
@@ -3749,6 +3743,7 @@ MutableMapping
 '
 '
 '
+        
 A
 ChainMap
 groups
@@ -3933,6 +3928,7 @@ try
 return
 mapping
 [
+                        
 key
 ]
 #
@@ -3959,6 +3955,7 @@ self
 .
 __missing__
 (
+                
 key
 )
 #
@@ -4007,6 +4004,7 @@ set
 .
 union
 (
+                
 *
 self
 .
@@ -4368,6 +4366,7 @@ KeyError
 raise
 KeyError
 (
+                    
 '
 Key
 not
@@ -4520,6 +4519,7 @@ KeyError
 raise
 KeyError
 (
+                    
 '
 Key
 not
@@ -4668,7 +4668,7 @@ pragma
 :
 no
 cover
-#
+    
 #
 {
 {
@@ -4690,6 +4690,7 @@ recipes
 (
 r9
 )
+    
 #
 Backport
 of
@@ -4716,6 +4717,7 @@ Python
 and
 pypy
 .
+    
 #
 Passes
 Python2
@@ -4973,6 +4975,7 @@ got
 d
 '
 %
+                                
 len
 (
 args
@@ -6379,6 +6382,7 @@ if
 not
 _repr_running
 :
+                
 _repr_running
 =
 {
@@ -6726,6 +6730,7 @@ self
 =
 len
 (
+                    
 other
 )
 and
@@ -8067,11 +8072,6 @@ groups
 ]
 ]
                 
-#
-print
-d
-rest
-                
 while
 rest
 :
@@ -8163,7 +8163,9 @@ n
 =
 int
 (
+                                        
 idx
+                                    
 )
 #
 try
@@ -8309,6 +8311,7 @@ ConvertingDict
 and
 isinstance
 (
+                    
 value
 dict
 )
@@ -8337,6 +8340,7 @@ ConvertingList
 and
 isinstance
 (
+                    
 value
 list
 )
@@ -8363,8 +8367,6 @@ value
 ConvertingTuple
 )
 and
-\
-                     
 isinstance
 (
 value

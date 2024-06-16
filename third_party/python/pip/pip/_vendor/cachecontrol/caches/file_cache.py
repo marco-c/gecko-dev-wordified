@@ -19,6 +19,10 @@ Apache
 2
 .
 0
+from
+__future__
+import
+annotations
 import
 hashlib
 import
@@ -28,43 +32,60 @@ textwrap
 import
 dedent
 from
+typing
+import
+IO
+TYPE_CHECKING
+from
+pip
 .
+_vendor
+.
+cachecontrol
 .
 cache
 import
 BaseCache
 SeparateBodyBaseCache
 from
+pip
 .
+_vendor
+.
+cachecontrol
 .
 controller
 import
 CacheController
-try
+if
+TYPE_CHECKING
 :
     
-FileNotFoundError
-except
-NameError
-:
+from
+datetime
+import
+datetime
     
-#
-py2
-.
-X
-    
-FileNotFoundError
-=
-(
-IOError
-OSError
-)
+from
+filelock
+import
+BaseFileLock
 def
 _secure_open_write
 (
 filename
+:
+str
 fmode
+:
+int
 )
+-
+>
+IO
+[
+bytes
+]
 :
     
 #
@@ -254,10 +275,7 @@ filename
 )
     
 except
-(
-IOError
 OSError
-)
 :
         
 #
@@ -412,69 +430,61 @@ __init__
 self
         
 directory
+:
+str
         
 forever
+:
+bool
 =
 False
         
 filemode
+:
+int
 =
 0o0600
         
 dirmode
+:
+int
 =
 0o0700
         
-use_dir_lock
-=
-None
-        
 lock_class
+:
+type
+[
+BaseFileLock
+]
+|
+None
 =
 None
     
 )
-:
-        
-if
-use_dir_lock
-is
-not
-None
-and
-lock_class
-is
-not
+-
+>
 None
 :
-            
-raise
-ValueError
-(
-"
-Cannot
-use
-use_dir_lock
-and
-lock_class
-together
-"
-)
         
 try
 :
             
+if
+lock_class
+is
+None
+:
+                
 from
-lockfile
+filelock
 import
-LockFile
-            
-from
-lockfile
-.
-mkdirlockfile
-import
-MkdirLockFile
+FileLock
+                
+lock_class
+=
+FileLock
         
 except
 ImportError
@@ -501,7 +511,7 @@ you
 must
 have
             
-lockfile
+filelock
 installed
 .
 You
@@ -514,7 +524,7 @@ pip
               
 pip
 install
-lockfile
+filelock
             
 "
 "
@@ -527,27 +537,6 @@ ImportError
 (
 notice
 )
-        
-else
-:
-            
-if
-use_dir_lock
-:
-                
-lock_class
-=
-MkdirLockFile
-            
-elif
-lock_class
-is
-None
-:
-                
-lock_class
-=
-LockFile
         
 self
 .
@@ -585,7 +574,12 @@ def
 encode
 (
 x
+:
+str
 )
+-
+>
+str
 :
         
 return
@@ -609,7 +603,12 @@ _fn
 (
 self
 name
+:
+str
 )
+-
+>
+str
 :
         
 #
@@ -690,7 +689,14 @@ get
 (
 self
 key
+:
+str
 )
+-
+>
+bytes
+|
+None
 :
         
 name
@@ -734,13 +740,28 @@ None
 def
 set
 (
+        
 self
 key
+:
+str
 value
+:
+bytes
 expires
+:
+int
+|
+datetime
+|
+None
 =
 None
+    
 )
+-
+>
+None
 :
         
 name
@@ -765,10 +786,15 @@ _write
 (
 self
 path
+:
+str
 data
 :
 bytes
 )
+-
+>
+None
 :
         
 "
@@ -817,10 +843,7 @@ dirmode
 )
         
 except
-(
-IOError
 OSError
-)
 :
             
 pass
@@ -831,9 +854,12 @@ self
 lock_class
 (
 path
-)
-as
++
+"
+.
 lock
+"
+)
 :
             
 #
@@ -845,8 +871,6 @@ file
 with
 _secure_open_write
 (
-lock
-.
 path
 self
 .
@@ -868,8 +892,15 @@ _delete
 (
 self
 key
+:
+str
 suffix
+:
+str
 )
+-
+>
+None
 :
         
 name
@@ -943,7 +974,12 @@ delete
 (
 self
 key
+:
+str
 )
+-
+>
+None
 :
         
 self
@@ -994,7 +1030,17 @@ get_body
 (
 self
 key
+:
+str
 )
+-
+>
+IO
+[
+bytes
+]
+|
+None
 :
         
 name
@@ -1035,8 +1081,15 @@ set_body
 (
 self
 key
+:
+str
 body
+:
+bytes
 )
+-
+>
+None
 :
         
 name
@@ -1066,7 +1119,12 @@ delete
 (
 self
 key
+:
+str
 )
+-
+>
+None
 :
         
 self
@@ -1092,8 +1150,15 @@ def
 url_to_file_path
 (
 url
+:
+str
 filecache
+:
+FileCache
 )
+-
+>
+str
 :
     
 "

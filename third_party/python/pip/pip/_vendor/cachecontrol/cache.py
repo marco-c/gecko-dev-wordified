@@ -45,14 +45,29 @@ dictionary
 "
 "
 from
+__future__
+import
+annotations
+from
 threading
 import
 Lock
+from
+typing
+import
+IO
+TYPE_CHECKING
+MutableMapping
+if
+TYPE_CHECKING
+:
+    
+from
+datetime
+import
+datetime
 class
 BaseCache
-(
-object
-)
 :
     
 def
@@ -60,7 +75,14 @@ get
 (
 self
 key
+:
+str
 )
+-
+>
+bytes
+|
+None
 :
         
 raise
@@ -71,13 +93,28 @@ NotImplementedError
 def
 set
 (
+        
 self
 key
+:
+str
 value
+:
+bytes
 expires
+:
+int
+|
+datetime
+|
+None
 =
 None
+    
 )
+-
+>
+None
 :
         
 raise
@@ -90,7 +127,12 @@ delete
 (
 self
 key
+:
+str
 )
+-
+>
+None
 :
         
 raise
@@ -103,6 +145,9 @@ close
 (
 self
 )
+-
+>
+None
 :
         
 pass
@@ -118,9 +163,20 @@ __init__
 (
 self
 init_dict
+:
+MutableMapping
+[
+str
+bytes
+]
+|
+None
 =
 None
 )
+-
+>
+None
 :
         
 self
@@ -145,7 +201,14 @@ get
 (
 self
 key
+:
+str
 )
+-
+>
+bytes
+|
+None
 :
         
 return
@@ -162,13 +225,28 @@ None
 def
 set
 (
+        
 self
 key
+:
+str
 value
+:
+bytes
 expires
+:
+int
+|
+datetime
+|
+None
 =
 None
+    
 )
+-
+>
+None
 :
         
 with
@@ -195,7 +273,12 @@ delete
 (
 self
 key
+:
+str
 )
+-
+>
+None
 :
         
 with
@@ -314,8 +397,15 @@ set_body
 (
 self
 key
+:
+str
 body
+:
+bytes
 )
+-
+>
+None
 :
         
 raise
@@ -328,7 +418,17 @@ get_body
 (
 self
 key
+:
+str
 )
+-
+>
+IO
+[
+bytes
+]
+|
+None
 :
         
 "

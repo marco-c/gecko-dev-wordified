@@ -1683,8 +1683,10 @@ self
 error
 (
                         
+f
 "
 {
+val
 }
 is
 not
@@ -1693,11 +1695,10 @@ valid
 value
 for
 {
+key
 }
 option
 "
-#
-noqa
                         
 "
 please
@@ -1722,12 +1723,6 @@ or
 instead
 .
 "
-.
-format
-(
-val
-key
-)
                     
 )
             
@@ -1788,8 +1783,10 @@ self
 error
 (
                         
+f
 "
 {
+val
 }
 is
 not
@@ -1798,11 +1795,10 @@ valid
 value
 for
 {
+key
 }
 option
 "
-#
-noqa
                         
 "
 please
@@ -1841,12 +1837,6 @@ to
 0
 .
 "
-.
-format
-(
-val
-key
-)
                     
 )
             

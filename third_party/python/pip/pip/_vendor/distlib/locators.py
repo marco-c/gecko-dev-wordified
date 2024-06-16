@@ -18,7 +18,7 @@ C
 )
 2012
 -
-2015
+2023
 Vinay
 Sajip
 .
@@ -2103,8 +2103,6 @@ pyver
             
 except
 Exception
-as
-e
 :
 #
 pragma
@@ -2302,15 +2300,6 @@ query
 '
 )
 )
-                                
-#
-'
-packagetype
-'
-:
-'
-sdist
-'
                             
 }
                             
@@ -3057,37 +3046,6 @@ slist
 append
 (
 k
-)
-                        
-#
-else
-:
-                            
-#
-logger
-.
-debug
-(
-'
-skipping
-pre
--
-release
-'
-                                         
-#
-'
-version
-%
-s
-of
-%
-s
-'
-k
-matcher
-.
-name
 )
                 
 except
@@ -3985,6 +3943,7 @@ locator
 =
 self
             
+#
 urls
 =
 d
@@ -6482,7 +6441,7 @@ _process_download
 link
 )
 and
-                                    
+                                        
 self
 .
 _should_queue

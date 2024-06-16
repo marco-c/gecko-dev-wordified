@@ -916,7 +916,14 @@ path
 .
 normcase
 (
+os
+.
+path
+.
+normpath
+(
 i
+)
 )
 .
 rstrip
@@ -987,11 +994,18 @@ not_warn_dirs
 .
 append
 (
+        
 os
 .
 path
 .
 normcase
+(
+os
+.
+path
+.
+normpath
 (
 os
 .
@@ -1004,6 +1018,8 @@ sys
 executable
 )
 )
+)
+    
 )
     
 warn_for
@@ -1040,7 +1056,14 @@ path
 .
 normcase
 (
+os
+.
+path
+.
+normpath
+(
 parent_dir
+)
 )
 not
 in
@@ -1101,20 +1124,17 @@ sorted_scripts
             
 start_text
 =
+f
 "
 script
 {
-}
-is
-"
-.
-format
-(
 sorted_scripts
 [
 0
 ]
-)
+}
+is
+"
         
 else
 :
@@ -1161,14 +1181,17 @@ msg_lines
 append
 (
             
+f
 "
 The
 {
+start_text
 }
 installed
 in
 '
 {
+parent_dir
 }
 '
 which
@@ -1178,14 +1201,6 @@ on
 PATH
 .
 "
-.
-format
-(
-                
-start_text
-parent_dir
-            
-)
         
 )
     
@@ -2016,6 +2031,18 @@ length
 )
 )
     
+return
+installed_rows
++
+[
+        
+(
+installed_record_path
+"
+"
+"
+"
+)
 for
 installed_record_path
 in
@@ -2024,23 +2051,8 @@ installed
 values
 (
 )
-:
-        
-installed_rows
-.
-append
-(
-(
-installed_record_path
-"
-"
-"
-"
-)
-)
     
-return
-installed_rows
+]
 def
 get_console_script_specs
 (
@@ -2565,27 +2577,22 @@ scripts_to_generate
 .
 append
 (
-                
+f
 "
 pip
 {
-}
-=
-{
-}
-"
-.
-format
-(
 sys
 .
 version_info
 [
 0
 ]
+}
+=
+{
 pip_script
-)
-            
+}
+"
 )
         
 scripts_to_generate
@@ -2707,25 +2714,20 @@ scripts_to_generate
 append
 (
             
+f
 "
 easy_install
 -
 {
-}
-=
-{
-}
-"
-.
-format
-(
-                
 get_major_minor_version
 (
 )
+}
+=
+{
 easy_install_script
-            
-)
+}
+"
         
 )
         
@@ -3244,6 +3246,7 @@ super
 __init__
 (
             
+f
 "
 Invalid
 script
@@ -3251,6 +3254,7 @@ entry
 point
 :
 {
+entry_point
 }
 -
 A
@@ -3296,11 +3300,6 @@ more
 information
 .
 "
-.
-format
-(
-entry_point
-)
         
 )
 def
@@ -5575,27 +5574,24 @@ e
         
 message
 =
+f
 "
 For
 req
 :
 {
+req_description
 }
 .
 {
-}
-"
-.
-format
-(
-req_description
 e
 .
 args
 [
 0
 ]
-)
+}
+"
         
 raise
 InstallationError

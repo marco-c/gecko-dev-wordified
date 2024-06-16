@@ -17,6 +17,8 @@ Copyright
 C
 )
 2013
+-
+2023
 Vinay
 Sajip
 .
@@ -835,8 +837,6 @@ items
 ]
 )
         
-response
-=
 self
 .
 send_request
@@ -3016,9 +3016,6 @@ command
 failed
 with
 error
-'
-                             
-'
 code
 %
 s

@@ -681,6 +681,8 @@ we
 cannot
 import
 setuptools
+or
+wheels
 .
     
 #
@@ -692,6 +694,11 @@ PEP
 when
 without
 setuptools
+or
+without
+the
+wheel
+package
     
 #
 so
@@ -746,6 +753,23 @@ improved
 /
 9
     
+#
+https
+:
+/
+/
+github
+.
+com
+/
+pypa
+/
+pip
+/
+issues
+/
+8559
+    
 elif
 use_pep517
 is
@@ -754,7 +778,10 @@ None
         
 use_pep517
 =
+(
+            
 has_pyproject
+            
 or
 not
 importlib
@@ -766,6 +793,21 @@ find_spec
 "
 setuptools
 "
+)
+            
+or
+not
+importlib
+.
+util
+.
+find_spec
+(
+"
+wheel
+"
+)
+        
 )
     
 #
@@ -931,9 +973,6 @@ setuptools
 8
 .
 0
-"
-"
-wheel
 "
 ]
             

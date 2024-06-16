@@ -2596,9 +2596,11 @@ raise
 ValueError
 (
                 
+f
 "
 Sorry
 {
+url
 !
 r
 }
@@ -2650,11 +2652,6 @@ egg
 =
 MyApp
 "
-.
-format
-(
-url
-)
             
 )
         
@@ -2723,10 +2720,12 @@ raise
 InstallationError
 (
                     
+f
 "
 The
 URL
 {
+url
 !
 r
 }
@@ -2759,11 +2758,6 @@ the
 URL
 .
 "
-.
-format
-(
-url
-)
                 
 )
         
@@ -3774,22 +3768,19 @@ response
 =
 ask_path_exists
 (
+f
 "
 What
 to
 do
 ?
 {
-}
-"
-.
-format
-(
 prompt
 [
 0
 ]
-)
+}
+"
 prompt
 [
 1

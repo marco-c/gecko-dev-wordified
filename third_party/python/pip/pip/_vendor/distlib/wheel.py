@@ -18,7 +18,7 @@ C
 )
 2013
 -
-2020
+2023
 Vinay
 Sajip
 .
@@ -102,13 +102,9 @@ from
 .
 metadata
 import
-(
 Metadata
-METADATA_FILENAME
 WHEEL_METADATA_FILENAME
-                       
 LEGACY_METADATA_FILENAME
-)
 from
 .
 util
@@ -513,6 +509,7 @@ re
 .
 compile
 (
+    
 r
 '
 '
@@ -639,6 +636,7 @@ re
 .
 compile
 (
+    
 r
 '
 '
@@ -1777,8 +1775,8 @@ self
 name
 version
 buildver
-                                         
 pyver
+                                         
 abi
 arch
 )
@@ -1938,8 +1936,6 @@ as
 zf
 :
             
-wheel_metadata
-=
 self
 .
 get_wheel_metadata
@@ -1947,6 +1943,7 @@ get_wheel_metadata
 zf
 )
             
+#
 wv
 =
 wheel_metadata
@@ -1966,6 +1963,7 @@ split
 1
 )
             
+#
 file_version
 =
 tuple
@@ -1991,14 +1989,14 @@ file_version
 1
 )
 :
-                
+            
 #
 fns
 =
 [
 WHEEL_METADATA_FILENAME
 METADATA_FILENAME
-                       
+            
 #
 LEGACY_METADATA_FILENAME
 ]
@@ -2006,7 +2004,7 @@ LEGACY_METADATA_FILENAME
 #
 else
 :
-                
+            
 #
 fns
 =
@@ -2539,6 +2537,7 @@ algorithm
 r
 '
 %
+                                   
 hash_kind
 )
         
@@ -2659,6 +2658,7 @@ info_dir
 =
 info
         
+#
 hasher
 =
 getattr
@@ -4279,6 +4279,7 @@ get
 '
 bytecode_hashed_invalidation
 '
+                                            
 False
 )
         
@@ -5138,6 +5139,7 @@ os
 chmod
 (
 outfile
+                                     
 (
 zinfo
 .
@@ -5260,8 +5262,9 @@ fileop
 .
 byte_compile
 (
+                                    
 outfile
-                                                          
+                                    
 hashed_invalidation
 =
 bc_hashed_invalidation
@@ -6420,6 +6423,7 @@ datetime
 .
 fromtimestamp
 (
+                                
 file_time
 )
                             
@@ -6882,6 +6886,7 @@ self
 version
 )
         
+#
 data_dir
 =
 '
@@ -6906,6 +6911,7 @@ info
 %
 name_ver
         
+#
 metadata_name
 =
 posixpath
@@ -6983,13 +6989,12 @@ wrapper
 bwf
 )
                 
-message
-=
 message_from_file
 (
 wf
 )
             
+#
 wv
 =
 message
@@ -7009,6 +7014,7 @@ split
 1
 )
             
+#
 file_version
 =
 tuple
@@ -7613,8 +7619,6 @@ None
 try
 :
                 
-v
-=
 NormalizedVersion
 (
 version
@@ -7702,13 +7706,13 @@ version
 :
 i
 ]
-                                         
 '
 .
 '
 .
 join
 (
+                        
 str
 (
 i
@@ -7728,6 +7732,7 @@ logger
 .
 debug
 (
+                    
 '
 Cannot
 update
@@ -7740,7 +7745,7 @@ PEP
 440
 )
 '
-                             
+                    
 '
 version
 %
@@ -7804,7 +7809,6 @@ to
 r
 '
 version
-                             
 updated
 )
         
@@ -8168,6 +8172,7 @@ directory
 r
 '
 %
+                                               
 dest_dir
 )
                     
@@ -8961,6 +8966,7 @@ result
 .
 append
 (
+                        
 (
 '
 '
@@ -8976,7 +8982,7 @@ versions
 )
 )
 abi
-                                   
+                         
 '
 manylinux_
 %
@@ -8996,7 +9002,6 @@ parts
 [
 1
 ]
-                                                           
 arch
 )
 )

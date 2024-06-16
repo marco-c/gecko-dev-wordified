@@ -494,6 +494,10 @@ get_all
 (
 field
 )
+#
+type
+:
+ignore
             
 ]
         
@@ -511,6 +515,10 @@ get
 field
 )
 )
+#
+type
+:
+ignore
             
 if
 key

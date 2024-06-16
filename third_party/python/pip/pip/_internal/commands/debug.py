@@ -335,7 +335,10 @@ str
 )
 -
 >
+Optional
+[
 ModuleType
+]
 :
     
 #
@@ -398,6 +401,9 @@ module_name
 pkg_resources
 "
     
+try
+:
+        
 __import__
 (
 f
@@ -420,7 +426,7 @@ level
 =
 0
 )
-    
+        
 return
 getattr
 (
@@ -429,6 +435,58 @@ pip
 _vendor
 module_name
 )
+    
+except
+ImportError
+:
+        
+#
+We
+allow
+'
+truststore
+'
+to
+fail
+to
+import
+due
+        
+#
+to
+being
+unavailable
+on
+Python
+3
+.
+9
+and
+earlier
+.
+        
+if
+module_name
+=
+=
+"
+truststore
+"
+and
+sys
+.
+version_info
+<
+(
+3
+10
+)
+:
+            
+return
+None
+        
+raise
 def
 get_vendor_version_from_module
 (
@@ -463,6 +521,8 @@ None
 )
     
 if
+module
+and
 not
 version
 :
@@ -663,17 +723,14 @@ version
 should
 "
                 
+f
 "
 be
 {
+expected_version
 }
 )
 "
-.
-format
-(
-expected_version
-)
             
 )
         
@@ -759,7 +816,7 @@ tags
 =
 target_python
 .
-get_tags
+get_sorted_tags
 (
 )
     
@@ -806,24 +863,21 @@ formatted_target
     
 msg
 =
+f
 "
 Compatible
 tags
 :
 {
-}
-{
-}
-"
-.
-format
-(
 len
 (
 tags
 )
+}
+{
 suffix
-)
+}
+"
     
 logger
 .
@@ -894,8 +948,7 @@ tags_limited
             
 msg
 =
-(
-                
+f
 "
 .
 .
@@ -921,15 +974,6 @@ all
 ]
 "
             
-)
-.
-format
-(
-tag_limit
-=
-tag_limit
-)
-            
 logger
 .
 info
@@ -950,10 +994,19 @@ str
     
 levels
 =
-set
+{
+key
+.
+split
 (
+"
+.
+"
+1
 )
-    
+[
+0
+]
 for
 key
 _
@@ -963,24 +1016,7 @@ config
 items
 (
 )
-:
-        
-levels
-.
-add
-(
-key
-.
-split
-(
-"
-.
-"
-)
-[
-0
-]
-)
+}
     
 if
 not

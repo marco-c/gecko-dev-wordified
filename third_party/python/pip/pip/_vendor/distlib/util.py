@@ -6,7 +6,7 @@ C
 )
 2012
 -
-2021
+2023
 The
 Python
 Software
@@ -121,7 +121,6 @@ urljoin
 httplib
 xmlrpclib
                      
-splittype
 HTTPHandler
 BaseConfigurator
 valid_ident
@@ -684,6 +683,7 @@ literal
 s
 '
 %
+                                          
 remaining
 )
                     
@@ -1702,6 +1702,7 @@ version
 s
 '
 %
+                                              
 ver_remaining
 )
                         
@@ -1816,6 +1817,7 @@ constraint
 s
 '
 %
+                                              
 ver_remaining
 )
                     
@@ -1884,6 +1886,7 @@ parenthesis
 s
 '
 %
+                                      
 remaining
 )
                 
@@ -2166,6 +2169,7 @@ distname
 .
 join
 (
+            
 [
 '
 %
@@ -2189,9 +2193,11 @@ Container
 name
 =
 distname
+                     
 extras
 =
 extras
+                     
 constraints
 =
 versions
@@ -2199,9 +2205,11 @@ versions
 marker
 =
 mark_expr
+                     
 url
 =
 uri
+                     
 requirement
 =
 rs
@@ -2494,6 +2502,7 @@ get_executable
 (
 )
 :
+    
 #
 The
 __PYVENV_LAUNCHER__
@@ -2504,6 +2513,7 @@ no
 longer
 needed
 as
+    
 #
 changes
 to
@@ -2517,6 +2527,7 @@ sys
 executable
 always
 points
+    
 #
 to
 the
@@ -2524,6 +2535,7 @@ stub
 on
 OS
 X
+    
 #
 if
 sys
@@ -2539,6 +2551,7 @@ and
 '
 __PYVENV_LAUNCHER__
 '
+    
 #
 in
 os
@@ -2546,6 +2559,7 @@ os
 environ
 )
 :
+    
 #
 result
 =
@@ -2557,15 +2571,18 @@ environ
 __PYVENV_LAUNCHER__
 '
 ]
+    
 #
 else
 :
+    
 #
 result
 =
 sys
 .
 executable
+    
 #
 return
 result
@@ -4667,16 +4684,21 @@ def
 byte_compile
 (
 self
+                     
 path
+                     
 optimize
 =
 False
+                     
 force
 =
 False
+                     
 prefix
 =
 None
+                     
 hashed_invalidation
 =
 False
@@ -4771,6 +4793,7 @@ and
 hasattr
 (
 py_compile
+                                               
 '
 PycInvalidationMode
 '
@@ -4779,6 +4802,7 @@ PycInvalidationMode
                 
 compile_kwargs
 [
+                    
 '
 invalidation_mode
 '
@@ -4798,6 +4822,7 @@ path
 dpath
 diagpath
 True
+                               
 *
 *
 compile_kwargs
@@ -5488,7 +5513,6 @@ other
 .
 name
 and
-                      
 self
 .
 prefix
@@ -5497,8 +5521,8 @@ prefix
 other
 .
 prefix
-and
                       
+and
 self
 .
 suffix
@@ -5507,8 +5531,8 @@ suffix
 other
 .
 suffix
-and
                       
+and
 self
 .
 flags
@@ -5533,6 +5557,7 @@ re
 .
 compile
 (
+    
 r
 '
 '
@@ -5544,16 +5569,15 @@ P
 name
 >
 (
-\
-w
-|
 [
--
-.
-+
+^
+\
+[
 ]
+\
+S
+*
 )
-+
 )
                       
 \
@@ -6602,6 +6626,7 @@ re
 .
 compile
 (
+    
 '
 (
 [
@@ -6635,7 +6660,7 @@ z0
 )
 -
 '
-                                      
+    
 '
 (
 [
@@ -8394,8 +8419,8 @@ result
 %
 s
 '
-                     
 event
+                     
 args
 kwargs
 result
@@ -8791,8 +8816,8 @@ in
 self
 .
 _succs
-or
                 
+or
 step
 in
 self
@@ -9267,6 +9292,7 @@ successor
 =
 node
 :
+                        
 break
                 
 component
@@ -9445,7 +9471,6 @@ tar
 .
 zip
 '
-                      
 '
 .
 tgz
@@ -9454,6 +9479,7 @@ tgz
 .
 tbz
 '
+                      
 '
 .
 whl
@@ -9911,6 +9937,126 @@ utf
 8
 '
 )
+        
+#
+Limit
+extraction
+of
+dangerous
+items
+if
+this
+Python
+        
+#
+allows
+it
+easily
+.
+If
+not
+just
+trust
+the
+input
+.
+        
+#
+See
+:
+https
+:
+/
+/
+docs
+.
+python
+.
+org
+/
+3
+/
+library
+/
+tarfile
+.
+html
+#
+extraction
+-
+filters
+        
+def
+extraction_filter
+(
+member
+path
+)
+:
+            
+"
+"
+"
+Run
+tarfile
+.
+tar_filter
+but
+raise
+the
+expected
+ValueError
+"
+"
+"
+            
+#
+This
+is
+only
+called
+if
+the
+current
+Python
+has
+tarfile
+filters
+            
+try
+:
+                
+return
+tarfile
+.
+tar_filter
+(
+member
+path
+)
+            
+except
+tarfile
+.
+FilterError
+as
+exc
+:
+                
+raise
+ValueError
+(
+str
+(
+exc
+)
+)
+        
+archive
+.
+extraction_filter
+=
+extraction_filter
         
 archive
 .
@@ -11150,7 +11296,9 @@ match_hostname
                          
 CertificateError
 )
+    
 #
+    
 #
 HTTPSConnection
 which
@@ -11159,6 +11307,7 @@ certificates
 /
 matches
 domains
+    
 #
     
 class
@@ -11225,6 +11374,7 @@ self
 .
 port
 )
+                                            
 self
 .
 timeout
@@ -11284,9 +11434,14 @@ ssl
 OP_NO_SSLv2
             
 if
+getattr
+(
 self
-.
+'
 cert_file
+'
+None
+)
 :
                 
 context
@@ -11676,6 +11831,7 @@ reason
 raise
 CertificateError
 (
+                        
 '
 Unable
 to
@@ -11683,7 +11839,7 @@ verify
 server
 certificate
 '
-                                           
+                        
 '
 for
 %
@@ -11820,6 +11976,7 @@ req
 raise
 URLError
 (
+                
 '
 Unexpected
 HTTP
@@ -11831,7 +11988,7 @@ be
 a
 secure
 '
-                           
+                
 '
 connection
 :
@@ -12058,9 +12215,9 @@ httplib
 .
 HTTPSConnection
 (
+                    
 h
 None
-                                                                 
 *
 *
 kwargs
@@ -13439,6 +13596,7 @@ subprocess
 Popen
 (
 cmd
+                             
 stdout
 =
 subprocess
@@ -13450,6 +13608,7 @@ stderr
 subprocess
 .
 PIPE
+                             
 *
 *
 kwargs
@@ -13650,12 +13809,10 @@ _get_pypirc_command
 (
 )
 :
-    
 #
 "
 "
 "
-    
 #
 Get
 the
@@ -13667,7 +13824,6 @@ with
 PyPI
 configurations
 .
-    
 #
 :
 return
@@ -13675,12 +13831,10 @@ return
 the
 command
 .
-    
 #
 "
 "
 "
-    
 #
 from
 distutils
@@ -13688,7 +13842,6 @@ distutils
 core
 import
 Distribution
-    
 #
 from
 distutils
@@ -13696,14 +13849,12 @@ distutils
 config
 import
 PyPIRCCommand
-    
 #
 d
 =
 Distribution
 (
 )
-    
 #
 return
 PyPIRCCommand
@@ -13892,6 +14043,7 @@ servers
 _servers
 =
 [
+                    
 server
 .
 strip
@@ -13900,7 +14052,6 @@ strip
 for
 server
 in
-                            
 index_servers
 .
 split
@@ -13910,7 +14061,7 @@ split
 n
 '
 )
-                            
+                    
 if
 server
 .
@@ -13921,6 +14072,7 @@ strip
 =
 '
 '
+                
 ]
                 
 if
@@ -14009,6 +14161,7 @@ in
 '
 repository
 '
+                                              
 self
 .
 DEFAULT_REPOSITORY
@@ -14106,8 +14259,8 @@ server
 pypi
 '
 and
-                            
 repository
+                                
 in
 (
 self
@@ -14142,8 +14295,8 @@ server
 !
 =
 repository
-and
                               
+and
 result
 [
 '
@@ -15177,8 +15330,20 @@ darwin
         
 import
 _osx_support
+        
+try
+:
+            
+from
 distutils
-.
+import
+sysconfig
+        
+except
+ImportError
+:
+            
+import
 sysconfig
         
 osname
@@ -15189,15 +15354,12 @@ _osx_support
 .
 get_platform_osx
 (
-                                        
-distutils
-.
+            
 sysconfig
 .
 get_config_vars
 (
 )
-                                        
 osname
 release
 machine

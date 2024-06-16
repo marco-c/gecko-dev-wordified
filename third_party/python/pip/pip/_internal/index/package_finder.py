@@ -1401,7 +1401,7 @@ self
 .
 _target_python
 .
-get_tags
+get_unsorted_tags
 (
 )
                 
@@ -2748,7 +2748,7 @@ supported_tags
 =
 target_python
 .
-get_tags
+get_sorted_tags
 (
 )
         
@@ -3551,8 +3551,12 @@ raise
 UnsupportedWheel
 (
                     
+f
 "
 {
+wheel
+.
+filename
 }
 is
 not
@@ -3574,13 +3578,6 @@ be
 sorted
 .
 "
-.
-format
-(
-wheel
-.
-filename
-)
                 
 )
             
@@ -5975,7 +5972,7 @@ iter_all
 raise
 DistributionNotFound
 (
-                
+f
 "
 No
 matching
@@ -5983,14 +5980,9 @@ distribution
 found
 for
 {
+req
 }
 "
-.
-format
-(
-req
-)
-            
 )
         
 def

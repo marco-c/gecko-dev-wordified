@@ -18,7 +18,7 @@ C
 )
 2012
 -
-2017
+2023
 The
 Python
 Software
@@ -111,20 +111,20 @@ CSVWriter
 __all__
 =
 [
+    
 '
 Distribution
 '
 '
 BaseInstalledDistribution
 '
-           
 '
 InstalledDistribution
 '
+    
 '
 EggInfoDistribution
 '
-           
 '
 DistributionPath
 '
@@ -827,11 +827,12 @@ DISTINFO_EXT
 possible_filenames
 =
 [
+                            
 METADATA_FILENAME
-                                              
 WHEEL_METADATA_FILENAME
-                                              
+                            
 LEGACY_METADATA_FILENAME
+                        
 ]
                         
 for
@@ -846,6 +847,7 @@ posixpath
 .
 join
 (
+                                
 entry
 metadata_filename
 )
@@ -892,6 +894,7 @@ Metadata
 fileobj
 =
 stream
+                                                
 scheme
 =
 '
@@ -928,6 +931,7 @@ new_dist_class
 r
 .
 path
+                                             
 metadata
 =
 metadata
@@ -946,6 +950,7 @@ entry
 .
 endswith
 (
+                            
 (
 '
 .
@@ -953,7 +958,6 @@ egg
 -
 info
 '
-                                                              
 '
 .
 egg
@@ -1847,7 +1851,7 @@ r
 r
 '
 %
-                                      
+                                       
 (
 name
 version
@@ -2646,14 +2650,15 @@ r
 self
 .
 name
-req_attr
                      
+req_attr
 reqts
 )
         
 return
 set
 (
+            
 md
 .
 get_requirements
@@ -2664,7 +2669,6 @@ extras
 self
 .
 extras
-                                       
 env
 =
 self
@@ -2907,7 +2911,6 @@ using
 name
 only
 '
-                           
 req
 )
             
@@ -3171,7 +3174,6 @@ other
 .
 name
 and
-                      
 self
 .
 version
@@ -3180,8 +3182,8 @@ version
 other
 .
 version
-and
                       
+and
 self
 .
 source_url
@@ -3919,9 +3921,9 @@ in
 s
 '
 %
+                                 
 (
 METADATA_FILENAME
-                                                        
 path
 )
 )
@@ -5101,8 +5103,8 @@ base
 or
 (
 base_under_prefix
-and
                                              
+and
 path
 .
 startswith
@@ -5496,6 +5498,7 @@ mismatches
 .
 append
 (
+                                
 (
 path
 '
@@ -6542,8 +6545,8 @@ isinstance
 other
 InstalledDistribution
 )
-and
                 
+and
 self
 .
 path
@@ -6913,6 +6916,29 @@ strip
 (
 )
                 
+#
+sectioned
+files
+have
+bare
+newlines
+(
+separating
+sections
+)
+                
+if
+not
+line
+:
+#
+pragma
+:
+no
+cover
+                    
+continue
+                
 if
 line
 .
@@ -6923,11 +6949,17 @@ startswith
 '
 )
 :
+#
+pragma
+:
+no
+cover
                     
 logger
 .
 warning
 (
+                        
 '
 Unexpected
 line
@@ -6939,7 +6971,6 @@ scan
 %
 r
 '
-                                   
 line
 )
                     
@@ -6956,6 +6987,11 @@ if
 not
 r
 :
+#
+pragma
+:
+no
+cover
                     
 logger
 .
@@ -6981,6 +7017,11 @@ r
 .
 extras
 :
+#
+pragma
+:
+no
+cover
                     
 logger
 .
@@ -7377,6 +7418,7 @@ txt
 .
 decode
 (
+                        
 '
 utf
 -
@@ -7659,13 +7701,13 @@ r
 '
 %
 (
-            
 self
 .
 name
 self
 .
 version
+                                                      
 self
 .
 path
@@ -8465,8 +8507,8 @@ isinstance
 other
 EggInfoDistribution
 )
-and
                 
+and
 self
 .
 path
@@ -9294,9 +9336,9 @@ adjs
 :
                 
 if
-not
 label
 is
+not
 None
 :
                     
@@ -10030,8 +10072,8 @@ run_requires
 dist
 .
 meta_requires
-|
                     
+|
 dist
 .
 build_requires

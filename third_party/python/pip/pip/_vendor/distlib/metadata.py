@@ -1087,29 +1087,22 @@ markers
 )
 :
         
+return
+any
+(
+marker
+in
+keys
 for
 marker
 in
 markers
-:
-            
-if
-marker
-in
-keys
-:
-                
-return
-True
-        
-return
-False
+)
     
 keys
 =
 [
-]
-    
+key
 for
 key
 value
@@ -1119,10 +1112,9 @@ fields
 items
 (
 )
-:
-        
 if
 value
+not
 in
 (
 [
@@ -1132,16 +1124,7 @@ UNKNOWN
 '
 None
 )
-:
-            
-continue
-        
-keys
-.
-append
-(
-key
-)
+]
     
 possible_versions
 =
