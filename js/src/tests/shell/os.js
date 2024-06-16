@@ -13,7 +13,14 @@ xulRuntime
 shell
 |
 |
-winWidget
+xulRuntime
+.
+OS
+=
+=
+"
+WINNT
+"
 )
 /
 *

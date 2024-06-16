@@ -7,7 +7,14 @@ skip
 -
 if
 (
-winWidget
+xulRuntime
+.
+OS
+=
+=
+"
+WINNT
+"
 )
 -
 -

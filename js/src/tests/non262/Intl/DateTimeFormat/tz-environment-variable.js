@@ -19,7 +19,14 @@ Intl
 |
 |
 (
-winWidget
+xulRuntime
+.
+OS
+=
+=
+"
+WINNT
+"
 &
 &
 !

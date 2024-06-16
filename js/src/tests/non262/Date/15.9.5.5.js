@@ -7,7 +7,14 @@ random
 -
 if
 (
-gtkWidget
+xulRuntime
+.
+OS
+=
+=
+"
+Linux
+"
 )
 /
 *
