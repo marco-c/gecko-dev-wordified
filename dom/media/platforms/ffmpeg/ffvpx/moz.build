@@ -205,7 +205,7 @@ LOCAL_INCLUDES
 .
 .
 /
-ffmpeg61
+ffmpeg60
 /
 include
 "

@@ -2456,11 +2456,11 @@ structure
 .
 *
 param
+data
 [
 in
 out
 ]
-data
 A
 pointer
 to
@@ -2532,11 +2532,11 @@ size
 .
 *
 param
+size
 [
 in
 out
 ]
-size
 A
 pointer
 to

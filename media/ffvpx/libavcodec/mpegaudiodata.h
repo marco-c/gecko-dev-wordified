@@ -204,15 +204,6 @@ h
 #
 include
 "
-libavutil
-/
-attributes_internal
-.
-h
-"
-#
-include
-"
 vlc
 .
 h
@@ -225,7 +216,6 @@ MODE_EXT_MS_STEREO
 define
 MODE_EXT_I_STEREO
 1
-FF_VISIBILITY_PUSH_HIDDEN
 extern
 const
 uint16_t
@@ -527,7 +517,6 @@ ff_mpegaudiodec_common_init_static
 void
 )
 ;
-FF_VISIBILITY_POP_HIDDEN
 #
 endif
 /

@@ -163,14 +163,7 @@ h
 #
 include
 "
-codec
-.
-h
-"
-#
-include
-"
-defs
+avcodec
 .
 h
 "

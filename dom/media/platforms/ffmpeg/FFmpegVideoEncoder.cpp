@@ -3994,10 +3994,10 @@ ToMicroseconds
 ;
 #
 endif
-Duration
-(
 mFrame
-)
+-
+>
+pkt_duration
 =
 aSample
 -

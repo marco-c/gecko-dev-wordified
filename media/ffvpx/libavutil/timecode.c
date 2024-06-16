@@ -1646,7 +1646,7 @@ rate
 .
 den
 /
-2LL
+2
 )
 /
 rate
