@@ -589,7 +589,7 @@ new
 (
 )
 .
-filter_gt
+gt
 (
 "
 last_modified
@@ -2179,11 +2179,6 @@ derive
 Clone
 Debug
 Default
-Hash
-PartialEq
-Eq
-PartialOrd
-Ord
 )
 ]
 pub
@@ -2336,7 +2331,7 @@ true
 .
 pub
 fn
-filter_eq
+eq
 (
 &
 mut
@@ -2413,7 +2408,7 @@ value
 .
 pub
 fn
-filter_not
+not
 (
 &
 mut
@@ -2509,7 +2504,7 @@ elements
 .
 pub
 fn
-filter_contains
+contains
 (
 &
 mut
@@ -2586,7 +2581,7 @@ value
 .
 pub
 fn
-filter_lt
+lt
 (
 &
 mut
@@ -2663,7 +2658,7 @@ value
 .
 pub
 fn
-filter_gt
+gt
 (
 &
 mut
@@ -2742,7 +2737,7 @@ value
 .
 pub
 fn
-filter_max
+max
 (
 &
 mut
@@ -2821,7 +2816,7 @@ value
 .
 pub
 fn
-filter_min
+min
 (
 &
 mut
@@ -2905,7 +2900,7 @@ wildcards
 .
 pub
 fn
-filter_like
+like
 (
 &
 mut
@@ -2975,7 +2970,7 @@ field
 .
 pub
 fn
-filter_has
+has
 (
 &
 mut
@@ -3035,7 +3030,7 @@ field
 .
 pub
 fn
-filter_has_not
+has_not
 (
 &
 mut
@@ -3630,8 +3625,6 @@ Debug
 Eq
 Hash
 PartialEq
-PartialOrd
-Ord
 )
 ]
 pub
@@ -3661,11 +3654,6 @@ derive
 (
 Clone
 Debug
-Hash
-PartialEq
-Eq
-PartialOrd
-Ord
 )
 ]
 enum
@@ -4105,11 +4093,6 @@ derive
 (
 Clone
 Debug
-Hash
-PartialEq
-Eq
-PartialOrd
-Ord
 )
 ]
 struct
@@ -5693,7 +5676,7 @@ b
 "
 )
 .
-filter_eq
+eq
 (
 "
 a
@@ -5703,7 +5686,7 @@ b
 "
 )
 .
-filter_lt
+lt
 (
 "
 c
@@ -5715,7 +5698,7 @@ d
 "
 )
 .
-filter_gt
+gt
 (
 "
 e
@@ -5725,7 +5708,7 @@ e
 "
 )
 .
-filter_max
+max
 (
 "
 f
@@ -5735,7 +5718,7 @@ f
 "
 )
 .
-filter_min
+min
 (
 "
 g
@@ -5745,7 +5728,7 @@ g
 "
 )
 .
-filter_not
+not
 (
 "
 h
@@ -5755,7 +5738,7 @@ i
 "
 )
 .
-filter_like
+like
 (
 "
 j
@@ -5767,21 +5750,21 @@ k
 "
 )
 .
-filter_has
+has
 (
 "
 l
 "
 )
 .
-filter_has_not
+has_not
 (
 "
 m
 "
 )
 .
-filter_contains
+contains
 (
 "
 n

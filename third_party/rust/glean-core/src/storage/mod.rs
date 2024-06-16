@@ -1721,7 +1721,6 @@ mozilla
 glean
 "
 true
-true
 )
 ;
 let
@@ -1967,7 +1966,6 @@ mozilla
 .
 glean
 "
-true
 true
 )
 ;

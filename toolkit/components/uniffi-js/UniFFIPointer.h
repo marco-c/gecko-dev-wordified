@@ -303,12 +303,6 @@ return
 nullptr
 ;
 }
-UniFFIPointer
-*
-Clone
-(
-)
-;
 /
 *
 *

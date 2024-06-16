@@ -1047,7 +1047,6 @@ metadata
 [
 derive
 (
-Copy
 Clone
 PartialEq
 PartialOrd

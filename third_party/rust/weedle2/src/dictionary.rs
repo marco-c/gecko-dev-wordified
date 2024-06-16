@@ -16,7 +16,6 @@ common
 :
 {
 Default
-Docstring
 Identifier
 }
 ;
@@ -82,12 +81,6 @@ DictionaryMember
 a
 >
 {
-docstring
-:
-Option
-<
-Docstring
->
 attributes
 :
 Option
