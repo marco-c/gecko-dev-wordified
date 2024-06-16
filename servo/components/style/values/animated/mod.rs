@@ -347,6 +347,7 @@ id
 )
 =
 >
+{
 if
 id
 .
@@ -365,6 +366,7 @@ PropertyCategory
 :
 :
 PhysicalLonghand
+}
 }
 Err
 (

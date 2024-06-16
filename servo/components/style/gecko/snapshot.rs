@@ -1276,7 +1276,6 @@ any
 |
 setstate
 |
-{
 AtomIdent
 :
 :
@@ -1293,7 +1292,6 @@ state
 =
 setstate
 )
-}
 )
 }
 }

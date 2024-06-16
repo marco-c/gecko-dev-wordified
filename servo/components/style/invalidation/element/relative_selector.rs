@@ -3398,7 +3398,6 @@ each_custom_state
 |
 v
 |
-{
 match
 map
 .
@@ -3452,7 +3451,6 @@ None
 >
 (
 )
-}
 }
 )
 ;

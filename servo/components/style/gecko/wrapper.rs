@@ -13851,7 +13851,6 @@ dir
 )
 =
 >
-{
 self
 .
 state
@@ -13866,7 +13865,6 @@ element_state
 (
 )
 )
-}
 NonTSPseudoClass
 :
 :

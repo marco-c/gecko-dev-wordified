@@ -3787,6 +3787,7 @@ ForcedColors
 :
 :
 None
+;
 }
 let
 prefs
@@ -3808,6 +3809,7 @@ ForcedColors
 :
 :
 Active
+;
 }
 /
 /
