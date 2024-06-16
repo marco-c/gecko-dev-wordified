@@ -15226,7 +15226,7 @@ classList
 add
 (
 "
-whatsNew
+protections
 -
 hero
 -
@@ -15254,7 +15254,9 @@ classList
 add
 (
 "
-whatsNew
+protections
+-
+popup
 -
 message
 -
@@ -15285,7 +15287,9 @@ h2
 classList
 :
 "
-whatsNew
+protections
+-
+popup
 -
 message
 -
