@@ -1055,6 +1055,16 @@ block_download_insecure
 "
 true
 ]
+[
+"
+dom
+.
+security
+.
+https_first
+"
+false
+]
 ]
 }
 )
