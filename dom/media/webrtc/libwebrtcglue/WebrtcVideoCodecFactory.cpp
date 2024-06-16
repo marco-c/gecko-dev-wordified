@@ -554,11 +554,13 @@ webrtc
 SimulcastEncoderAdapter
 >
 (
+aEnv
 mInternalFactory
 .
 get
 (
 )
+nullptr
 aFormat
 )
 ;
@@ -568,8 +570,9 @@ return
 mInternalFactory
 -
 >
-CreateVideoEncoder
+Create
 (
+aEnv
 aFormat
 )
 ;
