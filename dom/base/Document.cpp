@@ -1917,17 +1917,6 @@ mozilla
 /
 dom
 /
-nsHTTPSOnlyUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 PContentChild
 .
 h
