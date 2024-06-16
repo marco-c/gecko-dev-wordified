@@ -18158,6 +18158,7 @@ lookupStringInAtomCacheLastLookups
 (
 str
 scratch
+str
 &
 vmCall
 )
