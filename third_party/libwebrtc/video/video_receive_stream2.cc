@@ -3826,6 +3826,11 @@ last_arrival_timestamp
 ToMs
 (
 )
+-
+rtc
+:
+:
+kNtpJan1970Millisecs
 ;
 stats
 .
@@ -3839,6 +3844,11 @@ last_remote_timestamp
 ToMs
 (
 )
+-
+rtc
+:
+:
+kNtpJan1970Millisecs
 ;
 stats
 .
