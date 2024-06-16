@@ -199,10 +199,6 @@ searchConfiguration
 "
     
 "
-shellService
-"
-    
-"
 testFeature
 "
     
