@@ -267,7 +267,6 @@ child
 lists
 .
 Principal
-Popup
 Caption
 ColGroup
 Absolute

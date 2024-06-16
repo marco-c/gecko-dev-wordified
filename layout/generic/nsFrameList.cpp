@@ -2882,17 +2882,6 @@ case
 FrameChildListID
 :
 :
-Popup
-:
-return
-"
-PopupList
-"
-;
-case
-FrameChildListID
-:
-:
 Caption
 :
 return
