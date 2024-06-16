@@ -11086,12 +11086,9 @@ date
 0
 0
 0
-double
-(
 earlierTime
 .
 days
-)
 }
 TemporalOverflow
 :
@@ -11329,12 +11326,9 @@ date
 0
 0
 0
-double
-(
 laterTime
 .
 days
-)
 }
 TemporalOverflow
 :
