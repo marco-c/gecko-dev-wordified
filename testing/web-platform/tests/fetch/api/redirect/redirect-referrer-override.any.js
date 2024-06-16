@@ -53,7 +53,7 @@ function
 getExpectation
 (
 expectations
-init
+initPolicy
 initScenario
 redirectPolicy
 redirectScenario
