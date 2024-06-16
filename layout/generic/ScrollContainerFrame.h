@@ -1079,7 +1079,7 @@ DestroyContext
 )
 override
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
 GetScrollTargetFrame
 (

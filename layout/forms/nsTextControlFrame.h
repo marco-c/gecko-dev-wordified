@@ -186,6 +186,9 @@ class
 AutoTextControlHandlingState
 ;
 class
+ScrollContainerFrame
+;
+class
 TextEditor
 ;
 class
@@ -381,7 +384,10 @@ DestroyContext
 )
 override
 ;
-nsIScrollableFrame
+mozilla
+:
+:
+ScrollContainerFrame
 *
 GetScrollTargetFrame
 (
