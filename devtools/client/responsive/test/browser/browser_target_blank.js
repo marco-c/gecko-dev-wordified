@@ -49,7 +49,7 @@ const
 TAB_URL
 =
 "
-http
+https
 :
 /
 /
