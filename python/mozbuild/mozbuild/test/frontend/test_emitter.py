@@ -1614,10 +1614,12 @@ extra_substs
 MOZ_DEBUG_FLAGS
 "
 :
+[
 "
 -
 g
 "
+]
 "
 MOZ_DEBUG_SYMBOLS
 "
@@ -1696,10 +1698,12 @@ extra_substs
 MOZ_DEBUG_FLAGS
 "
 :
+[
 "
 -
 g
 "
+]
 "
 MOZ_DEBUG_SYMBOLS
 "
