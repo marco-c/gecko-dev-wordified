@@ -2751,6 +2751,22 @@ length
 continue
 ;
 }
+if
+(
+knownIOList
+.
+some
+(
+io
+=
+>
+!
+io
+.
+ignoreIfUnused
+)
+)
+{
 /
 /
 The
@@ -2761,7 +2777,6 @@ interposer
 is
 disabled
 if
-!
 RELEASE_OR_BETA
 so
 we
@@ -2866,7 +2881,6 @@ having
 a
 lot
 of
-of
 confusing
 "
 no
@@ -2884,6 +2898,7 @@ failures
 .
 continue
 ;
+}
 }
 for
 (
