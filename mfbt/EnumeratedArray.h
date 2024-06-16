@@ -396,6 +396,7 @@ mArray
 ;
 public
 :
+constexpr
 EnumeratedArray
 (
 )
