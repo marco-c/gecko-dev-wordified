@@ -1199,6 +1199,10 @@ return
 true
 ;
 }
+#
+ifndef
+NDEBUG
+static
 int
 check_tensor_equal_dims
 (
@@ -1237,6 +1241,7 @@ height
 )
 ;
 }
+static
 int
 check_tensor_equal_size
 (
@@ -1287,6 +1292,11 @@ height
 )
 ;
 }
+#
+endif
+/
+/
+NDEBUG
 void
 av1_find_cnn_layer_output_size
 (
@@ -1552,6 +1562,7 @@ type
 }
 }
 }
+static
 void
 find_cnn_out_channels
 (

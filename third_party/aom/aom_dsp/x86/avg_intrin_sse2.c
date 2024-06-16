@@ -1299,6 +1299,7 @@ avg
 6
 ;
 }
+static
 void
 calc_avg_8x8_dual_sse2
 (

@@ -3779,6 +3779,7 @@ count
 ;
 }
 ;
+static
 int
 color_count_comp
 (

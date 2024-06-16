@@ -135,6 +135,15 @@ h
 #
 include
 "
+aom_util
+/
+aom_pthread
+.
+h
+"
+#
+include
+"
 av1
 /
 common
@@ -10872,6 +10881,8 @@ struct
 aom_internal_error_info
 *
 error
+=
+NULL
 ;
 /
 /
@@ -17220,6 +17231,7 @@ tpl
 row
 synchronization
 .
+static
 void
 av1_tpl_alloc
 (

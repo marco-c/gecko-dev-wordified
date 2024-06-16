@@ -9645,6 +9645,7 @@ shift
 )
 ;
 }
+static
 uint16_t
 prune_txk_type_separ
 (
@@ -10683,6 +10684,7 @@ return
 prune
 ;
 }
+static
 uint16_t
 prune_txk_type
 (

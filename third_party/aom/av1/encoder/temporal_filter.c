@@ -4056,6 +4056,7 @@ will
 be
 modified
 .
+static
 void
 tf_apply_temporal_filter_self
 (
@@ -4857,6 +4858,7 @@ will
 be
 modified
 .
+static
 void
 compute_luma_sq_error_sum
 (
@@ -12623,7 +12625,7 @@ NULL
 cpi
 -
 >
-image_pyramid_levels
+alloc_pyramid
 0
 )
 )

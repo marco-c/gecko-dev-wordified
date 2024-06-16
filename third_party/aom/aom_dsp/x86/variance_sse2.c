@@ -3287,11 +3287,6 @@ opt
 )
 DECLS
 (
-sse2
-)
-;
-DECLS
-(
 ssse3
 )
 ;
@@ -4194,10 +4189,6 @@ int32_t
 )
 #
 endif
-FNS
-(
-sse2
-)
 FNS
 (
 ssse3
@@ -4309,11 +4300,6 @@ opt
 )
 DECLS
 (
-sse2
-)
-;
-DECLS
-(
 ssse3
 )
 ;
@@ -5245,10 +5231,6 @@ int32_t
 )
 #
 endif
-FNS
-(
-sse2
-)
 FNS
 (
 ssse3
@@ -6108,8 +6090,9 @@ height
 ;
 }
 }
+static
 uint64_t
-aom_mse_4xh_16bit_sse2
+mse_4xh_16bit_sse2
 (
 uint8_t
 *
@@ -6368,8 +6351,9 @@ return
 sum
 ;
 }
+static
 uint64_t
-aom_mse_8xh_16bit_sse2
+mse_8xh_16bit_sse2
 (
 uint8_t
 *
@@ -6630,7 +6614,7 @@ case
 4
 :
 return
-aom_mse_4xh_16bit_sse2
+mse_4xh_16bit_sse2
 (
 dst
 dstride
@@ -6643,7 +6627,7 @@ case
 8
 :
 return
-aom_mse_8xh_16bit_sse2
+mse_8xh_16bit_sse2
 (
 dst
 dstride
