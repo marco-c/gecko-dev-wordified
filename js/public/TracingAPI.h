@@ -2554,7 +2554,7 @@ name
 thingp
 -
 >
-setPtr
+unbarrieredSetPtr
 (
 ptr
 )
