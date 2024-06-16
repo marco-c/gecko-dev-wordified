@@ -125,6 +125,7 @@ test
 null
 )
 ;
+await
 standardInit
 (
 )

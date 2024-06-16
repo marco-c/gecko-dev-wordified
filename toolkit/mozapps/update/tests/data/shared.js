@@ -1389,6 +1389,7 @@ service
 stub
 *
 /
+async
 function
 initUpdateServiceStub
 (

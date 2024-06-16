@@ -571,6 +571,7 @@ Log
 "
 )
 ;
+await
 standardInit
 (
 )

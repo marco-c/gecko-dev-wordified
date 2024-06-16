@@ -248,6 +248,7 @@ checkAppBundleModTime
 (
 )
 ;
+await
 standardInit
 (
 )

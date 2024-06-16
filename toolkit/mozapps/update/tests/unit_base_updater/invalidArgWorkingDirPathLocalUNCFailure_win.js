@@ -145,6 +145,7 @@ path
 null
 )
 ;
+await
 standardInit
 (
 )

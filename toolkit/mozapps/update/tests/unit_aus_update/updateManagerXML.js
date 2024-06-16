@@ -475,6 +475,7 @@ updates
 false
 )
 ;
+await
 standardInit
 (
 )

@@ -115,6 +115,7 @@ writeStatusFile
 STATE_NONE
 )
 ;
+await
 standardInit
 (
 )

@@ -8390,6 +8390,7 @@ stub
 .
 *
 /
+async
 function
 standardInit
 (
@@ -8403,6 +8404,7 @@ update
 service
 stub
 component
+await
 initUpdateServiceStub
 (
 )
