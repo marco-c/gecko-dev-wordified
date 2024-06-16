@@ -32,6 +32,14 @@ META
 variant
 =
 ?
+cpu
+/
+/
+META
+:
+variant
+=
+?
 gpu
 /
 /
