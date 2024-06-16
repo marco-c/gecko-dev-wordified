@@ -268,7 +268,7 @@ primary
 "
 devicePixelRatio
 "
-1
+2
 ]
 ]
 ;
