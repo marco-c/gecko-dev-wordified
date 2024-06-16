@@ -7286,6 +7286,15 @@ bool
 aIsOriginTrialCoepCredentiallessEnabled
 )
 ;
+void
+ParseSimpleURISchemes
+(
+const
+nsACString
+&
+schemeList
+)
+;
 }
 /
 /
