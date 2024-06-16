@@ -17844,6 +17844,14 @@ javascript_options_spectre_disable_for_isolated_content
 )
 &
 &
+StaticPrefs
+:
+:
+browser_opaqueResponseBlocking
+(
+)
+&
+&
 (
 remoteTypePrefix
 =
