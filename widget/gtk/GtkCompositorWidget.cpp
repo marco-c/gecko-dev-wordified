@@ -973,6 +973,11 @@ GetClientSize
 )
 )
 ;
+if
+(
+mWidget
+)
+{
 fullRegion
 .
 SubOut
@@ -985,6 +990,7 @@ GetOpaqueRegion
 )
 )
 ;
+}
 return
 fullRegion
 ;
