@@ -849,7 +849,9 @@ T12
 :
 34
 :
-56Z
+56
+.
+000Z
 "
 )
 ;
@@ -919,7 +921,10 @@ format_description
 well_known
 :
 :
-Rfc3339
+Iso8601
+:
+:
+DEFAULT
 )
 .
 unwrap
