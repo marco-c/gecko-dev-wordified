@@ -481,15 +481,6 @@ The_stacking_context
 #
 !
 [
-cfg_attr
-(
-feature
-=
-"
-cargo
--
-clippy
-"
 allow
 (
 clippy
@@ -504,7 +495,6 @@ clippy
 :
 :
 too_many_arguments
-)
 )
 ]
 /
