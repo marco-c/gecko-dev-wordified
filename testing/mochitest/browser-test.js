@@ -7919,11 +7919,6 @@ name
 err
 .
 message
-ex
-:
-err
-.
-stack
 stack
 :
 err
