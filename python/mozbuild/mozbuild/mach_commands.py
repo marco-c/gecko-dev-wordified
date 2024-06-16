@@ -19990,7 +19990,7 @@ snapcraft
 appname
 =
 snap_name
-	
+        
 branchname
 =
 branch
