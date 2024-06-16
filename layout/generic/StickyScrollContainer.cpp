@@ -1390,7 +1390,7 @@ nsLayoutUtils
 GetAllInFlowRectsFlag
 :
 :
-UseMarginBox
+UseMarginBoxWithAutoResolvedAsZero
 )
 ;
 /
