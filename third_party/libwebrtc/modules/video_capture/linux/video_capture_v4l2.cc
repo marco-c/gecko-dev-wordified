@@ -2195,7 +2195,6 @@ _streaming
 =
 true
 ;
-}
 /
 /
 start
@@ -2220,6 +2219,7 @@ quit_
 =
 false
 ;
+}
 _captureThread
 =
 rtc
