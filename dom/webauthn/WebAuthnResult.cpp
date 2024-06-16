@@ -137,7 +137,7 @@ IsInstanceOf
 java
 :
 :
-WebAuthnTokenManager
+WebAuthnUtils
 :
 :
 MakeCredentialResponse
@@ -149,7 +149,7 @@ MakeCredentialResponse
 java
 :
 :
-WebAuthnTokenManager
+WebAuthnUtils
 :
 :
 MakeCredentialResponse
@@ -220,7 +220,7 @@ IsInstanceOf
 java
 :
 :
-WebAuthnTokenManager
+WebAuthnUtils
 :
 :
 GetAssertionResponse
@@ -232,7 +232,7 @@ GetAssertionResponse
 java
 :
 :
-WebAuthnTokenManager
+WebAuthnUtils
 :
 :
 GetAssertionResponse

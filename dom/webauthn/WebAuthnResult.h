@@ -109,7 +109,7 @@ mozilla
 /
 java
 /
-WebAuthnTokenManagerNatives
+WebAuthnUtilsNatives
 .
 h
 "
@@ -250,7 +250,7 @@ const
 java
 :
 :
-WebAuthnTokenManager
+WebAuthnUtils
 :
 :
 MakeCredentialResponse
@@ -1014,7 +1014,7 @@ const
 java
 :
 :
-WebAuthnTokenManager
+WebAuthnUtils
 :
 :
 GetAssertionResponse
