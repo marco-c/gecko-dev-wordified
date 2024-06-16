@@ -723,7 +723,7 @@ description
 )
 ;
 }
-nsString
+nsCString
 AudioDecoderConfigInternal
 :
 :
@@ -732,7 +732,7 @@ ToString
 )
 const
 {
-nsString
+nsCString
 rv
 ;
 rv

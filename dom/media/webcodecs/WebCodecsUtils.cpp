@@ -2807,7 +2807,7 @@ implemented
 }
 }
 ;
-nsString
+nsCString
 WebCodecsConfigurationChangeList
 :
 :
@@ -2816,7 +2816,7 @@ ToString
 )
 const
 {
-nsString
+nsCString
 rv
 ;
 for
@@ -4085,7 +4085,7 @@ Nothing
 )
 ;
 }
-nsString
+nsCString
 ConfigToString
 (
 const

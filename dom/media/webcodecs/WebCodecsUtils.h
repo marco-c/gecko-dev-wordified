@@ -1347,7 +1347,7 @@ ToPEMChangeList
 )
 const
 ;
-nsString
+nsCString
 ToString
 (
 )
@@ -1412,7 +1412,7 @@ nsAString
 aCodecString
 )
 ;
-nsString
+nsCString
 ConfigToString
 (
 const

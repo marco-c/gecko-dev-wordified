@@ -266,7 +266,7 @@ CodecSpecific
 aSpecific
 )
 ;
-nsString
+nsCString
 ToString
 (
 )
@@ -649,7 +649,7 @@ aOther
 )
 const
 ;
-nsString
+nsCString
 ToString
 (
 )

@@ -421,7 +421,7 @@ VideoDecoderConfigInternal
 =
 default
 ;
-nsString
+nsCString
 ToString
 (
 )
@@ -990,7 +990,7 @@ aOther
 mOptimizeForLatency
 ;
 }
-nsString
+nsCString
 ToString
 (
 )
