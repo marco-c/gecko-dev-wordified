@@ -6792,6 +6792,12 @@ webdriver_binary
         
 self
 .
+init_deadline
+=
+None
+        
+self
+.
 stackfix_dir
 =
 stackfix_dir
@@ -7009,6 +7015,20 @@ self
 .
 env
 )
+        
+self
+.
+init_deadline
+=
+time
+.
+time
+(
+)
++
+self
+.
+init_timeout
         
 super
 (
