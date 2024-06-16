@@ -830,6 +830,15 @@ aText
 eventType
 )
 ;
+uiaRawElmProvider
+:
+:
+RaiseUiaEventForGeckoEvent
+(
+aText
+eventType
+)
+;
 }
 void
 a11y
