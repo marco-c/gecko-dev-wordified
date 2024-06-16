@@ -173,7 +173,6 @@ eUXButton
 =
 0
 eUXEdit
-eUXRebar
 eUXToolbar
 eUXProgress
 eUXTab
