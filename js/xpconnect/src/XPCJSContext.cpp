@@ -6155,7 +6155,11 @@ GetInt
 (
 JS_OPTIONS_DOT_STR
 "
-gczeal
+mem
+.
+gc_zeal
+.
+mode
 "
 -
 1
@@ -6171,7 +6175,9 @@ GetInt
 (
 JS_OPTIONS_DOT_STR
 "
-gczeal
+mem
+.
+gc_zeal
 .
 frequency
 "
