@@ -1566,14 +1566,14 @@ aTask
 #
 endif
 void
-GetDragFlavors
+GetAvailableDragFlavors
 (
 nsTArray
 <
 nsCString
 >
 &
-aFlavors
+aAvailableFlavors
 )
 ;
 gboolean
