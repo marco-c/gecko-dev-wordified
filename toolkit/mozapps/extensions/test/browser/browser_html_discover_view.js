@@ -4483,7 +4483,7 @@ view
 ;
 messageBar
 .
-closeButtonEl
+closeButton
 .
 click
 (
