@@ -269,10 +269,12 @@ helpers
 .
 isTopLevel
 (
-context
+helpers
 .
 getAncestors
 (
+context
+node
 )
 )
 )

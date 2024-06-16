@@ -348,10 +348,12 @@ helpers
 .
 getIsGlobalThis
 (
-context
+helpers
 .
 getAncestors
 (
+context
+node
 )
 )
 )
