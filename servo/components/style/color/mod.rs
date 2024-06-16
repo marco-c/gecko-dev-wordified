@@ -63,9 +63,14 @@ Color
 support
 functions
 .
-pub
+/
+/
+/
+cbindgen
+:
+ignore
 mod
-component
+color_function
 ;
 /
 /
@@ -76,6 +81,10 @@ ignore
 pub
 mod
 convert
+;
+pub
+mod
+component
 ;
 pub
 mod

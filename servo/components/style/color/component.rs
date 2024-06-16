@@ -137,6 +137,7 @@ component
 derive
 (
 Clone
+Debug
 MallocSizeOf
 PartialEq
 ToShmem
