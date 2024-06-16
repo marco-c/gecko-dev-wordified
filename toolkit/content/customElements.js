@@ -5576,6 +5576,8 @@ elements
 moz
 -
 radio
+-
+group
 .
 mjs
 "
@@ -5602,6 +5604,8 @@ elements
 moz
 -
 radio
+-
+group
 .
 mjs
 "
