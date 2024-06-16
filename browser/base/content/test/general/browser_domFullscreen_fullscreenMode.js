@@ -876,7 +876,9 @@ executeSoon
 )
 =
 >
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 )
@@ -1178,7 +1180,9 @@ executeSoon
 )
 =
 >
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 )
@@ -1365,7 +1369,9 @@ executeSoon
 )
 =
 >
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 )

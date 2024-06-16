@@ -239,7 +239,9 @@ fullscreen
 "
 )
 ;
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 ;
@@ -375,7 +377,9 @@ endCustomizing
 (
 )
 ;
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 ;

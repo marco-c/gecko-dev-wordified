@@ -5067,7 +5067,9 @@ sizemodechange
 "
 )
 ;
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 ;

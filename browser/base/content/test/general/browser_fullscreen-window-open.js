@@ -173,7 +173,9 @@ mode
 .
 newWin
 .
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 ;
@@ -198,7 +200,9 @@ mode
 .
 newWin
 .
-BrowserFullScreen
+BrowserCommands
+.
+fullScreen
 (
 )
 ;
