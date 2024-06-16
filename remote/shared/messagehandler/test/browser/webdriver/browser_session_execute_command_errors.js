@@ -107,12 +107,6 @@ session
 new
 WebDriverSession
 (
-{
-}
-new
-Set
-(
-)
 )
 ;
 info
@@ -184,12 +178,6 @@ session
 new
 WebDriverSession
 (
-{
-}
-new
-Set
-(
-)
 )
 ;
 info
