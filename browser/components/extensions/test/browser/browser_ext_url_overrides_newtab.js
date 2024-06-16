@@ -298,7 +298,9 @@ expectUrl
 ;
 win
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

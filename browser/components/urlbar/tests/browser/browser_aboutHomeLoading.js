@@ -604,7 +604,9 @@ about
 :
 newtab
 :
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
@@ -862,7 +864,9 @@ gBrowser
 ;
 win
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

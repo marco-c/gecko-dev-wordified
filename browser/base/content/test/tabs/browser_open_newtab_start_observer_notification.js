@@ -80,7 +80,9 @@ We
 '
 re
 calling
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 (
@@ -120,7 +122,9 @@ actions
 are
 triggered
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

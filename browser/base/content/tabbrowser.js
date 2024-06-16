@@ -24041,7 +24041,9 @@ button
 1
 )
 {
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 {
 event

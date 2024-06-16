@@ -412,7 +412,9 @@ newtab
 :
 win
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

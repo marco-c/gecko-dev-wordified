@@ -252,7 +252,9 @@ i
 +
 )
 {
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
@@ -336,7 +338,7 @@ expectedChildCount
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tabs
 [
@@ -758,7 +760,9 @@ attribute
 "
 )
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

@@ -65,7 +65,9 @@ waitForExplicitFinish
 (
 )
 ;
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

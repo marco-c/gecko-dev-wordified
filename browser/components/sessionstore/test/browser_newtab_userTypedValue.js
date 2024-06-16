@@ -109,7 +109,9 @@ newtab
 :
 win
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
@@ -402,7 +404,9 @@ about
 :
 newtab
 using
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 above

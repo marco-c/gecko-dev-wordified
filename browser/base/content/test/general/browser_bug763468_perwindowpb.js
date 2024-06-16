@@ -272,7 +272,9 @@ new
 tab
 aWindow
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

@@ -998,7 +998,9 @@ this
 .
 _win
 .
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;

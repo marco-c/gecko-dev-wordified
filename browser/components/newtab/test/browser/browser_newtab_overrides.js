@@ -470,7 +470,9 @@ as
 a
 user
 would
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
@@ -679,7 +681,9 @@ as
 a
 user
 would
-BrowserOpenTab
+BrowserCommands
+.
+openTab
 (
 )
 ;
