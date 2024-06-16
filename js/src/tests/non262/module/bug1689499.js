@@ -12,7 +12,6 @@ xulRuntime
 .
 shell
 )
-module
 async
 -
 -

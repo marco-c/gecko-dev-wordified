@@ -1,11 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-module
 function
 testImport
 (
