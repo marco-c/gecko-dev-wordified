@@ -708,11 +708,11 @@ aOriginalURI
 const
 nsAString
 &
-aViolatedDirective
+aViolatedDirectiveName
 const
 nsAString
 &
-aViolatedDirectiveString
+aViolatedDirectiveNameAndValue
 const
 CSPDirective
 aEffectiveDirective
