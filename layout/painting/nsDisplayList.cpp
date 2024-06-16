@@ -11035,7 +11035,7 @@ if
 parent
 -
 >
-IsScrollContainer
+IsScrollContainerOrSubclass
 (
 )
 )

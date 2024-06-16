@@ -5946,7 +5946,7 @@ if
 aFrame
 -
 >
-IsScrollContainer
+IsScrollContainerOrSubclass
 (
 )
 )
