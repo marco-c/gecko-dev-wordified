@@ -301,6 +301,10 @@ mType
 (
 aType
 )
+mDoNotAttemptToLoadData
+(
+false
+)
 mDataTransfer
 (
 aDataTransfer
@@ -780,6 +784,9 @@ nsCOMPtr
 nsIVariant
 >
 mData
+;
+bool
+mDoNotAttemptToLoadData
 ;
 nsCOMPtr
 <
