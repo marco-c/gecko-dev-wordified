@@ -183,7 +183,6 @@ ImportRule
 KeyframesRule
 LayerBlockRule
 LayerStatementRule
-MarginRule
 MediaRule
 NamespaceRule
 PageRule
@@ -437,14 +436,6 @@ impl_simple_arc_ffi
 NamespaceRule
 Servo_NamespaceRule_AddRef
 Servo_NamespaceRule_Release
-)
-;
-impl_simple_arc_ffi
-!
-(
-MarginRule
-Servo_MarginRule_AddRef
-Servo_MarginRule_Release
 )
 ;
 impl_locked_arc_ffi
