@@ -2562,3 +2562,13 @@ list
 libxul_list
 ]
 )
+EXPORTS
++
+=
+[
+"
+buildid_section
+.
+h
+"
+]
