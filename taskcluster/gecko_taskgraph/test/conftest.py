@@ -263,6 +263,9 @@ GECKO
 "
 taskcluster
 "
+"
+ci
+"
 )
 )
 pytest

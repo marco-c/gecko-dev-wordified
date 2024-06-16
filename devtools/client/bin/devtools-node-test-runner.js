@@ -108,7 +108,7 @@ tooling
 See
 taskcluster
 /
-kinds
+ci
 /
 source
 -

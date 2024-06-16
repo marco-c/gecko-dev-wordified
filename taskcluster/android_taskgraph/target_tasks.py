@@ -58,14 +58,14 @@ taskgraph
 .
 target_tasks
 import
-register_target_task
+_target_task
 from
 android_taskgraph
 .
 release_type
 import
 does_task_match_release_type
-register_target_task
+_target_task
 (
 "
 promote_android
@@ -100,7 +100,7 @@ promote
 "
     
 )
-register_target_task
+_target_task
 (
 "
 push_android
@@ -142,7 +142,7 @@ push
 "
     
 )
-register_target_task
+_target_task
 (
 "
 ship_android
@@ -390,7 +390,7 @@ t
 parameters
 )
 ]
-register_target_task
+_target_task
 (
 "
 screenshots
@@ -468,7 +468,7 @@ t
 parameters
 )
 ]
-register_target_task
+_target_task
 (
 "
 legacy_api_ui_tests

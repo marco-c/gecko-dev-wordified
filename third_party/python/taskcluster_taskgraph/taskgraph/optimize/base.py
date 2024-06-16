@@ -1748,20 +1748,6 @@ visit_postorder
 )
 :
         
-logger
-.
-debug
-(
-f
-"
-replace_tasks
-:
-{
-label
-}
-"
-)
-        
 #
 if
 we
@@ -1783,23 +1769,6 @@ label
 in
 do_not_optimize
 :
-            
-logger
-.
-debug
-(
-f
-"
-replace_tasks
-:
-{
-label
-}
-is
-in
-do_not_optimize
-"
-)
             
 continue
         
@@ -1843,29 +1812,6 @@ label
         
 )
 :
-            
-logger
-.
-debug
-(
-                
-f
-"
-replace_tasks
-:
-{
-label
-}
-depends
-on
-an
-unreplaced
-or
-unremoved
-task
-"
-            
-)
             
 continue
         
@@ -1918,23 +1864,6 @@ existing_tasks
 +
 =
 1
-            
-logger
-.
-debug
-(
-f
-"
-replace_tasks
-:
-{
-label
-}
-replaced
-from
-existing_tasks
-"
-)
             
 continue
         
@@ -2055,24 +1984,6 @@ is
 True
 :
                 
-logger
-.
-debug
-(
-f
-"
-replace_tasks
-:
-{
-label
-}
-removed
-by
-optimization
-strategy
-"
-)
-                
 #
 True
 means
@@ -2104,26 +2015,6 @@ label
 else
 :
                 
-logger
-.
-debug
-(
-                    
-f
-"
-replace_tasks
-:
-{
-label
-}
-replaced
-by
-optimization
-strategy
-"
-                
-)
-                
 label_to_taskid
 [
 label
@@ -2147,27 +2038,6 @@ opt_by
 1
             
 continue
-        
-else
-:
-            
-logger
-.
-debug
-(
-f
-"
-replace_tasks
-:
-{
-label
-}
-kept
-by
-optimization
-strategy
-"
-)
     
 _log_optimization
 (

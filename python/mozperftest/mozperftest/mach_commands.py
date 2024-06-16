@@ -860,7 +860,7 @@ jobs
 in
 taskcluster
 /
-kinds
+ci
 /
 perftest
 /

@@ -3796,6 +3796,9 @@ root
 "
 taskcluster
 "
+"
+ci
+"
 )
             
 graph_config

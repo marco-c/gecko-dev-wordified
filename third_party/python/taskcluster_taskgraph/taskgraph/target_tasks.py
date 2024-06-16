@@ -81,7 +81,7 @@ heads
 /
 "
 def
-register_target_task
+_target_task
 (
 name
 )
@@ -489,7 +489,7 @@ filter_for_git_branch
 )
     
 )
-register_target_task
+_target_task
 (
 "
 default
@@ -553,7 +553,7 @@ parameters
 )
     
 ]
-register_target_task
+_target_task
 (
 "
 codereview
@@ -632,7 +632,7 @@ review
 )
     
 ]
-register_target_task
+_target_task
 (
 "
 nothing

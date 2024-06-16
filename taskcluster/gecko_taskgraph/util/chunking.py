@@ -184,7 +184,7 @@ GECKO
 taskcluster
 "
 "
-kinds
+ci
 "
 "
 test
@@ -207,7 +207,7 @@ GECKO
 taskcluster
 "
 "
-kinds
+ci
 "
 "
 test

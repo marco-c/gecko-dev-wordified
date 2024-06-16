@@ -241,6 +241,9 @@ GECKO
 "
 taskcluster
 "
+"
+ci
+"
 )
 )
     

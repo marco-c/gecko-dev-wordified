@@ -155,11 +155,13 @@ quotes
 "
     
 if
-isinstance
+type
 (
 s
-int
 )
+=
+=
+int
 :
         
 return

@@ -213,8 +213,6 @@ from
 taskgraph
 .
 optimize
-.
-strategies
 import
 IndexSearch
     
@@ -282,10 +280,6 @@ image_name
 "
 ]
     
-deadline
-=
-None
-    
 task_id
 =
 IndexSearch
@@ -298,7 +292,6 @@ should_replace_task
 task
 {
 }
-deadline
 task
 .
 optimization
@@ -371,9 +364,9 @@ a
 fresh
 checkout
 of
-{
-project
-}
+mozilla
+-
+central
 "
             
 "
@@ -385,19 +378,9 @@ image
 .
 format
 (
-                
 image_name
 =
 image_name
-project
-=
-params
-[
-"
-project
-"
-]
-            
 )
         
 )

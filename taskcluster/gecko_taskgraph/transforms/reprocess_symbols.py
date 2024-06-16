@@ -66,7 +66,7 @@ description
 template
 taskcluster
 /
-kinds
+ci
 /
 reprocess
 -

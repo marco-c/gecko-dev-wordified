@@ -60,7 +60,7 @@ Common
 support
 for
 various
-task
+job
 types
 .
 These
@@ -130,7 +130,7 @@ vcs
 def
 add_cache
 (
-task
+job
 taskdesc
 name
 mount_point
@@ -158,13 +158,16 @@ implementation
 Args
 :
         
-task
+job
 (
 dict
 )
 :
-Tasks
-object
+Task
+'
+s
+job
+description
 .
         
 taskdesc
@@ -238,7 +241,7 @@ worker
     
 if
 not
-task
+job
 [
 "
 run
@@ -260,7 +263,7 @@ return
     
 worker
 =
-task
+job
 [
 "
 worker
@@ -406,7 +409,7 @@ def
 add_artifacts
 (
 config
-task
+job
 taskdesc
 path
 )
@@ -463,7 +466,7 @@ def
 docker_worker_add_artifacts
 (
 config
-task
+job
 taskdesc
 )
 :
@@ -497,7 +500,7 @@ format
 (
 *
 *
-task
+job
 [
 "
 run
@@ -527,7 +530,7 @@ path
 add_artifacts
 (
 config
-task
+job
 taskdesc
 path
 )
@@ -535,7 +538,7 @@ def
 generic_worker_add_artifacts
 (
 config
-task
+job
 taskdesc
 )
 :
@@ -595,7 +598,7 @@ add_artifacts
 add_artifacts
 (
 config
-task
+job
 taskdesc
 path
 =
@@ -608,7 +611,7 @@ def
 support_vcs_checkout
 (
 config
-task
+job
 taskdesc
 repo_configs
 sparse
@@ -622,6 +625,8 @@ False
 "
 Update
 a
+job
+/
 task
 with
 parameters
@@ -662,7 +667,7 @@ tasks
     
 worker
 =
-task
+job
 [
 "
 worker
@@ -775,7 +780,7 @@ format
 (
 *
 *
-task
+job
 [
 "
 run
@@ -1025,9 +1030,70 @@ cache_name
 sparse
 "
     
+#
+Workers
+using
+Mercurial
+>
+=
+5
+.
+8
+will
+enable
+revlog
+-
+compression
+-
+zstd
+which
+    
+#
+workers
+using
+older
+versions
+can
+'
+t
+understand
+so
+they
+can
+'
+t
+share
+cache
+.
+    
+#
+At
+the
+moment
+only
+docker
+workers
+use
+the
+newer
+version
+.
+    
+if
+is_docker
+:
+        
+cache_name
++
+=
+"
+-
+hg58
+"
+    
 add_cache
 (
-task
+job
 taskdesc
 cache_name
 checkoutdir
@@ -1250,7 +1316,7 @@ proxy
 enabled
     
 if
-task
+job
 [
 "
 worker
