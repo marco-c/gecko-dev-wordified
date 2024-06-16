@@ -100,10 +100,7 @@ use
 serde_json
 :
 :
-{
-self
 Value
-}
 ;
 use
 std
