@@ -9900,6 +9900,13 @@ RegExpNode
 on_success
 )
 {
+compiler
+-
+>
+ToNodeMaybeCheckForStackOverflow
+(
+)
+;
 int
 stack_pointer_register
 =
