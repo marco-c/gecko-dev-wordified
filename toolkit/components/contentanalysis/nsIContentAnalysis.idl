@@ -265,7 +265,6 @@ finalAction
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 89088c61
@@ -366,17 +365,11 @@ eErrorOther
 3
 }
 ;
-[
-infallible
-]
 readonly
 attribute
 nsIContentAnalysisResponse_Action
 action
 ;
-[
-infallible
-]
 readonly
 attribute
 boolean
@@ -408,9 +401,6 @@ user
 canceled
 it
 .
-[
-infallible
-]
 readonly
 attribute
 nsIContentAnalysisResponse_CancelError
@@ -1140,7 +1130,6 @@ requestCount
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 61497587
