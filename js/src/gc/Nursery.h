@@ -2522,9 +2522,7 @@ reportPretenuring
 const
 {
 return
-pretenuringReportFilter_
-.
-enabled
+reportPretenuring_
 ;
 }
 void
@@ -4540,11 +4538,11 @@ each
 allocation
 site
 .
-gc
-:
-:
-AllocSiteFilter
-pretenuringReportFilter_
+bool
+reportPretenuring_
+;
+size_t
+reportPretenuringThreshold_
 ;
 /
 /
