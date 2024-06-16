@@ -1185,7 +1185,9 @@ return
 mPropertiesWithImportantRules
 ;
 }
-nsCSSPropertyIDSet
+const
+AnimatedPropertyIDSet
+&
 PropertiesForAnimationsLevel
 (
 )
@@ -1195,7 +1197,7 @@ return
 mPropertiesForAnimationsLevel
 ;
 }
-nsCSSPropertyIDSet
+AnimatedPropertyIDSet
 &
 PropertiesForAnimationsLevel
 (
@@ -1454,7 +1456,7 @@ of
 the
 cascede
 .
-nsCSSPropertyIDSet
+AnimatedPropertyIDSet
 mPropertiesForAnimationsLevel
 ;
 #
