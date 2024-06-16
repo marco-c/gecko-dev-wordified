@@ -2679,6 +2679,7 @@ GetFirstChild
 ;
 SVGBBox
 unionBBox
+tmpBBox
 ;
 for
 (
@@ -2736,7 +2737,6 @@ frame
 *
 aMatrix
 ;
-SVGBBox
 tmpBBox
 =
 svg
@@ -2754,7 +2754,7 @@ matrix
 SVGUtils
 :
 :
-eBBoxIncludeFillGeometry
+eBBoxIncludeFill
 )
 ;
 SVGClipPathFrame
@@ -2832,10 +2832,8 @@ if
 clipPathThatClipsClipPath
 )
 {
-unionBBox
-.
-Intersect
-(
+tmpBBox
+=
 clipPathThatClipsClipPath
 -
 >
@@ -2845,6 +2843,12 @@ aBBox
 aMatrix
 aFlags
 )
+;
+unionBBox
+.
+Intersect
+(
+tmpBBox
 )
 ;
 }
