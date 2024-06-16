@@ -1095,6 +1095,15 @@ jsid
 id
 )
 ;
+void
+attachMegamorphicNativeSlotPermissive
+(
+ObjOperandId
+objId
+jsid
+id
+)
+;
 ValOperandId
 getElemKeyValueId
 (
