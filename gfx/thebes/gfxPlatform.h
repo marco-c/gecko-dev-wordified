@@ -460,9 +460,9 @@ manage
 tagged
 Images
 Only
-AllCount
+_ENUM_MAX
 =
-3
+TaggedOnly
 }
 ;
 enum

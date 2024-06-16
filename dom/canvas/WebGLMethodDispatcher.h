@@ -663,6 +663,13 @@ DEFINE_ASYNC
 HostWebGLContext
 :
 :
+SetDrawingBufferColorSpace
+)
+DEFINE_ASYNC
+(
+HostWebGLContext
+:
+:
 ShaderSource
 )
 DEFINE_ASYNC
