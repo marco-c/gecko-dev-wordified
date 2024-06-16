@@ -358,7 +358,13 @@ field_trials
 UDPPort
 (
 thread
-LOCAL_PORT_TYPE
+webrtc
+:
+:
+IceCandidateType
+:
+:
+kHost
 factory
 network
 min_port
