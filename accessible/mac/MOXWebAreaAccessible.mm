@@ -1260,10 +1260,7 @@ rootGroup
 {
 return
 [
-[
-self
 rootGroup
-]
 ]
 ;
 }
