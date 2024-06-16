@@ -2470,6 +2470,15 @@ Scope
 .
 .
 )
+|
+CssRule
+:
+:
+StartingStyle
+(
+.
+.
+)
 =
 >
 false
