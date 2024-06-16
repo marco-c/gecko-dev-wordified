@@ -25351,6 +25351,10 @@ GetExistingView
 ;
 if
 (
+!
+view
+|
+|
 NS_FAILED
 (
 view
