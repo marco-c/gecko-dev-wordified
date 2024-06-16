@@ -357,9 +357,6 @@ nsstring
 nsAString
 ;
 use
-num_cpus
-;
-use
 program_cache
 :
 :
@@ -367,9 +364,6 @@ program_cache
 remove_disk_cache
 WrProgramCache
 }
-;
-use
-rayon
 ;
 use
 tracy_rs
@@ -414,7 +408,6 @@ Compositor
 CompositorCapabilities
 CompositorConfig
 CompositorSurfaceTransform
-DebugFlags
 Device
 MappableCompositor
 MappedTileInfo
