@@ -806,7 +806,13 @@ ClipOut
 .
 .
 }
-|
+=
+>
+{
+return
+false
+;
+}
 ClipItemKind
 :
 :
