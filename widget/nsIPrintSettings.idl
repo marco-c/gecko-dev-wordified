@@ -2404,7 +2404,7 @@ outputStream
 /
 *
 for
-kOutputDestinationPrinter
+kOutputDestinationStream
 *
 /
 [
