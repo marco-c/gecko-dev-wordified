@@ -4423,8 +4423,8 @@ mListStylePosition
 mozilla
 :
 :
-CounterStylePtr
-mCounterStyle
+StyleListStyleType
+mListStyleType
 ;
 mozilla
 :

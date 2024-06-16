@@ -4887,7 +4887,7 @@ StyleList
 )
 -
 >
-mCounterStyle
+mListStyleType
 .
 IsNone
 (
