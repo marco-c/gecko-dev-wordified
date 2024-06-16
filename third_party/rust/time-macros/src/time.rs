@@ -541,7 +541,8 @@ hour
 >
 =
 Hour
-.
+:
+:
 per
 (
 Day
@@ -592,7 +593,8 @@ minute
 >
 =
 Minute
-.
+:
+:
 per
 (
 Hour
@@ -638,7 +640,8 @@ second
 >
 =
 Second
-.
+:
+:
 per
 (
 Minute
@@ -707,7 +710,8 @@ fract
 )
 *
 Nanosecond
-.
+:
+:
 per
 (
 Second
@@ -753,6 +757,8 @@ time
 :
 Time
 =
+unsafe
+{
 :
 :
 time
@@ -788,6 +794,7 @@ self
 nanosecond
 )
 )
+}
 ;
 TIME
 }

@@ -56,9 +56,6 @@ iterator
 .
 iter
 :
-core
-:
-:
 iter
 :
 :
