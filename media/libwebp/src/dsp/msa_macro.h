@@ -811,10 +811,9 @@ TYPE
 val_m
 ;
 \
-asm
+__asm__
 volatile
 (
-\
 "
 "
 #
@@ -917,10 +916,9 @@ val_m
 val
 ;
 \
-asm
+__asm__
 volatile
 (
-\
 "
 "
 #

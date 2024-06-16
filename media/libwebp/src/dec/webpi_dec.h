@@ -229,6 +229,17 @@ vp8_dec
 .
 h
 "
+#
+include
+"
+src
+/
+webp
+/
+decode
+.
+h
+"
 /
 /
 -
@@ -1003,6 +1014,7 @@ the
 output
 one
 .
+WEBP_NODISCARD
 int
 WebPIoInitFromOptions
 (

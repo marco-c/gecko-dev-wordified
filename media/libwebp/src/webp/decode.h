@@ -502,6 +502,7 @@ for
 internal
 purpose
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPGetInfo
@@ -599,6 +600,7 @@ case
 of
 error
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -639,6 +641,7 @@ B
 ordered
 data
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -679,6 +682,7 @@ A
 ordered
 data
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -728,6 +732,7 @@ it
 is
 ignored
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -766,6 +771,7 @@ R
 ordered
 data
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -974,6 +980,7 @@ org
 wiki
 /
 YCbCr
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -1113,6 +1120,7 @@ picture
 -
 height
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -1133,6 +1141,7 @@ int
 output_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -1153,6 +1162,7 @@ int
 output_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -1195,6 +1205,7 @@ dropped
 and
 ignored
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -1215,6 +1226,7 @@ int
 output_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -1350,6 +1362,7 @@ too
 small
 )
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -2237,6 +2250,7 @@ version
 checked
 entry
 point
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPInitDecBufferInternal
@@ -2271,6 +2285,7 @@ case
 of
 version
 mismatch
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -2418,6 +2433,7 @@ status
 codes
 typedef
 enum
+WEBP_NODISCARD
 VP8StatusCode
 {
 VP8_STATUS_OK
@@ -2577,30 +2593,22 @@ Code
 example
 :
 /
-/
-/
-/
+*
 WebPInitDecBuffer
 (
 &
 output_buffer
 )
 ;
-/
-/
 output_buffer
 .
 colorspace
 =
 mode
 ;
-/
-/
 .
 .
 .
-/
-/
 WebPIDecoder
 *
 idec
@@ -2611,15 +2619,11 @@ WebPINewDecoder
 output_buffer
 )
 ;
-/
-/
 while
 (
 additional_data_is_available
 )
 {
-/
-/
 /
 /
 .
@@ -2636,8 +2640,6 @@ new_data
 ]
 buffer
 )
-/
-/
 status
 =
 WebPIAppend
@@ -2647,8 +2649,6 @@ new_data
 new_data_size
 )
 ;
-/
-/
 if
 (
 status
@@ -2663,8 +2663,6 @@ status
 VP8_STATUS_SUSPENDED
 )
 {
-/
-/
 break
 ;
 /
@@ -2673,13 +2671,7 @@ an
 error
 occurred
 .
-/
-/
 }
-/
-/
-/
-/
 /
 /
 The
@@ -2691,8 +2683,6 @@ current
 available
 buffer
 .
-/
-/
 /
 /
 Part
@@ -2707,8 +2697,6 @@ by
 calling
 /
 /
-/
-/
 WebPIDecGetRGB
 (
 )
@@ -2718,16 +2706,14 @@ WebPIDecGetYUVA
 )
 etc
 .
-/
-/
 }
-/
-/
 WebPIDelete
 (
 idec
 )
 ;
+*
+/
 /
 /
 Creates
@@ -2896,6 +2882,7 @@ the
 allocation
 failed
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPIDecoder
 *
@@ -3040,6 +3027,7 @@ parameters
 are
 invalid
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPIDecoder
 *
@@ -3243,6 +3231,7 @@ parameter
 is
 invalid
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPIDecoder
 *
@@ -3297,6 +3286,7 @@ for
 backward
 compatibility
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPIDecoder
 *
@@ -3602,6 +3592,7 @@ NULL
 /
 return
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -3672,6 +3663,7 @@ be
 returned
 NULL
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 uint8_t
 *
@@ -3743,6 +3735,7 @@ for
 backward
 compatibility
 .
+WEBP_NODISCARD
 static
 WEBP_INLINE
 uint8_t
@@ -3879,6 +3872,7 @@ not
 be
 modified
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 const
 WebPDecBuffer
@@ -4062,6 +4056,8 @@ config
 if
 needed
 config
+.
+options
 .
 no_fancy_upsampling
 =
@@ -4733,6 +4729,7 @@ version
 checked
 entry
 point
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPInitDecoderConfigInternal
@@ -4778,6 +4775,7 @@ of
 mismatched
 version
 .
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -4958,6 +4956,7 @@ if
 available
 )
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPIDecoder
 *

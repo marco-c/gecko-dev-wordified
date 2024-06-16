@@ -1726,6 +1726,7 @@ version
 checked
 entry
 point
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPConfigInitInternal
@@ -1794,6 +1795,7 @@ quality
 =
 75
 .
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -1872,6 +1874,7 @@ case
 of
 error
 .
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -1981,6 +1984,7 @@ of
 parameter
 error
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPConfigLosslessPreset
@@ -2016,6 +2020,7 @@ their
 valid
 ranges
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPValidateConfig
@@ -2661,6 +2666,7 @@ by
 calling
 WebPMemoryWriterClear
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPMemoryWrite
@@ -3620,6 +3626,7 @@ version
 checked
 entry
 point
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureInitInternal
@@ -3680,6 +3687,7 @@ colorspace
 is
 WEBP_YUV420
 .
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -3839,6 +3847,7 @@ of
 memory
 error
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureAlloc
@@ -3978,6 +3987,7 @@ memory
 allocation
 error
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureCopy
@@ -4106,6 +4116,7 @@ error
 .
 )
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPlaneDistortion
@@ -4235,6 +4246,7 @@ CPU
 -
 intensive
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureDistortion
@@ -4382,6 +4394,7 @@ to
 even
 values
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureCrop
@@ -4582,6 +4595,7 @@ of
 invalid
 parameters
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureView
@@ -4705,6 +4719,7 @@ insufficient
 memory
 )
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureRescale
@@ -4766,6 +4781,7 @@ of
 memory
 error
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportRGB
@@ -4789,6 +4805,7 @@ for
 RGBA
 buffer
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportRGBA
@@ -4853,6 +4870,7 @@ the
 RGB
 only
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportRGBX
@@ -4884,6 +4902,7 @@ X
 )
 input
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportBGR
@@ -4899,6 +4918,7 @@ int
 bgr_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportBGRA
@@ -4914,6 +4934,7 @@ int
 bgra_stride
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureImportBGRX
@@ -5011,6 +5032,7 @@ case
 of
 error
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureARGBToYUVA
@@ -5081,6 +5103,7 @@ for
 photographic
 picture
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureARGBToYUVADithered
@@ -5108,7 +5131,6 @@ downsampling
 and
 colorspace
 conversion
-.
 /
 /
 Downsampling
@@ -5154,6 +5176,7 @@ case
 of
 error
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureSharpARGBToYUVA
@@ -5170,6 +5193,7 @@ for
 backward
 compatibility
 :
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureSmartARGBToYUVA
@@ -5263,6 +5287,7 @@ case
 of
 error
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPPictureYUVAToARGB
@@ -5672,6 +5697,7 @@ incur
 some
 loss
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPEncode

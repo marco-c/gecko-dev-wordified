@@ -608,6 +608,7 @@ true
 on
 success
 .
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int

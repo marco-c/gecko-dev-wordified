@@ -537,6 +537,15 @@ mux_types
 h
 "
 #
+include
+"
+.
+/
+types
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
@@ -907,6 +916,7 @@ version
 checked
 entry
 point
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPDemuxer
 *
@@ -968,6 +978,7 @@ parse
 NULL
 otherwise
 .
+WEBP_NODISCARD
 static
 WEBP_INLINE
 WebPDemuxer
@@ -1113,6 +1124,7 @@ an
 inexpensive
 operation
 .
+WEBP_NODISCARD
 static
 WEBP_INLINE
 WebPDemuxer
@@ -1773,6 +1785,7 @@ of
 iter
 '
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxGetFrame
@@ -1843,6 +1856,7 @@ success
 false
 otherwise
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxNextFrame
@@ -1852,6 +1866,7 @@ WebPIterator
 iter
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxPrevFrame
@@ -2193,6 +2208,7 @@ of
 the
 iterator
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxGetChunk
@@ -2269,6 +2285,7 @@ success
 false
 otherwise
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxNextChunk
@@ -2278,6 +2295,7 @@ WebPChunkIterator
 iter
 )
 ;
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPDemuxPrevChunk
@@ -2681,6 +2699,7 @@ checked
 entry
 point
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPAnimDecoderOptionsInitInternal
@@ -2733,6 +2752,7 @@ dec_options
 '
 object
 .
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -2760,6 +2780,7 @@ checked
 entry
 point
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 WebPAnimDecoder
 *
@@ -2874,6 +2895,7 @@ or
 memory
 error
 .
+WEBP_NODISCARD
 static
 WEBP_INLINE
 WebPAnimDecoder
@@ -2991,6 +3013,7 @@ True
 on
 success
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPAnimDecoderGetInfo
@@ -3167,6 +3190,7 @@ Otherwise
 returns
 true
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPAnimDecoderGetNext
@@ -3241,6 +3265,7 @@ Otherwise
 returns
 false
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 int
 WebPAnimDecoderHasMoreFrames
@@ -3433,6 +3458,7 @@ to
 be
 fetched
 .
+WEBP_NODISCARD
 WEBP_EXTERN
 const
 WebPDemuxer

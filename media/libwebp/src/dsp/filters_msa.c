@@ -508,11 +508,14 @@ macro
 .
 #
 define
-SANITY_CHECK
+DCHECK
 (
 in
 out
 )
+\
+do
+{
 \
 assert
 (
@@ -556,6 +559,12 @@ stride
 width
 )
 ;
+\
+}
+while
+(
+0
+)
 /
 /
 -
@@ -684,7 +693,7 @@ row
 =
 1
 ;
-SANITY_CHECK
+DCHECK
 (
 in
 out
@@ -1207,7 +1216,7 @@ row
 =
 1
 ;
-SANITY_CHECK
+DCHECK
 (
 in
 out
@@ -1459,7 +1468,7 @@ row
 =
 1
 ;
-SANITY_CHECK
+DCHECK
 (
 in
 out
@@ -1570,7 +1579,7 @@ stride
 }
 #
 undef
-SANITY_CHECK
+DCHECK
 /
 /
 -

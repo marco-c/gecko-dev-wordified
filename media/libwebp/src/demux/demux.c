@@ -263,11 +263,11 @@ DMUX_MAJ_VERSION
 #
 define
 DMUX_MIN_VERSION
-3
+4
 #
 define
 DMUX_REV_VERSION
-2
+0
 typedef
 struct
 {

@@ -1496,7 +1496,6 @@ IN
 )
 0
 )
-;
 #
 define
 GETQ_U8_AS_U32
@@ -1513,7 +1512,6 @@ IN
 )
 0
 )
-;
 #
 define
 STOREQ_U8_AS_U32P
@@ -1533,7 +1531,6 @@ IN
 )
 )
 )
-;
 #
 define
 ROTATE32_LEFT

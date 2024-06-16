@@ -221,6 +221,17 @@ sharpyuv_cpu
 .
 h
 "
+#
+include
+"
+src
+/
+webp
+/
+types
+.
+h
+"
 /
 /
 -

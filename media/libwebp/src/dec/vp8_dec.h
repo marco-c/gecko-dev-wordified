@@ -206,6 +206,17 @@ decode
 h
 "
 #
+include
+"
+src
+/
+webp
+/
+types
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
@@ -1020,6 +1031,7 @@ version
 checked
 entry
 point
+WEBP_NODISCARD
 int
 VP8InitIoInternal
 (
@@ -1070,6 +1082,7 @@ modified
 false
 otherwise
 .
+WEBP_NODISCARD
 int
 WebPISetIOHooks
 (
@@ -1164,6 +1177,7 @@ VP8GetHeaders
 .
 .
 )
+WEBP_NODISCARD
 static
 WEBP_INLINE
 int
@@ -1218,6 +1232,7 @@ VP8
 frame
 header
 .
+WEBP_NODISCARD
 int
 VP8GetHeaders
 (
@@ -1259,6 +1274,7 @@ case
 of
 error
 .
+WEBP_NODISCARD
 int
 VP8Decode
 (

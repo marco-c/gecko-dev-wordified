@@ -491,6 +491,7 @@ error
 1
 otherwise
 .
+WEBP_NODISCARD
 int
 VP8LHuffmanTablesAllocate
 (
@@ -751,6 +752,7 @@ tree
 -
 groups
 .
+WEBP_NODISCARD
 HTreeGroup
 *
 VP8LHtreeGroupsNew
@@ -835,6 +837,7 @@ memory
 error
 )
 .
+WEBP_NODISCARD
 int
 VP8LBuildHuffmanTable
 (
