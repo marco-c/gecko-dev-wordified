@@ -545,8 +545,6 @@ importExternalTexture
 (
 {
 source
-:
-source
 }
 )
 ;
@@ -613,8 +611,6 @@ device
 importExternalTexture
 (
 {
-source
-:
 source
 }
 )
@@ -824,8 +820,6 @@ importExternalTexture
 (
 {
 source
-:
-source
 }
 )
 ;
@@ -1033,8 +1027,6 @@ importExternalTexture
 (
 {
 source
-:
-source
 }
 )
 ;
@@ -1235,8 +1227,6 @@ importExternalTexture
 (
 {
 source
-:
-source
 }
 )
 ;
@@ -1300,8 +1290,6 @@ device
 importExternalTexture
 (
 {
-source
-:
 source
 }
 )
@@ -1469,8 +1457,6 @@ device
 importExternalTexture
 (
 {
-source
-:
 source
 }
 )

@@ -28,7 +28,7 @@ cts
 /
 import
 {
-optionEnabled
+optionWorkerMode
 }
 from
 '
@@ -1081,7 +1081,7 @@ https
 .
 html
 ?
-worker
+debug
 =
 0
 &
@@ -1115,7 +1115,7 @@ searchParams
 ;
 if
 (
-optionEnabled
+optionWorkerMode
 (
 '
 worker
@@ -1125,7 +1125,7 @@ params
 !
 =
 =
-optionEnabled
+optionWorkerMode
 (
 '
 worker

@@ -58,7 +58,7 @@ files
 see
 tools
 /
-gen_listings
+gen_listings_and_webworkers
 )
 .
 export

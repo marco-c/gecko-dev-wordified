@@ -3639,9 +3639,6 @@ expected
 {
 expectPassed
 }
-{
-name
-}
 )
 ;
 }
@@ -3881,9 +3878,6 @@ expected
 {
 expectPassed
 }
-{
-name
-}
 )
 ;
 }
@@ -4108,9 +4102,6 @@ expected
 :
 {
 expectPassed
-}
-{
-name
 }
 )
 ;
@@ -4574,9 +4565,6 @@ expected
 :
 {
 expectPassed
-}
-{
-name
 }
 )
 ;

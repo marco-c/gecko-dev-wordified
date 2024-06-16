@@ -96,7 +96,7 @@ js
 import
 {
 bool
-TypeBool
+Type
 }
 from
 '
@@ -309,9 +309,13 @@ unary
 '
 )
 [
-TypeBool
+Type
+.
+bool
 ]
-TypeBool
+Type
+.
+bool
 t
 .
 params

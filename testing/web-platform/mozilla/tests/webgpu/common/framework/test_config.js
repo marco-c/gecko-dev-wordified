@@ -31,6 +31,9 @@ const
 globalTestConfig
 =
 {
+enableDebugLogs
+:
+false
 maxSubcasesInFlight
 :
 500
@@ -49,6 +52,12 @@ unrollConstEvalLoops
 :
 false
 compatibility
+:
+false
+forceFallbackAdapter
+:
+false
+logToWebSocket
 :
 false
 }
