@@ -68,12 +68,6 @@ import
 Any
 Optional
 Required
-from
-voluptuous
-.
-validators
-import
-Length
 graph_config_schema
 =
 Schema
@@ -319,12 +313,7 @@ names
 {
 str
 :
-Length
-(
-max
-=
-100
-)
+str
 }
         
 }
