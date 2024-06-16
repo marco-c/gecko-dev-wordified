@@ -70,7 +70,7 @@ can
 obtain
 one
 at
-http
+https
 :
 /
 /
@@ -295,6 +295,13 @@ sys
 .
 mjs
 "
+"
+UserCharacteristicsPageService
+.
+sys
+.
+mjs
+"
 ]
 XPIDL_MODULE
 =
@@ -322,6 +329,11 @@ idl
 "
 "
 nsIRFPService
+.
+idl
+"
+"
+nsIUserCharacteristicsPageService
 .
 idl
 "
