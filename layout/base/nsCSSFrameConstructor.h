@@ -304,6 +304,9 @@ PrintedSheetFrame
 class
 RestyleManager
 ;
+class
+ViewportFrame
+;
 namespace
 dom
 {
@@ -583,7 +586,10 @@ RestyleManager
 )
 const
 ;
-nsIFrame
+mozilla
+:
+:
+ViewportFrame
 *
 ConstructRootFrame
 (
