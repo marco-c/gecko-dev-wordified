@@ -1090,6 +1090,7 @@ bool
 DocShellHasBeenActiveSinceNavigationStart
 (
 )
+const
 {
 return
 mDocShellHasBeenActiveSinceNavigationStart
