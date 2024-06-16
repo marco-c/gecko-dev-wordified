@@ -120,6 +120,10 @@ import
 Pool
 get_start_method
 from
+time
+import
+process_time
+from
 mach
 .
 logging
@@ -174,7 +178,6 @@ mozbuild
 util
 import
 FileAvoidWrite
-process_time
 log_manager
 =
 LoggingManager
