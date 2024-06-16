@@ -1967,11 +1967,11 @@ usingStorageAccess
 ;
 info
 .
-mIsThirdPartyContextToTopWindow
+mIsThirdPartyContext
 =
 aData
 .
-isThirdPartyContextToTopWindow
+isThirdPartyContext
 (
 )
 ;
