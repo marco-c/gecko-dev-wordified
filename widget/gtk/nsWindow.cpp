@@ -35708,13 +35708,6 @@ BackingScaleFactorChanged
 )
 ;
 }
-mWidgetListener
--
->
-UIResolutionChanged
-(
-)
-;
 }
 NotifyAPZOfDPIChange
 (

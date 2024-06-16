@@ -534,14 +534,6 @@ override
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
-UIResolutionChanged
-(
-)
-override
-;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
-void
 MacFullscreenMenubarOverlapChanged
 (
 mozilla
@@ -813,12 +805,6 @@ SizeModeChanged
 (
 nsSizeMode
 aSizeMode
-)
-;
-MOZ_CAN_RUN_SCRIPT
-void
-UIResolutionChanged
-(
 )
 ;
 MOZ_CAN_RUN_SCRIPT
