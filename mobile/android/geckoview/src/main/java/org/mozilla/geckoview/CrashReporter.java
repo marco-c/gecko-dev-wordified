@@ -507,7 +507,7 @@ appName
 needs
 to
 be
-whitelisted
+allowlisted
 for
 the
 server
@@ -560,7 +560,7 @@ app
 added
 to
 the
-whitelist
+allowlist
 .
 *
 *
@@ -752,7 +752,7 @@ appName
 needs
 to
 be
-whitelisted
+allowlisted
 for
 the
 server
@@ -805,7 +805,7 @@ app
 added
 to
 the
-whitelist
+allowlist
 .
 *
 *
@@ -1031,7 +1031,7 @@ appName
 needs
 to
 be
-whitelisted
+allowlisted
 for
 the
 server
@@ -1084,7 +1084,7 @@ app
 added
 to
 the
-whitelist
+allowlist
 .
 *
 *

@@ -576,7 +576,7 @@ final
 String
 [
 ]
-adaptivePlaybackBlacklist
+adaptivePlaybackBlocklist
 =
 {
 "
@@ -1394,7 +1394,7 @@ aMimeType
 {
 if
 (
-isAdaptivePlaybackBlacklisted
+isAdaptivePlaybackBlocklisted
 (
 aMimeType
 )
@@ -1498,7 +1498,7 @@ details
 private
 static
 boolean
-isAdaptivePlaybackBlacklisted
+isAdaptivePlaybackBlocklisted
 (
 final
 String
@@ -1586,7 +1586,7 @@ final
 String
 model
 :
-adaptivePlaybackBlacklist
+adaptivePlaybackBlocklist
 )
 {
 if
