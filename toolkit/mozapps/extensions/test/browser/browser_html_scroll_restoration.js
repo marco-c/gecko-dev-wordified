@@ -530,6 +530,8 @@ win
 /
 /
 <
+moz
+-
 message
 -
 bar
@@ -544,9 +546,9 @@ a
 page
 and
 therefore
+/
+/
 we
-/
-/
 should
 check
 whether
@@ -570,6 +572,8 @@ document
 querySelectorAll
 (
 "
+moz
+-
 message
 -
 bar
@@ -588,6 +592,8 @@ a
 CSS
 property
 from
+moz
+-
 message
 -
 bar
@@ -613,9 +619,9 @@ message
 -
 bar
 -
-icon
+background
 -
-url
+color
 "
 )
 )
