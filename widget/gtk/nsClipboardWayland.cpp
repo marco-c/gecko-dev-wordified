@@ -194,7 +194,7 @@ int32_t
 aWhichClipboard
 )
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 nsRetrievalContextWayland
@@ -237,7 +237,7 @@ int32_t
 aWhichClipboard
 )
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 nsRetrievalContextWayland
@@ -288,7 +288,7 @@ GetSelectionAtom
 aWhichClipboard
 )
 ;
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 nsRetrievalContextWayland
@@ -350,7 +350,7 @@ char
 aMimeType
 )
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 nsRetrievalContextWayland
@@ -434,7 +434,7 @@ entryTime
 kClipboardTimeout
 )
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 failed
@@ -455,7 +455,7 @@ break
 ;
 }
 }
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 doing
