@@ -612,7 +612,14 @@ SubclassingArrayBufferTypeIII
 _
 (
 SUBCLASSING_SHAREDARRAYBUFFER_TYPE_III
+\
 SubclassingSharedArrayBufferTypeIII
+)
+\
+_
+(
+SUBCLASSING_REGEXP_TYPE_III
+SubclassingRegExpTypeIII
 )
 /
 *
