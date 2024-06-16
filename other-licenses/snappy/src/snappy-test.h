@@ -319,7 +319,7 @@ THIRD_PARTY_SNAPPY_OPENSOURCE_SNAPPY_TEST_H_
 define
 THIRD_PARTY_SNAPPY_OPENSOURCE_SNAPPY_TEST_H_
 #
-ifdef
+if
 HAVE_CONFIG_H
 #
 include
@@ -342,7 +342,7 @@ internal
 h
 "
 #
-ifdef
+if
 HAVE_SYS_MMAN_H
 #
 include
@@ -356,7 +356,7 @@ h
 #
 endif
 #
-ifdef
+if
 HAVE_SYS_RESOURCE_H
 #
 include
@@ -370,7 +370,7 @@ h
 #
 endif
 #
-ifdef
+if
 HAVE_SYS_TIME_H
 #
 include
@@ -384,7 +384,7 @@ h
 #
 endif
 #
-ifdef
+if
 HAVE_WINDOWS_H
 /
 /
@@ -476,7 +476,7 @@ void
 )
 )
 #
-ifdef
+if
 HAVE_LIBZ
 #
 include
@@ -488,7 +488,7 @@ h
 #
 endif
 #
-ifdef
+if
 HAVE_LIBLZO2
 #
 include
@@ -502,7 +502,7 @@ h
 #
 endif
 #
-ifdef
+if
 HAVE_LIBLZ4
 #
 include
@@ -1435,7 +1435,7 @@ ok
 (
 )
 #
-ifdef
+if
 HAVE_LIBZ
 /
 /
