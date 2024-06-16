@@ -1389,8 +1389,7 @@ aDecryption
 {
 }
 const
-nsAString
-&
+nsString
 mKeySystem
 ;
 const
