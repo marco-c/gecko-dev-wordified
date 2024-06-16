@@ -357,7 +357,7 @@ void
 HTMLAreaElement
 :
 :
-GetLinkTarget
+GetLinkTargetImpl
 (
 nsAString
 &

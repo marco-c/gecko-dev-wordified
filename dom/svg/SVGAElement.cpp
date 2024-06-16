@@ -1692,7 +1692,7 @@ void
 SVGAElement
 :
 :
-GetLinkTarget
+GetLinkTargetImpl
 (
 nsAString
 &
