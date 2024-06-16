@@ -1590,7 +1590,7 @@ Option
 PathRef
 >
 {
-qdebug
+qinfo
 !
 (
 [

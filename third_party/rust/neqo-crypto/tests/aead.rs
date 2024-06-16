@@ -101,9 +101,7 @@ not
 feature
 =
 "
-disable
--
-encryption
+fuzzing
 "
 )
 )
@@ -347,6 +345,7 @@ Aead
 :
 new
 (
+false
 TLS_VERSION_1_3
 cipher
 &

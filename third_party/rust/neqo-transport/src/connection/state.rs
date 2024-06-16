@@ -1438,15 +1438,6 @@ be
 in
 Idle
 state
-but
-is
-in
-{
-self
-:
-?
-}
-state
 .
 "
 )

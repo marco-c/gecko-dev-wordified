@@ -88,9 +88,7 @@ cfg
 feature
 =
 "
-disable
--
-encryption
+fuzzing
 "
 )
 ]
@@ -98,10 +96,7 @@ use
 neqo_crypto
 :
 :
-aead_null
-:
-:
-AEAD_NULL_TAG
+FIXED_TAG_FUZZING
 ;
 use
 test_fixture
@@ -252,7 +247,7 @@ len
 (
 )
 -
-AEAD_NULL_TAG
+FIXED_TAG_FUZZING
 .
 len
 (
@@ -377,7 +372,7 @@ len
 (
 )
 -
-AEAD_NULL_TAG
+FIXED_TAG_FUZZING
 .
 len
 (

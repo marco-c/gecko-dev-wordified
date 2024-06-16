@@ -109,6 +109,7 @@ neqo_common
 :
 {
 qdebug
+qinfo
 qtrace
 Encoder
 Header
@@ -960,7 +961,7 @@ SendStreamEvents
 >
 Self
 {
-qdebug
+qinfo
 !
 (
 "
@@ -1432,7 +1433,7 @@ available
 )
 }
 ;
-qdebug
+qinfo
 !
 (
 [

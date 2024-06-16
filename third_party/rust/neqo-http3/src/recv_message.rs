@@ -1855,7 +1855,7 @@ fin
 =
 >
 {
-qdebug
+qinfo
 !
 (
 [
