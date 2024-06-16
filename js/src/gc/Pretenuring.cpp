@@ -268,7 +268,7 @@ constexpr
 size_t
 NormalSiteAttentionThreshold
 =
-500
+200
 ;
 static
 constexpr
@@ -321,7 +321,7 @@ constexpr
 size_t
 MaxAllocSitesPerMinorGC
 =
-500
+600
 ;
 /
 /
