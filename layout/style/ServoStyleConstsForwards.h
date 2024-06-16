@@ -453,6 +453,9 @@ WritingMode
 class
 ServoElementSnapshotTable
 ;
+class
+StyleParserState
+;
 template
 <
 typename

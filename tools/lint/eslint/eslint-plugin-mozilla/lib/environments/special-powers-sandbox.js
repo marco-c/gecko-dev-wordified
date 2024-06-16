@@ -158,6 +158,9 @@ false
 BrowsingContext
 :
 false
+InspectorCSSParser
+:
+false
 InspectorUtils
 :
 false

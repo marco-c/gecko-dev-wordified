@@ -15738,6 +15738,11 @@ IOUtils
 1
 ;
 bool
+InspectorCSSParser
+:
+1
+;
+bool
 InspectorUtils
 :
 1
