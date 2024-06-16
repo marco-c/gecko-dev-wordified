@@ -1242,7 +1242,7 @@ const
 opus_extension_data
 *
 extensions
-int
+opus_int32
 nb_extensions
 int
 pad
