@@ -584,9 +584,7 @@ else
 u64
 :
 :
-max_value
-(
-)
+MAX
 }
 }
 }

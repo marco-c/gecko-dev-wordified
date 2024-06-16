@@ -2740,7 +2740,7 @@ Res
 )
 >
 {
-qinfo
+qdebug
 !
 (
 [
@@ -2973,8 +2973,10 @@ Ok
 /
 /
 Inform
-a
-HttpConnection
+an
+[
+Http3Connection
+]
 that
 a
 stream
@@ -2984,13 +2986,18 @@ to
 send
 and
 that
+/
+/
+/
+[
+SendStream
+:
+:
 send
+]
 should
 be
 called
-/
-/
-/
 for
 the
 stream
@@ -5295,7 +5302,7 @@ Decoder
 =
 >
 {
-qinfo
+qdebug
 !
 (
 [
@@ -5365,7 +5372,7 @@ Encoder
 =
 >
 {
-qinfo
+qdebug
 !
 (
 [
@@ -5711,7 +5718,7 @@ error
 AppError
 )
 {
-qinfo
+qdebug
 !
 (
 [
@@ -7045,7 +7052,7 @@ bool
 )
 >
 {
-qinfo
+qdebug
 !
 (
 [
@@ -7973,7 +7980,7 @@ Res
 )
 >
 {
-qinfo
+qdebug
 !
 (
 [
@@ -9662,7 +9669,7 @@ HFrame
 >
 >
 {
-qinfo
+qdebug
 !
 (
 [
@@ -9903,7 +9910,7 @@ Res
 )
 >
 {
-qinfo
+qdebug
 !
 (
 [
