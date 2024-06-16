@@ -1858,6 +1858,62 @@ pop
 0
 )
             
+time
+=
+None
+            
+regexp
+=
+re
+.
+compile
+(
+r
+"
+\
+d
+{
+10
+}
+(
+\
+.
+\
+d
+{
+1
+9
+}
+)
+?
+"
+)
+            
+if
+regexp
+.
+match
+(
+action
+)
+:
+                
+time
+=
+float
+(
+action
+)
+                
+action
+=
+args
+.
+pop
+(
+0
+)
+            
 update_needed
 =
 True
@@ -2010,6 +2066,7 @@ join
 args
 )
 disambiguator
+time
                 
 )
                 
@@ -2053,6 +2110,7 @@ join
 args
 )
 disambiguator
+time
                 
 )
                 

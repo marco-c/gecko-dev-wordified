@@ -2076,6 +2076,16 @@ time
         
 self
 .
+start_time
+=
+time
+.
+monotonic
+(
+)
+        
+self
+.
 _pipe
 child_pipe
 =
@@ -2152,6 +2162,25 @@ _process
 join
 (
 )
+    
+def
+convert_to_monotonic_time
+(
+self
+timestamp
+)
+:
+        
+return
+timestamp
+-
+self
+.
+start_timestamp
++
+self
+.
+start_time
     
 #
 Methods
@@ -2922,6 +2951,9 @@ text
 disambiguator
 =
 None
+timestamp
+=
+None
 )
 :
         
@@ -2963,10 +2995,27 @@ _active_markers
 id
 ]
 =
+(
+                
+SystemResourceMonitor
+.
+instance
+.
+convert_to_monotonic_time
+(
+timestamp
+)
+                
+if
+timestamp
+                
+else
 time
 .
 monotonic
 (
+)
+            
 )
     
 staticmethod
@@ -2977,6 +3026,9 @@ end_marker
 name
 text
 disambiguator
+=
+None
+timestamp
 =
 None
 )
@@ -2997,6 +3049,21 @@ time
 .
 monotonic
 (
+)
+        
+if
+timestamp
+:
+            
+end
+=
+SystemResourceMonitor
+.
+instance
+.
+convert_to_monotonic_time
+(
+timestamp
 )
         
 id
