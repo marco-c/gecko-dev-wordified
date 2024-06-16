@@ -541,12 +541,12 @@ return
 nullptr
 ;
 }
-nsIScrollableFrame
+ScrollContainerFrame
 *
 ScrollAnchorContainer
 :
 :
-ScrollableFrame
+ScrollContainer
 (
 )
 const
@@ -2333,7 +2333,7 @@ ScrollAnimationState
 .
 contains
 (
-nsIScrollableFrame
+ScrollContainerFrame
 :
 :
 AnimationState
@@ -3372,7 +3372,7 @@ ScrollAnimationState
 .
 contains
 (
-nsIScrollableFrame
+ScrollContainerFrame
 :
 :
 AnimationState
@@ -3482,7 +3482,7 @@ ScrollAnimationState
 .
 contains
 (
-nsIScrollableFrame
+ScrollContainerFrame
 :
 :
 AnimationState
@@ -4445,9 +4445,9 @@ isScrollableWithAnchor
 &
 ]
 {
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollable
+scrollContainer
 =
 do_QueryFrame
 (
@@ -4457,7 +4457,7 @@ aFrame
 if
 (
 !
-scrollable
+scrollContainer
 )
 {
 return
@@ -4468,7 +4468,7 @@ auto
 *
 anchor
 =
-scrollable
+scrollContainer
 -
 >
 Anchor

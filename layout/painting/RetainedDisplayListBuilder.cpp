@@ -7114,7 +7114,7 @@ port
 nsRect
 displayPort
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =

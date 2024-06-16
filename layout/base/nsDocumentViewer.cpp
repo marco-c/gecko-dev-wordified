@@ -18832,7 +18832,7 @@ it
 gets
 clamped
 in
-nsIScrollableFrame
+ScrollContainerFrame
 :
 :
 ScrollTo

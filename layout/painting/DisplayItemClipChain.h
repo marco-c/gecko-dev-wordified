@@ -143,9 +143,6 @@ nsString
 .
 h
 "
-class
-nsIScrollableFrame
-;
 namespace
 mozilla
 {

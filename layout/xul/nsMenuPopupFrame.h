@@ -208,9 +208,6 @@ Units
 h
 "
 class
-nsIScrollableFrame
-;
-class
 nsIWidget
 ;
 namespace
@@ -2213,9 +2210,12 @@ bool
 aAttributesOverride
 )
 ;
-nsIScrollableFrame
+mozilla
+:
+:
+ScrollContainerFrame
 *
-GetScrollFrame
+GetScrollContainerFrame
 (
 )
 const

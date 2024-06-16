@@ -2350,7 +2350,7 @@ aFilters
 aDisplayListBuilder
 -
 >
-NotifyAndClearScrollFrames
+NotifyAndClearScrollContainerFrames
 (
 )
 ;

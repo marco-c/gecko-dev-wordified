@@ -500,9 +500,9 @@ GetRelativeToLayoutViewport
 (
 ContentGeometryType
 aGeometryType
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollableFrame
+aScrollContainerFrame
 const
 CSSToScreenScale2D
 &
@@ -591,7 +591,7 @@ scrollDeltaCss
 ComputeAsyncTranslation
 (
 aGeometryType
-aScrollableFrame
+aScrollContainerFrame
 )
 ;
 ScreenPoint
@@ -747,9 +747,9 @@ ComputeAsyncTranslation
 (
 ContentGeometryType
 aGeometryType
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollableFrame
+aScrollContainerFrame
 )
 const
 {
@@ -899,7 +899,7 @@ viewport
 if
 (
 !
-aScrollableFrame
+aScrollContainerFrame
 )
 {
 /
@@ -946,7 +946,7 @@ RSF
 .
 MOZ_ASSERT
 (
-aScrollableFrame
+aScrollContainerFrame
 -
 >
 IsRootScrollFrameOfDocument
@@ -954,19 +954,10 @@ IsRootScrollFrameOfDocument
 )
 )
 ;
-nsIFrame
-*
-scrollFrame
-=
-do_QueryFrame
-(
-aScrollableFrame
-)
-;
 if
 (
 !
-scrollFrame
+aScrollContainerFrame
 -
 >
 PresShell
@@ -1107,7 +1098,7 @@ CSSSize
 :
 FromAppUnits
 (
-scrollFrame
+aScrollContainerFrame
 -
 >
 PresShell
@@ -1135,7 +1126,7 @@ nsLayoutUtils
 :
 CalculateExpandedScrollableRect
 (
-scrollFrame
+aScrollContainerFrame
 )
 )
 ;
@@ -1148,7 +1139,7 @@ CSSSize
 :
 FromAppUnits
 (
-aScrollableFrame
+aScrollContainerFrame
 -
 >
 GetScrollPortRect
@@ -5191,7 +5182,7 @@ return
 false
 ;
 }
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =
@@ -6262,7 +6253,7 @@ frame
 break
 ;
 }
-nsIScrollableFrame
+ScrollContainerFrame
 *
 scrollAncestor
 =
@@ -6285,10 +6276,7 @@ break
 }
 frame
 =
-do_QueryFrame
-(
 scrollAncestor
-)
 ;
 MOZ_ASSERT
 (

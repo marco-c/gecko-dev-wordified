@@ -678,9 +678,9 @@ GetRelativeToLayoutViewport
 (
 ContentGeometryType
 aGeometryType
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollableFrame
+aScrollContainerFrame
 const
 CSSToScreenScale2D
 &
@@ -717,9 +717,9 @@ ComputeAsyncTranslation
 (
 ContentGeometryType
 aGeometryType
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollableFrame
+aScrollContainerFrame
 )
 const
 ;
