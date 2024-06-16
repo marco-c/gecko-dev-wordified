@@ -2208,6 +2208,8 @@ EditorDOMPointType
 .
 template
 NextPoint
+<
+>
 (
 )
 ;
