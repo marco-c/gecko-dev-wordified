@@ -8847,17 +8847,6 @@ forget
 (
 )
 ;
-nsEventShell
-:
-:
-GetEventAttributes
-(
-GetNode
-(
-)
-attributes
-)
-;
 /
 /
 Get

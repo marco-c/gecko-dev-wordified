@@ -673,17 +673,6 @@ inline
 block
 "
 "
-event
--
-from
--
-input
-"
-:
-"
-false
-"
-"
 explicit
 -
 name
