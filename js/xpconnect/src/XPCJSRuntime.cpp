@@ -17031,8 +17031,6 @@ arenas
 ;
 REPORT_BYTES
 (
-nsLiteralCString
-(
 "
 js
 -
@@ -17054,7 +17052,7 @@ things
 /
 objects
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17077,8 +17075,6 @@ arenas
 )
 ;
 REPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17101,7 +17097,7 @@ things
 /
 strings
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17124,8 +17120,6 @@ arenas
 )
 ;
 REPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17148,7 +17142,7 @@ things
 /
 symbols
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17171,8 +17165,6 @@ arenas
 )
 ;
 REPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17195,7 +17187,7 @@ things
 /
 shapes
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17218,8 +17210,6 @@ arenas
 )
 ;
 REPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17244,7 +17234,7 @@ base
 -
 shapes
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17269,8 +17259,6 @@ arenas
 ;
 REPORT_BYTES
 (
-nsLiteralCString
-(
 "
 js
 -
@@ -17294,7 +17282,7 @@ getter
 -
 setters
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17320,8 +17308,6 @@ arenas
 ;
 REPORT_BYTES
 (
-nsLiteralCString
-(
 "
 js
 -
@@ -17345,7 +17331,7 @@ property
 -
 maps
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17370,8 +17356,6 @@ arenas
 ;
 REPORT_BYTES
 (
-nsLiteralCString
-(
 "
 js
 -
@@ -17393,7 +17377,7 @@ things
 /
 scopes
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17416,8 +17400,6 @@ arenas
 )
 ;
 REPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17440,7 +17422,7 @@ things
 /
 scripts
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17463,8 +17445,6 @@ arenas
 )
 ;
 REPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17487,7 +17467,7 @@ things
 /
 jitcode
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17510,8 +17490,6 @@ arenas
 )
 ;
 REPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17536,7 +17514,7 @@ regexp
 -
 shareds
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17669,8 +17647,6 @@ gcThingTotal
 ;
 MREPORT_BYTES
 (
-nsLiteralCString
-(
 "
 js
 -
@@ -17692,7 +17668,7 @@ things
 /
 objects
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17710,8 +17686,6 @@ cells
 )
 ;
 MREPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17734,7 +17708,7 @@ things
 /
 strings
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17754,8 +17728,6 @@ cells
 )
 ;
 MREPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17778,7 +17750,7 @@ things
 /
 symbols
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17794,8 +17766,6 @@ cells
 )
 ;
 MREPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17818,7 +17788,7 @@ things
 /
 shapes
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17845,8 +17815,6 @@ cells
 ;
 MREPORT_BYTES
 (
-nsLiteralCString
-(
 "
 js
 -
@@ -17870,7 +17838,7 @@ base
 -
 shapes
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17889,8 +17857,6 @@ cells
 )
 ;
 MREPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17915,7 +17881,7 @@ getter
 -
 setters
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17933,8 +17899,6 @@ cells
 )
 ;
 MREPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -17959,7 +17923,7 @@ property
 -
 maps
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17989,8 +17953,6 @@ cells
 ;
 MREPORT_BYTES
 (
-nsLiteralCString
-(
 "
 js
 -
@@ -18012,7 +17974,7 @@ things
 /
 scopes
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -18028,8 +17990,6 @@ cells
 )
 ;
 MREPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -18052,7 +18012,7 @@ things
 /
 scripts
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -18068,8 +18028,6 @@ cells
 )
 ;
 MREPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -18092,7 +18050,7 @@ things
 /
 jitcode
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -18108,8 +18066,6 @@ cells
 )
 ;
 MREPORT_BYTES
-(
-nsLiteralCString
 (
 "
 js
@@ -18134,7 +18090,7 @@ regexp
 -
 shareds
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
