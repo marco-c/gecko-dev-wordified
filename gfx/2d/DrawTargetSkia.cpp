@@ -10130,7 +10130,7 @@ maskShader
 (
 maskPaint
 .
-getShader
+refShader
 (
 )
 )
