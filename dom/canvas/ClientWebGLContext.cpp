@@ -9639,6 +9639,10 @@ mCanBeAvailable
 =
 false
 ;
+AutoEnqueueFlush
+(
+)
+;
 return
 ret
 .
@@ -35677,6 +35681,10 @@ context
 is
 lost
 .
+AutoEnqueueFlush
+(
+)
+;
 Run
 <
 RPROC
