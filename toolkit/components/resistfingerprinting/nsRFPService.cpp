@@ -755,6 +755,18 @@ FingerprinterDetection
 "
 )
 ;
+static
+mozilla
+:
+:
+LazyLogModule
+gTimestamps
+(
+"
+Timestamps
+"
+)
+;
 #
 define
 RESIST_FINGERPRINTINGPROTECTION_OVERRIDE_PREF
@@ -4906,7 +4918,7 @@ type
 ;
 MOZ_LOG
 (
-gResistFingerprintingLog
+gTimestamps
 LogLevel
 :
 :
@@ -4983,7 +4995,7 @@ this
 with
 MOZ_LOG
 =
-nsResistFingerprinting
+Timestamps
 :
 1
 to
@@ -5296,7 +5308,7 @@ aTimeScale
 ;
 MOZ_LOG
 (
-gResistFingerprintingLog
+gTimestamps
 LogLevel
 :
 :
