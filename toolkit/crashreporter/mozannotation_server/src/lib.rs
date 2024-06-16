@@ -168,6 +168,7 @@ mozannotation_client
 :
 {
 MozAnnotationNote
+ANNOTATION_NOTE_NAME
 ANNOTATION_TYPE
 }
 ;
@@ -820,6 +821,7 @@ MozAnnotationNote
 >
 (
 )
+ANNOTATION_NOTE_NAME
 )
 ?
 ;
