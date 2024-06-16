@@ -1569,17 +1569,6 @@ get
 self
 -
 >
-SetState
-(
-State
-:
-:
-Configured
-)
-;
-self
--
->
 mReconfigurationPromise
 .
 Resolve
