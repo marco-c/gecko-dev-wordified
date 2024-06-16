@@ -128,16 +128,8 @@ path
 to
 ]
 /
-run
+firefox
 -
-mozilla
-.
-sh
-[
-path
-to
-]
-/
 xpcshell
 dumpGoogleRoots
 .
