@@ -4068,7 +4068,7 @@ ruleview
 -
 variable
 "
-getVariableValue
+getVariableData
 :
 varName
 =
@@ -4079,7 +4079,7 @@ rule
 .
 elementStyle
 .
-getVariable
+getVariableData
 (
 varName
 this

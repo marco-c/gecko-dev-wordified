@@ -1981,13 +1981,14 @@ startsWith
 )
 {
 const
+{
 variable
+registeredProperty
+}
 =
 nodeInfo
 .
 value
-.
-variable
 ;
 await
 this
@@ -1995,6 +1996,7 @@ this
 _setVariablePreviewTooltip
 (
 variable
+registeredProperty
 )
 ;
 this
@@ -3040,6 +3042,7 @@ async
 _setVariablePreviewTooltip
 (
 text
+registeredProperty
 )
 {
 const
@@ -3066,6 +3069,7 @@ previewTooltip
 )
 doc
 text
+registeredProperty
 )
 ;
 }
