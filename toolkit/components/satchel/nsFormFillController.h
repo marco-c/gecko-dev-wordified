@@ -707,12 +707,6 @@ StopSearch
 (
 )
 .
-nsCOMPtr
-<
-nsIFormHistoryAutoComplete
->
-mLastFormHistoryAutoComplete
-;
 nsString
 mLastSearchString
 ;
