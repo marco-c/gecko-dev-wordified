@@ -7150,7 +7150,7 @@ IsTop
 bc
 -
 >
-GetTopLevelCreatedByWebContent
+HadOriginalOpener
 (
 )
 &

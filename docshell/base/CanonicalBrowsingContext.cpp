@@ -2054,15 +2054,6 @@ GetHasSiblings
 ;
 txn
 .
-SetTopLevelCreatedByWebContent
-(
-GetTopLevelCreatedByWebContent
-(
-)
-)
-;
-txn
-.
 SetHistoryID
 (
 GetHistoryID
