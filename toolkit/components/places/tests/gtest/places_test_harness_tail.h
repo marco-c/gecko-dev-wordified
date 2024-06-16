@@ -199,7 +199,7 @@ Run
 )
 override
 {
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -347,7 +347,7 @@ do_test_pending
 (
 )
 {
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -395,7 +395,7 @@ do_test_finished
 (
 )
 {
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -411,7 +411,7 @@ thread
 "
 )
 ;
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 gPendingTests
 >
