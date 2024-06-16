@@ -15420,7 +15420,7 @@ finishString
 *
 *
 *
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 options
 )
@@ -15428,7 +15428,7 @@ options
 /
 static
 bool
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 JSContext
 *
@@ -23939,7 +23939,7 @@ Steps
 if
 (
 !
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 cx
 options
@@ -25092,7 +25092,7 @@ options
 if
 (
 !
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 cx
 options
@@ -28312,7 +28312,7 @@ toString
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 paramString
@@ -28488,7 +28488,7 @@ Steps
 /
 /
 Inlined
-GetTemporalUnit
+GetTemporalUnitValuedOption
 and
 GetOption
 so
@@ -28496,10 +28496,10 @@ we
 can
 more
 easily
+/
+/
 detect
 an
-/
-/
 absent
 "
 largestUnit
@@ -28588,7 +28588,7 @@ Auto
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 largestUnitStr
@@ -28620,7 +28620,7 @@ Steps
 if
 (
 !
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 cx
 options
@@ -28665,7 +28665,7 @@ Step
 if
 (
 !
-ToTemporalRoundingIncrement
+GetRoundingIncrementOption
 (
 cx
 options
@@ -28686,7 +28686,7 @@ Step
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 options
@@ -28707,7 +28707,7 @@ Step
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options
@@ -30145,7 +30145,7 @@ toString
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 paramString
@@ -30222,7 +30222,7 @@ Steps
 if
 (
 !
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 (
 cx
 totalOf
@@ -30267,7 +30267,7 @@ Step
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 totalOf
@@ -31520,7 +31520,7 @@ Auto
 if
 (
 !
-ToFractionalSecondDigits
+GetTemporalFractionalSecondDigitsOption
 (
 cx
 options
@@ -31541,7 +31541,7 @@ Step
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 options
@@ -31570,7 +31570,7 @@ Auto
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options

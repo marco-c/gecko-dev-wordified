@@ -13869,7 +13869,7 @@ Step
 if
 (
 !
-ToTemporalDisambiguation
+GetTemporalDisambiguationOption
 (
 cx
 options

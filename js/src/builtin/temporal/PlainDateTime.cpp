@@ -2741,7 +2741,7 @@ Constrain
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 options
@@ -3300,7 +3300,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeResolvedOptions
@@ -3421,7 +3421,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeResolvedOptions
@@ -3837,7 +3837,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeResolvedOptions
@@ -7005,7 +7005,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 options
@@ -12469,7 +12469,7 @@ toString
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 paramString
@@ -12580,7 +12580,7 @@ Steps
 if
 (
 !
-ToTemporalRoundingIncrement
+GetRoundingIncrementOption
 (
 cx
 roundTo
@@ -12601,7 +12601,7 @@ Step
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 roundTo
@@ -12622,7 +12622,7 @@ Step
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 roundTo
@@ -13265,7 +13265,7 @@ Trunc
 auto
 showCalendar
 =
-CalendarOption
+ShowCalendar
 :
 :
 Auto
@@ -13329,7 +13329,7 @@ Steps
 if
 (
 !
-ToCalendarNameOption
+GetTemporalShowCalendarNameOption
 (
 cx
 options
@@ -13360,7 +13360,7 @@ Auto
 if
 (
 !
-ToFractionalSecondDigits
+GetTemporalFractionalSecondDigitsOption
 (
 cx
 options
@@ -13381,7 +13381,7 @@ Step
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 options
@@ -13410,7 +13410,7 @@ Auto
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options
@@ -13707,7 +13707,7 @@ Precision
 Auto
 (
 )
-CalendarOption
+ShowCalendar
 :
 :
 Auto
@@ -13896,7 +13896,7 @@ Precision
 Auto
 (
 )
-CalendarOption
+ShowCalendar
 :
 :
 Auto
@@ -14931,7 +14931,7 @@ Step
 if
 (
 !
-ToTemporalDisambiguation
+GetTemporalDisambiguationOption
 (
 cx
 options

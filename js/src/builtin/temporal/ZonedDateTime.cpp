@@ -2242,7 +2242,7 @@ k
 if
 (
 !
-ToTemporalDisambiguation
+GetTemporalDisambiguationOption
 (
 cx
 maybeResolvedOptions
@@ -2265,7 +2265,7 @@ l
 if
 (
 !
-ToTemporalOffset
+GetTemporalOffsetOption
 (
 cx
 maybeResolvedOptions
@@ -2939,7 +2939,7 @@ n
 if
 (
 !
-ToTemporalDisambiguation
+GetTemporalDisambiguationOption
 (
 cx
 maybeResolvedOptions
@@ -2962,7 +2962,7 @@ o
 if
 (
 !
-ToTemporalOffset
+GetTemporalOffsetOption
 (
 cx
 maybeResolvedOptions
@@ -2988,7 +2988,7 @@ ignored
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeResolvedOptions
@@ -4365,7 +4365,7 @@ maybeOptions
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 maybeOptions
@@ -9737,7 +9737,7 @@ ignoredDisambiguation
 if
 (
 !
-ToTemporalDisambiguation
+GetTemporalDisambiguationOption
 (
 cx
 options
@@ -9763,7 +9763,7 @@ ignoredOffset
 if
 (
 !
-ToTemporalOffset
+GetTemporalOffsetOption
 (
 cx
 options
@@ -9789,7 +9789,7 @@ ignoredOverflow
 if
 (
 !
-ToTemporalOverflow
+GetTemporalOverflowOption
 (
 cx
 options
@@ -16276,7 +16276,7 @@ Compatible
 if
 (
 !
-ToTemporalDisambiguation
+GetTemporalDisambiguationOption
 (
 cx
 resolvedOptions
@@ -16305,7 +16305,7 @@ Prefer
 if
 (
 !
-ToTemporalOffset
+GetTemporalOffsetOption
 (
 cx
 resolvedOptions
@@ -18315,7 +18315,7 @@ toString
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 paramString
@@ -18407,7 +18407,7 @@ Steps
 if
 (
 !
-ToTemporalRoundingIncrement
+GetRoundingIncrementOption
 (
 cx
 roundTo
@@ -18428,7 +18428,7 @@ Step
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 roundTo
@@ -18449,7 +18449,7 @@ Step
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 roundTo
@@ -19776,7 +19776,7 @@ Trunc
 auto
 showCalendar
 =
-CalendarOption
+ShowCalendar
 :
 :
 Auto
@@ -19784,7 +19784,7 @@ Auto
 auto
 showTimeZone
 =
-TimeZoneNameOption
+ShowTimeZoneName
 :
 :
 Auto
@@ -19792,7 +19792,7 @@ Auto
 auto
 showOffset
 =
-ShowOffsetOption
+ShowOffset
 :
 :
 Auto
@@ -19856,7 +19856,7 @@ Steps
 if
 (
 !
-ToCalendarNameOption
+GetTemporalShowCalendarNameOption
 (
 cx
 options
@@ -19887,7 +19887,7 @@ Auto
 if
 (
 !
-ToFractionalSecondDigits
+GetTemporalFractionalSecondDigitsOption
 (
 cx
 options
@@ -19908,7 +19908,7 @@ Step
 if
 (
 !
-ToShowOffsetOption
+GetTemporalShowOffsetOption
 (
 cx
 options
@@ -19929,7 +19929,7 @@ Step
 if
 (
 !
-ToTemporalRoundingMode
+GetRoundingModeOption
 (
 cx
 options
@@ -19958,7 +19958,7 @@ Auto
 if
 (
 !
-GetTemporalUnit
+GetTemporalUnitValuedOption
 (
 cx
 options
@@ -20021,7 +20021,7 @@ Step
 if
 (
 !
-ToTimeZoneNameOption
+GetTemporalShowTimeZoneNameOption
 (
 cx
 options
@@ -20243,15 +20243,15 @@ Precision
 Auto
 (
 )
-CalendarOption
+ShowCalendar
 :
 :
 Auto
-TimeZoneNameOption
+ShowTimeZoneName
 :
 :
 Auto
-ShowOffsetOption
+ShowOffset
 :
 :
 Auto
@@ -20421,15 +20421,15 @@ Precision
 Auto
 (
 )
-CalendarOption
+ShowCalendar
 :
 :
 Auto
-TimeZoneNameOption
+ShowTimeZoneName
 :
 :
 Auto
-ShowOffsetOption
+ShowOffset
 :
 :
 Auto

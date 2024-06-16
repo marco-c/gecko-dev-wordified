@@ -19956,7 +19956,7 @@ else
 {
 /
 /
-ToRelativeTemporalObject
+GetTemporalRelativeToOption
 ignores
 any
 other
@@ -19964,9 +19964,9 @@ time
 zone
 information
 when
+/
+/
 no
-/
-/
 bracketed
 time
 zone

@@ -306,7 +306,7 @@ HalfEven
 *
 *
 *
-NegateTemporalRoundingMode
+NegateRoundingMode
 (
 roundingMode
 )
@@ -314,7 +314,7 @@ roundingMode
 /
 constexpr
 auto
-NegateTemporalRoundingMode
+NegateRoundingMode
 (
 TemporalRoundingMode
 roundingMode

@@ -256,7 +256,7 @@ PlainDateObject
 *
 >
 temporalDate
-CalendarOption
+ShowCalendar
 showCalendar
 )
 ;
@@ -303,7 +303,7 @@ CalendarValue
 calendar
 Precision
 precision
-CalendarOption
+ShowCalendar
 showCalendar
 )
 ;
@@ -366,7 +366,7 @@ PlainMonthDayObject
 *
 >
 monthDay
-CalendarOption
+ShowCalendar
 showCalendar
 )
 ;
@@ -397,7 +397,7 @@ PlainYearMonthObject
 *
 >
 yearMonth
-CalendarOption
+ShowCalendar
 showCalendar
 )
 ;
@@ -438,11 +438,11 @@ ZonedDateTime
 zonedDateTime
 Precision
 precision
-CalendarOption
+ShowCalendar
 showCalendar
-TimeZoneNameOption
+ShowTimeZoneName
 showTimeZone
-ShowOffsetOption
+ShowOffset
 showOffset
 Increment
 increment
