@@ -331,8 +331,6 @@ name
 expectedType
 :
 "
-autofill
--
 insecureWarning
 "
 /
