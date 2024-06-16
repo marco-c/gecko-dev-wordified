@@ -6389,14 +6389,6 @@ true
 if
 (
 mIsRedirect
-|
-|
-StaticPrefs
-:
-:
-network_cors_preflight_block_userpass_uri
-(
-)
 )
 {
 /
