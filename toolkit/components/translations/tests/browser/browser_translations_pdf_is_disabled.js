@@ -68,7 +68,7 @@ loadTestPage
 {
 page
 :
-EMPTY_PDF_URL
+PDF_TEST_PAGE_URL
 }
 )
 ;
