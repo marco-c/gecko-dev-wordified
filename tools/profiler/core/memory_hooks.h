@@ -162,6 +162,11 @@ disable_native_allocations
 (
 )
 ;
+void
+unregister_memory_counter
+(
+)
+;
 }
 /
 /
