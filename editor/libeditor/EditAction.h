@@ -3433,6 +3433,12 @@ case
 EditAction
 :
 :
+eCut
+:
+case
+EditAction
+:
+:
 eDeleteSelection
 :
 case
