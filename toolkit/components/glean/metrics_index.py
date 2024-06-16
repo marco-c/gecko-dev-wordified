@@ -632,16 +632,6 @@ firefox_desktop_metrics
 "
 browser
 /
-actors
-/
-metrics
-.
-yaml
-"
-    
-"
-browser
-/
 components
 /
 backup
