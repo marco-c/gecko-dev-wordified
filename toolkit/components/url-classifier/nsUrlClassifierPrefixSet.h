@@ -359,6 +359,10 @@ virtual
 nsUrlClassifierPrefixSet
 (
 )
+MOZ_REQUIRES
+(
+mLock
+)
 ;
 static
 const
