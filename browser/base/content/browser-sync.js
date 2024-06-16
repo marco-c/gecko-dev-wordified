@@ -1996,9 +1996,7 @@ createNullPrincipal
 ;
 if
 (
-document
-.
-defaultView
+BrowserUtils
 .
 whereToOpenLink
 (
