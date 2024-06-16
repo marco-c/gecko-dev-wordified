@@ -309,7 +309,13 @@ extract_from_archive
 archive
 file_data
 )
+Object
+:
+:
+Unknown
+(
 _
+)
 =
 >
 bail

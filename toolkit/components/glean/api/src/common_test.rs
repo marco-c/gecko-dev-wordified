@@ -359,9 +359,6 @@ false
 experimentation_id
 :
 None
-enable_internal_pings
-:
-true
 }
 ;
 let

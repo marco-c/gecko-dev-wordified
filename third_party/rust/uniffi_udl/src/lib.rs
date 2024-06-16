@@ -124,7 +124,7 @@ to
 describe
 a
 uniffi
-MetadataGroup
+MetatadataGroup
 .
 /
 /

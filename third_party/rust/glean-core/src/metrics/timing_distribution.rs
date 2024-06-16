@@ -724,7 +724,7 @@ AtomicUsize
 :
 new
 (
-1
+0
 )
 )
 start_times

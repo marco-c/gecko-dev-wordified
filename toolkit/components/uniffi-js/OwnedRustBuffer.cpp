@@ -248,7 +248,7 @@ uniffi_rustbuffer_alloc
 (
 static_cast
 <
-uint64_t
+int32_t
 >
 (
 aData
@@ -595,7 +595,7 @@ cx
 )
 ;
 {
-auto
+int32_t
 len
 =
 mBuf
