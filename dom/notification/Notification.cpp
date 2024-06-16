@@ -6557,7 +6557,7 @@ mWorkerPrivate
 ;
 RefPtr
 <
-WorkerRunnable
+WorkerThreadRunnable
 >
 r
 ;

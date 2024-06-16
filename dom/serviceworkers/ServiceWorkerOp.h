@@ -446,7 +446,7 @@ ServiceWorkerOpRunnable
 virtual
 RefPtr
 <
-WorkerRunnable
+WorkerThreadRunnable
 >
 GetRunnable
 (

@@ -4691,7 +4691,7 @@ PromiseWorkerProxyRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -4707,7 +4707,7 @@ RunCallbackFunc
 aFunc
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aPromiseWorkerProxy
 -
@@ -4718,7 +4718,6 @@ GetWorkerPrivate
 "
 PromiseWorkerProxyRunnable
 "
-WorkerThread
 )
 mPromiseWorkerProxy
 (

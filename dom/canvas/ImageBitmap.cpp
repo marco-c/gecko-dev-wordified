@@ -10424,7 +10424,7 @@ CreateImageBitmapFromBlobRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -10447,7 +10447,7 @@ nsresult
 aStatus
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "

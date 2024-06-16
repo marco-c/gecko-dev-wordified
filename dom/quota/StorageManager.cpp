@@ -777,7 +777,7 @@ FinishWorkerRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 RefPtr
 <
@@ -795,7 +795,7 @@ RequestResolver
 aResolver
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aResolver
 -

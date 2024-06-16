@@ -2426,7 +2426,7 @@ public
 dom
 :
 :
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -2450,7 +2450,7 @@ aRecorder
 dom
 :
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 )

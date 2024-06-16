@@ -1313,7 +1313,7 @@ public
 dom
 :
 :
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -1333,7 +1333,7 @@ aShmemHolder
 dom
 :
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "

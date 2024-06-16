@@ -750,7 +750,7 @@ MessagePortIdentifierRunnable
 final
 :
 public
-WorkerRunnable
+WorkerThreadRunnable
 {
 public
 :
@@ -768,7 +768,7 @@ MessagePortIdentifier
 aPortIdentifier
 )
 :
-WorkerRunnable
+WorkerThreadRunnable
 (
 aWorkerPrivate
 "
