@@ -125,16 +125,6 @@ nsIWebBrowserFind
 idl
 "
 ]
-EXPORTS
-+
-=
-[
-"
-nsFind
-.
-h
-"
-]
 XPIDL_MODULE
 =
 "
