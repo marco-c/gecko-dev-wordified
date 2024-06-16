@@ -383,6 +383,13 @@ DestroyViewer
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 mViewer
