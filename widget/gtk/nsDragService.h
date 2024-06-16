@@ -980,7 +980,7 @@ slow
 .
 nsTHashMap
 <
-nsCStringHashKey
+nsVoidPtrHashKey
 nsTArray
 <
 uint8_t
@@ -1041,7 +1041,7 @@ mCachedDragContext
 ;
 nsTHashMap
 <
-nsCStringHashKey
+nsVoidPtrHashKey
 mozilla
 :
 :
@@ -1322,7 +1322,7 @@ aRequestedFlavor
 const
 nsTArray
 <
-nsCString
+GdkAtom
 >
 &
 aAvailableDragFlavors
@@ -1571,7 +1571,7 @@ GetAvailableDragFlavors
 (
 nsTArray
 <
-nsCString
+GdkAtom
 >
 &
 aAvailableFlavors
@@ -1675,6 +1675,8 @@ loops
 int
 mEventLoopDepth
 ;
+public
+:
 static
 GdkAtom
 sTextMimeAtom
