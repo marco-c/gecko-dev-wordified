@@ -2465,10 +2465,10 @@ network_dns_force_use_https_rr
 if
 (
 (
-gHttpHandler
--
->
-UseHTTPSRRAsAltSvcEnabled
+StaticPrefs
+:
+:
+network_dns_use_https_rr_as_altsvc
 (
 )
 &

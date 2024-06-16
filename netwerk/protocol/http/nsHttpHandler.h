@@ -2991,12 +2991,6 @@ aOriginAttributes
 )
 ;
 bool
-UseHTTPSRRAsAltSvcEnabled
-(
-)
-const
-;
-bool
 EchConfigEnabled
 (
 bool
