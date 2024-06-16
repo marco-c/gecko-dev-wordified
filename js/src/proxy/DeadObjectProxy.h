@@ -156,7 +156,7 @@ class
 DeadObjectProxy
 :
 public
-BaseProxyHandler
+NurseryAllocableProxyHandler
 {
 public
 :
@@ -166,7 +166,7 @@ DeadObjectProxy
 (
 )
 :
-BaseProxyHandler
+NurseryAllocableProxyHandler
 (
 &
 family

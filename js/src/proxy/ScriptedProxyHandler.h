@@ -142,7 +142,7 @@ class
 ScriptedProxyHandler
 :
 public
-BaseProxyHandler
+NurseryAllocableProxyHandler
 {
 public
 :
@@ -161,7 +161,7 @@ ScriptedProxyHandler
 (
 )
 :
-BaseProxyHandler
+NurseryAllocableProxyHandler
 (
 &
 family
