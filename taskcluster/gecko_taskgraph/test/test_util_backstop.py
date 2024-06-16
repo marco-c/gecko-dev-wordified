@@ -175,8 +175,10 @@ pushdate
             
 pushlog_id
 :
+"
 {
 }
+"
         
 "
 "
@@ -299,9 +301,14 @@ LAST_BACKSTOP_PUSHDATE
 pushlog_id
 "
 :
+f
+"
+{
 LAST_BACKSTOP_PUSHID
 +
 1
+}
+"
         
 "
 target_tasks_method
@@ -353,7 +360,9 @@ status
 pushlog_id
 "
 :
+"
 1
+"
 }
             
 True
@@ -445,11 +454,16 @@ DEFAULT_RESPONSES
 pushlog_id
 "
 :
+f
+"
+{
 LAST_BACKSTOP_PUSHID
 +
 BACKSTOP_PUSH_INTERVAL
 -
 1
+}
+"
                 
 "
 pushdate
@@ -522,9 +536,14 @@ DEFAULT_RESPONSES
 pushlog_id
 "
 :
+f
+"
+{
 LAST_BACKSTOP_PUSHID
 +
 BACKSTOP_PUSH_INTERVAL
+}
+"
             
 }
             
@@ -551,11 +570,16 @@ DEFAULT_RESPONSES
 pushlog_id
 "
 :
+f
+"
+{
 LAST_BACKSTOP_PUSHID
 +
 BACKSTOP_PUSH_INTERVAL
 +
 1
+}
+"
             
 }
             
@@ -627,7 +651,12 @@ try
 pushlog_id
 "
 :
+f
+"
+{
 BACKSTOP_PUSH_INTERVAL
+}
+"
             
 }
             
@@ -859,14 +888,6 @@ key
 in
 response_args
 :
-            
-print
-(
-urls
-[
-key
-]
-)
             
 responses
 .
