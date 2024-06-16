@@ -3711,11 +3711,6 @@ absl
 nullopt
 ;
 }
-uint32_t
-pps_id
-=
-0
-;
 const
 H265PpsParser
 :
@@ -3726,7 +3721,11 @@ pps
 =
 GetPPS
 (
-pps_id
+last_slice_pps_id_
+.
+value
+(
+)
 )
 ;
 if
