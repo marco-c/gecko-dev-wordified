@@ -6771,6 +6771,7 @@ MediaData
 &
 &
 aData
+const
 VideoDecoderConfigInternal
 &
 aConfig
