@@ -9133,7 +9133,7 @@ window
 capture
 sink
 .
-UniquePtr
+RefPtr
 <
 MediaStreamWindowCapturer
 >
@@ -11520,7 +11520,7 @@ VideoTrackList
 >
 mVideoTrackList
 ;
-UniquePtr
+RefPtr
 <
 MediaStreamTrackListener
 >
