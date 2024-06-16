@@ -3516,6 +3516,13 @@ TryDNSPrefetch
 (
 *
 this
+HTMLDNSPrefetch
+:
+:
+PrefetchSource
+:
+:
+LinkDnsPrefetch
 )
 ;
 }
