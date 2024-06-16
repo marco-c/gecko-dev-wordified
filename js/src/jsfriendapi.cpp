@@ -4667,7 +4667,7 @@ initializedAny
 }
 extern
 JS_PUBLIC_API
-int
+bool
 JS
 :
 :
@@ -4679,10 +4679,15 @@ IsGCPoisoning
 ifdef
 JS_GC_ALLOW_EXTRA_POISONING
 return
-js
+JS
 :
 :
-gExtraPoisoningEnabled
+Prefs
+:
+:
+extra_gc_poisoning
+(
+)
 ;
 #
 else
