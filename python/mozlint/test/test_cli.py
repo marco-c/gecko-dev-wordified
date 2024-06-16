@@ -60,9 +60,11 @@ subprocess
 import
 sys
 from
-shutil
+distutils
+.
+spawn
 import
-which
+find_executable
 import
 mozunit
 import
@@ -395,7 +397,7 @@ mark
 skipif
 (
 not
-which
+find_executable
 (
 "
 echo
