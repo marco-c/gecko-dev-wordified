@@ -191,16 +191,6 @@ trunc
 )
 ;
 }
-'
-new
-Math
-.
-trunc
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

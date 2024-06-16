@@ -56,8 +56,6 @@ locale
 :
 [
 en
--
-US
 ]
 -
 -

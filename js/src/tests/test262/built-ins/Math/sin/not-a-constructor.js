@@ -191,16 +191,6 @@ sin
 )
 ;
 }
-'
-new
-Math
-.
-sin
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

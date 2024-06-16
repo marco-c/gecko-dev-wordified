@@ -191,16 +191,6 @@ expm1
 )
 ;
 }
-'
-new
-Math
-.
-expm1
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

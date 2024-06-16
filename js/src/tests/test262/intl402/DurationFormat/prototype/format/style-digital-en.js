@@ -87,8 +87,6 @@ locale
 :
 [
 en
--
-US
 ]
 includes
 :

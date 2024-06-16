@@ -567,9 +567,7 @@ getPossibleInstantsFor
 Called
 in
 NormalizedTimeDurationToDays
-21
-.
-a
+19
 from
 RoundDuration
 7

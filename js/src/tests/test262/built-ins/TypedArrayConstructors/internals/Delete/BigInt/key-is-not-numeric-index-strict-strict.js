@@ -315,14 +315,6 @@ sample
 bar
 ;
 }
-'
-delete
-sample
-.
-bar
-throws
-TypeError
-'
 )
 ;
 assert
