@@ -511,12 +511,6 @@ TOLERATED_DUPES
 =
 {
     
-"
-mio
-"
-:
-2
-    
 #
 Transition
 from
