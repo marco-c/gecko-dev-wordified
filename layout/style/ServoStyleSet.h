@@ -3375,6 +3375,8 @@ dom
 :
 Element
 *
+bool
+aForceRestyleSiblings
 )
 ;
 /

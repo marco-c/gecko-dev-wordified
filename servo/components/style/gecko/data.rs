@@ -1283,6 +1283,13 @@ to
 mutate
 it
 .
+#
+[
+derive
+(
+Deref
+)
+]
 pub
 struct
 PerDocumentStyleData

@@ -495,6 +495,10 @@ be
 fully
 restyled
 .
+#
+[
+inline
+]
 pub
 fn
 restyle_subtree
@@ -537,6 +541,10 @@ must
 be
 recascaded
 .
+#
+[
+inline
+]
 pub
 fn
 recascade_subtree
@@ -574,6 +582,10 @@ its
 /
 descendants
 .
+#
+[
+inline
+]
 pub
 fn
 contains_subtree
@@ -611,6 +623,10 @@ of
 the
 descendants
 .
+#
+[
+inline
+]
 pub
 fn
 will_recascade_subtree
