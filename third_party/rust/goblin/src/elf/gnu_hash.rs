@@ -95,6 +95,7 @@ more
 /
 !
 *
+<
 http
 :
 /
@@ -114,10 +115,12 @@ ali
 entry
 /
 gnu_hash_elf_sections
+>
 /
 /
 !
 or
+<
 https
 :
 /
@@ -139,10 +142,12 @@ elf
 sections
 -
 v2
+>
 /
 /
 !
 *
+<
 https
 :
 /
@@ -167,6 +172,7 @@ gnu
 -
 hash
 /
+>
 /
 /
 /
