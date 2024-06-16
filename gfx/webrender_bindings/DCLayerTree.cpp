@@ -577,7 +577,6 @@ aGL
 aEGLConfig
 aDevice
 aCtx
-aHwnd
 dCompDevice
 )
 ;
@@ -637,8 +636,6 @@ aDevice
 ID3D11DeviceContext
 *
 aCtx
-HWND
-aHwnd
 IDCompositionDevice2
 *
 aCompositionDevice
@@ -659,10 +656,6 @@ aDevice
 mCtx
 (
 aCtx
-)
-mHwnd
-(
-aHwnd
 )
 mCompositionDevice
 (
@@ -8607,14 +8600,8 @@ Get
 )
 -
 >
-WindowHDREnabled
+SystemHDREnabled
 (
-mDCLayerTree
--
->
-GetHwnd
-(
-)
 )
 ;
 const
