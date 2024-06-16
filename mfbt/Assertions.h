@@ -1556,6 +1556,7 @@ line
 do
 {
 \
+MOZ_NOMERGE
 __debugbreak
 (
 )
