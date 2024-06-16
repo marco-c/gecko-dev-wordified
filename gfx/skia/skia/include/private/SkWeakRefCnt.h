@@ -758,12 +758,8 @@ call
 .
 *
 /
-[
-[
-nodiscard
-]
-]
 bool
+SK_WARN_UNUSED_RESULT
 try_ref
 (
 )

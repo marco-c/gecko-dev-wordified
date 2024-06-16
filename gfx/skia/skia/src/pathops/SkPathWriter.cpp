@@ -123,10 +123,6 @@ SkPathOpsTypes
 .
 h
 "
-using
-namespace
-skia_private
-;
 /
 /
 wrap
@@ -1928,7 +1924,7 @@ finishContour
 )
 ;
 const
-TArray
+SkTArray
 <
 SkPath
 >
@@ -2128,7 +2124,7 @@ endCount
 /
 folded
 triangle
-STArray
+SkSTArray
 <
 8
 double
@@ -2139,7 +2135,7 @@ distances
 entries
 )
 ;
-STArray
+SkSTArray
 <
 8
 int
@@ -2150,7 +2146,7 @@ sortedDist
 entries
 )
 ;
-STArray
+SkSTArray
 <
 8
 int
@@ -3356,4 +3352,6 @@ SK_MaxS32
 }
 #
 endif
+return
+;
 }

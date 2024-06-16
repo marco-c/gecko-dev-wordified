@@ -124,9 +124,6 @@ jpeglib
 .
 h
 "
-/
-/
-NO_G3_REWRITE
 }
 class
 SkWStream

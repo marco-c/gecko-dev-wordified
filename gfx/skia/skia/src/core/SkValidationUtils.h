@@ -61,6 +61,17 @@ SkBlendMode
 .
 h
 "
+#
+include
+"
+src
+/
+core
+/
+SkXfermodePriv
+.
+h
+"
 /
 *
 *

@@ -50,11 +50,6 @@ SkTypes
 .
 h
 "
-#
-include
-<
-cstdint
->
 class
 SkCachedData
 ;

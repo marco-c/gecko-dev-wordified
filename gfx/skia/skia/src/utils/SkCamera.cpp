@@ -275,14 +275,11 @@ nullptr
 {
 dst
 =
-const_cast
-<
+(
 SkPatch3D
 *
->
-(
-this
 )
+this
 ;
 }
 dst

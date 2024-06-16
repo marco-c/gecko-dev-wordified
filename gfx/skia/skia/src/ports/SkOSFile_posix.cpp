@@ -373,9 +373,6 @@ return
 struct
 stat
 status
-=
-{
-}
 ;
 if
 (
@@ -507,9 +504,6 @@ size
 struct
 stat
 status
-=
-{
-}
 ;
 if
 (
@@ -1232,9 +1226,6 @@ nullptr
 struct
 stat
 s
-=
-{
-}
 ;
 SkString
 str

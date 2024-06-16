@@ -53,9 +53,9 @@ h
 #
 include
 "
-src
+include
 /
-sksl
+private
 /
 SkSLDefines
 .
@@ -64,7 +64,7 @@ h
 #
 include
 "
-src
+include
 /
 sksl
 /

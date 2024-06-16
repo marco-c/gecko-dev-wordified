@@ -76,11 +76,6 @@ SkTDArray
 .
 h
 "
-#
-include
-<
-cstdint
->
 /
 *
 *

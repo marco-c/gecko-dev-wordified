@@ -36,7 +36,7 @@ file
 #
 include
 "
-src
+include
 /
 sksl
 /

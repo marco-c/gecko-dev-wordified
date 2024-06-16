@@ -50,11 +50,6 @@ SkEventTracer
 .
 h
 "
-#
-include
-<
-cstdint
->
 /
 *
 *

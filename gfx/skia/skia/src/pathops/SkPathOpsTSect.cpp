@@ -156,10 +156,6 @@ include
 <
 cmath
 >
-using
-namespace
-skia_private
-;
 #
 define
 COINCIDENT_SPAN_COUNT
@@ -12607,7 +12603,7 @@ intersections
 )
 const
 {
-STArray
+SkSTArray
 <
 SkDCubic
 :
@@ -12719,7 +12715,7 @@ merge
 into
 final
 one
-STArray
+SkSTArray
 <
 SkDCubic
 :

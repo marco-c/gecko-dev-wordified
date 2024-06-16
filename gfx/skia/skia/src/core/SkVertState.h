@@ -50,11 +50,6 @@ SkVertices
 .
 h
 "
-#
-include
-<
-cstdint
->
 /
 *
 *

@@ -45,17 +45,6 @@ src
 /
 sksl
 /
-SkSLBuiltinTypes
-.
-h
-"
-#
-include
-"
-src
-/
-sksl
-/
 SkSLContext
 .
 h

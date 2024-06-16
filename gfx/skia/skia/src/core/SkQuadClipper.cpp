@@ -60,11 +60,6 @@ h
 #
 include
 <
-cstring
->
-#
-include
-<
 utility
 >
 SkQuadClipper

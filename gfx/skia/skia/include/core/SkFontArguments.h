@@ -185,7 +185,7 @@ Palette
 struct
 Override
 {
-uint16_t
+int
 index
 ;
 SkColor

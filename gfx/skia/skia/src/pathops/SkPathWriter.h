@@ -310,10 +310,7 @@ moveTo
 )
 ;
 const
-skia_private
-:
-:
-TArray
+SkTArray
 <
 SkPath
 >
@@ -349,10 +346,7 @@ fCurrent
 contour
 under
 construction
-skia_private
-:
-:
-TArray
+SkTArray
 <
 SkPath
 >

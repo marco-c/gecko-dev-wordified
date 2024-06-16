@@ -41,7 +41,7 @@ sksl
 /
 tracing
 /
-SkSLDebugTracePriv
+SkSLDebugInfo
 .
 h
 "

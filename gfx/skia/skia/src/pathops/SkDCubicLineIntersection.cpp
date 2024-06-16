@@ -2925,7 +2925,6 @@ cubicT
 =
 (
 (
-const
 SkDCurve
 *
 )

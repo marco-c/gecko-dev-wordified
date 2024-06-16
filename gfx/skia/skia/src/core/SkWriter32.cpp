@@ -79,14 +79,6 @@ SkMatrixPriv
 .
 h
 "
-#
-include
-<
-algorithm
->
-class
-SkMatrix
-;
 void
 SkWriter32
 :

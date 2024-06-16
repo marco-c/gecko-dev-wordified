@@ -40,6 +40,17 @@ define
 SkFontMetricsPriv_DEFINED
 #
 include
+"
+include
+/
+core
+/
+SkFontMetrics
+.
+h
+"
+#
+include
 <
 optional
 >
@@ -48,9 +59,6 @@ SkReadBuffer
 ;
 class
 SkWriteBuffer
-;
-struct
-SkFontMetrics
 ;
 class
 SkFontMetricsPriv

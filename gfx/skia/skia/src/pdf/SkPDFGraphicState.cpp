@@ -311,7 +311,7 @@ return
 /
 If
 a
-SkBlendMode
+SkXfermode
 is
 unsupported
 in
@@ -325,9 +325,11 @@ SrcOver
 otherwise
 it
 returns
-the
-blend
-mode
+that
+Xfermode
+as
+a
+Mode
 .
 static
 uint8_t

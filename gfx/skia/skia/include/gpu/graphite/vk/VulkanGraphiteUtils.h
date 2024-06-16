@@ -43,19 +43,6 @@ include
 <
 memory
 >
-#
-include
-"
-include
-/
-private
-/
-base
-/
-SkAPI
-.
-h
-"
 namespace
 skgpu
 {
@@ -78,7 +65,6 @@ ContextOptions
 namespace
 ContextFactory
 {
-SK_API
 std
 :
 :

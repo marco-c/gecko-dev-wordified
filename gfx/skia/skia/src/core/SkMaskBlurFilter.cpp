@@ -8555,7 +8555,7 @@ const
 SkMask
 &
 src
-SkMaskBuilder
+SkMask
 *
 dst
 )
@@ -8728,7 +8728,7 @@ gaussFactorsY
 *
 dst
 =
-SkMaskBuilder
+SkMask
 :
 :
 PrepareDestination
@@ -8781,9 +8781,7 @@ nullptr
 dst
 -
 >
-bounds
-(
-)
+fBounds
 .
 setEmpty
 (
@@ -8899,9 +8897,7 @@ srcH
 dst
 -
 >
-image
-(
-)
+fImage
 +
 radiusX
 dstRB
@@ -8930,9 +8926,7 @@ srcH
 dst
 -
 >
-image
-(
-)
+fImage
 +
 radiusX
 dstRB
@@ -8961,9 +8955,7 @@ srcH
 dst
 -
 >
-image
-(
-)
+fImage
 +
 radiusX
 dstRB
@@ -8992,9 +8984,7 @@ srcH
 dst
 -
 >
-image
-(
-)
+fImage
 +
 radiusX
 dstRB
@@ -9036,9 +9026,7 @@ srcW
 dst
 -
 >
-image
-(
-)
+fImage
 dstRB
 dstW
 dstH
@@ -9088,7 +9076,7 @@ const
 SkMask
 &
 src
-SkMaskBuilder
+SkMask
 *
 dst
 )
@@ -9186,7 +9174,7 @@ borderW
 *
 dst
 =
-SkMaskBuilder
+SkMask
 :
 :
 PrepareDestination
@@ -9239,9 +9227,7 @@ nullptr
 dst
 -
 >
-bounds
-(
-)
+fBounds
 .
 setEmpty
 (
@@ -10004,9 +9990,7 @@ dstStart
 dst
 -
 >
-image
-(
-)
+fImage
 [
 y
 ]

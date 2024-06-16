@@ -718,8 +718,8 @@ int
 fCounter
 =
 0
-;
 )
+;
 SkRasterClip
 &
 writable_rc

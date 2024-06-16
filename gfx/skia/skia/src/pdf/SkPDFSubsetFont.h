@@ -91,6 +91,10 @@ Metadata
 :
 Subsetter
 subsetter
+const
+char
+*
+fontName
 int
 ttcIndex
 )

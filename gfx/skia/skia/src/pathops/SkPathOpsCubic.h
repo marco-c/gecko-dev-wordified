@@ -1228,8 +1228,8 @@ SkDEBUGCODE
 SkOpGlobalState
 *
 fDebugGlobalState
-;
 )
+;
 }
 ;
 /

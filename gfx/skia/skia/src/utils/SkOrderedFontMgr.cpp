@@ -260,10 +260,8 @@ count
 ;
 }
 }
-sk_sp
-<
 SkFontStyleSet
->
+*
 SkOrderedFontMgr
 :
 :
@@ -322,10 +320,8 @@ return
 nullptr
 ;
 }
-sk_sp
-<
 SkFontStyleSet
->
+*
 SkOrderedFontMgr
 :
 :
@@ -372,10 +368,8 @@ return
 nullptr
 ;
 }
-sk_sp
-<
 SkTypeface
->
+*
 SkOrderedFontMgr
 :
 :
@@ -427,10 +421,8 @@ return
 nullptr
 ;
 }
-sk_sp
-<
 SkTypeface
->
+*
 SkOrderedFontMgr
 :
 :

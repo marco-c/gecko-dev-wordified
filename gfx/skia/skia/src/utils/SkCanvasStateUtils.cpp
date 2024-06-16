@@ -1267,7 +1267,7 @@ top
 most
 device
 .
-SkDevice
+SkBaseDevice
 *
 device
 =
@@ -2346,7 +2346,13 @@ y
 ;
 }
 return
+std
+:
+:
+move
+(
 canvas
+)
 ;
 }
 /

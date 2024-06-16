@@ -86,12 +86,12 @@ cstdint
 #
 include
 <
-cstring
+iterator
 >
 #
 include
 <
-iterator
+string
 >
 static
 constexpr

@@ -2097,15 +2097,15 @@ SkDEBUGCODE
 (
 int
 fID
-;
 )
+;
 SkDEBUGCODE
 (
 mutable
 int
 fDebugIndent
-;
 )
+;
 }
 ;
 class

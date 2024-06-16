@@ -47,17 +47,6 @@ h
 #
 include
 "
-include
-/
-core
-/
-SkRect
-.
-h
-"
-#
-include
-"
 src
 /
 core

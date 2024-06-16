@@ -141,7 +141,8 @@ kSkDrawLooper_Type
 /
 no
 longer
-supported
+used
+internally
 by
 Skia
 kSkImageFilter_Type

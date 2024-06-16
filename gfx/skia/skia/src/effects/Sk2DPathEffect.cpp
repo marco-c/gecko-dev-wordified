@@ -1279,6 +1279,7 @@ Sk2DPathEffect
 /
 /
 class
+SK_API
 SkPath2DPathEffectImpl
 :
 public

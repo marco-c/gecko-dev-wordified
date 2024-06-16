@@ -49,7 +49,7 @@ simple
 API
 wrapper
 around
-THashTable
+SkTHashTable
 <
 T
 *
@@ -450,10 +450,7 @@ key
 }
 }
 ;
-skia_private
-:
-:
-THashTable
+SkTHashTable
 <
 T
 *

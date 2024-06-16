@@ -157,6 +157,16 @@ SkIRect
 &
 )
 ;
+explicit
+SkNoDrawCanvas
+(
+sk_sp
+<
+SkBaseDevice
+>
+device
+)
+;
 /
 /
 Optimization

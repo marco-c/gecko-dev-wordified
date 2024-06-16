@@ -4034,6 +4034,7 @@ long
 doubles
 )
 .
+inline
 static
 constexpr
 size_t
@@ -4071,6 +4072,7 @@ to
 max_align_t
 )
 .
+inline
 static
 constexpr
 size_t

@@ -39,6 +39,9 @@ SkFontStream_DEFINED
 #
 define
 SkFontStream_DEFINED
+class
+SkStream
+;
 #
 include
 "
@@ -50,14 +53,6 @@ SkTypeface
 .
 h
 "
-#
-include
-<
-cstddef
->
-class
-SkStream
-;
 class
 SkFontStream
 {

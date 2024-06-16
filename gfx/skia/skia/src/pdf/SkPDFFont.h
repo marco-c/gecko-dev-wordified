@@ -347,15 +347,6 @@ SkAdvancedTypefaceMetrics
 :
 :
 kTrueType_Font
-|
-|
-type
-=
-=
-SkAdvancedTypefaceMetrics
-:
-:
-kCFF_Font
 ;
 }
 /

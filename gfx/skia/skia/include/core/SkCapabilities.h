@@ -50,16 +50,8 @@ SkRefCnt
 h
 "
 #
-include
-"
-include
-/
-core
-/
-SkTypes
-.
-h
-"
+ifdef
+SK_ENABLE_SKSL
 #
 include
 "
@@ -78,6 +70,8 @@ struct
 ShaderCaps
 ;
 }
+#
+endif
 #
 if
 defined
@@ -115,6 +109,9 @@ RasterBackend
 (
 )
 ;
+#
+ifdef
+SK_ENABLE_SKSL
 SkSL
 :
 :
@@ -128,6 +125,8 @@ return
 fSkSLVersion
 ;
 }
+#
+endif
 protected
 :
 #
@@ -158,6 +157,9 @@ SkCapabilities
 =
 default
 ;
+#
+ifdef
+SK_ENABLE_SKSL
 void
 initSkCaps
 (
@@ -183,6 +185,8 @@ Version
 :
 k100
 ;
+#
+endif
 }
 ;
 #
