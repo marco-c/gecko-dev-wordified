@@ -64,7 +64,6 @@ json
 ]
 ]
 ;
-async
 function
 checkUISchemaValid
 (
@@ -201,7 +200,6 @@ uiSchema
 )
 )
 ;
-await
 checkUISchemaValid
 (
 schemaData
