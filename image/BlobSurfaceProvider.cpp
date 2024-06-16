@@ -870,7 +870,7 @@ void
 BlobSurfaceProvider
 :
 :
-InvalidateRecording
+InvalidateSurface
 (
 )
 {

@@ -2111,6 +2111,12 @@ aKey
 )
 override
 ;
+void
+InvalidateSurface
+(
+)
+override
+;
 protected
 :
 DrawableFrameRef
@@ -2251,6 +2257,11 @@ mSurface
 ;
 DrawableFrameRef
 mLockRef
+;
+bool
+mDirty
+=
+false
 ;
 }
 ;
