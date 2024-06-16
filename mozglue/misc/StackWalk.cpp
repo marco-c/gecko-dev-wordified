@@ -295,7 +295,7 @@ endif
 if
 defined
 (
-HAVE_DLFCN_H
+HAVE_DLOPEN
 )
 |
 |

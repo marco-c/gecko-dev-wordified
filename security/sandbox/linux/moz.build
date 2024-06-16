@@ -151,15 +151,6 @@ PR_GetEnv
 nspr
 "
 ]
-OS_LIBS
-+
-=
-CONFIG
-[
-"
-DL_LIBS
-"
-]
 EXPORTS
 .
 mozilla

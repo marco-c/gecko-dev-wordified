@@ -181,15 +181,6 @@ sqlite3
 c
 '
 ]
-OS_LIBS
-+
-=
-CONFIG
-[
-"
-DL_LIBS
-"
-]
 #
 -
 DSQLITE_SECURE_DELETE
