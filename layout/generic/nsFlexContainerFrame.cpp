@@ -53190,12 +53190,6 @@ gfxContext
 aRenderingContext
 )
 {
-DISPLAY_MIN_INLINE_SIZE
-(
-this
-mCachedMinISize
-)
-;
 if
 (
 mCachedMinISize
@@ -53258,12 +53252,6 @@ gfxContext
 aRenderingContext
 )
 {
-DISPLAY_PREF_INLINE_SIZE
-(
-this
-mCachedPrefISize
-)
-;
 if
 (
 mCachedPrefISize

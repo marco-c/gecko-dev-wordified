@@ -1808,15 +1808,6 @@ gfxContext
 aRenderingContext
 )
 {
-nscoord
-result
-;
-DISPLAY_PREF_INLINE_SIZE
-(
-this
-result
-)
-;
 /
 /
 Always
@@ -1881,6 +1872,7 @@ ContainIntrinsicISize
 (
 )
 ;
+nscoord
 result
 =
 containISize
@@ -1935,15 +1927,6 @@ gfxContext
 aRenderingContext
 )
 {
-nscoord
-result
-;
-DISPLAY_MIN_INLINE_SIZE
-(
-this
-result
-)
-;
 /
 /
 Always
@@ -2008,6 +1991,7 @@ ContainIntrinsicISize
 (
 )
 ;
+nscoord
 result
 =
 containISize

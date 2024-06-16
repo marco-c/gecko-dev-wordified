@@ -78020,12 +78020,6 @@ aRC
 )
 ;
 }
-DISPLAY_MIN_INLINE_SIZE
-(
-this
-mCachedMinISize
-)
-;
 if
 (
 mCachedMinISize
@@ -78109,12 +78103,6 @@ aRC
 )
 ;
 }
-DISPLAY_PREF_INLINE_SIZE
-(
-this
-mCachedPrefISize
-)
-;
 if
 (
 mCachedPrefISize

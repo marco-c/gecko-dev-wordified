@@ -5589,12 +5589,6 @@ aRenderingContext
 )
 ;
 }
-DISPLAY_MIN_INLINE_SIZE
-(
-this
-mCachedMinISize
-)
-;
 CheckIntrinsicCacheAgainstShrinkWrapState
 (
 )
@@ -6137,12 +6131,6 @@ aRenderingContext
 )
 ;
 }
-DISPLAY_PREF_INLINE_SIZE
-(
-this
-mCachedPrefISize
-)
-;
 CheckIntrinsicCacheAgainstShrinkWrapState
 (
 )

@@ -1359,12 +1359,6 @@ aRenderingContext
 nscoord
 minISize
 ;
-DISPLAY_MIN_INLINE_SIZE
-(
-this
-minISize
-)
-;
 minISize
 =
 GetIntrinsicISize
@@ -1393,12 +1387,6 @@ aRenderingContext
 {
 nscoord
 prefISize
-;
-DISPLAY_PREF_INLINE_SIZE
-(
-this
-prefISize
-)
 ;
 prefISize
 =
