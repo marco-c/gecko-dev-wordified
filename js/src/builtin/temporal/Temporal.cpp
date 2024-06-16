@@ -4654,9 +4654,6 @@ result
 {
 MOZ_ASSERT
 (
-temporal
-:
-:
 IsValidEpochInstant
 (
 x

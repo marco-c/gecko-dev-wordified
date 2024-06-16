@@ -975,7 +975,7 @@ PlainDate
 &
 date
 const
-Duration
+DateDuration
 &
 duration
 TemporalOverflow
