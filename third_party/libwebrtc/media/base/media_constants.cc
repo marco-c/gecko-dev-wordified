@@ -121,7 +121,7 @@ const
 int
 kVideoRtpRecvBufferSize
 =
-262144
+1048576
 ;
 const
 float
