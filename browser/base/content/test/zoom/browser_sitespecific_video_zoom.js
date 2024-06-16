@@ -152,7 +152,7 @@ general
 /
 video
 .
-webm
+ogg
 "
 ;
 var

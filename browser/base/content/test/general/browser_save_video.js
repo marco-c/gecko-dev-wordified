@@ -308,7 +308,7 @@ video1
 -
 expectedName
 .
-webm
+ogv
 "
 "
 Video
