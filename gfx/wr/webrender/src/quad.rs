@@ -562,7 +562,7 @@ u16
 }
 pub
 fn
-push_quad
+prepare_quad
 (
 pattern
 :
