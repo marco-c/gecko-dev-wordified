@@ -111,11 +111,6 @@ nullable
 :
 boolean
 "
-breakpoints
-:
-"
-json
-"
 }
 )
 ;
