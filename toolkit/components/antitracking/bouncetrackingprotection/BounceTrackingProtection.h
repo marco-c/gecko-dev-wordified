@@ -271,6 +271,7 @@ aActivationTime
 nodiscard
 ]
 ]
+static
 nsresult
 RecordUserActivation
 (
