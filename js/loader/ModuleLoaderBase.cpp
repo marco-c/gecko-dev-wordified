@@ -4217,6 +4217,12 @@ CreateModuleScript
 aRequest
 )
 ;
+#
+if
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
 /
 /
 If
@@ -4274,6 +4280,8 @@ HasParseError
 )
 ;
 }
+#
+endif
 aRequest
 -
 >
@@ -9605,6 +9613,12 @@ registered
 "
 )
 ;
+#
+if
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
 if
 (
 JSObject
@@ -9632,6 +9646,8 @@ module
 )
 ;
 }
+#
+endif
 script
 -
 >
