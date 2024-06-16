@@ -15648,7 +15648,7 @@ CallerType
 :
 :
 System
-eMouseClick
+ePointerClick
 nullptr
 WidgetMouseEvent
 :
@@ -16631,7 +16631,7 @@ WidgetMouseEvent
 event
 (
 aIsTrusted
-eMouseClick
+ePointerClick
 nullptr
 WidgetMouseEvent
 :

@@ -12914,7 +12914,7 @@ return
 NS_OK
 ;
 case
-eMouseClick
+ePointerClick
 :
 OnMouseClick
 (

@@ -1182,7 +1182,7 @@ return
 mMessage
 =
 =
-eMouseClick
+ePointerClick
 &
 &
 mButton
@@ -2280,7 +2280,7 @@ eMouseDown
 eMouseUp
 /
 /
-eMouseClick
+ePointerClick
 or
 eMouseDoubleClick
 .

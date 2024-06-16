@@ -17841,10 +17841,10 @@ case
 eMouseDoubleClick
 :
 case
-eMouseAuxClick
+ePointerAuxClick
 :
 case
-eMouseClick
+ePointerClick
 :
 case
 eContextMenu

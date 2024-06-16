@@ -1061,14 +1061,14 @@ eBasicEventClass
 EVENT
 (
 auxclick
-eMouseAuxClick
+ePointerAuxClick
 EventNameType_All
 eMouseEventClass
 )
 EVENT
 (
 click
-eMouseClick
+ePointerClick
 EventNameType_All
 eMouseEventClass
 )

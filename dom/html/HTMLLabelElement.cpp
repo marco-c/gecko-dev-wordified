@@ -667,7 +667,7 @@ we
 will
 reach
 the
-eMouseClick
+ePointerClick
 code
 below
 .
@@ -711,7 +711,7 @@ LayoutDeviceIntPoint
 break
 ;
 case
-eMouseClick
+ePointerClick
 :
 if
 (

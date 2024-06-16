@@ -1239,7 +1239,7 @@ button
 see
 note
 at
-eMouseClick
+ePointerClick
 .
 if
 (
@@ -1292,7 +1292,7 @@ button
 see
 note
 at
-eMouseClick
+ePointerClick
 .
 if
 (
@@ -1561,7 +1561,7 @@ openControlled
 break
 ;
 case
-eMouseClick
+ePointerClick
 :
 /
 *
@@ -1656,7 +1656,7 @@ aEvent
 mMessage
 =
 =
-eMouseAuxClick
+ePointerAuxClick
 )
 {
 /

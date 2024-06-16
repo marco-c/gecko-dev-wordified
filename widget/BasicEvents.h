@@ -6930,7 +6930,7 @@ mComposed
 mMessage
 =
 =
-eMouseClick
+ePointerClick
 |
 |
 mMessage
@@ -6942,7 +6942,7 @@ eMouseDoubleClick
 mMessage
 =
 =
-eMouseAuxClick
+ePointerAuxClick
 |
 |
 mMessage

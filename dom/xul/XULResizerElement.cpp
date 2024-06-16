@@ -1674,7 +1674,7 @@ false
 break
 ;
 case
-eMouseClick
+ePointerClick
 :
 {
 auto

@@ -711,9 +711,6 @@ eBasicEventClass
 /
 eMouseEventClass
 case
-eMouseClick
-:
-case
 eMouseDown
 :
 case
@@ -722,6 +719,9 @@ eMouseUp
 /
 /
 ePointerEventClass
+case
+ePointerClick
+:
 case
 ePointerDown
 :

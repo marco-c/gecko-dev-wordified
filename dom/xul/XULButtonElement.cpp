@@ -4014,7 +4014,7 @@ break
 ;
 }
 case
-eMouseClick
+ePointerClick
 :
 {
 WidgetMouseEvent

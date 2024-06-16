@@ -3081,7 +3081,7 @@ referred
 /
 only
 by
-eMouseClick
+ePointerClick
 case
 but
 click
@@ -3205,7 +3205,7 @@ rv
 /
 click
 case
-eMouseClick
+ePointerClick
 :
 {
 WidgetMouseEvent
@@ -3259,7 +3259,7 @@ fallthrough
 /
 auxclick
 case
-eMouseAuxClick
+ePointerAuxClick
 :
 {
 WidgetMouseEvent
