@@ -379,10 +379,6 @@ const
 int
 block_size_log2_
 ;
-const
-bool
-penalize_high_delays_initial_phase_
-;
 std
 :
 :
