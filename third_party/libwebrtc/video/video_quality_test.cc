@@ -1937,6 +1937,7 @@ make_unique
 MultiplexDecoderAdapter
 >
 (
+env
 decoder_factory_
 .
 get
