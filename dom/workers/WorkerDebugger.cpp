@@ -1104,6 +1104,14 @@ aResult
 =
 !
 mWorkerPrivate
+|
+|
+mWorkerPrivate
+-
+>
+IsDead
+(
+)
 ;
 return
 NS_OK
