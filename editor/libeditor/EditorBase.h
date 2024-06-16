@@ -8742,11 +8742,6 @@ false
 ;
 }
 }
-void
-MarkEditActionCanceled
-(
-)
-;
 EditorBase
 &
 mEditorBase
