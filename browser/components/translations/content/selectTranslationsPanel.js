@@ -4970,6 +4970,8 @@ idle
 :
 case
 "
+translation
+-
 failure
 "
 :
@@ -5561,7 +5563,7 @@ failure
 *
 /
 #
-changeStateToFailure
+changeStateToTranslationFailure
 (
 )
 {
@@ -5601,6 +5603,8 @@ phase
 }
 =
 >
+translation
+-
 failure
 )
 )
@@ -5612,6 +5616,8 @@ this
 changeStateTo
 (
 "
+translation
+-
 failure
 "
 /
@@ -5787,6 +5793,8 @@ phase
 =
 =
 "
+translation
+-
 failure
 "
 )
@@ -5938,6 +5946,8 @@ closed
 :
 case
 "
+translation
+-
 failure
 "
 :
@@ -6098,6 +6108,8 @@ idle
 :
 case
 "
+translation
+-
 failure
 "
 :
@@ -6222,6 +6234,8 @@ break
 }
 case
 "
+translation
+-
 failure
 "
 :
@@ -8177,7 +8191,7 @@ error
 this
 .
 #
-changeStateToFailure
+changeStateToTranslationFailure
 (
 )
 ;

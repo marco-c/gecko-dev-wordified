@@ -1790,6 +1790,8 @@ string
 phase
 :
 "
+translation
+-
 failure
 "
 ;
