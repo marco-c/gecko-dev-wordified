@@ -657,12 +657,6 @@ close
 (
 )
 ;
-aCacheEntry
-.
-close
-(
-)
-;
 }
 function
 test_partial

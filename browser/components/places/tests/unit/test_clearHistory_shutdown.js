@@ -1007,12 +1007,6 @@ close
 (
 )
 ;
-entry
-.
-close
-(
-)
-;
 resolve
 (
 )

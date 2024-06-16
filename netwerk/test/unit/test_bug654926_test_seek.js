@@ -165,12 +165,6 @@ close
 (
 )
 ;
-entry
-.
-close
-(
-)
-;
 /
 /
 try
@@ -282,12 +276,6 @@ Flush
 )
 .
 os
-.
-close
-(
-)
-;
-entry
 .
 close
 (

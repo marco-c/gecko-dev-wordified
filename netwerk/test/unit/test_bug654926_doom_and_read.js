@@ -165,12 +165,6 @@ close
 (
 )
 ;
-entry
-.
-close
-(
-)
-;
 /
 /
 open
@@ -294,12 +288,6 @@ length
 )
 ;
 is
-.
-close
-(
-)
-;
-entry
 .
 close
 (

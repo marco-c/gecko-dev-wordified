@@ -188,12 +188,6 @@ close
 (
 )
 ;
-entry
-.
-close
-(
-)
-;
 /
 /
 now
@@ -346,12 +340,6 @@ ex
 )
 {
 }
-entry
-.
-close
-(
-)
-;
 do_test_finished
 (
 )
