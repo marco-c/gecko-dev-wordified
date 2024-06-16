@@ -6665,7 +6665,7 @@ inverse
 (
 )
 .
-accumulate
+pre_transform
 (
 &
 child
@@ -9084,7 +9084,7 @@ to_untyped
 )
 )
 .
-accumulate
+pre_transform
 (
 &
 scale_offset
@@ -9185,7 +9185,7 @@ Some
 (
 parent_scale_offset
 .
-accumulate
+pre_transform
 (
 &
 scale_offset

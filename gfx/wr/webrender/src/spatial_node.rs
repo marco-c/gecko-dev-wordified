@@ -2988,7 +2988,7 @@ state
 .
 coordinate_system_relative_scale_offset
 .
-accumulate
+pre_transform
 (
 &
 maybe_snapped
@@ -3491,7 +3491,7 @@ state
 .
 coordinate_system_relative_scale_offset
 .
-offset
+pre_offset
 (
 snap_offset
 (
@@ -3585,7 +3585,7 @@ state
 .
 coordinate_system_relative_scale_offset
 .
-offset
+pre_offset
 (
 snap_offset
 (
@@ -3646,7 +3646,7 @@ state
 .
 coordinate_system_relative_scale_offset
 .
-offset
+pre_offset
 (
 snap_offset
 (

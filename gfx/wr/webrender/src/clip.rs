@@ -7145,7 +7145,7 @@ inverse
 (
 )
 .
-accumulate
+pre_transform
 (
 &
 clip_spatial_node

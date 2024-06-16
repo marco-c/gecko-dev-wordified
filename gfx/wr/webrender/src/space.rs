@@ -376,7 +376,7 @@ inverse
 (
 )
 .
-accumulate
+pre_transform
 (
 &
 target_spatial_node
@@ -1265,12 +1265,12 @@ inverse
 (
 )
 .
-accumulate
+pre_transform
 (
 target_scale_offset
 )
 .
-scale
+pre_scale
 (
 self
 .
