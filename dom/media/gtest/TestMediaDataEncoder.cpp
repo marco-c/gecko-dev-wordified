@@ -1376,6 +1376,8 @@ BIT_RATE
 bitrate
 *
 /
+0
+0
 BIT_RATE_MODE
 pref
 aScalabilityMode
