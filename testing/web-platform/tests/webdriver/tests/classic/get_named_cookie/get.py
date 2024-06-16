@@ -5,6 +5,7 @@ datetime
 import
 datetime
 timedelta
+timezone
 from
 tests
 .
@@ -468,8 +469,11 @@ a_day_from_now
 (
 datetime
 .
-utcnow
+now
 (
+timezone
+.
+utc
 )
 +
 timedelta

@@ -23,6 +23,7 @@ datetime
 import
 datetime
 timedelta
+timezone
 #
 Amount
 of
@@ -2180,8 +2181,11 @@ end_date
 <
 datetime
 .
-utcnow
+now
 (
+timezone
+.
+utc
 )
 +
 time_buffer

@@ -21,6 +21,7 @@ datetime
 import
 datetime
 timedelta
+timezone
 from
 io
 import
@@ -942,8 +943,11 @@ expires
 =
 datetime
 .
-utcnow
+now
 (
+timezone
+.
+utc
 )
 +
 expires
