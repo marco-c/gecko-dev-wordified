@@ -84,6 +84,11 @@ cstdint
 #
 include
 <
+memory
+>
+#
+include
+<
 utility
 >
 #

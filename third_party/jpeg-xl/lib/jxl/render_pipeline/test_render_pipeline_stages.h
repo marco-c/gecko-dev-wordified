@@ -527,7 +527,7 @@ x
 )
 ;
 float
-yout0
+y_out0
 =
 xp
 *
@@ -542,7 +542,7 @@ xc
 75f
 ;
 float
-yout1
+y_out1
 =
 xc
 *
@@ -563,7 +563,7 @@ row_out0
 x
 )
 =
-yout0
+y_out0
 ;
 *
 (
@@ -572,7 +572,7 @@ row_out1
 x
 )
 =
-yout1
+y_out1
 ;
 }
 }

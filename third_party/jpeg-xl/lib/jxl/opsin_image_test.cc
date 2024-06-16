@@ -208,7 +208,7 @@ lib
 /
 jxl
 /
-test_utils
+test_memory_manager
 .
 h
 "

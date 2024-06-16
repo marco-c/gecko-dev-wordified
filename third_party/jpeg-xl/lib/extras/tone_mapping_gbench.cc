@@ -243,6 +243,11 @@ _
 state
 )
 {
+(
+void
+)
+_
+;
 state
 .
 PauseTiming

@@ -435,7 +435,7 @@ kMaxComponents
 /
 Initialized
 at
-strat
+start
 of
 frame
 .

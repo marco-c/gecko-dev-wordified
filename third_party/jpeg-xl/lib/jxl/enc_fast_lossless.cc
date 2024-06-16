@@ -3924,8 +3924,6 @@ kLZ77Offset
 =
 =
 224
-"
-"
 )
 ;
 static_assert
@@ -3934,8 +3932,6 @@ kNumRawSymbols
 =
 =
 19
-"
-"
 )
 ;
 {
@@ -5062,7 +5058,7 @@ should
 start
 at
 byte
-boundery
+boundary
 .
 output
 -
@@ -8527,7 +8523,7 @@ rg_mask
 )
 ;
 __m512i
-ba
+b_a
 =
 _mm512_permutexvar_epi64
 (
@@ -8573,7 +8569,7 @@ b
 =
 _mm512_and_si512
 (
-ba
+b_a
 _mm512_set1_epi16
 (
 0xFF
@@ -8585,7 +8581,7 @@ a
 =
 _mm512_srli_epi16
 (
-ba
+b_a
 8
 )
 ;
@@ -12584,7 +12580,7 @@ rg_mask
 )
 ;
 __m256i
-ba
+b_a
 =
 _mm256_permute4x64_epi64
 (
@@ -12630,7 +12626,7 @@ b
 =
 _mm256_and_si256
 (
-ba
+b_a
 _mm256_set1_epi16
 (
 0xFF
@@ -12642,7 +12638,7 @@ a
 =
 _mm256_srli_epi16
 (
-ba
+b_a
 8
 )
 ;
@@ -17741,7 +17737,7 @@ bit
 position
 .
 __m512i
-end_interm0
+end_intermediate0
 =
 _mm512_add_epi64
 (
@@ -17753,14 +17749,14 @@ nbits
 )
 ;
 __m512i
-end_interm1
+end_intermediate1
 =
 _mm512_add_epi64
 (
-end_interm0
+end_intermediate0
 sh2
 (
-end_interm0
+end_intermediate0
 )
 )
 ;
@@ -17769,10 +17765,10 @@ end
 =
 _mm512_add_epi64
 (
-end_interm1
+end_intermediate1
 sh4
 (
-end_interm1
+end_intermediate1
 )
 )
 ;
@@ -32543,7 +32539,7 @@ size_t
 nb_chans
 size_t
 bitdepth
-int
+bool
 big_endian
 int
 effort
@@ -32711,7 +32707,7 @@ size_t
 nb_chans
 size_t
 bitdepth
-int
+bool
 big_endian
 int
 effort

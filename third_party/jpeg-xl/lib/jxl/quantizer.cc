@@ -154,6 +154,11 @@ kDefaultQuant
 =
 64
 ;
+#
+if
+JXL_CXX_LANG
+<
+JXL_CXX_17
 constexpr
 int32_t
 Quantizer
@@ -161,6 +166,8 @@ Quantizer
 :
 kQuantMax
 ;
+#
+endif
 Quantizer
 :
 :

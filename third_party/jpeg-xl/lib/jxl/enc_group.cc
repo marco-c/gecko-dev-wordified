@@ -613,7 +613,7 @@ df
 )
 {
 auto
-thr
+threshold
 =
 Zero
 (
@@ -669,7 +669,7 @@ x
 )
 )
 ;
-thr
+threshold
 =
 IfThenElse
 (
@@ -707,7 +707,7 @@ in
 the
 vector
 .
-thr
+threshold
 =
 Set
 (
@@ -786,7 +786,7 @@ Abs
 (
 val
 )
-thr
+threshold
 )
 ;
 const
@@ -3643,6 +3643,10 @@ shared
 .
 cmap
 .
+base
+(
+)
+.
 YtoXRatio
 (
 row_cmap
@@ -3668,6 +3672,10 @@ enc_state
 shared
 .
 cmap
+.
+base
+(
+)
 .
 YtoBRatio
 (

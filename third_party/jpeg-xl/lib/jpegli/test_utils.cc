@@ -6148,7 +6148,7 @@ by
 )
 {
 JBLOCKARRAY
-ba
+blocks
 =
 (
 *
@@ -6198,7 +6198,7 @@ DCTSIZE2
 ;
 memcpy
 (
-ba
+blocks
 [
 0
 ]

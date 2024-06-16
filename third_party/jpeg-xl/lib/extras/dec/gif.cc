@@ -1003,10 +1003,7 @@ GIF
 are
 specified
 in
-100ths
-of
-a
-second
+censiseconds
 .
 ppf
 -

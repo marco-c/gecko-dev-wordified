@@ -1336,9 +1336,9 @@ NoiseParams
 &
 noise_params
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-cmap
+color_correlation
 size_t
 first_c
 )
@@ -1373,9 +1373,9 @@ noise_params_
 (
 noise_params
 )
-cmap_
+color_correlation_
 (
-cmap
+color_correlation
 )
 first_c_
 (
@@ -1516,7 +1516,7 @@ d
 float
 ytox
 =
-cmap_
+color_correlation_
 .
 YtoXRatio
 (
@@ -1526,7 +1526,7 @@ YtoXRatio
 float
 ytob
 =
-cmap_
+color_correlation_
 .
 YtoBRatio
 (
@@ -1983,9 +1983,9 @@ NoiseParams
 noise_params_
 ;
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-cmap_
+color_correlation_
 ;
 size_t
 first_c_
@@ -2006,9 +2006,9 @@ NoiseParams
 &
 noise_params
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-cmap
+color_correlation
 size_t
 noise_c_start
 )
@@ -2023,7 +2023,7 @@ AddNoiseStage
 >
 (
 noise_params
-cmap
+color_correlation
 noise_c_start
 )
 ;
@@ -2603,9 +2603,9 @@ NoiseParams
 &
 noise_params
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-cmap
+color_correlation
 size_t
 noise_c_start
 )
@@ -2617,7 +2617,7 @@ GetAddNoiseStage
 )
 (
 noise_params
-cmap
+color_correlation
 noise_c_start
 )
 ;

@@ -294,7 +294,7 @@ tps_denom
 f
 ;
 double
-tps_numer
+tps_numerator
 =
 1
 .
@@ -834,7 +834,7 @@ animation
 .
 tps_denominator
 ;
-tps_numer
+tps_numerator
 =
 animation
 .
@@ -2093,7 +2093,7 @@ f
 *
 tps_denom
 /
-tps_numer
+tps_numerator
 ;
 layer_name
 =

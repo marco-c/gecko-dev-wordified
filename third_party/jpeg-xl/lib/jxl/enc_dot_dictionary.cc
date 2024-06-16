@@ -348,9 +348,9 @@ Rect
 &
 rect
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-cmap
+color_correlation
 ThreadPool
 *
 pool
@@ -478,13 +478,13 @@ kEllipsePosQ
 <
 =
 5
-cmap
+color_correlation
 .
 YtoXRatio
 (
 0
 )
-cmap
+color_correlation
 .
 YtoBRatio
 (

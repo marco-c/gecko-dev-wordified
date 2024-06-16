@@ -229,7 +229,7 @@ C
 +
 +
 becomes
-reuired
+required
 .
 #
 define

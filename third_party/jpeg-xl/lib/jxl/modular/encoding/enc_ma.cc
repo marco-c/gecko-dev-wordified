@@ -4221,6 +4221,11 @@ tree
 )
 ;
 }
+#
+if
+JXL_CXX_LANG
+<
+JXL_CXX_17
 constexpr
 int32_t
 TreeSamples
@@ -4235,6 +4240,8 @@ TreeSamples
 :
 kDedupEntryUnused
 ;
+#
+endif
 Status
 TreeSamples
 :
@@ -6783,7 +6790,7 @@ vector
 <
 int32_t
 >
-abs_pixel_thr
+abs_pixel_thresholds
 ;
 std
 :
@@ -6792,7 +6799,7 @@ vector
 <
 int32_t
 >
-pixel_thr
+pixel_thresholds
 ;
 auto
 quantize_pixel_property
@@ -6805,14 +6812,14 @@ quantize_pixel_property
 {
 if
 (
-pixel_thr
+pixel_thresholds
 .
 empty
 (
 )
 )
 {
-pixel_thr
+pixel_thresholds
 =
 QuantizeSamples
 (
@@ -6822,7 +6829,7 @@ max_property_values
 ;
 }
 return
-pixel_thr
+pixel_thresholds
 ;
 }
 ;
@@ -6837,7 +6844,7 @@ quantize_abs_pixel_property
 {
 if
 (
-abs_pixel_thr
+abs_pixel_thresholds
 .
 empty
 (
@@ -6875,7 +6882,7 @@ abs
 v
 )
 ;
-abs_pixel_thr
+abs_pixel_thresholds
 =
 QuantizeSamples
 (
@@ -6885,7 +6892,7 @@ max_property_values
 ;
 }
 return
-abs_pixel_thr
+abs_pixel_thresholds
 ;
 }
 ;
@@ -6896,7 +6903,7 @@ vector
 <
 int32_t
 >
-abs_diff_thr
+abs_diff_thresholds
 ;
 std
 :
@@ -6905,7 +6912,7 @@ vector
 <
 int32_t
 >
-diff_thr
+diff_thresholds
 ;
 auto
 quantize_diff_property
@@ -6918,14 +6925,14 @@ quantize_diff_property
 {
 if
 (
-diff_thr
+diff_thresholds
 .
 empty
 (
 )
 )
 {
-diff_thr
+diff_thresholds
 =
 QuantizeSamples
 (
@@ -6935,7 +6942,7 @@ max_property_values
 ;
 }
 return
-diff_thr
+diff_thresholds
 ;
 }
 ;
@@ -6950,7 +6957,7 @@ quantize_abs_diff_property
 {
 if
 (
-abs_diff_thr
+abs_diff_thresholds
 .
 empty
 (
@@ -6988,7 +6995,7 @@ abs
 v
 )
 ;
-abs_diff_thr
+abs_diff_thresholds
 =
 QuantizeSamples
 (
@@ -6998,7 +7005,7 @@ max_property_values
 ;
 }
 return
-abs_diff_thr
+abs_diff_thresholds
 ;
 }
 ;

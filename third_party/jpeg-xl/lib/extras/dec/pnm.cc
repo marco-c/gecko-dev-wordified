@@ -3585,6 +3585,9 @@ ec_types
 {
 PackedExtraChannel
 pec
+=
+{
+}
 ;
 pec
 .

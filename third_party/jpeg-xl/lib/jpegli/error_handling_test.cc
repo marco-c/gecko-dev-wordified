@@ -7644,7 +7644,7 @@ compressed
 }
 /
 /
-inavlid
+invalid
 table
 index
 /
@@ -8158,7 +8158,7 @@ compressed
 }
 /
 /
-inavlid
+invalid
 table
 slot_id
 for

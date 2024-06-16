@@ -296,6 +296,17 @@ lib
 /
 jxl
 /
+test_memory_manager
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 test_utils
 .
 h
@@ -3062,7 +3073,7 @@ jxl
 :
 :
 ButteraugliParams
-ba
+butteraugli_params
 ;
 float
 butteraugli_score
@@ -3075,7 +3086,7 @@ frames
 decoded_io
 .
 frames
-ba
+butteraugli_params
 *
 JxlGetDefaultCms
 (
@@ -3095,7 +3106,7 @@ target_score
 =
 1
 .
-4f
+5f
 ;
 /
 /
@@ -4685,7 +4696,7 @@ jxl
 :
 :
 ButteraugliParams
-ba
+butteraugli_params
 ;
 float
 butteraugli_score
@@ -4698,7 +4709,7 @@ frames
 decoded_io
 .
 frames
-ba
+butteraugli_params
 *
 JxlGetDefaultCms
 (
@@ -5459,7 +5470,7 @@ jxl
 :
 :
 ButteraugliParams
-ba
+butteraugli_params
 ;
 float
 butteraugli_score
@@ -5472,7 +5483,7 @@ frames
 decoded_io
 .
 frames
-ba
+butteraugli_params
 *
 JxlGetDefaultCms
 (

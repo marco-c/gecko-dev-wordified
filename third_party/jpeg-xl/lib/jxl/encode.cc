@@ -13885,7 +13885,7 @@ values
 .
 cparams
 .
-disable_percepeptual_optimizations
+disable_perceptual_optimizations
 =
 default_to_false
 (
@@ -13901,7 +13901,7 @@ values
 .
 cparams
 .
-disable_percepeptual_optimizations
+disable_perceptual_optimizations
 &
 &
 frame_settings
@@ -14869,6 +14869,11 @@ output_processor
 =
 JxlEncoderOutputProcessorWrapper
 (
+&
+enc
+-
+>
+memory_manager
 )
 ;
 JxlEncoderInitBasicInfo
@@ -17373,7 +17378,7 @@ values
 .
 cparams
 .
-disable_percepeptual_optimizations
+disable_perceptual_optimizations
 &
 &
 frame_settings
@@ -17672,10 +17677,7 @@ m
 bit_depth
 .
 bits_per_sample
-TO_JXL_BOOL
-(
 big_endian
-)
 /
 *
 effort

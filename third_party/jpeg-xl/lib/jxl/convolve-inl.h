@@ -968,6 +968,11 @@ d
 ;
 /
 /
+typo
+:
+off
+/
+/
 For
 mod
 =
@@ -1160,6 +1165,11 @@ ffe
 .
 .
 321
+/
+/
+typo
+:
+on
 #
 if
 HWY_CAP_GE512

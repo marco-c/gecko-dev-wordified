@@ -796,7 +796,7 @@ by
 )
 {
 JBLOCKARRAY
-ba
+blocks
 =
 (
 *
@@ -1082,7 +1082,7 @@ coeff_t
 block
 =
 &
-ba
+blocks
 [
 0
 ]
@@ -1683,7 +1683,7 @@ by
 )
 {
 JBLOCKARRAY
-ba
+blocks
 =
 (
 *
@@ -1785,7 +1785,7 @@ coeff_t
 block
 =
 &
-ba
+blocks
 [
 0
 ]
@@ -2624,7 +2624,7 @@ tokens
 }
 }
 JBLOCKARRAY
-ba
+blocks
 [
 MAX_COMPS_IN_SCAN
 ]
@@ -2737,7 +2737,7 @@ n_blocks_y
 block_rows_left
 )
 ;
-ba
+blocks
 [
 i
 ]
@@ -3149,7 +3149,7 @@ else
 block
 =
 &
-ba
+blocks
 [
 i
 ]

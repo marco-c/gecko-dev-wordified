@@ -930,7 +930,7 @@ kRenderPipelineXOffset
 /
 Add
 mirrored
-pixes
+pixels
 to
 all
 kInOut

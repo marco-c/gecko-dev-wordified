@@ -489,6 +489,11 @@ next_avg
 but
 without
 branches
+/
+/
+typo
+:
+off
 auto
 Ba
 =
@@ -740,6 +745,11 @@ d
 absdiff
 )
 ;
+/
+/
+typo
+:
+on
 auto
 absan2
 =

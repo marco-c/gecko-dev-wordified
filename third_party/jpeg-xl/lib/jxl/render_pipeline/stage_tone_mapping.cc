@@ -268,6 +268,8 @@ float
 >
 (
 0
+.
+0f
 output_encoding_info_
 .
 orig_intensity_target
@@ -288,6 +290,8 @@ float
 >
 (
 0
+.
+0f
 output_encoding_info_
 .
 desired_intensity_target

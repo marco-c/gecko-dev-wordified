@@ -216,7 +216,7 @@ constexpr
 size_t
 kMaxHeaderSize
 =
-200
+2000
 ;
 class
 BasePNMEncoder

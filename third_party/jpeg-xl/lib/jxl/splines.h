@@ -759,9 +759,9 @@ image_xsize
 size_t
 image_ysize
 const
-ColorCorrelationMap
+ColorCorrelation
 &
-cmap
+color_correlation
 )
 ;
 private

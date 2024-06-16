@@ -1036,7 +1036,7 @@ psnr_target
 0
 ;
 JBLOCKARRAY
-ba
+blocks
 [
 kMaxComponents
 ]
@@ -1116,7 +1116,7 @@ v_samp_factor
 block_rows_left
 )
 ;
-ba
+blocks
 [
 c
 ]
@@ -1818,7 +1818,7 @@ JCOEF
 cblock
 =
 &
-ba
+blocks
 [
 c
 ]
