@@ -329,6 +329,14 @@ c
 )
 ;
 void
+ff_blockdsp_init_riscv
+(
+BlockDSPContext
+*
+c
+)
+;
+void
 ff_blockdsp_init_x86
 (
 BlockDSPContext
