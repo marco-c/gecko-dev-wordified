@@ -5728,6 +5728,17 @@ try_name
 return
 False
         
+if
+"
+tp7
+"
+in
+try_name
+:
+            
+return
+False
+        
 #
 Bug
 1867669
