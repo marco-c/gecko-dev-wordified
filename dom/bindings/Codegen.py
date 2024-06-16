@@ -64580,7 +64580,6 @@ self
 .
 processWebExtensionStubAttribute
 (
-idlNode
 cgThings
 )
             
@@ -64967,7 +64966,6 @@ def
 processWebExtensionStubAttribute
 (
 self
-idlNode
 cgThings
 )
 :
@@ -64980,6 +64978,8 @@ CallWebExtMethod
         
 stubNameSuffix
 =
+self
+.
 idlNode
 .
 getExtendedAttribute
@@ -65097,6 +65097,8 @@ s
 _ns
 '
 %
+self
+.
 idlNode
 .
 identifier
@@ -65146,6 +65148,8 @@ s
 _ns
 '
 %
+self
+.
 idlNode
 .
 identifier
