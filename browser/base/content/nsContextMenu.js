@@ -10335,8 +10335,6 @@ e
 let
 where
 =
-BrowserUtils
-.
 whereToOpenLink
 (
 e
@@ -14605,8 +14603,6 @@ content
 let
 dest
 =
-BrowserUtils
-.
 whereToOpenLink
 (
 aEvent

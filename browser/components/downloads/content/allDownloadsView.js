@@ -977,7 +977,7 @@ openWhere
 =
 browserWin
 ?
-BrowserUtils
+browserWin
 .
 whereToOpenLink
 (
