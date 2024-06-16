@@ -177,7 +177,7 @@ Foo
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mDead

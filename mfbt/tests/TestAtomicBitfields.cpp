@@ -609,7 +609,7 @@ CHECK_BOOL
 aIndex
 )
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -636,7 +636,7 @@ true
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -663,7 +663,7 @@ false
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -814,7 +814,7 @@ aSize
 val
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -827,7 +827,7 @@ false
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -848,7 +848,7 @@ true
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -861,7 +861,7 @@ true
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -882,7 +882,7 @@ StoreLargeAndInCharge
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -895,7 +895,7 @@ true
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -916,7 +916,7 @@ StoreLargeAndInCharge
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -929,7 +929,7 @@ true
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -988,7 +988,7 @@ int_max
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -1001,7 +1001,7 @@ true
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -1022,7 +1022,7 @@ false
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -1035,7 +1035,7 @@ false
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -1056,7 +1056,7 @@ int_max
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -1069,7 +1069,7 @@ false
 )
 ;
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .

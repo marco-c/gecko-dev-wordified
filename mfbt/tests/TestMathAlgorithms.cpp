@@ -1092,7 +1092,7 @@ TestGCD
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1367,7 +1367,7 @@ print
 (
 f
 '
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1430,7 +1430,7 @@ signed
 -
 bits
 integers
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1445,7 +1445,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1460,7 +1460,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1475,7 +1475,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1490,7 +1490,7 @@ GCD
 18
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1505,7 +1505,7 @@ GCD
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1520,7 +1520,7 @@ GCD
 10
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1535,7 +1535,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1550,7 +1550,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1565,7 +1565,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1580,7 +1580,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1595,7 +1595,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1610,7 +1610,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1625,7 +1625,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1640,7 +1640,7 @@ GCD
 10
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1655,7 +1655,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1670,7 +1670,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1685,7 +1685,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1700,7 +1700,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1715,7 +1715,7 @@ GCD
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1730,7 +1730,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1745,7 +1745,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1760,7 +1760,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1775,7 +1775,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1790,7 +1790,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1805,7 +1805,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1820,7 +1820,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1835,7 +1835,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1850,7 +1850,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1865,7 +1865,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1880,7 +1880,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1895,7 +1895,7 @@ GCD
 512
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1910,7 +1910,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1925,7 +1925,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1940,7 +1940,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1955,7 +1955,7 @@ GCD
 10
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1970,7 +1970,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -1985,7 +1985,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2000,7 +2000,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2015,7 +2015,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2030,7 +2030,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2045,7 +2045,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2060,7 +2060,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2075,7 +2075,7 @@ GCD
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2090,7 +2090,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2105,7 +2105,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2120,7 +2120,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2135,7 +2135,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2150,7 +2150,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2165,7 +2165,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2180,7 +2180,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2195,7 +2195,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2210,7 +2210,7 @@ GCD
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2225,7 +2225,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2240,7 +2240,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2255,7 +2255,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2270,7 +2270,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2285,7 +2285,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2300,7 +2300,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2315,7 +2315,7 @@ GCD
 9
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2330,7 +2330,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2345,7 +2345,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2360,7 +2360,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2375,7 +2375,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2390,7 +2390,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2405,7 +2405,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2420,7 +2420,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2435,7 +2435,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2450,7 +2450,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2465,7 +2465,7 @@ GCD
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2480,7 +2480,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2495,7 +2495,7 @@ GCD
 7
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2510,7 +2510,7 @@ GCD
 7
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2525,7 +2525,7 @@ GCD
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2540,7 +2540,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2555,7 +2555,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2570,7 +2570,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2585,7 +2585,7 @@ GCD
 19
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2600,7 +2600,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2615,7 +2615,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2630,7 +2630,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2645,7 +2645,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2660,7 +2660,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2675,7 +2675,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2690,7 +2690,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2705,7 +2705,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2720,7 +2720,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2735,7 +2735,7 @@ GCD
 10
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2750,7 +2750,7 @@ GCD
 150
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2765,7 +2765,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2780,7 +2780,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2795,7 +2795,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2810,7 +2810,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2825,7 +2825,7 @@ GCD
 79
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2840,7 +2840,7 @@ GCD
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2855,7 +2855,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2870,7 +2870,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2885,7 +2885,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2900,7 +2900,7 @@ GCD
 317
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2915,7 +2915,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2937,7 +2937,7 @@ unsigned
 -
 bits
 integers
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2952,7 +2952,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2967,7 +2967,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2982,7 +2982,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -2997,7 +2997,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3012,7 +3012,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3027,7 +3027,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3042,7 +3042,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3057,7 +3057,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3072,7 +3072,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3087,7 +3087,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3102,7 +3102,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3117,7 +3117,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3132,7 +3132,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3147,7 +3147,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3162,7 +3162,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3177,7 +3177,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3192,7 +3192,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3207,7 +3207,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3222,7 +3222,7 @@ GCD
 5u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3237,7 +3237,7 @@ GCD
 4u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3252,7 +3252,7 @@ GCD
 6u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3267,7 +3267,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3282,7 +3282,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3297,7 +3297,7 @@ GCD
 17u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3312,7 +3312,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3327,7 +3327,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3342,7 +3342,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3357,7 +3357,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3372,7 +3372,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3387,7 +3387,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3402,7 +3402,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3417,7 +3417,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3432,7 +3432,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3447,7 +3447,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3462,7 +3462,7 @@ GCD
 54u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3477,7 +3477,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3492,7 +3492,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3507,7 +3507,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3522,7 +3522,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3537,7 +3537,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3552,7 +3552,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3567,7 +3567,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3582,7 +3582,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3597,7 +3597,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3612,7 +3612,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3627,7 +3627,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3642,7 +3642,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3657,7 +3657,7 @@ GCD
 8u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3672,7 +3672,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3687,7 +3687,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3702,7 +3702,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3717,7 +3717,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3732,7 +3732,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3747,7 +3747,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3762,7 +3762,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3777,7 +3777,7 @@ GCD
 76u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3792,7 +3792,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3807,7 +3807,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3822,7 +3822,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3837,7 +3837,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3852,7 +3852,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3867,7 +3867,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3882,7 +3882,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3897,7 +3897,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3912,7 +3912,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3927,7 +3927,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3942,7 +3942,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3957,7 +3957,7 @@ GCD
 18u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3972,7 +3972,7 @@ GCD
 6u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -3987,7 +3987,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4002,7 +4002,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4017,7 +4017,7 @@ GCD
 17u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4032,7 +4032,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4047,7 +4047,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4062,7 +4062,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4077,7 +4077,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4092,7 +4092,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4107,7 +4107,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4122,7 +4122,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4137,7 +4137,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4152,7 +4152,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4167,7 +4167,7 @@ GCD
 4u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4182,7 +4182,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4197,7 +4197,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4212,7 +4212,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4227,7 +4227,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4242,7 +4242,7 @@ GCD
 10u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4257,7 +4257,7 @@ GCD
 4u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4272,7 +4272,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4287,7 +4287,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4302,7 +4302,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4317,7 +4317,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4332,7 +4332,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4347,7 +4347,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4362,7 +4362,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4377,7 +4377,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4392,7 +4392,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4407,7 +4407,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4422,7 +4422,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4444,7 +4444,7 @@ signed
 -
 bits
 integers
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4459,7 +4459,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4474,7 +4474,7 @@ GCD
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4489,7 +4489,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4504,7 +4504,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4519,7 +4519,7 @@ GCD
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4534,7 +4534,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4549,7 +4549,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4564,7 +4564,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4579,7 +4579,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4594,7 +4594,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4609,7 +4609,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4624,7 +4624,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4639,7 +4639,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4654,7 +4654,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4669,7 +4669,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4684,7 +4684,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4699,7 +4699,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4714,7 +4714,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4729,7 +4729,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4744,7 +4744,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4759,7 +4759,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4774,7 +4774,7 @@ GCD
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4789,7 +4789,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4804,7 +4804,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4819,7 +4819,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4834,7 +4834,7 @@ GCD
 11
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4849,7 +4849,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4864,7 +4864,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4879,7 +4879,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4894,7 +4894,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4909,7 +4909,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4924,7 +4924,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4939,7 +4939,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4954,7 +4954,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4969,7 +4969,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4984,7 +4984,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -4999,7 +4999,7 @@ GCD
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5014,7 +5014,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5029,7 +5029,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5044,7 +5044,7 @@ GCD
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5059,7 +5059,7 @@ GCD
 8
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5074,7 +5074,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5089,7 +5089,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5104,7 +5104,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5119,7 +5119,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5134,7 +5134,7 @@ GCD
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5149,7 +5149,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5164,7 +5164,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5179,7 +5179,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5194,7 +5194,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5209,7 +5209,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5224,7 +5224,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5239,7 +5239,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5254,7 +5254,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5269,7 +5269,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5284,7 +5284,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5299,7 +5299,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5314,7 +5314,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5329,7 +5329,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5344,7 +5344,7 @@ GCD
 11
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5359,7 +5359,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5374,7 +5374,7 @@ GCD
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5389,7 +5389,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5404,7 +5404,7 @@ GCD
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5419,7 +5419,7 @@ GCD
 10
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5434,7 +5434,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5449,7 +5449,7 @@ GCD
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5464,7 +5464,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5479,7 +5479,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5494,7 +5494,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5509,7 +5509,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5524,7 +5524,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5539,7 +5539,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5554,7 +5554,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5569,7 +5569,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5584,7 +5584,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5599,7 +5599,7 @@ GCD
 16
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5614,7 +5614,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5629,7 +5629,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5644,7 +5644,7 @@ GCD
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5659,7 +5659,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5674,7 +5674,7 @@ GCD
 6
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5689,7 +5689,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5704,7 +5704,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5719,7 +5719,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5734,7 +5734,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5749,7 +5749,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5764,7 +5764,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5779,7 +5779,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5794,7 +5794,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5809,7 +5809,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5824,7 +5824,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5839,7 +5839,7 @@ GCD
 26
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5854,7 +5854,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5869,7 +5869,7 @@ GCD
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5884,7 +5884,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5899,7 +5899,7 @@ GCD
 12
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5914,7 +5914,7 @@ GCD
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5929,7 +5929,7 @@ GCD
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5951,7 +5951,7 @@ unsigned
 -
 bits
 integers
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5966,7 +5966,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5981,7 +5981,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -5996,7 +5996,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6011,7 +6011,7 @@ GCD
 4u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6026,7 +6026,7 @@ GCD
 10u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6041,7 +6041,7 @@ GCD
 4u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6056,7 +6056,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6071,7 +6071,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6086,7 +6086,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6101,7 +6101,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6116,7 +6116,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6131,7 +6131,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6146,7 +6146,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6161,7 +6161,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6176,7 +6176,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6191,7 +6191,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6206,7 +6206,7 @@ GCD
 5u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6221,7 +6221,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6236,7 +6236,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6251,7 +6251,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6266,7 +6266,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6281,7 +6281,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6296,7 +6296,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6311,7 +6311,7 @@ GCD
 5u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6326,7 +6326,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6341,7 +6341,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6356,7 +6356,7 @@ GCD
 5u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6371,7 +6371,7 @@ GCD
 5u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6386,7 +6386,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6401,7 +6401,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6416,7 +6416,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6431,7 +6431,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6446,7 +6446,7 @@ GCD
 10u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6461,7 +6461,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6476,7 +6476,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6491,7 +6491,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6506,7 +6506,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6521,7 +6521,7 @@ GCD
 4u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6536,7 +6536,7 @@ GCD
 6u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6551,7 +6551,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6566,7 +6566,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6581,7 +6581,7 @@ GCD
 6u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6596,7 +6596,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6611,7 +6611,7 @@ GCD
 6u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6626,7 +6626,7 @@ GCD
 6u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6641,7 +6641,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6656,7 +6656,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6671,7 +6671,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6686,7 +6686,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6701,7 +6701,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6716,7 +6716,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6731,7 +6731,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6746,7 +6746,7 @@ GCD
 11u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6761,7 +6761,7 @@ GCD
 6u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6776,7 +6776,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6791,7 +6791,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6806,7 +6806,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6821,7 +6821,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6836,7 +6836,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6851,7 +6851,7 @@ GCD
 15u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6866,7 +6866,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6881,7 +6881,7 @@ GCD
 12u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6896,7 +6896,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6911,7 +6911,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6926,7 +6926,7 @@ GCD
 18u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6941,7 +6941,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6956,7 +6956,7 @@ GCD
 6u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6971,7 +6971,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -6986,7 +6986,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7001,7 +7001,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7016,7 +7016,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7031,7 +7031,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7046,7 +7046,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7061,7 +7061,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7076,7 +7076,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7091,7 +7091,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7106,7 +7106,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7121,7 +7121,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7136,7 +7136,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7151,7 +7151,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7166,7 +7166,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7181,7 +7181,7 @@ GCD
 8u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7196,7 +7196,7 @@ GCD
 3u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7211,7 +7211,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7226,7 +7226,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7241,7 +7241,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7256,7 +7256,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7271,7 +7271,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7286,7 +7286,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7301,7 +7301,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7316,7 +7316,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7331,7 +7331,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7346,7 +7346,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7361,7 +7361,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7376,7 +7376,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7391,7 +7391,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7406,7 +7406,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7421,7 +7421,7 @@ GCD
 2u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7436,7 +7436,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
@@ -7451,7 +7451,7 @@ GCD
 1u
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mozilla
 :
