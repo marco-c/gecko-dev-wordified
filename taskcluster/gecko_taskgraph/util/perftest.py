@@ -78,6 +78,12 @@ safari
 "
             
 "
+safari
+-
+tp
+"
+            
+"
 chrome
 "
             

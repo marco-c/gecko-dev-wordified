@@ -165,6 +165,16 @@ distribution
 "
         
 "
+install
+-
+safari
+-
+technology
+-
+preview
+"
+        
+"
 run
 -
 tests
