@@ -114,17 +114,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-FeaturePolicy
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
