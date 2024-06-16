@@ -74,11 +74,9 @@ sys
 import
 time
 from
-distutils
-.
-spawn
+shutil
 import
-find_executable
+which
 from
 mozperftest
 .
@@ -122,7 +120,7 @@ DISPLAY
     
 xvfb
 =
-find_executable
+which
 (
 "
 Xvfb
