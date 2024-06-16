@@ -299,9 +299,6 @@ MediaDrmProxy
 PanZoomController
 "
 "
-RuntimeTelemetry
-"
-"
 Sample
 "
 "
@@ -885,14 +882,6 @@ painting
 netwerk
 /
 base
-"
-"
-/
-toolkit
-/
-components
-/
-telemetry
 "
 "
 /
