@@ -4034,7 +4034,7 @@ RecordReason
 TRRSkippedReason
 :
 :
-TRR_IS_OFFLINE
+TRR_BROWSER_IS_OFFLINE
 )
 ;
 }
@@ -4064,7 +4064,7 @@ RecordReason
 TRRSkippedReason
 :
 :
-TRR_IS_OFFLINE
+TRR_BROWSER_IS_OFFLINE
 )
 ;
 break

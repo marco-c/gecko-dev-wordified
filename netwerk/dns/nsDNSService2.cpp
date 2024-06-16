@@ -9176,7 +9176,7 @@ static_assert
 TRRSkippedReason
 :
 :
-TRR_IS_OFFLINE
+TRR_BROWSER_IS_OFFLINE
 =
 =
 13
@@ -9771,12 +9771,12 @@ case
 TRRSkippedReason
 :
 :
-TRR_IS_OFFLINE
+TRR_BROWSER_IS_OFFLINE
 :
 aName
 =
 "
-TRR_IS_OFFLINE
+TRR_BROWSER_IS_OFFLINE
 "
 _ns
 ;
