@@ -422,10 +422,6 @@ equal
 gURLBar
 .
 value
-UrlbarTestUtils
-.
-trimURL
-(
 "
 http
 :
@@ -437,7 +433,6 @@ com
 /
 foo
 "
-)
 "
 Value
 should
