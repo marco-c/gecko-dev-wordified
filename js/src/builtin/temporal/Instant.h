@@ -750,12 +750,9 @@ roundingMode
 )
 *
 /
-bool
+Instant
 RoundTemporalInstant
 (
-JSContext
-*
-cx
 const
 Instant
 &
@@ -766,9 +763,6 @@ TemporalUnit
 unit
 TemporalRoundingMode
 roundingMode
-Instant
-*
-result
 )
 ;
 /
