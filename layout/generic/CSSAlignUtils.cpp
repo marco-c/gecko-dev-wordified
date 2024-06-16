@@ -527,9 +527,15 @@ MOZ_LIKELY
 isSameSide
 )
 ?
-eLogicalEdgeStart
+LogicalEdge
 :
-eLogicalEdgeEnd
+:
+Start
+:
+LogicalEdge
+:
+:
+End
 )
 ;
 const
