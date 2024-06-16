@@ -5114,9 +5114,8 @@ DtlsTransportState
 kClosed
 )
 ;
-SignalClosed
+NotifyOnClose
 (
-this
 )
 ;
 }
@@ -5187,9 +5186,8 @@ DtlsTransportState
 kFailed
 )
 ;
-SignalClosed
+NotifyOnClose
 (
-this
 )
 ;
 }
