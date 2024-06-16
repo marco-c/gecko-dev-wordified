@@ -906,6 +906,11 @@ False
 tsan
 =
 False
+        
+tag
+=
+"
+"
     
 )
 :
@@ -1017,6 +1022,12 @@ privatebrowsing
 "
 :
 False
+            
+"
+tag
+"
+:
+tag
         
 }
     
