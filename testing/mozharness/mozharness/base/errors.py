@@ -750,7 +750,13 @@ package
 .
 *
 >
+(
+?
+:
 Error
+|
+ERROR
+)
 :
 "
 "
