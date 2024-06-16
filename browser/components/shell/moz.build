@@ -130,6 +130,16 @@ xpcshell
 toml
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+test
+/
+gtest
+"
+]
 JAR_MANIFESTS
 +
 =
