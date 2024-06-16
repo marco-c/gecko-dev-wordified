@@ -2,6 +2,10 @@ from
 __future__
 import
 annotations
+import
+importlib
+.
+metadata
 __all__
 =
 [
@@ -200,9 +204,9 @@ version
 commit
 =
 "
-10
+12
 .
-3
+0
 "
 if
 not
@@ -403,10 +407,17 @@ PATH
         
 except
 (
+            
 FileNotFoundError
+            
 subprocess
 .
 CalledProcessError
+            
+subprocess
+.
+TimeoutExpired
+        
 )
 :
             
@@ -533,20 +544,6 @@ installed
         
 try
 :
-            
-import
-importlib
-.
-metadata
-#
-move
-up
-when
-dropping
-Python
-3
-.
-7
             
 return
 importlib

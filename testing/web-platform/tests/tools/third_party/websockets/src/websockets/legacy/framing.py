@@ -3,8 +3,6 @@ __future__
 import
 annotations
 import
-dataclasses
-import
 struct
 from
 typing
@@ -41,11 +39,6 @@ apply_mask
 except
 ImportError
 :
-#
-pragma
-:
-no
-cover
     
 from
 .
@@ -247,7 +240,7 @@ Args
             
 reader
 :
-coroutine
+Coroutine
 that
 reads
 exactly
@@ -268,7 +261,7 @@ reached
             
 mask
 :
-whether
+Whether
 the
 frame
 should
@@ -291,7 +284,7 @@ side
             
 max_size
 :
-maximum
+Maximum
 payload
 size
 in
@@ -300,7 +293,7 @@ bytes
             
 extensions
 :
-list
+List
 of
 extensions
 applied
@@ -314,7 +307,7 @@ Raises
             
 PayloadTooBig
 :
-if
+If
 the
 frame
 exceeds
@@ -323,7 +316,7 @@ max_size
             
 ProtocolError
 :
-if
+If
 the
 frame
 contains
@@ -748,14 +741,14 @@ Args
             
 frame
 :
-frame
+Frame
 to
 write
 .
             
 write
 :
-function
+Function
 that
 writes
 bytes
@@ -763,7 +756,7 @@ bytes
             
 mask
 :
-whether
+Whether
 the
 frame
 should
@@ -786,7 +779,7 @@ side
             
 extensions
 :
-list
+List
 of
 extensions
 applied
@@ -799,7 +792,7 @@ Raises
             
 ProtocolError
 :
-if
+If
 the
 frame
 contains
@@ -882,13 +875,22 @@ from
 .
 frames
 import
+(
+#
+noqa
+:
+E402
+F401
+I001
+    
 Close
+    
 prepare_ctrl
 as
 encode_data
+    
 prepare_data
-#
-noqa
+)
 def
 parse_close
 (
@@ -921,13 +923,7 @@ frame
 Returns
 :
         
-Tuple
-[
-int
-str
-]
-:
-close
+Close
 code
 and
 reason
@@ -938,7 +934,7 @@ Raises
         
 ProtocolError
 :
-if
+If
 data
 is
 ill
@@ -948,7 +944,7 @@ formed
         
 UnicodeDecodeError
 :
-if
+If
 the
 reason
 isn
@@ -964,22 +960,22 @@ UTF
 "
 "
     
-return
-dataclasses
-.
-astuple
-(
+close
+=
 Close
 .
 parse
 (
 data
 )
-)
-#
-type
-:
-ignore
+    
+return
+close
+.
+code
+close
+.
+reason
 def
 serialize_close
 (

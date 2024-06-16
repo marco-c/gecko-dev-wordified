@@ -178,6 +178,11 @@ import
 datastructures
 frames
 http11
+from
+.
+typing
+import
+StatusLike
 __all__
 =
 [
@@ -675,15 +680,22 @@ self
 int
 :
         
-return
-1006
 if
 self
 .
 rcvd
 is
 None
-else
+:
+            
+return
+frames
+.
+CloseCode
+.
+ABNORMAL_CLOSURE
+        
+return
 self
 .
 rcvd
@@ -702,16 +714,19 @@ self
 str
 :
         
-return
-"
-"
 if
 self
 .
 rcvd
 is
 None
-else
+:
+            
+return
+"
+"
+        
+return
 self
 .
 rcvd
@@ -744,6 +759,9 @@ error
     
 A
 close
+frame
+with
+a
 code
 other
 than
@@ -758,9 +776,9 @@ going
 away
 )
 was
+    
 received
 or
-    
 sent
 or
 the
@@ -802,6 +820,8 @@ properly
 A
 close
 code
+with
+code
 1000
 (
 OK
@@ -812,7 +832,12 @@ or
 going
 away
 )
+or
+without
+a
+code
 was
+    
 received
 and
 sent
@@ -918,7 +943,7 @@ InvalidHandshake
     
 Raised
 when
-a
+an
 HTTP
 header
 doesn
@@ -1054,7 +1079,7 @@ InvalidHeader
     
 Raised
 when
-a
+an
 HTTP
 header
 cannot
@@ -1139,7 +1164,7 @@ InvalidHeader
     
 Raised
 when
-a
+an
 HTTP
 header
 has
@@ -1732,7 +1757,7 @@ on
 purpose
 and
 return
-a
+an
 HTTP
 response
 .
@@ -1811,9 +1836,7 @@ self
         
 status
 :
-http
-.
-HTTPStatus
+StatusLike
         
 headers
 :
@@ -1835,11 +1858,32 @@ b
 None
 :
         
+#
+If
+a
+user
+passes
+an
+int
+instead
+of
+a
+HTTPStatus
+fix
+it
+automatically
+.
+        
 self
 .
 status
 =
+http
+.
+HTTPStatus
+(
 status
+)
         
 self
 .
@@ -2041,7 +2085,7 @@ Raised
 when
 connecting
 to
-an
+a
 URI
 that
 isn

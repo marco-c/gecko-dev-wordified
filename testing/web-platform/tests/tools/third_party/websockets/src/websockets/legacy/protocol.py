@@ -17,6 +17,10 @@ ssl
 import
 struct
 import
+sys
+import
+time
+import
 uuid
 import
 warnings
@@ -33,6 +37,8 @@ AsyncIterator
     
 Awaitable
     
+Callable
+    
 Deque
     
 Dict
@@ -45,16 +51,12 @@ Mapping
     
 Optional
     
+Tuple
+    
 Union
     
 cast
 )
-from
-.
-.
-connection
-import
-State
 from
 .
 .
@@ -109,12 +111,20 @@ OP_TEXT
     
 Close
     
+CloseCode
+    
 Opcode
     
 prepare_ctrl
     
 prepare_data
 )
+from
+.
+.
+protocol
+import
+State
 from
 .
 .
@@ -127,7 +137,7 @@ from
 .
 compatibility
 import
-loop_if_py_lt_38
+asyncio_timeout
 from
 .
 framing
@@ -313,8 +323,8 @@ helps
 keeping
 the
 connection
-    
 open
+    
 especially
 in
 the
@@ -325,8 +335,8 @@ with
 short
 timeouts
 on
-    
 inactive
+    
 connections
 .
 Set
@@ -338,7 +348,6 @@ obj
 None
 to
 disable
-    
 this
 behavior
 .
@@ -396,9 +405,9 @@ is
 closed
 with
 code
-    
 1011
 .
+    
 This
 ensures
 that
@@ -452,6 +461,29 @@ section
 .
 3
     
+See
+the
+discussion
+of
+:
+doc
+:
+timeouts
+<
+.
+.
+/
+.
+.
+/
+topics
+/
+timeouts
+>
+for
+details
+.
+    
 The
 close_timeout
 parameter
@@ -499,39 +531,17 @@ for
 servers
 .
     
-See
-the
-discussion
-of
-:
-doc
-:
-timeouts
-<
-.
-.
-/
-topics
-/
-timeouts
->
-for
-details
-.
-    
 close_timeout
-needs
-to
-be
+is
 a
 parameter
 of
 the
 protocol
 because
-    
 websockets
 usually
+    
 calls
 :
 meth
@@ -548,6 +558,7 @@ the
 client
 side
 when
+using
 :
 func
 :
@@ -557,8 +568,6 @@ websockets
 client
 .
 connect
-is
-used
 as
 a
       
@@ -576,7 +585,7 @@ the
 connection
 handler
 terminates
-;
+.
     
 To
 apply
@@ -589,6 +598,15 @@ API
 wrap
 it
 in
+:
+func
+:
+~
+asyncio
+.
+timeout
+or
+    
 :
 func
 :
@@ -980,6 +998,9 @@ usage
 .
 .
 /
+.
+.
+/
 topics
 /
 memory
@@ -993,12 +1014,13 @@ Args
         
 logger
 :
-logger
+Logger
 for
 this
-connection
-;
+server
+.
             
+It
 defaults
 to
 logging
@@ -1011,9 +1033,9 @@ websockets
 protocol
 "
 )
-;
+.
             
-see
+See
 the
 :
 doc
@@ -1021,6 +1043,9 @@ doc
 logging
 guide
 <
+.
+.
+/
 .
 .
 /
@@ -1034,55 +1059,53 @@ details
         
 ping_interval
 :
-delay
+Delay
 between
 keepalive
 pings
 in
 seconds
-;
+.
             
 :
 obj
 :
 None
-to
-disable
+disables
 keepalive
 pings
 .
         
 ping_timeout
 :
-timeout
+Timeout
 for
 keepalive
 pings
 in
 seconds
-;
+.
             
 :
 obj
 :
 None
-to
-disable
+disables
 timeouts
 .
         
 close_timeout
 :
-timeout
+Timeout
 for
 closing
 the
 connection
 in
 seconds
-;
+.
             
-for
+For
 legacy
 reasons
 the
@@ -1098,28 +1121,27 @@ larger
         
 max_size
 :
-maximum
+Maximum
 size
 of
 incoming
 messages
 in
 bytes
-;
+.
             
 :
 obj
 :
 None
-to
-disable
+disables
 the
 limit
 .
         
 max_queue
 :
-maximum
+Maximum
 number
 of
 incoming
@@ -1127,21 +1149,20 @@ messages
 in
 receive
 buffer
-;
+.
             
 :
 obj
 :
 None
-to
-disable
+disables
 the
 limit
 .
         
 read_limit
 :
-high
+High
 -
 water
 mark
@@ -1154,7 +1175,7 @@ bytes
         
 write_limit
 :
-high
+High
 -
 water
 mark
@@ -1621,33 +1642,6 @@ protocol
 "
 )
         
-#
-https
-:
-/
-/
-github
-.
-com
-/
-python
-/
-typeshed
-/
-issues
-/
-5561
-        
-logger
-=
-cast
-(
-logging
-.
-Logger
-logger
-)
-        
 self
 .
 logger
@@ -1858,12 +1852,6 @@ asyncio
 .
 Lock
 (
-*
-*
-loop_if_py_lt_38
-(
-loop
-)
 )
         
 #
@@ -2267,16 +2255,113 @@ pings
 Dict
 [
 bytes
+Tuple
+[
 asyncio
 .
 Future
 [
-None
+float
+]
+float
 ]
 ]
 =
 {
 }
+        
+self
+.
+latency
+:
+float
+=
+0
+        
+"
+"
+"
+        
+Latency
+of
+the
+connection
+in
+seconds
+.
+        
+This
+value
+is
+updated
+after
+sending
+a
+ping
+frame
+and
+receiving
+a
+        
+matching
+pong
+frame
+.
+Before
+the
+first
+ping
+:
+attr
+:
+latency
+is
+0
+.
+        
+By
+default
+websockets
+enables
+a
+:
+ref
+:
+keepalive
+<
+keepalive
+>
+mechanism
+        
+that
+sends
+ping
+frames
+automatically
+at
+regular
+intervals
+.
+You
+can
+also
+        
+send
+ping
+frames
+and
+measure
+latency
+with
+:
+meth
+:
+ping
+.
+        
+"
+"
+"
         
 #
 Task
@@ -2591,14 +2676,6 @@ asyncio
 sleep
 (
 0
-*
-*
-loop_if_py_lt_38
-(
-self
-.
-loop
-)
 )
         
 await
@@ -3449,7 +3526,9 @@ None
 :
             
 return
-1006
+CloseCode
+.
+ABNORMAL_CLOSURE
         
 else
 :
@@ -3625,8 +3704,8 @@ is
 closed
 with
 the
-        
 close
+        
 code
 1000
 (
@@ -3638,10 +3717,15 @@ or
 going
 away
 )
+or
+without
+a
+close
+code
 .
+        
 It
 raises
-        
 a
 :
 exc
@@ -3652,9 +3736,9 @@ websockets
 exceptions
 .
 ConnectionClosedError
+        
 exception
 when
-        
 the
 connection
 is
@@ -3734,8 +3818,8 @@ ConnectionClosed
 .
 Specifically
 it
-        
 raises
+        
 :
 exc
 :
@@ -3833,8 +3917,16 @@ wrapping
 meth
 :
 recv
-        
 in
+        
+:
+func
+:
+~
+asyncio
+.
+timeout
+or
 :
 func
 :
@@ -3938,7 +4030,7 @@ Raises
             
 ConnectionClosed
 :
-when
+When
 the
 connection
 is
@@ -3947,7 +4039,7 @@ closed
             
 RuntimeError
 :
-if
+If
 two
 coroutines
 call
@@ -4151,15 +4243,6 @@ return_when
 asyncio
 .
 FIRST_COMPLETED
-                    
-*
-*
-loop_if_py_lt_38
-(
-self
-.
-loop
-)
                 
 )
             
@@ -4849,7 +4932,7 @@ Raises
             
 ConnectionClosed
 :
-when
+When
 the
 connection
 is
@@ -4858,7 +4941,7 @@ closed
             
 TypeError
 :
-if
+If
 message
 doesn
 '
@@ -5068,7 +5151,7 @@ message
 try
 :
                 
-message_chunk
+fragment
 =
 next
 (
@@ -5086,7 +5169,7 @@ data
 =
 prepare_data
 (
-message_chunk
+fragment
 )
             
 self
@@ -5123,7 +5206,7 @@ fragments
 .
                 
 for
-message_chunk
+fragment
 in
 iter_message
 :
@@ -5133,7 +5216,7 @@ data
 =
 prepare_data
 (
-message_chunk
+fragment
 )
                     
 if
@@ -5222,7 +5305,9 @@ self
 .
 fail_connection
 (
-1011
+CloseCode
+.
+INTERNAL_ERROR
 )
                 
 raise
@@ -5262,6 +5347,7 @@ AsyncIterable
 :
             
 #
+Implement
 aiter_message
 =
 aiter
@@ -5272,6 +5358,8 @@ without
 aiter
             
 #
+Work
+around
 https
 :
 /
@@ -5290,25 +5378,41 @@ issues
             
 aiter_message
 =
+cast
+(
+                
+Callable
+[
+[
+AsyncIterable
+[
+Data
+]
+]
+AsyncIterator
+[
+Data
+]
+]
+                
 type
 (
 message
 )
 .
 __aiter__
+            
+)
 (
 message
 )
-#
-type
-:
-ignore
             
 try
 :
                 
 #
-message_chunk
+Implement
+fragment
 =
 anext
 (
@@ -5318,6 +5422,8 @@ without
 anext
                 
 #
+Work
+around
 https
 :
 /
@@ -5334,23 +5440,36 @@ issues
 /
 5738
                 
-message_chunk
+fragment
 =
 await
+cast
+(
+                    
+Callable
+[
+[
+AsyncIterator
+[
+Data
+]
+]
+Awaitable
+[
+Data
+]
+]
+                    
 type
 (
 aiter_message
 )
 .
 __anext__
-(
-#
-type
-:
-ignore
-                    
-aiter_message
                 
+)
+(
+aiter_message
 )
             
 except
@@ -5364,7 +5483,7 @@ data
 =
 prepare_data
 (
-message_chunk
+fragment
 )
             
 self
@@ -5400,71 +5519,19 @@ Other
 fragments
 .
                 
-#
-https
-:
-/
-/
-github
-.
-com
-/
-python
-/
-mypy
-/
-issues
-/
-5738
-                
-#
-coverage
-reports
-this
-code
-as
-not
-covered
-but
-it
-is
-                
-#
-exercised
-by
-tests
--
-changing
-it
-breaks
-the
-tests
-!
-                
 async
 for
-message_chunk
+fragment
 in
 aiter_message
 :
-#
-type
-:
-ignore
-#
-pragma
-:
-no
-cover
-#
-noqa
                     
 confirm_opcode
 data
 =
 prepare_data
 (
-message_chunk
+fragment
 )
                     
 if
@@ -5553,7 +5620,9 @@ self
 .
 fail_connection
 (
-1011
+CloseCode
+.
+INTERNAL_ERROR
 )
                 
 raise
@@ -5599,18 +5668,24 @@ async
 def
 close
 (
+        
 self
+        
 code
 :
 int
 =
-1000
+CloseCode
+.
+NORMAL_CLOSURE
+        
 reason
 :
 str
 =
 "
 "
+    
 )
 -
 >
@@ -5794,12 +5869,17 @@ reason
 try
 :
             
-await
-asyncio
-.
-wait_for
+async
+with
+asyncio_timeout
 (
+self
+.
+close_timeout
+)
+:
                 
+await
 self
 .
 write_close_frame
@@ -5809,21 +5889,6 @@ Close
 code
 reason
 )
-)
-                
-self
-.
-close_timeout
-                
-*
-*
-loop_if_py_lt_38
-(
-self
-.
-loop
-)
-            
 )
         
 except
@@ -5884,12 +5949,12 @@ received
 within
 the
 timeout
-wait_for
+asyncio_timeout
 (
 )
-cancels
         
 #
+cancels
 the
 data
 transfer
@@ -5964,30 +6029,20 @@ timeout
 elapses
 .
             
-await
-asyncio
-.
-wait_for
+async
+with
+asyncio_timeout
 (
-                
-self
-.
-transfer_data_task
-                
 self
 .
 close_timeout
+)
+:
                 
-*
-*
-loop_if_py_lt_38
-(
+await
 self
 .
-loop
-)
-            
-)
+transfer_data_task
         
 except
 (
@@ -6174,7 +6229,6 @@ serve
 as
 a
 keepalive
-or
 as
 a
 check
@@ -6190,6 +6244,14 @@ up
 to
 this
 point
+or
+to
+measure
+:
+attr
+:
+latency
+.
         
 Canceling
 :
@@ -6305,6 +6367,9 @@ Returns
 asyncio
 .
 Future
+[
+float
+]
 :
 A
 future
@@ -6326,13 +6391,28 @@ ignore
 it
 if
 you
-            
 don
 '
 t
+            
 intend
 to
 wait
+.
+The
+result
+of
+the
+future
+is
+the
+latency
+of
+the
+            
+connection
+in
+seconds
 .
             
 :
@@ -6347,8 +6427,6 @@ ping
 (
 )
                 
-await
-pong_waiter
 #
 only
 if
@@ -6358,14 +6436,20 @@ to
 wait
 for
 the
+corresponding
 pong
+                
+latency
+=
+await
+pong_waiter
         
 Raises
 :
             
 ConnectionClosed
 :
-when
+When
 the
 connection
 is
@@ -6374,7 +6458,7 @@ closed
             
 RuntimeError
 :
-if
+If
 another
 ping
 was
@@ -6495,12 +6579,7 @@ getrandbits
 )
 )
         
-self
-.
-pings
-[
-data
-]
+pong_waiter
 =
 self
 .
@@ -6508,6 +6587,42 @@ loop
 .
 create_future
 (
+)
+        
+#
+Resolution
+of
+time
+.
+monotonic
+(
+)
+may
+be
+too
+low
+on
+Windows
+.
+        
+ping_timestamp
+=
+time
+.
+perf_counter
+(
+)
+        
+self
+.
+pings
+[
+data
+]
+=
+(
+pong_waiter
+ping_timestamp
 )
         
 await
@@ -6525,12 +6640,7 @@ asyncio
 .
 shield
 (
-self
-.
-pings
-[
-data
-]
+pong_waiter
 )
     
 async
@@ -6652,12 +6762,12 @@ data
 Data
 )
 :
-payload
+Payload
 of
 the
 pong
-;
-a
+.
+A
 string
 will
 be
@@ -6674,7 +6784,7 @@ Raises
             
 ConnectionClosed
 :
-when
+When
 the
 connection
 is
@@ -7368,7 +7478,9 @@ self
 .
 fail_connection
 (
-1002
+CloseCode
+.
+PROTOCOL_ERROR
 )
         
 except
@@ -7471,7 +7583,9 @@ self
 .
 fail_connection
 (
-1006
+CloseCode
+.
+ABNORMAL_CLOSURE
 )
         
 except
@@ -7490,7 +7604,9 @@ self
 .
 fail_connection
 (
-1007
+CloseCode
+.
+INVALID_DATA
 )
         
 except
@@ -7509,7 +7625,9 @@ self
 .
 fail_connection
 (
-1009
+CloseCode
+.
+MESSAGE_TOO_BIG
 )
         
 except
@@ -7576,7 +7694,9 @@ self
 .
 fail_connection
 (
-1011
+CloseCode
+.
+INTERNAL_ERROR
 )
     
 async
@@ -7754,7 +7874,7 @@ data
 .
 Fragmentation
         
-chunks
+fragments
 :
 List
 [
@@ -7817,9 +7937,9 @@ None
 :
                     
 nonlocal
-chunks
+fragments
                     
-chunks
+fragments
 .
 append
 (
@@ -7852,10 +7972,10 @@ None
 :
                     
 nonlocal
-chunks
+fragments
 max_size
                     
-chunks
+fragments
 .
 append
 (
@@ -7911,9 +8031,9 @@ None
 :
                     
 nonlocal
-chunks
+fragments
                     
-chunks
+fragments
 .
 append
 (
@@ -7938,10 +8058,10 @@ None
 :
                     
 nonlocal
-chunks
+fragments
 max_size
                     
-chunks
+fragments
 .
 append
 (
@@ -8044,7 +8164,7 @@ b
 .
 join
 (
-chunks
+fragments
 )
     
 async
@@ -8245,7 +8365,7 @@ Close
 parse
 (
 )
-synthetizes
+synthesizes
 a
 1005
 close
@@ -8361,6 +8481,14 @@ self
 pings
 :
                     
+pong_timestamp
+=
+time
+.
+perf_counter
+(
+)
+                    
 #
 Sending
 a
@@ -8397,7 +8525,10 @@ ping_ids
                     
 for
 ping_id
-ping
+(
+pong_waiter
+ping_timestamp
+)
 in
 self
 .
@@ -8417,18 +8548,20 @@ ping_id
                         
 if
 not
-ping
+pong_waiter
 .
 done
 (
 )
 :
                             
-ping
+pong_waiter
 .
 set_result
 (
-None
+pong_timestamp
+-
+ping_timestamp
 )
                         
 if
@@ -8440,26 +8573,31 @@ frame
 data
 :
                             
+self
+.
+latency
+=
+pong_timestamp
+-
+ping_timestamp
+                            
 break
                     
 else
 :
-#
-pragma
-:
-no
-cover
                         
-assert
-False
+raise
+AssertionError
+(
 "
-ping_id
-is
+solicited
+pong
+not
+found
 in
-self
-.
 pings
 "
+)
                     
 #
 Remove
@@ -9196,20 +9334,9 @@ asyncio
 .
 sleep
 (
-                    
 self
 .
 ping_interval
-                    
-*
-*
-loop_if_py_lt_38
-(
-self
-.
-loop
-)
-                
 )
                 
 #
@@ -9293,28 +9420,18 @@ None
 try
 :
                         
-await
-asyncio
-.
-wait_for
+async
+with
+asyncio_timeout
 (
-                            
-pong_waiter
-                            
 self
 .
 ping_timeout
+)
+:
                             
-*
-*
-loop_if_py_lt_38
-(
-self
-.
-loop
-)
-                        
-)
+await
+pong_waiter
                         
 self
 .
@@ -9363,46 +9480,20 @@ self
 .
 fail_connection
 (
-1011
+                            
+CloseCode
+.
+INTERNAL_ERROR
+                            
 "
 keepalive
 ping
 timeout
 "
+                        
 )
                         
 break
-        
-#
-Remove
-this
-branch
-when
-dropping
-support
-for
-Python
-<
-3
-.
-8
-        
-#
-because
-CancelledError
-no
-longer
-inherits
-Exception
-.
-        
-except
-asyncio
-.
-CancelledError
-:
-            
-raise
         
 except
 ConnectionClosed
@@ -9625,38 +9716,7 @@ wait_for_connection_lost
 )
 :
                     
-#
-Coverage
-marks
-this
-line
-as
-a
-partially
-executed
-branch
-.
-                    
-#
-I
-supect
-a
-bug
-in
-coverage
-.
-Ignore
-it
-for
-now
-.
-                    
 return
-#
-pragma
-:
-no
-cover
                 
 if
 self
@@ -9815,38 +9875,7 @@ wait_for_connection_lost
 )
 :
                     
-#
-Coverage
-marks
-this
-line
-as
-a
-partially
-executed
-branch
-.
-                    
-#
-I
-supect
-a
-bug
-in
-coverage
-.
-Ignore
-it
-for
-now
-.
-                    
 return
-#
-pragma
-:
-no
-cover
                 
 if
 self
@@ -10095,6 +10124,22 @@ connection
 "
 )
         
+#
+Due
+to
+a
+bug
+in
+coverage
+this
+is
+erroneously
+reported
+as
+not
+covered
+.
+        
 self
 .
 transport
@@ -10102,6 +10147,11 @@ transport
 abort
 (
 )
+#
+pragma
+:
+no
+cover
         
 #
 connection_lost
@@ -10114,43 +10164,12 @@ after
 aborting
 .
         
-#
-Coverage
-marks
-this
-line
-as
-a
-partially
-executed
-branch
-.
-        
-#
-I
-supect
-a
-bug
-in
-coverage
-.
-Ignore
-it
-for
-now
-.
-        
 await
 self
 .
 wait_for_connection_lost
 (
 )
-#
-pragma
-:
-no
-cover
     
 async
 def
@@ -10218,12 +10237,17 @@ done
 try
 :
                 
-await
-asyncio
-.
-wait_for
+async
+with
+asyncio_timeout
 (
+self
+.
+close_timeout
+)
+:
                     
+await
 asyncio
 .
 shield
@@ -10231,21 +10255,6 @@ shield
 self
 .
 connection_lost_waiter
-)
-                    
-self
-.
-close_timeout
-                    
-*
-*
-loop_if_py_lt_38
-(
-self
-.
-loop
-)
-                
 )
             
 except
@@ -10305,18 +10314,24 @@ done
 def
 fail_connection
 (
+        
 self
+        
 code
 :
 int
 =
-1006
+CloseCode
+.
+ABNORMAL_CLOSURE
+        
 reason
 :
 str
 =
 "
 "
+    
 )
 -
 >
@@ -10577,7 +10592,9 @@ if
 code
 !
 =
-1006
+CloseCode
+.
+ABNORMAL_CLOSURE
 and
 self
 .
@@ -10851,7 +10868,8 @@ connection_closed_exc
 )
         
 for
-ping
+pong_waiter
+_ping_timestamp
 in
 self
 .
@@ -10862,7 +10880,7 @@ values
 )
 :
             
-ping
+pong_waiter
 .
 set_exception
 (
@@ -10921,7 +10939,7 @@ the
 exception
 .
             
-ping
+pong_waiter
 .
 cancel
 (
@@ -11546,15 +11564,23 @@ feed_eof
 def
 broadcast
 (
+    
 websockets
 :
 Iterable
 [
 WebSocketCommonProtocol
 ]
+    
 message
 :
 Data
+    
+raise_exceptions
+:
+bool
+=
+False
 )
 -
 >
@@ -11592,10 +11618,10 @@ frame
 A
 bytestring
 or
-    
 bytes
 -
 like
+    
 object
 (
 :
@@ -11607,7 +11633,6 @@ class
 :
 bytearray
 or
-    
 :
 class
 :
@@ -11615,6 +11640,7 @@ memoryview
 )
 is
 sent
+    
 as
 a
 Binary_
@@ -11704,35 +11730,6 @@ no
 backpressure
 .
     
-:
-func
-:
-broadcast
-skips
-silently
-connections
-that
-aren
-'
-t
-open
-in
-order
-to
-    
-avoid
-errors
-on
-connections
-where
-the
-closing
-handshake
-is
-in
-progress
-.
-    
 If
 you
 broadcast
@@ -11744,8 +11741,8 @@ connection
 can
 handle
 them
-    
 messages
+    
 will
 pile
 up
@@ -11759,30 +11756,21 @@ connection
 times
 out
 .
-    
 Keep
-low
-values
-for
+    
 ping_interval
 and
 ping_timeout
+low
 to
 prevent
-    
 excessive
 memory
 usage
-by
+    
+from
 slow
 connections
-when
-you
-use
-:
-func
-:
-broadcast
 .
     
 Unlike
@@ -11821,9 +11809,9 @@ large
 messages
 without
 buffering
-    
 them
 in
+    
 memory
 while
 :
@@ -11835,27 +11823,107 @@ one
 copy
 per
 connection
-    
 as
 fast
 as
+    
 possible
+.
+    
+:
+func
+:
+broadcast
+skips
+connections
+that
+aren
+'
+t
+open
+in
+order
+to
+avoid
+    
+errors
+on
+connections
+where
+the
+closing
+handshake
+is
+in
+progress
+.
+    
+:
+func
+:
+broadcast
+ignores
+failures
+to
+write
+the
+message
+on
+some
+connections
+.
+    
+It
+continues
+writing
+to
+other
+connections
+.
+On
+Python
+3
+.
+11
+and
+above
+you
+    
+may
+set
+raise_exceptions
+to
+:
+obj
+:
+True
+to
+record
+failures
+and
+raise
+all
+    
+exceptions
+in
+a
+:
+pep
+:
+654
+:
+exc
+:
+ExceptionGroup
 .
     
 Args
 :
         
 websockets
-(
-Iterable
-[
-WebSocketCommonProtocol
-]
-)
 :
 WebSocket
 connections
-            
 to
 which
 the
@@ -11866,34 +11934,31 @@ sent
 .
         
 message
-(
-Data
-)
 :
-message
+Message
 to
 send
+.
+        
+raise_exceptions
+:
+Whether
+to
+raise
+an
+exception
+in
+case
+of
+failures
 .
     
 Raises
 :
         
-RuntimeError
-:
-if
-a
-connection
-is
-busy
-sending
-a
-fragmented
-message
-.
-        
 TypeError
 :
-if
+If
 message
 doesn
 '
@@ -11937,6 +12002,50 @@ like
 "
 )
     
+if
+raise_exceptions
+:
+        
+if
+sys
+.
+version_info
+[
+:
+2
+]
+<
+(
+3
+11
+)
+:
+#
+pragma
+:
+no
+cover
+            
+raise
+ValueError
+(
+"
+raise_exceptions
+requires
+at
+least
+Python
+3
+.
+11
+"
+)
+        
+exceptions
+=
+[
+]
+    
 opcode
 data
 =
@@ -11973,18 +12082,54 @@ not
 None
 :
             
-raise
+if
+raise_exceptions
+:
+                
+exception
+=
 RuntimeError
 (
 "
-busy
 sending
 a
 fragmented
 message
 "
 )
+                
+exceptions
+.
+append
+(
+exception
+)
+            
+else
+:
+                
+websocket
+.
+logger
+.
+warning
+(
+                    
+"
+skipped
+broadcast
+:
+sending
+a
+fragmented
+message
+"
+                
+)
         
+try
+:
+            
 websocket
 .
 write_frame_sync
@@ -11992,4 +12137,79 @@ write_frame_sync
 True
 opcode
 data
+)
+        
+except
+Exception
+as
+write_exception
+:
+            
+if
+raise_exceptions
+:
+                
+exception
+=
+RuntimeError
+(
+"
+failed
+to
+write
+message
+"
+)
+                
+exception
+.
+__cause__
+=
+write_exception
+                
+exceptions
+.
+append
+(
+exception
+)
+            
+else
+:
+                
+websocket
+.
+logger
+.
+warning
+(
+                    
+"
+skipped
+broadcast
+:
+failed
+to
+write
+message
+"
+                    
+exc_info
+=
+True
+                
+)
+    
+if
+raise_exceptions
+:
+        
+raise
+ExceptionGroup
+(
+"
+skipped
+broadcast
+"
+exceptions
 )

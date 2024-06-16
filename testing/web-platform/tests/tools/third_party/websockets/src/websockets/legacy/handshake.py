@@ -104,7 +104,7 @@ Args
         
 headers
 :
-handshake
+Handshake
 request
 headers
 .
@@ -275,7 +275,7 @@ Args
         
 headers
 :
-handshake
+Handshake
 request
 headers
 .
@@ -302,19 +302,20 @@ Raises
         
 InvalidHandshake
 :
-if
+If
 the
 handshake
 request
 is
 invalid
-;
+.
             
-then
+Then
 the
 server
 must
 return
+a
 400
 Bad
 Request
@@ -785,14 +786,14 @@ Args
         
 headers
 :
-handshake
+Handshake
 response
 headers
 .
         
 key
 :
-returned
+Returned
 by
 :
 func
@@ -912,14 +913,14 @@ Args
         
 headers
 :
-handshake
+Handshake
 response
 headers
 .
         
 key
 :
-returned
+Returned
 by
 :
 func
@@ -932,7 +933,7 @@ Raises
         
 InvalidHandshake
 :
-if
+If
 the
 handshake
 response
