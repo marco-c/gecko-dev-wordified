@@ -10289,11 +10289,7 @@ cx
 &
 iter
 .
-read
-(
-)
-.
-toGCCellPtr
+readGCCellPtr
 (
 )
 .
