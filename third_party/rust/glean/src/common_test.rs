@@ -422,11 +422,6 @@ host
 "
 )
 .
-with_event_timestamps
-(
-false
-)
-.
 build
 (
 )

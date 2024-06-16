@@ -3524,6 +3524,9 @@ None
 Enabling
 event
 timestamps
+enable_internal_pings
+:
+true
 }
 ;
 let
