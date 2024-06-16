@@ -1080,7 +1080,7 @@ HttpConnectionUDP
 *
 udpConn
 uint32_t
-controlFlags
+aProviderFlags
 nsIInterfaceRequestor
 *
 callbacks

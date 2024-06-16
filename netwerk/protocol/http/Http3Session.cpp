@@ -686,7 +686,7 @@ HttpConnectionUDP
 *
 udpConn
 uint32_t
-controlFlags
+aProviderFlags
 nsIInterfaceRequestor
 *
 callbacks
@@ -818,7 +818,7 @@ aConnInfo
 OriginPort
 (
 )
-controlFlags
+aProviderFlags
 this
 )
 ;
@@ -1077,6 +1077,7 @@ StaticPrefs
 network_http_http3_max_accumlated_time_ms
 (
 )
+aProviderFlags
 getter_AddRefs
 (
 mHttp3Connection
