@@ -683,6 +683,12 @@ nsIWebProgressListener
 :
 STATE_LOADED_EMAILTRACKING_LEVEL_2_CONTENT
 :
+case
+nsIWebProgressListener
+:
+:
+STATE_PURGED_BOUNCETRACKER
+:
 Unused
 <
 <
@@ -1143,9 +1149,6 @@ ContentBlockingLog
 :
 ReportLog
 (
-nsIPrincipal
-*
-aFirstPartyPrincipal
 )
 {
 MOZ_ASSERT
@@ -1160,11 +1163,6 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
-)
-;
-MOZ_ASSERT
-(
-aFirstPartyPrincipal
 )
 ;
 if

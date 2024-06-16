@@ -9948,9 +9948,6 @@ GetContentBlockingLog
 >
 ReportLog
 (
-DocumentPrincipal
-(
-)
 )
 ;
 if
