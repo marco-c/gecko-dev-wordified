@@ -33190,6 +33190,14 @@ block
 .
 if
 (
+!
+f
+.
+inDeadCode
+(
+)
+&
+&
 branchHint
 !
 =
