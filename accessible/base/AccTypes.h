@@ -367,6 +367,12 @@ is
 for
 remote
 accessibles
+eDPub
+=
+1
+<
+<
+17
 eLastAccGenericType
 =
 eActionable
