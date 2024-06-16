@@ -765,7 +765,7 @@ paramCount
 info
 -
 >
-GetParamCount
+ParamCount
 (
 )
 ;

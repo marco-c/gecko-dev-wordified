@@ -9325,7 +9325,7 @@ paramCount
 mMethodInfo
 -
 >
-GetParamCount
+ParamCount
 (
 )
 ;
@@ -9875,7 +9875,7 @@ paramCount
 mMethodInfo
 -
 >
-GetParamCount
+ParamCount
 (
 )
 ;
@@ -10303,7 +10303,7 @@ paramCount
 mMethodInfo
 -
 >
-GetParamCount
+ParamCount
 (
 )
 ;
@@ -10964,7 +10964,7 @@ paramCount
 mMethodInfo
 -
 >
-GetParamCount
+ParamCount
 (
 )
 ;

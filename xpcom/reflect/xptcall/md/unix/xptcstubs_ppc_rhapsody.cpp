@@ -502,7 +502,7 @@ paramCount
 methodInfo
 -
 >
-GetParamCount
+ParamCount
 (
 )
 ;
