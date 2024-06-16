@@ -123,6 +123,10 @@ minidump_writer
 :
 :
 {
+minidump_writer
+:
+:
+STOP_TIMEOUT
 ptrace_dumper
 :
 :
@@ -145,7 +149,7 @@ mman
 :
 :
 {
-mmap
+mmap_anonymous
 MapFlags
 ProtFlags
 }
@@ -154,18 +158,6 @@ unistd
 :
 getppid
 }
-;
-use
-std
-:
-:
-os
-:
-:
-fd
-:
-:
-BorrowedFd
 ;
 macro_rules
 !
@@ -230,6 +222,7 @@ ppid
 as_raw
 (
 )
+STOP_TIMEOUT
 )
 ?
 ;
@@ -271,6 +264,7 @@ ppid
 as_raw
 (
 )
+STOP_TIMEOUT
 )
 ?
 ;
@@ -380,6 +374,7 @@ PtraceDumper
 new
 (
 ppid
+STOP_TIMEOUT
 )
 ?
 ;
@@ -543,6 +538,7 @@ ppid
 as_raw
 (
 )
+STOP_TIMEOUT
 )
 ?
 ;
@@ -686,6 +682,7 @@ getppid
 as_raw
 (
 )
+STOP_TIMEOUT
 )
 ?
 ;
@@ -861,6 +858,7 @@ getppid
 as_raw
 (
 )
+STOP_TIMEOUT
 )
 ?
 ;
@@ -1000,6 +998,7 @@ PtraceDumper
 new
 (
 ppid
+STOP_TIMEOUT
 )
 ?
 ;
@@ -1171,6 +1170,7 @@ PtraceDumper
 new
 (
 ppid
+STOP_TIMEOUT
 )
 ?
 ;
@@ -1708,12 +1708,7 @@ mapped_mem
 =
 unsafe
 {
-mmap
-:
-:
-<
-BorrowedFd
->
+mmap_anonymous
 (
 None
 memory_size
@@ -1735,8 +1730,6 @@ MapFlags
 :
 :
 MAP_ANON
-None
-0
 )
 .
 unwrap
@@ -1754,6 +1747,10 @@ println
 }
 "
 mapped_mem
+.
+as_ptr
+(
+)
 as
 usize
 memory_size

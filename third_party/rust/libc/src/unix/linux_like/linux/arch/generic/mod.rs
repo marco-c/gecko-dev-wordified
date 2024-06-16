@@ -2177,6 +2177,11 @@ target_arch
 "
 s390x
 "
+target_arch
+=
+"
+loongarch64
+"
 )
 )
 ]

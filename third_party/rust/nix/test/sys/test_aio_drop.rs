@@ -88,16 +88,7 @@ target_os
 "
 linux
 "
-target_os
-=
-"
-ios
-"
-target_os
-=
-"
-macos
-"
+apple_targets
 target_os
 =
 "

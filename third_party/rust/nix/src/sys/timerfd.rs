@@ -520,6 +520,8 @@ TimerFd
 {
 fd
 :
+unsafe
+{
 OwnedFd
 :
 :
@@ -527,6 +529,7 @@ from_raw_fd
 (
 fd
 )
+}
 }
 }
 }

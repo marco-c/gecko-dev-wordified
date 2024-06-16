@@ -21,11 +21,7 @@ cfg
 (
 not
 (
-target_os
-=
-"
-illumos
-"
+solarish
 )
 )
 ]
@@ -51,11 +47,7 @@ hidden
 [
 cfg
 (
-target_os
-=
-"
-illumos
-"
+solarish
 )
 ]
 pub

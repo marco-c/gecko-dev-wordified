@@ -1451,7 +1451,6 @@ mut
 _
 /
 /
-/
 The
 EXCEPTION_POINTERS
 contained
@@ -1465,7 +1464,6 @@ into
 the
 /
 /
-/
 memory
 of
 the
@@ -1477,7 +1475,6 @@ it
 contains
 an
 EXCEPTION_RECORD
-/
 /
 /
 record
@@ -1496,7 +1493,6 @@ we
 are
 /
 /
-/
 dumping
 a
 process
@@ -1509,7 +1505,6 @@ we
 need
 to
 tell
-/
 /
 /
 MiniDumpWriteDump
@@ -1525,7 +1520,6 @@ so
 that
 /
 /
-/
 it
 can
 use
@@ -1537,7 +1531,6 @@ the
 contextual
 information
 from
-/
 /
 /
 the

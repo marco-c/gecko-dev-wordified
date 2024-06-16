@@ -1665,10 +1665,10 @@ event
 as_mut_ptr
 (
 )
-as
-*
-mut
-u8
+.
+cast
+(
+)
 (
 BUFSIZ
 -
@@ -1837,6 +1837,8 @@ Inotify
 {
 fd
 :
+unsafe
+{
 OwnedFd
 :
 :
@@ -1844,6 +1846,7 @@ from_raw_fd
 (
 fd
 )
+}
 }
 }
 }
