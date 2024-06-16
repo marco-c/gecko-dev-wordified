@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 -
 *
@@ -83,6 +83,11 @@ import
 shutil
 import
 sys
+from
+typing
+import
+Any
+Optional
 import
 yaml
 #
@@ -170,7 +175,7 @@ re
 compile
 (
     
-r
+rb
 "
 /
 \
@@ -224,8 +229,20 @@ def
 convertTestFile
 (
 source
+:
+bytes
 includes
+:
+"
+list
+[
+str
+]
+"
 )
+-
+>
+bytes
 :
     
 "
@@ -276,7 +293,12 @@ def
 convertReportCompare
 (
 source
+:
+bytes
 )
+-
+>
+bytes
 :
     
 "
@@ -347,10 +369,24 @@ def
 replaceFn
 (
 matchobj
+:
+"
+re
+.
+Match
+[
+bytes
+]
+"
 )
+-
+>
+bytes
 :
         
 actual
+:
+bytes
 =
 matchobj
 .
@@ -360,6 +396,8 @@ group
 )
         
 expected
+:
+bytes
 =
 matchobj
 .
@@ -377,12 +415,15 @@ and
 actual
 in
 [
+b
 "
 0
 "
+b
 "
 true
 "
+b
 "
 null
 "
@@ -390,6 +431,7 @@ null
 :
             
 return
+b
 "
 "
         
@@ -407,7 +449,7 @@ re
 sub
 (
         
-r
+rb
 "
 .
 *
@@ -474,13 +516,14 @@ re
 .
 sub
 (
-r
+rb
 "
 \
 breportCompare
 \
 b
 "
+b
 "
 assert
 .
@@ -488,11 +531,96 @@ sameValue
 "
 newSource
 )
+class
+ReftestEntry
+:
+    
+def
+__init__
+(
+        
+self
+        
+features
+:
+"
+list
+[
+str
+]
+"
+        
+error
+:
+Optional
+[
+str
+]
+        
+module
+:
+bool
+        
+info
+:
+Optional
+[
+str
+]
+    
+)
+:
+        
+self
+.
+features
+:
+list
+[
+str
+]
+=
+features
+        
+self
+.
+error
+:
+Optional
+[
+str
+]
+=
+error
+        
+self
+.
+module
+:
+bool
+=
+module
+        
+self
+.
+info
+:
+Optional
+[
+str
+]
+=
+info
 def
 fetchReftestEntries
 (
 reftest
+:
+str
 )
+-
+>
+ReftestEntry
 :
     
 "
@@ -526,19 +654,36 @@ random
 if
     
 features
+:
+list
+[
+str
+]
 =
 [
 ]
     
 error
+:
+Optional
+[
+str
+]
 =
 None
     
 comments
+:
+Optional
+[
+str
+]
 =
 None
     
 module
+:
+bool
 =
 False
     
@@ -831,33 +976,40 @@ group
 )
     
 return
-{
-"
+ReftestEntry
+(
 features
-"
-:
+=
 features
-"
 error
-"
-:
+=
 error
-"
 module
-"
-:
+=
 module
-"
 info
-"
-:
+=
 comments
-}
+)
 def
 parseHeader
 (
 source
+:
+bytes
 )
+-
+>
+"
+tuple
+[
+bytes
+Optional
+[
+ReftestEntry
+]
+]
+"
 :
     
 "
@@ -907,6 +1059,7 @@ source
 .
 startswith
 (
+b
 "
 /
 /
@@ -917,8 +1070,7 @@ startswith
 return
 (
 source
-{
-}
+None
 )
     
 #
@@ -929,15 +1081,29 @@ token
     
 part
 _
-_
+rest
 =
 source
 .
 partition
 (
+b
 "
 \
 n
+"
+)
+    
+part
+=
+part
+.
+decode
+(
+"
+utf
+-
+8
 "
 )
     
@@ -990,19 +1156,7 @@ entries
         
 return
 (
-source
-.
-replace
-(
-reftest
-+
-"
-\
-n
-"
-"
-"
-)
+rest
 fetchReftestEntries
 (
 reftest
@@ -1012,14 +1166,24 @@ reftest
 return
 (
 source
-{
-}
+None
 )
 def
 extractMeta
 (
 source
+:
+bytes
 )
+-
+>
+"
+dict
+[
+str
+Any
+]
+"
 :
     
 "
@@ -1085,6 +1249,7 @@ re
 .
 sub
 (
+b
 "
 ^
 %
@@ -1092,6 +1257,7 @@ s
 "
 %
 indent
+b
 "
 "
 frontmatter_lines
@@ -1108,8 +1274,20 @@ def
 updateMeta
 (
 source
+:
+bytes
 includes
+:
+"
+list
+[
+str
+]
+"
 )
+-
+>
+bytes
 :
     
 "
@@ -1213,7 +1391,24 @@ def
 cleanupMeta
 (
 meta
+:
+"
+dict
+[
+str
+Any
+]
+"
 )
+-
+>
+"
+dict
+[
+str
+Any
+]
+"
 :
     
 "
@@ -1563,10 +1758,44 @@ meta
 def
 mergeMeta
 (
+    
 reftest
+:
+"
+Optional
+[
+ReftestEntry
+]
+"
+    
 frontmatter
+:
+"
+dict
+[
+str
+Any
+]
+"
+    
 includes
+:
+"
+list
+[
+str
+]
+"
 )
+-
+>
+"
+dict
+[
+str
+Any
+]
+"
 :
     
 "
@@ -1605,14 +1834,37 @@ to
 the
 frontmatter
     
+#
+Add
+the
+shell
+specific
+includes
+    
 if
+includes
+:
+        
+frontmatter
+[
 "
-features
+includes
 "
-in
+]
+=
+list
+(
+includes
+)
+    
+if
+not
 reftest
 :
         
+return
+frontmatter
+    
 frontmatter
 .
 setdefault
@@ -1628,14 +1880,7 @@ extend
 (
 reftest
 .
-get
-(
-"
 features
-"
-[
-]
-)
 )
     
 #
@@ -1655,12 +1900,7 @@ truish
 if
 reftest
 .
-get
-(
-"
 module
-"
-)
 :
         
 frontmatter
@@ -1690,20 +1930,17 @@ the
 info
 tag
     
+if
+reftest
+.
+info
+:
+        
 info
 =
 reftest
 .
-get
-(
-"
 info
-"
-)
-    
-if
-info
-:
         
 #
 Open
@@ -1763,21 +2000,16 @@ negative
 flags
     
 if
-"
-error
-"
-in
 reftest
+.
+error
 :
         
 error
 =
 reftest
-[
-"
+.
 error
-"
-]
         
 if
 "
@@ -1949,36 +2181,18 @@ type
             
 )
     
-#
-Add
-the
-shell
-specific
-includes
-    
-if
-includes
-:
-        
-frontmatter
-[
-"
-includes
-"
-]
-=
-list
-(
-includes
-)
-    
 return
 frontmatter
 def
 insertCopyrightLines
 (
 source
+:
+bytes
 )
+-
+>
+bytes
 :
     
 "
@@ -2004,6 +2218,11 @@ import
 date
     
 lines
+:
+list
+[
+bytes
+]
 =
 [
 ]
@@ -2014,7 +2233,7 @@ re
 .
 match
 (
-r
+rb
 "
 \
 /
@@ -2052,6 +2271,7 @@ lines
 append
 (
             
+b
 "
 /
 /
@@ -2060,7 +2280,7 @@ Copyright
 C
 )
 %
-s
+d
 Mozilla
 Corporation
 .
@@ -2079,6 +2299,7 @@ lines
 append
 (
             
+b
 "
 /
 /
@@ -2104,6 +2325,7 @@ lines
 .
 append
 (
+b
 "
 \
 n
@@ -2111,6 +2333,7 @@ n
 )
     
 return
+b
 "
 \
 n
@@ -2126,8 +2349,21 @@ def
 insertMeta
 (
 source
+:
+bytes
 frontmatter
+:
+"
+dict
+[
+str
+Any
+]
+"
 )
+-
+>
+bytes
 :
     
 "
@@ -2155,6 +2391,11 @@ any
 "
     
 lines
+:
+list
+[
+bytes
+]
 =
 [
 ]
@@ -2163,6 +2404,7 @@ lines
 .
 append
 (
+b
 "
 /
 *
@@ -2200,6 +2442,7 @@ lines
 .
 append
 (
+b
 "
 %
 s
@@ -2208,6 +2451,13 @@ s
 "
 %
 key
+.
+encode
+(
+"
+ascii
+"
+)
 )
             
 lines
@@ -2215,6 +2465,7 @@ lines
 append
 (
                 
+b
 "
 "
                 
@@ -2242,6 +2493,7 @@ strip
 .
 replace
 (
+b
 "
 \
 n
@@ -2249,6 +2501,7 @@ n
 .
 .
 "
+b
 "
 "
 )
@@ -2294,6 +2547,7 @@ lines
 .
 append
 (
+b
 "
 -
 -
@@ -2327,6 +2581,7 @@ group
 (
 0
 )
+b
 "
 \
 n
@@ -2342,6 +2597,7 @@ else
 :
         
 return
+b
 "
 \
 n
@@ -2357,9 +2613,23 @@ def
 findAndCopyIncludes
 (
 dirPath
+:
+str
 baseDir
+:
+str
 includeDir
+:
+str
 )
+-
+>
+"
+list
+[
+str
+]
+"
 :
     
 relPath
@@ -2375,6 +2645,11 @@ baseDir
 )
     
 includes
+:
+list
+[
+str
+]
 =
 [
 ]
@@ -2637,42 +2912,26 @@ includes
 def
 exportTest262
 (
-args
-)
-:
     
 outDir
-=
-os
-.
-path
-.
-abspath
-(
-args
-.
-out
-)
-    
+:
+str
 providedSrcs
-=
-args
-.
-src
-    
+:
+"
+list
+[
+str
+]
+"
 includeShell
-=
-args
-.
-exportshellincludes
-    
+:
+bool
 baseDir
-=
-os
-.
-getcwd
-(
+:
+str
 )
+:
     
 #
 Create
@@ -2682,6 +2941,26 @@ directory
 from
 scratch
 .
+    
+print
+(
+f
+"
+Generating
+output
+in
+{
+os
+.
+path
+.
+abspath
+(
+outDir
+)
+}
+"
+)
     
 if
 os
@@ -2759,6 +3038,32 @@ path
 abspath
 (
 providedSrc
+)
+        
+if
+not
+os
+.
+path
+.
+isdir
+(
+src
+)
+:
+            
+print
+(
+f
+"
+Did
+not
+find
+directory
+{
+src
+}
+"
 )
         
 #
@@ -3423,15 +3728,6 @@ export
     
 )
     
-parser
-.
-set_defaults
-(
-func
-=
-exportTest262
-)
-    
 args
 =
 parser
@@ -3440,9 +3736,29 @@ parse_args
 (
 )
     
-args
+exportTest262
+(
+        
+os
 .
-func
+path
+.
+abspath
 (
 args
+.
+out
+)
+args
+.
+src
+args
+.
+exportshellincludes
+os
+.
+getcwd
+(
+)
+    
 )

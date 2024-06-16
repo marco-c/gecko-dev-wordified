@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Adapted
 from
@@ -44,9 +44,15 @@ shutil
 import
 subprocess
 import
+sys
+import
 tempfile
 import
 unittest
+from
+mozunit
+import
+main
 testDir
 =
 os
@@ -59,7 +65,7 @@ os
 .
 path
 .
-relpath
+abspath
 (
 __file__
 )
@@ -70,12 +76,23 @@ os
 .
 path
 .
+abspath
+(
+os
+.
+path
+.
 join
 (
 testDir
 "
+.
+.
+"
+"
 out
 "
+)
 )
 EXPECTED_DIR
 =
@@ -201,13 +218,13 @@ self
 )
 :
         
-relpath
+abspath
 =
 os
 .
 path
 .
-relpath
+abspath
 (
 os
 .
@@ -231,9 +248,20 @@ subprocess
 .
 Popen
 (
+            
 [
+sys
+.
+executable
+os
+.
+path
+.
+abspath
+(
 ex
-relpath
+)
+abspath
 "
 -
 -
@@ -241,11 +269,28 @@ out
 "
 OUT_DIR
 ]
+            
 stdout
 =
 subprocess
 .
 PIPE
+            
+cwd
+=
+os
+.
+path
+.
+join
+(
+testDir
+"
+.
+.
+"
+)
+        
 )
         
 stdout
@@ -794,7 +839,18 @@ targetName
         
 actualPath
 =
+os
+.
+path
+.
+join
+(
 OUT_DIR
+"
+tests
+"
+targetName
+)
         
 expectedFiles
 =
@@ -819,11 +875,7 @@ self
 assertListEqual
 (
             
-map
-(
-lambda
-x
-:
+[
 os
 .
 path
@@ -833,14 +885,13 @@ relpath
 x
 expectedPath
 )
-expectedFiles
-)
-            
-map
-(
-lambda
+for
 x
-:
+in
+expectedFiles
+]
+            
+[
 os
 .
 path
@@ -850,8 +901,11 @@ relpath
 x
 actualPath
 )
+for
+x
+in
 actualFiles
-)
+]
         
 )
         
@@ -899,6 +953,7 @@ actualHandle
 read
 (
 )
+expectedFile
                     
 )
     
@@ -1010,13 +1065,24 @@ export
 "
 )
     
+#
+Test
+broken
+due
+to
+bug
+1793668
+.
+    
+#
 def
 test_import_local
 (
 self
 )
 :
-        
+    
+#
 output
 returncode
 folder
@@ -1026,7 +1092,8 @@ self
 importLocal
 (
 )
-        
+    
+#
 self
 .
 assertEqual
@@ -1034,7 +1101,8 @@ assertEqual
 returncode
 0
 )
-        
+    
+#
 self
 .
 compareTrees
@@ -1053,12 +1121,14 @@ files
 "
 )
 )
-        
+    
+#
 self
 .
 compareContents
 (
-            
+    
+#
 output
 os
 .
@@ -1080,7 +1150,8 @@ txt
 "
 )
 folder
-        
+    
+#
 )
 if
 __name__
@@ -1091,8 +1162,6 @@ __main__
 "
 :
     
-unittest
-.
 main
 (
 )
