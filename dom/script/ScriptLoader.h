@@ -4163,8 +4163,8 @@ the
 script
 .
 static
-bool
-ShouldCacheBytecode
+void
+CalculateBytecodeCacheFlag
 (
 ScriptLoadRequest
 *
