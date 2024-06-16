@@ -11972,6 +11972,15 @@ ic
 -
 >
 render_next_command_has_content
+&
+&
+ic
+-
+>
+current_render_node
+-
+>
+name
 )
 {
 add_mcid_to_node
