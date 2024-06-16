@@ -686,7 +686,7 @@ scalability_mode
 =
 stream
 .
-GetScalabilityMode2
+GetScalabilityMode
 (
 )
 ;

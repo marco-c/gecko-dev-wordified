@@ -164,7 +164,13 @@ GetNumberOfTemporalLayers
 )
 const
 ;
+absl
+:
+:
+optional
+<
 ScalabilityMode
+>
 GetScalabilityMode
 (
 )
