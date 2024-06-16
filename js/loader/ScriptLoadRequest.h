@@ -265,13 +265,6 @@ ScriptFetchOptions
 .
 h
 "
-#
-include
-"
-nsIScriptElement
-.
-h
-"
 class
 nsICacheInfoChannel
 ;

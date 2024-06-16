@@ -401,7 +401,6 @@ NS_IMPL_CYCLE_COLLECTION
 (
 ScriptFetchOptions
 mTriggeringPrincipal
-mElement
 )
 ScriptFetchOptions
 :
@@ -431,15 +430,6 @@ aParserMetadata
 nsIPrincipal
 *
 aTriggeringPrincipal
-mozilla
-:
-:
-dom
-:
-:
-Element
-*
-aElement
 )
 :
 mCORSMode
@@ -461,10 +451,6 @@ aParserMetadata
 mTriggeringPrincipal
 (
 aTriggeringPrincipal
-)
-mElement
-(
-aElement
 )
 {
 }
