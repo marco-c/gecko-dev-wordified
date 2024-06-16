@@ -544,6 +544,7 @@ constructor
 this
 .
 _highlighterEnv
+parent
 )
 ;
 if
