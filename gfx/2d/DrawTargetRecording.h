@@ -266,7 +266,11 @@ Link
 const
 char
 *
-aDestination
+aLocalDest
+const
+char
+*
+aURI
 const
 Rect
 &
