@@ -2442,11 +2442,6 @@ layout
 .
 legacy_layout
 "
-flags
-=
-"
-SHORTHAND_IN_GETCS
-"
 sub_properties
 =
 "
@@ -3476,11 +3471,6 @@ engines
 =
 "
 gecko
-"
-flags
-=
-"
-SHORTHAND_IN_GETCS
 "
 sub_properties
 =
