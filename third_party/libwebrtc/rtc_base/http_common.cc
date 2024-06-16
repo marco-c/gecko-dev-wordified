@@ -2916,15 +2916,10 @@ LS_WARNING
 <
 <
 "
-AsyncHttpsProxySocket
-:
-:
-Authenticate
+HttpAuthenticate
 (
 Negotiate
 )
-"
-"
 too
 many
 retries
