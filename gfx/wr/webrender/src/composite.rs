@@ -3421,7 +3421,7 @@ real
 backing
 surface
 coords
-local_to_surface
+local_to_raster
 :
 ScaleOffset
 /
@@ -3436,7 +3436,7 @@ final
 device
 space
 position
-surface_to_device
+raster_to_device
 :
 ScaleOffset
 /
@@ -3977,10 +3977,10 @@ register_transform
 &
 mut
 self
-local_to_surface
+local_to_raster
 :
 ScaleOffset
-surface_to_device
+raster_to_device
 :
 ScaleOffset
 )
@@ -4005,12 +4005,12 @@ len
 let
 local_to_device
 =
-local_to_surface
+local_to_raster
 .
 accumulate
 (
 &
-surface_to_device
+raster_to_device
 )
 ;
 self
@@ -4021,8 +4021,8 @@ push
 (
 CompositorTransform
 {
-local_to_surface
-surface_to_device
+local_to_raster
+raster_to_device
 local_to_device
 }
 )
@@ -4166,7 +4166,7 @@ surface_bounds
 =
 transform
 .
-local_to_surface
+local_to_raster
 .
 map_rect
 (
@@ -4179,7 +4179,7 @@ surface_rect
 =
 transform
 .
-local_to_surface
+local_to_raster
 .
 map_rect
 (
@@ -4317,7 +4317,7 @@ transform_index
 ;
 transform
 .
-surface_to_device
+raster_to_device
 }
 /
 /
