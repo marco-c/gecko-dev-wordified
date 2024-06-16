@@ -4990,7 +4990,7 @@ CallTempReg1
 object
 register
 auto
-tempCounter
+tempCopy
 =
 tempFixed
 (
@@ -4999,8 +4999,7 @@ CallTempReg2
 ;
 /
 /
-stack
-counter
+copy
 register
 auto
 *
@@ -5044,7 +5043,7 @@ function
 argc
 thisValue
 tempObj
-tempCounter
+tempCopy
 )
 ;
 }
@@ -5064,7 +5063,7 @@ function
 argc
 thisValue
 tempObj
-tempCounter
+tempCopy
 )
 ;
 }
@@ -5224,7 +5223,7 @@ CallTempReg1
 object
 register
 auto
-tempCounter
+tempCopy
 =
 tempFixed
 (
@@ -5233,8 +5232,7 @@ CallTempReg2
 ;
 /
 /
-stack
-counter
+copy
 register
 auto
 *
@@ -5278,7 +5276,7 @@ function
 argsObj
 thisValue
 tempObj
-tempCounter
+tempCopy
 )
 ;
 }
@@ -5298,7 +5296,7 @@ function
 argsObj
 thisValue
 tempObj
-tempCounter
+tempCopy
 )
 ;
 }
@@ -5458,7 +5456,7 @@ CallTempReg1
 object
 register
 auto
-tempCounter
+tempCopy
 =
 tempFixed
 (
@@ -5467,8 +5465,7 @@ CallTempReg2
 ;
 /
 /
-stack
-counter
+copy
 register
 auto
 *
@@ -5512,7 +5509,7 @@ function
 elements
 thisValue
 tempObj
-tempCounter
+tempCopy
 )
 ;
 }
@@ -5532,7 +5529,7 @@ function
 elements
 thisValue
 tempObj
-tempCounter
+tempCopy
 )
 ;
 }
