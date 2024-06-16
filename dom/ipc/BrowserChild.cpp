@@ -16926,15 +16926,6 @@ InitAPZState
 }
 else
 {
-NS_WARNING
-(
-"
-Fallback
-to
-FallbackRenderer
-"
-)
-;
 mLayersConnected
 =
 Some
