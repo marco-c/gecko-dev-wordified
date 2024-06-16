@@ -28460,7 +28460,7 @@ cm
 -
 >
 error
-VPX_CODEC_CORRUPT_FRAME
+VPX_CODEC_ERROR
 "
 Can
 '
@@ -28905,6 +28905,8 @@ size
 uint8_t
 *
 dest
+size_t
+dest_size
 )
 {
 VP9_COMMON
@@ -31560,6 +31562,7 @@ vp9_pack_bitstream
 (
 cpi
 dest
+dest_size
 size
 )
 ;
@@ -33058,6 +33061,8 @@ size
 uint8_t
 *
 dest
+size_t
+dest_size
 #
 if
 CONFIG_RATE_CTRL
@@ -34267,6 +34272,7 @@ vp9_pack_bitstream
 (
 cpi
 dest
+dest_size
 size
 )
 ;
@@ -37749,6 +37755,8 @@ size
 uint8_t
 *
 dest
+size_t
+dest_size
 )
 {
 if
@@ -37816,6 +37824,7 @@ vp9_pack_bitstream
 (
 cpi
 dest
+dest_size
 &
 nsize
 )
@@ -39888,6 +39897,8 @@ size
 uint8_t
 *
 dest
+size_t
+dest_size
 unsigned
 int
 *
@@ -40651,6 +40662,7 @@ encode_without_recode_loop
 cpi
 size
 dest
+dest_size
 )
 )
 return
@@ -40670,6 +40682,7 @@ encode_with_recode_loop
 cpi
 size
 dest
+dest_size
 &
 encode_frame_result
 -
@@ -40698,6 +40711,7 @@ encode_with_recode_loop
 cpi
 size
 dest
+dest_size
 )
 ;
 #
@@ -40850,6 +40864,7 @@ vp9_try_disable_lookahead_aq
 cpi
 size
 dest
+dest_size
 )
 ;
 #
@@ -41212,6 +41227,7 @@ vp9_pack_bitstream
 (
 cpi
 dest
+dest_size
 size
 )
 ;
@@ -42625,6 +42641,8 @@ size
 uint8_t
 *
 dest
+size_t
+dest_size
 unsigned
 int
 *
@@ -42641,6 +42659,7 @@ encode_frame_to_data_rate
 cpi
 size
 dest
+dest_size
 frame_flags
 /
 *
@@ -42665,6 +42684,8 @@ size
 uint8_t
 *
 dest
+size_t
+dest_size
 unsigned
 int
 *
@@ -42703,6 +42724,7 @@ encode_frame_to_data_rate
 cpi
 size
 dest
+dest_size
 frame_flags
 /
 *
@@ -42731,6 +42753,8 @@ size
 uint8_t
 *
 dest
+size_t
+dest_size
 unsigned
 int
 *
@@ -42761,6 +42785,7 @@ encode_frame_to_data_rate
 cpi
 size
 dest
+dest_size
 frame_flags
 encode_frame_result
 )
@@ -45759,6 +45784,8 @@ size
 uint8_t
 *
 dest
+size_t
+dest_size
 int64_t
 *
 time_stamp
@@ -47689,6 +47716,7 @@ SvcEncode
 cpi
 size
 dest
+dest_size
 frame_flags
 )
 ;
@@ -47705,6 +47733,7 @@ Pass0Encode
 cpi
 size
 dest
+dest_size
 frame_flags
 )
 ;
@@ -47891,6 +47920,7 @@ Pass2Encode
 cpi
 size
 dest
+dest_size
 frame_flags
 encode_frame_result
 )
@@ -47926,6 +47956,7 @@ SvcEncode
 cpi
 size
 dest
+dest_size
 frame_flags
 )
 ;
@@ -47942,6 +47973,7 @@ Pass0Encode
 cpi
 size
 dest
+dest_size
 frame_flags
 )
 ;

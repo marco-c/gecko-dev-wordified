@@ -120,7 +120,7 @@ uint8_t
 *
 dest
 ;
-int
+size_t
 dest_size
 ;
 vpx_writer
@@ -226,6 +226,8 @@ cpi
 uint8_t
 *
 dest
+size_t
+dest_size
 size_t
 *
 size

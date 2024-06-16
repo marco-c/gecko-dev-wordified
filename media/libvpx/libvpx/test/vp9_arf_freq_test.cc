@@ -163,6 +163,13 @@ vp9_ratectrl
 .
 h
 "
+#
+include
+"
+vpx_config
+.
+h
+"
 namespace
 {
 const

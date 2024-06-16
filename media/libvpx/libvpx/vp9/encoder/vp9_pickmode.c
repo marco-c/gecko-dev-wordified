@@ -13967,6 +13967,10 @@ yv12_mb
 [
 MAX_MB_PLANE
 ]
+=
+{
+0
+}
 ;
 RD_COST
 this_rdc

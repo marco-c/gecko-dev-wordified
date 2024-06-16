@@ -193,6 +193,13 @@ h
 #
 include
 "
+vpx_config
+.
+h
+"
+#
+include
+"
 vpx_mem
 /
 vpx_mem

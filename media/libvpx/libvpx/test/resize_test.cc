@@ -157,6 +157,13 @@ util
 .
 h
 "
+#
+include
+"
+vpx_config
+.
+h
+"
 /
 /
 Enable

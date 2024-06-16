@@ -94,6 +94,13 @@ test_vectors
 .
 h
 "
+#
+include
+"
+vpx_config
+.
+h
+"
 namespace
 libvpx_test
 {

@@ -215,6 +215,13 @@ vp9_denoiser
 .
 h
 "
+#
+include
+"
+vpx_config
+.
+h
+"
 using
 libvpx_test
 :

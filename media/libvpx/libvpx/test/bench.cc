@@ -99,6 +99,11 @@ algorithm
 >
 #
 include
+<
+cstdlib
+>
+#
+include
 "
 test
 /

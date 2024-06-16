@@ -138,6 +138,13 @@ util
 .
 h
 "
+#
+include
+"
+vpx_config
+.
+h
+"
 namespace
 {
 #
