@@ -5688,9 +5688,9 @@ WindowContext
 >
 &
 aRequestingWindowContext
-IPCTransferableData
+IPCTransferableDataOrError
 *
-aTransferableData
+aTransferableDataOrError
 )
 ;
 mozilla
