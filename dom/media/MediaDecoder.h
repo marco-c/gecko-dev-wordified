@@ -3035,6 +3035,17 @@ MediaDecoderDebugInfo
 aInfo
 )
 ;
+virtual
+bool
+IsHLSDecoder
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 virtual
