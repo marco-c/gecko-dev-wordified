@@ -597,11 +597,6 @@ ScrollSnap
 ScrollSnapFlags
 :
 :
-IntendedDirection
-|
-ScrollSnapFlags
-:
-:
 IntendedEndPosition
 )
 )
