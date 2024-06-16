@@ -1347,6 +1347,13 @@ h
 "
 public
 /
+ProfilerNativeStack
+.
+h
+"
+"
+public
+/
 ProfilerParent
 .
 h
