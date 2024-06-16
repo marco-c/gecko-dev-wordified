@@ -2402,7 +2402,7 @@ datas
 .
 maxsize
 PROT_READ
-MAP_PRIVATE
+MAP_SHARED
 spaBuffer
 -
 >
