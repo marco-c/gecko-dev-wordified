@@ -117,11 +117,6 @@ DIRS
 "
 ChannelPrefs
 "
-"
-ChannelPrefs
--
-localbuild
-"
 ]
 EXPORTS
 +
