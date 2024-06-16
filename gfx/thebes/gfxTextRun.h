@@ -860,8 +860,9 @@ may
 be
 NONE
 NORMAL
-or
 HYPHEN
+or
+EMERGENCY_WRAP
 )
 .
 uint8_t
