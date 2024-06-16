@@ -40365,7 +40365,12 @@ inDictionaryMode
 {
 MOZ_RELEASE_ASSERT
 (
-shape_
+nobj
+-
+>
+shape
+(
+)
 !
 =
 later
