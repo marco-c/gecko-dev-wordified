@@ -156,20 +156,6 @@ REPLACED
 ReplacedSizing
 "
 }
-REPLACED_WITH_BLOCK
-=
-REPLACED
-|
-{
-"
-ReplacedContainsBlock
-"
-}
-REPLACED_SIZING_WITH_BLOCK
-=
-REPLACED_SIZING
-|
-REPLACED_WITH_BLOCK
 TABLE
 =
 COMMON
@@ -446,32 +432,6 @@ Canvas
 BLOCK
 )
     
-#
-FIXME
-(
-emilio
-bug
-1866692
-)
-:
-These
-don
-'
-t
-have
-a
-block
-wtf
-?
-Can
-we
-remove
-the
-"
-ReplacedContainsBlock
-"
-flag
-    
 Frame
 (
 "
@@ -480,7 +440,7 @@ nsCheckboxRadioFrame
 "
 CheckboxRadio
 "
-REPLACED_WITH_BLOCK
+REPLACED
 |
 LEAF
 )
@@ -493,7 +453,7 @@ nsColorControlFrame
 "
 ColorControl
 "
-REPLACED_WITH_BLOCK
+REPLACED
 |
 LEAF
 )
@@ -530,7 +490,7 @@ nsComboboxControlFrame
 "
 ComboboxControl
 "
-REPLACED_WITH_BLOCK
+REPLACED
 |
 LEAF
 )
@@ -565,7 +525,7 @@ nsDateTimeControlFrame
 "
 DateTimeControl
 "
-REPLACED_WITH_BLOCK
+REPLACED
 )
     
 Frame
@@ -587,7 +547,7 @@ nsFileControlFrame
 "
 FileControl
 "
-REPLACED_WITH_BLOCK
+REPLACED
 |
 LEAF
 |
@@ -672,7 +632,7 @@ nsGfxButtonControlFrame
 "
 GfxButtonControl
 "
-REPLACED_WITH_BLOCK
+REPLACED
 |
 LEAF
 )
@@ -696,7 +656,7 @@ nsHTMLButtonControlFrame
 "
 HTMLButtonControl
 "
-REPLACED_WITH_BLOCK
+REPLACED
 )
     
 Frame
@@ -798,7 +758,7 @@ nsListControlFrame
 "
 ListControl
 "
-REPLACED_WITH_BLOCK
+REPLACED
 )
     
 Frame
@@ -1036,7 +996,7 @@ nsMeterFrame
 "
 Meter
 "
-REPLACED_WITH_BLOCK
+REPLACED
 |
 LEAF
 )
@@ -1049,7 +1009,7 @@ nsNumberControlFrame
 "
 TextInput
 "
-REPLACED_WITH_BLOCK
+REPLACED
 |
 LEAF
 )
@@ -1110,7 +1070,7 @@ nsProgressFrame
 "
 Progress
 "
-REPLACED_WITH_BLOCK
+REPLACED
 |
 LEAF
 )
@@ -1123,7 +1083,7 @@ nsRangeFrame
 "
 Range
 "
-REPLACED_WITH_BLOCK
+REPLACED
 |
 LEAF
 )
@@ -1302,7 +1262,7 @@ nsSubDocumentFrame
 "
 SubDocument
 "
-REPLACED_SIZING_WITH_BLOCK
+REPLACED_SIZING
 |
 LEAF
 )
@@ -1765,7 +1725,7 @@ nsTextControlFrame
 "
 TextInput
 "
-REPLACED_WITH_BLOCK
+REPLACED
 |
 LEAF
 )

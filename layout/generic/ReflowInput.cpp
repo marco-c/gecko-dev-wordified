@@ -2898,14 +2898,6 @@ mFrame
 IsReplaced
 (
 )
-|
-|
-mFrame
--
->
-IsReplacedWithBlock
-(
-)
 ;
 InitConstraints
 (
