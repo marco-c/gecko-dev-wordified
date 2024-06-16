@@ -593,6 +593,12 @@ sample
 %
 "
 PRId64
+"
+duration
+=
+%
+"
+PRId64
 TrackTypeToStr
 (
 mMFTManager
@@ -606,6 +612,14 @@ aSample
 -
 >
 mTime
+.
+ToMicroseconds
+(
+)
+aSample
+-
+>
+mDuration
 .
 ToMicroseconds
 (
