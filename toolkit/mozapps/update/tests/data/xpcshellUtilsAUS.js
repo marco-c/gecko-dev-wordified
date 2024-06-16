@@ -26754,6 +26754,7 @@ aExpectedStatus
 let
 bestUpdate
 =
+await
 gAUS
 .
 selectUpdate
