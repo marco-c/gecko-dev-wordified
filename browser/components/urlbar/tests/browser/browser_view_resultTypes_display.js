@@ -1038,6 +1038,7 @@ keyword
 omniboxtest
 "
 }
+}
 background
 (
 )
@@ -1114,7 +1115,6 @@ suggest
 ;
 }
 }
-}
 )
 ;
 await
@@ -1178,8 +1178,7 @@ true
 title
 :
 "
-Generated
-extension
+doit
 "
 type
 :

@@ -84,6 +84,7 @@ keyword
 omniboxtest
 "
 }
+}
 background
 (
 )
@@ -118,7 +119,6 @@ for
 this
 test
 .
-}
 }
 }
 )
