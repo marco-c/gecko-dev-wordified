@@ -226,7 +226,7 @@ include
 "
 test
 /
-gtest
+explicit_key_value_config
 .
 h
 "
@@ -235,7 +235,7 @@ include
 "
 test
 /
-scoped_key_value_config
+gtest
 .
 h
 "
@@ -278,7 +278,7 @@ string
 field_trials
 )
 :
-override_field_trials_
+field_trials_
 (
 field_trials
 )
@@ -287,7 +287,7 @@ env_
 CreateEnvironment
 (
 &
-override_field_trials_
+field_trials_
 )
 )
 fake_decoder_
@@ -301,6 +301,7 @@ fallback_wrapper_
 (
 CreateVideoDecoderSoftwareFallbackWrapper
 (
+env_
 CreateVp8Decoder
 (
 env_
@@ -454,8 +455,8 @@ reset_count_
 test
 :
 :
-ScopedKeyValueConfig
-override_field_trials_
+ExplicitKeyValueConfig
+field_trials_
 ;
 const
 Environment
@@ -1746,6 +1747,7 @@ fallback_wrapper_
 =
 CreateVideoDecoderSoftwareFallbackWrapper
 (
+env_
 std
 :
 :
