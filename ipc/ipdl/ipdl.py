@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+json
+import
 optparse
 import
 os
@@ -79,6 +81,12 @@ ipdl
 ast
 import
 SYNC
+from
+ipdl
+.
+exporter
+import
+JSONExporter
 class
 WorkerPool
 :
@@ -112,6 +120,8 @@ allprotocols
 allmessageprognames
         
 allsyncmessages
+        
+alljsonobjs
         
 *
         
@@ -197,6 +207,8 @@ allprotocols
 allmessageprognames
                 
 allsyncmessages
+                
+alljsonobjs
             
 )
             
@@ -274,6 +286,8 @@ allprotocols
 allmessageprognames
             
 allsyncmessages
+            
+alljsonobjs
         
 )
 =
@@ -333,6 +347,20 @@ ast
 protocol
 .
 name
+)
+            
+alljsonobjs
+.
+append
+(
+JSONExporter
+.
+protocolToObject
+(
+ast
+.
+protocol
+)
 )
             
 #
@@ -1357,6 +1385,14 @@ list
 (
 )
     
+alljsonobjs
+=
+manager
+.
+list
+(
+)
+    
 for
 msgName
 in
@@ -1691,6 +1727,8 @@ allprotocols
 allmessageprognames
         
 allsyncmessages
+        
+alljsonobjs
     
 )
     
@@ -1698,6 +1736,81 @@ pool
 .
 run
 (
+)
+    
+if
+cppdir
+is
+not
+None
+:
+        
+#
+Sort
+to
+ensure
+deterministic
+output
+        
+alljsonobjs
+=
+list
+(
+alljsonobjs
+)
+        
+alljsonobjs
+.
+sort
+(
+key
+=
+lambda
+p
+:
+p
+[
+"
+name
+"
+]
+)
+        
+ipdl
+.
+writeifmodified
+(
+            
+json
+.
+dumps
+(
+{
+"
+protocols
+"
+:
+alljsonobjs
+}
+indent
+=
+2
+)
+            
+os
+.
+path
+.
+join
+(
+cppdir
+"
+protocols
+.
+json
+"
+)
+        
 )
     
 allprotocols
