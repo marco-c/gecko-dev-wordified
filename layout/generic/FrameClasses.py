@@ -1980,13 +1980,6 @@ nsIPopupContainer
 AbstractFrame
 (
 "
-nsIScrollableFrame
-"
-)
-    
-AbstractFrame
-(
-"
 nsIScrollbarMediator
 "
 )
