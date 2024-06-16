@@ -2612,6 +2612,12 @@ aCache
 void
 JSObjectsTenured
 (
+JS
+:
+:
+GCContext
+*
+aGCContext
 )
 ;
 void
