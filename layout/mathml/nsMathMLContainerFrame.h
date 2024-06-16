@@ -329,10 +329,6 @@ aStyle
 aPresContext
 aID
 )
-mIntrinsicWidth
-(
-NS_INTRINSIC_ISIZE_UNKNOWN
-)
 {
 }
 NS_DECL_QUERYFRAME_TARGET
@@ -2872,7 +2868,7 @@ nullptr
 *
 *
 Recompute
-mIntrinsicWidth
+mIntrinsicISize
 if
 it
 '
@@ -2886,7 +2882,7 @@ date
 *
 /
 void
-UpdateIntrinsicWidth
+UpdateIntrinsicISize
 (
 gfxContext
 *
@@ -2894,7 +2890,9 @@ aRenderingContext
 )
 ;
 nscoord
-mIntrinsicWidth
+mIntrinsicISize
+=
+NS_INTRINSIC_ISIZE_UNKNOWN
 ;
 nscoord
 mBlockStartAscent

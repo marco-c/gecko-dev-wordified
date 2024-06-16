@@ -6118,7 +6118,7 @@ MarkIntrinsicISizesDirty
 (
 )
 {
-mIntrinsicWidth
+mIntrinsicISize
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
 ;
@@ -6134,7 +6134,7 @@ void
 nsMathMLContainerFrame
 :
 :
-UpdateIntrinsicWidth
+UpdateIntrinsicISize
 (
 gfxContext
 *
@@ -6143,7 +6143,7 @@ aRenderingContext
 {
 if
 (
-mIntrinsicWidth
+mIntrinsicISize
 =
 =
 NS_INTRINSIC_ISIZE_UNKNOWN
@@ -6186,7 +6186,7 @@ desiredSize
 this
 )
 ;
-mIntrinsicWidth
+mIntrinsicISize
 =
 desiredSize
 .
@@ -6215,13 +6215,13 @@ gfxContext
 aRenderingContext
 )
 {
-UpdateIntrinsicWidth
+UpdateIntrinsicISize
 (
 aRenderingContext
 )
 ;
 return
-mIntrinsicWidth
+mIntrinsicISize
 ;
 }
 /
@@ -6240,13 +6240,13 @@ gfxContext
 aRenderingContext
 )
 {
-UpdateIntrinsicWidth
+UpdateIntrinsicISize
 (
 aRenderingContext
 )
 ;
 return
-mIntrinsicWidth
+mIntrinsicISize
 ;
 }
 /
