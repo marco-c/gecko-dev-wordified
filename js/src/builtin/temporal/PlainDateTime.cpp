@@ -4346,6 +4346,11 @@ dateTime
 )
 )
 ;
+/
+/
+Step
+2
+.
 MOZ_ASSERT
 (
 ISODateTimeWithinLimits
@@ -4357,7 +4362,7 @@ dateTime
 /
 /
 Step
-2
+3
 .
 auto
 timeResult
@@ -4375,7 +4380,7 @@ time
 /
 /
 Step
-3
+4
 .
 const
 auto
@@ -4389,7 +4394,7 @@ date
 /
 /
 Step
-4
+5
 .
 auto
 dateDuration
@@ -4439,7 +4444,7 @@ false
 /
 /
 Step
-5
+6
 .
 PlainDate
 addedDate
@@ -4466,7 +4471,7 @@ false
 /
 /
 Step
-6
+7
 .
 *
 result
@@ -4983,6 +4988,11 @@ dateTime
 )
 )
 ;
+/
+/
+Step
+2
+.
 MOZ_ASSERT
 (
 ISODateTimeWithinLimits
@@ -4994,7 +5004,7 @@ dateTime
 /
 /
 Step
-2
+3
 .
 auto
 roundedTime
@@ -5028,7 +5038,7 @@ days
 /
 /
 Step
-3
+4
 .
 auto
 balanceResult
@@ -5056,7 +5066,7 @@ days
 /
 /
 Step
-4
+5
 .
 return
 {
