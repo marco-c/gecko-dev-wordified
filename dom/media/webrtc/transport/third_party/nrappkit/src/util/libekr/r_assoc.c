@@ -1006,6 +1006,8 @@ assocp
 r_assoc
 *
 assoc
+=
+0
 ;
 int
 i
@@ -1092,6 +1094,8 @@ chain
 r_assoc_el
 *
 nxt
+=
+0
 ;
 while
 (
@@ -1171,8 +1175,12 @@ knew
 0
 *
 ptr
+=
+0
 *
 tmp
+=
+0
 ;
 int
 r
@@ -1462,6 +1470,8 @@ hash_value
 r_assoc_el
 *
 bucket
+=
+0
 ;
 hash_value
 =
@@ -1569,6 +1579,8 @@ datap
 r_assoc_el
 *
 bucket
+=
+0
 ;
 int
 r
@@ -1678,6 +1690,8 @@ how
 r_assoc_el
 *
 bucket
+=
+0
 *
 new_bucket
 =
@@ -1997,6 +2011,8 @@ r
 r_assoc_el
 *
 bucket
+=
+0
 ;
 UINT4
 hash_value
@@ -2193,6 +2209,8 @@ i
 r_assoc
 *
 knew
+=
+0
 ;
 if
 (
@@ -2542,6 +2560,8 @@ i
 r_assoc_el
 *
 ret
+=
+0
 ;
 if
 (

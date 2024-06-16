@@ -892,6 +892,8 @@ crc
 char
 *
 p
+=
+0
 ;
 int
 i

@@ -2918,6 +2918,8 @@ clen
 char
 *
 c
+=
+0
 ;
 size_t
 i
