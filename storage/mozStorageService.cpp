@@ -3726,6 +3726,17 @@ mozIStorageService
 OPEN_READONLY
 )
 ;
+const
+bool
+openNotExclusive
+=
+aOpenFlags
+&
+mozIStorageService
+:
+:
+OPEN_NOT_EXCLUSIVE
+;
 int
 flags
 =
@@ -4024,6 +4035,7 @@ interruptible
 /
 true
 ignoreLockingMode
+openNotExclusive
 )
 ;
 nsCOMPtr

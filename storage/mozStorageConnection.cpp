@@ -5059,6 +5059,8 @@ bool
 aInterruptible
 bool
 aIgnoreLockingMode
+bool
+aOpenNotExclusive
 )
 :
 sharedAsyncExecutionMutex
@@ -5143,6 +5145,10 @@ aInterruptible
 mIgnoreLockingMode
 (
 aIgnoreLockingMode
+)
+mOpenNotExclusive
+(
+aOpenNotExclusive
 )
 mAsyncExecutionThreadShuttingDown
 (
@@ -6979,6 +6985,10 @@ StaticPrefs
 storage_sqlite_exclusiveLock_enabled
 (
 )
+&
+&
+!
+mOpenNotExclusive
 ;
 int
 srv
@@ -7517,6 +7527,10 @@ StaticPrefs
 storage_sqlite_exclusiveLock_enabled
 (
 )
+&
+&
+!
+mOpenNotExclusive
 ;
 const
 char
@@ -12724,6 +12738,9 @@ mStorageService
 flags
 ASYNCHRONOUS
 mTelemetryFilename
+mInterruptible
+mIgnoreLockingMode
+mOpenNotExclusive
 )
 ;
 RefPtr
