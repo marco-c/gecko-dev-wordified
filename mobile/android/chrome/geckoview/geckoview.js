@@ -4226,7 +4226,13 @@ focusin
 :
 {
 }
-DOMFormBeforeSubmit
+"
+form
+-
+submission
+-
+detected
+"
 :
 {
 }
