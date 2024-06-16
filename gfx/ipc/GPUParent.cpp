@@ -1807,6 +1807,10 @@ GPUParent
 :
 NotifyDeviceReset
 (
+DeviceResetReason
+aReason
+DeviceResetDetectPlace
+aPlace
 )
 {
 if
@@ -1831,6 +1835,8 @@ GPUParent
 NotifyDeviceReset
 "
 [
+aReason
+aPlace
 ]
 (
 )
@@ -1848,6 +1854,8 @@ GetSingleton
 >
 NotifyDeviceReset
 (
+aReason
+aPlace
 )
 ;
 }
@@ -1956,6 +1964,8 @@ Unused
 SendNotifyDeviceReset
 (
 data
+aReason
+aPlace
 )
 ;
 }

@@ -262,6 +262,16 @@ GLBlitHelper
 namespace
 layers
 {
+gfx
+:
+:
+DeviceResetReason
+DXGIErrorToDeviceResetReason
+(
+HRESULT
+aError
+)
+;
 already_AddRefed
 <
 TextureHost
