@@ -54,6 +54,11 @@ Glean
 GleanImpl
 ;
 const
+GleanPings
+:
+GleanPingsImpl
+;
+const
 Services
 :
 JSServices
