@@ -1183,6 +1183,9 @@ trc
 }
 ;
 struct
+DateDuration
+;
+struct
 Duration
 ;
 struct
@@ -1761,7 +1764,7 @@ PlainDateObject
 >
 date
 const
-Duration
+DateDuration
 &
 duration
 )
@@ -1987,7 +1990,7 @@ PlainDate
 &
 date
 const
-Duration
+DateDuration
 &
 duration
 PlainDate
@@ -2029,7 +2032,7 @@ PlainDate
 &
 date
 const
-Duration
+DateDuration
 &
 duration
 JS
@@ -2088,7 +2091,7 @@ PlainDateObject
 >
 date
 const
-Duration
+DateDuration
 &
 duration
 PlainDate
