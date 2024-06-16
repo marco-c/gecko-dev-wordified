@@ -832,6 +832,13 @@ value
 :
 message
 }
+{
+slug
+:
+message
+.
+id
+}
 )
 ;
 await
