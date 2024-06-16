@@ -122,15 +122,6 @@ to
 those
 terms
 .
-use
-std
-:
-:
-vec
-:
-:
-Vec
-;
 pub
 trait
 VecExt
