@@ -572,6 +572,12 @@ _
 SUBCLASSING_ARRAY_TYPE_II
 SubclassingArrayTypeII
 )
+\
+_
+(
+SUBCLASSING_PROMISE_TYPE_II
+SubclassingPromiseTypeII
+)
 /
 *
 *
