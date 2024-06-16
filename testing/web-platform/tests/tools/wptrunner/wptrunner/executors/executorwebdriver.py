@@ -3602,15 +3602,10 @@ timeout
         
 except
 (
-socket
-.
-timeout
+OSError
 error
 .
-UnknownErrorException
-error
-.
-InvalidSessionIdException
+WebDriverException
 )
 :
             
@@ -4520,9 +4515,6 @@ result
 3
 :
                 
-try
-:
-                    
 is_alive
 =
 self
@@ -4530,16 +4522,6 @@ self
 is_alive
 (
 )
-                
-except
-error
-.
-WebDriverException
-:
-                    
-is_alive
-=
-False
                 
 if
 not
