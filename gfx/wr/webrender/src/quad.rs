@@ -2355,6 +2355,16 @@ task_id
 ;
 }
 }
+if
+!
+scratch
+.
+quad_segments
+.
+is_empty
+(
+)
+{
 add_composite_prim
 (
 pattern
@@ -2373,6 +2383,7 @@ scratch
 quad_segments
 )
 ;
+}
 }
 }
 }
