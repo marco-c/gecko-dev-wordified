@@ -235,12 +235,12 @@ document
 .
 cookie
 "
-name
-=
-value
 "
 "
 I
+don
+'
+t
 have
 the
 cookies
