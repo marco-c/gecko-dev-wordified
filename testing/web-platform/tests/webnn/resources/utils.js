@@ -2167,6 +2167,10 @@ reducedElementCount
 =
 sizes
 .
+length
+?
+sizes
+.
 reduce
 (
 (
@@ -2179,6 +2183,8 @@ accumulator
 *
 currentValue
 )
+:
+1
 ;
 let
 tolerance
