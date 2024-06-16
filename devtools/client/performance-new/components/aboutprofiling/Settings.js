@@ -1312,7 +1312,7 @@ makeLinear10Scale
 0
 .
 01
-100
+1000
 )
 ;
 this
