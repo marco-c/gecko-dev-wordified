@@ -459,13 +459,9 @@ label
 "
 )
 .
-setAttribute
-(
-"
-value
-"
+textContent
+=
 label
-)
 ;
 /
 /
