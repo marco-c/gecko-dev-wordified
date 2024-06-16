@@ -37810,14 +37810,6 @@ IsSystemPrincipal
 )
 &
 &
-StaticPrefs
-:
-:
-dom_no_unknown_protocol_error_enabled
-(
-)
-&
-&
 !
 aIsInitialDocument
 )
