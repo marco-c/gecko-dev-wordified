@@ -113,6 +113,12 @@ defined
 (
 __native_client__
 )
+|
+|
+defined
+(
+WEBRTC_BSD
+)
 #
 include
 "
@@ -154,6 +160,12 @@ if
 defined
 (
 __native_client__
+)
+|
+|
+defined
+(
+WEBRTC_BSD
 )
 return
 std

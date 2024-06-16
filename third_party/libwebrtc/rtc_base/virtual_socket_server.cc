@@ -188,6 +188,13 @@ logging
 h
 "
 #
+if
+!
+defined
+(
+WEBRTC_BSD
+)
+#
 include
 "
 rtc_base
@@ -196,6 +203,8 @@ physical_socket_server
 .
 h
 "
+#
+endif
 #
 include
 "
