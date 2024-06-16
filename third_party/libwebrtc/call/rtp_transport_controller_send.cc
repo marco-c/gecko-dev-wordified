@@ -889,9 +889,6 @@ const
 RtpSenderObservers
 &
 observers
-RtcEventLog
-*
-event_log
 std
 :
 :
@@ -969,7 +966,12 @@ really
 used
 .
 this
+&
+env_
+.
 event_log
+(
+)
 &
 retransmission_rate_limiter_
 std

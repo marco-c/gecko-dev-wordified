@@ -273,8 +273,6 @@ Transport
 const
 RtpSenderObservers
 &
-RtcEventLog
-*
 std
 :
 :
