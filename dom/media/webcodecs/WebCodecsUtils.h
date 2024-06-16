@@ -601,9 +601,9 @@ aBuffer
 bool
 CopyExtradataToDescription
 (
-nsIGlobalObject
+JSContext
 *
-aGlobal
+aCx
 Span
 <
 const

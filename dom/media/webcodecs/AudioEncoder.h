@@ -390,12 +390,12 @@ aData
 override
 ;
 virtual
-AudioDecoderConfigInternal
+void
 EncoderConfigToDecoderConfig
 (
-nsIGlobalObject
+JSContext
 *
-aGlobal
+aCx
 const
 RefPtr
 <
@@ -406,7 +406,10 @@ aRawData
 const
 AudioEncoderConfigInternal
 &
-aOutputConfig
+aSrcConfig
+AudioDecoderConfig
+&
+aDestConfig
 )
 const
 override

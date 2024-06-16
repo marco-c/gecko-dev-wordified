@@ -1095,12 +1095,12 @@ aData
 0
 ;
 virtual
-OutputConfigType
+void
 EncoderConfigToDecoderConfig
 (
-nsIGlobalObject
+JSContext
 *
-aGlobalObject
+aCx
 const
 RefPtr
 <
@@ -1111,7 +1111,10 @@ aData
 const
 ConfigTypeInternal
 &
-aOutputConfig
+aSrcConfig
+OutputConfigType
+&
+aDestConfig
 )
 const
 =

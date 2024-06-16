@@ -438,7 +438,7 @@ mozilla
 dom
 :
 :
-AudioDecoderConfigInternal
+AudioDecoderConfig
 ;
 using
 InputTypeInternal
@@ -849,7 +849,7 @@ mozilla
 dom
 :
 :
-VideoDecoderConfigInternal
+VideoDecoderConfig
 ;
 using
 OutputType
