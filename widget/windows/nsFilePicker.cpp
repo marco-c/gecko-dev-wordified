@@ -3364,6 +3364,17 @@ GetTime
 (
 )
 ;
+/
+/
+TODO
+:
+also
+propagate
+err
+.
+where
+into
+telemetry
 HRESULT
 const
 hrRemote
