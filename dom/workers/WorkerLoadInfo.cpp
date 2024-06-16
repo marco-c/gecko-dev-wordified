@@ -630,7 +630,7 @@ mShouldResistFingerprinting
 (
 false
 )
-mIsThirdPartyContextToTopWindow
+mIsThirdPartyContext
 (
 true
 )
