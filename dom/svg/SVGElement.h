@@ -1867,6 +1867,7 @@ int32_t
 aModType
 )
 ;
+virtual
 void
 DidAnimateString
 (

@@ -983,9 +983,6 @@ aElement
 SMILCompositorTable
 *
 aCompositorTable
-bool
-&
-aStyleFlushNeeded
 )
 ;
 static
