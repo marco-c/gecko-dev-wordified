@@ -95189,15 +95189,6 @@ boolean
 :
 string
 ;
-getDOMClassInfo
-(
-aClassName
-:
-string
-)
-:
-nsIClassInfo
-;
 getIncumbentGlobal
 (
 callback
