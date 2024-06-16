@@ -71,7 +71,9 @@ const
 workerify
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -86,7 +88,9 @@ worker
 /
 worker
 .
-js
+sys
+.
+mjs
 "
 )
 ;

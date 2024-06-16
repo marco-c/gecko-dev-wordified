@@ -124,6 +124,8 @@ js
 "
 worker
 .
-js
+sys
+.
+mjs
 "
 )
