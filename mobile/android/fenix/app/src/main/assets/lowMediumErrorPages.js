@@ -567,7 +567,6 @@ none
 ;
 }
 else
-{
 if
 (
 showSSL
@@ -616,7 +615,6 @@ display
 none
 "
 ;
-}
 }
 }
 /

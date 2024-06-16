@@ -2107,8 +2107,6 @@ action
 getSerializedDoc
 "
 id
-:
-id
 }
 )
 .
@@ -2506,8 +2504,6 @@ port
 postMessage
 (
 {
-baseUrl
-:
 baseUrl
 activeUrl
 :
