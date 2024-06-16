@@ -825,6 +825,12 @@ TrampolineNative
 :
 ArraySort
 :
+case
+TrampolineNative
+:
+:
+TypedArraySort
+:
 layout
 -
 >
@@ -10317,6 +10323,12 @@ TrampolineNative
 :
 :
 ArraySort
+:
+case
+TrampolineNative
+:
+:
+TypedArraySort
 :
 layout
 -
