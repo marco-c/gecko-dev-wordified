@@ -174,7 +174,7 @@ shared
 ;
 const
 {
-WatcherRegistry
+ParentProcessWatcherRegistry
 }
 =
 ChromeUtils
@@ -194,7 +194,7 @@ actors
 /
 watcher
 /
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 sys
 .
@@ -202,7 +202,7 @@ mjs
 "
 /
 /
-WatcherRegistry
+ParentProcessWatcherRegistry
 needs
 to
 be
@@ -1342,7 +1342,7 @@ registered
 .
 if
 (
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 getWatcher
 (
@@ -1435,7 +1435,7 @@ TYPES
 )
 )
 ;
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 unregisterWatcher
 (
@@ -1556,7 +1556,7 @@ sessionData
 )
 {
 return
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 getSessionData
 (
@@ -1756,7 +1756,7 @@ watchTargets
 targetType
 )
 {
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 watchTargets
 (
@@ -2083,7 +2083,7 @@ options
 const
 isWatchingTargets
 =
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 unwatchTargets
 (
@@ -2192,7 +2192,7 @@ options
 isModeSwitching
 )
 {
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 maybeUnregisterJSActors
 (
@@ -4074,7 +4074,7 @@ resource
 types
 in
 the
-WatcherRegistry
+ParentProcessWatcherRegistry
 /
 /
 as
@@ -4099,7 +4099,7 @@ resourceTypes
 return
 ;
 }
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 watchResources
 (
@@ -4551,7 +4551,7 @@ resource
 types
 in
 the
-WatcherRegistry
+ParentProcessWatcherRegistry
 /
 /
 as
@@ -4579,7 +4579,7 @@ return
 const
 isWatchingResources
 =
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 unwatchResources
 (
@@ -4741,7 +4741,7 @@ any
 target
 /
 resource
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 maybeUnregisterJSActors
 (
@@ -5196,7 +5196,7 @@ entries
 updateType
 )
 {
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 addOrSetSessionDataEntry
 (
@@ -5410,7 +5410,7 @@ type
 entries
 )
 {
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 removeSessionDataEntry
 (
@@ -5655,7 +5655,7 @@ e
 )
 {
 }
-WatcherRegistry
+ParentProcessWatcherRegistry
 .
 addOrSetSessionDataEntry
 (
