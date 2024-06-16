@@ -3889,9 +3889,6 @@ aCount
 nsresult
 CheckRedirectLimit
 (
-nsIURI
-*
-aNewURI
 uint32_t
 aRedirectFlags
 )

@@ -539,7 +539,6 @@ rv
 =
 CheckRedirectLimit
 (
-aURI
 aRedirectFlags
 )
 ;
