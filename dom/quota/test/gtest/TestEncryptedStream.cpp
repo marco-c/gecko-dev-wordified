@@ -770,7 +770,7 @@ uint32_t
 result
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 "
@@ -779,7 +779,7 @@ ptr
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mBufferLength
 >
@@ -801,7 +801,7 @@ return
 NS_BASE_STREAM_CLOSED
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mArrayBuffer
 |
@@ -838,7 +838,7 @@ mBufferLength
 -
 mPos
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mArrayBuffer
 )
@@ -912,7 +912,7 @@ return
 NS_OK
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 written
 <
@@ -1007,7 +1007,7 @@ const
 aRetval
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aRetval
 )
