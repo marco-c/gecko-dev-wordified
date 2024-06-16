@@ -6453,9 +6453,6 @@ horizontal_offset_bounds
 info
 .
 previously_applied_offset
-info
-.
-transform
 )
 ;
 let

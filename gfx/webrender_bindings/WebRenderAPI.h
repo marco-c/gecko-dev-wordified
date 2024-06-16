@@ -3564,10 +3564,6 @@ wr
 :
 SpatialTreeItemKey
 aKey
-const
-WrAnimationProperty
-*
-aAnimation
 )
 ;
 Maybe
