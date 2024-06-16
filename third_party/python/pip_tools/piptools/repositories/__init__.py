@@ -1,7 +1,7 @@
-#
-flake8
-:
-noqa
+from
+__future__
+import
+annotations
 from
 .
 local
@@ -12,3 +12,13 @@ from
 pypi
 import
 PyPIRepository
+__all__
+=
+[
+"
+LocalRequirementsRepository
+"
+"
+PyPIRepository
+"
+]

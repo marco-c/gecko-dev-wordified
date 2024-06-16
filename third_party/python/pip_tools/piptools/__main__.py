@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 click
 from
@@ -16,6 +20,9 @@ def
 cli
 (
 )
+-
+>
+None
 :
     
 pass
@@ -59,11 +66,6 @@ __name__
 __main__
 "
 :
-#
-pragma
-:
-no
-branch
     
 cli
 (
