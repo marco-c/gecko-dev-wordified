@@ -34125,7 +34125,7 @@ layers
 :
 SurfaceDescriptor
 >
-MaybeGetSurfaceDescriptorForCanvasTranslator
+MaybeGetSurfaceDescriptorForRemoteCanvas
 (
 const
 SurfaceFromElementResult
@@ -35261,7 +35261,7 @@ false
 ;
 surfaceDescriptor
 =
-MaybeGetSurfaceDescriptorForCanvasTranslator
+MaybeGetSurfaceDescriptorForRemoteCanvas
 (
 res
 )
