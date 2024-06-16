@@ -114,7 +114,7 @@ super
 :
 :
 {
-ConnectionError
+CloseReason
 ERROR_AEAD_LIMIT_REACHED
 }
 Connection
@@ -2475,7 +2475,7 @@ State
 :
 Closed
 (
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -2580,7 +2580,7 @@ State
 :
 Closed
 (
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -2627,7 +2627,7 @@ Draining
 {
 error
 :
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -3006,7 +3006,7 @@ State
 :
 Closed
 (
-ConnectionError
+CloseReason
 :
 :
 Transport

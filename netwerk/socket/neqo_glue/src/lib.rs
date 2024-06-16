@@ -4338,7 +4338,7 @@ From
 neqo_transport
 :
 :
-ConnectionError
+CloseReason
 >
 for
 CloseError
@@ -4351,7 +4351,7 @@ error
 neqo_transport
 :
 :
-ConnectionError
+CloseReason
 )
 -
 >
@@ -4363,7 +4363,7 @@ error
 neqo_transport
 :
 :
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -4380,7 +4380,7 @@ into
 neqo_transport
 :
 :
-ConnectionError
+CloseReason
 :
 :
 Application
@@ -6363,7 +6363,7 @@ error_code
 neqo_transport
 :
 :
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -6390,7 +6390,7 @@ c
 neqo_transport
 :
 :
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -6455,7 +6455,7 @@ error_code
 neqo_transport
 :
 :
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -6482,7 +6482,7 @@ c
 neqo_transport
 :
 :
-ConnectionError
+CloseReason
 :
 :
 Transport

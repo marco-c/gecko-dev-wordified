@@ -1884,8 +1884,8 @@ neqo_transport
 :
 :
 {
+CloseReason
 Connection
-ConnectionError
 ConnectionEvent
 State
 StreamId
@@ -2093,7 +2093,7 @@ Error
 let
 err
 =
-ConnectionError
+CloseReason
 :
 :
 Application

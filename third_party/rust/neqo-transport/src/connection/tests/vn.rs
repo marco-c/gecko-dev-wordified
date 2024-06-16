@@ -124,7 +124,7 @@ super
 :
 :
 {
-ConnectionError
+CloseReason
 ConnectionEvent
 Output
 State
@@ -914,7 +914,7 @@ assert_eq
 (
 *
 err
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -1335,7 +1335,7 @@ assert_eq
 (
 *
 err
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -2647,7 +2647,7 @@ assert_eq
 (
 *
 err
-ConnectionError
+CloseReason
 :
 :
 Transport

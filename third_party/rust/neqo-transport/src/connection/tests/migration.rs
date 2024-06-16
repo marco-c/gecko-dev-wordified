@@ -204,7 +204,7 @@ self
 PreferredAddress
 TransportParameter
 }
-ConnectionError
+CloseReason
 ConnectionId
 ConnectionIdDecoder
 ConnectionIdGenerator
@@ -3171,7 +3171,7 @@ State
 :
 Closed
 (
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -3209,6 +3209,7 @@ generator
 /
 decoder
 .
+pub
 fn
 get_cid
 (
@@ -7396,7 +7397,7 @@ Closing
 {
 error
 :
-ConnectionError
+CloseReason
 :
 :
 Transport

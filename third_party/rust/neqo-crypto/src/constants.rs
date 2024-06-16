@@ -274,6 +274,16 @@ t
 s
 ;
 (
+#
+[
+allow
+(
+clippy
+:
+:
+cast_possible_truncation
+)
+]
 pub
 const
 n

@@ -170,6 +170,7 @@ tparams
 self
 TransportParameter
 }
+CloseReason
 /
 /
 tracking
@@ -177,7 +178,6 @@ tracking
 :
 DEFAULT_ACK_PACKET_TOLERANCE
 Connection
-ConnectionError
 ConnectionParameters
 Error
 StreamId
@@ -3806,7 +3806,7 @@ assert_error
 &
 client
 &
-ConnectionError
+CloseReason
 :
 :
 Transport
@@ -3833,7 +3833,7 @@ assert_error
 &
 server
 &
-ConnectionError
+CloseReason
 :
 :
 Transport
