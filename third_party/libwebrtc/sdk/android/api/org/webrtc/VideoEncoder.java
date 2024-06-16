@@ -1718,7 +1718,7 @@ For
 case
 1
 )
-createNativeVideoEncoder
+createNative
 (
 )
 should
@@ -1754,7 +1754,7 @@ For
 case
 2
 )
-createNativeVideoEncoder
+createNative
 (
 )
 should
@@ -1840,6 +1840,7 @@ UnsupportedOperationException
 *
 /
 CalledByNative
+Deprecated
 default
 long
 createNativeVideoEncoder
@@ -1848,6 +1849,21 @@ createNativeVideoEncoder
 {
 return
 0
+;
+}
+CalledByNative
+default
+long
+createNative
+(
+long
+webrtcEnvRef
+)
+{
+return
+createNativeVideoEncoder
+(
+)
 ;
 }
 /
