@@ -2198,7 +2198,10 @@ SetCTypesActivityCallback
 /
 FIXME
 :
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 /
 /
 A

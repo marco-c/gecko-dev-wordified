@@ -33770,7 +33770,10 @@ Access
 (
 )
 ;
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 aCx
 aGCZeal

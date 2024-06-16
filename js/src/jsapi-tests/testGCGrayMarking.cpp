@@ -1436,7 +1436,10 @@ keyOrDelegateMarkColor
 :
 1
 ;
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 cx
 uint8_t
@@ -1723,7 +1726,10 @@ expectedValueColor
 )
 ;
 }
-JS_UnsetGCZeal
+JS
+:
+:
+UnsetGCZeal
 (
 cx
 uint8_t
@@ -2223,7 +2229,10 @@ delegateMarkColor
 :
 1
 ;
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 cx
 uint8_t
@@ -2515,7 +2524,10 @@ expectedColor
 )
 ;
 }
-JS_UnsetGCZeal
+JS
+:
+:
+UnsetGCZeal
 (
 cx
 uint8_t

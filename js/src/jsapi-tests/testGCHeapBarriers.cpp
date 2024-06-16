@@ -3698,7 +3698,10 @@ enough
 for
 anyone
 .
-JS_SetGCZeal
+JS
+:
+:
+SetGCZeal
 (
 cx
 mode
