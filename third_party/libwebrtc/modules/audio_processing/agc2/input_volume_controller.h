@@ -420,7 +420,7 @@ functionality
 bool
 enable_clipping_predictor
 =
-false
+true
 ;
 /
 /
