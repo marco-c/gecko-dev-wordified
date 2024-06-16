@@ -19168,9 +19168,10 @@ const
 auto
 side
 :
-AllLogicalSides
-(
-)
+LogicalSides
+:
+:
+All
 )
 {
 if
