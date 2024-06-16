@@ -5059,7 +5059,7 @@ FlushPendingNotifications
 FlushType
 :
 :
-Display
+Layout
 )
 ;
 return

@@ -2504,7 +2504,7 @@ ChangesToFlush
 FlushType
 :
 :
-Display
+Layout
 false
 /
 *
@@ -12068,18 +12068,6 @@ FlushType
 :
 :
 Layout
-;
-break
-;
-case
-FLUSH_DISPLAY
-:
-flushType
-=
-FlushType
-:
-:
-Display
 ;
 break
 ;
