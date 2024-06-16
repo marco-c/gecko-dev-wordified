@@ -1231,7 +1231,7 @@ synthesizeMouse
 (
 urlBarContainer
 100
-1
+2
 {
 type
 :
