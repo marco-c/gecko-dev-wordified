@@ -216,6 +216,16 @@ nsInputStreamChannel
 =
 default
 ;
+NS_IMETHOD
+SetContentType
+(
+const
+nsACString
+&
+aContentType
+)
+override
+;
 protected
 :
 virtual
