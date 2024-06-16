@@ -1402,9 +1402,6 @@ source
 let
 config
 =
-codespan_reporting
-:
-:
 term
 :
 :

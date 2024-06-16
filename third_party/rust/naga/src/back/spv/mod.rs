@@ -5108,12 +5108,6 @@ capabilities
 None
 bounds_check_policies
 :
-crate
-:
-:
-proc
-:
-:
 BoundsCheckPolicies
 :
 :

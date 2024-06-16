@@ -1069,6 +1069,12 @@ AccelerationStructure
 )
 ;
 type
+PipelineCache
+=
+(
+)
+;
+type
 BindGroupLayout
 =
 BindGroupLayout

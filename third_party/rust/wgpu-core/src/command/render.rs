@@ -14379,9 +14379,6 @@ QueryReset
 )
 ?
 ;
-super
-:
-:
 CommandBuffer
 :
 :

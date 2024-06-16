@@ -3976,9 +3976,6 @@ let
 mut
 w
 =
-writer
-:
-:
 Writer
 :
 :

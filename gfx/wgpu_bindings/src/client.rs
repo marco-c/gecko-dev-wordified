@@ -7368,6 +7368,9 @@ stage
 to_wgpu
 (
 )
+cache
+:
+None
 }
 ;
 let
@@ -7711,6 +7714,9 @@ clone
 (
 )
 multiview
+:
+None
+cache
 :
 None
 }

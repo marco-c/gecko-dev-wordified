@@ -2408,6 +2408,9 @@ zero_initialize_workgroup_memory
 :
 true
 }
+cache
+:
+None
 }
 )
 }

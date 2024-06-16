@@ -2997,9 +2997,6 @@ a
 struct
 if
 let
-crate
-:
-:
 TypeInner
 :
 :
@@ -3720,9 +3717,6 @@ TypeInner
 Image
 {
 class
-:
-crate
-:
 :
 ImageClass
 :
@@ -4474,9 +4468,6 @@ ty
 .
 inner
 {
-crate
-:
-:
 TypeInner
 :
 :

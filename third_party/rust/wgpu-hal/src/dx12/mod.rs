@@ -446,6 +446,12 @@ ComputePipeline
 ComputePipeline
 ;
 type
+PipelineCache
+=
+(
+)
+;
+type
 AccelerationStructure
 =
 AccelerationStructure
@@ -1368,9 +1374,6 @@ renderdoc
 ]
 render_doc
 :
-crate
-:
-:
 auxil
 :
 :
@@ -1692,9 +1695,6 @@ assert_eq
 !
 (
 MAX_ROOT_ELEMENTS
-std
-:
-:
 mem
 :
 :

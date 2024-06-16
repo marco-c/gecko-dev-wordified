@@ -83,9 +83,6 @@ ID3D12Resource
 impl
 Resource
 {
-/
-/
-/
 pub
 fn
 map

@@ -15952,9 +15952,6 @@ stage
 .
 set
 (
-crate
-:
-:
 ShaderStage
 :
 :
@@ -15977,9 +15974,6 @@ stage
 .
 set
 (
-crate
-:
-:
 ShaderStage
 :
 :
@@ -16002,9 +15996,6 @@ stage
 .
 set
 (
-crate
-:
-:
 ShaderStage
 :
 :

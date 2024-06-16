@@ -2822,9 +2822,6 @@ D3D12_REQ_CONSTANT_BUFFER_ELEMENT_COUNT
 16
 max_storage_buffer_binding_size
 :
-crate
-:
-:
 auxil
 :
 :

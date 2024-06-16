@@ -2268,6 +2268,11 @@ ComputePipeline
 ;
 pub
 type
+PipelineCacheId
+PipelineCache
+;
+pub
+type
 CommandEncoderId
 CommandEncoder
 ;
@@ -2408,12 +2413,6 @@ Gl
 let
 id
 =
-crate
-:
-:
-id
-:
-:
 Id
 :
 :
@@ -2574,12 +2573,6 @@ backends
 let
 id
 =
-crate
-:
-:
-id
-:
-:
 Id
 :
 :

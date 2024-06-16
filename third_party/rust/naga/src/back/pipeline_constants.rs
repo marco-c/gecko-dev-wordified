@@ -3943,9 +3943,6 @@ value
 )
 ;
 }
-crate
-:
-:
 Statement
 :
 :
@@ -4671,9 +4668,6 @@ Expression
 let
 original
 =
-std
-:
-:
 mem
 :
 :
