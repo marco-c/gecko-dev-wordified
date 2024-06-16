@@ -730,7 +730,7 @@ first_config
 clientId
 :
 '
-C1
+123
 '
 nonce
 :
@@ -745,7 +745,7 @@ second_config
 clientId
 :
 '
-C2
+456
 '
 nonce
 :
