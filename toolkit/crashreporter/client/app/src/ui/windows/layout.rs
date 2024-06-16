@@ -750,6 +750,9 @@ model
 Label
 {
 text
+bold
+:
+_
 }
 )
 =
