@@ -33,6 +33,13 @@ math
 :
 *
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 alloc
 :

@@ -56,7 +56,9 @@ Other
 }
 /
 /
-IO
+I
+/
+O
 errors
 can
 never
@@ -72,7 +74,9 @@ our
 no
 -
 std
-IO
+I
+/
+O
 implementations
 /
 /

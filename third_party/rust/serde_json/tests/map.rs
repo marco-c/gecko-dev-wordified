@@ -354,16 +354,6 @@ is_empty
 }
 #
 [
-cfg
-(
-not
-(
-no_btreemap_retain
-)
-)
-]
-#
-[
 test
 ]
 fn
