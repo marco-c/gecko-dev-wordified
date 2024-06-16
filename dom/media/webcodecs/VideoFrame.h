@@ -1249,7 +1249,7 @@ aSize
 const
 ;
 size_t
-SampleCount
+ByteCount
 (
 const
 gfx
