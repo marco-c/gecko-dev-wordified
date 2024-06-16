@@ -228,6 +228,11 @@ TestTelemetry
 cpp
 "
 "
+TestThreadUtils
+.
+cpp
+"
+"
 TestUsageInfo
 .
 cpp
