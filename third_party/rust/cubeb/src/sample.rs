@@ -127,9 +127,7 @@ from
 i16
 :
 :
-max_value
-(
-)
+MAX
 )
 )
 as

@@ -2865,9 +2865,14 @@ compensations
 let
 uid
 =
+run_serially
+(
+|
+|
 get_device_uid
 (
 device
+)
 )
 ;
 assert_eq

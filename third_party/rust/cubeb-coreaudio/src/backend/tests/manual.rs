@@ -3216,6 +3216,10 @@ InputProcessingParams
 :
 NONE
 ;
+run_serially
+(
+|
+|
 {
 let
 mut
@@ -3405,6 +3409,8 @@ true
 ;
 }
 }
+)
+;
 let
 mut
 done
