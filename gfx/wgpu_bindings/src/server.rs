@@ -6336,7 +6336,7 @@ err
 =
 self
 .
-command_encoder_run_compute_pass_impl
+command_encoder_run_compute_pass_with_unresolved_commands
 :
 :
 <

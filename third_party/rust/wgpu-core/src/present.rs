@@ -147,6 +147,13 @@ init_tracker
 :
 :
 TextureInitTracker
+lock
+:
+:
+{
+rank
+Mutex
+}
 resource
 :
 :
@@ -178,10 +185,7 @@ use
 parking_lot
 :
 :
-{
-Mutex
 RwLock
-}
 ;
 use
 thiserror
@@ -1125,7 +1129,7 @@ suf
 A
 :
 :
-get_surface
+surface_as_hal
 (
 surface
 .
@@ -1574,6 +1578,10 @@ Mutex
 :
 new
 (
+rank
+:
+:
+TEXTURE_VIEWS
 Vec
 :
 :
@@ -1588,6 +1596,10 @@ Mutex
 :
 new
 (
+rank
+:
+:
+TEXTURE_BIND_GROUPS
 Vec
 :
 :
@@ -2205,7 +2217,7 @@ suf
 A
 :
 :
-get_surface
+surface_as_hal
 (
 &
 surface
@@ -2817,7 +2829,7 @@ suf
 A
 :
 :
-get_surface
+surface_as_hal
 (
 &
 surface

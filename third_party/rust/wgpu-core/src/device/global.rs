@@ -13987,7 +13987,7 @@ suf
 A
 :
 :
-get_surface
+surface_as_hal
 (
 surface
 )
@@ -14516,7 +14516,7 @@ unsafe
 A
 :
 :
-get_surface
+surface_as_hal
 (
 surface
 )

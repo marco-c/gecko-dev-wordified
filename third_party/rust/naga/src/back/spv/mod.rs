@@ -68,6 +68,9 @@ mod
 selection
 ;
 mod
+subgroup
+;
+mod
 writer
 ;
 pub
@@ -3106,7 +3109,10 @@ Literal
 crate
 :
 :
-Literal
+proc
+:
+:
+HashableLiteral
 )
 Composite
 {

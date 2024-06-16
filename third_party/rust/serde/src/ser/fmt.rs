@@ -467,9 +467,6 @@ fn
 serialize_newtype_struct
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -493,6 +490,9 @@ Result
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 Serialize
@@ -554,9 +554,6 @@ fn
 serialize_some
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -574,6 +571,9 @@ Result
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 Err
@@ -608,9 +608,6 @@ fn
 serialize_newtype_variant
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -643,6 +640,9 @@ Result
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 Err
@@ -915,9 +915,6 @@ fn
 collect_str
 <
 T
-:
-?
-Sized
 >
 (
 self
@@ -935,6 +932,9 @@ Result
 where
 T
 :
+?
+Sized
++
 Display
 {
 Display

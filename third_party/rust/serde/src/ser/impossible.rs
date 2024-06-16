@@ -571,9 +571,6 @@ fn
 serialize_element
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -595,6 +592,9 @@ Error
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 let
@@ -664,9 +664,6 @@ fn
 serialize_element
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -688,6 +685,9 @@ Error
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 let
@@ -757,9 +757,6 @@ fn
 serialize_field
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -781,6 +778,9 @@ Error
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 let
@@ -850,9 +850,6 @@ fn
 serialize_field
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -874,6 +871,9 @@ Error
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 let
@@ -943,9 +943,6 @@ fn
 serialize_key
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -967,6 +964,9 @@ Error
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 let
@@ -985,9 +985,6 @@ fn
 serialize_value
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -1009,6 +1006,9 @@ Error
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 let
@@ -1078,9 +1078,6 @@ fn
 serialize_field
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -1108,6 +1105,9 @@ Error
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 let
@@ -1182,9 +1182,6 @@ fn
 serialize_field
 <
 T
-:
-?
-Sized
 >
 (
 &
@@ -1212,6 +1209,9 @@ Error
 where
 T
 :
+?
+Sized
++
 Serialize
 {
 let

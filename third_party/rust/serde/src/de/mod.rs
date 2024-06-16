@@ -15966,9 +15966,6 @@ de
 '
 a
 A
-:
-?
-Sized
 >
 SeqAccess
 <
@@ -15984,6 +15981,9 @@ A
 where
 A
 :
+?
+Sized
++
 SeqAccess
 <
 '
@@ -17216,9 +17216,6 @@ de
 '
 a
 A
-:
-?
-Sized
 >
 MapAccess
 <
@@ -17234,6 +17231,9 @@ A
 where
 A
 :
+?
+Sized
++
 MapAccess
 <
 '

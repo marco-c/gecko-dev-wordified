@@ -901,6 +901,13 @@ hal_api
 :
 HalApi
 id
+lock
+:
+:
+{
+rank
+Mutex
+}
 pipeline
 resource
 snatch
@@ -913,10 +920,7 @@ use
 parking_lot
 :
 :
-{
-Mutex
 RwLock
-}
 ;
 use
 std
@@ -1195,6 +1199,14 @@ in
 the
 long
 run
+/
+/
+/
+(
+[
+#
+5121
+]
 (
 https
 :
@@ -1213,6 +1225,7 @@ wgpu
 issues
 /
 5121
+)
 )
 .
 /
@@ -1523,6 +1536,10 @@ Mutex
 :
 new
 (
+rank
+:
+:
+SHARED_TRACKER_INDEX_ALLOCATOR_INNER
 TrackerIndexAllocator
 :
 :
@@ -4945,7 +4962,7 @@ to
 BufferTracker
 :
 :
-drain
+drain_transitions
 ]
 or
 /
@@ -4955,7 +4972,7 @@ or
 TextureTracker
 :
 :
-drain
+drain_transitions
 ]
 is
 needed

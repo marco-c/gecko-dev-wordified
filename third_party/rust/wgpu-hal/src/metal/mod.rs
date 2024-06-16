@@ -1405,6 +1405,9 @@ bool
 timestamp_query_support
 :
 TimestampQuerySupport
+supports_simd_scoped_operations
+:
+bool
 }
 #
 [

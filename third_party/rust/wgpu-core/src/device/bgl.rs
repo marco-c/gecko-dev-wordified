@@ -420,7 +420,7 @@ Create
 a
 new
 [
-BindGroupLayoutEntryMap
+EntryMap
 ]
 from
 a

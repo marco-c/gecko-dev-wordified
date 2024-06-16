@@ -2176,7 +2176,7 @@ suf
 A
 :
 :
-get_surface
+surface_as_hal
 (
 surface
 )

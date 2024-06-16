@@ -882,7 +882,9 @@ Unchecked
 }
 zero_initialize_workgroup_memory
 :
-true
+stage
+.
+zero_initialize_workgroup_memory
 }
 ;
 let
