@@ -393,7 +393,9 @@ pageinfo
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 url
 "

@@ -221,7 +221,9 @@ function
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 TEST_ORIGIN
 "

@@ -68,7 +68,9 @@ linkedBrowser
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 browser
 .
@@ -171,7 +173,9 @@ privatePageInfo
 =
 privateWindow
 .
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 privateBrowser
 .

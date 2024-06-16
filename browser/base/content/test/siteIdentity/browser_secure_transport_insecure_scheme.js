@@ -220,7 +220,9 @@ uri
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 uri
 "

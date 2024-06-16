@@ -2104,7 +2104,9 @@ pageInfo
 =
 win
 .
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 null
 "

@@ -216,7 +216,9 @@ TEST_SUB_ORIGIN
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 TEST_SUB_ORIGIN
 "
@@ -555,7 +557,9 @@ url
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 url
 "
@@ -909,7 +913,9 @@ pageLoaded
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 TEST_ORIGIN_CERT_ERROR
 "
@@ -1213,7 +1219,9 @@ TEST_HTTP_ORIGIN
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 TEST_HTTP_ORIGIN
 "
@@ -1521,7 +1529,9 @@ TEST_ORIGIN
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 TEST_ORIGIN
 "
@@ -1862,7 +1872,9 @@ be
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 TEST_ORIGIN
 "
@@ -2228,7 +2240,9 @@ function
 let
 pageInfo
 =
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 TEST_ORIGIN
 "

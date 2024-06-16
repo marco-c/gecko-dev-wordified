@@ -10142,7 +10142,9 @@ viewInfo
 (
 )
 {
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 this
 .
@@ -10162,7 +10164,9 @@ viewImageInfo
 (
 )
 {
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 this
 .
@@ -10239,7 +10243,9 @@ viewFrameInfo
 (
 )
 {
-BrowserPageInfo
+BrowserCommands
+.
+pageInfo
 (
 this
 .
