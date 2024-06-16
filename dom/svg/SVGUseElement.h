@@ -917,6 +917,17 @@ mOwningUseElement
 ;
 }
 ;
+void
+DidAnimateAttribute
+(
+int32_t
+aNameSpaceID
+nsAtom
+*
+aAttribute
+)
+override
+;
 SVGUseFrame
 *
 GetFrame

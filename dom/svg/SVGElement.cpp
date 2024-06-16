@@ -13786,7 +13786,7 @@ aAttribute
 MutationEvent_Binding
 :
 :
-SMIL
+MODIFICATION
 )
 ;
 SVGObserverUtils

@@ -1867,7 +1867,6 @@ int32_t
 aModType
 )
 ;
-virtual
 void
 DidAnimateString
 (
@@ -3272,8 +3271,7 @@ sSVGUnitTypesMap
 [
 ]
 ;
-private
-:
+virtual
 void
 DidAnimateAttribute
 (
@@ -3284,6 +3282,8 @@ nsAtom
 aAttribute
 )
 ;
+private
+:
 void
 UnsetAttrInternal
 (
