@@ -824,14 +824,6 @@ const
 int64_t
 mUniqueId
 ;
-private
-:
-RefPtr
-<
-Promise
->
-mPromise
-;
 }
 ;
 protected
