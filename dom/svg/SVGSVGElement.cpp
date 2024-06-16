@@ -1429,10 +1429,8 @@ to
 date
 if
 (
-RefPtr
-<
-Document
->
+auto
+*
 currentDoc
 =
 GetComposedDoc
