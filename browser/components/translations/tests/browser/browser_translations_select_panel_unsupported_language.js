@@ -438,7 +438,7 @@ SelectTranslationsTestUtils
 clickTranslateButton
 (
 {
-onTranslated
+viewAssertion
 :
 SelectTranslationsTestUtils
 .
@@ -799,7 +799,7 @@ clickTranslateButton
 downloadHandler
 :
 resolveDownloads
-onTranslated
+viewAssertion
 :
 SelectTranslationsTestUtils
 .

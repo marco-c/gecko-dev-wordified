@@ -10804,7 +10804,7 @@ Function
 [
 config
 .
-onTranslated
+viewAssertion
 ]
 *
 -
@@ -10814,10 +10814,12 @@ callback
 function
 to
 execute
-after
+for
+asserting
 the
-translation
-completes
+panel
+UI
+state
 .
 *
 /
@@ -10828,7 +10830,7 @@ clickTranslateButton
 {
 downloadHandler
 pivotTranslation
-onTranslated
+viewAssertion
 }
 )
 {
@@ -10909,11 +10911,11 @@ pivotTranslation
 }
 if
 (
-onTranslated
+viewAssertion
 )
 {
 await
-onTranslated
+viewAssertion
 (
 )
 ;
