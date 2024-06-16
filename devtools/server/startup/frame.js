@@ -269,6 +269,13 @@ sys
 .
 mjs
 "
+{
+global
+:
+"
+shared
+"
+}
 )
 ;
 loader
@@ -1355,6 +1362,13 @@ sys
 .
 mjs
 "
+{
+global
+:
+"
+shared
+"
+}
 )
 ;
 releaseDistinctSystemPrincipalLoader

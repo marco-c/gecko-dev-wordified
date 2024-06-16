@@ -299,6 +299,13 @@ sys
 .
 mjs
 "
+{
+global
+:
+"
+shared
+"
+}
 )
 ;
 const
@@ -680,6 +687,13 @@ sys
 .
 mjs
 "
+{
+global
+:
+"
+shared
+"
+}
 )
 ;
 const
