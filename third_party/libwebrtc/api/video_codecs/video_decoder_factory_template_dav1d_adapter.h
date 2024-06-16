@@ -171,7 +171,9 @@ AV1
 "
 {
 {
-kAV1FmtpProfile
+"
+profile
+"
 AV1ProfileToString
 (
 AV1Profile
