@@ -186,5 +186,10 @@ attribute
 COSEAlgorithmIdentifier
 publicKeyAlgorithm
 ;
+bool
+isIdentifying
+(
+)
+;
 }
 ;
