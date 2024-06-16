@@ -641,6 +641,12 @@ Chrome
 requires
 some
 time
+(
+~
+10
+-
+20ms
+)
 to
 process
 the
@@ -681,8 +687,7 @@ context
 >
 0
     
-wait
-=
+await
 AsyncPoll
 (
 bidi_session
@@ -691,10 +696,20 @@ timeout
 0
 .
 5
+interval
+=
+0
+.
+01
+message
+=
+'
+No
+wheel
+events
+emitted
+'
 )
-    
-await
-wait
 .
 until
 (
