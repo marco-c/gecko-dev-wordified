@@ -490,7 +490,7 @@ store
 .
 dispatch
 .
-calledThrice
+calledTwice
 )
 ;
 Assert
