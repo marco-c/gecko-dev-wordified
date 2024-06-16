@@ -2360,7 +2360,6 @@ performEOFFixup
 (
 "
 "
-true
 )
 ;
 if

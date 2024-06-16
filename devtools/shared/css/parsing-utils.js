@@ -3734,7 +3734,6 @@ performEOFFixup
 (
 "
 "
-true
 )
 ;
 lastProp
