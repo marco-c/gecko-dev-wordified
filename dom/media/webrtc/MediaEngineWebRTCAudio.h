@@ -891,6 +891,7 @@ RequestedInputChannelCount
 MediaTrackGraph
 *
 )
+const
 override
 {
 return
@@ -924,6 +925,7 @@ uint32_t
 GetRequestedInputChannelCount
 (
 )
+const
 ;
 /
 /
