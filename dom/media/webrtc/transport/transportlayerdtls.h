@@ -848,11 +848,10 @@ const
 void
 RecordHandshakeCompletionTelemetry
 (
-TransportLayer
-:
-:
-State
-endState
+const
+char
+*
+aResult
 )
 ;
 void
