@@ -34,6 +34,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 file_mediaPlayback

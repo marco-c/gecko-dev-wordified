@@ -43,6 +43,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 "

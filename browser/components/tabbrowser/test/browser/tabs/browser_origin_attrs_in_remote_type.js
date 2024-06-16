@@ -96,6 +96,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 blank

@@ -114,6 +114,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 common_link_in_tab_title_and_url_prefilled

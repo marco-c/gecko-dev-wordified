@@ -109,6 +109,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 file_window_open

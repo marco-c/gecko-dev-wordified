@@ -96,6 +96,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 file_rel_opener_noopener
@@ -125,6 +127,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 blank
@@ -153,6 +157,8 @@ components
 tabbrowser
 /
 test
+/
+browser
 /
 tabs
 /

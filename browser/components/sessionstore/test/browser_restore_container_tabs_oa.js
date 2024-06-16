@@ -122,6 +122,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 helper_origin_attrs_testing
@@ -141,6 +143,8 @@ loadTestSubscript
 tabbrowser
 /
 test
+/
+browser
 /
 tabs
 /

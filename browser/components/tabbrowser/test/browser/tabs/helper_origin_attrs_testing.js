@@ -736,6 +736,8 @@ tabbrowser
 /
 test
 /
+browser
+/
 tabs
 /
 browser_navigate_through_urls_origin_attributes
@@ -750,6 +752,8 @@ components
 tabbrowser
 /
 test
+/
+browser
 /
 tabs
 /
