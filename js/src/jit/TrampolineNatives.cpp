@@ -868,7 +868,7 @@ call
 ArraySortData
 :
 :
-sortWithComparator
+sortArrayWithComparator
 /
 /
 checkReturnValue
@@ -1374,7 +1374,7 @@ Call
 ArraySortData
 :
 :
-sortWithComparator
+sortArrayWithComparator
 .
 using
 Fn2
@@ -1430,7 +1430,7 @@ Fn2
 ArraySortData
 :
 :
-sortWithComparator
+sortArrayWithComparator
 >
 (
 ABIType
