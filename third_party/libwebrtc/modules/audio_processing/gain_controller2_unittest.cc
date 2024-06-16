@@ -2907,9 +2907,9 @@ constexpr
 float
 kExpectedGainDb
 =
-5
+7
 .
-6f
+0f
 ;
 constexpr
 float
