@@ -537,7 +537,7 @@ formats
 =
 [
 "
-autograph_authenticode_202404
+autograph_authenticode_sha2
 "
 ]
         
