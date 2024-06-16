@@ -194,12 +194,6 @@ convertToBlob
 )
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Check

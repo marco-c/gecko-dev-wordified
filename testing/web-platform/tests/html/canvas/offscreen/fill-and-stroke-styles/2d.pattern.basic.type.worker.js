@@ -190,12 +190,6 @@ thisImplementsCanvasPattern
 "
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 "

@@ -197,12 +197,6 @@ canvas
 255
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Shadows

@@ -383,12 +383,6 @@ hangingBaseline
 "
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Testing

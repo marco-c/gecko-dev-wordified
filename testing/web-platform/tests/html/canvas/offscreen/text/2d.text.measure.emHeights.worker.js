@@ -399,12 +399,6 @@ emHeightAscent
 "
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Testing

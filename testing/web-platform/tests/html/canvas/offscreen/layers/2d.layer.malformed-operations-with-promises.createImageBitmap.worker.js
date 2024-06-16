@@ -191,12 +191,6 @@ canvas
 )
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Check

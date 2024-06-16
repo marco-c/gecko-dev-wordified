@@ -404,12 +404,6 @@ width
 "
 )
 ;
-t
-.
-done
-(
-)
-;
 }
 "
 Space
