@@ -335,7 +335,7 @@ accRole
 roles
 :
 :
-GROUPING
+ROWGROUP
 )
 {
 /
