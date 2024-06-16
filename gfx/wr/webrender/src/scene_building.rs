@@ -7261,6 +7261,7 @@ default
 )
 ;
 let
+mut
 bounds
 =
 self
@@ -7271,12 +7272,16 @@ snap_rect
 info
 .
 bounds
+spatial_node_index
+)
+;
+bounds
+=
+bounds
 .
 translate
 (
 external_scroll_offset
-)
-spatial_node_index
 )
 ;
 let
@@ -7508,8 +7513,6 @@ iframe_size
 .
 push
 (
-info
-.
 bounds
 .
 size
