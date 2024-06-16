@@ -62,14 +62,6 @@ strict
 "
 ;
 /
-*
-eslint
--
-env
-node
-*
-/
-/
 /
 The
 *
