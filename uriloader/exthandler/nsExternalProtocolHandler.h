@@ -187,14 +187,6 @@ nsExternalProtocolHandler
 /
 helper
 function
-bool
-HaveExternalProtocolHandler
-(
-nsIURI
-*
-aURI
-)
-;
 nsCString
 m_schemeName
 ;
