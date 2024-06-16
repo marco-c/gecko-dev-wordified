@@ -834,6 +834,11 @@ NS_ERROR_NOT_INITIALIZED
 )
 }
 ;
+if
+len
+>
+0
+{
 /
 /
 Safety
@@ -888,6 +893,7 @@ update
 data
 )
 ;
+}
 Ok
 (
 (
