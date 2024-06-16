@@ -4456,6 +4456,15 @@ case
 highlight
 "
 :
+case
+"
+:
+:
+target
+-
+text
+"
+:
 return
 true
 ;
