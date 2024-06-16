@@ -5281,7 +5281,7 @@ party
 context
 .
 bool
-IsThirdPartyContext
+IsThirdPartyContextToTopWindow
 (
 )
 const
@@ -5289,7 +5289,7 @@ const
 return
 mLoadInfo
 .
-mIsThirdPartyContext
+mIsThirdPartyContextToTopWindow
 ;
 }
 bool

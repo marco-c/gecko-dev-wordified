@@ -7270,7 +7270,7 @@ LoadInfo
 loadInfo
 -
 >
-SetIsInThirdPartyContext
+SetIsThirdPartyContextToTopWindow
 (
 mWorkerRef
 -
@@ -7280,7 +7280,7 @@ Private
 )
 -
 >
-IsThirdPartyContext
+IsThirdPartyContextToTopWindow
 (
 )
 )

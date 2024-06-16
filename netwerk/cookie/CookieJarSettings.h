@@ -1232,8 +1232,6 @@ SetPartitionKey
 nsIURI
 *
 aURI
-bool
-aForeignByAncestorContext
 )
 ;
 void
@@ -1261,14 +1259,6 @@ return
 mPartitionKey
 ;
 }
-;
-void
-UpdatePartitionKeyForDocumentLoadedByChannel
-(
-nsIChannel
-*
-aChannel
-)
 ;
 void
 SetFingerprintingRandomizationKey
