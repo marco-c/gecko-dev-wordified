@@ -1543,6 +1543,9 @@ key
 get
 (
 )
+zone
+(
+)
 )
 ;
 CheckGCThingAfterMovingGC
@@ -1559,6 +1562,9 @@ value
 )
 .
 toObject
+(
+)
+zone
 (
 )
 )
