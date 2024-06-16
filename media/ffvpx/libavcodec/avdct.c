@@ -171,6 +171,15 @@ USA
 #
 include
 "
+libavutil
+/
+mem
+.
+h
+"
+#
+include
+"
 avcodec
 .
 h
@@ -301,6 +310,9 @@ INT_MAX
 V
 |
 E
+.
+unit
+=
 "
 dct
 "
@@ -328,6 +340,9 @@ INT_MAX
 V
 |
 E
+.
+unit
+=
 "
 dct
 "
@@ -359,6 +374,9 @@ INT_MAX
 V
 |
 E
+.
+unit
+=
 "
 dct
 "
@@ -384,6 +402,9 @@ INT_MAX
 V
 |
 E
+.
+unit
+=
 "
 dct
 "
@@ -411,6 +432,9 @@ INT_MAX
 V
 |
 E
+.
+unit
+=
 "
 dct
 "
@@ -438,6 +462,9 @@ INT_MAX
 V
 |
 E
+.
+unit
+=
 "
 dct
 "
@@ -471,6 +498,9 @@ INT_MAX
 V
 |
 E
+.
+unit
+=
 "
 dct
 "
@@ -502,6 +532,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -531,6 +564,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -560,6 +596,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -589,6 +628,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -618,6 +660,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -647,6 +692,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -676,6 +724,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -705,6 +756,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -734,6 +788,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -763,6 +820,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -792,6 +852,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -821,6 +884,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -850,6 +916,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "
@@ -885,6 +954,9 @@ V
 D
 |
 E
+.
+unit
+=
 "
 idct
 "
@@ -914,6 +986,9 @@ V
 E
 |
 D
+.
+unit
+=
 "
 idct
 "

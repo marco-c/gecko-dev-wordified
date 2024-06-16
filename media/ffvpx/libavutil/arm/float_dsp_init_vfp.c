@@ -265,11 +265,11 @@ ff_butterflies_float_vfp
 (
 float
 *
-av_restrict
+restrict
 v1
 float
 *
-av_restrict
+restrict
 v2
 int
 len
