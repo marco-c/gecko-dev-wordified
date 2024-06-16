@@ -216,6 +216,14 @@ title
 '
 )
 ;
+self
+.
+notification
+.
+close
+(
+)
+;
 }
 }
 )
