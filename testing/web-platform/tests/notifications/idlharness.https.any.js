@@ -216,14 +216,6 @@ title
 '
 )
 ;
-self
-.
-notification
-.
-close
-(
-)
-;
 }
 }
 )
