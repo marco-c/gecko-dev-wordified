@@ -792,6 +792,7 @@ MediaTrackGraph
 *
 aGraph
 )
+const
 override
 {
 aGraph
