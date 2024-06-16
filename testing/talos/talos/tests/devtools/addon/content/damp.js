@@ -94,7 +94,9 @@ modules
 /
 AddonManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -112,7 +114,9 @@ actors
 /
 DampLoadParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -569,7 +573,9 @@ powers
 /
 TalosParentProfiler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
