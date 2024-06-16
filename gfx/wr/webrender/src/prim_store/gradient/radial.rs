@@ -1517,9 +1517,6 @@ RenderTaskParent
 :
 :
 Surface
-(
-parent_surface
-)
 &
 mut
 frame_state
