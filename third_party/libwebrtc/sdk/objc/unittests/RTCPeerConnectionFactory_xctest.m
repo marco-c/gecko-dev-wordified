@@ -2701,7 +2701,10 @@ completionHandler
 :
 ^
 (
+RTC_OBJC_TYPE
+(
 RTCSessionDescription
+)
 *
 _Nullable
 sdp
