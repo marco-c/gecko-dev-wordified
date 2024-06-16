@@ -1515,7 +1515,7 @@ VideoDecoderProxyFactory
 ON_CALL
 (
 mock_h264_decoder_factory_
-CreateVideoDecoder
+Create
 )
 .
 WillByDefault
@@ -1531,7 +1531,7 @@ test
 VideoDecoderProxyFactory
 :
 :
-CreateVideoDecoder
+Create
 )
 )
 ;
@@ -3372,10 +3372,7 @@ default
 EXPECT_CALL
 (
 mock_h264_decoder_factory_
-CreateVideoDecoder
-(
-_
-)
+Create
 )
 .
 Times
@@ -3442,8 +3439,9 @@ frame
 EXPECT_CALL
 (
 mock_h264_decoder_factory_
-CreateVideoDecoder
+Create
 (
+_
 Field
 (
 &
@@ -3451,9 +3449,6 @@ SdpVideoFormat
 :
 :
 name
-testing
-:
-:
 Eq
 (
 "

@@ -3356,8 +3356,9 @@ config_
 decoder_factory
 -
 >
-CreateVideoDecoder
+Create
 (
+env_
 decoder
 .
 video_format
