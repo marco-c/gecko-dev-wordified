@@ -1104,6 +1104,15 @@ eContextMenu
 EventNameType_HTMLXUL
 |
 EventNameType_SVGGraphic
+StaticPrefs
+:
+:
+dom_w3c_pointer_events_dispatch_click_as_pointer_event
+(
+)
+?
+ePointerEventClass
+:
 eMouseEventClass
 )
 NON_IDL_EVENT

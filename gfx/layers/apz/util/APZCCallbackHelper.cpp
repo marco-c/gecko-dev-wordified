@@ -4141,10 +4141,6 @@ WidgetMouseEvent
 :
 :
 eReal
-WidgetMouseEvent
-:
-:
-eNormal
 )
 ;
 event

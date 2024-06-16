@@ -3020,6 +3020,17 @@ u
 auxclick
 "
 )
+|
+|
+aEventTypeArg
+.
+EqualsLiteral
+(
+u
+"
+contextmenu
+"
+)
 )
 {
 classID

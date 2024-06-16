@@ -5751,6 +5751,9 @@ mouseEvent
 mouseInput
 .
 ToWidgetEvent
+<
+WidgetMouseEvent
+>
 (
 nullptr
 )
