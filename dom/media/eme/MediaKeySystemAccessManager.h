@@ -1025,6 +1025,8 @@ Convenience
 methods
 to
 reject
+/
+resolve
 the
 wrapped
 promise
@@ -1054,6 +1056,14 @@ const
 nsACString
 &
 aReason
+)
+;
+void
+ResolvePromise
+(
+MediaKeySystemAccess
+*
+aAccess
 )
 ;
 void
