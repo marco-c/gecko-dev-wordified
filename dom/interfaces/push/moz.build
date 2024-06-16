@@ -103,7 +103,8 @@ Core
 "
 DOM
 :
-Notifications
+Push
+Subscriptions
 "
 )
 XPIDL_SOURCES
