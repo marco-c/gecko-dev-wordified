@@ -6909,14 +6909,6 @@ CanvasRenderingContext2D
 (
 )
 {
-CanvasImageCache
-:
-:
-NotifyCanvasDestroyed
-(
-this
-)
-;
 RemovePostRefreshObserver
 (
 )
@@ -35406,7 +35398,7 @@ CanvasImageCache
 LookupCanvas
 (
 element
-this
+mCanvasElement
 mTarget
 &
 imgSize
@@ -35974,7 +35966,7 @@ CanvasImageCache
 NotifyDrawImage
 (
 element
-this
+mCanvasElement
 mTarget
 srcSurf
 imgSize
