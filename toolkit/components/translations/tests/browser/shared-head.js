@@ -5475,7 +5475,7 @@ manage
 -
 language
 -
-install
+download
 -
 button
 "
@@ -5543,7 +5543,7 @@ manage
 -
 language
 -
-install
+download
 -
 button
 "
@@ -5611,7 +5611,7 @@ manage
 -
 language
 -
-install
+download
 -
 button
 "
