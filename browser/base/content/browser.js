@@ -11794,6 +11794,7 @@ ContentAnalysis
 .
 initialize
 (
+document
 )
 ;
 /
