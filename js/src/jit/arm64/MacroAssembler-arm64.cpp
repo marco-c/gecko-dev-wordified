@@ -4182,12 +4182,6 @@ case
 Scalar
 :
 :
-Float16
-:
-case
-Scalar
-:
-:
 MaxTypedArrayViewType
 :
 MOZ_CRASH
@@ -4910,12 +4904,6 @@ Scalar
 :
 :
 BigUint64
-:
-case
-Scalar
-:
-:
-Float16
 :
 case
 Scalar

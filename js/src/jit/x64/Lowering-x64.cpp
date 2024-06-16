@@ -2425,12 +2425,6 @@ case
 Scalar
 :
 :
-Float16
-:
-case
-Scalar
-:
-:
 MaxTypedArrayViewType
 :
 MOZ_CRASH

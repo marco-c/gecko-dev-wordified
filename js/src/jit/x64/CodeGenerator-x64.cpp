@@ -5060,12 +5060,6 @@ case
 Scalar
 :
 :
-Float16
-:
-case
-Scalar
-:
-:
 Float32
 :
 case

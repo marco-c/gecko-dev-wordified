@@ -535,16 +535,6 @@ uint64_t
 uint64_t
 BigUint64
 )
-\
-MACRO
-(
-uint16_t
-js
-:
-:
-float16
-Float16
-)
 /
 *
 *
