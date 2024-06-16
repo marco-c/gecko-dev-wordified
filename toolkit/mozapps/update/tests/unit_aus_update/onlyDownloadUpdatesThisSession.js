@@ -229,6 +229,7 @@ hit
 let
 bestUpdate
 =
+await
 gAUS
 .
 selectUpdate

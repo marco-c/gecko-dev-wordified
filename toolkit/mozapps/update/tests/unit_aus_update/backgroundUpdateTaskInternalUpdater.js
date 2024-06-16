@@ -405,6 +405,7 @@ true
 let
 bestUpdate
 =
+await
 gAUS
 .
 selectUpdate

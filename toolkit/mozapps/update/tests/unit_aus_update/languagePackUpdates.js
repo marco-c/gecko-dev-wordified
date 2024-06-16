@@ -1426,6 +1426,7 @@ listener
 let
 bestUpdate
 =
+await
 gAUS
 .
 selectUpdate
