@@ -182,6 +182,15 @@ h
 #
 include
 "
+mozilla
+/
+ScrollContainerFrame
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
