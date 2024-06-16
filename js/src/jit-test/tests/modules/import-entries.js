@@ -86,7 +86,7 @@ i
 ;
 i
 <
-expected
+expectedAssertions
 .
 length
 ;
@@ -97,7 +97,7 @@ i
 {
 if
 (
-expected
+expectedAssertions
 [
 i
 ]
@@ -106,7 +106,7 @@ type
 !
 =
 =
-actual
+actualAssertions
 [
 i
 ]
