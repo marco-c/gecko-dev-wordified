@@ -5070,10 +5070,6 @@ wm
 )
 )
 ;
-DISPLAY_REFLOW_CHANGE
-(
-)
-;
 }
 else
 {
@@ -5114,10 +5110,6 @@ aReflowInput
 SetComputedBSize
 (
 computedUnpaginatedBSize
-)
-;
-DISPLAY_REFLOW_CHANGE
-(
 )
 ;
 }
