@@ -2900,7 +2900,7 @@ subpixel_order
 *
 *
 *
-_cairo_font_options_set_lcd_filter
+cairo_font_options_set_lcd_filter
 :
 *
 options
@@ -2962,7 +2962,7 @@ details
 *
 /
 void
-_cairo_font_options_set_lcd_filter
+cairo_font_options_set_lcd_filter
 (
 cairo_font_options_t
 *
@@ -2992,7 +2992,7 @@ lcd_filter
 *
 *
 *
-_cairo_font_options_get_lcd_filter
+cairo_font_options_get_lcd_filter
 :
 *
 options
@@ -3040,7 +3040,7 @@ object
 *
 /
 cairo_lcd_filter_t
-_cairo_font_options_get_lcd_filter
+cairo_font_options_get_lcd_filter
 (
 const
 cairo_font_options_t
