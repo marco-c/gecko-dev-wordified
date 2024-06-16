@@ -905,7 +905,10 @@ rv
 .
 Append
 (
+NS_ConvertUTF16toUTF8
+(
 mCodec
+)
 )
 ;
 rv
