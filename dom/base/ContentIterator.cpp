@@ -7662,7 +7662,7 @@ IterAllowCrossShadowBoundary
 )
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 nextNode
 "
@@ -7784,7 +7784,7 @@ GetFirstChild
 )
 ;
 }
-MOZ_ASSERT
+NS_ASSERTION
 (
 nextNode
 "
