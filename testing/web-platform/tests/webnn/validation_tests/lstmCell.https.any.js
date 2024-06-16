@@ -1214,7 +1214,7 @@ activation
 =
 builder
 .
-clamp
+relu
 (
 )
 ;
@@ -1223,7 +1223,7 @@ activationFromOtherBuilder
 =
 otherBuilder
 .
-clamp
+relu
 (
 )
 ;
