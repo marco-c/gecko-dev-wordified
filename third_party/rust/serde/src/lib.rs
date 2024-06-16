@@ -1486,7 +1486,7 @@ serde
 .
 0
 .
-198
+201
 "
 )
 ]
@@ -1743,6 +1743,10 @@ clippy
 :
 :
 cast_possible_wrap
+clippy
+:
+:
+cast_precision_loss
 clippy
 :
 :
