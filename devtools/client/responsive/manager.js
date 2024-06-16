@@ -775,7 +775,9 @@ window
 await
 ui
 .
-inited
+initialize
+(
+)
 ;
 this
 .
