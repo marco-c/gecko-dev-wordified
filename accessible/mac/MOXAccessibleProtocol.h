@@ -1561,6 +1561,17 @@ moxPlaceholderValue
 ;
 /
 /
+AXLanguage
+-
+(
+NSString
+*
+_Nullable
+)
+moxLanguage
+;
+/
+/
 AXMozDebugDescription
 -
 (
