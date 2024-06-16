@@ -1787,6 +1787,14 @@ null
 if
 (
 gNeckoChild
+&
+&
+gNeckoChild
+-
+>
+CanSend
+(
+)
 )
 {
 gNeckoChild
