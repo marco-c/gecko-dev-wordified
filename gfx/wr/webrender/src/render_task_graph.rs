@@ -5865,10 +5865,6 @@ RenderTargetList
 :
 new
 (
-ImageFormat
-:
-:
-RGBA8
 )
 alpha
 :
@@ -5877,10 +5873,6 @@ RenderTargetList
 :
 new
 (
-ImageFormat
-:
-:
-R8
 )
 texture_cache
 :
