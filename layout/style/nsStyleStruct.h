@@ -5113,6 +5113,12 @@ mPositionVisibility
 mozilla
 :
 :
+StylePositionTryOrder
+mPositionTryOrder
+;
+mozilla
+:
+:
 StyleInsetArea
 mInsetArea
 ;
