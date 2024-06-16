@@ -163,15 +163,6 @@ into
 method
 .
 use
-std
-:
-:
-convert
-:
-:
-From
-;
-use
 xpcom
 :
 :
