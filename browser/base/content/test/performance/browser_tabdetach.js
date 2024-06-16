@@ -111,7 +111,7 @@ browser
 content
 /
 tabbrowser
--
+/
 tabs
 .
 js
@@ -127,7 +127,7 @@ browser
 content
 /
 tabbrowser
--
+/
 tabs
 .
 js
@@ -143,7 +143,7 @@ browser
 content
 /
 tabbrowser
--
+/
 tabs
 .
 js
@@ -159,7 +159,7 @@ browser
 content
 /
 tabbrowser
--
+/
 tabs
 .
 js
@@ -238,7 +238,7 @@ browser
 content
 /
 tabbrowser
--
+/
 tabs
 .
 js
@@ -254,7 +254,7 @@ browser
 content
 /
 tabbrowser
--
+/
 tabs
 .
 js
@@ -270,7 +270,7 @@ browser
 content
 /
 tabbrowser
--
+/
 tabs
 .
 js
