@@ -3766,6 +3766,12 @@ LayerBlock
 .
 .
 )
+|
+StartingStyle
+(
+.
+.
+)
 =
 >
 {
