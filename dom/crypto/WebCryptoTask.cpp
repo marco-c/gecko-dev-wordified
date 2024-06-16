@@ -15283,7 +15283,7 @@ Length
 )
 {
 return
-NS_ERROR_DOM_DATA_ERR
+NS_ERROR_DOM_OPERATION_ERR
 ;
 }
 if
