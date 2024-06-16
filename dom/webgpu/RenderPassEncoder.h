@@ -259,8 +259,7 @@ void
 Cleanup
 (
 )
-{
-}
+;
 std
 :
 :
