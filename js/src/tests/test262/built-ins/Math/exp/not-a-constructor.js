@@ -191,6 +191,16 @@ exp
 )
 ;
 }
+'
+new
+Math
+.
+exp
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

@@ -184,6 +184,15 @@ parseFloat
 )
 ;
 }
+'
+new
+parseFloat
+(
+1
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

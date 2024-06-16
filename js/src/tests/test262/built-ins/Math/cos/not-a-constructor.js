@@ -191,6 +191,16 @@ cos
 )
 ;
 }
+'
+new
+Math
+.
+cos
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

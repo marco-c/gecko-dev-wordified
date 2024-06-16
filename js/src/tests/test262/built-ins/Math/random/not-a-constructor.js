@@ -191,6 +191,16 @@ random
 )
 ;
 }
+'
+new
+Math
+.
+random
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

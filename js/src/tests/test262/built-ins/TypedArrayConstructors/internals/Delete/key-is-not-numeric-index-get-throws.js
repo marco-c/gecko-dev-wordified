@@ -242,6 +242,13 @@ sample
 foo
 ;
 }
+'
+sample
+.
+foo
+throws
+Test262Error
+'
 )
 ;
 }

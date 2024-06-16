@@ -191,6 +191,16 @@ UTC
 )
 ;
 }
+'
+new
+Date
+.
+UTC
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

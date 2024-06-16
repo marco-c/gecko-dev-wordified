@@ -63,6 +63,11 @@ ImportDeclaration
 :
 import
 ModuleSpecifier
+[
+no
+LineTerminator
+here
+]
 WithClause
 ;
 WithClause

@@ -443,6 +443,16 @@ typedArray
 s
 ;
 }
+'
+typedArray
+[
+0
+]
+=
+s
+throws
+TypeError
+'
 )
 ;
 }

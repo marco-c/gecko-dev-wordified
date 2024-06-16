@@ -191,6 +191,16 @@ sign
 )
 ;
 }
+'
+new
+Math
+.
+sign
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

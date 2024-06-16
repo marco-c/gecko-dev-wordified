@@ -261,6 +261,14 @@ resolve
 )
 ;
 }
+'
+new
+resolve
+(
+)
+throws
+TypeError
+'
 )
 ;
 assert
