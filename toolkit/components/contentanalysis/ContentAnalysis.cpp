@@ -11624,7 +11624,16 @@ approve
 it
 .
 return
-true
+mozilla
+:
+:
+Err
+(
+NoContentAnalysisResult
+:
+:
+ALLOW_DUE_TO_CONTEXT_EXEMPT_FROM_CONTENT_ANALYSIS
+)
 ;
 }
 RefPtr
