@@ -201,7 +201,7 @@ mozilla
 :
 Maybe
 <
-intptr_t
+platform_handle_t
 >
 FileDescriptorToHandle
 (
@@ -273,8 +273,17 @@ mozilla
 :
 :
 Some
+<
+platform_handle_t
+>
+(
+reinterpret_cast
+<
+platform_handle_t
+>
 (
 handle
+)
 )
 ;
 }
@@ -286,7 +295,7 @@ mozilla
 :
 Maybe
 <
-intptr_t
+platform_handle_t
 >
 FileDescriptorToHandle
 (
@@ -300,10 +309,16 @@ mozilla
 :
 Some
 <
-intptr_t
+platform_handle_t
+>
+(
+static_cast
+<
+platform_handle_t
 >
 (
 aFd
+)
 )
 ;
 }
@@ -1285,7 +1300,7 @@ false
 typedef
 ChunkedList
 <
-intptr_t
+platform_handle_t
 >
 FdList
 ;
@@ -1370,7 +1385,7 @@ interposer
 bool
 IsDebugFile
 (
-intptr_t
+platform_handle_t
 aFileID
 )
 {
@@ -1398,7 +1413,7 @@ C
 void
 MozillaRegisterDebugHandle
 (
-intptr_t
+platform_handle_t
 aHandle
 )
 {
@@ -1444,7 +1459,7 @@ mozilla
 :
 Maybe
 <
-intptr_t
+platform_handle_t
 >
 handle
 =
@@ -1518,7 +1533,7 @@ fd
 void
 MozillaUnRegisterDebugHandle
 (
-intptr_t
+platform_handle_t
 aHandle
 )
 {
@@ -1563,7 +1578,7 @@ mozilla
 :
 Maybe
 <
-intptr_t
+platform_handle_t
 >
 handle
 =
@@ -1658,7 +1673,7 @@ DebugFdRegistry
 :
 RegisterHandle
 (
-intptr_t
+platform_handle_t
 aHandle
 )
 {
@@ -1677,7 +1692,7 @@ DebugFdRegistry
 :
 UnRegisterHandle
 (
-intptr_t
+platform_handle_t
 aHandle
 )
 {
