@@ -66,6 +66,10 @@ dap_ffi_gtest
 ;
 extern
 crate
+dllservices_gtest
+;
+extern
+crate
 fog_gtest
 ;
 #
@@ -110,8 +114,4 @@ nsstring_gtest
 extern
 crate
 xpcom_gtest
-;
-extern
-crate
-dllservices_gtest
 ;
