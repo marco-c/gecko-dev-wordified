@@ -316,6 +316,11 @@ WMFAudioMFTManager
 cpp
 "
 "
+WMFDataEncoderUtils
+.
+cpp
+"
+"
 WMFDecoderModule
 .
 cpp
@@ -327,6 +332,11 @@ cpp
 "
 "
 WMFMediaDataDecoder
+.
+cpp
+"
+"
+WMFMediaDataEncoder
 .
 cpp
 "
