@@ -390,7 +390,7 @@ Disabled
 Only
 implemented
 for
-nsGfxScrollFrame
+ScrollContainerFrame
 not
 nsTreeBodyFrame
 .
@@ -540,7 +540,7 @@ accordingly
 .
 (
 See
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ThumbMoved

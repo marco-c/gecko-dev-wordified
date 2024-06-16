@@ -500,7 +500,7 @@ nsPresContext
 aPresContext
 )
 :
-nsHTMLScrollFrame
+ScrollContainerFrame
 (
 aStyle
 aPresContext
@@ -666,7 +666,7 @@ Detach
 (
 )
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Destroy
@@ -765,7 +765,7 @@ nsListControlFrame
 "
 )
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 BuildDisplayList
@@ -1201,7 +1201,7 @@ nsListControlFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLScrollFrame
+ScrollContainerFrame
 )
 #
 ifdef
@@ -2652,7 +2652,7 @@ containBSize
 )
 ;
 }
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Reflow
@@ -3008,7 +3008,7 @@ an
 implementation
 detail
 of
-nsHTMLScrollFrame
+ScrollContainerFrame
 that
 /
 /
@@ -3018,7 +3018,7 @@ re
 depending
 on
 ?
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 DidReflow
@@ -3099,7 +3099,7 @@ that
 /
 /
 because
-nsGfxScrollFrame
+ScrollContainerFrame
 just
 adds
 in
@@ -3115,7 +3115,7 @@ Reset
 (
 )
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Reflow
@@ -5009,7 +5009,7 @@ go
 through
 /
 /
-nsHTMLScrollFrame
+ScrollContainerFrame
 if
 we
 '
@@ -5036,7 +5036,7 @@ aEventStatus
 ;
 }
 return
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 HandleEvent
@@ -5170,7 +5170,7 @@ false
 ;
 }
 }
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 SetInitialChildList
@@ -5286,7 +5286,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Init
@@ -7237,7 +7237,7 @@ HasPendingInterrupt
 (
 )
 ;
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 DidReflow

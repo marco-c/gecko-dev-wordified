@@ -22851,10 +22851,10 @@ make
 sure
 to
 tweak
-nsGfxScrollFrame
+ScrollContainerFrame
+/
+/
 as
-/
-/
 well
 .
 bool
@@ -83141,8 +83141,8 @@ which
 is
 /
 /
-an
-nsHTMLScrollFrame
+a
+ScrollContainerFrame
 sub
 -
 class

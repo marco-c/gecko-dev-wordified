@@ -1201,7 +1201,7 @@ position
 changes
 notify
 any
-nsGfxScrollFrame
+ScrollContainerFrame
 /
 /
 parent

@@ -41125,7 +41125,7 @@ limiting
 that
 /
 /
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 DecideScrollableLayer
@@ -79095,7 +79095,7 @@ See
 the
 comment
 in
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 Reflow

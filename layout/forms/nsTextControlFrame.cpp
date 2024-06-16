@@ -7355,7 +7355,7 @@ the
 nsIStatefulFrame
 from
 the
-HTMLScrollFrame
+ScrollContainerFrame
 if
 (
 nsIStatefulFrame

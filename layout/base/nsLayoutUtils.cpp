@@ -9201,7 +9201,7 @@ found
 /
 /
 by
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 GetScrolledFrameDir
@@ -20794,7 +20794,7 @@ we
 know
 /
 /
-nsGfxScrollFrame
+ScrollContainerFrame
 :
 :
 BuilDisplayList
@@ -27534,7 +27534,7 @@ this
 /
 During
 reflow
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ReflowScrolledFrame

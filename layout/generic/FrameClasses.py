@@ -759,17 +759,6 @@ LEAF
 Frame
 (
 "
-nsHTMLScrollFrame
-"
-"
-Scroll
-"
-COMMON
-)
-    
-Frame
-(
-"
 nsImageControlFrame
 "
 "
@@ -1203,6 +1192,17 @@ nsRubyTextFrame
 RubyText
 "
 RUBY_CONTENT
+)
+    
+Frame
+(
+"
+ScrollContainerFrame
+"
+"
+Scroll
+"
+COMMON
 )
     
 Frame

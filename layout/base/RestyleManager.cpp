@@ -5371,8 +5371,8 @@ FirstChild
 /
 /
 For
-an
-nsHTMLScrollFrame
+a
+ScrollContainerFrame
 this
 will
 get

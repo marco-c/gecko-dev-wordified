@@ -1106,7 +1106,7 @@ the
 right
 for
 *
-nsHTMLScrollFrames
+ScrollContainerFrames
 with
 LTR
 directionality
@@ -1114,13 +1114,13 @@ and
 allows
 scrolling
 down
-and
 *
+and
 to
 the
 left
 for
-nsHTMLScrollFrames
+ScrollContainerFrames
 with
 RTL
 directionality

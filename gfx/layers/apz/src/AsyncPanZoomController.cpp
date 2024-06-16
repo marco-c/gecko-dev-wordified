@@ -46075,7 +46075,7 @@ it
 in
 /
 /
-nsGfxScrollFrame
+ScrollContainerFrame
 :
 :
 ScrollTo

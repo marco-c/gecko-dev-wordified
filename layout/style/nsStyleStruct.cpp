@@ -16239,7 +16239,7 @@ case
 /
 though
 since
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 CreateAnonymousContent

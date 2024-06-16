@@ -7205,7 +7205,7 @@ frame
 *
 (
 see
-nsHTMLScrollFrame
+ScrollContainerFrame
 :
 :
 ReloadChildFrames

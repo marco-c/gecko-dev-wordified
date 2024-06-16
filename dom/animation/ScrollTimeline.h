@@ -1817,7 +1817,7 @@ See
 *
 ElementAnimationData
 and
-nsGfxScrollFrame
+ScrollContainerFrame
 for
 the
 usage

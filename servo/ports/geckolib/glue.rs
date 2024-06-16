@@ -26224,10 +26224,10 @@ nsIAnonymousContentCreator
 CreateAnonymousContent
 implementations
 of
-nsHTMLScrollFrame
+ScrollContainerFrame
+/
+/
 and
-/
-/
 nsScrollbarFrame
 to
 clear

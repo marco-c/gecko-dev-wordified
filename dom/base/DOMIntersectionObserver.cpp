@@ -2313,7 +2313,7 @@ inherit
 from
 /
 /
-nsHTMLScrollFrame
+ScrollContainerFrame
 but
 have
 a
