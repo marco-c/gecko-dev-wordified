@@ -193,13 +193,6 @@ sys
 mjs
 "
 "
-logmanager
-.
-sys
-.
-mjs
-"
-"
 observers
 .
 sys

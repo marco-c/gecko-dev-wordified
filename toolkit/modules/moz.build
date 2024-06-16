@@ -1484,6 +1484,13 @@ sys
 mjs
 "
 "
+LogManager
+.
+sys
+.
+mjs
+"
+"
 NewTabUtils
 .
 sys
