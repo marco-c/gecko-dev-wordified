@@ -296,10 +296,6 @@ mTextureInfo
 (
 aTextureInfo
 )
-mCompositorBridgeID
-(
-0
-)
 {
 MOZ_COUNT_CTOR
 (
