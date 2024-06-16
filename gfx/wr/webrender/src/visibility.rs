@@ -1266,11 +1266,11 @@ device_pixel_scale
 ;
 let
 mut
-map_local_to_picture
+map_local_to_surface
 =
 surface
 .
-map_local_to_picture
+map_local_to_surface
 .
 clone
 (
@@ -1514,7 +1514,7 @@ IS_VISIBLE
 continue
 ;
 }
-map_local_to_picture
+map_local_to_surface
 .
 set_target_spatial_node
 (
@@ -1783,7 +1783,7 @@ set_active_clips
 cluster
 .
 spatial_node_index
-map_local_to_picture
+map_local_to_surface
 .
 ref_spatial_node_index
 prim_instance
@@ -1815,7 +1815,7 @@ build_clip_chain_instance
 (
 local_coverage_rect
 &
-map_local_to_picture
+map_local_to_surface
 &
 map_surface_to_world
 &
