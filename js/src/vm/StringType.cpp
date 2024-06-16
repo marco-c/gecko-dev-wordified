@@ -10679,6 +10679,13 @@ return
 false
 ;
 }
+linearString
+-
+>
+setDependedOn
+(
+)
+;
 MOZ_ASSERT
 (
 state_
@@ -10871,6 +10878,13 @@ return
 false
 ;
 }
+linearString
+-
+>
+setDependedOn
+(
+)
+;
 MOZ_ASSERT
 (
 state_
