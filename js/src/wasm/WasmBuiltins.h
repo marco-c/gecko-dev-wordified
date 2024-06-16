@@ -430,6 +430,7 @@ ArrayNewElem
 ArrayInitData
 ArrayInitElem
 ArrayCopy
+UpdateSuspenderState
 SlotsToAllocKindBytesTable
 #
 define
@@ -1286,6 +1287,11 @@ extern
 const
 SymbolicAddressSignature
 SASigArrayCopy
+;
+extern
+const
+SymbolicAddressSignature
+SASigUpdateSuspenderState
 ;
 #
 define

@@ -3042,6 +3042,12 @@ CallSiteDesc
 :
 ReturnStub
 :
+case
+CallSiteDesc
+:
+:
+StackSwitch
+:
 break
 ;
 case

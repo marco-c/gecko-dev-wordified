@@ -9354,6 +9354,14 @@ trap
 handler
 .
 Trap
+/
+/
+For
+stack
+switch
+call
+.
+StackSwitch
 }
 ;
 class
