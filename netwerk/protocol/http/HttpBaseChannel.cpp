@@ -23069,6 +23069,8 @@ HttpBaseChannel
 :
 SetConnectOnly
 (
+bool
+aTlsTunnel
 )
 {
 ENSURE_CALLED_BEFORE_CONNECT
@@ -23090,6 +23092,17 @@ mCaps
 =
 NS_HTTP_CONNECT_ONLY
 ;
+if
+(
+aTlsTunnel
+)
+{
+mCaps
+|
+=
+NS_HTTP_TLS_TUNNEL
+;
+}
 mProxyResolveFlags
 =
 nsIProtocolProxyService

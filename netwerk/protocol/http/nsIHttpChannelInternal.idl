@@ -1401,6 +1401,17 @@ and
 RESOLVE_ALWAYS_TUNNEL
 .
 *
+*
+param
+tlsTunnel
+*
+When
+true
+always
+setup
+TLS
+tunnel
+*
 /
 [
 must_use
@@ -1408,6 +1419,9 @@ must_use
 void
 setConnectOnly
 (
+in
+boolean
+tlsTunnel
 )
 ;
 /
