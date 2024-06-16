@@ -411,9 +411,14 @@ void
 OntFirstFrameLoaded
 (
 const
-TimeDuration
-&
+double
 aLoadedFirstFrameTime
+const
+double
+aLoadedMetadataTime
+const
+double
+aTotalWaitingDataTime
 const
 FirstFrameLoadedFlagSet
 aFlags
