@@ -999,15 +999,6 @@ wl_seat
 )
 )
 {
-/
-/
-Install
-keyboard
-handlers
-for
-main
-thread
-only
 auto
 *
 seat
@@ -1145,8 +1136,9 @@ nsWaylandDisplay
 nsWaylandDisplay
 (
 )
-{
-}
+=
+default
+;
 static
 void
 WlLogHandler
