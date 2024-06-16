@@ -1907,6 +1907,11 @@ aError
 )
 override
 ;
+void
+NotifyAudibleStateChangeIfNeeded
+(
+)
+;
 UniquePtr
 <
 ExternalPlaybackEngine
