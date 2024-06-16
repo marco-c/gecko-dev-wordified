@@ -370,11 +370,16 @@ link_capacity_kbps
 Random
 packet
 loss
+range
+0
+to
+100
 .
-int
+double
 loss_percent
 =
 0
+.
 ;
 /
 /

@@ -421,15 +421,9 @@ config_
 .
 loss_percent
 =
-std
-:
-:
-round
-(
 loss_rate
 *
 100
-)
 ;
 return
 *
