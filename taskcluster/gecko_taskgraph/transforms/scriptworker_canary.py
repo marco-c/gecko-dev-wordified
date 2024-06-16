@@ -219,9 +219,8 @@ scriptworker
 ]
 )
         
-for
-address
-in
+addresses
+=
 job
 .
 pop
@@ -230,6 +229,11 @@ pop
 addresses
 "
 )
+        
+for
+address
+in
+addresses
 :
             
 command
@@ -354,6 +358,43 @@ command
 )
 )
 }
+        
+)
+        
+job
+.
+setdefault
+(
+"
+routes
+"
+[
+]
+)
+.
+extend
+(
+            
+[
+f
+"
+notify
+.
+email
+.
+{
+address
+}
+.
+on
+-
+failed
+"
+for
+address
+in
+addresses
+]
         
 )
         
