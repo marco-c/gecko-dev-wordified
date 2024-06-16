@@ -136,7 +136,7 @@ able
 to
 change
 the
-output
+input
 rate
 and
 channels
@@ -617,7 +617,7 @@ aHasUnderrun
 *
 Updates
 the
-output
+input
 rate
 that
 will
@@ -630,15 +630,15 @@ resampler
 *
 /
 void
-UpdateOutRate
+UpdateInRate
 (
 uint32_t
-aOutRate
+aInRate
 )
 {
 Update
 (
-aOutRate
+aInRate
 mResampler
 .
 GetChannels
@@ -696,7 +696,7 @@ Update
 (
 mResampler
 .
-GetOutRate
+GetInRate
 (
 )
 aChannels
@@ -707,7 +707,7 @@ void
 Update
 (
 uint32_t
-aOutRate
+aInRate
 uint32_t
 aChannels
 )

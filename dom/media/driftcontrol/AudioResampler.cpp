@@ -507,9 +507,7 @@ outDuration
 aOutFrames
 mResampler
 .
-GetOutRate
-(
-)
+mOutRate
 )
 ;
 mResampler
@@ -533,9 +531,7 @@ ChunkCapacity
 )
 mResampler
 .
-GetOutRate
-(
-)
+mOutRate
 )
 ;
 while
@@ -598,9 +594,7 @@ ToTicksAtRate
 (
 mResampler
 .
-GetOutRate
-(
-)
+mOutRate
 )
 ;
 for
@@ -728,7 +722,7 @@ AudioResampler
 Update
 (
 uint32_t
-aOutRate
+aInRate
 uint32_t
 aChannels
 )
@@ -737,7 +731,7 @@ mResampler
 .
 UpdateResampler
 (
-aOutRate
+aInRate
 aChannels
 )
 ;

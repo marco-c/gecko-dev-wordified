@@ -775,12 +775,12 @@ correction
 mResampler
 -
 >
-UpdateOutRate
+UpdateInRate
 (
 mDriftController
 -
 >
-GetCorrectedTargetRate
+GetCorrectedSourceRate
 (
 )
 )
