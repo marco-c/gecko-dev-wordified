@@ -5030,6 +5030,8 @@ RenderPassInfo
 <
 '
 a
+'
+d
 A
 :
 HalApi
@@ -5042,6 +5044,8 @@ usage_scope
 :
 UsageScope
 <
+'
+d
 A
 >
 /
@@ -5118,6 +5122,8 @@ impl
 <
 '
 a
+'
+d
 A
 :
 HalApi
@@ -5126,6 +5132,8 @@ RenderPassInfo
 <
 '
 a
+'
+d
 A
 >
 {
@@ -5370,6 +5378,8 @@ start
 device
 :
 &
+'
+d
 Device
 <
 A
@@ -7942,15 +7952,10 @@ Self
 context
 usage_scope
 :
-UsageScope
-:
-:
-new
-(
-&
 device
 .
-tracker_indices
+new_usage_scope
+(
 )
 render_attachments
 is_depth_read_only
@@ -7990,6 +7995,8 @@ Result
 (
 UsageScope
 <
+'
+d
 A
 >
 SurfacesInDiscardState
@@ -14022,6 +14029,8 @@ bundle
 execute
 (
 raw
+&
+snatch_guard
 )
 }
 .
@@ -14317,6 +14326,8 @@ textures
 cmd_buf
 .
 device
+&
+snatch_guard
 )
 ;
 cmd_buf_data
