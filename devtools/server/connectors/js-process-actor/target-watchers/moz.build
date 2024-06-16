@@ -102,13 +102,6 @@ sys
 mjs
 "
 "
-shared_worker
-.
-sys
-.
-mjs
-"
-"
 window
 -
 global

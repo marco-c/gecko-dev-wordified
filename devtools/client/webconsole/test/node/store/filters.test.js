@@ -834,7 +834,6 @@ filters
 css
 messages
 "
-async
 (
 )
 =
@@ -898,7 +897,6 @@ toEqual
 numUnfilterableMessages
 )
 ;
-await
 store
 .
 dispatch
@@ -2060,7 +2058,6 @@ clears
 all
 filters
 "
-async
 (
 )
 =
@@ -2092,7 +2089,6 @@ ERROR
 )
 )
 ;
-await
 store
 .
 dispatch

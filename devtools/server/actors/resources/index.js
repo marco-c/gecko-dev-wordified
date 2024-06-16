@@ -2007,16 +2007,6 @@ SERVICE_WORKER
 return
 WorkerTargetResources
 ;
-case
-Targets
-.
-TYPES
-.
-SHARED_WORKER
-:
-return
-WorkerTargetResources
-;
 default
 :
 throw

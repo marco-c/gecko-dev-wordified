@@ -466,7 +466,6 @@ toolbox
 :
 {
 }
-webConsoleUI
 }
 telemetry
 :
