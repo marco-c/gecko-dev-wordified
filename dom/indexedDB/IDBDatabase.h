@@ -798,6 +798,10 @@ StringOrStringSequence
 aStoreNames
 IDBTransactionMode
 aMode
+const
+IDBTransactionOptions
+&
+aOptions
 ErrorResult
 &
 aRv
