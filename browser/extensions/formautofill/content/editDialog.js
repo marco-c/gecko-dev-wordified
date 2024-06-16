@@ -194,7 +194,7 @@ window
 addEventListener
 (
 "
-DOMContentLoaded
+load
 "
 this
 {
@@ -270,7 +270,7 @@ new
 CustomEvent
 (
 "
-FormReady
+FormReadyForTests
 "
 )
 )
@@ -420,7 +420,7 @@ type
 {
 case
 "
-DOMContentLoaded
+load
 "
 :
 {
