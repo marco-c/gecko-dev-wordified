@@ -758,12 +758,6 @@ path
 "
         
 "
-test
--
-tag
-"
-        
-"
 pernosco
 "
         
@@ -831,10 +825,6 @@ msg
 "
     
 test_paths
-=
-None
-    
-test_tag
 =
 None
     
@@ -1146,8 +1136,6 @@ return
     
 if
 test_paths
-or
-test_tag
 :
         
 all_tasks
@@ -1156,9 +1144,6 @@ filter_tasks_by_paths
 (
 all_tasks
 test_paths
-tag
-=
-test_tag
 )
         
 if
