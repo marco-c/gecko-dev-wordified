@@ -283,7 +283,9 @@ newWin
 ;
 newWin
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;
@@ -548,7 +550,9 @@ newWin
 ;
 newWin
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;
@@ -583,7 +587,9 @@ popupWin
 ;
 popupWin
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;

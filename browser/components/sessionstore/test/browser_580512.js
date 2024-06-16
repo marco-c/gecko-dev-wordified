@@ -250,7 +250,9 @@ We
 need
 to
 call
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 in
 order
 to
@@ -277,7 +279,9 @@ window
 .
 win
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;

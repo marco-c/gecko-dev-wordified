@@ -266,7 +266,9 @@ browser
 window
 with
 *
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 as
@@ -1362,7 +1364,9 @@ close
 a
 window
 via
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 so
 that
 *
@@ -1454,7 +1458,9 @@ win
 ;
 win
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;

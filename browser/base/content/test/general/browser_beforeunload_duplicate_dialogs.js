@@ -418,7 +418,9 @@ true
 ;
 newWin
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;

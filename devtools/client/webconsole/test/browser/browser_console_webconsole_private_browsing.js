@@ -862,7 +862,9 @@ cleared
 ;
 privateWindow
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;

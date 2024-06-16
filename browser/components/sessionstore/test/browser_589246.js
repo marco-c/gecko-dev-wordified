@@ -1393,7 +1393,9 @@ newTab2
 }
 newWin
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;
@@ -1413,7 +1415,9 @@ else
 {
 newWin
 .
-BrowserTryToCloseWindow
+BrowserCommands
+.
+tryToCloseWindow
 (
 )
 ;
