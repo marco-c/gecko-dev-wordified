@@ -16135,9 +16135,12 @@ time
 to
 pass
                 
-self
-.
+kwargs
+[
+"
 harness_timeout
+"
+]
 =
 self
 .
@@ -16203,15 +16206,16 @@ kwargs
                 
 )
                 
-self
-.
+kwargs
+[
+"
 harness_timeout
+"
+]
 =
 self
 .
 harness_timeout
-/
-2
                 
 return
 status
