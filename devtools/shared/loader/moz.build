@@ -180,6 +180,8 @@ worker
 -
 loader
 .
-js
+sys
+.
+mjs
 "
 )

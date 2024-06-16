@@ -196,7 +196,7 @@ worker
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -213,7 +213,9 @@ worker
 -
 loader
 .
-js
+sys
+.
+mjs
 "
 )
 ;
