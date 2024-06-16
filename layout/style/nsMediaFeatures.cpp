@@ -2439,9 +2439,6 @@ GetScreenIsHDR
 )
 )
 {
-/
-/
-bjw
 return
 StyleDynamicRange
 :
