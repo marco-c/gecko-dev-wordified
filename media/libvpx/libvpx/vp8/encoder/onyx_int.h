@@ -2592,7 +2592,7 @@ totalp
 double
 total_sq_error2
 ;
-int
+uint64_t
 bytes
 ;
 double

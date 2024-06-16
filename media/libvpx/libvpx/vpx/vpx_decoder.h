@@ -1163,7 +1163,7 @@ to
 update
 .
 The
-size
+sz
 member
 *
 \
@@ -1283,7 +1283,7 @@ to
 update
 .
 The
-size
+sz
 member
 *
 \

@@ -135,15 +135,6 @@ vpx_integer
 h
 "
 #
-include
-"
-vpx_ports
-/
-msvc
-.
-h
-"
-#
 if
 CONFIG_ENCODERS
 #

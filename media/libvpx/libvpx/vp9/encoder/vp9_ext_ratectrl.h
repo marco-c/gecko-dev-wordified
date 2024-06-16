@@ -142,6 +142,10 @@ ratectrl_config
 vpx_rc_firstpass_stats_t
 rc_firstpass_stats
 ;
+FILE
+*
+log_file
+;
 }
 EXT_RATECTRL
 ;

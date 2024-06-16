@@ -88,6 +88,11 @@ tree
 #
 include
 <
+cstdio
+>
+#
+include
+<
 tuple
 >
 #
@@ -187,15 +192,6 @@ vp9
 common
 /
 vp9_blockd
-.
-h
-"
-#
-include
-"
-vpx_ports
-/
-msvc
 .
 h
 "

@@ -92,6 +92,11 @@ climits
 >
 #
 include
+<
+cstdint
+>
+#
+include
 "
 vpx
 /

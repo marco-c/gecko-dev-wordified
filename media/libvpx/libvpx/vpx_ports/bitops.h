@@ -99,15 +99,6 @@ assert
 h
 >
 #
-include
-"
-vpx_ports
-/
-msvc
-.
-h
-"
-#
 ifdef
 _MSC_VER
 #
