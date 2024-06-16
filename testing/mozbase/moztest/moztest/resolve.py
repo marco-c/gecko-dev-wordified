@@ -97,12 +97,6 @@ import
 REFTEST_FLAVORS
 TEST_MANIFESTS
 from
-mozbuild
-.
-util
-import
-OrderedDefaultDict
-from
 mozpack
 .
 files
@@ -5708,7 +5702,7 @@ self
 .
 _tests_by_path
 =
-OrderedDefaultDict
+defaultdict
 (
 list
 )

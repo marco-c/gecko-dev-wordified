@@ -54,6 +54,10 @@ MPL
 /
 .
 from
+collections
+import
+defaultdict
+from
 operator
 import
 itemgetter
@@ -127,12 +131,6 @@ mozbuild
 makeutil
 import
 Makefile
-from
-mozbuild
-.
-util
-import
-OrderedDefaultDict
 class
 FasterMakeBackend
 (
@@ -162,7 +160,7 @@ self
 .
 _manifest_entries
 =
-OrderedDefaultDict
+defaultdict
 (
 set
 )
@@ -171,7 +169,7 @@ self
 .
 _install_manifests
 =
-OrderedDefaultDict
+defaultdict
 (
 InstallManifest
 )
@@ -180,7 +178,7 @@ self
 .
 _dependencies
 =
-OrderedDefaultDict
+defaultdict
 (
 list
 )
@@ -189,7 +187,7 @@ self
 .
 _l10n_dependencies
 =
-OrderedDefaultDict
+defaultdict
 (
 list
 )
