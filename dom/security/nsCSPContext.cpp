@@ -8426,11 +8426,11 @@ aReportOnlyFlag
 const
 nsAString
 &
-aViolatedDirective
+aViolatedDirectiveName
 const
 nsAString
 &
-aViolatedDirectiveString
+aViolatedDirectiveNameAndValue
 const
 CSPDirective
 aEffectiveDirective
@@ -8498,13 +8498,13 @@ mReportSample
 (
 aReportSample
 )
-mViolatedDirective
+mViolatedDirectiveName
 (
-aViolatedDirective
+aViolatedDirectiveName
 )
-mViolatedDirectiveString
+mViolatedDirectiveNameAndValue
 (
-aViolatedDirectiveString
+aViolatedDirectiveNameAndValue
 )
 mEffectiveDirective
 (
@@ -8534,7 +8534,7 @@ aCSPContext
 NS_ASSERTION
 (
 !
-aViolatedDirective
+aViolatedDirectiveName
 .
 IsEmpty
 (
@@ -8880,7 +8880,7 @@ NotifyObservers
 (
 mObserverSubject
 CSP_VIOLATION_TOPIC
-mViolatedDirective
+mViolatedDirectiveName
 .
 get
 (
@@ -8969,7 +8969,7 @@ ancestor
 if
 (
 !
-mViolatedDirective
+mViolatedDirectiveName
 .
 EqualsLiteral
 (
@@ -9127,7 +9127,7 @@ nsString
 params
 =
 {
-mViolatedDirectiveString
+mViolatedDirectiveNameAndValue
 effectiveDirective
 }
 ;
@@ -9169,7 +9169,7 @@ nsString
 params
 =
 {
-mViolatedDirectiveString
+mViolatedDirectiveNameAndValue
 effectiveDirective
 }
 ;
@@ -9219,7 +9219,7 @@ nsString
 params
 =
 {
-mViolatedDirectiveString
+mViolatedDirectiveNameAndValue
 effectiveDirective
 }
 ;
@@ -9466,7 +9466,7 @@ nsString
 params
 =
 {
-mViolatedDirectiveString
+mViolatedDirectiveNameAndValue
 source
 effectiveDirective
 }
@@ -9531,10 +9531,10 @@ bool
 mReportSample
 ;
 nsString
-mViolatedDirective
+mViolatedDirectiveName
 ;
 nsString
-mViolatedDirectiveString
+mViolatedDirectiveNameAndValue
 ;
 CSPDirective
 mEffectiveDirective
