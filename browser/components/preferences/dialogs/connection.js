@@ -367,7 +367,7 @@ network
 .
 proxy
 .
-socks_remote_dns
+socks5_remote_dns
 "
 type
 :
@@ -1503,7 +1503,7 @@ network
 .
 proxy
 .
-socks_remote_dns
+socks5_remote_dns
 "
 )
 ;

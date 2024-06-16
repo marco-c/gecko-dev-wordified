@@ -263,7 +263,7 @@ network
 .
 proxy
 .
-socks_remote_dns
+socks5_remote_dns
 "
 false
 )
@@ -308,7 +308,7 @@ network
 .
 proxy
 .
-socks_remote_dns
+socks5_remote_dns
 "
 true
 )

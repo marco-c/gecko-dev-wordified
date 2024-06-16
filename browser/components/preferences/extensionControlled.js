@@ -331,6 +331,13 @@ network
 .
 proxy
 .
+socks5_remote_dns
+"
+"
+network
+.
+proxy
+.
 no_proxies_on
 "
 "
