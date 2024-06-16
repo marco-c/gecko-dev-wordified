@@ -191,6 +191,16 @@ clz32
 )
 ;
 }
+'
+new
+Math
+.
+clz32
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

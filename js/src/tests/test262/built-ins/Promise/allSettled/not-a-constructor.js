@@ -194,6 +194,16 @@ allSettled
 )
 ;
 }
+'
+new
+Promise
+.
+allSettled
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

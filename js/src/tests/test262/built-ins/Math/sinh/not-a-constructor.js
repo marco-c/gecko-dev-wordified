@@ -191,6 +191,16 @@ sinh
 )
 ;
 }
+'
+new
+Math
+.
+sinh
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

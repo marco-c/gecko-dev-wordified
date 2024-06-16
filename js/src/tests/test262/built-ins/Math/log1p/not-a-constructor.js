@@ -191,6 +191,16 @@ log1p
 )
 ;
 }
+'
+new
+Math
+.
+log1p
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

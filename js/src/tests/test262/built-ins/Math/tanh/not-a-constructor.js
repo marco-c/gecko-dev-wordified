@@ -191,6 +191,16 @@ tanh
 )
 ;
 }
+'
+new
+Math
+.
+tanh
+(
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

@@ -429,6 +429,16 @@ typedArray
 1n
 ;
 }
+'
+typedArray
+[
+0
+]
+=
+1n
+throws
+TypeError
+'
 )
 ;
 }

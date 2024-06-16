@@ -325,6 +325,16 @@ sample
 ]
 ;
 }
+'
+delete
+sample
+[
+-
+0
+]
+throws
+TypeError
+'
 )
 ;
 }

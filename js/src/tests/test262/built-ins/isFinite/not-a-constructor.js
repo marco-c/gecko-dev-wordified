@@ -184,6 +184,15 @@ isFinite
 )
 ;
 }
+'
+new
+isFinite
+(
+1
+)
+throws
+TypeError
+'
 )
 ;
 reportCompare

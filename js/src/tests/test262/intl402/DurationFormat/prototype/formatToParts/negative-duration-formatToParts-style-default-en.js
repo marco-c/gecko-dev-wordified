@@ -74,6 +74,8 @@ locale
 :
 [
 en
+-
+US
 ]
 includes
 :
