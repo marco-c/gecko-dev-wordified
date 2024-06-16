@@ -6384,8 +6384,9 @@ settings_
 encoder_factory
 -
 >
-CreateVideoEncoder
+Create
 (
+env_
 encoder_config_
 .
 video_format
