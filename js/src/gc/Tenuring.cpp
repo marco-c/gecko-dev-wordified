@@ -8515,6 +8515,15 @@ str
 isDependent
 (
 )
+&
+&
+!
+str
+-
+>
+isAtomRef
+(
+)
 )
 {
 if

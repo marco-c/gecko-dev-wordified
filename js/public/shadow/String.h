@@ -269,7 +269,7 @@ js
 :
 Bit
 (
-9
+10
 )
 ;
 static
@@ -297,7 +297,7 @@ js
 :
 BitMask
 (
-9
+10
 )
 -
 js
