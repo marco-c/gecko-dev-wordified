@@ -3065,7 +3065,7 @@ KEY_Enter
 /
 Verify
 that
-onEngagement
+onLegacyEngagement
 was
 still
 called
@@ -4819,7 +4819,7 @@ searchString
 }
 ;
 }
-onEngagement
+onLegacyEngagement
 (
 state
 queryContext

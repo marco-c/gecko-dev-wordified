@@ -2460,12 +2460,12 @@ Spy
 on
 UrlbarProviderQuickSuggest
 .
-onEngagement
+onLegacyEngagement
 (
 )
 .
 let
-onEngagementSpy
+onLegacyEngagementSpy
 =
 sandbox
 .
@@ -2473,7 +2473,7 @@ spy
 (
 UrlbarProviderQuickSuggest
 "
-onEngagement
+onLegacyEngagement
 "
 )
 ;
@@ -3059,7 +3059,7 @@ loadPromise
 let
 engagementCalls
 =
-onEngagementSpy
+onLegacyEngagementSpy
 .
 getCalls
 (

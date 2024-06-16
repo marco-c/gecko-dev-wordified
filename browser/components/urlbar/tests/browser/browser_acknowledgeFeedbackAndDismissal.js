@@ -2234,7 +2234,7 @@ interested
 ]
 ;
 }
-onEngagement
+onLegacyEngagement
 (
 state
 queryContext
@@ -2266,7 +2266,7 @@ details
 ;
 info
 (
-onEngagement
+onLegacyEngagement
 called
 selType
 =

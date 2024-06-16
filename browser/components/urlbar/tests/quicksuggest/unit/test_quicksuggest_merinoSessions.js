@@ -957,7 +957,7 @@ engagement
 {
 UrlbarProviderQuickSuggest
 .
-onEngagement
+onLegacyEngagement
 (
 state
 context

@@ -34,7 +34,7 @@ Tests
 the
 UrlbarProvider
 .
-onEngagement
+onLegacyEngagement
 (
 )
 method
@@ -966,7 +966,7 @@ that
 resolves
 promises
 when
-onEngagement
+onLegacyEngagement
 is
 called
 .
@@ -1030,7 +1030,7 @@ com
 )
 ;
 }
-onEngagement
+onLegacyEngagement
 (
 .
 .

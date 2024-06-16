@@ -2006,11 +2006,11 @@ javadoc
 for
 UrlbarProviderTabToSearch
 .
-onEngagement
+onLegacyEngagement
 for
+/
+/
 discussion
-/
-/
 about
 retained
 results
