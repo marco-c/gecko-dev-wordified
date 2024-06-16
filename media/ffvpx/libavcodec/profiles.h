@@ -162,14 +162,7 @@ AVCODEC_PROFILES_H
 #
 include
 "
-codec
-.
-h
-"
-#
-include
-"
-defs
+avcodec
 .
 h
 "
@@ -214,9 +207,6 @@ type
 #
 #
 _PARAM
-.
-unit
-=
 "
 avctx
 .

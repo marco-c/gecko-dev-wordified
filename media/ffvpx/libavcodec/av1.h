@@ -304,10 +304,6 @@ section
 .
 enum
 {
-AV1_REF_FRAME_NONE
-=
--
-1
 AV1_REF_FRAME_INTRA
 =
 0

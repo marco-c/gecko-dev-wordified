@@ -169,6 +169,13 @@ h
 #
 include
 "
+config
+.
+h
+"
+#
+include
+"
 avcodec
 .
 h
@@ -185,7 +192,7 @@ get_pixels
 (
 int16_t
 *
-restrict
+av_restrict
 block
 /
 *
@@ -215,7 +222,7 @@ get_pixels_unaligned
 (
 int16_t
 *
-restrict
+av_restrict
 block
 /
 *
@@ -239,7 +246,7 @@ diff_pixels
 (
 int16_t
 *
-restrict
+av_restrict
 block
 /
 *
@@ -279,7 +286,7 @@ diff_pixels_unaligned
 (
 int16_t
 *
-restrict
+av_restrict
 block
 /
 *
