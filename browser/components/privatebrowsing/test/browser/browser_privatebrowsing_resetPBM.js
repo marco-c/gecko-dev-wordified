@@ -4104,7 +4104,7 @@ window
 )
 ;
 await
-SidebarController
+SidebarUI
 .
 show
 (
@@ -4116,7 +4116,7 @@ viewBookmarksSidebar
 await
 win
 .
-SidebarController
+SidebarUI
 .
 show
 (
@@ -4148,7 +4148,7 @@ Assert
 .
 ok
 (
-SidebarController
+SidebarUI
 .
 isOpen
 "
@@ -4171,7 +4171,7 @@ ok
 !
 win
 .
-SidebarController
+SidebarUI
 .
 isOpen
 "
@@ -4198,7 +4198,7 @@ normal
 browsing
 window
 .
-SidebarController
+SidebarUI
 .
 hide
 (

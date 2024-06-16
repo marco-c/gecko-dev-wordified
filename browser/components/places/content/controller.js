@@ -9122,7 +9122,7 @@ panel
 .
 window
 .
-SidebarController
+SidebarUI
 .
 _show
 (

@@ -106,7 +106,7 @@ bookmarks
 let
 sidebarWasAlreadyOpen
 =
-SidebarController
+SidebarUI
 .
 isOpen
 ;
@@ -537,7 +537,7 @@ if
 sidebarWasAlreadyOpen
 )
 {
-SidebarController
+SidebarUI
 .
 hide
 (

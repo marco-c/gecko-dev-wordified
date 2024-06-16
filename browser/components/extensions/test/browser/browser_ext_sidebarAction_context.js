@@ -828,7 +828,7 @@ initial
 sidebar
 load
 .
-SidebarController
+SidebarUI
 .
 browser
 .

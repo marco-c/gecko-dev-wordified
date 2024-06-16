@@ -93,7 +93,7 @@ button
 "
 )
 ;
-SidebarController
+SidebarUI
 .
 hide
 (

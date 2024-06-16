@@ -361,7 +361,7 @@ sidebar
 ;
 /
 /
-SidebarController
+SidebarUI
 relies
 on
 window

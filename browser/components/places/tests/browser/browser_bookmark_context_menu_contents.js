@@ -1986,7 +1986,7 @@ guid
 let
 contextMenu
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -2032,7 +2032,7 @@ contextMenu
 ;
 }
 optionItems
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -2201,7 +2201,7 @@ guid
 let
 contextMenu
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -2247,7 +2247,7 @@ contextMenu
 ;
 }
 optionItems
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -2383,7 +2383,7 @@ guid
 let
 contextMenu
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -2429,7 +2429,7 @@ contextMenu
 ;
 }
 optionItems
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -2559,7 +2559,7 @@ first
 let
 searchBox
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -2600,7 +2600,7 @@ guid
 let
 contextMenu
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -2646,7 +2646,7 @@ contextMenu
 ;
 }
 optionItems
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -3160,7 +3160,7 @@ guid
 let
 contextMenu
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -3206,7 +3206,7 @@ contextMenu
 ;
 }
 optionItems
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -3339,7 +3339,7 @@ guid
 let
 contextMenu
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -3385,7 +3385,7 @@ contextMenu
 ;
 }
 optionItems
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -3510,7 +3510,7 @@ selectAll
 let
 contextMenu
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -3556,7 +3556,7 @@ contextMenu
 ;
 }
 optionItems
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -3674,7 +3674,7 @@ guid
 let
 contextMenu
 =
-SidebarController
+SidebarUI
 .
 browser
 .
@@ -3720,7 +3720,7 @@ contextMenu
 ;
 }
 optionItems
-SidebarController
+SidebarUI
 .
 browser
 .
