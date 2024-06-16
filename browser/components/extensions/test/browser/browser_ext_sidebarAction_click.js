@@ -342,7 +342,7 @@ true
 let
 content
 =
-SidebarUI
+SidebarController
 .
 browser
 .

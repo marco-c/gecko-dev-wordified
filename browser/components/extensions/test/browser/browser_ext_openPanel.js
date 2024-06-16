@@ -891,7 +891,7 @@ waitForCondition
 =
 >
 !
-SidebarUI
+SidebarController
 .
 isOpen
 )
@@ -914,7 +914,7 @@ waitForCondition
 )
 =
 >
-SidebarUI
+SidebarController
 .
 isOpen
 )
@@ -945,7 +945,7 @@ waitForCondition
 =
 >
 !
-SidebarUI
+SidebarController
 .
 isOpen
 )

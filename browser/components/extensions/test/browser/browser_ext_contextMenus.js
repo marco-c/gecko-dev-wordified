@@ -4374,7 +4374,7 @@ sidebar
 =
 window
 .
-SidebarUI
+SidebarController
 .
 browser
 ;

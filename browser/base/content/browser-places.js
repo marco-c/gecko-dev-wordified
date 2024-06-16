@@ -8229,7 +8229,7 @@ updateLabel
 "
 BMB_viewBookmarksSidebar
 "
-SidebarUI
+SidebarController
 .
 currentID
 =

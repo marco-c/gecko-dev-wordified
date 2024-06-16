@@ -5,7 +5,7 @@ registerCleanupFunction
 =
 >
 {
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -64,7 +64,7 @@ resolve
 =
 >
 {
-SidebarUI
+SidebarController
 .
 _switcherPanel
 .
@@ -90,7 +90,7 @@ true
 }
 )
 ;
-SidebarUI
+SidebarController
 .
 showSwitcherPanel
 (
@@ -143,7 +143,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-SidebarUI
+SidebarController
 .
 _switcherPanel
 "
@@ -438,7 +438,7 @@ Assert
 .
 ok
 (
-SidebarUI
+SidebarController
 .
 isOpen
 "
@@ -629,7 +629,7 @@ Assert
 .
 equal
 (
-SidebarUI
+SidebarController
 .
 _switcherPanel
 .
@@ -682,7 +682,7 @@ Assert
 .
 equal
 (
-SidebarUI
+SidebarController
 .
 _switcherPanel
 .
@@ -731,7 +731,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-SidebarUI
+SidebarController
 .
 _switcherPanel
 "
@@ -944,7 +944,7 @@ Assert
 .
 equal
 (
-SidebarUI
+SidebarController
 .
 _switcherPanel
 .
@@ -973,7 +973,7 @@ Assert
 .
 equal
 (
-SidebarUI
+SidebarController
 .
 _box
 .
@@ -1010,7 +1010,7 @@ Assert
 .
 equal
 (
-SidebarUI
+SidebarController
 .
 currentID
 view
@@ -1101,7 +1101,7 @@ correctly
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -1291,7 +1291,7 @@ control
 )
 ;
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -1402,7 +1402,7 @@ dismissed
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -1432,7 +1432,7 @@ it
 .
 if
 (
-SidebarUI
+SidebarController
 .
 isOpen
 )
@@ -1457,7 +1457,7 @@ correctly
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -1465,7 +1465,7 @@ hide
 ;
 }
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -1495,7 +1495,7 @@ Tabs
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -1560,7 +1560,7 @@ correctly
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -1583,7 +1583,7 @@ box
 )
 ;
 await
-SidebarUI
+SidebarController
 .
 show
 (

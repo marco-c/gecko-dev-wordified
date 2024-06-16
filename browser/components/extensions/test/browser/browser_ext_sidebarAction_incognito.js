@@ -693,7 +693,7 @@ action
 ;
 ok
 (
-SidebarUI
+SidebarController
 .
 sidebars
 .
@@ -727,7 +727,7 @@ winData
 .
 win
 .
-SidebarUI
+SidebarController
 .
 sidebars
 .

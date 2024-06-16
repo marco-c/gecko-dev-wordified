@@ -1036,7 +1036,7 @@ finish
 (
 )
 {
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -1899,7 +1899,7 @@ finish
 (
 )
 {
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -2620,7 +2620,7 @@ finish
 (
 )
 {
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -2956,7 +2956,7 @@ true
 }
 )
 ;
-SidebarUI
+SidebarController
 .
 show
 (

@@ -70,7 +70,7 @@ registerCleanupFunction
 =
 >
 {
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -112,7 +112,7 @@ sidebarName
 )
 ;
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -266,7 +266,7 @@ sidebar
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 hide
 (

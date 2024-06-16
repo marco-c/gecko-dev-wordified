@@ -219,7 +219,7 @@ registerCleanupFunction
 =
 >
 {
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -639,7 +639,7 @@ true
 }
 )
 ;
-SidebarUI
+SidebarController
 .
 show
 (

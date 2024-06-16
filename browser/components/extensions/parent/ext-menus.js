@@ -6672,7 +6672,7 @@ onSidebarShown
 await
 window
 .
-SidebarUI
+SidebarController
 .
 promiseInitialized
 ;
@@ -6686,7 +6686,7 @@ closed
 &
 window
 .
-SidebarUI
+SidebarController
 .
 currentID
 =
@@ -6782,7 +6782,7 @@ if
 (
 window
 .
-SidebarUI
+SidebarController
 .
 currentID
 =
@@ -6798,7 +6798,7 @@ sidebarBrowser
 =
 window
 .
-SidebarUI
+SidebarController
 .
 browser
 ;
@@ -6888,7 +6888,7 @@ if
 (
 window
 .
-SidebarUI
+SidebarController
 .
 currentID
 =
@@ -6904,7 +6904,7 @@ sidebarBrowser
 =
 window
 .
-SidebarUI
+SidebarController
 .
 browser
 ;
@@ -6925,7 +6925,7 @@ complete
 {
 /
 /
-SidebarUI
+SidebarController
 .
 currentID
 may

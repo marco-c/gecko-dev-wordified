@@ -101,7 +101,7 @@ documentElement
 const
 content
 =
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -1098,7 +1098,7 @@ command
 )
 ;
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -1396,7 +1396,7 @@ properly
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 reversePosition
 (
@@ -1424,7 +1424,7 @@ sides
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 reversePosition
 (

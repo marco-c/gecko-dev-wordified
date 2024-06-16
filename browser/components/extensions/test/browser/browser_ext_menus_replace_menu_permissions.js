@@ -1249,7 +1249,7 @@ SpecialPowers
 .
 spawn
 (
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -1358,7 +1358,7 @@ type
 contextmenu
 "
 }
-SidebarUI
+SidebarController
 .
 browser
 .

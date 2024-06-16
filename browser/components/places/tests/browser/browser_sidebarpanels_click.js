@@ -243,7 +243,7 @@ correctly
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -879,7 +879,7 @@ function
 (
 )
 {
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -916,7 +916,7 @@ true
 }
 )
 ;
-SidebarUI
+SidebarController
 .
 show
 (
