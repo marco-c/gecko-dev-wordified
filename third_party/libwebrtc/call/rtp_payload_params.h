@@ -278,7 +278,13 @@ const
 CodecSpecificInfo
 *
 codec_specific_info
+absl
+:
+:
+optional
+<
 int64_t
+>
 shared_frame_id
 )
 ;
@@ -377,7 +383,7 @@ CodecSpecificInfoVP8
 &
 vp8_info
 int64_t
-shared_frame_id
+frame_id
 bool
 is_keyframe
 RTPVideoHeader
@@ -393,7 +399,7 @@ CodecSpecificInfoVP9
 &
 vp9_info
 int64_t
-shared_frame_id
+frame_id
 RTPVideoHeader
 &
 rtp_video_header
@@ -407,7 +413,7 @@ CodecSpecificInfoH264
 &
 h264_info
 int64_t
-shared_frame_id
+frame_id
 bool
 is_keyframe
 RTPVideoHeader
@@ -419,7 +425,7 @@ void
 GenericToGeneric
 (
 int64_t
-shared_frame_id
+frame_id
 bool
 is_keyframe
 RTPVideoHeader
@@ -476,7 +482,7 @@ CodecSpecificInfoVP8
 &
 vp8_info
 int64_t
-shared_frame_id
+frame_id
 bool
 is_keyframe
 int
@@ -501,7 +507,7 @@ CodecSpecificInfoVP8
 &
 vp8_info
 int64_t
-shared_frame_id
+frame_id
 bool
 is_keyframe
 bool
@@ -580,7 +586,7 @@ RtpGenericFrameDescriptor
 :
 kMaxSpatialLayers
 >
-last_shared_frame_id_
+last_frame_id_
 ;
 /
 /

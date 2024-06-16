@@ -1306,6 +1306,10 @@ shared_frame_id_
 =
 0
 ;
+const
+bool
+independent_frame_ids_
+;
 std
 :
 :
