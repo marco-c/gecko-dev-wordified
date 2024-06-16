@@ -276,6 +276,11 @@ webrtc
 FieldTrialsView
 &
 trials
+webrtc
+:
+:
+VideoCodecType
+codec
 )
 ;
 /
@@ -325,6 +330,11 @@ webrtc
 FieldTrialsView
 &
 trials
+webrtc
+:
+:
+VideoCodecType
+codec
 )
 ;
 /

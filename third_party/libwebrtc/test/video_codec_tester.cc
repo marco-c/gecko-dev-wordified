@@ -8857,6 +8857,10 @@ temporal_layers_supported
 /
 true
 field_trials
+webrtc
+:
+:
+kVideoCodecVP8
 )
 ;
 vc
