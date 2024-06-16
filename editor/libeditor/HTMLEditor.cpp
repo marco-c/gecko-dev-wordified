@@ -7950,6 +7950,18 @@ TextPtr
 text
 )
 {
+/
+/
+This
+means
+that
+collapse
+selection
+at
+the
+found
+character
+.
 nsresult
 rv
 =
@@ -7957,7 +7969,7 @@ CollapseSelectionTo
 (
 scanResultInTextNode
 .
-Point
+Point_Deprecated
 <
 EditorRawDOMPoint
 >
