@@ -23910,6 +23910,19 @@ s
 )
 )
 {
+if
+(
+&
+s
+.
+toObject
+(
+)
+!
+=
+ctorObj
+)
+{
 ReportUsageCounter
 (
 cx
@@ -23918,6 +23931,7 @@ SUBCLASSING_DETERMINE_THROUGH_CONSTRUCTOR
 SUBCLASSING_TYPE_III
 )
 ;
+}
 return
 &
 s
