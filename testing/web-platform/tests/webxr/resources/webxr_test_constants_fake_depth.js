@@ -515,6 +515,11 @@ alpha
 '
 float32
 '
+'
+unsigned
+-
+short
+'
 ]
 ;
 const
@@ -557,6 +562,11 @@ alpha
 '
 float32
 '
+'
+unsigned
+-
+short
+'
 ]
 }
 ;
@@ -583,6 +593,11 @@ alpha
 '
 '
 float32
+'
+'
+unsigned
+-
+short
 '
 ]
 }
