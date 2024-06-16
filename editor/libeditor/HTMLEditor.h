@@ -30193,7 +30193,7 @@ ManualNACPtr
 mAddRowAfterButton
 ;
 void
-AddMouseClickListener
+AddPointerClickListener
 (
 Element
 *
@@ -30201,7 +30201,7 @@ aElement
 )
 ;
 void
-RemoveMouseClickListener
+RemovePointerClickListener
 (
 Element
 *

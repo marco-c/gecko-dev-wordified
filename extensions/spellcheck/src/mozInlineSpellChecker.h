@@ -2038,7 +2038,7 @@ aEvent
 )
 ;
 void
-OnMouseClick
+OnPointerClick
 (
 mozilla
 :
@@ -2048,7 +2048,7 @@ dom
 :
 Event
 &
-aMouseEvent
+aPointerEvent
 )
 ;
 void

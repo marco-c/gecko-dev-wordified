@@ -2410,11 +2410,11 @@ nsresult
 HTMLEditorEventListener
 :
 :
-MouseClick
+PointerClick
 (
 WidgetMouseEvent
 *
-aMouseClickEvent
+aPointerClickEvent
 )
 {
 if
@@ -2442,7 +2442,7 @@ Element
 :
 FromEventTargetOrNull
 (
-aMouseClickEvent
+aPointerClickEvent
 -
 >
 GetOriginalDOMEventTarget
@@ -2545,9 +2545,9 @@ rv
 EditorEventListener
 :
 :
-MouseClick
+PointerClick
 (
-aMouseClickEvent
+aPointerClickEvent
 )
 ;
 NS_WARNING_ASSERTION
@@ -2560,7 +2560,7 @@ rv
 EditorEventListener
 :
 :
-MouseClick
+PointerClick
 (
 )
 failed
