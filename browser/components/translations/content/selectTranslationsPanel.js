@@ -3613,11 +3613,10 @@ state
 *
 returns
 {
-SelectTranslationsPanelState
+string
 }
 *
 /
-#
 phase
 (
 )
@@ -3658,7 +3657,6 @@ isOpen
 return
 this
 .
-#
 phase
 (
 )
@@ -3697,7 +3695,6 @@ isClosed
 return
 this
 .
-#
 phase
 (
 )
@@ -3904,7 +3901,6 @@ previousPhase
 =
 this
 .
-#
 phase
 (
 )
@@ -4064,7 +4060,6 @@ previousPhase
 =
 this
 .
-#
 phase
 (
 )
@@ -4154,6 +4149,26 @@ updatePanelUIFromState
 (
 )
 ;
+document
+.
+dispatchEvent
+(
+new
+CustomEvent
+(
+"
+SelectTranslationsPanelStateChanged
+"
+{
+detail
+:
+{
+phase
+}
+}
+)
+)
+;
 }
 /
 *
@@ -4240,7 +4255,6 @@ phase
 =
 this
 .
-#
 phase
 (
 )
@@ -4336,7 +4350,6 @@ phase
 =
 this
 .
-#
 phase
 (
 )
@@ -5083,7 +5096,6 @@ isTranslating
 =
 this
 .
-#
 phase
 (
 )
@@ -5145,7 +5157,6 @@ switch
 (
 this
 .
-#
 phase
 (
 )
