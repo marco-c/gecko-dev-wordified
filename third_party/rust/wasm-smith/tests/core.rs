@@ -234,6 +234,10 @@ ensure_termination
 (
 10
 )
+.
+unwrap
+(
+)
 ;
 let
 wasm_bytes
@@ -991,6 +995,9 @@ config
 Config
 {
 gc_enabled
+:
+true
+reference_types_enabled
 :
 true
 .

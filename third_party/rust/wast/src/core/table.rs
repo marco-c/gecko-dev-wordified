@@ -2006,6 +2006,14 @@ func
 into
 (
 )
+branch_hints
+:
+Vec
+:
+:
+new
+(
+)
 }
 ;
 exprs
