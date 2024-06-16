@@ -364,7 +364,7 @@ CAIRO_HAS_FT_FONT
 *
 Fontconfig
 /
-Freetype
+FreeType
 platform
 -
 specific
@@ -406,12 +406,6 @@ FT_Face
 face
 int
 load_flags
-unsigned
-int
-synth_flags
-void
-*
-face_context
 )
 ;
 /

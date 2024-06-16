@@ -1391,9 +1391,9 @@ _cairo_paginated_surface_set_size
 cairo_surface_t
 *
 surface
-int
+double
 width
-int
+double
 height
 )
 ;

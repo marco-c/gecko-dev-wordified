@@ -367,9 +367,12 @@ readonly
 uint32_t
 segment
 =
-_cairo_xcb_connection_get_xid
+xcb_generate_id
 (
 connection
+-
+>
+xcb_connection
 )
 ;
 assert
@@ -590,12 +593,6 @@ connection
 -
 >
 xcb_connection
-segment
-)
-;
-_cairo_xcb_connection_put_xid
-(
-connection
 segment
 )
 ;

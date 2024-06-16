@@ -360,7 +360,7 @@ cairo_tee_surface_create
 (
 cairo_surface_t
 *
-master
+primary
 )
 ;
 cairo_public
@@ -369,7 +369,7 @@ cairo_tee_surface_add
 (
 cairo_surface_t
 *
-surface
+abstract_surface
 cairo_surface_t
 *
 target
@@ -381,7 +381,7 @@ cairo_tee_surface_remove
 (
 cairo_surface_t
 *
-surface
+abstract_surface
 cairo_surface_t
 *
 target
@@ -394,7 +394,7 @@ cairo_tee_surface_index
 (
 cairo_surface_t
 *
-surface
+abstract_surface
 unsigned
 int
 index

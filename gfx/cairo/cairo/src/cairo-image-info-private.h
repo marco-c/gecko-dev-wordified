@@ -377,6 +377,7 @@ unsigned
 char
 *
 data
+unsigned
 long
 length
 )

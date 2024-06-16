@@ -1458,7 +1458,6 @@ between
 each
 of
 the
-the
 b
 *
 and

@@ -7020,6 +7020,13 @@ glyph_index
 CAIRO_SCALED_GLYPH_INFO_METRICS
 |
 CAIRO_SCALED_GLYPH_INFO_SURFACE
+NULL
+/
+*
+foreground
+color
+*
+/
 pscaled_glyph
 )
 ;
@@ -9521,6 +9528,13 @@ i
 .
 index
 CAIRO_SCALED_GLYPH_INFO_METRICS
+NULL
+/
+*
+foreground
+color
+*
+/
 &
 glyph
 )

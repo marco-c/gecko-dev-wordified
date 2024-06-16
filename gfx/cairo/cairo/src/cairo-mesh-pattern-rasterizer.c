@@ -5558,7 +5558,6 @@ j
 ]
 are
 the
-the
 nodes
 of
 the

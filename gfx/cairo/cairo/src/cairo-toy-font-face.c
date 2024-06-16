@@ -874,8 +874,7 @@ cairo_font_weight_t
 weight
 )
 {
-unsigned
-long
+uintptr_t
 hash
 ;
 key
@@ -933,8 +932,7 @@ hash
 =
 (
 (
-unsigned
-long
+uintptr_t
 )
 slant
 )
@@ -946,8 +944,7 @@ hash
 =
 (
 (
-unsigned
-long
+uintptr_t
 )
 weight
 )
@@ -1382,7 +1379,6 @@ used
 in
 implementation
 of
-the
 the
 #
 cairo_t
@@ -1932,11 +1928,6 @@ cairo_font_face_t
 _cairo_font_face_nil
 ;
 }
-slim_hidden_def
-(
-cairo_toy_font_face_create
-)
-;
 static
 cairo_bool_t
 _cairo_toy_font_face_destroy
@@ -2518,11 +2509,6 @@ toy_font_face
 slant
 ;
 }
-slim_hidden_def
-(
-cairo_toy_font_face_get_slant
-)
-;
 /
 *
 *
@@ -2621,11 +2607,6 @@ toy_font_face
 weight
 ;
 }
-slim_hidden_def
-(
-cairo_toy_font_face_get_weight
-)
-;
 static
 const
 cairo_font_face_backend_t

@@ -2160,8 +2160,7 @@ i
 idx
 step
 ;
-unsigned
-long
+uintptr_t
 hash
 =
 key

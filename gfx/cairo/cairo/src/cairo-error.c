@@ -430,7 +430,9 @@ h
 >
 /
 *
-*
+<
+private
+>
 *
 _cairo_error
 :

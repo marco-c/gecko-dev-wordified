@@ -492,12 +492,6 @@ xcb_connection
 picture
 )
 ;
-_cairo_xcb_connection_put_xid
-(
-connection
-picture
-)
-;
 }
 void
 _cairo_xcb_connection_render_composite
@@ -673,12 +667,6 @@ connection
 -
 >
 xcb_connection
-glyphset
-)
-;
-_cairo_xcb_connection_put_xid
-(
-connection
 glyphset
 )
 ;

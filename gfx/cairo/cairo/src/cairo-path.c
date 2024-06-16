@@ -1862,11 +1862,6 @@ path
 )
 ;
 }
-slim_hidden_def
-(
-cairo_path_destroy
-)
-;
 /
 *
 *
