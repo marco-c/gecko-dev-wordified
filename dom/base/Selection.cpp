@@ -527,13 +527,6 @@ h
 #
 include
 "
-nsIScrollableFrame
-.
-h
-"
-#
-include
-"
 nsCCUncollectableMarker
 .
 h
