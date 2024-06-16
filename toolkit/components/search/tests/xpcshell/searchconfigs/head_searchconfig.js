@@ -881,7 +881,7 @@ updateAppInfo
 name
 :
 "
-XPCShell
+firefox
 "
 ID
 :
