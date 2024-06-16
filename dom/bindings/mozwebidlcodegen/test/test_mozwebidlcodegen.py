@@ -1887,6 +1887,33 @@ content
 )
 :
                 
+#
+MockedOpen
+is
+not
+compatible
+with
+distributed
+filesystem
+                
+#
+access
+so
+force
+the
+number
+of
+processes
+used
+to
+generate
+                
+#
+files
+to
+1
+.
+                
 try
 :
                     
@@ -1896,6 +1923,9 @@ m1
 .
 generate_build_files
 (
+processes
+=
+1
 )
                     
 l
@@ -1953,6 +1983,9 @@ m2
 .
 generate_build_files
 (
+processes
+=
+1
 )
                     
 self
@@ -1974,6 +2007,9 @@ m2
 .
 generate_build_files
 (
+processes
+=
+1
 )
                     
 self
