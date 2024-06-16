@@ -4226,6 +4226,15 @@ React
 .
 createElement
 (
+HighlightLine
+{
+editor
+}
+)
+React
+.
+createElement
+(
 Exceptions
 {
 editor
