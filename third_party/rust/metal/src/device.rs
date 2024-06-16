@@ -100,12 +100,6 @@ ConcreteBlock
 }
 ;
 use
-foreign_types
-:
-:
-ForeignType
-;
-use
 objc
 :
 :
@@ -113,7 +107,6 @@ runtime
 :
 :
 {
-Object
 NO
 YES
 }

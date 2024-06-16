@@ -47,6 +47,13 @@ unnamed
 .
 *
 /
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Flag

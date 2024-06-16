@@ -93,9 +93,6 @@ s
 #
 [
 macro_export
-(
-local_inner_macros
-)
 ]
 #
 [
@@ -256,9 +253,6 @@ it
 #
 [
 macro_export
-(
-local_inner_macros
-)
 ]
 #
 [
@@ -883,6 +877,9 @@ to
 the
 public
 one
+crate
+:
+:
 __impl_public_bitflags
 !
 {
@@ -912,11 +909,17 @@ value
 *
 }
 }
+crate
+:
+:
 __impl_public_bitflags_ops
 !
 {
 InternalBitFlags
 }
+crate
+:
+:
 __impl_public_bitflags_iter
 !
 {

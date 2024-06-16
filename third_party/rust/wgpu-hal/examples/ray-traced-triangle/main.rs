@@ -2395,6 +2395,15 @@ entry_point
 "
 main
 "
+constants
+:
+&
+Default
+:
+:
+default
+(
+)
 }
 }
 )

@@ -1377,6 +1377,13 @@ Float4
 Vf
 :
 :
+Unorm10_10_10_2
+=
+>
+UInt1010102Normalized
+Vf
+:
+:
 Float64
 |
 Vf

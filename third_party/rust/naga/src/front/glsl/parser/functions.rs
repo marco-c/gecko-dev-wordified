@@ -1364,6 +1364,9 @@ frontend
 ctx
 .
 module
+ctx
+.
+global_expression_kind_tracker
 )
 ?
 ;
@@ -1372,7 +1375,7 @@ ctx
 .
 module
 .
-const_expressions
+global_expressions
 [
 const_expr
 ]

@@ -52,7 +52,7 @@ crate
 :
 Type
 >
-const_expressions
+global_expressions
 :
 &
 mut
@@ -110,7 +110,7 @@ Position
 let
 zero
 =
-const_expressions
+global_expressions
 .
 append
 (
@@ -141,7 +141,7 @@ span
 let
 one
 =
-const_expressions
+global_expressions
 .
 append
 (
@@ -327,7 +327,7 @@ ty
 ;
 Ok
 (
-const_expressions
+global_expressions
 .
 append
 (

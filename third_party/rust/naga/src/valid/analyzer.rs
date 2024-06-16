@@ -1644,6 +1644,7 @@ GlobalOrArgument
 derive
 (
 Debug
+Clone
 )
 ]
 #
@@ -4373,6 +4374,14 @@ E
 :
 :
 Constant
+(
+_
+)
+|
+E
+:
+:
+Override
 (
 _
 )
@@ -7371,7 +7380,7 @@ resolve
 &
 gctx
 .
-const_expressions
+global_expressions
 [
 handle
 ]
@@ -8289,6 +8298,15 @@ resolve_context
 ResolveContext
 {
 constants
+:
+&
+Arena
+:
+:
+new
+(
+)
+overrides
 :
 &
 Arena

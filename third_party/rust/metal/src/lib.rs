@@ -161,10 +161,7 @@ std
 borrow
 :
 :
-{
 Borrow
-ToOwned
-}
 marker
 :
 :

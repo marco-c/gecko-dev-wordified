@@ -109,11 +109,11 @@ terms
 .
 extern
 crate
-libc
+core_foundation
 ;
 extern
 crate
-core_foundation
+libc
 ;
 pub
 mod

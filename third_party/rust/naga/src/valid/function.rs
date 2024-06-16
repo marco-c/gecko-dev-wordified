@@ -494,11 +494,15 @@ error
 Initializer
 is
 not
+a
 const
+or
+override
+expression
 "
 )
 ]
-NonConstInitializer
+NonConstOrOverrideInitializer
 }
 #
 [
@@ -6482,7 +6486,7 @@ fun_info
 :
 &
 FunctionInfo
-expression_constness
+local_expr_kind
 :
 &
 crate
@@ -6491,7 +6495,7 @@ crate
 proc
 :
 :
-ExpressionConstnessTracker
+ExpressionKindTracker
 )
 -
 >
@@ -6649,9 +6653,9 @@ InitializerType
 }
 if
 !
-expression_constness
+local_expr_kind
 .
-is_const
+is_const_or_override
 (
 init
 )
@@ -6662,7 +6666,7 @@ Err
 LocalVariableError
 :
 :
-NonConstInitializer
+NonConstOrOverrideInitializer
 )
 ;
 }
@@ -6704,6 +6708,16 @@ ModuleInfo
 entry_point
 :
 bool
+global_expr_kind
+:
+&
+crate
+:
+:
+proc
+:
+:
+ExpressionKindTracker
 )
 -
 >
@@ -6736,7 +6750,7 @@ capabilities
 ?
 ;
 let
-expression_constness
+local_expr_kind
 =
 crate
 :
@@ -6744,7 +6758,7 @@ crate
 proc
 :
 :
-ExpressionConstnessTracker
+ExpressionKindTracker
 :
 :
 from_arena
@@ -6782,7 +6796,7 @@ to_ctx
 &
 info
 &
-expression_constness
+local_expr_kind
 )
 .
 map_err
@@ -7244,6 +7258,7 @@ module
 &
 info
 mod_info
+global_expr_kind
 )
 {
 Ok
