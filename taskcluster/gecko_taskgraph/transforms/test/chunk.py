@@ -2065,6 +2065,8 @@ exist
 .
             
 if
+(
+                
 config
 .
 params
@@ -2073,6 +2075,7 @@ params
 backstop
 "
 ]
+                
 and
 manifests
 [
@@ -2080,6 +2083,15 @@ manifests
 active
 "
 ]
+                
+and
+"
+skipped
+"
+in
+manifests
+            
+)
 :
                 
 chunked_manifests
