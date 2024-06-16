@@ -457,6 +457,12 @@ _
 ShellTelemetry
 600
 )
+\
+_
+(
+ShellUseCounters
+600
+)
 namespace
 js
 {
