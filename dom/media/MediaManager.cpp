@@ -16873,9 +16873,7 @@ MediaManager
 :
 Dispatch
 (
-const
-char
-*
+StaticString
 aName
 FunctionType
 &

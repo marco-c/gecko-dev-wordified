@@ -2430,9 +2430,7 @@ evtTarget
 mThread
 )
 ;
-const
-char
-*
+StaticString
 source
 =
 __func__
@@ -2601,9 +2599,7 @@ UntrustedModulesProcessor
 :
 GetAllProcessedData
 (
-const
-char
-*
+StaticString
 aSource
 )
 {
@@ -2756,9 +2752,7 @@ evtTarget
 mThread
 )
 ;
-const
-char
-*
+StaticString
 source
 =
 __func__
@@ -3391,9 +3385,9 @@ evtTarget
 mThread
 )
 ;
+constexpr
+StaticString
 const
-char
-*
 source
 =
 __func__

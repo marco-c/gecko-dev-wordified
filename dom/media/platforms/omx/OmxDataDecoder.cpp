@@ -3450,9 +3450,7 @@ OmxDataDecoder
 :
 ResolveInitPromise
 (
-const
-char
-*
+StaticString
 aMethodName
 )
 {
@@ -3475,6 +3473,10 @@ from
 s
 "
 aMethodName
+.
+get
+(
+)
 )
 ;
 mInitPromise
@@ -3499,9 +3501,7 @@ RejectInitPromise
 (
 MediaResult
 aError
-const
-char
-*
+StaticString
 aMethodName
 )
 {

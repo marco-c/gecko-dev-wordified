@@ -95,6 +95,15 @@ include
 "
 mozilla
 /
+StaticString
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WMFCDMProxyCallback
 .
 h
@@ -366,7 +375,7 @@ param1
 do
 {
 \
-auto
+StaticString
 callsite
 =
 __func__
@@ -471,7 +480,7 @@ param2
 do
 {
 \
-auto
+StaticString
 callsite
 =
 __func__
@@ -1291,9 +1300,7 @@ void
 &
 &
 aCall
-const
-char
-*
+StaticString
 aCallerName
 MozPromiseHolder
 <

@@ -350,9 +350,7 @@ BoolPromise
 >
 CreateAndRejectBoolPromise
 (
-const
-char
-*
+StaticString
 aFunc
 nsresult
 aRv
@@ -375,9 +373,7 @@ Int64Promise
 >
 CreateAndRejectInt64Promise
 (
-const
-char
-*
+StaticString
 aFunc
 nsresult
 aRv
@@ -400,9 +396,7 @@ BoolPromise
 >
 CreateAndRejectBoolPromiseFromQMResult
 (
-const
-char
-*
+StaticString
 aFunc
 const
 QMResult

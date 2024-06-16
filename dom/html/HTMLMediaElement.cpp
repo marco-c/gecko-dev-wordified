@@ -6206,9 +6206,7 @@ AUDIO
 void
 ResolveAudioDevicePromiseIfExists
 (
-const
-char
-*
+StaticString
 aMethodName
 )
 {

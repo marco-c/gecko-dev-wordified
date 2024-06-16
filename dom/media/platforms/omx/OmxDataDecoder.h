@@ -599,9 +599,7 @@ InitializationTask
 void
 ResolveInitPromise
 (
-const
-char
-*
+StaticString
 aMethodName
 )
 ;
@@ -610,9 +608,7 @@ RejectInitPromise
 (
 MediaResult
 aError
-const
-char
-*
+StaticString
 aMethodName
 )
 ;

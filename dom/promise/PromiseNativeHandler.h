@@ -164,6 +164,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticString
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -448,9 +457,7 @@ T
 >
 &
 aMozPromise
-const
-char
-*
+StaticString
 aCallSite
 )
 :
@@ -507,9 +514,7 @@ T
 >
 mMozPromise
 ;
-const
-char
-*
+StaticString
 mCallSite
 ;
 }

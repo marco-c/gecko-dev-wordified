@@ -382,6 +382,11 @@ StateWatching
 h
 "
 "
+StaticString
+.
+h
+"
+"
 SynchronizedEventQueue
 .
 h

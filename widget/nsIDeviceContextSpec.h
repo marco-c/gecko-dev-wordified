@@ -590,9 +590,10 @@ EndDocumentPromiseFromResult
 (
 nsresult
 aResult
-const
-char
-*
+mozilla
+:
+:
+StaticString
 aSite
 )
 ;

@@ -896,9 +896,7 @@ UntrustedModulesPromise
 >
 GetAllProcessedData
 (
-const
-char
-*
+StaticString
 aSource
 )
 ;
