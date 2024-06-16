@@ -191,16 +191,6 @@ now
 )
 ;
 }
-'
-new
-Date
-.
-now
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

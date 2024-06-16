@@ -184,15 +184,6 @@ isNaN
 )
 ;
 }
-'
-new
-isNaN
-(
-1
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

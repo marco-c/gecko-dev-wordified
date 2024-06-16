@@ -191,16 +191,6 @@ ceil
 )
 ;
 }
-'
-new
-Math
-.
-ceil
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare

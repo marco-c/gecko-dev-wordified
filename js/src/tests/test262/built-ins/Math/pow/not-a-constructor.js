@@ -191,16 +191,6 @@ pow
 )
 ;
 }
-'
-new
-Math
-.
-pow
-(
-)
-throws
-TypeError
-'
 )
 ;
 reportCompare
