@@ -108,7 +108,7 @@ src
 /
 core
 /
-SkOpts
+SkMemset
 .
 h
 "

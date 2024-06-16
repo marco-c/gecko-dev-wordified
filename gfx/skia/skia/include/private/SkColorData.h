@@ -3467,3 +3467,6 @@ SK_FloatNegativeInfinity
 ;
 #
 endif
+/
+/
+SkColorData_DEFINED

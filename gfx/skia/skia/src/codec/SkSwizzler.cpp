@@ -202,7 +202,7 @@ src
 /
 core
 /
-SkOpts
+SkSwizzlePriv
 .
 h
 "
@@ -6666,6 +6666,9 @@ kRGBA_8888_SkColorType
 :
 case
 kBGRA_8888_SkColorType
+:
+case
+kBGR_101010x_XR_SkColorType
 :
 if
 (

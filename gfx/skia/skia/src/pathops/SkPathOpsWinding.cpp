@@ -409,6 +409,10 @@ include
 <
 utility
 >
+using
+namespace
+skia_private
+;
 enum
 class
 SkOpRayDir
@@ -2055,7 +2059,7 @@ next
 /
 sort
 hits
-SkSTArray
+STArray
 <
 1
 SkOpRayHit

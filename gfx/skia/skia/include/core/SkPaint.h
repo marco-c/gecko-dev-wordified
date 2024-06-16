@@ -4000,7 +4000,7 @@ extensive
 computation
 to
 compute
-SkBaseDevice
+device
 bounds
 of
 drawn

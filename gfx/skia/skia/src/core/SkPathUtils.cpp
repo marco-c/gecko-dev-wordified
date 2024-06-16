@@ -488,7 +488,6 @@ isHairlineStyle
 /
 namespace
 skpathutils
-SK_API
 bool
 FillPathWithPaint
 (
@@ -525,7 +524,6 @@ resScale
 )
 ;
 }
-SK_API
 bool
 FillPathWithPaint
 (
@@ -564,7 +562,6 @@ ctm
 )
 ;
 }
-SK_API
 bool
 FillPathWithPaint
 (

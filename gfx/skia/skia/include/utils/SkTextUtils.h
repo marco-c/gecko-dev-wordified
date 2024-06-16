@@ -80,7 +80,7 @@ cstddef
 #
 include
 <
-string
+cstring
 >
 class
 SkCanvas

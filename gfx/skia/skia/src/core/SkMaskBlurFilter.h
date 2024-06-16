@@ -190,7 +190,7 @@ const
 SkMask
 &
 src
-SkMask
+SkMaskBuilder
 *
 dst
 )

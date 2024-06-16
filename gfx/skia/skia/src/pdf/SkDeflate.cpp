@@ -101,6 +101,9 @@ zlib
 .
 h
 "
+/
+/
+NO_G3_REWRITE
 #
 include
 <

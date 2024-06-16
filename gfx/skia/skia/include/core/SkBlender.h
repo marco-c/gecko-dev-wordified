@@ -165,11 +165,6 @@ friend
 class
 SkBlenderBase
 ;
-using
-INHERITED
-=
-SkFlattenable
-;
 }
 ;
 #

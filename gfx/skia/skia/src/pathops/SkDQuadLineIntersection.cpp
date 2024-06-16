@@ -3058,6 +3058,7 @@ quadT
 =
 (
 (
+const
 SkDCurve
 *
 )

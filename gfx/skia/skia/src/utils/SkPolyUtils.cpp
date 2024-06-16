@@ -9667,7 +9667,7 @@ initial
 offset
 edge
 list
-SkSTArray
+STArray
 <
 64
 OffsetEdge

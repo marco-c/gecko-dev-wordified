@@ -1142,8 +1142,8 @@ SkDEBUGCODE
 (
 int
 fID
-)
 ;
+)
 }
 ;
 class
@@ -2354,8 +2354,8 @@ SkDEBUGCODE
 (
 int
 fCount
-)
 ;
+)
 /
 /
 number
@@ -2369,14 +2369,14 @@ SkDEBUGCODE
 (
 int
 fID
-)
 ;
+)
 SkDEBUGCODE
 (
 bool
 fDebugDeleted
-)
 ;
+)
 /
 /
 set
