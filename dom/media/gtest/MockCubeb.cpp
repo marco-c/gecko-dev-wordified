@@ -2658,6 +2658,13 @@ aNrFrames
 ;
 if
 (
+outframes
+>
+0
+)
+{
+if
+(
 mInputRecordingEnabled
 &
 &
@@ -2735,6 +2742,7 @@ Notify
 outframes
 )
 ;
+}
 }
 if
 (
