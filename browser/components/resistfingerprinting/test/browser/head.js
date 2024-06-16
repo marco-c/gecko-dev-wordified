@@ -4147,6 +4147,8 @@ overrides
 "
 +
 NavigatorHWConcurrency
++
+CanvasRandomization
 "
 ]
 ]
@@ -4263,6 +4265,8 @@ overrides
 "
 +
 NavigatorHWConcurrency
++
+CanvasRandomization
 "
 ]
 ]
@@ -4347,6 +4351,8 @@ in
 Normal
 Browsing
 Mode
+Protections
+Disabled
 "
 ;
 expectedResults
@@ -4401,6 +4407,8 @@ overrides
 "
 -
 NavigatorHWConcurrency
+-
+CanvasRandomization
 "
 ]
 ]
