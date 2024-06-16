@@ -1948,7 +1948,7 @@ just
 for
 readability
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aType
 =

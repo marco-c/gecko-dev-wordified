@@ -323,7 +323,7 @@ Run
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mTaskQueue
 -
