@@ -324,9 +324,11 @@ taskgraph
 :
     
 from
-mozbuild
+taskgraph
 .
 util
+.
+readonlydict
 import
 ReadOnlyDict
     
