@@ -614,7 +614,7 @@ sidebar
 ;
 /
 /
-Default
+Deafult
 icon
 and
 title
