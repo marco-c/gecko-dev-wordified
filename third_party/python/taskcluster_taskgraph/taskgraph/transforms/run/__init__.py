@@ -1512,6 +1512,10 @@ linux
 tools
 .
             
+if
+worker_os
+:
+                
 worker_os
 =
 worker_os

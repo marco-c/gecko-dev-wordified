@@ -282,6 +282,17 @@ str
 Required
 (
 "
+files_changed
+"
+)
+:
+[
+str
+]
+        
+Required
+(
+"
 filters
 "
 )
@@ -643,6 +654,15 @@ return_value
 =
 "
 "
+        
+repo
+.
+get_changed_files
+.
+return_value
+=
+[
+]
     
 try
 :
@@ -761,6 +781,19 @@ existing_tasks
 :
 {
 }
+        
+"
+files_changed
+"
+:
+repo
+.
+get_changed_files
+(
+"
+AM
+"
+)
         
 "
 filters

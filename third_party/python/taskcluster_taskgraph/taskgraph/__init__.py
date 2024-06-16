@@ -56,11 +56,11 @@ MPL
 __version__
 =
 "
-7
-.
-4
+8
 .
 0
+.
+1
 "
 #
 Maximum
