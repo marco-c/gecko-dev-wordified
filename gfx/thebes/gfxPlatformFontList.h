@@ -841,9 +841,16 @@ enum
 {
 ALLOW_MEMMOVE
 =
-true
+false
 }
 ;
+/
+/
+because
+of
+the
+Pointer
+member
 private
 :
 /
