@@ -39329,7 +39329,7 @@ dest
 )
 ;
 void
-tryFastAtomize
+lookupStringInAtomCacheLastLookups
 (
 Register
 str
