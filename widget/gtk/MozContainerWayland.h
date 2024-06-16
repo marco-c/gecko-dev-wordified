@@ -296,11 +296,6 @@ opaque_region_needs_updates
 =
 false
 ;
-int
-opaque_region_corner_radius
-=
-0
-;
 gboolean
 opaque_region_used
 =
@@ -625,8 +620,6 @@ moz_container_wayland_update_opaque_region
 MozContainer
 *
 container
-int
-corner_radius
 )
 ;
 gboolean
