@@ -3668,7 +3668,6 @@ isJSJit
 )
 &
 &
-!
 jsJitIter
 (
 )
@@ -3682,18 +3681,9 @@ jsJitIter
 (
 )
 .
-frameType
+wasmCallerFP
 (
 )
-=
-=
-jit
-:
-:
-FrameType
-:
-:
-WasmToJSJit
 )
 {
 wasm
@@ -3714,7 +3704,7 @@ jsJitIter
 (
 )
 .
-fp
+wasmCallerFP
 (
 )
 ;
