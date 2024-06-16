@@ -445,12 +445,6 @@ IsTopLevel
 const
 ;
 bool
-IsTopLevelOpaqueAboutBlank
-(
-)
-const
-;
-bool
 IsSameOriginWithTop
 (
 )
@@ -658,13 +652,6 @@ Maybe
 bool
 >
 mIsTopLevel
-;
-mutable
-Maybe
-<
-bool
->
-mIsTopLevelOpaqueAboutBlank
 ;
 mutable
 Maybe
