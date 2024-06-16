@@ -426,17 +426,6 @@ nscolor
 aBackColor
 )
 ;
-void
-GetTargetTextColors
-(
-nscolor
-*
-aForeColor
-nscolor
-*
-aBackColor
-)
-;
 /
 /
 Computes

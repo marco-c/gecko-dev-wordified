@@ -420,17 +420,6 @@ selection
 "
 CSS_PSEUDO_ELEMENT_CONTAINS_ELEMENTS
 )
-CSS_PSEUDO_ELEMENT
-(
-targetText
-"
-:
-target
--
-text
-"
-0
-)
 /
 /
 XXXbz
