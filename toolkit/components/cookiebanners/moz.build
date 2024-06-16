@@ -143,6 +143,11 @@ nsICookieBannerService
 idl
 "
 "
+nsICookieBannerTelemetryService
+.
+idl
+"
+"
 nsICookieRule
 .
 idl
@@ -213,6 +218,11 @@ nsCookieBannerService
 h
 "
 "
+nsCookieBannerTelemetryService
+.
+h
+"
+"
 nsCookieInjector
 .
 h
@@ -251,6 +261,11 @@ cpp
 "
 "
 nsCookieBannerService
+.
+cpp
+"
+"
+nsCookieBannerTelemetryService
 .
 cpp
 "
