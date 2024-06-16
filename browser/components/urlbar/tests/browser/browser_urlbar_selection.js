@@ -901,7 +901,7 @@ checkPrimarySelection
 (
 gURLBar
 .
-_untrimmedValue
+untrimmedValue
 )
 ;
 await
