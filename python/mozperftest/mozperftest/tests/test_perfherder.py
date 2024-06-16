@@ -4180,6 +4180,14 @@ options
 {
         
 "
+app
+"
+:
+"
+fenix
+"
+        
+"
 perfherder
 "
 :
@@ -4192,16 +4200,6 @@ prefix
 "
 :
 "
-"
-        
-"
-perfherder
--
-app
-"
-:
-"
-fenix
 "
         
 "
@@ -4342,6 +4340,14 @@ options
 {
         
 "
+app
+"
+:
+"
+fenix
+"
+        
+"
 perfherder
 "
 :
@@ -4354,16 +4360,6 @@ prefix
 "
 :
 "
-"
-        
-"
-perfherder
--
-app
-"
-:
-"
-fenix
 "
         
 "
@@ -4661,6 +4657,18 @@ options
 {
         
 "
+app
+"
+:
+"
+this
+is
+not
+an
+app
+"
+        
+"
 perfherder
 "
 :
@@ -4673,20 +4681,6 @@ prefix
 "
 :
 "
-"
-        
-"
-perfherder
--
-app
-"
-:
-"
-this
-is
-not
-an
-app
 "
         
 "

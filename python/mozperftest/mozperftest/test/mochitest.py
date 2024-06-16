@@ -1047,7 +1047,7 @@ self
 get_arg
 (
 "
-binary
+mochitest_binary
 "
 )
         
