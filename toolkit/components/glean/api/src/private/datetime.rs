@@ -490,9 +490,7 @@ not
 feature
 =
 "
-with
--
-gecko
+with_gecko
 "
 )
 allow
