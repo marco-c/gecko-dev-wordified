@@ -67414,7 +67414,9 @@ StyleTextReset
 )
 -
 >
-mInitialLetterSize
+mInitialLetter
+.
+size
 !
 =
 0
