@@ -2752,6 +2752,13 @@ waitForOverlay
 )
 ;
 await
+helper
+.
+hoverTestPageElement
+(
+)
+;
+await
 SpecialPowers
 .
 spawn
