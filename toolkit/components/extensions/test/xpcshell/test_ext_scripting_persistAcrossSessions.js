@@ -2438,6 +2438,11 @@ runAt
 "
 document_idle
 "
+world
+:
+"
+ISOLATED
+"
 persistAcrossSessions
 :
 true
@@ -4665,6 +4670,11 @@ runAt
 :
 "
 document_idle
+"
+world
+:
+"
+ISOLATED
 "
 persistAcrossSessions
 :
