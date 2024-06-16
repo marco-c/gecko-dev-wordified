@@ -9211,11 +9211,6 @@ aGraph
 mEnabled
 )
 ;
-MOZ_ASSERT
-(
-mPacketizerInput
-)
-;
 LOG_FRAME
 (
 "
@@ -9283,8 +9278,9 @@ Initialize
 )
 ;
 }
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+mPacketizerInput
 static_cast
 <
 uint32_t
