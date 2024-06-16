@@ -303,6 +303,16 @@ path
             
 )
             
+os
+.
+makedirs
+(
+path
+exist_ok
+=
+True
+)
+            
 self
 .
 lock_dir

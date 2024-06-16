@@ -847,13 +847,13 @@ true
 ;
 }
 await
+waitToStartPromise
+;
+await
 continueFileHandler
 (
 CONTINUE_DOWNLOAD
 )
-;
-await
-waitToStartPromise
 ;
 await
 downloadFinishedPromise
@@ -1351,6 +1351,10 @@ APP_UPDATE_SJS_URL
 }
 ?
 useSlowDownloadMar
+=
+1
+&
+useFirstByteEarly
 =
 1
 &
