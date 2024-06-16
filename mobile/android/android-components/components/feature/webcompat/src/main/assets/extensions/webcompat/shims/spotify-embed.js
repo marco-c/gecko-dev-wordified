@@ -665,6 +665,13 @@ startFullPlayback
 (
 )
 {
+await
+document
+.
+requestStorageAccess
+(
+)
+;
 /
 /
 Wait

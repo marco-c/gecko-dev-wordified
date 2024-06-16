@@ -77,6 +77,14 @@ www
 samsung
 .
 com
+on
+Linux
+*
+Bug
+1860417
+-
+and
+Android
 *
 WebCompat
 issue
@@ -115,6 +123,8 @@ but
 fail
 with
 Linux
+and
+Android
 because
 they
 expect
@@ -122,8 +132,8 @@ it
 to
 contain
 the
-literal
 *
+literal
 string
 "
 linux
@@ -161,6 +171,8 @@ be
 applied
 on
 Linux
+or
+Android
 .
 *
 /

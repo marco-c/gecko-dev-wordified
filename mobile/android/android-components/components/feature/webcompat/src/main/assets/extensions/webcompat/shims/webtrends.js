@@ -172,7 +172,7 @@ DCSext
 ;
 init
 (
-obj
+_obj
 )
 {
 return
