@@ -4297,7 +4297,7 @@ popPrefEnv
 }
 async
 function
-simpleRFPPBMFPPTest
+RFPPBMFPP_NormalMode_NoProtectionsTest
 (
 uri
 testFunction

@@ -1365,7 +1365,7 @@ allNotSpoofed
 ;
 add_task
 (
-simpleRFPPBMFPPTest
+RFPPBMFPP_NormalMode_NoProtectionsTest
 .
 bind
 (
