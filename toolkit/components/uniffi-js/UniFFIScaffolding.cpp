@@ -266,15 +266,6 @@ mozilla
 dom
 :
 :
-ScaffoldingType
-;
-using
-mozilla
-:
-:
-dom
-:
-:
 Sequence
 ;
 using
@@ -303,6 +294,15 @@ dom
 :
 :
 UniFFIScaffoldingCallResult
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+UniFFIScaffoldingValue
 ;
 namespace
 mozilla
@@ -335,7 +335,7 @@ aId
 const
 Sequence
 <
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
@@ -356,7 +356,7 @@ aId
 const
 Sequence
 <
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
@@ -442,7 +442,7 @@ aId
 const
 Sequence
 <
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
@@ -463,7 +463,7 @@ aId
 const
 Sequence
 <
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
@@ -571,7 +571,7 @@ aId
 const
 Sequence
 <
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
@@ -696,7 +696,7 @@ aId
 const
 Sequence
 <
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs

@@ -429,7 +429,7 @@ Sequence
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
@@ -853,7 +853,7 @@ Sequence
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
@@ -1068,7 +1068,7 @@ Sequence
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
@@ -1191,7 +1191,7 @@ Sequence
 dom
 :
 :
-ScaffoldingType
+UniFFIScaffoldingValue
 >
 &
 aArgs
