@@ -32011,7 +32011,7 @@ if
 mBrowsingContext
 -
 >
-HadOriginalOpener
+GetTopLevelCreatedByWebContent
 (
 )
 )
@@ -40523,7 +40523,7 @@ _ns
 mBrowsingContext
 -
 >
-HadOriginalOpener
+GetTopLevelCreatedByWebContent
 (
 )
 &
