@@ -2393,6 +2393,7 @@ NormalizeSimulcastSizeExperiment
 :
 GetBase2Exponent
 (
+trials_
 )
 .
 has_value
@@ -2420,6 +2421,7 @@ kMinLayerSize
 ?
 NormalizeSimulcastSize
 (
+trials_
 width
 encoder_config
 .
@@ -2449,6 +2451,7 @@ kMinLayerSize
 ?
 NormalizeSimulcastSize
 (
+trials_
 height
 encoder_config
 .

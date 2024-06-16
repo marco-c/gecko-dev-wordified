@@ -99,6 +99,15 @@ optional
 .
 h
 "
+#
+include
+"
+api
+/
+field_trials_view
+.
+h
+"
 namespace
 webrtc
 {
@@ -128,6 +137,10 @@ int
 >
 GetBase2Exponent
 (
+const
+FieldTrialsView
+&
+field_trials
 )
 ;
 }

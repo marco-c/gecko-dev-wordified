@@ -229,6 +229,13 @@ size
 int
 NormalizeSimulcastSize
 (
+const
+webrtc
+:
+:
+FieldTrialsView
+&
+field_trials
 int
 size
 size_t
