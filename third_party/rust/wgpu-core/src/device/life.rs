@@ -57,10 +57,6 @@ StagingBuffer
 Texture
 TextureView
 }
-snatch
-:
-:
-SnatchGuard
 track
 :
 :
@@ -5625,10 +5621,6 @@ Tracker
 A
 >
 >
-snatch_guard
-:
-&
-SnatchGuard
 )
 -
 >
@@ -5981,7 +5973,6 @@ range
 start
 size
 host
-snatch_guard
 )
 {
 Ok

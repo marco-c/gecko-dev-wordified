@@ -3434,14 +3434,12 @@ crate
 :
 :
 Queue
+<
+Api
+>
 for
 Queue
 {
-type
-A
-=
-Api
-;
 unsafe
 fn
 submit
