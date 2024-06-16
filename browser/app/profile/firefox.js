@@ -3831,7 +3831,7 @@ windowsLaunchOnLogin
 .
 enabled
 "
-false
+true
 )
 ;
 /
