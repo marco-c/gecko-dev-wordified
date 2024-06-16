@@ -16371,6 +16371,10 @@ DrawTarget
 >
 &
 aTarget
+bool
+aOptimizeSourceSurface
+=
+true
 )
 ;
 /

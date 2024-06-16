@@ -51319,6 +51319,8 @@ DrawTarget
 >
 &
 aTarget
+bool
+aOptimizeSourceSurface
 )
 {
 SurfaceFromElementResult
@@ -51546,6 +51548,9 @@ mHadCrossOriginRedirects
 if
 (
 aTarget
+&
+&
+aOptimizeSourceSurface
 )
 {
 /
