@@ -121,15 +121,9 @@ PatternKind
 ColorOrTexture
 =
 0
-RadialGradient
-=
-1
-ConicGradient
-=
-2
 Mask
 =
-3
+1
 /
 /
 When
@@ -152,7 +146,7 @@ NUM_PATTERNS
 :
 u32
 =
-4
+2
 ;
 impl
 PatternKind
