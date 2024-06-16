@@ -2581,7 +2581,7 @@ markImplicitEdges
 (
 T
 *
-oldThing
+markedThing
 )
 ;
 private
@@ -3242,18 +3242,6 @@ size_t
 start
 size_t
 end
-)
-;
-template
-<
-typename
-T
->
-void
-markImplicitEdgesHelper
-(
-T
-markedThing
 )
 ;
 /
