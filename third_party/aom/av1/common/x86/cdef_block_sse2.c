@@ -136,7 +136,7 @@ name
 name
 #
 #
-_ssse3
+_sse2
 #
 include
 "
@@ -149,7 +149,7 @@ cdef_block_simd
 h
 "
 void
-cdef_find_dir_dual_ssse3
+cdef_find_dir_dual_sse2
 (
 const
 uint16_t
@@ -213,7 +213,7 @@ coeff_shift
 ;
 }
 void
-cdef_copy_rect8_8bit_to_16bit_ssse3
+cdef_copy_rect8_8bit_to_16bit_sse2
 (
 uint16_t
 *
@@ -234,6 +234,8 @@ height
 {
 int
 j
+=
+0
 ;
 for
 (

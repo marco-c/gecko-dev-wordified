@@ -224,7 +224,7 @@ scale
 h
 "
 static
-AOM_FORCE_INLINE
+INLINE
 int16x8_t
 horizontal_filter_4x1_f4
 (
@@ -238,7 +238,7 @@ alpha
 )
 ;
 static
-AOM_FORCE_INLINE
+INLINE
 int16x8_t
 horizontal_filter_8x1_f8
 (
@@ -252,7 +252,7 @@ alpha
 )
 ;
 static
-AOM_FORCE_INLINE
+INLINE
 int16x8_t
 horizontal_filter_4x1_f1
 (
@@ -264,7 +264,7 @@ sx
 )
 ;
 static
-AOM_FORCE_INLINE
+INLINE
 int16x8_t
 horizontal_filter_8x1_f1
 (
@@ -276,7 +276,7 @@ sx
 )
 ;
 static
-AOM_FORCE_INLINE
+INLINE
 void
 vertical_filter_4x1_f1
 (
@@ -292,7 +292,7 @@ sy
 )
 ;
 static
-AOM_FORCE_INLINE
+INLINE
 void
 vertical_filter_4x1_f4
 (
@@ -310,7 +310,7 @@ gamma
 )
 ;
 static
-AOM_FORCE_INLINE
+INLINE
 void
 vertical_filter_8x1_f1
 (
@@ -329,7 +329,7 @@ sy
 )
 ;
 static
-AOM_FORCE_INLINE
+INLINE
 void
 vertical_filter_8x1_f8
 (
@@ -350,7 +350,7 @@ gamma
 )
 ;
 static
-AOM_FORCE_INLINE
+INLINE
 void
 load_filters_4
 (
@@ -482,7 +482,7 @@ WARPEDDIFF_PREC_BITS
 ;
 }
 static
-AOM_FORCE_INLINE
+INLINE
 void
 load_filters_8
 (
@@ -730,7 +730,7 @@ WARPEDDIFF_PREC_BITS
 ;
 }
 static
-AOM_FORCE_INLINE
+INLINE
 int
 clamp_iy
 (
@@ -752,7 +752,7 @@ height
 ;
 }
 static
-AOM_FORCE_INLINE
+INLINE
 void
 warp_affine_horizontal
 (
@@ -1643,7 +1643,7 @@ alpha
 }
 }
 static
-AOM_FORCE_INLINE
+INLINE
 void
 warp_affine_vertical
 (
@@ -2687,7 +2687,7 @@ val
 }
 }
 static
-AOM_FORCE_INLINE
+INLINE
 void
 av1_warp_affine_common
 (

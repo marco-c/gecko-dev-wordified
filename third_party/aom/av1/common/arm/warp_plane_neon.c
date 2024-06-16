@@ -126,7 +126,7 @@ warp_plane_neon
 h
 "
 static
-AOM_FORCE_INLINE
+INLINE
 int16x8_t
 horizontal_filter_4x1_f4
 (
@@ -332,7 +332,7 @@ res
 ;
 }
 static
-AOM_FORCE_INLINE
+INLINE
 int16x8_t
 horizontal_filter_8x1_f8
 (
@@ -647,7 +647,7 @@ res
 ;
 }
 static
-AOM_FORCE_INLINE
+INLINE
 int16x8_t
 horizontal_filter_4x1_f1
 (
@@ -840,7 +840,7 @@ res
 ;
 }
 static
-AOM_FORCE_INLINE
+INLINE
 int16x8_t
 horizontal_filter_8x1_f1
 (
@@ -1130,7 +1130,7 @@ res
 ;
 }
 static
-AOM_FORCE_INLINE
+INLINE
 void
 vertical_filter_4x1_f1
 (
@@ -1365,7 +1365,7 @@ m0123
 ;
 }
 static
-AOM_FORCE_INLINE
+INLINE
 void
 vertical_filter_4x1_f4
 (
@@ -1635,7 +1635,7 @@ m0123_pairs
 ;
 }
 static
-AOM_FORCE_INLINE
+INLINE
 void
 vertical_filter_8x1_f1
 (
@@ -2006,7 +2006,7 @@ m4567
 ;
 }
 static
-AOM_FORCE_INLINE
+INLINE
 void
 vertical_filter_8x1_f8
 (

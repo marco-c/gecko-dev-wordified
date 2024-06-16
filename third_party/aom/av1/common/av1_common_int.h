@@ -169,7 +169,7 @@ include
 "
 aom_util
 /
-aom_pthread
+aom_thread
 .
 h
 "

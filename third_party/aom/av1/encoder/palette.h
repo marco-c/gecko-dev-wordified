@@ -192,6 +192,9 @@ _dim
 #
 #
 dim
+#
+#
+_c
 void
 AV1_K_MEANS_RENAME
 (

@@ -5187,9 +5187,8 @@ height
 log2height
 )
 \
-static
 int
-sub_pixel_avg_variance32x
+aom_sub_pixel_avg_variance32x
 #
 #
 height
@@ -6927,7 +6926,7 @@ const
 int
 sum
 =
-sub_pixel_avg_variance32x
+aom_sub_pixel_avg_variance32x
 #
 #
 height
@@ -7138,7 +7137,7 @@ const
 int
 se2
 =
-sub_pixel_avg_variance
+aom_sub_pixel_avg_variance
 #
 #
 wf

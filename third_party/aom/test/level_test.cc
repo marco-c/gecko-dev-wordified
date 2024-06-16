@@ -975,7 +975,7 @@ yuv
 30
 1
 0
-30
+40
 )
 ;
 target_level_
@@ -992,7 +992,7 @@ cfg_
 .
 g_limit
 =
-30
+40
 ;
 ASSERT_NO_FATAL_FAILURE
 (
@@ -1003,7 +1003,7 @@ video
 )
 )
 ;
-ASSERT_LE
+ASSERT_EQ
 (
 level_
 [
@@ -1056,7 +1056,7 @@ yuv
 30
 1
 0
-30
+40
 )
 ;
 target_level_
@@ -1073,7 +1073,7 @@ cfg_
 .
 g_limit
 =
-30
+40
 ;
 ASSERT_NO_FATAL_FAILURE
 (
@@ -1084,7 +1084,7 @@ video
 )
 )
 ;
-ASSERT_LE
+ASSERT_EQ
 (
 level_
 [
@@ -1165,7 +1165,7 @@ video
 )
 )
 ;
-ASSERT_LE
+ASSERT_EQ
 (
 level_
 [

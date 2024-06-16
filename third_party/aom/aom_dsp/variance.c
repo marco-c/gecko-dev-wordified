@@ -134,6 +134,13 @@ h
 >
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 config
 /
@@ -535,9 +542,8 @@ to
 the
 next
 .
-static
 void
-var_filter_block2d_bil_first_pass_c
+aom_var_filter_block2d_bil_first_pass_c
 (
 const
 uint8_t
@@ -771,9 +777,8 @@ is
 -
 bit
 .
-static
 void
-var_filter_block2d_bil_second_pass_c
+aom_var_filter_block2d_bil_second_pass_c
 (
 const
 uint16_t
@@ -1046,7 +1051,7 @@ W
 ;
 \
 \
-var_filter_block2d_bil_first_pass_c
+aom_var_filter_block2d_bil_first_pass_c
 (
 a
 fdata3
@@ -1064,7 +1069,7 @@ xoffset
 )
 ;
 \
-var_filter_block2d_bil_second_pass_c
+aom_var_filter_block2d_bil_second_pass_c
 (
 fdata3
 temp2
@@ -1193,7 +1198,7 @@ W
 ;
 \
 \
-var_filter_block2d_bil_first_pass_c
+aom_var_filter_block2d_bil_first_pass_c
 (
 a
 fdata3
@@ -1211,7 +1216,7 @@ xoffset
 )
 ;
 \
-var_filter_block2d_bil_second_pass_c
+aom_var_filter_block2d_bil_second_pass_c
 (
 fdata3
 temp2
@@ -1349,7 +1354,7 @@ W
 ;
 \
 \
-var_filter_block2d_bil_first_pass_c
+aom_var_filter_block2d_bil_first_pass_c
 (
 a
 fdata3
@@ -1367,7 +1372,7 @@ xoffset
 )
 ;
 \
-var_filter_block2d_bil_second_pass_c
+aom_var_filter_block2d_bil_second_pass_c
 (
 fdata3
 temp2
@@ -5617,7 +5622,7 @@ W
 ;
 \
 \
-var_filter_block2d_bil_first_pass_c
+aom_var_filter_block2d_bil_first_pass_c
 (
 src
 fdata3
@@ -5626,8 +5631,8 @@ src_stride
 H
 +
 1
-W
 \
+W
 bilinear_filters_2t
 [
 xoffset
@@ -5635,7 +5640,7 @@ xoffset
 )
 ;
 \
-var_filter_block2d_bil_second_pass_c
+aom_var_filter_block2d_bil_second_pass_c
 (
 fdata3
 temp2
@@ -6948,7 +6953,7 @@ W
 ;
 \
 \
-var_filter_block2d_bil_first_pass_c
+aom_var_filter_block2d_bil_first_pass_c
 (
 pre
 fdata3
@@ -6957,8 +6962,8 @@ pre_stride
 H
 +
 1
-W
 \
+W
 bilinear_filters_2t
 [
 xoffset
@@ -6966,7 +6971,7 @@ xoffset
 )
 ;
 \
-var_filter_block2d_bil_second_pass_c
+aom_var_filter_block2d_bil_second_pass_c
 (
 fdata3
 temp2

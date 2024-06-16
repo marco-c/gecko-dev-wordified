@@ -3127,7 +3127,7 @@ static_cast
 TX_SIZE
 >
 (
-TX_8X8
+TX_32X32
 )
 TYPE_FP
 AOM_BITS_8
@@ -3143,7 +3143,7 @@ static_cast
 TX_SIZE
 >
 (
-TX_4X4
+TX_64X64
 )
 TYPE_FP
 AOM_BITS_8
@@ -4548,7 +4548,7 @@ static_cast
 TX_SIZE
 >
 (
-TX_8X8
+TX_32X32
 )
 TYPE_FP
 AOM_BITS_8
@@ -4562,7 +4562,7 @@ static_cast
 TX_SIZE
 >
 (
-TX_4X4
+TX_64X64
 )
 TYPE_FP
 AOM_BITS_8

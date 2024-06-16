@@ -166,7 +166,7 @@ include
 "
 aom_util
 /
-aom_pthread
+aom_thread
 .
 h
 "
@@ -413,13 +413,9 @@ bool
 av1_compute_corner_list
 (
 const
-YV12_BUFFER_CONFIG
+ImagePyramid
 *
-frame
-int
-bit_depth
-int
-downsample_level
+pyr
 CornerList
 *
 corners

@@ -2306,7 +2306,7 @@ param
 in
 out
 ]
-sd
+buf
 The
 raw
 input
@@ -2357,10 +2357,9 @@ struct
 aom_denoise_and_model_t
 *
 ctx
-const
 YV12_BUFFER_CONFIG
 *
-sd
+buf
 aom_film_grain_t
 *
 grain

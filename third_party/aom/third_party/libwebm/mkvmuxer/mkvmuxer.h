@@ -10266,7 +10266,7 @@ writing_app_
 ;
 /
 /
-INT64_MIN
+LLONG_MIN
 when
 DateUTC
 is
