@@ -695,6 +695,12 @@ State
 >
 state_
 ;
+HelperThreadLockData
+<
+bool
+>
+dispatchedToThreadPool
+;
 /
 /
 May
@@ -1656,6 +1662,12 @@ runHelperThreadTask
 AutoLockHelperThreadState
 &
 locked
+)
+override
+;
+void
+onThreadPoolDispatch
+(
 )
 override
 ;
