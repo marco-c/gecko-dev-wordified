@@ -365,7 +365,7 @@ rv
 mockLoadInfo
 -
 >
-SetIsThirdPartyContextToTopWindow
+SetIsInThirdPartyContext
 (
 isThirdParty
 )
