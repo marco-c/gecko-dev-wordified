@@ -35299,6 +35299,7 @@ IsRecording
 &
 !
 (
+!
 NeedToApplyFilter
 (
 )
