@@ -208,6 +208,17 @@ include
 "
 api
 /
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
+api
+/
 media_stream_interface
 .
 h
@@ -892,6 +903,9 @@ FakeMediaEngine
 )
 fake_call_
 (
+CreateEnvironment
+(
+)
 worker_thread_
 network_thread_
 )
