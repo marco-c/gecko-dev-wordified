@@ -847,7 +847,6 @@ placeholder
 className
 =
 "
-plain
 table
 -
 widget
@@ -10713,7 +10712,6 @@ label
 className
 =
 "
-plain
 table
 -
 widget

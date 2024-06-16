@@ -3096,7 +3096,6 @@ titleNode
 className
 =
 "
-plain
 table
 -
 chart
@@ -3134,7 +3133,6 @@ tableNode
 className
 =
 "
-plain
 table
 -
 chart
@@ -3251,7 +3249,6 @@ headerLabelNode
 className
 =
 "
-plain
 table
 -
 chart
@@ -3468,7 +3465,6 @@ labelNode
 className
 =
 "
-plain
 table
 -
 chart
@@ -3632,7 +3628,6 @@ labelNode
 className
 =
 "
-plain
 table
 -
 chart
