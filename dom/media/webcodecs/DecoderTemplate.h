@@ -126,6 +126,13 @@ queue
 #
 include
 "
+WebCodecsUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DOMEventTargetHelper
@@ -203,13 +210,6 @@ h
 include
 "
 nsStringFwd
-.
-h
-"
-#
-include
-"
-WebCodecsUtils
 .
 h
 "
