@@ -1150,6 +1150,17 @@ already_AddRefed
 <
 Promise
 >
+RequestAllGamepads
+(
+ErrorResult
+&
+aRv
+)
+;
+already_AddRefed
+<
+Promise
+>
 GetVRDisplays
 (
 ErrorResult
