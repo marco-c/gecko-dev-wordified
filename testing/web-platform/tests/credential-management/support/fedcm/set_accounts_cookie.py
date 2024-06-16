@@ -172,6 +172,13 @@ done_loading
 "
 )
 ;
+  
+window
+.
+close
+(
+)
+;
 }
 <
 /
