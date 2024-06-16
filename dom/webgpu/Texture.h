@@ -239,7 +239,7 @@ aDesc
 ;
 Device
 *
-GetParentDevice
+GetDevice
 (
 )
 {
