@@ -2715,15 +2715,6 @@ sync
 .
 ftl
 "
-"
-toolkit
-/
-branding
-/
-accounts
-.
-ftl
-"
 ]
 true
 )
