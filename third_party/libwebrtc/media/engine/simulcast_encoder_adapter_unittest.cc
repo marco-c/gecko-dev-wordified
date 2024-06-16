@@ -988,8 +988,12 @@ unique_ptr
 <
 VideoEncoder
 >
-CreateVideoEncoder
+Create
 (
+const
+Environment
+&
+env
 const
 SdpVideoFormat
 &
@@ -1855,8 +1859,12 @@ VideoEncoder
 MockVideoEncoderFactory
 :
 :
-CreateVideoEncoder
+Create
 (
+const
+Environment
+&
+env
 const
 SdpVideoFormat
 &
