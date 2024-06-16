@@ -7429,6 +7429,10 @@ WorkerRunnable
 4
 >
 mDebuggerQueue
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 /
 /
