@@ -198,6 +198,17 @@ Ping
 a
 >
 {
+#
+[
+serde
+(
+rename_all
+=
+"
+camelCase
+"
+)
+]
 Crash
 {
 id
