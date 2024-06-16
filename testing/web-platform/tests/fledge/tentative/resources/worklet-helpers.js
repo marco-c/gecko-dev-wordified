@@ -125,6 +125,7 @@ aKeys
 length
 !
 =
+=
 Object
 .
 keys
@@ -154,6 +155,7 @@ hasOwnProperty
 key
 )
 !
+=
 =
 b
 .

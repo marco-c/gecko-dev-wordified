@@ -1709,7 +1709,7 @@ These
 checks
 use
 "
-=
+!
 =
 "
 to
@@ -2115,7 +2115,7 @@ These
 checks
 use
 "
-=
+!
 =
 "
 to
@@ -2314,16 +2314,21 @@ use
 =
 =
 "
+and
+"
+!
+=
+"
 to
 ignore
 null
 and
 not
 provided
+/
+/
 arguments
 while
-/
-/
 treating
 '
 '
@@ -2859,6 +2864,7 @@ if
 (
 owner
 !
+=
 =
 window
 .
@@ -4817,6 +4823,7 @@ data
 messageUuid
 !
 =
+=
 messageUuid
 )
 return
@@ -5108,6 +5115,7 @@ data
 .
 messageUuid
 !
+=
 =
 frameUuid
 )
@@ -5883,7 +5891,6 @@ if
 directFromSellerSignals
 =
 =
-=
 null
 |
 |
@@ -5918,6 +5925,7 @@ directFromSellerSignals
 .
 length
 !
+=
 =
 2
 )
@@ -5949,7 +5957,6 @@ reportResultSuccessCondition
 directFromSellerSignals
 !
 =
-=
 null
 &
 &
@@ -5985,6 +5992,7 @@ directFromSellerSignals
 length
 =
 =
+=
 2
 reportResult
 :
@@ -6009,7 +6017,6 @@ generateBid
 if
 (
 directFromSellerSignals
-=
 =
 =
 null
@@ -6046,6 +6053,7 @@ directFromSellerSignals
 .
 length
 !
+=
 =
 2
 )
@@ -6077,7 +6085,6 @@ reportWinSuccessCondition
 directFromSellerSignals
 !
 =
-=
 null
 &
 &
@@ -6111,6 +6118,7 @@ directFromSellerSignals
 )
 .
 length
+=
 =
 =
 2
