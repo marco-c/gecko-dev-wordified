@@ -90073,7 +90073,7 @@ JS_SetGCParameter
 (
 cx
 JSGC_SLICE_TIME_BUDGET_MS
-5
+10
 )
 ;
 JS_SetGCParameter
