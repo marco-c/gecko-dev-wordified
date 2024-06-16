@@ -56700,6 +56700,15 @@ IsDestroying
 &
 &
 aIsHandlingNativeEvent
+&
+&
+aEvent
+-
+>
+mClass
+!
+=
+eQueryContentEventClass
 )
 {
 /
