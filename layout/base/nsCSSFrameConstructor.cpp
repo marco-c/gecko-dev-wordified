@@ -35548,7 +35548,7 @@ aParentFrame
 aParentFrame
 -
 >
-IsGridContainerFrame
+IsFlexOrGridContainer
 (
 )
 )
