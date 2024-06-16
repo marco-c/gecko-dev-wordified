@@ -1325,6 +1325,10 @@ nsCString
 >
 &
 aDropFlavors
+bool
+aResetTargetData
+=
+true
 )
 ;
 /
