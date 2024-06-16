@@ -165,7 +165,7 @@ en
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedFromLanguage
+changeSelectedFromLanguage
 (
 "
 en
@@ -194,7 +194,7 @@ same
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedFromLanguage
+changeSelectedFromLanguage
 (
 "
 es
@@ -222,7 +222,7 @@ translated
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedFromLanguage
+changeSelectedFromLanguage
 (
 "
 "
@@ -248,7 +248,7 @@ selected
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedFromLanguage
+changeSelectedFromLanguage
 (
 "
 en
@@ -257,7 +257,7 @@ en
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedToLanguage
+changeSelectedToLanguage
 (
 "
 fr

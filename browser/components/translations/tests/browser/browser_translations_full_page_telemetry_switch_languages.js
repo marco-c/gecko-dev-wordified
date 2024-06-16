@@ -132,7 +132,7 @@ es
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedFromLanguage
+changeSelectedFromLanguage
 (
 "
 en
@@ -259,7 +259,7 @@ en
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedFromLanguage
+changeSelectedFromLanguage
 (
 "
 es
@@ -306,7 +306,7 @@ es
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedFromLanguage
+changeSelectedFromLanguage
 (
 "
 "
@@ -331,7 +331,7 @@ expectedEventCount
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedFromLanguage
+changeSelectedFromLanguage
 (
 "
 en
@@ -484,7 +484,7 @@ en
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedToLanguage
+changeSelectedToLanguage
 (
 "
 fr
@@ -611,7 +611,7 @@ fr
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedToLanguage
+changeSelectedToLanguage
 (
 "
 en
@@ -658,7 +658,7 @@ en
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedToLanguage
+changeSelectedToLanguage
 (
 "
 "
@@ -683,7 +683,7 @@ expectedEventCount
 ;
 FullPageTranslationsTestUtils
 .
-switchSelectedToLanguage
+changeSelectedToLanguage
 (
 "
 en
