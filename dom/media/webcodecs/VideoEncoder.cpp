@@ -4200,7 +4200,7 @@ aRawData
 const
 VideoEncoderConfigInternal
 &
-mOutputConfig
+aOutputConfig
 )
 const
 {
@@ -4267,7 +4267,7 @@ Bt709
 return
 VideoDecoderConfigInternal
 (
-mOutputConfig
+aOutputConfig
 .
 mCodec
 /
@@ -4277,7 +4277,7 @@ aCodec
 /
 Some
 (
-mOutputConfig
+aOutputConfig
 .
 mHeight
 )
@@ -4288,7 +4288,7 @@ aCodedHeight
 /
 Some
 (
-mOutputConfig
+aOutputConfig
 .
 mWidth
 )
@@ -4343,7 +4343,7 @@ Maybe
 uint32_t
 >
 (
-mOutputConfig
+aOutputConfig
 .
 mDisplayHeight
 )
@@ -4357,7 +4357,7 @@ Maybe
 uint32_t
 >
 (
-mOutputConfig
+aOutputConfig
 .
 mDisplayWidth
 )
@@ -4366,7 +4366,7 @@ mDisplayWidth
 aDisplayAspectWidth
 *
 /
-mOutputConfig
+aOutputConfig
 .
 mHardwareAcceleration
 /

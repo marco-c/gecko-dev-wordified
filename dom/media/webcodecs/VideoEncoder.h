@@ -403,7 +403,7 @@ aRawData
 const
 VideoEncoderConfigInternal
 &
-mOutputConfig
+aOutputConfig
 )
 const
 override
