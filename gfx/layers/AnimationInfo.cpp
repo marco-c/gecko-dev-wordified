@@ -226,6 +226,15 @@ h
 #
 include
 "
+mozilla
+/
+ScrollContainerFrame
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -5411,7 +5420,7 @@ PresShell
 )
 -
 >
-GetRootScrollFrame
+GetRootScrollContainerFrame
 (
 )
 )

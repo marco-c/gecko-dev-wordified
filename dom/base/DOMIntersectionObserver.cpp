@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIScrollableFrame
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -176,6 +169,15 @@ include
 mozilla
 /
 PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ScrollContainerFrame
 .
 h
 "
@@ -2888,7 +2890,7 @@ if
 (
 nsIFrame
 *
-rootScrollFrame
+rootScrollContainerFrame
 =
 aTarget
 -
@@ -2898,7 +2900,7 @@ PresShell
 )
 -
 >
-GetRootScrollFrame
+GetRootScrollContainerFrame
 (
 )
 )
@@ -2909,7 +2911,7 @@ nsLayoutUtils
 TransformRect
 (
 aRoot
-rootScrollFrame
+rootScrollContainerFrame
 rect
 )
 ;

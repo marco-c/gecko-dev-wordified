@@ -86,6 +86,15 @@ include
 "
 mozilla
 /
+ScrollContainerFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h
@@ -144,13 +153,6 @@ h
 include
 "
 nsIObserverService
-.
-h
-"
-#
-include
-"
-nsIScrollableFrame
 .
 h
 "
@@ -621,7 +623,7 @@ ScrollbarAreaToExcludeFromCompositionBoundsFor
 mPresShell
 -
 >
-GetRootScrollFrame
+GetRootScrollContainerFrame
 (
 )
 )
@@ -982,7 +984,7 @@ root
 mPresShell
 -
 >
-GetRootScrollFrame
+GetRootScrollContainerFrame
 (
 )
 )
