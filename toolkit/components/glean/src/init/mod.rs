@@ -1258,14 +1258,6 @@ None
 enable_internal_pings
 :
 true
-ping_schedule
-:
-pings
-:
-:
-ping_schedule
-(
-)
 }
 ;
 Ok

@@ -3537,14 +3537,6 @@ timestamps
 enable_internal_pings
 :
 true
-ping_schedule
-:
-Default
-:
-:
-default
-(
-)
 }
 ;
 let
