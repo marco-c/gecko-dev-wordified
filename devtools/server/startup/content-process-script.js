@@ -870,7 +870,7 @@ code
 (
 WatcherActor
 /
-ParentProcessWatcherRegistry
+WatcherRegistry
 .
 sys
 .
@@ -1186,7 +1186,7 @@ the
 Watcher
 Actor
 and
-ParentProcessWatcherRegistry
+WatcherRegistry
 .
 jsm
 containing
