@@ -1137,7 +1137,7 @@ tab
 preview
 component
 const
-TabPreviewPanel
+TabHoverPreviewPanel
 =
 ChromeUtils
 .
@@ -1152,13 +1152,13 @@ browser
 /
 content
 /
-tabpreview
+tabbrowser
 /
 tab
 -
-preview
+hover
 -
-panel
+preview
 .
 mjs
 "
@@ -1171,7 +1171,7 @@ this
 _previewPanel
 =
 new
-TabPreviewPanel
+TabHoverPreviewPanel
 (
 document
 .
