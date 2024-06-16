@@ -658,6 +658,12 @@ StyleCssRuleType
 :
 Scope
 :
+case
+StyleCssRuleType
+:
+:
+StartingStyle
+:
 {
 /
 /
@@ -877,6 +883,12 @@ StyleCssRuleType
 :
 :
 Scope
+:
+case
+StyleCssRuleType
+:
+:
+StartingStyle
 :
 {
 auto

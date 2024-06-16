@@ -843,6 +843,15 @@ StyleCssRuleType
 :
 :
 Scope
+|
+|
+type
+=
+=
+StyleCssRuleType
+:
+:
+StartingStyle
 )
 ;
 }

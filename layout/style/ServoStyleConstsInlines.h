@@ -461,6 +461,13 @@ StyleScopeRule
 >
 ;
 template
+struct
+StyleStrong
+<
+StyleStartingStyleRule
+>
+;
+template
 <
 typename
 T
