@@ -10003,16 +10003,6 @@ if
 texture
 )
 {
-MOZ_ASSERT_UNREACHABLE
-(
-"
-unexpected
-to
-be
-called
-"
-)
-;
 return
 nullptr
 ;
