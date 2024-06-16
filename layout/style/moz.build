@@ -865,6 +865,11 @@ CSSScopeRule
 h
 "
 "
+CSSStartingStyleRule
+.
+h
+"
+"
 CSSStyleRule
 .
 h
@@ -1105,6 +1110,11 @@ cpp
 "
 "
 CSSScopeRule
+.
+cpp
+"
+"
+CSSStartingStyleRule
 .
 cpp
 "

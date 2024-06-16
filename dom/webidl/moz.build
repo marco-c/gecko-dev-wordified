@@ -3395,6 +3395,11 @@ CSSScopeRule
 webidl
 "
 "
+CSSStartingStyleRule
+.
+webidl
+"
+"
 CSSStyleDeclaration
 .
 webidl
