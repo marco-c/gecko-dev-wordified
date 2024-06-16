@@ -1742,10 +1742,10 @@ h264_decoder
 video_format
 =
 SdpVideoFormat
-(
-"
+:
+:
 H264
-"
+(
 )
 ;
 h264_decoder

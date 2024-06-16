@@ -161,10 +161,10 @@ SupportedFormats
 return
 {
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 }
 ;

@@ -339,10 +339,10 @@ SdpVideoFormat
 sdp_video_format
 =
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 ;
 ScalabilityMode

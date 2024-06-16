@@ -4463,7 +4463,7 @@ pc_factory
 )
 -
 >
-GetRtpSenderCapabilities
+GetRtpReceiverCapabilities
 (
 cricket
 :
@@ -4521,7 +4521,7 @@ pc_factory
 )
 -
 >
-GetRtpSenderCapabilities
+GetRtpReceiverCapabilities
 (
 cricket
 :

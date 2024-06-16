@@ -2977,10 +2977,10 @@ decoders
 video_format
 =
 SdpVideoFormat
-(
-"
+:
+:
 VP8
-"
+(
 )
 ;
 }
