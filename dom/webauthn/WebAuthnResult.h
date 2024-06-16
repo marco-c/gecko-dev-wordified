@@ -856,6 +856,11 @@ _ns
 }
 #
 endif
+nsresult
+Anonymize
+(
+)
+;
 private
 :
 ~
