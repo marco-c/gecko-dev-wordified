@@ -7990,6 +7990,12 @@ translateButton
 }
 )
 ;
+tryAgainButton
+.
+focus
+(
+)
+;
 }
 /
 *
@@ -8070,6 +8076,12 @@ doneButton
 translateButton
 ]
 }
+)
+;
+tryAgainButton
+.
+focus
+(
 )
 ;
 }
