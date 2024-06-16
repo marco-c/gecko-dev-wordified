@@ -6757,6 +6757,10 @@ from
 aFrom
 to
 aTo
+where
+aFrom
+<
+aTo
 .
 *
 This
