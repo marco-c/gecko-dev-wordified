@@ -214,10 +214,6 @@ mozilla
 :
 glean
 {
-typedef
-uint64_t
-TimerId
-;
 namespace
 impl
 {
