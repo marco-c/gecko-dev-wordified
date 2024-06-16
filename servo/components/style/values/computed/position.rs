@@ -223,6 +223,7 @@ position
 :
 {
 AnchorName
+AnchorScope
 GridAutoFlow
 GridTemplateAreas
 MasonryAutoFlow
