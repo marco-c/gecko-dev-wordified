@@ -1128,7 +1128,6 @@ SVGContentUtils
 GetCTM
 (
 this
-false
 )
 ;
 RefPtr
@@ -1219,10 +1218,9 @@ m
 SVGContentUtils
 :
 :
-GetCTM
+GetScreenCTM
 (
 this
-true
 )
 ;
 RefPtr
