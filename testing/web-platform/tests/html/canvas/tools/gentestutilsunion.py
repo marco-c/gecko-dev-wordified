@@ -2440,6 +2440,13 @@ code
     
 return
 code
+_TestParams
+=
+Mapping
+[
+str
+Any
+]
 class
 _CanvasType
 (
@@ -2472,11 +2479,7 @@ _get_enabled_canvas_types
 (
 test
 :
-Mapping
-[
-str
-Any
-]
+_TestParams
 )
 -
 >
@@ -2585,11 +2588,7 @@ _validate_test
 (
 test
 :
-Mapping
-[
-str
-Any
-]
+_TestParams
 )
 :
     
@@ -2864,7 +2863,6 @@ jinja_env
 jinja2
 .
 Environment
-                     
 template
 :
 jinja2
@@ -2873,11 +2871,7 @@ Template
                      
 params
 :
-Mapping
-[
-str
-Any
-]
+_TestParams
 )
 -
 >
@@ -2983,11 +2977,7 @@ str
             
 params
 :
-Mapping
-[
-str
-Any
-]
+_TestParams
 )
 :
     
@@ -3090,12 +3080,7 @@ jinja2
 Environment
 params
 :
-Mapping
-[
-str
-                                                                         
-Any
-]
+_TestParams
                           
 enabled_tests
 :
@@ -3489,14 +3474,9 @@ jinja_env
 jinja2
 .
 Environment
-                            
 params
 :
-Mapping
-[
-str
-Any
-]
+_TestParams
                             
 enabled_tests
 :
@@ -4070,11 +4050,7 @@ _generate_test
 (
 test
 :
-Mapping
-[
-str
-Any
-]
+_TestParams
 jinja_env
 :
 jinja2
@@ -4384,21 +4360,13 @@ _recursive_expand_variant_matrix
 (
 original_test
 :
-Mapping
-[
-str
-Any
-]
+_TestParams
                                      
 variant_matrix
 :
 List
 [
-Mapping
-[
-str
-Any
-]
+_TestParams
 ]
                                      
 current_selection
@@ -4416,11 +4384,7 @@ test_variants
 :
 List
 [
-Mapping
-[
-str
-Any
-]
+_TestParams
 ]
 )
 :
@@ -4625,21 +4589,13 @@ _get_variants
 (
 test
 :
-Mapping
-[
-str
-Any
-]
+_TestParams
 )
 -
 >
 List
 [
-Mapping
-[
-str
-Any
-]
+_TestParams
 ]
 :
     
