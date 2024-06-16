@@ -688,10 +688,6 @@ nsAString
 aSourceFile
 bool
 aReportSample
-const
-nsAString
-&
-aScriptSample
 )
 ;
 /
