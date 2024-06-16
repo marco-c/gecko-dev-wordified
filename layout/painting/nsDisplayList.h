@@ -5318,16 +5318,11 @@ values
 (
 currently
 only
-StyleAppearance
-:
-:
-Toolbar
-and
 *
 StyleAppearance
 :
 :
-WindowTitlebar
+MozWindowTitlebar
 )
 this
 gets
@@ -5335,8 +5330,8 @@ called
 during
 every
 display
-list
 *
+list
 construction
 for
 every
