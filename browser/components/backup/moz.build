@@ -151,15 +151,6 @@ mjs
 "
 resources
 /
-AddonsBackupResource
-.
-sys
-.
-mjs
-"
-"
-resources
-/
 BackupResource
 .
 sys
