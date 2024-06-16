@@ -451,6 +451,17 @@ aResult
 )
 const
 ;
+already_AddRefed
+<
+nsINodeList
+>
+QuerySelectorAll
+(
+nsINode
+&
+aRoot
+)
+;
 /
 /
 WebIDL
