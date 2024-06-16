@@ -2167,6 +2167,12 @@ DecryptionInfo
 :
 :
 Software
+false
+/
+*
+IsPrivateBrowsing
+*
+/
 }
 )
 ;

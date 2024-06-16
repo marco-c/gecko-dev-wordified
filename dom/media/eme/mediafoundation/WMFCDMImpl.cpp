@@ -484,6 +484,9 @@ DecryptionInfo
 :
 :
 Hardware
+request
+.
+mIsPrivateBrowsing
 }
 )
 )
