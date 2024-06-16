@@ -2875,6 +2875,7 @@ getElements
 (
 cx
 typedArray
+length
 vp
 )
 ;
