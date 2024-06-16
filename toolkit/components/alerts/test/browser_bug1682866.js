@@ -18,7 +18,7 @@ mochitests
 content
 "
 "
-http
+https
 :
 /
 /
@@ -196,7 +196,7 @@ DOMModalDialogClosed
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
