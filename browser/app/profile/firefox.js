@@ -21982,16 +21982,6 @@ syncedtabs
 pref
 (
 "
-sidebar
-.
-verticalTabs
-"
-false
-)
-;
-pref
-(
-"
 browser
 .
 ml
