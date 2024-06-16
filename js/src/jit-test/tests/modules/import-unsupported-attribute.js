@@ -17,7 +17,7 @@ module
 ;
 error
 :
-TypeError
+SyntaxError
 :
 Unsupported
 import
