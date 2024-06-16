@@ -263,6 +263,16 @@ testGetUserActivationHosts
 {
 }
 )
+.
+map
+(
+entry
+=
+>
+entry
+.
+siteHost
+)
 [
 baseDomain
 ]

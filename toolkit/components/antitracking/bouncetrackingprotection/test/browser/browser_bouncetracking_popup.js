@@ -592,6 +592,16 @@ testGetBounceTrackerCandidateHosts
 {
 }
 )
+.
+map
+(
+entry
+=
+>
+entry
+.
+siteHost
+)
 [
 SITE_TRACKER
 ]

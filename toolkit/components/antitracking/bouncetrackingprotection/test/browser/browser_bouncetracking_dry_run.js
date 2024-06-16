@@ -260,6 +260,16 @@ testGetBounceTrackerCandidateHosts
 {
 }
 )
+.
+map
+(
+entry
+=
+>
+entry
+.
+siteHost
+)
 [
 TEST_BASE_DOMAIN
 ]
