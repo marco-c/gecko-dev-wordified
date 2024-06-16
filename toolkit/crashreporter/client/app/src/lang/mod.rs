@@ -178,8 +178,6 @@ omnijar
 (
 {
 e
-:
-#
 }
 )
 falling
