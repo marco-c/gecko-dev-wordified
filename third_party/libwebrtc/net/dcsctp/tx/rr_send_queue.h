@@ -516,8 +516,6 @@ DcSctpSocketCallbacks
 *
 callbacks
 size_t
-buffer_size
-size_t
 mtu
 StreamPriority
 default_priority
@@ -1946,10 +1944,6 @@ log_prefix_
 DcSctpSocketCallbacks
 &
 callbacks_
-;
-const
-size_t
-buffer_size_
 ;
 const
 StreamPriority
