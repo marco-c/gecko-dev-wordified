@@ -3257,7 +3257,7 @@ NextFrame
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 rtp_timestamp
 )

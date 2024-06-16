@@ -910,7 +910,7 @@ push_back
 {
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 frame
@@ -1100,7 +1100,7 @@ first
 =
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )

@@ -7530,7 +7530,7 @@ DropFrame
 (
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 /
@@ -7555,7 +7555,7 @@ AddFrame
 (
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 /
@@ -7617,7 +7617,7 @@ NextFrameConfig
 i
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -9255,7 +9255,7 @@ stream_idx
 encoder_idx
 input_image
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -9304,7 +9304,7 @@ SetRtpTimestamp
 (
 input_image
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -9581,7 +9581,7 @@ OnFrameDropped
 stream_idx
 input_image
 .
-timestamp
+rtp_timestamp
 (
 )
 )

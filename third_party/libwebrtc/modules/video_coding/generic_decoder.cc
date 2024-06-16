@@ -733,7 +733,7 @@ timestamp
 "
 decodedImage
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -806,7 +806,7 @@ FindFrameInfo
 (
 decodedImage
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -868,7 +868,7 @@ timestamp
 <
 decodedImage
 .
-timestamp
+rtp_timestamp
 (
 )
 ;
@@ -1447,7 +1447,7 @@ rtp_timestamp
 =
 decodedImage
 .
-timestamp
+rtp_timestamp
 (
 )
 ;

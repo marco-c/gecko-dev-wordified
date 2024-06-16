@@ -7430,7 +7430,7 @@ EXPECT_EQ
 (
 input_image
 .
-timestamp
+rtp_timestamp
 (
 )
 0u
@@ -7462,7 +7462,7 @@ EXPECT_GT
 (
 input_image
 .
-timestamp
+rtp_timestamp
 (
 )
 timestamp_
@@ -7482,7 +7482,7 @@ EXPECT_EQ
 (
 input_image
 .
-timestamp
+rtp_timestamp
 (
 )
 input_image
@@ -7499,7 +7499,7 @@ timestamp_
 =
 input_image
 .
-timestamp
+rtp_timestamp
 (
 )
 ;

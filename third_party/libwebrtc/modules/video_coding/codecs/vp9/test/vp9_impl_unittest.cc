@@ -15463,7 +15463,7 @@ timestamp
 =
 input_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 +
@@ -15473,7 +15473,7 @@ input_framerate_fps
 ;
 input_frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 static_cast
 <
@@ -15817,7 +15817,7 @@ timestamp
 =
 input_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 +
@@ -15827,7 +15827,7 @@ input_framerate_fps
 ;
 input_frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 static_cast
 <

@@ -7543,7 +7543,7 @@ frame_timestamp_ms
 *
 input_image
 .
-timestamp
+rtp_timestamp
 (
 )
 /
@@ -13139,7 +13139,7 @@ SetRtpTimestamp
 input_image_
 -
 >
-timestamp
+rtp_timestamp
 (
 )
 )

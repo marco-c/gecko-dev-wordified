@@ -1667,7 +1667,7 @@ NextInputFrame
 ;
 input_frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 kInitialTimestampRtp
 )
@@ -3095,7 +3095,7 @@ NextInputFrame
 ;
 input_frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 kInitialTimestampRtp
 )
@@ -3234,7 +3234,7 @@ kInitialTimestampRtp
 decoded_frame
 -
 >
-timestamp
+rtp_timestamp
 (
 )
 )

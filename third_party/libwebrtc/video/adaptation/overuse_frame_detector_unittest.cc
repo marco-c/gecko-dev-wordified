@@ -606,7 +606,7 @@ num_frames
 {
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 timestamp
 )
@@ -769,7 +769,7 @@ num_frames
 {
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 timestamp
 )
@@ -966,7 +966,7 @@ num_frames
 {
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 timestamp
 )
@@ -2364,7 +2364,7 @@ timestamps
 .
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 static_cast
 <
@@ -2581,7 +2581,7 @@ i
 {
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 timestamp
 )
@@ -5679,7 +5679,7 @@ timestamps
 .
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 static_cast
 <
@@ -5896,7 +5896,7 @@ i
 {
 frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 timestamp
 )

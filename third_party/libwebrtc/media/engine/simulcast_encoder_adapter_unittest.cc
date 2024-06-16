@@ -4038,7 +4038,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 100
 )
@@ -7329,7 +7329,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 100
 )
@@ -7669,7 +7669,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 100
 )
@@ -8204,7 +8204,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 0
 )
@@ -8400,7 +8400,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 10000
 )
@@ -8596,7 +8596,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 20000
 )
@@ -8795,7 +8795,7 @@ set_video_frame_buffer
 input_buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 0
 )
@@ -9571,7 +9571,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 100
 )
@@ -9885,7 +9885,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 100
 )
@@ -12272,7 +12272,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 100
 )
@@ -12661,7 +12661,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 100
 )

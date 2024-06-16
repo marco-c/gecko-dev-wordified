@@ -10701,7 +10701,7 @@ kMsToRtpTimestamp
 ;
 incoming_frame
 .
-set_timestamp
+set_rtp_timestamp
 (
 kMsToRtpTimestamp
 *
@@ -14257,7 +14257,7 @@ timestamp
 "
 out_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 )

@@ -995,7 +995,7 @@ timestamp
 <
 frame
 .
-timestamp
+rtp_timestamp
 (
 )
 ;
@@ -1032,7 +1032,7 @@ back
 (
 )
 .
-timestamp
+rtp_timestamp
 (
 )
 ;
@@ -1266,7 +1266,7 @@ if
 (
 arg
 .
-timestamp
+rtp_timestamp
 (
 )
 !
@@ -1292,7 +1292,7 @@ was
 <
 arg
 .
-timestamp
+rtp_timestamp
 (
 )
 <

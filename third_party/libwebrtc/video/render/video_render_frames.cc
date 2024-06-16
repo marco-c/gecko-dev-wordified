@@ -400,7 +400,7 @@ timestamp
 <
 new_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 ;
@@ -446,7 +446,7 @@ timestamp
 <
 new_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 ;

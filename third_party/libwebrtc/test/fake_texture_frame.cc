@@ -152,7 +152,7 @@ height
 )
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 timestamp
 )

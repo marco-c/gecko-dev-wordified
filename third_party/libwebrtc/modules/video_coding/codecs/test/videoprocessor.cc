@@ -1870,7 +1870,7 @@ set_video_frame_buffer
 buffer
 )
 .
-set_timestamp_rtp
+set_rtp_timestamp
 (
 static_cast
 <
@@ -2657,11 +2657,11 @@ build
 ;
 copy
 .
-set_timestamp
+set_rtp_timestamp
 (
 image
 .
-timestamp
+rtp_timestamp
 (
 )
 )
@@ -4086,7 +4086,7 @@ GetFrameWithTimestamp
 (
 decoded_frame
 .
-timestamp
+rtp_timestamp
 (
 )
 spatial_idx

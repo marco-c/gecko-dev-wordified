@@ -326,7 +326,7 @@ SetRtpTimestamp
 (
 inputImage
 .
-timestamp
+rtp_timestamp
 (
 )
 )
