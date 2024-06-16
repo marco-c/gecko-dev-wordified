@@ -246,6 +246,8 @@ topsrcdir
 cargo
 /
 config
+.
+toml
 with
 no
 preprocessing
@@ -281,6 +283,8 @@ a
 cargo
 /
 config
+.
+toml
 with
 the
 right
@@ -6106,6 +6110,8 @@ update
 cargo
 /
 config
+.
+toml
 with
 it
 .

@@ -1295,6 +1295,8 @@ cargo
 /
 config
 .
+toml
+.
 in
 +
 /

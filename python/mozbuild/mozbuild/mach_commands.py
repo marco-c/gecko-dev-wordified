@@ -2660,6 +2660,8 @@ requires
 cargo
 /
 config
+.
+toml
 to
 exist
 but
@@ -2710,8 +2712,11 @@ cargo
 "
 config
 .
+toml
+.
 in
 "
+            
 topsrcdir
 /
 "
@@ -2721,6 +2726,8 @@ cargo
 /
 "
 config
+.
+toml
 "
         
 )
@@ -2777,6 +2784,8 @@ cargo
 /
 "
 config
+.
+toml
 "
 )
 .
