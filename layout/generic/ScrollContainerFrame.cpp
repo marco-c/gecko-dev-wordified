@@ -30848,7 +30848,7 @@ rootFrame
 rootPresShell
 -
 >
-GetRootScrollFrame
+GetRootScrollContainerFrame
 (
 )
 ;
@@ -31162,7 +31162,7 @@ rootFrame
 rootPresShell
 -
 >
-GetRootScrollFrame
+GetRootScrollContainerFrame
 (
 )
 )

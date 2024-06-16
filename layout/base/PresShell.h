@@ -568,6 +568,9 @@ class
 ProfileChunkedBuffer
 ;
 class
+ScrollContainerFrame
+;
+class
 StyleSheet
 ;
 #
@@ -2437,6 +2440,7 @@ GetRootFrame
 Get
 root
 scroll
+container
 frame
 from
 the
@@ -2445,9 +2449,9 @@ constructor
 .
 *
 /
-nsIFrame
+ScrollContainerFrame
 *
-GetRootScrollFrame
+GetRootScrollContainerFrame
 (
 )
 const

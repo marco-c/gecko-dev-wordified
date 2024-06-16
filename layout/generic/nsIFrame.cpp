@@ -673,13 +673,6 @@ h
 #
 include
 "
-nsIScrollableFrame
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h
@@ -28352,7 +28345,7 @@ PresShell
 )
 -
 >
-GetRootScrollFrame
+GetRootScrollContainerFrame
 (
 )
 &
