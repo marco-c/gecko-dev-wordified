@@ -143,6 +143,13 @@ IUnknownImpl
 .
 h
 "
+#
+include
+"
+UiaGrid
+.
+h
+"
 namespace
 mozilla
 {
@@ -159,6 +166,8 @@ public
 IAccessibleTable
 public
 IAccessibleTable2
+public
+UiaGrid
 public
 ia2AccessibleHypertext
 {
