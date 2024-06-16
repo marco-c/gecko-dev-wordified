@@ -415,6 +415,10 @@ sasl
 /
 /
 lockd
+4190
+/
+/
+sieve
 6000
 /
 /
@@ -460,6 +464,10 @@ irc
 (
 alternate
 )
+6679
+/
+/
+osaut
 6697
 /
 /
