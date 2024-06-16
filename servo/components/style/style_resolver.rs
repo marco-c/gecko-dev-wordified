@@ -3281,7 +3281,7 @@ self
 )
 -
 >
-ResolvedStyle
+PrimaryStyle
 {
 /
 /
@@ -3560,8 +3560,6 @@ IncludeStartingStyle
 :
 Yes
 )
-.
-style
 }
 /
 /

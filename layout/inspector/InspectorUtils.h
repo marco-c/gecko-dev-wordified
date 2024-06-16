@@ -270,6 +270,8 @@ nsAString
 aPseudo
 bool
 aIncludeVisitedStyle
+bool
+aWithStartingStyle
 nsTArray
 <
 RefPtr
