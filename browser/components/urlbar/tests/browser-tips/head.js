@@ -1629,9 +1629,14 @@ Assert
 ok
 (
 !
+(
+await
 gUpdateManager
 .
-readyUpdate
+getReadyUpdate
+(
+)
+)
 "
 There
 should
