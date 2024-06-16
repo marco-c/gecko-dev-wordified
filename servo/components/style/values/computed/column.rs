@@ -91,8 +91,6 @@ generics
 column
 :
 :
-ColumnCount
-as
 GenericColumnCount
 ;
 /

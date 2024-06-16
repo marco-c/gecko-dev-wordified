@@ -79,8 +79,6 @@ generics
 column
 :
 :
-ColumnCount
-as
 GenericColumnCount
 ;
 use

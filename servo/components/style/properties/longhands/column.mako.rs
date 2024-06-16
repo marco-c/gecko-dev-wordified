@@ -198,9 +198,7 @@ computed
 ColumnCount
 :
 :
-auto
-(
-)
+Auto
 "
 engines
 =
@@ -217,9 +215,7 @@ specified
 ColumnCount
 :
 :
-auto
-(
-)
+Auto
 "
 servo_pref
 =
