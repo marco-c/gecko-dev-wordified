@@ -2132,8 +2132,11 @@ deny
 return
 GeckoResult
 .
-deny
+fromValue
 (
+AllowOrDeny
+.
+DENY
 )
 ;
 }
@@ -2173,8 +2176,11 @@ allow
 return
 GeckoResult
 .
-allow
+fromValue
 (
+AllowOrDeny
+.
+ALLOW
 )
 ;
 }
