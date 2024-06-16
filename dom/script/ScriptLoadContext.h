@@ -1284,6 +1284,12 @@ GetScriptElement
 )
 const
 ;
+bool
+HasScriptElement
+(
+)
+const
+;
 void
 GetInlineScriptText
 (
@@ -1347,7 +1353,7 @@ SetIsPreloadRequest
 MOZ_ASSERT
 (
 !
-GetScriptElement
+HasScriptElement
 (
 )
 )
