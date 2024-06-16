@@ -5984,6 +5984,10 @@ locked_profiler_add_sampled_counter
 (
 aLock
 powerCounter
+.
+get
+(
+)
 )
 ;
 }
@@ -6526,6 +6530,10 @@ locked_profiler_remove_sampled_counter
 (
 aLock
 powerCounter
+.
+get
+(
+)
 )
 ;
 }
