@@ -784,6 +784,13 @@ context
 searchselect
 "
 "
+context
+-
+translate
+-
+selection
+"
+"
 frame
 -
 sep
