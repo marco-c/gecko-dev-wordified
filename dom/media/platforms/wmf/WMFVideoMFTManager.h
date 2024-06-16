@@ -764,6 +764,10 @@ const
 bool
 mLowLatency
 ;
+const
+bool
+mKeepOriginalPts
+;
 PerformanceRecorderMulti
 <
 DecodeStage
