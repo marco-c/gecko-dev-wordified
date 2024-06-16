@@ -5270,6 +5270,15 @@ result
 NoContentAnalysisResult
 :
 :
+ALLOW_DUE_TO_SAME_TAB_SOURCE
+|
+|
+result
+=
+=
+NoContentAnalysisResult
+:
+:
 ALLOW_DUE_TO_COULD_NOT_GET_DATA
 ;
 }

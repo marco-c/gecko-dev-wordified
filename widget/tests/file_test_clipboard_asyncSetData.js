@@ -168,6 +168,7 @@ clipboard
 asyncSetData
 (
 type
+null
 {
 QueryInterface
 :
@@ -559,6 +560,7 @@ clipboard
 asyncSetData
 (
 type
+null
 rv
 =
 >

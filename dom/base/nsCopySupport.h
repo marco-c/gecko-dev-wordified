@@ -172,6 +172,9 @@ Document
 class
 Selection
 ;
+class
+WindowContext
+;
 }
 /
 /
@@ -334,6 +337,15 @@ nsILoadContext
 aLoadContext
 int32_t
 aCopyFlags
+mozilla
+:
+:
+dom
+:
+:
+WindowContext
+*
+aSettingWindowContext
 )
 ;
 /

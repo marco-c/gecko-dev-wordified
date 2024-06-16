@@ -8983,6 +8983,7 @@ NS_ConvertASCIItoUTF16
 (
 dataURI
 )
+nullptr
 )
 ;
 }

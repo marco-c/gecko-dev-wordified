@@ -221,6 +221,15 @@ const
 int32_t
 &
 aClipboardType
+mozilla
+:
+:
+dom
+:
+:
+WindowContext
+*
+aSettingWindowContext
 )
 {
 nsCOMPtr
@@ -266,6 +275,7 @@ clipboard
 AsyncSetData
 (
 aClipboardType
+aSettingWindowContext
 this
 getter_AddRefs
 (
