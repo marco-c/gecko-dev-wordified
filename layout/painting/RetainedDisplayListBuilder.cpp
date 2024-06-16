@@ -11391,6 +11391,12 @@ mList
 )
 ;
 }
+mBuilder
+.
+InvalidateCaretFramesIfNeeded
+(
+)
+;
 /
 /
 We
