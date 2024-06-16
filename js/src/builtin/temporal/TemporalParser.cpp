@@ -3375,6 +3375,8 @@ num
 /
 TimeFractionalPart
 :
+:
+:
 /
 /
 Digit
@@ -3387,6 +3389,8 @@ Digit
 /
 /
 Fraction
+:
+:
 :
 /
 /
@@ -4187,6 +4191,8 @@ true
 /
 Sign
 :
+:
+:
 /
 /
 ASCIISign
@@ -4200,6 +4206,8 @@ U
 /
 /
 ASCIISign
+:
+:
 :
 one
 of
@@ -4293,6 +4301,8 @@ plus
 /
 DecimalSeparator
 :
+:
+:
 one
 of
 /
@@ -4339,6 +4349,8 @@ oneOf
 /
 DaysDesignator
 :
+:
+:
 one
 of
 /
@@ -4367,6 +4379,8 @@ d
 /
 /
 HoursDesignator
+:
+:
 :
 one
 of
@@ -4397,6 +4411,8 @@ h
 /
 MinutesDesignator
 :
+:
+:
 one
 of
 /
@@ -4425,6 +4441,8 @@ m
 /
 /
 MonthsDesignator
+:
+:
 :
 one
 of
@@ -4455,6 +4473,8 @@ m
 /
 DurationDesignator
 :
+:
+:
 one
 of
 /
@@ -4484,6 +4504,8 @@ p
 /
 SecondsDesignator
 :
+:
+:
 one
 of
 /
@@ -4512,6 +4534,8 @@ s
 /
 /
 DateTimeSeparator
+:
+:
 :
 /
 /
@@ -4548,6 +4572,8 @@ t
 /
 /
 TimeDesignator
+:
+:
 :
 one
 of
@@ -4598,6 +4624,8 @@ t
 /
 WeeksDesignator
 :
+:
+:
 one
 of
 /
@@ -4626,6 +4654,8 @@ w
 /
 /
 YearsDesignator
+:
+:
 :
 one
 of
@@ -4656,6 +4686,8 @@ y
 /
 UTCDesignator
 :
+:
+:
 one
 of
 /
@@ -4684,6 +4716,8 @@ z
 /
 /
 TZLeadingChar
+:
+:
 :
 /
 /
@@ -4741,6 +4775,8 @@ _
 /
 /
 TZChar
+:
+:
 :
 /
 /
@@ -4818,6 +4854,8 @@ ch
 /
 AnnotationCriticalFlag
 :
+:
+:
 /
 /
 !
@@ -4838,6 +4876,8 @@ character
 /
 /
 AKeyLeadingChar
+:
+:
 :
 /
 /
@@ -4884,6 +4924,8 @@ _
 /
 /
 AKeyChar
+:
+:
 :
 /
 /
@@ -4950,6 +4992,8 @@ _
 /
 /
 AnnotationValueComponent
+:
+:
 :
 /
 /
@@ -5748,6 +5792,8 @@ dateTime
 /
 DateTime
 :
+:
+:
 /
 /
 Date
@@ -5913,6 +5959,8 @@ date
 /
 Date
 :
+:
+:
 /
 /
 DateYear
@@ -5934,6 +5982,8 @@ result
 /
 /
 DateYear
+:
+:
 :
 /
 /
@@ -6075,6 +6125,8 @@ character
 /
 DateMonth
 :
+:
+:
 /
 /
 0
@@ -6160,6 +6212,8 @@ character
 /
 /
 DateDay
+:
+:
 :
 /
 /
@@ -6267,6 +6321,8 @@ timeSpec
 /
 TimeSpec
 :
+:
+:
 /
 /
 TimeHour
@@ -6305,6 +6361,8 @@ result
 /
 TimeHour
 :
+:
+:
 /
 /
 Hour
@@ -6313,6 +6371,8 @@ Hour
 /
 /
 Hour
+:
+:
 :
 /
 /
@@ -6410,6 +6470,8 @@ character
 /
 TimeMinute
 :
+:
+:
 /
 /
 MinuteSecond
@@ -6418,6 +6480,8 @@ MinuteSecond
 /
 /
 MinuteSecond
+:
+:
 :
 /
 /
@@ -6509,6 +6573,8 @@ character
 /
 TimeSecond
 :
+:
+:
 /
 /
 MinuteSecond
@@ -6562,6 +6628,8 @@ JSMSG_TEMPORAL_PARSER_INVALID_LEAPSECOND
 /
 /
 TimeFraction
+:
+:
 :
 /
 /
@@ -6691,6 +6759,8 @@ dateTimeUTCOffset
 /
 DateTimeUTCOffset
 :
+:
+:
 /
 /
 UTCDesignator
@@ -6795,6 +6865,8 @@ timeZoneUTCOffsetName
 /
 TimeZoneUTCOffsetName
 :
+:
+:
 /
 /
 UTCOffsetMinutePrecision
@@ -6803,6 +6875,8 @@ UTCOffsetMinutePrecision
 /
 /
 UTCOffsetMinutePrecision
+:
+:
 :
 /
 /
@@ -6863,6 +6937,8 @@ sign
 /
 /
 Hour
+:
+:
 :
 /
 /
@@ -6948,6 +7024,8 @@ TimeSeparator
 Extended
 ]
 :
+:
+:
 /
 /
 [
@@ -6977,6 +7055,8 @@ character
 /
 /
 MinuteSecond
+:
+:
 :
 /
 /
@@ -7122,6 +7202,8 @@ off
 /
 UTCOffsetSubMinutePrecision
 :
+:
+:
 /
 /
 UTCOffsetMinutePrecision
@@ -7144,6 +7226,8 @@ Extended
 /
 /
 UTCOffsetMinutePrecision
+:
+:
 :
 /
 /
@@ -7177,6 +7261,8 @@ UTCOffsetWithSubMinuteComponents
 [
 Extended
 ]
+:
+:
 :
 /
 /
@@ -7239,6 +7325,8 @@ sign
 /
 /
 Hour
+:
+:
 :
 /
 /
@@ -7324,6 +7412,8 @@ TimeSeparator
 Extended
 ]
 :
+:
+:
 /
 /
 [
@@ -7353,6 +7443,8 @@ character
 /
 /
 MinuteSecond
+:
+:
 :
 /
 /
@@ -7429,6 +7521,8 @@ TimeSeparator
 Extended
 ]
 :
+:
+:
 /
 /
 [
@@ -7461,6 +7555,8 @@ character
 /
 /
 MinuteSecond
+:
+:
 :
 /
 /
@@ -7622,6 +7718,8 @@ timeZoneIdentifier
 /
 TimeZoneIdentifier
 :
+:
+:
 /
 /
 TimeZoneUTCOffsetName
@@ -7744,6 +7842,8 @@ timeZoneAnnotation
 /
 TimeZoneAnnotation
 :
+:
+:
 /
 /
 [
@@ -7861,6 +7961,8 @@ timeZoneIANAName
 /
 TimeZoneIANAName
 :
+:
+:
 /
 /
 TimeZoneIANANameComponent
@@ -7874,6 +7976,8 @@ TimeZoneIANANameComponent
 /
 /
 TimeZoneIANANameComponent
+:
+:
 :
 /
 /
@@ -8148,6 +8252,8 @@ off
 /
 /
 TemporalInstantString
+:
+:
 :
 /
 /
@@ -8716,6 +8822,8 @@ parseTemporalTimeZoneString
 /
 /
 TimeZoneIdentifier
+:
+:
 :
 /
 /
@@ -10602,6 +10710,8 @@ result
 /
 TemporalDurationString
 :
+:
+:
 /
 /
 Duration
@@ -10610,6 +10720,8 @@ Duration
 /
 /
 Duration
+:
+:
 :
 /
 /
@@ -10660,6 +10772,8 @@ JSMSG_TEMPORAL_PARSER_MISSING_DURATION_DESIGNATOR
 /
 /
 DurationDate
+:
+:
 :
 /
 /
@@ -10732,6 +10846,8 @@ d
 /
 DurationYearsPart
 :
+:
+:
 /
 /
 DurationYears
@@ -10753,6 +10869,8 @@ DurationDaysPart
 /
 /
 DurationYears
+:
+:
 :
 /
 /
@@ -10834,6 +10952,8 @@ d
 /
 DurationMonthsPart
 :
+:
+:
 /
 /
 DurationMonths
@@ -10850,6 +10970,8 @@ DurationDaysPart
 /
 /
 DurationMonths
+:
+:
 :
 /
 /
@@ -10931,6 +11053,8 @@ d
 /
 DurationWeeksPart
 :
+:
+:
 /
 /
 DurationWeeks
@@ -10942,6 +11066,8 @@ DurationDaysPart
 /
 /
 DurationWeeks
+:
+:
 :
 /
 /
@@ -11023,6 +11149,8 @@ d
 /
 DurationDaysPart
 :
+:
+:
 /
 /
 DurationDays
@@ -11032,6 +11160,8 @@ DaysDesignator
 /
 /
 DurationDays
+:
+:
 :
 /
 /
@@ -11095,6 +11225,8 @@ false
 /
 /
 DurationTime
+:
+:
 :
 /
 /
@@ -11211,6 +11343,8 @@ off
 /
 DurationHoursPart
 :
+:
+:
 /
 /
 DurationWholeHours
@@ -11233,6 +11367,8 @@ DurationSecondsPart
 /
 DurationWholeHours
 :
+:
+:
 /
 /
 DecimalDigits
@@ -11246,6 +11382,8 @@ Sep
 /
 DurationHoursFraction
 :
+:
+:
 /
 /
 TimeFraction
@@ -11254,6 +11392,8 @@ TimeFraction
 /
 /
 TimeFraction
+:
+:
 :
 /
 /
@@ -11346,6 +11486,8 @@ off
 /
 DurationMinutesPart
 :
+:
+:
 /
 /
 DurationWholeMinutes
@@ -11363,6 +11505,8 @@ DurationSecondsPart
 /
 DurationWholeMinutes
 :
+:
+:
 /
 /
 DecimalDigits
@@ -11376,6 +11520,8 @@ Sep
 /
 DurationMinutesFraction
 :
+:
+:
 /
 /
 TimeFraction
@@ -11384,6 +11530,8 @@ TimeFraction
 /
 /
 TimeFraction
+:
+:
 :
 /
 /
@@ -11483,6 +11631,8 @@ JSMSG_TEMPORAL_PARSER_MISSING_DURATION_DIGITS
 /
 DurationSecondsPart
 :
+:
+:
 /
 /
 DurationWholeSeconds
@@ -11494,6 +11644,8 @@ SecondsDesignator
 /
 /
 DurationWholeSeconds
+:
+:
 :
 /
 /
@@ -11508,6 +11660,8 @@ Sep
 /
 DurationSecondsFraction
 :
+:
+:
 /
 /
 TimeFraction
@@ -11516,6 +11670,8 @@ TimeFraction
 /
 /
 TimeFraction
+:
+:
 :
 /
 /
@@ -12628,6 +12784,8 @@ annotationKey
 /
 AnnotationKey
 :
+:
+:
 /
 /
 AKeyLeadingChar
@@ -12723,6 +12881,8 @@ annotationValue
 /
 AnnotationValue
 :
+:
+:
 /
 /
 AnnotationValueComponent
@@ -12811,6 +12971,8 @@ annotation
 /
 /
 Annotation
+:
+:
 :
 /
 /
@@ -12982,6 +13144,8 @@ annotations
 /
 /
 Annotations
+:
+:
 :
 /
 /
@@ -13205,6 +13369,8 @@ off
 /
 AnnotatedTime
 :
+:
+:
 /
 /
 TimeDesignator
@@ -13420,6 +13586,8 @@ off
 /
 /
 TimeSpecWithOptionalOffsetNotAmbiguous
+:
+:
 :
 /
 /
@@ -13792,6 +13960,8 @@ AnnotatedDateTime
 Zoned
 ]
 :
+:
+:
 /
 /
 [
@@ -13970,6 +14140,8 @@ off
 /
 /
 AnnotatedDateTimeTimeRequired
+:
+:
 :
 /
 /
@@ -14241,6 +14413,8 @@ annotatedYearMonth
 /
 AnnotatedYearMonth
 :
+:
+:
 /
 /
 DateSpecYearMonth
@@ -14405,6 +14579,8 @@ annotatedMonthDay
 /
 AnnotatedMonthDay
 :
+:
+:
 /
 /
 DateSpecMonthDay
@@ -14569,6 +14745,8 @@ dateSpecYearMonth
 /
 DateSpecYearMonth
 :
+:
+:
 /
 /
 DateYear
@@ -14584,6 +14762,8 @@ result
 /
 /
 DateYear
+:
+:
 :
 /
 /
@@ -14720,6 +14900,8 @@ character
 /
 DateMonth
 :
+:
+:
 /
 /
 0
@@ -14838,6 +15020,8 @@ dateSpecMonthDay
 /
 DateSpecMonthDay
 :
+:
+:
 /
 /
 -
@@ -14858,6 +15042,12 @@ result
 {
 }
 ;
+/
+/
+Optional
+:
+-
+-
 string
 (
 "
@@ -14875,6 +15065,8 @@ AbsentYear
 /
 /
 DateMonth
+:
+:
 :
 /
 /
@@ -14946,6 +15138,11 @@ JSMSG_TEMPORAL_PARSER_MISSING_MONTH
 )
 ;
 }
+/
+/
+Optional
+:
+-
 character
 (
 '
@@ -14956,6 +15153,8 @@ character
 /
 /
 DateDay
+:
+:
 :
 /
 /
@@ -15063,6 +15262,8 @@ validMonthDay
 /
 ValidMonthDay
 :
+:
+:
 /
 /
 DateMonth
@@ -15111,6 +15312,8 @@ DateMonthWithThirtyOneDays
 /
 DateMonthWithThirtyOneDays
 :
+:
+:
 one
 of
 /
@@ -15131,6 +15334,8 @@ result
 /
 /
 DateMonth
+:
+:
 :
 /
 /
@@ -15202,6 +15407,11 @@ JSMSG_TEMPORAL_PARSER_MISSING_MONTH
 )
 ;
 }
+/
+/
+Optional
+:
+-
 character
 (
 '
@@ -16092,6 +16302,8 @@ parseTemporalTimeString
 /
 TemporalTimeString
 :
+:
+:
 /
 /
 AnnotatedTime
@@ -16518,6 +16730,8 @@ parseTemporalMonthDayString
 /
 /
 TemporalMonthDayString
+:
+:
 :
 /
 /
@@ -17060,6 +17274,8 @@ parseTemporalYearMonthString
 /
 TemporalYearMonthString
 :
+:
+:
 /
 /
 AnnotatedYearMonth
@@ -17582,6 +17798,8 @@ TemporalDateTimeString
 Zoned
 ]
 :
+:
+:
 /
 /
 AnnotatedDateTime
@@ -18085,6 +18303,8 @@ TemporalDateTimeString
 Zoned
 ]
 :
+:
+:
 /
 /
 AnnotatedDateTime
@@ -18100,6 +18320,8 @@ AnnotatedDateTime
 [
 Zoned
 ]
+:
+:
 :
 /
 /
