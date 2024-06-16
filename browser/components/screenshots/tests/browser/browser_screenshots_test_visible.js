@@ -275,7 +275,7 @@ shadowRoot
 querySelector
 (
 "
-#
+.
 visible
 -
 page
@@ -838,7 +838,7 @@ shadowRoot
 querySelector
 (
 "
-#
+.
 visible
 -
 page
@@ -1401,7 +1401,7 @@ shadowRoot
 querySelector
 (
 "
-#
+.
 visible
 -
 page
@@ -1964,7 +1964,7 @@ shadowRoot
 querySelector
 (
 "
-#
+.
 visible
 -
 page
