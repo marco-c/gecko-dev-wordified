@@ -844,14 +844,6 @@ size_t
 >
 image_widths_
 ;
-Predictor
-delta_pred_
-=
-Predictor
-:
-:
-Average4
-;
 struct
 GroupParams
 {

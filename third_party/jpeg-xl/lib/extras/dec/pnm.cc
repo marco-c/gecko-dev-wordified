@@ -2465,6 +2465,11 @@ ReleaseCurrentData
 ;
 }
 void
+/
+*
+NOLINT
+*
+/
 GetColorChannelsPixelFormat
 (
 JxlPixelFormat
@@ -2590,6 +2595,11 @@ JxlPixelFormat
 pixel_format
 )
 {
+(
+void
+)
+this
+;
 JXL_ABORT
 (
 "
@@ -2619,6 +2629,11 @@ size_t
 row_offset
 )
 {
+(
+void
+)
+this
+;
 JXL_ABORT
 (
 "

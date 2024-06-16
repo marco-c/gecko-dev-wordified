@@ -2234,6 +2234,9 @@ size
 =
 0
 ;
+/
+/
+NOLINT
 jpeg_mem_dest
 (
 &

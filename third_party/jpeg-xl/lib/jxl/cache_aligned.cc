@@ -1021,6 +1021,9 @@ payload
 -
 1
 ;
+/
+/
+NOLINT
 header
 -
 >
@@ -1049,6 +1052,9 @@ payload
 64
 )
 ;
+/
+/
+NOLINT
 }
 void
 CacheAligned
@@ -1112,6 +1118,9 @@ payload
 -
 1
 ;
+/
+/
+NOLINT
 /
 /
 Subtract

@@ -159,6 +159,9 @@ unsigned
 long
 transcoded_size
 ;
+/
+/
+NOLINT
 const
 auto
 try_catch_block

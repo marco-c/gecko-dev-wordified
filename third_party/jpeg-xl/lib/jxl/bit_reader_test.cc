@@ -424,8 +424,11 @@ EXPECT_TRUE
 (
 RunOnPool
 (
-&
 pool
+.
+get
+(
+)
 0
 1000
 ThreadPool
@@ -658,8 +661,11 @@ EXPECT_TRUE
 (
 RunOnPool
 (
-&
 pool
+.
+get
+(
+)
 0
 96
 ThreadPool

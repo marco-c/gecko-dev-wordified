@@ -3124,7 +3124,9 @@ render_pipeline_input
 ;
 for
 (
+const
 auto
+&
 t
 :
 global_transform

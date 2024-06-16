@@ -454,6 +454,9 @@ buffer_size
 =
 0
 ;
+/
+/
+NOLINT
 std
 :
 :
@@ -810,6 +813,9 @@ buffer_size
 =
 0
 ;
+/
+/
+NOLINT
 {
 jpeg_compress_struct
 cinfo
@@ -1069,9 +1075,11 @@ ftell
 tmpf
 )
 ;
-rewind
+fseek
 (
 tmpf
+0
+SEEK_SET
 )
 ;
 std
@@ -1198,6 +1206,9 @@ buffer_size
 =
 0
 ;
+/
+/
+NOLINT
 std
 :
 :
@@ -1689,6 +1700,9 @@ table_stream_size
 =
 0
 ;
+/
+/
+NOLINT
 uint8_t
 *
 data_stream
@@ -1701,6 +1715,9 @@ data_stream_size
 =
 0
 ;
+/
+/
+NOLINT
 {
 jpeg_compress_struct
 cinfo

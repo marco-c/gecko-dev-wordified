@@ -1794,8 +1794,11 @@ stp
 png
 TestGradient
 (
-&
 pool
+.
+get
+(
+)
 0xd99d58
 0x889ab1
 512
@@ -1830,8 +1833,11 @@ subtle
 gradient
 TestGradient
 (
-&
 pool
+.
+get
+(
+)
 0xb89b7b
 0xa89b8d
 512

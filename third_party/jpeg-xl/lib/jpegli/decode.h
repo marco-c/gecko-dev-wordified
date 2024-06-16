@@ -292,6 +292,11 @@ inbuffer
 unsigned
 long
 insize
+/
+*
+NOLINT
+*
+/
 )
 ;
 int

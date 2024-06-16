@@ -194,6 +194,11 @@ j_decompress_ptr
 cinfo
 long
 num_bytes
+/
+*
+NOLINT
+*
+/
 )
 {
 }

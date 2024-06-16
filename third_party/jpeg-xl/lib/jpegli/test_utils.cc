@@ -5894,6 +5894,9 @@ buffer_size
 =
 0
 ;
+/
+/
+NOLINT
 jpeg_compress_struct
 cinfo
 ;

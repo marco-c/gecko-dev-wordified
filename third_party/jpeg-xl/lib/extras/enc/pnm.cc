@@ -672,6 +672,7 @@ bytes
 }
 private
 :
+static
 Status
 EncodeImage
 (
@@ -691,7 +692,6 @@ uint8_t
 *
 bytes
 )
-const
 {
 uint32_t
 maxval
@@ -1195,6 +1195,7 @@ bytes
 }
 private
 :
+static
 Status
 EncodeImage
 (
@@ -1212,7 +1213,6 @@ uint8_t
 *
 bytes
 )
-const
 {
 char
 type

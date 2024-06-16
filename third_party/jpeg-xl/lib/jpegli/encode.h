@@ -293,6 +293,11 @@ unsigned
 long
 *
 outsize
+/
+*
+NOLINT
+*
+/
 )
 ;
 void

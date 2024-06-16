@@ -108,11 +108,17 @@ MemoryMappedFile
 (
 )
 ;
+/
+/
+NOLINT
 ~
 MemoryMappedFile
 (
 )
 ;
+/
+/
+NOLINT
 MemoryMappedFile
 (
 MemoryMappedFile
@@ -121,6 +127,9 @@ MemoryMappedFile
 )
 noexcept
 ;
+/
+/
+NOLINT
 MemoryMappedFile
 &
 operator
@@ -132,6 +141,9 @@ MemoryMappedFile
 )
 noexcept
 ;
+/
+/
+NOLINT
 private
 :
 std
