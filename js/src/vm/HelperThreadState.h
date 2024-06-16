@@ -714,10 +714,6 @@ items
 class
 GlobalHelperThreadState
 {
-friend
-class
-AutoLockHelperThreadState
-;
 public
 :
 /
@@ -1381,6 +1377,10 @@ dispatchTaskCallback
 =
 nullptr
 ;
+friend
+class
+AutoHelperTaskQueue
+;
 /
 /
 The
@@ -1590,7 +1590,7 @@ wait
 (
 AutoLockHelperThreadState
 &
-locked
+lock
 mozilla
 :
 :
