@@ -7554,7 +7554,10 @@ left
 >
 next
 ;
-do
+while
+(
+right
+)
 {
 if
 unlikely
@@ -7631,10 +7634,13 @@ right
 next
 ;
 }
-while
+;
+if
 (
-1
+!
+right
 )
+return
 ;
 edges_start_or_continue
 (
