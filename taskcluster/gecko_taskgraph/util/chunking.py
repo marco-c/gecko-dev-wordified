@@ -1195,6 +1195,15 @@ tag
 =
 False
     
+info
+[
+"
+automation
+"
+]
+=
+True
+    
 return
 info
 memoize
