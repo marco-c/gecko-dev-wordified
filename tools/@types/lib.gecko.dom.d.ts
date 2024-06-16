@@ -158079,10 +158079,6 @@ deleteDatabase
 name
 :
 string
-options
-?
-:
-IDBOpenDBOptions
 )
 :
 IDBOpenDBRequest

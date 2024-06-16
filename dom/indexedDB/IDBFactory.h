@@ -809,10 +809,6 @@ const
 nsAString
 &
 aName
-const
-IDBOpenDBOptions
-&
-aOptions
 CallerType
 aCallerType
 ErrorResult
