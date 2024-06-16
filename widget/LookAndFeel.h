@@ -613,16 +613,6 @@ not
 MacRTL
 /
 *
-Native
-macOS
-titlebar
-height
-.
-*
-/
-MacTitlebarHeight
-/
-*
 *
 AlertNotificationOrigin
 indicates
