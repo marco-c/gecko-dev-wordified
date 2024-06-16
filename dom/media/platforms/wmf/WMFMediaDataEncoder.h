@@ -518,6 +518,12 @@ bool
 aIsKeyframe
 )
 ;
+bool
+IsAnnexB
+(
+)
+const
+;
 void
 AssertOnTaskQueue
 (
@@ -560,8 +566,10 @@ SPS
 /
 PPS
 NALUs
-for
-realtime
+when
+encoding
+in
+AnnexB
 usage
 avcC
 otherwise
