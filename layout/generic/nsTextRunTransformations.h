@@ -1496,7 +1496,16 @@ this
 1
 )
 ;
+SetEmergencyWrapPositions
+(
+)
+;
 }
+void
+SetEmergencyWrapPositions
+(
+)
+;
 }
 ;
 /
