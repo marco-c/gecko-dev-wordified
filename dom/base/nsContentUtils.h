@@ -18777,6 +18777,16 @@ aMIMEType
 )
 ;
 static
+bool
+IsJavascriptMIMEType
+(
+const
+nsACString
+&
+aMIMEType
+)
+;
+static
 void
 SplitMimeType
 (
