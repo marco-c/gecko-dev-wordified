@@ -99,6 +99,13 @@ sys
 mjs
 "
 "
+ParentProcessWatcherRegistry
+.
+sys
+.
+mjs
+"
+"
 session
 -
 context
@@ -107,13 +114,6 @@ js
 "
 "
 SessionDataHelpers
-.
-sys
-.
-mjs
-"
-"
-WatcherRegistry
 .
 sys
 .
