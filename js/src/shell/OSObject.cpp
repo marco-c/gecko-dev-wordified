@@ -3017,7 +3017,7 @@ cannot
 convert
 path
 to
-Latin1
+UTF8
 "
 )
 ;
@@ -3122,7 +3122,7 @@ if
 dir
 )
 {
-JS_ReportErrorASCII
+JS_ReportErrorUTF8
 (
 cx
 "
