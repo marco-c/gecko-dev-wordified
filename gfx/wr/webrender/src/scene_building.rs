@@ -438,6 +438,7 @@ api
 :
 :
 {
+DebugFlags
 DisplayItem
 DisplayItemRef
 ExtendMode
@@ -3448,6 +3449,9 @@ stats
 :
 &
 SceneStats
+debug_flags
+:
+DebugFlags
 )
 -
 >
@@ -3673,6 +3677,7 @@ root_reference_frame_index
 frame_builder_config
 .
 background_color
+debug_flags
 )
 snap_to_device
 picture_graph
