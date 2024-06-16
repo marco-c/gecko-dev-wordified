@@ -13121,11 +13121,6 @@ StyleAppearance
 :
 Menupopup
 :
-return
-Nothing
-(
-)
-;
 case
 StyleAppearance
 :
