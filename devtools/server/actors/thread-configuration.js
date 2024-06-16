@@ -187,6 +187,17 @@ SUPPORTED_OPTIONS
 {
 /
 /
+List
+of
+all
+active
+breakpoints
+.
+breakpoints
+:
+true
+/
+/
 Disable
 pausing
 on

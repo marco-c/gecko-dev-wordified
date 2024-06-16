@@ -111,6 +111,11 @@ nullable
 :
 boolean
 "
+breakpoints
+:
+"
+json
+"
 }
 )
 ;

@@ -1317,7 +1317,7 @@ lazyRequireGetter
 (
 this
 "
-getThreadOptions
+getThreadConfiguration
 "
 "
 resource
@@ -14031,7 +14031,7 @@ const
 threadConfiguration
 =
 await
-getThreadOptions
+getThreadConfiguration
 (
 )
 ;

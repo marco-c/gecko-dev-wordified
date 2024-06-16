@@ -237,9 +237,6 @@ key
 !
 [
 "
-breakpoints
-"
-"
 eventBreakpoints
 "
 ]
