@@ -369,6 +369,15 @@ IsReadyToSend
 const
 override
 ;
+size_t
+buffered_amount
+(
+int
+channel_id
+)
+const
+override
+;
 /
 /
 Internal

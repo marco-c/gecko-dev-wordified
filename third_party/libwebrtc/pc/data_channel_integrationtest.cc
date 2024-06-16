@@ -9465,6 +9465,8 @@ set_drop_probability
 /
 Fill
 the
+SCTP
+socket
 buffer
 until
 queued
@@ -9472,6 +9474,17 @@ data
 starts
 to
 build
+.
+constexpr
+size_t
+kBufferedDataInSctpSocket
+=
+2
+'
+000
+'
+000
+;
 size_t
 packet_counter
 =
@@ -9493,7 +9506,7 @@ buffered_amount
 (
 )
 <
-1
+kBufferedDataInSctpSocket
 &
 &
 packet_counter
@@ -9543,6 +9556,8 @@ data_channel
 buffered_amount
 (
 )
+>
+kBufferedDataInSctpSocket
 )
 {
 RTC_LOG
