@@ -6148,9 +6148,6 @@ RadialGradientDataHandle
 visible_tiles_range
 :
 GradientTileRange
-cached
-:
-bool
 }
 ConicGradient
 {
@@ -6173,9 +6170,6 @@ ConicGradientDataHandle
 visible_tiles_range
 :
 GradientTileRange
-cached
-:
-bool
 }
 /
 /
