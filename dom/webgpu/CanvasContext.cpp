@@ -1206,6 +1206,15 @@ MaybeQueueSwapChainPresent
 (
 )
 {
+if
+(
+!
+mConfig
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 mTexture
