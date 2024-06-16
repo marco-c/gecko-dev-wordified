@@ -3019,6 +3019,10 @@ aDragEvent
 >
 InputSource
 (
+CallerType
+:
+:
+System
 )
 ;
 /
@@ -3328,6 +3332,10 @@ aDragEvent
 >
 InputSource
 (
+CallerType
+:
+:
+System
 )
 ;
 nsresult
@@ -3496,6 +3504,10 @@ aDragEvent
 >
 InputSource
 (
+CallerType
+:
+:
+System
 )
 ;
 /

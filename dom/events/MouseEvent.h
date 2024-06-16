@@ -582,12 +582,14 @@ y
 float
 MozPressure
 (
+CallerType
 )
 const
 ;
 uint16_t
 InputSource
 (
+CallerType
 )
 const
 ;
