@@ -406,7 +406,7 @@ DoShutdownBackend
 )
 ;
 void
-DoSetAppID
+DoSetAppIDIfAvailable
 (
 nsString
 aAppUserModelID
