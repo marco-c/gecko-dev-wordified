@@ -4045,7 +4045,7 @@ _OutputPaths
 )
 -
 >
-str
+None
 :
     
 "
@@ -4058,14 +4058,25 @@ image
 using
 Cairo
 and
-returns
-the
-file
-location
+save
+filename
+in
+params
 .
 "
 "
 "
+    
+if
+'
+expected
+'
+not
+in
+params
+:
+        
+return
     
 expected
 =
@@ -4094,7 +4105,13 @@ green
 '
 :
         
-return
+params
+[
+'
+expected_img
+'
+]
+=
 '
 /
 images
@@ -4105,6 +4122,8 @@ green
 .
 png
 '
+        
+return
     
 if
 expected
@@ -4115,7 +4134,13 @@ clear
 '
 :
         
-return
+params
+[
+'
+expected_img
+'
+]
+=
 '
 /
 images
@@ -4126,6 +4151,8 @@ clear
 .
 png
 '
+        
+return
     
 if
 '
@@ -4373,7 +4400,13 @@ cairo
 }
 )
     
-return
+params
+[
+'
+expected_img
+'
+]
+=
 f
 '
 {
@@ -4437,36 +4470,6 @@ canvas_types
 '
 ]
     
-expected_img
-=
-None
-    
-if
-'
-expected
-'
-in
-test
-and
-test
-[
-'
-expected
-'
-]
-is
-not
-None
-:
-        
-expected_img
-=
-_generate_expected_image
-(
-test
-output_dirs
-)
-    
 params
 =
 dict
@@ -4493,12 +4496,6 @@ code
 '
 ]
 )
-        
-'
-expected_img
-'
-:
-expected_img
     
 }
 )
@@ -5456,18 +5453,27 @@ file_name
 name_to_sub_dir
 )
             
-_generate_test
-(
-variant
-jinja_env
-used_tests
-                           
+output_sub_dirs
+=
 output_dirs
 .
 sub_path
 (
 sub_dir
 )
+            
+_generate_expected_image
+(
+variant
+output_sub_dirs
+)
+            
+_generate_test
+(
+variant
+jinja_env
+used_tests
+output_sub_dirs
 )
     
 print
