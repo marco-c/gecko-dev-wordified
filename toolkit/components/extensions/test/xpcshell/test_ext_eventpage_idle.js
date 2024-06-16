@@ -988,7 +988,7 @@ resetData
 .
 reason
 "
-parentApiCall
+parentapicall
 "
 "
 Got
@@ -3600,7 +3600,7 @@ resetIdleData
 reason
 :
 "
-pendingListeners
+listeners
 "
 pendingListeners
 :
@@ -4182,7 +4182,7 @@ resetIdleData
 reason
 :
 "
-pendingListeners
+listeners
 "
 pendingListeners
 :

@@ -369,9 +369,9 @@ background
 .
 idle
 .
-enabled
+timeout
 "
-false
+300_000
 )
 ;
 /
