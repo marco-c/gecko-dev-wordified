@@ -1515,7 +1515,7 @@ gfx
 gfxVars
 :
 :
-UseVP8HwDecode
+GetUseVP8HwDecodeOrDefault
 (
 )
 )
