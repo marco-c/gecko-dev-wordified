@@ -113,6 +113,11 @@ GMPDecoderModule
 h
 "
 "
+GMPEncoderModule
+.
+h
+"
+"
 GMPVideoDecoder
 .
 h
@@ -129,6 +134,11 @@ UNIFIED_SOURCES
 [
 "
 GMPDecoderModule
+.
+cpp
+"
+"
+GMPEncoderModule
 .
 cpp
 "
