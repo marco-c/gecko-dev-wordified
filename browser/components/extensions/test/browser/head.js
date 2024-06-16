@@ -2735,7 +2735,7 @@ body
 let
 contentAreaContextMenu
 =
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -2751,7 +2751,7 @@ contentAreaContextMenu
 let
 browser
 =
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -2822,7 +2822,7 @@ being
 recomputed
 .
 await
-SidebarUI
+SidebarController
 .
 browser
 .

@@ -1337,7 +1337,7 @@ window
 TabsProgressListener
 )
 ;
-SidebarUI
+SidebarController
 .
 init
 (
@@ -3052,7 +3052,7 @@ init
 (
 )
 ;
-SidebarUI
+SidebarController
 .
 startDelayedLoad
 (
@@ -6295,7 +6295,7 @@ uninit
 (
 )
 ;
-SidebarUI
+SidebarController
 .
 uninit
 (

@@ -100,7 +100,7 @@ box
 hidden
 )
 {
-SidebarUI
+SidebarController
 .
 hide
 (
@@ -169,7 +169,7 @@ ok
 (
 win
 .
-SidebarUI
+SidebarController
 .
 isOpen
 "
@@ -241,7 +241,7 @@ ok
 !
 win
 .
-SidebarUI
+SidebarController
 .
 isOpen
 "
@@ -314,7 +314,7 @@ showSidebar
 ;
 is
 (
-SidebarUI
+SidebarController
 .
 currentID
 "
@@ -328,7 +328,7 @@ selected
 )
 ;
 await
-SidebarUI
+SidebarController
 .
 show
 (
@@ -349,7 +349,7 @@ showSidebar
 ;
 is
 (
-SidebarUI
+SidebarController
 .
 currentID
 "
@@ -387,7 +387,7 @@ is
 (
 otherWin
 .
-SidebarUI
+SidebarController
 .
 currentID
 "

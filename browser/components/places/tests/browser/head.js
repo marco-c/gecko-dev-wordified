@@ -2512,7 +2512,7 @@ viewBookmarksSidebar
 viewHistorySidebar
 "
 ;
-SidebarUI
+SidebarController
 .
 show
 (
@@ -2590,7 +2590,7 @@ tree
 }
 finally
 {
-SidebarUI
+SidebarController
 .
 hide
 (

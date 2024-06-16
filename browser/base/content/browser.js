@@ -9617,7 +9617,7 @@ case
 Bookmarks
 "
 :
-SidebarUI
+SidebarController
 .
 toggle
 (
@@ -30829,12 +30829,12 @@ documentElement
 let
 shouldUpdateSidebar
 =
-SidebarUI
+SidebarController
 .
 initialized
 &
 &
-SidebarUI
+SidebarController
 .
 isOpen
 ;
@@ -30847,7 +30847,7 @@ docs
 .
 push
 (
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -30931,7 +30931,7 @@ shouldUpdateSidebar
 let
 tree
 =
-SidebarUI
+SidebarController
 .
 browser
 .

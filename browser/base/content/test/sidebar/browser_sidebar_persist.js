@@ -149,7 +149,7 @@ openNewBrowserWindow
 await
 win
 .
-SidebarUI
+SidebarController
 .
 show
 (
@@ -215,7 +215,7 @@ openNewBrowserWindow
 await
 win
 .
-SidebarUI
+SidebarController
 .
 show
 (

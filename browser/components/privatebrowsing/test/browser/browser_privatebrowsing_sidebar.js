@@ -121,7 +121,7 @@ win
 return
 win
 .
-SidebarUI
+SidebarController
 .
 show
 (

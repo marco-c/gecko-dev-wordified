@@ -1251,7 +1251,7 @@ load
 true
 )
 ;
-SidebarUI
+SidebarController
 .
 toggle
 (
@@ -1421,7 +1421,7 @@ urlbar
 "
 )
 ;
-SidebarUI
+SidebarController
 .
 toggle
 (

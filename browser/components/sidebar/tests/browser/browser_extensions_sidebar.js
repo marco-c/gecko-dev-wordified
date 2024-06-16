@@ -536,7 +536,7 @@ getElementById
 "
 sidebar
 -
-launcher
+main
 "
 )
 ;
@@ -909,7 +909,7 @@ waitForCondition
 const
 browser
 =
-SidebarUI
+SidebarController
 .
 browser
 .
@@ -1057,7 +1057,7 @@ getElementById
 "
 sidebar
 -
-launcher
+main
 "
 )
 ;
@@ -1216,7 +1216,7 @@ getElementById
 "
 sidebar
 -
-launcher
+main
 "
 )
 ;

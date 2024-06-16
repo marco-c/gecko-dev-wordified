@@ -4044,7 +4044,7 @@ installed
 .
 window
 .
-SidebarUI
+SidebarController
 .
 lastOpenedId
 =

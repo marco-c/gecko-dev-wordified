@@ -784,7 +784,7 @@ ExtensionCommon
 ;
 privateWin
 .
-SidebarUI
+SidebarController
 .
 show
 (
