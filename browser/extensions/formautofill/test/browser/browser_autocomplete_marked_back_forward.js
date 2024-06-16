@@ -60,7 +60,7 @@ parse
 (
 first
 .
-label
+comment
 )
 ;
 ok
@@ -225,7 +225,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 {
