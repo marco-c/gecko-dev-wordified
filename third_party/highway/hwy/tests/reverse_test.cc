@@ -148,6 +148,13 @@ the
 License
 .
 #
+include
+<
+stddef
+.
+h
+>
+#
 undef
 HWY_TARGET_INCLUDE
 #
@@ -1281,7 +1288,7 @@ i
 =
 ReverseBytesOfValue
 (
-static_cast
+ConvertScalarTo
 <
 T
 >
@@ -1348,7 +1355,7 @@ in
 i
 ]
 =
-static_cast
+ConvertScalarTo
 <
 T
 >
@@ -1758,7 +1765,7 @@ i
 =
 ReverseBitsOfValue
 (
-static_cast
+ConvertScalarTo
 <
 T
 >
@@ -1825,7 +1832,7 @@ in
 i
 ]
 =
-static_cast
+ConvertScalarTo
 <
 T
 >
