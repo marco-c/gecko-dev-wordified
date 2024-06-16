@@ -1509,12 +1509,12 @@ BalanceISODate
 JSContext
 *
 cx
-int32_t
-year
-int32_t
-month
+const
+PlainDate
+&
+date
 int64_t
-day
+days
 PlainDate
 *
 result
