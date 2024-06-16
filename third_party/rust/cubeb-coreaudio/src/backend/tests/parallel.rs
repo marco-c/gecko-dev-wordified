@@ -3920,6 +3920,11 @@ move
 let
 status
 =
+run_serially
+(
+|
+|
+{
 audio_unit_set_property
 (
 unit_value
@@ -3941,6 +3946,8 @@ u32
 >
 (
 )
+)
+}
 )
 ;
 (

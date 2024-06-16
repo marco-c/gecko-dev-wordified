@@ -27,10 +27,7 @@ sync
 atomic
 :
 :
-{
 AtomicI64
-Ordering
-}
 ;
 #
 [
@@ -1253,7 +1250,7 @@ f32_to_i16_sample
 (
 0
 .
-5
+45
 *
 (
 t1
