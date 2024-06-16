@@ -8672,6 +8672,15 @@ JSObject
 *
 >
 ;
+template
+struct
+JS_PUBLIC_API
+StableCellHasher
+<
+JSScript
+*
+>
+;
 #
 endif
 template
