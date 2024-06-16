@@ -760,6 +760,14 @@ hasCSPEventListener
 (
 )
 ;
+mIsThirdPartyContext
+=
+aArgs
+.
+isThirdPartyContext
+(
+)
+;
 if
 (
 mHasCSPEventListener
@@ -1303,6 +1311,10 @@ self
 -
 >
 mID
+self
+-
+>
+mIsThirdPartyContext
 }
 )
 )
