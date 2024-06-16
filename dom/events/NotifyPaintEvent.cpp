@@ -466,7 +466,13 @@ rectList
 >
 Append
 (
+std
+:
+:
+move
+(
 rect
+)
 )
 ;
 }
@@ -556,7 +562,13 @@ requests
 >
 Append
 (
+std
+:
+:
+move
+(
 r
+)
 )
 ;
 }
