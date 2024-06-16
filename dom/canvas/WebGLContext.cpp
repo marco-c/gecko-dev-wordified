@@ -12710,17 +12710,6 @@ mFuncName
 }
 else
 {
-NS_WARNING
-(
-"
-FuncScope
-not
-on
-stack
-!
-"
-)
-;
 ret
 =
 "
