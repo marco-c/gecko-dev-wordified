@@ -3139,7 +3139,7 @@ abs
 (
 )
 .
-toTotalNanoseconds
+toNanoseconds
 (
 )
 <
@@ -5358,7 +5358,7 @@ min
 (
 dayLengthNs
 .
-toTotalNanoseconds
+toNanoseconds
 (
 )
 Int128

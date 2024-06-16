@@ -4058,7 +4058,7 @@ RoundNumberToIncrement
 (
 x
 .
-toTotalNanoseconds
+toNanoseconds
 (
 )
 Int128
