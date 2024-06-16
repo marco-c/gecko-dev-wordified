@@ -193,6 +193,11 @@ mIsForWindowDotPrint
 =
 false
 ;
+bool
+mIsTopLevelCreatedByWebContent
+=
+false
+;
 RefPtr
 <
 mozilla
