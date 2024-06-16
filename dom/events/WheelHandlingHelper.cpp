@@ -698,9 +698,9 @@ double
 aDirectionY
 )
 {
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollableFrame
+scrollContainerFrame
 =
 do_QueryFrame
 (
@@ -710,7 +710,7 @@ aFrame
 if
 (
 !
-scrollableFrame
+scrollContainerFrame
 )
 {
 return
@@ -720,7 +720,7 @@ false
 return
 CanScrollOn
 (
-scrollableFrame
+scrollContainerFrame
 aDirectionX
 aDirectionY
 )
@@ -737,9 +737,9 @@ WheelHandlingUtils
 :
 CanScrollOn
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollFrame
+aScrollContainerFrame
 double
 aDirectionX
 double
@@ -748,7 +748,7 @@ aDirectionY
 {
 MOZ_ASSERT
 (
-aScrollFrame
+aScrollContainerFrame
 )
 ;
 NS_ASSERTION
@@ -776,7 +776,7 @@ least
 nsPoint
 scrollPt
 =
-aScrollFrame
+aScrollContainerFrame
 -
 >
 GetVisualViewportOffset
@@ -786,7 +786,7 @@ GetVisualViewportOffset
 nsRect
 scrollRange
 =
-aScrollFrame
+aScrollContainerFrame
 -
 >
 GetScrollRangeForUserInputEvents
@@ -799,7 +799,7 @@ layers
 ScrollDirections
 directions
 =
-aScrollFrame
+aScrollContainerFrame
 -
 >
 GetAvailableScrollingDirectionsForUserInputEvents
