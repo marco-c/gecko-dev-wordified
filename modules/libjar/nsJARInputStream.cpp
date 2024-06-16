@@ -2011,17 +2011,6 @@ expected
 .
 if
 (
-mozilla
-:
-:
-StaticPrefs
-:
-:
-network_jar_require_size_match
-(
-)
-&
-&
 mZs
 .
 total_out
