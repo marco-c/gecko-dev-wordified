@@ -96,7 +96,7 @@ checkPostUpdateAppLog
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;
