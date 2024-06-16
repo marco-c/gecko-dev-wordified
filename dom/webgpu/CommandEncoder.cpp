@@ -673,7 +673,7 @@ if
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
@@ -764,7 +764,7 @@ if
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
@@ -854,7 +854,7 @@ if
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
@@ -980,7 +980,7 @@ if
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
@@ -1096,7 +1096,7 @@ if
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
@@ -1284,7 +1284,7 @@ if
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
@@ -1352,7 +1352,7 @@ if
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
@@ -1416,7 +1416,7 @@ if
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
@@ -1620,7 +1620,7 @@ if
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
@@ -1688,7 +1688,7 @@ if
 mBridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )

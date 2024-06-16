@@ -827,7 +827,7 @@ bridge
 bridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )

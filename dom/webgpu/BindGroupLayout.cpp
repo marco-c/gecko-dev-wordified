@@ -239,7 +239,7 @@ if
 bridge
 -
 >
-IsOpen
+CanSend
 (
 )
 )
