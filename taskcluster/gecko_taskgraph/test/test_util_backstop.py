@@ -98,9 +98,9 @@ BACKSTOP_TIME_INTERVAL
     
 is_backstop
 )
-LAST_BACKSTOP_ID
+LAST_BACKSTOP_PUSHID
 =
-0
+1
 LAST_BACKSTOP_PUSHDATE
 =
 mktime
@@ -140,7 +140,7 @@ json
 taskId
 "
 :
-LAST_BACKSTOP_ID
+LAST_BACKSTOP_PUSHID
 }
     
 }
@@ -172,6 +172,11 @@ pushdate
 :
 {
 }
+            
+pushlog_id
+:
+{
+}
         
 "
 "
@@ -181,6 +186,8 @@ format
 (
                 
 LAST_BACKSTOP_PUSHDATE
+                
+LAST_BACKSTOP_PUSHID
             
 )
         
@@ -292,9 +299,17 @@ LAST_BACKSTOP_PUSHDATE
 pushlog_id
 "
 :
-LAST_BACKSTOP_ID
+LAST_BACKSTOP_PUSHID
 +
 1
+        
+"
+target_tasks_method
+"
+:
+"
+default
+"
     
 }
 pytest
@@ -430,8 +445,10 @@ DEFAULT_RESPONSES
 pushlog_id
 "
 :
-LAST_BACKSTOP_ID
+LAST_BACKSTOP_PUSHID
 +
+BACKSTOP_PUSH_INTERVAL
+-
 1
                 
 "
@@ -440,6 +457,12 @@ pushdate
 :
 LAST_BACKSTOP_PUSHDATE
 +
+(
+BACKSTOP_TIME_INTERVAL
+*
+60
+)
+-
 1
             
 }
@@ -467,9 +490,40 @@ param
 {
                 
 "
+target_tasks_method
+"
+:
+"
+nothing
+"
+            
+}
+            
+False
+            
+id
+=
+"
+dontbuild
+"
+        
+)
+        
+pytest
+.
+param
+(
+            
+DEFAULT_RESPONSES
+            
+{
+                
+"
 pushlog_id
 "
 :
+LAST_BACKSTOP_PUSHID
++
 BACKSTOP_PUSH_INTERVAL
             
 }
@@ -479,7 +533,39 @@ True
 id
 =
 "
-backstop
+interval
+"
+        
+)
+        
+pytest
+.
+param
+(
+            
+DEFAULT_RESPONSES
+            
+{
+                
+"
+pushlog_id
+"
+:
+LAST_BACKSTOP_PUSHID
++
+BACKSTOP_PUSH_INTERVAL
++
+1
+            
+}
+            
+True
+            
+id
+=
+"
+greater
+than
 interval
 "
         
@@ -726,7 +812,7 @@ artifact
 :
 get_artifact_url
 (
-LAST_BACKSTOP_ID
+LAST_BACKSTOP_PUSHID
 "
 public
 /
@@ -742,7 +828,7 @@ status
 :
 get_task_url
 (
-LAST_BACKSTOP_ID
+LAST_BACKSTOP_PUSHID
 )
 +
 "
