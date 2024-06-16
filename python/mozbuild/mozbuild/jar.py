@@ -116,16 +116,10 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 MozZipFile
 import
 ZipFile
-from
-six
-import
-BytesIO
 from
 mozbuild
 .
@@ -265,6 +259,8 @@ self
 .
 _inner
 =
+io
+.
 BytesIO
 (
 )
@@ -2658,11 +2654,10 @@ register
 addEntriesToListFile
 (
 manifestPath
-six
-.
-iterkeys
-(
 myregister
+.
+keys
+(
 )
 )
     
@@ -2829,9 +2824,7 @@ if
 isinstance
 (
 infile
-six
-.
-text_type
+str
 )
 :
             
@@ -4950,13 +4943,20 @@ infile
 =
 args
         
-infile
-=
-six
-.
-ensure_text
+if
+isinstance
 (
 infile
+bytes
+)
+:
+            
+infile
+=
+infile
+.
+decode
+(
 )
     
 jm
