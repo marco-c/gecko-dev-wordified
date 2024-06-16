@@ -458,7 +458,7 @@ set
 .
 *
 /
-bool
+boolean
 contains
 (
 in
@@ -490,7 +490,7 @@ set
 .
 *
 /
-bool
+boolean
 containsSuperDomain
 (
 in

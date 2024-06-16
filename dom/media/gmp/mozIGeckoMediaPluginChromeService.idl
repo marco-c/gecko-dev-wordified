@@ -239,7 +239,7 @@ directory
 optional
 ]
 in
-bool
+boolean
 defer
 )
 ;
@@ -356,7 +356,7 @@ data
 .
 *
 /
-bool
+boolean
 isPersistentStorageAllowed
 (
 in

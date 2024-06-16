@@ -264,7 +264,7 @@ void
 onResult
 (
 in
-bool
+boolean
 result
 )
 ;
@@ -384,7 +384,7 @@ nsIX509Cert
 >
 aVerifiedChain
 in
-bool
+boolean
 aHasEVPolicy
 )
 ;

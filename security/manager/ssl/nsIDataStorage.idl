@@ -995,7 +995,7 @@ function
 returns
 true
 .
-bool
+boolean
 isReady
 (
 )

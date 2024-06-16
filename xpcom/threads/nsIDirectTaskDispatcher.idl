@@ -330,7 +330,7 @@ pending
 [
 noscript
 ]
-bool
+boolean
 haveDirectTasks
 (
 )

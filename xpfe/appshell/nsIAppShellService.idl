@@ -409,7 +409,7 @@ createWindowlessBrowser
 optional
 ]
 in
-bool
+boolean
 aIsChrome
 [
 optional
@@ -869,7 +869,7 @@ succeeded
 .
 *
 /
-bool
+boolean
 startEventLoopLagTracking
 (
 )

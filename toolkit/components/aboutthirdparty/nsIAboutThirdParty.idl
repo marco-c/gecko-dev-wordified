@@ -296,7 +296,7 @@ available
 /
 readonly
 attribute
-bool
+boolean
 isDynamicBlocklistAvailable
 ;
 /
@@ -316,7 +316,7 @@ disabled
 /
 readonly
 attribute
-bool
+boolean
 isDynamicBlocklistDisabled
 ;
 /

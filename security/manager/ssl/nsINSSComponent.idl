@@ -339,7 +339,7 @@ builds
 [
 noscript
 ]
-bool
+boolean
 isCertTestBuiltInRoot
 (
 in

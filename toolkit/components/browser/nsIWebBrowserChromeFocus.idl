@@ -200,7 +200,7 @@ void
 focusNextElement
 (
 in
-bool
+boolean
 aForDocumentNavigation
 )
 ;
@@ -226,7 +226,7 @@ void
 focusPrevElement
 (
 in
-bool
+boolean
 aForDocumentNavigation
 )
 ;

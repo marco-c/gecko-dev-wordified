@@ -195,7 +195,7 @@ void
 shutdown
 (
 in
-bool
+boolean
 aXpcomShutdown
 )
 ;

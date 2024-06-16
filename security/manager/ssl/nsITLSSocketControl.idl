@@ -389,7 +389,7 @@ value
 /
 readonly
 attribute
-bool
+boolean
 earlyDataAccepted
 ;
 /

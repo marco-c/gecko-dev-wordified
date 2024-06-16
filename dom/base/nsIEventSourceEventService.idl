@@ -251,7 +251,7 @@ aListener
 [
 must_use
 ]
-bool
+boolean
 hasListenerFor
 (
 in

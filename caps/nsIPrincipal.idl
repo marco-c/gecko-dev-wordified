@@ -494,7 +494,7 @@ in
 nsIPrincipal
 other
 in
-bool
+boolean
 aExactHost
 )
 ;
@@ -2567,7 +2567,7 @@ thread
 .
 *
 /
-bool
+boolean
 allowsRelaxStrictFileOriginPolicy
 (
 in
@@ -2610,7 +2610,7 @@ in
 nsIURI
 aURI
 in
-bool
+boolean
 aWithCredentials
 in
 const_OriginAttributes
@@ -2660,7 +2660,7 @@ Only
 .
 *
 /
-bool
+boolean
 hasFirstpartyStorageAccess
 (
 in

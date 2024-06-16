@@ -165,7 +165,7 @@ selection
 /
 readonly
 attribute
-bool
+boolean
 isSelectionCollapsed
 ;
 /
@@ -189,7 +189,7 @@ line
 /
 readonly
 attribute
-bool
+boolean
 isAtEndOfLine
 ;
 /

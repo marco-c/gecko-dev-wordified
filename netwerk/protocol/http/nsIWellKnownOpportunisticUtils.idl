@@ -189,7 +189,7 @@ must_use
 ]
 readonly
 attribute
-bool
+boolean
 valid
 ;
 }

@@ -533,7 +533,7 @@ void
 onSessionClosed
 (
 in
-bool
+boolean
 aCleanly
 in
 uint32_t
@@ -733,7 +733,7 @@ connection
 information
 readonly
 attribute
-bool
+boolean
 dedicated
 ;
 void

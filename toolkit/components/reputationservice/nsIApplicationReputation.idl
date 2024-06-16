@@ -447,7 +447,7 @@ check
 .
 *
 /
-bool
+boolean
 isBinary
 (
 in
@@ -512,7 +512,7 @@ check
 .
 *
 /
-bool
+boolean
 isExecutable
 (
 in
@@ -990,7 +990,7 @@ void
 onComplete
 (
 in
-bool
+boolean
 aShouldBlock
 in
 nsresult

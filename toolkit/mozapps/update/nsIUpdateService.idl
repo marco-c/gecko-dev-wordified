@@ -2459,7 +2459,7 @@ downloaded
 .
 *
 /
-bool
+boolean
 checkForBackgroundUpdates
 (
 )
@@ -4589,7 +4589,7 @@ platform
 .
 *
 /
-bool
+boolean
 getServiceRegKeyExists
 (
 )
@@ -5110,7 +5110,7 @@ if
 not
 *
 /
-bool
+boolean
 isOtherInstanceRunning
 (
 )

@@ -962,13 +962,13 @@ aBrowsingContext
 optional
 ]
 in
-bool
+boolean
 aWasTriggeredExternally
 [
 optional
 ]
 in
-bool
+boolean
 aHasValidUserGestureActivation
 )
 ;
@@ -1096,7 +1096,7 @@ mms
 .
 *
 /
-bool
+boolean
 isCurrentAppOSDefaultForProtocol
 (
 in

@@ -1486,7 +1486,7 @@ redirection
 [
 must_use
 ]
-bool
+boolean
 ShouldStripRequestBodyHeader
 (
 in

@@ -297,7 +297,7 @@ void
 deleteDataFromLocalFiles
 (
 in
-bool
+boolean
 aIsUserRequest
 in
 uint32_t
@@ -453,7 +453,7 @@ in
 AUTF8String
 aHost
 in
-bool
+boolean
 aIsUserRequest
 in
 uint32_t
@@ -707,7 +707,7 @@ in
 AUTF8String
 aDomainOrHost
 in
-bool
+boolean
 aIsUserRequest
 in
 uint32_t
@@ -840,7 +840,7 @@ in
 nsIPrincipal
 aPrincipal
 in
-bool
+boolean
 aIsUserRequest
 in
 uint32_t
@@ -985,7 +985,7 @@ in
 PRTime
 aTo
 in
-bool
+boolean
 aIsUserRequest
 in
 uint32_t

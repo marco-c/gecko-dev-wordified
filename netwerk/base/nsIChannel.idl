@@ -2841,7 +2841,7 @@ yet
 /
 readonly
 attribute
-bool
+boolean
 isDocument
 ;
 %

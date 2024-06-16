@@ -1715,7 +1715,7 @@ to
 .
 *
 /
-bool
+boolean
 hasRootDomain
 (
 in

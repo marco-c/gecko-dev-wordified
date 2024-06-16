@@ -1687,7 +1687,7 @@ information
 [
 must_use
 ]
-bool
+boolean
 isCertRevokedByStash
 (
 in

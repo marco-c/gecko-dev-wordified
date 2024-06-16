@@ -961,7 +961,7 @@ action
 /
 readonly
 attribute
-bool
+boolean
 result
 ;
 /
@@ -1001,7 +1001,7 @@ in
 AString
 aRequestId
 in
-bool
+boolean
 aResult
 )
 ;
@@ -1412,7 +1412,7 @@ is
 succeeded
 *
 /
-bool
+boolean
 isSucceeded
 (
 )
@@ -1522,7 +1522,7 @@ succeeded
 .
 *
 /
-bool
+boolean
 isCompleted
 (
 )

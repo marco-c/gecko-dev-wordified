@@ -1500,7 +1500,7 @@ noscript
 notxpcom
 nostdcall
 ]
-bool
+boolean
 HasOrthogonalPagesPerSheet
 (
 )
@@ -1591,7 +1591,7 @@ differences
 .
 *
 /
-bool
+boolean
 equivalentTo
 (
 in

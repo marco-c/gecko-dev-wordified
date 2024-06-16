@@ -963,7 +963,7 @@ present
 .
 *
 /
-bool
+boolean
 hasXAttr
 (
 in

@@ -687,7 +687,7 @@ in
 ACString
 finalURLSpec
 in
-bool
+boolean
 responseRedirected
 )
 ;
@@ -938,7 +938,7 @@ not
 [
 noscript
 ]
-bool
+boolean
 GetIsReset
 (
 )
@@ -1367,7 +1367,7 @@ OnStartRequest
 .
 *
 /
-bool
+boolean
 shouldPrepareForIntercept
 (
 in

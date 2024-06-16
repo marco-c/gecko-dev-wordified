@@ -835,7 +835,7 @@ in
 nsIThreadInternal
 thread
 in
-bool
+boolean
 eventWasProcessed
 )
 ;

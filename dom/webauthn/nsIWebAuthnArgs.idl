@@ -357,7 +357,7 @@ must_use
 ]
 readonly
 attribute
-bool
+boolean
 credProps
 ;
 [
@@ -365,7 +365,7 @@ must_use
 ]
 readonly
 attribute
-bool
+boolean
 hmacCreateSecret
 ;
 [
@@ -373,7 +373,7 @@ must_use
 ]
 readonly
 attribute
-bool
+boolean
 minPinLength
 ;
 /
@@ -655,7 +655,7 @@ must_use
 ]
 readonly
 attribute
-bool
+boolean
 hmacCreateSecret
 ;
 [
@@ -714,7 +714,7 @@ timeoutMS
 ;
 readonly
 attribute
-bool
+boolean
 conditionallyMediated
 ;
 }

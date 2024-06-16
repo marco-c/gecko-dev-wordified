@@ -661,7 +661,7 @@ aPresence
 optional
 ]
 in
-bool
+boolean
 aSkipPresenceVisibilityCheck
 [
 optional

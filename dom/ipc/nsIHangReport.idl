@@ -411,7 +411,7 @@ its
 BrowsingContext
 tree
 .
-bool
+boolean
 isReportForBrowserOrChildren
 (
 in

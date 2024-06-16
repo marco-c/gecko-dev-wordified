@@ -1199,7 +1199,7 @@ be
 tested
 *
 /
-bool
+boolean
 inFileURIAllowlist
 (
 in
@@ -2406,7 +2406,7 @@ account
 .
 *
 /
-bool
+boolean
 policyAllowsScript
 (
 in

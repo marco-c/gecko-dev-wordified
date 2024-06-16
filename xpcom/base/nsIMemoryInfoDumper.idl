@@ -286,7 +286,7 @@ in
 nsIFile
 aCCLog
 in
-bool
+boolean
 aIsParent
 )
 ;
@@ -1259,10 +1259,10 @@ in
 AString
 aIdentifier
 in
-bool
+boolean
 aDumpAllTraces
 in
-bool
+boolean
 aDumpChildProcesses
 in
 nsIDumpGCAndCCLogsCallback
@@ -1308,7 +1308,7 @@ void
 dumpGCAndCCLogsToSink
 (
 in
-bool
+boolean
 aDumpAllTraces
 in
 nsICycleCollectorLogSink

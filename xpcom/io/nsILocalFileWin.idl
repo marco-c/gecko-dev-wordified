@@ -364,7 +364,7 @@ fails
 *
 /
 attribute
-bool
+boolean
 readOnly
 ;
 /

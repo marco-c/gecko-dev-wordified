@@ -214,7 +214,7 @@ this
 /
 readonly
 attribute
-bool
+boolean
 wasPersisted
 ;
 /

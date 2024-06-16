@@ -463,7 +463,7 @@ aUserPassword
 optional
 ]
 in
-bool
+boolean
 aIsPrivate
 [
 optional
