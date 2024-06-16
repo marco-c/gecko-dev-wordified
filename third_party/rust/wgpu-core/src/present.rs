@@ -153,6 +153,7 @@ lock
 {
 rank
 Mutex
+RwLock
 }
 resource
 :
@@ -180,12 +181,6 @@ Surface
 as
 _
 }
-;
-use
-parking_lot
-:
-:
-RwLock
 ;
 use
 thiserror
@@ -1493,6 +1488,10 @@ RwLock
 :
 new
 (
+rank
+:
+:
+TEXTURE_INITIALIZATION_STATUS
 TextureInitTracker
 :
 :
@@ -1555,6 +1554,10 @@ RwLock
 :
 new
 (
+rank
+:
+:
+TEXTURE_CLEAR_MODE
 resource
 :
 :

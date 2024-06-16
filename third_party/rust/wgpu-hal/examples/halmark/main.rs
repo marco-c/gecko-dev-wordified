@@ -5568,6 +5568,12 @@ render
 (
 )
 ;
+window
+.
+request_redraw
+(
+)
+;
 }
 _
 =

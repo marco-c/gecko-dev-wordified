@@ -86,7 +86,7 @@ error
 Error
 ErrorKind
 ExpectedToken
-ParseError
+ParseErrors
 }
 ;
 pub
@@ -1376,7 +1376,7 @@ result
 Result
 <
 Module
-ParseError
+ParseErrors
 >
 {
 self

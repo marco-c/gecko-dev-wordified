@@ -2294,6 +2294,7 @@ depth_or_array_layers
 /
 /
 see
+<
 https
 :
 /
@@ -2319,6 +2320,7 @@ subresources
 plane
 -
 slice
+>
 fn
 calc_subresource
 (

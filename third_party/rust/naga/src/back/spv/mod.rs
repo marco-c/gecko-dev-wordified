@@ -1536,7 +1536,7 @@ it
 /
 #
 #
-Localtype
+LocalType
 equality
 and
 SPIR

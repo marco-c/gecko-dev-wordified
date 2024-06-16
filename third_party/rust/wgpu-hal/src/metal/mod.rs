@@ -1408,6 +1408,9 @@ TimestampQuerySupport
 supports_simd_scoped_operations
 :
 bool
+int64
+:
+bool
 }
 #
 [
@@ -3607,7 +3610,6 @@ arrayLength
 function
 .
 See
-[
 device
 :
 :
@@ -3615,7 +3617,6 @@ CompiledShader
 :
 :
 sized_bindings
-]
 for
 details
 .
@@ -3762,7 +3763,6 @@ sizes
 /
 /
 See
-[
 device
 :
 :
@@ -3770,7 +3770,6 @@ CompiledShader
 :
 :
 sized_bindings
-]
 for
 more
 details
@@ -3813,7 +3812,6 @@ arrays
 /
 /
 See
-[
 device
 :
 :
@@ -3821,7 +3819,6 @@ CompiledShader
 :
 :
 sized_bindings
-]
 for
 more
 details
@@ -4461,7 +4458,6 @@ The
 keys
 are
 [
-'
 ResourceBinding
 ]
 values
@@ -4595,7 +4591,6 @@ point
 /
 /
 See
-[
 device
 :
 :
@@ -4603,7 +4598,6 @@ CompiledShader
 :
 :
 sized_bindings
-]
 for
 more
 details
