@@ -215,11 +215,9 @@ helper
 .
 waitForStateChange
 (
-[
 "
 crosshairs
 "
-]
 )
 ;
 let
@@ -258,11 +256,9 @@ helper
 .
 waitForStateChange
 (
-[
 "
 crosshairs
 "
-]
 )
 ;
 }
