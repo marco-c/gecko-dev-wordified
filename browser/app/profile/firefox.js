@@ -11202,7 +11202,7 @@ sanitize
 .
 useOldClearHistoryDialog
 "
-false
+true
 )
 ;
 pref
