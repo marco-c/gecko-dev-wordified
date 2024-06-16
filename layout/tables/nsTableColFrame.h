@@ -509,7 +509,7 @@ Count
 )
 const
 ;
-BCPixelSize
+nscoord
 GetIStartBorderWidth
 (
 )
@@ -519,7 +519,7 @@ return
 mIStartBorderWidth
 ;
 }
-BCPixelSize
+nscoord
 GetIEndBorderWidth
 (
 )
@@ -532,7 +532,7 @@ mIEndBorderWidth
 void
 SetIStartBorderWidth
 (
-BCPixelSize
+nscoord
 aWidth
 )
 {
@@ -544,7 +544,7 @@ aWidth
 void
 SetIEndBorderWidth
 (
-BCPixelSize
+nscoord
 aWidth
 )
 {
@@ -1664,9 +1664,7 @@ mColIndex
 /
 /
 border
-width
-in
-pixels
+widths
 of
 the
 inner
@@ -1675,10 +1673,10 @@ of
 the
 border
 only
-BCPixelSize
+nscoord
 mIStartBorderWidth
 ;
-BCPixelSize
+nscoord
 mIEndBorderWidth
 ;
 bool
