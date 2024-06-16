@@ -235,6 +235,7 @@ false
 aUpdatesExists
 )
 ;
+await
 checkUpdateManager
 (
 STATE_PENDING
