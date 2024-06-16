@@ -621,9 +621,6 @@ is_composite_glyph
 =
 false
 ;
-#
-ifdef
-HB_EXPERIMENTAL_API
 is_composite_glyph
 =
 plan
@@ -636,8 +633,6 @@ has
 new_gid
 )
 ;
-#
-endif
 if
 (
 !
@@ -738,9 +733,6 @@ iup_optimize
 =
 false
 ;
-#
-ifdef
-HB_EXPERIMENTAL_API
 iup_optimize
 =
 plan
@@ -750,8 +742,6 @@ flags
 &
 HB_SUBSET_FLAGS_OPTIMIZE_IUP_DELTAS
 ;
-#
-endif
 for
 (
 unsigned

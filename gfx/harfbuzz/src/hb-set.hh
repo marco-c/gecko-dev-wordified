@@ -631,9 +631,9 @@ bool
 add_range
 (
 hb_codepoint_t
-a
+first
 hb_codepoint_t
-b
+last
 )
 {
 return
@@ -641,8 +641,8 @@ s
 .
 add_range
 (
-a
-b
+first
+last
 )
 ;
 }
