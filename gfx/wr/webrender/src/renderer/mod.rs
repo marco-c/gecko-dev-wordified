@@ -1773,7 +1773,7 @@ BROWN
 }
 ;
 const
-GPU_TAG_CACHE_CONIC_GRADIENT
+GPU_TAG_CONIC_GRADIENT
 :
 GpuProfileTag
 =
@@ -2328,6 +2328,19 @@ RadialGradient
 =
 >
 GPU_TAG_RADIAL_GRADIENT
+BatchKind
+:
+:
+Quad
+(
+PatternKind
+:
+:
+ConicGradient
+)
+=
+>
+GPU_TAG_CONIC_GRADIENT
 BatchKind
 :
 :
@@ -25028,7 +25041,7 @@ gpu_profiler
 .
 start_timer
 (
-GPU_TAG_CACHE_CONIC_GRADIENT
+GPU_TAG_CONIC_GRADIENT
 )
 ;
 self

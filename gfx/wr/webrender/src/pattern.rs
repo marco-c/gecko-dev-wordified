@@ -124,9 +124,12 @@ ColorOrTexture
 RadialGradient
 =
 1
-Mask
+ConicGradient
 =
 2
+Mask
+=
+3
 /
 /
 When
@@ -149,7 +152,7 @@ NUM_PATTERNS
 :
 u32
 =
-3
+4
 ;
 impl
 PatternKind
