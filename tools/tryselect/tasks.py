@@ -1175,6 +1175,13 @@ filter_tasks_by_paths
 (
 tasks
 paths
+=
+[
+]
+tag
+=
+"
+"
 )
 :
     
@@ -1192,6 +1199,10 @@ loader_cls
 TestManifestLoader
 )
     
+if
+paths
+:
+        
 run_suites
 run_tests
 =
@@ -1201,6 +1212,40 @@ resolve_metadata
 (
 paths
 )
+    
+elif
+not
+paths
+and
+tag
+:
+        
+run_tests
+=
+list
+(
+resolver
+.
+resolve_tests
+(
+paths
+=
+[
+]
+tags
+=
+tag
+)
+)
+    
+if
+not
+run_tests
+:
+        
+return
+{
+}
     
 flavors
 =
