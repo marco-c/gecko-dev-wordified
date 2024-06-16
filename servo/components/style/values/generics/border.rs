@@ -582,7 +582,7 @@ transparent
 ]
 pub
 struct
-BorderSpacing
+GenericBorderSpacing
 <
 L
 >
@@ -607,6 +607,15 @@ Size2D
 L
 >
 )
+;
+pub
+use
+self
+:
+:
+GenericBorderSpacing
+as
+BorderSpacing
 ;
 impl
 <
