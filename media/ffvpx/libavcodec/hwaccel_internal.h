@@ -794,7 +794,7 @@ get_format
 (
 )
 or
-avcodec_close
+ff_codec_close
 (
 )
 after

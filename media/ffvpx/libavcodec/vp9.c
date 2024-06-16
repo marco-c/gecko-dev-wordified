@@ -330,6 +330,15 @@ include
 "
 libavutil
 /
+mem
+.
+h
+"
+#
+include
+"
+libavutil
+/
 pixdesc
 .
 h

@@ -1790,9 +1790,6 @@ int
 threadnr
 )
 ;
-int
-vp7
-;
 /
 *
 *

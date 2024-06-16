@@ -456,13 +456,6 @@ h
 #
 include
 "
-config
-.
-h
-"
-#
-include
-"
 attributes
 .
 h
@@ -1172,11 +1165,11 @@ butterflies_fixed
 (
 int
 *
-av_restrict
+restrict
 v1
 int
 *
-av_restrict
+restrict
 v2
 int
 len

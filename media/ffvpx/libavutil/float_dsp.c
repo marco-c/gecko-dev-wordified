@@ -739,11 +739,11 @@ butterflies_float_c
 (
 float
 *
-av_restrict
+restrict
 v1
 float
 *
-av_restrict
+restrict
 v2
 int
 len
