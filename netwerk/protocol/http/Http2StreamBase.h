@@ -922,6 +922,15 @@ session
 )
 ;
 virtual
+void
+UpdatePriority
+(
+Http2Session
+*
+session
+)
+;
+virtual
 bool
 IsTunnel
 (
