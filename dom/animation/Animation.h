@@ -274,6 +274,9 @@ nsIFrame
 class
 nsIGlobalObject
 ;
+class
+nsAtom
+;
 namespace
 mozilla
 {
@@ -3083,10 +3086,9 @@ nullptr
 void
 QueuePlaybackEvent
 (
-const
-nsAString
-&
-aName
+nsAtom
+*
+aOnEvent
 TimeStamp
 &
 &
