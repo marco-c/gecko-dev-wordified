@@ -1836,6 +1836,9 @@ renderingMode
 )
 ;
 }
+#
+if
+0
 /
 /
 Set
@@ -1904,6 +1907,8 @@ pixelGeometry
 renderingModePref
 )
 ;
+#
+endif
 }
 gfxFont
 *
