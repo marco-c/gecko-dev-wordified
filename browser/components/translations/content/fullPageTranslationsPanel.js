@@ -6949,6 +6949,10 @@ ownerDocument
 getElementById
 (
 "
+full
+-
+page
+-
 translations
 -
 panel
