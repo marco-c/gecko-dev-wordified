@@ -1005,7 +1005,7 @@ package_path
 (
 )
 "
-browsertime
+visualmetrics
 "
 "
 visualmetrics
