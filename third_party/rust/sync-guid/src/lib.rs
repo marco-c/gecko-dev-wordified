@@ -732,7 +732,7 @@ use
 debug_assert
 !
 to
-enusre
+ensure
 valid
 utf8
 -

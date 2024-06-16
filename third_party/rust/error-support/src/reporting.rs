@@ -190,7 +190,7 @@ itself
 this
 does
 not
-guarentee
+guarantee
 that
 breadcrumb
 logs

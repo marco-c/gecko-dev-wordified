@@ -368,7 +368,7 @@ length
 is
 determined
 while
-refering
+referring
 to
 having
 word
@@ -2634,7 +2634,7 @@ matched
 exactly
 with
 the
-paramter
+parameter
 .
 /
 /

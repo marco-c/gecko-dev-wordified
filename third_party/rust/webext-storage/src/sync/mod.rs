@@ -241,7 +241,7 @@ incoming
 value
 wins
 on
-confict
+conflict
 .
 fn
 merge

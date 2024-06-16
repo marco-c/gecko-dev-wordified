@@ -94,6 +94,8 @@ Default
 Debug
 Deserialize
 Serialize
+PartialEq
+Eq
 )
 ]
 pub
@@ -155,6 +157,8 @@ Clone
 Debug
 Deserialize
 Serialize
+PartialEq
+Eq
 )
 ]
 pub

@@ -132,7 +132,7 @@ Error
 An
 error
 has
-occured
+occurred
 while
 sending
 a
@@ -170,7 +170,7 @@ Error
 An
 error
 has
-occured
+occurred
 while
 parsing
 an

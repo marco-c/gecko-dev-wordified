@@ -4534,7 +4534,7 @@ subtlety
 in
 how
 we
-calulate
+calculate
 this
 having
 to

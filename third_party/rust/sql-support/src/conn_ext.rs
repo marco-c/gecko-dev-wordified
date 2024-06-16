@@ -1637,7 +1637,7 @@ name
 /
 /
 Like
-query_row_and_then_cachable
+query_row_and_then_cacheable
 but
 returns
 None
@@ -2467,7 +2467,7 @@ began
 /
 /
 which
-unfortunatly
+unfortunately
 seems
 to
 be

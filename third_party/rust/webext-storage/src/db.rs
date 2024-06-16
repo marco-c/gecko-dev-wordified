@@ -910,7 +910,7 @@ we
 are
 doing
 anything
-interruptable
+interruptible
 !
 interrupt_handle
 :

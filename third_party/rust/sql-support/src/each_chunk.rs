@@ -560,7 +560,7 @@ property
 off
 of
 an
-arrray
+array
 of
 records
 pub

@@ -379,7 +379,7 @@ t
 need
 stronger
 synchronization
-guarentees
+guarantees
 .
 static
 IN_SHUTDOWN

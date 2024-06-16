@@ -622,7 +622,7 @@ bit
 of
 a
 leaky
-abstration
+abstraction
 as
 it
 only

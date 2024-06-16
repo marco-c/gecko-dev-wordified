@@ -321,7 +321,7 @@ t
 need
 stronger
 synchronization
-guarentees
+guarantees
 .
 interrupt_counter
 :
