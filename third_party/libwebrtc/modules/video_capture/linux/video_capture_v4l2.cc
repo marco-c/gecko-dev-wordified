@@ -824,6 +824,7 @@ StopCapture
 ;
 }
 }
+{
 /
 /
 We
@@ -2190,6 +2191,7 @@ _streaming
 =
 true
 ;
+}
 /
 /
 start
