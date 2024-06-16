@@ -936,14 +936,6 @@ NativeName
 aName
 )
 ;
-nsCoreUtils
-:
-:
-TrimNonBreakingSpaces
-(
-aName
-)
-;
 if
 (
 !
