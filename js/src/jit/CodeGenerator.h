@@ -1351,8 +1351,6 @@ emitPushArguments
 LApplyArgsGeneric
 *
 apply
-Register
-scratch
 )
 ;
 void
@@ -1361,8 +1359,6 @@ emitPushArguments
 LApplyArgsObj
 *
 apply
-Register
-scratch
 )
 ;
 void
@@ -1371,8 +1367,6 @@ emitPushArguments
 LApplyArrayGeneric
 *
 apply
-Register
-scratch
 )
 ;
 void
@@ -1381,8 +1375,6 @@ emitPushArguments
 LConstructArgsGeneric
 *
 construct
-Register
-scratch
 )
 ;
 void
@@ -1391,8 +1383,6 @@ emitPushArguments
 LConstructArrayGeneric
 *
 construct
-Register
-scratch
 )
 ;
 template
