@@ -6388,11 +6388,6 @@ EnsureBrowserId
 (
 )
 ;
-bool
-PerformCORSCheck
-(
-)
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
