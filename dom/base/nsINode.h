@@ -3944,6 +3944,13 @@ GetNearestInclusiveTargetPopoverForInvoker
 )
 const
 ;
+nsGenericHTMLElement
+*
+GetEffectiveInvokeTargetElement
+(
+)
+const
+;
 /
 *
 *
@@ -17358,12 +17365,12 @@ static
 auto
 FromNode
 (
+\
 _const
 T
 &
 aNode
 )
-\
 -
 >
 decltype
