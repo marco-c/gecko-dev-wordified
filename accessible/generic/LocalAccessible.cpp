@@ -9896,6 +9896,16 @@ value
 selection
 info
 .
+CssAltContent
+:
+:
+HandleAttributeChange
+(
+mContent
+aNameSpaceID
+aAttribute
+)
+;
 /
 /
 XXX
