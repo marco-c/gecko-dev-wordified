@@ -511,6 +511,11 @@ OnMemoryPressure
 (
 )
 ;
+void
+ClearCaches
+(
+)
+;
 private
 :
 SharedContextWebgl
