@@ -551,14 +551,7 @@ EnabledPlugin
 (
 )
 const
-{
-return
-do_AddRef
-(
-mPluginElement
-)
 ;
-}
 void
 GetSuffixes
 (
