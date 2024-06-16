@@ -1505,6 +1505,13 @@ element
 for
 rem
 )
+in
+zoom
+-
+independent
+CSS
+pixels
+.
 pub
 fn
 set_root_font_size
@@ -1513,7 +1520,7 @@ set_root_font_size
 self
 size
 :
-Length
+f32
 )
 {
 self
@@ -1523,10 +1530,6 @@ root_font_size
 store
 (
 size
-.
-px
-(
-)
 .
 to_bits
 (
@@ -1615,6 +1618,13 @@ element
 for
 rlh
 )
+in
+zoom
+-
+independent
+CSS
+pixels
+.
 pub
 fn
 set_root_line_height
@@ -1623,7 +1633,7 @@ set_root_line_height
 self
 size
 :
-Length
+f32
 )
 {
 self
@@ -1633,10 +1643,6 @@ root_line_height
 store
 (
 size
-.
-px
-(
-)
 .
 to_bits
 (
