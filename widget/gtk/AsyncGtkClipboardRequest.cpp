@@ -169,7 +169,7 @@ ClipboardDataType
 :
 Data
 :
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 getting
@@ -207,7 +207,7 @@ ClipboardDataType
 :
 Text
 :
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 getting
@@ -236,7 +236,7 @@ ClipboardDataType
 :
 Targets
 :
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 getting
@@ -292,7 +292,7 @@ GetGeckoClipboardType
 clipboard
 )
 ;
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 OnDataReceived
@@ -362,7 +362,7 @@ GetGeckoClipboardType
 clipboard
 )
 ;
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 OnTextReceived
@@ -422,7 +422,7 @@ void
 aData
 )
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 Request
@@ -538,7 +538,7 @@ dataLength
 0
 )
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 zero
@@ -565,7 +565,7 @@ ClipboardDataType
 Targets
 :
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 getting
@@ -655,7 +655,7 @@ ClipboardDataType
 Text
 :
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 getting
@@ -691,7 +691,7 @@ dataLength
 )
 )
 ;
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 done
@@ -724,7 +724,7 @@ ClipboardDataType
 Data
 :
 {
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 getting
@@ -759,7 +759,7 @@ dataLength
 )
 )
 ;
-LOGCLIP
+MOZ_CLIPBOARD_LOG
 (
 "
 done
