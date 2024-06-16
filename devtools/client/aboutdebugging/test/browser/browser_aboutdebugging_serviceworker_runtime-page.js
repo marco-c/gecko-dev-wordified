@@ -131,6 +131,8 @@ push
 -
 sw
 .
+worker
+.
 js
 "
 ;

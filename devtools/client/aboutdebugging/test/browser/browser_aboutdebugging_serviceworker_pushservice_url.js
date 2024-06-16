@@ -80,6 +80,8 @@ push
 -
 sw
 .
+worker
+.
 js
 "
 ;

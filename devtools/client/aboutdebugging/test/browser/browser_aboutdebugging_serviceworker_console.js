@@ -135,6 +135,8 @@ controlled
 -
 sw
 .
+worker
+.
 js
 "
 ;

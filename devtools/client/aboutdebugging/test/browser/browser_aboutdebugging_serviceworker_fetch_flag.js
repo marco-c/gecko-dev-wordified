@@ -80,6 +80,8 @@ fetch
 -
 sw
 .
+worker
+.
 js
 "
 ;
@@ -117,6 +119,8 @@ workers
 empty
 -
 sw
+.
+worker
 .
 js
 "

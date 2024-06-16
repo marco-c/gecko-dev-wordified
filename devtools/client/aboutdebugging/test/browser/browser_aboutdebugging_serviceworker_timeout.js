@@ -128,6 +128,8 @@ empty
 -
 sw
 .
+worker
+.
 js
 "
 ;

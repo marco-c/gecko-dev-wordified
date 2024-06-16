@@ -99,6 +99,8 @@ empty
 -
 sw
 .
+worker
+.
 js
 "
 ;
