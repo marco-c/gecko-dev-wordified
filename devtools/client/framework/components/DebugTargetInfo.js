@@ -278,14 +278,14 @@ alwaysOnTop
 :
 PropTypes
 .
-boolean
+bool
 .
 isRequired
 focusedState
 :
 PropTypes
 .
-boolean
+bool
 toggleAlwaysOnTop
 :
 PropTypes
