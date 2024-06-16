@@ -952,7 +952,7 @@ label
 workerFile
 tooltip
 :
-workerUrl
+workerFile
 checked
 :
 true

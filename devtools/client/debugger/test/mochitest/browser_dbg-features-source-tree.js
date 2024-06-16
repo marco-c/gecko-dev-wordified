@@ -2282,7 +2282,7 @@ thread
 >
 thread
 .
-url
+name
 =
 =
 testServer
