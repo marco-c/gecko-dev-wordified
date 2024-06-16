@@ -267,7 +267,7 @@ bar
 ;
 Assert
 .
-equal
+ok
 (
 window
 .
@@ -276,7 +276,10 @@ getComputedStyle
 navbar
 )
 .
-borderTopColor
+boxShadow
+.
+includes
+(
 rgb
 (
 {
@@ -291,6 +294,7 @@ join
 "
 )
 }
+)
 )
 "
 Top

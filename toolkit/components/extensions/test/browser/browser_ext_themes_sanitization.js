@@ -557,7 +557,7 @@ bar
 ;
 Assert
 .
-equal
+ok
 (
 window
 .
@@ -566,7 +566,10 @@ getComputedStyle
 navbar
 )
 .
-borderTopColor
+boxShadow
+.
+includes
+(
 "
 rgba
 (
@@ -576,6 +579,7 @@ rgba
 0
 )
 "
+)
 "
 Top
 separator
