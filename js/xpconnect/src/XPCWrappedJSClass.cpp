@@ -3756,7 +3756,7 @@ param
 info
 -
 >
-GetParam
+Param
 (
 i
 )
@@ -6382,7 +6382,7 @@ param
 info
 -
 >
-GetParam
+Param
 (
 i
 )
@@ -7058,7 +7058,7 @@ param
 info
 -
 >
-GetParam
+Param
 (
 i
 )
@@ -7372,7 +7372,7 @@ param
 info
 -
 >
-GetParam
+Param
 (
 i
 )

@@ -228,7 +228,7 @@ param
 info
 -
 >
-GetParam
+Param
 (
 i
 )
