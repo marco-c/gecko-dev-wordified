@@ -68,7 +68,7 @@ CommandArgument
 from
 mozbuild
 .
-util
+dirutils
 import
 mkdir
 def

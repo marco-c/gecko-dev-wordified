@@ -286,7 +286,7 @@ MachCommandBase
 from
 mozbuild
 .
-util
+dirutils
 import
 mkdir
 from

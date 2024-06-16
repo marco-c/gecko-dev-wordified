@@ -64,7 +64,7 @@ sys
 from
 mozbuild
 .
-util
+dirutils
 import
 ensureParentDir
 def

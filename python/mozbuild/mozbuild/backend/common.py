@@ -94,6 +94,12 @@ BuildBackend
 from
 mozbuild
 .
+dirutils
+import
+mkdir
+from
+mozbuild
+.
 frontend
 .
 context
@@ -172,12 +178,6 @@ mozbuild
 preprocessor
 import
 Preprocessor
-from
-mozbuild
-.
-util
-import
-mkdir
 class
 XPIDLManager
 (

@@ -74,7 +74,7 @@ mozfile
 from
 mozbuild
 .
-util
+dirutils
 import
 ensureParentDir
 is_linux

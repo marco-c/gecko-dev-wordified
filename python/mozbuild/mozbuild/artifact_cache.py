@@ -204,7 +204,7 @@ urlparse
 from
 mozbuild
 .
-util
+dirutils
 import
 mkdir
 #

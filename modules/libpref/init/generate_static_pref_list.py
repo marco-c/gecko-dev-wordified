@@ -68,6 +68,12 @@ yaml
 from
 mozbuild
 .
+dirutils
+import
+ensureParentDir
+from
+mozbuild
+.
 preprocessor
 import
 Preprocessor
@@ -77,7 +83,6 @@ mozbuild
 util
 import
 FileAvoidWrite
-ensureParentDir
 from
 six
 import

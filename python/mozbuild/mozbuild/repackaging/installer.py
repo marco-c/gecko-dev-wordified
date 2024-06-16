@@ -78,7 +78,7 @@ archive_exe
 from
 mozbuild
 .
-util
+dirutils
 import
 ensureParentDir
 def
