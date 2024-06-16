@@ -6618,6 +6618,15 @@ dom
 DocumentState
 )
 ;
+malloc_size_of_is_0
+!
+(
+selectors
+:
+:
+OpaqueElement
+)
+;
 #
 [
 cfg
