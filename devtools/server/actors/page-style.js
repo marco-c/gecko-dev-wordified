@@ -4474,6 +4474,10 @@ matches
 "
 :
 modal
+:
+popover
+-
+open
 "
 )
 ;
