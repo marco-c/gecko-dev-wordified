@@ -129,6 +129,8 @@ screen
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 tab
@@ -261,6 +263,8 @@ screen
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 tab

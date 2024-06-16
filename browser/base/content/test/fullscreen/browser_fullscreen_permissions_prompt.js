@@ -351,6 +351,8 @@ popuphidden
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 browser
@@ -378,6 +380,8 @@ cancelled
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 browser
@@ -551,6 +555,8 @@ popuphidden
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 browser
@@ -577,6 +583,8 @@ cancelled
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 browser
@@ -680,6 +688,8 @@ screen
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 browser
@@ -706,6 +716,8 @@ popupshown
 let
 fullScreenExit
 =
+DOMFullscreenTestUtils
+.
 waitForFullScreenState
 (
 browser
@@ -1004,6 +1016,8 @@ screen
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 browser
@@ -1030,6 +1044,8 @@ shown
 let
 fullScreenExit
 =
+DOMFullscreenTestUtils
+.
 waitForFullScreenState
 (
 browser

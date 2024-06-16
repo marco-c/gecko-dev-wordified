@@ -136,7 +136,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -171,6 +171,8 @@ fullscreen
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 browser
@@ -212,6 +214,8 @@ popup
 let
 fsExit
 =
+DOMFullscreenTestUtils
+.
 waitForFullScreenState
 (
 browser

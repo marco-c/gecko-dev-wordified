@@ -225,6 +225,8 @@ screen
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 tab
@@ -487,6 +489,8 @@ screen
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 tab
@@ -653,6 +657,8 @@ tab
 /
 Cleanup
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 tab

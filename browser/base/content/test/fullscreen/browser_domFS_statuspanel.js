@@ -208,6 +208,8 @@ fullscreen
 )
 ;
 await
+DOMFullscreenTestUtils
+.
 changeFullscreen
 (
 browser

@@ -697,6 +697,14 @@ test
 performance
 /
 "
+"
+content
+/
+test
+/
+fullscreen
+/
+"
 ]
 PERFTESTS_MANIFESTS
 +
