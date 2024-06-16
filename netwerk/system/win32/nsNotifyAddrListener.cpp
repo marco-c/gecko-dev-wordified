@@ -3846,9 +3846,12 @@ s
 \
 n
 "
+PromiseFlatCString
+(
 suffix
+)
 .
-BeginReading
+get
 (
 )
 )
