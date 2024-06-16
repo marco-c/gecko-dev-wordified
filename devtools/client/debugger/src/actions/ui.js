@@ -98,7 +98,6 @@ select
 import
 {
 getEditor
-getLocationsInViewport
 updateEditorLineWrapping
 }
 from
@@ -901,6 +900,13 @@ updateViewport
 (
 )
 {
+const
+editor
+=
+getEditor
+(
+)
+;
 return
 {
 type
@@ -910,11 +916,10 @@ SET_VIEWPORT
 "
 viewport
 :
+editor
+.
 getLocationsInViewport
 (
-getEditor
-(
-)
 )
 }
 ;
