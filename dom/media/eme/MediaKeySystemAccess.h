@@ -387,6 +387,16 @@ MediaKeySystemConfiguration
 aConfig
 )
 ;
+static
+nsCString
+ToCString
+(
+const
+MediaKeySystemConfiguration
+&
+aConfig
+)
+;
 private
 :
 nsCOMPtr
