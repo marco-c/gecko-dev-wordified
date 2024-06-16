@@ -17,14 +17,6 @@ latest_channels
 {
     
 '
-android_weblayer
-'
-:
-'
-dev
-'
-    
-'
 android_webview
 '
 :
