@@ -2648,7 +2648,10 @@ GetInlineDir
 WritingMode
 :
 :
-eInlineLTR
+InlineDir
+:
+:
+LTR
 )
 {
 /
