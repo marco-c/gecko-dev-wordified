@@ -999,11 +999,6 @@ RTC_GUARDED_BY
 worker_queue_
 )
 ;
-TransportFeedbackObserver
-*
-const
-transport_feedback_observer_
-;
 SendPacketObserver
 *
 const
