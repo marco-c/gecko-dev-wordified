@@ -793,6 +793,7 @@ TLS
 information
 is
 at
+<
 http
 :
 /
@@ -816,6 +817,7 @@ TLSDESC
 x86
 .
 txt
+>
 /
 /
 !
@@ -876,6 +878,7 @@ relocation
 !
 Read
 more
+<
 https
 :
 /
@@ -901,6 +904,7 @@ chapter6
 54839
 .
 html
+>
 include
 !
 (
@@ -1404,18 +1408,6 @@ ty
 if_alloc
 !
 {
-use
-crate
-:
-:
-elf
-:
-:
-reloc
-:
-:
-Reloc
-;
 use
 core
 :
