@@ -406,6 +406,10 @@ const
 nsACString
 &
 aNodeId
+const
+nsAString
+&
+aGMPName
 )
 ;
 nsresult
