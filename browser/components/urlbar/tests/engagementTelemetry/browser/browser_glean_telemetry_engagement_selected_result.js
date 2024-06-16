@@ -2650,6 +2650,15 @@ async
 >
 {
 await
+expectNoConsoleErrors
+(
+async
+(
+)
+=
+>
+{
+await
 doPasteAndGo
 (
 "
@@ -2659,9 +2668,7 @@ com
 "
 )
 ;
-assertEngagementTelemetry
-(
-expected
+}
 )
 ;
 }
