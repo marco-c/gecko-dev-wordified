@@ -127,7 +127,7 @@ mozilla
 /
 css
 /
-Rule
+GroupRule
 .
 h
 "
@@ -325,7 +325,7 @@ public
 css
 :
 :
-Rule
+GroupRule
 {
 public
 :
@@ -358,7 +358,7 @@ CSSPageRule
 css
 :
 :
-Rule
+GroupRule
 )
 bool
 IsCCLeaf
@@ -439,6 +439,15 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+final
+;
+already_AddRefed
+<
+StyleLockedCssRules
+>
+GetOrCreateRawRules
+(
+)
 final
 ;
 #

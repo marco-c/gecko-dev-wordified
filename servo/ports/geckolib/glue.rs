@@ -14612,7 +14612,7 @@ changed
 :
 Servo_StyleSet_NamespaceRuleChanged
 }
-impl_basic_rule_funcs
+impl_group_rule_funcs
 !
 {
 (
@@ -14623,6 +14623,9 @@ Locked
 PageRule
 >
 )
+get_rules
+:
+Servo_PageRule_GetRules
 getter
 :
 Servo_CssRules_GetPageRuleAt
