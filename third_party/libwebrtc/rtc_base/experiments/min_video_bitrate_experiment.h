@@ -104,6 +104,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 data_rate
@@ -159,6 +168,10 @@ DataRate
 >
 GetExperimentalMinVideoBitrate
 (
+const
+FieldTrialsView
+&
+field_trials
 VideoCodecType
 type
 )
