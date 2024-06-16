@@ -159,6 +159,7 @@ continueFile
 :
 null
 }
+async
 (
 )
 =
@@ -169,6 +170,7 @@ prepareToDownloadVersion
 SECOND_UPDATE_VERSION
 )
 ;
+await
 gAUS
 .
 checkForBackgroundUpdates

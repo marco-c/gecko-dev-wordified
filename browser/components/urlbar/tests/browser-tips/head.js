@@ -1059,6 +1059,7 @@ setUpdateURL
 updateURL
 )
 ;
+await
 gAUS
 .
 checkForBackgroundUpdates

@@ -111,6 +111,7 @@ alright
 .
 is
 (
+await
 gAUS
 .
 checkForBackgroundUpdates
