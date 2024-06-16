@@ -2856,7 +2856,9 @@ media
 .
 getusermedia
 .
-audiocapture
+audio
+.
+capture
 .
 enabled
 "
