@@ -3421,10 +3421,6 @@ showError
 message
 :
 "
-full
--
-page
--
 translations
 -
 panel
@@ -3438,10 +3434,6 @@ languages
 hint
 :
 "
-full
--
-page
--
 translations
 -
 panel
@@ -3457,10 +3449,6 @@ hint
 actionText
 :
 "
-full
--
-page
--
 translations
 -
 panel
@@ -7978,10 +7966,6 @@ showError
 message
 :
 "
-full
--
-page
--
 translations
 -
 panel
