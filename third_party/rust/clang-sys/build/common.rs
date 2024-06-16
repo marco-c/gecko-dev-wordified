@@ -3404,10 +3404,6 @@ _
 else
 {
 directories
-.
-into
-(
-)
 }
 ;
 /
