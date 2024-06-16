@@ -1447,11 +1447,9 @@ VP8
 )
 {
 return
-VP8Decoder
-:
-:
-Create
+CreateVp8Decoder
 (
+env
 )
 ;
 }
