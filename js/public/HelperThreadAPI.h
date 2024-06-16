@@ -159,6 +159,9 @@ JS_PUBLIC_API
 namespace
 JS
 {
+class
+HelperThreadTask
+;
 /
 /
 Argument
@@ -227,7 +230,7 @@ callback
 to
 dispatch
 a
-tasks
+task
 to
 an
 external
@@ -247,6 +250,10 @@ JS
 :
 :
 RunHelperThreadTask
+passing
+|
+task
+|
 .
 *
 /
@@ -258,6 +265,9 @@ void
 *
 )
 (
+HelperThreadTask
+*
+task
 DispatchReason
 reason
 )
@@ -296,6 +306,9 @@ JS_PUBLIC_API
 void
 RunHelperThreadTask
 (
+HelperThreadTask
+*
+task
 )
 ;
 }
