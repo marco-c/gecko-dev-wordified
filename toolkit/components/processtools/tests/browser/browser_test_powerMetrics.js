@@ -96,7 +96,7 @@ mochitests
 content
 "
 "
-https
+http
 :
 /
 /
