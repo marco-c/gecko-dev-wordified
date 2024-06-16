@@ -9401,8 +9401,6 @@ addon
 with
 low
 usage
-/
-/
 -
 >
 /
@@ -9590,7 +9588,7 @@ aboutSpec
 "
 about
 :
-fingerprintingprotection
+fingerprinting
 "
 _ns
 )
