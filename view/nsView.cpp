@@ -7178,6 +7178,8 @@ RequestRepaint
 (
 )
 {
+if
+(
 PresShell
 *
 presShell
@@ -7188,10 +7190,6 @@ mViewManager
 GetPresShell
 (
 )
-;
-if
-(
-presShell
 )
 {
 presShell

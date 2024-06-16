@@ -26077,6 +26077,8 @@ mIsDestroying
 return
 ;
 }
+if
+(
 nsPresContext
 *
 presContext
@@ -26084,10 +26086,6 @@ presContext
 GetPresContext
 (
 )
-;
-if
-(
-presContext
 )
 {
 presContext
@@ -26103,10 +26101,6 @@ ScheduleViewManagerFlush
 )
 ;
 }
-SetNeedLayoutFlush
-(
-)
-;
 }
 void
 PresShell

@@ -2899,6 +2899,16 @@ rootVM
 mPresShell
 -
 >
+SetNeedLayoutFlush
+(
+)
+;
+rootVM
+-
+>
+mPresShell
+-
+>
 ScheduleViewManagerFlush
 (
 )
