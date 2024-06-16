@@ -6910,6 +6910,12 @@ property
 Step
 8
 .
+ReportUsageCounter
+(
+C
+SUBCLASS_ARRAY_TYPE_III
+)
+;
 return
 constructContentFunction
 (

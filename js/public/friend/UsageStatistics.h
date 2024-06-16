@@ -575,6 +575,12 @@ SubclassingArrayTypeII
 \
 _
 (
+SUBCLASSING_ARRAY_TYPE_III
+SubclassingArrayTypeIII
+)
+\
+_
+(
 SUBCLASSING_PROMISE_TYPE_II
 SubclassingPromiseTypeII
 )
