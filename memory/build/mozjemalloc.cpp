@@ -6447,7 +6447,12 @@ number
 of
 committed
 pages
-.
+(
+non
+madvised
+/
+decommitted
+)
 size_t
 committed
 ;
