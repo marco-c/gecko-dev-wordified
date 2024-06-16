@@ -452,7 +452,6 @@ MediaData
 &
 &
 aData
-const
 AudioDecoderConfigInternal
 &
 aConfig
