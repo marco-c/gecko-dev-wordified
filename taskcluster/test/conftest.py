@@ -301,7 +301,7 @@ head_repository
 /
 json
 -
-automationrelevance
+pushfileschanged
 /
 {
 head_rev
@@ -325,7 +325,7 @@ url
 ]
 =
 "
-automationrelevance
+pushfileschanged
 .
 json
 "
