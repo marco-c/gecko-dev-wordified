@@ -4277,6 +4277,7 @@ reloadUpdateManagerData
 (
 )
 ;
+await
 testPostUpdateProcessing
 (
 )

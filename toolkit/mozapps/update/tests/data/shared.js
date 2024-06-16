@@ -1355,6 +1355,7 @@ update
 processing
 *
 /
+async
 function
 testPostUpdateProcessing
 (
