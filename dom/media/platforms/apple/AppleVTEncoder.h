@@ -203,6 +203,10 @@ HardwarePreference
 :
 RequireSoftware
 )
+mFramesCompleted
+(
+false
+)
 mError
 (
 NS_OK
@@ -494,6 +498,9 @@ mTaskQueue
 .
 EncodedData
 mEncodedData
+;
+bool
+mFramesCompleted
 ;
 RefPtr
 <
