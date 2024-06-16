@@ -35,9 +35,10 @@ i
 var
 suspending_compute_delta
 =
+new
 WebAssembly
 .
-suspending
+Suspending
 (
 compute_delta
 )
@@ -372,9 +373,10 @@ ff
 var
 suspending_compute_delta
 =
+new
 WebAssembly
 .
-suspending
+Suspending
 (
 compute_delta
 )

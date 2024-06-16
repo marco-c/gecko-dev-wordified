@@ -1157,6 +1157,14 @@ JSProto_WasmFunction
 :
 #
 endif
+#
+ifdef
+ENABLE_WASM_JSPI
+case
+JSProto_WasmSuspending
+:
+#
+endif
 case
 JSProto_WasmException
 :
