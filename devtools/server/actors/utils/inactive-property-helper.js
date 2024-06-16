@@ -581,6 +581,13 @@ highlight
 :
 selection
 "
+"
+:
+:
+target
+-
+text
+"
 /
 /
 Below
@@ -608,13 +615,6 @@ error
 spelling
 -
 error
-"
-"
-:
-:
-target
--
-text
 "
 ]
 ;
