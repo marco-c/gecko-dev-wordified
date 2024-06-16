@@ -127,6 +127,15 @@ include
 "
 mozilla
 /
+WidgetUtilsGtk
+.
+h
+"
+#
+include
+"
+mozilla
+/
 widget
 /
 InProcessCompositorWidget

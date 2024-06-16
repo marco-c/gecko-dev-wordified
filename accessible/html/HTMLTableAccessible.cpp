@@ -147,6 +147,15 @@ h
 #
 include
 "
+DocAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsTextEquivUtils
 .
 h
