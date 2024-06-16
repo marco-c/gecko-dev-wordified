@@ -146,6 +146,15 @@ h
 #
 include
 "
+mozilla
+/
+ScrollContainerFrame
+.
+h
+"
+#
+include
+"
 nsIScrollableFrame
 .
 h
