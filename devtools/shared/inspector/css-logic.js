@@ -454,6 +454,11 @@ CSSPageRule
 "
 page
 "
+CSSScopeRule
+:
+"
+scope
+"
 CSSSupportsRule
 :
 "
