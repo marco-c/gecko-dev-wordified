@@ -10576,7 +10576,7 @@ forwardScanFromAfterBRElementResult
 WSRunScanner
 :
 :
-ScanNextVisibleNodeOrBlockBoundary
+ScanInclusiveNextVisibleNodeOrBlockBoundary
 (
 editingHost
 pointToPutCaret
@@ -10952,7 +10952,7 @@ pointToPutCaret
 =
 forwardScanFromAfterBRElementResult
 .
-PointAtContent
+PointAtReachedContent
 <
 EditorDOMPoint
 >
@@ -15282,7 +15282,7 @@ forwardScanResult
 =
 wsRunScanner
 .
-ScanNextVisibleNodeOrBlockBoundaryFrom
+ScanInclusiveNextVisibleNodeOrBlockBoundaryFrom
 (
 aPointToBreak
 )
@@ -16207,7 +16207,7 @@ forwardScanFromAfterBRElementResult
 WSRunScanner
 :
 :
-ScanNextVisibleNodeOrBlockBoundary
+ScanInclusiveNextVisibleNodeOrBlockBoundary
 (
 &
 aEditingHost
@@ -18048,7 +18048,7 @@ forwardScanFromPointToSplitResult
 WSRunScanner
 :
 :
-ScanNextVisibleNodeOrBlockBoundary
+ScanInclusiveNextVisibleNodeOrBlockBoundary
 (
 &
 aEditingHost
@@ -18140,7 +18140,7 @@ pointToSplit
 =
 forwardScanFromPointToSplitResult
 .
-PointAfterContent
+PointAfterReachedContent
 <
 EditorDOMPoint
 >
@@ -19104,7 +19104,7 @@ forwardScanFromPointAfterNewBRElementResult
 WSRunScanner
 :
 :
-ScanNextVisibleNodeOrBlockBoundary
+ScanInclusiveNextVisibleNodeOrBlockBoundary
 (
 &
 aEditingHost
@@ -52513,7 +52513,7 @@ scanResultAtStart
 =
 wsScannerAtStart
 .
-ScanNextVisibleNodeOrBlockBoundaryFrom
+ScanInclusiveNextVisibleNodeOrBlockBoundaryFrom
 (
 startPoint
 )
@@ -62018,7 +62018,7 @@ forwardScanFromStartOfListItemResult
 WSRunScanner
 :
 :
-ScanNextVisibleNodeOrBlockBoundary
+ScanInclusiveNextVisibleNodeOrBlockBoundary
 (
 &
 aEditingHost
@@ -62094,7 +62094,7 @@ atFoundElement
 =
 forwardScanFromStartOfListItemResult
 .
-PointAtContent
+PointAtReachedContent
 <
 EditorDOMPoint
 >

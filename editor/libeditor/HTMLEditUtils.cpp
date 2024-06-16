@@ -15605,7 +15605,7 @@ nextVisibleThing
 WSRunScanner
 :
 :
-ScanNextVisibleNodeOrBlockBoundary
+ScanInclusiveNextVisibleNodeOrBlockBoundary
 (
 &
 aEditingHost
@@ -15992,7 +15992,7 @@ forwardScanFromPointToInsertResult
 =
 wsScannerForPointToInsert
 .
-ScanNextVisibleNodeOrBlockBoundaryFrom
+ScanInclusiveNextVisibleNodeOrBlockBoundaryFrom
 (
 pointToInsert
 )
@@ -16211,7 +16211,7 @@ return
 forwardScanFromPointToInsertResult
 .
 template
-PointAfterContent
+PointAfterReachedContent
 <
 EditorDOMPointType
 >

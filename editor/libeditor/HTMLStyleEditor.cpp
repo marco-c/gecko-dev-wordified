@@ -14559,7 +14559,7 @@ nextContentData
 WSRunScanner
 :
 :
-ScanNextVisibleNodeOrBlockBoundary
+ScanInclusiveNextVisibleNodeOrBlockBoundary
 (
 &
 aEditingHost

@@ -8655,7 +8655,7 @@ eNext
 ?
 wsRunScannerAtCaret
 .
-ScanNextVisibleNodeOrBlockBoundaryFrom
+ScanInclusiveNextVisibleNodeOrBlockBoundaryFrom
 (
 caretPoint
 )
@@ -8775,7 +8775,7 @@ eNext
 ?
 scanFromCaretPointResult
 .
-PointAfterContent
+PointAfterReachedContent
 <
 EditorDOMPoint
 >
@@ -8784,7 +8784,7 @@ EditorDOMPoint
 :
 scanFromCaretPointResult
 .
-PointAtContent
+PointAtReachedContent
 <
 EditorDOMPoint
 >
@@ -9110,7 +9110,7 @@ if
 (
 scanFromCaretPointResult
 .
-PointAtContent
+PointAtReachedContent
 <
 EditorRawDOMPoint
 >
@@ -9202,7 +9202,7 @@ IsBefore
 (
 scanFromCaretPointResult
 .
-PointAfterContent
+PointAfterReachedContent
 <
 EditorRawDOMPoint
 >
@@ -9235,7 +9235,7 @@ StartRef
 )
 scanFromCaretPointResult
 .
-PointAfterContent
+PointAfterReachedContent
 <
 EditorRawDOMPoint
 >
@@ -10654,7 +10654,7 @@ eNext
 ?
 wsRunScannerAtCaret
 .
-ScanNextVisibleNodeOrBlockBoundaryFrom
+ScanInclusiveNextVisibleNodeOrBlockBoundaryFrom
 (
 caretPoint
 .
@@ -11035,7 +11035,7 @@ eNext
 ?
 wsRunScannerAtCaret
 .
-ScanNextVisibleNodeOrBlockBoundaryFrom
+ScanInclusiveNextVisibleNodeOrBlockBoundaryFrom
 (
 caretPoint
 .
@@ -16104,7 +16104,7 @@ aCaretPoint
 :
 aWSRunScannerAtCaret
 .
-ScanNextVisibleNodeOrBlockBoundaryFrom
+ScanInclusiveNextVisibleNodeOrBlockBoundaryFrom
 (
 aCaretPoint
 )
@@ -16460,7 +16460,7 @@ maybeNextText
 =
 scanner
 .
-ScanNextVisibleNodeOrBlockBoundaryFrom
+ScanInclusiveNextVisibleNodeOrBlockBoundaryFrom
 (
 EditorRawDOMPoint
 :
@@ -28496,7 +28496,7 @@ forwardScanFromPointResult
 =
 wsScannerForPoint
 .
-ScanNextVisibleNodeOrBlockBoundaryFrom
+ScanInclusiveNextVisibleNodeOrBlockBoundaryFrom
 (
 aPoint
 )
@@ -28691,7 +28691,7 @@ scanResult
 WSRunScanner
 :
 :
-ScanNextVisibleNodeOrBlockBoundary
+ScanInclusiveNextVisibleNodeOrBlockBoundary
 (
 editingHost
 EditorRawDOMPoint
@@ -45510,7 +45510,7 @@ SetStart
 (
 backwardScanFromStartResult
 .
-PointAtContent
+PointAtReachedContent
 <
 EditorRawDOMPoint
 >
@@ -45665,7 +45665,7 @@ forwardScanFromEndResult
 =
 wsScannerAtEnd
 .
-ScanNextVisibleNodeOrBlockBoundaryFrom
+ScanInclusiveNextVisibleNodeOrBlockBoundaryFrom
 (
 rangeToDelete
 .
@@ -45997,7 +45997,7 @@ SetEnd
 (
 forwardScanFromEndResult
 .
-PointAfterContent
+PointAfterReachedContent
 <
 EditorRawDOMPoint
 >
