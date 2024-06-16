@@ -422,13 +422,6 @@ h
 #
 include
 "
-nsIScrollableFrame
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -10713,7 +10706,7 @@ reframing
 .
 if
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =
@@ -10821,7 +10814,7 @@ IsScrollableOverflow
 ;
 if
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =

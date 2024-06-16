@@ -15584,9 +15584,9 @@ StyleGeometryBox
 ContentBox
 )
 {
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollableFrame
+scrollContainerFrame
 =
 do_QueryFrame
 (
@@ -15628,7 +15628,7 @@ TopLeft
 (
 )
 +
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetScrolledFrame
@@ -15649,7 +15649,7 @@ rtl
 case
 :
 +
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetScrollRange
@@ -15659,7 +15659,7 @@ GetScrollRange
 TopLeft
 (
 )
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetScrolledRect
@@ -19839,9 +19839,9 @@ mAttachment
 )
 )
 {
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollableFrame
+scrollContainerFrame
 =
 do_QueryFrame
 (
@@ -19852,7 +19852,7 @@ positionArea
 =
 nsRect
 (
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetScrolledFrame
@@ -19873,7 +19873,7 @@ rtl
 case
 :
 +
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetScrollRange
@@ -19883,7 +19883,7 @@ GetScrollRange
 TopLeft
 (
 )
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetScrolledRect
@@ -19970,7 +19970,7 @@ positionArea
 .
 Inflate
 (
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetActualScrollbarSizes
