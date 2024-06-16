@@ -9404,7 +9404,7 @@ generation
 <
 local
 .
-type
+type_name
 (
 )
 <
@@ -9481,7 +9481,7 @@ priority
 <
 remote
 .
-type
+type_name
 (
 )
 <

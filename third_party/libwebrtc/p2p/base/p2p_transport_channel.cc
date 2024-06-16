@@ -9689,7 +9689,7 @@ to
 <
 remote_candidate
 .
-type
+type_name
 (
 )
 ;
