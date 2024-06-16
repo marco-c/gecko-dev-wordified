@@ -212,6 +212,17 @@ arguments
 0
 ]
 ;
+window
+.
+ensureCustomElements
+(
+"
+moz
+-
+button
+"
+)
+;
 let
 [
 downloadKey
