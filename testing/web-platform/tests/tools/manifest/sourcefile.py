@@ -1588,7 +1588,7 @@ in
 name
 :
             
-type_flag
+type_meta
 =
 name
 .
@@ -1609,10 +1609,25 @@ split
 .
 "
 )
+            
+type_flag
+=
+type_meta
 [
 0
 ]
+            
+meta_flags
+=
+type_meta
+[
+1
+:
+]
         
+else
+:
+            
 meta_flags
 =
 name
