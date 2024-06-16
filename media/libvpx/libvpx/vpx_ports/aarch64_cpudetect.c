@@ -122,6 +122,12 @@ endif
 if
 !
 CONFIG_RUNTIME_CPU_DETECT
+|
+|
+defined
+(
+__OpenBSD__
+)
 static
 int
 arm_get_cpu_caps
@@ -201,6 +207,12 @@ __APPLE__
 end
 !
 CONFIG_RUNTIME_CPU_DETECT
+|
+|
+defined
+(
+__OpenBSD__
+)
 /
 /
 sysctlbyname
