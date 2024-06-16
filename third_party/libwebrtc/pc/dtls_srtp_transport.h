@@ -119,15 +119,6 @@ include
 "
 api
 /
-crypto_params
-.
-h
-"
-#
-include
-"
-api
-/
 dtls_transport_interface
 .
 h

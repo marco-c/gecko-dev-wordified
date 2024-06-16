@@ -779,12 +779,6 @@ triggering
 srtp
 failures
 .
-config
-.
-disable_encryption
-=
-true
-;
 auto
 *
 caller
