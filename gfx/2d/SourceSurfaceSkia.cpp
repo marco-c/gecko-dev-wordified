@@ -725,10 +725,10 @@ kDisallow_CachingHint
 )
 {
 return
-SkImage
+SkImages
 :
 :
-MakeRasterData
+RasterFromData
 (
 aInfo
 data
@@ -797,10 +797,10 @@ aFormat
 ;
 mImage
 =
-SkImage
+SkImages
 :
 :
-MakeRasterData
+RasterFromData
 (
 info
 data
