@@ -767,6 +767,11 @@ testUTF8
 cpp
 "
 "
+testWasmEncoder
+.
+cpp
+"
+"
 testWasmLEB128
 .
 cpp
