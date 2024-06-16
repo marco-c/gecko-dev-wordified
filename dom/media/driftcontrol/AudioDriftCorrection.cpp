@@ -283,7 +283,7 @@ AudioResampler
 (
 aSourceRate
 aTargetRate
-mDesiredBuffering
+0
 aPrincipalHandle
 )
 )
@@ -1357,9 +1357,17 @@ mDesiredBuffering
 mResampler
 -
 >
-SetPreBufferDuration
+SetInputPreBufferFrameCount
 (
 mDesiredBuffering
+.
+ToTicksAtRate
+(
+mDriftController
+-
+>
+mSourceRate
+)
 )
 ;
 }

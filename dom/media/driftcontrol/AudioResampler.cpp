@@ -100,6 +100,13 @@ AudioResampler
 .
 h
 "
+#
+include
+"
+TimeUnits
+.
+h
+"
 namespace
 mozilla
 {
@@ -112,11 +119,8 @@ uint32_t
 aInRate
 uint32_t
 aOutRate
-media
-:
-:
-TimeUnit
-aPreBufferDuration
+uint32_t
+aInputPreBufferFrameCount
 const
 PrincipalHandle
 &
@@ -127,7 +131,7 @@ mResampler
 (
 aInRate
 aOutRate
-aPreBufferDuration
+aInputPreBufferFrameCount
 )
 mOutputChunks
 (
