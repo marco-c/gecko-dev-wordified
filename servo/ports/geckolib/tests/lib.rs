@@ -145,13 +145,9 @@ crate
 [
 cfg
 (
-any
-(
-linking_with_gecko
 not
 (
 windows
-)
 )
 )
 ]
