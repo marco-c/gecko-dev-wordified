@@ -268,7 +268,7 @@ SUCH
 DAMAGE
 .
 from
-mod_pywebsocket
+pywebsocket3
 import
 handshake
 def

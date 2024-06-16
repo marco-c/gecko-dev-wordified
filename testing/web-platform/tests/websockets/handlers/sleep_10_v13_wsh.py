@@ -11,7 +11,7 @@ sys
 urllib
 time
 from
-mod_pywebsocket
+pywebsocket3
 import
 msgutil
 def

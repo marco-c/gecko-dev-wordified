@@ -297,7 +297,7 @@ unittest
 import
 sys
 from
-mod_pywebsocket
+pywebsocket3
 import
 http_header_util
 class

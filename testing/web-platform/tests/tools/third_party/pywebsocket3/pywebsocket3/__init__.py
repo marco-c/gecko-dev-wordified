@@ -277,7 +277,7 @@ Server
 for
 testing
 purposes
-mod_pywebsocket
+pywebsocket3
 is
 an
 API
@@ -338,7 +338,7 @@ command
 :
     
 pydoc
-mod_pywebsocket
+pywebsocket3
 .
 standalone
 2
@@ -699,7 +699,7 @@ client
 using
 request
 .
-mod_pywebsocket
+pywebsocket3
 .
 msgutil
 module

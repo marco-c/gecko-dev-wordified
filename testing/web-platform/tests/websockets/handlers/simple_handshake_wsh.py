@@ -7,12 +7,12 @@ bin
 /
 python
 from
-mod_pywebsocket
+pywebsocket3
 import
 common
 stream
 from
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 import

@@ -281,7 +281,7 @@ import
 this
 module
 before
-mod_pywebsocket
+pywebsocket3
 .
 "
 "
@@ -306,7 +306,7 @@ path
 to
 enable
 importing
-mod_pywebsocket
+pywebsocket3
 .
 sys
 .

@@ -15,7 +15,7 @@ wptserve
 .
 stash
 from
-mod_pywebsocket
+pywebsocket3
 import
 msgutil
 address

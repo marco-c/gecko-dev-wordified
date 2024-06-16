@@ -34,7 +34,7 @@ bar
 "
 "
 from
-mod_pywebsocket
+pywebsocket3
 .
 handshake
 import

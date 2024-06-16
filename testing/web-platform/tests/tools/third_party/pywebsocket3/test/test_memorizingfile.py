@@ -305,11 +305,11 @@ sys
 path
 to
 locate
-mod_pywebsocket
+pywebsocket3
 module
 .
 from
-mod_pywebsocket
+pywebsocket3
 import
 memorizingfile
 class

@@ -284,7 +284,7 @@ Set
 up
 script
 for
-mod_pywebsocket
+pywebsocket3
 .
 "
 "
@@ -307,7 +307,7 @@ sys
 _PACKAGE_NAME
 =
 '
-mod_pywebsocket
+pywebsocket3
 '
 #
 Build
@@ -400,14 +400,14 @@ ext_modules
 Extension
 (
 '
-mod_pywebsocket
+pywebsocket3
 /
 _fast_masking
 '
                   
 [
 '
-mod_pywebsocket
+pywebsocket3
 /
 fast_masking
 .
@@ -464,7 +464,7 @@ long_description
 =
 (
 '
-mod_pywebsocket
+pywebsocket3
 is
 a
 standalone
@@ -485,7 +485,7 @@ RFC
                       
 '
 See
-mod_pywebsocket
+pywebsocket3
 /
 __init__
 .
@@ -557,7 +557,7 @@ pywebsocket3
 version
 =
 '
-3
+4
 .
 0
 .
