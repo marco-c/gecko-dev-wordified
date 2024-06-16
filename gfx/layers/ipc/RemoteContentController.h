@@ -540,10 +540,10 @@ bool
 mCanSend
 ;
 void
-HandleTapOnMainThread
+HandleTapOnParentProcessMainThread
 (
 TapType
-aType
+aTapType
 LayoutDevicePoint
 aPoint
 Modifiers
@@ -562,10 +562,10 @@ aDoubleTapToZoomMetrics
 )
 ;
 void
-HandleTapOnCompositorThread
+HandleTapOnGPUProcessMainThread
 (
 TapType
-aType
+aTapType
 LayoutDevicePoint
 aPoint
 Modifiers
