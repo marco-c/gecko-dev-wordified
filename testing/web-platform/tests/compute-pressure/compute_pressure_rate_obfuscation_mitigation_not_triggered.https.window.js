@@ -161,11 +161,6 @@ changes
 )
 ;
 }
-{
-sampleInterval
-:
-sampleIntervalInMs
-}
 )
 ;
 observer
@@ -175,6 +170,11 @@ observe
 '
 cpu
 '
+{
+sampleInterval
+:
+sampleIntervalInMs
+}
 )
 ;
 mockPressureService
