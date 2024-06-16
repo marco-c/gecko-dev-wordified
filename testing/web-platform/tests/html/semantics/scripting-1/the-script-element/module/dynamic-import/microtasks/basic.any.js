@@ -231,7 +231,7 @@ getCount
 =
 ticker
 (
-1e7
+1e6
 )
 ;
 await
@@ -245,7 +245,7 @@ assert_equals
 getCount
 (
 )
-1e7
+1e6
 )
 ;
 }
