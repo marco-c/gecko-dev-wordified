@@ -5382,6 +5382,12 @@ mTrrService
 >
 Init
 (
+mResolver
+-
+>
+IsNativeHTTPSEnabled
+(
+)
 )
 )
 )

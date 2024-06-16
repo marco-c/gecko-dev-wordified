@@ -234,6 +234,8 @@ NS_IsMainThread
 nsresult
 Init
 (
+bool
+aNativeHTTPSQueryEnabled
 )
 ;
 nsresult
