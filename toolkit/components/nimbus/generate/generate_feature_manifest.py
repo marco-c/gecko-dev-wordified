@@ -183,10 +183,6 @@ ALLOWED_ISEARLYSTARTUP_FEATURE_IDS
 {
     
 "
-abouthomecache
-"
-    
-"
 aboutwelcome
 "
     
