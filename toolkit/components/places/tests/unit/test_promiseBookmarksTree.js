@@ -431,6 +431,7 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_FOLDER
 :
+{
 Assert
 .
 equal
@@ -690,6 +691,7 @@ root
 }
 break
 ;
+}
 case
 Ci
 .
@@ -739,6 +741,7 @@ break
 ;
 default
 :
+{
 Assert
 .
 equal
@@ -1027,6 +1030,7 @@ aNode
 title
 )
 ;
+}
 }
 }
 if

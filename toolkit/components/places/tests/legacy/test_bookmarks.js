@@ -161,6 +161,7 @@ bookmark
 added
 "
 :
+{
 bookmarksObserver
 .
 _itemAddedId
@@ -313,6 +314,7 @@ finalize
 ;
 break
 ;
+}
 case
 "
 bookmark
