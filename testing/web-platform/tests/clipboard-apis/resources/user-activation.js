@@ -227,7 +227,6 @@ async
 function
 tryGrantReadPermission
 (
-state
 )
 {
 await
