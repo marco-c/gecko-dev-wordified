@@ -1000,14 +1000,6 @@ gURLBar
 inputField
 )
 ;
-await
-UrlbarTestUtils
-.
-promiseSearchComplete
-(
-window
-)
-;
 /
 /
 Press
@@ -1072,12 +1064,10 @@ undefined
 results
 :
 "
-action
 "
 groups
 :
 "
-suggested_index
 "
 }
 ]

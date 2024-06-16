@@ -88,9 +88,9 @@ browser
 .
 urlbar
 .
-suggest
+secondaryActions
 .
-quickactions
+featureGate
 "
 true
 ]
@@ -407,7 +407,7 @@ URI
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -448,7 +448,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 {
 }
@@ -554,7 +554,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 {
 }
@@ -863,7 +863,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 {
 }
@@ -970,7 +970,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 {
 }
