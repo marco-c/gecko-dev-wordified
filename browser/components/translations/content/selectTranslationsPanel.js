@@ -6340,7 +6340,16 @@ occur
 const
 BOTTOM_EDGE_PIXEL_BUFFER
 =
-20
+Math
+.
+abs
+(
+panelBottom
+-
+panelTop
+)
+/
+5
 ;
 if
 (
