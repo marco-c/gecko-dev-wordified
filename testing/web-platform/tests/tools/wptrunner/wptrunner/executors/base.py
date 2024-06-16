@@ -1603,6 +1603,18 @@ hang
 n
 "
                     
+if
+executor
+.
+ident
+in
+sys
+.
+_current_frames
+(
+)
+:
+                        
 #
 get
 a
@@ -1615,7 +1627,7 @@ of
 the
 executor
 thread
-                    
+                        
 message
 +
 =
@@ -1628,6 +1640,7 @@ traceback
 .
 format_stack
 (
+                            
 sys
 .
 _current_frames
