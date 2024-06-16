@@ -13,6 +13,17 @@ this
 hasOwnProperty
 (
 '
+Iterator
+'
+)
+|
+|
+!
+this
+.
+hasOwnProperty
+(
+'
 AsyncIterator
 '
 )
