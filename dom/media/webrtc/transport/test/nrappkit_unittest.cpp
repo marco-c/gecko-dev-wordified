@@ -466,7 +466,13 @@ void
 *
 handle_
 ;
+std
+:
+:
+atomic
+<
 bool
+>
 fired_
 ;
 }

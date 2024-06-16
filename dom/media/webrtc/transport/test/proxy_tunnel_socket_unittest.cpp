@@ -250,6 +250,13 @@ SetUp
 )
 override
 {
+MtransportTest
+:
+:
+SetUp
+(
+)
+;
 mSProxy
 =
 new
@@ -328,6 +335,13 @@ mSProxy
 -
 >
 close
+(
+)
+;
+MtransportTest
+:
+:
+TearDown
 (
 )
 ;
