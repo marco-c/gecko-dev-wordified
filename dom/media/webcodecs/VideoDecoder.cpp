@@ -795,7 +795,7 @@ aOptimizeForLatency
 static
 *
 /
-UniquePtr
+RefPtr
 <
 VideoDecoderConfigInternal
 >
@@ -943,13 +943,10 @@ unwrap
 ;
 }
 return
-UniquePtr
+MakeRefPtr
 <
 VideoDecoderConfigInternal
 >
-(
-new
-VideoDecoderConfigInternal
 (
 aConfig
 .
@@ -997,7 +994,6 @@ OptionalToMaybe
 aConfig
 .
 mOptimizeForLatency
-)
 )
 )
 ;
@@ -5752,7 +5748,7 @@ true
 static
 *
 /
-UniquePtr
+RefPtr
 <
 VideoDecoderConfigInternal
 >

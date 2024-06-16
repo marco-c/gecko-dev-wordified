@@ -525,7 +525,7 @@ aDescription
 static
 *
 /
-UniquePtr
+RefPtr
 <
 AudioDecoderConfigInternal
 >
@@ -678,13 +678,10 @@ unwrap
 ;
 }
 return
-UniquePtr
+MakeRefPtr
 <
 AudioDecoderConfigInternal
 >
-(
-new
-AudioDecoderConfigInternal
 (
 aConfig
 .
@@ -699,7 +696,6 @@ description
 .
 forget
 (
-)
 )
 )
 ;
@@ -2230,7 +2226,7 @@ true
 static
 *
 /
-UniquePtr
+RefPtr
 <
 AudioDecoderConfigInternal
 >
