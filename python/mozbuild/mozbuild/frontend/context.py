@@ -3920,7 +3920,6 @@ OS_ARCH
 WINNT
 "
                 
-not
 self
 .
 _context
@@ -3932,9 +3931,16 @@ substs
 get
 (
 "
-GNU_CC
+CC_TYPE
 "
 )
+=
+=
+"
+clang
+-
+cl
+"
                 
 not
 self

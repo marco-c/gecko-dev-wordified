@@ -5160,6 +5160,8 @@ codecoverage
     
 )
 if
+(
+    
 buildconfig
 .
 substs
@@ -5170,6 +5172,7 @@ get
 MOZ_ASAN
 "
 )
+    
 and
 buildconfig
 .
@@ -5178,7 +5181,15 @@ substs
 get
 (
 "
-CLANG_CL
+CC_TYPE
+"
+)
+=
+=
+"
+clang
+-
+cl
 "
 )
 :
