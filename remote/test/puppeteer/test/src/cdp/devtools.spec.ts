@@ -312,7 +312,7 @@ wsEndpoint
 (
 )
 ;
-const
+using
 browser
 =
 await
@@ -504,7 +504,7 @@ wsEndpoint
 (
 )
 ;
-const
+using
 browser
 =
 await

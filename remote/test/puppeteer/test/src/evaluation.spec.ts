@@ -2753,11 +2753,7 @@ page
 .
 evaluate
 (
-(
 e
-:
-HTMLElement
-)
 =
 >
 {

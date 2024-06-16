@@ -4203,9 +4203,6 @@ size
 httpOnly
 :
 false
-secure
-:
-true
 session
 :
 true

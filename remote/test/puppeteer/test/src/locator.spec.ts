@@ -5522,8 +5522,7 @@ div
 [
 0
 ]
-as
-HTMLDivElement
+!
 ;
 }
 )

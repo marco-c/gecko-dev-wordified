@@ -1340,7 +1340,7 @@ writableEnded
 {
 request
 .
-end
+destroy
 (
 )
 ;

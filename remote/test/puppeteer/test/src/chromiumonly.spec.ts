@@ -211,7 +211,7 @@ http
 21222
 '
 ;
-const
+using
 browser1
 =
 await
@@ -267,7 +267,7 @@ disconnect
 (
 )
 ;
-const
+using
 browser2
 =
 await
@@ -320,13 +320,6 @@ return
 toBe
 (
 56
-)
-;
-await
-browser2
-.
-disconnect
-(
 )
 ;
 }

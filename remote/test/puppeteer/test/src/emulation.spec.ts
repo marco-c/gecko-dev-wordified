@@ -1508,11 +1508,7 @@ page
 .
 evaluate
 (
-(
 button
-:
-HTMLElement
-)
 =
 >
 {

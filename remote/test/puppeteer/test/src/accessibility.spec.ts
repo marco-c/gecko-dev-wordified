@@ -778,7 +778,7 @@ children
 role
 :
 '
-menuitem
+option
 '
 name
 :
@@ -794,7 +794,7 @@ true
 role
 :
 '
-menuitem
+option
 '
 name
 :
