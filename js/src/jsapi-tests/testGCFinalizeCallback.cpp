@@ -80,10 +80,6 @@ using
 namespace
 js
 ;
-using
-namespace
-JS
-;
 static
 const
 unsigned

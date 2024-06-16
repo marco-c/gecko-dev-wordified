@@ -1572,12 +1572,6 @@ using
 JS
 :
 :
-SliceBudget
-;
-using
-JS
-:
-:
 SourceOwnership
 ;
 using
@@ -1585,12 +1579,6 @@ JS
 :
 :
 SourceText
-;
-using
-JS
-:
-:
-WorkBudget
 ;
 /
 /

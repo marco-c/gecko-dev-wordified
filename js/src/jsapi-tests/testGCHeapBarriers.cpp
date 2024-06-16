@@ -3723,15 +3723,12 @@ cx
 )
 )
 ;
-JS
+js
 :
 :
 SliceBudget
 budget
 {
-JS
-:
-:
 TimeBudget
 (
 BudgetMS

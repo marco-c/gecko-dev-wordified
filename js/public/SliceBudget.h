@@ -165,7 +165,7 @@ jstypes
 h
 "
 namespace
-JS
+js
 {
 struct
 JS_PUBLIC_API
@@ -983,7 +983,7 @@ const
 /
 /
 namespace
-JS
+js
 #
 endif
 /

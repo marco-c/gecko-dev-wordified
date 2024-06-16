@@ -2929,13 +2929,13 @@ objects
 deep
 )
 .
-JS
+js
 :
 :
 SliceBudget
 budget
 (
-JS
+js
 :
 :
 WorkBudget
@@ -3551,7 +3551,7 @@ budget
 auto
 unlimited
 =
-JS
+js
 :
 :
 SliceBudget

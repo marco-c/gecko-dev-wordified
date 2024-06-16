@@ -327,12 +327,6 @@ mozilla
 :
 Maybe
 ;
-using
-JS
-:
-:
-SliceBudget
-;
 bool
 GCRuntime
 :
