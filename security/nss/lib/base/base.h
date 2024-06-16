@@ -5092,7 +5092,7 @@ value
 *
 PR_SUCCESS
 *
-PR_FAILURE
+PR_FAILRUE
 *
 /
 #

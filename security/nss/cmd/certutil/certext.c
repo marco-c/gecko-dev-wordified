@@ -6797,6 +6797,11 @@ intValue
 case
 generalName
 :
+PORT_SetError
+(
+0
+)
+;
 current
 -
 >
