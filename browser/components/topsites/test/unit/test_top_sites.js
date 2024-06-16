@@ -810,13 +810,9 @@ identifier
 "
 ddg
 "
-searchForm
+searchUrlDomain
 :
 "
-https
-:
-/
-/
 duckduckgo
 .
 com
