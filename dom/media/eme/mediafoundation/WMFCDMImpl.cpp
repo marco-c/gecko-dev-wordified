@@ -272,7 +272,11 @@ mCDM
 >
 GetCapabilities
 (
+MFCDMCapabilitiesRequest
+{
+mKeySystem
 aIsHardwareDecryption
+}
 )
 [
 &
