@@ -575,6 +575,14 @@ override
 ;
 private
 :
+using
+Unit
+=
+mozilla
+:
+:
+Ok
+;
 RefPtr
 <
 mozilla
@@ -583,7 +591,7 @@ mozilla
 MozPromise
 <
 bool
-HRESULT
+Unit
 true
 >
 >
@@ -603,7 +611,7 @@ mozilla
 MozPromise
 <
 bool
-HRESULT
+Unit
 true
 >
 >
