@@ -859,18 +859,6 @@ activity_name
 =
 activity
                 
-e10s
-=
-False
-#
-gtest
-is
-non
--
-e10s
-on
-desktop
-                
 moz_env
 =
 env

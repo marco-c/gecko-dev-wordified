@@ -365,10 +365,6 @@ activity_name
 "
 TestRunnerActivity
 "
-                
-e10s
-=
-True
             
 )
             
@@ -646,10 +642,6 @@ d
 %
 selectedProcess
 )
-            
-e10s
-=
-True
             
 moz_env
 =
