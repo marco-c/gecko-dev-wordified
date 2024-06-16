@@ -1778,7 +1778,16 @@ error
 ;
 mCorrectedSourceRate
 =
+std
+:
+:
+max
+(
+1
+.
+f
 hysteresisCorrectedRate
+)
 ;
 /
 /
