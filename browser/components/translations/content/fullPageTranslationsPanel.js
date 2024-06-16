@@ -4910,7 +4910,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -4981,7 +4981,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5093,7 +5093,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5135,7 +5135,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5459,7 +5459,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5482,7 +5482,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5505,7 +5505,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5528,7 +5528,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5551,7 +5551,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5673,7 +5673,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5698,7 +5698,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5772,7 +5772,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5814,7 +5814,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5839,7 +5839,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5878,7 +5878,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -5913,7 +5913,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -6099,7 +6099,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -6966,7 +6966,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -7226,7 +7226,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -7283,7 +7283,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -7412,7 +7412,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
@@ -7527,7 +7527,7 @@ telemetry
 (
 )
 .
-panel
+fullPagePanel
 (
 )
 .
