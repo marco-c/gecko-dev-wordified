@@ -208,10 +208,6 @@ mFreq
 (
 0
 )
-mUsePlatformProcessing
-(
-false
-)
 mAecOn
 (
 false
@@ -284,9 +280,6 @@ fake
 :
 true
 )
-bool
-mUsePlatformProcessing
-;
 bool
 mAecOn
 ;

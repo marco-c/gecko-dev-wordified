@@ -159,10 +159,6 @@ MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
 (
 cubeb_stream_prefs
 )
-MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
-(
-cubeb_input_processing_params
-)
 namespace
 mozilla
 {
@@ -213,13 +209,6 @@ value
 CUBEB_SAMPLE_S16NE
 ;
 }
-;
-nsCString
-ProcessingParamsToString
-(
-cubeb_input_processing_params
-aParams
-)
 ;
 class
 CubebHandle

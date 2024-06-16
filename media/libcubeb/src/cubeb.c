@@ -2429,6 +2429,10 @@ if
 (
 !
 stream
+|
+|
+!
+params
 )
 {
 return
