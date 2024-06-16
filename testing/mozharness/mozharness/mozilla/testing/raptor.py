@@ -1813,7 +1813,7 @@ type
 "
 :
 "
-int
+float
 "
                     
 "
