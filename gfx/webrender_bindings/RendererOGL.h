@@ -732,10 +732,8 @@ only
 void
 CheckGraphicsResetStatus
 (
-const
-char
-*
-aCaller
+DeviceResetDetectPlace
+aPlace
 bool
 aForce
 )

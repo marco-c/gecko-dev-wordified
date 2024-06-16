@@ -123,6 +123,13 @@ MOZILLA_GFX_RENDERCOMPOSITOR_H
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
@@ -666,7 +673,7 @@ get
 ;
 }
 virtual
-GLenum
+DeviceResetReason
 IsContextLost
 (
 bool

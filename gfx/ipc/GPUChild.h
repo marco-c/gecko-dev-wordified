@@ -561,6 +561,14 @@ const
 GPUDeviceData
 &
 aData
+const
+DeviceResetReason
+&
+aReason
+const
+DeviceResetDetectPlace
+&
+aPlace
 )
 ;
 mozilla
