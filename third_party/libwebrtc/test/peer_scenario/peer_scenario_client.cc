@@ -1208,12 +1208,7 @@ make_unique
 FakeVp8Encoder
 >
 (
-&
 env
-.
-clock
-(
-)
 )
 ;
 }
