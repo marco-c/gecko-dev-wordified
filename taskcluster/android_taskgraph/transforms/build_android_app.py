@@ -161,16 +161,6 @@ dependencies
 "
             
 "
-android
--
-gradle
--
-python
--
-envs
-"
-            
-"
 linux64
 -
 jdk
