@@ -62,7 +62,6 @@ api
 :
 {
 ColorF
-DebugFlags
 PrimitiveFlags
 QualitySettings
 RasterSpace
@@ -759,20 +758,6 @@ frame
 root_spatial_node_index
 :
 SpatialNodeIndex
-/
-/
-/
-Debug
-flags
-to
-provide
-to
-our
-TileCacheInstances
-.
-debug_flags
-:
-DebugFlags
 }
 /
 /
@@ -925,9 +910,6 @@ Option
 <
 ColorF
 >
-debug_flags
-:
-DebugFlags
 )
 -
 >
@@ -968,7 +950,6 @@ SpatialNodeIndex
 INVALID
 )
 root_spatial_node_index
-debug_flags
 }
 }
 pub
@@ -2682,9 +2663,6 @@ clip_tree_builder
 {
 create_tile_cache
 (
-self
-.
-debug_flags
 primary_slice
 .
 slice_flags
@@ -2735,9 +2713,6 @@ secondary_slices
 {
 create_tile_cache
 (
-self
-.
-debug_flags
 primary_slice
 .
 slice_flags
@@ -3018,9 +2993,6 @@ list
 fn
 create_tile_cache
 (
-debug_flags
-:
-DebugFlags
 slice_flags
 :
 SliceFlags
@@ -3325,7 +3297,6 @@ insert
 slice_id
 TileCacheParams
 {
-debug_flags
 slice
 slice_flags
 spatial_node_index
