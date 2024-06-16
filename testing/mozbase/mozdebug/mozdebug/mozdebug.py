@@ -67,17 +67,13 @@ json
 import
 os
 import
+shutil
+import
 sys
 from
 collections
 import
 namedtuple
-from
-distutils
-.
-spawn
-import
-find_executable
 from
 subprocess
 import
@@ -844,7 +840,9 @@ Exception
 Just
 default
 to
-find_executable
+shutil
+.
+which
 instead
 .
             
@@ -987,14 +985,18 @@ Exception
 Just
 default
 to
-find_executable
+shutil
+.
+which
 instead
 .
             
 pass
     
 return
-find_executable
+shutil
+.
+which
 (
 debugger
 )
