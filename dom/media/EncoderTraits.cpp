@@ -175,3 +175,10 @@ aConfig
 ;
 }
 }
+/
+/
+namespace
+mozilla
+:
+:
+EncodeTraits

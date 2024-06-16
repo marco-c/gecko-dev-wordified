@@ -267,6 +267,10 @@ FetchPriority
 uint8_t
 ;
 }
+/
+/
+namespace
+dom
 }
 /
 /
