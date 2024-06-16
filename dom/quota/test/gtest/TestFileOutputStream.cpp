@@ -1326,9 +1326,10 @@ ioTask
 )
 )
 ;
+DropDirectoryLock
+(
 directoryLock
-=
-nullptr
+)
 ;
 }
 ;
