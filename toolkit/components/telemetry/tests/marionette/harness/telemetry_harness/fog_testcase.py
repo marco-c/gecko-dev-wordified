@@ -495,6 +495,28 @@ glean_core
 "
 :
 5
+                
+#
+Slow
+down
+the
+user
+inactivity
+timeout
+(
+bug
+1690728
+)
+                
+"
+dom
+.
+events
+.
+user_interaction_interval
+"
+:
+60000
             
 }
         
