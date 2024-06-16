@@ -2,6 +2,13 @@
 /
 META
 :
+global
+=
+window
+/
+/
+META
+:
 title
 =
 realm
