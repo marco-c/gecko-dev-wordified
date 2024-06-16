@@ -6006,6 +6006,7 @@ static
 bool
 IsNonDecimalNumber
 (
+const
 JSLinearString
 *
 str

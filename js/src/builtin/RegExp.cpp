@@ -14054,6 +14054,7 @@ js
 :
 GetFirstDollarIndexRawFlat
 (
+const
 JSLinearString
 *
 text

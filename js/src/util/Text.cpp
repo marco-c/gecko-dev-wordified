@@ -1586,6 +1586,7 @@ bufferSize
 GenericPrinter
 *
 out
+const
 JSLinearString
 *
 str

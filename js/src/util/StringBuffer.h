@@ -2037,6 +2037,7 @@ inline
 bool
 append
 (
+const
 JSLinearString
 *
 str
@@ -2069,6 +2070,7 @@ inline
 bool
 appendSubstring
 (
+const
 JSLinearString
 *
 base
@@ -2316,6 +2318,7 @@ len
 void
 infallibleAppendSubstring
 (
+const
 JSLinearString
 *
 base
@@ -2938,6 +2941,7 @@ StringBuffer
 :
 append
 (
+const
 JSLinearString
 *
 str
@@ -3060,6 +3064,7 @@ StringBuffer
 :
 infallibleAppendSubstring
 (
+const
 JSLinearString
 *
 base
@@ -3153,6 +3158,7 @@ StringBuffer
 :
 appendSubstring
 (
+const
 JSLinearString
 *
 base

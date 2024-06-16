@@ -769,6 +769,7 @@ const
 char
 *
 name
+const
 JSLinearString
 *
 str

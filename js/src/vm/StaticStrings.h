@@ -733,6 +733,7 @@ getUnitStringForElement
 JSContext
 *
 cx
+const
 JSLinearString
 *
 str

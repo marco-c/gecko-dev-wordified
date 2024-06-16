@@ -12912,6 +12912,7 @@ js
 :
 LinearStringToNumber
 (
+const
 JSLinearString
 *
 str

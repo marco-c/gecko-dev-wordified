@@ -605,6 +605,7 @@ ToRefType
 JSContext
 *
 cx
+const
 JSLinearString
 *
 typeLinearStr

@@ -1620,6 +1620,7 @@ extern
 bool
 StringHasRegExpMetaChars
 (
+const
 JSLinearString
 *
 str

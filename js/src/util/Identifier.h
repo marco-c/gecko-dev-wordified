@@ -200,6 +200,7 @@ if
 bool
 IsIdentifier
 (
+const
 JSLinearString
 *
 str
@@ -337,6 +338,7 @@ if
 bool
 IsIdentifierNameOrPrivateName
 (
+const
 JSLinearString
 *
 str

@@ -1086,6 +1086,7 @@ IsValidUnicodeExtensionValue
 JSContext
 *
 cx
+const
 JSLinearString
 *
 linear
@@ -5008,6 +5009,7 @@ inline
 auto
 FindUnicodeExtensionType
 (
+const
 JSLinearString
 *
 unicodeExtension
@@ -5788,6 +5790,7 @@ inline
 auto
 BaseNameParts
 (
+const
 JSLinearString
 *
 baseName

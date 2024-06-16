@@ -3256,6 +3256,7 @@ JS_PUBLIC_API
 bool
 StringIsArrayIndex
 (
+const
 JSLinearString
 *
 str
