@@ -244,7 +244,7 @@ mozilla
 CryptoScheme
 :
 :
-Cbcs
+Cbcs_1_9
 >
 {
 }
