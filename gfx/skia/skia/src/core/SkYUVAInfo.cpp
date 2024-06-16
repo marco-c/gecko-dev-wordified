@@ -46,6 +46,17 @@ h
 #
 include
 "
+include
+/
+core
+/
+SkColor
+.
+h
+"
+#
+include
+"
 src
 /
 base

@@ -345,7 +345,7 @@ SkEmbossMask
 :
 Emboss
 (
-SkMask
+SkMaskBuilder
 *
 mask
 const
@@ -456,7 +456,9 @@ alpha
 mask
 -
 >
-fImage
+image
+(
+)
 ;
 uint8_t
 *

@@ -656,10 +656,10 @@ SkSurface
 >
 surface
 =
-SkSurface
+SkSurfaces
 :
 :
-MakeRasterDirect
+WrapPixels
 (
 dst
 .

@@ -36,9 +36,9 @@ file
 #
 include
 "
-include
+src
 /
-private
+sksl
 /
 SkSLString
 .

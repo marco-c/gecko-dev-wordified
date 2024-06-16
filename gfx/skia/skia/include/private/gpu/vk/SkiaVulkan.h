@@ -58,6 +58,7 @@ pragma
 begin_exports
 #
 if
+(
 SKIA_IMPLEMENTATION
 |
 |
@@ -65,6 +66,14 @@ SKIA_IMPLEMENTATION
 defined
 (
 SK_VULKAN
+)
+)
+&
+&
+!
+defined
+(
+SK_USE_EXTERNAL_VULKAN_HEADERS
 )
 #
 include
@@ -141,6 +150,7 @@ external
 memory
 #
 if
+(
 SKIA_IMPLEMENTATION
 |
 |
@@ -148,6 +158,14 @@ SKIA_IMPLEMENTATION
 defined
 (
 SK_VULKAN
+)
+)
+&
+&
+!
+defined
+(
+SK_USE_EXTERNAL_VULKAN_HEADERS
 )
 #
 include

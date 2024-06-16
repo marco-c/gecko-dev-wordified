@@ -53,17 +53,6 @@ include
 /
 core
 /
-SkScalar
-.
-h
-"
-#
-include
-"
-include
-/
-core
-/
 SkTypes
 .
 h
@@ -182,7 +171,7 @@ SkPoint
 :
 scale
 (
-SkScalar
+float
 scale
 SkPoint
 *
@@ -225,7 +214,7 @@ setLength
 (
 fX
 fY
-SK_Scalar1
+1
 )
 ;
 }
@@ -235,9 +224,9 @@ SkPoint
 :
 setNormalize
 (
-SkScalar
+float
 x
-SkScalar
+float
 y
 )
 {
@@ -249,7 +238,7 @@ setLength
 (
 x
 y
-SK_Scalar1
+1
 )
 ;
 }
@@ -259,7 +248,7 @@ SkPoint
 :
 setLength
 (
-SkScalar
+float
 length
 )
 {
@@ -573,7 +562,7 @@ return
 true
 ;
 }
-SkScalar
+float
 SkPoint
 :
 :
@@ -619,15 +608,15 @@ return
 0
 ;
 }
-SkScalar
+float
 SkPoint
 :
 :
 Length
 (
-SkScalar
+float
 dx
-SkScalar
+float
 dy
 )
 {
@@ -644,7 +633,7 @@ dy
 ;
 if
 (
-SkScalarIsFinite
+sk_float_isfinite
 (
 mag2
 )
@@ -824,7 +813,7 @@ length
 /
 /
 /
-SkScalar
+float
 SkPointPriv
 :
 :
@@ -861,7 +850,7 @@ pt
 -
 a
 ;
-SkScalar
+float
 uLengthSqd
 =
 LengthSqd
@@ -869,7 +858,7 @@ LengthSqd
 u
 )
 ;
-SkScalar
+float
 det
 =
 u
@@ -911,13 +900,13 @@ side
 (
 Side
 )
-SkScalarSignAsInt
+sk_float_sgn
 (
 det
 )
 ;
 }
-SkScalar
+float
 temp
 =
 sk_ieee_float_divide
@@ -968,7 +957,7 @@ A
 if
 (
 !
-SkScalarIsFinite
+sk_float_isfinite
 (
 temp
 )
@@ -985,7 +974,7 @@ return
 temp
 ;
 }
-SkScalar
+float
 SkPointPriv
 :
 :
@@ -1045,7 +1034,7 @@ the
 distance
 to
 the
-closer
+closest
 of
 a
 and
@@ -1160,7 +1149,6 @@ is
 not
 /
 /
-not
 between
 a
 and
@@ -1287,7 +1275,7 @@ pt
 -
 a
 ;
-SkScalar
+float
 uLengthSqd
 =
 LengthSqd
@@ -1295,7 +1283,7 @@ LengthSqd
 u
 )
 ;
-SkScalar
+float
 uDotV
 =
 SkPoint
@@ -1361,7 +1349,7 @@ segment
 }
 else
 {
-SkScalar
+float
 det
 =
 u
@@ -1371,7 +1359,7 @@ cross
 v
 )
 ;
-SkScalar
+float
 temp
 =
 sk_ieee_float_divide
@@ -1421,7 +1409,7 @@ A
 if
 (
 !
-SkScalarIsFinite
+sk_float_isfinite
 (
 temp
 )

@@ -1046,8 +1046,8 @@ SkDEBUGCODE
 SkOpGlobalState
 *
 fDebugGlobalState
-)
 ;
+)
 }
 ;
 class

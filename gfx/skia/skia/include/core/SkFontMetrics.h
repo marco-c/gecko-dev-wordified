@@ -105,6 +105,7 @@ SkFontMetrics
 &
 that
 )
+const
 {
 return
 this

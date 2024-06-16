@@ -89,6 +89,14 @@ SkResourceCache
 h
 "
 #
+include
+<
+cstddef
+>
+class
+SkDiscardableMemory
+;
+#
 define
 CHECK_LOCAL
 (

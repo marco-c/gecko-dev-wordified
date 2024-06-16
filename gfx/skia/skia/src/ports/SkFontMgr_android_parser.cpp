@@ -193,6 +193,10 @@ include
 <
 memory
 >
+using
+namespace
+skia_private
+;
 #
 define
 LMP_SYSTEM_FONTS_FILE
@@ -1266,7 +1270,7 @@ char
 value
 size_t
 valueLen
-SkTArray
+TArray
 <
 SkLanguage
 true

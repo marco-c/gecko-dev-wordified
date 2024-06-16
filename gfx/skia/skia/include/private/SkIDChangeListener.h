@@ -434,7 +434,10 @@ mutable
 SkMutex
 fMutex
 ;
-SkSTArray
+skia_private
+:
+:
+STArray
 <
 1
 sk_sp

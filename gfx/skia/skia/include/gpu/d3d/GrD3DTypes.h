@@ -941,9 +941,13 @@ made
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 T
 *
-SK_WARN_UNUSED_RESULT
 release
 (
 )
@@ -1388,7 +1392,10 @@ fProtected
 }
 #
 if
+defined
+(
 GR_TEST_UTILS
+)
 bool
 operator
 =

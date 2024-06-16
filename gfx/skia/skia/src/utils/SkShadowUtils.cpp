@@ -4609,7 +4609,7 @@ fLightRadius
 ;
 }
 void
-SkBaseDevice
+SkDevice
 :
 :
 drawShadow

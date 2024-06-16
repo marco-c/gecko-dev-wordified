@@ -844,6 +844,9 @@ path
 struct
 stat
 status
+=
+{
+}
 ;
 if
 (

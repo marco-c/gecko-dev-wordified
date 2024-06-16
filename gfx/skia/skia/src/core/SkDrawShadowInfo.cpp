@@ -84,7 +84,9 @@ include
 /
 private
 /
-SkShadowFlags
+base
+/
+SkTo
 .
 h
 "
@@ -93,11 +95,9 @@ include
 "
 include
 /
-private
+utils
 /
-base
-/
-SkTo
+SkShadowUtils
 .
 h
 "
