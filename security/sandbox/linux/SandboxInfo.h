@@ -376,6 +376,15 @@ kPermissive
 )
 was
 kUnexpectedThreads
+/
+/
+MOZ_SANDBOX_LOGGING_FOR_TESTS
+kVerboseTests
+=
+1
+<
+<
+9
 }
 ;
 bool
