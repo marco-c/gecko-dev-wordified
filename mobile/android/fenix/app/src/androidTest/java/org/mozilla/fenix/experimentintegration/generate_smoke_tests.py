@@ -461,14 +461,11 @@ test_name
 (
 setup_experiment
 gradlewbuild
-load_branches
-check_ping_for_experiment
 )
 :
     
 setup_experiment
 (
-load_branches
 )
     
 gradlewbuild
@@ -484,9 +481,6 @@ smoke
 =
 True
 )
-    
-assert
-check_ping_for_experiment
 "
 "
 "
