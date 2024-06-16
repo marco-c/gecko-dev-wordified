@@ -849,6 +849,12 @@ Clear
 (
 )
 ;
+mAddresses
+.
+Clear
+(
+)
+;
 }
 void
 ConnectionEntry
@@ -944,6 +950,12 @@ not
 using
 http3
 mCoalescingKeys
+.
+Clear
+(
+)
+;
+mAddresses
 .
 Clear
 (
@@ -2892,6 +2904,12 @@ DontReuse
 ;
 }
 mCoalescingKeys
+.
+Clear
+(
+)
+;
+mAddresses
 .
 Clear
 (
@@ -6530,12 +6548,6 @@ return
 false
 ;
 }
-nsTArray
-<
-NetAddr
->
-addressSet
-;
 nsresult
 rv
 =
@@ -6544,7 +6556,7 @@ dnsRecord
 >
 GetAddresses
 (
-addressSet
+mAddresses
 )
 ;
 if
@@ -6555,7 +6567,7 @@ rv
 )
 |
 |
-addressSet
+mAddresses
 .
 IsEmpty
 (
@@ -6575,7 +6587,7 @@ i
 ;
 i
 <
-addressSet
+mAddresses
 .
 Length
 (
@@ -6589,7 +6601,7 @@ i
 if
 (
 (
-addressSet
+mAddresses
 [
 i
 ]
@@ -6602,7 +6614,7 @@ family
 AF_INET
 &
 &
-addressSet
+mAddresses
 [
 i
 ]
@@ -6617,7 +6629,7 @@ ip
 |
 |
 (
-addressSet
+mAddresses
 [
 i
 ]
@@ -6630,7 +6642,7 @@ family
 AF_INET6
 &
 &
-addressSet
+mAddresses
 [
 i
 ]
@@ -6648,7 +6660,7 @@ u64
 0
 &
 &
-addressSet
+mAddresses
 [
 i
 ]
@@ -6753,7 +6765,7 @@ kIPv6CStrBufSize
 26
 )
 ;
-addressSet
+mAddresses
 [
 i
 ]
