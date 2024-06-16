@@ -327,5 +327,14 @@ family
 yaru
 )
 "
+"
+(
+forced
+-
+colors
+:
+requested
+)
+"
 ]
 ;
