@@ -7153,7 +7153,6 @@ ipc
 IPCResult
 RecvRecordPageLoadEvent
 (
-const
 mozilla
 :
 :
@@ -7164,6 +7163,7 @@ perf
 :
 :
 PageLoadExtra
+&
 &
 aPageLoadEventExtra
 )
