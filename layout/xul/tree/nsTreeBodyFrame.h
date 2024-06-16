@@ -1910,8 +1910,7 @@ for
 a
 cell
 .
-nsITheme
-*
+void
 GetTwistyRect
 (
 int32_t
