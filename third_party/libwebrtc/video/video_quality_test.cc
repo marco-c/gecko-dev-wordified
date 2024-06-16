@@ -2057,11 +2057,13 @@ make_unique
 SimulcastEncoderAdapter
 >
 (
+env
 encoder_factory_
 .
 get
 (
 )
+nullptr
 format
 )
 ;
