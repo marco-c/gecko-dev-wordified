@@ -404,7 +404,9 @@ browser
 -
 loader
 .
-js
+sys
+.
+mjs
 uri
 .
 startsWith

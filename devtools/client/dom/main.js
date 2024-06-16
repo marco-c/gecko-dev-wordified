@@ -94,7 +94,7 @@ BrowserLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -111,7 +111,9 @@ browser
 -
 loader
 .
-js
+sys
+.
+mjs
 "
 )
 ;

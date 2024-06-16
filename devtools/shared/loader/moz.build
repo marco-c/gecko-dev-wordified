@@ -129,7 +129,9 @@ browser
 -
 loader
 .
-js
+sys
+.
+mjs
 "
 )
 DevToolsModules
