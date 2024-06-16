@@ -1736,7 +1736,10 @@ double
 aLoadedMetadataTime
 const
 double
-aTotalWaitingVideoDataTime
+aTotalWaitingDataTime
+const
+double
+aTotalBufferingTime
 const
 FirstFrameLoadedFlagSet
 aFlags
@@ -1834,6 +1837,15 @@ totalWaitingDataTime
 Some
 (
 aTotalWaitingDataTime
+)
+;
+extraData
+.
+bufferingTime
+=
+Some
+(
+aTotalBufferingTime
 )
 ;
 if
@@ -2149,6 +2161,10 @@ data
 :
 %
 f
+buffering
+:
+%
+f
 ]
 "
 "
@@ -2176,6 +2192,7 @@ d
 aLoadedFirstFrameTime
 aLoadedMetadataTime
 aTotalWaitingDataTime
+aTotalBufferingTime
 extraData
 .
 playbackType

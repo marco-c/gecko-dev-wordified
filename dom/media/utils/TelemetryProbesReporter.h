@@ -421,6 +421,9 @@ const
 double
 aTotalWaitingDataTime
 const
+double
+aTotalBufferingTime
+const
 FirstFrameLoadedFlagSet
 aFlags
 )
