@@ -63,8 +63,6 @@ collections
 abc
 import
 Iterable
-import
-six
 class
 Makefile
 (
@@ -171,9 +169,7 @@ assert
 isinstance
 (
 target
-six
-.
-text_type
+str
 )
         
 rule
@@ -234,9 +230,7 @@ assert
 isinstance
 (
 statement
-six
-.
-text_type
+str
 )
         
 self
@@ -729,12 +723,8 @@ and
 not
 isinstance
 (
-            
 targets
-six
-.
-string_types
-        
+str
 )
         
 targets
@@ -754,9 +744,7 @@ assert
 isinstance
 (
 target
-six
-.
-text_type
+str
 )
         
 self
@@ -803,9 +791,7 @@ not
 isinstance
 (
 deps
-six
-.
-string_types
+str
 )
         
 deps
@@ -825,9 +811,7 @@ assert
 isinstance
 (
 dep
-six
-.
-text_type
+str
 )
         
 self
@@ -873,12 +857,8 @@ and
 not
 isinstance
 (
-            
 commands
-six
-.
-string_types
-        
+str
 )
         
 commands
@@ -898,9 +878,7 @@ assert
 isinstance
 (
 command
-six
-.
-text_type
+str
 )
         
 self
@@ -1252,15 +1230,6 @@ readlines
 (
 )
 :
-        
-line
-=
-six
-.
-ensure_text
-(
-line
-)
         
 assert
 not
