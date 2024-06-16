@@ -5819,7 +5819,7 @@ span
 )
 ;
 const
-toggle
+toggleButton
 =
 this
 .
@@ -5827,7 +5827,7 @@ this
 createNode
 (
 "
-span
+button
 "
 {
 class
@@ -5835,16 +5835,6 @@ class
 options
 .
 shapeSwatchClass
-tabindex
-:
-"
-0
-"
-role
-:
-"
-button
-"
 }
 )
 ;
@@ -5921,7 +5911,7 @@ container
 .
 appendChild
 (
-toggle
+toggleButton
 )
 ;
 appendText
