@@ -252,6 +252,9 @@ away
 timerInterval
 :
 0
+ingestEnabled
+:
+false
 }
 }
 )
@@ -396,6 +399,9 @@ away
 timerInterval
 :
 0
+ingestEnabled
+:
+false
 }
 }
 )
