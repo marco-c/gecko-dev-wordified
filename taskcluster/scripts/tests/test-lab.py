@@ -1395,6 +1395,27 @@ exit_code
 0
 :
         
+#
+parse_ui_test_script
+error
+messages
+are
+pretty
+generic
+;
+only
+        
+#
+report
+them
+if
+errors
+have
+not
+already
+been
+reported
+        
 command
 .
 append
