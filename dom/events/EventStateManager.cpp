@@ -14972,7 +14972,6 @@ mTouches
 [
 0
 ]
-true
 )
 ;
 event

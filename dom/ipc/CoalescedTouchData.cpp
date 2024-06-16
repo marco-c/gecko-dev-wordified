@@ -299,10 +299,6 @@ event
 aEvent
 *
 touch
-i
-=
-=
-0
 )
 ;
 event
@@ -596,10 +592,6 @@ event
 aEvent
 *
 touch
-i
-=
-=
-0
 )
 ;
 event
