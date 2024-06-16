@@ -220,7 +220,9 @@ source
 PAGE
 )
 ;
-BrowserViewSource
+BrowserCommands
+.
+viewSource
 (
 browser
 )

@@ -10112,7 +10112,9 @@ viewFrameSource
 (
 )
 {
-BrowserViewSourceOfDocument
+BrowserCommands
+.
+viewSourceOfDocument
 (
 {
 browser

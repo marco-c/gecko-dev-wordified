@@ -131,7 +131,9 @@ gBrowser
 DATA_URI_SOURCE
 )
 ;
-BrowserViewSource
+BrowserCommands
+.
+viewSource
 (
 tab
 .
@@ -220,7 +222,7 @@ uriString
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 viewSourceBrowser
 uriString

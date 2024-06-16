@@ -191,7 +191,7 @@ DATA_URI
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 fileBrowser
 DATA_URI
@@ -286,7 +286,9 @@ gBrowser
 DATA_URI_SOURCE
 )
 ;
-BrowserViewSource
+BrowserCommands
+.
+viewSource
 (
 fileBrowser
 )
