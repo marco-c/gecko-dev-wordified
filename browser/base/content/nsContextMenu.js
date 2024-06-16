@@ -13796,7 +13796,7 @@ console
 .
 warn
 (
-isLinkURIStrippable
+stripForCopyOrShare
 :
 {
 e
@@ -13806,7 +13806,9 @@ message
 )
 ;
 return
-null
+this
+.
+linkURI
 ;
 }
 /
