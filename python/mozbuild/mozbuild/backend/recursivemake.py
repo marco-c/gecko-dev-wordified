@@ -10665,22 +10665,8 @@ libdef
 import_name
 )
         
-backend_file
-.
-write
-(
-            
-"
-SHARED_LIBRARY
-:
+shared_lib
 =
-%
-s
-\
-n
-"
-            
-%
 self
 .
 _pretty_path
@@ -10691,6 +10677,21 @@ output_path
 backend_file
 )
         
+backend_file
+.
+write
+(
+"
+SHARED_LIBRARY
+:
+=
+%
+s
+\
+n
+"
+%
+shared_lib
 )
         
 if
@@ -10781,9 +10782,7 @@ self
 _process_non_default_target
 (
 libdef
-libdef
-.
-lib_name
+shared_lib
 backend_file
 )
     
