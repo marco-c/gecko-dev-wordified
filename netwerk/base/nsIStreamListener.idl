@@ -235,6 +235,14 @@ available
 in
 the
 stream
+.
+aCount
+may
+not
+*
+be
+0
+.
 *
 *
 NOTE
