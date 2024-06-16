@@ -1996,7 +1996,7 @@ interger
 ;
 /
 /
-DataError
+TypeError
 is
 expected
 if
@@ -2010,6 +2010,8 @@ is
 greater
 or
 equal
+/
+/
 to
 the
 size
@@ -2073,11 +2075,9 @@ dimensions
 }
 )
 ;
-assert_throws_dom
+assert_throws_js
 (
-'
-DataError
-'
+TypeError
 (
 )
 =
@@ -2098,11 +2098,9 @@ rank
 )
 )
 ;
-assert_throws_dom
+assert_throws_js
 (
-'
-DataError
-'
+TypeError
 (
 )
 =
@@ -2134,7 +2132,7 @@ rank
 subOperationName
 }
 ]
-DataError
+TypeError
 is
 expected
 if
@@ -2157,7 +2155,7 @@ input
 ;
 /
 /
-DataError
+TypeError
 is
 expected
 if
@@ -2245,11 +2243,9 @@ of
 axesArrayContainSameValues
 )
 {
-assert_throws_dom
+assert_throws_js
 (
-'
-DataError
-'
+TypeError
 (
 )
 =
@@ -2276,7 +2272,7 @@ axes
 subOperationName
 }
 ]
-DataError
+TypeError
 is
 expected
 if
