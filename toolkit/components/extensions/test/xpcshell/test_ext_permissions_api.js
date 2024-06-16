@@ -334,9 +334,6 @@ tabHide
 tabs
 "
 "
-webRequestAuthProvider
-"
-"
 webRequestBlocking
 "
 "

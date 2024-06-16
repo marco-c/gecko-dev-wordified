@@ -4177,9 +4177,6 @@ unlimitedStorage
 webRequest
 "
 "
-webRequestAuthProvider
-"
-"
 webRequestBlocking
 "
 "
