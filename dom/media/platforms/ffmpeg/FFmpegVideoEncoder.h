@@ -205,6 +205,12 @@ ThreadSafePolicy
 ;
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+FFmpegVideoEncoder
+final
+)
+;
 FFmpegVideoEncoder
 (
 const
@@ -235,6 +241,14 @@ override
 ;
 protected
 :
+virtual
+~
+FFmpegVideoEncoder
+(
+)
+=
+default
+;
 /
 /
 Methods

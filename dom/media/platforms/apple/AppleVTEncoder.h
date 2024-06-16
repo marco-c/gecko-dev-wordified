@@ -162,6 +162,12 @@ MediaDataEncoder
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+AppleVTEncoder
+final
+)
+;
 AppleVTEncoder
 (
 const

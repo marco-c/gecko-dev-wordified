@@ -174,6 +174,12 @@ MediaDataEncoder
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+WMFMediaDataEncoder
+final
+)
+;
 WMFMediaDataEncoder
 (
 const
@@ -266,6 +272,13 @@ override
 ;
 private
 :
+~
+WMFMediaDataEncoder
+(
+)
+=
+default
+;
 /
 /
 Automatically
