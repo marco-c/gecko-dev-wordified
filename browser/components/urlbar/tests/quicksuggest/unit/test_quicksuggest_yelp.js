@@ -5642,9 +5642,6 @@ telemetryType
 "
 yelp
 "
-shouldShowUrl
-:
-true
 bottomTextL10n
 :
 {
