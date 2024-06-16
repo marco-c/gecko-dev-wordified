@@ -9847,6 +9847,13 @@ return
 rv
 ;
 }
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 nsString
 pointerExplanation
 ;
@@ -9888,6 +9895,7 @@ rv
 return
 rv
 ;
+}
 }
 #
 endif
