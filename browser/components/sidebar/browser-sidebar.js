@@ -3028,15 +3028,9 @@ sourceController
 .
 _box
 .
-getBoundingClientRect
-(
-)
+style
 .
 width
-+
-"
-px
-"
 ;
 this
 .
