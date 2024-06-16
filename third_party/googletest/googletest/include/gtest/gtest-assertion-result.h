@@ -1116,8 +1116,6 @@ it
 '
 s
 5
-/
-/
 class
 GTEST_API_
 AssertionResult

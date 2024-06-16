@@ -409,6 +409,11 @@ string
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -1841,7 +1846,10 @@ char
 >
 UnBase64Impl
 (
-IndexSequence
+std
+:
+:
+index_sequence
 <
 I
 .
@@ -1901,7 +1909,10 @@ base64
 return
 UnBase64Impl
 (
-MakeIndexSequence
+std
+:
+:
+make_index_sequence
 <
 256
 >

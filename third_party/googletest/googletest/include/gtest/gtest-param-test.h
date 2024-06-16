@@ -1654,6 +1654,12 @@ util
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+export
 #
 include
 "
@@ -4180,10 +4186,10 @@ return
 \
 }
 \
+GTEST_INTERNAL_ATTRIBUTE_MAYBE_UNUSED
 static
 int
 gtest_registering_dummy_
-GTEST_ATTRIBUTE_UNUSED_
 ;
 \
 }
@@ -4624,8 +4630,10 @@ info
 \
 }
 \
+GTEST_INTERNAL_ATTRIBUTE_MAYBE_UNUSED
 static
 int
+\
 gtest_
 #
 #
@@ -4636,8 +4644,6 @@ test_suite_name
 #
 #
 _dummy_
-\
-GTEST_ATTRIBUTE_UNUSED_
 =
 \
 :
