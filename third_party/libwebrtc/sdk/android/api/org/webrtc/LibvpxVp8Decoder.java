@@ -108,6 +108,7 @@ webrtcEnvRef
 return
 nativeCreateDecoder
 (
+webrtcEnvRef
 )
 ;
 }
@@ -116,6 +117,8 @@ native
 long
 nativeCreateDecoder
 (
+long
+webrtcEnvRef
 )
 ;
 }
