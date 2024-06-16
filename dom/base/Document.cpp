@@ -9567,12 +9567,6 @@ mSavedResolution
 .
 0f
 )
-mSavedResolutionBeforeMVM
-(
-1
-.
-0f
-)
 mGeneration
 (
 0
