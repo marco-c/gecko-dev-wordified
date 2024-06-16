@@ -2324,6 +2324,15 @@ XP_WIN
 )
 /
 /
+HTMLMeterAccessible
+int32_t
+ValueRegion
+(
+)
+const
+;
+/
+/
 HyperTextAccessibleBase
 virtual
 already_AddRefed
