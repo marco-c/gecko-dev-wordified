@@ -4700,7 +4700,7 @@ principal
 trans
 -
 >
-GetRequestingPrincipal
+GetDataPrincipal
 (
 )
 )

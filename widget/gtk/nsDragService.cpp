@@ -12051,7 +12051,7 @@ principal
 aItem
 -
 >
-GetRequestingPrincipal
+GetDataPrincipal
 (
 )
 ;

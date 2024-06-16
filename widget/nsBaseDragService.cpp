@@ -2697,7 +2697,7 @@ nullptr
 trans
 -
 >
-SetRequestingPrincipal
+SetDataPrincipal
 (
 mSourceNode
 -
@@ -2772,7 +2772,7 @@ trans
 /
 Set
 the
-requestingPrincipal
+dataPrincipal
 on
 the
 transferable
@@ -2780,7 +2780,7 @@ transferable
 trans
 -
 >
-SetRequestingPrincipal
+SetDataPrincipal
 (
 mSourceNode
 -

@@ -3467,7 +3467,7 @@ AddRef
 /
 query
 the
-requestingPrincipal
+dataPrincipal
 from
 the
 transferable
@@ -3480,6 +3480,7 @@ new
 /
 /
 channel
+.
 nsCOMPtr
 <
 nsIPrincipal
@@ -3489,7 +3490,7 @@ requestingPrincipal
 mTransferable
 -
 >
-GetRequestingPrincipal
+GetDataPrincipal
 (
 )
 ;
