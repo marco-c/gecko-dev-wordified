@@ -3286,6 +3286,15 @@ kWidevineExperimentKeySystemName
 }
 #
 endif
+auto
+&
+diagnostics
+=
+aRequest
+-
+>
+mDiagnostics
+;
 if
 (
 AwaitInstall
@@ -3393,10 +3402,7 @@ get
 )
 )
 ;
-aRequest
--
->
-mDiagnostics
+diagnostics
 .
 StoreMediaKeySystemAccess
 (
