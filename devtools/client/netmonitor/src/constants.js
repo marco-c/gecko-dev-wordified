@@ -1171,6 +1171,12 @@ proxyStatus
 "
 proxyStatusText
 "
+"
+fromCache
+"
+"
+fromServiceWorker
+"
 ]
 ;
 const

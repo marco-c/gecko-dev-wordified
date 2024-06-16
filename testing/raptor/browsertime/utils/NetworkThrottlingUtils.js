@@ -140,6 +140,16 @@ handling
 class
 NetworkEventRecord
 {
+addCacheDetails
+(
+)
+{
+}
+addRawHeaders
+(
+)
+{
+}
 addRequestPostData
 (
 )
