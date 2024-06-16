@@ -119,12 +119,6 @@ mozpath
 import
 six
 from
-mozpack
-.
-files
-import
-FileFinder
-from
 MozZipFile
 import
 ZipFile
@@ -3691,6 +3685,13 @@ emitted
 set
 (
 )
+            
+from
+mozpack
+.
+files
+import
+FileFinder
             
 for
 _srcdir
