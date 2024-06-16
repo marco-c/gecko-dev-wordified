@@ -673,17 +673,6 @@ SendCachedValues
 (
 )
 ;
-void
-SetReplyTimeout
-(
-)
-;
-bool
-ShouldContinueFromReplyTimeout
-(
-)
-override
-;
 bool
 mIsOpen
 ;

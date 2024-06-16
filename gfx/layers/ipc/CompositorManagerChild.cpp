@@ -1500,12 +1500,6 @@ Get
 >
 KillProcess
 (
-/
-*
-aGenerateMinidump
-*
-/
-true
 )
 ;
 }
