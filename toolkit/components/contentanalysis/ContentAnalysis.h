@@ -1052,6 +1052,8 @@ mDenyUrlList
 ;
 bool
 mParsedUrlLists
+=
+false
 ;
 friend
 class
