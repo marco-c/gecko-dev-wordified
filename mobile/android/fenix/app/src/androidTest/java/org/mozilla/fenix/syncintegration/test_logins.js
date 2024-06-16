@@ -86,9 +86,7 @@ var
 phases
 =
 {
-"
 phase1
-"
 :
 "
 profile1

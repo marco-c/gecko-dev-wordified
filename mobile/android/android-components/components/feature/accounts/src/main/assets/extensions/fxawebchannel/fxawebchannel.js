@@ -103,9 +103,7 @@ onMessage
 .
 addListener
 (
-(
 event
-)
 =
 >
 {
@@ -116,9 +114,9 @@ dispatchEvent
 new
 CustomEvent
 (
-'
+"
 WebChannelMessageToContent
-'
+"
 {
 detail
 :
@@ -158,9 +156,9 @@ window
 .
 addEventListener
 (
-'
+"
 WebChannelMessageToChrome
-'
+"
 function
 (
 e

@@ -95,9 +95,9 @@ action
 )
 {
 case
-'
+"
 addSerializedDoc
-'
+"
 :
 browser
 .
@@ -128,9 +128,9 @@ resolve
 )
 ;
 case
-'
+"
 getSerializedDoc
-'
+"
 :
 return
 (
