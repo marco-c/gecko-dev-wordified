@@ -77,7 +77,7 @@ openAndCloseWindow
 url
 =
 "
-http
+https
 :
 /
 /
@@ -100,7 +100,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -511,7 +511,7 @@ openNewForegroundTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -537,7 +537,7 @@ openNewForegroundTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -893,7 +893,7 @@ test
 assertEq
 (
 "
-http
+https
 :
 /
 /
@@ -1028,7 +1028,7 @@ about
 mozilla
 "
 "
-http
+https
 :
 /
 /
@@ -1042,7 +1042,7 @@ com
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -1236,7 +1236,7 @@ test
 assertEq
 (
 "
-http
+https
 :
 /
 /
@@ -1323,7 +1323,7 @@ let
 xpi
 =
 "
-http
+https
 :
 /
 /
@@ -1406,7 +1406,7 @@ gBrowser
 url
 :
 "
-http
+https
 :
 /
 /
