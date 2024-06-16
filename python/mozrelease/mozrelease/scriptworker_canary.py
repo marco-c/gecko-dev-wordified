@@ -664,6 +664,13 @@ try
 "
 scriptworker
 "
+"
+-
+-
+closed
+-
+tree
+"
 ]
     
 for
