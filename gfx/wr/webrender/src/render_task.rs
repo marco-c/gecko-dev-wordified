@@ -1398,10 +1398,6 @@ prim_address_f
 :
 GpuBufferAddress
 pub
-prim_spatial_node_index
-:
-SpatialNodeIndex
-pub
 raster_spatial_node_index
 :
 SpatialNodeIndex
@@ -3373,9 +3369,6 @@ PatternKind
 pattern_input
 :
 PatternShaderInput
-prim_spatial_node_index
-:
-SpatialNodeIndex
 raster_spatial_node_index
 :
 SpatialNodeIndex
@@ -3417,7 +3410,6 @@ PrimTask
 {
 pattern
 pattern_input
-prim_spatial_node_index
 raster_spatial_node_index
 device_pixel_scale
 content_origin

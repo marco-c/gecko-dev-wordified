@@ -293,15 +293,6 @@ GpuBufferBuilder
 }
 ;
 use
-crate
-:
-:
-picture
-:
-:
-SurfaceIndex
-;
-use
 std
 :
 :
@@ -1250,9 +1241,6 @@ frame_state
 &
 mut
 FrameBuildingState
-parent_surface
-:
-SurfaceIndex
 )
 {
 if

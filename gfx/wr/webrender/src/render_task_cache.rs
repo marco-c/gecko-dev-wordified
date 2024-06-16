@@ -139,15 +139,6 @@ use
 crate
 :
 :
-picture
-:
-:
-SurfaceIndex
-;
-use
-crate
-:
-:
 prim_store
 :
 :

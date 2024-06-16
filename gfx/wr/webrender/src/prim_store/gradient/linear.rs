@@ -309,17 +309,6 @@ use
 crate
 :
 :
-picture
-:
-:
-{
-SurfaceIndex
-}
-;
-use
-crate
-:
-:
 util
 :
 :
@@ -2966,9 +2955,6 @@ frame_state
 &
 mut
 FrameBuildingState
-parent_surface
-:
-SurfaceIndex
 )
 {
 if
