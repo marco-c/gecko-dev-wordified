@@ -475,6 +475,25 @@ py
 )
     
 "
+buildtokens
+"
+:
+MachCommandReference
+(
+"
+toolkit
+/
+content
+/
+widgets
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 busted
 "
 :
