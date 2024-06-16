@@ -864,6 +864,7 @@ core
 autocrlf
 false
 "
+github_path
 )
     
 #
