@@ -389,7 +389,7 @@ wait
 (
 lock
 .
-lock
+mutex
 )
 ;
 }
@@ -775,7 +775,7 @@ ifdef
 DEBUG
 lock
 .
-lock
+mutex
 .
 preUnlockChecks
 (
@@ -792,7 +792,7 @@ wait_for
 (
 lock
 .
-lock
+mutex
 .
 impl_
 rel_time
@@ -822,7 +822,7 @@ ifdef
 DEBUG
 lock
 .
-lock
+mutex
 .
 preLockChecks
 (
@@ -830,7 +830,7 @@ preLockChecks
 ;
 lock
 .
-lock
+mutex
 .
 postLockChecks
 (
