@@ -2083,15 +2083,6 @@ PromiseObject
 promise
 )
 ;
-bool
-IsPromiseConstructor
-(
-const
-JSObject
-*
-obj
-)
-;
 }
 /
 /

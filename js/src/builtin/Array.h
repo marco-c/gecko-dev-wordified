@@ -1753,15 +1753,6 @@ reset
 }
 }
 ;
-bool
-IsArrayConstructor
-(
-const
-JSObject
-*
-obj
-)
-;
 }
 /
 *
