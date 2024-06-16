@@ -957,10 +957,6 @@ new
 MessageEventRunnable
 (
 mWorkerPrivate
-WorkerRunnable
-:
-:
-WorkerThread
 )
 ;
 JS

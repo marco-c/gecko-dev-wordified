@@ -3507,10 +3507,6 @@ aWorkerPrivate
 "
 JSDispatchableRunnable
 "
-WorkerRunnable
-:
-:
-WorkerThread
 )
 mDispatchable
 (
@@ -8410,7 +8406,6 @@ aWorkerPrivate
 "
 DumpCrashInfoRunnable
 "
-WorkerThread
 )
 mMonitor
 (

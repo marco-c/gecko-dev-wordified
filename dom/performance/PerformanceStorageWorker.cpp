@@ -306,7 +306,6 @@ aWorkerPrivate
 "
 PerformanceEntryAdder
 "
-WorkerThread
 )
 mStorage
 (

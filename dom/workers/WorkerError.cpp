@@ -587,7 +587,7 @@ ReportErrorRunnable
 final
 :
 public
-WorkerDebuggeeRunnable
+WorkerParentDebuggeeRunnable
 {
 UniquePtr
 <
@@ -609,7 +609,7 @@ WorkerErrorReport
 aReport
 )
 :
-WorkerDebuggeeRunnable
+WorkerParentDebuggeeRunnable
 (
 aWorkerPrivate
 "
@@ -996,7 +996,7 @@ ReportGenericErrorRunnable
 final
 :
 public
-WorkerDebuggeeRunnable
+WorkerParentDebuggeeRunnable
 {
 public
 :
@@ -1051,7 +1051,7 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
-WorkerDebuggeeRunnable
+WorkerParentDebuggeeRunnable
 (
 aWorkerPrivate
 "

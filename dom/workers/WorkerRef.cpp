@@ -203,7 +203,6 @@ aWorkerPrivate
 "
 ReleaseRefControlRunnable
 "
-WorkerThread
 )
 mRef
 (
