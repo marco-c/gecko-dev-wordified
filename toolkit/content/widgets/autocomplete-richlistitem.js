@@ -5461,7 +5461,7 @@ selectedIndex
 ;
 actor
 .
-previewAutofillProfile
+previewEntry
 (
 selectedIndex
 )
