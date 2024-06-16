@@ -3160,6 +3160,11 @@ runAt
 "
 document_start
 "
+world
+:
+"
+MAIN
+"
 }
 )
 ;
@@ -3322,6 +3327,7 @@ jsPaths
 matchAboutBlank
 matchOriginAsFallback
 runAt
+world
 originAttributesPatterns
 }
 =
@@ -3336,6 +3342,7 @@ jsPaths
 matchAboutBlank
 matchOriginAsFallback
 runAt
+world
 originAttributesPatterns
 }
 {
@@ -3382,6 +3389,11 @@ runAt
 :
 "
 document_start
+"
+world
+:
+"
+MAIN
 "
 originAttributesPatterns
 :

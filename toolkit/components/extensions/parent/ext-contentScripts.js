@@ -540,6 +540,16 @@ runAt
 "
 document_idle
 "
+world
+:
+details
+.
+world
+|
+|
+"
+ISOLATED
+"
 jsPaths
 :
 [
