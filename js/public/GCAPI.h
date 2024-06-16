@@ -236,10 +236,6 @@ GCRuntime
 /
 namespace
 gc
-class
-JS_PUBLIC_API
-SliceBudget
-;
 namespace
 gcstats
 {
@@ -259,6 +255,10 @@ js
 namespace
 JS
 {
+class
+JS_PUBLIC_API
+SliceBudget
+;
 /
 /
 Options
@@ -2747,7 +2747,7 @@ JSGrayRootsTracer
 JSTracer
 *
 trc
-js
+JS
 :
 :
 SliceBudget
@@ -4467,7 +4467,7 @@ options
 GCReason
 reason
 const
-js
+JS
 :
 :
 SliceBudget
@@ -4552,7 +4552,7 @@ cx
 GCReason
 reason
 const
-js
+JS
 :
 :
 SliceBudget
@@ -5583,7 +5583,7 @@ callback
 using
 CreateSliceBudgetCallback
 =
-js
+JS
 :
 :
 SliceBudget

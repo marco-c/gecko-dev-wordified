@@ -335,6 +335,12 @@ JS
 MapTypeToTraceKind
 ;
 using
+JS
+:
+:
+SliceBudget
+;
+using
 mozilla
 :
 :

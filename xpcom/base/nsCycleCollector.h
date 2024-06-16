@@ -152,7 +152,7 @@ Attributes
 h
 "
 namespace
-js
+JS
 {
 class
 SliceBudget
@@ -216,7 +216,7 @@ aCB
 void
 nsCycleCollector_forgetSkippable
 (
-js
+JS
 :
 :
 SliceBudget
@@ -276,7 +276,7 @@ nsCycleCollector_doDeferredDeletion
 bool
 nsCycleCollector_doDeferredDeletionWithBudget
 (
-js
+JS
 :
 :
 SliceBudget
@@ -331,7 +331,7 @@ aManualListener
 void
 nsCycleCollector_collectSlice
 (
-js
+JS
 :
 :
 SliceBudget

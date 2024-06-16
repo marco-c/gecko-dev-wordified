@@ -411,7 +411,7 @@ GCReason
 aReason
 IsShrinking
 aShrinking
-js
+JS
 :
 :
 SliceBudget
