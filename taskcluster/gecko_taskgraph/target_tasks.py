@@ -11829,7 +11829,7 @@ l10n
 import
 "
 ]
-_target_task
+register_target_task
 (
 "
 android
