@@ -4328,6 +4328,12 @@ per
 second
 .
 *
+Max
+allowed
+value
+is
+2000000
+*
 /
 unsigned
 int

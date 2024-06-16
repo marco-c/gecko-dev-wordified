@@ -522,6 +522,7 @@ pow
 5
 )
 ;
+static
 double
 dct_matrix
 (
@@ -1251,6 +1252,7 @@ size
 }
 }
 }
+static
 void
 reference_idtx_1d
 (

@@ -8569,9 +8569,11 @@ AOM_INLINE
 int
 is_fpmt_config
 (
+const
 AV1_PRIMARY
 *
 ppi
+const
 AV1EncoderConfig
 *
 oxcf
@@ -8764,6 +8766,7 @@ AV1_PRIMARY
 *
 const
 ppi
+const
 AV1EncoderConfig
 *
 const

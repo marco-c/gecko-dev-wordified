@@ -144,6 +144,15 @@ sum_neon
 h
 "
 #
+include
+"
+config
+/
+av1_rtcd
+.
+h
+"
+#
 define
 MAX_UPSAMPLE_SZ
 16

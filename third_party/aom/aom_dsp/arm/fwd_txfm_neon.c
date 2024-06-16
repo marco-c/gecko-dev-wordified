@@ -137,6 +137,15 @@ h
 #
 include
 "
+config
+/
+aom_dsp_rtcd
+.
+h
+"
+#
+include
+"
 aom_dsp
 /
 txfm_common
@@ -925,6 +934,9 @@ out_23
 )
 ;
 }
+#
+if
+CONFIG_INTERNAL_STATS
 void
 aom_fdct8x8_neon
 (
@@ -2890,3 +2902,8 @@ input_7
 ;
 }
 }
+#
+endif
+/
+/
+CONFIG_INTERNAL_STATS

@@ -5575,7 +5575,6 @@ RS_SCALE_SUBPEL_MASK
 )
 ;
 }
-static
 void
 down2_symeven
 (
@@ -5589,6 +5588,8 @@ length
 uint8_t
 *
 output
+int
+start_offset
 )
 {
 /
@@ -5678,7 +5679,7 @@ for
 (
 i
 =
-0
+start_offset
 ;
 i
 <
@@ -5785,7 +5786,7 @@ for
 (
 i
 =
-0
+start_offset
 ;
 i
 <
@@ -6939,6 +6940,7 @@ down2_symeven
 in
 filteredlength
 out
+0
 )
 ;
 filteredlength
@@ -7097,7 +7099,7 @@ aptr
 }
 }
 bool
-resize_vert_dir_c
+av1_resize_vert_dir_c
 (
 uint8_t
 *
@@ -7213,6 +7215,7 @@ down2_symeven
 arrbuf
 height
 arrbuf2
+0
 )
 ;
 fill_arr_to_col
@@ -7243,7 +7246,7 @@ mem_status
 ;
 }
 void
-resize_horz_dir
+av1_resize_horz_dir_c
 (
 const
 uint8_t
@@ -7291,6 +7294,7 @@ intbuf
 width2
 *
 i
+0
 )
 ;
 }
@@ -7359,7 +7363,7 @@ in
 the
 horizontal
 direction
-resize_horz_dir
+av1_resize_horz_dir
 (
 input
 in_stride
@@ -7379,7 +7383,7 @@ direction
 bool
 mem_status
 =
-resize_vert_dir
+av1_resize_vert_dir
 (
 intbuf
 output

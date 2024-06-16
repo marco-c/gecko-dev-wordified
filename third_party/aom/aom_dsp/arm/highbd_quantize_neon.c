@@ -151,6 +151,15 @@ h
 #
 include
 "
+config
+/
+aom_dsp_rtcd
+.
+h
+"
+#
+include
+"
 aom_dsp
 /
 quantize

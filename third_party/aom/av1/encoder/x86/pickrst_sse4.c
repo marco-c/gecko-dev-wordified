@@ -128,7 +128,7 @@ h
 #
 include
 <
-emmintrin
+smmintrin
 .
 h
 >

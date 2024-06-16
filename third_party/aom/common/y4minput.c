@@ -186,15 +186,6 @@ h
 #
 include
 "
-aom_ports
-/
-msvc
-.
-h
-"
-#
-include
-"
 y4minput
 .
 h

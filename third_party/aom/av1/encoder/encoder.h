@@ -15023,7 +15023,7 @@ total_blockiness
 double
 worst_blockiness
 ;
-int
+uint64_t
 total_bytes
 ;
 double

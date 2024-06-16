@@ -126,6 +126,15 @@ h
 #
 include
 "
+config
+/
+av1_rtcd
+.
+h
+"
+#
+include
+"
 aom_dsp
 /
 aom_dsp_common
@@ -532,7 +541,7 @@ const
 int16_t
 *
 dqcoeff
-int
+intptr_t
 block_size
 )
 {

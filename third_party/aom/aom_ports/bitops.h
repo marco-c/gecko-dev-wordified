@@ -141,15 +141,6 @@ h
 #
 include
 "
-aom_ports
-/
-msvc
-.
-h
-"
-#
-include
-"
 config
 /
 aom_config

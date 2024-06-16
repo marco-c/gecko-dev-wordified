@@ -8023,6 +8023,7 @@ h
 )
 ;
 }
+static
 void
 final_filter_internal
 (

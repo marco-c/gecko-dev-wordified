@@ -617,6 +617,7 @@ AV1_PRIMARY
 *
 const
 ppi
+const
 AV1EncoderConfig
 *
 const

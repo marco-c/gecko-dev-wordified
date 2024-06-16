@@ -218,6 +218,8 @@ video_source
 .
 h
 "
+namespace
+{
 void
 grain_equal
 (
@@ -720,6 +722,10 @@ cr_offset
 ;
 }
 }
+}
+/
+/
+namespace
 TEST
 (
 FilmGrainTableTest

@@ -170,8 +170,6 @@ encoder
 /
 arm
 /
-neon
-/
 pickrst_neon
 .
 h

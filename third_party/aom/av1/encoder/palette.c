@@ -4507,7 +4507,10 @@ color_index_map
 int
 color_thresh_palette
 =
-64
+x
+-
+>
+color_palette_thresh
 ;
 /
 /

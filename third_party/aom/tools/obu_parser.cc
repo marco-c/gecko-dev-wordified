@@ -185,6 +185,8 @@ h
 namespace
 aom_tools
 {
+namespace
+{
 /
 /
 Basic
@@ -668,6 +670,10 @@ spatial_layer_id
 ;
 }
 }
+}
+/
+/
+namespace
 bool
 DumpObu
 (

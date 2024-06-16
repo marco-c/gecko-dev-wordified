@@ -10002,6 +10002,13 @@ sb_force_fixed_part
 =
 1
 ;
+x
+-
+>
+color_palette_thresh
+=
+64
+;
 if
 (
 cpi

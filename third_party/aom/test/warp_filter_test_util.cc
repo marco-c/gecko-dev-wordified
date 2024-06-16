@@ -161,6 +161,8 @@ tuple
 namespace
 libaom_test
 {
+namespace
+{
 int32_t
 random_warped_param
 (
@@ -969,6 +971,10 @@ return
 ;
 }
 }
+}
+/
+/
+namespace
 namespace
 AV1WarpFilter
 {
