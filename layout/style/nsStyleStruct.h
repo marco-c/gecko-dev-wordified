@@ -11334,12 +11334,6 @@ mViewTimelineAxisCount
 uint32_t
 mViewTimelineInsetCount
 ;
-mozilla
-:
-:
-StyleFieldSizing
-mFieldSizing
-;
 }
 ;
 struct
