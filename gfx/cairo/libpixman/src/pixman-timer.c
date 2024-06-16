@@ -202,6 +202,8 @@ HAVE_CONFIG_H
 #
 include
 <
+pixman
+-
 config
 .
 h

@@ -249,6 +249,8 @@ HAVE_CONFIG_H
 #
 include
 <
+pixman
+-
 config
 .
 h
@@ -1172,8 +1174,7 @@ FALSE
 else
 if
 (
-!
-pixman_region32_not_empty
+pixman_region32_empty
 (
 clip
 )
@@ -1704,8 +1705,7 @@ FALSE
 }
 if
 (
-!
-pixman_region32_not_empty
+pixman_region32_empty
 (
 region
 )
@@ -5679,6 +5679,9 @@ PIXMAN_a8r8g8b8
 :
 case
 PIXMAN_a8r8g8b8_sRGB
+:
+case
+PIXMAN_r8g8b8_sRGB
 :
 case
 PIXMAN_x8r8g8b8

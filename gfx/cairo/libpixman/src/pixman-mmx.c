@@ -267,6 +267,8 @@ HAVE_CONFIG_H
 #
 include
 <
+pixman
+-
 config
 .
 h
@@ -432,6 +434,12 @@ if
 (
 defined
 (
+__SSE2__
+)
+|
+|
+defined
+(
 __SUNPRO_C
 )
 |
@@ -446,12 +454,6 @@ defined
 (
 _WIN64
 )
-)
-|
-|
-defined
-(
-__MINGW32__
 )
 #
 include
@@ -685,7 +687,7 @@ endif
 endif
 #
 ifndef
-_MSC_VER
+_MM_SHUFFLE
 #
 define
 _MM_SHUFFLE

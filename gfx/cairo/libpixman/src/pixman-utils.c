@@ -211,6 +211,8 @@ HAVE_CONFIG_H
 #
 include
 <
+pixman
+-
 config
 .
 h
@@ -1483,6 +1485,7 @@ pixman_region16_copy_from_region32
 pixman_region16_t
 *
 dst
+const
 pixman_region32_t
 *
 src
@@ -1632,6 +1635,7 @@ pixman_region32_copy_from_region16
 pixman_region32_t
 *
 dst
+const
 pixman_region16_t
 *
 src
