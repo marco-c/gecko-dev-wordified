@@ -598,7 +598,7 @@ BodyConsumer
 ConsumeType
 :
 :
-CONSUME_JSON
+JSON
 error
 )
 ;
