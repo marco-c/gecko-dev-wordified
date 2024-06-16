@@ -3,7 +3,7 @@
 Helper
 functions
 for
-snapchanged
+scrollsnapchange
 -
 on
 -
@@ -46,7 +46,7 @@ meant
 for
 use
 in
-snapchanged
+scrollsnapchange
 &
 snapchanging
 tests
@@ -581,7 +581,7 @@ left
 }
 async
 function
-test_no_snapchanged
+test_no_scrollsnapchange
 (
 t
 scroller
@@ -595,7 +595,7 @@ t
 scroller
 delta
 "
-snapchanged
+scrollsnapchange
 "
 )
 ;
