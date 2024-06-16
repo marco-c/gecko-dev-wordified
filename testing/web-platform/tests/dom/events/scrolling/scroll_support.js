@@ -1583,6 +1583,7 @@ target
 direction
 )
 {
+return
 touchScrollInTarget
 (
 pixels_to_scroll
