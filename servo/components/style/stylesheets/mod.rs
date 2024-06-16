@@ -335,7 +335,6 @@ to_shmem
 :
 :
 {
-self
 SharedMemoryBuilder
 ToShmem
 }

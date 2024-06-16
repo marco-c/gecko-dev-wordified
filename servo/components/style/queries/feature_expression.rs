@@ -199,10 +199,7 @@ std
 cmp
 :
 :
-{
 Ordering
-PartialOrd
-}
 ;
 use
 std

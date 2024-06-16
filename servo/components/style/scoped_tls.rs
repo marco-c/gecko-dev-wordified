@@ -97,9 +97,6 @@ global_style_data
 STYLO_MAX_THREADS
 ;
 use
-rayon
-;
-use
 std
 :
 :

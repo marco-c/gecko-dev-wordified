@@ -140,10 +140,7 @@ std
 cmp
 :
 :
-{
 Ordering
-PartialOrd
-}
 ;
 /
 /
