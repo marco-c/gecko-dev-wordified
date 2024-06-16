@@ -308,6 +308,11 @@ indexedDB
 :
 StructuredCloneReadInfoChild
 ;
+using
+VoidOrObjectStoreKeyPathString
+=
+nsAString
+;
 /
 /
 For
@@ -644,6 +649,10 @@ IndexUpdateInfo
 >
 *
 aUpdateInfoArray
+const
+VoidOrObjectStoreKeyPathString
+&
+aAutoIncrementedObjectStoreKeyPath
 ErrorResult
 *
 aRv
