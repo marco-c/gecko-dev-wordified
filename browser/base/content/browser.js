@@ -54036,17 +54036,6 @@ true
 "
 )
 ;
-A11yUtils
-.
-announce
-(
-{
-id
-:
-messageId
-}
-)
-;
 this
 .
 _timerID
