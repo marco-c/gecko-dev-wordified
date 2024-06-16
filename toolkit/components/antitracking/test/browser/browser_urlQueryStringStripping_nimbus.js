@@ -833,7 +833,6 @@ string
 )
 ;
 }
-await
 doExperimentCleanup
 (
 )

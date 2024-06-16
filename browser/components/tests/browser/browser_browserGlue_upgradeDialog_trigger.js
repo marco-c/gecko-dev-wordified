@@ -371,7 +371,6 @@ disabled
 ]
 )
 ;
-await
 doCleanup
 (
 )

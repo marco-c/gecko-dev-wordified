@@ -450,7 +450,6 @@ insteead
 "
 )
 ;
-await
 doCleanup
 (
 )
@@ -782,7 +781,6 @@ default
 "
 )
 ;
-await
 doCleanup
 (
 )

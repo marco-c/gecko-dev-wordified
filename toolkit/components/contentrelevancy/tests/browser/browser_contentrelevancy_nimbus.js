@@ -304,7 +304,6 @@ called
 "
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -453,7 +452,6 @@ called
 "
 )
 ;
-await
 doExperimentCleanup
 (
 )

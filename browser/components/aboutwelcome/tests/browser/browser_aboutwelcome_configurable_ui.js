@@ -2336,7 +2336,6 @@ TEST_BACKDROP_URL
 ]
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -2468,7 +2467,6 @@ TEST_BACKDROP_COLOR
 ]
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -2764,7 +2762,6 @@ rgb
 }
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -3268,7 +3265,6 @@ grown
 }
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -3523,7 +3519,6 @@ disabled
 "
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -4221,7 +4216,6 @@ sent
 )
 ;
 }
-await
 doExperimentCleanup
 (
 )
@@ -4349,7 +4343,6 @@ rdm
 ]
 )
 ;
-await
 doExperimentCleanup
 (
 )

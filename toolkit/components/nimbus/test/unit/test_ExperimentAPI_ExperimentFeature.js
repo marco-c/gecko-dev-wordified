@@ -1219,7 +1219,6 @@ restore
 (
 )
 ;
-await
 doExperimentCleanup
 (
 )

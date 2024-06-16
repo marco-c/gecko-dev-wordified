@@ -1505,7 +1505,6 @@ sent
 .
 Success
 !
-await
 doEnrollmentCleanup
 (
 )

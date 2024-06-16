@@ -290,7 +290,6 @@ value
 "
 )
 ;
-await
 doExperimentCleanup
 (
 )

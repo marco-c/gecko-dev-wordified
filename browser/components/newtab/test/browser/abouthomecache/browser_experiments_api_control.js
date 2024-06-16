@@ -247,7 +247,6 @@ CACHE_RESULT_SCALARS
 DISABLED
 )
 ;
-await
 doEnrollmentCleanup
 (
 )
@@ -348,7 +347,6 @@ ensureCachedAboutHome
 browser
 )
 ;
-await
 doEnrollmentCleanup
 (
 )

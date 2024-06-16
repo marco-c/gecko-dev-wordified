@@ -911,7 +911,6 @@ experiment
 "
 )
 ;
-await
 doExperimentCleanup
 (
 )

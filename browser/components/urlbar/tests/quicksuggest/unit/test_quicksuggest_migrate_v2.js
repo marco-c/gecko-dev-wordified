@@ -7337,7 +7337,6 @@ callback
 (
 )
 ;
-await
 doExperimentCleanup
 (
 )

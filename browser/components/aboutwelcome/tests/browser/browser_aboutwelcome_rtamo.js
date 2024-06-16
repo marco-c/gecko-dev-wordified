@@ -1420,7 +1420,6 @@ selectors
 ]
 )
 ;
-await
 doExperimentCleanup
 (
 )

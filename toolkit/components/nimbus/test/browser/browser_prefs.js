@@ -351,7 +351,6 @@ of
 enrollmentCleanup
 )
 {
-await
 cleanup
 (
 )

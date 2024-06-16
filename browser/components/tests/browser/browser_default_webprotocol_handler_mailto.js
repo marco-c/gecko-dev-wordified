@@ -1287,7 +1287,6 @@ clicked
 }
 )
 ;
-await
 cleanup
 (
 )
@@ -1500,7 +1499,6 @@ clicked
 }
 )
 ;
-await
 cleanup
 (
 )
@@ -1581,7 +1579,6 @@ zero
 }
 )
 ;
-await
 cleanup
 (
 )
@@ -1657,7 +1654,6 @@ off
 }
 )
 ;
-await
 cleanup
 (
 )

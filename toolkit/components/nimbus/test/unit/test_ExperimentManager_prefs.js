@@ -11197,7 +11197,6 @@ assertNoObservers
 manager
 )
 ;
-await
 doEnrollmentCleanup
 (
 )

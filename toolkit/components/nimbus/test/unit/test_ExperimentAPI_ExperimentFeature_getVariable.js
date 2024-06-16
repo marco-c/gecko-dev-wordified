@@ -725,7 +725,6 @@ deleteBranch
 TEST_PREF_BRANCH
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -957,7 +956,6 @@ deleteBranch
 TEST_PREF_BRANCH
 )
 ;
-await
 doExperimentCleanup
 (
 )

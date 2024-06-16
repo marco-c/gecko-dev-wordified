@@ -650,7 +650,6 @@ screen
 ]
 )
 ;
-await
 doExperimentCleanup
 (
 )
@@ -915,7 +914,6 @@ screen
 ]
 )
 ;
-await
 doExperimentCleanup
 (
 )
