@@ -8082,6 +8082,15 @@ Pocket
 API
 "
 )
+id_and_secret_keyfile
+(
+"
+Windows
+Taskbar
+Pinning
+API
+"
+)
 #
 WebRender
 Debugger
