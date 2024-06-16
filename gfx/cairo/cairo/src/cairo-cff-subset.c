@@ -17504,8 +17504,9 @@ font
 ;
 font
 =
-_cairo_malloc
+calloc
 (
+1
 sizeof
 (
 cairo_cff_font_t
