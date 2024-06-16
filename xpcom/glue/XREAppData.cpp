@@ -439,7 +439,12 @@ aName
 .
 Assign
 (
-remotingName
+name
+)
+;
+ToLowerCase
+(
+aName
 )
 ;
 SanitizeNameForDBus
