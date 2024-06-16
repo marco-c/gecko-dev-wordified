@@ -185,9 +185,14 @@ Assert
 .
 equal
 (
+(
+await
 gUpdateManager
 .
-downloadingUpdate
+getDownloadingUpdate
+(
+)
+)
 .
 state
 STATE_DOWNLOADING

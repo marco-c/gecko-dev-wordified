@@ -580,9 +580,14 @@ Assert
 ok
 (
 !
+(
+await
 gUpdateManager
 .
-downloadingUpdate
+getDownloadingUpdate
+(
+)
+)
 "
 there
 should
