@@ -848,7 +848,7 @@ URI_MUST_LOAD_IN_CHILD
 }
 {
 "
-fingerprinting
+fingerprintingprotection
 "
 "
 chrome
