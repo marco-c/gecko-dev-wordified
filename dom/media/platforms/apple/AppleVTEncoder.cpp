@@ -1147,7 +1147,7 @@ LOGE
 "
 fail
 to
-configurate
+configure
 realtime
 properties
 "
@@ -1165,9 +1165,10 @@ NS_ERROR_DOM_MEDIA_FATAL_ERR
 "
 fail
 to
-configurate
-average
-bitrate
+configure
+real
+-
+time
 "
 )
 __func__
