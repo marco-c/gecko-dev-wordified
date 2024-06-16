@@ -279,3 +279,17 @@ xpcshell
 toml
 "
 ]
+MARIONETTE_MANIFESTS
++
+=
+[
+"
+test
+/
+marionette
+/
+manifest
+.
+toml
+"
+]
