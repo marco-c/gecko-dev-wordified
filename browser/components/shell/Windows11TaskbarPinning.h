@@ -160,6 +160,8 @@ NotCurrentlyAllowed
 AlreadyPinned
 Success
 NotSupported
+ErrorLimitedAccessFeatures
+LimitedAccessFeaturesLocked
 }
 ;
 struct
@@ -170,6 +172,9 @@ errorCode
 ;
 Win11PinToTaskBarResultStatus
 result
+;
+int
+numAttempts
 ;
 }
 ;
