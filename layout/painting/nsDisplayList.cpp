@@ -7365,7 +7365,7 @@ Length
 (
 )
 ;
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =
@@ -7375,7 +7375,7 @@ state
 mPresShell
 -
 >
-GetRootScrollFrameAsScrollable
+GetRootScrollContainerFrame
 (
 )
 ;

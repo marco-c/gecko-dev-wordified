@@ -249,6 +249,15 @@ include
 "
 mozilla
 /
+ScrollContainerFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindings
 .
 h
@@ -10725,7 +10734,7 @@ MarkScrollbarsDirtyForReflow
 else
 if
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =
@@ -10737,7 +10746,7 @@ PresShell
 )
 -
 >
-GetRootScrollFrameAsScrollable
+GetRootScrollContainerFrame
 (
 )
 )

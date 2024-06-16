@@ -22125,7 +22125,7 @@ PresShell
 )
 -
 >
-GetRootScrollFrameAsScrollable
+GetRootScrollContainerFrame
 (
 )
 ;
