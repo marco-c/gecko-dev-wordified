@@ -1193,6 +1193,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToComputedValue
+ToResolvedValue
 )
 ]
 pub
