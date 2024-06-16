@@ -3966,6 +3966,15 @@ to
 bottom
 .
 *
+XXX
+should
+we
+always
+include
+native
+menu
+?
+*
 /
 void
 GetVisiblePopups
@@ -3977,6 +3986,10 @@ nsMenuPopupFrame
 >
 &
 aPopups
+bool
+aIncludeNativeMenu
+=
+false
 )
 ;
 /
