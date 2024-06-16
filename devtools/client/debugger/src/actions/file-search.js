@@ -273,8 +273,6 @@ const
 ctx
 =
 {
-ed
-:
 editor
 cm
 :

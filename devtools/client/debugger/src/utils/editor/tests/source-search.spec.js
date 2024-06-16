@@ -795,7 +795,7 @@ to
 }
 ;
 const
-ed
+editor
 =
 {
 alignLine
@@ -812,7 +812,7 @@ ctx
 =
 {
 cm
-ed
+editor
 }
 ;
 expect
@@ -932,7 +932,7 @@ head
 ;
 expect
 (
-ed
+editor
 .
 alignLine
 )
