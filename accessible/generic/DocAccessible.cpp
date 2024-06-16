@@ -306,13 +306,6 @@ h
 #
 include
 "
-nsIScrollableFrame
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
@@ -409,6 +402,15 @@ include
 mozilla
 /
 PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ScrollContainerFrame
 .
 h
 "
@@ -5198,7 +5200,7 @@ GetFrame
 )
 )
 {
-nsIScrollableFrame
+ScrollContainerFrame
 *
 sf
 =
@@ -5210,7 +5212,7 @@ this
 mPresShell
 -
 >
-GetRootScrollFrameAsScrollable
+GetRootScrollContainerFrame
 (
 )
 :

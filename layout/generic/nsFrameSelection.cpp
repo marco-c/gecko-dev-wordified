@@ -11056,7 +11056,8 @@ Bug
 /
 Get
 the
-scrollable
+scroll
+container
 frame
 .
 If
@@ -11066,11 +11067,13 @@ not
 scrollable
 this
 is
+/
+/
 nullptr
 .
-nsIScrollableFrame
+ScrollContainerFrame
 *
-scrollableFrame
+scrollContainerFrame
 =
 aFrame
 -
@@ -11102,9 +11105,9 @@ nsIFrame
 *
 scrolledFrame
 =
-scrollableFrame
+scrollContainerFrame
 ?
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetScrolledFrame
@@ -11278,7 +11281,7 @@ NS_OK
 }
 if
 (
-scrollableFrame
+scrollContainerFrame
 )
 {
 /
@@ -11367,7 +11370,7 @@ caretPos
 y
 +
 =
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetPageScrollAmount
@@ -11384,7 +11387,7 @@ caretPos
 y
 -
 =
-scrollableFrame
+scrollContainerFrame
 -
 >
 GetPageScrollAmount
@@ -11689,7 +11692,7 @@ page
 .
 if
 (
-scrollableFrame
+scrollContainerFrame
 )
 {
 /
@@ -11727,7 +11730,7 @@ smooth
 scroll
 here
 because
-nsIScrollableFrame
+ScrollContainerFrame
 uses
 normal
 runnable
@@ -11803,7 +11806,7 @@ ScrollMode
 :
 Smooth
 ;
-scrollableFrame
+scrollContainerFrame
 -
 >
 ScrollBy
