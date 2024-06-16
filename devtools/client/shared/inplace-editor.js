@@ -9539,8 +9539,10 @@ hideAutocompletePopup
 )
 ;
 }
-else
-{
+prevent
+=
+true
+;
 this
 .
 cancelled
@@ -9560,11 +9562,6 @@ this
 clear
 (
 )
-;
-}
-prevent
-=
-true
 ;
 event
 .
