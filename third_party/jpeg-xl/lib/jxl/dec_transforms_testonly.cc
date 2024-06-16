@@ -113,10 +113,7 @@ TransformToPixels
 void
 TransformToPixels
 (
-AcStrategy
-:
-:
-Type
+AcStrategyType
 strategy
 float
 *
@@ -158,10 +155,7 @@ const
 jxl
 :
 :
-AcStrategy
-:
-:
-Type
+AcStrategyType
 strategy
 const
 float

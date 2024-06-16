@@ -207,6 +207,12 @@ strategy
 namespace
 jxl
 {
+enum
+class
+AcStrategyType
+:
+uint32_t
+;
 static
 constexpr
 int
@@ -900,7 +906,7 @@ float
 *
 DequantMatrix
 (
-size_t
+AcStrategyType
 quant_kind
 size_t
 c
@@ -924,7 +930,7 @@ float
 *
 InvDequantMatrix
 (
-size_t
+AcStrategyType
 quant_kind
 size_t
 c

@@ -74,17 +74,6 @@ lib
 /
 jxl
 /
-ac_strategy
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 base
 /
 compiler_specific
@@ -214,6 +203,9 @@ jxl
 {
 struct
 AuxOut
+;
+class
+AcStrategyImage
 ;
 /
 /
@@ -483,7 +475,7 @@ size_t
 num_threads
 )
 ;
-void
+Status
 ProcessRect
 (
 const

@@ -1912,6 +1912,8 @@ y
 nullptr
 }
 ;
+JXL_CHECK
+(
 jxl
 :
 :
@@ -1941,6 +1943,7 @@ xyb
 .
 xsize
 (
+)
 )
 )
 ;

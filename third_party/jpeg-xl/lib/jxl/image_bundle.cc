@@ -233,7 +233,7 @@ VerifySizes
 )
 ;
 }
-void
+Status
 ImageBundle
 :
 :
@@ -295,6 +295,7 @@ xsize
 0
 )
 {
+return
 JXL_UNREACHABLE
 (
 "
@@ -394,6 +395,9 @@ call
 to
 VisitFields
 .
+return
+true
+;
 }
 void
 ImageBundle

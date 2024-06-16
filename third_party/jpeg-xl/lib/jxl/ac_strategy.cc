@@ -757,10 +757,7 @@ AcStrategyImage
 :
 CountBlocks
 (
-AcStrategy
-:
-:
-Type
+AcStrategyType
 type
 )
 const
