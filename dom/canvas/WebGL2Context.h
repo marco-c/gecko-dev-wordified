@@ -1194,7 +1194,6 @@ flags
 GLenum
 ClientWaitSync
 (
-const
 WebGLSync
 &
 sync

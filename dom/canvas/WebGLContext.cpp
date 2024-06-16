@@ -5364,6 +5364,10 @@ mDrawCallsSinceLastFlush
 =
 0
 ;
+PollPendingSyncs
+(
+)
+;
 BumpLru
 (
 )
