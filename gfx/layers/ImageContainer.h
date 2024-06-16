@@ -5952,7 +5952,7 @@ layers
 :
 PlanarYCbCrImage
 .
-bool
+nsresult
 SetData
 (
 const
