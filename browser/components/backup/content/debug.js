@@ -434,9 +434,9 @@ join
 PathUtils
 .
 profileDir
-"
-backups
-"
+BackupService
+.
+PROFILE_FOLDER_NAME
 )
 ;
 let
@@ -526,9 +526,9 @@ join
 PathUtils
 .
 profileDir
-"
-backups
-"
+BackupService
+.
+PROFILE_FOLDER_NAME
 )
 ;
 let
