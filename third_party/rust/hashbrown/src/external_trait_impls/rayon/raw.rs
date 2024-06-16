@@ -32,15 +32,6 @@ scopeguard
 guard
 ;
 use
-alloc
-:
-:
-alloc
-:
-:
-dealloc
-;
-use
 core
 :
 :
@@ -532,8 +523,6 @@ T
 A
 :
 Allocator
-+
-Clone
 =
 Global
 >
@@ -552,8 +541,6 @@ T
 A
 :
 Allocator
-+
-Clone
 >
 RawIntoParIter
 <
@@ -610,8 +597,6 @@ Send
 A
 :
 Allocator
-+
-Clone
 +
 Send
 >
@@ -709,6 +694,8 @@ Some
 (
 ptr
 layout
+ref
+alloc
 )
 )
 =
@@ -717,13 +704,11 @@ alloc
 {
 unsafe
 {
-dealloc
+alloc
+.
+deallocate
 (
 ptr
-.
-as_ptr
-(
-)
 layout
 )
 ;
@@ -774,8 +759,6 @@ T
 A
 :
 Allocator
-+
-Clone
 =
 Global
 >
@@ -841,8 +824,6 @@ Send
 A
 :
 Allocator
-+
-Clone
 >
 Send
 for
@@ -861,8 +842,6 @@ T
 A
 :
 Allocator
-+
-Clone
 >
 RawParDrain
 <
@@ -925,8 +904,6 @@ Send
 A
 :
 Allocator
-+
-Clone
 >
 ParallelIterator
 for
@@ -1063,8 +1040,6 @@ T
 A
 :
 Allocator
-+
-Clone
 >
 Drop
 for
@@ -1468,8 +1443,6 @@ T
 A
 :
 Allocator
-+
-Clone
 >
 RawTable
 <

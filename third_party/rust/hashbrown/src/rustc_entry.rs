@@ -15,7 +15,7 @@ map
 :
 :
 {
-make_insert_hash
+make_hash
 Drain
 HashMap
 IntoIter
@@ -93,8 +93,6 @@ BuildHasher
 A
 :
 Allocator
-+
-Clone
 {
 /
 /
@@ -319,7 +317,7 @@ A
 let
 hash
 =
-make_insert_hash
+make_hash
 (
 &
 self
@@ -534,8 +532,6 @@ where
 A
 :
 Allocator
-+
-Clone
 {
 /
 /
@@ -585,8 +581,6 @@ Debug
 A
 :
 Allocator
-+
-Clone
 >
 Debug
 for
@@ -736,8 +730,6 @@ where
 A
 :
 Allocator
-+
-Clone
 {
 key
 :
@@ -797,8 +789,6 @@ A
 :
 Allocator
 +
-Clone
-+
 Send
 {
 }
@@ -830,8 +820,6 @@ A
 :
 Allocator
 +
-Clone
-+
 Sync
 {
 }
@@ -846,8 +834,6 @@ Debug
 A
 :
 Allocator
-+
-Clone
 >
 Debug
 for
@@ -980,8 +966,6 @@ where
 A
 :
 Allocator
-+
-Clone
 {
 hash
 :
@@ -1013,8 +997,6 @@ V
 A
 :
 Allocator
-+
-Clone
 >
 Debug
 for
@@ -1084,8 +1066,6 @@ V
 A
 :
 Allocator
-+
-Clone
 >
 RustcEntry
 <
@@ -2107,8 +2087,6 @@ Default
 A
 :
 Allocator
-+
-Clone
 >
 RustcEntry
 <
@@ -2327,8 +2305,6 @@ V
 A
 :
 Allocator
-+
-Clone
 >
 RustcOccupiedEntry
 <
@@ -2687,6 +2663,8 @@ self
 .
 elem
 )
+.
+0
 }
 }
 /
@@ -4434,8 +4412,6 @@ V
 A
 :
 Allocator
-+
-Clone
 >
 RustcVacantEntry
 <
