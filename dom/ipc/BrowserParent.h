@@ -646,11 +646,7 @@ Manager
 (
 )
 const
-{
-return
-mManager
 ;
-}
 CanonicalBrowsingContext
 *
 GetBrowsingContext
@@ -4942,12 +4938,6 @@ private
 TabId
 mTabId
 ;
-RefPtr
-<
-ContentParent
->
-mManager
-;
 /
 /
 The
@@ -4964,12 +4954,6 @@ RefPtr
 CanonicalBrowsingContext
 >
 mBrowsingContext
-;
-nsCOMPtr
-<
-nsILoadContext
->
-mLoadContext
 ;
 RefPtr
 <

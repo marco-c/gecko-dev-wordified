@@ -1518,9 +1518,11 @@ because
 the
 accessibility
 code
+and
+BrowserParent
+/
+/
 manually
-/
-/
 calls
 SetManager
 .
