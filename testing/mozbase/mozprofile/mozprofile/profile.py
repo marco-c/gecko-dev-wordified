@@ -1192,7 +1192,7 @@ restore
 =
 True
         
-allowlistpaths
+whitelistpaths
 =
 None
         
@@ -1270,7 +1270,7 @@ cleanup
         
 :
 param
-allowlistpaths
+whitelistpaths
 :
 List
 of
@@ -1341,9 +1341,9 @@ proxy
         
 self
 .
-_allowlistpaths
+_whitelistpaths
 =
-allowlistpaths
+whitelistpaths
         
 #
 Initialize
@@ -1554,7 +1554,7 @@ _proxy
 if
 self
 .
-_allowlistpaths
+_whitelistpaths
 :
             
 #
@@ -1613,7 +1613,7 @@ len
 (
 self
 .
-_allowlistpaths
+_whitelistpaths
 )
 <
 =
@@ -1624,7 +1624,7 @@ len
 (
 self
 .
-_allowlistpaths
+_whitelistpaths
 )
 =
 =
@@ -1652,7 +1652,7 @@ testing_read_path2
                             
 self
 .
-_allowlistpaths
+_whitelistpaths
 [
 1
 ]
@@ -1682,7 +1682,7 @@ testing_read_path1
                         
 self
 .
-_allowlistpaths
+_whitelistpaths
 [
 0
 ]
@@ -1718,7 +1718,7 @@ join
 (
 self
 .
-_allowlistpaths
+_whitelistpaths
 )
                     
 )

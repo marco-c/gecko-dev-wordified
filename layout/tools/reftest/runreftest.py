@@ -2508,7 +2508,7 @@ port
 port
 )
         
-sandbox_allowlist_paths
+sandbox_whitelist_paths
 =
 options
 .
@@ -2558,7 +2558,7 @@ Linux
 and
 Windows
             
-sandbox_allowlist_paths
+sandbox_whitelist_paths
 =
 map
 (
@@ -2576,7 +2576,7 @@ p
 "
 "
 )
-sandbox_allowlist_paths
+sandbox_whitelist_paths
             
 )
         
@@ -2750,10 +2750,10 @@ locations
 locations
             
 "
-allowlistpaths
+whitelistpaths
 "
 :
-sandbox_allowlist_paths
+sandbox_whitelist_paths
         
 }
         

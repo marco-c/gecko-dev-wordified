@@ -967,17 +967,6 @@ specialpowers_path
 ]
                       
 "
-allow_list_paths
-"
-:
-kwargs
-[
-"
-allow_list_paths
-"
-]
-                      
-"
 debug_test
 "
 :
@@ -4930,8 +4919,6 @@ binary
 package_name
 certutil_binary
 ca_certificate_path
-                 
-allow_list_paths
 )
 :
         
@@ -5012,12 +4999,6 @@ self
 ca_certificate_path
 =
 ca_certificate_path
-        
-self
-.
-allow_list_paths
-=
-allow_list_paths
     
 def
 create
@@ -5084,12 +5065,6 @@ preferences
 restore
 =
 False
-                                 
-allowlistpaths
-=
-self
-.
-allow_list_paths
                                  
 *
 *
@@ -6180,9 +6155,6 @@ None
 debug_test
 =
 False
-allow_list_paths
-=
-None
 *
 *
 kwargs
@@ -6292,8 +6264,6 @@ package_name
 certutil_binary
                                          
 ca_certificate_path
-                                         
-allow_list_paths
 )
         
 if
@@ -6751,9 +6721,6 @@ profile_creator_cls
 =
 ProfileCreator
                  
-allow_list_paths
-=
-None
 *
 *
 kwargs
@@ -6870,8 +6837,6 @@ package_name
 certutil_binary
                                               
 ca_certificate_path
-                                              
-allow_list_paths
 )
         
 self

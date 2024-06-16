@@ -19161,7 +19161,7 @@ SCRIPT_DIR
 )
 )
         
-sandbox_allowlist_paths
+sandbox_whitelist_paths
 =
 [
 tests_dir
@@ -19215,7 +19215,7 @@ Linux
 and
 Windows
             
-sandbox_allowlist_paths
+sandbox_whitelist_paths
 =
 [
                 
@@ -19232,7 +19232,7 @@ p
 for
 p
 in
-sandbox_allowlist_paths
+sandbox_whitelist_paths
             
 ]
         
@@ -19407,9 +19407,9 @@ proxy
 options
 )
             
-allowlistpaths
+whitelistpaths
 =
-sandbox_allowlist_paths
+sandbox_whitelist_paths
         
 )
         
