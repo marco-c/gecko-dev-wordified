@@ -65,11 +65,11 @@ mozprofile
 PACKAGE_VERSION
 =
 "
-3
+2
 .
-0
+6
 .
-0
+1
 "
 deps
 =
