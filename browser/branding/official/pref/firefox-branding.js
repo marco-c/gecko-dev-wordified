@@ -128,12 +128,12 @@ update
 .
 interval
 "
-43200
+21600
 )
 ;
 /
 /
-12
+6
 hours
 /
 /

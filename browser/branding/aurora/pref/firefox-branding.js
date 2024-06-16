@@ -137,12 +137,12 @@ update
 .
 interval
 "
-28800
+21600
 )
 ;
 /
 /
-8
+6
 hours
 /
 /
