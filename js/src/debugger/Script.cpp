@@ -10046,12 +10046,6 @@ case
 JSOp
 :
 :
-TypeofEq
-:
-case
-JSOp
-:
-:
 ToAsyncIter
 :
 case
