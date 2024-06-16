@@ -6421,6 +6421,8 @@ cargo
 "
 config
 .
+toml
+.
 in
 "
 )
