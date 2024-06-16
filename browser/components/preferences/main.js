@@ -16384,15 +16384,10 @@ stopDownload
 (
 )
 ;
+await
 um
 .
-cleanupReadyUpdate
-(
-)
-;
-um
-.
-cleanupDownloadingUpdate
+cleanupActiveUpdates
 (
 )
 ;
