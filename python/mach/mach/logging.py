@@ -261,6 +261,23 @@ NO_ANSI
 return
 False
     
+if
+not
+os
+.
+environ
+.
+get
+(
+"
+MOZILLABUILD
+"
+)
+:
+        
+return
+False
+    
 #
 MozillaBuild
 4
