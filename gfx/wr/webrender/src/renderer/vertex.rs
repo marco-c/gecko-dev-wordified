@@ -2653,7 +2653,7 @@ VertexAttribute
 name
 :
 "
-aLocalRect
+aDeviceRect
 "
 count
 :
@@ -2772,11 +2772,11 @@ VertexAttribute
 name
 :
 "
-aTransform
+aFlip
 "
 count
 :
-4
+2
 kind
 :
 VertexAttributeKind
