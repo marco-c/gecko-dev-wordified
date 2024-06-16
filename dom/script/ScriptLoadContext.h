@@ -1357,6 +1357,13 @@ ContinueParserAsync
 )
 const
 ;
+Document
+*
+GetScriptOwnerDocument
+(
+)
+const
+;
 /
 /
 Make
