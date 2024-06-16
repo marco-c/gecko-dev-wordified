@@ -16026,12 +16026,6 @@ this
 ;
 MaybeBeginShutDown
 (
-/
-*
-aExpectedBrowserCount
-*
-/
-1
 )
 ;
 }
