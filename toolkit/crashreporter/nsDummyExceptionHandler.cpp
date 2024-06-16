@@ -1016,9 +1016,6 @@ dump
 AnnotationTable
 &
 aAnnotations
-uint32_t
-*
-aSequence
 )
 {
 return

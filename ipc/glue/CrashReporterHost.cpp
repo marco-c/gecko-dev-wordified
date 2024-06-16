@@ -249,7 +249,6 @@ if
 TakeCrashedChildMinidump
 (
 aPid
-nullptr
 )
 )
 {
@@ -289,9 +288,6 @@ base
 :
 ProcessId
 aPid
-uint32_t
-*
-aOutSequence
 )
 {
 CrashReporter
@@ -328,7 +324,6 @@ getter_AddRefs
 crashDump
 )
 annotations
-aOutSequence
 )
 )
 {
