@@ -308,6 +308,14 @@ brotli
 "
 #
 define
+APPLICATION_ZSTD
+"
+application
+/
+zstd
+"
+#
+define
 APPLICATION_ZIP
 "
 application
@@ -2143,6 +2151,12 @@ ENCODING_YENCODE
 x
 -
 yencode
+"
+#
+define
+ENCODING_ZSTD
+"
+zstd
 "
 /
 *
