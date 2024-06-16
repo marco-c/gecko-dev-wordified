@@ -113,6 +113,13 @@ MPL
 *
 /
 #
+include
+"
+EncoderConfig
+.
+h
+"
+#
 if
 !
 defined
@@ -233,8 +240,10 @@ aOutputType
 HRESULT
 SetModes
 (
-UINT32
-aBitsPerSec
+const
+EncoderConfig
+&
+aConfig
 )
 ;
 HRESULT
