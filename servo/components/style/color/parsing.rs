@@ -2246,6 +2246,13 @@ hue
 saturation
 lightness
 alpha
+component_parser
+.
+origin_color
+.
+is_none
+(
+)
 )
 )
 }
@@ -2422,6 +2429,13 @@ hue
 whiteness
 blackness
 alpha
+component_parser
+.
+origin_color
+.
+is_none
+(
+)
 )
 )
 }
