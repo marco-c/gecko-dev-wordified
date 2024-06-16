@@ -241,15 +241,6 @@ include
 "
 hwy
 /
-timer
-.
-h
-"
-#
-include
-"
-hwy
-/
 contrib
 /
 bit_pack
@@ -391,7 +382,7 @@ rng
 )
 {
 return
-ConvertScalarTo
+static_cast
 <
 T
 >
@@ -497,7 +488,7 @@ raw_
 size
 (
 )
-ConvertScalarTo
+static_cast
 <
 double
 >
@@ -507,7 +498,7 @@ raw_
 num_verified_
 ]
 )
-ConvertScalarTo
+static_cast
 <
 double
 >

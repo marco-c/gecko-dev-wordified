@@ -1522,7 +1522,7 @@ return
 metadata_
 ;
 }
-Status
+void
 VerifyMetadata
 (
 )

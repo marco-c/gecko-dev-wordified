@@ -60,7 +60,7 @@ h
 #
 include
 <
-cstdint
+cstddef
 >
 #
 include
@@ -97,12 +97,6 @@ jxl
 struct
 AuxOut
 ;
-enum
-class
-LayerType
-:
-uint8_t
-;
 struct
 BitWriter
 ;
@@ -119,7 +113,7 @@ matrices
 BitWriter
 *
 writer
-LayerType
+size_t
 layer
 AuxOut
 *
@@ -141,7 +135,7 @@ matrices
 BitWriter
 *
 writer
-LayerType
+size_t
 layer
 AuxOut
 *

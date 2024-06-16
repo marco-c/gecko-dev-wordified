@@ -64,6 +64,17 @@ lib
 /
 jxl
 /
+ac_strategy
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 base
 /
 data_parallel
@@ -207,9 +218,6 @@ jxl
 {
 struct
 AuxOut
-;
-class
-AcStrategyImage
 ;
 /
 /

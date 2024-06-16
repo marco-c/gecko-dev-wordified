@@ -305,12 +305,6 @@ jxl
 struct
 AuxOut
 ;
-enum
-class
-LayerType
-:
-uint8_t
-;
 class
 ModularFrameEncoder
 {
@@ -464,7 +458,7 @@ writer
 AuxOut
 *
 aux_out
-LayerType
+size_t
 layer
 const
 ModularStreamId

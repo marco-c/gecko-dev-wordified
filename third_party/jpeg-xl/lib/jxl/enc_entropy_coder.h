@@ -88,6 +88,17 @@ lib
 /
 jxl
 /
+ac_strategy
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 base
 /
 compiler_specific
@@ -180,9 +191,6 @@ field
 namespace
 jxl
 {
-class
-AcStrategyImage
-;
 /
 /
 Generate

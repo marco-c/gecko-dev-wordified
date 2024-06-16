@@ -1318,12 +1318,6 @@ HWY_TARGET
 !
 =
 HWY_AVX3_ZEN4
-&
-&
-HWY_TARGET
-!
-=
-HWY_AVX3_SPR
 )
 )
 {

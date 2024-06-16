@@ -819,7 +819,7 @@ endif
 }
 inline
 HWY_MAYBE_UNUSED
-Status
+void
 FastXYBTosRGB8
 (
 const
@@ -2979,9 +2979,6 @@ n
 }
 }
 }
-return
-true
-;
 #
 else
 (
@@ -3004,12 +3001,10 @@ void
 )
 xsize
 ;
-return
 JXL_UNREACHABLE
 (
 "
-unsupported
-platform
+Unreachable
 "
 )
 ;

@@ -413,9 +413,15 @@ values
 Iota
 (
 d
+static_cast
+<
+T
+>
+(
 dist
 (
 rng
+)
 )
 )
 ;
@@ -719,7 +725,7 @@ row
 x
 ]
 =
-ConvertScalarTo
+static_cast
 <
 T
 >
@@ -946,7 +952,7 @@ row
 x
 ]
 =
-ConvertScalarTo
+static_cast
 <
 T
 >
@@ -1064,7 +1070,7 @@ x
 {
 HWY_ASSERT_EQ
 (
-ConvertScalarTo
+static_cast
 <
 T
 >

@@ -422,7 +422,7 @@ have
 kInOut
 channels
 .
-Status
+void
 AddStage
 (
 std
