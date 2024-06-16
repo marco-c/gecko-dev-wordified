@@ -9140,8 +9140,10 @@ calendar
 ;
 /
 /
-Step
+Steps
 4
+-
+6
 .
 return
 CalendarWeekOfYear
@@ -9289,8 +9291,10 @@ calendar
 ;
 /
 /
-Step
+Steps
 4
+-
+6
 .
 return
 CalendarYearOfWeek

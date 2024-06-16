@@ -13163,8 +13163,10 @@ false
 }
 /
 /
-Step
+Steps
 7
+-
+9
 .
 return
 CalendarWeekOfYear
@@ -13333,8 +13335,10 @@ false
 }
 /
 /
-Step
+Steps
 7
+-
+9
 .
 return
 CalendarYearOfWeek
