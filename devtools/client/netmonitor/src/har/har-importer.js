@@ -260,11 +260,6 @@ actions
 .
 clearRequests
 (
-{
-isExplicitClear
-:
-true
-}
 )
 ;
 /
