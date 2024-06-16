@@ -1418,7 +1418,7 @@ windowType
 =
 aSettings
 .
-isPopup
+isExtensionPopup
 ?
 "
 navigator

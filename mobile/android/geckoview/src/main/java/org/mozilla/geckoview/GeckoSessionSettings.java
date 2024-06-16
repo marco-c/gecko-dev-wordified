@@ -2224,6 +2224,7 @@ this
 GeckoSession
 is
 a
+Extension
 Popup
 or
 not
@@ -2233,8 +2234,8 @@ sessions
 can
 paint
 over
-other
 *
+other
 sessions
 and
 are
@@ -2255,7 +2256,7 @@ Key
 <
 Boolean
 >
-IS_POPUP
+IS_EXTENSION_POPUP
 =
 new
 Key
@@ -2264,7 +2265,7 @@ Boolean
 >
 (
 "
-isPopup
+isExtensionPopup
 "
 /
 *
@@ -2556,7 +2557,7 @@ mBundle
 .
 putBoolean
 (
-IS_POPUP
+IS_EXTENSION_POPUP
 .
 name
 false
@@ -2879,7 +2880,7 @@ package
 *
 /
 void
-setIsPopup
+setIsExtensionPopup
 (
 final
 boolean
@@ -2888,7 +2889,7 @@ value
 {
 setBoolean
 (
-IS_POPUP
+IS_EXTENSION_POPUP
 value
 )
 ;
@@ -3191,14 +3192,14 @@ package
 *
 /
 boolean
-getIsPopup
+getIsExtensionPopup
 (
 )
 {
 return
 getBoolean
 (
-IS_POPUP
+IS_EXTENSION_POPUP
 )
 ;
 }
