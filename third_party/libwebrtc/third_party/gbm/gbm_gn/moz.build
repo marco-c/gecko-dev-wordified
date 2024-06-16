@@ -292,7 +292,7 @@ True
 FINAL_LIBRARY
 =
 "
-webrtc
+xul
 "
 LOCAL_INCLUDES
 +
