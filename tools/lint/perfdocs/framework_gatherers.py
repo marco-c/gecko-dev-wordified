@@ -1523,6 +1523,7 @@ test_manifest
 =
 TestManifest
 (
+            
 [
 str
 (
@@ -1535,6 +1536,10 @@ False
 document
 =
 True
+add_line_no
+=
+True
+        
 )
         
 test_list
