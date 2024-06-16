@@ -3164,10 +3164,14 @@ path
 )
 ]
     
-if
+test_type
+=
 source_file
 .
 type
+    
+if
+test_type
 =
 =
 "
@@ -3195,9 +3199,7 @@ path
 )
     
 if
-source_file
-.
-type
+test_type
 =
 =
 "
@@ -3631,17 +3633,6 @@ source_file
 testharness_nodes
 :
         
-test_type
-=
-source_file
-.
-manifest_items
-(
-)
-[
-0
-]
-        
 if
 test_type
 not
@@ -3852,6 +3843,32 @@ source_file
 .
 testdriver_nodes
 :
+        
+if
+test_type
+!
+=
+"
+testharness
+"
+:
+            
+errors
+.
+append
+(
+rules
+.
+TestdriverInUnsupportedType
+.
+error
+(
+path
+(
+test_type
+)
+)
+)
         
 if
 len
