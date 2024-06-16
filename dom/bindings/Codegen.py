@@ -62148,6 +62148,27 @@ method
 to
 call
 .
+It
+is
+ignored
+for
+methods
+       
+annotated
+with
+the
+"
+[
+WebExtensionStub
+=
+.
+.
+.
+]
+"
+extended
+attribute
+.
     
 4
 )
