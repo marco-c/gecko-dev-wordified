@@ -436,6 +436,17 @@ thread
 .
 /
 /
+Sets
+up
+mStream
+.
+void
+Init
+(
+)
+;
+/
+/
 Starts
 producing
 audio
