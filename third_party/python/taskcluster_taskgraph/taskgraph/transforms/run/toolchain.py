@@ -108,6 +108,14 @@ from
 taskgraph
 .
 util
+import
+path
+as
+mozpath
+from
+taskgraph
+.
+util
 .
 hash
 import
@@ -473,9 +481,11 @@ resources
 The
 script
     
-files
+script
+=
+mozpath
 .
-append
+join
 (
 "
 taskcluster
@@ -484,18 +494,24 @@ scripts
 /
 toolchain
 /
-{
-}
 "
-.
-format
-(
 run
 [
 "
 script
 "
 ]
+)
+    
+files
+.
+append
+(
+mozpath
+.
+normpath
+(
+script
 )
 )
     
@@ -1121,6 +1137,18 @@ taskdesc
     
 script
 =
+mozpath
+.
+join
+(
+"
+taskcluster
+/
+scripts
+/
+toolchain
+/
+"
 run
 .
 pop
@@ -1128,6 +1156,7 @@ pop
 "
 script
 "
+)
 )
     
 run
@@ -1193,14 +1222,13 @@ f
 srcdir
 }
 /
-taskcluster
-/
-scripts
-/
-toolchain
-/
 {
+mozpath
+.
+normpath
+(
 script
+)
 }
 "
 ]
@@ -1209,13 +1237,11 @@ run
 .
 pop
 (
-        
 "
 arguments
 "
 [
 ]
-    
 )
     
 if

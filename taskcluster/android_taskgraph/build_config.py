@@ -55,16 +55,12 @@ MPL
 .
 import
 os
+from
+functools
+import
+lru_cache
 import
 yaml
-from
-taskgraph
-.
-util
-.
-memoize
-import
-memoize
 from
 android_taskgraph
 import
@@ -333,7 +329,12 @@ in
 CHECKSUMS_EXTENSIONS
     
 ]
-memoize
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 _read_build_config
 (

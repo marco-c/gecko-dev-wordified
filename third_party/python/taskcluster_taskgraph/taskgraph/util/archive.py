@@ -689,17 +689,17 @@ isreg
 raise
 ValueError
 (
+f
 "
 not
 a
 regular
 file
 :
-%
-s
-"
-%
+{
 f
+}
+"
 )
             
 #
@@ -769,6 +769,7 @@ S_ISGID
 raise
 ValueError
 (
+f
 "
 cannot
 add
@@ -779,13 +780,10 @@ or
 setgid
 set
 :
-"
-"
-%
-s
-"
-%
+{
 f
+}
+"
 )
             
 #

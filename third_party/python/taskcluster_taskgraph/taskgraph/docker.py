@@ -842,6 +842,7 @@ image_dir
 raise
 Exception
 (
+f
 "
 image
 directory
@@ -849,11 +850,10 @@ does
 not
 exist
 :
-%
-s
-"
-%
+{
 image_dir
+}
+"
 )
     
 docker
@@ -948,6 +948,7 @@ image_dir
 raise
 Exception
 (
+f
 "
 image
 directory
@@ -955,11 +956,10 @@ does
 not
 exist
 :
-%
-s
-"
-%
+{
 image_dir
+}
+"
 )
     
 tag

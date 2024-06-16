@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+functools
+import
 hashlib
 import
 io
@@ -73,14 +75,6 @@ util
 archive
 import
 create_tar_gz_from_files
-from
-taskgraph
-.
-util
-.
-memoize
-import
-memoize
 IMAGE_DIR
 =
 os
@@ -1381,6 +1375,7 @@ p
 raise
 Exception
 (
+f
 "
 extra
 include
@@ -1389,11 +1384,10 @@ cannot
 be
 absolute
 :
-%
-s
-"
-%
+{
 p
+}
+"
 )
             
 fs_path
@@ -1436,6 +1430,7 @@ topsrcdir
 raise
 Exception
 (
+f
 "
 extra
 include
@@ -1443,11 +1438,10 @@ path
 outside
 topsrcdir
 :
-%
-s
-"
-%
+{
 p
+}
+"
 )
             
 if
@@ -1465,6 +1459,7 @@ fs_path
 raise
 Exception
 (
+f
 "
 extra
 include
@@ -1473,11 +1468,10 @@ does
 not
 exist
 :
-%
-s
-"
-%
+{
 p
+}
+"
 )
             
 if
@@ -1630,7 +1624,14 @@ writer
 hexdigest
 (
 )
-memoize
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 image_paths
 (
@@ -1752,7 +1753,14 @@ join
 IMAGE_DIR
 name
 )
-memoize
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 parse_volumes
 (

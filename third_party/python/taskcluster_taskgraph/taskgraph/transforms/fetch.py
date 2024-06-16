@@ -912,14 +912,14 @@ expires
 label
 "
 :
+f
 "
 fetch
 -
-%
-s
-"
-%
+{
 name
+}
+"
             
 "
 run
@@ -2004,16 +2004,14 @@ command
 .
 extend
 (
-        
 [
-            
 fetch
 [
 "
 url
 "
 ]
-            
+f
 "
 /
 builds
@@ -2022,14 +2020,11 @@ worker
 /
 artifacts
 /
-%
-s
-"
-%
+{
 artifact_name
-        
+}
+"
 ]
-    
 )
     
 return
@@ -2446,6 +2441,7 @@ revision
 "
 ]
         
+f
 "
 /
 builds
@@ -2454,11 +2450,10 @@ worker
 /
 artifacts
 /
-%
-s
-"
-%
+{
 artifact_name
+}
+"
     
 ]
     

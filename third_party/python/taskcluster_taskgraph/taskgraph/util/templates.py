@@ -53,8 +53,14 @@ MPL
 0
 /
 .
-import
+from
+taskgraph
+.
+util
+.
 copy
+import
+deepcopy
 def
 merge_to
 (
@@ -137,6 +143,76 @@ items
 )
 :
         
+if
+(
+            
+isinstance
+(
+value
+dict
+)
+            
+and
+len
+(
+value
+)
+=
+=
+1
+            
+and
+list
+(
+value
+)
+[
+0
+]
+.
+startswith
+(
+"
+by
+-
+"
+)
+        
+)
+:
+            
+#
+Do
+not
+merge
+by
+-
+*
+values
+as
+it
+will
+almost
+certainly
+not
+do
+what
+            
+#
+the
+user
+expects
+.
+            
+dest
+[
+key
+]
+=
+value
+            
+continue
+        
 #
 Override
 mismatching
@@ -169,10 +245,7 @@ dest
 key
 ]
 =
-source
-[
-key
-]
+value
             
 continue
         
@@ -217,10 +290,7 @@ dest
 key
 ]
 +
-source
-[
-key
-]
+value
             
 continue
         
@@ -229,10 +299,7 @@ dest
 key
 ]
 =
-source
-[
-key
-]
+value
     
 return
 dest
@@ -309,8 +376,6 @@ objects
 :
         
 return
-copy
-.
 deepcopy
 (
 objects

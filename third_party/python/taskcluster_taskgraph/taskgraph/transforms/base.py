@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+functools
+import
 re
 from
 dataclasses
@@ -84,14 +86,6 @@ from
 parameters
 import
 Parameters
-from
-.
-.
-util
-.
-memoize
-import
-memoize
 from
 .
 .
@@ -311,7 +305,14 @@ bool
     
 property
     
-memoize
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
     
 def
 repo_configs
