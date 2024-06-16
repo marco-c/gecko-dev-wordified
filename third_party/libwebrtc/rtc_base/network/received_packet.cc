@@ -150,6 +150,8 @@ webrtc
 Timestamp
 >
 arrival_time
+EcnMarking
+ecn
 DecryptionInfo
 decryption
 )
@@ -171,6 +173,10 @@ arrival_time
 source_address_
 (
 source_address
+)
+ecn_
+(
+ecn
 )
 decryption_info_
 (
@@ -195,6 +201,7 @@ ReceivedPacket
 payload_
 source_address_
 arrival_time_
+ecn_
 decryption_info
 )
 ;
