@@ -3944,13 +3944,6 @@ GetNearestInclusiveTargetPopoverForInvoker
 )
 const
 ;
-nsGenericHTMLElement
-*
-GetEffectiveInvokeTargetElement
-(
-)
-const
-;
 /
 *
 *
