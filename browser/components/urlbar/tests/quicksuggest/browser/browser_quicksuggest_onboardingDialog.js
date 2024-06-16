@@ -2283,7 +2283,7 @@ defaultFocusOrder
 :
 [
 "
-onboardingNext
+onboardingDialog
 "
 "
 onboardingAccept
@@ -4617,7 +4617,7 @@ defaultFocusOrder
 :
 [
 "
-onboardingNext
+onboardingDialog
 "
 "
 onboardingLearnMore
