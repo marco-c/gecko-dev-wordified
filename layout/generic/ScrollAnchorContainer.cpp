@@ -1600,7 +1600,9 @@ physicalBounding
 aScrollContainerFrame
 -
 >
-mScrolledFrame
+GetScrolledFrame
+(
+)
 -
 >
 GetSize
