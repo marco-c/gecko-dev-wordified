@@ -4743,6 +4743,11 @@ timed_out
 )
 )
     
+warnings
+=
+[
+]
+    
 for
 line
 in
@@ -4754,6 +4759,39 @@ splitlines
 (
 )
 :
+        
+#
+See
+Bug
+1868693
+        
+if
+line
+.
+startswith
+(
+"
+WARNING
+"
+)
+and
+"
+unused
+DT
+entry
+"
+in
+line
+:
+            
+warnings
+.
+append
+(
+line
+)
+            
+continue
         
 print
 (
@@ -4769,11 +4807,6 @@ strip
 (
 )
 )
-    
-warnings
-=
-[
-]
     
 for
 line
@@ -4817,10 +4850,9 @@ append
 (
 line
 )
-        
-else
-:
             
+continue
+        
 print
 (
 "
