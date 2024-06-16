@@ -19709,6 +19709,14 @@ MakeAndAddRef
 ImageContainer
 >
 (
+ImageUsageType
+:
+:
+WebRenderFallbackData
+ImageContainer
+:
+:
+SYNCHRONOUS
 )
 ;
 {

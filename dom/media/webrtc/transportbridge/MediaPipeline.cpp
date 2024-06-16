@@ -9582,6 +9582,10 @@ MakeAndAddRef
 ImageContainer
 >
 (
+ImageUsageType
+:
+:
+Webrtc
 ImageContainer
 :
 :

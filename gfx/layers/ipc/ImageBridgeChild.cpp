@@ -3926,6 +3926,10 @@ ImageClient
 CreateImageClient
 (
 aType
+aImageContainer
+-
+>
+mUsageType
 this
 TextureFlags
 :

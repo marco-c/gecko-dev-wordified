@@ -634,6 +634,13 @@ ImageContainer
 layers
 :
 :
+ImageUsageType
+:
+:
+OffscreenCanvas
+layers
+:
+:
 ImageContainer
 :
 :

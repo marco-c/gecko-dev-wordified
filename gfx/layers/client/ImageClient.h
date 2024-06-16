@@ -403,6 +403,8 @@ CreateImageClient
 (
 CompositableType
 aImageHostType
+ImageUsageType
+aUsageType
 CompositableForwarder
 *
 aFwd
@@ -549,6 +551,12 @@ return
 nullptr
 ;
 }
+CompositableType
+mType
+;
+ImageUsageType
+mUsageType
+;
 protected
 :
 ImageClient
@@ -560,10 +568,9 @@ TextureFlags
 aFlags
 CompositableType
 aType
+ImageUsageType
+aUsageType
 )
-;
-CompositableType
-mType
 ;
 uint32_t
 mLastUpdateGenerationCounter
@@ -603,6 +610,8 @@ TextureFlags
 aFlags
 CompositableType
 aType
+ImageUsageType
+aUsageType
 )
 ;
 bool

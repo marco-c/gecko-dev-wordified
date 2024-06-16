@@ -399,6 +399,13 @@ ImageContainer
 layers
 :
 :
+ImageUsageType
+:
+:
+WebCodecs
+layers
+:
+:
 ImageContainer
 :
 :
