@@ -199,7 +199,7 @@ loadTestPage
 {
 page
 :
-SPANISH_PAGE_URL
+SELECT_TEST_PAGE_URL
 languagePairs
 :
 LANGUAGE_PAIRS
@@ -265,10 +265,10 @@ assertContextMenuTranslateSelectionItem
 (
 runInPage
 {
-selectSpanishParagraph
+selectSpanishSentence
 :
 false
-openAtSpanishParagraph
+openAtSpanishSentence
 :
 true
 expectMenuItemVisible
@@ -393,7 +393,7 @@ loadTestPage
 {
 page
 :
-SPANISH_PAGE_URL
+SELECT_TEST_PAGE_URL
 languagePairs
 :
 LANGUAGE_PAIRS
@@ -459,10 +459,10 @@ assertContextMenuTranslateSelectionItem
 (
 runInPage
 {
-selectSpanishParagraph
+selectSpanishSentence
 :
 true
-openAtSpanishParagraph
+openAtSpanishSentence
 :
 true
 expectMenuItemVisible
@@ -590,7 +590,7 @@ loadTestPage
 {
 page
 :
-SPANISH_PAGE_URL
+SELECT_TEST_PAGE_URL
 languagePairs
 :
 LANGUAGE_PAIRS
@@ -648,7 +648,7 @@ assertContextMenuTranslateSelectionItem
 (
 runInPage
 {
-selectSpanishParagraph
+selectSpanishSentence
 :
 false
 openAtSpanishHyperlink
