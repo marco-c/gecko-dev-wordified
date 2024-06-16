@@ -96,7 +96,7 @@ mochitests
 content
 "
 "
-http
+https
 :
 /
 /
@@ -2351,7 +2351,7 @@ example
 org
 "
 "
-trackertest
+itisatracker
 .
 org
 "
