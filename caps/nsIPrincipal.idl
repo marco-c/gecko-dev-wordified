@@ -2912,6 +2912,9 @@ thread
 .
 *
 /
+[
+noscript
+]
 nsIReferrerInfo
 createReferrerInfo
 (

@@ -1103,6 +1103,9 @@ see
 DimensionRequest
 *
 /
+[
+noscript
+]
 void
 setDimensions
 (
@@ -1227,6 +1230,9 @@ see
 DimensionRequest
 *
 /
+[
+noscript
+]
 void
 getDimensions
 (
@@ -1421,6 +1427,9 @@ error
 .
 *
 /
+[
+noscript
+]
 attribute
 nativeWindow
 parentNativeWindow

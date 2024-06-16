@@ -311,6 +311,7 @@ nsIInputStream
 /
 [
 scriptable
+builtinclass
 uuid
 (
 d5e3bd80

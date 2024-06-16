@@ -138,7 +138,6 @@ nsINamedPipeService
 *
 /
 [
-scriptable
 uuid
 (
 de4f460b
@@ -255,7 +254,6 @@ nsINamedPipeService
 *
 /
 [
-scriptable
 uuid
 (
 1bf19133
