@@ -640,10 +640,10 @@ true
 &
 ]
 (
-nsresult
-aError
+LaunchError
+const
+&
 )
-mutable
 {
 EXPECT_TRUE
 (
@@ -788,8 +788,9 @@ true
 &
 ]
 (
-nsresult
-aError
+LaunchError
+const
+&
 )
 {
 EXPECT_TRUE

@@ -1816,8 +1816,9 @@ __func__
 processPromise
 ]
 (
-nsresult
-aError
+LaunchError
+const
+&
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -1839,7 +1840,7 @@ processPromise
 >
 Reject
 (
-aError
+NS_ERROR_FAILURE
 __func__
 )
 ;
