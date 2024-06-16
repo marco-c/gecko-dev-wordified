@@ -1253,7 +1253,7 @@ h
 endif
 #
 ifdef
-MOZ_ANDROID_HISTORY
+MOZ_GECKOVIEW_HISTORY
 #
 include
 "
@@ -24970,7 +24970,7 @@ aURIs
 {
 #
 ifdef
-MOZ_ANDROID_HISTORY
+MOZ_GECKOVIEW_HISTORY
 nsCOMPtr
 <
 IHistory
