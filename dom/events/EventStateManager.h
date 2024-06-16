@@ -428,13 +428,11 @@ true
 void
 DidDispatchOverAndEnterEvent
 (
+nsIContent
+*
+aOriginalOverTargetInComposedDoc
 )
-{
-mDispatchingOverEventTarget
-=
-nullptr
 ;
-}
 [
 [
 nodiscard
