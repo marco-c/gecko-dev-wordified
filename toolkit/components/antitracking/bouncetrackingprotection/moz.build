@@ -184,6 +184,11 @@ BounceTrackingStorageObserver
 .
 h
 "
+"
+ClearDataCallback
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -226,6 +231,11 @@ cpp
 "
 "
 BounceTrackingStorageObserver
+.
+cpp
+"
+"
+ClearDataCallback
 .
 cpp
 "
