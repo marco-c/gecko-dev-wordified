@@ -1179,12 +1179,8 @@ d
 >
 denseLen
 <
-insertionSortLimit
-<
-Kind
->
-(
-)
+=
+InsertionSortMaxLength
 )
 {
 for
