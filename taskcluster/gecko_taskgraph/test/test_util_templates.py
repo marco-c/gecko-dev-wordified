@@ -58,7 +58,7 @@ unittest
 import
 mozunit
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .
