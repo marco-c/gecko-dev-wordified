@@ -565,6 +565,8 @@ aDevice
 ID3D11DeviceContext
 *
 aCtx
+HWND
+aHwnd
 IDCompositionDevice2
 *
 aCompositionDevice
@@ -898,6 +900,16 @@ aId
 )
 const
 ;
+HWND
+GetHwnd
+(
+)
+const
+{
+return
+mHwnd
+;
+}
 /
 /
 Get
@@ -1037,6 +1049,9 @@ RefPtr
 ID3D11DeviceContext
 >
 mCtx
+;
+HWND
+mHwnd
 ;
 RefPtr
 <
