@@ -517,6 +517,21 @@ l10n
 -
 central
 "
+                
+#
+If
+set
+takes
+precedence
+over
+hg_l10n_base
+                
+"
+git_repository
+"
+:
+"
+"
             
 }
         
