@@ -659,7 +659,7 @@ Res
 )
 >
 {
-qinfo
+qdebug
 !
 (
 [
@@ -2730,7 +2730,7 @@ bool
 )
 >
 {
-qinfo
+qdebug
 !
 (
 [

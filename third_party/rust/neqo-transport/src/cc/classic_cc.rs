@@ -1169,7 +1169,7 @@ pkt
 in
 acked_pkts
 {
-qinfo
+qdebug
 !
 (
 "
@@ -1373,7 +1373,7 @@ on_app_limited
 (
 )
 ;
-qinfo
+qdebug
 !
 (
 "
@@ -1480,7 +1480,7 @@ acked_bytes
 =
 increase
 ;
-qinfo
+qdebug
 !
 (
 [
@@ -1796,7 +1796,7 @@ bytes_in_flight
 ]
 )
 ;
-qinfo
+qdebug
 !
 (
 [
@@ -1922,7 +1922,7 @@ cc_in_flight
 )
 )
 {
-qinfo
+qdebug
 !
 (
 "
@@ -2029,7 +2029,7 @@ pto
 lost_packets
 )
 ;
-qinfo
+qdebug
 !
 (
 "
@@ -2349,7 +2349,7 @@ pkt
 .
 size
 ;
-qinfo
+qdebug
 !
 (
 "
@@ -3343,7 +3343,7 @@ self
 .
 congestion_window
 ;
-qinfo
+qdebug
 !
 (
 [

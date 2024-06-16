@@ -491,9 +491,6 @@ String
 tphandler
 :
 TpHandler
-fuzzing
-:
-bool
 )
 -
 >
@@ -678,7 +675,6 @@ states
 :
 CryptoStates
 {
-fuzzing
 .
 .
 CryptoStates
@@ -2121,7 +2117,7 @@ token
 CryptoRecoveryToken
 )
 {
-qinfo
+qdebug
 !
 (
 "
@@ -2474,7 +2470,7 @@ as_ref
 )
 )
 ;
-qinfo
+qdebug
 !
 (
 "
@@ -2874,9 +2870,6 @@ more
 invocations
 :
 PacketNumber
-fuzzing
-:
-bool
 }
 impl
 CryptoDxState
@@ -2919,15 +2912,12 @@ SymKey
 cipher
 :
 Cipher
-fuzzing
-:
-bool
 )
 -
 >
 Self
 {
-qinfo
+qdebug
 !
 (
 "
@@ -2995,7 +2985,6 @@ Aead
 :
 new
 (
-fuzzing
 TLS_VERSION_1_3
 cipher
 secret
@@ -3045,7 +3034,6 @@ limit
 direction
 cipher
 )
-fuzzing
 }
 }
 pub
@@ -3068,9 +3056,6 @@ dcid
 [
 u8
 ]
-fuzzing
-:
-bool
 )
 -
 >
@@ -3196,7 +3181,6 @@ TLS_EPOCH_INITIAL
 &
 secret
 cipher
-fuzzing
 )
 }
 /
@@ -3633,9 +3617,6 @@ Aead
 :
 new
 (
-self
-.
-fuzzing
 TLS_VERSION_1_3
 cipher
 next_secret
@@ -3670,11 +3651,6 @@ min_pn
 :
 pn
 invocations
-fuzzing
-:
-self
-.
-fuzzing
 }
 }
 #
@@ -4716,7 +4692,9 @@ not
 feature
 =
 "
-fuzzing
+disable
+-
+encryption
 "
 )
 )
@@ -4784,7 +4762,6 @@ server
 in
 "
 CLIENT_CID
-false
 )
 }
 /
@@ -5125,9 +5102,6 @@ iteration
 next_secret
 :
 SymKey
-fuzzing
-:
-bool
 }
 impl
 CryptoDxAppData
@@ -5149,9 +5123,6 @@ SymKey
 cipher
 :
 Cipher
-fuzzing
-:
-bool
 )
 -
 >
@@ -5176,7 +5147,6 @@ dir
 TLS_EPOCH_APPLICATION_DATA
 secret
 cipher
-fuzzing
 )
 cipher
 next_secret
@@ -5190,7 +5160,6 @@ cipher
 secret
 )
 ?
-fuzzing
 }
 )
 }
@@ -5330,11 +5299,6 @@ self
 .
 cipher
 next_secret
-fuzzing
-:
-self
-.
-fuzzing
 }
 )
 }
@@ -5534,9 +5498,6 @@ Option
 <
 Instant
 >
-fuzzing
-:
-bool
 }
 impl
 CryptoStates
@@ -6790,7 +6751,7 @@ v
 in
 versions
 {
-qinfo
+qdebug
 !
 (
 [
@@ -6847,9 +6808,6 @@ CryptoDxDirection
 Write
 write
 dcid
-self
-.
-fuzzing
 )
 rx
 :
@@ -6866,9 +6824,6 @@ CryptoDxDirection
 Read
 read
 dcid
-self
-.
-fuzzing
 )
 }
 ;
@@ -7274,9 +7229,6 @@ dir
 TLS_EPOCH_ZERO_RTT
 secret
 cipher
-self
-.
-fuzzing
 )
 )
 ;
@@ -7486,9 +7438,6 @@ Write
 TLS_EPOCH_HANDSHAKE
 write_secret
 cipher
-self
-.
-fuzzing
 )
 rx
 :
@@ -7505,9 +7454,6 @@ Read
 TLS_EPOCH_HANDSHAKE
 read_secret
 cipher
-self
-.
-fuzzing
 )
 }
 )
@@ -7575,9 +7521,6 @@ secret
 self
 .
 cipher
-self
-.
-fuzzing
 )
 ?
 ;
@@ -7712,9 +7655,6 @@ secret
 self
 .
 cipher
-self
-.
-fuzzing
 )
 ?
 ;
@@ -9097,7 +9037,9 @@ not
 feature
 =
 "
-fuzzing
+disable
+-
+encryption
 "
 )
 )
@@ -9193,9 +9135,6 @@ TLS_VERSION_1_3
 unwrap
 (
 )
-fuzzing
-:
-false
 }
 ;
 let
@@ -9297,9 +9236,6 @@ app_read
 read_update_time
 :
 None
-fuzzing
-:
-false
 }
 }
 #
@@ -9313,7 +9249,9 @@ not
 feature
 =
 "
-fuzzing
+disable
+-
+encryption
 "
 )
 test
@@ -9424,7 +9362,6 @@ Aead
 :
 new
 (
-false
 TLS_VERSION_1_3
 TLS_CHACHA20_POLY1305_SHA256
 &
@@ -9483,9 +9420,6 @@ min_pn
 invocations
 :
 10
-fuzzing
-:
-false
 }
 cipher
 :
@@ -9497,9 +9431,6 @@ secret
 clone
 (
 )
-fuzzing
-:
-false
 }
 ;
 Self
@@ -9551,9 +9482,6 @@ app_read
 read_update_time
 :
 None
-fuzzing
-:
-false
 }
 }
 }

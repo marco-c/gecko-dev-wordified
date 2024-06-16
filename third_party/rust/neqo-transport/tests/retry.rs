@@ -90,7 +90,9 @@ not
 feature
 =
 "
-fuzzing
+disable
+-
+encryption
 "
 )
 )

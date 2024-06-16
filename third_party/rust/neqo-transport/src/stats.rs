@@ -122,7 +122,7 @@ use
 neqo_common
 :
 :
-qinfo
+qwarn
 ;
 use
 crate
@@ -965,7 +965,7 @@ dropped_rx
 =
 1
 ;
-qinfo
+qwarn
 !
 (
 [

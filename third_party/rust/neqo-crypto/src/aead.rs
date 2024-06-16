@@ -346,9 +346,6 @@ pub
 fn
 new
 (
-_fuzzing
-:
-bool
 version
 :
 Version
