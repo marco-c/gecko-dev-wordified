@@ -6811,6 +6811,15 @@ nsAtom
 aHighlightName
 )
 ;
+already_AddRefed
+<
+ComputedStyle
+>
+ComputeTargetTextStyle
+(
+)
+const
+;
 /
 *
 *
