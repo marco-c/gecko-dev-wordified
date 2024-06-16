@@ -4337,6 +4337,13 @@ SwapElements
 mOutputs
 )
 ;
+mDrainState
+=
+DrainState
+:
+:
+DRAINABLE
+;
 return
 S_OK
 ;
