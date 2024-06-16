@@ -4175,13 +4175,12 @@ have
 been
 cleared
 .
-clearPromise
+cb
 -
 >
-Resolve
+OnDataDeleted
 (
-host
-__func__
+0
 )
 ;
 }
