@@ -385,6 +385,12 @@ return
 true
 ;
 }
+BranchHintVector
+BranchHintCollection
+:
+:
+invalidVector
+;
 JSAtom
 *
 CacheableName

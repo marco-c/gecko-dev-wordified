@@ -208,6 +208,11 @@ BitSet
 cpp
 "
 "
+BranchHinting
+.
+cpp
+"
+"
 BytecodeAnalysis
 .
 cpp
