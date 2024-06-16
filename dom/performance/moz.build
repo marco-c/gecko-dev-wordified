@@ -210,6 +210,11 @@ PerformanceTiming
 h
 "
 "
+PerformanceTimingIPCUtils
+.
+h
+"
+"
 PerformanceWorker
 .
 h
