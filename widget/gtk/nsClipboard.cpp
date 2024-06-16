@@ -658,7 +658,7 @@ uint32_t
 aClipboardDataLength
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 SetTransferableData
@@ -1174,7 +1174,7 @@ gpointer
 data
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsRetrievalContext
@@ -1209,7 +1209,7 @@ gpointer
 data
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsRetrievalContext
@@ -1238,7 +1238,7 @@ int32_t
 aWhichClipboard
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsRetrievalContext
@@ -1293,7 +1293,7 @@ if
 storedTargets
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 getting
@@ -1316,7 +1316,7 @@ aWhichClipboard
 }
 else
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 using
@@ -1664,7 +1664,7 @@ gtk_clipboard_store
 (
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -1768,7 +1768,7 @@ return
 NS_OK
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -1845,7 +1845,7 @@ rv
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 FlavorsTransferableCanExport
@@ -1918,7 +1918,7 @@ flavors
 i
 ]
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 processing
@@ -1962,7 +1962,7 @@ kTextMime
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 adding
@@ -2016,7 +2016,7 @@ any
 writable
 image
 type
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 adding
@@ -2052,7 +2052,7 @@ kFileMime
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 adding
@@ -2097,7 +2097,7 @@ list
 of
 valid
 targets
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 adding
@@ -2187,7 +2187,7 @@ numTargets
 0
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 gtk_target_table_new_from_list
@@ -2348,7 +2348,7 @@ NS_OK
 }
 else
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 gtk_clipboard_set_with_data
@@ -2531,7 +2531,7 @@ nsCString
 aFlavors
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -2558,7 +2558,7 @@ if
 targets
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 X11
@@ -2807,7 +2807,7 @@ without
 any
 problem
 .
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 X11
@@ -2925,7 +2925,7 @@ clipboardFlavors
 #
 ifdef
 MOZ_LOGGING
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 X11
@@ -2961,7 +2961,7 @@ i
 +
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 %
@@ -3041,7 +3041,7 @@ rv
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 FlavorsTransferableCanImport
@@ -3059,7 +3059,7 @@ rv
 #
 ifdef
 MOZ_LOGGING
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Flavors
@@ -3081,7 +3081,7 @@ flavor
 aFlavors
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 %
@@ -3214,7 +3214,7 @@ kFileMime
 file
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 successfully
@@ -3298,7 +3298,7 @@ is
 missing
 kHTMLMarkupPrefix
 .
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Failed
@@ -3332,7 +3332,7 @@ utf
 )
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 TransferableSetHTML
@@ -3386,7 +3386,7 @@ if
 encoding
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 TransferableSetHTML
@@ -3582,8 +3582,16 @@ enc
 UTF_8_ENCODING
 &
 &
-MOZ_CLIPBOARD_LOG_ENABLED
+MOZ_LOG_TEST
 (
+gClipboardLog
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 )
 )
 {
@@ -3598,7 +3606,7 @@ Name
 decoderName
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 TransferableSetHTML
@@ -3631,7 +3639,7 @@ rv
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 TransferableSetHTML
@@ -3706,7 +3714,7 @@ aWhichClipboard
 )
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -3814,7 +3822,7 @@ flavors
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Missing
@@ -3919,7 +3927,7 @@ kJPEGImageMime
 )
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Getting
@@ -3961,7 +3969,7 @@ if
 clipboardData
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 %
@@ -4015,7 +4023,7 @@ get
 byteStream
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 got
@@ -4066,7 +4074,7 @@ kTextMime
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Getting
@@ -4103,7 +4111,7 @@ if
 clipboardData
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 failed
@@ -4192,7 +4200,7 @@ Length
 2
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 got
@@ -4225,7 +4233,7 @@ kFileMime
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Getting
@@ -4262,7 +4270,7 @@ if
 clipboardData
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 text
@@ -4308,7 +4316,7 @@ return
 NS_OK
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Getting
@@ -4352,7 +4360,7 @@ if
 clipboardData
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 %
@@ -4378,7 +4386,7 @@ if
 clipboardData
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 got
@@ -4472,7 +4480,7 @@ NS_OK
 ;
 }
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 failed
@@ -4579,7 +4587,7 @@ MOZ_COUNT_CTOR
 DataCallbackHandler
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 DataCallbackHandler
@@ -4610,7 +4618,7 @@ DataCallbackHandler
 (
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 DataCallbackHandler
@@ -4649,7 +4657,7 @@ GetDataCallback
 aCallback
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 AsyncGetText
@@ -4720,7 +4728,7 @@ aData
 )
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 AsyncGetText
@@ -4755,7 +4763,7 @@ dataLength
 0
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 quit
@@ -4827,7 +4835,7 @@ Length
 2
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 text
@@ -4893,7 +4901,7 @@ GetDataCallback
 aCallback
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 AsyncGetData
@@ -5020,7 +5028,7 @@ aData
 )
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 AsyncGetData
@@ -5123,7 +5131,7 @@ case
 DATATYPE_IMAGE
 :
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 set
@@ -5179,7 +5187,7 @@ case
 DATATYPE_FILE
 :
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 set
@@ -5212,7 +5220,7 @@ case
 DATATYPE_HTML
 :
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 html
@@ -5244,7 +5252,7 @@ case
 DATATYPE_RAW
 :
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 raw
@@ -5388,7 +5396,7 @@ kJPEGImageMime
 )
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Getting
@@ -5457,7 +5465,7 @@ kTextMime
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Getting
@@ -5493,7 +5501,7 @@ kFileMime
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Getting
@@ -5537,7 +5545,7 @@ kHTMLMime
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Getting
@@ -5569,7 +5577,7 @@ aCallback
 return
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Getting
@@ -5642,7 +5650,7 @@ aWhichClipboard
 )
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -5735,7 +5743,7 @@ flavorsNum
 1
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Only
@@ -5870,7 +5878,7 @@ Length
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 no
@@ -5959,7 +5967,7 @@ aWhichClipboard
 )
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -6135,7 +6143,7 @@ get
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 has
@@ -6199,7 +6207,7 @@ kJPEGImageMime
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 has
@@ -6255,7 +6263,7 @@ kURIListMime
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 has
@@ -6319,7 +6327,7 @@ aWhichClipboard
 )
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -6377,7 +6385,7 @@ if
 targets
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 no
@@ -6401,12 +6409,12 @@ ifdef
 MOZ_LOGGING
 if
 (
-MOZ_CLIPBOARD_LOG_ENABLED
+LOGCLIP_ENABLED
 (
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Asking
@@ -6427,7 +6435,7 @@ flavor
 aFlavorList
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 MIME
@@ -6444,7 +6452,7 @@ get
 )
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Clipboard
@@ -6502,7 +6510,7 @@ if
 atom_name
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 failed
@@ -6517,7 +6525,7 @@ n
 continue
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 MIME
@@ -6608,7 +6616,7 @@ Length
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 has
@@ -6651,7 +6659,7 @@ true
 }
 }
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 no
@@ -6711,7 +6719,7 @@ aCallback
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 TragetCallbackHandler
@@ -6730,7 +6738,7 @@ TragetCallbackHandler
 (
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 TragetCallbackHandler
@@ -6793,7 +6801,7 @@ aWhichClipboard
 )
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -6851,7 +6859,7 @@ aData
 >
 void
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 gtk_clipboard_request_contents
@@ -6911,106 +6919,6 @@ targets
 targetsNum
 )
 ;
-#
-ifdef
-MOZ_LOGGING
-if
-(
-MOZ_CLIPBOARD_LOG_ENABLED
-(
-)
-)
-{
-MOZ_CLIPBOARD_LOG
-(
-"
-Clipboard
-content
-(
-target
-nums
-%
-zu
-)
-:
-\
-n
-"
-targetsNum
-)
-;
-for
-(
-int
-i
-=
-0
-;
-i
-<
-targetsNum
-;
-i
-+
-+
-)
-{
-GUniquePtr
-<
-gchar
->
-atom_name
-(
-gdk_atom_name
-(
-targets
-[
-i
-]
-)
-)
-;
-if
-(
-!
-atom_name
-)
-{
-MOZ_CLIPBOARD_LOG
-(
-"
-failed
-to
-get
-MIME
-\
-n
-"
-)
-;
-continue
-;
-}
-MOZ_CLIPBOARD_LOG
-(
-"
-MIME
-%
-s
-\
-n
-"
-atom_name
-.
-get
-(
-)
-)
-;
-}
-}
-#
-endif
 }
 nsTArray
 <
@@ -7035,7 +6943,7 @@ handler
 mAcceptedFlavorList
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 looking
@@ -7074,7 +6982,7 @@ AppendElement
 flavor
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 has
@@ -7318,7 +7226,7 @@ I
 EVER
 HEARD
 OF
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -7370,7 +7278,7 @@ have
 nothing
 to
 serve
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -7423,7 +7331,7 @@ gtk_selection_data_get_target
 aSelectionData
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 selection
@@ -7473,7 +7381,7 @@ selectionTarget
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 providing
@@ -7551,7 +7459,7 @@ rv
 item
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 GetTransferData
@@ -7609,7 +7517,7 @@ utf8string
 ucs2string
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 sent
@@ -7653,7 +7561,7 @@ FALSE
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 using
@@ -7768,7 +7676,7 @@ TRUE
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 providing
@@ -7862,7 +7770,7 @@ rv
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 %
@@ -7897,7 +7805,7 @@ if
 image
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 %
@@ -7940,7 +7848,7 @@ mime
 type
 !
 ?
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Failed
@@ -7982,7 +7890,7 @@ if
 pixbuf
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsImageToPixbuf
@@ -8001,7 +7909,7 @@ n
 return
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Setting
@@ -8051,7 +7959,7 @@ FALSE
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 providing
@@ -8090,7 +7998,7 @@ rv
 item
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 failed
@@ -8132,7 +8040,7 @@ if
 wideString
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 failed
@@ -8186,7 +8094,7 @@ ucs2string
 html
 )
 ;
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Setting
@@ -8269,7 +8177,7 @@ FALSE
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 providing
@@ -8308,7 +8216,7 @@ rv
 item
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 failed
@@ -8348,7 +8256,7 @@ if
 file
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 failed
@@ -8388,7 +8296,7 @@ rv
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 failed
@@ -8420,7 +8328,7 @@ uri
 )
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 failed
@@ -8436,7 +8344,7 @@ n
 return
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Setting
@@ -8480,7 +8388,7 @@ Length
 return
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Try
@@ -8550,7 +8458,7 @@ if
 target_name
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Failed
@@ -8602,7 +8510,7 @@ rv
 item
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Failed
@@ -8659,7 +8567,7 @@ if
 primitive_data
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Failed
@@ -8676,7 +8584,7 @@ n
 return
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 Setting
@@ -8802,7 +8710,7 @@ whichClipboard
 return
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -8878,7 +8786,7 @@ whichClipboard
 return
 ;
 }
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 nsClipboard
@@ -9043,7 +8951,7 @@ gpointer
 user_data
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 clipboard_get_cb
@@ -9088,7 +8996,7 @@ gpointer
 user_data
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 clipboard_clear_cb
@@ -9135,7 +9043,7 @@ gpointer
 aUserData
 )
 {
-MOZ_CLIPBOARD_LOG
+LOGCLIP
 (
 "
 clipboard_owner_change_cb
