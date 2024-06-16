@@ -243,6 +243,7 @@ NS_IMPL_ISUPPORTS
 (
 WebTransportSessionProxy
 WebTransportSessionEventListener
+WebTransportSessionEventListenerInternal
 WebTransportConnectionSettings
 nsIWebTransport
 nsIRedirectResultListener
