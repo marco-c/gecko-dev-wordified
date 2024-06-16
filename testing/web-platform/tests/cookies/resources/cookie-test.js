@@ -667,10 +667,6 @@ skipAssertions
 =
 true
 ;
-resolve
-(
-)
-;
 }
 else
 {
