@@ -3385,9 +3385,11 @@ we
 are
 in
 Developer
-edition
+or
+Nightly
 /
 /
+editions
 or
 if
 DevTools
