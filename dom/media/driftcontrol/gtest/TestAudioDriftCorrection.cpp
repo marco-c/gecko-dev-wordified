@@ -2306,7 +2306,7 @@ inSegment
 aTransmitterBlockSize
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 inSegment
@@ -2323,7 +2323,7 @@ AppendData
 inSegment
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 inSegment

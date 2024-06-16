@@ -649,7 +649,7 @@ mZeroCrossCount
 +
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mZeroCrossCount
 >
@@ -761,7 +761,7 @@ mCurrentDiscontinuityFrameCount
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mCurrentDiscontinuityFrameCount
 =

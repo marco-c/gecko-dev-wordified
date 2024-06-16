@@ -605,7 +605,7 @@ Lock
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 guard
 -
@@ -1931,7 +1931,7 @@ exchange
 mOld
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 oldNew
 =

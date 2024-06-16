@@ -423,7 +423,7 @@ MediaTrackDemuxer
 aTrackDemuxer
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mTaskQueue
 -
@@ -653,7 +653,7 @@ MediaTrackDemuxer
 aTrackDemuxer
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mTaskQueue
 -

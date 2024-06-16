@@ -1408,7 +1408,7 @@ void
 aUserData
 )
 {
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 aUserData
 "
@@ -1583,7 +1583,7 @@ void
 aUserData
 )
 {
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 aUserData
 "
@@ -1755,7 +1755,7 @@ void
 aUserData
 )
 {
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 aUserData
 "
