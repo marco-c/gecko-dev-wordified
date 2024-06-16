@@ -167,7 +167,7 @@ is
 (
 Math
 .
-round
+trunc
 (
 rect
 .
