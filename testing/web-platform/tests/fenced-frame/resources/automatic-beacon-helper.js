@@ -807,7 +807,7 @@ const
 beacon_initiator_origin
 =
 await
-nextAutomaticBeacon
+nextBeacon
 (
 event_type
 event_data
@@ -853,7 +853,7 @@ Promise
 race
 (
 [
-nextAutomaticBeacon
+nextBeacon
 (
 event_type
 event_data
