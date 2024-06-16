@@ -21237,12 +21237,6 @@ bool
 aFireEvents
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-void
-HideAllPopoversWithoutRunningScript
-(
-)
-;
 /
 /
 Hides
@@ -25944,6 +25938,7 @@ nothing
 gets
 changed
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 ApplyFullscreen
 (
