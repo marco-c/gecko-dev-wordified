@@ -217,7 +217,7 @@ av1_rtcd
 h
 "
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 highbd_horizontal_filter_4x1_f4
 (
@@ -232,7 +232,7 @@ alpha
 )
 ;
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 highbd_horizontal_filter_8x1_f8
 (
@@ -247,7 +247,7 @@ alpha
 )
 ;
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 highbd_horizontal_filter_4x1_f1
 (
@@ -260,7 +260,7 @@ sx
 )
 ;
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 highbd_horizontal_filter_8x1_f1
 (
@@ -273,7 +273,7 @@ sx
 )
 ;
 static
-INLINE
+AOM_FORCE_INLINE
 int32x4_t
 vertical_filter_4x1_f1
 (
@@ -286,7 +286,7 @@ sy
 )
 ;
 static
-INLINE
+AOM_FORCE_INLINE
 int32x4x2_t
 vertical_filter_8x1_f1
 (
@@ -299,7 +299,7 @@ sy
 )
 ;
 static
-INLINE
+AOM_FORCE_INLINE
 int32x4_t
 vertical_filter_4x1_f4
 (
@@ -314,7 +314,7 @@ gamma
 )
 ;
 static
-INLINE
+AOM_FORCE_INLINE
 int32x4x2_t
 vertical_filter_8x1_f8
 (
@@ -329,7 +329,7 @@ gamma
 )
 ;
 static
-INLINE
+AOM_FORCE_INLINE
 int16x8_t
 load_filters_1
 (
@@ -374,7 +374,7 @@ ofs0
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 load_filters_4
 (
@@ -517,7 +517,7 @@ ofs3
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 load_filters_8
 (
@@ -772,7 +772,7 @@ ofs7
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 uint16x4_t
 clip_pixel_highbd_vec
 (
@@ -810,7 +810,7 @@ limit
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 warp_affine_horizontal
 (
@@ -1676,7 +1676,7 @@ alpha
 }
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 highbd_vertical_filter_4x1_f4
 (
@@ -2072,7 +2072,7 @@ res0
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 highbd_vertical_filter_8x1_f8
 (
@@ -2651,7 +2651,7 @@ res1
 ;
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 warp_affine_vertical
 (
@@ -2831,7 +2831,7 @@ j
 }
 }
 static
-INLINE
+AOM_FORCE_INLINE
 void
 highbd_warp_affine_common
 (

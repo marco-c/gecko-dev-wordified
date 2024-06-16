@@ -5223,8 +5223,9 @@ ref_stride
 }
 }
 }
+static
 uint64_t
-aom_mse_4xh_16bit_highbd_sse2
+mse_4xh_16bit_highbd_sse2
 (
 uint16_t
 *
@@ -5528,8 +5529,9 @@ return
 sum
 ;
 }
+static
 uint64_t
-aom_mse_8xh_16bit_highbd_sse2
+mse_8xh_16bit_highbd_sse2
 (
 uint16_t
 *
@@ -5825,7 +5827,7 @@ case
 4
 :
 return
-aom_mse_4xh_16bit_highbd_sse2
+mse_4xh_16bit_highbd_sse2
 (
 dst
 dstride
@@ -5838,7 +5840,7 @@ case
 8
 :
 return
-aom_mse_8xh_16bit_highbd_sse2
+mse_8xh_16bit_highbd_sse2
 (
 dst
 dstride

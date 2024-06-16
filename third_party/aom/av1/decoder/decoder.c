@@ -207,6 +207,15 @@ include
 "
 aom_util
 /
+aom_pthread
+.
+h
+"
+#
+include
+"
+aom_util
+/
 aom_thread
 .
 h

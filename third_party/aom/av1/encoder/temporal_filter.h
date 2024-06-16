@@ -132,6 +132,15 @@ stdbool
 h
 >
 #
+include
+"
+aom_util
+/
+aom_pthread
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
