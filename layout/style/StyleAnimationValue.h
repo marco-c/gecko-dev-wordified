@@ -211,13 +211,6 @@ h
 #
 include
 "
-nsStringBuffer
-.
-h
-"
-#
-include
-"
 nsCoord
 .
 h

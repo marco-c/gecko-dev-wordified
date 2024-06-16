@@ -2520,7 +2520,7 @@ be
 wrong
 if
 the
-nsStringBuffer
+StringBuffer
 was
 used
 to
@@ -2538,7 +2538,10 @@ buffer
 static_cast
 <
 const
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 *
 >
 (
@@ -2574,7 +2577,10 @@ outputFile
 Contents
 of
 leaked
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 with
 storage
 size
@@ -3214,7 +3220,7 @@ gTypesToLog
 Contains
 (
 "
-nsStringBuffer
+StringBuffer
 "
 )
 ;

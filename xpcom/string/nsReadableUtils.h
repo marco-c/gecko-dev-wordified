@@ -1498,7 +1498,10 @@ the
 heap
 -
 allocated
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 is
 shared
 if
@@ -1771,7 +1774,10 @@ the
 heap
 -
 allocated
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 is
 shared
 if

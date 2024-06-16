@@ -711,7 +711,10 @@ nsDynamicAtom
 (
 already_AddRefed
 <
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 >
 aBuffer
 uint32_t
@@ -857,7 +860,10 @@ Length
 ;
 RefPtr
 <
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 >
 buffer
 =
@@ -875,7 +881,10 @@ buffer
 {
 buffer
 =
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 :
 :
 Create

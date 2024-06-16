@@ -183,7 +183,9 @@ h
 #
 include
 "
-nsStringBuffer
+mozilla
+/
+StringBuffer
 .
 h
 "
@@ -484,7 +486,7 @@ Length
 }
 if
 (
-nsStringBuffer
+StringBuffer
 *
 buf
 =

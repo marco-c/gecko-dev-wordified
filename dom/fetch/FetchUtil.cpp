@@ -4094,7 +4094,7 @@ RunOnShutdown
 /
 /
 Avoid
-nsStringBuffer
+StringBuffer
 leak
 tests
 failures

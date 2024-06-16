@@ -186,7 +186,9 @@ h
 #
 include
 "
-nsStringBuffer
+mozilla
+/
+StringBuffer
 .
 h
 "
@@ -276,7 +278,10 @@ for
 silly
 reasons
 .
-nsStringBuffer
+mozilla
+:
+:
+StringBuffer
 *
 sharedBuffer
 ;

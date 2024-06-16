@@ -803,7 +803,7 @@ REPLACEMENT
 CHARACTER
 m2b
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
@@ -1464,7 +1464,7 @@ re
 storing
 small
 enough
-nsStringBuffer
+StringBuffer
 let
 '
 s
@@ -1545,7 +1545,7 @@ to
 reuse
 the
 existing
-nsStringBuffer
+StringBuffer
 if
 it
 would
@@ -2054,7 +2054,7 @@ false
 }
 m2b
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
@@ -2552,13 +2552,13 @@ result
 will
 be
 too
-nsStringBuffer
+StringBuffer
 *
 buff
 =
 nullptr
 ;
-nsStringBuffer
+StringBuffer
 *
 bufferToRelease
 =
@@ -2576,7 +2576,7 @@ IsReadonly
 {
 buff
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
@@ -2638,7 +2638,7 @@ else
 {
 buff
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Realloc
@@ -2866,11 +2866,11 @@ to
 2
 -
 byte
-nsStringBuffer
+StringBuffer
 *
 buff
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc

@@ -389,7 +389,7 @@ DOMString
 .
 if
 (
-nsStringBuffer
+StringBuffer
 *
 buf
 =

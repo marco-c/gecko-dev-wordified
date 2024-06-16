@@ -1379,12 +1379,12 @@ copy
 and
 having
 an
-nsStringBuffer
-/
-/
-/
+StringBuffer
 refcount
 increment
+/
+/
+/
 instead
 when
 both
@@ -1394,9 +1394,6 @@ other
 are
 nsACString
 s
-/
-/
-/
 other
 is
 entirely
@@ -1404,6 +1401,9 @@ ASCII
 and
 all
 old
+/
+/
+/
 data
 in
 self

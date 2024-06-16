@@ -326,7 +326,9 @@ h
 #
 include
 "
-nsStringBuffer
+mozilla
+/
+StringBuffer
 .
 h
 "
@@ -2024,7 +2026,7 @@ while
 copying
 RefPtr
 <
-nsStringBuffer
+StringBuffer
 >
 mCachedBuffer
 ;
@@ -7512,7 +7514,7 @@ mCachedBuffer
 {
 mCachedBuffer
 =
-nsStringBuffer
+StringBuffer
 :
 :
 Alloc
@@ -7742,7 +7744,7 @@ buffer
 .
 if
 (
-nsStringBuffer
+StringBuffer
 *
 outputBuffer
 =

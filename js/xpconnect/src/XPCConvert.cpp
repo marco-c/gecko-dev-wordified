@@ -1352,7 +1352,7 @@ return
 true
 ;
 }
-nsStringBuffer
+StringBuffer
 *
 buf
 ;
@@ -1881,7 +1881,7 @@ utf8String
 )
 )
 {
-nsStringBuffer
+StringBuffer
 *
 buf
 ;
@@ -2288,7 +2288,7 @@ string
 in
 JSAPI
 .
-nsStringBuffer
+StringBuffer
 *
 buf
 ;
