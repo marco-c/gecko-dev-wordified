@@ -255,6 +255,16 @@ attribute
 AString
 authenticatorAttachment
 ;
+boolean
+hasIdentifyingAttestation
+(
+)
+;
+void
+anonymize
+(
+)
+;
 }
 ;
 /
