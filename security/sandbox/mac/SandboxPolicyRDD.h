@@ -1476,14 +1476,6 @@ iokit
 -
 property
 "
-IOAVDAV1DecodeCapabilities
-"
-)
-(
-iokit
--
-property
-"
 IOPCITunnelled
 "
 )
