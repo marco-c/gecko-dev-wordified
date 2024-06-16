@@ -15,6 +15,16 @@ arraybuffer
 -
 resizable
 )
+shell
+-
+option
+(
+-
+-
+enable
+-
+float16array
+)
 skip
 -
 if

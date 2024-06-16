@@ -3,6 +3,16 @@
 |
 reftest
 |
+shell
+-
+option
+(
+-
+-
+enable
+-
+float16array
+)
 skip
 -
 if
