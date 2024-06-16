@@ -1293,6 +1293,15 @@ aText
 )
 const
 ;
+void
+GetHintCharset
+(
+nsAString
+&
+aCharset
+)
+const
+;
 /
 /
 Make

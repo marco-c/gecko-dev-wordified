@@ -5901,12 +5901,7 @@ GetScriptLoadContext
 )
 -
 >
-GetScriptElement
-(
-)
--
->
-GetScriptCharset
+GetHintCharset
 (
 hintCharset
 )
