@@ -1011,6 +1011,9 @@ TimeDelta
 >
 max_frame_drop_interval_
 ;
+bool
+android_specific_threading_settings_
+;
 }
 ;
 }
