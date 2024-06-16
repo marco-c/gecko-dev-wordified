@@ -117,6 +117,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 video_codecs
 /
 sdp_video_format
@@ -211,6 +222,10 @@ VideoEncoder
 CreateEncoder
 (
 const
+Environment
+&
+env
+const
 SdpVideoFormat
 &
 format
@@ -219,6 +234,7 @@ format
 return
 CreateLibaomAv1Encoder
 (
+env
 )
 ;
 }
