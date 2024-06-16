@@ -1576,7 +1576,7 @@ calendarSlotValue
 )
 *
 /
-JSString
+JSLinearString
 *
 ToTemporalCalendarIdentifier
 (
