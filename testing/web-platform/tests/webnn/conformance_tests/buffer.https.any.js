@@ -113,6 +113,13 @@ write
 '
 )
 ;
+testDispatchWebNNBuffer
+(
+'
+dispatch
+'
+)
+;
 }
 else
 {
