@@ -180,8 +180,6 @@ testing
 :
 ContainerEq
 ;
-namespace
-{
 /
 /
 Short
@@ -250,10 +248,6 @@ false
 {
 \
 }
-}
-/
-/
-namespace
 class
 MockEventListener
 :
