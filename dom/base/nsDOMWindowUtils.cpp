@@ -11964,7 +11964,10 @@ frame
 nsLayoutUtils
 :
 :
-RECTS_ACCOUNT_FOR_TRANSFORMS
+GetAllInFlowRectsFlag
+:
+:
+AccountForTransforms
 )
 ;
 rect
