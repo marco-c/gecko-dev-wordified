@@ -137,9 +137,16 @@ dict
         
 (
 "
-setWindowRect
+unhandledPromptBehavior
 "
-bool
+str
+)
+        
+(
+"
+userAgent
+"
+str
 )
     
 ]
@@ -365,15 +372,6 @@ script
 :
 500
 }
-)
-        
-(
-"
-unhandledPromptBehavior
-"
-"
-accept
-"
 )
     
 ]
