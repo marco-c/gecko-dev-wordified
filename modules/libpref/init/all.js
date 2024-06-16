@@ -4142,6 +4142,18 @@ defined
 (
 XP_MACOSX
 )
+/
+/
+Disabled
+on
+macOS
+until
+we
+can
+address
+bug
+1895787
+.
 pref
 (
 "
@@ -4157,7 +4169,7 @@ platform
 .
 enabled
 "
-true
+false
 )
 ;
 #
