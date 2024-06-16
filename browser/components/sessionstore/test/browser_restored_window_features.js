@@ -247,9 +247,9 @@ DUMMY_PAGE
 "
 browser
 /
-base
+components
 /
-content
+tabbrowser
 /
 test
 /
@@ -591,7 +591,7 @@ DUMMY_PAGE
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

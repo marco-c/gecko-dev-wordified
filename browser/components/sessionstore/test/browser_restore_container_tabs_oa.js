@@ -118,12 +118,7 @@ from
 .
 .
 /
-.
-.
-/
-base
-/
-content
+tabbrowser
 /
 test
 /
@@ -143,12 +138,7 @@ loadTestSubscript
 .
 .
 /
-.
-.
-/
-base
-/
-content
+tabbrowser
 /
 test
 /
