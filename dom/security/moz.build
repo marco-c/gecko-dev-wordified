@@ -263,6 +263,11 @@ CSPEvalChecker
 cpp
 "
 "
+CSPViolationData
+.
+cpp
+"
+"
 DOMSecurityMonitor
 .
 cpp
