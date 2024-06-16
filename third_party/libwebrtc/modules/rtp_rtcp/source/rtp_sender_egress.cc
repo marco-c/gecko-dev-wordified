@@ -1826,17 +1826,6 @@ pacing_info
 )
 ;
 }
-options
-.
-additional_data
-=
-packet
--
->
-additional_data
-(
-)
-;
 if
 (
 packet
