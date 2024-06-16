@@ -155,6 +155,7 @@ USE_EXECV
 false
 )
 ;
+await
 standardInit
 (
 )

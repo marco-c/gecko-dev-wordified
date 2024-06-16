@@ -148,6 +148,7 @@ writeStatusFile
 STATE_DOWNLOADING
 )
 ;
+await
 standardInit
 (
 )

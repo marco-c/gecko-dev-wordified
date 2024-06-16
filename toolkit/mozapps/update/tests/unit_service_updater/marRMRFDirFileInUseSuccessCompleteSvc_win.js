@@ -127,6 +127,7 @@ checkPostUpdateAppLog
 (
 )
 ;
+await
 standardInit
 (
 )
