@@ -436,6 +436,10 @@ _buffersAllocatedByDevice
 -
 1
 )
+_streaming
+(
+false
+)
 _captureStarted
 (
 false
