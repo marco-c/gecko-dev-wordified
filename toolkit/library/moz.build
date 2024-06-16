@@ -1049,9 +1049,6 @@ DIRS
 build
 "
 "
-buildid_reader
-"
-"
 gtest
 "
 ]
@@ -2558,13 +2555,3 @@ list
 libxul_list
 ]
 )
-EXPORTS
-+
-=
-[
-"
-buildid_section
-.
-h
-"
-]

@@ -157,7 +157,10 @@ _
 /
 /
 /
-Returns
+[
+authenticode_ranges
+]
+returns
 the
 various
 ranges
@@ -168,6 +171,9 @@ that
 are
 relevant
 for
+/
+/
+/
 signature
 .
 pub

@@ -5450,12 +5450,6 @@ optional
 [
 chained_info
 ]
-(
-Self
-:
-:
-chained_info
-)
 is
 present
 codes
