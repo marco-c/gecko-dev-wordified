@@ -590,10 +590,12 @@ kDirectionOutbound
 O
 '
 ;
-const
+static
+constexpr
 char
-*
 kAudioPlayoutSingletonId
+[
+]
 =
 "
 AP
