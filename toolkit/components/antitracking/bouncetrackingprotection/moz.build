@@ -113,6 +113,11 @@ XPIDL_SOURCES
 =
 [
 "
+nsIBounceTrackingMapEntry
+.
+idl
+"
+"
 nsIBounceTrackingProtection
 .
 idl
@@ -139,6 +144,11 @@ mozilla
 +
 =
 [
+"
+BounceTrackingMapEntry
+.
+h
+"
 "
 BounceTrackingProtection
 .
@@ -174,6 +184,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+BounceTrackingMapEntry
+.
+cpp
+"
 "
 BounceTrackingProtection
 .
