@@ -5113,6 +5113,12 @@ mPositionVisibility
 mozilla
 :
 :
+StyleInsetArea
+mInsetArea
+;
+mozilla
+:
+:
 StyleFlexBasis
 mFlexBasis
 ;

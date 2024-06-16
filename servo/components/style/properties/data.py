@@ -3977,6 +3977,14 @@ Integer
 "
                 
 "
+InsetArea
+"
+                
+"
+InsetAreaKeyword
+"
+                
+"
 JustifyContent
 "
                 
