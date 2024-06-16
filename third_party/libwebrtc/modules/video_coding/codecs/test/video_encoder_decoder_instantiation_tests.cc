@@ -827,8 +827,9 @@ encoder
 encoder_factory_
 -
 >
-CreateVideoEncoder
+Create
 (
+env_
 vp8_format_
 )
 ;
@@ -965,8 +966,9 @@ encoder
 encoder_factory_
 -
 >
-CreateVideoEncoder
+Create
 (
+env_
 h264cbp_format_
 )
 ;

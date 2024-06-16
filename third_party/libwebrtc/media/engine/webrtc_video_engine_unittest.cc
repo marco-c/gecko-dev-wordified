@@ -10616,8 +10616,9 @@ EXPECT_CALL
 (
 *
 encoder_factory
-CreateVideoEncoder
+Create
 (
+_
 format
 )
 )

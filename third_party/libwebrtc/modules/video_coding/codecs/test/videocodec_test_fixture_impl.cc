@@ -5228,8 +5228,9 @@ encoder_
 encoder_factory_
 -
 >
-CreateVideoEncoder
+Create
 (
+env
 encoder_format
 )
 ;
