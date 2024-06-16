@@ -1950,15 +1950,6 @@ candidate_type_name
 IceCandidateType
 :
 :
-kUnknown
-"
-UNKNOWN
-"
-}
-{
-IceCandidateType
-:
-:
 kLocal
 "
 LOCAL
