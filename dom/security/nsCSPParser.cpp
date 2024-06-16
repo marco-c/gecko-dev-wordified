@@ -7035,7 +7035,7 @@ trustedTypesExpressions
 AppendElement
 (
 new
-nsCSPTrustedTypesDirectiveExpression
+nsCSPTrustedTypesDirectivePolicyName
 (
 mCurToken
 )
