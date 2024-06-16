@@ -823,9 +823,7 @@ org
 LOCALE
 %
 /
-%
-APP
-%
+firefox
 /
 feedback
 /

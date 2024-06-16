@@ -21541,9 +21541,7 @@ org
 LOCALE
 %
 /
-%
-APP
-%
+firefox
 /
 feedback
 /
@@ -21686,9 +21684,7 @@ org
 LOCALE
 %
 /
-%
-APP
-%
+firefox
 /
 blocked
 -

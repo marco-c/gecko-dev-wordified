@@ -757,7 +757,7 @@ en
 -
 US
 /
-xpcshell
+firefox
 /
 blocked
 -
