@@ -1875,17 +1875,6 @@ nullptr
 }
 /
 /
-FIXME
-:
-spec
-bug
--
-missing
-call
-to
-CreateCalendarMethodsRecord
-/
-/
 Step
 13
 .
