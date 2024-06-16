@@ -10,14 +10,6 @@ test
 no
 -
 baseline
-;
--
--
-non
--
-writable
--
-jitcode
 (
 function
 (
