@@ -280,13 +280,12 @@ private
 true
 }
 )
-false
+true
 "
 EME
 persistentState
-should
 *
-NOT
+SHOULD
 *
 be
 supported
