@@ -397,6 +397,9 @@ ExtensionDNR
 .
 RuleQuotaCounter
 (
+"
+MAX_NUMBER_OF_SESSION_RULES
+"
 )
 ;
 ruleQuotaCounter
