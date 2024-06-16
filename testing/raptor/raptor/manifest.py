@@ -5173,7 +5173,6 @@ measure
 "
 fnbpaint
 fcp
-dcf
 loadtime
 "
                 
