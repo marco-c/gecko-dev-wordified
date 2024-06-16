@@ -1786,6 +1786,13 @@ m
 -
 car
 "
+                        
+"
+!
+safari
+-
+tp
+"
                     
 ]
                 
@@ -1848,6 +1855,13 @@ safari
 m
 -
 car
+"
+                        
+"
+!
+safari
+-
+tp
 "
                     
 ]
@@ -1939,6 +1953,13 @@ safari
 m
 -
 car
+"
+                        
+"
+!
+safari
+-
+tp
 "
                     
 ]
@@ -2076,6 +2097,13 @@ m
 -
 car
 "
+                        
+"
+!
+safari
+-
+tp
+"
                     
 ]
                 
@@ -2133,6 +2161,13 @@ safari
 m
 -
 car
+"
+                        
+"
+!
+safari
+-
+tp
 "
                     
 ]
@@ -2199,6 +2234,13 @@ safari
 m
 -
 car
+"
+                        
+"
+!
+safari
+-
+tp
 "
                     
 ]
@@ -2336,6 +2378,13 @@ m
 -
 car
 "
+                        
+"
+!
+safari
+-
+tp
+"
                     
 ]
                 
@@ -2467,6 +2516,199 @@ safari
             
 {
 "
+safari
+-
+tp
+"
+:
+True
+}
+            
+58
+            
+{
+                
+"
+Benchmarks
+desktop
+"
+:
+{
+                    
+"
+raptor
+"
+:
+[
+                        
+"
+'
+browsertime
+'
+benchmark
+"
+                        
+"
+!
+android
+'
+shippable
+!
+-
+32
+!
+clang
+"
+                        
+"
+!
+bytecode
+"
+                        
+"
+!
+live
+"
+                        
+"
+!
+profil
+"
+                        
+"
+!
+chrom
+"
+                        
+"
+!
+safari
+"
+                        
+"
+!
+m
+-
+car
+"
+                        
+"
+!
+safari
+-
+tp
+"
+                    
+]
+                
+}
+                
+"
+Pageload
+macosx
+"
+:
+{
+                    
+"
+raptor
+"
+:
+[
+                        
+"
+'
+browsertime
+'
+tp6
+"
+                        
+"
+'
+osx
+'
+shippable
+"
+                        
+"
+!
+bytecode
+"
+                        
+"
+!
+live
+"
+                        
+"
+!
+profil
+"
+                        
+"
+!
+chrom
+"
+                        
+"
+!
+safari
+"
+                        
+"
+!
+m
+-
+car
+"
+                        
+"
+!
+safari
+-
+tp
+"
+                    
+]
+                
+}
+            
+}
+            
+[
+                
+"
+Pageload
+linux
+safari
+-
+tp
+"
+                
+"
+Pageload
+windows
+safari
+-
+tp
+"
+                
+"
+Pageload
+desktop
+safari
+-
+tp
+"
+            
+]
+        
+)
+        
+(
+            
+{
+"
 live_sites
 "
 :
@@ -2535,6 +2777,13 @@ m
 -
 car
 "
+                        
+"
+!
+safari
+-
+tp
+"
                     
 ]
                 
@@ -2595,6 +2844,13 @@ safari
 m
 -
 car
+"
+                        
+"
+!
+safari
+-
+tp
 "
                     
 ]
@@ -2707,6 +2963,13 @@ safari
 m
 -
 car
+"
+                        
+"
+!
+safari
+-
+tp
 "
                     
 ]
@@ -2871,6 +3134,13 @@ safari
 m
 -
 car
+"
+                        
+"
+!
+safari
+-
+tp
 "
                     
 ]
@@ -3037,6 +3307,13 @@ m
 -
 car
 "
+                        
+"
+!
+safari
+-
+tp
+"
                     
 ]
                 
@@ -3200,6 +3477,13 @@ safari
 m
 -
 car
+"
+                        
+"
+!
+safari
+-
+tp
 "
                     
 ]
@@ -3374,6 +3658,10 @@ safari
 m
 -
 car
+!
+safari
+-
+tp
 "
                         
 "
@@ -4591,6 +4879,10 @@ safari
 m
 -
 car
+!
+safari
+-
+tp
 "
                         
 "
@@ -4735,6 +5027,10 @@ safari
 m
 -
 car
+!
+safari
+-
+tp
 "
                         
 "
@@ -4815,6 +5111,13 @@ m
 -
 car
 "
+                        
+"
+!
+safari
+-
+tp
+"
                     
 ]
                 
@@ -4880,6 +5183,13 @@ safari
 m
 -
 car
+"
+                        
+"
+!
+safari
+-
+tp
 "
                     
 ]
@@ -5311,7 +5621,7 @@ expected_log_message
 }
             
 [
-9
+10
 2
 2
 10
@@ -5425,7 +5735,7 @@ firefox
 }
             
 [
-9
+10
 2
 2
 10
@@ -5534,7 +5844,7 @@ cached_base_revision
 }
             
 [
-9
+10
 1
 1
 10
@@ -5641,7 +5951,7 @@ True
 }
             
 [
-9
+10
 1
 1
 10
@@ -5974,7 +6284,7 @@ True
 }
             
 [
-9
+10
 1
 1
 4
@@ -6047,7 +6357,7 @@ True
 }
             
 [
-10
+11
 2
 2
 10
@@ -6154,7 +6464,7 @@ True
 }
             
 [
-9
+10
 2
 2
 10
@@ -6506,6 +6816,12 @@ TASKS
 [
 "
 "
+TASKS
+]
+            
+[
+"
+"
 [
 "
 Perftest
@@ -6690,7 +7006,7 @@ True
 }
             
 [
-10
+11
 0
 0
 2
@@ -6733,6 +7049,10 @@ safari
 m
 -
 car
+!
+safari
+-
+tp
 "
             
 )
