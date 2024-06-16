@@ -1725,6 +1725,17 @@ js
 jit
 :
 :
+TypeOfEqObject
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
 WrapObjectPure
 )
 \
