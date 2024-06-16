@@ -3690,7 +3690,7 @@ CSSStartingStyleRule
 insecureContext
 :
 true
-disabled
+nightly
 :
 true
 }
