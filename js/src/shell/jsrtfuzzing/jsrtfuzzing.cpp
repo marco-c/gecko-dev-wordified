@@ -159,6 +159,9 @@ fflush
 fprintf
 fputs
 #
+ifdef
+LIBFUZZER
+#
 include
 "
 FuzzerDefs
@@ -166,12 +169,7 @@ FuzzerDefs
 h
 "
 #
-include
-"
-FuzzingInterface
-.
-h
-"
+endif
 #
 include
 "
