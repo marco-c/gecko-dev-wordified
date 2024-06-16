@@ -66,9 +66,6 @@ interfaces
 nsISupports
 ;
 use
-libc
-;
-use
 nserror
 :
 :
