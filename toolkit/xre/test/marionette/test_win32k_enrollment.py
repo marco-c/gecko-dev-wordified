@@ -2322,22 +2322,6 @@ WIN32K
 True
 )
         
-app_version
-=
-self
-.
-execute_script
-(
-"
-return
-Services
-.
-appinfo
-.
-version
-"
-)
-        
 self
 .
 restart
@@ -2347,7 +2331,9 @@ env
 {
 ENV_DISABLE_E10S
 :
-app_version
+"
+1
+"
 }
 )
         
@@ -3543,22 +3529,6 @@ WIN32K
 True
 )
         
-app_version
-=
-self
-.
-execute_script
-(
-"
-return
-Services
-.
-appinfo
-.
-version
-"
-)
-        
 self
 .
 restart
@@ -3568,7 +3538,9 @@ env
 {
 ENV_DISABLE_E10S
 :
-app_version
+"
+1
+"
 }
 )
         
@@ -4821,22 +4793,6 @@ UNENROLLED
         
 )
         
-app_version
-=
-self
-.
-execute_script
-(
-"
-return
-Services
-.
-appinfo
-.
-version
-"
-)
-        
 self
 .
 restart
@@ -4846,7 +4802,9 @@ env
 {
 ENV_DISABLE_E10S
 :
-app_version
+"
+1
+"
 }
 )
         
@@ -6188,22 +6146,6 @@ UNENROLLED
         
 )
         
-app_version
-=
-self
-.
-execute_script
-(
-"
-return
-Services
-.
-appinfo
-.
-version
-"
-)
-        
 self
 .
 restart
@@ -6213,7 +6155,9 @@ env
 {
 ENV_DISABLE_E10S
 :
-app_version
+"
+1
+"
 }
 )
         
@@ -7385,22 +7329,6 @@ ExperimentStatus
 ENROLLED_CONTROL
 )
         
-app_version
-=
-self
-.
-execute_script
-(
-"
-return
-Services
-.
-appinfo
-.
-version
-"
-)
-        
 self
 .
 restart
@@ -7410,7 +7338,9 @@ env
 {
 ENV_DISABLE_E10S
 :
-app_version
+"
+1
+"
 }
 )
         
@@ -8636,22 +8566,6 @@ ExperimentStatus
 ENROLLED_CONTROL
 )
         
-app_version
-=
-self
-.
-execute_script
-(
-"
-return
-Services
-.
-appinfo
-.
-version
-"
-)
-        
 self
 .
 restart
@@ -8661,7 +8575,9 @@ env
 {
 ENV_DISABLE_E10S
 :
-app_version
+"
+1
+"
 }
 )
         
@@ -9945,22 +9861,6 @@ ExperimentStatus
 ENROLLED_TREATMENT
 )
         
-app_version
-=
-self
-.
-execute_script
-(
-"
-return
-Services
-.
-appinfo
-.
-version
-"
-)
-        
 self
 .
 restart
@@ -9970,7 +9870,9 @@ env
 {
 ENV_DISABLE_E10S
 :
-app_version
+"
+1
+"
 }
 )
         
@@ -11249,22 +11151,6 @@ ExperimentStatus
 ENROLLED_TREATMENT
 )
         
-app_version
-=
-self
-.
-execute_script
-(
-"
-return
-Services
-.
-appinfo
-.
-version
-"
-)
-        
 self
 .
 restart
@@ -11274,7 +11160,9 @@ env
 {
 ENV_DISABLE_E10S
 :
-app_version
+"
+1
+"
 }
 )
         

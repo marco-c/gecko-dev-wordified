@@ -572,22 +572,6 @@ write
 "
 "
         
-app_version
-=
-self
-.
-execute_script
-(
-"
-return
-Services
-.
-appinfo
-.
-version
-"
-)
-        
 self
 .
 restart
@@ -597,7 +581,9 @@ env
 {
 ENV_DISABLE_E10S
 :
-app_version
+"
+1
+"
 }
 )
         
