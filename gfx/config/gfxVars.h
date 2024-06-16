@@ -847,6 +847,13 @@ AllowWebGPUPresentWithoutReadback
 bool
 false
 )
+\
+_
+(
+GPUProcessEnabled
+bool
+false
+)
 /
 *
 Add
