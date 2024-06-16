@@ -515,14 +515,7 @@ etpStandardTCPBox
 querySelector
 (
 "
-.
-tail
--
-with
--
-learn
--
-more
+description
 "
 )
 ;
