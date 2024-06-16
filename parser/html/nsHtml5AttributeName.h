@@ -1561,6 +1561,11 @@ ATTR_SHADOWROOTCLONABLE
 static
 nsHtml5AttributeName
 *
+ATTR_SHADOWROOTSERIALIZABLE
+;
+static
+nsHtml5AttributeName
+*
 ATTR_SRCDOC
 ;
 static
