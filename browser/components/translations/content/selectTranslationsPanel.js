@@ -4158,6 +4158,13 @@ toLanguage
 }
 textArea
 .
+value
+=
+"
+"
+;
+textArea
+.
 style
 .
 resize
@@ -7953,7 +7960,7 @@ focus
 {
 focusVisible
 :
-true
+false
 }
 )
 ;
@@ -7985,7 +7992,7 @@ focus
 {
 focusVisible
 :
-true
+false
 }
 )
 ;
@@ -8006,7 +8013,7 @@ focus
 {
 focusVisible
 :
-true
+false
 }
 )
 ;
@@ -11233,7 +11240,7 @@ focus
 {
 focusVisible
 :
-true
+false
 }
 )
 ;
@@ -11391,7 +11398,7 @@ focus
 {
 focusVisible
 :
-true
+false
 }
 )
 ;
