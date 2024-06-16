@@ -110,6 +110,15 @@ html
 >
 #
 [
+derive
+(
+Copy
+Clone
+Debug
+)
+]
+#
+[
 repr
 (
 i32

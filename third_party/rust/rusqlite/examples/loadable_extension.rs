@@ -91,9 +91,7 @@ loadable_extension
 features
 "
 loadable_extension
-modern_sqlite
 functions
-vtab
 trace
 "
 /

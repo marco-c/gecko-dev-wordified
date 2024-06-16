@@ -84,6 +84,15 @@ i32
 ]
 #
 [
+derive
+(
+Copy
+Clone
+Debug
+)
+]
+#
+[
 allow
 (
 non_snake_case

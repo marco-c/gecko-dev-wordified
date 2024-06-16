@@ -1101,6 +1101,7 @@ html
 [
 derive
 (
+Copy
 Clone
 Debug
 PartialEq

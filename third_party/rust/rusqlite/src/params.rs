@@ -474,7 +474,7 @@ or
 /
 /
 /
-homogenous
+homogeneous
 lists
 of
 parameters
@@ -2255,7 +2255,7 @@ for
 long
 /
 /
-homogenous
+homogeneous
 lists
 of
 parameters

@@ -3398,6 +3398,15 @@ repr
 C
 )
 ]
+#
+[
+derive
+(
+Copy
+Clone
+Debug
+)
+]
 pub
 struct
 IndexFlags
@@ -5999,6 +6008,9 @@ set_result
 self
 .
 0
+&
+[
+]
 &
 t
 )
