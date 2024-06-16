@@ -1044,6 +1044,11 @@ FormData
 h
 "
 "
+FragmentDirective
+.
+h
+"
+"
 FragmentOrElement
 .
 h
@@ -1796,6 +1801,11 @@ cpp
 "
 "
 FormData
+.
+cpp
+"
+"
+FragmentDirective
 .
 cpp
 "
