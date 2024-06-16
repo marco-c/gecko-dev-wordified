@@ -2803,6 +2803,14 @@ js
 \
 MACRO_
 (
+jsTag
+"
+JSTag
+"
+)
+\
+MACRO_
+(
 jsStringModule
 "
 js
