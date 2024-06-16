@@ -3198,7 +3198,7 @@ network_thread_
 )
 ;
 uint64_t
-tiebreaker_
+ice_tiebreaker_
 RTC_GUARDED_BY
 (
 network_thread_

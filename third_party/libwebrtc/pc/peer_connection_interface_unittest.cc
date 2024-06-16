@@ -1084,12 +1084,6 @@ kSendrecv
 sendrecv
 "
 ;
-constexpr
-uint64_t
-kTiebreakerDefault
-=
-44444
-;
 /
 /
 Reference
@@ -7726,14 +7720,6 @@ port_allocator
 .
 get
 (
-)
-;
-port_allocator_
--
->
-SetIceTiebreaker
-(
-kTiebreakerDefault
 )
 ;
 /
