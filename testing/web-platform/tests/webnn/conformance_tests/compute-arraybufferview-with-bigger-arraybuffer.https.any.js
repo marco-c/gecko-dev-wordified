@@ -45,6 +45,14 @@ gpu
 /
 META
 :
+variant
+=
+?
+npu
+/
+/
+META
+:
 script
 =
 .
