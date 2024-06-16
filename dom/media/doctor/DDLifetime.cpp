@@ -119,6 +119,15 @@ DDLifetime
 .
 h
 "
+#
+include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
 namespace
 mozilla
 {

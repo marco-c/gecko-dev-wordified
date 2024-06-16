@@ -112,6 +112,15 @@ include
 "
 mozilla
 /
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Casting
 .
 h

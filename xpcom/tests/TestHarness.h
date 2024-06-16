@@ -214,6 +214,15 @@ h
 #
 include
 "
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
 nsIDirectoryService
 .
 h

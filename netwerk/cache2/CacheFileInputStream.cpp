@@ -93,6 +93,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
 <
 algorithm
 >

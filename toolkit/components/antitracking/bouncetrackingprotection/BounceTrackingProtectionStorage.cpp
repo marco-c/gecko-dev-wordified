@@ -147,7 +147,7 @@ include
 "
 mozilla
 /
-AppShutdown
+IntegerPrintfMacros
 .
 h
 "
@@ -157,15 +157,6 @@ include
 mozilla
 /
 Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ShutdownPhase
 .
 h
 "

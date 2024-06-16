@@ -156,6 +156,15 @@ h
 #
 include
 "
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h

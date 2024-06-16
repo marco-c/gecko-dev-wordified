@@ -135,6 +135,15 @@ include
 "
 mozilla
 /
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 APZThreadUtils

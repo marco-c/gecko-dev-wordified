@@ -117,7 +117,9 @@ h
 #
 include
 "
-nsComponentManagerUtils
+mozilla
+/
+IntegerPrintfMacros
 .
 h
 "

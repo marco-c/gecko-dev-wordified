@@ -138,6 +138,15 @@ h
 #
 include
 "
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

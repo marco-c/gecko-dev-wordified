@@ -471,12 +471,10 @@ nsStringBuffer
 >
 sharedBuffer
 =
-nsStringBuffer
-:
-:
-FromString
-(
 aString
+.
+GetStringBuffer
+(
 )
 ;
 if

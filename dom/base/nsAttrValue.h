@@ -647,11 +647,10 @@ if
 (
 aBuf
 )
-aBuf
--
->
-ToString
+{
+Assign
 (
+aBuf
 aBuf
 -
 >
@@ -665,10 +664,9 @@ char16_t
 )
 -
 1
-*
-this
 )
 ;
+}
 }
 }
 ;

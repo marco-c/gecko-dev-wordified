@@ -152,7 +152,7 @@ include
 "
 mozilla
 /
-TimeStamp
+IntegerPrintfMacros
 .
 h
 "
