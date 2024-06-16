@@ -1068,7 +1068,7 @@ isCHIPS
 StaticPrefs
 :
 :
-network_cookie_cookieBehavior_optInPartitioning
+network_cookie_CHIPS_enabled
 (
 )
 ;
