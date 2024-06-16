@@ -865,6 +865,7 @@ PlainTime
 time
 )
 {
+const
 auto
 &
 [
@@ -1381,6 +1382,7 @@ PlainTime
 time
 )
 {
+const
 auto
 &
 [
@@ -1699,6 +1701,7 @@ PlainTime
 result
 )
 {
+const
 auto
 &
 [
@@ -2237,6 +2240,7 @@ PlainTime
 time
 )
 {
+const
 auto
 &
 [
@@ -6729,6 +6733,7 @@ Steps
 5
 .
 auto
+*
 result
 =
 ToTemporalTime

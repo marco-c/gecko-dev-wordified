@@ -1493,6 +1493,7 @@ Value
 value
 )
 {
+const
 auto
 *
 name
@@ -2782,6 +2783,7 @@ cx
 fieldName
 )
 ;
+const
 auto
 *
 cstr
@@ -5756,6 +5758,7 @@ return
 false
 ;
 }
+const
 auto
 *
 left
@@ -5777,6 +5780,7 @@ size
 )
 )
 ;
+const
 auto
 *
 right

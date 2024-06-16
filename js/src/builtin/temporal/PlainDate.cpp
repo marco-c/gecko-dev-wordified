@@ -894,6 +894,7 @@ PlainDate
 date
 )
 {
+const
 auto
 &
 [
@@ -1283,6 +1284,7 @@ PlainDate
 date
 )
 {
+const
 auto
 &
 [
@@ -1383,6 +1385,7 @@ PlainDate
 date
 )
 {
+const
 auto
 &
 [
@@ -2139,6 +2142,7 @@ CalendarValue
 calendar
 )
 {
+const
 auto
 &
 [
@@ -6158,6 +6162,7 @@ Step
 Not
 applicable
 )
+const
 auto
 &
 timeDuration

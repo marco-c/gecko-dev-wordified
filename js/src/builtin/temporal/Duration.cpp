@@ -738,6 +738,7 @@ Duration
 duration
 )
 {
+const
 auto
 &
 [
@@ -838,6 +839,7 @@ Duration
 duration
 )
 {
+const
 auto
 &
 [
@@ -1044,6 +1046,7 @@ duration
 )
 )
 ;
+const
 auto
 &
 [
@@ -1162,6 +1165,7 @@ DateDuration
 duration
 )
 {
+const
 auto
 &
 [
@@ -3219,6 +3223,7 @@ duration
 )
 )
 ;
+const
 auto
 &
 [
@@ -3685,6 +3690,7 @@ duration
 )
 )
 ;
+const
 auto
 &
 [
@@ -4173,6 +4179,7 @@ DateDuration
 duration
 )
 {
+const
 auto
 &
 [
@@ -4808,6 +4815,7 @@ Duration
 duration
 )
 {
+const
 auto
 &
 [
@@ -5191,6 +5199,7 @@ Duration
 duration
 )
 {
+const
 auto
 &
 [
@@ -10823,6 +10832,7 @@ Step
 .
 b
 .
+const
 auto
 &
 yearsMonthsWeeksDaysDuration
@@ -11024,6 +11034,7 @@ Step
 .
 c
 .
+const
 auto
 &
 monthsWeeksDaysDuration
@@ -11170,6 +11181,7 @@ months
 Step
 15
 .
+const
 auto
 &
 weeksDaysDuration
