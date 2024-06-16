@@ -96,6 +96,9 @@ include
 <
 cinttypes
 >
+/
+/
+PRIu32
 #
 include
 "
@@ -1284,6 +1287,12 @@ progression_index
 bool
 codestream_done
 =
+jpeg_bytes
+=
+=
+nullptr
+&
+&
 accepted_formats
 .
 empty

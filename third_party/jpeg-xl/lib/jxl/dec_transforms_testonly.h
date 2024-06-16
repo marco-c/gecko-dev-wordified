@@ -64,16 +64,7 @@ transforms
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
-stdint
-.
-h
+cstddef
 >
 #
 include

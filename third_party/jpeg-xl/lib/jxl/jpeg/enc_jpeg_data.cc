@@ -754,7 +754,6 @@ size
 (
 )
 >
-=
 sizeof
 kExifTag
 &

@@ -123,7 +123,7 @@ lib
 /
 jxl
 /
-enc_params
+common
 .
 h
 "

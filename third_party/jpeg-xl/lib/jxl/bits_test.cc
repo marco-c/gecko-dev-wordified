@@ -57,6 +57,16 @@ h
 "
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 lib
 /

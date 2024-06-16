@@ -72,7 +72,9 @@ lib
 /
 jxl
 /
-dec_cache
+base
+/
+rect
 .
 h
 "
@@ -83,7 +85,7 @@ lib
 /
 jxl
 /
-image
+dec_cache
 .
 h
 "

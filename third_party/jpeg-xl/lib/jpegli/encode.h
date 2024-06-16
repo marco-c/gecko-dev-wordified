@@ -217,6 +217,17 @@ common
 h
 "
 #
+include
+"
+lib
+/
+jpegli
+/
+types
+.
+h
+"
+#
 if
 defined
 (

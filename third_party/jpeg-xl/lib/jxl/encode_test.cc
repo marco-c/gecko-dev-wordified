@@ -1703,9 +1703,9 @@ kMaxButteraugli
 #
 if
 JXL_HIGH_PRECISION
-1
+3
 .
-84
+2
 ;
 #
 else
@@ -2912,7 +2912,7 @@ get
 (
 )
 frame_settings
-3130
+3200
 false
 )
 ;
@@ -13484,7 +13484,7 @@ uint8_t
 /
 /
 without
-sreaming
+streaming
 {
 JxlEncoderPtr
 enc

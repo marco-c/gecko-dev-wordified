@@ -85,13 +85,6 @@ JXL_COLOR_ENCODING_H_
 define
 JXL_COLOR_ENCODING_H_
 #
-include
-<
-stdint
-.
-h
->
-#
 if
 defined
 (

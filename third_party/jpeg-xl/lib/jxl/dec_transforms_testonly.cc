@@ -93,17 +93,6 @@ lib
 /
 jxl
 /
-dct_scales
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 dec_transforms
 -
 inl

@@ -2261,9 +2261,9 @@ constexpr
 float
 kMaxError
 =
-5e
+2e
 -
-5
+4
 ;
 #
 else

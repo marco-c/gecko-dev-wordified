@@ -62,11 +62,9 @@ include
 <
 cinttypes
 >
-#
-include
-<
-cstdint
->
+/
+/
+PRId64
 #
 include
 <

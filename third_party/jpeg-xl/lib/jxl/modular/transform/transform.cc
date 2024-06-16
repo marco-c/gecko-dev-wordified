@@ -62,6 +62,9 @@ include
 <
 cinttypes
 >
+/
+/
+PRIu32
 #
 include
 "
