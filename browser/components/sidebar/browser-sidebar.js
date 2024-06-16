@@ -1223,7 +1223,6 @@ obs
 addObserver
 .
 *
-*
 /
 observe
 (
@@ -1539,6 +1538,7 @@ the
 the
 switcherTarget
 button
+*
 *
 param
 {
@@ -2273,6 +2273,7 @@ another
 window
 .
 *
+*
 param
 {
 Window
@@ -2290,7 +2291,10 @@ sidebar
 status
 .
 *
-return
+returns
+{
+boolean
+}
 true
 if
 we
@@ -3286,7 +3290,7 @@ the
 sidebar
 .
 *
-return
+returns
 {
 Promise
 }
@@ -3582,7 +3586,7 @@ the
 sidebar
 .
 *
-return
+returns
 {
 Promise
 <
@@ -3762,7 +3766,7 @@ the
 sidebar
 .
 *
-return
+returns
 {
 Promise
 <
@@ -3914,7 +3918,7 @@ the
 sidebar
 .
 *
-return
+returns
 {
 Promise
 <
