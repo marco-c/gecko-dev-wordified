@@ -768,7 +768,7 @@ engineISOCharset
 await
 SearchTestUtils
 .
-promiseNewSearchEngine
+installOpenSearchEngine
 (
 {
 url
