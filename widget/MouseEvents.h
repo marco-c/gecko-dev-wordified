@@ -1976,6 +1976,16 @@ mClickEventPrevented
 false
 )
 {
+MOZ_ASSERT_IF
+(
+aIsTrusted
+!
+IsPointerEventMessage
+(
+mMessage
+)
+)
+;
 if
 (
 aMessage

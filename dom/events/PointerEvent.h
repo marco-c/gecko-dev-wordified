@@ -261,6 +261,17 @@ PointerEventInit
 aParam
 )
 ;
+PointerEvent
+*
+AsPointerEvent
+(
+)
+final
+{
+return
+this
+;
+}
 int32_t
 PointerId
 (

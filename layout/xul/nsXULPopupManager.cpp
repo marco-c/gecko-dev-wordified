@@ -1134,10 +1134,9 @@ if
 event
 -
 >
-mClass
-=
-=
-eMouseEventClass
+IsMouseEventClassOrHasClickRelatedPointerEvent
+(
+)
 |
 |
 event
