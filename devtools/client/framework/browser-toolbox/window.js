@@ -117,6 +117,13 @@ sys
 .
 mjs
 "
+{
+global
+:
+"
+shared
+"
+}
 )
 ;
 /
