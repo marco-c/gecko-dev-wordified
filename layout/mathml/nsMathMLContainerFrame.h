@@ -333,10 +333,6 @@ mIntrinsicWidth
 (
 NS_INTRINSIC_ISIZE_UNKNOWN
 )
-mBlockStartAscent
-(
-0
-)
 {
 }
 NS_DECL_QUERYFRAME_TARGET
@@ -2902,6 +2898,8 @@ mIntrinsicWidth
 ;
 nscoord
 mBlockStartAscent
+=
+0
 ;
 private
 :
