@@ -11440,8 +11440,6 @@ aShadowRootMode
 bool
 aShadowRootIsClonable
 bool
-aShadowRootIsSerializable
-bool
 aShadowRootDelegatesFocus
 )
 {
@@ -11537,7 +11535,6 @@ aHost
 )
 mode
 aShadowRootIsClonable
-aShadowRootIsSerializable
 aShadowRootDelegatesFocus
 )
 ;
@@ -11644,7 +11641,6 @@ fragHandle
 aTemplateNode
 mode
 aShadowRootIsClonable
-aShadowRootIsSerializable
 aShadowRootDelegatesFocus
 )
 ;
