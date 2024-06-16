@@ -14075,12 +14075,13 @@ mode
 &
 mode
 <
+=
 UnderlyingValue
 (
 CMSMode
 :
 :
-AllCount
+_ENUM_MAX
 )
 )
 {
