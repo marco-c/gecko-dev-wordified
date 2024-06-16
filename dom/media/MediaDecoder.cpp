@@ -6023,6 +6023,8 @@ mStateMachine
 .
 mTotalBufferingTimeMs
 flags
+*
+mInfo
 )
 ;
 }
