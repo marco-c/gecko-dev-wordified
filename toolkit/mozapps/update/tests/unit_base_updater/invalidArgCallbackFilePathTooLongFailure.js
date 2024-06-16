@@ -196,7 +196,7 @@ path
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;

@@ -257,7 +257,7 @@ STATE_AFTER_STAGE
 )
 ;
 await
-standardInit
+testPostUpdateProcessing
 (
 )
 ;
