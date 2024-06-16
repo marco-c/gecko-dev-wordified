@@ -43384,9 +43384,9 @@ point
 on
 it
 .
-MarkUserFontSetDirty
-(
-)
+mFontFaceSetDirty
+=
+true
 ;
 if
 (
