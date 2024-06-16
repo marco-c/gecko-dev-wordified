@@ -3888,9 +3888,6 @@ CustomStateSet
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
