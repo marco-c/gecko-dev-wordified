@@ -7968,6 +7968,15 @@ NativeObject
 (
 )
 ;
+MOZ_ASSERT
+(
+!
+IsWindow
+(
+nobj
+)
+)
+;
 maybeEmitIdGuard
 (
 id
