@@ -129,6 +129,12 @@ env
 =
 running_env
 (
+        
+app
+=
+"
+firefox
+"
 tests
 =
 [
@@ -137,6 +143,7 @@ str
 EXAMPLE_SHELL_TEST
 )
 ]
+    
 )
     
 runner
@@ -383,6 +390,12 @@ env
 =
 running_env
 (
+        
+app
+=
+"
+firefox
+"
 tests
 =
 [
@@ -391,6 +404,7 @@ str
 EXAMPLE_SHELL_TEST
 )
 ]
+    
 )
     
 mocked_metrics
