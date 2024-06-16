@@ -3615,7 +3615,7 @@ num_elements
 ;
 num_elements
 =
-MAX
+MIN
 (
 surface
 -
