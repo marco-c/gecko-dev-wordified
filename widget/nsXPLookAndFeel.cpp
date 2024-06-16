@@ -1032,6 +1032,11 @@ macRTL
 "
 ui
 .
+macTitlebarHeight
+"
+"
+ui
+.
 alertNotificationOrigin
 "
 "

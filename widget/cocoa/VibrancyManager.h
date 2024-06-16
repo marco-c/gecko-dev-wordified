@@ -184,6 +184,7 @@ VibrancyType
 {
 TOOLTIP
 MENU
+TITLEBAR
 }
 ;
 /
