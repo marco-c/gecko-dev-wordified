@@ -438,6 +438,9 @@ types
 FuncDescVector
 funcs
 ;
+BranchHintCollection
+branchHints
+;
 uint32_t
 numFuncImports
 ;
