@@ -577,6 +577,7 @@ URLParams
 Parse
 (
 query
+true
 [
 &
 ]
@@ -1703,6 +1704,7 @@ URLParams
 Parse
 (
 query
+false
 [
 &
 ]
