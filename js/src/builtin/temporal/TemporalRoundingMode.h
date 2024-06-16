@@ -3312,7 +3312,7 @@ number
 .
 *
 /
-constexpr
+inline
 Int128
 CeilDiv
 (
@@ -3514,7 +3514,7 @@ number
 .
 *
 /
-constexpr
+inline
 Int128
 FloorDiv
 (
@@ -3720,7 +3720,7 @@ number
 .
 *
 /
-constexpr
+inline
 Int128
 ExpandDiv
 (
@@ -3954,7 +3954,7 @@ number
 .
 *
 /
-constexpr
+inline
 Int128
 TruncDiv
 (

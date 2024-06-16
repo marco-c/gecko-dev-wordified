@@ -1640,7 +1640,6 @@ value
 *
 /
 static
-constexpr
 Derived
 fromNanoseconds
 (
