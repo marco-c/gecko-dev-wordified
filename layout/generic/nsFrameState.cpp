@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsGfxScrollFrame
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

@@ -130,10 +130,10 @@ scrollable
 /
 #
 ifndef
-nsGfxScrollFrame_h___
+mozilla_ScrollContainerFrame_h_
 #
 define
-nsGfxScrollFrame_h___
+mozilla_ScrollContainerFrame_h_
 #
 include
 "
@@ -7241,6 +7241,6 @@ OverflowState
 endif
 /
 *
-nsGfxScrollFrame_h___
+mozilla_ScrollContainerFrame_h_
 *
 /

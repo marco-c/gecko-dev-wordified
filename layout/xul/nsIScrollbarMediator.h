@@ -545,7 +545,8 @@ nsHTMLScrollFrame
 :
 ThumbMoved
 in
-nsGfxScrollFrame
+*
+ScrollContainerFrame
 .
 cpp
 .

@@ -1022,6 +1022,11 @@ ScrollbarPreferences
 h
 "
 "
+ScrollContainerFrame
+.
+h
+"
+"
 ScrollGeneration
 .
 h
@@ -1197,11 +1202,6 @@ cpp
 "
 "
 nsFrameState
-.
-cpp
-"
-"
-nsGfxScrollFrame
 .
 cpp
 "
@@ -1382,6 +1382,11 @@ cpp
 "
 "
 ScrollbarActivity
+.
+cpp
+"
+"
+ScrollContainerFrame
 .
 cpp
 "

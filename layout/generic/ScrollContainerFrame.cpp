@@ -131,7 +131,9 @@ scrollable
 #
 include
 "
-nsGfxScrollFrame
+mozilla
+/
+ScrollContainerFrame
 .
 h
 "

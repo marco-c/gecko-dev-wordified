@@ -331,7 +331,7 @@ class
 in
 /
 /
-nsGfxScrollFrame
+ScrollContainerFrame
 .
 h
 .
