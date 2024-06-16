@@ -878,11 +878,14 @@ space
 in
 freeThreadSet
 .
-MOZ_RELEASE_ASSERT
+threadCount
+=
+std
+:
+:
+min
 (
 threadCount
-<
-=
 sizeof
 (
 uint32_t
@@ -902,6 +905,7 @@ length
 (
 )
 <
+=
 threadCount
 )
 ;
