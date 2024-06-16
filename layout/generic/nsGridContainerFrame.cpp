@@ -45880,7 +45880,10 @@ sizeStyle
 axis
 =
 =
-eAxisHorizontal
+PhysicalAxis
+:
+:
+Horizontal
 ?
 stylePos
 -
@@ -46284,7 +46287,10 @@ style
 axis
 =
 =
-eAxisHorizontal
+PhysicalAxis
+:
+:
+Horizontal
 ?
 stylePos
 -
