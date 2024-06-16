@@ -216,9 +216,6 @@ enterprisepolicies
 extensions
 "
 "
-featuregates
-"
-"
 formautofill
 "
 "
@@ -406,6 +403,9 @@ DIRS
 [
 "
 aboutconfig
+"
+"
+featuregates
 "
 "
 narrate
