@@ -5026,6 +5026,12 @@ mPositionVisibility
 mozilla
 :
 :
+StylePositionTryOptions
+mPositionTryOptions
+;
+mozilla
+:
+:
 StylePositionTryOrder
 mPositionTryOrder
 ;

@@ -224,9 +224,11 @@ position
 {
 AnchorName
 AnchorScope
+DashedIdentAndOrTryTactic
 InsetArea
 InsetAreaKeyword
 PositionAnchor
+PositionTryOptions
 PositionTryOrder
 PositionVisibility
 }
