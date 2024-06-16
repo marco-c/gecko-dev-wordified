@@ -6455,10 +6455,10 @@ kTurnUdpProtoAddr
 ;
 EXPECT_EQ
 (
-cricket
+IceCandidateType
 :
 :
-RELAY_PORT_TYPE
+kRelay
 turn_port_
 -
 >
