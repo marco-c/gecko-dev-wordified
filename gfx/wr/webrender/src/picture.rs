@@ -15319,7 +15319,7 @@ self
 shared_clip_leaf_id
 {
 let
-map_local_to_surface
+map_local_to_picture
 =
 SpaceMapper
 :
@@ -15341,7 +15341,7 @@ set_active_clips
 self
 .
 spatial_node_index
-map_local_to_surface
+map_local_to_picture
 .
 ref_spatial_node_index
 shared_clip_leaf_id
@@ -15376,7 +15376,7 @@ cast_unit
 (
 )
 &
-map_local_to_surface
+map_local_to_picture
 &
 pic_to_world_mapper
 frame_context
@@ -19052,7 +19052,7 @@ CompositorSurfaceKind
 bool
 {
 let
-map_local_to_surface
+map_local_to_picture
 =
 SpaceMapper
 :
@@ -19086,7 +19086,7 @@ let
 prim_rect
 =
 match
-map_local_to_surface
+map_local_to_picture
 .
 map
 (
@@ -20361,7 +20361,7 @@ len
 1
 {
 let
-map_local_to_surface
+map_local_to_picture
 =
 SpaceMapper
 :
@@ -20385,7 +20385,7 @@ Some
 pic_rect
 )
 =
-map_local_to_surface
+map_local_to_picture
 .
 map
 (
@@ -20946,7 +20946,7 @@ pic_index
 ]
 ;
 let
-map_local_to_surface
+map_local_to_picture
 =
 SpaceMapper
 :
@@ -21020,7 +21020,7 @@ primitive
 current_pic_coverage_rect
 =
 match
-map_local_to_surface
+map_local_to_picture
 .
 map
 (
@@ -27147,11 +27147,11 @@ coordinate
 systems
 into
 the
-surface
+picture
 coordinates
 .
 pub
-map_local_to_surface
+map_local_to_picture
 :
 SpaceMapper
 <
@@ -27363,7 +27363,7 @@ max_rect
 )
 ;
 let
-map_local_to_surface
+map_local_to_picture
 =
 SpaceMapper
 :
@@ -27403,7 +27403,7 @@ PictureRect
 zero
 (
 )
-map_local_to_surface
+map_local_to_picture
 raster_spatial_node_index
 surface_spatial_node_index
 device_pixel_scale
@@ -45474,7 +45474,7 @@ rect
 .
 surface
 .
-map_local_to_surface
+map_local_to_picture
 .
 set_target_spatial_node
 (
@@ -45524,7 +45524,7 @@ cluster_rect
 =
 surface
 .
-map_local_to_surface
+map_local_to_picture
 .
 map
 (
@@ -45657,7 +45657,7 @@ parent_surface_index
 ;
 parent_surface
 .
-map_local_to_surface
+map_local_to_picture
 .
 set_target_spatial_node
 (
@@ -45709,7 +45709,7 @@ parent_surface_rect
 =
 parent_surface
 .
-map_local_to_surface
+map_local_to_picture
 .
 map
 (
@@ -51876,7 +51876,7 @@ new
 )
 ;
 let
-map_local_to_surface
+map_local_to_picture
 =
 SpaceMapper
 :
@@ -51931,9 +51931,9 @@ PictureRect
 max_rect
 (
 )
-map_local_to_surface
+map_local_to_picture
 :
-map_local_to_surface
+map_local_to_picture
 .
 clone
 (
@@ -52035,7 +52035,7 @@ PictureRect
 max_rect
 (
 )
-map_local_to_surface
+map_local_to_picture
 raster_spatial_node_index
 :
 root_reference_frame_index
@@ -52250,7 +52250,7 @@ new
 )
 ;
 let
-map_local_to_surface
+map_local_to_picture
 =
 SpaceMapper
 :
@@ -52305,9 +52305,9 @@ PictureRect
 max_rect
 (
 )
-map_local_to_surface
+map_local_to_picture
 :
-map_local_to_surface
+map_local_to_picture
 .
 clone
 (
@@ -52433,7 +52433,7 @@ PictureRect
 max_rect
 (
 )
-map_local_to_surface
+map_local_to_picture
 raster_spatial_node_index
 :
 root_reference_frame_index

@@ -480,16 +480,6 @@ system
 of
 a
 Picture
-(
-intermediate
-/
-/
-/
-surface
-)
-in
-physical
-pixels
 .
 #
 [
