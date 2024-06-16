@@ -190,6 +190,12 @@ webpagetest
 "
 mochitest
 "
+    
+"
+custom
+-
+script
+"
 )
 class
 Options
