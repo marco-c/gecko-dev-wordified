@@ -17439,6 +17439,14 @@ dom_ipc_avoid_gtk
 )
 &
 &
+StaticPrefs
+:
+:
+widget_non_native_theme_enabled
+(
+)
+&
+&
 widget
 :
 :

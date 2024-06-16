@@ -8127,6 +8127,15 @@ if
 XRE_IsParentProcess
 (
 )
+|
+|
+!
+StaticPrefs
+:
+:
+widget_non_native_theme_enabled
+(
+)
 )
 {
 if
