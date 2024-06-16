@@ -863,6 +863,16 @@ self
 position
 :
 :
+AnchorName
+;
+pub
+use
+self
+:
+:
+position
+:
+:
 AspectRatio
 ;
 pub
