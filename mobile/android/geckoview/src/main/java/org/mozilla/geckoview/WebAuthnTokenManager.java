@@ -741,28 +741,6 @@ RSAAlgorithm
 RS512
 }
 ;
-public
-static
-class
-Exception
-extends
-RuntimeException
-{
-public
-Exception
-(
-final
-String
-error
-)
-{
-super
-(
-error
-)
-;
-}
-}
 private
 static
 PublicKeyCredentialCreationOptions
@@ -1474,7 +1452,7 @@ GeckoResult
 fromException
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -1819,7 +1797,7 @@ result
 completeExceptionally
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -1869,7 +1847,7 @@ getResponse
 )
 ;
 final
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 error
@@ -1929,7 +1907,7 @@ result
 completeExceptionally
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -2064,7 +2042,7 @@ result
 completeExceptionally
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -2108,7 +2086,7 @@ result
 completeExceptionally
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -2269,7 +2247,7 @@ GeckoResult
 fromException
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -2388,7 +2366,7 @@ GeckoResult
 fromException
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -2402,7 +2380,7 @@ UNKNOWN_ERR
 }
 private
 static
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 parseErrorResponse
@@ -2473,7 +2451,7 @@ getErrorMessage
 ;
 return
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -2744,7 +2722,7 @@ GeckoResult
 fromException
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -2966,7 +2944,7 @@ result
 completeExceptionally
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -3016,7 +2994,7 @@ getResponse
 )
 ;
 final
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 error
@@ -3076,7 +3054,7 @@ result
 completeExceptionally
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -3220,7 +3198,7 @@ result
 completeExceptionally
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -3355,7 +3333,7 @@ GeckoResult
 fromException
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
@@ -3421,7 +3399,7 @@ GeckoResult
 fromException
 (
 new
-WebAuthnTokenManager
+WebAuthnUtils
 .
 Exception
 (
