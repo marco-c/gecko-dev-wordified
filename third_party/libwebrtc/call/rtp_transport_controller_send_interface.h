@@ -312,9 +312,6 @@ SentPacket
 struct
 NetworkRoute
 ;
-class
-TaskQueue
-;
 }
 /
 /
