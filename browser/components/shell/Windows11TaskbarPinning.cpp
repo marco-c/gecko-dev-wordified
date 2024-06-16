@@ -928,8 +928,6 @@ PinCurrentAppToTaskbarWin11
 &
 event
 &
-count
-&
 hr
 &
 resultStatus
