@@ -8461,6 +8461,11 @@ tryAgainButton
 .
 focus
 (
+{
+focusVisible
+:
+true
+}
 )
 ;
 }
@@ -8549,6 +8554,11 @@ tryAgainButton
 .
 focus
 (
+{
+focusVisible
+:
+true
+}
 )
 ;
 }
