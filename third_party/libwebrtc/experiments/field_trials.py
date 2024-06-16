@@ -5224,23 +5224,6 @@ FieldTrial
 '
 WebRTC
 -
-RttMult
-'
-               
-'
-webrtc
-:
-9670
-'
-               
-INDEFINITE
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 SendBufferSizeBytes
 '
                
