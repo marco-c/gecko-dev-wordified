@@ -176,6 +176,8 @@ public
 IToggleProvider
 public
 IExpandCollapseProvider
+public
+IScrollItemProvider
 {
 public
 :
@@ -676,6 +678,17 @@ enum
 ExpandCollapseState
 *
 aRetVal
+)
+;
+/
+/
+IScrollItemProvider
+virtual
+HRESULT
+STDMETHODCALLTYPE
+ScrollIntoView
+(
+void
 )
 ;
 private
