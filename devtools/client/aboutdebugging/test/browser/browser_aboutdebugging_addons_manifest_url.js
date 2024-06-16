@@ -68,9 +68,10 @@ const
 ABD_ADDON_NAME
 =
 "
+Firefox
+DevTools
 ADB
-binary
-provider
+Extension
 "
 ;
 /
