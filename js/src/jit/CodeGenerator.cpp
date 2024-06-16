@@ -49135,14 +49135,13 @@ the
 JitStackAlignment
 .
 if
-constexpr
 (
 JitStackValueAlignment
 >
 1
 )
 {
-static_assert
+MOZ_ASSERT
 (
 JitStackValueAlignment
 =
