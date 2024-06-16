@@ -6177,6 +6177,7 @@ return
 }
 if
 (
+!
 frame
 -
 >
@@ -6185,11 +6186,13 @@ StyleContent
 )
 -
 >
-ContentCount
+NonAltContentItems
 (
 )
->
-0
+.
+IsEmpty
+(
+)
 )
 {
 for

@@ -174,7 +174,11 @@ StyleContent
 )
 -
 >
-ContentCount
+NonAltContentItems
+(
+)
+.
+Length
 (
 )
 )
@@ -193,9 +197,9 @@ created
 for
 the
 legacy
+/
+/
 markers
-/
-/
 which
 don
 '

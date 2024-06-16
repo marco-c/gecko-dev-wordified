@@ -3273,7 +3273,14 @@ aOriginatingElement
 ComputedStyle
 &
 aPseudoStyle
-uint32_t
+const
+mozilla
+:
+:
+StyleContentItem
+&
+aItem
+size_t
 aContentIndex
 const
 mozilla
