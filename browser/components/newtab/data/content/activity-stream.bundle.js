@@ -63597,7 +63597,6 @@ newtabWallpapers
 wallpaper
 "
 "
-i
 "
 )
 ;
