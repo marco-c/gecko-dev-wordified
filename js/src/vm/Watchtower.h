@@ -413,6 +413,8 @@ NativeObject
 *
 >
 obj
+IntegrityLevel
+level
 )
 ;
 static
@@ -585,6 +587,10 @@ obj
 hasAnyFlag
 (
 {
+ObjectFlag
+:
+:
+IsUsedAsPrototype
 ObjectFlag
 :
 :
@@ -905,6 +911,8 @@ NativeObject
 *
 >
 obj
+IntegrityLevel
+level
 )
 {
 if
@@ -928,6 +936,7 @@ watchFreezeOrSealSlow
 (
 cx
 obj
+level
 )
 ;
 }
