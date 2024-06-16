@@ -2448,6 +2448,14 @@ dummyDt
 aSize
 )
 ;
+dt
+-
+>
+SetOptimizeTransform
+(
+true
+)
+;
 mTextureInfo
 .
 insert

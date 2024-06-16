@@ -536,6 +536,7 @@ aEvent
 void
 RecordEvent
 (
+const
 DrawTargetRecording
 *
 aDT
@@ -580,6 +581,7 @@ aDT
 void
 ClearDrawTarget
 (
+const
 DrawTargetRecording
 *
 aDT

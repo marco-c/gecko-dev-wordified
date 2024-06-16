@@ -13412,6 +13412,7 @@ mTransform
 IntRect
 mOpaqueRect
 ;
+mutable
 bool
 mTransformDirty
 :
