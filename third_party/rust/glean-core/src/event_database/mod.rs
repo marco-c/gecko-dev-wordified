@@ -139,7 +139,10 @@ std
 sync
 :
 :
+{
+Mutex
 RwLock
+}
 ;
 use
 chrono
@@ -912,7 +915,7 @@ the
 filesystem
 file_lock
 :
-RwLock
+Mutex
 <
 (
 )
@@ -1027,7 +1030,7 @@ new
 )
 file_lock
 :
-RwLock
+Mutex
 :
 :
 new
@@ -1843,7 +1846,7 @@ self
 .
 file_lock
 .
-write
+lock
 (
 )
 .
@@ -2672,7 +2675,7 @@ self
 .
 file_lock
 .
-write
+lock
 (
 )
 .
@@ -4547,7 +4550,7 @@ self
 .
 file_lock
 .
-write
+lock
 (
 )
 .
@@ -4722,7 +4725,7 @@ self
 .
 file_lock
 .
-write
+lock
 (
 )
 .
