@@ -209,6 +209,15 @@ str
 =
 None
         
+enabled
+:
+Optional
+[
+bool
+]
+=
+None
+        
 _validated
 :
 bool
@@ -300,6 +309,34 @@ include_info_sections
 "
 True
 )
+        
+if
+enabled
+is
+None
+:
+            
+enabled
+=
+True
+        
+self
+.
+enabled
+=
+enabled
+        
+self
+.
+schedules_pings
+:
+List
+[
+str
+]
+=
+[
+]
         
 if
 data_reviews
@@ -625,6 +662,18 @@ modified_dict
 include_info_sections
 "
         
+)
+        
+modified_dict
+=
+util
+.
+remove_output_params
+(
+modified_dict
+"
+schedules_pings
+"
 )
         
 return

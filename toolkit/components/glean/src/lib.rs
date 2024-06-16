@@ -1573,7 +1573,7 @@ extern
 C
 "
 fn
-fog_set_metrics_feature_config
+fog_apply_server_knobs_config
 (
 config_json
 :
@@ -1611,7 +1611,7 @@ is_empty
 glean
 :
 :
-glean_set_metrics_enabled_config
+glean_apply_server_knobs_config
 (
 "
 {
@@ -1627,7 +1627,7 @@ to_owned
 glean
 :
 :
-glean_set_metrics_enabled_config
+glean_apply_server_knobs_config
 (
 config_json
 .

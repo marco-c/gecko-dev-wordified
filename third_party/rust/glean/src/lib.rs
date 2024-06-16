@@ -277,6 +277,11 @@ true
 true
 true
 true
+true
+vec
+!
+(
+)
 vec
 !
 (
@@ -1331,12 +1336,12 @@ glean_core
 Glean
 :
 :
-set_metrics_enabled_config
+glean_apply_server_knobs_config
 ]
 .
 pub
 fn
-glean_set_metrics_enabled_config
+glean_apply_server_knobs_config
 (
 json
 :
@@ -1346,7 +1351,7 @@ String
 glean_core
 :
 :
-glean_set_metrics_enabled_config
+glean_apply_server_knobs_config
 (
 json
 )
