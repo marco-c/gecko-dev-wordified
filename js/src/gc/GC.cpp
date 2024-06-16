@@ -19310,6 +19310,17 @@ updateLive
 this
 )
 ;
+#
+ifdef
+DEBUG
+AutoSetThreadIsMarking
+threadIsMarking
+;
+#
+endif
+/
+/
+DEBUG
 marker
 (
 )
