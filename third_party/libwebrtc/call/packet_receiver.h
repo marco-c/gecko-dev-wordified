@@ -184,7 +184,6 @@ once
 when
 a
 packet
-packet
 is
 received
 that
