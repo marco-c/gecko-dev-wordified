@@ -1687,10 +1687,7 @@ const
 webrtc
 :
 :
-SdpVideoFormat
-:
-:
-Parameters
+CodecParameterMap
 mFormatParams
 ;
 webrtc
