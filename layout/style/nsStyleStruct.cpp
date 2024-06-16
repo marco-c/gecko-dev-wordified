@@ -19447,9 +19447,7 @@ mTextTransform
 StyleTextTransform
 :
 :
-None
-(
-)
+NONE
 )
 mTextAlign
 (

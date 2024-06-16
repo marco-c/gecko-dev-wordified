@@ -2990,10 +2990,12 @@ aBuilder
 SetKeywordValue
 (
 eCSSProperty_text_transform
-StyleTextTransformCase
+StyleTextTransform
 :
 :
-None
+NONE
+.
+_0
 )
 ;
 }

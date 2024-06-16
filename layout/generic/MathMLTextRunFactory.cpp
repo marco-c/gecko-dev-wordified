@@ -3573,14 +3573,11 @@ i
 -
 >
 mTextTransform
-.
-case_
-=
-=
-StyleTextTransformCase
+&
+StyleTextTransform
 :
 :
-MathAuto
+MATH_AUTO
 )
 )
 {
