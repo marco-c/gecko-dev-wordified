@@ -639,7 +639,10 @@ if
 aAxis
 =
 =
-eLogicalAxisBlock
+LogicalAxis
+:
+:
+Block
 )
 {
 hasAutoMarginStart
@@ -676,7 +679,10 @@ else
 aAxis
 =
 =
-eLogicalAxisInline
+LogicalAxis
+:
+:
+Inline
 *
 /
 hasAutoMarginStart

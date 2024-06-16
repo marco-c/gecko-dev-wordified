@@ -433,6 +433,7 @@ class
 ComputedStyle
 ;
 enum
+class
 LogicalAxis
 :
 uint8_t
