@@ -2007,6 +2007,12 @@ DataSourceSurface
 >
 GetAsSurface
 (
+gfx
+:
+:
+DataSourceSurface
+*
+aSurface
 )
 override
 ;
@@ -2340,6 +2346,12 @@ DataSourceSurface
 >
 GetAsSurface
 (
+gfx
+:
+:
+DataSourceSurface
+*
+aSurface
 )
 override
 {
