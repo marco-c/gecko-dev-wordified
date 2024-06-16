@@ -813,7 +813,9 @@ null
 true
 )
 ;
-BrowserStop
+BrowserCommands
+.
+stop
 (
 )
 ;
@@ -1343,7 +1345,9 @@ null
 true
 )
 ;
-BrowserStop
+BrowserCommands
+.
+stop
 (
 )
 ;
@@ -1533,7 +1537,7 @@ page1
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
