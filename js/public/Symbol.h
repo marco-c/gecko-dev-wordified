@@ -465,6 +465,14 @@ MACRO
 (
 matchAll
 )
+\
+IF_EXPLICIT_RESOURCE_MANAGEMENT
+(
+MACRO
+(
+dispose
+)
+)
 enum
 class
 SymbolCode

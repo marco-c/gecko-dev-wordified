@@ -165,6 +165,12 @@ AssignToPrivateMethod
 Decorators
 :
 DecoratorInvalidReturnType
+#
+ifdef
+ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
+UsingWithoutDispose
+#
+endif
 }
 ;
 JSErrNum
