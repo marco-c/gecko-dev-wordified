@@ -3164,9 +3164,9 @@ mActiveConfig
 /
 /
 Convert
-VideoDecoderConfigInternal
+AudioDecoderConfigInternal
 to
-VideoDecoderConfig
+AudioDecoderConfig
 RootedDictionary
 <
 AudioDecoderConfig
