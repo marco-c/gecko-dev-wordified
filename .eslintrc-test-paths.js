@@ -2259,7 +2259,7 @@ components
 /
 reader
 /
-test
+tests
 /
 "
 "
