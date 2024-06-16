@@ -323,6 +323,14 @@ No
 )
 {
 }
+static
+inline
+void
+profiler_lookup_download_directory
+(
+)
+{
+}
 #
 else
 /
