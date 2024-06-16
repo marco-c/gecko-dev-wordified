@@ -308,7 +308,9 @@ to
 Shift_JIS
 *
 /
-BrowserForceEncodingDetection
+BrowserCommands
+.
+forceEncodingDetection
 (
 )
 ;

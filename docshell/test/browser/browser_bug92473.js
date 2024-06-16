@@ -396,7 +396,9 @@ then
 =
 >
 {
-BrowserForceEncodingDetection
+BrowserCommands
+.
+forceEncodingDetection
 (
 )
 ;
