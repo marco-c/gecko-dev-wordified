@@ -2654,6 +2654,15 @@ private
 nsAutoString
 mToken
 ;
+/
+/
+only
+used
+by
+heavyweight
+-
+created
+credentials
 nsCOMPtr
 <
 nsIPrincipal
