@@ -969,6 +969,9 @@ exec_file
 (
 self
 path
+becomes_current_path
+=
+True
 )
 :
         
@@ -1062,6 +1065,7 @@ exec_source
 (
 source
 path
+becomes_current_path
 )
     
 def
@@ -1073,6 +1077,9 @@ path
 =
 "
 "
+becomes_current_path
+=
+True
 )
 :
         
@@ -1254,10 +1261,15 @@ self
 .
 exec_function
 (
+            
 execute
 path
 =
 path
+becomes_current_path
+=
+becomes_current_path
+        
 )
     
 def
