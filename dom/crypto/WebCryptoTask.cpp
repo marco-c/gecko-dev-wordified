@@ -8140,7 +8140,7 @@ NS_ERROR_DOM_DATA_ERR
 Construct
 an
 appropriate
-KeyAlorithm
+KeyAlgorithm
 /
 /
 and
@@ -8406,10 +8406,9 @@ Algorithm
 (
 )
 .
-MakeAes
+MakeKDF
 (
 mAlgName
-length
 )
 ;
 if
