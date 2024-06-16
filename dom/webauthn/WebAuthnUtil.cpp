@@ -629,7 +629,7 @@ document
 document
 -
 >
-IsHTMLDocument
+IsHTMLOrXHTML
 (
 )
 )

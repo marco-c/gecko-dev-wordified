@@ -1340,7 +1340,7 @@ document
 document
 -
 >
-IsHTMLDocument
+IsHTMLOrXHTML
 (
 )
 )
