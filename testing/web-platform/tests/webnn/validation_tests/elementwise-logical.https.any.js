@@ -90,7 +90,7 @@ operator
 is
 unary
 .
-validateInputFromOtherBuilder
+validateInputFromAnotherBuilder
 (
 '
 not
