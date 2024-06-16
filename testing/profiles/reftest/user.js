@@ -765,6 +765,8 @@ user_pref
 "
 image
 .
+testing
+.
 decode
 -
 sync
