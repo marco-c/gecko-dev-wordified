@@ -4641,7 +4641,6 @@ aResponse
 :
 MainThreadWorkerRunnable
 (
-aWorkerPrivate
 "
 WorkerFetchResponseRunnable
 "
@@ -4955,7 +4954,6 @@ aResolver
 :
 MainThreadWorkerRunnable
 (
-aWorkerPrivate
 "
 WorkerDataAvailableRunnable
 "
@@ -5126,7 +5124,6 @@ aReason
 :
 MainThreadWorkerRunnable
 (
-aWorkerPrivate
 "
 WorkerFetchResponseEndRunnable
 "
@@ -5240,7 +5237,9 @@ aResolver
 :
 MainThreadWorkerControlRunnable
 (
-aWorkerPrivate
+"
+WorkerFetchResponseEndControlRunnable
+"
 )
 WorkerFetchResponseEndBase
 (
@@ -5356,6 +5355,12 @@ r
 >
 Dispatch
 (
+mPromiseProxy
+-
+>
+GetWorkerPrivate
+(
+)
 )
 )
 {
@@ -5450,6 +5455,12 @@ r
 >
 Dispatch
 (
+mPromiseProxy
+-
+>
+GetWorkerPrivate
+(
+)
 )
 ;
 }
@@ -5541,6 +5552,12 @@ r
 >
 Dispatch
 (
+mPromiseProxy
+-
+>
+GetWorkerPrivate
+(
+)
 )
 )
 {
@@ -5604,6 +5621,12 @@ cr
 >
 Dispatch
 (
+mPromiseProxy
+-
+>
+GetWorkerPrivate
+(
+)
 )
 )
 {

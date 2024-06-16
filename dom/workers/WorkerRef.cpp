@@ -199,7 +199,6 @@ aRef
 :
 WorkerControlRunnable
 (
-aWorkerPrivate
 "
 ReleaseRefControlRunnable
 "
@@ -1384,6 +1383,7 @@ r
 >
 Dispatch
 (
+workerPrivate
 )
 ;
 return

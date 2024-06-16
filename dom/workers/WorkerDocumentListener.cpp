@@ -425,7 +425,6 @@ aVisible
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 VisibleRunnable
 "
@@ -505,6 +504,12 @@ runnable
 >
 Dispatch
 (
+mWorkerRef
+-
+>
+Private
+(
+)
 )
 ;
 }

@@ -4709,12 +4709,6 @@ aFunc
 :
 WorkerThreadRunnable
 (
-aPromiseWorkerProxy
--
->
-GetWorkerPrivate
-(
-)
 "
 PromiseWorkerProxyRunnable
 "
@@ -4764,14 +4758,6 @@ aWorkerPrivate
 >
 AssertIsOnWorkerThread
 (
-)
-;
-MOZ_ASSERT
-(
-aWorkerPrivate
-=
-=
-mWorkerPrivate
 )
 ;
 MOZ_ASSERT
@@ -5484,6 +5470,9 @@ runnable
 >
 Dispatch
 (
+GetWorkerPrivate
+(
+)
 )
 ;
 }

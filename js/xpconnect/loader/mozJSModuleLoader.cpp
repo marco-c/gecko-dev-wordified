@@ -4721,7 +4721,6 @@ dom
 :
 MainThreadStopSyncLoopRunnable
 (
-mWorkerPrivate
 std
 :
 :
@@ -4739,6 +4738,7 @@ runnable
 >
 Dispatch
 (
+mWorkerPrivate
 )
 )
 ;

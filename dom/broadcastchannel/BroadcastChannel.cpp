@@ -570,7 +570,6 @@ aActor
 :
 WorkerControlRunnable
 (
-aWorkerPrivate
 "
 TeardownRunnableOnWorker
 "
@@ -1852,6 +1851,7 @@ runnable
 >
 Dispatch
 (
+workerPrivate
 )
 ;
 }

@@ -350,9 +350,6 @@ aName
 :
 WorkerDebuggeeRunnable
 (
-aWorker
-.
-mWorkerPrivate
 aName
 )
 StructuredCloneHolder

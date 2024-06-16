@@ -983,7 +983,6 @@ aWorkerPrivate
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 CanvasShutdownManager
 :
@@ -1109,6 +1108,15 @@ task
 >
 Dispatch
 (
+manager
+-
+>
+mWorkerRef
+-
+>
+Private
+(
+)
 )
 ;
 }

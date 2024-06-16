@@ -611,7 +611,6 @@ aReport
 :
 WorkerParentDebuggeeRunnable
 (
-aWorkerPrivate
 "
 ReportErrorRunnable
 "
@@ -1038,6 +1037,7 @@ runnable
 >
 Dispatch
 (
+aWorkerPrivate
 )
 ;
 }
@@ -1053,7 +1053,6 @@ aWorkerPrivate
 :
 WorkerParentDebuggeeRunnable
 (
-aWorkerPrivate
 "
 ReportGenericErrorRunnable
 "
@@ -2400,6 +2399,7 @@ runnable
 >
 Dispatch
 (
+aWorkerPrivate
 )
 ;
 return

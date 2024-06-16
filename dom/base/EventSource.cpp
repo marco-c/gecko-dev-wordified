@@ -10622,7 +10622,6 @@ aEvent
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 WorkerRunnableDispatcher
 "
@@ -11328,6 +11327,12 @@ event
 >
 Dispatch
 (
+mWorkerRef
+-
+>
+Private
+(
+)
 )
 )
 {

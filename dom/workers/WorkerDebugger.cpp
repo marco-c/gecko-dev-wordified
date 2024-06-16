@@ -329,7 +329,6 @@ aMessage
 :
 WorkerDebuggerRunnable
 (
-aWorkerPrivate
 "
 DebuggerMessageEventRunnable
 "
@@ -547,7 +546,6 @@ aDocumentEncoding
 :
 WorkerDebuggerRunnable
 (
-aWorkerPrivate
 "
 CompileDebuggerScriptRunnable
 "
@@ -1863,6 +1861,7 @@ runnable
 >
 Dispatch
 (
+mWorkerPrivate
 )
 )
 {
@@ -1930,6 +1929,7 @@ runnable
 >
 Dispatch
 (
+mWorkerPrivate
 )
 )
 {

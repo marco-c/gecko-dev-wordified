@@ -1678,7 +1678,6 @@ aWorkerPrivate
 :
 WorkerDebuggeeRunnable
 (
-aWorkerPrivate
 "
 ServiceWorkerOpRunnable
 "
@@ -2401,6 +2400,17 @@ workerRunnable
 >
 Dispatch
 (
+lock
+-
+>
+as
+<
+Running
+>
+(
+)
+.
+mWorkerPrivate
 )
 )
 )
@@ -2942,7 +2952,9 @@ aWorkerPrivate
 :
 MainThreadWorkerControlRunnable
 (
-aWorkerPrivate
+"
+UpdateStateOpRunnable
+"
 )
 mOwner
 (

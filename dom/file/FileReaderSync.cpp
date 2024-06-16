@@ -1897,7 +1897,6 @@ aSyncLoopTarget
 :
 WorkerSyncRunnable
 (
-aWorkerPrivate
 aSyncLoopTarget
 "
 ReadReadyRunnable

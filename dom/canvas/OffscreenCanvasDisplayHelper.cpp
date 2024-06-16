@@ -879,7 +879,6 @@ aDisplayHelper
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 FlushWorkerRunnable
 "
@@ -1056,6 +1055,12 @@ task
 >
 Dispatch
 (
+mWorkerRef
+-
+>
+Private
+(
+)
 )
 ;
 }
@@ -2651,7 +2656,6 @@ aDisplayHelper
 :
 MainThreadWorkerRunnable
 (
-aWorkerPrivate
 "
 SnapshotWorkerRunnable
 "
@@ -3140,6 +3144,12 @@ workerRunnable
 >
 Dispatch
 (
+mWorkerRef
+-
+>
+Private
+(
+)
 )
 ;
 }

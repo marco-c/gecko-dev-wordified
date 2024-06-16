@@ -538,6 +538,12 @@ aImageBitmap
 :
 MainThreadWorkerControlRunnable
 (
+"
+SendShutdownToWorkerThread
+"
+)
+mWorkerPrivate
+(
 GetCurrentThreadWorkerPrivate
 (
 )
@@ -588,6 +594,10 @@ return
 true
 ;
 }
+WorkerPrivate
+*
+mWorkerPrivate
+;
 ImageBitmap
 *
 mImageBitmap
@@ -957,6 +967,10 @@ runnable
 >
 Dispatch
 (
+runnable
+-
+>
+mWorkerPrivate
 )
 ;
 }
@@ -9822,9 +9836,6 @@ aImageBitmap
 :
 WorkerSameThreadRunnable
 (
-GetCurrentThreadWorkerPrivate
-(
-)
 "
 FulfillImageBitmapPromiseWorkerTask
 "
@@ -9925,6 +9936,9 @@ task
 >
 Dispatch
 (
+GetCurrentThreadWorkerPrivate
+(
+)
 )
 ;
 /
@@ -9932,6 +9946,8 @@ Dispatch
 Actually
 to
 the
+/
+/
 current
 worker
 -
@@ -10449,7 +10465,6 @@ aStatus
 :
 WorkerThreadRunnable
 (
-aWorkerPrivate
 "
 CreateImageBitmapFromBlobRunnable
 "
@@ -13933,6 +13948,12 @@ r
 >
 Dispatch
 (
+mWorkerRef
+-
+>
+Private
+(
+)
 )
 ;
 return
