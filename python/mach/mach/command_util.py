@@ -245,6 +245,25 @@ MACH_COMMANDS
 {
     
 "
+addstory
+"
+:
+MachCommandReference
+(
+"
+toolkit
+/
+content
+/
+widgets
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 addtest
 "
 :
