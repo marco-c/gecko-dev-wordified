@@ -1381,6 +1381,9 @@ friend
 class
 AutoHelperTaskQueue
 ;
+#
+ifdef
+DEBUG
 /
 /
 The
@@ -1406,6 +1409,8 @@ tasksPending_
 =
 0
 ;
+#
+endif
 bool
 isInitialized_
 =
@@ -2539,6 +2544,9 @@ locked
 void
 runOneTask
 (
+HelperThreadTask
+*
+task
 AutoLockHelperThreadState
 &
 lock
