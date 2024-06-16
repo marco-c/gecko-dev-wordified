@@ -11260,8 +11260,12 @@ calendar
 /
 /
 Step
-4
+3
 .
+(
+Inlined
+ToTemporalTimeOrMidnight
+)
 PlainTime
 time
 =
@@ -11300,10 +11304,8 @@ false
 }
 /
 /
-Steps
-3
-and
-5
+Step
+4
 .
 auto
 *
