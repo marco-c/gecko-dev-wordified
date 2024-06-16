@@ -499,6 +499,7 @@ enableRulesetIds
 async
 getDynamicRules
 (
+details
 )
 {
 await
@@ -519,11 +520,16 @@ extension
 .
 getDynamicRules
 (
+details
+?
+.
+ruleIds
 )
 ;
 }
 getSessionRules
 (
+details
 )
 {
 /
@@ -585,6 +591,10 @@ extension
 .
 getSessionRules
 (
+details
+?
+.
+ruleIds
 )
 ;
 }
