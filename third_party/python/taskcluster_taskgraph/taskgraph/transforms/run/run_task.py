@@ -59,7 +59,7 @@ MPL
 Support
 for
 running
-jobs
+tasks
 that
 are
 invoked
@@ -88,15 +88,15 @@ taskgraph
 .
 transforms
 .
-job
+run
 import
-run_job_using
+run_task_using
 from
 taskgraph
 .
 transforms
 .
-job
+run
 .
 common
 import
@@ -216,7 +216,7 @@ for
 level
 -
 1
-jobs
+tasks
 .
         
 #
@@ -590,7 +590,7 @@ def
 common_setup
 (
 config
-job
+task
 taskdesc
 command
 )
@@ -598,7 +598,7 @@ command
     
 run
 =
-job
+task
 [
 "
 run
@@ -708,7 +708,7 @@ support_vcs_checkout
             
 config
             
-job
+task
             
 taskdesc
             
@@ -956,14 +956,14 @@ cwd
 ]
 name
 =
-job
+task
 .
 get
 (
 "
 name
 "
-job
+task
 .
 get
 (
@@ -1217,7 +1217,7 @@ public
 script
 }
 "
-run_job_using
+run_task_using
 (
     
 "
@@ -1241,14 +1241,14 @@ def
 docker_worker_run_task
 (
 config
-job
+task
 taskdesc
 )
 :
     
 run
 =
-job
+task
 [
 "
 run
@@ -1264,7 +1264,7 @@ worker
 "
 ]
 =
-job
+task
 [
 "
 worker
@@ -1303,7 +1303,7 @@ task
 common_setup
 (
 config
-job
+task
 taskdesc
 command
 )
@@ -1526,7 +1526,7 @@ command
 ]
 =
 command
-run_job_using
+run_task_using
 (
     
 "
@@ -1550,14 +1550,14 @@ def
 generic_worker_run_task
 (
 config
-job
+task
 taskdesc
 )
 :
     
 run
 =
-job
+task
 [
 "
 run
@@ -1573,7 +1573,7 @@ worker
 "
 ]
 =
-job
+task
 [
 "
 worker
@@ -1715,7 +1715,7 @@ task
 common_setup
 (
 config
-job
+task
 taskdesc
 command
 )

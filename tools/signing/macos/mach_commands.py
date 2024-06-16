@@ -2330,8 +2330,6 @@ sourcedir
 /
 taskcluster
 /
-ci
-/
 config
 .
 yml

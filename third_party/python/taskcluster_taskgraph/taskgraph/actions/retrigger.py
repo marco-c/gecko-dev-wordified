@@ -170,9 +170,11 @@ logger
 info
 (
             
+f
 "
 Task
 {
+label
 }
 not
 in
@@ -186,13 +188,6 @@ be
 retriggered
 .
 "
-.
-format
-(
-                
-label
-            
-)
         
 )
         
@@ -435,6 +430,7 @@ task
     
 create_task_from_def
 (
+        
 slugid
 (
 )
@@ -445,6 +441,15 @@ parameters
 level
 "
 ]
+graph_config
+[
+"
+trust
+-
+domain
+"
+]
+    
 )
 register_callback_action
 (
@@ -981,6 +986,9 @@ fetch_graph_and_labels
         
 parameters
 graph_config
+task_group_id
+=
+task_group_id
     
 )
     
@@ -1043,11 +1051,13 @@ logger
 info
 (
             
+f
 "
 Not
 retriggering
 task
 {
+label
 }
 task
 should
@@ -1063,11 +1073,6 @@ not
 specified
 .
 "
-.
-format
-(
-label
-)
         
 )
         
@@ -1345,6 +1350,9 @@ fetch_graph_and_labels
         
 parameters
 graph_config
+task_group_id
+=
+task_group_id
     
 )
     
@@ -1378,34 +1386,29 @@ logger
 error
 (
             
+f
 "
 Refusing
 to
 rerun
 {
+label
 }
 :
 taskId
 {
+task_id
 }
 not
 in
 decision
 task
 {
+decision_task_id
 }
 label_to_taskid
 !
 "
-.
-format
-(
-                
-label
-task_id
-decision_task_id
-            
-)
         
 )
     
@@ -1443,34 +1446,29 @@ logger
 warning
 (
             
+f
 "
 No
 need
 to
 rerun
 {
+label
 }
 :
 state
 '
 {
+state
 }
 '
 not
 in
 {
+RERUN_STATES
 }
 !
 "
-.
-format
-(
-                
-label
-state
-RERUN_STATES
-            
-)
         
 )
         
@@ -1712,6 +1710,9 @@ fetch_graph_and_labels
         
 parameters
 graph_config
+task_group_id
+=
+task_group_id
     
 )
     

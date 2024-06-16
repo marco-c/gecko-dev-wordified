@@ -7060,7 +7060,7 @@ variants_file
 "
 taskcluster
 /
-ci
+kinds
 /
 test
 /

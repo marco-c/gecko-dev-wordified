@@ -252,6 +252,9 @@ append
 (
 func
 )
+    
+return
+func
 def
 amend_taskgraph
 (

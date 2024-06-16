@@ -84,7 +84,7 @@ Path
 "
 taskcluster
 /
-ci
+kinds
 /
 fetch
 /

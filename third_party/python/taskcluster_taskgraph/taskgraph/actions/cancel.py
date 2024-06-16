@@ -239,10 +239,12 @@ logger
 info
 (
                 
+f
 '
 Task
 "
 {
+task_id
 }
 "
 is
@@ -255,13 +257,6 @@ be
 cancelled
 .
 '
-.
-format
-(
-                    
-task_id
-                
-)
             
 )
             

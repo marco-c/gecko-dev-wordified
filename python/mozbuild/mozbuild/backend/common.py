@@ -1127,7 +1127,7 @@ the
 #
 taskcluster
 /
-ci
+kinds
 /
 diffoscope
 /

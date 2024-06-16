@@ -427,6 +427,7 @@ logger
 debug
 (
                 
+f
 '
 no
 files
@@ -443,18 +444,12 @@ changed
 for
 "
 {
-}
-"
-'
-.
-format
-(
-                    
 task
 .
 label
-                
-)
+}
+"
+'
             
 )
             

@@ -547,6 +547,9 @@ path
 join
 (
 root_dir
+"
+kinds
+"
 kind_name
 )
         
@@ -783,11 +786,13 @@ root_dir
 :
 root
 directory
-with
-subdirectories
-for
-each
-kind
+containing
+the
+Taskgraph
+config
+.
+yml
+file
         
 param
 parameters
@@ -838,8 +843,6 @@ root_dir
 =
 "
 taskcluster
-/
-ci
 "
         
 self
@@ -1451,9 +1454,19 @@ os
 .
 listdir
 (
+os
+.
+path
+.
+join
+(
 self
 .
 root_dir
+"
+kinds
+"
+)
 )
 :
                 

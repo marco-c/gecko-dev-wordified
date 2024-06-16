@@ -511,7 +511,7 @@ item
 :
 :
         
-job
+task
 :
             
 test
@@ -557,7 +557,7 @@ resolve_keyed_by
 (
 item
 '
-job
+task
 .
 chunks
 '
@@ -581,7 +581,7 @@ to
 :
 :
         
-job
+task
 :
             
 test
@@ -1242,21 +1242,18 @@ case
 identifiers
 "
                         
+f
 "
 not
 {
+k
 !
 r
 }
 {
+path
 }
 "
-.
-format
-(
-k
-path
-)
                     
 )
             
@@ -1324,6 +1321,7 @@ raise
 RuntimeError
 (
                     
+f
 "
 Unexpected
 type
@@ -1332,23 +1330,17 @@ YAML
 schema
 :
 {
-}
-{
-}
-"
-.
-format
-(
-                        
 type
 (
 k
 )
 .
 __name__
+}
+{
 path
-                    
-)
+}
+"
                 
 )
         
