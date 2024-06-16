@@ -71,8 +71,6 @@ from
 textwrap
 import
 dedent
-import
-six
 from
 mozboot
 .
@@ -341,20 +339,9 @@ n
 .
 join
 (
-[
-six
-.
-ensure_text
-(
-s
-)
-for
-s
-in
 self
 .
 output
-]
 )
 )
         
@@ -1140,38 +1127,33 @@ fails
             
 output
 =
-six
-.
-ensure_text
-(
-                
 subprocess
 .
 check_output
 (
-                    
+                
 command
-                    
+                
 stderr
 =
 subprocess
 .
 STDOUT
-                    
+                
 cwd
 =
 self
 .
 topsrcdir
-                    
+                
 env
 =
 env
-                    
+                
 universal_newlines
 =
 True
-                    
+                
 encoding
 =
 "
@@ -1179,8 +1161,6 @@ utf
 -
 8
 "
-                
-)
             
 )
         
