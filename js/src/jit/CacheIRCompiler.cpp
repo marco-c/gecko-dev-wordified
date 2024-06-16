@@ -40663,6 +40663,12 @@ case
 Scalar
 :
 :
+Float16
+:
+case
+Scalar
+:
+:
 Float32
 :
 case
@@ -43648,6 +43654,12 @@ valueId
 ;
 break
 ;
+case
+Scalar
+:
+:
+Float16
+:
 case
 Scalar
 :
