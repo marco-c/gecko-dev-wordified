@@ -286,6 +286,15 @@ EXTRA_JS_MODULES
 "
 old
 /
+MemoryNotificationDB
+.
+sys
+.
+mjs
+"
+"
+old
+/
 NotificationDB
 .
 sys
