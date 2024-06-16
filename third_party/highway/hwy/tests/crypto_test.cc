@@ -710,7 +710,13 @@ in
 Iota
 (
 d
+static_cast
+<
+T
+>
+(
 i
+)
 )
 ;
 HWY_ASSERT_VEC_EQ
@@ -1596,7 +1602,13 @@ in
 Iota
 (
 d
+static_cast
+<
+T
+>
+(
 i
+)
 )
 ;
 HWY_ASSERT_VEC_EQ

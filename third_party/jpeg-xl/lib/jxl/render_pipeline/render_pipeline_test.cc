@@ -921,14 +921,11 @@ read
 )
 ;
 }
-JXL_RETURN_IF_ERROR
-(
 io
 -
 >
 CheckMetadata
 (
-)
 )
 ;
 /
@@ -979,8 +976,6 @@ num_c
 1
 )
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -995,10 +990,7 @@ UpsampleXSlowStage
 (
 )
 )
-)
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1013,10 +1005,7 @@ UpsampleYSlowStage
 (
 )
 )
-)
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1029,7 +1018,6 @@ make_unique
 Check0FinalStage
 >
 (
-)
 )
 )
 ;
@@ -1151,8 +1139,6 @@ num_c
 1
 )
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1167,10 +1153,7 @@ UpsampleXSlowStage
 (
 )
 )
-)
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1185,10 +1168,7 @@ UpsampleYSlowStage
 (
 )
 )
-)
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1201,7 +1181,6 @@ make_unique
 Check0FinalStage
 >
 (
-)
 )
 )
 ;
@@ -1418,8 +1397,6 @@ num_c
 1
 )
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1434,10 +1411,7 @@ UpsampleXSlowStage
 (
 )
 )
-)
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1452,10 +1426,7 @@ UpsampleYSlowStage
 (
 )
 )
-)
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1468,7 +1439,6 @@ make_unique
 Check0FinalStage
 >
 (
-)
 )
 )
 ;
@@ -1584,8 +1554,6 @@ num_c
 1
 )
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1600,10 +1568,7 @@ UpsampleXSlowStage
 (
 )
 )
-)
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1618,10 +1583,7 @@ UpsampleYSlowStage
 (
 )
 )
-)
 ;
-ASSERT_TRUE
-(
 builder
 .
 AddStage
@@ -1634,7 +1596,6 @@ make_unique
 Check0FinalStage
 >
 (
-)
 )
 )
 ;

@@ -645,11 +645,11 @@ True
 }
 #
 The
-top
+master
 toctree
 document
 .
-top_doc
+master_doc
 =
 '
 index
@@ -1240,7 +1240,7 @@ rinoh_documents
 [
 (
  
-top_doc
+master_doc
  
 '
 target

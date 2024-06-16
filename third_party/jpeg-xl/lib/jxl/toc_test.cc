@@ -559,10 +559,7 @@ writer
 get
 (
 )
-LayerType
-:
-:
-Header
+0
 &
 aux_out
 )

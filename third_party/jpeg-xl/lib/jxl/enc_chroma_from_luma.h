@@ -94,11 +94,6 @@ cstddef
 #
 include
 <
-cstdint
->
-#
-include
-<
 hwy
 /
 aligned_allocator
@@ -203,12 +198,6 @@ jxl
 struct
 AuxOut
 ;
-enum
-class
-LayerType
-:
-uint8_t
-;
 class
 Quantizer
 ;
@@ -222,7 +211,7 @@ color_correlation
 BitWriter
 *
 writer
-LayerType
+size_t
 layer
 AuxOut
 *

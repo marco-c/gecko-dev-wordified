@@ -91,12 +91,6 @@ jxl
 struct
 AuxOut
 ;
-enum
-class
-LayerType
-:
-uint8_t
-;
 /
 /
 Max
@@ -173,7 +167,7 @@ num_histograms
 BitWriter
 *
 writer
-LayerType
+size_t
 layer
 AuxOut
 *

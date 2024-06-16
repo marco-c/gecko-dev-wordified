@@ -1196,7 +1196,6 @@ rgba_
 *
 xpos
 ;
-return
 FastXYBTosRGB8
 (
 xyba
@@ -1215,6 +1214,9 @@ width_
 -
 xpos
 )
+;
+return
+true
 ;
 }
 RenderPipelineChannelMode
@@ -1333,15 +1335,12 @@ size_t
 alpha_c
 )
 {
-if
+JXL_ASSERT
 (
-!
 HasFastXYBTosRGB8
 (
 )
 )
-return
-nullptr
 ;
 return
 make_unique

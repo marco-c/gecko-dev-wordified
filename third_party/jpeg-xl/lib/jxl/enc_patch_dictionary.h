@@ -204,12 +204,6 @@ jxl
 struct
 AuxOut
 ;
-enum
-class
-LayerType
-:
-uint8_t
-;
 constexpr
 size_t
 kMaxPatchSize
@@ -599,7 +593,7 @@ pdic
 BitWriter
 *
 writer
-LayerType
+size_t
 layer
 AuxOut
 *
@@ -696,7 +690,7 @@ ComputePatchTree
 ;
 }
 static
-Status
+void
 SubtractFrom
 (
 const

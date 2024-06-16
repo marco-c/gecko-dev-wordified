@@ -1514,7 +1514,7 @@ HWY_EXPORT
 FastXYBTosRGB8
 )
 ;
-Status
+void
 FastXYBTosRGB8
 (
 const
@@ -1533,7 +1533,6 @@ size_t
 xsize
 )
 {
-return
 HWY_DYNAMIC_DISPATCH
 (
 FastXYBTosRGB8

@@ -639,7 +639,7 @@ HasFastXYBTosRGB8
 (
 )
 ;
-Status
+void
 FastXYBTosRGB8
 (
 const
