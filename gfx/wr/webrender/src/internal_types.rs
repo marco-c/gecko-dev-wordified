@@ -4967,10 +4967,6 @@ frame
 :
 Frame
 pub
-is_new_scene
-:
-bool
-pub
 profile
 :
 TransactionProfile
