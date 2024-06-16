@@ -2485,7 +2485,9 @@ with
 the
 content
 unblocked
-BrowserReloadWithFlags
+BrowserCommands
+.
+reloadWithFlags
 (
 Ci
 .
@@ -2584,7 +2586,9 @@ if
 reload
 )
 {
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;
@@ -2686,7 +2690,9 @@ contentPrincipal
 originAttributes
 )
 ;
-BrowserReloadSkipCache
+BrowserCommands
+.
+reloadSkipCache
 (
 )
 ;
@@ -3389,7 +3395,9 @@ oldValue
 3
 )
 {
-BrowserReloadSkipCache
+BrowserCommands
+.
+reloadSkipCache
 (
 )
 ;

@@ -245,7 +245,9 @@ temp
 permission
 )
 .
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

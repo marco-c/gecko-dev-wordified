@@ -151,7 +151,9 @@ pageshow
 "
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

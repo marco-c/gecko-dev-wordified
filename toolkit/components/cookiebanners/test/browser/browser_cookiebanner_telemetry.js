@@ -496,7 +496,9 @@ user
 .
 window
 .
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

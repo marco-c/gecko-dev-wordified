@@ -12797,7 +12797,9 @@ _hidePopup
 (
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;
@@ -12830,7 +12832,9 @@ _hidePopup
 (
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

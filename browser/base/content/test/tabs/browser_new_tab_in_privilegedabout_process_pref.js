@@ -729,7 +729,7 @@ WEB_REMOTE_TYPE
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -1042,7 +1042,9 @@ content
 process
 affinity
 .
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;
@@ -1075,7 +1077,7 @@ http
 webpage
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_HTTP
@@ -1373,7 +1375,7 @@ goToIndex
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_HTTP

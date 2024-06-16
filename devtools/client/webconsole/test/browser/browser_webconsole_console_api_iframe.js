@@ -177,7 +177,9 @@ api
 "
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;

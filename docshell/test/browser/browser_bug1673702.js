@@ -121,7 +121,7 @@ load
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 JSON
@@ -171,7 +171,9 @@ Reload
 "
 )
 ;
-BrowserReload
+BrowserCommands
+.
+reload
 (
 )
 ;
