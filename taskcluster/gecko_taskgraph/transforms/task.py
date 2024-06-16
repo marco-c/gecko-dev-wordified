@@ -13869,11 +13869,19 @@ worker
 os
 "
 ]
-!
-=
+not
+in
+(
+                
 "
 windows
 "
+                
+"
+linux
+"
+            
+)
 :
                 
 raise
@@ -13897,6 +13905,8 @@ on
                     
 "
 Windows
+and
+Linux
 not
 on
 {
