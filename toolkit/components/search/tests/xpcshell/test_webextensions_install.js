@@ -1124,7 +1124,7 @@ test_load_favicon_redirect
 )
 {
 let
-promiseEngineChanged
+promiseIconChanged
 =
 SearchTestUtils
 .
@@ -1134,7 +1134,7 @@ SearchUtils
 .
 MODIFIED_TYPE
 .
-CHANGED
+ICON_CHANGED
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -1190,7 +1190,7 @@ Example
 )
 ;
 await
-promiseEngineChanged
+promiseIconChanged
 ;
 Assert
 .

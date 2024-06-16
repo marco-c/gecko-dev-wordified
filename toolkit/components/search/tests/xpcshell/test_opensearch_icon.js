@@ -209,7 +209,7 @@ TOPIC_ENGINE_MODIFIED
 )
 ;
 let
-promiseEngineChanged
+promiseIconChanged
 =
 SearchTestUtils
 .
@@ -219,7 +219,7 @@ SearchUtils
 .
 MODIFIED_TYPE
 .
-CHANGED
+ICON_CHANGED
 SearchUtils
 .
 TOPIC_ENGINE_MODIFIED
@@ -329,7 +329,7 @@ nsISearchEngine
 )
 ;
 await
-promiseEngineChanged
+promiseIconChanged
 ;
 Assert
 .
