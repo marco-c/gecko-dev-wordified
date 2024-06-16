@@ -14369,8 +14369,6 @@ branchIfFunctionHasNoJitEntry
 (
 Register
 fun
-bool
-isConstructing
 Label
 *
 label
@@ -14382,8 +14380,6 @@ branchIfFunctionHasJitEntry
 (
 Register
 fun
-bool
-isConstructing
 Label
 *
 label

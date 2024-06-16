@@ -42639,7 +42639,6 @@ masm
 branchIfFunctionHasNoJitEntry
 (
 calleeReg
-isConstructing
 &
 noJitEntry
 )
@@ -48449,7 +48448,6 @@ masm
 branchIfFunctionHasNoJitEntry
 (
 calleereg
-constructing
 &
 invoke
 )

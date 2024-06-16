@@ -66232,13 +66232,6 @@ writer
 guardFunctionHasJitEntry
 (
 thisObjId
-/
-*
-isConstructing
-=
-*
-/
-false
 )
 ;
 writer
@@ -72566,13 +72559,6 @@ writer
 guardFunctionHasJitEntry
 (
 thisObjId
-/
-*
-constructing
-=
-*
-/
-false
 )
 ;
 writer
@@ -77438,7 +77424,6 @@ writer
 guardFunctionHasJitEntry
 (
 calleeObjId
-isConstructing
 )
 ;
 if
