@@ -9970,6 +9970,12 @@ ExtensibleCompilationStencil
 initial
 )
 {
+MOZ_ASSERT
+(
+!
+merger_
+)
+;
 AutoReportFrontendContext
 fc
 (
