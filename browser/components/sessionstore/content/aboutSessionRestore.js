@@ -1396,7 +1396,9 @@ getBrowserWindow
 (
 )
 .
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 ;

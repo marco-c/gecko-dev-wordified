@@ -510,7 +510,9 @@ tab
 ;
 win
 .
-BrowserHome
+BrowserCommands
+.
+home
 (
 )
 ;
