@@ -34194,9 +34194,9 @@ baselineOffset
 0f
 )
 languageOverride
-(
-NO_FONT_LANGUAGE_OVERRIDE
-)
+{
+0
+}
 weight
 (
 FontWeight
@@ -34302,7 +34302,7 @@ bool
 aAllowSmallCapsSynthesis
 bool
 aUsePositionSynthesis
-uint32_t
+StyleFontLanguageOverride
 aLanguageOverride
 )
 :

@@ -650,7 +650,10 @@ bool
 aSmallCapsSynthesis
 bool
 aPositionSynthesis
-uint32_t
+mozilla
+:
+:
+StyleFontLanguageOverride
 aLanguageOverride
 )
 ;
@@ -1069,7 +1072,10 @@ glyph
 shapes
 .
 )
-uint32_t
+mozilla
+:
+:
+StyleFontLanguageOverride
 languageOverride
 ;
 /
