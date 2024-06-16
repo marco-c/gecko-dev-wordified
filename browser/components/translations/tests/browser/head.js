@@ -3648,7 +3648,6 @@ win
 /
 static
 async
-#
 assertLangTagIsShownOnTranslationsButton
 (
 fromLanguage
@@ -4029,7 +4028,6 @@ toLanguage
 await
 FullPageTranslationsTestUtils
 .
-#
 assertLangTagIsShownOnTranslationsButton
 (
 fromLanguage
