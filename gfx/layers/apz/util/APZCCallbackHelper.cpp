@@ -561,7 +561,7 @@ static
 CSSPoint
 ScrollFrameTo
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 aFrame
 const
@@ -1395,7 +1395,7 @@ aRequest
 GetScrollAnimationType
 (
 )
-nsIScrollableFrame
+ScrollContainerFrame
 :
 :
 InScrollingGesture
@@ -4552,15 +4552,15 @@ Element
 *
 GetDisplayportElementFor
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
-aScrollableFrame
+aScrollContainerFrame
 )
 {
 if
 (
 !
-aScrollableFrame
+aScrollContainerFrame
 )
 {
 return
@@ -4571,7 +4571,7 @@ nsIFrame
 *
 scrolledFrame
 =
-aScrollableFrame
+aScrollContainerFrame
 -
 >
 GetScrolledFrame
@@ -6324,7 +6324,7 @@ APZCCallbackHelper
 :
 IsScrollInProgress
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 aFrame
 )
@@ -6332,7 +6332,7 @@ aFrame
 using
 AnimationState
 =
-nsIScrollableFrame
+ScrollContainerFrame
 :
 :
 AnimationState

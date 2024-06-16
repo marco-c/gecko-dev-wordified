@@ -164,6 +164,15 @@ include
 "
 mozilla
 /
+ScrollContainerFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ToString
 .
 h
@@ -553,7 +562,7 @@ metadata
 asr
 -
 >
-mScrollableFrame
+mScrollContainerFrame
 -
 >
 ComputeScrollMetadata
@@ -589,7 +598,7 @@ AddScrollFrameToNotify
 asr
 -
 >
-mScrollableFrame
+mScrollContainerFrame
 )
 ;
 if

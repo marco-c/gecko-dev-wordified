@@ -156,9 +156,6 @@ class
 nsIContent
 ;
 class
-nsIScrollableFrame
-;
-class
 nsIWidget
 ;
 class
@@ -185,6 +182,9 @@ mozilla
 {
 class
 PresShell
+;
+class
+ScrollContainerFrame
 ;
 enum
 class
@@ -1209,7 +1209,8 @@ aScale
 Check
 if
 the
-scrollable
+scroll
+container
 frame
 is
 currently
@@ -1219,8 +1220,8 @@ middle
 of
 a
 main
-thread
 *
+thread
 async
 or
 smooth
@@ -1232,9 +1233,9 @@ requested
 some
 other
 apz
+*
 scroll
 that
-*
 hasn
 '
 t
@@ -1276,7 +1277,7 @@ static
 bool
 IsScrollInProgress
 (
-nsIScrollableFrame
+ScrollContainerFrame
 *
 aFrame
 )

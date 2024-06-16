@@ -2590,7 +2590,7 @@ GetActiveScrolledRoot
 )
 -
 >
-mScrollableFrame
+mScrollContainerFrame
 -
 >
 GetScrolledFrame
@@ -2917,7 +2917,7 @@ itemClipASR
 itemClipASR
 -
 >
-mScrollableFrame
+mScrollContainerFrame
 )
 ;
 const

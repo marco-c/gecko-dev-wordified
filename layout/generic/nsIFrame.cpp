@@ -27287,7 +27287,7 @@ GetFilterASR
 )
 -
 >
-mScrollableFrame
+mScrollContainerFrame
 -
 >
 SetHasOutOfFlowContentInsideFilter
