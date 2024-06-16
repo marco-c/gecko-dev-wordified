@@ -481,11 +481,6 @@ KeyboardLayout
 cpp
 "
 "
-LegacyJumpListItem
-.
-cpp
-"
-"
 LSPAnnotator
 .
 cpp
@@ -722,11 +717,6 @@ cpp
 "
 "
 InProcessWinCompositorWidget
-.
-cpp
-"
-"
-LegacyJumpListBuilder
 .
 cpp
 "
