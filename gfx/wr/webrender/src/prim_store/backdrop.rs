@@ -57,15 +57,6 @@ MPL
 *
 /
 use
-api
-:
-:
-units
-:
-:
-*
-;
-use
 crate
 :
 :
@@ -682,9 +673,6 @@ _prim_store
 &
 mut
 PrimitiveStore
-_reference_frame_relative_offset
-:
-LayoutVector2D
 )
 -
 >
@@ -740,9 +728,6 @@ _prim_store
 &
 mut
 PrimitiveStore
-_reference_frame_relative_offset
-:
-LayoutVector2D
 )
 -
 >

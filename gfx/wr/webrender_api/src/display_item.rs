@@ -3282,6 +3282,10 @@ font
 :
 GlyphOptions
 >
+pub
+ref_frame_offset
+:
+LayoutVector2D
 }
 /
 /
@@ -6091,6 +6095,10 @@ pub
 prim_flags
 :
 PrimitiveFlags
+pub
+ref_frame_offset
+:
+LayoutVector2D
 pub
 stacking_context
 :
