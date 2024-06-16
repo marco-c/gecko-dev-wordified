@@ -6662,6 +6662,9 @@ arbitrary
 (
 )
 ?
+shared
+:
+false
 }
 )
 }
@@ -9293,7 +9296,7 @@ Ok
 PrimitiveValType
 :
 :
-Float32
+F32
 )
 10
 =
@@ -9303,7 +9306,7 @@ Ok
 PrimitiveValType
 :
 :
-Float64
+F64
 )
 11
 =
@@ -12751,7 +12754,7 @@ I64
 PrimitiveValType
 :
 :
-Float32
+F32
 =
 >
 ValType
@@ -12761,7 +12764,7 @@ F32
 PrimitiveValType
 :
 :
-Float64
+F64
 =
 >
 ValType
@@ -13080,7 +13083,7 @@ Primitive
 PrimitiveValType
 :
 :
-Float32
+F32
 )
 )
 ValType
@@ -13099,7 +13102,7 @@ Primitive
 PrimitiveValType
 :
 :
-Float64
+F64
 )
 )
 ValType
@@ -14237,12 +14240,12 @@ U64
 PrimitiveValType
 :
 :
-Float32
+F32
 |
 PrimitiveValType
 :
 :
-Float64
+F64
 |
 PrimitiveValType
 :

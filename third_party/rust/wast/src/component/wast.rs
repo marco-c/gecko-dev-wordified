@@ -27,8 +27,8 @@ token
 :
 :
 {
-Float32
-Float64
+F32
+F64
 }
 ;
 /
@@ -109,13 +109,13 @@ S64
 (
 i64
 )
-Float32
+F32
 (
-Float32
+F32
 )
-Float64
+F64
 (
-Float64
+F64
 )
 Char
 (
@@ -582,7 +582,7 @@ p
 |
 Ok
 (
-Float32
+F32
 (
 p
 .
@@ -604,7 +604,7 @@ p
 |
 Ok
 (
-Float64
+F64
 (
 p
 .

@@ -396,14 +396,14 @@ pages
 (
 len
 +
-page_size
+default_page_size
 (
 )
 -
 1
 )
 /
-page_size
+default_page_size
 (
 )
 ;
@@ -440,6 +440,9 @@ pages
 shared
 :
 false
+page_size_log2
+:
+None
 }
 }
 else
@@ -478,6 +481,9 @@ pages
 shared
 :
 false
+page_size_log2
+:
+None
 }
 }
 )
@@ -1369,7 +1375,7 @@ item
 ;
 }
 fn
-page_size
+default_page_size
 (
 )
 -

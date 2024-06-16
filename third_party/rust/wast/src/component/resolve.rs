@@ -4259,6 +4259,14 @@ HeapType
 :
 :
 NoExtern
+|
+core
+:
+:
+HeapType
+:
+:
+NoExn
 =
 >
 {
