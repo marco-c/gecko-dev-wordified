@@ -3114,6 +3114,9 @@ return
 true
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 template
 <
 >
@@ -3165,6 +3168,8 @@ return
 true
 ;
 }
+#
+endif
 template
 <
 >
