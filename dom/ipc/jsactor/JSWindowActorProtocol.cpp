@@ -1286,11 +1286,8 @@ GetOwnerGlobal
 ;
 if
 (
-NS_WARN_IF
-(
 !
 inner
-)
 )
 {
 return
