@@ -4200,6 +4200,12 @@ const
 bool
 mIsDocumentLoad
 ;
+RefPtr
+<
+HTTPSFirstDowngradeData
+>
+mHTTPSFirstDowngradeData
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
