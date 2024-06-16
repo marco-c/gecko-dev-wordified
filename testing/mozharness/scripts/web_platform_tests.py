@@ -3330,6 +3330,38 @@ keys
 )
 :
                     
+if
+"
+web
+-
+platform
+"
+not
+in
+key
+:
+                        
+self
+.
+info
+(
+"
+Ignoring
+test_paths
+for
+{
+}
+harness
+"
+.
+format
+(
+key
+)
+)
+                        
+continue
+                    
 paths
 =
 mozharness_test_paths
@@ -3342,14 +3374,14 @@ key
 )
                     
 for
-path
+p
 in
 paths
 :
                         
 if
 not
-path
+p
 .
 startswith
 (
@@ -3380,7 +3412,7 @@ path
 .
 relpath
 (
-path
+p
 "
 testing
 /
@@ -3434,6 +3466,13 @@ abs_wpttest_dir
 ]
 path
 )
+                        
+else
+:
+                            
+path
+=
+p
                         
 test_paths
 .

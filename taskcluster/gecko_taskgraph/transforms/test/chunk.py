@@ -99,6 +99,8 @@ chunking
 import
 (
     
+WPT_SUBSUITES
+    
 DefaultLoader
     
 chunk_manifests
@@ -1005,6 +1007,51 @@ tests
 )
 :
                     
+found_subsuite
+=
+[
+                        
+key
+for
+key
+in
+WPT_SUBSUITES
+if
+key
+in
+task
+[
+"
+test
+-
+name
+"
+]
+                    
+]
+                    
+if
+found_subsuite
+:
+                        
+if
+WPT_SUBSUITES
+[
+found_subsuite
+[
+0
+]
+]
+in
+m
+:
+                            
+yield
+task
+                    
+else
+:
+                        
 if
 not
 isinstance
@@ -1013,7 +1060,7 @@ loader
 DefaultLoader
 )
 :
-                        
+                            
 task
 [
 "
@@ -1024,7 +1071,7 @@ chunks
 "
 dynamic
 "
-                    
+                        
 yield
 task
                     
