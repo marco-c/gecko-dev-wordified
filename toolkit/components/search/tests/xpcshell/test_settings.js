@@ -3622,14 +3622,6 @@ firefox
 +
 "
 &
-hl
-=
-{
-moz
-:
-locale
-}
-&
 q
 =
 {

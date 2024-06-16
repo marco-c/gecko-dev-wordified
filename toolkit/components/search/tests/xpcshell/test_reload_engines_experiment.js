@@ -172,14 +172,6 @@ client
 =
 firefox
 &
-hl
-=
-{
-moz
-:
-locale
-}
-&
 q
 =
 {
