@@ -414,7 +414,7 @@ updates
 )
 ;
 let
-success
+result
 =
 await
 gAUS
@@ -429,8 +429,12 @@ Assert
 .
 equal
 (
-success
-false
+result
+Ci
+.
+nsIApplicationUpdateService
+.
+DOWNLOAD_FAILURE_CANNOT_RESUME_IN_BACKGROUND
 "
 We
 should

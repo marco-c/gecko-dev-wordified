@@ -1177,7 +1177,7 @@ updates
 ]
 ;
 let
-downloadStarted
+downloadResult
 =
 await
 gAUS
@@ -1192,8 +1192,12 @@ Assert
 .
 equal
 (
-downloadStarted
-false
+downloadResult
+Ci
+.
+nsIApplicationUpdateService
+.
+DOWNLOAD_FAILURE_GENERIC
 "
 Expected
 that
