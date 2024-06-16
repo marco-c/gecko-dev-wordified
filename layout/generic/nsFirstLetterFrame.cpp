@@ -3295,13 +3295,13 @@ t
 get
 calls
 to
-GetSkipSides
+GetLogicalSkipSides
 for
 later
 continuations
+/
+/
 since
-/
-/
 they
 have
 separate
@@ -3321,7 +3321,7 @@ trigger
 a
 call
 to
-GetSkipSides
+GetLogicalSkipSides
 .
 Then
 again
@@ -3336,7 +3336,7 @@ an
 error
 to
 call
-GetSkipSides
+GetLogicalSkipSides
 on
 any
 frame
@@ -3356,7 +3356,10 @@ return
 LogicalSides
 (
 mWritingMode
-eLogicalSideBitsAll
+LogicalSides
+:
+:
+All
 )
 ;
 }
