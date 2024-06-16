@@ -119,6 +119,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FloatingPoint
 .
 h
@@ -269,6 +278,7 @@ field
 requirements
 >
 struct
+MOZ_STACK_CLASS
 TemporalFields
 final
 {

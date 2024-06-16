@@ -125,6 +125,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -1130,7 +1139,9 @@ result
 )
 ;
 class
+MOZ_STACK_CLASS
 PlainDateTimeWithCalendar
+final
 {
 PlainDateTime
 dateTime_

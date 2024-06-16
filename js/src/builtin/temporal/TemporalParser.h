@@ -125,6 +125,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 cstdlib
 >
@@ -190,7 +199,9 @@ struct
 PlainTime
 ;
 struct
+MOZ_STACK_CLASS
 ParsedTimeZone
+final
 {
 JSLinearString
 *

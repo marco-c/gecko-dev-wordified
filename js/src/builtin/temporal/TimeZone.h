@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EnumSet
 .
 h
@@ -1018,6 +1027,7 @@ now
 *
 /
 class
+MOZ_STACK_CLASS
 TimeZoneValue
 final
 {
@@ -1588,7 +1598,9 @@ GetPossibleInstantsFor
 }
 ;
 class
+MOZ_STACK_CLASS
 TimeZoneRecord
+final
 {
 TimeZoneValue
 receiver_
