@@ -1458,6 +1458,13 @@ Serialize
 Deserialize
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 TexelRect

@@ -1132,6 +1132,13 @@ data
 .
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Copy
