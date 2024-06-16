@@ -292,12 +292,13 @@ NS_GENERICHTMLFRAMEELEMENT_IID
 /
 /
 nsIContent
-virtual
 bool
 IsHTMLFocusable
 (
-bool
-aWithMouse
+mozilla
+:
+:
+IsFocusableFlags
 bool
 *
 aIsFocusable
@@ -307,7 +308,6 @@ aTabIndex
 )
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -319,7 +319,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -328,7 +327,6 @@ UnbindContext
 )
 override
 ;
-virtual
 void
 DestroyContent
 (
@@ -349,7 +347,6 @@ Element
 aDest
 )
 ;
-virtual
 int32_t
 TabIndexDefault
 (

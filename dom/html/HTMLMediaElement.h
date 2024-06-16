@@ -1130,7 +1130,6 @@ aOldDoc
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -1152,7 +1151,6 @@ aResult
 )
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -1164,7 +1162,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -1173,19 +1170,16 @@ UnbindContext
 )
 override
 ;
-virtual
 void
 DoneCreatingElement
 (
 )
 override
 ;
-virtual
 bool
 IsHTMLFocusable
 (
-bool
-aWithMouse
+IsFocusableFlags
 bool
 *
 aIsFocusable
@@ -1195,7 +1189,6 @@ aTabIndex
 )
 override
 ;
-virtual
 int32_t
 TabIndexDefault
 (
@@ -1229,7 +1222,6 @@ dimensions
 /
 etc
 .
-virtual
 void
 MetadataLoaded
 (

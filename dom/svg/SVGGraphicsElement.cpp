@@ -1389,8 +1389,7 @@ SVGGraphicsElement
 :
 IsFocusableWithoutStyle
 (
-bool
-aWithMouse
+IsFocusableFlags
 )
 {
 Focusable

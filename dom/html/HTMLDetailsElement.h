@@ -371,7 +371,6 @@ IgnoreErrors
 )
 ;
 }
-virtual
 void
 AsyncEventRunning
 (

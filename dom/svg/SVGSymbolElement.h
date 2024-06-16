@@ -243,8 +243,7 @@ override
 Focusable
 IsFocusableWithoutStyle
 (
-bool
-aWithMouse
+IsFocusableFlags
 )
 override
 ;

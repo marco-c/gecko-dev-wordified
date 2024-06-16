@@ -389,8 +389,7 @@ override
 bool
 IsHTMLFocusable
 (
-bool
-aWithMouse
+IsFocusableFlags
 bool
 *
 aIsFocusable

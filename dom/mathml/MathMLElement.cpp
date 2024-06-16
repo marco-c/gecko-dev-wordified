@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-TabFocusModel
+FocusModel
 .
 h
 "
@@ -4595,8 +4595,7 @@ MathMLElement
 :
 IsFocusableWithoutStyle
 (
-bool
-aWithMouse
+IsFocusableFlags
 )
 {
 if
@@ -4745,7 +4744,7 @@ return
 if
 (
 !
-TabFocusModel
+FocusModel
 :
 :
 IsTabFocusable

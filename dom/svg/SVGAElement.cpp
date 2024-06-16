@@ -161,7 +161,7 @@ include
 "
 mozilla
 /
-TabFocusModel
+FocusModel
 .
 h
 "
@@ -1342,8 +1342,7 @@ SVGAElement
 :
 IsFocusableWithoutStyle
 (
-bool
-aWithMouse
+IsFocusableFlags
 )
 {
 Focusable
@@ -1492,7 +1491,7 @@ return
 if
 (
 !
-TabFocusModel
+FocusModel
 :
 :
 IsTabFocusable

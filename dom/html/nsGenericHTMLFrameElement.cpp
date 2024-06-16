@@ -1887,8 +1887,8 @@ nsGenericHTMLFrameElement
 :
 IsHTMLFocusable
 (
-bool
-aWithMouse
+IsFocusableFlags
+aFlags
 bool
 *
 aIsFocusable
@@ -1904,7 +1904,7 @@ nsGenericHTMLElement
 :
 IsHTMLFocusable
 (
-aWithMouse
+aFlags
 aIsFocusable
 aTabIndex
 )

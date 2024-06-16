@@ -6856,8 +6856,8 @@ nsIContent
 :
 GetAutofocusDelegate
 (
-bool
-aWithMouse
+IsFocusableFlags
+aFlags
 )
 const
 {
@@ -6940,7 +6940,7 @@ frame
 >
 IsFocusable
 (
-aWithMouse
+aFlags
 )
 )
 {
@@ -6960,8 +6960,8 @@ nsIContent
 :
 GetFocusDelegate
 (
-bool
-aWithMouse
+IsFocusableFlags
+aFlags
 )
 const
 {
@@ -7072,7 +7072,7 @@ frame
 >
 IsFocusable
 (
-aWithMouse
+aFlags
 )
 ;
 }
@@ -7335,7 +7335,7 @@ shadow
 >
 GetFocusDelegate
 (
-aWithMouse
+aFlags
 )
 )
 {
@@ -7395,8 +7395,7 @@ nsIContent
 :
 IsFocusableWithoutStyle
 (
-bool
-aWithMouse
+IsFocusableFlags
 )
 {
 /

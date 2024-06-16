@@ -40738,8 +40738,8 @@ HTMLInputElement
 :
 IsHTMLFocusable
 (
-bool
-aWithMouse
+IsFocusableFlags
+aFlags
 bool
 *
 aIsFocusable
@@ -40755,7 +40755,7 @@ nsGenericHTMLFormControlElementWithState
 :
 IsHTMLFocusable
 (
-aWithMouse
+aFlags
 aIsFocusable
 aTabIndex
 )
@@ -40813,7 +40813,7 @@ defaultFocusable
 =
 IsFormControlDefaultFocusable
 (
-aWithMouse
+aFlags
 )
 ;
 if

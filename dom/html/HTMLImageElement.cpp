@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-TabFocusModel
+FocusModel
 .
 h
 "
@@ -3430,8 +3430,8 @@ HTMLImageElement
 :
 IsHTMLFocusable
 (
-bool
-aWithMouse
+IsFocusableFlags
+aFlags
 bool
 *
 aIsFocusable
@@ -3472,7 +3472,7 @@ areas
 *
 aTabIndex
 =
-TabFocusModel
+FocusModel
 :
 :
 IsTabFocusable
@@ -3541,7 +3541,7 @@ tabbable
 *
 aTabIndex
 =
-TabFocusModel
+FocusModel
 :
 :
 IsTabFocusable
@@ -3562,7 +3562,7 @@ aIsFocusable
 =
 IsFormControlDefaultFocusable
 (
-aWithMouse
+aFlags
 )
 &
 &
