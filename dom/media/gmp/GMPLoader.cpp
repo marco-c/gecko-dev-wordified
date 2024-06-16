@@ -237,6 +237,15 @@ SandboxInfo
 h
 "
 #
+include
+"
+mozilla
+/
+SandboxProfilerObserver
+.
+h
+"
+#
 endif
 #
 include
@@ -1132,6 +1141,10 @@ aLibPath
 )
 override
 {
+RegisterProfilerObserversForSandboxProfiler
+(
+)
+;
 mozilla
 :
 :
