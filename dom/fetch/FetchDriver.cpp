@@ -4627,7 +4627,7 @@ InterceptedHttpChannel
 information
 need
 to
-propagte
+propagate
 to
 the
 /
