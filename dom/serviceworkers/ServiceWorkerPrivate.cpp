@@ -2575,7 +2575,6 @@ requestCredentials
 cacheMode
 requestRedirect
 integrity
-false
 fragment
 principalInfo
 interceptionPrincipalInfo
