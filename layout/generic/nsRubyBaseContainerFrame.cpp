@@ -2151,15 +2151,6 @@ nsRubyBaseContainerFrame
 "
 )
 ;
-DISPLAY_REFLOW
-(
-aPresContext
-this
-aReflowInput
-aDesiredSize
-aStatus
-)
-;
 MOZ_ASSERT
 (
 aStatus

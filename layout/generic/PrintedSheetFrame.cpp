@@ -632,15 +632,6 @@ PrintedSheetFrame
 "
 )
 ;
-DISPLAY_REFLOW
-(
-aPresContext
-this
-aReflowInput
-aReflowOutput
-aStatus
-)
-;
 MOZ_ASSERT
 (
 aStatus

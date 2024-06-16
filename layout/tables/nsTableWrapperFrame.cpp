@@ -5167,15 +5167,6 @@ nsTableWrapperFrame
 "
 )
 ;
-DISPLAY_REFLOW
-(
-aPresContext
-this
-aOuterRI
-aDesiredSize
-aStatus
-)
-;
 MOZ_ASSERT
 (
 aStatus

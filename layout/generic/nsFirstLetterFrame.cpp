@@ -1346,15 +1346,6 @@ nsFirstLetterFrame
 "
 )
 ;
-DISPLAY_REFLOW
-(
-aPresContext
-this
-aReflowInput
-aMetrics
-aReflowStatus
-)
-;
 MOZ_ASSERT
 (
 aReflowStatus
