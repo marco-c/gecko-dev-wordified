@@ -1072,6 +1072,10 @@ const
 bool
 use_legacy_overhead_calculation_
 ;
+const
+bool
+enable_priority_bitrate_
+;
 int
 encoder_sample_rate_hz_
 RTC_GUARDED_BY
