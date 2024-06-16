@@ -127,6 +127,18 @@ enabled
 "
 :
 False
+                
+"
+browser
+.
+sanitizer
+.
+loglevel
+"
+:
+"
+All
+"
             
 }
         
