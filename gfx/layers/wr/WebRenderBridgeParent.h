@@ -2318,6 +2318,9 @@ wr
 PipelineId
 &
 aPipelineId
+AsyncImagePipelineOps
+*
+aPendingOps
 wr
 :
 :

@@ -9519,6 +9519,18 @@ get_OpRemovePipelineIdForCompositable
 (
 )
 ;
+auto
+*
+pendingOps
+=
+mApi
+-
+>
+GetPendingAsyncImagePipelineOps
+(
+aTxn
+)
+;
 RemovePipelineIdForCompositable
 (
 op
@@ -9526,6 +9538,7 @@ op
 pipelineId
 (
 )
+pendingOps
 aTxn
 )
 ;
@@ -12139,6 +12152,9 @@ wr
 PipelineId
 &
 aPipelineId
+AsyncImagePipelineOps
+*
+aPendingOps
 wr
 :
 :
@@ -12213,6 +12229,7 @@ mAsyncImageManager
 RemoveAsyncImagePipeline
 (
 aPipelineId
+aPendingOps
 aTxn
 )
 ;
@@ -17451,6 +17468,12 @@ mAsyncImageManager
 RemoveAsyncImagePipeline
 (
 pipelineId
+/
+*
+aPendingOps
+*
+/
+nullptr
 txn
 )
 ;
