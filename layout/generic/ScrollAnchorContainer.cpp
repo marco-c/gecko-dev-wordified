@@ -502,14 +502,14 @@ return
 nullptr
 ;
 }
-nsIScrollableFrame
+ScrollContainerFrame
 *
 nearest
 =
 nsLayoutUtils
 :
 :
-GetNearestScrollableFrame
+GetNearestScrollContainerFrame
 (
 aFrame
 nsLayoutUtils
