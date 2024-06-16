@@ -1658,6 +1658,12 @@ path
 "
 :
 GECKO_DEV_PATH
+        
+"
+soft_timeout
+"
+:
+3600
     
 }
     
