@@ -31713,11 +31713,14 @@ NodePrincipal
 (
 )
 doc
-0
+nsILoadInfo
+:
+:
+SEC_ALLOW_CROSS_ORIGIN_SEC_CONTEXT_IS_NULL
 nsIContentPolicy
 :
 :
-TYPE_INVALID
+TYPE_PROXIED_WEBRTC_MEDIA
 )
 ;
 net
