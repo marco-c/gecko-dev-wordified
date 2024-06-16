@@ -170,6 +170,7 @@ no
 native
 "
 brotli
+zstd
 or
 woff2
 yet
