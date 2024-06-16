@@ -1732,8 +1732,6 @@ mX
 return
 Err
 (
-nsCString
-(
 "
 x
 is
@@ -1743,7 +1741,7 @@ the
 valid
 range
 "
-)
+_ns
 )
 ;
 }
@@ -1769,8 +1767,6 @@ mY
 {
 return
 Err
-(
-nsCString
 (
 "
 y
@@ -1781,7 +1777,7 @@ the
 valid
 range
 "
-)
+_ns
 )
 ;
 }
@@ -1807,8 +1803,6 @@ mWidth
 {
 return
 Err
-(
-nsCString
 (
 "
 width
@@ -1819,7 +1813,7 @@ the
 valid
 range
 "
-)
+_ns
 )
 ;
 }
@@ -1846,8 +1840,6 @@ mHeight
 return
 Err
 (
-nsCString
-(
 "
 height
 is
@@ -1857,7 +1849,7 @@ the
 valid
 range
 "
-)
+_ns
 )
 ;
 }
@@ -1965,8 +1957,6 @@ X
 return
 Err
 (
-nsCString
-(
 "
 x
 must
@@ -1975,7 +1965,7 @@ non
 -
 negative
 "
-)
+_ns
 )
 ;
 }
@@ -1993,8 +1983,6 @@ Y
 return
 Err
 (
-nsCString
-(
 "
 y
 must
@@ -2003,7 +1991,7 @@ non
 -
 negative
 "
-)
+_ns
 )
 ;
 }
@@ -2022,15 +2010,13 @@ Width
 return
 Err
 (
-nsCString
-(
 "
 width
 must
 be
 positive
 "
-)
+_ns
 )
 ;
 }
@@ -2049,15 +2035,13 @@ Height
 return
 Err
 (
-nsCString
-(
 "
 height
 must
 be
 positive
 "
-)
+_ns
 )
 ;
 }
@@ -2177,8 +2161,6 @@ MAX
 return
 Err
 (
-nsCString
-(
 "
 Width
 exceeds
@@ -2188,7 +2170,7 @@ implementation
 s
 range
 "
-)
+_ns
 )
 ;
 }
@@ -2202,8 +2184,6 @@ MAX
 return
 Err
 (
-nsCString
-(
 "
 Height
 exceeds
@@ -2213,7 +2193,7 @@ implementation
 s
 range
 "
-)
+_ns
 )
 ;
 }
@@ -2282,15 +2262,13 @@ Width
 return
 Err
 (
-nsCString
-(
 "
 Width
 must
 be
 positive
 "
-)
+_ns
 )
 ;
 }
@@ -2309,15 +2287,13 @@ Height
 return
 Err
 (
-nsCString
-(
 "
 Height
 must
 be
 positive
 "
-)
+_ns
 )
 ;
 }
@@ -2457,8 +2433,6 @@ Width
 return
 Err
 (
-nsCString
-(
 "
 Sum
 of
@@ -2476,7 +2450,7 @@ picture
 s
 width
 "
-)
+_ns
 )
 ;
 }
@@ -2526,8 +2500,6 @@ Height
 return
 Err
 (
-nsCString
-(
 "
 Sum
 of
@@ -2540,14 +2512,12 @@ and
 height
 exceeds
 the
-"
-"
 picture
 '
 s
 height
 "
-)
+_ns
 )
 ;
 }
@@ -2629,8 +2599,6 @@ WasPassed
 return
 Err
 (
-nsCString
-(
 "
 displayWidth
 and
@@ -2642,7 +2610,7 @@ without
 the
 other
 "
-)
+_ns
 )
 ;
 }
@@ -3073,8 +3041,6 @@ Width
 return
 Err
 (
-nsCString
-(
 "
 Mismatch
 between
@@ -3084,7 +3050,7 @@ given
 left
 offset
 "
-)
+_ns
 )
 ;
 }
@@ -3109,8 +3075,6 @@ Height
 return
 Err
 (
-nsCString
-(
 "
 Mismatch
 between
@@ -3120,7 +3084,7 @@ given
 top
 offset
 "
-)
+_ns
 )
 ;
 }
@@ -3604,8 +3568,6 @@ Length
 return
 Err
 (
-nsCString
-(
 "
 Mismatch
 between
@@ -3613,7 +3575,7 @@ format
 and
 layout
 "
-)
+_ns
 )
 ;
 }
@@ -4161,8 +4123,6 @@ isValid
 return
 Err
 (
-nsCString
-(
 "
 Invalid
 layout
@@ -4173,7 +4133,7 @@ over
 sized
 plane
 "
-)
+_ns
 )
 ;
 }
@@ -4203,8 +4163,6 @@ isValid
 return
 Err
 (
-nsCString
-(
 "
 Invalid
 layout
@@ -4217,7 +4175,7 @@ out
 bound
 offset
 "
-)
+_ns
 )
 ;
 }
@@ -4351,8 +4309,6 @@ mDestinationOffset
 return
 Err
 (
-nsCString
-(
 "
 Invalid
 layout
@@ -4361,7 +4317,7 @@ the
 overlapped
 planes
 "
-)
+_ns
 )
 ;
 }
@@ -4491,8 +4447,6 @@ Width
 return
 Err
 (
-nsCString
-(
 "
 Mismatch
 between
@@ -4504,7 +4458,7 @@ rect
 s
 width
 "
-)
+_ns
 )
 ;
 }
@@ -4529,8 +4483,6 @@ Height
 return
 Err
 (
-nsCString
-(
 "
 Mismatch
 between
@@ -4542,7 +4494,7 @@ rect
 s
 height
 "
-)
+_ns
 )
 ;
 }
@@ -5426,8 +5378,6 @@ Height
 return
 Err
 (
-nsCString
-(
 "
 codedWidth
 and
@@ -5436,7 +5386,7 @@ must
 be
 positive
 "
-)
+_ns
 )
 ;
 }
@@ -5674,8 +5624,6 @@ IsMapped
 return
 Err
 (
-nsCString
-(
 "
 The
 source
@@ -5684,7 +5632,7 @@ is
 not
 readable
 "
-)
+_ns
 )
 ;
 }
@@ -5734,8 +5682,6 @@ bgraSurface
 return
 Err
 (
-nsCString
-(
 "
 Failed
 to
@@ -5744,7 +5690,7 @@ a
 BGRA
 surface
 "
-)
+_ns
 )
 ;
 }
@@ -5780,8 +5726,6 @@ IsMapped
 return
 Err
 (
-nsCString
-(
 "
 The
 allocated
@@ -5791,7 +5735,7 @@ is
 not
 writable
 "
-)
+_ns
 )
 ;
 }
@@ -5937,8 +5881,6 @@ surface
 return
 Err
 (
-nsCString
-(
 "
 Failed
 to
@@ -5950,7 +5892,7 @@ into
 a
 surface
 "
-)
+_ns
 )
 ;
 }
@@ -6161,8 +6103,6 @@ isValid
 return
 Err
 (
-nsCString
-(
 "
 Image
 size
@@ -6172,7 +6112,7 @@ implementation
 s
 limit
 "
-)
+_ns
 )
 ;
 }
@@ -7103,8 +7043,6 @@ data
 return
 Err
 (
-nsCString
-(
 "
 Failed
 to
@@ -7112,7 +7050,7 @@ create
 NV12
 image
 "
-)
+_ns
 )
 ;
 }
@@ -7146,14 +7084,12 @@ forget
 return
 Err
 (
-nsCString
-(
 "
 Unsupported
 image
 format
 "
-)
+_ns
 )
 ;
 }
@@ -7376,14 +7312,12 @@ aBuffer
 return
 Err
 (
-nsCString
-(
 "
 Invalid
 image
 format
 "
-)
+_ns
 )
 ;
 }
@@ -7491,8 +7425,6 @@ Linear
 return
 Err
 (
-nsCString
-(
 "
 linear
 RGB
@@ -7500,7 +7432,7 @@ is
 not
 supported
 "
-)
+_ns
 )
 ;
 }
@@ -7670,8 +7602,6 @@ codedSize
 return
 Err
 (
-nsCString
-(
 "
 coded
 width
@@ -7682,7 +7612,7 @@ height
 is
 invalid
 "
-)
+_ns
 )
 ;
 }
@@ -7836,15 +7766,13 @@ mAllocationSize
 return
 Err
 (
-nsCString
-(
 "
 data
 is
 too
 small
 "
-)
+_ns
 )
 ;
 }
@@ -7936,15 +7864,13 @@ codedSize
 return
 Err
 (
-nsCString
-(
 "
 data
 is
 too
 small
 "
-)
+_ns
 )
 ;
 }
