@@ -2426,6 +2426,17 @@ to
 -
 left
 .
+#
+[
+cfg_attr
+(
+test
+allow
+(
+dead_code
+)
+)
+]
 pub
 rtl
 :
