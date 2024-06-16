@@ -519,7 +519,7 @@ h
 for
 nsTArray
 and
-nsAutoTArray
+AutoTArray
 #
 include
 "

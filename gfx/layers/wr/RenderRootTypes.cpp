@@ -508,7 +508,7 @@ map
 because
 /
 /
-nsDataHashTable
+nsTHashMap
 doesn
 '
 t
