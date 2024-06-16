@@ -557,7 +557,7 @@ release
 "
 mozilla
 -
-esr115
+esr128
 "
 :
 {
@@ -567,7 +567,7 @@ target_tasks_method
 "
 :
 "
-mozilla_esr115_tasks
+mozilla_esr128_tasks
 "
         
 "
@@ -575,7 +575,7 @@ release_type
 "
 :
 "
-esr115
+esr128
 "
     
 }

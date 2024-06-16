@@ -108,6 +108,12 @@ esr115
 "
     
 "
+mozilla
+-
+esr128
+"
+    
+"
 comm
 -
 central
@@ -129,6 +135,12 @@ release
 comm
 -
 esr115
+"
+    
+"
+comm
+-
+esr128
 "
     
 #
