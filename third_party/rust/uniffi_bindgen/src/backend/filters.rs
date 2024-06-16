@@ -129,6 +129,7 @@ derive
 Debug
 )
 ]
+pub
 struct
 UniFFIError
 {
@@ -139,6 +140,7 @@ String
 impl
 UniFFIError
 {
+pub
 fn
 new
 (
