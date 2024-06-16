@@ -108,6 +108,15 @@ units
 *
 ;
 use
+bytemuck
+:
+:
+{
+Pod
+Zeroable
+}
+;
+use
 euclid
 :
 :
@@ -4412,6 +4421,9 @@ derive
 (
 Debug
 Clone
+Copy
+Pod
+Zeroable
 )
 ]
 #
@@ -4467,6 +4479,9 @@ derive
 (
 Debug
 Clone
+Copy
+Pod
+Zeroable
 )
 ]
 #
@@ -4569,6 +4584,9 @@ derive
 (
 Debug
 Clone
+Copy
+Pod
+Zeroable
 )
 ]
 #
