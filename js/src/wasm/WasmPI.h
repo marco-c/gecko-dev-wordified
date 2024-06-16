@@ -504,6 +504,11 @@ return
 suspendedReturnAddress_
 ;
 }
+void
+releaseStackMemory
+(
+)
+;
 #
 ifdef
 _WIN64
@@ -646,14 +651,6 @@ argc
 uint64_t
 *
 argv
-)
-;
-void
-UnwindStackSwitch
-(
-JSContext
-*
-cx
 )
 ;
 JSFunction
