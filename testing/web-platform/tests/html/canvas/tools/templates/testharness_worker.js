@@ -278,7 +278,7 @@ endif
 ;
 {
 {
-code
+code_worker
 |
 trim
 |
