@@ -1230,6 +1230,12 @@ GetLabeledBy
 )
 const
 ;
+long
+GetLandmarkType
+(
+)
+const
+;
 }
 ;
 SAFEARRAY
