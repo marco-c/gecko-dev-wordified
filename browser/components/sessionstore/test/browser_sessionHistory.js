@@ -126,7 +126,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 PAGE
@@ -634,7 +634,7 @@ entry
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 URL2
@@ -1483,7 +1483,7 @@ correct
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "
@@ -2299,9 +2299,7 @@ only
 works
 when
 Fission
-and
-SHIP
-are
+is
 enabled
 .
 if
@@ -2312,14 +2310,6 @@ Services
 appinfo
 .
 fissionAutostart
-|
-|
-!
-Services
-.
-appinfo
-.
-sessionHistoryInParent
 )
 {
 ok
@@ -2330,8 +2320,6 @@ Skipping
 test_wireframes
 when
 Fission
-or
-SHIP
 is
 not
 enabled

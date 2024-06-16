@@ -188,7 +188,7 @@ URL1
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -250,13 +250,6 @@ async
 await
 test_bfcache_telemetry
 (
-Services
-.
-appinfo
-.
-sessionHistoryInParent
-&
-&
 Services
 .
 prefs
