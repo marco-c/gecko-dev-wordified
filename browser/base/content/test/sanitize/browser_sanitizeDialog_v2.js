@@ -5520,7 +5520,7 @@ sanitize
 .
 cpd
 .
-hasMigratedToNewPrefs
+hasMigratedToNewPrefs2
 "
 false
 ]
@@ -5645,7 +5645,7 @@ sanitize
 .
 cpd
 .
-hasMigratedToNewPrefs
+hasMigratedToNewPrefs2
 "
 )
 true
