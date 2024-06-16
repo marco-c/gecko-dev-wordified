@@ -12721,6 +12721,17 @@ mMessage
 ePointerClick
 )
 ;
+MOZ_ASSERT
+(
+aEvent
+-
+>
+mMessage
+!
+=
+ePointerAuxClick
+)
+;
 /
 /
 SendReal

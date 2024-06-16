@@ -3009,6 +3009,17 @@ u
 click
 "
 )
+|
+|
+aEventTypeArg
+.
+EqualsLiteral
+(
+u
+"
+auxclick
+"
+)
 )
 {
 classID
