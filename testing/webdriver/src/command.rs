@@ -146,10 +146,7 @@ use
 serde_json
 :
 :
-{
-self
 Value
-}
 ;
 #
 [

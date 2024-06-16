@@ -105,15 +105,6 @@ use
 std
 :
 :
-convert
-:
-:
-From
-;
-use
-std
-:
-:
 error
 ;
 use

@@ -124,7 +124,6 @@ http
 :
 :
 {
-self
 Method
 StatusCode
 }
@@ -218,7 +217,6 @@ warp
 :
 :
 {
-self
 Buf
 Filter
 Rejection
