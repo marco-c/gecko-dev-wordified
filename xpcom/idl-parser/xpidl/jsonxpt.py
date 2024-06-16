@@ -1027,13 +1027,12 @@ setter
 "
 hidden
 "
+not
 method
 .
-noscript
-or
-method
-.
-notxpcom
+isScriptable
+(
+)
 )
             
 (

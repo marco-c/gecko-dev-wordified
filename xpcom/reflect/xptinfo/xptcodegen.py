@@ -2759,42 +2759,6 @@ d2
 =
 0
         
-#
-TD_VOID
-is
-used
-for
-types
-that
-can
-'
-t
-be
-represented
-in
-JS
-so
-they
-        
-#
-should
-not
-be
-represented
-in
-the
-XPT
-info
-.
-        
-assert
-tag
-!
-=
-"
-TD_VOID
-"
-        
 if
 tag
 =
@@ -3239,6 +3203,7 @@ lower_method
 (
 method
 ifacename
+builtinclass
 )
 :
         
@@ -3286,6 +3251,8 @@ method
 if
 not
 reflectable
+and
+builtinclass
 :
             
 #
@@ -3302,9 +3269,14 @@ be
 called
 from
 JS
-to
+and
             
 #
+are
+on
+builtinclass
+interfaces
+to
 reduce
 the
 size
@@ -3996,6 +3968,19 @@ name
 "
 ]
         
+builtinclass
+=
+"
+builtinclass
+"
+in
+iface
+[
+"
+flags
+"
+]
+        
 #
 Store
 the
@@ -4107,16 +4092,7 @@ Flags
             
 mBuiltinClass
 =
-"
 builtinclass
-"
-in
-iface
-[
-"
-flags
-"
-]
             
 mMainProcessScriptableOnly
 =
@@ -4176,6 +4152,7 @@ iface
 name
 "
 ]
+builtinclass
 )
         
 for
