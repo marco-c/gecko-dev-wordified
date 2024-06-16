@@ -120,7 +120,7 @@ packet
 :
 :
 PacketNumber
-tracking
+recovery
 :
 :
 SentPacket
@@ -1211,6 +1211,8 @@ there
 )
 .
 pn
+(
+)
 ;
 if
 largest_acked
@@ -1470,6 +1472,8 @@ p
 p
 .
 ecn_mark
+(
+)
 =
 =
 IpTosEcn

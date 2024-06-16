@@ -8582,6 +8582,10 @@ contains_key
 (
 &
 stream
+.
+stream_id
+(
+)
 )
 )
 ;
@@ -8590,6 +8594,10 @@ requests
 insert
 (
 stream
+.
+stream_id
+(
+)
 0
 )
 ;
@@ -8615,6 +8623,10 @@ contains_key
 (
 &
 stream
+.
+stream_id
+(
+)
 )
 )
 ;

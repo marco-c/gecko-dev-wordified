@@ -160,6 +160,7 @@ Connection
 ConnectionParameters
 Error
 StreamType
+MIN_INITIAL_PACKET_SIZE
 }
 ;
 const
@@ -204,7 +205,9 @@ DATAGRAM_LEN_SMALLER_THAN_MTU
 :
 u64
 =
-1200
+MIN_INITIAL_PACKET_SIZE
+as
+u64
 ;
 const
 DATA_SMALLER_THAN_MTU
@@ -218,7 +221,7 @@ u8
 [
 0
 ;
-1200
+MIN_INITIAL_PACKET_SIZE
 ]
 ;
 const
@@ -2092,7 +2095,7 @@ stream_id
 [
 6
 ;
-1200
+MIN_INITIAL_PACKET_SIZE
 ]
 )
 .
@@ -2285,7 +2288,7 @@ stream_id
 [
 6
 ;
-1200
+MIN_INITIAL_PACKET_SIZE
 ]
 )
 .
@@ -3620,7 +3623,7 @@ DATA_SIZE
 :
 usize
 =
-1200
+MIN_INITIAL_PACKET_SIZE
 ;
 const
 MAX_QUEUE
@@ -3976,7 +3979,7 @@ DATA_SIZE
 :
 usize
 =
-1200
+MIN_INITIAL_PACKET_SIZE
 ;
 const
 MAX_QUEUE

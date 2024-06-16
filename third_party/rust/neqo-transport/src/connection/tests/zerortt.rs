@@ -153,6 +153,7 @@ ConnectionParameters
 Error
 StreamType
 Version
+MIN_INITIAL_PACKET_SIZE
 }
 ;
 #
@@ -530,7 +531,7 @@ t
 be
 padded
 to
-1200
+MIN_INITIAL_PACKET_SIZE
 .
 assert
 !
@@ -549,7 +550,7 @@ len
 (
 )
 <
-1200
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 let

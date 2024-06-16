@@ -175,6 +175,10 @@ ConnectionIdEntry
 CONNECTION_ID_SEQNO_PREFERRED
 MAX_CONNECTION_ID_LEN
 }
+packet
+:
+:
+MIN_INITIAL_PACKET_SIZE
 version
 :
 :
@@ -2013,7 +2017,12 @@ if
 v
 >
 =
-1200
+MIN_INITIAL_PACKET_SIZE
+.
+try_into
+(
+)
+?
 =
 >
 Self

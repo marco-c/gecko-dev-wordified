@@ -134,6 +134,7 @@ neqo_transport
 ConnectionParameters
 StreamId
 StreamType
+MIN_INITIAL_PACKET_SIZE
 }
 ;
 use
@@ -185,7 +186,9 @@ DATAGRAM_SIZE
 :
 u64
 =
-1200
+MIN_INITIAL_PACKET_SIZE
+as
+u64
 ;
 pub
 fn

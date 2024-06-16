@@ -6244,7 +6244,10 @@ uninit
 (
 )
 ;
-if
+let
+info_res
+=
+&
 ssl
 :
 :
@@ -6282,6 +6285,9 @@ unwrap
 (
 )
 )
+;
+if
+info_res
 .
 is_err
 (

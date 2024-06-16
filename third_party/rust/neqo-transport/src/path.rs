@@ -199,7 +199,10 @@ PacketBuilder
 recovery
 :
 :
+{
 RecoveryToken
+SentPacket
+}
 rtt
 :
 :
@@ -215,10 +218,7 @@ FrameStats
 tracking
 :
 :
-{
 PacketNumberSpace
-SentPacket
-}
 Stats
 }
 ;
@@ -6961,6 +6961,8 @@ now
 sent
 .
 time_sent
+(
+)
 )
 ;
 stats
@@ -6985,6 +6987,8 @@ now
 sent
 .
 time_sent
+(
+)
 Duration
 :
 :

@@ -162,6 +162,7 @@ CloseReason
 Error
 State
 StreamType
+MIN_INITIAL_PACKET_SIZE
 }
 ;
 use
@@ -3212,7 +3213,7 @@ len
 )
 >
 =
-1200
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 let
@@ -3312,7 +3313,7 @@ len
 )
 >
 =
-1200
+MIN_INITIAL_PACKET_SIZE
 )
 ;
 }
@@ -4162,7 +4163,7 @@ Encoder
 :
 with_capacity
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 )
 .
 encode
@@ -4183,7 +4184,7 @@ notoken_packet
 .
 resize_with
 (
-1200
+MIN_INITIAL_PACKET_SIZE
 u8
 :
 :
@@ -4229,7 +4230,7 @@ truncate
 /
 /
 All
-1200
+MIN_INITIAL_PACKET_SIZE
 bytes
 are
 needed

@@ -150,10 +150,6 @@ qlog
 ;
 pub
 mod
-timer
-;
-pub
-mod
 tos
 ;
 use

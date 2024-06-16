@@ -193,6 +193,10 @@ path
 :
 :
 PathRef
+recovery
+:
+:
+SentPacket
 stream_id
 :
 :
@@ -206,10 +210,6 @@ tparams
 self
 TransportParametersHandler
 }
-tracking
-:
-:
-SentPacket
 version
 :
 :
@@ -1753,7 +1753,9 @@ with_type
 (
 pkt
 .
-pt
+packet_type
+(
+)
 .
 into
 (
@@ -1763,6 +1765,8 @@ Some
 pkt
 .
 pn
+(
+)
 )
 None
 None
