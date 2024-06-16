@@ -940,7 +940,6 @@ OS_FILE_ILLEGAL_CHARACTERS
 /
 :
 *
-%
 ?
 \
 "
@@ -987,7 +986,6 @@ OS_FILE_ILLEGAL_CHARACTERS
 /
 :
 *
-%
 ?
 \
 "
