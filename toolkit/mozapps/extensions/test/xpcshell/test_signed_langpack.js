@@ -250,6 +250,9 @@ packs
 .
 add_task
 (
+useAMOStageCert
+(
+)
 async
 function
 (
