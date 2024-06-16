@@ -4888,7 +4888,7 @@ uri
 -
 list
 GdkAtom
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -4899,7 +4899,7 @@ FALSE
 if
 (
 !
-gdkFlavor
+requestedFlavor
 )
 {
 *
@@ -4924,7 +4924,7 @@ availableDragFlavors
 ;
 GetTargetDragData
 (
-gdkFlavor
+requestedFlavor
 availableDragFlavors
 )
 ;
@@ -4943,7 +4943,7 @@ if
 mTargetDragUris
 )
 {
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -4954,7 +4954,7 @@ FALSE
 if
 (
 !
-gdkFlavor
+requestedFlavor
 )
 {
 *
@@ -4968,7 +4968,7 @@ NS_OK
 }
 GetTargetDragData
 (
-gdkFlavor
+requestedFlavor
 availableDragFlavors
 false
 /
@@ -4994,7 +4994,7 @@ if
 mTargetDragUris
 )
 {
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -5005,7 +5005,7 @@ FALSE
 if
 (
 !
-gdkFlavor
+requestedFlavor
 )
 {
 *
@@ -5019,7 +5019,7 @@ NS_OK
 }
 GetTargetDragData
 (
-gdkFlavor
+requestedFlavor
 availableDragFlavors
 false
 /
@@ -5920,7 +5920,7 @@ i
 ]
 ;
 GdkAtom
-gdkFlavor
+requestedFlavor
 ;
 if
 (
@@ -5932,7 +5932,7 @@ kTextMime
 )
 )
 {
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -5943,7 +5943,7 @@ FALSE
 }
 else
 {
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -5980,7 +5980,7 @@ flavorStr
 get
 (
 )
-gdkFlavor
+requestedFlavor
 )
 ;
 bool
@@ -5996,12 +5996,12 @@ file
 ;
 if
 (
-gdkFlavor
+requestedFlavor
 )
 {
 GetTargetDragData
 (
-gdkFlavor
+requestedFlavor
 availableDragFlavors
 )
 ;
@@ -6053,7 +6053,7 @@ n
 gPortalFile
 )
 ;
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -6063,12 +6063,12 @@ FALSE
 ;
 if
 (
-gdkFlavor
+requestedFlavor
 )
 {
 GetTargetDragData
 (
-gdkFlavor
+requestedFlavor
 availableDragFlavors
 false
 /
@@ -6127,7 +6127,7 @@ n
 gPortalFileTransfer
 )
 ;
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -6137,12 +6137,12 @@ FALSE
 ;
 if
 (
-gdkFlavor
+requestedFlavor
 )
 {
 GetTargetDragData
 (
-gdkFlavor
+requestedFlavor
 availableDragFlavors
 false
 /
@@ -6227,7 +6227,7 @@ kFileMime
 gTextUriListType
 )
 ;
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -6237,12 +6237,12 @@ FALSE
 ;
 if
 (
-gdkFlavor
+requestedFlavor
 )
 {
 GetTargetDragData
 (
-gdkFlavor
+requestedFlavor
 availableDragFlavors
 false
 /
@@ -6399,7 +6399,7 @@ kTextMime
 kTextMime
 )
 ;
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -6409,7 +6409,7 @@ FALSE
 ;
 GetTargetDragData
 (
-gdkFlavor
+requestedFlavor
 availableDragFlavors
 )
 ;
@@ -6502,7 +6502,7 @@ kURLMime
 gTextUriListType
 )
 ;
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -6512,7 +6512,7 @@ FALSE
 ;
 GetTargetDragData
 (
-gdkFlavor
+requestedFlavor
 availableDragFlavors
 )
 ;
@@ -6614,7 +6614,7 @@ kURLMime
 gMozUrlType
 )
 ;
-gdkFlavor
+requestedFlavor
 =
 gdk_atom_intern
 (
@@ -6624,7 +6624,7 @@ FALSE
 ;
 GetTargetDragData
 (
-gdkFlavor
+requestedFlavor
 availableDragFlavors
 )
 ;
@@ -6743,7 +6743,7 @@ gchar
 (
 gdk_atom_name
 (
-gdkFlavor
+requestedFlavor
 )
 )
 .
@@ -9216,13 +9216,14 @@ nsDragService
 GetTargetDragData
 (
 GdkAtom
-aFlavor
+aRequestedFlavor
+const
 nsTArray
 <
 nsCString
 >
 &
-aDropFlavors
+aAvailableDragFlavors
 bool
 aResetTargetData
 )
@@ -9238,6 +9239,7 @@ GetTargetDragData
 %
 p
 )
+requested
 '
 %
 s
@@ -9257,7 +9259,7 @@ gchar
 (
 gdk_atom_name
 (
-aFlavor
+aRequestedFlavor
 )
 )
 .
@@ -9291,7 +9293,7 @@ name
 (
 gdk_atom_name
 (
-aFlavor
+aRequestedFlavor
 )
 )
 ;
@@ -9323,7 +9325,7 @@ D
 if
 (
 !
-aDropFlavors
+aAvailableDragFlavors
 .
 Contains
 (
@@ -9565,7 +9567,7 @@ gtk_drag_get_data
 (
 mTargetWidget
 mTargetDragContext
-aFlavor
+aRequestedFlavor
 mTargetTime
 )
 ;
