@@ -206,7 +206,7 @@ in
 Optional
 (
 "
-job
+task
 -
 from
 "
@@ -249,7 +249,7 @@ to
 diffoscope
 used
 for
-job
+task
 -
 defaults
 in
