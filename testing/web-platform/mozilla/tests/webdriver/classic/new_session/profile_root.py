@@ -4,6 +4,14 @@ import
 os
 import
 pytest
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
+async
 def
 test_profile_root
 (
@@ -189,6 +197,7 @@ profile_path
 =
 1
     
+await
 driver
 .
 delete_session

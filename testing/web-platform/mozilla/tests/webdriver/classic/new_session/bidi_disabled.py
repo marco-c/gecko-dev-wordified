@@ -2,6 +2,16 @@ from
 copy
 import
 deepcopy
+import
+pytest
+pytestmark
+=
+pytest
+.
+mark
+.
+asyncio
+async
 def
 test_marionette_fallback_webdriver_session
 (
@@ -164,6 +174,7 @@ handles
 finally
 :
         
+await
 driver
 .
 stop

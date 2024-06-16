@@ -1,5 +1,7 @@
 import
 pytest
+import
+pytest_asyncio
 from
 .
 helpers
@@ -506,9 +508,10 @@ moz
 firefoxOptions
 "
 ]
-pytest
+pytest_asyncio
 .
 fixture
+async
 def
 geckodriver
 (
@@ -589,6 +592,7 @@ not
 None
 :
         
+await
 driver
 .
 stop

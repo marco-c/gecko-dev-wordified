@@ -1207,6 +1207,7 @@ groups
 ]
 )
     
+async
 def
 stop
 (
@@ -1223,6 +1224,7 @@ not
 None
 :
             
+await
 self
 .
 delete_session
@@ -1281,12 +1283,35 @@ start
 (
 )
     
+async
 def
 delete_session
 (
 self
 )
 :
+        
+if
+self
+.
+session
+.
+bidi_session
+is
+not
+None
+:
+            
+await
+self
+.
+session
+.
+bidi_session
+.
+end
+(
+)
         
 self
 .

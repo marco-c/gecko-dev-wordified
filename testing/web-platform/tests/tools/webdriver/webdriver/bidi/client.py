@@ -1754,14 +1754,15 @@ connection
 "
 "
         
-assert
+if
 self
 .
 transport
 is
 not
 None
-        
+:
+            
 await
 self
 .
@@ -1770,7 +1771,7 @@ transport
 end
 (
 )
-        
+            
 self
 .
 transport
