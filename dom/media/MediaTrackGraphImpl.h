@@ -7419,6 +7419,8 @@ mGlobalVolume
 #
 ifdef
 DEBUG
+protected
+:
 /
 *
 *
@@ -7442,6 +7444,8 @@ mCanRunMessagesSynchronously
 ;
 #
 endif
+private
+:
 /
 *
 *
