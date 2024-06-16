@@ -1745,9 +1745,6 @@ init_params
 new
 URLSearchParams
 (
-baseUrl
-.
-search
 )
 ;
 init_params
@@ -1809,9 +1806,6 @@ params
 new
 URLSearchParams
 (
-baseUrl
-.
-search
 )
 ;
 params
