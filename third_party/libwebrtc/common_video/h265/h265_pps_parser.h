@@ -131,6 +131,17 @@ bitstream_reader
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -154,6 +165,7 @@ H265
 NALU
 .
 class
+RTC_EXPORT
 H265PpsParser
 {
 public

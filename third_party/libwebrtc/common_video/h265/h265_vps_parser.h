@@ -111,6 +111,17 @@ array_view
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -134,6 +145,7 @@ H265
 NALU
 .
 class
+RTC_EXPORT
 H265VpsParser
 {
 public
@@ -165,6 +177,7 @@ actually
 needed
 .
 struct
+RTC_EXPORT
 VpsState
 {
 VpsState
