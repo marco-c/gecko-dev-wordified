@@ -326,6 +326,10 @@ test
 navigate
 =
 False
+        
+*
+*
+kwargs
     
 )
 :
@@ -557,6 +561,9 @@ blocked_url
 context
 =
 context
+*
+*
+kwargs
 )
 )
         
