@@ -1657,7 +1657,7 @@ packet
 >
 SetExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 frame

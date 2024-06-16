@@ -7440,7 +7440,7 @@ default_map
 .
 Register
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 kAudioLevelDefaultId

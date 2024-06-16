@@ -508,7 +508,7 @@ hasAudioLevel
 =
 GetExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 &

@@ -4639,7 +4639,7 @@ extension_map
 .
 IsRegistered
 (
-AudioLevel
+AudioLevelExtension
 :
 :
 kId
@@ -4666,7 +4666,7 @@ rtp_packet
 >
 SetExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 prng_
@@ -5530,7 +5530,7 @@ if
 (
 not_excluded
 (
-AudioLevel
+AudioLevelExtension
 :
 :
 kId
@@ -5556,7 +5556,7 @@ extension_map
 .
 Register
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 id
@@ -7818,7 +7818,7 @@ original_header
 template
 HasExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 )
@@ -7851,7 +7851,7 @@ original_header
 template
 GetExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 &

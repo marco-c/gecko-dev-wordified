@@ -3401,7 +3401,7 @@ base_event
 template
 GetExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 &
@@ -4896,7 +4896,7 @@ event
 template
 GetExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 &
@@ -5013,7 +5013,7 @@ event
 template
 GetExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 &

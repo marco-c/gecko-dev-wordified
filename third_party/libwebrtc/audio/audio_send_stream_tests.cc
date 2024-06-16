@@ -662,7 +662,7 @@ extensions_
 .
 Register
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 kAudioLevelExtensionId
@@ -717,7 +717,7 @@ rtp_packet
 .
 GetExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 &

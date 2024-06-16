@@ -271,7 +271,7 @@ receivers_extensions_
 .
 Register
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 kAudioLevelExtensionId
@@ -652,7 +652,7 @@ rtp_module_
 >
 RegisterRtpHeaderExtension
 (
-AudioLevel
+AudioLevelExtension
 :
 :
 Uri
@@ -781,7 +781,7 @@ last_sent_packet
 .
 GetExtension
 <
-AudioLevel
+AudioLevelExtension
 >
 (
 &
