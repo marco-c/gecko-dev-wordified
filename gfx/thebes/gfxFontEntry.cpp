@@ -3015,7 +3015,7 @@ The
 empty
 )
 blob
-is
+will
 still
 be
 held
@@ -3029,6 +3029,10 @@ strong
 /
 reference
 .
+mSharedBlobData
+=
+nullptr
+;
 return
 hb_blob_reference
 (
