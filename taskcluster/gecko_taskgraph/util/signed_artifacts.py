@@ -667,7 +667,7 @@ formats
 :
 [
 "
-autograph_authenticode_sha2
+autograph_authenticode_202404
 "
 ]
             
@@ -704,7 +704,7 @@ formats
 [
                     
 "
-autograph_authenticode_sha2
+autograph_authenticode_202404
 "
                     
 "
