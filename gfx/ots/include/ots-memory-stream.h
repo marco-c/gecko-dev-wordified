@@ -179,7 +179,13 @@ length
 off_
 +
 =
+static_cast
+<
+off_t
+>
+(
 length
+)
 ;
 return
 true
@@ -481,7 +487,13 @@ length
 off_
 +
 =
+static_cast
+<
+off_t
+>
+(
 length
+)
 ;
 return
 true
