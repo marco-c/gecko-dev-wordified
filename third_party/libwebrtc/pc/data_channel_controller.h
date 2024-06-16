@@ -916,7 +916,13 @@ returned
 RTCError
 ReserveOrAllocateSid
 (
+absl
+:
+:
+optional
+<
 StreamId
+>
 &
 sid
 absl
