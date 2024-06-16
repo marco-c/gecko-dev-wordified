@@ -1496,12 +1496,15 @@ nanos
 =
 micros
 *
+int32_t
+(
 ToNanoseconds
 (
 TemporalUnit
 :
 :
 Microsecond
+)
 )
 ;
 return
@@ -4271,7 +4274,10 @@ return
 ThrowInvalidDurationPart
 (
 cx
+double
+(
 v
+)
 name
 JSMSG_TEMPORAL_DURATION_INVALID_SIGN
 )
@@ -4323,7 +4329,10 @@ return
 ThrowInvalidDurationPart
 (
 cx
+double
+(
 v
+)
 name
 JSMSG_TEMPORAL_DURATION_INVALID_NON_FINITE
 )
@@ -14258,7 +14267,7 @@ b
 -
 c
 .
-uint32_t
+int32_t
 k
 =
 100
@@ -14376,7 +14385,7 @@ b
 -
 c
 .
-uint32_t
+int32_t
 k
 =
 100

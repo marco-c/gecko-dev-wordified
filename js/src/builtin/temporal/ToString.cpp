@@ -1160,7 +1160,7 @@ b
 -
 c
 .
-uint32_t
+int32_t
 k
 =
 100
@@ -1261,7 +1261,7 @@ b
 -
 c
 .
-uint32_t
+int32_t
 k
 =
 100
@@ -1826,7 +1826,10 @@ offsetNanoseconds
 ;
 }
 return
+int32_t
+(
 quotient
+)
 ;
 }
 /

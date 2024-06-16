@@ -1231,10 +1231,13 @@ Int32ToCString
 (
 &
 cbuf
+int32_t
+(
 increment
 .
 value
 (
+)
 )
 )
 ;

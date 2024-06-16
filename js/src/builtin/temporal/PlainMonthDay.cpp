@@ -750,7 +750,10 @@ PlainMonthDayObject
 ISO_MONTH_SLOT
 Int32Value
 (
+int32_t
+(
 isoMonth
+)
 )
 )
 ;
@@ -770,7 +773,10 @@ PlainMonthDayObject
 ISO_DAY_SLOT
 Int32Value
 (
+int32_t
+(
 isoDay
+)
 )
 )
 ;
@@ -811,7 +817,10 @@ PlainMonthDayObject
 ISO_YEAR_SLOT
 Int32Value
 (
+int32_t
+(
 isoYear
+)
 )
 )
 ;

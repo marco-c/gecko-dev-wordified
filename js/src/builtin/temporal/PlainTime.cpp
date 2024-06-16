@@ -2089,7 +2089,10 @@ PlainTimeObject
 ISO_HOUR_SLOT
 Int32Value
 (
+int32_t
+(
 hour
+)
 )
 )
 ;
@@ -2109,7 +2112,10 @@ PlainTimeObject
 ISO_MINUTE_SLOT
 Int32Value
 (
+int32_t
+(
 minute
+)
 )
 )
 ;
@@ -2129,7 +2135,10 @@ PlainTimeObject
 ISO_SECOND_SLOT
 Int32Value
 (
+int32_t
+(
 second
+)
 )
 )
 ;
@@ -2149,7 +2158,10 @@ PlainTimeObject
 ISO_MILLISECOND_SLOT
 Int32Value
 (
+int32_t
+(
 millisecond
+)
 )
 )
 ;
@@ -2169,7 +2181,10 @@ PlainTimeObject
 ISO_MICROSECOND_SLOT
 Int32Value
 (
+int32_t
+(
 microsecond
+)
 )
 )
 ;
@@ -2189,7 +2204,10 @@ PlainTimeObject
 ISO_NANOSECOND_SLOT
 Int32Value
 (
+int32_t
+(
 nanosecond
+)
 )
 )
 ;

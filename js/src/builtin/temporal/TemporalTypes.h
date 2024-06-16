@@ -1497,11 +1497,14 @@ milliseconds
 int32_t
 millis
 =
+int32_t
+(
 milliseconds
 %
 1
 '
 000
+)
 ;
 if
 (
@@ -1571,6 +1574,8 @@ microseconds
 int32_t
 micros
 =
+int32_t
+(
 microseconds
 %
 1
@@ -1578,6 +1583,7 @@ microseconds
 000
 '
 000
+)
 ;
 if
 (
@@ -1649,6 +1655,8 @@ nanoseconds
 int32_t
 nanos
 =
+int32_t
+(
 nanoseconds
 %
 1
@@ -1658,6 +1666,7 @@ nanoseconds
 000
 '
 000
+)
 ;
 if
 (

@@ -833,7 +833,10 @@ if
 ISOYearMonthWithinLimits
 (
 isoYear
+int32_t
+(
 isoMonth
+)
 )
 )
 {
@@ -922,7 +925,10 @@ PlainYearMonthObject
 ISO_YEAR_SLOT
 Int32Value
 (
+int32_t
+(
 isoYear
+)
 )
 )
 ;
@@ -942,7 +948,10 @@ PlainYearMonthObject
 ISO_MONTH_SLOT
 Int32Value
 (
+int32_t
+(
 isoMonth
+)
 )
 )
 ;
@@ -983,7 +992,10 @@ PlainYearMonthObject
 ISO_DAY_SLOT
 Int32Value
 (
+int32_t
+(
 isoDay
+)
 )
 )
 ;
