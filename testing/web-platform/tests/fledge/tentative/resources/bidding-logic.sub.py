@@ -591,6 +591,8 @@ trustedBiddingSignals
 browserSignals
                               
 directFromSellerSignals
+                              
+crossOriginTrustedBiddingSignals
 )
 {
 {
