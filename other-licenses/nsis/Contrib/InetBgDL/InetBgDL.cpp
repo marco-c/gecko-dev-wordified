@@ -122,6 +122,7 @@ NSIS
 InetBgDL
 (
 Mozilla
+2024
 )
 "
 )
