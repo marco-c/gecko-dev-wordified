@@ -11333,7 +11333,7 @@ Windows
 DeviceFamily
 :
 :
-NvidiaAll
+All
 nsIGfxInfo
 :
 :
