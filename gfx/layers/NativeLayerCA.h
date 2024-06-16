@@ -1146,10 +1146,6 @@ aFullscreen
 VideoLowPowerType
 CheckVideoLowPower
 (
-const
-MutexAutoLock
-&
-aProofOfLock
 )
 ;
 protected
@@ -2472,6 +2468,11 @@ aProofOfLock
 bool
 IsVideo
 (
+)
+;
+bool
+IsVideoAndLocked
+(
 const
 MutexAutoLock
 &
@@ -3707,6 +3708,11 @@ mIsOpaque
 false
 ;
 bool
+mRootWindowIsFullscreen
+=
+false
+;
+bool
 mSpecializeVideo
 =
 false
@@ -3718,11 +3724,6 @@ false
 ;
 bool
 mIsDRM
-=
-false
-;
-bool
-mIsTextureHostVideo
 =
 false
 ;
