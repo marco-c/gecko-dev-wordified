@@ -422,6 +422,7 @@ void
 checkTrampolineAfterMovingGC
 (
 )
+const
 ;
 #
 endif
