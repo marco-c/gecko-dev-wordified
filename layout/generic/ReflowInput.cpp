@@ -7387,7 +7387,7 @@ aWM
 nsLayoutUtils
 :
 :
-ComputeBSizeDependentValue
+ComputeCBDependentValue
 (
 aCBSize
 .
@@ -7468,7 +7468,7 @@ aWM
 nsLayoutUtils
 :
 :
-ComputeBSizeDependentValue
+ComputeCBDependentValue
 (
 aCBSize
 .
@@ -14018,7 +14018,7 @@ cbwm
 nsLayoutUtils
 :
 :
-ComputeBSizeDependentValue
+ComputeCBDependentValue
 (
 cbSize
 .
@@ -14062,7 +14062,7 @@ cbwm
 nsLayoutUtils
 :
 :
-ComputeBSizeDependentValue
+ComputeCBDependentValue
 (
 cbSize
 .
