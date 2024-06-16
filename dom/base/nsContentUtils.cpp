@@ -72374,15 +72374,12 @@ null
 ;
 if
 (
-MOZ_UNLIKELY
-(
 NS_WARN_IF
 (
 aNode1
 =
 =
 aNode2
-)
 )
 )
 {
