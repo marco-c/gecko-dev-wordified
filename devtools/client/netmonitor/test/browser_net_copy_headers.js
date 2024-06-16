@@ -379,6 +379,7 @@ Priority
 u
 =
 1
+i
 "
 "
 Pragma
