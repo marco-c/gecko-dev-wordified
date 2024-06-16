@@ -2547,8 +2547,13 @@ parameter
 *
 Pref
 :
-None
+javascript
 .
+options
+.
+mem
+.
+gc_max_parallel_marking_threads
 *
 Default
 :
