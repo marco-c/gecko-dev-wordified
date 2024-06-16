@@ -2234,12 +2234,11 @@ interested
 ]
 ;
 }
-onLegacyEngagement
+onEngagement
 (
-state
 queryContext
-details
 controller
+details
 )
 {
 if
@@ -2266,7 +2265,7 @@ details
 ;
 info
 (
-onLegacyEngagement
+onEngagement
 called
 selType
 =

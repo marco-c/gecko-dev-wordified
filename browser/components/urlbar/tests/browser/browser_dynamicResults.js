@@ -3065,7 +3065,7 @@ KEY_Enter
 /
 Verify
 that
-onLegacyEngagement
+onEngagement
 was
 still
 called
@@ -4819,12 +4819,11 @@ searchString
 }
 ;
 }
-onLegacyEngagement
+onEngagement
 (
-state
 queryContext
+controller
 details
-_controller
 )
 {
 if
