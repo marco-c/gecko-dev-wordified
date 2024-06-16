@@ -1324,6 +1324,8 @@ poll
 is
 None
     
+property
+    
 def
 pid
 (
