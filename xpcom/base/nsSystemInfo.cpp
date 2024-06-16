@@ -9089,6 +9089,10 @@ Value
 valCoreInfo
 (
 aCx
+info
+.
+cpuCores
+?
 JS
 :
 :
@@ -9097,6 +9101,13 @@ Int32Value
 info
 .
 cpuCores
+)
+:
+JS
+:
+:
+NullValue
+(
 )
 )
 ;
