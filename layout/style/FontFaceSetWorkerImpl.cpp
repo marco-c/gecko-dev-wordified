@@ -1418,7 +1418,7 @@ if
 modified
 )
 {
-IncrementGeneration
+IncrementGenerationLocked
 (
 true
 )
