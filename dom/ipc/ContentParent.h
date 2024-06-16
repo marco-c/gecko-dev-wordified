@@ -10057,7 +10057,6 @@ sys
 .
 mjs
 .
-const
 nsDependentCSubstring
 RemoteTypePrefix
 (

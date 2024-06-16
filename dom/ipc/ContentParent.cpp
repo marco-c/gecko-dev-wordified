@@ -4762,7 +4762,6 @@ aContentProcessType
 )
 ;
 }
-const
 nsDependentCSubstring
 RemoteTypePrefix
 (
@@ -15292,6 +15291,7 @@ false
 ;
 }
 auto
+*
 contentParents
 =
 sBrowserContentParents
@@ -26699,9 +26699,11 @@ aData
 )
 )
 )
+{
 return
 NS_ERROR_NOT_AVAILABLE
 ;
+}
 }
 else
 if
@@ -27890,6 +27892,7 @@ get_PopupIPCTabContext
 )
 ;
 auto
+*
 opener
 =
 BrowserParent
@@ -28655,13 +28658,7 @@ bp
 >
 SendUpdateRemotePrintSettings
 (
-std
-:
-:
-move
-(
 aPrintData
-)
 )
 ;
 return
@@ -28930,6 +28927,7 @@ get_PopupIPCTabContext
 )
 ;
 auto
+*
 opener
 =
 BrowserParent
@@ -33537,13 +33535,7 @@ SendReportFrameTimingData
 loadInfoArgs
 entryName
 initiatorType
-std
-:
-:
-move
-(
 aData
-)
 )
 ;
 return
@@ -35261,13 +35253,7 @@ NS_ERROR_FAILURE
 }
 aResolver
 (
-std
-:
-:
-move
-(
 result
-)
 )
 ;
 return
@@ -46746,8 +46732,6 @@ ID
 )
 ;
 }
-else
-{
 return
 IPC_FAIL
 (
@@ -46761,7 +46745,6 @@ object
 "
 )
 ;
-}
 }
 if
 (
@@ -46811,8 +46794,6 @@ ID
 )
 ;
 }
-else
-{
 return
 IPC_FAIL
 (
@@ -46826,7 +46807,6 @@ object
 "
 )
 ;
-}
 }
 if
 (
