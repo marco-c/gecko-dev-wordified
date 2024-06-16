@@ -87,6 +87,22 @@ large
 "
     
 "
+large
+-
+noscratch
+"
+:
+"
+t
+-
+linux
+-
+large
+-
+noscratch
+"
+    
+"
 xlarge
 "
 :
@@ -99,6 +115,22 @@ xlarge
 "
     
 "
+xlarge
+-
+noscratch
+"
+:
+"
+t
+-
+linux
+-
+xlarge
+-
+noscratch
+"
+    
+"
 default
 "
 :
@@ -108,6 +140,8 @@ t
 linux
 -
 large
+-
+noscratch
 "
 }
 #
