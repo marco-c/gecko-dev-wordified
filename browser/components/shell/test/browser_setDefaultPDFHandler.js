@@ -373,7 +373,7 @@ doCleanup
 await
 ExperimentFakes
 .
-enrollWithFeatureConfig
+enrollWithRollout
 (
 {
 featureId
@@ -399,11 +399,6 @@ enabled
 :
 true
 }
-}
-{
-isRollout
-:
-true
 }
 )
 ;
@@ -517,7 +512,7 @@ doCleanup
 await
 ExperimentFakes
 .
-enrollWithFeatureConfig
+enrollWithRollout
 (
 {
 featureId
@@ -543,11 +538,6 @@ enabled
 :
 true
 }
-}
-{
-isRollout
-:
-true
 }
 )
 ;
@@ -810,7 +800,7 @@ doCleanup
 await
 ExperimentFakes
 .
-enrollWithFeatureConfig
+enrollWithRollout
 (
 {
 featureId
@@ -833,11 +823,6 @@ enabled
 :
 true
 }
-}
-{
-isRollout
-:
-true
 }
 )
 ;
@@ -944,7 +929,7 @@ doCleanup
 await
 ExperimentFakes
 .
-enrollWithFeatureConfig
+enrollWithRollout
 (
 {
 featureId
@@ -967,11 +952,6 @@ enabled
 :
 false
 }
-}
-{
-isRollout
-:
-true
 }
 )
 ;

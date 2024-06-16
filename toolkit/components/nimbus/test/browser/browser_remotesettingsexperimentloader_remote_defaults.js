@@ -1652,7 +1652,7 @@ fooCleanup
 await
 ExperimentFakes
 .
-enrollWithFeatureConfig
+enrollWithRollout
 (
 {
 featureId
@@ -1672,9 +1672,6 @@ true
 }
 }
 {
-isRollout
-:
-true
 source
 :
 "
@@ -1688,7 +1685,7 @@ loader
 await
 ExperimentFakes
 .
-enrollWithFeatureConfig
+enrollWithRollout
 (
 {
 featureId
@@ -1708,9 +1705,6 @@ true
 }
 }
 {
-isRollout
-:
-true
 source
 :
 "
@@ -2836,7 +2830,7 @@ doCleanup
 await
 ExperimentFakes
 .
-enrollWithFeatureConfig
+enrollWithRollout
 (
 {
 featureId
@@ -2850,11 +2844,6 @@ true
 value
 :
 rolloutValue
-}
-{
-isRollout
-:
-true
 }
 )
 ;
