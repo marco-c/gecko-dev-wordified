@@ -121,6 +121,13 @@ toml
 "
 test
 /
+browser_profiler
+.
+toml
+"
+"
+test
+/
 browser_snap
 .
 toml
