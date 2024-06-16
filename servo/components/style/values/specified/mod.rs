@@ -874,6 +874,16 @@ self
 position
 :
 :
+PositionVisibility
+;
+pub
+use
+self
+:
+:
+position
+:
+:
 {
 GridAutoFlow
 GridTemplateAreas

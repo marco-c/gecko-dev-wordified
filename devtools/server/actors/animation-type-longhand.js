@@ -877,6 +877,11 @@ position
 anchor
 "
 "
+position
+-
+visibility
+"
+"
 print
 -
 color

@@ -5106,6 +5106,12 @@ mPositionAnchor
 mozilla
 :
 :
+StylePositionVisibility
+mPositionVisibility
+;
+mozilla
+:
+:
 StyleFlexBasis
 mFlexBasis
 ;
