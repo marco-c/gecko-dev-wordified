@@ -1825,12 +1825,15 @@ const
 StyleColorInterpolationMethod
 &
 aStyleColorInterpolationMethod
+bool
+aExtendLastStop
 )
 :
 ColorStopInterpolator
 (
 aStops
 aStyleColorInterpolationMethod
+aExtendLastStop
 )
 mGradient
 (
@@ -2381,6 +2384,7 @@ interpolator
 gradient
 stops
 interpolationMethod
+false
 )
 ;
 interpolator
