@@ -2221,14 +2221,6 @@ null
 isSourceActorWithSourceMap
 :
 isSourceActorWithSourceMapProp
-sourceMapURL
-:
-selectedLocation
-?
-.
-sourceActor
-.
-sourceMapURL
 areSourceMapsEnabled
 :
 areSourceMapsEnabledProp
