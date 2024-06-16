@@ -4964,6 +4964,8 @@ option
             
 binary
 =
+(
+                
 "
 com
 .
@@ -4971,6 +4973,34 @@ android
 .
 chrome
 "
+                
+if
+self
+.
+config
+[
+"
+app
+"
+]
+=
+=
+"
+chrome
+-
+m
+"
+                
+else
+"
+org
+.
+chromium
+.
+chrome
+"
+            
+)
             
 if
 self
