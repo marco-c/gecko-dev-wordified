@@ -17573,10 +17573,8 @@ applicable
 )
 /
 /
-Steps
+Step
 13
--
-18
 .
 auto
 rounded
@@ -17600,7 +17598,7 @@ rounded
 /
 /
 Step
-19
+14
 .
 return
 rounded
@@ -17701,7 +17699,7 @@ applicable
 Steps
 13
 -
-19
+14
 .
 return
 RoundNormalizedTimeDurationToIncrement
@@ -20458,7 +20456,7 @@ NormalizedTimeDuration
 /
 /
 Step
-19
+14
 .
 if
 (
@@ -21193,7 +21191,7 @@ NormalizedTimeDuration
 /
 /
 Step
-19
+14
 .
 if
 (
@@ -21745,7 +21743,7 @@ NormalizedTimeDuration
 /
 /
 Step
-19
+14
 .
 if
 (
@@ -21947,7 +21945,7 @@ NormalizedTimeDuration
 /
 /
 Step
-19
+14
 .
 auto
 resultDuration
@@ -22412,10 +22410,8 @@ Nanosecond
 ;
 /
 /
-Steps
+Step
 13
--
-18
 .
 auto
 time
@@ -22506,7 +22502,7 @@ time
 /
 /
 Step
-19
+14
 .
 MOZ_ASSERT
 (
@@ -23013,7 +23009,7 @@ Steps
 and
 13
 -
-21
+14
 .
 return
 :
@@ -23238,7 +23234,7 @@ applicable
 Steps
 9
 -
-19
+14
 .
 switch
 (
@@ -23250,7 +23246,7 @@ unit
 Steps
 9
 and
-19
+14
 .
 case
 TemporalUnit
@@ -23277,7 +23273,7 @@ result
 Steps
 10
 and
-19
+14
 .
 case
 TemporalUnit
@@ -23304,7 +23300,7 @@ result
 Steps
 11
 and
-19
+14
 .
 case
 TemporalUnit
@@ -23331,7 +23327,7 @@ result
 Steps
 12
 and
-19
+14
 .
 case
 TemporalUnit
@@ -23356,7 +23352,7 @@ result
 Steps
 13
 -
-18
+14
 .
 (
 Handled
