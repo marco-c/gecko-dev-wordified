@@ -132,7 +132,7 @@ file_thirdPartyChild
 .
 video
 .
-ogv
+webm
 ;
 const
 TEST_PATH_IMAGE
