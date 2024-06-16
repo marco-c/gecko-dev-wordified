@@ -521,6 +521,12 @@ bool
 in_alr
 )
 ;
+bool
+PaceAtLossBasedEstimate
+(
+)
+const
+;
 /
 /
 For
@@ -819,6 +825,11 @@ Zero
 ;
 bool
 bound_best_candidate
+=
+false
+;
+bool
+pace_at_loss_based_estimate
 =
 false
 ;

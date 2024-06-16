@@ -4670,6 +4670,15 @@ pace_at_max_of_bwe_and_lower_link_capacity_
 &
 &
 estimate_
+&
+&
+!
+bandwidth_estimation_
+-
+>
+PaceAtLossBasedEstimate
+(
+)
 )
 {
 pacing_rate
