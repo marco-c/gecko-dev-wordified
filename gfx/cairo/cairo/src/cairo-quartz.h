@@ -399,6 +399,16 @@ cairo_surface_t
 surface
 )
 ;
+cairo_public
+cairo_surface_t
+*
+cairo_quartz_surface_get_image
+(
+cairo_surface_t
+*
+surface
+)
+;
 #
 if
 CAIRO_HAS_QUARTZ_FONT
