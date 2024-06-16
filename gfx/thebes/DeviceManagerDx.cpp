@@ -3433,7 +3433,7 @@ in
 process
 compositing
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mDeviceStatus
 )
