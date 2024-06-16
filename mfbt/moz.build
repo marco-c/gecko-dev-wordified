@@ -432,6 +432,11 @@ MoveOnlyFunction
 h
 "
 "
+MPSCQueue
+.
+h
+"
+"
 MruCache
 .
 h

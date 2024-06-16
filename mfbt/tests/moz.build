@@ -330,6 +330,9 @@ CppUnitTests
 (
 [
 "
+TestMPSCQueue
+"
+"
 TestSPSCQueue
 "
 "
