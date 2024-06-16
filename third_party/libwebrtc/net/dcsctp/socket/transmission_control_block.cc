@@ -679,7 +679,6 @@ peer_initial_tsn
 reassembly_queue_
 (
 log_prefix
-peer_initial_tsn
 options
 .
 max_receiver_window_buffer_size
