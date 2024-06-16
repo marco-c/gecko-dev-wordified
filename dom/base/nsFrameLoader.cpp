@@ -1114,13 +1114,6 @@ XUL_DLL
 #
 include
 "
-nsSystemInfo
-.
-h
-"
-#
-include
-"
 nsXULPopupManager
 .
 h

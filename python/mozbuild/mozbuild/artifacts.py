@@ -4283,16 +4283,6 @@ pingsender
 product
 }
 /
-platform
-.
-ini
-"
-        
-"
-{
-product
-}
-/
 plugin
 -
 container
@@ -5639,12 +5629,6 @@ libfakeopenh264
 .
 dylib
 '
-                        
-"
-platform
-.
-ini
-"
                     
 ]
                 
@@ -6001,16 +5985,6 @@ product
 dependentlibs
 .
 list
-"
-        
-"
-{
-product
-}
-/
-platform
-.
-ini
 "
         
 "
