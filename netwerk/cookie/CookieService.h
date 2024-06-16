@@ -500,6 +500,8 @@ bool
 aIsForeignAndNotAddon
 bool
 aPartitionedOnly
+bool
+aIsInPrivateBrowsing
 nsIConsoleReportCollector
 *
 aCRC
