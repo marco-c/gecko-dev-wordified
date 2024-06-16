@@ -1498,8 +1498,13 @@ if
 mUseAccessibilityTheme
 &
 &
+(
+mIsChrome
+|
+|
 !
 mUseDocumentColors
+)
 )
 {
 /
