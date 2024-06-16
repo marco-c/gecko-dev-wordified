@@ -511,7 +511,6 @@ SSLServerCertVerificationResult
 =
 default
 ;
-const
 RefPtr
 <
 CommonSocketControl
