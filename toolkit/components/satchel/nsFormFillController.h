@@ -222,6 +222,9 @@ nsINode
 namespace
 mozilla
 {
+class
+CancelableRunnable
+;
 namespace
 dom
 {
@@ -573,6 +576,15 @@ dom
 HTMLInputElement
 *
 mFocusedInput
+;
+RefPtr
+<
+mozilla
+:
+:
+CancelableRunnable
+>
+mRestartAfterAttributeChangeTask
 ;
 /
 /
