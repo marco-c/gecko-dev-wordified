@@ -815,7 +815,6 @@ _buffer
 :
                 
 return
-0
             
 size
 =
