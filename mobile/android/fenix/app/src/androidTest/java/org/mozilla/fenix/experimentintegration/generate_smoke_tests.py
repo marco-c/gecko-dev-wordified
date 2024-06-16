@@ -606,10 +606,15 @@ test_name
 (
 setup_experiment
 gradlewbuild
+open_app
 )
 :
     
 setup_experiment
+(
+)
+    
+open_app
 (
 )
     
