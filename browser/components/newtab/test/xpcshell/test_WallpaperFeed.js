@@ -490,7 +490,7 @@ store
 .
 dispatch
 .
-calledOnce
+calledTwice
 )
 ;
 Assert
@@ -502,6 +502,8 @@ feed
 store
 .
 dispatch
+.
+firstCall
 .
 calledWith
 (
