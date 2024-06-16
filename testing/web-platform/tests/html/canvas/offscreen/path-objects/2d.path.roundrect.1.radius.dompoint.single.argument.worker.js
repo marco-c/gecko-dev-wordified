@@ -42,6 +42,7 @@ radius
 dompoint
 .
 single
+.
 argument
 /
 /
