@@ -187,6 +187,10 @@ aboutwelcome
 "
     
 "
+gleanInternalSdk
+"
+    
+"
 majorRelease2022
 "
     
