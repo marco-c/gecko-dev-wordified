@@ -56,11 +56,17 @@ MPL
 .
 *
 /
+const
+lazy
+=
+{
+}
+;
 ChromeUtils
 .
 defineESModuleGetters
 (
-this
+lazy
 {
 FormAutofill
 :
@@ -99,13 +105,6 @@ mjs
 }
 )
 ;
-/
-*
-exported
-canSubmitForm
-getCurrentFormData
-*
-/
 /
 /
 Defines
@@ -775,6 +774,7 @@ data
 .
 *
 /
+export
 const
 getCurrentFormData
 =
@@ -884,6 +884,7 @@ be
 submitted
 *
 /
+export
 const
 canSubmitForm
 =
@@ -985,6 +986,7 @@ map
 .
 *
 /
+export
 const
 createFormLayoutFromRecord
 =
@@ -995,6 +997,8 @@ record
 {
 country
 :
+lazy
+.
 FormAutofill
 .
 DEFAULT_REGION
@@ -1130,6 +1134,8 @@ innerHTML
 const
 fields
 =
+lazy
+.
 FormAutofillUtils
 .
 getFormLayout
