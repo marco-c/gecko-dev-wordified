@@ -10238,7 +10238,7 @@ CODESET
 "
 when
 =
-building_with_gnu_cc
+building_with_gnu_compatible_cc
 )
 )
 depends
