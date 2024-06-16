@@ -2673,6 +2673,7 @@ pref
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT
 bool
 InterruptCallback
 (
@@ -2717,7 +2718,10 @@ PROFILER_JS_INTERRUPT_CALLBACK
 )
 ;
 return
+MOZ_KnownLive
+(
 worker
+)
 -
 >
 InterruptCallback
