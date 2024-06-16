@@ -624,12 +624,6 @@ DataSourceSurface
 >
 GetAsSurface
 (
-gfx
-:
-:
-DataSourceSurface
-*
-aSurface
 )
 override
 {

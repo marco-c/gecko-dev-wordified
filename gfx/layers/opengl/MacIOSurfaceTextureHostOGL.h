@@ -261,12 +261,6 @@ DataSourceSurface
 >
 GetAsSurface
 (
-gfx
-:
-:
-DataSourceSurface
-*
-aSurface
 )
 override
 {
@@ -284,7 +278,6 @@ CreateSourceSurfaceFromMacIOSurface
 GetMacIOSurface
 (
 )
-aSurface
 )
 ;
 return
