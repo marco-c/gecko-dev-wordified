@@ -309,7 +309,11 @@ clipboard
 let
 reauthObserved
 =
-true
+Promise
+.
+resolve
+(
+)
 ;
 if
 (
@@ -325,6 +329,15 @@ password
 )
 )
 {
+if
+(
+OSKeyStore
+.
+canReauth
+(
+)
+)
+{
 reauthObserved
 =
 OSKeyStoreTestUtils
@@ -334,6 +347,7 @@ waitForOSKeyStoreLogin
 true
 )
 ;
+}
 }
 await
 SimpleTest
