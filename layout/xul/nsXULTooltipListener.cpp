@@ -619,17 +619,6 @@ nullptr
 return
 ;
 }
-#
-ifdef
-DEBUG_crap
-if
-(
-mNeedTitletip
-)
-return
-;
-#
-endif
 /
 /
 check
