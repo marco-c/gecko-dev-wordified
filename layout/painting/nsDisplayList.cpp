@@ -38044,12 +38044,6 @@ ShouldGetStickyAnimationId
 )
 const
 {
-#
-if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 return
 HasDynamicToolbar
 (
@@ -38066,11 +38060,6 @@ cross
 -
 process
 RCD
-#
-endif
-return
-false
-;
 }
 nsDisplayScrollInfoLayer
 :
