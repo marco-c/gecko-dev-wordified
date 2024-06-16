@@ -41,8 +41,8 @@ from
 .
 errors
 import
-DistutilsPlatformError
 DistutilsOptionError
+DistutilsPlatformError
 from
 .
 .
@@ -317,8 +317,6 @@ final
 built
 distributions
 in
-"
-"
 [
 default
 :
@@ -368,8 +366,6 @@ creating
 a
 tar
 file
-"
-"
 [
 default
 :
@@ -400,8 +396,6 @@ creating
 a
 tar
 file
-"
-"
 [
 default
 :
@@ -538,9 +532,8 @@ format_commands
 =
 ListCompat
 (
-        
 {
-            
+        
 '
 rpm
 '
@@ -554,7 +547,7 @@ RPM
 distribution
 "
 )
-            
+        
 '
 gztar
 '
@@ -571,7 +564,7 @@ tar
 file
 "
 )
-            
+        
 '
 bztar
 '
@@ -588,7 +581,7 @@ tar
 file
 "
 )
-            
+        
 '
 xztar
 '
@@ -605,7 +598,7 @@ tar
 file
 "
 )
-            
+        
 '
 ztar
 '
@@ -620,7 +613,7 @@ tar
 file
 "
 )
-            
+        
 '
 tar
 '
@@ -634,7 +627,7 @@ tar
 file
 "
 )
-            
+        
 '
 zip
 '
@@ -648,9 +641,8 @@ ZIP
 file
 "
 )
-        
-}
     
+}
 )
     
 #

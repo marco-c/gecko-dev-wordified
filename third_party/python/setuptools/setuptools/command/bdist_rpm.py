@@ -213,8 +213,7 @@ _make_spec_file
 self
 )
         
-spec
-=
+return
 [
             
 line
@@ -249,12 +248,10 @@ managed
 .
 replace
 (
-                
 "
 %
 setup
 "
-                
 "
 %
 setup
@@ -270,7 +267,6 @@ name
 unmangled_version
 }
 "
-            
 )
             
 for
@@ -279,6 +275,3 @@ in
 spec
         
 ]
-        
-return
-spec

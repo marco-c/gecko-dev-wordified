@@ -196,6 +196,7 @@ textwrap
 .
 dedent
 (
+        
 "
 "
 "
@@ -276,6 +277,7 @@ __bootstrap__
 "
 "
 "
+    
 )
 .
 lstrip
@@ -289,6 +291,13 @@ pyfile
 '
 w
 '
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
@@ -336,7 +345,6 @@ dir
 '
 b
 '
-         
 "
 temporary
 directory
@@ -348,15 +356,18 @@ distribution
 )
         
 (
+            
 '
 plat
 -
 name
 =
 '
+            
 '
 p
 '
+            
 "
 platform
 name
@@ -366,7 +377,7 @@ in
 generated
 filenames
 "
-                            
+            
 "
 (
 by
@@ -379,6 +390,7 @@ get_build_platform
 )
 )
 "
+        
 )
         
 (
@@ -390,7 +402,6 @@ source
 files
 '
 None
-         
 "
 remove
 all
@@ -405,15 +416,17 @@ egg
 )
         
 (
+            
 '
 keep
 -
 temp
 '
+            
 '
 k
 '
-         
+            
 "
 keep
 the
@@ -424,14 +437,15 @@ tree
 around
 after
 "
+            
 +
-         
 "
 creating
 the
 distribution
 archive
 "
+        
 )
         
 (
@@ -444,7 +458,6 @@ dir
 '
 d
 '
-         
 "
 directory
 to
@@ -463,7 +476,6 @@ skip
 build
 '
 None
-         
 "
 skip
 rebuilding
@@ -482,7 +494,6 @@ debugging
 boolean_options
 =
 [
-        
 '
 keep
 -
@@ -500,7 +511,6 @@ source
 -
 files
 '
-    
 ]
     
 def
@@ -1224,10 +1234,8 @@ to_compile
 ]
         
 for
-(
 p
 ext_name
-)
 in
 enumerate
 (
@@ -1263,7 +1271,6 @@ strip_module
 filename
 )
 +
-                                  
 '
 .
 py
@@ -1446,7 +1453,6 @@ install_scripts
 install_dir
 =
 script_dir
-                              
 no_ep
 =
 1
@@ -1503,16 +1509,25 @@ ensure_directory
 native_libs
 )
                 
-libs_file
-=
+with
 open
 (
 native_libs
 '
 wt
 '
+encoding
+=
+"
+utf
+-
+8
+"
 )
-                
+as
+libs_file
+:
+                    
 libs_file
 .
 write
@@ -1527,7 +1542,7 @@ join
 all_outputs
 )
 )
-                
+                    
 libs_file
 .
 write
@@ -1536,12 +1551,6 @@ write
 \
 n
 '
-)
-                
-libs_file
-.
-close
-(
 )
         
 elif
@@ -1583,7 +1592,6 @@ native_libs
         
 write_safety_flag
 (
-            
 os
 .
 path
@@ -1602,7 +1610,6 @@ self
 zip_safe
 (
 )
-        
 )
         
 if
@@ -1692,21 +1699,25 @@ archive
         
 make_zipfile
 (
+            
 self
 .
 egg_output
+            
 archive_root
+            
 verbose
 =
 self
 .
 verbose
-                     
+            
 dry_run
 =
 self
 .
 dry_run
+            
 mode
 =
 self
@@ -1714,6 +1725,7 @@ self
 gen_header
 (
 )
+        
 )
         
 if
@@ -1766,17 +1778,20 @@ dist_files
 .
 append
 (
-            
 (
+            
 '
 bdist_egg
 '
+            
 get_python_version
 (
 )
+            
 self
 .
 egg_output
+        
 )
 )
     
@@ -1929,7 +1944,6 @@ path
 .
 join
 (
-                        
 base
 os
 .
@@ -1953,7 +1967,6 @@ log
 .
 info
 (
-                        
 "
 Renaming
 file
@@ -1968,7 +1981,6 @@ to
 s
 ]
 "
-                        
 %
 (
 path_old
@@ -2311,19 +2323,16 @@ filename
 )
 ]
 =
-(
 paths
 [
 base
 ]
 +
-                                                       
 filename
 +
 '
 /
 '
-)
         
 if
 self
@@ -2523,14 +2532,9 @@ base
 dirs
 files
     
-for
-bdf
-in
-walker
-:
-        
 yield
-bdf
+from
+walker
 def
 analyze_egg
 (
@@ -2782,16 +2786,25 @@ safe
 flag
 :
             
-f
-=
+with
 open
 (
 fn
 '
 wt
 '
+encoding
+=
+"
+utf
+-
+8
+"
 )
-            
+as
+f
+:
+                
 f
 .
 write
@@ -2800,12 +2813,6 @@ write
 \
 n
 '
-)
-            
-f
-.
-close
-(
 )
 safety_flags
 =
@@ -2936,32 +2943,6 @@ name
 0
 ]
     
-if
-sys
-.
-version_info
-<
-(
-3
-7
-)
-:
-        
-skip
-=
-12
-#
-skip
-magic
-&
-date
-&
-file
-size
-    
-else
-:
-        
 skip
 =
 16
@@ -3081,25 +3062,30 @@ in
 '
 getsource
 '
+            
 '
 getabsfile
 '
+            
 '
 getsourcefile
 '
+            
 '
 getfile
 '
-            
 '
 getsourcelines
 '
+            
 '
 findsource
 '
+            
 '
 getcomments
 '
+            
 '
 getframeinfo
 '
@@ -3107,12 +3093,15 @@ getframeinfo
 '
 getinnerframes
 '
+            
 '
 getouterframes
 '
+            
 '
 stack
 '
+            
 '
 trace
 '
@@ -3179,16 +3168,11 @@ objects
 "
 "
     
-for
-name
-in
+yield
+from
 code
 .
 co_names
-:
-        
-yield
-name
     
 for
 const
@@ -3217,17 +3201,12 @@ CodeType
 )
 :
             
-for
-name
-in
+yield
+from
 iter_symbols
 (
 const
 )
-:
-                
-yield
-name
 def
 can_scan
 (
@@ -3287,6 +3266,7 @@ log
 .
 warn
 (
+        
 "
 Please
 ask
@@ -3299,7 +3279,7 @@ a
 zip_safe
 '
 "
-             
+        
 "
 setting
 (
@@ -3317,7 +3297,11 @@ setup
 .
 py
 "
+    
 )
+    
+return
+False
 #
 Attribute
 names
@@ -3342,7 +3326,6 @@ directory
 INSTALL_DIRECTORY_ATTRS
 =
 [
-    
 '
 install_lib
 '
@@ -3370,7 +3353,6 @@ dry_run
 compress
 =
 True
-                 
 mode
 =
 '

@@ -43,7 +43,12 @@ ImportError
 import
 docutils
 .
-utils
+frontend
+    
+import
+docutils
+.
+nodes
     
 import
 docutils
@@ -55,12 +60,7 @@ rst
 import
 docutils
 .
-frontend
-    
-import
-docutils
-.
-nodes
+utils
     
 class
 SilentReporter
@@ -169,6 +169,8 @@ system_message
 (
                 
 message
+*
+children
 level
 =
 level
@@ -180,8 +182,6 @@ levels
 [
 level
 ]
-*
-children
 *
 *
 kwargs
@@ -732,24 +732,21 @@ else
                 
 warning
 =
+f
 '
 {
-}
-(
-line
-{
-}
-)
-'
-.
-format
-(
 warning
 [
 1
 ]
+}
+(
 line
+{
+line
+}
 )
+'
             
 self
 .
@@ -956,10 +953,11 @@ messages
 .
 append
 (
-                
 (
+                
 -
 1
+                
 '
 Could
 not
@@ -973,12 +971,14 @@ s
 '
 %
 e
+                
 '
 '
+                
 {
 }
-)
             
+)
 )
         
 return

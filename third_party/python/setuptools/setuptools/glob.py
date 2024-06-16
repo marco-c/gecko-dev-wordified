@@ -766,17 +766,12 @@ pattern
 0
 ]
     
-for
-x
-in
+yield
+from
 _rlistdir
 (
 dirname
 )
-:
-        
-yield
-x
 #
 Recursively
 yields
@@ -842,9 +837,7 @@ dirname
 )
     
 except
-os
-.
-error
+OSError
 :
         
 return
@@ -1018,7 +1011,6 @@ all
 special
 characters
 .
-    
 "
 "
 "
@@ -1084,7 +1076,7 @@ magic_check_bytes
 .
 sub
 (
-br
+rb
 '
 [
 \

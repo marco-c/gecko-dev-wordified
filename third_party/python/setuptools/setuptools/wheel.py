@@ -78,6 +78,11 @@ setuptools
 archive_util
 import
 _unpack_zipfile_obj
+from
+.
+unicode_utils
+import
+_read_utf8_with_fallback
 WHEEL_NAME
 =
 re
@@ -181,8 +186,6 @@ VERBOSE
 match
 NAMESPACE_PACKAGE_INIT
 =
-\
-    
 "
 __import__
 (
@@ -267,9 +270,9 @@ dst_dir
 )
 :
     
-'
-'
-'
+"
+"
+"
 Move
 everything
 under
@@ -281,9 +284,9 @@ delete
 the
 former
 .
-'
-'
-'
+"
+"
+"
     
 for
 dirpath
@@ -602,9 +605,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 List
 tags
 (
@@ -617,9 +620,9 @@ by
 this
 wheel
 .
-'
-'
-'
+"
+"
+"
         
 return
 itertools
@@ -669,9 +672,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Is
 the
 wheel
@@ -681,9 +684,9 @@ the
 current
 platform
 ?
-'
-'
-'
+"
+"
+"
         
 return
 next
@@ -716,17 +719,19 @@ self
 :
         
 return
-_egg_basename
 (
             
+_egg_basename
+(
+                
 self
 .
 project_name
-            
+                
 self
 .
 version
-            
+                
 platform
 =
 (
@@ -745,13 +750,16 @@ get_platform
 (
 )
 )
-        
+            
 )
+            
 +
 "
 .
 egg
 "
+        
+)
     
 def
 get_dist_info
@@ -798,7 +806,6 @@ member
 )
             
 if
-(
 dirname
 .
 endswith
@@ -811,7 +818,6 @@ info
 '
 )
 and
-                    
 canonicalize_name
 (
 dirname
@@ -819,14 +825,14 @@ dirname
 .
 startswith
 (
-                        
+                
 canonicalize_name
 (
 self
 .
 project_name
 )
-)
+            
 )
 :
                 
@@ -858,9 +864,9 @@ destination_eggdir
 )
 :
         
-'
-'
-'
+"
+"
+"
 Install
 wheel
 as
@@ -868,9 +874,9 @@ an
 egg
 directory
 .
-'
-'
-'
+"
+"
+"
         
 with
 zipfile
@@ -1089,8 +1095,6 @@ Version
         
 wheel_v1
 =
-(
-            
 parse_version
 (
 '
@@ -1112,8 +1116,6 @@ parse_version
 '
 )
         
-)
-        
 if
 not
 wheel_v1
@@ -1122,7 +1124,6 @@ wheel_v1
 raise
 ValueError
 (
-                
 '
 unsupported
 wheel
@@ -1176,6 +1177,7 @@ from_location
 (
             
 destination_eggdir
+            
 dist_info
             
 metadata
@@ -1477,7 +1479,6 @@ path
 .
 join
 (
-                
 destination_eggdir
 '
 EGG
@@ -1595,13 +1596,15 @@ subdir
 in
 filter
 (
+            
 os
 .
 path
 .
 exists
-(
             
+(
+                
 os
 .
 path
@@ -1611,7 +1614,7 @@ join
 dist_data
 d
 )
-            
+                
 for
 d
 in
@@ -1629,8 +1632,9 @@ purelib
 platlib
 '
 )
-        
+            
 )
+        
 )
 :
             
@@ -1676,7 +1680,6 @@ path
 .
 join
 (
-            
 egg_info
 '
 namespace_packages
@@ -1696,21 +1699,11 @@ namespace_packages
 )
 :
             
-with
-open
-(
-namespace_packages
-)
-as
-fp
-:
-                
 namespace_packages
 =
-fp
-.
-read
+_read_utf8_with_fallback
 (
+namespace_packages
 )
 .
 split
@@ -1797,6 +1790,13 @@ mod_init
 '
 w
 '
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 fp

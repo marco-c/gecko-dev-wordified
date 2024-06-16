@@ -16,10 +16,32 @@ from
 distutils
 import
 log
+try
+:
+    
 from
-setuptools
+distutils
 .
-dep_util
+_modified
+import
+newer_pairwise_group
+except
+ImportError
+:
+    
+#
+fallback
+for
+SETUPTOOLS_USE_DISTUTILS
+=
+stdlib
+    
+from
+.
+.
+_distutils
+.
+_modified
 import
 newer_pairwise_group
 class
@@ -155,10 +177,8 @@ libraries
 :
         
 for
-(
 lib_name
 build_info
-)
 in
 libraries
 :
@@ -230,6 +250,7 @@ filenames
 "
 %
 lib_name
+                
 )
             
 sources
@@ -355,6 +376,7 @@ list
 "
 %
 lib_name
+                
 )
             
 dependencies
@@ -455,6 +477,7 @@ list
 "
 %
 lib_name
+                
 )
             
 #
@@ -563,6 +586,7 @@ list
 "
 %
 lib_name
+                    
 )
                 
 src_deps
@@ -599,14 +623,11 @@ build_temp
 )
             
 if
-(
-                
 newer_pairwise_group
 (
 dependencies
 expected_objects
 )
-                
 !
 =
 (
@@ -614,8 +635,6 @@ expected_objects
 ]
 [
 ]
-)
-            
 )
 :
                 
@@ -771,15 +790,12 @@ create_static_lib
 (
                 
 expected_objects
-                
 lib_name
-                
 output_dir
 =
 self
 .
 build_clib
-                
 debug
 =
 self

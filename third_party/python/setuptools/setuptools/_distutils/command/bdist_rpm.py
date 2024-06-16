@@ -26,11 +26,17 @@ distributions
 "
 "
 import
+os
+import
 subprocess
 import
 sys
+from
+distutils
+.
+_log
 import
-os
+log
 from
 .
 .
@@ -46,36 +52,30 @@ DEBUG
 from
 .
 .
+errors
+import
+(
+    
+DistutilsExecError
+    
+DistutilsFileError
+    
+DistutilsOptionError
+    
+DistutilsPlatformError
+)
+from
+.
+.
 file_util
 import
 write_file
 from
 .
 .
-errors
-import
-(
-    
-DistutilsOptionError
-    
-DistutilsPlatformError
-    
-DistutilsFileError
-    
-DistutilsExecError
-)
-from
-.
-.
 sysconfig
 import
 get_python_version
-from
-distutils
-.
-_log
-import
-log
 class
 bdist_rpm
 (
@@ -181,8 +181,6 @@ final
 RPM
 files
 in
-"
-"
 (
 and
 .
@@ -579,8 +577,6 @@ net
 \
 "
 )
-"
-"
 [
 default
 :
@@ -1654,8 +1650,6 @@ how
 to
 create
 RPM
-"
-"
 distributions
 on
 platform
@@ -1787,17 +1781,9 @@ ensure_string
 vendor
 '
             
+f
 "
-%
-s
-<
-%
-s
->
-"
-            
-%
-(
+{
 self
 .
 distribution
@@ -1805,6 +1791,9 @@ distribution
 get_contact
 (
 )
+}
+<
+{
 self
 .
 distribution
@@ -1812,7 +1801,9 @@ distribution
 get_contact_email
 (
 )
-)
+}
+>
+"
         
 )
         
@@ -2820,7 +2811,7 @@ rpm
         
 q_cmd
 =
-r
+rf
 "
 rpm
 -
@@ -2830,8 +2821,10 @@ q
 qf
 '
 {
+src_rpm
 }
 {
+non_src_rpm
 }
 \
 n
@@ -2841,20 +2834,10 @@ n
 specfile
 '
 {
+spec_path
 }
 '
 "
-.
-format
-(
-            
-src_rpm
-            
-non_src_rpm
-            
-spec_path
-        
-)
         
 out
 =
@@ -3188,15 +3171,17 @@ dist_files
 .
 append
 (
-                            
 (
+                            
 '
 bdist_rpm
 '
+                            
 pyversion
+                            
 filename
-)
                         
+)
 )
     
 def
@@ -3460,8 +3445,8 @@ n
 .
 join
 (
-            
 [
+            
 '
 %
 s
@@ -3482,8 +3467,8 @@ vendor_hook
 splitlines
 (
 )
-]
         
+]
 )
         
 problem
@@ -3543,7 +3528,7 @@ append
 #
 Workaround
 for
-http
+https
 :
 /
 /
@@ -3653,9 +3638,8 @@ spec_file
 .
 extend
 (
-            
 [
-                
+            
 '
 Name
 :
@@ -3664,7 +3648,7 @@ Name
 name
 }
 '
-                
+            
 '
 Version
 :
@@ -3673,7 +3657,7 @@ Version
 version
 }
 '
-                
+            
 '
 Release
 :
@@ -3682,9 +3666,8 @@ Release
 release
 }
 '
-            
-]
         
+]
 )
         
 #
@@ -3792,9 +3775,8 @@ spec_file
 .
 extend
 (
-            
 [
-                
+            
 '
 License
 :
@@ -3813,7 +3795,7 @@ or
 UNKNOWN
 "
 )
-                
+            
 '
 Group
 :
@@ -3822,7 +3804,7 @@ Group
 self
 .
 group
-                
+            
 '
 BuildRoot
 :
@@ -3848,7 +3830,7 @@ release
 -
 buildroot
 '
-                
+            
 '
 Prefix
 :
@@ -3857,9 +3839,8 @@ Prefix
 _prefix
 }
 '
-            
-]
         
+]
 )
         
 if
@@ -4005,19 +3986,16 @@ spec_file
 .
 append
 (
+f
 '
 {
+field
 }
 :
 {
+val
 }
 '
-.
-format
-(
-field
-val
-)
 )
         
 if
@@ -4142,17 +4120,16 @@ spec_file
 .
 extend
 (
-            
 [
-                
+            
 '
 '
-                
+            
 '
 %
 description
 '
-                
+            
 self
 .
 distribution
@@ -4163,9 +4140,8 @@ get_long_description
 or
 "
 "
-            
-]
         
+]
 )
         
 #
@@ -4255,18 +4231,14 @@ script
         
 def_setup_call
 =
+f
 "
 {
-}
-{
-}
-"
-.
-format
-(
 self
 .
 python
+}
+{
 os
 .
 path
@@ -4280,7 +4252,8 @@ argv
 0
 ]
 )
-)
+}
+"
         
 def_build
 =
@@ -4554,20 +4527,18 @@ spec_file
 .
 extend
 (
-                    
 [
-                        
+                    
 '
 '
-                        
+                    
 '
 %
 '
 +
 rpm_opt
-                    
-]
                 
+]
 )
                 
 if
@@ -4620,12 +4591,11 @@ spec_file
 .
 extend
 (
-            
 [
-                
+            
 '
 '
-                
+            
 '
 %
 files
@@ -4633,7 +4603,7 @@ files
 f
 INSTALLED_FILES
 '
-                
+            
 '
 %
 defattr
@@ -4643,9 +4613,8 @@ root
 root
 )
 '
-            
-]
         
+]
 )
         
 if
@@ -4684,19 +4653,17 @@ spec_file
 .
 extend
 (
-                
 [
-                    
+                
 '
 '
-                    
+                
 '
 %
 changelog
 '
-                
-]
             
+]
 )
             
 spec_file

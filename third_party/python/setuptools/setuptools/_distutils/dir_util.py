@@ -17,20 +17,20 @@ trees
 "
 "
 import
-os
-import
 errno
-from
-.
-errors
 import
-DistutilsInternalError
-DistutilsFileError
+os
 from
 .
 _log
 import
 log
+from
+.
+errors
+import
+DistutilsFileError
+DistutilsInternalError
 #
 cache
 for
@@ -267,7 +267,7 @@ str
 raise
 DistutilsInternalError
 (
-            
+f
 "
 mkpath
 :
@@ -281,17 +281,12 @@ string
 (
 got
 {
+name
 !
 r
 }
 )
 "
-.
-format
-(
-name
-)
-        
 )
     
 #
@@ -649,22 +644,18 @@ raise
 DistutilsFileError
 (
                         
+f
 "
 could
 not
 create
 '
 {
+head
 }
 '
 :
 {
-}
-"
-.
-format
-(
-head
 exc
 .
 args
@@ -672,7 +663,8 @@ args
 -
 1
 ]
-)
+}
+"
                     
 )
             
@@ -834,18 +826,6 @@ need_dir
 =
 set
 (
-)
-    
-for
-file
-in
-files
-:
-        
-need_dir
-.
-add
-(
 os
 .
 path
@@ -862,6 +842,10 @@ dirname
 file
 )
 )
+for
+file
+in
+files
 )
     
 #
@@ -1250,7 +1234,7 @@ else
 raise
 DistutilsFileError
 (
-                
+f
 "
 error
 listing
@@ -1258,21 +1242,16 @@ files
 in
 '
 {
+src
 }
 '
 :
 {
-}
-"
-.
-format
-(
-src
 e
 .
 strerror
-)
-            
+}
+"
 )
     
 if

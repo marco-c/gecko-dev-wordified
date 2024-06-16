@@ -40,12 +40,15 @@ __all__
 "
 unpack_archive
 "
+    
 "
 unpack_zipfile
 "
+    
 "
 unpack_tarfile
 "
+    
 "
 default_filter
 "
@@ -53,9 +56,11 @@ default_filter
 "
 UnrecognizedFormat
 "
+    
 "
 extraction_drivers
 "
+    
 "
 unpack_directory
 "
@@ -112,13 +117,11 @@ dst
 def
 unpack_archive
 (
-        
 filename
 extract_dir
 progress_filter
 =
 default_filter
-        
 drivers
 =
 None
@@ -381,7 +384,6 @@ else
 raise
 UnrecognizedFormat
 (
-            
 "
 Not
 a
@@ -394,7 +396,6 @@ s
 "
 %
 filename
-        
 )
 def
 unpack_directory
@@ -968,7 +969,7 @@ not
 None
 and
 (
-            
+        
 tar_member_obj
 .
 islnk
@@ -980,6 +981,7 @@ tar_member_obj
 issym
 (
 )
+    
 )
 :
         
@@ -1038,15 +1040,13 @@ linkpath
     
 is_file_or_dir
 =
-(
-        
 tar_member_obj
 is
 not
 None
 and
-        
 (
+        
 tar_member_obj
 .
 isfile
@@ -1057,7 +1057,6 @@ tar_member_obj
 .
 isdir
 (
-)
 )
     
 )
@@ -1379,9 +1378,11 @@ final_dst
 in
 _iter_open_tar
 (
-            
+        
 tarobj
+        
 extract_dir
+        
 progress_filter
     
 )

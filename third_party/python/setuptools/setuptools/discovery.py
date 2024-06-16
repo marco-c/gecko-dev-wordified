@@ -246,8 +246,6 @@ Mapping
 Optional
     
 Tuple
-    
-Union
 )
 import
 _distutils_hack
@@ -258,6 +256,11 @@ noqa
 :
 F401
 from
+.
+_path
+import
+StrPath
+from
 distutils
 import
 log
@@ -267,15 +270,6 @@ distutils
 util
 import
 convert_path
-_Path
-=
-Union
-[
-str
-os
-.
-PathLike
-]
 StrIter
 =
 Iterator
@@ -304,7 +298,7 @@ _valid_name
 (
 path
 :
-_Path
+StrPath
 )
 -
 >
@@ -499,7 +493,7 @@ cls
         
 where
 :
-_Path
+StrPath
 =
 '
 .
@@ -781,7 +775,7 @@ _find_iter
 cls
 where
 :
-_Path
+StrPath
 exclude
 :
 _Filter
@@ -843,7 +837,7 @@ _find_iter
 cls
 where
 :
-_Path
+StrPath
 exclude
 :
 _Filter
@@ -1107,7 +1101,7 @@ _looks_like_package
 (
 path
 :
-_Path
+StrPath
 _package_name
 :
 str
@@ -1167,7 +1161,7 @@ _looks_like_package
 (
 _path
 :
-_Path
+StrPath
 _package_name
 :
 str
@@ -1219,7 +1213,7 @@ _find_iter
 cls
 where
 :
-_Path
+StrPath
 exclude
 :
 _Filter
@@ -1359,6 +1353,10 @@ bin
 "
         
 "
+debian
+"
+        
+"
 doc
 "
         
@@ -1376,6 +1374,10 @@ manpages
         
 "
 news
+"
+        
+"
+newsfragments
 "
         
 "
@@ -1581,7 +1583,7 @@ _looks_like_package
 (
 _path
 :
-_Path
+StrPath
 package_name
 :
 str
@@ -1830,7 +1832,7 @@ root_pkg
 str
 pkg_dir
 :
-_Path
+StrPath
 )
 -
 >
@@ -2081,7 +2083,7 @@ self
 )
 -
 >
-_Path
+StrPath
 :
         
 #
@@ -2388,6 +2390,7 @@ dist
 configuration
 "
 )
+            
 and
 self
 .
@@ -3462,7 +3465,6 @@ UNKNOWN
 )
             
 return
-None
         
 log
 .
@@ -4075,7 +4077,7 @@ str
 ]
 root_dir
 :
-_Path
+StrPath
 )
 -
 >
@@ -4273,7 +4275,7 @@ str
 ]
 root_dir
 :
-_Path
+StrPath
 )
 -
 >
@@ -4659,7 +4661,7 @@ str
 ]
 package_path
 :
-_Path
+StrPath
 )
 -
 >

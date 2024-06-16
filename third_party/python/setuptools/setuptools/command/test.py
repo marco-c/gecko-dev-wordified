@@ -837,8 +837,8 @@ project_on_sys_path
 self
 include_dists
 =
-[
-]
+(
+)
 )
 :
         

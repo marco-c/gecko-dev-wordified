@@ -24,17 +24,23 @@ distributed
 "
 "
 import
-sys
-import
-os
-import
-re
-import
-pathlib
-import
 contextlib
 import
 logging
+import
+os
+import
+pathlib
+import
+re
+import
+sys
+from
+collections
+.
+abc
+import
+Iterable
 from
 email
 import
@@ -53,17 +59,27 @@ warnings
 None
 from
 .
+_log
+import
+log
+from
+.
+debug
+import
+DEBUG
+from
+.
 errors
 import
 (
     
-DistutilsOptionError
-    
-DistutilsModuleError
-    
 DistutilsArgError
     
 DistutilsClassError
+    
+DistutilsModuleError
+    
+DistutilsOptionError
 )
 from
 .
@@ -76,18 +92,8 @@ from
 util
 import
 check_environ
-strtobool
 rfc822_escape
-from
-.
-_log
-import
-log
-from
-.
-debug
-import
-DEBUG
+strtobool
 #
 Regex
 to
@@ -3600,6 +3606,13 @@ parser
 read
 (
 filename
+encoding
+=
+'
+utf
+-
+8
+'
 )
             
 for
@@ -3747,7 +3760,7 @@ command_options
 for
 opt
 (
-src
+_src
 val
 )
 in
@@ -5264,8 +5277,8 @@ help_option_found
             
 for
 help_option
-short
-desc
+_short
+_desc
 func
 in
 cmd_class
@@ -5308,18 +5321,23 @@ raise
 DistutilsClassError
 (
                             
+f
 "
 invalid
 help
 function
-%
+{
+func
+!
 r
+}
 for
 help
 option
 '
-%
-s
+{
+help_option
+}
 '
 :
 "
@@ -5336,12 +5354,6 @@ etc
 .
 )
 "
-                            
-%
-(
-func
-help_option
-)
                         
 )
             
@@ -5524,6 +5536,7 @@ value
 def
 _show_help
 (
+        
 self
 parser
 global_options
@@ -5533,9 +5546,12 @@ display_options
 =
 1
 commands
+:
+Iterable
 =
-[
-]
+(
+)
+    
 )
 :
         
@@ -5689,16 +5705,16 @@ modules
 from
 distutils
 .
-core
+cmd
 import
-gen_usage
+Command
         
 from
 distutils
 .
-cmd
+core
 import
-Command
+gen_usage
         
 if
 global_options
@@ -5750,8 +5766,6 @@ options
             
 print
 (
-'
-'
 )
         
 if
@@ -5794,8 +5808,6 @@ commands
             
 print
 (
-'
-'
 )
         
 for
@@ -5906,8 +5918,6 @@ __name__
             
 print
 (
-'
-'
 )
         
 print
@@ -6050,8 +6060,6 @@ print_commands
             
 print
 (
-'
-'
 )
             
 print
@@ -7121,19 +7129,16 @@ get_command_packages
             
 module_name
 =
+f
 "
 {
-}
-.
-{
-}
-"
-.
-format
-(
 pkgname
+}
+.
+{
 command
-)
+}
+"
             
 klass_name
 =
@@ -7181,35 +7186,32 @@ raise
 DistutilsModuleError
 (
                     
+f
 "
 invalid
 command
 '
-%
-s
+{
+command
+}
 '
 (
 no
 class
 '
-%
-s
+{
+klass_name
+}
 '
 in
 module
 '
-%
-s
+{
+module_name
+}
 '
 )
 "
-                    
-%
-(
-command
-klass_name
-module_name
-)
                 
 )
             
@@ -7655,25 +7657,22 @@ self
 .
 announce
 (
+f
 "
 {
+option
 }
 =
 {
+value
 }
 (
 from
 {
+source
 }
 )
 "
-.
-format
-(
-option
-value
-source
-)
 )
             
 try
@@ -7794,33 +7793,30 @@ raise
 DistutilsOptionError
 (
                         
+f
 "
 error
 in
-%
-s
+{
+source
+}
 :
 command
 '
-%
-s
+{
+command_name
+}
 '
 has
 no
 such
 option
 '
-%
-s
+{
+option
+}
 '
 "
-                        
-%
-(
-source
-command_name
-option
-)
                     
 )
             
@@ -9879,21 +9875,18 @@ file
 .
 write
 (
+f
 '
 {
+name
 }
 :
 {
+value
 }
 \
 n
 '
-.
-format
-(
-name
-value
-)
 )
     
 #
@@ -9987,27 +9980,24 @@ self
 :
         
 return
+f
 "
 {
-}
--
-{
-}
-"
-.
-format
-(
 self
 .
 get_name
 (
 )
+}
+-
+{
 self
 .
 get_version
 (
 )
-)
+}
+"
     
 def
 get_author

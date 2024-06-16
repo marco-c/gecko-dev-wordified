@@ -56,8 +56,6 @@ Version
 "
 "
 import
-collections
-import
 itertools
 import
 re
@@ -66,6 +64,7 @@ typing
 import
 Any
 Callable
+NamedTuple
 Optional
 SupportsInt
 Tuple
@@ -94,33 +93,32 @@ Version
 InvalidVersion
 "
 ]
-InfiniteTypes
+LocalType
+=
+Tuple
+[
+Union
+[
+int
+str
+]
+.
+.
+.
+]
+CmpPrePostDevType
 =
 Union
 [
 InfinityType
 NegativeInfinityType
-]
-PrePostDevType
-=
-Union
-[
-InfiniteTypes
 Tuple
 [
 str
 int
 ]
 ]
-SubLocalType
-=
-Union
-[
-InfiniteTypes
-int
-str
-]
-LocalType
+CmpLocalType
 =
 Union
 [
@@ -129,30 +127,26 @@ NegativeInfinityType
     
 Tuple
 [
-        
 Union
 [
-            
-SubLocalType
-            
 Tuple
 [
-SubLocalType
+int
 str
 ]
-            
 Tuple
 [
 NegativeInfinityType
-SubLocalType
+Union
+[
+int
+str
 ]
-        
 ]
-        
+]
 .
 .
 .
-    
 ]
 ]
 CmpKey
@@ -161,6 +155,7 @@ Tuple
 [
     
 int
+    
 Tuple
 [
 int
@@ -168,10 +163,14 @@ int
 .
 .
 ]
-PrePostDevType
-PrePostDevType
-PrePostDevType
-LocalType
+    
+CmpPrePostDevType
+    
+CmpPrePostDevType
+    
+CmpPrePostDevType
+    
+CmpLocalType
 ]
 VersionComparisonMethod
 =
@@ -183,37 +182,66 @@ CmpKey
 ]
 bool
 ]
+class
 _Version
-=
-collections
-.
-namedtuple
 (
-    
-"
-_Version
-"
-[
-"
-epoch
-"
-"
-release
-"
-"
-dev
-"
-"
-pre
-"
-"
-post
-"
-"
-local
-"
-]
+NamedTuple
 )
+:
+    
+epoch
+:
+int
+    
+release
+:
+Tuple
+[
+int
+.
+.
+.
+]
+    
+dev
+:
+Optional
+[
+Tuple
+[
+str
+int
+]
+]
+    
+pre
+:
+Optional
+[
+Tuple
+[
+str
+int
+]
+]
+    
+post
+:
+Optional
+[
+Tuple
+[
+str
+int
+]
+]
+    
+local
+:
+Optional
+[
+LocalType
+]
 def
 parse
 (
@@ -751,23 +779,21 @@ P
 <
 pre_l
 >
-(
+alpha
+|
 a
 |
+beta
+|
 b
+|
+preview
+|
+pre
 |
 c
 |
 rc
-|
-alpha
-|
-beta
-|
-pre
-|
-preview
-)
 )
             
 [
@@ -1965,18 +1991,12 @@ epoch
 "
 "
         
-_epoch
-:
-int
-=
+return
 self
 .
 _version
 .
 epoch
-        
-return
-_epoch
     
 property
     
@@ -2108,24 +2128,12 @@ suffixes
 "
 "
         
-_release
-:
-Tuple
-[
-int
-.
-.
-.
-]
-=
+return
 self
 .
 _version
 .
 release
-        
-return
-_release
     
 property
     
@@ -2253,25 +2261,12 @@ rc
 "
 "
         
-_pre
-:
-Optional
-[
-Tuple
-[
-str
-int
-]
-]
-=
+return
 self
 .
 _version
 .
 pre
-        
-return
-_pre
     
 property
     
@@ -3414,7 +3409,10 @@ _parse_letter_version
     
 letter
 :
+Optional
+[
 str
+]
 number
 :
 Union
@@ -3422,6 +3420,7 @@ Union
 str
 bytes
 SupportsInt
+None
 ]
 )
 -
@@ -3688,7 +3687,10 @@ _parse_local_version
 (
 local
 :
+Optional
+[
 str
+]
 )
 -
 >
@@ -3828,10 +3830,7 @@ local
 :
 Optional
 [
-Tuple
-[
-SubLocalType
-]
+LocalType
 ]
 )
 -
@@ -4037,7 +4036,7 @@ None
         
 _pre
 :
-PrePostDevType
+CmpPrePostDevType
 =
 NegativeInfinity
     
@@ -4103,7 +4102,7 @@ None
         
 _post
 :
-PrePostDevType
+CmpPrePostDevType
 =
 NegativeInfinity
     
@@ -4136,7 +4135,7 @@ None
         
 _dev
 :
-PrePostDevType
+CmpPrePostDevType
 =
 Infinity
     
@@ -4169,7 +4168,7 @@ one
         
 _local
 :
-LocalType
+CmpLocalType
 =
 NegativeInfinity
     

@@ -18,15 +18,21 @@ command
 "
 "
 import
-os
+glob
 import
 importlib
 .
 util
 import
-sys
+os
 import
-glob
+sys
+from
+distutils
+.
+_log
+import
+log
 from
 .
 .
@@ -38,20 +44,14 @@ from
 .
 errors
 import
-DistutilsOptionError
 DistutilsFileError
+DistutilsOptionError
 from
 .
 .
 util
 import
 convert_path
-from
-distutils
-.
-_log
-import
-log
 class
 build_py
 (
@@ -1102,8 +1102,8 @@ files
 .
 extend
 (
-                
 [
+                
 fn
 for
 fn
@@ -1123,8 +1123,8 @@ isfile
 (
 fn
 )
-]
             
+]
 )
         
 return
@@ -1151,7 +1151,7 @@ directory
 "
         
 for
-package
+_package
 src_dir
 build_dir
 filenames
@@ -2623,7 +2623,7 @@ outputs
 for
 package
 module
-module_file
+_module_file
 in
 modules
 :

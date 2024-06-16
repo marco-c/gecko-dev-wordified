@@ -27,6 +27,8 @@ import
 importlib
 .
 machinery
+import
+tokenize
 from
 importlib
 .
@@ -76,8 +78,8 @@ isinstance
 paths
 list
 )
-else
         
+else
 importlib
 .
 util
@@ -204,6 +206,8 @@ type
 )
     
 if
+(
+        
 spec
 .
 origin
@@ -212,12 +216,13 @@ origin
 '
 frozen
 '
+        
 or
 static
+        
 and
 issubclass
 (
-            
 spec
 .
 loader
@@ -226,6 +231,8 @@ importlib
 machinery
 .
 FrozenImporter
+)
+    
 )
 :
         
@@ -251,6 +258,8 @@ imp
 compatibility
     
 elif
+(
+        
 spec
 .
 origin
@@ -261,12 +270,13 @@ built
 -
 in
 '
+        
 or
 static
+        
 and
 issubclass
 (
-            
 spec
 .
 loader
@@ -275,6 +285,8 @@ importlib
 machinery
 .
 BuiltinImporter
+)
+    
 )
 :
         
@@ -356,6 +368,15 @@ SOURCE_SUFFIXES
 kind
 =
 PY_SOURCE
+            
+file
+=
+tokenize
+.
+open
+(
+path
+)
         
 elif
 suffix
@@ -370,6 +391,16 @@ BYTECODE_SUFFIXES
 kind
 =
 PY_COMPILED
+            
+file
+=
+open
+(
+path
+'
+rb
+'
+)
         
 elif
 suffix
@@ -384,23 +415,6 @@ EXTENSION_SUFFIXES
 kind
 =
 C_EXTENSION
-        
-if
-kind
-in
-{
-PY_SOURCE
-PY_COMPILED
-}
-:
-            
-file
-=
-open
-(
-path
-mode
-)
     
 else
 :

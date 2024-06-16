@@ -68,9 +68,9 @@ packaging
 __version__
 =
 "
-23
+24
 .
-1
+0
 "
 __author__
 =
@@ -108,8 +108,6 @@ __copyright__
 =
 "
 2014
--
-2019
 %
 s
 "

@@ -509,7 +509,6 @@ path
 .
 join
 (
-            
 '
 __pycache__
 '
@@ -568,20 +567,25 @@ pyc
 def
 copy_tree
 (
-            
+        
 self
+        
 infile
+        
 outfile
-            
+        
 preserve_mode
 =
 1
+        
 preserve_times
 =
 1
+        
 preserve_symlinks
 =
 0
+        
 level
 =
 1
@@ -681,7 +685,6 @@ namespace
 package
 )
 "
-                         
 dst
 )
                 

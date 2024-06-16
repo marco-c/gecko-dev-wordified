@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 collections
 import
@@ -6,6 +10,16 @@ import
 itertools
 import
 operator
+from
+collections
+.
+abc
+import
+Mapping
+from
+typing
+import
+Any
 #
 from
 jaraco
@@ -462,9 +476,11 @@ from
 jaraco
 .
 collections
-3
+5
 .
-7
+0
+.
+1
 class
 RangeMap
 (
@@ -570,10 +586,7 @@ as
 sort_params
 .
     
-Let
-'
-s
-create
+Create
 a
 map
 that
@@ -700,11 +713,7 @@ r
 b
 '
     
-But
-you
-'
-ll
-notice
+Notice
 that
 the
 way
@@ -1173,17 +1182,28 @@ b
 def
 __init__
 (
+        
 self
+        
 source
+        
 sort_params
+:
+Mapping
+[
+str
+Any
+]
 =
 {
 }
+        
 key_match_comparator
 =
 operator
 .
 le
+    
 )
 :
         

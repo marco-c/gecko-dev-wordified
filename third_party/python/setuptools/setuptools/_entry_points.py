@@ -81,10 +81,34 @@ ep
 extras
     
 except
+(
 AttributeError
+AssertionError
+)
 as
 ex
 :
+        
+#
+Why
+both
+?
+See
+https
+:
+/
+/
+github
+.
+com
+/
+python
+/
+importlib_metadata
+/
+issues
+/
+488
         
 msg
 =
@@ -332,7 +356,6 @@ load_group
 value
 group
 )
-        
 for
 group
 value
@@ -342,6 +365,7 @@ eps
 items
 (
 )
+    
 )
     
 return
@@ -504,7 +528,6 @@ n
 .
 join
 (
-        
 f
 '
 [
@@ -523,13 +546,11 @@ items
 \
 n
 '
-        
 for
 group
 items
 in
 groups
-    
 )
 def
 render_items
@@ -546,7 +567,6 @@ n
 .
 join
 (
-        
 f
 '
 {
@@ -561,7 +581,6 @@ ep
 value
 }
 '
-        
 for
 ep
 in
@@ -569,5 +588,4 @@ sorted
 (
 eps
 )
-    
 )

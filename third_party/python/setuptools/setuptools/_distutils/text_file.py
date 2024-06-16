@@ -1081,6 +1081,13 @@ errors
 self
 .
 errors
+encoding
+=
+'
+utf
+-
+8
+'
 )
         
 self
@@ -2135,8 +2142,6 @@ continuation
 line
 immediately
 precedes
-"
-"
 end
 -
 of
