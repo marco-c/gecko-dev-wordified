@@ -1650,6 +1650,16 @@ Failed
 ;
 }
 else
+if
+self
+.
+state
+!
+=
+EcnValidationState
+:
+:
+Capable
 {
 qinfo
 !

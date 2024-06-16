@@ -7490,17 +7490,6 @@ ApplicationData
 )
 ;
 let
-keep_alive
-=
-self
-.
-streams
-.
-need_keep_alive
-(
-)
-;
-let
 idle_time
 =
 self
@@ -7511,7 +7500,6 @@ expiry
 (
 now
 pto
-keep_alive
 )
 ;
 qtrace
