@@ -261,9 +261,9 @@ configure
 that
 in
 appropriately
+*
 configured
 builds
-*
 verify
 at
 runtime
@@ -273,6 +273,7 @@ arithmetic
 doesn
 '
 t
+*
 overflow
 .
 *
