@@ -259,7 +259,7 @@ lock
 mMonitor
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mSignaled

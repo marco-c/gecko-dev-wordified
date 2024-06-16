@@ -611,7 +611,7 @@ GetObserverService
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mObs
 )
@@ -2043,7 +2043,7 @@ false
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aShouldPoll
 |
