@@ -151,6 +151,9 @@ EventForwards
 .
 h
 "
+class
+nsIPrincipal
+;
 namespace
 mozilla
 :
@@ -221,6 +224,9 @@ GetData
 nsAString
 &
 aData
+nsIPrincipal
+&
+aSubjectPrincipal
 )
 const
 ;
