@@ -219,9 +219,6 @@ argument
 const
 ANGLE_TAKING_FUNCTIONS
 =
-new
-Set
-(
 [
 "
 linear
@@ -295,7 +292,6 @@ hue
 rotate
 "
 ]
-)
 ;
 /
 /
@@ -312,9 +308,6 @@ names
 const
 BEZIER_KEYWORDS
 =
-new
-Set
-(
 [
 "
 linear
@@ -340,7 +333,6 @@ out
 ease
 "
 ]
-)
 ;
 /
 /
@@ -354,9 +346,6 @@ argument
 const
 COLOR_TAKING_FUNCTIONS
 =
-new
-Set
-(
 [
 "
 linear
@@ -441,7 +430,6 @@ color
 mix
 "
 ]
-)
 ;
 /
 /
@@ -455,9 +443,6 @@ argument
 const
 BASIC_SHAPE_FUNCTIONS
 =
-new
-Set
-(
 [
 "
 polygon
@@ -472,7 +457,6 @@ ellipse
 inset
 "
 ]
-)
 ;
 const
 BACKDROP_FILTER_ENABLED
