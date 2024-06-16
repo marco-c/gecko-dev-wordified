@@ -1826,11 +1826,6 @@ continueDecoding
 DecodePool
 :
 :
-Singleton
-(
-)
--
->
 IsShuttingDown
 (
 )
@@ -2138,11 +2133,6 @@ checkForNewFrameAtYieldResult
 DecodePool
 :
 :
-Singleton
-(
-)
--
->
 IsShuttingDown
 (
 )

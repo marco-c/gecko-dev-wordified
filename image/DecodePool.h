@@ -401,11 +401,11 @@ working
 or
 not
 .
+static
 bool
 IsShuttingDown
 (
 )
-const
 ;
 /
 /
