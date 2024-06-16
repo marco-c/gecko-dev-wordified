@@ -295,7 +295,7 @@ js
 ;
 const
 {
-getCSSLexer
+InspectorCSSParserWrapper
 }
 =
 require
@@ -5981,10 +5981,10 @@ value
 const
 tokenStream
 =
-getCSSLexer
+new
+InspectorCSSParserWrapper
 (
 value
-true
 )
 ;
 const

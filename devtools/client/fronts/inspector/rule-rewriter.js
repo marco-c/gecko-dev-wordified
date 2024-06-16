@@ -125,7 +125,7 @@ strict
 ;
 const
 {
-getCSSLexer
+InspectorCSSParserWrapper
 }
 =
 require
@@ -1742,11 +1742,15 @@ replace
 const
 lexer
 =
-getCSSLexer
+new
+InspectorCSSParserWrapper
 (
 text
+{
+trackEOFChars
+:
 true
-true
+}
 )
 ;
 let

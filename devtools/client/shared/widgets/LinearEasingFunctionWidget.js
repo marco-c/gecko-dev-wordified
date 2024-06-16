@@ -104,7 +104,7 @@ emitter
 ;
 const
 {
-getCSSLexer
+InspectorCSSParserWrapper
 }
 =
 require
@@ -3977,10 +3977,10 @@ trim
 const
 tokenStream
 =
-getCSSLexer
+new
+InspectorCSSParserWrapper
 (
 value
-true
 )
 ;
 const

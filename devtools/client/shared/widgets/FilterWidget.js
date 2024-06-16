@@ -6604,7 +6604,6 @@ of
 cssTokenizer
 (
 css
-true
 )
 )
 {

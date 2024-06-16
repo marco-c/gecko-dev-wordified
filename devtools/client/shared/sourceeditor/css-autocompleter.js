@@ -6984,7 +6984,6 @@ tokensIterator
 cssTokenizer
 (
 lineText
-true
 )
 ;
 let
@@ -7348,7 +7347,6 @@ from
 cssTokenizer
 (
 lineText
-true
 )
 )
 ;
@@ -7910,7 +7908,6 @@ sourceArray
 [
 line
 ]
-true
 )
 ;
 for
