@@ -3764,15 +3764,6 @@ H264
 VideoCodecType
 :
 :
-kVideoCodecMultiplex
-"
-MULTIPLEX
-"
-}
-{
-VideoCodecType
-:
-:
 kVideoCodecH265
 "
 H265

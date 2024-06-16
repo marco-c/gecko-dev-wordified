@@ -233,14 +233,6 @@ return
 Generic
 "
 ;
-case
-kVideoCodecMultiplex
-:
-return
-"
-Multiplex
-"
-;
 }
 }
 struct

@@ -167,16 +167,6 @@ kUlpfecCodecName
 ulpfec
 "
 ;
-const
-char
-kMultiplexCodecName
-[
-]
-=
-"
-multiplex
-"
-;
 /
 /
 TODO

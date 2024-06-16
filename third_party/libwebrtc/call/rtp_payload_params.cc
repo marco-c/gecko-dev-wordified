@@ -791,9 +791,6 @@ return
 ;
 }
 case
-kVideoCodecMultiplex
-:
-case
 kVideoCodecGeneric
 :
 rtp
@@ -2382,14 +2379,6 @@ case
 VideoCodecType
 :
 :
-kVideoCodecMultiplex
-:
-return
-;
-case
-VideoCodecType
-:
-:
 kVideoCodecH265
 :
 /
@@ -2838,12 +2827,6 @@ VideoCodecType
 :
 :
 kVideoCodecH265
-:
-case
-VideoCodecType
-:
-:
-kVideoCodecMultiplex
 :
 return
 absl

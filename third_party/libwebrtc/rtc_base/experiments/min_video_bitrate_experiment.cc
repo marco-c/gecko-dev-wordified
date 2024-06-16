@@ -690,9 +690,6 @@ GetOptional
 case
 kVideoCodecGeneric
 :
-case
-kVideoCodecMultiplex
-:
 return
 absl
 :
