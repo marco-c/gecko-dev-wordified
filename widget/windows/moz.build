@@ -1076,6 +1076,9 @@ rpcrt4
 "
 urlmon
 "
+"
+winmm
+"
 ]
 #
 mingw
