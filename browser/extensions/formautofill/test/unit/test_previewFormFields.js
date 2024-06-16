@@ -495,7 +495,8 @@ address
 level2
 "
 :
-undefined
+"
+"
 }
 }
 {
@@ -664,7 +665,8 @@ address
 PREVIEW
 country
 :
-undefined
+"
+"
 }
 }
 {
@@ -1362,14 +1364,11 @@ fieldDetails
 let
 actual
 =
-handler
-.
-getFilledStateByElement
-(
 field
 .
 element
-)
+.
+autofillState
 ;
 let
 expected
