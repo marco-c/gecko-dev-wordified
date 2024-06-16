@@ -114,7 +114,9 @@ the
 selected
 tab
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 )
 ;

@@ -597,7 +597,9 @@ preferences
 return
 window
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 viewId
 )

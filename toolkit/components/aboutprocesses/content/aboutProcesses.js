@@ -7401,7 +7401,9 @@ ownerGlobal
 ;
 parentWin
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 )
 ;

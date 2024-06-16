@@ -176,7 +176,7 @@ new
 tab
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -262,7 +262,9 @@ let
 win
 =
 await
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 "
 addons

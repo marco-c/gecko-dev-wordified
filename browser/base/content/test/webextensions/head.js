@@ -3292,7 +3292,9 @@ let
 win
 =
 await
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 "
 addons

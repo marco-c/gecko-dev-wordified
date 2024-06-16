@@ -5907,7 +5907,9 @@ extensionID
 ;
 window
 .
-BrowserOpenAddonsMgr
+BrowserAddonUI
+.
+openAddonsMgr
 (
 viewID
 )
