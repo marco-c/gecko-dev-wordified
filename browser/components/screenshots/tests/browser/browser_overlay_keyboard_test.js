@@ -348,12 +348,6 @@ right
 ]
 ]
 ;
-/
-*
-*
-*
-*
-/
 add_task
 (
 async

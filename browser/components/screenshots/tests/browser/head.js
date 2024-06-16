@@ -243,7 +243,7 @@ fullPageButton
 :
 "
 button
-.
+#
 full
 -
 page
@@ -252,7 +252,7 @@ visiblePageButton
 :
 "
 button
-.
+#
 visible
 -
 page
