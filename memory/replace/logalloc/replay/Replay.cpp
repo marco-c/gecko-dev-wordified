@@ -5497,7 +5497,7 @@ waste
 +
 stats
 .
-page_cache
+pages_dirty
 +
 stats
 .
@@ -5658,7 +5658,7 @@ n
 "
 stats
 .
-page_cache
+pages_dirty
 )
 ;
 FdPrintf

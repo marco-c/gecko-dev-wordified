@@ -7643,7 +7643,7 @@ bookkeeping
 +
 aStats
 .
-page_cache
+pages_dirty
 +
 aStats
 .
@@ -8121,7 +8121,7 @@ KIND_NONHEAP
 UNITS_BYTES
 stats
 .
-page_cache
+pages_dirty
 "
 Memory
 which
@@ -8430,7 +8430,7 @@ waste
 -
 stats
 .
-page_cache
+pages_dirty
 -
 stats
 .
