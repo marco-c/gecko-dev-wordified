@@ -36077,15 +36077,6 @@ UpdateBackgroundState
 (
 )
 ;
-UpdateWorkersBackgroundState
-(
-*
-this
-IsBackgroundInternal
-(
-)
-)
-;
 }
 template
 <
