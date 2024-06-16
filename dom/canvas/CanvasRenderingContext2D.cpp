@@ -9448,6 +9448,8 @@ Rect
 aCoveredRect
 bool
 aWillClear
+bool
+aSkipTransform
 )
 {
 if
@@ -9740,6 +9742,12 @@ canDiscardContent
 aCoveredRect
 &
 &
+(
+aSkipTransform
+?
+*
+aCoveredRect
+:
 CurrentState
 (
 )
@@ -9750,6 +9758,7 @@ TransformBounds
 (
 *
 aCoveredRect
+)
 )
 .
 Contains
@@ -41398,6 +41407,8 @@ EnsureTarget
 aRv
 &
 putRect
+true
+true
 )
 )
 {
