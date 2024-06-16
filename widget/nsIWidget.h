@@ -8617,6 +8617,14 @@ xulWinName
 =
 0
 ;
+virtual
+void
+SetIsEarlyBlankWindow
+(
+bool
+)
+{
+}
 /
 *
 *
