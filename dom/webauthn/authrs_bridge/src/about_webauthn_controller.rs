@@ -73,10 +73,7 @@ ctap2
 commands
 :
 :
-{
-PinUvAuthResult
 StatusCode
-}
 errors
 :
 :
@@ -86,7 +83,6 @@ HIDError
 }
 BioEnrollmentCmd
 CredManagementCmd
-InteractiveRequest
 InteractiveUpdate
 PinError
 }
