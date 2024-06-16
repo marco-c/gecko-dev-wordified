@@ -189,14 +189,6 @@ querySelectorAll
 (
 "
 .
-tail
--
-with
--
-learn
--
-more
-.
 content
 -
 blocking
