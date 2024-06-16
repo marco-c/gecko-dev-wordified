@@ -314,8 +314,7 @@ runUpdateUsingApp
 STATE_PENDING
 )
 ;
-await
-testPostUpdateProcessing
+standardInit
 (
 )
 ;
@@ -329,7 +328,6 @@ checkFilesAfterUpdateFailure
 getApplyDirFile
 )
 ;
-await
 checkUpdateManager
 (
 STATE_PENDING

@@ -218,7 +218,6 @@ true
 let
 bestUpdate
 =
-await
 gAUS
 .
 selectUpdate
@@ -227,7 +226,7 @@ updates
 )
 ;
 let
-result
+success
 =
 await
 gAUS
@@ -242,12 +241,8 @@ Assert
 .
 equal
 (
-result
-Ci
-.
-nsIApplicationUpdateService
-.
-DOWNLOAD_FAILURE_GENERIC
+success
+false
 "
 Update
 should

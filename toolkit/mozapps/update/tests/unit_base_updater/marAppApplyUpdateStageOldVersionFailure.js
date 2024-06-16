@@ -256,12 +256,7 @@ runUpdateUsingApp
 STATE_AFTER_STAGE
 )
 ;
-reloadUpdateManagerData
-(
-)
-;
-await
-testPostUpdateProcessing
+standardInit
 (
 )
 ;
@@ -284,7 +279,6 @@ waitForUpdateXMLFiles
 (
 )
 ;
-await
 checkUpdateManager
 (
 STATE_NONE

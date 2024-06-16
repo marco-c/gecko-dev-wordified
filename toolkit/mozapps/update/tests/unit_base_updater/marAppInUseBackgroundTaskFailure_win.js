@@ -190,8 +190,7 @@ waitForHelperExit
 (
 )
 ;
-await
-testPostUpdateProcessing
+standardInit
 (
 )
 ;
@@ -236,7 +235,6 @@ false
 aUpdatesExists
 )
 ;
-await
 checkUpdateManager
 (
 STATE_PENDING

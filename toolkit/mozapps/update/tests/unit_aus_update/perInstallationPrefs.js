@@ -954,7 +954,6 @@ setupTestCommon
 null
 )
 ;
-await
 standardInit
 (
 )

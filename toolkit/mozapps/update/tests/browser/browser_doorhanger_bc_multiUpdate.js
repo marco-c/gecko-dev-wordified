@@ -316,7 +316,6 @@ swap
 "
 )
 ;
-await
 gAUS
 .
 checkForBackgroundUpdates

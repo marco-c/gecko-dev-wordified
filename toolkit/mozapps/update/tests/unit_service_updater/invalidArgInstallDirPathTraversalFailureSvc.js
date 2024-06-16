@@ -185,8 +185,7 @@ null
 null
 )
 ;
-await
-testPostUpdateProcessing
+standardInit
 (
 )
 ;
@@ -311,7 +310,6 @@ update
 status
 file
 .
-await
 checkUpdateManager
 (
 STATE_NONE
@@ -324,7 +322,6 @@ STATE_PENDING_SVC
 }
 else
 {
-await
 checkUpdateManager
 (
 STATE_NONE
