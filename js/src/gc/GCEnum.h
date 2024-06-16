@@ -763,6 +763,11 @@ ModuleExports
 \
 _
 (
+ModuleImportAttributes
+)
+\
+_
+(
 BaselineScript
 )
 \
