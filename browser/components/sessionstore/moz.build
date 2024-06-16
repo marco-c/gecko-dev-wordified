@@ -110,6 +110,13 @@ browser
 .
 toml
 "
+"
+test
+/
+browser_oldformat
+.
+toml
+"
 ]
 MARIONETTE_MANIFESTS
 +
