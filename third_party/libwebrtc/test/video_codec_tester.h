@@ -1171,6 +1171,10 @@ VideoCodecStats
 >
 RunDecodeTest
 (
+const
+Environment
+&
+env
 CodedVideoSource
 *
 video_source
@@ -1255,6 +1259,10 @@ VideoCodecStats
 >
 RunEncodeDecodeTest
 (
+const
+Environment
+&
+env
 const
 VideoSourceSettings
 &
