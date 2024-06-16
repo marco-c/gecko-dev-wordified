@@ -447,6 +447,11 @@ testInformalValueTypeName
 cpp
 "
 "
+testInt128
+.
+cpp
+"
+"
 testIntern
 .
 cpp
