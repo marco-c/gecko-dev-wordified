@@ -61,9 +61,6 @@ crate
 minidump_writer
 ;
 use
-anyhow
-;
-use
 libc
 :
 :
