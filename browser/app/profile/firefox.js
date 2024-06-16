@@ -11187,7 +11187,7 @@ sanitize
 .
 useOldClearHistoryDialog
 "
-true
+false
 )
 ;
 pref
