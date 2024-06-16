@@ -3725,7 +3725,7 @@ EXPECT_CALL
 (
 *
 sender
-SetCodecPreferences
+SetSendCodecs
 (
 _
 )
@@ -4335,7 +4335,7 @@ EXPECT_CALL
 (
 *
 rtp_sender
-SetCodecPreferences
+SetSendCodecs
 (
 _
 )
@@ -4641,7 +4641,7 @@ EXPECT_CALL
 (
 *
 rtp_sender
-SetCodecPreferences
+SetSendCodecs
 (
 _
 )
@@ -25462,7 +25462,7 @@ EXPECT_CALL
 (
 *
 sender
-SetCodecPreferences
+SetSendCodecs
 (
 _
 )
@@ -25852,7 +25852,7 @@ EXPECT_CALL
 (
 *
 sender
-SetCodecPreferences
+SetSendCodecs
 (
 _
 )
@@ -26145,7 +26145,7 @@ EXPECT_CALL
 (
 *
 sender
-SetCodecPreferences
+SetSendCodecs
 (
 _
 )
@@ -26371,7 +26371,7 @@ EXPECT_CALL
 (
 *
 sender
-SetCodecPreferences
+SetSendCodecs
 (
 _
 )
@@ -28963,7 +28963,7 @@ EXPECT_CALL
 (
 *
 sender
-SetCodecPreferences
+SetSendCodecs
 (
 _
 )
@@ -29958,7 +29958,7 @@ EXPECT_CALL
 (
 *
 sender
-SetCodecPreferences
+SetSendCodecs
 (
 _
 )
@@ -30101,7 +30101,7 @@ EXPECT_CALL
 (
 *
 sender
-SetCodecPreferences
+SetSendCodecs
 (
 _
 )

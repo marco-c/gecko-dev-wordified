@@ -497,7 +497,7 @@ cricket
 :
 Codec
 >
-codec_preferences
+send_codecs
 absl
 :
 :
@@ -519,7 +519,7 @@ RTCErrorType
 ;
 if
 (
-codec_preferences
+send_codecs
 .
 empty
 (
@@ -616,11 +616,11 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 :
-codec_preferences
+send_codecs
 )
 {
 if
@@ -716,11 +716,11 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 :
-codec_preferences
+send_codecs
 )
 {
 for
@@ -921,7 +921,7 @@ cricket
 :
 Codec
 >
-codec_preferences
+send_codecs
 absl
 :
 :
@@ -1363,7 +1363,7 @@ return
 CheckScalabilityModeValues
 (
 rtp_parameters
-codec_preferences
+send_codecs
 send_codec
 )
 ;
@@ -1434,7 +1434,7 @@ cricket
 :
 Codec
 >
-codec_preferences
+send_codecs
 absl
 :
 :
@@ -1691,7 +1691,7 @@ return
 CheckRtpParametersValues
 (
 rtp_parameters
-codec_preferences
+send_codecs
 send_codec
 )
 ;

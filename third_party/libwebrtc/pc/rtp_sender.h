@@ -812,7 +812,7 @@ codecs
 .
 virtual
 void
-SetCodecPreferences
+SetSendCodecs
 (
 std
 :
@@ -824,7 +824,7 @@ cricket
 :
 Codec
 >
-codec_preferences
+send_codecs
 )
 =
 0
@@ -1563,7 +1563,7 @@ true
 ;
 }
 void
-SetCodecPreferences
+SetSendCodecs
 (
 std
 :
@@ -1575,13 +1575,13 @@ cricket
 :
 Codec
 >
-codec_preferences
+send_codecs
 )
 override
 {
-codec_preferences_
+send_codecs_
 =
-codec_preferences
+send_codecs
 ;
 }
 protected
@@ -1877,7 +1877,7 @@ cricket
 :
 Codec
 >
-codec_preferences_
+send_codecs_
 ;
 /
 /

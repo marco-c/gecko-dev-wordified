@@ -323,7 +323,7 @@ cricket
 :
 Codec
 >
-codec_preferences
+send_codecs
 absl
 :
 :
@@ -380,7 +380,7 @@ cricket
 :
 Codec
 >
-codec_preferences
+send_codecs
 absl
 :
 :
@@ -447,7 +447,7 @@ cricket
 :
 Codec
 >
-codec_preferences
+send_codecs
 absl
 :
 :
