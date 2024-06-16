@@ -39890,7 +39890,7 @@ h
 *
 #
 ifdef
-HAVE_DLOPEN
+HAVE_DLFCN_H
 #
 include
 <
