@@ -6216,15 +6216,10 @@ return
 false
 ;
 }
-/
-/
-Step
-4
-.
 if
 (
 !
-RejectTemporalLikeObject
+ThrowIfTemporalLikeObject
 (
 cx
 temporalYearMonthLike
@@ -6238,7 +6233,7 @@ false
 /
 /
 Step
-5
+4
 .
 Rooted
 <
@@ -6327,7 +6322,7 @@ false
 /
 /
 Step
-6
+5
 .
 Rooted
 <
@@ -6371,7 +6366,7 @@ false
 /
 /
 Step
-7
+6
 .
 JS
 :
@@ -6418,7 +6413,7 @@ false
 /
 /
 Step
-8
+7
 .
 Rooted
 <
@@ -6449,7 +6444,7 @@ false
 /
 /
 Step
-9
+8
 .
 Rooted
 <
@@ -6480,7 +6475,7 @@ false
 /
 /
 Step
-10
+9
 .
 Rooted
 <
@@ -6512,7 +6507,7 @@ false
 /
 /
 Step
-11
+10
 .
 fields
 =
@@ -6536,7 +6531,7 @@ false
 /
 /
 Step
-12
+11
 .
 auto
 obj

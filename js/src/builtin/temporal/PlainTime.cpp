@@ -8001,15 +8001,10 @@ return
 false
 ;
 }
-/
-/
-Step
-4
-.
 if
 (
 !
-RejectTemporalLikeObject
+ThrowIfTemporalLikeObject
 (
 cx
 temporalTimeLike
@@ -8041,7 +8036,7 @@ hasDefined
 /
 /
 Step
-5
+4
 .
 Rooted
 <
@@ -8080,7 +8075,7 @@ false
 /
 /
 Step
-6
+5
 .
 if
 (
@@ -8102,9 +8097,9 @@ false
 /
 /
 Steps
-7
+6
 -
-19
+18
 .
 TemporalTimeLike
 partialTime
@@ -8169,7 +8164,7 @@ false
 /
 /
 Step
-20
+19
 .
 PlainTime
 result
@@ -8194,7 +8189,7 @@ false
 /
 /
 Step
-21
+20
 .
 auto
 *
