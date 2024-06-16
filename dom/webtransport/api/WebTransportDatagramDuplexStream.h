@@ -390,7 +390,7 @@ already_AddRefed
 <
 Promise
 >
-WriteCallback
+WriteCallbackImpl
 (
 JSContext
 *

@@ -640,7 +640,7 @@ already_AddRefed
 <
 Promise
 >
-WriteCallback
+WriteCallbackImpl
 (
 JSContext
 *
@@ -6197,7 +6197,7 @@ Promise
 WritableFileStreamUnderlyingSinkAlgorithms
 :
 :
-WriteCallback
+WriteCallbackImpl
 (
 JSContext
 *
