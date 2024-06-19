@@ -108,6 +108,17 @@ Ordering
 Enum
 )
 ]
+#
+[
+diplomat
+:
+:
+attr
+(
+*
+disable
+)
+]
 pub
 enum
 ICU4XOrdering

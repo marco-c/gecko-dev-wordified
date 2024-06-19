@@ -93,17 +93,6 @@ over
 the
 logging
 used
-#
-[
-diplomat
-:
-:
-attr
-(
-dart
-disable
-)
-]
 pub
 struct
 ICU4XLogger
