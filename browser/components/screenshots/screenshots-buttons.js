@@ -409,7 +409,7 @@ function
 {
 ScreenshotsUtils
 .
-takeScreenshot
+doScreenshot
 (
 gBrowser
 .
@@ -445,7 +445,7 @@ function
 {
 ScreenshotsUtils
 .
-takeScreenshot
+doScreenshot
 (
 gBrowser
 .
