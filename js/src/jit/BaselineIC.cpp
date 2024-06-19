@@ -10722,6 +10722,7 @@ stub
 state
 (
 )
+frame
 argc
 callee
 callArgs
@@ -11432,6 +11433,7 @@ stub
 state
 (
 )
+frame
 1
 callee
 thisv
