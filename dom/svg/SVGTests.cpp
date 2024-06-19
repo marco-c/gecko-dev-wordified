@@ -480,6 +480,7 @@ if
 no
 match
 .
+static
 int32_t
 FindBestLanguage
 (

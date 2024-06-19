@@ -427,6 +427,11 @@ ActivateByHyperlink
 (
 )
 ;
+bool
+IsDisabled
+(
+)
+;
 /
 /
 WebIDL
