@@ -1192,16 +1192,6 @@ GetClientOffset
 override
 ;
 void
-SetBackgroundColor
-(
-const
-nscolor
-&
-aColor
-)
-override
-;
-void
 SetCursor
 (
 const
@@ -4126,9 +4116,6 @@ Maybe
 WNDPROC
 >
 mPrevWndProc
-;
-HBRUSH
-mBrush
 ;
 IMEContext
 mDefaultIMC
