@@ -92729,7 +92729,7 @@ mResolver
 mDatabaseMetadataArray
 )
 ;
-DropDirectoryLock
+SafeDropDirectoryLock
 (
 mDirectoryLock
 )
