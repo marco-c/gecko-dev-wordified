@@ -1111,9 +1111,6 @@ messagesAdd
 (
 [
 {
-message
-:
-{
 level
 :
 "
@@ -1129,7 +1126,6 @@ message
 chromeContext
 :
 true
-}
 resourceType
 :
 ResourceCommand
@@ -1577,9 +1573,6 @@ message
 >
 (
 {
-message
-:
-{
 level
 :
 message
@@ -1600,7 +1593,6 @@ text
 chromeContext
 :
 true
-}
 resourceType
 :
 ResourceCommand

@@ -990,8 +990,6 @@ resources
 0
 ]
 .
-message
-.
 arguments
 [
 0

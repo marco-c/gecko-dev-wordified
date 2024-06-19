@@ -703,8 +703,6 @@ resource
 >
 resource
 .
-message
-.
 arguments
 [
 0

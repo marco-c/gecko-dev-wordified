@@ -233,8 +233,6 @@ availableResources
 0
 ]
 .
-message
-.
 arguments
 [
 0
@@ -354,7 +352,7 @@ process
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -433,7 +431,7 @@ target
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .

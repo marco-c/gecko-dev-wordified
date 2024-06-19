@@ -294,10 +294,9 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 TEST_URL
@@ -346,8 +345,6 @@ resource
 >
 resource
 .
-message
-.
 filename
 .
 startsWith
@@ -367,8 +364,6 @@ resource
 =
 >
 resource
-.
-message
 .
 filename
 .
@@ -558,8 +553,6 @@ r
 !
 r
 .
-message
-.
 arguments
 [
 0
@@ -638,8 +631,6 @@ resource
 >
 resource
 .
-message
-.
 arguments
 [
 0
@@ -666,8 +657,6 @@ resource
 =
 >
 resource
-.
-message
 .
 arguments
 [
@@ -821,8 +810,6 @@ resource
 >
 resource
 .
-message
-.
 arguments
 [
 0
@@ -899,22 +886,6 @@ message
 "
 )
 ;
-ok
-(
-messageResource
-.
-message
-"
-message
-is
-wrapped
-into
-a
-message
-attribute
-"
-)
-;
 if
 (
 expected
@@ -944,8 +915,6 @@ front
 is
 (
 messageResource
-.
-message
 .
 arguments
 [

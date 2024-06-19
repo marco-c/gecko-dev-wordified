@@ -223,8 +223,6 @@ resources
 [
 0
 ]
-.
-message
 ;
 }
 }
