@@ -272,9 +272,9 @@ intl
 /
 icu_capi
 /
-cpp
+bindings
 /
-include
+cpp
 "
 ]
 #

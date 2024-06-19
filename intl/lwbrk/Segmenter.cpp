@@ -431,11 +431,6 @@ capi
 ICU4XLineSegmenter_segment_utf16
 (
 mSegmenter
-(
-const
-uint16_t
-*
-)
 mText
 .
 Elements
@@ -830,11 +825,6 @@ capi
 ICU4XWordSegmenter_segment_utf16
 (
 mSegmenter
-(
-const
-uint16_t
-*
-)
 mText
 .
 Elements
@@ -1313,11 +1303,6 @@ capi
 ICU4XGraphemeClusterSegmenter_segment_utf16
 (
 sSegmenter
-(
-const
-uint16_t
-*
-)
 mText
 .
 Elements
@@ -2598,11 +2583,6 @@ capi
 ICU4XSentenceSegmenter_segment_utf16
 (
 mSegmenter
-(
-const
-uint16_t
-*
-)
 mText
 .
 Elements

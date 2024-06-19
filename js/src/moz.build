@@ -4089,9 +4089,9 @@ intl
 /
 icu_capi
 /
-c
+bindings
 /
-include
+c
 "
 ]
 if

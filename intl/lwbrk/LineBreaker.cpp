@@ -7922,11 +7922,6 @@ capi
 ICU4XLineSegmenter_segment_utf16
 (
 lineSegmenter
-(
-const
-uint16_t
-*
-)
 aChars
 aLength
 )
