@@ -43062,6 +43062,10 @@ mPendingDirectoryLock
 =
 nullptr
 ;
+mDirectoryLock
+=
+aLock
+;
 if
 (
 NS_WARN_IF
@@ -43093,10 +43097,6 @@ FinishNesting
 return
 ;
 }
-mDirectoryLock
-=
-aLock
-;
 SendToIOThread
 (
 )
