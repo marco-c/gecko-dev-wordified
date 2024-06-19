@@ -533,6 +533,9 @@ messageImpressions
 "
 screenImpressions
 "
+"
+browserIsSelected
+"
 ]
 ;
 for
