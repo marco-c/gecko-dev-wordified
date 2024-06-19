@@ -650,6 +650,14 @@ aFromChrome
 ;
 private
 :
+enum
+class
+CoordsType
+{
+Screen
+TopLevelWidget
+}
+;
 mozilla
 :
 :
@@ -658,10 +666,10 @@ Result
 mozilla
 :
 :
-ScreenRect
+LayoutDeviceRect
 nsresult
 >
-ConvertToScreenRect
+ConvertTo
 (
 float
 aX
@@ -671,6 +679,7 @@ float
 aWidth
 float
 aHeight
+CoordsType
 )
 ;
 }
