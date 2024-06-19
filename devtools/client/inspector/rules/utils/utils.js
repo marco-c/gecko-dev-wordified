@@ -1421,9 +1421,7 @@ sourceLabelEl
 getAttribute
 (
 "
-data
--
-url
+href
 "
 )
 |
