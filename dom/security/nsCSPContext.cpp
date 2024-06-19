@@ -1559,6 +1559,7 @@ move
 (
 resource
 )
+aDir
 spec
 lineNumber
 columnNumber
@@ -1599,10 +1600,6 @@ null
 /
 violatedDirective
 violatedDirectiveString
-aDir
-/
-/
-aViolatedDirective
 u
 "
 "
@@ -3413,6 +3410,7 @@ BlockedContentSource
 :
 Inline
 }
+aEffectiveDirective
 sourceFile
 lineNumber
 columnNumber
@@ -3439,10 +3437,6 @@ aViolatedDirective
 /
 aViolatedDirective
 aViolatedDirectiveString
-aEffectiveDirective
-/
-/
-aEffectiveDirective
 observerSubject
 /
 /
@@ -4639,6 +4633,15 @@ Resource
 {
 blockedContentSource
 }
+/
+*
+aEffectiveDirective
+*
+/
+CSPDirective
+:
+:
+SCRIPT_SRC_DIRECTIVE
 aSourceFile
 static_cast
 <
@@ -4671,15 +4674,6 @@ cspViolationData
 nullptr
 violatedDirectiveName
 violatedDirectiveNameAndValue
-CSPDirective
-:
-:
-SCRIPT_SRC_DIRECTIVE
-/
-*
-aEffectiveDirective
-*
-/
 observerSubject
 reportSample
 )
@@ -8569,9 +8563,6 @@ nsAString
 &
 aViolatedDirectiveNameAndValue
 const
-CSPDirective
-aEffectiveDirective
-const
 nsAString
 &
 aObserverSubject
@@ -8624,10 +8615,6 @@ aViolatedDirectiveName
 mViolatedDirectiveNameAndValue
 (
 aViolatedDirectiveNameAndValue
-)
-mEffectiveDirective
-(
-aEffectiveDirective
 )
 mCSPContext
 (
@@ -8835,6 +8822,8 @@ AssignASCII
 (
 CSP_CSPDirectiveToString
 (
+mCSPViolationData
+.
 mEffectiveDirective
 )
 )
@@ -9040,6 +9029,8 @@ effectiveDirective
 (
 CSP_CSPDirectiveToString
 (
+mCSPViolationData
+.
 mEffectiveDirective
 )
 )
@@ -9078,6 +9069,8 @@ nullptr
 ;
 if
 (
+mCSPViolationData
+.
 mEffectiveDirective
 =
 =
@@ -9087,6 +9080,8 @@ CSPDirective
 STYLE_SRC_ATTR_DIRECTIVE
 |
 |
+mCSPViolationData
+.
 mEffectiveDirective
 =
 =
@@ -9112,6 +9107,8 @@ CSPInlineStyleViolation
 else
 if
 (
+mCSPViolationData
+.
 mEffectiveDirective
 =
 =
@@ -9138,6 +9135,8 @@ else
 {
 MOZ_ASSERT
 (
+mCSPViolationData
+.
 mEffectiveDirective
 =
 =
@@ -9474,6 +9473,8 @@ nullptr
 ;
 switch
 (
+mCSPViolationData
+.
 mEffectiveDirective
 )
 {
@@ -9620,9 +9621,6 @@ mViolatedDirectiveName
 nsString
 mViolatedDirectiveNameAndValue
 ;
-CSPDirective
-mEffectiveDirective
-;
 nsCOMPtr
 <
 nsISupports
@@ -9754,9 +9752,6 @@ nsAString
 &
 aViolatedDirectiveNameAndValue
 const
-CSPDirective
-aEffectiveDirective
-const
 nsAString
 &
 aObserverSubject
@@ -9813,7 +9808,6 @@ getReportOnlyFlag
 )
 aViolatedDirectiveName
 aViolatedDirectiveNameAndValue
-aEffectiveDirective
 aObserverSubject
 aReportSample
 this
