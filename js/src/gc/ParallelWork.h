@@ -286,9 +286,6 @@ WorkItemIterator
 &
 work
 const
-JS
-:
-:
 SliceBudget
 &
 budget
@@ -517,9 +514,6 @@ to
 run
 for
 .
-JS
-:
-:
 SliceBudget
 budget_
 ;
@@ -612,9 +606,6 @@ WorkItemIterator
 &
 work
 const
-JS
-:
-:
 SliceBudget
 &
 budget

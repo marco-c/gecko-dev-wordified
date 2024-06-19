@@ -470,7 +470,7 @@ Now
 +
 kTenthSecond
 ;
-JS
+js
 :
 :
 SliceBudget
@@ -1046,7 +1046,7 @@ here
 .
 .
 .
-JS
+js
 :
 :
 SliceBudget
@@ -1386,7 +1386,7 @@ InIncrementalGC
 bool
 preferShorter
 ;
-JS
+js
 :
 :
 SliceBudget
@@ -1625,7 +1625,7 @@ InIncrementalGC
 bool
 preferShorter
 ;
-JS
+js
 :
 :
 SliceBudget

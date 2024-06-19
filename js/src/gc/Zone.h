@@ -5543,7 +5543,7 @@ js
 GCMarker
 *
 marker
-JS
+js
 :
 :
 SliceBudget

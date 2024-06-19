@@ -505,12 +505,6 @@ mozilla
 :
 TimeStamp
 ;
-using
-JS
-:
-:
-SliceBudget
-;
 struct
 js
 :

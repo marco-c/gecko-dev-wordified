@@ -308,12 +308,6 @@ mozilla
 :
 TimeStamp
 ;
-using
-JS
-:
-:
-SliceBudget
-;
 static
 const
 size_t
