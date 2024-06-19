@@ -284,6 +284,10 @@ Resource
 &
 &
 aResource
+const
+nsAString
+&
+aSourceFile
 uint32_t
 aLineNumber
 uint32_t
@@ -307,6 +311,10 @@ move
 (
 aResource
 )
+}
+mSourceFile
+{
+aSourceFile
 }
 mLineNumber
 {
