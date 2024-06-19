@@ -113,6 +113,7 @@ mjs
 ;
 const
 {
+CLIENT_IS_THUNDERBIRD
 ERRNO_DEVICE_SESSION_CONFLICT
 ERRNO_TOO_MANY_CLIENT_REQUESTS
 ERRNO_UNKNOWN_DEVICE
@@ -4305,6 +4306,15 @@ true
 ;
 add_task
 (
+{
+skip_if
+:
+(
+)
+=
+>
+CLIENT_IS_THUNDERBIRD
+}
 async
 function
 test_verification_updates_registration
