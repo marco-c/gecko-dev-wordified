@@ -1443,10 +1443,6 @@ quad_flags
 :
 QuadFlags
 pub
-clip_node_range
-:
-ClipNodeRange
-pub
 prim_needs_scissor_rect
 :
 bool
@@ -3513,9 +3509,6 @@ EdgeAaSegmentMask
 quad_flags
 :
 QuadFlags
-clip_node_range
-:
-ClipNodeRange
 prim_needs_scissor_rect
 :
 bool
@@ -3540,7 +3533,6 @@ prim_address_f
 transform_id
 edge_flags
 quad_flags
-clip_node_range
 prim_needs_scissor_rect
 }
 )

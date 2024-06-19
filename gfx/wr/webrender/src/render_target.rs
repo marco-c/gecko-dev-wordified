@@ -66,7 +66,6 @@ units
 :
 *
 PremultipliedColorF
-ClipMode
 }
 ;
 use
@@ -8596,16 +8595,6 @@ mode
 =
 >
 {
-assert_eq
-!
-(
-mode
-ClipMode
-:
-:
-Clip
-)
-;
 let
 mut
 writer
