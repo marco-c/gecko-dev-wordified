@@ -15683,12 +15683,11 @@ b
 .
 browsingContext
 .
-setCrossGroupOpener
-(
+crossGroupOpener
+=
 openerBrowser
 .
 browsingContext
-)
 ;
 }
 }
