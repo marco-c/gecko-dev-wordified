@@ -1164,6 +1164,9 @@ sweepIncrementally
 SweepIterator
 &
 atomsToSweep
+JS
+:
+:
 SliceBudget
 &
 budget

@@ -3435,7 +3435,7 @@ Now
 (
 )
 ;
-js
+JS
 :
 :
 SliceBudget
@@ -5268,7 +5268,7 @@ KillGCRunner
 )
 ;
 }
-js
+JS
 :
 :
 SliceBudget
@@ -5345,12 +5345,12 @@ slice
 time
 .
 return
-js
+JS
 :
 :
 SliceBudget
 (
-js
+JS
 :
 :
 TimeBudget
@@ -5401,7 +5401,7 @@ kMaxICCDuration
 )
 {
 return
-js
+JS
 :
 :
 SliceBudget
@@ -5568,12 +5568,12 @@ returning
 laterSliceBudget
 .
 return
-js
+JS
 :
 :
 SliceBudget
 (
-js
+JS
 :
 :
 TimeBudget
@@ -5672,7 +5672,7 @@ GC
 to
 finish
 .
-js
+JS
 :
 :
 SliceBudget
@@ -7674,7 +7674,7 @@ NO_REASON
 }
 ;
 }
-js
+JS
 :
 :
 SliceBudget
@@ -7856,7 +7856,7 @@ aStartTimeStamp
 kForgetSkippableSliceDuration
 ;
 return
-js
+JS
 :
 :
 SliceBudget

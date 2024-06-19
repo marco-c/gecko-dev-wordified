@@ -1027,7 +1027,7 @@ eInterruptible
 true
 }
 ;
-js
+JS
 :
 :
 SliceBudget
@@ -1053,7 +1053,7 @@ false
 auto
 budget
 =
-js
+JS
 :
 :
 SliceBudget
@@ -2165,7 +2165,7 @@ cycle
 /
 collection
 .
-js
+JS
 :
 :
 SliceBudget
@@ -2185,7 +2185,7 @@ aPreferShorterSlices
 )
 const
 ;
-js
+JS
 :
 :
 SliceBudget
@@ -2749,7 +2749,7 @@ to
 be
 finished
 .
-js
+JS
 :
 :
 SliceBudget
@@ -2909,7 +2909,7 @@ the
 interrupt
 request
 .
-js
+JS
 :
 :
 SliceBudget

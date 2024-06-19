@@ -191,6 +191,12 @@ mozilla
 :
 TimeStamp
 ;
+using
+JS
+:
+:
+SliceBudget
+;
 class
 AutoAddTimeDuration
 {
