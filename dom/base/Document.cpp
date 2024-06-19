@@ -85646,6 +85646,9 @@ MOZ_ASSERT
 mCloningForSVGUse
 )
 ;
+nsAutoScriptBlocker
+blocker
+;
 mCloningForSVGUse
 =
 true
