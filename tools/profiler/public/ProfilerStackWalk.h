@@ -225,13 +225,6 @@ ProfilerStackWalk_h
 #
 include
 "
-PlatformMacros
-.
-h
-"
-#
-include
-"
 ProfilerNativeStack
 .
 h
