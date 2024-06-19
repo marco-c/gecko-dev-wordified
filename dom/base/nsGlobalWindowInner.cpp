@@ -48179,6 +48179,10 @@ mMayHaveTransitionEventListener
 (
 false
 )
+mMayHaveSMILTimeEventListener
+(
+false
+)
 mMayHaveBeforeInputEventListenerForTelemetry
 (
 false
