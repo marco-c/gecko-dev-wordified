@@ -92,6 +92,6 @@ runWebNNConformanceTests
 '
 softmax
 '
-buildOperationWithSingleInput
+buildSoftmax
 )
 ;
