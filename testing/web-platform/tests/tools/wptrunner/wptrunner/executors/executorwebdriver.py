@@ -5005,6 +5005,31 @@ innerHeight
         
 )
         
+#
+width_offset
+and
+height_offset
+should
+never
+be
+negative
+        
+width_offset
+=
+max
+(
+width_offset
+0
+)
+        
+height_offset
+=
+max
+(
+height_offset
+0
+)
+        
 try
 :
             
