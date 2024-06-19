@@ -1867,6 +1867,9 @@ number
 sourceText
 :
 string
+isTextSelected
+:
+boolean
 langPairPromise
 :
 Promise

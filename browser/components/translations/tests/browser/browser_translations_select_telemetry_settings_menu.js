@@ -113,10 +113,7 @@ openPanel
 (
 runInPage
 {
-selectFrenchSentence
-:
-true
-openAtFrenchSentence
+openAtFrenchHyperlink
 :
 true
 expectedFromLanguage
@@ -179,6 +176,11 @@ top_preferred_language
 :
 "
 en
+"
+text_source
+:
+"
+hyperlink
 "
 }
 }
@@ -257,10 +259,10 @@ auto_translate
 false
 source_text_code_units
 :
-56
+27
 source_text_word_count
 :
-9
+5
 }
 }
 )
