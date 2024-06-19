@@ -1936,11 +1936,6 @@ resourceId
 resource
 .
 resourceId
-resourceType
-:
-resource
-.
-resourceType
 isBlocked
 isFileRequest
 :
@@ -2492,11 +2487,6 @@ onNetworkEventUpdated
 (
 [
 {
-resourceType
-:
-networkEvent
-.
-resourceType
 resourceId
 :
 networkEvent

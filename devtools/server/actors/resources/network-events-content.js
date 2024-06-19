@@ -747,11 +747,6 @@ resourceId
 resource
 .
 resourceId
-resourceType
-:
-resource
-.
-resourceType
 receivedUpdates
 :
 [
@@ -1312,11 +1307,6 @@ onUpdated
 (
 [
 {
-resourceType
-:
-networkEvent
-.
-resourceType
 resourceId
 :
 networkEvent
