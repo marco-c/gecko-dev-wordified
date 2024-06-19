@@ -39,7 +39,7 @@ children
 =
 None
     
-is_root
+parent_expected
 =
 True
     
@@ -188,7 +188,7 @@ context
 context
     
 if
-is_root
+parent_expected
 :
         
 if
