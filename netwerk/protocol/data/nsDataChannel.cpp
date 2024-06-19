@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsISupports
+.
+h
+"
+#
+include
+"
 nsStringStream
 .
 h
@@ -174,6 +181,12 @@ using
 namespace
 mozilla
 ;
+NS_IMPL_ISUPPORTS_INHERITED
+(
+nsDataChannel
+nsBaseChannel
+nsIDataChannel
+)
 /
 *
 *
