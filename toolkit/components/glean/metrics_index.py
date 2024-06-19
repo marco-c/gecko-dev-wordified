@@ -804,6 +804,16 @@ yaml
 "
     
 "
+services
+/
+fxaccounts
+/
+metrics
+.
+yaml
+"
+    
+"
 toolkit
 /
 components
@@ -1312,6 +1322,16 @@ yaml
 browser
 /
 modules
+/
+pings
+.
+yaml
+"
+    
+"
+services
+/
+fxaccounts
 /
 pings
 .
