@@ -17164,9 +17164,6 @@ SSL_VERSION_UNKNOWN
 )
 )
 ;
-#
-ifndef
-ANDROID
 mTlsHandshaker
 -
 >
@@ -17177,8 +17174,6 @@ earlyDataAccepted
 mContentBytesWritten0RTT
 )
 ;
-#
-endif
 mTlsHandshaker
 -
 >
