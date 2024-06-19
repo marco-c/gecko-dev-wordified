@@ -3593,6 +3593,7 @@ GlyphRasterizer
 new
 (
 workers
+None
 true
 )
 ;

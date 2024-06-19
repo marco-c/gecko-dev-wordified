@@ -175,6 +175,7 @@ glyph_rasterizer
 :
 :
 {
+GlyphRasterThread
 GlyphRasterizer
 SharedFontResources
 }
@@ -1136,6 +1137,13 @@ ThreadPool
 >
 >
 pub
+dedicated_glyph_raster_thread
+:
+Option
+<
+GlyphRasterThread
+>
+pub
 enable_multithreading
 :
 bool
@@ -1987,6 +1995,9 @@ batched_upload_threshold
 *
 512
 workers
+:
+None
+dedicated_glyph_raster_thread
 :
 None
 enable_multithreading
@@ -3940,6 +3951,9 @@ GlyphRasterizer
 new
 (
 workers
+options
+.
+dedicated_glyph_raster_thread
 device
 .
 get_capabilities
