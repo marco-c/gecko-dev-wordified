@@ -2578,7 +2578,7 @@ module
 .
 constants
 .
-fetch_or_append
+append
 (
 constant
 meta

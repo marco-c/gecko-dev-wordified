@@ -7805,9 +7805,8 @@ let
 render_extent
 =
 '
-b
+error
 :
-loop
 {
 if
 !
@@ -7830,7 +7829,7 @@ RENDER_ATTACHMENT
 {
 break
 '
-b
+error
 Err
 (
 TextureViewNotRenderableReason
@@ -7888,7 +7887,7 @@ D2Array
 {
 break
 '
-b
+error
 Err
 (
 TextureViewNotRenderableReason
@@ -7909,7 +7908,7 @@ resolved_mip_level_count
 {
 break
 '
-b
+error
 Err
 (
 TextureViewNotRenderableReason
@@ -7949,7 +7948,7 @@ MULTIVIEW
 {
 break
 '
-b
+error
 Err
 (
 TextureViewNotRenderableReason
@@ -7983,7 +7982,7 @@ format
 {
 break
 '
-b
+error
 Err
 (
 TextureViewNotRenderableReason
@@ -7996,9 +7995,6 @@ aspects
 )
 ;
 }
-break
-'
-b
 Ok
 (
 texture
@@ -8014,7 +8010,6 @@ range
 base_mip_level
 )
 )
-;
 }
 ;
 /
@@ -18731,7 +18726,9 @@ true
 let
 error
 =
-loop
+'
+error
+:
 {
 if
 cs
@@ -18743,6 +18740,8 @@ contains_invalid_bits
 )
 {
 break
+'
+error
 Some
 (
 pipeline
@@ -18792,6 +18791,8 @@ RENDER_ATTACHMENT
 )
 {
 break
+'
+error
 Some
 (
 pipeline
@@ -18922,6 +18923,8 @@ adapter_specific
 )
 {
 break
+'
+error
 Some
 (
 pipeline
@@ -18966,6 +18969,8 @@ COLOR
 )
 {
 break
+'
+error
 Some
 (
 pipeline
@@ -19008,6 +19013,8 @@ count
 )
 {
 break
+'
+error
 Some
 (
 pipeline
@@ -19158,6 +19165,8 @@ u32
 }
 }
 break
+'
+error
 None
 ;
 }
@@ -19287,7 +19296,9 @@ true
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 format_features
@@ -19321,6 +19332,8 @@ RENDER_ATTACHMENT
 )
 {
 break
+'
+error
 Some
 (
 pipeline
@@ -19377,6 +19390,8 @@ DEPTH
 )
 {
 break
+'
+error
 Some
 (
 pipeline
@@ -19419,6 +19434,8 @@ STENCIL
 )
 {
 break
+'
+error
 Some
 (
 pipeline
@@ -19461,6 +19478,8 @@ count
 )
 {
 break
+'
+error
 Some
 (
 pipeline
@@ -19514,6 +19533,8 @@ supported_sample_counts
 ;
 }
 break
+'
+error
 None
 ;
 }

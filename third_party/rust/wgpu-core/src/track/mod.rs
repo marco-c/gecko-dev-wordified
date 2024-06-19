@@ -968,7 +968,7 @@ stateless
 :
 :
 {
-StatelessBindGroupSate
+StatelessBindGroupState
 StatelessTracker
 }
 ;
@@ -3352,7 +3352,7 @@ A
 pub
 views
 :
-StatelessBindGroupSate
+StatelessBindGroupState
 <
 resource
 :
@@ -3365,7 +3365,7 @@ A
 pub
 samplers
 :
-StatelessBindGroupSate
+StatelessBindGroupState
 <
 resource
 :
@@ -3416,7 +3416,7 @@ new
 )
 views
 :
-StatelessBindGroupSate
+StatelessBindGroupState
 :
 :
 new
@@ -3424,7 +3424,7 @@ new
 )
 samplers
 :
-StatelessBindGroupSate
+StatelessBindGroupState
 :
 :
 new

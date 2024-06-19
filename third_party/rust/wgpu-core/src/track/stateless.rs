@@ -134,7 +134,7 @@ pub
 crate
 )
 struct
-StatelessBindGroupSate
+StatelessBindGroupState
 <
 T
 :
@@ -160,7 +160,7 @@ T
 :
 Resource
 >
-StatelessBindGroupSate
+StatelessBindGroupState
 <
 T
 >

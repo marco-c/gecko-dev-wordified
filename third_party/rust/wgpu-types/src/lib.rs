@@ -37676,6 +37676,7 @@ block
 derive
 (
 Clone
+Debug
 )
 ]
 pub

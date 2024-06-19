@@ -7403,7 +7403,9 @@ queue_id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 adapter
@@ -7432,6 +7434,8 @@ _
 =
 >
 break
+'
+error
 RequestDeviceError
 :
 :
@@ -7479,6 +7483,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
@@ -7786,7 +7792,9 @@ queue_id_in
 let
 error
 =
-loop
+'
+error
+:
 {
 let
 adapter
@@ -7815,6 +7823,8 @@ _
 =
 >
 break
+'
+error
 RequestDeviceError
 :
 :
@@ -7857,6 +7867,8 @@ e
 =
 >
 break
+'
+error
 e
 }
 ;
