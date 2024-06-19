@@ -346,6 +346,9 @@ globals
 assert
 :
 true
+expect
+:
+true
 chai
 :
 true
