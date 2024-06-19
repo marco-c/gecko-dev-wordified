@@ -7609,6 +7609,9 @@ clk_id
 0
 )
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 clockid_t
 this_process
 =
@@ -7620,6 +7623,8 @@ getpid
 CPUCLOCK_SCHED
 )
 ;
+#
+endif
 return
 If
 (
