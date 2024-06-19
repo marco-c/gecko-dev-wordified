@@ -143,9 +143,12 @@ BounceTrackingProtection
 final
 :
 public
+nsIObserver
+public
 nsIBounceTrackingProtection
 {
 NS_DECL_ISUPPORTS
+NS_DECL_NSIOBSERVER
 NS_DECL_NSIBOUNCETRACKINGPROTECTION
 public
 :
