@@ -3494,6 +3494,17 @@ _cleanupDragDetails
 )
 ;
 }
+uninit
+(
+)
+{
+this
+.
+__rootView
+=
+null
+;
+}
 }
 customElements
 .

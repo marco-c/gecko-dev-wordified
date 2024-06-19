@@ -5428,6 +5428,14 @@ uninit
 )
 ;
 }
+this
+.
+_chevronPopup
+.
+uninit
+(
+)
+;
 if
 (
 this
