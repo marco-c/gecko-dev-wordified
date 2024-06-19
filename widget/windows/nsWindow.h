@@ -4199,6 +4199,11 @@ mResizable
 =
 false
 ;
+bool
+mHasBeenShown
+=
+false
+;
 /
 /
 Whether
