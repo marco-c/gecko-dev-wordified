@@ -301,6 +301,10 @@ NSTrackingArea
 *
 mTrackingArea
 ;
+NSView
+*
+mViewWithTrackingArea
+;
 NSRect
 mDirtyRect
 ;
