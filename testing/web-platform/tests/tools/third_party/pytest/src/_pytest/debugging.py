@@ -1,3 +1,11 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 "
 "
 "
@@ -56,6 +64,8 @@ from
 typing
 import
 Union
+import
+unittest
 from
 _pytest
 import
@@ -270,7 +280,7 @@ store_true
 help
 =
 "
-start
+Start
 the
 interactive
 Python
@@ -279,7 +289,6 @@ on
 errors
 or
 KeyboardInterrupt
-.
 "
     
 )
@@ -316,7 +325,7 @@ _validate_usepdb_cls
 help
 =
 "
-specify
+Specify
 a
 custom
 interactive
@@ -382,7 +391,6 @@ when
 running
 each
 test
-.
 "
     
 )
@@ -962,41 +970,12 @@ _pytest
 .
 config
         
-#
-Type
-ignored
-because
-mypy
-doesn
-'
-t
-support
-"
-dynamic
-"
-        
-#
-inheritance
-like
-this
-.
-        
 class
 PytestPdbWrapper
 (
 pdb_cls
 )
 :
-#
-type
-:
-ignore
-[
-valid
--
-type
-misc
-]
             
 _pytest_capman
 =
@@ -1749,10 +1728,12 @@ sep
 >
 "
                             
+f
 "
 PDB
-%
-s
+{
+method
+}
 (
 IO
 -
@@ -1760,16 +1741,11 @@ capturing
 turned
 off
 for
-%
-s
+{
+capturing
+}
 )
 "
-                            
-%
-(
-method
-capturing
-)
                         
 )
                     
@@ -1993,6 +1969,21 @@ is
 not
 None
         
+if
+not
+isinstance
+(
+call
+.
+excinfo
+.
+value
+unittest
+.
+SkipTest
+)
+:
+            
 _enter_pdb
 (
 node
@@ -2035,7 +2026,7 @@ PdbTrace
     
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 )
@@ -2051,8 +2042,8 @@ pyfuncitem
 Generator
 [
 None
-None
-None
+object
+object
 ]
 :
         
@@ -2061,7 +2052,10 @@ wrap_pytest_function_for_tracing
 pyfuncitem
 )
         
+return
+(
 yield
+)
 def
 wrap_pytest_function_for_tracing
 (
@@ -2619,15 +2613,26 @@ exception
 instead
 :
         
+assert
+excinfo
+.
+value
+.
+cause
+.
+__traceback__
+is
+not
+None
+        
 return
 excinfo
 .
 value
 .
-excinfo
-[
-2
-]
+cause
+.
+__traceback__
     
 else
 :

@@ -15,27 +15,11 @@ NOTHING
     
 Attribute
     
+AttrsInstance
+    
 Factory
     
-__author__
-    
-__copyright__
-    
-__description__
-    
-__doc__
-    
-__email__
-    
-__license__
-    
-__title__
-    
-__url__
-    
-__version__
-    
-__version_info__
+_make_getattr
     
 assoc
     
@@ -139,6 +123,10 @@ Attribute
 "
     
 "
+AttrsInstance
+"
+    
+"
 cmp_using
 "
     
@@ -214,3 +202,9 @@ validate
 validators
 "
 ]
+__getattr__
+=
+_make_getattr
+(
+__name__
+)

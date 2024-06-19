@@ -1,13 +1,19 @@
-import
-argparse
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 import
 os
-import
-textwrap
 from
 pathlib
 import
 Path
+import
+textwrap
 from
 typing
 import
@@ -28,8 +34,14 @@ from
 typing
 import
 Optional
+from
+typing
 import
-pytest
+Sequence
+from
+typing
+import
+Union
 from
 _pytest
 .
@@ -66,6 +78,8 @@ _pytest
 tmpdir
 import
 TempPathFactory
+import
+pytest
 def
 ConftestWithSetinitial
 (
@@ -99,19 +113,23 @@ conftest_setinitial
 conftest
 :
 PytestPluginManager
+    
 args
+:
+Sequence
+[
+Union
+[
+str
+Path
+]
+]
+    
 confcutdir
 :
 Optional
 [
-"
-os
-.
-PathLike
-[
-str
-]
-"
+Path
 ]
 =
 None
@@ -120,82 +138,24 @@ None
 >
 None
 :
-    
-class
-Namespace
-:
-        
-def
-__init__
-(
-self
-)
--
->
-None
-:
-            
-self
-.
-file_or_dir
-=
-args
-            
-self
-.
-confcutdir
-=
-os
-.
-fspath
-(
-confcutdir
-)
-if
-confcutdir
-is
-not
-None
-else
-None
-            
-self
-.
-noconftest
-=
-False
-            
-self
-.
-pyargs
-=
-False
-            
-self
-.
-importmode
-=
-"
-prepend
-"
-    
-namespace
-=
-cast
-(
-argparse
-.
-Namespace
-Namespace
-(
-)
-)
     
 conftest
 .
 _set_initial_conftests
 (
-namespace
+        
+args
+=
+args
+        
+pyargs
+=
+False
+        
+noconftest
+=
+False
+        
 rootpath
 =
 Path
@@ -205,6 +165,29 @@ args
 0
 ]
 )
+        
+confcutdir
+=
+confcutdir
+        
+invocation_dir
+=
+Path
+.
+cwd
+(
+)
+        
+importmode
+=
+"
+prepend
+"
+        
+consider_namespace_packages
+=
+False
+    
 )
 pytest
 .
@@ -309,6 +292,7 @@ py
 .
 write_text
 (
+            
 "
 a
 =
@@ -318,6 +302,14 @@ Directory
 =
 3
 "
+encoding
+=
+"
+utf
+-
+8
+"
+        
 )
         
 tmp_path
@@ -337,6 +329,7 @@ py
 .
 write_text
 (
+            
 "
 b
 =
@@ -348,6 +341,14 @@ a
 .
 5
 "
+encoding
+=
+"
+utf
+-
+8
+"
+        
 )
         
 if
@@ -427,16 +428,11 @@ basedir
 adir
 "
         
-assert
-(
-            
 conftest
 .
-_rget_with_confmod
+_loadconftestmodules
 (
-"
-a
-"
+            
 p
 importmode
 =
@@ -446,21 +442,31 @@ prepend
 rootpath
 =
 basedir
-)
-[
-                
-1
-            
-]
-            
+consider_namespace_packages
 =
-=
-1
+False
         
 )
+        
+assert
+conftest
+.
+_rget_with_confmod
+(
+"
+a
+"
+p
+)
+[
+1
+]
+=
+=
+1
     
 def
-test_immediate_initialiation_and_incremental_are_the_same
+test_immediate_initialization_and_incremental_are_the_same
 (
         
 self
@@ -491,21 +497,24 @@ _dirpath2confmods
         
 conftest
 .
-_getconftestmodules
+_loadconftestmodules
 (
             
 basedir
+            
 importmode
 =
 "
 prepend
 "
+            
 rootpath
 =
-Path
-(
 basedir
-)
+            
+consider_namespace_packages
+=
+False
         
 )
         
@@ -526,7 +535,7 @@ snap1
         
 conftest
 .
-_getconftestmodules
+_loadconftestmodules
 (
             
 basedir
@@ -534,14 +543,20 @@ basedir
 "
 adir
 "
+            
 importmode
 =
 "
 prepend
 "
+            
 rootpath
 =
 basedir
+            
+consider_namespace_packages
+=
+False
         
 )
         
@@ -560,7 +575,7 @@ snap1
         
 conftest
 .
-_getconftestmodules
+_loadconftestmodules
 (
             
 basedir
@@ -568,14 +583,20 @@ basedir
 "
 b
 "
+            
 importmode
 =
 "
 prepend
 "
+            
 rootpath
 =
 basedir
+            
+consider_namespace_packages
+=
+False
         
 )
         
@@ -625,23 +646,10 @@ conftest
 .
 _rget_with_confmod
 (
-                
 "
 a
 "
 basedir
-importmode
-=
-"
-prepend
-"
-rootpath
-=
-Path
-(
-basedir
-)
-            
 )
     
 def
@@ -672,46 +680,78 @@ basedir
 adir
 "
         
-assert
-(
-            
 conftest
 .
-_rget_with_confmod
+_loadconftestmodules
 (
-                
-"
-a
-"
+            
 adir
+            
 importmode
 =
 "
 prepend
 "
+            
 rootpath
 =
 basedir
             
-)
-[
-1
-]
-            
+consider_namespace_packages
 =
-=
-1
+False
         
 )
         
 assert
-(
-            
 conftest
 .
 _rget_with_confmod
 (
-                
+"
+a
+"
+adir
+)
+[
+1
+]
+=
+=
+1
+        
+conftest
+.
+_loadconftestmodules
+(
+            
+adir
+/
+"
+b
+"
+            
+importmode
+=
+"
+prepend
+"
+            
+rootpath
+=
+basedir
+            
+consider_namespace_packages
+=
+False
+        
+)
+        
+assert
+conftest
+.
+_rget_with_confmod
+(
 "
 a
 "
@@ -720,27 +760,15 @@ adir
 "
 b
 "
-importmode
-=
-"
-prepend
-"
-rootpath
-=
-basedir
-            
 )
 [
 1
 ]
-            
 =
 =
 1
 .
 5
-        
-)
     
 def
 test_value_access_with_confmod
@@ -794,23 +822,10 @@ conftest
 .
 _rget_with_confmod
 (
-            
 "
 a
 "
 startdir
-importmode
-=
-"
-prepend
-"
-rootpath
-=
-Path
-(
-basedir
-)
-        
 )
         
 assert
@@ -820,6 +835,14 @@ value
 1
 .
 5
+        
+assert
+mod
+.
+__file__
+is
+not
+None
         
 path
 =
@@ -909,6 +932,7 @@ py
 .
 write_text
 (
+        
 "
 a
 =
@@ -918,6 +942,14 @@ Directory
 =
 3
 "
+encoding
+=
+"
+utf
+-
+8
+"
+    
 )
     
 tmp_path
@@ -941,6 +973,7 @@ py
 .
 write_text
 (
+        
 "
 b
 =
@@ -952,6 +985,14 @@ a
 .
 5
 "
+encoding
+=
+"
+utf
+-
+8
+"
+    
 )
     
 tmp_path
@@ -1081,19 +1122,7 @@ conftest
 .
 _getconftestmodules
 (
-        
 conf
-importmode
-=
-"
-prepend
-"
-rootpath
-=
-pytester
-.
-path
-    
 )
     
 assert
@@ -1158,7 +1187,7 @@ touch
 (
 )
     
-conftest
+pm
 =
 PytestPluginManager
 (
@@ -1166,27 +1195,25 @@ PytestPluginManager
     
 conftest_setinitial
 (
-conftest
+pm
 names
-)
-    
-d
-=
-list
-(
-conftest
-.
-_conftestpath2mod
-.
-values
-(
-)
 )
     
 assert
 len
 (
-d
+set
+(
+pm
+.
+get_plugins
+(
+)
+)
+-
+{
+pm
+}
 )
 =
 =
@@ -1255,6 +1282,7 @@ conf
 .
 _importconftest
 (
+            
 Path
 (
 "
@@ -1263,11 +1291,13 @@ conftest
 py
 "
 )
+            
 importmode
 =
 "
 prepend
 "
+            
 rootpath
 =
 Path
@@ -1275,6 +1305,11 @@ Path
 cwd
 (
 )
+            
+consider_namespace_packages
+=
+False
+        
 )
         
 assert
@@ -1331,6 +1366,13 @@ y
 =
 4
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
         
 mod2
@@ -1339,12 +1381,15 @@ conf
 .
 _importconftest
 (
+            
 subconf
+            
 importmode
 =
 "
 prepend
 "
+            
 rootpath
 =
 Path
@@ -1352,6 +1397,11 @@ Path
 cwd
 (
 )
+            
+consider_namespace_packages
+=
+False
+        
 )
         
 assert
@@ -1454,25 +1504,38 @@ confcutdir
 p
 )
     
+conftest
+.
+_loadconftestmodules
+(
+        
+p
+        
+importmode
+=
+"
+prepend
+"
+        
+rootpath
+=
+pytester
+.
+path
+        
+consider_namespace_packages
+=
+False
+    
+)
+    
 values
 =
 conftest
 .
 _getconftestmodules
 (
-        
 p
-importmode
-=
-"
-prepend
-"
-rootpath
-=
-pytester
-.
-path
-    
 )
     
 assert
@@ -1484,27 +1547,42 @@ values
 =
 0
     
-values
-=
 conftest
 .
-_getconftestmodules
+_loadconftestmodules
 (
         
 conf
 .
 parent
+        
 importmode
 =
 "
 prepend
 "
+        
 rootpath
 =
 pytester
 .
 path
+        
+consider_namespace_packages
+=
+False
     
+)
+    
+values
+=
+conftest
+.
+_getconftestmodules
+(
+conf
+.
+parent
 )
     
 assert
@@ -1517,15 +1595,16 @@ values
 0
     
 assert
-Path
+not
+conftest
+.
+has_plugin
+(
+str
 (
 conf
 )
-not
-in
-conftest
-.
-_conftestpath2mod
+)
     
 #
 but
@@ -1541,17 +1620,25 @@ conftest
 .
 _importconftest
 (
+        
 conf
+        
 importmode
 =
 "
 prepend
 "
+        
 rootpath
 =
 pytester
 .
 path
+        
+consider_namespace_packages
+=
+False
+    
 )
     
 values
@@ -1560,22 +1647,21 @@ conftest
 .
 _getconftestmodules
 (
-        
 conf
 .
 parent
-importmode
-=
-"
-prepend
-"
-rootpath
-=
-pytester
-.
-path
-    
 )
+    
+assert
+values
+[
+0
+]
+.
+__file__
+is
+not
+None
     
 assert
 values
@@ -1608,19 +1694,7 @@ conftest
 .
 _getconftestmodules
 (
-        
 p
-importmode
-=
-"
-prepend
-"
-rootpath
-=
-pytester
-.
-path
-    
 )
     
 assert
@@ -1631,6 +1705,17 @@ values
 =
 =
 1
+    
+assert
+values
+[
+0
+]
+.
+__file__
+is
+not
+None
     
 assert
 values
@@ -1696,21 +1781,9 @@ conftest
 .
 _getconftestmodules
 (
-        
 conf
 .
 parent
-importmode
-=
-"
-prepend
-"
-rootpath
-=
-pytester
-.
-path
-    
 )
     
 assert
@@ -1721,6 +1794,17 @@ values
 =
 =
 1
+    
+assert
+values
+[
+0
+]
+.
+__file__
+is
+not
+None
     
 assert
 values
@@ -1801,7 +1885,7 @@ touch
 (
 )
     
-conftest
+pm
 =
 PytestPluginManager
 (
@@ -1809,7 +1893,7 @@ PytestPluginManager
     
 conftest_setinitial
 (
-conftest
+pm
 [
 sub
 .
@@ -1846,18 +1930,31 @@ dotdir
 :
         
 assert
-key
-in
-conftest
+pm
 .
-_conftestpath2mod
+has_plugin
+(
+str
+(
+key
+)
+)
         
 assert
 len
 (
-conftest
+set
+(
+pm
 .
-_conftestpath2mod
+get_plugins
+(
+)
+)
+-
+{
+pm
+}
 )
 =
 =
@@ -1867,19 +1964,32 @@ else
 :
         
 assert
-key
 not
-in
-conftest
+pm
 .
-_conftestpath2mod
+has_plugin
+(
+str
+(
+key
+)
+)
         
 assert
 len
 (
-conftest
+set
+(
+pm
 .
-_conftestpath2mod
+get_plugins
+(
+)
+)
+-
+{
+pm
+}
 )
 =
 =
@@ -1969,6 +2079,14 @@ store_true
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -2029,6 +2147,269 @@ initial
 *
 "
 )
+def
+test_installed_conftest_is_picked_up
+(
+pytester
+:
+Pytester
+tmp_path
+:
+Path
+)
+-
+>
+None
+:
+    
+"
+"
+"
+When
+using
+-
+-
+pyargs
+to
+run
+tests
+in
+an
+installed
+packages
+(
+located
+e
+.
+g
+.
+    
+in
+a
+site
+-
+packages
+in
+the
+PYTHONPATH
+)
+conftest
+files
+in
+there
+are
+picked
+    
+up
+.
+    
+Regression
+test
+for
+#
+9767
+.
+    
+"
+"
+"
+    
+#
+pytester
+dir
+-
+the
+source
+tree
+.
+    
+#
+tmp_path
+-
+the
+simulated
+site
+-
+packages
+dir
+(
+not
+in
+source
+tree
+)
+.
+    
+pytester
+.
+syspathinsert
+(
+tmp_path
+)
+    
+pytester
+.
+makepyprojecttoml
+(
+"
+[
+tool
+.
+pytest
+.
+ini_options
+]
+"
+)
+    
+tmp_path
+.
+joinpath
+(
+"
+foo
+"
+)
+.
+mkdir
+(
+)
+    
+tmp_path
+.
+joinpath
+(
+"
+foo
+"
+"
+__init__
+.
+py
+"
+)
+.
+touch
+(
+)
+    
+tmp_path
+.
+joinpath
+(
+"
+foo
+"
+"
+conftest
+.
+py
+"
+)
+.
+write_text
+(
+        
+textwrap
+.
+dedent
+(
+            
+"
+"
+"
+\
+            
+import
+pytest
+            
+pytest
+.
+fixture
+            
+def
+fix
+(
+)
+:
+return
+None
+            
+"
+"
+"
+        
+)
+        
+encoding
+=
+"
+utf
+-
+8
+"
+    
+)
+    
+tmp_path
+.
+joinpath
+(
+"
+foo
+"
+"
+test_it
+.
+py
+"
+)
+.
+write_text
+(
+        
+"
+def
+test_it
+(
+fix
+)
+:
+pass
+"
+encoding
+=
+"
+utf
+-
+8
+"
+    
+)
+    
+result
+=
+pytester
+.
+runpytest
+(
+"
+-
+-
+pyargs
+"
+"
+foo
+"
+)
+    
+assert
+result
+.
+ret
+=
+=
+0
 def
 test_conftest_symlink
 (
@@ -2711,6 +3092,7 @@ only
 relevant
 for
 case
+-
 insensitive
 file
 systems
@@ -3105,6 +3487,14 @@ store_true
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -3219,6 +3609,13 @@ write_text
 (
 "
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
     
 def
@@ -3227,6 +3624,7 @@ impct
 p
 importmode
 root
+consider_namespace_packages
 )
 :
         
@@ -3258,33 +3656,45 @@ _importconftest
 impct
 )
     
-mods
-=
-cast
-(
-        
-List
-[
-Path
-]
-        
 conftest
 .
-_getconftestmodules
+_loadconftestmodules
 (
+        
 sub
+        
 importmode
 =
 "
 prepend
 "
+        
 rootpath
 =
 pytester
 .
 path
+        
+consider_namespace_packages
+=
+False
+    
 )
     
+mods
+=
+cast
+(
+List
+[
+Path
+]
+conftest
+.
+_getconftestmodules
+(
+sub
+)
 )
     
 expected
@@ -3450,6 +3860,14 @@ bar
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -3549,6 +3967,14 @@ bar
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -3655,6 +4081,14 @@ store_true
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -3682,6 +4116,13 @@ test_hello
 )
 :
 pass
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
     
@@ -3858,6 +4299,14 @@ package
 "
             
 )
+            
+encoding
+=
+"
+utf
+-
+8
+"
         
 )
         
@@ -3907,6 +4356,14 @@ package
 "
             
 )
+            
+encoding
+=
+"
+utf
+-
+8
+"
         
 )
         
@@ -3991,6 +4448,14 @@ swc
 "
             
 )
+            
+encoding
+=
+"
+utf
+-
+8
+"
         
 )
         
@@ -4040,6 +4505,14 @@ swc
 "
             
 )
+            
+encoding
+=
+"
+utf
+-
+8
+"
         
 )
         
@@ -4138,6 +4611,14 @@ s
 "
             
 )
+            
+encoding
+=
+"
+utf
+-
+8
+"
         
 )
         
@@ -4158,9 +4639,12 @@ pytester
 .
 path
 .
-rglob
+glob
 (
 "
+*
+*
+/
 "
 )
 :
@@ -4602,16 +5086,30 @@ pytester
 .
 inline_run
 (
+            
 testarg
+            
 "
 -
 q
 "
+            
 "
 -
 -
 traceconfig
 "
+            
+"
+-
+-
+confcutdir
+"
+            
+pytester
+.
+path
+        
 )
         
 reprec
@@ -4750,6 +5248,13 @@ write_text
 pytest
 ]
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
     
 src
@@ -4795,6 +5300,14 @@ pass
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -4845,6 +5358,14 @@ pass
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -4891,6 +5412,14 @@ pass
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
@@ -5484,6 +6013,14 @@ True
 "
         
 )
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     

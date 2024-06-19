@@ -19,12 +19,6 @@ tests
 "
 "
 "
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 inspect
 import
@@ -35,12 +29,9 @@ import
 deepcopy
 import
 pytest
-import
-six
 from
 hypothesis
 import
-assume
 given
 from
 hypothesis
@@ -50,14 +41,6 @@ import
 booleans
 import
 attr
-from
-attr
-.
-_compat
-import
-PY2
-PY36
-TYPE
 from
 attr
 .
@@ -71,19 +54,11 @@ attr
 exceptions
 import
 FrozenInstanceError
-from
-.
-strategies
-import
-optional_bool
 attr
 .
 s
 class
 C1
-(
-object
-)
 :
     
 x
@@ -121,9 +96,6 @@ True
 )
 class
 C1Slots
-(
-object
-)
 :
     
 x
@@ -161,9 +133,6 @@ s
 )
 class
 C2
-(
-object
-)
 :
     
 x
@@ -202,9 +171,6 @@ True
 )
 class
 C2Slots
-(
-object
-)
 :
     
 x
@@ -238,9 +204,6 @@ attr
 s
 class
 Base
-(
-object
-)
 :
     
 x
@@ -272,9 +235,6 @@ True
 )
 class
 BaseSlots
-(
-object
-)
 :
     
 x
@@ -348,9 +308,6 @@ True
 )
 class
 Frozen
-(
-object
-)
 :
     
 x
@@ -390,9 +347,6 @@ False
 )
 class
 FrozenNoSlots
-(
-object
-)
 :
     
 x
@@ -413,16 +367,12 @@ pass
 attr
 .
 s
-six
-.
-add_metaclass
-(
-Meta
-)
 class
 WithMeta
 (
-object
+metaclass
+=
+Meta
 )
 :
     
@@ -435,16 +385,12 @@ slots
 =
 True
 )
-six
-.
-add_metaclass
-(
-Meta
-)
 class
 WithMetaSlots
 (
-object
+metaclass
+=
+Meta
 )
 :
     
@@ -466,9 +412,6 @@ x
 )
 class
 TestFunctional
-(
-object
-)
 :
     
 "
@@ -532,6 +475,12 @@ name
 x
 "
                 
+alias
+=
+"
+x
+"
+                
 default
 =
 foo
@@ -574,6 +523,12 @@ Attribute
 (
                 
 name
+=
+"
+y
+"
+                
+alias
 =
 "
 y
@@ -781,9 +736,7 @@ x
 must
 be
 <
-{
-type
-}
+class
 '
 int
 '
@@ -797,12 +750,7 @@ that
 is
 a
 <
-{
-type
-}
-"
-            
-"
+class
 '
 str
 '
@@ -810,13 +758,6 @@ str
 )
 .
 "
-.
-format
-(
-type
-=
-TYPE
-)
             
 attr
 .
@@ -886,9 +827,6 @@ slots
         
 class
 C3
-(
-object
-)
 :
             
 _x
@@ -990,6 +928,12 @@ name
 a
 "
                 
+alias
+=
+"
+a
+"
+                
 default
 =
 NOTHING
@@ -1032,6 +976,12 @@ Attribute
 (
                 
 name
+=
+"
+b
+"
+                
+alias
 =
 "
 b
@@ -1181,6 +1131,7 @@ Sub
 :
             
 assert
+f
 "
 Sub
 (
@@ -1194,13 +1145,6 @@ y
 2
 )
 "
-.
-format
-(
-obj
-=
-obj
-)
 =
 =
 repr
@@ -1212,6 +1156,7 @@ else
 :
             
 assert
+f
 "
 SubSlots
 (
@@ -1225,13 +1170,6 @@ y
 2
 )
 "
-.
-format
-(
-obj
-=
-obj
-)
 =
 =
 repr
@@ -1332,6 +1270,7 @@ is
 obj
         
 assert
+f
 "
 Sub2
 (
@@ -1342,13 +1281,6 @@ obj
 }
 )
 "
-.
-format
-(
-obj
-=
-obj
-)
 =
 =
 repr
@@ -1698,6 +1630,13 @@ classes
 "
 "
         
+obj
+=
+cls
+(
+123
+456
+)
 if
 len
 (
@@ -1711,21 +1650,7 @@ cls
 =
 =
 2
-:
-            
-obj
-=
-cls
-(
-123
-456
-)
-        
 else
-:
-            
-obj
-=
 cls
 (
 123
@@ -1922,9 +1847,6 @@ s
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -1974,36 +1896,6 @@ C
 =
 C
 (
-)
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-frozen
-"
-[
-True
-False
-]
 )
     
 pytest
@@ -2124,9 +2016,6 @@ replaced
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -2211,9 +2100,6 @@ False
         
 class
 HashByIDBackwardCompat
-(
-object
-)
 :
             
 x
@@ -2258,9 +2144,6 @@ False
         
 class
 HashByID
-(
-object
-)
 :
             
 x
@@ -2300,9 +2183,6 @@ True
         
 class
 HashByValues
-(
-object
-)
 :
             
 x
@@ -2360,9 +2240,6 @@ s
         
 class
 Unhashable
-(
-object
-)
 :
             
 pass
@@ -2373,9 +2250,6 @@ s
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -2403,21 +2277,6 @@ C
 :
             
 pass
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
     
 def
 test_hash_false_eq_false
@@ -2467,9 +2326,6 @@ slots
         
 class
 C
-(
-object
-)
 :
             
 pass
@@ -2488,21 +2344,6 @@ hash
 C
 (
 )
-)
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
 )
     
 def
@@ -2546,9 +2387,6 @@ slots
         
 class
 C
-(
-object
-)
 :
             
 pass
@@ -2652,9 +2490,6 @@ s
         
 class
 C
-(
-object
-)
 :
             
 c
@@ -2998,9 +2833,6 @@ base_weakref_slot
         
 class
 Base
-(
-object
-)
 :
             
 a
@@ -3171,9 +3003,6 @@ s
         
 class
 C
-(
-object
-)
 :
             
 property
@@ -3250,36 +3079,6 @@ C
 x
 .
 name
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-frozen
-"
-[
-True
-False
-]
-)
     
 def
 test_auto_exc
@@ -3672,36 +3471,6 @@ deepcopy
 e2
 )
     
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-frozen
-"
-[
-True
-False
-]
-)
-    
 def
 test_auto_exc_one_attrib
 (
@@ -3773,36 +3542,6 @@ FooError
 1
 )
     
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-frozen
-"
-[
-True
-False
-]
-)
-    
 def
 test_eq_only
 (
@@ -3826,23 +3565,6 @@ be
 ordered
 .
         
-Python
-3
-throws
-a
-TypeError
-in
-Python2
-we
-have
-to
-check
-for
-the
-        
-absence
-.
-        
 "
 "
 "
@@ -3867,9 +3589,6 @@ frozen
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -3880,15 +3599,10 @@ ib
 (
 )
         
-if
-not
-PY2
-:
-            
 possible_errors
 =
 (
-                
+            
 "
 unorderable
 types
@@ -3901,7 +3615,7 @@ C
 (
 )
 "
-                
+            
 "
 '
 <
@@ -3919,7 +3633,7 @@ and
 C
 '
 "
-                
+            
 "
 unorderable
 types
@@ -3932,9 +3646,9 @@ C
 old
 PyPy
 3
-            
+        
 )
-            
+        
 with
 pytest
 .
@@ -3945,7 +3659,7 @@ TypeError
 as
 ei
 :
-                
+            
 C
 (
 5
@@ -3955,7 +3669,7 @@ C
 (
 6
 )
-            
+        
 assert
 ei
 .
@@ -3967,74 +3681,28 @@ args
 ]
 in
 possible_errors
-        
-else
-:
-            
-i
-=
-C
-(
-42
-)
-            
-for
-m
-in
-(
-"
-lt
-"
-"
-le
-"
-"
-gt
-"
-"
-ge
-"
-)
-:
-                
-assert
-None
-is
-getattr
-(
-i
-"
-__
-%
-s__
-"
-%
-(
-m
-)
-None
-)
     
-given
+pytest
+.
+mark
+.
+parametrize
 (
+"
 cmp
-=
-optional_bool
-eq
-=
-optional_bool
-order
-=
-optional_bool
+"
+[
+True
+False
+]
 )
     
 def
-test_cmp_deprecated_attribute
+test_attrib_cmp_shortcut
 (
 self
+slots
 cmp
-eq
-order
 )
 :
         
@@ -4042,198 +3710,37 @@ order
 "
 "
         
-Accessing
-Attribute
+Setting
+cmp
+on
+attr
 .
-cmp
-raises
-a
-deprecation
-warning
-but
-returns
-True
-        
-if
-cmp
-is
-True
-or
-eq
-and
-order
-are
-*
+ib
+s
+sets
 both
-*
-effectively
-True
+eq
+and
+order
 .
         
 "
 "
 "
         
-#
-These
-cases
-are
-invalid
-and
-raise
-a
-ValueError
-.
-        
-assume
-(
-cmp
-is
-None
-or
-(
-eq
-is
-None
-and
-order
-is
-None
-)
-)
-        
-assume
-(
-not
-(
-eq
-is
-False
-and
-order
-is
-True
-)
-)
-        
-if
-cmp
-is
-not
-None
-:
-            
-rv
-=
-cmp
-        
-elif
-eq
-is
-True
-or
-eq
-is
-None
-:
-            
-rv
-=
-order
-is
-None
-or
-order
-is
-True
-        
-elif
-cmp
-is
-None
-and
-eq
-is
-None
-and
-order
-is
-None
-:
-            
-rv
-=
-True
-        
-elif
-cmp
-is
-None
-or
-eq
-is
-None
-:
-            
-rv
-=
-False
-        
-else
-:
-            
-pytest
-.
-fail
-(
-                
-"
-Unexpected
-state
-:
-cmp
-=
-%
-r
-eq
-=
-%
-r
-order
-=
-%
-r
-"
-%
-(
-cmp
-eq
-order
-)
-            
-)
-        
-with
-pytest
-.
-deprecated_call
-(
-)
-as
-dc
-:
-            
 attr
 .
 s
-            
+(
+slots
+=
+slots
+)
+        
 class
 C
-(
-object
-)
 :
-                
+            
 x
 =
 attr
@@ -4243,18 +3750,11 @@ ib
 cmp
 =
 cmp
-eq
-=
-eq
-order
-=
-order
 )
-            
+        
 assert
-rv
-=
-=
+cmp
+is
 attr
 .
 fields
@@ -4264,78 +3764,21 @@ C
 .
 x
 .
-cmp
-        
-(
-w
-)
-=
-dc
-.
-list
+eq
         
 assert
-(
-            
-"
-The
-usage
-of
 cmp
 is
-deprecated
-and
-will
-be
-removed
-on
-or
-after
-"
-            
-"
-2021
--
-06
--
-01
+attr
 .
-Please
-use
-eq
-and
-order
-instead
-.
-"
-            
-=
-=
-w
-.
-message
-.
-args
-[
-0
-]
-        
-)
-    
-pytest
-.
-mark
-.
-parametrize
+fields
 (
-"
-slots
-"
-[
-True
-False
-]
+C
 )
+.
+x
+.
+order
     
 def
 test_no_setattr_if_validate_without_validators
@@ -4408,13 +3851,13 @@ attr
 setters
 .
 validate
+slots
+=
+slots
 )
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -4436,6 +3879,9 @@ attr
 setters
 .
 validate
+slots
+=
+slots
 )
         
 class
@@ -4503,21 +3949,6 @@ __setattr__
 D
 .
 __setattr__
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
     
 def
 test_no_setattr_if_convert_without_converters
@@ -4575,13 +4006,13 @@ attr
 setters
 .
 convert
+slots
+=
+slots
 )
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -4603,6 +4034,9 @@ attr
 setters
 .
 convert
+slots
+=
+slots
 )
         
 class
@@ -4670,42 +4104,6 @@ __setattr__
 D
 .
 __setattr__
-    
-pytest
-.
-mark
-.
-skipif
-(
-not
-PY36
-reason
-=
-"
-NG
-APIs
-are
-3
-.
-6
-+
-"
-)
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
     
 def
 test_no_setattr_with_ng_defaults
@@ -4760,12 +4158,14 @@ __init__
 attr
 .
 define
+(
+slots
+=
+slots
+)
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -4819,6 +4219,11 @@ __setattr__
 attr
 .
 define
+(
+slots
+=
+slots
+)
         
 class
 D
@@ -4932,9 +4337,6 @@ validate
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -4991,7 +4393,10 @@ assert
 "
 _setattr
 =
-_cached_setattr
+_cached_setattr_get
+(
+self
+)
 "
 in
 src
@@ -5031,3 +4436,59 @@ __setattr__
 D
 .
 __setattr__
+    
+def
+test_unsafe_hash
+(
+self
+slots
+)
+:
+        
+"
+"
+"
+        
+attr
+.
+s
+(
+unsafe_hash
+=
+True
+)
+makes
+a
+class
+hashable
+.
+        
+"
+"
+"
+        
+attr
+.
+s
+(
+slots
+=
+slots
+unsafe_hash
+=
+True
+)
+        
+class
+Hashable
+:
+            
+pass
+        
+assert
+hash
+(
+Hashable
+(
+)
+)

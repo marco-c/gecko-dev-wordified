@@ -20,12 +20,6 @@ _cmp
 "
 "
 "
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 pytest
 from
@@ -34,12 +28,6 @@ attr
 _cmp
 import
 cmp_using
-from
-attr
-.
-_compat
-import
-PY2
 #
 Test
 parameters
@@ -293,9 +281,6 @@ eq_ids
 order_ids
 class
 TestEqOrder
-(
-object
-)
 :
     
 "
@@ -344,14 +329,20 @@ mark
 .
 parametrize
 (
+        
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 cmp_data
 ids
 =
 cmp_ids
+    
 )
     
 def
@@ -412,14 +403,20 @@ mark
 .
 parametrize
 (
+        
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 cmp_data
 ids
 =
 cmp_ids
+    
 )
     
 def
@@ -483,14 +480,20 @@ mark
 .
 parametrize
 (
+        
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 cmp_data
 ids
 =
 cmp_ids
+    
 )
     
 def
@@ -592,34 +595,22 @@ pytest
 .
 mark
 .
-skipif
-(
-PY2
-reason
-=
-"
-PY2
-does
-not
-raise
-TypeError
-"
-)
-    
-pytest
-.
-mark
-.
 parametrize
+(
+        
 (
 "
 cls
+"
+"
 requires_same_type
 "
+)
 eq_data
 ids
 =
 eq_ids
+    
 )
     
 def
@@ -676,10 +667,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -745,10 +740,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -817,10 +816,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -878,11 +881,6 @@ from
 __lt__
 .
             
-if
-not
-PY2
-:
-                
 with
 pytest
 .
@@ -891,7 +889,7 @@ raises
 TypeError
 )
 :
-                    
+                
 cls
 (
 1
@@ -963,34 +961,22 @@ pytest
 .
 mark
 .
-skipif
-(
-PY2
-reason
-=
-"
-PY2
-does
-not
-raise
-TypeError
-"
-)
-    
-pytest
-.
-mark
-.
 parametrize
+(
+        
 (
 "
 cls
+"
+"
 requires_same_type
 "
+)
 eq_data
 ids
 =
 eq_ids
+    
 )
     
 def
@@ -1048,10 +1034,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -1135,10 +1125,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -1223,10 +1217,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -1289,11 +1287,6 @@ from
 __le__
 .
             
-if
-not
-PY2
-:
-                
 with
 pytest
 .
@@ -1302,7 +1295,7 @@ raises
 TypeError
 )
 :
-                    
+                
 cls
 (
 1
@@ -1391,34 +1384,22 @@ pytest
 .
 mark
 .
-skipif
-(
-PY2
-reason
-=
-"
-PY2
-does
-not
-raise
-TypeError
-"
-)
-    
-pytest
-.
-mark
-.
 parametrize
+(
+        
 (
 "
 cls
+"
+"
 requires_same_type
 "
+)
 eq_data
 ids
 =
 eq_ids
+    
 )
     
 def
@@ -1475,10 +1456,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -1544,10 +1529,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -1616,10 +1605,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -1677,11 +1670,6 @@ from
 __gt__
 .
             
-if
-not
-PY2
-:
-                
 with
 pytest
 .
@@ -1690,7 +1678,7 @@ raises
 TypeError
 )
 :
-                    
+                
 cls
 (
 2
@@ -1762,34 +1750,22 @@ pytest
 .
 mark
 .
-skipif
-(
-PY2
-reason
-=
-"
-PY2
-does
-not
-raise
-TypeError
-"
-)
-    
-pytest
-.
-mark
-.
 parametrize
+(
+        
 (
 "
 cls
+"
+"
 requires_same_type
 "
+)
 eq_data
 ids
 =
 eq_ids
+    
 )
     
 def
@@ -1847,10 +1823,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -1934,10 +1914,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -2022,10 +2006,14 @@ mark
 parametrize
 (
         
+(
 "
 cls
+"
+"
 requires_same_type
 "
+)
 order_data
 ids
 =
@@ -2088,11 +2076,6 @@ from
 __ge__
 .
             
-if
-not
-PY2
-:
-                
 with
 pytest
 .
@@ -2101,7 +2084,7 @@ raises
 TypeError
 )
 :
-                    
+                
 cls
 (
 2
@@ -2164,9 +2147,6 @@ cls
 )
 class
 TestDundersUnnamedClass
-(
-object
-)
 :
     
 "
@@ -2240,11 +2220,6 @@ __name__
 Comparable
 "
         
-if
-not
-PY2
-:
-            
 assert
 self
 .
@@ -2404,9 +2379,6 @@ __ne__
 "
 class
 TestTotalOrderingException
-(
-object
-)
 :
     
 "
@@ -2510,9 +2482,6 @@ ge
 )
 class
 TestNotImplementedIsPropagated
-(
-object
-)
 :
     
 "
@@ -2609,9 +2578,6 @@ C
 )
 class
 TestDundersPartialOrdering
-(
-object
-)
 :
     
 "
@@ -2675,11 +2641,6 @@ __name__
 PartialOrderCSameType
 "
         
-if
-not
-PY2
-:
-            
 assert
 self
 .
@@ -2938,36 +2899,6 @@ cls
 .
 __le__
         
-if
-PY2
-:
-            
-assert
-method
-.
-__doc__
-=
-=
-"
-x
-.
-__le__
-(
-y
-)
-<
-=
-=
->
-x
-<
-=
-y
-"
-        
-else
-:
-            
 assert
 method
 .
@@ -2979,7 +2910,7 @@ strip
 .
 startswith
 (
-                
+            
 "
 Return
 a
@@ -2992,7 +2923,7 @@ by
 total_ordering
 from
 "
-            
+        
 )
         
 assert
@@ -3039,35 +2970,6 @@ cls
 .
 __gt__
         
-if
-PY2
-:
-            
-assert
-method
-.
-__doc__
-=
-=
-"
-x
-.
-__gt__
-(
-y
-)
-<
-=
-=
->
-x
->
-y
-"
-        
-else
-:
-            
 assert
 method
 .
@@ -3079,7 +2981,7 @@ strip
 .
 startswith
 (
-                
+            
 "
 Return
 a
@@ -3091,7 +2993,7 @@ by
 total_ordering
 from
 "
-            
+        
 )
         
 assert
@@ -3138,36 +3040,6 @@ cls
 .
 __ge__
         
-if
-PY2
-:
-            
-assert
-method
-.
-__doc__
-=
-=
-"
-x
-.
-__ge__
-(
-y
-)
-<
-=
-=
->
-x
->
-=
-y
-"
-        
-else
-:
-            
 assert
 method
 .
@@ -3179,7 +3051,7 @@ strip
 .
 startswith
 (
-                
+            
 "
 Return
 a
@@ -3192,7 +3064,7 @@ by
 total_ordering
 from
 "
-            
+        
 )
         
 assert
@@ -3206,9 +3078,6 @@ __ge__
 "
 class
 TestDundersFullOrdering
-(
-object
-)
 :
     
 "
@@ -3272,11 +3141,6 @@ __name__
 FullOrderCSameType
 "
         
-if
-not
-PY2
-:
-            
 assert
 self
 .

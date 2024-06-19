@@ -9,9 +9,11 @@ MIT
 from
 __future__
 import
-absolute_import
-division
-print_function
+annotations
+from
+typing
+import
+ClassVar
 class
 FrozenError
 (
@@ -83,6 +85,14 @@ attribute
 "
     
 args
+:
+ClassVar
+[
+tuple
+[
+str
+]
+]
 =
 [
 msg
@@ -171,7 +181,9 @@ ValueError
 "
     
 An
+*
 attrs
+*
 function
 couldn
 '
@@ -214,14 +226,18 @@ ValueError
 A
 non
 -
+*
 attrs
+*
 class
 has
 been
 passed
 into
 an
+*
 attrs
+*
 function
 .
     
@@ -255,12 +271,10 @@ default
 has
 been
 set
-using
-attr
-.
-ib
-(
-)
+when
+defining
+the
+field
 and
 is
 attempted
@@ -305,16 +319,11 @@ auto_attribs
 =
 True
 has
-an
-attr
-.
-ib
-(
-)
+a
+field
 without
 a
 type
-    
 annotation
 .
     
@@ -349,7 +358,9 @@ attempted
 to
 use
 an
+*
 attrs
+*
 feature
 that
 requires
@@ -386,11 +397,7 @@ TypeError
 "
     
 A
-attr
-.
-ib
-(
-)
+field
 requiring
 a
 callable
@@ -400,10 +407,10 @@ set
 with
 a
 value
-    
 that
 is
 not
+    
 callable
 .
     

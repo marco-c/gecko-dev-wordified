@@ -1,3 +1,11 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 import
 pytest
 class
@@ -61,4 +69,14 @@ Item
 )
 :
     
-pass
+def
+runtest
+(
+self
+)
+:
+        
+raise
+NotImplementedError
+(
+)

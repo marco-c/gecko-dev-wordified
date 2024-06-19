@@ -22,6 +22,14 @@ sys
 from
 typing
 import
+final
+from
+typing
+import
+Literal
+from
+typing
+import
 Optional
 from
 typing
@@ -33,15 +41,15 @@ import
 TextIO
 from
 .
-wcwidth
-import
-wcswidth
-from
-_pytest
 .
 compat
 import
-final
+assert_never
+from
+.
+wcwidth
+import
+wcswidth
 #
 This
 code
@@ -168,26 +176,32 @@ return
 False
     
 if
-"
-NO_COLOR
-"
-in
 os
 .
 environ
+.
+get
+(
+"
+NO_COLOR
+"
+)
 :
         
 return
 False
     
 if
-"
-FORCE_COLOR
-"
-in
 os
 .
 environ
+.
+get
+(
+"
+FORCE_COLOR
+"
+)
 :
         
 return
@@ -1454,11 +1468,16 @@ raise
 ValueError
 (
                 
+f
 "
 indents
 size
 (
 {
+len
+(
+indents
+)
 }
 )
 should
@@ -1469,23 +1488,13 @@ as
 lines
 (
 {
-}
-)
-"
-.
-format
-(
-                    
-len
-(
-indents
-)
 len
 (
 lines
 )
-                
+}
 )
+"
             
 )
         
@@ -1554,10 +1563,27 @@ new_line
 def
 _highlight
 (
+        
 self
 source
 :
 str
+lexer
+:
+Literal
+[
+"
+diff
+"
+"
+python
+"
+]
+=
+"
+python
+"
+    
 )
 -
 >
@@ -1571,7 +1597,6 @@ Highlight
 the
 given
 source
-code
 if
 we
 have
@@ -1592,6 +1617,9 @@ import
 UsageError
         
 if
+not
+source
+or
 not
 self
 .
@@ -1618,6 +1646,15 @@ terminal
 import
 TerminalFormatter
             
+if
+lexer
+=
+=
+"
+python
+"
+:
+                
 from
 pygments
 .
@@ -1626,6 +1663,36 @@ lexers
 python
 import
 PythonLexer
+as
+Lexer
+            
+elif
+lexer
+=
+=
+"
+diff
+"
+:
+                
+from
+pygments
+.
+lexers
+.
+diff
+import
+DiffLexer
+as
+Lexer
+            
+else
+:
+                
+assert_never
+(
+lexer
+)
             
 from
 pygments
@@ -1659,7 +1726,7 @@ highlight
                     
 source
                     
-PythonLexer
+Lexer
 (
 )
                     
@@ -1695,7 +1762,109 @@ PYTEST_THEME
                 
 )
                 
+#
+pygments
+terminal
+formatter
+may
+add
+a
+newline
+when
+there
+wasn
+'
+t
+one
+.
+                
+#
+We
+don
+'
+t
+want
+this
+remove
+.
+                
+if
+highlighted
+[
+-
+1
+]
+=
+=
+"
+\
+n
+"
+and
+source
+[
+-
+1
+]
+!
+=
+"
+\
+n
+"
+:
+                    
+highlighted
+=
+highlighted
+[
+:
+-
+1
+]
+                
+#
+Some
+lexers
+will
+not
+set
+the
+initial
+color
+explicitly
+                
+#
+which
+may
+lead
+to
+the
+previous
+color
+being
+propagated
+to
+the
+                
+#
+start
+of
+the
+expression
+so
+reset
+first
+.
+                
 return
+"
+\
+x1b
+[
+0m
+"
++
 highlighted
             
 except
@@ -1704,6 +1873,8 @@ pygments
 util
 .
 ClassNotFound
+as
+e
 :
                 
 raise
@@ -1751,6 +1922,8 @@ PYTEST_THEME
 )
                 
 )
+from
+e
             
 except
 pygments
@@ -1758,6 +1931,8 @@ pygments
 util
 .
 OptionError
+as
+e
 :
                 
 raise
@@ -1811,3 +1986,5 @@ PYTEST_THEME_MODE
 )
                 
 )
+from
+e

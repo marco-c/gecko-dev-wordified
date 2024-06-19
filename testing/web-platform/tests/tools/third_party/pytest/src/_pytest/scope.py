@@ -67,20 +67,11 @@ total_ordering
 from
 typing
 import
-Optional
+Literal
 from
 typing
 import
-TYPE_CHECKING
-if
-TYPE_CHECKING
-:
-    
-from
-typing_extensions
-import
-Literal
-    
+Optional
 _ScopeName
 =
 Literal
@@ -183,9 +174,7 @@ higher
     
 Function
 :
-"
 _ScopeName
-"
 =
 "
 function
@@ -193,9 +182,7 @@ function
     
 Class
 :
-"
 _ScopeName
-"
 =
 "
 class
@@ -203,9 +190,7 @@ class
     
 Module
 :
-"
 _ScopeName
-"
 =
 "
 module
@@ -213,9 +198,7 @@ module
     
 Package
 :
-"
 _ScopeName
-"
 =
 "
 package
@@ -223,9 +206,7 @@ package
     
 Session
 :
-"
 _ScopeName
-"
 =
 "
 session
@@ -407,9 +388,7 @@ from_user
 cls
 scope_name
 :
-"
 _ScopeName
-"
 descr
 :
 str

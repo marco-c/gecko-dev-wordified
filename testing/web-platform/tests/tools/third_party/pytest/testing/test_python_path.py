@@ -1,3 +1,11 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 import
 sys
 from
@@ -16,14 +24,14 @@ from
 typing
 import
 Optional
-import
-pytest
 from
 _pytest
 .
 pytester
 import
 Pytester
+import
+pytest
 pytest
 .
 fixture
@@ -586,7 +594,7 @@ is
 tough
 to
 test
-behaviorly
+behaviorally
 because
 the
 cleanup
@@ -620,7 +628,8 @@ pytest_unconfigure
 -
 Not
 a
-hookwrapper
+hook
+wrapper
 .
     
 #
@@ -629,7 +638,8 @@ we
 can
 add
 a
-hookwrapper
+hook
+wrapper
 ourselves
 to
 test
@@ -713,7 +723,7 @@ pytest
 .
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 tryfirst
@@ -750,8 +760,17 @@ copy
 (
 )
             
+try
+:
+                
+return
+(
 yield
+)
             
+finally
+:
+                
 after
 =
 sys

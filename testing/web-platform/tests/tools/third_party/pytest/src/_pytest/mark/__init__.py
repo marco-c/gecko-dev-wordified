@@ -14,7 +14,7 @@ functions
 "
 "
 import
-warnings
+dataclasses
 from
 typing
 import
@@ -39,8 +39,6 @@ from
 typing
 import
 Union
-import
-attr
 from
 .
 expression
@@ -118,18 +116,6 @@ config
 argparsing
 import
 Parser
-from
-_pytest
-.
-deprecated
-import
-MINUS_K_COLON
-from
-_pytest
-.
-deprecated
-import
-MINUS_K_DASH
 from
 _pytest
 .
@@ -346,7 +332,7 @@ order
 .
     
 :
-keyword
+param
 marks
 :
 A
@@ -367,8 +353,7 @@ set
 .
     
 :
-keyword
-str
+param
 id
 :
 The
@@ -458,7 +443,7 @@ EXPRESSION
 help
 =
 "
-only
+Only
 run
 tests
 which
@@ -475,8 +460,8 @@ An
 expression
 is
 a
-python
-evaluatable
+Python
+evaluable
 expression
 "
         
@@ -660,7 +645,7 @@ MARKEXPR
 help
 =
 "
-only
+Only
 run
 tests
 matching
@@ -668,8 +653,6 @@ given
 mark
 expression
 .
-\
-n
 "
         
 "
@@ -733,6 +716,8 @@ addini
 markers
 "
 "
+Register
+new
 markers
 for
 test
@@ -749,7 +734,7 @@ addini
 (
 EMPTY_PARAMETERSET_OPTION
 "
-default
+Default
 marker
 for
 empty
@@ -905,17 +890,9 @@ return
     
 return
 None
-attr
+dataclasses
 .
-s
-(
-slots
-=
-True
-auto_attribs
-=
-True
-)
+dataclass
 class
 KeywordMatcher
 :
@@ -1020,6 +997,14 @@ functions
 "
 "
     
+__slots__
+=
+(
+"
+_names
+"
+)
+    
 _names
 :
 AbstractSet
@@ -1064,6 +1049,24 @@ and
 any
 parent
 items
+        
+#
+except
+the
+Session
+and
+root
+Directory
+'
+s
+which
+are
+not
+        
+#
+interesting
+for
+matching
 .
         
 import
@@ -1080,7 +1083,6 @@ listchain
 :
             
 if
-not
 isinstance
 (
 node
@@ -1090,6 +1092,32 @@ Session
 )
 :
                 
+continue
+            
+if
+isinstance
+(
+node
+pytest
+.
+Directory
+)
+and
+isinstance
+(
+                
+node
+.
+parent
+pytest
+.
+Session
+            
+)
+:
+                
+continue
+            
 mapped_names
 .
 add
@@ -1295,106 +1323,6 @@ keywordexpr
         
 return
     
-if
-keywordexpr
-.
-startswith
-(
-"
--
-"
-)
-:
-        
-#
-To
-be
-removed
-in
-pytest
-8
-.
-0
-.
-0
-.
-        
-warnings
-.
-warn
-(
-MINUS_K_DASH
-stacklevel
-=
-2
-)
-        
-keywordexpr
-=
-"
-not
-"
-+
-keywordexpr
-[
-1
-:
-]
-    
-selectuntil
-=
-False
-    
-if
-keywordexpr
-[
--
-1
-:
-]
-=
-=
-"
-:
-"
-:
-        
-#
-To
-be
-removed
-in
-pytest
-8
-.
-0
-.
-0
-.
-        
-warnings
-.
-warn
-(
-MINUS_K_COLON
-stacklevel
-=
-2
-)
-        
-selectuntil
-=
-True
-        
-keywordexpr
-=
-keywordexpr
-[
-:
--
-1
-]
-    
 expr
 =
 _parse_expression
@@ -1429,8 +1357,6 @@ items
 :
         
 if
-keywordexpr
-and
 not
 expr
 .
@@ -1454,14 +1380,6 @@ colitem
         
 else
 :
-            
-if
-selectuntil
-:
-                
-keywordexpr
-=
-None
             
 remaining
 .
@@ -1491,17 +1409,9 @@ items
 ]
 =
 remaining
-attr
+dataclasses
 .
-s
-(
-slots
-=
-True
-auto_attribs
-=
-True
-)
+dataclass
 class
 MarkMatcher
 :
@@ -1535,6 +1445,14 @@ colitem
 "
 "
 "
+    
+__slots__
+=
+(
+"
+own_mark_names
+"
+)
     
 own_mark_names
 :
@@ -1878,8 +1796,10 @@ raise
 UsageError
 (
             
+f
 "
 {
+EMPTY_PARAMETERSET_OPTION
 !
 s
 }
@@ -1893,21 +1813,17 @@ or
 fail_at_collect
 "
             
+f
 "
 but
 it
 is
 {
+empty_parameterset
 !
 r
 }
 "
-.
-format
-(
-EMPTY_PARAMETERSET_OPTION
-empty_parameterset
-)
         
 )
 def

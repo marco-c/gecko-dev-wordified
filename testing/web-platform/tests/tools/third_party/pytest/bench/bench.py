@@ -13,12 +13,14 @@ import
 cProfile
     
 import
-pytest
-#
-NOQA
+pstats
     
 import
-pstats
+pytest
+#
+noqa
+:
+F401
     
 script
 =

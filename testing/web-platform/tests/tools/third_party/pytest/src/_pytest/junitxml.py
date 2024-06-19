@@ -1,3 +1,11 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 "
 "
 "
@@ -75,6 +83,10 @@ xsd
 "
 "
 "
+from
+datetime
+import
+datetime
 import
 functools
 import
@@ -83,18 +95,6 @@ import
 platform
 import
 re
-import
-xml
-.
-etree
-.
-ElementTree
-as
-ET
-from
-datetime
-import
-datetime
 from
 typing
 import
@@ -124,7 +124,13 @@ typing
 import
 Union
 import
-pytest
+xml
+.
+etree
+.
+ElementTree
+as
+ET
 from
 _pytest
 import
@@ -193,6 +199,8 @@ _pytest
 terminal
 import
 TerminalReporter
+import
+pytest
 xml_key
 =
 StashKey
@@ -421,29 +429,29 @@ illegal_xml_re
 \
 u0009
 \
-u000A
+u000a
 \
-u000D
+u000d
 \
 u0020
 -
 \
-u007E
+u007e
 \
 u0080
 -
 \
-uD7FF
+ud7ff
 \
-uE000
+ue000
 -
 \
-uFFFD
+ufffd
 \
 u10000
 -
 \
-u10FFFF
+u10ffff
 ]
 "
     
@@ -707,6 +715,8 @@ self
 .
 duration
 =
+0
+.
 0
         
 self
@@ -1170,10 +1180,6 @@ in
 self
 .
 attrs
-.
-keys
-(
-)
 :
             
 if
@@ -2000,7 +2006,10 @@ _add_simple
 "
 error
 "
+bin_xml_escape
+(
 msg
+)
 str
 (
 report
@@ -2156,6 +2165,7 @@ ET
 .
 Element
 (
+                
 "
 skipped
 "
@@ -2168,7 +2178,11 @@ skip
 "
 message
 =
+bin_xml_escape
+(
 skipreason
+)
+            
 )
             
 skipped
@@ -2259,7 +2273,9 @@ type
 :
 ignore
 [
-assignment
+method
+-
+assign
 ]
 def
 _warn_incompatibility_with_xunit2
@@ -2350,6 +2366,7 @@ warn
 PytestWarning
 (
                 
+f
 "
 {
 fixture_name
@@ -2360,6 +2377,8 @@ with
 junit_family
 '
 {
+xml
+.
 family
 }
 '
@@ -2374,20 +2393,6 @@ xunit1
 '
 )
 "
-.
-format
-(
-                    
-fixture_name
-=
-fixture_name
-family
-=
-xml
-.
-family
-                
-)
             
 )
         
@@ -2913,23 +2918,31 @@ CEPH
 "
 )
     
+:
+param
 name
-must
-be
-a
-string
+:
+        
+The
+property
+name
+.
+    
+:
+param
 value
-will
+:
+        
+The
+property
+value
+.
+Will
 be
 converted
 to
 a
 string
-and
-properly
-xml
--
-escaped
 .
     
 .
@@ -3018,7 +3031,9 @@ in
 case
 -
 -
-junitxml
+junit
+-
+xml
 was
 not
 passed
@@ -3070,8 +3085,6 @@ record_func
 xml
 .
 add_global_property
-#
-noqa
     
 return
 record_func
@@ -3159,7 +3172,7 @@ None
 help
 =
 "
-create
+Create
 junit
 -
 xml
@@ -3169,7 +3182,6 @@ file
 at
 given
 path
-.
 "
     
 )
@@ -3212,7 +3224,7 @@ None
 help
 =
 "
-prepend
+Prepend
 prefix
 to
 classnames
@@ -4027,6 +4039,26 @@ workernode
 )
 )
         
+for
+propname
+propvalue
+in
+report
+.
+user_properties
+:
+            
+reporter
+.
+add_property
+(
+propname
+str
+(
+propvalue
+)
+)
+        
 if
 reporter
 is
@@ -4675,26 +4707,6 @@ write_captured_output
 report
 )
             
-for
-propname
-propvalue
-in
-report
-.
-user_properties
-:
-                
-reporter
-.
-add_property
-(
-propname
-str
-(
-propvalue
-)
-)
-            
 self
 .
 finalize
@@ -4846,20 +4858,15 @@ if
 self
 .
 report_duration
-=
-=
+in
+{
 "
 total
 "
-or
 report
 .
 when
-=
-=
-self
-.
-report_duration
+}
 :
             
 reporter
@@ -5048,23 +5055,28 @@ logfile
 )
 )
         
-if
-not
-os
-.
+#
+exist_ok
+avoids
+filesystem
+race
+conditions
+between
+checking
 path
-.
-isdir
-(
-dirname
-)
-:
-            
+existence
+and
+requesting
+creation
+        
 os
 .
 makedirs
 (
 dirname
+exist_ok
+=
+True
 )
         
 with

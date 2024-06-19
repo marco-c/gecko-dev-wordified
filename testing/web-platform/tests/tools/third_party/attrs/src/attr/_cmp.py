@@ -6,19 +6,10 @@ License
 Identifier
 :
 MIT
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 functools
-from
-.
-_compat
 import
-new_class
+types
 from
 .
 _make
@@ -114,15 +105,15 @@ can
 be
 passed
 into
-attr
+attrs
 .
-ib
+field
 '
 s
 eq
 order
-and
     
+and
 cmp
 arguments
 to
@@ -143,9 +134,9 @@ of
 ordering
 methods
 if
-    
 at
 least
+    
 one
 of
 {
@@ -173,9 +164,9 @@ used
 to
 evaluate
 equality
-        
 of
 two
+        
 objects
 .
     
@@ -192,8 +183,8 @@ used
 to
 evaluate
 whether
-        
 one
+        
 object
 is
 less
@@ -215,8 +206,8 @@ used
 to
 evaluate
 whether
-        
 one
+        
 object
 is
 less
@@ -241,8 +232,8 @@ used
 to
 evaluate
 whether
-        
 one
+        
 object
 is
 greater
@@ -264,8 +255,8 @@ used
 to
 evaluate
 whether
-        
 one
+        
 object
 is
 greater
@@ -540,8 +531,11 @@ ge
     
 type_
 =
+types
+.
 new_class
 (
+        
 class_name
 (
 object
@@ -557,6 +551,7 @@ update
 (
 body
 )
+    
 )
     
 #
@@ -628,10 +623,8 @@ nice
 stack
 .
             
-raise
-ValueError
-(
-                
+msg
+=
 "
 eq
 must
@@ -643,9 +636,6 @@ to
 complete
 ordering
 from
-"
-                
-"
 lt
 le
 gt
@@ -653,6 +643,10 @@ ge
 .
 "
             
+raise
+ValueError
+(
+msg
 )
         
 type_
@@ -787,25 +781,31 @@ method
 .
 __name__
 =
+f
 "
 __
-%
-s__
-"
-%
-(
+{
 name
-)
+}
+__
+"
     
 method
 .
 __doc__
 =
+(
+        
+f
 "
 Return
 a
-%
-s
+{
+_operation_names
+[
+name
+]
+}
 b
 .
 Computed
@@ -813,13 +813,6 @@ by
 attrs
 .
 "
-%
-(
-        
-_operation_names
-[
-name
-]
     
 )
     
@@ -850,28 +843,21 @@ self
 "
 "
     
+return
+all
+(
+func
+(
+self
+other
+)
 for
 func
 in
 self
 .
 _requirements
-:
-        
-if
-not
-func
-(
-self
-other
 )
-:
-            
-return
-False
-    
-return
-True
 def
 _check_same_type
 (

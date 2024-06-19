@@ -1,5 +1,11 @@
-import
-pytest
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 from
 _pytest
 .
@@ -12,6 +18,8 @@ _pytest
 pytester
 import
 Pytester
+import
+pytest
 def
 test_version_verbose
 (
@@ -266,7 +274,7 @@ fnmatch_lines
 -
 m
 MARKEXPR
-only
+Only
 run
 tests
 matching
@@ -274,8 +282,8 @@ given
 mark
 expression
 .
-                                
 For
+                                
 example
 :
 -
@@ -288,7 +296,7 @@ mark2
 '
 .
         
-reporting
+Reporting
 :
           
 -
@@ -303,7 +311,7 @@ V
 -
 -
 version
-display
+Display
 pytest
 version
 and
@@ -572,7 +580,7 @@ args
 "
         
 "
-plugins
+Plugins
 that
 must
 be
@@ -594,7 +602,7 @@ bool
 "
         
 "
-environment
+Environment
 variables
 :
 "

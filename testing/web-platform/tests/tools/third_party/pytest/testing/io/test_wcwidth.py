@@ -1,5 +1,3 @@
-import
-pytest
 from
 _pytest
 .
@@ -16,6 +14,8 @@ _io
 wcwidth
 import
 wcwidth
+import
+pytest
 pytest
 .
 mark
@@ -74,7 +74,7 @@ a
 (
 "
 \
-u200B
+u200b
 "
 0
 )
@@ -82,7 +82,7 @@ u200B
 (
 "
 \
-u1ABE
+u1abe
 "
 0
 )
@@ -106,6 +106,10 @@ u0591
 "
 2
 )
+#
+noqa
+:
+RUF001
     
 ]
 )

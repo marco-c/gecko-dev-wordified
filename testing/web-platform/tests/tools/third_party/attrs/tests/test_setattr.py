@@ -6,12 +6,6 @@ License
 Identifier
 :
 MIT
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 pickle
 import
@@ -22,12 +16,6 @@ from
 attr
 import
 setters
-from
-attr
-.
-_compat
-import
-PY2
 from
 attr
 .
@@ -51,9 +39,6 @@ True
 )
 class
 Frozen
-(
-object
-)
 :
     
 x
@@ -68,9 +53,6 @@ attr
 s
 class
 WithOnSetAttrHook
-(
-object
-)
 :
     
 x
@@ -89,9 +71,6 @@ None
 )
 class
 TestSetAttr
-(
-object
-)
 :
     
 def
@@ -152,9 +131,6 @@ s
         
 class
 Hooked
-(
-object
-)
 :
             
 x
@@ -276,9 +252,6 @@ s
         
 class
 PartiallyFrozen
-(
-object
-)
 :
             
 x
@@ -431,9 +404,6 @@ on_setattr
         
 class
 ValidatedAttribute
-(
-object
-)
 :
             
 x
@@ -668,9 +638,6 @@ s
         
 class
 Piped
-(
-object
-)
 :
             
 x1
@@ -881,9 +848,6 @@ validate
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -956,9 +920,6 @@ validate
         
 class
 C
-(
-object
-)
 :
             
 x
@@ -1117,9 +1078,6 @@ validate
             
 class
 C
-(
-object
-)
 :
                 
 x
@@ -1206,9 +1164,6 @@ True
             
 class
 C
-(
-object
-)
 :
                 
 x
@@ -1245,21 +1200,6 @@ args
 [
 0
 ]
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
     
 def
 test_setattr_reset_if_no_custom_setattr
@@ -1341,9 +1281,6 @@ s
         
 class
 Hooked
-(
-object
-)
 :
             
 x
@@ -1381,11 +1318,6 @@ ib
 (
 )
         
-if
-not
-PY2
-:
-            
 assert
 NoHook
 .
@@ -1422,21 +1354,6 @@ assert
 WithOnSetAttrHook
 .
 __attrs_own_setattr__
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
     
 def
 test_setattr_inherited_do_not_reset
@@ -1478,9 +1395,6 @@ necessary
         
 class
 A
-(
-object
-)
 :
             
 "
@@ -1576,21 +1490,6 @@ __setattr__
 A
 .
 __setattr__
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
     
 def
 test_pickling_retains_attrs_own
@@ -1728,9 +1627,6 @@ True
         
 class
 A
-(
-object
-)
 :
             
 def
@@ -1856,9 +1752,6 @@ True
         
 class
 A
-(
-object
-)
 :
             
 x
@@ -1915,64 +1808,6 @@ C
 x
 =
 2
-pytest
-.
-mark
-.
-skipif
-(
-PY2
-reason
-=
-"
-Python
-3
--
-only
-.
-"
-)
-class
-TestSetAttrNoPy2
-(
-object
-)
-:
-    
-"
-"
-"
-    
-__setattr__
-tests
-for
-Py3
-+
-to
-avoid
-the
-skip
-repetition
-.
-    
-"
-"
-"
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
     
 def
 test_setattr_auto_detect_if_no_custom_setattr
@@ -2090,21 +1925,6 @@ i
 .
 x
     
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
-    
 def
 test_setattr_restore_respects_auto_detect
 (
@@ -2177,21 +1997,6 @@ __setattr__
 object
 .
 __setattr__
-    
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
     
 def
 test_setattr_auto_detect_frozen
@@ -2281,21 +2086,6 @@ __
                     
 pass
     
-pytest
-.
-mark
-.
-parametrize
-(
-"
-slots
-"
-[
-True
-False
-]
-)
-    
 def
 test_setattr_auto_detect_on_setattr
 (
@@ -2365,9 +2155,6 @@ slots
             
 class
 HookAndCustomSetAttr
-(
-object
-)
 :
                 
 x
@@ -2477,19 +2264,15 @@ This
 only
 can
 work
-on
-Python
-3
-+
 with
 auto_detect
 activated
 such
 that
-        
 attrs
 can
 know
+        
 that
 there
 is
@@ -2515,9 +2298,6 @@ a_slots
         
 class
 A
-(
-object
-)
 :
             
 x

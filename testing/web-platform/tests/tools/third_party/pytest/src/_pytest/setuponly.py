@@ -10,8 +10,6 @@ from
 typing
 import
 Union
-import
-pytest
 from
 _pytest
 .
@@ -58,6 +56,8 @@ _pytest
 scope
 import
 Scope
+import
+pytest
 def
 pytest_addoption
 (
@@ -109,14 +109,13 @@ store_true
 help
 =
 "
-only
+Only
 setup
 fixtures
 do
 not
 execute
 tests
-.
 "
     
 )
@@ -149,14 +148,13 @@ store_true
 help
 =
 "
-show
+Show
 setup
 of
 fixtures
 while
 executing
 tests
-.
 "
     
 )
@@ -164,7 +162,7 @@ pytest
 .
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 )
@@ -187,13 +185,22 @@ SubRequest
 Generator
 [
 None
-None
-None
+object
+object
 ]
 :
     
+try
+:
+        
+return
+(
 yield
+)
     
+finally
+:
+        
 if
 request
 .
@@ -203,7 +210,7 @@ option
 .
 setupshow
 :
-        
+            
 if
 hasattr
 (
@@ -213,7 +220,7 @@ param
 "
 )
 :
-            
+                
 #
 Save
 the
@@ -225,7 +232,7 @@ _show_fixture_action
 (
 )
 can
-            
+                
 #
 display
 it
@@ -242,13 +249,13 @@ finish
 )
 )
 .
-            
+                
 if
 fixturedef
 .
 ids
 :
-                
+                    
 if
 callable
 (
@@ -257,7 +264,7 @@ fixturedef
 ids
 )
 :
-                    
+                        
 param
 =
 fixturedef
@@ -268,10 +275,10 @@ request
 .
 param
 )
-                
+                    
 else
 :
-                    
+                        
 param
 =
 fixturedef
@@ -282,16 +289,16 @@ request
 .
 param_index
 ]
-            
+                
 else
 :
-                
+                    
 param
 =
 request
 .
 param
-            
+                
 fixturedef
 .
 cached_param
@@ -306,10 +313,13 @@ attr
 -
 defined
 ]
-        
+            
 _show_fixture_action
 (
 fixturedef
+request
+.
+config
 "
 SETUP
 "
@@ -317,12 +327,16 @@ SETUP
 def
 pytest_fixture_post_finalizer
 (
+    
 fixturedef
 :
 FixtureDef
 [
 object
 ]
+request
+:
+SubRequest
 )
 -
 >
@@ -340,9 +354,7 @@ None
         
 config
 =
-fixturedef
-.
-_fixturemanager
+request
 .
 config
         
@@ -357,6 +369,9 @@ setupshow
 _show_fixture_action
 (
 fixturedef
+request
+.
+config
 "
 TEARDOWN
 "
@@ -376,24 +391,19 @@ del
 fixturedef
 .
 cached_param
-#
-type
-:
-ignore
-[
-attr
--
-defined
-]
 def
 _show_fixture_action
 (
+    
 fixturedef
 :
 FixtureDef
 [
 object
 ]
+config
+:
+Config
 msg
 :
 str
@@ -402,14 +412,6 @@ str
 >
 None
 :
-    
-config
-=
-fixturedef
-.
-_fixturemanager
-.
-config
     
 capman
 =
@@ -514,6 +516,13 @@ fixture
 .
 format
 (
+#
+noqa
+:
+UP032
+(
+Readability
+)
             
 step
 =
@@ -643,15 +652,6 @@ maxsize
 ]
 "
 )
-#
-type
-:
-ignore
-[
-attr
--
-defined
-]
     
 tw
 .

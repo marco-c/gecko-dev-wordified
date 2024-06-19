@@ -96,9 +96,6 @@ dec
         
 class
 C
-(
-object
-)
 :
             
 a

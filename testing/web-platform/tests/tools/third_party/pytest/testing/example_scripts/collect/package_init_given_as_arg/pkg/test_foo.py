@@ -1,5 +1,13 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 def
-test
+test_foo
 (
 )
 :

@@ -8,9 +8,6 @@ Identifier
 MIT
 class
 TestImportStar
-(
-object
-)
 :
     
 def

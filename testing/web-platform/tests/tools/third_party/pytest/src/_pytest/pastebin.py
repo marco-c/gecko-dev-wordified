@@ -1,3 +1,11 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 "
 "
 "
@@ -15,12 +23,12 @@ service
 "
 "
 "
-import
-tempfile
 from
 io
 import
 StringIO
+import
+tempfile
 from
 typing
 import
@@ -29,8 +37,6 @@ from
 typing
 import
 Union
-import
-pytest
 from
 _pytest
 .
@@ -63,6 +69,8 @@ _pytest
 terminal
 import
 TerminalReporter
+import
+pytest
 pastebinfile_key
 =
 StashKey
@@ -145,7 +153,7 @@ all
 help
 =
 "
-send
+Send
 failed
 |
 all
@@ -156,7 +164,6 @@ bpaste
 net
 pastebin
 service
-.
 "
     
 )
@@ -559,16 +566,16 @@ re
 from
 urllib
 .
-request
+parse
 import
-urlopen
+urlencode
     
 from
 urllib
 .
-parse
+request
 import
-urlencode
+urlopen
     
 params
 =

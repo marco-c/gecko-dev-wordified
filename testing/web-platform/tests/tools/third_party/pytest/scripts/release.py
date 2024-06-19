@@ -1,3 +1,11 @@
+#
+mypy
+:
+disallow
+-
+untyped
+-
+defs
 "
 "
 "
@@ -40,9 +48,18 @@ def
 announce
 (
 version
+:
+str
 template_name
+:
+str
 doc_version
+:
+str
 )
+-
+>
+None
 :
     
 "
@@ -93,16 +110,10 @@ abbrev
 tags
 "
 ]
-)
-    
-stdout
+encoding
 =
-stdout
-.
-decode
-(
 "
-utf
+UTF
 -
 8
 "
@@ -120,6 +131,7 @@ stdout
 =
 check_output
 (
+        
 [
 "
 git
@@ -145,19 +157,14 @@ format
 aN
 "
 ]
-)
-    
-stdout
+encoding
 =
-stdout
-.
-decode
-(
 "
-utf
+UTF
 -
 8
 "
+    
 )
     
 contributors
@@ -575,7 +582,12 @@ def
 regen
 (
 version
+:
+str
 )
+-
+>
+None
 :
     
 "
@@ -658,6 +670,9 @@ def
 fix_formatting
 (
 )
+-
+>
+None
 :
     
 "
@@ -735,6 +750,9 @@ def
 check_links
 (
 )
+-
+>
+None
 :
     
 "
@@ -795,12 +813,24 @@ checklinks
 def
 pre_release
 (
+    
 version
+:
+str
 template_name
+:
+str
 doc_version
+:
+str
 *
 skip_check_links
+:
+bool
 )
+-
+>
+None
 :
     
 "
@@ -938,10 +968,17 @@ def
 changelog
 (
 version
+:
+str
 write_out
+:
+bool
 =
 False
 )
+-
+>
+None
 :
     
 addopts
@@ -976,14 +1013,17 @@ yes
 version
 "
 version
-]
-+
+*
 addopts
+]
 )
 def
 main
 (
 )
+-
+>
+None
 :
     
 init

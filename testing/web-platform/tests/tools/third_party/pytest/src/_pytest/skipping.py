@@ -1,3 +1,11 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 "
 "
 "
@@ -13,6 +21,14 @@ markers
 "
 "
 "
+from
+collections
+.
+abc
+import
+Mapping
+import
+dataclasses
 import
 os
 import
@@ -21,12 +37,6 @@ import
 sys
 import
 traceback
-from
-collections
-.
-abc
-import
-Mapping
 from
 typing
 import
@@ -43,8 +53,6 @@ from
 typing
 import
 Type
-import
-attr
 from
 _pytest
 .
@@ -103,6 +111,12 @@ _pytest
 reports
 import
 BaseReport
+from
+_pytest
+.
+reports
+import
+TestReport
 from
 _pytest
 .
@@ -168,7 +182,7 @@ False
 help
 =
 "
-report
+Report
 the
 results
 of
@@ -194,7 +208,7 @@ xfail_strict
 "
         
 "
-default
+Default
 for
 the
 strict
@@ -803,6 +817,7 @@ raise
 ValueError
 (
                     
+f
 "
 pytest_markeval_namespace
 (
@@ -814,17 +829,11 @@ a
 dict
 got
 {
+dictionary
 !
 r
 }
 "
-.
-format
-(
-                        
-dictionary
-                    
-)
                 
 )
             
@@ -855,15 +864,6 @@ obj
 .
 __globals__
 )
-#
-type
-:
-ignore
-[
-attr
--
-defined
-]
         
 try
 :
@@ -1196,17 +1196,11 @@ False
 return
 result
 reason
-attr
+dataclasses
 .
-s
+dataclass
 (
-slots
-=
-True
 frozen
-=
-True
-auto_attribs
 =
 True
 )
@@ -1448,17 +1442,11 @@ None
     
 return
 None
-attr
+dataclasses
 .
-s
+dataclass
 (
-slots
-=
-True
 frozen
-=
-True
-auto_attribs
 =
 True
 )
@@ -1479,6 +1467,23 @@ evaluate_xfail_marks
 "
 "
 "
+    
+__slots__
+=
+(
+"
+reason
+"
+"
+run
+"
+"
+strict
+"
+"
+raises
+"
+)
     
 reason
 :
@@ -1826,7 +1831,7 @@ reason
 )
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 )
@@ -1910,8 +1915,17 @@ xfailed
 reason
 )
     
+try
+:
+        
+return
+(
 yield
+)
     
+finally
+:
+        
 #
 The
 test
@@ -1924,7 +1938,7 @@ xfail
 mark
 dynamically
 .
-    
+        
 xfailed
 =
 item
@@ -1936,13 +1950,13 @@ get
 xfailed_key
 None
 )
-    
+        
 if
 xfailed
 is
 None
 :
-        
+            
 item
 .
 stash
@@ -1958,13 +1972,14 @@ item
 )
 hookimpl
 (
-hookwrapper
+wrapper
 =
 True
 )
 def
 pytest_runtest_makereport
 (
+    
 item
 :
 Item
@@ -1975,19 +1990,19 @@ CallInfo
 None
 ]
 )
+-
+>
+Generator
+[
+None
+TestReport
+TestReport
+]
 :
-    
-outcome
-=
-yield
     
 rep
 =
-outcome
-.
-get_result
-(
-)
+yield
     
 xfailed
 =
@@ -2199,6 +2214,9 @@ wasxfail
 xfailed
 .
 reason
+    
+return
+rep
 def
 pytest_report_teststatus
 (

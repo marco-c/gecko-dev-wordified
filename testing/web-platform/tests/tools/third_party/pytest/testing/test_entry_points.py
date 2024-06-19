@@ -1,9 +1,15 @@
-from
-_pytest
-.
-compat
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
 import
-importlib_metadata
+importlib
+.
+metadata
 def
 test_pytest_entry_points_are_identical
 (
@@ -12,7 +18,9 @@ test_pytest_entry_points_are_identical
     
 dist
 =
-importlib_metadata
+importlib
+.
+metadata
 .
 distribution
 (

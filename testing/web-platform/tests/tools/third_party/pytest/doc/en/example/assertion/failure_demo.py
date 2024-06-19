@@ -949,7 +949,9 @@ b
 1
 ]
 #
-NOQA
+noqa
+:
+F841
     
 def
 test_reinterpret_fails_with_print_for_the_fun_of_it
@@ -1000,7 +1002,9 @@ if
 namenotexi
 :
 #
-NOQA
+noqa
+:
+F821
             
 pass
     

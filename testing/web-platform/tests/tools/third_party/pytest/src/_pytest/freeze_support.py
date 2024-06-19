@@ -220,15 +220,6 @@ package_path
 package
 .
 __path__
-#
-type
-:
-ignore
-[
-attr
--
-defined
-]
         
 path
 prefix

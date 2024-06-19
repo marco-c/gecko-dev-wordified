@@ -43,9 +43,6 @@ cloudpickle
 )
 class
 TestCloudpickleCompat
-(
-object
-)
 :
     
 "
@@ -67,6 +64,9 @@ given
 (
 simple_classes
 (
+cached_property
+=
+False
 )
 )
     
