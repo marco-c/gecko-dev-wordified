@@ -1902,11 +1902,7 @@ zerovec
 ule
 :
 :
-{
-RawBytesULE
 UnvalidatedChar
-ULE
-}
 ;
 /
 /

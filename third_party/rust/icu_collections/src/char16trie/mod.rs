@@ -262,7 +262,10 @@ rust
 /
 !
 use
-icu_collections
+icu
+:
+:
+collections
 :
 :
 char16trie

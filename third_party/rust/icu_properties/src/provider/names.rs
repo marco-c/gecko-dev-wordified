@@ -493,7 +493,10 @@ ZeroMap
 /
 /
 use
-icu_properties
+icu
+:
+:
+properties
 :
 :
 provider
@@ -813,7 +816,10 @@ Cargo
 feature
 of
 the
-icu_properties
+icu
+:
+:
+properties
 crate
 #
 [
@@ -913,7 +919,10 @@ Cargo
 feature
 of
 the
-icu_properties
+icu
+:
+:
+properties
 crate
 #
 [

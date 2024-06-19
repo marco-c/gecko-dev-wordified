@@ -292,15 +292,10 @@ provider
 /
 /
 &
-icu_locid
+Default
 :
 :
-Locale
-:
-:
-UND
-.
-into
+default
 (
 )
 /

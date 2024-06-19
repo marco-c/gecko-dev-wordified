@@ -342,6 +342,12 @@ string
 parts
 )
 =
+writeable
+:
+:
+_internal
+:
+:
 writeable_to_parts_for_test
 (
 &
@@ -351,10 +357,6 @@ WriteableMessage
 world
 "
 )
-)
-.
-unwrap
-(
 )
 ;
 assert_eq

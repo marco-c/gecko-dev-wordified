@@ -83,10 +83,10 @@ Hasher
 }
 ;
 use
-t1ha
+twox_hash
 :
 :
-T1haHasher
+XxHash64
 ;
 /
 /
@@ -97,7 +97,7 @@ be
 used
 with
 [
-T1haHasher
+XxHash64
 :
 :
 with_seed
@@ -283,7 +283,7 @@ Compute
 hash
 using
 [
-T1haHasher
+XxHash64
 ]
 .
 pub
@@ -311,7 +311,7 @@ let
 mut
 hasher
 =
-T1haHasher
+XxHash64
 :
 :
 with_seed

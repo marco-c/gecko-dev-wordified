@@ -1864,9 +1864,8 @@ Ok
 (
 varule
 .
-get
+first
 (
-0
 )
 .
 cloned
@@ -2017,9 +2016,8 @@ attr
 =
 zerovec_attrs
 .
-get
+first
 (
-0
 )
 {
 return

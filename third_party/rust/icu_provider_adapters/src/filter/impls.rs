@@ -239,7 +239,6 @@ icu_locid
 :
 {
 langid
-locale
 subtags
 :
 :
@@ -368,7 +367,7 @@ DataRequest
 locale
 :
 &
-locale
+langid
 !
 (
 "
@@ -464,7 +463,7 @@ DataRequest
 locale
 :
 &
-locale
+langid
 !
 (
 "
@@ -918,10 +917,7 @@ use
 icu_locid
 :
 :
-{
 langid
-locale
-}
 ;
 /
 /
@@ -1043,7 +1039,7 @@ DataRequest
 locale
 :
 &
-locale
+langid
 !
 (
 "
@@ -1139,7 +1135,7 @@ DataRequest
 locale
 :
 &
-locale
+langid
 !
 (
 "
@@ -1412,7 +1408,7 @@ use
 icu_locid
 :
 :
-locale
+langid
 ;
 /
 /
@@ -1511,7 +1507,7 @@ DataRequest
 locale
 :
 &
-locale
+langid
 !
 (
 "

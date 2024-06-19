@@ -66,6 +66,7 @@ Deserialize
 derive
 (
 Deserialize
+Debug
 )
 ]
 pub

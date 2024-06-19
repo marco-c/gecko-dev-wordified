@@ -636,7 +636,7 @@ blob
 /
 main
 /
-docs
+documents
 /
 process
 /
@@ -840,7 +840,9 @@ EastAsianWidth
 GeneralCategory
 GeneralCategoryGroup
 GraphemeClusterBreak
+HangulSyllableType
 IndicSyllabicCategory
+JoiningType
 LineBreak
 Script
 SentenceBreak

@@ -1008,7 +1008,7 @@ locale
 icu_locid
 :
 :
-locale
+langid
 !
 (
 "
@@ -1404,7 +1404,7 @@ locale
 icu_locid
 :
 :
-locale
+langid
 !
 (
 "

@@ -604,7 +604,7 @@ iter
 {
 builder
 .
-add_range_u32
+add_range32
 (
 &
 range

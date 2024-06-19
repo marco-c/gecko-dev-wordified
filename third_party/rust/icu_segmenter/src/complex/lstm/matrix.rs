@@ -307,7 +307,7 @@ dims
 /
 Returns
 the
-tighly
+tightly
 packed
 submatrix
 at

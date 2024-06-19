@@ -549,7 +549,10 @@ rust
 /
 /
 use
-icu_segmenter
+icu
+:
+:
+segmenter
 :
 :
 SentenceSegmenter
@@ -639,7 +642,10 @@ rust
 /
 /
 use
-icu_segmenter
+icu
+:
+:
+segmenter
 :
 :
 SentenceSegmenter
@@ -764,7 +770,10 @@ rust
 /
 #
 use
-icu_segmenter
+icu
+:
+:
+segmenter
 :
 :
 SentenceSegmenter

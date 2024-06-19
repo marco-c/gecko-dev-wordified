@@ -59,15 +59,6 @@ use
 crate
 :
 :
-helpers
-:
-:
-ShortSlice
-;
-use
-crate
-:
-:
 parser
 :
 :
@@ -75,6 +66,15 @@ parser
 ParserError
 SubtagIterator
 }
+;
+use
+crate
+:
+:
+shortvec
+:
+:
+ShortBoxSlice
 ;
 use
 core
@@ -340,7 +340,7 @@ pub
 struct
 Value
 (
-ShortSlice
+ShortBoxSlice
 <
 TinyAsciiStr
 <
@@ -502,7 +502,7 @@ let
 mut
 v
 =
-ShortSlice
+ShortBoxSlice
 :
 :
 new
@@ -851,7 +851,7 @@ None
 >
 Self
 (
-ShortSlice
+ShortBoxSlice
 :
 :
 new
@@ -889,7 +889,7 @@ TRUE_VALUE
 ;
 Self
 (
-ShortSlice
+ShortBoxSlice
 :
 :
 new_single
@@ -909,7 +909,7 @@ from_short_slice_unchecked
 (
 input
 :
-ShortSlice
+ShortBoxSlice
 <
 TinyAsciiStr
 <

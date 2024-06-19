@@ -159,7 +159,9 @@ struct
 for
 reading
 serialized
+[
 CodePointTrie
+]
 TOML
 files
 /
@@ -402,7 +404,9 @@ Data
 slice
 from
 a
+[
 CodePointTrie
+]
 TOML
 .
 /
@@ -464,7 +468,9 @@ a
 /
 A
 serialized
+[
 CodePointTrie
+]
 data
 array
 8
@@ -486,7 +492,9 @@ u8
 /
 A
 serialized
+[
 CodePointTrie
+]
 data
 array
 16
@@ -508,7 +516,9 @@ u16
 /
 A
 serialized
+[
 CodePointTrie
+]
 data
 array
 32

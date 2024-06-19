@@ -257,7 +257,10 @@ API
 /
 !
 use
-icu_collections
+icu
+:
+:
+collections
 :
 :
 codepointinvlist
@@ -398,7 +401,10 @@ characters
 /
 !
 use
-icu_collections
+icu
+:
+:
+collections
 :
 :
 codepointinvlist
@@ -598,13 +604,6 @@ builder
 :
 :
 CodePointInversionListBuilder
-;
-pub
-use
-conversions
-:
-:
-*
 ;
 pub
 use

@@ -65,10 +65,10 @@ use
 crate
 :
 :
-helpers
+shortvec
 :
 :
-ShortSlice
+ShortBoxSlice
 ;
 use
 alloc
@@ -334,7 +334,7 @@ pub
 struct
 Attributes
 (
-ShortSlice
+ShortBoxSlice
 <
 Attribute
 >
@@ -447,7 +447,7 @@ Self
 {
 Self
 (
-ShortSlice
+ShortBoxSlice
 :
 :
 new
@@ -712,7 +712,7 @@ from_short_slice_unchecked
 (
 input
 :
-ShortSlice
+ShortBoxSlice
 <
 Attribute
 >
@@ -779,7 +779,6 @@ unicode
 :
 {
 attribute
-Attribute
 Attributes
 }
 ;

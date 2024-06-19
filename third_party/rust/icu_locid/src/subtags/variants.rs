@@ -65,10 +65,10 @@ use
 crate
 :
 :
-helpers
+shortvec
 :
 :
-ShortSlice
+ShortBoxSlice
 ;
 use
 alloc
@@ -276,7 +276,7 @@ pub
 struct
 Variants
 (
-ShortSlice
+ShortBoxSlice
 <
 Variant
 >
@@ -386,7 +386,7 @@ Self
 {
 Self
 (
-ShortSlice
+ShortBoxSlice
 :
 :
 new
@@ -488,7 +488,7 @@ Self
 {
 Self
 (
-ShortSlice
+ShortBoxSlice
 :
 :
 new_single
@@ -728,7 +728,7 @@ from_short_slice_unchecked
 (
 input
 :
-ShortSlice
+ShortBoxSlice
 <
 Variant
 >

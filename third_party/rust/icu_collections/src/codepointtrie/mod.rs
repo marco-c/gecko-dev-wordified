@@ -186,7 +186,9 @@ read
 only
 view
 of
+[
 CodePointTrie
+]
 data
 that
 is
@@ -251,7 +253,10 @@ CodePointTrie
 /
 !
 use
-icu_collections
+icu
+:
+:
+collections
 :
 :
 codepointtrie

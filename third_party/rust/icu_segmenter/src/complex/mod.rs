@@ -78,8 +78,8 @@ icu_locid
 :
 :
 {
-locale
-Locale
+langid
+LanguageIdentifier
 }
 ;
 use
@@ -236,7 +236,7 @@ UCharDictionaryBreakDataV1Marker
 >
 DataPayload
 <
-LstmDataV1Marker
+LstmForWordLineAutoV1Marker
 >
 >
 ;
@@ -272,7 +272,7 @@ UCharDictionaryBreakDataV1Marker
 a
 DataPayload
 <
-LstmDataV1Marker
+LstmForWordLineAutoV1Marker
 >
 >
 ;
@@ -666,7 +666,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -709,7 +709,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -752,7 +752,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -795,7 +795,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -908,7 +908,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -941,7 +941,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -974,7 +974,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -1007,7 +1007,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -1118,7 +1118,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -1161,7 +1161,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -1204,7 +1204,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -1247,7 +1247,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -1290,7 +1290,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -1389,7 +1389,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -1422,7 +1422,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -1455,7 +1455,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -1488,7 +1488,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -1521,7 +1521,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -1646,7 +1646,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -1689,7 +1689,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -1732,7 +1732,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -1775,7 +1775,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -1818,7 +1818,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -1939,7 +1939,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -1972,7 +1972,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -2005,7 +2005,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -2038,7 +2038,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -2071,7 +2071,7 @@ D
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -2174,7 +2174,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -2217,7 +2217,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -2260,7 +2260,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -2303,7 +2303,7 @@ provider
 :
 :
 Baked
-locale
+langid
 !
 (
 "
@@ -2405,7 +2405,7 @@ _
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -2438,7 +2438,7 @@ _
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -2471,7 +2471,7 @@ _
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -2504,7 +2504,7 @@ _
 >
 (
 provider
-locale
+langid
 !
 (
 "
@@ -2556,7 +2556,7 @@ provider
 P
 locale
 :
-Locale
+LanguageIdentifier
 )
 -
 >
@@ -2582,12 +2582,10 @@ DataRequest
 locale
 :
 &
-DataLocale
-:
-:
-from
-(
 locale
+.
+into
+(
 )
 metadata
 :

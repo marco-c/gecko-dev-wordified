@@ -1518,7 +1518,10 @@ Examples
 /
 /
 use
-icu_collections
+icu
+:
+:
+collections
 :
 :
 char16trie
@@ -1823,7 +1826,10 @@ Examples
 /
 /
 use
-icu_collections
+icu
+:
+:
+collections
 :
 :
 char16trie
@@ -2124,7 +2130,10 @@ Examples
 /
 /
 use
-icu_collections
+icu
+:
+:
+collections
 :
 :
 char16trie

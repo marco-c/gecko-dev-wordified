@@ -1430,7 +1430,7 @@ locale
 icu_locid
 :
 :
-locale
+langid
 !
 (
 "

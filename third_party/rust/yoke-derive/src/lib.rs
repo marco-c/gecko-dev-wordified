@@ -564,6 +564,9 @@ where
 static_bounds
 )
 *
+Self
+:
+Sized
 {
 type
 Output

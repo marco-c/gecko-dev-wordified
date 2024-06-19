@@ -480,7 +480,7 @@ use
 icu_locid
 :
 :
-locale
+langid
 ;
 /
 /
@@ -538,7 +538,7 @@ DataRequest
 locale
 :
 &
-locale
+langid
 !
 (
 "
@@ -1469,7 +1469,7 @@ use
 icu_locid
 :
 :
-locale
+langid
 ;
 /
 /
@@ -1530,7 +1530,7 @@ DataRequest
 locale
 :
 &
-locale
+langid
 !
 (
 "

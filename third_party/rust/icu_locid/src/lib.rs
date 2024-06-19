@@ -598,7 +598,7 @@ blob
 /
 main
 /
-docs
+documents
 /
 process
 /
@@ -702,6 +702,9 @@ ordering
 mod
 parser
 ;
+mod
+shortvec
+;
 pub
 use
 langid
@@ -716,6 +719,13 @@ locale
 :
 Locale
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 pub
 use
 ordering
