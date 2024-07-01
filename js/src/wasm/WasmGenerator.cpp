@@ -605,6 +605,9 @@ const
 CompileArgs
 &
 args
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -642,6 +645,10 @@ warnings
 cancelled_
 (
 cancelled
+)
+codeMeta_
+(
+codeMeta
 )
 moduleMeta_
 (
@@ -1202,7 +1209,7 @@ funcToCodeRange
 appendN
 (
 BAD_CODE_RANGE
-moduleMeta_
+codeMeta_
 -
 >
 funcs
@@ -1288,12 +1295,12 @@ capacity
 size_t
 codeSectionSize
 =
-moduleMeta_
+codeMeta_
 -
 >
 codeSection
 ?
-moduleMeta_
+codeMeta_
 -
 >
 codeSection
@@ -1350,7 +1357,7 @@ reserve
 (
 2
 *
-moduleMeta_
+codeMeta_
 -
 >
 numFuncDefs
@@ -1434,7 +1441,7 @@ uint32_t
 >
 maybeInstanceDataLength
 =
-moduleMeta_
+codeMeta_
 -
 >
 doInstanceLayout
@@ -1456,7 +1463,7 @@ metadata_
 >
 typeDefsOffsetStart
 =
-moduleMeta_
+codeMeta_
 -
 >
 typeDefsOffsetStart
@@ -1466,7 +1473,7 @@ metadata_
 >
 memoriesOffsetStart
 =
-moduleMeta_
+codeMeta_
 -
 >
 memoriesOffsetStart
@@ -1476,7 +1483,7 @@ metadata_
 >
 tablesOffsetStart
 =
-moduleMeta_
+codeMeta_
 -
 >
 tablesOffsetStart
@@ -1486,7 +1493,7 @@ metadata_
 >
 tagsOffsetStart
 =
-moduleMeta_
+codeMeta_
 -
 >
 tagsOffsetStart
@@ -1515,7 +1522,7 @@ funcImports
 .
 resize
 (
-moduleMeta_
+codeMeta_
 -
 >
 numFuncImports
@@ -1535,7 +1542,7 @@ i
 ;
 i
 <
-moduleMeta_
+codeMeta_
 -
 >
 numFuncImports
@@ -1555,7 +1562,7 @@ i
 =
 FuncImport
 (
-moduleMeta_
+codeMeta_
 -
 >
 funcs
@@ -1564,7 +1571,7 @@ i
 ]
 .
 typeIndex
-moduleMeta_
+codeMeta_
 -
 >
 offsetOfFuncImportInstanceData
@@ -1586,7 +1593,7 @@ metadata_
 >
 types
 =
-moduleMeta_
+codeMeta_
 -
 >
 types
@@ -1677,7 +1684,7 @@ FuncDesc
 &
 func
 :
-moduleMeta_
+codeMeta_
 -
 >
 funcs
@@ -1725,7 +1732,7 @@ funcIndex
 ;
 funcIndex
 <
-moduleMeta_
+codeMeta_
 -
 >
 funcs
@@ -1744,7 +1751,7 @@ FuncDesc
 &
 func
 =
-moduleMeta_
+codeMeta_
 -
 >
 funcs
@@ -1895,7 +1902,7 @@ tasks_
 infallibleEmplaceBack
 (
 *
-moduleMeta_
+codeMeta_
 *
 compilerEnv_
 taskState_
@@ -2009,7 +2016,7 @@ if
 GenerateImportFunctions
 (
 *
-moduleMeta_
+codeMeta_
 metadataTier_
 -
 >
@@ -4182,7 +4189,7 @@ IonCompileFunctions
 task
 -
 >
-moduleMeta
+codeMeta
 task
 -
 >
@@ -4224,7 +4231,7 @@ BaselineCompileFunctions
 task
 -
 >
-moduleMeta
+codeMeta
 task
 -
 >
@@ -4854,7 +4861,7 @@ MOZ_ASSERT
 (
 funcIndex
 <
-moduleMeta_
+codeMeta_
 -
 >
 numFuncs
@@ -6002,7 +6009,7 @@ if
 GenerateStubs
 (
 *
-moduleMeta_
+codeMeta_
 metadataTier_
 -
 >
@@ -6679,7 +6686,7 @@ metadata_
 >
 builtinModules
 =
-moduleMeta_
+codeMeta_
 -
 >
 features
@@ -6696,7 +6703,7 @@ std
 :
 move
 (
-moduleMeta_
+codeMeta_
 -
 >
 memories
@@ -6712,7 +6719,7 @@ std
 :
 move
 (
-moduleMeta_
+codeMeta_
 -
 >
 tables
@@ -6728,7 +6735,7 @@ std
 :
 move
 (
-moduleMeta_
+codeMeta_
 -
 >
 globals
@@ -6744,7 +6751,7 @@ std
 :
 move
 (
-moduleMeta_
+codeMeta_
 -
 >
 tags
@@ -6791,7 +6798,7 @@ metadata_
 >
 parsedBranchHints
 =
-moduleMeta_
+codeMeta_
 -
 >
 parsedBranchHints
@@ -6825,7 +6832,7 @@ const
 size_t
 numFuncs
 =
-moduleMeta_
+codeMeta_
 -
 >
 funcs
@@ -6876,7 +6883,7 @@ debugFuncTypeIndices
 i
 ]
 =
-moduleMeta_
+codeMeta_
 -
 >
 funcs
@@ -7267,7 +7274,7 @@ customSections
 .
 reserve
 (
-moduleMeta_
+codeMeta_
 -
 >
 customSectionRanges
@@ -7289,7 +7296,7 @@ CustomSectionRange
 &
 srcRange
 :
-moduleMeta_
+codeMeta_
 -
 >
 customSectionRanges
@@ -7605,7 +7612,7 @@ std
 :
 move
 (
-moduleMeta_
+codeMeta_
 -
 >
 elemSegments

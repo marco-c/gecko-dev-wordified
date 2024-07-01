@@ -14412,9 +14412,9 @@ wasm
 GenerateImportFunctions
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 const
 FuncImportVector
 &
@@ -14479,7 +14479,7 @@ FuncType
 funcType
 =
 *
-moduleMeta
+codeMeta
 .
 funcs
 [
@@ -14496,7 +14496,7 @@ CallIndirectId
 :
 forFunc
 (
-moduleMeta
+codeMeta
 funcIndex
 )
 ;
@@ -21806,9 +21806,9 @@ wasm
 GenerateStubs
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 const
 FuncImportVector
 &
@@ -21938,7 +21938,7 @@ FuncType
 funcType
 =
 *
-moduleMeta
+codeMeta
 .
 funcs
 [
@@ -22128,7 +22128,7 @@ funcType
 =
 (
 *
-moduleMeta
+codeMeta
 .
 types
 )
@@ -22167,7 +22167,7 @@ i
 fe
 funcType
 noAbsolute
-moduleMeta
+codeMeta
 .
 isAsmJS
 (

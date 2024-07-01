@@ -27644,8 +27644,8 @@ return
 nullptr
 ;
 }
-ModuleMetadata
-moduleMeta
+CodeMetadata
+codeMeta
 (
 compileArgs
 -
@@ -27653,6 +27653,16 @@ compileArgs
 features
 )
 ;
+ModuleMetadata
+moduleMeta
+;
+/
+/
+FIXME
+is
+this
+needed
+?
 CompilerEnvironment
 compilerEnv
 (
@@ -27679,7 +27689,7 @@ computeParameters
 if
 (
 !
-moduleMeta
+codeMeta
 .
 init
 (
@@ -27714,7 +27724,7 @@ results
 if
 (
 !
-moduleMeta
+codeMeta
 .
 types
 -
@@ -27756,7 +27766,7 @@ FuncDesc
 &
 (
 *
-moduleMeta
+codeMeta
 .
 types
 )
@@ -27773,7 +27783,7 @@ funcType
 if
 (
 !
-moduleMeta
+codeMeta
 .
 funcs
 .
@@ -27787,7 +27797,7 @@ return
 nullptr
 ;
 }
-moduleMeta
+codeMeta
 .
 numFuncImports
 =
@@ -27804,7 +27814,7 @@ func
 0
 )
 )
-moduleMeta
+codeMeta
 .
 declareFuncExported
 (
@@ -27885,6 +27895,8 @@ mg
 (
 *
 compileArgs
+&
+codeMeta
 &
 moduleMeta
 &

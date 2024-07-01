@@ -490,9 +490,9 @@ startSection
 (
 SectionId
 id
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 MaybeSectionRange
 *
 range
@@ -557,7 +557,7 @@ const
 size_t
 initialCustomSectionsLength
 =
-moduleMeta
+codeMeta
 -
 >
 customSectionRanges
@@ -686,7 +686,7 @@ if
 !
 skipCustomSection
 (
-moduleMeta
+codeMeta
 )
 )
 {
@@ -843,7 +843,7 @@ cur_
 =
 initialCur
 ;
-moduleMeta
+codeMeta
 -
 >
 customSectionRanges
@@ -946,9 +946,9 @@ char
 expected
 size_t
 expectedLength
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 MaybeSectionRange
 *
 range
@@ -1002,7 +1002,7 @@ const
 size_t
 initialCustomSectionsLength
 =
-moduleMeta
+codeMeta
 -
 >
 customSectionRanges
@@ -1062,7 +1062,7 @@ SectionId
 :
 :
 Custom
-moduleMeta
+codeMeta
 range
 "
 custom
@@ -1254,7 +1254,7 @@ rewind
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 customSectionRanges
@@ -1361,7 +1361,7 @@ cur_
 =
 initialCur
 ;
-moduleMeta
+codeMeta
 -
 >
 customSectionRanges
@@ -1648,9 +1648,9 @@ Decoder
 :
 skipCustomSection
 (
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 {
 MaybeSectionRange
@@ -1663,7 +1663,7 @@ startCustomSection
 (
 nullptr
 0
-moduleMeta
+codeMeta
 &
 range
 )
