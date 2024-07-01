@@ -399,13 +399,6 @@ i64
 0x163cd6124
 ;
 const
-K6
-:
-i64
-=
-0x1db710640
-;
-const
 P_X
 :
 i64
@@ -1169,11 +1162,6 @@ to
 work
 though
 !
-drop
-(
-K6
-)
-;
 let
 x
 =

@@ -383,15 +383,6 @@ super
 :
 *
 ;
-use
-std
-:
-:
-io
-:
-:
-Read
-;
 #
 [
 test
