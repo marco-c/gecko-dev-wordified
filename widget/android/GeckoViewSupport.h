@@ -729,6 +729,12 @@ OnShowDynamicToolbar
 const
 ;
 void
+OnHideDynamicToolbar
+(
+)
+const
+;
+void
 PassExternalResponse
 (
 java
