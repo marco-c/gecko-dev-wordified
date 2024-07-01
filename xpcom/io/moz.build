@@ -355,15 +355,6 @@ nsLocalFileUnix
 cpp
 "
 ]
-CXXFLAGS
-+
-=
-CONFIG
-[
-"
-MOZ_GTK3_CFLAGS
-"
-]
 XPIDL_MODULE
 =
 "
