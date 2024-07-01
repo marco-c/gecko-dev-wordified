@@ -153,16 +153,6 @@ SVGPathSegUtils
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-SVGPathSeg_Binding
-;
 /
 /
 Indices

@@ -178,16 +178,6 @@ namespace
 mozilla
 :
 :
-dom
-:
-:
-SVGPathSeg_Binding
-;
-using
-namespace
-mozilla
-:
-:
 gfx
 ;
 namespace
