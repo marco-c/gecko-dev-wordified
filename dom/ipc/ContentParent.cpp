@@ -7874,7 +7874,7 @@ Maybe
 uint32_t
 >
 &
-aLookbackDays
+aLoopbackDays
 const
 Maybe
 <
@@ -7937,7 +7937,7 @@ OnAttributionConversion
 aHost
 aTask
 aHistogramSize
-aLookbackDays
+aLoopbackDays
 .
 valueOr
 (
