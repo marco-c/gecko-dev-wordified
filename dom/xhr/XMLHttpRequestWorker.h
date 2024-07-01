@@ -330,10 +330,6 @@ XMLHttpRequestUpload
 >
 mUpload
 ;
-WorkerPrivate
-*
-mWorkerPrivate
-;
 RefPtr
 <
 StrongWorkerRef
