@@ -341,11 +341,17 @@ WasmTagObject
 SystemAllocPolicy
 >
 ;
+struct
+Metadata
+;
 namespace
 wasm
 {
 struct
 ModuleMetadata
+;
+struct
+CodeMetadata
 ;
 class
 CodeRange
@@ -355,9 +361,6 @@ CodeTier
 ;
 class
 ModuleSegment
-;
-struct
-Metadata
 ;
 struct
 MetadataTier
