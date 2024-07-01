@@ -1069,6 +1069,16 @@ found_subsuite
 :
                         
 if
+any
+(
+                            
+test_subsuite
+in
+m
+                            
+for
+test_subsuite
+in
 WPT_SUBSUITES
 [
 found_subsuite
@@ -1076,8 +1086,8 @@ found_subsuite
 0
 ]
 ]
-in
-m
+                        
+)
 :
                             
 yield
