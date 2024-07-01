@@ -171,6 +171,12 @@ gtest
 *
 /
 static
+bool
+ShouldSubmit
+(
+)
+;
+static
 void
 PopulateDataAndEventuallySubmit
 (
