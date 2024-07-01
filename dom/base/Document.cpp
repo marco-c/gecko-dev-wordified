@@ -84215,7 +84215,7 @@ startContainer
 range
 -
 >
-GetStartContainer
+GetMayCrossShadowBoundaryStartContainer
 (
 )
 ;
@@ -84226,7 +84226,7 @@ endContainer
 range
 -
 >
-GetEndContainer
+GetMayCrossShadowBoundaryEndContainer
 (
 )
 ;
@@ -84294,14 +84294,14 @@ startNode
 range
 -
 >
-StartOffset
+MayCrossShadowBoundaryStartOffset
 (
 )
 endNode
 range
 -
 >
-EndOffset
+MayCrossShadowBoundaryEndOffset
 (
 )
 IgnoreErrors
@@ -84318,7 +84318,7 @@ clonedRange
 clonedRange
 -
 >
-Collapsed
+AreNormalRangeAndCrossShadowBoundaryRangeCollapsed
 (
 )
 )

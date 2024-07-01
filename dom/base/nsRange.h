@@ -1522,6 +1522,13 @@ GetCommonAncestorContainer
 ErrorResult
 &
 aRv
+AllowRangeCrossShadowBoundary
+aAllowCrossShadowBoundary
+=
+AllowRangeCrossShadowBoundary
+:
+:
+No
 )
 const
 {
@@ -1545,6 +1552,7 @@ nullptr
 return
 GetClosestCommonInclusiveAncestor
 (
+aAllowCrossShadowBoundary
 )
 ;
 }
