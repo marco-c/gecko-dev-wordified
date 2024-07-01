@@ -2024,13 +2024,11 @@ processed
 and
 removed
 .
-uint32_t
+void
 NoteForgetSkippableComplete
 (
 TimeStamp
 aNow
-uint32_t
-aSuspectedBeforeForgetSkippable
 uint32_t
 aSuspectedCCObjects
 )
@@ -2046,11 +2044,6 @@ aSuspectedCCObjects
 mCleanupsSinceLastGC
 +
 +
-;
-return
-aSuspectedBeforeForgetSkippable
--
-aSuspectedCCObjects
 ;
 }
 /

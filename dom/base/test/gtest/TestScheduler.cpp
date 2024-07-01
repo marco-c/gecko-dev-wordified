@@ -1029,11 +1029,6 @@ ForgetSkippable
 (
 )
 {
-uint32_t
-suspectedBefore
-=
-sSuspected
-;
 /
 /
 .
@@ -1093,7 +1088,6 @@ NoteForgetSkippableComplete
 Now
 (
 )
-suspectedBefore
 SuspectedCCObjects
 (
 )
