@@ -7258,6 +7258,7 @@ seed
 .
 ResetRNG
 (
+lock
 )
 ;
 SetAllocDelay
@@ -7300,6 +7301,8 @@ aState
 void
 ResetRNG
 (
+MutexAutoLock
+&
 )
 {
 mRNG
