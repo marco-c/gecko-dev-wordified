@@ -343,6 +343,14 @@ message
 :
 text
         
+"
+handler
+"
+:
+"
+dismiss
+"
+        
 *
 *
 (
@@ -542,7 +550,9 @@ wait_for_future_safe
 on_entry
 )
     
-expected_event
+assert
+event
+=
 =
 {
         
@@ -570,42 +580,30 @@ message
 "
 :
 text
-    
-}
-    
+        
+"
+handler
+"
+:
+"
+dismiss
+"
+        
+"
+defaultValue
+"
+:
+default
 if
 default
 is
+not
 None
-:
-        
-expected_event
-[
-"
-defaultValue
-"
-]
-=
-"
-"
-    
 else
-:
-        
-expected_event
-[
 "
-defaultValue
 "
-]
-=
-default
     
-assert
-event
-=
-=
-expected_event
+}
 pytest
 .
 mark
@@ -937,6 +935,14 @@ alert
 "
         
 "
+handler
+"
+:
+"
+dismiss
+"
+        
+"
 message
 "
 :
@@ -1198,6 +1204,14 @@ type
 :
 "
 alert
+"
+        
+"
+handler
+"
+:
+"
+dismiss
 "
         
 "
