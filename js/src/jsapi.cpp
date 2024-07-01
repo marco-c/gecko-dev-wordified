@@ -27175,9 +27175,6 @@ value
 ;
 break
 ;
-#
-ifdef
-NIGHTLY_BUILD
 case
 JSJITCOMPILER_REGEXP_DUPLICATE_NAMED_GROUPS
 :
@@ -27194,8 +27191,6 @@ value
 ;
 break
 ;
-#
-endif
 #
 ifdef
 DEBUG
