@@ -1645,7 +1645,7 @@ dom
 RemoteWorkerService
 :
 :
-InitializeParent
+Initialize
 (
 )
 ;
