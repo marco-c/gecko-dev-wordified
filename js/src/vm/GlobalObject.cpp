@@ -1393,6 +1393,9 @@ experimental_shadow_realms
 (
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 case
 JSProto_Float16Array
 :
@@ -1408,6 +1411,8 @@ experimental_float16array
 (
 )
 ;
+#
+endif
 default
 :
 MOZ_CRASH
