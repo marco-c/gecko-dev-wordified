@@ -3268,6 +3268,8 @@ const
 nsACString
 &
 aBaseDomain
+bool
+aIsThirdParty
 dom
 :
 :
@@ -3373,6 +3375,7 @@ CookieNotification
 aAction
 cookie
 aBaseDomain
+aIsThirdParty
 batchDeletedCookies
 browsingContextId
 )
@@ -3522,6 +3525,8 @@ nsACString
 aCookieHeader
 bool
 aFromHttp
+bool
+aIsThirdParty
 dom
 :
 :
@@ -4578,6 +4583,7 @@ nsICookieNotification
 :
 COOKIE_DELETED
 aBaseDomain
+false
 aBrowsingContext
 oldCookieIsSession
 )
@@ -5266,6 +5272,7 @@ nsICookieNotification
 :
 COOKIE_ADDED
 aBaseDomain
+aIsThirdParty
 aBrowsingContext
 oldCookieIsSession
 )

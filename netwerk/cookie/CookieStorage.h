@@ -710,6 +710,10 @@ const
 nsACString
 &
 aBaseDomain
+bool
+aIsThirdParty
+=
+false
 dom
 :
 :
@@ -752,6 +756,8 @@ nsACString
 aCookieHeader
 bool
 aFromHttp
+bool
+aIsThirdParty
 dom
 :
 :

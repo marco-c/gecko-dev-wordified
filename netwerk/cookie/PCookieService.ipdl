@@ -274,6 +274,8 @@ nsIURI
 host
 bool
 fromHttp
+bool
+isThirdParty
 CookieStruct
 [
 ]

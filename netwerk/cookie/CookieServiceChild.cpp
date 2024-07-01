@@ -3909,6 +3909,7 @@ baseDomain
 attrs
 documentURI
 false
+thirdParty
 cookiesToSend
 )
 ;
@@ -3925,6 +3926,7 @@ baseDomain
 attrs
 documentURI
 false
+thirdParty
 cookiesToSend
 )
 ;
@@ -4902,6 +4904,7 @@ baseDomain
 storagePrincipalOriginAttributes
 aHostURI
 true
+isForeignAndNotAddon
 cookiesToSend
 )
 ;
@@ -4925,6 +4928,7 @@ baseDomain
 partitionedPrincipalOriginAttributes
 aHostURI
 true
+isForeignAndNotAddon
 partitionedCookiesToSend
 )
 ;

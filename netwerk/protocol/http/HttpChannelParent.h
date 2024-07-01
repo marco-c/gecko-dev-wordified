@@ -1254,6 +1254,10 @@ const
 bool
 &
 aFromHttp
+const
+bool
+&
+aIsThirdParty
 nsTArray
 <
 CookieStruct
