@@ -1550,6 +1550,16 @@ RFPTarget
 aOverriddenFingerprintingSettings
 )
 ;
+static
+bool
+IsSoftwareRenderingOptionExposed
+(
+JSContext
+*
+JSObject
+*
+)
+;
 /
 /
 -
