@@ -201,6 +201,9 @@ RemoteWorkerController
 class
 RemoteWorkerServiceParent
 ;
+class
+RemoteWorkerNonLifeCycleOpControllerParent
+;
 /
 *
 *

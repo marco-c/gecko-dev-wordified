@@ -850,6 +850,9 @@ class
 RemoteWorkerManager
 ;
 class
+RemoteWorkerNonLifeCycleOpControllerParent
+;
+class
 RemoteWorkerParent
 ;
 class
@@ -1036,6 +1039,10 @@ RemoteWorkerManager
 friend
 class
 RemoteWorkerParent
+;
+friend
+class
+RemoteWorkerNonLifeCycleOpControllerParent
 ;
 public
 :
@@ -1272,6 +1279,12 @@ RefPtr
 RemoteWorkerParent
 >
 mActor
+;
+RefPtr
+<
+RemoteWorkerNonLifeCycleOpControllerParent
+>
+mNonLifeCycleOpController
 ;
 enum
 {
