@@ -1388,6 +1388,12 @@ authentication
 return
 False
         
+whole_path
+=
+self
+.
+path
+        
 host
 port
 resource
@@ -1653,9 +1659,7 @@ resource
 %
 r
 '
-self
-.
-path
+whole_path
 )
                 
 self
