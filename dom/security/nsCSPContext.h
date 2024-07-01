@@ -889,11 +889,12 @@ mInnerWindowID
 ;
 /
 /
-used
-for
-web
-console
-logging
+See
+nsPIDOMWindowInner
+:
+:
+mWindowID
+.
 bool
 mSkipAllowInlineStyleCheck
 ;
