@@ -5101,9 +5101,6 @@ if
 codeBlock
 -
 >
-code
--
->
 lookupTrap
 (
 pc

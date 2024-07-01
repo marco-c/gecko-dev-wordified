@@ -1639,6 +1639,10 @@ const
 FuncImportVector
 &
 imports
+const
+FuncExportVector
+&
+exports
 CompiledCode
 *
 code
