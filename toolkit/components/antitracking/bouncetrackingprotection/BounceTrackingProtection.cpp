@@ -101,6 +101,13 @@ h
 #
 include
 "
+ClearDataCallback
+.
+h
+"
+#
+include
+"
 BounceTrackingStateGlobal
 .
 h
