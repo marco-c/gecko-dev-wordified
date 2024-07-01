@@ -641,6 +641,9 @@ WorkerDebuggeeRunnable
 class
 WorkerThread
 ;
+class
+WorkerThreadRunnable
+;
 /
 /
 SharedMutex
@@ -7719,7 +7722,7 @@ nsTArray
 <
 RefPtr
 <
-WorkerRunnable
+WorkerThreadRunnable
 >
 >
 mPreStartRunnables
