@@ -633,11 +633,11 @@ wasm
 module
 tail
 :
-DataSegmentEnvVector
-dataSegments
+DataSegmentRangeVector
+dataSegmentRanges
 ;
-CustomSectionEnvVector
-customSections
+CustomSectionRangeVector
+customSectionRanges
 ;
 Maybe
 <
