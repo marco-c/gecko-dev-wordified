@@ -73,6 +73,15 @@ PRemoteWorkerNonLifeCycleOpControllerParent
 .
 h
 "
+using
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+;
 namespace
 mozilla
 :
@@ -95,6 +104,11 @@ override
 )
 ;
 RemoteWorkerNonLifeCycleOpControllerParent
+(
+)
+;
+IPCResult
+RecvTerminated
 (
 )
 ;
