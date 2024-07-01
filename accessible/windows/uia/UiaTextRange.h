@@ -745,6 +745,15 @@ GetRange
 )
 const
 ;
+static
+TextLeafRange
+GetRangeFrom
+(
+ITextRangeProvider
+*
+aProvider
+)
+;
 /
 /
 Accessible
