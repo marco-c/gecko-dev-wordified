@@ -1181,9 +1181,6 @@ bool
 HasValidUserGestureActivation
 ;
 bool
-TextDirectiveUserActivation
-;
-bool
 AllowFocusMove
 ;
 bool
