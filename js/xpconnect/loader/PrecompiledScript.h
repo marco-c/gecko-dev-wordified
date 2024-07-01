@@ -341,7 +341,7 @@ Stencil
 mStencil
 ;
 nsCString
-mURL
+mPublicURL
 ;
 const
 bool
