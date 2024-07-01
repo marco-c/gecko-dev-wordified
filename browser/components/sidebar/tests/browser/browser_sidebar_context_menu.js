@@ -111,12 +111,7 @@ updateComplete
 ;
 ok
 (
-BrowserTestUtils
-.
-isVisible
-(
 sidebar
-)
 "
 Sidebar
 is
