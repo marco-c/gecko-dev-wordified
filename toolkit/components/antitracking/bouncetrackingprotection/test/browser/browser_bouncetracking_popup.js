@@ -356,6 +356,7 @@ gBrowser
 finalURL
 .
 href
+true
 )
 ;
 }
