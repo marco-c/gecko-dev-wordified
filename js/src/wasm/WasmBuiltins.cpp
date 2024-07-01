@@ -2821,7 +2821,7 @@ MOZ_ASSERT
 (
 code
 .
-codeMeta
+metadata
 (
 )
 .
@@ -6292,7 +6292,7 @@ funcType
 =
 code
 .
-codeMeta
+metadata
 (
 )
 .

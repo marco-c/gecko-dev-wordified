@@ -878,11 +878,6 @@ particular
 builtin
 module
 .
-[
-[
-nodiscard
-]
-]
 bool
 CompileBuiltinModule
 (
@@ -917,11 +912,6 @@ particular
 builtin
 module
 .
-[
-[
-nodiscard
-]
-]
 bool
 InstantiateBuiltinModule
 (

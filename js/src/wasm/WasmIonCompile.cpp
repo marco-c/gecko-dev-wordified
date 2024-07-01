@@ -2037,9 +2037,9 @@ SystemAllocPolicy
 >
 ;
 const
-CodeMetadata
+ModuleEnvironment
 &
-codeMeta_
+moduleEnv_
 ;
 IonOpIter
 iter_
@@ -2182,9 +2182,9 @@ public
 FunctionCompiler
 (
 const
-CodeMetadata
+ModuleEnvironment
 &
-codeMeta
+moduleEnv
 Decoder
 &
 decoder
@@ -2204,13 +2204,13 @@ TryNoteVector
 tryNotes
 )
 :
-codeMeta_
+moduleEnv_
 (
-codeMeta
+moduleEnv
 )
 iter_
 (
-codeMeta
+moduleEnv
 decoder
 )
 functionBodyOffset_
@@ -2292,15 +2292,15 @@ tryNotes
 {
 }
 const
-CodeMetadata
+ModuleEnvironment
 &
-codeMeta
+moduleEnv
 (
 )
 const
 {
 return
-codeMeta_
+moduleEnv_
 ;
 }
 IonOpIter
@@ -2370,7 +2370,7 @@ const
 {
 return
 *
-codeMeta_
+moduleEnv_
 .
 funcs
 [
@@ -2414,7 +2414,7 @@ bytecodeIfNotAsmJS
 const
 {
 return
-codeMeta_
+moduleEnv_
 .
 isAsmJS
 (
@@ -4277,7 +4277,7 @@ type
 &
 &
 !
-codeMeta
+moduleEnv
 (
 )
 .
@@ -4641,7 +4641,7 @@ bool
 trapOnError
 =
 !
-codeMeta
+moduleEnv
 (
 )
 .
@@ -5049,7 +5049,7 @@ bool
 trapOnError
 =
 !
-codeMeta
+moduleEnv
 (
 )
 .
@@ -7695,7 +7695,7 @@ AliasSet
 aliases
 =
 !
-codeMeta_
+moduleEnv_
 .
 memories
 [
@@ -7785,7 +7785,7 @@ Instance
 :
 offsetInData
 (
-codeMeta_
+moduleEnv_
 .
 offsetOfMemoryInstanceData
 (
@@ -7887,7 +7887,7 @@ Int64
 ;
 if
 (
-codeMeta_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -7920,7 +7920,7 @@ Instance
 :
 offsetInData
 (
-codeMeta_
+moduleEnv_
 .
 offsetOfMemoryInstanceData
 (
@@ -7939,7 +7939,7 @@ AliasSet
 aliases
 =
 !
-codeMeta_
+moduleEnv_
 .
 memories
 [
@@ -8070,7 +8070,7 @@ checks
 .
 if
 (
-codeMeta_
+moduleEnv_
 .
 isAsmJS
 (
@@ -8360,7 +8360,7 @@ offsetGuardLimit
 =
 GetMaxOffsetGuardLimit
 (
-codeMeta_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -8572,7 +8572,7 @@ offsetGuardLimit
 =
 GetMaxOffsetGuardLimit
 (
-codeMeta_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -8775,7 +8775,7 @@ memoryIndex
 &
 &
 !
-codeMeta_
+moduleEnv_
 .
 memories
 [
@@ -8789,7 +8789,7 @@ boundsCheckLimitIs32Bits
 &
 MaxMemoryPages
 (
-codeMeta_
+moduleEnv_
 .
 memories
 [
@@ -9292,7 +9292,7 @@ inDeadCode
 MOZ_ASSERT
 (
 !
-codeMeta_
+moduleEnv_
 .
 isAsmJS
 (
@@ -9619,7 +9619,7 @@ Int64
 MOZ_ASSERT
 (
 !
-codeMeta_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -9758,7 +9758,7 @@ memoryIndex
 )
 {
 return
-codeMeta_
+moduleEnv_
 .
 memories
 [
@@ -9784,7 +9784,7 @@ memoryIndex
 )
 {
 return
-codeMeta_
+moduleEnv_
 .
 memories
 [
@@ -9810,7 +9810,7 @@ memoryIndex
 )
 {
 return
-codeMeta_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -9965,7 +9965,7 @@ nullptr
 ;
 if
 (
-codeMeta_
+moduleEnv_
 .
 isAsmJS
 (
@@ -10145,7 +10145,7 @@ nullptr
 ;
 if
 (
-codeMeta_
+moduleEnv_
 .
 isAsmJS
 (
@@ -11398,7 +11398,7 @@ base
 MOZ_ASSERT
 (
 !
-codeMeta_
+moduleEnv_
 .
 isAsmJS
 (
@@ -11557,7 +11557,7 @@ base
 MOZ_ASSERT
 (
 !
-codeMeta_
+moduleEnv_
 .
 isAsmJS
 (
@@ -12393,7 +12393,7 @@ Instance
 :
 offsetInData
 (
-codeMeta_
+moduleEnv_
 .
 offsetOfTableInstanceData
 (
@@ -15598,7 +15598,7 @@ funcType
 =
 (
 *
-codeMeta_
+moduleEnv_
 .
 types
 )
@@ -15618,7 +15618,7 @@ CallIndirectId
 :
 forFuncType
 (
-codeMeta_
+moduleEnv_
 funcTypeIndex
 )
 ;
@@ -15645,7 +15645,7 @@ TableDesc
 &
 table
 =
-codeMeta_
+moduleEnv_
 .
 tables
 [
@@ -15659,7 +15659,7 @@ CalleeDesc
 :
 wasmTable
 (
-codeMeta_
+moduleEnv_
 table
 tableIndex
 callIndirectId
@@ -15772,7 +15772,7 @@ funcType
 =
 (
 *
-codeMeta_
+moduleEnv_
 .
 types
 )
@@ -15792,7 +15792,7 @@ CallIndirectId
 :
 forFuncType
 (
-codeMeta_
+moduleEnv_
 funcTypeIndex
 )
 ;
@@ -15801,7 +15801,7 @@ callee
 ;
 if
 (
-codeMeta_
+moduleEnv_
 .
 isAsmJS
 (
@@ -15834,7 +15834,7 @@ AsmJS
 uint32_t
 tableIndex
 =
-codeMeta_
+moduleEnv_
 .
 asmJSSigToTableIndex
 [
@@ -15846,7 +15846,7 @@ TableDesc
 &
 table
 =
-codeMeta_
+moduleEnv_
 .
 tables
 [
@@ -15918,7 +15918,7 @@ CalleeDesc
 :
 asmJSTable
 (
-codeMeta_
+moduleEnv_
 tableIndex
 )
 ;
@@ -15945,7 +15945,7 @@ TableDesc
 &
 table
 =
-codeMeta_
+moduleEnv_
 .
 tables
 [
@@ -15959,7 +15959,7 @@ CalleeDesc
 :
 wasmTable
 (
-codeMeta_
+moduleEnv_
 table
 tableIndex
 callIndirectId
@@ -20118,7 +20118,7 @@ MIRType
 :
 :
 WasmAnyRef
-codeMeta_
+moduleEnv_
 .
 offsetOfTagInstanceData
 (
@@ -23166,7 +23166,7 @@ values
 SharedTagType
 tagType
 =
-codeMeta
+moduleEnv
 (
 )
 .
@@ -24121,7 +24121,7 @@ pointer
 SharedTagType
 tagType
 =
-codeMeta_
+moduleEnv_
 .
 tags
 [
@@ -27470,7 +27470,7 @@ typeIndex
 uint32_t
 stvOffset
 =
-codeMeta
+moduleEnv
 (
 )
 .
@@ -27549,7 +27549,7 @@ Instance
 :
 offsetInData
 (
-codeMeta_
+moduleEnv_
 .
 offsetOfTypeDefInstanceData
 (
@@ -27672,7 +27672,7 @@ typeDef
 =
 (
 *
-codeMeta
+moduleEnv
 (
 )
 .
@@ -30312,7 +30312,7 @@ arrayType
 =
 (
 *
-codeMeta_
+moduleEnv_
 .
 types
 )
@@ -30548,7 +30548,7 @@ arrayType
 =
 (
 *
-codeMeta_
+moduleEnv_
 .
 types
 )
@@ -30948,7 +30948,7 @@ isTypeRef
 uint32_t
 typeIndex
 =
-codeMeta_
+moduleEnv_
 .
 types
 -
@@ -35268,7 +35268,7 @@ readOldCallDirect
 (
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -35331,7 +35331,7 @@ funcType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -35369,7 +35369,7 @@ if
 (
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -35384,7 +35384,7 @@ instanceDataOffset
 =
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -35575,7 +35575,7 @@ funcType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -35800,7 +35800,7 @@ funcType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -35846,7 +35846,7 @@ if
 (
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -35861,7 +35861,7 @@ globalDataOffset
 =
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -35997,7 +35997,7 @@ funcType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -36393,7 +36393,7 @@ global
 =
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -36730,7 +36730,7 @@ global
 =
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -36822,7 +36822,7 @@ global
 =
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -37215,7 +37215,7 @@ if
 (
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -37344,7 +37344,7 @@ MOZ_ASSERT
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -41185,7 +41185,7 @@ callee
 (
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -41261,7 +41261,7 @@ dstIndexType
 =
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -41279,7 +41279,7 @@ srcIndexType
 =
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -42882,7 +42882,7 @@ callee
 (
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -44089,7 +44089,7 @@ callee
 (
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -44188,7 +44188,7 @@ table
 =
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -44556,7 +44556,7 @@ table
 =
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -46513,7 +46513,7 @@ typeDef
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -46738,7 +46738,7 @@ structType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -46986,7 +46986,7 @@ structType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -47113,7 +47113,7 @@ structType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -47397,7 +47397,7 @@ arrayType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -47578,7 +47578,7 @@ arrayType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -48945,7 +48945,7 @@ arrayType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -49140,7 +49140,7 @@ arrayType
 *
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -51024,7 +51024,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -51069,7 +51069,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -55346,7 +55346,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -55561,7 +55561,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -55608,7 +55608,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -55659,7 +55659,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -55705,7 +55705,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -55752,7 +55752,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -55799,7 +55799,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -55860,7 +55860,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -55872,7 +55872,7 @@ gcEnabled
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -55928,7 +55928,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -56610,7 +56610,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -59476,7 +59476,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -59565,7 +59565,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -59652,7 +59652,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -59714,7 +59714,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -60181,7 +60181,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -60324,7 +60324,7 @@ if
 (
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -62211,7 +62211,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -62267,7 +62267,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -62279,7 +62279,7 @@ isBuiltinModule
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -62318,7 +62318,7 @@ if
 !
 f
 .
-codeMeta
+moduleEnv
 (
 )
 .
@@ -63132,9 +63132,9 @@ Decoder
 &
 d
 const
-CodeMetadata
+ModuleEnvironment
 &
-codeMeta
+moduleEnv
 const
 FuncCompileInput
 &
@@ -63168,7 +63168,7 @@ for
 optimization
 if
 (
-codeMeta
+moduleEnv
 .
 numMemories
 (
@@ -63179,7 +63179,7 @@ numMemories
 {
 if
 (
-codeMeta
+moduleEnv
 .
 memories
 [
@@ -63201,7 +63201,7 @@ mir
 .
 initMinWasmMemory0Length
 (
-codeMeta
+moduleEnv
 .
 memories
 [
@@ -63220,7 +63220,7 @@ mir
 .
 initMinWasmMemory0Length
 (
-codeMeta
+moduleEnv
 .
 memories
 [
@@ -63242,7 +63242,7 @@ graph
 FunctionCompiler
 f
 (
-codeMeta
+moduleEnv
 d
 func
 locals
@@ -63317,9 +63317,9 @@ wasm
 IonCompileFunctions
 (
 const
-CodeMetadata
+ModuleEnvironment
 &
-codeMeta
+moduleEnv
 const
 CompilerEnvironment
 &
@@ -63390,6 +63390,7 @@ WasmMacroAssembler
 masm
 (
 alloc
+moduleEnv
 )
 ;
 #
@@ -63639,7 +63640,7 @@ if
 DecodeLocalEntriesWithParams
 (
 d
-codeMeta
+moduleEnv
 func
 .
 index
@@ -63702,7 +63703,7 @@ parsed
 .
 if
 (
-codeMeta
+moduleEnv
 .
 branchHintingEnabled
 (
@@ -63710,7 +63711,7 @@ branchHintingEnabled
 &
 &
 !
-codeMeta
+moduleEnv
 .
 branchHints
 .
@@ -63763,7 +63764,7 @@ if
 IonBuildMIR
 (
 d
-codeMeta
+moduleEnv
 func
 locals
 mir
@@ -63896,7 +63897,7 @@ ArgTypeVector
 args
 (
 *
-codeMeta
+moduleEnv
 .
 funcs
 [
@@ -63920,7 +63921,7 @@ CallIndirectId
 :
 forFunc
 (
-codeMeta
+moduleEnv
 func
 .
 index
@@ -64143,9 +64144,9 @@ wasm
 IonDumpFunction
 (
 const
-CodeMetadata
+ModuleEnvironment
 &
-codeMeta
+moduleEnv
 const
 FuncCompileInput
 &
@@ -64209,7 +64210,7 @@ if
 DecodeLocalEntriesWithParams
 (
 d
-codeMeta
+moduleEnv
 func
 .
 index
@@ -64290,7 +64291,7 @@ if
 IonBuildMIR
 (
 d
-codeMeta
+moduleEnv
 func
 locals
 mir

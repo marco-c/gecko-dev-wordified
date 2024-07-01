@@ -309,7 +309,7 @@ code
 (
 )
 .
-codeMeta
+metadata
 (
 )
 .
@@ -1088,7 +1088,7 @@ instance
 )
 -
 >
-codeMeta
+metadata
 (
 )
 .

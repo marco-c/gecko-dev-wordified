@@ -231,7 +231,7 @@ const
 {
 return
 *
-codeMeta_
+moduleEnv_
 .
 funcs
 [
@@ -253,7 +253,7 @@ usesMemory
 const
 {
 return
-codeMeta_
+moduleEnv_
 .
 memories
 .
@@ -276,7 +276,7 @@ memoryIndex
 const
 {
 return
-codeMeta_
+moduleEnv_
 .
 usesSharedMemory
 (
@@ -347,7 +347,7 @@ memoryIndex
 const
 {
 return
-codeMeta_
+moduleEnv_
 .
 memories
 [
@@ -377,7 +377,7 @@ memoryIndex
 const
 {
 return
-codeMeta_
+moduleEnv_
 .
 memories
 [
@@ -407,7 +407,7 @@ memoryIndex
 const
 {
 return
-codeMeta_
+moduleEnv_
 .
 hugeMemoryEnabled
 (
@@ -449,7 +449,7 @@ Instance
 :
 offsetInData
 (
-codeMeta_
+moduleEnv_
 .
 offsetOfMemoryInstanceData
 (
@@ -498,7 +498,7 @@ Instance
 :
 offsetInData
 (
-codeMeta_
+moduleEnv_
 .
 offsetOfMemoryInstanceData
 (
