@@ -3844,14 +3844,6 @@ aTargetGuid
 )
 override
 ;
-void
-MaybeOverrideLayersIdForWheelEvent
-(
-InputData
-&
-aEvent
-)
-;
 bool
 GetAPZTestData
 (
