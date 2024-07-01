@@ -4635,7 +4635,7 @@ ATTR_WIDTH
 )
 -
 >
-GetAnimValue
+GetAnimValueWithZoom
 (
 ctx
 )
@@ -4651,7 +4651,7 @@ ATTR_HEIGHT
 )
 -
 >
-GetAnimValue
+GetAnimValueWithZoom
 (
 ctx
 )
@@ -4683,7 +4683,7 @@ ATTR_WIDTH
 )
 -
 >
-GetAnimValue
+GetAnimValueWithZoom
 (
 aTarget
 )
@@ -4699,7 +4699,7 @@ ATTR_HEIGHT
 )
 -
 >
-GetAnimValue
+GetAnimValueWithZoom
 (
 aTarget
 )
