@@ -3694,9 +3694,6 @@ CSSStartingStyleRule
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
