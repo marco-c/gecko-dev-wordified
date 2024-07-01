@@ -2239,6 +2239,16 @@ if
 not
 use_sanitizer_runtime
 :
+if
+target
+.
+os
+!
+=
+"
+WINNT
+"
+:
 #
 Don
 '
