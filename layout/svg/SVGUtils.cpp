@@ -1826,7 +1826,7 @@ return
 aLength
 -
 >
-GetAnimValueWithZoom
+GetAnimValue
 (
 static_cast
 <
@@ -1877,7 +1877,7 @@ return
 aLength
 -
 >
-GetAnimValueWithZoom
+GetAnimValue
 (
 aNonSVGContext
 )
@@ -1903,7 +1903,7 @@ return
 aLength
 -
 >
-GetAnimValueWithZoom
+GetAnimValue
 (
 aMetrics
 )

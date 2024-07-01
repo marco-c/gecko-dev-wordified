@@ -1515,7 +1515,7 @@ mLengthAttributes
 MARKERWIDTH
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 mCoordCtx
 )
@@ -1524,7 +1524,7 @@ mLengthAttributes
 MARKERHEIGHT
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 mCoordCtx
 )
@@ -1556,7 +1556,7 @@ mLengthAttributes
 MARKERWIDTH
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 mCoordCtx
 )
@@ -1569,7 +1569,7 @@ mLengthAttributes
 MARKERHEIGHT
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 mCoordCtx
 )
@@ -1643,7 +1643,7 @@ mLengthAttributes
 REFX
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 mCoordCtx
 )
@@ -1656,7 +1656,7 @@ mLengthAttributes
 REFY
 ]
 .
-GetAnimValueWithZoom
+GetAnimValue
 (
 mCoordCtx
 )
