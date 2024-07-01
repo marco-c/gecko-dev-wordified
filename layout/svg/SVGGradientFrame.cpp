@@ -3360,7 +3360,7 @@ type
 return
 length
 .
-GetAnimValue
+GetAnimValueWithZoom
 (
 static_cast
 <
@@ -4211,7 +4211,7 @@ type
 return
 length
 .
-GetAnimValue
+GetAnimValueWithZoom
 (
 static_cast
 <
