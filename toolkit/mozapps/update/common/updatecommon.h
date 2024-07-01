@@ -180,6 +180,11 @@ UpdateLog
 (
 )
 ;
+void
+PrintTimestampPrefix
+(
+)
+;
 FILE
 *
 logFP
