@@ -300,9 +300,6 @@ WasmInstanceObject
 namespace
 wasm
 {
-struct
-MetadataTier
-;
 /
 /
 The
@@ -1166,9 +1163,9 @@ linked
 structures
 .
 const
-MetadataTier
+CodeTier
 &
-metadata
+code
 (
 Tier
 t
@@ -1179,7 +1176,7 @@ return
 code_
 -
 >
-metadata
+codeTier
 (
 t
 )
@@ -1230,7 +1227,7 @@ t
 const
 {
 return
-metadata
+code
 (
 t
 )
@@ -1249,7 +1246,7 @@ t
 const
 {
 return
-metadata
+code
 (
 t
 )
@@ -1266,7 +1263,7 @@ funcIndex
 const
 {
 return
-metadata
+code
 (
 Tier
 :
