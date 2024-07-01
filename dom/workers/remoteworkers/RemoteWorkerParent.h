@@ -140,6 +140,9 @@ dom
 class
 RemoteWorkerController
 ;
+class
+RemoteWorkerServiceParent
+;
 /
 *
 *
@@ -224,6 +227,13 @@ void
 MaybeSendDelete
 (
 )
+;
+RemoteWorkerServiceParent
+*
+Manager
+(
+)
+const
 ;
 private
 :

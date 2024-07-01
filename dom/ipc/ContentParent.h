@@ -617,6 +617,9 @@ class
 RemoteWorkerManager
 ;
 class
+RemoteWorkerServiceParent
+;
+class
 ThreadsafeContentParentHandle
 ;
 struct
@@ -8725,6 +8728,11 @@ AssertAlive
 (
 )
 ;
+void
+StartRemoteWorkerService
+(
+)
+;
 private
 :
 /
@@ -9300,6 +9308,12 @@ RefPtr
 PProcessHangMonitorParent
 >
 mHangMonitorActor
+;
+RefPtr
+<
+RemoteWorkerServiceParent
+>
+mRemoteWorkerServiceActor
 ;
 UniquePtr
 <
