@@ -573,10 +573,6 @@ f
 fallbackTitle
 :
 "
-http
-:
-/
-/
 example
 .
 com

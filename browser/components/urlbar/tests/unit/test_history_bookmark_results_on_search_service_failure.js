@@ -288,10 +288,6 @@ OTHER_LOCAL
 fallbackTitle
 :
 "
-http
-:
-/
-/
 cat
 /
 "

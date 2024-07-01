@@ -1248,10 +1248,6 @@ origin
 /
 fallbackTitle
 :
-http
-:
-/
-/
 {
 origin
 }
@@ -1390,10 +1386,6 @@ origin
 /
 fallbackTitle
 :
-http
-:
-/
-/
 {
 origin
 }
@@ -1523,10 +1515,6 @@ example
 fallbackTitle
 :
 "
-http
-:
-/
-/
 example
 /
 "

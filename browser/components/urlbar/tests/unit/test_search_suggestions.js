@@ -4855,10 +4855,6 @@ SEARCH_STRING
 /
 fallbackTitle
 :
-http
-:
-/
-/
 {
 SEARCH_STRING
 }
@@ -5097,10 +5093,6 @@ SEARCH_STRING
 /
 fallbackTitle
 :
-http
-:
-/
-/
 {
 SEARCH_STRING
 }
@@ -5186,10 +5178,6 @@ somethingelse
 fallbackTitle
 :
 "
-http
-:
-/
-/
 somethingelse
 /
 "
@@ -5475,10 +5463,6 @@ http
 fallbackTitle
 :
 "
-http
-:
-/
-/
 [
 2001
 :
@@ -5554,10 +5538,6 @@ test
 fallbackTitle
 :
 "
-http
-:
-/
-/
 user
 :
 pass
@@ -5778,10 +5758,6 @@ RESULT_SOURCE
 OTHER_LOCAL
 fallbackTitle
 :
-http
-:
-/
-/
 {
 query
 }
