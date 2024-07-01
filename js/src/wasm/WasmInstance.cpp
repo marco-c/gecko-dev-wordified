@@ -25344,10 +25344,11 @@ ModuleSegment
 &
 segment
 =
-*
 codeBlock
 .
-segment
+moduleSegment
+(
+)
 ;
 MOZ_ASSERT
 (

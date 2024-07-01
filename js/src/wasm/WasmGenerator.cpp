@@ -6953,11 +6953,12 @@ init
 mode
 (
 )
-*
 codeBlock
 -
 >
-segment
+moduleSegment
+(
+)
 codeBlock
 -
 >
