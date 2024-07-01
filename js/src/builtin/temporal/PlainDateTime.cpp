@@ -4616,7 +4616,7 @@ Step
 auto
 adjustedDate
 =
-one
+two
 .
 date
 ;
@@ -4654,7 +4654,7 @@ month
 adjustedDate
 .
 day
--
++
 timeSign
 )
 ;
@@ -4710,7 +4710,9 @@ auto
 &
 date1
 =
-adjustedDate
+one
+.
+date
 ;
 /
 /
@@ -4722,9 +4724,7 @@ auto
 &
 date2
 =
-two
-.
-date
+adjustedDate
 ;
 /
 /
