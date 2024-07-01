@@ -171,7 +171,7 @@ UniquePtr
 h
 "
 class
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 ;
 namespace
 mozilla
@@ -541,7 +541,7 @@ aOwner
 nsIPrincipal
 &
 aSubjectPrincipal
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 &
 aRequest
 )

@@ -239,7 +239,7 @@ File
 h
 "
 class
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 ;
 class
 nsINode
@@ -2845,9 +2845,9 @@ GetWindowContext
 )
 const
 ;
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 *
-GetAsyncGetClipboardData
+GetClipboardDataSnapshot
 (
 )
 const
@@ -3344,7 +3344,7 @@ mClipboardType
 /
 /
 The
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 that
 is
 used
@@ -3375,9 +3375,9 @@ bug
 .
 nsCOMPtr
 <
-nsIAsyncGetClipboardData
+nsIClipboardDataSnapshot
 >
-mAsyncGetClipboardData
+mClipboardDataSnapshot
 ;
 /
 /

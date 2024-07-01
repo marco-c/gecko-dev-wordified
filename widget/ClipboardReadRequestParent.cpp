@@ -542,7 +542,7 @@ if
 (
 NS_FAILED
 (
-mAsyncGetClipboardData
+mClipboardDataSnapshot
 -
 >
 GetValid
@@ -684,7 +684,7 @@ NS_FAILED
 self
 -
 >
-mAsyncGetClipboardData
+mClipboardDataSnapshot
 -
 >
 GetValid
@@ -759,7 +759,7 @@ ipcTransferableData
 nsresult
 rv
 =
-mAsyncGetClipboardData
+mClipboardDataSnapshot
 -
 >
 GetData
