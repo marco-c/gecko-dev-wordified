@@ -1539,6 +1539,20 @@ os
 macosx
 "
     
+is_linux
+=
+worker
+[
+"
+os
+"
+]
+=
+=
+"
+linux
+"
+    
 is_bitbar
 =
 worker
@@ -1865,6 +1879,8 @@ content
     
 #
 Mac
+and
+Linux
 workers
 are
 still
@@ -1876,10 +1892,10 @@ based
 Mercurial
 not
 compatible
-with
-the
     
 #
+with
+the
 in
 -
 tree
@@ -1901,6 +1917,9 @@ checkout
 and
 not
 is_mac
+and
+not
+is_linux
 :
         
 worker
