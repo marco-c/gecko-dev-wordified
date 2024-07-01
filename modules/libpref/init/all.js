@@ -47407,7 +47407,7 @@ improved_text_menu
 .
 enabled
 "
-false
+true
 )
 ;
 /
@@ -47617,7 +47617,7 @@ colors_menu
 .
 enabled
 "
-false
+true
 )
 ;
 /
