@@ -14844,6 +14844,17 @@ RawJSONObject
 >
 (
 )
+|
+|
+obj
+-
+>
+canUnwrapAs
+<
+RawJSONObject
+>
+(
+)
 )
 ;
 return
