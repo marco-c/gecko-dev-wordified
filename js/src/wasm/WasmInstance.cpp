@@ -7331,7 +7331,7 @@ codeBlock
 codeRanges
 ;
 const
-Uint32Vector
+FuncToCodeRangeMap
 &
 funcToCodeRange
 =
