@@ -2860,6 +2860,8 @@ dom
 Element
 *
 aChild
+int32_t
+aNameSpaceID
 nsAtom
 *
 aAttribute
@@ -2878,6 +2880,8 @@ dom
 Element
 *
 aElement
+int32_t
+aNameSpaceID
 nsAtom
 *
 aAttribute
