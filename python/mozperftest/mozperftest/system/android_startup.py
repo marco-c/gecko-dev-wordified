@@ -611,7 +611,12 @@ values
 shouldAlert
 "
 :
-True
+data
+[
+"
+shouldAlert
+"
+]
         
 }
     
@@ -1062,6 +1067,29 @@ metadata
 )
     
 def
+should_alert
+(
+self
+key_name
+)
+:
+        
+if
+MEASUREMENT_DATA
+[
+2
+]
+in
+key_name
+:
+            
+return
+False
+        
+return
+True
+    
+def
 add_to_metadata
 (
 self
@@ -1170,7 +1198,12 @@ key
 shouldAlert
 "
 :
-True
+self
+.
+should_alert
+(
+key
+)
                             
 }
                         
