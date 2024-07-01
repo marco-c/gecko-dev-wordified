@@ -5853,6 +5853,13 @@ h
 "
 aom
 /
+aomcx
+.
+h
+"
+"
+aom
+/
 aom_decoder
 .
 h
