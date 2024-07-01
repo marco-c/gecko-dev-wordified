@@ -847,7 +847,7 @@ BigUint64
 )
 )
 \
-REAL_IF_NIGHTLY
+REAL
 (
 Float16Array
 TYPED_ARRAY_CLASP
