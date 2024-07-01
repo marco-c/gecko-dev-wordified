@@ -19073,6 +19073,57 @@ CommandArgument
 "
 -
 -
+upstream
+-
+repo
+"
+    
+default
+=
+"
+canonical
+/
+firefox
+-
+snap
+"
+    
+required
+=
+False
+    
+help
+=
+"
+Name
+of
+the
+firefox
+-
+snap
+github
+repo
+to
+use
+(
+default
+:
+canonical
+/
+firefox
+-
+snap
+)
+"
+)
+CommandArgument
+(
+    
+"
+-
+-
+upstream
+-
 branch
 "
     
@@ -19363,7 +19414,11 @@ snap_name
 =
 None
     
-branch
+upstream_repo
+=
+None
+    
+upstream_branch
 =
 None
     
@@ -20099,9 +20154,13 @@ appname
 =
 snap_name
         
+reponame
+=
+upstream_repo
+        
 branchname
 =
-branch
+upstream_branch
         
 arch
 =

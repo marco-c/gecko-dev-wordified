@@ -109,11 +109,8 @@ github
 .
 com
 /
-canonical
-/
-firefox
--
-snap
+{
+}
 /
 raw
 /
@@ -179,6 +176,16 @@ snapcraft
     
 appname
     
+reponame
+=
+"
+canonical
+/
+firefox
+-
+snap
+"
+    
 branchname
 =
 "
@@ -238,6 +245,7 @@ UPSTREAM
 .
 format
 (
+reponame
 branchname
 )
     
