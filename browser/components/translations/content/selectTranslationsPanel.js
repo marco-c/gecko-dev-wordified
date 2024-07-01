@@ -13003,7 +13003,6 @@ docLangTag
 )
 ;
 }
-else
 if
 (
 selectedToLanguage
