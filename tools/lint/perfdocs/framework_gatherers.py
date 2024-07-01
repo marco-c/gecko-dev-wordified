@@ -1695,7 +1695,16 @@ source
 "
                     
 +
+pathlib
+.
+Path
+(
 manifest_path
+)
+.
+as_posix
+(
+)
                     
 +
 "
