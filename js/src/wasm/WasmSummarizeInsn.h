@@ -245,7 +245,7 @@ by
 ModuleGenerator
 :
 :
-finishCodeTier
+finishCodeBlock
 to
 audit
 wasm

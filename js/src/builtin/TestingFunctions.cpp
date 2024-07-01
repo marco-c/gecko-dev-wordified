@@ -11713,9 +11713,9 @@ js
 wasm
 :
 :
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 inst
 .
@@ -11766,7 +11766,7 @@ FuncExport
 &
 func
 =
-codeTier
+codeBlock
 .
 lookupFuncExport
 (
@@ -11784,7 +11784,7 @@ CodeRange
 &
 codeRange
 =
-codeTier
+codeBlock
 .
 codeRange
 (

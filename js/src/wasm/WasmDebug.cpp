@@ -499,7 +499,7 @@ CallSite
 SlowCallSiteSearchByOffset
 (
 const
-CodeTier
+CodeBlock
 &
 code
 uint32_t

@@ -655,7 +655,7 @@ linkData_
 (
 nullptr
 )
-codeTier_
+codeBlock_
 (
 nullptr
 )
@@ -1153,14 +1153,14 @@ return
 false
 ;
 }
-codeTier_
+codeBlock_
 =
 js
 :
 :
 MakeUnique
 <
-CodeTier
+CodeBlock
 >
 (
 tier
@@ -1171,7 +1171,7 @@ tier
 if
 (
 !
-codeTier_
+codeBlock_
 )
 {
 return
@@ -1208,7 +1208,7 @@ finished
 if
 (
 !
-codeTier_
+codeBlock_
 -
 >
 funcToCodeRange
@@ -1355,7 +1355,7 @@ MaxCodeBytesPerProcess
 (
 void
 )
-codeTier_
+codeBlock_
 -
 >
 codeRanges
@@ -1381,7 +1381,7 @@ ByteCodesPerCallSite
 (
 void
 )
-codeTier_
+codeBlock_
 -
 >
 callSites
@@ -1402,7 +1402,7 @@ ByteCodesPerOOBTrap
 (
 void
 )
-codeTier_
+codeBlock_
 -
 >
 trapSites
@@ -1488,7 +1488,7 @@ metadata
 if
 (
 !
-codeTier_
+codeBlock_
 -
 >
 funcImports
@@ -1525,7 +1525,7 @@ i
 +
 )
 {
-codeTier_
+codeBlock_
 -
 >
 funcImports
@@ -1654,7 +1654,7 @@ exportedFuncCount
 if
 (
 !
-codeTier_
+codeBlock_
 -
 >
 funcExports
@@ -1718,7 +1718,7 @@ isExported
 continue
 ;
 }
-codeTier_
+codeBlock_
 -
 >
 funcExports
@@ -1963,7 +1963,7 @@ GenerateImportFunctions
 (
 *
 codeMeta_
-codeTier_
+codeBlock_
 -
 >
 funcImports
@@ -2011,7 +2011,7 @@ funcIndex
 const
 {
 return
-codeTier_
+codeBlock_
 -
 >
 funcToCodeRange
@@ -2049,12 +2049,12 @@ CodeRange
 &
 cr
 =
-codeTier_
+codeBlock_
 -
 >
 codeRanges
 [
-codeTier_
+codeBlock_
 -
 >
 funcToCodeRange
@@ -2302,7 +2302,7 @@ for
 ;
 lastPatchedCallSite_
 <
-codeTier_
+codeBlock_
 -
 >
 callSites
@@ -2321,7 +2321,7 @@ CallSite
 &
 callSite
 =
-codeTier_
+codeBlock_
 -
 >
 callSites
@@ -2646,7 +2646,7 @@ false
 if
 (
 !
-codeTier_
+codeBlock_
 -
 >
 codeRanges
@@ -2751,7 +2751,7 @@ Function
 :
 MOZ_ASSERT
 (
-codeTier_
+codeBlock_
 -
 >
 funcToCodeRange
@@ -2767,7 +2767,7 @@ funcIndex
 BAD_CODE_RANGE
 )
 ;
-codeTier_
+codeBlock_
 -
 >
 funcToCodeRange
@@ -2789,7 +2789,7 @@ CodeRange
 :
 InterpEntry
 :
-codeTier_
+codeBlock_
 -
 >
 lookupFuncExport
@@ -2841,7 +2841,7 @@ CodeRange
 :
 ImportJitExit
 :
-codeTier_
+codeBlock_
 -
 >
 funcImports
@@ -2870,7 +2870,7 @@ CodeRange
 :
 ImportInterpExit
 :
-codeTier_
+codeBlock_
 -
 >
 funcImports
@@ -3571,7 +3571,7 @@ if
 AppendForEach
 (
 &
-codeTier_
+codeBlock_
 -
 >
 codeRanges
@@ -3615,7 +3615,7 @@ if
 AppendForEach
 (
 &
-codeTier_
+codeBlock_
 -
 >
 callSites
@@ -3690,7 +3690,7 @@ if
 AppendForEach
 (
 &
-codeTier_
+codeBlock_
 -
 >
 trapSites
@@ -3892,7 +3892,7 @@ offsetInModule
 if
 (
 !
-codeTier_
+codeBlock_
 -
 >
 stackMaps
@@ -3971,7 +3971,7 @@ if
 AppendForEach
 (
 &
-codeTier_
+codeBlock_
 -
 >
 codeRangeUnwindInfos
@@ -4061,7 +4061,7 @@ return
 AppendForEach
 (
 &
-codeTier_
+codeBlock_
 -
 >
 tryNotes
@@ -5195,7 +5195,7 @@ funcUncheckedCallEntry
 )
 ;
 }
-codeTier_
+codeBlock_
 -
 >
 debugTrapOffset
@@ -5348,7 +5348,7 @@ at
 GC
 time
 .
-codeTier_
+codeBlock_
 -
 >
 stackMaps
@@ -5376,7 +5376,7 @@ std
 :
 sort
 (
-codeTier_
+codeBlock_
 -
 >
 tryNotes
@@ -5384,7 +5384,7 @@ tryNotes
 begin
 (
 )
-codeTier_
+codeBlock_
 -
 >
 tryNotes
@@ -5435,7 +5435,7 @@ i
 ;
 i
 <
-codeTier_
+codeBlock_
 -
 >
 stackMaps
@@ -5457,7 +5457,7 @@ Maplet
 &
 maplet
 =
-codeTier_
+codeBlock_
 -
 >
 stackMaps
@@ -5513,7 +5513,7 @@ CodeRange
 &
 codeRange
 :
-codeTier_
+codeBlock_
 -
 >
 codeRanges
@@ -5551,7 +5551,7 @@ CallSite
 &
 callSite
 :
-codeTier_
+codeBlock_
 -
 >
 callSites
@@ -5603,7 +5603,7 @@ TrapSite
 &
 trapSite
 :
-codeTier_
+codeBlock_
 -
 >
 trapSites
@@ -5641,7 +5641,7 @@ CodeRangeUnwindInfo
 &
 info
 :
-codeTier_
+codeBlock_
 -
 >
 codeRangeUnwindInfos
@@ -5707,7 +5707,7 @@ TryNote
 &
 tryNote
 :
-codeTier_
+codeBlock_
 -
 >
 tryNotes
@@ -5774,7 +5774,7 @@ down
 to
 size
 .
-codeTier_
+codeBlock_
 -
 >
 funcToCodeRange
@@ -5783,7 +5783,7 @@ shrinkStorageToFit
 (
 )
 ;
-codeTier_
+codeBlock_
 -
 >
 codeRanges
@@ -5792,7 +5792,7 @@ shrinkStorageToFit
 (
 )
 ;
-codeTier_
+codeBlock_
 -
 >
 callSites
@@ -5801,7 +5801,7 @@ shrinkStorageToFit
 (
 )
 ;
-codeTier_
+codeBlock_
 -
 >
 trapSites
@@ -5810,7 +5810,7 @@ shrinkStorageToFit
 (
 )
 ;
-codeTier_
+codeBlock_
 -
 >
 tryNotes
@@ -5833,7 +5833,7 @@ Limit
 )
 )
 {
-codeTier_
+codeBlock_
 -
 >
 trapSites
@@ -5850,11 +5850,11 @@ return
 true
 ;
 }
-UniqueCodeTier
+UniqueCodeBlock
 ModuleGenerator
 :
 :
-finishCodeTier
+finishCodeBlock
 (
 )
 {
@@ -5891,7 +5891,7 @@ for
 uint32_t
 codeRangeIndex
 :
-codeTier_
+codeBlock_
 -
 >
 funcToCodeRange
@@ -5956,11 +5956,11 @@ GenerateStubs
 (
 *
 codeMeta_
-codeTier_
+codeBlock_
 -
 >
 funcImports
-codeTier_
+codeBlock_
 -
 >
 funcExports
@@ -6056,7 +6056,7 @@ return
 nullptr
 ;
 }
-codeTier_
+codeBlock_
 -
 >
 stackMaps
@@ -6102,7 +6102,7 @@ i
 ;
 i
 <
-codeTier_
+codeBlock_
 -
 >
 stackMaps
@@ -6120,7 +6120,7 @@ MOZ_ASSERT
 (
 IsPlausibleStackMapKey
 (
-codeTier_
+codeBlock_
 -
 >
 stackMaps
@@ -6267,7 +6267,7 @@ TrapSiteVector
 &
 trapSites
 =
-codeTier_
+codeBlock_
 -
 >
 trapSites
@@ -6533,7 +6533,7 @@ insn
 }
 #
 endif
-codeTier_
+codeBlock_
 -
 >
 segment
@@ -6552,7 +6552,7 @@ std
 :
 move
 (
-codeTier_
+codeBlock_
 )
 ;
 }
@@ -6923,17 +6923,17 @@ CompileMode
 Tier1
 )
 ;
-UniqueCodeTier
-codeTier
+UniqueCodeBlock
+codeBlock
 =
-finishCodeTier
+finishCodeBlock
 (
 )
 ;
 if
 (
 !
-codeTier
+codeBlock
 )
 {
 return
@@ -6954,11 +6954,11 @@ mode
 (
 )
 *
-codeTier
+codeBlock
 -
 >
 segment
-codeTier
+codeBlock
 -
 >
 codeRanges
@@ -7318,7 +7318,7 @@ std
 :
 move
 (
-codeTier
+codeBlock
 )
 std
 :
@@ -7785,17 +7785,17 @@ return
 false
 ;
 }
-UniqueCodeTier
-codeTier
+UniqueCodeBlock
+codeBlock
 =
-finishCodeTier
+finishCodeBlock
 (
 )
 ;
 if
 (
 !
-codeTier
+codeBlock
 )
 {
 return
@@ -7858,7 +7858,7 @@ std
 :
 move
 (
-codeTier
+codeBlock
 )
 )
 ;

@@ -1163,7 +1163,7 @@ linked
 structures
 .
 const
-CodeTier
+CodeBlock
 &
 code
 (
@@ -1176,7 +1176,7 @@ return
 code_
 -
 >
-codeTier
+codeBlock
 (
 t
 )
