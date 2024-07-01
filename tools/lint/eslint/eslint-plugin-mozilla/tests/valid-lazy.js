@@ -468,9 +468,7 @@ lazy
 gets
 /
 /
-re
--
-declared
+redeclared
 it
 valid
 :
