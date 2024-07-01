@@ -4233,7 +4233,7 @@ state
 .
 Initialized
 by
-replace_init
+phc_init
 (
 )
 and
@@ -4244,7 +4244,7 @@ changed
 after
 that
 .
-replace_init
+phc_init
 (
 )
 runs
@@ -9610,7 +9610,7 @@ LogAlloc
 '
 s
 |
-replace_init
+phc_init
 |
 for
 /
