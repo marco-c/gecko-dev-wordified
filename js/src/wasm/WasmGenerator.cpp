@@ -6017,7 +6017,7 @@ return
 nullptr
 ;
 }
-UniqueModuleSegment
+SharedModuleSegment
 segment
 =
 ModuleSegment
