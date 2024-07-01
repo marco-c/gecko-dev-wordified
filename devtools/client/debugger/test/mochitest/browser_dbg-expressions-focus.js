@@ -327,8 +327,13 @@ expression
 input
 -
 container
-.
-focused
+:
+has
+(
+input
+:
+focus
+)
 "
 )
 ;
@@ -343,8 +348,8 @@ input
 container
 with
 the
+input
 focused
-class
 "
 )
 ;
