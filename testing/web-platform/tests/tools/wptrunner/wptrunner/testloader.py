@@ -3839,16 +3839,21 @@ groups
 of
 the
 same
+subsuite
 test
 type
 together
 to
-minimize
                 
 #
+minimize
 browser
 restarts
 .
+                
+group
+.
+subsuite
                 
 group
 .
