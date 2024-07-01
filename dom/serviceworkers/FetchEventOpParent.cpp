@@ -226,6 +226,17 @@ include
 "
 mozilla
 /
+dom
+/
+RemoteWorkerServiceParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 BackgroundParent
