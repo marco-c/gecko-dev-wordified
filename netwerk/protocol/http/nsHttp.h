@@ -3962,6 +3962,13 @@ uint32_t
 aCaps
 )
 ;
+nsLiteralCString
+HttpVersionToTelemetryLabel
+(
+HttpVersion
+version
+)
+;
 }
 /
 /
