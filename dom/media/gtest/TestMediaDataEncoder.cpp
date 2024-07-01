@@ -341,6 +341,9 @@ H264Specific
 kH264SpecificAnnexB
 (
 H264_PROFILE_BASE
+H264_LEVEL
+:
+:
 H264_LEVEL_3
 H264BitStreamFormat
 :
@@ -353,6 +356,9 @@ H264Specific
 kH264SpecificAVCC
 (
 H264_PROFILE_BASE
+H264_LEVEL
+:
+:
 H264_LEVEL_3
 H264BitStreamFormat
 :
