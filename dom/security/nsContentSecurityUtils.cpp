@@ -7955,8 +7955,6 @@ GetInnerWindowID
 bool
 privateWindow
 =
-!
-!
 loadInfo
 -
 >
@@ -7964,7 +7962,9 @@ GetOriginAttributes
 (
 )
 .
-mPrivateBrowsingId
+IsPrivateBrowsing
+(
+)
 ;
 AutoTArray
 <

@@ -1797,9 +1797,9 @@ if
 (
 aOriginAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 aIsAllowListed
@@ -2220,9 +2220,9 @@ OriginAttributesRef
 (
 )
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 mEntriesPrivateBrowsing

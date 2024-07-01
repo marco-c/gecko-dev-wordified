@@ -7782,9 +7782,9 @@ isPrivate
 =
 attrs
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 ;
 nsCOMPtr
 <

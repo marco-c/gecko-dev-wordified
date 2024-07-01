@@ -10881,14 +10881,9 @@ NO_PERMANENT_STORAGE
 |
 originAttributes
 .
-mPrivateBrowsingId
-!
-=
-OriginAttributes
+IsPrivateBrowsing
 (
 )
-.
-mPrivateBrowsingId
 ;
 sharedState
 =

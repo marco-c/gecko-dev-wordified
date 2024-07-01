@@ -1092,9 +1092,9 @@ isolateByPartitionKey
 =
 originAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 ?
 StaticPrefs
 :

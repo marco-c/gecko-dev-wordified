@@ -35972,12 +35972,9 @@ mLoadInfo
 .
 mOriginAttributes
 .
-mPrivateBrowsingId
->
-nsIScriptSecurityManager
-:
-:
-DEFAULT_PRIVATE_BROWSING_ID
+IsPrivateBrowsing
+(
+)
 aTarget
 mLoadInfo
 .

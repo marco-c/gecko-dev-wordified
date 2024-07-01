@@ -2950,9 +2950,9 @@ if
 (
 originAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 /
@@ -7835,9 +7835,9 @@ if
 (
 originAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 /

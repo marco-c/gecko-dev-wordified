@@ -757,10 +757,9 @@ attrs
 (
 )
 .
-mPrivateBrowsingId
-!
-=
-0
+IsPrivateBrowsing
+(
+)
 ;
 }
 case
@@ -801,10 +800,9 @@ attrs
 (
 )
 .
-mPrivateBrowsingId
-!
-=
-0
+IsPrivateBrowsing
+(
+)
 ;
 }
 default

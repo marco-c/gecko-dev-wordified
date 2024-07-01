@@ -1503,9 +1503,9 @@ isPrivateBrowsing
 "
 attrs
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 ;
 aWriter

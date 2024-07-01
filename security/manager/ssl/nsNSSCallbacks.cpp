@@ -6936,8 +6936,6 @@ msg
 SSL
 "
 _ns
-!
-!
 infoObject
 -
 >
@@ -6945,7 +6943,9 @@ GetOriginAttributes
 (
 )
 .
-mPrivateBrowsingId
+IsPrivateBrowsing
+(
+)
 true
 /
 *

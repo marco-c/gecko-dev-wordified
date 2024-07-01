@@ -34195,10 +34195,9 @@ attrs
 (
 )
 .
-mPrivateBrowsingId
-!
-=
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 QM_TRY_UNWRAP
@@ -34232,10 +34231,9 @@ attrs
 (
 )
 .
-mPrivateBrowsingId
-!
-=
-0
+IsPrivateBrowsing
+(
+)
 ;
 return
 principalMetadata

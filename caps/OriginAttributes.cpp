@@ -2556,11 +2556,11 @@ false
 ;
 }
 return
-!
-!
 attrs
 .
-mPrivateBrowsingId
+IsPrivateBrowsing
+(
+)
 ;
 }
 /

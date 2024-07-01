@@ -2505,9 +2505,9 @@ if
 (
 aOriginAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 return

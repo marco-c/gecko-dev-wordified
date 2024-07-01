@@ -17398,9 +17398,9 @@ if
 (
 originAttributes
 .
-mPrivateBrowsingId
->
-0
+IsPrivateBrowsing
+(
+)
 )
 {
 ci

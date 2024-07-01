@@ -10059,8 +10059,6 @@ WindowID
 }
 mPrivateBrowsing
 =
-!
-!
 aPrincipal
 -
 >
@@ -10068,7 +10066,9 @@ OriginAttributesRef
 (
 )
 .
-mPrivateBrowsingId
+IsPrivateBrowsing
+(
+)
 ;
 mIsChromeContext
 =

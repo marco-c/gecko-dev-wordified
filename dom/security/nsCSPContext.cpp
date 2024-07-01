@@ -5206,8 +5206,6 @@ InnerWindowID
 ;
 privateWindow
 =
-!
-!
 doc
 -
 >
@@ -5220,7 +5218,9 @@ OriginAttributesRef
 (
 )
 .
-mPrivateBrowsingId
+IsPrivateBrowsing
+(
+)
 ;
 }
 mQueueUpMessages
@@ -5509,8 +5509,6 @@ doc
 {
 privateWindow
 =
-!
-!
 doc
 -
 >
@@ -5523,7 +5521,9 @@ OriginAttributesRef
 (
 )
 .
-mPrivateBrowsingId
+IsPrivateBrowsing
+(
+)
 ;
 }
 CSP_LogLocalizedStr
