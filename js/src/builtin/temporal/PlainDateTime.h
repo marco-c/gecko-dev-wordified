@@ -1122,7 +1122,9 @@ result
 *
 DifferencePlainDateTimeWithRounding
 (
-plainDate1
+y1
+mon1
+d1
 h1
 min1
 s1
@@ -1186,7 +1188,9 @@ result
 *
 DifferencePlainDateTimeWithRounding
 (
-plainDate1
+y1
+mon1
+d1
 h1
 min1
 s1
