@@ -5515,14 +5515,6 @@ if
 generator
 -
 >
-isCompleted
-(
-)
-|
-|
-generator
--
->
 isSuspendedStart
 (
 )
