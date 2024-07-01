@@ -242,7 +242,7 @@ include
 "
 wasm
 /
-WasmModule
+WasmMetadata
 .
 h
 "
@@ -251,7 +251,7 @@ include
 "
 wasm
 /
-WasmValidate
+WasmModule
 .
 h
 "
@@ -268,6 +268,12 @@ js
 namespace
 wasm
 {
+using
+mozilla
+:
+:
+DebugOnly
+;
 struct
 CompileTask
 ;

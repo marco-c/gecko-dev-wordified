@@ -200,7 +200,7 @@ include
 "
 wasm
 /
-WasmValidate
+WasmMetadata
 .
 h
 "
