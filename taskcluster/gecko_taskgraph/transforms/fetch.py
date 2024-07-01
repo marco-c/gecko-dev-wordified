@@ -1082,9 +1082,19 @@ in
 tree
 "
 :
+job
+.
+get
+(
+"
+docker
+-
+image
+"
 "
 fetch
 "
+)
 }
                 
 "
@@ -2844,6 +2854,18 @@ artifact_name
 artifact_name
         
 "
+docker
+-
+image
+"
+:
+"
+fetch
+-
+more
+"
+        
+"
 digest_data
 "
 :
@@ -3059,6 +3081,18 @@ artifact_name
 "
 :
 artifact_name
+        
+"
+docker
+-
+image
+"
+:
+"
+fetch
+-
+more
+"
         
 "
 digest_data
