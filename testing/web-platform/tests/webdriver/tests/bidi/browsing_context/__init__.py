@@ -56,6 +56,10 @@ user_context
 "
 default
 "
+    
+original_opener
+=
+None
 )
 :
     
@@ -321,6 +325,17 @@ userContext
 =
 =
 user_context
+    
+assert
+info
+[
+"
+originalOpener
+"
+]
+=
+=
+original_opener
 async
 def
 assert_document_status
