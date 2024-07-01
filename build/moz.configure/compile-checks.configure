@@ -2790,14 +2790,6 @@ host_cxxflags
 =
 [
 ]
-cmflags
-=
-[
-]
-cmmflags
-=
-[
-]
 )
 #
 Tests
