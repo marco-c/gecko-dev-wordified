@@ -1395,14 +1395,16 @@ summarizer
 run
 (
 {
-data
+args
 :
+[
 "
 This
 gets
 echoed
 .
 "
+]
 }
 )
 ;
