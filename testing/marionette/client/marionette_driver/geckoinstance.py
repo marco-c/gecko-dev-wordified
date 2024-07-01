@@ -392,6 +392,24 @@ enabled
 :
 False
         
+"
+browser
+.
+newtabpage
+.
+activity
+-
+stream
+.
+newtabWallpapers
+.
+v2
+.
+enabled
+"
+:
+False
+        
 #
 Don
 '
