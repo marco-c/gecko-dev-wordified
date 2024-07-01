@@ -146,12 +146,11 @@ static
 void
 StealPointerEvent
 (
-const
 mozilla
 :
 :
-WidgetPointerEvent
-&
+WidgetGUIEvent
+*
 aEvent
 )
 ;
