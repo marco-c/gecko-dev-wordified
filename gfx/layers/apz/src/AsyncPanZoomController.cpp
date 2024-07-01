@@ -39440,6 +39440,17 @@ GetOverscrollBehavior
 )
 )
 ;
+mScrollMetadata
+.
+SetOverflow
+(
+aScrollMetadata
+.
+GetOverflow
+(
+)
+)
+;
 }
 bool
 instantScrollMayTriggerTransform
