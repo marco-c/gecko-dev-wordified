@@ -114,7 +114,7 @@ testWindowGetAll
 )
 {
 let
-raisedWin
+secondWin
 =
 Services
 .
@@ -135,7 +135,6 @@ dialog
 =
 no
 all
-alwaysRaised
 "
 null
 )
@@ -160,7 +159,7 @@ subject
 subject
 =
 =
-raisedWin
+secondWin
 )
 ;
 let
@@ -239,7 +238,7 @@ test
 .
 assertEq
 (
-true
+false
 wins
 [
 1
@@ -248,8 +247,9 @@ wins
 alwaysOnTop
 "
 Expect
-first
+second
 window
+not
 to
 be
 always
@@ -558,7 +558,7 @@ BrowserTestUtils
 .
 closeWindow
 (
-raisedWin
+secondWin
 )
 ;
 }
@@ -1363,7 +1363,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 realWin
 .

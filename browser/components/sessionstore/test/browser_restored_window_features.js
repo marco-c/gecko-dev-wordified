@@ -503,7 +503,6 @@ all
 dialog
 =
 no
-alwayslowered
 centerscreen
 "
 barprops
@@ -511,12 +510,6 @@ barprops
 ALL_BARPROPS
 chromeFlags
 :
-Ci
-.
-nsIWebBrowserChrome
-.
-CHROME_WINDOW_LOWERED
-|
 Ci
 .
 nsIWebBrowserChrome
@@ -551,7 +544,6 @@ all
 dialog
 =
 no
-alwaysraised
 dependent
 "
 barprops
@@ -559,12 +551,6 @@ barprops
 ALL_BARPROPS
 chromeFlags
 :
-Ci
-.
-nsIWebBrowserChrome
-.
-CHROME_WINDOW_RAISED
-|
 Ci
 .
 nsIWebBrowserChrome
