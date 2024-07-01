@@ -939,7 +939,10 @@ exists
 Implementors
 outside
 of
-icu_calendar
+icu
+:
+:
+calendar
 should
 return
 None

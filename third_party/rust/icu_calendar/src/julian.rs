@@ -442,6 +442,7 @@ Date
 DateDuration
 DateDurationUnit
 DateTime
+Time
 }
 ;
 use
@@ -731,6 +732,12 @@ CalendarArithmetic
 for
 Julian
 {
+type
+YearInfo
+=
+(
+)
+;
 fn
 month_days
 (
@@ -740,6 +747,10 @@ i32
 month
 :
 u8
+_data
+:
+(
+)
 )
 -
 >
@@ -766,6 +777,8 @@ Self
 is_leap_year
 (
 year
+(
+)
 )
 =
 >
@@ -802,6 +815,10 @@ months_for_every_year
 _
 :
 i32
+_data
+:
+(
+)
 )
 -
 >
@@ -815,6 +832,10 @@ is_leap_year
 year
 :
 i32
+_data
+:
+(
+)
 )
 -
 >
@@ -837,6 +858,10 @@ last_month_day_in_year
 _year
 :
 i32
+_data
+:
+(
+)
 )
 -
 >
@@ -856,6 +881,10 @@ days_in_provided_year
 year
 :
 i32
+_data
+:
+(
+)
 )
 -
 >
@@ -868,6 +897,8 @@ Self
 is_leap_year
 (
 year
+(
+)
 )
 {
 366
@@ -1254,6 +1285,9 @@ date
 offset_date
 (
 offset
+&
+(
+)
 )
 ;
 }
@@ -1395,6 +1429,8 @@ date
 0
 .
 year
+(
+)
 )
 }
 /
@@ -1734,6 +1770,8 @@ Julian
 is_leap_year
 (
 year
+(
+)
 )
 {
 366
@@ -2312,9 +2350,6 @@ day
 )
 ?
 time
-:
-types
-:
 :
 Time
 :
@@ -4164,6 +4199,8 @@ Julian
 is_leap_year
 (
 4
+(
+)
 )
 )
 ;
@@ -4176,6 +4213,8 @@ Julian
 is_leap_year
 (
 0
+(
+)
 )
 )
 ;
@@ -4189,6 +4228,8 @@ is_leap_year
 (
 -
 4
+(
+)
 )
 )
 ;

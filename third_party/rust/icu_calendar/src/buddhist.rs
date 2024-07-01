@@ -433,6 +433,7 @@ Date
 DateDuration
 DateDurationUnit
 DateTime
+Time
 }
 ;
 use
@@ -1360,18 +1361,6 @@ Date
 /
 /
 /
-use
-std
-:
-:
-convert
-:
-:
-TryFrom
-;
-/
-/
-/
 /
 /
 /
@@ -1766,9 +1755,6 @@ day
 )
 ?
 time
-:
-types
-:
 :
 Time
 :

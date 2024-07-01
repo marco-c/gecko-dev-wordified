@@ -613,7 +613,10 @@ Examples
 /
 /
 use
-icu_calendar
+icu
+:
+:
+calendar
 :
 :
 AnyCalendarKind
@@ -622,7 +625,10 @@ AnyCalendarKind
 /
 /
 use
-icu_calendar
+icu
+:
+:
+calendar
 :
 :
 CalendarError
