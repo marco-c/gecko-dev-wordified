@@ -2899,6 +2899,7 @@ vcs
 try_commit
 (
 commit_message
+changed_files
 )
 as
 head
