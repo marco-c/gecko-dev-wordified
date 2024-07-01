@@ -944,10 +944,10 @@ TRACKING_PROTECTION_GROUP
 "
 trackingProtectionWarningGroup
 "
-COOKIE_SAMESITE_GROUP
+COOKIE_GROUP
 :
 "
-cookieSameSiteGroup
+cookieGroup
 "
 CORS_GROUP
 :
