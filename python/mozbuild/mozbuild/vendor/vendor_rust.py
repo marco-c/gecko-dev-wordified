@@ -2365,6 +2365,18 @@ v3
 license
         
 "
+icu_calendar
+"
+:
+ICU4X_LICENSE_SHA256
+        
+"
+icu_calendar_data
+"
+:
+ICU4X_LICENSE_SHA256
+        
+"
 icu_collections
 "
 :
