@@ -4292,6 +4292,14 @@ return
 paragraph
 "
 ;
+case
+BOUNDARY_CLUSTER
+:
+return
+"
+cluster
+"
+;
 }
 return
 "
