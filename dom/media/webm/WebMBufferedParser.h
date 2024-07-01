@@ -456,16 +456,7 @@ SetTimecodeScale
 uint32_t
 aTimecodeScale
 )
-{
-mTimecodeScale
-=
-aTimecodeScale
 ;
-mGotTimecodeScale
-=
-true
-;
-}
 /
 /
 Steps
