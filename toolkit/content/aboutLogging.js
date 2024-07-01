@@ -930,7 +930,10 @@ EME
 5
 MediaSource
 :
-4
+5
+MediaSourceSamples
+:
+5
 "
 l10nIds
 :
