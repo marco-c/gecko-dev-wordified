@@ -162,14 +162,6 @@ GitRepository
     
 HgRepository
 )
-from
-.
-task_config
-import
-(
-    
-try_config_commit
-)
 TOKEN_FILE
 =
 (
@@ -400,9 +392,16 @@ user_token
 def
 get_stack_info
 (
+    
 vcs
 :
 SupportedVcsRepository
+head
+:
+Optional
+[
+str
+]
 )
 -
 >
@@ -552,6 +551,7 @@ vcs
 .
 get_branch_nodes
 (
+head
 *
 *
 branch_nodes_kwargs
@@ -2674,12 +2674,16 @@ response_json
 def
 push_to_lando_try
 (
+    
 vcs
 :
 SupportedVcsRepository
 commit_message
 :
 str
+changed_files
+:
+dict
 )
 :
     
@@ -2890,11 +2894,14 @@ perf_counter
 )
     
 with
-try_config_commit
-(
 vcs
+.
+try_commit
+(
 commit_message
 )
+as
+head
 :
         
 try
@@ -2906,6 +2913,7 @@ patches
 get_stack_info
 (
 vcs
+head
 )
         
 except
