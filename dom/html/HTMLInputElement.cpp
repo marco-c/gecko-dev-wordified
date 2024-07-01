@@ -3348,6 +3348,16 @@ rv
 rv
 )
 ;
+if
+(
+!
+tmp
+)
+{
+return
+NS_OK
+;
+}
 /
 /
 Show
