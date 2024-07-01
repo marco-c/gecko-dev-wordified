@@ -1488,7 +1488,7 @@ mResult
 aResult
 )
 {
-mWorkerPrivate
+aWorkerPrivate
 -
 >
 AssertIsOnWorkerThread
@@ -1523,6 +1523,11 @@ mReferrerURL
 )
 )
 {
+MOZ_ASSERT
+(
+mWorkerRef
+)
+;
 if
 (
 nsCOMPtr
@@ -1531,7 +1536,12 @@ nsIPrincipal
 >
 principal
 =
-mWorkerPrivate
+mWorkerRef
+-
+>
+Private
+(
+)
 -
 >
 GetPrincipal
@@ -2723,6 +2733,7 @@ checker
 >
 Dispatch
 (
+worker
 Canceling
 error
 )

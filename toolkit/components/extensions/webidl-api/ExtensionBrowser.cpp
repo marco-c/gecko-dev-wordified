@@ -908,6 +908,12 @@ Dispatch
 dom
 :
 :
+GetCurrentThreadWorkerPrivate
+(
+)
+dom
+:
+:
 WorkerStatus
 :
 :

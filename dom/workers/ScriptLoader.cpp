@@ -1929,6 +1929,22 @@ AssertIsOnMainThread
 (
 )
 ;
+MOZ_ASSERT
+(
+mWorkerRef
+)
+;
+WorkerPrivate
+*
+workerPrivate
+=
+mWorkerRef
+-
+>
+Private
+(
+)
+;
 /
 /
 Initialize
@@ -1985,7 +2001,7 @@ mLoadInfo
 .
 mLoadingPrincipal
 =
-mWorkerPrivate
+workerPrivate
 -
 >
 GetPrincipal
@@ -2021,7 +2037,7 @@ nsIURI
 >
 baseURI
 =
-mWorkerPrivate
+workerPrivate
 -
 >
 GetBaseURI
@@ -2045,7 +2061,7 @@ Document
 >
 parentDoc
 =
-mWorkerPrivate
+workerPrivate
 -
 >
 GetDocument
@@ -2056,7 +2072,7 @@ mLoadInfo
 .
 mLoadGroup
 =
-mWorkerPrivate
+workerPrivate
 -
 >
 GetLoadGroup
@@ -2067,7 +2083,7 @@ mLoadInfo
 .
 mCookieJarSettings
 =
-mWorkerPrivate
+workerPrivate
 -
 >
 CookieJarSettings
@@ -2164,7 +2180,7 @@ get
 >
 CloneWithNewPolicy
 (
-mWorkerPrivate
+workerPrivate
 -
 >
 GetReferrerPolicy
@@ -12394,6 +12410,7 @@ getter
 >
 Dispatch
 (
+aParent
 Canceling
 rv
 )
