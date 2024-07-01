@@ -218,7 +218,7 @@ const
 expectedURL
 =
 "
-http
+https
 :
 /
 /
