@@ -1204,7 +1204,6 @@ isNothing
 ;
 if
 (
-!
 aIsMediaSource
 &
 &
