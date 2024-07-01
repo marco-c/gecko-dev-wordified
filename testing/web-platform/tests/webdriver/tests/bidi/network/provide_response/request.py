@@ -32,6 +32,13 @@ pytest
 mark
 .
 asyncio
+LOAD_EVENT
+=
+"
+browsingContext
+.
+load
+"
 pytest
 .
 mark
@@ -62,10 +69,15 @@ test_provide_response_auth_required
 (
     
 setup_blocked_request
+    
 subscribe_events
+    
 wait_for_event
+    
 bidi_session
+    
 navigate
+    
 wait_for_future_safe
 )
 :
@@ -93,11 +105,7 @@ events
             
 AUTH_REQUIRED_EVENT
             
-"
-browsingContext
-.
-load
-"
+LOAD_EVENT
         
 ]
     
@@ -199,11 +207,17 @@ test_provide_response_phase
 (
     
 setup_blocked_request
+    
 subscribe_events
+    
 wait_for_event
+    
 bidi_session
+    
 phase
+    
 navigate
+    
 wait_for_future_safe
 )
 :
@@ -231,11 +245,7 @@ RESPONSE_STARTED_EVENT
             
 RESPONSE_COMPLETED_EVENT
             
-"
-browsingContext
-.
-load
-"
+LOAD_EVENT
         
 ]
     
@@ -289,11 +299,7 @@ on_load
 =
 wait_for_event
 (
-"
-browsingContext
-.
-load
-"
+LOAD_EVENT
 )
     
 await
