@@ -96,7 +96,6 @@ ceil
 from
 multiprocessing
 import
-cpu_count
 get_context
 from
 multiprocessing
@@ -119,6 +118,12 @@ mozpack
 path
 as
 mozpath
+from
+mozbuild
+.
+util
+import
+cpu_count
 from
 mozversioncontrol
 import

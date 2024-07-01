@@ -60,8 +60,6 @@ futures
 import
 lzma
 import
-os
-import
 plistlib
 import
 struct
@@ -87,6 +85,12 @@ import
 quote
 import
 mozfile
+from
+mozbuild
+.
+util
+import
+cpu_count
 TEMPLATE_DIRECTORY
 =
 Path
@@ -927,8 +931,6 @@ ThreadPoolExecutor
             
 max_workers
 =
-os
-.
 cpu_count
 (
 )

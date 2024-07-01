@@ -62,8 +62,6 @@ json
 import
 logging
 import
-multiprocessing
-import
 os
 import
 subprocess
@@ -148,6 +146,7 @@ from
 .
 util
 import
+cpu_count
 memoize
 memoized_property
 try
@@ -4996,8 +4995,6 @@ GiB
             
 cpus
 =
-multiprocessing
-.
 cpu_count
 (
 )

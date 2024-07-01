@@ -205,10 +205,6 @@ from
 itertools
 import
 chain
-from
-multiprocessing
-import
-cpu_count
 import
 mozpack
 .
@@ -247,6 +243,8 @@ EmptyValue
 HierarchicalStringList
     
 ReadOnlyDefaultDict
+    
+cpu_count
     
 memoize
 )

@@ -71,10 +71,6 @@ os
 import
 sys
 from
-multiprocessing
-import
-cpu_count
-from
 mach
 .
 decorators
@@ -95,6 +91,12 @@ import
 MachCommandConditions
 as
 conditions
+from
+mozbuild
+.
+util
+import
+cpu_count
 from
 mozlog
 import

@@ -120,6 +120,7 @@ mozbuild
 util
 import
 FileAvoidWrite
+cpu_count
 #
 There
 are
@@ -177,8 +178,6 @@ platform
 win32
 "
 else
-os
-.
 cpu_count
 (
 )

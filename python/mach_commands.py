@@ -71,10 +71,6 @@ import
 ThreadPoolExecutor
 as_completed
 thread
-from
-multiprocessing
-import
-cpu_count
 import
 mozinfo
 from
@@ -94,6 +90,12 @@ import
 filters
 as
 mpf
+from
+mozbuild
+.
+util
+import
+cpu_count
 from
 mozfile
 import
