@@ -15,35 +15,6 @@ asserts
 import
 assert_error
 assert_success
-from
-tests
-.
-support
-import
-platform_name
-pytest
-.
-mark
-.
-skipif
-(
-platform_name
-is
-None
-reason
-=
-"
-Unsupported
-platform
-{
-}
-"
-.
-format
-(
-platform_name
-)
-)
 pytest
 .
 mark
@@ -54,6 +25,7 @@ parametrize
 body
 "
 [
+    
 lambda
 key
 value
@@ -69,7 +41,7 @@ key
 value
 }
 }
-                                  
+    
 lambda
 key
 value
@@ -88,6 +60,16 @@ value
 ]
 }
 ]
+ids
+=
+[
+"
+alwaysMatch
+"
+"
+firstMatch
+"
+]
 )
 def
 test_platform_name
@@ -95,6 +77,7 @@ test_platform_name
 new_session
 add_browser_capabilities
 body
+target_platform
 )
 :
     
@@ -105,7 +88,7 @@ body
 "
 platformName
 "
-platform_name
+target_platform
 )
     
 if
@@ -194,7 +177,7 @@ platformName
 ]
 =
 =
-platform_name
+target_platform
 invalid_merge
 =
 [
@@ -360,34 +343,12 @@ invalid
 argument
 "
 )
-pytest
-.
-mark
-.
-skipif
-(
-platform_name
-is
-None
-reason
-=
-"
-Unsupported
-platform
-{
-}
-"
-.
-format
-(
-platform_name
-)
-)
 def
-test_merge_platformName
+test_merge_platform_name
 (
 new_session
 add_browser_capabilities
+target_platform
 )
 :
     
@@ -435,7 +396,7 @@ firstMatch
 platformName
 "
 :
-platform_name
+target_platform
 .
 upper
 (
@@ -456,7 +417,7 @@ none
 platformName
 "
 :
-platform_name
+target_platform
             
 "
 pageLoadStrategy
@@ -493,7 +454,7 @@ platformName
 ]
 =
 =
-platform_name
+target_platform
     
 assert
 value
@@ -521,10 +482,11 @@ add_browser_capabilities
 :
     
 response
-session
+_
 =
 new_session
 (
+        
 {
 "
 capabilities
