@@ -301,16 +301,6 @@ nsIWidget
 aWindow
 )
 ;
-void
-SortZOrderFrontToBack
-(
-)
-;
-void
-SortZOrderBackToFront
-(
-)
-;
 nsTArray
 <
 nsAppShellWindowEnumerator
@@ -328,9 +318,6 @@ mTopmostWindow
 ;
 int32_t
 mTimeStamp
-;
-bool
-mSortingZOrder
 ;
 bool
 mReady

@@ -163,9 +163,6 @@ mWindow
 int32_t
 mTimeStamp
 ;
-uint32_t
-mZLevel
-;
 /
 /
 each

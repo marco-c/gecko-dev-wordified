@@ -2280,11 +2280,6 @@ GetWorkspaceID
 )
 ;
 void
-SendSetZLevelEvent
-(
-)
-;
-void
 DoResize
 (
 double

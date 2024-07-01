@@ -4594,10 +4594,9 @@ windowMediator
 windowMediator
 -
 >
-GetZOrderAppWindowEnumerator
+GetEnumerator
 (
 nullptr
-true
 getter_AddRefs
 (
 windowEnumerator
