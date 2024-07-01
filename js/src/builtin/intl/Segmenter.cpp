@@ -2468,8 +2468,6 @@ ICU4XSentenceSegmenter_destroy
 ;
 }
 ;
-#
-endif
 /
 *
 *
@@ -2547,6 +2545,8 @@ result
 ok
 ;
 }
+#
+endif
 static
 bool
 EnsureInternalsResolved
