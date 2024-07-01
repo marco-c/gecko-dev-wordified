@@ -135,13 +135,6 @@ h
 #
 include
 "
-gfxPlatformFontList
-.
-h
-"
-#
-include
-"
 mozilla
 /
 DocumentStyleRootIterator
