@@ -741,6 +741,11 @@ waitForCondition
 >
 button
 .
+label
+|
+|
+button
+.
 hasVisibleLabel
 Expanded
 {
