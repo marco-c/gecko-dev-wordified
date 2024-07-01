@@ -449,7 +449,7 @@ index
 "
 GET
 "
-HTTPS_CONTENT_TYPE_SJS
+CONTENT_TYPE_SJS
 +
 "
 ?
