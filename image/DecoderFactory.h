@@ -1405,17 +1405,6 @@ data
 from
 .
 *
-param
-aDecoderFlags
-Flags
-specifying
-the
-behavior
-of
-this
-decoder
-.
-*
 /
 static
 already_AddRefed
@@ -1432,8 +1421,6 @@ SourceBuffer
 *
 >
 aSourceBuffer
-DecoderFlags
-aDecoderFlags
 )
 ;
 private
