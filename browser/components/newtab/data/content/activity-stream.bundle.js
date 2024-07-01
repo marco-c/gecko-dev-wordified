@@ -65959,9 +65959,6 @@ wallpaper
 title
 "
 }
-"
-Wallpapers
-"
 )
 /
 *
