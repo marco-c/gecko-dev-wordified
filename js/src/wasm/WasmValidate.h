@@ -274,7 +274,7 @@ Some
 ;
 /
 /
-ModuleEnvironment
+ModuleMetadata
 contains
 all
 the
@@ -308,7 +308,7 @@ functions
 /
 /
 A
-ModuleEnvironment
+ModuleMetadata
 is
 created
 by
@@ -339,7 +339,7 @@ a
 /
 ModuleGenerator
 the
-ModuleEnvironment
+ModuleMetadata
 holds
 state
 shared
@@ -368,7 +368,7 @@ only
 view
 of
 the
-ModuleEnvironment
+ModuleMetadata
 thus
 preventing
 race
@@ -377,7 +377,7 @@ race
 conditions
 .
 struct
-ModuleEnvironment
+ModuleMetadata
 {
 /
 /
@@ -670,7 +670,7 @@ bool
 parsedBranchHints
 ;
 explicit
-ModuleEnvironment
+ModuleMetadata
 (
 FeatureArgs
 features
@@ -1860,9 +1860,9 @@ Decoder
 &
 d
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 size_t
 opcodeOffset
 StorageType
@@ -2000,9 +2000,9 @@ Decoder
 &
 d
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 uint32_t
 funcIndex
 ValTypeVector
@@ -2198,9 +2198,9 @@ DecodeModuleEnvironment
 Decoder
 &
 d
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 )
 ;
 [
@@ -2212,9 +2212,9 @@ bool
 ValidateFunctionBody
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 uint32_t
 funcIndex
 uint32_t
@@ -2235,9 +2235,9 @@ DecodeModuleTail
 Decoder
 &
 d
-ModuleEnvironment
+ModuleMetadata
 *
-env
+moduleMeta
 )
 ;
 /

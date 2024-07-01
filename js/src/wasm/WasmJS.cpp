@@ -27644,8 +27644,8 @@ return
 nullptr
 ;
 }
-ModuleEnvironment
-moduleEnv
+ModuleMetadata
+moduleMeta
 (
 compileArgs
 -
@@ -27679,7 +27679,7 @@ computeParameters
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 init
 (
@@ -27714,7 +27714,7 @@ results
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 types
 -
@@ -27756,7 +27756,7 @@ FuncDesc
 &
 (
 *
-moduleEnv
+moduleMeta
 .
 types
 )
@@ -27773,7 +27773,7 @@ funcType
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -27787,7 +27787,7 @@ return
 nullptr
 ;
 }
-moduleEnv
+moduleMeta
 .
 numFuncImports
 =
@@ -27804,7 +27804,7 @@ func
 0
 )
 )
-moduleEnv
+moduleMeta
 .
 declareFuncExported
 (
@@ -27855,7 +27855,7 @@ fieldName
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 exports
 .
@@ -27886,7 +27886,7 @@ mg
 *
 compileArgs
 &
-moduleEnv
+moduleMeta
 &
 compilerEnv
 nullptr

@@ -5308,9 +5308,9 @@ bool
 DecodeCodeSection
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 DecoderT
 &
 d
@@ -5322,14 +5322,14 @@ mg
 if
 (
 !
-env
+moduleMeta
 .
 codeSection
 )
 {
 if
 (
-env
+moduleMeta
 .
 numFuncDefs
 (
@@ -5394,7 +5394,7 @@ if
 numFuncDefs
 !
 =
-env
+moduleMeta
 .
 numFuncDefs
 (
@@ -5443,7 +5443,7 @@ DecodeFunctionBody
 (
 d
 mg
-env
+moduleMeta
 .
 numFuncImports
 +
@@ -5464,7 +5464,7 @@ d
 finishSection
 (
 *
-env
+moduleMeta
 .
 codeSection
 "
@@ -5524,8 +5524,8 @@ error
 warnings
 )
 ;
-ModuleEnvironment
-moduleEnv
+ModuleMetadata
+moduleMeta
 (
 args
 .
@@ -5535,7 +5535,7 @@ features
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 init
 (
@@ -5547,7 +5547,7 @@ DecodeModuleEnvironment
 (
 d
 &
-moduleEnv
+moduleMeta
 )
 )
 {
@@ -5573,7 +5573,7 @@ mg
 (
 args
 &
-moduleEnv
+moduleMeta
 &
 compilerEnv
 nullptr
@@ -5601,7 +5601,7 @@ if
 !
 DecodeCodeSection
 (
-moduleEnv
+moduleMeta
 d
 mg
 )
@@ -5618,7 +5618,7 @@ DecodeModuleTail
 (
 d
 &
-moduleEnv
+moduleMeta
 )
 )
 {
@@ -5676,8 +5676,8 @@ bytecode
 error
 )
 ;
-ModuleEnvironment
-moduleEnv
+ModuleMetadata
+moduleMeta
 (
 args
 .
@@ -5687,7 +5687,7 @@ features
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 init
 (
@@ -5699,7 +5699,7 @@ DecodeModuleEnvironment
 (
 d
 &
-moduleEnv
+moduleMeta
 )
 )
 {
@@ -5736,7 +5736,7 @@ mg
 (
 args
 &
-moduleEnv
+moduleMeta
 &
 compilerEnv
 cancelled
@@ -5764,7 +5764,7 @@ if
 !
 DecodeCodeSection
 (
-moduleEnv
+moduleMeta
 d
 mg
 )
@@ -5781,7 +5781,7 @@ DecodeModuleTail
 (
 d
 &
-moduleEnv
+moduleMeta
 )
 )
 {
@@ -5822,9 +5822,9 @@ public
 StreamingDecoder
 (
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 const
 Bytes
 &
@@ -5851,7 +5851,7 @@ warnings
 d_
 (
 begin
-env
+moduleMeta
 .
 codeSection
 -
@@ -6309,8 +6309,8 @@ compilerEnv
 args
 )
 ;
-ModuleEnvironment
-moduleEnv
+ModuleMetadata
+moduleMeta
 (
 args
 .
@@ -6320,7 +6320,7 @@ features
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 init
 (
@@ -6348,7 +6348,7 @@ DecodeModuleEnvironment
 (
 d
 &
-moduleEnv
+moduleMeta
 )
 )
 {
@@ -6366,7 +6366,7 @@ d
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 codeSection
 )
@@ -6390,7 +6390,7 @@ nullptr
 }
 MOZ_RELEASE_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 codeSection
 -
@@ -6420,7 +6420,7 @@ mg
 (
 args
 &
-moduleEnv
+moduleMeta
 &
 compilerEnv
 &
@@ -6448,7 +6448,7 @@ nullptr
 StreamingDecoder
 d
 (
-moduleEnv
+moduleMeta
 codeBytes
 codeBytesEnd
 cancelled
@@ -6461,7 +6461,7 @@ if
 !
 DecodeCodeSection
 (
-moduleEnv
+moduleMeta
 d
 mg
 )
@@ -6543,7 +6543,7 @@ Decoder
 d
 (
 tailBytes
-moduleEnv
+moduleMeta
 .
 codeSection
 -
@@ -6562,7 +6562,7 @@ DecodeModuleTail
 (
 d
 &
-moduleEnv
+moduleMeta
 )
 )
 {
@@ -6619,9 +6619,9 @@ DumpIonModuleGenerator
 {
 private
 :
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv_
+moduleMeta_
 ;
 uint32_t
 targetFuncIndex_
@@ -6641,9 +6641,9 @@ public
 :
 DumpIonModuleGenerator
 (
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 uint32_t
 targetFuncIndex
 IonDumpContents
@@ -6656,9 +6656,9 @@ UniqueChars
 error
 )
 :
-moduleEnv_
+moduleMeta_
 (
-moduleEnv
+moduleMeta
 )
 targetFuncIndex_
 (
@@ -6731,7 +6731,7 @@ Uint32Vector
 return
 IonDumpFunction
 (
-moduleEnv_
+moduleMeta_
 input
 contents_
 out_
@@ -6778,8 +6778,8 @@ error
 warnings
 )
 ;
-ModuleEnvironment
-moduleEnv
+ModuleMetadata
+moduleMeta
 (
 FeatureArgs
 :
@@ -6792,7 +6792,7 @@ allEnabled
 DumpIonModuleGenerator
 mg
 (
-moduleEnv
+moduleMeta
 targetFuncIndex
 contents
 out
@@ -6800,7 +6800,7 @@ error
 )
 ;
 return
-moduleEnv
+moduleMeta
 .
 init
 (
@@ -6811,13 +6811,13 @@ DecodeModuleEnvironment
 (
 d
 &
-moduleEnv
+moduleMeta
 )
 &
 &
 DecodeCodeSection
 (
-moduleEnv
+moduleMeta
 d
 mg
 )

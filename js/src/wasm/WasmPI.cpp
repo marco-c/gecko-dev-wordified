@@ -4633,9 +4633,9 @@ results
 bool
 encodeExportedFunction
 (
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 uint32_t
 paramsSize
 uint32_t
@@ -4658,7 +4658,7 @@ encoder
 (
 bytecode
 *
-moduleEnv
+moduleMeta
 .
 types
 )
@@ -5368,9 +5368,9 @@ stack
 bool
 encodeTrampolineFunction
 (
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 uint32_t
 paramsSize
 Bytes
@@ -5383,7 +5383,7 @@ encoder
 (
 bytecode
 *
-moduleEnv
+moduleMeta
 .
 types
 )
@@ -5691,9 +5691,9 @@ ContinueOnSuspendable
 bool
 encodeContinueOnSuspendableFunction
 (
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 uint32_t
 resultsSize
 Bytes
@@ -5706,7 +5706,7 @@ encoder
 (
 bytecode
 *
-moduleEnv
+moduleMeta
 .
 types
 )
@@ -5950,8 +5950,8 @@ return
 nullptr
 ;
 }
-ModuleEnvironment
-moduleEnv
+ModuleMetadata
+moduleMeta
 (
 compileArgs
 -
@@ -5993,7 +5993,7 @@ computeParameters
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 init
 (
@@ -6278,7 +6278,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 types
 -
@@ -6294,7 +6294,7 @@ ParamsTypeIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 types
 -
@@ -6343,7 +6343,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 types
 -
@@ -6359,7 +6359,7 @@ ResultsTypeIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 types
 -
@@ -6382,7 +6382,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -6397,7 +6397,7 @@ WrappedFnIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 addDefinedFunc
 (
@@ -6471,7 +6471,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -6486,7 +6486,7 @@ GetSuspendingResultsFnIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 addDefinedFunc
 (
@@ -6524,11 +6524,11 @@ above
 as
 imports
 .
-moduleEnv
+moduleMeta
 .
 numFuncImports
 =
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -6562,7 +6562,7 @@ matter
 .
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -6577,7 +6577,7 @@ ExportedFnIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 addDefinedFunc
 (
@@ -6646,7 +6646,7 @@ fromTypeDef
 &
 (
 *
-moduleEnv
+moduleMeta
 .
 types
 )
@@ -6669,7 +6669,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -6684,7 +6684,7 @@ TrampolineFnIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 addDefinedFunc
 (
@@ -6756,7 +6756,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -6771,7 +6771,7 @@ ContinueOnSuspendableFnIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 addDefinedFunc
 (
@@ -6809,7 +6809,7 @@ mg
 *
 compileArgs
 &
-moduleEnv
+moduleMeta
 &
 compilerEnv
 nullptr
@@ -6852,7 +6852,7 @@ if
 !
 encodeExportedFunction
 (
-moduleEnv
+moduleMeta
 paramsSize
 resultsSize
 paramsOffset
@@ -6866,7 +6866,7 @@ fromTypeDef
 &
 (
 *
-moduleEnv
+moduleMeta
 .
 types
 )
@@ -6928,7 +6928,7 @@ if
 !
 encodeTrampolineFunction
 (
-moduleEnv
+moduleMeta
 paramsSize
 bytecode2
 )
@@ -6983,7 +6983,7 @@ if
 !
 encodeContinueOnSuspendableFunction
 (
-moduleEnv
+moduleMeta
 paramsSize
 bytecode3
 )
@@ -8642,9 +8642,9 @@ promise
 bool
 encodeExportedFunction
 (
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 uint32_t
 paramsSize
 Bytes
@@ -8657,7 +8657,7 @@ encoder
 (
 bytecode
 *
-moduleEnv
+moduleMeta
 .
 types
 )
@@ -9051,9 +9051,9 @@ results
 bool
 encodeTrampolineFunction
 (
-ModuleEnvironment
+ModuleMetadata
 &
-moduleEnv
+moduleMeta
 uint32_t
 paramsSize
 SuspenderArgPosition
@@ -9068,7 +9068,7 @@ encoder
 (
 bytecode
 *
-moduleEnv
+moduleMeta
 .
 types
 )
@@ -9515,8 +9515,8 @@ return
 nullptr
 ;
 }
-ModuleEnvironment
-moduleEnv
+ModuleMetadata
+moduleMeta
 (
 compileArgs
 -
@@ -9558,7 +9558,7 @@ computeParameters
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 init
 (
@@ -9597,7 +9597,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 types
 -
@@ -9613,7 +9613,7 @@ ParamsTypeIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 types
 -
@@ -9666,7 +9666,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 types
 -
@@ -9682,7 +9682,7 @@ ResultsTypeIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 types
 -
@@ -9772,7 +9772,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -9787,7 +9787,7 @@ WrappedFnIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 addDefinedFunc
 (
@@ -9847,7 +9847,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -9862,7 +9862,7 @@ CreateSuspenderFnIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 addDefinedFunc
 (
@@ -9900,11 +9900,11 @@ above
 as
 imports
 .
-moduleEnv
+moduleMeta
 .
 numFuncImports
 =
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -9938,7 +9938,7 @@ matter
 .
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -9953,7 +9953,7 @@ ExportedFnIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 addDefinedFunc
 (
@@ -10022,7 +10022,7 @@ fromTypeDef
 &
 (
 *
-moduleEnv
+moduleMeta
 .
 types
 )
@@ -10045,7 +10045,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv
+moduleMeta
 .
 funcs
 .
@@ -10060,7 +10060,7 @@ TrampolineFnIndex
 if
 (
 !
-moduleEnv
+moduleMeta
 .
 addDefinedFunc
 (
@@ -10098,7 +10098,7 @@ mg
 *
 compileArgs
 &
-moduleEnv
+moduleMeta
 &
 compilerEnv
 nullptr
@@ -10141,7 +10141,7 @@ if
 !
 encodeExportedFunction
 (
-moduleEnv
+moduleMeta
 paramsSize
 bytecode
 )
@@ -10196,7 +10196,7 @@ if
 !
 encodeTrampolineFunction
 (
-moduleEnv
+moduleMeta
 paramsSize
 argPosition
 bytecode2

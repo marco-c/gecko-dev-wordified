@@ -345,7 +345,7 @@ namespace
 wasm
 {
 struct
-ModuleEnvironment
+ModuleMetadata
 ;
 class
 CodeRange

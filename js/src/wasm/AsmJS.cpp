@@ -8491,8 +8491,8 @@ finish
 CompilerEnvironment
 compilerEnv_
 ;
-ModuleEnvironment
-moduleEnv_
+ModuleMetadata
+moduleMeta_
 ;
 MutableAsmJSMetadata
 asmJSMetadata_
@@ -8598,7 +8598,7 @@ DebugEnabled
 :
 False
 )
-moduleEnv_
+moduleMeta_
 (
 FeatureArgs
 (
@@ -8633,12 +8633,12 @@ nodiscard
 ]
 ]
 bool
-initModuleEnvironment
+initModuleMetadata
 (
 )
 {
 return
-moduleEnv_
+moduleMeta_
 .
 init
 (
@@ -9093,14 +9093,14 @@ bufferArgumentName_
 ;
 }
 const
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 (
 )
 {
 return
-moduleEnv_
+moduleMeta_
 ;
 }
 void
@@ -9324,7 +9324,7 @@ lit
 uint32_t
 index
 =
-moduleEnv_
+moduleMeta_
 .
 globals
 .
@@ -9335,7 +9335,7 @@ length
 if
 (
 !
-moduleEnv_
+moduleMeta_
 .
 globals
 .
@@ -9582,7 +9582,7 @@ false
 uint32_t
 index
 =
-moduleEnv_
+moduleMeta_
 .
 globals
 .
@@ -9602,7 +9602,7 @@ canonicalToValType
 if
 (
 !
-moduleEnv_
+moduleMeta_
 .
 globals
 .
@@ -10761,7 +10761,7 @@ funcDefIndex
 if
 (
 !
-moduleEnv_
+moduleMeta_
 .
 exports
 .
@@ -10969,7 +10969,7 @@ elems
 )
 ;
 return
-moduleEnv_
+moduleMeta_
 .
 elemSegments
 .
@@ -11878,7 +11878,7 @@ sigIndex
 {
 if
 (
-moduleEnv_
+moduleMeta_
 .
 types
 -
@@ -11905,7 +11905,7 @@ signatures
 *
 sigIndex
 =
-moduleEnv_
+moduleMeta_
 .
 types
 -
@@ -11915,7 +11915,7 @@ length
 )
 ;
 return
-moduleEnv_
+moduleMeta_
 .
 types
 -
@@ -11979,7 +11979,7 @@ FuncType
 :
 strictlyEquals
 (
-moduleEnv_
+moduleMeta_
 .
 types
 -
@@ -12025,7 +12025,7 @@ HashableSig
 *
 sigIndex
 *
-moduleEnv_
+moduleMeta_
 .
 types
 )
@@ -12369,7 +12369,7 @@ ss
 if
 (
 !
-initModuleEnvironment
+initModuleMetadata
 (
 )
 )
@@ -12625,7 +12625,7 @@ big
 }
 MOZ_ASSERT
 (
-moduleEnv_
+moduleMeta_
 .
 tables
 .
@@ -12644,7 +12644,7 @@ length
 *
 tableIndex
 =
-moduleEnv_
+moduleMeta_
 .
 tables
 .
@@ -12681,7 +12681,7 @@ MOZ_ASSERT
 sigIndex
 >
 =
-moduleEnv_
+moduleMeta_
 .
 asmJSSigToTableIndex
 .
@@ -12693,7 +12693,7 @@ length
 if
 (
 !
-moduleEnv_
+moduleMeta_
 .
 asmJSSigToTableIndex
 .
@@ -12709,14 +12709,14 @@ return
 false
 ;
 }
-moduleEnv_
+moduleMeta_
 .
 asmJSSigToTableIndex
 [
 sigIndex
 ]
 =
-moduleEnv_
+moduleMeta_
 .
 tables
 .
@@ -12727,7 +12727,7 @@ length
 if
 (
 !
-moduleEnv_
+moduleMeta_
 .
 tables
 .
@@ -13007,7 +13007,7 @@ NamedSig
 name
 sigIndex
 *
-moduleEnv_
+moduleMeta_
 .
 types
 )
@@ -13059,7 +13059,7 @@ finish
 {
 MOZ_ASSERT
 (
-moduleEnv_
+moduleMeta_
 .
 numMemories
 (
@@ -13139,7 +13139,7 @@ I32
 if
 (
 !
-moduleEnv_
+moduleMeta_
 .
 memories
 .
@@ -13159,7 +13159,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleEnv_
+moduleMeta_
 .
 funcs
 .
@@ -13171,7 +13171,7 @@ empty
 if
 (
 !
-moduleEnv_
+moduleMeta_
 .
 funcs
 .
@@ -13256,7 +13256,7 @@ sigIndex
 MOZ_ASSERT
 (
 !
-moduleEnv_
+moduleMeta_
 .
 funcs
 [
@@ -13266,7 +13266,7 @@ funcIndex
 type
 )
 ;
-moduleEnv_
+moduleMeta_
 .
 funcs
 [
@@ -13276,7 +13276,7 @@ funcIndex
 FuncDesc
 (
 &
-moduleEnv_
+moduleMeta_
 .
 types
 -
@@ -13330,7 +13330,7 @@ sigIndex
 MOZ_ASSERT
 (
 !
-moduleEnv_
+moduleMeta_
 .
 funcs
 [
@@ -13340,7 +13340,7 @@ funcIndex
 type
 )
 ;
-moduleEnv_
+moduleMeta_
 .
 funcs
 [
@@ -13350,7 +13350,7 @@ funcIndex
 FuncDesc
 (
 &
-moduleEnv_
+moduleMeta_
 .
 types
 -
@@ -13374,7 +13374,7 @@ Export
 &
 exp
 :
-moduleEnv_
+moduleMeta_
 .
 exports
 )
@@ -13406,7 +13406,7 @@ funcIndex
 (
 )
 ;
-moduleEnv_
+moduleMeta_
 .
 declareFuncExported
 (
@@ -13426,7 +13426,7 @@ false
 )
 ;
 }
-moduleEnv_
+moduleMeta_
 .
 numFuncImports
 =
@@ -13453,11 +13453,11 @@ point
 of
 view
 .
-moduleEnv_
+moduleMeta_
 .
 numGlobalImports
 =
-moduleEnv_
+moduleMeta_
 .
 globals
 .
@@ -13748,7 +13748,7 @@ length
 )
 ;
 }
-moduleEnv_
+moduleMeta_
 .
 codeSection
 .
@@ -13756,7 +13756,7 @@ emplace
 (
 )
 ;
-moduleEnv_
+moduleMeta_
 .
 codeSection
 -
@@ -13765,7 +13765,7 @@ start
 =
 0
 ;
-moduleEnv_
+moduleMeta_
 .
 codeSection
 -
@@ -13830,7 +13830,7 @@ mg
 *
 args
 &
-moduleEnv_
+moduleMeta_
 &
 compilerEnv_
 nullptr
@@ -26010,7 +26010,7 @@ existingSig
 =
 m
 .
-env
+moduleMeta
 (
 )
 .
@@ -26476,7 +26476,7 @@ usepn
 sig
 m
 .
-env
+moduleMeta
 (
 )
 .
@@ -39749,7 +39749,7 @@ funcSig
 =
 m
 .
-env
+moduleMeta
 (
 )
 .

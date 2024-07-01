@@ -332,8 +332,8 @@ scriptedCaller
 options
 )
 ;
-ModuleEnvironment
-moduleEnv
+ModuleMetadata
+moduleMeta
 (
 compileArgs
 -
@@ -366,7 +366,7 @@ computeParameters
 ;
 MOZ_ALWAYS_TRUE
 (
-moduleEnv
+moduleMeta
 .
 init
 (
@@ -424,7 +424,7 @@ impName
 ;
 MOZ_ALWAYS_TRUE
 (
-moduleEnv
+moduleMeta
 .
 addImportedFunc
 (
@@ -496,7 +496,7 @@ expName
 ;
 MOZ_ALWAYS_TRUE
 (
-moduleEnv
+moduleMeta
 .
 addDefinedFunc
 (
@@ -537,7 +537,7 @@ mg
 *
 compileArgs
 &
-moduleEnv
+moduleMeta
 &
 compilerEnv
 nullptr

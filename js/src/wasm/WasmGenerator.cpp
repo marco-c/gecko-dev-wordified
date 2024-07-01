@@ -605,9 +605,9 @@ const
 CompileArgs
 &
 args
-ModuleEnvironment
+ModuleMetadata
 *
-moduleEnv
+moduleMeta
 CompilerEnvironment
 *
 compilerEnv
@@ -643,9 +643,9 @@ cancelled_
 (
 cancelled
 )
-moduleEnv_
+moduleMeta_
 (
-moduleEnv
+moduleMeta
 )
 compilerEnv_
 (
@@ -672,7 +672,7 @@ masm_
 (
 masmAlloc_
 *
-moduleEnv
+moduleMeta
 /
 *
 limitedSize
@@ -1521,7 +1521,7 @@ funcToCodeRange
 appendN
 (
 BAD_CODE_RANGE
-moduleEnv_
+moduleMeta_
 -
 >
 funcs
@@ -1607,12 +1607,12 @@ capacity
 size_t
 codeSectionSize
 =
-moduleEnv_
+moduleMeta_
 -
 >
 codeSection
 ?
-moduleEnv_
+moduleMeta_
 -
 >
 codeSection
@@ -1669,7 +1669,7 @@ reserve
 (
 2
 *
-moduleEnv_
+moduleMeta_
 -
 >
 numFuncDefs
@@ -1767,7 +1767,7 @@ alignof
 (
 TypeDefInstanceData
 )
-moduleEnv_
+moduleMeta_
 -
 >
 types
@@ -1777,7 +1777,7 @@ length
 (
 )
 &
-moduleEnv_
+moduleMeta_
 -
 >
 typeDefsOffsetStart
@@ -1793,7 +1793,7 @@ metadata_
 >
 typeDefsOffsetStart
 =
-moduleEnv_
+moduleMeta_
 -
 >
 typeDefsOffsetStart
@@ -1819,12 +1819,12 @@ alignof
 (
 FuncImportInstanceData
 )
-moduleEnv_
+moduleMeta_
 -
 >
 numFuncImports
 &
-moduleEnv_
+moduleMeta_
 -
 >
 funcImportsOffsetStart
@@ -1855,7 +1855,7 @@ alignof
 (
 MemoryInstanceData
 )
-moduleEnv_
+moduleMeta_
 -
 >
 memories
@@ -1864,7 +1864,7 @@ length
 (
 )
 &
-moduleEnv_
+moduleMeta_
 -
 >
 memoriesOffsetStart
@@ -1880,7 +1880,7 @@ metadata_
 >
 memoriesOffsetStart
 =
-moduleEnv_
+moduleMeta_
 -
 >
 memoriesOffsetStart
@@ -1905,7 +1905,7 @@ alignof
 (
 TableInstanceData
 )
-moduleEnv_
+moduleMeta_
 -
 >
 tables
@@ -1914,7 +1914,7 @@ length
 (
 )
 &
-moduleEnv_
+moduleMeta_
 -
 >
 tablesOffsetStart
@@ -1930,7 +1930,7 @@ metadata_
 >
 tablesOffsetStart
 =
-moduleEnv_
+moduleMeta_
 -
 >
 tablesOffsetStart
@@ -1955,7 +1955,7 @@ alignof
 (
 TagInstanceData
 )
-moduleEnv_
+moduleMeta_
 -
 >
 tags
@@ -1964,7 +1964,7 @@ length
 (
 )
 &
-moduleEnv_
+moduleMeta_
 -
 >
 tagsOffsetStart
@@ -1980,7 +1980,7 @@ metadata_
 >
 tagsOffsetStart
 =
-moduleEnv_
+moduleMeta_
 -
 >
 tagsOffsetStart
@@ -2001,7 +2001,7 @@ GlobalDesc
 &
 global
 :
-moduleEnv_
+moduleMeta_
 -
 >
 globals
@@ -2087,7 +2087,7 @@ funcImports
 .
 resize
 (
-moduleEnv_
+moduleMeta_
 -
 >
 numFuncImports
@@ -2107,7 +2107,7 @@ i
 ;
 i
 <
-moduleEnv_
+moduleMeta_
 -
 >
 numFuncImports
@@ -2127,7 +2127,7 @@ i
 =
 FuncImport
 (
-moduleEnv_
+moduleMeta_
 -
 >
 funcs
@@ -2136,7 +2136,7 @@ i
 ]
 .
 typeIndex
-moduleEnv_
+moduleMeta_
 -
 >
 offsetOfFuncImportInstanceData
@@ -2158,7 +2158,7 @@ metadata_
 >
 types
 =
-moduleEnv_
+moduleMeta_
 -
 >
 types
@@ -2218,7 +2218,7 @@ func
 initializer
 /
 /
-ModuleEnvironment
+ModuleMetadata
 accumulates
 this
 information
@@ -2249,7 +2249,7 @@ FuncDesc
 &
 func
 :
-moduleEnv_
+moduleMeta_
 -
 >
 funcs
@@ -2297,7 +2297,7 @@ funcIndex
 ;
 funcIndex
 <
-moduleEnv_
+moduleMeta_
 -
 >
 funcs
@@ -2316,7 +2316,7 @@ FuncDesc
 &
 func
 =
-moduleEnv_
+moduleMeta_
 -
 >
 funcs
@@ -2467,7 +2467,7 @@ tasks_
 infallibleEmplaceBack
 (
 *
-moduleEnv_
+moduleMeta_
 *
 compilerEnv_
 taskState_
@@ -2581,7 +2581,7 @@ if
 GenerateImportFunctions
 (
 *
-moduleEnv_
+moduleMeta_
 metadataTier_
 -
 >
@@ -4754,7 +4754,7 @@ IonCompileFunctions
 task
 -
 >
-moduleEnv
+moduleMeta
 task
 -
 >
@@ -4796,7 +4796,7 @@ BaselineCompileFunctions
 task
 -
 >
-moduleEnv
+moduleMeta
 task
 -
 >
@@ -5426,7 +5426,7 @@ MOZ_ASSERT
 (
 funcIndex
 <
-moduleEnv_
+moduleMeta_
 -
 >
 numFuncs
@@ -6574,7 +6574,7 @@ if
 GenerateStubs
 (
 *
-moduleEnv_
+moduleMeta_
 metadataTier_
 -
 >
@@ -7234,14 +7234,14 @@ over
 data
 from
 the
-ModuleEnvironment
+ModuleMetadata
 .
 metadata_
 -
 >
 startFuncIndex
 =
-moduleEnv_
+moduleMeta_
 -
 >
 startFuncIndex
@@ -7251,7 +7251,7 @@ metadata_
 >
 builtinModules
 =
-moduleEnv_
+moduleMeta_
 -
 >
 features
@@ -7268,7 +7268,7 @@ std
 :
 move
 (
-moduleEnv_
+moduleMeta_
 -
 >
 memories
@@ -7284,7 +7284,7 @@ std
 :
 move
 (
-moduleEnv_
+moduleMeta_
 -
 >
 tables
@@ -7300,7 +7300,7 @@ std
 :
 move
 (
-moduleEnv_
+moduleMeta_
 -
 >
 globals
@@ -7316,7 +7316,7 @@ std
 :
 move
 (
-moduleEnv_
+moduleMeta_
 -
 >
 tags
@@ -7327,7 +7327,7 @@ metadata_
 >
 nameCustomSectionIndex
 =
-moduleEnv_
+moduleMeta_
 -
 >
 nameCustomSectionIndex
@@ -7337,7 +7337,7 @@ metadata_
 >
 moduleName
 =
-moduleEnv_
+moduleMeta_
 -
 >
 moduleName
@@ -7352,7 +7352,7 @@ std
 :
 move
 (
-moduleEnv_
+moduleMeta_
 -
 >
 funcNames
@@ -7363,7 +7363,7 @@ metadata_
 >
 parsedBranchHints
 =
-moduleEnv_
+moduleMeta_
 -
 >
 parsedBranchHints
@@ -7397,7 +7397,7 @@ const
 size_t
 numFuncs
 =
-moduleEnv_
+moduleMeta_
 -
 >
 funcs
@@ -7448,7 +7448,7 @@ debugFuncTypeIndices
 i
 ]
 =
-moduleEnv_
+moduleMeta_
 -
 >
 funcs
@@ -7546,7 +7546,7 @@ ModuleHash
 }
 MOZ_ASSERT_IF
 (
-moduleEnv_
+moduleMeta_
 -
 >
 nameCustomSectionIndex
@@ -7708,7 +7708,7 @@ dataSegments
 .
 reserve
 (
-moduleEnv_
+moduleMeta_
 -
 >
 dataSegments
@@ -7730,7 +7730,7 @@ DataSegmentEnv
 &
 srcSeg
 :
-moduleEnv_
+moduleMeta_
 -
 >
 dataSegments
@@ -7797,7 +7797,7 @@ customSections
 .
 reserve
 (
-moduleEnv_
+moduleMeta_
 -
 >
 customSections
@@ -7819,7 +7819,7 @@ CustomSectionEnv
 &
 srcSec
 :
-moduleEnv_
+moduleMeta_
 -
 >
 customSections
@@ -7931,7 +7931,7 @@ sec
 }
 if
 (
-moduleEnv_
+moduleMeta_
 -
 >
 nameCustomSectionIndex
@@ -7945,7 +7945,7 @@ namePayload
 customSections
 [
 *
-moduleEnv_
+moduleMeta_
 -
 >
 nameCustomSectionIndex
@@ -8108,7 +8108,7 @@ std
 :
 move
 (
-moduleEnv_
+moduleMeta_
 -
 >
 imports
@@ -8118,7 +8118,7 @@ std
 :
 move
 (
-moduleEnv_
+moduleMeta_
 -
 >
 exports
@@ -8135,7 +8135,7 @@ std
 :
 move
 (
-moduleEnv_
+moduleMeta_
 -
 >
 elemSegments

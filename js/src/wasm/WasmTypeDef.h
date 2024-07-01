@@ -2021,7 +2021,7 @@ of
 types
 in
 the
-ModuleEnvironment
+ModuleMetadata
 when
 the
 Module

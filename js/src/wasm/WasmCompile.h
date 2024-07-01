@@ -463,7 +463,7 @@ envBytes
 contains
 a
 complete
-ModuleEnvironment
+ModuleMetadata
 that
 has
 already
