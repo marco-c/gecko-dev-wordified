@@ -523,9 +523,6 @@ FlingHandoffState
 class
 InputQueue
 ;
-struct
-InputBlockCallbackInfo
-;
 class
 GeckoContentController
 ;
@@ -3788,10 +3785,10 @@ AddInputBlockCallback
 (
 uint64_t
 aInputBlockId
-InputBlockCallbackInfo
+InputBlockCallback
 &
 &
-aCallbackInfo
+aCallback
 )
 ;
 /

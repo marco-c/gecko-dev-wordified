@@ -6178,7 +6178,7 @@ AddInputBlockCallback
 (
 uint64_t
 aInputBlockId
-InputBlockCallbackInfo
+InputBlockCallback
 &
 &
 aCallbackInfo
@@ -7933,8 +7933,6 @@ const
 InputBlockState
 *
 aCurrentInputBlock
-nsEventStatus
-aEagerStatus
 const
 InputData
 &
@@ -8652,12 +8650,6 @@ GetHandledResultFor
 (
 target
 curBlock
-it
--
->
-second
-.
-mEagerStatus
 *
 (
 mQueuedInputs
@@ -8676,8 +8668,6 @@ it
 -
 >
 second
-.
-mCallback
 (
 curBlock
 -
