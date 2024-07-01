@@ -517,7 +517,6 @@ attachment
 category
 :
 "
-other
 "
 }
 ]
