@@ -4843,7 +4843,7 @@ composition
 composition
 -
 >
-IsEditorHandlingEvent
+EditorIsHandlingLatestChange
 (
 )
 )
@@ -6452,7 +6452,7 @@ composition
 composition
 -
 >
-IsEditorHandlingEvent
+EditorIsHandlingLatestChange
 (
 )
 )
