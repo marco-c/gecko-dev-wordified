@@ -113,6 +113,14 @@ context
 original_opener
 =
 None
+        
+url
+=
+"
+about
+:
+blank
+"
     
 )
 pytest
@@ -373,5 +381,13 @@ top_level_context
 context
 "
 ]
+        
+url
+=
+"
+about
+:
+blank
+"
     
 )

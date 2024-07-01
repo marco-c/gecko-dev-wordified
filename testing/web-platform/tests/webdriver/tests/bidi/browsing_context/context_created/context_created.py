@@ -378,6 +378,15 @@ blank
 parent
 =
 None
+        
+original_opener
+=
+top_context
+[
+"
+context
+"
+]
     
 )
 async
@@ -502,6 +511,15 @@ blank
 parent
 =
 None
+        
+original_opener
+=
+top_context
+[
+"
+context
+"
+]
     
 )
 pytest
