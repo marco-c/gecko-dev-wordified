@@ -142,6 +142,9 @@ setup
 (
 self
 runner
+protocol
+=
+None
 )
 :
         
@@ -152,6 +155,7 @@ super
 setup
 (
 runner
+protocol
 )
         
 self
