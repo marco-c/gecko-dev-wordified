@@ -57,8 +57,6 @@ import
 re
 import
 time
-import
-six
 from
 .
 adb
@@ -593,29 +591,25 @@ log
 .
 error
 (
-                
+f
 "
-%
-s
+{
+self
+.
+last_test_seen
+}
 |
 exception
 reading
 log
 :
-%
-s
-"
-%
-(
-self
-.
-last_test_seen
+{
 str
 (
 e
 )
-)
-            
+}
+"
 )
             
 return
@@ -641,11 +635,10 @@ new_log_content
         
 new_log_content
 =
-six
-.
-ensure_str
-(
 new_log_content
+.
+decode
+(
 errors
 =
 "
@@ -788,9 +781,7 @@ if
 isinstance
 (
 line
-six
-.
-text_type
+str
 )
 :
                 
@@ -980,7 +971,7 @@ log
 "
 :
                         
-line
+stripped_message
 =
 message
 [
@@ -1013,7 +1004,7 @@ d
 *
 )
 "
-line
+stripped_message
 )
                         
 if
@@ -1041,7 +1032,7 @@ Passed
 :
 "
 in
-line
+stripped_message
 :
                                     
 self
@@ -1072,7 +1063,7 @@ Failed
 :
 "
 in
-line
+stripped_message
 :
                                     
 self
@@ -1093,7 +1084,7 @@ Todo
 :
 "
 in
-line
+stripped_message
 :
                                     
 self
@@ -1514,26 +1505,24 @@ log
 .
 info
 (
+f
 "
 wait
 for
-%
-s
+{
+self
+.
+app_name
+}
 complete
 ;
 top
 activity
 =
-%
-s
-"
-%
-(
-self
-.
-app_name
+{
 top
-)
+}
+"
 )
         
 if
