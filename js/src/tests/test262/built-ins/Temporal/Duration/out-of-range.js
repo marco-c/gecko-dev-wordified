@@ -213,7 +213,7 @@ Duration
 4294967296
 )
 "
-days
+weeks
 >
 max
 "
@@ -239,7 +239,7 @@ Duration
 4294967296
 )
 "
-days
+weeks
 <
 min
 "

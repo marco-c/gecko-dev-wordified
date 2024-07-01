@@ -581,10 +581,8 @@ expected
 =
 formatDurationFormatPattern
 (
+df
 duration
-"
-digital
-"
 )
 ;
 assert

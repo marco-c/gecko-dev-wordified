@@ -207,9 +207,9 @@ Temporal
 .
 Instant
 .
-fromEpochSeconds
+fromEpochMilliseconds
 (
-1800
+1800_000
 )
 -
 3600_000_000_000
@@ -271,10 +271,10 @@ Temporal
 .
 Instant
 .
-fromEpochSeconds
+fromEpochMilliseconds
 (
 -
-1800
+1800_000
 )
 3600_000_000_000
 )

@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2022
+2024
 Mathias
 Bynens
 .
@@ -69,7 +69,7 @@ tests
 Unicode
 v15
 .
-0
+1
 .
 0
 esid
@@ -249,6 +249,10 @@ ranges
 [
 0x02CEB0
 0x02EBE0
+]
+[
+0x02EBF0
+0x02EE5D
 ]
 [
 0x02F800
@@ -522,6 +526,10 @@ ranges
 ]
 [
 0x02EBE1
+0x02EBEF
+]
+[
+0x02EE5E
 0x02F7FF
 ]
 [

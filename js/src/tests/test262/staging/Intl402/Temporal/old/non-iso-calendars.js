@@ -990,6 +990,7 @@ calendar
 =
 >
 {
+const
 hasGregorianSwitchoverBug
 =
 new
@@ -6300,10 +6301,6 @@ days
 ]
 }
 }
-;
-totalNow
-=
-0
 ;
 for
 (

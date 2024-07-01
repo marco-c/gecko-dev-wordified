@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2022
+2024
 Mathias
 Bynens
 .
@@ -69,7 +69,7 @@ tests
 Unicode
 v15
 .
-0
+1
 .
 0
 esid
@@ -119,6 +119,7 @@ loneCodePoints
 0x001CD7
 0x001CD9
 0x001CE0
+0x00A838
 ]
 ranges
 :
@@ -126,6 +127,10 @@ ranges
 [
 0x001CDC
 0x001CDD
+]
+[
+0x00A830
+0x00A835
 ]
 [
 0x011180
@@ -279,6 +284,14 @@ ranges
 ]
 [
 0x001CE1
+0x00A82F
+]
+[
+0x00A836
+0x00A837
+]
+[
+0x00A839
 0x00DBFF
 ]
 [

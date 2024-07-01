@@ -134,9 +134,9 @@ Temporal
 .
 Instant
 .
-fromEpochSeconds
+fromEpochMilliseconds
 (
-10
+10_000
 )
 ;
 fields

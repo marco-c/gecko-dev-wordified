@@ -448,6 +448,11 @@ minimumFractionDigits
 maximumFractionDigits
 :
 9
+roundingMode
+:
+"
+trunc
+"
 }
 )
 .
@@ -507,6 +512,11 @@ ListFormat
 (
 locale
 {
+type
+:
+"
+unit
+"
 style
 :
 "
@@ -537,8 +547,6 @@ format
 d
 )
 ;
-/
-/
 assert
 .
 sameValue
@@ -677,6 +685,11 @@ minimumFractionDigits
 maximumFractionDigits
 :
 9
+roundingMode
+:
+"
+trunc
+"
 }
 )
 .
@@ -719,6 +732,11 @@ ListFormat
 (
 locale
 {
+type
+:
+"
+unit
+"
 style
 :
 "

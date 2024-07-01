@@ -1,7 +1,7 @@
 /
 /
 Copyright
-2022
+2024
 Mathias
 Bynens
 .
@@ -67,7 +67,7 @@ tests
 Unicode
 v15
 .
-0
+1
 .
 0
 esid
@@ -1234,6 +1234,10 @@ ranges
 0x001FFC
 ]
 [
+0x00200C
+0x00200D
+]
+[
 0x00203F
 0x002040
 ]
@@ -1355,10 +1359,6 @@ ranges
 ]
 [
 0x0030A1
-0x0030FA
-]
-[
-0x0030FC
 0x0030FF
 ]
 [
@@ -1650,7 +1650,7 @@ ranges
 0x00FF5A
 ]
 [
-0x00FF66
+0x00FF65
 0x00FFBE
 ]
 [
@@ -2838,6 +2838,10 @@ ranges
 0x02EBE0
 ]
 [
+0x02EBF0
+0x02EE5D
+]
+[
 0x02F800
 0x02FA1D
 ]
@@ -3047,7 +3051,6 @@ loneCodePoints
 0x002DDF
 0x003030
 0x0030A0
-0x0030FB
 0x003130
 0x00A67E
 0x00A7D2
@@ -3911,6 +3914,10 @@ ranges
 ]
 [
 0x001FFD
+0x00200B
+]
+[
+0x00200E
 0x00203E
 ]
 [
@@ -4271,7 +4278,7 @@ ranges
 ]
 [
 0x00FF5B
-0x00FF65
+0x00FF64
 ]
 [
 0x00FFBF
@@ -5175,6 +5182,10 @@ ranges
 ]
 [
 0x02EBE1
+0x02EBEF
+]
+[
+0x02EE5E
 0x02F7FF
 ]
 [

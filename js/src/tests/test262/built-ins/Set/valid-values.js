@@ -285,8 +285,8 @@ object
 const
 array
 =
-{
-}
+[
+]
 ;
 const
 string

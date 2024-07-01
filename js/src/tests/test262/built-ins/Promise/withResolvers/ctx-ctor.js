@@ -58,6 +58,7 @@ promise
 with
 -
 resolvers
+class
 ]
 -
 -

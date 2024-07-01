@@ -59,7 +59,7 @@ Tests
 that
 the
 option
-localeMatcher
+fractionalDigits
 is
 processed
 correctly
