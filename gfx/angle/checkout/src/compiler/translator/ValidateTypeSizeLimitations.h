@@ -93,6 +93,9 @@ types
 bool
 ValidateTypeSizeLimitations
 (
+const
+ShBuiltInResources
+&
 TIntermNode
 *
 root
