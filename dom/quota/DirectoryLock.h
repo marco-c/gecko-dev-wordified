@@ -321,7 +321,10 @@ AssertIsAcquiredExclusively
 0
 ;
 virtual
-void
+RefPtr
+<
+BoolPromise
+>
 Drop
 (
 )

@@ -1184,7 +1184,10 @@ else
 }
 #
 endif
-void
+RefPtr
+<
+BoolPromise
+>
 Drop
 (
 )
