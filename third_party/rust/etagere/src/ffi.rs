@@ -7,6 +7,18 @@ AtlasAllocator
 size2
 }
 ;
+use
+std
+:
+:
+os
+:
+:
+raw
+:
+:
+c_char
+;
 /
 /
 /
@@ -690,7 +702,7 @@ file_name
 :
 *
 const
-i8
+c_char
 )
 -
 >
