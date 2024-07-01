@@ -1033,6 +1033,13 @@ aEndTime
 )
 ;
 }
+void
+AddFlag
+(
+MediaInfoFlag
+aFlag
+)
+;
 MediaStage
 mStage
 ;
