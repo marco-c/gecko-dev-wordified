@@ -221,7 +221,7 @@ WasmInitBuiltinThunks
 \
 _
 (
-WasmLazyStubsTier1
+WasmCodeProtected
 250
 )
 \
