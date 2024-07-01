@@ -10647,6 +10647,7 @@ behaviour
 PointerEventsConsumableFlags
 ArePointerEventsConsumable
 (
+const
 TouchBlockState
 *
 aBlock

@@ -7258,6 +7258,7 @@ AsyncPanZoomController
 :
 ArePointerEventsConsumable
 (
+const
 TouchBlockState
 *
 aBlock
