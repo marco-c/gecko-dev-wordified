@@ -1632,9 +1632,9 @@ bool
 GenerateImportFunctions
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 const
 FuncImportVector
 &
@@ -1649,9 +1649,9 @@ bool
 GenerateStubs
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 const
 FuncImportVector
 &

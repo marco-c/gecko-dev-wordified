@@ -1482,9 +1482,9 @@ CallIndirectId
 forFunc
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 uint32_t
 funcIndex
 )
@@ -1507,7 +1507,7 @@ signature
 check
 if
 (
-moduleMeta
+codeMeta
 .
 isAsmJS
 (
@@ -1526,7 +1526,7 @@ forAsmJSFunc
 FuncDesc
 func
 =
-moduleMeta
+codeMeta
 .
 funcs
 [
@@ -1555,8 +1555,8 @@ CallIndirectId
 :
 forFuncType
 (
-moduleMeta
-moduleMeta
+codeMeta
+codeMeta
 .
 funcs
 [
@@ -1574,9 +1574,9 @@ CallIndirectId
 forFuncType
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 uint32_t
 funcTypeIndex
 )
@@ -1599,7 +1599,7 @@ signature
 check
 if
 (
-moduleMeta
+codeMeta
 .
 isAsmJS
 (
@@ -1620,7 +1620,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta
+codeMeta
 .
 types
 -
@@ -1690,7 +1690,7 @@ global_
 .
 instanceDataOffset_
 =
-moduleMeta
+codeMeta
 .
 offsetOfTypeDef
 (
@@ -1788,9 +1788,9 @@ CalleeDesc
 wasmTable
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 const
 TableDesc
 &
@@ -1818,7 +1818,7 @@ table
 .
 instanceDataOffset_
 =
-moduleMeta
+codeMeta
 .
 offsetOfTableInstanceData
 (
@@ -1870,9 +1870,9 @@ CalleeDesc
 asmJSTable
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 uint32_t
 tableIndex
 )
@@ -1894,7 +1894,7 @@ table
 .
 instanceDataOffset_
 =
-moduleMeta
+codeMeta
 .
 offsetOfTableInstanceData
 (

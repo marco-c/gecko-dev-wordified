@@ -1518,9 +1518,9 @@ compilation
 environment
 .
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta_
+codeMeta_
 ;
 const
 CompilerEnvironment
@@ -2674,9 +2674,9 @@ order
 BaseCompiler
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMetadata
 const
 CompilerEnvironment
 &

@@ -8491,6 +8491,9 @@ finish
 CompilerEnvironment
 compilerEnv_
 ;
+CodeMetadata
+codeMeta_
+;
 ModuleMetadata
 moduleMeta_
 ;
@@ -8598,7 +8601,7 @@ DebugEnabled
 :
 False
 )
-moduleMeta_
+codeMeta_
 (
 FeatureArgs
 (
@@ -8607,6 +8610,9 @@ ModuleKind
 :
 :
 AsmJS
+)
+moduleMeta_
+(
 )
 {
 compilerEnv_
@@ -8633,12 +8639,12 @@ nodiscard
 ]
 ]
 bool
-initModuleMetadata
+initCodeMetadata
 (
 )
 {
 return
-moduleMeta_
+codeMeta_
 .
 init
 (
@@ -9093,6 +9099,17 @@ bufferArgumentName_
 ;
 }
 const
+CodeMetadata
+&
+codeMeta
+(
+)
+{
+return
+codeMeta_
+;
+}
+const
 ModuleMetadata
 &
 moduleMeta
@@ -9324,7 +9341,7 @@ lit
 uint32_t
 index
 =
-moduleMeta_
+codeMeta_
 .
 globals
 .
@@ -9335,7 +9352,7 @@ length
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 globals
 .
@@ -9582,7 +9599,7 @@ false
 uint32_t
 index
 =
-moduleMeta_
+codeMeta_
 .
 globals
 .
@@ -9602,7 +9619,7 @@ canonicalToValType
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 globals
 .
@@ -10969,7 +10986,7 @@ elems
 )
 ;
 return
-moduleMeta_
+codeMeta_
 .
 elemSegments
 .
@@ -11878,7 +11895,7 @@ sigIndex
 {
 if
 (
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -11905,7 +11922,7 @@ signatures
 *
 sigIndex
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -11915,7 +11932,7 @@ length
 )
 ;
 return
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -11979,7 +11996,7 @@ FuncType
 :
 strictlyEquals
 (
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -12025,7 +12042,7 @@ HashableSig
 *
 sigIndex
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -12369,7 +12386,7 @@ ss
 if
 (
 !
-initModuleMetadata
+initCodeMetadata
 (
 )
 )
@@ -12625,7 +12642,7 @@ big
 }
 MOZ_ASSERT
 (
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -12644,7 +12661,7 @@ length
 *
 tableIndex
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -12681,7 +12698,7 @@ MOZ_ASSERT
 sigIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 asmJSSigToTableIndex
 .
@@ -12693,7 +12710,7 @@ length
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 asmJSSigToTableIndex
 .
@@ -12709,14 +12726,14 @@ return
 false
 ;
 }
-moduleMeta_
+codeMeta_
 .
 asmJSSigToTableIndex
 [
 sigIndex
 ]
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -12727,7 +12744,7 @@ length
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -13007,7 +13024,7 @@ NamedSig
 name
 sigIndex
 *
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -13059,7 +13076,7 @@ finish
 {
 MOZ_ASSERT
 (
-moduleMeta_
+codeMeta_
 .
 numMemories
 (
@@ -13139,7 +13156,7 @@ I32
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 memories
 .
@@ -13159,7 +13176,7 @@ nullptr
 }
 MOZ_ASSERT
 (
-moduleMeta_
+codeMeta_
 .
 funcs
 .
@@ -13171,7 +13188,7 @@ empty
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 funcs
 .
@@ -13256,7 +13273,7 @@ sigIndex
 MOZ_ASSERT
 (
 !
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -13266,7 +13283,7 @@ funcIndex
 type
 )
 ;
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -13276,7 +13293,7 @@ funcIndex
 FuncDesc
 (
 &
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -13330,7 +13347,7 @@ sigIndex
 MOZ_ASSERT
 (
 !
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -13340,7 +13357,7 @@ funcIndex
 type
 )
 ;
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -13350,7 +13367,7 @@ funcIndex
 FuncDesc
 (
 &
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -13406,7 +13423,7 @@ funcIndex
 (
 )
 ;
-moduleMeta_
+codeMeta_
 .
 declareFuncExported
 (
@@ -13426,7 +13443,7 @@ false
 )
 ;
 }
-moduleMeta_
+codeMeta_
 .
 numFuncImports
 =
@@ -13453,11 +13470,11 @@ point
 of
 view
 .
-moduleMeta_
+codeMeta_
 .
 numGlobalImports
 =
-moduleMeta_
+codeMeta_
 .
 globals
 .
@@ -13748,7 +13765,7 @@ length
 )
 ;
 }
-moduleMeta_
+codeMeta_
 .
 codeSection
 .
@@ -13756,7 +13773,7 @@ emplace
 (
 )
 ;
-moduleMeta_
+codeMeta_
 .
 codeSection
 -
@@ -13765,7 +13782,7 @@ start
 =
 0
 ;
-moduleMeta_
+codeMeta_
 .
 codeSection
 -
@@ -13829,6 +13846,8 @@ mg
 (
 *
 args
+&
+codeMeta_
 &
 moduleMeta_
 &
@@ -26010,7 +26029,7 @@ existingSig
 =
 m
 .
-moduleMeta
+codeMeta
 (
 )
 .
@@ -26476,7 +26495,7 @@ usepn
 sig
 m
 .
-moduleMeta
+codeMeta
 (
 )
 .
@@ -39749,7 +39768,7 @@ funcSig
 =
 m
 .
-moduleMeta
+codeMeta
 (
 )
 .

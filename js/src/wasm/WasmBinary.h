@@ -4248,9 +4248,9 @@ startSection
 (
 SectionId
 id
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 MaybeSectionRange
 *
 range
@@ -4313,9 +4313,9 @@ char
 expected
 size_t
 expectedLength
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 MaybeSectionRange
 *
 range
@@ -4343,9 +4343,9 @@ name
 [
 NameSizeWith0
 ]
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 MaybeSectionRange
 *
 range
@@ -4374,7 +4374,7 @@ name
 NameSizeWith0
 -
 1
-moduleMeta
+codeMeta
 range
 )
 ;
@@ -4409,9 +4409,9 @@ nodiscard
 bool
 skipCustomSection
 (
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 )
 ;
 /

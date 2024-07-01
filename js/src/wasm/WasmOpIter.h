@@ -2236,9 +2236,9 @@ Decoder
 d_
 ;
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta_
+codeMeta_
 ;
 TypeAndValueStack
 valueStack_
@@ -3292,9 +3292,9 @@ explicit
 OpIter
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 Decoder
 &
 decoder
@@ -3315,9 +3315,9 @@ d_
 (
 decoder
 )
-moduleMeta_
+codeMeta_
 (
-moduleMeta
+codeMeta
 )
 maxInitializedGlobalsIndexPlus1_
 (
@@ -3356,9 +3356,9 @@ explicit
 OpIter
 (
 const
-ModuleMetadata
+CodeMetadata
 &
-moduleMeta
+codeMeta
 Decoder
 &
 decoder
@@ -3379,9 +3379,9 @@ d_
 (
 decoder
 )
-moduleMeta_
+codeMeta_
 (
-moduleMeta
+codeMeta
 )
 maxInitializedGlobalsIndexPlus1_
 (
@@ -3766,7 +3766,7 @@ branchOffset
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 branchHintingEnabled
 (
@@ -6785,7 +6785,7 @@ return
 CheckIsSubtypeOf
 (
 d_
-moduleMeta_
+codeMeta_
 lastOpcodeOffset
 (
 )
@@ -6967,7 +6967,7 @@ TypeDef
 &
 actualTypeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -6982,7 +6982,7 @@ TypeDef
 &
 expectedTypeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -6996,7 +6996,7 @@ return
 CheckIsSubtypeOf
 (
 d_
-moduleMeta_
+codeMeta_
 lastOpcodeOffset
 (
 )
@@ -7958,7 +7958,7 @@ type
 valType
 (
 )
-moduleMeta_
+codeMeta_
 .
 types
 )
@@ -8923,7 +8923,7 @@ x
 )
 >
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -8952,7 +8952,7 @@ TypeDef
 typeDef
 =
 &
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -9248,7 +9248,7 @@ BlockType
 FuncResults
 (
 *
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -9273,7 +9273,7 @@ lastBranchHintIndex_
 ;
 if
 (
-moduleMeta_
+codeMeta_
 .
 branchHintingEnabled
 (
@@ -9283,7 +9283,7 @@ branchHintingEnabled
 branchHintVector_
 =
 &
-moduleMeta_
+codeMeta_
 .
 branchHints
 .
@@ -9296,7 +9296,7 @@ funcIndex
 size_t
 numArgs
 =
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -9551,7 +9551,7 @@ immutable
 .
 if
 (
-moduleMeta_
+codeMeta_
 .
 features
 .
@@ -9560,7 +9560,7 @@ gc
 {
 maxInitializedGlobalsIndexPlus1_
 =
-moduleMeta_
+codeMeta_
 .
 globals
 .
@@ -9573,7 +9573,7 @@ else
 {
 maxInitializedGlobalsIndexPlus1_
 =
-moduleMeta_
+codeMeta_
 .
 numGlobalImports
 ;
@@ -9686,10 +9686,10 @@ d_
 readValType
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
-moduleMeta_
+codeMeta_
 .
 features
 type
@@ -9724,10 +9724,10 @@ d_
 readHeapType
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
-moduleMeta_
+codeMeta_
 .
 features
 nullable
@@ -11685,7 +11685,7 @@ tryTableCatch
 tagIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tags
 .
@@ -11904,7 +11904,7 @@ TagType
 tagType
 =
 *
-moduleMeta_
+codeMeta_
 .
 tags
 [
@@ -12126,7 +12126,7 @@ if
 tagIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tags
 .
@@ -12316,7 +12316,7 @@ length
 return
 push
 (
-moduleMeta_
+codeMeta_
 .
 tags
 [
@@ -12839,7 +12839,7 @@ if
 tagIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tags
 .
@@ -12866,7 +12866,7 @@ if
 !
 popWithType
 (
-moduleMeta_
+codeMeta_
 .
 tags
 [
@@ -13717,7 +13717,7 @@ addr
 memoryIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 numMemories
 (
@@ -13766,7 +13766,7 @@ offset
 IndexType
 it
 =
-moduleMeta_
+codeMeta_
 .
 memories
 [
@@ -14262,7 +14262,7 @@ if
 memoryIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 numMemories
 (
@@ -14291,7 +14291,7 @@ ptrType
 =
 ToValType
 (
-moduleMeta_
+codeMeta_
 .
 memories
 [
@@ -14376,7 +14376,7 @@ if
 memoryIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 numMemories
 (
@@ -14405,7 +14405,7 @@ ptrType
 =
 ToValType
 (
-moduleMeta_
+codeMeta_
 .
 memories
 [
@@ -15240,7 +15240,7 @@ if
 id
 >
 =
-moduleMeta_
+codeMeta_
 .
 globals
 .
@@ -15297,7 +15297,7 @@ InitExpr
 &
 &
 (
-moduleMeta_
+codeMeta_
 .
 globals
 [
@@ -15343,7 +15343,7 @@ import
 return
 push
 (
-moduleMeta_
+codeMeta_
 .
 globals
 [
@@ -15415,7 +15415,7 @@ if
 id
 >
 =
-moduleMeta_
+codeMeta_
 .
 globals
 .
@@ -15442,7 +15442,7 @@ range
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 globals
 [
@@ -15473,7 +15473,7 @@ global
 return
 popWithType
 (
-moduleMeta_
+codeMeta_
 .
 globals
 [
@@ -15546,7 +15546,7 @@ if
 id
 >
 =
-moduleMeta_
+codeMeta_
 .
 globals
 .
@@ -15573,7 +15573,7 @@ range
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 globals
 [
@@ -15614,7 +15614,7 @@ ResultType
 :
 Single
 (
-moduleMeta_
+codeMeta_
 .
 globals
 [
@@ -15957,7 +15957,7 @@ if
 funcIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 funcs
 .
@@ -15991,7 +15991,7 @@ Func
 &
 &
 !
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -16054,7 +16054,7 @@ instruction
 .
 if
 (
-moduleMeta_
+codeMeta_
 .
 gcEnabled
 (
@@ -16065,7 +16065,7 @@ const
 uint32_t
 typeIndex
 =
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -16080,7 +16080,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -16161,10 +16161,10 @@ d_
 readRefNull
 (
 *
-moduleMeta_
+codeMeta_
 .
 types
-moduleMeta_
+codeMeta_
 .
 features
 type
@@ -16951,7 +16951,7 @@ if
 funcTypeIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 funcs
 .
@@ -16979,7 +16979,7 @@ FuncType
 funcType
 =
 *
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -17093,7 +17093,7 @@ if
 funcTypeIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 funcs
 .
@@ -17121,7 +17121,7 @@ FuncType
 funcType
 =
 *
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -17304,7 +17304,7 @@ if
 funcTypeIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 numTypes
 (
@@ -17353,7 +17353,7 @@ if
 tableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -17375,7 +17375,7 @@ experience
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -17417,7 +17417,7 @@ call_indirect
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -17473,7 +17473,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -17634,7 +17634,7 @@ if
 funcTypeIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 numTypes
 (
@@ -17683,7 +17683,7 @@ if
 tableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -17705,7 +17705,7 @@ experience
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -17747,7 +17747,7 @@ return_call_indirect
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -17803,7 +17803,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -18006,7 +18006,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -18172,7 +18172,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -18419,7 +18419,7 @@ if
 funcTypeIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 funcs
 .
@@ -18447,7 +18447,7 @@ FuncType
 funcType
 =
 *
-moduleMeta_
+codeMeta_
 .
 funcs
 [
@@ -18561,7 +18561,7 @@ if
 funcTypeIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 numTypes
 (
@@ -18586,7 +18586,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -19386,7 +19386,7 @@ if
 srcMemOrTableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 memories
 .
@@ -19399,7 +19399,7 @@ length
 dstMemOrTableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 memories
 .
@@ -19434,7 +19434,7 @@ if
 dstMemOrTableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -19447,7 +19447,7 @@ length
 srcMemOrTableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -19476,7 +19476,7 @@ copy
 ValType
 dstElemType
 =
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -19489,7 +19489,7 @@ elemType
 ValType
 srcElemType
 =
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -19532,7 +19532,7 @@ dstPtrType
 =
 ToValType
 (
-moduleMeta_
+codeMeta_
 .
 memories
 [
@@ -19549,7 +19549,7 @@ srcPtrType
 =
 ToValType
 (
-moduleMeta_
+codeMeta_
 .
 memories
 [
@@ -19716,7 +19716,7 @@ isData
 {
 if
 (
-moduleMeta_
+codeMeta_
 .
 dataCount
 .
@@ -19747,7 +19747,7 @@ segIndex
 >
 =
 *
-moduleMeta_
+codeMeta_
 .
 dataCount
 )
@@ -19777,7 +19777,7 @@ if
 segIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 elemSegments
 .
@@ -19880,7 +19880,7 @@ if
 memoryIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 numMemories
 (
@@ -19909,7 +19909,7 @@ ptrType
 =
 ToValType
 (
-moduleMeta_
+codeMeta_
 .
 memories
 [
@@ -20068,7 +20068,7 @@ if
 memOrTableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 memories
 .
@@ -20101,7 +20101,7 @@ memOrTableIndex
 ;
 if
 (
-moduleMeta_
+codeMeta_
 .
 dataCount
 .
@@ -20132,7 +20132,7 @@ segIndex
 >
 =
 *
-moduleMeta_
+codeMeta_
 .
 dataCount
 )
@@ -20161,7 +20161,7 @@ if
 memOrTableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -20198,7 +20198,7 @@ if
 segIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 elemSegments
 .
@@ -20228,7 +20228,7 @@ if
 !
 checkIsSubtypeOf
 (
-moduleMeta_
+codeMeta_
 .
 elemSegments
 [
@@ -20237,7 +20237,7 @@ segIndex
 ]
 .
 elemType
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -20295,7 +20295,7 @@ isMem
 ?
 ToValType
 (
-moduleMeta_
+codeMeta_
 .
 memories
 [
@@ -20392,7 +20392,7 @@ if
 tableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -20440,7 +20440,7 @@ if
 !
 popWithType
 (
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -20536,7 +20536,7 @@ if
 memoryIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 memories
 .
@@ -20567,7 +20567,7 @@ ptrType
 =
 ToValType
 (
-moduleMeta_
+codeMeta_
 .
 memories
 [
@@ -20667,7 +20667,7 @@ if
 tableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -20712,7 +20712,7 @@ false
 }
 infalliblePush
 (
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -20795,7 +20795,7 @@ if
 tableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -20843,7 +20843,7 @@ if
 !
 popWithType
 (
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -20940,7 +20940,7 @@ if
 tableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -20971,7 +20971,7 @@ if
 !
 popWithType
 (
-moduleMeta_
+codeMeta_
 .
 tables
 [
@@ -21066,7 +21066,7 @@ if
 tableIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 tables
 .
@@ -21143,7 +21143,7 @@ if
 typeIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21169,7 +21169,7 @@ range
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21186,7 +21186,7 @@ isStructType
 &
 &
 !
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21266,7 +21266,7 @@ if
 typeIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21292,7 +21292,7 @@ range
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21372,7 +21372,7 @@ if
 typeIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21398,7 +21398,7 @@ range
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21478,7 +21478,7 @@ if
 typeIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21504,7 +21504,7 @@ range
 if
 (
 !
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21672,7 +21672,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21855,7 +21855,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -21982,7 +21982,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -22201,7 +22201,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -22363,7 +22363,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -22508,7 +22508,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -22707,7 +22707,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -22868,7 +22868,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -22950,7 +22950,7 @@ v128
 }
 if
 (
-moduleMeta_
+codeMeta_
 .
 dataCount
 .
@@ -22977,7 +22977,7 @@ segIndex
 >
 =
 *
-moduleMeta_
+codeMeta_
 .
 dataCount
 )
@@ -23128,7 +23128,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -23187,7 +23187,7 @@ if
 segIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 elemSegments
 .
@@ -23215,7 +23215,7 @@ ModuleElemSegment
 &
 elemSeg
 =
-moduleMeta_
+codeMeta_
 .
 elemSegments
 [
@@ -23406,7 +23406,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -23509,7 +23509,7 @@ mutable
 }
 if
 (
-moduleMeta_
+codeMeta_
 .
 dataCount
 .
@@ -23536,7 +23536,7 @@ segIndex
 >
 =
 *
-moduleMeta_
+codeMeta_
 .
 dataCount
 )
@@ -23711,7 +23711,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -23791,7 +23791,7 @@ if
 segIndex
 >
 =
-moduleMeta_
+codeMeta_
 .
 elemSegments
 .
@@ -23819,7 +23819,7 @@ ModuleElemSegment
 &
 elemSeg
 =
-moduleMeta_
+codeMeta_
 .
 elemSegments
 [
@@ -23999,7 +23999,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -24207,7 +24207,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -24526,7 +24526,7 @@ TypeDef
 &
 dstTypeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -24552,7 +24552,7 @@ TypeDef
 &
 srcTypeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -24854,7 +24854,7 @@ TypeDef
 &
 typeDef
 =
-moduleMeta_
+codeMeta_
 .
 types
 -
@@ -27359,7 +27359,7 @@ StackSwitch
 ;
 MOZ_ASSERT
 (
-moduleMeta_
+codeMeta_
 .
 jsPromiseIntegrationEnabled
 (
@@ -27743,7 +27743,7 @@ usesMemory
 )
 &
 &
-moduleMeta_
+codeMeta_
 .
 numMemories
 (

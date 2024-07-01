@@ -2653,9 +2653,9 @@ DecodeConstantExpression
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 ValType
 expected
 Maybe
@@ -2670,7 +2670,7 @@ ValidatingOpIter
 iter
 (
 *
-moduleMeta
+codeMeta
 d
 ValidatingOpIter
 :
@@ -3149,7 +3149,7 @@ SimdPrefix
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 simdAvailable
@@ -3260,7 +3260,7 @@ return
 false
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 declareFuncExported
@@ -3472,7 +3472,7 @@ GcPrefix
 if
 (
 !
-moduleMeta
+codeMeta
 -
 >
 gcEnabled
@@ -3858,9 +3858,9 @@ decodeAndValidate
 Decoder
 &
 d
-ModuleMetadata
+CodeMetadata
 *
-moduleMeta
+codeMeta
 ValType
 expected
 InitExpr
@@ -3895,7 +3895,7 @@ if
 DecodeConstantExpression
 (
 d
-moduleMeta
+codeMeta
 expected
 &
 literal
