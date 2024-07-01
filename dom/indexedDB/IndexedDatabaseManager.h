@@ -722,6 +722,11 @@ Destroy
 (
 )
 ;
+nsresult
+EnsureBackgroundActor
+(
+)
+;
 static
 void
 LoggingModePrefChangedCallback
