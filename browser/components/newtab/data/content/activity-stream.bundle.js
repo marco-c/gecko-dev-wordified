@@ -74216,7 +74216,7 @@ icon
 -
 info
 -
-critical
+warning
 "
 }
 )
