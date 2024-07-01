@@ -221,6 +221,7 @@ nsGIFDecoder2
 Definition
 class
 nsGIFDecoder2
+final
 :
 public
 Decoder
@@ -257,6 +258,12 @@ aIterator
 IResumable
 *
 aOnResume
+)
+override
+;
+nsresult
+FinishWithErrorInternal
+(
 )
 override
 ;
