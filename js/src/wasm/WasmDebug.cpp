@@ -1197,7 +1197,7 @@ returnAddressOffset
 )
 ;
 const
-ModuleSegment
+CodeSegment
 &
 codeSegment
 =
@@ -2301,7 +2301,7 @@ returnAddressOffset
 )
 ;
 const
-ModuleSegment
+CodeSegment
 &
 codeSegment
 =

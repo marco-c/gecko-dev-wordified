@@ -25340,15 +25340,14 @@ funcExport
 )
 ;
 const
-ModuleSegment
+CodeSegment
 &
 segment
 =
+*
 codeBlock
 .
-moduleSegment
-(
-)
+segment
 ;
 MOZ_ASSERT
 (
@@ -25360,7 +25359,7 @@ begin
 <
 segment
 .
-length
+lengthBytes
 (
 )
 )
@@ -25375,7 +25374,7 @@ end
 <
 segment
 .
-length
+lengthBytes
 (
 )
 )
