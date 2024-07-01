@@ -174,15 +174,6 @@ true
 "
 true
 ]
-[
-"
-example
-.
-com
-.
-"
-true
-]
 ]
 )
 {
