@@ -27953,7 +27953,6 @@ mg
 *
 compileArgs
 codeMeta
-moduleMeta
 &
 compilerEnv
 nullptr
@@ -28030,6 +28029,14 @@ finishModule
 (
 *
 shareableBytes
+moduleMeta
+/
+*
+maybeTier2Listener
+=
+*
+/
+nullptr
 )
 ;
 if

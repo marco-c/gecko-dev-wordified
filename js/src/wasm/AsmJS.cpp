@@ -13950,7 +13950,6 @@ mg
 *
 args
 codeMeta_
-moduleMeta_
 &
 compilerEnv_
 nullptr
@@ -14067,6 +14066,14 @@ finishModule
 (
 *
 bytes
+moduleMeta_
+/
+*
+maybeTier2Listener
+=
+*
+/
+nullptr
 )
 ;
 }
