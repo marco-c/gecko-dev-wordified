@@ -368,13 +368,13 @@ generateQI
 (
 [
 "
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 "
 ]
 )
 /
 /
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 onSuccess
 :
 (

@@ -610,7 +610,7 @@ class
 ClipboardGetCallback
 :
 public
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 {
 public
 :
@@ -640,7 +640,7 @@ aPromise
 }
 /
 /
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 NS_IMETHOD
 OnError
 (
@@ -814,7 +814,7 @@ objects
 NS_DECL_ISUPPORTS
 /
 /
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 NS_IMETHOD
 OnSuccess
 (
@@ -1081,7 +1081,7 @@ mGlobal
 NS_IMPL_ISUPPORTS
 (
 ClipboardGetCallbackForRead
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 )
 class
 ClipboardGetCallbackForReadText
@@ -1156,7 +1156,7 @@ objects
 NS_DECL_ISUPPORTS
 /
 /
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 NS_IMETHOD
 OnSuccess
 (
@@ -1462,7 +1462,7 @@ mTransferable
 NS_IMPL_ISUPPORTS
 (
 ClipboardGetCallbackForReadText
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 nsIAsyncClipboardRequestCallback
 )
 }

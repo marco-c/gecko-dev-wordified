@@ -23719,7 +23719,7 @@ ClipboardGetCallback
 final
 :
 public
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 {
 public
 :
@@ -23791,7 +23791,7 @@ objects
 NS_DECL_ISUPPORTS
 /
 /
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 NS_IMETHOD
 OnSuccess
 (
@@ -23898,7 +23898,7 @@ mResolver
 NS_IMPL_ISUPPORTS
 (
 ClipboardGetCallback
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 )
 }
 /

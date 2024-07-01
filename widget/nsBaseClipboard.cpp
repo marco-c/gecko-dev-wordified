@@ -375,7 +375,7 @@ nsCString
 >
 &
 aFlavorList
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 *
 aCallback
 )
@@ -404,7 +404,7 @@ mFlavorList
 const
 nsCOMPtr
 <
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 >
 mCallback
 ;
@@ -743,7 +743,7 @@ nsCString
 >
 &
 aFlavorList
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 *
 aCallback
 )
@@ -2749,7 +2749,7 @@ nsCString
 aFlavorList
 int32_t
 aWhichClipboard
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 *
 aCallback
 int32_t
@@ -3178,7 +3178,7 @@ aRequestingWindowContext
 nsIPrincipal
 *
 aRequestingPrincipal
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 *
 aCallback
 )
@@ -3850,7 +3850,7 @@ dom
 WindowContext
 *
 aRequestingWindowContext
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 *
 aCallback
 )
@@ -5141,7 +5141,7 @@ aWindowContext
 nsIPrincipal
 *
 aRequestingPrincipal
-nsIAsyncClipboardGetCallback
+nsIClipboardGetDataSnapshotCallback
 *
 aCallback
 )
