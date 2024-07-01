@@ -1812,13 +1812,13 @@ tests
 that
 BackupService
 .
-recoverFromBackup
+recoverFromSnapshotFolder
 can
 create
 a
 new
-profile
 *
+profile
 and
 recover
 into
@@ -1830,7 +1830,7 @@ add_task
 (
 async
 function
-test_recoverFromBackup
+test_recoverFromSnapshotFolder
 (
 )
 {
@@ -1992,7 +1992,7 @@ PathUtils
 .
 tempDir
 "
-recoverFromBackupTest
+recoverFromSnapshotFolderTest
 "
 )
 ;
@@ -2008,7 +2008,7 @@ PathUtils
 .
 tempDir
 "
-recoverFromBackupTest
+recoverFromSnapshotFolderTest
 -
 newProfileRoot
 "
@@ -2080,7 +2080,7 @@ profile
 await
 bs
 .
-recoverFromBackup
+recoverFromSnapshotFolder
 (
 stagingPath
 false

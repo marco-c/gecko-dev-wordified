@@ -850,7 +850,7 @@ newProfile
 await
 service
 .
-recoverFromBackup
+recoverFromSnapshotFolder
 (
 path
 true
