@@ -6022,6 +6022,18 @@ currentTimeInUsec
 )
 )
 ;
+/
+/
+Use
+TargetBrowsingContext
+to
+also
+take
+frame
+loads
+into
+account
+.
 RefPtr
 <
 BrowsingContext
@@ -6031,7 +6043,7 @@ bc
 loadInfo
 -
 >
-GetBrowsingContext
+GetTargetBrowsingContext
 (
 )
 ;
