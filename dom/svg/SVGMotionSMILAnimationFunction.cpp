@@ -1733,6 +1733,9 @@ path
 .
 BuildPathForMeasuring
 (
+1
+.
+0f
 )
 ;
 bool
