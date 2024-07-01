@@ -892,6 +892,10 @@ uint32_t
 aFlags
 =
 TEST_CASE_DEFAULT_FLAGS
+uint32_t
+aFrameCount
+=
+1
 )
 :
 mPath
@@ -909,6 +913,10 @@ aSize
 mOutputSize
 (
 aSize
+)
+mFrameCount
+(
+aFrameCount
 )
 mFlags
 (
@@ -1246,6 +1254,11 @@ gfx
 :
 IntSize
 mOutputSize
+;
+uint32_t
+mFrameCount
+=
+0
 ;
 uint32_t
 mFlags
