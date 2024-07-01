@@ -9040,17 +9040,6 @@ SetLoadType
 LOAD_NORMAL_REPLACE
 )
 ;
-loadState
--
->
-SetHttpsUpgradeTelemetry
-(
-nsILoadInfo
-:
-:
-HTTPS_ONLY_UPGRADE_DOWNGRADE
-)
-;
 RefPtr
 <
 CanonicalBrowsingContext
