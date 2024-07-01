@@ -898,7 +898,7 @@ mCallback
 mClipboard
 -
 >
-AsyncGetDataInternal
+GetDataSnapshotInternal
 (
 request
 -
@@ -3155,7 +3155,7 @@ NS_IMETHODIMP
 nsBaseClipboard
 :
 :
-AsyncGetData
+GetDataSnapshot
 (
 const
 nsTArray
@@ -3308,7 +3308,7 @@ clipboardRead
 )
 )
 {
-AsyncGetDataInternal
+GetDataSnapshotInternal
 (
 aFlavorList
 aWhichClipboard
@@ -3430,7 +3430,7 @@ page
 __FUNCTION__
 )
 ;
-AsyncGetDataInternal
+GetDataSnapshotInternal
 (
 aFlavorList
 aWhichClipboard
@@ -3830,7 +3830,7 @@ void
 nsBaseClipboard
 :
 :
-AsyncGetDataInternal
+GetDataSnapshotInternal
 (
 const
 nsTArray

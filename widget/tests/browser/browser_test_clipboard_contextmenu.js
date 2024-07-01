@@ -300,7 +300,7 @@ promise
 }
 async
 function
-clipboardAsyncGetData
+getClipboardDataSnapshot
 (
 aBrowser
 aClipboardType
@@ -337,7 +337,7 @@ Services
 .
 clipboard
 .
-asyncGetData
+getDataSnapshot
 (
 [
 "
@@ -511,7 +511,7 @@ waitForPasteContextMenu
 const
 asyncRead
 =
-clipboardAsyncGetData
+getClipboardDataSnapshot
 (
 browser
 type
@@ -621,7 +621,7 @@ Assert
 .
 rejects
 (
-clipboardAsyncGetData
+getClipboardDataSnapshot
 (
 browser
 otherType
@@ -663,7 +663,7 @@ ok
 true
 nsIClipboard
 .
-asyncGetData
+getDataSnapshot
 (
 )
 should
@@ -681,7 +681,7 @@ ok
 false
 nsIClipboard
 .
-asyncGetData
+getDataSnapshot
 (
 )
 should

@@ -1787,7 +1787,7 @@ rv
 clipboardService
 -
 >
-AsyncGetData
+GetDataSnapshot
 (
 types
 nsIClipboard
@@ -1836,7 +1836,7 @@ rv
 clipboardService
 -
 >
-AsyncGetData
+GetDataSnapshot
 (
 AutoTArray
 <
