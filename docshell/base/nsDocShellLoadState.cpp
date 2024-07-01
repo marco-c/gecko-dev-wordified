@@ -3025,7 +3025,7 @@ SetTextDirectiveUserActivation
 (
 aLoadURIOptions
 .
-mTextDirectiveUserActivation
+mHasValidUserGestureActivation
 )
 ;
 loadState
