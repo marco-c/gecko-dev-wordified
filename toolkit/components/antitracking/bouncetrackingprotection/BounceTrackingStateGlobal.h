@@ -727,8 +727,6 @@ nsCStringHashKey
 PRTime
 >
 mUserActivation
-{
-}
 ;
 /
 /
@@ -789,8 +787,6 @@ nsCStringHashKey
 PRTime
 >
 mBounceTrackers
-{
-}
 ;
 /
 /
