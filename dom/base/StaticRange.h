@@ -540,6 +540,16 @@ mAreStartAndEndInSameTree
 =
 false
 ;
+/
+/
+Whether
+mutation
+is
+observed
+.
+RangeBoundaryIsMutationObserved
+mIsMutationObserved
+;
 protected
 :
 explicit
@@ -548,6 +558,8 @@ StaticRange
 nsINode
 *
 aNode
+RangeBoundaryIsMutationObserved
+aIsMutationObserved
 )
 :
 AbstractRange
@@ -560,6 +572,10 @@ aIsDynamicRange
 *
 /
 false
+)
+mIsMutationObserved
+(
+aIsMutationObserved
 )
 {
 }
