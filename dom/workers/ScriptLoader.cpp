@@ -7254,11 +7254,6 @@ ScriptResponseHeaderProcessor
 >
 (
 mWorkerRef
--
->
-Private
-(
-)
 loadContext
 -
 >
