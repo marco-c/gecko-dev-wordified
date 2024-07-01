@@ -1242,8 +1242,7 @@ Education
 "
 suggestedIndex
 =
--
-1
+0
 isSuggestedIndexRelativeToGroup
 =
 true
@@ -1635,8 +1634,7 @@ Shopping
 "
 suggestedIndex
 =
--
-1
+0
 isSuggestedIndexRelativeToGroup
 =
 true
