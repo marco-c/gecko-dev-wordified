@@ -553,7 +553,7 @@ createElement
 ExceptionPopup
 {
 exception
-clearPreview
+mouseout
 :
 this
 .
