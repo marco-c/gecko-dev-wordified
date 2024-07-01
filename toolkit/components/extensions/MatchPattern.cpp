@@ -1249,12 +1249,9 @@ scheme
 {
 mScheme
 =
-NS_AtomizeMainThread
-(
-NS_ConvertASCIItoUTF16
+NS_Atomize
 (
 scheme
-)
 )
 ;
 }
@@ -1673,6 +1670,13 @@ IsNonOpaqueURL
 )
 const
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 !
