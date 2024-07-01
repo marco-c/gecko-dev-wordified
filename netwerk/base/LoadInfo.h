@@ -1633,6 +1633,8 @@ aHasValidUserGestureActivation
 bool
 aTextDirectiveUserActivation
 bool
+aIsSameDocumentNavigation
+bool
 aAllowDeprecatedSystemRequests
 bool
 aIsInDevToolsContext
@@ -2314,6 +2316,11 @@ false
 ;
 bool
 mTextDirectiveUserActivation
+=
+false
+;
+bool
+mIsSameDocumentNavigation
 =
 false
 ;
