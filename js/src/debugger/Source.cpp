@@ -2691,7 +2691,7 @@ instance
 (
 )
 .
-metadata
+codeMetaForAsmJS
 (
 )
 ?
@@ -2702,7 +2702,7 @@ instance
 (
 )
 .
-metadata
+codeMetaForAsmJS
 (
 )
 -

@@ -1159,8 +1159,8 @@ linkData_
 UniqueMetadataTier
 metadataTier_
 ;
-MutableMetadata
-metadata_
+MutableCodeMetadataForAsmJS
+codeMetaForAsmJS_
 ;
 /
 /
@@ -1322,9 +1322,9 @@ finishCodeTier
 ;
 Maybe
 <
-SharedMetadata
+SharedCodeMetadataForAsmJS
 >
-finishMetadata
+finishCodeMetadata
 (
 const
 Bytes
@@ -1454,11 +1454,9 @@ nodiscard
 bool
 init
 (
-Metadata
+CodeMetadataForAsmJS
 *
-maybeAsmJSMetadata
-=
-nullptr
+codeMetaForAsmJS
 )
 ;
 /
