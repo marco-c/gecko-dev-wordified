@@ -1203,6 +1203,14 @@ const
 AnimationArray
 &
 aAnimations
+const
+CompositorAnimationStorage
+*
+aStorage
+const
+TimeStamp
+&
+aPreviousSampleTime
 )
 ;
 /
