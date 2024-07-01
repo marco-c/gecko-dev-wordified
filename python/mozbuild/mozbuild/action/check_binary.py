@@ -1525,14 +1525,6 @@ listen
 "
             
 "
-getsockname
-"
-            
-"
-getsockopt
-"
-            
-"
 recv
 "
             
