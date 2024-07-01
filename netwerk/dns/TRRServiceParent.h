@@ -187,14 +187,8 @@ Init
 (
 )
 ;
-/
-/
-For
-testing
-purposes
-only
 void
-ReloadParentalControlsEnabled
+UpdateParentalControlEnabled
 (
 )
 ;
