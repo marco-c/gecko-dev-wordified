@@ -4117,6 +4117,16 @@ SecureContext
 )
 :
                         
+typeName
+=
+self
+.
+_nonPartialInterfaceOrNamespace
+.
+typeName
+(
+)
+                        
 raise
 WebIDLError
 (
@@ -4129,22 +4139,26 @@ specified
 on
 both
 a
+partial
+%
+s
+member
 "
                             
 "
-partial
-interface
-member
 and
 on
 the
-"
-                            
-"
 partial
-interface
+%
+s
 itself
 "
+%
+(
+typeName
+typeName
+)
                             
 [
 member
@@ -4206,6 +4220,16 @@ _exposureGlobalNames
 0
 :
                         
+typeName
+=
+self
+.
+_nonPartialInterfaceOrNamespace
+.
+typeName
+(
+)
+                        
 raise
 WebIDLError
 (
@@ -4218,22 +4242,26 @@ specified
 on
 both
 a
-"
-                            
-"
 partial
-interface
+%
+s
 member
 and
-on
-the
 "
                             
 "
+on
+the
 partial
-interface
+%
+s
 itself
 "
+%
+(
+typeName
+typeName
+)
                             
 [
 member
@@ -4270,13 +4298,21 @@ attribute
 s
 on
 partial
+%
+s
 "
                     
-"
-interface
-"
 %
+(
 identifier
+self
+.
+_nonPartialInterfaceOrNamespace
+.
+typeName
+(
+)
+)
                     
 [
 attr
