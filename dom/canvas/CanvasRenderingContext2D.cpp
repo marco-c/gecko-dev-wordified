@@ -7075,12 +7075,6 @@ mWillReadFrequently
 =
 mWillReadFrequently
 ;
-aSettings
-.
-mForceSoftwareRendering
-=
-mForceSoftwareRendering
-;
 /
 /
 We
@@ -9211,7 +9205,7 @@ IsAccelerated
 )
 &
 &
-UseSoftwareRendering
+GetEffectiveWillReadFrequently
 (
 )
 )
@@ -10762,7 +10756,7 @@ if
 mAllowAcceleration
 |
 |
-UseSoftwareRendering
+GetEffectiveWillReadFrequently
 (
 )
 )
@@ -11060,7 +11054,7 @@ GetSurfaceFormat
 mAllowAcceleration
 |
 |
-UseSoftwareRendering
+GetEffectiveWillReadFrequently
 (
 )
 )
@@ -11137,7 +11131,7 @@ imageBridge
 mAllowAcceleration
 |
 |
-UseSoftwareRendering
+GetEffectiveWillReadFrequently
 (
 )
 mOffscreenCanvas
@@ -11251,9 +11245,6 @@ GetSize
 (
 )
 GetSurfaceFormat
-(
-)
-UseSoftwareRendering
 (
 )
 )
@@ -12369,12 +12360,6 @@ mWillReadFrequently
 attributes
 .
 mWillReadFrequently
-;
-mForceSoftwareRendering
-=
-attributes
-.
-mForceSoftwareRendering
 ;
 mContextAttributesHasAlpha
 =
@@ -42985,13 +42970,12 @@ bool
 CanvasRenderingContext2D
 :
 :
-UseSoftwareRendering
+GetEffectiveWillReadFrequently
 (
 )
 const
 {
 return
-(
 StaticPrefs
 :
 :
@@ -43001,10 +42985,6 @@ gfx_canvas_willreadfrequently_enabled_AtStartup
 &
 &
 mWillReadFrequently
-)
-|
-|
-mForceSoftwareRendering
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
