@@ -3896,7 +3896,7 @@ Steps
 3
 .
 return
-RoundDuration
+RoundTimeDuration
 (
 diff
 roundingIncrement
