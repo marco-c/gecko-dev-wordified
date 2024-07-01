@@ -1516,6 +1516,9 @@ onContextMenu
 this
 .
 onContextMenu
+preventBlur
+:
+true
 setExpanded
 :
 (

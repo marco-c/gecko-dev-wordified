@@ -2221,6 +2221,9 @@ expanded
 )
 ;
 }
+preventBlur
+:
+true
 getKey
 :
 getFilePath
