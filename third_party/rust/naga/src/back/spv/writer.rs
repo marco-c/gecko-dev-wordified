@@ -53,6 +53,7 @@ arena
 :
 {
 Handle
+HandleVec
 UniqueArena
 }
 back
@@ -497,7 +498,7 @@ default
 )
 constant_ids
 :
-Vec
+HandleVec
 :
 :
 new
@@ -516,7 +517,7 @@ default
 )
 global_variables
 :
-Vec
+HandleVec
 :
 :
 new
@@ -3814,10 +3815,6 @@ self
 global_variables
 [
 handle
-.
-index
-(
-)
 ]
 .
 clone
@@ -4157,10 +4154,6 @@ self
 global_variables
 [
 handle
-.
-index
-(
-)
 ]
 =
 gv
@@ -8559,10 +8552,6 @@ constant_ids
 constant
 .
 init
-.
-index
-(
-)
 ]
 }
 crate
@@ -8654,10 +8643,6 @@ self
 constant_ids
 [
 component
-.
-index
-(
-)
 ]
 )
 .
@@ -8705,10 +8690,6 @@ self
 constant_ids
 [
 value
-.
-index
-(
-)
 ]
 ;
 let
@@ -8764,10 +8745,6 @@ self
 constant_ids
 [
 handle
-.
-index
-(
-)
 ]
 =
 id
@@ -9136,10 +9113,6 @@ self
 global_variables
 [
 handle
-.
-index
-(
-)
 ]
 .
 var_id
@@ -11650,10 +11623,6 @@ self
 constant_ids
 [
 constant
-.
-index
-(
-)
 ]
 )
 ;
@@ -13434,10 +13403,6 @@ constant_ids
 constant
 .
 init
-.
-index
-(
-)
 ]
 ;
 self
@@ -13579,8 +13544,9 @@ self
 .
 global_variables
 .
-push
+insert
 (
+handle
 gvar
 )
 ;

@@ -318,7 +318,6 @@ Arc
 /
 /
 /
-/
 TODO
 :
 Once
@@ -531,9 +530,9 @@ inner
 ComputePassErrorInner
 :
 :
-InvalidBindGroup
+InvalidBindGroupId
 (
-index
+bind_group_id
 )
 }
 }
@@ -700,7 +699,7 @@ inner
 ComputePassErrorInner
 :
 :
-InvalidBuffer
+InvalidBufferId
 (
 buffer_id
 )

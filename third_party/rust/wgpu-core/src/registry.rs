@@ -1927,10 +1927,8 @@ ResourceInfo
 :
 new
 (
-"
-Test
-data
-"
+&
+None
 None
 )
 }

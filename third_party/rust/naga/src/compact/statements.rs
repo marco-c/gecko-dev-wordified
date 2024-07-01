@@ -614,6 +614,7 @@ insert
 (
 predicate
 )
+;
 }
 self
 .
@@ -623,6 +624,7 @@ insert
 (
 result
 )
+;
 }
 St
 :
@@ -658,6 +660,7 @@ insert
 (
 result
 )
+;
 }
 St
 :
@@ -750,6 +753,7 @@ insert
 (
 index
 )
+;
 }
 }
 self
@@ -769,6 +773,7 @@ insert
 (
 result
 )
+;
 }
 /
 /

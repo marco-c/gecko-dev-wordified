@@ -27,6 +27,15 @@ use
 crate
 :
 :
+non_max_u32
+:
+:
+NonMaxU32
+;
+use
+crate
+:
+:
 {
 Arena
 UniqueArena
@@ -51,10 +60,6 @@ hash
 :
 :
 Hash
-num
-:
-:
-NonZeroU32
 }
 ;
 impl
@@ -4278,7 +4283,7 @@ Handle
 :
 new
 (
-NonZeroU32
+NonMaxU32
 :
 :
 new
@@ -4289,8 +4294,6 @@ handle
 index
 (
 )
-+
-1
 )
 .
 try_into

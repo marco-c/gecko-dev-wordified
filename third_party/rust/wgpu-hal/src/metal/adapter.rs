@@ -617,6 +617,14 @@ self
 shared
 )
 features
+counters
+:
+Default
+:
+:
+default
+(
+)
 }
 queue
 :

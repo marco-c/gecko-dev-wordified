@@ -160,7 +160,7 @@ device
 "
 )
 ]
-WrongDevice
+DeviceMismatch
 #
 [
 error
@@ -228,7 +228,7 @@ self
 PipelineCacheValidationError
 :
 :
-WrongDevice
+DeviceMismatch
 =
 >
 true
@@ -436,7 +436,7 @@ Err
 PipelineCacheValidationError
 :
 :
-WrongDevice
+DeviceMismatch
 )
 ;
 }
@@ -454,7 +454,7 @@ Err
 PipelineCacheValidationError
 :
 :
-WrongDevice
+DeviceMismatch
 )
 ;
 }
@@ -3489,7 +3489,7 @@ Err
 E
 :
 :
-WrongDevice
+DeviceMismatch
 )
 )
 ;
@@ -3665,7 +3665,7 @@ Err
 E
 :
 :
-WrongDevice
+DeviceMismatch
 )
 )
 ;

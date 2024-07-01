@@ -1477,10 +1477,6 @@ cached
 ids
 [
 expr_handle
-.
-index
-(
-)
 ]
 =
 =
@@ -1656,10 +1652,6 @@ writer
 constant_ids
 [
 init
-.
-index
-(
-)
 ]
 }
 crate
@@ -2921,10 +2913,6 @@ writer
 global_variables
 [
 handle
-.
-index
-(
-)
 ]
 .
 access_id
@@ -12982,10 +12970,6 @@ writer
 global_variables
 [
 handle
-.
-index
-(
-)
 ]
 ;
 break

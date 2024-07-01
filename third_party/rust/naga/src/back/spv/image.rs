@@ -2983,10 +2983,6 @@ writer
 global_variables
 [
 handle
-.
-index
-(
-)
 ]
 .
 handle_id
@@ -6494,10 +6490,6 @@ writer
 constant_ids
 [
 offset_const
-.
-index
-(
-)
 ]
 ;
 main_instruction
