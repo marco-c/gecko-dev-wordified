@@ -54,18 +54,6 @@ from
 .
 executors
 .
-executorchrome
-import
-ChromeDriverPrintRefTestExecutor
-#
-noqa
-:
-F401
-from
-.
-.
-executors
-.
 executorwebdriver
 import
 (
@@ -133,16 +121,6 @@ reftest
 :
 "
 WebDriverRefTestExecutor
-"
-                              
-"
-print
--
-reftest
-"
-:
-"
-ChromeDriverPrintRefTestExecutor
 "
                               
 "
