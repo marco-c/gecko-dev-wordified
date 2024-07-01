@@ -57,7 +57,9 @@ estimation
 #
 include
 <
-cstdint
+stddef
+.
+h
 >
 #
 include
@@ -110,12 +112,6 @@ jxl
 {
 struct
 AuxOut
-;
-enum
-class
-LayerType
-:
-uint8_t
 ;
 /
 /
@@ -191,7 +187,7 @@ noise_params
 BitWriter
 *
 writer
-LayerType
+size_t
 layer
 AuxOut
 *

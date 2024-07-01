@@ -497,17 +497,6 @@ make_unique
 ;
 #
 endif
-typedef
-std
-:
-:
-array
-<
-float
-3
->
-Color
-;
 /
 /
 Backported

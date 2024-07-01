@@ -122,16 +122,6 @@ ImageBundle
 *
 ref_linear_srgb
 ;
-JxlMemoryManager
-*
-memory_manager
-=
-ref
-.
-memory_manager
-(
-)
-;
 ImageMetadata
 metadata
 =
@@ -145,7 +135,6 @@ metadata
 ImageBundle
 store
 (
-memory_manager
 &
 metadata
 )
@@ -341,16 +330,6 @@ size
 )
 ;
 }
-JxlMemoryManager
-*
-memory_manager
-=
-actual
-.
-memory_manager
-(
-)
-;
 const
 ImageBundle
 *
@@ -369,7 +348,6 @@ metadata
 ImageBundle
 store
 (
-memory_manager
 &
 metadata
 )
@@ -419,7 +397,6 @@ ImageF
 :
 Create
 (
-memory_manager
 xsize_
 ysize_
 )

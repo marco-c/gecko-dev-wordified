@@ -323,7 +323,7 @@ firsching
 handle
 grey
 case
-separately
+seperately
 /
 /
 interleave

@@ -137,14 +137,8 @@ format
 .
 num_channels
 ;
-JXL_ASSIGN_OR_DIE
-(
 PackedImage
 blended
-PackedImage
-:
-:
-Create
 (
 im
 .
@@ -153,7 +147,6 @@ im
 .
 ysize
 format
-)
 )
 ;
 /

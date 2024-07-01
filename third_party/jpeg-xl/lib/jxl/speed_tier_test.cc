@@ -123,7 +123,7 @@ lib
 /
 jxl
 /
-common
+enc_params
 .
 h
 "
@@ -571,6 +571,15 @@ params
 =
 GetParam
 (
+)
+;
+test
+:
+:
+ThreadPoolForTests
+pool
+(
+8
 )
 ;
 const

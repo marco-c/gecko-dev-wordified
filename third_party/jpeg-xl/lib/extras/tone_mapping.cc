@@ -133,8 +133,12 @@ HWY_NAMESPACE
 {
 static
 constexpr
-Vector3
+float
 rec2020_luminances
+[
+3
+]
+=
 {
 0
 .

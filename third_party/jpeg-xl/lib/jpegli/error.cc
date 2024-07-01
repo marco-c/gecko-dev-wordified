@@ -151,9 +151,6 @@ format
 args
 )
 ;
-/
-/
-notypo
 va_end
 (
 args

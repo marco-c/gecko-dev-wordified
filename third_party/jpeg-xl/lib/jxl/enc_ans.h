@@ -76,15 +76,6 @@ distributions
 #
 include
 <
-jxl
-/
-memory_manager
-.
-h
->
-#
-include
-<
 cstddef
 >
 #
@@ -146,12 +137,6 @@ jxl
 {
 struct
 AuxOut
-;
-enum
-class
-LayerType
-:
-uint8_t
 ;
 #
 define
@@ -641,7 +626,7 @@ codes
 BitWriter
 *
 writer
-LayerType
+size_t
 layer
 AuxOut
 *
@@ -710,9 +695,6 @@ num_contexts
 size_t
 BuildAndEncodeHistograms
 (
-JxlMemoryManager
-*
-memory_manager
 const
 HistogramParams
 &
@@ -749,7 +731,7 @@ context_map
 BitWriter
 *
 writer
-LayerType
+size_t
 layer
 AuxOut
 *
@@ -797,7 +779,7 @@ context_offset
 BitWriter
 *
 writer
-LayerType
+size_t
 layer
 AuxOut
 *

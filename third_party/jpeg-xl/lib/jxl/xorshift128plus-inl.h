@@ -78,12 +78,9 @@ endif
 #
 include
 <
-cstddef
->
-#
-include
-<
-cstdint
+stddef
+.
+h
 >
 #
 include

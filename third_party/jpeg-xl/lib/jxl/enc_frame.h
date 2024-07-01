@@ -62,15 +62,6 @@ include
 <
 jxl
 /
-memory_manager
-.
-h
->
-#
-include
-<
-jxl
-/
 types
 .
 h
@@ -778,9 +769,6 @@ metadata
 Status
 EncodeFrame
 (
-JxlMemoryManager
-*
-memory_manager
 const
 CompressParams
 &
@@ -814,9 +802,6 @@ aux_out
 Status
 EncodeFrame
 (
-JxlMemoryManager
-*
-memory_manager
 const
 CompressParams
 &

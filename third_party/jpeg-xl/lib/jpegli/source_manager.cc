@@ -101,11 +101,6 @@ j_decompress_ptr
 cinfo
 long
 num_bytes
-/
-*
-NOLINT
-*
-/
 )
 {
 if
@@ -136,9 +131,6 @@ bytes_in_buffer
 )
 )
 {
-/
-/
-NOLINT
 num_bytes
 -
 =
@@ -364,11 +356,6 @@ inbuffer
 unsigned
 long
 insize
-/
-*
-NOLINT
-*
-/
 )
 {
 if

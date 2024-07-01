@@ -77,15 +77,6 @@ h
 #
 include
 <
-jxl
-/
-types
-.
-h
->
-#
-include
-<
 stddef
 .
 h
@@ -1182,8 +1173,7 @@ direct
 fields
 such
 as
-white
-point
+whitepoint
 primaries
 and
 color

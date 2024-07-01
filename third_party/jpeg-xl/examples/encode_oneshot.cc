@@ -362,9 +362,6 @@ file
 ;
 /
 /
-NOLINT
-/
-/
 Avoid
 invalid
 file
@@ -460,9 +457,6 @@ readsize
 size
 )
 {
-/
-/
-NOLINT
 fclose
 (
 file

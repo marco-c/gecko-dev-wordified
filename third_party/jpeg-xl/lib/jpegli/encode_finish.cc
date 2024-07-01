@@ -864,7 +864,7 @@ sampling
 )
 {
 JBLOCKARRAY
-blocks
+ba
 =
 GetBlockRow
 (
@@ -916,7 +916,7 @@ error
 BlockError
 (
 &
-blocks
+ba
 [
 0
 ]
@@ -1107,7 +1107,7 @@ by
 )
 {
 JBLOCKARRAY
-block
+ba
 =
 GetBlockRow
 (
@@ -1155,7 +1155,7 @@ bx
 ReQuantizeBlock
 (
 &
-block
+ba
 [
 0
 ]

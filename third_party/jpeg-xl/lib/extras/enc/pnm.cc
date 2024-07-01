@@ -216,7 +216,7 @@ constexpr
 size_t
 kMaxHeaderSize
 =
-2000
+200
 ;
 class
 BasePNMEncoder
@@ -672,7 +672,6 @@ bytes
 }
 private
 :
-static
 Status
 EncodeImage
 (
@@ -692,6 +691,7 @@ uint8_t
 *
 bytes
 )
+const
 {
 uint32_t
 maxval
@@ -1195,7 +1195,6 @@ bytes
 }
 private
 :
-static
 Status
 EncodeImage
 (
@@ -1213,6 +1212,7 @@ uint8_t
 *
 bytes
 )
+const
 {
 char
 type

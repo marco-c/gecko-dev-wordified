@@ -254,11 +254,6 @@ inbuffer
 unsigned
 long
 insize
-/
-*
-NOLINT
-*
-/
 )
 {
 jpegli_mem_src
@@ -653,11 +648,6 @@ unsigned
 long
 *
 outsize
-/
-*
-NOLINT
-*
-/
 )
 {
 jpegli_mem_dest

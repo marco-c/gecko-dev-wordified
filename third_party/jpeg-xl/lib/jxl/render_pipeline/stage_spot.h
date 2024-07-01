@@ -51,12 +51,7 @@ LIB_JXL_RENDER_PIPELINE_STAGE_SPOT_H_
 #
 include
 <
-cstddef
->
-#
-include
-<
-memory
+utility
 >
 #
 include

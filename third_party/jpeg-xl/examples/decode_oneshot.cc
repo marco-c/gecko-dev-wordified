@@ -1321,9 +1321,6 @@ file
 ;
 /
 /
-NOLINT
-/
-/
 Avoid
 invalid
 file

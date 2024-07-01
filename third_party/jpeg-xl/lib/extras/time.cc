@@ -309,9 +309,6 @@ denom
 -
 9
 ;
-/
-/
-notypo
 #
 elif
 JXL_OS_HAIKU
