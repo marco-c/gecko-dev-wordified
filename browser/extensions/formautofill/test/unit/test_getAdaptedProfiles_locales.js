@@ -1908,8 +1908,6 @@ adaptedRecords
 =
 handler
 .
-activeSection
-.
 getAdaptedProfiles
 (
 testcase
@@ -2009,8 +2007,6 @@ let
 cache
 =
 handler
-.
-activeSection
 .
 _cacheValue
 .
