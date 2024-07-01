@@ -2036,6 +2036,9 @@ fPIC
 when
 =
 building_with_gnu_compatible_cc
+&
+~
+target_is_windows
 )
 check_and_add_flag
 (
@@ -2046,6 +2049,9 @@ fPIC
 when
 =
 building_with_gnu_compatible_cc
+&
+~
+target_is_windows
 )
 set_define
 (
