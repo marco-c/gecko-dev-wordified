@@ -8119,10 +8119,6 @@ StringBuffer
 &
 &
 buffer
-const
-CharT
-*
-chars
 size_t
 length
 js
@@ -8204,10 +8200,6 @@ StringBuffer
 &
 &
 buffer
-const
-CharT
-*
-chars
 size_t
 length
 js
