@@ -596,8 +596,8 @@ AreRuntimeMetricsComprehensive
 {
 for
 (
-uint8_t
-idx
+ping_entry_t
+entry
 :
 sPingByNameLookupEntries
 )
@@ -609,7 +609,7 @@ pingName
 =
 GetPingName
 (
-idx
+entry
 )
 ;
 aNames
