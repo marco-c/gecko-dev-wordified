@@ -1653,7 +1653,7 @@ TraceGrayJS
 JSTracer
 *
 aTracer
-js
+JS
 :
 :
 SliceBudget
@@ -1806,7 +1806,7 @@ JSHolderMap
 :
 WhichHolders
 aWhich
-js
+JS
 :
 :
 SliceBudget
@@ -1826,7 +1826,7 @@ JSHolderMap
 Iter
 &
 aIter
-js
+JS
 :
 :
 SliceBudget

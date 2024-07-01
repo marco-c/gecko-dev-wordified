@@ -2016,7 +2016,7 @@ options
 GCReason
 reason
 const
-js
+JS
 :
 :
 SliceBudget
@@ -2069,7 +2069,7 @@ cx
 GCReason
 reason
 const
-js
+JS
 :
 :
 SliceBudget

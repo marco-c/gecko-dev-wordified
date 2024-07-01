@@ -1221,6 +1221,9 @@ JS
 GCOptions
 options
 const
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -1649,6 +1652,9 @@ SliceData
 SliceData
 (
 const
+JS
+:
+:
 SliceBudget
 &
 budget
@@ -1676,6 +1682,9 @@ State
 initialState
 )
 ;
+JS
+:
+:
 SliceBudget
 budget
 ;
@@ -3020,6 +3029,9 @@ JS
 GCOptions
 options
 const
+JS
+:
+:
 SliceBudget
 &
 budget
