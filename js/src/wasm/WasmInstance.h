@@ -2566,7 +2566,7 @@ const
 inline
 const
 Metadata
-&
+*
 metadata
 (
 )
