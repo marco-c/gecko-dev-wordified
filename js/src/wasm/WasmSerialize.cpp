@@ -7561,7 +7561,7 @@ wasm
 :
 :
 ModuleMetadata
-128
+168
 )
 ;
 MOZ_TRY
@@ -7648,6 +7648,12 @@ exports
 )
 )
 ;
+/
+/
+not
+serialized
+:
+elemSegments
 /
 /
 not
@@ -8169,7 +8175,7 @@ funcs
 not
 serialized
 :
-elemSegments
+elemSegmentTypes
 /
 /
 not
