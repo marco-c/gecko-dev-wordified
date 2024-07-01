@@ -1609,7 +1609,7 @@ stubs2
 createTier2
 (
 funcExportIndices
-metadata
+codeMeta
 (
 )
 *
@@ -2481,6 +2481,12 @@ Metadata
 SeenSet
 *
 seenMetadata
+CodeMetadata
+:
+:
+SeenSet
+*
+seenCodeMeta
 Code
 :
 :
@@ -2503,6 +2509,7 @@ addSizeOfMiscIfNotSeen
 (
 mallocSizeOf
 seenMetadata
+seenCodeMeta
 seenCode
 code
 data
@@ -3239,7 +3246,7 @@ length
 endif
 if
 (
-metadata
+codeMeta
 (
 )
 .
@@ -3375,7 +3382,7 @@ exportFuncType
 =
 instance
 .
-metadata
+codeMeta
 (
 )
 .
@@ -3399,7 +3406,7 @@ TypeDef
 &
 importFuncType
 =
-metadata
+codeMeta
 (
 )
 .
@@ -3831,7 +3838,7 @@ memoryIndex
 ;
 memoryIndex
 <
-metadata
+codeMeta
 (
 )
 .
@@ -3851,7 +3858,7 @@ MemoryDesc
 &
 desc
 =
-metadata
+codeMeta
 (
 )
 .
@@ -3890,7 +3897,7 @@ memoryIndex
 ;
 MOZ_ASSERT_IF
 (
-metadata
+codeMeta
 (
 )
 .
@@ -3912,7 +3919,7 @@ isPreparedForAsmJS
 MOZ_ASSERT_IF
 (
 !
-metadata
+codeMeta
 (
 )
 .
@@ -4015,7 +4022,7 @@ memory
 sourceMaxPages
 (
 )
-metadata
+codeMeta
 (
 )
 .
@@ -4062,7 +4069,7 @@ else
 MOZ_ASSERT
 (
 !
-metadata
+codeMeta
 (
 )
 .
@@ -4178,7 +4185,7 @@ false
 }
 MOZ_RELEASE_ASSERT
 (
-metadata
+codeMeta
 (
 )
 .
@@ -4247,7 +4254,7 @@ const
 size_t
 tagLength
 =
-metadata
+codeMeta
 (
 )
 .
@@ -4339,7 +4346,7 @@ TagDesc
 &
 desc
 :
-metadata
+codeMeta
 (
 )
 .
@@ -4438,7 +4445,7 @@ tableObj
 MOZ_ASSERT
 (
 !
-metadata
+codeMeta
 (
 )
 .
@@ -4491,7 +4498,7 @@ table
 maximum
 (
 )
-metadata
+codeMeta
 (
 )
 .
@@ -4816,7 +4823,7 @@ TableDesc
 &
 td
 :
-metadata
+codeMeta
 (
 )
 .
@@ -5286,7 +5293,7 @@ GlobalDescVector
 &
 globals
 =
-metadata
+codeMeta
 (
 )
 .
@@ -5491,7 +5498,7 @@ globalIndex
 MOZ_ASSERT_IF
 (
 !
-metadata
+codeMeta
 (
 )
 .
@@ -5957,13 +5964,13 @@ instance
 )
 ;
 const
-Metadata
+CodeMetadata
 &
-metadata
+codeMeta
 =
 instance
 .
-metadata
+codeMeta
 (
 )
 ;
@@ -5972,13 +5979,13 @@ GlobalDescVector
 &
 globals
 =
-metadata
+codeMeta
 .
 globals
 ;
 if
 (
-metadata
+codeMeta
 .
 isAsmJS
 (
@@ -6070,7 +6077,7 @@ JSPROP_ENUMERATE
 ;
 if
 (
-metadata
+codeMeta
 .
 isAsmJS
 (
@@ -6365,7 +6372,7 @@ false
 if
 (
 !
-metadata
+codeMeta
 .
 isAsmJS
 (
@@ -6652,7 +6659,7 @@ maybeDebug
 ;
 if
 (
-metadata
+codeMeta
 (
 )
 .
@@ -6704,7 +6711,7 @@ cx
 code_
 dataSegments_
 elemSegments_
-metadata
+codeMeta
 (
 )
 .
@@ -6720,7 +6727,7 @@ tables
 imports
 .
 funcs
-metadata
+codeMeta
 (
 )
 .
@@ -6980,7 +6987,7 @@ function
 .
 if
 (
-metadata
+codeMeta
 (
 )
 .
@@ -7010,7 +7017,7 @@ callExport
 (
 cx
 *
-metadata
+codeMeta
 (
 )
 .
@@ -7027,7 +7034,7 @@ false
 JSUseCounter
 useCounter
 =
-metadata
+codeMeta
 (
 )
 .
@@ -7063,7 +7070,7 @@ SetUseCountersForFeatureUsage
 (
 cx
 instance
-metadata
+codeMeta
 (
 )
 .

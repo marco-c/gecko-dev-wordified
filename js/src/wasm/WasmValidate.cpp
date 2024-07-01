@@ -18718,7 +18718,7 @@ canFuncRef
 false
 )
 ;
-moduleMeta
+codeMeta
 -
 >
 startFuncIndex
@@ -21951,6 +21951,9 @@ const
 CustomSectionRange
 &
 nameSection
+CodeMetadata
+*
+codeMeta
 ModuleMetadata
 *
 moduleMeta
@@ -22118,7 +22121,7 @@ whole
 subsection
 validates
 .
-moduleMeta
+codeMeta
 -
 >
 moduleName
@@ -22498,7 +22501,7 @@ subsection
 decoded
 correctly
 .
-moduleMeta
+codeMeta
 -
 >
 funcNames
@@ -22561,7 +22564,7 @@ return
 true
 ;
 }
-moduleMeta
+codeMeta
 -
 >
 nameCustomSectionIndex
@@ -22613,6 +22616,7 @@ DecodeModuleNameSubsection
 (
 d
 nameSection
+codeMeta
 moduleMeta
 )
 )
@@ -22828,8 +22832,16 @@ cx
 options
 )
 ;
+RefPtr
+<
 CodeMetadata
+>
 codeMeta
+=
+js_new
+<
+CodeMetadata
+>
 (
 features
 )
@@ -22838,7 +22850,12 @@ if
 (
 !
 codeMeta
-.
+|
+|
+!
+codeMeta
+-
+>
 init
 (
 )
@@ -22857,7 +22874,6 @@ if
 DecodeModuleEnvironment
 (
 d
-&
 codeMeta
 &
 moduleMeta
@@ -22874,7 +22890,6 @@ if
 DecodeCodeSection
 (
 d
-&
 codeMeta
 )
 )
@@ -22889,7 +22904,6 @@ if
 DecodeModuleTail
 (
 d
-&
 codeMeta
 &
 moduleMeta
