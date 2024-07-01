@@ -268,6 +268,17 @@ aHandledResult
 )
 >
 ;
+struct
+InputBlockCallbackInfo
+{
+nsEventStatus
+mEagerStatus
+;
+InputBlockCallback
+mCallback
+;
+}
+;
 /
 *
 *
@@ -1117,7 +1128,7 @@ AddInputBlockCallback
 (
 uint64_t
 aInputBlockId
-InputBlockCallback
+InputBlockCallbackInfo
 &
 &
 aCallback
@@ -1963,7 +1974,7 @@ std
 unordered_map
 <
 uint64_t
-InputBlockCallback
+InputBlockCallbackInfo
 >
 ;
 InputBlockCallbackMap

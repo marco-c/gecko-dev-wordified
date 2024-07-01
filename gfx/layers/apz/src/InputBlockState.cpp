@@ -5089,7 +5089,6 @@ MultiTouchInput
 &
 aInput
 )
-const
 {
 if
 (
