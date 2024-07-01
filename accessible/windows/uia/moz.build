@@ -110,6 +110,11 @@ UiaRoot
 cpp
 "
 "
+UiaText
+.
+cpp
+"
+"
 UiaTextRange
 .
 cpp
