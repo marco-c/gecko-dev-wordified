@@ -286,6 +286,9 @@ PinchGestureBlockState
 class
 KeyboardBlockState
 ;
+class
+InputQueueIterator
+;
 enum
 class
 BrowserGestureResponse
@@ -481,8 +484,7 @@ AsyncPanZoomController
 aTargetApzc
 TargetConfirmationState
 aState
-InputData
-*
+InputQueueIterator
 aFirstInput
 bool
 aForScrollbarDrag
@@ -1311,8 +1313,7 @@ AsyncPanZoomController
 aTargetApzc
 TargetConfirmationState
 aState
-InputData
-*
+InputQueueIterator
 aFirstInput
 bool
 aForScrollbarDrag
@@ -1869,8 +1870,7 @@ AsyncPanZoomController
 aTargetApzc
 TargetConfirmationState
 aState
-InputData
-*
+InputQueueIterator
 aFirstInput
 bool
 aForScrollbarDrag
