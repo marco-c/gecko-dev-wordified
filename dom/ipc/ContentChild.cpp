@@ -11861,6 +11861,15 @@ defined
 (
 XP_WIN
 )
+if
+(
+GetEffectiveContentSandboxLevel
+(
+)
+>
+7
+)
+{
 /
 /
 Library
@@ -12113,6 +12122,7 @@ dll
 ;
 #
 endif
+}
 mozilla
 :
 :
