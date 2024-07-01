@@ -4514,6 +4514,7 @@ device
 :
 newDevice
 encryptedSendTabKeys
+encryptedCloseTabKeys
 }
 =
 await
@@ -4532,7 +4533,7 @@ newDevice
 registeredCommandsKeys
 .
 length
-1
+2
 )
 ;
 Assert
@@ -4540,6 +4541,14 @@ Assert
 notEqual
 (
 encryptedSendTabKeys
+null
+)
+;
+Assert
+.
+notEqual
+(
+encryptedCloseTabKeys
 null
 )
 ;
