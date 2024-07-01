@@ -57,6 +57,14 @@ MPL
 *
 /
 /
+*
+eslint
+-
+env
+webextensions
+*
+/
+/
 /
 This
 background
@@ -198,6 +206,9 @@ message
 action
 }
 )
+;
+return
+false
 ;
 }
 }

@@ -58,6 +58,14 @@ MPL
 /
 /
 *
+eslint
+-
+env
+webextensions
+*
+/
+/
+*
 *
 This
 web
@@ -181,8 +189,6 @@ forEach
 function
 (
 currentValue
-currentIndex
-listObj
 )
 {
 icons
@@ -250,8 +256,6 @@ forEach
 function
 (
 currentValue
-currentIndex
-listObj
 )
 {
 icons
@@ -306,8 +310,6 @@ forEach
 function
 (
 currentValue
-currentIndex
-listObj
 )
 {
 icons
