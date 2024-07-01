@@ -622,10 +622,6 @@ selected_result
 "
 input_field
 "
-selected_result_subtype
-:
-"
-"
 provider
 :
 undefined
@@ -892,10 +888,6 @@ selected_result
 "
 search_engine
 "
-selected_result_subtype
-:
-"
-"
 provider
 :
 "
@@ -1032,10 +1024,6 @@ selected_result
 "
 url
 "
-selected_result_subtype
-:
-"
-"
 provider
 :
 "
@@ -1057,10 +1045,6 @@ selected_result
 :
 "
 input_field
-"
-selected_result_subtype
-:
-"
 "
 provider
 :
