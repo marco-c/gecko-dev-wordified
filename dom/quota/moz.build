@@ -347,6 +347,11 @@ PersistenceType
 h
 "
 "
+PromiseUtils
+.
+h
+"
+"
 QuotaCommon
 .
 h
@@ -563,6 +568,11 @@ cpp
 "
 "
 PersistenceType
+.
+cpp
+"
+"
+PromiseUtils
 .
 cpp
 "
