@@ -1810,9 +1810,11 @@ importVec
 module
 -
 >
-imports
+moduleMeta
 (
 )
+.
+imports
 ;
 /
 /
