@@ -267,6 +267,10 @@ pm
 removePermissionsWithAttributes
 (
 aData
+[
+]
+[
+]
 )
 ;
 var
