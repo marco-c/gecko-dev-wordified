@@ -1353,10 +1353,7 @@ true
 ;
 }
 return
-XPCStringConvert
-:
-:
-ReadableToJSVal
+NonVoidStringToJsval
 (
 cx
 *
@@ -1821,10 +1818,7 @@ ASCII
 /
 NOTE
 :
-XPCStringConvert
-:
-:
-UTF8ToJSVal
+NonVoidUTF8StringToJsval
 cannot
 be
 used
@@ -1853,10 +1847,7 @@ utf8String
 )
 {
 return
-XPCStringConvert
-:
-:
-Latin1ToJSVal
+NonVoidLatin1StringToJsval
 (
 cx
 *
@@ -2231,10 +2222,7 @@ in
 JSAPI
 .
 return
-XPCStringConvert
-:
-:
-Latin1ToJSVal
+NonVoidLatin1StringToJsval
 (
 cx
 *
