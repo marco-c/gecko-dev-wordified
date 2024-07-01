@@ -8333,6 +8333,12 @@ return
 NS_OK
 ;
 }
+/
+/
+For
+testing
+purposes
+only
 NS_IMETHODIMP
 nsDNSService
 :
@@ -8354,7 +8360,7 @@ mParentalControlEnabled
 TRRService
 :
 :
-GetParentalControlEnabledInternal
+ReloadParentalControlsEnabled
 (
 )
 ;
