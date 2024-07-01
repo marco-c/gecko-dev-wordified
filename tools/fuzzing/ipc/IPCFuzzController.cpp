@@ -707,6 +707,15 @@ PRemoteLazyInputStream
 =
 9
 ;
+portNameToIndex
+[
+"
+PRemoteWorkerService
+"
+]
+=
+10
+;
 /
 /
 Used
