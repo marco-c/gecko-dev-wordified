@@ -1326,7 +1326,9 @@ browser
 await
 openProfilerTab
 (
+{
 profilerViewMode
+}
 )
 ;
 /

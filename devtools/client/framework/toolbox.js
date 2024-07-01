@@ -4528,6 +4528,15 @@ browser
 await
 openProfilerTab
 (
+{
+defaultPanel
+:
+"
+stack
+-
+chart
+"
+}
 )
 ;
 const
