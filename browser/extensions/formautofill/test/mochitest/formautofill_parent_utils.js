@@ -1371,7 +1371,6 @@ OSKeyStoreLogin
 msg
 =
 >
-{
 OSKeyStoreTestUtils
 .
 waitForOSKeyStoreLogin
@@ -1380,8 +1379,6 @@ msg
 .
 login
 )
-;
-}
 )
 ;
 addMessageListener

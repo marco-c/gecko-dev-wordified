@@ -60,9 +60,6 @@ cc
 -
 number
 "
-part
-:
-1
 }
 {
 fieldName
@@ -72,9 +69,6 @@ cc
 -
 number
 "
-part
-:
-2
 }
 {
 fieldName
@@ -84,9 +78,6 @@ cc
 -
 number
 "
-part
-:
-3
 }
 {
 fieldName
@@ -96,9 +87,6 @@ cc
 -
 number
 "
-part
-:
-4
 }
 {
 fieldName
