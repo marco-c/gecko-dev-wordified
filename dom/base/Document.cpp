@@ -85852,6 +85852,9 @@ MOZ_ASSERT
 mCloningForSVGUse
 )
 ;
+nsAutoScriptBlockerSuppressNodeRemoved
+blocker
+;
 mCloningForSVGUse
 =
 true
