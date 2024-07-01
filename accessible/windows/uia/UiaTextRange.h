@@ -874,6 +874,11 @@ mEndOffset
 -
 1
 ;
+bool
+mIsEndOfLineInsertionPoint
+=
+false
+;
 }
 ;
 }
