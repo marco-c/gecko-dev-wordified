@@ -1,19 +1,5 @@
 import
 pytest
-from
-webdriver
-.
-error
-import
-TimeoutException
-from
-tests
-.
-support
-.
-sync
-import
-AsyncPoll
 pytestmark
 =
 pytest
@@ -230,13 +216,5 @@ accepted
 "
 :
 accept
-        
-"
-type
-"
-:
-"
-beforeunload
-"
     
 }
