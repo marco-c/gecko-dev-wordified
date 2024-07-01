@@ -16420,8 +16420,6 @@ clang_rt
 asan_dynamic
 -
 {
-target
-.
 cpu
 }
 .
