@@ -6982,6 +6982,7 @@ nsFrameList
 EnsurePushedFloats
 (
 )
+MOZ_NONNULL_RETURN
 ;
 /
 /
