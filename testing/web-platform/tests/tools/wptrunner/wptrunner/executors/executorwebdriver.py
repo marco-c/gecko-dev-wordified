@@ -3513,7 +3513,20 @@ is_alive
 (
 self
 )
+-
+>
+bool
 :
+        
+if
+not
+self
+.
+webdriver
+:
+            
+return
+False
         
 try
 :
