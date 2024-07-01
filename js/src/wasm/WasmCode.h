@@ -1837,7 +1837,7 @@ uint8_t
 codePtr
 size_t
 *
-indexFirstInsertedCodeRange
+offsetInSegment
 )
 ;
 const
@@ -1929,7 +1929,7 @@ size_t
 funcIndex
 ;
 size_t
-lazyStubSegmentIndex
+lazyStubBlockIndex
 ;
 size_t
 funcCodeRangeIndex
@@ -1965,7 +1965,7 @@ LazyFuncExport
 size_t
 funcIndex
 size_t
-lazyStubSegmentIndex
+lazyStubBlockIndex
 size_t
 funcCodeRangeIndex
 Tier
@@ -1976,9 +1976,9 @@ funcIndex
 (
 funcIndex
 )
-lazyStubSegmentIndex
+lazyStubBlockIndex
 (
-lazyStubSegmentIndex
+lazyStubBlockIndex
 )
 funcCodeRangeIndex
 (
@@ -2086,9 +2086,6 @@ codeBlocks_
 LazyFuncExportVector
 exports_
 ;
-size_t
-lastStubSegmentIndex_
-;
 [
 [
 nodiscard
@@ -2111,7 +2108,7 @@ CodeBlock
 tierCodeBlock
 size_t
 *
-stubSegmentIndex
+stubBlockIndex
 )
 ;
 public
@@ -2119,13 +2116,9 @@ public
 LazyStubTier
 (
 )
-:
-lastStubSegmentIndex_
-(
-0
-)
-{
-}
+=
+default
+;
 /
 /
 Creates
@@ -2180,7 +2173,7 @@ entryStubsEmpty
 const
 {
 return
-stubSegments_
+codeBlocks_
 .
 empty
 (
@@ -2301,7 +2294,7 @@ Maybe
 size_t
 >
 *
-stubSegmentIndex
+outStubBlockIndex
 )
 ;
 void
@@ -2313,7 +2306,7 @@ Maybe
 size_t
 >
 &
-stubSegmentIndex
+stubBlockIndex
 const
 Code
 &
