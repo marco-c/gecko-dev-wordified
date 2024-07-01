@@ -506,6 +506,9 @@ EvalError
 FinalizationRegistry
 "
 "
+Float16Array
+"
+"
 Float32Array
 "
 "
