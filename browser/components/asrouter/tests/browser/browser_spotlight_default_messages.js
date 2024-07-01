@@ -799,6 +799,9 @@ selector
 win
 )
 {
+let
+el
+=
 await
 TestUtils
 .
@@ -818,14 +821,7 @@ selector
 )
 )
 ;
-win
-.
-document
-.
-querySelector
-(
-selector
-)
+el
 .
 click
 (
