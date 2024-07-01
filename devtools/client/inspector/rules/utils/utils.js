@@ -1123,6 +1123,13 @@ node
 dataset
 .
 variable
+startingStyleVariable
+:
+node
+.
+dataset
+.
+startingStyleVariable
 registeredProperty
 :
 {
