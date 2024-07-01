@@ -16722,7 +16722,7 @@ isPBM
 originAttributes
 .
 mPrivateBrowsingId
-=
+!
 =
 nsIScriptSecurityManager
 :
