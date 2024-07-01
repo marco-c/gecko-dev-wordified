@@ -198,6 +198,16 @@ mIsTopLevelCreatedByWebContent
 =
 false
 ;
+bool
+mHasValidUserGestureActivation
+=
+false
+;
+bool
+mTextDirectiveUserActivation
+=
+false
+;
 RefPtr
 <
 mozilla

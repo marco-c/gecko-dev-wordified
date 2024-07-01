@@ -2793,6 +2793,10 @@ const
 OriginAttributes
 &
 aOriginAttributes
+bool
+aUserActivation
+bool
+aTextDirectiveUserActivation
 CreateWindowResolver
 &
 &
@@ -2861,6 +2865,10 @@ const
 OriginAttributes
 &
 aOriginAttributes
+bool
+aUserActivation
+bool
+aTextDirectiveUserActivation
 )
 ;
 static
@@ -4332,6 +4340,10 @@ const
 OriginAttributes
 &
 aOriginAttributes
+bool
+aUserActivation
+bool
+aTextDirectiveUserActivation
 )
 ;
 explicit
