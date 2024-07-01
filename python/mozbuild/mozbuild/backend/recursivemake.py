@@ -3124,15 +3124,6 @@ HOST_CSRCS
                 
 "
 .
-mm
-"
-:
-"
-HOST_CMMSRCS
-"
-                
-"
-.
 cpp
 "
 :
