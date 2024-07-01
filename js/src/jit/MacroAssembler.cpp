@@ -28764,9 +28764,9 @@ const
 wasm
 :
 :
-ModuleEnvironment
+ModuleMetadata
 &
-env
+moduleMeta
 bool
 limitedSize
 )

@@ -1013,7 +1013,7 @@ offsetGuardLimit
 =
 GetMaxOffsetGuardLimit
 (
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -1266,7 +1266,7 @@ offsetGuardLimit
 =
 GetMaxOffsetGuardLimit
 (
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -1300,7 +1300,7 @@ offset
 uint64_t
 limit
 =
-moduleEnv_
+moduleMeta_
 .
 memories
 [
@@ -1457,7 +1457,7 @@ offsetGuardLimit
 =
 GetMaxOffsetGuardLimit
 (
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -1492,7 +1492,7 @@ addr
 uint64_t
 limit
 =
-moduleEnv_
+moduleMeta_
 .
 memories
 [
@@ -2778,7 +2778,7 @@ offsetGuardLimit
 =
 GetMaxOffsetGuardLimit
 (
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -3002,7 +3002,7 @@ it
 .
 if
 (
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -3117,7 +3117,7 @@ required
 if
 (
 !
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (
@@ -3180,7 +3180,7 @@ PageSize
 if
 (
 !
-moduleEnv_
+moduleMeta_
 .
 memories
 [
@@ -3199,7 +3199,7 @@ boundsCheckLimitIs32Bits
 &
 MaxMemoryPages
 (
-moduleEnv_
+moduleMeta_
 .
 memories
 [
@@ -3570,7 +3570,7 @@ true
 }
 return
 !
-moduleEnv_
+moduleMeta_
 .
 hugeMemoryEnabled
 (

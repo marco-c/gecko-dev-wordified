@@ -3044,7 +3044,7 @@ is
 stored
 in
 the
-ModuleEnvironment
+ModuleMetadata
 during
 compilation
 .
@@ -3396,7 +3396,7 @@ is
 stored
 in
 the
-ModuleEnvironment
+ModuleMetadata
 and
 CustomSection
 holds
