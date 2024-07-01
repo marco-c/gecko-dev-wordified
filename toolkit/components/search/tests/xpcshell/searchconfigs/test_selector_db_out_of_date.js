@@ -418,9 +418,6 @@ google
 ddg
 "
 "
-bing
-"
-"
 wikipedia
 "
 ]
