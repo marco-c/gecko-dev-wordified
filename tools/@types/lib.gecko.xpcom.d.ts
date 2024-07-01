@@ -72318,11 +72318,6 @@ id
 string
 ;
 readonly
-searchForm
-:
-string
-;
-readonly
 telemetryId
 :
 string

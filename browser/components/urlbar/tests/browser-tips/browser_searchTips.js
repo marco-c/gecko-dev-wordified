@@ -326,7 +326,8 @@ http
 url
 while
 the
-searchform
+search
+url
 /
 /
 of
