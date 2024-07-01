@@ -189,6 +189,12 @@ regexp
 -
 modifiers
 "
+        
+"
+promise
+-
+try
+"
     
 ]
 )
