@@ -2406,6 +2406,13 @@ click
 (
 )
 ;
+await
+helper
+.
+waitForOverlay
+(
+)
+;
 info
 (
 "
