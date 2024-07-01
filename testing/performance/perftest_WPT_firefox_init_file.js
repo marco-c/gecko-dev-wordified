@@ -182,13 +182,7 @@ test_parameters
 location
 :
 "
-ec2
--
-us
--
-east
--
-1
+IAD_US_01
 "
 browser
 :
@@ -479,9 +473,6 @@ browser_metrics
 [
 "
 firstContentfulPaint
-"
-"
-timeToContentfulPaint
 "
 "
 visualComplete90
