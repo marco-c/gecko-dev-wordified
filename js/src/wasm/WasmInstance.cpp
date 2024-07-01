@@ -1016,7 +1016,7 @@ data
 (
 )
 +
-metadata
+codeMeta
 (
 )
 .
@@ -1169,7 +1169,7 @@ data
 (
 )
 +
-metadata
+codeMeta
 (
 )
 .
@@ -1208,7 +1208,7 @@ data
 (
 )
 +
-metadata
+codeMeta
 (
 )
 .
@@ -1247,7 +1247,7 @@ data
 (
 )
 +
-metadata
+codeMeta
 (
 )
 .
@@ -1951,7 +1951,7 @@ FuncType
 &
 funcType
 =
-metadata
+codeMeta
 (
 )
 .
@@ -6574,7 +6574,7 @@ elemSegments
 {
 MOZ_ASSERT_IF
 (
-metadata
+codeMeta
 (
 )
 .
@@ -16654,7 +16654,7 @@ MOZ_ASSERT
 maybeDebug_
 =
 =
-metadata
+codeMeta
 (
 )
 .
@@ -16710,7 +16710,7 @@ length
 )
 =
 =
-metadata
+codeMeta
 (
 )
 .
@@ -16820,7 +16820,7 @@ SharedTypeContext
 &
 types
 =
-metadata
+codeMeta
 (
 )
 .
@@ -17499,7 +17499,7 @@ FuncType
 &
 funcType
 =
-metadata
+codeMeta
 (
 )
 .
@@ -17582,7 +17582,7 @@ FuncType
 &
 funcType
 =
-metadata
+codeMeta
 (
 )
 .
@@ -17941,7 +17941,7 @@ i
 ;
 i
 <
-metadata
+codeMeta
 (
 )
 .
@@ -17964,7 +17964,7 @@ GlobalDesc
 &
 global
 =
-metadata
+codeMeta
 (
 )
 .
@@ -18249,7 +18249,7 @@ MOZ_ASSERT
 maxInitializedGlobalsIndexPlus1_
 =
 =
-metadata
+codeMeta
 (
 )
 .
@@ -18293,7 +18293,7 @@ MemoryDesc
 &
 md
 =
-metadata
+codeMeta
 (
 )
 .
@@ -18530,7 +18530,7 @@ TableDesc
 &
 td
 =
-metadata
+codeMeta
 (
 )
 .
@@ -18731,7 +18731,7 @@ TableDesc
 &
 td
 =
-metadata
+codeMeta
 (
 )
 .
@@ -18796,7 +18796,7 @@ i
 ;
 i
 <
-metadata
+codeMeta
 (
 )
 .
@@ -18852,7 +18852,7 @@ table
 .
 if
 (
-metadata
+codeMeta
 (
 )
 .
@@ -18862,7 +18862,7 @@ debugEnabled
 size_t
 numFuncs
 =
-metadata
+codeMeta
 (
 )
 .
@@ -19562,7 +19562,7 @@ memoryIndex
 ;
 memoryIndex
 <
-metadata
+codeMeta
 (
 )
 .
@@ -19819,7 +19819,7 @@ code
 (
 )
 .
-metadata
+codeMeta
 (
 )
 .
@@ -19888,7 +19888,7 @@ code
 (
 )
 .
-metadata
+codeMeta
 (
 )
 .
@@ -19993,7 +19993,7 @@ code
 (
 )
 .
-metadata
+codeMeta
 (
 )
 .
@@ -20030,7 +20030,7 @@ SharedTypeContext
 &
 types
 =
-metadata
+codeMeta
 (
 )
 .
@@ -21694,13 +21694,13 @@ bestTier
 )
 ;
 const
-Metadata
+CodeMetadata
 &
-metadata
+codeMeta
 =
 instance
 .
-metadata
+codeMeta
 (
 )
 ;
@@ -21733,7 +21733,7 @@ stubs
 createOneEntryStub
 (
 funcExportIndex
-metadata
+codeMeta
 codeTier
 )
 )
@@ -21859,7 +21859,7 @@ stubs2
 createOneEntryStub
 (
 funcExportIndex
-metadata
+codeMeta
 codeTier
 )
 )
@@ -21948,7 +21948,7 @@ funcType
 &
 instance
 .
-metadata
+codeMeta
 (
 )
 .
@@ -24159,7 +24159,7 @@ GlobalDesc
 &
 global
 =
-metadata
+codeMeta
 (
 )
 .
@@ -24643,6 +24643,21 @@ metadata
 getFuncNameBeforeLocation
 (
 funcIndex
+codeMeta
+(
+)
+.
+namePayload
+codeMeta
+(
+)
+.
+moduleName
+codeMeta
+(
+)
+.
+funcNames
 &
 name
 )
@@ -24730,7 +24745,7 @@ i
 ;
 i
 <
-metadata
+codeMeta
 (
 )
 .
@@ -25144,7 +25159,7 @@ Response
 .
 if
 (
-metadata
+codeMeta
 (
 )
 .
@@ -25156,7 +25171,7 @@ char
 *
 filename
 =
-metadata
+codeMeta
 (
 )
 .
@@ -25272,7 +25287,7 @@ char
 *
 filename
 =
-metadata
+codeMeta
 (
 )
 .
@@ -25377,7 +25392,7 @@ nullptr
 }
 if
 (
-metadata
+codeMeta
 (
 )
 .
@@ -25406,7 +25421,7 @@ ModuleHash
 &
 hash
 =
-metadata
+codeMeta
 (
 )
 .
@@ -25740,6 +25755,12 @@ Metadata
 SeenSet
 *
 seenMetadata
+CodeMetadata
+:
+:
+SeenSet
+*
+seenCodeMeta
 Code
 :
 :
@@ -25806,6 +25827,7 @@ addSizeOfMisc
 (
 mallocSizeOf
 seenMetadata
+seenCodeMeta
 seenCode
 code
 data
@@ -25819,6 +25841,7 @@ addSizeOfMiscIfNotSeen
 (
 mallocSizeOf
 seenMetadata
+seenCodeMeta
 seenCode
 code
 data

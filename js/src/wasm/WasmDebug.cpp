@@ -348,7 +348,7 @@ MOZ_RELEASE_ASSERT
 (
 code
 .
-metadata
+codeMeta
 (
 )
 .
@@ -2085,7 +2085,7 @@ metadata
 uint32_t
 numFuncs
 =
-metadata
+codeMeta
 (
 )
 .
@@ -2437,7 +2437,7 @@ TypeContext
 types
 =
 *
-metadata
+codeMeta
 (
 )
 .
@@ -2448,7 +2448,7 @@ FuncType
 &
 funcType
 =
-metadata
+codeMeta
 (
 )
 .
@@ -2649,7 +2649,7 @@ GlobalDesc
 &
 global
 =
-metadata
+codeMeta
 (
 )
 .
@@ -3440,7 +3440,7 @@ char
 *
 sourceMapURL
 =
-metadata
+codeMeta
 (
 )
 .
@@ -3520,6 +3520,12 @@ Metadata
 SeenSet
 *
 seenMetadata
+CodeMetadata
+:
+:
+SeenSet
+*
+seenCodeMeta
 Code
 :
 :
@@ -3542,6 +3548,7 @@ addSizeOfMiscIfNotSeen
 (
 mallocSizeOf
 seenMetadata
+seenCodeMeta
 seenCode
 code
 data
@@ -3554,6 +3561,7 @@ addSizeOfMisc
 (
 mallocSizeOf
 seenMetadata
+seenCodeMeta
 seenCode
 code
 data

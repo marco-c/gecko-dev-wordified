@@ -9540,7 +9540,7 @@ funcType
 =
 inst
 .
-metadata
+codeMeta
 (
 )
 .
