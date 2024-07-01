@@ -1397,10 +1397,12 @@ env
 MOZHARNESS_TEST_TAG
 "
 :
+json
+.
+dumps
+(
 tag
-[
-0
-]
+)
             
 }
         

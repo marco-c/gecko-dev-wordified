@@ -117,6 +117,8 @@ get_manifest_loader
     
 get_runtimes
     
+get_test_tags
+    
 guess_mozinfo_from_task
 )
 from
@@ -750,14 +752,15 @@ head_repository
 "
 )
             
+get_test_tags
+(
 config
-.
-params
+task
 .
 get
 (
 "
-try_task_config
+worker
 "
 {
 }
@@ -770,6 +773,7 @@ env
 "
 {
 }
+)
 )
         
 )
@@ -1357,19 +1361,19 @@ continue
 elif
 (
             
+get_test_tags
+(
 config
-.
-params
+task
 .
 get
 (
 "
-try_task_config
+worker
 "
 {
 }
 )
-            
 .
 get
 (
@@ -1379,15 +1383,6 @@ env
 {
 }
 )
-            
-.
-get
-(
-"
-MOZHARNESS_TEST_TAG
-"
-"
-"
 )
             
 and
