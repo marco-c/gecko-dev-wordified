@@ -65670,7 +65670,7 @@ break
 ;
 case
 "
-abstract
+abstracts
 "
 :
 fluent_id
