@@ -140,6 +140,14 @@ MOZ_HAS_MOZGLUE
 ]
 =
 True
+LIBRARY_DEFINES
+[
+"
+MOZ_SUPPORT_LEAKCHECKING
+"
+]
+=
+True
 #
 JavaScript
 must
