@@ -1107,9 +1107,6 @@ close
 void
 OnEvent
 (
-StreamInterface
-*
-stream
 int
 events
 int

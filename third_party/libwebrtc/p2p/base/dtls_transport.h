@@ -1707,12 +1707,6 @@ transport
 void
 OnDtlsEvent
 (
-rtc
-:
-:
-StreamInterface
-*
-stream_
 int
 sig
 int
