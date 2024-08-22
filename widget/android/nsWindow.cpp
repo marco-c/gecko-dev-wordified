@@ -17370,7 +17370,7 @@ SetDragEndPoint
 point
 )
 ;
-dragService
+dragSession
 -
 >
 FireDragEventAtSource

@@ -24565,15 +24565,7 @@ to
 stop
 the
 drag
-nsCOMPtr
-<
-nsIDragService
->
-dragService
-=
-mDragService
-;
-dragService
+dragSession
 -
 >
 FireDragEventAtSource

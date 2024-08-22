@@ -1141,7 +1141,7 @@ NS_ERROR_UNEXPECTED
 ;
 rv
 =
-ds
+currentDragSession
 -
 >
 FireDragEventAtSource
@@ -1153,6 +1153,12 @@ eDrag
 aKeyModifiers
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 currentDragSession
 -
 >
@@ -1162,12 +1168,6 @@ nsIDragService
 :
 :
 DRAGDROP_ACTION_MOVE
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 widget
