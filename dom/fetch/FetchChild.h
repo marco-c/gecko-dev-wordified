@@ -490,6 +490,12 @@ mIsKeepAliveRequest
 false
 }
 ;
+uint64_t
+mKeepaliveRequestSize
+{
+0
+}
+;
 RefPtr
 <
 Promise
