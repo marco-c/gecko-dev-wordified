@@ -357,7 +357,13 @@ class
 CodeRange
 ;
 class
-CodeBlock
+CodeTier
+;
+class
+ModuleSegment
+;
+struct
+MetadataTier
 ;
 class
 Decoder
