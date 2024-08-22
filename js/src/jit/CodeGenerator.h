@@ -2544,17 +2544,6 @@ zoneStubsToReadBarrier_
 ifdef
 FUZZING_JS_FUZZILLI
 void
-emitFuzzilliHashDouble
-(
-FloatRegister
-floatDouble
-Register
-scratch
-Register
-output
-)
-;
-void
 emitFuzzilliHashObject
 (
 LInstruction
@@ -2569,6 +2558,9 @@ output
 void
 emitFuzzilliHashBigInt
 (
+LInstruction
+*
+lir
 Register
 bigInt
 Register
