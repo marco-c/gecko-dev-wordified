@@ -1588,10 +1588,6 @@ dbg_addr_
 endif
 private
 :
-const
-bool
-read_scm_timestamp_experiment_
-;
 uint8_t
 enabled_events_
 =
