@@ -1970,11 +1970,7 @@ tests
 trusted_rate_controller_
 (
 RateControlSettings
-:
-:
-ParseFromKeyValueConfig
 (
-&
 env
 .
 field_trials

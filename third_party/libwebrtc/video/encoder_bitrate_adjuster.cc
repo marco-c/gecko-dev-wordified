@@ -326,11 +326,7 @@ field_trials
 utilize_bandwidth_headroom_
 (
 RateControlSettings
-:
-:
-ParseFromKeyValueConfig
 (
-&
 field_trials
 )
 .

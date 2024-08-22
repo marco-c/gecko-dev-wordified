@@ -2762,11 +2762,7 @@ webrtc
 :
 :
 RateControlSettings
-:
-:
-ParseFromKeyValueConfig
 (
-&
 trials
 )
 .

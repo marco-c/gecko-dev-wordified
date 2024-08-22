@@ -2203,17 +2203,10 @@ interface
 )
 rate_control_settings_
 (
-RateControlSettings
-:
-:
-ParseFromKeyValueConfig
-(
-&
 env_
 .
 field_trials
 (
-)
 )
 )
 resolution_bitrate_limits_
