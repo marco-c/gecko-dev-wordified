@@ -5014,7 +5014,7 @@ itself
 *
 /
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 DragMoved
