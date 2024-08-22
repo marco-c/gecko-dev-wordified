@@ -1504,13 +1504,13 @@ initial_config_
 >
 stream_based_config
 .
-initial_probe_to_max_bitrate
+enable_repeated_initial_probing
 )
 {
 probe_controller_
 -
 >
-SetFirstProbeToMaxBitrate
+EnableRepeatedInitialProbing
 (
 *
 initial_config_
@@ -1518,7 +1518,7 @@ initial_config_
 >
 stream_based_config
 .
-initial_probe_to_max_bitrate
+enable_repeated_initial_probing
 )
 ;
 }
