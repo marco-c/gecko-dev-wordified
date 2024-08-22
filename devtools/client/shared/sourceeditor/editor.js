@@ -4625,6 +4625,11 @@ codemirrorState
 EditorState
 Compartment
 }
+codemirrorSearch
+:
+{
+highlightSelectionMatches
+}
 codemirrorLanguage
 codemirrorLangJavascript
 lezerHighlight
@@ -5031,6 +5036,9 @@ searchHighlighterExtension
 [
 ]
 )
+)
+highlightSelectionMatches
+(
 )
 /
 /
