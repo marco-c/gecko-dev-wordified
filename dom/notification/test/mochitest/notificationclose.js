@@ -57,7 +57,7 @@ clients
 openWindow
 (
 "
-hello
+blank
 .
 html
 "
