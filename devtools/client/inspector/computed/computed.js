@@ -723,13 +723,12 @@ threshold
 |
 45
 ;
-this
-.
+}
+#
 canceled
 =
 false
 ;
-}
 #
 timeout
 =
@@ -788,6 +787,7 @@ if
 (
 this
 .
+#
 canceled
 )
 {
@@ -869,6 +869,7 @@ null
 }
 this
 .
+#
 canceled
 =
 true
@@ -949,6 +950,7 @@ while
 !
 this
 .
+#
 canceled
 )
 {
@@ -5826,6 +5828,7 @@ name
 {
 this
 .
+#
 tree
 =
 tree
@@ -5837,6 +5840,9 @@ name
 name
 ;
 }
+#
+tree
+;
 get
 isSupported
 (
@@ -5890,6 +5896,7 @@ Bug
 return
 this
 .
+#
 tree
 .
 computed
@@ -5901,6 +5908,7 @@ name
 in
 this
 .
+#
 tree
 .
 computed
@@ -5923,6 +5931,7 @@ value
 =
 this
 .
+#
 tree
 .
 computed
@@ -6036,6 +6045,7 @@ false
 {
 this
 .
+#
 tree
 =
 tree
@@ -6103,6 +6113,7 @@ win
 =
 this
 .
+#
 tree
 .
 styleWindow
@@ -6131,15 +6142,6 @@ the
 open
 attribute
 element
-=
-null
-;
-/
-/
-Property
-header
-node
-propertyHeader
 =
 null
 ;
@@ -6190,6 +6192,7 @@ null
 Matched
 selector
 expando
+#
 matchedExpander
 =
 null
@@ -6241,6 +6244,9 @@ PropertyInfo
 propertyInfo
 =
 null
+;
+#
+tree
 ;
 /
 *
@@ -6341,6 +6347,7 @@ hasMatchedSelectors
 return
 this
 .
+#
 tree
 .
 matchedProperties
@@ -6375,6 +6382,7 @@ if
 !
 this
 .
+#
 tree
 .
 viewedElement
@@ -6389,6 +6397,7 @@ if
 !
 this
 .
+#
 tree
 .
 includeBrowserStyles
@@ -6409,6 +6418,7 @@ searchTerm
 =
 this
 .
+#
 tree
 .
 searchField
@@ -6557,6 +6567,7 @@ invalidAtComputedValueTime
 return
 this
 .
+#
 tree
 .
 computed
@@ -6611,6 +6622,7 @@ registeredPropertySyntax
 return
 this
 .
+#
 tree
 .
 computed
@@ -6655,6 +6667,7 @@ doc
 =
 this
 .
+#
 tree
 .
 styleDocument
@@ -6762,6 +6775,7 @@ window
 :
 this
 .
+#
 tree
 .
 styleWindow
@@ -6879,6 +6893,7 @@ expand
 collapse
 this
 .
+#
 matchedExpander
 =
 doc
@@ -6892,6 +6907,7 @@ div
 ;
 this
 .
+#
 matchedExpander
 .
 className
@@ -6907,6 +6923,7 @@ twisty
 ;
 this
 .
+#
 matchedExpander
 .
 setAttribute
@@ -6921,6 +6938,7 @@ button
 ;
 this
 .
+#
 matchedExpander
 .
 setAttribute
@@ -6935,6 +6953,7 @@ L10N_TWISTY_EXPAND_LABEL
 ;
 this
 .
+#
 matchedExpander
 .
 addEventListener
@@ -7504,6 +7523,7 @@ append
 (
 this
 .
+#
 matchedExpander
 nameContainer
 valueContainer
@@ -7577,6 +7597,7 @@ prevViewedElement
 =
 this
 .
+#
 tree
 .
 viewedElement
@@ -7596,6 +7617,7 @@ prevViewedElement
 =
 this
 .
+#
 tree
 .
 viewedElement
@@ -7606,6 +7628,7 @@ if
 !
 this
 .
+#
 tree
 .
 viewedElement
@@ -7653,6 +7676,7 @@ textContent
 ;
 this
 .
+#
 matchedExpander
 .
 removeAttribute
@@ -7664,6 +7688,7 @@ open
 ;
 this
 .
+#
 matchedExpander
 .
 setAttribute
@@ -7681,6 +7706,7 @@ return
 }
 this
 .
+#
 tree
 .
 numVisibleProperties
@@ -7692,6 +7718,7 @@ outputParser
 =
 this
 .
+#
 tree
 .
 outputParser
@@ -7834,6 +7861,7 @@ hasMatchedSelectors
 {
 this
 .
+#
 matchedExpander
 .
 classList
@@ -7852,6 +7880,7 @@ else
 {
 this
 .
+#
 matchedExpander
 .
 classList
@@ -7879,6 +7908,7 @@ hasMatchedSelectors
 return
 this
 .
+#
 tree
 .
 viewedElementPageStyle
@@ -7887,6 +7917,7 @@ getMatchedSelectors
 (
 this
 .
+#
 tree
 .
 viewedElement
@@ -7928,6 +7959,7 @@ buildMatchedSelectors
 ;
 this
 .
+#
 matchedExpander
 .
 setAttribute
@@ -7941,6 +7973,7 @@ open
 ;
 this
 .
+#
 matchedExpander
 .
 setAttribute
@@ -7955,6 +7988,7 @@ L10N_TWISTY_COLLAPSE_LABEL
 ;
 this
 .
+#
 tree
 .
 inspector
@@ -7994,6 +8028,7 @@ innerHTML
 ;
 this
 .
+#
 matchedExpander
 .
 removeAttribute
@@ -8005,6 +8040,7 @@ open
 ;
 this
 .
+#
 matchedExpander
 .
 setAttribute
@@ -8019,6 +8055,7 @@ L10N_TWISTY_EXPAND_LABEL
 ;
 this
 .
+#
 tree
 .
 inspector
@@ -8298,6 +8335,7 @@ window
 :
 this
 .
+#
 tree
 .
 styleWindow
@@ -8658,6 +8696,7 @@ SelectorView
 (
 this
 .
+#
 tree
 selectorInfo
 )
@@ -8900,6 +8939,7 @@ null
 ;
 this
 .
+#
 matchedExpander
 =
 null
@@ -8958,6 +8998,7 @@ selectorInfo
 {
 this
 .
+#
 tree
 =
 tree
@@ -9108,6 +9149,7 @@ sourceSuffix
 ;
 this
 .
+#
 generatedLocation
 =
 {
@@ -9136,10 +9178,12 @@ column
 ;
 this
 .
-sourceMapURLService
+#
+unsubscribeCallback
 =
 this
 .
+#
 tree
 .
 inspector
@@ -9147,20 +9191,12 @@ inspector
 toolbox
 .
 sourceMapURLService
-;
-this
-.
-#
-unsubscribeCallback
-=
-this
-.
-sourceMapURLService
 .
 subscribeByID
 (
 this
 .
+#
 generatedLocation
 .
 sheet
@@ -9168,11 +9204,13 @@ sheet
 resourceId
 this
 .
+#
 generatedLocation
 .
 line
 this
 .
+#
 generatedLocation
 .
 column
@@ -9185,7 +9223,13 @@ updateLocation
 }
 }
 #
+generatedLocation
+;
+#
 href
+;
+#
+tree
 ;
 #
 unsubscribeCallback
@@ -9594,6 +9638,7 @@ outputParser
 =
 this
 .
+#
 tree
 .
 outputParser
@@ -9736,6 +9781,7 @@ if
 !
 this
 .
+#
 tree
 .
 element
@@ -9768,6 +9814,7 @@ currentLocation
 =
 this
 .
+#
 generatedLocation
 ;
 if
@@ -9819,6 +9866,7 @@ link
 =
 this
 .
+#
 tree
 .
 element
@@ -9860,6 +9908,7 @@ text
 }
 this
 .
+#
 tree
 .
 inspector
@@ -9953,6 +10002,7 @@ inspector
 =
 this
 .
+#
 tree
 .
 inspector
@@ -10068,6 +10118,7 @@ column
 =
 this
 .
+#
 generatedLocation
 ;
 if
