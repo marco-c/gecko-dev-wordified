@@ -1213,6 +1213,17 @@ media
 -
 jxl
 "
+group
+:
+"
+experimental
+-
+features
+-
+group
+-
+browsing
+"
 description
 :
 "
