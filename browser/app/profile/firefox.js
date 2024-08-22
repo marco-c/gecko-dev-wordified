@@ -31631,17 +31631,6 @@ the
 Rules
 view
 .
-/
-/
-Should
-be
-removed
-when
-Bug
-1905035
-is
-fixed
-.
 pref
 (
 "
@@ -31657,7 +31646,7 @@ starting
 -
 style
 "
-false
+true
 )
 ;
 /
