@@ -10451,12 +10451,17 @@ helper
 to
 determine
 whether
+mutation
+events
+are
+enabled
+and
 there
 are
+*
 any
 mutation
 listeners
-*
 of
 a
 given
@@ -10469,6 +10474,7 @@ content
 or
 any
 of
+*
 its
 ancestors
 .
@@ -10546,7 +10552,7 @@ type
 /
 static
 bool
-HasMutationListeners
+WantMutationEvents
 (
 nsINode
 *

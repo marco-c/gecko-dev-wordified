@@ -1592,7 +1592,7 @@ aNotify
 nsContentUtils
 :
 :
-HasMutationListeners
+WantMutationEvents
 (
 this
 NS_EVENT_BITS_MUTATION_CHARACTERDATAMODIFIED
