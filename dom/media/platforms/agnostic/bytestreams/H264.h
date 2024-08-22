@@ -158,6 +158,7 @@ H264_PROFILE_HIGH
 }
 ;
 enum
+class
 H264_LEVEL
 {
 H264_LEVEL_1
@@ -211,6 +212,15 @@ H264_LEVEL_5_1
 H264_LEVEL_5_2
 =
 52
+H264_LEVEL_6
+=
+60
+H264_LEVEL_6_1
+=
+61
+H264_LEVEL_6_2
+=
+62
 }
 ;
 /
@@ -3301,7 +3311,7 @@ uint8_t
 aProfile
 uint8_t
 aConstraints
-uint8_t
+H264_LEVEL
 aLevel
 const
 gfx
