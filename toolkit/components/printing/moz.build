@@ -106,6 +106,13 @@ browser
 .
 toml
 "
+"
+tests
+/
+browserSidebarRevamp
+.
+toml
+"
 ]
 with
 Files

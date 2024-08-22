@@ -50,14 +50,6 @@ set
 "
 sidebar
 .
-revamp
-"
-true
-]
-[
-"
-sidebar
-.
 verticalTabs
 "
 false

@@ -3324,6 +3324,17 @@ browser
 .
 toml
 "
+"
+apz
+/
+test
+/
+mochitest
+/
+browserSidebarRevamp
+.
+toml
+"
 ]
 if
 CONFIG
