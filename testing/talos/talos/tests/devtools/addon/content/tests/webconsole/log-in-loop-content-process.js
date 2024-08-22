@@ -172,7 +172,7 @@ function
 let
 TOTAL_MESSAGES
 =
-1000
+5000
 ;
 let
 tab
