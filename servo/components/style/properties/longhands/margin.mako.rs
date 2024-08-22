@@ -82,6 +82,7 @@ from
 data
 import
 ALL_SIDES
+DEFAULT_RULES
 DEFAULT_RULES_AND_PAGE
 maybe_moz_logical_alias
 %
@@ -251,6 +252,13 @@ spec
 spec
 rule_types_allowed
 =
+DEFAULT_RULES
+if
+side
+[
+1
+]
+else
 DEFAULT_RULES_AND_PAGE
 servo_restyle_damage
 =

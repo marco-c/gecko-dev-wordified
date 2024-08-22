@@ -2929,6 +2929,11 @@ CSS2Properties
 .
 webidl
 "
+"
+CSSPageDescriptors
+.
+webidl
+"
 ]
 PREPROCESSED_WEBIDL_FILES
 =
