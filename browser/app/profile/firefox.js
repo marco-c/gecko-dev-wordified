@@ -36143,7 +36143,7 @@ sqlite
 .
 pages_per_step
 "
-50
+5
 )
 ;
 /
@@ -36169,7 +36169,7 @@ sqlite
 .
 step_delay_ms
 "
-50
+250
 )
 ;
 pref
