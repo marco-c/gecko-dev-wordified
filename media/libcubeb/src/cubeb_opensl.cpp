@@ -73,6 +73,11 @@ h
 #
 include
 <
+memory
+>
+#
+include
+<
 pthread
 .
 h
