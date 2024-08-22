@@ -4203,6 +4203,13 @@ aWindowId
 )
 override
 {
+RendererStats
+stats
+=
+{
+0
+}
+;
 aRenderThread
 .
 UpdateAndRender
@@ -4233,6 +4240,8 @@ Some
 (
 mBuffer
 )
+&
+stats
 mNeedsYFlip
 )
 ;
