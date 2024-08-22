@@ -2117,6 +2117,11 @@ wrapObjectCallbacks
 >
 preWrap
 ;
+if
+(
+preWrap
+)
+{
 AutoCheckRecursionLimit
 recursion
 (
@@ -2138,11 +2143,6 @@ return
 false
 ;
 }
-if
-(
-preWrap
-)
-{
 preWrap
 (
 cx
