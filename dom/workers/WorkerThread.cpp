@@ -1105,7 +1105,7 @@ WorkerThreadFriendKey
 aKey
 *
 /
-already_AddRefed
+RefPtr
 <
 WorkerRunnable
 >
@@ -1171,15 +1171,6 @@ AssertIsOnWorkerThread
 }
 #
 endif
-nsCOMPtr
-<
-nsIRunnable
->
-runnable
-(
-aWorkerRunnable
-)
-;
 nsresult
 rv
 =
@@ -1188,7 +1179,7 @@ nsThread
 :
 Dispatch
 (
-runnable
+aWorkerRunnable
 .
 forget
 (

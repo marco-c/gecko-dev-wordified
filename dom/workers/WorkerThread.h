@@ -505,7 +505,7 @@ const
 WorkerThreadFriendKey
 &
 aKey
-already_AddRefed
+RefPtr
 <
 WorkerRunnable
 >
