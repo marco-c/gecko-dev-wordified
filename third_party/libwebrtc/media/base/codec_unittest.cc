@@ -164,12 +164,6 @@ using
 cricket
 :
 :
-AudioCodec
-;
-using
-cricket
-:
-:
 Codec
 ;
 using
@@ -195,12 +189,6 @@ cricket
 :
 :
 kCodecParamMinBitrate
-;
-using
-cricket
-:
-:
-VideoCodec
 ;
 class
 TestCodec
@@ -455,7 +443,7 @@ CodecTest
 TestAudioCodecOperators
 )
 {
-AudioCodec
+Codec
 c0
 =
 cricket
@@ -471,7 +459,7 @@ A
 2
 )
 ;
-AudioCodec
+Codec
 c1
 =
 cricket
@@ -487,7 +475,7 @@ A
 2
 )
 ;
-AudioCodec
+Codec
 c2
 =
 cricket
@@ -503,7 +491,7 @@ x
 2
 )
 ;
-AudioCodec
+Codec
 c3
 =
 cricket
@@ -519,7 +507,7 @@ A
 2
 )
 ;
-AudioCodec
+Codec
 c4
 =
 cricket
@@ -541,7 +529,7 @@ bitrate
 =
 10000
 ;
-AudioCodec
+Codec
 c5
 =
 cricket
@@ -587,7 +575,7 @@ c0
 c5
 )
 ;
-AudioCodec
+Codec
 c8
 =
 cricket
@@ -602,7 +590,7 @@ CreateAudioCodec
 0
 )
 ;
-AudioCodec
+Codec
 c9
 =
 c0
@@ -613,25 +601,25 @@ c9
 c0
 )
 ;
-AudioCodec
+Codec
 c10
 (
 c0
 )
 ;
-AudioCodec
+Codec
 c11
 (
 c0
 )
 ;
-AudioCodec
+Codec
 c12
 (
 c0
 )
 ;
-AudioCodec
+Codec
 c13
 (
 c0
@@ -735,7 +723,7 @@ c10
 TEST
 (
 CodecTest
-TestAudioCodecMatches
+TestCodecMatches
 )
 {
 /
@@ -749,7 +737,7 @@ static
 payload
 type
 .
-AudioCodec
+Codec
 c0
 =
 cricket
@@ -977,7 +965,7 @@ dynamic
 payload
 type
 .
-AudioCodec
+Codec
 c1
 =
 cricket
@@ -1237,7 +1225,7 @@ and
 auto
 bitrate
 .
-AudioCodec
+Codec
 c2
 =
 cricket
@@ -1378,7 +1366,7 @@ channels
 =
 0
 .
-AudioCodec
+Codec
 c3
 =
 cricket
@@ -1464,7 +1452,7 @@ CodecTest
 TestOpusAudioCodecWithDifferentParameters
 )
 {
-AudioCodec
+Codec
 opus_with_fec
 =
 cricket
@@ -1493,7 +1481,7 @@ useinbandfec
 1
 "
 ;
-AudioCodec
+Codec
 opus_without_fec
 =
 cricket
@@ -1584,7 +1572,7 @@ CodecTest
 TestVideoCodecOperators
 )
 {
-VideoCodec
+Codec
 c0
 =
 cricket
@@ -1598,7 +1586,7 @@ V
 "
 )
 ;
-VideoCodec
+Codec
 c1
 =
 cricket
@@ -1612,7 +1600,7 @@ V
 "
 )
 ;
-VideoCodec
+Codec
 c2
 =
 cricket
@@ -1642,7 +1630,7 @@ c0
 c2
 )
 ;
-VideoCodec
+Codec
 c8
 =
 cricket
@@ -1655,7 +1643,7 @@ CreateVideoCodec
 "
 )
 ;
-VideoCodec
+Codec
 c9
 =
 c0
@@ -1668,25 +1656,25 @@ c9
 c0
 )
 ;
-VideoCodec
+Codec
 c10
 (
 c0
 )
 ;
-VideoCodec
+Codec
 c11
 (
 c0
 )
 ;
-VideoCodec
+Codec
 c12
 (
 c0
 )
 ;
-VideoCodec
+Codec
 c13
 (
 c0
@@ -1807,7 +1795,7 @@ CodecTest
 TestVideoCodecEqualsWithDifferentPacketization
 )
 {
-VideoCodec
+Codec
 c0
 =
 cricket
@@ -1822,7 +1810,7 @@ cricket
 kVp8CodecName
 )
 ;
-VideoCodec
+Codec
 c1
 =
 cricket
@@ -1837,7 +1825,7 @@ cricket
 kVp8CodecName
 )
 ;
-VideoCodec
+Codec
 c2
 =
 cricket
@@ -1902,7 +1890,7 @@ static
 payload
 type
 .
-VideoCodec
+Codec
 c0
 =
 cricket
@@ -1982,7 +1970,7 @@ dynamic
 payload
 type
 .
-VideoCodec
+Codec
 c1
 =
 cricket
@@ -2192,7 +2180,7 @@ CodecTest
 TestVideoCodecMatchesWithDifferentPacketization
 )
 {
-VideoCodec
+Codec
 c0
 =
 cricket
@@ -2207,7 +2195,7 @@ cricket
 kVp8CodecName
 )
 ;
-VideoCodec
+Codec
 c1
 =
 cricket
@@ -2295,7 +2283,7 @@ kProfile2
 2
 "
 ;
-VideoCodec
+Codec
 c_no_profile
 =
 cricket
@@ -2310,7 +2298,7 @@ cricket
 kAv1CodecName
 )
 ;
-VideoCodec
+Codec
 c_profile0
 =
 cricket
@@ -2337,7 +2325,7 @@ kAv1FmtpProfile
 =
 kProfile0
 ;
-VideoCodec
+Codec
 c_profile1
 =
 cricket
@@ -2364,7 +2352,7 @@ kAv1FmtpProfile
 =
 kProfile1
 ;
-VideoCodec
+Codec
 c_profile2
 =
 cricket
@@ -2433,7 +2421,7 @@ treated
 as
 duplicates
 .
-VideoCodec
+Codec
 c_no_profile_eq
 =
 cricket
@@ -2474,7 +2462,7 @@ treated
 as
 duplicates
 .
-VideoCodec
+Codec
 c_profile0_eq
 =
 cricket
@@ -2527,7 +2515,7 @@ treated
 as
 duplicates
 .
-VideoCodec
+Codec
 c_profile1_eq
 =
 cricket
@@ -2674,7 +2662,7 @@ kProfile2
 2
 "
 ;
-VideoCodec
+Codec
 c_no_profile
 =
 cricket
@@ -2689,7 +2677,7 @@ cricket
 kVp9CodecName
 )
 ;
-VideoCodec
+Codec
 c_profile0
 =
 cricket
@@ -2727,7 +2715,7 @@ c_no_profile
 )
 ;
 {
-VideoCodec
+Codec
 c_profile0_eq
 =
 cricket
@@ -2766,7 +2754,7 @@ c_profile0_eq
 ;
 }
 {
-VideoCodec
+Codec
 c_profile2
 =
 cricket
@@ -2815,7 +2803,7 @@ c_profile2
 ;
 }
 {
-VideoCodec
+Codec
 c_no_profile_eq
 =
 cricket
@@ -2900,7 +2888,7 @@ kProfileLevelId3
 42e01e
 "
 ;
-VideoCodec
+Codec
 pli_1_pm_0
 =
 cricket
@@ -2941,7 +2929,7 @@ kH264FmtpPacketizationMode
 "
 ;
 {
-VideoCodec
+Codec
 pli_1_pm_blank
 =
 cricket
@@ -3039,7 +3027,7 @@ ToCodecParameters
 ;
 }
 {
-VideoCodec
+Codec
 pli_1_pm_1
 =
 cricket
@@ -3117,7 +3105,7 @@ ToCodecParameters
 ;
 }
 {
-VideoCodec
+Codec
 pli_2_pm_0
 =
 cricket
@@ -3197,7 +3185,7 @@ ToCodecParameters
 ;
 }
 {
-VideoCodec
+Codec
 pli_3_pm_0_asym
 =
 cricket
@@ -3369,7 +3357,7 @@ kTxMrst
 MRST
 "
 ;
-VideoCodec
+Codec
 c_ptl_blank
 =
 cricket
@@ -3385,7 +3373,7 @@ kH265CodecName
 )
 ;
 {
-VideoCodec
+Codec
 c_profile_1
 =
 cricket
@@ -3438,7 +3426,7 @@ c_profile_1
 ;
 }
 {
-VideoCodec
+Codec
 c_tier_flag_1
 =
 cricket
@@ -3493,7 +3481,7 @@ c_tier_flag_1
 ;
 }
 {
-VideoCodec
+Codec
 c_level_id_3_1
 =
 cricket
@@ -3546,7 +3534,7 @@ c_level_id_3_1
 ;
 }
 {
-VideoCodec
+Codec
 c_level_id_4
 =
 cricket
@@ -3598,7 +3586,7 @@ c_level_id_4
 ;
 }
 {
-VideoCodec
+Codec
 c_tx_mode_mrst
 =
 cricket
@@ -3699,7 +3687,7 @@ CodecTest
 TestSetParamGetParamAndRemoveParam
 )
 {
-AudioCodec
+Codec
 codec
 =
 cricket
@@ -4053,7 +4041,7 @@ on
 names
 .
 const
-VideoCodec
+Codec
 codec
 =
 cricket
@@ -4068,7 +4056,7 @@ V
 )
 ;
 const
-VideoCodec
+Codec
 rtx_codec
 =
 cricket
@@ -4083,7 +4071,7 @@ rTx
 )
 ;
 const
-VideoCodec
+Codec
 ulpfec_codec
 =
 cricket
@@ -4098,7 +4086,7 @@ ulpFeC
 )
 ;
 const
-VideoCodec
+Codec
 flexfec_codec
 =
 cricket
@@ -4115,7 +4103,7 @@ FlExFeC
 )
 ;
 const
-VideoCodec
+Codec
 red_codec
 =
 cricket
@@ -4226,7 +4214,7 @@ TestCreateRtxCodec
 )
 {
 const
-VideoCodec
+Codec
 rtx_codec
 =
 cricket
@@ -4291,7 +4279,7 @@ TestMatchesRtpCodecRtx
 )
 {
 const
-VideoCodec
+Codec
 rtx_codec_1
 =
 cricket
@@ -4304,7 +4292,7 @@ CreateVideoRtxCodec
 )
 ;
 const
-VideoCodec
+Codec
 rtx_codec_2
 =
 cricket
@@ -4365,7 +4353,7 @@ TestValidateCodecFormat
 )
 {
 const
-VideoCodec
+Codec
 codec
 =
 cricket
@@ -4398,7 +4386,7 @@ as
 payload
 types
 .
-VideoCodec
+Codec
 low_payload_type
 =
 codec
@@ -4409,7 +4397,7 @@ id
 =
 0
 ;
-VideoCodec
+Codec
 high_payload_type
 =
 codec
@@ -4444,7 +4432,7 @@ Reject
 negative
 payloads
 .
-VideoCodec
+Codec
 negative_payload_type
 =
 codec
@@ -4473,7 +4461,7 @@ too
 high
 payloads
 .
-VideoCodec
+Codec
 too_high_payload_type
 =
 codec
@@ -4504,7 +4492,7 @@ bitrate
 max
 bitrate
 .
-VideoCodec
+Codec
 incorrect_bitrates
 =
 codec
@@ -4550,7 +4538,7 @@ bitrate
 max
 bitrate
 .
-VideoCodec
+Codec
 equal_bitrates
 =
 codec
@@ -4595,7 +4583,7 @@ bitrate
 max
 bitrate
 .
-VideoCodec
+Codec
 different_bitrates
 =
 codec
@@ -4638,7 +4626,7 @@ CodecTest
 TestToCodecParameters
 )
 {
-VideoCodec
+Codec
 v
 =
 cricket
@@ -4773,7 +4761,7 @@ begin
 second
 )
 ;
-AudioCodec
+Codec
 a
 =
 cricket

@@ -28236,7 +28236,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 existing_codec
 :
@@ -28484,7 +28484,7 @@ const
 cricket
 :
 :
-AudioCodec
+Codec
 &
 existing_codec
 :

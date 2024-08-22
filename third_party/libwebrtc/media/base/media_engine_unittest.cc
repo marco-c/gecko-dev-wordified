@@ -472,7 +472,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 send_codecs
@@ -491,7 +491,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 recv_codecs

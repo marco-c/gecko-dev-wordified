@@ -1238,7 +1238,7 @@ payload_type
 opt_payload_type
 ;
 const
-AudioCodec
+Codec
 &
 codec
 =

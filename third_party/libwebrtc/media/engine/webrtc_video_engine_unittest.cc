@@ -1205,13 +1205,13 @@ unsupported
 cricket
 :
 :
-VideoCodec
+Codec
 RemoveFeedbackParams
 (
 cricket
 :
 :
-VideoCodec
+Codec
 &
 &
 codec
@@ -1245,7 +1245,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 bool
@@ -1425,7 +1425,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 &
 codecs
@@ -1439,7 +1439,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 :
@@ -1529,7 +1529,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 &
 codecs
@@ -1541,7 +1541,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 :
@@ -2895,7 +2895,7 @@ present
 cricket
 :
 :
-VideoCodec
+Codec
 GetEngineCodec
 (
 const
@@ -2973,7 +2973,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 codecs
@@ -3074,7 +3074,7 @@ absl
 :
 optional
 <
-VideoCodec
+Codec
 >
 default_codec_
 ;
@@ -3115,7 +3115,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 engine_codecs
 =
@@ -5046,7 +5046,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 codecs
 =
@@ -5600,7 +5600,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 engine_codecs
 =
@@ -5626,7 +5626,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 :
@@ -5686,7 +5686,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 engine_codecs
 =
@@ -5717,7 +5717,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 :
@@ -5813,7 +5813,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 codecs
 =
@@ -5847,7 +5847,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 engine_codec
 =
 codecs
@@ -5999,7 +5999,7 @@ return
 cricket
 :
 :
-VideoCodec
+Codec
 WebRtcVideoEngineTest
 :
 :
@@ -6172,7 +6172,7 @@ GetSupportedFormats
 cricket
 :
 :
-VideoCodec
+Codec
 engine_codec
 =
 GetEngineCodec
@@ -6241,7 +6241,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 &
 codecs
@@ -6325,7 +6325,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 codecs
 ;
@@ -6350,7 +6350,7 @@ GetSupportedFormats
 cricket
 :
 :
-VideoCodec
+Codec
 engine_codec
 =
 GetEngineCodec
@@ -6823,7 +6823,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 supported_codecs
 =
@@ -8716,7 +8716,7 @@ Field
 name
 "
 &
-VideoCodec
+Codec
 :
 :
 name
@@ -8823,7 +8823,7 @@ Field
 name
 "
 &
-VideoCodec
+Codec
 :
 :
 name
@@ -8901,7 +8901,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 )
@@ -9125,7 +9125,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 codecs_before
 (
@@ -9158,7 +9158,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 codecs_after
 (
@@ -9560,7 +9560,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 codecs
 ;
@@ -10341,7 +10341,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 engine_codecs
 =
@@ -11158,7 +11158,7 @@ kSsrc
 cricket
 :
 :
-VideoCodec
+Codec
 codec
 =
 GetEngineCodec
@@ -11676,7 +11676,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 send_codecs
 ;
@@ -11685,7 +11685,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 recv_codecs
 ;
@@ -13798,7 +13798,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 )
@@ -14130,7 +14130,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 )
@@ -14203,7 +14203,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 int
@@ -14415,7 +14415,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 codec
 )
@@ -14471,7 +14471,7 @@ NumRtpPackets
 cricket
 :
 :
-VideoCodec
+Codec
 GetEngineCodec
 (
 const
@@ -14489,7 +14489,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 engine_codec
 :
@@ -14556,7 +14556,7 @@ CreateVideoCodec
 cricket
 :
 :
-VideoCodec
+Codec
 DefaultCodec
 (
 )
@@ -17812,13 +17812,13 @@ using
 cricket
 :
 :
-FOURCC_I420
+Codec
 ;
 using
 cricket
 :
 :
-VideoCodec
+FOURCC_I420
 ;
 using
 cricket
@@ -17832,7 +17832,7 @@ cricket
 :
 VideoOptions
 ;
-VideoCodec
+Codec
 codec
 =
 DefaultCodec
@@ -19480,7 +19480,7 @@ instead
 cricket
 :
 :
-VideoCodec
+Codec
 codec
 =
 GetEngineCodec
@@ -19569,7 +19569,7 @@ absl
 :
 optional
 <
-VideoCodec
+Codec
 >
 codec
 =
@@ -19774,7 +19774,7 @@ absl
 :
 optional
 <
-VideoCodec
+Codec
 >
 codec
 =
@@ -19914,7 +19914,7 @@ WebRtcVideoChannelBaseTest
 RequestEncoderSwitchStrictPreference
 )
 {
-VideoCodec
+Codec
 vp9
 =
 GetEngineCodec
@@ -19984,7 +19984,7 @@ absl
 :
 optional
 <
-VideoCodec
+Codec
 >
 codec
 =
@@ -20797,7 +20797,7 @@ transport
 cricket
 :
 :
-VideoCodec
+Codec
 GetEngineCodec
 (
 const
@@ -20815,7 +20815,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 &
 engine_codec
 :
@@ -20882,7 +20882,7 @@ CreateVideoCodec
 cricket
 :
 :
-VideoCodec
+Codec
 DefaultCodec
 (
 )
@@ -26555,7 +26555,7 @@ kScreenshareMinBitrateKbps
 cricket
 :
 :
-VideoCodec
+Codec
 codec
 =
 GetEngineCodec
@@ -31726,7 +31726,7 @@ PreviousAdaptationDoesNotApplyToScreenshare
 cricket
 :
 :
-VideoCodec
+Codec
 codec
 =
 GetEngineCodec
@@ -32138,7 +32138,7 @@ fps_scaling_enabled
 cricket
 :
 :
-VideoCodec
+Codec
 codec
 =
 GetEngineCodec
@@ -32356,7 +32356,7 @@ is_screenshare
 cricket
 :
 :
-VideoCodec
+Codec
 codec
 =
 GetEngineCodec
@@ -32980,7 +32980,7 @@ absl
 :
 optional
 <
-VideoCodec
+Codec
 >
 codec
 =
@@ -34978,7 +34978,7 @@ flexfec
 cricket
 :
 :
-VideoCodec
+Codec
 duplicate
 =
 GetEngineCodec
@@ -36154,7 +36154,7 @@ parameters
 cricket
 :
 :
-VideoCodec
+Codec
 rtx_codec
 =
 cricket
@@ -36251,7 +36251,7 @@ kUnusedPayloadType2
 cricket
 :
 :
-VideoCodec
+Codec
 rtx_codec
 =
 cricket
@@ -36315,7 +36315,7 @@ parameters
 cricket
 :
 :
-VideoCodec
+Codec
 rtx_codec
 =
 cricket
@@ -36502,7 +36502,7 @@ VP8
 cricket
 :
 :
-VideoCodec
+Codec
 rtx_codec
 =
 cricket
@@ -37186,7 +37186,7 @@ parameters
 cricket
 :
 :
-VideoCodec
+Codec
 codec
 =
 cricket
@@ -39626,7 +39626,7 @@ absl
 :
 optional
 <
-VideoCodec
+Codec
 >
 codec
 =
@@ -40143,7 +40143,7 @@ VP8
 cricket
 :
 :
-VideoCodec
+Codec
 rtx_codec
 =
 cricket
@@ -40267,7 +40267,7 @@ parameters
 cricket
 :
 :
-VideoCodec
+Codec
 rtx_codec2
 =
 cricket
@@ -40342,7 +40342,7 @@ SetRecvCodecsWithPacketization
 cricket
 :
 :
-VideoCodec
+Codec
 vp8_codec
 =
 GetEngineCodec
@@ -40979,7 +40979,7 @@ VP8
 cricket
 :
 :
-VideoCodec
+Codec
 rtx_codec
 =
 cricket
@@ -41386,7 +41386,7 @@ VP8
 cricket
 :
 :
-VideoCodec
+Codec
 rtx_codec
 =
 cricket
@@ -58090,7 +58090,7 @@ RED
 RTX
 codec
 .
-VideoCodec
+Codec
 red_rtx_codec
 =
 cricket
@@ -58360,7 +58360,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 GetEngineCodec
@@ -58477,7 +58477,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 GetEngineCodec
@@ -58744,7 +58744,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 GetEngineCodec
@@ -59048,7 +59048,7 @@ WEBRTC_USE_H264
 cricket
 :
 :
-VideoCodec
+Codec
 H264codec
 =
 cricket
@@ -73497,7 +73497,7 @@ parameters
 cricket
 :
 :
-VideoCodec
+Codec
 kH264sprop1
 =
 cricket
@@ -73533,7 +73533,7 @@ kH264sprop1
 cricket
 :
 :
-VideoCodec
+Codec
 kH264sprop2
 =
 cricket
@@ -74371,7 +74371,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 GetEngineCodec
@@ -76041,7 +76041,7 @@ void
 VerifySimulcastSettings
 (
 const
-VideoCodec
+Codec
 &
 codec
 int
@@ -77721,7 +77721,7 @@ WebRtcVideoChannelBaseTest
 EncoderSelectorSwitchCodec
 )
 {
-VideoCodec
+Codec
 vp9
 =
 GetEngineCodec
@@ -77784,7 +77784,7 @@ absl
 :
 optional
 <
-VideoCodec
+Codec
 >
 codec
 =

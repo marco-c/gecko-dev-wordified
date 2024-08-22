@@ -7650,7 +7650,7 @@ vector
 cricket
 :
 :
-VideoCodec
+Codec
 >
 codecs
 ;

@@ -991,7 +991,7 @@ string
 ToString
 (
 const
-AudioCodec
+Codec
 &
 codec
 )
@@ -1119,7 +1119,7 @@ bool
 IsCodec
 (
 const
-AudioCodec
+Codec
 &
 codec
 const
@@ -1146,7 +1146,7 @@ absl
 :
 optional
 <
-AudioCodec
+Codec
 >
 FindCodec
 (
@@ -1156,12 +1156,12 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
 const
-AudioCodec
+Codec
 &
 codec
 )
@@ -1169,7 +1169,7 @@ codec
 for
 (
 const
-AudioCodec
+Codec
 &
 c
 :
@@ -1207,7 +1207,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
@@ -1252,7 +1252,7 @@ payload_types
 ]
 (
 const
-AudioCodec
+Codec
 &
 codec
 )
@@ -2285,7 +2285,7 @@ bool
 CheckRedParameters
 (
 const
-AudioCodec
+Codec
 &
 red_codec
 const
@@ -2881,7 +2881,7 @@ GetSupportedEncoders
 for
 (
 const
-AudioCodec
+Codec
 &
 codec
 :
@@ -2932,7 +2932,7 @@ GetSupportedDecoders
 for
 (
 const
-AudioCodec
+Codec
 &
 codec
 :
@@ -4524,7 +4524,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 WebRtcVoiceEngine
@@ -4554,7 +4554,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 WebRtcVoiceEngine
@@ -5017,7 +5017,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 WebRtcVoiceEngine
 :
@@ -5048,7 +5048,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 out
 ;
@@ -5164,7 +5164,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 *
 out
@@ -5175,7 +5175,7 @@ absl
 :
 optional
 <
-AudioCodec
+Codec
 >
 opt_codec
 =
@@ -5273,7 +5273,7 @@ absl
 :
 optional
 <
-AudioCodec
+Codec
 >
 opt_codec
 =
@@ -5290,7 +5290,7 @@ if
 opt_codec
 )
 {
-AudioCodec
+Codec
 &
 codec
 =
@@ -12149,7 +12149,7 @@ sender
 ]
 (
 const
-AudioCodec
+Codec
 &
 c
 )
@@ -12436,7 +12436,7 @@ parameters
 for
 (
 const
-AudioCodec
+Codec
 &
 codec
 :
@@ -14290,7 +14290,7 @@ recv_rtp_extensions_
 for
 (
 const
-AudioCodec
+Codec
 &
 codec
 :
@@ -14390,7 +14390,7 @@ emplace_back
 for
 (
 const
-AudioCodec
+Codec
 &
 codec
 :
@@ -14553,7 +14553,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 codecs
@@ -14661,7 +14661,7 @@ decoder_map
 for
 (
 const
-AudioCodec
+Codec
 &
 codec
 :
@@ -14708,7 +14708,7 @@ absl
 :
 optional
 <
-AudioCodec
+Codec
 >
 old_codec
 =
@@ -18387,7 +18387,7 @@ receiver
 ]
 (
 const
-AudioCodec
+Codec
 &
 c
 )

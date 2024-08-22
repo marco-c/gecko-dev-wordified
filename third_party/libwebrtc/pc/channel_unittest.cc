@@ -13875,7 +13875,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 kVp8Codec
 =
 cricket
@@ -13892,7 +13892,7 @@ VP8
 cricket
 :
 :
-VideoCodec
+Codec
 vp9_codec
 =
 cricket
@@ -14090,7 +14090,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 kVp8Codec
 =
 cricket
@@ -14107,7 +14107,7 @@ VP8
 cricket
 :
 :
-VideoCodec
+Codec
 vp9_codec
 =
 cricket
@@ -14314,7 +14314,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 kVp8Codec
 =
 cricket
@@ -14331,7 +14331,7 @@ VP8
 cricket
 :
 :
-VideoCodec
+Codec
 vp9_codec
 =
 cricket
@@ -14647,7 +14647,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 kLocalCodec
 =
 cricket
@@ -14664,7 +14664,7 @@ VP8
 cricket
 :
 :
-VideoCodec
+Codec
 remote_codec
 =
 cricket
@@ -14853,7 +14853,7 @@ TestSetRemoteAnswerWithoutPacketization
 cricket
 :
 :
-VideoCodec
+Codec
 local_codec
 =
 cricket
@@ -14880,7 +14880,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 kRemoteCodec
 =
 cricket
@@ -15060,7 +15060,7 @@ TestSetRemoteAnswerWithInvalidPacketization
 cricket
 :
 :
-VideoCodec
+Codec
 local_codec
 =
 cricket
@@ -15086,7 +15086,7 @@ kPacketizationParamRaw
 cricket
 :
 :
-VideoCodec
+Codec
 remote_codec
 =
 cricket
@@ -15270,7 +15270,7 @@ TestSetLocalAnswerWithInvalidPacketization
 cricket
 :
 :
-VideoCodec
+Codec
 local_codec
 =
 cricket
@@ -15297,7 +15297,7 @@ const
 cricket
 :
 :
-VideoCodec
+Codec
 kRemoteCodec
 =
 cricket
@@ -15473,7 +15473,7 @@ StopsPacketizationVerificationWhenMatchIsFoundInRemoteAnswer
 cricket
 :
 :
-VideoCodec
+Codec
 vp8_foo
 =
 cricket
@@ -15498,7 +15498,7 @@ foo
 cricket
 :
 :
-VideoCodec
+Codec
 vp8_bar
 =
 cricket
@@ -15523,7 +15523,7 @@ bar
 cricket
 :
 :
-VideoCodec
+Codec
 vp9
 =
 cricket
@@ -15540,7 +15540,7 @@ VP9
 cricket
 :
 :
-VideoCodec
+Codec
 vp9_foo
 =
 cricket
@@ -15834,7 +15834,7 @@ StopsPacketizationVerificationWhenMatchIsFoundInLocalAnswer
 cricket
 :
 :
-VideoCodec
+Codec
 vp8_foo
 =
 cricket
@@ -15859,7 +15859,7 @@ foo
 cricket
 :
 :
-VideoCodec
+Codec
 vp8_bar
 =
 cricket
@@ -15884,7 +15884,7 @@ bar
 cricket
 :
 :
-VideoCodec
+Codec
 vp9
 =
 cricket
@@ -15901,7 +15901,7 @@ VP9
 cricket
 :
 :
-VideoCodec
+Codec
 vp9_foo
 =
 cricket
@@ -16195,7 +16195,7 @@ ConsidersAllCodecsWithDiffrentPacketizationsInRemoteAnswer
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 cricket
@@ -16212,7 +16212,7 @@ VP8
 cricket
 :
 :
-VideoCodec
+Codec
 vp8_raw
 =
 cricket
@@ -16479,7 +16479,7 @@ ConsidersAllCodecsWithDiffrentPacketizationsInLocalAnswer
 cricket
 :
 :
-VideoCodec
+Codec
 vp8
 =
 cricket
@@ -16496,7 +16496,7 @@ VP8
 cricket
 :
 :
-VideoCodec
+Codec
 vp8_raw
 =
 cricket

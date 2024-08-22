@@ -824,7 +824,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 send_codecs
@@ -841,7 +841,7 @@ std
 :
 vector
 <
-AudioCodec
+Codec
 >
 &
 recv_codecs
@@ -1115,7 +1115,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 send_codecs
 (
@@ -1130,7 +1130,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 recv_codecs
 (
@@ -1185,7 +1185,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 send_codecs
 (
@@ -1211,7 +1211,7 @@ std
 :
 vector
 <
-VideoCodec
+Codec
 >
 recv_codecs
 (

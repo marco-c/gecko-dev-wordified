@@ -144,7 +144,7 @@ SdpAudioFormat
 AudioCodecToSdpAudioFormat
 (
 const
-AudioCodec
+Codec
 &
 ac
 )
@@ -303,7 +303,7 @@ absl
 :
 optional
 <
-AudioCodec
+Codec
 >
 ToAudioCodec
 (
