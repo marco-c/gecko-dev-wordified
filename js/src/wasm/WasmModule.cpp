@@ -6347,7 +6347,7 @@ SetUseCountersForFeatureUsage
 (
 cx
 instance
-codeMeta
+moduleMeta
 (
 )
 .
