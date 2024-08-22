@@ -10958,7 +10958,7 @@ tier
 =
 code
 .
-stableTier
+stableCompleteTier
 (
 )
 ;
@@ -10974,7 +10974,7 @@ tier
 =
 code
 .
-bestTier
+bestCompleteTier
 (
 )
 ;
@@ -11188,7 +11188,7 @@ code
 (
 )
 .
-stableTier
+stableCompleteTier
 (
 )
 ;
@@ -12480,7 +12480,7 @@ tier
 =
 code
 .
-stableTier
+stableCompleteTier
 (
 )
 ;
