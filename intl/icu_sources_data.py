@@ -2607,6 +2607,12 @@ DUCONFIG_NO_BREAK_ITERATION
 +
 "
 -
+DUCONFIG_NO_BREAK_IDNA
+"
+                
++
+"
+-
 DU_CHARSET_IS_UTF8
 "
             
