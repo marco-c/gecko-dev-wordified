@@ -180,12 +180,12 @@ contextual
 )
 ;
 const
-CONSOLE_THROTTLING_DELAY
+THROTTLING_DELAY
 =
 250
 ;
 class
-ConsoleTracingListener
+ResourcesTracingListener
 {
 constructor
 (
@@ -265,7 +265,7 @@ bind
 (
 this
 )
-CONSOLE_THROTTLING_DELAY
+THROTTLING_DELAY
 )
 ;
 }
@@ -2613,7 +2613,7 @@ false
 }
 exports
 .
-ConsoleTracingListener
+ResourcesTracingListener
 =
-ConsoleTracingListener
+ResourcesTracingListener
 ;
