@@ -8302,7 +8302,7 @@ t
 .
 funcToCodeRange
 .
-length
+numEntries
 (
 )
 ;

@@ -1174,9 +1174,6 @@ jit
 WasmMacroAssembler
 masm_
 ;
-Uint32Vector
-funcToCodeRange_
-;
 uint32_t
 debugTrapCodeOffset_
 ;
