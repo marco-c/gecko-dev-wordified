@@ -5260,7 +5260,6 @@ GetDesiredSize
 ;
 if
 (
-(
 availCellISize
 !
 =
@@ -5270,10 +5269,8 @@ kidFrame
 GetPriorAvailISize
 (
 )
-)
 |
 |
-(
 cellDesiredSize
 .
 ISize
@@ -5286,7 +5283,6 @@ kidFrame
 >
 GetPriorAvailISize
 (
-)
 )
 |
 |
@@ -5335,6 +5331,14 @@ kidFrame
 HasAnyStateBits
 (
 NS_FRAME_CONTAINS_RELATIVE_BSIZE
+)
+|
+|
+kidFrame
+-
+>
+BCBordersChanged
+(
 )
 |
 |
