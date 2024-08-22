@@ -261,10 +261,6 @@ cache
 -
 storage
 "
-"
-/
-IndexedDB
-"
 ]
     
 "
