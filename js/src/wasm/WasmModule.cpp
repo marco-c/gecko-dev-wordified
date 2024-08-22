@@ -2649,7 +2649,11 @@ code
 (
 )
 .
-getFuncExportTypeDef
+codeMeta
+(
+)
+.
+getFuncTypeDef
 (
 funcIndex
 )
@@ -2663,7 +2667,11 @@ code
 (
 )
 .
-getFuncImportTypeDef
+codeMeta
+(
+)
+.
+getFuncTypeDef
 (
 i
 )

@@ -6132,15 +6132,6 @@ FuncImport
 codeMeta_
 -
 >
-funcs
-[
-i
-]
-.
-typeIndex
-codeMeta_
--
->
 offsetOfFuncImportInstanceData
 (
 i
@@ -6314,9 +6305,6 @@ infallibleEmplaceBack
 (
 FuncExport
 (
-func
-.
-typeIndex
 funcIndex
 func
 .
@@ -6899,9 +6887,6 @@ infallibleEmplaceBack
 (
 FuncExport
 (
-func
-.
-typeIndex
 funcIndex
 func
 .
@@ -7001,9 +6986,6 @@ emplaceBack
 (
 FuncExport
 (
-func
-.
-typeIndex
 funcIndex
 func
 .

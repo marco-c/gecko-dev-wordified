@@ -12272,11 +12272,11 @@ sig
 instance
 -
 >
-code
+codeMeta
 (
 )
 .
-getFuncExportType
+getFuncType
 (
 SuspendingFunctionModuleFactory
 :
