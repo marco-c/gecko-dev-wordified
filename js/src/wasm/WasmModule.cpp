@@ -1251,7 +1251,7 @@ const
 LinkData
 &
 linkData2
-UniqueCodeTier
+UniqueCodeBlock
 code2
 )
 const
@@ -1308,7 +1308,7 @@ commitTier2
 )
 .
 const
-CodeTier
+CodeBlock
 *
 borrowedTier2
 ;

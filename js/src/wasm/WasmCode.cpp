@@ -2109,9 +2109,9 @@ ModuleSegment
 initialize
 (
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 const
 LinkData
 &
@@ -2212,7 +2212,7 @@ SendCodeRangesToProfiler
 this
 codeMeta
 codeMetaForAsmJS
-codeTier
+codeBlock
 .
 codeRanges
 )
@@ -2242,19 +2242,19 @@ CodeSegment
 initialize
 (
 *
-codeTier
+codeBlock
 .
 code
 )
 ;
 }
 const
-CodeTier
+CodeBlock
 &
 ModuleSegment
 :
 :
-codeTier
+codeBlock
 (
 )
 const
@@ -2271,7 +2271,7 @@ code
 (
 )
 .
-codeTier
+codeBlock
 (
 tier
 (
@@ -2334,7 +2334,7 @@ pc
 const
 {
 return
-codeTier
+codeBlock
 (
 )
 .
@@ -3132,9 +3132,9 @@ CodeMetadata
 &
 codeMeta
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 size_t
 *
 stubSegmentIndex
@@ -3194,7 +3194,7 @@ FuncExportVector
 &
 funcExports
 =
-codeTier
+codeBlock
 .
 funcExports
 ;
@@ -3202,7 +3202,7 @@ uint8_t
 *
 moduleSegmentBase
 =
-codeTier
+codeBlock
 .
 segment
 -
@@ -3290,7 +3290,7 @@ calleePtr
 =
 moduleSegmentBase
 +
-codeTier
+codeBlock
 .
 codeRange
 (
@@ -3509,7 +3509,7 @@ LazyStubSegment
 create
 (
 *
-codeTier
+codeBlock
 .
 code
 newSegmentSize
@@ -3770,7 +3770,7 @@ funcIndex
 *
 stubSegmentIndex
 interpRangeIndex
-codeTier
+codeBlock
 .
 tier
 )
@@ -3931,9 +3931,9 @@ CodeMetadata
 &
 codeMeta
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 )
 {
 Uint32Vector
@@ -3964,7 +3964,7 @@ createManyEntryStubs
 (
 funcExportIndexes
 codeMeta
-codeTier
+codeBlock
 &
 stubSegmentIndex
 )
@@ -4001,7 +4001,7 @@ FuncExport
 &
 fe
 =
-codeTier
+codeBlock
 .
 funcExports
 [
@@ -4131,7 +4131,7 @@ isJitEntry
 )
 )
 ;
-codeTier
+codeBlock
 .
 code
 -
@@ -4172,9 +4172,9 @@ CodeMetadata
 &
 codeMeta
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 Maybe
 <
 size_t
@@ -4265,7 +4265,7 @@ Baseline
 size_t
 funcExportIndex
 ;
-codeTier
+codeBlock
 .
 lookupFuncExport
 (
@@ -4294,7 +4294,7 @@ createManyEntryStubs
 (
 funcExportIndices
 codeMeta
-codeTier
+codeBlock
 &
 stubSegmentIndex
 )
@@ -4616,7 +4616,7 @@ data
 }
 }
 bool
-CodeTier
+CodeBlock
 :
 :
 initialize
@@ -4705,7 +4705,7 @@ true
 ;
 }
 void
-CodeTier
+CodeBlock
 :
 :
 addSizeOfMisc
@@ -4803,7 +4803,7 @@ mallocSizeOf
 const
 CodeRange
 *
-CodeTier
+CodeBlock
 :
 :
 lookupRange
@@ -4849,7 +4849,7 @@ wasm
 :
 TryNote
 *
-CodeTier
+CodeBlock
 :
 :
 lookupTryNote
@@ -4984,7 +4984,7 @@ funcIndex
 ;
 FuncExport
 &
-CodeTier
+CodeBlock
 :
 :
 lookupFuncExport
@@ -5057,7 +5057,7 @@ match
 const
 FuncExport
 &
-CodeTier
+CodeBlock
 :
 :
 lookupFuncExport
@@ -5073,7 +5073,7 @@ const
 return
 const_cast
 <
-CodeTier
+CodeBlock
 *
 >
 (
@@ -5378,7 +5378,7 @@ const
 CodeMetadataForAsmJS
 *
 codeMetaForAsmJS
-UniqueCodeTier
+UniqueCodeBlock
 tier1
 JumpTables
 &
@@ -5506,14 +5506,14 @@ Code
 :
 setAndBorrowTier2
 (
-UniqueCodeTier
+UniqueCodeBlock
 tier2
 const
 LinkData
 &
 linkData
 const
-CodeTier
+CodeBlock
 *
 *
 borrowedTier
@@ -5870,12 +5870,12 @@ tier
 ;
 }
 const
-CodeTier
+CodeBlock
 &
 Code
 :
 :
-codeTier
+codeBlock
 (
 Tier
 tier
@@ -6013,7 +6013,7 @@ hasTier2
 .
 .
 but
-codeTier
+codeBlock
 (
 t
 )
@@ -6208,7 +6208,7 @@ lowerBound
 size_t
 upperBound
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -6228,7 +6228,7 @@ BinarySearch
 (
 CallSiteRetAddrOffset
 (
-codeTier
+codeBlock
 (
 t
 )
@@ -6245,7 +6245,7 @@ match
 {
 return
 &
-codeTier
+codeBlock
 (
 t
 )
@@ -6290,7 +6290,7 @@ CodeRange
 *
 result
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -6351,7 +6351,7 @@ StackMap
 *
 result
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -6412,7 +6412,7 @@ TryNote
 *
 result
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -6538,7 +6538,7 @@ TrapSiteVectorArray
 &
 trapSitesArray
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -6718,11 +6718,11 @@ tiers
 )
 {
 const
-CodeTier
+CodeBlock
 &
 code
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -6861,7 +6861,7 @@ CodeRangeUnwindInfoVector
 &
 unwindInfoArray
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -7155,7 +7155,7 @@ CodeRange
 &
 codeRange
 :
-codeTier
+codeBlock
 (
 stableTier
 (
@@ -7689,7 +7689,7 @@ tiers
 )
 )
 {
-codeTier
+codeBlock
 (
 t
 )
@@ -7722,14 +7722,14 @@ printString
 const
 {
 const
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 this
 -
 >
-codeTier
+codeBlock
 (
 tier
 )
@@ -7740,7 +7740,7 @@ ModuleSegment
 segment
 =
 *
-codeTier
+codeBlock
 .
 segment
 ;
@@ -7751,7 +7751,7 @@ CodeRange
 &
 range
 :
-codeTier
+codeBlock
 .
 codeRanges
 )
@@ -8267,7 +8267,7 @@ tiers
 size_t
 length
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -8281,7 +8281,7 @@ length
 length
 +
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -8295,7 +8295,7 @@ length
 length
 +
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -8309,7 +8309,7 @@ length
 length
 +
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -8323,7 +8323,7 @@ sumOfLengths
 length
 +
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -8337,7 +8337,7 @@ length
 length
 +
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -8351,7 +8351,7 @@ length
 length
 +
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -8365,7 +8365,7 @@ length
 length
 +
 =
-codeTier
+codeBlock
 (
 t
 )
@@ -8413,7 +8413,7 @@ CodeRange
 &
 codeRange
 :
-codeTier
+codeBlock
 (
 stableTier
 (
@@ -8463,7 +8463,7 @@ number
 this
 -
 >
-codeTier
+codeBlock
 (
 t
 )
@@ -8486,7 +8486,7 @@ number
 this
 -
 >
-codeTier
+codeBlock
 (
 t
 )
@@ -8523,7 +8523,7 @@ length
 this
 -
 >
-codeTier
+codeBlock
 (
 t
 )
@@ -8557,7 +8557,7 @@ putNewInfallible
 funcToCodeRange
 size
 "
-codeTier
+codeBlock
 (
 t
 )
@@ -8578,7 +8578,7 @@ putNewInfallible
 codeRanges
 size
 "
-codeTier
+codeBlock
 (
 t
 )
@@ -8599,7 +8599,7 @@ putNewInfallible
 callSites
 size
 "
-codeTier
+codeBlock
 (
 t
 )
@@ -8620,7 +8620,7 @@ putNewInfallible
 tryNotes
 size
 "
-codeTier
+codeBlock
 (
 t
 )
@@ -8641,7 +8641,7 @@ putNewInfallible
 trapSites
 size
 "
-codeTier
+codeBlock
 (
 t
 )
@@ -8662,7 +8662,7 @@ putNewInfallible
 stackMaps
 size
 "
-codeTier
+codeBlock
 (
 t
 )
@@ -8683,7 +8683,7 @@ putNewInfallible
 funcImports
 size
 "
-codeTier
+codeBlock
 (
 t
 )
@@ -8704,7 +8704,7 @@ putNewInfallible
 funcExports
 size
 "
-codeTier
+codeBlock
 (
 t
 )

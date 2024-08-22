@@ -3908,13 +3908,13 @@ const
 wasm
 :
 :
-CodeTier
+CodeBlock
 &
-codeTier
+codeBlock
 =
 code
 .
-codeTier
+codeBlock
 (
 *
 tier
@@ -3922,7 +3922,7 @@ tier
 ;
 pc
 =
-codeTier
+codeBlock
 .
 segment
 -
@@ -6270,7 +6270,7 @@ fe
 =
 code
 .
-codeTier
+codeBlock
 (
 code
 .
