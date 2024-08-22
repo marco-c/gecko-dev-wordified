@@ -2727,12 +2727,10 @@ GET_Y_LPARAM
 pos
 )
 ;
-winDragService
+currentDragSession
 -
 >
 SetDragEndPoint
-(
-nsIntPoint
 (
 cpos
 .
@@ -2740,7 +2738,6 @@ x
 cpos
 .
 y
-)
 )
 ;
 ModifierKeyState
