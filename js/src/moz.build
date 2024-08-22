@@ -3933,6 +3933,16 @@ MOZ_INSTRUMENTS
 "
 ]
 :
+OS_LIBS
++
+=
+[
+"
+-
+framework
+CoreFoundation
+"
+]
 SOURCES
 +
 =
