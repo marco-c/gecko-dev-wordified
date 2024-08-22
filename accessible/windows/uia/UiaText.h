@@ -217,7 +217,7 @@ in
 __RPC__in_opt
 IRawElementProviderSimple
 *
-childElement
+aChildElement
 /
 *
 [
