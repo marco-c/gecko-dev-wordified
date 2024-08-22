@@ -686,6 +686,17 @@ RunOnShutdown
 [
 ]
 {
+if
+(
+sBounceTrackingProtection
+&
+&
+sBounceTrackingProtection
+-
+>
+mRemoteExceptionList
+)
+{
 Unused
 <
 <
@@ -699,6 +710,7 @@ Shutdown
 (
 )
 ;
+}
 sBounceTrackingProtection
 =
 nullptr
