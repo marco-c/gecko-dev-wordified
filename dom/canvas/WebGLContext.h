@@ -7714,15 +7714,6 @@ mBlendEnabled
 =
 0
 ;
-std
-:
-:
-unordered_set
-<
-GLenum
->
-mIsEnabledMapKeys
-;
 GLint
 mViewportX
 =
