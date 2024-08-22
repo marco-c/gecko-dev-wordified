@@ -3745,6 +3745,14 @@ ok
 \
 MACRO_
 (
+omitPadding
+"
+omitPadding
+"
+)
+\
+MACRO_
+(
 one
 "
 one
