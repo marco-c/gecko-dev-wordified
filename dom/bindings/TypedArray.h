@@ -5492,6 +5492,10 @@ nogc
 }
 template
 <
+bool
+AllowLargeTypedArrays
+=
+false
 typename
 Processor
 >
@@ -5541,6 +5545,9 @@ return
 CallProcessorNoGC
 (
 GetCurrentData
+<
+AllowLargeTypedArrays
+>
 (
 )
 std
@@ -5567,6 +5574,10 @@ public
 :
 template
 <
+bool
+AllowLargeTypedArrays
+=
+false
 typename
 Processor
 >
@@ -5590,6 +5601,9 @@ const
 {
 return
 ProcessDataHelper
+<
+AllowLargeTypedArrays
+>
 (
 std
 :
@@ -5965,6 +5979,13 @@ aProcessor
 }
 private
 :
+template
+<
+bool
+AllowLargeTypedArrays
+=
+false
+>
 Span
 <
 element_type
@@ -6070,6 +6091,13 @@ shared
 nogc
 )
 ;
+if
+constexpr
+(
+!
+AllowLargeTypedArrays
+)
+{
 MOZ_RELEASE_ASSERT
 (
 span
@@ -6093,6 +6121,7 @@ length
 "
 )
 ;
+}
 return
 span
 ;
