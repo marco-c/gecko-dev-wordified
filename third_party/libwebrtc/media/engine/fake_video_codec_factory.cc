@@ -294,12 +294,7 @@ test
 FakeEncoder
 >
 (
-&
 env
-.
-clock
-(
-)
 )
 ;
 }

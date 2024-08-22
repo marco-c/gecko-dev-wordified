@@ -1980,6 +1980,10 @@ public
 explicit
 EncoderRateStatsTest
 (
+const
+Environment
+&
+env
 TaskQueueBase
 *
 task_queue
@@ -1997,12 +2001,7 @@ kDefaultTimeout
 )
 FakeEncoder
 (
-Clock
-:
-:
-GetRealTimeClock
-(
-)
+env
 )
 task_queue_
 (
@@ -2458,6 +2457,9 @@ mutex_
 }
 test
 (
+env
+(
+)
 task_queue
 (
 )
