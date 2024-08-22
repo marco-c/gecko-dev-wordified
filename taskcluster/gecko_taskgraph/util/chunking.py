@@ -261,6 +261,10 @@ cache
 -
 storage
 "
+"
+/
+IndexedDB
+"
 ]
     
 "
