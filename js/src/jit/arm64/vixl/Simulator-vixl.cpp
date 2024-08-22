@@ -18327,9 +18327,12 @@ set_dreg
 fd
 FPToDouble
 (
+RawbitsToFloat16
+(
 hreg
 (
 fn
+)
 )
 ReadDN
 (
