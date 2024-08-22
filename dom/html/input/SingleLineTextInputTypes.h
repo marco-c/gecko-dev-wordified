@@ -876,7 +876,7 @@ This
 function
 exists
 because
-ConvertUTF8toACE
+NS_DomainToASCII
 (
 )
 splits

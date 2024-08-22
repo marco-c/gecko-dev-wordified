@@ -216,6 +216,10 @@ http_sfv
 ;
 extern
 crate
+idna_glue
+;
+extern
+crate
 jog
 ;
 extern
