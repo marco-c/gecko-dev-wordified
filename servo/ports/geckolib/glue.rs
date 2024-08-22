@@ -37260,6 +37260,17 @@ GeckoElement
 element
 )
 ;
+context
+.
+thread_local
+.
+bloom_filter
+.
+rebuild
+(
+element
+)
+;
 let
 mut
 resolver
