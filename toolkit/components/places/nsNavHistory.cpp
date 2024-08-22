@@ -17397,7 +17397,7 @@ if
 resultNode
 -
 >
-IsFolder
+IsFolderOrShortcut
 (
 )
 )
