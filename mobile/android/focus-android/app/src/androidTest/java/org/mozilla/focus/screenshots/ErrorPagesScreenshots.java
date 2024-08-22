@@ -90,7 +90,11 @@ androidx
 .
 test
 .
-runner
+ext
+.
+junit
+.
+runners
 .
 AndroidJUnit4
 ;
