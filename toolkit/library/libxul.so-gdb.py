@@ -205,6 +205,7 @@ relpath
 )
     
 if
+not
 exists
 (
 objdir
@@ -219,32 +220,15 @@ gdbinit
 )
 :
         
-break
-else
-:
+continue
     
-gdb
-.
-write
-(
-"
-Warning
-:
-Gecko
-objdir
-not
-found
-\
-n
-"
-)
 if
 objdir
 is
 not
 None
 :
-    
+        
 m
 =
 re
@@ -276,10 +260,11 @@ False
 True
 )
 )
-    
+        
 if
 m
 and
+(
 objdir
 not
 in
@@ -296,8 +281,9 @@ split
 :
 "
 )
+)
 :
-        
+            
 gdb
 .
 execute
@@ -323,6 +309,30 @@ group
 )
 )
 )
+else
+:
+    
+gdb
+.
+write
+(
+"
+Warning
+:
+Gecko
+objdir
+not
+found
+\
+n
+"
+)
+if
+objdir
+is
+not
+None
+:
     
 #
 When
