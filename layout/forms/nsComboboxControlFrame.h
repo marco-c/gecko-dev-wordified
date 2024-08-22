@@ -645,7 +645,7 @@ GetMinISize
 /
 GetPrefISize
 nscoord
-GetIntrinsicISize
+IntrinsicISize
 (
 gfxContext
 *
