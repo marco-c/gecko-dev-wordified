@@ -2278,8 +2278,15 @@ srcname
                     
 copy_contents
 (
+                        
 srcname
+                        
 dstname
+                        
+ignore_dangling_symlinks
+=
+ignore_dangling_symlinks
+                    
 )
                 
 else
