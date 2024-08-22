@@ -7527,6 +7527,16 @@ after_end
 "
 )
 ;
+popup
+.
+addEventListener
+(
+"
+popupshowing
+"
+CreateContainerTabMenu
+)
+;
 parent
 .
 prepend
