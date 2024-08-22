@@ -6483,7 +6483,8 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsIDragSession
+*
 nsDragService
 :
 :

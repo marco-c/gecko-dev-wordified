@@ -2284,7 +2284,8 @@ GetInstance
 (
 )
 ;
-NS_IMETHOD
+nsIDragSession
+*
 StartDragSession
 (
 nsISupports

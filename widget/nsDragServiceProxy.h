@@ -284,7 +284,8 @@ CreateDragSession
 )
 override
 ;
-NS_IMETHOD
+nsIDragSession
+*
 StartDragSession
 (
 nsISupports
