@@ -235,6 +235,12 @@ string
 moduleName
 )
 ;
+MOZ_EXPORT
+void
+printModuleNames
+(
+)
+;
 FuzzerRegistry
 (
 FuzzerRegistry
