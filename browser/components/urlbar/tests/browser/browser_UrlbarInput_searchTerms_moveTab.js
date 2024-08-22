@@ -179,18 +179,6 @@ featureGate
 "
 true
 ]
-[
-"
-browser
-.
-urlbar
-.
-tipShownCount
-.
-searchTip_persist
-"
-999
-]
 ]
 }
 )
@@ -670,7 +658,7 @@ expectedSearchUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 expectedSearchUrl
