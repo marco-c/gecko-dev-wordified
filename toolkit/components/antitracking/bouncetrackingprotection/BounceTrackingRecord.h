@@ -224,7 +224,7 @@ aHost
 const
 nsTHashSet
 <
-nsCString
+nsCStringHashKey
 >
 &
 GetBounceHosts
@@ -235,7 +235,7 @@ const
 const
 nsTHashSet
 <
-nsCString
+nsCStringHashKey
 >
 &
 GetStorageAccessHosts
@@ -341,7 +341,7 @@ navigation
 .
 nsTHashSet
 <
-nsCString
+nsCStringHashKey
 >
 mBounceHosts
 ;
@@ -368,7 +368,7 @@ navigation
 .
 nsTHashSet
 <
-nsCString
+nsCStringHashKey
 >
 mStorageAccessHosts
 ;
@@ -399,7 +399,7 @@ DescribeSet
 const
 nsTHashSet
 <
-nsCString
+nsCStringHashKey
 >
 &
 set
