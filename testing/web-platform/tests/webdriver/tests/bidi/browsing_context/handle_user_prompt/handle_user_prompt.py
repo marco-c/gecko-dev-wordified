@@ -653,7 +653,7 @@ unhandledPromptBehavior
 :
 {
 '
-default
+beforeUnload
 '
 :
 '
