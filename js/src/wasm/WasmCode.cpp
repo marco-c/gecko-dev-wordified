@@ -4294,11 +4294,6 @@ true
 return
 CompilePartialTier2
 (
-*
-codeMeta_
--
->
-compileArgs
 bytecode_
 -
 >

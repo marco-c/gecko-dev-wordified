@@ -417,10 +417,6 @@ bool
 CompileCompleteTier2
 (
 const
-CompileArgs
-&
-args
-const
 Bytes
 &
 bytecode
@@ -464,10 +460,6 @@ Module
 bool
 CompilePartialTier2
 (
-const
-CompileArgs
-&
-args
 const
 Bytes
 &
