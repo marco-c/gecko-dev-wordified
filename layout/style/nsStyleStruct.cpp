@@ -6307,13 +6307,6 @@ mFloodOpacity
 .
 0f
 )
-mVectorEffect
-(
-StyleVectorEffect
-:
-:
-None
-)
 mMaskType
 (
 StyleMaskType

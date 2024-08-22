@@ -146,6 +146,7 @@ specified
 DProperty
 MozContextProperties
 SVGPaintOrder
+VectorEffect
 }
 ;
 /

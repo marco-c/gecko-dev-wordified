@@ -4187,6 +4187,10 @@ UserSelect
 "
                 
 "
+VectorEffect
+"
+                
+"
 WordBreak
 "
                 
