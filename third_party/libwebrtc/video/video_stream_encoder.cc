@@ -14142,7 +14142,7 @@ accumulated_update_rect_is_valid_
 =
 true
 ;
-TRACE_EVENT_ASYNC_STEP0
+TRACE_EVENT_ASYNC_STEP_INTO0
 (
 "
 webrtc
