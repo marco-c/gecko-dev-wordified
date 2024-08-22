@@ -9610,7 +9610,11 @@ current
 active
 drag
 session
+for
+the
+window
 .
+*
 Returns
 null
 if
@@ -9634,6 +9638,7 @@ dragService
 .
 getCurrentSession
 (
+window
 )
 ;
 }
