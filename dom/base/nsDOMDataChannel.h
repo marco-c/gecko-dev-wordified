@@ -249,7 +249,6 @@ EventTarget
 :
 EventListenerAdded
 ;
-virtual
 void
 EventListenerAdded
 (
@@ -265,7 +264,6 @@ EventTarget
 :
 EventListenerRemoved
 ;
-virtual
 void
 EventListenerRemoved
 (
@@ -275,14 +273,12 @@ aType
 )
 override
 ;
-virtual
 JSObject
 *
 WrapObject
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -295,7 +291,7 @@ aGivenProto
 )
 override
 ;
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -303,7 +299,7 @@ GetParentObject
 const
 {
 return
-GetOwner
+GetOwnerGlobal
 (
 )
 ;

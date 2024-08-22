@@ -175,6 +175,13 @@ Bidi
 .
 h
 "
+#
+include
+"
+nsGlobalWindowInner
+.
+h
+"
 extern
 mozilla
 :
@@ -647,7 +654,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;

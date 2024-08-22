@@ -1693,7 +1693,7 @@ jsapi
 .
 Init
 (
-GetOwner
+GetOwnerWindow
 (
 )
 )

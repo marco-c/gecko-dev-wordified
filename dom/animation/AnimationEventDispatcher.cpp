@@ -164,6 +164,13 @@ AnimationEffect
 .
 h
 "
+#
+include
+"
+nsGlobalWindowInner
+.
+h
+"
 using
 namespace
 mozilla
@@ -1311,7 +1318,7 @@ mScheduledEventTimeStamp
 mAnimation
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 ?
@@ -1320,7 +1327,7 @@ MarkerInnerWindowId
 mAnimation
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 -
@@ -1566,7 +1573,7 @@ mScheduledEventTimeStamp
 mAnimation
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 ?
@@ -1575,7 +1582,7 @@ MarkerInnerWindowId
 mAnimation
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 -

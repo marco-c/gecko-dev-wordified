@@ -257,7 +257,7 @@ MIDIPort
 ;
 public
 :
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -265,7 +265,7 @@ GetParentObject
 const
 {
 return
-GetOwner
+GetOwnerGlobal
 (
 )
 ;

@@ -3587,7 +3587,7 @@ topWindow
 =
 aUtterance
 .
-GetOwner
+GetOwnerWindow
 (
 )
 )

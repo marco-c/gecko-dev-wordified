@@ -226,7 +226,7 @@ mozilla
 :
 DOMEventTargetHelper
 )
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -234,7 +234,7 @@ GetParentObject
 const
 {
 return
-GetOwner
+GetOwnerGlobal
 (
 )
 ;

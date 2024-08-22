@@ -208,6 +208,13 @@ nsIDocShell
 h
 "
 #
+include
+"
+nsGlobalWindowInner
+.
+h
+"
+#
 undef
 LOG
 mozilla
@@ -967,7 +974,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -1338,7 +1345,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -1785,7 +1792,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -1925,7 +1932,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;

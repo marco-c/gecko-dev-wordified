@@ -359,7 +359,7 @@ nsPIDOMWindowInner
 *
 inner
 =
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -460,7 +460,7 @@ nsPIDOMWindowInner
 *
 owner
 =
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -633,7 +633,7 @@ nsPIDOMWindowInner
 *
 owner
 =
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -1056,7 +1056,7 @@ nsPIDOMWindowInner
 >
 win
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -1148,13 +1148,11 @@ aTarget
 )
 const
 {
-nsCOMPtr
-<
-nsPIDOMWindowInner
->
+nsGlobalWindowInner
+*
 owner
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -1162,13 +1160,7 @@ return
 owner
 &
 &
-nsGlobalWindowInner
-:
-:
-Cast
-(
 owner
-)
 -
 >
 ShouldResistFingerprinting

@@ -186,6 +186,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -816,11 +823,11 @@ Document
 *
 doc
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ?
-GetOwner
+GetOwnerWindow
 (
 )
 -

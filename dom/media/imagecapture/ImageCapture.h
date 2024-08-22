@@ -411,14 +411,15 @@ aGivenProto
 ImageCapture
 class
 members
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
 )
+const
 {
 return
-GetOwner
+GetOwnerGlobal
 (
 )
 ;

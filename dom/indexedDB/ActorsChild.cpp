@@ -7553,7 +7553,7 @@ owner
 kungFuDeathGrip
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 )

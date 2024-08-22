@@ -531,7 +531,7 @@ track
 new
 TextTrack
 (
-GetOwner
+GetOwnerWindow
 (
 )
 this
@@ -818,7 +818,7 @@ nsPIDOMWindowInner
 *
 win
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;

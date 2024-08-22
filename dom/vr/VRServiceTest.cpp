@@ -303,7 +303,7 @@ DOMEventTargetHelper
 aVRServiceTest
 -
 >
-GetOwner
+GetOwnerGlobal
 (
 )
 )
@@ -2350,7 +2350,7 @@ DOMEventTargetHelper
 aVRServiceTest
 -
 >
-GetOwner
+GetOwnerGlobal
 (
 )
 )

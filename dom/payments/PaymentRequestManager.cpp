@@ -2201,7 +2201,7 @@ win
 aRequest
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 ;

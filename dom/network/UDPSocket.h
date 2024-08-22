@@ -298,7 +298,7 @@ NS_DECL_NSIUDPSOCKETLISTENER
 NS_DECL_NSIUDPSOCKETINTERNAL
 public
 :
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -306,7 +306,7 @@ GetParentObject
 const
 {
 return
-GetOwner
+GetOwnerGlobal
 (
 )
 ;

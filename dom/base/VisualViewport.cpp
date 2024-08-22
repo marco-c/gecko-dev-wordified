@@ -167,6 +167,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -399,7 +406,7 @@ nsPIDOMWindowInner
 *
 win
 =
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -929,7 +936,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;

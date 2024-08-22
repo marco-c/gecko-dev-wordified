@@ -134,7 +134,9 @@ include
 "
 mozilla
 /
-StaticPrefs_network
+net
+/
+Cookie
 .
 h
 "
@@ -143,7 +145,7 @@ include
 "
 mozilla
 /
-Telemetry
+StaticPrefs_network
 .
 h
 "

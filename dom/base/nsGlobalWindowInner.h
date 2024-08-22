@@ -279,17 +279,6 @@ mozilla
 /
 dom
 /
-Credential
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 DebuggerNotificationManager
 .
 h
@@ -606,6 +595,9 @@ BrowsingContext
 ;
 struct
 ChannelPixelLayout
+;
+class
+Credential
 ;
 class
 ClientSource

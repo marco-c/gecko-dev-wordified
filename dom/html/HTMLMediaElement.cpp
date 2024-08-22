@@ -922,6 +922,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsIAsyncVerifyRedirectCallback
 .
 h
@@ -22300,7 +22307,7 @@ aOutputStream
 mStream
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 aSource
@@ -22335,7 +22342,7 @@ aOutputStream
 mStream
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 aSource

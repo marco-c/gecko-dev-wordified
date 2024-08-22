@@ -168,13 +168,6 @@ h
 #
 include
 "
-WebAudioUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -198,6 +191,13 @@ include
 mozilla
 /
 PodOperations
+.
+h
+"
+#
+include
+"
+nsGlobalWindowInner
 .
 h
 "
@@ -2486,7 +2486,7 @@ Init
 aNode
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 )
@@ -2546,7 +2546,7 @@ Create
 context
 -
 >
-GetOwner
+GetOwnerWindow
 (
 )
 inputChannelCount

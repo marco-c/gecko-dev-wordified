@@ -160,6 +160,7 @@ battery
 {
 class
 BatteryManager
+final
 :
 public
 DOMEventTargetHelper
@@ -215,7 +216,7 @@ WebIDL
 Interface
 *
 /
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -223,19 +224,17 @@ GetParentObject
 const
 {
 return
-GetOwner
+GetOwnerGlobal
 (
 )
 ;
 }
-virtual
 JSObject
 *
 WrapObject
 (
 JSContext
 *
-aCx
 JS
 :
 :

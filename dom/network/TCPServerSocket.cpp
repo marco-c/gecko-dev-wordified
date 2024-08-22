@@ -202,6 +202,13 @@ nsComponentManagerUtils
 .
 h
 "
+#
+include
+"
+nsGlobalWindowInner
+.
+h
+"
 using
 namespace
 mozilla
@@ -799,7 +806,7 @@ event
 new
 Event
 (
-GetOwner
+GetOwnerWindow
 (
 )
 )

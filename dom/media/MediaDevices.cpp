@@ -402,7 +402,7 @@ because
 DOMEventTargetHelper
 :
 :
-GetOwner
+GetOwnerWindow
 (
 )
 returns
@@ -411,6 +411,8 @@ if
 the
 document
 is
+/
+/
 unloaded
 .
 /
@@ -1462,7 +1464,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -1778,7 +1780,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -2984,7 +2986,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -3165,7 +3167,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -5162,7 +5164,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -5632,7 +5634,7 @@ nsPIDOMWindowInner
 >
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
@@ -5762,7 +5764,7 @@ nsPIDOMWindowInner
 *
 window
 =
-GetOwner
+GetOwnerWindow
 (
 )
 ;
