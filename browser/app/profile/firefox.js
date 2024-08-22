@@ -22287,8 +22287,9 @@ main
 tools
 "
 "
-history
+aichat
 syncedtabs
+history
 "
 )
 ;
