@@ -309,7 +309,7 @@ values
 :
 GenericAtomIdent
 (
-html5ever
+markup5ever
 :
 :
 local_name
@@ -349,7 +349,7 @@ values
 :
 GenericAtomIdent
 (
-html5ever
+markup5ever
 :
 :
 ns
@@ -375,7 +375,7 @@ values
 :
 GenericAtomIdent
 (
-html5ever
+markup5ever
 :
 :
 ns
