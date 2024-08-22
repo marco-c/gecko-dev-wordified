@@ -212,7 +212,9 @@ querySelector
 .
 node
 .
-arrow
+theme
+-
+twisty
 "
 )
 .

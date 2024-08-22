@@ -582,7 +582,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 win

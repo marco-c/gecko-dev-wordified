@@ -465,7 +465,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -474,7 +476,7 @@ classList
 contains
 (
 "
-expanded
+open
 "
 )
 false

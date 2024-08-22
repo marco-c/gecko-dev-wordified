@@ -1312,7 +1312,7 @@ renderItem
 item
 depth
 focused
-_
+arrow
 expanded
 )
 =
@@ -1334,6 +1334,7 @@ createElement
 (
 SourcesTreeItem
 {
+arrow
 item
 depth
 focused

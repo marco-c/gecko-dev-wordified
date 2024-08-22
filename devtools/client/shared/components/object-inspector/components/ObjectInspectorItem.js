@@ -1036,7 +1036,9 @@ matches
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 )

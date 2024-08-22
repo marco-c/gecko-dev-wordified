@@ -205,7 +205,9 @@ querySelectorAll
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 .
@@ -223,7 +225,9 @@ querySelectorAll
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 [

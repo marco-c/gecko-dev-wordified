@@ -218,7 +218,9 @@ querySelector
 (
 "
 .
-arrow
+theme
+-
+twisty
 "
 )
 null
