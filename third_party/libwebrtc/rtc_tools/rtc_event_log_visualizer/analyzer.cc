@@ -13015,6 +13015,13 @@ kDefaultStartBitrateBps
 ;
 NetworkControllerConfig
 cc_config
+(
+CreateEnvironment
+(
+&
+null_event_log
+)
+)
 ;
 cc_config
 .
@@ -13047,13 +13054,6 @@ BitsPerSec
 (
 kDefaultStartBitrateBps
 )
-;
-cc_config
-.
-event_log
-=
-&
-null_event_log
 ;
 auto
 goog_cc
