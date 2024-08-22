@@ -1277,8 +1277,6 @@ code2
 -
 >
 tier
-(
-)
 =
 =
 Tier
@@ -1695,7 +1693,7 @@ CodeRange
 &
 cr
 :
-metadata
+code
 (
 Tier
 :
@@ -2602,7 +2600,7 @@ tier
 )
 ;
 RootedObject
-code
+codeObj
 (
 cx
 JS_NewUint8Array
@@ -2619,7 +2617,7 @@ length
 if
 (
 !
-code
+codeObj
 )
 {
 return
@@ -2628,7 +2626,7 @@ false
 }
 memcpy
 (
-code
+codeObj
 -
 >
 as
@@ -2660,7 +2658,7 @@ cx
 ObjectValue
 (
 *
-code
+codeObj
 )
 )
 ;
@@ -2710,7 +2708,7 @@ CodeRange
 &
 p
 :
-metadata
+code
 (
 tier
 )
@@ -3116,7 +3114,7 @@ length
 )
 =
 =
-metadata
+code
 (
 t
 )
@@ -3166,7 +3164,7 @@ i
 ;
 i
 <
-metadata
+code
 (
 tier
 )
@@ -3277,7 +3275,7 @@ getFuncExportTypeDef
 (
 instance
 .
-metadata
+code
 (
 otherTier
 )
@@ -3299,7 +3297,7 @@ codeMeta
 .
 getFuncImportTypeDef
 (
-metadata
+code
 (
 tier
 )

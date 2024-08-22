@@ -2851,7 +2851,7 @@ funcIndex
 code_
 -
 >
-metadata
+codeTier
 (
 Tier
 :
