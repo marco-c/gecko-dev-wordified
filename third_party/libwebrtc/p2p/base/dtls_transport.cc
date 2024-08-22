@@ -703,7 +703,7 @@ error
 RTC_DCHECK_RUN_ON
 (
 &
-sequence_checker_
+callback_sequence_
 )
 ;
 if
@@ -803,7 +803,7 @@ error
 RTC_DCHECK_RUN_ON
 (
 &
-sequence_checker_
+callback_sequence_
 )
 ;
 /
@@ -901,7 +901,7 @@ size
 RTC_DCHECK_RUN_ON
 (
 &
-sequence_checker_
+callback_sequence_
 )
 ;
 if
@@ -1017,9 +1017,8 @@ queue
 "
 ;
 }
-SignalEvent
+FireEvent
 (
-this
 rtc
 :
 :
@@ -1046,7 +1045,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-sequence_checker_
+callback_sequence_
 )
 ;
 return
@@ -1064,7 +1063,7 @@ Close
 RTC_DCHECK_RUN_ON
 (
 &
-sequence_checker_
+callback_sequence_
 )
 ;
 packets_

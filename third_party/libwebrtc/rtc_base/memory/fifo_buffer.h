@@ -656,9 +656,14 @@ err
 (
 )
 {
-SignalEvent
+RTC_DCHECK_RUN_ON
 (
-this
+&
+callback_sequence_
+)
+;
+FireEvent
+(
 events
 err
 )
