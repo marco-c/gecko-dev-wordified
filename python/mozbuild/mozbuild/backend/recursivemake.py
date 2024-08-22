@@ -10918,6 +10918,8 @@ LIB_FILE_VAR
 libdef
 .
 import_path
+.
+full_path
 )
         
 )
@@ -11072,11 +11074,15 @@ self
 .
 _process_non_default_target
 (
+                
 libdef
 libdef
 .
 import_path
+.
+full_path
 backend_file
+            
 )
     
 def
@@ -11740,6 +11746,8 @@ pretty_relpath
 lib
 .
 import_path
+.
+full_path
 )
             
 )
@@ -11867,6 +11875,8 @@ pretty_relpath
 lib
 .
 import_path
+.
+full_path
 )
 )
             
