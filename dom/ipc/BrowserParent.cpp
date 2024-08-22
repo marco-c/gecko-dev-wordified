@@ -10360,6 +10360,16 @@ not
 modify
 links
 .
+RefPtr
+<
+nsIWidget
+>
+widget
+=
+GetTopLevelWidget
+(
+)
+;
 nsCOMPtr
 <
 nsIDragSession
@@ -10371,6 +10381,7 @@ nsContentUtils
 :
 GetDragSession
 (
+widget
 )
 ;
 if

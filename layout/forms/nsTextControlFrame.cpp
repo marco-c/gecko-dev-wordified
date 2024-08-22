@@ -896,6 +896,9 @@ nsContentUtils
 :
 GetDragSession
 (
+PresContext
+(
+)
 )
 )
 {
@@ -3383,6 +3386,9 @@ nsContentUtils
 :
 GetDragSession
 (
+PresContext
+(
+)
 )
 )
 {
@@ -7892,6 +7898,12 @@ nsContentUtils
 :
 GetDragSession
 (
+mFrame
+-
+>
+PresContext
+(
+)
 )
 )
 {
