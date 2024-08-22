@@ -240,8 +240,6 @@ onRemoveDeviceAssociation
 PropTypes
 .
 func
-.
-isRequired
 viewport
 :
 PropTypes
@@ -913,6 +911,16 @@ if
 viewport
 .
 device
+&
+&
+typeof
+onRemoveDeviceAssociation
+=
+=
+=
+"
+function
+"
 )
 {
 onRemoveDeviceAssociation
@@ -920,6 +928,11 @@ onRemoveDeviceAssociation
 viewport
 .
 id
+{
+resetProfile
+:
+false
+}
 )
 ;
 }

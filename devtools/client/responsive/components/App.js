@@ -1429,6 +1429,11 @@ onRemoveDeviceAssociation
 viewport
 .
 id
+{
+resetProfile
+:
+true
+}
 )
 ;
 }
@@ -1449,6 +1454,9 @@ device
 onRemoveDeviceAssociation
 (
 id
+{
+resetProfile
+}
 )
 {
 /
@@ -1491,9 +1499,17 @@ dispatch
 removeDeviceAssociation
 (
 id
+{
+resetProfile
+}
 )
 )
 ;
+if
+(
+resetProfile
+)
+{
 this
 .
 props
@@ -1532,6 +1548,7 @@ changeUserAgent
 )
 )
 ;
+}
 }
 doResizeViewport
 (
