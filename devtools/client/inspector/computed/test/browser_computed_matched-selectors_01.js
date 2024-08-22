@@ -167,7 +167,7 @@ is
 nodeFront
 view
 .
-_viewedElement
+viewedElement
 "
 style
 inspector
