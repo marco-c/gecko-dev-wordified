@@ -209,14 +209,6 @@ media_optimization
 VCMLossProtectionLogic
 (
 env_
-.
-clock
-(
-)
-.
-TimeInMilliseconds
-(
-)
 )
 )
 max_payload_size_
