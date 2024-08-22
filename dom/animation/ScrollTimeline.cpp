@@ -1193,7 +1193,7 @@ mAxis
 StyleScrollAxis
 :
 :
-Horizontal
+X
 |
 |
 (
