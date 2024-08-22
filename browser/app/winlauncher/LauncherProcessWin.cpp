@@ -198,6 +198,15 @@ include
 "
 mozilla
 /
+NativeNt
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SafeMode
 .
 h
