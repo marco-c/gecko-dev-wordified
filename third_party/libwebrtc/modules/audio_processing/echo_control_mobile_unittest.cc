@@ -98,11 +98,11 @@ vector
 #
 include
 "
-modules
+api
+/
+audio
 /
 audio_processing
-/
-echo_control_mobile_impl
 .
 h
 "
@@ -113,9 +113,7 @@ modules
 /
 audio_processing
 /
-include
-/
-audio_processing
+echo_control_mobile_impl
 .
 h
 "

@@ -109,6 +109,17 @@ include
 "
 api
 /
+audio
+/
+audio_processing
+.
+h
+"
+#
+include
+"
+api
+/
 audio_codecs
 /
 audio_decoder_factory
@@ -263,9 +274,6 @@ AudioDeviceModule
 ;
 class
 AudioFrameProcessor
-;
-class
-AudioProcessing
 ;
 /
 /
