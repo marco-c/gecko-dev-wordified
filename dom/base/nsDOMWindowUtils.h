@@ -627,6 +627,8 @@ aModifiers
 bool
 aIgnoreRootScrollFrame
 bool
+aIsPen
+bool
 aToWindow
 bool
 *
