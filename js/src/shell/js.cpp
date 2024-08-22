@@ -85887,6 +85887,11 @@ setWasmIon
 (
 enableWasmOptimizing
 )
+.
+setTestWasmAwaitTier2
+(
+enableTestWasmAwaitTier2
+)
 ;
 #
 ifndef
