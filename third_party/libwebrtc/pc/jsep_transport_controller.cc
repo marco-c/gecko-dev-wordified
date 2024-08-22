@@ -2695,8 +2695,9 @@ ice_transport
 )
 -
 >
-SetGatheringStateCallback
+AddGatheringStateCallback
 (
+this
 [
 this
 ]
