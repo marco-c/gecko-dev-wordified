@@ -1296,6 +1296,13 @@ details
 .
 if
 (
+XRE_IsParentProcess
+(
+)
+)
+{
+if
+(
 auto
 *
 gbmBackend
@@ -1371,6 +1378,7 @@ GBM_BACKEND
 "
 )
 ;
+}
 }
 }
 }
