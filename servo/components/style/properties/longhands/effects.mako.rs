@@ -160,13 +160,6 @@ engines
 gecko
 servo
 "
-servo_pref
-=
-"
-layout
-.
-legacy_layout
-"
 vector
 =
 True
