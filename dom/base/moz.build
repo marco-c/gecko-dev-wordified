@@ -718,6 +718,11 @@ FullscreenChange
 h
 "
 "
+GlobalFreezeObserver
+.
+h
+"
+"
 GlobalTeardownObserver
 .
 h

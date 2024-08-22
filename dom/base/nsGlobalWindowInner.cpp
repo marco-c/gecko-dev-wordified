@@ -35613,6 +35613,10 @@ NotifyDOMWindowFrozen
 this
 )
 ;
+NotifyGlobalFrozen
+(
+)
+;
 }
 void
 nsGlobalWindowInner
@@ -35779,6 +35783,10 @@ Thaw
 NotifyDOMWindowThawed
 (
 this
+)
+;
+NotifyGlobalThawed
+(
 )
 ;
 }
