@@ -1874,6 +1874,10 @@ numGlobalImports
 (
 0
 )
+funcDefsOffsetStart
+(
+UINT32_MAX
+)
 funcImportsOffsetStart
 (
 UINT32_MAX

@@ -592,9 +592,8 @@ MOZ_ALWAYS_TRUE
 (
 mg
 .
-init
+initializeCompleteTier
 (
-nullptr
 )
 )
 ;

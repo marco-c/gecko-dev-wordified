@@ -1875,6 +1875,15 @@ CompileState
 :
 EagerTier2
 :
+case
+wasm
+:
+:
+CompileState
+:
+:
+LazyTier2
+:
 return
 wasmWorklist_tier2_
 ;
