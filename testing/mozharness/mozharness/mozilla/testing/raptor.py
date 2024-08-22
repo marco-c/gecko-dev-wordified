@@ -8646,6 +8646,7 @@ options
 .
 extend
 (
+[
 "
 -
 -
@@ -8653,6 +8654,7 @@ power
 -
 test
 "
+]
 )
         
 for
