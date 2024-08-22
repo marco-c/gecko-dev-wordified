@@ -2173,12 +2173,6 @@ daily
 )
 )
 {
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 /
 /
 Submit
@@ -2195,14 +2189,6 @@ Submit
 (
 )
 ;
-#
-endif
-/
-/
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 }
 return
 NS_OK
