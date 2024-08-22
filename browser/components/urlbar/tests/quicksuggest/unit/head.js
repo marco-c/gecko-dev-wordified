@@ -1242,7 +1242,8 @@ Education
 "
 suggestedIndex
 =
-0
+-
+1
 isSuggestedIndexRelativeToGroup
 =
 true
