@@ -2350,6 +2350,11 @@ uint16_t
 unknown_types
 )
 ;
+[
+[
+deprecated
+]
+]
 void
 set_proxy
 (
@@ -2386,6 +2391,11 @@ proxy_
 proxy
 ;
 }
+[
+[
+deprecated
+]
+]
 const
 std
 :
@@ -2405,6 +2415,11 @@ return
 user_agent_
 ;
 }
+[
+[
+deprecated
+]
+]
 const
 rtc
 :
