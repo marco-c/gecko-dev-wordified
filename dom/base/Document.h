@@ -21864,6 +21864,10 @@ float
 aX
 float
 aY
+const
+CaretPositionFromPointOptions
+&
+aOptions
 )
 ;
 Element
