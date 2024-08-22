@@ -9322,9 +9322,6 @@ expected
 RUST_LIBRARY_FILE
 :
 =
-%
-s
-/
 x86_64
 -
 unknown
@@ -9339,13 +9336,6 @@ libtest_library
 .
 a
 "
-            
-%
-env
-.
-topobjdir
-#
-noqa
             
 "
 CARGO_FILE
@@ -9505,9 +9495,6 @@ expected
 HOST_RUST_LIBRARY_FILE
 :
 =
-%
-s
-/
 x86_64
 -
 unknown
@@ -9522,13 +9509,6 @@ libhostrusttool
 .
 a
 "
-            
-%
-env
-.
-topobjdir
-#
-noqa
             
 "
 CARGO_FILE
@@ -9693,9 +9673,6 @@ expected
 HOST_RUST_LIBRARY_FILE
 :
 =
-%
-s
-/
 x86_64
 -
 unknown
@@ -9710,13 +9687,6 @@ libhostrusttool
 .
 a
 "
-            
-%
-env
-.
-topobjdir
-#
-noqa
             
 "
 CARGO_FILE
@@ -9886,9 +9856,6 @@ expected
 RUST_LIBRARY_FILE
 :
 =
-%
-s
-/
 x86_64
 -
 unknown
@@ -9903,13 +9870,6 @@ libfeature_library
 .
 a
 "
-            
-%
-env
-.
-topobjdir
-#
-noqa
             
 "
 CARGO_FILE
@@ -11712,8 +11672,9 @@ SHARED_LIBS
 :
 [
 "
-.
-.
+(
+DEPTH
+)
 /
 dist
 /
@@ -11724,8 +11685,9 @@ qux
 so
 "
 "
-.
-.
+(
+DEPTH
+)
 /
 dist
 /
@@ -11743,8 +11705,9 @@ STATIC_LIBS
 :
 [
 "
-.
-.
+(
+DEPTH
+)
 /
 real
 /
@@ -11798,8 +11761,9 @@ SHARED_LIBS
 :
 [
 "
-.
-.
+(
+DEPTH
+)
 /
 dist
 /
@@ -11832,8 +11796,9 @@ STATIC_LIBS
 :
 [
 "
-.
-.
+(
+DEPTH
+)
 /
 real
 /
@@ -11860,8 +11825,9 @@ SHARED_LIBS
 :
 [
 "
-.
-.
+(
+DEPTH
+)
 /
 dist
 /
@@ -11894,8 +11860,9 @@ SHARED_LIBS
 :
 [
 "
-.
-.
+(
+DEPTH
+)
 /
 dist
 /
@@ -12011,17 +11978,6 @@ name
 var
 ]
 :
-                    
-val
-=
-os
-.
-path
-.
-normpath
-(
-val
-)
                     
 line
 =
