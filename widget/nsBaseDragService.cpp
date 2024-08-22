@@ -2850,6 +2850,7 @@ rv
 =
 InvokeDragSessionImpl
 (
+aWidget
 aTransferableArray
 mRegion
 aActionType
@@ -3983,8 +3984,21 @@ nsBaseDragService
 :
 StartDragSession
 (
+nsISupports
+*
+aWidgetProvider
 )
 {
+if
+(
+!
+aWidgetProvider
+)
+{
+return
+NS_ERROR_NULL_POINTER
+;
+}
 if
 (
 mDoingDrag
@@ -4050,6 +4064,7 @@ NS_FAILED
 (
 StartDragSession
 (
+aWidgetProvider
 )
 )
 )

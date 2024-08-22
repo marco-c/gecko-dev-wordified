@@ -267,6 +267,9 @@ nsDragServiceProxy
 :
 InvokeDragSessionImpl
 (
+nsIWidget
+*
+aWidget
 nsIArray
 *
 aArrayTransferables
@@ -617,6 +620,7 @@ mSourceTopWindowContext
 ;
 StartDragSession
 (
+aWidget
 )
 ;
 return
@@ -665,6 +669,7 @@ mSourceTopWindowContext
 ;
 StartDragSession
 (
+aWidget
 )
 ;
 return

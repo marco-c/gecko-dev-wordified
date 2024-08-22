@@ -5452,6 +5452,9 @@ nsDragService
 :
 InvokeDragSessionImpl
 (
+nsIWidget
+*
+aWidget
 nsIArray
 *
 aArrayTransferables
@@ -6008,6 +6011,7 @@ context
 {
 StartDragSession
 (
+aWidget
 )
 ;
 /
@@ -6458,6 +6462,9 @@ nsDragService
 :
 StartDragSession
 (
+nsISupports
+*
+aWidgetProvider
 )
 {
 LOGDRAGSERVICE
@@ -6482,6 +6489,7 @@ nsBaseDragService
 :
 StartDragSession
 (
+aWidgetProvider
 )
 ;
 }
@@ -18725,8 +18733,15 @@ destination
 drag
 session
 .
+nsIWidget
+*
+targetWidget
+=
+mTargetWindow
+;
 StartDragSession
 (
+targetWidget
 )
 ;
 /

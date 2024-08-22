@@ -1131,6 +1131,9 @@ virtual
 nsresult
 InvokeDragSessionImpl
 (
+nsIWidget
+*
+aWidget
 nsIArray
 *
 aTransferableArray
