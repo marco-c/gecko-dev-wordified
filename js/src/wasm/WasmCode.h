@@ -5386,10 +5386,6 @@ const
 SharedBytes
 bytecode_
 ;
-const
-SharedCompileArgs
-compileArgs_
-;
 /
 /
 Methods
@@ -5642,10 +5638,6 @@ const
 ShareableBytes
 *
 maybeBytecode
-const
-CompileArgs
-*
-maybeCompileArgs
 )
 ;
 bool

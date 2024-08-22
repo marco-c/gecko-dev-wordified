@@ -731,6 +731,8 @@ types
 codeMeta
 .
 features
+(
+)
 &
 type
 )
@@ -11844,6 +11846,8 @@ codeMeta
 -
 >
 features
+(
+)
 &
 (
 *
@@ -12188,6 +12192,8 @@ codeMeta
 -
 >
 features
+(
+)
 &
 fields
 [
@@ -12395,6 +12401,8 @@ codeMeta
 -
 >
 features
+(
+)
 &
 elementType
 )
@@ -14566,6 +14574,8 @@ codeMeta
 -
 >
 features
+(
+)
 &
 tableElemType
 )
@@ -15057,6 +15067,8 @@ codeMeta
 -
 >
 features
+(
+)
 .
 multiMemory
 &
@@ -15804,6 +15816,8 @@ codeMeta
 -
 >
 features
+(
+)
 &
 type
 &
@@ -16091,6 +16105,8 @@ codeMeta
 -
 >
 features
+(
+)
 .
 builtinModules
 ;
@@ -16988,6 +17004,8 @@ codeMeta
 -
 >
 features
+(
+)
 .
 multiMemory
 &
@@ -17253,6 +17271,8 @@ codeMeta
 -
 >
 features
+(
+)
 &
 type
 &
@@ -19233,6 +19253,8 @@ codeMeta
 -
 >
 features
+(
+)
 &
 elemType
 )
@@ -22825,6 +22847,27 @@ cx
 options
 )
 ;
+SharedCompileArgs
+compileArgs
+=
+CompileArgs
+:
+:
+buildForValidation
+(
+features
+)
+;
+if
+(
+!
+compileArgs
+)
+{
+return
+false
+;
+}
 MutableModuleMetadata
 moduleMeta
 =
@@ -22847,7 +22890,8 @@ moduleMeta
 >
 init
 (
-features
+*
+compileArgs
 )
 )
 {
