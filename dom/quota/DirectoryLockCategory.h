@@ -138,6 +138,7 @@ uint8_t
 None
 =
 0
+UninitStorage
 }
 ;
 }

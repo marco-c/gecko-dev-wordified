@@ -720,6 +720,13 @@ Type
 aClientType
 bool
 aExclusive
+DirectoryLockCategory
+aCategory
+=
+DirectoryLockCategory
+:
+:
+None
 )
 ;
 RefPtr
@@ -4505,6 +4512,9 @@ Type
 aClientType
 bool
 aExclusive
+const
+DirectoryLockCategory
+aCategory
 )
 {
 return
@@ -4520,6 +4530,7 @@ aPersistenceType
 aOriginScope
 aClientType
 aExclusive
+aCategory
 )
 -
 >
@@ -5296,6 +5307,10 @@ aExclusive
 *
 /
 true
+DirectoryLockCategory
+:
+:
+UninitStorage
 )
 ;
 return
@@ -9380,6 +9395,10 @@ aExclusive
 *
 /
 true
+DirectoryLockCategory
+:
+:
+UninitStorage
 )
 ;
 }
