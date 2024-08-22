@@ -4954,7 +4954,7 @@ font
 ;
 }
 bool
-UseSoftwareRendering
+GetEffectiveWillReadFrequently
 (
 )
 const
@@ -5266,18 +5266,6 @@ acceleration
 .
 bool
 mWillReadFrequently
-=
-false
-;
-/
-/
-Whether
-to
-force
-software
-rendering
-bool
-mForceSoftwareRendering
 =
 false
 ;
