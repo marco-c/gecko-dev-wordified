@@ -18028,7 +18028,7 @@ case
 StyleAppearance
 :
 :
-MozMacUnifiedToolbarWindow
+MozMacWindow
 :
 case
 StyleAppearance
@@ -18576,7 +18576,7 @@ case
 StyleAppearance
 :
 :
-MozMacUnifiedToolbarWindow
+MozMacWindow
 :
 /
 /
