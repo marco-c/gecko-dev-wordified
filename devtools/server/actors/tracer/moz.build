@@ -88,12 +88,12 @@ MPL
 DevToolsModules
 (
 "
-profiler
+console
 .
 js
 "
 "
-resources
+profiler
 .
 js
 "
