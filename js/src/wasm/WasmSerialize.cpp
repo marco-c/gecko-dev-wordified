@@ -8804,7 +8804,7 @@ wasm
 :
 :
 Code
-704
+712
 )
 ;
 MutableCodeMetadata
@@ -8899,6 +8899,13 @@ codeMeta
 /
 *
 codeMetaForAsmJS
+=
+*
+/
+nullptr
+/
+*
+maybeBytecode
 =
 *
 /
@@ -9007,7 +9014,7 @@ wasm
 :
 :
 Code
-704
+712
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING
@@ -9128,7 +9135,7 @@ wasm
 :
 :
 Module
-64
+56
 )
 ;
 JS
@@ -9393,7 +9400,6 @@ Module
 moduleMeta
 *
 code
-nullptr
 /
 *
 loggingDeserialized
@@ -9451,7 +9457,7 @@ wasm
 :
 :
 Module
-64
+56
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING
