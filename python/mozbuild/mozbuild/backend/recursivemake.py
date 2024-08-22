@@ -10641,7 +10641,6 @@ backend_file
 .
 write
 (
-            
 "
 IMPORT_LIBRARY
 :
@@ -10651,18 +10650,10 @@ s
 \
 n
 "
-            
 %
-self
-.
-_pretty_path
-(
 libdef
 .
-import_path
-backend_file
-)
-        
+import_name
 )
         
 shared_lib
@@ -10904,22 +10895,11 @@ backend_file
 )
 :
         
-rust_lib
-=
-self
-.
-_pretty_path
-(
-libdef
-.
-import_path
-backend_file
-)
-        
 backend_file
 .
 write_once
 (
+            
 "
 %
 s
@@ -10935,8 +10915,11 @@ n
 libdef
 .
 LIB_FILE_VAR
-rust_lib
+libdef
+.
+import_name
 )
+        
 )
         
 backend_file
@@ -11090,7 +11073,9 @@ self
 _process_non_default_target
 (
 libdef
-rust_lib
+libdef
+.
+import_name
 backend_file
 )
     
@@ -11231,6 +11216,31 @@ obj
 backend_file
 )
 :
+        
+def
+pretty_relpath
+(
+path
+)
+:
+            
+return
+os
+.
+path
+.
+normpath
+(
+mozpath
+.
+relpath
+(
+path
+obj
+.
+objdir
+)
+)
         
 objs
 shared_libs
@@ -11725,14 +11735,11 @@ s
 n
 "
 %
-self
-.
-_pretty_path
+pretty_relpath
 (
 lib
 .
 import_path
-backend_file
 )
             
 )
@@ -11855,14 +11862,11 @@ n
 %
 (
 var
-self
-.
-_pretty_path
+pretty_relpath
 (
 lib
 .
 import_path
-backend_file
 )
 )
             
