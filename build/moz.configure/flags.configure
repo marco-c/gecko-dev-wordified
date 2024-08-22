@@ -4414,15 +4414,6 @@ file
 add_old_configure_assignment
 (
 "
-_COMPILATION_HOST_ASFLAGS
-"
-asm_flags
-.
-host_asflags
-)
-add_old_configure_assignment
-(
-"
 _COMPILATION_LDFLAGS
 "
 linker_flags
