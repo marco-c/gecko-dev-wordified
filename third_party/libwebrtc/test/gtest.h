@@ -103,6 +103,12 @@ h
 RTC_PUSH_IGNORING_WUNDEF
 (
 )
+/
+/
+IWYU
+pragma
+:
+begin_exports
 #
 include
 "
@@ -135,6 +141,12 @@ gtest
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+end_exports
 RTC_POP_IGNORING_WUNDEF
 (
 )

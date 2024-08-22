@@ -118,6 +118,12 @@ gmock
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+export
 RTC_POP_IGNORING_WUNDEF
 (
 )
