@@ -3708,12 +3708,6 @@ dataBackupGroup
 ;
 backupGroup
 .
-hidden
-=
-false
-;
-backupGroup
-.
 removeAttribute
 (
 "
