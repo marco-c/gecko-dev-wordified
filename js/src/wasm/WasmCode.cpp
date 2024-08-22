@@ -6140,12 +6140,12 @@ numFuncs
 if
 (
 mode_
-=
+!
 =
 CompileMode
 :
 :
-Tier1
+Once
 )
 {
 tiering_

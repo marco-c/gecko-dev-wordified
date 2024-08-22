@@ -4673,12 +4673,12 @@ finishTier2
 if
 (
 mode_
-=
+!
 =
 CompileMode
 :
 :
-Tier1
+Once
 )
 {
 tiering_

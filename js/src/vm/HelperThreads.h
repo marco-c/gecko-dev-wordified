@@ -677,8 +677,8 @@ task
 wasm
 :
 :
-CompileMode
-mode
+CompileState
+state
 )
 ;
 /
@@ -719,8 +719,8 @@ taskState
 wasm
 :
 :
-CompileMode
-mode
+CompileState
+state
 const
 AutoLockHelperThreadState
 &
