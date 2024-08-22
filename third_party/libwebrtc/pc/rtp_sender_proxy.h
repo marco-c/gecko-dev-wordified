@@ -316,7 +316,7 @@ string
 PROXY_METHOD1
 (
 void
-SetEncoderToPacketizerFrameTransformer
+SetFrameTransformer
 rtc
 :
 :

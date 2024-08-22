@@ -614,7 +614,7 @@ const
 override
 ;
 void
-SetDepacketizerToDecoderFrameTransformer
+SetFrameTransformer
 (
 rtc
 :

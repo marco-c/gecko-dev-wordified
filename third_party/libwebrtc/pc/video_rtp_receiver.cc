@@ -633,7 +633,7 @@ void
 VideoRtpReceiver
 :
 :
-SetDepacketizerToDecoderFrameTransformer
+SetFrameTransformer
 (
 rtc
 :

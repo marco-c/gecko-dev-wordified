@@ -3234,7 +3234,7 @@ if
 frame_transformer_
 )
 {
-SetEncoderToPacketizerFrameTransformer
+SetFrameTransformer
 (
 frame_transformer_
 )
@@ -3676,7 +3676,7 @@ void
 RtpSenderBase
 :
 :
-SetEncoderToPacketizerFrameTransformer
+SetFrameTransformer
 (
 rtc
 :

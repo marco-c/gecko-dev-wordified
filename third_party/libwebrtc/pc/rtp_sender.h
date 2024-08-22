@@ -1511,7 +1511,7 @@ rid
 override
 ;
 void
-SetEncoderToPacketizerFrameTransformer
+SetFrameTransformer
 (
 rtc
 :

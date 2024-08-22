@@ -407,7 +407,7 @@ override
 MOCK_METHOD
 (
 void
-SetEncoderToPacketizerFrameTransformer
+SetFrameTransformer
 (
 rtc
 :
