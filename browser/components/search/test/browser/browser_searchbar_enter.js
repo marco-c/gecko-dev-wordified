@@ -1221,7 +1221,7 @@ add_task
 (
 async
 function
-openSettingsWithEnter
+test_open_settings_with_enter
 (
 )
 {
