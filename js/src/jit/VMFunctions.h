@@ -4598,6 +4598,13 @@ int32_t
 value
 )
 ;
+int32_t
+Float32ToFloat16
+(
+float
+value
+)
+;
 JSAtom
 *
 AtomizeStringNoGC
