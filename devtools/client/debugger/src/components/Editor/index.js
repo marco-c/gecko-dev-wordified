@@ -1485,7 +1485,7 @@ mouseover
 "
 onMouseOver
 (
-codeMirror
+editor
 )
 )
 ;
