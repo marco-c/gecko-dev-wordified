@@ -1702,14 +1702,6 @@ mWriteOnly
 ;
 }
 ;
-size_t
-BindingJSObjectMallocBytes
-(
-ImageBitmap
-*
-aBitmap
-)
-;
 }
 /
 /
