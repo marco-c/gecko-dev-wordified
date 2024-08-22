@@ -425,6 +425,12 @@ TakeChildProcessDragAction
 (
 )
 ;
+using
+nsIDragService
+:
+:
+GetCurrentSession
+;
 protected
 :
 virtual

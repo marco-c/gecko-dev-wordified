@@ -3695,6 +3695,9 @@ nsBaseDragService
 :
 GetCurrentSession
 (
+nsISupports
+*
+aWidgetProvider
 nsIDragSession
 *
 *
