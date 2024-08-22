@@ -346,7 +346,6 @@ browser
 "
 Highlight
 "
-1
 )
 ;
 const
