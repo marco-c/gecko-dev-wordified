@@ -5622,6 +5622,16 @@ interpEntry
 )
 const
 ;
+CompileMode
+mode
+(
+)
+const
+{
+return
+mode_
+;
+}
 void
 *
 *
