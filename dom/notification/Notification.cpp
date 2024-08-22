@@ -2742,7 +2742,7 @@ GetPrivateBrowsingId
 StaticPrefs
 :
 :
-dom_webnotifications_privateBrowsing_enableDespiteLimitations
+dom_webnotifications_privateBrowsing_enabled
 (
 )
 )
@@ -9220,7 +9220,7 @@ GetPrivateBrowsingId
 StaticPrefs
 :
 :
-dom_webnotifications_privateBrowsing_enableDespiteLimitations
+dom_webnotifications_privateBrowsing_enabled
 (
 )
 )
