@@ -29,6 +29,14 @@ zero
 /
 /
 /
+/
+*
+eslint
+-
+env
+serviceworker
+*
+/
 onnotificationclose
 =
 function
@@ -65,7 +73,8 @@ html
 .
 catch
 (
-err
+(
+)
 =
 >
 {
