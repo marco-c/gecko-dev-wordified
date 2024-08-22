@@ -205,7 +205,6 @@ ui
 DEFAULT_DPPX
 )
 ;
-await
 testTouchEventsOverride
 (
 ui
@@ -362,7 +361,6 @@ ui
 NEW_DPPX
 )
 ;
-await
 testTouchEventsOverride
 (
 ui
@@ -487,7 +485,6 @@ ui
 NEW_DPPX
 )
 ;
-await
 testTouchEventsOverride
 (
 ui

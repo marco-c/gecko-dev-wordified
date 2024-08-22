@@ -3954,7 +3954,6 @@ expected
 )
 ;
 }
-async
 function
 testTouchEventsOverride
 (
