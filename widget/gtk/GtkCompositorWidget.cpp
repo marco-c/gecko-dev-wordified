@@ -1359,11 +1359,15 @@ LockSurface
 {
 return
 mWidget
+?
+mWidget
 -
 >
 LockSurface
 (
 )
+:
+nullptr
 ;
 }
 }
