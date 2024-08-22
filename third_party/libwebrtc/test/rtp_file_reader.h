@@ -94,6 +94,11 @@ TEST_RTP_FILE_READER_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 set
 >
 #
