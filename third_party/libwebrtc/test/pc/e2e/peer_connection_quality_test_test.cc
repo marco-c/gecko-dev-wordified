@@ -678,10 +678,15 @@ network_emulation
 =
 CreateNetworkEmulationManager
 (
+{
+.
+time_mode
+=
 TimeMode
 :
 :
 kSimulated
+}
 )
 ;
 PeerConnectionE2EQualityTest

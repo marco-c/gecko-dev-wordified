@@ -2148,10 +2148,15 @@ network_emulation_manager
 =
 CreateNetworkEmulationManager
 (
+{
+.
+time_mode
+=
 TimeMode
 :
 :
 kSimulated
+}
 )
 ;
 auto
