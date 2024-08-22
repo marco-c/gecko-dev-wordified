@@ -164,7 +164,7 @@ getContext
 /
 /
 Setting
-textRendering
+fontStretch
 with
 lower
 cases
