@@ -898,6 +898,14 @@ aPolicies
 ;
 private
 :
+enum
+class
+ForceReportSample
+{
+Yes
+No
+}
+;
 /
 *
 *
@@ -939,6 +947,8 @@ const
 nsAString
 &
 aObserverSubject
+ForceReportSample
+aForceReportSample
 )
 ;
 bool

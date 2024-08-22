@@ -232,6 +232,7 @@ Inline
 Eval
 Self
 WasmEval
+TrustedTypesPolicy
 }
 ;
 using
