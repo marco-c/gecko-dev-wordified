@@ -362,17 +362,6 @@ CaptureTarget
 aCapture
 )
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvClose
-(
-)
-;
 virtual
 void
 ActorDestroy

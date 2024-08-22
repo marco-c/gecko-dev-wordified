@@ -432,12 +432,6 @@ aCallback
 )
 override
 ;
-NS_IMETHOD
-Close
-(
-)
-override
-;
 /
 /
 PFilePickerChild

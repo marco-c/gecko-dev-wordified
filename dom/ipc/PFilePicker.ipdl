@@ -254,11 +254,6 @@ CaptureTarget
 capture
 )
 ;
-async
-Close
-(
-)
-;
 child
 :
 async
