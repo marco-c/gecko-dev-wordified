@@ -194,15 +194,9 @@ iso8601
 const
 timeZone
 =
-new
-Temporal
-.
-TimeZone
-(
 "
 UTC
 "
-)
 ;
 const
 instance

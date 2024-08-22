@@ -78,6 +78,7 @@ isArray
 new
 Date
 (
+0
 )
 )
 false
@@ -89,6 +90,7 @@ isArray
 new
 Date
 (
+0
 )
 )
 must

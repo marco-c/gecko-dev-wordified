@@ -207,7 +207,6 @@ checkToTemporalPlainDateTimeFastPath
 (
 (
 date
-calendar
 )
 =
 >
@@ -229,7 +228,9 @@ PlainDateTime
 987
 654
 321
-calendar
+"
+iso8601
+"
 )
 ;
 const

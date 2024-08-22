@@ -119,15 +119,9 @@ const
 args
 =
 [
-new
-Temporal
-.
-Calendar
-(
 "
 iso8601
 "
-)
 ]
 ;
 assert

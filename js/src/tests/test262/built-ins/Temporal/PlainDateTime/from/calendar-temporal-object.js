@@ -247,7 +247,6 @@ checkToTemporalCalendarFastPath
 (
 (
 temporalObject
-calendar
 )
 =
 >
@@ -283,10 +282,10 @@ sameValue
 (
 result
 .
-getCalendar
-(
-)
-calendar
+calendarId
+"
+iso8601
+"
 "
 Temporal
 object

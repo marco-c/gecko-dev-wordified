@@ -131,6 +131,7 @@ date
 new
 Date
 (
+0
 )
 ;
 assert
@@ -183,6 +184,7 @@ date
 new
 Date
 (
+0
 )
 ;
 assert
@@ -236,6 +238,7 @@ date
 new
 Date
 (
+0
 )
 ;
 assert

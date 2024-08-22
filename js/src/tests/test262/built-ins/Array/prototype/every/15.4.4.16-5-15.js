@@ -86,6 +86,7 @@ objDate
 new
 Date
 (
+0
 )
 ;
 function

@@ -98,15 +98,9 @@ Temporal
 const
 calendar
 =
-new
-Temporal
-.
-Calendar
-(
 "
 iso8601
 "
-)
 ;
 const
 zdt
@@ -159,9 +153,7 @@ sameValue
 (
 result
 .
-getCalendar
-(
-)
+calendarId
 calendar
 "
 Calendar

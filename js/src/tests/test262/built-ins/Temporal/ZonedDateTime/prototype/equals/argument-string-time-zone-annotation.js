@@ -455,17 +455,6 @@ description
 >
 {
 const
-timeZone
-=
-new
-Temporal
-.
-TimeZone
-(
-expectedZone
-)
-;
-const
 instance
 =
 new
@@ -474,7 +463,7 @@ Temporal
 ZonedDateTime
 (
 0n
-timeZone
+expectedZone
 )
 ;
 const

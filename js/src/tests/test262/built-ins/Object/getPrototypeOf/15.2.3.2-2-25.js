@@ -77,6 +77,7 @@ obj
 new
 Date
 (
+0
 )
 ;
 assert

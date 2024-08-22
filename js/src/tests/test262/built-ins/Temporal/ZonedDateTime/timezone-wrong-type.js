@@ -83,10 +83,9 @@ to
 a
 valid
 string
-or
-object
 for
-TimeZone
+time
+zone
 features
 :
 [

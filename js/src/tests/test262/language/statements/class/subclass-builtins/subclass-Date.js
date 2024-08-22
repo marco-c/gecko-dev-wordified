@@ -46,6 +46,7 @@ description
 new
 SubDate
 (
+0
 )
 instanceof
 Date
@@ -76,6 +77,7 @@ sub
 new
 Subclass
 (
+0
 )
 ;
 assert

@@ -127,6 +127,9 @@ evaluated
 import
 "
 .
+.
+/
+resources
 /
 ensure
 -

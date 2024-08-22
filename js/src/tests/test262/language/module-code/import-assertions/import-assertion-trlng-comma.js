@@ -157,6 +157,9 @@ DONOTEVALUATE
 import
 "
 .
+.
+/
+resources
 /
 ensure
 -

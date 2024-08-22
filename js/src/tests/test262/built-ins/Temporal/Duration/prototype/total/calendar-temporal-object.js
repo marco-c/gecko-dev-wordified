@@ -74,6 +74,7 @@ prototype
 total
 description
 :
+>
 Fast
 path
 for
@@ -82,9 +83,8 @@ other
 Temporal
 objects
 to
-Temporal
-.
-Calendar
+calendar
+ID
 by
 reading
 internal

@@ -102,15 +102,9 @@ Temporal
 ZonedDateTime
 (
 1588377600_000_000_000n
-new
-Temporal
-.
-TimeZone
-(
 "
 UTC
 "
-)
 )
 ;
 let

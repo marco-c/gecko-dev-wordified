@@ -176,6 +176,7 @@ function
 new
 D
 (
+0
 )
 ;
 }
@@ -188,10 +189,12 @@ Date
 {
 constructor
 (
+d
 )
 {
 super
 (
+d
 )
 ;
 }
@@ -199,6 +202,7 @@ super
 new
 D2
 (
+0
 )
 ;
 reportCompare

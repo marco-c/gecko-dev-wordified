@@ -137,15 +137,9 @@ Temporal
 ZonedDateTime
 (
 0n
-new
-Temporal
-.
-TimeZone
-(
 "
 UTC
 "
-)
 )
 ;
 invalidStrings

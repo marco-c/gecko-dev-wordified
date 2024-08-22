@@ -113,17 +113,6 @@ expected
 description
 )
 {
-const
-timeZone
-=
-new
-Temporal
-.
-TimeZone
-(
-timeZoneIdentifier
-)
-;
 assert
 .
 sameValue
@@ -134,6 +123,8 @@ toString
 (
 {
 timeZone
+:
+timeZoneIdentifier
 }
 )
 expected

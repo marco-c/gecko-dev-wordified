@@ -82,10 +82,9 @@ date
 time
 strings
 to
-Temporal
-.
-TimeZone
-instances
+time
+zone
+IDs
 (
 with
 IANA

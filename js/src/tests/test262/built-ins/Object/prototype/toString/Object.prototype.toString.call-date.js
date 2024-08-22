@@ -73,6 +73,7 @@ call
 new
 Date
 (
+0
 )
 )
 "
@@ -93,6 +94,7 @@ call
 new
 Date
 (
+0
 )
 )
 returns
@@ -120,6 +122,7 @@ Object
 new
 Date
 (
+0
 )
 )
 )
@@ -143,6 +146,7 @@ Object
 new
 Date
 (
+0
 )
 )
 )

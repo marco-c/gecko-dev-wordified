@@ -94,6 +94,7 @@ props
 new
 Date
 (
+0
 )
 ;
 Object
