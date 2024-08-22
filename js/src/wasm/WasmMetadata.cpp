@@ -1599,12 +1599,5 @@ sizeOfExcludingThis
 (
 mallocSizeOf
 )
-+
-debugFuncTypeIndices
-.
-sizeOfExcludingThis
-(
-mallocSizeOf
-)
 ;
 }

@@ -1321,6 +1321,12 @@ flags
 :
 8
 ;
+WASM_CHECK_CACHEABLE_POD
+(
+typeIndex
+flags
+)
+;
 /
 /
 Assert
@@ -1450,6 +1456,11 @@ CanRefFunc
 ;
 }
 }
+;
+WASM_DECLARE_CACHEABLE_POD
+(
+FuncDesc
+)
 ;
 using
 FuncDescVector

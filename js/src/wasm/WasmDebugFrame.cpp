@@ -1092,7 +1092,7 @@ codeMeta
 (
 )
 .
-debugFuncType
+getFuncType
 (
 funcIndex
 (

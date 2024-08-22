@@ -18932,7 +18932,7 @@ codeMeta
 (
 )
 .
-debugNumFuncs
+numFuncs
 (
 )
 ;
