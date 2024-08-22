@@ -1105,10 +1105,6 @@ adapter
 output
 height
 .
-const
-bool
-variable_start_scale_factor_
-;
 /
 /
 The

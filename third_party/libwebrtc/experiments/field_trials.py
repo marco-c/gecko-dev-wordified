@@ -5974,27 +5974,6 @@ FieldTrial
 '
 WebRTC
 -
-Video
--
-VariableStartScaleFactor
-'
-               
-'
-'
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 VideoFrameTrackingIdAdvertised
 '
                
@@ -6164,7 +6143,7 @@ str
 \
     
 '
-680deace2615186c4d3cf9ed3bd3595b7b6c8ae8
+263c7a29291a7c4472ff60c7c3b2520f6dd5cea8
 '
 REGISTERED_FIELD_TRIALS
 :
