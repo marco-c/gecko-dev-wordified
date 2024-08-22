@@ -2935,6 +2935,8 @@ contentTitle
 )
 {
 return
+(
+(
 this
 .
 isRemoteBrowser
@@ -2954,6 +2956,12 @@ this
 contentDocument
 .
 title
+)
+?
+?
+"
+"
+)
 ;
 }
 forceEncodingDetection
