@@ -847,9 +847,9 @@ use
 an
 actual
 encoder
+/
+/
 implementation
-/
-/
 for
 testing
 but
@@ -1212,7 +1212,7 @@ Eq
 TEST
 (
 SimpleEncoderWrapper
-DISABLED_EncodeL2T2_KEY
+EncodeL2T2_KEY
 )
 {
 auto
@@ -1708,7 +1708,7 @@ Eq
 TEST
 (
 SimpleEncoderWrapper
-DISABLED_EncodeL1T3ForceKeyframe
+EncodeL1T3ForceKeyframe
 )
 {
 auto
