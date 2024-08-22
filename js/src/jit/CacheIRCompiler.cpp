@@ -42140,6 +42140,9 @@ failure
 label
 (
 )
+liveVolatileRegs
+(
+)
 )
 ;
 }
@@ -60733,8 +60736,11 @@ valueReg
 (
 )
 mode
-scratch
+InvalidReg
 failUint32
+LiveRegisterSet
+{
+}
 )
 ;
 masm

@@ -1378,6 +1378,17 @@ js
 jit
 :
 :
+Float16ToFloat32
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
 FrameIsDebuggeeCheck
 )
 \
