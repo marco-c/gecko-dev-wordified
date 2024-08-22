@@ -1968,6 +1968,16 @@ PREFER_ES3
 }
 else
 {
+if
+(
+StaticPrefs
+:
+:
+webgl_1_request_es2
+(
+)
+)
+{
 /
 /
 Request
@@ -1989,6 +1999,7 @@ CreateContextFlags
 :
 PREFER_EXACT_VERSION
 ;
+}
 if
 (
 !
