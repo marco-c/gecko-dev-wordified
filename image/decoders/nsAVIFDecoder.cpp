@@ -13339,7 +13339,7 @@ calling
 gfx
 :
 :
-ConvertYCbCrAToARGB
+ConvertYCbCrToRGB32
 premultOp
 :
 %
@@ -13353,17 +13353,11 @@ premultOp
 gfx
 :
 :
-ConvertYCbCrAToARGB
+ConvertYCbCrToRGB32
 (
 *
 decodedData
-*
-decodedData
--
->
-mAlpha
 format
-rgbSize
 rgbBuf
 .
 get
