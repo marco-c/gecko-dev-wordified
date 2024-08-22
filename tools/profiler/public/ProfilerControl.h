@@ -326,7 +326,7 @@ No
 static
 inline
 void
-profiler_lookup_async_signal_dump_directory
+profiler_lookup_download_directory
 (
 )
 {
@@ -1486,7 +1486,7 @@ is
 initialised
 .
 void
-profiler_lookup_async_signal_dump_directory
+profiler_lookup_download_directory
 (
 )
 ;
