@@ -365,10 +365,6 @@ mNativeDragEvent
 (
 nil
 )
-mDragImageChanged
-(
-false
-)
 {
 }
 nsDragService
@@ -1759,7 +1755,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsDragService
+nsDragSession
 :
 :
 GetData
@@ -2086,7 +2082,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsDragService
+nsDragSession
 :
 :
 IsDataFlavorSupported
@@ -2484,7 +2480,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsDragService
+nsDragSession
 :
 :
 GetNumDropItems
@@ -2565,7 +2561,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsDragService
+nsDragSession
 :
 :
 UpdateDragImage
@@ -2579,7 +2575,7 @@ int32_t
 aImageY
 )
 {
-nsBaseDragService
+nsBaseDragSession
 :
 :
 UpdateDragImage

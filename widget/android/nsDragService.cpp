@@ -212,8 +212,13 @@ h
 "
 NS_IMPL_ISUPPORTS_INHERITED0
 (
-nsDragService
+nsDragSession
 nsBaseDragService
+)
+NS_IMPL_ISUPPORTS_INHERITED0
+(
+nsDragService
+nsDragSession
 )
 using
 namespace
@@ -573,7 +578,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsDragService
+nsDragSession
 :
 :
 GetData
@@ -702,7 +707,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsDragService
+nsDragSession
 :
 :
 GetNumDropItems
@@ -736,7 +741,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDragService
+nsDragSession
 :
 :
 IsDataFlavorSupported
@@ -903,7 +908,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsDragService
+nsDragSession
 :
 :
 UpdateDragImage
@@ -917,7 +922,7 @@ int32_t
 aImageY
 )
 {
-nsBaseDragService
+nsBaseDragSession
 :
 :
 UpdateDragImage
@@ -1020,7 +1025,7 @@ Bitmap
 :
 :
 LocalRef
-nsDragService
+nsDragSession
 :
 :
 CreateDragImage
@@ -1220,7 +1225,7 @@ bitmap
 ;
 }
 void
-nsDragService
+nsDragSession
 :
 :
 SetData
