@@ -970,7 +970,7 @@ NS_OK
 ;
 }
 bool
-nsDragService
+nsDragSession
 :
 :
 MustUpdateDataTransfer
