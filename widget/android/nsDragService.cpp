@@ -545,9 +545,6 @@ StartDragSession
 (
 )
 ;
-nsBaseDragService
-:
-:
 OpenDragPopup
 (
 )

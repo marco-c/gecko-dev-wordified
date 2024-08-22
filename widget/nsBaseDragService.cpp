@@ -571,6 +571,16 @@ nsBaseDragService
 nsIDragService
 nsIDragSession
 )
+nsBaseDragSession
+:
+:
+~
+nsBaseDragSession
+(
+)
+=
+default
+;
 /
 /
 -
@@ -3913,7 +3923,7 @@ NS_OK
 ;
 }
 void
-nsBaseDragService
+nsBaseDragSession
 :
 :
 OpenDragPopup
@@ -3969,7 +3979,7 @@ nullptr
 }
 }
 int32_t
-nsBaseDragService
+nsBaseDragSession
 :
 :
 TakeChildProcessDragAction
@@ -4012,6 +4022,9 @@ otherwise
 int32_t
 retval
 =
+nsIDragService
+:
+:
 DRAGDROP_ACTION_UNINITIALIZED
 ;
 if
@@ -4024,6 +4037,9 @@ TakeDragEventDispatchedToChildProcess
 mDragActionFromChildProcess
 !
 =
+nsIDragService
+:
+:
 DRAGDROP_ACTION_UNINITIALIZED
 )
 {
@@ -4475,7 +4491,7 @@ NS_OK
 ;
 }
 void
-nsBaseDragService
+nsBaseDragSession
 :
 :
 DiscardInternalTransferData
