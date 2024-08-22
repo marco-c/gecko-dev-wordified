@@ -151,6 +151,16 @@ sys
 mjs
 "
 ]
+JS_PREFERENCE_PP_FILES
++
+=
+[
+"
+PdfJsDefaultPrefs
+.
+js
+"
+]
 XPCOM_MANIFESTS
 +
 =
