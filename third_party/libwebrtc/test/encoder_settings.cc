@@ -697,6 +697,14 @@ DefaultVideoStreamFactory
 :
 CreateEncoderStreams
 (
+const
+FieldTrialsView
+&
+/
+*
+field_trials
+*
+/
 int
 frame_width
 int
