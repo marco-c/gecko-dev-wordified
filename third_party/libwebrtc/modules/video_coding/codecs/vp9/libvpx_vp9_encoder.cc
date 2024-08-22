@@ -2073,6 +2073,14 @@ config_changed_
 (
 true
 )
+encoder_info_override_
+(
+env
+.
+field_trials
+(
+)
+)
 svc_frame_drop_config_
 (
 ParseSvcFrameDropConfig
