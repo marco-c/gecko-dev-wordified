@@ -1015,6 +1015,8 @@ Image
 *
 aData
 bool
+aAllocatedImageData
+bool
 aWriteOnly
 gfxAlphaType
 aAlphaType
@@ -1044,6 +1046,11 @@ aRect
 ErrorResult
 &
 aRv
+)
+;
+void
+RemoveAssociatedMemory
+(
 )
 ;
 static
@@ -1701,6 +1708,14 @@ bool
 mWriteOnly
 ;
 }
+;
+size_t
+BindingJSObjectMallocBytes
+(
+ImageBitmap
+*
+aBitmap
+)
 ;
 }
 /
