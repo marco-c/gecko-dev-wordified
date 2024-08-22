@@ -305,6 +305,7 @@ PrivilegedAbout
 PrivilegedMozilla
 WebCOOPCOEP
 WebServiceWorker
+Inference
 /
 /
 the
