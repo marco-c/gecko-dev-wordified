@@ -23710,7 +23710,7 @@ clientAssociationPing
 .
 enabled
 "
-false
+true
 )
 ;
 /
