@@ -397,8 +397,11 @@ nsTreeBodyFrame
 (
 )
 ;
-nscoord
-GetIntrinsicBSize
+mozilla
+:
+:
+IntrinsicSize
+GetIntrinsicSize
 (
 )
 override
