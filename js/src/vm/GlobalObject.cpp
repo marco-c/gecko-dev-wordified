@@ -1021,6 +1021,14 @@ JSProto_InternalError
 case
 JSProto_AggregateError
 :
+#
+ifdef
+ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
+case
+JSProto_SuppressedError
+:
+#
+endif
 case
 JSProto_EvalError
 :
