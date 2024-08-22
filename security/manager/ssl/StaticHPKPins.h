@@ -2122,7 +2122,7 @@ torproject
 org
 "
 true
-false
+true
 false
 -
 1
@@ -2276,7 +2276,7 @@ torproject
 org
 "
 true
-false
+true
 false
 -
 1
@@ -2677,7 +2677,7 @@ torproject
 org
 "
 true
-false
+true
 false
 -
 1
@@ -7347,7 +7347,7 @@ torproject
 org
 "
 false
-false
+true
 false
 -
 1
@@ -7883,7 +7883,7 @@ torproject
 org
 "
 true
-false
+true
 false
 -
 1
