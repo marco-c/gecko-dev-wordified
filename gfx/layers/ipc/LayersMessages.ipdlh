@@ -2277,7 +2277,7 @@ id
 }
 ;
 struct
-ShmemSection
+UntrustedShmemSection
 {
 Shmem
 shmem
@@ -2301,7 +2301,7 @@ sem
 union
 ReadLockDescriptor
 {
-ShmemSection
+UntrustedShmemSection
 ;
 CrossProcessSemaphoreDescriptor
 ;
