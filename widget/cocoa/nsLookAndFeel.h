@@ -226,15 +226,6 @@ RecordAccessibilityTelemetry
 )
 ;
 }
-nsresult
-GetKeyboardLayoutImpl
-(
-nsACString
-&
-aLayout
-)
-override
-;
 /
 /
 Having
