@@ -627,16 +627,10 @@ delimiter
 let
 scope
 =
-crate
-:
-:
-buffer
-:
-:
-close_span_of_group
+span
+.
+close
 (
-*
-cursor
 )
 ;
 let
@@ -1134,7 +1128,7 @@ macro_export
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1731,7 +1725,7 @@ macro_export
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2146,7 +2140,7 @@ macro_export
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

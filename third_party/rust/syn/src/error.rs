@@ -1599,7 +1599,7 @@ printing
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2374,8 +2374,6 @@ TokenStream
 :
 from_iter
 (
-vec
-!
 [
 TokenTree
 :
@@ -2604,8 +2602,6 @@ TokenStream
 :
 from_iter
 (
-vec
-!
 [
 TokenTree
 :
@@ -3155,10 +3151,7 @@ err
 span
 (
 )
-"
-lex
-error
-"
+err
 )
 }
 }

@@ -309,7 +309,6 @@ test_none_group
 {
 /
 /
-<
 async
 fn
 f
@@ -317,7 +316,6 @@ f
 )
 {
 }
->
 let
 tokens
 =
@@ -326,8 +324,6 @@ TokenStream
 :
 from_iter
 (
-vec
-!
 [
 TokenTree
 :
@@ -348,8 +344,6 @@ TokenStream
 :
 from_iter
 (
-vec
-!
 [
 TokenTree
 :

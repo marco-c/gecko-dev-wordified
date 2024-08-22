@@ -68,18 +68,6 @@ punctuated
 :
 Punctuated
 ;
-use
-crate
-:
-:
-*
-;
-use
-proc_macro2
-:
-:
-Span
-;
 #
 [
 cfg
@@ -240,7 +228,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -273,6 +261,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Abi
 )
 {
@@ -306,7 +297,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -339,6 +330,9 @@ i
 &
 '
 ast
+crate
+:
+:
 AngleBracketedGenericArguments
 )
 {
@@ -364,7 +358,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -389,6 +383,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Arm
 )
 {
@@ -422,7 +419,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -455,6 +452,9 @@ i
 &
 '
 ast
+crate
+:
+:
 AssocConst
 )
 {
@@ -488,7 +488,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -521,6 +521,9 @@ i
 &
 '
 ast
+crate
+:
+:
 AssocType
 )
 {
@@ -554,7 +557,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -587,6 +590,9 @@ i
 &
 '
 ast
+crate
+:
+:
 AttrStyle
 )
 {
@@ -620,7 +626,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -653,6 +659,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Attribute
 )
 {
@@ -686,7 +695,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -719,6 +728,9 @@ i
 &
 '
 ast
+crate
+:
+:
 BareFnArg
 )
 {
@@ -752,7 +764,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -785,6 +797,9 @@ i
 &
 '
 ast
+crate
+:
+:
 BareVariadic
 )
 {
@@ -818,7 +833,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -851,6 +866,9 @@ i
 &
 '
 ast
+crate
+:
+:
 BinOp
 )
 {
@@ -876,7 +894,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -901,6 +919,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Block
 )
 {
@@ -934,7 +955,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -967,6 +988,9 @@ i
 &
 '
 ast
+crate
+:
+:
 BoundLifetimes
 )
 {
@@ -1000,7 +1024,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1033,6 +1057,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ConstParam
 )
 {
@@ -1066,7 +1093,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1099,6 +1126,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Constraint
 )
 {
@@ -1124,7 +1154,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1149,6 +1179,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Data
 )
 {
@@ -1174,7 +1207,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1199,6 +1232,9 @@ i
 &
 '
 ast
+crate
+:
+:
 DataEnum
 )
 {
@@ -1224,7 +1260,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1249,6 +1285,9 @@ i
 &
 '
 ast
+crate
+:
+:
 DataStruct
 )
 {
@@ -1274,7 +1313,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1299,6 +1338,9 @@ i
 &
 '
 ast
+crate
+:
+:
 DataUnion
 )
 {
@@ -1324,7 +1366,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1349,6 +1391,9 @@ i
 &
 '
 ast
+crate
+:
+:
 DeriveInput
 )
 {
@@ -1382,7 +1427,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1415,6 +1460,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Expr
 )
 {
@@ -1440,7 +1488,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1465,6 +1513,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprArray
 )
 {
@@ -1490,7 +1541,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1515,6 +1566,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprAssign
 )
 {
@@ -1540,7 +1594,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1565,6 +1619,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprAsync
 )
 {
@@ -1590,7 +1647,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1615,6 +1672,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprAwait
 )
 {
@@ -1648,7 +1708,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1681,6 +1741,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprBinary
 )
 {
@@ -1706,7 +1769,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1731,6 +1794,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprBlock
 )
 {
@@ -1756,7 +1822,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1781,6 +1847,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprBreak
 )
 {
@@ -1814,7 +1883,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1847,6 +1916,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprCall
 )
 {
@@ -1880,7 +1952,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1913,6 +1985,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprCast
 )
 {
@@ -1938,7 +2013,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1963,6 +2038,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprClosure
 )
 {
@@ -1988,7 +2066,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2013,6 +2091,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprConst
 )
 {
@@ -2038,7 +2119,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2063,6 +2144,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprContinue
 )
 {
@@ -2096,7 +2180,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2129,6 +2213,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprField
 )
 {
@@ -2154,7 +2241,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2179,6 +2266,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprForLoop
 )
 {
@@ -2212,7 +2302,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2245,6 +2335,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprGroup
 )
 {
@@ -2270,7 +2363,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2295,6 +2388,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprIf
 )
 {
@@ -2328,7 +2424,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2361,6 +2457,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprIndex
 )
 {
@@ -2386,7 +2485,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2411,6 +2510,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprInfer
 )
 {
@@ -2436,7 +2538,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2461,6 +2563,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprLet
 )
 {
@@ -2494,7 +2599,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2527,6 +2632,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprLit
 )
 {
@@ -2552,7 +2660,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2577,6 +2685,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprLoop
 )
 {
@@ -2610,7 +2721,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2643,6 +2754,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprMacro
 )
 {
@@ -2668,7 +2782,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2693,6 +2807,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprMatch
 )
 {
@@ -2726,7 +2843,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2759,6 +2876,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprMethodCall
 )
 {
@@ -2792,7 +2912,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2825,6 +2945,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprParen
 )
 {
@@ -2858,7 +2981,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2891,6 +3014,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprPath
 )
 {
@@ -2916,7 +3042,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2941,6 +3067,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprRange
 )
 {
@@ -2974,7 +3103,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3007,6 +3136,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprReference
 )
 {
@@ -3032,7 +3164,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3057,6 +3189,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprRepeat
 )
 {
@@ -3082,7 +3217,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3107,6 +3242,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprReturn
 )
 {
@@ -3140,7 +3278,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3173,6 +3311,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprStruct
 )
 {
@@ -3198,7 +3339,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3223,6 +3364,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprTry
 )
 {
@@ -3248,7 +3392,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3273,6 +3417,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprTryBlock
 )
 {
@@ -3298,7 +3445,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3323,6 +3470,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprTuple
 )
 {
@@ -3356,7 +3506,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3389,6 +3539,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprUnary
 )
 {
@@ -3414,7 +3567,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3439,6 +3592,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprUnsafe
 )
 {
@@ -3464,7 +3620,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3489,6 +3645,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprWhile
 )
 {
@@ -3514,7 +3673,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3539,6 +3698,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ExprYield
 )
 {
@@ -3572,7 +3734,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3605,6 +3767,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Field
 )
 {
@@ -3638,7 +3803,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3671,6 +3836,9 @@ i
 &
 '
 ast
+crate
+:
+:
 FieldMutability
 )
 {
@@ -3696,7 +3864,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3721,6 +3889,9 @@ i
 &
 '
 ast
+crate
+:
+:
 FieldPat
 )
 {
@@ -3754,7 +3925,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3787,6 +3958,9 @@ i
 &
 '
 ast
+crate
+:
+:
 FieldValue
 )
 {
@@ -3820,7 +3994,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3853,6 +4027,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Fields
 )
 {
@@ -3886,7 +4063,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3919,6 +4096,9 @@ i
 &
 '
 ast
+crate
+:
+:
 FieldsNamed
 )
 {
@@ -3952,7 +4132,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3985,6 +4165,9 @@ i
 &
 '
 ast
+crate
+:
+:
 FieldsUnnamed
 )
 {
@@ -4010,7 +4193,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4035,6 +4218,9 @@ i
 &
 '
 ast
+crate
+:
+:
 File
 )
 {
@@ -4060,7 +4246,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4085,6 +4271,9 @@ i
 &
 '
 ast
+crate
+:
+:
 FnArg
 )
 {
@@ -4110,7 +4299,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4135,6 +4324,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ForeignItem
 )
 {
@@ -4160,7 +4352,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4185,6 +4377,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ForeignItemFn
 )
 {
@@ -4210,7 +4405,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4235,6 +4430,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ForeignItemMacro
 )
 {
@@ -4260,7 +4458,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4285,6 +4483,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ForeignItemStatic
 )
 {
@@ -4310,7 +4511,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4335,6 +4536,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ForeignItemType
 )
 {
@@ -4368,7 +4572,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4401,6 +4605,9 @@ i
 &
 '
 ast
+crate
+:
+:
 GenericArgument
 )
 {
@@ -4434,7 +4641,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4467,6 +4674,9 @@ i
 &
 '
 ast
+crate
+:
+:
 GenericParam
 )
 {
@@ -4500,7 +4710,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4533,6 +4743,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Generics
 )
 {
@@ -4554,6 +4767,9 @@ i
 &
 '
 ast
+proc_macro2
+:
+:
 Ident
 )
 {
@@ -4579,7 +4795,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4604,6 +4820,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ImplItem
 )
 {
@@ -4629,7 +4848,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4654,6 +4873,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ImplItemConst
 )
 {
@@ -4679,7 +4901,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4704,6 +4926,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ImplItemFn
 )
 {
@@ -4729,7 +4954,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4754,6 +4979,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ImplItemMacro
 )
 {
@@ -4779,7 +5007,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4804,6 +5032,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ImplItemType
 )
 {
@@ -4829,7 +5060,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4854,6 +5085,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ImplRestriction
 )
 {
@@ -4887,7 +5121,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4920,6 +5154,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Index
 )
 {
@@ -4945,7 +5182,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4970,6 +5207,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Item
 )
 {
@@ -4995,7 +5235,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5020,6 +5260,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemConst
 )
 {
@@ -5045,7 +5288,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5070,6 +5313,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemEnum
 )
 {
@@ -5095,7 +5341,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5120,6 +5366,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemExternCrate
 )
 {
@@ -5145,7 +5394,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5170,6 +5419,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemFn
 )
 {
@@ -5195,7 +5447,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5220,6 +5472,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemForeignMod
 )
 {
@@ -5245,7 +5500,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5270,6 +5525,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemImpl
 )
 {
@@ -5295,7 +5553,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5320,6 +5578,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemMacro
 )
 {
@@ -5345,7 +5606,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5370,6 +5631,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemMod
 )
 {
@@ -5395,7 +5659,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5420,6 +5684,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemStatic
 )
 {
@@ -5445,7 +5712,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5470,6 +5737,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemStruct
 )
 {
@@ -5495,7 +5765,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5520,6 +5790,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemTrait
 )
 {
@@ -5545,7 +5818,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5570,6 +5843,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemTraitAlias
 )
 {
@@ -5595,7 +5871,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5620,6 +5896,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemType
 )
 {
@@ -5645,7 +5924,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5670,6 +5949,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemUnion
 )
 {
@@ -5695,7 +5977,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5720,6 +6002,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ItemUse
 )
 {
@@ -5745,7 +6030,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5770,6 +6055,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Label
 )
 {
@@ -5791,6 +6079,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Lifetime
 )
 {
@@ -5824,7 +6115,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5857,6 +6148,9 @@ i
 &
 '
 ast
+crate
+:
+:
 LifetimeParam
 )
 {
@@ -5878,6 +6172,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Lit
 )
 {
@@ -5899,6 +6196,9 @@ i
 &
 '
 ast
+crate
+:
+:
 LitBool
 )
 {
@@ -5920,6 +6220,9 @@ i
 &
 '
 ast
+crate
+:
+:
 LitByte
 )
 {
@@ -5941,10 +6244,37 @@ i
 &
 '
 ast
+crate
+:
+:
 LitByteStr
 )
 {
 visit_lit_byte_str
+(
+self
+i
+)
+;
+}
+fn
+visit_lit_cstr
+(
+&
+mut
+self
+i
+:
+&
+'
+ast
+crate
+:
+:
+LitCStr
+)
+{
+visit_lit_cstr
 (
 self
 i
@@ -5962,6 +6292,9 @@ i
 &
 '
 ast
+crate
+:
+:
 LitChar
 )
 {
@@ -5983,6 +6316,9 @@ i
 &
 '
 ast
+crate
+:
+:
 LitFloat
 )
 {
@@ -6004,6 +6340,9 @@ i
 &
 '
 ast
+crate
+:
+:
 LitInt
 )
 {
@@ -6025,6 +6364,9 @@ i
 &
 '
 ast
+crate
+:
+:
 LitStr
 )
 {
@@ -6050,7 +6392,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6075,6 +6417,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Local
 )
 {
@@ -6100,7 +6445,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6125,6 +6470,9 @@ i
 &
 '
 ast
+crate
+:
+:
 LocalInit
 )
 {
@@ -6158,7 +6506,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6191,6 +6539,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Macro
 )
 {
@@ -6224,7 +6575,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6257,6 +6608,9 @@ i
 &
 '
 ast
+crate
+:
+:
 MacroDelimiter
 )
 {
@@ -6290,7 +6644,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6323,6 +6677,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Member
 )
 {
@@ -6356,7 +6713,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6389,6 +6746,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Meta
 )
 {
@@ -6422,7 +6782,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6455,6 +6815,9 @@ i
 &
 '
 ast
+crate
+:
+:
 MetaList
 )
 {
@@ -6488,7 +6851,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6521,6 +6884,9 @@ i
 &
 '
 ast
+crate
+:
+:
 MetaNameValue
 )
 {
@@ -6554,7 +6920,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6587,6 +6953,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ParenthesizedGenericArguments
 )
 {
@@ -6612,7 +6981,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6637,6 +7006,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Pat
 )
 {
@@ -6662,7 +7034,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6687,6 +7059,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatIdent
 )
 {
@@ -6712,7 +7087,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6737,6 +7112,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatOr
 )
 {
@@ -6762,7 +7140,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6787,6 +7165,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatParen
 )
 {
@@ -6812,7 +7193,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6837,6 +7218,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatReference
 )
 {
@@ -6862,7 +7246,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6887,6 +7271,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatRest
 )
 {
@@ -6912,7 +7299,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6937,6 +7324,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatSlice
 )
 {
@@ -6962,7 +7352,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6987,6 +7377,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatStruct
 )
 {
@@ -7012,7 +7405,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7037,6 +7430,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatTuple
 )
 {
@@ -7062,7 +7458,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7087,6 +7483,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatTupleStruct
 )
 {
@@ -7112,7 +7511,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7137,6 +7536,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatType
 )
 {
@@ -7162,7 +7564,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7187,6 +7589,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PatWild
 )
 {
@@ -7220,7 +7625,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7253,6 +7658,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Path
 )
 {
@@ -7286,7 +7694,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7319,6 +7727,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PathArguments
 )
 {
@@ -7352,7 +7763,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7385,6 +7796,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PathSegment
 )
 {
@@ -7418,7 +7832,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7451,6 +7865,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PredicateLifetime
 )
 {
@@ -7484,7 +7901,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7517,6 +7934,9 @@ i
 &
 '
 ast
+crate
+:
+:
 PredicateType
 )
 {
@@ -7550,7 +7970,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7583,6 +8003,9 @@ i
 &
 '
 ast
+crate
+:
+:
 QSelf
 )
 {
@@ -7608,7 +8031,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7633,6 +8056,9 @@ i
 &
 '
 ast
+crate
+:
+:
 RangeLimits
 )
 {
@@ -7658,7 +8084,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7683,6 +8109,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Receiver
 )
 {
@@ -7716,7 +8145,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7749,6 +8178,9 @@ i
 &
 '
 ast
+crate
+:
+:
 ReturnType
 )
 {
@@ -7774,7 +8206,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7799,6 +8231,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Signature
 )
 {
@@ -7818,6 +8253,9 @@ self
 i
 :
 &
+proc_macro2
+:
+:
 Span
 )
 {
@@ -7843,7 +8281,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7868,6 +8306,9 @@ i
 &
 '
 ast
+crate
+:
+:
 StaticMutability
 )
 {
@@ -7893,7 +8334,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7918,6 +8359,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Stmt
 )
 {
@@ -7943,7 +8387,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7968,6 +8412,9 @@ i
 &
 '
 ast
+crate
+:
+:
 StmtMacro
 )
 {
@@ -8001,7 +8448,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8034,6 +8481,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TraitBound
 )
 {
@@ -8067,7 +8517,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8100,6 +8550,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TraitBoundModifier
 )
 {
@@ -8125,7 +8578,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8150,6 +8603,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TraitItem
 )
 {
@@ -8175,7 +8631,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8200,6 +8656,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TraitItemConst
 )
 {
@@ -8225,7 +8684,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8250,6 +8709,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TraitItemFn
 )
 {
@@ -8275,7 +8737,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8300,6 +8762,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TraitItemMacro
 )
 {
@@ -8325,7 +8790,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8350,6 +8815,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TraitItemType
 )
 {
@@ -8383,7 +8851,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8416,6 +8884,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Type
 )
 {
@@ -8449,7 +8920,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8482,6 +8953,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeArray
 )
 {
@@ -8515,7 +8989,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8548,6 +9022,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeBareFn
 )
 {
@@ -8581,7 +9058,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8614,6 +9091,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeGroup
 )
 {
@@ -8647,7 +9127,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8680,6 +9160,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeImplTrait
 )
 {
@@ -8713,7 +9196,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8746,6 +9229,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeInfer
 )
 {
@@ -8779,7 +9265,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8812,6 +9298,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeMacro
 )
 {
@@ -8845,7 +9334,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8878,6 +9367,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeNever
 )
 {
@@ -8911,7 +9403,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8944,6 +9436,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeParam
 )
 {
@@ -8977,7 +9472,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9010,6 +9505,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeParamBound
 )
 {
@@ -9043,7 +9541,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9076,6 +9574,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeParen
 )
 {
@@ -9109,7 +9610,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9142,6 +9643,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypePath
 )
 {
@@ -9175,7 +9679,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9208,6 +9712,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypePtr
 )
 {
@@ -9241,7 +9748,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9274,6 +9781,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeReference
 )
 {
@@ -9307,7 +9817,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9340,6 +9850,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeSlice
 )
 {
@@ -9373,7 +9886,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9406,6 +9919,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeTraitObject
 )
 {
@@ -9439,7 +9955,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9472,6 +9988,9 @@ i
 &
 '
 ast
+crate
+:
+:
 TypeTuple
 )
 {
@@ -9505,7 +10024,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9538,6 +10057,9 @@ i
 &
 '
 ast
+crate
+:
+:
 UnOp
 )
 {
@@ -9563,7 +10085,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9588,6 +10110,9 @@ i
 &
 '
 ast
+crate
+:
+:
 UseGlob
 )
 {
@@ -9613,7 +10138,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9638,6 +10163,9 @@ i
 &
 '
 ast
+crate
+:
+:
 UseGroup
 )
 {
@@ -9663,7 +10191,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9688,6 +10216,9 @@ i
 &
 '
 ast
+crate
+:
+:
 UseName
 )
 {
@@ -9713,7 +10244,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9738,6 +10269,9 @@ i
 &
 '
 ast
+crate
+:
+:
 UsePath
 )
 {
@@ -9763,7 +10297,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9788,6 +10322,9 @@ i
 &
 '
 ast
+crate
+:
+:
 UseRename
 )
 {
@@ -9813,7 +10350,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9838,6 +10375,9 @@ i
 &
 '
 ast
+crate
+:
+:
 UseTree
 )
 {
@@ -9863,7 +10403,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9888,6 +10428,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Variadic
 )
 {
@@ -9921,7 +10464,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9954,6 +10497,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Variant
 )
 {
@@ -9987,7 +10533,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10020,6 +10566,9 @@ i
 &
 '
 ast
+crate
+:
+:
 VisRestricted
 )
 {
@@ -10053,7 +10602,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10086,6 +10635,9 @@ i
 &
 '
 ast
+crate
+:
+:
 Visibility
 )
 {
@@ -10119,7 +10671,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10152,6 +10704,9 @@ i
 &
 '
 ast
+crate
+:
+:
 WhereClause
 )
 {
@@ -10185,7 +10740,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10218,6 +10773,9 @@ i
 &
 '
 ast
+crate
+:
+:
 WherePredicate
 )
 {
@@ -10252,7 +10810,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10293,6 +10851,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Abi
 )
 where
@@ -10359,7 +10920,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10400,6 +10961,9 @@ node
 &
 '
 ast
+crate
+:
+:
 AngleBracketedGenericArguments
 )
 where
@@ -10485,7 +11049,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10518,6 +11082,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Arm
 )
 where
@@ -10645,7 +11212,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10686,6 +11253,9 @@ node
 &
 '
 ast
+crate
+:
+:
 AssocConst
 )
 where
@@ -10772,7 +11342,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10813,6 +11383,9 @@ node
 &
 '
 ast
+crate
+:
+:
 AssocType
 )
 where
@@ -10899,7 +11472,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10940,6 +11513,9 @@ node
 &
 '
 ast
+crate
+:
+:
 AttrStyle
 )
 where
@@ -10957,6 +11533,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 AttrStyle
 :
 :
@@ -10965,6 +11544,9 @@ Outer
 >
 {
 }
+crate
+:
+:
 AttrStyle
 :
 :
@@ -11007,7 +11589,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11048,6 +11630,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Attribute
 )
 where
@@ -11122,7 +11707,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11163,6 +11748,9 @@ node
 &
 '
 ast
+crate
+:
+:
 BareFnArg
 )
 where
@@ -11262,7 +11850,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11303,6 +11891,9 @@ node
 &
 '
 ast
+crate
+:
+:
 BareVariadic
 )
 where
@@ -11408,7 +11999,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11449,6 +12040,9 @@ node
 &
 '
 ast
+crate
+:
+:
 BinOp
 )
 where
@@ -11466,6 +12060,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 BinOp
 :
 :
@@ -11483,6 +12080,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11500,6 +12100,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11517,6 +12120,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11534,6 +12140,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11551,6 +12160,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11568,6 +12180,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11585,6 +12200,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11602,6 +12220,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11619,6 +12240,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11636,6 +12260,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11653,6 +12280,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11670,6 +12300,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11687,6 +12320,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11704,6 +12340,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11721,6 +12360,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11738,6 +12380,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11755,6 +12400,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11772,6 +12420,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11789,6 +12440,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11806,6 +12460,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11823,6 +12480,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11840,6 +12500,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11857,6 +12520,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11874,6 +12540,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11891,6 +12560,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11908,6 +12580,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11925,6 +12600,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -11959,7 +12637,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11992,6 +12670,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Block
 )
 where
@@ -12054,7 +12735,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12095,6 +12776,9 @@ node
 &
 '
 ast
+crate
+:
+:
 BoundLifetimes
 )
 where
@@ -12188,7 +12872,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12229,6 +12913,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ConstParam
 )
 where
@@ -12347,7 +13034,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12388,6 +13075,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Constraint
 )
 where
@@ -12487,7 +13177,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12520,6 +13210,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Data
 )
 where
@@ -12537,6 +13230,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Data
 :
 :
@@ -12555,6 +13251,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Data
 :
 :
@@ -12573,6 +13272,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Data
 :
 :
@@ -12608,7 +13310,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12641,6 +13343,9 @@ node
 &
 '
 ast
+crate
+:
+:
 DataEnum
 )
 where
@@ -12718,7 +13423,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12751,6 +13456,9 @@ node
 &
 '
 ast
+crate
+:
+:
 DataStruct
 )
 where
@@ -12807,7 +13515,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12840,6 +13548,9 @@ node
 &
 '
 ast
+crate
+:
+:
 DataUnion
 )
 where
@@ -12888,7 +13599,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12921,6 +13632,9 @@ node
 &
 '
 ast
+crate
+:
+:
 DeriveInput
 )
 where
@@ -13015,7 +13729,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13056,6 +13770,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Expr
 )
 where
@@ -13073,6 +13790,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Expr
 :
 :
@@ -13095,6 +13815,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13117,6 +13840,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13139,6 +13865,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13161,6 +13890,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13179,6 +13911,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13201,6 +13936,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13223,6 +13961,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13241,6 +13982,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13259,6 +14003,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13281,6 +14028,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13303,6 +14053,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13325,6 +14078,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13343,6 +14099,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13365,6 +14124,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13383,6 +14145,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13405,6 +14170,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13423,6 +14191,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13445,6 +14216,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13467,6 +14241,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13485,6 +14262,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13507,6 +14287,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13525,6 +14308,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13547,6 +14333,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13565,6 +14354,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13583,6 +14375,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13601,6 +14396,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13623,6 +14421,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13641,6 +14442,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13663,6 +14467,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13685,6 +14492,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13703,6 +14513,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13725,6 +14538,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13747,6 +14563,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13769,6 +14588,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13787,6 +14609,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13809,6 +14634,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13826,6 +14654,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13848,6 +14679,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -13887,7 +14721,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13920,6 +14754,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprArray
 )
 where
@@ -14005,7 +14842,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14038,6 +14875,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprAssign
 )
 where
@@ -14114,7 +14954,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14147,6 +14987,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprAsync
 )
 where
@@ -14219,7 +15062,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14252,6 +15095,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprAwait
 )
 where
@@ -14333,7 +15179,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14374,6 +15220,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprBinary
 )
 where
@@ -14452,7 +15301,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14485,6 +15334,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprBlock
 )
 where
@@ -14561,7 +15413,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14594,6 +15446,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprBreak
 )
 where
@@ -14699,7 +15554,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14740,6 +15595,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprCall
 )
 where
@@ -14844,7 +15702,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14885,6 +15743,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprCast
 )
 where
@@ -14961,7 +15822,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14994,6 +15855,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprClosure
 )
 where
@@ -15160,7 +16024,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15193,6 +16057,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprConst
 )
 where
@@ -15257,7 +16124,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15290,6 +16157,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprContinue
 )
 where
@@ -15372,7 +16242,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15413,6 +16283,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprField
 )
 where
@@ -15488,7 +16361,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15521,6 +16394,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprForLoop
 )
 where
@@ -15643,7 +16519,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15684,6 +16560,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprGroup
 )
 where
@@ -15749,7 +16628,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15782,6 +16661,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprIf
 )
 where
@@ -15901,7 +16783,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15942,6 +16824,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprIndex
 )
 where
@@ -16018,7 +16903,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16051,6 +16936,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprInfer
 )
 where
@@ -16105,7 +16993,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16138,6 +17026,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprLet
 )
 where
@@ -16230,7 +17121,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16271,6 +17162,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprLit
 )
 where
@@ -16327,7 +17221,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16360,6 +17254,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprLoop
 )
 where
@@ -16452,7 +17349,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16493,6 +17390,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprMacro
 )
 where
@@ -16549,7 +17449,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16582,6 +17482,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprMatch
 )
 where
@@ -16679,7 +17582,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16720,6 +17623,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprMethodCall
 )
 where
@@ -16862,7 +17768,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16903,6 +17809,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprParen
 )
 where
@@ -16976,7 +17885,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17017,6 +17926,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprPath
 )
 where
@@ -17093,7 +18005,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17126,6 +18038,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprRange
 )
 where
@@ -17236,7 +18151,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17277,6 +18192,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprReference
 )
 where
@@ -17350,7 +18268,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17383,6 +18301,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprRepeat
 )
 where
@@ -17467,7 +18388,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17500,6 +18421,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprReturn
 )
 where
@@ -17585,7 +18509,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17626,6 +18550,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprStruct
 )
 where
@@ -17772,7 +18699,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17805,6 +18732,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprTry
 )
 where
@@ -17870,7 +18800,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17903,6 +18833,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprTryBlock
 )
 where
@@ -17967,7 +18900,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18000,6 +18933,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprTuple
 )
 where
@@ -18093,7 +19029,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18134,6 +19070,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprUnary
 )
 where
@@ -18201,7 +19140,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18234,6 +19173,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprUnsafe
 )
 where
@@ -18298,7 +19240,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18331,6 +19273,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprWhile
 )
 where
@@ -18426,7 +19371,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18459,6 +19404,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ExprYield
 )
 where
@@ -18544,7 +19492,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18585,6 +19533,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Field
 )
 where
@@ -18697,7 +19648,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18738,6 +19689,9 @@ node
 &
 '
 ast
+crate
+:
+:
 FieldMutability
 )
 where
@@ -18755,6 +19709,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 FieldMutability
 :
 :
@@ -18780,7 +19737,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18813,6 +19770,9 @@ node
 &
 '
 ast
+crate
+:
+:
 FieldPat
 )
 where
@@ -18896,7 +19856,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18937,6 +19897,9 @@ node
 &
 '
 ast
+crate
+:
+:
 FieldValue
 )
 where
@@ -19019,7 +19982,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19060,6 +20023,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Fields
 )
 where
@@ -19077,6 +20043,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Fields
 :
 :
@@ -19095,6 +20064,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Fields
 :
 :
@@ -19113,6 +20085,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Fields
 :
 :
@@ -19146,7 +20121,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19187,6 +20162,9 @@ node
 &
 '
 ast
+crate
+:
+:
 FieldsNamed
 )
 where
@@ -19264,7 +20242,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19305,6 +20283,9 @@ node
 &
 '
 ast
+crate
+:
+:
 FieldsUnnamed
 )
 where
@@ -19374,7 +20355,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19407,6 +20388,9 @@ node
 &
 '
 ast
+crate
+:
+:
 File
 )
 where
@@ -19477,7 +20461,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19510,6 +20494,9 @@ node
 &
 '
 ast
+crate
+:
+:
 FnArg
 )
 where
@@ -19527,6 +20514,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 FnArg
 :
 :
@@ -19545,6 +20535,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 FnArg
 :
 :
@@ -19580,7 +20573,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19613,6 +20606,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ForeignItem
 )
 where
@@ -19630,6 +20626,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 ForeignItem
 :
 :
@@ -19648,6 +20647,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 ForeignItem
 :
 :
@@ -19666,6 +20668,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 ForeignItem
 :
 :
@@ -19684,6 +20689,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 ForeignItem
 :
 :
@@ -19702,6 +20710,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 ForeignItem
 :
 :
@@ -19736,7 +20747,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19769,6 +20780,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ForeignItemFn
 )
 where
@@ -19843,7 +20857,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19876,6 +20890,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ForeignItemMacro
 )
 where
@@ -19940,7 +20957,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19973,6 +20990,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ForeignItemStatic
 )
 where
@@ -20084,7 +21104,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -20117,6 +21137,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ForeignItemType
 )
 where
@@ -20217,7 +21240,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -20258,6 +21281,9 @@ node
 &
 '
 ast
+crate
+:
+:
 GenericArgument
 )
 where
@@ -20275,6 +21301,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 GenericArgument
 :
 :
@@ -20293,6 +21322,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 GenericArgument
 :
 :
@@ -20311,6 +21343,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 GenericArgument
 :
 :
@@ -20329,6 +21364,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 GenericArgument
 :
 :
@@ -20347,6 +21385,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 GenericArgument
 :
 :
@@ -20365,6 +21406,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 GenericArgument
 :
 :
@@ -20408,7 +21452,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -20449,6 +21493,9 @@ node
 &
 '
 ast
+crate
+:
+:
 GenericParam
 )
 where
@@ -20466,6 +21513,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 GenericParam
 :
 :
@@ -20484,6 +21534,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 GenericParam
 :
 :
@@ -20502,6 +21555,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 GenericParam
 :
 :
@@ -20545,7 +21601,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -20586,6 +21642,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Generics
 )
 where
@@ -20687,6 +21746,9 @@ node
 &
 '
 ast
+proc_macro2
+:
+:
 Ident
 )
 where
@@ -20729,7 +21791,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -20762,6 +21824,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ImplItem
 )
 where
@@ -20779,6 +21844,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 ImplItem
 :
 :
@@ -20797,6 +21865,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 ImplItem
 :
 :
@@ -20815,6 +21886,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 ImplItem
 :
 :
@@ -20833,6 +21907,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 ImplItem
 :
 :
@@ -20851,6 +21928,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 ImplItem
 :
 :
@@ -20885,7 +21965,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -20918,6 +21998,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ImplItemConst
 )
 where
@@ -21054,7 +22137,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -21087,6 +22170,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ImplItemFn
 )
 where
@@ -21171,7 +22257,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -21204,6 +22290,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ImplItemMacro
 )
 where
@@ -21268,7 +22357,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -21301,6 +22390,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ImplItemType
 )
 where
@@ -21419,7 +22511,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -21452,6 +22544,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ImplRestriction
 )
 where
@@ -21495,7 +22590,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -21536,6 +22631,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Index
 )
 where
@@ -21584,7 +22682,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -21617,6 +22715,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Item
 )
 where
@@ -21634,6 +22735,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Item
 :
 :
@@ -21652,6 +22756,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21670,6 +22777,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21688,6 +22798,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21706,6 +22819,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21724,6 +22840,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21742,6 +22861,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21760,6 +22882,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21778,6 +22903,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21796,6 +22924,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21814,6 +22945,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21832,6 +22966,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21850,6 +22987,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21868,6 +23008,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21886,6 +23029,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21904,6 +23050,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -21938,7 +23087,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -21971,6 +23120,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemConst
 )
 where
@@ -22101,7 +23253,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -22134,6 +23286,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemEnum
 )
 where
@@ -22257,7 +23412,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -22290,6 +23445,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemExternCrate
 )
 where
@@ -22415,7 +23573,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -22448,6 +23606,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemFn
 )
 where
@@ -22525,7 +23686,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -22558,6 +23719,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemForeignMod
 )
 where
@@ -22646,7 +23810,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -22679,6 +23843,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemImpl
 )
 where
@@ -22839,7 +24006,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -22872,6 +24039,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemMacro
 )
 where
@@ -22956,7 +24126,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -22989,6 +24159,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemMod
 )
 where
@@ -23120,7 +24293,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -23153,6 +24326,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemStatic
 )
 where
@@ -23283,7 +24459,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -23316,6 +24492,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemStruct
 )
 where
@@ -23418,7 +24597,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -23451,6 +24630,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemTrait
 )
 where
@@ -23634,7 +24816,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -23667,6 +24849,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemTraitAlias
 )
 where
@@ -23798,7 +24983,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -23831,6 +25016,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemType
 )
 where
@@ -23942,7 +25130,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -23975,6 +25163,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemUnion
 )
 where
@@ -24069,7 +25260,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -24102,6 +25293,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ItemUse
 )
 where
@@ -24192,7 +25386,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -24225,6 +25419,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Label
 )
 where
@@ -24277,6 +25474,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Lifetime
 )
 where
@@ -24335,7 +25535,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -24376,6 +25576,9 @@ node
 &
 '
 ast
+crate
+:
+:
 LifetimeParam
 )
 where
@@ -24475,6 +25678,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Lit
 )
 where
@@ -24492,6 +25698,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Lit
 :
 :
@@ -24510,6 +25719,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
@@ -24528,6 +25740,30 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
+Lit
+:
+:
+CStr
+(
+_binding_0
+)
+=
+>
+{
+v
+.
+visit_lit_cstr
+(
+_binding_0
+)
+;
+}
+crate
+:
+:
 Lit
 :
 :
@@ -24546,6 +25782,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
@@ -24564,6 +25803,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
@@ -24582,6 +25824,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
@@ -24600,6 +25845,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
@@ -24618,6 +25866,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
@@ -24656,6 +25907,9 @@ node
 &
 '
 ast
+crate
+:
+:
 LitBool
 )
 where
@@ -24708,6 +25962,9 @@ node
 &
 '
 ast
+crate
+:
+:
 LitByte
 )
 where
@@ -24742,7 +25999,47 @@ node
 &
 '
 ast
+crate
+:
+:
 LitByteStr
+)
+where
+V
+:
+Visit
+<
+'
+ast
+>
++
+?
+Sized
+{
+}
+pub
+fn
+visit_lit_cstr
+<
+'
+ast
+V
+>
+(
+v
+:
+&
+mut
+V
+node
+:
+&
+'
+ast
+crate
+:
+:
+LitCStr
 )
 where
 V
@@ -24776,6 +26073,9 @@ node
 &
 '
 ast
+crate
+:
+:
 LitChar
 )
 where
@@ -24810,6 +26110,9 @@ node
 &
 '
 ast
+crate
+:
+:
 LitFloat
 )
 where
@@ -24844,6 +26147,9 @@ node
 &
 '
 ast
+crate
+:
+:
 LitInt
 )
 where
@@ -24878,6 +26184,9 @@ node
 &
 '
 ast
+crate
+:
+:
 LitStr
 )
 where
@@ -24908,7 +26217,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -24941,6 +26250,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Local
 )
 where
@@ -25033,7 +26345,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -25066,6 +26378,9 @@ node
 &
 '
 ast
+crate
+:
+:
 LocalInit
 )
 where
@@ -25159,7 +26474,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -25200,6 +26515,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Macro
 )
 where
@@ -25274,7 +26592,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -25315,6 +26633,9 @@ node
 &
 '
 ast
+crate
+:
+:
 MacroDelimiter
 )
 where
@@ -25332,6 +26653,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 MacroDelimiter
 :
 :
@@ -25349,6 +26673,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 MacroDelimiter
 :
 :
@@ -25366,6 +26693,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 MacroDelimiter
 :
 :
@@ -25408,7 +26738,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -25449,6 +26779,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Member
 )
 where
@@ -25466,6 +26799,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Member
 :
 :
@@ -25484,6 +26820,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Member
 :
 :
@@ -25527,7 +26866,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -25568,6 +26907,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Meta
 )
 where
@@ -25585,6 +26927,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Meta
 :
 :
@@ -25603,6 +26948,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Meta
 :
 :
@@ -25621,6 +26969,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Meta
 :
 :
@@ -25664,7 +27015,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -25705,6 +27056,9 @@ node
 &
 '
 ast
+crate
+:
+:
 MetaList
 )
 where
@@ -25771,7 +27125,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -25812,6 +27166,9 @@ node
 &
 '
 ast
+crate
+:
+:
 MetaNameValue
 )
 where
@@ -25878,7 +27235,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -25919,6 +27276,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ParenthesizedGenericArguments
 )
 where
@@ -25998,7 +27358,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -26031,6 +27391,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Pat
 )
 where
@@ -26048,6 +27411,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Pat
 :
 :
@@ -26066,6 +27432,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26084,6 +27453,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26102,6 +27474,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26120,6 +27495,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26138,6 +27516,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26156,6 +27537,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26174,6 +27558,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26192,6 +27579,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26210,6 +27600,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26228,6 +27621,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26246,6 +27642,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26264,6 +27663,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26282,6 +27684,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26300,6 +27705,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26318,6 +27726,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26335,6 +27746,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -26370,7 +27784,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -26403,6 +27817,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatIdent
 )
 where
@@ -26511,7 +27928,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -26544,6 +27961,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatOr
 )
 where
@@ -26629,7 +28049,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -26662,6 +28082,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatParen
 )
 where
@@ -26727,7 +28150,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -26760,6 +28183,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatReference
 )
 where
@@ -26833,7 +28259,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -26866,6 +28292,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatRest
 )
 where
@@ -26920,7 +28349,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -26953,6 +28382,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatSlice
 )
 where
@@ -27038,7 +28470,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -27071,6 +28503,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatStruct
 )
 where
@@ -27206,7 +28641,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -27239,6 +28674,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatTuple
 )
 where
@@ -27324,7 +28762,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -27357,6 +28795,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatTupleStruct
 )
 where
@@ -27472,7 +28913,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -27505,6 +28946,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatType
 )
 where
@@ -27581,7 +29025,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -27614,6 +29058,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PatWild
 )
 where
@@ -27676,7 +29123,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -27717,6 +29164,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Path
 )
 where
@@ -27794,7 +29244,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -27835,6 +29285,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PathArguments
 )
 where
@@ -27852,6 +29305,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 PathArguments
 :
 :
@@ -27860,6 +29316,9 @@ None
 >
 {
 }
+crate
+:
+:
 PathArguments
 :
 :
@@ -27878,6 +29337,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 PathArguments
 :
 :
@@ -27921,7 +29383,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -27962,6 +29424,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PathSegment
 )
 where
@@ -28020,7 +29485,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -28061,6 +29526,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PredicateLifetime
 )
 where
@@ -28148,7 +29616,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -28189,6 +29657,9 @@ node
 &
 '
 ast
+crate
+:
+:
 PredicateType
 )
 where
@@ -28296,7 +29767,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -28337,6 +29808,9 @@ node
 &
 '
 ast
+crate
+:
+:
 QSelf
 )
 where
@@ -28410,7 +29884,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -28443,6 +29917,9 @@ node
 &
 '
 ast
+crate
+:
+:
 RangeLimits
 )
 where
@@ -28460,6 +29937,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 RangeLimits
 :
 :
@@ -28477,6 +29957,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 RangeLimits
 :
 :
@@ -28511,7 +29994,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -28544,6 +30027,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Receiver
 )
 where
@@ -28678,7 +30164,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -28719,6 +30205,9 @@ node
 &
 '
 ast
+crate
+:
+:
 ReturnType
 )
 where
@@ -28736,6 +30225,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 ReturnType
 :
 :
@@ -28744,6 +30236,9 @@ Default
 >
 {
 }
+crate
+:
+:
 ReturnType
 :
 :
@@ -28789,7 +30284,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -28822,6 +30317,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Signature
 )
 where
@@ -28995,6 +30493,9 @@ V
 node
 :
 &
+proc_macro2
+:
+:
 Span
 )
 where
@@ -29025,7 +30526,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -29058,6 +30559,9 @@ node
 &
 '
 ast
+crate
+:
+:
 StaticMutability
 )
 where
@@ -29075,6 +30579,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 StaticMutability
 :
 :
@@ -29092,6 +30599,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 StaticMutability
 :
 :
@@ -29117,7 +30627,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -29150,6 +30660,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Stmt
 )
 where
@@ -29167,6 +30680,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Stmt
 :
 :
@@ -29185,6 +30701,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Stmt
 :
 :
@@ -29203,6 +30722,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Stmt
 :
 :
@@ -29228,6 +30750,9 @@ _binding_1
 )
 ;
 }
+crate
+:
+:
 Stmt
 :
 :
@@ -29263,7 +30788,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -29296,6 +30821,9 @@ node
 &
 '
 ast
+crate
+:
+:
 StmtMacro
 )
 where
@@ -29368,7 +30896,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -29409,6 +30937,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TraitBound
 )
 where
@@ -29495,7 +31026,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -29536,6 +31067,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TraitBoundModifier
 )
 where
@@ -29553,6 +31087,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 TraitBoundModifier
 :
 :
@@ -29561,6 +31098,9 @@ None
 >
 {
 }
+crate
+:
+:
 TraitBoundModifier
 :
 :
@@ -29595,7 +31135,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -29628,6 +31168,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TraitItem
 )
 where
@@ -29645,6 +31188,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 TraitItem
 :
 :
@@ -29663,6 +31209,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 TraitItem
 :
 :
@@ -29681,6 +31230,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 TraitItem
 :
 :
@@ -29699,6 +31251,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 TraitItem
 :
 :
@@ -29717,6 +31272,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 TraitItem
 :
 :
@@ -29751,7 +31309,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -29784,6 +31342,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TraitItemConst
 )
 where
@@ -29919,7 +31480,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -29952,6 +31513,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TraitItemFn
 )
 where
@@ -30036,7 +31600,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -30069,6 +31633,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TraitItemMacro
 )
 where
@@ -30133,7 +31700,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -30166,6 +31733,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TraitItemType
 )
 where
@@ -30330,7 +31900,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -30371,6 +31941,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Type
 )
 where
@@ -30388,6 +31961,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Type
 :
 :
@@ -30406,6 +31982,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30424,6 +32003,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30442,6 +32024,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30460,6 +32045,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30478,6 +32066,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30496,6 +32087,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30514,6 +32108,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30532,6 +32129,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30550,6 +32150,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30568,6 +32171,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30586,6 +32192,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30604,6 +32213,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30622,6 +32234,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30640,6 +32255,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -30682,7 +32300,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -30723,6 +32341,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeArray
 )
 where
@@ -30798,7 +32419,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -30839,6 +32460,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeBareFn
 )
 where
@@ -31002,7 +32626,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -31043,6 +32667,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeGroup
 )
 where
@@ -31100,7 +32727,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -31141,6 +32768,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeImplTrait
 )
 where
@@ -31218,7 +32848,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -31259,6 +32889,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeInfer
 )
 where
@@ -31305,7 +32938,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -31346,6 +32979,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeMacro
 )
 where
@@ -31394,7 +33030,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -31435,6 +33071,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeNever
 )
 where
@@ -31481,7 +33120,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -31522,6 +33161,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeParam
 )
 where
@@ -31653,7 +33295,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -31694,6 +33336,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeParamBound
 )
 where
@@ -31711,6 +33356,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 TypeParamBound
 :
 :
@@ -31729,6 +33377,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 TypeParamBound
 :
 :
@@ -31747,6 +33398,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 TypeParamBound
 :
 :
@@ -31789,7 +33443,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -31830,6 +33484,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeParen
 )
 where
@@ -31887,7 +33544,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -31928,6 +33585,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypePath
 )
 where
@@ -31996,7 +33656,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -32037,6 +33697,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypePtr
 )
 where
@@ -32110,7 +33773,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -32151,6 +33814,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeReference
 )
 where
@@ -32236,7 +33902,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -32277,6 +33943,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeSlice
 )
 where
@@ -32334,7 +34003,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -32375,6 +34044,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeTraitObject
 )
 where
@@ -32452,7 +34124,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -32493,6 +34165,9 @@ node
 &
 '
 ast
+crate
+:
+:
 TypeTuple
 )
 where
@@ -32570,7 +34245,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -32611,6 +34286,9 @@ node
 &
 '
 ast
+crate
+:
+:
 UnOp
 )
 where
@@ -32628,6 +34306,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 UnOp
 :
 :
@@ -32645,6 +34326,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 UnOp
 :
 :
@@ -32662,6 +34346,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 UnOp
 :
 :
@@ -32696,7 +34383,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -32729,6 +34416,9 @@ node
 &
 '
 ast
+crate
+:
+:
 UseGlob
 )
 where
@@ -32767,7 +34457,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -32800,6 +34490,9 @@ node
 &
 '
 ast
+crate
+:
+:
 UseGroup
 )
 where
@@ -32869,7 +34562,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -32902,6 +34595,9 @@ node
 &
 '
 ast
+crate
+:
+:
 UseName
 )
 where
@@ -32942,7 +34638,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -32975,6 +34671,9 @@ node
 &
 '
 ast
+crate
+:
+:
 UsePath
 )
 where
@@ -33034,7 +34733,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -33067,6 +34766,9 @@ node
 &
 '
 ast
+crate
+:
+:
 UseRename
 )
 where
@@ -33125,7 +34827,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -33158,6 +34860,9 @@ node
 &
 '
 ast
+crate
+:
+:
 UseTree
 )
 where
@@ -33175,6 +34880,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 UseTree
 :
 :
@@ -33193,6 +34901,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 UseTree
 :
 :
@@ -33211,6 +34922,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 UseTree
 :
 :
@@ -33229,6 +34943,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 UseTree
 :
 :
@@ -33247,6 +34964,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 UseTree
 :
 :
@@ -33282,7 +35002,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -33315,6 +35035,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Variadic
 )
 where
@@ -33421,7 +35144,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -33462,6 +35185,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Variant
 )
 where
@@ -33571,7 +35297,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -33612,6 +35338,9 @@ node
 &
 '
 ast
+crate
+:
+:
 VisRestricted
 )
 where
@@ -33685,7 +35414,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -33726,6 +35455,9 @@ node
 &
 '
 ast
+crate
+:
+:
 Visibility
 )
 where
@@ -33743,6 +35475,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 Visibility
 :
 :
@@ -33760,6 +35495,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Visibility
 :
 :
@@ -33778,6 +35516,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 Visibility
 :
 :
@@ -33811,7 +35552,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -33852,6 +35593,9 @@ node
 &
 '
 ast
+crate
+:
+:
 WhereClause
 )
 where
@@ -33929,7 +35673,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -33970,6 +35714,9 @@ node
 &
 '
 ast
+crate
+:
+:
 WherePredicate
 )
 where
@@ -33987,6 +35734,9 @@ Sized
 match
 node
 {
+crate
+:
+:
 WherePredicate
 :
 :
@@ -34005,6 +35755,9 @@ _binding_0
 )
 ;
 }
+crate
+:
+:
 WherePredicate
 :
 :

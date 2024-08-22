@@ -866,7 +866,7 @@ macro_export
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

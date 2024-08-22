@@ -253,8 +253,6 @@ TokenStream
 :
 from_iter
 (
-vec
-!
 [
 TokenTree
 :
@@ -442,8 +440,6 @@ TokenStream
 :
 from_iter
 (
-vec
-!
 [
 TokenTree
 :
@@ -680,8 +676,6 @@ TokenStream
 :
 from_iter
 (
-vec
-!
 [
 TokenTree
 :
@@ -929,8 +923,6 @@ TokenStream
 :
 from_iter
 (
-vec
-!
 [
 TokenTree
 :
@@ -1121,8 +1113,6 @@ TokenStream
 :
 from_iter
 (
-vec
-!
 [
 TokenTree
 :

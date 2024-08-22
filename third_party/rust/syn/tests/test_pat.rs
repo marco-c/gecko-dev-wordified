@@ -644,8 +644,6 @@ TokenStream
 :
 from_iter
 (
-vec
-!
 [
 TokenTree
 :

@@ -50,12 +50,6 @@ tt
 TokenStreamHelper
 ;
 use
-crate
-:
-:
-*
-;
-use
 std
 :
 :
@@ -90,7 +84,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -109,6 +103,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Abi
 {
 fn
@@ -164,7 +161,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -183,6 +180,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 AngleBracketedGenericArguments
 {
 fn
@@ -239,7 +239,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -258,6 +258,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Arm
 {
 fn
@@ -349,7 +352,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -368,6 +371,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 AssocConst
 {
 fn
@@ -441,7 +447,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -460,6 +466,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 AssocType
 {
 fn
@@ -533,7 +542,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -552,6 +561,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 AttrStyle
 {
 fn
@@ -576,6 +588,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 AttrStyle
 :
 :
@@ -591,6 +606,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 AttrStyle
 :
 :
@@ -635,7 +653,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -654,6 +672,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Attribute
 {
 fn
@@ -718,7 +739,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -737,6 +758,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 BareFnArg
 {
 fn
@@ -810,7 +834,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -829,6 +853,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 BareVariadic
 {
 fn
@@ -902,7 +929,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -921,6 +948,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 BinOp
 {
 fn
@@ -945,6 +975,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 BinOp
 :
 :
@@ -963,6 +996,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -981,6 +1017,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -999,6 +1038,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1017,6 +1059,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1035,6 +1080,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1053,6 +1101,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1071,6 +1122,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1089,6 +1143,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1107,6 +1164,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1125,6 +1185,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1143,6 +1206,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1161,6 +1227,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1179,6 +1248,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1197,6 +1269,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1215,6 +1290,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1233,6 +1311,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1251,6 +1332,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1269,6 +1353,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1287,6 +1374,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1305,6 +1395,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1323,6 +1416,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1341,6 +1437,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1359,6 +1458,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1377,6 +1479,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1395,6 +1500,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1413,6 +1521,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1431,6 +1542,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 BinOp
 :
 :
@@ -1467,7 +1581,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1486,6 +1600,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Block
 {
 fn
@@ -1541,7 +1658,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1560,6 +1677,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 BoundLifetimes
 {
 fn
@@ -1615,7 +1735,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1634,6 +1754,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ConstParam
 {
 fn
@@ -1725,7 +1848,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1744,6 +1867,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Constraint
 {
 fn
@@ -1809,7 +1935,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1828,6 +1954,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Data
 {
 fn
@@ -1852,6 +1981,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 Data
 :
 :
@@ -1877,6 +2009,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Data
 :
 :
@@ -1902,6 +2037,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Data
 :
 :
@@ -1945,7 +2083,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -1964,6 +2102,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 DataEnum
 {
 fn
@@ -2011,7 +2152,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2030,6 +2171,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 DataStruct
 {
 fn
@@ -2086,7 +2230,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2105,6 +2249,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 DataUnion
 {
 fn
@@ -2152,7 +2299,7 @@ derive
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2171,6 +2318,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 DeriveInput
 {
 fn
@@ -2262,7 +2412,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -2281,6 +2431,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Expr
 {
 fn
@@ -2316,6 +2469,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2352,6 +2508,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2388,6 +2547,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2424,6 +2586,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2449,6 +2614,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -2485,6 +2653,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2521,6 +2692,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2546,6 +2720,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -2571,6 +2748,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -2607,6 +2787,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2643,6 +2826,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2679,6 +2865,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2704,6 +2893,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -2740,6 +2932,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2765,6 +2960,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -2801,6 +2999,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2826,6 +3027,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -2862,6 +3066,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2898,6 +3105,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2923,6 +3133,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -2959,6 +3172,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -2984,6 +3200,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -3020,6 +3239,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -3045,6 +3267,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -3070,6 +3295,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -3095,6 +3323,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -3131,6 +3362,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -3156,6 +3390,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -3192,6 +3429,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -3228,6 +3468,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -3253,6 +3496,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -3289,6 +3535,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -3325,6 +3574,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -3361,6 +3613,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -3386,6 +3641,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -3422,6 +3680,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -3447,6 +3708,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Expr
 :
 :
@@ -3486,6 +3750,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -3522,6 +3789,9 @@ full
 "
 )
 ]
+crate
+:
+:
 Expr
 :
 :
@@ -3586,7 +3856,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3605,6 +3875,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprArray
 {
 fn
@@ -3661,7 +3934,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3680,6 +3953,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprAssign
 {
 fn
@@ -3745,7 +4021,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3764,6 +4040,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprAsync
 {
 fn
@@ -3829,7 +4108,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3848,6 +4127,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprAwait
 {
 fn
@@ -3912,7 +4194,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3931,6 +4213,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprBinary
 {
 fn
@@ -4005,7 +4290,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4024,6 +4309,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprBlock
 {
 fn
@@ -4089,7 +4377,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4108,6 +4396,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprBreak
 {
 fn
@@ -4181,7 +4472,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4200,6 +4491,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprCall
 {
 fn
@@ -4273,7 +4567,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4292,6 +4586,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprCast
 {
 fn
@@ -4357,7 +4654,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4376,6 +4673,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprClosure
 {
 fn
@@ -4495,7 +4795,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4514,6 +4814,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprConst
 {
 fn
@@ -4570,7 +4873,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4589,6 +4892,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprContinue
 {
 fn
@@ -4653,7 +4959,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4672,6 +4978,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprField
 {
 fn
@@ -4737,7 +5046,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4756,6 +5065,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprForLoop
 {
 fn
@@ -4847,7 +5159,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4866,6 +5178,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprGroup
 {
 fn
@@ -4922,7 +5237,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -4941,6 +5256,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprIf
 {
 fn
@@ -5023,7 +5341,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5042,6 +5360,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprIndex
 {
 fn
@@ -5107,7 +5428,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5126,6 +5447,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprInfer
 {
 fn
@@ -5173,7 +5497,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5192,6 +5516,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprLet
 {
 fn
@@ -5265,7 +5592,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5284,6 +5611,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprLit
 {
 fn
@@ -5340,7 +5670,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5359,6 +5689,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprLoop
 {
 fn
@@ -5432,7 +5765,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5451,6 +5784,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprMacro
 {
 fn
@@ -5507,7 +5843,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5526,6 +5862,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprMatch
 {
 fn
@@ -5599,7 +5938,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5618,6 +5957,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprMethodCall
 {
 fn
@@ -5709,7 +6051,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5728,6 +6070,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprParen
 {
 fn
@@ -5792,7 +6137,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5811,6 +6156,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprPath
 {
 fn
@@ -5876,7 +6224,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5895,6 +6243,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprRange
 {
 fn
@@ -5977,7 +6328,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -5996,6 +6347,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprReference
 {
 fn
@@ -6061,7 +6415,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6080,6 +6434,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprRepeat
 {
 fn
@@ -6145,7 +6502,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6164,6 +6521,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprReturn
 {
 fn
@@ -6228,7 +6588,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6247,6 +6607,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprStruct
 {
 fn
@@ -6339,7 +6702,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6358,6 +6721,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprTry
 {
 fn
@@ -6414,7 +6780,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6433,6 +6799,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprTryBlock
 {
 fn
@@ -6489,7 +6858,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6508,6 +6877,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprTuple
 {
 fn
@@ -6572,7 +6944,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6591,6 +6963,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprUnary
 {
 fn
@@ -6656,7 +7031,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6675,6 +7050,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprUnsafe
 {
 fn
@@ -6731,7 +7109,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6750,6 +7128,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprWhile
 {
 fn
@@ -6824,7 +7205,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6843,6 +7224,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ExprYield
 {
 fn
@@ -6907,7 +7291,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -6926,6 +7310,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Field
 {
 fn
@@ -7026,7 +7413,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7045,6 +7432,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 FieldMutability
 {
 fn
@@ -7069,6 +7459,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 FieldMutability
 :
 :
@@ -7102,7 +7495,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7121,6 +7514,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 FieldPat
 {
 fn
@@ -7203,7 +7599,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7222,6 +7618,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 FieldValue
 {
 fn
@@ -7304,7 +7703,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7323,6 +7722,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Fields
 {
 fn
@@ -7347,6 +7749,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 Fields
 :
 :
@@ -7372,6 +7777,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Fields
 :
 :
@@ -7397,6 +7805,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Fields
 :
 :
@@ -7438,7 +7849,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7457,6 +7868,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 FieldsNamed
 {
 fn
@@ -7512,7 +7926,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7531,6 +7945,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 FieldsUnnamed
 {
 fn
@@ -7578,7 +7995,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7597,6 +8014,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 File
 {
 fn
@@ -7662,7 +8082,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7681,6 +8101,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 FnArg
 {
 fn
@@ -7705,6 +8128,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 FnArg
 :
 :
@@ -7730,6 +8156,9 @@ state
 )
 ;
 }
+crate
+:
+:
 FnArg
 :
 :
@@ -7773,7 +8202,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7792,6 +8221,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ForeignItem
 {
 fn
@@ -7816,6 +8248,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 ForeignItem
 :
 :
@@ -7841,6 +8276,9 @@ state
 )
 ;
 }
+crate
+:
+:
 ForeignItem
 :
 :
@@ -7866,6 +8304,9 @@ state
 )
 ;
 }
+crate
+:
+:
 ForeignItem
 :
 :
@@ -7891,6 +8332,9 @@ state
 )
 ;
 }
+crate
+:
+:
 ForeignItem
 :
 :
@@ -7916,6 +8360,9 @@ state
 )
 ;
 }
+crate
+:
+:
 ForeignItem
 :
 :
@@ -7962,7 +8409,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -7981,6 +8428,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ForeignItemFn
 {
 fn
@@ -8046,7 +8496,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8065,6 +8515,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ForeignItemMacro
 {
 fn
@@ -8130,7 +8583,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8149,6 +8602,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ForeignItemStatic
 {
 fn
@@ -8232,7 +8688,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8251,6 +8707,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ForeignItemType
 {
 fn
@@ -8333,7 +8792,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8352,6 +8811,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 GenericArgument
 {
 fn
@@ -8376,6 +8838,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 GenericArgument
 :
 :
@@ -8401,6 +8866,9 @@ state
 )
 ;
 }
+crate
+:
+:
 GenericArgument
 :
 :
@@ -8426,6 +8894,9 @@ state
 )
 ;
 }
+crate
+:
+:
 GenericArgument
 :
 :
@@ -8451,6 +8922,9 @@ state
 )
 ;
 }
+crate
+:
+:
 GenericArgument
 :
 :
@@ -8476,6 +8950,9 @@ state
 )
 ;
 }
+crate
+:
+:
 GenericArgument
 :
 :
@@ -8501,6 +8978,9 @@ state
 )
 ;
 }
+crate
+:
+:
 GenericArgument
 :
 :
@@ -8552,7 +9032,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8571,6 +9051,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 GenericParam
 {
 fn
@@ -8595,6 +9078,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 GenericParam
 :
 :
@@ -8620,6 +9106,9 @@ state
 )
 ;
 }
+crate
+:
+:
 GenericParam
 :
 :
@@ -8645,6 +9134,9 @@ state
 )
 ;
 }
+crate
+:
+:
 GenericParam
 :
 :
@@ -8696,7 +9188,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8715,6 +9207,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Generics
 {
 fn
@@ -8789,7 +9284,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8808,6 +9303,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ImplItem
 {
 fn
@@ -8832,6 +9330,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 ImplItem
 :
 :
@@ -8857,6 +9358,9 @@ state
 )
 ;
 }
+crate
+:
+:
 ImplItem
 :
 :
@@ -8882,6 +9386,9 @@ state
 )
 ;
 }
+crate
+:
+:
 ImplItem
 :
 :
@@ -8907,6 +9414,9 @@ state
 )
 ;
 }
+crate
+:
+:
 ImplItem
 :
 :
@@ -8932,6 +9442,9 @@ state
 )
 ;
 }
+crate
+:
+:
 ImplItem
 :
 :
@@ -8978,7 +9491,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -8997,6 +9510,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ImplItemConst
 {
 fn
@@ -9098,7 +9614,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9117,6 +9633,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ImplItemFn
 {
 fn
@@ -9200,7 +9719,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9219,6 +9738,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ImplItemMacro
 {
 fn
@@ -9284,7 +9806,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9303,6 +9825,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ImplItemType
 {
 fn
@@ -9395,7 +9920,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9414,6 +9939,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ImplRestriction
 {
 fn
@@ -9457,7 +9985,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9476,6 +10004,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Item
 {
 fn
@@ -9500,6 +10031,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 Item
 :
 :
@@ -9525,6 +10059,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9550,6 +10087,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9575,6 +10115,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9600,6 +10143,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9625,6 +10171,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9650,6 +10199,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9675,6 +10227,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9700,6 +10255,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9725,6 +10283,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9750,6 +10311,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9775,6 +10339,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9800,6 +10367,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9825,6 +10395,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9850,6 +10423,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9875,6 +10451,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Item
 :
 :
@@ -9921,7 +10500,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -9940,6 +10519,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemConst
 {
 fn
@@ -10032,7 +10614,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10051,6 +10633,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemEnum
 {
 fn
@@ -10134,7 +10719,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10153,6 +10738,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemExternCrate
 {
 fn
@@ -10227,7 +10815,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10246,6 +10834,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemFn
 {
 fn
@@ -10320,7 +10911,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10339,6 +10930,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemForeignMod
 {
 fn
@@ -10413,7 +11007,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10432,6 +11026,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemImpl
 {
 fn
@@ -10533,7 +11130,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10552,6 +11149,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemMacro
 {
 fn
@@ -10626,7 +11226,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10645,6 +11245,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemMod
 {
 fn
@@ -10737,7 +11340,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10756,6 +11359,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemStatic
 {
 fn
@@ -10848,7 +11454,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10867,6 +11473,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemStruct
 {
 fn
@@ -10959,7 +11568,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -10978,6 +11587,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemTrait
 {
 fn
@@ -11106,7 +11718,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11125,6 +11737,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemTraitAlias
 {
 fn
@@ -11208,7 +11823,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11227,6 +11842,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemType
 {
 fn
@@ -11310,7 +11928,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11329,6 +11947,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemUnion
 {
 fn
@@ -11412,7 +12033,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11431,6 +12052,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ItemUse
 {
 fn
@@ -11505,7 +12129,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11524,6 +12148,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Label
 {
 fn
@@ -11579,7 +12206,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11598,6 +12225,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 LifetimeParam
 {
 fn
@@ -11661,7 +12291,7 @@ state
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11680,6 +12310,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Lit
 {
 fn
@@ -11704,6 +12337,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 Lit
 :
 :
@@ -11729,6 +12365,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
@@ -11754,10 +12393,13 @@ state
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
-Byte
+CStr
 (
 v0
 )
@@ -11779,10 +12421,13 @@ state
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
-Char
+Byte
 (
 v0
 )
@@ -11804,10 +12449,13 @@ state
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
-Int
+Char
 (
 v0
 )
@@ -11829,10 +12477,13 @@ state
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
-Float
+Int
 (
 v0
 )
@@ -11854,10 +12505,13 @@ state
 )
 ;
 }
+crate
+:
+:
 Lit
 :
 :
-Bool
+Float
 (
 v0
 )
@@ -11879,6 +12533,37 @@ state
 )
 ;
 }
+crate
+:
+:
+Lit
+:
+:
+Bool
+(
+v0
+)
+=
+>
+{
+state
+.
+write_u8
+(
+7u8
+)
+;
+v0
+.
+hash
+(
+state
+)
+;
+}
+crate
+:
+:
 Lit
 :
 :
@@ -11893,7 +12578,7 @@ state
 .
 write_u8
 (
-7u8
+8u8
 )
 ;
 v0
@@ -11915,7 +12600,7 @@ state
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -11934,6 +12619,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 LitBool
 {
 fn
@@ -11981,7 +12669,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12000,6 +12688,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Local
 {
 fn
@@ -12065,7 +12756,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12084,6 +12775,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 LocalInit
 {
 fn
@@ -12148,7 +12842,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12167,6 +12861,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Macro
 {
 fn
@@ -12244,7 +12941,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12263,6 +12960,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 MacroDelimiter
 {
 fn
@@ -12287,6 +12987,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 MacroDelimiter
 :
 :
@@ -12305,6 +13008,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 MacroDelimiter
 :
 :
@@ -12323,6 +13029,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 MacroDelimiter
 :
 :
@@ -12367,7 +13076,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12386,6 +13095,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Meta
 {
 fn
@@ -12410,6 +13122,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 Meta
 :
 :
@@ -12435,6 +13150,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Meta
 :
 :
@@ -12460,6 +13178,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Meta
 :
 :
@@ -12511,7 +13232,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12530,6 +13251,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 MetaList
 {
 fn
@@ -12607,7 +13331,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12626,6 +13350,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 MetaNameValue
 {
 fn
@@ -12690,7 +13417,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12709,6 +13436,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ParenthesizedGenericArguments
 {
 fn
@@ -12765,7 +13495,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -12784,6 +13514,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Pat
 {
 fn
@@ -12808,6 +13541,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 Pat
 :
 :
@@ -12833,6 +13569,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -12858,6 +13597,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -12883,6 +13625,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -12908,6 +13653,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -12933,6 +13681,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -12958,6 +13709,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -12983,6 +13737,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -13008,6 +13765,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -13033,6 +13793,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -13058,6 +13821,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -13083,6 +13849,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -13108,6 +13877,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -13133,6 +13905,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -13158,6 +13933,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -13183,6 +13961,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -13211,6 +13992,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Pat
 :
 :
@@ -13254,7 +14038,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13273,6 +14057,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatIdent
 {
 fn
@@ -13356,7 +14143,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13375,6 +14162,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatOr
 {
 fn
@@ -13440,7 +14230,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13459,6 +14249,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatParen
 {
 fn
@@ -13515,7 +14308,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13534,6 +14327,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatReference
 {
 fn
@@ -13599,7 +14395,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13618,6 +14414,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatRest
 {
 fn
@@ -13665,7 +14464,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13684,6 +14483,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatSlice
 {
 fn
@@ -13740,7 +14542,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13759,6 +14561,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatStruct
 {
 fn
@@ -13842,7 +14647,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13861,6 +14666,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatTuple
 {
 fn
@@ -13917,7 +14725,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -13936,6 +14744,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatTupleStruct
 {
 fn
@@ -14010,7 +14821,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14029,6 +14840,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatType
 {
 fn
@@ -14094,7 +14908,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14113,6 +14927,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PatWild
 {
 fn
@@ -14168,7 +14985,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14187,6 +15004,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Path
 {
 fn
@@ -14251,7 +15071,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14270,6 +15090,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PathArguments
 {
 fn
@@ -14294,6 +15117,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 PathArguments
 :
 :
@@ -14309,6 +15135,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 PathArguments
 :
 :
@@ -14334,6 +15163,9 @@ state
 )
 ;
 }
+crate
+:
+:
 PathArguments
 :
 :
@@ -14385,7 +15217,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14404,6 +15236,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PathSegment
 {
 fn
@@ -14468,7 +15303,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14487,6 +15322,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PredicateLifetime
 {
 fn
@@ -14551,7 +15389,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14570,6 +15408,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 PredicateType
 {
 fn
@@ -14643,7 +15484,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14662,6 +15503,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 QSelf
 {
 fn
@@ -14727,7 +15571,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14746,6 +15590,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 RangeLimits
 {
 fn
@@ -14770,6 +15617,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 RangeLimits
 :
 :
@@ -14788,6 +15638,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 RangeLimits
 :
 :
@@ -14824,7 +15677,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14843,6 +15696,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Receiver
 {
 fn
@@ -14934,7 +15790,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -14953,6 +15809,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 ReturnType
 {
 fn
@@ -14977,6 +15836,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 ReturnType
 :
 :
@@ -14992,6 +15854,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 ReturnType
 :
 :
@@ -15036,7 +15901,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15055,6 +15920,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Signature
 {
 fn
@@ -15174,7 +16042,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15193,6 +16061,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 StaticMutability
 {
 fn
@@ -15217,6 +16088,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 StaticMutability
 :
 :
@@ -15235,6 +16109,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 StaticMutability
 :
 :
@@ -15268,7 +16145,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15287,6 +16164,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Stmt
 {
 fn
@@ -15311,6 +16191,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 Stmt
 :
 :
@@ -15336,6 +16219,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Stmt
 :
 :
@@ -15361,6 +16247,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Stmt
 :
 :
@@ -15394,6 +16283,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Stmt
 :
 :
@@ -15437,7 +16329,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15456,6 +16348,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 StmtMacro
 {
 fn
@@ -15529,7 +16424,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15548,6 +16443,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TraitBound
 {
 fn
@@ -15630,7 +16528,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15649,6 +16547,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TraitBoundModifier
 {
 fn
@@ -15673,6 +16574,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 TraitBoundModifier
 :
 :
@@ -15688,6 +16592,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 TraitBoundModifier
 :
 :
@@ -15724,7 +16631,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15743,6 +16650,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TraitItem
 {
 fn
@@ -15767,6 +16677,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 TraitItem
 :
 :
@@ -15792,6 +16705,9 @@ state
 )
 ;
 }
+crate
+:
+:
 TraitItem
 :
 :
@@ -15817,6 +16733,9 @@ state
 )
 ;
 }
+crate
+:
+:
 TraitItem
 :
 :
@@ -15842,6 +16761,9 @@ state
 )
 ;
 }
+crate
+:
+:
 TraitItem
 :
 :
@@ -15867,6 +16789,9 @@ state
 )
 ;
 }
+crate
+:
+:
 TraitItem
 :
 :
@@ -15913,7 +16838,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -15932,6 +16857,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TraitItemConst
 {
 fn
@@ -16015,7 +16943,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16034,6 +16962,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TraitItemFn
 {
 fn
@@ -16108,7 +17039,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16127,6 +17058,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TraitItemMacro
 {
 fn
@@ -16192,7 +17126,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16211,6 +17145,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TraitItemType
 {
 fn
@@ -16311,7 +17248,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16330,6 +17267,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Type
 {
 fn
@@ -16354,6 +17294,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 Type
 :
 :
@@ -16379,6 +17322,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16404,6 +17350,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16429,6 +17378,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16454,6 +17406,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16479,6 +17434,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16504,6 +17462,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16529,6 +17490,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16554,6 +17518,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16579,6 +17546,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16604,6 +17574,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16629,6 +17602,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16654,6 +17630,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16679,6 +17658,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16704,6 +17686,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Type
 :
 :
@@ -16758,7 +17743,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16777,6 +17762,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeArray
 {
 fn
@@ -16841,7 +17829,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16860,6 +17848,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeBareFn
 {
 fn
@@ -16960,7 +17951,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -16979,6 +17970,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeGroup
 {
 fn
@@ -17034,7 +18028,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17053,6 +18047,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeImplTrait
 {
 fn
@@ -17108,7 +18105,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17127,6 +18124,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeInfer
 {
 fn
@@ -17173,7 +18173,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17192,6 +18192,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeMacro
 {
 fn
@@ -17247,7 +18250,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17266,6 +18269,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeNever
 {
 fn
@@ -17312,7 +18318,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17331,6 +18337,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeParam
 {
 fn
@@ -17431,7 +18440,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17450,6 +18459,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeParamBound
 {
 fn
@@ -17474,6 +18486,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 TypeParamBound
 :
 :
@@ -17499,6 +18514,9 @@ state
 )
 ;
 }
+crate
+:
+:
 TypeParamBound
 :
 :
@@ -17524,6 +18542,9 @@ state
 )
 ;
 }
+crate
+:
+:
 TypeParamBound
 :
 :
@@ -17578,7 +18599,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17597,6 +18618,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeParen
 {
 fn
@@ -17652,7 +18676,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17671,6 +18695,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypePath
 {
 fn
@@ -17735,7 +18762,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17754,6 +18781,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypePtr
 {
 fn
@@ -17827,7 +18857,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17846,6 +18876,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeReference
 {
 fn
@@ -17919,7 +18952,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -17938,6 +18971,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeSlice
 {
 fn
@@ -17993,7 +19029,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18012,6 +19048,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeTraitObject
 {
 fn
@@ -18076,7 +19115,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18095,6 +19134,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 TypeTuple
 {
 fn
@@ -18150,7 +19192,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18169,6 +19211,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 UnOp
 {
 fn
@@ -18193,6 +19238,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 UnOp
 :
 :
@@ -18211,6 +19259,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 UnOp
 :
 :
@@ -18229,6 +19280,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 UnOp
 :
 :
@@ -18265,7 +19319,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18284,6 +19338,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 UseGlob
 {
 fn
@@ -18322,7 +19379,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18341,6 +19398,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 UseGroup
 {
 fn
@@ -18388,7 +19448,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18407,6 +19467,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 UseName
 {
 fn
@@ -18454,7 +19517,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18473,6 +19536,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 UsePath
 {
 fn
@@ -18529,7 +19595,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18548,6 +19614,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 UseRename
 {
 fn
@@ -18604,7 +19673,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18623,6 +19692,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 UseTree
 {
 fn
@@ -18647,6 +19719,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 UseTree
 :
 :
@@ -18672,6 +19747,9 @@ state
 )
 ;
 }
+crate
+:
+:
 UseTree
 :
 :
@@ -18697,6 +19775,9 @@ state
 )
 ;
 }
+crate
+:
+:
 UseTree
 :
 :
@@ -18722,6 +19803,9 @@ state
 )
 ;
 }
+crate
+:
+:
 UseTree
 :
 :
@@ -18747,6 +19831,9 @@ state
 )
 ;
 }
+crate
+:
+:
 UseTree
 :
 :
@@ -18790,7 +19877,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18809,6 +19896,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Variadic
 {
 fn
@@ -18882,7 +19972,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -18901,6 +19991,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Variant
 {
 fn
@@ -18983,7 +20076,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19002,6 +20095,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 VisRestricted
 {
 fn
@@ -19066,7 +20162,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19085,6 +20181,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 Visibility
 {
 fn
@@ -19109,6 +20208,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 Visibility
 :
 :
@@ -19127,6 +20229,9 @@ write_u8
 )
 ;
 }
+crate
+:
+:
 Visibility
 :
 :
@@ -19152,6 +20257,9 @@ state
 )
 ;
 }
+crate
+:
+:
 Visibility
 :
 :
@@ -19193,7 +20301,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19212,6 +20320,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 WhereClause
 {
 fn
@@ -19267,7 +20378,7 @@ full
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -19286,6 +20397,9 @@ traits
 impl
 Hash
 for
+crate
+:
+:
 WherePredicate
 {
 fn
@@ -19310,6 +20424,9 @@ Hasher
 match
 self
 {
+crate
+:
+:
 WherePredicate
 :
 :
@@ -19335,6 +20452,9 @@ state
 )
 ;
 }
+crate
+:
+:
 WherePredicate
 :
 :
