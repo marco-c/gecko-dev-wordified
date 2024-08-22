@@ -628,6 +628,8 @@ audio_frame
 bool
 *
 muted
+=
+nullptr
 )
 ;
 /
