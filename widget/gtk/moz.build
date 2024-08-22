@@ -288,6 +288,11 @@ MozContainer
 h
 "
 "
+MozContainerSurfaceLock
+.
+h
+"
+"
 nsGTKToolkit
 .
 h
@@ -450,6 +455,11 @@ cpp
 "
 "
 MozContainer
+.
+cpp
+"
+"
+MozContainerSurfaceLock
 .
 cpp
 "
@@ -665,6 +675,11 @@ widget
 +
 =
 [
+"
+MozContainerSurfaceLock
+.
+h
+"
 "
 MozContainerWayland
 .
