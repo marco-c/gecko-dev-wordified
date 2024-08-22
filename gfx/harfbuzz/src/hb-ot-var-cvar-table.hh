@@ -684,7 +684,7 @@ has_private_points
 TupleVariationData
 :
 :
-unpack_points
+decompile_points
 (
 p
 private_indices
@@ -757,7 +757,7 @@ unlikely
 TupleVariationData
 :
 :
-unpack_deltas
+decompile_deltas
 (
 p
 unpacked_deltas

@@ -566,6 +566,16 @@ OT
 MVAR
 )
 #
+ifndef
+HB_NO_VAR_COMPOSITES
+HB_OT_CORE_TABLE
+(
+OT
+VARC
+)
+#
+endif
+#
 endif
 /
 *

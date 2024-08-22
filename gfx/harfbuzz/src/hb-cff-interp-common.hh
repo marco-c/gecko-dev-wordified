@@ -4451,12 +4451,6 @@ clear_args
 (
 )
 ;
-env
-.
-set_error
-(
-)
-;
 }
 break
 ;

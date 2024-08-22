@@ -1168,7 +1168,7 @@ st
 )
 ;
 }
-protected
+public
 :
 float
 slant
