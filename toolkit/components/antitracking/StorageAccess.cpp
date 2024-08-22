@@ -5312,14 +5312,12 @@ isDocument
 ;
 if
 (
+targetBC
+&
+&
 isDocument
 )
 {
-MOZ_ASSERT
-(
-targetBC
-)
-;
 nsCOMPtr
 <
 nsPIDOMWindowInner
