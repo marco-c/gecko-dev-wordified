@@ -393,7 +393,10 @@ identity
 }
 ;
 static
-MaybeIntSize
+Maybe
+<
+IntSize
+>
 GetImageSize
 (
 const
@@ -11173,7 +11176,10 @@ Orientation
 }
 ;
 }
-MaybeIntSize
+Maybe
+<
+IntSize
+>
 ispeImageSize
 =
 GetImageSize
