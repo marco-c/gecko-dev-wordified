@@ -6718,7 +6718,7 @@ decJitMemory
 (
 module
 .
-codeLength
+codeMemoryUsed
 (
 module
 .
@@ -9318,7 +9318,7 @@ incJitMemory
 (
 module
 .
-codeLength
+codeMemoryUsed
 (
 module
 .
