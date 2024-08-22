@@ -5450,23 +5450,6 @@ FieldTrial
 '
 WebRTC
 -
-UseShortVP8TL2Pattern
-'
-               
-'
-webrtc
-:
-9477
-'
-               
-INDEFINITE
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 UseShortVP8TL3Pattern
 '
                
@@ -6311,7 +6294,7 @@ str
 \
     
 '
-2387f9c58686fb4e4f9baa69b9323ef857255d6a
+c8a81e2e8f6e55640a1093bddb8efdf668341e2a
 '
 REGISTERED_FIELD_TRIALS
 :
