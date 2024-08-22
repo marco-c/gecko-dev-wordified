@@ -5649,14 +5649,6 @@ spatial_id
 =
 sid
 ;
-result
-.
-referenced_buffers
-=
-settings
-.
-reference_buffers
-;
 break
 ;
 }
