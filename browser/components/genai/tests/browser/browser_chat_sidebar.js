@@ -241,7 +241,7 @@ Assert
 equal
 (
 origCount
-5
+6
 "
 Rendered
 expected
@@ -250,7 +250,7 @@ of
 provider
 options
 (
-4
+5
 +
 custom
 )
