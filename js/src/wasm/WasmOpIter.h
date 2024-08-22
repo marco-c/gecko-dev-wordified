@@ -3994,7 +3994,8 @@ endFunction
 const
 uint8_t
 *
-bodyEnd
+*
+maybeBodyEnd
 )
 ;
 [
@@ -9362,11 +9363,15 @@ endFunction
 const
 uint8_t
 *
-bodyEnd
+*
+maybeBodyEnd
 )
 {
 if
 (
+maybeBodyEnd
+&
+&
 d_
 .
 currentPosition
@@ -9374,7 +9379,8 @@ currentPosition
 )
 !
 =
-bodyEnd
+*
+maybeBodyEnd
 )
 {
 return
