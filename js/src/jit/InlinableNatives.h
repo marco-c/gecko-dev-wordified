@@ -291,6 +291,11 @@ DataViewGetUint32
 \
 _
 (
+DataViewGetFloat16
+)
+\
+_
+(
 DataViewGetFloat32
 )
 \

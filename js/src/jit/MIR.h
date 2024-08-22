@@ -40835,6 +40835,15 @@ Scalar
 :
 :
 Float32
+|
+|
+storageType_
+=
+=
+Scalar
+:
+:
+Float16
 ;
 }
 ALLOW_CLONE
