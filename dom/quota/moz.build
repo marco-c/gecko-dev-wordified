@@ -342,6 +342,11 @@ NSSCipherStrategy
 h
 "
 "
+OriginOperationCallbacks
+.
+h
+"
+"
 OriginScope
 .
 h

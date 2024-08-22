@@ -229,6 +229,16 @@ nsresult
 false
 >
 ;
+using
+ExclusiveBoolPromise
+=
+MozPromise
+<
+bool
+nsresult
+true
+>
+;
 namespace
 ipc
 {
