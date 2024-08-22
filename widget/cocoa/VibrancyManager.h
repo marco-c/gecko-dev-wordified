@@ -152,6 +152,7 @@ enum
 class
 VibrancyType
 {
+Sidebar
 /
 /
 Add
