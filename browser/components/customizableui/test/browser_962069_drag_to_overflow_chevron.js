@@ -98,7 +98,7 @@ dragged
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 "
@@ -357,6 +357,7 @@ ds
 .
 startDragSessionForTests
 (
+window
 Ci
 .
 nsIDragService

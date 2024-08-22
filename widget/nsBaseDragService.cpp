@@ -4007,6 +4007,9 @@ nsBaseDragService
 :
 StartDragSessionForTests
 (
+nsISupports
+*
+aWidgetProvider
 uint32_t
 aAllowedEffect
 )

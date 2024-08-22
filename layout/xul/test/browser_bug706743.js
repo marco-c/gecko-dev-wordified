@@ -395,6 +395,7 @@ dragService
 .
 startDragSessionForTests
 (
+window
 Ci
 .
 nsIDragService
