@@ -4487,6 +4487,7 @@ VideoSendStream
 :
 Stop
 "
+TRACE_EVENT_SCOPE_GLOBAL
 )
 ;
 rtp_video_sender_

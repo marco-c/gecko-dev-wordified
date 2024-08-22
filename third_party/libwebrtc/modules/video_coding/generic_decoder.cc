@@ -728,6 +728,7 @@ VCMDecodedFrameCallback
 :
 Decoded
 "
+TRACE_EVENT_SCOPE_GLOBAL
 "
 timestamp
 "

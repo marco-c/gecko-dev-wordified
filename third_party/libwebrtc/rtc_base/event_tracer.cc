@@ -1414,6 +1414,7 @@ EventLogger
 :
 Start
 "
+TRACE_EVENT_SCOPE_GLOBAL
 )
 ;
 }
@@ -1442,6 +1443,7 @@ EventLogger
 :
 Stop
 "
+TRACE_EVENT_SCOPE_GLOBAL
 )
 ;
 /
