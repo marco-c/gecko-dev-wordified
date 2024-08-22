@@ -19540,11 +19540,6 @@ mPaintingSuppressed
 :
 1
 ;
-bool
-mLastRootReflowHadUnconstrainedBSize
-:
-1
-;
 /
 /
 Indicates
