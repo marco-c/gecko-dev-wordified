@@ -4081,11 +4081,13 @@ nsCOMPtr
 nsIFormControl
 >
 formControl
-(
-do_QueryInterface
+=
+nsIFormControl
+:
+:
+FromNodeOrNull
 (
 aNode
-)
 )
 ;
 if
