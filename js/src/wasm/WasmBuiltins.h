@@ -223,6 +223,10 @@ struct
 ResumeFromException
 ;
 }
+/
+/
+namespace
+jit
 namespace
 wasm
 {
