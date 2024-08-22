@@ -2847,6 +2847,28 @@ get_vscode_running
     
 )
     
+moz_automation
+=
+any
+(
+e
+in
+os
+.
+environ
+for
+e
+in
+(
+"
+MOZ_AUTOMATION
+"
+"
+TASK_ID
+"
+)
+)
+    
 mach_metrics
 =
 telemetry
@@ -2875,6 +2897,17 @@ success
 set
 (
 success
+)
+    
+mach_metrics
+.
+mach
+.
+moz_automation
+.
+set
+(
+moz_automation
 )
     
 system_metrics
