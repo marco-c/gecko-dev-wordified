@@ -96,6 +96,17 @@ include
 <
 utility
 >
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -111,6 +122,7 @@ in
 pixels
 .
 struct
+RTC_EXPORT
 Resolution
 {
 int
