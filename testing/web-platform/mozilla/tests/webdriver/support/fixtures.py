@@ -131,13 +131,9 @@ def
 _browser
 (
         
-use_bidi
+clone_profile
 =
-False
-        
-use_cdp
-=
-False
+True
         
 extra_args
 =
@@ -147,9 +143,17 @@ extra_prefs
 =
 None
         
-clone_profile
+use_bidi
 =
-True
+False
+        
+use_cdp
+=
+False
+        
+use_marionette
+=
+False
     
 )
 :
@@ -198,22 +202,6 @@ if
                 
 current_browser
 .
-use_bidi
-=
-=
-use_bidi
-                
-and
-current_browser
-.
-use_cdp
-=
-=
-use_cdp
-                
-and
-current_browser
-.
 extra_args
 =
 =
@@ -231,6 +219,30 @@ and
 current_browser
 .
 is_running
+                
+and
+current_browser
+.
+use_bidi
+=
+=
+use_bidi
+                
+and
+current_browser
+.
+use_cdp
+=
+=
+use_cdp
+                
+and
+current_browser
+.
+use_marionette
+=
+=
+use_marionette
             
 )
 :
@@ -333,14 +345,6 @@ binary
             
 profile
             
-use_bidi
-=
-use_bidi
-            
-use_cdp
-=
-use_cdp
-            
 extra_args
 =
 extra_args
@@ -352,6 +356,18 @@ extra_prefs
 env
 =
 env
+            
+use_bidi
+=
+use_bidi
+            
+use_cdp
+=
+use_cdp
+            
+use_marionette
+=
+use_marionette
         
 )
         

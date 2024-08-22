@@ -203,12 +203,28 @@ page_url
     
 return
 setup_beforeunload_page
+pytest
+.
+mark
+.
+parametrize
+(
+"
+marionette_enabled
+"
+[
+False
+True
+]
+)
 async
 def
-test_close_browser
+test_with_marionette_enabled
 (
+    
 new_session
 add_browser_capabilities
+marionette_enabled
 )
 :
     
@@ -230,6 +246,16 @@ add_browser_capabilities
 {
 }
 )
+}
+        
+browser_args
+=
+{
+"
+use_marionette
+"
+:
+marionette_enabled
 }
     
 )
