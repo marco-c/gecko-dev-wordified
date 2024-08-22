@@ -376,6 +376,8 @@ EncodeResult
 &
 result
 )
+&
+&
 >
 ;
 struct
