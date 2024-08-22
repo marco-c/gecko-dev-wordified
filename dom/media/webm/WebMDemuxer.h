@@ -983,6 +983,16 @@ InitBufferedState
 (
 )
 ;
+int64_t
+FloorDefaultDurationToTimecodeScale
+(
+nestegg
+*
+aContext
+unsigned
+aTrackNumber
+)
+;
 nsresult
 ReadMetadata
 (
