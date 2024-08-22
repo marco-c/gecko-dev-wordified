@@ -247,9 +247,6 @@ namespace
 webrtc
 {
 class
-AudioDeviceModule
-;
-class
 AudioMixer
 ;
 class

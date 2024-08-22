@@ -94,11 +94,9 @@ MODULES_AUDIO_DEVICE_INCLUDE_FAKE_AUDIO_DEVICE_H_
 #
 include
 "
-modules
+api
 /
-audio_device
-/
-include
+audio
 /
 audio_device
 .

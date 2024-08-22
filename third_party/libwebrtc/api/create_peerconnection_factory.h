@@ -100,6 +100,17 @@ api
 /
 audio
 /
+audio_device
+.
+h
+"
+#
+include
+"
+api
+/
+audio
+/
 audio_mixer
 .
 h
@@ -269,9 +280,6 @@ rtc
 namespace
 webrtc
 {
-class
-AudioDeviceModule
-;
 class
 AudioFrameProcessor
 ;
