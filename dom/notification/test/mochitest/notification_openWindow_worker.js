@@ -1,3 +1,11 @@
+/
+*
+eslint
+-
+env
+serviceworker
+*
+/
 const
 gRoot
 =
@@ -176,10 +184,10 @@ DONE
 ;
 onnotificationclick
 =
-function
 (
-event
 )
+=
+>
 {
 clients
 .
