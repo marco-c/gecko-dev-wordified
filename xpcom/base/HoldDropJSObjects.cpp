@@ -272,8 +272,6 @@ DropJSObjectsImpl
 void
 *
 aHolder
-ShouldClearJSRefs
-aClearRefs
 )
 {
 CycleCollectedJSRuntime
@@ -306,7 +304,6 @@ rt
 RemoveJSHolder
 (
 aHolder
-aClearRefs
 )
 ;
 }
@@ -316,8 +313,6 @@ DropJSObjectsImpl
 nsISupports
 *
 aHolder
-ShouldClearJSRefs
-aClearRefs
 )
 {
 #
@@ -387,7 +382,6 @@ void
 (
 aHolder
 )
-aClearRefs
 )
 ;
 }
