@@ -6932,7 +6932,7 @@ coder
 wasm
 :
 :
-UniqueModuleSegment
+SharedModuleSegment
 *
 item
 const
@@ -7062,10 +7062,7 @@ ModuleSegment
 *
 item
 =
-js
-:
-:
-MakeUnique
+js_new
 <
 ModuleSegment
 >
@@ -7127,7 +7124,7 @@ mode
 wasm
 :
 :
-UniqueModuleSegment
+SharedModuleSegment
 >
 item
 const
