@@ -1059,7 +1059,7 @@ mEventType
 =
 u
 "
-DOMFormHasPossibleUsername
+DOMPossibleUsernameInputAdded
 "
 _ns
 )

@@ -375,7 +375,7 @@ we
 already
 dispatched
 a
-DOMFormHasPossibleUsername
+DOMPossibleUsernameInputAdded
 event
 or
 not
