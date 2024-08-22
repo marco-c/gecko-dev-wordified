@@ -276,7 +276,7 @@ DescribeSet
 const
 nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 &
 set
@@ -396,7 +396,7 @@ aHost
 const
 nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 &
 BounceTrackingRecord
@@ -414,7 +414,7 @@ mBounceHosts
 const
 nsTHashSet
 <
-nsCStringHashKey
+nsCString
 >
 &
 BounceTrackingRecord
