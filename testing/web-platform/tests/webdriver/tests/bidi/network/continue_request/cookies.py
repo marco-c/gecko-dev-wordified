@@ -212,6 +212,8 @@ tests
 /
 bidi
 /
+network
+/
 support
 /
 empty
