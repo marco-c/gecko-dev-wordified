@@ -1687,7 +1687,7 @@ if
 !
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 resultNode
 )
@@ -1940,7 +1940,7 @@ if
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 elt
 .

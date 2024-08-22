@@ -710,7 +710,7 @@ isParentReadOnly
 !
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 parent
 )
@@ -2962,7 +2962,7 @@ null
 &
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 aInfo
 .

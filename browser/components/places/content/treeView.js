@@ -10756,7 +10756,7 @@ allowTriState
 =
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 this
 .
@@ -11436,7 +11436,7 @@ itemGuid
 |
 PlacesUtils
 .
-isQueryGeneratedFolder
+nodeIsQueryGeneratedFolder
 (
 node
 )

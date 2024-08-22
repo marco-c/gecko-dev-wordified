@@ -1133,7 +1133,7 @@ ok
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 aNode
 )

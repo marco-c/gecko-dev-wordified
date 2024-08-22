@@ -1410,7 +1410,7 @@ selectedNode
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 selectedNode
 )
@@ -1419,7 +1419,7 @@ selectedNode
 !
 PlacesUtils
 .
-isQueryGeneratedFolder
+nodeIsQueryGeneratedFolder
 (
 selectedNode
 )
@@ -1452,7 +1452,7 @@ selectedNode
 &
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 selectedNode
 )
@@ -6010,7 +6010,7 @@ if
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 node
 )
@@ -6808,7 +6808,7 @@ if
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 root
 )
@@ -7646,7 +7646,7 @@ if
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 node
 )
@@ -8595,7 +8595,7 @@ container
 !
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 container
 )
@@ -8754,7 +8754,7 @@ return
 (
 PlacesUtils
 .
-nodeIsFolder
+nodeIsFolderOrShortcut
 (
 parentNode
 )
