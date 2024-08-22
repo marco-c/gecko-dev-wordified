@@ -4317,12 +4317,7 @@ clock
 )
 receive_side_cc_
 (
-&
 env_
-.
-clock
-(
-)
 absl
 :
 :
