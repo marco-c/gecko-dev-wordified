@@ -345,17 +345,6 @@ EXTRA_SCRIPTS
 "
 browser
 /
-base
-/
-content
-/
-nsContextMenu
-.
-js
-"
-"
-browser
-/
 components
 /
 downloads
