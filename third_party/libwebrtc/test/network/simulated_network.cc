@@ -1332,7 +1332,7 @@ means
 that
 the
 newly
-enqueud
+enqueued
 packet
 risk
 having

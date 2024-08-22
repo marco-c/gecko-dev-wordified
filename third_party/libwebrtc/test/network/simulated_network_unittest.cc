@@ -4519,7 +4519,7 @@ network
 with
 50
 %
-probablility
+probability
 of
 packet
 loss
@@ -4714,7 +4714,7 @@ network
 with
 50
 %
-probablility
+probability
 of
 packet
 loss
@@ -5069,7 +5069,7 @@ network
 with
 50
 %
-probablility
+probability
 of
 packet
 loss
