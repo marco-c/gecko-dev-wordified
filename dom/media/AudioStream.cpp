@@ -4136,7 +4136,7 @@ mCallbacksStarted
 true
 ;
 }
-TRACE_AUDIO_CALLBACK_BUDGET
+TRACE_AUDIO_CALLBACK_FRAME_COUNT
 (
 "
 AudioStream
