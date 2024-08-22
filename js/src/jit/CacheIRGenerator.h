@@ -3575,6 +3575,11 @@ tryAttachMathFRound
 )
 ;
 AttachDecision
+tryAttachMathF16Round
+(
+)
+;
+AttachDecision
 tryAttachMathHypot
 (
 )

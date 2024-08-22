@@ -500,6 +500,11 @@ MathFRound
 \
 _
 (
+MathF16Round
+)
+\
+_
+(
 MathSin
 )
 \

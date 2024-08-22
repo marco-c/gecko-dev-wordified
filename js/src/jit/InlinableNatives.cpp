@@ -933,6 +933,12 @@ case
 InlinableNative
 :
 :
+MathF16Round
+:
+case
+InlinableNative
+:
+:
 MathTrunc
 :
 case
