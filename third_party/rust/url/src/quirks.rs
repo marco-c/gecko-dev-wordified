@@ -103,7 +103,6 @@ URL
 components
 implemented
 per
-<
 https
 :
 /
@@ -118,7 +117,6 @@ org
 /
 #
 api
->
 /
 /
 !
@@ -646,7 +644,6 @@ fragment_start
 /
 /
 /
-<
 https
 :
 /
@@ -665,7 +662,6 @@ dom
 url
 -
 domaintoascii
->
 pub
 fn
 domain_to_ascii
@@ -715,7 +711,6 @@ new
 /
 /
 /
-<
 https
 :
 /
@@ -734,7 +729,6 @@ dom
 url
 -
 domaintounicode
->
 pub
 fn
 domain_to_unicode
@@ -803,7 +797,6 @@ new
 /
 Getter
 for
-<
 https
 :
 /
@@ -822,7 +815,6 @@ dom
 url
 -
 href
->
 pub
 fn
 href
@@ -848,7 +840,6 @@ as_str
 /
 Setter
 for
-<
 https
 :
 /
@@ -867,7 +858,6 @@ dom
 url
 -
 href
->
 pub
 fn
 set_href
@@ -914,7 +904,6 @@ Ok
 /
 Getter
 for
-<
 https
 :
 /
@@ -933,7 +922,6 @@ dom
 url
 -
 origin
->
 pub
 fn
 origin
@@ -962,7 +950,6 @@ ascii_serialization
 /
 Getter
 for
-<
 https
 :
 /
@@ -981,7 +968,6 @@ dom
 url
 -
 protocol
->
 #
 [
 inline
@@ -1033,7 +1019,6 @@ len
 /
 Setter
 for
-<
 https
 :
 /
@@ -1052,7 +1037,6 @@ dom
 url
 -
 protocol
->
 #
 [
 allow
@@ -1151,7 +1135,6 @@ new_protocol
 /
 Getter
 for
-<
 https
 :
 /
@@ -1170,7 +1153,6 @@ dom
 url
 -
 username
->
 #
 [
 inline
@@ -1200,7 +1182,6 @@ username
 /
 Setter
 for
-<
 https
 :
 /
@@ -1219,7 +1200,6 @@ dom
 url
 -
 username
->
 #
 [
 allow
@@ -1266,7 +1246,6 @@ new_username
 /
 Getter
 for
-<
 https
 :
 /
@@ -1285,7 +1264,6 @@ dom
 url
 -
 password
->
 #
 [
 inline
@@ -1321,7 +1299,6 @@ unwrap_or
 /
 Setter
 for
-<
 https
 :
 /
@@ -1340,7 +1317,6 @@ dom
 url
 -
 password
->
 #
 [
 allow
@@ -1402,7 +1378,6 @@ new_password
 /
 Getter
 for
-<
 https
 :
 /
@@ -1421,7 +1396,6 @@ dom
 url
 -
 host
->
 #
 [
 inline
@@ -1460,7 +1434,6 @@ AfterPort
 /
 Setter
 for
-<
 https
 :
 /
@@ -1479,7 +1452,6 @@ dom
 url
 -
 host
->
 #
 [
 allow
@@ -1857,7 +1829,6 @@ Ok
 /
 Getter
 for
-<
 https
 :
 /
@@ -1876,7 +1847,6 @@ dom
 url
 -
 hostname
->
 #
 [
 inline
@@ -1912,7 +1882,6 @@ unwrap_or
 /
 Setter
 for
-<
 https
 :
 /
@@ -1931,7 +1900,6 @@ dom
 url
 -
 hostname
->
 #
 [
 allow
@@ -2226,7 +2194,6 @@ Err
 /
 Getter
 for
-<
 https
 :
 /
@@ -2245,7 +2212,6 @@ dom
 url
 -
 port
->
 #
 [
 inline
@@ -2284,7 +2250,6 @@ AfterPort
 /
 Setter
 for
-<
 https
 :
 /
@@ -2303,7 +2268,6 @@ dom
 url
 -
 port
->
 #
 [
 allow
@@ -2466,7 +2430,6 @@ Err
 /
 Getter
 for
-<
 https
 :
 /
@@ -2485,7 +2448,6 @@ dom
 url
 -
 pathname
->
 #
 [
 inline
@@ -2515,7 +2477,6 @@ path
 /
 Setter
 for
-<
 https
 :
 /
@@ -2534,7 +2495,6 @@ dom
 url
 -
 pathname
->
 pub
 fn
 set_pathname
@@ -2621,38 +2581,6 @@ new_pathname
 )
 }
 else
-if
-SchemeType
-:
-:
-from
-(
-url
-.
-scheme
-(
-)
-)
-.
-is_special
-(
-)
-|
-|
-!
-new_pathname
-.
-is_empty
-(
-)
-|
-|
-!
-url
-.
-has_host
-(
-)
 {
 let
 mut
@@ -2683,22 +2611,12 @@ set_path
 path_to_set
 )
 }
-else
-{
-url
-.
-set_path
-(
-new_pathname
-)
-}
 }
 /
 /
 /
 Getter
 for
-<
 https
 :
 /
@@ -2717,7 +2635,6 @@ dom
 url
 -
 search
->
 pub
 fn
 search
@@ -2755,7 +2672,6 @@ AfterQuery
 /
 Setter
 for
-<
 https
 :
 /
@@ -2774,7 +2690,6 @@ dom
 url
 -
 search
->
 pub
 fn
 set_search
@@ -2839,7 +2754,6 @@ new_search
 /
 Getter
 for
-<
 https
 :
 /
@@ -2858,7 +2772,6 @@ dom
 url
 -
 hash
->
 pub
 fn
 hash
@@ -2892,7 +2805,6 @@ AfterQuery
 /
 Setter
 for
-<
 https
 :
 /
@@ -2911,7 +2823,6 @@ dom
 url
 -
 hash
->
 pub
 fn
 set_hash
