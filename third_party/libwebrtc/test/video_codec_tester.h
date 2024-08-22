@@ -377,6 +377,11 @@ frame_drop
 =
 true
 ;
+bool
+keyframe
+=
+false
+;
 struct
 LayerSettings
 {
