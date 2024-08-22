@@ -54121,15 +54121,6 @@ IsTransformed
 )
 |
 |
-nsLayoutUtils
-:
-:
-IsPopup
-(
-aAncestor
-)
-|
-|
 ViewportUtils
 :
 :
