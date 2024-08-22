@@ -1253,6 +1253,8 @@ for
 ROUNDSS
 /
 ROUNDSD
+/
+VCVTPS2PH
 .
 enum
 RoundingMode
