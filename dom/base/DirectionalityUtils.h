@@ -143,9 +143,6 @@ nsINode
 class
 nsAttrValue
 ;
-class
-nsTextNode
-;
 namespace
 mozilla
 :
@@ -157,6 +154,9 @@ Element
 ;
 class
 HTMLSlotElement
+;
+class
+Text
 ;
 struct
 UnbindContext
@@ -865,7 +865,10 @@ element
 bool
 TextNodeWillChangeDirection
 (
-nsTextNode
+dom
+:
+:
+Text
 *
 aTextNode
 Directionality
@@ -907,7 +910,10 @@ node
 void
 TextNodeChangedDirection
 (
-nsTextNode
+dom
+:
+:
+Text
 *
 aTextNode
 Directionality
@@ -951,7 +957,10 @@ node
 void
 SetDirectionFromNewTextNode
 (
-nsTextNode
+dom
+:
+:
+Text
 *
 aTextNode
 )
@@ -986,7 +995,10 @@ directionality
 void
 ResetDirectionSetByTextNode
 (
-nsTextNode
+dom
+:
+:
+Text
 *
 dom
 :
