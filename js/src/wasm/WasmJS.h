@@ -245,6 +245,9 @@ h
 "
 /
 /
+JS
+:
+:
 WeakCache
 #
 include
@@ -2200,6 +2203,9 @@ delta
 using
 InstanceSet
 =
+JS
+:
+:
 WeakCache
 <
 GCHashSet

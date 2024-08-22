@@ -10461,6 +10461,9 @@ h
 using
 WasmFunctionScopeMap
 =
+JS
+:
+:
 WeakCache
 <
 GCHashMap
