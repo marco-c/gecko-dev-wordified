@@ -1167,7 +1167,6 @@ iter
 .
 endFunction
 (
-&
 bodyEnd
 )
 ;

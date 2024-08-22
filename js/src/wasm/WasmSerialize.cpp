@@ -6178,7 +6178,7 @@ wasm
 :
 :
 ScriptedCaller
-0
+16
 )
 ;
 MOZ_TRY
@@ -6260,7 +6260,7 @@ wasm
 :
 :
 CompileArgs
-0
+64
 )
 ;
 MOZ_TRY
@@ -7549,7 +7549,7 @@ wasm
 :
 :
 CodeMetadata
-728
+664
 )
 ;
 /
@@ -8007,6 +8007,19 @@ serialized
 customSectionRanges
 MOZ_TRY
 (
+CodePodVector
+(
+coder
+&
+item
+-
+>
+funcDefRanges
+)
+)
+;
+MOZ_TRY
+(
 CodePod
 (
 coder
@@ -8118,7 +8131,7 @@ wasm
 :
 :
 ModuleMetadata
-248
+264
 )
 ;
 MOZ_TRY
@@ -8465,7 +8478,7 @@ wasm
 :
 :
 CodeBlock
-936
+944
 )
 ;
 *
@@ -8757,7 +8770,7 @@ wasm
 :
 :
 CodeBlock
-936
+944
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING
@@ -9001,7 +9014,7 @@ wasm
 :
 :
 Code
-728
+760
 )
 ;
 FuncImportVector
@@ -9224,7 +9237,7 @@ wasm
 :
 :
 Code
-728
+760
 )
 ;
 STATIC_ASSERT_ENCODING_OR_SIZING

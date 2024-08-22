@@ -5615,12 +5615,6 @@ code
 requestTierUp
 (
 funcIndex
-codeRange
--
->
-funcLineOrBytecode
-(
-)
 )
 ;
 /

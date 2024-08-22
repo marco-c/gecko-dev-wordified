@@ -1204,6 +1204,9 @@ of
 finish
 (
 )
+FuncDefRangeVector
+funcDefRanges_
+;
 FuncImportVector
 funcImports_
 ;

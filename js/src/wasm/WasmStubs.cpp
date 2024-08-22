@@ -21929,13 +21929,6 @@ codeRanges
 emplaceBack
 (
 funcIndex
-/
-*
-bytecodeOffset
-=
-*
-/
-0
 wrapperOffsets
 /
 *
