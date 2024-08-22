@@ -5907,6 +5907,7 @@ commandID
 Update
 the
 sidebar
+title
 if
 this
 extension
@@ -5915,14 +5916,6 @@ the
 current
 sidebar
 .
-updateAttributes
-(
-this
-.
-_switcherTarget
-sidebar
-)
-;
 this
 .
 title
