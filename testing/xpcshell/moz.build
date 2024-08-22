@@ -90,7 +90,7 @@ TEST_DIRS
 =
 [
 "
-example
+test
 "
 ]
 TESTING_JS_MODULES

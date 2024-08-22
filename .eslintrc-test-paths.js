@@ -534,16 +534,6 @@ test
 /
 "
 "
-testing
-/
-modules
-/
-tests
-/
-xpcshell
-/
-"
-"
 toolkit
 /
 components
