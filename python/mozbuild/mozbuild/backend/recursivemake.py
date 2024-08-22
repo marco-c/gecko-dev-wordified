@@ -10917,7 +10917,7 @@ libdef
 LIB_FILE_VAR
 libdef
 .
-import_name
+import_path
 )
         
 )
@@ -11075,7 +11075,7 @@ _process_non_default_target
 libdef
 libdef
 .
-import_name
+import_path
 backend_file
 )
     
