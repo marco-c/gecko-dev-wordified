@@ -4993,13 +4993,13 @@ for
 StringBuffers
 because
 they
-'
-re
+can
+be
 allocated
 in
+/
+/
 the
-/
-/
 main
 jemalloc
 arena
