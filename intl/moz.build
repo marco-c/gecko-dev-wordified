@@ -210,6 +210,10 @@ PERFTESTS_MANIFESTS
 "
 benchmarks
 /
+test
+/
+xpcshell
+/
 perftest
 .
 toml
@@ -221,6 +225,10 @@ XPCSHELL_TESTS_MANIFESTS
 [
 "
 benchmarks
+/
+test
+/
+xpcshell
 /
 xpcshell
 .

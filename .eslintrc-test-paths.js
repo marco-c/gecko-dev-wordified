@@ -494,12 +494,6 @@ tests
 "
 intl
 /
-benchmarks
-/
-"
-"
-intl
-/
 l10n
 /
 test
