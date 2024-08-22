@@ -574,12 +574,6 @@ nsCString
 dir
 )
 ;
-extern
-const
-char
-*
-kOSClientCertsModuleName
-;
 /
 *
 *
@@ -643,12 +637,6 @@ nsCString
 &
 dir
 )
-;
-extern
-const
-char
-*
-kIPCClientCertsModuleName
 ;
 /
 *
