@@ -305,13 +305,8 @@ platformVersion
 /
 Default
 bookmarks
-constants
+constant
 .
-const
-DEFAULT_BOOKMARKS_ON_TOOLBAR
-=
-1
-;
 const
 DEFAULT_BOOKMARKS_ON_MENU
 =
