@@ -1809,7 +1809,7 @@ cookie
 aCookie
 -
 >
-GetFilePath
+Path
 (
 )
 )

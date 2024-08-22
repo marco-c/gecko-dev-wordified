@@ -440,13 +440,15 @@ nsACString
 aPath
 )
 {
+const
 nsCString
+&
 cookiePath
 (
 aCookie
 -
 >
-GetFilePath
+Path
 (
 )
 )
