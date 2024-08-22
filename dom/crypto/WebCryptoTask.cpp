@@ -7471,6 +7471,17 @@ JWK_TYPE_OKP
 )
 &
 &
+!
+aJwk
+.
+mKty
+.
+EqualsLiteral
+(
+JWK_TYPE_EC
+)
+&
+&
 aJwk
 .
 mAlg
