@@ -1456,6 +1456,9 @@ Java_VoipClient_onGetSupportedCodecsCompleted
 (
 env_
 j_voip_client_
+webrtc
+:
+:
 NativeToJavaList
 (
 env_
