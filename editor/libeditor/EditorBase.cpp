@@ -31698,12 +31698,7 @@ else
 if
 (
 !
-droppedAt
-.
-ContainerAs
-<
-nsIContent
->
+AsHTMLEditor
 (
 )
 -
