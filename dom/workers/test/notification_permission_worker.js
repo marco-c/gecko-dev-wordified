@@ -166,10 +166,10 @@ n
 .
 onerror
 =
+function
 (
+e
 )
-=
->
 {
 ok
 (
@@ -196,10 +196,10 @@ done
 ;
 onmessage
 =
+function
 (
+e
 )
-=
->
 {
 var
 context

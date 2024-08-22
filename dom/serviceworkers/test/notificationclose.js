@@ -29,14 +29,6 @@ zero
 /
 /
 /
-/
-*
-eslint
--
-env
-serviceworker
-*
-/
 onnotificationclose
 =
 function
@@ -65,7 +57,7 @@ clients
 openWindow
 (
 "
-blank
+hello
 .
 html
 "
@@ -73,8 +65,7 @@ html
 .
 catch
 (
-(
-)
+err
 =
 >
 {

@@ -1,15 +1,6 @@
-/
-*
-eslint
--
-env
-serviceworker
-*
-/
 onnotificationclick
 =
-(
-)
+event
 =
 >
 {

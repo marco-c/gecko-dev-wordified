@@ -1,11 +1,3 @@
-/
-*
-eslint
--
-env
-serviceworker
-*
-/
 const
 gRoot
 =
@@ -24,11 +16,9 @@ tests
 /
 dom
 /
-notification
+serviceworkers
 /
 test
-/
-mochitest
 /
 "
 ;
@@ -38,7 +28,7 @@ gTestURL
 gRoot
 +
 "
-test_notification_serviceworker_openWindow
+test_notification_openWindow
 .
 html
 "
@@ -184,10 +174,10 @@ DONE
 ;
 onnotificationclick
 =
+function
 (
+event
 )
-=
->
 {
 clients
 .
