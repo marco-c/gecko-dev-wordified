@@ -6858,7 +6858,7 @@ false
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsBaseDragSession
 :
 :
 MaybeEditorDeletedSourceNode
