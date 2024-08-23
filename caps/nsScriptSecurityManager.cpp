@@ -7676,11 +7676,6 @@ error
 InitWithWindowID
 (
 message
-u
-"
-"
-_ns
-u
 "
 "
 _ns
@@ -7716,11 +7711,6 @@ error
 Init
 (
 message
-u
-"
-"
-_ns
-u
 "
 "
 _ns

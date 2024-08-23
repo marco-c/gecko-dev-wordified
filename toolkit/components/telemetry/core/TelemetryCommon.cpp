@@ -836,11 +836,6 @@ error
 Init
 (
 aMsg
-u
-"
-"
-_ns
-u
 "
 "
 _ns

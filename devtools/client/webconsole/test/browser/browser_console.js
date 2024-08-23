@@ -1319,7 +1319,6 @@ gBrowser
 currentURI
 .
 prePath
-null
 0
 0
 Ci

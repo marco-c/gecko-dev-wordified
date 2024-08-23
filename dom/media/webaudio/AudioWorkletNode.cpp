@@ -481,7 +481,7 @@ origin
 unsigned
 mColno
 ;
-nsString
+nsCString
 mFilename
 ;
 nsString
@@ -1740,12 +1740,11 @@ return
 ProcessorErrorDetails
 details
 ;
-CopyUTF8toUTF16
-(
-mozilla
-:
-:
-MakeStringSpan
+details
+.
+mFilename
+.
+Assign
 (
 jsReport
 .
@@ -1759,10 +1758,6 @@ filename
 c_str
 (
 )
-)
-details
-.
-mFilename
 )
 ;
 xpc

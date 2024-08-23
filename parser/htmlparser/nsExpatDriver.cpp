@@ -8033,7 +8033,6 @@ SafeElementAt
 (
 0
 )
-mLastLine
 lineNumber
 .
 unverified_safe_because

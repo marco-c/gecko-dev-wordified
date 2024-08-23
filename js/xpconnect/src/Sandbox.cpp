@@ -13789,7 +13789,7 @@ if
 frame
 )
 {
-nsString
+nsAutoCString
 location
 ;
 frame
@@ -13827,10 +13827,7 @@ sandboxName
 .
 Append
 (
-NS_ConvertUTF16toUTF8
-(
 location
-)
 )
 ;
 sandboxName

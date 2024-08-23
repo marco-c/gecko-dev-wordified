@@ -77,11 +77,6 @@ sourceName
 aMsg
 .
 sourceName
-sourceLine
-:
-aMsg
-.
-sourceLine
 lineNumber
 :
 aMsg

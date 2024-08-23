@@ -183,9 +183,6 @@ mColumn
 =
 1
 ;
-nsCString
-mSourceLine
-;
 SourceLocation
 (
 )
@@ -204,13 +201,6 @@ uint32_t
 aCol
 =
 1
-nsCString
-&
-&
-aSourceLine
-=
-{
-}
 )
 ;
 explicit
@@ -230,13 +220,6 @@ uint32_t
 aCol
 =
 1
-nsCString
-&
-&
-aSourceLine
-=
-{
-}
 )
 ;
 ~

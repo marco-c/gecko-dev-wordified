@@ -5702,11 +5702,7 @@ error
 InitWithWindowID
 (
 message
-fileNameA
-u
-"
-"
-_ns
+aFileName
 aLineNumber
 aColumnNumber
 nsIScriptError

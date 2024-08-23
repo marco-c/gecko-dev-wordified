@@ -1935,7 +1935,6 @@ nsIScriptError
 const
 {
 url
-source
 startLine
 startColumn
 }
@@ -1958,7 +1957,6 @@ failed
 errorMsg
 }
 url
-source
 startLine
 startColumn
 Ci

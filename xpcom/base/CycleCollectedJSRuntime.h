@@ -3081,7 +3081,7 @@ it
 struct
 ErrorDetails
 {
-nsString
+nsCString
 mFilename
 ;
 nsString

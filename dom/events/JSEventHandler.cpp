@@ -831,6 +831,8 @@ onerror
 ;
 nsString
 errorMsg
+;
+nsCString
 file
 ;
 EventOrString
@@ -838,7 +840,7 @@ msgOrEvent
 ;
 Optional
 <
-nsAString
+nsACString
 >
 fileName
 ;

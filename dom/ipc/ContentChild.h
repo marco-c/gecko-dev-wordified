@@ -4312,13 +4312,9 @@ nsString
 &
 aMessage
 const
-nsString
+nsCString
 &
 aSourceName
-const
-nsString
-&
-aSourceLine
 const
 uint32_t
 &

@@ -267,10 +267,6 @@ OutputError
 const
 nsACString
 &
-aSource
-const
-nsACString
-&
 aSelectors
 uint32_t
 aLineNumber

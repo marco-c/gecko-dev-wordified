@@ -164,7 +164,7 @@ FilenameXPCOM
 ]
 readonly
 attribute
-AString
+AUTF8String
 filename
 ;
 [
@@ -245,11 +245,6 @@ readonly
 attribute
 int32_t
 columnNumber
-;
-readonly
-attribute
-AUTF8String
-sourceLine
 ;
 [
 implicit_jscontext
@@ -403,7 +398,7 @@ in
 JSContext
 aCx
 out
-AString
+AUTF8String
 aFilename
 )
 ;

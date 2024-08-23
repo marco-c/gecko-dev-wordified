@@ -4556,7 +4556,7 @@ public
 nsString
 mErrorMsg
 ;
-nsString
+nsCString
 mFileName
 ;
 uint32_t
@@ -4738,9 +4738,6 @@ mNotes
 ;
 nsCString
 mCategory
-;
-nsString
-mSourceLine
 ;
 nsString
 mErrorMsgName

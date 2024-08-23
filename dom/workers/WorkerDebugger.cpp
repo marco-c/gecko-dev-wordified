@@ -923,7 +923,7 @@ WorkerDebugger
 *
 mDebugger
 ;
-nsString
+nsCString
 mFilename
 ;
 uint32_t
@@ -940,7 +940,7 @@ WorkerDebugger
 *
 aDebugger
 const
-nsAString
+nsACString
 &
 aFilename
 uint32_t
@@ -2205,7 +2205,7 @@ WorkerDebugger
 ReportErrorToDebugger
 (
 const
-nsAString
+nsACString
 &
 aFilename
 uint32_t
@@ -2281,7 +2281,7 @@ WorkerDebugger
 ReportErrorToDebuggerOnMainThread
 (
 const
-nsAString
+nsACString
 &
 aFilename
 uint32_t

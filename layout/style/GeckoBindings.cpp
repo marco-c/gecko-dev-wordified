@@ -9567,12 +9567,6 @@ suffix
 const
 char
 *
-source
-uint32_t
-sourceLen
-const
-char
-*
 selectors
 uint32_t
 selectorsLen
@@ -9713,13 +9707,6 @@ suffix
 ;
 }
 nsDependentCSubstring
-sourceValue
-(
-source
-sourceLen
-)
-;
-nsDependentCSubstring
 selectorsValue
 (
 selectors
@@ -9730,7 +9717,6 @@ reporter
 .
 OutputError
 (
-sourceValue
 selectorsValue
 lineNumber
 +

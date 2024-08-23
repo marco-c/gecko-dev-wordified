@@ -4931,7 +4931,7 @@ lineNumber
 =
 0
 ;
-nsString
+nsAutoCString
 sourceName
 ;
 nsCOMPtr
@@ -4997,10 +4997,6 @@ NS_ConvertUTF8toUTF16
 newMessage
 )
 sourceName
-u
-"
-"
-_ns
 lineNumber
 0
 0
