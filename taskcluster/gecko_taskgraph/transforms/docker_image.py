@@ -347,6 +347,15 @@ str
         
 Optional
 (
+"
+arch
+"
+)
+:
+str
+        
+Optional
+(
             
 "
 index
@@ -870,6 +879,45 @@ else
 10
 "
         
+if
+task
+.
+get
+(
+"
+arch
+"
+"
+"
+)
+=
+=
+"
+arm64
+"
+:
+            
+worker_type
+=
+"
+images
+-
+gcp
+-
+aarch64
+"
+        
+else
+:
+            
+worker_type
+=
+"
+images
+-
+gcp
+"
+        
 #
 include
 some
@@ -1017,11 +1065,7 @@ worker
 type
 "
 :
-"
-images
--
-gcp
-"
+worker_type
             
 "
 worker
@@ -1377,6 +1421,39 @@ IMAGE_BUILDER_IMAGE
 else
 :
             
+if
+task
+.
+get
+(
+"
+arch
+"
+"
+"
+)
+=
+=
+"
+arm64
+"
+:
+                
+image_builder
+=
+"
+image_builder_arm64
+"
+            
+else
+:
+                
+image_builder
+=
+"
+image_builder
+"
+            
 worker
 [
 "
@@ -1393,9 +1470,7 @@ in
 tree
 "
 :
-"
 image_builder
-"
 }
             
 deps
@@ -1428,7 +1503,9 @@ config
 kind
 }
 -
+{
 image_builder
+}
 "
         
 if
