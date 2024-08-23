@@ -244,7 +244,7 @@ Vector
 OutOfLineCode
 *
 0
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 outOfLineCode_
 ;
@@ -356,7 +356,7 @@ Vector
 <
 CodegenSafepointIndex
 0
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 safepointIndices_
 ;
@@ -367,7 +367,7 @@ Vector
 <
 OsiIndex
 0
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 osiIndices_
 ;
@@ -387,7 +387,7 @@ Vector
 <
 uint8_t
 0
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 runtimeData_
 ;
@@ -411,7 +411,7 @@ Vector
 <
 uint32_t
 0
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 icList_
 ;
@@ -450,7 +450,7 @@ Vector
 <
 CompileTimeICInfo
 0
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 icInfo_
 ;
@@ -463,7 +463,7 @@ Vector
 <
 NativeToBytecode
 0
-SystemAllocPolicy
+BackgroundSystemAllocPolicy
 >
 nativeToBytecodeList_
 ;

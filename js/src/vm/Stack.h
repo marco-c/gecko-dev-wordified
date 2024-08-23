@@ -5618,6 +5618,10 @@ InterpreterStack
 allocator_
 (
 DEFAULT_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 frameCount_
 (

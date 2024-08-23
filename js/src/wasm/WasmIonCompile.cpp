@@ -66926,6 +66926,10 @@ TempAllocator
 :
 :
 PreferredLifoChunkSize
+js
+:
+:
+BackgroundMallocArena
 )
 ;
 TempAllocator

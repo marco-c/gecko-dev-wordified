@@ -3727,6 +3727,10 @@ JSContext
 :
 :
 TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+BackgroundMallocArena
 )
 lifoBlocksToFreeAfterFullMinorGC
 (
@@ -3737,6 +3741,10 @@ JSContext
 :
 :
 TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+BackgroundMallocArena
 )
 lifoBlocksToFreeAfterNextMinorGC
 (
@@ -3747,6 +3755,10 @@ JSContext
 :
 :
 TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+BackgroundMallocArena
 )
 sweepGroupIndex
 (

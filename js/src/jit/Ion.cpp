@@ -10709,6 +10709,10 @@ TempAllocator
 :
 :
 PreferredLifoChunkSize
+js
+:
+:
+MallocArena
 )
 ;
 if

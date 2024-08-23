@@ -211,6 +211,10 @@ lifo
 128
 *
 1024
+js
+:
+:
+MallocArena
 )
 alloc
 (

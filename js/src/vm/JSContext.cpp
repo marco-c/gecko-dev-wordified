@@ -6251,6 +6251,10 @@ this
 size_t
 )
 TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 debuggerMutations
 (

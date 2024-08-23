@@ -8590,6 +8590,10 @@ fc
 validationLifo_
 (
 VALIDATION_LIFO_DEFAULT_CHUNK_SIZE
+js
+:
+:
+MallocArena
 )
 funcDefs_
 (

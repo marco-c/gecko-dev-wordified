@@ -2665,6 +2665,10 @@ JitcodeGlobalTable
 alloc_
 (
 LIFO_CHUNK_SIZE
+js
+:
+:
+BackgroundMallocArena
 )
 tree_
 (

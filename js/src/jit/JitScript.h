@@ -1439,6 +1439,10 @@ LifoAlloc
 allocSitesSpace_
 {
 AllocSiteChunkSize
+js
+:
+:
+BackgroundMallocArena
 }
 ;
 Vector

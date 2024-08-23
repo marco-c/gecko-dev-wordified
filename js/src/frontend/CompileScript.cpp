@@ -776,6 +776,10 @@ JSContext
 :
 :
 TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+BackgroundMallocArena
 )
 ;
 RefPtr
@@ -925,6 +929,10 @@ JSContext
 :
 :
 TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+js
+:
+:
+BackgroundMallocArena
 )
 ;
 RefPtr

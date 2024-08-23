@@ -13400,6 +13400,10 @@ LifoAlloc
 lifo
 (
 BUILTIN_THUNK_LIFO_SIZE
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator

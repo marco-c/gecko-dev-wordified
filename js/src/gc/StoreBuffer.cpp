@@ -313,6 +313,10 @@ LifoAlloc
 >
 (
 LifoAllocBlockSize
+js
+:
+:
+MallocArena
 )
 ;
 /
@@ -393,6 +397,10 @@ LifoAlloc
 >
 (
 LifoAllocBlockSize
+js
+:
+:
+MallocArena
 )
 ;
 }

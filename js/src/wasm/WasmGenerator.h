@@ -985,6 +985,10 @@ state
 lifo
 (
 defaultChunkSize
+js
+:
+:
+MallocArena
 )
 {
 }

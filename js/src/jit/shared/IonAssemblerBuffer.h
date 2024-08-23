@@ -1041,6 +1041,10 @@ finger_offset
 lifoAlloc_
 (
 8192
+js
+:
+:
+BackgroundMallocArena
 )
 {
 }

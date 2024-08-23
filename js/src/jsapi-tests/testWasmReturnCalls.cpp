@@ -205,6 +205,10 @@ LifoAlloc
 lifo
 (
 4096
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator
@@ -419,6 +423,10 @@ LifoAlloc
 lifo
 (
 4096
+js
+:
+:
+MallocArena
 )
 ;
 TempAllocator

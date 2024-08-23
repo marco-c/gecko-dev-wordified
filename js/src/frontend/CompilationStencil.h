@@ -8566,6 +8566,10 @@ source
 alloc
 (
 LifoAllocChunkSize
+js
+:
+:
+BackgroundMallocArena
 )
 source
 (
@@ -9574,6 +9578,10 @@ CompilationStencil
 :
 :
 LifoAllocChunkSize
+js
+:
+:
+BackgroundMallocArena
 )
 source
 (
