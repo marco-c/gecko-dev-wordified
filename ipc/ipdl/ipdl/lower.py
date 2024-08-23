@@ -6151,7 +6151,7 @@ __init__
 self
 ipdltype
 "
-V
+mV
 "
 +
 flatname
@@ -6323,21 +6323,10 @@ else
 :
             
 return
-Type
-(
-"
-mozilla
-:
-:
-AlignedStorage2
-"
-T
-=
 self
 .
 internalType
 (
-)
 )
     
 def
@@ -6347,35 +6336,9 @@ self
 )
 :
         
-#
-NB
-:
-knows
-that
-Union
-'
-s
-storage
-C
-union
-is
-named
-|
-mValue
-|
-        
 return
-ExprSelect
-(
 ExprVar
 (
-"
-mValue
-"
-)
-"
-.
-"
 self
 .
 name
@@ -6808,18 +6771,9 @@ else
 :
             
 return
-ExprCall
-(
-ExprSelect
+ExprAddrOf
 (
 v
-"
-.
-"
-"
-addr
-"
-)
 )
     
 def
@@ -6851,36 +6805,11 @@ constType
 "
 "
         
-v
-=
+return
 self
 .
-unionValue
+ptrToSelfExpr
 (
-)
-        
-if
-self
-.
-recursive
-:
-            
-return
-v
-        
-return
-ExprCall
-(
-ExprSelect
-(
-v
-"
-.
-"
-"
-addr
-"
-)
 )
     
 def
@@ -19494,30 +19423,12 @@ Type
 "
 )
     
-valuetype
-=
-Type
-(
-"
-Value
-"
-)
-    
 mtypevar
 =
 ExprVar
 (
 "
 mType
-"
-)
-    
-mvaluevar
-=
-ExprVar
-(
-"
-mValue
 "
 )
     
@@ -19898,13 +19809,10 @@ use
 for
 storage
     
-valueunion
+valuetype
 =
 TypeUnion
 (
-valuetype
-.
-name
 )
     
 for
@@ -19915,7 +19823,7 @@ ud
 components
 :
         
-valueunion
+valuetype
 .
 addComponent
 (
@@ -19927,26 +19835,6 @@ unionType
 c
 .
 name
-)
-    
-cls
-.
-addstmts
-(
-[
-StmtDecl
-(
-Decl
-(
-valueunion
-"
-"
-)
-)
-Whitespace
-.
-NL
-]
 )
     
 #
@@ -23028,9 +22916,8 @@ StmtDecl
 Decl
 (
 valuetype
-mvaluevar
-.
-name
+"
+"
 )
 )
             
