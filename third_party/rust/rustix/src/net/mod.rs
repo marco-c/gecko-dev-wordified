@@ -171,6 +171,17 @@ windows
 mod
 wsa
 ;
+#
+[
+cfg
+(
+linux_kernel
+)
+]
+pub
+mod
+netdevice
+;
 pub
 mod
 sockopt

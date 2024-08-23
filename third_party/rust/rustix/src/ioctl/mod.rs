@@ -2770,6 +2770,11 @@ haiku
 target_os
 =
 "
+horizon
+"
+target_os
+=
+"
 hurd
 "
 target_os

@@ -95,7 +95,15 @@ port
 [
 cfg
 (
+any
+(
 linux_kernel
+target_os
+=
+"
+redox
+"
+)
 )
 ]
 pub

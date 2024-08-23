@@ -1508,6 +1508,13 @@ libc
 :
 *
 ;
+#
+[
+allow
+(
+dead_code
+)
+]
 trait
 AsSyscallArg
 {

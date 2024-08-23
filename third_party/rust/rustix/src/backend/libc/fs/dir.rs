@@ -1033,7 +1033,7 @@ to
 try
 to
 read
-anyting
+anything
 further
 .
 if

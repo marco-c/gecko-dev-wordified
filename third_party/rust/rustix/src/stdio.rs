@@ -1598,9 +1598,9 @@ Warning
 This
 function
 allows
-reading
+writing
 directly
-from
+to
 stdout
 without
 coordinating
@@ -1629,7 +1629,7 @@ cause
 /
 /
 corrupted
-input
+output
 .
 /
 /
@@ -2110,9 +2110,9 @@ Warning
 This
 function
 allows
-reading
+writing
 directly
-from
+to
 stdout
 without
 coordinating
@@ -2141,7 +2141,7 @@ cause
 /
 /
 corrupted
-input
+output
 .
 /
 /

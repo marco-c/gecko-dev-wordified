@@ -382,7 +382,7 @@ Rust
 /
 /
 /
-aplication
+application
 or
 pidfd_getfd
 is

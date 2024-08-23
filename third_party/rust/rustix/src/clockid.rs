@@ -1129,8 +1129,12 @@ cfg
 (
 any
 (
-freebsdlike
 linux_kernel
+target_os
+=
+"
+freebsd
+"
 target_os
 =
 "

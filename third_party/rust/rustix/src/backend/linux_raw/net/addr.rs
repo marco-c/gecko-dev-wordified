@@ -88,12 +88,6 @@ use
 core
 :
 :
-fmt
-;
-use
-core
-:
-:
 hash
 :
 :
@@ -106,7 +100,10 @@ use
 core
 :
 :
+{
+fmt
 slice
+}
 ;
 /
 /
