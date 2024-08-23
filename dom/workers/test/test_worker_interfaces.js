@@ -1336,9 +1336,6 @@ name
 "
 AudioDecoder
 "
-android
-:
-false
 }
 /
 /
@@ -1362,9 +1359,6 @@ name
 "
 AudioEncoder
 "
-android
-:
-false
 }
 /
 /
@@ -4285,9 +4279,6 @@ VideoColorSpace
 insecureContext
 :
 true
-android
-:
-false
 }
 /
 /
@@ -4311,9 +4302,6 @@ name
 "
 VideoDecoder
 "
-android
-:
-false
 }
 /
 /
@@ -4337,9 +4325,6 @@ name
 "
 VideoEncoder
 "
-android
-:
-false
 }
 /
 /
@@ -4366,9 +4351,6 @@ VideoFrame
 insecureContext
 :
 true
-android
-:
-false
 }
 /
 /
