@@ -2321,6 +2321,14 @@ import
 "
 )
 \
+MACRO_
+(
+importedStringConstants
+"
+importedStringConstants
+"
+)
+\
 MACRO2
 (
 in
