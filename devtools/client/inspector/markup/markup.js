@@ -3452,6 +3452,17 @@ _enableImagePreviewTooltip
 (
 )
 {
+if
+(
+!
+this
+.
+imagePreviewTooltip
+)
+{
+return
+;
+}
 this
 .
 imagePreviewTooltip
