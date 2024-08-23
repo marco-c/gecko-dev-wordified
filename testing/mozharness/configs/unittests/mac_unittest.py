@@ -128,9 +128,6 @@ EXE_SUFFIX
 =
 "
 "
-DISABLE_SCREEN_SAVER
-=
-False
 ADJUST_MOUSE_AND_SCREEN
 =
 False
@@ -1807,21 +1804,36 @@ cmd
 "
 :
 [
+                
 "
-xset
+defaults
 "
+                
 "
-s
+-
+currentHost
 "
+                
 "
-off
+write
 "
+                
 "
-s
+com
+.
+apple
+.
+screensaver
 "
+                
 "
-reset
+idleTime
 "
+                
+"
+0
+"
+            
 ]
             
 "
@@ -1847,7 +1859,7 @@ False
 enabled
 "
 :
-DISABLE_SCREEN_SAVER
+True
         
 }
         
