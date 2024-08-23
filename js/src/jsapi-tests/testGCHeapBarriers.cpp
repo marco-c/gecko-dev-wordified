@@ -245,6 +245,17 @@ h
 #
 include
 "
+gc
+/
+Heap
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext
