@@ -283,12 +283,6 @@ js
 :
 gc
 ;
-using
-mozilla
-:
-:
-DebugOnly
-;
 template
 void
 RuntimeScopeData

@@ -238,7 +238,6 @@ h
 /
 for
 TimeStamp
-TimeDuration
 #
 include
 "
@@ -984,7 +983,6 @@ h
 /
 /
 for
-SourceOwnership
 SourceText
 #
 include
@@ -1874,18 +1872,6 @@ using
 JS
 :
 :
-SourceOwnership
-;
-using
-JS
-:
-:
-SourceText
-;
-using
-JS
-:
-:
 dbg
 :
 :
@@ -1935,12 +1921,6 @@ mozilla
 :
 :
 Some
-;
-using
-mozilla
-:
-:
-TimeDuration
 ;
 using
 mozilla

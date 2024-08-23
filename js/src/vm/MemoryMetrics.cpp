@@ -329,12 +329,6 @@ mozilla
 MallocSizeOf
 ;
 using
-mozilla
-:
-:
-PodCopy
-;
-using
 namespace
 js
 ;

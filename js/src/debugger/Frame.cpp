@@ -211,7 +211,6 @@ h
 /
 /
 for
-MakeScopeExit
 ScopeExit
 #
 include
@@ -1179,12 +1178,6 @@ JS
 :
 :
 SourceText
-;
-using
-mozilla
-:
-:
-MakeScopeExit
 ;
 using
 mozilla

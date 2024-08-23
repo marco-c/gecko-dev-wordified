@@ -316,12 +316,6 @@ using
 mozilla
 :
 :
-CheckedInt32
-;
-using
-mozilla
-:
-:
 IsUtf8
 ;
 using

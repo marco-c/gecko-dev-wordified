@@ -307,12 +307,6 @@ js
 :
 frontend
 ;
-using
-mozilla
-:
-:
-Maybe
-;
 const
 char
 *

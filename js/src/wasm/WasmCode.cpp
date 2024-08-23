@@ -387,12 +387,6 @@ mozilla
 :
 MakeEnumeratedRange
 ;
-using
-mozilla
-:
-:
-PodAssign
-;
 size_t
 LinkData
 :

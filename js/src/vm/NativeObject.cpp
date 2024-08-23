@@ -401,12 +401,6 @@ namespace
 js
 ;
 using
-JS
-:
-:
-AutoCheckCannotGC
-;
-using
 mozilla
 :
 :

@@ -352,12 +352,6 @@ mozilla
 :
 IntegerRange
 ;
-using
-mozilla
-:
-:
-PodCopy
-;
 /
 /
 [

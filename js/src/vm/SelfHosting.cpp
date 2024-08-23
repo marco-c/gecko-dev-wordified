@@ -1020,12 +1020,6 @@ JS
 :
 CompileOptions
 ;
-using
-mozilla
-:
-:
-Maybe
-;
 static
 bool
 intrinsic_ToObject

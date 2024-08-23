@@ -869,15 +869,6 @@ mozilla
 :
 NumberEqualsInt32
 ;
-using
-js
-:
-:
-jit
-:
-:
-JitScript
-;
 template
 <
 bool

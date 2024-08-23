@@ -563,12 +563,6 @@ js
 :
 AutoRealm
 using
-JS
-:
-:
-ToInt32
-;
-using
 js
 :
 :
@@ -591,12 +585,6 @@ mozilla
 :
 :
 Atomic
-;
-using
-mozilla
-:
-:
-CheckedInt
 ;
 using
 mozilla

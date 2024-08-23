@@ -591,12 +591,6 @@ JS
 GenericNaN
 ;
 using
-JS
-:
-:
-ToInt32
-;
-using
 mozilla
 :
 :
