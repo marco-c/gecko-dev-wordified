@@ -1900,12 +1900,14 @@ false
 Whether
 to
 parse
-the
+:
+is
+and
 :
 where
 pseudo
 -
-class
+classes
 .
 fn
 parse_is_and_where
