@@ -551,9 +551,13 @@ GetInstance
 ;
 if
 (
+!
 pm
 )
 {
+return
+;
+}
 /
 /
 As
@@ -652,7 +656,6 @@ false
 aTriggerEvent
 )
 ;
-}
 }
 void
 XULPopupElement
