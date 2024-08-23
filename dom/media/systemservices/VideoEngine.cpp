@@ -400,9 +400,7 @@ LOG
 (
 (
 "
-CaptureDeviceInfo
-.
-type
+CaptureDeviceType
 =
 %
 s
@@ -413,9 +411,7 @@ d
 "
 EnumValueToString
 (
-mCaptureDevInfo
-.
-type
+mCaptureDevType
 )
 id
 )
@@ -514,9 +510,7 @@ CreateVideoCapture
 (
 id
 aDeviceUniqueIdUTF8
-mCaptureDevInfo
-.
-type
+mCaptureDevType
 )
 ;
 entry
@@ -810,9 +804,7 @@ capDevTypeName
 =
 EnumValueToString
 (
-mCaptureDevInfo
-.
-type
+mCaptureDevType
 )
 ;
 if
@@ -845,9 +837,7 @@ detection
 elsewhere
 if
 (
-mCaptureDevInfo
-.
-type
+mCaptureDevType
 =
 =
 CaptureDeviceType
@@ -1056,9 +1046,7 @@ ifdef
 MOZ_WIDGET_ANDROID
 if
 (
-mCaptureDevInfo
-.
-type
+mCaptureDevType
 =
 =
 CaptureDeviceType
@@ -1102,9 +1090,7 @@ mVideoCaptureFactory
 CreateDeviceInfo
 (
 mId
-mCaptureDevInfo
-.
-type
+mCaptureDevType
 )
 ;
 LOG
@@ -1533,7 +1519,7 @@ mId
 (
 0
 )
-mCaptureDevInfo
+mCaptureDevType
 (
 aCaptureDeviceType
 )
@@ -1582,9 +1568,7 @@ s
 "
 EnumValueToString
 (
-mCaptureDevInfo
-.
-type
+mCaptureDevType
 )
 )
 )
