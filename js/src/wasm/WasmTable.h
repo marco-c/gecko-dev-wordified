@@ -381,6 +381,10 @@ but
 not
 both
 const
+IndexType
+indexType_
+;
+const
 RefType
 elemType_
 ;
@@ -503,6 +507,16 @@ JSTracer
 trc
 )
 ;
+IndexType
+indexType
+(
+)
+const
+{
+return
+indexType_
+;
+}
 RefType
 elemType
 (
