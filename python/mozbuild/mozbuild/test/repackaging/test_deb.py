@@ -101,6 +101,7 @@ mozbuild
 repackaging
 import
 deb
+desktop_file
 _APPLICATION_INI_CONTENT
 =
 "
@@ -4121,7 +4122,7 @@ monkeypatch
 .
 setattr
 (
-deb
+desktop_file
 .
 requests
 "
@@ -4275,7 +4276,7 @@ monkeypatch
 setattr
 (
         
-deb
+desktop_file
 .
 json
         
@@ -4345,9 +4346,9 @@ nightly
     
 desktop_entry_file_text
 =
-deb
+desktop_file
 .
-_generate_browser_desktop_entry_file_text
+generate_browser_desktop_entry_file_text
 (
         
 log
@@ -4400,9 +4401,9 @@ beta
     
 desktop_entry_file_text
 =
-deb
+desktop_file
 .
-_generate_browser_desktop_entry_file_text
+generate_browser_desktop_entry_file_text
 (
         
 log
@@ -4450,7 +4451,7 @@ monkeypatch
 .
 setattr
 (
-deb
+desktop_file
 .
 requests
 "
@@ -4464,7 +4465,7 @@ pytest
 .
 raises
 (
-deb
+desktop_file
 .
 HgServerError
 )
@@ -4472,9 +4473,9 @@ HgServerError
         
 desktop_entry_file_text
 =
-deb
+desktop_file
 .
-_generate_browser_desktop_entry_file_text
+generate_browser_desktop_entry_file_text
 (
             
 log
