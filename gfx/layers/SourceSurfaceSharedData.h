@@ -123,6 +123,15 @@ MOZILLA_GFX_SOURCESURFACESHAREDDATA_H_
 #
 include
 "
+base
+/
+process
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -147,7 +156,7 @@ mozilla
 /
 ipc
 /
-SharedMemoryBasic
+SharedMemory
 .
 h
 "
@@ -303,7 +312,7 @@ mBuf
 is
 a
 new
-SharedMemoryBasic
+SharedMemory
 object
 which
 *
@@ -335,8 +344,8 @@ mozilla
 ipc
 :
 :
-SharedMemoryBasic
-SharedMemoryBasic
+SharedMemory
+SharedMemory
 ;
 public
 :
@@ -385,7 +394,7 @@ int32_t
 aStride
 SurfaceFormat
 aFormat
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -481,7 +490,7 @@ uint8_t
 mBuf
 -
 >
-memory
+Memory
 (
 )
 )
@@ -708,7 +717,7 @@ mSize
 ;
 RefPtr
 <
-SharedMemoryBasic
+SharedMemory
 >
 mBuf
 ;
@@ -766,8 +775,8 @@ mozilla
 ipc
 :
 :
-SharedMemoryBasic
-SharedMemoryBasic
+SharedMemory
+SharedMemory
 ;
 public
 :
@@ -1236,7 +1245,7 @@ share
 nsresult
 CloneHandle
 (
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -1909,13 +1918,13 @@ mSize
 ;
 RefPtr
 <
-SharedMemoryBasic
+SharedMemory
 >
 mBuf
 ;
 RefPtr
 <
-SharedMemoryBasic
+SharedMemory
 >
 mOldBuf
 ;

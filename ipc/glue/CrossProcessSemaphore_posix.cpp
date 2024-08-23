@@ -218,7 +218,7 @@ RefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 sharedBuffer
 =
@@ -226,7 +226,7 @@ new
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 ;
 if
 (
@@ -279,7 +279,7 @@ SemaphoreData
 sharedBuffer
 -
 >
-memory
+Memory
 (
 )
 )
@@ -388,7 +388,7 @@ RefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 sharedBuffer
 =
@@ -396,7 +396,7 @@ new
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 ;
 if
 (
@@ -482,7 +482,7 @@ SemaphoreData
 sharedBuffer
 -
 >
-memory
+Memory
 (
 )
 )
@@ -901,7 +901,7 @@ result
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 :
 :
 NULLHandle

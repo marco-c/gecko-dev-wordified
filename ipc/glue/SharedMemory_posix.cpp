@@ -170,8 +170,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 #
@@ -378,9 +378,7 @@ endif
 /
 /
 namespace
-ipc
-}
-/
-/
-namespace
 mozilla
+:
+:
+ipc

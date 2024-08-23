@@ -1173,7 +1173,7 @@ CanvasDataShmemHolder
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 *
 aShmem
 CanvasChild
@@ -1615,7 +1615,7 @@ RefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 mShmem
 ;
@@ -2642,7 +2642,7 @@ MakeRefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 (
 )
@@ -3061,7 +3061,7 @@ second
 mSnapshotShmem
 -
 >
-memory
+Memory
 (
 )
 )
@@ -3290,7 +3290,7 @@ uint8_t
 mDataSurfaceShmem
 -
 >
-memory
+Memory
 (
 )
 )
@@ -3434,7 +3434,7 @@ already_AddRefed
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 aDataSurfaceShmem
 )
@@ -3444,7 +3444,7 @@ RefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 data
 =
@@ -3750,7 +3750,7 @@ MakeRefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 (
 )

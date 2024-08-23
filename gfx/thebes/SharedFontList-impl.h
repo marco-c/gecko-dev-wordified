@@ -172,7 +172,7 @@ windows
 h
 >
 via
-SharedMemoryBasic
+SharedMemory
 .
 h
 .
@@ -182,9 +182,9 @@ header
 which
 defines
 the
-/
-/
 actual
+/
+/
 shared
 -
 memory

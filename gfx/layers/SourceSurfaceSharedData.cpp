@@ -289,7 +289,7 @@ int32_t
 aStride
 SurfaceFormat
 aFormat
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -334,7 +334,7 @@ mBuf
 =
 MakeAndAddRef
 <
-SharedMemoryBasic
+SharedMemory
 >
 (
 )
@@ -952,7 +952,7 @@ GetAlignedDataLength
 mBuf
 =
 new
-SharedMemoryBasic
+SharedMemory
 (
 )
 ;
@@ -1187,7 +1187,7 @@ uint8_t
 mOldBuf
 -
 >
-memory
+Memory
 (
 )
 )
@@ -1203,7 +1203,7 @@ uint8_t
 mBuf
 -
 >
-memory
+Memory
 (
 )
 )
@@ -1215,7 +1215,7 @@ SourceSurfaceSharedData
 :
 CloneHandle
 (
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -1436,12 +1436,12 @@ GetAlignedDataLength
 ;
 RefPtr
 <
-SharedMemoryBasic
+SharedMemory
 >
 buf
 =
 new
-SharedMemoryBasic
+SharedMemory
 (
 )
 ;
@@ -1489,13 +1489,13 @@ memcpy
 buf
 -
 >
-memory
+Memory
 (
 )
 mBuf
 -
 >
-memory
+Memory
 (
 )
 copyLen
@@ -1518,7 +1518,7 @@ char
 buf
 -
 >
-memory
+Memory
 (
 )
 )
@@ -1616,7 +1616,7 @@ char
 mBuf
 -
 >
-memory
+Memory
 (
 )
 )
