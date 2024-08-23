@@ -83493,15 +83493,6 @@ aFrame
 IsSubtreeDirty
 (
 )
-|
-|
-!
-StaticPrefs
-:
-:
-layout_css_content_visibility_enabled
-(
-)
 )
 {
 return
