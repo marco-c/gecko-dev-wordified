@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 .
 h
 "
@@ -130,11 +130,11 @@ dom
 :
 quota
 {
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 :
 :
 ~
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 (
 )
 {
@@ -147,7 +147,7 @@ RefPtr
 <
 BoolPromise
 >
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 :
 :
 OnCancel
@@ -168,7 +168,7 @@ __func__
 ;
 }
 void
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 :
 :
 Destroy
@@ -200,7 +200,7 @@ this
 }
 }
 void
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 :
 :
 ActorDestroy
@@ -229,7 +229,7 @@ ipc
 :
 :
 IPCResult
-QuotaUsageRequestBase
+QuotaUsageRequestParent
 :
 :
 RecvCancel
