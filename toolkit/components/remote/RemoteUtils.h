@@ -226,7 +226,6 @@ ConstructCommandLine
 (
 int32_t
 argc
-const
 char
 *
 *
