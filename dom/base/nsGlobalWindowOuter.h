@@ -4942,8 +4942,6 @@ aOptions
 bool
 aDialog
 bool
-aContentModal
-bool
 aCalledNoScript
 bool
 aDoJSFixups
