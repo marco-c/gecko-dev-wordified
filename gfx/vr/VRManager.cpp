@@ -6375,7 +6375,6 @@ mDisplayInfo
 .
 mDisplayState
 mLastSensorState
-&
 mDisplayInfo
 .
 mControllerState

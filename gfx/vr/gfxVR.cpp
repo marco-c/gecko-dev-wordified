@@ -544,10 +544,6 @@ Normalize
 memcpy
 (
 leftViewMatrix
-.
-data
-(
-)
 matView
 .
 components
@@ -580,10 +576,6 @@ Normalize
 memcpy
 (
 rightViewMatrix
-.
-data
-(
-)
 matView
 .
 components
@@ -734,10 +726,6 @@ components
 mDisplayState
 .
 sittingToStandingTransform
-.
-data
-(
-)
 sizeof
 (
 float
