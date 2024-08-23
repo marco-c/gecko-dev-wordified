@@ -767,6 +767,17 @@ return
 this
 ;
 }
+DXGITextureHostD3D11
+*
+AsDXGITextureHostD3D11
+(
+)
+override
+{
+return
+mTextureHostD3D11
+;
+}
 void
 PostTask
 (

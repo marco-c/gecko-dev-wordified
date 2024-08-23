@@ -411,6 +411,13 @@ AsBufferTextureHost
 )
 override
 ;
+DXGITextureHostD3D11
+*
+AsDXGITextureHostD3D11
+(
+)
+override
+;
 bool
 IsWrappingSurfaceTextureHost
 (
