@@ -52,8 +52,9 @@ resource
 :
 {
 DestroyedResourceError
-Resource
+ParentDevice
 Texture
+Trackable
 }
 snatch
 :
@@ -1302,10 +1303,6 @@ entry
 buffer_use
 .
 buffer
-.
-as_info
-(
-)
 .
 tracker_index
 (

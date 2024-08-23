@@ -1531,6 +1531,11 @@ instance
 .
 enumerate_adapters
 (
+Some
+(
+&
+surface
+)
 )
 ;
 if
@@ -1651,6 +1656,14 @@ Limits
 default
 (
 )
+&
+wgt
+:
+:
+MemoryHints
+:
+:
+Performance
 )
 .
 unwrap

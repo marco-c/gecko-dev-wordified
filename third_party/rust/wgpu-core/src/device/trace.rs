@@ -1083,7 +1083,7 @@ crate
 command
 :
 :
-ComputePassTimestampWrites
+PassTimestampWrites
 >
 }
 RunRenderPass
@@ -1143,7 +1143,7 @@ crate
 command
 :
 :
-RenderPassTimestampWrites
+PassTimestampWrites
 >
 occlusion_query_set_id
 :

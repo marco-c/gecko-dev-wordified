@@ -178,7 +178,7 @@ ComputePassError
 >
 ;
 fn
-set_push_constant
+set_push_constants
 (
 &
 mut
@@ -586,7 +586,7 @@ pipeline_id
 )
 }
 fn
-set_push_constant
+set_push_constants
 (
 &
 mut
@@ -619,7 +619,7 @@ ComputePassError
 {
 context
 .
-compute_pass_set_push_constant
+compute_pass_set_push_constants
 (
 self
 offset

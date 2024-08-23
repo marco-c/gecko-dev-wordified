@@ -2935,7 +2935,7 @@ requestedValue
 ffi
 :
 :
-WGPUDeviceDescriptor
+WGPUFfiDeviceDescriptor
 ffiDesc
 =
 {

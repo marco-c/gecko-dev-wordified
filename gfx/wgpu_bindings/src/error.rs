@@ -2127,7 +2127,7 @@ error_type
 CreatePipelineLayoutError
 :
 :
-InvalidBindGroupLayout
+InvalidBindGroupLayoutId
 (
 _
 )
@@ -2265,7 +2265,7 @@ _
 CreateBindGroupError
 :
 :
-InvalidSampler
+InvalidSamplerId
 (
 _
 )
@@ -3355,20 +3355,6 @@ SameSourceDestinationBuffer
 TransferError
 :
 :
-MissingCopySrcUsageFlag
-|
-TransferError
-:
-:
-MissingCopyDstUsageFlag
-(
-_
-_
-)
-|
-TransferError
-:
-:
 MissingRenderAttachmentUsageFlag
 (
 _
@@ -3721,7 +3707,7 @@ _
 QueryError
 :
 :
-InvalidQuerySet
+InvalidQuerySetId
 (
 _
 )

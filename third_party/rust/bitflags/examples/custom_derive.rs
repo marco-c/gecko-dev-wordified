@@ -48,7 +48,7 @@ accept
 custom
 derives
 for
-libaries
+libraries
 bitflags
 doesn
 '
@@ -67,6 +67,10 @@ zerocopy
 :
 :
 FromBytes
+zerocopy
+:
+:
+FromZeroes
 )
 ]
 #

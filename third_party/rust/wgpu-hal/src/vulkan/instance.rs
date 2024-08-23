@@ -6423,6 +6423,16 @@ enumerate_adapters
 (
 &
 self
+_surface_hint
+:
+Option
+<
+&
+super
+:
+:
+Surface
+>
 )
 -
 >
