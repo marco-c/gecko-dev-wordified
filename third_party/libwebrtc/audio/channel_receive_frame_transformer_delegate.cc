@@ -116,8 +116,6 @@ h
 namespace
 webrtc
 {
-namespace
-{
 class
 TransformableIncomingAudioFrame
 :
@@ -152,6 +150,12 @@ string
 codec_mime_type
 )
 :
+TransformableAudioFrameInterface
+(
+Passkey
+(
+)
+)
 payload_
 (
 payload
@@ -558,10 +562,6 @@ codec_mime_type_
 ;
 }
 ;
-}
-/
-/
-namespace
 ChannelReceiveFrameTransformerDelegate
 :
 :
