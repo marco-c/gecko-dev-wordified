@@ -9945,6 +9945,16 @@ return
 nullptr
 ;
 }
+if
+(
+clasp
+-
+>
+specShouldDefineConstructor
+(
+)
+)
+{
 RootedId
 id
 (
@@ -9982,6 +9992,7 @@ value
 return
 nullptr
 ;
+}
 }
 if
 (
