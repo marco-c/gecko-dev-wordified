@@ -2589,6 +2589,9 @@ IntrinsicForContainer
 aContext
 inner
 aType
+Nothing
+(
+)
 nsLayoutUtils
 :
 :

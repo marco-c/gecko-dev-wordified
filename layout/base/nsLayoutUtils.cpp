@@ -34212,6 +34212,13 @@ nsIFrame
 aFrame
 IntrinsicISizeType
 aType
+const
+Maybe
+<
+LogicalSize
+>
+&
+aPercentageBasis
 uint32_t
 aFlags
 )
@@ -34277,9 +34284,7 @@ axis
 aRenderingContext
 aFrame
 aType
-Nothing
-(
-)
+aPercentageBasis
 aFlags
 )
 ;
