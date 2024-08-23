@@ -2,6 +2,15 @@
 /
 META
 :
+global
+=
+window
+dedicatedworker
+sharedworker
+/
+/
+META
+:
 script
 =
 resources
