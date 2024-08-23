@@ -231,6 +231,14 @@ wake
 lock
 "
 _ns
+"
+camera
+"
+_ns
+"
+microphone
+"
+_ns
 /
 /
 clang
