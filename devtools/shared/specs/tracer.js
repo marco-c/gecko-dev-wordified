@@ -126,6 +126,11 @@ array
 :
 string
 "
+useNativeTracing
+:
+"
+boolean
+"
 }
 )
 ;
