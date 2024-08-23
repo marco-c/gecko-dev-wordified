@@ -348,12 +348,6 @@ RateControlSettings
 (
 )
 ;
-static
-RateControlSettings
-ParseFromFieldTrials
-(
-)
-;
 /
 /
 When
