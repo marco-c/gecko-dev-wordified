@@ -176,6 +176,10 @@ http3version
 reload
 )
 {
+do_get_profile
+(
+)
+;
 let
 h3Port
 ;
@@ -275,10 +279,6 @@ com
 "
 +
 h3Port
-;
-do_get_profile
-(
-)
 ;
 Services
 .
