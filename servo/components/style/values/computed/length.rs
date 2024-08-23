@@ -1480,6 +1480,11 @@ MozAvailable
 Self
 :
 :
+WebkitFillAvailable
+|
+Self
+:
+:
 Stretch
 |
 Self

@@ -5336,6 +5336,11 @@ IsStretch
 IsMozAvailable
 (
 )
+|
+|
+IsWebkitFillAvailable
+(
+)
 ;
 \
 }
