@@ -99,6 +99,11 @@ h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 string
 >
 #
@@ -140,6 +145,15 @@ logging
 rtc_event_log
 /
 rtc_event_log2_proto_include
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "

@@ -105,6 +105,11 @@ algorithm
 >
 #
 include
+<
+cstdint
+>
+#
+include
 "
 absl
 /
@@ -133,6 +138,15 @@ rtc_event_log
 events
 /
 rtc_event_field_extraction
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+checks
 .
 h
 "

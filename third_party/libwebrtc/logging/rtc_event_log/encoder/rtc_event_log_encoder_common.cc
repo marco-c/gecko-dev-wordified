@@ -100,6 +100,11 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 rtc_base
 /

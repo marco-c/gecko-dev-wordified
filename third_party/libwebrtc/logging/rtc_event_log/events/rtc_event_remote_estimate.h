@@ -94,7 +94,7 @@ LOGGING_RTC_EVENT_LOG_EVENTS_RTC_EVENT_REMOTE_ESTIMATE_H_
 #
 include
 <
-memory
+cstdint
 >
 #
 include
@@ -125,6 +125,15 @@ absl
 types
 /
 optional
+.
+h
+"
+#
+include
+"
+api
+/
+array_view
 .
 h
 "
@@ -170,7 +179,7 @@ rtc_event_log
 /
 events
 /
-rtc_event_field_encoding_parser
+rtc_event_log_parse_status
 .
 h
 "

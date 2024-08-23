@@ -93,6 +93,11 @@ define
 LOGGING_RTC_EVENT_LOG_EVENTS_FIXED_LENGTH_ENCODING_PARAMETERS_V3_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 absl
 /
