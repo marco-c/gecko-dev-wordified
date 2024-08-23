@@ -875,12 +875,8 @@ getValues
 [
 ]
 }
-getCssVariables
+cssVariables
 :
-(
-)
-=
->
 new
 Map
 (
