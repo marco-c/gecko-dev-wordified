@@ -796,7 +796,7 @@ error
 /
 Custom
 HTML
-properties
+attributes
 used
 in
 aboutwelcome
@@ -847,6 +847,9 @@ button
 "
 "
 fullscreen
+"
+"
+srcset
 "
 ]
 }

@@ -7924,7 +7924,7 @@ createElement
 source
 "
 {
-srcSet
+srcset
 :
 darkModeReducedMotionImageURL
 media
@@ -7972,7 +7972,7 @@ createElement
 source
 "
 {
-srcSet
+srcset
 :
 darkModeImageURL
 media
@@ -8010,7 +8010,7 @@ createElement
 source
 "
 {
-srcSet
+srcset
 :
 reducedMotionImageURL
 media
