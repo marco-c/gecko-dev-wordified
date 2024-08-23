@@ -115,6 +115,15 @@ enableAltText
 "
 ;
 const
+guessAltTextPref
+=
+"
+pdfjs
+.
+enableGuessAltText
+"
+;
+const
 browserMLPref
 =
 "
@@ -377,6 +386,10 @@ true
 ]
 [
 browserMLPref
+true
+]
+[
+guessAltTextPref
 true
 ]
 ]
