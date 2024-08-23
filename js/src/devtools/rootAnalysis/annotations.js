@@ -124,6 +124,16 @@ callback_newtable
 "
 :
 true
+"
+gLogAddRefFunc
+"
+:
+true
+"
+gLogReleaseFunc
+"
+:
+true
 }
 ;
 /
