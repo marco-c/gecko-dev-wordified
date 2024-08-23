@@ -116,9 +116,6 @@ or
 end
 .
 pub
-(
-crate
-)
 const
 MINIMUM_NSS_VERSION
 :

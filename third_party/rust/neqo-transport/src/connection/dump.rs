@@ -165,7 +165,7 @@ allow
 clippy
 :
 :
-module_name_repetitions
+too_many_arguments
 )
 ]
 pub
@@ -199,6 +199,9 @@ u8
 tos
 :
 IpTos
+len
+:
+usize
 )
 {
 if
@@ -368,6 +371,9 @@ type
 :
 ?
 }
+len
+{
+}
 {
 }
 "
@@ -379,6 +385,7 @@ borrow
 (
 )
 tos
+len
 s
 )
 ;

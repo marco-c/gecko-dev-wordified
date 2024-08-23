@@ -159,9 +159,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 WebTransportRecvStream
 {
@@ -705,9 +702,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 WebTransportSendStream
 {

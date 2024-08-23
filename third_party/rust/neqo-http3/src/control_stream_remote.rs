@@ -149,9 +149,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 ControlStreamRemote
 {

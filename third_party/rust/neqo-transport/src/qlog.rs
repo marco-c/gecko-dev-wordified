@@ -227,7 +227,6 @@ connection_tparams_set
 qlog
 :
 &
-mut
 NeqoQlog
 tph
 :
@@ -650,7 +649,6 @@ server_connection_started
 qlog
 :
 &
-mut
 NeqoQlog
 path
 :
@@ -672,7 +670,6 @@ client_connection_started
 qlog
 :
 &
-mut
 NeqoQlog
 path
 :
@@ -693,7 +690,6 @@ connection_started
 qlog
 :
 &
-mut
 NeqoQlog
 path
 :
@@ -906,7 +902,6 @@ connection_state_updated
 qlog
 :
 &
-mut
 NeqoQlog
 new
 :
@@ -1050,7 +1045,6 @@ client_version_information_initiated
 qlog
 :
 &
-mut
 NeqoQlog
 version_config
 :
@@ -1155,7 +1149,6 @@ client_version_information_negotiated
 qlog
 :
 &
-mut
 NeqoQlog
 client
 :
@@ -1292,7 +1285,6 @@ server_version_information_failed
 qlog
 :
 &
-mut
 NeqoQlog
 server
 :
@@ -1394,7 +1386,6 @@ packet_sent
 qlog
 :
 &
-mut
 NeqoQlog
 pt
 :
@@ -1608,7 +1599,6 @@ packet_dropped
 qlog
 :
 &
-mut
 NeqoQlog
 public_packet
 :
@@ -1720,7 +1710,6 @@ packets_lost
 qlog
 :
 &
-mut
 NeqoQlog
 pkts
 :
@@ -1823,7 +1812,6 @@ packet_received
 qlog
 :
 &
-mut
 NeqoQlog
 public_packet
 :
@@ -2104,7 +2092,6 @@ metrics_updated
 qlog
 :
 &
-mut
 NeqoQlog
 updated_metrics
 :
@@ -2611,7 +2598,7 @@ len
 )
 =
 >
-QuicFrame
+Self
 :
 :
 Padding
@@ -2635,7 +2622,7 @@ Frame
 Ping
 =
 >
-QuicFrame
+Self
 :
 :
 Ping
@@ -2724,7 +2711,7 @@ _
 }
 )
 ;
-QuicFrame
+Self
 :
 :
 Ack
@@ -2812,7 +2799,7 @@ final_size
 }
 =
 >
-QuicFrame
+Self
 :
 :
 ResetStream
@@ -2845,7 +2832,7 @@ application_error_code
 }
 =
 >
-QuicFrame
+Self
 :
 :
 StopSending
@@ -2877,7 +2864,7 @@ data
 }
 =
 >
-QuicFrame
+Self
 :
 :
 Crypto
@@ -2902,7 +2889,7 @@ token
 }
 =
 >
-QuicFrame
+Self
 :
 :
 NewToken
@@ -2977,7 +2964,7 @@ data
 }
 =
 >
-QuicFrame
+Self
 :
 :
 Stream
@@ -3018,7 +3005,7 @@ maximum_data
 }
 =
 >
-QuicFrame
+Self
 :
 :
 MaxData
@@ -3037,7 +3024,7 @@ maximum_stream_data
 }
 =
 >
-QuicFrame
+Self
 :
 :
 MaxStreamData
@@ -3063,7 +3050,7 @@ maximum_streams
 }
 =
 >
-QuicFrame
+Self
 :
 :
 MaxStreams
@@ -3107,7 +3094,7 @@ data_limit
 }
 =
 >
-QuicFrame
+Self
 :
 :
 DataBlocked
@@ -3126,7 +3113,7 @@ stream_data_limit
 }
 =
 >
-QuicFrame
+Self
 :
 :
 StreamDataBlocked
@@ -3152,7 +3139,7 @@ stream_limit
 }
 =
 >
-QuicFrame
+Self
 :
 :
 StreamsBlocked
@@ -3199,7 +3186,7 @@ stateless_reset_token
 }
 =
 >
-QuicFrame
+Self
 :
 :
 NewConnectionId
@@ -3251,7 +3238,7 @@ sequence_number
 }
 =
 >
-QuicFrame
+Self
 :
 :
 RetireConnectionId
@@ -3271,7 +3258,7 @@ data
 }
 =
 >
-QuicFrame
+Self
 :
 :
 PathChallenge
@@ -3295,7 +3282,7 @@ data
 }
 =
 >
-QuicFrame
+Self
 :
 :
 PathResponse
@@ -3321,7 +3308,7 @@ reason_phrase
 }
 =
 >
-QuicFrame
+Self
 :
 :
 ConnectionClose
@@ -3399,7 +3386,7 @@ Frame
 HandshakeDone
 =
 >
-QuicFrame
+Self
 :
 :
 HandshakeDone
@@ -3413,7 +3400,7 @@ AckFrequency
 }
 =
 >
-QuicFrame
+Self
 :
 :
 Unknown
@@ -3443,7 +3430,7 @@ data
 }
 =
 >
-QuicFrame
+Self
 :
 :
 Datagram
@@ -3501,16 +3488,7 @@ PacketType
 Initial
 =
 >
-qlog
-:
-:
-events
-:
-:
-quic
-:
-:
-PacketType
+Self
 :
 :
 Initial
@@ -3520,16 +3498,7 @@ PacketType
 Handshake
 =
 >
-qlog
-:
-:
-events
-:
-:
-quic
-:
-:
-PacketType
+Self
 :
 :
 Handshake
@@ -3539,16 +3508,7 @@ PacketType
 ZeroRtt
 =
 >
-qlog
-:
-:
-events
-:
-:
-quic
-:
-:
-PacketType
+Self
 :
 :
 ZeroRtt
@@ -3558,16 +3518,7 @@ PacketType
 Short
 =
 >
-qlog
-:
-:
-events
-:
-:
-quic
-:
-:
-PacketType
+Self
 :
 :
 OneRtt
@@ -3577,16 +3528,7 @@ PacketType
 Retry
 =
 >
-qlog
-:
-:
-events
-:
-:
-quic
-:
-:
-PacketType
+Self
 :
 :
 Retry
@@ -3596,16 +3538,7 @@ PacketType
 VersionNegotiation
 =
 >
-qlog
-:
-:
-events
-:
-:
-quic
-:
-:
-PacketType
+Self
 :
 :
 VersionNegotiation
@@ -3615,16 +3548,7 @@ PacketType
 OtherVersion
 =
 >
-qlog
-:
-:
-events
-:
-:
-quic
-:
-:
-PacketType
+Self
 :
 :
 Unknown

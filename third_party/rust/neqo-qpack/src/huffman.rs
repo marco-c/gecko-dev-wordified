@@ -134,6 +134,7 @@ a
 >
 {
 pub
+const
 fn
 new
 (
@@ -428,6 +429,7 @@ HuffmanDecompressionFailed
 }
 }
 pub
+const
 fn
 has_more_data
 (

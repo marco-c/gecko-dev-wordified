@@ -289,7 +289,7 @@ default
 >
 Self
 {
-EcnValidationState
+Self
 :
 :
 Testing
@@ -397,6 +397,7 @@ impl
 EcnCount
 {
 pub
+const
 fn
 new
 (
@@ -508,7 +509,7 @@ Ce
 impl
 Sub
 <
-EcnCount
+Self
 >
 for
 EcnCount
@@ -516,7 +517,7 @@ EcnCount
 type
 Output
 =
-EcnCount
+Self
 ;
 /
 /
@@ -536,17 +537,17 @@ sub
 self
 other
 :
-EcnCount
+Self
 )
 -
 >
-EcnCount
+Self
 {
 let
 mut
 diff
 =
-EcnCount
+Self
 :
 :
 default
@@ -722,6 +723,7 @@ current
 baseline
 .
 pub
+const
 fn
 baseline
 (
@@ -1713,6 +1715,7 @@ this
 path
 .
 pub
+const
 fn
 ecn_mark
 (

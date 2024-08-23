@@ -689,6 +689,7 @@ Role
 must_use
 ]
 pub
+const
 fn
 remote
 (

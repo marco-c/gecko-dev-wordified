@@ -203,6 +203,7 @@ impl
 SentPacket
 {
 pub
+const
 fn
 new
 (
@@ -265,6 +266,7 @@ this
 packet
 .
 pub
+const
 fn
 packet_type
 (
@@ -289,6 +291,7 @@ the
 packet
 .
 pub
+const
 fn
 pn
 (
@@ -314,6 +317,7 @@ the
 packet
 .
 pub
+const
 fn
 ecn_mark
 (
@@ -340,6 +344,7 @@ was
 sent
 .
 pub
+const
 fn
 time_sent
 (
@@ -368,6 +373,7 @@ an
 ACK
 .
 pub
+const
 fn
 ack_eliciting
 (
@@ -398,6 +404,7 @@ primary
 path
 .
 pub
+const
 fn
 on_primary_path
 (
@@ -425,6 +432,7 @@ was
 sent
 .
 pub
+const
 fn
 len
 (
@@ -574,6 +582,7 @@ declared
 lost
 .
 pub
+const
 fn
 lost
 (
@@ -672,6 +681,7 @@ track
 that
 .
 pub
+const
 fn
 cc_outstanding
 (
@@ -718,6 +728,7 @@ in
 flight
 .
 pub
+const
 fn
 cc_in_flight
 (
@@ -877,6 +888,7 @@ a
 PTO
 .
 pub
+const
 fn
 pto_fired
 (

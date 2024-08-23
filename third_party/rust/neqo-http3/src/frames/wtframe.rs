@@ -106,9 +106,6 @@ Res
 }
 ;
 pub
-(
-crate
-)
 type
 WebTransportFrameType
 =
@@ -175,7 +172,7 @@ WT_FRAME_CLOSE_SESSION
 )
 ;
 let
-WebTransportFrame
+Self
 :
 :
 CloseSession
@@ -227,7 +224,7 @@ as_bytes
 impl
 FrameDecoder
 <
-WebTransportFrame
+Self
 >
 for
 WebTransportFrame
@@ -257,7 +254,7 @@ Res
 <
 Option
 <
-WebTransportFrame
+Self
 >
 >
 {
@@ -372,7 +369,7 @@ Ok
 (
 Some
 (
-WebTransportFrame
+Self
 :
 :
 CloseSession

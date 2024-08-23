@@ -132,9 +132,9 @@ neqo_transport
 :
 {
 ConnectionParameters
+Pmtud
 StreamId
 StreamType
-MIN_INITIAL_PACKET_SIZE
 }
 ;
 use
@@ -181,14 +181,35 @@ WebTransportServerEvent
 WebTransportSessionAcceptAction
 }
 ;
+/
+/
+Leave
+space
+for
+large
+QUIC
+header
+.
 const
 DATAGRAM_SIZE
 :
 u64
 =
-MIN_INITIAL_PACKET_SIZE
+Pmtud
+:
+:
+default_plpmtu
+(
+DEFAULT_ADDR
+.
+ip
+(
+)
+)
 as
 u64
+-
+40
 ;
 pub
 fn
@@ -1026,7 +1047,6 @@ WebTransportServerEvent
 :
 NewSession
 {
-mut
 session
 headers
 }
@@ -1581,7 +1601,7 @@ next_event
 {
 event_found
 =
-WtTest
+Self
 :
 :
 session_closed_client
@@ -1617,7 +1637,6 @@ self
 wt_session
 :
 &
-mut
 WebTransportRequest
 )
 {
@@ -1717,12 +1736,10 @@ fn
 check_session_closed_event_server
 (
 &
-mut
 self
 wt_session
 :
 &
-mut
 WebTransportRequest
 expected_reeason
 :
@@ -1748,7 +1765,7 @@ unwrap
 assert
 !
 (
-WtTest
+Self
 :
 :
 session_closed_server
@@ -2624,7 +2641,6 @@ create_wt_stream_server
 wt_server_session
 :
 &
-mut
 WebTransportRequest
 stream_type
 :
@@ -2654,7 +2670,6 @@ self
 wt_stream
 :
 &
-mut
 Http3OrWebTransportStream
 data
 :
@@ -2900,7 +2915,6 @@ self
 wt_stream
 :
 &
-mut
 Http3OrWebTransportStream
 )
 {
@@ -2930,7 +2944,6 @@ self
 wt_stream
 :
 &
-mut
 Http3OrWebTransportStream
 )
 {
@@ -2968,7 +2981,6 @@ self
 wt_stream
 :
 &
-mut
 Http3OrWebTransportStream
 )
 {
@@ -3001,7 +3013,6 @@ fn
 receive_reset_server
 (
 &
-mut
 self
 expected_stream_id
 :
@@ -3070,7 +3081,6 @@ fn
 receive_stop_sending_server
 (
 &
-mut
 self
 expected_stream_id
 :
@@ -3139,7 +3149,6 @@ fn
 check_events_after_closing_session_server
 (
 &
-mut
 self
 expected_reset_ids
 :
@@ -3455,7 +3464,6 @@ session_close_frame_server
 wt_session
 :
 &
-mut
 WebTransportRequest
 error
 :
@@ -3619,7 +3627,6 @@ fn
 check_datagram_received_server
 (
 &
-mut
 self
 expected_session
 :
@@ -3757,7 +3764,6 @@ fn
 check_no_datagram_received_server
 (
 &
-mut
 self
 )
 {

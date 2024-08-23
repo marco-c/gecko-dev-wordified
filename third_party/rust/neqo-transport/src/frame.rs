@@ -453,6 +453,7 @@ AppError
 impl
 CloseError
 {
+const
 fn
 frame_type_bit
 (
@@ -487,6 +488,7 @@ _
 1
 }
 }
+const
 fn
 from_type_bit
 (
@@ -535,6 +537,7 @@ code
 must_use
 ]
 pub
+const
 fn
 code
 (
@@ -1055,6 +1058,7 @@ Frame
 a
 >
 {
+const
 fn
 get_stream_type_bit
 (
@@ -1085,6 +1089,7 @@ UniDi
 1
 }
 }
+const
 fn
 stream_type_from_bit
 (
@@ -1124,6 +1129,7 @@ UniDi
 must_use
 ]
 pub
+const
 fn
 get_type
 (
@@ -1439,6 +1445,7 @@ FRAME_TYPE_DATAGRAM_WITH_LEN
 must_use
 ]
 pub
+const
 fn
 is_stream
 (
@@ -1540,6 +1547,7 @@ StreamsBlocked
 must_use
 ]
 pub
+const
 fn
 stream_type
 (
@@ -1621,6 +1629,7 @@ delay
 must_use
 ]
 pub
+const
 fn
 ack_eliciting
 (
@@ -1692,6 +1701,7 @@ path
 must_use
 ]
 pub
+const
 fn
 path_probing
 (

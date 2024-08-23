@@ -323,6 +323,7 @@ Error
 must_use
 ]
 pub
+const
 fn
 code
 (

@@ -117,12 +117,10 @@ derive
 Default
 Debug
 PartialEq
+Eq
 )
 ]
 pub
-(
-crate
-)
 struct
 QpackData
 {

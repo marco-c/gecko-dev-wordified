@@ -1588,6 +1588,7 @@ RandomConnectionIdGenerator
 must_use
 ]
 pub
+const
 fn
 new
 (
@@ -2241,6 +2242,7 @@ this
 entry
 .
 pub
+const
 fn
 sequence_number
 (
@@ -2417,6 +2419,7 @@ initial
 entry
 .
 pub
+const
 fn
 initial_local
 (
@@ -2454,6 +2457,7 @@ SRT
 >
 {
 pub
+const
 fn
 new
 (
@@ -2574,6 +2578,7 @@ cid
 ;
 }
 pub
+const
 fn
 connection_id
 (
@@ -2591,6 +2596,7 @@ self
 cid
 }
 pub
+const
 fn
 reset_token
 (

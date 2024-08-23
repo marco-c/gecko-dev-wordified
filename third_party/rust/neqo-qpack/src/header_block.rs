@@ -150,6 +150,7 @@ derive
 Default
 Debug
 PartialEq
+Eq
 )
 ]
 pub
@@ -921,9 +922,6 @@ buf
 }
 }
 pub
-(
-crate
-)
 struct
 HeaderDecoder
 <
@@ -1044,6 +1042,7 @@ a
 >
 {
 pub
+const
 fn
 new
 (
@@ -1538,6 +1537,7 @@ h
 )
 }
 pub
+const
 fn
 get_req_insert_cnt
 (

@@ -444,6 +444,7 @@ impl
 DecoderInstructionReader
 {
 pub
+const
 fn
 new
 (

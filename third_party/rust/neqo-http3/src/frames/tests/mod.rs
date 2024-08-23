@@ -143,9 +143,6 @@ many_single_char_names
 )
 ]
 pub
-(
-crate
-)
 fn
 enc_dec
 <

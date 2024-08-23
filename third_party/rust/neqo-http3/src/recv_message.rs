@@ -191,9 +191,6 @@ module_name_repetitions
 )
 ]
 pub
-(
-crate
-)
 struct
 RecvMessageInfo
 {
@@ -491,9 +488,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 RecvMessage
 {
@@ -2341,6 +2335,7 @@ Done
 )
 ;
 }
+const
 fn
 closing
 (
@@ -2368,6 +2363,7 @@ RecvMessageState
 Closed
 )
 }
+const
 fn
 get_stream_info
 (

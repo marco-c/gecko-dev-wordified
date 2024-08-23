@@ -368,6 +368,16 @@ ApplicationData
 }
 }
 }
+#
+[
+allow
+(
+clippy
+:
+:
+fallible_impl_from
+)
+]
 impl
 From
 <
@@ -472,6 +482,7 @@ impl
 PacketNumberSpaceSet
 {
 pub
+const
 fn
 all
 (
@@ -942,6 +953,7 @@ packet
 range
 .
 pub
+const
 fn
 new
 (
@@ -980,6 +992,7 @@ the
 range
 .
 pub
+const
 fn
 len
 (
@@ -1012,6 +1025,7 @@ be
 sent
 .
 pub
+const
 fn
 ack_needed
 (
@@ -1040,6 +1054,7 @@ the
 range
 .
 pub
+const
 fn
 contains
 (
@@ -1960,6 +1975,7 @@ be
 sent
 .
 pub
+const
 fn
 ack_time
 (
@@ -3418,7 +3434,7 @@ remaining
 .
 checked_sub
 (
-RecvdPackets
+Self
 :
 :
 USEFUL_ACK_LEN

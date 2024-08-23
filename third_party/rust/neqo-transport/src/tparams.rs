@@ -702,6 +702,7 @@ v6
 must_use
 ]
 pub
+const
 fn
 ipv4
 (
@@ -724,6 +725,7 @@ v4
 must_use
 ]
 pub
+const
 fn
 ipv6
 (
@@ -3542,13 +3544,6 @@ continue
 let
 ok
 =
-if
-let
-Some
-(
-v_self
-)
-=
 self
 .
 params
@@ -3557,7 +3552,13 @@ get
 (
 k
 )
-{
+.
+map_or
+(
+false
+|
+v_self
+|
 match
 (
 v_self
@@ -3670,11 +3671,7 @@ _
 >
 false
 }
-}
-else
-{
-false
-}
+)
 ;
 if
 !
@@ -4199,6 +4196,7 @@ upgrade
 must_use
 ]
 pub
+const
 fn
 version
 (

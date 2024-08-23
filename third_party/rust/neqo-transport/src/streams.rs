@@ -3072,7 +3072,6 @@ fn
 handle_data_blocked
 (
 &
-mut
 self
 )
 {
@@ -3560,12 +3559,15 @@ stream_id
 keep
 )
 }
+#
+[
+must_use
+]
 pub
 fn
 need_keep_alive
 (
 &
-mut
 self
 )
 -

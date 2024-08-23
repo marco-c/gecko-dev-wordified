@@ -157,7 +157,7 @@ neqo_transport
 server
 :
 :
-ActiveConnectionRef
+ConnectionRef
 ;
 use
 neqo_transport
@@ -568,7 +568,7 @@ wt_unidi_conn_to_stream
 :
 HashMap
 <
-ActiveConnectionRef
+ConnectionRef
 Http3OrWebTransportStream
 >
 wt_unidi_echo_back
@@ -734,7 +734,6 @@ new_response
 &
 mut
 self
-mut
 stream
 :
 Http3OrWebTransportStream
@@ -854,7 +853,6 @@ handle_stream_writable
 &
 mut
 self
-mut
 stream
 :
 Http3OrWebTransportStream
@@ -1085,7 +1083,6 @@ unwrap
 )
 ;
 let
-mut
 session
 =
 tuple
@@ -1093,7 +1090,6 @@ tuple
 0
 ;
 let
-mut
 wt_server_stream
 =
 session
@@ -1478,7 +1474,6 @@ Http3ServerEvent
 :
 Headers
 {
-mut
 stream
 headers
 fin
@@ -3182,7 +3177,6 @@ Http3ServerEvent
 :
 Data
 {
-mut
 stream
 data
 fin
@@ -3267,7 +3261,6 @@ stream
 )
 {
 let
-mut
 echo_back
 =
 self
@@ -3623,7 +3616,6 @@ WebTransportServerEvent
 :
 NewSession
 {
-mut
 session
 headers
 }
@@ -4634,7 +4626,6 @@ active_connections
 )
 ;
 for
-mut
 acr
 in
 active_conns
@@ -5019,7 +5010,6 @@ new_response
 &
 mut
 self
-mut
 stream
 :
 Http3OrWebTransportStream
@@ -5160,7 +5150,6 @@ handle_stream_writable
 &
 mut
 self
-mut
 stream
 :
 Http3OrWebTransportStream
@@ -5517,7 +5506,6 @@ fetch
 &
 mut
 self
-mut
 stream
 :
 Http3OrWebTransportStream
@@ -6263,7 +6251,6 @@ cloned
 )
 {
 let
-mut
 stream
 =
 self
@@ -6570,7 +6557,6 @@ Http3ServerEvent
 :
 Headers
 {
-mut
 stream
 headers
 fin

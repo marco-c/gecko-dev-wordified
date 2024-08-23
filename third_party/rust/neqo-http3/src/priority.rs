@@ -152,7 +152,7 @@ default
 >
 Self
 {
-Priority
+Self
 {
 urgency
 :
@@ -204,7 +204,7 @@ bool
 )
 -
 >
-Priority
+Self
 {
 assert
 !
@@ -214,7 +214,7 @@ urgency
 8
 )
 ;
-Priority
+Self
 {
 urgency
 incremental
@@ -250,7 +250,7 @@ Header
 match
 self
 {
-Priority
+Self
 {
 urgency
 :
@@ -370,7 +370,7 @@ u8
 >
 Res
 <
-Priority
+Self
 >
 {
 let
@@ -513,7 +513,7 @@ false
 ;
 Ok
 (
-Priority
+Self
 {
 urgency
 incremental
@@ -557,7 +557,7 @@ Result
 match
 self
 {
-Priority
+Self
 {
 urgency
 :
@@ -573,7 +573,7 @@ Ok
 (
 )
 )
-Priority
+Self
 {
 urgency
 :
@@ -592,7 +592,7 @@ f
 i
 "
 )
-Priority
+Self
 {
 urgency
 incremental
@@ -613,7 +613,7 @@ urgency
 }
 "
 )
-Priority
+Self
 {
 urgency
 incremental
@@ -673,6 +673,7 @@ impl
 PriorityHandler
 {
 pub
+const
 fn
 new
 (
@@ -685,9 +686,9 @@ Priority
 )
 -
 >
-PriorityHandler
+Self
 {
-PriorityHandler
+Self
 {
 push_stream
 priority

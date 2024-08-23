@@ -213,7 +213,7 @@ CloseType
 )
 -
 >
-SessionCloseReason
+Self
 {
 match
 close_type
@@ -244,7 +244,7 @@ e
 =
 >
 {
-SessionCloseReason
+Self
 :
 :
 Error
@@ -258,7 +258,7 @@ CloseType
 Done
 =
 >
-SessionCloseReason
+Self
 :
 :
 Clean
@@ -412,6 +412,7 @@ using
 ExtendedConnectType
 .
 pub
+const
 fn
 string
 (
@@ -455,6 +456,7 @@ ExtendedConnectType
 must_use
 ]
 pub
+const
 fn
 get_stream_type
 (
@@ -508,7 +510,7 @@ features
 using
 ExtendedConnectType
 .
-HSettingType
+Self
 :
 :
 EnableWebTransport
@@ -624,6 +626,7 @@ settings
 must_use
 ]
 pub
+const
 fn
 enabled
 (

@@ -2255,7 +2255,6 @@ IpTos
 default
 (
 )
-None
 (
 *
 packet

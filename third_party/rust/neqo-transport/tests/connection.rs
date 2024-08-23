@@ -329,11 +329,6 @@ dupe
 tos
 (
 )
-dupe
-.
-ttl
-(
-)
 &
 dupe
 [
@@ -1086,11 +1081,6 @@ server_initial
 tos
 (
 )
-server_initial
-.
-ttl
-(
-)
 packet
 )
 ;
@@ -1585,11 +1575,6 @@ destination
 server_initial
 .
 tos
-(
-)
-server_initial
-.
-ttl
 (
 )
 packet
@@ -2529,11 +2514,6 @@ destination
 server_initial
 .
 tos
-(
-)
-server_initial
-.
-ttl
 (
 )
 packet

@@ -1426,7 +1426,6 @@ fn
 next_event
 (
 &
-mut
 self
 )
 -
@@ -1634,7 +1633,6 @@ err
 code
 (
 )
-&
 format
 !
 (

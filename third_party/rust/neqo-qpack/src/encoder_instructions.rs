@@ -794,6 +794,7 @@ impl
 EncoderInstructionReader
 {
 pub
+const
 fn
 new
 (

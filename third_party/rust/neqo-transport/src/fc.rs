@@ -373,6 +373,7 @@ and
 subject
 .
 pub
+const
 fn
 new
 (
@@ -603,6 +604,7 @@ been
 written
 .
 pub
+const
 fn
 used
 (
@@ -737,6 +739,7 @@ blocking
 condition
 remains
 .
+const
 fn
 blocked_needed
 (
@@ -1377,6 +1380,7 @@ and
 subject
 .
 pub
+const
 fn
 new
 (
@@ -1538,6 +1542,7 @@ true
 }
 }
 pub
+const
 fn
 frame_needed
 (
@@ -1553,6 +1558,7 @@ self
 frame_pending
 }
 pub
+const
 fn
 next_limit
 (
@@ -1572,6 +1578,7 @@ self
 max_active
 }
 pub
+const
 fn
 max_active
 (
@@ -1681,6 +1688,7 @@ max
 ;
 }
 pub
+const
 fn
 retired
 (
@@ -1696,6 +1704,7 @@ self
 retired
 }
 pub
+const
 fn
 consumed
 (
@@ -2415,6 +2424,7 @@ control
 limit
 .
 pub
+const
 fn
 check_allowed
 (
@@ -2506,6 +2516,7 @@ impl
 RemoteStreamLimit
 {
 pub
+const
 fn
 new
 (
@@ -2574,6 +2585,7 @@ remote
 }
 }
 pub
+const
 fn
 is_allowed
 (
@@ -2771,6 +2783,7 @@ impl
 RemoteStreamLimits
 {
 pub
+const
 fn
 new
 (
@@ -2956,6 +2969,7 @@ impl
 LocalStreamLimits
 {
 pub
+const
 fn
 new
 (

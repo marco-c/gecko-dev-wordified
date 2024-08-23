@@ -150,10 +150,6 @@ packet
 :
 :
 PacketNumber
-path
-:
-:
-PATH_MTU_V6
 }
 ;
 fn
@@ -419,7 +415,11 @@ unwrap
 len
 (
 )
-PATH_MTU_V6
+client
+.
+plpmtu
+(
+)
 )
 ;
 qdebug

@@ -914,9 +914,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 SendMessage
 {
@@ -2403,7 +2400,7 @@ message_type
 let
 buf
 =
-SendMessage
+Self
 :
 :
 encode

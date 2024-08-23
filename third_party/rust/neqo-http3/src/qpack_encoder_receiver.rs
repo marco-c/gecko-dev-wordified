@@ -132,9 +132,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 EncoderRecvStream
 {
@@ -155,6 +152,7 @@ impl
 EncoderRecvStream
 {
 pub
+const
 fn
 new
 (

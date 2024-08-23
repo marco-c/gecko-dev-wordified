@@ -283,6 +283,7 @@ State
 must_use
 ]
 pub
+const
 fn
 connected
 (
@@ -313,6 +314,7 @@ Confirmed
 must_use
 ]
 pub
+const
 fn
 closed
 (
@@ -359,6 +361,7 @@ _
 must_use
 ]
 pub
+const
 fn
 error
 (
@@ -860,6 +863,7 @@ reason_phrase
 }
 }
 pub
+const
 fn
 path
 (
@@ -1061,7 +1065,7 @@ remaining
 (
 )
 <
-ClosingFrame
+Self
 :
 :
 MIN_LENGTH

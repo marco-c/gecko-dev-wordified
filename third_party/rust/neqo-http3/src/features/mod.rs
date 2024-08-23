@@ -241,6 +241,7 @@ NegotiationState
 must_use
 ]
 pub
+const
 fn
 new
 (
@@ -446,6 +447,7 @@ enabled
 must_use
 ]
 pub
+const
 fn
 enabled
 (
@@ -472,6 +474,7 @@ Negotiated
 must_use
 ]
 pub
+const
 fn
 locally_enabled
 (

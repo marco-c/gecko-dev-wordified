@@ -180,7 +180,6 @@ receive_request
 server
 :
 &
-mut
 Http3Server
 )
 -
@@ -303,7 +302,6 @@ set_response
 request
 :
 &
-mut
 Http3OrWebTransportStream
 )
 {
@@ -375,12 +373,10 @@ process_server_events
 server
 :
 &
-mut
 Http3Server
 )
 {
 let
-mut
 request
 =
 receive_request
@@ -395,7 +391,6 @@ unwrap
 set_response
 (
 &
-mut
 request
 )
 ;
@@ -1556,7 +1551,6 @@ now
 process_server_events
 (
 &
-mut
 hconn_s
 )
 ;
@@ -1784,13 +1778,11 @@ now
 )
 ;
 let
-mut
 request
 =
 receive_request
 (
 &
-mut
 hconn_s
 )
 .
@@ -1950,7 +1942,6 @@ info_headers_event
 set_response
 (
 &
-mut
 request
 )
 ;
@@ -2218,13 +2209,11 @@ with
 headers
 .
 let
-mut
 request
 =
 receive_request
 (
 &
-mut
 hconn_s
 )
 .
@@ -2815,13 +2804,11 @@ None
 )
 ;
 let
-mut
 request
 =
 receive_request
 (
 &
-mut
 hconn_s
 )
 .
@@ -3705,7 +3692,6 @@ zerortt_state_change
 )
 ;
 let
-mut
 request_stream
 =
 request_stream
@@ -3722,7 +3708,6 @@ response
 set_response
 (
 &
-mut
 request_stream
 )
 ;

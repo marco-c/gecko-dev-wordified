@@ -95,20 +95,6 @@ neqo_common
 :
 Role
 ;
-#
-[
-derive
-(
-PartialEq
-Debug
-Copy
-Clone
-PartialOrd
-Eq
-Ord
-Hash
-)
-]
 /
 /
 /
@@ -125,6 +111,20 @@ Uni
 -
 Directional
 .
+#
+[
+derive
+(
+PartialEq
+Debug
+Copy
+Clone
+PartialOrd
+Eq
+Ord
+Hash
+)
+]
 pub
 enum
 StreamType
@@ -183,6 +183,7 @@ id
 must_use
 ]
 pub
+const
 fn
 init
 (
@@ -237,6 +238,7 @@ role
 must_use
 ]
 pub
+const
 fn
 as_u64
 (
@@ -255,6 +257,7 @@ self
 must_use
 ]
 pub
+const
 fn
 is_bidi
 (
@@ -280,6 +283,7 @@ as_u64
 must_use
 ]
 pub
+const
 fn
 is_uni
 (
@@ -301,6 +305,7 @@ is_bidi
 must_use
 ]
 pub
+const
 fn
 stream_type
 (
@@ -335,6 +340,7 @@ UniDi
 must_use
 ]
 pub
+const
 fn
 is_client_initiated
 (
@@ -360,6 +366,7 @@ as_u64
 must_use
 ]
 pub
+const
 fn
 is_server_initiated
 (
@@ -381,6 +388,7 @@ is_client_initiated
 must_use
 ]
 pub
+const
 fn
 role
 (
@@ -415,6 +423,7 @@ Server
 must_use
 ]
 pub
+const
 fn
 is_self_initiated
 (
@@ -467,6 +476,7 @@ false
 must_use
 ]
 pub
+const
 fn
 is_remote_initiated
 (
@@ -492,6 +502,7 @@ my_role
 must_use
 ]
 pub
+const
 fn
 is_send_only
 (
@@ -523,6 +534,7 @@ my_role
 must_use
 ]
 pub
+const
 fn
 is_recv_only
 (
@@ -589,6 +601,7 @@ role
 must_use
 ]
 pub
+const
 fn
 role_bit
 (

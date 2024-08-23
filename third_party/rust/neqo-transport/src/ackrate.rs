@@ -935,6 +935,7 @@ impl
 PeerAckDelay
 {
 pub
+const
 fn
 fixed
 (

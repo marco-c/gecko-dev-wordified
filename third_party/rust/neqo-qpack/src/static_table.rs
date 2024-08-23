@@ -115,6 +115,7 @@ impl
 StaticTableEntry
 {
 pub
+const
 fn
 name
 (
@@ -133,6 +134,7 @@ self
 name
 }
 pub
+const
 fn
 value
 (
@@ -151,6 +153,7 @@ self
 value
 }
 pub
+const
 fn
 index
 (

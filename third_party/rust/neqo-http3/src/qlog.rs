@@ -123,7 +123,6 @@ h3_data_moved_up
 qlog
 :
 &
-mut
 NeqoQlog
 stream_id
 :
@@ -227,7 +226,6 @@ h3_data_moved_down
 qlog
 :
 &
-mut
 NeqoQlog
 stream_id
 :

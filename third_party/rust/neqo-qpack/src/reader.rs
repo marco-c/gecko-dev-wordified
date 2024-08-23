@@ -614,6 +614,7 @@ a
 >
 {
 pub
+const
 fn
 new
 (
@@ -639,6 +640,7 @@ offset
 }
 }
 pub
+const
 fn
 peek
 (
@@ -690,6 +692,7 @@ offset
 }
 }
 pub
+const
 fn
 done
 (
@@ -2052,6 +2055,9 @@ ReadByte
 '
 s
 error
+/
+/
+/
 /
 /
 /

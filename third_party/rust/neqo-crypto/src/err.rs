@@ -981,6 +981,7 @@ last_nss_error
 }
 }
 pub
+const
 fn
 is_blocked
 (
