@@ -7169,6 +7169,16 @@ named
 groups
 "
 )
+\
+Register
+(
+REGEXP_MODIFIERS
+"
+regexp
+.
+modifiers
+"
+)
 /
 /
 clang
