@@ -4653,8 +4653,10 @@ invalidEndpoint
 return
 ;
 }
+RefPtr
+<
 SocketProcessParent
-*
+>
 parent
 =
 SocketProcessParent

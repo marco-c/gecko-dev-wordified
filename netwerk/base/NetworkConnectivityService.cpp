@@ -1878,8 +1878,10 @@ UseSocketProcess
 )
 )
 {
+RefPtr
+<
 SocketProcessParent
-*
+>
 parent
 =
 SocketProcessParent
@@ -2875,8 +2877,10 @@ UseSocketProcess
 )
 )
 {
+RefPtr
+<
 SocketProcessParent
-*
+>
 parent
 =
 SocketProcessParent

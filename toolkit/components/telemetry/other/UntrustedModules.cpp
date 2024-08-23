@@ -855,8 +855,13 @@ SendGetUntrustedModulesData
 }
 if
 (
-auto
-*
+RefPtr
+<
+net
+:
+:
+SocketProcessParent
+>
 socketActor
 =
 net

@@ -358,8 +358,10 @@ Init
 return
 ;
 }
+RefPtr
+<
 SocketProcessParent
-*
+>
 socketParent
 =
 SocketProcessParent

@@ -1216,8 +1216,13 @@ SendUnblockUntrustedModulesThread
 }
 if
 (
-auto
-*
+RefPtr
+<
+net
+:
+:
+SocketProcessParent
+>
 proc
 =
 net

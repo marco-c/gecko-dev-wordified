@@ -10890,8 +10890,10 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+RefPtr
+<
 SocketProcessParent
-*
+>
 socketProcess
 =
 SocketProcessParent
