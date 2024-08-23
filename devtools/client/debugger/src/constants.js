@@ -106,11 +106,6 @@ PROJECT_SEARCH
 "
 project
 "
-TRACER
-:
-"
-tracer
-"
 }
 ;
 export
