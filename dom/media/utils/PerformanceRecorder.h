@@ -1337,11 +1337,11 @@ StageBase
 {
 public
 :
-enum
+MOZ_DEFINE_ENUM_WITH_BASE_AND_TOSTRING_AT_CLASS_SCOPE
+(
 ImageFormat
-:
 uint8_t
-{
+(
 YUV420P
 YUV422P
 YUV444P
@@ -1355,7 +1355,8 @@ RGB24
 GBRP
 ANDROID_SURFACE
 VAAPI_SURFACE
-}
+)
+)
 ;
 DecodeStage
 (
