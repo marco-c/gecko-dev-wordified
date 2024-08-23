@@ -80,7 +80,9 @@ string
 ]
 importedStringConstants
 :
-true
+"
+'
+"
 }
 )
 ;
