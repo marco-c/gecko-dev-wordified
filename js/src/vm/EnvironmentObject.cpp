@@ -133,6 +133,15 @@ include
 "
 builtin
 /
+Array
+.
+h
+"
+#
+include
+"
+builtin
+/
 ModuleObject
 .
 h
@@ -3347,7 +3356,7 @@ Bug
 )
 .
 static
-ListObject
+ArrayObject
 *
 initialiseAndSetDisposeCapabilityHelper
 (
@@ -3381,7 +3390,7 @@ getReservedSlot
 slot
 )
 ;
-ListObject
+ArrayObject
 *
 disposablesList
 =
@@ -3398,10 +3407,7 @@ isUndefined
 {
 disposablesList
 =
-ListObject
-:
-:
-create
+NewDenseEmptyArray
 (
 cx
 )
@@ -3443,7 +3449,7 @@ toObject
 .
 as
 <
-ListObject
+ArrayObject
 >
 (
 )
@@ -3453,7 +3459,7 @@ return
 disposablesList
 ;
 }
-ListObject
+ArrayObject
 *
 ModuleEnvironmentObject
 :
@@ -3520,7 +3526,7 @@ UndefinedValue
 )
 ;
 }
-ListObject
+ArrayObject
 *
 LexicalEnvironmentObject
 :

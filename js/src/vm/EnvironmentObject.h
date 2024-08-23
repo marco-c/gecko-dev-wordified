@@ -4739,7 +4739,7 @@ RESERVED_SLOTS
 #
 ifdef
 ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-ListObject
+ArrayObject
 *
 getOrCreateDisposeCapability
 (
@@ -5498,7 +5498,7 @@ isGlobal
 #
 ifdef
 ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-ListObject
+ArrayObject
 *
 getOrCreateDisposeCapability
 (

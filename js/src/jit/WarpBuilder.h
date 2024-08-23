@@ -422,14 +422,6 @@ IF_EXPLICIT_RESOURCE_MANAGEMENT
 (
 _
 (
-GetDisposableRecord
-)
-)
-\
-IF_EXPLICIT_RESOURCE_MANAGEMENT
-(
-_
-(
 CreateSuppressedError
 )
 )

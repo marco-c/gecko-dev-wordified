@@ -9338,12 +9338,6 @@ case
 JSOp
 :
 :
-GetDisposableRecord
-:
-case
-JSOp
-:
-:
 CreateSuppressedError
 :
 case
