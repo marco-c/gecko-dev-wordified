@@ -1166,6 +1166,15 @@ GetCurrentThreadId
 )
 ;
 #
+elif
+defined
+(
+__wasm__
+)
+return
+1
+;
+#
 else
 return
 size_t
