@@ -920,6 +920,14 @@ this
 )
 ;
 }
+highlightersState
+=
+{
+fadingViewportSizeHiglighter
+:
+null
+}
+;
 destroy
 (
 )
