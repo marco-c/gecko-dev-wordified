@@ -764,6 +764,12 @@ AsModuleRequest
 )
 const
 ;
+bool
+IsCacheable
+(
+)
+const
+;
 uint32_t
 ExpirationTime
 (
