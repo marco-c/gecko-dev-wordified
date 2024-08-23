@@ -19339,7 +19339,7 @@ mediasession
 /
 test
 /
-file_trigger_actionhanlder_window
+file_trigger_actionhandler_window
 .
 html
 "

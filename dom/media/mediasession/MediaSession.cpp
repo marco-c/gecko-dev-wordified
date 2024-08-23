@@ -897,7 +897,7 @@ RefPtr
 MediaSessionActionHandler
 >
 &
-hanlder
+handler
 =
 mActionHandlers
 [
@@ -907,7 +907,7 @@ aAction
 if
 (
 !
-hanlder
+handler
 &
 &
 aHandler
@@ -922,7 +922,7 @@ aAction
 else
 if
 (
-hanlder
+handler
 &
 &
 !
