@@ -290,6 +290,9 @@ class
 OriginScope
 ;
 class
+PersistenceScope
+;
+class
 QuotaManager
 ;
 class
@@ -757,12 +760,9 @@ nsresult
 AboutToClearOrigins
 (
 const
-Nullable
-<
-PersistenceType
->
+PersistenceScope
 &
-aPersistenceType
+aPersistenceScope
 const
 OriginScope
 &
