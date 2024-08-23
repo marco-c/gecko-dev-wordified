@@ -2613,7 +2613,7 @@ ParserT
 :
 stringToken
 (
-StringBuilder
+JSONStringBuilder
 &
 builder
 )
@@ -2989,7 +2989,7 @@ consumed
 .
 *
 /
-StringBuilder
+JSONStringBuilder
 builder
 (
 parser
@@ -5664,7 +5664,7 @@ CharT
 >
 :
 :
-StringBuilder
+JSONStringBuilder
 :
 :
 append
@@ -5694,7 +5694,7 @@ CharT
 >
 :
 :
-StringBuilder
+JSONStringBuilder
 :
 :
 append
@@ -5850,7 +5850,7 @@ CharT
 :
 setStringValue
 (
-StringBuilder
+JSONStringBuilder
 &
 builder
 mozilla
@@ -9065,7 +9065,7 @@ PropertyVector
 }
 ;
 class
-StringBuilder
+JSONStringBuilder
 {
 public
 :
@@ -9073,7 +9073,7 @@ StringBuffer
 buffer
 ;
 explicit
-StringBuilder
+JSONStringBuilder
 (
 FrontendContext
 *
@@ -9296,7 +9296,7 @@ inline
 bool
 setStringValue
 (
-StringBuilder
+JSONStringBuilder
 &
 builder
 mozilla
