@@ -5541,6 +5541,8 @@ DEFINED_ON
 x86_shared
 arm
 arm64
+loong64
+mips_shared
 )
 ;
 void
@@ -5556,6 +5558,8 @@ DEFINED_ON
 x86_shared
 arm
 arm64
+loong64
+mips_shared
 )
 ;
 public

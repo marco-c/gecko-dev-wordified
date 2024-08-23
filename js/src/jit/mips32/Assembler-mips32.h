@@ -600,6 +600,13 @@ ABINonArgReg1
 static
 constexpr
 Register
+WasmCallRefCallScratchReg2
+=
+ABINonArgReg2
+;
+static
+constexpr
+Register
 WasmCallRefReg
 =
 ABINonArgReg3
