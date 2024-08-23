@@ -169,6 +169,11 @@ defaultEngineId
 :
 "
 engine2
+search
+.
+mozilla
+.
+orgdefault
 "
 defaultEngineIdHash
 :
@@ -206,11 +211,6 @@ _name
 "
 engine1
 "
-id
-:
-"
-engine1
-"
 }
 {
 _metaData
@@ -224,11 +224,6 @@ _isAppProvided
 :
 true
 _name
-:
-"
-engine2
-"
-id
 :
 "
 engine2

@@ -144,10 +144,15 @@ allowlist
 thirdPartyId
 :
 EXTENSION_ID
-overridesAppIdv2
+overridesId
 :
 "
 simple
+search
+.
+mozilla
+.
+org
 "
 urls
 :

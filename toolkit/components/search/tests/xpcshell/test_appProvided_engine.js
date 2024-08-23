@@ -575,6 +575,11 @@ getEngineById
 (
 "
 testEngine
+search
+.
+mozilla
+.
+orgdefault
 "
 )
 ;
@@ -922,6 +927,11 @@ getEngineById
 (
 "
 testOtherValuesEngine
+search
+.
+mozilla
+.
+orgdefault
 "
 )
 ;
@@ -1154,6 +1164,11 @@ getEngineById
 (
 "
 override
+search
+.
+mozilla
+.
+orgdefault
 "
 )
 ;
@@ -1341,6 +1356,11 @@ getEngineById
 (
 "
 override
+search
+.
+mozilla
+.
+orgdefault
 "
 )
 ;
