@@ -14169,9 +14169,6 @@ KeyShortcuts
 .
 parseElectronKey
 (
-this
-.
-win
 shortcut
 )
 ;
