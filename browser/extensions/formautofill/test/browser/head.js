@@ -5389,11 +5389,13 @@ Assert
 equal
 (
 result
-[
+.
+get
+(
 field
 .
 elementId
-]
+)
 .
 value
 expected
