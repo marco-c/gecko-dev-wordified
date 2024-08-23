@@ -26281,6 +26281,12 @@ MIRType
 :
 Simd128
 :
+case
+MIRType
+:
+:
+Int64
+:
 return
 true
 ;
@@ -26313,12 +26319,6 @@ MIRType
 :
 :
 Pointer
-:
-case
-MIRType
-:
-:
-Int64
 :
 case
 MIRType
