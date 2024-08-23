@@ -9016,7 +9016,7 @@ this
 #
 compartments
 .
-lineWrapCompartment
+lineNumberCompartment
 .
 reconfigure
 (
