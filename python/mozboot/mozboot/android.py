@@ -144,7 +144,7 @@ BUNDLETOOL_VERSION
 "
 1
 .
-16
+17
 .
 0
 "
