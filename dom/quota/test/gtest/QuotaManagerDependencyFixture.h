@@ -341,8 +341,6 @@ aOriginMetadata
 UsageInfo
 *
 aResult
-=
-nullptr
 )
 ;
 static
