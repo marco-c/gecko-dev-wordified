@@ -3368,11 +3368,8 @@ char
 *
 const
 aErrorMsg
-base
-:
-:
-ProcessId
-aOtherPid
+GeckoChildID
+aOtherChildID
 )
 ;
 using
@@ -3700,11 +3697,8 @@ ipc
 IPCResult
 GetResultForRenderingInitFailure
 (
-base
-:
-:
-ProcessId
-aOtherPid
+GeckoChildID
+aOtherChildID
 )
 ;
 virtual

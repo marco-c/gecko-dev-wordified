@@ -1350,7 +1350,7 @@ ContentChild
 FatalErrorIfNotUsingGPUProcess
 (
 aMsg
-OtherPid
+OtherChildID
 (
 )
 )
