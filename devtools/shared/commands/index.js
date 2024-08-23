@@ -444,6 +444,7 @@ for
 tests
 waitForRequestsToSettle
 (
+options
 )
 {
 return
@@ -453,6 +454,7 @@ client
 .
 waitForRequestsToSettle
 (
+options
 )
 ;
 }
