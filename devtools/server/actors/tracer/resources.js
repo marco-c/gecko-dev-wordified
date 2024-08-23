@@ -1901,6 +1901,9 @@ let
 args
 =
 undefined
+argNames
+=
+undefined
 ;
 /
 /
@@ -2072,6 +2075,16 @@ dbgObj
 )
 ;
 }
+argNames
+=
+frame
+.
+callee
+.
+script
+.
+parameterNames
+;
 }
 /
 /
@@ -2171,6 +2184,7 @@ dateNow
 )
 depth
 args
+argNames
 ]
 )
 ;

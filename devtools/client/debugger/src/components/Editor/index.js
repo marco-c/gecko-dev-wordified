@@ -313,6 +313,7 @@ getHighlightedLineRangeForSelectedSource
 isSourceMapIgnoreListEnabled
 isSourceOnSourceMapIgnoreList
 isMapScopesEnabled
+getSelectedTraceIndex
 }
 from
 "
@@ -4474,6 +4475,7 @@ const
 selectedSource
 conditionalPanelLocation
 isPaused
+isTraceSelected
 inlinePreviewEnabled
 highlightedLineRange
 blackboxedRanges
@@ -4641,7 +4643,12 @@ selectedSource
 )
 :
 null
+(
 isPaused
+|
+|
+isTraceSelected
+)
 &
 &
 inlinePreviewEnabled
@@ -4857,7 +4864,12 @@ ColumnBreakpoints
 editor
 }
 )
+(
 isPaused
+|
+|
+isTraceSelected
+)
 &
 &
 inlinePreviewEnabled
@@ -5161,6 +5173,15 @@ getIsCurrentThreadPaused
 (
 state
 )
+isTraceSelected
+:
+getSelectedTraceIndex
+(
+state
+)
+!
+=
+null
 skipPausing
 :
 getSkipPausing
