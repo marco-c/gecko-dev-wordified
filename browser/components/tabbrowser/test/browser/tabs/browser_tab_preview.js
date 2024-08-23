@@ -4625,13 +4625,6 @@ tabs
 )
 ;
 }
-await
-SpecialPowers
-.
-popPrefEnv
-(
-)
-;
 /
 /
 Move
