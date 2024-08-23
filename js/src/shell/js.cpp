@@ -17180,6 +17180,9 @@ if
 saveIncrementalBytecode
 )
 {
+bool
+alreadyStarted
+;
 if
 (
 !
@@ -17196,6 +17199,7 @@ move
 (
 stencil
 )
+alreadyStarted
 )
 )
 {
@@ -17203,6 +17207,12 @@ return
 false
 ;
 }
+MOZ_ASSERT
+(
+!
+alreadyStarted
+)
+;
 }
 if
 (

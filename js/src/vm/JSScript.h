@@ -7013,6 +7013,9 @@ ExtensibleCompilationStencil
 &
 &
 initial
+bool
+&
+alreadyStarted
 )
 ;
 [
