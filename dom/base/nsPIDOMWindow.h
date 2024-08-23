@@ -6832,9 +6832,9 @@ const
 nsAString
 &
 aOptions
-nsISupports
+nsIArray
 *
-aExtraArgument
+aArguments
 mozilla
 :
 :
