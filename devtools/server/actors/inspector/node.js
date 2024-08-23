@@ -1622,6 +1622,17 @@ true
 subtree
 :
 true
+/
+/
+Track
+addition
+/
+removal
+of
+pseudo
+-
+elements
+too
 chromeOnlyNodes
 :
 true
