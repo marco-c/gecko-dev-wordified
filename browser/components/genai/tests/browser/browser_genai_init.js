@@ -362,6 +362,12 @@ tab
 }
 )
 ;
+GenAI
+.
+uninit
+(
+)
+;
 sandbox
 .
 restore
