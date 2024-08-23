@@ -222,6 +222,10 @@ minorgc
 (
 )
 ;
+finishBackgroundFree
+(
+)
+;
 /
 /
 If
@@ -384,6 +388,10 @@ bufferRefCount
 gc
 (
 )
+finishBackgroundFree
+(
+)
+;
 assertEq
 (
 representation

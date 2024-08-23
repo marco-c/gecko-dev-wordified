@@ -461,6 +461,10 @@ gc
 (
 )
 ;
+finishBackgroundFree
+(
+)
+;
 checkRefCount
 (
 strLatin1
