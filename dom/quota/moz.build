@@ -407,6 +407,16 @@ QuotaParent
 h
 "
 "
+QuotaUsageRequestChild
+.
+h
+"
+"
+QuotaUsageRequestParent
+.
+h
+"
+"
 RemoteQuotaObjectChild
 .
 h
