@@ -56,6 +56,8 @@ MPL
 import
 os
 import
+platform
+import
 socket
 import
 sys
@@ -678,6 +680,27 @@ enabled
 "
 :
 True
+if
+(
+platform
+.
+uname
+(
+)
+.
+version
+=
+=
+"
+10
+.
+0
+.
+22621
+"
+)
+else
+False
             
 "
 fatal_exit_code
