@@ -7459,7 +7459,7 @@ bytecode
 moduleMeta
 streamEnd
 .
-tier2Listener
+completeTier2Listener
 )
 ;
 }

@@ -7871,7 +7871,7 @@ shareableBytes
 moduleMeta
 /
 *
-maybeTier2Listener
+maybeCompleteTier2Listener
 =
 *
 /
@@ -10832,7 +10832,7 @@ shareableBytes
 moduleMeta
 /
 *
-maybeTier2Listener
+maybeCompleteTier2Listener
 =
 *
 /

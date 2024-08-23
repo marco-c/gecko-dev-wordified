@@ -24799,7 +24799,7 @@ shareableBytes
 moduleMeta
 /
 *
-maybeTier2Listener
+maybeCompleteTier2Listener
 =
 *
 /
@@ -29386,7 +29386,7 @@ JS
 :
 OptimizedEncodingListener
 *
-tier2Listener
+completeTier2Listener
 )
 override
 {
@@ -29511,9 +29511,9 @@ tailBytes_
 streamEnd
 -
 >
-tier2Listener
+completeTier2Listener
 =
-tier2Listener
+completeTier2Listener
 ;
 streamEnd
 .

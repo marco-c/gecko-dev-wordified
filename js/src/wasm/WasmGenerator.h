@@ -2130,7 +2130,7 @@ JS
 :
 OptimizedEncodingListener
 *
-maybeTier2Listener
+maybeCompleteTier2Listener
 )
 ;
 [
