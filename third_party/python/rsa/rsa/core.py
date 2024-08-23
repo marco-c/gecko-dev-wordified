@@ -1,17 +1,4 @@
 #
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-#
-#
 Copyright
 2011
 Sybren
@@ -69,7 +56,7 @@ License
 at
 #
 #
-http
+https
 :
 /
 /
@@ -143,9 +130,9 @@ under
 the
 License
 .
-'
-'
-'
+"
+"
+"
 Core
 mathematical
 operations
@@ -165,27 +152,29 @@ mathematically
 on
 integers
 .
-'
-'
-'
-from
-rsa
-.
-_compat
-import
-is_integer
+"
+"
+"
 def
 assert_int
 (
 var
+:
+int
 name
+:
+str
 )
+-
+>
+None
 :
     
 if
-is_integer
+isinstance
 (
 var
+int
 )
 :
         
@@ -194,7 +183,7 @@ return
 raise
 TypeError
 (
-'
+"
 %
 s
 should
@@ -204,7 +193,7 @@ integer
 not
 %
 s
-'
+"
 %
 (
 name
@@ -217,14 +206,23 @@ def
 encrypt_int
 (
 message
+:
+int
 ekey
+:
+int
 n
+:
+int
 )
+-
+>
+int
 :
     
-'
-'
-'
+"
+"
+"
 Encrypts
 a
 message
@@ -237,32 +235,32 @@ ekey
 working
 modulo
 n
-'
-'
-'
+"
+"
+"
     
 assert_int
 (
 message
-'
+"
 message
-'
+"
 )
     
 assert_int
 (
 ekey
-'
+"
 ekey
-'
+"
 )
     
 assert_int
 (
 n
-'
+"
 n
-'
+"
 )
     
 if
@@ -274,7 +272,7 @@ message
 raise
 ValueError
 (
-'
+"
 Only
 non
 -
@@ -282,7 +280,7 @@ negative
 numbers
 are
 supported
-'
+"
 )
     
 if
@@ -326,14 +324,23 @@ def
 decrypt_int
 (
 cyphertext
+:
+int
 dkey
+:
+int
 n
+:
+int
 )
+-
+>
+int
 :
     
-'
-'
-'
+"
+"
+"
 Decrypts
 a
 cypher
@@ -346,35 +353,34 @@ key
 dkey
 '
 working
-    
 modulo
 n
-'
-'
-'
+"
+"
+"
     
 assert_int
 (
 cyphertext
-'
+"
 cyphertext
-'
+"
 )
     
 assert_int
 (
 dkey
-'
+"
 dkey
-'
+"
 )
     
 assert_int
 (
 n
-'
+"
 n
-'
+"
 )
     
 message
