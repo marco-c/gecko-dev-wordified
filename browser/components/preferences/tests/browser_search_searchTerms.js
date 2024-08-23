@@ -1063,13 +1063,6 @@ Clean
 -
 up
 .
-await
-SpecialPowers
-.
-popPrefEnv
-(
-)
-;
 gCUITestUtils
 .
 removeSearchBar
