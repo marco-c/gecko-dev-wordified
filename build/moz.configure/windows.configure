@@ -4169,6 +4169,8 @@ True
 with
 only_when
 (
+target_is_windows
+&
 depends
 (
 c_compiler
