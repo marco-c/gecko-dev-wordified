@@ -3891,8 +3891,6 @@ int
 max
 QuantifierType
 type
-int
-index
 RegExpTree
 *
 body
@@ -3913,10 +3911,6 @@ max
 quantifier_type_
 (
 type
-)
-index_
-(
-index
 )
 {
 if
@@ -4083,16 +4077,6 @@ return
 quantifier_type_
 ;
 }
-int
-index
-(
-)
-const
-{
-return
-index_
-;
-}
 bool
 is_possessive
 (
@@ -4163,9 +4147,6 @@ max_match_
 ;
 QuantifierType
 quantifier_type_
-;
-int
-index_
 ;
 }
 ;

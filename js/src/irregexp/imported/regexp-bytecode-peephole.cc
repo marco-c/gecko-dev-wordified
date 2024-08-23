@@ -7249,7 +7249,7 @@ isolate
 Zone
 *
 zone
-DirectHandle
+Handle
 <
 String
 >
