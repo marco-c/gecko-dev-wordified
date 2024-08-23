@@ -26260,6 +26260,8 @@ environments
 *
 Operands
 :
+UsingHint
+hint
 *
 Stack
 :
@@ -26277,10 +26279,10 @@ MACRO
 AddDisposable
 add_disposable
 NULL
+2
 1
 1
-1
-JOF_BYTE
+JOF_UINT8
 )
 )
 \
