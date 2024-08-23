@@ -53661,7 +53661,7 @@ event
 )
 ;
 return
-TRUE
+FALSE
 ;
 }
 static
@@ -53752,7 +53752,7 @@ event
 ;
 }
 return
-TRUE
+FALSE
 ;
 }
 static
@@ -53829,7 +53829,7 @@ event
 )
 ;
 return
-TRUE
+FALSE
 ;
 }
 static
@@ -54920,7 +54920,7 @@ event
 )
 ;
 return
-TRUE
+FALSE
 ;
 }
 static
@@ -55559,6 +55559,17 @@ GdkEvent
 aEvent
 )
 {
+/
+/
+Keep
+routing
+other
+that
+touchpad
+events
+to
+child
+widgets
 if
 (
 aEvent
