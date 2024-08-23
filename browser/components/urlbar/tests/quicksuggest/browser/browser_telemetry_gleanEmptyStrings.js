@@ -210,7 +210,7 @@ request_id
 /
 /
 sponsored
-add_task
+add_tasks_with_rust
 (
 async
 function
@@ -314,8 +314,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -413,8 +412,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -452,8 +450,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -555,8 +552,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -594,8 +590,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
@@ -625,12 +620,12 @@ request_id
 }
 /
 /
-help
+manage
 {
 command
 :
 "
-help
+manage
 "
 scalars
 :
@@ -639,13 +634,6 @@ scalars
 TELEMETRY_SCALARS
 .
 IMPRESSION_SPONSORED
-]
-:
-position
-[
-TELEMETRY_SCALARS
-.
-HELP_SPONSORED
 ]
 :
 position
@@ -666,7 +654,7 @@ engagement
 object
 :
 "
-help
+other
 "
 extra
 :
@@ -699,8 +687,7 @@ match_type
 position
 suggested_index
 :
--
-1
+0
 suggested_index_relative_to_group
 :
 true
