@@ -6792,6 +6792,14 @@ trapCode_
 (
 nullptr
 )
+debugStubOffset_
+(
+0
+)
+requestTierUpStubOffset_
+(
+0
+)
 bytecode_
 (
 maybeBytecode

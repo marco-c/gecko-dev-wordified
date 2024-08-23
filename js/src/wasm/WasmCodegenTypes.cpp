@@ -1155,6 +1155,9 @@ DebugStub
 case
 BuiltinThunk
 :
+case
+RequestTierUpStub
+:
 break
 ;
 default

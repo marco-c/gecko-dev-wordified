@@ -1931,11 +1931,9 @@ base
 code_
 -
 >
-sharedStubs
+debugStubOffset
 (
 )
-.
-debugStubOffset
 )
 ;
 }
