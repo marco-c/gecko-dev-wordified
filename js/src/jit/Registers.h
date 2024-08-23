@@ -1477,6 +1477,7 @@ reg
 ;
 }
 static
+constexpr
 Register64
 Invalid
 (
@@ -1590,6 +1591,7 @@ low
 ;
 }
 static
+constexpr
 Register64
 Invalid
 (
