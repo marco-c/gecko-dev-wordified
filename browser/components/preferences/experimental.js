@@ -564,7 +564,7 @@ experimentalCategory
 reset
 "
 "
-command
+click
 "
 gExperimentalPane
 .
