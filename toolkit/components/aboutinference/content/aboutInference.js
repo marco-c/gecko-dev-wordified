@@ -590,7 +590,7 @@ Viaduct
 runOptions
 :
 {
-max_length
+max_new_tokens
 :
 100
 }
