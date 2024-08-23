@@ -487,6 +487,9 @@ aDescriptor
 )
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 IsValid
@@ -494,6 +497,8 @@ IsValid
 )
 )
 ;
+#
+endif
 }
 ServiceWorkerRegistrationDescriptor
 :
