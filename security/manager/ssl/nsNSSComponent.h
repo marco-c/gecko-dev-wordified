@@ -270,6 +270,14 @@ FindClientCertificatesWithPrivateKeys
 (
 )
 ;
+CertVerifier
+:
+:
+CertificateTransparencyMode
+GetCertificateTransparencyMode
+(
+)
+;
 }
 /
 /
