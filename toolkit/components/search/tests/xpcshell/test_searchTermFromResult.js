@@ -329,15 +329,10 @@ function
 (
 )
 {
-await
 SearchTestUtils
 .
-useTestEngines
+setRemoteSettingsConfig
 (
-"
-data
-"
-null
 CONFIG_V2
 )
 ;

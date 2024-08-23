@@ -1826,12 +1826,6 @@ returns
 null
 )
 ;
-SearchTestUtils
-.
-useMockIdleService
-(
-)
-;
 Services
 .
 fog
