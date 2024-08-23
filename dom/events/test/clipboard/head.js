@@ -558,6 +558,7 @@ aCoordsP1
 x
 )
 <
+=
 aDelta
 &
 &
@@ -574,6 +575,7 @@ aCoordsP1
 y
 )
 <
+=
 aDelta
 )
 ;
