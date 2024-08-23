@@ -663,7 +663,10 @@ const
 LogEntry
 &
 expectedEntry
-SCTOrigin
+VerifiedSCT
+:
+:
+Origin
 origin
 pkix
 :
@@ -725,7 +728,10 @@ ct
 LogEntry
 &
 expectedEntry
-SCTOrigin
+VerifiedSCT
+:
+:
+Origin
 origin
 pkix
 :
