@@ -2872,7 +2872,7 @@ mDir
 quotaManager
 -
 >
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 *
 mDirectoryMetadata

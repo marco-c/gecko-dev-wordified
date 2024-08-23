@@ -320,7 +320,7 @@ directory
 quotaManager
 -
 >
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 aClientMetadata
 )

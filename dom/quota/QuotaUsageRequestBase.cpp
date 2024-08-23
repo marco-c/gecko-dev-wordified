@@ -358,7 +358,7 @@ initialized
 =
 aQuotaManager
 .
-IsOriginInitialized
+IsPersistentOriginInitializedInternal
 (
 aOriginMetadata
 .

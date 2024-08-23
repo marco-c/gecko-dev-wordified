@@ -1127,7 +1127,7 @@ fileSystemDirectory
 quotaManager
 -
 >
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 aOriginMetadata
 )

@@ -8974,12 +8974,12 @@ aClosure
 Helper
 to
 invoke
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 on
 the
+*
 QuotaManager
 IO
-*
 thread
 from
 the
@@ -8988,9 +8988,9 @@ connection
 thread
 when
 creating
+*
 a
 database
-*
 connection
 on
 demand
@@ -9002,9 +9002,9 @@ because
 we
 attempt
 to
+*
 defer
 the
-*
 creation
 of
 the
@@ -9015,8 +9015,8 @@ the
 database
 until
 absolutely
-needed
 *
+needed
 but
 the
 directory
@@ -9027,9 +9027,9 @@ initialization
 must
 happen
 on
+*
 the
 QM
-*
 IO
 thread
 for
@@ -9046,8 +9046,8 @@ use
 a
 mutex
 because
-there
 *
+there
 could
 be
 logic
@@ -24485,7 +24485,7 @@ directoryEntry
 quotaManager
 -
 >
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 mOriginMetadata
 )
@@ -39741,7 +39741,7 @@ QM_TRY_RETURN
 quotaManager
 -
 >
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 mOriginMetadata
 )

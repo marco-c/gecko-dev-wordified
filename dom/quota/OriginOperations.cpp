@@ -7870,7 +7870,7 @@ mCreated
 (
 aQuotaManager
 .
-EnsurePersistentOriginIsInitialized
+EnsurePersistentOriginIsInitializedInternal
 (
 OriginMetadata
 {
@@ -8062,7 +8062,7 @@ mCreated
 (
 aQuotaManager
 .
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 OriginMetadata
 {
@@ -8410,7 +8410,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-IsOriginInitialized
+IsPersistentOriginInitializedInternal
 (
 mClientMetadata
 .
@@ -8584,7 +8584,7 @@ MOZ_TO_RESULT
 (
 aQuotaManager
 .
-IsTemporaryOriginInitialized
+IsTemporaryOriginInitializedInternal
 (
 mClientMetadata
 )
@@ -10217,7 +10217,7 @@ PERSISTENCE_TYPE_PERSISTENT
 ?
 aQuotaManager
 .
-IsOriginInitialized
+IsPersistentOriginInitializedInternal
 (
 metadata
 .

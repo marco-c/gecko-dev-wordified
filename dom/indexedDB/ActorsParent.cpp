@@ -73321,7 +73321,7 @@ created
 quotaManager
 -
 >
-EnsurePersistentOriginIsInitialized
+EnsurePersistentOriginIsInitializedInternal
 (
 metadata
 )
@@ -73374,14 +73374,14 @@ repository
 /
 /
 so
-EnsurePersistentOriginIsInitialized
+EnsurePersistentOriginIsInitializedInternal
 shouldn
 '
 t
+/
+/
 report
 that
-/
-/
 a
 new
 directory
@@ -83804,7 +83804,7 @@ QM_TRY_RETURN
 quotaManager
 -
 >
-EnsurePersistentOriginIsInitialized
+EnsurePersistentOriginIsInitializedInternal
 (
 mOriginMetadata
 )
@@ -83829,7 +83829,7 @@ QM_TRY_RETURN
 quotaManager
 -
 >
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 mOriginMetadata
 )
@@ -92490,7 +92490,7 @@ QM_TRY_RETURN
 quotaManager
 -
 >
-EnsurePersistentOriginIsInitialized
+EnsurePersistentOriginIsInitializedInternal
 (
 mOriginMetadata
 )
@@ -92502,7 +92502,7 @@ QM_TRY_RETURN
 quotaManager
 -
 >
-EnsureTemporaryOriginIsInitialized
+EnsureTemporaryOriginIsInitializedInternal
 (
 mOriginMetadata
 )
