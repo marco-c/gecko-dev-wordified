@@ -297,6 +297,9 @@ class
 TextureHost
 ;
 class
+VideoProcessorD3D11
+;
+class
 CanvasTranslator
 final
 :
@@ -2348,6 +2351,15 @@ RefPtr
 ID3D11Device
 >
 mDevice
+;
+DataMutex
+<
+RefPtr
+<
+VideoProcessorD3D11
+>
+>
+mVideoProcessorD3D11
 ;
 #
 endif
