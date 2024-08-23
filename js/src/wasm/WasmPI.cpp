@@ -12297,7 +12297,7 @@ ResultsTypeIndex
 )
 ;
 const
-StructFieldVector
+FieldTypeVector
 &
 fields
 =
