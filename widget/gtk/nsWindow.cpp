@@ -51675,10 +51675,14 @@ eCursor_all_scroll
 :
 gdkcursor
 =
-gdk_cursor_new_for_display
+gdk_cursor_new_from_name
 (
 defaultDisplay
-GDK_FLEUR
+"
+all
+-
+scroll
+"
 )
 ;
 break
@@ -52579,7 +52583,9 @@ gdk_cursor_new_from_name
 (
 defaultDisplay
 "
-move
+all
+-
+scroll
 "
 )
 ;
