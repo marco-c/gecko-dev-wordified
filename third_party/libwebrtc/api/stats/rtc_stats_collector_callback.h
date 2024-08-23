@@ -124,9 +124,6 @@ class
 RTCStatsCollectorCallback
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

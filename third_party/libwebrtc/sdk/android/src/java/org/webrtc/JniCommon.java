@@ -125,9 +125,6 @@ increment
 /
 decrement
 an
-rtc
-:
-:
 RefCountInterface
 pointer
 .

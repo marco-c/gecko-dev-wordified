@@ -661,9 +661,6 @@ class
 EncoderSpecificSettings
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public
@@ -868,9 +865,6 @@ class
 VideoStreamFactoryInterface
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

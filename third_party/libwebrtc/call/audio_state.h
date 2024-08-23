@@ -188,9 +188,6 @@ class
 AudioState
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

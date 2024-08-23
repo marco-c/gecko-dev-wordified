@@ -282,9 +282,6 @@ class
 EncodedImageBufferInterface
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

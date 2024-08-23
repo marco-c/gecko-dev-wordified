@@ -689,9 +689,6 @@ transceiver_with_internal
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 RtpTransceiverProxyWithInternal
@@ -762,9 +759,6 @@ transceiver_with_internal
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 RtpTransceiverProxyWithInternal

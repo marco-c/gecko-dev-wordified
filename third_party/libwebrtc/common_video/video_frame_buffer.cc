@@ -356,9 +356,6 @@ private
 :
 friend
 class
-rtc
-:
-:
 RefCountedObject
 <
 WrappedYuvBuffer
@@ -1017,9 +1014,6 @@ private
 :
 friend
 class
-rtc
-:
-:
 RefCountedObject
 <
 WrappedYuv16BBuffer

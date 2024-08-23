@@ -478,9 +478,6 @@ private
 :
 friend
 class
-rtc
-:
-:
 RefCountedObject
 <
 MappableNativeBuffer
@@ -618,9 +615,6 @@ private
 :
 friend
 class
-rtc
-:
-:
 RefCountedObject
 <
 ScaledBuffer

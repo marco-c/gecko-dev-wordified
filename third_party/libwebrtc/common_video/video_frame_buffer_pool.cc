@@ -143,9 +143,6 @@ buffer
 /
 Cast
 to
-rtc
-:
-:
 RefCountedObject
 is
 safe
@@ -166,16 +163,10 @@ are
 either
 /
 /
-rtc
-:
-:
 RefCountedObject
 <
 I420Buffer
 >
-rtc
-:
-:
 RefCountedObject
 <
 I444Buffer
@@ -183,9 +174,6 @@ I444Buffer
 or
 /
 /
-rtc
-:
-:
 RefCountedObject
 <
 NV12Buffer
@@ -214,9 +202,6 @@ kI420
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I420Buffer
@@ -250,9 +235,6 @@ kI444
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I444Buffer
@@ -286,9 +268,6 @@ kI422
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I422Buffer
@@ -322,9 +301,6 @@ kI010
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I010Buffer
@@ -358,9 +334,6 @@ kI210
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I210Buffer
@@ -394,9 +367,6 @@ kI410
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I410Buffer
@@ -430,9 +400,6 @@ kNV12
 return
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 NV12Buffer
@@ -836,9 +803,6 @@ is
 /
 created
 .
-rtc
-:
-:
 RefCountedObject
 <
 I420Buffer
@@ -848,9 +812,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I420Buffer
@@ -1047,9 +1008,6 @@ I444Buffer
 is
 created
 .
-rtc
-:
-:
 RefCountedObject
 <
 I444Buffer
@@ -1059,9 +1017,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I444Buffer
@@ -1258,9 +1213,6 @@ I422Buffer
 is
 created
 .
-rtc
-:
-:
 RefCountedObject
 <
 I422Buffer
@@ -1270,9 +1222,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I422Buffer
@@ -1467,9 +1416,6 @@ is
 /
 created
 .
-rtc
-:
-:
 RefCountedObject
 <
 NV12Buffer
@@ -1479,9 +1425,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 NV12Buffer
@@ -1678,9 +1621,6 @@ I010Buffer
 is
 created
 .
-rtc
-:
-:
 RefCountedObject
 <
 I010Buffer
@@ -1690,9 +1630,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I010Buffer
@@ -1875,9 +1812,6 @@ I210Buffer
 is
 created
 .
-rtc
-:
-:
 RefCountedObject
 <
 I210Buffer
@@ -1887,9 +1821,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I210Buffer
@@ -2072,9 +2003,6 @@ I410Buffer
 is
 created
 .
-rtc
-:
-:
 RefCountedObject
 <
 I410Buffer
@@ -2084,9 +2012,6 @@ raw_buffer
 =
 static_cast
 <
-rtc
-:
-:
 RefCountedObject
 <
 I410Buffer

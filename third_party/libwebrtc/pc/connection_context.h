@@ -342,9 +342,6 @@ ConnectionContext
 final
 :
 public
-rtc
-:
-:
 RefCountedNonVirtual
 <
 ConnectionContext
@@ -799,9 +796,6 @@ dependencies
 ;
 friend
 class
-rtc
-:
-:
 RefCountedNonVirtual
 <
 ConnectionContext

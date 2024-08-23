@@ -240,9 +240,6 @@ class
 FrameDecryptorInterface
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 public

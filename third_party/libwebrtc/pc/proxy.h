@@ -187,9 +187,6 @@ class
 TestInterface
 :
 public
-rtc
-:
-:
 RefCountInterface
 {
 /
