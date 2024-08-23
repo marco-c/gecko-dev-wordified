@@ -727,7 +727,7 @@ contentType
 get
 (
 )
-CryptoSchemeToString
+EnumValueToString
 (
 scheme
 )
@@ -789,7 +789,7 @@ contentType
 get
 (
 )
-CryptoSchemeToString
+EnumValueToString
 (
 scheme
 )

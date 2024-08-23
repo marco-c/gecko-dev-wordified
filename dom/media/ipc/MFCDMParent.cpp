@@ -6205,7 +6205,7 @@ s
 %
 s
 "
-CryptoSchemeToString
+EnumValueToString
 (
 scheme
 )
@@ -6295,7 +6295,7 @@ s
 %
 s
 "
-CryptoSchemeToString
+EnumValueToString
 (
 scheme
 )
