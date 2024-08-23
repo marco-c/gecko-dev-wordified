@@ -78,14 +78,6 @@ rs
 >
 <
 %
-from
-data
-import
-DEFAULT_RULES_AND_POSITION_TRY
-%
->
-<
-%
 helpers
 :
 shorthand
@@ -6341,12 +6333,6 @@ self
 -
 property
 "
-rule_types_allowed
-=
-"
-Style
-PositionTry
-"
 >
 use
 crate
@@ -6993,9 +6979,6 @@ propdef
 -
 inset
 "
-rule_types_allowed
-=
-DEFAULT_RULES_AND_POSITION_TRY
 allow_quirks
 =
 "
@@ -7066,9 +7049,6 @@ inset
 -
 block
 "
-rule_types_allowed
-=
-DEFAULT_RULES_AND_POSITION_TRY
 )
 }
 {
@@ -7134,9 +7114,6 @@ inset
 -
 inline
 "
-rule_types_allowed
-=
-DEFAULT_RULES_AND_POSITION_TRY
 )
 }
 {

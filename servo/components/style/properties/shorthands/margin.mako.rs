@@ -82,8 +82,6 @@ from
 data
 import
 DEFAULT_RULES_AND_PAGE
-POSITION_TRY_RULE
-DEFAULT_RULES_AND_POSITION_TRY
 %
 >
 {
@@ -140,8 +138,6 @@ margin
 rule_types_allowed
 =
 DEFAULT_RULES_AND_PAGE
-|
-POSITION_TRY_RULE
 allow_quirks
 =
 "
@@ -212,9 +208,6 @@ margin
 -
 block
 "
-rule_types_allowed
-=
-DEFAULT_RULES_AND_POSITION_TRY
 )
 }
 {
@@ -280,9 +273,6 @@ margin
 -
 inline
 "
-rule_types_allowed
-=
-DEFAULT_RULES_AND_POSITION_TRY
 )
 }
 {
