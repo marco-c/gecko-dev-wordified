@@ -3009,7 +3009,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 ;
 break
 ;
@@ -3289,7 +3289,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 return
@@ -3473,7 +3473,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 MOZ_ASSERT
@@ -3786,7 +3786,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 MOZ_ASSERT
@@ -4178,7 +4178,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 const
@@ -4233,7 +4233,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 const
@@ -4288,7 +4288,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 const
@@ -4342,7 +4342,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 const
@@ -4394,7 +4394,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 const
@@ -4445,7 +4445,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 const
@@ -4496,7 +4496,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 const
@@ -4547,7 +4547,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 const
@@ -4593,7 +4593,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 const
@@ -4677,7 +4677,6 @@ return
 nullptr
 ;
 }
-else
 if
 (
 mFormat
@@ -4689,7 +4688,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 result

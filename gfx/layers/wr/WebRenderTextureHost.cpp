@@ -1076,7 +1076,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 /

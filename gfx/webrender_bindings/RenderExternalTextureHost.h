@@ -391,7 +391,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 ;
 }
 size_t

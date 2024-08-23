@@ -275,7 +275,7 @@ the
 Webrender
 only
 supports
-YUV422
+YUY2
 interleaving
 /
 /
@@ -297,7 +297,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 |
 |
 readFormat
@@ -309,7 +309,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 ;
 return

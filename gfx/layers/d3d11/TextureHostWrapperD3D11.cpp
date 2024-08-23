@@ -1254,7 +1254,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 MOZ_ASSERT_UNREACHABLE

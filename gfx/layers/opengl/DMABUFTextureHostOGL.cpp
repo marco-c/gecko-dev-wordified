@@ -903,7 +903,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 {
 MOZ_ASSERT
@@ -1357,7 +1357,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 {
 MOZ_ASSERT

@@ -462,7 +462,7 @@ already_AddRefed
 <
 MacIOSurface
 >
-CreateYUV422Surface
+CreateYUY2Surface
 (
 const
 IntSize

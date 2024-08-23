@@ -1044,7 +1044,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 case
 gfx
@@ -1545,7 +1545,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 {
 return
@@ -2578,7 +2578,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 ;
 if
@@ -2952,7 +2952,7 @@ gfx
 SurfaceFormat
 :
 :
-YUV
+YUV420
 )
 ;
 if

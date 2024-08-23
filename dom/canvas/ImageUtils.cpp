@@ -326,7 +326,7 @@ case
 SurfaceFormat
 :
 :
-YUV
+YUV420
 :
 case
 SurfaceFormat

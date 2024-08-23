@@ -267,7 +267,7 @@ ioFormat
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 &
 &
@@ -667,7 +667,7 @@ ioFormat
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 {
 if
@@ -1388,7 +1388,7 @@ ioFormat
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 ?
 SurfaceFormat
@@ -1691,7 +1691,7 @@ ioFormat
 SurfaceFormat
 :
 :
-YUV422
+YUY2
 )
 ?
 SurfaceFormat
