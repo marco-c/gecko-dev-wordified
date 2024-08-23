@@ -135,6 +135,7 @@ traits
 CommonMetricData
 DistributionData
 ErrorType
+LabeledMetricData
 Lifetime
 MemoryUnit
 RecordedEvent
