@@ -496,9 +496,6 @@ bind
 (
 this
 )
-earlyEvents
-:
-true
 }
 )
 ;
