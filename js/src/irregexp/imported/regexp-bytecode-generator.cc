@@ -2004,7 +2004,7 @@ Backtrack
 ;
 Handle
 <
-ByteArray
+TrustedByteArray
 >
 array
 ;
@@ -2051,7 +2051,7 @@ factory
 )
 -
 >
-NewByteArray
+NewTrustedByteArray
 (
 length
 (

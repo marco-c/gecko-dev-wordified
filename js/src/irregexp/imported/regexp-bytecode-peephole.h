@@ -59,7 +59,7 @@ namespace
 internal
 {
 class
-ByteArray
+TrustedByteArray
 ;
 /
 /
@@ -123,7 +123,7 @@ bytecode
 static
 Handle
 <
-ByteArray
+TrustedByteArray
 >
 OptimizeBytecode
 (
@@ -133,7 +133,7 @@ isolate
 Zone
 *
 zone
-Handle
+DirectHandle
 <
 String
 >

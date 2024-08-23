@@ -340,16 +340,6 @@ referenced
 \
 T
 (
-InvalidClassEscape
-"
-Invalid
-class
-escape
-"
-)
-\
-T
-(
 InvalidClassPropertyName
 "
 Invalid
