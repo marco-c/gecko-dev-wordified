@@ -84992,12 +84992,6 @@ OwnerDoc
 HasValidTransientUserGestureActivation
 (
 )
-/
-*
-aNewWindowTarget
-*
-/
-false
 )
 ;
 }
