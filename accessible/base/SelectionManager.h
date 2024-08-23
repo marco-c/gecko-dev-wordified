@@ -115,9 +115,6 @@ WeakPtr
 .
 h
 "
-class
-nsRange
-;
 namespace
 mozilla
 {
@@ -127,6 +124,9 @@ PresShell
 namespace
 dom
 {
+class
+AbstractRange
+;
 class
 Element
 ;
@@ -658,7 +658,10 @@ void
 SpellCheckRangeChanged
 (
 const
-nsRange
+dom
+:
+:
+AbstractRange
 &
 aRange
 )
