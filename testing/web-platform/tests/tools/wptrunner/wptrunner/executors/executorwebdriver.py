@@ -90,6 +90,8 @@ VirtualSensorProtocolPart
                        
 DevicePostureProtocolPart
                        
+StorageProtocolPart
+                       
 merge_dicts
 )
 from
@@ -3097,6 +3099,53 @@ deviceposture
 "
 )
 class
+WebDriverStorageProtocolPart
+(
+StorageProtocolPart
+)
+:
+    
+def
+setup
+(
+self
+)
+:
+        
+self
+.
+webdriver
+=
+self
+.
+parent
+.
+webdriver
+    
+def
+run_bounce_tracking_mitigations
+(
+self
+)
+:
+        
+return
+self
+.
+webdriver
+.
+send_session_command
+(
+"
+DELETE
+"
+"
+storage
+/
+run_bounce_tracking_mitigations
+"
+)
+class
 WebDriverProtocol
 (
 Protocol
@@ -3143,6 +3192,8 @@ WebDriverDebugProtocolPart
 WebDriverVirtualSensorPart
                   
 WebDriverDevicePostureProtocolPart
+                  
+WebDriverStorageProtocolPart
 ]
     
 def
