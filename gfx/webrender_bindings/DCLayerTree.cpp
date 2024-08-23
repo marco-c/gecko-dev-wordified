@@ -10266,6 +10266,10 @@ maxSlowPresentCount
 return
 ;
 }
+DisableVideoOverlay
+(
+)
+;
 if
 (
 overlayType
