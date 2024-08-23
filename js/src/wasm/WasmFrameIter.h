@@ -841,14 +841,13 @@ call
 to
 trap
 handler
-DebugTrap
+DebugStub
 /
 /
 call
 to
 debug
-trap
-handler
+stub
 }
 ;
 private

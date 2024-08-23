@@ -2420,7 +2420,7 @@ jumps
 to
 throw
 stub
-DebugTrap
+DebugStub
 /
 /
 calls
@@ -2777,7 +2777,7 @@ TrapExit
 ;
 }
 bool
-isDebugTrap
+isDebugStub
 (
 )
 const
@@ -2788,7 +2788,7 @@ kind
 )
 =
 =
-DebugTrap
+DebugStub
 ;
 }
 bool
@@ -2811,8 +2811,8 @@ FarJumpIsland
 Functions
 import
 exits
-trap
-exits
+debug
+stubs
 and
 JitEntry
 stubs
@@ -2862,7 +2862,7 @@ isImportExit
 )
 |
 |
-isDebugTrap
+isDebugStub
 (
 )
 |

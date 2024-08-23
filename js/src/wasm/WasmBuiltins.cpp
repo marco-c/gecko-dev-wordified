@@ -11209,7 +11209,7 @@ HandleDebugTrap
 :
 /
 /
-GenerateDebugTrapStub
+GenerateDebugStub
 /
 /
 No

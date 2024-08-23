@@ -2488,7 +2488,7 @@ not
 serialized
 .
 uint32_t
-debugTrapOffset
+debugStubOffset
 ;
 /
 /
@@ -2576,7 +2576,7 @@ kind
 (
 kind
 )
-debugTrapOffset
+debugStubOffset
 (
 0
 )
