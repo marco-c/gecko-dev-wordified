@@ -1348,13 +1348,6 @@ mozilla
 WebGLFramebufferJS
 *
 fb
-mozilla
-:
-:
-layers
-:
-:
-TextureType
 const
 bool
 webvr

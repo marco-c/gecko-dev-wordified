@@ -6369,10 +6369,6 @@ PresentFrontBuffer
 (
 WebGLFramebufferJS
 *
-layers
-:
-:
-TextureType
 const
 bool
 webvr
