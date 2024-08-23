@@ -710,6 +710,9 @@ dom
 '
 html
 '
+'
+websockets
+'
 ]
 async
 idlArray
