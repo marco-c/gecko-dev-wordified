@@ -1319,14 +1319,6 @@ database
 void
 WaitForPreload
 (
-mozilla
-:
-:
-Telemetry
-:
-:
-HistogramID
-aTelemetryID
 )
 ;
 /
