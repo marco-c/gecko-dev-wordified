@@ -498,6 +498,8 @@ bool
 aWasTriggeredExternally
 bool
 aHasValidUserGestureActivation
+bool
+aNewWindowTarget
 )
 override
 ;
