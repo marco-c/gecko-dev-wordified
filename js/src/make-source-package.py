@@ -974,11 +974,8 @@ js
 +
 /
 .
-eslintignore
-+
-/
-.
 eslintrc
+*
 .
 js
 +
