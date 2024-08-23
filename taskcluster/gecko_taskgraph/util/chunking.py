@@ -644,25 +644,6 @@ False
 )
         
 "
-mingwclang
-"
-:
-setting
-[
-"
-build
-"
-]
-.
-get
-(
-"
-mingwclang
-"
-False
-)
-        
-"
 nightly_build
 "
 :
@@ -685,60 +666,8 @@ try
 ]
 #
 trunk
-        
-"
-repo
-"
-:
-repo
     
 }
-    
-#
-the
-following
-are
-used
-to
-evaluate
-reftest
-skip
--
-if
-    
-info
-[
-"
-release_or_beta
-"
-]
-=
-not
-info
-[
-"
-nightly_build
-"
-]
-#
-TO
-BE
-VALIDATED
-    
-info
-[
-"
-webrtc
-"
-]
-=
-not
-info
-[
-"
-mingwclang
-"
-]
     
 for
 platform
@@ -1070,30 +999,6 @@ toolkit
 "
 gtk
 "
-        
-info
-[
-"
-display
-"
-]
-=
-setting
-[
-"
-platform
-"
-]
-.
-get
-(
-"
-display
-"
-"
-x11
-"
-)
     
 #
 guess
@@ -1145,22 +1050,7 @@ macosx
 "
 11
 .
-20
-"
-        
-(
-"
-macosx
-"
-"
-1400
-"
-)
-:
-"
-14
-.
-40
+00
 "
         
 (
@@ -1175,7 +1065,7 @@ windows
 "
 10
 .
-2009
+0
 "
         
 (
@@ -1190,7 +1080,7 @@ windows
 "
 11
 .
-2009
+0
 "
     
 }
@@ -2257,7 +2147,7 @@ get_manifests
 (
 self
 suite
-frozen_mozinfo
+mozinfo
 )
 :
         
@@ -2265,7 +2155,7 @@ mozinfo
 =
 dict
 (
-frozen_mozinfo
+mozinfo
 )
         
 #
