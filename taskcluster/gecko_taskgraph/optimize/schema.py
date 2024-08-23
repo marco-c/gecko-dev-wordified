@@ -207,6 +207,22 @@ backstop
 None
 }
     
+{
+"
+skip
+-
+unless
+-
+android
+-
+perftest
+-
+backstop
+"
+:
+None
+}
+    
 #
 skip
 this

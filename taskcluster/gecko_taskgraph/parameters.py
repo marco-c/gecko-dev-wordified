@@ -94,6 +94,15 @@ gecko_parameters_schema
 Required
 (
 "
+android_perftest_backstop
+"
+)
+:
+bool
+    
+Required
+(
+"
 app_version
 "
 )
@@ -916,6 +925,12 @@ None
     
 return
 {
+        
+"
+android_perftest_backstop
+"
+:
+False
         
 "
 app_version
