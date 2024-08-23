@@ -4495,6 +4495,13 @@ if
 (
 !
 actor
+|
+|
+actor
+.
+isDestroyed
+(
+)
 )
 {
 actor
