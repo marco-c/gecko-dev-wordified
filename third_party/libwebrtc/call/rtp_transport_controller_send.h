@@ -1213,6 +1213,10 @@ const
 bool
 add_pacing_to_cwin_
 ;
+const
+bool
+reset_bwe_on_adapter_id_change_
+;
 FieldTrialParameter
 <
 DataRate
