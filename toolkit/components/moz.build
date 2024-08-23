@@ -141,6 +141,9 @@ DIRS
 aboutcheckerboard
 "
 "
+aboutinference
+"
+"
 aboutmemory
 "
 "
