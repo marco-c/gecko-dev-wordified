@@ -207,7 +207,7 @@ Units
 gfx
 :
 :
-Matrix4x4Typed
+Matrix4x4TypedFlagged
 <
 Units
 Units
@@ -535,7 +535,7 @@ return
 gfx
 :
 :
-Matrix4x4Typed
+Matrix4x4TypedFlagged
 <
 Units
 Units
@@ -565,7 +565,7 @@ y
 )
 ;
 }
-CSSToCSSMatrix4x4
+CSSToCSSMatrix4x4Flagged
 GetVisualToLayoutTransform
 (
 PresShell
@@ -1720,7 +1720,7 @@ ViewportUtils
 cpp
 .
 template
-CSSToCSSMatrix4x4
+CSSToCSSMatrix4x4Flagged
 ViewportUtils
 :
 :
@@ -1736,7 +1736,7 @@ ViewID
 )
 ;
 template
-LayoutDeviceToLayoutDeviceMatrix4x4
+LayoutDeviceToLayoutDeviceMatrix4x4Flagged
 ViewportUtils
 :
 :

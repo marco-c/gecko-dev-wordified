@@ -53725,7 +53725,7 @@ GetParent
 )
 )
 ;
-Matrix4x4
+Matrix4x4Flagged
 result
 ;
 int32_t
@@ -53780,6 +53780,17 @@ if
 isTransformed
 )
 {
+/
+/
+Note
+:
+this
+converts
+from
+Matrix4x4
+to
+Matrix4x4Flagged
+.
 result
 =
 nsDisplayTransform
@@ -53903,7 +53914,7 @@ if
 zoomedContentRoot
 )
 {
-Matrix4x4
+Matrix4x4Flagged
 layoutToVisual
 ;
 ScrollableLayerGuid

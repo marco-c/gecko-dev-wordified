@@ -304,7 +304,7 @@ static
 gfx
 :
 :
-Matrix4x4Typed
+Matrix4x4TypedFlagged
 <
 Units
 Units
@@ -1012,7 +1012,7 @@ source
 .
 extern
 template
-CSSToCSSMatrix4x4
+CSSToCSSMatrix4x4Flagged
 ViewportUtils
 :
 :
@@ -1032,7 +1032,7 @@ ViewID
 ;
 extern
 template
-LayoutDeviceToLayoutDeviceMatrix4x4
+LayoutDeviceToLayoutDeviceMatrix4x4Flagged
 ViewportUtils
 :
 :
