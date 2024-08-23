@@ -7823,7 +7823,7 @@ flags
 nsIProtocolHandler
 :
 :
-WEBEXT_URI_WEB_ACCESSIBLE
+URI_IS_WEBEXTENSION_RESOURCE
 )
 {
 securityFlagsSet

@@ -471,6 +471,8 @@ true
 if
 a
 given
+moz
+-
 extension
 :
 /
@@ -500,7 +502,8 @@ the
 extension
 URI
 has
-URI_WEB_ACCESSIBLE
+*
+URI_IS_WEBEXTENSION_RESOURCE
 .
 *
 /
@@ -513,6 +516,12 @@ aSourceURI
 in
 nsIURI
 aExtensionURI
+[
+optional
+]
+in
+boolean
+aFromPrivateWindow
 )
 ;
 /
