@@ -1294,6 +1294,14 @@ AutoRangeArray
 .
 h
 class
+AutoSelectionRestorer
+;
+/
+/
+AutoSelectionRestorer
+.
+h
+class
 AutoSelectionRangeArray
 ;
 /

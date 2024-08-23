@@ -152,6 +152,13 @@ h
 #
 include
 "
+AutoSelectionRestorer
+.
+h
+"
+#
+include
+"
 CSSEditUtils
 .
 h
@@ -3669,7 +3676,6 @@ spaces
 AutoSelectionRestorer
 restoreSelection
 (
-*
 this
 )
 ;
@@ -31075,7 +31081,6 @@ StealNSResult
 AutoSelectionRestorer
 restoreSelectionLater
 (
-*
 this
 )
 ;
@@ -40864,7 +40869,6 @@ IsEditActionDataAvailable
 AutoSelectionRestorer
 restoreSelectionLater
 (
-*
 this
 )
 ;
@@ -79304,7 +79308,6 @@ aTargetElement
 AutoSelectionRestorer
 restoreSelectionLater
 (
-*
 this
 )
 ;
@@ -82633,7 +82636,6 @@ NS_ERROR_FAILURE
 AutoSelectionRestorer
 restoreSelectionLater
 (
-*
 this
 )
 ;
@@ -83158,7 +83160,6 @@ NS_ERROR_FAILURE
 AutoSelectionRestorer
 restoreSelectionLater
 (
-*
 this
 )
 ;

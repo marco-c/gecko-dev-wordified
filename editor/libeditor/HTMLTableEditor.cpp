@@ -117,6 +117,13 @@ h
 #
 include
 "
+AutoSelectionRestorer
+.
+h
+"
+#
+include
+"
 EditAction
 .
 h
@@ -20376,7 +20383,6 @@ nodes
 AutoSelectionRestorer
 restoreSelectionLater
 (
-*
 this
 )
 ;
@@ -25523,7 +25529,6 @@ selection
 AutoSelectionRestorer
 restoreSelectionLater
 (
-*
 this
 )
 ;

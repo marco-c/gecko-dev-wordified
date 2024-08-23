@@ -18267,7 +18267,6 @@ AllowBeforeInputEventCancelable
 :
 :
 No
-nullptr
 )
 ;
 NS_WARNING_ASSERTION

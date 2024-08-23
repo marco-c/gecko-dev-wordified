@@ -128,6 +128,13 @@ h
 #
 include
 "
+AutoSelectionRestorer
+.
+h
+"
+#
+include
+"
 EditAction
 .
 h
@@ -4592,6 +4599,7 @@ it
 AutoSelectionRestorer
 restoreSelectionLater
 (
+&
 mHTMLEditor
 )
 ;
