@@ -140,6 +140,7 @@ of
 VideoEncoderConfig
 .
 struct
+RTC_EXPORT
 SimulcastStream
 {
 /
