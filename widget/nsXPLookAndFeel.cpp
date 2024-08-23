@@ -1110,6 +1110,11 @@ GtkCSDAvailable
 "
 ui
 .
+GtkCSDTransparencyAvailable
+"
+"
+ui
+.
 GtkCSDMinimizeButton
 "
 "

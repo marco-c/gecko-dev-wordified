@@ -185,8 +185,6 @@ SetRenderingSurface
 (
 uintptr_t
 aXWindow
-bool
-aShaped
 )
 ;
 child
