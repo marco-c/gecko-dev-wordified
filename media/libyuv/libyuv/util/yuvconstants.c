@@ -616,6 +616,9 @@ return
 float
 kr
 =
+(
+float
+)
 atof
 (
 argv
@@ -627,6 +630,9 @@ argv
 float
 kb
 =
+(
+float
+)
 atof
 (
 argv

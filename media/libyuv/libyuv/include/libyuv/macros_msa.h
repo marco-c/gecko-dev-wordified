@@ -153,7 +153,6 @@ val_m
 ;
 \
 asm
-volatile
 (
 "
 lw
@@ -240,7 +239,6 @@ val_m
 ;
 \
 asm
-volatile
 (
 "
 ld
@@ -462,7 +460,6 @@ val
 ;
 \
 asm
-volatile
 (
 "
 sw
@@ -552,7 +549,6 @@ val
 ;
 \
 asm
-volatile
 (
 "
 sd
@@ -742,10 +738,8 @@ val_lw_m
 ;
 \
 \
-__asm__
-volatile
+asm
 (
-\
 "
 lwr
 %
@@ -855,10 +849,8 @@ val_ld_m
 ;
 \
 \
-__asm__
-volatile
+asm
 (
-\
 "
 ldr
 %
@@ -1105,7 +1097,6 @@ val
 ;
 \
 asm
-volatile
 (
 "
 usw

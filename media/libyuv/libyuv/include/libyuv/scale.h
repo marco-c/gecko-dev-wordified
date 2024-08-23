@@ -170,8 +170,15 @@ a
 YUV
 plane
 .
+/
+/
+Returns
+0
+if
+successful
+.
 LIBYUV_API
-void
+int
 ScalePlane
 (
 const
@@ -199,7 +206,7 @@ filtering
 )
 ;
 LIBYUV_API
-void
+int
 ScalePlane_16
 (
 const
@@ -240,7 +247,7 @@ low
 bits
 .
 LIBYUV_API
-void
+int
 ScalePlane_12
 (
 const

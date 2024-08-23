@@ -864,7 +864,6 @@ void
 src_stride
 ;
 asm
-volatile
 (
 /
 /
@@ -1056,7 +1055,6 @@ void
 src_stride
 ;
 asm
-volatile
 (
 "
 pcmpeqb
@@ -1311,7 +1309,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pcmpeqb
@@ -1898,7 +1895,6 @@ void
 src_stride
 ;
 asm
-volatile
 (
 "
 vpcmpeqb
@@ -2197,7 +2193,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqb
@@ -2636,7 +2631,6 @@ void
 src_stride
 ;
 asm
-volatile
 (
 "
 pcmpeqb
@@ -2876,7 +2870,6 @@ intptr_t
 stridex3
 ;
 asm
-volatile
 (
 "
 pcmpeqb
@@ -3433,7 +3426,6 @@ void
 src_stride
 ;
 asm
-volatile
 (
 "
 vpcmpeqb
@@ -3723,7 +3715,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqb
@@ -4356,7 +4347,6 @@ void
 src_stride
 ;
 asm
-volatile
 (
 "
 movdqa
@@ -4669,7 +4659,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 movdqa
@@ -4745,7 +4734,6 @@ kShuf21
 )
 ;
 asm
-volatile
 (
 "
 movdqa
@@ -5294,7 +5282,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 movdqa
@@ -5370,7 +5357,6 @@ kShuf21
 )
 ;
 asm
-volatile
 (
 "
 movdqa
@@ -5957,7 +5943,6 @@ void
 src_stride
 ;
 asm
-volatile
 (
 "
 movdqa
@@ -6212,7 +6197,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 movdqa
@@ -6616,7 +6600,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 movdqa
@@ -7269,7 +7252,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pxor
@@ -9315,7 +9297,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 movdqa
@@ -9862,7 +9843,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pcmpeqw
@@ -11164,7 +11144,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pxor
@@ -11729,7 +11708,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pxor
@@ -13316,7 +13294,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pcmpeqw
@@ -13766,7 +13743,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pcmpeqw
@@ -14848,7 +14824,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqw
@@ -15346,7 +15321,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqw
@@ -16498,7 +16472,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vbroadcastf128
@@ -17092,7 +17065,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vbroadcastf128
@@ -17947,7 +17919,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqd
@@ -18527,7 +18498,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqd
@@ -19865,7 +19835,6 @@ src_width
 )
 {
 asm
-volatile
 (
 "
 pxor
@@ -20144,7 +20113,6 @@ src_width
 )
 {
 asm
-volatile
 (
 "
 vpxor
@@ -20490,7 +20458,6 @@ x1
 temp_pixel
 ;
 asm
-volatile
 (
 "
 movd
@@ -22244,7 +22211,6 @@ void
 src_stride
 ;
 asm
-volatile
 (
 "
 lea
@@ -22567,7 +22533,6 @@ src_stride
 )
 ;
 asm
-volatile
 (
 "
 lea
@@ -22989,7 +22954,6 @@ x0
 x1
 ;
 asm
-volatile
 (
 "
 movd
@@ -23947,7 +23911,6 @@ x0
 x1
 ;
 asm
-volatile
 (
 "
 movdqa
@@ -23994,7 +23957,6 @@ kShuffleFractions
 )
 ;
 asm
-volatile
 (
 "
 movd
@@ -24450,13 +24412,6 @@ LABELALIGN
 \
 n
 "
-/
-/
-clang
--
-format
-error
-.
 :
 "
 +
@@ -24593,7 +24548,6 @@ div
 )
 {
 asm
-volatile
 (
 "
 cdq
@@ -24707,7 +24661,6 @@ div
 )
 {
 asm
-volatile
 (
 "
 cdq
@@ -24915,7 +24868,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pcmpeqb
@@ -25321,7 +25273,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqb
@@ -25806,7 +25757,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pcmpeqw
@@ -26265,7 +26215,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pcmpeqw
@@ -27337,7 +27286,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqw
@@ -27815,7 +27763,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqw
@@ -28933,7 +28880,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pxor
@@ -29490,7 +29436,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 pxor
@@ -30800,7 +30745,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqd
@@ -31368,7 +31312,6 @@ dst_width
 )
 {
 asm
-volatile
 (
 "
 vpcmpeqd
