@@ -127,6 +127,17 @@ time_delta
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -156,6 +167,7 @@ false
 }
 ;
 class
+RTC_EXPORT
 GoogCcNetworkControllerFactory
 :
 public

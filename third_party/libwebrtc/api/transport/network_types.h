@@ -196,6 +196,7 @@ StreamsConfig
 struct
 .
 struct
+RTC_EXPORT
 BitrateAllocationLimits
 {
 /
@@ -310,6 +311,7 @@ for
 experiments
 .
 struct
+RTC_EXPORT
 StreamsConfig
 {
 StreamsConfig
@@ -439,6 +441,7 @@ max_total_allocated_bitrate
 }
 ;
 struct
+RTC_EXPORT
 TargetRateConstraints
 {
 TargetRateConstraints
@@ -530,6 +533,7 @@ Send
 side
 information
 struct
+RTC_EXPORT
 NetworkAvailability
 {
 Timestamp
@@ -550,6 +554,7 @@ false
 }
 ;
 struct
+RTC_EXPORT
 NetworkRouteChange
 {
 NetworkRouteChange
@@ -604,6 +609,7 @@ constraints
 }
 ;
 struct
+RTC_EXPORT
 PacedPacketInfo
 {
 PacedPacketInfo
@@ -692,6 +698,7 @@ probe_cluster_bytes_sent
 }
 ;
 struct
+RTC_EXPORT
 SentPacket
 {
 Timestamp
@@ -857,6 +864,7 @@ Zero
 }
 ;
 struct
+RTC_EXPORT
 ReceivedPacket
 {
 Timestamp
@@ -897,6 +905,7 @@ Transport
 level
 feedback
 struct
+RTC_EXPORT
 RemoteBitrateReport
 {
 Timestamp
@@ -922,6 +931,7 @@ Infinity
 }
 ;
 struct
+RTC_EXPORT
 RoundTripTimeUpdate
 {
 Timestamp
@@ -952,6 +962,7 @@ false
 }
 ;
 struct
+RTC_EXPORT
 TransportLossReport
 {
 Timestamp
@@ -1002,6 +1013,7 @@ Packet
 level
 feedback
 struct
+RTC_EXPORT
 PacketResult
 {
 class
@@ -1074,6 +1086,7 @@ PlusInfinity
 }
 ;
 struct
+RTC_EXPORT
 TransportPacketsFeedback
 {
 TransportPacketsFeedback
@@ -1197,6 +1210,7 @@ const
 Network
 estimation
 struct
+RTC_EXPORT
 NetworkEstimate
 {
 Timestamp
@@ -1261,6 +1275,7 @@ loss_rate_ratio
 Network
 control
 struct
+RTC_EXPORT
 PacerConfig
 {
 Timestamp
@@ -1356,6 +1371,7 @@ time_window
 }
 ;
 struct
+RTC_EXPORT
 ProbeClusterConfig
 {
 Timestamp
@@ -1431,6 +1447,7 @@ id
 }
 ;
 struct
+RTC_EXPORT
 TargetTransferRate
 {
 Timestamp
@@ -1528,6 +1545,7 @@ not
 empty
 .
 struct
+RTC_EXPORT
 NetworkControlUpdate
 {
 NetworkControlUpdate
@@ -1625,6 +1643,7 @@ target_rate
 Process
 control
 struct
+RTC_EXPORT
 ProcessInterval
 {
 Timestamp
@@ -1659,6 +1678,7 @@ without
 notice
 .
 struct
+RTC_EXPORT
 NetworkStateEstimate
 {
 double
