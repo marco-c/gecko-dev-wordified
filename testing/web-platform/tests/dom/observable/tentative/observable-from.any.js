@@ -256,7 +256,7 @@ observable
 =
 target
 .
-on
+when
 (
 '
 custom

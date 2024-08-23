@@ -104,7 +104,7 @@ captureObservable
 =
 body
 .
-on
+when
 (
 '
 click
@@ -121,7 +121,7 @@ bubbleObservable
 =
 body
 .
-on
+when
 (
 '
 click
@@ -237,7 +237,7 @@ observable
 =
 target
 .
-on
+when
 (
 '
 event

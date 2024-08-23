@@ -875,7 +875,7 @@ source
 =
 event_target
 .
-on
+when
 (
 '
 customevent
