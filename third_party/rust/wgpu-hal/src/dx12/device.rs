@@ -2724,6 +2724,14 @@ super
 :
 Buffer
 )
+-
+>
+Result
+<
+(
+)
+DeviceError
+>
 {
 unsafe
 {
@@ -2746,6 +2754,11 @@ null
 )
 }
 ;
+Ok
+(
+(
+)
+)
 }
 unsafe
 fn

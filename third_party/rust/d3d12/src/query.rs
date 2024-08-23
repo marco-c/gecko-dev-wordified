@@ -62,7 +62,7 @@ d3d12
 D3D12_QUERY_HEAP_TYPE_SO_STATISTICS
 /
 /
-VideoDecodeStatistics
+VideoDecodeStatistcs
 =
 d3d12
 :

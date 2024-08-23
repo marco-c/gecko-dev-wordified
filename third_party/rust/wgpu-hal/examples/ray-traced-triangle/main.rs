@@ -2631,6 +2631,10 @@ unmap_buffer
 &
 vertices_buffer
 )
+.
+unwrap
+(
+)
 ;
 assert
 !
@@ -2767,6 +2771,10 @@ unmap_buffer
 (
 &
 indices_buffer
+)
+.
+unwrap
+(
 )
 ;
 assert
@@ -3305,6 +3313,10 @@ unmap_buffer
 (
 &
 uniform_buffer
+)
+.
+unwrap
+(
 )
 ;
 assert
@@ -4023,6 +4035,10 @@ unmap_buffer
 (
 &
 instances_buffer
+)
+.
+unwrap
+(
 )
 ;
 assert
@@ -4878,6 +4894,10 @@ unmap_buffer
 self
 .
 instances_buffer
+)
+.
+unwrap
+(
 )
 ;
 assert

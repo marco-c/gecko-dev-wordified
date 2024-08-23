@@ -937,9 +937,6 @@ required
 }
 }
 bitflags
-:
-:
-bitflags
 !
 {
 /
@@ -1572,6 +1569,12 @@ functionType
 /
 TODO
 :
+/
+/
+MTLVisibleFunctionTableDescriptor
+/
+/
+MTLVisibleFunctionTable
 /
 /
 MTLIntersectionFunctionSignature

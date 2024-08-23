@@ -424,9 +424,6 @@ NSUInteger
 MTLResourceHazardTrackingModeShift
 ;
 bitflags
-:
-:
-bitflags
 !
 {
 /
@@ -668,9 +665,6 @@ MTLResourceHazardTrackingModeShift
 ;
 }
 }
-bitflags
-:
-:
 bitflags
 !
 {
