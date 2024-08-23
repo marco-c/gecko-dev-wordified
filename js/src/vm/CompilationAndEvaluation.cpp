@@ -481,7 +481,7 @@ h
 js
 :
 :
-StringBuffer
+StringBuilder
 #
 include
 "
@@ -1658,7 +1658,7 @@ JSAtom
 >
 nameAtom_
 ;
-StringBuffer
+StringBuilder
 funStr_
 ;
 uint32_t

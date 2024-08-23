@@ -542,7 +542,7 @@ h
 "
 /
 /
-StringBuffer
+StringBuilder
 #
 include
 "
@@ -16474,7 +16474,7 @@ TaggedParserAtomIndex
 propAtom
 )
 {
-StringBuffer
+StringBuilder
 prefixed
 (
 fc_
@@ -46005,7 +46005,7 @@ accessor
 storage
 "
 .
-StringBuffer
+StringBuilder
 privateStateDesc
 (
 fc_
@@ -52681,7 +52681,7 @@ the
 accessor
 body
 .
-StringBuffer
+StringBuilder
 storedMethodName
 (
 fc_
@@ -53784,7 +53784,7 @@ set
 "
 )
 .
-StringBuffer
+StringBuilder
 storedMethodName
 (
 fc_

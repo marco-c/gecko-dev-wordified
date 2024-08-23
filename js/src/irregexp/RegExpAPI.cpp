@@ -1945,7 +1945,7 @@ line
 /
 terminator
 .
-StringBuffer
+StringBuilder
 windowBuf
 (
 ts
@@ -1982,7 +1982,7 @@ null
 -
 terminated
 and
-StringBuffer
+StringBuilder
 doesn
 '
 t

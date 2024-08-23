@@ -143,7 +143,7 @@ namespace
 js
 {
 class
-StringBuffer
+StringBuilder
 ;
 extern
 const
@@ -393,7 +393,7 @@ const
 Value
 &
 space
-StringBuffer
+StringBuilder
 &
 sb
 StringifyBehavior

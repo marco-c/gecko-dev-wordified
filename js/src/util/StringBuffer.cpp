@@ -255,7 +255,7 @@ length
 (
 )
 ;
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 allocPolicy
 =
 cb
@@ -442,7 +442,7 @@ buf
 }
 char16_t
 *
-StringBuffer
+StringBuilder
 :
 :
 stealChars
@@ -511,7 +511,7 @@ twoByteChars
 ;
 }
 bool
-StringBuffer
+StringBuilder
 :
 :
 inflateChars
@@ -818,7 +818,7 @@ true
 ;
 }
 bool
-StringBuffer
+StringBuilder
 :
 :
 append
@@ -855,7 +855,7 @@ CharT
 >
 JSLinearString
 *
-StringBuffer
+StringBuilder
 :
 :
 finishStringInternal
@@ -1595,7 +1595,7 @@ heap
 }
 JSAtom
 *
-StringBuffer
+StringBuilder
 :
 :
 finishAtom
@@ -1671,7 +1671,7 @@ frontend
 :
 :
 TaggedParserAtomIndex
-StringBuffer
+StringBuilder
 :
 :
 finishParserAtom
@@ -1758,7 +1758,7 @@ bool
 js
 :
 :
-ValueToStringBufferSlow
+ValueToStringBuilderSlow
 (
 JSContext
 *
@@ -1767,7 +1767,7 @@ const
 Value
 &
 arg
-StringBuffer
+StringBuilder
 &
 sb
 )
@@ -1827,7 +1827,7 @@ isNumber
 )
 {
 return
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 v
 sb
@@ -1844,7 +1844,7 @@ isBoolean
 )
 {
 return
-BooleanToStringBuffer
+BooleanToStringBuilder
 (
 v
 .

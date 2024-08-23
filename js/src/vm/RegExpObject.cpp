@@ -2525,7 +2525,7 @@ MOZ_ALWAYS_INLINE
 bool
 AppendEscapedLineTerminator
 (
-StringBuffer
+StringBuilder
 &
 sb
 const
@@ -2611,7 +2611,7 @@ MOZ_ALWAYS_INLINE
 bool
 AppendEscapedLineTerminator
 (
-StringBuffer
+StringBuilder
 &
 sb
 const
@@ -2741,9 +2741,9 @@ CharT
 static
 MOZ_ALWAYS_INLINE
 bool
-SetupBuffer
+SetupBuilder
 (
-StringBuffer
+StringBuilder
 &
 sb
 const
@@ -2827,7 +2827,7 @@ Note
 leaves
 the
 string
-buffer
+builder
 empty
 if
 no
@@ -2845,7 +2845,7 @@ static
 bool
 EscapeRegExpPattern
 (
-StringBuffer
+StringBuilder
 &
 sb
 const
@@ -2977,7 +2977,7 @@ point
 if
 (
 !
-SetupBuffer
+SetupBuilder
 (
 sb
 oldChars
@@ -3080,7 +3080,7 @@ point
 if
 (
 !
-SetupBuffer
+SetupBuilder
 (
 sb
 oldChars

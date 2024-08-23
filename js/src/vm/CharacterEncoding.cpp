@@ -5994,7 +5994,7 @@ wideChars
 endif
 }
 bool
-StringBuffer
+StringBuilder
 :
 :
 append

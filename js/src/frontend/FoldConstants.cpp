@@ -248,7 +248,7 @@ h
 "
 /
 /
-StringBuffer
+StringBuilder
 using
 namespace
 js
@@ -9050,7 +9050,7 @@ first
 item
 lazily
 construct
-StringBuffer
+StringBuilder
 and
 append
 the
@@ -9062,7 +9062,7 @@ mozilla
 :
 Maybe
 <
-StringBuffer
+StringBuilder
 >
 accum
 ;

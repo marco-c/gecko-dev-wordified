@@ -9069,7 +9069,7 @@ JSONStringBuilder
 {
 public
 :
-StringBuffer
+StringBuilder
 buffer
 ;
 explicit

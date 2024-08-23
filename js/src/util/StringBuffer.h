@@ -410,7 +410,7 @@ value
 namespace
 detail
 class
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 {
 TempAllocPolicy
 impl_
@@ -422,7 +422,7 @@ arenaId_
 ;
 public
 :
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 (
 FrontendContext
 *
@@ -443,7 +443,7 @@ arenaId
 )
 {
 }
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 (
 JSContext
 *
@@ -815,7 +815,7 @@ extractWellSized
 *
 /
 class
-StringBuffer
+StringBuilder
 {
 protected
 :
@@ -836,7 +836,7 @@ sizeof
 (
 CharT
 )
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 >
 ;
 /
@@ -1066,10 +1066,10 @@ numHeaderChars_
 =
 0
 ;
-StringBuffer
+StringBuilder
 (
 const
-StringBuffer
+StringBuilder
 &
 other
 )
@@ -1081,7 +1081,7 @@ operator
 =
 (
 const
-StringBuffer
+StringBuilder
 &
 other
 )
@@ -1395,7 +1395,7 @@ heap
 public
 :
 explicit
-StringBuffer
+StringBuilder
 (
 JSContext
 *
@@ -1428,7 +1428,7 @@ construct
 Latin1CharBuffer
 >
 (
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 {
 cx
 arenaId
@@ -1478,7 +1478,7 @@ mozilla
 :
 Utf8Unit
 explicit
-StringBuffer
+StringBuilder
 (
 FrontendContext
 *
@@ -1506,7 +1506,7 @@ construct
 Latin1CharBuffer
 >
 (
-StringBufferAllocPolicy
+StringBuilderAllocPolicy
 {
 fc
 arenaId
@@ -2981,7 +2981,7 @@ stealChars
 /
 /
 Like
-StringBuffer
+StringBuilder
 but
 uses
 StringBufferArena
@@ -2993,7 +2993,7 @@ class
 JSStringBuilder
 :
 public
-StringBuffer
+StringBuilder
 {
 public
 :
@@ -3005,7 +3005,7 @@ JSContext
 cx
 )
 :
-StringBuffer
+StringBuilder
 (
 cx
 js
@@ -3113,7 +3113,7 @@ Default
 ;
 inline
 bool
-StringBuffer
+StringBuilder
 :
 :
 append
@@ -3224,7 +3224,7 @@ end
 }
 inline
 bool
-StringBuffer
+StringBuilder
 :
 :
 append
@@ -3347,7 +3347,7 @@ length
 }
 inline
 void
-StringBuffer
+StringBuilder
 :
 :
 infallibleAppendSubstring
@@ -3441,7 +3441,7 @@ len
 }
 inline
 bool
-StringBuffer
+StringBuilder
 :
 :
 appendSubstring
@@ -3574,7 +3574,7 @@ len
 }
 inline
 bool
-StringBuffer
+StringBuilder
 :
 :
 appendSubstring
@@ -3626,7 +3626,7 @@ len
 }
 inline
 bool
-StringBuffer
+StringBuilder
 :
 :
 append
@@ -3683,13 +3683,13 @@ result
 to
 the
 string
-buffer
+builder
 .
 *
 /
 extern
 bool
-ValueToStringBufferSlow
+ValueToStringBuilderSlow
 (
 JSContext
 *
@@ -3698,14 +3698,14 @@ const
 Value
 &
 v
-StringBuffer
+StringBuilder
 &
 sb
 )
 ;
 inline
 bool
-ValueToStringBuffer
+ValueToStringBuilder
 (
 JSContext
 *
@@ -3714,7 +3714,7 @@ const
 Value
 &
 v
-StringBuffer
+StringBuilder
 &
 sb
 )
@@ -3742,7 +3742,7 @@ toString
 ;
 }
 return
-ValueToStringBufferSlow
+ValueToStringBuilderSlow
 (
 cx
 v
@@ -3765,17 +3765,17 @@ result
 to
 the
 string
-buffer
+builder
 .
 *
 /
 inline
 bool
-BooleanToStringBuffer
+BooleanToStringBuilder
 (
 bool
 b
-StringBuffer
+StringBuilder
 &
 sb
 )

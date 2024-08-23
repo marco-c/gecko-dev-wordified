@@ -207,7 +207,7 @@ class
 GlobalObject
 ;
 class
-StringBuffer
+StringBuilder
 ;
 [
 [
@@ -492,7 +492,8 @@ append
 to
 the
 given
-buffer
+string
+builder
 .
 *
 /
@@ -503,13 +504,13 @@ nodiscard
 ]
 extern
 bool
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 const
 Value
 &
 v
-StringBuffer
+StringBuilder
 &
 sb
 )

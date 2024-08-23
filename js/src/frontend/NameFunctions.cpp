@@ -308,7 +308,7 @@ buf_
 is
 empty
 .
-StringBuffer
+StringBuilder
 buf_
 ;
 /

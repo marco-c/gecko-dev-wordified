@@ -361,7 +361,7 @@ class
 PropertyName
 ;
 class
-StringBuffer
+StringBuilder
 ;
 namespace
 frontend
@@ -15332,14 +15332,14 @@ appended
 to
 the
 given
-buffer
+builder
 .
 On
 error
 the
 *
 passed
-buffer
+builder
 may
 have
 partial
@@ -15350,7 +15350,7 @@ appended
 /
 inline
 bool
-ValueToStringBuffer
+ValueToStringBuilder
 (
 JSContext
 *
@@ -15359,7 +15359,7 @@ const
 Value
 &
 v
-StringBuffer
+StringBuilder
 &
 sb
 )

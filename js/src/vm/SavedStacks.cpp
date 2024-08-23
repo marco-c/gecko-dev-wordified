@@ -6570,7 +6570,7 @@ FormatStackFrameLine
 js
 :
 :
-StringBuffer
+StringBuilder
 &
 sb
 JS
@@ -6623,7 +6623,7 @@ function
 )
 &
 &
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 NumberValue
 (
@@ -6649,7 +6649,7 @@ append
 ;
 }
 return
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 NumberValue
 (
@@ -6671,7 +6671,7 @@ FormatStackFrameColumn
 js
 :
 :
-StringBuffer
+StringBuilder
 &
 sb
 JS
@@ -6764,7 +6764,7 @@ cstrlen
 ;
 }
 return
-NumberValueToStringBuffer
+NumberValueToStringBuilder
 (
 NumberValue
 (
@@ -6793,7 +6793,7 @@ cx
 js
 :
 :
-StringBuffer
+StringBuilder
 &
 sb
 JS
@@ -7000,7 +7000,7 @@ cx
 js
 :
 :
-StringBuffer
+StringBuilder
 &
 sb
 JS
@@ -7318,7 +7318,7 @@ when
 we
 finish
 the
-StringBuffer
+StringBuilder
 we
 are
 back

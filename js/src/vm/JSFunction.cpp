@@ -3544,7 +3544,7 @@ FunctionPrefixKind
 None
 )
 ;
-StringBuffer
+StringBuilder
 sb
 (
 cx
@@ -5577,7 +5577,7 @@ common
 case
 to
 avoid
-StringBuffer
+StringBuilder
 overhead
 .
 if
@@ -12461,7 +12461,7 @@ Step
 reordered
 )
 .
-StringBuffer
+StringBuilder
 sb
 (
 cx

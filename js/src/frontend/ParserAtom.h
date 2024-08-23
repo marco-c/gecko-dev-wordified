@@ -366,7 +366,7 @@ class
 LifoAlloc
 ;
 class
-StringBuffer
+StringBuilder
 ;
 namespace
 frontend
@@ -4561,9 +4561,9 @@ public
 bool
 appendTo
 (
-StringBuffer
+StringBuilder
 &
-buffer
+sb
 TaggedParserAtomIndex
 index
 )

@@ -88,7 +88,7 @@ the
 C
 +
 +
-StringBuffer
+StringBuilder
 class
 /
 /
