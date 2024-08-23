@@ -730,13 +730,13 @@ isolate
 template
 Handle
 <
-JSRegExp
+IrRegExpData
 >
 :
 :
 Handle
 (
-JSRegExp
+IrRegExpData
 re
 Isolate
 *

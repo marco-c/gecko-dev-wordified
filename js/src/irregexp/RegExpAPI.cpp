@@ -690,7 +690,7 @@ v8
 internal
 :
 :
-JSRegExp
+IrRegExpData
 >
 ;
 using
@@ -6711,7 +6711,7 @@ v8
 internal
 :
 :
-JSRegExp
+IrRegExpData
 (
 re
 )
