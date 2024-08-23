@@ -2817,10 +2817,10 @@ SRI
 we
 fallback
 on
-explictly
+explicitly
+/
+/
 requesting
-/
-/
 the
 source
 .

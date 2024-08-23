@@ -327,7 +327,7 @@ the
 destructor
 /
 /
-explictly
+explicitly
 .
 struct
 DoNotDelete

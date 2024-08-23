@@ -1171,11 +1171,11 @@ until
 the
 object
 is
-explictly
+explicitly
 removed
+/
+/
 or
-/
-/
 there
 is
 a
@@ -1190,9 +1190,9 @@ either
 array
 are
 active
+/
+/
 that
-/
-/
 is
 they
 have

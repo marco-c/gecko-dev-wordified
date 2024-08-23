@@ -232,7 +232,7 @@ until
 IPDL
 /
 /
-explictly
+explicitly
 destroys
 us
 .

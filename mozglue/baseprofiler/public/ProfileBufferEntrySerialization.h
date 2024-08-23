@@ -4601,12 +4601,12 @@ trivially
 -
 copyable
 are
-explictly
+explicitly
 forbidden
 when
+/
+/
 writing
-/
-/
 (
 to
 avoid

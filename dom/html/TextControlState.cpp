@@ -11490,7 +11490,7 @@ initializing
 .
 So
 we
-explictly
+explicitly
 make
 it
 clear
