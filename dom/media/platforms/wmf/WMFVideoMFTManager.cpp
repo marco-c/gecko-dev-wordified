@@ -7350,7 +7350,7 @@ s
 %
 s
 "
-StreamTypeToString
+EnumValueToString
 (
 mStreamType
 )
