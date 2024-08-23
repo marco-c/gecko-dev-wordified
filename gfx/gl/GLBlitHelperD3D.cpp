@@ -1786,7 +1786,7 @@ handle
 textureMap
 -
 >
-GetSharedHandleOfCopiedTexture
+GetSharedHandle
 (
 gpuProcessTextureId
 .
