@@ -243,6 +243,11 @@ files
 .
 length
 2
+files
+.
+join
+(
+)
 )
 ;
 assert

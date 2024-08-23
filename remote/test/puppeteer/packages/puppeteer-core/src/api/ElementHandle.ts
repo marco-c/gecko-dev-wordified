@@ -1791,6 +1791,7 @@ selector
 *
 to
 query
+the
 page
 for
 .
@@ -2161,6 +2162,7 @@ selector
 *
 to
 query
+the
 page
 for
 .
@@ -2785,6 +2787,7 @@ selector
 *
 to
 query
+the
 page
 for
 .
@@ -3394,6 +3397,7 @@ selector
 *
 to
 query
+the
 page
 for
 .
@@ -8995,7 +8999,7 @@ ScreenshotOptions
 :
 Promise
 <
-Buffer
+Uint8Array
 >
 ;
 throwIfDisposed
@@ -9028,7 +9032,7 @@ Promise
 <
 string
 |
-Buffer
+Uint8Array
 >
 {
 const

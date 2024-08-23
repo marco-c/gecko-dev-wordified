@@ -73,7 +73,7 @@ from
 '
 .
 /
-ProductLauncher
+BrowserLauncher
 .
 js
 '

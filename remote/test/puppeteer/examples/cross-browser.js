@@ -51,11 +51,11 @@ run
 :
 *
 *
-PUPPETEER_PRODUCT
-=
-firefox
-npm
+npx
+puppeteer
+browsers
 install
+firefox
 *
 *
 To

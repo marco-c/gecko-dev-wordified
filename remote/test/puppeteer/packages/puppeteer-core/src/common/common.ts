@@ -249,7 +249,7 @@ from
 '
 .
 /
-Product
+SupportedBrowser
 .
 js
 '

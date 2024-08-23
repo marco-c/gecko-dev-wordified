@@ -107,7 +107,7 @@ await
 launch
 (
 {
-ignoreHTTPSErrors
+acceptInsecureCerts
 :
 true
 }
@@ -280,7 +280,7 @@ await
 launch
 (
 {
-ignoreHTTPSErrors
+acceptInsecureCerts
 :
 true
 }
@@ -603,7 +603,7 @@ await
 launch
 (
 {
-ignoreHTTPSErrors
+acceptInsecureCerts
 :
 true
 }

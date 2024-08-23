@@ -1380,7 +1380,7 @@ screenshot
 .
 toBeInstanceOf
 (
-Buffer
+Uint8Array
 )
 ;
 }
@@ -3148,7 +3148,7 @@ screenshot
 .
 toBeInstanceOf
 (
-Buffer
+Uint8Array
 )
 ;
 }

@@ -476,7 +476,7 @@ process
 env
 [
 '
-PUPPETEER_PRODUCT
+PUPPETEER_BROWSER
 '
 ]
 |

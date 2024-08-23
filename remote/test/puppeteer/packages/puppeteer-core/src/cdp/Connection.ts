@@ -1428,11 +1428,11 @@ _createSession
 (
 targetInfo
 :
-Protocol
-.
-Target
-.
-TargetInfo
+{
+targetId
+:
+string
+}
 isAutoAttachEmulated
 =
 true

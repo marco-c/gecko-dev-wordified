@@ -43,7 +43,7 @@ js
 import
 type
 {
-Product
+SupportedBrowser
 }
 from
 '
@@ -52,7 +52,7 @@ from
 /
 common
 /
-Product
+SupportedBrowser
 .
 js
 '
@@ -695,6 +695,13 @@ of
 a
 WebSocket
 .
+Only
+supported
+*
+with
+Chrome
+.
+*
 *
 defaultValue
 false
@@ -719,10 +726,10 @@ defaultValue
 chrome
 *
 /
-product
+browser
 ?
 :
-Product
+SupportedBrowser
 ;
 /
 *

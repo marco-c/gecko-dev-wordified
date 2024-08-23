@@ -477,6 +477,14 @@ actual
 '
 string
 '
+Expected
+type
+string
+got
+{
+typeof
+actual
+}
 )
 ;
 const

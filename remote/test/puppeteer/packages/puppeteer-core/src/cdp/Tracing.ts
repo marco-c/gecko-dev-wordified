@@ -42,7 +42,7 @@ js
 ;
 import
 {
-getReadableAsBuffer
+getReadableAsTypedArray
 getReadableFromProtocolStream
 }
 from
@@ -656,7 +656,7 @@ stop
 :
 Promise
 <
-Buffer
+Uint8Array
 |
 undefined
 >
@@ -668,7 +668,7 @@ Deferred
 .
 create
 <
-Buffer
+Uint8Array
 |
 undefined
 >
@@ -723,10 +723,10 @@ stream
 )
 ;
 const
-buffer
+typedArray
 =
 await
-getReadableAsBuffer
+getReadableAsTypedArray
 (
 readable
 this
@@ -739,7 +739,7 @@ contentDeferred
 .
 resolve
 (
-buffer
+typedArray
 ?
 ?
 undefined
