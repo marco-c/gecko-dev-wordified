@@ -404,7 +404,7 @@ context
 %
 "
 PRIu64
-ToMediaAudibleStateStr
+EnumValueToString
 (
 aState
 )
