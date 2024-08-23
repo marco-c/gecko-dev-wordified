@@ -392,11 +392,7 @@ buffer
 =
 t
 .
-trackForCleanup
-(
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -410,7 +406,6 @@ GPUBufferUsage
 .
 UNIFORM
 }
-)
 )
 ;
 const
@@ -595,9 +590,9 @@ shouldError
 const
 buffer
 =
-device
+t
 .
-createBuffer
+createBufferTracked
 (
 {
 size

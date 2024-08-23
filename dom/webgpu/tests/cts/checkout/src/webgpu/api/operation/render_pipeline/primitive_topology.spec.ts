@@ -1847,9 +1847,7 @@ GPUTexture
 return
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

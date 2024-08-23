@@ -17,6 +17,21 @@ require
 resolve
 '
 )
+;
+/
+/
+eslint
+-
+disable
+-
+line
+node
+/
+no
+-
+extraneous
+-
+require
 /
 /
 Implements
@@ -57,6 +72,7 @@ exports
 interfaceVersion
 =
 2
+;
 exports
 .
 resolve
@@ -86,6 +102,7 @@ path
 :
 null
 }
+;
 source
 =
 source
@@ -142,6 +159,7 @@ config
 }
 )
 }
+;
 }
 catch
 (
@@ -154,5 +172,7 @@ found
 :
 false
 }
+;
 }
 }
+;

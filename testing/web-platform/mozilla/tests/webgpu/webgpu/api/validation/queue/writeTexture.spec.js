@@ -383,9 +383,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -550,9 +548,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -744,6 +740,10 @@ device
 const
 texture
 =
+t
+.
+trackForCleanup
+(
 sourceDevice
 .
 createTexture
@@ -775,12 +775,6 @@ GPUTextureUsage
 RENDER_ATTACHMENT
 }
 )
-;
-t
-.
-trackForCleanup
-(
-texture
 )
 ;
 const

@@ -1021,8 +1021,8 @@ export
 function
 createTextureUploadBuffer
 (
+t
 texelValue
-device
 format
 dimension
 size
@@ -1050,9 +1050,9 @@ options
 const
 buffer
 =
-device
+t
 .
-createBuffer
+createBufferTracked
 (
 {
 mappedAtCreation

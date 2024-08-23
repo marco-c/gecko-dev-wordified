@@ -657,9 +657,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -716,13 +714,6 @@ is
 added
 to
 IDL
-t
-.
-trackForCleanup
-(
-texture
-)
-;
 const
 effectiveTextureBindingViewDimension
 =
@@ -810,7 +801,7 @@ effectiveViewDimension
 ;
 t
 .
-expectValidationError
+expectValidationErrorInCompatibilityMode
 (
 (
 )

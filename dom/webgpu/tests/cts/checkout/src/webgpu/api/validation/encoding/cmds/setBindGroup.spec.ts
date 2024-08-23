@@ -1028,6 +1028,10 @@ device
 const
 buffer
 =
+t
+.
+trackForCleanup
+(
 sourceDevice
 .
 createBuffer
@@ -1042,6 +1046,7 @@ GPUBufferUsage
 .
 STORAGE
 }
+)
 )
 ;
 const
@@ -1579,9 +1584,7 @@ uniformBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1604,9 +1607,7 @@ storageBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -2364,9 +2365,7 @@ buffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

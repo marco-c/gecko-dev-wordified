@@ -416,9 +416,7 @@ STORAGE
 ;
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 descriptor
 )

@@ -1670,9 +1670,7 @@ hostSrcBuf
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1736,9 +1734,7 @@ srcBuf
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1761,9 +1757,7 @@ dstBuf
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

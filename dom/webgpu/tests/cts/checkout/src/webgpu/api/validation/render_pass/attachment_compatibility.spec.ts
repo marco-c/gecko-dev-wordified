@@ -595,9 +595,7 @@ number
 return
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 /

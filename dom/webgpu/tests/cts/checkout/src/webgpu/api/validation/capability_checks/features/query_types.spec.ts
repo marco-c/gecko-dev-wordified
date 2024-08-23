@@ -268,9 +268,7 @@ false
 {
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type
@@ -430,9 +428,7 @@ querySet
 =
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type
@@ -629,13 +625,7 @@ view
 =
 t
 .
-trackForCleanup
-(
-t
-.
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -656,7 +646,6 @@ GPUTextureUsage
 .
 RENDER_ATTACHMENT
 }
-)
 )
 .
 createView

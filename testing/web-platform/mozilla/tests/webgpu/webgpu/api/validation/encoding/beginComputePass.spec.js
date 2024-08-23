@@ -302,9 +302,7 @@ querySet
 :
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type
@@ -618,9 +616,7 @@ querySet
 :
 t
 .
-device
-.
-createQuerySet
+createQuerySetTracked
 (
 {
 type
@@ -810,6 +806,10 @@ device
 const
 timestampQuerySet
 =
+t
+.
+trackForCleanup
+(
 sourceDevice
 .
 createQuerySet
@@ -824,6 +824,7 @@ count
 :
 1
 }
+)
 )
 ;
 const

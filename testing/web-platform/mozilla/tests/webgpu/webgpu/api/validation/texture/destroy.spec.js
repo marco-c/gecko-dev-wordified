@@ -287,9 +287,7 @@ invalidTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -616,9 +614,7 @@ colorTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 colorTextureDesc
 )
@@ -628,9 +624,7 @@ depthStencilTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 depthStencilTextureDesc
 )

@@ -1197,7 +1197,7 @@ err
 /
 Serve
 .
-worker
+as_worker
 .
 js
 files
@@ -1239,7 +1239,7 @@ filepath
 *
 )
 .
-worker
+as_worker
 .
 js
 '

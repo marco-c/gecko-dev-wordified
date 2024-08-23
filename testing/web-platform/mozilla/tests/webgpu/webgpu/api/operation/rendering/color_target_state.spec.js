@@ -1899,9 +1899,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 usage
@@ -2497,9 +2495,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 usage
@@ -2807,9 +2803,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 usage
@@ -3279,9 +3273,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 usage
@@ -3664,9 +3656,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 usage
@@ -4302,9 +4292,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 usage
@@ -4621,9 +4609,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 usage
@@ -5198,9 +5184,7 @@ renderTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 usage

@@ -293,9 +293,7 @@ dst
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 dimension
@@ -325,13 +323,6 @@ GPUTextureUsage
 .
 COPY_SRC
 }
-)
-;
-t
-.
-trackForCleanup
-(
-dst
 )
 ;
 const

@@ -874,6 +874,7 @@ location
 interpolate
 (
 flat
+either
 )
 vertexIndex
 :
@@ -1116,6 +1117,7 @@ location
 interpolate
 (
 flat
+either
 )
 vertexIndex
 :
@@ -1682,9 +1684,7 @@ dsTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -1753,9 +1753,7 @@ checkTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 checkTextureDesc
 )
@@ -1776,9 +1774,7 @@ multisampled
 ?
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 .
@@ -1812,9 +1808,7 @@ bytes
 ?
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1855,9 +1849,7 @@ bytes
 ?
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1888,9 +1880,7 @@ checkBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -1913,9 +1903,7 @@ fragInputZFailedBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -3049,6 +3037,7 @@ location
 interpolate
 (
 flat
+either
 )
 vertexIndex
 :
@@ -3495,9 +3484,7 @@ dsTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -3566,9 +3553,7 @@ testTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 testTextureDesc
 )
@@ -3589,9 +3574,7 @@ multisampled
 ?
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 .
@@ -3615,9 +3598,7 @@ resultBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

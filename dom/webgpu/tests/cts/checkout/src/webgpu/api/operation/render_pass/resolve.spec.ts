@@ -904,9 +904,7 @@ colorAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -966,9 +964,7 @@ colorAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -1014,9 +1010,7 @@ resolveTarget
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

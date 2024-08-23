@@ -1385,7 +1385,7 @@ write
 '
 texture_storage_2d_array
 <
-rg32float
+rgba32float
 write
 >
 '

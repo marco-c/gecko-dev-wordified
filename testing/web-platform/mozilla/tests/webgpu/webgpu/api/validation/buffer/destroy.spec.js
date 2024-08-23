@@ -193,9 +193,7 @@ buf
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -397,9 +395,7 @@ buf
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 t
 .
@@ -637,9 +633,7 @@ buf
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

@@ -362,9 +362,7 @@ renderTexture
 =
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -6370,9 +6368,7 @@ renderTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

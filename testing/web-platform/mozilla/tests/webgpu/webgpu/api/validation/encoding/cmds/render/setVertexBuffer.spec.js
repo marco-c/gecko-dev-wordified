@@ -555,6 +555,10 @@ device
 const
 vertexBuffer
 =
+t
+.
+trackForCleanup
+(
 sourceDevice
 .
 createBuffer
@@ -570,12 +574,6 @@ GPUBufferUsage
 VERTEX
 }
 )
-;
-t
-.
-trackForCleanup
-(
-vertexBuffer
 )
 ;
 const
@@ -693,9 +691,7 @@ vertexBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -806,9 +802,7 @@ vertexBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -919,9 +913,7 @@ vertexBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

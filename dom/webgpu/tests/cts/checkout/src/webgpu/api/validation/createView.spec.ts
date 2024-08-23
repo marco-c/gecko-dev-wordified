@@ -413,9 +413,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -736,9 +734,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 textureDescriptor
 )
@@ -953,9 +949,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -1717,9 +1711,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 textureDescriptor
 )
@@ -2067,9 +2059,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 textureDescriptor
 )
@@ -2246,9 +2236,7 @@ texture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

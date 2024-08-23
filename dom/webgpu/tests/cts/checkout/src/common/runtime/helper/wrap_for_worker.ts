@@ -13,6 +13,8 @@ from
 framework
 /
 fixture
+.
+js
 '
 ;
 import
@@ -212,7 +214,7 @@ in
 the
 generated
 .
-worker
+as_worker
 .
 js
 files

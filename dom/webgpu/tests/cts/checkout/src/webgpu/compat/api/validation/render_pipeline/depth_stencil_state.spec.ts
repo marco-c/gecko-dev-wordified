@@ -286,6 +286,12 @@ const
 success
 =
 !
+t
+.
+isCompatibility
+|
+|
+!
 depthBiasClamp
 ;
 t

@@ -1012,9 +1012,7 @@ colorAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -1810,9 +1808,7 @@ colorAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -2643,9 +2639,7 @@ colorAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -3194,9 +3188,7 @@ outputTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

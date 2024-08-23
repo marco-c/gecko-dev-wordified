@@ -369,6 +369,10 @@ device
 const
 indexBuffer
 =
+t
+.
+trackForCleanup
+(
 sourceDevice
 .
 createBuffer
@@ -384,12 +388,6 @@ GPUBufferUsage
 INDEX
 }
 )
-;
-t
-.
-trackForCleanup
-(
-indexBuffer
 )
 ;
 const
@@ -509,9 +507,7 @@ indexBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -669,9 +665,7 @@ indexBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -799,9 +793,7 @@ indexBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size

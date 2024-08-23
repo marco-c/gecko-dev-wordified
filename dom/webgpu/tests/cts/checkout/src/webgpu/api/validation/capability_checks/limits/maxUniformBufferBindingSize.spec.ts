@@ -321,11 +321,7 @@ uniformBuffer
 =
 t
 .
-trackForCleanup
-(
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 usage
@@ -335,7 +331,6 @@ GPUBufferUsage
 UNIFORM
 size
 }
-)
 )
 ;
 const

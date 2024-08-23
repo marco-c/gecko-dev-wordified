@@ -2095,9 +2095,7 @@ false
 {
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -2268,9 +2266,7 @@ false
 {
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

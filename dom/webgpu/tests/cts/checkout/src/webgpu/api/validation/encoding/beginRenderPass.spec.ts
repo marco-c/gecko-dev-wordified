@@ -801,9 +801,7 @@ descriptor
 :
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 descriptor
 )
@@ -989,6 +987,10 @@ device
 const
 occlusionQuerySet
 =
+t
+.
+trackForCleanup
+(
 sourceDevice
 .
 createQuerySet
@@ -1004,12 +1006,6 @@ count
 1
 }
 )
-;
-t
-.
-trackForCleanup
-(
-occlusionQuerySet
 )
 ;
 const
@@ -1151,6 +1147,10 @@ device
 const
 timestampQuerySet
 =
+t
+.
+trackForCleanup
+(
 sourceDevice
 .
 createQuerySet
@@ -1165,6 +1165,7 @@ count
 :
 1
 }
+)
 )
 ;
 const
@@ -1184,9 +1185,7 @@ colorTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

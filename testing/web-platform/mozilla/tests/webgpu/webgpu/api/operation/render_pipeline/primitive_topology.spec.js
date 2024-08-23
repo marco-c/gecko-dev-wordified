@@ -1732,9 +1732,7 @@ makeAttachmentTexture
 return
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

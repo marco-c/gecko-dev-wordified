@@ -146,9 +146,7 @@ getVertexBuffer
 return
 this
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -414,9 +412,7 @@ attachmentTexture
 =
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

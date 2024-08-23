@@ -603,9 +603,7 @@ sampleCount
 return
 this
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 /

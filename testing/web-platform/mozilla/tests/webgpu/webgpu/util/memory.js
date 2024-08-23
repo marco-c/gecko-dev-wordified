@@ -67,7 +67,7 @@ async
 function
 exhaustVramUntilUnder64MB
 (
-device
+t
 )
 {
 const
@@ -109,9 +109,9 @@ memory
 const
 buffer
 =
-device
+t
 .
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -171,6 +171,8 @@ buffers
 await
 allocateUntilOom
 (
+t
+.
 device
 kLargeChunkSize
 )
@@ -186,6 +188,8 @@ push
 await
 allocateUntilOom
 (
+t
+.
 device
 kSmallChunkSize
 )

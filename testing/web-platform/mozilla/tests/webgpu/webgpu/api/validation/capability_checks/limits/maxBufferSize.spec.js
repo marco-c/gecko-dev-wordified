@@ -116,7 +116,6 @@ testValueName
 async
 (
 {
-device
 testValue
 actualLimit
 shouldError
@@ -135,12 +134,9 @@ testForValidationErrorWithPossibleOutOfMemoryError
 =
 >
 {
-const
-buffer
-=
-device
+t
 .
-createBuffer
+createBufferTracked
 (
 {
 usage
@@ -152,12 +148,6 @@ size
 :
 testValue
 }
-)
-;
-buffer
-.
-destroy
-(
 )
 ;
 }

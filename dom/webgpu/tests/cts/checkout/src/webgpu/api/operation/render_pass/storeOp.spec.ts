@@ -587,9 +587,7 @@ colorAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -653,9 +651,7 @@ depthStencilAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -1332,9 +1328,7 @@ colorAttachment
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -1857,9 +1851,7 @@ push
 (
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format
@@ -2418,9 +2410,7 @@ depthStencilTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

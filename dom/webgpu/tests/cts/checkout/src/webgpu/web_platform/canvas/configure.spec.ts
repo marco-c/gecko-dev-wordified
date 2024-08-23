@@ -1497,9 +1497,7 @@ dstTexture
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 format

@@ -739,9 +739,7 @@ ubo
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 mappedAtCreation
@@ -810,9 +808,7 @@ resultBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -828,13 +824,6 @@ GPUBufferUsage
 .
 COPY_SRC
 }
-)
-;
-t
-.
-trackForCleanup
-(
-resultBuffer
 )
 ;
 const

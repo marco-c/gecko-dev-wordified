@@ -1192,6 +1192,10 @@ device
 const
 querySet
 =
+t
+.
+trackForCleanup
+(
 sourceDevice
 .
 createQuerySet
@@ -1207,12 +1211,6 @@ count
 2
 }
 )
-;
-t
-.
-trackForCleanup
-(
-querySet
 )
 ;
 const

@@ -667,9 +667,7 @@ dst
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -1579,9 +1577,7 @@ dst
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -2266,9 +2262,7 @@ dst
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size
@@ -3138,9 +3132,7 @@ dst
 =
 t
 .
-device
-.
-createTexture
+createTextureTracked
 (
 {
 size

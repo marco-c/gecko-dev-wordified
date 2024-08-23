@@ -624,9 +624,7 @@ outputBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
@@ -657,13 +655,6 @@ Fill
 with
 initial
 value
-t
-.
-trackForCleanup
-(
-outputBuffer
-)
-;
 const
 data
 =
@@ -1341,9 +1332,7 @@ outputBuffer
 =
 t
 .
-device
-.
-createBuffer
+createBufferTracked
 (
 {
 size
