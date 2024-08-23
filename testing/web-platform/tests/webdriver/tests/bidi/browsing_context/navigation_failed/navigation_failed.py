@@ -1638,9 +1638,7 @@ subscribe_events
 events
 =
 [
-"
-browsingContext
-"
+NAVIGATION_FAILED_EVENT
 ]
 )
     
