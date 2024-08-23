@@ -294,6 +294,13 @@ nsTextFrame
 .
 h
 "
+#
+include
+"
+WordMovementType
+.
+h
+"
 namespace
 mozilla
 {
@@ -363,6 +370,10 @@ nsPoint
 aDesiredCaretPos
 PeekOffsetOptions
 aOptions
+const
+Element
+*
+aAncestorLimiter
 )
 {
 const
@@ -434,6 +445,8 @@ mOffsetInFrameContent
 )
 aDesiredCaretPos
 aOptions
+eDefaultBehavior
+aAncestorLimiter
 )
 ;
 nsresult
