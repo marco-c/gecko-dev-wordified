@@ -811,6 +811,11 @@ AssertIsOnOwningThread
 )
 ;
 }
+NS_INLINE_DECL_REFCOUNTING
+(
+FinalizeOriginEvictionOp
+override
+)
 private
 :
 ~
@@ -918,6 +923,11 @@ AssertIsOnOwningThread
 )
 ;
 }
+NS_INLINE_DECL_REFCOUNTING
+(
+SaveOriginAccessTimeOp
+override
+)
 private
 :
 ~

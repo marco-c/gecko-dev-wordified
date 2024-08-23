@@ -160,6 +160,13 @@ NormalOriginOperationBase
 public
 PQuotaRequestParent
 {
+public
+:
+NS_INLINE_DECL_REFCOUNTING
+(
+QuotaRequestBase
+override
+)
 protected
 :
 QuotaRequestBase
