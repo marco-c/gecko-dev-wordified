@@ -16064,8 +16064,7 @@ aName
 AssignLiteral
 (
 "
-click
-ancestor
+clickAncestor
 "
 )
 ;

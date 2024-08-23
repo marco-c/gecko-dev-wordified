@@ -474,8 +474,7 @@ t
 /
 support
 "
-click
-ancestor
+clickAncestor
 "
 for
 ATK
