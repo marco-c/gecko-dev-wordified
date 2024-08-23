@@ -111,6 +111,11 @@ TestFileSystemQuotaClient
 .
 cpp
 "
+"
+TestFileSystemUsageTracking
+.
+cpp
+"
 ]
 include
 (
