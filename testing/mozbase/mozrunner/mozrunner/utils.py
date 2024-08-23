@@ -730,7 +730,7 @@ None
 if
 mozinfo
 .
-isUnix
+isLinux
 :
         
 envVar

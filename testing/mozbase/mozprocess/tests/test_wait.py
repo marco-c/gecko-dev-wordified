@@ -382,7 +382,7 @@ wait
 if
 mozinfo
 .
-isUnix
+isLinux
 :
             
 #

@@ -252,7 +252,7 @@ use
 if
 mozinfo
 .
-isUnix
+isLinux
 :
         
 utility

@@ -5826,7 +5826,7 @@ DYLD_LIBRARY_PATH
 elif
 mozinfo
 .
-isUnix
+isLinux
 :
             
 env_var
