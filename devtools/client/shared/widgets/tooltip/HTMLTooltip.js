@@ -3446,9 +3446,9 @@ this
 .
 _focusedElement
 =
-this
+anchor
 .
-doc
+ownerDocument
 .
 activeElement
 ;
@@ -5651,6 +5651,15 @@ hidden
 const
 tooltipHasFocus
 =
+this
+.
+doc
+.
+hasFocus
+(
+)
+&
+&
 this
 .
 container
