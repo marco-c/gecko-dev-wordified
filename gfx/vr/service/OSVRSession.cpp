@@ -2020,6 +2020,10 @@ strncpy
 state
 .
 displayName
+.
+data
+(
+)
 "
 OSVR
 HMD
