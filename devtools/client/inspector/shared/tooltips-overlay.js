@@ -1985,6 +1985,7 @@ const
 variable
 registeredProperty
 startingStyleVariable
+variableComputed
 }
 =
 nodeInfo
@@ -2000,6 +2001,9 @@ _setVariablePreviewTooltip
 topSectionText
 :
 variable
+computed
+:
+variableComputed
 registeredProperty
 startingStyle
 :
