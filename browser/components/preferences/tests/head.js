@@ -1222,6 +1222,8 @@ features
 -
 group
 -
+customize
+-
 browsing
 "
 description
