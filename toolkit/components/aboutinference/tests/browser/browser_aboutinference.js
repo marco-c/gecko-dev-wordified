@@ -295,7 +295,7 @@ visible
 ;
 Assert
 .
-equal
+stringContains
 (
 element
 .
