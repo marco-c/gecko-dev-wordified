@@ -718,11 +718,10 @@ CompileRuntime
 #
 ifdef
 JS_SIMULATOR_ARM64
-typedef
+using
 vixl
 :
 :
-Simulator
 Simulator
 ;
 #

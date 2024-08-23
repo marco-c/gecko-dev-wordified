@@ -1239,7 +1239,9 @@ oom
 /
 namespace
 JS
-typedef
+using
+SourceSet
+=
 HashSet
 <
 ScriptSource
@@ -1251,7 +1253,6 @@ ScriptSource
 >
 SystemAllocPolicy
 >
-SourceSet
 ;
 struct
 StatsClosure

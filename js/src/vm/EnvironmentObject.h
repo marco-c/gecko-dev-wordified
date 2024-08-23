@@ -9073,7 +9073,9 @@ environments
 .
 *
 /
-typedef
+using
+MissingEnvironmentMap
+=
 HashMap
 <
 MissingEnvironmentKey
@@ -9085,7 +9087,6 @@ DebugEnvironmentProxy
 MissingEnvironmentKey
 ZoneAllocPolicy
 >
-MissingEnvironmentMap
 ;
 MissingEnvironmentMap
 missingEnvs
@@ -9162,7 +9163,9 @@ environments
 .
 *
 /
-typedef
+using
+LiveEnvironmentMap
+=
 GCHashMap
 <
 WeakHeapPtr
@@ -9181,7 +9184,6 @@ JSObject
 >
 ZoneAllocPolicy
 >
-LiveEnvironmentMap
 ;
 LiveEnvironmentMap
 liveEnvs

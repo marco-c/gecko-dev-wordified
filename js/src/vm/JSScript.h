@@ -548,7 +548,9 @@ ScriptCounts
 {
 public
 :
-typedef
+using
+PCCountsVector
+=
 mozilla
 :
 :
@@ -558,7 +560,6 @@ PCCounts
 0
 SystemAllocPolicy
 >
-PCCountsVector
 ;
 inline
 ScriptCounts
