@@ -315,6 +315,13 @@ SupportDecoderRecycling
 const
 override
 ;
+bool
+ShouldDecoderAlwaysBeRecycled
+(
+)
+const
+override
+;
 ConversionRequired
 NeedsConversion
 (

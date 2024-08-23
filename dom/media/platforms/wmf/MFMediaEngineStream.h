@@ -1439,6 +1439,13 @@ NeedsConversion
 const
 override
 ;
+bool
+ShouldDecoderAlwaysBeRecycled
+(
+)
+const
+override
+;
 private
 :
 ~

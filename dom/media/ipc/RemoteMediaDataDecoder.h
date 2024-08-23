@@ -362,6 +362,13 @@ NeedsConversion
 const
 override
 ;
+bool
+ShouldDecoderAlwaysBeRecycled
+(
+)
+const
+override
+;
 private
 :
 ~
@@ -472,6 +479,13 @@ mMutex
 ;
 ConversionRequired
 mConversion
+MOZ_GUARDED_BY
+(
+mMutex
+)
+;
+bool
+mShouldDecoderAlwaysBeRecycled
 MOZ_GUARDED_BY
 (
 mMutex
