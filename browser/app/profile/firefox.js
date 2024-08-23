@@ -21355,8 +21355,11 @@ in
 nightly
 only
 #
-ifdef
-NIGHTLY_BUILD
+if
+defined
+(
+EARLY_BETA_OR_EARLIER
+)
 pref
 (
 "
@@ -21980,7 +21983,7 @@ default
 .
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
