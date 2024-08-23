@@ -2505,7 +2505,7 @@ subFrameRect
 scrollContainerFrame
 -
 >
-GetScrollPortRect
+GetScrollPortRectAccountingForDynamicToolbar
 (
 )
 ;
@@ -3463,7 +3463,7 @@ inProcessRootRect
 rootScrollContainerFrame
 -
 >
-GetScrollPortRect
+GetScrollPortRectAccountingForDynamicToolbar
 (
 )
 ;
@@ -3754,7 +3754,7 @@ rootRectRelativeToRootFrame
 scrollContainerFrame
 -
 >
-GetScrollPortRect
+GetScrollPortRectAccountingForDynamicToolbar
 (
 )
 ;
@@ -4040,7 +4040,7 @@ rootRect
 rootScrollContainerFrame
 -
 >
-GetScrollPortRect
+GetScrollPortRectAccountingForDynamicToolbar
 (
 )
 ;
