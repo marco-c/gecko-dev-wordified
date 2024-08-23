@@ -511,8 +511,6 @@ JSContext
 cx
 AllocKind
 kind
-size_t
-thingSize
 )
 ;
 #
@@ -728,8 +726,6 @@ gc
 :
 AllocKind
 kind
-size_t
-size
 )
 ;
 /
