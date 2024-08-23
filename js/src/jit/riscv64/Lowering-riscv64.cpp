@@ -3663,10 +3663,10 @@ writeType
 )
 )
 ;
-LAllocation
+LInt64Allocation
 value
 =
-useRegister
+useInt64Register
 (
 ins
 -
@@ -3689,9 +3689,6 @@ LAtomicStore64
 elements
 index
 value
-tempInt64
-(
-)
 )
 ins
 )
