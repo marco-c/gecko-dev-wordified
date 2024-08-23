@@ -775,9 +775,6 @@ SetTrack
 const
 RefPtr
 <
-mozilla
-:
-:
 MediaTrack
 >
 &
