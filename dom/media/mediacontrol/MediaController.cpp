@@ -899,6 +899,8 @@ MediaController
 :
 SeekBackward
 (
+double
+aSeekOffset
 )
 {
 LOG
@@ -917,6 +919,10 @@ MediaControlKey
 :
 :
 Seekbackward
+SeekDetails
+(
+aSeekOffset
+)
 )
 )
 ;
@@ -927,6 +933,8 @@ MediaController
 :
 SeekForward
 (
+double
+aSeekOffset
 )
 {
 LOG
@@ -945,6 +953,10 @@ MediaControlKey
 :
 :
 Seekforward
+SeekDetails
+(
+aSeekOffset
+)
 )
 )
 ;

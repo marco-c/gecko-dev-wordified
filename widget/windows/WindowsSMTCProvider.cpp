@@ -2826,6 +2826,13 @@ dom
 SeekDetails
 (
 aPosition
+false
+/
+*
+fast
+seek
+*
+/
 )
 )
 )

@@ -296,6 +296,8 @@ virtual
 void
 SeekBackward
 (
+double
+aSeekOffset
 )
 =
 0
@@ -304,6 +306,8 @@ virtual
 void
 SeekForward
 (
+double
+aSeekOffset
 )
 =
 0
@@ -770,12 +774,16 @@ override
 void
 SeekBackward
 (
+double
+aSeekOffset
 )
 override
 ;
 void
 SeekForward
 (
+double
+aSeekOffset
 )
 override
 ;

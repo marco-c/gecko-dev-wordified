@@ -368,11 +368,15 @@ Pause
 void
 SeekBackward
 (
+double
+aSeekOffset
 )
 ;
 void
 SeekForward
 (
+double
+aSeekOffset
 )
 ;
 void
