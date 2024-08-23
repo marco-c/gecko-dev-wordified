@@ -108,14 +108,6 @@ vector
 #
 include
 "
-third_party
-/
-googletest
-/
-src
-/
-include
-/
 gtest
 /
 gtest

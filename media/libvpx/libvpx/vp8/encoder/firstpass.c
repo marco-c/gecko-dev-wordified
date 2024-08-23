@@ -9723,16 +9723,6 @@ duration
 cpi
 -
 >
-output_framerate
-=
-cpi
--
->
-framerate
-;
-cpi
--
->
 twopass
 .
 bits_left

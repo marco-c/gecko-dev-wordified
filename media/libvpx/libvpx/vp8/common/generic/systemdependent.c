@@ -365,6 +365,13 @@ get_cpu_count
 )
 ;
 #
+else
+(
+void
+)
+ctx
+;
+#
 endif
 /
 *
