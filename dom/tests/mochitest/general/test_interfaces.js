@@ -17723,9 +17723,6 @@ VideoColorSpace
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
