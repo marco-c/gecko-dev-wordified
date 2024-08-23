@@ -19595,6 +19595,9 @@ target
 /
 Use
 OP_OVER
+and
+opaque
+alpha
 to
 create
 the
@@ -19617,6 +19620,14 @@ CompositionOp
 :
 :
 OP_OVER
+;
+drawOptions
+.
+mAlpha
+=
+1
+.
+0f
 ;
 bool
 ok
