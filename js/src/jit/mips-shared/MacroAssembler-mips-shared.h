@@ -657,7 +657,7 @@ rs
 /
 /
 load
-void
+FaultingCodeOffset
 ma_load
 (
 Register
@@ -741,7 +741,7 @@ extension
 /
 /
 store
-void
+FaultingCodeOffset
 ma_store
 (
 Register
@@ -1217,7 +1217,7 @@ float
 value
 )
 ;
-void
+FaultingCodeOffset
 ma_sd
 (
 FloatRegister
@@ -1226,7 +1226,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 ma_ss
 (
 FloatRegister
@@ -1235,7 +1235,7 @@ BaseIndex
 address
 )
 ;
-void
+FaultingCodeOffset
 ma_ld
 (
 FloatRegister
@@ -1246,7 +1246,7 @@ BaseIndex
 src
 )
 ;
-void
+FaultingCodeOffset
 ma_ls
 (
 FloatRegister
@@ -1504,7 +1504,7 @@ bool
 isMax
 )
 ;
-void
+FaultingCodeOffset
 loadDouble
 (
 const
@@ -1515,7 +1515,7 @@ FloatRegister
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadDouble
 (
 const
@@ -1526,7 +1526,7 @@ FloatRegister
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadFloat32
 (
 const
@@ -1537,7 +1537,7 @@ FloatRegister
 dest
 )
 ;
-void
+FaultingCodeOffset
 loadFloat32
 (
 const
