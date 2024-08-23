@@ -120,7 +120,7 @@ include
 "
 mozilla
 /
-UniquePtr
+Maybe
 .
 h
 "
@@ -130,6 +130,15 @@ include
 mozilla
 /
 Span
+.
+h
+"
+#
+include
+"
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -695,7 +704,7 @@ SetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 )
 override
@@ -706,7 +715,7 @@ GetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 )
 override
@@ -717,7 +726,7 @@ AsyncGetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 GetDataCallback
 &
@@ -729,7 +738,7 @@ override
 nsresult
 EmptyNativeClipboardData
 (
-int32_t
+ClipboardType
 aWhichClipboard
 )
 override
@@ -744,7 +753,7 @@ nsresult
 >
 GetNativeClipboardSequenceNumber
 (
-int32_t
+ClipboardType
 aWhichClipboard
 )
 override
@@ -766,7 +775,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 )
 override
@@ -781,7 +790,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 HasMatchingFlavorsCallback
 &
@@ -920,7 +929,16 @@ int32_t
 aWhichClipboard
 )
 ;
-int
+mozilla
+:
+:
+Maybe
+<
+nsIClipboard
+:
+:
+ClipboardType
+>
 GetGeckoClipboardType
 (
 GtkClipboard

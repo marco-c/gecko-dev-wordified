@@ -119,6 +119,13 @@ PClipboardContentAnalysisParent
 .
 h
 "
+#
+include
+"
+nsIClipboard
+.
+h
+"
 namespace
 mozilla
 {
@@ -197,7 +204,10 @@ nsCString
 &
 aTypes
 const
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 &
 aWhichClipboard
 const

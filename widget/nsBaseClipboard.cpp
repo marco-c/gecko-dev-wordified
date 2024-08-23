@@ -432,7 +432,10 @@ UserConfirmationRequest
 )
 UserConfirmationRequest
 (
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 Document
 *
@@ -545,7 +548,10 @@ override
 bool
 IsEqual
 (
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 Document
 *
@@ -701,7 +707,10 @@ Id
 )
 ;
 }
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 ClipboardType
 (
 )
@@ -940,7 +949,10 @@ UserConfirmationRequest
 default
 ;
 const
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 mClipboardType
 ;
 RefPtr
@@ -1257,7 +1269,10 @@ AsyncSetClipboardData
 :
 AsyncSetClipboardData
 (
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 nsBaseClipboard
 *
@@ -1656,7 +1671,7 @@ nsBaseClipboard
 :
 RejectPendingAsyncSetDataRequestIfAny
 (
-int32_t
+ClipboardType
 aClipboardType
 )
 {
@@ -1705,7 +1720,7 @@ nsBaseClipboard
 :
 AsyncSetData
 (
-int32_t
+ClipboardType
 aWhichClipboard
 mozilla
 :
@@ -2011,7 +2026,7 @@ aTransferable
 nsIClipboardOwner
 *
 aOwner
-int32_t
+ClipboardType
 aWhichClipboard
 mozilla
 :
@@ -2362,7 +2377,7 @@ GetDataFromClipboardCache
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aClipboardType
 )
 {
@@ -2437,7 +2452,7 @@ GetData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 mozilla
 :
@@ -2747,7 +2762,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 nsIClipboardGetDataSnapshotCallback
 *
@@ -3164,7 +3179,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 mozilla
 :
@@ -3527,7 +3542,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aClipboardType
 mozilla
 :
@@ -3839,7 +3854,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aClipboardType
 mozilla
 :
@@ -3948,7 +3963,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 mozilla
 :
@@ -4210,7 +4225,7 @@ nsBaseClipboard
 :
 EmptyClipboard
 (
-int32_t
+ClipboardType
 aWhichClipboard
 )
 {
@@ -4363,7 +4378,7 @@ nsBaseClipboard
 :
 GetFlavorsFromClipboardCache
 (
-int32_t
+ClipboardType
 aClipboardType
 )
 {
@@ -4545,7 +4560,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 bool
 *
@@ -4824,7 +4839,7 @@ nsBaseClipboard
 :
 IsClipboardTypeSupported
 (
-int32_t
+ClipboardType
 aWhichClipboard
 bool
 *
@@ -4931,7 +4946,7 @@ nsCString
 >
 &
 aFlavorList
-int32_t
+ClipboardType
 aWhichClipboard
 HasMatchingFlavorsCallback
 &
@@ -5046,7 +5061,7 @@ AsyncGetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+ClipboardType
 aWhichClipboard
 GetDataCallback
 &
@@ -5070,7 +5085,7 @@ nsBaseClipboard
 :
 ClearClipboardCache
 (
-int32_t
+ClipboardType
 aClipboardType
 )
 {
@@ -5120,7 +5135,7 @@ nsBaseClipboard
 :
 RequestUserConfirmation
 (
-int32_t
+ClipboardType
 aClipboardType
 const
 nsTArray
@@ -5582,7 +5597,10 @@ ClipboardDataSnapshot
 :
 ClipboardDataSnapshot
 (
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 int32_t
 aSequenceNumber
@@ -6402,7 +6420,7 @@ nsBaseClipboard
 :
 GetClipboardCacheInnerWindowId
 (
-int32_t
+ClipboardType
 aClipboardType
 )
 {
@@ -6443,7 +6461,7 @@ nsBaseClipboard
 :
 GetClipboardCacheIfValid
 (
-int32_t
+ClipboardType
 aClipboardType
 )
 {

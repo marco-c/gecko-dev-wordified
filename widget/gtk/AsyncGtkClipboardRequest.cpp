@@ -284,7 +284,7 @@ gpointer
 data
 )
 {
-int
+auto
 whichClipboard
 =
 GetGeckoClipboardType
@@ -307,10 +307,13 @@ n
 whichClipboard
 =
 =
+Some
+(
 nsClipboard
 :
 :
 kSelectionClipboard
+)
 ?
 "
 primary
@@ -354,7 +357,7 @@ gpointer
 data
 )
 {
-int
+auto
 whichClipboard
 =
 GetGeckoClipboardType
@@ -377,10 +380,13 @@ n
 whichClipboard
 =
 =
+Some
+(
 nsClipboard
 :
 :
 kSelectionClipboard
+)
 ?
 "
 primary

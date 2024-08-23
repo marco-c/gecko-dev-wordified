@@ -531,7 +531,10 @@ const
 nsAString
 &
 aString
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardID
 mozilla
 :
