@@ -221,6 +221,18 @@ Math
 .
 sumPrecise
 "
+        
+"
+Atomics
+.
+pause
+"
+        
+"
+RegExp
+.
+escape
+"
     
 ]
 )
