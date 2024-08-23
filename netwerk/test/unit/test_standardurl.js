@@ -6022,8 +6022,6 @@ fileBaseName
 "
 %
 2e
-.
-bar
 "
 )
 ;
