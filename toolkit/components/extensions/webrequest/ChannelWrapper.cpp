@@ -5801,6 +5801,15 @@ remoteTab
 {
 if
 (
+FinalURLInfo
+(
+)
+.
+URI
+(
+)
+&
+&
 !
 aAddon
 .
