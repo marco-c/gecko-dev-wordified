@@ -47319,10 +47319,13 @@ ClipboardType
 )
 =
 =
+Some
+(
 nsIClipboard
 :
 :
 kGlobalClipboard
+)
 )
 ;
 MOZ_ASSERT_IF

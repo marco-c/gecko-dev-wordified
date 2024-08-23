@@ -418,8 +418,9 @@ e
 )
 eCopy
 false
--
-1
+Nothing
+(
+)
 )
 ;
 clipboardData
@@ -544,8 +545,9 @@ this
 )
 eCopy
 false
--
-1
+Nothing
+(
+)
 )
 ;
 }
@@ -574,10 +576,13 @@ mMessage
 =
 =
 ePaste
+Some
+(
 nsIClipboard
 :
 :
 kGlobalClipboard
+)
 )
 ;
 }
