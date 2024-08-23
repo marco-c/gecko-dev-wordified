@@ -764,9 +764,7 @@ url
 return
 extension
 .
-baseURI
-.
-resolve
+getURL
 (
 url
 )

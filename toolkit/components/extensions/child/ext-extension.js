@@ -88,9 +88,7 @@ context
 .
 extension
 .
-baseURI
-.
-resolve
+getURL
 (
 url
 )
