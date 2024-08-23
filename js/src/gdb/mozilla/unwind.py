@@ -303,17 +303,6 @@ JitFrameLayout
 FrameType
 :
 :
-JSJitToWasm
-"
-:
-"
-JitFrameLayout
-"
-    
-"
-FrameType
-:
-:
 Rectifier
 "
 :

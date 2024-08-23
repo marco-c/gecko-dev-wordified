@@ -1559,18 +1559,6 @@ unwoundCallerFP
 (
 )
 ;
-jit
-:
-:
-FrameType
-prevFrameType
-=
-wasmFrame
-.
-unwoundJitFrameType
-(
-)
-;
 if
 (
 mustUnwindActivation_
@@ -1602,7 +1590,6 @@ JSJitFrameIter
 >
 (
 act_
-prevFrameType
 prevFP
 mustUnwindActivation_
 )
