@@ -2062,10 +2062,13 @@ nsAString
 aFileName
 )
 {
-NS_ConvertUTF16toUTF8
+nsCString
 optimizedName
+;
+CopyUTF16toUTF8
 (
 aFileName
+optimizedName
 )
 ;
 MOZ_LOG
