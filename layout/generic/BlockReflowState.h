@@ -2760,7 +2760,7 @@ bottom
 margin
 value
 .
-CollapsingMargin
+nsCollapsingMargin
 mPrevBEndMargin
 ;
 /

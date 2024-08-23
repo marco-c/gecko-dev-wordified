@@ -340,7 +340,7 @@ const
 ReflowInput
 &
 aRI
-CollapsingMargin
+nsCollapsingMargin
 *
 aMargin
 nsIFrame
@@ -1572,7 +1572,7 @@ LogicalRect
 aSpace
 bool
 aApplyBStartMargin
-CollapsingMargin
+nsCollapsingMargin
 &
 aPrevMargin
 nscoord
@@ -1784,7 +1784,7 @@ AvailableISize
 -
 mBStartMargin
 .
-Get
+get
 (
 )
 -
@@ -1826,7 +1826,7 @@ AvailableBSize
 -
 mBStartMargin
 .
-Get
+get
 (
 )
 -
@@ -2035,7 +2035,7 @@ mWritingMode
 +
 mBStartMargin
 .
-Get
+get
 (
 )
 +
@@ -2688,7 +2688,7 @@ aForceFit
 nsLineBox
 *
 aLine
-CollapsingMargin
+nsCollapsingMargin
 &
 aBEndMarginResult
 OverflowAreas
@@ -3330,7 +3330,7 @@ backupContainingBlockAdvance
 =
 mBStartMargin
 .
-Get
+get
 (
 )
 ;
