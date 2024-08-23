@@ -1861,6 +1861,9 @@ name
 "
 AudioDecoder
 "
+android
+:
+false
 }
 /
 /
@@ -1936,6 +1939,9 @@ name
 "
 AudioEncoder
 "
+android
+:
+false
 }
 /
 /
@@ -4793,6 +4799,9 @@ EncodedAudioChunk
 insecureContext
 :
 true
+android
+:
+false
 }
 /
 /
@@ -4819,6 +4828,9 @@ EncodedVideoChunk
 insecureContext
 :
 true
+android
+:
+false
 }
 /
 /
@@ -17723,6 +17735,9 @@ VideoColorSpace
 insecureContext
 :
 true
+android
+:
+false
 }
 /
 /
@@ -17746,6 +17761,9 @@ name
 "
 VideoDecoder
 "
+android
+:
+false
 }
 /
 /
@@ -17769,6 +17787,9 @@ name
 "
 VideoEncoder
 "
+android
+:
+false
 }
 /
 /
