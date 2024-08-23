@@ -25,6 +25,14 @@ pin_project
 #
 [
 project
+(
+!
+Unpin
+)
+]
+#
+[
+project
 =
 EnumProj
 ]
@@ -33,12 +41,6 @@ EnumProj
 project_ref
 =
 EnumProjRef
-]
-#
-[
-project_replace
-=
-EnumProjReplace
 ]
 enum
 Enum
