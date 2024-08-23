@@ -1957,15 +1957,11 @@ templates
 "
             
 "
-browser
-/
-installer
-/
-linux
-/
-app
-/
-debian
+{
+deb
+-
+templates
+}
 "
             
 "
@@ -2108,15 +2104,13 @@ templates
 "
             
 "
-browser
-/
-installer
-/
-linux
-/
-langpack
-/
-debian
+{
+deb
+-
+l10n
+-
+templates
+}
 "
             
 "
@@ -2216,6 +2210,20 @@ stub
 installer
 -
 tag
+"
+    
+"
+deb
+-
+templates
+"
+    
+"
+deb
+-
+l10n
+-
+templates
 "
     
 "
