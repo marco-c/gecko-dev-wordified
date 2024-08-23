@@ -154,6 +154,16 @@ FullPageTranslationsTestUtils
 openPanel
 (
 {
+expectedFromLanguage
+:
+"
+es
+"
+expectedToLanguage
+:
+"
+en
+"
 openFromAppMenu
 :
 true
