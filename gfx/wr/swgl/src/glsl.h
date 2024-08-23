@@ -81,7 +81,7 @@ R8
 RG8
 R16
 RG16
-YUV422
+YUY2
 }
 ;
 enum

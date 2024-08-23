@@ -8695,13 +8695,13 @@ case
 TextureFormat
 :
 :
-YUV422
+YUY2
 :
 {
 auto
 planar
 =
-textureLinearPlanarYUV422
+textureLinearPlanarYUY2
 (
 sampler0
 uv0

@@ -1767,7 +1767,7 @@ S
 >
 SI
 vec4
-fetchOffsetsYUV422
+fetchOffsetsYUY2
 (
 S
 sampler
@@ -1995,7 +1995,7 @@ typename
 S
 >
 vec4
-texelFetchYUV422
+texelFetchYUY2
 (
 S
 sampler
@@ -2020,7 +2020,7 @@ sampler
 stride
 ;
 return
-fetchOffsetsYUV422
+fetchOffsetsYUY2
 (
 sampler
 offset
@@ -2144,10 +2144,10 @@ case
 TextureFormat
 :
 :
-YUV422
+YUY2
 :
 return
-texelFetchYUV422
+texelFetchYUY2
 (
 sampler
 P
@@ -2880,10 +2880,10 @@ case
 TextureFormat
 :
 :
-YUV422
+YUY2
 :
 return
-texelFetchYUV422
+texelFetchYUY2
 (
 sampler
 P
@@ -8195,7 +8195,7 @@ S
 >
 SI
 WidePlanarYUV8
-textureLinearPlanarYUV422
+textureLinearPlanarYUY2
 (
 S
 sampler
@@ -8214,7 +8214,7 @@ format
 TextureFormat
 :
 :
-YUV422
+YUY2
 )
 ;
 ivec2
@@ -9077,7 +9077,7 @@ typename
 S
 >
 vec4
-textureLinearYUV422
+textureLinearYUY2
 (
 S
 sampler
@@ -9099,7 +9099,7 @@ sampler
 auto
 planar
 =
-textureLinearPlanarYUV422
+textureLinearPlanarYUY2
 (
 sampler
 i
@@ -9294,10 +9294,10 @@ case
 TextureFormat
 :
 :
-YUV422
+YUY2
 :
 return
-textureLinearYUV422
+textureLinearYUY2
 (
 sampler
 P
@@ -9454,10 +9454,10 @@ case
 TextureFormat
 :
 :
-YUV422
+YUY2
 :
 return
-textureLinearYUV422
+textureLinearYUY2
 (
 sampler
 P
