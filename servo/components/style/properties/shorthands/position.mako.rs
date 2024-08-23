@@ -1052,6 +1052,16 @@ engines
 =
 "
 gecko
+servo
+"
+servo_pref
+=
+"
+layout
+.
+flexbox
+.
+enabled
 "
 aliases
 =
