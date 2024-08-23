@@ -377,8 +377,6 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
-bool
-aFromMemory
 )
 ;
 RefPtr

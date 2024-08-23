@@ -1400,12 +1400,6 @@ quotaManager
 GetOriginUsage
 (
 principalInfo
-/
-*
-aFromMemory
-*
-/
-false
 )
 )
 ;

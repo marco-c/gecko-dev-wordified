@@ -746,7 +746,6 @@ GetUsageForPrincipal
 (
 mPrincipal
 this
-false
 getter_AddRefs
 (
 usageRequest

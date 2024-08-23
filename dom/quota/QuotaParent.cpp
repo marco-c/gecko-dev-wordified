@@ -2937,10 +2937,6 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-const
-bool
-&
-aFromMemory
 ManagedEndpoint
 <
 PQuotaUsageRequestParent
@@ -3074,7 +3070,6 @@ quotaManager
 GetOriginUsage
 (
 aPrincipalInfo
-aFromMemory
 std
 :
 :

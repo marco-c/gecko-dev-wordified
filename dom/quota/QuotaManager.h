@@ -2494,8 +2494,6 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-bool
-aFromMemory
 RefPtr
 <
 BoolPromise
