@@ -1848,11 +1848,11 @@ info
 Scheduling
 for
 {
-:
-?
 }
 after
 {
+:
+?
 }
 reason
 {
@@ -1860,8 +1860,8 @@ reason
 ?
 }
 "
-dur
 now
+dur
 when
 )
 ;

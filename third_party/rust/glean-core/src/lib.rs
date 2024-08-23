@@ -452,8 +452,12 @@ labeled
 AllowLabeled
 LabeledBoolean
 LabeledCounter
+LabeledCustomDistribution
+LabeledMemoryDistribution
 LabeledMetric
+LabeledMetricData
 LabeledString
+LabeledTimingDistribution
 }
 ;
 pub
@@ -1142,9 +1146,6 @@ PingRateLimit
 /
 /
 /
-(
-Experimental
-)
 Whether
 to
 add

@@ -403,9 +403,6 @@ PingRateLimit
 /
 /
 /
-(
-Experimental
-)
 Whether
 to
 add
@@ -900,9 +897,6 @@ PingRateLimit
 /
 /
 /
-(
-Experimental
-)
 Whether
 to
 add
