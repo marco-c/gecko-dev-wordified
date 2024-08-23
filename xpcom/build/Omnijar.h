@@ -595,7 +595,7 @@ file
 *
 /
 static
-void
+nsresult
 Init
 (
 nsIFile
@@ -1216,7 +1216,7 @@ CleanUp
 *
 /
 static
-void
+nsresult
 InitOne
 (
 nsIFile

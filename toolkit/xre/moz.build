@@ -1477,6 +1477,14 @@ webbrowserpersist
 "
 "
 /
+js
+/
+xpconnect
+/
+loader
+"
+"
+/
 testing
 /
 gtest
