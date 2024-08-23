@@ -405,7 +405,10 @@ messages
 Func
 =
 "
-IsChromeOrUAWidget
+Document
+:
+:
+DocumentSupportsL10n
 "
 Exposed
 =
