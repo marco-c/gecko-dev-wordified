@@ -1369,7 +1369,7 @@ can
 t
 continue
 .
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 GetShm
 (
@@ -1385,7 +1385,7 @@ interface
 "
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 GetCompositor
 (
@@ -1401,7 +1401,7 @@ interface
 "
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 GetSubcompositor
 (
