@@ -320,7 +320,7 @@ createWorklet
 (
 shared_storage_origin
 +
-"
+'
 /
 private
 -
@@ -337,7 +337,16 @@ helper
 module
 .
 js
-"
+'
+{
+dataOrigin
+:
+'
+script
+-
+origin
+'
+}
 )
 ;
 let
