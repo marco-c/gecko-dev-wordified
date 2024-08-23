@@ -5366,6 +5366,7 @@ DEFINED_ON
 arm
 arm64
 x86_shared
+loong64
 )
 ;
 /
