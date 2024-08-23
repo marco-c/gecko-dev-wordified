@@ -3308,6 +3308,11 @@ ClipboardEvent
 webidl
 "
 "
+CloseWatcher
+.
+webidl
+"
+"
 Comment
 .
 webidl
