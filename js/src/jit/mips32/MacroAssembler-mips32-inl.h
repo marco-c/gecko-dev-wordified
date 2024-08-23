@@ -6012,7 +6012,10 @@ Imm64
 val
 Label
 *
-label
+success
+Label
+*
+fail
 )
 {
 MOZ_ASSERT
@@ -6139,7 +6142,10 @@ Register64
 rhs
 Label
 *
-label
+success
+Label
+*
+fail
 )
 {
 MOZ_ASSERT
