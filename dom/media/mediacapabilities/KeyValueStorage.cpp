@@ -517,10 +517,7 @@ keyValueService
 GetOrCreate
 (
 callback
-NS_ConvertUTF16toUTF8
-(
 path
-)
 mDatabaseName
 )
 ;
