@@ -319,13 +319,6 @@ const
 char
 *
 aStartupToken
-char
-*
-*
-aResponse
-bool
-*
-aWindowFound
 )
 {
 NS_ENSURE_TRUE
@@ -394,14 +387,6 @@ commandLineLength
 free
 (
 commandLine
-)
-;
-*
-aWindowFound
-=
-NS_SUCCEEDED
-(
-rv
 )
 ;
 LOG
@@ -1099,6 +1084,6 @@ reply
 ?
 NS_OK
 :
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 ;
 }
