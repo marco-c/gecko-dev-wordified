@@ -1983,6 +1983,9 @@ true
 bool
 mPreventClickEvent
 ;
+bool
+mIgnoreCapturingContent
+;
 }
 ;
 /
