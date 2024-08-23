@@ -34138,6 +34138,10 @@ alloc
 (
 )
 call
+Scalar
+:
+:
+BigInt64
 )
 ;
 /
