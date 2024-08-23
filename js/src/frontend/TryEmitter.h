@@ -1597,6 +1597,16 @@ ControlKind
 controlKind
 )
 ;
+#
+ifdef
+DEBUG
+bool
+hasControlInfo
+(
+)
+;
+#
+endif
 [
 [
 nodiscard
