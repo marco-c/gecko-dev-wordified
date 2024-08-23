@@ -136,7 +136,7 @@ DOVICtx
 int
 dv_profile
 ;
-AVContext
+void
 *
 logctx
 ;
