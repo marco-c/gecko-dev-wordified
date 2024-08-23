@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsIFormControlFrame
-.
-h
-"
-#
-include
-"
 nsIAnonymousContentCreator
 .
 h
@@ -164,9 +157,6 @@ nsCOMPtr
 .
 h
 "
-class
-nsITextControlFrame
-;
 class
 nsPresContext
 ;

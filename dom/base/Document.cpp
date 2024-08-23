@@ -3756,6 +3756,13 @@ h
 #
 include
 "
+nsTextControlFrame
+.
+h
+"
+#
+include
+"
 nsTextNode
 .
 h
@@ -87325,7 +87332,7 @@ FromNode
 nonChrome
 )
 ;
-nsITextControlFrame
+nsTextControlFrame
 *
 textFrame
 =

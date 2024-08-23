@@ -207,13 +207,6 @@ h
 #
 include
 "
-nsITextControlFrame
-.
-h
-"
-#
-include
-"
 nsMenuPopupFrame
 .
 h

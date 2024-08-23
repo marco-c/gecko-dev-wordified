@@ -399,13 +399,6 @@ h
 #
 include
 "
-nsIFormControlFrame
-.
-h
-"
-#
-include
-"
 nsInterfaceHashtable
 .
 h

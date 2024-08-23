@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsITextControlFrame
-.
-h
-"
-#
-include
-"
 nsIFormControl
 .
 h

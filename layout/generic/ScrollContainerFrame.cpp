@@ -309,13 +309,6 @@ h
 #
 include
 "
-nsITextControlFrame
-.
-h
-"
-#
-include
-"
 nsILayoutHistoryState
 .
 h

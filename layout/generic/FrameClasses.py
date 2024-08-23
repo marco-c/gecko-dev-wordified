@@ -1905,13 +1905,6 @@ nsIAnonymousContentCreator
 AbstractFrame
 (
 "
-nsIFormControlFrame
-"
-)
-    
-AbstractFrame
-(
-"
 nsIMathMLFrame
 "
 )
@@ -1976,13 +1969,6 @@ AbstractFrame
 (
 "
 nsITableLayout
-"
-)
-    
-AbstractFrame
-(
-"
-nsITextControlFrame
 "
 )
 ]

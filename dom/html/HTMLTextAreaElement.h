@@ -2065,12 +2065,10 @@ TextControlState
 *
 mState
 ;
-NS_IMETHOD
+MOZ_CAN_RUN_SCRIPT
+void
 SelectAll
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 /
