@@ -425,11 +425,6 @@ T
 /
 Enums
 !
-}
-/
-/
-namespace
-webgl
 inline
 constexpr
 bool
@@ -536,9 +531,6 @@ AttribBaseType
 )
 )
 ;
-namespace
-webgl
-{
 #
 define
 USE_IS_ENUM_CASE

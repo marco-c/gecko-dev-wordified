@@ -1654,9 +1654,6 @@ in
 {
 MOZ_ASSERT
 (
-mozilla
-:
-:
 IsEnumCase
 (
 in
@@ -1738,7 +1735,7 @@ e
 mozilla
 :
 :
-AsEnumCase
+AsValidEnum
 <
 T
 >
