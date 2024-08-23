@@ -66,17 +66,6 @@ test_locks
 (
 )
 {
-Cu
-.
-importGlobalProperties
-(
-[
-"
-locks
-"
-]
-)
-;
 Assert
 .
 ok

@@ -1152,6 +1152,12 @@ structuredClone
 /
 /
 IDX_STRUCTUREDCLONE
+"
+locks
+"
+/
+/
+IDX_LOCKS
 }
 ;
 /
