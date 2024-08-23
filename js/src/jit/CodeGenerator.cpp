@@ -146558,11 +146558,6 @@ of
 -
 line
 storage
-(
-or
-the
-trap
-)
 .
 masm
 .
