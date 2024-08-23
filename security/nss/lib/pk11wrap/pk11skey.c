@@ -14090,6 +14090,11 @@ PORT_SetError
 SEC_ERROR_INVALID_ALGORITHM
 )
 ;
+PK11_FreeSymKey
+(
+symKey
+)
+;
 return
 NULL
 ;

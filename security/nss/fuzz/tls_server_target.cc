@@ -140,7 +140,7 @@ h
 "
 #
 ifdef
-IS_DTLS
+IS_DTLS_FUZZ
 __attribute__
 (
 (
@@ -177,7 +177,7 @@ fd
 {
 #
 ifdef
-IS_DTLS
+IS_DTLS_FUZZ
 return
 DTLS_ImportFD
 (
@@ -416,7 +416,7 @@ SECSuccess
 ;
 #
 ifndef
-IS_DTLS
+IS_DTLS_FUZZ
 rv
 =
 SSL_OptionSet
