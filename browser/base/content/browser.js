@@ -20576,7 +20576,7 @@ close
 any
 open
 tabspecific
-panels
+popups
 .
 if
 (
@@ -20586,7 +20586,12 @@ aIsSimulated
 closeOpenPanels
 (
 "
+:
+is
+(
 panel
+menupopup
+)
 [
 tabspecific
 =
