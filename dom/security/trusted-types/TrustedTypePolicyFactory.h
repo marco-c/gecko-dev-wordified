@@ -178,7 +178,7 @@ include
 "
 mozilla
 /
-RefPtr
+AlreadyAddRefed
 .
 h
 "
@@ -187,7 +187,7 @@ include
 "
 mozilla
 /
-UniquePtr
+RefPtr
 .
 h
 "
@@ -571,7 +571,7 @@ dom
 trustedtypepolicyfactory
 -
 emptyhtml
-UniquePtr
+already_AddRefed
 <
 TrustedHTML
 >
@@ -605,7 +605,7 @@ dom
 trustedtypepolicyfactory
 -
 emptyscript
-UniquePtr
+already_AddRefed
 <
 TrustedScript
 >

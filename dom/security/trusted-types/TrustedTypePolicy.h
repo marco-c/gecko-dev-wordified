@@ -143,6 +143,15 @@ include
 "
 mozilla
 /
+AlreadyAddRefed
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -153,15 +162,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
-UniquePtr
 .
 h
 "
@@ -428,7 +428,7 @@ trustedtypepolicy
 -
 createhtml
 MOZ_CAN_RUN_SCRIPT
-UniquePtr
+already_AddRefed
 <
 TrustedHTML
 >
@@ -484,7 +484,7 @@ trustedtypepolicy
 -
 createscript
 MOZ_CAN_RUN_SCRIPT
-UniquePtr
+already_AddRefed
 <
 TrustedScript
 >
@@ -540,7 +540,7 @@ trustedtypepolicy
 -
 createscripturl
 MOZ_CAN_RUN_SCRIPT
-UniquePtr
+already_AddRefed
 <
 TrustedScriptURL
 >
@@ -630,7 +630,7 @@ typename
 CallbackObject
 >
 MOZ_CAN_RUN_SCRIPT
-UniquePtr
+already_AddRefed
 <
 T
 >
