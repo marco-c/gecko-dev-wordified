@@ -583,6 +583,7 @@ frame_type_
 frame_type
 ;
 encoded_image_size_
++
 =
 encoded_image_size
 ;
