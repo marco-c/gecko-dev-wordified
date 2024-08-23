@@ -915,6 +915,9 @@ activation
 hasValidUserGestureActivation
 :
 true
+textDirectiveUserActivation
+:
+true
 triggeringRemoteType
 :
 this
