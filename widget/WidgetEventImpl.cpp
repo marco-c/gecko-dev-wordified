@@ -636,9 +636,6 @@ ePointerGotCapture
 case
 ePointerLostCapture
 :
-return
-true
-;
 case
 ePointerClick
 :
@@ -649,12 +646,7 @@ case
 eContextMenu
 :
 return
-StaticPrefs
-:
-:
-dom_w3c_pointer_events_dispatch_click_as_pointer_event
-(
-)
+true
 ;
 default
 :
@@ -671,15 +663,6 @@ aMessage
 )
 {
 return
-StaticPrefs
-:
-:
-dom_w3c_pointer_events_dispatch_click_as_pointer_event
-(
-)
-&
-&
-(
 aMessage
 =
 =
@@ -696,7 +679,6 @@ aMessage
 =
 =
 eContextMenu
-)
 ;
 }
 bool
