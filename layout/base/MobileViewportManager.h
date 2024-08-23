@@ -1013,13 +1013,6 @@ GetZoom
 )
 const
 ;
-private
-:
-~
-MobileViewportManager
-(
-)
-;
 /
 *
 Main
@@ -1046,6 +1039,13 @@ RefreshViewportSize
 (
 bool
 aForceAdjustResolution
+)
+;
+private
+:
+~
+MobileViewportManager
+(
 )
 ;
 /
