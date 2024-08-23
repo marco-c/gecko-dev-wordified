@@ -149,10 +149,7 @@ use
 gecko_profiler
 :
 :
-{
 auto_profiler_marker_tracing
-gecko_profiler_category
-}
 ;
 use
 rayon
@@ -4428,6 +4425,9 @@ auto_profiler_marker_tracing
 "
 BlobRasterization
 "
+gecko_profiler
+:
+:
 gecko_profiler_category
 !
 (
