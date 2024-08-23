@@ -2109,10 +2109,8 @@ GetKeySystem
 {
 logMessage
 .
-Append
+AppendPrintf
 (
-nsPrintfCString
-{
 "
 keySystem
 =
@@ -2128,7 +2126,6 @@ keySystem
 get
 (
 )
-}
 )
 ;
 }
@@ -3688,10 +3685,8 @@ renderedFrames
 {
 logMessage
 .
-Append
+AppendPrintf
 (
-nsPrintfCString
-{
 "
 renderedFrames
 =
@@ -3700,7 +3695,6 @@ renderedFrames
 PRIu64
 *
 renderedFrames
-}
 )
 ;
 }
@@ -3711,10 +3705,8 @@ droppedFrames
 {
 logMessage
 .
-Append
+AppendPrintf
 (
-nsPrintfCString
-{
 "
 droppedFrames
 =
@@ -3723,7 +3715,6 @@ droppedFrames
 PRIu64
 *
 droppedFrames
-}
 )
 ;
 }
