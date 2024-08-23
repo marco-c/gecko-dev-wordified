@@ -3648,7 +3648,7 @@ s
 playedTime
 =
 %
-s
+lf
 "
 NS_ConvertUTF16toUTF8
 (
@@ -3678,17 +3678,7 @@ aResolution
 get
 (
 )
-std
-:
-:
-to_string
-(
 aTotalPlayTimeS
-)
-.
-c_str
-(
-)
 }
 ;
 if
