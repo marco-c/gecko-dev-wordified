@@ -5860,6 +5860,9 @@ buffer
 )
 )
 {
+AutoTouchingGrayThings
+tgt
+;
 for
 (
 size_t
@@ -6242,6 +6245,9 @@ this
 )
 )
 {
+AutoTouchingGrayThings
+tgt
+;
 for
 (
 auto
