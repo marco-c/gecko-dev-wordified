@@ -209,6 +209,15 @@ include
 "
 common_audio
 /
+channel_buffer
+.
+h
+"
+#
+include
+"
+common_audio
+/
 include
 /
 audio_util
