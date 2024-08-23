@@ -7535,11 +7535,6 @@ label
 )
 ;
 }
-template
-<
-class
-L
->
 void
 MacroAssembler
 :
@@ -7554,7 +7549,8 @@ Register64
 rhs
 Register
 temp
-L
+Label
+*
 label
 )
 {

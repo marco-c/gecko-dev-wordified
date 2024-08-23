@@ -6774,11 +6774,6 @@ label
 )
 ;
 }
-template
-<
-class
-L
->
 void
 MacroAssembler
 :
@@ -6793,7 +6788,8 @@ Register64
 rhs
 Register
 temp
-L
+Label
+*
 label
 )
 {
@@ -7558,11 +7554,6 @@ label
 )
 ;
 }
-template
-<
-class
-L
->
 void
 MacroAssembler
 :
@@ -7575,7 +7566,8 @@ const
 ValueOperand
 &
 value
-L
+Label
+*
 label
 )
 {

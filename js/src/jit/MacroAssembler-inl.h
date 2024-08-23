@@ -2916,11 +2916,6 @@ dest
 /
 Branch
 functions
-template
-<
-class
-L
->
 void
 MacroAssembler
 :
@@ -2929,7 +2924,8 @@ branchIfFalseBool
 (
 Register
 reg
-L
+Label
+*
 label
 )
 {
