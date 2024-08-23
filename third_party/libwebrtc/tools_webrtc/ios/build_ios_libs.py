@@ -734,39 +734,6 @@ add_argument
 -
 use
 -
-goma
-'
-                        
-action
-=
-'
-store_true
-'
-                        
-default
-=
-False
-                        
-help
-=
-'
-Use
-goma
-to
-build
-.
-'
-)
-    
-parser
-.
-add_argument
-(
-'
--
--
-use
--
 remoteexec
 '
                         
@@ -1238,7 +1205,6 @@ gn_target_name
 ios_deployment_target
 libvpx_build_vp9
                 
-use_goma
 use_remoteexec
 extra_gn_args
 )
@@ -1427,28 +1393,6 @@ gn_args
 append
 (
 '
-use_goma
-=
-'
-+
-(
-'
-true
-'
-if
-use_goma
-else
-'
-false
-'
-)
-)
-    
-gn_args
-.
-append
-(
-'
 use_remoteexec
 =
 '
@@ -1599,8 +1543,6 @@ gn_target_name
 ]
     
 if
-use_goma
-or
 use_remoteexec
 :
         
@@ -1890,11 +1832,7 @@ ios_deployment_target
 LIBVPX_BUILD_VP9
 args
 .
-use_goma
-args
-.
 use_remoteexec
-                        
 gn_args
 )
         
