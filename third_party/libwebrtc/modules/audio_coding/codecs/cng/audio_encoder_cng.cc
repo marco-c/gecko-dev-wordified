@@ -621,6 +621,13 @@ num_cng_coefficients_
 )
 )
 {
+speech_encoder_
+-
+>
+Reset
+(
+)
+;
 }
 AudioEncoderCng
 :
