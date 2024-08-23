@@ -113,13 +113,6 @@ h
 "
 agnostic
 /
-TheoraDecoder
-.
-h
-"
-"
-agnostic
-/
 VPXDecoder
 .
 h
@@ -232,13 +225,6 @@ cpp
 agnostic
 /
 NullDecoderModule
-.
-cpp
-"
-"
-agnostic
-/
-TheoraDecoder
 .
 cpp
 "

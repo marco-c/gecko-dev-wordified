@@ -341,7 +341,6 @@ OGG
 =
 cross_combine
 (
-        
 [
 {
 "
@@ -360,9 +359,6 @@ vcodec
 "
 [
 "
-theora
-"
-"
 vp8
 "
 "
@@ -370,7 +366,6 @@ vp9
 "
 ]
 )
-    
 )
     
 WEBM_CODECS

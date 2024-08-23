@@ -5476,9 +5476,6 @@ Name
 Language
 Title
 for
-both
-theora
-/
 vorbis
 /
 /
