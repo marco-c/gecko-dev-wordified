@@ -95,6 +95,7 @@ a
 null
 PSTR
 pub
+const
 fn
 null
 (
@@ -105,7 +106,7 @@ Self
 {
 Self
 (
-std
+core
 :
 :
 ptr
@@ -127,6 +128,7 @@ to
 the
 PSTR
 pub
+const
 fn
 as_ptr
 (
@@ -232,9 +234,6 @@ u8
 let
 len
 =
-super
-:
-:
 strlen
 (
 PCSTR
@@ -248,7 +247,7 @@ self
 )
 )
 ;
-std
+core
 :
 :
 slice
@@ -307,7 +306,7 @@ self
 )
 -
 >
-std
+core
 :
 :
 result
@@ -316,7 +315,7 @@ result
 Result
 <
 String
-std
+alloc
 :
 :
 string
@@ -386,7 +385,7 @@ self
 -
 >
 impl
-std
+core
 :
 :
 fmt
@@ -412,15 +411,4 @@ as_bytes
 )
 )
 }
-}
-impl
-TypeKind
-for
-PSTR
-{
-type
-TypeKind
-=
-CopyType
-;
 }

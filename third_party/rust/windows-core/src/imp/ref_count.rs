@@ -1,5 +1,5 @@
 use
-std
+core
 :
 :
 sync
@@ -14,13 +14,6 @@ AtomicI32
 Ordering
 }
 ;
-#
-[
-doc
-(
-hidden
-)
-]
 #
 [
 repr
@@ -211,7 +204,7 @@ cmp
 0
 )
 {
-std
+core
 :
 :
 cmp
@@ -230,7 +223,7 @@ Ordering
 :
 Acquire
 )
-std
+core
 :
 :
 cmp
@@ -255,7 +248,7 @@ released
 .
 "
 )
-std
+core
 :
 :
 cmp
