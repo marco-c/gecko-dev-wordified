@@ -15,6 +15,10 @@ format
 mod
 alias
 ;
+pub
+(
+crate
+)
 mod
 binary
 ;
