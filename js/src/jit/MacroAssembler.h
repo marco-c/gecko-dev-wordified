@@ -38720,7 +38720,10 @@ result
 Inline
 version
 of
-js_TypedArray_uint8_clamp_double
+js
+:
+:
+ClampDoubleToUint8
 .
 /
 /
