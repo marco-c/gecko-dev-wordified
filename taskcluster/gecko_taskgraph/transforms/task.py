@@ -1303,7 +1303,7 @@ tier
 #
 tasks
 and
-zero
+one
 for
 non
 -
@@ -1328,6 +1328,11 @@ tier
 1
 in
 the
+index
+but
+above
+eager
+-
 index
 .
                 
@@ -16209,7 +16214,7 @@ tier
 #
 rank
 is
-zero
+one
 for
 non
 -
@@ -16242,6 +16247,13 @@ tier
 in
 the
 index
+but
+above
+            
+#
+eager
+-
+index
             
 tier
 =
@@ -16271,7 +16283,7 @@ rank
 "
 ]
 =
-0
+1
 if
 tier
 >
