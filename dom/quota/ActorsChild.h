@@ -450,10 +450,7 @@ void
 HandleResponse
 (
 const
-nsTArray
-<
-OriginUsage
->
+OriginUsageMetadataArray
 &
 aResponse
 )
@@ -496,8 +493,8 @@ ipc
 IPCResult
 Recv__delete__
 (
-const
 UsageRequestResponse
+&
 &
 aResponse
 )

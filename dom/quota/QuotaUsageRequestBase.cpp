@@ -254,7 +254,13 @@ PQuotaUsageRequestParent
 Send__delete__
 (
 this
+std
+:
+:
+move
+(
 response
+)
 )
 ;
 }
