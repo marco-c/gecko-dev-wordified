@@ -187,6 +187,7 @@ MarginRule
 MediaRule
 NamespaceRule
 PageRule
+PositionTryRule
 PropertyRule
 ScopeRule
 StartingStyleRule
@@ -568,5 +569,14 @@ impl_simple_arc_ffi
 StartingStyleRule
 Servo_StartingStyleRule_AddRef
 Servo_StartingStyleRule_Release
+)
+;
+impl_locked_arc_ffi
+!
+(
+PositionTryRule
+LockedPositionTryRule
+Servo_PositionTryRule_AddRef
+Servo_PositionTryRule_Release
 )
 ;

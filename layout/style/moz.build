@@ -855,6 +855,11 @@ CSSPageRule
 h
 "
 "
+CSSPositionTryRule
+.
+h
+"
+"
 CSSPropertyRule
 .
 h
@@ -1105,6 +1110,11 @@ cpp
 "
 "
 CSSPageRule
+.
+cpp
+"
+"
+CSSPositionTryRule
 .
 cpp
 "
