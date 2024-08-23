@@ -273,8 +273,11 @@ private
 explicit
 VRGPUParent
 (
-ProcessId
-aChildProcessId
+ipc
+:
+:
+EndpointProcInfo
+aChildProcess
 )
 ;
 ~

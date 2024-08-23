@@ -664,15 +664,6 @@ PTestEndpointOpensOpened
 :
 CreateEndpoints
 (
-OtherPidMaybeInvalid
-(
-)
-base
-:
-:
-GetCurrentProcId
-(
-)
 &
 parent
 &

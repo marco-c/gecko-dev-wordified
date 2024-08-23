@@ -231,6 +231,14 @@ GeckoChildID
 =
 int32_t
 ;
+inline
+constexpr
+GeckoChildID
+kInvalidGeckoChildID
+=
+-
+1
+;
 namespace
 mozilla
 {

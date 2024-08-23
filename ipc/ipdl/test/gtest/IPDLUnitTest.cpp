@@ -798,7 +798,7 @@ move
 parentPort
 )
 channelId
-OtherPid
+OtherEndpointProcInfo
 (
 )
 )
@@ -1249,7 +1249,7 @@ move
 aPort
 )
 aMessageChannelId
-OtherPid
+OtherEndpointProcInfo
 (
 )
 )

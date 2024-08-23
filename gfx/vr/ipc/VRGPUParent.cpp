@@ -174,8 +174,8 @@ VRGPUParent
 :
 VRGPUParent
 (
-ProcessId
-aChildProcessId
+EndpointProcInfo
+aChildProcess
 )
 :
 mClosed
@@ -190,9 +190,9 @@ NS_IsMainThread
 )
 )
 ;
-SetOtherProcessId
+SetOtherEndpointProcInfo
 (
-aChildProcessId
+aChildProcess
 )
 ;
 }
@@ -305,7 +305,7 @@ VRGPUParent
 (
 aEndpoint
 .
-OtherPid
+OtherEndpointProcInfo
 (
 )
 )

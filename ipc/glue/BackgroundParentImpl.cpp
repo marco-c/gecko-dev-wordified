@@ -6948,7 +6948,7 @@ rdd
 >
 EnsureRDDProcessAndCreateBridge
 (
-OtherPid
+OtherEndpointProcInfo
 (
 )
 parent
@@ -7074,13 +7074,10 @@ EnsureUtilityProcessAndCreateBridgeResolver
 aResolver
 )
 {
-base
-:
-:
-ProcessId
-otherPid
+EndpointProcInfo
+otherProcInfo
 =
-OtherPid
+OtherEndpointProcInfo
 (
 )
 ;
@@ -7165,7 +7162,7 @@ RecvEnsureUtilityProcessAndCreateBridge
 [
 aResolver
 managerThread
-otherPid
+otherProcInfo
 childId
 aLocation
 ]
@@ -7271,7 +7268,7 @@ upm
 >
 StartProcessForRemoteMediaDecoding
 (
-otherPid
+otherProcInfo
 childId
 sbKind
 )

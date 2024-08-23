@@ -574,12 +574,12 @@ InProcessChild
 parent
 -
 >
-SetOtherProcessId
+SetOtherEndpointProcInfo
 (
-base
+EndpointProcInfo
 :
 :
-GetCurrentProcId
+Current
 (
 )
 )

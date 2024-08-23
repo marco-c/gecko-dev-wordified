@@ -4715,7 +4715,7 @@ CreateEndpoints
 parent
 -
 >
-OtherPid
+OtherEndpointProcInfo
 (
 )
 self
@@ -4726,7 +4726,7 @@ Manager
 )
 -
 >
-OtherPid
+OtherEndpointProcInfo
 (
 )
 &

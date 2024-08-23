@@ -7878,13 +7878,13 @@ PGMPService
 :
 CreateEndpoints
 (
-base
+EndpointProcInfo
 :
 :
-GetCurrentProcId
+Current
 (
 )
-OtherPid
+OtherEndpointProcInfo
 (
 )
 &
@@ -19142,7 +19142,7 @@ gpm
 >
 CreateContentBridges
 (
-OtherPid
+OtherEndpointProcInfo
 (
 )
 &
@@ -20219,7 +20219,7 @@ gpm
 >
 CreateContentBridges
 (
-OtherPid
+OtherEndpointProcInfo
 (
 )
 &
