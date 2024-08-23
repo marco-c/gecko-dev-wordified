@@ -115,13 +115,6 @@ h
 #
 include
 "
-SharedSSLState
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ErrorResult
@@ -166,6 +159,13 @@ h
 include
 "
 nsITlsHandshakeListener
+.
+h
+"
+#
+include
+"
+nsNSSCertificate
 .
 h
 "
