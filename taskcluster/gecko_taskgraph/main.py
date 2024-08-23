@@ -1960,10 +1960,23 @@ copy
 :
             
 if
+(
+                
 mod
 !
 =
 __name__
+                
+and
+mod
+!
+=
+"
+taskgraph
+.
+main
+"
+                
 and
 mod
 .
@@ -1980,7 +1993,6 @@ split
 .
 endswith
 (
-                
 (
 "
 taskgraph
@@ -1988,6 +2000,7 @@ taskgraph
 "
 mozbuild
 "
+)
 )
             
 )
