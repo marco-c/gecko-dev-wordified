@@ -278,6 +278,11 @@ mSpecificGroupId
 0
 ;
 bool
+mShouldCrossOriginIsolate
+=
+false
+;
+bool
 mTryUseBFCache
 =
 false
