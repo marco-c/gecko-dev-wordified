@@ -662,6 +662,9 @@ bool
 aAllowed
 Maybe
 <
+mozilla
+:
+:
 ipc
 :
 :
