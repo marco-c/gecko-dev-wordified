@@ -45,6 +45,15 @@ t
 =
 >
 {
+const
+builder
+=
+new
+MLGraphBuilder
+(
+context
+)
+;
 /
 /
 The
@@ -117,7 +126,7 @@ input
 }
 }
 }
-"
+'
 [
 triangular
 ]
@@ -126,6 +135,7 @@ is
 expected
 if
 input
+\
 '
 s
 rank
@@ -133,7 +143,7 @@ is
 less
 than
 2
-"
+'
 )
 ;
 validateInputFromAnotherBuilder
