@@ -15377,9 +15377,7 @@ nsresult
 err1
 err2
 ;
-mozilla
-:
-:
+const
 CSSIntPoint
 pos
 (
@@ -15412,12 +15410,14 @@ NS_SUCCEEDED
 err2
 )
 )
+{
 MoveTo
 (
 pos
 false
 )
 ;
+}
 PresShell
 (
 )
