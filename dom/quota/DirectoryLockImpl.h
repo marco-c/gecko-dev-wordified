@@ -1235,10 +1235,9 @@ override
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-!
 mPersistenceScope
 .
-IsNull
+IsValue
 (
 )
 )
@@ -1541,10 +1540,9 @@ MOZ_ASSERT_IF
 (
 !
 aInternal
-!
 aPersistenceScope
 .
-IsNull
+IsValue
 (
 )
 )
