@@ -3985,8 +3985,10 @@ included
 .
 *
 /
-static
 bool
+js
+:
+:
 AbruptRejectPromise
 (
 JSContext

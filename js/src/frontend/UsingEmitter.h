@@ -168,6 +168,11 @@ emitter
 Bug
 1904346
 )
+bool
+hasAwaitUsing_
+=
+false
+;
 [
 [
 nodiscard
@@ -176,6 +181,9 @@ nodiscard
 bool
 emitDisposeLoop
 (
+EmitterScope
+&
+es
 CompletionKind
 initialCompletion
 =
