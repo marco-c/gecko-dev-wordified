@@ -647,6 +647,11 @@ QuotaResults
 cpp
 "
 "
+QuotaUsageRequestChild
+.
+cpp
+"
+"
 QuotaUsageRequestParent
 .
 cpp
