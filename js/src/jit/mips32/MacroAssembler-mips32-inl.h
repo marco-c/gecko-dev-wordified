@@ -6790,7 +6790,10 @@ Register
 temp
 Label
 *
-label
+success
+Label
+*
+fail
 )
 {
 if
