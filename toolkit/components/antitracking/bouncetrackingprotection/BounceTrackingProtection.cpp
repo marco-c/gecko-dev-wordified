@@ -4677,6 +4677,12 @@ BounceTrackingState
 HasBounceTrackingStateForSite
 (
 host
+aStateGlobal
+-
+>
+OriginAttributesRef
+(
+)
 hostIsActive
 )
 ;
