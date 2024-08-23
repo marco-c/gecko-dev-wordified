@@ -6335,6 +6335,7 @@ const
 [
 key
 {
+computedValue
 declarationValue
 }
 ]
@@ -6354,6 +6355,9 @@ customProperties
 set
 (
 key
+computedValue
+?
+?
 declarationValue
 )
 ;
