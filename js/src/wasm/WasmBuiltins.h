@@ -1557,7 +1557,7 @@ AutoMarkJitCodeWritableForThread
 writable
 )
 ;
-bool
+void
 HandleThrow
 (
 JSContext
