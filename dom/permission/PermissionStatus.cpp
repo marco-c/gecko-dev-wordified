@@ -777,6 +777,8 @@ ActionToPermissionState
 (
 action
 mName
+*
+document
 )
 ;
 return
