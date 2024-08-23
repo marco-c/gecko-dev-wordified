@@ -59,6 +59,7 @@ os
 from
 pathlib
 import
+Path
 PurePath
 import
 sphinx
@@ -235,7 +236,10 @@ set
     
 is_main
 =
+Path
+(
 docdir
+)
 =
 =
 MAIN_DOC_PATH
@@ -406,7 +410,10 @@ absdir
 not
 in
 (
+Path
+(
 docdir
+)
 MAIN_DOC_PATH
 )
 :
@@ -433,14 +440,17 @@ path
 /
 )
                 
-if
+try
+:
+                    
+relative_docdir
+=
 docdir
 .
-startswith
+relative_to
 (
 absdir
 )
-:
                     
 key
 =
@@ -451,25 +461,16 @@ path
 join
 (
 key
-docdir
+os
 .
-split
+fspath
 (
-f
-"
-{
-key
-}
-/
-"
+relative_docdir
 )
-[
--
-1
-]
 )
                 
-else
+except
+ValueError
 :
                     
 continue
@@ -1484,14 +1485,20 @@ rebuilt
 .
         
 if
+Path
+(
 app
 .
 srcdir
+)
 =
 =
+Path
+(
 self
 .
 topsrcdir
+)
 :
             
 indexes
