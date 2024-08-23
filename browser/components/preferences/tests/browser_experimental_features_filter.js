@@ -138,6 +138,8 @@ features
 -
 group
 -
+customize
+-
 browsing
 "
 description
@@ -187,6 +189,8 @@ experimental
 features
 -
 group
+-
+customize
 -
 browsing
 "
@@ -251,6 +255,8 @@ experimental
 features
 -
 group
+-
+customize
 -
 browsing
 "
