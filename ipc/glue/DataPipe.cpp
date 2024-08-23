@@ -519,7 +519,7 @@ Mutex
 aMutex
 ScopedPort
 aPort
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -1288,7 +1288,7 @@ MOZ_GUARDED_BY
 mMutex
 )
 ;
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -1794,7 +1794,7 @@ bool
 aReceiverSide
 ScopedPort
 aPort
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -2276,7 +2276,7 @@ link
 mShmem
 -
 >
-Memory
+memory
 (
 )
 )
@@ -3514,7 +3514,7 @@ return
 false
 ;
 }
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -3560,12 +3560,12 @@ memory
 API
 provided
 by
-SharedMemory
+SharedMemoryBasic
 we
 need
+/
+/
 to
-/
-/
 transfer
 ownership
 into
@@ -3578,9 +3578,9 @@ it
 back
 later
 in
+/
+/
 the
-/
-/
 function
 .
 Bug
@@ -3592,9 +3592,9 @@ to
 the
 RawShmem
 API
+/
+/
 which
-/
-/
 could
 improve
 this
@@ -3604,7 +3604,7 @@ RefPtr
 shmem
 =
 new
-SharedMemory
+SharedMemoryBasic
 (
 )
 ;
@@ -5295,7 +5295,7 @@ shmem
 =
 MakeRefPtr
 <
-SharedMemory
+SharedMemoryBasic
 >
 (
 )
@@ -5383,7 +5383,7 @@ non
 -
 recoverable
 .
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -5396,7 +5396,7 @@ CloneHandle
 (
 )
 ;
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle

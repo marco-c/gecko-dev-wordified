@@ -312,7 +312,7 @@ new
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 ;
 if
 (
@@ -367,7 +367,7 @@ MutexData
 mSharedBuffer
 -
 >
-Memory
+memory
 (
 )
 )
@@ -443,7 +443,7 @@ new
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 ;
 if
 (
@@ -525,7 +525,7 @@ MutexData
 mSharedBuffer
 -
 >
-Memory
+memory
 (
 )
 )
@@ -753,7 +753,7 @@ result
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 NULLHandle

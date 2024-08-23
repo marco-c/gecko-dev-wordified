@@ -1660,7 +1660,7 @@ private
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -1718,7 +1718,7 @@ aTag
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -1801,7 +1801,7 @@ AddBuffer
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -1843,7 +1843,7 @@ SetDataSurfaceBuffer
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -1900,7 +1900,7 @@ ClearCachedResources
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -1955,7 +1955,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 NULLHandle
@@ -2408,7 +2408,7 @@ RefPtr
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 mHeaderShmem
 ;
@@ -2426,7 +2426,7 @@ RefPtr
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 shmem
 ;
@@ -2463,7 +2463,7 @@ char
 shmem
 -
 >
-Memory
+memory
 (
 )
 )
@@ -2502,7 +2502,7 @@ RefPtr
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 mDataSurfaceShmem
 ;

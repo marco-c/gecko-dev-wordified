@@ -192,7 +192,7 @@ mozilla
 /
 ipc
 /
-SharedMemory
+SharedMemoryBasic
 .
 h
 "
@@ -2426,7 +2426,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 mShmem
 ;
@@ -4005,7 +4005,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -4030,7 +4030,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 NULLHandle

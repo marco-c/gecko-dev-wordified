@@ -136,6 +136,17 @@ SharedMemory
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+SharedMemoryBasic
+.
+h
+"
 namespace
 IPC
 {
@@ -210,7 +221,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 (
 )
 ;
@@ -287,7 +298,7 @@ char
 shmem_
 -
 >
-Memory
+memory
 (
 )
 )
@@ -623,7 +634,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 (
 )
 ;
@@ -698,7 +709,7 @@ char
 shmem_
 -
 >
-Memory
+memory
 (
 )
 )

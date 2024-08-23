@@ -163,7 +163,7 @@ mozilla
 /
 ipc
 /
-SharedMemory
+SharedMemoryBasic
 .
 h
 "
@@ -227,7 +227,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -913,7 +913,7 @@ RefPtr
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 mHeaderShmem
 ;
@@ -937,7 +937,7 @@ RefPtr
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 shmem
 ;
@@ -959,7 +959,7 @@ RefPtr
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 &
 &
@@ -977,7 +977,7 @@ char
 aShmem
 -
 >
-Memory
+memory
 (
 )
 )
@@ -1028,7 +1028,7 @@ RefPtr
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 shmem
 ;
@@ -1045,7 +1045,7 @@ RefPtr
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 &
 &

@@ -190,7 +190,7 @@ mozilla
 /
 ipc
 /
-SharedMemory
+SharedMemoryBasic
 .
 h
 "
@@ -327,7 +327,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -688,7 +688,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 mSharedBuffer
 ;

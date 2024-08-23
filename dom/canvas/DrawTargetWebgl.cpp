@@ -2024,7 +2024,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 (
 )
@@ -2117,7 +2117,7 @@ uint8_t
 mShmem
 -
 >
-Memory
+memory
 (
 )
 )

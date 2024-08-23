@@ -747,7 +747,7 @@ RefPtr
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 &
 aShmem
@@ -775,7 +775,7 @@ MakeRefPtr
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 (
 )
@@ -1148,7 +1148,7 @@ MakeAndAddRef
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 >
 (
 )
@@ -1212,7 +1212,7 @@ Header
 mHeaderShmem
 -
 >
-Memory
+memory
 (
 )
 )
@@ -1672,7 +1672,7 @@ RecvAddBuffer
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -1757,7 +1757,7 @@ NewRunnableMethod
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -1805,7 +1805,7 @@ AddBuffer
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -2073,7 +2073,7 @@ RecvSetDataSurfaceBuffer
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -2158,7 +2158,7 @@ NewRunnableMethod
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -2206,7 +2206,7 @@ SetDataSurfaceBuffer
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -2576,7 +2576,7 @@ uint8_t
 mDataSurfaceShmem
 -
 >
-Memory
+memory
 (
 )
 )

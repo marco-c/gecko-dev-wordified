@@ -3,6 +3,12 @@
 -
 *
 -
+Mode
+:
+C
++
++
+;
 tab
 -
 width
@@ -172,7 +178,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+SharedMemoryBasic
 :
 :
 Handle
@@ -182,7 +188,7 @@ mozilla
 /
 ipc
 /
-SharedMemory
+SharedMemoryBasic
 .
 h
 "

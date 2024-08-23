@@ -132,7 +132,7 @@ mozilla
 /
 ipc
 /
-SharedMemory
+SharedMemoryBasic
 .
 h
 "
@@ -185,7 +185,7 @@ aSharedMemory
 aSharedMemory
 -
 >
-Memory
+memory
 (
 )
 "
@@ -307,7 +307,7 @@ as
 )
 -
 >
-Memory
+memory
 (
 )
 )
@@ -364,7 +364,7 @@ as
 )
 -
 >
-Memory
+memory
 (
 )
 )
@@ -453,7 +453,7 @@ SharedMemory
 shmem
 =
 new
-SharedMemory
+SharedMemoryBasic
 (
 )
 ;
@@ -763,7 +763,7 @@ SharedMemory
 shmem
 =
 new
-SharedMemory
+SharedMemoryBasic
 (
 )
 ;

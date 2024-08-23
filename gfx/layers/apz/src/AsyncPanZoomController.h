@@ -381,7 +381,7 @@ namespace
 ipc
 {
 class
-SharedMemory
+SharedMemoryBasic
 ;
 }
 /

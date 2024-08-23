@@ -348,6 +348,9 @@ the
 *
 |
 SharedMemory
+{
+Basic
+}
 :
 :
 Handle
@@ -357,6 +360,7 @@ was
 passed
 creates
 a
+*
 |
 mozilla
 :
@@ -366,10 +370,10 @@ ipc
 :
 SharedMemory
 |
-*
 in
 the
 child
+*
 process
 .
 *
