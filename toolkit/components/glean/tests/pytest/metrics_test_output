@@ -3374,6 +3374,13 @@ Eq
 PartialEq
 )
 ]
+#
+[
+allow
+(
+non_snake_case
+)
+]
 pub
 struct
 EventMetricWithExtraExtra
