@@ -7468,6 +7468,9 @@ mZeroCopyNV12Texture
 &
 &
 mDXVA2Manager
+&
+&
+mDXVA2Manager
 -
 >
 SupportsZeroCopyNV12Texture
