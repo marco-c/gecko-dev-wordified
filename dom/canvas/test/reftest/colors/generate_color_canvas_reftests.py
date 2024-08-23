@@ -2021,6 +2021,7 @@ webgl
 :
         
 #
+Win
 Mac
         
 yield
@@ -2036,6 +2037,10 @@ if
 (
 !
 cocoaWidget
+&
+&
+!
+winWidget
 )
 "
 ]
@@ -2044,7 +2049,6 @@ correct_color
 )
         
 #
-Win
 Lin
 Android
         
@@ -2060,6 +2064,9 @@ skip
 if
 (
 cocoaWidget
+|
+|
+winWidget
 )
 "
 ]
