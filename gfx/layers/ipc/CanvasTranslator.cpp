@@ -2019,6 +2019,13 @@ if
 (
 mCurrentShmem
 .
+IsValid
+(
+)
+&
+&
+mCurrentShmem
+.
 Size
 (
 )
