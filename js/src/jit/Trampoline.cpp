@@ -216,6 +216,11 @@ startTrampolineCode
 masm
 )
 ;
+uint32_t
+returnValueCheckOffset
+=
+0
+;
 masm
 .
 bind
@@ -233,7 +238,13 @@ handleFailureWithHandlerTail
 (
 profilerExitTail
 bailoutTail
+&
+returnValueCheckOffset
 )
+;
+exceptionTailReturnValueCheckOffset_
+=
+returnValueCheckOffset
 ;
 }
 void

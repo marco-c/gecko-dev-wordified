@@ -2468,6 +2468,8 @@ Label
 *
 Label
 *
+uint32_t
+*
 )
 {
 MOZ_CRASH
