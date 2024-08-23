@@ -128,6 +128,13 @@ h
 #
 include
 "
+PEMFactory
+.
+h
+"
+#
+include
+"
 PlatformEncoderModule
 .
 h
@@ -135,7 +142,7 @@ h
 #
 include
 "
-PEMFactory
+WebCodecsUtils
 .
 h
 "
@@ -154,13 +161,6 @@ include
 mozilla
 /
 TaskQueue
-.
-h
-"
-#
-include
-"
-WebCodecsUtils
 .
 h
 "
