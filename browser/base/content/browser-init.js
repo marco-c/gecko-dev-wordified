@@ -6274,12 +6274,6 @@ uninit
 (
 )
 ;
-gTabletModePageCounter
-.
-finish
-(
-)
-;
 CaptivePortalWatcher
 .
 uninit
