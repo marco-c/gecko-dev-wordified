@@ -503,7 +503,7 @@ pub
 struct
 ParsedFragmentDirectiveResult
 {
-url_without_fragment_directive
+hash_without_fragment_directive
 :
 nsCString
 fragment_directive
@@ -527,6 +527,7 @@ from
 a
 given
 URL
+fragment
 .
 /
 /
@@ -557,6 +558,7 @@ of
 the
 input
 url
+fragment
 without
 the
 fragment
@@ -665,7 +667,7 @@ C
 fn
 parse_fragment_directive
 (
-url
+hash
 :
 &
 nsCString
@@ -685,7 +687,7 @@ sanitize
 inputs
 result
 .
-url_without_fragment_directive
+hash_without_fragment_directive
 =
 nsCString
 :
@@ -716,7 +718,7 @@ clear
 let
 url_as_rust_string
 =
-url
+hash
 .
 to_utf8
 (
@@ -727,7 +729,7 @@ let
 Some
 (
 (
-stripped_url
+stripped_hash
 fragment_directive
 text_directives
 )
@@ -744,12 +746,12 @@ url_as_rust_string
 {
 result
 .
-url_without_fragment_directive
+hash_without_fragment_directive
 .
 assign
 (
 &
-stripped_url
+stripped_hash
 )
 ;
 result

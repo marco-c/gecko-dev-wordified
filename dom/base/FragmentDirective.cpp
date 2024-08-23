@@ -772,7 +772,7 @@ Data
 )
 fragmentDirective
 .
-url_without_fragment_directive
+hash_without_fragment_directive
 .
 Data
 (
@@ -923,7 +923,7 @@ aFragment
 =
 fragmentDirective
 .
-url_without_fragment_directive
+hash_without_fragment_directive
 ;
 if
 (
