@@ -838,6 +838,12 @@ defined
 (
 XP_WIN
 )
+|
+|
+defined
+(
+__wasm__
+)
 T2S
 (
 long
