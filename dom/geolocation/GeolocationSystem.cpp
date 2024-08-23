@@ -146,7 +146,7 @@ already_AddRefed
 <
 SystemGeolocationPermissionRequest
 >
-PresentSystemSettings
+RequestLocationPermissionFromUser
 (
 BrowsingContext
 *
