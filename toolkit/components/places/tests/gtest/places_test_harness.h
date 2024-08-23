@@ -423,7 +423,6 @@ PTEST
 (
 aName
 )
-\
 {
 aName
 #

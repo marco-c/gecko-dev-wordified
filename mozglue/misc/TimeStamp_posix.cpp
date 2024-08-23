@@ -1972,6 +1972,12 @@ mib
 ]
 =
 {
+/
+/
+clang
+-
+format
+off
 CTL_KERN
 KERN_PROC
 KERN_PROC_PID
@@ -1997,6 +2003,12 @@ KINFO_PROC
 1
 #
 endif
+/
+/
+clang
+-
+format
+on
 }
 ;
 u_int

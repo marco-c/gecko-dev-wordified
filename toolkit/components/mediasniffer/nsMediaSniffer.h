@@ -195,7 +195,6 @@ contentType
 )
 \
 {
-\
 (
 const
 uint8_t
@@ -214,9 +213,7 @@ mask
 )
 -
 1
-\
 contentType
-\
 }
 struct
 nsMediaSnifferEntry

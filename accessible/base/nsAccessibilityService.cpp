@@ -3301,7 +3301,6 @@ Attr
 name
 value
 )
-\
 {
 nsGkAtoms
 :

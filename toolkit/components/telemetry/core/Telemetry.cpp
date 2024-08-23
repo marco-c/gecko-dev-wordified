@@ -8149,7 +8149,6 @@ TRACKEDDB_ENTRY
 (
 _name
 )
-\
 {
 _name
 (

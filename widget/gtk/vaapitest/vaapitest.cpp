@@ -421,7 +421,6 @@ MAP
 (
 v
 )
-\
 {
 VAProfile
 #
