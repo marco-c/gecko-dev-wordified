@@ -541,7 +541,7 @@ atomics
 )
 feature
 (
-stdsimd
+stdarch_wasm_atomic_wait
 )
 )
 ]
