@@ -3132,6 +3132,8 @@ arena
 -
 >
 zone
+(
+)
 ;
 if
 (
@@ -3240,6 +3242,8 @@ from
 MOZ_ASSERT
 (
 zone
+(
+)
 -
 >
 isGCMarkingOrSweeping
@@ -3650,6 +3654,7 @@ arena
 >
 init
 (
+gc
 zone
 thingKind
 lock
