@@ -1671,7 +1671,7 @@ str
 JS
 :
 :
-NewStringFromTwoByteBuffer
+NewStringFromKnownLiveTwoByteBuffer
 (
 cx
 buf
@@ -1735,7 +1735,7 @@ str
 JS
 :
 :
-NewStringFromLatin1Buffer
+NewStringFromKnownLiveLatin1Buffer
 (
 cx
 buf
@@ -1799,7 +1799,7 @@ str
 JS
 :
 :
-NewStringFromUTF8Buffer
+NewStringFromKnownLiveUTF8Buffer
 (
 cx
 buf
