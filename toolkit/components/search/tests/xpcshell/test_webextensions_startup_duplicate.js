@@ -133,7 +133,7 @@ push
 (
 "
 #
-loadStartupEngines
+createAndAddAddonEngine
 failed
 for
 "
