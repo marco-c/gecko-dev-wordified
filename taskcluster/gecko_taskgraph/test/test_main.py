@@ -27,14 +27,14 @@ zero
 /
 import
 pytest
+import
+taskgraph
 from
 mozunit
 import
 main
 as
 mozunit_main
-import
-gecko_taskgraph
 from
 gecko_taskgraph
 .
@@ -114,7 +114,7 @@ monkeypatch
 setattr
 (
             
-gecko_taskgraph
+taskgraph
 .
 main
             
