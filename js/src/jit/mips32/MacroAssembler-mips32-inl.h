@@ -6065,7 +6065,7 @@ NotEqual
 lhs
 val
 .
-firstHalf
+low
 (
 )
 &
@@ -6084,7 +6084,7 @@ NotEqual
 lhs
 val
 .
-firstHalf
+low
 (
 )
 label
@@ -6110,7 +6110,7 @@ uint32_t
 )
 val
 .
-secondHalf
+hi
 (
 )
 label
