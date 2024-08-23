@@ -2724,9 +2724,6 @@ low
 [
 temperatureUnit
 ]
-shouldNavigate
-:
-true
 }
 }
 ;

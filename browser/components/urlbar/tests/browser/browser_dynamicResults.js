@@ -2762,7 +2762,7 @@ providers
 results
 with
 a
-shouldNavigate
+url
 property
 .
 *
@@ -2834,14 +2834,6 @@ searchString
 context
 .
 searchString
-;
-result
-.
-payload
-.
-shouldNavigate
-=
-true
 ;
 result
 .

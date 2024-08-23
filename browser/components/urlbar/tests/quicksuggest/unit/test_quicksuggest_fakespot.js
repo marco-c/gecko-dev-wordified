@@ -3855,9 +3855,6 @@ rating
 totalReviews
 fakespotGrade
 fakespotProvider
-shouldNavigate
-:
-true
 dynamicType
 :
 "
