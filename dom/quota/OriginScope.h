@@ -608,6 +608,16 @@ Null
 )
 {
 }
+/
+/
+XXX
+Consider
+renaming
+these
+static
+methods
+to
+Create
 static
 OriginScope
 FromOrigin

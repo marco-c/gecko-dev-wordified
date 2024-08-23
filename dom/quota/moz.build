@@ -367,6 +367,11 @@ OriginScope
 h
 "
 "
+PersistenceScope
+.
+h
+"
+"
 PersistenceType
 .
 h
