@@ -118,7 +118,10 @@ into_bytes
 )
 ;
 let
+(
 section
+offset
+)
 =
 object
 .
@@ -133,16 +136,6 @@ StandardSection
 Text
 &
 name
-)
-;
-let
-offset
-=
-object
-.
-append_section_data
-(
-section
 &
 [
 0xcc
@@ -295,6 +288,11 @@ object
 .
 symbols
 (
+)
+.
+skip
+(
+1
 )
 {
 assert_eq
@@ -534,6 +532,19 @@ sections
 )
 ;
 let
+_
+=
+sections
+.
+next
+(
+)
+.
+unwrap
+(
+)
+;
+let
 section
 =
 sections
@@ -758,7 +769,7 @@ new
 ;
 buf
 .
-write_all
+write
 (
 object
 :
@@ -1470,7 +1481,7 @@ new
 ;
 buffer
 .
-write_all
+write
 (
 object
 :
@@ -1523,7 +1534,7 @@ unwrap
 ;
 buffer
 .
-write_all
+write
 (
 b
 "
@@ -1543,7 +1554,7 @@ unwrap
 ;
 buffer
 .
-write_all
+write
 (
 b
 "
@@ -1561,7 +1572,7 @@ unwrap
 ;
 buffer
 .
-write_all
+write
 (
 object
 :
@@ -1614,7 +1625,7 @@ unwrap
 ;
 buffer
 .
-write_all
+write
 (
 b
 "
@@ -1634,7 +1645,7 @@ unwrap
 ;
 buffer
 .
-write_all
+write
 (
 b
 "
@@ -1714,7 +1725,7 @@ new
 ;
 buffer
 .
-write_all
+write
 (
 object
 :
@@ -1767,7 +1778,7 @@ unwrap
 ;
 buffer
 .
-write_all
+write
 (
 b
 "
@@ -1795,7 +1806,7 @@ unwrap
 ;
 buffer
 .
-write_all
+write
 (
 b
 "
@@ -1821,7 +1832,7 @@ unwrap
 ;
 buffer
 .
-write_all
+write
 (
 object
 :
@@ -1874,7 +1885,7 @@ unwrap
 ;
 buffer
 .
-write_all
+write
 (
 b
 "
@@ -1890,7 +1901,7 @@ unwrap
 ;
 buffer
 .
-write_all
+write
 (
 b
 "
