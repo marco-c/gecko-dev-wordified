@@ -1853,6 +1853,7 @@ const
 {
 node
 value
+computedValue
 fallbackValue
 }
 =
@@ -1874,6 +1875,7 @@ push
 {
 node
 value
+computedValue
 fallbackValue
 }
 )
@@ -3050,6 +3052,9 @@ variableNode
 value
 :
 varSubsitutedValue
+computedValue
+:
+varComputedValue
 fallbackValue
 :
 varFallbackValue
@@ -3566,6 +3571,7 @@ node
 :
 variableNode
 value
+computedValue
 }
 =
 this
@@ -3578,6 +3584,14 @@ text
 tokenStream
 options
 )
+;
+const
+variableValue
+=
+computedValue
+?
+?
+value
 ;
 /
 /
@@ -3636,7 +3650,7 @@ InspectorUtils
 .
 isValidCSSColor
 (
-value
+variableValue
 )
 ?
 new
@@ -3644,7 +3658,7 @@ colorUtils
 .
 CssColor
 (
-value
+variableValue
 )
 :
 null
@@ -3686,7 +3700,7 @@ this
 #
 appendColor
 (
-value
+variableValue
 {
 .
 .
@@ -3779,6 +3793,12 @@ data
 ;
 }
 return
+(
+data
+.
+computedValue
+?
+?
 data
 .
 value
@@ -3787,6 +3807,7 @@ value
 data
 .
 fallbackValue
+)
 ;
 }
 )
