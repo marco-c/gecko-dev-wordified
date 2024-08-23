@@ -2725,7 +2725,7 @@ E
 validation_data
 :
 ValidationData
-may_contain_scoped_style
+considered_nontrivial_scoped_style
 :
 bool
 }
@@ -3919,7 +3919,7 @@ StyleSharingTarget
 E
 >
 >
-may_contain_scoped_style
+considered_nontrivial_scoped_style
 :
 bool
 )
@@ -3962,7 +3962,7 @@ StyleSharingCandidate
 {
 element
 validation_data
-may_contain_scoped_style
+considered_nontrivial_scoped_style
 }
 )
 ;
@@ -5169,7 +5169,7 @@ intersects
 ComputedValueFlags
 :
 :
-CONSIDERED_SCOPED_STYLE
+CONSIDERED_NONTRIVIAL_SCOPED_STYLE
 )
 )
 ;
@@ -6172,7 +6172,7 @@ that
 if
 candidate
 .
-may_contain_scoped_style
+considered_nontrivial_scoped_style
 &
 &
 !
