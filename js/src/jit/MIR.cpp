@@ -29753,11 +29753,6 @@ MConstant
 NewFloat32
 (
 alloc
-static_cast
-<
-float
->
-(
 js
 :
 :
@@ -29765,6 +29760,9 @@ float16
 {
 num
 }
+.
+toFloat
+(
 )
 )
 ;

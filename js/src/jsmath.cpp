@@ -1953,12 +1953,10 @@ to
 n64
 .
 return
-static_cast
-<
-double
->
-(
 f16
+.
+toDouble
+(
 )
 ;
 }
