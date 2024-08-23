@@ -116,16 +116,6 @@ maybe_cached
 :
 MaybeCached
 ;
-pub
-struct
-Conn
-(
-rusqlite
-:
-:
-Connection
-)
-;
 /
 /
 /
