@@ -6601,7 +6601,6 @@ struct
 arg
 arg
 ;
-static
 const
 arg_def_t
 *
@@ -6610,7 +6609,6 @@ ctrl_args
 =
 no_args
 ;
-static
 const
 int
 *
@@ -12514,6 +12512,7 @@ vpx_ref_frame
 ref_enc
 ref_dec
 ;
+unsigned
 int
 aligned_width
 =
@@ -12527,12 +12526,13 @@ cfg
 .
 g_w
 +
-15
+15u
 )
 &
 ~
-15
+15u
 ;
+unsigned
 int
 aligned_height
 =
@@ -12546,11 +12546,11 @@ cfg
 .
 g_h
 +
-15
+15u
 )
 &
 ~
-15
+15u
 ;
 vpx_img_alloc
 (

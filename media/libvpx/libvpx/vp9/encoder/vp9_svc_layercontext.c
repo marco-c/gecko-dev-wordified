@@ -11724,9 +11724,9 @@ rc
 -
 >
 projected_frame_size
->
+/
 3
-*
+>
 rc
 -
 >
