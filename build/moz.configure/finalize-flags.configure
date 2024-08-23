@@ -146,6 +146,9 @@ extend
 (
 thumb_option
 )
+if
+env_ldflags
+:
 flags
 .
 extend
