@@ -1176,7 +1176,7 @@ to
 %
 s
 "
-OutputCaptureStateToStr
+EnumValueToString
 (
 mOutputCaptureState
 .
@@ -1184,7 +1184,7 @@ Ref
 (
 )
 )
-OutputCaptureStateToStr
+EnumValueToString
 (
 aState
 )
