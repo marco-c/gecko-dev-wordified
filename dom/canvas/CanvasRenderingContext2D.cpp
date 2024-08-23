@@ -7075,6 +7075,12 @@ mWillReadFrequently
 =
 mWillReadFrequently
 ;
+aSettings
+.
+mForceSoftwareRendering
+=
+mForceSoftwareRendering
+;
 /
 /
 We
@@ -12510,6 +12516,12 @@ mWillReadFrequently
 attributes
 .
 mWillReadFrequently
+;
+mForceSoftwareRendering
+=
+attributes
+.
+mForceSoftwareRendering
 ;
 mContextAttributesHasAlpha
 =
