@@ -30075,6 +30075,8 @@ x
 devanagari
 "
 "
+ITF
+Devanagari
 Devanagari
 MT
 "
@@ -30098,6 +30100,8 @@ x
 devanagari
 "
 "
+Kohinoor
+Devanagari
 Devanagari
 Sangam
 MN
@@ -30123,6 +30127,8 @@ devanagari
 "
 "
 Menlo
+Kohinoor
+Devanagari
 Devanagari
 Sangam
 MN
@@ -33005,6 +33011,8 @@ x
 devanagari
 "
 "
+Kohinoor
+Devanagari
 Devanagari
 Sangam
 MN
@@ -33029,6 +33037,8 @@ x
 devanagari
 "
 "
+Kohinoor
+Devanagari
 Devanagari
 Sangam
 MN
@@ -33052,6 +33062,8 @@ devanagari
 "
 "
 Menlo
+Kohinoor
+Devanagari
 Devanagari
 Sangam
 MN
