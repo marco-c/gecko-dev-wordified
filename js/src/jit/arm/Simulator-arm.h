@@ -2585,6 +2585,14 @@ SimInstruction
 instr
 )
 ;
+void
+decodeVCVTBetweenFloatingPointAndHalf
+(
+SimInstruction
+*
+instr
+)
+;
 /
 /
 Support
