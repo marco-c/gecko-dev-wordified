@@ -449,7 +449,7 @@ fr
 top_preferred_language
 :
 "
-en
+fr
 "
 request_target
 :
@@ -549,7 +549,7 @@ en
 top_preferred_language
 :
 "
-en
+fr
 "
 text_source
 :
@@ -621,7 +621,7 @@ en
 top_preferred_language
 :
 "
-en
+fr
 "
 request_target
 :
@@ -696,7 +696,7 @@ openPanel
 expectedToLanguage
 :
 "
-fr
+en
 "
 onOpenPanel
 :

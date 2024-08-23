@@ -1118,7 +1118,7 @@ es
 expectedToLanguage
 :
 "
-en
+fr
 "
 onOpenPanel
 :
