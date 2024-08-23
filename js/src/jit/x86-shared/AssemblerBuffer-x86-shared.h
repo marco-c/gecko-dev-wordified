@@ -745,6 +745,9 @@ Sprinter
 namespace
 jit
 {
+namespace
+x86_shared
+{
 /
 /
 AllocPolicy
@@ -1598,6 +1601,11 @@ m_oom
 ;
 }
 ;
+}
+/
+/
+namespace
+x86_shared
 class
 GenericAssembler
 {
