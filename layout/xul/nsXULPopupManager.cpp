@@ -6070,7 +6070,10 @@ nullptr
 position
 0
 0
-MenuPopupAnchorType_Node
+MenuPopupAnchorType
+:
+:
+Node
 true
 )
 ;
@@ -6355,7 +6358,10 @@ triggerContent
 aPosition
 aXPos
 aYPos
-MenuPopupAnchorType_Node
+MenuPopupAnchorType
+:
+:
+Node
 aAttributesOverride
 )
 ;

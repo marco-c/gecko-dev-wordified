@@ -396,9 +396,12 @@ resizing
 }
 ;
 enum
+class
 MenuPopupAnchorType
+:
+uint8_t
 {
-MenuPopupAnchorType_Node
+Node
 =
 0
 /
@@ -407,7 +410,7 @@ anchored
 to
 a
 node
-MenuPopupAnchorType_Point
+Point
 =
 1
 /
@@ -419,7 +422,7 @@ at
 a
 screen
 point
-MenuPopupAnchorType_Rect
+Rect
 =
 2
 /
@@ -2551,7 +2554,10 @@ return
 mAnchorType
 !
 =
-MenuPopupAnchorType_Point
+MenuPopupAnchorType
+:
+:
+Point
 ;
 }
 /
@@ -4518,7 +4524,10 @@ anchored
 MenuPopupAnchorType
 mAnchorType
 =
-MenuPopupAnchorType_Node
+MenuPopupAnchorType
+:
+:
+Node
 ;
 nsRect
 mOverrideConstraintRect
