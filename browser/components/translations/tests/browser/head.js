@@ -7865,6 +7865,11 @@ Event
 "
 command
 "
+{
+bubbles
+:
+true
+}
 )
 )
 ;
@@ -7938,6 +7943,11 @@ Event
 "
 command
 "
+{
+bubbles
+:
+true
+}
 )
 )
 ;
@@ -14998,6 +15008,11 @@ Event
 "
 command
 "
+{
+bubbles
+:
+true
+}
 )
 )
 ;
