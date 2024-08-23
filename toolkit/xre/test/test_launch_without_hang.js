@@ -1664,6 +1664,12 @@ getFirefoxExecutableFile
 [
 "
 -
+no
+-
+remote
+"
+"
+-
 test
 -
 launch
