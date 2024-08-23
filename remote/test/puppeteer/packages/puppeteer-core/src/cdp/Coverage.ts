@@ -739,6 +739,13 @@ cssCoverage
 :
 CSSCoverage
 ;
+/
+*
+*
+*
+internal
+*
+/
 constructor
 (
 client
@@ -1207,6 +1214,13 @@ includeRawScriptCoverage
 =
 false
 ;
+/
+*
+*
+*
+internal
+*
+/
 constructor
 (
 client

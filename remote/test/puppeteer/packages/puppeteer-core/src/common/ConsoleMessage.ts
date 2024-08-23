@@ -272,7 +272,7 @@ ConsoleMessageLocation
 *
 *
 *
-public
+internal
 *
 /
 constructor

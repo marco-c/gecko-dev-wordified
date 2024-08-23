@@ -623,7 +623,7 @@ UnserializableError
 '
 Custom
 object
-sterilization
+serialization
 not
 possible
 .

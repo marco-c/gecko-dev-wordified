@@ -532,6 +532,7 @@ undefined
 ;
 }
 override
+async
 newPage
 (
 )
@@ -541,7 +542,18 @@ Promise
 Page
 >
 {
+using
+_guard
+=
+await
+this
+.
+waitForScreenshotOperations
+(
+)
+;
 return
+await
 this
 .
 #

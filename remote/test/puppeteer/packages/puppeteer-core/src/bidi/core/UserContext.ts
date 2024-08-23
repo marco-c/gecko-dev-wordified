@@ -539,6 +539,9 @@ context
 info
 .
 url
+info
+.
+originalOpener
 )
 ;
 this

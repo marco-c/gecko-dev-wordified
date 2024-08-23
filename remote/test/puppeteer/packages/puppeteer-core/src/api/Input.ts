@@ -1725,6 +1725,7 @@ the
 viewport
 .
 *
+*
 remarks
 *
 Every
@@ -1736,15 +1737,12 @@ own
 Mouse
 accessible
 with
-[
-page
+{
+link
+Page
 .
 mouse
-]
-(
-#
-pagemouse
-)
+}
 .
 *
 *

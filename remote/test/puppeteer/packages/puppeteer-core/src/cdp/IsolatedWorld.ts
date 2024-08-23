@@ -179,6 +179,7 @@ js
 import
 {
 fromEmitterEvent
+timeout
 withSourcePuppeteerURLIfNone
 }
 from
@@ -933,6 +934,16 @@ destroyed
 )
 ;
 }
+)
+)
+timeout
+(
+this
+.
+timeoutSettings
+.
+timeout
+(
 )
 )
 )

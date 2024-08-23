@@ -851,9 +851,17 @@ createProtocolError
 (
 object
 )
+{
+object
+.
+error
+}
+:
+{
 object
 .
 message
+}
 )
 ;
 return

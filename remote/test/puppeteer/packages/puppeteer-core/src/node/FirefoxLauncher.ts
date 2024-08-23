@@ -747,15 +747,6 @@ if
 (
 !
 userDataDir
-|
-|
-!
-fs
-.
-existsSync
-(
-userDataDir
-)
 )
 {
 throw
