@@ -376,7 +376,8 @@ match_type
 position
 suggested_index
 :
-0
+-
+1
 suggested_index_relative_to_group
 :
 true
@@ -470,7 +471,8 @@ match_type
 position
 suggested_index
 :
-0
+-
+1
 suggested_index_relative_to_group
 :
 true
@@ -504,7 +506,8 @@ match_type
 position
 suggested_index
 :
-0
+-
+1
 suggested_index_relative_to_group
 :
 true
@@ -602,7 +605,8 @@ match_type
 position
 suggested_index
 :
-0
+-
+1
 suggested_index_relative_to_group
 :
 true
@@ -636,7 +640,8 @@ match_type
 position
 suggested_index
 :
-0
+-
+1
 suggested_index_relative_to_group
 :
 true
@@ -729,7 +734,8 @@ match_type
 position
 suggested_index
 :
-0
+-
+1
 suggested_index_relative_to_group
 :
 true
