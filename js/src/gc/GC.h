@@ -487,6 +487,15 @@ true
 _
 (
 "
+nurseryEnabled
+"
+JSGC_NURSERY_ENABLED
+true
+)
+\
+_
+(
+"
 parallelMarkingEnabled
 "
 JSGC_PARALLEL_MARKING_ENABLED
