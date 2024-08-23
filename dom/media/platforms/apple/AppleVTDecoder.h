@@ -206,9 +206,7 @@ include
 "
 mozilla
 /
-gfx
-/
-Types
+ProfilerUtils
 .
 h
 "
@@ -217,7 +215,9 @@ include
 "
 mozilla
 /
-ProfilerUtils
+gfx
+/
+Types
 .
 h
 "
