@@ -21889,7 +21889,7 @@ mORB
 BlockResponse
 (
 this
-NS_ERROR_FAILURE
+NS_BINDING_ABORTED
 )
 ;
 }

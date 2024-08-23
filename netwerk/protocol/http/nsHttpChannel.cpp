@@ -12349,7 +12349,7 @@ SetChannelBlockedByOpaqueResponse
 ;
 CancelWithReason
 (
-NS_ERROR_FAILURE
+NS_BINDING_ABORTED
 "
 OpaqueResponseBlocker
 :
@@ -12360,7 +12360,7 @@ _ns
 )
 ;
 return
-NS_ERROR_FAILURE
+NS_BINDING_ABORTED
 ;
 }
 /

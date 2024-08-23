@@ -2349,7 +2349,7 @@ Blocked
 )
 {
 return
-NS_ERROR_FAILURE
+NS_BINDING_ABORTED
 ;
 }
 MOZ_ASSERT
@@ -2639,11 +2639,11 @@ Block
 BlockResponse
 (
 httpBaseChannel
-NS_ERROR_FAILURE
+NS_BINDING_ABORTED
 )
 ;
 return
-NS_ERROR_FAILURE
+NS_BINDING_ABORTED
 ;
 case
 OpaqueResponse
@@ -3454,7 +3454,7 @@ self
 BlockResponse
 (
 channel
-NS_ERROR_FAILURE
+NS_BINDING_ABORTED
 )
 ;
 break
