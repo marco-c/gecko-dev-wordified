@@ -43,13 +43,6 @@ function
 (
 )
 {
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 let
 settingsFileWritten
 =

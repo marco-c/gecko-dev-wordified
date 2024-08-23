@@ -80,13 +80,6 @@ sjs
 "
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 }
 )
 ;

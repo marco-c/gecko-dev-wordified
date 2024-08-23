@@ -322,13 +322,6 @@ null
 CONFIG_V2
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 }
 )
 ;

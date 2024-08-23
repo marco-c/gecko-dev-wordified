@@ -46,13 +46,6 @@ function
 (
 )
 {
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 useHttpServer
 (
 )

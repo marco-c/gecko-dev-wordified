@@ -335,13 +335,6 @@ data1
 )
 ;
 await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
-await
 EnterprisePolicyTesting
 .
 setupPolicyEngineWithJson

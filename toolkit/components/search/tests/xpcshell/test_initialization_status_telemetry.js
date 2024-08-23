@@ -91,13 +91,6 @@ engines
 "
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 Services
 .
 fog

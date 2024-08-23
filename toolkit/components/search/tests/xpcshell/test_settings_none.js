@@ -76,13 +76,6 @@ useHttpServer
 (
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 }
 )
 ;

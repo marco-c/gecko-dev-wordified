@@ -276,13 +276,6 @@ org
 ]
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 appDefault
 =
 await

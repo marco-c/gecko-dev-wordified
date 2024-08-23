@@ -340,13 +340,6 @@ sjs
 "
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 let
 getEngineData
 =

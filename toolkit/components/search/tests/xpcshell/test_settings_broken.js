@@ -420,13 +420,6 @@ function
 (
 )
 {
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 /
 /
 Allow

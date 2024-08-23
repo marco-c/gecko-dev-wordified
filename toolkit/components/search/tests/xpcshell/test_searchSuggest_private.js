@@ -129,13 +129,6 @@ sjs
 "
 )
 ;
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 const
 engineData
 =

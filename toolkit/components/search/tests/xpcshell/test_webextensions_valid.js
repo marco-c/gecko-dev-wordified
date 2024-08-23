@@ -58,14 +58,6 @@ mjs
 "
 )
 ;
-const
-{
-promiseShutdownManager
-promiseStartupManager
-}
-=
-AddonTestUtils
-;
 let
 extension
 ;
@@ -92,11 +84,6 @@ simple
 -
 engines
 "
-)
-;
-await
-promiseStartupManager
-(
 )
 ;
 Services
@@ -265,7 +252,9 @@ async
 >
 {
 await
-promiseShutdownManager
+extensionPostData
+.
+unload
 (
 )
 ;

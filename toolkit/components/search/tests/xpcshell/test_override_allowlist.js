@@ -835,9 +835,9 @@ engines
 )
 ;
 await
-AddonTestUtils
+SearchTestUtils
 .
-promiseStartupManager
+initXPCShellAddonManager
 (
 )
 ;
