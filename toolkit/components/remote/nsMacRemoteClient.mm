@@ -192,6 +192,8 @@ char
 *
 *
 argv
+bool
+aRaise
 )
 {
 mozilla
@@ -336,6 +338,13 @@ args
 "
 :
 argumentsArray
+"
+raise
+"
+:
+(
+aRaise
+)
 }
 ;
 NSData
