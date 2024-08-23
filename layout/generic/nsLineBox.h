@@ -1836,7 +1836,10 @@ None
 /
 mCarriedOutBEndMargin
 value
-nsCollapsingMargin
+mozilla
+:
+:
+CollapsingMargin
 GetCarriedOutBEndMargin
 (
 )
@@ -1853,7 +1856,10 @@ changed
 bool
 SetCarriedOutBEndMargin
 (
-nsCollapsingMargin
+mozilla
+:
+:
+CollapsingMargin
 aValue
 )
 ;
@@ -3814,7 +3820,10 @@ aBounds
 )
 {
 }
-nsCollapsingMargin
+mozilla
+:
+:
+CollapsingMargin
 mCarriedOutBEndMargin
 ;
 }
