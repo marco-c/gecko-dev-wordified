@@ -459,6 +459,7 @@ Must
 be
 repr
 (
+C
 packed
 )
 for
@@ -484,6 +485,7 @@ types
 [
 repr
 (
+C
 packed
 )
 ]
@@ -577,6 +579,7 @@ by
 [
 repr
 (
+C
 packed
 )
 ]
@@ -614,6 +617,7 @@ by
 [
 repr
 (
+C
 packed
 )
 ]

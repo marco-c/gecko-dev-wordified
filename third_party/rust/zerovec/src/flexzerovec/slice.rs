@@ -144,6 +144,7 @@ usize
 [
 repr
 (
+C
 packed
 )
 ]
