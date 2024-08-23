@@ -1047,6 +1047,13 @@ sys
 mjs
 "
 "
+PopupBlockerObserver
+.
+sys
+.
+mjs
+"
+"
 ProcessHangMonitor
 .
 sys
