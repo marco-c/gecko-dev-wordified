@@ -267,7 +267,7 @@ eDelayedWebTaskTimeout
 struct
 TimeoutIdAndReason
 {
-int32_t
+uint32_t
 mId
 ;
 Reason
@@ -943,7 +943,7 @@ of
 setTimeout
 (
 )
-int32_t
+uint32_t
 mTimeoutId
 ;
 /
