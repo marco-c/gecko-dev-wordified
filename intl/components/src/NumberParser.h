@@ -154,9 +154,10 @@ ICUError
 >
 TryCreate
 (
-const
-char
-*
+std
+:
+:
+string_view
 aLocale
 bool
 aUseGrouping

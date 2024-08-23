@@ -91,9 +91,10 @@ NumberParser
 :
 TryCreate
 (
-const
-char
-*
+std
+:
+:
+string_view
 aLocale
 bool
 aUseGrouping
@@ -127,7 +128,10 @@ unum_open
 UNUM_DECIMAL
 nullptr
 0
+AssertNullTerminatedString
+(
 aLocale
+)
 nullptr
 &
 status
