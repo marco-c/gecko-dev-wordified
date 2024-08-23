@@ -156,6 +156,7 @@ char
 aProfile
 int32_t
 argc
+const
 char
 *
 *
@@ -225,6 +226,7 @@ Window
 aWindow
 int32_t
 argc
+const
 char
 *
 *
