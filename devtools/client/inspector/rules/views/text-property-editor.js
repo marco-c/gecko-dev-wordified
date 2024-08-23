@@ -2284,8 +2284,12 @@ click
 )
 ;
 const
-cssVariables
+getCssVariables
 =
+(
+)
+=
+>
 this
 .
 rule
@@ -2346,7 +2350,7 @@ cssProperties
 this
 .
 cssProperties
-cssVariables
+getCssVariables
 /
 /
 (
@@ -3016,7 +3020,7 @@ cssProperties
 this
 .
 cssProperties
-cssVariables
+getCssVariables
 getGridLineNames
 :
 this

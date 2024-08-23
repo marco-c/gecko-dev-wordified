@@ -6044,8 +6044,12 @@ cssProperties
 inputAriaLabel
 :
 NEW_PROPERTY_NAME_INPUT_LABEL
-cssVariables
+getCssVariables
 :
+(
+)
+=
+>
 this
 .
 rule
