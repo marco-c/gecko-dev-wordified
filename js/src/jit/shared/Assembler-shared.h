@@ -358,6 +358,12 @@ defined
 (
 JS_CODEGEN_RISCV64
 )
+|
+|
+defined
+(
+JS_CODEGEN_ARM
+)
 /
 /
 JS_CODELABEL_LINKMODE
