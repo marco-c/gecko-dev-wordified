@@ -4969,7 +4969,7 @@ return
 ComputeLayoutAndAllocationSize
 (
 parsedRect
-aFormat
+format
 optLayout
 )
 ;
