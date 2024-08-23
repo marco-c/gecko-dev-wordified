@@ -18100,7 +18100,7 @@ InitPrimaryFrame
 }
 }
 bool
-IsPrimaryFrameOfRootOrBodyElement
+ShouldPropagateRepaintsToRoot
 (
 )
 const

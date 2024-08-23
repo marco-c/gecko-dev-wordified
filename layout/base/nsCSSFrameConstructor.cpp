@@ -19481,6 +19481,8 @@ nsBlockFrame
 SVGOuterSVGFrame
 nsTableWrapperFrame
 nsPlaceholderFrame
+nsFlexContainerFrame
+nsGridContainerFrame
 )
 Print
 presentation
@@ -19512,6 +19514,8 @@ nsBlockFrame
 SVGOuterSVGFrame
 nsTableWrapperFrame
 nsPlaceholderFrame
+nsFlexContainerFrame
+nsGridContainerFrame
 )
 Print
 -
@@ -19546,6 +19550,8 @@ nsBlockFrame
 SVGOuterSVGFrame
 nsTableWrapperFrame
 nsPlaceholderFrame
+nsFlexContainerFrame
+nsGridContainerFrame
 )
 Print
 /

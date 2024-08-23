@@ -9598,7 +9598,7 @@ if
 aFrame
 -
 >
-IsPrimaryFrameOfRootOrBodyElement
+ShouldPropagateRepaintsToRoot
 (
 )
 )
