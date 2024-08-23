@@ -649,7 +649,10 @@ defined
 (
 JS_CODEGEN_ARM
 )
-InitARMFlags
+ARMFlags
+:
+:
+Init
 (
 )
 ;
@@ -707,7 +710,10 @@ be
 initialized
 after
 the
-InitARMFlags
+ARMFlags
+:
+:
+Init
 call
 above
 .
@@ -935,6 +941,9 @@ js
 :
 :
 jit
+:
+:
+ARMFlags
 :
 :
 HasLDSTREXBHD

@@ -2480,6 +2480,9 @@ value
 ;
 if
 (
+ARMFlags
+:
+:
 HasMOVWT
 (
 )
@@ -2919,6 +2922,9 @@ movt
 .
 if
 (
+ARMFlags
+:
+:
 HasMOVWT
 (
 )
@@ -9239,6 +9245,9 @@ option
 {
 if
 (
+ARMFlags
+:
+:
 HasDMBDSBISB
 (
 )
@@ -9270,6 +9279,9 @@ option
 {
 if
 (
+ARMFlags
+:
+:
 HasDMBDSBISB
 (
 )
@@ -10066,6 +10078,9 @@ cc
 {
 if
 (
+ARMFlags
+:
+:
 HasVFPv3
 (
 )
@@ -10210,6 +10225,9 @@ singleOverlay
 ;
 if
 (
+ARMFlags
+:
+:
 HasVFPv3
 (
 )
@@ -31562,6 +31580,9 @@ callFromWasm
 &
 &
 !
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -40674,6 +40695,9 @@ rhs
 ;
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -40981,6 +41005,9 @@ rhs
 ;
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -43401,6 +43428,9 @@ NEON
 .
 if
 (
+ARMFlags
+:
+:
 HasNEON
 (
 )
@@ -44294,6 +44324,9 @@ logic
 .
 if
 (
+ARMFlags
+:
+:
 HasNEON
 (
 )

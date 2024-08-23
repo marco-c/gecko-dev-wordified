@@ -11759,6 +11759,9 @@ call
 .
 hardFP
 =
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -78343,6 +78346,9 @@ systems
 if
 (
 !
+ARMFlags
+:
+:
 HasIDIV
 (
 )

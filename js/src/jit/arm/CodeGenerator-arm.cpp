@@ -6504,6 +6504,9 @@ overflow
 .
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -6741,6 +6744,9 @@ overflow
 .
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )

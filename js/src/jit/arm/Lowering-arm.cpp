@@ -2772,6 +2772,9 @@ return
 }
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -3349,6 +3352,9 @@ return
 }
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -4437,6 +4443,9 @@ temp2
 ;
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -4536,6 +4545,9 @@ temp2
 ;
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -4790,6 +4802,9 @@ getOperand
 ;
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -4952,6 +4967,9 @@ getOperand
 ;
 if
 (
+ARMFlags
+:
+:
 HasIDIV
 (
 )
@@ -6373,6 +6391,9 @@ ins
 {
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 HasLDSTREXBHD
 (
 )
@@ -7857,6 +7878,9 @@ Float32
 ;
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 HasLDSTREXBHD
 (
 )
@@ -8081,6 +8105,9 @@ Float32
 ;
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 HasLDSTREXBHD
 (
 )
@@ -8300,6 +8327,9 @@ Float32
 ;
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 HasLDSTREXBHD
 (
 )

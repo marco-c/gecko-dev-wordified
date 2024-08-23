@@ -11797,6 +11797,9 @@ z
 {
 if
 (
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -11944,6 +11947,9 @@ d0
 .
 if
 (
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -12052,6 +12058,9 @@ result
 {
 if
 (
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -12364,6 +12373,9 @@ AllowUnaligned
 &
 &
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -12399,6 +12411,9 @@ readW
 .
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -12527,6 +12542,9 @@ AllowUnaligned
 &
 &
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -12565,6 +12583,9 @@ readW
 .
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -12689,6 +12710,9 @@ AllowUnaligned
 &
 &
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -12770,6 +12794,9 @@ thing
 .
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -12898,6 +12925,9 @@ AllowUnaligned
 &
 &
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -12936,6 +12966,9 @@ readW
 .
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -13393,6 +13426,9 @@ addr
 |
 |
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -13426,6 +13462,9 @@ readW
 .
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -13550,6 +13589,9 @@ addr
 |
 |
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -13583,6 +13625,9 @@ readW
 .
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -13702,6 +13747,9 @@ addr
 |
 |
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -13739,6 +13787,9 @@ readW
 .
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )
@@ -13856,6 +13907,9 @@ addr
 |
 |
 !
+ARMFlags
+:
+:
 HasAlignmentFault
 (
 )
@@ -13893,6 +13947,9 @@ readW
 .
 if
 (
+ARMFlags
+:
+:
 FixupFault
 (
 )

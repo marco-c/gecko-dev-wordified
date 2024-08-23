@@ -5244,6 +5244,9 @@ offset
 ;
 if
 (
+ARMFlags
+:
+:
 HasMOVWT
 (
 )
@@ -9502,6 +9505,9 @@ c
 {
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 HasMOVWT
 (
 )
@@ -9541,6 +9547,9 @@ c
 {
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 HasMOVWT
 (
 )
@@ -15997,6 +16006,9 @@ rn
 {
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 HasNEON
 (
 )
@@ -16123,6 +16135,9 @@ rn
 {
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 HasNEON
 (
 )

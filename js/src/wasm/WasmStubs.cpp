@@ -18049,6 +18049,9 @@ GPRs
 if
 (
 !
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -18403,6 +18406,9 @@ ABITypeArgMask
 if
 (
 !
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )

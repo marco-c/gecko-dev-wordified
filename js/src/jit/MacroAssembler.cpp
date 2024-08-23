@@ -30610,6 +30610,9 @@ abiArgs_
 .
 setUseHardFp
 (
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )

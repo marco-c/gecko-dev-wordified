@@ -11663,6 +11663,9 @@ SupportsFloatingPoint
 )
 {
 return
+ARMFlags
+:
+:
 HasVFP
 (
 )
@@ -11675,6 +11678,9 @@ SupportsUnalignedAccesses
 )
 {
 return
+ARMFlags
+:
+:
 HasARMv7
 (
 )
@@ -15242,6 +15248,9 @@ out
 {
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
@@ -15291,6 +15300,9 @@ out
 {
 MOZ_ASSERT
 (
+ARMFlags
+:
+:
 UseHardFpABI
 (
 )
