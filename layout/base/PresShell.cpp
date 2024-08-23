@@ -21197,6 +21197,9 @@ if
 (
 !
 aScroll
+|
+|
+thereIsATextFragment
 )
 {
 return
