@@ -1223,7 +1223,10 @@ GenericCreatePrototype
 <
 RegExpObject
 >
-nullptr
+js
+:
+:
+regexp_static_methods
 js
 :
 :
