@@ -76,6 +76,10 @@ minidump_writer
 ;
 pub
 mod
+module_reader
+;
+pub
+mod
 ptrace_dumper
 ;
 pub
