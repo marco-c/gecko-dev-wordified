@@ -48,7 +48,7 @@ WebDriverCrashtestExecutor
     
 WebDriverFedCMProtocolPart
     
-WebDriverBidiProtocol
+WebDriverProtocol
     
 WebDriverRefTestExecutor
     
@@ -1467,7 +1467,7 @@ body
 class
 ChromeDriverProtocol
 (
-WebDriverBidiProtocol
+WebDriverProtocol
 )
 :
     
@@ -1489,7 +1489,7 @@ part
 for
 part
 in
-WebDriverBidiProtocol
+WebDriverProtocol
 .
 implements
           
