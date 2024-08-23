@@ -1290,7 +1290,7 @@ crate
 PipelineError
 :
 :
-Linkage
+PipelineConstants
 (
 stage_bit
 format

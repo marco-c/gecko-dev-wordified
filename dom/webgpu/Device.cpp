@@ -463,7 +463,9 @@ Adapter
 const
 aParent
 RawId
-aId
+aDeviceId
+RawId
+aQueueId
 const
 ffi
 :
@@ -484,7 +486,7 @@ GetParentObject
 )
 mId
 (
-aId
+aDeviceId
 )
 /
 /
@@ -531,7 +533,7 @@ aParent
 -
 >
 mBridge
-aId
+aQueueId
 )
 )
 {

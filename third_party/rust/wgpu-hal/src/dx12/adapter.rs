@@ -2063,6 +2063,14 @@ wgt
 Features
 :
 :
+TEXTURE_COMPRESSION_BC_SLICED_3D
+|
+wgt
+:
+:
+Features
+:
+:
 CLEAR_TEXTURE
 |
 wgt

@@ -6461,7 +6461,7 @@ Rgb10A2
 Sf
 :
 :
-Rg11b10Float
+Rg11b10UFloat
 =
 >
 Self
