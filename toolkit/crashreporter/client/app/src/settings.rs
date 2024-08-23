@@ -141,7 +141,7 @@ submit_report
 true
 include_url
 :
-false
+true
 }
 }
 }

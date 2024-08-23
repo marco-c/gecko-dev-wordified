@@ -4673,7 +4673,7 @@ submit_report
 true
 include_url
 :
-true
+false
 }
 .
 to_string
@@ -4744,6 +4744,7 @@ Checkbox
 assert
 !
 (
+!
 c
 .
 checked
@@ -6629,6 +6630,20 @@ n
 Throttleable
 :
 1
+\
+n
+\
+URL
+:
+https
+:
+/
+/
+url
+.
+example
+.
+com
 \
 n
 \
