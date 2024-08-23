@@ -1313,9 +1313,6 @@ AudioData
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
@@ -1339,9 +1336,6 @@ name
 "
 AudioDecoder
 "
-nightly
-:
-true
 }
 /
 /
@@ -1365,9 +1359,6 @@ name
 "
 AudioEncoder
 "
-nightly
-:
-true
 }
 /
 /
@@ -2027,9 +2018,6 @@ EncodedAudioChunk
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
@@ -2054,9 +2042,6 @@ name
 EncodedVideoChunk
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -4320,9 +4305,6 @@ name
 "
 VideoDecoder
 "
-nightly
-:
-true
 }
 /
 /
@@ -4346,9 +4328,6 @@ name
 "
 VideoEncoder
 "
-nightly
-:
-true
 }
 /
 /
@@ -4373,9 +4352,6 @@ name
 VideoFrame
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
