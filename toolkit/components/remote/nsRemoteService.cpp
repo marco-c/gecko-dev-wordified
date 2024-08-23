@@ -730,7 +730,16 @@ get
 (
 )
 gArgc
+const_cast
+<
+const
+char
+*
+*
+>
+(
 gArgv
+)
 aStartupToken
 )
 ;

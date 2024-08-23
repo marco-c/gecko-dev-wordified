@@ -167,6 +167,7 @@ char
 aProfile
 int32_t
 argc
+const
 char
 *
 *
@@ -227,12 +228,12 @@ MAX_PATH
 WinRemoteMessageSender
 sender
 (
-:
-:
-GetCommandLineW
+argc
+argv
+nsDependentString
 (
-)
 cwd
+)
 )
 ;
 /
