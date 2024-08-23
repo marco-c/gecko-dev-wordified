@@ -6043,6 +6043,17 @@ ProxyDestroyed
 acc
 )
 ;
+/
+/
+mAccessibles
+owns
+acc
+so
+removing
+it
+deletes
+acc
+.
 iter
 .
 Remove
