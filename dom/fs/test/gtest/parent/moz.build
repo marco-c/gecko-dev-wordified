@@ -97,6 +97,11 @@ UNIFIED_SOURCES
 =
 [
 "
+FileSystemParentTestHelpers
+.
+cpp
+"
+"
 TestFileSystemHashSource
 .
 cpp
