@@ -4340,6 +4340,16 @@ rv
 NS_OK
 )
 ;
+if
+(
+!
+uri
+)
+{
+return
+NS_OK
+;
+}
 bool
 hasFlags
 ;
