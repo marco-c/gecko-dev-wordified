@@ -436,15 +436,9 @@ memory
 let
 request
 =
-getOriginUsage
+getCachedOriginUsage
 (
 principal
-/
-*
-fromMemory
-*
-/
-true
 )
 ;
 await
@@ -463,8 +457,6 @@ is
 request
 .
 result
-.
-usage
 data
 .
 usage
@@ -482,8 +474,6 @@ is
 request
 .
 result
-.
-usage
 0
 "
 Zero

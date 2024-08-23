@@ -466,15 +466,9 @@ usage
 ;
 request
 =
-getOriginUsage
+getCachedOriginUsage
 (
 principal
-/
-*
-fromMemory
-*
-/
-true
 )
 ;
 await
@@ -497,8 +491,6 @@ is
 request
 .
 result
-.
-usage
 originUsage
 "
 Correct
