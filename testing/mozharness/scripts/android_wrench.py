@@ -2054,6 +2054,9 @@ shell_output
 "
 getprop
 "
+attempts
+=
+3
 )
 )
         
