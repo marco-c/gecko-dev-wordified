@@ -1476,7 +1476,7 @@ nsresult
 OpenJS
 (
 const
-nsAString
+nsACString
 &
 aUrl
 const
@@ -3490,7 +3490,7 @@ nsresult
 Open
 (
 const
-nsAString
+nsACString
 &
 aUrl
 const
@@ -4046,7 +4046,7 @@ nsresult
 OpenDialog
 (
 const
-nsAString
+nsACString
 &
 aUrl
 const
@@ -4431,7 +4431,7 @@ nsresult
 OpenNoNavigate
 (
 const
-nsAString
+nsACString
 &
 aUrl
 const
@@ -4908,7 +4908,7 @@ nsresult
 OpenInternal
 (
 const
-nsAString
+nsACString
 &
 aUrl
 const
@@ -5001,7 +5001,7 @@ void
 FireAbuseEvents
 (
 const
-nsAString
+nsACString
 &
 aPopupURL
 const
