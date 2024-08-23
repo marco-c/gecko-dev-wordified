@@ -8596,6 +8596,8 @@ window
 >
 PageHidden
 (
+!
+aIsUnload
 )
 ;
 if

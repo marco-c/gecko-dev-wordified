@@ -3356,6 +3356,8 @@ virtual
 void
 PageHidden
 (
+bool
+aIsEnteringBFCacheInParent
 )
 =
 0
@@ -6409,6 +6411,8 @@ virtual
 void
 PageHidden
 (
+bool
+aIsEnteringBFCacheInParent
 )
 =
 0

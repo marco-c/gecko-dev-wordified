@@ -1556,6 +1556,8 @@ mozIDOMWindowProxy
 aWindow
 uint64_t
 aActionId
+bool
+aIsEnteringBFCache
 )
 ;
 /
@@ -5445,6 +5447,8 @@ BrowsingContext
 aContext
 uint64_t
 aActionId
+bool
+aIsEnteringBFCache
 )
 ;
 /

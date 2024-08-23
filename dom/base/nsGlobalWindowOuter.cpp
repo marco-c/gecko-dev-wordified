@@ -44553,12 +44553,15 @@ nsGlobalWindowOuter
 :
 PageHidden
 (
+bool
+aIsEnteringBFCacheInParent
 )
 {
 FORWARD_TO_INNER_VOID
 (
 PageHidden
 (
+aIsEnteringBFCacheInParent
 )
 )
 ;

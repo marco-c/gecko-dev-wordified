@@ -2817,6 +2817,8 @@ virtual
 void
 PageHidden
 (
+bool
+aIsEnteringBFCache
 )
 override
 ;
