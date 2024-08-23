@@ -9398,9 +9398,12 @@ this
 .
 openFxAEmailFirstPage
 (
-"
-fxa_toolbar_button
-"
+this
+.
+_getEntryPointForElement
+(
+sourceElement
+)
 extraParams
 )
 ;
