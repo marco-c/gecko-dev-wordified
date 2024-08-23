@@ -148,11 +148,6 @@ using
 namespace
 mozilla
 ;
-/
-/
-#
-define
-FCF_NOISY
 nsCheckboxRadioFrame
 *
 NS_NewCheckboxRadioFrame
