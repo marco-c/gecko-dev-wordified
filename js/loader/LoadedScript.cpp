@@ -745,16 +745,6 @@ sizeOfExcludingThis
 aMallocSizeOf
 )
 ;
-/
-/
-NOTE
-:
-Stencil
-is
-reported
-by
-SpiderMonkey
-.
 return
 bytes
 ;
