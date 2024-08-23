@@ -3001,12 +3001,6 @@ error
 )
 )
 ;
-error
-.
-WouldReportJSException
-(
-)
-;
 if
 (
 NS_WARN_IF
