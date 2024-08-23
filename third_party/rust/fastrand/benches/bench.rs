@@ -517,7 +517,7 @@ that
 isn
 '
 t
-divisble
+divisible
 by
 8
 .
