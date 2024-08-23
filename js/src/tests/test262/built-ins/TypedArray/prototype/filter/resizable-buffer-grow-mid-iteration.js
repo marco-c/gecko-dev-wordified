@@ -101,7 +101,7 @@ filter
 behaves
 correctly
 on
-receivers
+TypedArrays
 backed
 by
 resizable
@@ -111,6 +111,7 @@ grow
 mid
 -
 iteration
+.
 includes
 :
 [
@@ -210,7 +211,7 @@ calling
 this
 .
 function
-ResizeBufferMidIteration
+ResizeMidIteration
 (
 n
 )
@@ -339,7 +340,7 @@ fixedLength
 .
 filter
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [
@@ -417,7 +418,7 @@ fixedLengthWithOffset
 .
 filter
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [
@@ -488,7 +489,7 @@ lengthTracking
 .
 filter
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [
@@ -565,7 +566,7 @@ lengthTrackingWithOffset
 .
 filter
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [

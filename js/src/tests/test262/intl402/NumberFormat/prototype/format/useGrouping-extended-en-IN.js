@@ -344,7 +344,7 @@ format
 1000
 )
 '
-1T
+1K
 '
 '
 notation
@@ -366,7 +366,7 @@ format
 10000
 )
 '
-10T
+10K
 '
 '
 notation

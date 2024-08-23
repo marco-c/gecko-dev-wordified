@@ -131,6 +131,13 @@ Configurable
 false
 }
 .
+includes
+:
+[
+propertyHelper
+.
+js
+]
 features
 :
 [
@@ -187,7 +194,7 @@ enumerable
 false
 configurable
 :
-false
+true
 }
 )
 ;

@@ -99,7 +99,7 @@ filter
 behaves
 correctly
 on
-receivers
+TypedArrays
 backed
 by
 resizable
@@ -109,6 +109,7 @@ grow
 mid
 -
 iteration
+.
 includes
 :
 [
@@ -208,7 +209,7 @@ calling
 this
 .
 function
-ResizeBufferMidIteration
+ResizeMidIteration
 (
 n
 )
@@ -342,7 +343,7 @@ filter
 call
 (
 fixedLength
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [
@@ -425,7 +426,7 @@ filter
 call
 (
 fixedLengthWithOffset
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [
@@ -501,7 +502,7 @@ filter
 call
 (
 lengthTracking
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [
@@ -583,7 +584,7 @@ filter
 call
 (
 lengthTrackingWithOffset
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 [

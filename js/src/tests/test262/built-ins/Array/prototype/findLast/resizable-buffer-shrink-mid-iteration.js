@@ -210,7 +210,7 @@ calling
 this
 .
 function
-ResizeBufferMidIteration
+ResizeMidIteration
 (
 n
 )
@@ -342,7 +342,7 @@ findLast
 call
 (
 fixedLength
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 undefined
 )
@@ -421,7 +421,7 @@ findLast
 call
 (
 fixedLengthWithOffset
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 undefined
 )
@@ -493,7 +493,7 @@ findLast
 call
 (
 lengthTracking
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 undefined
 )
@@ -571,7 +571,7 @@ findLast
 call
 (
 lengthTrackingWithOffset
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 undefined
 )

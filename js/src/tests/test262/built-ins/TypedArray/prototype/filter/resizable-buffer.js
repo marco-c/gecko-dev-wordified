@@ -101,7 +101,7 @@ filter
 behaves
 correctly
 on
-receivers
+TypedArrays
 backed
 by
 resizable

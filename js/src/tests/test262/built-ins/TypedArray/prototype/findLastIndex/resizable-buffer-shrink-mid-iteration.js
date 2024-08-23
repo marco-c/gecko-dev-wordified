@@ -212,7 +212,7 @@ calling
 this
 .
 function
-ResizeBufferMidIteration
+ResizeMidIteration
 (
 n
 )
@@ -339,7 +339,7 @@ fixedLength
 .
 findLastIndex
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 -
 1
@@ -414,7 +414,7 @@ fixedLengthWithOffset
 .
 findLastIndex
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 -
 1
@@ -482,7 +482,7 @@ lengthTracking
 .
 findLastIndex
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 -
 1
@@ -552,7 +552,7 @@ lengthTracking
 .
 findLastIndex
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 -
 1
@@ -626,7 +626,7 @@ lengthTrackingWithOffset
 .
 findLastIndex
 (
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 -
 1

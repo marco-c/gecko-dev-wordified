@@ -210,7 +210,7 @@ calling
 this
 .
 function
-ResizeBufferMidIteration
+ResizeMidIteration
 (
 n
 )
@@ -345,7 +345,7 @@ every
 call
 (
 fixedLength
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 ;
@@ -419,7 +419,7 @@ every
 call
 (
 fixedLengthWithOffset
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 ;
@@ -487,7 +487,7 @@ every
 call
 (
 lengthTracking
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 ;
@@ -561,7 +561,7 @@ every
 call
 (
 lengthTrackingWithOffset
-ResizeBufferMidIteration
+ResizeMidIteration
 )
 )
 ;

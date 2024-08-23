@@ -104,6 +104,13 @@ prior
 to
 bad
 data
+includes
+:
+[
+compareArray
+.
+js
+]
 features
 :
 [
