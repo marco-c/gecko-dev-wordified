@@ -6006,6 +6006,13 @@ x86
 "
 Hostx86
 "
+"
+aarch64
+"
+:
+"
+Hostarm64
+"
 }
 .
 get
