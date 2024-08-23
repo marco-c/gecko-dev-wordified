@@ -1706,6 +1706,9 @@ the
 domain
 '
 attribute
+when
+using
+setCookieStringFromDocument
 .
 await
 testTrailingDotCookie

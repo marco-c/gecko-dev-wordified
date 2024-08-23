@@ -5916,9 +5916,8 @@ value
 for
 logging
 purposes
-mCookieString
-.
-Assign
+nsCString
+savedCookieHeader
 (
 aCookieHeader
 )
@@ -6163,7 +6162,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 cookie
 name
@@ -6213,7 +6212,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 cookie
 too
@@ -6298,7 +6297,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 invalid
 name
@@ -6337,7 +6336,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 failed
 the
@@ -6367,7 +6366,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 failed
 the
@@ -6440,7 +6439,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 failed
 hidden
@@ -6489,7 +6488,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 failed
 the
@@ -6523,7 +6522,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 invalid
 value
@@ -6574,7 +6573,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 cookie
 is
@@ -6771,7 +6770,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 failed
 the
@@ -6885,7 +6884,7 @@ COOKIE_LOGFAILURE
 (
 SET_COOKIE
 mHostURI
-mCookieString
+savedCookieHeader
 "
 foreign
 cookies
@@ -6948,26 +6947,6 @@ NoRejection
 mRejection
 =
 aRejection
-;
-}
-void
-CookieParser
-:
-:
-GetCookieString
-(
-nsACString
-&
-aCookieString
-)
-const
-{
-aCookieString
-.
-Assign
-(
-mCookieString
-)
 ;
 }
 }

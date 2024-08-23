@@ -66,9 +66,7 @@ URL
 /
 2
 .
-document
-.
-cookie
+setCookieStringFromDocument
 requires
 access
 to

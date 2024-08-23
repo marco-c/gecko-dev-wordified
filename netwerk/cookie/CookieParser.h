@@ -274,15 +274,6 @@ return
 mCookieData
 ;
 }
-void
-GetCookieString
-(
-nsACString
-&
-aCookieString
-)
-const
-;
 /
 /
 Public
@@ -521,9 +512,6 @@ mWarnings
 ;
 CookieStruct
 mCookieData
-;
-nsCString
-mCookieString
 ;
 }
 ;
