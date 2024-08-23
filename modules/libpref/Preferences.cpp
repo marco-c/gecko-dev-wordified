@@ -39560,16 +39560,6 @@ telemetry
 cachedClientID
 "
 )
-PREF_LIST_ENTRY
-(
-"
-toolkit
-.
-telemetry
-.
-cachedProfileGroupID
-"
-)
 /
 /
 Remove
