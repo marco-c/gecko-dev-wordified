@@ -317,16 +317,11 @@ const
 uintptr_t
 &
 aXWindow
-const
-bool
-&
-aShaped
 )
 {
 SetRenderingSurface
 (
 aXWindow
-aShaped
 )
 ;
 return

@@ -312,10 +312,6 @@ false
 #
 ifdef
 MOZ_X11
-mIsShaped
-(
-false
-)
 mXDepth
 (
 0
@@ -471,8 +467,6 @@ Initialize
 (
 Window
 aWindow
-bool
-aIsShaped
 )
 {
 mWindowSurfaceValid
@@ -541,10 +535,6 @@ windowAttrs
 .
 depth
 ;
-mIsShaped
-=
-aIsShaped
-;
 return
 true
 ;
@@ -592,10 +582,6 @@ mXVisual
 mXDepth
 =
 0
-;
-mIsShaped
-=
-false
 ;
 #
 endif
@@ -720,10 +706,6 @@ ifdef
 MOZ_HAVE_SHMIMAGE
 if
 (
-!
-mIsShaped
-&
-&
 nsShmImage
 :
 :
@@ -812,7 +794,6 @@ DefaultXDisplay
 mXWindow
 mXVisual
 mXDepth
-mIsShaped
 )
 ;
 }
@@ -1114,7 +1095,6 @@ DefaultXDisplay
 mXWindow
 mXVisual
 mXDepth
-mIsShaped
 )
 ;
 dt
