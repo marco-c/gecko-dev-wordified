@@ -45,11 +45,10 @@ softplus
 '
 )
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 softplus
 '
-floatingPointTypes
 )
 ;
