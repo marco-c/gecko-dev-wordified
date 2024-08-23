@@ -56,11 +56,13 @@ https
 :
 /
 /
-webmachinelearning
+www
 .
-github
+w3
 .
-io
+org
+/
+TR
 /
 webnn
 /
