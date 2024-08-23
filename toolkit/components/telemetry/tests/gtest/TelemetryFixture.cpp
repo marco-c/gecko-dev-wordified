@@ -138,11 +138,6 @@ JSObject
 *
 aGlobalObject
 )
-:
-mCx
-(
-nullptr
-)
 {
 /
 /
