@@ -1357,10 +1357,6 @@ PrintBackgroundTaskPromise
 this
 aCx
 aResultPromise
-"
-CopyFromWithValidation
-"
-_ns
 &
 nsPrinterWin
 :
