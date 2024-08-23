@@ -27369,6 +27369,7 @@ larger
 .
 if
 (
+(
 mDuration
 .
 Ref
@@ -27401,6 +27402,14 @@ Ref
 )
 .
 ref
+(
+)
+)
+&
+&
+end
+.
+IsPositiveOrZero
 (
 )
 )
