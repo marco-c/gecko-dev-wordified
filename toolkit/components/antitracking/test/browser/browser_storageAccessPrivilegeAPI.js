@@ -1901,11 +1901,11 @@ cookie
 "
 name
 =
-unpartitioned
+partitioned
 ;
 name
 =
-partitioned
+unpartitioned
 "
 "
 Successfully
@@ -1978,11 +1978,11 @@ cookie
 "
 name
 =
-unpartitioned
+partitioned
 ;
 name
 =
-partitioned
+unpartitioned
 "
 "
 Some
