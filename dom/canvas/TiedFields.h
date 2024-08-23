@@ -856,6 +856,16 @@ AssertTiedFieldsAreExhaustive
 (
 )
 {
+static_assert
+(
+AreAllBytesTiedFields
+<
+StructT
+>
+(
+)
+)
+;
 using
 TupleOfFields
 =
