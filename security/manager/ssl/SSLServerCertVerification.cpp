@@ -3894,15 +3894,6 @@ CTPolicyCompliance
 :
 Compliant
 :
-AccumulateTelemetryForRootCA
-(
-Telemetry
-:
-:
-SSL_CT_POLICY_COMPLIANT_CONNECTIONS_BY_CA
-rootCert
-)
-;
 break
 ;
 case
@@ -3928,7 +3919,7 @@ AccumulateTelemetryForRootCA
 Telemetry
 :
 :
-SSL_CT_POLICY_NON_COMPLIANT_CONNECTIONS_BY_CA
+SSL_CT_POLICY_NON_COMPLIANT_CONNECTIONS_BY_CA_2
 rootCert
 )
 ;
@@ -4160,7 +4151,7 @@ Accumulate
 Telemetry
 :
 :
-CERT_PINNING_FAILURES_BY_CA
+CERT_PINNING_FAILURES_BY_CA_2
 aPinningTelemetryInfo
 .
 rootBucket
@@ -4239,7 +4230,7 @@ AccumulateTelemetryForRootCA
 Telemetry
 :
 :
-CERT_VALIDATION_SUCCESS_BY_CA
+CERT_VALIDATION_SUCCESS_BY_CA_2
 rootCert
 )
 ;
