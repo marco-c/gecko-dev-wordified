@@ -6972,7 +6972,7 @@ fakespot
 .
 minKeywordLength
 "
-0
+4
 )
 ;
 /
