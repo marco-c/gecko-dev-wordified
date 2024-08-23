@@ -1523,17 +1523,6 @@ TimeStamp
 start
 )
 ;
-[
-noscript
-]
-void
-setNameForWakeupTelemetry
-(
-in
-ACString
-name
-)
-;
 /
 *
 *
