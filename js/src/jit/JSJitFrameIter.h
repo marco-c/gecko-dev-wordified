@@ -2108,7 +2108,9 @@ of
 recover
 instructions
 .
-typedef
+using
+Values
+=
 mozilla
 :
 :
@@ -2121,7 +2123,6 @@ Value
 1
 SystemAllocPolicy
 >
-Values
 ;
 UniquePtr
 <

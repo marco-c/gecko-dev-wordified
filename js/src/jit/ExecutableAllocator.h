@@ -775,14 +775,15 @@ size
 }
 }
 ;
-typedef
+using
+JitPoisonRangeVector
+=
 Vector
 <
 JitPoisonRange
 0
 SystemAllocPolicy
 >
-JitPoisonRangeVector
 ;
 class
 ExecutableAllocator
@@ -1106,7 +1107,9 @@ maxSmallPools
 =
 4
 ;
-typedef
+using
+SmallExecPoolVector
+=
 js
 :
 :
@@ -1120,7 +1123,6 @@ js
 :
 SystemAllocPolicy
 >
-SmallExecPoolVector
 ;
 SmallExecPoolVector
 m_smallPools
@@ -1167,7 +1169,9 @@ removed
 from
 m_pools
 .
-typedef
+using
+ExecPoolHashSet
+=
 js
 :
 :
@@ -1188,7 +1192,6 @@ js
 :
 SystemAllocPolicy
 >
-ExecPoolHashSet
 ;
 ExecPoolHashSet
 m_pools

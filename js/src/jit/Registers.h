@@ -1622,7 +1622,9 @@ RegisterDump
 {
 public
 :
-typedef
+using
+GPRArray
+=
 mozilla
 :
 :
@@ -1637,9 +1639,10 @@ Registers
 :
 Total
 >
-GPRArray
 ;
-typedef
+using
+FPUArray
+=
 mozilla
 :
 :
@@ -1654,7 +1657,6 @@ FloatRegisters
 :
 TotalPhys
 >
-FPUArray
 ;
 protected
 :

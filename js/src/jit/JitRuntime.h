@@ -1522,7 +1522,9 @@ at
 other
 times
 .
-typedef
+using
+NumFinishedOffThreadTasksType
+=
 mozilla
 :
 :
@@ -1534,7 +1536,6 @@ mozilla
 :
 SequentiallyConsistent
 >
-NumFinishedOffThreadTasksType
 ;
 NumFinishedOffThreadTasksType
 numFinishedOffThreadTasks_

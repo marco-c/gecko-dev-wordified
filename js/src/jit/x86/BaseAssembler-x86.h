@@ -1179,9 +1179,10 @@ OP_POPA
 }
 }
 ;
-typedef
-BaseAssemblerX86
+using
 BaseAssemblerSpecific
+=
+BaseAssemblerX86
 ;
 }
 /

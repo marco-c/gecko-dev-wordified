@@ -620,7 +620,9 @@ return
 osrEntryOffset_
 ;
 }
-typedef
+using
+SafepointIndices
+=
 js
 :
 :
@@ -630,7 +632,6 @@ CodegenSafepointIndex
 8
 SystemAllocPolicy
 >
-SafepointIndices
 ;
 protected
 :

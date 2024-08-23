@@ -333,11 +333,12 @@ MacroAssembler
 {
 public
 :
-typedef
+using
+Condition
+=
 vixl
 :
 :
-Condition
 Condition
 ;
 private
@@ -16721,9 +16722,10 @@ tag
 )
 ;
 }
-typedef
-MacroAssemblerCompat
+using
 MacroAssemblerSpecific
+=
+MacroAssemblerCompat
 ;
 }
 /

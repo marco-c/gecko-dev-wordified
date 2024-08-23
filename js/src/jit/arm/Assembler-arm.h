@@ -7628,7 +7628,9 @@ instructions
 class
 Assembler
 ;
-typedef
+using
+ARMBuffer
+=
 js
 :
 :
@@ -7642,7 +7644,6 @@ AssemblerBufferWithConstantPools
 Instruction
 Assembler
 >
-ARMBuffer
 ;
 class
 Assembler
@@ -8127,7 +8128,9 @@ bo
 #
 ifdef
 JS_DISASM_ARM
-typedef
+using
+DisasmBuffer
+=
 disasm
 :
 :
@@ -8139,7 +8142,6 @@ disasm
 :
 ReasonableBufferSize
 >
-DisasmBuffer
 ;
 static
 void

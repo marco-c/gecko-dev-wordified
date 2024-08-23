@@ -1204,9 +1204,10 @@ that
 the
 Assembler
 uses
-typedef
-int32_t
+using
 Instr
+=
+int32_t
 .
 /
 /

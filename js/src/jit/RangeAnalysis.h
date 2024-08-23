@@ -512,7 +512,9 @@ currentSum
 }
 }
 ;
-typedef
+using
+LoopIterationBoundVector
+=
 Vector
 <
 LoopIterationBound
@@ -520,7 +522,6 @@ LoopIterationBound
 0
 SystemAllocPolicy
 >
-LoopIterationBoundVector
 ;
 /
 /

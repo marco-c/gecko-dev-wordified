@@ -2598,9 +2598,10 @@ address
 endif
 }
 ;
-typedef
-MacroAssemblerWasm32
+using
 MacroAssemblerSpecific
+=
+MacroAssemblerWasm32
 ;
 static
 inline

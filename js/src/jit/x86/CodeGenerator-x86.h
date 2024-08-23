@@ -297,9 +297,10 @@ ool
 ;
 }
 ;
-typedef
-CodeGeneratorX86
+using
 CodeGeneratorSpecific
+=
+CodeGeneratorX86
 ;
 }
 /

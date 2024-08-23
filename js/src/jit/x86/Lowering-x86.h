@@ -570,9 +570,10 @@ true
 }
 }
 ;
-typedef
-LIRGeneratorX86
+using
 LIRGeneratorSpecific
+=
+LIRGeneratorX86
 ;
 }
 /

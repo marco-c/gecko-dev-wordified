@@ -757,9 +757,10 @@ ool
 ;
 }
 ;
-typedef
-CodeGeneratorARM64
+using
 CodeGeneratorSpecific
+=
+CodeGeneratorARM64
 ;
 /
 /

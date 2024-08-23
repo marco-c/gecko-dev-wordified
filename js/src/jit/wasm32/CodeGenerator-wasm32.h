@@ -498,9 +498,10 @@ MOZ_CRASH
 }
 }
 ;
-typedef
-CodeGeneratorWasm32
+using
 CodeGeneratorSpecific
+=
+CodeGeneratorWasm32
 ;
 }
 /

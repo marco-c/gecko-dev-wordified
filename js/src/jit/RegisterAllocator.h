@@ -828,14 +828,15 @@ already
 been
 processed
 .
-typedef
+using
+IntegrityItemSet
+=
 HashSet
 <
 IntegrityItem
 IntegrityItem
 SystemAllocPolicy
 >
-IntegrityItemSet
 ;
 IntegrityItemSet
 seen

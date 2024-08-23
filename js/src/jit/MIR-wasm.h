@@ -9828,14 +9828,15 @@ def
 }
 }
 ;
-typedef
+using
+Args
+=
 Vector
 <
 Arg
 8
 SystemAllocPolicy
 >
-Args
 ;
 protected
 :
@@ -13773,7 +13774,9 @@ offset_
 }
 }
 ;
-typedef
+using
+MaybeTrapSiteInfo
+=
 mozilla
 :
 :
@@ -13781,7 +13784,6 @@ Maybe
 <
 TrapSiteInfo
 >
-MaybeTrapSiteInfo
 ;
 /
 /

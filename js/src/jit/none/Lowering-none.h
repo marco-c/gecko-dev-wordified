@@ -906,9 +906,10 @@ MOZ_CRASH
 }
 }
 ;
-typedef
-LIRGeneratorNone
+using
 LIRGeneratorSpecific
+=
+LIRGeneratorNone
 ;
 }
 /

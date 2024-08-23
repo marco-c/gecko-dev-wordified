@@ -967,9 +967,10 @@ ool
 ;
 }
 ;
-typedef
-CodeGeneratorARM
+using
 CodeGeneratorSpecific
+=
+CodeGeneratorARM
 ;
 /
 /
