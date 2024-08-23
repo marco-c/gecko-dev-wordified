@@ -379,7 +379,7 @@ HMAC
 RSA
 EC
 KDF
-ED
+OKP
 }
 ;
 KeyAlgorithmType
@@ -723,7 +723,7 @@ aNamedCurve
 ;
 }
 void
-MakeEd
+MakeOKP
 (
 const
 nsString
@@ -733,7 +733,7 @@ aName
 {
 mType
 =
-ED
+OKP
 ;
 mName
 =

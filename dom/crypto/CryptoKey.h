@@ -1213,7 +1213,7 @@ aRetVal
 ;
 static
 UniqueSECKEYPublicKey
-PublicEDKeyFromRaw
+PublicOKPKeyFromRaw
 (
 CryptoBuffer
 &
