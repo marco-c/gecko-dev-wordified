@@ -51,12 +51,5 @@ validateUnaryOperation
 sigmoid
 '
 floatingPointTypes
-/
-*
-alsoBuildActivation
-=
-*
-/
-true
 )
 ;

@@ -51,12 +51,5 @@ validateUnaryOperation
 tanh
 '
 floatingPointTypes
-/
-*
-alsoBuildActivation
-=
-*
-/
-true
 )
 ;

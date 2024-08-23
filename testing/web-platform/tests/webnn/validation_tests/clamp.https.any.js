@@ -208,10 +208,7 @@ shape
 [
 clamp
 ]
-Test
-building
-an
-operator
+Build
 with
 options
 '
@@ -371,10 +368,7 @@ shape
 [
 clamp
 ]
-Test
-building
-an
-operator
+Build
 with
 options
 .
@@ -530,10 +524,6 @@ minValue
 options
 .
 maxValue
-when
-building
-an
-operator
 '
 )
 ;
@@ -646,10 +636,6 @@ minValue
 is
 -
 Infinity
-when
-building
-an
-operator
 '
 )
 ;

@@ -51,12 +51,5 @@ validateUnaryOperation
 hardSwish
 '
 floatingPointTypes
-/
-*
-alsoBuildActivation
-=
-*
-/
-true
 )
 ;

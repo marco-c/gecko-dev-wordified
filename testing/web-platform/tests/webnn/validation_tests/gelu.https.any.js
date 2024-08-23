@@ -50,12 +50,5 @@ validateSingleInputOperation
 '
 gelu
 '
-/
-*
-alsoBuildActivation
-=
-*
-/
-true
 )
 ;

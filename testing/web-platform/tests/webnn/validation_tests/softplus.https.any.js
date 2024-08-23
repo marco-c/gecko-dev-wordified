@@ -51,12 +51,5 @@ validateUnaryOperation
 softplus
 '
 floatingPointTypes
-/
-*
-alsoBuildActivation
-=
-*
-/
-true
 )
 ;

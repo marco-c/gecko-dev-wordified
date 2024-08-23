@@ -51,12 +51,5 @@ validateUnaryOperation
 softsign
 '
 floatingPointTypes
-/
-*
-alsoBuildActivation
-=
-*
-/
-true
 )
 ;

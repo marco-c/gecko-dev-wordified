@@ -50,12 +50,5 @@ validateSingleInputOperation
 '
 relu
 '
-/
-*
-alsoBuildActivation
-=
-*
-/
-true
 )
 ;
