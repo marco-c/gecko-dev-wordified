@@ -186,6 +186,9 @@ mUserScalable
 nsString
 mViewportFit
 ;
+nsString
+mInteractiveWidgetMode
+;
 bool
 operator
 =
@@ -253,6 +256,14 @@ mViewportFit
 aOther
 .
 mViewportFit
+&
+&
+mInteractiveWidgetMode
+=
+=
+aOther
+.
+mInteractiveWidgetMode
 ;
 }
 bool
