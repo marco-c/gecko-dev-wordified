@@ -30085,6 +30085,8 @@ bool
 aWasExternallyTriggered
 bool
 aHasValidUserGestureActivation
+bool
+aNewWindowTarget
 )
 {
 if
@@ -30168,6 +30170,7 @@ aRedirectPrincipal
 bc
 aWasExternallyTriggered
 aHasValidUserGestureActivation
+aNewWindowTarget
 )
 ;
 return
