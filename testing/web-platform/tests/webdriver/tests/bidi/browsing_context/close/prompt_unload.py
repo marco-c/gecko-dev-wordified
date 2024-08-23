@@ -110,7 +110,9 @@ make
 sure
 the
 "
-beforeunload
+browsingContext
+.
+userPromptOpened
 "
 event
 is
@@ -313,7 +315,9 @@ make
 sure
 the
 "
-beforeunload
+browsingContext
+.
+contextDestroyed
 "
 event
 is
