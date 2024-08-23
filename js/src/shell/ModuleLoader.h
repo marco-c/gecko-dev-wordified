@@ -439,6 +439,11 @@ lookupModuleInRegistry
 JSContext
 *
 cx
+JS
+:
+:
+ModuleType
+moduleType
 HandleString
 path
 MutableHandleObject
@@ -451,6 +456,11 @@ addModuleToRegistry
 JSContext
 *
 cx
+JS
+:
+:
+ModuleType
+moduleType
 HandleString
 path
 HandleObject
@@ -521,6 +531,11 @@ getOrCreateModuleRegistry
 JSContext
 *
 cx
+JS
+:
+:
+ModuleType
+moduleType
 )
 ;
 JSString
