@@ -4666,7 +4666,6 @@ none
 ;
 }
 let
-mut
 serialize
 =
 |
