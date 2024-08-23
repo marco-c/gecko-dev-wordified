@@ -384,7 +384,7 @@ gfxMatrix
 aMatrix
 )
 {
-ISVGDisplayableFrame
+nsIFrame
 *
 singleClipPathChild
 =
@@ -2032,7 +2032,7 @@ SVGClipPathFrame
 :
 IsTrivial
 (
-ISVGDisplayableFrame
+nsIFrame
 *
 *
 aSingleChild
@@ -2086,7 +2086,7 @@ aSingleChild
 nullptr
 ;
 }
-ISVGDisplayableFrame
+nsIFrame
 *
 foundChild
 =
@@ -2112,9 +2112,13 @@ kid
 ;
 if
 (
+!
 svgChild
 )
 {
+continue
+;
+}
 /
 /
 We
@@ -2192,9 +2196,8 @@ false
 }
 foundChild
 =
-svgChild
+kid
 ;
-}
 }
 if
 (

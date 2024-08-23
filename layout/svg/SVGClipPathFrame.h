@@ -747,7 +747,7 @@ clipping
 bool
 IsTrivial
 (
-ISVGDisplayableFrame
+nsIFrame
 *
 *
 aSingleChild
