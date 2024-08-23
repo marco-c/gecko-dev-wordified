@@ -113,7 +113,9 @@ h
 #
 define
 FUZZ
-typedef
+using
+IntMap
+=
 js
 :
 :
@@ -133,9 +135,10 @@ js
 :
 SystemAllocPolicy
 >
-IntMap
 ;
-typedef
+using
+IntSet
+=
 js
 :
 :
@@ -154,7 +157,6 @@ js
 :
 SystemAllocPolicy
 >
-IntSet
 ;
 /
 *
@@ -2180,9 +2182,10 @@ this
 struct
 HashPolicy
 {
-typedef
-MoveOnlyType
+using
 Lookup
+=
+MoveOnlyType
 ;
 static
 js
@@ -2260,7 +2263,9 @@ BEGIN_TEST
 testHashSetOfMoveOnlyType
 )
 {
-typedef
+using
+Set
+=
 js
 :
 :
@@ -2276,7 +2281,6 @@ js
 :
 SystemAllocPolicy
 >
-Set
 ;
 Set
 set
