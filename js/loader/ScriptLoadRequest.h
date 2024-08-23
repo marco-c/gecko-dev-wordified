@@ -1317,6 +1317,15 @@ BytecodeEncodingPlan
 :
 :
 Uninitialized
+|
+|
+mBytecodeEncodingPlan
+=
+=
+BytecodeEncodingPlan
+:
+:
+PassedCondition
 )
 ;
 mBytecodeEncodingPlan
