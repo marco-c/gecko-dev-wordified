@@ -2995,6 +2995,7 @@ EdgeSelector
 AllEdges
 NonGrayEdges
 GrayEdges
+BlackEdges
 }
 ;
 void
