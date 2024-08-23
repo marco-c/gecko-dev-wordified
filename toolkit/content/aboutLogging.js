@@ -934,6 +934,9 @@ MediaSource
 MediaSourceSamples
 :
 5
+Autoplay
+:
+5
 "
 l10nIds
 :
