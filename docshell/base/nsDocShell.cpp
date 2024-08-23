@@ -65291,7 +65291,7 @@ aPrincipalToInherit
 )
 {
 return
-NS_IsAboutBlank
+NS_IsAboutBlankAllowQueryAndFragment
 (
 aURI
 )
