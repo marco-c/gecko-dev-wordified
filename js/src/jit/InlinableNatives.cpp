@@ -1671,12 +1671,6 @@ case
 InlinableNative
 :
 :
-BigInt
-:
-case
-InlinableNative
-:
-:
 BigIntAsIntN
 :
 case

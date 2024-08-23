@@ -3816,11 +3816,6 @@ tryAttachObjectToString
 )
 ;
 AttachDecision
-tryAttachBigInt
-(
-)
-;
-AttachDecision
 tryAttachBigIntAsIntN
 (
 )
