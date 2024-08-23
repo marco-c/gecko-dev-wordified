@@ -341,6 +341,8 @@ Initialize
 (
 Window
 aWindow
+bool
+aIsShaped
 )
 ;
 Window
@@ -576,6 +578,9 @@ endif
 #
 ifdef
 MOZ_X11
+bool
+mIsShaped
+;
 int
 mXDepth
 ;

@@ -219,6 +219,9 @@ SetRenderingSurface
 const
 uintptr_t
 aXWindow
+const
+bool
+aShaped
 )
 =
 0
@@ -454,6 +457,9 @@ SetRenderingSurface
 const
 uintptr_t
 aXWindow
+const
+bool
+aShaped
 )
 override
 ;
@@ -600,6 +606,8 @@ ConfigureX11Backend
 (
 Window
 aXWindow
+bool
+aShaped
 )
 ;
 #
