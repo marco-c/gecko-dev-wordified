@@ -1502,6 +1502,15 @@ SelectionType
 :
 :
 eSpellCheck
+&
+&
+aType
+!
+=
+SelectionType
+:
+:
+eTargetText
 )
 {
 /
