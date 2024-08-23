@@ -4431,7 +4431,7 @@ this
 .
 tabContainer
 .
-inVerticalTabsMode
+verticalMode
 )
 {
 let
@@ -4541,7 +4541,7 @@ this
 .
 tabContainer
 .
-inVerticalTabsMode
+verticalMode
 )
 {
 let
