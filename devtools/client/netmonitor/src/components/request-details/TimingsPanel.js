@@ -406,8 +406,6 @@ firstRequestStartedMs
 PropTypes
 .
 number
-.
-isRequired
 }
 ;
 }

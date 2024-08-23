@@ -503,8 +503,6 @@ lastMessageId
 PropTypes
 .
 string
-.
-isRequired
 }
 ;
 }
