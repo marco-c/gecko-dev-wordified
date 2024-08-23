@@ -158,6 +158,10 @@ class
 Document
 ;
 }
+/
+/
+namespace
+dom
 namespace
 a11y
 {
