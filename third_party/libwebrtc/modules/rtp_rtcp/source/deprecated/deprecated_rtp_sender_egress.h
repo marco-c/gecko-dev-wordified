@@ -760,10 +760,6 @@ event_log_
 ;
 const
 bool
-is_audio_
-;
-const
-bool
 need_rtp_packet_infos_
 ;
 TransportFeedbackObserver
