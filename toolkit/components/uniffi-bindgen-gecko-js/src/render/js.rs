@@ -122,7 +122,7 @@ Type
 }
 ;
 fn
-arg_names
+js_arg_names
 (
 args
 :
@@ -173,7 +173,7 @@ format
 "
 arg
 .
-nm
+js_name
 (
 )
 default_value
@@ -187,7 +187,7 @@ else
 {
 arg
 .
-nm
+js_name
 (
 )
 }
@@ -941,7 +941,7 @@ impl
 Record
 {
 fn
-nm
+js_name
 (
 &
 self
@@ -1014,7 +1014,7 @@ format
 "
 field
 .
-nm
+js_name
 (
 )
 default_value
@@ -1028,7 +1028,7 @@ else
 {
 field
 .
-nm
+js_name
 (
 )
 }
@@ -1082,7 +1082,7 @@ impl
 CallbackInterface
 {
 fn
-nm
+js_name
 (
 &
 self
@@ -1121,7 +1121,7 @@ callbackHandler
 "
 self
 .
-nm
+js_name
 (
 )
 )
@@ -1141,7 +1141,7 @@ impl
 Field
 {
 fn
-nm
+js_name
 (
 &
 self
@@ -1295,7 +1295,7 @@ impl
 Argument
 {
 fn
-nm
+js_name
 (
 &
 self
@@ -2080,7 +2080,7 @@ impl
 Enum
 {
 fn
-nm
+js_name
 (
 &
 self
@@ -2114,7 +2114,7 @@ impl
 Function
 {
 fn
-arg_names
+js_arg_names
 (
 &
 self
@@ -2123,7 +2123,7 @@ self
 >
 String
 {
-arg_names
+js_arg_names
 (
 self
 .
@@ -2137,7 +2137,7 @@ as_slice
 )
 }
 fn
-nm
+js_name
 (
 &
 self
@@ -2171,7 +2171,7 @@ impl
 Object
 {
 fn
-nm
+js_name
 (
 &
 self
@@ -2205,7 +2205,7 @@ impl
 Constructor
 {
 fn
-nm
+js_name
 (
 &
 self
@@ -2243,7 +2243,7 @@ to_lower_camel_case
 }
 }
 fn
-arg_names
+js_arg_names
 (
 &
 self
@@ -2252,7 +2252,7 @@ self
 >
 String
 {
-arg_names
+js_arg_names
 (
 &
 self
@@ -2281,7 +2281,7 @@ impl
 Method
 {
 fn
-arg_names
+js_arg_names
 (
 &
 self
@@ -2290,7 +2290,7 @@ self
 >
 String
 {
-arg_names
+js_arg_names
 (
 self
 .
@@ -2304,7 +2304,7 @@ as_slice
 )
 }
 fn
-nm
+js_name
 (
 &
 self
