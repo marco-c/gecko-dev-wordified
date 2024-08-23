@@ -58071,6 +58071,11 @@ ArrayObject
 >
 int32_t
 length
+gc
+:
+:
+AllocSite
+*
 )
 ;
 OutOfLineCode
@@ -58091,6 +58096,10 @@ ImmGCPtr
 templateObject
 )
 lengthReg
+ImmPtr
+(
+nullptr
+)
 )
 StoreRegisterTo
 (
