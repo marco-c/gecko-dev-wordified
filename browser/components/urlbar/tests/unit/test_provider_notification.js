@@ -154,14 +154,6 @@ onSearchSessionEnd
 >
 {
 }
-onLegacyEngagement
-:
-(
-)
-=
->
-{
-}
 }
 )
 ;
@@ -1073,9 +1065,6 @@ onImpression
 "
 "
 onSearchSessionEnd
-"
-"
-onLegacyEngagement
 "
 ]
 ;
