@@ -1014,13 +1014,6 @@ image
 >
 StopLazyLoading
 (
-HTMLImageElement
-:
-:
-StartLoading
-:
-:
-Yes
 )
 ;
 }

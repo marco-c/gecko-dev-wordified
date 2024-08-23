@@ -334,6 +334,7 @@ img
 >
 PictureSourceRemoved
 (
+aNotify
 )
 ;
 }
@@ -421,6 +422,7 @@ img
 >
 PictureSourceRemoved
 (
+aNotify
 source
 )
 ;
@@ -518,6 +520,7 @@ img
 >
 PictureSourceAdded
 (
+aNotify
 )
 ;
 }
@@ -605,6 +608,7 @@ img
 >
 PictureSourceAdded
 (
+aNotify
 source
 )
 ;
