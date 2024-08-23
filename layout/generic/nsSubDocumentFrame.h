@@ -786,6 +786,12 @@ GetSubdocumentSize
 (
 )
 ;
+bool
+ContentReactsToPointerEvents
+(
+)
+const
+;
 /
 /
 nsIReflowCallback

@@ -536,6 +536,12 @@ return
 mRewrittenYoutubeEmbed
 ;
 }
+bool
+IsSyntheticImageDocument
+(
+)
+const
+;
 const
 mozilla
 :
@@ -2979,11 +2985,6 @@ videos
 .
 bool
 mRewrittenYoutubeEmbed
-:
-1
-;
-bool
-mLoadingSyntheticDocument
 :
 1
 ;
