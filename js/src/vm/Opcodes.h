@@ -26214,6 +26214,8 @@ JOF_BYTE
 Append
 the
 object
+and
+method
 on
 the
 stack
@@ -26250,8 +26252,7 @@ method
 [
 1
 ]
-step
-1
+steps
 3
 -
 4
@@ -26310,9 +26311,10 @@ hint
 Stack
 :
 v
+method
+needsClosure
 =
 >
-v
 *
 /
 \
@@ -26324,8 +26326,8 @@ AddDisposable
 add_disposable
 NULL
 2
-1
-1
+3
+0
 JOF_UINT8
 )
 )
