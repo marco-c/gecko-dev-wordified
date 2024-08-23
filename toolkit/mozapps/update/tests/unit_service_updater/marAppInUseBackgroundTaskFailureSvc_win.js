@@ -239,7 +239,7 @@ aUpdatesExists
 await
 checkUpdateManager
 (
-STATE_PENDING
+STATE_PENDING_SVC
 /
 /
 aStatusFileState
@@ -247,7 +247,7 @@ true
 /
 /
 aHasActiveUpdate
-STATE_PENDING
+STATE_PENDING_SVC
 /
 /
 aUpdateStatusState
