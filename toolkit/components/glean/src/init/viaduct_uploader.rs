@@ -844,7 +844,7 @@ ohttp
 ClientRequest
 :
 :
-new
+from_encoded_config
 (
 config
 )

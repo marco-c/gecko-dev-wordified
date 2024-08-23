@@ -464,7 +464,7 @@ Aead
 mode
 :
 Mode
-aead
+engine
 :
 AeadEngine
 nonce_base
@@ -653,6 +653,8 @@ Ok
 Self
 {
 mode
+engine
+:
 aead
 nonce_base
 seq
@@ -881,7 +883,7 @@ ct
 =
 self
 .
-aead
+engine
 .
 encrypt
 (
@@ -962,7 +964,7 @@ pt
 =
 self
 .
-aead
+engine
 .
 decrypt
 (

@@ -114,7 +114,6 @@ p11
 random
 PrivateKey
 PublicKey
-SymKey
 }
 ;
 use
@@ -261,14 +260,15 @@ self
 )
 {
 if
-*
+matches
+!
+(
 self
-=
-=
 Self
 :
 :
 NoDb
+)
 {
 unsafe
 {
