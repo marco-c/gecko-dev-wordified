@@ -3837,7 +3837,7 @@ tactic
 |
 <
 '
-inset
+position
 -
 area
 '
@@ -3873,7 +3873,7 @@ parse
 parse_fn
 =
 "
-InsetArea
+PositionArea
 :
 :
 parse_except_none
@@ -3884,13 +3884,13 @@ parse_except_none
 /
 /
 <
-inset
+position
 -
 area
 >
-InsetArea
+PositionArea
 (
-InsetArea
+PositionArea
 )
 }
 #
@@ -4635,7 +4635,7 @@ Possible
 values
 for
 the
-inset
+position
 -
 area
 preperty
@@ -4667,12 +4667,12 @@ position
 #
 propdef
 -
-inset
+position
 -
 area
 pub
 enum
-InsetAreaKeyword
+PositionAreaKeyword
 {
 #
 [
@@ -4797,7 +4797,7 @@ missing_docs
 )
 ]
 impl
-InsetAreaKeyword
+PositionAreaKeyword
 {
 #
 [
@@ -5261,10 +5261,10 @@ is_compatible_pairing
 (
 first
 :
-InsetAreaKeyword
+PositionAreaKeyword
 second
 :
-InsetAreaKeyword
+PositionAreaKeyword
 )
 -
 >
@@ -5529,12 +5529,12 @@ position
 #
 propdef
 -
-inset
+position
 -
 area
 pub
 struct
-InsetArea
+PositionArea
 {
 /
 /
@@ -5547,7 +5547,7 @@ any
 pub
 first
 :
-InsetAreaKeyword
+PositionAreaKeyword
 /
 /
 /
@@ -5563,7 +5563,7 @@ css
 skip_if
 =
 "
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 is_none
@@ -5573,7 +5573,7 @@ is_none
 pub
 second
 :
-InsetAreaKeyword
+PositionAreaKeyword
 }
 #
 [
@@ -5583,7 +5583,7 @@ missing_docs
 )
 ]
 impl
-InsetArea
+PositionArea
 {
 #
 [
@@ -5602,13 +5602,13 @@ Self
 {
 first
 :
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 None
 second
 :
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 None
@@ -5744,7 +5744,7 @@ let
 mut
 first
 =
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 parse
@@ -5805,7 +5805,7 @@ input
 .
 try_parse
 (
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 parse
@@ -5815,7 +5815,7 @@ if
 let
 Ok
 (
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 None
@@ -5856,7 +5856,7 @@ second
 .
 unwrap_or
 (
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 None
@@ -6090,7 +6090,7 @@ second
 {
 second
 =
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 None
@@ -6102,7 +6102,7 @@ if
 second
 =
 =
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 SpanAll
@@ -6128,7 +6128,7 @@ superfluous
 .
 second
 =
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 None
@@ -6139,7 +6139,7 @@ if
 first
 =
 =
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 SpanAll
@@ -6164,7 +6164,7 @@ second
 ;
 second
 =
-InsetAreaKeyword
+PositionAreaKeyword
 :
 :
 None
@@ -6255,7 +6255,7 @@ second
 impl
 Parse
 for
-InsetArea
+PositionArea
 {
 fn
 parse

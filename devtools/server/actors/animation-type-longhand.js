@@ -614,11 +614,6 @@ initial
 letter
 "
 "
-inset
--
-area
-"
-"
 isolation
 "
 "
@@ -875,6 +870,11 @@ position
 position
 -
 anchor
+"
+"
+position
+-
+area
 "
 "
 position

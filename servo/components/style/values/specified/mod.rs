@@ -897,8 +897,8 @@ position
 :
 :
 {
-InsetArea
-InsetAreaKeyword
+PositionArea
+PositionAreaKeyword
 }
 ;
 pub

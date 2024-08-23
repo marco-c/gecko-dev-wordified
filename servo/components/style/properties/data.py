@@ -3954,11 +3954,11 @@ Integer
 "
                 
 "
-InsetArea
+PositionArea
 "
                 
 "
-InsetAreaKeyword
+PositionAreaKeyword
 "
                 
 "
