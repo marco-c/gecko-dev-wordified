@@ -53612,8 +53612,6 @@ isTransformed
 {
 result
 =
-result
-*
 nsDisplayTransform
 :
 :
