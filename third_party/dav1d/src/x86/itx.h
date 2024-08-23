@@ -1066,6 +1066,10 @@ c
 const
 int
 bpc
+int
+*
+const
+all_simd
 )
 {
 #
@@ -1576,6 +1580,11 @@ assign_itx1_fn
 ssse3
 )
 ;
+*
+all_simd
+=
+1
+;
 #
 endif
 if
@@ -1749,6 +1758,11 @@ assign_itx1_fn
 64
 sse4
 )
+;
+*
+all_simd
+=
+1
 ;
 }
 #
