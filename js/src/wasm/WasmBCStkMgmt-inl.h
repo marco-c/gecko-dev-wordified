@@ -7042,6 +7042,9 @@ cutoff
 |
 |
 !
+mozilla
+:
+:
 IsPowerOfTwo
 (
 static_cast
@@ -7062,6 +7065,9 @@ false
 *
 power
 =
+mozilla
+:
+:
 FloorLog2
 (
 *
@@ -7142,6 +7148,9 @@ cutoff
 |
 |
 !
+mozilla
+:
+:
 IsPowerOfTwo
 (
 static_cast
@@ -7162,6 +7171,9 @@ false
 *
 power
 =
+mozilla
+:
+:
 FloorLog2
 (
 *

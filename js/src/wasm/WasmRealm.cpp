@@ -851,6 +851,9 @@ Realm
 :
 addSizeOfExcludingThis
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 size_t

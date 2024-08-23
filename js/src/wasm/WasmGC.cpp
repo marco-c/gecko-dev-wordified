@@ -1881,6 +1881,9 @@ MacroAssembler
 &
 masm
 const
+mozilla
+:
+:
 Maybe
 <
 Register

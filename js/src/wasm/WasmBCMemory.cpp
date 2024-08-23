@@ -276,6 +276,12 @@ js
 namespace
 wasm
 {
+using
+mozilla
+:
+:
+Nothing
+;
 /
 /
 /

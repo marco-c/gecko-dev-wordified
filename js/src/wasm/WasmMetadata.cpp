@@ -1325,6 +1325,9 @@ ValTypeVector
 results
 bool
 declareForRef
+mozilla
+:
+:
 Maybe
 <
 CacheableName

@@ -1025,6 +1025,9 @@ the
 module
 if
 any
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -1115,6 +1118,9 @@ data
 /
 segments
 .
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -1178,6 +1184,9 @@ branchHints
 Name
 section
 information
+mozilla
+:
+:
 Maybe
 <
 Name
@@ -1234,6 +1243,9 @@ section
 SharedBytes
 namePayload
 ;
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -3013,6 +3025,9 @@ bool
 declareForRef
 =
 false
+mozilla
+:
+:
 Maybe
 <
 CacheableName

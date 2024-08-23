@@ -357,6 +357,12 @@ using
 mozilla
 :
 :
+EnumeratedArray
+;
+using
+mozilla
+:
+:
 MakeEnumeratedRange
 ;
 bool
@@ -621,6 +627,9 @@ compilerEnv
 CompileState
 compileState
 const
+mozilla
+:
+:
 Atomic
 <
 bool
@@ -1397,6 +1406,9 @@ TrapMaybeOffsetArray
 EnumeratedArray
 <
 Trap
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -6436,6 +6448,9 @@ nullptr
 ;
 masmScope_
 =
+mozilla
+:
+:
 Nothing
 (
 )

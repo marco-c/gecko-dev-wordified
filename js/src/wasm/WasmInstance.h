@@ -352,12 +352,6 @@ gc
 namespace
 wasm
 {
-using
-mozilla
-:
-:
-Atomic
-;
 struct
 FuncDefInstanceData
 ;
@@ -915,6 +909,9 @@ an
 additional
 branch
 .
+mozilla
+:
+:
 Atomic
 <
 JS
@@ -939,6 +936,9 @@ should
 call
 CheckForInterrupt
 .
+mozilla
+:
+:
 Atomic
 <
 uint32_t
@@ -3270,6 +3270,9 @@ reporting
 void
 addSizeOfMisc
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 SeenSet
@@ -4397,6 +4400,9 @@ type
 void
 *
 registerResultLoc
+mozilla
+:
+:
 Maybe
 <
 char

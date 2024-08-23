@@ -1104,6 +1104,9 @@ result_valtype
 =
 f
 "
+mozilla
+:
+:
 Some
 (
 {
@@ -1128,6 +1131,9 @@ else
 result_valtype
 =
 "
+mozilla
+:
+:
 Nothing
 (
 )

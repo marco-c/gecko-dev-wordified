@@ -293,6 +293,9 @@ using
 namespace
 wasm
 ;
+mozilla
+:
+:
 Atomic
 <
 bool
@@ -439,6 +442,9 @@ crashing
 thread
 .
 static
+mozilla
+:
+:
 Atomic
 <
 ThreadSafeCodeBlockMap

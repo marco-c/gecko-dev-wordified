@@ -2793,6 +2793,9 @@ size
 )
 )
 ;
+mozilla
+:
+:
 CheckedUint32
 storageBytes
 =

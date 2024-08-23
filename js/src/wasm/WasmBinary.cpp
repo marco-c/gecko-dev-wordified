@@ -1708,6 +1708,9 @@ startNameSubsection
 (
 NameType
 nameType
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -1799,6 +1802,9 @@ length
 *
 endOffset
 =
+mozilla
+:
+:
 Some
 (
 currentOffset

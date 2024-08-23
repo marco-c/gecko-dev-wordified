@@ -1318,6 +1318,9 @@ reporting
 void
 addSizeOfMisc
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 CodeMetadata

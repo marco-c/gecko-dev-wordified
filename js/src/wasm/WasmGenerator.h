@@ -277,12 +277,6 @@ js
 namespace
 wasm
 {
-using
-mozilla
-:
-:
-DebugOnly
-;
 struct
 CompileTask
 ;
@@ -1213,6 +1207,9 @@ const
 warnings_
 ;
 const
+mozilla
+:
+:
 Atomic
 <
 bool
@@ -1303,6 +1300,9 @@ linkData_
 LifoAlloc
 lifo_
 ;
+mozilla
+:
+:
 Maybe
 <
 MacroAssemblerScope
@@ -1363,6 +1363,9 @@ batchedBytecode_
 /
 /
 Assertions
+mozilla
+:
+:
 DebugOnly
 <
 bool
@@ -1820,6 +1823,9 @@ compilerEnv
 CompileState
 compilerState
 const
+mozilla
+:
+:
 Atomic
 <
 bool

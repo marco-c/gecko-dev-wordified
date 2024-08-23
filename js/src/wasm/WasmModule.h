@@ -726,6 +726,9 @@ various
 threads
 .
 mutable
+mozilla
+:
+:
 Atomic
 <
 bool
@@ -1225,6 +1228,9 @@ reporting
 void
 addSizeOfMisc
 (
+mozilla
+:
+:
 MallocSizeOf
 mallocSizeOf
 CodeMetadata

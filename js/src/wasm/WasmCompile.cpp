@@ -394,6 +394,12 @@ js
 :
 wasm
 ;
+using
+mozilla
+:
+:
+Atomic
+;
 uint32_t
 wasm
 :

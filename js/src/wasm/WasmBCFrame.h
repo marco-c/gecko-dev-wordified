@@ -1397,6 +1397,9 @@ bytes_
 size_t
 count_
 ;
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -1440,6 +1443,9 @@ count
 )
 height_
 (
+mozilla
+:
+:
 Some
 (
 height
@@ -4184,6 +4190,9 @@ results
 if
 any
 .
+mozilla
+:
+:
 Maybe
 <
 int32_t
@@ -4927,6 +4936,9 @@ return
 false
 ;
 }
+mozilla
+:
+:
 DebugOnly
 <
 uint32_t
@@ -5151,6 +5163,9 @@ hasSyntheticStackResultPointerArg
 {
 stackResultsPtrOffset_
 =
+mozilla
+:
+:
 Some
 (
 i
@@ -6164,6 +6179,9 @@ Register
 r
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 uint32_t
@@ -6250,6 +6268,9 @@ FloatRegister
 r
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 uint32_t
@@ -6339,6 +6360,9 @@ RegV128
 r
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 uint32_t
@@ -6431,6 +6455,9 @@ FloatRegister
 r
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 uint32_t
@@ -6548,6 +6575,9 @@ Register
 r
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 uint32_t
@@ -6614,6 +6644,9 @@ FloatRegister
 r
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 uint32_t
@@ -6680,6 +6713,9 @@ FloatRegister
 r
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 uint32_t
@@ -6749,6 +6785,9 @@ RegV128
 r
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 uint32_t
@@ -10456,6 +10495,9 @@ per
 /
 function
 .
+mozilla
+:
+:
 Maybe
 <
 uint32_t
@@ -10670,6 +10712,9 @@ the
 function
 body
 .
+mozilla
+:
+:
 Maybe
 <
 uint32_t

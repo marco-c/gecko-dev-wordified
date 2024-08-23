@@ -504,6 +504,9 @@ const
 ValType
 >
 params
+mozilla
+:
+:
 Maybe
 <
 ValType
@@ -822,6 +825,9 @@ id
 }
 }
 ;
+mozilla
+:
+:
 Maybe
 <
 BuiltinModuleId
@@ -841,6 +847,9 @@ BuiltinModuleIds
 enabledBuiltins
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 const
