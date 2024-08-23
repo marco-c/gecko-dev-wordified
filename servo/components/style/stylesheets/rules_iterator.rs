@@ -501,6 +501,14 @@ FontPaletteValues
 (
 _
 )
+|
+CssRule
+:
+:
+PositionTry
+(
+_
+)
 =
 >
 None
