@@ -8271,6 +8271,11 @@ Truncate
 (
 )
 ;
+if
+(
+mProxy
+)
+{
 mProxy
 -
 >
@@ -8313,6 +8318,7 @@ mLastUploadTotal
 =
 0
 ;
+}
 }
 void
 XMLHttpRequestWorker
@@ -8459,6 +8465,10 @@ exception
 .
 if
 (
+!
+mProxy
+|
+|
 mProxy
 -
 >
@@ -8524,6 +8534,9 @@ then
 if
 (
 mUpload
+&
+&
+mProxy
 &
 &
 mProxy
