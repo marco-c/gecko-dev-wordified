@@ -5773,6 +5773,9 @@ synthetic_italics
 instance
 .
 synthetic_italics
+_padding
+:
+0
 }
 )
 platform_options
