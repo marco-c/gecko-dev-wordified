@@ -162,7 +162,7 @@ gecko
 enabled_in
 =
 "
-ua
+chrome
 "
 gecko_pref
 =
