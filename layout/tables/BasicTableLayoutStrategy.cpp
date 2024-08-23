@@ -1098,7 +1098,7 @@ aIsCell
 |
 maxISize
 .
-IsMozAvailable
+BehavesLikeStretchOnInlineAxis
 (
 )
 )
@@ -1354,7 +1354,7 @@ aIsCell
 |
 minISize
 .
-IsMozAvailable
+BehavesLikeStretchOnInlineAxis
 (
 )
 )

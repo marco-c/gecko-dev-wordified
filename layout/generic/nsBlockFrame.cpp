@@ -63437,7 +63437,7 @@ IsAuto
 |
 iSize
 .
-IsMozAvailable
+BehavesLikeStretchOnInlineAxis
 (
 )
 )

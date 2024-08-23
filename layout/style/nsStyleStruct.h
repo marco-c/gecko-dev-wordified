@@ -5444,7 +5444,7 @@ IsFitContent
 |
 aCoord
 .
-IsMozAvailable
+BehavesLikeStretchOnInlineAxis
 (
 )
 ;
