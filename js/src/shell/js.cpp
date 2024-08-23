@@ -45503,6 +45503,9 @@ i
 +
 )
 {
+#
+ifndef
+ENABLE_WASM_JSPI
 /
 /
 Assert
@@ -45530,6 +45533,8 @@ state
 sp
 )
 ;
+#
+endif
 if
 (
 frameNo
