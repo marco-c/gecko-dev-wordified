@@ -1973,8 +1973,6 @@ querySelector
 ruleview
 -
 unmatched
--
-variable
 "
 )
 .

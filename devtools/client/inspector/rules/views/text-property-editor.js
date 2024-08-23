@@ -4095,14 +4095,12 @@ baseURI
 this
 .
 sheetHref
-unmatchedVariableClass
+unmatchedClass
 :
 "
 ruleview
 -
 unmatched
--
-variable
 "
 matchedVariableClass
 :

@@ -1060,8 +1060,6 @@ contains
 ruleview
 -
 unmatched
--
-variable
 "
 )
 )

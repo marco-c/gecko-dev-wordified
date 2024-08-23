@@ -2492,7 +2492,7 @@ class
 =
 options
 .
-unmatchedVariableClass
+unmatchedClass
 ;
 /
 /
@@ -2666,7 +2666,7 @@ class
 =
 options
 .
-unmatchedVariableClass
+unmatchedClass
 ;
 firstOpts
 [
@@ -13413,7 +13413,7 @@ String
 }
 overrides
 .
-unmatchedVariableClass
+unmatchedClass
 :
 The
 class
@@ -13642,7 +13642,7 @@ undefined
 getVariableData
 :
 null
-unmatchedVariableClass
+unmatchedClass
 :
 null
 inStartingStyleRule

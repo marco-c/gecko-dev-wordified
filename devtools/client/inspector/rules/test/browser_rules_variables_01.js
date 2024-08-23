@@ -148,8 +148,6 @@ querySelector
 ruleview
 -
 unmatched
--
-variable
 "
 )
 ;
@@ -301,8 +299,6 @@ querySelector
 ruleview
 -
 unmatched
--
-variable
 "
 )
 ;
