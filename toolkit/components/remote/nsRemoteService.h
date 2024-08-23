@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsIRemoteService
+.
+h
+"
+#
+include
+"
 mozilla
 /
 UniquePtr
@@ -158,6 +165,8 @@ final
 :
 public
 nsIObserver
+public
+nsIRemoteService
 {
 public
 :
@@ -180,6 +189,7 @@ methods
 .
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
+NS_DECL_NSIREMOTESERVICE
 explicit
 nsRemoteService
 (
