@@ -1481,6 +1481,10 @@ H264EncoderSettings
 settings
 )
 :
+env_
+(
+env
+)
 packetization_mode_
 (
 settings
@@ -2526,6 +2530,7 @@ WEBRTC_VIDEO_CODEC_ERROR
 SimulcastRateAllocator
 init_allocator
 (
+env_
 codec_
 )
 ;

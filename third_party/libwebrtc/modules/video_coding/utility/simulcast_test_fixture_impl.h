@@ -483,6 +483,10 @@ int
 height
 )
 ;
+const
+Environment
+env_
+;
 std
 :
 :

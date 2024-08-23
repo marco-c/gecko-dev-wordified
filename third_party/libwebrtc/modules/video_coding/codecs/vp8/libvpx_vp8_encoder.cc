@@ -4895,6 +4895,7 @@ size
 SimulcastRateAllocator
 init_allocator
 (
+env_
 codec_
 )
 ;

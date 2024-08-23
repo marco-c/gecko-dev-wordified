@@ -32509,6 +32509,7 @@ expected_bitrate
 =
 SimulcastRateAllocator
 (
+env_
 fake_encoder_
 .
 config
