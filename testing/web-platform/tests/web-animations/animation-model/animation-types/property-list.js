@@ -12424,7 +12424,7 @@ options
 [
 [
 '
-leading
+auto
 '
 '
 text
