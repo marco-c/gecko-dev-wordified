@@ -31901,6 +31901,11 @@ mk_obj
 =
 CK_INVALID_HANDLE
 ;
+CK_OBJECT_HANDLE
+derive_obj
+=
+CK_INVALID_HANDLE
+;
 CK_SSL3_KEY_MAT_PARAMS
 km_params
 ;
@@ -32746,7 +32751,8 @@ kmd_mech
 mk_obj
 NULL
 0
-NULL
+&
+derive_obj
 )
 ;
 if
@@ -32846,7 +32852,8 @@ kmd_mech
 mk_obj
 NULL
 0
-NULL
+&
+derive_obj
 )
 ;
 if

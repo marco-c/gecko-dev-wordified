@@ -8028,8 +8028,7 @@ const
 PRUint16
 *
 cipherOrder
-unsigned
-int
+PRUint16
 numCiphers
 )
 {
@@ -23687,6 +23686,10 @@ SetTimeFunc
 EXP
 (
 SetCertificateCompressionAlgorithm
+)
+EXP
+(
+PeerCertificateChainDER
 )
 #
 endif

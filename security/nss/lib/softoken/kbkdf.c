@@ -5907,7 +5907,7 @@ PRF
 /
 ret
 =
-sftk_MAC_Finish
+sftk_MAC_End
 (
 ctx
 ret_buffer
@@ -6880,7 +6880,7 @@ buffer
 /
 ret
 =
-sftk_MAC_Finish
+sftk_MAC_End
 (
 ctx
 chaining_value
@@ -7924,7 +7924,7 @@ pipeline
 /
 ret
 =
-sftk_MAC_Finish
+sftk_MAC_End
 (
 ctx
 chaining_value
@@ -8106,7 +8106,7 @@ stage
 /
 ret
 =
-sftk_MAC_Finish
+sftk_MAC_End
 (
 ctx
 ret_buffer
@@ -8307,7 +8307,7 @@ required
 unconditional
 call
 of
-sftk_MAC_Destroy
+sftk_MAC_DestroyContext
 .
 *
 /
@@ -8988,7 +8988,7 @@ information
 .
 *
 /
-sftk_MAC_Destroy
+sftk_MAC_DestroyContext
 (
 &
 ctx

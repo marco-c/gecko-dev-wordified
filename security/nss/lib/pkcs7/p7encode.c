@@ -4752,6 +4752,12 @@ ci
 =
 0
 ;
+signerinfo
+-
+>
+certList
+&
+&
 ci
 <
 signerinfo

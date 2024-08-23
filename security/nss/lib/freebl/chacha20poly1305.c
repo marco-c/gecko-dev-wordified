@@ -1177,6 +1177,8 @@ nonce
 ctr
 )
 ;
+return
+;
 }
 #
 endif
@@ -1209,6 +1211,8 @@ k
 nonce
 ctr
 )
+;
+return
 ;
 }
 #
@@ -1257,8 +1261,9 @@ nonce
 ctr
 )
 ;
+return
+;
 }
-else
 #
 endif
 {
@@ -1271,6 +1276,8 @@ k
 nonce
 ctr
 )
+;
+return
 ;
 }
 }
@@ -2510,7 +2517,6 @@ finish
 }
 #
 endif
-else
 #
 elif
 defined
@@ -2580,7 +2586,6 @@ goto
 finish
 ;
 }
-else
 #
 endif
 {
@@ -2674,7 +2679,11 @@ ad
 unsigned
 int
 adLen
+/
+*
 const
+*
+/
 unsigned
 char
 *

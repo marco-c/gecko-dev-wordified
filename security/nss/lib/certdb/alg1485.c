@@ -5033,11 +5033,6 @@ return
 SECFailure
 ;
 }
-reqLen
-+
-=
-1
-;
 if
 (
 mode

@@ -3698,6 +3698,7 @@ PR_SUCCESS
 SECStatus
 BL_Init
 (
+void
 )
 {
 if

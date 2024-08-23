@@ -625,6 +625,9 @@ ecKey
 case
 edKey
 :
+case
+ecMontKey
+:
 return
 pub_key
 -

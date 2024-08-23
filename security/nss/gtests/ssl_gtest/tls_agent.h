@@ -1500,6 +1500,11 @@ count
 )
 ;
 void
+CheckPeerChainFunctionConsistency
+(
+)
+;
+void
 CheckCipherSuite
 (
 uint16_t

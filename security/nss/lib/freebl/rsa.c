@@ -769,6 +769,7 @@ issues
 *
 /
 static
+const
 PRBool
 nssRSAUseBlinding
 =
