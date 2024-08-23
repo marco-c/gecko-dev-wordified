@@ -1823,7 +1823,7 @@ foo
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 ValueError
 "
@@ -4284,7 +4284,7 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 ErrorMessage
 "

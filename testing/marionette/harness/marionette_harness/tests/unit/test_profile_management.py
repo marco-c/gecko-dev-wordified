@@ -1008,7 +1008,7 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors

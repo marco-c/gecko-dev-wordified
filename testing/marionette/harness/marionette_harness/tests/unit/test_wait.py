@@ -1826,7 +1826,7 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors
@@ -1901,7 +1901,7 @@ timeout
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors
@@ -1970,7 +1970,7 @@ false
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors
@@ -2061,7 +2061,7 @@ false
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors
@@ -2150,7 +2150,7 @@ false
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 errors

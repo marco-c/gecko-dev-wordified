@@ -844,7 +844,7 @@ self
         
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 IOError
 "
@@ -915,7 +915,7 @@ session
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 InvalidSessionIdException
@@ -1029,7 +1029,7 @@ gone
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 IOError
 "
@@ -1156,7 +1156,7 @@ session
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
             
 InvalidSessionIdException
@@ -1251,7 +1251,7 @@ setUp
         
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 IOError
 "
@@ -1366,7 +1366,7 @@ try
             
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 IOError
 "

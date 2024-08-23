@@ -520,7 +520,7 @@ fh
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 ValueError
 "
@@ -701,7 +701,7 @@ fh
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 ValueError
 "
@@ -729,7 +729,7 @@ uid
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 ValueError
 "

@@ -836,7 +836,7 @@ quit
 with
 self
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
 IOError
 "
