@@ -69,11 +69,12 @@ hardSigmoid
 '
 )
 ;
-validateSingleInputOperation
+validateUnaryOperation
 (
 '
 hardSigmoid
 '
+floatingPointTypes
 )
 ;
 promise_test

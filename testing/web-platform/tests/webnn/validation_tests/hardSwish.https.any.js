@@ -97,11 +97,12 @@ label
 '
 )
 ;
-validateSingleInputOperation
+validateUnaryOperation
 (
 '
 hardSwish
 '
+floatingPointTypes
 label
 regrexp
 )
