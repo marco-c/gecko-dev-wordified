@@ -1949,13 +1949,8 @@ child
 /
 /
 This
-calls
+uses
 CookieServiceChild
-:
-:
-GetCookieStringFromDocument
-(
-)
 internally
 .
 add_task
