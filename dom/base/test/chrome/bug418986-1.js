@@ -159,7 +159,7 @@ screen
 availWidth
 "
 "
-innerWidth
+outerWidth
 "
 ]
 [
@@ -169,7 +169,7 @@ screen
 availHeight
 "
 "
-innerHeight
+outerHeight
 "
 ]
 [
@@ -211,7 +211,7 @@ screen
 width
 "
 "
-innerWidth
+outerWidth
 "
 ]
 [
@@ -221,7 +221,7 @@ screen
 height
 "
 "
-innerHeight
+outerHeight
 "
 ]
 [

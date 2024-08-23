@@ -2115,6 +2115,15 @@ GetForceOffline
 )
 )
 ;
+txn
+.
+SetTopInnerSizeForRFP
+(
+GetTopInnerSizeForRFP
+(
+)
+)
+;
 /
 /
 Propagate

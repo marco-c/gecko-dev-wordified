@@ -3201,6 +3201,11 @@ bool
 aInRDMPane
 )
 ;
+void
+UpdateTopInnerSizeForRFP
+(
+)
+;
 public
 :
 float

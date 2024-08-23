@@ -628,7 +628,7 @@ mozilla
 :
 :
 CSSIntRect
-GetWindowInnerRect
+GetTopWindowInnerRectForRFP
 (
 )
 ;
