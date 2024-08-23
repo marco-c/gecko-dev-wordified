@@ -2008,7 +2008,7 @@ const
 auto
 e
 =
-AsValidEnum
+AsEnumCase
 <
 T
 >
