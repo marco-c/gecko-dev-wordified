@@ -341,11 +341,6 @@ nsWifiMonitor
 (
 )
 ;
-void
-EnsureWifiScanner
-(
-)
-;
 nsresult
 DispatchScanToBackgroundThread
 (
