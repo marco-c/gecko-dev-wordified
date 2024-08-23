@@ -350,11 +350,16 @@ aTlsFlags
 :
 mIOLayerHelpers
 (
+new
+nsSSLIOLayerHelpers
+(
 aTlsFlags
+)
 )
 {
 mIOLayerHelpers
-.
+-
+>
 Init
 (
 )
@@ -456,7 +461,8 @@ thread
 )
 ;
 mIOLayerHelpers
-.
+-
+>
 clearStoredData
 (
 )
@@ -586,7 +592,8 @@ Cleanup
 )
 {
 mIOLayerHelpers
-.
+-
+>
 Cleanup
 (
 )

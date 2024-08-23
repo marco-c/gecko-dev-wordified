@@ -174,8 +174,17 @@ Test
 {
 protected
 :
+RefPtr
+<
 nsSSLIOLayerHelpers
+>
 helpers
+=
+new
+nsSSLIOLayerHelpers
+(
+0
+)
 ;
 }
 ;
@@ -189,7 +198,8 @@ ASSERT_EQ
 (
 SSL_LIBRARY_VERSION_TLS_1_0
 helpers
-.
+-
+>
 mVersionFallbackLimit
 )
 ;
@@ -217,7 +227,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -252,7 +263,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -279,7 +291,8 @@ max
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -305,7 +318,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -332,7 +346,8 @@ max
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -358,7 +373,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -385,7 +401,8 @@ max
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -411,7 +428,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -486,7 +504,8 @@ version
 intolerant
 fail
 helpers
-.
+-
+>
 mVersionFallbackLimit
 =
 SSL_LIBRARY_VERSION_TLS_1_2
@@ -494,7 +513,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -508,7 +528,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -522,7 +543,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -563,7 +585,8 @@ limit
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -584,7 +607,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -612,7 +636,8 @@ max
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -633,7 +658,8 @@ TolerantOverridesIntolerant1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -645,7 +671,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 )
 ;
 helpers
-.
+-
+>
 rememberTolerantAtVersion
 (
 HOST
@@ -662,7 +689,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -696,7 +724,8 @@ TolerantOverridesIntolerant2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -708,7 +737,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 )
 ;
 helpers
-.
+-
+>
 rememberTolerantAtVersion
 (
 HOST
@@ -725,7 +755,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -771,7 +802,8 @@ the
 site
 .
 helpers
-.
+-
+>
 rememberTolerantAtVersion
 (
 HOST
@@ -794,7 +826,8 @@ rememberTolerantAtVersion
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -814,7 +847,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -846,7 +880,8 @@ PortIsRelevant
 )
 {
 helpers
-.
+-
+>
 rememberTolerantAtVersion
 (
 HOST
@@ -857,7 +892,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -871,7 +907,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -892,7 +929,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -919,7 +957,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -947,7 +986,8 @@ ASSERT_EQ
 (
 0
 helpers
-.
+-
+>
 getIntoleranceReason
 (
 HOST
@@ -956,7 +996,8 @@ HOST
 )
 ;
 helpers
-.
+-
+>
 rememberTolerantAtVersion
 (
 HOST
@@ -968,7 +1009,8 @@ ASSERT_EQ
 (
 0
 helpers
-.
+-
+>
 getIntoleranceReason
 (
 HOST
@@ -984,7 +1026,8 @@ IntoleranceReasonStored
 )
 {
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -998,7 +1041,8 @@ ASSERT_EQ
 (
 SSL_ERROR_BAD_SERVER
 helpers
-.
+-
+>
 getIntoleranceReason
 (
 HOST
@@ -1007,7 +1051,8 @@ HOST
 )
 ;
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -1021,7 +1066,8 @@ ASSERT_EQ
 (
 SSL_ERROR_BAD_MAC_READ
 helpers
-.
+-
+>
 getIntoleranceReason
 (
 HOST
@@ -1040,7 +1086,8 @@ ASSERT_EQ
 (
 0
 helpers
-.
+-
+>
 getIntoleranceReason
 (
 HOST
@@ -1049,7 +1096,8 @@ HOST
 )
 ;
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -1063,7 +1111,8 @@ ASSERT_EQ
 (
 SSL_ERROR_HANDSHAKE_UNEXPECTED_ALERT
 helpers
-.
+-
+>
 getIntoleranceReason
 (
 HOST
@@ -1072,7 +1121,8 @@ HOST
 )
 ;
 helpers
-.
+-
+>
 rememberTolerantAtVersion
 (
 HOST
@@ -1084,7 +1134,8 @@ ASSERT_EQ
 (
 0
 helpers
-.
+-
+>
 getIntoleranceReason
 (
 HOST
@@ -1103,7 +1154,8 @@ TLSForgetIntolerance
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -1123,7 +1175,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -1150,7 +1203,8 @@ max
 }
 {
 helpers
-.
+-
+>
 forgetIntolerance
 (
 HOST
@@ -1166,7 +1220,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -1200,7 +1255,8 @@ TLSDontForgetTolerance
 {
 {
 helpers
-.
+-
+>
 rememberTolerantAtVersion
 (
 HOST
@@ -1217,7 +1273,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -1246,7 +1303,8 @@ max
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 rememberIntolerantAtVersion
 (
 HOST
@@ -1266,7 +1324,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -1293,7 +1352,8 @@ max
 }
 {
 helpers
-.
+-
+>
 forgetIntolerance
 (
 HOST
@@ -1309,7 +1369,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 }
 ;
 helpers
-.
+-
+>
 adjustForTLSIntolerance
 (
 HOST
@@ -1375,7 +1436,8 @@ org
 _ns
 ;
 helpers
-.
+-
+>
 mVersionFallbackLimit
 =
 SSL_LIBRARY_VERSION_TLS_1_0
@@ -1383,7 +1445,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1394,7 +1457,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1405,7 +1469,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1416,7 +1481,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1427,7 +1493,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1438,7 +1505,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1449,7 +1517,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1460,7 +1529,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1471,7 +1541,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1480,7 +1551,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 )
 ;
 helpers
-.
+-
+>
 mVersionFallbackLimit
 =
 SSL_LIBRARY_VERSION_TLS_1_2
@@ -1488,7 +1560,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1499,7 +1572,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1510,7 +1584,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1521,7 +1596,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1532,7 +1608,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1543,7 +1620,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1554,7 +1632,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1565,7 +1644,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1576,7 +1656,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1585,7 +1666,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 )
 ;
 helpers
-.
+-
+>
 setInsecureFallbackSites
 (
 example_com
@@ -1594,7 +1676,8 @@ example_com
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1605,7 +1688,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1616,7 +1700,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1627,7 +1712,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1638,7 +1724,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1649,7 +1736,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1660,7 +1748,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1671,7 +1760,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1682,7 +1772,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1691,7 +1782,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 )
 ;
 helpers
-.
+-
+>
 setInsecureFallbackSites
 (
 "
@@ -1708,7 +1800,8 @@ _ns
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1719,7 +1812,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1730,7 +1824,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1741,7 +1836,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1752,7 +1848,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1763,7 +1860,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1774,7 +1872,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1785,7 +1884,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1796,7 +1896,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1805,7 +1906,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 )
 ;
 helpers
-.
+-
+>
 setInsecureFallbackSites
 (
 example_net
@@ -1814,7 +1916,8 @@ example_net
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1825,7 +1928,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1836,7 +1940,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1847,7 +1952,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1858,7 +1964,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_FALSE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1869,7 +1976,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1880,7 +1988,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1891,7 +2000,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1902,7 +2012,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1911,7 +2022,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 )
 ;
 helpers
-.
+-
+>
 setInsecureFallbackSites
 (
 "
@@ -1922,7 +2034,8 @@ _ns
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1933,7 +2046,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1944,7 +2058,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_com
@@ -1955,7 +2070,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1966,7 +2082,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1977,7 +2094,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_net
@@ -1988,7 +2106,8 @@ SSL_LIBRARY_VERSION_TLS_1_0
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -1999,7 +2118,8 @@ SSL_LIBRARY_VERSION_TLS_1_2
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
@@ -2010,7 +2130,8 @@ SSL_LIBRARY_VERSION_TLS_1_1
 ASSERT_TRUE
 (
 helpers
-.
+-
+>
 fallbackLimitReached
 (
 example_org
