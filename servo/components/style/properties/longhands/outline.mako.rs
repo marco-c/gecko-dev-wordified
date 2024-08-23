@@ -119,11 +119,6 @@ currentcolor
 (
 )
 "
-animation_value_type
-=
-"
-AnimatedColor
-"
 ignored_when_colors_disabled
 =
 True
@@ -201,7 +196,7 @@ none
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -281,11 +276,6 @@ medium
 (
 )
 "
-animation_value_type
-=
-"
-NonNegativeLength
-"
 spec
 =
 "
@@ -354,11 +344,6 @@ engines
 "
 gecko
 servo
-"
-animation_value_type
-=
-"
-ComputedValue
 "
 spec
 =

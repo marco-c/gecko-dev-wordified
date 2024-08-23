@@ -117,7 +117,7 @@ normal
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -185,7 +185,7 @@ default
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -255,7 +255,7 @@ default
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -326,7 +326,7 @@ default
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete

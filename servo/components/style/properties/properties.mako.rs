@@ -6053,7 +6053,7 @@ p
 :
 p
 .
-animation_value_type
+animation_type
 =
 =
 "

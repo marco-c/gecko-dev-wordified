@@ -2525,7 +2525,7 @@ spec
 =
 None
         
-animation_value_type
+animation_type
 =
 None
         
@@ -2920,71 +2920,48 @@ random
 .
         
 if
-animation_value_type
+animation_type
 is
 None
 :
             
-raise
-TypeError
-(
-                
+animation_type
+=
 "
-animation_value_type
-should
-be
-specified
-for
-(
+normal
 "
-+
-name
-+
+        
+assert
+animation_type
+in
+[
 "
-)
+none
 "
-            
-)
+"
+normal
+"
+"
+discrete
+"
+]
         
 self
 .
-animation_value_type
+animation_type
 =
-animation_value_type
+animation_type
         
 self
 .
 animatable
 =
-animation_value_type
+animation_type
 !
 =
 "
 none
 "
-        
-self
-.
-is_animatable_with_computed_value
-=
-(
-            
-animation_value_type
-=
-=
-"
-ComputedValue
-"
-            
-or
-animation_value_type
-=
-=
-"
-discrete
-"
-        
-)
         
 #
 See
@@ -4274,7 +4251,12 @@ base_type
 if
 self
 .
-is_animatable_with_computed_value
+animation_type
+=
+=
+"
+discrete
+"
 :
             
 return

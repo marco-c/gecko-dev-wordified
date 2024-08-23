@@ -282,6 +282,7 @@ Deserialize
 MallocSizeOf
 PartialEq
 Serialize
+ToAnimatedValue
 ToAnimatedZero
 ToCss
 ToResolvedValue

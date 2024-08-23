@@ -879,6 +879,7 @@ MallocSizeOf
 PartialEq
 Parse
 SpecifiedValueInfo
+ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss

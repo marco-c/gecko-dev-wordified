@@ -2290,6 +2290,7 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss

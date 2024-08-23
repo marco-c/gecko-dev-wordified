@@ -101,7 +101,7 @@ gecko_ffi_name
 "
 mLayoutStrategy
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -185,7 +185,7 @@ pres
 attr
 )
 "
-animation_value_type
+animation_type
 =
 "
 none

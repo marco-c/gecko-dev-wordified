@@ -111,7 +111,7 @@ gecko_enum_prefix
 "
 StyleBoxAlign
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -195,7 +195,7 @@ gecko_enum_prefix
 "
 StyleBoxDirection
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -282,11 +282,6 @@ gecko_ffi_name
 =
 "
 mBoxFlex
-"
-animation_value_type
-=
-"
-NonNegativeNumber
 "
 aliases
 =
@@ -381,7 +376,7 @@ gecko_enum_prefix
 "
 StyleBoxOrient
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -467,7 +462,7 @@ gecko_enum_prefix
 "
 StyleBoxPack
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -609,7 +604,7 @@ gecko_ffi_name
 "
 mBoxOrdinal
 "
-animation_value_type
+animation_type
 =
 "
 discrete

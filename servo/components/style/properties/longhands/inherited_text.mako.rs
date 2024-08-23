@@ -105,11 +105,6 @@ engines
 gecko
 servo
 "
-animation_value_type
-=
-"
-AbsoluteColor
-"
 ignored_when_colors_disabled
 =
 "
@@ -179,7 +174,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -243,7 +238,7 @@ gecko_enum_prefix
 "
 StyleHyphens
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -324,7 +319,7 @@ gecko_ffi_name
 "
 mTextSizeAdjust
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -401,11 +396,6 @@ engines
 "
 gecko
 servo
-"
-animation_value_type
-=
-"
-ComputedValue
 "
 spec
 =
@@ -506,7 +496,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -582,7 +572,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -651,7 +641,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -725,7 +715,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -811,7 +801,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -882,11 +872,6 @@ engines
 gecko
 servo
 "
-animation_value_type
-=
-"
-ComputedValue
-"
 spec
 =
 "
@@ -952,11 +937,6 @@ engines
 "
 gecko
 servo
-"
-animation_value_type
-=
-"
-ComputedValue
 "
 spec
 =
@@ -1047,7 +1027,7 @@ gecko_enum_prefix
 "
 StyleWhiteSpaceCollapse
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1114,11 +1094,6 @@ vector_animation_type
 =
 "
 with_zero
-"
-animation_value_type
-=
-"
-AnimatedTextShadowList
 "
 ignored_when_colors_disabled
 =
@@ -1198,7 +1173,7 @@ SpecifiedValue
 :
 None
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1278,7 +1253,7 @@ TextEmphasisPosition
 :
 OVER
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1362,11 +1337,6 @@ currentcolor
 (
 )
 "
-animation_value_type
-=
-"
-AnimatedColor
-"
 ignored_when_colors_disabled
 =
 True
@@ -1446,11 +1416,6 @@ engines
 "
 gecko
 "
-animation_value_type
-=
-"
-LengthOrNumber
-"
 spec
 =
 "
@@ -1521,7 +1486,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1610,11 +1575,6 @@ engines
 "
 gecko
 "
-animation_value_type
-=
-"
-AnimatedColor
-"
 ignored_when_colors_disabled
 =
 True
@@ -1697,11 +1657,6 @@ engines
 =
 "
 gecko
-"
-animation_value_type
-=
-"
-AnimatedColor
 "
 ignored_when_colors_disabled
 =
@@ -1810,7 +1765,7 @@ stroke
 -
 width
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1871,7 +1826,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1963,7 +1918,7 @@ position
 -
 property
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -2029,7 +1984,7 @@ gecko_enum_prefix
 "
 StyleTextCombineUpright
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2111,7 +2066,7 @@ gecko_enum_prefix
 "
 StyleTextRendering
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -2208,7 +2163,7 @@ enabled
 has_effect_on_gecko_scrollbars
 =
 False
-animation_value_type
+animation_type
 =
 "
 none
@@ -2260,11 +2215,6 @@ engines
 =
 "
 gecko
-"
-animation_value_type
-=
-"
-ComputedValue
 "
 spec
 =
@@ -2333,7 +2283,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -2412,7 +2362,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -2487,7 +2437,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -2572,7 +2522,7 @@ enabled
 has_effect_on_gecko_scrollbars
 =
 False
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -2643,7 +2593,7 @@ gecko_enum_prefix
 "
 StyleTextSecurity
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -2701,7 +2651,7 @@ gecko_enum_prefix
 "
 StyleTextWrapMode
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -2786,7 +2736,7 @@ gecko_enum_prefix
 "
 StyleTextWrapStyle
 "
-animation_value_type
+animation_type
 =
 "
 discrete

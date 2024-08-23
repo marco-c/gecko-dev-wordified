@@ -1832,6 +1832,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -2100,6 +2101,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToResolvedValue
 ToShmem
@@ -3323,6 +3325,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -3585,6 +3588,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToResolvedValue
 ToShmem
@@ -4016,6 +4020,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue
@@ -4346,6 +4351,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToResolvedValue
 ToShmem
@@ -4962,6 +4968,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToResolvedValue
 ToShmem
@@ -5309,6 +5316,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToResolvedValue
 ToShmem
@@ -5627,6 +5635,7 @@ Default
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToResolvedValue
 ToShmem
@@ -5848,6 +5857,7 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue

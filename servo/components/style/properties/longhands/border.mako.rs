@@ -264,11 +264,6 @@ side
 color
 "
 )
-animation_value_type
-=
-"
-AnimatedColor
-"
 logical
 =
 is_logical
@@ -360,7 +355,7 @@ side
 style
 "
 )
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -452,11 +447,6 @@ side
 width
 "
 )
-animation_value_type
-=
-"
-NonNegativeLength
-"
 logical
 =
 is_logical
@@ -581,11 +571,6 @@ radius
 boxed
 =
 True
-animation_value_type
-=
-"
-BorderCornerRadius
-"
 logical_group
 =
 "
@@ -657,7 +642,7 @@ decoration
 -
 break
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -738,7 +723,7 @@ float
 edge
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -820,7 +805,7 @@ image
 vector
 =
 False
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -938,11 +923,6 @@ image
 -
 outset
 "
-animation_value_type
-=
-"
-NonNegativeLengthOrNumberRect
-"
 boxed
 =
 True
@@ -998,7 +978,7 @@ stretch
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -1125,11 +1105,6 @@ image
 -
 width
 "
-animation_value_type
-=
-"
-BorderImageWidth
-"
 boxed
 =
 True
@@ -1210,11 +1185,6 @@ border
 image
 -
 slice
-"
-animation_value_type
-=
-"
-BorderImageSlice
 "
 boxed
 =

@@ -117,7 +117,7 @@ auto
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -217,7 +217,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -297,7 +297,7 @@ gecko_enum_prefix
 "
 StyleInert
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -371,7 +371,7 @@ gecko_enum_prefix
 "
 StyleUserInput
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -457,7 +457,7 @@ StyleUserModify
 needs_conversion
 =
 True
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -534,7 +534,7 @@ gecko_enum_prefix
 "
 StyleUserFocus
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -640,11 +640,6 @@ caret
 -
 color
 "
-animation_value_type
-=
-"
-CaretColor
-"
 ignored_when_colors_disabled
 =
 True
@@ -708,11 +703,6 @@ ui
 widget
 -
 accent
-"
-animation_value_type
-=
-"
-ColorOrAuto
 "
 ignored_when_colors_disabled
 =
@@ -782,7 +772,7 @@ scheme
 -
 prop
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -850,11 +840,6 @@ scrollbar
 -
 color
 "
-animation_value_type
-=
-"
-ScrollbarColor
-"
 boxed
 =
 True
@@ -907,7 +892,7 @@ enabled_in
 "
 chrome
 "
-animation_value_type
+animation_type
 =
 "
 discrete

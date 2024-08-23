@@ -154,7 +154,7 @@ gecko_ffi_name
 "
 mIMEMode
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -214,7 +214,7 @@ gecko_enum_prefix
 "
 StyleScrollbarWidth
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -283,7 +283,7 @@ extra_prefixes
 moz
 webkit
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -370,7 +370,7 @@ gecko_enum_prefix
 "
 StyleWindowDragging
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -468,7 +468,7 @@ gecko_enum_prefix
 "
 StyleWindowShadow
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -525,11 +525,6 @@ gecko_ffi_name
 =
 "
 mWindowOpacity
-"
-animation_value_type
-=
-"
-ComputedValue
 "
 spec
 =
@@ -588,11 +583,6 @@ engines
 "
 gecko
 "
-animation_value_type
-=
-"
-ComputedValue
-"
 spec
 =
 "
@@ -648,11 +638,6 @@ engines
 =
 "
 gecko
-"
-animation_value_type
-=
-"
-ComputedValue
 "
 gecko_ffi_name
 =
@@ -719,11 +704,6 @@ engines
 =
 "
 gecko
-"
-animation_value_type
-=
-"
-ComputedValue
 "
 spec
 =
@@ -801,7 +781,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -879,7 +859,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -975,7 +955,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -1064,7 +1044,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -1166,7 +1146,7 @@ none
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -1253,7 +1233,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -1339,7 +1319,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -1456,7 +1436,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -1551,7 +1531,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -1674,7 +1654,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -1765,7 +1745,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -1853,7 +1833,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -1941,7 +1921,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -2031,7 +2011,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -2119,7 +2099,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -2223,7 +2203,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -2320,7 +2300,7 @@ True
 need_index
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -2412,7 +2392,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2504,7 +2484,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2596,7 +2576,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2688,7 +2668,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2780,7 +2760,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -2859,7 +2839,7 @@ gecko_enum_prefix
 "
 StyleFieldSizing
 "
-animation_value_type
+animation_type
 =
 "
 discrete

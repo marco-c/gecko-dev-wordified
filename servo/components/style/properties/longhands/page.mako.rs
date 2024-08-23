@@ -153,7 +153,7 @@ prop
 boxed
 =
 True
-animation_value_type
+animation_type
 =
 "
 none
@@ -221,7 +221,7 @@ named
 -
 pages
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -310,7 +310,7 @@ orientation
 -
 prop
 "
-animation_value_type
+animation_type
 =
 "
 none

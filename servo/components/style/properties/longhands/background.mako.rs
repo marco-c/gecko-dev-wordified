@@ -136,11 +136,6 @@ background
 -
 color
 "
-animation_value_type
-=
-"
-AnimatedColor
-"
 ignored_when_colors_disabled
 =
 True
@@ -231,7 +226,7 @@ vector
 "
 True
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -361,11 +356,6 @@ position
 "
 +
 axis
-animation_value_type
-=
-"
-ComputedValue
-"
 vector
 =
 True
@@ -426,7 +416,7 @@ repeat
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -533,7 +523,7 @@ background
 -
 attachment
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -617,7 +607,7 @@ background
 -
 clip
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -696,7 +686,7 @@ background
 -
 origin
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -785,11 +775,6 @@ vector_animation_type
 "
 repeatable_list
 "
-animation_value_type
-=
-"
-BackgroundSizeList
-"
 extra_prefixes
 =
 "
@@ -877,7 +862,7 @@ engines
 "
 gecko
 "
-animation_value_type
+animation_type
 =
 "
 discrete

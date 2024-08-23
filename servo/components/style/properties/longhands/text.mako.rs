@@ -106,7 +106,7 @@ engines
 gecko
 servo
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -183,7 +183,7 @@ gecko_enum_prefix
 "
 StyleUnicodeBidi
 "
-animation_value_type
+animation_type
 =
 "
 none
@@ -271,7 +271,7 @@ none
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -350,7 +350,7 @@ gecko_enum_prefix
 "
 StyleTextDecorationStyle
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -435,11 +435,6 @@ currentcolor
 (
 )
 "
-animation_value_type
-=
-"
-AnimatedColor
-"
 ignored_when_colors_disabled
 =
 True
@@ -520,7 +515,7 @@ normal
 (
 )
 "
-animation_value_type
+animation_type
 =
 "
 discrete
@@ -614,11 +609,6 @@ GenericTextDecorationLength
 :
 :
 Auto
-"
-animation_value_type
-=
-"
-ComputedValue
 "
 spec
 =

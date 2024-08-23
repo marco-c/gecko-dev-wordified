@@ -215,11 +215,6 @@ padding
 s
 "
 )
-animation_value_type
-=
-"
-NonNegativeLengthPercentage
-"
 logical
 =
 side
@@ -355,11 +350,6 @@ side
 [
 0
 ]
-animation_value_type
-=
-"
-NonNegativeLengthPercentageOrAuto
-"
 affects
 =
 "
