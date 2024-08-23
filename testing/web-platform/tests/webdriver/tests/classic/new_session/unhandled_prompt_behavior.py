@@ -478,11 +478,8 @@ defined
 {
 }
             
-"
-dismiss
-and
-notify
-"
+{
+}
             
 True
             
@@ -512,9 +509,15 @@ accept
 "
 }
             
+{
+"
+default
+"
+:
 "
 accept
 "
+}
             
 True
             
@@ -846,48 +849,6 @@ assert_success
 response
 )
     
-if
-prompt
-=
-=
-"
-default
-"
-:
-        
-#
-For
-a
-single
-default
-handler
-the
-capability
-is
-serialized
-as
-a
-string
-        
-assert
-value
-[
-"
-capabilities
-"
-]
-[
-"
-unhandledPromptBehavior
-"
-]
-=
-=
-handler
-    
-else
-:
-        
 assert
 value
 [
