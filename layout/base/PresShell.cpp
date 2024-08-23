@@ -44005,6 +44005,13 @@ its
 layer
 manager
 .
+SelectionNodeCache
+cache
+(
+*
+this
+)
+;
 nsLayoutUtils
 :
 :
