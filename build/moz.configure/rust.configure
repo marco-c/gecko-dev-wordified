@@ -4189,8 +4189,6 @@ return
 "
 if
 moz_optimize
-.
-optimize
 else
 "
 0
