@@ -2266,7 +2266,10 @@ contentChild
 SendBlobURLDataRequest
 (
 mBlobURLSpec
+WrapNotNull
+(
 triggeringPrincipal
+)
 loadingPrincipal
 loadInfo
 -
