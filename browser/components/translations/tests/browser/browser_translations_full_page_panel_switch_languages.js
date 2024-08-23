@@ -163,6 +163,7 @@ en
 }
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedFromLanguage
@@ -192,6 +193,7 @@ same
 "
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedFromLanguage
@@ -220,6 +222,7 @@ translated
 "
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedFromLanguage
@@ -246,6 +249,7 @@ selected
 "
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedFromLanguage
@@ -255,6 +259,7 @@ en
 "
 )
 ;
+await
 FullPageTranslationsTestUtils
 .
 changeSelectedToLanguage
