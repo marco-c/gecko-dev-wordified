@@ -1211,6 +1211,7 @@ TokenPos
 pos
 ;
 union
+U
 {
 private
 :
@@ -1279,6 +1280,14 @@ JS
 :
 RegExpFlags
 reflags
+;
+public
+:
+U
+(
+)
+{
+}
 ;
 }
 u
