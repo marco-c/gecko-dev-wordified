@@ -633,9 +633,7 @@ waitForEvent
 (
 window
 "
-BackupUI
-:
-DisableEncryption
+disableEncryption
 "
 )
 ;
