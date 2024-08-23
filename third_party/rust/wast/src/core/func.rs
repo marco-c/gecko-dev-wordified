@@ -612,6 +612,7 @@ type
 derive
 (
 Debug
+Clone
 )
 ]
 pub

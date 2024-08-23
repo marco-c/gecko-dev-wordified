@@ -285,11 +285,11 @@ will
 be
 creating
 a
-32
+64
 -
 bit
 memory
-is_32
+is64
 :
 bool
 /
@@ -545,7 +545,7 @@ LParen
 )
 {
 let
-is_32
+is64
 =
 if
 parser
@@ -570,7 +570,7 @@ is_some
 (
 )
 {
-true
+false
 }
 else
 {
@@ -592,7 +592,7 @@ i64
 )
 ?
 .
-is_none
+is_some
 (
 )
 }
@@ -669,7 +669,7 @@ MemoryKind
 Inline
 {
 data
-is_32
+is64
 }
 }
 else
