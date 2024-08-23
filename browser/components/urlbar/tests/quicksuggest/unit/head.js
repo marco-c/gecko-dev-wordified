@@ -1155,7 +1155,7 @@ Suggestion
 url
 =
 "
-http
+https
 :
 /
 /
@@ -1168,7 +1168,7 @@ wikipedia
 originalUrl
 =
 "
-http
+https
 :
 /
 /
@@ -1198,7 +1198,7 @@ Uint8Array
 impressionUrl
 =
 "
-http
+https
 :
 /
 /
@@ -1213,7 +1213,7 @@ impression
 clickUrl
 =
 "
-http
+https
 :
 /
 /
@@ -1548,7 +1548,7 @@ Suggestion
 url
 =
 "
-http
+https
 :
 /
 /
@@ -1561,7 +1561,7 @@ amp
 originalUrl
 =
 "
-http
+https
 :
 /
 /
@@ -1591,7 +1591,7 @@ Uint8Array
 impressionUrl
 =
 "
-http
+https
 :
 /
 /
@@ -1606,7 +1606,7 @@ impression
 clickUrl
 =
 "
-http
+https
 :
 /
 /
@@ -2255,7 +2255,7 @@ description
 url
 =
 "
-http
+https
 :
 /
 /
@@ -2268,7 +2268,7 @@ amo
 originalUrl
 =
 "
-http
+https
 :
 /
 /
