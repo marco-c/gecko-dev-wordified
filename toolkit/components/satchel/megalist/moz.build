@@ -101,6 +101,17 @@ browser
 toml
 "
 ]
+#
+Re
+-
+enable
+when
+using
+VirtualizedList
+to
+display
+logins
+#
 MOCHITEST_CHROME_MANIFESTS
 +
 =

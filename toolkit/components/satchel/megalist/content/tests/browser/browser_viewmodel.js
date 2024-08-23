@@ -74,7 +74,14 @@ lineIndex
 0
 value
 :
+{
+total
+:
 3
+alerts
+:
+0
+}
 field
 :
 undefined
@@ -423,7 +430,9 @@ matches
 "
 )
 ;
-is
+Assert
+.
+deepEqual
 (
 snapshot
 .
