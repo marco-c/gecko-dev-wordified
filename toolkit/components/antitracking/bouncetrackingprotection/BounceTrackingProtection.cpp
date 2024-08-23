@@ -4429,12 +4429,6 @@ rv
 rv
 )
 ;
-nsTArray
-<
-nsCString
->
-purgedSiteHosts
-;
 /
 /
 Collect
