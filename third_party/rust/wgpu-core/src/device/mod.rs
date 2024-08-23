@@ -2937,10 +2937,7 @@ a
 pub
 root_id
 :
-Option
-<
 PipelineLayoutId
->
 pub
 group_ids
 :
@@ -2948,10 +2945,7 @@ group_ids
 '
 a
 [
-Option
-<
 BindGroupLayoutId
->
 ]
 }
 impl
@@ -2992,9 +2986,12 @@ pipeline_layouts
 .
 prepare
 (
+Some
+(
 self
 .
 root_id
+)
 )
 .
 into_id
@@ -3021,8 +3018,11 @@ bind_group_layouts
 .
 prepare
 (
+Some
+(
 *
 id_in
+)
 )
 .
 into_id

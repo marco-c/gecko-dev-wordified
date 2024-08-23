@@ -233,6 +233,9 @@ Lossy
 1
 }
 bitflags
+:
+:
+bitflags
 !
 {
 /
