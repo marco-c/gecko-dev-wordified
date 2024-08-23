@@ -1380,6 +1380,11 @@ AllocKind
 :
 :
 FUNCTION
+&
+jit
+:
+:
+JitInfo_BigInt
 >
 GenericCreatePrototype
 <
