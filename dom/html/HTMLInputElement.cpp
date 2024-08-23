@@ -44211,6 +44211,9 @@ UserInteraction
 ;
 if
 (
+mLastValueChangeWasInteractive
+&
+&
 State
 (
 )
