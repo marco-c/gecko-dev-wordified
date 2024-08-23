@@ -3797,22 +3797,6 @@ chromedriver
 ]
             
 "
-macosx1015
-.
-*
-"
-:
-[
-"
-mac
--
-cft
--
-chromedriver
-"
-]
-            
-"
 macosx1400
 .
 *
