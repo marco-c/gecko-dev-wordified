@@ -1103,6 +1103,10 @@ WebGLExtensionCompressedTextureS3TC_SRGB
 ;
 friend
 class
+WebGLExtensionDepthClamp
+;
+friend
+class
 WebGLExtensionDepthTexture
 ;
 friend
@@ -7760,6 +7764,15 @@ kMaxDrawBuffers
 mBlendEnabled
 =
 0
+;
+std
+:
+:
+unordered_set
+<
+GLenum
+>
+mIsEnabledMapKeys
 ;
 GLint
 mViewportX
