@@ -1283,6 +1283,17 @@ bug
 1383611
 u
 "
+shell32
+.
+dll
+"
+/
+/
+Dependency
+for
+widevine
+u
+"
 softokn3
 .
 dll
