@@ -12747,12 +12747,6 @@ requestTranslationsPort
 (
 fromLanguage
 toLanguage
-/
-*
-innerWindowId
-*
-/
-null
 )
 ;
 return
