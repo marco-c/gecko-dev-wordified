@@ -185,12 +185,6 @@ Bug
 1569081
         
 "
-regexp
--
-modifiers
-"
-        
-"
 promise
 -
 try
@@ -476,6 +470,12 @@ set
 [
         
 "
+regexp
+-
+modifiers
+"
+        
+"
 symbols
 -
 as
@@ -683,6 +683,22 @@ enable
 regexp
 -
 escape
+"
+    
+"
+regexp
+-
+modifiers
+"
+:
+"
+-
+-
+enable
+-
+regexp
+-
+modifiers
 "
 }
 INCLUDE_FEATURE_DETECTED_OPTIONAL_SHELL_OPTIONS
