@@ -172,10 +172,6 @@ char
 *
 *
 argv
-const
-char
-*
-aStartupToken
 )
 {
 nsString

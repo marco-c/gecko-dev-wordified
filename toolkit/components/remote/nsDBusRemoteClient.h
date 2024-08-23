@@ -159,7 +159,7 @@ h
 #
 include
 "
-nsStringFwd
+nsString
 .
 h
 "
@@ -178,8 +178,12 @@ nsRemoteClient
 {
 public
 :
+explicit
 nsDBusRemoteClient
 (
+nsACString
+&
+aStartupToken
 )
 ;
 ~
@@ -216,10 +220,6 @@ char
 *
 *
 argv
-const
-char
-*
-aStartupToken
 )
 override
 ;
@@ -260,6 +260,10 @@ aBuffer
 int
 aLength
 )
+;
+nsACString
+&
+mStartupToken
 ;
 }
 ;
