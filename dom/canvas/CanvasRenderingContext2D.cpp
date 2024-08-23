@@ -34890,6 +34890,14 @@ RemoteDecoderVideoSubDescriptor
 :
 :
 TSurfaceDescriptorD3D10
+&
+&
+StaticPrefs
+:
+:
+gfx_canvas_remote_use_draw_image_fast_path_d3d
+(
+)
 )
 {
 auto
