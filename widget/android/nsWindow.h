@@ -1502,6 +1502,16 @@ ScreenIntMargin
 aSafeAreaInsets
 )
 ;
+void
+KeyboardHeightChanged
+(
+mozilla
+:
+:
+ScreenIntCoord
+aHeight
+)
+;
 mozilla
 :
 :

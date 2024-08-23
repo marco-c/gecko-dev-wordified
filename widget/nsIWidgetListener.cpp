@@ -282,6 +282,17 @@ aOffset
 )
 {
 }
+void
+nsIWidgetListener
+:
+:
+KeyboardHeightChanged
+(
+ScreenIntCoord
+aHeight
+)
+{
+}
 #
 endif
 void
