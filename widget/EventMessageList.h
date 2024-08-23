@@ -1250,16 +1250,6 @@ eContextRestored
 )
 /
 /
-content
--
-visibility
-events
-NS_EVENT_MESSAGE
-(
-eContentVisibilityAutoStateChange
-)
-/
-/
 SVG
 events
 NS_EVENT_MESSAGE
