@@ -2840,12 +2840,6 @@ dependable
 (
 False
 )
-js_shared
-=
-dependable
-(
-False
-)
 moz_linker
 =
 dependable
@@ -6021,7 +6015,6 @@ zlib
 depends
 (
 with_system_zlib_option
-js_shared
 moz_linker
 target
 .
@@ -6031,7 +6024,6 @@ def
 zlib_in_mozglue
 (
 system_zlib
-js_shared
 linker
 os
 )
@@ -6041,8 +6033,6 @@ not
 system_zlib
 and
 (
-js_shared
-or
 linker
 or
 os
