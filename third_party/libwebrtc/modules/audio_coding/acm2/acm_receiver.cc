@@ -169,6 +169,17 @@ h
 #
 include
 "
+api
+/
+units
+/
+timestamp
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_coding
@@ -656,6 +667,8 @@ const
 uint8_t
 >
 incoming_payload
+Timestamp
+receive_time
 )
 {
 if
@@ -925,6 +938,7 @@ InsertPacket
 (
 rtp_header
 incoming_payload
+receive_time
 )
 <
 0

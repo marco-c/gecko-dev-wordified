@@ -104,6 +104,11 @@ algorithm
 #
 include
 <
+ctime
+>
+#
+include
+<
 utility
 >
 #
@@ -341,6 +346,10 @@ decoder_factory
 )
 )
 ntp_estimator_
+(
+clock
+)
+clock_
 (
 clock
 )
@@ -1272,6 +1281,12 @@ InsertPacket
 (
 header
 data_view
+clock_
+-
+>
+CurrentTime
+(
+)
 )
 !
 =
