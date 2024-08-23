@@ -763,6 +763,11 @@ SelectionChangeEventDispatcher
 h
 "
 "
+SourceLocation
+.
+h
+"
+"
 TextInputProcessor
 .
 h
@@ -2342,6 +2347,11 @@ cpp
 "
 "
 ShadowRoot
+.
+cpp
+"
+"
+SourceLocation
 .
 cpp
 "

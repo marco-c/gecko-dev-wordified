@@ -272,7 +272,7 @@ const
 CSPDirective
 aEffectiveDirective
 const
-nsAString
+nsACString
 &
 aSourceFile
 uint32_t
@@ -329,7 +329,7 @@ null
 URL
 .
 const
-nsString
+nsCString
 mSourceFile
 ;
 const

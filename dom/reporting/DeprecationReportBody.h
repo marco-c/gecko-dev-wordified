@@ -185,7 +185,7 @@ nsAString
 &
 aMessage
 const
-nsAString
+nsACString
 &
 aSourceFile
 const
@@ -253,7 +253,7 @@ const
 void
 GetSourceFile
 (
-nsAString
+nsACString
 &
 aSourceFile
 )
@@ -312,7 +312,7 @@ nsString
 mMessage
 ;
 const
-nsString
+nsCString
 mSourceFile
 ;
 const

@@ -175,7 +175,7 @@ nsAString
 &
 aMessage
 const
-nsAString
+nsACString
 &
 aSourceFile
 const
@@ -328,7 +328,7 @@ DeprecationReportBody
 :
 GetSourceFile
 (
-nsAString
+nsACString
 &
 aSourceFile
 )
@@ -458,10 +458,7 @@ StringProperty
 "
 sourceFile
 "
-NS_ConvertUTF16toUTF8
-(
 mSourceFile
-)
 )
 ;
 }

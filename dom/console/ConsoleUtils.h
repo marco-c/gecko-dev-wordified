@@ -194,7 +194,7 @@ nsAString
 &
 aMessage
 const
-nsAString
+nsACString
 &
 aFilename
 uint32_t
@@ -244,7 +244,7 @@ nsAString
 &
 aMessage
 const
-nsAString
+nsACString
 &
 aFilename
 uint32_t

@@ -8799,7 +8799,7 @@ nsString
 &
 aMessage
 const
-nsString
+nsCString
 &
 aFilename
 const
@@ -8863,7 +8863,7 @@ aParamArray
 uint32_t
 aFlags
 const
-nsString
+nsCString
 &
 aFilename
 const
@@ -8979,7 +8979,7 @@ nsCString
 &
 aScope
 const
-nsString
+nsCString
 &
 aWorkerURL
 const
@@ -8987,7 +8987,7 @@ nsString
 &
 aMessage
 const
-nsString
+nsCString
 &
 aFilename
 const

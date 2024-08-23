@@ -6967,6 +6967,8 @@ windowContext
 InnerWindowId
 (
 )
+SourceLocation
+(
 windowContext
 -
 >
@@ -6977,6 +6979,7 @@ Canonical
 >
 GetDocumentURI
 (
+)
 )
 )
 ;

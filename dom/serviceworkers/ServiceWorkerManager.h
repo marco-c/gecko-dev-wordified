@@ -1086,7 +1086,7 @@ nsString
 &
 aMessage
 const
-nsString
+nsCString
 &
 aFilename
 const
@@ -1280,11 +1280,10 @@ aFlags
 =
 0x0
 const
-nsString
+nsCString
 &
 aFilename
 =
-u
 "
 "
 _ns
@@ -1338,7 +1337,7 @@ nsCString
 &
 aScope
 const
-nsString
+nsCString
 &
 aWorkerURL
 const
@@ -1346,7 +1345,7 @@ nsString
 &
 aMessage
 const
-nsString
+nsCString
 &
 aFilename
 const

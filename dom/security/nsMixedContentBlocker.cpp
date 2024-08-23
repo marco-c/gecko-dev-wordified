@@ -815,7 +815,10 @@ localizedMsg
 severityFlag
 messageCategory
 aInnerWindowID
+SourceLocation
+(
 aRequestingLocation
+)
 )
 ;
 }
@@ -5763,7 +5766,6 @@ CSP_LogLocalizedStr
 blockAllMixedContent
 "
 params
-u
 "
 "
 _ns

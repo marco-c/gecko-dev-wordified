@@ -21365,7 +21365,14 @@ nsString
 >
 (
 )
+SourceLocation
+(
 iframeUri
+.
+get
+(
+)
+)
 )
 ;
 }

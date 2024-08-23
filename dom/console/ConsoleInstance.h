@@ -626,7 +626,7 @@ nsAString
 &
 aMessage
 const
-nsAString
+nsACString
 &
 aFilename
 uint32_t

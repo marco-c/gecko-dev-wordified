@@ -262,7 +262,7 @@ nsString
 &
 aParams
 const
-nsAString
+nsACString
 &
 aSourceName
 const
@@ -321,7 +321,7 @@ nsAString
 &
 aMessage
 const
-nsAString
+nsACString
 &
 aSourceName
 const

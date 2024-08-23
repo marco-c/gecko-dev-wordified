@@ -164,7 +164,7 @@ nsAString
 &
 aFeatureId
 const
-nsAString
+nsACString
 &
 aSourceFile
 const
@@ -279,7 +279,7 @@ FeaturePolicyViolationReportBody
 :
 GetSourceFile
 (
-nsAString
+nsACString
 &
 aSourceFile
 )
@@ -392,10 +392,7 @@ StringProperty
 "
 sourceFile
 "
-NS_ConvertUTF16toUTF8
-(
 mSourceFile
-)
 )
 ;
 }

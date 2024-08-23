@@ -221,6 +221,9 @@ nsIGlobalObject
 namespace
 mozilla
 {
+struct
+JSCallingLocation
+;
 class
 ErrorResult
 ;
@@ -1073,13 +1076,8 @@ char
 *
 aMessageName
 const
-nsAString
+JSCallingLocation
 &
-aFilename
-uint32_t
-aLineNumber
-uint32_t
-aColumnNumber
 )
 ;
 /

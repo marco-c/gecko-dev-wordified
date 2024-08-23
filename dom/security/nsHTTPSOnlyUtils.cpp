@@ -5932,7 +5932,13 @@ message
 aFlags
 category
 windowId
+mozilla
+:
+:
+SourceLocation
+(
 aURI
+)
 )
 ;
 }

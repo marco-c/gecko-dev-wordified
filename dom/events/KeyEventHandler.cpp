@@ -4095,12 +4095,6 @@ nsContentUtils
 eDOM_PROPERTIES
 aMessageName
 params
-nullptr
-u
-"
-"
-_ns
-0
 )
 ;
 }

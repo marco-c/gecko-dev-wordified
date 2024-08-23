@@ -207,9 +207,12 @@ mOriginalPolicy
 )
 mSourceFile
 (
+NS_ConvertUTF16toUTF8
+(
 aEvent
 .
 mSourceFile
+)
 )
 mSample
 (
@@ -389,7 +392,7 @@ CSPViolationReportBody
 :
 GetSourceFile
 (
-nsAString
+nsACString
 &
 aFile
 )
@@ -696,10 +699,7 @@ StringProperty
 "
 sourceFile
 "
-NS_ConvertUTF16toUTF8
-(
 mSourceFile
-)
 )
 ;
 }

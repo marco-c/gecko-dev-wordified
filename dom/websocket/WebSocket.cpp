@@ -10893,7 +10893,6 @@ CSP_LogLocalizedStr
 upgradeInsecureRequest
 "
 params
-u
 "
 "
 _ns
