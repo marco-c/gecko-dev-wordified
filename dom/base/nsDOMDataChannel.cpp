@@ -1827,14 +1827,9 @@ error
 )
 )
 ;
-ENSURE_SUCCESS
+RETURN_NSRESULT_ON_FAILURE
 (
 error
-error
-.
-StealNSResult
-(
-)
 )
 ;
 jsData
