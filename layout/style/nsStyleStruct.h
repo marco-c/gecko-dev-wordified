@@ -7689,8 +7689,6 @@ const
 return
 mName
 .
-_0
-.
 AsAtom
 (
 )
@@ -7760,7 +7758,7 @@ aOther
 }
 private
 :
-StyleScrollTimelineName
+StyleTimelineName
 mName
 ;
 StyleScrollAxis
@@ -7802,8 +7800,6 @@ const
 {
 return
 mName
-.
-_0
 .
 AsAtom
 (
@@ -7894,7 +7890,7 @@ aOther
 }
 private
 :
-StyleScrollTimelineName
+StyleTimelineName
 mName
 ;
 StyleScrollAxis

@@ -154,7 +154,7 @@ AnimationFillMode
 AnimationName
 AnimationPlayState
 ScrollAxis
-ScrollTimelineName
+TimelineName
 TransitionBehavior
 TransitionProperty
 }

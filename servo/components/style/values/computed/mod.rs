@@ -423,7 +423,7 @@ AnimationName
 AnimationPlayState
 AnimationTimeline
 ScrollAxis
-ScrollTimelineName
+TimelineName
 TransitionBehavior
 TransitionProperty
 ViewTimelineInset
