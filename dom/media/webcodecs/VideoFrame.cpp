@@ -14619,16 +14619,6 @@ uint8_t
 aData
 )
 {
-MOZ_ASSERT
-(
-!
-aRv
-.
-Failed
-(
-)
-)
-;
 if
 (
 aData
