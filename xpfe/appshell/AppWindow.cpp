@@ -4954,6 +4954,11 @@ bool
 aRepaint
 )
 {
+NS_ENSURE_STATE
+(
+mWindow
+)
+;
 DesktopToLayoutDeviceScale
 scale
 =
