@@ -6570,7 +6570,6 @@ mg
 .
 finishPartialTier2
 (
-code
 )
 )
 {
