@@ -1821,8 +1821,6 @@ minLength_
 desc
 .
 initialLength
-(
-)
 ;
 c
 .
@@ -1835,8 +1833,6 @@ maxLength_
 desc
 .
 maximumLength
-(
-)
 ;
 c
 .

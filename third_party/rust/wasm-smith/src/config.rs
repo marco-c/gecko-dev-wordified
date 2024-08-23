@@ -3177,7 +3177,7 @@ million
 pub
 max_table_elements
 :
-u64
+u32
 =
 1_000_000
 /

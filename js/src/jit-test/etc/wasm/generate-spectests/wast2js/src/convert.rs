@@ -2956,8 +2956,6 @@ Get
 {
 module
 global
-.
-.
 }
 =
 >
@@ -3332,7 +3330,7 @@ wast
 token
 :
 :
-F32
+Float32
 ;
 4
 ]
@@ -3386,7 +3384,7 @@ wast
 token
 :
 :
-F64
+Float64
 ;
 2
 ]
@@ -3609,7 +3607,7 @@ wast
 token
 :
 :
-F32
+Float32
 )
 -
 >
@@ -3720,7 +3718,7 @@ wast
 token
 :
 :
-F64
+Float64
 )
 -
 >
@@ -3839,7 +3837,7 @@ wast
 token
 :
 :
-F32
+Float32
 >
 )
 -
@@ -3913,7 +3911,7 @@ wast
 token
 :
 :
-F64
+Float64
 >
 )
 -
