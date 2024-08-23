@@ -5328,6 +5328,11 @@ const
 {
 \
 return
+IsStretch
+(
+)
+|
+|
 IsMozAvailable
 (
 )
