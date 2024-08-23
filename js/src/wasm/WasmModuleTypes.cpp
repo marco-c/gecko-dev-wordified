@@ -389,7 +389,7 @@ BranchHintVector
 BranchHintCollection
 :
 :
-invalidVector
+invalidVector_
 ;
 JSString
 *

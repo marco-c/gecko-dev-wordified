@@ -13451,9 +13451,13 @@ funcIndex
 codeMeta_
 -
 >
+funcs
+[
+funcIndex
+]
+.
 declareFuncExported
 (
-funcIndex
 /
 *
 eager
