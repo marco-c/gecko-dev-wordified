@@ -166,11 +166,6 @@ Buffer
 cpp
 "
 "
-CTDiversityPolicy
-.
-cpp
-"
-"
 CTLogVerifier
 .
 cpp
