@@ -1055,11 +1055,6 @@ loadPath
 app
 ]
 telemetrySearchIdentifier
-search
-.
-mozilla
-.
-org
 "
 origin
 :
