@@ -33,6 +33,8 @@ gre
 /
 modules
 /
+shared
+/
 PasswordGenerator
 .
 sys
@@ -84,6 +86,8 @@ resource
 gre
 /
 modules
+/
+shared
 /
 PasswordRulesParser
 .

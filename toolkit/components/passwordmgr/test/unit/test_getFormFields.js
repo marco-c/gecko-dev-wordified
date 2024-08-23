@@ -33,6 +33,8 @@ gre
 /
 modules
 /
+shared
+/
 LoginFormFactory
 .
 sys
