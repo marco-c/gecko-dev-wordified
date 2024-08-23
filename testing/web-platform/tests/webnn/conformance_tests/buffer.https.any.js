@@ -611,12 +611,10 @@ dataType
 )
 {
 await
-promise_rejects_dom
+promise_rejects_js
 (
 t
-'
-NotSupportedError
-'
+TypeError
 mlContext
 .
 createBuffer
