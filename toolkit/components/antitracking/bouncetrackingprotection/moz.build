@@ -206,6 +206,11 @@ ClearDataCallback
 .
 h
 "
+"
+PromiseNativeWrapper
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -253,6 +258,11 @@ cpp
 "
 "
 ClearDataCallback
+.
+cpp
+"
+"
+PromiseNativeWrapper
 .
 cpp
 "
