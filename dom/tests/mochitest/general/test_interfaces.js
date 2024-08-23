@@ -1838,6 +1838,9 @@ AudioData
 insecureContext
 :
 true
+nightlyAndroid
+:
+true
 }
 /
 /
@@ -1861,6 +1864,9 @@ name
 "
 AudioDecoder
 "
+nightlyAndroid
+:
+true
 }
 /
 /
@@ -1936,6 +1942,9 @@ name
 "
 AudioEncoder
 "
+nightlyAndroid
+:
+true
 }
 /
 /
@@ -4793,6 +4802,9 @@ EncodedAudioChunk
 insecureContext
 :
 true
+nightlyAndroid
+:
+true
 }
 /
 /
@@ -4817,6 +4829,9 @@ name
 EncodedVideoChunk
 "
 insecureContext
+:
+true
+nightlyAndroid
 :
 true
 }
@@ -17723,6 +17738,9 @@ VideoColorSpace
 insecureContext
 :
 true
+nightlyAndroid
+:
+true
 }
 /
 /
@@ -17746,6 +17764,9 @@ name
 "
 VideoDecoder
 "
+nightlyAndroid
+:
+true
 }
 /
 /
@@ -17769,6 +17790,9 @@ name
 "
 VideoEncoder
 "
+nightlyAndroid
+:
+true
 }
 /
 /
@@ -17793,6 +17817,9 @@ name
 VideoFrame
 "
 insecureContext
+:
+true
+nightlyAndroid
 :
 true
 }
