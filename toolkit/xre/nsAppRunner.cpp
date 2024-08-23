@@ -29908,8 +29908,7 @@ startupToken
 ;
 #
 endif
-RemoteResult
-rr
+rv
 =
 mRemoteService
 -
@@ -29933,10 +29932,10 @@ get
 ;
 if
 (
-rr
-=
-=
-REMOTE_FOUND
+NS_SUCCEEDED
+(
+rv
+)
 )
 {
 *
@@ -29957,10 +29956,10 @@ return
 }
 if
 (
-rr
+rv
 =
 =
-REMOTE_ARG_BAD
+NS_ERROR_INVALID_ARG
 )
 {
 mRemoteService
