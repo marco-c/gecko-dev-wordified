@@ -1606,7 +1606,7 @@ RemoteSettings
 (
 SearchUtils
 .
-NEW_SETTINGS_KEY
+SETTINGS_KEY
 )
 ;
 configStub
@@ -1628,7 +1628,7 @@ RemoteSettings
 (
 SearchUtils
 .
-NEW_SETTINGS_OVERRIDES_KEY
+SETTINGS_OVERRIDES_KEY
 )
 ;
 overrideStub

@@ -1308,7 +1308,7 @@ RemoteSettings
 (
 SearchUtils
 .
-NEW_SETTINGS_OVERRIDES_KEY
+SETTINGS_OVERRIDES_KEY
 )
 ;
 sinon
