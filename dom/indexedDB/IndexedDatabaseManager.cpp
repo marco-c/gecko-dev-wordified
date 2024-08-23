@@ -2261,7 +2261,7 @@ if
 IDBCursor_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -2271,7 +2271,7 @@ aCx
 IDBCursorWithValue_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -2281,7 +2281,7 @@ aCx
 IDBDatabase_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -2291,7 +2291,7 @@ aCx
 IDBFactory_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -2301,7 +2301,7 @@ aCx
 IDBIndex_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -2311,7 +2311,7 @@ aCx
 IDBKeyRange_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -2321,7 +2321,7 @@ aCx
 IDBObjectStore_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -2331,7 +2331,7 @@ aCx
 IDBOpenDBRequest_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -2341,7 +2341,7 @@ aCx
 IDBRequest_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -2351,7 +2351,7 @@ aCx
 IDBTransaction_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
@@ -2361,7 +2361,7 @@ aCx
 IDBVersionChangeEvent_Binding
 :
 :
-CreateAndDefineOnGlobal
+GetConstructorObject
 (
 aCx
 )
