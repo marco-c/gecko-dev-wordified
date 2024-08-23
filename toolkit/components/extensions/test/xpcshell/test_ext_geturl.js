@@ -554,6 +554,7 @@ checkURL
 origin
 }
 /
+.
 )
 ;
 /
@@ -583,6 +584,10 @@ example
 {
 origin
 }
+/
+.
+/
+.
 /
 /
 example
@@ -624,6 +629,17 @@ test
 origin
 }
 /
+.
+.
+/
+.
+.
+/
+example
+/
+.
+.
+/
 /
 test
 /
@@ -654,6 +670,9 @@ checkURL
 origin
 }
 /
+.
+.
+/
 )
 ;
 checkURL
@@ -666,6 +685,8 @@ checkURL
 origin
 }
 /
+.
+.
 )
 ;
 checkURL
@@ -681,6 +702,11 @@ checkURL
 {
 origin
 }
+/
+.
+.
+/
+.
 /
 )
 ;
