@@ -4913,6 +4913,13 @@ r
 >
 {
 return
+!
+isFavicon
+(
+r
+)
+&
+&
 cached
 .
 push
