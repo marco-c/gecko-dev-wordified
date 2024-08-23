@@ -11750,17 +11750,6 @@ SetHandshakeNotPending
 )
 ;
 }
-infoObject
--
->
-SharedState
-(
-)
-.
-NoteSocketCreated
-(
-)
-;
 rv
 =
 infoObject

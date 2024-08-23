@@ -10612,10 +10612,6 @@ i
 ;
 }
 }
-ClearPrivateSSLState
-(
-)
-;
 }
 NS_IMETHODIMP
 nsSocketTransportService
