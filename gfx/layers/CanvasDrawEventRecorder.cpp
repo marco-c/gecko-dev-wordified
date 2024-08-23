@@ -224,7 +224,7 @@ RefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 shmem
 ;
@@ -252,7 +252,7 @@ MakeRefPtr
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 >
 (
 )
@@ -506,7 +506,7 @@ header
 shmem
 -
 >
-memory
+Memory
 (
 )
 )

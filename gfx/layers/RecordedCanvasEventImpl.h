@@ -250,7 +250,7 @@ using
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 ;
 const
 EventType

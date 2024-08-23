@@ -127,7 +127,7 @@ mozilla
 /
 ipc
 /
-SharedMemoryBasic
+SharedMemory
 .
 h
 "
@@ -228,7 +228,7 @@ bool
 aReceiverSide
 ScopedPort
 aPort
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -639,7 +639,7 @@ DataPipeSender
 (
 ScopedPort
 aPort
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -848,7 +848,7 @@ DataPipeReceiver
 (
 ScopedPort
 aPort
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle

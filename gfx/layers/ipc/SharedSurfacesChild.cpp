@@ -1741,7 +1741,7 @@ process
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 :
 :
 Handle
@@ -1750,7 +1750,7 @@ handle
 ipc
 :
 :
-SharedMemoryBasic
+SharedMemory
 :
 :
 NULLHandle

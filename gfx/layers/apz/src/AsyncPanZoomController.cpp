@@ -1118,14 +1118,14 @@ mozilla
 /
 ipc
 /
-SharedMemoryBasic
+SharedMemory
 .
 h
 "
 /
 /
 for
-SharedMemoryBasic
+SharedMemory
 #
 include
 "
