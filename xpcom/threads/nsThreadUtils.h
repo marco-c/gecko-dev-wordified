@@ -12652,6 +12652,9 @@ dom
 class
 FrameRequestCallback
 ;
+class
+VideoFrameRequestCallback
+;
 }
 /
 /
@@ -12835,6 +12838,16 @@ dom
 FrameRequestCallback
 >
 LogFrameRequestCallback
+;
+typedef
+LogTaskBase
+<
+dom
+:
+:
+VideoFrameRequestCallback
+>
+LogVideoFrameRequestCallback
 ;
 /
 /
