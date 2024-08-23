@@ -229,11 +229,11 @@ readable
 events
 .
 But
-must
+most
 /
 /
 /
-application
+applications
 don
 '
 t

@@ -157,12 +157,6 @@ impl
 <
 T
 >
-std
-:
-:
-error
-:
-:
 Error
 for
 SendError

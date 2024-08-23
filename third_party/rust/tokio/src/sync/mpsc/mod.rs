@@ -1278,6 +1278,7 @@ bounded
 channel
 OwnedPermit
 Permit
+PermitIterator
 Receiver
 Sender
 WeakSender

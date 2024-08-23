@@ -98,6 +98,13 @@ process
 or
 diagnostics
 .
+#
+[
+allow
+(
+dead_code
+)
+]
 fn
 id
 (
@@ -505,6 +512,7 @@ push
 (
 orphan
 )
+;
 }
 /
 /

@@ -785,13 +785,8 @@ cx
 ?
 )
 {
-buf
-if
-buf
-.
-is_empty
-(
-)
+[
+]
 =
 >
 {

@@ -52,15 +52,7 @@ fs
 :
 remove_dir
 ]
-(
-std
-:
-:
-fs
-:
-:
-remove_dir
-)
+.
 pub
 async
 fn

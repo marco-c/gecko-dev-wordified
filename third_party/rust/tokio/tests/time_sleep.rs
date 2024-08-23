@@ -1046,7 +1046,11 @@ cfg
 (
 not
 (
-tokio_wasi
+target_os
+=
+"
+wasi
+"
 )
 )
 ]
@@ -1200,7 +1204,7 @@ in
 0
 .
 .
-10000
+1000
 {
 tokio
 :

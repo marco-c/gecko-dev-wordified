@@ -2269,7 +2269,7 @@ ctrl
 -
 close
 "
-notitifications
+notifications
 sent
 to
 the
@@ -2278,9 +2278,7 @@ process
 /
 /
 via
-'
 SetConsoleCtrlHandler
-'
 .
 /
 /
@@ -3096,7 +3094,7 @@ ctrl
 -
 shutdown
 "
-notitifications
+notifications
 sent
 to
 the
@@ -3105,9 +3103,7 @@ process
 /
 /
 via
-'
 SetConsoleCtrlHandler
-'
 .
 /
 /
@@ -3923,7 +3919,7 @@ ctrl
 -
 logoff
 "
-notitifications
+notifications
 sent
 to
 the
@@ -3932,9 +3928,7 @@ process
 /
 /
 via
-'
 SetConsoleCtrlHandler
-'
 .
 /
 /

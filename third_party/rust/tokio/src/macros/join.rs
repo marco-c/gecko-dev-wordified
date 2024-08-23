@@ -181,7 +181,7 @@ are
 stored
 inline
 and
-does
+do
 not
 require
 allocating

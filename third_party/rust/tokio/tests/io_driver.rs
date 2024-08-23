@@ -30,7 +30,11 @@ full
 "
 not
 (
-tokio_wasi
+target_os
+=
+"
+wasi
+"
 )
 )
 )

@@ -1684,7 +1684,7 @@ io
 blocking
 :
 :
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 ;
 let
 chunk_b
@@ -2212,7 +2212,7 @@ io
 blocking
 :
 :
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 ;
 let
 chunk_b

@@ -428,7 +428,6 @@ uds
 :
 :
 {
-SocketAddr
 UnixDatagram
 UnixListener
 UnixStream

@@ -132,7 +132,7 @@ cfg_net
 cfg_rt
 !
 {
-cfg_metrics
+cfg_unstable_metrics
 !
 {
 pub

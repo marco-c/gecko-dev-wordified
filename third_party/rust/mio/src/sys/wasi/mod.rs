@@ -1469,9 +1469,7 @@ wasi
 Userdata
 :
 :
-max_value
-(
-)
+MAX
 ;
 /
 /
@@ -2355,11 +2353,14 @@ field
 flags
 "
 &
+EventrwflagsDetails
+(
 self
 .
 0
 .
 flags
+)
 )
 .
 finish

@@ -604,7 +604,6 @@ Instant
 >
 Sleep
 {
-return
 Sleep
 :
 :
@@ -618,7 +617,6 @@ caller_location
 (
 )
 )
-;
 }
 /
 /
@@ -2117,6 +2115,14 @@ macro
 pin
 .
 html
+#
+[
+project
+(
+!
+Unpin
+)
+]
 /
 /
 Alias
@@ -2320,7 +2326,6 @@ TimerEntry
 :
 new
 (
-&
 handle
 deadline
 )
@@ -2344,6 +2349,19 @@ let
 inner
 =
 {
+let
+handle
+=
+scheduler
+:
+:
+Handle
+:
+:
+current
+(
+)
+;
 let
 clock
 =
@@ -3040,6 +3058,7 @@ reset_inner
 (
 deadline
 )
+;
 }
 /
 /

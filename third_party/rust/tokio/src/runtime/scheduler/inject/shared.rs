@@ -247,8 +247,6 @@ cfg
 any
 (
 tokio_taskdump
-all
-(
 feature
 =
 "
@@ -258,11 +256,6 @@ multi
 -
 thread
 "
-not
-(
-tokio_wasi
-)
-)
 )
 )
 ]
@@ -749,6 +742,14 @@ std
 :
 :
 cmp
+;
+debug_assert
+!
+(
+n
+>
+0
+)
 ;
 /
 /

@@ -129,7 +129,11 @@ poll
 [
 cfg_attr
 (
-tokio_wasi
+target_os
+=
+"
+wasi
+"
 ignore
 =
 "

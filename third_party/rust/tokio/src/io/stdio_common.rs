@@ -46,7 +46,9 @@ Windows
 /
 /
 /
+[
 AsyncWrite
+]
 adapter
 that
 finds
@@ -80,7 +82,7 @@ trims
 buffer
 down
 to
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 .
 /
 /
@@ -441,7 +443,7 @@ io
 blocking
 :
 :
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 {
 return
 call_inner
@@ -466,7 +468,7 @@ io
 blocking
 :
 :
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 ]
 ;
 /
@@ -923,7 +925,7 @@ io
 blocking
 :
 :
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 ;
 use
 crate
@@ -1032,7 +1034,7 @@ len
 )
 <
 =
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 )
 ;
 assert
@@ -1263,7 +1265,7 @@ len
 )
 <
 =
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 )
 ;
 self
@@ -1418,7 +1420,7 @@ repeat
 (
 "
 "
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 )
 ;
 let
@@ -1597,7 +1599,7 @@ repeat
 .
 take
 (
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 -
 checked_count
 +
@@ -1769,7 +1771,7 @@ it
 was
 outside
 of
-MAX_BUF
+DEFAULT_MAX_BUF_SIZE
 boundary
 and
 /

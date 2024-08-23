@@ -894,6 +894,7 @@ shutdown
 (
 handle
 )
+;
 }
 fn
 process
@@ -971,6 +972,16 @@ buf
 128
 ]
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+unused_io_amount
+)
+]
 loop
 {
 match

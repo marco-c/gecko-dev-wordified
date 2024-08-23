@@ -20,7 +20,11 @@ full
 "
 not
 (
-tokio_wasi
+target_os
+=
+"
+wasi
+"
 )
 )
 )
@@ -333,8 +337,6 @@ let
 mut
 read_buf
 =
-vec
-!
 [
 0u8
 ;

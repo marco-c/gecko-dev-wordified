@@ -1453,7 +1453,7 @@ overflows
 half
 of
 the
-curent
+current
 contents
 of
 the
@@ -3925,7 +3925,7 @@ actual
 }
 }
 }
-cfg_metrics
+cfg_unstable_metrics
 !
 {
 impl

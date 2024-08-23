@@ -2,15 +2,6 @@ use
 crate
 :
 :
-future
-:
-:
-Future
-;
-use
-crate
-:
-:
 runtime
 :
 :
@@ -136,7 +127,6 @@ super
 fn
 waker_ref
 <
-T
 S
 >
 (
@@ -157,9 +147,6 @@ _
 S
 >
 where
-T
-:
-Future
 S
 :
 Schedule

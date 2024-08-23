@@ -1,14 +1,3 @@
-#
-!
-[
-allow
-(
-clippy
-:
-:
-unit_arg
-)
-]
 use
 crate
 :
@@ -330,6 +319,7 @@ for_each
 (
 f
 )
+;
 }
 }
 /
@@ -603,6 +593,7 @@ Ordering
 :
 SeqCst
 )
+;
 }
 }
 /

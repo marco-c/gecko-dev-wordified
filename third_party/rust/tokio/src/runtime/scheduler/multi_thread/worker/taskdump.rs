@@ -298,6 +298,12 @@ into_iter
 .
 map
 (
+|
+(
+id
+trace
+)
+|
 dump
 :
 :
@@ -305,6 +311,10 @@ Task
 :
 :
 new
+(
+id
+trace
+)
 )
 .
 collect
