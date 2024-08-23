@@ -1651,6 +1651,13 @@ mMLSProvider
 >
 Shutdown
 (
+MLSFallback
+:
+:
+ShutdownReason
+:
+:
+ProviderResponded
 )
 ;
 mMLSProvider
@@ -2048,6 +2055,13 @@ mMLSProvider
 >
 Shutdown
 (
+MLSFallback
+:
+:
+ShutdownReason
+:
+:
+ProviderShutdown
 )
 ;
 mMLSProvider
