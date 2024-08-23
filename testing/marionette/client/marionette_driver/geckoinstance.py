@@ -3372,12 +3372,6 @@ cmdargs
 [
 "
 -
-no
--
-remote
-"
-"
--
 marionette
 "
 ]

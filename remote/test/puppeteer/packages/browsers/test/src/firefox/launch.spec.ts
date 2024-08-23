@@ -342,13 +342,6 @@ const
 firefoxArguments
 =
 [
-'
--
--
-no
--
-remote
-'
 ]
 ;
 switch
