@@ -940,6 +940,11 @@ uninhibit
 "
 ;
 }
+return
+"
+invalid
+"
+;
 }
 #
 endif
