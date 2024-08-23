@@ -3211,7 +3211,7 @@ correctness
 but
 may
 help
-try
+try_parse
 (
 )
 rewind
@@ -3247,7 +3247,7 @@ correctness
 but
 may
 help
-try
+try_parse
 (
 )
 rewind
@@ -3262,7 +3262,7 @@ item
 =
 input
 .
-try
+try_parse
 (
 &
 mut
@@ -3398,7 +3398,7 @@ correctness
 but
 may
 help
-try
+try_parse
 (
 )
 rewind
@@ -3434,7 +3434,7 @@ correctness
 but
 may
 help
-try
+try_parse
 (
 )
 rewind
@@ -3454,7 +3454,7 @@ comma
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3484,7 +3484,7 @@ correctness
 but
 may
 help
-try
+try_parse
 (
 )
 rewind
@@ -3499,7 +3499,7 @@ item
 =
 input
 .
-try
+try_parse
 (
 &
 mut
