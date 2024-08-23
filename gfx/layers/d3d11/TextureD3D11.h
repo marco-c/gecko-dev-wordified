@@ -697,6 +697,10 @@ RefPtr
 ID3D11Query
 >
 aQuery
+bool
+aOnlyForOverlay
+=
+false
 )
 ;
 private
