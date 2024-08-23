@@ -291,6 +291,17 @@ filter
 .
 }
 ;
+enum
+RGB32Type
+{
+ARGB
+=
+0
+ABGR
+=
+1
+}
+;
 /
 /
 Convert
@@ -302,6 +313,8 @@ to
 32
 bit
 ARGB
+or
+ABGR
 .
 /
 /
@@ -352,6 +365,8 @@ YUVColorSpace
 yuv_color_space
 ColorRange
 color_range
+RGB32Type
+rgb32_type
 )
 ;
 void
@@ -388,6 +403,8 @@ int
 rgbstride
 YUVType
 yuv_type
+RGB32Type
+rgb32_type
 )
 ;
 /
