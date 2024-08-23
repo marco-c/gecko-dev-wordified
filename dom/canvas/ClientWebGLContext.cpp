@@ -3007,6 +3007,13 @@ layers
 TexTypeForWebgl
 (
 imageBridge
+mNotLost
+-
+>
+outOfProcess
+!
+=
+nullptr
 )
 ;
 }
