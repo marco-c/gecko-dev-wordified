@@ -185,6 +185,7 @@ kDefaultScalabilityModeStr
 L1T2
 "
 ;
+RTC_EXPORT
 absl
 :
 :
