@@ -158,7 +158,6 @@ Win11PinToTaskBarResultStatus
 Failed
 NotCurrentlyAllowed
 AlreadyPinned
-NotPinned
 Success
 NotSupported
 }
@@ -183,13 +182,6 @@ const
 nsAString
 &
 aAppUserModelId
-)
-;
-Win11PinToTaskBarResult
-IsCurrentAppPinnedToTaskbarWin11
-(
-bool
-aCheckOnly
 )
 ;
 #

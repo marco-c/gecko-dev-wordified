@@ -116,11 +116,6 @@ UNIFIED_SOURCES
 =
 [
 "
-LimitedAccessFeatureTests
-.
-cpp
-"
-"
 ShellLinkTests
 .
 cpp
