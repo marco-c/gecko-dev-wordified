@@ -1434,6 +1434,10 @@ raw
 as
 ifh
 :
+#
+type
+:
+ignore
             
 tarin
 =
@@ -1458,6 +1462,10 @@ bufsize
 zstd
 .
 DECOMPRESSION_RECOMMENDED_OUTPUT_SIZE
+#
+type
+:
+ignore
             
 )
             
@@ -1579,12 +1587,20 @@ read
 (
 )
 )
+#
+type
+:
+ignore
                     
 reader
 .
 close
 (
 )
+#
+type
+:
+ignore
                     
 #
 If
@@ -1822,6 +1838,10 @@ zstd
 .
 DECOMPRESSION_RECOMMENDED_OUTPUT_SIZE
 )
+#
+type
+:
+ignore
                     
 buf
 =
@@ -1831,6 +1851,10 @@ read
 (
 length
 )
+#
+type
+:
+ignore
                     
 remaining
 -
@@ -1896,6 +1920,10 @@ reader
 close
 (
 )
+#
+type
+:
+ignore
     
 subprocess
 .

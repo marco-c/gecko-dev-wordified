@@ -78,6 +78,10 @@ UnicodeLoader
 SafeLoader
 )
 :
+#
+type
+:
+ignore
     
 def
 construct_yaml_str

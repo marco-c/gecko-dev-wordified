@@ -336,6 +336,10 @@ subprocess
 .
 check_output
 (
+#
+type
+:
+ignore
                 
 cmd
 cwd
@@ -358,6 +362,10 @@ utf
 *
 *
 kwargs
+#
+type
+:
+ignore
             
 )
         
@@ -394,6 +402,10 @@ self
 >
 str
 :
+#
+type
+:
+ignore
         
 "
 "
@@ -427,6 +439,10 @@ self
 >
 str
 :
+#
+type
+:
+ignore
         
 "
 "
@@ -609,12 +625,20 @@ remotes
 =
 1
 :
+#
+type
+:
+ignore
             
 return
 remotes
 [
 0
 ]
+#
+type
+:
+ignore
         
 if
 self
@@ -623,6 +647,10 @@ default_remote_name
 in
 remotes
 :
+#
+type
+:
+ignore
             
 return
 self
@@ -635,6 +663,10 @@ remotes
 [
 0
 ]
+#
+type
+:
+ignore
         
 logger
 .
@@ -1281,12 +1313,20 @@ tool
 "
 hg
 "
+#
+type
+:
+ignore
     
 default_remote_name
 =
 "
 default
 "
+#
+type
+:
+ignore
     
 def
 __init__
@@ -2455,12 +2495,20 @@ tool
 "
 git
 "
+#
+type
+:
+ignore
     
 default_remote_name
 =
 "
 origin
 "
+#
+type
+:
+ignore
     
 _LS_REMOTE_PATTERN
 =
@@ -2987,6 +3035,10 @@ remote_name
 HEAD
 "
 )
+#
+type
+:
+ignore
         
 matches
 =

@@ -463,6 +463,10 @@ level
 .
 format
 (
+#
+type
+:
+ignore
         
 *
 *
@@ -523,6 +527,10 @@ level
 .
 format
 (
+#
+type
+:
+ignore
         
 *
 *

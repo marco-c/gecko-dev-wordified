@@ -1355,6 +1355,10 @@ abc
 Mapping
 )
 :
+#
+type
+:
+ignore
             
 for
 k
@@ -1651,6 +1655,10 @@ schema
 [
 item
 ]
+#
+type
+:
+ignore
 OptimizationSchema
 =
 voluptuous

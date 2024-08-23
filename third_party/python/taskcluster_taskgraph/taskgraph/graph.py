@@ -578,6 +578,10 @@ Graph
 new_nodes
 new_edges
 )
+#
+type
+:
+ignore
     
 def
 _visit

@@ -514,6 +514,10 @@ filteredtasks
 filterededges
 )
 )
+#
+type
+:
+ignore
     
 if
 exclude_keys
@@ -531,6 +535,10 @@ items
 (
 )
 :
+#
+type
+:
+ignore
             
 task
 =
@@ -3457,6 +3465,10 @@ cur_rev_file
 }
 "
 )
+#
+type
+:
+ignore
             
 params_name
 =
@@ -6237,6 +6249,13 @@ project_name
 root
 .
 name
+"
+taskgraph_version
+"
+:
+taskgraph
+.
+__version__
 }
     
 try
@@ -6254,6 +6273,10 @@ repo
 .
 remote_name
 )
+#
+type
+:
+ignore
     
 except
 RuntimeError
@@ -6505,6 +6528,10 @@ output_dir
 root
 .
 parent
+#
+type
+:
+ignore
         
 overwrite_if_exists
 =

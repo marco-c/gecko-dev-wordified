@@ -377,6 +377,10 @@ new_tasks
 new_edges
 )
 )
+#
+type
+:
+ignore
     
 return
 taskgraph
@@ -806,6 +810,10 @@ task_id
 slugid
 (
 )
+#
+type
+:
+ignore
     
 return
 task
@@ -1951,6 +1959,10 @@ task_id
 slugid
 (
 )
+#
+type
+:
+ignore
         
 taskgraph
 label_to_taskid

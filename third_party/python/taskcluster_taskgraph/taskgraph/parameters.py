@@ -700,12 +700,20 @@ mozilla_repo_urls
 errors
 .
 InvalidRepoUrlError
+#
+type
+:
+ignore
         
 mozilla_repo_urls
 .
 errors
 .
 UnsupportedPlatformError
+#
+type
+:
+ignore
     
 )
 :

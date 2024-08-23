@@ -155,6 +155,10 @@ tasks
 items
 (
 )
+#
+type
+:
+ignore
         
 if
 task

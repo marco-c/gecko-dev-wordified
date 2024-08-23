@@ -87,6 +87,10 @@ util
 retry
 import
 Retry
+#
+type
+:
+ignore
 from
 taskgraph
 .
@@ -500,6 +504,10 @@ CONCURRENCY
 session
 =
 None
+    
+allowed_methods
+=
+None
 )
 :
     
@@ -512,6 +520,27 @@ requests
 Session
 (
 )
+    
+kwargs
+=
+{
+}
+    
+if
+allowed_methods
+is
+not
+None
+:
+        
+kwargs
+[
+"
+allowed_methods
+"
+]
+=
+allowed_methods
     
 retry
 =
@@ -537,6 +566,10 @@ backoff_factor
 status_forcelist
 =
 status_forcelist
+        
+*
+*
+kwargs
     
 )
     
@@ -584,6 +617,10 @@ adapters
 .
 HTTPAdapter
 (
+#
+type
+:
+ignore
         
 pool_connections
 =
@@ -648,11 +685,53 @@ retries
 =
 5
 )
+functools
+.
+lru_cache
+(
+maxsize
+=
+None
+)
+def
+get_retry_post_session
+(
+)
+:
+    
+allowed_methods
+=
+set
+(
+(
+"
+POST
+"
+)
+)
+|
+Retry
+.
+DEFAULT_ALLOWED_METHODS
+    
+return
+requests_retry_session
+(
+retries
+=
+5
+allowed_methods
+=
+allowed_methods
+)
 def
 _do_request
 (
 url
 method
+=
+None
+session
 =
 None
 *
@@ -679,6 +758,12 @@ else
 get
 "
     
+if
+session
+is
+None
+:
+        
 session
 =
 get_session
@@ -1235,6 +1320,10 @@ status_code
 =
 404
 :
+#
+type
+:
+ignore
             
 raise
 KeyError
@@ -1424,6 +1513,12 @@ _do_request
 (
             
 endpoint
+            
+session
+=
+get_retry_post_session
+(
+)
             
 json
 =
@@ -2382,6 +2477,12 @@ _do_request
             
 endpoint
             
+session
+=
+get_retry_post_session
+(
+)
+            
 json
 =
 {
@@ -2669,6 +2770,10 @@ or
 "
 unknown
 "
+#
+type
+:
+ignore
         
 return
 status

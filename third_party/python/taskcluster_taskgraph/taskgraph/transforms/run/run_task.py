@@ -837,6 +837,10 @@ format
 repo_config
 .
 prefix
+#
+type
+:
+ignore
                     
 run
 [

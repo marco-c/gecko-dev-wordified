@@ -485,6 +485,50 @@ object
         
 }
         
+Optional
+(
+"
+priority
+"
+)
+:
+Any
+(
+            
+"
+highest
+"
+            
+"
+very
+-
+high
+"
+            
+"
+high
+"
+            
+"
+medium
+"
+            
+"
+low
+"
+            
+"
+very
+-
+low
+"
+            
+"
+lowest
+"
+        
+)
+        
 #
 Soft
 dependencies
@@ -2122,6 +2166,10 @@ PayloadBuilder
 schema
 func
 )
+#
+type
+:
+ignore
         
 return
 func
@@ -4919,6 +4967,10 @@ cache
 and
 skip_untrusted
 :
+#
+type
+:
+ignore
         
 payload
 [

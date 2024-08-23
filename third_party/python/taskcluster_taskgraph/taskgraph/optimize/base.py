@@ -188,7 +188,9 @@ logging
 .
 getLogger
 (
-__name__
+"
+optimization
+"
 )
 registry
 =
@@ -2198,6 +2200,10 @@ for
 task
 in
 dependents
+#
+type
+:
+ignore
             
 )
         
@@ -2793,6 +2799,10 @@ dependencies
 [
 ]
 )
+#
+type
+:
+ignore
         
 deps
 .
@@ -2937,6 +2947,10 @@ tasks_by_taskid
 edges_by_taskid
 )
 )
+#
+type
+:
+ignore
 register_strategy
 (
 "

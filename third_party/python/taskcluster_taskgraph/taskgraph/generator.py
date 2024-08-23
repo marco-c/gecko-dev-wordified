@@ -883,6 +883,10 @@ self
 _run
 (
 )
+#
+type
+:
+ignore
         
 self
 .
@@ -1865,6 +1869,10 @@ kinds
 )
 edges
 )
+#
+type
+:
+ignore
         
 if
 target_kinds
@@ -2069,6 +2077,10 @@ set
 )
 )
 )
+#
+type
+:
+ignore
         
 yield
 self
@@ -2190,6 +2202,10 @@ nodes
 edges
 )
 )
+#
+type
+:
+ignore
         
 logger
 .
@@ -2276,6 +2292,10 @@ set
 (
 )
 )
+#
+type
+:
+ignore
         
 )
         
@@ -2332,6 +2352,10 @@ set
 (
 )
 )
+#
+type
+:
+ignore
             
 )
             
@@ -2434,6 +2458,10 @@ tasks
 values
 (
 )
+#
+type
+:
+ignore
                 
 if
 t
@@ -2509,6 +2537,10 @@ always_target_tasks
 target_tasks
 )
 )
+#
+type
+:
+ignore
         
 )
         
@@ -2517,6 +2549,10 @@ requested_tasks
 target_tasks
 |
 always_target_tasks
+#
+type
+:
+ignore
         
 target_graph
 =
@@ -2549,6 +2585,10 @@ target_graph
 nodes
 }
 target_graph
+#
+type
+:
+ignore
         
 )
         
@@ -2785,6 +2825,10 @@ self
 .
 _run
 )
+#
+type
+:
+ignore
             
 except
 StopIteration

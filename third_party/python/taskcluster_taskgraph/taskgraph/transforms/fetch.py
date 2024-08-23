@@ -441,6 +441,10 @@ FetchBuilder
 schema
 func
 )
+#
+type
+:
+ignore
         
 return
 func
@@ -1890,6 +1894,10 @@ path
 "
 ]
 )
+#
+type
+:
+ignore
         
 with
 open

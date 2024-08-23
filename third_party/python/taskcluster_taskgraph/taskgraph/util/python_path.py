@@ -316,6 +316,10 @@ mod
 .
 __file__
 )
+#
+type
+:
+ignore
     
 excs
 =
@@ -344,6 +348,10 @@ modpath
 mod
 .
 __name__
+#
+type
+:
+ignore
     
 if
 not
@@ -393,6 +401,10 @@ __file__
 )
 )
 :
+#
+type
+:
+ignore
         
 if
 f

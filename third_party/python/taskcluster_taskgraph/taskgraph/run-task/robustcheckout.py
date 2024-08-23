@@ -95,6 +95,10 @@ mercurial
 i18n
 import
 _
+#
+type
+:
+ignore
 from
 mercurial
 .
@@ -102,10 +106,18 @@ node
 import
 hex
 nullid
+#
+type
+:
+ignore
 from
 mercurial
 import
 (
+#
+type
+:
+ignore
     
 commands
     
@@ -295,6 +307,10 @@ from
 mercurial
 import
 sparse
+#
+type
+:
+ignore
     
 return
 sparse
@@ -2254,6 +2270,10 @@ time
 )
 -
 start
+#
+type
+:
+ignore
             
 if
 errored
@@ -2915,7 +2935,7 @@ re
 .
 search
 (
-b
+rb
 "
 [
 a
@@ -5957,6 +5977,10 @@ is
 not
 None
 :
+#
+type
+:
+ignore
                 
 repo
 .
@@ -5965,6 +5989,10 @@ dirstate
 _sparsematchfn
 =
 old_sparse_fn
+#
+type
+:
+ignore
     
 #
 Update
@@ -6066,6 +6094,10 @@ checkoutrevision
 data
 (
 )
+#
+type
+:
+ignore
         
 except
 error
@@ -6102,6 +6134,10 @@ s
 sparse_profile
 checkoutrevision
 )
+#
+type
+:
+ignore
             
 )
         
@@ -6540,6 +6576,10 @@ clean
 True
 )
 :
+#
+type
+:
+ignore
             
 raise
 error
@@ -6569,6 +6609,10 @@ n
 %
 checkoutrevision
 )
+#
+type
+:
+ignore
     
 return
 None
