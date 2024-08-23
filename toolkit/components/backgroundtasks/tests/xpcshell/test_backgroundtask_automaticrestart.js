@@ -224,10 +224,6 @@ path
 attach
 -
 console
--
-no
--
-remote
 ]
 onStdoutLine
 :
