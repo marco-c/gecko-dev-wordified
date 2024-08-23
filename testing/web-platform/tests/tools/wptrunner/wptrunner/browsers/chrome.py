@@ -1501,6 +1501,15 @@ angle
 =
 swiftshader
 "
+"
+-
+-
+enable
+-
+unsafe
+-
+swiftshader
+"
 ]
 )
     
