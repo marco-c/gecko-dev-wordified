@@ -259,7 +259,9 @@ NoteActorDestroyed
 endif
 if
 (
-mCanceled
+Canceled
+(
+)
 )
 {
 mResultCode

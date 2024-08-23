@@ -6641,7 +6641,9 @@ AssertIsOnIOThread
 )
 ;
 return
-mCanceled
+Canceled
+(
+)
 ;
 }
 /
@@ -7331,7 +7333,9 @@ AssertIsOnIOThread
 )
 ;
 return
-mCanceled
+Canceled
+(
+)
 ;
 }
 nsresult
@@ -13865,7 +13869,9 @@ AssertIsOnIOThread
 )
 ;
 return
-mCanceled
+Canceled
+(
+)
 ;
 }
 nsresult
