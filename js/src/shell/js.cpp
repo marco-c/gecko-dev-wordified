@@ -83198,6 +83198,9 @@ true
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 op
@@ -83226,9 +83229,6 @@ true
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 op

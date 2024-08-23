@@ -536,9 +536,6 @@ InternalError
 Intl
 "
 "
-Iterator
-"
-"
 JSON
 "
 "
