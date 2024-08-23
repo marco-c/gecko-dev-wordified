@@ -1320,7 +1320,7 @@ let
 extra5
 =
 {
-extra3LongerName
+extra4CamelCase
 :
 false
 }
@@ -1369,7 +1369,7 @@ many
 expectedExtra
 =
 {
-extra3_longer_name
+extra4CamelCase
 :
 "
 false
