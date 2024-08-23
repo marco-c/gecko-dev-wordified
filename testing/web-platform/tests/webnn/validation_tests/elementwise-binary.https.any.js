@@ -759,14 +759,12 @@ validateTwoInputsOfSameDataType
 (
 operatorName
 label
-regrexp
 )
 ;
 validateTwoInputsBroadcastable
 (
 operatorName
 label
-regrexp
 )
 ;
 validateTwoInputsFromMultipleBuilders
