@@ -23873,7 +23873,7 @@ remoteTabManagement
 .
 enabled
 "
-false
+true
 )
 ;
 /
