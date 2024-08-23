@@ -24487,7 +24487,6 @@ quotaManager
 >
 EnsureTemporaryOriginIsInitialized
 (
-PERSISTENCE_TYPE_DEFAULT
 mOriginMetadata
 )
 .
@@ -39744,7 +39743,6 @@ quotaManager
 >
 EnsureTemporaryOriginIsInitialized
 (
-PERSISTENCE_TYPE_DEFAULT
 mOriginMetadata
 )
 .

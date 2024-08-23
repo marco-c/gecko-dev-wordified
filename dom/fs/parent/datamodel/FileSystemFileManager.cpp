@@ -1129,10 +1129,6 @@ quotaManager
 >
 EnsureTemporaryOriginIsInitialized
 (
-quota
-:
-:
-PERSISTENCE_TYPE_DEFAULT
 aOriginMetadata
 )
 .
