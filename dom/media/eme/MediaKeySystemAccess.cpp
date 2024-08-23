@@ -1519,14 +1519,6 @@ aOrigin
 {
 /
 /
-TODO
-:
-check
-media
-engine
-pref
-/
-/
 0
 :
 disabled
@@ -1580,6 +1572,12 @@ eDisable
 |
 !
 aOrigin
+|
+|
+!
+IsMediaFoundationCDMPlaybackEnabled
+(
+)
 )
 {
 /
