@@ -54,6 +54,13 @@ MEDIA_BASE_YUV_CONVERT_H_
 #
 include
 "
+ErrorList
+.
+h
+"
+#
+include
+"
 chromium_types
 .
 h
@@ -291,6 +298,13 @@ filter
 .
 }
 ;
+nsresult
+ToNSResult
+(
+int
+aLibyuvResult
+)
+;
 enum
 RGB32Type
 {
@@ -327,7 +341,7 @@ depending
 on
 source
 format
-void
+nsresult
 ConvertYCbCrToRGB32
 (
 const
@@ -369,7 +383,7 @@ RGB32Type
 rgb32_type
 )
 ;
-void
+nsresult
 ConvertYCbCrToRGB32_deprecated
 (
 const
@@ -426,7 +440,7 @@ rotation
 and
 mirroring
 .
-void
+nsresult
 ScaleYCbCrToRGB32
 (
 const
@@ -466,7 +480,7 @@ ScaleFilter
 filter
 )
 ;
-void
+nsresult
 ScaleYCbCrToRGB32_deprecated
 (
 const
@@ -506,7 +520,7 @@ ScaleFilter
 filter
 )
 ;
-void
+nsresult
 ConvertI420AlphaToARGB32
 (
 const
