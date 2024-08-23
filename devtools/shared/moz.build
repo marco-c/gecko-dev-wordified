@@ -367,6 +367,11 @@ uuid
 js
 "
 "
+highlighters
+.
+mjs
+"
+"
 indentation
 .
 js
