@@ -1759,7 +1759,7 @@ as
 BufferAddress
 ;
 let
-copy_depth
+depth_or_array_layers
 =
 copy_size
 .
@@ -1917,7 +1917,7 @@ bytes_per_row
 else
 {
 if
-copy_depth
+depth_or_array_layers
 >
 1
 |
@@ -1940,7 +1940,7 @@ UnspecifiedBytesPerRow
 }
 ;
 let
-block_rows_per_image
+rows_per_image
 =
 if
 let
@@ -1980,7 +1980,7 @@ rows_per_image
 else
 {
 if
-copy_depth
+depth_or_array_layers
 >
 1
 {
@@ -2072,13 +2072,13 @@ bytes_per_image
 =
 bytes_per_row
 *
-block_rows_per_image
+rows_per_image
 ;
 let
 required_bytes_in_copy
 =
 if
-copy_depth
+depth_or_array_layers
 =
 =
 0
@@ -2094,7 +2094,7 @@ required_bytes_in_copy
 bytes_per_image
 *
 (
-copy_depth
+depth_or_array_layers
 -
 1
 )

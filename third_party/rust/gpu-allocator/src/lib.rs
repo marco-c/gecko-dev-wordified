@@ -548,7 +548,7 @@ vk
 BufferCreateInfo
 :
 :
-builder
+default
 (
 )
 /
@@ -1993,6 +1993,17 @@ crate
 )
 mod
 allocator
+;
+pub
+use
+allocator
+:
+:
+{
+AllocationReport
+AllocatorReport
+MemoryBlockReport
+}
 ;
 #
 [

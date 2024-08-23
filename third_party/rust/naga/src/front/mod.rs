@@ -2550,7 +2550,7 @@ Sized
 /
 Iterate
 backwards
-trough
+through
 the
 scopes
 and

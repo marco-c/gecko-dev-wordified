@@ -12928,7 +12928,7 @@ insertBits
 Mf
 :
 :
-FindLsb
+FirstTrailingBit
 =
 >
 Function
@@ -12943,7 +12943,7 @@ firstTrailingBit
 Mf
 :
 :
-FindMsb
+FirstLeadingBit
 =
 >
 Function

@@ -6213,12 +6213,12 @@ InsertBits
 Mf
 :
 :
-FindLsb
+FirstTrailingBit
 |
 Mf
 :
 :
-FindMsb
+FirstLeadingBit
 =
 >
 match

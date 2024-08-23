@@ -117,7 +117,6 @@ success
 /
 #
 Safety
-:
 /
 /
 /
@@ -186,8 +185,10 @@ extension_name_null_terminated
 as_ptr
 (
 )
-as
-_
+.
+cast
+(
+)
 )
 =
 =

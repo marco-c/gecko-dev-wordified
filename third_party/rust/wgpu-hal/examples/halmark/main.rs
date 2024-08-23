@@ -1681,9 +1681,6 @@ constants
 zero_initialize_workgroup_memory
 :
 true
-vertex_pulling_transform
-:
-false
 }
 vertex_buffers
 :
@@ -1715,9 +1712,6 @@ constants
 zero_initialize_workgroup_memory
 :
 true
-vertex_pulling_transform
-:
-false
 }
 )
 primitive
@@ -3683,11 +3677,7 @@ self
 queue
 )
 ;
-self
-.
-instance
-.
-destroy_surface
+drop
 (
 self
 .

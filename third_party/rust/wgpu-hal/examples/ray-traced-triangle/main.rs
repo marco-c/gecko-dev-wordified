@@ -2413,9 +2413,6 @@ default
 zero_initialize_workgroup_memory
 :
 true
-vertex_pulling_transform
-:
-false
 }
 cache
 :
@@ -6135,11 +6132,7 @@ self
 queue
 )
 ;
-self
-.
-instance
-.
-destroy_surface
+drop
 (
 self
 .

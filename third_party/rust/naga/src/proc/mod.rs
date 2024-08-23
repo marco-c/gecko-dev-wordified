@@ -3833,14 +3833,14 @@ InsertBits
 Self
 :
 :
-FindLsb
+FirstTrailingBit
 =
 >
 1
 Self
 :
 :
-FindMsb
+FirstLeadingBit
 =
 >
 1

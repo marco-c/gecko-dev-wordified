@@ -4304,7 +4304,6 @@ global
 buffer_drop
 (
 self_id
-false
 )
 )
 ;
@@ -8525,7 +8524,6 @@ global
 texture_drop
 (
 self_id
-false
 )
 )
 ;
@@ -8565,7 +8563,6 @@ global
 texture_view_drop
 (
 self_id
-false
 )
 )
 .

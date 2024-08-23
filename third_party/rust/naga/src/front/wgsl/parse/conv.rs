@@ -2079,7 +2079,7 @@ firstTrailingBit
 Mf
 :
 :
-FindLsb
+FirstTrailingBit
 "
 firstLeadingBit
 "
@@ -2088,7 +2088,7 @@ firstLeadingBit
 Mf
 :
 :
-FindMsb
+FirstLeadingBit
 /
 /
 data

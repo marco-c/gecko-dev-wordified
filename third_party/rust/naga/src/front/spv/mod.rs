@@ -19426,7 +19426,7 @@ FindILsb
 Mf
 :
 :
-FindLsb
+FirstTrailingBit
 Glo
 :
 :
@@ -19441,7 +19441,7 @@ FindSMsb
 Mf
 :
 :
-FindMsb
+FirstLeadingBit
 /
 /
 TODO
@@ -22281,7 +22281,7 @@ i32
 /
 /
 Loop
-trough
+through
 the
 collected
 target
