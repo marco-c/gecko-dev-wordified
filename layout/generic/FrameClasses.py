@@ -1201,7 +1201,7 @@ Frame
 nsSearchControlFrame
 "
 "
-SearchControl
+TextInput
 "
 LEAF
 )
