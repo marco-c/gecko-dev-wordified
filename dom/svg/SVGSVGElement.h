@@ -1099,6 +1099,11 @@ InvalidateTransformNotifyFrame
 (
 )
 ;
+void
+DidChangeSVGView
+(
+)
+;
 /
 /
 Methods
@@ -1207,14 +1212,6 @@ const
 SVGAnimatedViewBox
 &
 GetViewBoxInternal
-(
-)
-const
-override
-;
-SVGAnimatedTransformList
-*
-GetTransformInternal
 (
 )
 const

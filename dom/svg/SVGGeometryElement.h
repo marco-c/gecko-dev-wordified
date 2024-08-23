@@ -1820,6 +1820,15 @@ ErrorResult
 rv
 )
 ;
+gfx
+:
+:
+Matrix
+LocalTransform
+(
+)
+const
+;
 protected
 :
 /

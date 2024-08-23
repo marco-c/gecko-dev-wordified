@@ -790,7 +790,11 @@ the
 <
 body
 >
-element
+or
+<
+svg
+>
+elements
 .
 if
 (
