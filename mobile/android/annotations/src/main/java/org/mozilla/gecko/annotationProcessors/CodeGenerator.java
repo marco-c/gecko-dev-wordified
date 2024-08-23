@@ -4182,7 +4182,7 @@ use
 a
 "
 static
-const
+constexpr
 "
 declaration
 .
@@ -4192,7 +4192,7 @@ append
 (
 "
 static
-const
+constexpr
 "
 +
 Utils
