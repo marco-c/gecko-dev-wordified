@@ -54034,6 +54034,14 @@ GetContentOffset
 GetContentEnd
 (
 )
+PresShell
+(
+)
+-
+>
+GetSelectionNodeCache
+(
+)
 )
 ;
 mIsSelected
