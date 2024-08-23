@@ -233,7 +233,7 @@ triggered
 via
 /
 /
-_baseAttachmentsURL
+baseAttachmentsURL
 <
 downloadAsBytes
 <

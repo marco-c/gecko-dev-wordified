@@ -600,11 +600,9 @@ sinon
 .
 stub
 (
-client
-.
-attachments
+RemoteSettingsUtils
 "
-_baseAttachmentsURL
+baseAttachmentsURL
 "
 )
 .
