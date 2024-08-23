@@ -261,7 +261,10 @@ default
 ;
 TimingParams
 (
+Maybe
+<
 float
+>
 aDuration
 float
 aDelay
@@ -292,6 +295,11 @@ mFill
 aFillMode
 )
 {
+if
+(
+aDuration
+)
+{
 mDuration
 .
 emplace
@@ -301,10 +309,12 @@ StickyTimeDuration
 :
 FromMilliseconds
 (
+*
 aDuration
 )
 )
 ;
+}
 mDelay
 =
 TimeDuration

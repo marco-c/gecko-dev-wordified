@@ -1422,7 +1422,10 @@ inline
 TimingParams
 TimingParamsFromCSSParams
 (
+Maybe
+<
 float
+>
 aDuration
 float
 aDelay
