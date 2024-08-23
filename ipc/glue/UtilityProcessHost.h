@@ -766,6 +766,11 @@ down
 void
 OnChannelClosed
 (
+IProtocol
+:
+:
+ActorDestroyReason
+aReason
 )
 ;
 /
