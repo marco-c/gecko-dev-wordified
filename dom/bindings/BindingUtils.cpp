@@ -24653,7 +24653,10 @@ GetPerInterfaceObjectHandle
 aCx
 aProtoId
 aCreator
-true
+DefineInterfaceProperty
+:
+:
+CheckExposure
 )
 )
 ;
@@ -25686,7 +25689,10 @@ GetPerInterfaceObjectHandle
 aCx
 aConstructorId
 aCreator
-true
+DefineInterfaceProperty
+:
+:
+CheckExposure
 )
 ;
 if
@@ -28260,7 +28266,7 @@ size_t
 aSlotId
 CreateInterfaceObjectsMethod
 aCreator
-bool
+DefineInterfaceProperty
 aDefineOnGlobal
 )
 {

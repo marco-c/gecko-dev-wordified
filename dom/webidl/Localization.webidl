@@ -405,7 +405,16 @@ messages
 Func
 =
 "
-IsChromeOrUAWidget
+mozilla
+:
+:
+intl
+:
+:
+Localization
+:
+:
+IsAPIEnabled
 "
 Exposed
 =
