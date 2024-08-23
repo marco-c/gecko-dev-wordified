@@ -26170,7 +26170,7 @@ aResult
 doc
 -
 >
-WouldScheduleFrameRequestCallbacks
+ShouldFireFrameRequestCallbacks
 (
 )
 |
