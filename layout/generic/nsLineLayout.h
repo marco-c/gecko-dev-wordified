@@ -1319,10 +1319,6 @@ mDirtyNextLine
 -
 -
 -
-nsPresContext
-*
-mPresContext
-;
 /
 *
 *
@@ -2480,6 +2476,11 @@ frame
 doing
 line
 layout
+nsPresContext
+*
+const
+mPresContext
+;
 /
 /
 A
@@ -2503,6 +2504,7 @@ mNew
 .
 nsFloatManager
 *
+const
 mFloatManager
 ;
 const
