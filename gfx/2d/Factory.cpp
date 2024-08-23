@@ -1658,6 +1658,13 @@ RegisterMemoryReporter
 ;
 #
 endif
+SourceSurfaceAlignedRawData
+:
+:
+RegisterMemoryReporter
+(
+)
+;
 }
 void
 Factory
