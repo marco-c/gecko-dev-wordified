@@ -1180,6 +1180,7 @@ mPeerAddr
 this
 providerFlags
 callbacks
+mSocket
 )
 ;
 if
