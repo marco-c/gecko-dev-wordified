@@ -208,11 +208,6 @@ NS_DECL_FRAMEARENA_HELPERS
 nsRubyFrame
 )
 NS_DECL_QUERYFRAME
-/
-/
-nsIFrame
-overrides
-virtual
 void
 AddInlineMinISize
 (
@@ -225,7 +220,6 @@ aData
 )
 override
 ;
-virtual
 void
 AddInlinePrefISize
 (
@@ -238,7 +232,6 @@ aData
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -261,7 +254,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (

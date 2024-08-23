@@ -203,11 +203,6 @@ NS_DECL_FRAMEARENA_HELPERS
 nsRubyTextFrame
 )
 NS_DECL_QUERYFRAME
-/
-/
-nsIFrame
-overrides
-virtual
 bool
 CanContinueTextRun
 (
@@ -218,7 +213,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -231,7 +225,6 @@ override
 ;
 #
 endif
-virtual
 void
 BuildDisplayList
 (
@@ -245,7 +238,6 @@ aLists
 )
 override
 ;
-virtual
 void
 Reflow
 (

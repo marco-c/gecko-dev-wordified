@@ -1960,7 +1960,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aMetrics
+aReflowOutput
 const
 ReflowInput
 &
@@ -2030,7 +2030,7 @@ if
 IsFrameTreeTooDeep
 (
 aReflowInput
-aMetrics
+aReflowOutput
 aStatus
 )
 )
@@ -2672,14 +2672,14 @@ ReflowFrames
 aPresContext
 aReflowInput
 irs
-aMetrics
+aReflowOutput
 aStatus
 )
 ;
 ReflowAbsoluteFrames
 (
 aPresContext
-aMetrics
+aReflowOutput
 aReflowInput
 aStatus
 )
@@ -3237,7 +3237,7 @@ InlineReflowInput
 irs
 ReflowOutput
 &
-aMetrics
+aReflowOutput
 nsReflowStatus
 &
 aStatus
@@ -4436,7 +4436,7 @@ line
 -
 height
 .
-aMetrics
+aReflowOutput
 .
 ISize
 (
@@ -4607,7 +4607,7 @@ FrameIsNonFirstInIBSplit
 boxDecorationBreakClone
 )
 {
-aMetrics
+aReflowOutput
 .
 ISize
 (
@@ -4756,7 +4756,7 @@ FrameIsNonLastInIBSplit
 boxDecorationBreakClone
 )
 {
-aMetrics
+aReflowOutput
 .
 ISize
 (
@@ -4778,7 +4778,7 @@ nsLayoutUtils
 SetBSizeFromFontMetrics
 (
 this
-aMetrics
+aReflowOutput
 framePadding
 lineWM
 frameWM
@@ -4810,7 +4810,7 @@ nsLineLayout
 RelativePositionFrames
 |
 .
-aMetrics
+aReflowOutput
 .
 mOverflowAreas
 .
@@ -4843,17 +4843,17 @@ d
 \
 n
 "
-aMetrics
+aReflowOutput
 .
 Width
 (
 )
-aMetrics
+aReflowOutput
 .
 Height
 (
 )
-aMetrics
+aReflowOutput
 .
 BlockStartAscent
 (
@@ -7433,7 +7433,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aMetrics
+aReflowOutput
 const
 ReflowInput
 &
@@ -7873,7 +7873,7 @@ ReflowFrames
 aPresContext
 aReflowInput
 irs
-aMetrics
+aReflowOutput
 aStatus
 )
 ;
@@ -7890,7 +7890,7 @@ false
 ReflowAbsoluteFrames
 (
 aPresContext
-aMetrics
+aReflowOutput
 aReflowInput
 aStatus
 )

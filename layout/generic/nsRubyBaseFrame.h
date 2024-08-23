@@ -206,7 +206,6 @@ NS_DECL_QUERYFRAME
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (

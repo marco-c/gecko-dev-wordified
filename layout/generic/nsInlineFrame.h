@@ -232,11 +232,6 @@ ComputedStyle
 aStyle
 )
 ;
-/
-/
-nsIFrame
-overrides
-virtual
 void
 BuildDisplayList
 (
@@ -253,7 +248,6 @@ override
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -271,7 +265,6 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -284,7 +277,6 @@ override
 ;
 #
 endif
-virtual
 void
 InvalidateFrame
 (
@@ -299,7 +291,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameWithRect
 (
@@ -318,21 +309,18 @@ true
 )
 override
 ;
-virtual
 bool
 IsEmpty
 (
 )
 override
 ;
-virtual
 bool
 IsSelfEmpty
 (
 )
 override
 ;
-virtual
 FrameSearchResult
 PeekOffsetCharacter
 (
@@ -367,11 +355,6 @@ aChild
 )
 override
 ;
-/
-/
-nsIHTMLReflow
-overrides
-virtual
 void
 AddInlineMinISize
 (
@@ -384,7 +367,6 @@ aData
 )
 override
 ;
-virtual
 void
 AddInlinePrefISize
 (
@@ -446,7 +428,6 @@ aFlags
 )
 override
 ;
-virtual
 nsRect
 ComputeTightBounds
 (
@@ -457,7 +438,6 @@ aDrawTarget
 const
 override
 ;
-virtual
 void
 Reflow
 (
@@ -466,7 +446,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -477,7 +457,6 @@ aStatus
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -491,7 +470,6 @@ aModType
 )
 override
 ;
-virtual
 bool
 CanContinueTextRun
 (
@@ -499,7 +477,6 @@ CanContinueTextRun
 const
 override
 ;
-virtual
 void
 PullOverflowsFromPrevInFlow
 (
@@ -524,7 +501,6 @@ BaselineExportContext
 const
 override
 ;
-virtual
 bool
 DrainSelfOverflowList
 (
@@ -1144,7 +1120,6 @@ aStyle
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -1157,7 +1132,6 @@ override
 ;
 #
 endif
-virtual
 void
 Reflow
 (
@@ -1166,7 +1140,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -1177,7 +1151,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 Init
 (
@@ -1193,14 +1166,12 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 PullOverflowsFromPrevInFlow
 (
 )
 override
 ;
-virtual
 bool
 DrainSelfOverflowList
 (

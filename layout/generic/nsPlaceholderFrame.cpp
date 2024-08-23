@@ -356,7 +356,7 @@ aData
 /
 /
 Override
-AddInlineMinWith
+AddInlineMinISize
 so
 that
 *
@@ -487,7 +487,7 @@ aData
 /
 /
 Override
-AddInlinePrefWith
+AddInlinePrefISize
 so
 that
 *
