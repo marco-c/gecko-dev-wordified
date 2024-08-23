@@ -3378,12 +3378,10 @@ nsHTMLCanvasFrame
 :
 UnionChildOverflow
 (
-mozilla
-:
-:
 OverflowAreas
 &
 aOverflowAreas
+bool
 )
 {
 /

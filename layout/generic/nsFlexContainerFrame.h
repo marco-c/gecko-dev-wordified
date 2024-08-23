@@ -1175,6 +1175,10 @@ mozilla
 :
 OverflowAreas
 &
+bool
+aAsIfScrolled
+=
+false
 )
 ;
 /
@@ -1200,6 +1204,8 @@ mozilla
 :
 OverflowAreas
 &
+bool
+aAsIfScrolled
 )
 final
 ;

@@ -40930,6 +40930,8 @@ UnionInFlowChildOverflow
 OverflowAreas
 &
 aOverflowAreas
+bool
+aAsIfScrolled
 )
 {
 /
@@ -41147,6 +41149,9 @@ const
 bool
 isScrolledContent
 =
+aAsIfScrolled
+|
+|
 Style
 (
 )
@@ -41504,11 +41509,14 @@ UnionChildOverflow
 OverflowAreas
 &
 aOverflowAreas
+bool
+aAsIfScrolled
 )
 {
 UnionInFlowChildOverflow
 (
 aOverflowAreas
+aAsIfScrolled
 )
 ;
 /

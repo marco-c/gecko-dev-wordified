@@ -4027,6 +4027,8 @@ UnionChildOverflow
 OverflowAreas
 &
 aOverflowAreas
+bool
+aAsIfScrolled
 )
 {
 /
