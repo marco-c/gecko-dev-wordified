@@ -8999,8 +8999,9 @@ settings_
 bitrate_allocator_factory
 -
 >
-CreateVideoBitrateAllocator
+Create
 (
+env_
 codec
 )
 ;

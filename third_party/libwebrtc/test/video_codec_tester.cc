@@ -9275,6 +9275,10 @@ ScalabilityMode
 >
 SplitBitrateAndUpdateScalabilityMode
 (
+const
+Environment
+&
+env
 std
 :
 :
@@ -10006,8 +10010,9 @@ CreateBuiltinVideoBitrateAllocatorFactory
 )
 -
 >
-CreateVideoBitrateAllocator
+Create
 (
+env
 vc
 )
 ;
@@ -10636,6 +10641,10 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+const
+Environment
+&
+env
 std
 :
 :
@@ -10689,6 +10698,7 @@ scalability_mode
 =
 SplitBitrateAndUpdateScalabilityMode
 (
+env
 codec_type
 *
 ScalabilityModeFromString

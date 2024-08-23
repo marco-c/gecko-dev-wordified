@@ -1103,6 +1103,10 @@ VideoProcessor
 :
 VideoProcessor
 (
+const
+Environment
+&
+env
 webrtc
 :
 :
@@ -1182,8 +1186,9 @@ CreateBuiltinVideoBitrateAllocatorFactory
 )
 -
 >
-CreateVideoBitrateAllocator
+Create
 (
+env
 config_
 .
 codec_settings

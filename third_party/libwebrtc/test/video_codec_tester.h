@@ -1181,6 +1181,10 @@ static
 EncodingSettings
 CreateEncodingSettings
 (
+const
+Environment
+&
+env
 std
 :
 :

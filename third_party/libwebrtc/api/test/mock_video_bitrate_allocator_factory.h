@@ -123,9 +123,6 @@ class
 MockVideoBitrateAllocatorFactory
 :
 public
-webrtc
-:
-:
 VideoBitrateAllocatorFactory
 {
 public
@@ -150,8 +147,11 @@ unique_ptr
 <
 VideoBitrateAllocator
 >
-CreateVideoBitrateAllocator
+Create
 (
+const
+Environment
+&
 const
 VideoCodec
 &

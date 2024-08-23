@@ -4842,6 +4842,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 "
 VP8
 "
@@ -5343,6 +5344,9 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+CreateEnvironment
+(
+)
 test_params
 .
 codec_type

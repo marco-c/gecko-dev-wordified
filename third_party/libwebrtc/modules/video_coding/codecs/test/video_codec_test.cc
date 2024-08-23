@@ -2385,6 +2385,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 codec_type
 /
 *
@@ -2988,6 +2989,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 codec_type
 /
 *
@@ -3046,6 +3048,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 codec_type
 /
 *
@@ -3626,6 +3629,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 codec_type
 /
 *
@@ -3684,6 +3688,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 codec_type
 /
 *
@@ -4313,6 +4318,7 @@ VideoCodecTester
 :
 CreateEncodingSettings
 (
+env
 CodecNameToCodecType
 (
 absl
