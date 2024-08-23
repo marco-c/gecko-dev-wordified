@@ -1398,9 +1398,6 @@ AddInlineMinISize
 gfxContext
 *
 aRenderingContext
-nsIFrame
-:
-:
 InlineMinISizeData
 *
 aData
@@ -1469,9 +1466,6 @@ is
 any
 span
 .
-nsIFrame
-:
-:
 InlinePrefISizeData
 data
 ;
@@ -1751,9 +1745,6 @@ AddInlinePrefISize
 gfxContext
 *
 aRenderingContext
-nsIFrame
-:
-:
 InlinePrefISizeData
 *
 aData
@@ -1887,9 +1878,6 @@ FirstChild
 (
 )
 ;
-nsIFrame
-:
-:
 InlinePrefISizeData
 data
 ;

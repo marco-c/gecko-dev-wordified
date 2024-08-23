@@ -2864,9 +2864,6 @@ AddInlineMinISizeForFlow
 gfxContext
 *
 aRenderingContext
-nsIFrame
-:
-:
 InlineMinISizeData
 *
 aData
