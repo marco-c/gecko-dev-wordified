@@ -127,11 +127,6 @@ TestWinHeaderOnlyUtils
 cpp
 "
 "
-TestWinInputPane
-.
-cpp
-"
-"
 TestWinMessageLoggingUtils
 .
 cpp

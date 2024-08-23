@@ -381,11 +381,6 @@ nsWindowLoggedMessages
 h
 "
 "
-OSKInputPaneManager
-.
-h
-"
-"
 WinCompositorWidget
 .
 h
