@@ -64,8 +64,8 @@ track
 :
 :
 {
+DeviceTracker
 TextureTracker
-Tracker
 }
 FastHashMap
 }
@@ -1095,7 +1095,7 @@ device_tracker
 :
 &
 mut
-Tracker
+DeviceTracker
 <
 A
 >
@@ -1804,7 +1804,7 @@ device_tracker
 :
 &
 mut
-Tracker
+DeviceTracker
 <
 A
 >

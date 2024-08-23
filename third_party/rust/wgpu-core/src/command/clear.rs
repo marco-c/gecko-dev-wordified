@@ -97,7 +97,7 @@ track
 :
 {
 TextureSelector
-TextureTracker
+TextureTrackerSetSingle
 }
 }
 ;
@@ -1728,6 +1728,12 @@ clear_texture
 A
 :
 HalApi
+T
+:
+TextureTrackerSetSingle
+<
+A
+>
 >
 (
 dst_texture
@@ -1755,10 +1761,7 @@ texture_tracker
 :
 &
 mut
-TextureTracker
-<
-A
->
+T
 alignments
 :
 &
