@@ -2003,6 +2003,15 @@ PrincipalPrivacy
 Private
 ;
 }
+bool
+DuplicateFingerprintQuirk
+(
+)
+{
+return
+mDuplicateFingerprintQuirk
+;
+}
 NS_IMETHODIMP
 GetFingerprint
 (
@@ -5195,6 +5204,11 @@ bool
 mRtxIsAllowed
 =
 true
+;
+bool
+mDuplicateFingerprintQuirk
+=
+false
 ;
 nsTArray
 <
