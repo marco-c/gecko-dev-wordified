@@ -428,6 +428,8 @@ const
 void
 *
 params_data
+int
+nb_params
 size_t
 params_size
 const
@@ -596,7 +598,7 @@ ctx
 va_context
 VASliceParameterBufferType
 params_size
-1
+nb_params
 (
 void
 *

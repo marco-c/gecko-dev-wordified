@@ -1184,6 +1184,7 @@ avctx
 pic
 &
 slice_param
+1
 sizeof
 (
 slice_param
