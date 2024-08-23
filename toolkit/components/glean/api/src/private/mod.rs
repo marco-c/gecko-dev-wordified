@@ -168,6 +168,9 @@ mod
 labeled_counter
 ;
 mod
+labeled_custom_distribution
+;
+mod
 memory_distribution
 ;
 mod
@@ -306,6 +309,16 @@ labeled_counter
 :
 :
 LabeledCounterMetric
+;
+pub
+use
+self
+:
+:
+labeled_custom_distribution
+:
+:
+LabeledCustomDistributionMetric
 ;
 pub
 use

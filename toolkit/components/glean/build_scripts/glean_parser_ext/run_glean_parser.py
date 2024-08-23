@@ -210,15 +210,23 @@ Histogram
 "
 :
 [
+        
 "
 timing_distribution
 "
+        
+"
+labeled_custom_distribution
+"
+        
 "
 memory_distribution
 "
+        
 "
 custom_distribution
 "
+    
 ]
     
 "
