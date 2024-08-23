@@ -86,7 +86,7 @@ add_task
 (
 async
 function
-test_translations_actor_sync_update
+test_translations_actor_sync_update_models
 (
 )
 {
@@ -381,7 +381,7 @@ add_task
 (
 async
 function
-test_translations_actor_sync_delete
+test_translations_actor_sync_delete_models
 (
 )
 {
@@ -639,7 +639,7 @@ add_task
 (
 async
 function
-test_translations_actor_sync_create
+test_translations_actor_sync_create_models
 (
 )
 {
@@ -996,7 +996,7 @@ add_task
 (
 async
 function
-test_translations_actor_sync_create_higher_minor_version
+test_translations_actor_sync_create_models_higher_minor_version
 (
 )
 {
@@ -1380,7 +1380,7 @@ add_task
 (
 async
 function
-test_translations_actor_sync_create_higher_major_version
+test_translations_actor_sync_create_models_higher_major_version
 (
 )
 {
@@ -1768,7 +1768,7 @@ add_task
 (
 async
 function
-test_translations_actor_sync_rollback
+test_translations_actor_sync_rollback_models
 (
 )
 {

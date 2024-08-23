@@ -1716,10 +1716,14 @@ TranslationsParent
 mockTranslationsEngine
 (
 client
+(
 await
 createTranslationsWasmRemoteClient
 (
 )
+)
+.
+client
 )
 ;
 const
