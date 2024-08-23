@@ -4882,6 +4882,16 @@ FontFace
 "
 container
 "
+if
+cfg
+!
+(
+feature
+=
+"
+gecko
+"
+)
 =
 >
 {

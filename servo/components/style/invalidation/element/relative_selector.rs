@@ -87,6 +87,17 @@ TElement
 TNode
 }
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 crate
 :

@@ -289,6 +289,17 @@ StyleParseErrorKind
 ToCss
 }
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 thin_vec
 :

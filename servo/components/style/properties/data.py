@@ -6000,6 +6000,19 @@ emphasis
 color
 "
 )
+        
+props
+.
+remove
+(
+"
+text
+-
+wrap
+-
+style
+"
+)
     
 props
 .
@@ -6057,19 +6070,6 @@ text
 wrap
 -
 mode
-"
-)
-    
-props
-.
-remove
-(
-"
-text
--
-wrap
--
-style
 "
 )
     

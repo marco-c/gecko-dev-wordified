@@ -147,6 +147,17 @@ cssparser
 :
 SourceLocation
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+gecko
+"
+)
+]
 use
 malloc_size_of
 :
