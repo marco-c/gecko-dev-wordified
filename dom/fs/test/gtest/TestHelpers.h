@@ -505,6 +505,9 @@ namespace
 quota
 {
 struct
+ClientMetadata
+;
+struct
 OriginMetadata
 ;
 }
@@ -523,6 +526,14 @@ quota
 :
 OriginMetadata
 GetTestOriginMetadata
+(
+)
+;
+quota
+:
+:
+ClientMetadata
+GetTestClientMetadata
 (
 )
 ;
