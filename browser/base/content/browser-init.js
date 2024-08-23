@@ -2348,7 +2348,7 @@ init
 (
 )
 ;
-XPCOMUtils
+BrowserUtils
 .
 callModulesFromCategory
 (
