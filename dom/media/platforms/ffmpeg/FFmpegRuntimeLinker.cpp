@@ -839,7 +839,7 @@ lib
 FFmpegLibWrapper
 :
 :
-LinkResultToString
+EnumValueToString
 (
 res
 )
