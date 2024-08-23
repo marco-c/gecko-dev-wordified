@@ -213,6 +213,9 @@ h
 namespace
 js
 {
+class
+JitFrameIter
+;
 namespace
 jit
 {
@@ -1559,12 +1562,12 @@ writable
 )
 ;
 void
-HandleThrow
+HandleExceptionWasm
 (
 JSContext
 *
 cx
-WasmFrameIter
+JitFrameIter
 &
 iter
 jit

@@ -919,6 +919,8 @@ frameType
 uint8_t
 *
 fp
+bool
+unwinding
 )
 ;
 void
