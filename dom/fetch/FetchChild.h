@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIContentSecurityPolicy
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h

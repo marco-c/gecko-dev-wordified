@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsIContentSecurityPolicy
+.
+h
+"
+#
+include
+"
 nsIOpenWindowInfo
 .
 h

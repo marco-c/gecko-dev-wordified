@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIContentSecurityPolicy
-.
-h
-"
-#
-include
-"
 nsIInterceptionInfo
 .
 h

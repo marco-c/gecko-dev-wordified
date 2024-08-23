@@ -136,13 +136,9 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
+class
 nsIContentSecurityPolicy
-.
-h
-"
+;
 namespace
 IPC
 {

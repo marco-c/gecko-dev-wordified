@@ -123,7 +123,7 @@ mozilla_net_InterceptionInfo_h
 #
 include
 "
-nsIContentSecurityPolicy
+nsIContentPolicy
 .
 h
 "

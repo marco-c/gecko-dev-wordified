@@ -147,13 +147,6 @@ h
 #
 include
 "
-nsIContentSecurityPolicy
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
@@ -172,6 +165,9 @@ nsString
 .
 h
 "
+class
+nsIContentSecurityPolicy
+;
 namespace
 mozilla
 {
