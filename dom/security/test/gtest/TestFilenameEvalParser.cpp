@@ -1924,7 +1924,6 @@ value
 )
 =
 =
-u
 "
 thing
 "
