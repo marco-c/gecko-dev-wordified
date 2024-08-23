@@ -19666,6 +19666,7 @@ transArray
 action
 event
 dataTransfer
+dragTarget
 )
 ;
 }
