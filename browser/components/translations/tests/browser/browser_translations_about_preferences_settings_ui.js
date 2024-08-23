@@ -1957,7 +1957,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -2019,7 +2019,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -2051,7 +2051,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -2365,7 +2365,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -2423,7 +2423,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -2453,7 +2453,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
