@@ -1776,17 +1776,6 @@ baseline
 -
 interp
 "
-"
--
--
-enable
--
-explicit
--
-resource
--
-management
-"
 )
 def
 jit_default
@@ -1794,7 +1783,6 @@ jit_default
 target
 enable_record_tuple
 enable_portable_baseline_interp
-enable_explicit_resource_management
 )
 :
 if
@@ -1804,11 +1792,6 @@ return
 False
 if
 enable_portable_baseline_interp
-:
-return
-False
-if
-enable_explicit_resource_management
 :
 return
 False

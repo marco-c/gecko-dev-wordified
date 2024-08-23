@@ -26342,14 +26342,8 @@ the
 present
 environment
 object
-and
-the
-*
-length
-of
-the
-same
 .
+*
 In
 case
 the
@@ -26383,11 +26377,6 @@ the
 dispose
 *
 capability
-and
-0
-as
-the
-length
 .
 After
 extracting
@@ -26439,7 +26428,6 @@ Stack
 =
 >
 disposeCapability
-count
 *
 /
 \
@@ -26452,7 +26440,7 @@ take_dispose_capability
 NULL
 1
 0
-2
+1
 JOF_BYTE
 )
 )
