@@ -32836,13 +32836,7 @@ fullBounds
 =
 RoundedOut
 (
-currentTransform
-.
-TransformBounds
-(
-*
-bounds
-)
+xformBounds
 )
 ;
 IntRect
