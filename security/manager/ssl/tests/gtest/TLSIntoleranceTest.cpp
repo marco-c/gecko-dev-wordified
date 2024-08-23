@@ -183,6 +183,10 @@ helpers
 new
 nsSSLIOLayerHelpers
 (
+PublicOrPrivate
+:
+:
+Public
 0
 )
 ;
