@@ -2959,11 +2959,6 @@ CSSPageDescriptors
 .
 webidl
 "
-"
-CSSPositionTryDescriptors
-.
-webidl
-"
 ]
 PREPROCESSED_WEBIDL_FILES
 =
@@ -3454,11 +3449,6 @@ webidl
 "
 "
 CSSPageRule
-.
-webidl
-"
-"
-CSSPositionTryRule
 .
 webidl
 "
