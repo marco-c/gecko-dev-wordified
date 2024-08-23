@@ -11615,6 +11615,12 @@ CC
 "
 CXX
 "
+"
+HOST_CC
+"
+"
+HOST_CXX
+"
 )
 :
 #
