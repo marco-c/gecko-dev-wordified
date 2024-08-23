@@ -34789,12 +34789,9 @@ mIsPrivate
 aPrincipal
 -
 >
-GetPrivateBrowsingId
+GetIsInPrivateBrowsing
 (
 )
-!
-=
-0
 ;
 return
 principalMetadata

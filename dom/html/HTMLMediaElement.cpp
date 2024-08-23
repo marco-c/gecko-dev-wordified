@@ -31883,11 +31883,9 @@ NodePrincipal
 )
 -
 >
-GetPrivateBrowsingId
+GetIsInPrivateBrowsing
 (
 )
->
-0
 ;
 return
 SetupDecoder

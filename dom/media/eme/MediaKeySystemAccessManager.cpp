@@ -3733,11 +3733,9 @@ NodePrincipal
 )
 -
 >
-GetPrivateBrowsingId
+GetIsInPrivateBrowsing
 (
 )
->
-0
 ;
 /
 /

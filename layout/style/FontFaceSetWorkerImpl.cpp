@@ -846,11 +846,9 @@ mPrivateBrowsing
 defaultPrincipal
 -
 >
-GetPrivateBrowsingId
+GetIsInPrivateBrowsing
 (
 )
->
-0
 ;
 }
 mStandardFontLoadPrincipal

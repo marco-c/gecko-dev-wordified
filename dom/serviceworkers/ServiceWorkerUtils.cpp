@@ -365,11 +365,9 @@ return
 principal
 -
 >
-GetPrivateBrowsingId
+GetIsInPrivateBrowsing
 (
 )
->
-0
 ;
 }
 }

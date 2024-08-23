@@ -18695,15 +18695,13 @@ window
 .
 if
 (
+!
 principal
 -
 >
-GetPrivateBrowsingId
+GetIsInPrivateBrowsing
 (
 )
-=
-=
-0
 )
 {
 RefPtr
