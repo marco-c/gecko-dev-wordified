@@ -1131,7 +1131,10 @@ HandlePaste
 AutoEditActionDataSetter
 &
 aEditActionData
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 )
 {
@@ -1578,7 +1581,10 @@ TextEditor
 :
 CanPaste
 (
-int32_t
+nsIClipboard
+:
+:
+ClipboardType
 aClipboardType
 )
 const

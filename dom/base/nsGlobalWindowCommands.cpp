@@ -3732,10 +3732,13 @@ nsCopySupport
 FireClipboardEvent
 (
 eventMessage
+Some
+(
 nsIClipboard
 :
 :
 kGlobalClipboard
+)
 presShell
 nullptr
 &

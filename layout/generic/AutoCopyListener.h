@@ -323,7 +323,10 @@ macOS
 .
 static
 const
-int16_t
+nsIClipboard
+:
+:
+ClipboardType
 sClipboardID
 =
 nsIClipboard
@@ -350,7 +353,10 @@ changes
 .
 static
 const
-int16_t
+nsIClipboard
+:
+:
+ClipboardType
 sClipboardID
 =
 nsIClipboard
