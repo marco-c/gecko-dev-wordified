@@ -349,6 +349,11 @@ layers
 :
 LayersBackend
 aCompositorBackend
+layers
+:
+:
+TextureType
+aTextureType
 bool
 aNeutered
 bool
@@ -373,6 +378,10 @@ aHeight
 mCompositorBackendType
 (
 aCompositorBackend
+)
+mTextureType
+(
+aTextureType
 )
 mNeutered
 (
@@ -457,6 +466,11 @@ layers
 :
 LayersBackend
 aCompositorBackend
+layers
+:
+:
+TextureType
+aTextureType
 already_AddRefed
 <
 OffscreenCanvasDisplayHelper
@@ -479,6 +493,10 @@ aHeight
 mCompositorBackendType
 (
 aCompositorBackend
+)
+mTextureType
+(
+aTextureType
 )
 mDisplay
 (
@@ -1963,6 +1981,7 @@ mDisplay
 CommitFrameToCompositor
 (
 mCurrentContext
+mTextureType
 update
 )
 ;
@@ -2060,6 +2079,7 @@ mDisplay
 CommitFrameToCompositor
 (
 mCurrentContext
+mTextureType
 update
 )
 ;
@@ -2318,6 +2338,7 @@ mDisplay
 mWidth
 mHeight
 mCompositorBackendType
+mTextureType
 mNeutered
 mIsWriteOnly
 mExpandedReader
@@ -3529,6 +3550,10 @@ aData
 -
 >
 mCompositorBackendType
+aData
+-
+>
+mTextureType
 aData
 -
 >

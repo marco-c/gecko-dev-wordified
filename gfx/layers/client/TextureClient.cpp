@@ -2538,12 +2538,6 @@ webglTextureType
 TexTypeForWebgl
 (
 aKnowsCompositor
-/
-*
-aIsWebglOop
-*
-/
-true
 )
 ;
 if
