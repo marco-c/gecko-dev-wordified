@@ -474,7 +474,7 @@ on
 click
 '
 '
-#
+.
 clear
 -
 completed

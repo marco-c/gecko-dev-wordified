@@ -51,6 +51,9 @@ false
 minify
 :
 false
+sourcemap
+:
+true
 rollupOptions
 :
 {
