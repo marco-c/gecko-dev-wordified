@@ -3106,7 +3106,7 @@ clearCache
 ;
 TranslationsPanelShared
 .
-clearCache
+clearLanguageListsCache
 (
 )
 ;
@@ -3186,7 +3186,7 @@ clearCache
 ;
 TranslationsPanelShared
 .
-clearCache
+clearLanguageListsCache
 (
 )
 ;
