@@ -5448,6 +5448,14 @@ nsIContent
 (
 aFormElement
 )
+static_cast
+<
+nsIContent
+*
+>
+(
+aIntendedParent
+)
 )
 ;
 }
@@ -5490,6 +5498,7 @@ operation
 (
 content
 aFormElement
+aIntendedParent
 )
 ;
 treeOp
