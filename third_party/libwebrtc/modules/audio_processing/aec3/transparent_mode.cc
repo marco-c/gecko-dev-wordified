@@ -144,6 +144,14 @@ kBlocksSinceConsistentEstimateInit
 =
 10000
 ;
+constexpr
+float
+kInitialTransparentStateProbability
+=
+0
+.
+2f
+;
 bool
 DeactivateTransparentMode
 (
@@ -254,9 +262,7 @@ mode
 .
 prob_transparent_state_
 =
-0
-.
-f
+kInitialTransparentStateProbability
 ;
 }
 void
@@ -784,9 +790,7 @@ false
 float
 prob_transparent_state_
 =
-0
-.
-f
+kInitialTransparentStateProbability
 ;
 }
 ;
