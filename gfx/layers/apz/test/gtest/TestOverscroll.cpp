@@ -580,7 +580,6 @@ updater
 &
 scrollData
 )
-false
 guid
 .
 mLayersId

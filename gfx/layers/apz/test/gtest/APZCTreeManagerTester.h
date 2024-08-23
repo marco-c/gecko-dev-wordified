@@ -570,15 +570,6 @@ updater
 &
 layers
 }
-/
-*
-is
-first
-paint
-=
-*
-/
-false
 LayersId
 {
 0
