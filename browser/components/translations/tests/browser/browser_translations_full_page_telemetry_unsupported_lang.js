@@ -587,9 +587,13 @@ FullPageTranslationsTestUtils
 .
 changeSelectedFromLanguage
 (
+{
+langTag
+:
 "
 fr
 "
+}
 )
 ;
 await

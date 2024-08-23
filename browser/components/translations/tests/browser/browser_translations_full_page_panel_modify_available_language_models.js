@@ -777,9 +777,13 @@ FullPageTranslationsTestUtils
 .
 changeSelectedToLanguage
 (
+{
+langTag
+:
 "
 ja
 "
+}
 )
 ;
 await
