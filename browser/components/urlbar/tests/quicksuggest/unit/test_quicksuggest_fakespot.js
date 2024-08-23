@@ -3431,10 +3431,10 @@ undefined
 displayUrl
 =
 undefined
-telemetryType
+fakespotProvider
 =
 "
-fakespot_amazon
+amazon
 "
 rating
 =
@@ -3580,6 +3580,12 @@ provider
 Fakespot
 "
 telemetryType
+:
+"
+fakespot_
+"
++
+fakespotProvider
 url
 originalUrl
 title
@@ -3587,6 +3593,7 @@ displayUrl
 rating
 totalReviews
 fakespotGrade
+fakespotProvider
 shouldNavigate
 :
 true
