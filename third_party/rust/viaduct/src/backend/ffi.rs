@@ -593,7 +593,9 @@ from
 u16
 :
 :
-MAX
+max_value
+(
+)
 )
 {
 return

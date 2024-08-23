@@ -158,6 +158,9 @@ fn
 assert_json
 <
 T
+:
+?
+Sized
 >
 (
 v
@@ -178,9 +181,6 @@ serde
 :
 :
 Serialize
-+
-?
-Sized
 {
 assert_eq
 !
@@ -297,13 +297,6 @@ case
 it
 panics
 .
-#
-[
-allow
-(
-dead_code
-)
-]
 #
 [
 derive
