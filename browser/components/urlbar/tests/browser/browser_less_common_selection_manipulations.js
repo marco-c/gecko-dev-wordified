@@ -918,7 +918,7 @@ startOffset
 =
 UrlbarPrefs
 .
-get
+getScotchBonnetPref
 (
 "
 untrimOnUserInteraction
