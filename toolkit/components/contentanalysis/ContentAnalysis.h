@@ -1088,6 +1088,12 @@ mResolver
 ;
 static
 bool
+MightBeActive
+(
+)
+;
+static
+bool
 CheckClipboardContentAnalysisSync
 (
 nsBaseClipboard
