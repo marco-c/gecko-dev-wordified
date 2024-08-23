@@ -212,7 +212,7 @@ Histogram
 [
         
 "
-timing_distribution
+custom_distribution
 "
         
 "
@@ -228,7 +228,11 @@ labeled_memory_distribution
 "
         
 "
-custom_distribution
+timing_distribution
+"
+        
+"
+labeled_timing_distribution
 "
     
 ]
