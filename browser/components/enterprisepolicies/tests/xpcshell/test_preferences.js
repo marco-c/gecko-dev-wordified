@@ -45,6 +45,13 @@ Preferences
 :
 {
 "
+network
+.
+IDN_show_punycode
+"
+:
+true
+"
 accessibility
 .
 force_disabled
@@ -82,6 +89,13 @@ showPane
 lockedPrefs
 :
 {
+"
+network
+.
+IDN_show_punycode
+"
+:
+true
 "
 accessibility
 .
