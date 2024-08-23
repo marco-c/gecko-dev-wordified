@@ -126,6 +126,15 @@ h
 #
 include
 "
+gc
+/
+Zone
+.
+h
+"
+#
+include
+"
 js
 /
 Object
@@ -685,6 +694,9 @@ thread
 /
 MOZ_ASSERT
 (
+js
+:
+:
 CurrentThreadCanAccessZone
 (
 zone
