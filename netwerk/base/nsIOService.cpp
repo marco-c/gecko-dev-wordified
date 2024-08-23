@@ -1671,6 +1671,15 @@ service
 .
 testMode
 "
+"
+network
+.
+socket
+.
+ip_addr_any
+.
+disabled
+"
 nullptr
 }
 ;
