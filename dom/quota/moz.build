@@ -202,6 +202,11 @@ AssertionsImpl
 h
 "
 "
+BackgroundThreadObject
+.
+h
+"
+"
 CachingDatabaseConnection
 .
 h
@@ -488,6 +493,11 @@ cpp
 "
 "
 Assertions
+.
+cpp
+"
+"
+BackgroundThreadObject
 .
 cpp
 "
