@@ -100,7 +100,7 @@ C
 )
 2005
 -
-2023
+2024
 by
 *
 David
@@ -780,10 +780,10 @@ bdf
 FT_Size
 size
 =
-FT_FACE_SIZE
-(
 face
-)
+-
+>
+size
 ;
 FT_Error
 error

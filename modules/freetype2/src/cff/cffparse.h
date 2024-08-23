@@ -97,7 +97,7 @@ C
 )
 1996
 -
-2023
+2024
 by
 *
 David
@@ -494,6 +494,7 @@ cff_kind_fixed_thousand
 cff_kind_string
 cff_kind_bool
 cff_kind_delta
+cff_kind_delta_fixed
 cff_kind_callback
 cff_kind_blend
 cff_kind_max

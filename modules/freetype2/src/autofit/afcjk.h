@@ -103,7 +103,7 @@ C
 )
 2006
 -
-2023
+2024
 by
 *
 David
@@ -814,7 +814,7 @@ blue_count
 AF_CJKBlueRec
 blues
 [
-AF_BLUE_STRINGSET_MAX
+AF_BLUE_STRINGSET_MAX_LEN
 ]
 ;
 FT_Fixed

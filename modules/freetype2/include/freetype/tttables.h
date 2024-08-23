@@ -104,7 +104,7 @@ C
 )
 1996
 -
-2023
+2024
 by
 *
 David
@@ -5236,6 +5236,18 @@ an
 SFNT
 face
 *
+(
+including
+the
+synthetic
+Unicode
+charmap
+sometimes
+created
+by
+*
+FreeType
+)
 return
 -
 1

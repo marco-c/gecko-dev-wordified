@@ -98,7 +98,7 @@ C
 )
 2000
 -
-2023
+2024
 by
 *
 David
@@ -555,11 +555,6 @@ methods
 my_family_compare
 *
 my_family_init
-*
-my_family_reset
-(
-optional
-)
 *
 my_family_done
 *

@@ -98,7 +98,7 @@ C
 )
 1996
 -
-2023
+2024
 by
 *
 David
@@ -541,7 +541,7 @@ CFFCODE
 define
 CFFCODE
 CFF_CODE_PRIVATE
-CFF_FIELD_DELTA
+CFF_FIELD_DELTA_FIXED
 (
 6
 blue_values
@@ -550,7 +550,7 @@ blue_values
 BlueValues
 "
 )
-CFF_FIELD_DELTA
+CFF_FIELD_DELTA_FIXED
 (
 7
 other_blues
@@ -559,7 +559,7 @@ other_blues
 OtherBlues
 "
 )
-CFF_FIELD_DELTA
+CFF_FIELD_DELTA_FIXED
 (
 8
 family_blues
@@ -568,7 +568,7 @@ family_blues
 FamilyBlues
 "
 )
-CFF_FIELD_DELTA
+CFF_FIELD_DELTA_FIXED
 (
 9
 family_other_blues
@@ -813,7 +813,7 @@ CFFCODE
 define
 CFFCODE
 CFF2_CODE_PRIVATE
-CFF_FIELD_DELTA
+CFF_FIELD_DELTA_FIXED
 (
 6
 blue_values
@@ -822,7 +822,7 @@ blue_values
 BlueValues
 "
 )
-CFF_FIELD_DELTA
+CFF_FIELD_DELTA_FIXED
 (
 7
 other_blues
@@ -831,7 +831,7 @@ other_blues
 OtherBlues
 "
 )
-CFF_FIELD_DELTA
+CFF_FIELD_DELTA_FIXED
 (
 8
 family_blues
@@ -840,7 +840,7 @@ family_blues
 FamilyBlues
 "
 )
-CFF_FIELD_DELTA
+CFF_FIELD_DELTA_FIXED
 (
 9
 family_other_blues

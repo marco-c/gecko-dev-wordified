@@ -18,7 +18,7 @@ C
 )
 1995
 -
-2022
+2023
 Mark
 Adler
 *
@@ -66,13 +66,11 @@ inflate_copyright
 inflate
 1
 .
-2
-.
-13
+3
 Copyright
 1995
 -
-2022
+2023
 Mark
 Adler
 "
@@ -691,8 +689,8 @@ extra
 21
 21
 16
-194
-65
+198
+203
 }
 ;
 static

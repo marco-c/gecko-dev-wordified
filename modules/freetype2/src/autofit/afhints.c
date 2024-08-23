@@ -99,7 +99,7 @@ C
 )
 2003
 -
-2023
+2024
 by
 *
 David
@@ -5063,7 +5063,7 @@ outline
 >
 points
 ;
-char
+FT_Byte
 *
 tag
 =
@@ -5072,7 +5072,7 @@ outline
 >
 tags
 ;
-FT_Short
+FT_UShort
 endpoint
 =
 outline
@@ -5475,7 +5475,7 @@ hints
 >
 num_contours
 ;
-short
+FT_UShort
 *
 end
 =
@@ -5484,7 +5484,7 @@ outline
 >
 contours
 ;
-short
+FT_Int
 idx
 =
 0
@@ -5515,17 +5515,10 @@ idx
 ;
 idx
 =
-(
-short
-)
-(
+*
 end
-[
-0
-]
 +
 1
-)
 ;
 }
 }
@@ -6885,7 +6878,7 @@ outline
 >
 points
 ;
-char
+FT_Byte
 *
 tag
 =

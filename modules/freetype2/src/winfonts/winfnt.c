@@ -99,7 +99,7 @@ C
 )
 1996
 -
-2023
+2024
 by
 *
 David
@@ -1783,7 +1783,7 @@ FT_STREAM_POS
 )
 +
 4
-+
+-
 (
 FT_ULong
 )
@@ -1791,12 +1791,12 @@ FT_ULong
 stream
 -
 >
-cursor
+limit
 -
 stream
 -
 >
-limit
+cursor
 )
 ;
 break
@@ -4909,10 +4909,10 @@ face
 (
 FNT_Face
 )
-FT_SIZE_FACE
-(
 size
-)
+-
+>
+face
 ;
 FNT_Font
 font

@@ -110,7 +110,7 @@ C
 )
 1996
 -
-2023
+2024
 by
 *
 David
@@ -711,7 +711,7 @@ to
 become
 non
 -
-degenrate
+degenerate
 and
 visible
 like

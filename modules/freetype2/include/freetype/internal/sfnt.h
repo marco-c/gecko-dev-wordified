@@ -102,7 +102,7 @@ C
 )
 1996
 -
-2023
+2024
 by
 *
 David
@@ -6074,6 +6074,9 @@ TT_Load_Table_Func
 load_kern
 ;
 TT_Load_Table_Func
+load_gpos
+;
+TT_Load_Table_Func
 load_gasp
 ;
 TT_Load_Table_Func
@@ -6179,6 +6182,9 @@ version
 10
 *
 /
+TT_Face_GetKerningFunc
+get_gpos_kerning
+;
 /
 *
 load
@@ -6331,6 +6337,8 @@ free_name_
 \
 load_kern_
 \
+load_gpos_
+\
 load_gasp_
 \
 load_pclt_
@@ -6344,6 +6352,8 @@ get_psname_
 free_psnames_
 \
 get_kerning_
+\
+get_gpos_kerning_
 \
 load_font_dir_
 \
@@ -6432,6 +6442,8 @@ free_name_
 \
 load_kern_
 \
+load_gpos_
+\
 load_gasp_
 \
 load_pclt_
@@ -6445,6 +6457,8 @@ get_psname_
 free_psnames_
 \
 get_kerning_
+\
+get_gpos_kerning_
 \
 load_font_dir_
 \

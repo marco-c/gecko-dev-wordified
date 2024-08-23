@@ -623,7 +623,7 @@ decoder
 size_t
 *
 count
-FT_Pos
+FT_Fixed
 *
 *
 data
@@ -641,7 +641,7 @@ decoder
 size_t
 *
 count
-FT_Pos
+FT_Fixed
 *
 *
 data
@@ -659,7 +659,7 @@ decoder
 size_t
 *
 count
-FT_Pos
+FT_Fixed
 *
 *
 data
@@ -677,7 +677,7 @@ decoder
 size_t
 *
 count
-FT_Pos
+FT_Fixed
 *
 *
 data

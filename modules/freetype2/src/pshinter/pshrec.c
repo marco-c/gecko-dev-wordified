@@ -98,7 +98,7 @@ C
 )
 2001
 -
-2023
+2024
 by
 *
 David
@@ -4738,7 +4738,7 @@ FT_UInt
 dimension
 FT_Int
 count
-FT_Long
+FT_Pos
 *
 stems
 )

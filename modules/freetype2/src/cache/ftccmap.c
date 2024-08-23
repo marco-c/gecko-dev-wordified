@@ -96,7 +96,7 @@ C
 )
 2000
 -
-2023
+2024
 by
 *
 David
@@ -1961,8 +1961,8 @@ char_code
 )
 ;
 #
-if
-1
+ifdef
+FTC_INLINE
 FTC_CACHE_LOOKUP_CMP
 (
 cache

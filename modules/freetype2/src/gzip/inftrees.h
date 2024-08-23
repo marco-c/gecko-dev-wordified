@@ -560,8 +560,6 @@ static
 int
 ZLIB_INTERNAL
 inflate_table
-OF
-(
 (
 codetype
 type
@@ -588,12 +586,12 @@ FAR
 *
 work
 )
-)
 ;
 #
 endif
 /
 *
-INFTREES_H_
+!
+INFTREES_H
 *
 /

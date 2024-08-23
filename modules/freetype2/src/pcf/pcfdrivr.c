@@ -2361,10 +2361,10 @@ face
 (
 PCF_Face
 )
-FT_SIZE_FACE
-(
 size
-)
+-
+>
+face
 ;
 FT_Stream
 stream

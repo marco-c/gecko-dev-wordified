@@ -98,7 +98,7 @@ C
 )
 2000
 -
-2023
+2024
 by
 *
 David
@@ -1018,6 +1018,18 @@ hash
 )
 #
 endif
+FT_LOCAL
+(
+void
+)
+ftc_node_destroy
+(
+FTC_Node
+node
+FTC_Manager
+manager
+)
+;
 /
 *
 *

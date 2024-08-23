@@ -114,7 +114,7 @@ C
 )
 1996
 -
-2023
+2024
 by
 *
 David
@@ -5735,11 +5735,6 @@ FT_Memory
 memory
 =
 face
--
->
-root
-.
-driver
 -
 >
 root
