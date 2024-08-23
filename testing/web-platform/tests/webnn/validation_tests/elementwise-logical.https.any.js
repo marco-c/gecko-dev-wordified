@@ -72,7 +72,17 @@ operatorName
 =
 >
 {
+validateTwoInputsOfSameDataType
+(
+operatorName
+)
+;
 validateTwoInputsFromMultipleBuilders
+(
+operatorName
+)
+;
+validateTwoInputsBroadcastable
 (
 operatorName
 )
@@ -83,7 +93,7 @@ operatorName
 /
 /
 The
-not
+logicalNot
 (
 )
 operator
@@ -93,7 +103,7 @@ unary
 validateInputFromAnotherBuilder
 (
 '
-not
+logicalNot
 '
 )
 ;
