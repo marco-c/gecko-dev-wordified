@@ -142,10 +142,7 @@ use
 http
 :
 :
-{
-self
 header
-}
 ;
 use
 crate

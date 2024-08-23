@@ -35,7 +35,6 @@ http
 :
 :
 {
-self
 header
 StatusCode
 }

@@ -62,8 +62,6 @@ use
 http
 :
 :
-{
-self
 header
 :
 :
@@ -71,7 +69,6 @@ header
 self
 HeaderName
 HeaderValue
-}
 }
 ;
 use

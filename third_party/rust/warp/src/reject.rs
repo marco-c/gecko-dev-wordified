@@ -723,7 +723,6 @@ http
 :
 :
 {
-self
 header
 :
 :
@@ -5003,12 +5002,6 @@ super
 :
 *
 ;
-use
-http
-:
-:
-StatusCode
-;
 #
 [
 derive
@@ -5760,6 +5753,13 @@ Debug
 struct
 X
 (
+#
+[
+allow
+(
+unused
+)
+]
 u32
 )
 ;

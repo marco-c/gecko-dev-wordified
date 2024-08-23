@@ -98,9 +98,6 @@ hyper
 Body
 ;
 use
-mime
-;
-use
 serde
 :
 :
@@ -108,12 +105,6 @@ de
 :
 :
 DeserializeOwned
-;
-use
-serde_json
-;
-use
-serde_urlencoded
 ;
 use
 crate
