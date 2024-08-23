@@ -87,7 +87,7 @@ div
 "
 )
 .
-shadowRoot
+openOrClosedShadowRoot
 .
 querySelector
 (
@@ -102,7 +102,7 @@ secondTestPageDiv
 =
 firstTestPageDiv
 .
-shadowRoot
+openOrClosedShadowRoot
 .
 querySelector
 (
@@ -111,7 +111,7 @@ div
 "
 )
 .
-shadowRoot
+openOrClosedShadowRoot
 .
 querySelector
 (
