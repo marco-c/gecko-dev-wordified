@@ -51,7 +51,7 @@ builds
 .
 requestLongerTimeout
 (
-2
+3
 )
 ;
 /
