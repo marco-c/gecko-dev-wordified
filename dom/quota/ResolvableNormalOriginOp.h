@@ -248,15 +248,6 @@ SendResults
 )
 override
 {
-#
-ifdef
-DEBUG
-NoteActorDestroyed
-(
-)
-;
-#
-endif
 if
 (
 Canceled
