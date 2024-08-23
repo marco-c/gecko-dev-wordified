@@ -3327,10 +3327,7 @@ promise
 }
 Rooted
 <
-UniquePtr
-<
 ImportAttributeVector
->
 >
 attributes
 (
@@ -3352,7 +3349,6 @@ create
 (
 cx
 specifierAtom
-&
 attributes
 )
 )
