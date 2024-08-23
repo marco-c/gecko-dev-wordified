@@ -3299,7 +3299,7 @@ return
 NS_OK
 ;
 }
-nsIntSize
+CSSIntSize
 HTMLCanvasElement
 :
 :
@@ -3307,12 +3307,10 @@ GetWidthHeight
 (
 )
 {
-nsIntSize
+CSSIntSize
 size
-(
-DEFAULT_CANVAS_WIDTH
-DEFAULT_CANVAS_HEIGHT
-)
+=
+kFallbackIntrinsicSizeInPixels
 ;
 const
 nsAttrValue
@@ -4151,7 +4149,7 @@ printing
 to
 fail
 .
-nsIntSize
+CSSIntSize
 size
 =
 GetWidthHeight
@@ -5454,7 +5452,7 @@ nsAString
 aDataURL
 )
 {
-nsIntSize
+CSSIntSize
 size
 =
 GetWidthHeight
@@ -5836,7 +5834,7 @@ MOZ_ASSERT
 global
 )
 ;
-nsIntSize
+CSSIntSize
 elemSize
 =
 GetWidthHeight
@@ -6170,7 +6168,7 @@ AsKnowsCompositor
 ;
 }
 }
-nsIntSize
+CSSIntSize
 sz
 =
 GetWidthHeight
@@ -6384,7 +6382,7 @@ aRv
 )
 ;
 }
-nsIntSize
+CSSIntSize
 HTMLCanvasElement
 :
 :
@@ -6583,7 +6581,7 @@ nsGkAtoms
 :
 width
 aWidth
-DEFAULT_CANVAS_WIDTH
+kFallbackIntrinsicWidthInPixels
 aRv
 )
 ;
@@ -6636,7 +6634,7 @@ nsGkAtoms
 :
 height
 aHeight
-DEFAULT_CANVAS_HEIGHT
+kFallbackIntrinsicHeightInPixels
 aRv
 )
 ;
@@ -6726,7 +6724,7 @@ width
 aSize
 .
 width
-DEFAULT_CANVAS_WIDTH
+kFallbackIntrinsicWidthInPixels
 aRv
 )
 ;
@@ -6749,7 +6747,7 @@ height
 aSize
 .
 height
-DEFAULT_CANVAS_HEIGHT
+kFallbackIntrinsicHeightInPixels
 aRv
 )
 ;
@@ -6808,7 +6806,7 @@ nsGkAtoms
 :
 width
 aWidth
-DEFAULT_CANVAS_WIDTH
+kFallbackIntrinsicWidthInPixels
 rv
 )
 ;
@@ -6829,7 +6827,7 @@ nsGkAtoms
 :
 height
 aHeight
-DEFAULT_CANVAS_HEIGHT
+kFallbackIntrinsicHeightInPixels
 rv
 )
 ;
@@ -7062,7 +7060,7 @@ if
 damageRect
 )
 {
-nsIntSize
+CSSIntSize
 size
 =
 GetWidthHeight

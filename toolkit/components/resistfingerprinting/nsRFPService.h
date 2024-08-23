@@ -1182,7 +1182,7 @@ CanvasUsage
 {
 public
 :
-nsIntSize
+CSSIntSize
 mSize
 ;
 dom
@@ -1196,7 +1196,7 @@ mFeatureUsage
 ;
 CanvasUsage
 (
-nsIntSize
+CSSIntSize
 aSize
 dom
 :

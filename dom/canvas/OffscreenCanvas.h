@@ -793,15 +793,14 @@ return
 false
 ;
 }
-virtual
-nsIntSize
+CSSIntSize
 GetWidthHeight
 (
 )
 override
 {
 return
-nsIntSize
+CSSIntSize
 (
 mWidth
 mHeight

@@ -6899,7 +6899,9 @@ else
 {
 /
 /
-XXX
+Bug
+1907668
+:
 The
 canvas
 size
@@ -6923,7 +6925,7 @@ null
 "
 )
 ;
-nsIntSize
+CSSIntSize
 sz
 =
 aCanvas

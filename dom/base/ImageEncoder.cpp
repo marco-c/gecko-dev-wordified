@@ -997,7 +997,7 @@ aEncodingCompleteEvent
 int32_t
 aFormat
 const
-nsIntSize
+CSSIntSize
 aSize
 bool
 aUsePlaceholder
@@ -1363,7 +1363,7 @@ int32_t
 mFormat
 ;
 const
-nsIntSize
+CSSIntSize
 mSize
 ;
 bool
@@ -1393,7 +1393,7 @@ nsAString
 &
 aOptions
 const
-nsIntSize
+CSSIntSize
 aSize
 bool
 aUsePlaceholder
@@ -1519,8 +1519,13 @@ EncodingCompleteEvent
 aEncodeCallback
 )
 ;
-nsIntSize
+CSSIntSize
 size
+=
+CSSIntSize
+:
+:
+FromUnknownSize
 (
 aImage
 -
@@ -1528,16 +1533,6 @@ aImage
 GetSize
 (
 )
-.
-width
-aImage
--
->
-GetSize
-(
-)
-.
-height
 )
 ;
 nsCOMPtr
@@ -1605,7 +1600,7 @@ aImageBuffer
 int32_t
 aFormat
 const
-nsIntSize
+CSSIntSize
 aSize
 bool
 aUsePlaceholder
@@ -1795,7 +1790,7 @@ aImageBuffer
 int32_t
 aFormat
 const
-nsIntSize
+CSSIntSize
 aSize
 bool
 aUsePlaceholder
@@ -2297,6 +2292,10 @@ GetData
 )
 format
 aSize
+.
+ToUnknownSize
+(
+)
 data
 .
 Elements

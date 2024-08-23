@@ -48566,6 +48566,10 @@ aOffscreenCanvas
 GetWidthHeight
 (
 )
+.
+ToUnknownSize
+(
+)
 ;
 if
 (
@@ -50894,6 +50898,10 @@ aElement
 -
 >
 GetSize
+(
+)
+.
+ToUnknownSize
 (
 )
 ;
