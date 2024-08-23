@@ -1092,6 +1092,13 @@ url
 .
 sjs
 "
+"
+log
+-
+worker
+.
+js
+"
 ]
 ;
 /
