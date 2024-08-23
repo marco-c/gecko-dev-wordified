@@ -427,6 +427,11 @@ aCbCrSize
 gfx
 :
 :
+ChromaSubsampling
+aChromaSubsampling
+gfx
+:
+:
 YUVColorSpace
 aYUVColorSpace
 gfx
