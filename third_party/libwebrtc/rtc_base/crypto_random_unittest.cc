@@ -87,7 +87,7 @@ include
 "
 rtc_base
 /
-helpers
+crypto_random
 .
 h
 "
@@ -107,6 +107,11 @@ cstring
 include
 <
 string
+>
+#
+include
+<
+utility
 >
 #
 include

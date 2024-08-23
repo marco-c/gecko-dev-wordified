@@ -87,7 +87,7 @@ include
 "
 rtc_base
 /
-helpers
+crypto_random
 .
 h
 "
@@ -114,6 +114,11 @@ limits
 include
 <
 memory
+>
+#
+include
+<
+utility
 >
 #
 include

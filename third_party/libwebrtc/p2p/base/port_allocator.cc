@@ -144,6 +144,15 @@ checks
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+crypto_random
+.
+h
+"
 namespace
 cricket
 {
