@@ -1182,12 +1182,6 @@ nsIChannel
 aChannel
 )
 ;
-bool
-IsSystemLoad
-(
-)
-const
-;
 void
 GetOriginURL
 (
