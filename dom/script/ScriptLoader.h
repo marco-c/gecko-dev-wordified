@@ -3083,6 +3083,9 @@ nsIIncrementalStreamLoader
 *
 *
 aOutLoader
+nsIChannel
+*
+aChannel
 ScriptLoadRequest
 *
 aRequest
