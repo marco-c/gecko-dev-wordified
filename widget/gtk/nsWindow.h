@@ -4092,6 +4092,11 @@ mHasMappedToplevel
 1
 ;
 bool
+mRetryPointerGrab
+:
+1
+;
+bool
 mPanInProgress
 :
 1
