@@ -62,7 +62,7 @@ return
 const
 STATE_AFTER_STAGE
 =
-STATE_PENDING_SVC
+STATE_PENDING
 ;
 gTestFiles
 =
@@ -209,9 +209,9 @@ false
 await
 checkUpdateManager
 (
-STATE_PENDING_SVC
+STATE_PENDING
 true
-STATE_PENDING_SVC
+STATE_PENDING
 WRITE_ERROR
 0
 )
