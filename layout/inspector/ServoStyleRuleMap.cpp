@@ -664,6 +664,12 @@ StyleCssRuleType
 :
 StartingStyle
 :
+case
+StyleCssRuleType
+:
+:
+PositionTry
+:
 {
 /
 /
@@ -1028,6 +1034,12 @@ StyleCssRuleType
 :
 :
 FontPaletteValues
+:
+case
+StyleCssRuleType
+:
+:
+PositionTry
 :
 break
 ;
