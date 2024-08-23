@@ -22233,7 +22233,7 @@ GetDesktopToDeviceScale
 scale
 ;
 }
-int32_t
+uint32_t
 nsGlobalWindowInner
 :
 :
@@ -22284,7 +22284,7 @@ DebuggerNotificationType
 RequestAnimationFrame
 )
 ;
-int32_t
+uint32_t
 handle
 ;
 aError
@@ -22309,7 +22309,7 @@ nsGlobalWindowInner
 :
 CancelAnimationFrame
 (
-int32_t
+uint32_t
 aHandle
 ErrorResult
 &

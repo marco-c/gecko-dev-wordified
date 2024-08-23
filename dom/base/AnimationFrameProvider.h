@@ -170,7 +170,7 @@ FrameRequest
 FrameRequestCallback
 &
 aCallback
-int32_t
+uint32_t
 aHandle
 )
 ;
@@ -201,7 +201,7 @@ operator
 =
 =
 (
-int32_t
+uint32_t
 aHandle
 )
 const
@@ -217,7 +217,7 @@ bool
 operator
 <
 (
-int32_t
+uint32_t
 aHandle
 )
 const
@@ -234,7 +234,7 @@ FrameRequestCallback
 >
 mCallback
 ;
-int32_t
+uint32_t
 mHandle
 ;
 }
@@ -263,7 +263,7 @@ Schedule
 FrameRequestCallback
 &
 aCallback
-int32_t
+uint32_t
 *
 aHandle
 )
@@ -271,7 +271,7 @@ aHandle
 bool
 Cancel
 (
-int32_t
+uint32_t
 aHandle
 )
 ;
@@ -292,7 +292,7 @@ IsEmpty
 bool
 IsCanceled
 (
-int32_t
+uint32_t
 aHandle
 )
 const
@@ -387,7 +387,7 @@ mFrameRequestCallbacks
 .
 HashSet
 <
-int32_t
+uint32_t
 >
 mCanceledCallbacks
 ;
@@ -403,7 +403,7 @@ callback
 handle
 *
 /
-int32_t
+uint32_t
 mCallbackCounter
 =
 0
