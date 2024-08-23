@@ -1259,7 +1259,7 @@ active
 true
 "
 "
-Outer
+Inner
 signal
 abort
 event
@@ -1268,7 +1268,7 @@ event
 Teardown
 "
 "
-Inner
+Outer
 signal
 abort
 event
@@ -1345,7 +1345,7 @@ active
 true
 "
 "
-Outer
+Inner
 signal
 abort
 event
@@ -1354,13 +1354,13 @@ event
 Teardown
 "
 "
-Inner
+Outer
 signal
 abort
 event
 "
 "
-Outer
+Inner
 signal
 Promise
 "
@@ -1369,7 +1369,7 @@ Teardown
 Promise
 "
 "
-Inner
+Outer
 signal
 Promise
 "
