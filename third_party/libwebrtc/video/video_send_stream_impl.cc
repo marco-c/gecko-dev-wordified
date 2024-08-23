@@ -2893,12 +2893,7 @@ encoder_selector
 )
 encoder_feedback_
 (
-&
 env_
-.
-clock
-(
-)
 SupportsPerLayerPictureLossIndication
 (
 encoder_config
