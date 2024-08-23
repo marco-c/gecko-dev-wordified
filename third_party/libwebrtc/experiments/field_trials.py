@@ -2782,24 +2782,6 @@ FieldTrial
 '
 WebRTC
 -
-AutomaticAnimationDetectionScreenshare
-'
-               
-42221141
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 BindUsingInterfaceName
 '
                
@@ -5042,7 +5024,7 @@ str
 \
     
 '
-b0b0cce63bfdf327229b569576a07b716db186b7
+d6beac9eb318c70cd1695598b3d3c069cd17b42f
 '
 REGISTERED_FIELD_TRIALS
 :
