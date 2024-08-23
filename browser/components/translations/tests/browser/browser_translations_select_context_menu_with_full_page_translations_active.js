@@ -281,7 +281,12 @@ openAtSpanishSentence
 true
 expectMenuItemVisible
 :
-false
+true
+expectedTargetLanguage
+:
+"
+en
+"
 }
 "
 The
@@ -293,7 +298,8 @@ menu
 item
 should
 be
-unavailable
+available
+even
 while
 full
 -
@@ -635,7 +641,12 @@ openAtSpanishHyperlink
 true
 expectMenuItemVisible
 :
-false
+true
+expectedTargetLanguage
+:
+"
+en
+"
 }
 "
 The
@@ -647,7 +658,8 @@ menu
 item
 should
 be
-unavailable
+available
+even
 while
 full
 -
