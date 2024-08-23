@@ -3399,7 +3399,7 @@ key
 test
 ]
 fn
-test_encode_indexed_static
+encode_indexed_static
 (
 )
 {
@@ -3458,7 +3458,7 @@ result
 test
 ]
 fn
-test_encode_indexed_dynamic
+encode_indexed_dynamic
 (
 )
 {
@@ -3517,7 +3517,7 @@ result
 test
 ]
 fn
-test_encode_indexed_dynamic_post
+encode_indexed_dynamic_post
 (
 )
 {
@@ -3576,7 +3576,7 @@ result
 test
 ]
 fn
-test_encode_literal_with_name_ref_static
+encode_literal_with_name_ref_static
 (
 )
 {
@@ -3637,7 +3637,7 @@ result
 test
 ]
 fn
-test_encode_literal_with_name_ref_dynamic
+encode_literal_with_name_ref_dynamic
 (
 )
 {
@@ -3698,7 +3698,7 @@ result
 test
 ]
 fn
-test_encode_literal_with_name_ref_dynamic_post
+encode_literal_with_name_ref_dynamic_post
 (
 )
 {
@@ -3759,7 +3759,7 @@ result
 test
 ]
 fn
-test_encode_literal_with_name_ref_dynamic_huffman
+encode_literal_with_name_ref_dynamic_huffman
 (
 )
 {
@@ -3820,7 +3820,7 @@ result
 test
 ]
 fn
-test_encode_literal_with_literal
+encode_literal_with_literal
 (
 )
 {

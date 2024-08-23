@@ -15543,7 +15543,7 @@ frame
 test
 ]
 fn
-test_client_connect_and_exchange_qpack_and_control_streams
+client_connect_and_exchange_qpack_and_control_streams
 (
 )
 {
@@ -15583,7 +15583,7 @@ closed
 test
 ]
 fn
-test_client_close_control_stream
+client_close_control_stream
 (
 )
 {
@@ -15686,7 +15686,7 @@ reset
 test
 ]
 fn
-test_client_reset_control_stream
+client_reset_control_stream
 (
 )
 {
@@ -15798,7 +15798,7 @@ reset
 test
 ]
 fn
-test_client_reset_server_side_encoder_stream
+client_reset_server_side_encoder_stream
 (
 )
 {
@@ -15910,7 +15910,7 @@ reset
 test
 ]
 fn
-test_client_reset_server_side_decoder_stream
+client_reset_server_side_decoder_stream
 (
 )
 {
@@ -16022,7 +16022,7 @@ stop_sending
 test
 ]
 fn
-test_client_stop_sending_control_stream
+client_stop_sending_control_stream
 (
 )
 {
@@ -16129,7 +16129,7 @@ stop_sending
 test
 ]
 fn
-test_client_stop_sending_encoder_stream
+client_stop_sending_encoder_stream
 (
 )
 {
@@ -16236,7 +16236,7 @@ stop_sending
 test
 ]
 fn
-test_client_stop_sending_decoder_stream
+client_stop_sending_decoder_stream
 (
 )
 {
@@ -16340,7 +16340,7 @@ frame
 test
 ]
 fn
-test_client_missing_settings
+client_missing_settings
 (
 )
 {
@@ -16489,7 +16489,7 @@ HTTP_UNEXPECTED_FRAME
 test
 ]
 fn
-test_client_receive_settings_twice
+client_receive_settings_twice
 (
 )
 {
@@ -16707,7 +16707,7 @@ stream
 test
 ]
 fn
-test_data_frame_on_control_stream
+data_frame_on_control_stream
 (
 )
 {
@@ -16737,7 +16737,7 @@ stream
 test
 ]
 fn
-test_headers_frame_on_control_stream
+headers_frame_on_control_stream
 (
 )
 {
@@ -16767,7 +16767,7 @@ stream
 test
 ]
 fn
-test_push_promise_frame_on_control_stream
+push_promise_frame_on_control_stream
 (
 )
 {
@@ -16800,7 +16800,7 @@ client
 test
 ]
 fn
-test_priority_update_request_on_control_stream
+priority_update_request_on_control_stream
 (
 )
 {
@@ -16823,7 +16823,7 @@ test_wrong_frame_on_control_stream
 test
 ]
 fn
-test_priority_update_push_on_control_stream
+priority_update_push_on_control_stream
 (
 )
 {
@@ -17022,7 +17022,7 @@ HttpFrameUnexpected
 test
 ]
 fn
-test_cancel_push_frame_on_push_stream
+cancel_push_frame_on_push_stream
 (
 )
 {
@@ -17042,7 +17042,7 @@ test_wrong_frame_on_push_stream
 test
 ]
 fn
-test_settings_frame_on_push_stream
+settings_frame_on_push_stream
 (
 )
 {
@@ -17065,7 +17065,7 @@ test_wrong_frame_on_push_stream
 test
 ]
 fn
-test_push_promise_frame_on_push_stream
+push_promise_frame_on_push_stream
 (
 )
 {
@@ -17086,7 +17086,7 @@ test_wrong_frame_on_push_stream
 test
 ]
 fn
-test_priority_update_request_on_push_stream
+priority_update_request_on_push_stream
 (
 )
 {
@@ -17109,7 +17109,7 @@ test_wrong_frame_on_push_stream
 test
 ]
 fn
-test_priority_update_push_on_push_stream
+priority_update_push_on_push_stream
 (
 )
 {
@@ -17132,7 +17132,7 @@ test_wrong_frame_on_push_stream
 test
 ]
 fn
-test_goaway_frame_on_push_stream
+goaway_frame_on_push_stream
 (
 )
 {
@@ -17152,7 +17152,7 @@ test_wrong_frame_on_push_stream
 test
 ]
 fn
-test_max_push_id_frame_on_push_stream
+max_push_id_frame_on_push_stream
 (
 )
 {
@@ -17181,7 +17181,7 @@ frame
 test
 ]
 fn
-test_data_frame_on_push_stream
+data_frame_on_push_stream
 (
 )
 {
@@ -17228,7 +17228,7 @@ byte
 test
 ]
 fn
-test_client_received_unknown_stream
+client_received_unknown_stream
 (
 )
 {
@@ -17570,7 +17570,7 @@ HttpFrameUnexpected
 test
 ]
 fn
-test_cancel_push_frame_on_request_stream
+cancel_push_frame_on_request_stream
 (
 )
 {
@@ -17590,7 +17590,7 @@ test_wrong_frame_on_request_stream
 test
 ]
 fn
-test_settings_frame_on_request_stream
+settings_frame_on_request_stream
 (
 )
 {
@@ -17613,7 +17613,7 @@ test_wrong_frame_on_request_stream
 test
 ]
 fn
-test_goaway_frame_on_request_stream
+goaway_frame_on_request_stream
 (
 )
 {
@@ -17633,7 +17633,7 @@ test_wrong_frame_on_request_stream
 test
 ]
 fn
-test_max_push_id_frame_on_request_stream
+max_push_id_frame_on_request_stream
 (
 )
 {
@@ -17653,7 +17653,7 @@ test_wrong_frame_on_request_stream
 test
 ]
 fn
-test_priority_update_request_on_request_stream
+priority_update_request_on_request_stream
 (
 )
 {
@@ -17676,7 +17676,7 @@ test_wrong_frame_on_request_stream
 test
 ]
 fn
-test_priority_update_push_on_request_stream
+priority_update_push_on_request_stream
 (
 )
 {
@@ -17715,7 +17715,7 @@ one
 test
 ]
 fn
-test_frame_reading
+frame_reading
 (
 )
 {
@@ -20740,16 +20740,6 @@ data
 is
 correct
 .
-#
-[
-allow
-(
-clippy
-:
-:
-useless_vec
-)
-]
 fn
 fetch_with_two_data_frames
 (
@@ -22053,7 +22043,7 @@ code
 test
 ]
 fn
-test_stop_sending_early_response
+stop_sending_early_response
 (
 )
 {
@@ -22528,7 +22518,7 @@ reset
 test
 ]
 fn
-test_stop_sending_other_error_with_reset
+stop_sending_other_error_with_reset
 (
 )
 {
@@ -22941,7 +22931,7 @@ reset
 test
 ]
 fn
-test_stop_sending_other_error_wo_reset
+stop_sending_other_error_wo_reset
 (
 )
 {
@@ -23273,7 +23263,7 @@ removed
 test
 ]
 fn
-test_stop_sending_and_reset_other_error_with_events
+stop_sending_and_reset_other_error_with_events
 (
 )
 {
@@ -23737,7 +23727,7 @@ removed
 test
 ]
 fn
-test_stop_sending_other_error_with_events
+stop_sending_other_error_with_events
 (
 )
 {
@@ -24134,7 +24124,7 @@ well
 test
 ]
 fn
-test_reset_wo_stop_sending
+reset_wo_stop_sending
 (
 )
 {
@@ -24613,7 +24603,7 @@ frame
 test
 ]
 fn
-test_incomplet_data_frame
+incomplet_data_frame
 (
 )
 {
@@ -24644,7 +24634,7 @@ frame
 test
 ]
 fn
-test_incomplet_headers_frame
+incomplet_headers_frame
 (
 )
 {
@@ -24670,7 +24660,7 @@ HttpFrame
 test
 ]
 fn
-test_incomplet_unknown_frame
+incomplet_unknown_frame
 (
 )
 {
@@ -24697,7 +24687,7 @@ goaway
 test
 ]
 fn
-test_goaway
+goaway
 (
 )
 {
@@ -26182,7 +26172,7 @@ headers
 test
 ]
 fn
-test_stream_fin_wo_headers
+stream_fin_wo_headers
 (
 )
 {
@@ -26368,7 +26358,7 @@ headers
 test
 ]
 fn
-test_stream_fin_after_headers
+stream_fin_after_headers
 (
 )
 {
@@ -26555,7 +26545,7 @@ DataReadable
 test
 ]
 fn
-test_stream_fin_after_headers_are_read_wo_data_frame
+stream_fin_after_headers_are_read_wo_data_frame
 (
 )
 {
@@ -26940,7 +26930,7 @@ stream
 test
 ]
 fn
-test_stream_fin_after_headers_and_a_empty_data_frame
+stream_fin_after_headers_and_a_empty_data_frame
 (
 )
 {
@@ -27264,7 +27254,7 @@ fin
 test
 ]
 fn
-test_stream_fin_after_headers_an_empty_data_frame_are_read
+stream_fin_after_headers_an_empty_data_frame_are_read
 (
 )
 {
@@ -27701,7 +27691,7 @@ InvalidStreamId
 test
 ]
 fn
-test_stream_fin_after_a_data_frame
+stream_fin_after_a_data_frame
 (
 )
 {
@@ -28121,7 +28111,7 @@ InvalidStreamId
 test
 ]
 fn
-test_multiple_data_frames
+multiple_data_frames
 (
 )
 {
@@ -28312,7 +28302,7 @@ InvalidStreamId
 test
 ]
 fn
-test_receive_grease_before_response
+receive_grease_before_response
 (
 )
 {
@@ -28625,7 +28615,7 @@ InvalidStreamId
 test
 ]
 fn
-test_read_frames_header_blocked
+read_frames_header_blocked
 (
 )
 {
@@ -29093,7 +29083,7 @@ recv_data
 test
 ]
 fn
-test_read_frames_header_blocked_with_fin_after_headers
+read_frames_header_blocked_with_fin_after_headers
 (
 )
 {
@@ -33038,7 +33028,7 @@ ENCODER_STREAM_DATA_WITH_CAP_INSTRUCTION
 test
 ]
 fn
-test_trailers_with_fin_after_headers
+trailers_with_fin_after_headers
 (
 )
 {
@@ -33365,7 +33355,7 @@ fin
 test
 ]
 fn
-test_trailers_with_later_fin_after_headers
+trailers_with_later_fin_after_headers
 (
 )
 {
@@ -33782,7 +33772,7 @@ fin
 test
 ]
 fn
-test_data_after_trailers_after_headers
+data_after_trailers_after_headers
 (
 )
 {
@@ -38299,7 +38289,7 @@ Connected
 test
 ]
 fn
-test_max_push_id_frame_update_is_sent
+max_push_id_frame_update_is_sent
 (
 )
 {

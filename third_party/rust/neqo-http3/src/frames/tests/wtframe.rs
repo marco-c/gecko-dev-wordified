@@ -100,7 +100,7 @@ WebTransportFrame
 test
 ]
 fn
-test_wt_close_session
+wt_close_session
 (
 )
 {

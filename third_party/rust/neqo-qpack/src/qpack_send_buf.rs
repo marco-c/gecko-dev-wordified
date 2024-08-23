@@ -702,7 +702,7 @@ QpackData
 test
 ]
 fn
-test_encode_prefixed_encoded_int_1
+encode_prefixed_encoded_int_1
 (
 )
 {
@@ -751,7 +751,7 @@ d
 test
 ]
 fn
-test_encode_prefixed_encoded_int_2
+encode_prefixed_encoded_int_2
 (
 )
 {
@@ -801,7 +801,7 @@ d
 test
 ]
 fn
-test_encode_prefixed_encoded_int_3
+encode_prefixed_encoded_int_3
 (
 )
 {
@@ -974,7 +974,7 @@ u8
 test
 ]
 fn
-test_encode_literal
+encode_literal
 (
 )
 {
@@ -1025,7 +1025,7 @@ LITERAL
 test
 ]
 fn
-test_encode_literal_huffman
+encode_literal_huffman
 (
 )
 {

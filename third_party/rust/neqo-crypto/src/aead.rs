@@ -397,16 +397,6 @@ prefix
 [
 must_use
 ]
-#
-[
-allow
-(
-clippy
-:
-:
-unused_self
-)
-]
 pub
 const
 fn

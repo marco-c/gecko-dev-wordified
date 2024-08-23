@@ -2050,7 +2050,7 @@ Duration
 )
 RttVariance
 (
-u64
+Duration
 )
 MaxAckDelay
 (
@@ -2336,10 +2336,15 @@ rtt_variance
 =
 Some
 (
-*
 v
-as
-f32
+.
+as_secs_f32
+(
+)
+*
+1000
+.
+0
 )
 QlogMetric
 :

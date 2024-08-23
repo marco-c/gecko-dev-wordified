@@ -80,17 +80,6 @@ to
 those
 terms
 .
-#
-!
-[
-allow
-(
-clippy
-:
-:
-upper_case_acronyms
-)
-]
 use
 std
 :

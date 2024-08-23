@@ -132,16 +132,6 @@ StreamReaderConnectionWrapper
 WebTransportFrame
 }
 ;
-#
-[
-allow
-(
-clippy
-:
-:
-many_single_char_names
-)
-]
 pub
 fn
 enc_dec

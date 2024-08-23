@@ -663,10 +663,7 @@ p11
 :
 SEC_ASN1_OBJECT_ID
 )
-.
-unwrap
-(
-)
+?
 )
 ;
 params
@@ -684,10 +681,7 @@ oid
 .
 len
 )
-.
-unwrap
-(
-)
+?
 )
 ;
 params

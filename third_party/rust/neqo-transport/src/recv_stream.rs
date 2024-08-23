@@ -2560,13 +2560,6 @@ derive
 Debug
 )
 ]
-#
-[
-allow
-(
-dead_code
-)
-]
 /
 /
 Because
@@ -4111,10 +4104,7 @@ len
 (
 )
 )
-.
-unwrap
-(
-)
+?
 ;
 self
 .
@@ -6391,7 +6381,6 @@ test
 [
 allow
 (
-unknown_lints
 clippy
 :
 :

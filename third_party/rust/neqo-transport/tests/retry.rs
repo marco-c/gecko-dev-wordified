@@ -3692,16 +3692,6 @@ ID
 [
 test
 ]
-#
-[
-allow
-(
-clippy
-:
-:
-shadow_unrelated
-)
-]
 fn
 mitm_retry
 (

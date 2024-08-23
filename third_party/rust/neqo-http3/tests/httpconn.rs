@@ -80,14 +80,6 @@ to
 those
 terms
 .
-#
-!
-[
-allow
-(
-unused_assignments
-)
-]
 use
 std
 :
@@ -1370,7 +1362,7 @@ break
 test
 ]
 fn
-test_connect
+simple_connect
 (
 )
 {
@@ -1391,7 +1383,7 @@ connect
 test
 ]
 fn
-test_fetch
+fetch
 (
 )
 {
@@ -1646,7 +1638,7 @@ hconn_c
 test
 ]
 fn
-test_103_response
+response_103
 (
 )
 {
@@ -2029,7 +2021,7 @@ cast_possible_truncation
 test
 ]
 fn
-test_data_writable_events_low_watermark
+data_writable_events_low_watermark
 (
 )
 -
@@ -2657,7 +2649,7 @@ Ok
 test
 ]
 fn
-test_data_writable_events
+data_writable_events
 (
 )
 {

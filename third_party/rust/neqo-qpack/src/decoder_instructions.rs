@@ -925,7 +925,7 @@ instruction
 test
 ]
 fn
-test_encoding_decoding_instructions
+encoding_decoding_instructions
 (
 )
 {
@@ -1182,7 +1182,7 @@ instruction
 test
 ]
 fn
-test_encoding_decoding_instructions_slow_reader
+encoding_decoding_instructions_slow_reader
 (
 )
 {
@@ -1243,7 +1243,7 @@ new
 test
 ]
 fn
-test_decoding_error
+decoding_error
 (
 )
 {

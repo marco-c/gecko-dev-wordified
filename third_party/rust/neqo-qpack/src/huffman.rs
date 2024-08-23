@@ -1605,7 +1605,7 @@ u8
 test
 ]
 fn
-test_encoder
+encoder
 (
 )
 {
@@ -1645,7 +1645,7 @@ res
 test
 ]
 fn
-test_decoder
+decoder
 (
 )
 {

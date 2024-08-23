@@ -368,7 +368,7 @@ frame
 test
 ]
 fn
-test_frame_reading_with_stream_settings1
+frame_reading_with_stream_settings1
 (
 )
 {
@@ -614,7 +614,7 @@ varints
 test
 ]
 fn
-test_frame_reading_with_stream_settings2
+frame_reading_with_stream_settings2
 (
 )
 {
@@ -781,7 +781,7 @@ frame
 test
 ]
 fn
-test_frame_reading_with_stream_push_promise
+frame_reading_with_stream_push_promise
 (
 )
 {
@@ -925,7 +925,7 @@ DATA
 test
 ]
 fn
-test_frame_reading_with_stream_data
+frame_reading_with_stream_data
 (
 )
 {
@@ -1062,7 +1062,7 @@ frame
 test
 ]
 fn
-test_unknown_frame
+unknown_frame
 (
 )
 {
@@ -1273,7 +1273,7 @@ frame
 test
 ]
 fn
-test_frame_reading_with_stream_wt_close_session
+frame_reading_with_stream_wt_close_session
 (
 )
 {
@@ -1416,7 +1416,7 @@ WebTransportFrames
 test
 ]
 fn
-test_unknown_wt_frame
+unknown_wt_frame
 (
 )
 {
@@ -2009,7 +2009,7 @@ is_none
 test
 ]
 fn
-test_complete_and_incomplete_unknown_frame
+complete_and_incomplete_unknown_frame
 (
 )
 {
@@ -2657,7 +2657,7 @@ FrameComplete
 test
 ]
 fn
-test_complete_and_incomplete_frames
+complete_and_incomplete_frames
 (
 )
 {
@@ -3341,7 +3341,7 @@ len
 test
 ]
 fn
-test_complete_and_incomplete_wt_frames
+complete_and_incomplete_wt_frames
 (
 )
 {
@@ -3443,7 +3443,7 @@ error
 test
 ]
 fn
-test_frame_reading_when_stream_is_closed_before_sending_data
+frame_reading_when_stream_is_closed_before_sending_data
 (
 )
 {
@@ -3647,7 +3647,7 @@ WebTransportFrame
 test
 ]
 fn
-test_wt_frame_reading_when_stream_is_closed_before_sending_data
+wt_frame_reading_when_stream_is_closed_before_sending_data
 (
 )
 {

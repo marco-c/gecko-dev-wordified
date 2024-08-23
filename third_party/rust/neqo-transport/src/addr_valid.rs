@@ -2080,7 +2080,6 @@ fine
 [
 allow
 (
-dead_code
 clippy
 :
 :

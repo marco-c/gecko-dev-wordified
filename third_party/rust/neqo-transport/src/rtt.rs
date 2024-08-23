@@ -857,6 +857,15 @@ self
 .
 smoothed_rtt
 )
+QlogMetric
+:
+:
+RttVariance
+(
+self
+.
+rttvar
+)
 ]
 )
 ;
