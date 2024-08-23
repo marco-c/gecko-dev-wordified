@@ -1973,6 +1973,11 @@ aInfo
 mediaInfo
 (
 )
+aInfo
+.
+encryptedCustomIdent
+(
+)
 )
 IPC_OK
 (
@@ -2000,6 +2005,8 @@ const
 MediaInfoIPDL
 &
 aInfo
+bool
+aIsEncrytpedCustomInit
 )
 {
 AssertOnManagerThread
@@ -2101,6 +2108,7 @@ videoInfo
 (
 )
 mManagerThread
+aIsEncrytpedCustomInit
 )
 )
 IPC_OK
@@ -2157,6 +2165,10 @@ video
 =
 %
 s
+aIsEncrytpedCustomInit
+=
+%
+d
 isEncrypted
 =
 %
@@ -2260,6 +2272,7 @@ yes
 "
 no
 "
+aIsEncrytpedCustomInit
 isEncryted
 )
 ;

@@ -101,6 +101,8 @@ const
 TrackInfo
 &
 aInfo
+bool
+aIsEncrytpedCustomInit
 MFMediaSource
 *
 aParentSource

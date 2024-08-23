@@ -290,6 +290,8 @@ aVideo
 nsISerialEventTarget
 *
 aManagerThread
+bool
+aIsEncrytpedCustomInit
 )
 {
 /
@@ -367,6 +369,7 @@ streamId
 +
 *
 aAudio
+aIsEncrytpedCustomInit
 this
 )
 )
@@ -439,6 +442,7 @@ streamId
 +
 *
 aVideo
+aIsEncrytpedCustomInit
 this
 )
 )
@@ -3331,6 +3335,13 @@ aCDMProxy
 {
 AssertOnManagerThread
 (
+)
+;
+LOG
+(
+"
+SetCDMProxy
+"
 )
 ;
 mCDMProxy
