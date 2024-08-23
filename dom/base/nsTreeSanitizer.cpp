@@ -15173,12 +15173,9 @@ msg
 ;
 msg
 .
-Assign
-(
-NS_ConvertASCIItoUTF16
+AssignASCII
 (
 aMessage
-)
 )
 ;
 if
