@@ -1582,11 +1582,6 @@ MediaResource
 cpp
 "
 "
-MediaResult
-.
-cpp
-"
-"
 MediaShutdownManager
 .
 cpp
