@@ -12949,7 +12949,7 @@ aMetrics
 .
 mCarriedOutBEndMargin
 .
-get
+Get
 (
 )
 )
@@ -15594,7 +15594,7 @@ aState
 .
 mPrevBEndMargin
 .
-get
+Get
 (
 )
 ;
@@ -15798,7 +15798,7 @@ aState
 .
 mPrevBEndMargin
 .
-get
+Get
 (
 )
 aState
@@ -21595,7 +21595,7 @@ aState
 .
 mPrevBEndMargin
 .
-get
+Get
 (
 )
 aLine
@@ -31427,7 +31427,7 @@ aState
 .
 mPrevBEndMargin
 .
-get
+Get
 (
 )
 ;
@@ -31547,7 +31547,7 @@ aState
 mBCoord
 ;
 const
-nsCollapsingMargin
+CollapsingMargin
 incomingMargin
 =
 aState
@@ -31821,7 +31821,7 @@ aState
 .
 mPrevBEndMargin
 .
-get
+Get
 (
 )
 ;
@@ -32047,7 +32047,7 @@ aState
 .
 mPrevBEndMargin
 .
-get
+Get
 (
 )
 ;
@@ -32139,7 +32139,7 @@ aState
 .
 mPrevBEndMargin
 .
-get
+Get
 (
 )
 ;
@@ -32229,7 +32229,7 @@ aState
 .
 mPrevBEndMargin
 .
-get
+Get
 (
 )
 ;
@@ -34734,7 +34734,7 @@ HasFloats
 (
 )
 ;
-nsCollapsingMargin
+CollapsingMargin
 collapsedBEndMargin
 ;
 OverflowAreas
@@ -36184,7 +36184,7 @@ aState
 .
 mPrevBEndMargin
 .
-get
+Get
 (
 )
 ;
@@ -42491,7 +42491,7 @@ aState
 .
 mPrevBEndMargin
 .
-get
+Get
 (
 )
 :
@@ -54890,7 +54890,7 @@ nullptr
 ;
 do
 {
-nsCollapsingMargin
+CollapsingMargin
 margin
 ;
 bool

@@ -1721,7 +1721,7 @@ GetCarriedOutBEndMargin
 (
 )
 .
-get
+Get
 (
 )
 ;
@@ -3000,7 +3000,7 @@ return
 false
 ;
 }
-nsCollapsingMargin
+CollapsingMargin
 nsLineBox
 :
 :
@@ -3041,7 +3041,7 @@ mBlockData
 >
 mCarriedOutBEndMargin
 :
-nsCollapsingMargin
+CollapsingMargin
 (
 )
 ;
@@ -3052,7 +3052,7 @@ nsLineBox
 :
 SetCarriedOutBEndMargin
 (
-nsCollapsingMargin
+CollapsingMargin
 aValue
 )
 {
