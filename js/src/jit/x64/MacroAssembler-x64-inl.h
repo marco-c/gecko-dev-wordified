@@ -3647,7 +3647,7 @@ clz64
 (
 Register64
 src
-Register
+Register64
 dest
 )
 {
@@ -3667,6 +3667,8 @@ src
 .
 reg
 dest
+.
+reg
 )
 ;
 return
@@ -3681,6 +3683,8 @@ src
 .
 reg
 dest
+.
+reg
 )
 ;
 j
@@ -3700,6 +3704,8 @@ ImmWord
 0x7F
 )
 dest
+.
+reg
 )
 ;
 bind
@@ -3715,6 +3721,8 @@ Imm32
 0x3F
 )
 dest
+.
+reg
 )
 ;
 }
@@ -3726,7 +3734,7 @@ ctz64
 (
 Register64
 src
-Register
+Register64
 dest
 )
 {
@@ -3746,6 +3754,8 @@ src
 .
 reg
 dest
+.
+reg
 )
 ;
 return
@@ -3760,6 +3770,8 @@ src
 .
 reg
 dest
+.
+reg
 )
 ;
 j
@@ -3779,6 +3791,8 @@ ImmWord
 64
 )
 dest
+.
+reg
 )
 ;
 bind

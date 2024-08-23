@@ -4558,8 +4558,6 @@ clz64
 (
 input
 output
-.
-reg
 )
 ;
 }
@@ -4602,8 +4600,6 @@ ctz64
 (
 input
 output
-.
-reg
 )
 ;
 }
