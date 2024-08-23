@@ -296,6 +296,9 @@ gradient_builder
 mod
 image
 ;
+mod
+tile_pool
+;
 pub
 mod
 units
@@ -366,6 +369,16 @@ crate
 :
 :
 image
+:
+:
+*
+;
+pub
+use
+crate
+:
+:
+tile_pool
 :
 :
 *
