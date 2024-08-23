@@ -173,14 +173,14 @@ nsILoadInfo
 HTTPSUpgradeTelemetryType
 :
 :
-NO_UPGRADE
+NOT_INITIALIZED
 nsILoadInfo
 :
 :
 HTTPSUpgradeTelemetryType
 :
 :
-HTTPS_RR
+UPGRADE_EXCEPTION
 >
 {
 }
