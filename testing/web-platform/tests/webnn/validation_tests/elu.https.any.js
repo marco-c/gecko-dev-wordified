@@ -45,12 +45,11 @@ elu
 '
 )
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 elu
 '
-floatingPointTypes
 /
 *
 alsoBuildActivation

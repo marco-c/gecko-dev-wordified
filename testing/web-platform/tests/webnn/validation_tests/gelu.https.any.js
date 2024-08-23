@@ -45,12 +45,11 @@ gelu
 '
 )
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 gelu
 '
-floatingPointTypes
 /
 *
 alsoBuildActivation

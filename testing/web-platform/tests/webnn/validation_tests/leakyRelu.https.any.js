@@ -45,12 +45,11 @@ leakyRelu
 '
 )
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 leakyRelu
 '
-floatingPointTypes
 /
 *
 alsoBuildActivation
