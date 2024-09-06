@@ -3101,6 +3101,14 @@ gc
 ChunkSize
 ;
 }
+inline
+void
+addMallocedBufferBytes
+(
+size_t
+nbytes
+)
+;
 /
 /
 Calculate
