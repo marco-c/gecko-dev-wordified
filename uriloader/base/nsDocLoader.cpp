@@ -1478,7 +1478,6 @@ nsDocLoader
 :
 Stop
 (
-void
 )
 {
 nsresult
