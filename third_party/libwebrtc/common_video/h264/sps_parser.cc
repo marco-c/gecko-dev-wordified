@@ -492,7 +492,8 @@ when
 not
 specified
 .
-uint32_t
+sps
+.
 chroma_format_idc
 =
 1
@@ -685,6 +686,8 @@ ue
 (
 v
 )
+sps
+.
 chroma_format_idc
 =
 reader
@@ -695,6 +698,8 @@ ReadExponentialGolomb
 ;
 if
 (
+sps
+.
 chroma_format_idc
 =
 =
@@ -821,6 +826,8 @@ int
 scaling_list_count
 =
 (
+sps
+.
 chroma_format_idc
 =
 =
@@ -1715,6 +1722,8 @@ sps
 separate_colour_plane_flag
 |
 |
+sps
+.
 chroma_format_idc
 =
 =
@@ -1753,6 +1762,8 @@ sps
 separate_colour_plane_flag
 &
 &
+sps
+.
 chroma_format_idc
 >
 0
@@ -1784,12 +1795,16 @@ and
 .
 if
 (
+sps
+.
 chroma_format_idc
 =
 =
 1
 |
 |
+sps
+.
 chroma_format_idc
 =
 =
@@ -1824,6 +1839,8 @@ format
 .
 if
 (
+sps
+.
 chroma_format_idc
 =
 =

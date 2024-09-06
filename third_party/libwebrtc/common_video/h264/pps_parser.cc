@@ -1058,6 +1058,10 @@ ue
 (
 v
 )
+pps
+.
+num_ref_idx_l0_default_active_minus1
+=
 reader
 .
 ReadExponentialGolomb
@@ -1072,6 +1076,10 @@ ue
 (
 v
 )
+pps
+.
+num_ref_idx_l1_default_active_minus1
+=
 reader
 .
 ReadExponentialGolomb
