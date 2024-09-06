@@ -12331,6 +12331,13 @@ new
 ModuleLoadRequest
 (
 uri
+JS
+:
+:
+ModuleType
+:
+:
+JavaScript
 dom
 :
 :

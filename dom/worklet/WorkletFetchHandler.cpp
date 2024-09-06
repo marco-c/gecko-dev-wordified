@@ -936,6 +936,13 @@ new
 ModuleLoadRequest
 (
 mURI
+JS
+:
+:
+ModuleType
+:
+:
+JavaScript
 ReferrerPolicy
 :
 :
