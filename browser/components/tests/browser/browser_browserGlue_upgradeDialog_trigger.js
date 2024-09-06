@@ -192,7 +192,9 @@ mstone
 void
 BrowserHandler
 .
-defaultArgs
+getFirstWindowArgs
+(
+)
 ;
 return
 async
