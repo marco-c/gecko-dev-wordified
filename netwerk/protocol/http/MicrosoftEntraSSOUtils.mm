@@ -153,15 +153,6 @@ Logging
 .
 h
 "
-#
-include
-"
-mozilla
-/
-SyncRunnable
-.
-h
-"
 namespace
 {
 static
