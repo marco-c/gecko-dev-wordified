@@ -93,6 +93,11 @@ define
 TEST_NETWORK_SCHEDULABLE_NETWORK_BEHAVIOR_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 absl
 /
@@ -238,6 +243,8 @@ network_behaviour
 :
 NetworkConfigSchedule
 schedule
+uint64_t
+random_seed
 Clock
 &
 clock
