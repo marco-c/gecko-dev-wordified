@@ -486,6 +486,10 @@ extern
 LazyLogModule
 gHttpLog
 ;
+extern
+LazyLogModule
+gHttpIOLog
+;
 }
 /
 /

@@ -1139,6 +1139,14 @@ nsHttp
 "
 )
 ;
+LazyLogModule
+gHttpIOLog
+(
+"
+HttpIO
+"
+)
+;
 #
 ifdef
 ANDROID
