@@ -1833,6 +1833,17 @@ version
 "
 ]
         
+build_number
+=
+config
+.
+params
+[
+"
+build_number
+"
+]
+        
 upload_date
 =
 datetime
@@ -1943,6 +1954,13 @@ f
 "
 {
 version
+}
+-
+candidates
+/
+build
+{
+build_number
 }
 /
 android
