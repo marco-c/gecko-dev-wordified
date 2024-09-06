@@ -28,6 +28,11 @@ zero
 /
 *
 /
+requestLongerTimeout
+(
+2
+)
+;
 const
 {
 AddonTestUtils
