@@ -3674,6 +3674,11 @@ sweepMapAndSetObjects
 (
 )
 ;
+void
+sweepStringsWithBuffer
+(
+)
+;
 /
 /
 Allocate
