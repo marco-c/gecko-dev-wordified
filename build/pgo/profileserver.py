@@ -1574,10 +1574,18 @@ exit
 ret
 )
         
+if
+"
+UPLOAD_PATH
+"
+in
+env
+:
+            
 should_err
 =
 False
-        
+            
 print
 (
 "
@@ -1589,7 +1597,7 @@ Profile
 Error
 "
 )
-        
+            
 for
 n
 in
@@ -1599,7 +1607,7 @@ range
 2
 )
 :
-            
+                
 log
 =
 os
@@ -1627,7 +1635,7 @@ n
 log
 "
 )
-            
+                
 with
 open
 (
@@ -1636,7 +1644,7 @@ log
 as
 f
 :
-                
+                    
 for
 line
 in
@@ -1646,7 +1654,7 @@ readlines
 (
 )
 :
-                    
+                        
 if
 "
 LLVM
@@ -1656,7 +1664,7 @@ Error
 in
 line
 :
-                        
+                            
 print
 (
 "
@@ -1682,15 +1690,15 @@ strip
 )
 )
 )
-                        
+                            
 should_err
 =
 True
-        
+            
 if
 should_err
 :
-            
+                
 print
 (
 "
@@ -1706,7 +1714,7 @@ above
 .
 "
 )
-            
+                
 sys
 .
 exit
