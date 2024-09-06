@@ -181,7 +181,6 @@ getSelectedFrame
 getCurrentThreadFrames
 getCurrentThread
 getShouldSelectOriginalLocation
-getSelectedTraceIndex
 }
 from
 "
@@ -316,13 +315,6 @@ selectedFrame
 PropTypes
 .
 object
-isTracerFrameSelected
-:
-PropTypes
-.
-bool
-.
-isRequired
 showFrameContextMenu
 :
 PropTypes
@@ -346,7 +338,6 @@ const
 {
 frames
 selectedFrame
-isTracerFrameSelected
 frameworkGroupingOn
 shouldDisplayOriginalLocation
 }
@@ -382,15 +373,6 @@ selectedFrame
 nextProps
 .
 selectedFrame
-|
-|
-isTracerFrameSelected
-!
-=
-=
-nextProps
-.
-isTracerFrameSelected
 |
 |
 showAllFrames
@@ -520,7 +502,6 @@ const
 selectFrame
 selectLocation
 selectedFrame
-isTracerFrameSelected
 displayFullUrl
 getFrameTitle
 disableContextMenu
@@ -637,7 +618,6 @@ showFrameContextMenu
 selectFrame
 selectLocation
 selectedFrame
-isTracerFrameSelected
 shouldDisplayOriginalLocation
 key
 :
@@ -667,7 +647,6 @@ showFrameContextMenu
 selectFrame
 selectLocation
 selectedFrame
-isTracerFrameSelected
 key
 :
 frameOrGroup
@@ -944,15 +923,6 @@ getCurrentThread
 state
 )
 )
-isTracerFrameSelected
-:
-getSelectedTraceIndex
-(
-state
-)
-!
-=
-null
 shouldDisplayOriginalLocation
 :
 getShouldSelectOriginalLocation
