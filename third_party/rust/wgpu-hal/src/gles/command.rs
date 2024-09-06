@@ -1944,7 +1944,7 @@ a
 super
 :
 :
-Api
+Buffer
 >
 >
 {
@@ -2070,7 +2070,7 @@ a
 super
 :
 :
-Api
+Texture
 >
 >
 {
@@ -3156,7 +3156,11 @@ RenderPassDescriptor
 super
 :
 :
-Api
+QuerySet
+super
+:
+:
+TextureView
 >
 )
 {
@@ -6491,7 +6495,7 @@ a
 super
 :
 :
-Api
+Buffer
 >
 format
 :
@@ -6571,7 +6575,7 @@ a
 super
 :
 :
-Api
+Buffer
 >
 )
 {
@@ -7530,7 +7534,7 @@ ComputePassDescriptor
 super
 :
 :
-Api
+QuerySet
 >
 )
 {
@@ -7892,7 +7896,11 @@ a
 super
 :
 :
-Api
+Buffer
+super
+:
+:
+AccelerationStructure
 >
 >
 {

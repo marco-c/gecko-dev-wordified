@@ -16,10 +16,6 @@ binding_model
 :
 :
 BindGroup
-hal_api
-:
-:
-HalApi
 id
 pipeline
 :
@@ -326,11 +322,6 @@ replay
 pub
 fn
 resolve_compute_command_ids
-<
-A
-:
-HalApi
->
 (
 hub
 :
@@ -342,9 +333,6 @@ hub
 :
 :
 Hub
-<
-A
->
 commands
 :
 &
@@ -359,9 +347,6 @@ Result
 Vec
 <
 ArcComputeCommand
-<
-A
->
 >
 super
 :
@@ -429,9 +414,6 @@ resolved_commands
 Vec
 <
 ArcComputeCommand
-<
-A
->
 >
 =
 commands
@@ -450,9 +432,6 @@ c
 Result
 <
 ArcComputeCommand
-<
-A
->
 ComputePassError
 >
 {
@@ -881,11 +860,6 @@ Debug
 pub
 enum
 ArcComputeCommand
-<
-A
-:
-HalApi
->
 {
 SetBindGroup
 {
@@ -900,9 +874,6 @@ bind_group
 Arc
 <
 BindGroup
-<
-A
->
 >
 }
 SetPipeline
@@ -910,9 +881,6 @@ SetPipeline
 Arc
 <
 ComputePipeline
-<
-A
->
 >
 )
 /
@@ -1055,9 +1023,6 @@ buffer
 Arc
 <
 Buffer
-<
-A
->
 >
 offset
 :
@@ -1092,9 +1057,6 @@ query_set
 Arc
 <
 QuerySet
-<
-A
->
 >
 query_index
 :
@@ -1107,9 +1069,6 @@ query_set
 Arc
 <
 QuerySet
-<
-A
->
 >
 query_index
 :

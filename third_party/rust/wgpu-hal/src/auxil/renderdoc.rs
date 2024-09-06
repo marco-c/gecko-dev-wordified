@@ -678,7 +678,7 @@ new
 /
 /
 /
-A
+An
 implementation
 specific
 handle

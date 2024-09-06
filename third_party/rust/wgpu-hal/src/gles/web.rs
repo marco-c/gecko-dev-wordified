@@ -749,9 +749,6 @@ into
 (
 )
 &
-wasm_bindgen
-:
-:
 JsValue
 :
 :

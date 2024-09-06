@@ -11,13 +11,7 @@ use
 crate
 :
 :
-{
-hal_api
-:
-:
-HalApi
 id
-}
 ;
 /
 /
@@ -173,11 +167,6 @@ resolved
 pub
 struct
 ArcPassTimestampWrites
-<
-A
-:
-HalApi
->
 {
 /
 /
@@ -203,9 +192,6 @@ resource
 :
 :
 QuerySet
-<
-A
->
 >
 /
 /

@@ -1700,6 +1700,17 @@ Error
 a
 >
 {
+#
+[
+cold
+]
+#
+[
+inline
+(
+never
+)
+]
 pub
 (
 crate

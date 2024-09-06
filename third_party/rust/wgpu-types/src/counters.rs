@@ -108,6 +108,10 @@ value
 [
 inline
 ]
+#
+[
+must_use
+]
 pub
 const
 fn
@@ -234,6 +238,10 @@ counters
 #
 [
 inline
+]
+#
+[
+must_use
 ]
 pub
 fn
@@ -362,6 +370,10 @@ counters
 #
 [
 inline
+]
+#
+[
+must_use
 ]
 pub
 fn
