@@ -1969,14 +1969,6 @@ platform
 return
 True
     
-#
-Bug
-1910111
-temporarily
-disable
-a55
-    
-#
 if
 "
 a55
@@ -1990,8 +1982,7 @@ aarch64
 in
 platform
 :
-    
-#
+        
 return
 True
     
