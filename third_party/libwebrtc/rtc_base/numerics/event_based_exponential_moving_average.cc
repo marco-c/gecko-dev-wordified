@@ -100,6 +100,16 @@ cmath
 >
 #
 include
+<
+cstdint
+>
+#
+include
+<
+limits
+>
+#
+include
 "
 rtc_base
 /

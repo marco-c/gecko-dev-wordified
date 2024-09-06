@@ -124,17 +124,6 @@ time_delta
 .
 h
 "
-#
-include
-"
-api
-/
-units
-/
-timestamp
-.
-h
-"
 namespace
 webrtc
 {

@@ -114,6 +114,17 @@ set
 #
 include
 "
+rtc_base
+/
+numerics
+/
+mod_ops
+.
+h
+"
+#
+include
+"
 test
 /
 gtest

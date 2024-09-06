@@ -103,6 +103,11 @@ cstdint
 >
 #
 include
+<
+limits
+>
+#
+include
 "
 test
 /
