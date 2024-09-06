@@ -2124,6 +2124,9 @@ NewStreamType
 :
 :
 Http
+(
+first_frame_type
+)
 )
 =
 >
@@ -2204,9 +2207,12 @@ Http3StreamType
 :
 Http
 stream_id
-header_frame_type_read
+first_frame_type
 :
-true
+Some
+(
+first_frame_type
+)
 }
 Rc
 :

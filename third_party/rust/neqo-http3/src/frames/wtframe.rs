@@ -90,6 +90,15 @@ Encoder
 }
 ;
 use
+super
+:
+:
+hframe
+:
+:
+HFrameType
+;
+use
 crate
 :
 :
@@ -234,7 +243,7 @@ decode
 (
 frame_type
 :
-u64
+HFrameType
 frame_len
 :
 u64
@@ -283,7 +292,10 @@ if
 frame_type
 =
 =
+HFrameType
+(
 WT_FRAME_CLOSE_SESSION
+)
 {
 if
 frame_len
@@ -401,7 +413,7 @@ is_known_type
 (
 frame_type
 :
-u64
+HFrameType
 )
 -
 >
@@ -410,6 +422,9 @@ bool
 frame_type
 =
 =
+HFrameType
+(
 WT_FRAME_CLOSE_SESSION
+)
 }
 }

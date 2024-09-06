@@ -4151,6 +4151,9 @@ NewStreamType
 :
 :
 Http
+(
+_
+)
 |
 NewStreamType
 :
@@ -5406,6 +5409,9 @@ NewStreamType
 :
 :
 Http
+(
+_
+)
 =
 >
 {
@@ -5623,6 +5629,9 @@ NewStreamType
 :
 :
 Http
+(
+_
+)
 |
 NewStreamType
 :
@@ -5633,7 +5642,6 @@ _
 )
 =
 >
-{
 Ok
 (
 ReceiveOutput
@@ -5644,7 +5652,6 @@ NewStream
 stream_type
 )
 )
-}
 NewStreamType
 :
 :
@@ -6814,9 +6821,9 @@ MessageType
 Response
 stream_type
 stream_id
-header_frame_type_read
+first_frame_type
 :
-false
+None
 }
 Rc
 :

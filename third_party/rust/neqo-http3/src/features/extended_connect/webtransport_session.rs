@@ -458,9 +458,9 @@ ExtendedConnect
 stream_id
 :
 session_id
-header_frame_type_read
+first_frame_type
 :
-false
+None
 }
 qpack_decoder
 Box
