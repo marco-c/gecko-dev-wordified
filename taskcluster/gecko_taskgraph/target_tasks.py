@@ -1952,6 +1952,23 @@ platform
 return
 True
     
+if
+"
+s24
+"
+in
+platform
+and
+"
+aarch64
+"
+in
+platform
+:
+        
+return
+True
+    
 #
 Bug
 1910111
