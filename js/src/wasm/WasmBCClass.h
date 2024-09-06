@@ -8650,6 +8650,14 @@ const
 FunctionCall
 &
 call
+mozilla
+:
+:
+Maybe
+<
+size_t
+>
+callRefIndex
 CodeOffset
 *
 fastCallOffset

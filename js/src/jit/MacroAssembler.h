@@ -28223,6 +28223,8 @@ ENABLE_WASM_TAIL_CALLS
 void
 updateCallRefMetrics
 (
+size_t
+callRefIndex
 const
 Register
 funcRef
