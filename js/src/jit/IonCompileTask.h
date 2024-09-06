@@ -128,6 +128,15 @@ include
 "
 jit
 /
+CompilationDependencyTracker
+.
+h
+"
+#
+include
+"
+jit
+/
 MIRGenerator
 .
 h
