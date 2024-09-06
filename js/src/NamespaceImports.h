@@ -605,6 +605,12 @@ using
 JS
 :
 :
+RootedField
+;
+using
+JS
+:
+:
 RootedFunction
 ;
 using
@@ -636,6 +642,12 @@ JS
 :
 :
 RootedSymbol
+;
+using
+JS
+:
+:
+RootedTuple
 ;
 using
 JS
