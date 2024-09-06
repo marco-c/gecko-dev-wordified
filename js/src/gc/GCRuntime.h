@@ -462,7 +462,7 @@ false
 class
 ChunkPool
 {
-TenuredChunk
+ArenaChunk
 *
 head_
 ;
@@ -609,7 +609,7 @@ return
 count_
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 head
 (
@@ -624,7 +624,7 @@ return
 head_
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 pop
 (
@@ -633,16 +633,16 @@ pop
 void
 push
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 )
 ;
-TenuredChunk
+ArenaChunk
 *
 remove
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 )
@@ -654,11 +654,11 @@ sort
 ;
 private
 :
-TenuredChunk
+ArenaChunk
 *
 mergeSort
 (
-TenuredChunk
+ArenaChunk
 *
 list
 size_t
@@ -679,7 +679,7 @@ public
 bool
 contains
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 )
@@ -718,7 +718,7 @@ mutation
 is
 of
 the
-TenuredChunk
+ArenaChunk
 currently
 being
 visited
@@ -763,7 +763,7 @@ next
 (
 )
 ;
-TenuredChunk
+ArenaChunk
 *
 get
 (
@@ -775,7 +775,7 @@ current_
 ;
 }
 operator
-TenuredChunk
+ArenaChunk
 *
 (
 )
@@ -787,7 +787,7 @@ get
 )
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 operator
 -
@@ -804,7 +804,7 @@ get
 }
 private
 :
-TenuredChunk
+ArenaChunk
 *
 current_
 ;
@@ -3553,7 +3553,7 @@ verifyAllChunks
 ;
 #
 endif
-TenuredChunk
+ArenaChunk
 *
 getOrAllocChunk
 (
@@ -3565,7 +3565,7 @@ lock
 void
 recycleChunk
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 const
@@ -4348,7 +4348,7 @@ friend
 class
 ArenaLists
 ;
-TenuredChunk
+ArenaChunk
 *
 pickChunk
 (
@@ -4361,7 +4361,7 @@ Arena
 *
 allocateArena
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 Zone
@@ -4445,7 +4445,7 @@ lock
 void
 prepareToFreeChunk
 (
-TenuredChunkInfo
+ArenaChunkInfo
 &
 info
 )

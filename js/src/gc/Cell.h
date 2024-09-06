@@ -1871,7 +1871,7 @@ return
 true
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 chunk
 (
@@ -1881,7 +1881,7 @@ const
 return
 static_cast
 <
-TenuredChunk
+ArenaChunk
 *
 >
 (
@@ -2719,7 +2719,7 @@ CellAlignBytes
 ;
 MOZ_ASSERT
 (
-TenuredChunk
+ArenaChunk
 :
 :
 withinValidRange

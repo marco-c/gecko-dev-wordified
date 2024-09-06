@@ -2161,7 +2161,7 @@ TenuredCell
 ptr
 )
 ;
-TenuredChunkBase
+ArenaChunkBase
 *
 chunk
 =
@@ -2770,7 +2770,7 @@ rt
 )
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 chunk
 =
@@ -2819,7 +2819,7 @@ other
 valid
 reasons
 why
-TenuredChunk
+ArenaChunk
 :
 :
 allocateArena
@@ -3148,11 +3148,13 @@ markBlack
 /
 /
 /
-TenuredChunk
+ArenaChunk
 -
 >
 Arena
 Allocator
+/
+/
 /
 /
 /
@@ -3298,7 +3300,7 @@ GCRuntime
 :
 allocateArena
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 Zone
@@ -3428,7 +3430,7 @@ arena
 }
 Arena
 *
-TenuredChunk
+ArenaChunk
 :
 :
 allocateArena
@@ -3619,7 +3621,7 @@ found
 ;
 }
 void
-TenuredChunk
+ArenaChunk
 :
 :
 commitOnePage
@@ -3753,7 +3755,7 @@ verify
 }
 Arena
 *
-TenuredChunk
+ArenaChunk
 :
 :
 fetchNextFreeArena
@@ -3843,7 +3845,7 @@ index
 System
 -
 >
-TenuredChunk
+ArenaChunk
 Allocator
 /
 /
@@ -3875,7 +3877,9 @@ Allocator
 /
 /
 /
-TenuredChunk
+/
+/
+ArenaChunk
 *
 GCRuntime
 :
@@ -3887,7 +3891,7 @@ AutoLockGCBgAlloc
 lock
 )
 {
-TenuredChunk
+ArenaChunk
 *
 chunk
 =
@@ -3940,7 +3944,7 @@ MakeUndefined
 chunk
 -
 >
-initBaseForTenuredChunk
+initBaseForArenaChunk
 (
 rt
 )
@@ -3962,7 +3966,7 @@ void
 *
 ptr
 =
-TenuredChunk
+ArenaChunk
 :
 :
 allocate
@@ -3982,7 +3986,7 @@ nullptr
 }
 chunk
 =
-TenuredChunk
+ArenaChunk
 :
 :
 emplace
@@ -4037,7 +4041,7 @@ GCRuntime
 :
 recycleChunk
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 const
@@ -4103,7 +4107,7 @@ chunk
 )
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 GCRuntime
 :
@@ -4138,7 +4142,7 @@ head
 )
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 chunk
 =
@@ -4321,7 +4325,7 @@ gcLock
 )
 )
 {
-TenuredChunk
+ArenaChunk
 *
 chunk
 ;
@@ -4336,7 +4340,7 @@ void
 *
 ptr
 =
-TenuredChunk
+ArenaChunk
 :
 :
 allocate
@@ -4355,7 +4359,7 @@ break
 }
 chunk
 =
-TenuredChunk
+ArenaChunk
 :
 :
 emplace
@@ -4392,7 +4396,7 @@ static
 /
 void
 *
-TenuredChunk
+ArenaChunk
 :
 :
 allocate
@@ -4479,9 +4483,9 @@ inHighFrequencyGCMode
 )
 ;
 }
-TenuredChunk
+ArenaChunk
 *
-TenuredChunk
+ArenaChunk
 :
 :
 emplace
@@ -4558,7 +4562,7 @@ MemCheckKind
 MakeUndefined
 )
 ;
-TenuredChunk
+ArenaChunk
 *
 chunk
 =
@@ -4570,7 +4574,7 @@ mozilla
 KnownNotNull
 ptr
 )
-TenuredChunk
+ArenaChunk
 (
 gc
 -
@@ -4676,7 +4680,7 @@ chunk
 ;
 }
 void
-TenuredChunk
+ArenaChunk
 :
 :
 decommitAllArenas
@@ -4708,7 +4712,7 @@ initAsDecommitted
 ;
 }
 void
-TenuredChunkBase
+ArenaChunkBase
 :
 :
 initAsDecommitted

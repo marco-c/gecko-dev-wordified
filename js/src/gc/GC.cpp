@@ -3036,7 +3036,7 @@ lock
 )
 )
 {
-TenuredChunk
+ArenaChunk
 *
 chunk
 =
@@ -3137,7 +3137,7 @@ done
 ;
 )
 {
-TenuredChunk
+ArenaChunk
 *
 chunk
 =
@@ -3225,7 +3225,7 @@ GCRuntime
 :
 prepareToFreeChunk
 (
-TenuredChunkInfo
+ArenaChunkInfo
 &
 info
 )
@@ -13543,7 +13543,7 @@ inline
 bool
 CanDecommitWholeChunk
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 )
@@ -13604,7 +13604,7 @@ lock
 {
 Vector
 <
-TenuredChunk
+ArenaChunk
 *
 0
 SystemAllocPolicy
@@ -13667,7 +13667,7 @@ return
 }
 for
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 :
@@ -13883,7 +13883,7 @@ visit
 .
 Vector
 <
-TenuredChunk
+ArenaChunk
 *
 0
 SystemAllocPolicy
@@ -13951,7 +13951,7 @@ return
 }
 for
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 :

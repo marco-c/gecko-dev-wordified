@@ -486,7 +486,7 @@ NurseryChunk
 *
 fromChunk
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 ChunkKind
@@ -1213,7 +1213,7 @@ NurseryChunk
 :
 fromChunk
 (
-TenuredChunk
+ArenaChunk
 *
 chunk
 ChunkKind
@@ -1528,11 +1528,11 @@ NurseryChunk
 (
 )
 ;
-TenuredChunk
+ArenaChunk
 *
 tenuredChunk
 =
-TenuredChunk
+ArenaChunk
 :
 :
 emplace
@@ -13806,7 +13806,7 @@ return
 false
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 toSpaceChunk
 =
@@ -13828,7 +13828,7 @@ return
 false
 ;
 }
-TenuredChunk
+ArenaChunk
 *
 fromSpaceChunk
 =

@@ -1084,7 +1084,7 @@ ColorBit
 colorBit
 )
 {
-TenuredChunkBase
+ArenaChunkBase
 *
 srcChunk
 =
