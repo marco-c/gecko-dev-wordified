@@ -653,14 +653,6 @@ kBaseKeyFrameInterval
 3000
 ;
 const
-double
-kBitratePriority
-=
-1
-.
-0
-;
-const
 int
 kDefaultMaxFramerateFps
 =
@@ -720,7 +712,6 @@ codec_settings
 -
 >
 height
-kBitratePriority
 kMaxQp
 /
 *

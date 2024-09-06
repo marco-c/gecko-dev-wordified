@@ -268,8 +268,6 @@ int
 width
 int
 height
-double
-bitrate_priority
 int
 max_qp
 bool
@@ -322,8 +320,6 @@ int
 width
 int
 height
-double
-bitrate_priority
 int
 max_qp
 bool
@@ -372,8 +368,6 @@ int
 width
 int
 height
-double
-bitrate_priority
 int
 max_qp
 bool
