@@ -81,6 +81,9 @@ total
 alerts
 :
 0
+statsTotal
+:
+3
 }
 field
 :
