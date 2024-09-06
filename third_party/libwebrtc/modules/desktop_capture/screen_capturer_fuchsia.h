@@ -93,7 +93,7 @@ include
 <
 fuchsia
 /
-sysmem
+sysmem2
 /
 cpp
 /
@@ -236,7 +236,7 @@ private
 fuchsia
 :
 :
-sysmem
+sysmem2
 :
 :
 BufferCollectionConstraints
@@ -256,7 +256,7 @@ const
 fuchsia
 :
 :
-sysmem
+sysmem2
 :
 :
 ImageFormatConstraints
@@ -285,7 +285,7 @@ component_context_
 fuchsia
 :
 :
-sysmem
+sysmem2
 :
 :
 AllocatorSyncPtr
@@ -318,7 +318,7 @@ screen_capture_
 fuchsia
 :
 :
-sysmem
+sysmem2
 :
 :
 BufferCollectionSyncPtr
@@ -327,10 +327,10 @@ collection_
 fuchsia
 :
 :
-sysmem
+sysmem2
 :
 :
-BufferCollectionInfo_2
+BufferCollectionInfo
 buffer_collection_info_
 ;
 std
