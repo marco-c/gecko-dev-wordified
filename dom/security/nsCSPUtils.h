@@ -474,7 +474,6 @@ hash
 define
 TRUSTED_TYPES_VIOLATION_OBSERVER_TOPIC
 \
-u
 "
 Tried
 to
@@ -490,7 +489,17 @@ forbidden
 policy
 name
 "
-_ns
+#
+define
+REQUIRE_TRUSTED_TYPES_FOR_SCRIPT_OBSERVER_TOPIC
+\
+"
+Type
+mismatch
+for
+injection
+sink
+"
 /
 /
 these
