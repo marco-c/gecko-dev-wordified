@@ -6269,7 +6269,7 @@ existingConn
 )
 )
 ;
-existingConn
+newConn
 -
 >
 SetCloseReason
@@ -6334,7 +6334,7 @@ existingConn
 )
 )
 ;
-existingConn
+newConn
 -
 >
 SetCloseReason
