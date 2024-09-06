@@ -19458,7 +19458,7 @@ aFilterType
 )
 const
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 ShouldBlockOpaqueResponse
 (
