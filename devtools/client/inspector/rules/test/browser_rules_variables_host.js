@@ -423,12 +423,6 @@ dataset
 .
 variable
 "
--
--
-test
--
-color
-=
 red
 "
 "
@@ -469,12 +463,6 @@ textContent
 includes
 (
 "
--
--
-test
--
-color
-=
 red
 "
 )
