@@ -12680,7 +12680,7 @@ if
 (
 mask
 >
-MaxTableLength
+MaxTableElemsRuntime
 )
 {
 return

@@ -52565,7 +52565,7 @@ CalleeDesc
 WasmTable
 )
 {
-uint32_t
+uint64_t
 minLength
 =
 ins
@@ -52584,7 +52584,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 maxLength
 =
@@ -52634,6 +52634,12 @@ false
 }
 if
 (
+minLength
+<
+=
+UINT32_MAX
+&
+&
 maxLength
 .
 isSome

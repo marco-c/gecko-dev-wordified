@@ -45435,7 +45435,7 @@ static_assert
 wasm
 :
 :
-MaxTableLength
+MaxTableElemsRuntime
 <
 UINT32_MAX
 )

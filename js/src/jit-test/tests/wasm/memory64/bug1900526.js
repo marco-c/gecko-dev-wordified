@@ -38,7 +38,7 @@ Memory
 {
 initial
 :
-0
+0n
 index
 :
 "
@@ -53,7 +53,10 @@ m
 .
 grow
 (
+BigInt
+(
 maxPages
+)
 )
 ;
 assertEq
@@ -89,6 +92,12 @@ grow
 "
 )
 true
+got
+error
+:
+{
+e
+}
 )
 ;
 /

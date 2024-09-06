@@ -4185,7 +4185,7 @@ pages
 =
 Pages
 (
-MaxMemory32LimitField
+MaxMemory32PagesValidation
 )
 )
 ;
@@ -4318,7 +4318,7 @@ pages
 =
 Pages
 (
-MaxMemory64LimitField
+MaxMemory64PagesValidation
 )
 )
 ;
