@@ -712,7 +712,6 @@ codec_settings
 -
 >
 height
-kMaxQp
 /
 *
 is_screenshare
@@ -864,12 +863,7 @@ ss
 >
 qpMax
 =
-streams
-[
-i
-]
-.
-max_qp
+kMaxQp
 ;
 ss
 -

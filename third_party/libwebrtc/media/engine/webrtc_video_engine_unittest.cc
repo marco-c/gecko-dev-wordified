@@ -76618,7 +76618,6 @@ min_layers
 num_configured_streams
 capture_width
 capture_height
-kDefaultVideoMaxQpVpx
 screenshare
 &
 &
@@ -76951,18 +76950,13 @@ max_qp
 ;
 EXPECT_EQ
 (
-expected_streams
-[
-i
-]
-.
-max_qp
 video_streams
 [
 i
 ]
 .
 max_qp
+kDefaultVideoMaxQpVpx
 )
 ;
 EXPECT_EQ

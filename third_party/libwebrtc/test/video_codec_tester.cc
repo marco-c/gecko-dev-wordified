@@ -9216,10 +9216,6 @@ vc
 -
 >
 height
-cricket
-:
-:
-kDefaultVideoMaxQpVpx
 /
 *
 is_screenshare
@@ -9421,12 +9417,10 @@ ss
 >
 qpMax
 =
-streams
-[
-i
-]
-.
-max_qp
+vc
+-
+>
+qpMax
 ;
 ss
 -

@@ -2319,9 +2319,6 @@ encoder_config
 number_of_streams
 width
 height
-encoder_config
-.
-max_qp
 webrtc
 :
 :

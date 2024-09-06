@@ -268,8 +268,6 @@ int
 width
 int
 height
-int
-max_qp
 bool
 is_screenshare_with_conference_mode
 bool
@@ -320,8 +318,6 @@ int
 width
 int
 height
-int
-max_qp
 bool
 temporal_layers_supported
 bool
@@ -368,8 +364,6 @@ int
 width
 int
 height
-int
-max_qp
 bool
 temporal_layers_supported
 bool
