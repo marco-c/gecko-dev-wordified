@@ -2374,6 +2374,15 @@ TaskQueueDeleter
 >
 decode_queue_
 ;
+absl
+:
+:
+optional
+<
+uint32_t
+>
+last_decoded_rtp_timestamp_
+;
 }
 ;
 }
