@@ -1336,7 +1336,7 @@ await
 openPopup
 (
 "
-wikipedia
+nonsponsored
 "
 )
 ;
@@ -1352,7 +1352,7 @@ example
 .
 com
 /
-wikipedia
+nonsponsored
 "
 )
 ;

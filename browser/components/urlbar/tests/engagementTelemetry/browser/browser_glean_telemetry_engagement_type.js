@@ -359,7 +359,7 @@ await
 openPopup
 (
 "
-amp
+sponsored
 "
 )
 ;
@@ -385,7 +385,7 @@ example
 .
 com
 /
-amp
+sponsored
 "
 )
 ;
@@ -528,7 +528,7 @@ await
 openPopup
 (
 "
-amp
+sponsored
 "
 )
 ;
@@ -554,7 +554,7 @@ example
 .
 com
 /
-amp
+sponsored
 "
 )
 ;
@@ -853,7 +853,7 @@ await
 openPopup
 (
 "
-amp
+sponsored
 "
 )
 ;
@@ -869,7 +869,7 @@ example
 .
 com
 /
-amp
+sponsored
 "
 )
 ;
