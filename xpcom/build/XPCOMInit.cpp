@@ -2438,7 +2438,7 @@ the
 Omnijar
 :
 :
-Init
+FallibleInit
 does
 not
 fail
@@ -2446,10 +2446,10 @@ but
 returns
 NS_OK
 if
+/
+/
 the
 file
-/
-/
 is
 not
 found
@@ -2463,9 +2463,9 @@ expected
 possible
 way
 of
+/
+/
 running
-/
-/
 with
 an
 unpacked
@@ -2481,7 +2481,7 @@ mozilla
 Omnijar
 :
 :
-Init
+FallibleInit
 (
 )
 ;
