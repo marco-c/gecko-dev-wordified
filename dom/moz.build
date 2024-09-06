@@ -371,6 +371,11 @@ xul
 manifest
 "
 "
+view
+-
+transitions
+"
+"
 vr
 "
 "
