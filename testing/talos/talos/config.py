@@ -178,10 +178,6 @@ talos
 base_profile
 "
         
-responsiveness
-=
-False
-        
 gecko_profile
 =
 False
