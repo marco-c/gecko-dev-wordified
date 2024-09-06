@@ -596,12 +596,7 @@ if
 !
 tabs
 .
-hasAttribute
-(
-"
-overflow
-"
-)
+overflowing
 )
 {
 tabs

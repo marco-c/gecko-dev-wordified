@@ -152,12 +152,7 @@ gBrowser
 .
 tabContainer
 .
-hasAttribute
-(
-"
-overflow
-"
-)
+overflowing
 "
 Tab
 strip
@@ -379,12 +374,7 @@ gBrowser
 .
 tabContainer
 .
-hasAttribute
-(
-"
-overflow
-"
-)
+overflowing
 "
 not
 overflowing

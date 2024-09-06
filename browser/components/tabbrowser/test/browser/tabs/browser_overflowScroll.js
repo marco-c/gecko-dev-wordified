@@ -316,12 +316,7 @@ ok
 (
 arrowScrollbox
 .
-hasAttribute
-(
-"
 overflowing
-"
-)
 "
 Tab
 strip

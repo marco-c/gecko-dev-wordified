@@ -922,12 +922,7 @@ gBrowser
 .
 tabContainer
 .
-hasAttribute
-(
-"
-overflow
-"
-)
+overflowing
 ?
 "
 new
