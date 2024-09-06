@@ -462,11 +462,15 @@ encoder
 encoder_factory_
 -
 >
-MakeAudioEncoder
+Create
 (
-kPayloadType
+env_
 opus
 {
+.
+payload_type
+=
+kPayloadType
 }
 )
 ;
