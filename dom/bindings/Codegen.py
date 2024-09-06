@@ -62,6 +62,10 @@ import
 functools
 import
 math
+from
+operator
+import
+attrgetter
 import
 os
 import
@@ -3903,6 +3907,8 @@ if
 descriptor
 .
 hasOrdinaryObjectPrototype
+(
+)
 :
         
 getProto
@@ -25796,16 +25802,6 @@ unforgeableHolderSetup
 =
 None
         
-#
-FIXME
-Unclear
-whether
-this
-is
-needed
-for
-hasOrdinaryObjectPrototype
-        
 if
 (
             
@@ -25821,14 +25817,6 @@ isOnGlobalProtoChain
             
 and
 needInterfacePrototypeObject
-            
-and
-not
-self
-.
-descriptor
-.
-hasOrdinaryObjectPrototype
         
 )
 :
@@ -31865,12 +31853,23 @@ properties
 :
         
 assert
+(
+            
 descriptor
 .
 interface
 .
 hasInterfacePrototypeObject
 (
+)
+            
+or
+descriptor
+.
+hasOrdinaryObjectPrototype
+(
+)
+        
 )
         
 args
@@ -32139,6 +32138,8 @@ self
 descriptor
 .
 hasOrdinaryObjectPrototype
+(
+)
 :
             
 getProto
@@ -113314,6 +113315,13 @@ interface
 hasInterfacePrototypeObject
 (
 )
+            
+or
+descriptor
+.
+hasOrdinaryObjectPrototype
+(
+)
         
 )
         
@@ -115520,12 +115528,6 @@ and
 not
 descriptor
 .
-hasOrdinaryObjectPrototype
-                
-and
-not
-descriptor
-.
 interface
 .
 hasChildInterfaces
@@ -116019,6 +116021,15 @@ n
             
 )
         
+if
+not
+descriptor
+.
+hasOrdinaryObjectPrototype
+(
+)
+:
+            
 #
 CGCreateInterfaceObjectsMethod
 needs
@@ -116026,7 +116037,7 @@ to
 come
 after
 our
-        
+            
 #
 CGDOMJSClass
 and
@@ -116034,47 +116045,45 @@ unscopables
 if
 any
 .
-        
+            
 cgThings
 .
 append
 (
-            
+                
 CGCreateInterfaceObjectsMethod
 (
-                
+                    
 descriptor
-                
+                    
 properties
-                
+                    
 haveUnscopables
-                
+                    
 haveLegacyWindowAliases
-                
+                    
 static
 =
 isIteratorInterface
+                
+)
             
 )
-        
-)
-        
+            
 #
-CGGetProtoObjectHandleMethod
+CGGetProtoObjectMethod
 and
-CGGetConstructorObjectHandleMethod
-        
-#
+CGGetConstructorObjectMethod
 need
+            
+#
 to
 come
 after
 CGCreateInterfaceObjectsMethod
 .
-        
-if
-(
             
+if
 descriptor
 .
 interface
@@ -116082,33 +116091,25 @@ interface
 hasInterfacePrototypeObject
 (
 )
-            
-and
-not
-descriptor
-.
-hasOrdinaryObjectPrototype
-        
-)
 :
-            
+                
 cgThings
 .
 append
 (
-                
+                    
 CGGetProtoObjectHandleMethod
 (
-                    
+                        
 descriptor
 static
 =
 protoObjectHandleGetterIsStatic
+                    
+)
                 
 )
-            
-)
-            
+                
 if
 descriptor
 .
@@ -116118,11 +116119,11 @@ hasChildInterfaces
 (
 )
 :
-                
+                    
 assert
 not
 isIteratorInterface
-                
+                    
 cgThings
 .
 append
@@ -116132,7 +116133,7 @@ CGGetProtoObjectMethod
 descriptor
 )
 )
-        
+            
 if
 descriptor
 .
@@ -116142,7 +116143,7 @@ hasInterfaceObject
 (
 )
 :
-            
+                
 cgThings
 .
 append
@@ -116152,19 +116153,19 @@ CGGetConstructorObjectHandleMethod
 descriptor
 )
 )
-            
+                
 cgThings
 .
 append
 (
-                
+                    
 CGCreateAndDefineOnGlobalMethod
 (
-                    
+                        
 descriptor
-                
+                    
 )
-            
+                
 )
         
 #
@@ -128040,6 +128041,27 @@ webIDLFile
 hasInterfaceOrInterfacePrototypeObject
 =
 True
+        
+)
+        
+descriptors
+.
+extend
+(
+            
+config
+.
+getDescriptors
+(
+                
+webIDLFile
+=
+webIDLFile
+hasOrdinaryObjectPrototype
+=
+True
+            
+)
         
 )
         
@@ -158814,6 +158836,36 @@ hasInterfacePrototypeObject
 =
 True
         
+)
+        
+descriptorsWithPrototype
+.
+extend
+(
+            
+config
+.
+getDescriptors
+(
+hasOrdinaryObjectPrototype
+=
+True
+)
+        
+)
+        
+descriptorsWithPrototype
+.
+sort
+(
+key
+=
+attrgetter
+(
+"
+name
+"
+)
 )
         
 protos
