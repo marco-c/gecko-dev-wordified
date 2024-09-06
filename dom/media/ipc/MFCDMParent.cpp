@@ -4261,7 +4261,7 @@ u
 "
 decode
 -
-bpp
+bpc
 =
 8
 "
