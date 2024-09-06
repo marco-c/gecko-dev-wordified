@@ -1368,3 +1368,26 @@ default
         
 return
 True
+    
+def
+clean_up
+(
+self
+)
+:
+        
+"
+"
+"
+Perform
+cleanup
+operations
+to
+release
+resources
+.
+"
+"
+"
+        
+pass
