@@ -3820,8 +3820,9 @@ result
 *
 template
 {
-T
+any
 }
+T
 *
 param
 {
