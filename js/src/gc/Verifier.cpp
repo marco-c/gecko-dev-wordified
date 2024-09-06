@@ -3133,7 +3133,7 @@ TenuredChunk
 *
 UniquePtr
 <
-MarkBitmap
+ChunkMarkBitmap
 >
 GCChunkHasher
 SystemAllocPolicy
@@ -3383,7 +3383,7 @@ js_malloc
 (
 sizeof
 (
-MarkBitmap
+ChunkMarkBitmap
 )
 )
 ;
@@ -3398,7 +3398,7 @@ return
 }
 UniquePtr
 <
-MarkBitmap
+ChunkMarkBitmap
 >
 entry
 (
@@ -3406,7 +3406,7 @@ new
 (
 buffer
 )
-MarkBitmap
+ChunkMarkBitmap
 )
 ;
 entry
@@ -4232,7 +4232,7 @@ next
 )
 )
 {
-MarkBitmap
+ChunkMarkBitmap
 *
 bitmap
 =
@@ -4264,7 +4264,7 @@ map
 "
 )
 ;
-MarkBitmap
+ChunkMarkBitmap
 *
 entry
 =
@@ -4279,7 +4279,7 @@ get
 (
 )
 ;
-MarkBitmap
+ChunkMarkBitmap
 temp
 ;
 temp
@@ -4660,7 +4660,7 @@ mark
 *
 /
 }
-MarkBitmap
+ChunkMarkBitmap
 *
 bitmap
 =
@@ -4675,7 +4675,7 @@ get
 (
 )
 ;
-MarkBitmap
+ChunkMarkBitmap
 *
 incBitmap
 =

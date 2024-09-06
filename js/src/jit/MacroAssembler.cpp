@@ -53750,7 +53750,10 @@ firstArenaAdjustment
 gc
 :
 :
-FirstArenaAdjustmentBits
+ChunkMarkBitmap
+:
+:
+FirstThingAdjustmentBits
 /
 CHAR_BIT
 ;

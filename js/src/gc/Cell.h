@@ -2379,7 +2379,7 @@ inline
 CellColor
 getColor
 (
-MarkBitmap
+ChunkMarkBitmap
 *
 bitmap
 const
@@ -3209,7 +3209,7 @@ TenuredCell
 :
 getColor
 (
-MarkBitmap
+ChunkMarkBitmap
 *
 bitmap
 const
