@@ -270,7 +270,7 @@ querySelectorAll
 (
 "
 .
-ruleview
+inspector
 -
 colorswatch
 "

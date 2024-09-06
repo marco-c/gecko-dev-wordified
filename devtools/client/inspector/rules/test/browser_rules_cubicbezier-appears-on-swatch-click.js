@@ -220,7 +220,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 bezierswatch
 "
@@ -248,7 +248,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 bezierswatch
 "
@@ -281,7 +281,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 bezierswatch
 "
@@ -314,7 +314,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 bezierswatch
 "

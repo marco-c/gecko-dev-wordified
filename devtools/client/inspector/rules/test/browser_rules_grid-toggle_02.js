@@ -269,7 +269,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 grid
 "

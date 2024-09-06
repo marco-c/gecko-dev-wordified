@@ -205,7 +205,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 shapeswatch
 "

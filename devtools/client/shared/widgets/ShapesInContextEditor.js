@@ -1517,7 +1517,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 shapeswatch
 "
@@ -1970,7 +1970,7 @@ pointSelector
 =
 "
 .
-ruleview
+inspector
 -
 shape
 -

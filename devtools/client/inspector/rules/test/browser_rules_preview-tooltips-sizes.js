@@ -385,7 +385,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 variable
 "

@@ -760,7 +760,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 angleswatch
 "

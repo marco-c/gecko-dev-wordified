@@ -805,7 +805,7 @@ querySelectorAll
 (
 "
 .
-ruleview
+inspector
 -
 colorswatch
 "

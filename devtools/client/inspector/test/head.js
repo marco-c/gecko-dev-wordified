@@ -6610,11 +6610,11 @@ querySelectorAll
 (
 "
 .
-ruleview
+inspector
 -
 variable
 .
-ruleview
+inspector
 -
 unmatched
 "
@@ -6639,7 +6639,7 @@ classList
 contains
 (
 "
-ruleview
+inspector
 -
 unmatched
 "
@@ -6674,7 +6674,7 @@ classList
 contains
 (
 "
-ruleview
+inspector
 -
 unmatched
 "
@@ -7642,7 +7642,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 shapeswatch
 "

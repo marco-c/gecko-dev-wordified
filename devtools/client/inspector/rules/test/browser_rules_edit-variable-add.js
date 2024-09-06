@@ -157,7 +157,7 @@ div
 color
 "
 "
-ruleview
+inspector
 -
 unmatched
 "
@@ -209,7 +209,7 @@ div
 color
 "
 "
-ruleview
+inspector
 -
 variable
 "

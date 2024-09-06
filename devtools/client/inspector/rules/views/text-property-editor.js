@@ -361,7 +361,7 @@ const
 SHARED_SWATCH_CLASS
 =
 "
-ruleview
+inspector
 -
 swatch
 "
@@ -370,7 +370,7 @@ const
 COLOR_SWATCH_CLASS
 =
 "
-ruleview
+inspector
 -
 colorswatch
 "
@@ -379,7 +379,7 @@ const
 BEZIER_SWATCH_CLASS
 =
 "
-ruleview
+inspector
 -
 bezierswatch
 "
@@ -388,7 +388,7 @@ const
 LINEAR_EASING_SWATCH_CLASS
 =
 "
-ruleview
+inspector
 -
 lineareasingswatch
 "
@@ -397,7 +397,7 @@ const
 FILTER_SWATCH_CLASS
 =
 "
-ruleview
+inspector
 -
 filterswatch
 "
@@ -406,7 +406,7 @@ const
 ANGLE_SWATCH_CLASS
 =
 "
-ruleview
+inspector
 -
 angleswatch
 "
@@ -426,7 +426,7 @@ const
 SHAPE_SWATCH_CLASS
 =
 "
-ruleview
+inspector
 -
 shapeswatch
 "
@@ -3992,7 +3992,7 @@ FILTER_SWATCH_CLASS
 flexClass
 :
 "
-ruleview
+inspector
 -
 flex
 js
@@ -4006,7 +4006,7 @@ highlighter
 gridClass
 :
 "
-ruleview
+inspector
 -
 grid
 js
@@ -4035,7 +4035,7 @@ LINEAR_EASING_SWATCH_CLASS
 shapeClass
 :
 "
-ruleview
+inspector
 -
 shape
 "
@@ -4103,14 +4103,14 @@ sheetHref
 unmatchedClass
 :
 "
-ruleview
+inspector
 -
 unmatched
 "
 matchedVariableClass
 :
 "
-ruleview
+inspector
 -
 variable
 "
@@ -5248,7 +5248,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 flex
 "
@@ -5327,7 +5327,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 grid
 "
@@ -5412,7 +5412,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 shapeswatch
 "
@@ -6939,10 +6939,10 @@ value
 colorSwatchClass
 :
 "
-ruleview
+inspector
 -
 swatch
-ruleview
+inspector
 -
 colorswatch
 "

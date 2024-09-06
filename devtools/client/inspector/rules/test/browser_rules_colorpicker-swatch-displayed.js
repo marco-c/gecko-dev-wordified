@@ -633,7 +633,7 @@ querySelectorAll
 (
 "
 .
-ruleview
+inspector
 -
 colorswatch
 "

@@ -785,7 +785,7 @@ classList
 contains
 (
 "
-ruleview
+inspector
 -
 shape
 -
@@ -1003,7 +1003,7 @@ classList
 contains
 (
 "
-ruleview
+inspector
 -
 shapeswatch
 "
@@ -1045,7 +1045,7 @@ classList
 contains
 (
 "
-ruleview
+inspector
 -
 variable
 "
@@ -1057,7 +1057,7 @@ classList
 contains
 (
 "
-ruleview
+inspector
 -
 unmatched
 "
@@ -1791,7 +1791,7 @@ node
 querySelector
 (
 .
-ruleview
+inspector
 -
 shapeswatch
 [

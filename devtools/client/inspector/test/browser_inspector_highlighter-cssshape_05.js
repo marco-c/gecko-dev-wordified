@@ -345,7 +345,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 shapeswatch
 "
@@ -420,7 +420,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 shape
 -
@@ -826,7 +826,7 @@ querySelector
 (
 "
 .
-ruleview
+inspector
 -
 shape
 -
