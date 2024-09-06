@@ -248,7 +248,7 @@ uint8_t
 ;
 enum
 class
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 uint8_t
 ;
@@ -1993,13 +1993,13 @@ mClip
 mozilla
 :
 :
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 mRepeatModeHorizontal
 ;
 mozilla
 :
 :
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 mRepeatModeVertical
 ;
 bool

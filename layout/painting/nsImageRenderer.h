@@ -1629,12 +1629,12 @@ aSrc
 mozilla
 :
 :
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 aHFill
 mozilla
 :
 :
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 aVFill
 const
 nsSize

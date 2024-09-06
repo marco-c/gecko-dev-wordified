@@ -5735,7 +5735,7 @@ the
 component
 -
 *
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 -
 i
 .
@@ -5771,9 +5771,9 @@ ComputeTile
 nsRect
 &
 aFill
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 aHFill
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 aVFill
 const
 nsSize
@@ -5793,7 +5793,7 @@ aHFill
 )
 {
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Stretch
@@ -5825,7 +5825,7 @@ width
 break
 ;
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Repeat
@@ -5869,7 +5869,7 @@ width
 break
 ;
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Round
@@ -5910,7 +5910,7 @@ width
 break
 ;
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Space
@@ -5999,7 +5999,7 @@ aVFill
 )
 {
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Stretch
@@ -6031,7 +6031,7 @@ height
 break
 ;
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Repeat
@@ -6075,7 +6075,7 @@ height
 break
 ;
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Round
@@ -6116,7 +6116,7 @@ height
 break
 ;
 case
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Space
@@ -6252,9 +6252,9 @@ const
 nsRect
 &
 aFill
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 aHFill
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 aVFill
 const
 nsSize
@@ -6287,7 +6287,7 @@ return
 aHFill
 !
 =
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Stretch
@@ -6296,7 +6296,7 @@ Stretch
 aVFill
 !
 =
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Stretch
@@ -6349,9 +6349,9 @@ const
 CSSIntRect
 &
 aSrc
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 aHFill
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 aVFill
 const
 nsSize

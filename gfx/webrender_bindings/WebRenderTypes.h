@@ -268,7 +268,7 @@ uint8_t
 ;
 enum
 class
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 uint8_t
 ;
@@ -3923,7 +3923,7 @@ wr
 RepeatMode
 ToRepeatMode
 (
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 )
 ;
 template

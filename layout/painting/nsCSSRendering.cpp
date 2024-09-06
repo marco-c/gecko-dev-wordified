@@ -5194,7 +5194,7 @@ aStyleBorder
 mBorderImageRepeatH
 =
 =
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Space
@@ -5205,7 +5205,7 @@ aStyleBorder
 mBorderImageRepeatV
 =
 =
-StyleBorderImageRepeat
+StyleBorderImageRepeatKeyword
 :
 :
 Space
