@@ -363,7 +363,7 @@ std
 :
 map
 <
-uint32_t
+int
 PpsInfo
 >
 pps_data_
@@ -373,7 +373,7 @@ std
 :
 map
 <
-uint32_t
+int
 SpsInfo
 >
 sps_data_
