@@ -76,7 +76,7 @@ import
 (
 specifier
 {
-assert
+with
 :
 {
 type
@@ -133,7 +133,7 @@ type
 :
 css
 '
-assertion
+attribute
 in
 a
 worker
