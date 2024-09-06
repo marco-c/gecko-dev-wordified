@@ -4244,11 +4244,11 @@ set
 [
 [
 "
-privacy
+network
 .
-documentCookies
+cookie
 .
-maxage
+maxageCap
 "
 0
 ]
