@@ -10076,7 +10076,6 @@ var
 storage
 read_write
 >
-var
 for_layout
 :
 u32
@@ -10085,10 +10084,6 @@ fragment
 fn
 fsMain
 (
-_
-=
-for_layout
-;
 builtin
 (
 position
@@ -10112,6 +10107,10 @@ location
 )
 vec4u
 {
+_
+=
+for_layout
+;
 let
 ballot
 =

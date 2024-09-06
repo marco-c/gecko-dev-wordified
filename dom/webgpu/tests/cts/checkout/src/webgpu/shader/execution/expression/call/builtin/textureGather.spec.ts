@@ -991,6 +991,11 @@ generateTextureBuiltinInputs2D
 method
 :
 samplePoints
+textureBuiltin
+:
+'
+textureGather
+'
 sampler
 descriptor
 offset
@@ -2315,6 +2320,11 @@ generateTextureBuiltinInputs2D
 method
 :
 samplePoints
+textureBuiltin
+:
+'
+textureGather
+'
 sampler
 descriptor
 arrayIndex
@@ -3604,6 +3614,11 @@ generateTextureBuiltinInputs2D
 method
 :
 samplePoints
+textureBuiltin
+:
+'
+textureGather
+'
 sampler
 descriptor
 offset
@@ -4728,6 +4743,11 @@ generateTextureBuiltinInputs2D
 method
 :
 samplePoints
+textureBuiltin
+:
+'
+textureGather
+'
 sampler
 descriptor
 arrayIndex
