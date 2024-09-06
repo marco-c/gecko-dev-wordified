@@ -1085,6 +1085,13 @@ StopLazyLoading
 (
 )
 ;
+void
+CancelLazyLoading
+(
+bool
+aClearLazyLoadState
+)
+;
 const
 LazyLoadFrameResumptionState
 &
