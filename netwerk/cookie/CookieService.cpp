@@ -4167,6 +4167,18 @@ ePartitionedPrincipal
 )
 ;
 }
+nsAutoCString
+dateHeader
+;
+CookieCommons
+:
+:
+GetServerDateHeader
+(
+aChannel
+dateHeader
+)
+;
 /
 /
 process
@@ -4202,6 +4214,7 @@ baseDomain
 requireHostMatch
 cookieStatus
 cookieHeader
+dateHeader
 true
 isForeignAndNotAddon
 mustBePartitioned
