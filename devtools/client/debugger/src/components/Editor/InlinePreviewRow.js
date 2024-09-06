@@ -417,6 +417,11 @@ preview
 .
 name
 }
+type
+:
+preview
+.
+type
 variable
 :
 preview

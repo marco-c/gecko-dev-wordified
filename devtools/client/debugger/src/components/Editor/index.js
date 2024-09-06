@@ -4472,7 +4472,12 @@ Breakpoints
 editor
 }
 )
+(
 isPaused
+|
+|
+isTraceSelected
+)
 &
 &
 selectedSource
@@ -4664,7 +4669,12 @@ Breakpoints
 editor
 }
 )
+(
 isPaused
+|
+|
+isTraceSelected
+)
 &
 &
 selectedSource
