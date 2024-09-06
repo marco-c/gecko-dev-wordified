@@ -8325,6 +8325,7 @@ Bounce
 Tracking
 Mitigations
 *
+<
 https
 :
 /
@@ -8351,6 +8352,7 @@ tracking
 mitigations
 -
 command
+>
 _
 *
 WebDriver
