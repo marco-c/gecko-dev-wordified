@@ -211,16 +211,6 @@ MD5
 .
 *
 *
-This
-version
-supports
-huge
-pointers
-for
-WIN16
-.
-*
-*
 /
 JAR_Digest
 *

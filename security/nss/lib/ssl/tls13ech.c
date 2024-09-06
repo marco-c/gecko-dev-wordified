@@ -5061,10 +5061,12 @@ tag
 .
 *
 /
+chCt
+=
 SECITEM_AllocItem
 (
 NULL
-chCt
+NULL
 chPt
 .
 len

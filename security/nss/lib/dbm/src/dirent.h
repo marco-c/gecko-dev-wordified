@@ -250,12 +250,6 @@ dirent
 if
 defined
 (
-OS2
-)
-|
-|
-defined
-(
 WIN32
 )
 /

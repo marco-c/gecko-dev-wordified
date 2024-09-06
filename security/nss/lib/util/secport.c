@@ -204,12 +204,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_OS2
-)
 #
 include
 <
