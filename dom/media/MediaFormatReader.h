@@ -1476,14 +1476,6 @@ MediaFormatReaderDebugInfo
 aInfo
 )
 ;
-Maybe
-<
-nsCString
->
-GetAudioProcessPerCodec
-(
-)
-;
 /
 /
 Switch
