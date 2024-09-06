@@ -277,7 +277,7 @@ downloaded
 "
 |
 "
-uninstalled
+removed
 "
 |
 "
@@ -975,7 +975,7 @@ downloaded
 "
 :
 "
-uninstalled
+removed
 "
 ;
 this
@@ -1029,7 +1029,7 @@ downloaded
 "
 :
 "
-uninstalled
+removed
 "
 ;
 this
@@ -1068,10 +1068,10 @@ to
 be
 able
 to
-install
+download
 *
 and
-uninstall
+remove
 language
 models
 for
@@ -1085,7 +1085,7 @@ buildDownloadLanguageList
 )
 {
 const
-installList
+downloadList
 =
 document
 .
@@ -1229,7 +1229,7 @@ list
 const
 allLangElement
 =
-installList
+downloadList
 .
 children
 [
@@ -1358,7 +1358,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -1428,7 +1428,7 @@ languageSize
 ]
 )
 ;
-installList
+downloadList
 .
 appendChild
 (
@@ -1490,7 +1490,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -1590,7 +1590,7 @@ popup
 {
 this
 .
-addAlwaysLanguage
+handleAddAlwaysTranslateLanguage
 (
 event
 )
@@ -1620,7 +1620,7 @@ popup
 {
 this
 .
-addNeverLanguage
+handleAddNeverTranslateLanguage
 (
 event
 )
@@ -1653,7 +1653,7 @@ button
 {
 this
 .
-deleteNeverTranslateSite
+handleRemoveNeverTranslateSite
 (
 event
 )
@@ -1682,7 +1682,7 @@ button
 {
 this
 .
-deleteNeverTranslateLanguage
+handleRemoveNeverTranslateLanguage
 (
 event
 )
@@ -1711,7 +1711,7 @@ button
 {
 this
 .
-deleteAlwaysTranslateLanguage
+handleRemoveAlwaysTranslateLanguage
 (
 event
 )
@@ -1788,7 +1788,7 @@ languages
 {
 this
 .
-handleInstallAll
+handleDownloadAllLanguages
 (
 event
 )
@@ -1798,7 +1798,7 @@ else
 {
 this
 .
-installLanguage
+handleDownloadLanguage
 (
 event
 )
@@ -1817,7 +1817,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -1854,7 +1854,7 @@ languages
 {
 this
 .
-handleUninstallAll
+handleRemoveAllLanguages
 (
 event
 )
@@ -1864,7 +1864,7 @@ else
 {
 this
 .
-unInstallLanguage
+handleRemoveLanguage
 (
 event
 )
@@ -1907,7 +1907,7 @@ event
 *
 /
 async
-addAlwaysLanguage
+handleAddAlwaysTranslateLanguage
 (
 event
 )
@@ -2045,7 +2045,7 @@ event
 *
 /
 async
-addNeverLanguage
+handleAddNeverTranslateLanguage
 (
 event
 )
@@ -2829,7 +2829,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -3885,7 +3885,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -4242,7 +4242,7 @@ languageList
 *
 *
 *
-Deletes
+Removes
 a
 language
 currently
@@ -4400,7 +4400,7 @@ remove
 Event
 Handler
 to
-delete
+remove
 a
 language
 selected
@@ -4427,7 +4427,7 @@ Event
 event
 *
 /
-deleteAlwaysTranslateLanguage
+handleRemoveAlwaysTranslateLanguage
 (
 event
 )
@@ -4466,7 +4466,7 @@ ALWAYS_TRANSLATE_LANGS_PREF
 Event
 Handler
 to
-delete
+remove
 a
 language
 selected
@@ -4493,7 +4493,7 @@ Event
 event
 *
 /
-deleteNeverTranslateLanguage
+handleRemoveNeverTranslateLanguage
 (
 event
 )
@@ -4529,7 +4529,7 @@ NEVER_TRANSLATE_LANGS_PREF
 *
 *
 *
-Deletes
+Removes
 the
 site
 chosen
@@ -4554,7 +4554,7 @@ Event
 event
 *
 /
-deleteNeverTranslateSite
+handleRemoveNeverTranslateSite
 (
 event
 )
@@ -4598,7 +4598,7 @@ downloaded
 /
 loading
 /
-uninstalled
+removed
 for
 *
 given
@@ -4690,7 +4690,7 @@ the
 download
 phases
 const
-installList
+downloadList
 =
 document
 .
@@ -4718,12 +4718,12 @@ list
 ;
 while
 (
-installList
+downloadList
 .
 firstElementChild
 )
 {
-installList
+downloadList
 .
 firstElementChild
 .
@@ -4746,7 +4746,7 @@ buildDownloadLanguageList
 Event
 Handler
 to
-install
+download
 a
 language
 model
@@ -4765,7 +4765,7 @@ event
 *
 /
 async
-installLanguage
+handleDownloadLanguage
 (
 event
 )
@@ -4914,7 +4914,7 @@ updateDownloadPhase
 (
 langTag
 "
-uninstalled
+removed
 "
 )
 ;
@@ -4947,7 +4947,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -4969,7 +4969,7 @@ If
 all
 languages
 are
-installed
+downloaded
 change
 "
 All
@@ -4978,7 +4978,7 @@ Languages
 to
 downloaded
 const
-haveUninstalledItem
+haveRemovedItem
 =
 [
 .
@@ -5020,7 +5020,7 @@ all
 if
 (
 !
-haveUninstalledItem
+haveRemovedItem
 &
 &
 this
@@ -5082,7 +5082,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -5109,7 +5109,7 @@ downloaded
 Event
 Handler
 to
-install
+remove
 a
 language
 model
@@ -5128,7 +5128,7 @@ event
 *
 /
 async
-unInstallLanguage
+handleRemoveLanguage
 (
 event
 )
@@ -5150,7 +5150,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -5219,7 +5219,7 @@ in
 case
 of
 a
-uninstall
+remove
 error
 /
 /
@@ -5280,7 +5280,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -5292,7 +5292,7 @@ updateDownloadPhase
 (
 langTag
 "
-uninstalled
+removed
 "
 )
 ;
@@ -5337,7 +5337,7 @@ updateDownloadPhase
 (
 langTag
 "
-uninstalled
+removed
 "
 )
 ;
@@ -5349,7 +5349,7 @@ If
 1
 languages
 are
-uninstalled
+removed
 change
 "
 All
@@ -5357,7 +5357,7 @@ Languages
 "
 state
 to
-uninstalled
+removed
 if
 (
 this
@@ -5410,7 +5410,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -5433,7 +5433,7 @@ updateDownloadPhase
 all
 "
 "
-uninstalled
+removed
 "
 )
 ;
@@ -5446,7 +5446,7 @@ uninstalled
 Event
 Handler
 to
-install
+download
 all
 language
 models
@@ -5459,7 +5459,7 @@ event
 *
 /
 async
-handleInstallAll
+handleDownloadAllLanguages
 (
 event
 )
@@ -5597,7 +5597,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -5641,7 +5641,7 @@ error
 Event
 Handler
 to
-uninstall
+remove
 all
 language
 models
@@ -5654,7 +5654,7 @@ event
 *
 /
 async
-handleUninstallAll
+handleRemoveAllLanguages
 (
 event
 )
@@ -5682,7 +5682,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -5732,7 +5732,7 @@ in
 case
 of
 a
-uninstall
+remove
 error
 /
 /
@@ -5785,7 +5785,7 @@ updateDownloadPhase
 all
 "
 "
-uninstalled
+removed
 "
 )
 ;
@@ -5794,7 +5794,7 @@ this
 updateAllLanguageDownloadButtons
 (
 "
-uninstalled
+removed
 "
 )
 ;
@@ -5828,9 +5828,9 @@ Disables
 the
 buttons
 to
-install
+download
 /
-uninstall
+remove
 inidividual
 languages
 *
@@ -5840,9 +5840,9 @@ all
 languages
 "
 are
-installed
+downloaded
 /
-uninstalled
+removed
 .
 *
 This
@@ -5855,15 +5855,15 @@ no
 individual
 languages
 are
-installed
+downloaded
 /
-uninstalled
+removed
 *
 when
 the
-install
+download
 /
-uninstall
+remove
 operations
 for
 "
@@ -5880,7 +5880,7 @@ disableDownloadButtons
 )
 {
 const
-installList
+downloadList
 =
 document
 .
@@ -5926,7 +5926,7 @@ for
 const
 langElem
 of
-installList
+downloadList
 .
 querySelectorAll
 (
@@ -5992,7 +5992,7 @@ buttons
 as
 downloaded
 /
-uninstalled
+removed
 *
 based
 on
@@ -6022,7 +6022,7 @@ download
 icon
 to
 "
-delete
+remove
 "
 icon
 if
@@ -6036,7 +6036,7 @@ downloaded
 *
 from
 "
-delete
+remove
 "
 icon
 to
@@ -6050,7 +6050,7 @@ All
 Language
 "
 is
-uninstalled
+removed
 .
 *
 param
@@ -6066,7 +6066,7 @@ status
 :
 downloaded
 /
-uninstalled
+removed
 *
 /
 updateAllLanguageDownloadButtons
@@ -6075,7 +6075,7 @@ allLanguageDownloadStatus
 )
 {
 const
-installList
+downloadList
 =
 document
 .
@@ -6126,7 +6126,7 @@ for
 const
 langElem
 of
-installList
+downloadList
 .
 querySelectorAll
 (
@@ -6262,7 +6262,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -6303,7 +6303,7 @@ allLanguageDownloadStatus
 =
 =
 "
-uninstalled
+removed
 "
 )
 {
@@ -6317,7 +6317,7 @@ translations
 -
 settings
 -
-delete
+remove
 -
 icon
 "
@@ -6345,7 +6345,7 @@ value
 "
 )
 "
-uninstalled
+removed
 "
 )
 ;
@@ -6378,7 +6378,7 @@ download
 /
 loading
 /
-uninstalled
+removed
 *
 also
 change
