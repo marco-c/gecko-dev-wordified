@@ -736,7 +736,7 @@ fuzz
 enable
 *
 /
-false
+true
 \
 /
 *
@@ -810,7 +810,7 @@ fuzz
 enable
 *
 /
-false
+true
 \
 /
 *
@@ -1558,7 +1558,7 @@ fuzz
 enable
 *
 /
-false
+true
 \
 /
 *
