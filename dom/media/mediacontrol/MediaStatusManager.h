@@ -1597,6 +1597,12 @@ GetDefaultTitle
 )
 const
 ;
+nsCString
+GetUrl
+(
+)
+const
+;
 MediaMetadataBase
 CreateDefaultMetadata
 (
