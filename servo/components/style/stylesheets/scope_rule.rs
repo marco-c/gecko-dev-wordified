@@ -145,7 +145,6 @@ shared_lock
 :
 :
 {
-DeepCloneParams
 DeepCloneWithLock
 Locked
 SharedRwLock
@@ -364,10 +363,6 @@ guard
 :
 &
 SharedRwLockReadGuard
-params
-:
-&
-DeepCloneParams
 )
 -
 >
@@ -413,7 +408,6 @@ deep_clone_with_lock
 (
 lock
 guard
-params
 )
 )
 )
