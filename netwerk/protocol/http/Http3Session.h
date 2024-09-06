@@ -2226,11 +2226,6 @@ nsHttpConnectionInfo
 >
 mConnInfo
 ;
-bool
-mThroughCaptivePortal
-=
-false
-;
 int64_t
 mTotalBytesRead
 =

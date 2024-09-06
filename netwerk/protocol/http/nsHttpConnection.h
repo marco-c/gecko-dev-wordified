@@ -2519,9 +2519,6 @@ nullptr
 ;
 private
 :
-bool
-mThroughCaptivePortal
-;
 int64_t
 mTotalBytesWritten
 =

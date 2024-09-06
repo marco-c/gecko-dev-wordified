@@ -3805,9 +3805,6 @@ HttpTrafficCategory
 eInvalid
 }
 ;
-bool
-mThroughCaptivePortal
-;
 Atomic
 <
 int32_t
