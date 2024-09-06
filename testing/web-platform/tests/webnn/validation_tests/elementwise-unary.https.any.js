@@ -100,6 +100,9 @@ neg
 reciprocal
 '
 '
+sign
+'
+'
 sin
 '
 '
