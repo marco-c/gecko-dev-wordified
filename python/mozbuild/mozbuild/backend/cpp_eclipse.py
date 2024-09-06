@@ -1048,34 +1048,15 @@ _workspace_lang_dir
 ]
 :
             
-try
-:
-                
 os
 .
 makedirs
 (
 dir_name
-)
-            
-except
-OSError
-as
-e
-:
-                
-if
-e
-.
-errno
-!
+exist_ok
 =
-errno
-.
-EEXIST
-:
-                    
-raise
+True
+)
         
 project_path
 =
