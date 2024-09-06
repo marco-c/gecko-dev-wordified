@@ -2456,6 +2456,8 @@ is
 not
 explicitly
 set
+to
+false
 from
 the
 config
@@ -2513,9 +2515,10 @@ config
 extraKeys
 .
 Tab
+!
 =
 =
-undefined
+false
 )
 {
 this
