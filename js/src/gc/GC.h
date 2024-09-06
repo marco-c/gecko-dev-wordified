@@ -657,6 +657,15 @@ generateMissingAllocSites
 JSGC_GENERATE_MISSING_ALLOC_SITES
 true
 )
+\
+_
+(
+"
+highFrequencyMode
+"
+JSGC_HIGH_FREQUENCY_MODE
+false
+)
 /
 /
 Get

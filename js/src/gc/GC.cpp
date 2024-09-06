@@ -9047,6 +9047,16 @@ SystemPageSize
 /
 1024
 ;
+case
+JSGC_HIGH_FREQUENCY_MODE
+:
+return
+schedulingState
+.
+inHighFrequencyGCMode
+(
+)
+;
 default
 :
 return
@@ -28745,8 +28755,8 @@ updateHighFrequencyModeOnGCStart
 gcOptions
 (
 )
-now
 lastGCStartTime_
+now
 tunables
 )
 ;
