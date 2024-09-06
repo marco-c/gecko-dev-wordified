@@ -348,7 +348,6 @@ frame_length
 char
 data
 [
-0
 ]
 ;
 }
