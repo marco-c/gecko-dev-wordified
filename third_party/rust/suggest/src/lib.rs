@@ -165,7 +165,10 @@ use
 provider
 :
 :
+{
 SuggestionProvider
+SuggestionProviderConstraints
+}
 ;
 pub
 use
