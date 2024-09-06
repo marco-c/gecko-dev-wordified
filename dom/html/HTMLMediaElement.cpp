@@ -46659,6 +46659,17 @@ IsActuallyInvisible
 IsInComposedDoc
 (
 )
+OwnerDoc
+(
+)
+-
+>
+IsInBackgroundWindow
+(
+)
+HasPendingCallbacks
+(
+)
 )
 ;
 }
