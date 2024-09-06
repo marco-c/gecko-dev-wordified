@@ -4207,15 +4207,14 @@ return
 content
 -
 >
-ChildToUserSpaceTransform
+PrependLocalTransformsTo
 (
-)
-*
 parent
 -
 >
 GetCanvasTM
 (
+)
 )
 ;
 }
