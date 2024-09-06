@@ -491,7 +491,7 @@ video
 -
 wrappers
 /
-arte
+videojsWrapper
 .
 js
 "
