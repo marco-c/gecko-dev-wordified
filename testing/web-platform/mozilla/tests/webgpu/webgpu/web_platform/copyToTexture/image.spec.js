@@ -104,7 +104,7 @@ js
 ;
 import
 {
-CopyToTextureUtils
+TextureUploadingUtils
 kCopySubrectInfo
 }
 from
@@ -235,7 +235,7 @@ g
 =
 makeTestGroup
 (
-CopyToTextureUtils
+TextureUploadingUtils
 )
 ;
 g

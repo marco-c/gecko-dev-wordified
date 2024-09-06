@@ -478,7 +478,7 @@ depthOrArrayLayers
 ;
 export
 class
-CopyToTextureUtils
+TextureUploadingUtils
 extends
 TextureTestMixin
 (
