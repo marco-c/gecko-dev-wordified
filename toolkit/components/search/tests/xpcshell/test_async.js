@@ -58,7 +58,6 @@ function
 (
 )
 {
-await
 SearchTestUtils
 .
 setRemoteSettingsConfig
