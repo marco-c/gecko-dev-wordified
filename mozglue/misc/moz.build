@@ -126,6 +126,11 @@ IntegerPrintfMacros
 h
 "
 "
+LoggingCore
+.
+h
+"
+"
 MmapFaultHandler
 .
 h
@@ -266,6 +271,11 @@ cpp
 "
 "
 Debug
+.
+cpp
+"
+"
+LoggingCore
 .
 cpp
 "
