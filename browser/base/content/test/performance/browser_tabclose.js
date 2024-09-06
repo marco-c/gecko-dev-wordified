@@ -746,7 +746,9 @@ document
 getElementById
 (
 "
-appcontent
+tabbrowser
+-
+tabbox
 "
 )
 .
