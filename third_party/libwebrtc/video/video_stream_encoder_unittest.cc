@@ -16623,16 +16623,10 @@ const
 TimeDelta
 runtime
 =
-TimeDelta
-:
-:
-Millis
-(
 EncoderBitrateAdjuster
 :
 :
-kWindowSizeMs
-)
+kWindowSize
 ;
 const
 Timestamp
