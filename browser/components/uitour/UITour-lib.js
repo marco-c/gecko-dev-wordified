@@ -3101,7 +3101,7 @@ device
 *
 property
 {
-Object
+Record
 <
 string
 number
@@ -3334,7 +3334,7 @@ AccountService
 *
 typedef
 {
-Object
+Record
 <
 string
 Mozilla
