@@ -2966,9 +2966,7 @@ pref
 (
 webgl
 .
-colorspaces
-.
-prototype
+drawing_buffer_color_space
 true
 )
 {
