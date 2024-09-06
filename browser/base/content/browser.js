@@ -10238,7 +10238,7 @@ blockedInfo
 uri
 {
 triggeringPrincipal
-flags
+loadFlags
 :
 Ci
 .

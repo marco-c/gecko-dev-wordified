@@ -1471,7 +1471,7 @@ browser
 nativeTab
 ;
 let
-flags
+loadFlags
 =
 Ci
 .
@@ -1603,7 +1603,7 @@ get
 a
 NullPrincipal
 .
-flags
+loadFlags
 |
 =
 Ci
@@ -1619,7 +1619,7 @@ fixupAndLoadURIString
 (
 url
 {
-flags
+loadFlags
 triggeringPrincipal
 :
 principal
