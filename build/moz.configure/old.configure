@@ -685,8 +685,6 @@ options
 return
 depends
 (
-host_for_sub_configure
-target_for_sub_configure
 all_options
 *
 options
@@ -734,8 +732,6 @@ libraries
 def
 prepare_configure_options
 (
-host
-target
 all_options
 *
 options
@@ -812,11 +808,6 @@ origin
 "
 default
 "
-]
-+
-[
-host
-target
 ]
 return
 namespace
