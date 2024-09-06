@@ -2049,7 +2049,7 @@ pref
 "
 shortcuts
 .
-quickactions
+actions
 "
 )
 {
