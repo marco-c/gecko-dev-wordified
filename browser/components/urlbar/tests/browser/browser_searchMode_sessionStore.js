@@ -1727,16 +1727,6 @@ selected
 browser
 .
 *
-returns
-{
-object
-}
-*
-The
-reopened
-window
-.
-*
 /
 async
 function

@@ -701,6 +701,7 @@ n
 "
 )
 *
+*
 /
 /
 *
@@ -2321,6 +2322,7 @@ Configuration
 FxAConnections
 >
 *
+*
 /
 /
 *
@@ -3099,7 +3101,7 @@ device
 *
 property
 {
-Record
+Object
 <
 string
 number
@@ -3332,7 +3334,7 @@ AccountService
 *
 typedef
 {
-Record
+Object
 <
 string
 Mozilla
