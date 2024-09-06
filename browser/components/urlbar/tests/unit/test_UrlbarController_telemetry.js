@@ -143,6 +143,8 @@ time
 class
 DelayedProvider
 extends
+UrlbarTestUtils
+.
 TestProvider
 {
 async
@@ -437,6 +439,8 @@ let
 provider
 =
 new
+UrlbarTestUtils
+.
 TestProvider
 (
 {
