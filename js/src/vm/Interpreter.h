@@ -4719,10 +4719,10 @@ JS
 :
 Handle
 <
-ArrayObject
+JSObject
 *
 >
-disposeCapability
+env
 JS
 :
 :
