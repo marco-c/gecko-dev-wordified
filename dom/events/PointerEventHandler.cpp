@@ -5178,14 +5178,6 @@ aMouseOrTouchEvent
 }
 }
 }
-nsUserCharacteristics
-:
-:
-StealPointerEvent
-(
-aMouseOrTouchEvent
-)
-;
 }
 /
 *
