@@ -9360,9 +9360,10 @@ ScrollContainerFrame
 :
 IntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
@@ -9424,7 +9425,7 @@ mScrolledFrame
 >
 IntrinsicISize
 (
-aContext
+aInput
 aType
 )
 ;

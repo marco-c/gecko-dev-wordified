@@ -192,9 +192,13 @@ aPresContext
 nscoord
 IntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+mozilla
+:
+:
+IntrinsicSizeInput
+&
+aInput
 mozilla
 :
 :

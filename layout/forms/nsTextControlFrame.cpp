@@ -1820,6 +1820,13 @@ GetPrimaryFrame
 )
 )
 {
+const
+IntrinsicSizeInput
+input
+(
+aRenderingContext
+)
+;
 intrinsicSize
 .
 ISize
@@ -1838,7 +1845,7 @@ GetPrimaryFrame
 >
 GetMinISize
 (
-aRenderingContext
+input
 )
 ;
 }
@@ -3791,9 +3798,10 @@ nsTextControlFrame
 :
 IntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
@@ -3830,7 +3838,9 @@ GetWritingMode
 return
 CalcIntrinsicSize
 (
-aContext
+aInput
+.
+mContext
 wm
 )
 .
