@@ -2448,10 +2448,9 @@ nsFieldSetFrame
 :
 IntrinsicISize
 (
-const
-IntrinsicSizeInput
-&
-aInput
+gfxContext
+*
+aContext
 IntrinsicISizeType
 aType
 )
@@ -2524,9 +2523,7 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-aInput
-.
-mContext
+aContext
 legend
 aType
 )
@@ -2589,9 +2586,7 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-aInput
-.
-mContext
+aContext
 inner
 aType
 Nothing

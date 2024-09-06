@@ -4218,10 +4218,9 @@ nsCanvasFrame
 :
 IntrinsicISize
 (
-const
-IntrinsicSizeInput
-&
-aInput
+gfxContext
+*
+aContext
 IntrinsicISizeType
 aType
 )
@@ -4244,7 +4243,7 @@ FirstChild
 >
 IntrinsicISize
 (
-aInput
+aContext
 aType
 )
 ;

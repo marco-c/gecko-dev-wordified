@@ -1891,10 +1891,9 @@ nsTableWrapperFrame
 :
 IntrinsicISize
 (
-const
-IntrinsicSizeInput
-&
-aInput
+gfxContext
+*
+aContext
 IntrinsicISizeType
 aType
 )
@@ -1907,9 +1906,7 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-aInput
-.
-mContext
+aContext
 InnerTableFrame
 (
 )
@@ -1960,9 +1957,7 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-aInput
-.
-mContext
+aContext
 mCaptionFrames
 .
 FirstChild
