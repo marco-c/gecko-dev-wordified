@@ -1043,6 +1043,7 @@ intervals
 and
 timeouts
 .
+RTC_EXPORT
 int64_t
 TimeUTCMicros
 (
