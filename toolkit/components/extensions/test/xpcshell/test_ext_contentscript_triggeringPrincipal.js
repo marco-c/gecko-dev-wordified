@@ -5583,7 +5583,7 @@ getElementData
 *
 param
 {
-Object
+Record
 <
 string
 object
@@ -5635,7 +5635,7 @@ object
 *
 param
 {
-Object
+Record
 <
 string
 object
@@ -6476,7 +6476,7 @@ computeBaseURLs
 *
 param
 {
-Object
+Record
 <
 string
 string
