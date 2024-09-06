@@ -310,7 +310,7 @@ this
 .
 style
 .
-getProperty
+getPropertyValue
 (
 "
 -
