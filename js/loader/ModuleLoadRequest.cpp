@@ -303,7 +303,14 @@ set
 >
 PutEntry
 (
+ModuleMapKey
+(
 aURI
+ModuleType
+:
+:
+JavaScript
+)
 )
 ;
 return
