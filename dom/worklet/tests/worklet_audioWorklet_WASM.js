@@ -54,9 +54,6 @@ data
 }
 process
 (
-inputs
-outputs
-parameters
 )
 {
 /

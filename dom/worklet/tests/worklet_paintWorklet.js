@@ -1,4 +1,11 @@
 /
+*
+global
+registerPaint
+PaintWorkletGlobalScope
+*
+/
+/
 /
 This
 should
