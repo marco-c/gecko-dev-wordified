@@ -2743,13 +2743,6 @@ value
 :
 return
 True
-set_config
-(
-"
-MOZ_HAZARD
-"
-hazard_analysis
-)
 #
 Cross
 -
