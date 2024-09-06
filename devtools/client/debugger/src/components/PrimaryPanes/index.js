@@ -350,13 +350,6 @@ propTypes
 {
 return
 {
-projectRootName
-:
-PropTypes
-.
-string
-.
-isRequired
 selectedTab
 :
 PropTypes

@@ -348,8 +348,6 @@ mainThreadHost
 PropTypes
 .
 string
-.
-isRequired
 expanded
 :
 PropTypes
@@ -394,7 +392,7 @@ rootItems
 :
 PropTypes
 .
-object
+array
 .
 isRequired
 clearProjectDirectoryRoot

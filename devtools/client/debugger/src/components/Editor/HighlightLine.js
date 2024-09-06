@@ -404,7 +404,7 @@ shouldHighlightSelectedLocation
 :
 PropTypes
 .
-func
+bool
 .
 isRequired
 editor

@@ -274,7 +274,7 @@ depth
 :
 PropTypes
 .
-bool
+number
 .
 isRequired
 expanded
@@ -303,8 +303,6 @@ hasMatchingGeneratedSource
 PropTypes
 .
 bool
-.
-isRequired
 item
 :
 PropTypes

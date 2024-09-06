@@ -357,8 +357,6 @@ prettyPrintMessage
 PropTypes
 .
 string
-.
-isRequired
 endPanelCollapsed
 :
 PropTypes
@@ -400,8 +398,6 @@ isSelectedSourceBlackBoxed
 PropTypes
 .
 bool
-.
-isRequired
 sourceLoaded
 :
 PropTypes
@@ -1337,6 +1333,17 @@ createElement
 MenuButton
 {
 menuId
+:
+"
+debugger
+-
+source
+-
+map
+-
+button
+"
+key
 :
 "
 debugger

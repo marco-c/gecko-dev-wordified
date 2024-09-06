@@ -546,13 +546,6 @@ cursorPosition
 PropTypes
 .
 object
-flashLineRange
-:
-PropTypes
-.
-func
-.
-isRequired
 onAlphabetizeClick
 :
 PropTypes
@@ -572,8 +565,6 @@ selectedLocation
 PropTypes
 .
 object
-.
-isRequired
 getFunctionSymbols
 :
 PropTypes

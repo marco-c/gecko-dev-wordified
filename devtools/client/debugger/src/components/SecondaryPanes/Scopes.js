@@ -1704,6 +1704,8 @@ isLoading
 ;
 let
 mapScopesEnabled
+=
+false
 ;
 if
 (

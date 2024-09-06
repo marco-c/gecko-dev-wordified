@@ -448,9 +448,7 @@ selectedSourceTextContent
 :
 PropTypes
 .
-bool
-.
-isRequired
+object
 selectedSource
 :
 PropTypes

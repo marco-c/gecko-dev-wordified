@@ -293,6 +293,9 @@ lastExpandedScopes
 :
 [
 ]
+shouldBreakpointsPaneOpenOnPause
+:
+false
 }
 )
 ;
