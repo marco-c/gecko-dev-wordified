@@ -4362,7 +4362,7 @@ mParent
 =
 aParent
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mParent
@@ -79716,7 +79716,7 @@ mParent
 =
 aParent
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mParent
