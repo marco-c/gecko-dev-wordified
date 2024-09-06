@@ -9782,6 +9782,7 @@ linkedBrowser
 .
 goForward
 (
+false
 )
 ;
 }
@@ -9804,6 +9805,7 @@ linkedBrowser
 .
 goBack
 (
+false
 )
 ;
 }
