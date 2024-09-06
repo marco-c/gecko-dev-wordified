@@ -14207,7 +14207,7 @@ gRestartArgv
 true
 )
 ;
-LaunchMacApp
+LaunchChildMac
 (
 gRestartArgc
 gRestartArgv
