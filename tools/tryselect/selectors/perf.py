@@ -154,6 +154,13 @@ from
 .
 perfselector
 .
+perfpushinfo
+import
+PerfPushInfo
+from
+.
+perfselector
+.
 utils
 import
 LogProcessor
@@ -261,6 +268,14 @@ newRevision
 %
 s
 "
+    
+"
+&
+framework
+=
+%
+s
+"
 )
 PERFCOMPARE_BASE_URL
 =
@@ -279,6 +294,9 @@ compare
 -
 results
 ?
+"
+    
+"
 baseRev
 =
 %
@@ -296,6 +314,11 @@ try
 newRepo
 =
 try
+&
+framework
+=
+%
+s
 "
 )
 TREEHERDER_TRY_BASE_URL
@@ -665,6 +688,12 @@ categories
 provider
 .
 categories
+    
+push_info
+=
+PerfPushInfo
+(
+)
     
 arguments
 =
@@ -7736,7 +7765,6 @@ save_revision_treeherder
 (
 selected_tasks
 base_commit
-base_revision_treeherder
 )
 :
         
@@ -7845,7 +7873,11 @@ new_revision
 base_revision_treeherder
 "
 :
-base_revision_treeherder
+PerfParser
+.
+push_info
+.
+base_revision
             
 "
 date
@@ -8019,14 +8051,9 @@ selected_tasks
 def
 setup_try_config
 (
-        
 try_config_params
 extra_args
 selected_tasks
-base_revision_treeherder
-=
-None
-    
 )
 :
         
@@ -8184,7 +8211,11 @@ PERF_FLAGS
 args
         
 if
-base_revision_treeherder
+PerfParser
+.
+push_info
+.
+base_revision
 :
             
 #
@@ -8217,7 +8248,11 @@ PERF_BASE_REVISION
 "
 ]
 =
-base_revision_treeherder
+PerfParser
+.
+push_info
+.
+base_revision
         
 if
 PerfParser
@@ -8283,6 +8318,130 @@ task
 selection
 "
 )
+    
+def
+get_majority_framework
+(
+selected_tasks
+)
+:
+        
+suite_counts
+=
+{
+suite
+:
+0
+for
+suite
+in
+PerfParser
+.
+suites
+.
+keys
+(
+)
+}
+        
+for
+task
+in
+selected_tasks
+:
+            
+for
+suite
+suite_info
+in
+PerfParser
+.
+suites
+.
+items
+(
+)
+:
+                
+if
+suite_info
+[
+"
+task
+-
+specifier
+"
+]
+in
+task
+:
+                    
+suite_counts
+[
+suite
+]
++
+=
+1
+                    
+break
+        
+if
+all
+(
+value
+=
+=
+0
+for
+value
+in
+suite_counts
+.
+values
+(
+)
+)
+:
+            
+PerfParser
+.
+push_info
+.
+framework
+=
+1
+        
+else
+:
+            
+PerfParser
+.
+push_info
+.
+framework
+=
+PerfParser
+.
+suites
+[
+                
+max
+(
+suite_counts
+key
+=
+suite_counts
+.
+get
+)
+            
+]
+[
+"
+framework
+"
+]
     
 def
 perf_push_to_try
@@ -8557,16 +8716,6 @@ base_comparator
 =
 False
         
-new_revision_treeherder
-=
-"
-"
-        
-base_revision_treeherder
-=
-"
-"
-        
 try
 :
             
@@ -8645,10 +8794,6 @@ base
 run
 .
             
-base_revision_treeherder
-=
-None
-            
 if
 base_comparator
 :
@@ -8684,7 +8829,11 @@ to
 all
 pushes
                 
-base_revision_treeherder
+PerfParser
+.
+push_info
+.
+base_revision
 =
 PerfParser
 .
@@ -8703,7 +8852,11 @@ dry_run
 or
 single_run
 or
-base_revision_treeherder
+PerfParser
+.
+push_info
+.
+base_revision
 )
 :
                 
@@ -8883,7 +9036,11 @@ True
                     
 )
                 
-base_revision_treeherder
+PerfParser
+.
+push_info
+.
+base_revision
 =
 log_processor
 .
@@ -8897,11 +9054,8 @@ PerfParser
 .
 save_revision_treeherder
 (
-                        
 selected_tasks
 compare_commit
-base_revision_treeherder
-                    
 )
                 
 comparator_obj
@@ -8934,10 +9088,6 @@ try_config_params
 new_extra_args
                 
 selected_tasks
-                
-base_revision_treeherder
-=
-base_revision_treeherder
             
 )
             
@@ -9014,7 +9164,11 @@ True
                 
 )
             
-new_revision_treeherder
+PerfParser
+.
+push_info
+.
+new_revision
 =
 log_processor
 .
@@ -9034,10 +9188,6 @@ comparator_obj
 teardown
 (
 )
-        
-return
-base_revision_treeherder
-new_revision_treeherder
     
 def
 run
@@ -9112,7 +9262,6 @@ FZF_NOT_FOUND
 )
             
 return
-1
         
 if
 clear_cache
@@ -9246,7 +9395,6 @@ tests
 )
                 
 return
-None
         
 #
 Perform
@@ -9586,7 +9734,6 @@ selected
 )
             
 return
-None
         
 total_task_count
 =
@@ -9897,7 +10044,6 @@ n
 )
             
 return
-None
         
 if
 detect_changes
@@ -9912,7 +10058,13 @@ all_tasks
 selected_tasks
 )
         
-return
+PerfParser
+.
+get_majority_framework
+(
+selected_tasks
+)
+        
 PerfParser
 .
 perf_push_to_try
@@ -11079,8 +11231,6 @@ check_cached_revision
 ]
 )
     
-revisions
-=
 PerfParser
 .
 run
@@ -11159,9 +11309,12 @@ kwargs
 )
     
 if
-revisions
-is
-None
+not
+PerfParser
+.
+push_info
+.
+finished_run
 :
         
 return
@@ -11186,37 +11339,74 @@ single_run
 "
 False
 )
+and
+not
+kwargs
+.
+get
+(
+"
+dry_run
+"
+False
+)
 :
         
 perfcompare_url
 =
+(
+            
 PERFCOMPARE_BASE_URL
 %
-revisions
+PerfParser
+.
+push_info
+.
+get_perfcompare_settings
+(
+)
+        
+)
         
 compareview_url
 =
+(
+            
 PERFHERDER_BASE_URL
 %
-revisions
+PerfParser
+.
+push_info
+.
+get_perfcompare_settings
+(
+)
+        
+)
         
 original_try_url
 =
 TREEHERDER_TRY_BASE_URL
 %
-revisions
-[
-0
-]
+PerfParser
+.
+push_info
+.
+base_revision
         
 local_change_try_url
 =
+(
+            
 TREEHERDER_TRY_BASE_URL
 %
-revisions
-[
-1
-]
+PerfParser
+.
+push_info
+.
+new_revision
+        
+)
         
 print
 (
