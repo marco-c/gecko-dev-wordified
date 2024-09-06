@@ -1779,34 +1779,26 @@ attribute
 "
 "
             
-#
-If
-we
-have
-a
-handle
-the
-process
-is
-alive
-            
 if
 isWin
-and
-getattr
-(
-self
-"
-_handle
-"
-None
-)
 :
                 
-return
-None
+returncode
+=
+self
+.
+_custom_wait
+(
+timeout
+=
+0
+)
             
-return
+else
+:
+                
+returncode
+=
 subprocess
 .
 Popen
@@ -1815,6 +1807,22 @@ poll
 (
 self
 )
+            
+if
+returncode
+is
+not
+None
+:
+                
+self
+.
+_cleanup
+(
+)
+            
+return
+returncode
         
 def
 wait
@@ -1886,6 +1894,15 @@ timeout
 timeout
 )
             
+if
+self
+.
+returncode
+is
+not
+None
+:
+                
 self
 .
 _cleanup
@@ -4452,12 +4469,6 @@ self
 returncode
 =
 returncode
-                        
-self
-.
-_cleanup
-(
-)
                 
 else
 :
@@ -4538,12 +4549,6 @@ is
 not
 None
 :
-                        
-self
-.
-_cleanup
-(
-)
                         
 return
 self
@@ -4688,12 +4693,6 @@ raise
 WinError
 (
 rc
-)
-                    
-self
-.
-_cleanup
-(
 )
                 
 return
