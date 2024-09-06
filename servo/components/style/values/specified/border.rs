@@ -2044,6 +2044,13 @@ ToResolvedValue
 ToShmem
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 BorderImageRepeat

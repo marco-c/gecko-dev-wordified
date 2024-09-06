@@ -3556,14 +3556,8 @@ percent
 mozilla
 :
 :
-StyleBorderImageRepeatKeyword
-mBorderImageRepeatH
-;
-mozilla
-:
-:
-StyleBorderImageRepeatKeyword
-mBorderImageRepeatV
+StyleBorderImageRepeat
+mBorderImageRepeat
 ;
 mozilla
 :

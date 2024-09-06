@@ -5191,7 +5191,9 @@ if
 (
 aStyleBorder
 .
-mBorderImageRepeatH
+mBorderImageRepeat
+.
+_0
 =
 =
 StyleBorderImageRepeatKeyword
@@ -5202,7 +5204,9 @@ Space
 |
 aStyleBorder
 .
-mBorderImageRepeatV
+mBorderImageRepeat
+.
+_1
 =
 =
 StyleBorderImageRepeatKeyword
