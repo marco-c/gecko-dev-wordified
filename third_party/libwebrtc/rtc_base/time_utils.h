@@ -1066,6 +1066,7 @@ UTC
 See
 above
 .
+RTC_EXPORT
 int64_t
 TimeUTCMillis
 (
