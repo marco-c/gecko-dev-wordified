@@ -1550,6 +1550,11 @@ IOKit
 "
 "
 -
+framework
+ScreenCaptureKit
+"
+"
+-
 F
 %
 s
