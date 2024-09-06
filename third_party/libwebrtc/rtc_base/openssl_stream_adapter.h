@@ -884,6 +884,17 @@ cipher
 )
 override
 ;
+[
+[
+deprecated
+(
+"
+Use
+GetSslVersionBytes
+"
+)
+]
+]
 SSLProtocolVersion
 GetSslVersion
 (
