@@ -410,6 +410,11 @@ NewVisitedSetForTopLevelImport
 nsIURI
 *
 aURI
+JS
+:
+:
+ModuleType
+aModuleType
 )
 ;
 bool
