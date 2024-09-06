@@ -84,7 +84,5 @@ from
 .
 bidi
 import
-(
-    
 BidiSession
-)
+BidiWindow
