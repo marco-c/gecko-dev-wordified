@@ -85,16 +85,14 @@ MPL
 0
 /
 .
-MOCHITEST_CHROME_MANIFESTS
+MOCHITEST_MANIFESTS
 +
 =
 [
 "
 test
 /
-chrome
-/
-chrome
+mochitest
 .
 toml
 "
@@ -105,8 +103,6 @@ BROWSER_CHROME_MANIFESTS
 [
 "
 test
-/
-browser
 /
 browser
 .
