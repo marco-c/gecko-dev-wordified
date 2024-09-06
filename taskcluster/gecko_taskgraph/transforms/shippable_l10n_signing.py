@@ -253,22 +253,6 @@ config
 job
 )
         
-upstream_artifact_task
-=
-job
-.
-pop
-(
-"
-upstream
--
-artifact
--
-task
-"
-dep_job
-)
-        
 job
 .
 setdefault
@@ -348,7 +332,7 @@ True
             
 dep_kind
 =
-upstream_artifact_task
+dep_job
 .
 kind
         
@@ -372,13 +356,12 @@ l10n
 "
             
 if
-upstream_artifact_task
+dep_job
 .
 kind
 .
 endswith
 (
-                
 (
 "
 -
@@ -393,7 +376,6 @@ mac
 signing
 "
 )
-            
 )
 :
                 
@@ -433,7 +415,7 @@ f
 "
 <
 {
-upstream_artifact_task
+dep_job
 .
 kind
 }
@@ -532,19 +514,17 @@ locale
 for
 locale
 in
-upstream_artifact_task
+dep_job
 .
 attributes
 .
 get
 (
-                                
 "
 chunk_locales
 "
 [
 ]
-                            
 )
                             
 for
