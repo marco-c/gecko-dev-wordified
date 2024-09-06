@@ -531,7 +531,9 @@ matches
 shouldMatch
 ?
 [
-makeMdnResult
+QuickSuggestTestUtils
+.
+mdnResult
 (
 suggestion
 )
@@ -614,7 +616,9 @@ includes
 )
 ?
 [
-makeMdnResult
+QuickSuggestTestUtils
+.
+mdnResult
 (
 suggestion
 )
@@ -740,7 +744,9 @@ false
 matches
 :
 [
-makeMdnResult
+QuickSuggestTestUtils
+.
+mdnResult
 (
 suggestion
 )
@@ -988,7 +994,9 @@ false
 matches
 :
 [
-makeMdnResult
+QuickSuggestTestUtils
+.
+mdnResult
 (
 suggestion
 )
@@ -1165,7 +1173,9 @@ false
 matches
 :
 [
-makeMdnResult
+QuickSuggestTestUtils
+.
+mdnResult
 (
 suggestion
 )
