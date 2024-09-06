@@ -9076,7 +9076,7 @@ bool
 TurnPort
 :
 :
-SetEntryChannelId
+SetEntryChannelIdForTesting
 (
 const
 rtc
