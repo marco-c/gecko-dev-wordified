@@ -436,6 +436,13 @@ selectedFrame
 PropTypes
 .
 object
+isTracerFrameSelected
+:
+PropTypes
+.
+bool
+.
+isRequired
 showFrameContextMenu
 :
 PropTypes
@@ -541,6 +548,7 @@ group
 selectFrame
 selectLocation
 selectedFrame
+isTracerFrameSelected
 displayFullUrl
 getFrameTitle
 disableContextMenu
@@ -612,6 +620,7 @@ frame
 .
 id
 selectedFrame
+isTracerFrameSelected
 selectFrame
 selectLocation
 shouldMapDisplayName
