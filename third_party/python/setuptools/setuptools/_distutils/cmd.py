@@ -838,7 +838,7 @@ self
 .
 help
 =
-0
+False
         
 #
 '
@@ -906,7 +906,7 @@ self
 .
 finalized
 =
-0
+False
     
 #
 XXX
@@ -1005,7 +1005,7 @@ self
 .
 finalized
 =
-1
+True
     
 #
 Subclasses
@@ -1230,21 +1230,21 @@ raise
 RuntimeError
 (
             
+f
 "
 abstract
 method
 -
 -
 subclass
-%
-s
-must
-override
-"
-%
+{
 self
 .
 __class__
+}
+must
+override
+"
         
 )
     
@@ -1376,21 +1376,21 @@ raise
 RuntimeError
 (
             
+f
 "
 abstract
 method
 -
 -
 subclass
-%
-s
-must
-override
-"
-%
+{
 self
 .
 __class__
+}
+must
+override
+"
         
 )
     
@@ -1423,22 +1423,22 @@ None
             
 header
 =
+f
 "
 command
 options
 for
 '
-%
-s
-'
-:
-"
-%
+{
 self
 .
 get_command_name
 (
 )
+}
+'
+:
+"
         
 self
 .
@@ -1635,21 +1635,21 @@ raise
 RuntimeError
 (
             
+f
 "
 abstract
 method
 -
 -
 subclass
-%
-s
-must
-override
-"
-%
+{
 self
 .
 __class__
+}
+must
+override
+"
         
 )
     
@@ -2720,7 +2720,7 @@ self
 command
 create
 =
-1
+True
 )
 :
         
@@ -2834,7 +2834,7 @@ self
 command
 reinit_subcommands
 =
-0
+False
 )
 :
         
@@ -3162,17 +3162,23 @@ copy_file
 (
         
 self
+        
 infile
+        
 outfile
+        
 preserve_mode
 =
-1
+True
+        
 preserve_times
 =
-1
+True
+        
 link
 =
 None
+        
 level
 =
 1
@@ -3270,15 +3276,15 @@ outfile
         
 preserve_mode
 =
-1
+True
         
 preserve_times
 =
-1
+True
         
 preserve_symlinks
 =
-0
+False
         
 level
 =
@@ -3388,7 +3394,7 @@ self
 cmd
 search_path
 =
-1
+True
 level
 =
 1
@@ -3612,17 +3618,17 @@ None
             
 skip_msg
 =
+f
 "
 skipping
-%
-s
+{
+outfile
+}
 (
 inputs
 unchanged
 )
 "
-%
-outfile
         
 #
 Allow

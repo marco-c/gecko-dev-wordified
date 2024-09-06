@@ -287,7 +287,7 @@ self
 .
 compile
 =
-0
+False
         
 self
 .
@@ -810,7 +810,7 @@ get_outputs
 (
 include_bytecode
 =
-0
+False
 )
 )
     
@@ -1603,19 +1603,19 @@ raise
 DistutilsFileError
 (
                     
+f
 "
 package
 directory
 '
-%
-s
+{
+package_dir
+}
 '
 does
 not
 exist
 "
-%
-package_dir
                 
 )
             
@@ -1635,13 +1635,15 @@ raise
 DistutilsFileError
 (
                     
+f
 "
 supposed
 package
 directory
 '
-%
-s
+{
+package_dir
+}
 '
 exists
 "
@@ -1653,8 +1655,6 @@ not
 a
 directory
 "
-%
-package_dir
                 
 )
         
@@ -1923,13 +1923,13 @@ self
 .
 debug_print
 (
+f
 "
 excluding
-%
-s
-"
-%
+{
 setup_script
+}
+"
 )
         
 return
@@ -2264,7 +2264,7 @@ package
                 
 checked
 =
-0
+False
             
 if
 not
@@ -2603,7 +2603,7 @@ get_outputs
 self
 include_bytecode
 =
-1
+True
 )
 :
         
@@ -2901,7 +2901,7 @@ module_file
 outfile
 preserve_mode
 =
-0
+False
 )
     
 def

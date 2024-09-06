@@ -68,6 +68,10 @@ configparser
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 contextlib
 import
@@ -82,9 +86,6 @@ from
 functools
 import
 partial
-from
-functools
-import
 wraps
 from
 typing
@@ -93,9 +94,9 @@ import
     
 TYPE_CHECKING
     
-Callable
-    
 Any
+    
+Callable
     
 Dict
     
@@ -103,18 +104,46 @@ Generic
     
 Iterable
     
+Iterator
+    
 List
-    
-Optional
-    
-Set
     
 Tuple
     
 TypeVar
     
 Union
+    
+cast
 )
+from
+packaging
+.
+markers
+import
+default_environment
+as
+marker_env
+from
+packaging
+.
+requirements
+import
+InvalidRequirement
+Requirement
+from
+packaging
+.
+specifiers
+import
+SpecifierSet
+from
+packaging
+.
+version
+import
+InvalidVersion
+Version
 from
 .
 .
@@ -131,50 +160,6 @@ OptionError
 from
 .
 .
-extern
-.
-packaging
-.
-markers
-import
-default_environment
-as
-marker_env
-from
-.
-.
-extern
-.
-packaging
-.
-requirements
-import
-InvalidRequirement
-Requirement
-from
-.
-.
-extern
-.
-packaging
-.
-specifiers
-import
-SpecifierSet
-from
-.
-.
-extern
-.
-packaging
-.
-version
-import
-InvalidVersion
-Version
-from
-.
-.
 warnings
 import
 SetuptoolsDeprecationWarning
@@ -187,22 +172,18 @@ TYPE_CHECKING
 :
     
 from
-distutils
-.
-dist
-import
-DistributionMetadata
-#
-noqa
-    
-from
 setuptools
 .
 dist
 import
 Distribution
-#
-noqa
+    
+from
+distutils
+.
+dist
+import
+DistributionMetadata
 SingleCommandOptions
 =
 Dict
@@ -497,18 +478,14 @@ apply_configuration
 (
 dist
 :
-"
 Distribution
-"
 filepath
 :
 StrPath
 )
 -
 >
-"
 Distribution
-"
 :
     
 "
@@ -555,9 +532,7 @@ _apply
     
 dist
 :
-"
 Distribution
-"
     
 filepath
 :
@@ -581,11 +556,9 @@ False
 )
 -
 >
-Tuple
+tuple
 [
-"
 ConfigHandler
-"
 .
 .
 .
@@ -690,6 +663,24 @@ filepath
 try
 :
         
+#
+TODO
+:
+Temporary
+cast
+until
+mypy
+1
+.
+12
+is
+released
+with
+upstream
+fixes
+from
+typeshed
+        
 _Distribution
 .
 parse_config_files
@@ -697,24 +688,15 @@ parse_config_files
 dist
 filenames
 =
+cast
+(
+List
+[
+str
+]
 filenames
 )
-#
-type
-:
-ignore
-[
-arg
--
-type
-]
-#
-TODO
-:
-fix
-in
-disutils
-stubs
+)
         
 handlers
 =
@@ -839,11 +821,9 @@ configuration_to_dict
 (
 handlers
 :
-Tuple
+tuple
 [
-"
 ConfigHandler
-"
 .
 .
 .
@@ -948,9 +928,7 @@ parse_configuration
     
 distribution
 :
-"
 Distribution
-"
     
 command_options
 :
@@ -962,14 +940,10 @@ False
 )
 -
 >
-Tuple
+tuple
 [
-"
 ConfigMetadataHandler
-"
-"
 ConfigOptionsHandler
-"
 ]
 :
     
@@ -1481,7 +1455,7 @@ heirs
     
 aliases
 :
-Dict
+dict
 [
 str
 str
@@ -1586,7 +1560,7 @@ self
 .
 set_options
 :
-List
+list
 [
 str
 ]
@@ -1604,7 +1578,7 @@ self
 .
 _referenced_files
 :
-Set
+set
 [
 str
 ]
@@ -1651,11 +1625,23 @@ classmethod
 def
 _section_options
 (
+        
 cls
 options
 :
 AllCommandOptions
+    
 )
+-
+>
+Iterator
+[
+tuple
+[
+str
+SingleCommandOptions
+]
+]
 :
         
 for
@@ -1752,6 +1738,9 @@ self
 option_name
 value
 )
+-
+>
+None
 :
         
 target_obj
@@ -2998,10 +2987,9 @@ section_name
             
 section_parser_method
 :
-Optional
-[
 Callable
-]
+|
+None
 =
 getattr
 (
@@ -3283,9 +3271,7 @@ self
         
 target_obj
 :
-"
 DistributionMetadata
-"
         
 options
 :
@@ -3303,10 +3289,9 @@ EnsurePackagesDiscovered
         
 package_dir
 :
-Optional
-[
 dict
-]
+|
+None
 =
 None
         
@@ -3660,9 +3645,7 @@ self
         
 target_obj
 :
-"
 Distribution
-"
         
 options
 :
@@ -3705,7 +3688,7 @@ self
 .
 package_dir
 :
-Dict
+dict
 [
 str
 str
@@ -4013,14 +3996,6 @@ install_requires
             
 '
 setup_requires
-'
-:
-self
-.
-_parse_list_semicolon
-            
-'
-tests_require
 '
 :
 self

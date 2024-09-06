@@ -55,6 +55,10 @@ Version
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 itertools
 import
@@ -65,7 +69,6 @@ import
 Any
 Callable
 NamedTuple
-Optional
 SupportsInt
 Tuple
 Union
@@ -195,7 +198,7 @@ int
     
 release
 :
-Tuple
+tuple
 [
 int
 .
@@ -205,43 +208,39 @@ int
     
 dev
 :
-Optional
-[
-Tuple
+tuple
 [
 str
 int
 ]
-]
+|
+None
     
 pre
 :
-Optional
-[
-Tuple
+tuple
 [
 str
 int
 ]
-]
+|
+None
     
 post
 :
-Optional
-[
-Tuple
+tuple
 [
 str
 int
 ]
-]
+|
+None
     
 local
 :
-Optional
-[
 LocalType
-]
+|
+None
 def
 parse
 (
@@ -251,9 +250,7 @@ str
 )
 -
 >
-"
 Version
-"
 :
     
 "
@@ -395,7 +392,7 @@ _BaseVersion
     
 _key
 :
-Tuple
+tuple
 [
 Any
 .
@@ -456,9 +453,7 @@ __lt__
 self
 other
 :
-"
 _BaseVersion
-"
 )
 -
 >
@@ -492,9 +487,7 @@ __le__
 self
 other
 :
-"
 _BaseVersion
-"
 )
 -
 >
@@ -564,9 +557,7 @@ __ge__
 self
 other
 :
-"
 _BaseVersion
-"
 )
 -
 >
@@ -601,9 +592,7 @@ __gt__
 self
 other
 :
-"
 _BaseVersion
-"
 )
 -
 >
@@ -2007,7 +1996,7 @@ self
 )
 -
 >
-Tuple
+tuple
 [
 int
 .
@@ -2144,14 +2133,13 @@ self
 )
 -
 >
-Optional
-[
-Tuple
+tuple
 [
 str
 int
 ]
-]
+|
+None
 :
         
 "
@@ -2277,10 +2265,9 @@ self
 )
 -
 >
-Optional
-[
 int
-]
+|
+None
 :
         
 "
@@ -2368,10 +2355,9 @@ self
 )
 -
 >
-Optional
-[
 int
-]
+|
+None
 :
         
 "
@@ -2457,10 +2443,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -3409,30 +3394,28 @@ _parse_letter_version
     
 letter
 :
-Optional
-[
 str
-]
+|
+None
 number
 :
-Union
-[
 str
+|
 bytes
+|
 SupportsInt
+|
 None
-]
 )
 -
 >
-Optional
-[
-Tuple
+tuple
 [
 str
 int
 ]
-]
+|
+None
 :
     
 if
@@ -3687,17 +3670,15 @@ _parse_local_version
 (
 local
 :
-Optional
-[
 str
-]
+|
+None
 )
 -
 >
-Optional
-[
 LocalType
-]
+|
+None
 :
     
 "
@@ -3785,7 +3766,7 @@ int
     
 release
 :
-Tuple
+tuple
 [
 int
 .
@@ -3795,43 +3776,39 @@ int
     
 pre
 :
-Optional
-[
-Tuple
+tuple
 [
 str
 int
 ]
-]
+|
+None
     
 post
 :
-Optional
-[
-Tuple
+tuple
 [
 str
 int
 ]
-]
+|
+None
     
 dev
 :
-Optional
-[
-Tuple
+tuple
 [
 str
 int
 ]
-]
+|
+None
     
 local
 :
-Optional
-[
 LocalType
-]
+|
+None
 )
 -
 >

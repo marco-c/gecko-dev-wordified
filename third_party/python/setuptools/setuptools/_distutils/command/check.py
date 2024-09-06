@@ -91,7 +91,7 @@ None
             
 debug
 =
-0
+False
             
 encoding
 =
@@ -336,7 +336,7 @@ self
 .
 restructuredtext
 =
-0
+False
         
 self
 .
@@ -348,7 +348,7 @@ self
 .
 strict
 =
-0
+False
         
 self
 .
@@ -595,19 +595,19 @@ metadata
 missing
 =
 [
-]
-        
+            
+attr
 for
 attr
 in
+(
 '
 name
 '
 '
 version
 '
-:
-            
+)
 if
 not
 getattr
@@ -616,14 +616,8 @@ metadata
 attr
 None
 )
-:
-                
-missing
-.
-append
-(
-attr
-)
+        
+]
         
 if
 missing
@@ -640,16 +634,19 @@ meta
 -
 data
 :
-%
-s
+{
+}
 "
-%
+.
+format
+(
 '
 '
 .
 join
 (
 missing
+)
 )
 )
     
@@ -958,6 +955,7 @@ append
 -
 1
                 
+f
 '
 Could
 not
@@ -965,12 +963,11 @@ finish
 the
 parsing
 :
-%
-s
+{
+e
+}
 .
 '
-%
-e
                 
 '
 '

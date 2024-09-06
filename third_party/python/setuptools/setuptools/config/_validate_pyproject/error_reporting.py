@@ -30,7 +30,6 @@ List
 Optional
 Sequence
 Union
-cast
 from
 .
 fastjsonschema_exceptions
@@ -2551,8 +2550,6 @@ value
 )
             
 return
-(
-                
 f
 "
 [
@@ -2570,17 +2567,11 @@ type_
 if
 isinstance
 (
-value
+type_
 list
 )
 else
-cast
-(
-str
 type_
-)
-            
-)
         
 return
 repr

@@ -730,7 +730,7 @@ self
 dry_run
 force
 =
-1
+True
             
 )
             
@@ -846,18 +846,18 @@ file
 .
 write
 (
+f
 "
 #
 include
 <
-%
-s
+{
+header
+}
 >
 \
 n
 "
-%
-header
 )
                 
 file
@@ -996,16 +996,16 @@ dump_source
 dump_file
 (
 src
+f
 "
 compiling
 '
-%
-s
+{
+src
+}
 '
 :
 "
-%
-src
 )
         
 (
@@ -2222,11 +2222,11 @@ None
         
 decl
 =
-0
+False
         
 call
 =
-0
+False
     
 )
 :
@@ -2413,16 +2413,16 @@ body
 .
 append
 (
+f
 "
 int
-%
-s
+{
+func
+}
 (
 )
 ;
 "
-%
-func
 )
         
 body
@@ -2446,15 +2446,15 @@ body
 .
 append
 (
+f
 "
-%
-s
+{
+func
+}
 (
 )
 ;
 "
-%
-func
 )
         
 else
@@ -2464,13 +2464,13 @@ body
 .
 append
 (
+f
 "
-%
-s
+{
+func
+}
 ;
 "
-%
-func
 )
         
 body

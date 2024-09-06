@@ -232,21 +232,27 @@ make_tarball
 (
     
 base_name
+    
 base_dir
+    
 compress
 =
 "
 gzip
 "
+    
 verbose
 =
-0
+False
+    
 dry_run
 =
-0
+False
+    
 owner
 =
 None
+    
 group
 =
 None
@@ -700,17 +706,17 @@ tarfile
 open
 (
 archive_name
+f
 '
 w
 |
-%
-s
-'
-%
+{
 tar_compression
 [
 compress
 ]
+}
+'
 )
         
 try
@@ -833,10 +839,10 @@ base_name
 base_dir
 verbose
 =
-0
+False
 dry_run
 =
-0
+False
 )
 :
 #
@@ -1056,8 +1062,7 @@ raise
 DistutilsExecError
 (
                 
-(
-                    
+f
 "
 unable
 to
@@ -1065,12 +1070,13 @@ create
 zip
 file
 '
-%
-s
+{
+zip_filename
+}
 '
 :
 "
-                    
+                
 "
 could
 neither
@@ -1082,7 +1088,7 @@ zipfile
 module
 nor
 "
-                    
+                
 "
 find
 a
@@ -1090,11 +1096,6 @@ standalone
 zip
 utility
 "
-                
-)
-                
-%
-zip_filename
             
 )
     
@@ -1562,11 +1563,11 @@ None
     
 verbose
 =
-0
+False
     
 dry_run
 =
-0
+False
     
 owner
 =
@@ -1856,17 +1857,17 @@ KeyError
 raise
 ValueError
 (
+f
 "
 unknown
 archive
 format
 '
-%
-s
+{
+format
+}
 '
 "
-%
-format
 )
     
 func
@@ -1876,22 +1877,15 @@ format_info
 0
 ]
     
-for
-arg
-val
-in
+kwargs
+.
+update
+(
 format_info
 [
 1
 ]
-:
-        
-kwargs
-[
-arg
-]
-=
-val
+)
     
 if
 format

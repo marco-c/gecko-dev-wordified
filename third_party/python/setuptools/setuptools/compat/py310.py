@@ -29,10 +29,6 @@ pragma
 no
 cover
     
-from
-setuptools
-.
-extern
 import
 tomli
 as

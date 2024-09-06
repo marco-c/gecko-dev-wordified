@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 collections
 import
@@ -15,13 +19,10 @@ warnings
 from
 typing
 import
-Dict
 Generator
 Iterator
 NamedTuple
-Optional
 Sequence
-Tuple
 from
 .
 _elffile
@@ -79,10 +80,9 @@ str
 >
 Generator
 [
-Optional
-[
 ELFFile
-]
+|
+None
 None
 None
 ]
@@ -455,7 +455,7 @@ value
 .
 _LAST_GLIBC_MINOR
 :
-Dict
+dict
 [
 int
 int
@@ -489,10 +489,9 @@ _glibc_version_string_confstr
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -601,10 +600,9 @@ glibc
         
 version_string
 :
-Optional
-[
 str
-]
+|
+None
 =
 os
 .
@@ -670,10 +668,9 @@ _glibc_version_string_ctypes
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -1004,10 +1001,9 @@ _glibc_version_string
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -1045,7 +1041,7 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 int
 int
@@ -1243,15 +1239,13 @@ minor
 functools
 .
 lru_cache
-(
-)
 def
 _get_glibc_version
 (
 )
 -
 >
-Tuple
+tuple
 [
 int
 int

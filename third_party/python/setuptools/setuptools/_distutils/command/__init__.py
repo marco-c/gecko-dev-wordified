@@ -20,10 +20,6 @@ commands
 __all__
 =
 [
-#
-noqa
-:
-F822
     
 '
 build

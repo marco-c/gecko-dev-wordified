@@ -175,14 +175,13 @@ re
 .
 compile
 (
-r
+rf
 '
 ^
-%
-s
-'
-%
+{
 longopt_pat
+}
+'
 )
 #
 For
@@ -819,6 +818,7 @@ raise
 DistutilsGetoptError
 (
                 
+f
 "
 option
 conflict
@@ -827,12 +827,11 @@ already
 an
 option
 '
-%
-s
+{
+long_option
+}
 '
 "
-%
-long_option
             
 )
         
@@ -1010,9 +1009,6 @@ alias
 }
 '
 :
-"
-f
-"
 option
 '
 {
@@ -1050,9 +1046,6 @@ alias
 }
 '
 :
-"
-f
-"
 aliased
 option
 '
@@ -1368,14 +1361,15 @@ raise
 DistutilsGetoptError
 (
                     
-(
+f
 "
 invalid
 long
 option
 '
-%
-s
+{
+long
+}
 '
 :
 must
@@ -1388,9 +1382,6 @@ length
 =
 2
 "
-)
-%
-long
                 
 )
             
@@ -1425,13 +1416,15 @@ raise
 DistutilsGetoptError
 (
                     
+f
 "
 invalid
 short
 option
 '
-%
-s
+{
+short
+}
 '
 :
 "
@@ -1444,8 +1437,6 @@ character
 or
 None
 "
-%
-short
                 
 )
             
@@ -1515,7 +1506,7 @@ takes_arg
 long
 ]
 =
-1
+True
             
 else
 :
@@ -1632,7 +1623,7 @@ takes_arg
 long
 ]
 =
-0
+False
             
 #
 If
@@ -1810,14 +1801,16 @@ raise
 DistutilsGetoptError
 (
                     
+f
 "
 invalid
 long
 option
 name
 '
-%
-s
+{
+long
+}
 '
 "
                     
@@ -1830,8 +1823,6 @@ numbers
 hyphens
 only
 "
-%
-long
                 
 )
             
@@ -2297,7 +2288,7 @@ should
 set
 verbose
 =
-0
+False
 .
             
 if

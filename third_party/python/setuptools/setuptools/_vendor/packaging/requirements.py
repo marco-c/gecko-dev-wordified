@@ -37,12 +37,14 @@ complete
 details
 .
 from
+__future__
+import
+annotations
+from
 typing
 import
 Any
 Iterator
-Optional
-Set
 from
 .
 _parser
@@ -259,10 +261,9 @@ self
 .
 url
 :
-Optional
-[
 str
-]
+|
+None
 =
 parsed
 .
@@ -274,7 +275,7 @@ self
 .
 extras
 :
-Set
+set
 [
 str
 ]
@@ -306,10 +307,9 @@ self
 .
 marker
 :
-Optional
-[
 Marker
-]
+|
+None
 =
 None
         

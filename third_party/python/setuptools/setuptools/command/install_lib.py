@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 os
 import
@@ -7,6 +11,18 @@ itertools
 import
 product
 starmap
+from
+.
+.
+_path
+import
+StrPath
+from
+.
+.
+dist
+import
+Distribution
 import
 distutils
 .
@@ -43,6 +59,23 @@ files
 "
 "
 "
+    
+distribution
+:
+Distribution
+#
+override
+distutils
+.
+dist
+.
+Distribution
+with
+setuptools
+.
+dist
+.
+Distribution
     
 def
 run
@@ -571,26 +604,36 @@ copy_tree
 self
         
 infile
+:
+StrPath
         
 outfile
+:
+str
         
 preserve_mode
 =
-1
+True
         
 preserve_times
 =
-1
+True
         
 preserve_symlinks
 =
-0
+False
         
 level
 =
 1
     
 )
+-
+>
+list
+[
+str
+]
 :
         
 assert
@@ -652,6 +695,11 @@ import
 log
         
 outfiles
+:
+list
+[
+str
+]
 =
 [
 ]
@@ -660,7 +708,11 @@ def
 pf
 (
 src
+:
+str
 dst
+:
+str
 )
 :
             

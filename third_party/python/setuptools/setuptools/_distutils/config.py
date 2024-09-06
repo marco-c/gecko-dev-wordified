@@ -141,6 +141,7 @@ repository
 '
 r
 '
+f
 "
 url
 of
@@ -148,12 +149,11 @@ repository
 [
 default
 :
-%
-s
+{
+DEFAULT_REPOSITORY
+}
 ]
 "
-%
-DEFAULT_REPOSITORY
 )
         
 (
@@ -355,16 +355,16 @@ self
 .
 announce
 (
+f
 '
 Using
 PyPI
 login
 from
-%
-s
-'
-%
+{
 rc
+}
+'
 )
             
 repository
@@ -937,7 +937,7 @@ self
 .
 show_response
 =
-0
+False
     
 def
 finalize_options

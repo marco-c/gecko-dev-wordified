@@ -71,6 +71,10 @@ html
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 enum
 import
@@ -81,8 +85,6 @@ from
 typing
 import
 IO
-Optional
-Tuple
 class
 ELFInvalid
 (
@@ -599,7 +601,7 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 int
 .
@@ -638,10 +640,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "

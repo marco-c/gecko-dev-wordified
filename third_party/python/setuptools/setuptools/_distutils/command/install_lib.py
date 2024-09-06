@@ -544,7 +544,7 @@ self
 .
 force
 =
-0
+False
         
 self
 .
@@ -732,7 +732,13 @@ self
 .
 optimize
 )
+            
+except
+ValueError
+:
                 
+pass
+            
 if
 self
 .
@@ -743,16 +749,6 @@ in
 0
 1
 2
-)
-:
-                    
-raise
-AssertionError
-            
-except
-(
-ValueError
-AssertionError
 )
 :
                 
@@ -1020,10 +1016,14 @@ self
 warn
 (
                 
+f
 "
 '
-%
-s
+{
+self
+.
+build_dir
+}
 '
 does
 not
@@ -1036,10 +1036,6 @@ modules
 to
 install
 "
-%
-self
-.
-build_dir
             
 )
             
@@ -1347,18 +1343,6 @@ sep
 outputs
 =
 [
-]
-        
-for
-file
-in
-build_files
-:
-            
-outputs
-.
-append
-(
 os
 .
 path
@@ -1372,7 +1356,11 @@ prefix_len
 :
 ]
 )
-)
+for
+file
+in
+build_files
+]
         
 return
 outputs

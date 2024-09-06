@@ -73,6 +73,10 @@ tomli
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 logging
 import
@@ -86,14 +90,16 @@ functools
 import
 partial
 from
+types
+import
+TracebackType
+from
 typing
 import
 TYPE_CHECKING
+Any
 Callable
-Dict
 Mapping
-Optional
-Set
 from
 .
 .
@@ -125,10 +131,6 @@ _apply_pyprojecttoml
 import
 _PREVIOUSLY_DEFINED
 _MissingDynamic
-from
-.
-_apply_pyprojecttoml
-import
 apply
 as
 _apply
@@ -137,18 +139,16 @@ TYPE_CHECKING
 :
     
 from
+typing_extensions
+import
+Self
+    
+from
 setuptools
 .
 dist
 import
 Distribution
-#
-noqa
-    
-from
-typing_extensions
-import
-Self
 _logger
 =
 logging
@@ -394,9 +394,7 @@ apply_configuration
     
 dist
 :
-"
 Distribution
-"
     
 filepath
 :
@@ -408,9 +406,7 @@ False
 )
 -
 >
-"
 Distribution
-"
 :
     
 "
@@ -472,15 +468,19 @@ False
     
 dist
 :
-Optional
-[
-"
 Distribution
-"
-]
+|
+None
 =
 None
 )
+-
+>
+dict
+[
+str
+Any
+]
 :
     
 "
@@ -905,14 +905,9 @@ compatible
 if
 dist
 and
-getattr
-(
 dist
-"
+.
 include_package_data
-"
-None
-)
 is
 not
 None
@@ -1067,10 +1062,9 @@ dict
     
 root_dir
 :
-Optional
-[
 StrPath
-]
+|
+None
 =
 None
     
@@ -1082,12 +1076,9 @@ False
     
 dist
 :
-Optional
-[
-"
 Distribution
-"
-]
+|
+None
 =
 None
 )
@@ -1263,10 +1254,9 @@ dict
         
 root_dir
 :
-Optional
-[
 StrPath
-]
+|
+None
 =
 None
         
@@ -1278,12 +1268,9 @@ False
         
 dist
 :
-Optional
-[
-"
 Distribution
-"
-]
+|
+None
 =
 None
     
@@ -1397,7 +1384,7 @@ self
 .
 _referenced_files
 :
-Set
+set
 [
 str
 ]
@@ -1413,9 +1400,7 @@ self
 )
 -
 >
-"
 Distribution
-"
 :
         
 from
@@ -1861,9 +1846,7 @@ _expand_all_dynamic
 self
 dist
 :
-"
 Distribution
-"
 package_dir
 :
 Mapping
@@ -2099,9 +2082,7 @@ _ensure_previously_set
 self
 dist
 :
-"
 Distribution
-"
 field
 :
 str
@@ -2212,10 +2193,6 @@ str
 :
         
 from
-setuptools
-.
-extern
-.
 more_itertools
 import
 always_iterable
@@ -2324,9 +2301,7 @@ _obtain
 self
 dist
 :
-"
 Distribution
-"
 field
 :
 str
@@ -2395,9 +2370,7 @@ _obtain_version
 self
 dist
 :
-"
 Distribution
-"
 package_dir
 :
 Mapping
@@ -2448,6 +2421,22 @@ _expand
 .
 version
 (
+                
+#
+We
+already
+do
+an
+early
+check
+for
+the
+presence
+of
+"
+version
+"
+                
 self
 .
 _obtain
@@ -2458,6 +2447,14 @@ version
 "
 package_dir
 )
+#
+pyright
+:
+ignore
+[
+reportArgumentType
+]
+            
 )
         
 return
@@ -2469,20 +2466,17 @@ _obtain_readme
 self
 dist
 :
-"
 Distribution
-"
 )
 -
 >
-Optional
-[
-Dict
+dict
 [
 str
 str
 ]
-]
+|
+None
 :
         
 if
@@ -2515,6 +2509,21 @@ dynamic_cfg
             
 return
 {
+                
+#
+We
+already
+do
+an
+early
+check
+for
+the
+presence
+of
+"
+readme
+"
                 
 "
 text
@@ -2562,6 +2571,13 @@ rst
 )
             
 }
+#
+pyright
+:
+ignore
+[
+reportReturnType
+]
         
 self
 .
@@ -2583,9 +2599,7 @@ _obtain_entry_points
 self
 dist
 :
-"
 Distribution
-"
 package_dir
 :
 Mapping
@@ -2597,14 +2611,13 @@ str
 )
 -
 >
-Optional
-[
-Dict
+dict
 [
 str
 dict
 ]
-]
+|
+None
 :
         
 fields
@@ -2775,9 +2788,7 @@ _obtain_classifiers
 self
 dist
 :
-"
 Distribution
-"
 )
 :
         
@@ -2825,9 +2836,7 @@ _obtain_dependencies
 self
 dist
 :
-"
 Distribution
-"
 )
 :
         
@@ -2874,9 +2883,7 @@ _obtain_optional_dependencies
 self
 dist
 :
-"
 Distribution
-"
 )
 :
         
@@ -3104,9 +3111,7 @@ __init__
 self
 distribution
 :
-"
 Distribution
-"
 project_cfg
 :
 dict
@@ -3145,9 +3150,7 @@ self
 )
 -
 >
-"
 Self
-"
 :
         
 "
@@ -3192,7 +3195,7 @@ _setuptools_cfg
         
 package_dir
 :
-Dict
+dict
 [
 str
 str
@@ -3362,11 +3365,34 @@ __enter__
 def
 __exit__
 (
+        
 self
+        
 exc_type
+:
+type
+[
+BaseException
+]
+|
+None
+        
 exc_value
+:
+BaseException
+|
+None
+        
 traceback
+:
+TracebackType
+|
+None
+    
 )
+-
+>
+None
 :
         
 "

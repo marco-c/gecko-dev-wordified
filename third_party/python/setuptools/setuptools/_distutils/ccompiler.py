@@ -31,6 +31,8 @@ re
 import
 sys
 import
+types
+import
 warnings
 from
 .
@@ -83,6 +85,7 @@ from
 util
 import
 execute
+is_mingw
 split_quoted
 class
 CCompiler
@@ -889,13 +892,13 @@ __init__
 self
 verbose
 =
-0
+False
 dry_run
 =
-0
+False
 force
 =
-0
+False
 )
 :
         
@@ -1601,7 +1604,7 @@ definitions
 "
 "
 "
-Ensures
+Ensure
 that
 every
 element
@@ -1610,14 +1613,54 @@ of
 definitions
 '
 is
-a
 valid
-macro
-        
-definition
-ie
 .
+"
+"
+"
+        
+for
+defn
+in
+definitions
+:
+            
+self
+.
+_check_macro_definition
+(
+*
+defn
+)
+    
+def
+_check_macro_definition
+(
+self
+defn
+)
+:
+        
+"
+"
+"
+        
+Raise
+a
+TypeError
+if
+defn
+is
+not
+valid
+.
+        
+A
+valid
+definition
+is
 either
+a
 (
 name
 value
@@ -1632,106 +1675,46 @@ name
 )
 tuple
 .
-Do
-        
-nothing
-if
-all
-definitions
-are
-OK
-raise
-TypeError
-otherwise
-.
         
 "
 "
 "
         
-for
-defn
-in
-definitions
-:
-            
 if
 not
-(
-                
 isinstance
 (
 defn
 tuple
 )
-                
-and
-(
-                    
-len
-(
-defn
-)
-in
-(
-1
-2
-)
-                    
-and
-(
-isinstance
-(
-defn
-[
-1
-]
-str
-)
 or
-defn
-[
-1
-]
-is
-None
-)
-                
-)
-                
-and
-isinstance
+not
+self
+.
+_is_valid_macro
 (
+*
 defn
-[
-0
-]
-str
-)
-            
 )
 :
-                
+            
 raise
 TypeError
 (
-                    
-(
+                
+f
 "
 invalid
 macro
 definition
 '
-%
-s
+{
+defn
+}
 '
 :
 "
-%
-defn
-)
-                    
-+
+                
 "
 must
 be
@@ -1744,16 +1727,67 @@ string
 string
 )
 or
-"
-                    
-+
-"
 (
 string
 None
 )
 "
-                
+            
+)
+    
+staticmethod
+    
+def
+_is_valid_macro
+(
+name
+value
+=
+None
+)
+:
+        
+"
+"
+"
+        
+A
+valid
+macro
+is
+a
+name
+:
+str
+and
+a
+value
+:
+str
+|
+None
+.
+        
+"
+"
+"
+        
+return
+isinstance
+(
+name
+str
+)
+and
+isinstance
+(
+value
+(
+str
+types
+.
+NoneType
+)
 )
     
 #
@@ -3059,7 +3093,7 @@ object_filenames
 sources
 strip_dir
 =
-0
+False
 output_dir
 =
 outdir
@@ -4562,7 +4596,7 @@ None
         
 debug
 =
-0
+False
         
 extra_preargs
 =
@@ -5224,7 +5258,7 @@ output_dir
 None
 debug
 =
-0
+False
 target_lang
 =
 None
@@ -5512,7 +5546,7 @@ None
         
 debug
 =
-0
+False
         
 extra_preargs
 =
@@ -6028,7 +6062,7 @@ None
         
 debug
 =
-0
+False
         
 extra_preargs
 =
@@ -6126,7 +6160,7 @@ None
         
 debug
 =
-0
+False
         
 extra_preargs
 =
@@ -6210,7 +6244,7 @@ None
         
 debug
 =
-0
+False
         
 extra_preargs
 =
@@ -6760,22 +6794,22 @@ f
 .
 write
 (
+f
 "
 "
 "
 #
 include
 "
-%
-s
+{
+incl
+}
 "
 \
 n
 "
 "
 "
-%
-incl
 )
             
 if
@@ -6873,6 +6907,7 @@ f
 write
 (
                     
+f
 "
 "
 "
@@ -6887,8 +6922,9 @@ C
 #
 endif
 char
-%
-s
+{
+funcname
+}
 (
 void
 )
@@ -6896,9 +6932,6 @@ void
 "
 "
 "
-                    
-%
-funcname
                 
 )
             
@@ -6907,6 +6940,7 @@ f
 write
 (
                 
+f
 "
 "
 "
@@ -6922,9 +6956,11 @@ char
 argv
 )
 {
+{
     
-%
-s
+{
+funcname
+}
 (
 )
 ;
@@ -6933,12 +6969,10 @@ return
 0
 ;
 }
+}
 "
 "
 "
-                
-%
-funcname
             
 )
         
@@ -7065,7 +7099,7 @@ dirs
 lib
 debug
 =
-0
+False
 )
 :
         
@@ -7553,7 +7587,7 @@ self
 source_filenames
 strip_dir
 =
-0
+False
 output_dir
 =
 '
@@ -7808,7 +7842,7 @@ self
 basename
 strip_dir
 =
-0
+False
 output_dir
 =
 '
@@ -7859,7 +7893,7 @@ self
 basename
 strip_dir
 =
-0
+False
 output_dir
 =
 '
@@ -7924,7 +7958,7 @@ static
         
 strip_dir
 =
-0
+False
         
 output_dir
 =
@@ -8163,16 +8197,16 @@ stderr
 .
 write
 (
+f
 "
 warning
 :
-%
-s
+{
+msg
+}
 \
 n
 "
-%
-msg
 )
     
 def
@@ -8504,6 +8538,48 @@ sys
 .
 platform
     
+#
+Mingw
+is
+a
+special
+case
+where
+sys
+.
+platform
+is
+'
+win32
+'
+but
+we
+    
+#
+want
+to
+use
+the
+'
+mingw32
+'
+compiler
+so
+check
+it
+first
+    
+if
+is_mingw
+(
+)
+:
+        
+return
+'
+mingw32
+'
+    
 for
 pattern
 compiler
@@ -8831,23 +8907,9 @@ FancyGetopt
     
 compilers
 =
-[
-]
-    
-for
-compiler
-in
-compiler_class
-.
-keys
+sorted
 (
-)
-:
         
-compilers
-.
-append
-(
 (
 "
 compiler
@@ -8864,12 +8926,16 @@ compiler
 2
 ]
 )
+        
+for
+compiler
+in
+compiler_class
+.
+keys
+(
 )
     
-compilers
-.
-sort
-(
 )
     
 pretty_printer
@@ -8902,13 +8968,13 @@ compiler
 None
 verbose
 =
-0
+False
 dry_run
 =
-0
+False
 force
 =
-0
+False
 )
 :
     
@@ -9096,6 +9162,7 @@ KeyError
         
 msg
 =
+f
 "
 don
 '
@@ -9113,12 +9180,11 @@ code
 on
 platform
 '
-%
-s
+{
+plat
+}
 '
 "
-%
-plat
         
 if
 compiler
@@ -9131,16 +9197,16 @@ msg
 =
 msg
 +
+f
 "
 with
 '
-%
-s
+{
+compiler
+}
 '
 compiler
 "
-%
-compiler
         
 raise
 DistutilsPlatformError
@@ -9192,6 +9258,7 @@ raise
 DistutilsModuleError
 (
             
+f
 "
 can
 '
@@ -9209,12 +9276,11 @@ to
 load
 module
 '
-%
-s
+{
+module_name
+}
 '
 "
-%
-module_name
         
 )
     
@@ -9645,13 +9711,15 @@ raise
 TypeError
 (
                 
+f
 "
 bad
 macro
 definition
 '
-%
-s
+{
+macro
+}
 '
 :
 "
@@ -9674,8 +9742,6 @@ or
 -
 tuple
 "
-%
-macro
             
 )
         
@@ -9697,17 +9763,17 @@ pp_opts
 .
 append
 (
+f
 "
 -
 U
-%
-s
-"
-%
+{
 macro
 [
 0
 ]
+}
+"
 )
         
 elif
@@ -9739,17 +9805,17 @@ pp_opts
 .
 append
 (
+f
 "
 -
 D
-%
-s
-"
-%
+{
 macro
 [
 0
 ]
+}
+"
 )
             
 else
@@ -9816,24 +9882,22 @@ macro
 )
 )
     
+pp_opts
+.
+extend
+(
+f
+"
+-
+I
+{
+dir
+}
+"
 for
 dir
 in
 include_dirs
-:
-        
-pp_opts
-.
-append
-(
-"
--
-I
-%
-s
-"
-%
-dir
 )
     
 return
@@ -9923,25 +9987,17 @@ in
 lib_opts
 =
 [
-]
-    
-for
-dir
-in
-library_dirs
-:
-        
-lib_opts
-.
-append
-(
 compiler
 .
 library_dir_option
 (
 dir
 )
-)
+for
+dir
+in
+library_dirs
+]
     
 for
 dir
@@ -10107,6 +10163,7 @@ compiler
 warn
 (
                     
+f
 "
 no
 library
@@ -10114,16 +10171,15 @@ file
 corresponding
 to
 '
-%
-s
+{
+lib
+}
 '
 found
 (
 skipping
 )
 "
-%
-lib
                 
 )
         

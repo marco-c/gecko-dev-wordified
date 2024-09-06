@@ -250,7 +250,7 @@ self
 .
 show_response
 =
-0
+False
         
 self
 .
@@ -530,16 +530,16 @@ fragments
 raise
 AssertionError
 (
+f
 "
 Incompatible
 url
-%
-s
-"
-%
+{
 self
 .
 repository
+}
+"
 )
         
 if
@@ -1206,6 +1206,7 @@ items
             
 title
 =
+f
 '
 \
 r
@@ -1221,12 +1222,11 @@ data
 name
 =
 "
-%
-s
+{
+key
+}
 "
 '
-%
-key
             
 for
 value
@@ -1249,20 +1249,20 @@ tuple
 title
 +
 =
+f
 '
 ;
 filename
 =
 "
-%
-s
-"
-'
-%
+{
 value
 [
 0
 ]
+}
+"
+'
                     
 value
 =
@@ -1393,6 +1393,7 @@ Content
 type
 '
 :
+f
 '
 multipart
 /
@@ -1402,11 +1403,10 @@ data
 ;
 boundary
 =
-%
-s
-'
-%
+{
 boundary
+}
+'
             
 '
 Content

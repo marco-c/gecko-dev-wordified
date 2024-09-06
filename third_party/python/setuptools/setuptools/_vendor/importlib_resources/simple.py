@@ -487,6 +487,7 @@ io
 .
 TextIOWrapper
 (
+stream
 *
 args
 *

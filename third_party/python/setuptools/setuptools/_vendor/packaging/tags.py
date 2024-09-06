@@ -36,6 +36,10 @@ for
 complete
 details
 .
+from
+__future__
+import
+annotations
 import
 logging
 import
@@ -61,23 +65,13 @@ typing
 import
 (
     
-Dict
-    
-FrozenSet
-    
 Iterable
     
 Iterator
     
-List
-    
-Optional
-    
 Sequence
     
 Tuple
-    
-Union
     
 cast
 )
@@ -109,7 +103,7 @@ int
 ]
 INTERPRETER_SHORT_NAMES
 :
-Dict
+dict
 [
 str
 str
@@ -590,7 +584,7 @@ str
 )
 -
 >
-FrozenSet
+frozenset
 [
 Tag
 ]
@@ -736,22 +730,20 @@ False
 )
 -
 >
-Union
-[
 int
+|
 str
+|
 None
-]
 :
     
 value
 :
-Union
-[
 int
+|
 str
+|
 None
-]
 =
 sysconfig
 .
@@ -843,7 +835,7 @@ _is_threaded_cpython
 (
 abis
 :
-List
+list
 [
 str
 ]
@@ -1056,7 +1048,7 @@ False
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1386,34 +1378,31 @@ cpython_tags
     
 python_version
 :
-Optional
-[
 PythonVersion
-]
+|
+None
 =
 None
     
 abis
 :
-Optional
-[
 Iterable
 [
 str
 ]
-]
+|
+None
 =
 None
     
 platforms
 :
-Optional
-[
 Iterable
 [
 str
 ]
-]
+|
+None
 =
 None
     
@@ -1839,7 +1828,7 @@ _generic_abi
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -2281,34 +2270,31 @@ generic_tags
     
 interpreter
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
 abis
 :
-Optional
-[
 Iterable
 [
 str
 ]
-]
+|
+None
 =
 None
     
 platforms
 :
-Optional
-[
 Iterable
 [
 str
 ]
-]
+|
+None
 =
 None
     
@@ -2625,31 +2611,28 @@ compatible_tags
     
 python_version
 :
-Optional
-[
 PythonVersion
-]
+|
+None
 =
 None
     
 interpreter
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
 platforms
 :
-Optional
-[
 Iterable
 [
 str
 ]
-]
+|
+None
 =
 None
 )
@@ -2871,7 +2854,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -3115,18 +3098,16 @@ mac_platforms
     
 version
 :
-Optional
-[
 MacVersion
-]
+|
+None
 =
 None
 arch
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
 )

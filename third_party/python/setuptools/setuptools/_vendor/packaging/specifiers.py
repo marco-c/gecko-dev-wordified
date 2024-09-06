@@ -63,6 +63,10 @@ Version
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 abc
 import
@@ -75,9 +79,6 @@ import
 Callable
 Iterable
 Iterator
-List
-Optional
-Tuple
 TypeVar
 Union
 from
@@ -375,10 +376,9 @@ self
 )
 -
 >
-Optional
-[
 bool
-]
+|
+None
 :
         
 "
@@ -489,10 +489,9 @@ item
 str
 prereleases
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
 )
@@ -538,10 +537,9 @@ UnparsedVersionVar
 ]
 prereleases
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     
@@ -1818,10 +1816,9 @@ str
 "
 prereleases
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
 )
@@ -1957,7 +1954,7 @@ self
 .
 _spec
 :
-Tuple
+tuple
 [
 str
 str
@@ -2692,7 +2689,7 @@ self
 )
 -
 >
-Tuple
+tuple
 [
 str
 str
@@ -4336,11 +4333,9 @@ __contains__
 self
 item
 :
-Union
-[
 str
+|
 Version
-]
 )
 -
 >
@@ -4549,20 +4544,17 @@ item
 def
 contains
 (
-        
 self
 item
 :
 UnparsedVersion
 prereleases
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
-    
 )
 -
 >
@@ -5006,10 +4998,9 @@ UnparsedVersionVar
 ]
 prereleases
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     
@@ -5720,7 +5711,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -5783,7 +5774,7 @@ string
     
 result
 :
-List
+list
 [
 str
 ]
@@ -5869,7 +5860,7 @@ _version_join
 (
 components
 :
-List
+list
 [
 str
 ]
@@ -6004,26 +5995,26 @@ _pad_version
 (
 left
 :
-List
+list
 [
 str
 ]
 right
 :
-List
+list
 [
 str
 ]
 )
 -
 >
-Tuple
+tuple
 [
-List
+list
 [
 str
 ]
-List
+list
 [
 str
 ]
@@ -6302,7 +6293,6 @@ all
 def
 __init__
 (
-        
 self
 specifiers
 :
@@ -6312,13 +6302,11 @@ str
 "
 prereleases
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
-    
 )
 -
 >
@@ -6546,10 +6534,9 @@ self
 )
 -
 >
-Optional
-[
 bool
-]
+|
+None
 :
         
 #
@@ -7146,19 +7133,13 @@ __and__
 self
 other
 :
-Union
-[
-"
 SpecifierSet
-"
+|
 str
-]
 )
 -
 >
-"
 SpecifierSet
-"
 :
         
 "
@@ -8222,19 +8203,17 @@ UnparsedVersion
         
 prereleases
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
         
 installed
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     
@@ -8867,10 +8846,9 @@ UnparsedVersionVar
 ]
 prereleases
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     
@@ -9643,7 +9621,7 @@ else
             
 filtered
 :
-List
+list
 [
 UnparsedVersionVar
 ]
@@ -9653,7 +9631,7 @@ UnparsedVersionVar
             
 found_prereleases
 :
-List
+list
 [
 UnparsedVersionVar
 ]

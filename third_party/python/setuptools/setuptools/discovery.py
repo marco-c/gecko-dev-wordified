@@ -210,6 +210,10 @@ py
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 itertools
 import
@@ -229,24 +233,10 @@ Path
 from
 typing
 import
-(
-    
 TYPE_CHECKING
-    
-Dict
-    
 Iterable
-    
 Iterator
-    
-List
-    
 Mapping
-    
-Optional
-    
-Tuple
-)
 import
 _distutils_hack
 .
@@ -291,8 +281,6 @@ from
 setuptools
 import
 Distribution
-#
-noqa
 def
 _valid_name
 (
@@ -459,7 +447,7 @@ finders
     
 ALWAYS_EXCLUDE
 :
-Tuple
+tuple
 [
 str
 .
@@ -472,7 +460,7 @@ str
     
 DEFAULT_EXCLUDE
 :
-Tuple
+tuple
 [
 str
 .
@@ -525,7 +513,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1836,7 +1824,7 @@ StrPath
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1915,9 +1903,7 @@ __init__
 self
 distribution
 :
-"
 Distribution
-"
 )
 :
         
@@ -2123,7 +2109,7 @@ self
 )
 -
 >
-Dict
+dict
 [
 str
 str
@@ -3221,7 +3207,7 @@ _ensure_no_accidental_inclusion
 self
 detected
 :
-List
+list
 [
 str
 ]
@@ -3520,10 +3506,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -3615,10 +3600,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -3740,14 +3724,14 @@ remove_nested_packages
 (
 packages
 :
-List
+list
 [
 str
 ]
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -3940,14 +3924,14 @@ remove_stubs
 (
 packages
 :
-List
+list
 [
 str
 ]
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -4064,7 +4048,7 @@ find_parent_package
     
 packages
 :
-List
+list
 [
 str
 ]
@@ -4081,10 +4065,9 @@ StrPath
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -4655,7 +4638,7 @@ construct_package_dir
 (
 packages
 :
-List
+list
 [
 str
 ]
@@ -4665,7 +4648,7 @@ StrPath
 )
 -
 >
-Dict
+dict
 [
 str
 str

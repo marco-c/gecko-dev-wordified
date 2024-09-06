@@ -404,13 +404,13 @@ __init__
 self
 verbose
 =
-0
+False
 dry_run
 =
-0
+False
 force
 =
-0
+False
 )
 :
         
@@ -693,10 +693,6 @@ methods
 def
 compile
 (
-#
-noqa
-:
-C901
         
 self
         
@@ -716,7 +712,7 @@ None
         
 debug
 =
-0
+False
         
 extra_preargs
 =
@@ -1193,7 +1189,7 @@ output_dir
 None
 debug
 =
-0
+False
 target_lang
 =
 None
@@ -1353,7 +1349,7 @@ None
         
 debug
 =
-0
+False
         
 extra_preargs
 =
@@ -1649,14 +1645,14 @@ path
 join
 (
 temp_dir
+f
 '
-%
-s
+{
+modname
+}
 .
 def
 '
-%
-modname
 )
                 
 contents
@@ -1667,18 +1663,9 @@ EXPORTS
 '
 ]
                 
-for
-sym
-in
-export_symbols
-or
-[
-]
-:
-                    
 contents
 .
-append
+extend
 (
 f
 '
@@ -1691,6 +1678,10 @@ _
 sym
 }
 '
+for
+sym
+in
+export_symbols
 )
                 
 self
@@ -1702,13 +1693,13 @@ write_file
 def_file
 contents
 )
+f
 "
 writing
-%
-s
-"
-%
+{
 def_file
+}
+"
 )
             
 #
@@ -1838,13 +1829,11 @@ ld_args
 .
 append
 (
+f
 "
 /
 L
-%
-s
-"
-%
+{
 os
 .
 path
@@ -1853,6 +1842,8 @@ normpath
 (
 ell
 )
+}
+"
 )
             
 ld_args
@@ -2344,7 +2335,7 @@ dirs
 lib
 debug
 =
-0
+False
 )
 :
         
@@ -2590,7 +2581,7 @@ self
 source_filenames
 strip_dir
 =
-0
+False
 output_dir
 =
 '

@@ -37,6 +37,10 @@ setuptools
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 os
 import
@@ -56,7 +60,6 @@ indent
 from
 typing
 import
-Optional
 Tuple
 _DueDate
 =
@@ -138,46 +141,41 @@ cls
         
 summary
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 details
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 due_date
 :
-Optional
-[
 _DueDate
-]
+|
+None
 =
 None
         
 see_docs
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 see_url
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
@@ -192,6 +190,9 @@ int
 kwargs
     
 )
+-
+>
+None
 :
         
 "
@@ -390,32 +391,32 @@ str
         
 due_date
 :
-Optional
-[
 date
-]
+|
+None
 =
 None
         
 see_url
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 format_args
 :
-Optional
-[
 dict
-]
+|
+None
 =
 None
     
 )
+-
+>
+str
 :
         
 "

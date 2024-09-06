@@ -30,11 +30,6 @@ abc
 import
 ResourceReader
 Traversable
-from
-.
-_compat
-import
-wrap_spec
 Package
 =
 Union
@@ -119,6 +114,16 @@ but
 2
 were
 given
+    
+Remove
+this
+compatibility
+in
+Python
+3
+.
+14
+.
     
 "
 "
@@ -623,6 +628,26 @@ package
 "
 "
 "
+    
+#
+deferred
+for
+performance
+(
+python
+/
+cpython
+#
+109829
+)
+    
+from
+.
+future
+.
+adapters
+import
+wrap_spec
     
 spec
 =

@@ -445,15 +445,15 @@ dst
     
 preserve_mode
 =
-1
+True
     
 preserve_times
 =
-1
+True
     
 update
 =
-0
+False
     
 link
 =
@@ -461,11 +461,11 @@ None
     
 verbose
 =
-1
+True
     
 dry_run
 =
-0
+False
 )
 :
     
@@ -920,14 +920,16 @@ raise
 DistutilsFileError
 (
             
+f
 "
 can
 '
 t
 copy
 '
-%
-s
+{
+src
+}
 '
 :
 doesn
@@ -940,8 +942,6 @@ a
 regular
 file
 "
-%
-src
         
 )
     
@@ -1055,12 +1055,14 @@ KeyError
 raise
 ValueError
 (
+f
 "
 invalid
 value
 '
-%
-s
+{
+link
+}
 '
 for
 '
@@ -1068,8 +1070,6 @@ link
 '
 argument
 "
-%
-link
 )
     
 if
@@ -1225,12 +1225,6 @@ link
 src
 dst
 )
-                
-return
-(
-dst
-1
-)
             
 except
 OSError
@@ -1271,6 +1265,15 @@ issue
 .
                 
 pass
+            
+else
+:
+                
+return
+(
+dst
+1
+)
     
 elif
 link
@@ -1463,10 +1466,10 @@ src
 dst
 verbose
 =
-1
+True
 dry_run
 =
-0
+False
 )
 :
 #
@@ -1614,14 +1617,16 @@ src
 raise
 DistutilsFileError
 (
+f
 "
 can
 '
 t
 move
 '
-%
-s
+{
+src
+}
 '
 :
 not
@@ -1629,8 +1634,6 @@ a
 regular
 file
 "
-%
-src
 )
     
 if

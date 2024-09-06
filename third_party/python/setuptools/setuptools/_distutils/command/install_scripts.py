@@ -173,7 +173,7 @@ self
 .
 force
 =
-0
+False
         
 self
 .

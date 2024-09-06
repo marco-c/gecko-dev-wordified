@@ -104,6 +104,7 @@ from
 util
 import
 get_platform
+is_mingw
 #
 An
 extension
@@ -448,20 +449,20 @@ finalize_options
     
 sep_by
 =
+f
 "
 (
 separated
 by
 '
-%
-s
-'
-)
-"
-%
+{
 os
 .
 pathsep
+}
+'
+)
+"
     
 user_options
 =
@@ -535,18 +536,18 @@ if
 supported
 "
             
+f
 "
-(
+[
 default
 :
-%
-s
-)
-"
-%
+{
 get_platform
 (
 )
+}
+]
+"
         
 )
         
@@ -574,7 +575,6 @@ the
 source
 "
             
-+
 "
 directory
 alongside
@@ -957,7 +957,7 @@ self
 .
 inplace
 =
-0
+False
         
 self
 .
@@ -1382,7 +1382,7 @@ get_python_inc
 (
 plat_specific
 =
-1
+True
 )
         
 if
@@ -1721,6 +1721,11 @@ name
 '
 nt
 '
+and
+not
+is_mingw
+(
+)
 :
             
 #
@@ -3878,23 +3883,8 @@ build
 tree
 .
         
-outputs
-=
+return
 [
-]
-        
-for
-ext
-in
-self
-.
-extensions
-:
-            
-outputs
-.
-append
-(
 self
 .
 get_ext_fullpath
@@ -3903,10 +3893,13 @@ ext
 .
 name
 )
-)
-        
-return
-outputs
+for
+ext
+in
+self
+.
+extensions
+]
     
 def
 build_extensions
@@ -4206,6 +4199,7 @@ raise
 DistutilsSetupError
 (
                 
+f
 "
 in
 '
@@ -4215,8 +4209,11 @@ option
 (
 extension
 '
-%
-s
+{
+ext
+.
+name
+}
 '
 )
 "
@@ -4240,10 +4237,6 @@ of
 source
 filenames
 "
-%
-ext
-.
-name
             
 )
         
@@ -5149,19 +5142,13 @@ self
 swig_opts
 :
             
-for
-o
-in
+swig_cmd
+.
+extend
+(
 extension
 .
 swig_opts
-:
-                
-swig_cmd
-.
-append
-(
-o
 )
         
 for
@@ -5363,17 +5350,17 @@ path
 .
 join
 (
+f
 "
 c
 :
 \
 \
 swig
-%
-s
-"
-%
+{
 vers
+}
+"
 "
 swig
 .
@@ -5429,18 +5416,18 @@ run
 SWIG
 "
                 
+f
 "
 on
 platform
 '
-%
-s
-'
-"
-%
+{
 os
 .
 name
+}
+'
+"
             
 )
     
@@ -6248,6 +6235,11 @@ platform
 "
 win32
 "
+and
+not
+is_mingw
+(
+)
 :
             
 from
@@ -6508,6 +6500,10 @@ platform
 '
 cygwin
 '
+or
+is_mingw
+(
+)
 :
                     
 link_libpython

@@ -36,12 +36,15 @@ for
 complete
 details
 .
+from
+__future__
+import
+annotations
 import
 re
 from
 typing
 import
-FrozenSet
 NewType
 Tuple
 Union
@@ -431,11 +434,9 @@ canonicalize_version
     
 version
 :
-Union
-[
 Version
+|
 str
-]
 *
 strip_trailing_zero
 :
@@ -762,12 +763,12 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 NormalizedName
 Version
 BuildTag
-FrozenSet
+frozenset
 [
 Tag
 ]
@@ -1109,7 +1110,7 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 NormalizedName
 Version
