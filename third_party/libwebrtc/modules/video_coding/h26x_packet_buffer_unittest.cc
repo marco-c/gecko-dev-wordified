@@ -593,7 +593,7 @@ H264Packet
 &
 SeqNum
 (
-uint16_t
+int64_t
 rtp_seq_num
 )
 ;
@@ -705,7 +705,7 @@ rtp_timestamp_
 =
 0
 ;
-uint16_t
+int64_t
 rtp_seq_num_
 =
 0
@@ -1202,7 +1202,7 @@ H264Packet
 :
 SeqNum
 (
-uint16_t
+int64_t
 rtp_seq_num
 )
 {
@@ -1397,7 +1397,7 @@ rtp_timestamp_
 res
 -
 >
-seq_num
+sequence_number
 =
 rtp_seq_num_
 ;
@@ -1811,7 +1811,7 @@ H265Packet
 &
 SeqNum
 (
-uint16_t
+int64_t
 rtp_seq_num
 )
 ;
@@ -2280,7 +2280,7 @@ rtp_timestamp_
 res
 -
 >
-seq_num
+sequence_number
 =
 rtp_seq_num_
 ;
@@ -2375,7 +2375,7 @@ H265Packet
 :
 SeqNum
 (
-uint16_t
+int64_t
 rtp_seq_num
 )
 {
@@ -5787,7 +5787,9 @@ Idr
 .
 SeqNum
 (
-0
+0x1
+'
+0000
 )
 .
 Time
@@ -5818,7 +5820,9 @@ Idr
 .
 SeqNum
 (
-1
+0x1
+'
+0001
 )
 .
 Time

@@ -383,6 +383,8 @@ packet
 -
 >
 seq_num
+(
+)
 )
 ;
 }
@@ -622,6 +624,8 @@ packet
 -
 >
 seq_num
+(
+)
 <
 <
 "
@@ -656,6 +660,8 @@ packet
 -
 >
 seq_num
+(
+)
 <
 <
 "
@@ -682,6 +688,8 @@ packet
 -
 >
 seq_num
+(
+)
 <
 <
 "
@@ -784,7 +792,7 @@ kNotLast
 PacketBufferInsertResult
 Insert
 (
-uint16_t
+int64_t
 seq_num
 /
 /
@@ -872,7 +880,7 @@ timestamp
 packet
 -
 >
-seq_num
+sequence_number
 =
 seq_num
 ;
@@ -974,7 +982,7 @@ InsertOnePacket
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1006,7 +1014,7 @@ InsertMultiplePackets
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1095,7 +1103,7 @@ InsertDuplicatePacket
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1172,7 +1180,9 @@ EXPECT_THAT
 (
 Insert
 (
-0x0
+0x1
+'
+0000
 kKeyFrame
 kNotFirst
 kLast
@@ -1209,7 +1219,9 @@ EXPECT_THAT
 (
 Insert
 (
-0x0
+0x1
+'
+0000
 kKeyFrame
 kFirst
 kLast
@@ -1374,7 +1386,7 @@ FrameSize
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1502,7 +1514,7 @@ ExpandBuffer
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1597,7 +1609,7 @@ SingleFrameExpandsBuffer
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1662,7 +1674,7 @@ ExpandBufferOverflow
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1760,7 +1772,7 @@ OnePacketOneFrame
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1790,7 +1802,7 @@ TwoPacketsTwoFrames
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1839,7 +1851,7 @@ TwoPacketsOneFrames
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1887,7 +1899,7 @@ ThreePacketReorderingOneFrame
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -1953,7 +1965,7 @@ Frames
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -2040,7 +2052,7 @@ ClearSinglePacket
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -2317,7 +2329,7 @@ OneIncompleteFrame
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -2383,7 +2395,7 @@ TwoIncompleteFramesFullBuffer
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -2459,7 +2471,7 @@ FramesReordered
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -2545,7 +2557,7 @@ PacketBufferTest
 InsertPacketAfterSequenceNumberWrapAround
 )
 {
-uint16_t
+int64_t
 kFirstSeqNum
 =
 0
@@ -2560,7 +2572,7 @@ timestamp
 =
 10000
 ;
-uint16_t
+int64_t
 seq_num
 =
 kFirstSeqNum
@@ -2573,20 +2585,9 @@ seq_num
 wraps
 around
 .
-SeqNumUnwrapper
-<
-uint16_t
->
-unwrapper
-;
 while
 (
-unwrapper
-.
-Unwrap
-(
 seq_num
-)
 <
 std
 :
@@ -2857,7 +2858,7 @@ ForceSpsPpsIdrIsH264Keyframe
 PacketBufferInsertResult
 InsertH264
 (
-uint16_t
+int64_t
 seq_num
 /
 /
@@ -2991,7 +2992,7 @@ RTPVideoHeaderH264
 packet
 -
 >
-seq_num
+sequence_number
 =
 seq_num
 ;
@@ -3169,7 +3170,7 @@ packet
 PacketBufferInsertResult
 InsertH264KeyFrameWithAud
 (
-uint16_t
+int64_t
 seq_num
 /
 /
@@ -3294,7 +3295,7 @@ RTPVideoHeaderH264
 packet
 -
 >
-seq_num
+sequence_number
 =
 seq_num
 ;
@@ -3735,7 +3736,7 @@ PacketBufferH264ParameterizedTest
 GetBitstreamBufferPadding
 )
 {
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -3814,7 +3815,7 @@ kH264SingleNalu
 packet
 -
 >
-seq_num
+sequence_number
 =
 seq_num
 ;
@@ -3887,7 +3888,7 @@ frames
 ]
 -
 >
-seq_num
+sequence_number
 seq_num
 )
 ;
@@ -3910,7 +3911,7 @@ PacketBufferH264ParameterizedTest
 FrameResolution
 )
 {
-uint16_t
+int64_t
 seq_num
 =
 100
@@ -4003,7 +4004,7 @@ PacketBufferH264ParameterizedTest
 FrameResolutionNaluBeforeSPS
 )
 {
-uint16_t
+int64_t
 seq_num
 =
 100
@@ -4100,7 +4101,7 @@ FreeSlotsOnFrameCreation
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -4220,7 +4221,7 @@ Clear
 )
 {
 const
-uint16_t
+int64_t
 seq_num
 =
 Rand
@@ -4525,7 +4526,7 @@ timestamp
 packet
 -
 >
-seq_num
+sequence_number
 =
 1
 ;
@@ -4642,7 +4643,7 @@ timestamp
 packet
 -
 >
-seq_num
+sequence_number
 =
 3
 ;
@@ -4745,7 +4746,7 @@ timestamp
 packet
 -
 >
-seq_num
+sequence_number
 =
 2
 ;
@@ -5227,7 +5228,7 @@ PacketBufferH264Test
 protected
 :
 const
-uint16_t
+int64_t
 kSeqNum
 =
 5
@@ -5287,7 +5288,7 @@ kVideoCodecH264
 packet
 -
 >
-seq_num
+sequence_number
 =
 kSeqNum
 ;
