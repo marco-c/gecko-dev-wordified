@@ -219,6 +219,15 @@ SVG_CONTENT
 SVGContainer
 "
 }
+SVG_RENDERING_OBSERVER_CONTAINER
+=
+SVG_CONTAINER
+|
+{
+"
+SVGRenderingObserverContainer
+"
+}
 #
 NOTE
 :
@@ -1297,8 +1306,40 @@ SVGClipPathFrame
 "
 SVGClipPath
 "
-SVG_CONTAINER
+SVG_RENDERING_OBSERVER_CONTAINER
 )
+    
+#
+Note
+that
+not
+all
+the
+SVGContainerFrame
+classes
+should
+have
+the
+rendering
+    
+#
+observer
+flag
+but
+the
+specific
+instances
+(
+used
+for
+<
+svg
+:
+defs
+>
+)
+should
+.
     
 Frame
 (
@@ -1308,7 +1349,7 @@ SVGContainerFrame
 "
 None
 "
-SVG_CONTAINER
+SVG_RENDERING_OBSERVER_CONTAINER
 )
     
 Frame
@@ -1369,7 +1410,7 @@ SVGFilterFrame
 "
 SVGFilter
 "
-SVG_CONTAINER
+SVG_RENDERING_OBSERVER_CONTAINER
 )
     
 Frame
@@ -1450,7 +1491,7 @@ SVGMarkerFrame
 "
 SVGMarker
 "
-SVG_CONTAINER
+SVG_RENDERING_OBSERVER_CONTAINER
 )
     
 Frame
@@ -1472,7 +1513,7 @@ SVGMaskFrame
 "
 SVGMask
 "
-SVG_CONTAINER
+SVG_RENDERING_OBSERVER_CONTAINER
 )
     
 Frame
@@ -1486,7 +1527,8 @@ SVGOuterSVGFrame
 SVGOuterSVG
 "
         
-SVG_CONTAINER
+SVG_RENDERING_OBSERVER_CONTAINER
+        
 |
 {
 "
@@ -1567,7 +1609,7 @@ SVGSymbolFrame
 "
 SVGSymbol
 "
-SVG_CONTAINER
+SVG_RENDERING_OBSERVER_CONTAINER
 )
     
 Frame
