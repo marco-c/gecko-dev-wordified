@@ -6234,14 +6234,6 @@ return
 newCookie
 ;
 }
-CookieCommons
-:
-:
-RecordUnicodeTelemetry
-(
-mCookieData
-)
-;
 /
 /
 We
