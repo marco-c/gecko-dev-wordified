@@ -8976,6 +8976,12 @@ colorSwatchClass
 computed
 -
 colorswatch
+inspector
+-
+swatch
+inspector
+-
+colorswatch
 "
 colorClass
 :
