@@ -8926,9 +8926,12 @@ this
 .
 arrowScrollbox
 .
-_scrollButtonDown
-.
-disabled
+hasAttribute
+(
+"
+scrolledtoend
+"
+)
 )
 {
 return
