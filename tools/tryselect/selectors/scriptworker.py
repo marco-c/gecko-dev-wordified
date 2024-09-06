@@ -704,7 +704,7 @@ decision
 -
 nightly
 -
-desktop
+all
 "
     
 )
