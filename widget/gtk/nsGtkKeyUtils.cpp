@@ -6918,6 +6918,9 @@ case
 eMouseEventClass
 :
 case
+ePointerEventClass
+:
+case
 eMouseScrollEventClass
 :
 case

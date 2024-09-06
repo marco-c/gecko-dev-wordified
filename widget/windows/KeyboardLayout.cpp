@@ -4741,6 +4741,9 @@ case
 eMouseEventClass
 :
 case
+ePointerEventClass
+:
+case
 eMouseScrollEventClass
 :
 case
@@ -4785,6 +4788,14 @@ mClass
 =
 =
 eMouseEventClass
+|
+|
+aMouseEvent
+.
+mClass
+=
+=
+ePointerEventClass
 |
 |
 aMouseEvent
