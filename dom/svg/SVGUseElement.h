@@ -409,8 +409,16 @@ SVGElement
 specializations
 :
 gfxMatrix
-ChildToUserSpaceTransform
+PrependLocalTransformsTo
 (
+const
+gfxMatrix
+&
+aMatrix
+SVGTransformTypes
+aWhich
+=
+eAllTransforms
 )
 const
 override
