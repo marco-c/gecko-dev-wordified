@@ -62,7 +62,7 @@ load
 "
 async
 def
-test_cookie_before_request_sent
+test_cookie_response_started
 (
     
 setup_blocked_request
@@ -92,7 +92,7 @@ setup_blocked_request
 phase
 =
 "
-beforeRequestSent
+responseStarted
 "
         
 navigate
@@ -125,19 +125,10 @@ events
             
 RESPONSE_COMPLETED_EVENT
             
-RESPONSE_STARTED_EVENT
-            
 LOAD_EVENT
         
 ]
     
-)
-    
-on_response_started
-=
-wait_for_event
-(
-RESPONSE_STARTED_EVENT
 )
     
 on_response_completed
@@ -267,41 +258,12 @@ bidi_session
 .
 network
 .
-provide_response
+continue_response
 (
         
 request
 =
 request
-        
-body
-=
-NetworkStringValue
-(
-"
-<
-div
->
-Test
-cookies
-for
-provideResponse
-<
-/
-div
->
-"
-)
-        
-status_code
-=
-200
-        
-reason_phrase
-=
-"
-OK
-"
         
 cookies
 =
@@ -325,32 +287,6 @@ Set
 Cookie
 header
 .
-    
-response_started_event
-=
-await
-wait_for_future_safe
-(
-on_response_started
-)
-    
-assert_response_event
-(
-        
-response_started_event
-expected_response
-=
-{
-"
-headers
-"
-:
-[
-set_cookie_header
-]
-}
-    
-)
     
 response_completed_event
 =
@@ -667,7 +603,7 @@ setup_blocked_request
 phase
 =
 "
-beforeRequestSent
+responseStarted
 "
         
 navigate
@@ -717,41 +653,12 @@ bidi_session
 .
 network
 .
-provide_response
+continue_response
 (
         
 request
 =
 request
-        
-body
-=
-NetworkStringValue
-(
-"
-<
-div
->
-Test
-cookies
-for
-provideResponse
-<
-/
-div
->
-"
-)
-        
-status_code
-=
-200
-        
-reason_phrase
-=
-"
-OK
-"
         
 cookies
 =
@@ -857,7 +764,7 @@ setup_blocked_request
 phase
 =
 "
-beforeRequestSent
+responseStarted
 "
         
 navigate
@@ -890,19 +797,10 @@ events
             
 RESPONSE_COMPLETED_EVENT
             
-RESPONSE_STARTED_EVENT
-            
 LOAD_EVENT
         
 ]
     
-)
-    
-on_response_started
-=
-wait_for_event
-(
-RESPONSE_STARTED_EVENT
 )
     
 on_response_completed
@@ -933,41 +831,12 @@ bidi_session
 .
 network
 .
-provide_response
+continue_response
 (
         
 request
 =
 request
-        
-body
-=
-NetworkStringValue
-(
-"
-<
-div
->
-Test
-cookies
-for
-provideResponse
-<
-/
-div
->
-"
-)
-        
-status_code
-=
-200
-        
-reason_phrase
-=
-"
-OK
-"
         
 cookies
 =
@@ -1048,12 +917,6 @@ Cookie
 =
 =
 0
-    
-await
-wait_for_event_and_assert_no_cookie
-(
-on_response_started
-)
     
 await
 wait_for_event_and_assert_no_cookie
