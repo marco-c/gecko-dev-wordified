@@ -160,7 +160,7 @@ h
 #
 include
 "
-nsDirectoryServiceDefs
+nsComponentManagerUtils
 .
 h
 "
@@ -174,7 +174,7 @@ h
 #
 include
 "
-nsComponentManagerUtils
+nsDirectoryServiceDefs
 .
 h
 "
@@ -188,7 +188,21 @@ h
 #
 include
 "
+nsReadableUtils
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "
@@ -762,6 +776,7 @@ RFindInReadable
 pattern
 start
 end
+nsCaseInsensitiveCStringComparator
 )
 )
 {
@@ -839,6 +854,7 @@ RFindInReadable
 pattern
 start
 end
+nsCaseInsensitiveCStringComparator
 )
 )
 {
