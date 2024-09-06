@@ -2102,6 +2102,16 @@ days
 =
 1
 )
+expires_a_day_from_now_timestamp
+=
+int
+(
+expires_a_day_from_now
+.
+timestamp
+(
+)
+)
 #
 Common
 parameters
@@ -2919,14 +2929,7 @@ None
 expiry
 "
 :
-int
-(
-expires_a_day_from_now
-.
-timestamp
-(
-)
-)
+expires_a_day_from_now_timestamp
             
 "
 httpOnly
