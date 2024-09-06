@@ -886,6 +886,7 @@ writeStatusFile
 STATE_PENDING_ELEVATE
 )
 ;
+await
 reloadUpdateManagerData
 (
 )

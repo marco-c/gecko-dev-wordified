@@ -296,6 +296,7 @@ path
 )
 )
 ;
+await
 waitForFilesInUse
 (
 )

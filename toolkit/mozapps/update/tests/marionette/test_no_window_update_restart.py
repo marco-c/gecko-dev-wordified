@@ -1663,13 +1663,29 @@ self
 .
 marionette
 .
-execute_script
+execute_async_script
 (
             
 "
 "
 "
             
+let
+[
+resolve
+]
+=
+arguments
+;
+            
+(
+async
+(
+)
+=
+>
+{
+                
 let
 UM
 =
@@ -1697,7 +1713,8 @@ Ci
 nsIUpdateManager
 )
 ;
-            
+                
+await
 UM
 .
 internal
@@ -1707,7 +1724,7 @@ reload
 true
 )
 ;
-            
+                
 let
 {
 UpdateListener
@@ -1717,7 +1734,7 @@ ChromeUtils
 .
 importESModule
 (
-                
+                    
 "
 resource
 :
@@ -1733,17 +1750,17 @@ sys
 .
 mjs
 "
-            
+                
 )
 ;
-            
+                
 UpdateListener
 .
 reset
 (
 )
 ;
-            
+                
 let
 {
 AppMenuNotifications
@@ -1753,7 +1770,7 @@ ChromeUtils
 .
 importESModule
 (
-                
+                    
 "
 resource
 :
@@ -1769,10 +1786,10 @@ sys
 .
 mjs
 "
-            
+                
 )
 ;
-            
+                
 AppMenuNotifications
 .
 removeNotification
@@ -1783,7 +1800,7 @@ removeNotification
 /
 )
 ;
-            
+                
 /
 /
 Remove
@@ -1800,7 +1817,7 @@ interfere
 with
 tests
 .
-            
+                
 let
 rootUpdateDir
 =
@@ -1818,7 +1835,7 @@ Ci
 nsIFile
 )
 ;
-            
+                
 let
 updateDir
 =
@@ -1828,7 +1845,7 @@ clone
 (
 )
 ;
-            
+                
 updateDir
 .
 append
@@ -1838,7 +1855,7 @@ updates
 "
 )
 ;
-            
+                
 let
 patchDir
 =
@@ -1848,7 +1865,7 @@ clone
 (
 )
 ;
-            
+                
 patchDir
 .
 append
@@ -1858,14 +1875,14 @@ append
 "
 )
 ;
-            
+                
 let
 filesToRemove
 =
 [
 ]
 ;
-            
+                
 let
 addFileToRemove
 =
@@ -1876,7 +1893,7 @@ filename
 =
 >
 {
-                
+                    
 let
 file
 =
@@ -1886,7 +1903,7 @@ clone
 (
 )
 ;
-                
+                    
 file
 .
 append
@@ -1894,7 +1911,7 @@ append
 filename
 )
 ;
-                
+                    
 filesToRemove
 .
 push
@@ -1902,10 +1919,10 @@ push
 file
 )
 ;
-            
+                
 }
 ;
-            
+                
 addFileToRemove
 (
 rootUpdateDir
@@ -1918,7 +1935,7 @@ xml
 "
 )
 ;
-            
+                
 addFileToRemove
 (
 rootUpdateDir
@@ -1929,7 +1946,7 @@ xml
 "
 )
 ;
-            
+                
 addFileToRemove
 (
 patchDir
@@ -1940,7 +1957,7 @@ status
 "
 )
 ;
-            
+                
 addFileToRemove
 (
 patchDir
@@ -1951,7 +1968,7 @@ version
 "
 )
 ;
-            
+                
 addFileToRemove
 (
 patchDir
@@ -1962,7 +1979,7 @@ mar
 "
 )
 ;
-            
+                
 addFileToRemove
 (
 patchDir
@@ -1973,7 +1990,7 @@ ini
 "
 )
 ;
-            
+                
 addFileToRemove
 (
 updateDir
@@ -1986,7 +2003,7 @@ log
 "
 )
 ;
-            
+                
 addFileToRemove
 (
 updateDir
@@ -1999,7 +2016,7 @@ log
 "
 )
 ;
-            
+                
 addFileToRemove
 (
 patchDir
@@ -2010,7 +2027,7 @@ log
 "
 )
 ;
-            
+                
 for
 (
 const
@@ -2019,10 +2036,10 @@ of
 filesToRemove
 )
 {
-                
+                    
 try
 {
-                    
+                        
 if
 (
 file
@@ -2032,7 +2049,7 @@ exists
 )
 )
 {
-                        
+                            
 file
 .
 remove
@@ -2040,16 +2057,16 @@ remove
 false
 )
 ;
-                    
+                        
 }
-                
+                    
 }
 catch
 (
 e
 )
 {
-                    
+                        
 console
 .
 warn
@@ -2078,10 +2095,21 @@ Exception
 e
 )
 ;
+                    
+}
                 
 }
             
 }
+)
+(
+)
+.
+then
+(
+resolve
+)
+;
         
 "
 "

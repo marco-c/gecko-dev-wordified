@@ -798,6 +798,7 @@ lock
 )
 ;
 }
+await
 doTestFinish
 (
 )
