@@ -496,7 +496,7 @@ API_SCOPED_REFPTR_H_
 #
 include
 <
-memory
+cstddef
 >
 #
 include

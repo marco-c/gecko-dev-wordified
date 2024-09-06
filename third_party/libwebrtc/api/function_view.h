@@ -91,6 +91,11 @@ API_FUNCTION_VIEW_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 type_traits
 >
 #

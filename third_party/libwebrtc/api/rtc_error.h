@@ -104,6 +104,13 @@ WEBRTC_UNIT_TEST
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 >
 #

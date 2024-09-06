@@ -109,16 +109,3 @@ other
 required
 includes
 .
-#
-include
-"
-api
-/
-voip
-/
-test
-/
-mock_voip_engine
-.
-h
-"

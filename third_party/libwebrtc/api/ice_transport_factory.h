@@ -123,6 +123,12 @@ cricket
 class
 PortAllocator
 ;
+/
+/
+IWYU
+pragma
+:
+keep
 }
 /
 /

@@ -94,11 +94,6 @@ API_RTP_PACKET_INFOS_H_
 #
 include
 <
-cstdint
->
-#
-include
-<
 utility
 >
 #

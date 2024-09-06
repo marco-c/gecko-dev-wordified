@@ -171,6 +171,12 @@ through
 api
 header
 .
+/
+/
+IWYU
+pragma
+:
+begin_keep
 class
 Clock
 ;
@@ -183,6 +189,12 @@ FieldTrialsView
 class
 RtcEventLog
 ;
+/
+/
+IWYU
+pragma
+:
+end_keep
 /
 /
 Constructs
