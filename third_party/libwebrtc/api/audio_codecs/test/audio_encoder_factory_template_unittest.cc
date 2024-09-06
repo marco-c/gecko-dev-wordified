@@ -675,8 +675,6 @@ AudioEncoderFactoryT
 >
 >
 (
-&
-field_trials
 )
 )
 ;
