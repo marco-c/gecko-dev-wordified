@@ -568,7 +568,10 @@ kInterval
 {
 SCOPED_TRACE
 (
+ToString
+(
 i
+)
 )
 ;
 now
@@ -726,7 +729,10 @@ Millis
 {
 SCOPED_TRACE
 (
+ToString
+(
 i
+)
 )
 ;
 EXPECT_EQ
@@ -851,7 +857,10 @@ kLargeInterval
 {
 SCOPED_TRACE
 (
+ToString
+(
 i
+)
 )
 ;
 now
@@ -924,7 +933,10 @@ kLargeInterval
 {
 SCOPED_TRACE
 (
+ToString
+(
 i
+)
 )
 ;
 now
@@ -1008,7 +1020,10 @@ kSmallInterval
 {
 SCOPED_TRACE
 (
+ToString
+(
 i
+)
 )
 ;
 now
@@ -1824,9 +1839,12 @@ kWindow
 {
 SCOPED_TRACE
 (
+ToString
+(
 now
 -
 start
+)
 )
 ;
 stats
