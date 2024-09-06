@@ -120,6 +120,19 @@ eec0
 -
 ffeec0ffeec0
 "
+CANARY_PROFILE_GROUP_ID
+=
+"
+decafdec
+-
+afde
+-
+cafd
+-
+ecaf
+-
+decafdecafde
+"
 SERVER_ROOT
 =
 "
@@ -2337,6 +2350,12 @@ value
 !
 =
 CANARY_CLIENT_ID
+        
+assert
+value
+!
+=
+CANARY_PROFILE_GROUP_ID
         
 assert
 re
