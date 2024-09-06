@@ -1313,7 +1313,7 @@ clampedMaxPages
 )
 ;
 extern
-uint64_t
+size_t
 GetMaxOffsetGuardLimit
 (
 bool

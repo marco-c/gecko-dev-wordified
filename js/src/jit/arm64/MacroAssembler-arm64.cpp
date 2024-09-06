@@ -3398,7 +3398,7 @@ offset
 =
 access
 .
-offset32
+offset
 (
 )
 ;
@@ -4558,7 +4558,7 @@ offset
 =
 access
 .
-offset32
+offset
 (
 )
 ;

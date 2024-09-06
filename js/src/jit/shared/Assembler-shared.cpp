@@ -168,7 +168,7 @@ const
 {
 MOZ_ASSERT
 (
-offset_
+offset64_
 <
 (
 uint64_t
