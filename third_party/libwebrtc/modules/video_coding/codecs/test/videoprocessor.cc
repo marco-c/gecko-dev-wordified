@@ -426,15 +426,6 @@ H264
 FindNaluIndices
 (
 encoded_frame
-.
-data
-(
-)
-encoded_frame
-.
-size
-(
-)
 )
 ;
 RTC_CHECK

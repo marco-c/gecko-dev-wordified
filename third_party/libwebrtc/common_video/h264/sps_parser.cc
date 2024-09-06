@@ -268,12 +268,15 @@ SpsParser
 :
 ParseSps
 (
+rtc
+:
+:
+ArrayView
+<
 const
 uint8_t
-*
+>
 data
-size_t
-length
 )
 {
 std
@@ -291,7 +294,6 @@ H264
 ParseRbsp
 (
 data
-length
 )
 ;
 BitstreamReader

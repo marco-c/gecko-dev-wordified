@@ -1062,10 +1062,6 @@ h265_parser
 ParsePpsIdFromSliceSegmentLayerRbsp
 (
 kH265SliceChunk
-sizeof
-(
-kH265SliceChunk
-)
 H265
 :
 :
