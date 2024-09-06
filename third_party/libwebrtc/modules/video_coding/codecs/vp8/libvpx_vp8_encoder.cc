@@ -560,7 +560,7 @@ kHighVp8QpThreshold
 ;
 constexpr
 int
-kVp8ScreenshareMinimumQp
+kScreenshareMinQp
 =
 15
 ;
@@ -9964,9 +9964,9 @@ kScreensharing
 {
 info
 .
-minimum_qp
+min_qp
 =
-kVp8ScreenshareMinimumQp
+kScreenshareMinQp
 ;
 }
 }
