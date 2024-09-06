@@ -504,7 +504,12 @@ LoadReplace
 )
 mHasUserInteraction
 (
-false
+aLoadState
+-
+>
+HasValidUserGestureActivation
+(
+)
 )
 mHasUserActivation
 (
@@ -695,6 +700,12 @@ mSharedState
 MaybeUpdateTitleFromURI
 (
 )
+;
+mHasUserInteraction
+=
+aSharedStateFrom
+.
+mHasUserInteraction
 ;
 }
 SessionHistoryInfo
