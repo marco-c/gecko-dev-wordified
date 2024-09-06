@@ -263,7 +263,6 @@ public
 SVGElement
 specializations
 :
-virtual
 gfxMatrix
 PrependLocalTransformsTo
 (

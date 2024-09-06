@@ -321,14 +321,10 @@ aLists
 override
 ;
 bool
-IsSVGTransformed
+DoGetParentSVGTransforms
 (
 Matrix
 *
-aOwnTransform
-Matrix
-*
-aFromParentTransform
 )
 const
 override

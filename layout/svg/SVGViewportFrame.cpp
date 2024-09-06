@@ -1962,7 +1962,7 @@ aTransform
 )
 const
 {
-SVGViewportElement
+auto
 *
 content
 =
@@ -1979,6 +1979,7 @@ GetContent
 ;
 if
 (
+!
 content
 -
 >
@@ -1987,6 +1988,10 @@ HasViewBoxOrSyntheticViewBox
 )
 )
 {
+return
+false
+;
+}
 /
 /
 XXX
@@ -2019,10 +2024,6 @@ GetViewBoxTransform
 }
 return
 true
-;
-}
-return
-false
 ;
 }
 }

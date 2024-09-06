@@ -1153,11 +1153,8 @@ bool
 SVGForeignObjectFrame
 :
 :
-IsSVGTransformed
+DoGetParentSVGTransforms
 (
-Matrix
-*
-aOwnTransform
 Matrix
 *
 aFromParentTransform
@@ -1168,10 +1165,9 @@ return
 SVGUtils
 :
 :
-IsSVGTransformed
+GetParentSVGTransforms
 (
 this
-aOwnTransform
 aFromParentTransform
 )
 ;

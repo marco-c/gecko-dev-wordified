@@ -10617,7 +10617,7 @@ if
 primaryFrame
 -
 >
-IsSVGTransformed
+GetParentSVGTransforms
 (
 )
 )

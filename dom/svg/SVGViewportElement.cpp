@@ -1205,8 +1205,7 @@ UpdateHasChildrenOnlyTransform
 (
 )
 {
-bool
-hasChildrenOnlyTransform
+mHasChildrenOnlyTransform
 =
 HasViewBoxOrSyntheticViewBox
 (
@@ -1233,10 +1232,6 @@ IsScaledOrTranslated
 (
 )
 )
-;
-mHasChildrenOnlyTransform
-=
-hasChildrenOnlyTransform
 ;
 }
 void
@@ -2319,7 +2314,7 @@ IsRootSVGSVGElement
 )
 {
 const
-SVGSVGElement
+auto
 *
 svg
 =

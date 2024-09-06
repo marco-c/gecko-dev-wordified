@@ -1506,14 +1506,8 @@ bool
 SVGDisplayContainerFrame
 :
 :
-IsSVGTransformed
+DoGetParentSVGTransforms
 (
-gfx
-:
-:
-Matrix
-*
-aOwnTransform
 gfx
 :
 :
@@ -1527,10 +1521,9 @@ return
 SVGUtils
 :
 :
-IsSVGTransformed
+GetParentSVGTransforms
 (
 this
-aOwnTransform
 aFromParentTransform
 )
 ;
