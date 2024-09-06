@@ -431,6 +431,11 @@ is_quality_scaling_allowed
 (
 false
 )
+max_qp
+(
+-
+1
+)
 {
 }
 VideoEncoderConfig
