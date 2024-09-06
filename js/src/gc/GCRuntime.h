@@ -4083,9 +4083,12 @@ void
 *
 refillFreeList
 (
-JSContext
+JS
+:
+:
+Zone
 *
-cx
+zone
 AllocKind
 thingKind
 )
@@ -4093,9 +4096,6 @@ thingKind
 void
 attemptLastDitchGC
 (
-JSContext
-*
-cx
 )
 ;
 /
