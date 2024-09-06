@@ -546,12 +546,10 @@ warnings
 {
 /
 /
-See
-comments
-in
-Module
-:
-:
+Due
+to
+behaviour
+of
 PartialTier2CompileTaskImpl
 :
 :
@@ -564,10 +562,6 @@ maybeFuncIndex
 isSome
 (
 )
-!
-error
-&
-&
 warnings
 .
 length

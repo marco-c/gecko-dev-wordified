@@ -469,6 +469,9 @@ Code
 code
 uint32_t
 funcIndex
+UniqueChars
+*
+error
 )
 ;
 /
