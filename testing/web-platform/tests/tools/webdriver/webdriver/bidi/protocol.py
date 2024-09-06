@@ -1,3 +1,16 @@
+#
+mypy
+:
+allow
+-
+untyped
+-
+defs
+allow
+-
+untyped
+-
+calls
 from
 abc
 import
@@ -215,6 +228,10 @@ Any
 )
 :
         
+do_delayed_imports
+(
+)
+        
 super
 (
 )
@@ -271,6 +288,10 @@ self
 .
 shared_id
 }
+#
+type
+:
+ignore
 class
 BidiWindow
 (
