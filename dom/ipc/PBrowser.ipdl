@@ -6224,6 +6224,9 @@ MaybeDiscardedWindowContext
 aSourceWindowContext
 MaybeDiscardedWindowContext
 aSourceTopWindowContext
+nullable
+nsIPrincipal
+aPrincipal
 IPCTransferableData
 [
 ]
@@ -6235,6 +6238,9 @@ action
 async
 UpdateDragSession
 (
+nullable
+nsIPrincipal
+aPrincipal
 IPCTransferableData
 [
 ]
