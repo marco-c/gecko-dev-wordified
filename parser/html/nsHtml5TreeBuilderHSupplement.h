@@ -327,6 +327,11 @@ mSpeculativeLoadStage
 nsresult
 mBroken
 ;
+int32_t
+isInSVGOddPCData
+=
+0
+;
 /
 /
 Controls
