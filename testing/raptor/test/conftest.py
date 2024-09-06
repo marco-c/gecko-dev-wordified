@@ -595,6 +595,19 @@ False
 chimera
 =
 False
+        
+browsertime_visualmetrics
+=
+False
+        
+extra_summary_methods
+=
+[
+]
+        
+power_test
+=
+False
     
 )
     
