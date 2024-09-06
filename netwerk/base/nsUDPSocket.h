@@ -294,13 +294,6 @@ return
 mByteReadCount
 ;
 }
-void
-AddOutputBytes
-(
-int32_t
-aBytes
-)
-;
 nsUDPSocket
 (
 )
