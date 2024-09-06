@@ -612,7 +612,7 @@ deprecated
 false
 experimental
 :
-true
+false
 unsupportedBrowsers
 :
 [
