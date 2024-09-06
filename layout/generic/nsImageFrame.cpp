@@ -19506,6 +19506,9 @@ IntrinsicISizeType
 :
 :
 MinISize
+aInput
+.
+mPercentageBasis
 )
 ;
 bool

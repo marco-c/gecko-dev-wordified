@@ -9976,6 +9976,9 @@ IntrinsicSizeInput
 input
 (
 aRenderingContext
+Nothing
+(
+)
 )
 ;
 nscoord
@@ -10070,6 +10073,9 @@ IntrinsicSizeInput
 input
 (
 aRenderingContext
+Nothing
+(
+)
 )
 ;
 nscoord
