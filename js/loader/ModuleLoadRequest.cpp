@@ -325,6 +325,11 @@ ModuleLoadRequest
 nsIURI
 *
 aURI
+JS
+:
+:
+ModuleType
+aModuleType
 mozilla
 :
 :
@@ -383,6 +388,10 @@ aContext
 mIsTopLevel
 (
 aIsTopLevel
+)
+mModuleType
+(
+aModuleType
 )
 mIsDynamicImport
 (
@@ -662,10 +671,7 @@ GetFetchedModule
 ModuleMapKey
 (
 mURI
-ModuleType
-:
-:
-JavaScript
+mModuleType
 )
 )
 ;
