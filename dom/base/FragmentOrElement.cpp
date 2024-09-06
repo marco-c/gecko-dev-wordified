@@ -1263,12 +1263,6 @@ if
 IsEditable
 (
 )
-|
-|
-!
-IsInComposedDoc
-(
-)
 )
 {
 /
