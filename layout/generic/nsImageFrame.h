@@ -980,9 +980,13 @@ mImageMap
 void
 AddInlineMinISize
 (
-gfxContext
-*
-aRenderingContext
+const
+mozilla
+:
+:
+IntrinsicSizeInput
+&
+aInput
 InlineMinISizeData
 *
 aData
