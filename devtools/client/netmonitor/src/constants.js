@@ -1971,6 +1971,10 @@ css
 DOMCONTENTLOADED_TICKS_COLOR
 :
 "
+-
+-
+theme
+-
 highlight
 -
 blue
@@ -1978,6 +1982,10 @@ blue
 LOAD_TICKS_COLOR
 :
 "
+-
+-
+theme
+-
 highlight
 -
 red
