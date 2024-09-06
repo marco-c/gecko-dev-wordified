@@ -300,6 +300,9 @@ kMaximumChannelSize
 kMaximumNumberOfChannels
 >
 mixing_buffer_
+=
+{
+}
 ;
 }
 ;
