@@ -7322,9 +7322,6 @@ char16_t
 >
 >
 ;
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 template
 class
 js
@@ -7359,8 +7356,6 @@ char16_t
 >
 >
 ;
-#
-endif
 template
 class
 js
@@ -7585,9 +7580,6 @@ JSONParser
 char16_t
 >
 ;
-#
-ifdef
-ENABLE_JSON_PARSE_WITH_SOURCE
 template
 <
 typename
@@ -8533,11 +8525,6 @@ JSONReviveParser
 char16_t
 >
 ;
-#
-endif
-/
-/
-ENABLE_JSON_PARSE_WITH_SOURCE
 template
 <
 typename
