@@ -1986,6 +1986,9 @@ mPreventClickEvent
 bool
 mIgnoreCapturingContent
 ;
+bool
+mSynthesizeMoveAfterDispatch
+;
 }
 ;
 /
