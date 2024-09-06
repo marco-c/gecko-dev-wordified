@@ -612,6 +612,15 @@ aBuffer
 )
 ;
 bool
+IsArrayBufferEmpty
+(
+const
+OwningMaybeSharedArrayBufferViewOrMaybeSharedArrayBuffer
+&
+aBuffer
+)
+;
+bool
 CopyExtradataToDescription
 (
 JSContext
