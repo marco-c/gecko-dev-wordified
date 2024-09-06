@@ -43,10 +43,15 @@ test_continue_auth_required
 (
     
 setup_blocked_request
+    
 subscribe_events
+    
 wait_for_event
+    
 bidi_session
+    
 navigate
+    
 wait_for_future_safe
 )
 :
@@ -193,10 +198,15 @@ test_continue_response_started
 (
     
 setup_blocked_request
+    
 subscribe_events
+    
 wait_for_event
+    
 bidi_session
+    
 navigate
+    
 wait_for_future_safe
 )
 :
