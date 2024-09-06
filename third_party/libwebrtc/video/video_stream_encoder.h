@@ -2753,6 +2753,10 @@ frame
 .
 QualityConvergenceController
 quality_convergence_controller_
+RTC_GUARDED_BY
+(
+encoder_queue_
+)
 ;
 /
 /
