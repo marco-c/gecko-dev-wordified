@@ -3779,7 +3779,7 @@ prefSize
 .
 width
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 prefSize
 .
@@ -3796,7 +3796,7 @@ prefSize
 .
 height
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 prefSize
 .

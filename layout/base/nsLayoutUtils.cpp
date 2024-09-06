@@ -35045,7 +35045,7 @@ heightAtMaxWidth
 =
 heightAtMinWidth
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 tentHeight
 minHeight
@@ -35105,7 +35105,7 @@ widthAtMaxHeight
 =
 widthAtMinHeight
 =
-NS_CSS_MINMAX
+CSSMinMax
 (
 tentWidth
 minWidth
