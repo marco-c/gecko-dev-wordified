@@ -600,7 +600,6 @@ true
 }
 )
 ;
-await
 doTestFinish
 (
 )

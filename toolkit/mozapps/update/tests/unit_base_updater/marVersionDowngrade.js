@@ -190,7 +190,6 @@ VERSION_DOWNGRADE_ERROR
 1
 )
 ;
-await
 waitForFilesInUse
 (
 )

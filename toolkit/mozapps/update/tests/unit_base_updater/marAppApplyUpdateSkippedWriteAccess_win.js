@@ -304,7 +304,6 @@ files
 are
 locked
 .
-await
 reloadUpdateManagerData
 (
 )
@@ -476,7 +475,6 @@ path
 )
 )
 ;
-await
 waitForFilesInUse
 (
 )

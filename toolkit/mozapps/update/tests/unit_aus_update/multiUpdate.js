@@ -2201,7 +2201,6 @@ MAR
 behavior
 is
 correct
-await
 reloadUpdateManagerData
 (
 true
@@ -2414,7 +2413,6 @@ again
 from
 scratch
 .
-await
 reloadUpdateManagerData
 (
 true
@@ -2426,7 +2424,6 @@ multi_update_test
 false
 )
 ;
-await
 doTestFinish
 (
 )

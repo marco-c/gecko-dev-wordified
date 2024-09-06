@@ -6868,7 +6868,6 @@ inspected
 .
 *
 /
-async
 function
 doTestFinish
 (
@@ -6941,7 +6940,6 @@ PREF_APP_UPDATE_LOG
 )
 ;
 }
-await
 reloadUpdateManagerData
 (
 true
@@ -26371,7 +26369,6 @@ test
 .
 *
 /
-async
 function
 waitForFilesInUse
 (
@@ -26454,7 +26451,6 @@ doTestFinish
 "
 )
 ;
-await
 doTestFinish
 (
 )

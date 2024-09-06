@@ -150,7 +150,6 @@ STATE_AFTER_STAGE
 0
 )
 ;
-await
 waitForFilesInUse
 (
 )

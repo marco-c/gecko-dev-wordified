@@ -725,7 +725,6 @@ remove
 false
 )
 ;
-await
 reloadUpdateManagerData
 (
 true
@@ -924,7 +923,6 @@ writeSuccessUpdateStatusFile
 (
 )
 ;
-await
 reloadUpdateManagerData
 (
 false
@@ -955,9 +953,7 @@ Ci
 nsIBrowserHandler
 )
 .
-getFirstWindowArgs
-(
-)
+defaultArgs
 ;
 let
 overrideArgs
@@ -1076,9 +1072,7 @@ Ci
 nsIBrowserHandler
 )
 .
-getFirstWindowArgs
-(
-)
+defaultArgs
 ;
 is
 (
@@ -1346,7 +1340,6 @@ metadata
 .
 *
 /
-async
 function
 reloadUpdateManagerData
 (
@@ -1355,7 +1348,6 @@ skipFiles
 false
 )
 {
-await
 Cc
 [
 "

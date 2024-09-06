@@ -165,7 +165,6 @@ LOADSOURCE_ERROR_WRONG_SIZE
 1
 )
 ;
-await
 waitForFilesInUse
 (
 )

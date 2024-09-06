@@ -1176,7 +1176,6 @@ platformBuildID
 }
 )
 ;
-await
 reloadUpdateManagerData
 (
 false
@@ -1212,9 +1211,7 @@ Ci
 nsIBrowserHandler
 )
 .
-getFirstWindowArgs
-(
-)
+defaultArgs
 ;
 is
 (

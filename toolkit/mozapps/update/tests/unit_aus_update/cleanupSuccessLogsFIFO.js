@@ -1167,7 +1167,6 @@ can
 run
 again
 .
-await
 reloadUpdateManagerData
 (
 true
@@ -1349,7 +1348,6 @@ createBackupUpdateElevatedLog
 }
 }
 }
-await
 doTestFinish
 (
 )

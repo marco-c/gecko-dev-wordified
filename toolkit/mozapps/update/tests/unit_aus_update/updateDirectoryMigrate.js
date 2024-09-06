@@ -1412,7 +1412,6 @@ contents
 MSG_SHOULD_EQUAL
 )
 ;
-await
 doTestFinish
 (
 )

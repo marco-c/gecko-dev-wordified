@@ -557,7 +557,6 @@ verifyPref
 false
 )
 ;
-await
 doTestFinish
 (
 )

@@ -2044,7 +2044,6 @@ r
 ;
 add_task
 (
-async
 (
 )
 =
@@ -2084,7 +2083,6 @@ tests
 have
 completed
 .
-await
 doTestFinish
 (
 )

@@ -56,7 +56,6 @@ MPL
 .
 *
 /
-async
 function
 run_test
 (
@@ -460,7 +459,6 @@ mutex
 )
 ;
 }
-await
 doTestFinish
 (
 )
