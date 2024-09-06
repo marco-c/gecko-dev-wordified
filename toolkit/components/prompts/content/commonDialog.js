@@ -268,7 +268,7 @@ promptType
 |
 args
 .
-headerIconURL
+headerIconCSSValue
 ;
 let
 root
