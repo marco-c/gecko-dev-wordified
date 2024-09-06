@@ -4476,7 +4476,7 @@ aCx
 XULElement_Binding
 :
 :
-GetConstructorObject
+GetConstructorObjectHandle
 (
 aCx
 )
