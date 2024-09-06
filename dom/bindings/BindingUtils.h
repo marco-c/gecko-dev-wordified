@@ -11475,8 +11475,9 @@ typename
 Enum
 >
 inline
+constexpr
 const
-nsCString
+nsLiteralCString
 &
 GetEnumString
 (
