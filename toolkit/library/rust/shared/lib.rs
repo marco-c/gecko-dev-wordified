@@ -378,6 +378,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+webext_storage
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 }
 #
 [
