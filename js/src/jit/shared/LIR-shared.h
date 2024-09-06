@@ -17708,6 +17708,8 @@ BogusTemp
 ARM
 ARM64
 x64
+LoongArch64
+MIPS
 LAtomicTypedArrayElementBinop64
 (
 const
@@ -17918,6 +17920,8 @@ BogusTemp
 ARM32
 ARM64
 x86
+LoongArch64
+MIPS
 LAtomicTypedArrayElementBinopForEffect64
 (
 const
