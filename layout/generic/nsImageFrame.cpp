@@ -19481,9 +19481,10 @@ nsImageFrame
 :
 AddInlineMinISize
 (
-gfxContext
-*
-aRenderingContext
+const
+IntrinsicSizeInput
+&
+aInput
 InlineMinISizeData
 *
 aData
@@ -19497,7 +19498,9 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-aRenderingContext
+aInput
+.
+mContext
 this
 IntrinsicISizeType
 :
