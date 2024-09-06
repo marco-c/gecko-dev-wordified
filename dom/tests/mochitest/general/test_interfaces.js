@@ -5443,9 +5443,6 @@ FragmentDirective
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
