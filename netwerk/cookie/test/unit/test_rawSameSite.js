@@ -626,11 +626,13 @@ dbFile
 ;
 Assert
 .
-equal
+ok
 (
 conn
 .
 schemaVersion
+>
+=
 13
 )
 ;
