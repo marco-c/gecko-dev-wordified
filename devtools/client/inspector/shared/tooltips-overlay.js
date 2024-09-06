@@ -1986,6 +1986,9 @@ variable
 registeredProperty
 startingStyleVariable
 variableComputed
+outputParserOptions
+cssProperties
+value
 }
 =
 nodeInfo
@@ -2008,6 +2011,11 @@ registeredProperty
 startingStyle
 :
 startingStyleVariable
+outputParserOptions
+cssProperties
+variableName
+:
+value
 }
 )
 ;
