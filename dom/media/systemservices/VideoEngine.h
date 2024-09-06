@@ -484,6 +484,12 @@ DeviceInfo
 >
 GetOrCreateVideoCaptureDeviceInfo
 (
+webrtc
+:
+:
+VideoInputFeedBack
+*
+callBack
 )
 ;
 /
