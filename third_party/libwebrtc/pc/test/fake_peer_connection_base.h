@@ -2034,6 +2034,17 @@ return
 field_trials_
 ;
 }
+NetworkControllerInterface
+*
+GetNetworkController
+(
+)
+override
+{
+return
+nullptr
+;
+}
 protected
 :
 test
