@@ -2676,11 +2676,10 @@ kidWM
 {
 kidReflowInput
 .
-mFlags
-.
-mIsBResizeForPercentages
-=
+SetBResizeForPercentages
+(
 true
+)
 ;
 }
 ReflowChild
