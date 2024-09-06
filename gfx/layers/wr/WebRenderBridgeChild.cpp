@@ -2961,7 +2961,7 @@ Clear
 display
 list
 and
-animtaions
+animations
 at
 parent
 side
