@@ -6244,6 +6244,12 @@ isDependent
 isExternal
 (
 )
+&
+&
+!
+isExtensible
+(
+)
 )
 ;
 return
