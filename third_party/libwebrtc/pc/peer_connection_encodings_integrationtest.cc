@@ -8080,7 +8080,7 @@ num_active_layers
 /
 2u
 )
-kDefaultTimeout
+kLongTimeoutForRampingUp
 .
 ms
 (
