@@ -2328,7 +2328,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 ;
@@ -2615,7 +2615,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 ;
@@ -2966,7 +2966,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 )
@@ -3100,7 +3100,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 )
@@ -3269,7 +3269,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 )
@@ -3451,7 +3451,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 )
@@ -3563,7 +3563,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 ;
@@ -3735,7 +3735,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 ;
@@ -3987,7 +3987,7 @@ ptr
 TimesOne
 access
 .
-offset
+offset32
 (
 )
 )
@@ -4301,7 +4301,7 @@ access
 (
 )
 .
-offset
+offset32
 (
 )
 ;
