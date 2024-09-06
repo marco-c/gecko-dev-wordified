@@ -178,6 +178,15 @@ mjs
 "
 shared
 /
+AutofillFormFactory
+.
+sys
+.
+mjs
+"
+"
+shared
+/
 AutofillTelemetry
 .
 sys
