@@ -123,9 +123,9 @@ include
 "
 api
 /
-task_queue
+environment
 /
-default_task_queue_factory
+environment_factory
 .
 h
 "
@@ -327,6 +327,9 @@ make_unique
 VoipCore
 >
 (
+CreateEnvironment
+(
+)
 std
 :
 :
@@ -340,9 +343,6 @@ std
 move
 (
 decoder_factory
-)
-CreateDefaultTaskQueueFactory
-(
 )
 audio_device_
 std
