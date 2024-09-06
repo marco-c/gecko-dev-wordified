@@ -8179,15 +8179,6 @@ nsIURI
 :
 boolean
 ;
-allowsRelaxStrictFileOriginPolicy
-(
-aURI
-:
-nsIURI
-)
-:
-boolean
-;
 hasFirstpartyStorageAccess
 (
 aWindow
