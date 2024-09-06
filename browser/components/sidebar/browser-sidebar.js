@@ -6303,12 +6303,6 @@ break
 ;
 }
 }
-this
-.
-updateToolbarButton
-(
-)
-;
 }
 /
 *
@@ -6519,6 +6513,12 @@ this
 _sidebarMain
 .
 expanded
+)
+;
+this
+.
+updateToolbarButton
+(
 )
 ;
 }
