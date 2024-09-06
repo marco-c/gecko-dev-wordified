@@ -421,6 +421,11 @@ val
 case
 0
 :
+/
+/
+AKA
+NONE
+POINTS
 return
 "
 0
@@ -444,12 +449,6 @@ return
 #
 x
 ;
-/
-/
-XX
-(
-NONE
-)
 XX
 (
 ACTIVE_UNIFORM_BLOCKS
@@ -473,6 +472,10 @@ ANY_SAMPLES_PASSED_CONSERVATIVE
 XX
 (
 BLUE
+)
+XX
+(
+BYTE
 )
 XX
 (
@@ -1317,6 +1320,10 @@ SAMPLER_CUBE_SHADOW
 XX
 (
 SEPARATE_ATTRIBS
+)
+XX
+(
+SHORT
 )
 XX
 (
