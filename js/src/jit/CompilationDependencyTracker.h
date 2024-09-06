@@ -154,6 +154,7 @@ class
 Type
 {
 GetIterator
+EmulatesUndefined
 Limit
 }
 ;
