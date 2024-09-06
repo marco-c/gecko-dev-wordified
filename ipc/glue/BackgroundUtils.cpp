@@ -3606,6 +3606,12 @@ GetIsOriginTrialCoepCredentiallessEnabledForTopLevel
 )
 unstrippedURI
 interceptionInfoArg
+aLoadInfo
+-
+>
+GetIsNewWindowTarget
+(
+)
 )
 ;
 return
@@ -5431,6 +5437,11 @@ wasSchemelessInput
 loadInfoArgs
 .
 httpsUpgradeTelemetry
+(
+)
+loadInfoArgs
+.
+isNewWindowTarget
 (
 )
 )

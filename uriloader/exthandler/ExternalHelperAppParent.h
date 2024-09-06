@@ -447,10 +447,6 @@ aReferrer
 BrowsingContext
 *
 aContext
-const
-bool
-&
-aShouldCloseWindow
 )
 ;
 protected

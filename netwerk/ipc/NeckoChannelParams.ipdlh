@@ -1476,6 +1476,9 @@ InterceptionInfoArg
 ?
 interceptionInfo
 ;
+bool
+isNewWindowTarget
+;
 }
 ;
 /
