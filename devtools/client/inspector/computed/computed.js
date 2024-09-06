@@ -8973,9 +8973,6 @@ value
 colorSwatchClass
 :
 "
-computed
--
-colorswatch
 inspector
 -
 swatch
@@ -8983,6 +8980,9 @@ inspector
 -
 colorswatch
 "
+colorSwatchReadOnly
+:
+true
 colorClass
 :
 "
