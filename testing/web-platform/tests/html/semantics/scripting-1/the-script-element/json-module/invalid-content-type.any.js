@@ -87,10 +87,7 @@ Content
 -
 Type
 {
-encodeURIComponent
-(
 content_type
-)
 }
 )
 {
