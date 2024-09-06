@@ -132,11 +132,9 @@ close
 ;
 Assert
 .
-ok
+equal
 (
 version
->
-=
 13
 )
 ;
@@ -391,13 +389,11 @@ db
 opening
 Assert
 .
-ok
+equal
 (
 dbConnection
 .
 schemaVersion
->
-=
 13
 )
 ;
