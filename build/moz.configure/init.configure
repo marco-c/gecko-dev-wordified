@@ -1545,15 +1545,6 @@ virtualenv_python3
 .
 path
 )
-set_config
-(
-"
-PYTHON3_VERSION
-"
-virtualenv_python3
-.
-str_version
-)
 #
 Inject
 mozconfig
