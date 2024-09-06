@@ -659,37 +659,7 @@ script_type
 .
 name
         
-elif
-script_info
-.
-script_type
-=
-=
-ScriptType
-.
-alert
-:
-            
-kwargs
-[
-"
-flavor
-"
-]
-=
-script_info
-.
-script_type
-.
-name
-        
-elif
-"
-flavor
-"
-not
-in
-kwargs
+else
 :
             
 #
@@ -715,6 +685,15 @@ be
 picked
 )
             
+if
+"
+flavor
+"
+not
+in
+kwargs
+:
+                
 kwargs
 [
 "
@@ -980,10 +959,6 @@ set
 to
 default
             
-new_val
-=
-value
-            
 if
 original_parser
 .
@@ -1007,7 +982,7 @@ tests
 "
 :
                 
-new_val
+value
 =
 [
 relative
@@ -1025,7 +1000,7 @@ perftest_parameters
 name
 ]
 =
-new_val
+value
         
 parameters
 =
@@ -1350,32 +1325,12 @@ utils
 import
 temporary_env
     
-COVERAGE_RCFILE
-=
-str
-(
-Path
-(
-HERE
-"
-.
-mpt
--
-coveragerc
-"
-)
-)
-    
 if
-kwargs
-.
-get
-(
 "
 raptor
 "
-False
-)
+in
+kwargs
 :
         
 print
@@ -1389,6 +1344,10 @@ through
 mozperftest
 "
 )
+    
+with
+temporary_env
+(
         
 COVERAGE_RCFILE
 =
@@ -1399,24 +1358,16 @@ Path
 HERE
 "
 .
-raptor
--
 coveragerc
 "
 )
 )
-    
-with
-temporary_env
-(
-COVERAGE_RCFILE
-=
-COVERAGE_RCFILE
 RUNNING_TESTS
 =
 "
 YES
 "
+    
 )
 :
         
