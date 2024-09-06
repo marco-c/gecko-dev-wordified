@@ -757,7 +757,6 @@ is
 ignored
 .
 *
-*
 /
 async
 function

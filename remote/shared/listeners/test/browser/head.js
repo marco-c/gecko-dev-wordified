@@ -622,7 +622,6 @@ browser
 .
 *
 *
-*
 param
 {
 Browser

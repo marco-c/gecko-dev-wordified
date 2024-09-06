@@ -701,7 +701,6 @@ n
 "
 )
 *
-*
 /
 /
 *
@@ -2321,7 +2320,6 @@ Configuration
 .
 FxAConnections
 >
-*
 *
 /
 /
