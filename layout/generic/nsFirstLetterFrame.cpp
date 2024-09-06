@@ -842,9 +842,10 @@ nsFirstLetterFrame
 :
 IntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
@@ -852,7 +853,9 @@ aType
 return
 IntrinsicISizeFromInline
 (
-aContext
+aInput
+.
+mContext
 aType
 )
 ;

@@ -348,9 +348,10 @@ SVGOuterSVGFrame
 nscoord
 IntrinsicISize
 (
-gfxContext
-*
-aContext
+const
+IntrinsicSizeInput
+&
+aInput
 IntrinsicISizeType
 aType
 )
