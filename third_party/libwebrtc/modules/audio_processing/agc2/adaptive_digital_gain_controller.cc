@@ -791,7 +791,7 @@ const
 FrameInfo
 &
 info
-AudioFrameView
+DeinterleavedView
 <
 float
 >
