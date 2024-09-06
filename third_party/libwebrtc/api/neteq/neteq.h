@@ -743,6 +743,11 @@ generated_noise_samples
 =
 0
 ;
+uint64_t
+total_processing_delay_us
+=
+0
+;
 }
 ;
 /

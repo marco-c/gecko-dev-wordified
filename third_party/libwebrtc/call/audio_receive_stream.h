@@ -413,6 +413,13 @@ removed_samples_for_acceleration
 =
 0
 ;
+double
+total_processing_delay_seconds
+=
+0
+.
+0
+;
 /
 /
 Stats

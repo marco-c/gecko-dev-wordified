@@ -2728,6 +2728,15 @@ media_receiver_info
 fec_bytes_received
 ;
 }
+inbound_stats
+-
+>
+total_processing_delay
+=
+media_receiver_info
+.
+total_processing_delay_seconds
+;
 }
 std
 :
