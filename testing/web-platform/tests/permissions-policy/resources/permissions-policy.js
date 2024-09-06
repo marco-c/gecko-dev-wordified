@@ -388,6 +388,9 @@ allowfullscreen
 is_promise_test
 =
 false
+needs_focus
+=
+false
 )
 {
 if
@@ -409,6 +412,7 @@ expect_feature_available
 feature_name
 allowfullscreen
 is_promise_test
+needs_focus
 }
 =
 feature_descriptionOrObject
@@ -423,6 +427,7 @@ expect_feature_available
 feature_name
 allowfullscreen
 is_promise_test
+needs_focus
 )
 ;
 }
@@ -631,6 +636,18 @@ appendChild
 frame
 )
 ;
+if
+(
+needs_focus
+)
+{
+frame
+.
+focus
+(
+)
+;
+}
 return
 promise
 ;
