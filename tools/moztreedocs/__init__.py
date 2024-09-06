@@ -977,14 +977,39 @@ tests
 "
 }
             
+#
+Exclude
+directories
+whose
+path
+components
+match
+any
+in
+'
+test_dirs
+'
+.
+            
 excludes
 =
 {
+                
+os
+.
+path
+.
+join
+(
+full
 d
+)
+                
 for
 d
 in
 dirs
+                
 if
 set
 (
@@ -997,6 +1022,7 @@ parts
 )
 &
 test_dirs
+            
 }
             
 args
