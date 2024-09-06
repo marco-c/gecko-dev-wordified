@@ -8456,6 +8456,14 @@ control
 }
 else
 {
+if
+(
+stcb
+!
+=
+NULL
+)
+{
 stcb
 -
 >
@@ -8469,6 +8477,7 @@ control
 >
 length
 ;
+}
 }
 }
 SOCK_UNLOCK

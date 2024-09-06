@@ -4220,7 +4220,7 @@ routine
 can
 probably
 be
-collasped
+collapsed
 into
 the
 one
@@ -6890,7 +6890,7 @@ sctp_sosend
 One
 can
 *
-optionaly
+optionally
 switch
 back
 to
@@ -6902,7 +6902,7 @@ changing
 back
 the
 *
-defininitions
+definitions
 but
 this
 is
