@@ -140,6 +140,11 @@ TrustedTypePolicyFactory
 h
 "
 "
+TrustedTypesConstants
+.
+h
+"
+"
 TrustedTypeUtils
 .
 h

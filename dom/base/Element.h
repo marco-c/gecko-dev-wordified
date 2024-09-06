@@ -780,6 +780,9 @@ class
 ShadowRoot
 ;
 class
+TrustedHTMLOrString
+;
+class
 UnrestrictedDoubleOrKeyframeAnimationOptions
 ;
 template
@@ -9896,9 +9899,9 @@ nsAString
 &
 aPosition
 const
-nsAString
+TrustedHTMLOrString
 &
-aText
+aTrustedHTMLOrString
 ErrorResult
 &
 aError
