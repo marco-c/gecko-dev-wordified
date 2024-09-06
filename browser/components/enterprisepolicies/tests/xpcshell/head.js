@@ -569,7 +569,7 @@ init
 (
 )
 ;
-return
+await
 settingsWritten
 ;
 }
