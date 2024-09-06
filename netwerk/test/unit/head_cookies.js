@@ -3203,9 +3203,6 @@ break
 case
 13
 :
-case
-14
-:
 {
 if
 (
@@ -4710,9 +4707,6 @@ break
 case
 13
 :
-case
-14
-:
 this
 .
 stmtInsert
@@ -5068,9 +5062,6 @@ case
 case
 13
 :
-case
-14
-:
 this
 .
 stmtDelete
@@ -5358,9 +5349,6 @@ case
 :
 case
 13
-:
-case
-14
 :
 this
 .
