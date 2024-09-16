@@ -343,6 +343,17 @@ uint32_t
 )
 {
 }
+uint64_t
+GetCacheDomainsForKnownClients
+(
+uint64_t
+aCacheDomains
+)
+{
+return
+aCacheDomains
+;
+}
 }
 /
 /
