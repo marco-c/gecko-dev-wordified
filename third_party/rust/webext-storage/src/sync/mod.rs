@@ -56,6 +56,10 @@ MPL
 .
 *
 /
+pub
+(
+crate
+)
 mod
 bridge
 ;
@@ -130,13 +134,6 @@ sync_guid
 Guid
 as
 SyncGuid
-;
-pub
-use
-bridge
-:
-:
-BridgedEngine
 ;
 use
 incoming
