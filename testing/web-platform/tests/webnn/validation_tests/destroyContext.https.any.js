@@ -737,7 +737,7 @@ lhsBuffer
 await
 context
 .
-createBuffer
+createTensor
 (
 operandType
 )
@@ -748,7 +748,7 @@ rhsBuffer
 await
 context
 .
-createBuffer
+createTensor
 (
 operandType
 )
@@ -764,7 +764,7 @@ output
 await
 context
 .
-createBuffer
+createTensor
 (
 operandType
 )
@@ -920,7 +920,7 @@ lhsBuffer
 await
 context
 .
-createBuffer
+createTensor
 (
 operandType
 )
@@ -931,7 +931,7 @@ rhsBuffer
 await
 context
 .
-createBuffer
+createTensor
 (
 operandType
 )
@@ -947,7 +947,7 @@ output
 await
 context
 .
-createBuffer
+createTensor
 (
 operandType
 )
@@ -1028,7 +1028,7 @@ InvalidStateError
 '
 context
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1083,7 +1083,7 @@ buffer
 await
 context
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1118,7 +1118,7 @@ InvalidStateError
 '
 context
 .
-readBuffer
+readTensor
 (
 buffer
 )
@@ -1162,7 +1162,7 @@ buffer
 await
 context
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1188,7 +1188,7 @@ promise
 =
 context
 .
-readBuffer
+readTensor
 (
 buffer
 )
@@ -1213,7 +1213,7 @@ promise
 Pending
 promise
 of
-readbuffer
+readtensor
 (
 )
 will
@@ -1286,7 +1286,7 @@ buffer
 await
 context
 .
-createBuffer
+createTensor
 (
 {
 dataType
@@ -1334,7 +1334,7 @@ InvalidStateError
 {
 context
 .
-writeBuffer
+writeTensor
 (
 buffer
 new
