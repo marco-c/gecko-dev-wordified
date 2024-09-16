@@ -2373,7 +2373,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-PointerEvents
+PointerId
 )
 &
 &
@@ -2551,7 +2551,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-PointerEvents
+PointerId
 )
 &
 &

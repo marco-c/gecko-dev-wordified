@@ -4036,6 +4036,17 @@ return
 false
 ;
 }
+if
+(
+SPOOFED_MAX_TOUCH_POINTS
+>
+0
+)
+{
+return
+false
+;
+}
 const
 WidgetPointerEvent
 *
