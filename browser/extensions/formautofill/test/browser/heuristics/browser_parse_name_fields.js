@@ -593,8 +593,6 @@ reason
 autocomplete
 "
 }
-/
-/
 {
 fieldName
 :

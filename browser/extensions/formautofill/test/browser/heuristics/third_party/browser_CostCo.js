@@ -451,8 +451,6 @@ exp
 year
 "
 }
-/
-/
 {
 fieldName
 :
