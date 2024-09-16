@@ -11614,6 +11614,7 @@ aColor
 Get
 a
 suitable
+text
 foreground
 color
 for
@@ -11672,7 +11673,7 @@ S
 >
 static
 nscolor
-GetColor
+GetTextColor
 (
 Frame
 *

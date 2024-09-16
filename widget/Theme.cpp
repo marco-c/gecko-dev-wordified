@@ -5806,7 +5806,7 @@ FromABGR
 nsLayoutUtils
 :
 :
-GetColor
+GetTextColor
 (
 aFrame
 &

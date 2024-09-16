@@ -35242,7 +35242,7 @@ overrideColor
 nsLayoutUtils
 :
 :
-GetColor
+GetTextColor
 (
 f
 &
@@ -35742,7 +35742,7 @@ eResolvedColors
 nsLayoutUtils
 :
 :
-GetColor
+GetTextColor
 (
 f
 &
@@ -35762,7 +35762,7 @@ color
 nsLayoutUtils
 :
 :
-GetColor
+GetTextColor
 (
 f
 &
@@ -47367,7 +47367,7 @@ aDecorationOverrideColor
 nsLayoutUtils
 :
 :
-GetColor
+GetTextColor
 (
 this
 &
