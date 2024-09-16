@@ -20900,16 +20900,6 @@ return
 nullptr
 ;
 }
-if
-(
-StaticPrefs
-:
-:
-network_url_strict_protocol_setter
-(
-)
-)
-{
 nsAutoCString
 newScheme
 ;
@@ -21013,7 +21003,6 @@ params
 return
 nullptr
 ;
-}
 }
 nsAutoCString
 href
