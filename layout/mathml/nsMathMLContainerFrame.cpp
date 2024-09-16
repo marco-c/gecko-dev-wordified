@@ -5118,7 +5118,6 @@ aModType
 {
 /
 /
-XXX
 Since
 they
 are
@@ -5149,7 +5148,12 @@ reflow
 .
 /
 /
-XXXldb
+TODO
+(
+bug
+1918308
+)
+:
 This
 should
 only
@@ -5159,6 +5163,8 @@ for
 attributes
 that
 cause
+/
+/
 changes
 !
 PresShell
