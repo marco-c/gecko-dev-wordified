@@ -2480,6 +2480,18 @@ set
 "
                             
 "
+tls_version_client_min
+=
+TLS1_2
+"
+                            
+"
+-
+-
+set
+"
+                            
+"
 alt_server_replay
 =
 {
