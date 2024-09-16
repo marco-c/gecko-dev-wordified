@@ -34798,6 +34798,12 @@ firstHsDone
 {
 PORT_Assert
 (
+type
+=
+=
+client_hello_retransmit
+|
+|
 ss
 -
 >

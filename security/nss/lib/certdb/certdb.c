@@ -6563,6 +6563,10 @@ s
 =
 PORT_Tolower
 (
+(
+unsigned
+char
+)
 *
 s
 )
@@ -12019,6 +12023,10 @@ str
 =
 tolower
 (
+(
+unsigned
+char
+)
 *
 str
 )

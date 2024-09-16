@@ -806,7 +806,7 @@ namedGroupPreferences
 #
 define
 SSL_NAMED_GROUP_COUNT
-32
+33
 /
 *
 The

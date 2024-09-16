@@ -2806,6 +2806,7 @@ n
 -
 20s
 xyber768d00
+mlkem768x25519
 \
 n
 "
@@ -9687,6 +9688,10 @@ if
 !
 isalpha
 (
+(
+unsigned
+char
+)
 ndx
 )
 )
@@ -9698,6 +9703,10 @@ ndx
 =
 tolower
 (
+(
+unsigned
+char
+)
 ndx
 )
 -

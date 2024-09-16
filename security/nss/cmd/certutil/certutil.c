@@ -28862,6 +28862,10 @@ while
 (
 isspace
 (
+(
+unsigned
+char
+)
 *
 space
 )

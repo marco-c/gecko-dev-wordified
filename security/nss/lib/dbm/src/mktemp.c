@@ -931,6 +931,10 @@ if
 (
 isdigit
 (
+(
+unsigned
+char
+)
 *
 trv
 )

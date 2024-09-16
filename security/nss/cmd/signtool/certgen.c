@@ -481,6 +481,10 @@ if
 (
 tolower
 (
+(
+unsigned
+char
+)
 stdinbuf
 [
 0

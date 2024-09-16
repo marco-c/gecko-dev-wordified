@@ -6188,6 +6188,10 @@ while
 (
 isspace
 (
+(
+unsigned
+char
+)
 *
 start
 )
@@ -6226,6 +6230,10 @@ while
 (
 isspace
 (
+(
+unsigned
+char
+)
 *
 end
 )

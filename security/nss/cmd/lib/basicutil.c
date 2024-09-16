@@ -4354,6 +4354,10 @@ c
 =
 PORT_Tolower
 (
+(
+unsigned
+char
+)
 c
 )
 ;

@@ -19517,6 +19517,10 @@ if
 (
 isspace
 (
+(
+unsigned
+char
+)
 c
 )
 )

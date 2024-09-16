@@ -6812,6 +6812,10 @@ if
 (
 isalpha
 (
+(
+unsigned
+char
+)
 ndx
 )
 )
@@ -6820,6 +6824,10 @@ ndx
 =
 tolower
 (
+(
+unsigned
+char
+)
 ndx
 )
 -
