@@ -7495,12 +7495,12 @@ extend
 the
 lhs
 into
-rdx
+edx
 to
 make
-rdx
+edx
 :
-rax
+eax
 .
 masm
 .
@@ -7598,7 +7598,7 @@ extend
 the
 lhs
 into
-rdx
+edx
 to
 make
 edx
