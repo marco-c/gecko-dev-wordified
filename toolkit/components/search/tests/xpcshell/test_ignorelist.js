@@ -334,9 +334,9 @@ readJSONFile
 do_get_file
 (
 "
-data
+settings
 /
-search_ignorelist
+ignorelist
 .
 json
 "

@@ -360,9 +360,9 @@ await
 checkLoadSettingProperties
 (
 "
-data
+settings
 /
-search
+v1
 -
 obsolete
 -
@@ -390,9 +390,9 @@ await
 checkLoadSettingProperties
 (
 "
-data
+settings
 /
-search
+v1
 -
 obsolete
 -
@@ -420,9 +420,9 @@ await
 checkLoadSettingProperties
 (
 "
-data
+settings
 /
-search
+v1
 -
 obsolete
 -

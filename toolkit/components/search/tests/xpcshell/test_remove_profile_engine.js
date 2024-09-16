@@ -216,11 +216,13 @@ readJSONFile
 do_get_file
 (
 "
-data
+settings
 /
-search
+v1
 -
-legacy
+metadata
+-
+migration
 .
 json
 "
