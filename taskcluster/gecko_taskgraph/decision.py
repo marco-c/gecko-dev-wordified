@@ -2930,8 +2930,9 @@ perf
 tasks
 run
 them
-half
-as
+50
+%
+less
 often
     
 parameters
@@ -2948,13 +2949,13 @@ parameters
         
 push_interval
 =
-40
+30
         
 time_interval
 =
 60
 *
-8
+6
         
 backstop_strategy
 =
