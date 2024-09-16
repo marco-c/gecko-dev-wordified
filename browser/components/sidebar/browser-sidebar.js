@@ -940,7 +940,11 @@ registerPrefSidebar
 "
 browser
 .
-megalist
+contextual
+-
+password
+-
+manager
 .
 enabled
 "

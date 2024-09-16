@@ -8885,7 +8885,11 @@ false
 Enable
 display
 of
-megalist
+contextual
+-
+password
+-
+manager
 option
 in
 browser
@@ -8909,7 +8913,11 @@ pref
 "
 browser
 .
-megalist
+contextual
+-
+password
+-
+manager
 .
 enabled
 "

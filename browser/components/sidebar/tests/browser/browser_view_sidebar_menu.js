@@ -152,7 +152,11 @@ set
 "
 browser
 .
-megalist
+contextual
+-
+password
+-
+manager
 .
 enabled
 "
@@ -189,7 +193,11 @@ set
 "
 browser
 .
-megalist
+contextual
+-
+password
+-
+manager
 .
 enabled
 "
