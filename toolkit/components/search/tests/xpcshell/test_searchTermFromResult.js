@@ -510,8 +510,11 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
+data
+/
 engine
 -
 fr

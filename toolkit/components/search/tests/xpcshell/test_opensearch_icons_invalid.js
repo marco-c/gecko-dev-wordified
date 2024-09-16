@@ -64,8 +64,6 @@ server
 =
 useHttpServer
 (
-"
-"
 )
 ;
 server
@@ -118,8 +116,9 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
 opensearch
 /
 resourceicon
@@ -155,8 +154,9 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
 opensearch
 /
 chromeicon
@@ -296,8 +296,9 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
 data
 /
 engineMaker
@@ -312,7 +313,10 @@ stringify
 {
 baseURL
 :
-gDataUrl
+{
+gHttpURL
+}
+/
 image
 :
 "

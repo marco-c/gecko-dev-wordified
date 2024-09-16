@@ -485,7 +485,12 @@ baseAttachmentsURL
 .
 returns
 (
-gDataUrl
+{
+gHttpURL
+}
+/
+data
+/
 )
 ;
 /

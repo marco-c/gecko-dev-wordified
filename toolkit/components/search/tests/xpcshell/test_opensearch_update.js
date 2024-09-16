@@ -71,8 +71,6 @@ server
 =
 useHttpServer
 (
-"
-"
 )
 ;
 server
@@ -139,7 +137,10 @@ engineData
 {
 baseURL
 :
-gDataUrl
+{
+gHttpURL
+}
+/
 name
 :
 "
@@ -221,8 +222,9 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
 data
 /
 engineMaker
@@ -320,7 +322,10 @@ engineData
 {
 baseURL
 :
-gDataUrl
+{
+gHttpURL
+}
+/
 name
 :
 "
@@ -405,8 +410,9 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
 data
 /
 engineMaker

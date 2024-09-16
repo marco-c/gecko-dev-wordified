@@ -1958,8 +1958,11 @@ installOpenSearchEngine
 url
 :
 {
-gDataUrl
+gHttpURL
 }
+/
+data
+/
 engineMaker
 .
 sjs

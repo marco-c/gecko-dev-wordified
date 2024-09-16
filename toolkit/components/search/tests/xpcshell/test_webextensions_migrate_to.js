@@ -54,13 +54,6 @@ function
 (
 )
 {
-useHttpServer
-(
-"
-opensearch
-"
-)
-;
 SearchTestUtils
 .
 setRemoteSettingsConfig
