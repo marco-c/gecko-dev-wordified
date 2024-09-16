@@ -5559,7 +5559,7 @@ quicksuggest
 .
 shouldShowOnboardingDialog
 "
-true
+false
 )
 ;
 /

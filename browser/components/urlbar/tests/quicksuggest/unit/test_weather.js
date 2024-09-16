@@ -3868,9 +3868,14 @@ QuickSuggestTestUtils
 .
 withLocales
 (
+{
+locales
+:
 [
 locale
 ]
+callback
+:
 async
 (
 )
@@ -4022,6 +4027,7 @@ use_os_locales
 "
 )
 ;
+}
 }
 )
 ;
