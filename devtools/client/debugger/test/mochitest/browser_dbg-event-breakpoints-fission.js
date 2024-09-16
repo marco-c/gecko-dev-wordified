@@ -143,6 +143,9 @@ actions
 .
 addEventListenerBreakpoints
 (
+"
+breakpoint
+"
 [
 "
 event

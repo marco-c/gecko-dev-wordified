@@ -312,6 +312,9 @@ EventListeners
 from
 "
 .
+.
+/
+shared
 /
 EventListeners
 "
@@ -1798,7 +1801,13 @@ React
 createElement
 (
 EventListeners
-null
+{
+panelKey
+:
+"
+breakpoint
+"
+}
 )
 opened
 :
