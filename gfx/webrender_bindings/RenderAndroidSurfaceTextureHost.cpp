@@ -1503,6 +1503,12 @@ GetTexName
 )
 LOCAL_GL_TEXTURE_EXTERNAL
 mSize
+gfx
+:
+:
+Matrix4x4
+(
+)
 shaderConfig
 /
 *
