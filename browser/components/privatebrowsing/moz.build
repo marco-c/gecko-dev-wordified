@@ -114,13 +114,6 @@ EXTRA_JS_MODULES
 =
 [
 "
-PBMExitStatus
-.
-sys
-.
-mjs
-"
-"
 ResetPBMPanel
 .
 sys
