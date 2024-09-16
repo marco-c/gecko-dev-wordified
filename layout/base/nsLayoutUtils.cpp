@@ -28668,6 +28668,9 @@ aRenderingContext
 Nothing
 (
 )
+Nothing
+(
+)
 )
 ;
 auto
@@ -29536,6 +29539,9 @@ IntrinsicSizeInput
 input
 (
 aRenderingContext
+Nothing
+(
+)
 Nothing
 (
 )
@@ -32181,6 +32187,7 @@ IntrinsicSizeInput
 input
 (
 aRenderingContext
+aPercentageBasis
 Some
 (
 LogicalSize
