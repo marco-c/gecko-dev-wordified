@@ -670,6 +670,13 @@ DEFINE_ASYNC
 HostWebGLContext
 :
 :
+SetUnpackColorSpace
+)
+DEFINE_ASYNC
+(
+HostWebGLContext
+:
+:
 ShaderSource
 )
 DEFINE_ASYNC
