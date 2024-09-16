@@ -2097,13 +2097,13 @@ bool
 IsFixedOffset
 (
 const
-LengthPercentageOrAuto
+StyleInset
 &
-aCoord
+aInset
 )
 {
 return
-aCoord
+aInset
 .
 ConvertsToLength
 (

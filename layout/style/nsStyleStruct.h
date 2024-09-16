@@ -4962,7 +4962,10 @@ mObjectPosition
 ;
 StyleRect
 <
-LengthPercentageOrAuto
+mozilla
+:
+:
+StyleInset
 >
 mOffset
 ;
