@@ -2263,6 +2263,17 @@ get
 quickSuggestEnabled
 "
 )
+&
+&
+!
+UrlbarPrefs
+.
+get
+(
+"
+quickSuggestHideSettingsUI
+"
+)
 )
 {
 /

@@ -17002,6 +17002,17 @@ get
 quickSuggestEnabled
 "
 )
+&
+&
+!
+UrlbarPrefs
+.
+get
+(
+"
+quickSuggestHideSettingsUI
+"
+)
 )
 {
 container
