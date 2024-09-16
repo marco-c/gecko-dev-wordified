@@ -732,6 +732,9 @@ ImageBufferKind
 :
 Texture2D
 )
+normalized_uvs
+:
+false
 }
 )
 None
@@ -786,6 +789,9 @@ ImageBufferKind
 :
 Texture2D
 )
+normalized_uvs
+:
+false
 }
 )
 None
@@ -840,6 +846,9 @@ ImageBufferKind
 :
 Texture2D
 )
+normalized_uvs
+:
+false
 }
 )
 None
@@ -894,6 +903,9 @@ ImageBufferKind
 :
 Texture2D
 )
+normalized_uvs
+:
+false
 }
 )
 None

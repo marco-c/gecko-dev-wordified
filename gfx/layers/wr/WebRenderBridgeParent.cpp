@@ -5612,6 +5612,12 @@ ToDeviceIntRect
 aDirtyRect
 )
 0
+/
+*
+aNormalizedUvs
+*
+/
+false
 )
 ;
 return

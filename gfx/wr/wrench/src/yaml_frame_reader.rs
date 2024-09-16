@@ -986,6 +986,9 @@ TextureHandle
 (
 target
 )
+normalized_uvs
+:
+false
 }
 )
 }
