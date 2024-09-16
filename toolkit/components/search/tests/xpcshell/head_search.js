@@ -1948,7 +1948,7 @@ do_get_cwd
 .
 path
 "
-data
+icons
 "
 filename
 )
