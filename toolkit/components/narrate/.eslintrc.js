@@ -224,15 +224,6 @@ assign
 "
 error
 "
-"
-no
--
-shadow
-"
-:
-"
-error
-"
 strict
 :
 [

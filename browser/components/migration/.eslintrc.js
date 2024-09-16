@@ -142,15 +142,6 @@ error
 "
 no
 -
-shadow
-"
-:
-"
-error
-"
-"
-no
--
 unused
 -
 vars
