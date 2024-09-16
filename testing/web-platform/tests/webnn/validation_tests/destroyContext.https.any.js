@@ -732,7 +732,7 @@ rhsOperand
 )
 ;
 const
-lhsBuffer
+lhsTensor
 =
 await
 context
@@ -743,7 +743,7 @@ operandType
 )
 ;
 const
-rhsBuffer
+rhsTensor
 =
 await
 context
@@ -796,12 +796,12 @@ graph
 lhs
 '
 :
-lhsBuffer
+lhsTensor
 '
 rhs
 '
 :
-rhsBuffer
+rhsTensor
 }
 dispatchOutputs
 )
@@ -915,7 +915,7 @@ rhsOperand
 )
 ;
 const
-lhsBuffer
+lhsTensor
 =
 await
 context
@@ -926,7 +926,7 @@ operandType
 )
 ;
 const
-rhsBuffer
+rhsTensor
 =
 await
 context
@@ -963,12 +963,12 @@ graph
 lhs
 '
 :
-lhsBuffer
+lhsTensor
 '
 rhs
 '
 :
-rhsBuffer
+rhsTensor
 }
 dispatchOutputs
 )
@@ -1052,7 +1052,7 @@ context
 can
 not
 create
-buffer
+tensor
 .
 '
 )
@@ -1078,7 +1078,7 @@ contextOptions
 )
 ;
 const
-buffer
+tensor
 =
 await
 context
@@ -1120,7 +1120,7 @@ context
 .
 readTensor
 (
-buffer
+tensor
 )
 )
 ;
@@ -1131,7 +1131,7 @@ context
 can
 not
 read
-buffer
+tensor
 .
 '
 )
@@ -1157,7 +1157,7 @@ contextOptions
 )
 ;
 const
-buffer
+tensor
 =
 await
 context
@@ -1190,7 +1190,7 @@ context
 .
 readTensor
 (
-buffer
+tensor
 )
 ;
 context
@@ -1281,7 +1281,7 @@ destroy
 )
 ;
 const
-buffer
+tensor
 =
 await
 context
@@ -1336,7 +1336,7 @@ context
 .
 writeTensor
 (
-buffer
+tensor
 new
 Uint8Array
 (
@@ -1354,7 +1354,7 @@ context
 can
 not
 write
-buffer
+tensor
 .
 '
 )

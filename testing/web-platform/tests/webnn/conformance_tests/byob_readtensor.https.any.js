@@ -7,7 +7,7 @@ title
 test
 WebNN
 API
-buffer
+tensor
 operations
 /
 /
@@ -133,7 +133,7 @@ webnn
 #
 api
 -
-mlbuffer
+mltensor
 const
 testContents
 =
@@ -157,7 +157,7 @@ let
 mlContext
 ;
 let
-mlBuffer
+mlTensor
 ;
 promise_setup
 (
@@ -209,7 +209,7 @@ e
 }
 try
 {
-mlBuffer
+mlTensor
 =
 await
 mlContext
@@ -253,7 +253,7 @@ AssertionError
 Unable
 to
 create
-buffer
+tensor
 for
 {
 variant
@@ -270,7 +270,7 @@ mlContext
 .
 writeTensor
 (
-mlBuffer
+mlTensor
 testContents
 )
 ;
@@ -308,7 +308,7 @@ mlContext
 .
 readTensor
 (
-mlBuffer
+mlTensor
 arrayBuffer
 )
 )
@@ -359,7 +359,7 @@ mlContext
 .
 readTensor
 (
-mlBuffer
+mlTensor
 typedArray
 )
 )
@@ -423,7 +423,7 @@ mlContext
 .
 readTensor
 (
-mlBuffer
+mlTensor
 arrayBuffer
 )
 )
@@ -437,7 +437,7 @@ mlContext
 .
 readTensor
 (
-mlBuffer
+mlTensor
 typedArray
 )
 )
@@ -499,7 +499,7 @@ mlContext
 .
 readTensor
 (
-mlBuffer
+mlTensor
 arrayBuffer
 )
 )
@@ -511,7 +511,7 @@ mlContext
 .
 readTensor
 (
-mlBuffer
+mlTensor
 typedArray
 )
 )
@@ -566,7 +566,7 @@ mlContext
 .
 readTensor
 (
-mlBuffer
+mlTensor
 arrayBuffer
 )
 ;
@@ -657,7 +657,7 @@ mlContext
 .
 readTensor
 (
-mlBuffer
+mlTensor
 typedArray
 )
 ;
@@ -702,7 +702,7 @@ mlContext
 .
 readTensor
 (
-mlBuffer
+mlTensor
 arrayBuffer
 )
 ;
@@ -843,7 +843,7 @@ mlContext
 .
 readTensor
 (
-mlBuffer
+mlTensor
 typedArray
 )
 ;
@@ -916,7 +916,7 @@ t
 >
 {
 const
-buffer
+tensor
 =
 await
 mlContext
@@ -970,7 +970,7 @@ MLTensor
 should
 reject
 .
-buffer
+tensor
 .
 destroy
 (
@@ -987,7 +987,7 @@ mlContext
 .
 readTensor
 (
-buffer
+tensor
 arrayBuffer
 )
 )
@@ -1003,7 +1003,7 @@ mlContext
 .
 readTensor
 (
-buffer
+tensor
 arrayBufferView
 )
 )
@@ -1029,7 +1029,7 @@ t
 >
 {
 const
-buffer
+tensor
 =
 await
 mlContext
@@ -1092,7 +1092,7 @@ mlContext
 .
 readTensor
 (
-buffer
+tensor
 arrayBuffer
 )
 )
@@ -1106,14 +1106,14 @@ mlContext
 .
 readTensor
 (
-buffer
+tensor
 arrayBufferView
 )
 )
 ]
 )
 ;
-buffer
+tensor
 .
 destroy
 (
