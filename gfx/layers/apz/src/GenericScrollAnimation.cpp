@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -281,10 +288,10 @@ smoothly
 .
 if
 (
-StaticPrefs
+nsLayoutUtils
 :
 :
-general_smoothScroll
+IsSmoothScrollingEnabled
 (
 )
 &

@@ -9831,10 +9831,10 @@ sf
 ScrollTo
 (
 pos
-StaticPrefs
+nsLayoutUtils
 :
 :
-general_smoothScroll
+IsSmoothScrollingEnabled
 (
 )
 &
