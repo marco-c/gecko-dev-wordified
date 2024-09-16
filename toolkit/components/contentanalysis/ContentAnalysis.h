@@ -1105,12 +1105,6 @@ mResolver
 ;
 }
 ;
-static
-bool
-MightBeActive
-(
-)
-;
 /
 /
 Find

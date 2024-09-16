@@ -64,13 +64,6 @@ nsClipboardProxy
 h
 "
 #
-include
-"
-ContentAnalysis
-.
-h
-"
-#
 if
 defined
 (
@@ -542,10 +535,7 @@ if
 (
 MOZ_UNLIKELY
 (
-contentanalysis
-:
-:
-ContentAnalysis
+nsIContentAnalysis
 :
 :
 MightBeActive
