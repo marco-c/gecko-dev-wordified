@@ -891,8 +891,8 @@ vec_r
 =
 _mm_max_ps
 (
-min
 vec_r
+min
 )
 ;
 vec_r
@@ -1244,8 +1244,8 @@ vec_r
 =
 _mm_max_ps
 (
-min
 vec_r
+min
 )
 ;
 vec_r

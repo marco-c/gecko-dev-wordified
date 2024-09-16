@@ -1173,8 +1173,8 @@ vec_r
 =
 _mm256_max_ps
 (
-min
 vec_r
+min
 )
 ;
 vec_r
@@ -1753,8 +1753,8 @@ vec_r
 =
 _mm256_max_ps
 (
-min
 vec_r
+min
 )
 ;
 vec_r
@@ -2169,11 +2169,11 @@ vec_r0
 =
 _mm_max_ps
 (
+vec_r0
 _mm256_castps256_ps128
 (
 min
 )
-vec_r0
 )
 ;
 vec_r0
