@@ -2044,13 +2044,9 @@ input
 +
 offset
 .
-BorderPadding
+MarginBorderPadding
 (
 )
-+
-offset
-.
-margin
 ;
 iSize
 =
