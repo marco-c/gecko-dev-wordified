@@ -403,17 +403,6 @@ US
 }
 ]
 }
-{
-globalDefault
-:
-"
-engine_no_initial_icon
-"
-specificDefaults
-:
-[
-]
-}
 ]
 ;
 const
