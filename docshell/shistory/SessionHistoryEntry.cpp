@@ -502,15 +502,6 @@ LoadReplace
 (
 )
 )
-mHasUserInteraction
-(
-aLoadState
--
->
-HasValidUserGestureActivation
-(
-)
-)
 mHasUserActivation
 (
 aLoadState
