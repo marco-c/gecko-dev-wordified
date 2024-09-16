@@ -6280,27 +6280,18 @@ active_tests
 (
         
 self
-        
 exists
 =
 True
-        
 disabled
 =
 True
-        
 filters
 =
 None
-        
 noDefaultFilters
 =
 False
-        
-strictExpressions
-=
-False
-        
 *
 *
 values
@@ -6556,9 +6547,6 @@ fn
 (
 tests
 values
-strict
-=
-strictExpressions
 )
         
 return
