@@ -6590,8 +6590,8 @@ cx
 ;
 }
 ;
-extern
-bool
+NonSyntacticLexicalEnvironmentObject
+*
 CreateNonSyntacticEnvironmentChain
 (
 JSContext
@@ -6602,8 +6602,6 @@ JS
 :
 HandleObjectVector
 envChain
-MutableHandleObject
-env
 )
 ;
 /
@@ -10749,8 +10747,8 @@ return
 false
 ;
 }
-extern
-bool
+WithEnvironmentObject
+*
 CreateObjectsForEnvironmentChain
 (
 JSContext
@@ -10760,8 +10758,6 @@ HandleObjectVector
 chain
 HandleObject
 terminatingEnv
-MutableHandleObject
-envObj
 )
 ;
 ModuleObject
