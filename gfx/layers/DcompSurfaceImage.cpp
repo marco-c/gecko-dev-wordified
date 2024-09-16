@@ -981,12 +981,6 @@ descriptor
 aExternalImageId
 imageType
 0
-/
-*
-aNormalizedUvs
-*
-/
-false
 )
 ;
 }

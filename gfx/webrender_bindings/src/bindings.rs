@@ -12419,9 +12419,6 @@ ExternalImageType
 channel_index
 :
 u8
-normalized_uvs
-:
-bool
 )
 {
 txn
@@ -12449,7 +12446,6 @@ image_type
 :
 *
 image_type
-normalized_uvs
 }
 )
 None
@@ -12586,9 +12582,6 @@ ExternalImageType
 channel_index
 :
 u8
-normalized_uvs
-:
-bool
 )
 {
 txn
@@ -12616,7 +12609,6 @@ image_type
 :
 *
 image_type
-normalized_uvs
 }
 )
 &
@@ -12661,9 +12653,6 @@ ExternalImageType
 channel_index
 :
 u8
-normalized_uvs
-:
-bool
 dirty_rect
 :
 DeviceIntRect
@@ -12694,7 +12683,6 @@ image_type
 :
 *
 image_type
-normalized_uvs
 }
 )
 &
