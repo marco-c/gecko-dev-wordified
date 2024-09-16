@@ -256,6 +256,7 @@ runUpdateUsingApp
 STATE_AFTER_STAGE
 )
 ;
+await
 reloadUpdateManagerData
 (
 )
@@ -402,6 +403,7 @@ path
 )
 )
 ;
+await
 waitForFilesInUse
 (
 )

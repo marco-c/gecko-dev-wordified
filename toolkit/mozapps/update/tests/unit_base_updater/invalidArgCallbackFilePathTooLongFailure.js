@@ -225,6 +225,7 @@ INVALID_CALLBACK_PATH_ERROR
 1
 )
 ;
+await
 waitForFilesInUse
 (
 )

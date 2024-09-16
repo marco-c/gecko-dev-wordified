@@ -696,6 +696,7 @@ the
 same
 update
 again
+await
 reloadUpdateManagerData
 (
 true
@@ -886,6 +887,7 @@ the
 same
 update
 again
+await
 reloadUpdateManagerData
 (
 true
@@ -1127,6 +1129,7 @@ the
 same
 update
 again
+await
 reloadUpdateManagerData
 (
 true
@@ -1574,6 +1577,7 @@ the
 same
 update
 again
+await
 reloadUpdateManagerData
 (
 true

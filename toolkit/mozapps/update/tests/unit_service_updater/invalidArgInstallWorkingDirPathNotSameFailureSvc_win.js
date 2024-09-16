@@ -291,6 +291,7 @@ INVALID_APPLYTO_DIR_ERROR
 )
 ;
 }
+await
 waitForFilesInUse
 (
 )

@@ -600,6 +600,7 @@ true
 }
 )
 ;
+await
 doTestFinish
 (
 )

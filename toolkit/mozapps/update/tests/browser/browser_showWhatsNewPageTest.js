@@ -1176,6 +1176,7 @@ platformBuildID
 }
 )
 ;
+await
 reloadUpdateManagerData
 (
 false

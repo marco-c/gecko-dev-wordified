@@ -219,6 +219,7 @@ force
 }
 )
 ;
+await
 doTestFinish
 (
 )

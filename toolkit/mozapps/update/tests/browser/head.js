@@ -838,6 +838,7 @@ setUpdateTimerPrefs
 (
 )
 ;
+await
 reloadUpdateManagerData
 (
 true
@@ -995,6 +996,7 @@ removeNotification
 /
 )
 ;
+await
 reloadUpdateManagerData
 (
 true
@@ -4273,6 +4275,7 @@ updates
 true
 )
 ;
+await
 reloadUpdateManagerData
 (
 )

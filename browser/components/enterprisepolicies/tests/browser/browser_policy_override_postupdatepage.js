@@ -385,6 +385,7 @@ remove
 false
 )
 ;
+await
 reloadUpdateManagerData
 (
 true
@@ -405,6 +406,7 @@ writeSuccessUpdateStatusFile
 (
 )
 ;
+await
 reloadUpdateManagerData
 (
 false
@@ -734,6 +736,7 @@ metadata
 .
 *
 /
+async
 function
 reloadUpdateManagerData
 (
@@ -742,6 +745,7 @@ skipFiles
 false
 )
 {
+await
 Cc
 [
 "

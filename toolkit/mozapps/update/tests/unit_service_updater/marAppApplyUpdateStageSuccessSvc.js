@@ -290,6 +290,7 @@ path
 )
 )
 ;
+await
 waitForFilesInUse
 (
 )

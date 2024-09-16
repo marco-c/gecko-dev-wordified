@@ -516,6 +516,7 @@ rerunning
 update
 initialization
 .
+await
 reloadUpdateManagerData
 (
 )
@@ -545,6 +546,7 @@ start
 "
 )
 ;
+await
 doTestFinish
 (
 )

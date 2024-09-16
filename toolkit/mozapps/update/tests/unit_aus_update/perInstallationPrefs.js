@@ -1534,6 +1534,7 @@ gPolicyFunctionResult
 true
 )
 ;
+await
 doTestFinish
 (
 )
