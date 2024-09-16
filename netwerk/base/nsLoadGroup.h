@@ -854,6 +854,12 @@ mStatus
 NS_OK
 }
 ;
+nsresult
+mDefaultStatus
+{
+NS_OK
+}
+;
 bool
 mIsCanceling
 {
