@@ -485,6 +485,7 @@ Lock
 OpenMode
 )
 {
+return
 mSurface
 -
 >
@@ -492,9 +493,6 @@ Lock
 (
 false
 )
-;
-return
-true
 ;
 }
 void
