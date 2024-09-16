@@ -352,6 +352,11 @@ IPCStreamCipherStrategy
 h
 "
 "
+NotifyUtils
+.
+h
+"
+"
 NSSCipherStrategy
 .
 h
@@ -578,6 +583,11 @@ cpp
 "
 "
 NormalOriginOperationBase
+.
+cpp
+"
+"
+NotifyUtils
 .
 cpp
 "
