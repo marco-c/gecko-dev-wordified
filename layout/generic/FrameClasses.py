@@ -1474,13 +1474,15 @@ SVG_CONTAINER
     
 Frame
 (
+        
 "
 SVGLinearGradientFrame
 "
 "
 SVGLinearGradient
 "
-SVG_CONTAINER
+SVG_RENDERING_OBSERVER_CONTAINER
+    
 )
     
 Frame
@@ -1563,18 +1565,20 @@ SVGPatternFrame
 "
 SVGPattern
 "
-SVG_CONTAINER
+SVG_RENDERING_OBSERVER_CONTAINER
 )
     
 Frame
 (
+        
 "
 SVGRadialGradientFrame
 "
 "
 SVGRadialGradient
 "
-SVG_CONTAINER
+SVG_RENDERING_OBSERVER_CONTAINER
+    
 )
     
 Frame
