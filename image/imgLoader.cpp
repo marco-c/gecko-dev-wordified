@@ -12090,7 +12090,7 @@ httpBaseChannel
 httpBaseChannel
 -
 >
-SetDummyChannelForImageCache
+SetDummyChannelForCachedResource
 (
 )
 ;

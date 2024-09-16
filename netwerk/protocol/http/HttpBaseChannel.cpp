@@ -1587,7 +1587,7 @@ mChannelBlockedByOpaqueResponse
 (
 false
 )
-mDummyChannelForImageCache
+mDummyChannelForCachedResource
 (
 false
 )
@@ -4067,7 +4067,7 @@ LoadWasOpened
 )
 |
 |
-mDummyChannelForImageCache
+mDummyChannelForCachedResource
 )
 {
 if
@@ -4746,7 +4746,7 @@ value
 if
 (
 !
-mDummyChannelForImageCache
+mDummyChannelForCachedResource
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -39418,11 +39418,11 @@ void
 HttpBaseChannel
 :
 :
-SetDummyChannelForImageCache
+SetDummyChannelForCachedResource
 (
 )
 {
-mDummyChannelForImageCache
+mDummyChannelForCachedResource
 =
 true
 ;
@@ -39431,7 +39431,7 @@ MOZ_ASSERT
 !
 mResponseHead
 "
-SetDummyChannelForImageCache
+SetDummyChannelForCachedResource
 should
 only
 be

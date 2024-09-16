@@ -2847,7 +2847,7 @@ get
 ;
 }
 void
-SetDummyChannelForImageCache
+SetDummyChannelForCachedResource
 (
 )
 ;
@@ -5944,7 +5944,7 @@ bool
 mChannelBlockedByOpaqueResponse
 ;
 bool
-mDummyChannelForImageCache
+mDummyChannelForCachedResource
 ;
 bool
 mHasContentDecompressed
