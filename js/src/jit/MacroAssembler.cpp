@@ -20425,10 +20425,7 @@ names
 ;
 movePropertyKey
 (
-PropertyKey
-:
-:
-NonIntAtom
+NameToId
 (
 names
 .
@@ -20467,10 +20464,7 @@ isNull
 ;
 movePropertyKey
 (
-PropertyKey
-:
-:
-NonIntAtom
+NameToId
 (
 names
 .
