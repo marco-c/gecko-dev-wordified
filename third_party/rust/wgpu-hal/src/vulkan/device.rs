@@ -6603,7 +6603,7 @@ is_coherent
 }
 else
 {
-super
+crate
 :
 :
 hal_usage_error
@@ -6666,7 +6666,7 @@ shared
 }
 else
 {
-super
+crate
 :
 :
 hal_usage_error
@@ -16570,7 +16570,7 @@ None
 =
 >
 {
-super
+crate
 :
 :
 hal_usage_error
@@ -16662,7 +16662,7 @@ Ae
 NoCompatibleMemoryTypes
 =
 >
-super
+crate
 :
 :
 hal_usage_error
@@ -16742,7 +16742,7 @@ Me
 AlreadyMapped
 =
 >
-super
+crate
 :
 :
 hal_usage_error

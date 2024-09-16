@@ -641,8 +641,8 @@ use
 the
 encoder
 (
-that
-is
+for
+example
 /
 /
 /
@@ -652,7 +652,7 @@ to
 CommandBuffer
 :
 :
-get_encoder
+check_recording
 ]
 )
 will
