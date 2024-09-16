@@ -1464,7 +1464,7 @@ emitAtomOp
 JSOp
 :
 :
-BindName
+BindUnqualifiedName
 atomIndex_
 )
 )
@@ -1687,7 +1687,7 @@ op
 JSOp
 :
 :
-BindName
+BindUnqualifiedName
 ;
 }
 else

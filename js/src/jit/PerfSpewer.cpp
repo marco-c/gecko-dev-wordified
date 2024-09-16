@@ -3657,6 +3657,12 @@ case
 JSOp
 :
 :
+BindUnqualifiedName
+:
+case
+JSOp
+:
+:
 BindGName
 :
 case
