@@ -1655,6 +1655,17 @@ DEB_PKG_NAME
 deb_pkg_name
         
 "
+DEB_PRODUCT_NAME
+"
+:
+application_ini_data
+[
+"
+name
+"
+]
+        
+"
 DEB_DISPLAY_NAME
 "
 :
@@ -2392,7 +2403,16 @@ debian
 f
 "
 {
-release_product
+build_variables
+[
+'
+DEB_PRODUCT_NAME
+'
+]
+.
+lower
+(
+)
 }
 .
 desktop
