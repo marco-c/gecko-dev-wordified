@@ -6724,7 +6724,8 @@ returned
 *
 /
 extern
-bool
+JSObject
+*
 LookupNameWithGlobalDefault
 (
 JSContext
@@ -6737,9 +6738,7 @@ PropertyName
 >
 name
 HandleObject
-scopeChain
-MutableHandleObject
-objp
+envChain
 )
 ;
 /
@@ -6790,11 +6789,11 @@ up
 scope
 is
 an
-*
 uninitialized
+*
 lexical
-an
-UninitializedLexicalObject
+a
+RuntimeLexicalErrorObject
 is
 returned
 .
@@ -6816,7 +6815,8 @@ returned
 *
 /
 extern
-bool
+JSObject
+*
 LookupNameUnqualified
 (
 JSContext
@@ -6829,9 +6829,7 @@ PropertyName
 >
 name
 HandleObject
-scopeChain
-MutableHandleObject
-objp
+envChain
 )
 ;
 }
