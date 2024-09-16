@@ -2094,6 +2094,9 @@ def
 parse
 (
 text
+strict
+=
+False
 *
 *
 values
@@ -2186,6 +2189,9 @@ ExpressionParser
 (
 text
 values
+strict
+=
+strict
 )
 .
 parse
