@@ -98,21 +98,6 @@ components
 /
 generated
 "
-FIXTURE_CPP_PATH
-=
-"
-toolkit
-/
-components
-/
-uniffi
--
-js
-/
-UniFFIFixtureScaffolding
-.
-cpp
-"
 FIXTURE_JS_DIR
 =
 "
@@ -400,18 +385,6 @@ path
 "
         
 CPP_PATH
-        
-"
--
--
-fixture
--
-cpp
--
-path
-"
-        
-FIXTURE_CPP_PATH
     
 ]
     
