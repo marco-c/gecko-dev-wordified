@@ -26124,6 +26124,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -26594,6 +26595,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -26867,6 +26869,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -27140,6 +27143,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -27353,6 +27357,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -27647,6 +27652,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -27867,6 +27873,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -28087,6 +28094,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -28377,6 +28385,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -28667,6 +28676,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -29397,6 +29407,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -31078,6 +31089,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -31328,6 +31340,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -31582,6 +31595,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP
 (
@@ -36573,6 +36587,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -36830,6 +36845,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -37146,6 +37162,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX512BW
 (
@@ -37459,6 +37476,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -37805,6 +37823,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -38062,6 +38081,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -38319,6 +38339,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -38665,6 +38686,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -39006,6 +39028,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -39830,6 +39853,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -40749,6 +40773,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -42561,6 +42586,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -42869,6 +42895,7 @@ width
 )
 {
 asm
+volatile
 (
 YUVTORGB_SETUP_AVX2
 (
@@ -53305,6 +53332,7 @@ width
 )
 {
 asm
+volatile
 (
 LABELALIGN
 "
@@ -69430,6 +69458,7 @@ uintptr_t
 alpha
 ;
 asm
+volatile
 (
 /
 /
@@ -73848,6 +73877,7 @@ width
 )
 {
 asm
+volatile
 (
 /
 /
@@ -74063,6 +74093,7 @@ width
 )
 {
 asm
+volatile
 (
 /
 /
@@ -74271,6 +74302,7 @@ width
 )
 {
 asm
+volatile
 (
 /
 /
@@ -74485,6 +74517,7 @@ width
 )
 {
 asm
+volatile
 (
 /
 /
@@ -84885,6 +84918,7 @@ uintptr_t
 pixel_temp
 ;
 asm
+volatile
 (
 /
 /
@@ -85177,6 +85211,7 @@ uintptr_t
 pixel_temp
 ;
 asm
+volatile
 (
 /
 /
