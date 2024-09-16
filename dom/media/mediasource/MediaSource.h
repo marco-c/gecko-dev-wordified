@@ -499,6 +499,11 @@ aDiagnostics
 ErrorResult
 &
 aRv
+Maybe
+<
+bool
+>
+aShouldResistFingerprinting
 )
 ;
 IMPL_EVENT_HANDLER
