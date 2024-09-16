@@ -3361,16 +3361,6 @@ ConvolverNode
 webidl
 "
 "
-CookieChangeEvent
-.
-webidl
-"
-"
-CookieStore
-.
-webidl
-"
-"
 CreateOfferRequest
 .
 webidl

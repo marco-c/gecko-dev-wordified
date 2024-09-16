@@ -2308,15 +2308,6 @@ SchemeMap
 (
 )
 )
-/
-*
-is
-partitioned
-:
-*
-/
-false
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS

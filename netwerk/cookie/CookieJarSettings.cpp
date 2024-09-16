@@ -2011,9 +2011,6 @@ rv
 continue
 ;
 }
-mozilla
-:
-:
 ipc
 :
 :
