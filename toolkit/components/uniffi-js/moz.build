@@ -141,16 +141,6 @@ MOZ_UNIFFI_FIXTURES
 ]
 =
 True
-UNIFIED_SOURCES
-+
-=
-[
-"
-UniFFIFixtureScaffolding
-.
-cpp
-"
-]
 EXPORTS
 .
 mozilla
