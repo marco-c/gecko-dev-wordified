@@ -5399,6 +5399,9 @@ maybeFinalizationRegistryData
 )
 ;
 }
+#
+ifndef
+NIGHTLY_BUILD
 bool
 GlobalObject
 :
@@ -5452,6 +5455,8 @@ return
 true
 ;
 }
+#
+endif
 /
 *
 static
@@ -6587,11 +6592,16 @@ Zone
 *
 zone
 )
+#
+ifndef
+NIGHTLY_BUILD
 :
 varNames
 (
 zone
 )
+#
+endif
 {
 }
 GlobalObjectData
@@ -6618,6 +6628,9 @@ GlobalObject
 global
 )
 {
+#
+ifndef
+NIGHTLY_BUILD
 /
 /
 Atoms
@@ -6668,6 +6681,8 @@ trc
 )
 ;
 }
+#
+endif
 for
 (
 auto
@@ -7131,6 +7146,9 @@ mallocSizeOf
 )
 ;
 }
+#
+ifndef
+NIGHTLY_BUILD
 info
 -
 >
@@ -7144,6 +7162,8 @@ shallowSizeOfExcludingThis
 mallocSizeOf
 )
 ;
+#
+endif
 }
 void
 GlobalObject

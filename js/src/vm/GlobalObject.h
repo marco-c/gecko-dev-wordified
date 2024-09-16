@@ -648,6 +648,9 @@ GlobalObjectData
 (
 )
 ;
+#
+ifndef
+NIGHTLY_BUILD
 /
 /
 The
@@ -732,6 +735,8 @@ CellAllocPolicy
 VarNamesSet
 varNames
 ;
+#
+endif
 /
 /
 The
@@ -5879,6 +5884,9 @@ Value
 val
 )
 ;
+#
+ifndef
+NIGHTLY_BUILD
 void
 removeFromVarNames
 (
@@ -5973,6 +5981,8 @@ JSAtom
 name
 )
 ;
+#
+endif
 static
 ArgumentsObject
 *
