@@ -145,7 +145,7 @@ unix
 io
 :
 :
-AsRawFd
+AsFd
 ;
 use
 tempfile
@@ -204,7 +204,7 @@ new
 (
 f
 .
-as_raw_fd
+as_fd
 (
 )
 2
