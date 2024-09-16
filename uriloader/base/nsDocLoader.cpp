@@ -2889,13 +2889,7 @@ LOAD_REPLACE
 |
 |
 !
-(
 mDocumentRequest
-.
-get
-(
-)
-)
 "
 Overwriting
 an
@@ -3038,7 +3032,7 @@ redirect
 /
 /
 has
-occured
+occurred
 without
 changing
 inherited
