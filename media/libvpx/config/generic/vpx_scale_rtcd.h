@@ -438,3 +438,6 @@ C
 endif
 #
 endif
+/
+/
+VPX_SCALE_RTCD_H_

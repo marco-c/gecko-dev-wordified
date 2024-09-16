@@ -2385,7 +2385,7 @@ Used
 if
 partition_search_type
 =
-FIXED_SIZE_PARTITION
+FIXED_PARTITION
 BLOCK_SIZE
 always_this_block_size
 ;
