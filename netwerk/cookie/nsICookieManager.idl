@@ -554,6 +554,9 @@ aPath
 in
 OriginAttributesPtr
 aOriginAttributes
+in
+nsIDPtr
+aOperationID
 )
 ;
 /
@@ -945,6 +948,9 @@ aSchemeMap
 in
 boolean
 aIsPartitioned
+in
+nsIDPtr
+aOperationID
 )
 ;
 /
