@@ -210,11 +210,11 @@ undefined
 &
 &
 isTabIcon
-!
+=
 =
 data
 .
-canUseForTab
+isRichIcon
 )
 {
 return
@@ -266,11 +266,6 @@ dataURL
 data
 .
 iconURL
-canUseForTab
-:
-data
-.
-canUseForTab
 isRichIcon
 :
 data
@@ -290,11 +285,6 @@ iconURL
 data
 .
 originalURL
-canUseForTab
-:
-data
-.
-canUseForTab
 isRichIcon
 :
 data
