@@ -1417,6 +1417,12 @@ markerTypes
 CONDITIONAL_BP_MARKER
 )
 ;
+this
+.
+removeBreakpointPanelEditor
+(
+)
+;
 }
 else
 {
@@ -1427,12 +1433,6 @@ clearConditionalPanel
 )
 ;
 }
-this
-.
-removeBreakpointPanelEditor
-(
-)
-;
 }
 renderToWidget
 (
