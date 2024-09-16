@@ -6464,7 +6464,7 @@ security_tls_enable_kyber
 {
 NSS_SetAlgorithmPolicy
 (
-SEC_OID_XYBER768D00
+SEC_OID_MLKEM768X25519
 NSS_USE_ALG_IN_SSL_KX
 0
 )
@@ -6474,7 +6474,7 @@ else
 {
 NSS_SetAlgorithmPolicy
 (
-SEC_OID_XYBER768D00
+SEC_OID_MLKEM768X25519
 0
 NSS_USE_ALG_IN_SSL_KX
 )

@@ -866,7 +866,7 @@ mEchExtensionStatus
 ;
 }
 void
-WillSendXyberShare
+WillSendMlkemShare
 (
 )
 {
@@ -874,13 +874,13 @@ COMMON_SOCKET_CONTROL_ASSERT_ON_OWNING_THREAD
 (
 )
 ;
-mSentXyberShare
+mSentMlkemShare
 =
 true
 ;
 }
 bool
-SentXyberShare
+SentMlkemShare
 (
 )
 {
@@ -889,7 +889,7 @@ COMMON_SOCKET_CONTROL_ASSERT_ON_OWNING_THREAD
 )
 ;
 return
-mSentXyberShare
+mSentMlkemShare
 ;
 }
 void
@@ -1691,7 +1691,7 @@ for
 telemetry
 .
 bool
-mSentXyberShare
+mSentMlkemShare
 ;
 bool
 mHasTls13HandshakeSecrets
