@@ -3960,7 +3960,7 @@ MIRType
 Object
 )
 ;
-LImplicitThis
+auto
 *
 lir
 =
@@ -3972,13 +3972,13 @@ alloc
 )
 LImplicitThis
 (
-useRegisterAtStart
+useRegister
 (
 env
 )
 )
 ;
-defineReturn
+defineBox
 (
 lir
 ins
