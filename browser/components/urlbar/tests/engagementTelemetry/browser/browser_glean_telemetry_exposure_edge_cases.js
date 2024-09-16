@@ -2566,6 +2566,11 @@ results
 "
 search_suggest
 "
+terminal
+:
+"
+true
+"
 }
 ]
 )
@@ -3583,6 +3588,11 @@ results
 :
 "
 search_suggest
+"
+terminal
+:
+"
+true
 "
 }
 ]
@@ -5085,6 +5095,11 @@ results
 :
 "
 history
+"
+terminal
+:
+"
+true
 "
 }
 ]
@@ -7069,6 +7084,11 @@ results
 :
 "
 history
+"
+terminal
+:
+"
+true
 "
 }
 ]
