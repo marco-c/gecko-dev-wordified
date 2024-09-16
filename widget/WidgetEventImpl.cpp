@@ -850,6 +850,9 @@ eDrop
 case
 eDragLeave
 :
+case
+eQueryDropTargetHittest
+:
 /
 /
 case
@@ -3512,8 +3515,16 @@ HasIMEEventMessage
 )
 |
 |
+(
 IsQueryContentEvent
 (
+)
+&
+&
+mMessage
+!
+=
+eQueryDropTargetHittest
 )
 |
 |
