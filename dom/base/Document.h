@@ -6426,6 +6426,16 @@ mDisableCookieAccess
 true
 ;
 }
+bool
+CookieAccessDisabled
+(
+)
+const
+{
+return
+mDisableCookieAccess
+;
+}
 void
 SetLinkHandlingEnabled
 (
