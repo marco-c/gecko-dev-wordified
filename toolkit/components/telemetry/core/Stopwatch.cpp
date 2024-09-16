@@ -2604,9 +2604,9 @@ aKey
 PROFILER_MARKER_TEXT
 (
 "
-TelemetryStopwatch
+Stopwatch
 "
-OTHER
+TELEMETRY
 MarkerTiming
 :
 :
