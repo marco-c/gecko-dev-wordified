@@ -150,9 +150,9 @@ PERMS_DIRECTORY
 do_get_file
 (
 "
-data
+opensearch
 /
-engine
+generic1
 .
 xml
 "

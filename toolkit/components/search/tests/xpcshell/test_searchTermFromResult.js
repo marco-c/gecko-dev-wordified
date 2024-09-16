@@ -485,6 +485,8 @@ engine
 await
 useHttpServer
 (
+"
+"
 )
 ;
 /
@@ -513,11 +515,15 @@ url
 gHttpURL
 }
 /
-data
+opensearch
 /
-engine
--
 fr
+-
+domain
+-
+iso8859
+-
+1
 .
 xml
 }
