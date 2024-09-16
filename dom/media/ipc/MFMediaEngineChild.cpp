@@ -2378,6 +2378,12 @@ SetCDMProxy
 engine
 =
 mEngine
+proxy
+=
+RefPtr
+{
+aProxy
+}
 proxyId
 ]
 {
