@@ -1937,23 +1937,6 @@ True
     
 if
 "
-s21
-"
-in
-platform
-and
-"
-aarch64
-"
-in
-platform
-:
-        
-return
-True
-    
-if
-"
 s24
 "
 in
@@ -5774,7 +5757,7 @@ if
 "
 hw
 -
-s21
+s24
 "
 in
 platform
@@ -6150,7 +6133,7 @@ if
 "
 hw
 -
-s21
+s24
 "
 in
 platform
@@ -6798,7 +6781,7 @@ if
 "
 hw
 -
-s21
+s24
 "
 in
 platform
