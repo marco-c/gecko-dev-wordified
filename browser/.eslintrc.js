@@ -233,6 +233,15 @@ native
 "
 error
 "
+"
+no
+-
+shadow
+"
+:
+"
+error
+"
 }
 }
 ;
