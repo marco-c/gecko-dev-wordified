@@ -226,7 +226,7 @@ start
 )
 ;
 await
-withSyncContext
+withContext
 (
 async
 function
@@ -270,7 +270,7 @@ resetScore
 )
 ;
 await
-withSyncContext
+withContext
 (
 async
 function
