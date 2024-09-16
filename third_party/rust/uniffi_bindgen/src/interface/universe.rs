@@ -297,6 +297,7 @@ cloning
 [
 derive
 (
+Clone
 Debug
 Default
 )
@@ -350,6 +351,10 @@ including
 aliases
 )
 .
+pub
+(
+super
+)
 type_definitions
 :
 HashMap
@@ -376,6 +381,10 @@ well
 defined
 order
 .
+pub
+(
+super
+)
 all_known_types
 :
 BTreeSet

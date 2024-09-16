@@ -208,7 +208,7 @@ code
 )
 "
 def
-_rust_call
+_uniffi_rust_call
 (
 fn
 *
@@ -223,7 +223,7 @@ rust
 function
     
 return
-_rust_call_with_error
+_uniffi_rust_call_with_error
 (
 None
 fn
@@ -231,7 +231,7 @@ fn
 args
 )
 def
-_rust_call_with_error
+_uniffi_rust_call_with_error
 (
 error_ffi_converter
 fn
@@ -381,7 +381,7 @@ raise
 InternalError
 (
 "
-_rust_call_with_error
+_uniffi_rust_call_with_error
 :
 CALL_ERROR
 but

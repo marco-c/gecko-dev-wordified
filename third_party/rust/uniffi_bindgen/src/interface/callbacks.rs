@@ -790,7 +790,6 @@ Vec
 <
 (
 FfiCallbackFunction
-&
 Method
 )
 >
@@ -826,6 +825,10 @@ method
 i
 )
 method
+.
+clone
+(
+)
 )
 )
 .

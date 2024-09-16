@@ -74,8 +74,6 @@ add_import_of
 (
 module
 name
-|
-class_name
 )
 }
 }

@@ -485,7 +485,10 @@ endfor
 uniffi
 :
 :
-derive_object_for_udl
+udl_derive
+(
+Object
+)
 ]
 struct
 {

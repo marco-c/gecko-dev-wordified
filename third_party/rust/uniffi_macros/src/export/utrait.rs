@@ -93,7 +93,7 @@ crate
 export
 :
 :
-ExportedImplFnArgs
+ExportFnArgs
 ;
 use
 crate
@@ -846,6 +846,8 @@ cmp
 :
 PartialEq
 ;
+:
+:
 uniffi
 :
 :
@@ -921,6 +923,8 @@ cmp
 :
 PartialEq
 ;
+:
+:
 uniffi
 :
 :
@@ -1265,7 +1269,7 @@ sig
 clone
 (
 )
-ExportedImplFnArgs
+ExportFnArgs
 :
 :
 default
@@ -1278,7 +1282,6 @@ clone
 )
 )
 ?
-&
 None
 udl_mode
 )
@@ -1316,7 +1319,7 @@ clone
 item
 .
 sig
-ExportedImplFnArgs
+ExportFnArgs
 :
 :
 default

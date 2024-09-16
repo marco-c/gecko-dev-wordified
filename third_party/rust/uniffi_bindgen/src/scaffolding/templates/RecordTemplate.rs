@@ -28,7 +28,10 @@ consistent
 uniffi
 :
 :
-derive_record_for_udl
+udl_derive
+(
+Record
+)
 ]
 struct
 r

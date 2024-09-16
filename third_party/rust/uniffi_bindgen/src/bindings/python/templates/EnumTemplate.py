@@ -116,8 +116,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 =
@@ -241,8 +239,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 :
@@ -311,10 +307,6 @@ TypeError
 f
 "
 Expected
-a
-tuple
-of
-len
 {
 {
 variant
@@ -328,8 +320,8 @@ len
 )
 }
 }
+arguments
 found
-len
 {
 len
 (
@@ -478,8 +470,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 {
@@ -561,8 +551,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 :
@@ -598,10 +586,6 @@ endfor
 %
 }
         
-typing
-.
-no_type_check
-        
 def
 __init__
 (
@@ -625,8 +609,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 :
@@ -701,8 +683,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 =
@@ -713,8 +693,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
             
@@ -763,8 +741,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 (
@@ -787,8 +763,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 =
@@ -843,8 +817,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 {
@@ -927,8 +899,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 !
@@ -942,8 +912,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 :
@@ -1047,8 +1015,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 )
@@ -1138,8 +1104,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 =
@@ -1159,8 +1123,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 "
@@ -1178,8 +1140,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 {
@@ -1286,8 +1246,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
             
@@ -1312,8 +1270,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 (
@@ -1459,8 +1415,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 :
@@ -1570,8 +1524,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 )
@@ -1665,8 +1617,6 @@ variant
 name
 (
 )
-|
-enum_variant_py
 }
 }
 :
@@ -1796,8 +1746,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 buf

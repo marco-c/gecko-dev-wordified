@@ -577,7 +577,9 @@ Lift
 LiftRef
 LiftReturn
 Lower
+LowerError
 LowerReturn
+TypeId
 }
 ;
 pub
@@ -1921,6 +1923,17 @@ buf
 0
 =
 >
+:
+:
+std
+:
+:
+result
+:
+:
+Result
+:
+:
 Ok
 (
 value

@@ -161,7 +161,7 @@ module_path
 -
 %
 }
-_rust_call_with_error
+_uniffi_rust_call_with_error
 (
 {
 {
@@ -186,7 +186,7 @@ imp
 -
 %
 }
-_rust_call_with_error
+_uniffi_rust_call_with_error
 (
 {
 {
@@ -220,7 +220,7 @@ else
 -
 %
 }
-_rust_call
+_uniffi_rust_call
 (
 {
 %
@@ -312,8 +312,6 @@ arg
 name
 (
 )
-|
-var_name
 }
 }
 )
@@ -462,8 +460,6 @@ constructors
 /
 Note
 the
-var_name
-and
 type_name
 filters
 .
@@ -502,8 +498,6 @@ arg
 name
 (
 )
-|
-var_name
 }
 }
         
@@ -787,8 +781,6 @@ arg
 name
 (
 )
-|
-var_name
 }
 }
 is
@@ -802,8 +794,6 @@ arg
 name
 (
 )
-|
-var_name
 }
 }
 =
@@ -848,8 +838,6 @@ arg
 name
 (
 )
-|
-var_name
 }
 }
 )
@@ -965,8 +953,6 @@ arg
 name
 (
 )
-|
-var_name
 }
 }
 is
@@ -980,8 +966,6 @@ arg
 name
 (
 )
-|
-var_name
 }
 }
 =
@@ -1026,8 +1010,6 @@ arg
 name
 (
 )
-|
-var_name
 }
 }
 )

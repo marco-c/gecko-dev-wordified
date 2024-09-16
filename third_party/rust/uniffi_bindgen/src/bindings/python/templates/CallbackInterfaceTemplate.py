@@ -131,6 +131,6 @@ ffi_converter_name
 }
 }
 =
-UniffiCallbackInterfaceFfiConverter
+_UniffiCallbackInterfaceFfiConverter
 (
 )
