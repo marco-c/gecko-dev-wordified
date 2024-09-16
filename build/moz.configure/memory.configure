@@ -509,6 +509,7 @@ reporter
 depends
 (
 build_project
+milestone
 target
 when
 =
@@ -524,6 +525,7 @@ def
 phc_default
 (
 build_project
+milestone
 target
 )
 :
@@ -649,6 +651,21 @@ os
 "
 OSX
 "
+)
+or
+(
+target
+.
+os
+=
+=
+"
+Android
+"
+and
+milestone
+.
+is_early_beta_or_earlier
 )
 )
 option
