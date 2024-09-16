@@ -1900,6 +1900,12 @@ case
 MCompare
 :
 :
+Compare_IntPtr
+:
+case
+MCompare
+:
+:
 Compare_UIntPtr
 :
 MOZ_ASSERT
