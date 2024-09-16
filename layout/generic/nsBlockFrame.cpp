@@ -6015,7 +6015,7 @@ IntrinsicISizeType
 MinISize
 kidInput
 .
-mPercentageBasis
+mPercentageBasisForChildren
 )
 ;
 data
@@ -6579,7 +6579,7 @@ IntrinsicISizeType
 PrefISize
 kidInput
 .
-mPercentageBasis
+mPercentageBasisForChildren
 )
 ;
 data

@@ -4350,7 +4350,7 @@ Inner
 aType
 innerInput
 .
-mPercentageBasis
+mPercentageBasisForChildren
 nsLayoutUtils
 :
 :
