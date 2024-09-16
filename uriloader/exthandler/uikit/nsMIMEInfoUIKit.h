@@ -170,6 +170,11 @@ override
 ;
 protected
 :
+[
+[
+nodiscard
+]
+]
 virtual
 nsresult
 LoadUriInternal

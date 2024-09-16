@@ -381,7 +381,11 @@ platform
 application
 path
 .
-virtual
+[
+[
+nodiscard
+]
+]
 nsresult
 GetFileTokenForPath
 (
@@ -396,6 +400,11 @@ aFile
 )
 override
 ;
+[
+[
+nodiscard
+]
+]
 nsresult
 OSProtocolHandlerExists
 (
