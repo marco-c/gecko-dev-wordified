@@ -257,6 +257,9 @@ item
 Name
 ;
 pub
+(
+crate
+)
 fn
 derive_parser
 (
@@ -776,6 +779,10 @@ automatically_derived
 allow
 (
 unused_qualifications
+clippy
+:
+:
+redundant_locals
 )
 ]
 impl

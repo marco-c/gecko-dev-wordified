@@ -172,6 +172,9 @@ Name
 }
 ;
 pub
+(
+crate
+)
 fn
 derive_value_enum
 (
@@ -326,6 +329,9 @@ enums
 }
 }
 pub
+(
+crate
+)
 fn
 gen_for_enum
 (
@@ -497,6 +503,10 @@ clippy
 :
 :
 almost_swapped
+clippy
+:
+:
+redundant_locals
 )
 ]
 #

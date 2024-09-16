@@ -28,6 +28,9 @@ quote
 must_use
 ]
 pub
+(
+crate
+)
 fn
 parser
 (
@@ -77,6 +80,9 @@ into_app
 must_use
 ]
 pub
+(
+crate
+)
 fn
 into_app
 (
@@ -156,6 +162,9 @@ unimplemented
 must_use
 ]
 pub
+(
+crate
+)
 fn
 from_arg_matches
 (
@@ -269,6 +278,9 @@ unimplemented
 must_use
 ]
 pub
+(
+crate
+)
 fn
 subcommand
 (
@@ -379,6 +391,9 @@ from_arg_matches
 must_use
 ]
 pub
+(
+crate
+)
 fn
 args
 (
@@ -472,6 +487,9 @@ from_arg_matches
 must_use
 ]
 pub
+(
+crate
+)
 fn
 value_enum
 (

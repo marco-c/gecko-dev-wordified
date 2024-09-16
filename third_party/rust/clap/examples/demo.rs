@@ -25,7 +25,6 @@ Debug
 [
 command
 (
-author
 version
 about
 long_about
@@ -117,5 +116,6 @@ args
 .
 name
 )
+;
 }
 }

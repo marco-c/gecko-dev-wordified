@@ -419,6 +419,15 @@ args_conflicts_with_subcommands
 true
 )
 ]
+#
+[
+command
+(
+flatten_help
+=
+true
+)
+]
 struct
 StashArgs
 {

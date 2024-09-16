@@ -313,9 +313,7 @@ debug
 expect
 (
 "
-Count
-'
-s
+Counts
 are
 defaulted
 "

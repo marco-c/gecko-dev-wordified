@@ -113,7 +113,6 @@ use
 [
 command
 (
-author
 version
 about
 )
@@ -365,6 +364,9 @@ next
 pub
 use
 crate
+:
+:
+_derive
 :
 :
 _tutorial

@@ -61,6 +61,9 @@ std
 iter
 ;
 pub
+(
+crate
+)
 fn
 extract_doc_comment
 (
@@ -393,6 +396,9 @@ pop
 lines
 }
 pub
+(
+crate
+)
 fn
 format_doc_comment
 (

@@ -372,7 +372,7 @@ expr
 {
 {
 static
-authors
+AUTHORS
 :
 &
 str
@@ -386,7 +386,7 @@ CARGO_PKG_AUTHORS
 )
 ;
 if
-authors
+AUTHORS
 .
 contains
 (
@@ -431,7 +431,7 @@ get_or_init
 (
 |
 |
-authors
+AUTHORS
 .
 replace
 (
@@ -458,7 +458,7 @@ s
 }
 else
 {
-authors
+AUTHORS
 }
 }
 }

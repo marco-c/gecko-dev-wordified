@@ -77,10 +77,6 @@ Slow
 }
 fn
 to_possible_value
-<
-'
-a
->
 (
 &
 self

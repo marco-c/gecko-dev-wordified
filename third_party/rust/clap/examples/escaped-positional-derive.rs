@@ -20,7 +20,6 @@ feature
 [
 command
 (
-author
 version
 about
 long_about

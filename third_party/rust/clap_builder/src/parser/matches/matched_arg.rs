@@ -426,6 +426,7 @@ push
 (
 index
 )
+;
 }
 pub
 (
@@ -441,6 +442,8 @@ self
 >
 Iter
 <
+'
+_
 Vec
 <
 AnyValue
@@ -494,6 +497,8 @@ Flatten
 <
 Iter
 <
+'
+_
 Vec
 <
 AnyValue
@@ -567,6 +572,8 @@ self
 >
 Iter
 <
+'
+_
 Vec
 <
 OsString
@@ -597,6 +604,8 @@ Flatten
 <
 Iter
 <
+'
+_
 Vec
 <
 OsString
@@ -1120,6 +1129,7 @@ Some
 (
 source
 )
+;
 }
 }
 pub
