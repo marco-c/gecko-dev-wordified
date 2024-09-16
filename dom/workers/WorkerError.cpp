@@ -2197,6 +2197,10 @@ ErrorEvent
 Constructor
 (
 aTarget
+?
+aTarget
+:
+globalScope
 u
 "
 error
