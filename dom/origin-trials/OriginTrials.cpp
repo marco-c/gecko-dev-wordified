@@ -1524,7 +1524,7 @@ case
 OriginTrial
 :
 :
-PrivateAttribution
+PrivateAttributionV2
 :
 return
 StaticPrefs
