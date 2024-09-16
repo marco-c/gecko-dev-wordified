@@ -11784,6 +11784,17 @@ PER_SHARED_ARCH
 ;
 inline
 void
+flexibleLshiftPtr
+(
+Register
+shift
+Register
+srcDest
+)
+PER_ARCH
+;
+inline
+void
 flexibleRshiftPtr
 (
 Register
