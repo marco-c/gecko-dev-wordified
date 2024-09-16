@@ -2042,14 +2042,6 @@ annotationEditorMode
 "
 0
 ]
-[
-"
-pdfjs
-.
-enableHighlightEditor
-"
-true
-]
 ]
 }
 )
