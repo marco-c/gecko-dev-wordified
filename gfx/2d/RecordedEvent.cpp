@@ -382,6 +382,14 @@ PopClip
 "
 ;
 case
+REMOVEALLCLIPS
+:
+return
+"
+RemoveAllClips
+"
+;
+case
 FILL
 :
 return
