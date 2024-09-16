@@ -1037,11 +1037,7 @@ zoom
 =
 style
 .
-get_box
-(
-)
-.
-clone_zoom
+resolved_specified_zoom
 (
 )
 ;
