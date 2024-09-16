@@ -3663,7 +3663,7 @@ case
 JSOp
 :
 :
-BindGName
+BindUnqualifiedGName
 :
 case
 JSOp

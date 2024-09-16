@@ -1589,7 +1589,7 @@ in
 the
 result
 of
-BindGName
+BindUnqualifiedGName
 instead
 of
 using
@@ -1609,7 +1609,7 @@ the
 op
 .
 bool
-tryOptimizeBindGlobalName
+tryOptimizeBindUnqualifiedGlobalName
 (
 )
 ;

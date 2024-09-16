@@ -9916,12 +9916,6 @@ case
 JSOp
 :
 :
-BindGName
-:
-case
-JSOp
-:
-:
 BindName
 :
 case
@@ -9929,6 +9923,12 @@ JSOp
 :
 :
 BindUnqualifiedName
+:
+case
+JSOp
+:
+:
+BindUnqualifiedGName
 :
 case
 JSOp

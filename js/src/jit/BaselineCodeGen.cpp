@@ -20083,7 +20083,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-tryOptimizeBindGlobalName
+tryOptimizeBindUnqualifiedGlobalName
 (
 )
 {
@@ -20152,7 +20152,7 @@ JSObject
 *
 binding
 =
-MaybeOptimizeBindGlobalName
+MaybeOptimizeBindUnqualifiedGlobalName
 (
 cx
 global
@@ -20186,7 +20186,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-tryOptimizeBindGlobalName
+tryOptimizeBindUnqualifiedGlobalName
 (
 )
 {
@@ -20198,7 +20198,7 @@ doesn
 t
 optimize
 simple
-BindGNames
+BindUnqualifiedGNames
 .
 return
 false
@@ -20216,13 +20216,13 @@ Handler
 >
 :
 :
-emit_BindGName
+emit_BindUnqualifiedGName
 (
 )
 {
 if
 (
-tryOptimizeBindGlobalName
+tryOptimizeBindUnqualifiedGlobalName
 (
 )
 )

@@ -12979,7 +12979,7 @@ case
 JSOp
 :
 :
-BindGName
+BindUnqualifiedGName
 :
 return
 write

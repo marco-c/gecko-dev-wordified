@@ -1849,9 +1849,9 @@ t
 /
 need
 a
-BindName
+BindUnqualifiedName
 /
-BindGName
+BindUnqualifiedGName
 .
 MOZ_ASSERT
 (
@@ -1904,7 +1904,7 @@ op
 JSOp
 :
 :
-BindGName
+BindUnqualifiedGName
 ;
 }
 if

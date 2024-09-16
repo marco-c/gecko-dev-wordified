@@ -27709,7 +27709,7 @@ or
 JSOp
 :
 :
-BindGName
+BindUnqualifiedGName
 then
 the
 scope
@@ -27722,11 +27722,11 @@ the
 stack
 and
 we
+/
+/
 need
 to
 dig
-/
-/
 one
 deeper
 to
@@ -74591,9 +74591,11 @@ or
 JSOp
 :
 :
-BindGName
+BindUnqualifiedGName
 ops
 were
+/
+/
 emitted
 .
 MOZ_ASSERT

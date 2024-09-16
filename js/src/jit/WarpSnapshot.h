@@ -273,7 +273,7 @@ WarpRest
 \
 _
 (
-WarpBindGName
+WarpBindUnqualifiedGName
 )
 \
 _
@@ -2225,9 +2225,9 @@ endif
 Global
 environment
 for
-BindGName
+BindUnqualifiedGName
 class
-WarpBindGName
+WarpBindUnqualifiedGName
 :
 public
 WarpOpSnapshot
@@ -2249,9 +2249,9 @@ ThisKind
 Kind
 :
 :
-WarpBindGName
+WarpBindUnqualifiedGName
 ;
-WarpBindGName
+WarpBindUnqualifiedGName
 (
 uint32_t
 offset

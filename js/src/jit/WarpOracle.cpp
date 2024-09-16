@@ -2923,7 +2923,7 @@ case
 JSOp
 :
 :
-BindGName
+BindUnqualifiedGName
 :
 {
 Rooted
@@ -2965,7 +2965,7 @@ JSObject
 *
 env
 =
-MaybeOptimizeBindGlobalName
+MaybeOptimizeBindUnqualifiedGlobalName
 (
 cx_
 global
@@ -2988,7 +2988,7 @@ if
 !
 AddOpSnapshot
 <
-WarpBindGName
+WarpBindUnqualifiedGName
 >
 (
 alloc_
