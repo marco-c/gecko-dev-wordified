@@ -136,6 +136,17 @@ include
 "
 mozilla
 /
+dom
+/
+ContentParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MozPromise
 .
 h
@@ -396,6 +407,9 @@ operation
 bool
 SetRequestOnMainThread
 (
+ThreadsafeContentParentHandle
+*
+aParent
 const
 nsAString
 &
@@ -451,6 +465,9 @@ operation
 bool
 DeleteRequestOnMainThread
 (
+ThreadsafeContentParentHandle
+*
+aParent
 const
 nsAString
 &
