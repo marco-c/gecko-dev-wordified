@@ -76343,6 +76343,17 @@ InlinableNative
 :
 IntrinsicGuardToAsyncIteratorHelper
 :
+#
+ifdef
+ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
+case
+InlinableNative
+:
+:
+IntrinsicGuardToAsyncDisposableStack
+:
+#
+endif
 return
 tryAttachGuardToClass
 (
