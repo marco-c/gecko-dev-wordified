@@ -1687,6 +1687,18 @@ respective
 screen
 first
 renders
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+shadow
 filteredScreens
 .
 forEach
@@ -2876,7 +2888,7 @@ screens
 map
 (
 (
-screen
+currentScreen
 order
 )
 =
@@ -2885,7 +2897,7 @@ order
 const
 isFirstScreen
 =
-screen
+currentScreen
 =
 =
 =
@@ -2897,7 +2909,7 @@ screens
 const
 isLastScreen
 =
-screen
+currentScreen
 =
 =
 =
@@ -2944,7 +2956,7 @@ prevState
 .
 prevState
 [
-screen
+currentScreen
 .
 id
 ]
@@ -2962,7 +2974,7 @@ valueOrFn
 (
 prevState
 [
-screen
+currentScreen
 .
 id
 ]
@@ -2991,7 +3003,7 @@ prevState
 .
 prevState
 [
-screen
+currentScreen
 .
 id
 ]
@@ -3009,7 +3021,7 @@ valueOrFn
 (
 prevState
 [
-screen
+currentScreen
 .
 id
 ]
@@ -3043,14 +3055,14 @@ WelcomeScreen
 {
 key
 :
-screen
+currentScreen
 .
 id
 +
 order
 id
 :
-screen
+currentScreen
 .
 id
 totalNumberOfScreens
@@ -3073,7 +3085,7 @@ previousOrder
 previousOrder
 content
 :
-screen
+currentScreen
 .
 content
 navigate
@@ -3092,7 +3104,7 @@ order
 }
 _
 {
-screen
+currentScreen
 .
 id
 }
@@ -3120,7 +3132,7 @@ screenMultiSelects
 :
 multiSelects
 [
-screen
+currentScreen
 .
 id
 ]
@@ -3131,7 +3143,7 @@ activeMultiSelect
 :
 activeMultiSelects
 [
-screen
+currentScreen
 .
 id
 ]
@@ -3140,7 +3152,7 @@ setActiveMultiSelect
 setActiveMultiSelect
 autoAdvance
 :
-screen
+currentScreen
 .
 auto_advance
 negotiatedLanguage
@@ -3151,7 +3163,7 @@ langPackInstallPhase
 langPackInstallPhase
 forceHideStepsIndicator
 :
-screen
+currentScreen
 .
 force_hide_steps_indicator
 ariaRole
@@ -3161,7 +3173,7 @@ props
 ariaRole
 aboveButtonStepsIndicator
 :
-screen
+currentScreen
 .
 above_button_steps_indicator
 installedAddons
@@ -13418,7 +13430,7 @@ AW_LANGUAGE_MISMATCH
 )
 ;
 const
-screen
+mismatchScreen
 =
 screens
 [
@@ -13478,7 +13490,7 @@ useEffect
 {
 if
 (
-screen
+mismatchScreen
 ?
 .
 content
@@ -13496,7 +13508,7 @@ Object
 .
 values
 (
-screen
+mismatchScreen
 .
 content
 .
@@ -13537,7 +13549,7 @@ negotiatedLanguage
 }
 }
 [
-screen
+mismatchScreen
 ]
 )
 ;
@@ -13829,7 +13841,7 @@ window
 AWEnsureLangPackInstalled
 (
 negotiatedLanguage
-screen
+mismatchScreen
 ?
 .
 content
@@ -13853,7 +13865,7 @@ might
 have
 changed
 .
-screen
+mismatchScreen
 .
 content
 =
@@ -13893,7 +13905,7 @@ error
 }
 [
 negotiatedLanguage
-screen
+mismatchScreen
 ]
 )
 ;
@@ -13962,7 +13974,7 @@ switch
 .
 if
 (
-screen
+mismatchScreen
 &
 &
 (
@@ -14079,7 +14091,7 @@ appAndSystemLocaleInfo
 matchType
 languageMismatchScreenIndex
 negotiatedLanguage
-screen
+mismatchScreen
 screens
 setScreenIndex
 ]
@@ -19358,6 +19370,8 @@ map
 {
 id
 name
+:
+addonName
 type
 description
 icon
@@ -19368,7 +19382,7 @@ index
 )
 =
 >
-name
+addonName
 ?
 /
 *
@@ -19519,7 +19533,7 @@ Localized
 {
 text
 :
-name
+addonName
 }
 /
 *
