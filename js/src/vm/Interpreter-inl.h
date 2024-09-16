@@ -1011,12 +1011,6 @@ vp
 PropertyResult
 prop
 ;
-JSObject
-*
-obj
-=
-nullptr
-;
 NativeObject
 *
 pobj
@@ -1030,8 +1024,6 @@ LookupNameNoGC
 cx
 name
 envChain
-&
-obj
 &
 pobj
 &
