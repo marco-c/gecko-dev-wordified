@@ -2557,7 +2557,7 @@ mList
 aIndex
 ]
 .
-GetValueInPixels
+GetValueInPixelsWithZoom
 (
 mElement
 mAxis
