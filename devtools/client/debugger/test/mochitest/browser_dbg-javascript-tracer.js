@@ -516,6 +516,8 @@ dbg
 "
 DOM
 |
+node
+.
 click
 "
 )
@@ -672,6 +674,8 @@ dbg
 "
 DOM
 |
+node
+.
 keypress
 "
 )
@@ -736,6 +740,8 @@ dbg
 "
 DOM
 |
+node
+.
 keydown
 "
 )

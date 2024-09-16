@@ -378,6 +378,8 @@ dbg
 "
 DOM
 |
+global
+.
 message
 "
 )
