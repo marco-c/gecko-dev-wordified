@@ -797,7 +797,7 @@ for
 (
 let
 [
-name
+templateName
 path
 ]
 of
@@ -854,7 +854,7 @@ this
 .
 _templates
 [
-name
+templateName
 ]
 =
 xhr
