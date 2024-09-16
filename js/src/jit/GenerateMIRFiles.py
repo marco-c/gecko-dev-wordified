@@ -373,6 +373,14 @@ BigIntPolicy
 "
     
 "
+IntPtr
+"
+:
+"
+IntPtrPolicy
+"
+    
+"
 Boolean
 "
 :
