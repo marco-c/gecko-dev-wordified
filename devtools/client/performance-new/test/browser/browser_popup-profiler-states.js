@@ -95,7 +95,7 @@ await
 setProfilerFrontendUrl
 (
 "
-http
+https
 :
 /
 /

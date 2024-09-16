@@ -65,7 +65,7 @@ const
 FRONTEND_BASE_HOST
 =
 "
-http
+https
 :
 /
 /

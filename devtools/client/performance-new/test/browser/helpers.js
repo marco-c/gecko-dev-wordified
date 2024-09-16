@@ -2095,7 +2095,7 @@ work
 .
 (
 "
-http
+https
 :
 /
 /
@@ -2120,7 +2120,7 @@ origin
 For
 example
 :
-http
+https
 :
 /
 /
@@ -5097,7 +5097,7 @@ gBrowser
 url
 :
 "
-http
+https
 :
 /
 /
