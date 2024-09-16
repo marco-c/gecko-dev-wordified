@@ -437,7 +437,7 @@ reset
 {
 dependencies
 .
-clear
+clearAndFree
 (
 )
 ;
