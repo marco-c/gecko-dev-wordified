@@ -3780,6 +3780,13 @@ DisposableStackObject
 cpp
 "
 "
+builtin
+/
+DisposableStackObjectBase
+.
+cpp
+"
+"
 vm
 /
 DisposableRecord
