@@ -2710,6 +2710,9 @@ pipeTransform
 GetOrientation
 (
 )
+SurfacePipeFlags
+(
+)
 )
 ;
 if
