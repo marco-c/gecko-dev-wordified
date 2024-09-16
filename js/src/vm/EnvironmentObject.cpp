@@ -25302,6 +25302,7 @@ GlobalObject
 .
 bumpGenerationCount
 (
+cx
 )
 ;
 }
