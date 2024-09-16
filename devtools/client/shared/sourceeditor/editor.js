@@ -5922,6 +5922,7 @@ number
 ;
 i
 <
+=
 vEndLine
 .
 number
