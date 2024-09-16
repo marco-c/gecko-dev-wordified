@@ -1797,7 +1797,7 @@ commandLine
 nullptr
 ;
 int
-tmp
+len
 ;
 if
 (
@@ -1855,7 +1855,7 @@ urlList
 urlList
 nullptr
 &
-tmp
+len
 )
 ;
 }
@@ -1959,7 +1959,7 @@ urlList
 urlList
 nullptr
 &
-tmp
+len
 )
 ;
 }
@@ -1973,7 +1973,14 @@ aSearchResult
 >
 HandleCommandLine
 (
+mozilla
+:
+:
+Span
+(
 commandLine
+len
+)
 aTimeStamp
 )
 ;
@@ -2271,7 +2278,7 @@ get
 ;
 }
 int
-tmp
+len
 ;
 char
 *
@@ -2283,7 +2290,7 @@ urlListElements
 urlList
 nullptr
 &
-tmp
+len
 )
 ;
 if
@@ -2296,7 +2303,14 @@ aSearchResult
 >
 HandleCommandLine
 (
+mozilla
+:
+:
+Span
+(
 commandLine
+len
+)
 aTimeStamp
 )
 ;

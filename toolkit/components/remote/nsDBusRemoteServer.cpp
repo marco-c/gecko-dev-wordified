@@ -395,9 +395,11 @@ const
 gchar
 *
 aMethodName
+Span
+<
 const
 gchar
-*
+>
 aParam
 )
 {
@@ -713,7 +715,14 @@ HandleOpenURL
 (
 aInterfaceName
 aMethodName
+mozilla
+:
+:
+Span
+(
 commandLine
+len
+)
 )
 ;
 if
