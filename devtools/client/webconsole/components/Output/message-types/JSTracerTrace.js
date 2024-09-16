@@ -446,7 +446,11 @@ dom
 event
 "
 }
+DOM
+|
+{
 eventName
+}
 )
 ]
 ;
