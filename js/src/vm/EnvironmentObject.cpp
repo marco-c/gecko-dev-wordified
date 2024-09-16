@@ -10437,9 +10437,14 @@ GlobalObject
 )
 |
 |
-IsGlobalLexicalEnvironment
-(
 env_
+-
+>
+is
+<
+GlobalLexicalEnvironmentObject
+>
+(
 )
 )
 ;

@@ -278,9 +278,11 @@ ec
 MOZ_ASSERT
 (
 !
-IsExtensibleLexicalEnvironment
+is
+<
+ExtensibleLexicalEnvironmentObject
+>
 (
-this
 )
 )
 ;
@@ -356,9 +358,11 @@ v
 MOZ_ASSERT
 (
 !
-IsExtensibleLexicalEnvironment
+is
+<
+ExtensibleLexicalEnvironmentObject
+>
 (
-this
 )
 )
 ;
