@@ -12935,7 +12935,7 @@ void
 MacroAssembler
 :
 :
-wasmMarkSlowCall
+wasmMarkCallAsSlow
 (
 )
 {

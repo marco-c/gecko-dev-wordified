@@ -181,7 +181,7 @@ JS_CODEGEN_NONE
 /
 Check
 if
-wasmMarkSlowCall
+wasmMarkCallAsSlow
 produces
 the
 byte
@@ -258,7 +258,7 @@ check
 ;
 masm
 .
-wasmMarkSlowCall
+wasmMarkCallAsSlow
 (
 )
 ;
