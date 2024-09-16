@@ -3710,9 +3710,10 @@ i
 size_t
 arenaIndex
 =
+pageToArenaIndex
+(
 pageIndex
-*
-ArenasPerPage
+)
 +
 i
 ;
