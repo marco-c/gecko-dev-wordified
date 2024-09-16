@@ -278,6 +278,15 @@ include
 "
 src
 /
+cpu
+.
+h
+"
+#
+include
+"
+src
+/
 x86
 /
 cpu
@@ -379,7 +388,9 @@ r
 unsigned
 flags
 =
-0
+dav1d_get_default_cpu_flags
+(
+)
 ;
 if
 (

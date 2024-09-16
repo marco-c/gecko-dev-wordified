@@ -106,12 +106,17 @@ file
 *
 /
 #
+ifdef
+_WIN32
+#
 include
 <
 crtdefs
 .
 h
 >
+#
+endif
 #
 ifdef
 __cplusplus
