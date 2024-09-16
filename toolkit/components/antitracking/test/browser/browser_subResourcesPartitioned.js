@@ -606,7 +606,6 @@ text
 No
 cookie
 received
-received
 for
 scripts
 .
@@ -625,7 +624,6 @@ text
 "
 One
 cookie
-received
 received
 for
 scripts
@@ -1448,7 +1446,6 @@ text
 No
 cookie
 received
-received
 for
 scripts
 .
@@ -1467,7 +1464,6 @@ text
 "
 One
 cookie
-received
 received
 for
 scripts
