@@ -2046,6 +2046,7 @@ mDataTransfer
 {
 if
 (
+!
 mozilla
 :
 :
