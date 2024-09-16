@@ -8577,6 +8577,16 @@ oncontextrestored
 Atom
 (
 "
+oncookiechange
+"
+"
+oncookiechange
+"
+)
+    
+Atom
+(
+"
 oncopy
 "
 "
