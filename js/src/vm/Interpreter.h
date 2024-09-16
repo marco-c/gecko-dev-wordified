@@ -4412,7 +4412,7 @@ PropertyName
 >
 name
 HandleObject
-scopeObj
+envChain
 MutableHandleValue
 res
 )
@@ -4424,7 +4424,7 @@ JSContext
 *
 cx
 HandleObject
-scopeObj
+envChain
 Handle
 <
 PropertyName

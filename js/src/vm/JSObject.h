@@ -1645,7 +1645,7 @@ qualified
 varobj
 on
 the
-scope
+environment
 chain
 .
 /
@@ -1916,7 +1916,7 @@ not
 exist
 on
 the
-scope
+environment
 chain
 )
 are
@@ -6626,7 +6626,7 @@ dynamic
 lookup
 on
 the
-scopeChain
+envChain
 .
 *
 /
@@ -6644,7 +6644,7 @@ PropertyName
 >
 name
 HandleObject
-scopeChain
+envChain
 MutableHandleObject
 objp
 MutableHandleObject
@@ -6666,7 +6666,7 @@ PropertyName
 name
 JSObject
 *
-scopeChain
+envChain
 JSObject
 *
 *
