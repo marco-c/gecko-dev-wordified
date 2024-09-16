@@ -1682,7 +1682,6 @@ mBridge
 GetClient
 (
 )
-mId
 &
 desc
 ownerId
@@ -1974,7 +1973,6 @@ mBridge
 GetClient
 (
 )
-mId
 &
 desc
 ToFFI
@@ -2099,7 +2097,6 @@ mBridge
 GetClient
 (
 )
-mId
 &
 desc
 ToFFI
@@ -2994,7 +2991,6 @@ mBridge
 GetClient
 (
 )
-mId
 &
 desc
 ToFFI
@@ -3181,7 +3177,6 @@ mBridge
 GetClient
 (
 )
-mId
 &
 desc
 ToFFI
@@ -3598,7 +3593,6 @@ mBridge
 GetClient
 (
 )
-mId
 &
 desc
 ToFFI
@@ -4521,7 +4515,6 @@ mBridge
 GetClient
 (
 )
-mId
 )
 ;
 RefPtr
@@ -5064,10 +5057,6 @@ aBridge
 GetClient
 (
 )
-aContext
--
->
-mParentId
 &
 desc
 ToFFI
@@ -6427,10 +6416,6 @@ aBridge
 GetClient
 (
 )
-aContext
--
->
-mParentId
 &
 desc
 ToFFI

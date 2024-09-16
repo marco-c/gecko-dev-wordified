@@ -8,12 +8,6 @@ sync
 Arc
 ;
 use
-wgt
-:
-:
-Backend
-;
-use
 crate
 :
 :
@@ -438,7 +432,6 @@ let
 (
 index
 epoch
-_
 )
 =
 id
@@ -586,7 +579,6 @@ let
 (
 index
 epoch
-_
 )
 =
 id
@@ -668,9 +660,6 @@ iter
 (
 &
 self
-backend
-:
-Backend
 )
 -
 >
@@ -741,7 +730,6 @@ index
 as
 Index
 storage_epoch
-backend
 )
 value
 )
@@ -848,7 +836,6 @@ let
 (
 index
 epoch
-_
 )
 =
 id
