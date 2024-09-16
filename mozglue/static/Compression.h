@@ -360,7 +360,6 @@ aDest
 *
 /
 static
-MFBT_API
 size_t
 compress
 (
@@ -516,7 +515,6 @@ fails
 *
 /
 static
-MFBT_API
 size_t
 compressLimitedOutput
 (
@@ -663,7 +661,6 @@ nodiscard
 ]
 ]
 static
-MFBT_API
 bool
 decompress
 (
@@ -832,7 +829,6 @@ nodiscard
 ]
 ]
 static
-MFBT_API
 bool
 decompressPartial
 (
@@ -1021,7 +1017,6 @@ final
 {
 public
 :
-MFBT_API
 LZ4FrameCompressionContext
 (
 int
@@ -1036,7 +1031,6 @@ aStableSrc
 false
 )
 ;
-MFBT_API
 ~
 LZ4FrameCompressionContext
 (
@@ -1086,7 +1080,6 @@ size_t
 .
 *
 /
-MFBT_API
 Result
 <
 Span
@@ -1152,7 +1145,6 @@ size_t
 .
 *
 /
-MFBT_API
 Result
 <
 Span
@@ -1214,7 +1206,6 @@ size_t
 .
 *
 /
-MFBT_API
 Result
 <
 Span
@@ -1311,7 +1302,6 @@ final
 public
 :
 explicit
-MFBT_API
 LZ4FrameDecompressionContext
 (
 bool
@@ -1320,7 +1310,6 @@ aStableDest
 false
 )
 ;
-MFBT_API
 ~
 LZ4FrameDecompressionContext
 (
@@ -1401,7 +1390,6 @@ size_t
 .
 *
 /
-MFBT_API
 Result
 <
 LZ4FrameDecompressionResult
