@@ -162,6 +162,7 @@ AudioTrimmer
 final
 )
 ;
+explicit
 AudioTrimmer
 (
 already_AddRefed
@@ -169,10 +170,6 @@ already_AddRefed
 MediaDataDecoder
 >
 aDecoder
-const
-CreateDecoderParams
-&
-aParams
 )
 :
 mDecoder
