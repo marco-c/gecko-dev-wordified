@@ -3325,7 +3325,7 @@ setDefaultBrowserUserChoice
 .
 regRename
 "
-false
+true
 )
 ;
 /
