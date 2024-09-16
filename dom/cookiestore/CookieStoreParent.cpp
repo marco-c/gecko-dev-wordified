@@ -626,6 +626,7 @@ nsICookie
 :
 SCHEME_HTTPS
 aPartitioned
+nullptr
 )
 ;
 if
@@ -909,6 +910,7 @@ matchName
 path
 &
 attrs
+nullptr
 )
 ;
 if

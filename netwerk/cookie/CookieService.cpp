@@ -5180,6 +5180,7 @@ attrs
 aSameSite
 aSchemeMap
 false
+nullptr
 )
 ;
 }
@@ -5228,6 +5229,10 @@ schemeType
 aSchemeMap
 bool
 aIsPartitioned
+const
+nsID
+*
+aOperationID
 )
 {
 if
@@ -5460,6 +5465,7 @@ IsEmpty
 (
 )
 nullptr
+aOperationID
 )
 ;
 return
@@ -5488,6 +5494,10 @@ const
 nsACString
 &
 aPath
+const
+nsID
+*
+aOperationID
 )
 {
 /
@@ -5593,6 +5603,7 @@ PromiseFlatCString
 (
 aPath
 )
+aOperationID
 )
 ;
 return
@@ -5668,6 +5679,7 @@ aName
 aPath
 &
 attrs
+nullptr
 )
 ;
 }
@@ -5695,6 +5707,10 @@ aPath
 OriginAttributes
 *
 aOriginAttributes
+const
+nsID
+*
+aOperationID
 )
 {
 if
@@ -5720,6 +5736,7 @@ aHost
 aOriginAttributes
 aName
 aPath
+aOperationID
 )
 ;
 if
@@ -9433,6 +9450,7 @@ cookie
 Path
 (
 )
+nullptr
 )
 )
 )
