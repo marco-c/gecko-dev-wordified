@@ -173,7 +173,11 @@ editor
 =
 createEditor
 (
+{
+cm6
+:
 useCm6
+}
 )
 ;
 return
