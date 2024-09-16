@@ -17714,7 +17714,7 @@ buffers
 .
 get_owned
 (
-count_buffer_id
+buffer_id
 )
 .
 map_err
@@ -17915,7 +17915,7 @@ buffers
 .
 get_owned
 (
-count_buffer_id
+buffer_id
 )
 .
 map_err

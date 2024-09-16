@@ -1733,16 +1733,6 @@ Self
 :
 :
 Center
-|
-Self
-:
-:
-First
-|
-Self
-:
-:
-Either
 =
 >
 None

@@ -161,6 +161,7 @@ not
 (
 any
 (
+windows
 target_arch
 =
 "
@@ -1915,6 +1916,7 @@ cfg
 (
 any
 (
+windows
 all
 (
 target_arch
@@ -1971,6 +1973,7 @@ not
 (
 any
 (
+windows
 all
 (
 target_arch
