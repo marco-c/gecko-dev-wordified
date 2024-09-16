@@ -5544,6 +5544,16 @@ aIntrinsicSize
 aPrincipalHandle
 false
 aTimeStamp
+media
+:
+:
+TimeUnit
+:
+:
+Invalid
+(
+)
+aStart
 )
 ;
 /
