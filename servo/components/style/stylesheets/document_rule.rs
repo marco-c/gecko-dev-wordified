@@ -638,7 +638,6 @@ enum
 MediaDocumentKind
 {
 All
-Plugin
 Image
 Video
 }
@@ -1709,15 +1708,6 @@ Image
 >
 "
 image
-"
-MediaDocumentKind
-:
-:
-Plugin
-=
->
-"
-plugin
 "
 MediaDocumentKind
 :

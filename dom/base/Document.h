@@ -18761,7 +18761,6 @@ MediaDocumentKind
 NotMedia
 Video
 Image
-Plugin
 }
 ;
 virtual
