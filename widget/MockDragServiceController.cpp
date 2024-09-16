@@ -811,13 +811,13 @@ case
 EventType
 :
 :
-eDragLeave
+eDragExit
 :
 return
 EventMessage
 :
 :
-eDragLeave
+eDragExit
 ;
 case
 EventType
@@ -1315,7 +1315,7 @@ case
 EventType
 :
 :
-eDragLeave
+eDragExit
 :
 {
 NS_ENSURE_TRUE
