@@ -1130,6 +1130,7 @@ coseAlgorithmToSignatureParams
 (
 coseAlgorithm
 issuerName
+issuerKey
 certValidity
 )
 :
@@ -1152,13 +1153,25 @@ ES384
 ES512
 '
 )
-and
 an
 issuer
     
 name
+the
+name
+of
+the
+issuer
+'
+s
+key
+and
+a
+validity
+period
 returns
 a
+    
 (
 algorithm
 id
@@ -1168,10 +1181,10 @@ ECCKey
 encoded
 certificate
 )
-    
 triplet
 for
 use
+    
 with
 coseSig
 .
@@ -1302,9 +1315,7 @@ issuerName
         
 True
         
-"
-default
-"
+issuerKey
         
 certValidity
     
@@ -1331,6 +1342,8 @@ outputFile
 issuerName
     
 rootName
+    
+rootKey
     
 certValidity
     
@@ -1360,9 +1373,9 @@ files
 to
 package
 up
-    
 an
 output
+    
 filename
 to
 write
@@ -1373,27 +1386,37 @@ of
 the
 issuer
 of
-    
 the
 signing
+    
 certificate
 the
 name
 of
 trust
 anchor
+the
+name
+of
+the
+trust
+    
+anchor
+'
+s
+key
 a
 list
 of
 hash
 algorithms
-    
 to
 use
 in
 the
 manifest
 file
+    
 a
 similar
 list
@@ -1401,7 +1424,6 @@ for
 the
 signature
 file
-    
 a
 similar
 list
@@ -1410,6 +1432,7 @@ the
 pkcs
 #
 7
+    
 signature
 a
 list
@@ -1417,10 +1440,10 @@ of
 COSE
 signature
 algorithms
-    
 to
 include
 whether
+    
 the
 pkcs
 #
@@ -1433,11 +1456,11 @@ kept
 empty
 and
 how
-    
 many
 MB
 to
 pad
+    
 the
 manifests
 by
@@ -1449,8 +1472,8 @@ large
 manifest
 files
 )
-    
 packages
+    
 up
 the
 files
@@ -1624,6 +1647,10 @@ append
 "
 )
     
+issuerKey
+=
+rootKey
+    
 with
 zipfile
 .
@@ -1776,6 +1803,12 @@ if
 rootName
 :
                 
+issuerKey
+=
+"
+default
+"
+                
 coseIssuerName
 =
 "
@@ -1793,16 +1826,13 @@ getCert
                     
 coseIssuerName
                     
-"
-default
-"
+issuerKey
                     
 rootName
                     
 False
                     
-"
-"
+rootKey
                     
 certValidity
                 
@@ -1833,6 +1863,8 @@ coseAlgorithmToSignatureParams
 coseAlgorithm
                     
 coseIssuerName
+                    
+issuerKey
                     
 certValidity
                 
@@ -2084,6 +2116,28 @@ digitalSignature
 "
             
 )
+            
+if
+issuerKey
+!
+=
+"
+default
+"
+:
+                
+cmsSpecification
++
+=
+"
+\
+nissuerKey
+:
+%
+s
+"
+%
+issuerKey
             
 if
 certValidity
@@ -2549,6 +2603,46 @@ add_argument
         
 "
 -
+k
+"
+        
+"
+-
+-
+root
+-
+key
+"
+        
+action
+=
+"
+store
+"
+        
+help
+=
+"
+Root
+key
+name
+"
+        
+default
+=
+"
+default
+"
+    
+)
+    
+parser
+.
+add_argument
+(
+        
+"
+-
 -
 cert
 -
@@ -2937,6 +3031,10 @@ issuer
 parsed
 .
 root
+        
+parsed
+.
+root_key
         
 parsed
 .
