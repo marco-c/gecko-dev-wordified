@@ -4501,6 +4501,15 @@ self
 )
 :
         
+if
+not
+self
+.
+webdriver
+:
+            
+return
+        
 self
 .
 logger
