@@ -325,13 +325,6 @@ aModType
 {
 if
 (
-aNameSpaceID
-=
-=
-kNameSpaceID_None
-&
-&
-(
 nsGkAtoms
 :
 :
@@ -348,7 +341,6 @@ accentunder_
 =
 =
 aAttribute
-)
 )
 {
 /
