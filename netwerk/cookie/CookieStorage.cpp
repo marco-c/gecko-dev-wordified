@@ -2371,6 +2371,10 @@ const
 nsACString
 &
 aPath
+const
+nsID
+*
+aOperationID
 )
 {
 CookieListIter
@@ -2434,6 +2438,7 @@ nsICookieNotification
 :
 COOKIE_DELETED
 aBaseDomain
+aOperationID
 )
 ;
 }
@@ -3432,6 +3437,10 @@ BrowsingContext
 aBrowsingContext
 bool
 aOldCookieIsSession
+const
+nsID
+*
+aOperationID
 )
 {
 nsCOMPtr
@@ -3532,6 +3541,7 @@ aBaseDomain
 aIsThirdParty
 batchDeletedCookies
 browsingContextId
+aOperationID
 )
 ;
 /
@@ -4209,6 +4219,10 @@ dom
 BrowsingContext
 *
 aBrowsingContext
+const
+nsID
+*
+aOperationID
 )
 {
 int64_t
@@ -5219,6 +5233,7 @@ aBaseDomain
 false
 aBrowsingContext
 oldCookieIsSession
+aOperationID
 )
 ;
 return
@@ -6124,6 +6139,10 @@ COOKIES_BATCH_DELETED
 "
 "
 _ns
+false
+nullptr
+false
+aOperationID
 )
 ;
 }
@@ -6163,6 +6182,7 @@ aBaseDomain
 aIsThirdParty
 aBrowsingContext
 oldCookieIsSession
+aOperationID
 )
 ;
 }

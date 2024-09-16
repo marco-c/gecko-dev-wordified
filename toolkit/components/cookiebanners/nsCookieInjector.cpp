@@ -2316,6 +2316,7 @@ partitioned
 *
 /
 false
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
