@@ -598,10 +598,6 @@ const
 nsACString
 &
 aPath
-const
-nsID
-*
-aOperationID
 )
 ;
 bool
