@@ -152,8 +152,6 @@ class
 nsWindowsShellService
 :
 public
-nsIShellService
-public
 nsToolkitShellService
 public
 nsIWindowsShellService
