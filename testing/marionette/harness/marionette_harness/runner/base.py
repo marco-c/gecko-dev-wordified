@@ -1415,7 +1415,7 @@ kwargs
         
 unittest
 .
-_TextTestResult
+TextTestResult
 .
 stopTest
 (
