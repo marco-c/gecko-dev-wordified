@@ -2424,6 +2424,14 @@ OnCaptureEnded
 (
 )
 {
+mFirstFramePromiseHolder
+.
+RejectIfExists
+(
+NS_ERROR_UNEXPECTED
+__func__
+)
+;
 mCaptureEndedEvent
 .
 Notify
