@@ -2408,8 +2408,6 @@ from
 an
 outer
 scope
-/
-/
 "
 no
 -

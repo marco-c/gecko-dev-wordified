@@ -1037,15 +1037,6 @@ error
 "
 no
 -
-shadow
-"
-:
-"
-error
-"
-"
-no
--
 template
 -
 curly

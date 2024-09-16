@@ -273,15 +273,6 @@ generateqi
 "
 off
 "
-"
-no
--
-shadow
-"
-:
-"
-error
-"
 }
 }
 ;
