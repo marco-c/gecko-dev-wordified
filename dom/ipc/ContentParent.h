@@ -3988,12 +3988,6 @@ return
 mIsInputPriorityEventEnabled
 ;
 }
-static
-bool
-IsInputEventQueueSupported
-(
-)
-;
 mozilla
 :
 :
