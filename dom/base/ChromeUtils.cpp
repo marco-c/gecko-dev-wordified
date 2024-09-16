@@ -7679,6 +7679,15 @@ aConsts
 {
 aConsts
 .
+mEPERM
+.
+Construct
+(
+EPERM
+)
+;
+aConsts
+.
 mEINTR
 .
 Construct
