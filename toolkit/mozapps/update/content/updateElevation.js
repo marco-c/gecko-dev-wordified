@@ -730,6 +730,7 @@ close
 )
 ;
 }
+async
 onRestartNow
 (
 )
@@ -950,6 +951,7 @@ Ci
 nsIUpdateManager
 )
 ;
+await
 um
 .
 elevationOptedIn

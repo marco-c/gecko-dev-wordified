@@ -504,7 +504,9 @@ Ci
 nsIBrowserHandler
 )
 .
-defaultArgs
+getFirstWindowArgs
+(
+)
 ;
 /
 /
