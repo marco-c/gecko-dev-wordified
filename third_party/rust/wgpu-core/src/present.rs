@@ -976,6 +976,11 @@ textures
 .
 prepare
 (
+device
+.
+backend
+(
+)
 texture_id_in
 )
 ;

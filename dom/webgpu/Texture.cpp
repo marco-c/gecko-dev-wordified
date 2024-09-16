@@ -740,6 +740,7 @@ bridge
 GetClient
 (
 )
+mId
 &
 desc
 ToFFI

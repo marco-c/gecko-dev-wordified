@@ -382,8 +382,13 @@ dom
 GPURequestAdapterOptions
 &
 aOptions
+const
+nsTArray
+<
 RawId
-aAdapterId
+>
+&
+aTargetIds
 InstanceRequestAdapterResolver
 &
 &
