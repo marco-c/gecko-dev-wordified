@@ -171,6 +171,8 @@ slack_notifier
 import
 (
     
+get_product_icon
+    
 get_taskcluster_options
     
 send_error_notification
@@ -182,12 +184,14 @@ Constants
 SUCCESS_CHANNEL_ID
 =
 "
-C02KDDS9QM9
+C07HUFVU2UD
 "
 #
 mobile
 -
 testeng
+-
+releases
 ERROR_CHANNEL_ID
 =
 "
@@ -503,6 +507,13 @@ id
 =
 Passed
         
+product_icon
+=
+get_product_icon
+(
+shipping_product
+)
+        
 #
 Send
 success
@@ -541,6 +552,12 @@ TESTRAIL_PRODUCT_TYPE
 "
 :
 testrail_product_type
+            
+"
+PRODUCT_ICON
+"
+:
+product_icon
         
 }
         
