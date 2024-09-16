@@ -540,7 +540,10 @@ use
 api
 :
 :
+{
 FilterOpGraphPictureBufferId
+SVGFE_GRAPH_MAX
+}
 ;
 use
 api
@@ -19993,7 +19996,7 @@ BUFFER_LIMIT
 :
 usize
 =
-256
+SVGFE_GRAPH_MAX
 ;
 /
 /
