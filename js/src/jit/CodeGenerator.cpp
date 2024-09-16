@@ -37486,7 +37486,7 @@ temp
 ;
 masm
 .
-initializeBigInt
+initializeBigIntPtr
 (
 output
 temp
@@ -82102,7 +82102,7 @@ bail
 ;
 masm
 .
-loadBigInt
+loadBigIntPtr
 (
 input
 output
@@ -82241,7 +82241,7 @@ temp
 ;
 masm
 .
-initializeBigInt
+initializeBigIntPtr
 (
 output
 temp
@@ -155223,7 +155223,7 @@ digit
 .
 masm
 .
-loadFirstBigIntDigitOrZero
+loadBigIntDigit
 (
 input
 temp
@@ -155739,7 +155739,7 @@ digit
 .
 masm
 .
-loadFirstBigIntDigitOrZero
+loadBigIntDigit
 (
 input
 temp

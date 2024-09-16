@@ -24102,7 +24102,7 @@ false
 }
 masm
 .
-loadBigInt
+loadBigIntPtr
 (
 input
 output
@@ -64069,7 +64069,7 @@ scratch2
 ;
 masm
 .
-initializeBigInt
+initializeBigIntPtr
 (
 scratch1
 scratch2
