@@ -5754,6 +5754,8 @@ ExternalImageType
 aImageType
 uint8_t
 aChannelIndex
+bool
+aNormalizedUvs
 )
 {
 wr_resource_updates_add_external_image
@@ -5766,6 +5768,7 @@ aExtID
 &
 aImageType
 aChannelIndex
+aNormalizedUvs
 )
 ;
 }
@@ -5917,6 +5920,8 @@ ExternalImageType
 aImageType
 uint8_t
 aChannelIndex
+bool
+aNormalizedUvs
 )
 {
 wr_resource_updates_update_external_image
@@ -5929,6 +5934,7 @@ aExtID
 &
 aImageType
 aChannelIndex
+aNormalizedUvs
 )
 ;
 }
@@ -5960,6 +5966,8 @@ DeviceIntRect
 aDirtyRect
 uint8_t
 aChannelIndex
+bool
+aNormalizedUvs
 )
 {
 wr_resource_updates_update_external_image_with_dirty_rect
@@ -5972,6 +5980,7 @@ aExtID
 &
 aImageType
 aChannelIndex
+aNormalizedUvs
 aDirtyRect
 )
 ;
