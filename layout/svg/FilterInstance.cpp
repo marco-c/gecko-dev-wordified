@@ -9670,10 +9670,7 @@ constexpr
 size_t
 maxFilters
 =
-wr
-:
-:
-SVGFE_GRAPH_MAX
+256
 ;
 int16_t
 bufferIdMapping
