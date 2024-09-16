@@ -942,6 +942,9 @@ aSameSite
 in
 nsICookie_schemeType
 aSchemeMap
+in
+boolean
+aIsPartitioned
 )
 ;
 /
