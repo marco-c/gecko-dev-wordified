@@ -6400,7 +6400,7 @@ is
 if
 (
 !
-net_IsValidHostName
+net_IsValidDNSHost
 (
 mHost
 )

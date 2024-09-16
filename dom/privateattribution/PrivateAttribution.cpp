@@ -407,7 +407,7 @@ aRv
 if
 (
 !
-net_IsValidHostName
+net_IsValidDNSHost
 (
 aHost
 )

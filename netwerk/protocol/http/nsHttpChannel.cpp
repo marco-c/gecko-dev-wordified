@@ -5958,7 +5958,7 @@ hostname
 if
 (
 !
-net_IsValidHostName
+net_IsValidDNSHost
 (
 nsDependentCString
 (

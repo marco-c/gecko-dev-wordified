@@ -7718,7 +7718,7 @@ hadCharset
 ;
 }
 bool
-net_IsValidHostName
+net_IsValidDNSHost
 (
 const
 nsACString

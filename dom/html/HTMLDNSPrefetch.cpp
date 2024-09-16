@@ -1305,7 +1305,7 @@ IsEmpty
 (
 )
 because
-net_IsValidHostName
+net_IsValidDNSHost
 (
 )
 /
@@ -1327,7 +1327,7 @@ IsEmpty
 )
 &
 &
-net_IsValidHostName
+net_IsValidDNSHost
 (
 NS_ConvertUTF16toUTF8
 (
@@ -1745,7 +1745,7 @@ IsEmpty
 (
 )
 because
-net_IsValidHostName
+net_IsValidDNSHost
 (
 )
 /
@@ -1767,7 +1767,7 @@ IsEmpty
 )
 &
 &
-net_IsValidHostName
+net_IsValidDNSHost
 (
 NS_ConvertUTF16toUTF8
 (

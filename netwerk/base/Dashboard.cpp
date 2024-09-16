@@ -6852,7 +6852,7 @@ Length
 |
 |
 !
-net_IsValidHostName
+net_IsValidDNSHost
 (
 connectionData
 -
