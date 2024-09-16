@@ -623,7 +623,7 @@ vendor_id
 =
 value
 .
-into
+to_owned
 (
 )
 ;

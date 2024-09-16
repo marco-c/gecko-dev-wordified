@@ -2,7 +2,7 @@ pub
 type
 c_char
 =
-u8
+i8
 ;
 pub
 type
@@ -8792,17 +8792,6 @@ c_int
 pthread
 .
 h
-pub
-const
-PTHREAD_BARRIER_SERIAL_THREAD
-:
-:
-:
-c_int
-=
--
-1
-;
 pub
 const
 PTHREAD_CREATE_JOINABLE

@@ -50,7 +50,7 @@ pub
 crate
 )
 mod
-auxv
+auxv_reader
 ;
 pub
 mod
@@ -72,15 +72,7 @@ maps_reader
 ;
 pub
 mod
-mem_reader
-;
-pub
-mod
 minidump_writer
-;
-pub
-mod
-module_reader
 ;
 pub
 mod
@@ -103,10 +95,4 @@ maps_reader
 :
 :
 LINUX_GATE_LIBRARY_NAME
-;
-pub
-type
-Pid
-=
-i32
 ;
