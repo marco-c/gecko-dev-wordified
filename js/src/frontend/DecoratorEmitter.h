@@ -407,6 +407,7 @@ DecoratorsVector
 &
 vec
 )
+const
 ;
 }
 ;

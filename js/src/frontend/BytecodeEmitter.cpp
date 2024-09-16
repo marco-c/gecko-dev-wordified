@@ -2184,6 +2184,7 @@ checkStrictOrSloppy
 JSOp
 op
 )
+const
 {
 if
 (
@@ -4505,6 +4506,7 @@ ParseNode
 *
 nextpn
 )
+const
 {
 /
 /
@@ -5564,6 +5566,7 @@ bool
 *
 answer
 )
+const
 {
 AutoCheckRecursionLimit
 recursion
@@ -9414,6 +9417,7 @@ BytecodeEmitter
 isInLoop
 (
 )
+const
 {
 return
 findInnermostNestableControl
@@ -9431,6 +9435,7 @@ BytecodeEmitter
 checkSingletonContext
 (
 )
+const
 {
 MOZ_ASSERT_IF
 (
@@ -9470,6 +9475,7 @@ BytecodeEmitter
 needsImplicitThis
 (
 )
+const
 {
 /
 /
@@ -9574,6 +9580,7 @@ BytecodeEmitter
 countThisEnvironmentHops
 (
 )
+const
 {
 unsigned
 numHops
@@ -9582,7 +9589,8 @@ numHops
 ;
 for
 (
-BytecodeEmitter
+const
+auto
 *
 current
 =
@@ -9958,6 +9966,7 @@ errorNumber
 .
 .
 )
+const
 {
 uint32_t
 offset
@@ -10019,6 +10028,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -16754,6 +16764,7 @@ uint32_t
 *
 nslots
 )
+const
 {
 uint64_t
 nslots64
@@ -18472,6 +18483,7 @@ callOp
 SelfHostedIter
 selfHostedIter
 )
+const
 {
 if
 (
@@ -20121,9 +20133,6 @@ at
 compile
 time
 .
-if
-(
-!
 setFunName
 (
 node
@@ -20141,12 +20150,7 @@ funbox
 )
 name
 )
-)
-{
-return
-false
 ;
-}
 return
 emitTree
 (
@@ -20340,7 +20344,7 @@ ComputedName
 )
 ;
 }
-bool
+void
 BytecodeEmitter
 :
 :
@@ -20352,6 +20356,7 @@ funbox
 TaggedParserAtomIndex
 name
 )
+const
 {
 /
 /
@@ -20421,10 +20426,9 @@ displayAtom
 name
 )
 ;
-return
-true
-;
 }
+else
+{
 funbox
 -
 >
@@ -20433,9 +20437,7 @@ setInferredName
 name
 )
 ;
-return
-true
-;
+}
 }
 bool
 BytecodeEmitter
@@ -51588,6 +51590,7 @@ ListNode
 *
 argsList
 )
+const
 {
 ParseNode
 *
@@ -57447,6 +57450,7 @@ bool
 *
 withoutValues
 )
+const
 {
 bool
 keysOK
@@ -57855,6 +57859,7 @@ ListNode
 *
 array
 )
+const
 {
 for
 (
@@ -61907,6 +61912,7 @@ ParseNode
 *
 value
 )
+const
 {
 return
 value
@@ -62420,6 +62426,7 @@ classMembers
 FieldPlacement
 placement
 )
+const
 {
 bool
 isStatic
@@ -67096,10 +67103,12 @@ BytecodeEmitter
 findMemberInitializersForCall
 (
 )
+const
 {
 for
 (
-BytecodeEmitter
+const
+auto
 *
 current
 =
@@ -76554,9 +76563,6 @@ ClassNameKind
 InferredName
 )
 {
-if
-(
-!
 setFunName
 (
 ctor
@@ -76567,12 +76573,7 @@ funbox
 )
 nameForAnonymousClass
 )
-)
-{
-return
-false
 ;
-}
 }
 if
 (
@@ -81833,6 +81834,7 @@ ParseNode
 *
 parseNode
 )
+const
 {
 if
 (
