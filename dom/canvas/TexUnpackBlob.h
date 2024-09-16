@@ -231,6 +231,8 @@ const
 TexUnpackBlobDesc
 &
 OptionalRenderableFormatBits
+bool
+sameColorSpace
 )
 ;
 class
