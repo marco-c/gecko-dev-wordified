@@ -8027,6 +8027,11 @@ nsICookie
 :
 :
 SCHEME_HTTPS
+false
+/
+/
+is
+partitioned
 )
 )
 )
@@ -8110,6 +8115,11 @@ nsICookie
 :
 :
 SCHEME_HTTPS
+false
+/
+/
+is
+partitioned
 )
 )
 )
@@ -8187,6 +8197,11 @@ nsICookie
 :
 :
 SCHEME_HTTPS
+false
+/
+/
+is
+partitioned
 )
 )
 )

@@ -5179,6 +5179,7 @@ aExpiry
 attrs
 aSameSite
 aSchemeMap
+false
 )
 ;
 }
@@ -5225,6 +5226,8 @@ nsICookie
 :
 schemeType
 aSchemeMap
+bool
+aIsPartitioned
 )
 {
 if
@@ -5393,7 +5396,7 @@ currentTimeInUsec
 aIsHttpOnly
 aIsSession
 aIsSecure
-false
+aIsPartitioned
 aSameSite
 aSameSite
 aSchemeMap
