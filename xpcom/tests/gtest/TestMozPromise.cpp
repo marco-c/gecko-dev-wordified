@@ -5448,7 +5448,7 @@ false
 TEST
 (
 MozPromise
-DISABLED_ObjectDestructionOrder
+ObjectDestructionOrder
 )
 {
 AutoTaskQueue
