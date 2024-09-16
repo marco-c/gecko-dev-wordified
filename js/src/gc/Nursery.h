@@ -1967,6 +1967,10 @@ mozilla
 StringBuffer
 *
 buffer
+bool
+updateMallocBytes
+=
+true
 )
 ;
 inline
@@ -1976,6 +1980,10 @@ removeExtensibleStringBuffer
 JSLinearString
 *
 s
+bool
+updateMallocBytes
+=
+true
 )
 ;
 size_t
