@@ -34554,21 +34554,6 @@ tabs
 .
 *
 *
-param
-source
-where
-the
-request
-to
-close
-came
-from
-(
-used
-for
-telemetry
-)
-*
 returns
 true
 if
@@ -34586,7 +34571,6 @@ cancelled
 function
 warnAboutClosingWindow
 (
-source
 )
 {
 /
@@ -34649,7 +34633,6 @@ gBrowser
 closingTabsEnum
 .
 ALL
-source
 )
 ;
 }
@@ -34907,7 +34890,6 @@ gBrowser
 closingTabsEnum
 .
 ALL
-source
 )
 )
 ;
@@ -35058,7 +35040,6 @@ gBrowser
 closingTabsEnum
 .
 ALL
-source
 )
 )
 ;
