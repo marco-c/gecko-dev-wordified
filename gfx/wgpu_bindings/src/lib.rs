@@ -671,6 +671,9 @@ wgt
 :
 :
 Backend
+support_use_external_texture_in_swap_chain
+:
+bool
 }
 #
 [

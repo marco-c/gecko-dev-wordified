@@ -515,6 +515,15 @@ aParent
 aRawLimits
 )
 )
+mSupportExternalTextureInSwapChain
+(
+aParent
+-
+>
+SupportExternalTextureInSwapChain
+(
+)
+)
 mBridge
 (
 aParent

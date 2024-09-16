@@ -621,6 +621,12 @@ IsFallbackAdapter
 )
 const
 ;
+bool
+SupportExternalTextureInSwapChain
+(
+)
+const
+;
 nsCString
 LabelOrId
 (
