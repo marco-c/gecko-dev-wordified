@@ -1098,7 +1098,7 @@ dimensions
 ]
 usage
 :
-MLBufferUsage
+MLTensorUsage
 .
 READ_FROM
 }
@@ -1177,7 +1177,7 @@ dimensions
 ]
 usage
 :
-MLBufferUsage
+MLTensorUsage
 .
 READ_FROM
 }
@@ -1301,7 +1301,7 @@ dimensions
 ]
 usage
 :
-MLBufferUsage
+MLTensorUsage
 .
 WRITE_TO
 }
