@@ -2406,7 +2406,7 @@ r11f_g11f_b10f
 Sf
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 "
 r32f
 "

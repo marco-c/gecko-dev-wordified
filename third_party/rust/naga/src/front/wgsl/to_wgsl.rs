@@ -1513,7 +1513,7 @@ rgb10a2unorm
 Sf
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 =
 >
 "

@@ -1369,7 +1369,7 @@ crate
 StorageFormat
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 )
 Some
 (

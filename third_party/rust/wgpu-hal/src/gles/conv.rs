@@ -665,7 +665,7 @@ UNSIGNED_INT_2_10_10_10_REV
 Tf
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 =
 >
 (

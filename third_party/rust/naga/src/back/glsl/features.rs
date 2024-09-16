@@ -3295,7 +3295,7 @@ Rgb10a2Unorm
 StorageFormat
 :
 :
-Rg11b10UFloat
+Rg11b10Ufloat
 |
 StorageFormat
 :
