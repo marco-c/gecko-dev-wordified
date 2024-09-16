@@ -4530,6 +4530,11 @@ tryAttachBigInt
 )
 ;
 AttachDecision
+tryAttachBigIntPtr
+(
+)
+;
+AttachDecision
 tryAttachStringInt32Arith
 (
 )
