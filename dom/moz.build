@@ -221,6 +221,9 @@ clients
 commandhandler
 "
 "
+cookiestore
+"
+"
 credentialmanagement
 "
 "
