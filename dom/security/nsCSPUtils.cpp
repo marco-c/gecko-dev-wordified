@@ -2041,6 +2041,12 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_IMAGE_FAVICON
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_EXTERNAL_RESOURCE
+:
 return
 nsIContentSecurityPolicy
 :
@@ -2448,12 +2454,6 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_FORCE_ALLOWED_DTD
-:
-case
-nsIContentPolicy
-:
-:
-TYPE_INTERNAL_EXTERNAL_RESOURCE
 :
 return
 nsIContentSecurityPolicy
