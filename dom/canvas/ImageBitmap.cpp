@@ -10484,9 +10484,6 @@ public
 explicit
 CreateImageBitmapFromBlobRunnable
 (
-WorkerPrivate
-*
-aWorkerPrivate
 CreateImageBitmapFromBlob
 *
 aTask
@@ -14002,12 +13999,6 @@ r
 new
 CreateImageBitmapFromBlobRunnable
 (
-mWorkerRef
--
->
-Private
-(
-)
 this
 aImage
 aStatus
