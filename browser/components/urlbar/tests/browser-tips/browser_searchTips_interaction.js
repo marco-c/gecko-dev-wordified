@@ -2479,6 +2479,7 @@ getNotificationBox
 let
 note
 =
+await
 box
 .
 appendNotification
