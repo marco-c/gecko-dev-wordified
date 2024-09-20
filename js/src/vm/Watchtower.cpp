@@ -2020,7 +2020,6 @@ GlobalObject
 .
 bumpGenerationCount
 (
-cx
 )
 ;
 }
@@ -2279,7 +2278,6 @@ GlobalObject
 .
 bumpGenerationCount
 (
-cx
 )
 ;
 }

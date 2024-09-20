@@ -155,7 +155,6 @@ Type
 {
 GetIterator
 EmulatesUndefined
-GenerationCounter
 Limit
 }
 ;

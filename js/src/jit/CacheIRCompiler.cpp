@@ -66695,8 +66695,6 @@ uint32_t
 expectedOffset
 uint32_t
 generationAddrOffset
-uint32_t
-realmOffset
 )
 {
 JitSpew
