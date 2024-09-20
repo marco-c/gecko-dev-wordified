@@ -249,7 +249,7 @@ in
 /
 struct
 UiaPoint
-point
+aPoint
 /
 *
 [
