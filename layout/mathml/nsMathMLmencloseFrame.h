@@ -257,7 +257,6 @@ enum
 nsMencloseNotation
 {
 NOTATION_LONGDIV
-NOTATION_RADICAL
 NOTATION_ROUNDEDBOX
 NOTATION_CIRCLE
 NOTATION_LEFT
@@ -362,12 +361,6 @@ aParent
 )
 override
 ;
-NS_IMETHOD
-TransmitAutomaticData
-(
-)
-override
-;
 virtual
 nscoord
 FixInterFrameSpacing
@@ -418,10 +411,6 @@ aStyle
 nsPresContext
 *
 aPresContext
-ClassID
-aID
-=
-kClassID
 )
 ;
 virtual
@@ -491,9 +480,6 @@ notation
 nscoord
 mRuleThickness
 ;
-nscoord
-mRadicalRuleThickness
-;
 nsTArray
 <
 nsMathMLChar
@@ -502,7 +488,6 @@ mMathMLChar
 ;
 int8_t
 mLongDivCharIndex
-mRadicalCharIndex
 ;
 nscoord
 mContentWidth
