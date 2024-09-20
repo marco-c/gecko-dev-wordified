@@ -179,6 +179,15 @@ LZ4LIB_VISIBILITY
 =
 "
 "
+DEFINES
+[
+"
+LZ4FLIB_VISIBILITY
+"
+]
+=
+"
+"
 #
 By
 putting
