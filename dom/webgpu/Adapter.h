@@ -564,7 +564,7 @@ ffi
 :
 WGPUAdapterInformation
 >
-mInfo
+mInfoInner
 ;
 public
 :
