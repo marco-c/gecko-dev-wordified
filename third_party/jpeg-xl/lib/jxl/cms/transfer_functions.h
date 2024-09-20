@@ -433,7 +433,7 @@ kB
 +
 kC
 ;
-JXL_ASSERT
+JXL_DASSERT
 (
 e
 >
@@ -546,7 +546,7 @@ kB
 *
 kDiv12
 ;
-JXL_ASSERT
+JXL_DASSERT
 (
 s
 >

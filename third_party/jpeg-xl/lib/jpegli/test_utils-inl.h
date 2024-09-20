@@ -1506,7 +1506,7 @@ color_quant_mode
 CQUANT_2PASS
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -1544,7 +1544,7 @@ color_quant_mode
 CQUANT_EXTERNAL
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -1752,7 +1752,7 @@ color_quant_mode
 CQUANT_REUSE
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -1763,7 +1763,7 @@ out_color_space
 JCS_RGB
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2136,7 +2136,7 @@ true
 ;
 }
 }
-JXL_CHECK
+Check
 (
 marker_found
 )
@@ -2160,7 +2160,7 @@ jparams
 set_jpeg_colorspace
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2184,7 +2184,7 @@ override_JFIF
 0
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2208,7 +2208,7 @@ override_Adobe
 0
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2325,7 +2325,7 @@ empty
 )
 )
 {
-JXL_CHECK
+Check
 (
 comp
 -
@@ -2354,7 +2354,7 @@ empty
 )
 )
 {
-JXL_CHECK
+Check
 (
 comp
 -
@@ -2383,7 +2383,7 @@ empty
 )
 )
 {
-JXL_CHECK
+Check
 (
 comp
 -
@@ -2412,7 +2412,7 @@ empty
 )
 )
 {
-JXL_CHECK
+Check
 (
 comp
 -
@@ -2458,7 +2458,7 @@ v_samp_factor
 )
 ;
 }
-JXL_CHECK
+Check
 (
 max_h_samp_factor
 =
@@ -2469,7 +2469,7 @@ cinfo
 max_h_samp_factor
 )
 ;
-JXL_CHECK
+Check
 (
 max_v_samp_factor
 =
@@ -2521,7 +2521,7 @@ comp_info
 i
 ]
 ;
-JXL_CHECK
+Check
 (
 comp
 -
@@ -2546,7 +2546,7 @@ DCTSIZE
 )
 )
 ;
-JXL_CHECK
+Check
 (
 comp
 -
@@ -2619,7 +2619,7 @@ slot_idx
 ]
 )
 {
-JXL_CHECK
+Check
 (
 quant_table
 =
@@ -2630,7 +2630,7 @@ nullptr
 continue
 ;
 }
-JXL_CHECK
+Check
 (
 quant_table
 !
@@ -2670,7 +2670,7 @@ DCTSIZE2
 k
 )
 {
-JXL_CHECK
+Check
 (
 quant_table
 -
@@ -2703,7 +2703,7 @@ j_decompress_ptr
 cinfo
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2721,7 +2721,7 @@ cinfo
 progressive_mode
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2744,7 +2744,7 @@ Se
 }
 else
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2774,7 +2774,7 @@ progressive_mode
 2
 )
 {
-JXL_CHECK
+Check
 (
 jparams
 .
@@ -2799,7 +2799,7 @@ progressive_mode
 3
 ]
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2829,7 +2829,7 @@ input_scan_number
 1
 ]
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2861,7 +2861,7 @@ comps_in_scan
 i
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2884,7 +2884,7 @@ i
 )
 ;
 }
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2897,7 +2897,7 @@ scan
 Ss
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2910,7 +2910,7 @@ scan
 Se
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2923,7 +2923,7 @@ scan
 Ah
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2946,7 +2946,7 @@ restart_interval
 0
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -2970,7 +2970,7 @@ restart_in_rows
 0
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3018,7 +3018,7 @@ jpeg_color_space
 JCS_RGB
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3034,7 +3034,7 @@ dc_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3050,7 +3050,7 @@ dc_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3066,7 +3066,7 @@ dc_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3082,7 +3082,7 @@ ac_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3098,7 +3098,7 @@ ac_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3127,7 +3127,7 @@ jpeg_color_space
 JCS_YCbCr
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3143,7 +3143,7 @@ dc_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3159,7 +3159,7 @@ dc_tbl_no
 1
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3175,7 +3175,7 @@ dc_tbl_no
 1
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3191,7 +3191,7 @@ ac_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3207,7 +3207,7 @@ ac_tbl_no
 1
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3236,7 +3236,7 @@ jpeg_color_space
 JCS_CMYK
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3252,7 +3252,7 @@ dc_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3268,7 +3268,7 @@ dc_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3284,7 +3284,7 @@ dc_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3300,7 +3300,7 @@ dc_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3316,7 +3316,7 @@ ac_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3332,7 +3332,7 @@ ac_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3348,7 +3348,7 @@ ac_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3377,7 +3377,7 @@ jpeg_color_space
 JCS_YCCK
 )
 {
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3393,7 +3393,7 @@ dc_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3409,7 +3409,7 @@ dc_tbl_no
 1
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3425,7 +3425,7 @@ dc_tbl_no
 1
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3441,7 +3441,7 @@ dc_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3457,7 +3457,7 @@ ac_tbl_no
 0
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3473,7 +3473,7 @@ ac_tbl_no
 1
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3489,7 +3489,7 @@ ac_tbl_no
 1
 )
 ;
-JXL_CHECK
+Check
 (
 cinfo
 -
@@ -3557,7 +3557,7 @@ i
 i
 )
 {
-JXL_CHECK
+Check
 (
 tbl
 -
@@ -3591,7 +3591,7 @@ size_t
 num_colors
 )
 {
-JXL_CHECK
+Check
 (
 colormap
 !
@@ -3629,7 +3629,7 @@ xsize
 x
 )
 {
-JXL_CHECK
+Check
 (
 row
 [
@@ -3831,7 +3831,7 @@ by
 )
 {
 JBLOCKARRAY
-ba
+blocks
 =
 (
 *
@@ -3886,7 +3886,7 @@ coeffs
 [
 offset
 ]
-ba
+blocks
 [
 0
 ]

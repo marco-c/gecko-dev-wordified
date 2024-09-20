@@ -305,7 +305,7 @@ thread_id
 const
 final
 {
-JXL_ASSERT
+JXL_ENSURE
 (
 xsize
 <
@@ -323,7 +323,7 @@ firsching
 handle
 grey
 case
-seperately
+separately
 /
 /
 interleave
@@ -622,10 +622,7 @@ input_sizes
 )
 override
 {
-#
-if
-JXL_ENABLE_ASSERT
-JXL_ASSERT
+JXL_ENSURE
 (
 input_sizes
 .
@@ -657,7 +654,7 @@ c
 +
 )
 {
-JXL_ASSERT
+JXL_ENSURE
 (
 input_sizes
 [
@@ -675,7 +672,7 @@ input_sizes
 first
 )
 ;
-JXL_ASSERT
+JXL_ENSURE
 (
 input_sizes
 [
@@ -694,8 +691,6 @@ second
 )
 ;
 }
-#
-endif
 xsize_
 =
 input_sizes

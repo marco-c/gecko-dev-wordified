@@ -184,17 +184,6 @@ status
 .
 h
 "
-#
-include
-"
-lib
-/
-jxl
-/
-image_bundle
-.
-h
-"
 namespace
 jxl
 {
@@ -736,7 +725,7 @@ pool
 )
 )
 ;
-JXL_ASSERT
+JXL_ENSURE
 (
 encoded_image
 .

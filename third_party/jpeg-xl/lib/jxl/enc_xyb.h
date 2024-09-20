@@ -174,7 +174,7 @@ copy
 of
 image
 .
-void
+Status
 ToXYB
 (
 const

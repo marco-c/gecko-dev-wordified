@@ -1915,7 +1915,7 @@ pixels
 )
 )
 ;
-JXL_ASSERT
+JXL_ENSURE
 (
 offset
 +
@@ -1988,7 +1988,7 @@ pixels
 )
 )
 ;
-JXL_ASSERT
+JXL_ENSURE
 (
 offset
 +

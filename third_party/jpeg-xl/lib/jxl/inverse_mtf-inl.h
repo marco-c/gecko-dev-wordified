@@ -95,6 +95,8 @@ lib
 /
 jxl
 /
+base
+/
 sanitizers
 .
 h

@@ -961,7 +961,7 @@ findData
 )
 )
 {
-JXL_ASSERT
+JXL_DASSERT
 (
 GetLastError
 (

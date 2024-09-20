@@ -51,7 +51,12 @@ LIB_JXL_RENDER_PIPELINE_STAGE_SPOT_H_
 #
 include
 <
-utility
+cstddef
+>
+#
+include
+<
+memory
 >
 #
 include
@@ -87,7 +92,7 @@ RenderPipelineStage
 GetSpotColorStage
 (
 size_t
-spot_c
+spot_c_offset
 const
 float
 *

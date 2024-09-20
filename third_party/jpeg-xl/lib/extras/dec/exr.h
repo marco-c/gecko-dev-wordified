@@ -58,6 +58,11 @@ memory
 .
 #
 include
+<
+cstdint
+>
+#
+include
 "
 lib
 /

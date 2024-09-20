@@ -57,6 +57,15 @@ images
 #
 include
 <
+jxl
+/
+memory_manager
+.
+h
+>
+#
+include
+<
 algorithm
 >
 #
@@ -84,6 +93,19 @@ jxl
 base
 /
 compiler_specific
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
+base
+/
+rect
 .
 h
 "
@@ -190,7 +212,7 @@ template
 typename
 T
 >
-void
+Status
 CopyImageTo
 (
 const
@@ -209,7 +231,7 @@ JXL_RESTRICT
 to
 )
 {
-JXL_ASSERT
+JXL_ENSURE
 (
 SameSize
 (
@@ -241,6 +263,7 @@ xsize
 0
 )
 return
+true
 ;
 for
 (
@@ -305,6 +328,9 @@ T
 )
 ;
 }
+return
+true
+;
 }
 /
 /
@@ -322,7 +348,7 @@ template
 typename
 T
 >
-void
+Status
 CopyImageTo
 (
 const
@@ -349,7 +375,7 @@ JXL_RESTRICT
 to
 )
 {
-JXL_DASSERT
+JXL_ENSURE
 (
 SameSize
 (
@@ -358,7 +384,7 @@ rect_to
 )
 )
 ;
-JXL_DASSERT
+JXL_ENSURE
 (
 rect_from
 .
@@ -368,7 +394,7 @@ from
 )
 )
 ;
-JXL_DASSERT
+JXL_ENSURE
 (
 rect_to
 .
@@ -391,6 +417,7 @@ xsize
 0
 )
 return
+true
 ;
 for
 (
@@ -456,6 +483,9 @@ T
 )
 ;
 }
+return
+true
+;
 }
 /
 /
@@ -473,7 +503,7 @@ template
 typename
 T
 >
-void
+Status
 CopyImageTo
 (
 const
@@ -500,7 +530,7 @@ JXL_RESTRICT
 to
 )
 {
-JXL_ASSERT
+JXL_ENSURE
 (
 SameSize
 (
@@ -525,6 +555,8 @@ c
 +
 )
 {
+JXL_RETURN_IF_ERROR
+(
 CopyImageTo
 (
 rect_from
@@ -544,8 +576,12 @@ Plane
 c
 )
 )
+)
 ;
 }
+return
+true
+;
 }
 template
 <
@@ -554,7 +590,7 @@ T
 typename
 U
 >
-void
+Status
 ConvertPlaneAndClamp
 (
 const
@@ -581,7 +617,7 @@ JXL_RESTRICT
 to
 )
 {
-JXL_ASSERT
+JXL_ENSURE
 (
 SameSize
 (
@@ -725,6 +761,9 @@ max
 ;
 }
 }
+return
+true
+;
 }
 /
 /
@@ -738,7 +777,7 @@ template
 typename
 T
 >
-void
+Status
 CopyImageTo
 (
 const
@@ -809,7 +848,7 @@ template
 typename
 T
 >
-void
+Status
 CopyImageToWithPadding
 (
 const
@@ -919,7 +958,7 @@ ysize
 )
 )
 ;
-JXL_DASSERT
+JXL_ENSURE
 (
 to_rect
 .
@@ -931,7 +970,7 @@ x0
 xextra0
 )
 ;
-JXL_DASSERT
+JXL_ENSURE
 (
 to_rect
 .
@@ -1087,7 +1126,7 @@ ysize
 (
 )
 ;
-JXL_CHECK
+JXL_ENSURE
 (
 xsize
 =
@@ -1099,7 +1138,7 @@ xsize
 )
 )
 ;
-JXL_CHECK
+JXL_ENSURE
 (
 ysize
 =
@@ -1109,6 +1148,16 @@ image2
 ysize
 (
 )
+)
+;
+JxlMemoryManager
+*
+memory_manager
+=
+image1
+.
+memory_manager
+(
 )
 ;
 JXL_ASSIGN_OR_RETURN
@@ -1126,6 +1175,7 @@ T
 :
 Create
 (
+memory_manager
 xsize
 ysize
 )
@@ -2514,7 +2564,7 @@ allocated
 large
 enough
 .
-void
+Status
 PadImageToBlockMultipleInPlace
 (
 Image3F

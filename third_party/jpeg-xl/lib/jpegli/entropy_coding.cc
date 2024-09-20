@@ -796,7 +796,7 @@ by
 )
 {
 JBLOCKARRAY
-ba
+blocks
 =
 (
 *
@@ -1082,7 +1082,7 @@ coeff_t
 block
 =
 &
-ba
+blocks
 [
 0
 ]
@@ -1683,7 +1683,7 @@ by
 )
 {
 JBLOCKARRAY
-ba
+blocks
 =
 (
 *
@@ -1785,7 +1785,7 @@ coeff_t
 block
 =
 &
-ba
+blocks
 [
 0
 ]
@@ -2624,7 +2624,7 @@ tokens
 }
 }
 JBLOCKARRAY
-ba
+blocks
 [
 MAX_COMPS_IN_SCAN
 ]
@@ -2737,7 +2737,7 @@ n_blocks_y
 block_rows_left
 )
 ;
-ba
+blocks
 [
 i
 ]
@@ -3149,7 +3149,7 @@ else
 block
 =
 &
-ba
+blocks
 [
 i
 ]
@@ -3427,6 +3427,9 @@ num_refinement_bits
 int
 num_refinement_scans
 [
+kMaxComponents
+]
+[
 DCTSIZE2
 ]
 =
@@ -3522,6 +3525,17 @@ ac_ctx_offset
 i
 ]
 ;
+int
+comp_idx
+=
+si
+-
+>
+component_index
+[
+0
+]
+;
 TokenizeScan
 (
 cinfo
@@ -3569,6 +3583,9 @@ k
 )
 {
 num_refinement_scans
+[
+comp_idx
+]
 [
 k
 ]
@@ -3781,6 +3798,17 @@ scan_info
 i
 ]
 ;
+int
+comp_idx
+=
+si
+-
+>
+component_index
+[
+0
+]
+;
 ScanTokenInfo
 *
 sti
@@ -3819,6 +3847,9 @@ Ah
 =
 =
 num_refinement_scans
+[
+comp_idx
+]
 [
 si
 -
@@ -3871,7 +3902,7 @@ m
 -
 >
 next_refinement_bit
-=
+<
 =
 refinement_bits
 +
@@ -4499,6 +4530,8 @@ true
 void
 ClusterJpegHistograms
 (
+j_compress_ptr
+cinfo
 const
 Histogram
 *
@@ -4881,7 +4914,7 @@ i
 =
 histogram_index
 ;
-JXL_ASSERT
+JPEGLI_CHECK
 (
 clusters
 -
@@ -5841,6 +5874,7 @@ dc_clusters
 ;
 ClusterJpegHistograms
 (
+cinfo
 histograms
 .
 data
@@ -5865,6 +5899,7 @@ ac_clusters
 ;
 ClusterJpegHistograms
 (
+cinfo
 histograms
 .
 data

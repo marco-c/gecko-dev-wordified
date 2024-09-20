@@ -151,7 +151,7 @@ uint32_t
 ratio
 )
 {
-JXL_ASSERT
+JXL_DASSERT
 (
 0
 !
@@ -561,7 +561,7 @@ xsize32
 ;
 }
 }
-JXL_ASSERT
+JXL_ENSURE
 (
 xsize
 (
@@ -571,7 +571,7 @@ xsize
 xsize64
 )
 ;
-JXL_ASSERT
+JXL_ENSURE
 (
 ysize
 (
@@ -719,7 +719,7 @@ xsize32
 ;
 }
 }
-JXL_ASSERT
+JXL_ENSURE
 (
 xsize
 (
@@ -729,7 +729,7 @@ xsize
 xsize64
 )
 ;
-JXL_ASSERT
+JXL_ENSURE
 (
 ysize
 (

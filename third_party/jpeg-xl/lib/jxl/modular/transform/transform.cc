@@ -62,6 +62,9 @@ include
 <
 cinttypes
 >
+/
+/
+PRIu32
 #
 include
 "
@@ -208,6 +211,7 @@ ThreadPool
 *
 pool
 )
+const
 {
 JXL_DEBUG_V
 (

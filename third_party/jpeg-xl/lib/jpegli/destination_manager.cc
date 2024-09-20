@@ -372,6 +372,9 @@ output_size
 ;
 /
 /
+NOLINT
+/
+/
 Output
 buffer
 allocated
@@ -851,6 +854,11 @@ unsigned
 long
 *
 outsize
+/
+*
+NOLINT
+*
+/
 )
 {
 if

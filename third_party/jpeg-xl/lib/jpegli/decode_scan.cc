@@ -69,6 +69,9 @@ base
 .
 h
 >
+/
+/
+HWY_ALIGN_MAX
 #
 include
 "
@@ -1230,8 +1233,7 @@ JXL_DASSERT
 (
 s
 >
-=
-1
+0
 )
 ;
 int

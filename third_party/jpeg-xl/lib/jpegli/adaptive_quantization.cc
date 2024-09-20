@@ -2874,7 +2874,7 @@ FastLog2f
 .
 const
 auto
-kGam
+kGamma
 =
 Set
 (
@@ -2892,7 +2892,7 @@ d
 return
 MulAdd
 (
-kGam
+kGamma
 FastLog2f
 (
 d
@@ -4816,7 +4816,7 @@ iy
 ;
 float
 *
-row_dout
+row_d_out
 =
 pre_erosion
 -
@@ -4842,7 +4842,7 @@ x
 +
 )
 {
-row_dout
+row_d_out
 [
 x
 ]

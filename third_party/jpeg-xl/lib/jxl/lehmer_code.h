@@ -207,7 +207,7 @@ template
 typename
 PermutationT
 >
-void
+Status
 ComputeLehmerCode
 (
 const
@@ -325,7 +325,7 @@ clear
 lowest
 bit
 }
-JXL_DASSERT
+JXL_ENSURE
 (
 s
 >
@@ -382,6 +382,9 @@ i
 ;
 }
 }
+return
+true
+;
 }
 /
 /
@@ -430,7 +433,7 @@ template
 typename
 PermutationT
 >
-void
+Status
 DecodeLehmerCode
 (
 const
@@ -450,7 +453,7 @@ JXL_RESTRICT
 permutation
 )
 {
-JXL_DASSERT
+JXL_ENSURE
 (
 n
 !
@@ -539,7 +542,7 @@ i
 +
 )
 {
-JXL_DASSERT
+JXL_ENSURE
 (
 code
 [
@@ -611,7 +614,7 @@ next
 +
 bit
 ;
-JXL_DASSERT
+JXL_ENSURE
 (
 cand
 >
@@ -698,6 +701,9 @@ next
 ;
 }
 }
+return
+true
+;
 }
 }
 /

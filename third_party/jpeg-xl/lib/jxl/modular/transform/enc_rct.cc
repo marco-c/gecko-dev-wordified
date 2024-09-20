@@ -308,6 +308,9 @@ const
 int
 thread
 )
+-
+>
+Status
 {
 const
 pixel_type
@@ -661,9 +664,13 @@ Third
 ;
 }
 }
+return
+true
+;
 }
 ;
-return
+JXL_RETURN_IF_ERROR
+(
 RunOnPool
 (
 pool
@@ -678,6 +685,10 @@ do_rct
 FwdRCT
 "
 )
+)
+;
+return
+true
 ;
 }
 }

@@ -198,7 +198,10 @@ PackedPixelFile
 ppf
 )
 ;
+StatusOr
+<
 PackedPixelFile
+>
 ConvertImage3FToPackedPixelFile
 (
 const
