@@ -463,6 +463,12 @@ _
 ShellUseCounters
 600
 )
+\
+_
+(
+WasmCodeMetaStats
+600
+)
 namespace
 js
 {
