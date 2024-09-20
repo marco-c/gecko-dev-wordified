@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-BaseProfilerSharedLibraries
+SharedLibraries
 .
 h
 "
