@@ -10702,7 +10702,7 @@ change
 the
 name
 .
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 mDoc
@@ -10775,7 +10775,7 @@ change
 the
 description
 .
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 mDoc
@@ -10913,7 +10913,7 @@ in
 these
 subtrees
 .
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 mDoc
@@ -11085,7 +11085,7 @@ in
 these
 subtrees
 .
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 mDoc
@@ -16445,7 +16445,7 @@ Relation
 rel
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -16542,7 +16542,7 @@ rel
 AppendIter
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -16569,7 +16569,7 @@ Relation
 rel
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -16684,7 +16684,7 @@ rel
 AppendIter
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -17289,7 +17289,7 @@ Relation
 rel
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -17328,7 +17328,7 @@ return
 Relation
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -18454,7 +18454,7 @@ return
 Relation
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -18616,7 +18616,7 @@ return
 Relation
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
@@ -30339,7 +30339,7 @@ uint64_t
 >
 headers
 ;
-IDRefsIterator
+AssociatedElementsIterator
 iter
 (
 mDoc
@@ -30973,14 +30973,14 @@ else
 We
 use
 an
-IDRefsIterator
+AssociatedElementsIterator
 here
 instead
 of
 calling
+/
+/
 RelationByType
-/
-/
 directly
 because
 we
@@ -30989,11 +30989,11 @@ want
 to
 cache
 explicit
+/
+/
 relations
 .
 Implicit
-/
-/
 relations
 (
 e
@@ -31005,13 +31005,13 @@ exposed
 on
 the
 target
+/
+/
 of
 aria
 -
 labelledby
 )
-/
-/
 will
 be
 computed
@@ -31020,6 +31020,8 @@ stored
 separately
 in
 the
+/
+/
 parent
 process
 .
@@ -31028,7 +31030,7 @@ rel
 AppendIter
 (
 new
-IDRefsIterator
+AssociatedElementsIterator
 (
 mDoc
 mContent
