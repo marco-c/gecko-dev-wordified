@@ -776,6 +776,14 @@ SVGDisplayContainerFrame
 nsIFrame
 :
 void
+DidSetComputedStyle
+(
+ComputedStyle
+*
+)
+override
+;
+void
 InsertFrames
 (
 ChildListID

@@ -1074,12 +1074,8 @@ StyleDisplay
 )
 )
 {
-SVGUtils
-:
-:
-NotifyChildrenOfSVGChange
+NotifySVGChanged
 (
-this
 TRANSFORM_CHANGED
 )
 ;
