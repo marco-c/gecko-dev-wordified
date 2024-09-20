@@ -6411,7 +6411,7 @@ rv
 clearDataService
 -
 >
-DeleteDataFromBaseDomain
+DeleteDataFromSite
 (
 host
 false
