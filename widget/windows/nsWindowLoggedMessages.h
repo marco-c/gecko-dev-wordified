@@ -170,10 +170,8 @@ hwnd
 void
 GetLatestWindowMessages
 (
-RefPtr
-<
 nsIWidget
->
+*
 windowWidget
 nsTArray
 <
