@@ -630,7 +630,7 @@ sample
 .
 *
 /
-void
+bool
 SampleAnimationOnce
 (
 )
@@ -661,6 +661,7 @@ AdvanceBy
 increment
 )
 ;
+return
 apzc
 -
 >
@@ -690,7 +691,7 @@ sample
 .
 *
 /
-void
+bool
 SampleAnimationOneFrame
 (
 )
@@ -721,6 +722,7 @@ AdvanceBy
 increment
 )
 ;
+return
 apzc
 -
 >

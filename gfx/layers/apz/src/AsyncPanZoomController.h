@@ -11232,17 +11232,6 @@ AsyncPanZoomController
 aScrolledApzc
 )
 ;
-void
-HandleSmoothScrollOverscroll
-(
-const
-ParentLayerPoint
-&
-aVelocity
-SideBits
-aOverscrollSideBits
-)
-;
 /
 /
 Start
