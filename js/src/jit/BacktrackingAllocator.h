@@ -4051,6 +4051,14 @@ iter
 )
 ;
 }
+void
+removeRangesForBundle
+(
+LiveBundle
+*
+bundle
+)
+;
 LiveBundle
 *
 firstBundle
