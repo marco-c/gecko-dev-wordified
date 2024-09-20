@@ -155,8 +155,153 @@ def
 assert_timing_info
 (
 timing_info
+expected_time_range
+=
+None
 )
 :
+    
+#
+First
+assert
+time
+origin
+which
+is
+reused
+to
+assert
+the
+following
+values
+.
+    
+time_origin
+=
+timing_info
+.
+get
+(
+"
+timeOrigin
+"
+)
+    
+any_number
+(
+time_origin
+)
+    
+def
+assert_timing
+(
+actual
+)
+:
+        
+#
+Check
+that
+the
+timing
+is
+a
+number
+        
+any_number
+(
+actual
+)
+        
+#
+If
+a
+time
+range
+was
+provided
+assert
+that
+the
+time
+is
+within
+the
+        
+#
+provided
+bounds
+.
+        
+#
+Unless
+timing
+is
+0
+which
+means
+the
+timing
+is
+not
+relevant
+for
+the
+        
+#
+current
+network
+event
+or
+is
+not
+known
+yet
+.
+        
+if
+expected_time_range
+is
+not
+None
+and
+actual
+!
+=
+0
+:
+            
+#
+Add
+time_origin
+to
+actual
+to
+get
+the
+absolute
+time
+corresponding
+            
+#
+to
+the
+timing
+.
+            
+expected_time_range
+(
+actual
++
+time_origin
+)
+    
+#
+Assert
+all
+other
+timings
+.
     
 recursive_compare
 (
@@ -164,82 +309,76 @@ recursive_compare
 {
             
 "
-timeOrigin
-"
-:
-any_number
-            
-"
 requestTime
 "
 :
-any_number
+assert_timing
             
 "
 redirectStart
 "
 :
-any_number
+assert_timing
             
 "
 redirectEnd
 "
 :
-any_number
+assert_timing
             
 "
 fetchStart
 "
 :
-any_number
+assert_timing
             
 "
 dnsStart
 "
 :
-any_number
+assert_timing
             
 "
 dnsEnd
 "
 :
-any_number
+assert_timing
             
 "
 connectStart
 "
 :
-any_number
+assert_timing
             
 "
 connectEnd
 "
 :
-any_number
+assert_timing
             
 "
 tlsStart
 "
 :
-any_number
+assert_timing
             
 "
 requestStart
 "
 :
-any_number
+assert_timing
             
 "
 responseStart
 "
 :
-any_number
+assert_timing
             
 "
 responseEnd
 "
 :
-any_number
+assert_timing
         
 }
         
@@ -251,6 +390,7 @@ assert_request_data
 (
 request_data
 expected_request
+expected_time_range
 )
 :
     
@@ -311,16 +451,6 @@ any_string
         
 request_data
     
-)
-    
-assert_timing_info
-(
-request_data
-[
-"
-timings
-"
-]
 )
     
 for
@@ -499,6 +629,17 @@ headers
 "
 ]
     
+assert_timing_info
+(
+request_data
+[
+"
+timings
+"
+]
+expected_time_range
+)
+    
 recursive_compare
 (
 expected_request
@@ -531,6 +672,10 @@ redirect_count
 None
     
 expected_request
+=
+None
+    
+expected_time_range
 =
 None
 )
@@ -740,6 +885,11 @@ redirect_count
 Assert
 request
 data
+(
+expected_time_range
+is
+optional
+)
     
 if
 expected_request
@@ -757,6 +907,7 @@ request
 "
 ]
 expected_request
+expected_time_range
 )
 def
 assert_before_request_sent_event
@@ -785,6 +936,10 @@ redirect_count
 None
     
 expected_request
+=
+None
+    
+expected_time_range
 =
 None
 )
@@ -856,6 +1011,10 @@ redirect_count
 expected_request
 =
 expected_request
+        
+expected_time_range
+=
+expected_time_range
     
 )
 def
@@ -889,6 +1048,10 @@ redirect_count
 None
     
 expected_request
+=
+None
+    
+expected_time_range
 =
 None
 )
@@ -961,6 +1124,10 @@ redirect_count
 expected_request
 =
 expected_request
+        
+expected_time_range
+=
+expected_time_range
     
 )
 def
@@ -1208,6 +1375,10 @@ None
 expected_response
 =
 None
+    
+expected_time_range
+=
+None
 )
 :
     
@@ -1277,6 +1448,10 @@ redirect_count
 expected_request
 =
 expected_request
+        
+expected_time_range
+=
+expected_time_range
     
 )
 #
