@@ -155,6 +155,14 @@ QuotaManager
 aQuotaManager
 )
 ;
+void
+NotifyClientDirectoryOpeningStarted
+(
+QuotaManager
+&
+aQuotaManager
+)
+;
 }
 /
 /
