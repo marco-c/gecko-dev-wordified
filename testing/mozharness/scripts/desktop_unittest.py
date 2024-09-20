@@ -10410,8 +10410,9 @@ do_macos_video_recording
 else
 :
                             
-raise
-NotImplementedError
+self
+.
+warning
 (
                                 
 "
