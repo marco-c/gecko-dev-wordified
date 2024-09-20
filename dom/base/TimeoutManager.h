@@ -367,7 +367,7 @@ ClearAllTimeouts
 (
 )
 ;
-int32_t
+uint32_t
 GetTimeoutId
 (
 mozilla
@@ -1166,7 +1166,7 @@ Timeout
 *
 GetTimeout
 (
-int32_t
+uint32_t
 aTimeoutId
 Timeout
 :
@@ -1423,7 +1423,7 @@ scripts
 Timeouts
 mTimeouts
 ;
-int32_t
+uint32_t
 mTimeoutIdCounter
 ;
 uint32_t
@@ -1493,7 +1493,7 @@ request
 callback
 timeout
 handle
-int32_t
+uint32_t
 mIdleCallbackTimeoutCounter
 ;
 nsCOMPtr
