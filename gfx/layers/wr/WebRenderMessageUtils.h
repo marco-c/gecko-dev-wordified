@@ -2078,9 +2078,6 @@ a
 gpu_cache_cpu_mirror
 a
 .
-render_tasks
-a
-.
 hit_testers
 a
 .
@@ -2109,6 +2106,12 @@ upload_staging_memory
 a
 .
 swgl
+a
+.
+frame_allocator
+a
+.
+render_tasks
 a
 .
 gpu_cache_textures

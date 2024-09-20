@@ -10084,10 +10084,6 @@ gpu_cache_cpu_mirror
 :
 usize
 pub
-render_tasks
-:
-usize
-pub
 hit_testers
 :
 usize
@@ -10125,6 +10121,14 @@ upload_staging_memory
 usize
 pub
 swgl
+:
+usize
+pub
+frame_allocator
+:
+usize
+pub
+render_tasks
 :
 usize
 /
