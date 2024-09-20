@@ -609,6 +609,15 @@ nsIChannel
 aChannel
 )
 ;
+static
+nsresult
+CheckForIncoherentResultPrincipal
+(
+nsIChannel
+*
+aChannel
+)
+;
 virtual
 ~
 nsContentSecurityManager
