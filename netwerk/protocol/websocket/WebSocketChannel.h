@@ -1653,11 +1653,6 @@ mRecvdHttpUpgradeTransport
 1
 ;
 uint32_t
-mAllowPMCE
-:
-1
-;
-uint32_t
 :
 0
 ;
