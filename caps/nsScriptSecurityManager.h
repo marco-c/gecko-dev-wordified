@@ -512,6 +512,15 @@ aInnerWindowID
 )
 ;
 static
+uint32_t
+HashPrincipalByOrigin
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
 bool
 GetStrictFileOriginPolicy
 (
