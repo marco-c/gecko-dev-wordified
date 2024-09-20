@@ -113,9 +113,11 @@ nsIID
 mod
 abort
 ;
+pub
 mod
 checker
 ;
+pub
 mod
 connection
 ;
@@ -143,6 +145,7 @@ schema
 mod
 sql
 ;
+pub
 mod
 store
 ;
