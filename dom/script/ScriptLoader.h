@@ -345,6 +345,9 @@ class
 nsIScriptGlobalObject
 ;
 class
+nsITimer
+;
+class
 nsIURI
 ;
 namespace
@@ -2189,6 +2192,10 @@ processing
 void
 ProcessPendingRequests
 (
+bool
+aAllowBypassingParserBlocking
+=
+false
 )
 ;
 /
@@ -3445,6 +3452,11 @@ SetEnabled
 virtual
 void
 ProcessPendingRequestsAsync
+(
+)
+;
+void
+ProcessPendingRequestsAsyncBypassParserBlocking
 (
 )
 ;
@@ -4788,6 +4800,12 @@ RefPtr
 SharedScriptCache
 >
 mCache
+;
+nsCOMPtr
+<
+nsITimer
+>
+mProcessPendingRequestsAsyncBypassParserBlocking
 ;
 /
 /
