@@ -830,7 +830,7 @@ data
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser2
 "
@@ -1839,7 +1839,7 @@ Services
 .
 clearData
 .
-CLEAR_SESSION_HISTORY
+CLEAR_HISTORY
 resolve
 )
 ;
