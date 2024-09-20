@@ -1733,11 +1733,16 @@ SetSecInfo
 (
 )
 ;
+#
+ifndef
+ANDROID
 void
 EchOutcomeTelemetry
 (
 )
 ;
+#
+endif
 void
 StreamReadyToWrite
 (
@@ -1768,6 +1773,9 @@ bool
 aRestart
 )
 ;
+#
+ifndef
+ANDROID
 enum
 ZeroRttOutcome
 {
@@ -1785,6 +1793,8 @@ ZeroRttOutcome
 aOutcome
 )
 ;
+#
+endif
 RefPtr
 <
 NeqoHttp3Conn
