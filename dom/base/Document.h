@@ -19460,6 +19460,15 @@ ShadowRoot
 )
 const
 ;
+void
+SynchronouslyUpdateRemoteBrowserDimensions
+(
+bool
+aIncludeInactive
+=
+false
+)
+;
 /
 /
 Notifies
@@ -23782,6 +23791,10 @@ browsers
 void
 UpdateRemoteFrameEffects
 (
+bool
+aIncludeInactive
+=
+false
 )
 ;
 MOZ_CAN_RUN_SCRIPT
