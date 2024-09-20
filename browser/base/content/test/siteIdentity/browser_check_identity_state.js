@@ -454,9 +454,6 @@ config
 downloads
 "
 "
-ion
-"
-"
 license
 "
 "
