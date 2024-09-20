@@ -258,10 +258,14 @@ i
 i
 )
 {
-WriteToTypedArray
+ta_write
+[
+i
+]
+=
+MayNeedBigInt
 (
 ta_write
-i
 i
 )
 ;

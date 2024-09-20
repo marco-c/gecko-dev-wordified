@@ -214,6 +214,7 @@ this
 function
 ResizeMidIteration
 (
+acc
 n
 )
 {

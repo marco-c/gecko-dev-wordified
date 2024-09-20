@@ -67,9 +67,9 @@ escapes
 -
 tests
 Unicode
-v15
+v16
 .
-1
+0
 .
 0
 esid
@@ -115,6 +115,8 @@ buildString
 loneCodePoints
 :
 [
+0x000305
+0x000323
 0x003037
 0x01B000
 0x01B155
@@ -327,6 +329,14 @@ ranges
 ]
 [
 0x000000
+0x000304
+]
+[
+0x000306
+0x000322
+]
+[
+0x000324
 0x003000
 ]
 [

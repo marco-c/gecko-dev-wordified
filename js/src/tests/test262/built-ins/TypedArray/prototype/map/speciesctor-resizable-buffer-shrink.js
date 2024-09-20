@@ -435,10 +435,14 @@ i
 i
 )
 {
-WriteToTypedArray
+taWrite
+[
+i
+]
+=
+MayNeedBigInt
 (
 taWrite
-i
 i
 )
 ;

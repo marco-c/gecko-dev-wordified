@@ -243,10 +243,14 @@ length
 i
 )
 {
-WriteToTypedArray
+wholeArrayView
+[
+i
+]
+=
+MayNeedBigInt
 (
 wholeArrayView
-i
 2
 *
 i

@@ -65,9 +65,9 @@ escapes
 -
 tests
 Unicode
-v15
+v16
 .
-1
+0
 .
 0
 esid
@@ -155,7 +155,7 @@ ranges
 0x018CD5
 ]
 [
-0x018D00
+0x018CFF
 0x018D08
 ]
 [
@@ -311,7 +311,7 @@ ranges
 ]
 [
 0x018CD6
-0x018CFF
+0x018CFE
 ]
 [
 0x018D09

@@ -67,9 +67,9 @@ escapes
 -
 tests
 Unicode
-v15
+v16
 .
-1
+0
 .
 0
 esid
@@ -121,10 +121,6 @@ ranges
 [
 [
 0x0016A0
-0x0016EA
-]
-[
-0x0016EE
 0x0016F8
 ]
 ]
@@ -259,10 +255,6 @@ ranges
 [
 0x000000
 0x00169F
-]
-[
-0x0016EB
-0x0016ED
 ]
 [
 0x0016F9

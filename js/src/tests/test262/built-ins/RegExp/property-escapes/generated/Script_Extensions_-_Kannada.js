@@ -67,9 +67,9 @@ escapes
 -
 tests
 Unicode
-v15
+v16
 .
-1
+0
 .
 0
 esid
@@ -116,7 +116,6 @@ loneCodePoints
 :
 [
 0x001CD0
-0x001CD2
 0x001CDA
 0x001CF2
 0x001CF4
@@ -183,6 +182,10 @@ ranges
 [
 0x000CF1
 0x000CF3
+]
+[
+0x001CD2
+0x001CD3
 ]
 [
 0x00A830
@@ -360,7 +363,7 @@ ranges
 0x001CCF
 ]
 [
-0x001CD3
+0x001CD4
 0x001CD9
 ]
 [

@@ -462,7 +462,7 @@ date
 .
 era
 "
-ce
+japanese
 "
 )
 ;

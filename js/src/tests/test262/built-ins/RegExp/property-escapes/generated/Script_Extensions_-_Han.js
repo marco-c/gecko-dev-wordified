@@ -67,9 +67,9 @@ escapes
 -
 tests
 Unicode
-v15
+v16
 .
-1
+0
 .
 0
 esid
@@ -115,8 +115,10 @@ buildString
 loneCodePoints
 :
 [
+0x0000B7
 0x003030
 0x0030FB
+0x0031EF
 0x0032FF
 ]
 ranges
@@ -133,6 +135,10 @@ ranges
 [
 0x002F00
 0x002FD5
+]
+[
+0x002FF0
+0x002FFF
 ]
 [
 0x003001
@@ -160,7 +166,7 @@ ranges
 ]
 [
 0x0031C0
-0x0031E3
+0x0031E5
 ]
 [
 0x003220
@@ -388,6 +394,7 @@ loneCodePoints
 :
 [
 0x002E9A
+0x003000
 0x003004
 0x003012
 0x003020
@@ -402,6 +409,10 @@ ranges
 ]
 [
 0x000000
+0x0000B6
+]
+[
+0x0000B8
 0x002E7F
 ]
 [
@@ -410,7 +421,7 @@ ranges
 ]
 [
 0x002FD6
-0x003000
+0x002FEF
 ]
 [
 0x00302E
@@ -433,7 +444,11 @@ ranges
 0x0031BF
 ]
 [
-0x0031E4
+0x0031E6
+0x0031EE
+]
+[
+0x0031F0
 0x00321F
 ]
 [

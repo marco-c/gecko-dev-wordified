@@ -67,9 +67,9 @@ escapes
 -
 tests
 Unicode
-v15
+v16
 .
-1
+0
 .
 0
 esid
@@ -132,7 +132,7 @@ ranges
 ]
 [
 0x001C80
-0x001C88
+0x001C8A
 ]
 [
 0x002DE0
@@ -292,7 +292,7 @@ ranges
 0x001C7F
 ]
 [
-0x001C89
+0x001C8B
 0x001D2A
 ]
 [
