@@ -6255,11 +6255,6 @@ ServoStyleSet
 :
 ImportRuleLoaded
 (
-dom
-:
-:
-CSSImportRule
-&
 StyleSheet
 &
 aSheet
@@ -6664,6 +6659,11 @@ CASE_FOR
 (
 PositionTry
 PositionTry
+)
+CASE_FOR
+(
+NestedDeclarations
+NestedDeclarations
 )
 /
 /

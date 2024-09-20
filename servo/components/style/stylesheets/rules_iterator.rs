@@ -505,6 +505,14 @@ _
 CssRule
 :
 :
+NestedDeclarations
+(
+_
+)
+|
+CssRule
+:
+:
 PositionTry
 (
 _

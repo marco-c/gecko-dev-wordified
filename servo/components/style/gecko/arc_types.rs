@@ -194,6 +194,7 @@ StartingStyleRule
 StyleRule
 StylesheetContents
 SupportsRule
+NestedDeclarationsRule
 }
 ;
 use
@@ -578,5 +579,14 @@ PositionTryRule
 LockedPositionTryRule
 Servo_PositionTryRule_AddRef
 Servo_PositionTryRule_Release
+)
+;
+impl_locked_arc_ffi
+!
+(
+NestedDeclarationsRule
+LockedNestedDeclarationsRule
+Servo_NestedDeclarationsRule_AddRef
+Servo_NestedDeclarationsRule_Release
 )
 ;

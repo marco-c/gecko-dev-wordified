@@ -256,3 +256,7 @@ SERVO_LOCKED_ARC_TYPE
 (
 PositionTryRule
 )
+SERVO_LOCKED_ARC_TYPE
+(
+NestedDeclarationsRule
+)
