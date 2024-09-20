@@ -10865,6 +10865,14 @@ unknown
 }
 else
 {
+gc
+:
+:
+AssertRootMarkingPhase
+(
+trc
+)
+;
 MOZ_ASSERT
 (
 frames
