@@ -15567,6 +15567,14 @@ GetScriptLineExtent
 JSScript
 *
 script
+JS
+:
+:
+LimitedColumnNumberOneOrigin
+*
+columnp
+=
+nullptr
 )
 ;
 #
