@@ -2256,12 +2256,6 @@ NS_EVENT_MESSAGE
 (
 eContentCommandScroll
 )
-NS_EVENT_MESSAGE_FIRST_LAST
-(
-eContentCommandEvent
-eContentCommandCut
-eContentCommandScroll
-)
 /
 /
 Event
