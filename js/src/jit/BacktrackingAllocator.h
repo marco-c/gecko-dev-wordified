@@ -4070,7 +4070,6 @@ preferRegister
 =
 false
 )
-const
 ;
 void
 removeRange
