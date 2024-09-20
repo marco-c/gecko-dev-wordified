@@ -691,11 +691,9 @@ get_inherited_ui
 (
 )
 .
-clone_color_scheme
+color_scheme_bits
 (
 )
-.
-bits
 !
 =
 cs
