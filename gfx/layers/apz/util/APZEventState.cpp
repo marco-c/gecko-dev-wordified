@@ -3643,13 +3643,6 @@ SetTransformingByAPZ
 true
 )
 ;
-sf
--
->
-ScrollbarActivityStarted
-(
-)
-;
 }
 nsIContent
 *
@@ -3765,13 +3758,6 @@ sf
 SetTransformingByAPZ
 (
 false
-)
-;
-sf
--
->
-ScrollbarActivityStopped
-(
 )
 ;
 }
