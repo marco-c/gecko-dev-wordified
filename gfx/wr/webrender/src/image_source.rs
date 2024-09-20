@@ -231,6 +231,7 @@ internal_types
 TextureSource
 TextureSourceExternal
 DeferredResolveIndex
+FrameVec
 }
 ;
 /
@@ -270,7 +271,7 @@ deferred_resolves
 :
 &
 mut
-Vec
+FrameVec
 <
 DeferredResolve
 >
