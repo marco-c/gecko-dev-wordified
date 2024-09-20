@@ -1188,7 +1188,6 @@ let
 data
 =
 await
-await
 runFunctionInWorker
 (
 tab
@@ -1294,7 +1293,6 @@ same
 let
 privateData
 =
-await
 await
 runFunctionInWorker
 (

@@ -11469,7 +11469,6 @@ foo
 let
 child2Guid
 =
-await
 PlacesSyncUtils
 .
 bookmarks
@@ -11484,8 +11483,6 @@ recordId
 let
 parentGuid
 =
-await
-await
 PlacesSyncUtils
 .
 bookmarks
