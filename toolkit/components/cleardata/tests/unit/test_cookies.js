@@ -1990,8 +1990,6 @@ setTestCookies
 Clear
 cookies
 of
-test
-.
 example
 .
 net
@@ -2010,15 +2008,15 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 "
-test
-.
 example
 .
 net
 "
+{
+}
 false
 Ci
 .
