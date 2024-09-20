@@ -167,6 +167,11 @@ unregister_memory_counter
 (
 )
 ;
+void
+memory_hooks_tls_init
+(
+)
+;
 }
 /
 /
