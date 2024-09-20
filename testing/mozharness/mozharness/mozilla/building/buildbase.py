@@ -105,10 +105,6 @@ for
 fx
 desktop
 builds
-author
-:
-Jordan
-Lund
 "
 "
 "
