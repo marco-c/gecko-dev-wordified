@@ -1148,6 +1148,17 @@ const
 override
 ;
 bool
+Invalidated
+(
+)
+const
+override
+{
+return
+mInvalidated
+;
+}
+bool
 Dropped
 (
 )

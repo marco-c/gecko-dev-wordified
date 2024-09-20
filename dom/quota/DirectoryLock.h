@@ -286,6 +286,15 @@ const
 ;
 virtual
 bool
+Invalidated
+(
+)
+const
+=
+0
+;
+virtual
+bool
 Dropped
 (
 )
