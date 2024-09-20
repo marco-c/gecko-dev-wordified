@@ -24694,7 +24694,7 @@ nsresult
 BrowsingContext
 :
 :
-CheckLocationChangeRateLimit
+CheckNavigationRateLimit
 (
 CallerType
 aCallerType
@@ -24736,7 +24736,7 @@ limitCount
 StaticPrefs
 :
 :
-dom_navigation_locationChangeRateLimit_count
+dom_navigation_navigationRateLimit_count
 (
 )
 ;
@@ -24746,7 +24746,7 @@ timeSpanSeconds
 StaticPrefs
 :
 :
-dom_navigation_locationChangeRateLimit_timespan
+dom_navigation_navigationRateLimit_timespan
 (
 )
 ;
@@ -24795,7 +24795,7 @@ timeSpanSeconds
 ;
 if
 (
-mLocationChangeRateLimitSpanStart
+mNavigationRateLimitSpanStart
 .
 IsNull
 (
@@ -24811,7 +24811,7 @@ Now
 (
 )
 -
-mLocationChangeRateLimitSpanStart
+mNavigationRateLimitSpanStart
 )
 >
 throttleSpan
@@ -24830,7 +24830,7 @@ counter
 and
 timespan
 .
-mLocationChangeRateLimitSpanStart
+mNavigationRateLimitSpanStart
 =
 TimeStamp
 :
@@ -24839,7 +24839,7 @@ Now
 (
 )
 ;
-mLocationChangeRateLimitCount
+mNavigationRateLimitCount
 =
 1
 ;
@@ -24849,7 +24849,7 @@ NS_OK
 }
 if
 (
-mLocationChangeRateLimitCount
+mNavigationRateLimitCount
 >
 =
 limitCount
@@ -24901,7 +24901,7 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-mLocationChangeRateLimitCount
+mNavigationRateLimitCount
 +
 +
 ;
@@ -24913,7 +24913,7 @@ void
 BrowsingContext
 :
 :
-ResetLocationChangeRateLimit
+ResetNavigationRateLimit
 (
 )
 {
@@ -24939,7 +24939,7 @@ the
 rate
 limit
 .
-mLocationChangeRateLimitSpanStart
+mNavigationRateLimitSpanStart
 =
 TimeStamp
 (

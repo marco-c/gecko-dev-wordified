@@ -742,7 +742,7 @@ max_script_run_time
         
 #
 Disable
-location
+navigation
 change
 rate
 limitation
@@ -752,7 +752,7 @@ dom
 .
 navigation
 .
-locationChangeRateLimit
+navigationRateLimit
 .
 count
 "

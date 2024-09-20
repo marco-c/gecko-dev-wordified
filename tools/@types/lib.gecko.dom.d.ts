@@ -21003,7 +21003,7 @@ BrowsingContext
 [
 ]
 ;
-resetLocationChangeRateLimit
+resetNavigationRateLimit
 (
 )
 :
