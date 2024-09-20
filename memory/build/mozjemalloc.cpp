@@ -4431,7 +4431,6 @@ small
 arena_chunk_map_t
 map
 [
-1
 ]
 ;
 /
@@ -5563,11 +5562,7 @@ sizeof
 arena_chunk_map_t
 )
 *
-(
 gChunkNumPages
--
-1
-)
 +
 gPageSizeMask
 )
@@ -8764,7 +8759,6 @@ free
 unsigned
 mRegionsMask
 [
-1
 ]
 ;
 /
@@ -10206,7 +10200,6 @@ size
 arena_bin_t
 mBins
 [
-1
 ]
 ;
 /
@@ -14897,11 +14890,7 @@ sizeof
 arena_bin_t
 )
 *
-(
 NUM_SMALL_CLASSES
--
-1
-)
 )
 ;
 }
