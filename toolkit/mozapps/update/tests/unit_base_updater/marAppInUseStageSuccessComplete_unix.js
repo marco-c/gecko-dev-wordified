@@ -123,7 +123,7 @@ setupSymLinks
 await
 runHelperFileInUse
 (
-DIR_RESOURCES
+DIR_MACOS
 +
 gCallbackBinFile
 false
