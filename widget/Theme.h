@@ -578,7 +578,7 @@ Overlay
 )
 final
 ;
-nscoord
+CSSCoord
 GetCheckboxRadioPrefSize
 (
 )
@@ -602,14 +602,6 @@ Theme
 )
 =
 default
-;
-DPIRatio
-GetDPIRatio
-(
-nsPresContext
-*
-StyleAppearance
-)
 ;
 DPIRatio
 GetDPIRatio
