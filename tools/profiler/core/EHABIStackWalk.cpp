@@ -298,7 +298,9 @@ h
 #
 include
 "
-SharedLibraries
+shared
+-
+libraries
 .
 h
 "
@@ -4103,7 +4105,7 @@ GetStart
 )
 lib
 .
-DebugPath
+GetNativeDebugPath
 (
 )
 )

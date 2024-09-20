@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-SharedLibraries
+BaseProfilerSharedLibraries
 .
 h
 "
@@ -5069,7 +5069,8 @@ pathStr
 rfind
 (
 '
-/
+\
+\
 '
 )
 ;

@@ -161,7 +161,9 @@ h
 #
 include
 "
-SharedLibraries
+shared
+-
+libraries
 .
 h
 "
@@ -321,7 +323,7 @@ nativePath
 =
 lib
 .
-GetDebugPath
+GetNativeDebugPath
 (
 )
 ;
@@ -450,7 +452,7 @@ GetDebugName
 (
 )
 .
-empty
+IsEmpty
 (
 )
 )
