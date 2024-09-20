@@ -215,8 +215,6 @@ TEST_DIRS
 [
 "
 test
-/
-gtest
 "
 ]
 XPIDL_SOURCES
