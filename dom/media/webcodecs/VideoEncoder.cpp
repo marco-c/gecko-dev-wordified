@@ -1742,6 +1742,10 @@ mCodec
 profile
 constraints
 level
+H264CodecStringStrictness
+:
+:
+Strict
 )
 )
 {
