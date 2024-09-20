@@ -6874,6 +6874,16 @@ numberOfEntries
 +
 +
 ;
+if
+(
+StaticPrefs
+:
+:
+network_http_http2_send_push_max_concurrent_frame
+(
+)
+)
+{
 NetworkEndian
 :
 :
@@ -6909,6 +6919,7 @@ numberOfEntries
 +
 +
 ;
+}
 mWaitingForSettingsAck
 =
 true
