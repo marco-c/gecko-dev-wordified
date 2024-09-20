@@ -543,7 +543,7 @@ this
 }
 static
 MediaFeatureChange
-ForPreferredColorSchemeChange
+ForPreferredColorSchemeOrForcedColorsChange
 (
 )
 {
