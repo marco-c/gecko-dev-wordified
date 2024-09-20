@@ -872,7 +872,7 @@ aFrame
 StyleAppearance
 :
 :
-ScrollbartrackVertical
+ScrollbarVertical
 )
 )
 ;
