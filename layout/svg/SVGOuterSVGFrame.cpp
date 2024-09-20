@@ -4226,15 +4226,6 @@ nsGkAtoms
 :
 :
 preserveAspectRatio
-|
-|
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
-transform
 )
 {
 /
@@ -4814,7 +4805,7 @@ value
 "
 )
 ;
-SVGSVGElement
+auto
 *
 content
 =
