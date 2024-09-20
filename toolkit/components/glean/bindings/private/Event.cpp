@@ -306,6 +306,11 @@ telExtras
 ;
 nsCString
 telValue
+(
+VoidCString
+(
+)
+)
 ;
 for
 (
@@ -472,7 +477,7 @@ extract
 )
 telValue
 .
-IsEmpty
+IsVoid
 (
 )
 ?
