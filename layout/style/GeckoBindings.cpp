@@ -4487,7 +4487,7 @@ Document
 *
 aDoc
 const
-StyleColorSchemeFlags
+StyleColorScheme
 *
 aStyle
 )
@@ -4500,8 +4500,10 @@ ColorSchemeForStyle
 (
 *
 aDoc
-*
 aStyle
+-
+>
+bits
 )
 =
 =
@@ -4521,7 +4523,7 @@ Document
 *
 aDoc
 const
-StyleColorSchemeFlags
+StyleColorScheme
 *
 aStyle
 )
@@ -4536,8 +4538,10 @@ ColorSchemeForStyle
 (
 *
 aDoc
-*
 aStyle
+-
+>
+bits
 )
 ;
 const

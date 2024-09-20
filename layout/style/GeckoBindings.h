@@ -3372,7 +3372,7 @@ const
 mozilla
 :
 :
-StyleColorSchemeFlags
+StyleColorScheme
 *
 )
 ;
@@ -3396,7 +3396,7 @@ const
 mozilla
 :
 :
-StyleColorSchemeFlags
+StyleColorScheme
 *
 )
 ;
