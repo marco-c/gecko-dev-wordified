@@ -556,6 +556,7 @@ result
 Union
 *
 /
+constexpr
 void
 operator
 +
@@ -586,6 +587,7 @@ mBitField
 Union
 *
 /
+constexpr
 EnumSet
 operator
 +
@@ -622,6 +624,7 @@ an
 element
 *
 /
+constexpr
 void
 operator
 -
@@ -656,6 +659,7 @@ an
 element
 *
 /
+constexpr
 EnumSet
 operator
 -
@@ -692,6 +696,7 @@ of
 elements
 *
 /
+constexpr
 void
 operator
 -
@@ -729,6 +734,7 @@ of
 elements
 *
 /
+constexpr
 EnumSet
 operator
 -
@@ -763,6 +769,7 @@ result
 Clear
 *
 /
+constexpr
 void
 clear
 (
@@ -786,6 +793,7 @@ Serialized
 Intersection
 *
 /
+constexpr
 void
 operator
 &
@@ -816,6 +824,7 @@ mBitField
 Intersection
 *
 /
+constexpr
 EnumSet
 operator
 &
@@ -850,6 +859,7 @@ result
 Equality
 *
 /
+constexpr
 bool
 operator
 =
@@ -878,6 +888,7 @@ mBitField
 Equality
 *
 /
+constexpr
 bool
 operator
 =
@@ -906,6 +917,7 @@ Not
 equal
 *
 /
+constexpr
 bool
 operator
 !
@@ -936,6 +948,7 @@ Not
 equal
 *
 /
+constexpr
 bool
 operator
 !
@@ -972,6 +985,7 @@ set
 .
 *
 /
+constexpr
 bool
 contains
 (
@@ -1003,6 +1017,7 @@ set
 .
 *
 /
+constexpr
 bool
 contains
 (
@@ -1097,6 +1112,7 @@ Count
 ;
 }
 }
+constexpr
 bool
 isEmpty
 (

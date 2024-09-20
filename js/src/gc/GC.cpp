@@ -5103,7 +5103,7 @@ in
 collection
 .
 static
-const
+constexpr
 EnumSet
 <
 ZealMode
@@ -5162,7 +5162,7 @@ incremental
 slices
 .
 static
-const
+constexpr
 EnumSet
 <
 ZealMode
@@ -5195,7 +5195,7 @@ GC
 periodically
 .
 static
-const
+constexpr
 EnumSet
 <
 ZealMode
@@ -5246,7 +5246,7 @@ except
 VerifierPre
 .
 static
-const
+constexpr
 EnumSet
 <
 ZealMode
