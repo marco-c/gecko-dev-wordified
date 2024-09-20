@@ -2768,8 +2768,9 @@ transform2D
 )
 {
 return
-{
-}
+1
+.
+0f
 ;
 }
 auto
@@ -2787,7 +2788,7 @@ std
 :
 max
 (
-1
+0
 .
 0f
 std
