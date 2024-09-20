@@ -15127,6 +15127,12 @@ CKM_EC_KEY_PAIR_GEN
 mMechanism
 =
 =
+CKM_EC_MONTGOMERY_KEY_PAIR_GEN
+|
+|
+mMechanism
+=
+=
 CKM_EC_EDWARDS_KEY_PAIR_GEN
 )
 {
