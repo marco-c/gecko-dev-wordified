@@ -323,7 +323,7 @@ BooleanMetric
 fn
 from_glean_metric
 (
-id
+_id
 :
 MetricId
 metric
@@ -380,12 +380,9 @@ LabeledBooleanMetric
 :
 :
 Parent
-{
-id
-inner
-:
+(
 metric
-}
+)
 }
 }
 }
@@ -450,7 +447,7 @@ StringMetric
 fn
 from_glean_metric
 (
-id
+_id
 :
 MetricId
 metric
@@ -507,12 +504,9 @@ LabeledStringMetric
 :
 :
 Parent
-{
-id
-inner
-:
+(
 metric
-}
+)
 }
 }
 }
