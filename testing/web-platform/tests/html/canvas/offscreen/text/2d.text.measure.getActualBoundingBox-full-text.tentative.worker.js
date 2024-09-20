@@ -285,6 +285,11 @@ UNAVAILABLE
 -
 abcd
 '
+'
+'
+'
+bidi
+'
 ]
 ctx
 .
@@ -615,6 +620,11 @@ UNAVAILABLE
 '
 -
 abcd
+'
+'
+'
+'
+bidi
 '
 ]
 ctx
@@ -1022,6 +1032,11 @@ UNAVAILABLE
 -
 abcd
 '
+'
+'
+'
+bidi
+'
 ]
 ctx
 .
@@ -1440,6 +1455,11 @@ UNAVAILABLE
 '
 -
 abcd
+'
+'
+'
+'
+bidi
 '
 ]
 ctx
