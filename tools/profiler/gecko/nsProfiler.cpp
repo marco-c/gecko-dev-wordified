@@ -361,9 +361,7 @@ h
 #
 include
 "
-shared
--
-libraries
+BaseProfilerSharedLibraries
 .
 h
 "

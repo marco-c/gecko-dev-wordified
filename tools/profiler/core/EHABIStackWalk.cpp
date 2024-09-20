@@ -298,9 +298,7 @@ h
 #
 include
 "
-shared
--
-libraries
+BaseProfilerSharedLibraries
 .
 h
 "
@@ -4105,7 +4103,7 @@ GetStart
 )
 lib
 .
-GetNativeDebugPath
+DebugPath
 (
 )
 )
