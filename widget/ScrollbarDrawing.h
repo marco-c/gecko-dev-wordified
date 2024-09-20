@@ -177,6 +177,9 @@ Units
 .
 h
 "
+class
+nsScrollbarFrame
+;
 namespace
 mozilla
 :
@@ -314,7 +317,7 @@ nsPresContext
 )
 ;
 static
-nsIFrame
+nsScrollbarFrame
 *
 GetParentScrollbarFrame
 (
