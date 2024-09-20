@@ -3386,6 +3386,8 @@ struct
 EventMetricWithExtraExtra
 {
 pub
+r
+#
 an_extra_key
 :
 Option
@@ -3393,6 +3395,8 @@ Option
 String
 >
 pub
+r
+#
 another_extra_key
 :
 Option
@@ -3470,6 +3474,8 @@ new
 ;
 self
 .
+r
+#
 an_extra_key
 .
 and_then
@@ -3498,6 +3504,8 @@ to_string
 ;
 self
 .
+r
+#
 another_extra_key
 .
 and_then
