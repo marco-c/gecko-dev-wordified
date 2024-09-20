@@ -57,7 +57,7 @@ MPL
 *
 /
 use
-derive_common
+crate
 :
 :
 cg
