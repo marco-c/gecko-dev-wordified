@@ -683,8 +683,9 @@ else
             
 bootstrap
 .
-update_vct
+configure_mercurial
 (
+                
 vcs
 Path
 (
@@ -694,6 +695,10 @@ _mach_context
 .
 state_dir
 )
+update_only
+=
+True
+            
 )
     
 else
