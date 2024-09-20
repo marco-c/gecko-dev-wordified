@@ -43091,6 +43091,14 @@ IsShuttingDownOnBackgroundThread
 MayProceed
 (
 )
+|
+|
+mDirectoryLock
+-
+>
+Invalidated
+(
+)
 )
 {
 MaybeSetFailureCode
