@@ -1297,6 +1297,17 @@ this
 .
 _registration
 ;
+const
+origin
+=
+this
+.
+_registration
+.
+principal
+.
+origin
+;
 this
 .
 _evaluatingWorker
@@ -1308,6 +1319,7 @@ this
 .
 conn
 evaluatingWorker
+origin
 )
 ;
 this
@@ -1321,6 +1333,7 @@ this
 .
 conn
 installingWorker
+origin
 )
 ;
 this
@@ -1334,6 +1347,7 @@ this
 .
 conn
 waitingWorker
+origin
 )
 ;
 this
@@ -1347,6 +1361,7 @@ this
 .
 conn
 activeWorker
+origin
 )
 ;
 /

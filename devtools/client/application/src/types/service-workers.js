@@ -121,6 +121,13 @@ PropTypes
 string
 .
 isRequired
+origin
+:
+PropTypes
+.
+string
+.
+isRequired
 workerDescriptorFront
 :
 PropTypes

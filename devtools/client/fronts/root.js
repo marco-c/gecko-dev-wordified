@@ -575,6 +575,11 @@ url
 workerFront
 .
 url
+origin
+:
+workerFront
+.
+origin
 workerDescriptorFront
 }
 ;
@@ -894,6 +899,11 @@ url
 front
 .
 url
+origin
+:
+front
+.
+origin
 name
 :
 front
