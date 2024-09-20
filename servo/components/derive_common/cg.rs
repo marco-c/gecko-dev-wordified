@@ -79,7 +79,16 @@ use
 quote
 :
 :
+{
+quote
 TokenStreamExt
+}
+;
+use
+syn
+:
+:
+parse_quote
 ;
 use
 syn
