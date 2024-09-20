@@ -392,7 +392,7 @@ the
 limit
 to
 level
-5
+6
 .
 2
 relying
@@ -456,7 +456,7 @@ level
 H264_LEVEL
 :
 :
-H264_LEVEL_5_2
+H264_LEVEL_6_2
 &
 &
 (
