@@ -224,6 +224,9 @@ filter_app
 (
 tests
 values
+strict
+=
+False
 )
 :
     
