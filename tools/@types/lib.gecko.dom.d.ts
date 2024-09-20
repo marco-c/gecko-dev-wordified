@@ -160775,6 +160775,10 @@ RoundWindowSize
 "
 SiteSpecificZoom
 "
+|
+"
+CSSPrefersColorScheme
+"
 ;
 type
 L10nFileSourceHasFileStatus

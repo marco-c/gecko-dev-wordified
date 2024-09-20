@@ -2059,6 +2059,17 @@ rootNode
 form
 (
 )
+rfpCSSColorScheme
+:
+ChromeUtils
+.
+shouldResistFingerprinting
+(
+"
+CSSPrefersColorScheme
+"
+null
+)
 traits
 :
 {
