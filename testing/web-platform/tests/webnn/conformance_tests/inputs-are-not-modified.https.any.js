@@ -269,11 +269,11 @@ usage
 :
 MLTensorUsage
 .
-WRITE_TO
+WRITE
 |
 MLTensorUsage
 .
-READ_FROM
+READ
 }
 )
 mlContext
@@ -295,7 +295,7 @@ usage
 :
 MLTensorUsage
 .
-READ_FROM
+READ
 }
 )
 builder
@@ -572,11 +572,11 @@ usage
 :
 MLTensorUsage
 .
-WRITE_TO
+WRITE
 |
 MLTensorUsage
 .
-READ_FROM
+READ
 }
 )
 mlContext
@@ -598,7 +598,7 @@ usage
 :
 MLTensorUsage
 .
-READ_FROM
+READ
 }
 )
 builder
