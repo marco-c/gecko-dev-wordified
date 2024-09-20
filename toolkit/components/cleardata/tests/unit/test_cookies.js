@@ -955,7 +955,7 @@ unpartitioned
 cookies
 when
 using
-deleteDataFromBaseDomain
+deleteDataFromSite
 and
 deleteDataFromHost
 .
@@ -1486,13 +1486,15 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 "
 example
 .
 net
 "
+{
+}
 false
 Ci
 .

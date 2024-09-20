@@ -377,7 +377,7 @@ properly
 Test
 nsIClearDataService
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 keyStr
 =
 newKeyStr
@@ -387,7 +387,7 @@ info
 "
 Trigger
 the
-deleteDataFromBaseDomain
+deleteDataFromSite
 "
 )
 ;
@@ -403,13 +403,15 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 "
 example
 .
 com
 "
+{
+}
 true
 /
 *

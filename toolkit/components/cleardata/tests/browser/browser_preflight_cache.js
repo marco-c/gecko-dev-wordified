@@ -422,13 +422,15 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 browser
 .
 contentPrincipal
 .
 baseDomain
+{
+}
 hasUserInput
 clearDataFlag
 value
