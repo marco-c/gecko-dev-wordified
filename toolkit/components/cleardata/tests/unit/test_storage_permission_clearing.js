@@ -760,11 +760,9 @@ Services
 .
 clearData
 .
-deleteDataFromSite
+deleteDataFromBaseDomain
 (
 baseDomain
-{
-}
 true
 Ci
 .
