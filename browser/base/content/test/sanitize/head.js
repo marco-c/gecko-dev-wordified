@@ -2301,7 +2301,14 @@ SiteDataTestUtils
 .
 addServiceWorker
 (
+{
+win
+:
+window
+path
+:
 dummySWURL
+}
 )
 ;
 }
