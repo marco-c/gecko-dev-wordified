@@ -159,7 +159,10 @@ GetMargin
 ]
 (
 const
-LengthPercentageOrAuto
+mozilla
+:
+:
+StyleMargin
 &
 aCoord
 )
@@ -168,9 +171,10 @@ aCoord
 nscoord
 {
 return
+!
 aCoord
 .
-IsAuto
+IsLengthPercentage
 (
 )
 ?
@@ -472,9 +476,7 @@ GetMargin
 styleMargin
 -
 >
-mMargin
-.
-Get
+GetMargin
 (
 startSide
 )
@@ -552,9 +554,7 @@ GetMargin
 styleMargin
 -
 >
-mMargin
-.
-Get
+GetMargin
 (
 endSide
 )

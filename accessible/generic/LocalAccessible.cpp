@@ -9419,6 +9419,7 @@ errors
 in
 tests
 .
+const
 auto
 &
 margin
@@ -9431,9 +9432,7 @@ StyleMargin
 )
 -
 >
-mMargin
-.
-Get
+GetMargin
 (
 aSide
 )

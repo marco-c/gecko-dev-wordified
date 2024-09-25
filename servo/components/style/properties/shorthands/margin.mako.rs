@@ -104,7 +104,7 @@ s
 specified
 :
 :
-LengthPercentageOrAuto
+Margin
 :
 :
 parse
@@ -177,7 +177,7 @@ end
 specified
 :
 :
-LengthPercentageOrAuto
+Margin
 :
 :
 parse
@@ -245,7 +245,7 @@ end
 specified
 :
 :
-LengthPercentageOrAuto
+Margin
 :
 :
 parse
