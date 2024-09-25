@@ -1169,7 +1169,7 @@ notify
 (
 window
 "
-shortcut
+Shortcut
 "
 )
 ;
