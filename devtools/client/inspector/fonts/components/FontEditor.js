@@ -1012,7 +1012,10 @@ fonts
 .
 map
 (
+(
 font
+i
+)
 =
 >
 {
@@ -1025,6 +1028,12 @@ key
 font
 .
 name
++
+"
+:
+"
++
+i
 font
 onToggleFontHighlight
 :
