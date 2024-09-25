@@ -129,6 +129,7 @@ MIRGraph
 class
 EffectiveAddressAnalysis
 {
+const
 MIRGenerator
 *
 mir_
@@ -154,6 +155,7 @@ public
 :
 EffectiveAddressAnalysis
 (
+const
 MIRGenerator
 *
 mir

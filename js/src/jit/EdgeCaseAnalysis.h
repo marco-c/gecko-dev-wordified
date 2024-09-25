@@ -129,6 +129,7 @@ MIRGraph
 class
 EdgeCaseAnalysis
 {
+const
 MIRGenerator
 *
 mir
@@ -141,6 +142,7 @@ public
 :
 EdgeCaseAnalysis
 (
+const
 MIRGenerator
 *
 mir

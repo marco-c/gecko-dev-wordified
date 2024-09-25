@@ -2302,6 +2302,7 @@ jit
 :
 LICM
 (
+const
 MIRGenerator
 *
 mir

@@ -155,6 +155,7 @@ LoopAliasInfo
 class
 AliasAnalysis
 {
+const
 MIRGenerator
 *
 mir
@@ -191,6 +192,7 @@ public
 :
 AliasAnalysis
 (
+const
 MIRGenerator
 *
 mir

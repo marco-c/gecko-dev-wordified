@@ -362,6 +362,7 @@ commonDominator
 bool
 Sink
 (
+const
 MIRGenerator
 *
 mir

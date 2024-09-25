@@ -781,6 +781,7 @@ char
 *
 why
 )
+const
 {
 return
 cancelBuild_

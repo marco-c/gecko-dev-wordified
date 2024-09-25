@@ -146,6 +146,7 @@ nodiscard
 bool
 LICM
 (
+const
 MIRGenerator
 *
 mir

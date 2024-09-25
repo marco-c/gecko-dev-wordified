@@ -198,6 +198,7 @@ MIRGraph
 bool
 EliminateBoundsChecks
 (
+const
 MIRGenerator
 *
 mir

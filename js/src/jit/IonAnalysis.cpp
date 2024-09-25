@@ -294,6 +294,7 @@ static
 bool
 DepthFirstSearchUse
 (
+const
 MIRGenerator
 *
 mir
@@ -1020,6 +1021,7 @@ static
 bool
 FlagPhiInputsAsImplicitlyUsed
 (
+const
 MIRGenerator
 *
 mir
@@ -2355,6 +2357,7 @@ static
 bool
 FlagOperandsAsImplicitlyUsedAfter
 (
+const
 MIRGenerator
 *
 mir
@@ -2719,6 +2722,7 @@ static
 bool
 FlagEntryResumePointOperands
 (
+const
 MIRGenerator
 *
 mir
@@ -2864,6 +2868,7 @@ static
 bool
 FlagAllOperandsAsImplicitlyUsed
 (
+const
 MIRGenerator
 *
 mir
@@ -2944,6 +2949,7 @@ jit
 :
 PruneUnusedBranches
 (
+const
 MIRGenerator
 *
 mir
@@ -9533,6 +9539,7 @@ jit
 :
 EliminateTriviallyDeadResumePointOperands
 (
+const
 MIRGenerator
 *
 mir
@@ -9736,6 +9743,7 @@ jit
 :
 EliminateDeadResumePointOperands
 (
+const
 MIRGenerator
 *
 mir
@@ -11400,6 +11408,7 @@ jit
 :
 EliminateDeadCode
 (
+const
 MIRGenerator
 *
 mir
@@ -11937,6 +11946,7 @@ jit
 :
 EliminatePhis
 (
+const
 MIRGenerator
 *
 mir
@@ -12986,6 +12996,7 @@ operations
 class
 TypeAnalyzer
 {
+const
 MIRGenerator
 *
 mir
@@ -13214,6 +13225,7 @@ public
 :
 TypeAnalyzer
 (
+const
 MIRGenerator
 *
 mir
@@ -13872,12 +13884,7 @@ Values
 if
 (
 !
-mir
--
->
 graph
-(
-)
 .
 osrBlock
 (
@@ -21130,6 +21137,7 @@ jit
 :
 ApplyTypeInformation
 (
+const
 MIRGenerator
 *
 mir
@@ -21249,6 +21257,7 @@ jit
 :
 AccountForCFGChanges
 (
+const
 MIRGenerator
 *
 mir
@@ -21425,6 +21434,7 @@ jit
 :
 RemoveUnmarkedBlocks
 (
+const
 MIRGenerator
 *
 mir
@@ -35956,6 +35966,7 @@ jit
 :
 FoldLoadsWithUnbox
 (
+const
 MIRGenerator
 *
 mir
@@ -37520,6 +37531,7 @@ jit
 :
 OptimizeIteratorIndices
 (
+const
 MIRGenerator
 *
 mir

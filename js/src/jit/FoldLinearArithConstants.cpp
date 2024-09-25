@@ -815,6 +815,7 @@ add
 bool
 FoldLinearArithConstants
 (
+const
 MIRGenerator
 *
 mir

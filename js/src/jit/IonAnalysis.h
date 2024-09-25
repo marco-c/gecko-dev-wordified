@@ -225,6 +225,7 @@ nodiscard
 bool
 PruneUnusedBranches
 (
+const
 MIRGenerator
 *
 mir
@@ -280,6 +281,7 @@ nodiscard
 bool
 OptimizeIteratorIndices
 (
+const
 MIRGenerator
 *
 mir
@@ -312,6 +314,7 @@ nodiscard
 bool
 EliminatePhis
 (
+const
 MIRGenerator
 *
 mir
@@ -368,6 +371,7 @@ nodiscard
 bool
 EliminateTriviallyDeadResumePointOperands
 (
+const
 MIRGenerator
 *
 mir
@@ -384,6 +388,7 @@ nodiscard
 bool
 EliminateDeadResumePointOperands
 (
+const
 MIRGenerator
 *
 mir
@@ -400,6 +405,7 @@ nodiscard
 bool
 EliminateDeadCode
 (
+const
 MIRGenerator
 *
 mir
@@ -416,6 +422,7 @@ nodiscard
 bool
 FoldLoadsWithUnbox
 (
+const
 MIRGenerator
 *
 mir
@@ -432,6 +439,7 @@ nodiscard
 bool
 ApplyTypeInformation
 (
+const
 MIRGenerator
 *
 mir
@@ -456,6 +464,7 @@ nodiscard
 bool
 AccountForCFGChanges
 (
+const
 MIRGenerator
 *
 mir
@@ -478,6 +487,7 @@ nodiscard
 bool
 RemoveUnmarkedBlocks
 (
+const
 MIRGenerator
 *
 mir

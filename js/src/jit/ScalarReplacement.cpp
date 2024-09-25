@@ -236,6 +236,7 @@ MemoryView
 :
 BlockState
 ;
+const
 MIRGenerator
 *
 mir_
@@ -269,6 +270,7 @@ public
 :
 EmulateStateOf
 (
+const
 MIRGenerator
 *
 mir
@@ -12180,6 +12182,7 @@ MDefinitionVisitorDefaultNoop
 {
 private
 :
+const
 MIRGenerator
 *
 mir_
@@ -12360,6 +12363,7 @@ public
 :
 ArgumentsReplacer
 (
+const
 MIRGenerator
 *
 mir
@@ -17720,6 +17724,7 @@ MDefinitionVisitorDefaultNoop
 {
 private
 :
+const
 MIRGenerator
 *
 mir_
@@ -17893,6 +17898,7 @@ public
 :
 RestReplacer
 (
+const
 MIRGenerator
 *
 mir
@@ -20851,6 +20857,7 @@ elements
 bool
 ScalarReplacement
 (
+const
 MIRGenerator
 *
 mir

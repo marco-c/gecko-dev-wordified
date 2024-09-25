@@ -145,6 +145,7 @@ nodiscard
 bool
 BranchHinting
 (
+const
 MIRGenerator
 *
 mir

@@ -9858,6 +9858,7 @@ ValueNumberer
 :
 ValueNumberer
 (
+const
 MIRGenerator
 *
 mir
