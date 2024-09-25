@@ -1276,6 +1276,7 @@ DumpMIRDefinition
 GenericPrinter
 &
 out
+const
 MDefinition
 *
 def

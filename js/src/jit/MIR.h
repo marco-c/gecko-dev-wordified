@@ -4537,6 +4537,7 @@ ExtrasCollector
 *
 extras
 )
+const
 {
 }
 #
@@ -12365,6 +12366,7 @@ MBasicBlock
 target
 (
 )
+const
 {
 return
 getSuccessor
@@ -12399,6 +12401,7 @@ ExtrasCollector
 *
 extras
 )
+const
 override
 {
 char
@@ -12744,6 +12747,7 @@ ExtrasCollector
 *
 extras
 )
+const
 override
 {
 char
@@ -18895,6 +18899,7 @@ ExtrasCollector
 *
 extras
 )
+const
 override
 {
 const
