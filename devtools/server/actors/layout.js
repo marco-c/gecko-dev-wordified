@@ -204,7 +204,7 @@ lazyRequireGetter
 (
 this
 "
-getCSSStyleRules
+getMatchingCSSRules
 "
 "
 resource
@@ -1125,7 +1125,7 @@ values
 const
 cssRules
 =
-getCSSStyleRules
+getMatchingCSSRules
 (
 this
 .

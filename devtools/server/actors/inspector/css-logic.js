@@ -311,7 +311,7 @@ js
 const
 {
 getBindingElementAndPseudo
-getCSSStyleRules
+getMatchingCSSRules
 hasVisitedState
 isAgentStylesheet
 isAuthorStylesheet
@@ -3461,7 +3461,7 @@ try
 {
 domRules
 =
-getCSSStyleRules
+getMatchingCSSRules
 (
 element
 )
@@ -3586,7 +3586,7 @@ distance
 }
 /
 /
-getCSSStyleRules
+getMatchingCSSRules
 can
 return
 null
@@ -3607,7 +3607,7 @@ null
 {
 /
 /
-getCSSStyleRules
+getMatchingCSSRules
 returns
 ordered
 from
@@ -3673,20 +3673,6 @@ domRules
 i
 ]
 ;
-if
-(
-!
-CSSStyleRule
-.
-isInstance
-(
-domRule
-)
-)
-{
-continue
-;
-}
 const
 sheet
 =
@@ -9238,7 +9224,7 @@ computed
 from
 InspectorUtils
 .
-getCSSStyleRules
+getMatchingCSSRules
 *
 it
 '

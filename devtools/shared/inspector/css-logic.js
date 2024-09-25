@@ -3574,7 +3574,6 @@ getBindingElementAndPseudo
 *
 Returns
 css
-style
 rules
 for
 a
@@ -3606,7 +3605,7 @@ element
 *
 /
 function
-getCSSStyleRules
+getMatchingCSSRules
 (
 node
 )
@@ -3627,7 +3626,7 @@ rules
 =
 InspectorUtils
 .
-getCSSStyleRules
+getMatchingCSSRules
 (
 bindingElement
 pseudo
@@ -3639,9 +3638,9 @@ rules
 }
 exports
 .
-getCSSStyleRules
+getMatchingCSSRules
 =
-getCSSStyleRules
+getMatchingCSSRules
 ;
 /
 *

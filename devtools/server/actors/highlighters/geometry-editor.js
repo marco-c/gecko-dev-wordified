@@ -146,7 +146,7 @@ js
 ;
 const
 {
-getCSSStyleRules
+getMatchingCSSRules
 }
 =
 require
@@ -853,7 +853,7 @@ node
 const
 cssRules
 =
-getCSSStyleRules
+getMatchingCSSRules
 (
 node
 )
@@ -924,7 +924,7 @@ auto
 {
 /
 /
-getCSSStyleRules
+getMatchingCSSRules
 returns
 rules
 ordered

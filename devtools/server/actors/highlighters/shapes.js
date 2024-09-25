@@ -236,7 +236,7 @@ js
 ;
 const
 {
-getCSSStyleRules
+getMatchingCSSRules
 }
 =
 require
@@ -22799,7 +22799,7 @@ prop
 const
 cssRules
 =
-getCSSStyleRules
+getMatchingCSSRules
 (
 node
 )

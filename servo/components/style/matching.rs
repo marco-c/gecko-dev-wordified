@@ -1070,7 +1070,7 @@ same_tree_author_normal
 LayerOrder
 :
 :
-root
+style_attribute
 (
 )
 style_attribute
@@ -1097,7 +1097,7 @@ same_tree_author_important
 LayerOrder
 :
 :
-root
+style_attribute
 (
 )
 style_attribute

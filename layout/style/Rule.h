@@ -178,6 +178,15 @@ h
 #
 include
 "
+mozilla
+/
+WeakPtr
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -219,6 +228,8 @@ public
 nsISupports
 public
 nsWrapperCache
+public
+SupportsWeakPtr
 {
 protected
 :

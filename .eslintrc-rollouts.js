@@ -2152,7 +2152,7 @@ inspector
 /
 tests
 /
-test_getCSSStyleRules
+test_getMatchingCSSRules
 .
 html
 "

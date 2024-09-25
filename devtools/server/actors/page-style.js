@@ -5336,7 +5336,7 @@ domRules
 =
 InspectorUtils
 .
-getCSSStyleRules
+getMatchingCSSRules
 (
 node
 pseudo
@@ -5381,7 +5381,7 @@ document
 ;
 /
 /
-getCSSStyleRules
+getMatchingCSSRules
 returns
 ordered
 from
