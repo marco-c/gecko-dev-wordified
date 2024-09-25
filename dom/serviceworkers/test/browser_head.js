@@ -682,11 +682,9 @@ Services
 .
 clearData
 .
-deleteDataFromSite
+deleteDataFromBaseDomain
 (
 baseDomain
-{
-}
 false
 Services
 .

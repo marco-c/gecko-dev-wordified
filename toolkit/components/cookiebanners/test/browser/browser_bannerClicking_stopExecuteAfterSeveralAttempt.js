@@ -1315,7 +1315,7 @@ OptOut
 /
 /
 Invoke
-deleteDataFromSite
+deleteDataFromBaseDomain
 .
 await
 new
@@ -1329,11 +1329,9 @@ Services
 .
 clearData
 .
-deleteDataFromSite
+deleteDataFromBaseDomain
 (
 TEST_DOMAIN_A
-{
-}
 true
 /
 *

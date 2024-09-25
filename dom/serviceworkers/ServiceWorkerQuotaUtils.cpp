@@ -357,7 +357,7 @@ invokes
 nsIClearDataService
 :
 :
-DeleteDataFromSite
+DeleteDataFromBaseDomain
 (
 )
 .
@@ -450,7 +450,7 @@ and
 nsIClearDataService
 :
 :
-DeleteDataFromSite
+DeleteDataFromBaseDomain
 (
 )
 NS_DECL_NSICLEARDATACALLBACK
@@ -1134,7 +1134,7 @@ groupHeadroom
 )
 {
 nsAutoCString
-baseDomain
+host
 ;
 nsresult
 rv
@@ -1142,9 +1142,9 @@ rv
 mPrincipal
 -
 >
-GetBaseDomain
+GetHost
 (
-baseDomain
+host
 )
 ;
 if
@@ -1166,13 +1166,9 @@ rv
 csd
 -
 >
-DeleteDataFromSiteAndOriginAttributesPatternString
+DeleteDataFromBaseDomain
 (
-baseDomain
-u
-"
-"
-_ns
+host
 false
 nsIClearDataService
 :
