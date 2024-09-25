@@ -125,6 +125,17 @@ include
 "
 mozilla
 /
+dom
+/
+FetchService
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 PBackgroundSharedTypes
