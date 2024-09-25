@@ -989,6 +989,17 @@ override
 {
 }
 void
+OnCoalescedTo
+(
+const
+ScriptLoadData
+&
+aExistingLoad
+)
+override
+{
+}
+void
 Cancel
 (
 )

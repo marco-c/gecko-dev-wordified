@@ -3525,7 +3525,7 @@ aNonce
 StylePreloadKind
 )
 ;
-void
+bool
 MaybePutIntoLoadsPerformed
 (
 SheetLoadData
