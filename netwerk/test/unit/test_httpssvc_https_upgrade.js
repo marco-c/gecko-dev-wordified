@@ -434,7 +434,7 @@ Ci
 .
 nsIDNSService
 .
-MODE_TRRFIRST
+MODE_TRRONLY
 )
 ;
 }
