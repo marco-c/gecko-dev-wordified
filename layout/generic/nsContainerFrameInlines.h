@@ -584,7 +584,7 @@ clonePBM
 ;
 }
 const
-nsLineList_iterator
+LineListIterator
 *
 savedLine
 =

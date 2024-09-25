@@ -5064,7 +5064,7 @@ nsFrameList
 aOutFrames
 )
 {
-nsLineList_iterator
+LineListIterator
 removedLine
 =
 aFromLines
@@ -5078,7 +5078,7 @@ aOutLine
 =
 removedLine
 ;
-nsLineList_iterator
+LineListIterator
 next
 =
 aFromLines

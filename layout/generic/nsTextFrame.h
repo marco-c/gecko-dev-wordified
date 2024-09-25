@@ -230,9 +230,6 @@ endif
 class
 nsTextPaintStyle
 ;
-class
-nsLineList_iterator
-;
 struct
 SelectionDetails
 ;
@@ -4462,7 +4459,7 @@ aLineContainer
 =
 nullptr
 const
-nsLineList_iterator
+LineListIterator
 *
 aLine
 =
