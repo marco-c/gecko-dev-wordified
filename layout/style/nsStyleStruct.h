@@ -6734,6 +6734,10 @@ mozilla
 :
 WritingMode
 aWM
+const
+nsAtom
+*
+aLanguage
 )
 const
 ;

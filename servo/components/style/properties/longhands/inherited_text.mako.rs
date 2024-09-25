@@ -1235,7 +1235,7 @@ computed
 TextEmphasisPosition
 :
 :
-OVER
+AUTO
 "
 engines
 =
@@ -1251,7 +1251,7 @@ specified
 TextEmphasisPosition
 :
 :
-OVER
+AUTO
 "
 animation_type
 =
