@@ -1442,13 +1442,9 @@ file
 ;
 is
 (
-getCM
+getLineCount
 (
 dbg
-)
-.
-lineCount
-(
 )
 numberOfLines
 We
