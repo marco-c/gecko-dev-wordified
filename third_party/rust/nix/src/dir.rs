@@ -551,8 +551,6 @@ descriptor
 closing
 it
 on
-success
-or
 failure
 .
 #
