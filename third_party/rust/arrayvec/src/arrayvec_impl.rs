@@ -250,10 +250,6 @@ Self
 :
 Item
 ;
-#
-[
-track_caller
-]
 fn
 push
 (
