@@ -5245,6 +5245,11 @@ return
 IsAnchorFunction
 (
 )
+|
+|
+IsAnchorSizeFunction
+(
+)
 ;
 }
 #
