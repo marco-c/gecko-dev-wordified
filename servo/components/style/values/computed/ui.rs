@@ -137,7 +137,12 @@ ui
 {
 BoolInteger
 CursorKind
+Inert
 MozTheme
+PointerEvents
+UserFocus
+UserInput
+UserModify
 UserSelect
 }
 ;
