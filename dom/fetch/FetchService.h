@@ -949,6 +949,12 @@ Cancel
 (
 )
 ;
+bool
+IsLocalHostFetch
+(
+)
+const
+;
 /
 *
 FetchDriverObserver
