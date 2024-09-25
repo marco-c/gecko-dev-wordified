@@ -10839,6 +10839,16 @@ attributes
 ;
 if
 (
+!
+moduleRequestObject
+)
+{
+return
+nullptr
+;
+}
+if
+(
 request
 .
 firstUnsupportedAttributeKey
