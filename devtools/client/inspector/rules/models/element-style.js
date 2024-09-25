@@ -3783,6 +3783,15 @@ keyframes
 continue
 ;
 }
+const
+isNestedDeclarations
+=
+rule
+.
+domRule
+.
+isNestedDeclarations
+;
 /
 /
 Style
@@ -4002,6 +4011,10 @@ ELEMENT_STYLE
 const
 filterCondition
 =
+isNestedDeclarations
+|
+|
+(
 pseudo
 =
 =
@@ -4015,6 +4028,7 @@ isStyleRule
 isElementStyle
 :
 isPseudoElementRule
+)
 ;
 /
 /
