@@ -760,9 +760,11 @@ gAppInfo
 .
 version
 =
+"
 5
 .
 0
+"
 ;
 await
 promiseStartupManager
