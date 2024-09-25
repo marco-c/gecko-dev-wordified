@@ -4057,6 +4057,7 @@ nsRFPService
 GenerateKeyForServiceWorker
 (
 firstPartyURI
+principal
 foreignByAncestorContext
 )
 ;

@@ -2694,7 +2694,10 @@ GenerateKeyForServiceWorker
 (
 nsIURI
 *
-aURI
+aFirstPartyURI
+nsIPrincipal
+*
+aPrincipal
 bool
 aForeignByAncestorContext
 )
