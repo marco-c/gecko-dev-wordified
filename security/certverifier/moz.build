@@ -189,6 +189,9 @@ DIRS
 /
 ct
 "
+"
+signature_cache
+"
 ]
 TEST_DIRS
 +

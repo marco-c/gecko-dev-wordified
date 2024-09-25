@@ -929,6 +929,9 @@ ocspFetching
 OCSPCache
 &
 ocspCache
+SignatureCache
+*
+signatureCache
 void
 *
 pinArg
@@ -2010,6 +2013,16 @@ mOCSPFetching
 OCSPCache
 &
 mOCSPCache
+;
+/
+/
+non
+-
+owning
+!
+SignatureCache
+*
+mSignatureCache
 ;
 /
 /
