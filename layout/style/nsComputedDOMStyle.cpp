@@ -11554,7 +11554,9 @@ StylePosition
 )
 -
 >
-mHeight
+GetHeight
+(
+)
 )
 ;
 return
@@ -11637,7 +11639,9 @@ StylePosition
 )
 -
 >
-mWidth
+GetWidth
+(
+)
 )
 ;
 return
@@ -11677,7 +11681,9 @@ StylePosition
 )
 -
 >
-mMaxHeight
+GetMaxHeight
+(
+)
 )
 ;
 return
@@ -11717,7 +11723,9 @@ StylePosition
 )
 -
 >
-mMaxWidth
+GetMaxWidth
+(
+)
 )
 ;
 return
@@ -11927,7 +11935,9 @@ StylePosition
 )
 -
 >
-mMinHeight
+GetMinHeight
+(
+)
 ;
 if
 (
@@ -12007,7 +12017,9 @@ StylePosition
 )
 -
 >
-mMinWidth
+GetMinWidth
+(
+)
 ;
 if
 (

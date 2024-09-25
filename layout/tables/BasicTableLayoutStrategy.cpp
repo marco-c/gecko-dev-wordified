@@ -1346,6 +1346,15 @@ Tag
 :
 LengthPercentage
 :
+case
+StyleSize
+:
+:
+Tag
+:
+:
+AnchorSizeFunction
+:
 break
 ;
 }

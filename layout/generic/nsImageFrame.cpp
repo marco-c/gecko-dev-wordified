@@ -2214,7 +2214,9 @@ return
 aStylePosition
 -
 >
-mWidth
+GetWidth
+(
+)
 .
 IsLengthPercentage
 (
@@ -2224,7 +2226,9 @@ IsLengthPercentage
 aStylePosition
 -
 >
-mHeight
+GetHeight
+(
+)
 .
 IsLengthPercentage
 (
@@ -2519,7 +2523,9 @@ return
 !
 position
 .
-mHeight
+GetHeight
+(
+)
 .
 ConvertsToLength
 (
@@ -2529,7 +2535,9 @@ ConvertsToLength
 !
 position
 .
-mWidth
+GetWidth
+(
+)
 .
 ConvertsToLength
 (
@@ -19433,7 +19441,9 @@ StylePosition
 )
 -
 >
-mWidth
+GetWidth
+(
+)
 .
 IsAuto
 (
