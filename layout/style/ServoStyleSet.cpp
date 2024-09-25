@@ -538,6 +538,17 @@ mozilla
 /
 dom
 /
+CSSStyleRule
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FontFaceSet
 .
 h
