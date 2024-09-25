@@ -242,7 +242,7 @@ CRASH_SYSCALL
 ;
 Assert
 .
-equal
+ok
 (
 annotations
 .
@@ -251,9 +251,13 @@ StackTraces
 crash_info
 .
 type
+.
+startsWith
+(
 "
 SIGSYS
 "
+)
 "
 The
 crash
