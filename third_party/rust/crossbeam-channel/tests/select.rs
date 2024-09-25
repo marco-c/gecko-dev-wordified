@@ -10,17 +10,6 @@ the
 Select
 struct
 .
-#
-!
-[
-allow
-(
-clippy
-:
-:
-drop_copy
-)
-]
 use
 std
 :

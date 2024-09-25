@@ -90,12 +90,6 @@ SelectHandle
 Token
 }
 ;
-use
-crate
-:
-:
-utils
-;
 /
 /
 /
@@ -194,6 +188,9 @@ crate
 fn
 new
 (
+delivery_time
+:
+Instant
 dur
 :
 Duration
@@ -211,13 +208,7 @@ AtomicCell
 :
 new
 (
-utils
-:
-:
-convert_timeout_to_deadline
-(
-dur
-)
+delivery_time
 )
 duration
 :

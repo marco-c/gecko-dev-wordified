@@ -103,10 +103,6 @@ allow
 clippy
 :
 :
-mutex_atomic
-clippy
-:
-:
 redundant_clone
 )
 ]

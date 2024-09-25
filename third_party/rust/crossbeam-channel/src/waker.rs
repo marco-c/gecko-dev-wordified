@@ -53,6 +53,15 @@ ThreadId
 }
 ;
 use
+std
+:
+:
+vec
+:
+:
+Vec
+;
+use
 crate
 :
 :
@@ -1857,6 +1866,9 @@ current_thread_id
 >
 ThreadId
 {
+std
+:
+:
 thread_local
 !
 {
