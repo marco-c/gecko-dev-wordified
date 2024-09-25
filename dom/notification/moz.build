@@ -161,6 +161,11 @@ NotificationEvent
 .
 cpp
 "
+"
+NotificationUtils
+.
+cpp
+"
 ]
 include
 (
