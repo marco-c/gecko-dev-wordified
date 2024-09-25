@@ -4546,7 +4546,7 @@ rv
 ;
 mRemoteExceptionList
 =
-do_CreateInstance
+do_GetService
 (
 NS_NSIBTPEXCEPTIONLISTSERVICE_CONTRACTID
 &
