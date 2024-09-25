@@ -25103,8 +25103,8 @@ stuck
 .
 const
 auto
-&
-offsets
+*
+stylePosition
 =
 aFrame
 -
@@ -25112,9 +25112,6 @@ aFrame
 StylePosition
 (
 )
--
->
-mOffset
 ;
 for
 (
@@ -25128,9 +25125,10 @@ AllPhysicalSides
 {
 if
 (
-offsets
-.
-Get
+stylePosition
+-
+>
+GetInset
 (
 side
 )

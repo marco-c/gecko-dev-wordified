@@ -8195,9 +8195,7 @@ if
 position
 -
 >
-mOffset
-.
-Get
+GetInset
 (
 eSideRight
 )
@@ -8222,9 +8220,7 @@ if
 position
 -
 >
-mOffset
-.
-Get
+GetInset
 (
 eSideLeft
 )
@@ -8249,9 +8245,7 @@ if
 position
 -
 >
-mOffset
-.
-Get
+GetInset
 (
 eSideBottom
 )
@@ -8276,9 +8270,7 @@ if
 position
 -
 >
-mOffset
-.
-Get
+GetInset
 (
 eSideTop
 )
