@@ -22371,6 +22371,9 @@ MaybeCreateDocShell
 MOZ_ASSERT
 (
 mInitialized
+|
+|
+mDestroyCalled
 )
 ;
 return
