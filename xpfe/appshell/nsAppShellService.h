@@ -208,6 +208,11 @@ nsAppShellService
 (
 )
 ;
+void
+EnsureHiddenWindow
+(
+)
+;
 nsresult
 JustCreateTopWindow
 (
@@ -261,6 +266,9 @@ mXPCOMShuttingDown
 ;
 uint16_t
 mModalWindowCount
+;
+bool
+mApplicationProvidedHiddenWindow
 ;
 uint32_t
 mScreenId

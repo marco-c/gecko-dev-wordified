@@ -798,9 +798,9 @@ browser
 .
 xhtml
 or
-hiddenWindowMac
+hiddenWindow
 .
-xhtml
+html
 )
 it
 '
@@ -810,8 +810,8 @@ the
 address
 bar
 shows
-*
 for
+*
 the
 tab
 .
