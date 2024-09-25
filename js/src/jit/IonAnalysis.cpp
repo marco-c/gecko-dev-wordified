@@ -28808,6 +28808,7 @@ jit
 :
 ExtractLinearInequality
 (
+const
 MTest
 *
 test
@@ -35072,6 +35073,7 @@ MarkLoopBlocks
 MIRGraph
 &
 graph
+const
 MBasicBlock
 *
 header
@@ -35811,6 +35813,7 @@ UnmarkLoopBlocks
 MIRGraph
 &
 graph
+const
 MBasicBlock
 *
 header

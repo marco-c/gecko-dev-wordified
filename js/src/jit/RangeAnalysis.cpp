@@ -932,9 +932,11 @@ static
 bool
 IsDominatedUse
 (
+const
 MBasicBlock
 *
 block
+const
 MUse
 *
 use
@@ -1042,6 +1044,7 @@ inline
 void
 SpewRange
 (
+const
 MDefinition
 *
 def
@@ -1227,6 +1230,7 @@ inline
 void
 SpewTruncate
 (
+const
 MDefinition
 *
 def
@@ -1346,18 +1350,18 @@ alloc
 )
 ;
 }
+static
 void
-RangeAnalysis
-:
-:
-replaceDominatedUsesWith
+ReplaceDominatedUsesWith
 (
+const
 MDefinition
 *
 orig
 MDefinition
 *
 dom
+const
 MBasicBlock
 *
 block
@@ -1964,7 +1968,7 @@ begin
 beta
 )
 ;
-replaceDominatedUsesWith
+ReplaceDominatedUsesWith
 (
 smaller
 beta
@@ -2032,7 +2036,7 @@ begin
 beta
 )
 ;
-replaceDominatedUsesWith
+ReplaceDominatedUsesWith
 (
 greater
 beta
@@ -2563,7 +2567,7 @@ begin
 beta
 )
 ;
-replaceDominatedUsesWith
+ReplaceDominatedUsesWith
 (
 val
 beta
@@ -15163,6 +15167,7 @@ RangeAnalysis
 :
 analyzeLoop
 (
+const
 MBasicBlock
 *
 header
@@ -16011,9 +16016,11 @@ RangeAnalysis
 :
 analyzeLoopIterationCount
 (
+const
 MBasicBlock
 *
 header
+const
 MTest
 *
 test
@@ -17020,6 +17027,7 @@ RangeAnalysis
 :
 analyzeLoopPhi
 (
+const
 LoopIterationBound
 *
 loopBound
@@ -17771,9 +17779,11 @@ inline
 bool
 SymbolicBoundIsValid
 (
+const
 MBasicBlock
 *
 header
+const
 MBoundsCheck
 *
 ins
@@ -17888,9 +17898,11 @@ RangeAnalysis
 :
 tryHoistBoundsCheck
 (
+const
 MBasicBlock
 *
 header
+const
 MBoundsCheck
 *
 ins
@@ -21834,6 +21846,7 @@ TruncateTest
 TempAllocator
 &
 alloc
+const
 MTest
 *
 test
@@ -22682,6 +22695,7 @@ static
 TruncateKind
 ComputeRequestedTruncateKind
 (
+const
 MDefinition
 *
 candidate
@@ -23446,6 +23460,7 @@ static
 TruncateKind
 ComputeTruncateKind
 (
+const
 MDefinition
 *
 candidate
@@ -24156,6 +24171,7 @@ RangeAnalysis
 :
 canTruncate
 (
+const
 MDefinition
 *
 def
@@ -26753,6 +26769,7 @@ DoesMaskMatchRange
 (
 int32_t
 mask
+const
 Range
 &
 range
