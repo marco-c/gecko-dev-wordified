@@ -1102,6 +1102,7 @@ MesaSWUnknown
 /
 AMD
 MesaR600
+MesaRadeonsi
 /
 /
 Nouveau

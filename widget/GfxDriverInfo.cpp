@@ -5575,6 +5575,16 @@ r600
 ;
 DECLARE_DRIVER_VENDOR_ID
 (
+MesaRadeonsi
+"
+mesa
+/
+radeonsi
+"
+)
+;
+DECLARE_DRIVER_VENDOR_ID
+(
 MesaNouveau
 "
 mesa
