@@ -47789,6 +47789,9 @@ local_rect
 :
 &
 PictureRect
+thickness
+:
+i32
 pic_to_world_mapper
 :
 &
@@ -47837,6 +47840,7 @@ scratch
 push_debug_rect
 (
 device_rect
+thickness
 color
 ColorF
 :
@@ -48104,6 +48108,7 @@ draw_debug_border
 (
 &
 rect
+1
 &
 map_pic_to_world
 frame_context
@@ -48160,7 +48165,7 @@ new
 0
 0
 .
-8
+5
 )
 ;
 }
@@ -48194,6 +48199,7 @@ draw_debug_border
 (
 &
 pic_rect
+3
 &
 map_pic_to_world
 frame_context
@@ -50044,6 +50050,7 @@ inflate
 .
 0
 )
+1
 outer_color
 inner_color
 )
