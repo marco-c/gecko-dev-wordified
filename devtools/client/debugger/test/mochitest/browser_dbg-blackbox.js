@@ -601,7 +601,7 @@ openContextMenuInDebugger
 (
 dbg
 "
-gutter
+gutterElement
 "
 2
 )
@@ -925,7 +925,7 @@ openContextMenuInDebugger
 (
 dbg
 "
-gutter
+gutterElement
 "
 2
 )
@@ -2351,7 +2351,7 @@ openContextMenuInDebugger
 (
 dbg
 "
-gutter
+gutterElement
 "
 2
 )
@@ -2493,7 +2493,7 @@ openContextMenuInDebugger
 (
 dbg
 "
-gutter
+gutterElement
 "
 4
 )
@@ -2957,7 +2957,7 @@ openContextMenuInDebugger
 (
 dbg
 "
-gutter
+gutterElement
 "
 blackboxedLine
 )
@@ -3075,7 +3075,7 @@ openContextMenuInDebugger
 (
 dbg
 "
-gutter
+gutterElement
 "
 nonBlackBoxedLine
 )

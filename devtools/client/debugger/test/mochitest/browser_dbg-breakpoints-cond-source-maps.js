@@ -218,6 +218,8 @@ rightClickEl
 (
 dbg
 gutterEl
+.
+firstChild
 )
 ;
 await
