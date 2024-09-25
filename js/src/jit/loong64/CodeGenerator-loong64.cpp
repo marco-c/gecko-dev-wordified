@@ -3330,9 +3330,6 @@ Register
 divisor
 Register
 output
-Label
-*
-fail
 )
 {
 /
@@ -3377,9 +3374,6 @@ Register
 divisor
 Register
 output
-Label
-*
-fail
 )
 {
 /
