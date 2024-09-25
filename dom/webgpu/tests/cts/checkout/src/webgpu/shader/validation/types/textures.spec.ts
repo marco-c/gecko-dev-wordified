@@ -876,9 +876,7 @@ isFormatValid
 isTextureFormatUsableAsStorageFormat
 (
 format
-t
-.
-isCompatibility
+false
 )
 |
 |
