@@ -64,7 +64,7 @@ and
 indexedDB
 when
 using
-deleteDataFromBaseDomain
+deleteDataFromSite
 /
 /
 deleteDataFromHost
@@ -772,13 +772,15 @@ Services
 .
 clearData
 .
-deleteDataFromBaseDomain
+deleteDataFromSite
 (
 "
 example
 .
 net
 "
+{
+}
 false
 Ci
 .
