@@ -15103,6 +15103,12 @@ GetClassOfService
 Flags
 (
 )
+trans
+-
+>
+Priority
+(
+)
 )
 ;
 /
