@@ -19205,7 +19205,7 @@ OpenPreferences
 entryPoint
 :
 "
-Preferences
+preferences
 "
 }
 )

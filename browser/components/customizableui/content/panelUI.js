@@ -2231,7 +2231,7 @@ window
 entryPoint
 :
 "
-Mainmenu
+mainmenu
 "
 }
 )
