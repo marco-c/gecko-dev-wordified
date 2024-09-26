@@ -11,7 +11,7 @@ enable
 -
 import
 -
-assertions
+attributes
 load
 (
 libdir
@@ -1582,7 +1582,7 @@ from
 '
 b
 '
-assert
+with
 {
 type
 :
@@ -1661,7 +1661,7 @@ from
 '
 b
 '
-assert
+with
 {
 foo
 :
@@ -1770,7 +1770,7 @@ from
 '
 b
 '
-assert
+with
 {
 type
 :
@@ -1811,7 +1811,7 @@ from
 '
 b
 '
-assert
+with
 {
 type
 :
