@@ -1860,7 +1860,7 @@ this
 *
 Create
 a
-keyDown
+keyUp
 event
 for
 the
