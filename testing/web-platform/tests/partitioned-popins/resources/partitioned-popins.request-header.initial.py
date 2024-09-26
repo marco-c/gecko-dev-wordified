@@ -125,6 +125,26 @@ message
 )
 )
     
+headers
+.
+append
+(
+(
+b
+'
+Popin
+-
+Policy
+'
+b
+"
+partitioned
+=
+*
+"
+)
+)
+    
 return
 302
 headers
