@@ -202,6 +202,14 @@ uint32_t
 format
 )
 ;
+static
+uint32_t
+VideoTypeToPipeWireRawFormat
+(
+VideoType
+type
+)
+;
 private
 :
 static
