@@ -740,6 +740,17 @@ mozilla
 /
 dom
 /
+CloseWatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 CustomElementRegistry
 .
 h
