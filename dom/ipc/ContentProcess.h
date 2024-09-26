@@ -223,6 +223,14 @@ public
 :
 ContentProcess
 (
+IPC
+:
+:
+Channel
+:
+:
+ChannelHandle
+aClientChannel
 ProcessId
 aParentPid
 const
