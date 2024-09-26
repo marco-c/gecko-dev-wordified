@@ -464,7 +464,10 @@ outputs
 )
 ;
 return
+{
 result
+namedOutputOperand
+}
 ;
 }
 ;
