@@ -2734,9 +2734,9 @@ create_context_action
 "
 set_device_posture
 "
+context
 {
 posture
-context
 }
 )
 ;
@@ -2761,8 +2761,8 @@ create_context_action
 "
 clear_device_posture
 "
-{
 context
+{
 }
 )
 ;
@@ -2782,13 +2782,13 @@ null
 )
 {
 return
-create_action
+create_context_action
 (
 "
 run_bounce_tracking_mitigations
 "
-{
 context
+{
 }
 )
 ;
