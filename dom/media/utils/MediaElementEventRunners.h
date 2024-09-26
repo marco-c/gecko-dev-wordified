@@ -1256,6 +1256,10 @@ aElement
 nsIContent
 *
 aSource
+const
+nsACString
+&
+aErrorDetails
 )
 :
 nsMediaEventRunner
@@ -1270,6 +1274,13 @@ aElement
 mSource
 (
 aSource
+)
+mErrorDetails
+(
+NS_ConvertUTF8toUTF16
+(
+aErrorDetails
+)
 )
 {
 }
@@ -1294,6 +1305,10 @@ nsCOMPtr
 nsIContent
 >
 mSource
+;
+const
+nsString
+mErrorDetails
 ;
 }
 ;
