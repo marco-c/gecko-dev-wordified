@@ -2747,6 +2747,8 @@ uint32_t
 cos
 int32_t
 aSupportsPriority
+=
+0
 )
 ;
 SpdyInformation

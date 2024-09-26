@@ -15103,12 +15103,6 @@ GetClassOfService
 Flags
 (
 )
-trans
--
->
-Priority
-(
-)
 )
 ;
 /
