@@ -76,12 +76,11 @@ label
 linear_xxx
 '
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 linear
 '
-floatingPointTypes
 label
 )
 ;
@@ -133,7 +132,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -231,9 +230,9 @@ input
 dataType
 :
 '
-float16
+float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -313,7 +312,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1

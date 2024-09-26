@@ -109,7 +109,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 shapeWithLargeRank
 }

@@ -89,7 +89,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2

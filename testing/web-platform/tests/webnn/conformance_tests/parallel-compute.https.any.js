@@ -195,7 +195,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1

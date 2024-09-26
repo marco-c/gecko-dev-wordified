@@ -96,7 +96,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -140,7 +140,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -157,7 +157,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -184,7 +184,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1
@@ -211,7 +211,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1
@@ -239,7 +239,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -274,7 +274,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -302,7 +302,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1
@@ -335,7 +335,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1
@@ -365,7 +365,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -406,7 +406,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -437,7 +437,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -478,7 +478,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -513,7 +513,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -559,7 +559,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -594,7 +594,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1
@@ -640,7 +640,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1
@@ -670,7 +670,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -722,7 +722,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -758,7 +758,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -805,7 +805,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -841,7 +841,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -888,7 +888,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -920,7 +920,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -952,7 +952,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -984,7 +984,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1
@@ -1016,7 +1016,7 @@ dataType
 '
 float16
 '
-dimensions
+shape
 :
 [
 1
@@ -1051,7 +1051,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1086,7 +1086,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1153,7 +1153,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1223,7 +1223,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1291,7 +1291,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1358,7 +1358,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1406,7 +1406,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1457,7 +1457,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1508,7 +1508,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1555,7 +1555,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1602,7 +1602,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1648,7 +1648,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1694,7 +1694,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1739,7 +1739,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1785,7 +1785,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1832,7 +1832,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1877,7 +1877,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1924,7 +1924,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -1984,22 +1984,9 @@ input
 '
 input
 '
-{
-dataType
-:
 test
 .
 input
-.
-dataType
-dimensions
-:
-test
-.
-input
-.
-dimensions
-}
 )
 ;
 kPoolingOperators
@@ -2058,7 +2045,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }
@@ -2163,9 +2150,7 @@ input
 '
 {
 dataType
-:
-dataType
-dimensions
+shape
 :
 [
 1
@@ -2258,7 +2243,7 @@ dataType
 '
 int64
 '
-dimensions
+shape
 :
 [
 1
@@ -2334,7 +2319,7 @@ dataType
 '
 uint8
 '
-dimensions
+shape
 :
 [
 1

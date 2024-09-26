@@ -87,7 +87,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -103,7 +103,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -119,7 +119,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -150,7 +150,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -167,7 +167,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1
@@ -187,7 +187,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -219,7 +219,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -232,7 +232,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 ]
@@ -265,7 +265,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -281,7 +281,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1
@@ -316,7 +316,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -332,7 +332,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -367,7 +367,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -383,7 +383,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 1
@@ -413,7 +413,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1
@@ -430,7 +430,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 3
@@ -478,22 +478,9 @@ input
 '
 input
 '
-{
-dataType
-:
 test
 .
 input
-.
-dataType
-dimensions
-:
-test
-.
-input
-.
-dimensions
-}
 )
 ;
 const
@@ -506,22 +493,9 @@ input
 '
 indices
 '
-{
-dataType
-:
 test
 .
 indices
-.
-dataType
-dimensions
-:
-test
-.
-indices
-.
-dimensions
-}
 )
 ;
 const
@@ -590,7 +564,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }
@@ -681,7 +655,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -706,7 +680,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -773,7 +747,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -798,7 +772,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2

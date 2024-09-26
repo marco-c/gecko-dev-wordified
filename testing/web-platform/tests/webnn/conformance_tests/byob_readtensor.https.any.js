@@ -222,7 +222,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -929,7 +929,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -1042,7 +1042,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2

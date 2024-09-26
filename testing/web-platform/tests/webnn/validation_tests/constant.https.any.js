@@ -123,7 +123,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -156,7 +156,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -181,7 +181,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -211,7 +211,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -238,7 +238,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -278,7 +278,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -361,7 +361,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -388,7 +388,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -428,7 +428,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 2
@@ -492,7 +492,7 @@ dataType
 '
 uint32
 '
-dimensions
+shape
 :
 [
 2
@@ -519,7 +519,7 @@ dataType
 '
 uint32
 '
-dimensions
+shape
 :
 [
 2
@@ -559,7 +559,7 @@ dataType
 '
 uint32
 '
-dimensions
+shape
 :
 [
 2
@@ -605,7 +605,7 @@ dataType
 '
 int64
 '
-dimensions
+shape
 :
 [
 2
@@ -632,7 +632,7 @@ dataType
 '
 int64
 '
-dimensions
+shape
 :
 [
 2
@@ -672,7 +672,7 @@ dataType
 '
 int64
 '
-dimensions
+shape
 :
 [
 2
@@ -718,7 +718,7 @@ dataType
 '
 uint64
 '
-dimensions
+shape
 :
 [
 2
@@ -745,7 +745,7 @@ dataType
 '
 uint64
 '
-dimensions
+shape
 :
 [
 2
@@ -785,7 +785,7 @@ dataType
 '
 uint64
 '
-dimensions
+shape
 :
 [
 2
@@ -831,7 +831,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 2
@@ -858,7 +858,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 2
@@ -898,7 +898,7 @@ dataType
 '
 int8
 '
-dimensions
+shape
 :
 [
 2
@@ -944,7 +944,7 @@ dataType
 '
 uint8
 '
-dimensions
+shape
 :
 [
 2
@@ -971,7 +971,7 @@ dataType
 '
 uint8
 '
-dimensions
+shape
 :
 [
 2
@@ -1011,7 +1011,7 @@ dataType
 '
 uint8
 '
-dimensions
+shape
 :
 [
 2
@@ -1055,7 +1055,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -1104,7 +1104,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -1220,7 +1220,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }

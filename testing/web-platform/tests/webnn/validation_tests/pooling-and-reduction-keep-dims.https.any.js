@@ -187,7 +187,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 avgPool2dInputShape
 }
@@ -233,7 +233,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 conv2dFilterShape
 }
@@ -265,7 +265,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1001
@@ -540,7 +540,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 reduceMeanInputShape
 }
@@ -590,7 +590,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 conv2dFilterShape
 }
@@ -622,7 +622,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 1001

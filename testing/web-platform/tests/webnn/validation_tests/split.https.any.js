@@ -89,7 +89,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 4
@@ -168,7 +168,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -189,7 +189,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -230,7 +230,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -260,7 +260,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -273,7 +273,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -286,7 +286,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -317,7 +317,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -358,7 +358,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -405,7 +405,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -455,7 +455,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -510,7 +510,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -569,7 +569,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -626,7 +626,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -686,22 +686,9 @@ input
 '
 input
 '
-{
-dataType
-:
 test
 .
 input
-.
-dataType
-dimensions
-:
-test
-.
-input
-.
-dimensions
-}
 )
 ;
 if
@@ -794,7 +781,7 @@ outputs
 i
 ]
 .
-dimensions
+shape
 )
 ;
 }

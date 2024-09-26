@@ -112,7 +112,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -128,7 +128,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -144,7 +144,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -190,7 +190,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -206,7 +206,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 5
@@ -220,7 +220,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -265,7 +265,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -281,7 +281,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 ]
@@ -294,7 +294,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -341,7 +341,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -357,7 +357,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -372,7 +372,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -412,7 +412,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -428,7 +428,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 2
@@ -467,7 +467,7 @@ dataType
 '
 float32
 '
-dimensions
+shape
 :
 [
 3
@@ -483,7 +483,7 @@ dataType
 '
 int32
 '
-dimensions
+shape
 :
 [
 3
@@ -527,22 +527,9 @@ input
 '
 input
 '
-{
-dataType
-:
 test
 .
 input
-.
-dataType
-dimensions
-:
-test
-.
-input
-.
-dimensions
-}
 )
 ;
 const
@@ -555,22 +542,9 @@ input
 '
 input
 '
-{
-dataType
-:
 test
 .
 slope
-.
-dataType
-dimensions
-:
-test
-.
-slope
-.
-dimensions
-}
 )
 ;
 if
@@ -616,7 +590,7 @@ test
 .
 output
 .
-dimensions
+shape
 )
 ;
 }
@@ -729,7 +703,7 @@ context
 )
 ;
 const
-dimensions
+shape
 =
 [
 1
@@ -745,7 +719,7 @@ input
 input
 {
 dataType
-dimensions
+shape
 }
 )
 ;
@@ -797,7 +771,7 @@ output
 shape
 (
 )
-dimensions
+shape
 )
 ;
 }
