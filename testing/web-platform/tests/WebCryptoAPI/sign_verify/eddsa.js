@@ -1,6 +1,7 @@
 function
 run_test
 (
+algorithmName
 )
 {
 var
@@ -48,6 +49,7 @@ testVectors
 =
 getTestVectors
 (
+algorithmName
 )
 ;
 testVectors

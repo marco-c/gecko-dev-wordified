@@ -42,5 +42,8 @@ timeout
 long
 run_test
 (
+"
+Ed25519
+"
 )
 ;
