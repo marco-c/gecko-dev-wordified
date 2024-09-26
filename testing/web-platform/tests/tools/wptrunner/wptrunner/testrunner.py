@@ -7429,6 +7429,12 @@ force
 argument
 .
             
+if
+self
+.
+browser
+:
+                
 self
 .
 browser
