@@ -152,12 +152,6 @@ function
 makeGetOptions
 (
 providersToUse
-=
-[
-"
-default
-"
-]
 mediation
 =
 "
@@ -203,6 +197,7 @@ makeGetOptions
 [
 providersToUse
 ]
+mediation
 )
 ;
 }
