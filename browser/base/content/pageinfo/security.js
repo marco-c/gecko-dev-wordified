@@ -1270,7 +1270,7 @@ hostName
 entryPoint
 :
 "
-pageinfo
+Pageinfo
 "
 }
 )
