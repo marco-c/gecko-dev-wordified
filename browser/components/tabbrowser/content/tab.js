@@ -2347,6 +2347,7 @@ if
 this
 .
 parentElement
+?
 .
 tagName
 =
