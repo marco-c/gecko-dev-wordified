@@ -3266,7 +3266,7 @@ static
 int32_t
 ConditionDimension
 (
-float
+double
 aValue
 )
 {
@@ -3294,7 +3294,7 @@ aValue
 aValue
 <
 =
-float
+double
 (
 INT32_MAX
 )
@@ -4552,7 +4552,7 @@ ConditionDimension
 (
 AssertedCast
 <
-float
+double
 >
 (
 aDest
@@ -4598,7 +4598,7 @@ ConditionDimension
 (
 AssertedCast
 <
-float
+double
 >
 (
 aDest
