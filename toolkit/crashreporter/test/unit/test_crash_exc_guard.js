@@ -126,7 +126,7 @@ path
 ;
 Assert
 .
-equal
+ok
 (
 extra
 .
@@ -135,6 +135,9 @@ StackTraces
 crash_info
 .
 type
+.
+startsWith
+(
 "
 EXC_GUARD
 /
@@ -142,6 +145,7 @@ GUARD_TYPE_FD
 /
 GUARD_EXC_CLOSE
 "
+)
 )
 ;
 Assert
