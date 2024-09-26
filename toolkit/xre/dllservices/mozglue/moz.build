@@ -156,6 +156,11 @@ WindowsMsctfInitialization
 cpp
 "
 "
+WindowsOleAut32Initialization
+.
+cpp
+"
+"
 WindowsStackWalkInitialization
 .
 cpp
@@ -270,6 +275,11 @@ h
 "
 "
 WindowsMsctfInitialization
+.
+h
+"
+"
+WindowsOleAut32Initialization
 .
 h
 "
