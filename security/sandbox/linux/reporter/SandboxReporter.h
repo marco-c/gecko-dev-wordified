@@ -325,15 +325,9 @@ this
 report
 collector
 .
-void
-GetClientFileDescriptorMapping
+int
+GetClientFileDescriptor
 (
-int
-*
-aSrcFd
-int
-*
-aDstFd
 )
 const
 ;

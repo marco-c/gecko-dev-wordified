@@ -691,8 +691,8 @@ ForkServiceChild
 :
 SendForkNewSubprocess
 (
-const
 Args
+&
 &
 aArgs
 pid_t
@@ -767,9 +767,15 @@ WriteIPDLParam
 &
 writer
 nullptr
+std
+:
+:
+move
+(
 aArgs
 .
-mChroot
+mChrootServer
+)
 )
 ;
 #
