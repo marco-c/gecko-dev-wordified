@@ -2291,6 +2291,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -2511,6 +2512,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -2731,6 +2733,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -2951,6 +2954,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -3171,6 +3175,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -3391,6 +3396,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -4237,6 +4243,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -4456,6 +4463,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -4675,6 +4683,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -4894,6 +4903,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -5113,6 +5123,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
@@ -5332,6 +5343,7 @@ required
 endianness
 .
 pub
+const
 fn
 from_bytes
 (
