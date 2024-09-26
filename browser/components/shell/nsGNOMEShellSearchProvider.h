@@ -222,7 +222,6 @@ mHeight
 )
 {
 }
-;
 /
 /
 From
@@ -428,7 +427,6 @@ aTimeStamp
 )
 {
 }
-;
 void
 SetReply
 (
@@ -642,6 +640,12 @@ nsCOMPtr
 nsINavHistoryContainerResultNode
 >
 mHistResultContainer
+;
+nsTArray
+<
+nsCString
+>
+mOpenTabs
 ;
 nsAutoCString
 mSearchTerm
