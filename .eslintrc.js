@@ -538,6 +538,8 @@ recommended
 with
 -
 comments
+-
+legacy
 "
 "
 prettier
