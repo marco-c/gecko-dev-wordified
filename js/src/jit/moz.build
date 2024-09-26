@@ -253,6 +253,11 @@ Disassemble
 cpp
 "
 "
+DominatorTree
+.
+cpp
+"
+"
 EdgeCaseAnalysis
 .
 cpp
