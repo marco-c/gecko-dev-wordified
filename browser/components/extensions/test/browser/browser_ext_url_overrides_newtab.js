@@ -1465,9 +1465,9 @@ toolbarbutton
 .
 id
 "
-PanelUI
+unified
 -
-menu
+extensions
 -
 button
 "
@@ -1478,8 +1478,8 @@ is
 anchored
 to
 the
-menu
-icon
+extensions
+button
 "
 )
 ;
