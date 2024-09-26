@@ -364,6 +364,17 @@ mozilla
 /
 dom
 /
+CloseWatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Event
 .
 h
