@@ -313,7 +313,10 @@ GPUProcessHost
 :
 Launch
 (
-StringVector
+geckoargs
+:
+:
+ChildProcessArgs
 aExtraOpts
 )
 {
@@ -447,7 +450,13 @@ GeckoChildProcessHost
 :
 AsyncLaunch
 (
+std
+:
+:
+move
+(
 aExtraOpts
+)
 )
 )
 {

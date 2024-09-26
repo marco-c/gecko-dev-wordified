@@ -774,6 +774,11 @@ CreateAppData
 cpp
 "
 "
+GeckoArgs
+.
+cpp
+"
+"
 nsConsoleWriter
 .
 cpp

@@ -440,7 +440,10 @@ established
 param
 aExtraOpts
 (
-StringVector
+geckoargs
+:
+:
+ChildProcessArgs
 )
 /
 /
@@ -455,7 +458,10 @@ subprocess
 bool
 Launch
 (
-StringVector
+geckoargs
+:
+:
+ChildProcessArgs
 aExtraOpts
 )
 ;
@@ -956,7 +962,10 @@ MOZ_ASAN
 void
 EnsureWidevineL1PathForSandbox
 (
-StringVector
+geckoargs
+:
+:
+ChildProcessArgs
 &
 aExtraOpts
 )
