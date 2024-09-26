@@ -2607,7 +2607,7 @@ clickOn
 browser
 "
 #
-printButton
+print
 "
 )
 ;

@@ -267,8 +267,9 @@ document
 querySelector
 (
 "
+button
 #
-sidebarToggleButton
+sidebarToggle
 "
 )
 ;

@@ -263,8 +263,9 @@ document
 querySelector
 (
 "
+button
 #
-sidebarToggleButton
+sidebarToggle
 "
 )
 outerContainer
