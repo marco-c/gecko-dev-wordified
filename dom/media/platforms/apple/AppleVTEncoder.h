@@ -404,11 +404,6 @@ MediaRawData
 aOutput
 )
 ;
-void
-ResolvePromise
-(
-)
-;
 RefPtr
 <
 EncodePromise
