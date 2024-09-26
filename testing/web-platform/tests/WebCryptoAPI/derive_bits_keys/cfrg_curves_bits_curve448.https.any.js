@@ -6,7 +6,7 @@ title
 =
 WebCryptoAPI
 :
-deriveBits
+deriveKey
 (
 )
 Using
@@ -96,7 +96,7 @@ pattern
 .
 promise_test
 (
-define_tests
+define_tests_448
 '
 setup
 -
