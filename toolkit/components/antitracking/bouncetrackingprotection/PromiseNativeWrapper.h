@@ -142,7 +142,7 @@ PromiseNativeWrapper
 (
 MozPromiseHolder
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 &
 &
@@ -228,7 +228,7 @@ __func__
 static
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 ConvertJSPromiseToMozPromise
 (
@@ -255,7 +255,7 @@ default
 ;
 MozPromiseHolder
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 mHolder
 ;

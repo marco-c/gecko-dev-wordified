@@ -708,6 +708,12 @@ nsIBTPRemoteExceptionList
 >
 mRemoteExceptionList
 ;
+RefPtr
+<
+GenericNonExclusivePromise
+>
+mRemoteExceptionListInitPromise
+;
 /
 /
 In
@@ -738,7 +744,7 @@ list
 .
 RefPtr
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 EnsureRemoteExceptionListService
 (
