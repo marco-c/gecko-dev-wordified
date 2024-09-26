@@ -751,7 +751,7 @@ CFNumberCreate
 kCFAllocatorDefault
 kCFNumberSInt64Type
 &
-framerate
+aFPS
 )
 )
 ;
