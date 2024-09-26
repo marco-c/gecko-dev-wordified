@@ -5646,6 +5646,10 @@ ProcessShutdown
 (
 )
 {
+AssertOnTaskQueue
+(
+)
+;
 if
 (
 mSession
