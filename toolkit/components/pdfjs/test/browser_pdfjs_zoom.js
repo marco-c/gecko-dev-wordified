@@ -76,9 +76,8 @@ action
 selector
 :
 "
-button
 #
-zoomIn
+zoomInButton
 "
 event
 :
@@ -119,9 +118,8 @@ action
 selector
 :
 "
-button
 #
-zoomOut
+zoomOutButton
 "
 event
 :
