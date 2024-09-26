@@ -409,10 +409,7 @@ established
 param
 aExtraOpts
 (
-geckoargs
-:
-:
-ChildProcessArgs
+StringVector
 )
 /
 /
@@ -427,10 +424,7 @@ subprocess
 bool
 Launch
 (
-geckoargs
-:
-:
-ChildProcessArgs
+StringVector
 aExtraOpts
 )
 ;
