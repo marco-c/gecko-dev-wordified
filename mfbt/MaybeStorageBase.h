@@ -245,14 +245,9 @@ T
 union
 Union
 {
-constexpr
 Union
 (
 )
-:
-empty
-{
-}
 {
 }
 explicit
@@ -362,9 +357,6 @@ Union
 )
 {
 }
-char
-empty
-;
 NonConstT
 val
 ;
@@ -373,7 +365,6 @@ mStorage
 ;
 public
 :
-constexpr
 MaybeStorageBase
 (
 )

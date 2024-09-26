@@ -1522,7 +1522,6 @@ guarantees
 minimal
 space
 consumption
-constexpr
 MaybeStorage
 (
 )
