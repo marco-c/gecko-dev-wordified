@@ -223,8 +223,8 @@ Lookup
 struct
 InlineArray
 {
-size_t
-inlCount
+uint32_t
+count
 =
 0
 ;
@@ -459,7 +459,7 @@ inlineArray
 (
 )
 .
-inlCount
+count
 ;
 }
 const
@@ -489,7 +489,7 @@ inlineArray
 (
 )
 .
-inlCount
+count
 ;
 }
 bool
@@ -526,7 +526,7 @@ inlineArray
 (
 )
 .
-inlCount
+count
 =
 =
 InlineEntries
@@ -1065,7 +1065,7 @@ inlineArray
 (
 )
 .
-inlCount
+count
 ;
 }
 bool
@@ -1092,7 +1092,7 @@ inlineArray
 (
 )
 .
-inlCount
+count
 ;
 }
 void
@@ -1548,7 +1548,7 @@ inlineArray
 (
 )
 .
-inlCount
+count
 +
 +
 ;
@@ -1624,7 +1624,7 @@ MOZ_ASSERT
 (
 arr
 .
-inlCount
+count
 >
 0
 )
@@ -1640,7 +1640,7 @@ inl
 [
 arr
 .
-inlCount
+count
 -
 1
 ]
@@ -1700,7 +1700,7 @@ last
 }
 arr
 .
-inlCount
+count
 -
 -
 ;
