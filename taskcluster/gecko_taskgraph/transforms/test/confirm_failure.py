@@ -147,6 +147,8 @@ task
 continue
         
 if
+(
+            
 "
 backlog
 "
@@ -157,6 +159,7 @@ task
 suite
 "
 ]
+            
 or
 "
 failure
@@ -168,6 +171,34 @@ task
 suite
 "
 ]
+            
+or
+task
+.
+get
+(
+"
+attributes
+"
+{
+}
+)
+.
+get
+(
+"
+unittest_variant
+"
+)
+=
+=
+"
+os
+-
+integration
+"
+        
+)
 :
             
 yield
