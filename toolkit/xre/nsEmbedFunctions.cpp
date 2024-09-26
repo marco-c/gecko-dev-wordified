@@ -2584,14 +2584,6 @@ UnregisterRuntimeExceptionModule
 ;
 }
 }
-gArgv
-=
-aArgv
-;
-gArgc
-=
-aArgc
-;
 #
 ifdef
 MOZ_X11
