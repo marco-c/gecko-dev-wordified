@@ -834,6 +834,17 @@ version
 029
 *
 /
+EC_DerivePublicKey
+/
+*
+End
+of
+version
+3
+.
+030
+*
+/
 }
 ;
 const

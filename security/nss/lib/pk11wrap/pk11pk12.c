@@ -3036,15 +3036,11 @@ ec
 publicValue
 .
 len
-=
+!
 =
 0
 )
 {
-goto
-loser
-;
-}
 if
 (
 PK11_IsInternal
@@ -3083,6 +3079,7 @@ attrs
 +
 +
 ;
+}
 }
 PK11_SETATTRS
 (
