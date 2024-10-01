@@ -938,6 +938,23 @@ slow
 False
         
 #
+Heavy
+tests
+will
+never
+run
+alongside
+other
+heavy
+tests
+        
+self
+.
+heavy
+=
+False
+        
+#
 True
 means
 that
@@ -1270,6 +1287,14 @@ slow
 self
 .
 slow
+        
+t
+.
+heavy
+=
+self
+.
+heavy
         
 t
 .
@@ -2370,6 +2395,21 @@ slow
 test
 .
 slow
+=
+True
+                    
+elif
+name
+=
+=
+"
+heavy
+"
+:
+                        
+test
+.
+heavy
 =
 True
                     
