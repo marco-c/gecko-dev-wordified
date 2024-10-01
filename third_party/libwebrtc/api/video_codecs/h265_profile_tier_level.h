@@ -112,9 +112,7 @@ include
 "
 api
 /
-video
-/
-resolution
+rtp_parameters
 .
 h
 "
@@ -123,9 +121,9 @@ include
 "
 api
 /
-video_codecs
+video
 /
-sdp_video_format
+resolution
 .
 h
 "

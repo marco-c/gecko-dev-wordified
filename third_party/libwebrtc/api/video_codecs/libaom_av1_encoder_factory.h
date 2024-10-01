@@ -108,9 +108,15 @@ string
 >
 #
 include
-<
-vector
->
+"
+api
+/
+video_codecs
+/
+video_encoder_factory_interface
+.
+h
+"
 #
 include
 "
@@ -118,7 +124,7 @@ api
 /
 video_codecs
 /
-video_encoder_factory_interface
+video_encoder_interface
 .
 h
 "

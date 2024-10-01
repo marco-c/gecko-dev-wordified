@@ -115,9 +115,9 @@ include
 "
 absl
 /
-strings
+types
 /
-string_view
+optional
 .
 h
 "
@@ -128,7 +128,7 @@ api
 /
 video
 /
-video_bitrate_allocation
+video_codec_constants
 .
 h
 "
