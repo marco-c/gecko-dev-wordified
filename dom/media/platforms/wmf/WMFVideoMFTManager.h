@@ -441,6 +441,12 @@ IMFMediaType
 aOutputType
 )
 ;
+GUID
+GetOutputSubtype
+(
+)
+const
+;
 /
 /
 Gets
