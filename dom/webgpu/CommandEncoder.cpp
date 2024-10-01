@@ -370,17 +370,6 @@ aCopy
 .
 mMipLevel
 ;
-if
-(
-aCopy
-.
-mOrigin
-.
-WasPassed
-(
-)
-)
-{
 const
 auto
 &
@@ -389,10 +378,6 @@ origin
 aCopy
 .
 mOrigin
-.
-Value
-(
-)
 ;
 if
 (
@@ -547,7 +532,6 @@ type
 "
 )
 ;
-}
 }
 }
 static
