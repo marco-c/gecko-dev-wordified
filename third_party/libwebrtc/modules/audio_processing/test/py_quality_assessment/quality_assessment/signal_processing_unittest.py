@@ -235,7 +235,7 @@ Test
 target
 SNR
 -
-Inf
+inf
 (
 noise
 expected
@@ -256,7 +256,7 @@ noise
 -
 np
 .
-Inf
+inf
 )
         
 self
@@ -439,7 +439,7 @@ Test
 target
 SNR
 +
-Inf
+inf
 (
 signal
 expected
@@ -459,7 +459,7 @@ signal
 noise
 np
 .
-Inf
+inf
 )
         
 self

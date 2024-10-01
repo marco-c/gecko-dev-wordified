@@ -1988,7 +1988,7 @@ target_snr
 -
 np
 .
-Inf
+inf
 :
             
 #
@@ -2027,7 +2027,7 @@ target_snr
 =
 np
 .
-Inf
+inf
 :
             
 #
@@ -2093,7 +2093,7 @@ signal_power
 -
 np
 .
-Inf
+inf
 :
             
 logging
@@ -2136,7 +2136,7 @@ noise_power
 -
 np
 .
-Inf
+inf
 :
             
 logging
