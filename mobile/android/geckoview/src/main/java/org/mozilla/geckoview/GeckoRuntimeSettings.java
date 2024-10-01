@@ -4970,14 +4970,14 @@ package
 *
 /
 final
-Pref
+PrefWithoutDefault
 <
 String
 >
 mFingerprintingProtectionOverrides
 =
 new
-Pref
+PrefWithoutDefault
 <
 >
 (
@@ -4987,8 +4987,6 @@ privacy
 fingerprintingProtection
 .
 overrides
-"
-"
 "
 )
 ;
