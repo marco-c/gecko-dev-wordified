@@ -101,6 +101,11 @@ include
 <
 algorithm
 >
+#
+include
+<
+vector
+>
 namespace
 webrtc
 {
