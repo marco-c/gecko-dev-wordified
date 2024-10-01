@@ -770,6 +770,11 @@ StartSSL
 )
 override
 ;
+[
+[
+deprecated
+]
+]
 void
 SetMode
 (
