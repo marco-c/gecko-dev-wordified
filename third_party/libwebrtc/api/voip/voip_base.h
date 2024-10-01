@@ -93,6 +93,11 @@ define
 API_VOIP_VOIP_BASE_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 absl
 /

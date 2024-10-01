@@ -93,6 +93,11 @@ define
 API_VOIP_VOIP_NETWORK_H_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 api
 /
