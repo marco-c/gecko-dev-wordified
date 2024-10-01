@@ -284,7 +284,6 @@ async
 nodiscard
 ]
 ]
-virtual
 nsresult
 OpenContentStream
 (
@@ -323,7 +322,6 @@ to
 calling
 on
 mListener
-virtual
 nsresult
 ListenerBlockingPromise
 (
