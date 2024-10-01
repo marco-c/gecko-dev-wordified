@@ -132,6 +132,9 @@ false
 RPMAddMessageListener
 :
 false
+RPMRecordGleanEvent
+:
+false
 RPMRecordTelemetryEvent
 :
 false
