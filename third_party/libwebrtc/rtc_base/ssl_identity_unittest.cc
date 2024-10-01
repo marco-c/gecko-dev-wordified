@@ -94,6 +94,24 @@ h
 #
 include
 <
+openssl
+/
+evp
+.
+h
+>
+#
+include
+<
+openssl
+/
+sha
+.
+h
+>
+#
+include
+<
 string
 .
 h
@@ -2929,7 +2947,7 @@ rtc
 :
 :
 DIGEST_SHA_1
-20
+SHA_DIGEST_LENGTH
 kTestCertSha1
 )
 ;
@@ -2958,7 +2976,7 @@ rtc
 :
 :
 DIGEST_SHA_224
-28
+SHA224_DIGEST_LENGTH
 kTestCertSha224
 )
 ;
@@ -2975,7 +2993,7 @@ rtc
 :
 :
 DIGEST_SHA_256
-32
+SHA256_DIGEST_LENGTH
 kTestCertSha256
 )
 ;
@@ -2992,7 +3010,7 @@ rtc
 :
 :
 DIGEST_SHA_384
-48
+SHA384_DIGEST_LENGTH
 kTestCertSha384
 )
 ;
@@ -3009,7 +3027,7 @@ rtc
 :
 :
 DIGEST_SHA_512
-64
+SHA512_DIGEST_LENGTH
 kTestCertSha512
 )
 ;
@@ -3038,7 +3056,7 @@ rtc
 :
 :
 DIGEST_SHA_224
-28
+SHA224_DIGEST_LENGTH
 )
 ;
 }
@@ -3054,7 +3072,7 @@ rtc
 :
 :
 DIGEST_SHA_256
-32
+SHA256_DIGEST_LENGTH
 )
 ;
 }
@@ -3070,7 +3088,7 @@ rtc
 :
 :
 DIGEST_SHA_384
-48
+SHA384_DIGEST_LENGTH
 )
 ;
 }
@@ -3086,7 +3104,7 @@ rtc
 :
 :
 DIGEST_SHA_512
-64
+SHA512_DIGEST_LENGTH
 )
 ;
 }
@@ -4622,7 +4640,7 @@ unsigned
 char
 buf
 [
-20
+EVP_MAX_MD_SIZE
 ]
 ;
 /
