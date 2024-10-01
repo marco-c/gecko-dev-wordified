@@ -1504,6 +1504,10 @@ version
 case
 1
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -1559,6 +1563,10 @@ version
 case
 1
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -1647,6 +1655,10 @@ version
 case
 1
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u

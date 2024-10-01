@@ -3114,14 +3114,11 @@ extrapolate
 )
 v
 =
-hb_max
-(
-hb_min
+hb_clamp
 (
 v
-upper
-)
 lower
+upper
 )
 ;
 if

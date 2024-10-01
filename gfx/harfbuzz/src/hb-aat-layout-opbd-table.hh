@@ -817,6 +817,10 @@ format
 case
 0
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -833,6 +837,10 @@ this
 case
 1
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -906,6 +914,10 @@ format
 case
 0
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -922,6 +934,10 @@ this
 case
 1
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
