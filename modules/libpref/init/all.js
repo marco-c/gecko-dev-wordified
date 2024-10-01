@@ -52207,7 +52207,7 @@ heuristics
 .
 autofillSameOriginWithTop
 "
-false
+true
 )
 ;
 pref
