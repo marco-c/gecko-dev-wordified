@@ -106,6 +106,16 @@ fstream
 #
 include
 <
+ios
+>
+#
+include
+<
+iterator
+>
+#
+include
+<
 map
 >
 #
