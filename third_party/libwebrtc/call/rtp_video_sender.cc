@@ -1213,6 +1213,7 @@ make_unique
 FlexfecSender
 >
 (
+env
 rtp
 .
 flexfec
@@ -1244,12 +1245,6 @@ FecExtensionSizes
 (
 )
 rtp_state
-&
-env
-.
-clock
-(
-)
 )
 ;
 }
