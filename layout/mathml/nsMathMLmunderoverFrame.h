@@ -329,6 +329,13 @@ nsMathMLmunderoverFrame
 ;
 private
 :
+bool
+IsMathContentBoxHorizontallyCentered
+(
+)
+const
+final
+;
 /
 /
 Helper
