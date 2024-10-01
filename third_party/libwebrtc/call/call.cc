@@ -5277,12 +5277,7 @@ receive_stream
 new
 AudioReceiveStreamImpl
 (
-&
 env_
-.
-clock
-(
-)
 transport_send_
 -
 >
@@ -5296,12 +5291,6 @@ config
 config_
 .
 audio_state
-&
-env_
-.
-event_log
-(
-)
 )
 ;
 audio_receive_streams_
