@@ -1476,6 +1476,9 @@ originalRequestURI
 nsCString
 matchedList
 ;
+nsCString
+canceledReason
+;
 }
 ;
 struct
