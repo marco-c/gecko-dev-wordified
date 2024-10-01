@@ -65,7 +65,6 @@ selectors
 createStore
 createSourceObject
 makeSource
-waitForState
 makeOriginalSource
 }
 from
@@ -92,7 +91,6 @@ getSourceCount
 getSelectedSource
 getSourceTabs
 getSelectedLocation
-getSymbols
 }
 from
 "
@@ -1022,20 +1020,6 @@ toBe
 baseSource
 .
 id
-)
-;
-await
-waitForState
-(
-store
-state
-=
->
-getSymbols
-(
-state
-location
-)
 )
 ;
 }
