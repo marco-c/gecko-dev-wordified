@@ -46641,13 +46641,6 @@ twoByteChars
 (
 )
 length
-/
-*
-foldConstants
-=
-*
-/
-false
 compilationState
 /
 *

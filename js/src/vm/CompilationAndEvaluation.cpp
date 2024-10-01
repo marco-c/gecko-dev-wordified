@@ -1514,13 +1514,6 @@ get
 (
 )
 length
-/
-*
-foldConstants
-=
-*
-/
-false
 compilationState
 /
 *

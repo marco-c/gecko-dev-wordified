@@ -35631,13 +35631,6 @@ fc
 options
 units
 length
-/
-*
-foldConstants
-=
-*
-/
-false
 compilationState
 /
 *
@@ -37972,13 +37965,6 @@ fc
 options
 chars
 length
-/
-*
-foldConstants
-=
-*
-/
-false
 compilationState
 /
 *
