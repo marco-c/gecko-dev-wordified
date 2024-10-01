@@ -394,6 +394,9 @@ objdir
 dist
 "
 "
+host
+"
+"
 bin
 "
 "
