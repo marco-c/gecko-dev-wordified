@@ -365,6 +365,7 @@ mStorage
 ;
 public
 :
+constexpr
 MaybeStorageBase
 (
 )
@@ -516,7 +517,7 @@ Union
 (
 )
 :
-dummy
+empty
 (
 )
 {
@@ -606,7 +607,7 @@ NonConstT
 val
 ;
 char
-dummy
+empty
 ;
 }
 mStorage

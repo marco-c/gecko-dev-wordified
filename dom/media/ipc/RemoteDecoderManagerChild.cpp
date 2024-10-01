@@ -569,6 +569,12 @@ processes
 StaticMutex
 sProcessSupportedMutex
 ;
+#
+ifndef
+MOZ_DEBUG
+MOZ_CONSTINIT
+#
+endif
 static
 EnumeratedArray
 <
