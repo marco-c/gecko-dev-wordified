@@ -2087,7 +2087,7 @@ None
 ;
 }
 bool
-IsLinkRelPreload
+IsLinkRelPreloadOrEarlyHint
 (
 )
 const
@@ -2096,7 +2096,7 @@ return
 css
 :
 :
-IsLinkRelPreload
+IsLinkRelPreloadOrEarlyHint
 (
 mPreloadKind
 )
@@ -2121,7 +2121,7 @@ return
 !
 root
 .
-IsLinkRelPreload
+IsLinkRelPreloadOrEarlyHint
 (
 )
 &
