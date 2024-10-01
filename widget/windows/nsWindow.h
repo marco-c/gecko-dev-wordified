@@ -3301,11 +3301,6 @@ ComputeNonClientHRGN
 (
 )
 ;
-void
-InvalidateNonClientRegion
-(
-)
-;
 HWND
 GetOwnerWnd
 (
