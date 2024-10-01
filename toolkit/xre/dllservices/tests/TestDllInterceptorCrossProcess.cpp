@@ -170,6 +170,9 @@ extern
 "
 C
 "
+MOZ_NEVER_INLINE
+MOZ_NOPROFILE
+MOZ_NOINSTRUMENT
 __declspec
 (
 dllexport
