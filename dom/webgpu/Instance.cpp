@@ -205,11 +205,6 @@ webgpu
 {
 GPU_IMPL_CYCLE_COLLECTION
 (
-WGSLLanguageFeatures
-mParent
-)
-GPU_IMPL_CYCLE_COLLECTION
-(
 Instance
 mOwner
 )
@@ -347,14 +342,6 @@ aOwner
 mOwner
 (
 aOwner
-)
-mWgslLanguageFeatures
-(
-new
-WGSLLanguageFeatures
-(
-this
-)
 )
 {
 }
