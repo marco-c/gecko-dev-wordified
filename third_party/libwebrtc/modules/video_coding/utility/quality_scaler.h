@@ -371,12 +371,6 @@ QpThresholds
 thresholds
 )
 ;
-bool
-QpFastFilterLow
-(
-)
-const
-;
 /
 /
 The
