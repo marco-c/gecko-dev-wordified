@@ -169,7 +169,7 @@ ed25519
 ;
 pub
 const
-OID_RS256_BYTES
+OID_RSA_ENCRYPTION_BYTES
 :
 &
 [
@@ -183,7 +183,7 @@ u8
 RFC
 4055
 (
-sha256WithRSAEncryption
+rsaEncryption
 )
 *
 /
@@ -195,7 +195,7 @@ sha256WithRSAEncryption
 0x0d
 0x01
 0x01
-0x0b
+0x01
 ]
 ;
 pub

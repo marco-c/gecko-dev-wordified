@@ -7711,7 +7711,7 @@ object_id
 der
 :
 :
-OID_RS256_BYTES
+OID_RSA_ENCRYPTION_BYTES
 )
 ?
 /
@@ -11009,7 +11009,7 @@ SEQUENCE
 /
 /
 #
-sha256WithRSAEncryption
+rsaEncryption
 /
 /
 OBJECT_IDENTIFIER
@@ -11026,7 +11026,7 @@ OBJECT_IDENTIFIER
 .
 1
 .
-11
+1
 }
 /
 /
@@ -11094,7 +11094,7 @@ u8
 0x0d
 0x01
 0x01
-0x0b
+0x01
 0x05
 0x00
 0x03
