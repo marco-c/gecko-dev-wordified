@@ -1367,9 +1367,7 @@ public
 :
 Call
 (
-const
 CallConfig
-&
 config
 std
 :
@@ -3102,9 +3100,7 @@ Call
 :
 Create
 (
-const
 CallConfig
-&
 config
 )
 {
@@ -3174,7 +3170,13 @@ internal
 Call
 >
 (
+std
+:
+:
+move
+(
 config
+)
 std
 :
 :
@@ -4152,9 +4154,7 @@ Call
 :
 Call
 (
-const
 CallConfig
-&
 config
 std
 :
@@ -4283,7 +4283,13 @@ this
 )
 config_
 (
+std
+:
+:
+move
+(
 config
+)
 )
 audio_network_state_
 (

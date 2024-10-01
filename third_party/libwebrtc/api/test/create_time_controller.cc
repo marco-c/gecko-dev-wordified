@@ -354,9 +354,7 @@ Call
 >
 CreateCall
 (
-const
 CallConfig
-&
 config
 )
 override
@@ -376,12 +374,7 @@ Set
 clock_
 )
 ;
-CallConfig
-config_with_custom_clock
-=
 config
-;
-config_with_custom_clock
 .
 env
 =
@@ -397,7 +390,13 @@ media_factory_
 >
 CreateCall
 (
-config_with_custom_clock
+std
+:
+:
+move
+(
+config
+)
 )
 ;
 }

@@ -270,9 +270,7 @@ Call
 >
 CreateCall
 (
-const
 CallConfig
-&
 config
 )
 override
@@ -283,7 +281,13 @@ Call
 :
 Create
 (
+std
+:
+:
+move
+(
 config
+)
 )
 ;
 }
