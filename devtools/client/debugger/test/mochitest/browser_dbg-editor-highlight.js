@@ -346,9 +346,6 @@ source
 "
 )
 ;
-const
-onSourceSelected
-=
 selectSource
 (
 dbg
@@ -421,7 +418,15 @@ null
 )
 ;
 await
-onSourceSelected
+waitForSelectedSource
+(
+dbg
+"
+simple1
+.
+js
+"
+)
 ;
 ok
 (
