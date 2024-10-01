@@ -918,6 +918,16 @@ mOutputSubType
 ;
 /
 /
+Either
+MFMediaType_Audio
+or
+MFMediaType_Video
+.
+GUID
+mMajorType
+;
+/
+/
 True
 if
 the
