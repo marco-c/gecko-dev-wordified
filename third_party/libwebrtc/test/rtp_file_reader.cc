@@ -3664,8 +3664,6 @@ return
 kResultSuccess
 ;
 }
-break
-;
 }
 return
 kResultSkip
