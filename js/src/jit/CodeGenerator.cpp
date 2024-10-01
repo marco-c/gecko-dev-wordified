@@ -37796,15 +37796,9 @@ mir
 )
 -
 >
-elementType
+isSigned
 (
 )
-=
-=
-Scalar
-:
-:
-BigInt64
 )
 {
 masm

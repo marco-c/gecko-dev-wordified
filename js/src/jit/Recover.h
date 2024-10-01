@@ -4900,7 +4900,7 @@ public
 RInstruction
 {
 bool
-isUnsigned_
+isSigned_
 ;
 public
 :
