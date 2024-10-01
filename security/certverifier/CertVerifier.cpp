@@ -1594,6 +1594,14 @@ CertificateTransparencyMode
 :
 :
 Disabled
+|
+|
+!
+trustDomain
+.
+GetIsBuiltChainRootBuiltInRoot
+(
+)
 )
 {
 return
