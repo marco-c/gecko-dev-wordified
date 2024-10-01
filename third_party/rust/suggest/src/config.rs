@@ -96,6 +96,10 @@ Deserialize
 Serialize
 PartialEq
 Eq
+uniffi
+:
+:
+Record
 )
 ]
 pub
@@ -159,6 +163,10 @@ Deserialize
 Serialize
 PartialEq
 Eq
+uniffi
+:
+:
+Enum
 )
 ]
 pub

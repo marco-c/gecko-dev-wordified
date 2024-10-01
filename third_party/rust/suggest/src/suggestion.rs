@@ -197,6 +197,10 @@ derive
 Clone
 Debug
 PartialEq
+uniffi
+:
+:
+Enum
 )
 ]
 pub
@@ -1366,6 +1370,13 @@ can
 be
 different
 .
+#
+[
+uniffi
+:
+:
+export
+]
 pub
 fn
 raw_suggestion_url_matches

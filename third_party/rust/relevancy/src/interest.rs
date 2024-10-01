@@ -350,6 +350,10 @@ PartialEq
 Eq
 PartialOrd
 Ord
+uniffi
+:
+:
+Enum
 )
 ]
 #
@@ -995,6 +999,10 @@ Debug
 Default
 PartialEq
 Eq
+uniffi
+:
+:
+Record
 )
 ]
 pub
