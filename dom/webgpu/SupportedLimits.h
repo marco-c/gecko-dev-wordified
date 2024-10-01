@@ -162,7 +162,6 @@ MaxVertexBuffers
 MaxBufferSize
 MaxVertexAttributes
 MaxVertexBufferArrayStride
-MaxInterStageShaderComponents
 MaxInterStageShaderVariables
 MaxColorAttachments
 MaxColorAttachmentBytesPerSample
@@ -348,10 +347,6 @@ MaxVertexAttributes
 _
 (
 MaxVertexBufferArrayStride
-)
-_
-(
-MaxInterStageShaderComponents
 )
 _
 (
