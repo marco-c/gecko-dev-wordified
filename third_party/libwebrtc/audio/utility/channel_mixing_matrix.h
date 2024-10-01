@@ -254,10 +254,6 @@ matrix
 ;
 private
 :
-const
-bool
-use_voip_channel_mapping_adjustments_
-;
 /
 /
 Result
