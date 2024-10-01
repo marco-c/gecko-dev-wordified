@@ -94,6 +94,11 @@ API_UNITS_TIMESTAMP_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 string
 >
 #

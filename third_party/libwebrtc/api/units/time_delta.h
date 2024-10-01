@@ -94,6 +94,11 @@ API_UNITS_TIME_DELTA_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstdlib
 >
 #

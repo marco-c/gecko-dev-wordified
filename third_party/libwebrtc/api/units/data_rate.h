@@ -94,6 +94,11 @@ API_UNITS_DATA_RATE_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 limits
 >
 #

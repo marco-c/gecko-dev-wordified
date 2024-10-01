@@ -94,6 +94,11 @@ API_UNITS_DATA_SIZE_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 string
 >
 #
