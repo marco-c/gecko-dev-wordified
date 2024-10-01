@@ -131,9 +131,6 @@ nsDebug
 h
 "
 #
-ifndef
-__MINGW32__
-#
 include
 <
 inputpaneinterop
@@ -188,17 +185,12 @@ WRL
 :
 Wrappers
 ;
-#
-endif
 namespace
 mozilla
 {
 namespace
 widget
 {
-#
-ifndef
-__MINGW32__
 static
 ComPtr
 <
@@ -415,8 +407,6 @@ GetCurrentProcessId
 }
 #
 endif
-#
-endif
 /
 /
 static
@@ -430,9 +420,6 @@ HWND
 aWnd
 )
 {
-#
-ifndef
-__MINGW32__
 ComPtr
 <
 IInputPane2
@@ -490,8 +477,6 @@ failure
 "
 )
 ;
-#
-endif
 }
 /
 /
@@ -506,9 +491,6 @@ HWND
 aWnd
 )
 {
-#
-ifndef
-__MINGW32__
 ComPtr
 <
 IInputPane2
@@ -567,8 +549,6 @@ failure
 "
 )
 ;
-#
-endif
 }
 }
 /
