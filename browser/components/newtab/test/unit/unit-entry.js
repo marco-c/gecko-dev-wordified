@@ -2140,17 +2140,6 @@ finalize
 {
 ref
 spec
-schemeIs
-:
-scheme
-=
->
-spec
-.
-startsWith
-(
-scheme
-)
 }
 )
 }
