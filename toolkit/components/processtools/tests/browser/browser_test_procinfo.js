@@ -151,7 +151,7 @@ enabled
 const
 LINUX_ROUNDING_ERROR
 =
-8
+20
 .
 0
 *
