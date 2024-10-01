@@ -586,6 +586,14 @@ mn
 )
         
 "
+build_flavor
+"
+:
+"
+marionette
+"
+        
+"
 mach_command
 "
 :

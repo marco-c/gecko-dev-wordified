@@ -900,6 +900,17 @@ else
 firefox
 "
     
+info
+[
+"
+buildapp
+"
+]
+=
+"
+browser
+"
+    
 #
 guess
 processor
@@ -1766,6 +1777,13 @@ web
 platform
 -
 tests
+"
+not
+in
+suite
+and
+"
+marionette
 "
 not
 in
