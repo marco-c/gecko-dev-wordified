@@ -421,7 +421,7 @@ startMeasurements
 (
 context
 commands
-false
+true
 false
 true
 )
