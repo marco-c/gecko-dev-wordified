@@ -273,6 +273,12 @@ UpdateAnimationsTasks
 :
 uint8_t
 ;
+enum
+class
+StyleColorGamut
+:
+uint8_t
+;
 struct
 Keyframe
 ;
@@ -292,12 +298,6 @@ dom
 enum
 class
 CompositeOperationOrAuto
-:
-uint8_t
-;
-enum
-class
-ScreenColorGamut
 :
 uint8_t
 ;
@@ -4016,10 +4016,7 @@ Document
 mozilla
 :
 :
-dom
-:
-:
-ScreenColorGamut
+StyleColorGamut
 Gecko_MediaFeatures_ColorGamut
 (
 const

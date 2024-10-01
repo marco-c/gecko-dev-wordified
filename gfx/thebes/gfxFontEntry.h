@@ -163,6 +163,13 @@ h
 #
 include
 "
+gfxFontFeatures
+.
+h
+"
+#
+include
+"
 harfbuzz
 /
 hb
@@ -336,9 +343,6 @@ nsAtom
 ;
 struct
 FontListSizes
-;
-struct
-gfxFontFeature
 ;
 struct
 gfxFontStyle

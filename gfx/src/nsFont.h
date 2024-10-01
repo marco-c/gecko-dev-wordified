@@ -178,9 +178,6 @@ h
 for
 nsTArray
 struct
-gfxFontFeature
-;
-struct
 gfxFontStyle
 ;
 /
