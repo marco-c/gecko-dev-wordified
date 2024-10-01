@@ -3794,7 +3794,7 @@ LOG1
 nsHttpTransaction
 :
 :
-OnTransportStatus
+OnSocketStatus
 [
 this
 =
