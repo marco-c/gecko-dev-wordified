@@ -2749,26 +2749,6 @@ WebRTC
 -
 Audio
 -
-OpusAvoidNoisePumpingDuringDtx
-'
-               
-42222522
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
-Audio
--
 OpusBitrateMultipliers
 '
                
@@ -5097,7 +5077,7 @@ str
 \
     
 '
-a3a5347c082f66bf6c338b8fed783ebff5a50561
+95050aa4a628b16d1220b3674b543c035c24cb6c
 '
 REGISTERED_FIELD_TRIALS
 :
