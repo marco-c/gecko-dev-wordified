@@ -1756,6 +1756,12 @@ decode_time_ms
 =
 decode_time_ms
 ;
+stats
+.
+qp
+=
+qp
+;
 analyzer_
 -
 >
