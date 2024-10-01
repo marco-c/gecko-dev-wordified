@@ -228,7 +228,7 @@ mozilla
 /
 net
 /
-ClassOfService
+NeckoMessageUtils
 .
 h
 "
