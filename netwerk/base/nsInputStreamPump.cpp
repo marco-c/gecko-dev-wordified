@@ -3422,6 +3422,10 @@ nsInputStreamPump
 OnStateStart
 (
 )
+MOZ_REQUIRES
+(
+mMutex
+)
 {
 mMutex
 .
@@ -3674,6 +3678,10 @@ nsInputStreamPump
 :
 OnStateTransfer
 (
+)
+MOZ_REQUIRES
+(
+mMutex
 )
 {
 mMutex
@@ -4680,6 +4688,10 @@ nsInputStreamPump
 :
 OnStateStop
 (
+)
+MOZ_REQUIRES
+(
+mMutex
 )
 {
 mMutex

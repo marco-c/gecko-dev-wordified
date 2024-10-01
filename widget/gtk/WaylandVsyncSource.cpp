@@ -798,6 +798,10 @@ MutexAutoLock
 &
 aProofOfLock
 )
+MOZ_REQUIRES
+(
+mMutex
+)
 {
 mMutex
 .

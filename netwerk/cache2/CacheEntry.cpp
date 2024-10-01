@@ -2056,6 +2056,10 @@ aTruncate
 bool
 aPriority
 )
+MOZ_REQUIRES
+(
+mLock
+)
 {
 LOG
 (
@@ -3037,6 +3041,10 @@ nsICacheEntryOpenCallback
 *
 aCallback
 )
+MOZ_REQUIRES
+(
+mLock
+)
 {
 LOG
 (
@@ -3762,6 +3770,10 @@ InvokeCallbacks
 bool
 aReadOnly
 )
+MOZ_REQUIRES
+(
+mLock
+)
 {
 mLock
 .
@@ -4217,6 +4229,10 @@ InvokeCallback
 Callback
 &
 aCallback
+)
+MOZ_REQUIRES
+(
+mLock
 )
 {
 mLock
@@ -10612,6 +10628,10 @@ uint32_t
 aOperations
 bool
 aForceAsync
+)
+MOZ_REQUIRES
+(
+mLock
 )
 {
 mLock

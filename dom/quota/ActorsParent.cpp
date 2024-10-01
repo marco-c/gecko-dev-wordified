@@ -36065,6 +36065,10 @@ OriginDirectoryLock
 &
 aLocks
 )
+MOZ_REQUIRES
+(
+mQuotaMutex
+)
 {
 mQuotaMutex
 .

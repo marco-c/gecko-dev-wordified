@@ -11741,6 +11741,10 @@ nsSocketTransportService
 TryRepairPollableEvent
 (
 )
+MOZ_REQUIRES
+(
+mLock
+)
 {
 mLock
 .
