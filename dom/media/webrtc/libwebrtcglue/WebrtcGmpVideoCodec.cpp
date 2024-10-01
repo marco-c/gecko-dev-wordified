@@ -2409,7 +2409,7 @@ SetTimestamp
 (
 aInputImage
 .
-timestamp
+rtp_timestamp
 (
 )
 *
