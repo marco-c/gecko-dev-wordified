@@ -6618,6 +6618,8 @@ aWorkerKind
 WorkerLoadInfo
 *
 aLoadInfo
+bool
+aIsChromeWorker
 )
 ;
 void
