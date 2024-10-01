@@ -119,6 +119,15 @@ include
 "
 frontend
 /
+Stencil
+.
+h
+"
+#
+include
+"
+frontend
+/
 SyntaxParseHandler
 .
 h
@@ -260,6 +269,7 @@ FoldConstants
 (
 fc
 parserAtoms
+bigInts
 &
 pn
 parser
@@ -291,6 +301,9 @@ fc
 ParserAtomsTable
 &
 parserAtoms
+BigIntStencilVector
+&
+bigInts
 ParseNode
 *
 *
@@ -315,6 +328,9 @@ fc
 ParserAtomsTable
 &
 parserAtoms
+BigIntStencilVector
+&
+bigInts
 typename
 SyntaxParseHandler
 :
