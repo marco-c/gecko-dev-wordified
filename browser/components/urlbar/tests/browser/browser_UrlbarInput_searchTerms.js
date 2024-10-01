@@ -417,6 +417,7 @@ terms
 /
 persist
 should
+not
 change
 the
 "
@@ -458,7 +459,6 @@ Assert
 .
 ok
 (
-!
 gURLBar
 .
 hasAttribute
@@ -530,13 +530,8 @@ the
 /
 urlbar
 should
-keep
-the
-urlbar
-in
-an
-invalid
-pageproxystate
+remove
+persistsearchterms
 .
 add_task
 (
@@ -572,7 +567,6 @@ Assert
 .
 ok
 (
-!
 gURLBar
 .
 hasAttribute
@@ -583,9 +577,7 @@ persistsearchterms
 )
 "
 Urlbar
-does
-not
-have
+has
 persistsearchterms
 attribute
 .
