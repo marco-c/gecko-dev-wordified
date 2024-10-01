@@ -408,11 +408,6 @@ nsITLSSocketControl
 ssl
 )
 ;
-void
-ReportSecureConnectionStart
-(
-)
-;
 /
 /
 SPDY
@@ -425,12 +420,6 @@ false
 ;
 bool
 mNPNComplete
-{
-false
-}
-;
-bool
-mSecureConnectionStartReported
 {
 false
 }
