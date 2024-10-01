@@ -1006,7 +1006,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -1304,7 +1304,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -1314,7 +1314,7 @@ jobject
 &
 application_context
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -1424,7 +1424,7 @@ name
 )
 ;
 }
-webrtc
+jni_zero
 :
 :
 ScopedJavaLocalRef
@@ -1700,7 +1700,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -1924,7 +1924,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -2051,7 +2051,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -2164,7 +2164,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -3659,7 +3659,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -3669,7 +3669,7 @@ jobject
 &
 application_context
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef

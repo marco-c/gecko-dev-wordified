@@ -441,7 +441,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -451,7 +451,7 @@ jobject
 &
 application_context
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -573,7 +573,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -602,7 +602,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -671,7 +671,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -691,7 +691,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -1058,7 +1058,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -1095,7 +1095,7 @@ JNIEnv
 *
 env
 const
-webrtc
+jni_zero
 :
 :
 JavaParamRef
@@ -1324,7 +1324,7 @@ operations
 are
 finished
 .
-webrtc
+jni_zero
 :
 :
 ScopedJavaGlobalRef
