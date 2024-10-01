@@ -99,6 +99,15 @@ memory
 #
 include
 "
+api
+/
+priority
+.
+h
+"
+#
+include
+"
 pc
 /
 peer_connection_internal
@@ -204,6 +213,8 @@ OpenChannel
 (
 int
 channel_id
+PriorityValue
+priority
 )
 (
 override

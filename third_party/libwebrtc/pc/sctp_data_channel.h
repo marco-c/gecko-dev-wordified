@@ -369,6 +369,8 @@ AddSctpDataStream
 (
 StreamId
 sid
+PriorityValue
+priority
 )
 =
 0
@@ -1312,7 +1314,7 @@ id
 const
 override
 ;
-Priority
+PriorityValue
 priority
 (
 )
@@ -2064,7 +2066,7 @@ absl
 :
 optional
 <
-Priority
+PriorityValue
 >
 priority_
 ;

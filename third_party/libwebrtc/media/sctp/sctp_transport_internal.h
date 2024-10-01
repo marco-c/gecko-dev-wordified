@@ -138,6 +138,15 @@ include
 "
 api
 /
+priority
+.
+h
+"
+#
+include
+"
+api
+/
 rtc_error
 .
 h
@@ -1007,6 +1016,11 @@ OpenStream
 (
 int
 sid
+webrtc
+:
+:
+PriorityValue
+priority
 )
 =
 0

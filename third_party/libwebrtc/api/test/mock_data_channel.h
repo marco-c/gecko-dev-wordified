@@ -105,6 +105,15 @@ h
 #
 include
 "
+api
+/
+priority
+.
+h
+"
+#
+include
+"
 test
 /
 gmock
@@ -324,7 +333,7 @@ override
 ;
 MOCK_METHOD
 (
-Priority
+PriorityValue
 priority
 (
 )

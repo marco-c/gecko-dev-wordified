@@ -118,6 +118,15 @@ include
 "
 api
 /
+priority
+.
+h
+"
+#
+include
+"
+api
+/
 rtc_error
 .
 h
@@ -764,6 +773,8 @@ OpenChannel
 (
 int
 channel_id
+PriorityValue
+priority
 )
 =
 0

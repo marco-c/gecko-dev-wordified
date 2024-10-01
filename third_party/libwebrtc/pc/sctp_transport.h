@@ -330,6 +330,8 @@ OpenChannel
 (
 int
 channel_id
+PriorityValue
+priority
 )
 override
 ;
