@@ -442,6 +442,7 @@ aArgs
 }
 {
 }
+constexpr
 ValueType
 &
 operator
@@ -462,6 +463,7 @@ aIndex
 ]
 ;
 }
+constexpr
 const
 ValueType
 &

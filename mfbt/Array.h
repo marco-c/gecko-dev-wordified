@@ -296,6 +296,7 @@ Length
 )
 ;
 }
+constexpr
 T
 &
 operator
@@ -334,6 +335,7 @@ aIndex
 ]
 ;
 }
+constexpr
 const
 T
 &
