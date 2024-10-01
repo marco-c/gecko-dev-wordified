@@ -135,9 +135,6 @@ false
 RPMRecordGleanEvent
 :
 false
-RPMRecordTelemetryEvent
-:
-false
 RPMCheckAlternateHostAvailable
 :
 false
