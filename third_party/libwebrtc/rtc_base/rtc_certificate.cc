@@ -160,7 +160,7 @@ Explicit
 new
 to
 access
-proteced
+protected
 constructor
 .
 return

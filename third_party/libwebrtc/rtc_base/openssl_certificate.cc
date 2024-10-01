@@ -396,6 +396,14 @@ SSLIdentityParams
 params
 )
 {
+RTC_DCHECK
+(
+pkey
+!
+=
+nullptr
+)
+;
 RTC_LOG
 (
 LS_INFO
@@ -765,7 +773,7 @@ params
 .
 common_name
 .
-c_str
+data
 (
 )
 -
