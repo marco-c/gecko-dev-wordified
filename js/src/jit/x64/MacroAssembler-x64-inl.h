@@ -3863,6 +3863,16 @@ Register
 dest
 )
 {
+bool
+destIsZero
+=
+maybeEmitSetZeroByteRegister
+(
+lhs
+rhs
+dest
+)
+;
 cmpPtr
 (
 lhs
@@ -3873,6 +3883,7 @@ emitSet
 (
 cond
 dest
+destIsZero
 )
 ;
 }
