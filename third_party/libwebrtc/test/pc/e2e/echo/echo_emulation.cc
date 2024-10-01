@@ -123,6 +123,15 @@ media_configuration
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+logging
+.
+h
+"
 namespace
 webrtc
 {

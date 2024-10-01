@@ -155,15 +155,6 @@ video_decoder_factory
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-checks
-.
-h
-"
 namespace
 webrtc
 {
