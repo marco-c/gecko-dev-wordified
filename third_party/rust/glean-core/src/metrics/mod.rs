@@ -294,7 +294,10 @@ self
 custom_distribution
 :
 :
+{
 CustomDistributionMetric
+LocalCustomDistribution
+}
 ;
 pub
 use
@@ -365,7 +368,10 @@ self
 memory_distribution
 :
 :
+{
+LocalMemoryDistribution
 MemoryDistributionMetric
+}
 ;
 pub
 use
@@ -479,6 +485,16 @@ timespan
 :
 :
 TimespanMetric
+;
+pub
+use
+self
+:
+:
+timing_distribution
+:
+:
+LocalTimingDistribution
 ;
 pub
 use
@@ -606,6 +622,7 @@ derive
 (
 Debug
 Serialize
+PartialEq
 )
 ]
 pub
