@@ -319,6 +319,8 @@ let
 fileDataURL
 =
 await
+PlacesTestUtils
+.
 fileDataToDataURL
 (
 fileData
