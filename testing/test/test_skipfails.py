@@ -7676,7 +7676,7 @@ assert
 lineno
 =
 =
-177
+183
 def
 test_reftest_get_lineno3
 (
