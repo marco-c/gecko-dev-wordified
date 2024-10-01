@@ -1233,9 +1233,8 @@ compiler
 predicate
 *
 /
-IonAvailable
+IonPlatformSupport
 (
-cx
 )
 \
 /
