@@ -2378,6 +2378,14 @@ cx
 isExceptionPending
 (
 )
+|
+|
+cx
+-
+>
+hadUncatchableException
+(
+)
 )
 ;
 }

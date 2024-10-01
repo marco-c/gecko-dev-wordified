@@ -2731,6 +2731,13 @@ JSMSG_TERMINATED
 chars
 )
 ;
+cx
+-
+>
+reportUncatchableException
+(
+)
+;
 return
 false
 ;

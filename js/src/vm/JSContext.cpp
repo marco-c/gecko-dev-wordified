@@ -6279,6 +6279,11 @@ hadResourceExhaustion_
 this
 false
 )
+hadUncatchableException_
+(
+this
+false
+)
 #
 endif
 reportGranularity
