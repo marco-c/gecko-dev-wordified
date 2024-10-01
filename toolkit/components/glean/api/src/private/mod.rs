@@ -259,7 +259,10 @@ self
 custom_distribution
 :
 :
+{
 CustomDistributionMetric
+LocalCustomDistribution
+}
 ;
 pub
 use
@@ -354,7 +357,10 @@ self
 memory_distribution
 :
 :
+{
+LocalMemoryDistribution
 MemoryDistributionMetric
+}
 ;
 pub
 use
