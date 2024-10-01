@@ -90,6 +90,16 @@ define
 API_TEST_MOCK_AUDIO_SINK_H_
 #
 include
+<
+cstddef
+>
+#
+include
+<
+cstdint
+>
+#
+include
 "
 absl
 /

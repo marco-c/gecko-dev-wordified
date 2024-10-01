@@ -107,6 +107,15 @@ include
 "
 api
 /
+scoped_refptr
+.
+h
+"
+#
+include
+"
+api
+/
 stats
 /
 rtc_stats_report
