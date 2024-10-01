@@ -1031,6 +1031,26 @@ LICENSE
     
 ]
     
+'
+android_build_tools
+.
+*
+'
+:
+[
+        
+'
+third_party
+/
+android_build_tools
+/
+bundletool
+/
+LICENSE
+'
+    
+]
+    
 #
 Internal
 dependencies
