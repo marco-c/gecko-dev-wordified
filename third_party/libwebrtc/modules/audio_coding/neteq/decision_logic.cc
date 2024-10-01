@@ -277,6 +277,10 @@ DelayManager
 CreateDelayManager
 (
 const
+Environment
+&
+env
+const
 NetEqController
 :
 :
@@ -290,6 +294,13 @@ DelayManager
 :
 Config
 config
+(
+env
+.
+field_trials
+(
+)
+)
 ;
 config
 .
@@ -467,6 +478,10 @@ DecisionLogic
 :
 DecisionLogic
 (
+const
+Environment
+&
+env
 NetEqController
 :
 :
@@ -479,6 +494,7 @@ DecisionLogic
 config
 CreateDelayManager
 (
+env
 config
 )
 std
