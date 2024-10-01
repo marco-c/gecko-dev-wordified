@@ -20784,6 +20784,7 @@ spocMessageVariant
 mayHaveThumbsUpDown
 onThumbsUpClick
 onThumbsDownClick
+isListCard
 state
 }
 )
@@ -20934,6 +20935,10 @@ clamp
 excerpt
 )
 )
+!
+isListCard
+&
+&
 mayHaveThumbsUpDown
 &
 &
@@ -26817,6 +26822,11 @@ listLength
 5
 ;
 return
+listLength
+>
+0
+&
+&
 /
 *
 #
@@ -27081,9 +27091,7 @@ list
 card
 -
 {
-rec
-.
-id
+index
 }
 pos
 :
