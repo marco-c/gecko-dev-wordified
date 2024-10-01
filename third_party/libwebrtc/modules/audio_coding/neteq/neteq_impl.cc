@@ -869,15 +869,6 @@ tick_timer
 get
 (
 )
-.
-clock
-=
-&
-env
-.
-clock
-(
-)
 }
 )
 )
