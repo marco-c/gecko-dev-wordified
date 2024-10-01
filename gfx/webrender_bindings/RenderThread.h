@@ -1485,6 +1485,11 @@ WindowId
 aWindowId
 )
 ;
+void
+NotifyIdle
+(
+)
+;
 /
 /
 /
