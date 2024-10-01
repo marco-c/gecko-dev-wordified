@@ -47276,7 +47276,12 @@ first
 .
 TransformToLocal
 (
-GetTransformToThis
+GetCurrentTouchBlock
+(
+)
+-
+>
+GetTransformToApzc
 (
 )
 )
