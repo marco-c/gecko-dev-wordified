@@ -492,6 +492,8 @@ mSpec
 ;
 bool
 mOpened
+=
+false
 ;
 mozilla
 :
@@ -505,6 +507,9 @@ mozilla
 ReleaseAcquire
 >
 mCanceled
+{
+false
+}
 ;
 bool
 mOnDataCalled
@@ -573,9 +578,14 @@ mContentCharset
 ;
 int64_t
 mContentLength
+=
+-
+1
 ;
 uint32_t
 mLoadFlags
+=
+LOAD_NORMAL
 ;
 mozilla
 :
@@ -589,9 +599,14 @@ mozilla
 ReleaseAcquire
 >
 mStatus
+{
+NS_OK
+}
 ;
 bool
 mIsPending
+=
+false
 ;
 /
 /
@@ -603,6 +618,8 @@ progress
 .
 bool
 mEnableOMT
+=
+true
 ;
 /
 /
@@ -632,6 +649,8 @@ struct
 {
 bool
 isCanceled
+=
+false
 ;
 mozilla
 :
@@ -641,6 +660,9 @@ Atomic
 uint32_t
 >
 suspendCount
+{
+0
+}
 ;
 }
 mPendingEvent
