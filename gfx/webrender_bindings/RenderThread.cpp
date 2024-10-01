@@ -666,6 +666,12 @@ mThreadPoolLP
 (
 true
 )
+mChunkPool
+(
+wr_chunk_pool_new
+(
+)
+)
 mGlyphRasterThread
 (
 USE_DEDICATED_GLYPH_RASTER_THREAD
@@ -727,6 +733,11 @@ mRenderTexturesDeferred
 empty
 (
 )
+)
+;
+wr_chunk_pool_delete
+(
+mChunkPool
 )
 ;
 }

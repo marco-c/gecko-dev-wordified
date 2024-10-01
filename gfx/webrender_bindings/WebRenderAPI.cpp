@@ -1031,6 +1031,11 @@ Raw
 )
 aRenderThread
 .
+MemoryChunkPool
+(
+)
+aRenderThread
+.
 GlyphRasterThread
 (
 )
