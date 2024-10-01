@@ -6961,6 +6961,8 @@ bitnot
 MDefinition
 *
 op
+MIRType
+type
 )
 {
 if
@@ -6987,6 +6989,7 @@ alloc
 (
 )
 op
+type
 )
 ;
 curBlock_
@@ -41897,6 +41900,8 @@ FunctionCompiler
 f
 ValType
 operandType
+MIRType
+mirType
 )
 {
 MDefinition
@@ -41937,6 +41942,7 @@ f
 bitnot
 (
 input
+mirType
 )
 )
 ;
@@ -67383,6 +67389,10 @@ ValType
 :
 :
 I32
+MIRType
+:
+:
+Int32
 )
 )
 ;
