@@ -197,9 +197,6 @@ widgetKey
 TransparencyMode
 transparencyMode
 ;
-nsSizeMode
-sizeMode
-;
 }
 ;
 union
