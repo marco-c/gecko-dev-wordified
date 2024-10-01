@@ -436,7 +436,6 @@ handles
 await
 create_file_system_handles
 (
-t
 root
 )
 ;

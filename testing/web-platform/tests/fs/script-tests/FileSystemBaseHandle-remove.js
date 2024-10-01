@@ -19,7 +19,6 @@ handle
 await
 createFileWithContents
 (
-t
 '
 file
 -
@@ -36,7 +35,6 @@ root
 await
 createFileWithContents
 (
-t
 '
 file
 -
@@ -116,7 +114,6 @@ handle
 await
 createFileWithContents
 (
-t
 '
 file
 -
@@ -201,7 +198,6 @@ true
 await
 createFileWithContents
 (
-t
 '
 file
 -
@@ -366,37 +362,9 @@ true
 }
 )
 ;
-t
-.
-add_cleanup
-(
-(
-)
-=
->
-root
-.
-removeEntry
-(
-'
-dir
--
-to
--
-remove
-'
-{
-recursive
-:
-true
-}
-)
-)
-;
 await
 createEmptyFile
 (
-t
 '
 file
 -
@@ -542,7 +510,6 @@ true
 await
 createFileWithContents
 (
-t
 '
 file
 -
@@ -559,7 +526,6 @@ root
 await
 createEmptyFile
 (
-t
 '
 file0
 '
@@ -572,7 +538,6 @@ dir1_in_dir
 await
 createDirectory
 (
-t
 '
 dir1
 -
@@ -586,7 +551,6 @@ dir
 await
 createEmptyFile
 (
-t
 '
 file1
 '
@@ -596,7 +560,6 @@ dir1_in_dir
 await
 createDirectory
 (
-t
 '
 dir2
 -
@@ -671,7 +634,6 @@ handle
 await
 createFileWithContents
 (
-t
 '
 file
 -
@@ -688,7 +650,6 @@ root
 await
 createFileWithContents
 (
-t
 '
 file
 -
@@ -777,7 +738,6 @@ handle
 await
 createFileWithContents
 (
-t
 '
 file
 -
@@ -794,7 +754,6 @@ root
 await
 createFileWithContents
 (
-t
 '
 file
 -

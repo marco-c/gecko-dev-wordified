@@ -265,7 +265,6 @@ file
 await
 createFileWithContents
 (
-test
 '
 test
 -
@@ -417,7 +416,6 @@ directory
 await
 createDirectory
 (
-test
 '
 test
 -
