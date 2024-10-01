@@ -972,6 +972,7 @@ InspectorUtils
 colorToRGBA
 (
 colorStr
+document
 )
 ;
 return
