@@ -849,6 +849,9 @@ button
 fullscreen
 "
 "
+narrow
+"
+"
 srcset
 "
 ]
