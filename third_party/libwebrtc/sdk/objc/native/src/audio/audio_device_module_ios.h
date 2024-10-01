@@ -172,6 +172,8 @@ AudioDeviceModuleIOS
 (
 bool
 bypass_voice_processing
+MutedSpeechEventHandler
+muted_speech_event_handler
 )
 ;
 ~
@@ -784,6 +786,9 @@ private
 const
 bool
 bypass_voice_processing_
+;
+MutedSpeechEventHandler
+muted_speech_event_handler_
 ;
 bool
 initialized_

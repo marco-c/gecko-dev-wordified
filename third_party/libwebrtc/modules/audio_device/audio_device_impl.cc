@@ -1716,6 +1716,13 @@ bypass_voice_processing
 *
 /
 false
+/
+*
+muted_speech_event_handler
+=
+*
+/
+nullptr
 )
 )
 ;

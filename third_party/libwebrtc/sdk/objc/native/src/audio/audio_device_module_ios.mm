@@ -238,11 +238,17 @@ AudioDeviceModuleIOS
 (
 bool
 bypass_voice_processing
+MutedSpeechEventHandler
+muted_speech_event_handler
 )
 :
 bypass_voice_processing_
 (
 bypass_voice_processing
+)
+muted_speech_event_handler_
+(
+muted_speech_event_handler
 )
 task_queue_factory_
 (
@@ -434,6 +440,7 @@ ios_adm
 AudioDeviceIOS
 (
 bypass_voice_processing_
+muted_speech_event_handler_
 )
 )
 ;
