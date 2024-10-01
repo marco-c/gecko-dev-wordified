@@ -314,7 +314,6 @@ nsCharProps2
 undefined
 =
 {
-VERTICAL_ORIENTATION_R
 0
 /
 /
