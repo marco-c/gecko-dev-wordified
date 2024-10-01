@@ -299,6 +299,10 @@ distribution
 "
         
 "
+install
+"
+        
+"
 run
 -
 tests
