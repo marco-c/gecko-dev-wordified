@@ -1386,6 +1386,8 @@ test
 verify
 -
 wpt
+-
+*
 "
         
 ]
