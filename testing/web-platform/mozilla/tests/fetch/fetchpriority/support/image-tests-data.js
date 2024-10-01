@@ -96,7 +96,7 @@ Ci
 .
 nsISupportsPriority
 .
-PRIORITY_LOW
+PRIORITY_LOWEST
 }
 {
 fileNameAndSuffix
