@@ -891,6 +891,17 @@ NS_IsMainThread
 )
 )
 {
+mSheetLoadData
+-
+>
+mNetworkMetadata
+=
+new
+SubResourceNetworkMetadataHolder
+(
+aRequest
+)
+;
 if
 (
 mOnDataFinishedTime
