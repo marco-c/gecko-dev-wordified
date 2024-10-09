@@ -1179,6 +1179,7 @@ Assert
 .
 ok
 (
+!
 gURLBar
 .
 hasAttribute
@@ -1189,7 +1190,9 @@ persistsearchterms
 )
 "
 Urlbar
-has
+does
+not
+have
 persistsearchterms
 attribute
 .
