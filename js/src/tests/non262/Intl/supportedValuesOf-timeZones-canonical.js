@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2024a
+2024b
 /
 /
 This
@@ -1265,11 +1265,6 @@ Brunei
 Asia
 /
 Chita
-"
-"
-Asia
-/
-Choibalsan
 "
 "
 Asia

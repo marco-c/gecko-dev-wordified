@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2024a
+2024b
 const
 tzMapper
 =
@@ -359,6 +359,17 @@ Calcutta
 Asia
 /
 Kolkata
+"
+"
+Asia
+/
+Choibalsan
+"
+:
+"
+Asia
+/
+Ulaanbaatar
 "
 "
 Asia
