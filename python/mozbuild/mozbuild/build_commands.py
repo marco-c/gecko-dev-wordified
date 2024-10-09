@@ -1745,12 +1745,6 @@ CommandArgument
 browser
 "
     
-default
-=
-"
-firefox
-"
-    
 help
 =
 "
