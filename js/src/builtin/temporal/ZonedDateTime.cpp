@@ -8884,7 +8884,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -8917,7 +8917,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarEra
@@ -8929,6 +8929,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -9054,7 +9056,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -9087,9 +9089,9 @@ false
 /
 /
 Steps
-7
+6
 -
-9
+8
 .
 return
 CalendarEraYear
@@ -9101,6 +9103,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -9226,7 +9230,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -9259,7 +9263,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarYear
@@ -9271,6 +9275,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -9396,7 +9402,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -9429,7 +9435,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarMonth
@@ -9441,6 +9447,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -9566,7 +9574,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -9599,7 +9607,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarMonthCode
@@ -9611,6 +9619,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -9733,49 +9743,10 @@ ZonedDateTimeObject
 ;
 /
 /
-Step
-4
-.
-(
-Reordered
-)
-Rooted
-<
-CalendarRecord
->
-calendar
-(
-cx
-)
-;
-if
-(
-!
-CreateCalendarMethodsRecord
-(
-cx
-zonedDateTime
-.
-calendar
-(
-)
-&
-calendar
-)
-)
-{
-return
-false
-;
-}
-/
-/
 Steps
 3
-and
-5
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -9808,14 +9779,20 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarDay
 (
 cx
+zonedDateTime
+.
 calendar
+(
+)
 dateTime
+.
+date
 args
 .
 rval
@@ -9941,7 +9918,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -9974,7 +9951,7 @@ false
 /
 /
 Step
-7
+6
 .
 args
 .
@@ -10112,7 +10089,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -10145,7 +10122,7 @@ false
 /
 /
 Step
-7
+6
 .
 args
 .
@@ -10283,7 +10260,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -10316,7 +10293,7 @@ false
 /
 /
 Step
-7
+6
 .
 args
 .
@@ -10454,7 +10431,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -10487,7 +10464,7 @@ false
 /
 /
 Step
-7
+6
 .
 args
 .
@@ -10625,7 +10602,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -10658,7 +10635,7 @@ false
 /
 /
 Step
-7
+6
 .
 args
 .
@@ -10796,7 +10773,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -10829,7 +10806,7 @@ false
 /
 /
 Step
-7
+6
 .
 args
 .
@@ -11259,7 +11236,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -11292,7 +11269,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarDayOfWeek
@@ -11304,6 +11281,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -11429,7 +11408,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -11462,7 +11441,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarDayOfYear
@@ -11474,6 +11453,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -11599,7 +11580,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -11632,9 +11613,9 @@ false
 /
 /
 Steps
-7
+6
 -
-9
+8
 .
 return
 CalendarWeekOfYear
@@ -11646,6 +11627,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -11771,7 +11754,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -11804,9 +11787,9 @@ false
 /
 /
 Steps
-7
+6
 -
-9
+8
 .
 return
 CalendarYearOfWeek
@@ -11818,6 +11801,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -12356,7 +12341,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -12389,7 +12374,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarDaysInWeek
@@ -12401,6 +12386,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -12526,7 +12513,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -12559,7 +12546,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarDaysInMonth
@@ -12571,6 +12558,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -12696,7 +12685,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -12729,7 +12718,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarDaysInYear
@@ -12741,6 +12730,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -12866,7 +12857,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -12899,7 +12890,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarMonthsInYear
@@ -12911,6 +12902,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
@@ -13036,7 +13029,7 @@ ZonedDateTimeObject
 Steps
 3
 -
-6
+5
 .
 PlainDateTime
 dateTime
@@ -13069,7 +13062,7 @@ false
 /
 /
 Step
-7
+6
 .
 return
 CalendarInLeapYear
@@ -13081,6 +13074,8 @@ calendar
 (
 )
 dateTime
+.
+date
 args
 .
 rval
