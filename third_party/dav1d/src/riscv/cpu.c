@@ -280,10 +280,7 @@ h
 "
 #
 if
-defined
-(
 HAVE_GETAUXVAL
-)
 #
 include
 <
@@ -334,10 +331,7 @@ dav1d_get_default_cpu_flags
 ;
 #
 if
-defined
-(
 HAVE_GETAUXVAL
-)
 unsigned
 long
 hw_cap

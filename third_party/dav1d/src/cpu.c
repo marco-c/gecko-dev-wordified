@@ -311,7 +311,7 @@ h
 #
 endif
 #
-ifdef
+if
 HAVE_UNISTD_H
 #
 include
@@ -323,7 +323,7 @@ h
 #
 endif
 #
-ifdef
+if
 HAVE_PTHREAD_GETAFFINITY_NP
 #
 include
@@ -333,7 +333,7 @@ pthread
 h
 >
 #
-ifdef
+if
 HAVE_PTHREAD_NP_H
 #
 include
@@ -542,10 +542,7 @@ dwNumberOfProcessors
 endif
 #
 elif
-defined
-(
 HAVE_PTHREAD_GETAFFINITY_NP
-)
 &
 &
 defined

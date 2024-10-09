@@ -2494,7 +2494,6 @@ const
 enum
 LrEdgeFlags
 edges
-HIGHBD_DECL_SUFFIX
 )
 {
 const
