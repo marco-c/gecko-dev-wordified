@@ -1628,14 +1628,9 @@ timeZone
 )
 *
 /
+static
 JSString
 *
-js
-:
-:
-temporal
-:
-:
 ValidateAndCanonicalizeTimeZoneName
 (
 JSContext
