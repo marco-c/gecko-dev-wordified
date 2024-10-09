@@ -6610,8 +6610,6 @@ CustomizableWidgets
 return
 ;
 }
-this
-.
 toolbarButton
 .
 toggleAttribute
