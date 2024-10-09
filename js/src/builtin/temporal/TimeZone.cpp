@@ -2617,8 +2617,13 @@ epochNanoseconds
 )
 *
 /
-static
 bool
+js
+:
+:
+temporal
+:
+:
 GetNamedTimeZoneNextTransition
 (
 JSContext
@@ -2626,7 +2631,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObject
+TimeZoneObjectMaybeBuiltin
 *
 >
 timeZone
@@ -2882,8 +2887,13 @@ epochNanoseconds
 )
 *
 /
-static
 bool
+js
+:
+:
+temporal
+:
+:
 GetNamedTimeZonePreviousTransition
 (
 JSContext
@@ -2891,7 +2901,7 @@ JSContext
 cx
 Handle
 <
-TimeZoneObject
+TimeZoneObjectMaybeBuiltin
 *
 >
 timeZone
