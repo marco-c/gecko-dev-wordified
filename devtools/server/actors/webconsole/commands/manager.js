@@ -4989,7 +4989,7 @@ owner
 .
 consoleActor
 .
-parentActor
+targetActor
 .
 isTracerFeatureEnabled
 )
@@ -5028,7 +5028,7 @@ owner
 .
 consoleActor
 .
-parentActor
+targetActor
 .
 getTargetScopedActor
 (

@@ -4697,7 +4697,7 @@ selectedObjectActor
 |
 webConsole
 .
-parentActor
+targetActor
 .
 getActorByID
 (
