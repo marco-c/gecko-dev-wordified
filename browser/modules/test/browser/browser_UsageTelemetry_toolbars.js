@@ -1153,6 +1153,11 @@ personal
 -
 bookmarks
 "
+"
+alltabs
+-
+button
+"
 ]
 "
 nav
@@ -1384,6 +1389,11 @@ tabs
 new
 -
 tab
+-
+button
+"
+"
+alltabs
 -
 button
 "
@@ -2017,6 +2027,11 @@ tabs
 new
 -
 tab
+-
+button
+"
+"
+alltabs
 -
 button
 "
