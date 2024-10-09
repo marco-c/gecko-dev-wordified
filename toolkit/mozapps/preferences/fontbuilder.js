@@ -325,6 +325,15 @@ menupopup
 )
 ;
 let
+popupFrag
+=
+document
+.
+createDocumentFragment
+(
+)
+;
+let
 separator
 ;
 if
@@ -413,7 +422,7 @@ has
 a
 blank
 value
-popup
+popupFrag
 .
 appendChild
 (
@@ -431,7 +440,7 @@ menuseparator
 "
 )
 ;
-popup
+popupFrag
 .
 appendChild
 (
@@ -477,7 +486,7 @@ label
 font
 )
 ;
-popup
+popupFrag
 .
 appendChild
 (
@@ -571,7 +580,7 @@ separator
 .
 nextSibling
 :
-popup
+popupFrag
 .
 firstChild
 ;
@@ -602,7 +611,7 @@ menuseparator
 "
 )
 ;
-popup
+popupFrag
 .
 appendChild
 (
@@ -659,7 +668,7 @@ label
 font
 )
 ;
-popup
+popupFrag
 .
 appendChild
 (
@@ -693,6 +702,13 @@ null
 }
 }
 }
+popup
+.
+appendChild
+(
+popupFrag
+)
+;
 aMenuList
 .
 appendChild
