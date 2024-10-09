@@ -46,7 +46,6 @@ keywords
 bookmarks
 history
 tabs
-actions
 )
 and
 verifies
@@ -414,11 +413,6 @@ entry
 "
 keywordoffer
 "
-restrictType
-:
-"
-keyword
-"
 }
 )
 ;
@@ -501,11 +495,6 @@ UrlbarTokenizer
 RESTRICT
 .
 OPENPAGE
-UrlbarTokenizer
-.
-RESTRICT
-.
-ACTION
 ]
 ;
 for
