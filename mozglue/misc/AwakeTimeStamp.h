@@ -299,6 +299,11 @@ AwakeTimeStamp
 {
 public
 :
+using
+DurationType
+=
+AwakeTimeDuration
+;
 MFBT_API
 static
 AwakeTimeStamp

@@ -2893,6 +2893,11 @@ TimeStamp
 {
 public
 :
+using
+DurationType
+=
+TimeDuration
+;
 /
 *
 *
