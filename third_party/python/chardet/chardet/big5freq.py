@@ -446,6 +446,10 @@ table
 BIG5_TABLE_SIZE
 =
 5376
+#
+fmt
+:
+off
 BIG5_CHAR_TO_FREQ_ORDER
 =
 (
@@ -6557,3 +6561,7 @@ BIG5_CHAR_TO_FREQ_ORDER
 #
 5376
 )
+#
+fmt
+:
+on

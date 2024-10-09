@@ -30,11 +30,6 @@ abc
 import
 ResourceReader
 Traversable
-from
-.
-_compat
-import
-wrap_spec
 Package
 =
 Union
@@ -119,6 +114,16 @@ but
 2
 were
 given
+    
+Remove
+this
+compatibility
+in
+Python
+3
+.
+14
+.
     
 "
 "
@@ -383,6 +388,11 @@ None
 type
 :
 ignore
+[
+union
+-
+attr
+]
     
 if
 reader
@@ -404,6 +414,11 @@ name
 type
 :
 ignore
+[
+union
+-
+attr
+]
 functools
 .
 singledispatch
@@ -531,7 +546,12 @@ frame_info
 filename
 =
 =
-__file__
+stack
+[
+0
+]
+.
+filename
     
 def
 is_wrapper
@@ -550,6 +570,14 @@ function
 wrapper
 '
     
+stack
+=
+inspect
+.
+stack
+(
+)
+    
 not_this_file
 =
 itertools
@@ -557,11 +585,7 @@ itertools
 filterfalse
 (
 is_this_file
-inspect
-.
 stack
-(
-)
 )
     
 #
@@ -623,6 +647,26 @@ package
 "
 "
 "
+    
+#
+deferred
+for
+performance
+(
+python
+/
+cpython
+#
+109829
+)
+    
+from
+.
+future
+.
+adapters
+import
+wrap_spec
     
 spec
 =
@@ -1021,7 +1065,7 @@ TemporaryDirectory
 Wrap
 tempfile
 .
-TemporyDirectory
+TemporaryDirectory
 to
 return
 a

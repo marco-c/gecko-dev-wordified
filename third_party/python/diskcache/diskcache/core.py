@@ -37,13 +37,13 @@ path
 as
 op
 import
+pickle
+import
 pickletools
 import
 sqlite3
 import
 struct
-import
-sys
 import
 tempfile
 import
@@ -54,351 +54,6 @@ import
 warnings
 import
 zlib
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-BEGIN
-Python
-2
-/
-3
-Shims
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-if
-sys
-.
-hexversion
-<
-0x03000000
-:
-    
-import
-cPickle
-as
-pickle
-#
-pylint
-:
-disable
-=
-import
--
-error
-    
-#
-ISSUE
-#
-25
-Fix
-for
-http
-:
-/
-/
-bugs
-.
-python
-.
-org
-/
-issue10211
-    
-from
-cStringIO
-import
-StringIO
-as
-BytesIO
-#
-pylint
-:
-disable
-=
-import
--
-error
-    
-from
-thread
-import
-get_ident
-#
-pylint
-:
-disable
-=
-import
--
-error
-no
--
-name
--
-in
--
-module
-    
-TextType
-=
-unicode
-#
-pylint
-:
-disable
-=
-invalid
--
-name
-undefined
--
-variable
-    
-BytesType
-=
-str
-    
-INT_TYPES
-=
-int
-long
-#
-pylint
-:
-disable
-=
-undefined
--
-variable
-    
-range
-=
-xrange
-#
-pylint
-:
-disable
-=
-redefined
--
-builtin
-invalid
--
-name
-undefined
--
-variable
-    
-io_open
-=
-io
-.
-open
-#
-pylint
-:
-disable
-=
-invalid
--
-name
-else
-:
-    
-import
-pickle
-    
-from
-io
-import
-BytesIO
-#
-pylint
-:
-disable
-=
-ungrouped
--
-imports
-    
-from
-threading
-import
-get_ident
-    
-TextType
-=
-str
-    
-BytesType
-=
-bytes
-    
-INT_TYPES
-=
-(
-int
-)
-    
-io_open
-=
-open
-#
-pylint
-:
-disable
-=
-invalid
--
-name
 def
 full_name
 (
@@ -406,6 +61,8 @@ func
 )
 :
     
+"
+"
 "
 Return
 full
@@ -421,58 +78,8 @@ function
 name
 .
 "
-    
-try
-:
-        
-#
-The
-__qualname__
-attribute
-is
-only
-available
-in
-Python
-3
-.
-3
-and
-later
-.
-        
-#
-GrantJ
-2019
--
-03
--
-29
-Remove
-after
-support
-for
-Python
-2
-is
-dropped
-.
-        
-name
-=
-func
-.
-__qualname__
-    
-except
-AttributeError
-:
-        
-name
-=
-func
-.
-__name__
+"
+"
     
 return
 func
@@ -483,193 +90,9 @@ __module__
 .
 '
 +
-name
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-END
-Python
-2
-/
-3
-Shims
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-try
-:
-    
-WindowsError
-except
-NameError
-:
-    
-class
-WindowsError
-(
-Exception
-)
-:
-        
-"
-Windows
-error
-place
--
-holder
-on
-platforms
-without
-support
+func
 .
-"
+__qualname__
 class
 Constant
 (
@@ -678,12 +101,16 @@ tuple
 :
     
 "
+"
+"
 Pretty
 display
 of
 immutable
 constant
 .
+"
+"
 "
     
 def
@@ -764,7 +191,6 @@ DEFAULT_SETTINGS
 =
 {
     
-u
 '
 statistics
 '
@@ -773,7 +199,6 @@ statistics
 #
 False
     
-u
 '
 tag_index
 '
@@ -782,12 +207,10 @@ tag_index
 #
 False
     
-u
 '
 eviction_policy
 '
 :
-u
 '
 least
 -
@@ -796,7 +219,6 @@ recently
 stored
 '
     
-u
 '
 size_limit
 '
@@ -808,14 +230,12 @@ size_limit
 #
 1gb
     
-u
 '
 cull_limit
 '
 :
 10
     
-u
 '
 sqlite_auto_vacuum
 '
@@ -824,7 +244,6 @@ sqlite_auto_vacuum
 #
 FULL
     
-u
 '
 sqlite_cache_size
 '
@@ -838,17 +257,14 @@ sqlite_cache_size
 192
 pages
     
-u
 '
 sqlite_journal_mode
 '
 :
-u
 '
 wal
 '
     
-u
 '
 sqlite_mmap_size
 '
@@ -860,7 +276,6 @@ sqlite_mmap_size
 #
 64mb
     
-u
 '
 sqlite_synchronous
 '
@@ -869,7 +284,6 @@ sqlite_synchronous
 #
 NORMAL
     
-u
 '
 disk_min_file_size
 '
@@ -881,7 +295,6 @@ disk_min_file_size
 #
 32kb
     
-u
 '
 disk_pickle_protocol
 '
@@ -894,28 +307,24 @@ METADATA
 =
 {
     
-u
 '
 count
 '
 :
 0
     
-u
 '
 size
 '
 :
 0
     
-u
 '
 hits
 '
 :
 0
     
-u
 '
 misses
 '
@@ -1149,11 +558,10 @@ LIMIT
 }
 class
 Disk
-(
-object
-)
 :
     
+"
+"
 "
 Cache
 key
@@ -1166,6 +574,8 @@ database
 and
 files
 .
+"
+"
 "
     
 def
@@ -1319,7 +729,7 @@ mask
 elif
 type_disk_key
 is
-TextType
+str
 :
             
 return
@@ -1341,18 +751,12 @@ utf
 &
 mask
 #
-pylint
-:
-disable
-=
-no
--
-member
+noqa
         
 elif
 type_disk_key
-in
-INT_TYPES
+is
+int
 :
             
 return
@@ -1438,9 +842,6 @@ pylint
 :
 disable
 =
-bad
--
-continuation
 unidiomatic
 -
 typecheck
@@ -1455,7 +856,7 @@ key
 if
 type_key
 is
-BytesType
+bytes
 :
             
 return
@@ -1469,18 +870,20 @@ True
         
 elif
 (
+            
 (
 type_key
 is
-TextType
+str
 )
-                
+            
 or
 (
+                
 type_key
-in
-INT_TYPES
-                    
+is
+int
+                
 and
 -
 9223372036854775808
@@ -1490,14 +893,16 @@ key
 <
 =
 9223372036854775807
+            
 )
-                
+            
 or
 (
 type_key
 is
 float
 )
+        
 )
 :
             
@@ -1600,11 +1005,6 @@ pylint
 :
 disable
 =
-no
--
-self
--
-use
 unidiomatic
 -
 typecheck
@@ -1614,7 +1014,7 @@ raw
 :
             
 return
-BytesType
+bytes
 (
 key
 )
@@ -1638,6 +1038,8 @@ pickle
 .
 load
 (
+io
+.
 BytesIO
 (
 key
@@ -1750,10 +1152,11 @@ min_file_size
         
 if
 (
+            
 (
 type_value
 is
-TextType
+str
 and
 len
 (
@@ -1762,13 +1165,14 @@ value
 <
 min_file_size
 )
-                
+            
 or
 (
+                
 type_value
-in
-INT_TYPES
-                    
+is
+int
+                
 and
 -
 9223372036854775808
@@ -1778,14 +1182,16 @@ value
 <
 =
 9223372036854775807
+            
 )
-                
+            
 or
 (
 type_value
 is
 float
 )
+        
 )
 :
             
@@ -1798,7 +1204,7 @@ value
 elif
 type_value
 is
-BytesType
+bytes
 :
             
 if
@@ -1835,23 +1241,20 @@ key
 value
 )
                 
-with
-open
+self
+.
+_write
 (
 full_path
-'
-wb
-'
-)
-as
-writer
-:
-                    
-writer
+io
 .
-write
+BytesIO
 (
 value
+)
+'
+xb
+'
 )
                 
 return
@@ -1866,7 +1269,7 @@ None
 elif
 type_value
 is
-TextType
+str
 :
             
 filename
@@ -1880,30 +1283,25 @@ key
 value
 )
             
-with
-io_open
+self
+.
+_write
 (
 full_path
+io
+.
+StringIO
+(
+value
+)
 '
-w
+x
 '
-encoding
-=
 '
 UTF
 -
 8
 '
-)
-as
-writer
-:
-                
-writer
-.
-write
-(
-value
 )
             
 size
@@ -1924,10 +1322,6 @@ None
 elif
 read
 :
-            
-size
-=
-0
             
 reader
 =
@@ -1955,21 +1349,8 @@ key
 value
 )
             
-with
-open
-(
-full_path
-'
-wb
-'
-)
-as
-writer
-:
-                
-for
-chunk
-in
+iterator
+=
 iter
 (
 reader
@@ -1977,21 +1358,18 @@ b
 '
 '
 )
-:
-                    
+            
 size
-+
 =
-len
-(
-chunk
-)
-                    
-writer
+self
 .
-write
+_write
 (
-chunk
+full_path
+iterator
+'
+xb
+'
 )
             
 return
@@ -2051,23 +1429,20 @@ key
 value
 )
                 
-with
-open
+self
+.
+_write
 (
 full_path
-'
-wb
-'
-)
-as
-writer
-:
-                    
-writer
+io
 .
-write
+BytesIO
 (
 result
+)
+'
+xb
+'
 )
                 
 return
@@ -2078,6 +1453,146 @@ result
 MODE_PICKLE
 filename
 None
+    
+def
+_write
+(
+self
+full_path
+iterator
+mode
+encoding
+=
+None
+)
+:
+        
+full_dir
+_
+=
+op
+.
+split
+(
+full_path
+)
+        
+for
+count
+in
+range
+(
+1
+11
+)
+:
+            
+with
+cl
+.
+suppress
+(
+OSError
+)
+:
+                
+os
+.
+makedirs
+(
+full_dir
+)
+            
+try
+:
+                
+#
+Another
+cache
+may
+have
+deleted
+the
+directory
+before
+                
+#
+the
+file
+could
+be
+opened
+.
+                
+writer
+=
+open
+(
+full_path
+mode
+encoding
+=
+encoding
+)
+            
+except
+OSError
+:
+                
+if
+count
+=
+=
+10
+:
+                    
+#
+Give
+up
+after
+10
+tries
+to
+open
+the
+file
+.
+                    
+raise
+                
+continue
+            
+with
+writer
+:
+                
+size
+=
+0
+                
+for
+chunk
+in
+iterator
+:
+                    
+size
++
+=
+len
+(
+chunk
+)
+                    
+writer
+.
+write
+(
+chunk
+)
+                
+return
+size
     
 def
 fetch
@@ -2157,6 +1672,17 @@ corresponding
 Python
 value
         
+:
+raises
+:
+IOError
+if
+the
+value
+cannot
+be
+read
+        
 "
 "
 "
@@ -2166,14 +1692,14 @@ pylint
 :
 disable
 =
-no
--
-self
--
-use
 unidiomatic
 -
 typecheck
+consider
+-
+using
+-
+with
         
 if
 mode
@@ -2183,7 +1709,7 @@ MODE_RAW
 :
             
 return
-BytesType
+bytes
 (
 value
 )
@@ -2277,7 +1803,7 @@ filename
 )
             
 with
-io_open
+open
 (
 full_path
 '
@@ -2351,6 +1877,8 @@ pickle
 .
 load
 (
+io
+.
 BytesIO
 (
 value
@@ -2579,47 +2107,6 @@ hex_name
 val
 '
         
-directory
-=
-op
-.
-join
-(
-self
-.
-_directory
-sub_dir
-)
-        
-try
-:
-            
-os
-.
-makedirs
-(
-directory
-)
-        
-except
-OSError
-as
-error
-:
-            
-if
-error
-.
-errno
-!
-=
-errno
-.
-EEXIST
-:
-                
-raise
-        
 filename
 =
 op
@@ -2650,7 +2137,7 @@ def
 remove
 (
 self
-filename
+file_path
 )
 :
         
@@ -2662,7 +2149,7 @@ a
 file
 given
 by
-filename
+file_path
 .
         
 This
@@ -2679,12 +2166,8 @@ safe
 .
 If
 an
-"
-error
-no
+OSError
         
-entry
-"
 occurs
 it
 is
@@ -2694,7 +2177,7 @@ suppressed
 :
 param
 str
-filename
+file_path
 :
 relative
 path
@@ -2714,44 +2197,23 @@ join
 self
 .
 _directory
-filename
+file_path
 )
         
-try
-:
-            
-os
+full_dir
+_
+=
+op
 .
-remove
+split
 (
 full_path
 )
         
-except
-WindowsError
-:
-            
-pass
-        
-except
-OSError
-as
-error
-:
-            
-if
-error
-.
-errno
-!
-=
-errno
-.
-ENOENT
-:
-                
 #
-ENOENT
+Suppress
+OSError
+that
 may
 occur
 if
@@ -2761,17 +2223,49 @@ attempt
 to
 delete
 the
-same
-                
+        
 #
+same
 file
+or
+directory
 at
 the
 same
 time
 .
-                
-raise
+        
+with
+cl
+.
+suppress
+(
+OSError
+)
+:
+            
+os
+.
+remove
+(
+full_path
+)
+        
+with
+cl
+.
+suppress
+(
+OSError
+)
+:
+            
+os
+.
+removedirs
+(
+full_dir
+)
 class
 JSONDisk
 (
@@ -2779,6 +2273,8 @@ Disk
 )
 :
     
+"
+"
 "
 Cache
 key
@@ -2791,6 +2287,8 @@ with
 zlib
 compression
 .
+"
+"
 "
     
 def
@@ -2908,8 +2406,6 @@ compress_level
         
 super
 (
-JSONDisk
-self
 )
 .
 __init__
@@ -2961,8 +2457,6 @@ compress_level
 return
 super
 (
-JSONDisk
-self
 )
 .
 put
@@ -2983,8 +2477,6 @@ data
 =
 super
 (
-JSONDisk
-self
 )
 .
 get
@@ -3065,8 +2557,6 @@ compress_level
 return
 super
 (
-JSONDisk
-self
 )
 .
 store
@@ -3093,8 +2583,6 @@ data
 =
 super
 (
-JSONDisk
-self
 )
 .
 fetch
@@ -3143,10 +2631,14 @@ Exception
 :
     
 "
+"
+"
 Database
 timeout
 expired
 .
+"
+"
 "
 class
 UnknownFileWarning
@@ -3155,6 +2647,8 @@ UserWarning
 )
 :
     
+"
+"
 "
 Warning
 used
@@ -3167,6 +2661,8 @@ unknown
 files
 .
 "
+"
+"
 class
 EmptyDirWarning
 (
@@ -3174,6 +2670,8 @@ UserWarning
 )
 :
     
+"
+"
 "
 Warning
 used
@@ -3186,6 +2684,8 @@ empty
 directories
 .
 "
+"
+"
 def
 args_to_key
 (
@@ -3193,6 +2693,7 @@ base
 args
 kwargs
 typed
+ignore
 )
 :
     
@@ -3246,6 +2747,18 @@ cache
 key
     
 :
+param
+set
+ignore
+:
+positional
+or
+keyword
+args
+to
+ignore
+    
+:
 return
 :
 cache
@@ -3256,22 +2769,61 @@ tuple
 "
 "
     
+args
+=
+tuple
+(
+arg
+for
+index
+arg
+in
+enumerate
+(
+args
+)
+if
+index
+not
+in
+ignore
+)
+    
 key
 =
 base
 +
 args
++
+(
+None
+)
     
 if
 kwargs
 :
         
-key
-+
+kwargs
 =
+{
+key
+:
+val
+for
+key
+val
+in
+kwargs
+.
+items
 (
-ENOVAL
 )
+if
+key
+not
+in
+ignore
+}
         
 sorted_items
 =
@@ -3338,11 +2890,10 @@ return
 key
 class
 Cache
-(
-object
-)
 :
     
+"
+"
 "
 Disk
 and
@@ -3351,15 +2902,8 @@ backed
 cache
 .
 "
-    
-#
-pylint
-:
-disable
-=
-bad
--
-continuation
+"
+"
     
 def
 __init__
@@ -3457,6 +3001,8 @@ diskcache
 Disk
 '
 )
+from
+None
         
 if
 directory
@@ -3476,6 +3022,13 @@ prefix
 diskcache
 -
 '
+)
+        
+directory
+=
+str
+(
+directory
 )
         
 directory
@@ -3602,6 +3155,8 @@ self
 _directory
                     
 )
+from
+None
         
 sql
 =
@@ -3622,9 +3177,9 @@ current_settings
 =
 dict
 (
+                
 sql
 (
-                
 '
 SELECT
 key
@@ -3632,12 +3187,12 @@ value
 FROM
 Settings
 '
-            
 )
 .
 fetchall
 (
 )
+            
 )
         
 except
@@ -3737,6 +3292,7 @@ False
         
 sql
 (
+            
 '
 CREATE
 TABLE
@@ -3786,6 +3342,7 @@ key
 ]
 :
 value
+            
 for
 key
 value
@@ -3918,9 +3475,11 @@ key
 )
         
 (
+(
 self
 .
 _page_size
+)
 )
 =
 sql
@@ -3943,6 +3502,7 @@ table
         
 sql
 (
+            
 '
 CREATE
 TABLE
@@ -4026,6 +3586,7 @@ BLOB
         
 sql
 (
+            
 '
 CREATE
 UNIQUE
@@ -4049,6 +3610,7 @@ raw
         
 sql
 (
+            
 '
 CREATE
 INDEX
@@ -4105,6 +3667,7 @@ updated
         
 sql
 (
+            
 '
 CREATE
 TRIGGER
@@ -4151,6 +3714,7 @@ END
         
 sql
 (
+            
 '
 CREATE
 TRIGGER
@@ -4197,6 +3761,7 @@ END
         
 sql
 (
+            
 '
 CREATE
 TRIGGER
@@ -4245,6 +3810,7 @@ END
         
 sql
 (
+            
 '
 CREATE
 TRIGGER
@@ -4300,6 +3866,7 @@ END
         
 sql
 (
+            
 '
 CREATE
 TRIGGER
@@ -5254,6 +4821,8 @@ remove
         
 tid
 =
+threading
+.
 get_ident
 (
 )
@@ -5331,6 +4900,8 @@ filename
                     
 raise
 Timeout
+from
+None
         
 try
 :
@@ -5880,8 +5451,10 @@ rows
 :
                 
 (
+(
 rowid
 old_filename
+)
 )
 =
 rows
@@ -6020,6 +5593,7 @@ columns
         
 sql
 (
+            
 '
 UPDATE
 Cache
@@ -6086,6 +5660,7 @@ rowid
 =
 ?
 '
+            
 (
                 
 now
@@ -6146,6 +5721,7 @@ columns
         
 sql
 (
+            
 '
 INSERT
 INTO
@@ -6187,6 +5763,7 @@ VALUES
 ?
 )
 '
+            
 (
                 
 key
@@ -6324,8 +5901,6 @@ rows
             
 delete_expired
 =
-(
-                
 '
 DELETE
 FROM
@@ -6338,15 +5913,14 @@ IN
 s
 )
 '
-                
 %
 (
+                
 select_expired_template
 %
 '
 rowid
 '
-)
             
 )
             
@@ -6360,7 +5934,9 @@ cull_limit
 )
             
 for
+(
 filename
+)
 in
 rows
 :
@@ -6462,8 +6038,6 @@ rows
             
 delete
 =
-(
-                
 '
 DELETE
 FROM
@@ -6476,9 +6050,9 @@ IN
 s
 )
 '
-                
 %
 (
+                
 select_policy
 .
 format
@@ -6492,7 +6066,6 @@ now
 =
 now
 )
-)
             
 )
             
@@ -6505,7 +6078,9 @@ cull_limit
 )
             
 for
+(
 filename
+)
 in
 rows
 :
@@ -6710,8 +6285,10 @@ rows
 :
                 
 (
+(
 rowid
 old_expire_time
+)
 )
 =
 rows
@@ -6728,6 +6305,7 @@ now
                     
 sql
 (
+                        
 '
 UPDATE
 Cache
@@ -7079,9 +6657,11 @@ rows
 :
                 
 (
+(
 rowid
 old_filename
 old_expire_time
+)
 )
 =
 rows
@@ -7468,11 +7048,13 @@ _disk
 .
 store
 (
+                    
 value
 False
 key
 =
 key
+                
 )
                 
 self
@@ -7498,10 +7080,12 @@ return
 value
             
 (
+(
 rowid
 expire_time
 filename
 value
+)
 )
 =
 rows
@@ -7548,11 +7132,13 @@ _disk
 .
 store
 (
+                    
 value
 False
 key
 =
 key
+                
 )
                 
 self
@@ -7906,24 +7492,31 @@ retry
 def
 get
 (
+        
 self
+        
 key
+        
 default
 =
 None
+        
 read
 =
 False
+        
 expire_time
 =
 False
+        
 tag
 =
 False
-            
+        
 retry
 =
 False
+    
 )
 :
         
@@ -8224,12 +7817,14 @@ return
 default
             
 (
+(
 rowid
 db_expire_time
 db_tag
 mode
 filename
 db_value
+)
 )
 =
 rows
@@ -8378,16 +7973,23 @@ return
 default
                 
 (
+                    
+(
 rowid
 db_expire_time
 db_tag
-                     
 mode
 filename
 db_value
 )
+                
+)
 =
 rows
+#
+noqa
+:
+E127
                 
 try
 :
@@ -8408,21 +8010,8 @@ read
                 
 except
 IOError
-as
-error
 :
                     
-if
-error
-.
-errno
-=
-=
-errno
-.
-ENOENT
-:
-                        
 #
 Key
 was
@@ -8433,25 +8022,20 @@ could
 retrieve
 result
 .
-                        
+                    
 if
 self
 .
 statistics
 :
-                            
+                        
 sql
 (
 cache_miss
 )
-                        
+                    
 return
 default
-                    
-else
-:
-                        
-raise
                 
 if
 self
@@ -8890,6 +8474,7 @@ rows
 def
 pop
 (
+        
 self
 key
 default
@@ -8904,8 +8489,13 @@ False
 retry
 =
 False
+    
 )
 :
+#
+noqa
+:
+E501
         
 "
 "
@@ -9179,12 +8769,14 @@ return
 default
             
 (
+(
 rowid
 db_expire_time
 db_tag
 mode
 filename
 db_value
+)
 )
 =
 rows
@@ -9224,21 +8816,8 @@ False
         
 except
 IOError
-as
-error
 :
             
-if
-error
-.
-errno
-=
-=
-errno
-.
-ENOENT
-:
-                
 #
 Key
 was
@@ -9249,14 +8828,9 @@ could
 retrieve
 result
 .
-                
+            
 return
 default
-            
-else
-:
-                
-raise
         
 finally
 :
@@ -9491,8 +9065,10 @@ key
 )
             
 (
+(
 rowid
 filename
+)
 )
 =
 rows
@@ -9615,6 +9191,17 @@ occurs
 "
 "
         
+#
+pylint
+:
+disable
+=
+unnecessary
+-
+dunder
+-
+call
+        
 try
 :
             
@@ -9639,29 +9226,37 @@ False
 def
 push
 (
+        
 self
+        
 value
+        
 prefix
 =
 None
+        
 side
 =
 '
 back
 '
+        
 expire
 =
 None
+        
 read
 =
 False
-             
+        
 tag
 =
 None
+        
 retry
 =
 False
+    
 )
 :
         
@@ -10225,7 +9820,9 @@ rows
 :
                 
 (
+(
 key
+)
 )
 =
 rows
@@ -10362,31 +9959,38 @@ db_key
 def
 pull
 (
+        
 self
+        
 prefix
 =
 None
+        
 default
 =
 (
 None
 None
 )
+        
 side
 =
 '
 front
 '
-             
+        
 expire_time
 =
 False
+        
 tag
 =
 False
+        
 retry
 =
 False
+    
 )
 :
         
@@ -10996,14 +10600,17 @@ return
 default
                     
 (
+                        
+(
 rowid
 key
 db_expire
 db_tag
 mode
 name
-                     
 db_value
+)
+                    
 )
 =
 rows
@@ -11068,21 +10675,8 @@ False
             
 except
 IOError
-as
-error
 :
                 
-if
-error
-.
-errno
-=
-=
-errno
-.
-ENOENT
-:
-                    
 #
 Key
 was
@@ -11093,13 +10687,8 @@ could
 retrieve
 result
 .
-                    
-continue
                 
-else
-:
-                    
-raise
+continue
             
 finally
 :
@@ -11168,31 +10757,38 @@ value
 def
 peek
 (
+        
 self
+        
 prefix
 =
 None
+        
 default
 =
 (
 None
 None
 )
+        
 side
 =
 '
 front
 '
-             
+        
 expire_time
 =
 False
+        
 tag
 =
 False
+        
 retry
 =
 False
+    
 )
 :
         
@@ -11767,14 +11363,17 @@ return
 default
                     
 (
+                        
+(
 rowid
 key
 db_expire
 db_tag
 mode
 name
-                     
 db_value
+)
+                    
 )
 =
 rows
@@ -11839,21 +11438,8 @@ False
             
 except
 IOError
-as
-error
 :
                 
-if
-error
-.
-errno
-=
-=
-errno
-.
-ENOENT
-:
-                    
 #
 Key
 was
@@ -11864,32 +11450,8 @@ could
 retrieve
 result
 .
-                    
+                
 continue
-                
-else
-:
-                    
-raise
-            
-finally
-:
-                
-if
-name
-is
-not
-None
-:
-                    
-self
-.
-_disk
-.
-remove
-(
-name
-)
             
 break
         
@@ -12270,15 +11832,27 @@ empty
 )
                     
 (
+                        
+(
+                            
 rowid
+                            
 db_key
+                            
 raw
+                            
 db_expire
+                            
 db_tag
+                            
 mode
+                            
 name
-                     
+                            
 db_value
+                        
+)
+                    
 )
 =
 rows
@@ -12355,21 +11929,8 @@ False
             
 except
 IOError
-as
-error
 :
                 
-if
-error
-.
-errno
-=
-=
-errno
-.
-ENOENT
-:
-                    
 #
 Key
 was
@@ -12380,13 +11941,8 @@ could
 retrieve
 result
 .
-                    
-continue
                 
-else
-:
-                    
-raise
+continue
             
 break
         
@@ -12436,6 +11992,7 @@ value
 def
 memoize
 (
+        
 self
 name
 =
@@ -12449,6 +12006,11 @@ None
 tag
 =
 None
+ignore
+=
+(
+)
+    
 )
 :
         
@@ -12929,6 +12491,23 @@ None
 )
         
 :
+param
+set
+ignore
+:
+positional
+or
+keyword
+args
+to
+ignore
+(
+default
+(
+)
+)
+        
+:
 return
 :
 callable
@@ -12976,6 +12555,8 @@ func
 :
             
 "
+"
+"
 Decorator
 created
 by
@@ -12986,6 +12567,8 @@ for
 callable
 func
 .
+"
+"
 "
             
 base
@@ -13024,6 +12607,8 @@ kwargs
 :
                 
 "
+"
+"
 Wrapper
 for
 callable
@@ -13034,6 +12619,8 @@ and
 return
 values
 .
+"
+"
 "
                 
 key
@@ -13121,6 +12708,8 @@ kwargs
 :
                 
 "
+"
+"
 Make
 key
 for
@@ -13130,6 +12719,8 @@ function
 arguments
 .
 "
+"
+"
                 
 return
 args_to_key
@@ -13138,6 +12729,7 @@ base
 args
 kwargs
 typed
+ignore
 )
             
 wrapper
@@ -13392,14 +12984,15 @@ rows
 ]
 !
 =
-u
 '
 ok
 '
 :
                 
 for
+(
 message
+)
 in
 rows
 :
@@ -13576,6 +13169,7 @@ fix
                                 
 sql
 (
+                                    
 '
 UPDATE
 Cache
@@ -13816,7 +13410,9 @@ count
 )
                 
 (
+(
 count
+)
 )
 =
 sql
@@ -13888,6 +13484,7 @@ fix
                         
 sql
 (
+                            
 '
 UPDATE
 Settings
@@ -13950,7 +13547,9 @@ Cache
 '
                 
 (
+(
 size
+)
 )
 =
 sql
@@ -14014,6 +13613,7 @@ fix
                         
 sql
 (
+                            
 '
 UPDATE
 Settings
@@ -14788,6 +14388,7 @@ None
 :
             
 return
+0
         
 select_filename
 =
@@ -14906,7 +14507,9 @@ delete
 )
                     
 for
+(
 filename
+)
 in
 rows
 :
@@ -14925,6 +14528,8 @@ Timeout
 (
 count
 )
+from
+None
         
 return
 count
@@ -15114,6 +14719,7 @@ retry
 def
 _select_delete
 (
+        
 self
 select
 args
@@ -15123,10 +14729,10 @@ row_index
 arg_index
 =
 0
-                       
 retry
 =
 False
+    
 )
 :
         
@@ -15254,6 +14860,8 @@ Timeout
 (
 count
 )
+from
+None
         
 return
 count
@@ -15553,8 +15161,10 @@ row
 :
             
 (
+(
 key
 raw
+)
 )
 =
 row
@@ -15649,7 +15259,9 @@ fetchall
 )
         
 (
+(
 max_rowid
+)
 )
 =
 rows
@@ -15811,6 +15423,8 @@ self
 :
         
 "
+"
+"
 Iterate
 keys
 in
@@ -15819,6 +15433,8 @@ including
 expired
 items
 .
+"
+"
 "
         
 iterator
@@ -15845,6 +15461,8 @@ self
 :
         
 "
+"
+"
 Reverse
 iterate
 keys
@@ -15854,6 +15472,8 @@ including
 expired
 items
 .
+"
+"
 "
         
 iterator
@@ -16038,7 +15658,9 @@ bytes
 "
         
 (
+(
 page_count
+)
 )
 =
 self
@@ -16089,7 +15711,6 @@ Close
 database
 connection
 .
-        
 "
 "
 "
@@ -16154,11 +15775,6 @@ in
 thread
 .
         
-connection
-=
-self
-.
-_con
 #
 pylint
 :
@@ -16167,6 +15783,14 @@ disable
 unused
 -
 variable
+        
+connection
+=
+self
+.
+_con
+#
+noqa
         
 return
 self
@@ -16194,6 +15818,8 @@ self
 :
         
 "
+"
+"
 Count
 of
 items
@@ -16203,6 +15829,8 @@ including
 expired
 items
 .
+"
+"
 "
         
 return
@@ -16504,7 +16132,9 @@ key
 '
             
 (
+(
 value
+)
 )
 =
 sql_retry
@@ -16716,11 +16346,14 @@ try
 :
                         
 (
+(
 old_value
+)
 )
 =
 sql
 (
+                            
 '
 PRAGMA
 %
@@ -16730,6 +16363,7 @@ s
 (
 pragma
 )
+                        
 )
 .
 fetchall

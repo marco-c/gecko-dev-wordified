@@ -66,13 +66,6 @@ _quoting_c
 import
 _Quoter
 _Unquoter
-#
-type
-:
-ignore
-[
-misc
-]
     
 except
 ImportError
@@ -94,7 +87,7 @@ type
 :
 ignore
 [
-misc
+assignment
 ]
 else
 :
@@ -110,5 +103,5 @@ type
 :
 ignore
 [
-misc
+assignment
 ]

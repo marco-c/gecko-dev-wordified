@@ -13,6 +13,8 @@ utf
 #
 Copyright
 2019
+-
+2022
 Avram
 Lubkin
 All
@@ -543,16 +545,13 @@ BOOL_CAPS
 return
 1
         
+return
+0
 if
 capname
 in
 BOOL_CAPS
-:
-            
-return
-0
-        
-return
+else
 -
 1
 def

@@ -1272,7 +1272,7 @@ will
 have
 go
             
-trough
+through
 the
 whole
 recurrence

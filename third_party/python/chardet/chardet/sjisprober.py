@@ -311,15 +311,9 @@ BLOCK
 #
 #
 from
-.
-mbcharsetprober
+typing
 import
-MultiByteCharSetProber
-from
-.
-codingstatemachine
-import
-CodingStateMachine
+Union
 from
 .
 chardistribution
@@ -327,20 +321,30 @@ import
 SJISDistributionAnalysis
 from
 .
+codingstatemachine
+import
+CodingStateMachine
+from
+.
+enums
+import
+MachineState
+ProbingState
+from
+.
 jpcntx
 import
 SJISContextAnalysis
 from
 .
+mbcharsetprober
+import
+MultiByteCharSetProber
+from
+.
 mbcssm
 import
 SJIS_SM_MODEL
-from
-.
-enums
-import
-ProbingState
-MachineState
 class
 SJISProber
 (
@@ -353,12 +357,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-SJISProber
-self
 )
 .
 __init__
@@ -401,12 +406,13 @@ reset
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-SJISProber
-self
 )
 .
 reset
@@ -428,6 +434,9 @@ charset_name
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -444,6 +453,9 @@ language
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -456,18 +468,41 @@ feed
 (
 self
 byte_str
-)
 :
+Union
+[
+bytes
+bytearray
+]
+)
+-
+>
+ProbingState
+:
+        
+assert
+self
+.
+coding_sm
+is
+not
+None
+        
+assert
+self
+.
+distribution_analyzer
+is
+not
+None
         
 for
 i
+byte
 in
-range
-(
-len
+enumerate
 (
 byte_str
-)
 )
 :
             
@@ -479,10 +514,7 @@ coding_sm
 .
 next_state
 (
-byte_str
-[
-i
-]
+byte
 )
             
 if
@@ -500,7 +532,8 @@ logger
 .
 debug
 (
-'
+                    
+"
 %
 s
 %
@@ -512,15 +545,18 @@ at
 byte
 %
 s
-'
-                                  
+"
+                    
 self
 .
 charset_name
+                    
 self
 .
 language
+                    
 i
+                
 )
                 
 self
@@ -533,7 +569,7 @@ NOT_ME
                 
 break
             
-elif
+if
 coding_state
 =
 =
@@ -552,7 +588,7 @@ FOUND_IT
                 
 break
             
-elif
+if
 coding_state
 =
 =
@@ -585,10 +621,7 @@ _last_char
 1
 ]
 =
-byte_str
-[
-0
-]
+byte
                     
 self
 .
@@ -596,6 +629,7 @@ context_analyzer
 .
 feed
 (
+                        
 self
 .
 _last_char
@@ -605,8 +639,8 @@ _last_char
 char_len
 :
 ]
-                                               
 char_len
+                    
 )
                     
 self
@@ -630,6 +664,7 @@ context_analyzer
 .
 feed
 (
+                        
 byte_str
 [
 i
@@ -641,11 +676,11 @@ char_len
 i
 +
 3
-                                                        
 -
 char_len
 ]
 char_len
+                    
 )
                     
 self
@@ -664,7 +699,6 @@ i
 +
 1
 ]
-                                                    
 char_len
 )
         
@@ -693,7 +727,6 @@ DETECTING
 :
             
 if
-(
 self
 .
 context_analyzer
@@ -702,8 +735,8 @@ got_enough_data
 (
 )
 and
-               
 (
+                
 self
 .
 get_confidence
@@ -713,7 +746,7 @@ get_confidence
 self
 .
 SHORTCUT_THRESHOLD
-)
+            
 )
 :
                 
@@ -735,7 +768,18 @@ get_confidence
 (
 self
 )
+-
+>
+float
 :
+        
+assert
+self
+.
+distribution_analyzer
+is
+not
+None
         
 context_conf
 =

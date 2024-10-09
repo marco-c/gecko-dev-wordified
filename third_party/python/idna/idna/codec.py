@@ -1,24 +1,29 @@
-from
-.
-core
-import
-encode
-decode
-alabel
-ulabel
-IDNAError
 import
 codecs
 import
 re
+from
+typing
+import
+Any
+Optional
+Tuple
+from
+.
+core
+import
+IDNAError
+alabel
+decode
+encode
+ulabel
 _unicode_dots_re
 =
 re
 .
 compile
 (
-u
-'
+"
 [
 \
 u002e
@@ -29,7 +34,7 @@ uff0e
 \
 uff61
 ]
-'
+"
 )
 class
 Codec
@@ -45,38 +50,46 @@ encode
 (
 self
 data
+:
+str
 errors
+:
+str
 =
-'
+"
 strict
-'
+"
 )
+-
+>
+Tuple
+[
+bytes
+int
+]
 :
         
 if
 errors
 !
 =
-'
+"
 strict
-'
+"
 :
             
 raise
 IDNAError
 (
-"
+'
 Unsupported
 error
 handling
-\
 "
 {
-0
 }
-\
 "
-"
+'
 .
 format
 (
@@ -90,6 +103,7 @@ data
 :
             
 return
+b
 "
 "
 0
@@ -109,38 +123,46 @@ decode
 (
 self
 data
+:
+bytes
 errors
+:
+str
 =
-'
+"
 strict
-'
+"
 )
+-
+>
+Tuple
+[
+str
+int
+]
 :
         
 if
 errors
 !
 =
-'
+"
 strict
-'
+"
 :
             
 raise
 IDNAError
 (
-"
+'
 Unsupported
 error
 handling
-\
 "
 {
-0
 }
-\
 "
-"
+'
 .
 format
 (
@@ -154,7 +176,6 @@ data
 :
             
 return
-u
 "
 "
 0
@@ -182,35 +203,45 @@ _buffer_encode
 (
 self
 data
+:
+str
 errors
+:
+str
 final
+:
+bool
 )
+-
+>
+Tuple
+[
+bytes
+int
+]
 :
         
 if
 errors
 !
 =
-'
+"
 strict
-'
+"
 :
             
 raise
 IDNAError
 (
-"
+'
 Unsupported
 error
 handling
-\
 "
 {
-0
 }
-\
 "
-"
+'
 .
 format
 (
@@ -224,11 +255,10 @@ data
 :
             
 return
-(
+b
 "
 "
 0
-)
         
 labels
 =
@@ -241,9 +271,9 @@ data
         
 trailing_dot
 =
-u
-'
-'
+b
+"
+"
         
 if
 labels
@@ -260,9 +290,10 @@ labels
                 
 trailing_dot
 =
-'
+b
+"
 .
-'
+"
                 
 del
 labels
@@ -299,9 +330,10 @@ labels
                     
 trailing_dot
 =
-'
+b
+"
 .
-'
+"
         
 result
 =
@@ -352,8 +384,9 @@ U
 +
 002E
         
-result
+result_bytes
 =
+b
 "
 .
 "
@@ -374,10 +407,8 @@ trailing_dot
 )
         
 return
-(
-result
+result_bytes
 size
-)
 class
 IncrementalDecoder
 (
@@ -392,35 +423,45 @@ _buffer_decode
 (
 self
 data
+:
+Any
 errors
+:
+str
 final
+:
+bool
 )
+-
+>
+Tuple
+[
+str
+int
+]
 :
         
 if
 errors
 !
 =
-'
+"
 strict
-'
+"
 :
             
 raise
 IDNAError
 (
-"
+'
 Unsupported
 error
 handling
-\
 "
 {
-0
 }
-\
 "
-"
+'
 .
 format
 (
@@ -435,32 +476,30 @@ data
             
 return
 (
-u
 "
 "
 0
 )
         
-#
-IDNA
-allows
-decoding
-to
-operate
-on
-Unicode
-strings
-too
-.
-        
 if
+not
 isinstance
 (
 data
-unicode
+str
 )
 :
             
+data
+=
+str
+(
+data
+"
+ascii
+"
+)
+        
 labels
 =
 _unicode_dots_re
@@ -470,46 +509,10 @@ split
 data
 )
         
-else
-:
-            
-#
-Must
-be
-ASCII
-string
-            
-data
-=
-str
-(
-data
-)
-            
-unicode
-(
-data
-"
-ascii
-"
-)
-            
-labels
-=
-data
-.
-split
-(
-"
-.
-"
-)
-        
 trailing_dot
 =
-u
-'
-'
+"
+"
         
 if
 labels
@@ -526,10 +529,9 @@ labels
                 
 trailing_dot
 =
-u
-'
+"
 .
-'
+"
                 
 del
 labels
@@ -566,10 +568,9 @@ labels
                     
 trailing_dot
 =
-u
-'
+"
 .
-'
+"
         
 result
 =
@@ -613,9 +614,8 @@ len
 label
 )
         
-result
+result_str
 =
-u
 "
 .
 "
@@ -637,7 +637,7 @@ trailing_dot
         
 return
 (
-result
+result_str
 size
 )
 class
@@ -663,10 +663,33 @@ StreamReader
     
 pass
 def
-getregentry
+search_function
 (
-)
+name
 :
+str
+)
+-
+>
+Optional
+[
+codecs
+.
+CodecInfo
+]
+:
+    
+if
+name
+!
+=
+"
+idna2008
+"
+:
+        
+return
+None
     
 return
 codecs
@@ -676,9 +699,7 @@ CodecInfo
         
 name
 =
-'
-idna
-'
+name
         
 encode
 =
@@ -712,4 +733,10 @@ streamreader
 =
 StreamReader
     
+)
+codecs
+.
+register
+(
+search_function
 )

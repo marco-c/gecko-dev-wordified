@@ -980,15 +980,6 @@ and
 tzinfo
 .
 zone
-#
-type
-:
-ignore
-[
-attr
--
-defined
-]
         
 )
 :
@@ -1005,15 +996,6 @@ tzinfo
 .
 zone
 )
-#
-type
-:
-ignore
-[
-attr
--
-defined
-]
         
 elif
 isinstance
@@ -3379,6 +3361,9 @@ shift
 type
 :
 ignore
+[
+misc
+]
                 
 *
 *
@@ -4305,6 +4290,9 @@ tzinfo
 type
 :
 ignore
+[
+misc
+]
             
 if
 frame_absolute
@@ -10155,6 +10143,9 @@ s
 type
 :
 ignore
+[
+assignment
+]
                 
 return
 locale
@@ -10564,7 +10555,7 @@ difference
 relative
 to
 the
-attrbiutes
+attributes
 of
 the
         
@@ -11445,7 +11436,7 @@ not
 support
 the
 week
-granulairty
+granularity
 in
 Arrow
 .

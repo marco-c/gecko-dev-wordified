@@ -310,6 +310,12 @@ BLOCK
 #
 #
 #
+from
+typing
+import
+List
+Tuple
+Union
 #
 This
 is
@@ -328,9 +334,14 @@ represents
 its
 frequency
 category
-jp2CharContext
+#
+fmt
+:
+off
+jp2_char_context
 =
 (
+    
 (
 0
 0
@@ -416,6 +427,7 @@ jp2CharContext
 0
 1
 )
+    
 (
 2
 4
@@ -501,6 +513,7 @@ jp2CharContext
 3
 4
 )
+    
 (
 0
 0
@@ -586,6 +599,7 @@ jp2CharContext
 0
 2
 )
+    
 (
 0
 4
@@ -671,6 +685,7 @@ jp2CharContext
 4
 4
 )
+    
 (
 0
 0
@@ -756,6 +771,7 @@ jp2CharContext
 0
 0
 )
+    
 (
 0
 3
@@ -841,6 +857,7 @@ jp2CharContext
 3
 4
 )
+    
 (
 0
 0
@@ -926,6 +943,7 @@ jp2CharContext
 0
 0
 )
+    
 (
 0
 4
@@ -1011,6 +1029,7 @@ jp2CharContext
 4
 3
 )
+    
 (
 0
 0
@@ -1096,6 +1115,7 @@ jp2CharContext
 0
 0
 )
+    
 (
 0
 3
@@ -1181,6 +1201,7 @@ jp2CharContext
 1
 4
 )
+    
 (
 1
 4
@@ -1266,6 +1287,7 @@ jp2CharContext
 5
 4
 )
+    
 (
 0
 5
@@ -1351,6 +1373,7 @@ jp2CharContext
 1
 3
 )
+    
 (
 0
 3
@@ -1436,6 +1459,7 @@ jp2CharContext
 4
 3
 )
+    
 (
 0
 2
@@ -1521,6 +1545,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 4
@@ -1606,6 +1631,7 @@ jp2CharContext
 3
 4
 )
+    
 (
 0
 2
@@ -1691,6 +1717,7 @@ jp2CharContext
 2
 3
 )
+    
 (
 2
 3
@@ -1776,6 +1803,7 @@ jp2CharContext
 4
 4
 )
+    
 (
 0
 2
@@ -1861,6 +1889,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 1
@@ -1946,6 +1975,7 @@ jp2CharContext
 4
 5
 )
+    
 (
 0
 2
@@ -2031,6 +2061,7 @@ jp2CharContext
 2
 3
 )
+    
 (
 2
 4
@@ -2116,6 +2147,7 @@ jp2CharContext
 4
 5
 )
+    
 (
 0
 3
@@ -2201,6 +2233,7 @@ jp2CharContext
 1
 4
 )
+    
 (
 1
 4
@@ -2286,6 +2319,7 @@ jp2CharContext
 4
 4
 )
+    
 (
 0
 2
@@ -2371,6 +2405,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 2
@@ -2456,6 +2491,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 3
@@ -2541,6 +2577,7 @@ jp2CharContext
 1
 3
 )
+    
 (
 0
 1
@@ -2626,6 +2663,7 @@ jp2CharContext
 3
 5
 )
+    
 (
 0
 2
@@ -2711,6 +2749,7 @@ jp2CharContext
 1
 4
 )
+    
 (
 0
 3
@@ -2796,6 +2835,7 @@ jp2CharContext
 3
 5
 )
+    
 (
 0
 3
@@ -2881,6 +2921,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 4
@@ -2966,6 +3007,7 @@ jp2CharContext
 4
 4
 )
+    
 (
 0
 4
@@ -3051,6 +3093,7 @@ jp2CharContext
 3
 4
 )
+    
 (
 0
 3
@@ -3136,6 +3179,7 @@ jp2CharContext
 4
 4
 )
+    
 (
 0
 2
@@ -3221,6 +3265,7 @@ jp2CharContext
 1
 1
 )
+    
 (
 0
 1
@@ -3306,6 +3351,7 @@ jp2CharContext
 0
 0
 )
+    
 (
 1
 4
@@ -3391,6 +3437,7 @@ jp2CharContext
 4
 3
 )
+    
 (
 0
 1
@@ -3476,6 +3523,7 @@ jp2CharContext
 1
 0
 )
+    
 (
 0
 5
@@ -3561,6 +3609,7 @@ jp2CharContext
 4
 3
 )
+    
 (
 0
 5
@@ -3646,6 +3695,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 4
@@ -3731,6 +3781,7 @@ jp2CharContext
 5
 5
 )
+    
 (
 0
 4
@@ -3816,6 +3867,7 @@ jp2CharContext
 4
 4
 )
+    
 (
 2
 4
@@ -3901,6 +3953,7 @@ jp2CharContext
 3
 5
 )
+    
 (
 0
 5
@@ -3986,6 +4039,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 1
@@ -4071,6 +4125,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 2
@@ -4156,6 +4211,7 @@ jp2CharContext
 2
 3
 )
+    
 (
 0
 5
@@ -4241,6 +4297,7 @@ jp2CharContext
 5
 3
 )
+    
 (
 0
 5
@@ -4326,6 +4383,7 @@ jp2CharContext
 2
 4
 )
+    
 (
 0
 4
@@ -4411,6 +4469,7 @@ jp2CharContext
 2
 4
 )
+    
 (
 0
 0
@@ -4496,6 +4555,7 @@ jp2CharContext
 0
 2
 )
+    
 (
 0
 2
@@ -4581,6 +4641,7 @@ jp2CharContext
 2
 3
 )
+    
 (
 0
 3
@@ -4666,6 +4727,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 0
@@ -4751,6 +4813,7 @@ jp2CharContext
 0
 3
 )
+    
 (
 0
 2
@@ -4836,6 +4899,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 2
@@ -4921,6 +4985,7 @@ jp2CharContext
 2
 4
 )
+    
 (
 0
 0
@@ -5006,6 +5071,7 @@ jp2CharContext
 0
 3
 )
+    
 (
 0
 3
@@ -5091,6 +5157,7 @@ jp2CharContext
 2
 4
 )
+    
 (
 0
 1
@@ -5176,6 +5243,7 @@ jp2CharContext
 2
 3
 )
+    
 (
 0
 0
@@ -5261,6 +5329,7 @@ jp2CharContext
 0
 3
 )
+    
 (
 0
 1
@@ -5346,6 +5415,7 @@ jp2CharContext
 0
 4
 )
+    
 (
 0
 0
@@ -5431,6 +5501,7 @@ jp2CharContext
 1
 4
 )
+    
 (
 0
 0
@@ -5516,6 +5587,7 @@ jp2CharContext
 2
 3
 )
+    
 (
 2
 4
@@ -5601,6 +5673,7 @@ jp2CharContext
 3
 4
 )
+    
 (
 0
 3
@@ -5686,6 +5759,7 @@ jp2CharContext
 4
 4
 )
+    
 (
 0
 3
@@ -5771,6 +5845,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 3
@@ -5856,6 +5931,7 @@ jp2CharContext
 3
 4
 )
+    
 (
 0
 5
@@ -5941,6 +6017,7 @@ jp2CharContext
 3
 4
 )
+    
 (
 1
 4
@@ -6026,6 +6103,7 @@ jp2CharContext
 1
 4
 )
+    
 (
 0
 4
@@ -6111,6 +6189,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 0
@@ -6196,6 +6275,7 @@ jp2CharContext
 0
 2
 )
+    
 (
 0
 2
@@ -6281,6 +6361,7 @@ jp2CharContext
 0
 2
 )
+    
 (
 0
 0
@@ -6366,6 +6447,7 @@ jp2CharContext
 0
 3
 )
+    
 (
 0
 2
@@ -6451,6 +6533,7 @@ jp2CharContext
 1
 3
 )
+    
 (
 0
 4
@@ -6536,6 +6619,7 @@ jp2CharContext
 4
 5
 )
+    
 (
 0
 4
@@ -6621,6 +6705,7 @@ jp2CharContext
 4
 3
 )
+    
 (
 0
 4
@@ -6706,6 +6791,7 @@ jp2CharContext
 4
 4
 )
+    
 (
 1
 3
@@ -6791,6 +6877,7 @@ jp2CharContext
 5
 4
 )
+    
 (
 0
 3
@@ -6876,6 +6963,7 @@ jp2CharContext
 4
 4
 )
+    
 (
 0
 0
@@ -6961,6 +7049,7 @@ jp2CharContext
 0
 0
 )
+    
 (
 0
 3
@@ -7046,6 +7135,7 @@ jp2CharContext
 1
 3
 )
+    
 (
 0
 0
@@ -7131,6 +7221,7 @@ jp2CharContext
 0
 1
 )
+    
 (
 0
 0
@@ -7216,6 +7307,7 @@ jp2CharContext
 0
 2
 )
+    
 (
 0
 4
@@ -7301,6 +7393,7 @@ jp2CharContext
 3
 3
 )
+    
 (
 0
 4
@@ -7387,11 +7480,12 @@ jp2CharContext
 1
 )
 )
+#
+fmt
+:
+on
 class
 JapaneseContextAnalysis
-(
-object
-)
 :
     
 NUM_OF_CATEGORY
@@ -7420,37 +7514,47 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 self
 .
 _total_rel
 =
-None
+0
         
 self
 .
 _rel_sample
+:
+List
+[
+int
+]
 =
-None
+[
+]
         
 self
 .
 _need_to_skip_char_num
 =
-None
+0
         
 self
 .
 _last_char_order
 =
-None
+-
+1
         
 self
 .
 _done
 =
-None
+False
         
 self
 .
@@ -7463,6 +7567,9 @@ reset
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -7577,8 +7684,19 @@ feed
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 num_bytes
+:
+int
 )
+-
+>
+None
 :
         
 if
@@ -7797,7 +7915,8 @@ self
 .
 _rel_sample
 [
-jp2CharContext
+                        
+jp2_char_context
 [
 self
 .
@@ -7806,6 +7925,7 @@ _last_char_order
 [
 order
 ]
+                    
 ]
 +
 =
@@ -7822,6 +7942,9 @@ got_enough_data
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -7838,6 +7961,9 @@ get_confidence
 (
 self
 )
+-
+>
+float
 :
         
 #
@@ -7885,9 +8011,6 @@ self
 .
 _total_rel
         
-else
-:
-            
 return
 self
 .
@@ -7897,8 +8020,21 @@ def
 get_order
 (
 self
-byte_str
+_
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+Tuple
+[
+int
+int
+]
 :
         
 return
@@ -7917,12 +8053,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-SJISContextAnalysis
-self
 )
 .
 __init__
@@ -7944,6 +8081,9 @@ charset_name
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -7956,7 +8096,20 @@ get_order
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+Tuple
+[
+int
+int
+]
 :
         
 if
@@ -8112,7 +8265,20 @@ get_order
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+Tuple
+[
+int
+int
+]
 :
         
 if

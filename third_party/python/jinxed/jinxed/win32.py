@@ -14,7 +14,7 @@ utf
 Copyright
 2019
 -
-2021
+2024
 Avram
 Lubkin
 All
@@ -515,7 +515,6 @@ GetConsoleCP
 .
 argtypes
 =
-tuple
 (
 )
 KERNEL32
@@ -1404,6 +1403,8 @@ flush_and_set_console
 (
 fd
 mode
+=
+None
 )
 :
 #
@@ -1450,6 +1451,13 @@ int
 Desired
 console
 mode
+.
+If
+None
+mode
+is
+not
+changed
     
 Attempts
 to
@@ -1534,9 +1542,16 @@ UnsupportedOperation
         
 pass
     
-try
+if
+mode
+is
+not
+None
 :
         
+try
+:
+            
 filehandle
 =
 msvcrt
@@ -1545,17 +1560,17 @@ get_osfhandle
 (
 fd
 )
-        
+            
 set_console_mode
 (
 filehandle
 mode
 )
-    
+        
 except
 OSError
 :
-        
+            
 pass
 def
 get_term
@@ -1854,6 +1869,39 @@ unknown
 else
 :
                 
+#
+Proceed
+if
+VT
+mode
+is
+already
+enabled
+                
+if
+mode
+&
+ENABLE_VIRTUAL_TERMINAL_PROCESSING
+:
+                    
+atexit
+.
+register
+(
+flush_and_set_console
+fd
+None
+)
+                
+#
+Otherwise
+enable
+VT
+mode
+                
+else
+:
+                    
 atexit
 .
 register
@@ -1862,7 +1910,7 @@ flush_and_set_console
 fd
 mode
 )
-                
+                    
 #
 pylint
 :
@@ -1873,7 +1921,7 @@ unsupported
 binary
 -
 operation
-                
+                    
 set_console_mode
 (
 filehandle

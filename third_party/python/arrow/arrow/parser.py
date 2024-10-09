@@ -1895,6 +1895,7 @@ re
 .
 split
 (
+                
 r
 "
 [
@@ -1906,10 +1907,15 @@ Z
 ]
 "
 time_string
+maxsplit
+=
 1
+flags
+=
 re
 .
 IGNORECASE
+            
 )
             
 time_components
@@ -2591,6 +2597,11 @@ parts
 type
 :
 ignore
+[
+arg
+-
+type
+]
         
 return
 self
@@ -4012,6 +4023,11 @@ lower
 type
 :
 ignore
+[
+typeddict
+-
+item
+]
         
 elif
 token
@@ -5812,6 +5828,14 @@ compile
 r
 "
 ^
+(
+?
+:
+\
+(
+UTC
+)
+*
 (
 [
 \

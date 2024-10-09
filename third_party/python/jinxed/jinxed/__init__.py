@@ -14,7 +14,7 @@ utf
 Copyright
 2019
 -
-2021
+2024
 Avram
 Lubkin
 All
@@ -196,7 +196,7 @@ __version__
 '
 1
 .
-2
+3
 .
 0
 '

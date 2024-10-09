@@ -1,7 +1,3 @@
-import
-six
-import
-sys
 from
 pyrsistent
 .
@@ -43,16 +39,6 @@ import
 wrap_invariant
 import
 inspect
-PY2
-=
-sys
-.
-version_info
-[
-0
-]
-<
-3
 def
 set_fields
 (
@@ -403,29 +389,6 @@ type
 return
 False
     
-if
-PY2
-:
-        
-return
-'
-ignore_extra
-'
-in
-inspect
-.
-getargspec
-(
-field
-.
-factory
-)
-.
-args
-    
-else
-:
-        
 return
 '
 ignore_extra
@@ -975,9 +938,7 @@ not
 isinstance
 (
 t
-six
-.
-string_types
+str
 )
 :
             
@@ -1384,6 +1345,7 @@ _make_seq_field_type
 (
 checked_class
 item_type
+item_invariant
 )
 :
     
@@ -1440,6 +1402,10 @@ checked_class
 __type__
 =
 item_type
+        
+__invariant__
+=
+item_invariant
         
 def
 __reduce__
@@ -1499,6 +1465,14 @@ checked_class
 item_type
 optional
 initial
+                    
+invariant
+=
+PFIELD_NO_INVARIANT
+                    
+item_invariant
+=
+PFIELD_NO_INVARIANT
 )
 :
     
@@ -1592,6 +1566,7 @@ _make_seq_field_type
 (
 checked_class
 item_type
+item_invariant
 )
     
 if
@@ -1667,6 +1642,10 @@ mandatory
 =
 True
                  
+invariant
+=
+invariant
+                 
 initial
 =
 factory
@@ -1685,6 +1664,14 @@ initial
 =
 (
 )
+               
+invariant
+=
+PFIELD_NO_INVARIANT
+               
+item_invariant
+=
+PFIELD_NO_INVARIANT
 )
 :
     
@@ -1777,8 +1764,15 @@ _sequence_field
 CheckedPSet
 item_type
 optional
-                           
 initial
+                           
+invariant
+=
+invariant
+                           
+item_invariant
+=
+item_invariant
 )
 def
 pvector_field
@@ -1791,6 +1785,14 @@ initial
 =
 (
 )
+                  
+invariant
+=
+PFIELD_NO_INVARIANT
+                  
+item_invariant
+=
+PFIELD_NO_INVARIANT
 )
 :
     
@@ -1883,8 +1885,15 @@ _sequence_field
 CheckedPVector
 item_type
 optional
-                           
 initial
+                           
+invariant
+=
+invariant
+                           
+item_invariant
+=
+item_invariant
 )
 _valid
 =

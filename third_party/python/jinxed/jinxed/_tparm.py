@@ -13,6 +13,8 @@ utf
 #
 Copyright
 2019
+-
+2022
 Avram
 Lubkin
 All
@@ -830,7 +832,6 @@ get
 '
 static
 '
-None
 )
         
 self
@@ -846,30 +847,12 @@ None
 else
 static
         
-dynamic
-=
-kwargs
-.
-get
-(
-'
-static
-'
-None
-)
-        
 self
 .
 dynamic
 =
 {
 }
-if
-dynamic
-is
-None
-else
-dynamic
     
 def
 __call__
@@ -880,6 +863,27 @@ string
 params
 )
 :
+        
+self
+.
+dynamic
+=
+{
+}
+#
+As
+of
+ncurses
+6
+.
+3
+dynamic
+variables
+do
+not
+persist
+between
+calls
         
 return
 self

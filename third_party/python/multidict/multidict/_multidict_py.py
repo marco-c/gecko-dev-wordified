@@ -1,5 +1,7 @@
 import
 sys
+import
+types
 from
 array
 import
@@ -19,6 +21,35 @@ _marker
 object
 (
 )
+if
+sys
+.
+version_info
+>
+=
+(
+3
+9
+)
+:
+    
+GenericAlias
+=
+types
+.
+GenericAlias
+else
+:
+    
+def
+GenericAlias
+(
+cls
+)
+:
+        
+return
+cls
 class
 istr
 (
@@ -326,6 +357,22 @@ matching
 the
 key
 .
+        
+Raises
+KeyError
+if
+the
+key
+is
+not
+found
+and
+no
+default
+is
+provided
+.
+        
 "
 "
 "
@@ -429,16 +476,24 @@ the
 key
 .
         
-The
-method
+If
+the
+key
 is
-alias
-for
-.
-getone
+not
+found
+returns
+the
+default
 (
+or
+None
+if
+no
+default
+is
+provided
 )
-.
         
 "
 "
@@ -850,6 +905,13 @@ __class__
 .
 __name__
 body
+)
+    
+__class_getitem__
+=
+classmethod
+(
+GenericAlias
 )
 class
 MultiDictProxy
@@ -2913,14 +2975,6 @@ self
 _impl
 =
 impl
-        
-self
-.
-_version
-=
-impl
-.
-_version
     
 def
 __len__
@@ -3032,6 +3086,11 @@ self
 .
 _iter
 (
+self
+.
+_impl
+.
+_version
 )
 )
     
@@ -3039,6 +3098,7 @@ def
 _iter
 (
 self
+version
 )
 :
         
@@ -3055,9 +3115,7 @@ _items
 :
             
 if
-self
-.
-_version
+version
 !
 =
 self
@@ -3224,6 +3282,11 @@ self
 .
 _iter
 (
+self
+.
+_impl
+.
+_version
 )
 )
     
@@ -3231,6 +3294,7 @@ def
 _iter
 (
 self
+version
 )
 :
         
@@ -3245,9 +3309,7 @@ _items
 :
             
 if
-self
-.
-_version
+version
 !
 =
 self
@@ -3407,6 +3469,11 @@ self
 .
 _iter
 (
+self
+.
+_impl
+.
+_version
 )
 )
     
@@ -3414,6 +3481,7 @@ def
 _iter
 (
 self
+version
 )
 :
         
@@ -3428,9 +3496,7 @@ _items
 :
             
 if
-self
-.
-_version
+version
 !
 =
 self

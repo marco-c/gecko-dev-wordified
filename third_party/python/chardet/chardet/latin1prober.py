@@ -319,6 +319,11 @@ BLOCK
 #
 #
 from
+typing
+import
+List
+Union
+from
 .
 charsetprober
 import
@@ -389,6 +394,10 @@ CLASS_NUM
 #
 total
 classes
+#
+fmt
+:
+off
 Latin1_CharToClass
 =
 (
@@ -928,6 +937,10 @@ ASV
 #
 ASO
 )
+#
+fmt
+:
+on
 class
 Latin1Prober
 (
@@ -940,12 +953,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-Latin1Prober
-self
 )
 .
 __init__
@@ -956,13 +970,19 @@ self
 .
 _last_char_class
 =
-None
+OTH
         
 self
 .
 _freq_counter
+:
+List
+[
+int
+]
 =
-None
+[
+]
         
 self
 .
@@ -975,6 +995,9 @@ reset
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -993,11 +1016,12 @@ _freq_counter
 *
 FREQ_CAT_NUM
         
-CharSetProber
+super
+(
+)
 .
 reset
 (
-self
 )
     
 property
@@ -1007,6 +1031,9 @@ charset_name
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -1025,6 +1052,9 @@ language
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -1036,14 +1066,23 @@ feed
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+ProbingState
 :
         
 byte_str
 =
 self
 .
-filter_with_english_letters
+remove_xml_tags
 (
 byte_str
 )
@@ -1072,7 +1111,6 @@ _last_char_class
 *
 CLASS_NUM
 )
-                                    
 +
 char_class
 ]
@@ -1120,6 +1158,9 @@ get_confidence
 (
 self
 )
+-
+>
+float
 :
         
 if
@@ -1147,26 +1188,22 @@ self
 _freq_counter
 )
         
+confidence
+=
+(
+            
+0
+.
+0
+            
 if
 total
 <
 0
 .
 01
-:
             
-confidence
-=
-0
-.
-0
-        
 else
-:
-            
-confidence
-=
-(
 (
 self
 .
@@ -1186,24 +1223,20 @@ _freq_counter
 .
 0
 )
-                          
 /
 total
+        
 )
         
-if
-confidence
-<
-0
-.
-0
-:
-            
 confidence
 =
+max
+(
+confidence
 0
 .
 0
+)
         
 #
 lower
@@ -1225,9 +1258,8 @@ priority
 .
         
 confidence
-=
-confidence
 *
+=
 0
 .
 73

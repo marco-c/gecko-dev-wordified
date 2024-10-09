@@ -311,21 +311,25 @@ BLOCK
 #
 #
 from
+typing
+import
+Union
+from
 .
 charsetprober
 import
 CharSetProber
 from
 .
-enums
-import
-ProbingState
-MachineState
-from
-.
 codingstatemachine
 import
 CodingStateMachine
+from
+.
+enums
+import
+MachineState
+ProbingState
 from
 .
 mbcssm
@@ -349,12 +353,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-UTF8Prober
-self
 )
 .
 __init__
@@ -374,7 +379,7 @@ self
 .
 _num_mb_chars
 =
-None
+0
         
 self
 .
@@ -387,12 +392,13 @@ reset
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-UTF8Prober
-self
 )
 .
 reset
@@ -420,6 +426,9 @@ charset_name
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -436,6 +445,9 @@ language
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -447,7 +459,16 @@ feed
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+ProbingState
 :
         
 for
@@ -486,7 +507,7 @@ NOT_ME
                 
 break
             
-elif
+if
 coding_state
 =
 =
@@ -505,7 +526,7 @@ FOUND_IT
                 
 break
             
-elif
+if
 coding_state
 =
 =
@@ -575,6 +596,9 @@ get_confidence
 (
 self
 )
+-
+>
+float
 :
         
 unlike
@@ -610,8 +634,5 @@ return
 -
 unlike
         
-else
-:
-            
 return
 unlike

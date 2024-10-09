@@ -1,4 +1,6 @@
 "
+"
+"
 Django
 -
 compatible
@@ -8,6 +10,8 @@ file
 backed
 cache
 .
+"
+"
 "
 from
 functools
@@ -43,6 +47,11 @@ DEFAULT_TIMEOUT
 except
 ImportError
 :
+#
+pragma
+:
+no
+cover
     
 #
 For
@@ -79,6 +88,8 @@ BaseCache
 :
     
 "
+"
+"
 Django
 -
 compatible
@@ -88,6 +99,8 @@ file
 backed
 cache
 .
+"
+"
 "
     
 def
@@ -129,8 +142,6 @@ parameters
         
 super
 (
-DjangoCache
-self
 )
 .
 __init__
@@ -274,6 +285,9 @@ deque
 (
 self
 name
+maxlen
+=
+None
 )
 :
         
@@ -300,6 +314,19 @@ for
 Deque
         
 :
+param
+maxlen
+:
+max
+length
+(
+default
+None
+no
+max
+)
+        
+:
 return
 :
 Deque
@@ -319,6 +346,9 @@ _cache
 deque
 (
 name
+maxlen
+=
+maxlen
 )
     
 def
@@ -376,25 +406,33 @@ name
 def
 add
 (
+        
 self
+        
 key
+        
 value
+        
 timeout
 =
 DEFAULT_TIMEOUT
+        
 version
 =
 None
-            
+        
 read
 =
 False
+        
 tag
 =
 None
+        
 retry
 =
 True
+    
 )
 :
         
@@ -608,27 +646,35 @@ retry
 def
 get
 (
+        
 self
+        
 key
+        
 default
 =
 None
+        
 version
 =
 None
+        
 read
 =
 False
-            
+        
 expire_time
 =
 False
+        
 tag
 =
 False
+        
 retry
 =
 False
+    
 )
 :
         
@@ -913,25 +959,33 @@ key
 def
 set
 (
+        
 self
+        
 key
+        
 value
+        
 timeout
 =
 DEFAULT_TIMEOUT
+        
 version
 =
 None
-            
+        
 read
 =
 False
+        
 tag
 =
 None
+        
 retry
 =
 True
+    
 )
 :
         
@@ -1289,24 +1343,31 @@ retry
 def
 pop
 (
+        
 self
+        
 key
+        
 default
 =
 None
+        
 version
 =
 None
+        
 expire_time
 =
 False
-            
+        
 tag
 =
 False
+        
 retry
 =
 True
+    
 )
 :
         
@@ -1571,6 +1632,7 @@ version
 version
 )
         
+return
 self
 .
 _cache
@@ -1843,6 +1905,8 @@ found
 %
 key
 )
+from
+None
     
 def
 decr
@@ -2484,6 +2548,8 @@ self
 :
         
 "
+"
+"
 Remove
 *
 all
@@ -2495,6 +2561,8 @@ cache
 at
 once
 .
+"
+"
 "
         
 return
@@ -2517,11 +2585,15 @@ kwargs
 :
         
 "
+"
+"
 Close
 the
 cache
 connection
 .
+"
+"
 "
         
 #
@@ -2632,23 +2704,34 @@ timeout
 def
 memoize
 (
+        
 self
+        
 name
 =
 None
+        
 timeout
 =
 DEFAULT_TIMEOUT
+        
 version
 =
 None
-                
+        
 typed
 =
 False
+        
 tag
 =
 None
+        
+ignore
+=
+(
+)
+    
 )
 :
         
@@ -2942,6 +3025,23 @@ None
 )
         
 :
+param
+set
+ignore
+:
+positional
+or
+keyword
+args
+to
+ignore
+(
+default
+(
+)
+)
+        
+:
 return
 :
 callable
@@ -2989,6 +3089,8 @@ func
 :
             
 "
+"
+"
 Decorator
 created
 by
@@ -2999,6 +3101,8 @@ for
 callable
 func
 .
+"
+"
 "
             
 base
@@ -3035,6 +3139,8 @@ kwargs
 :
                 
 "
+"
+"
 Wrapper
 for
 callable
@@ -3045,6 +3151,8 @@ and
 return
 values
 .
+"
+"
 "
                 
 key
@@ -3122,12 +3230,17 @@ set
 (
                             
 key
+                            
 result
+                            
 timeout
+                            
 version
+                            
 tag
 =
 tag
+                            
 retry
 =
 True
@@ -3149,6 +3262,8 @@ kwargs
 :
                 
 "
+"
+"
 Make
 key
 for
@@ -3158,6 +3273,8 @@ function
 arguments
 .
 "
+"
+"
                 
 return
 args_to_key
@@ -3166,6 +3283,7 @@ base
 args
 kwargs
 typed
+ignore
 )
             
 wrapper

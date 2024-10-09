@@ -22,9 +22,17 @@ subprocess
 #
 nosec
 from
+pathlib
+import
+Path
+from
 shutil
 import
 which
+from
+typing
+import
+Optional
 from
 cookiecutter
 .
@@ -43,10 +51,15 @@ VCSNotInstalled
 from
 cookiecutter
 .
+prompt
+import
+prompt_and_delete
+from
+cookiecutter
+.
 utils
 import
 make_sure_path_exists
-prompt_and_delete
 logger
 =
 logging
@@ -287,16 +300,38 @@ repo_type
 def
 clone
 (
+    
 repo_url
+:
+str
+    
 checkout
+:
+Optional
+[
+str
+]
 =
 None
+    
 clone_to_dir
-=
-'
+:
+"
+os
 .
-'
+PathLike
+[
+str
+]
+"
+=
+"
+.
+"
+    
 no_input
+:
+bool
 =
 False
 )
@@ -363,14 +398,21 @@ directory
 param
 no_input
 :
-Suppress
-all
+Do
+not
+prompt
+for
 user
-prompts
-when
-calling
-via
-API
+input
+and
+eventually
+force
+a
+refresh
+of
+        
+cached
+resources
 .
     
 :
@@ -400,13 +442,13 @@ exists
     
 clone_to_dir
 =
-os
-.
-path
+Path
+(
+clone_to_dir
+)
 .
 expanduser
 (
-clone_to_dir
 )
     
 make_sure_path_exists
@@ -792,6 +834,8 @@ typo
 '
                 
 )
+from
+clone_error
             
 if
 any
@@ -838,6 +882,8 @@ typo
 '
                 
 )
+from
+clone_error
             
 logger
 .

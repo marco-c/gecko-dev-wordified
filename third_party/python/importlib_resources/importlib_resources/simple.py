@@ -419,6 +419,9 @@ name
 type
 :
 ignore
+[
+misc
+]
     
 def
 is_file
@@ -487,6 +490,7 @@ io
 .
 TextIOWrapper
 (
+stream
 *
 args
 *

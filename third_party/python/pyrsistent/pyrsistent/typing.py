@@ -167,6 +167,18 @@ T
 '
 )
     
+T_co
+=
+TypeVar
+(
+'
+T_co
+'
+covariant
+=
+True
+)
+    
 KT
 =
 TypeVar
@@ -183,6 +195,18 @@ TypeVar
 '
 VT
 '
+)
+    
+VT_co
+=
+TypeVar
+(
+'
+VT_co
+'
+covariant
+=
+True
 )
     
 class
@@ -191,7 +215,7 @@ CheckedPMap
 Mapping
 [
 KT
-VT
+VT_co
 ]
 Hashable
 )
@@ -222,7 +246,7 @@ CheckedPSet
 (
 Generic
 [
-T
+T_co
 ]
 Hashable
 )
@@ -235,7 +259,7 @@ CheckedPVector
 (
 Sequence
 [
-T
+T_co
 ]
 Hashable
 )
@@ -248,11 +272,11 @@ PBag
 (
 Container
 [
-T
+T_co
 ]
 Iterable
 [
-T
+T_co
 ]
 Sized
 Hashable
@@ -266,7 +290,7 @@ PDeque
 (
 Sequence
 [
-T
+T_co
 ]
 Hashable
 )
@@ -279,7 +303,7 @@ PList
 (
 Sequence
 [
-T
+T_co
 ]
 Hashable
 )
@@ -293,7 +317,7 @@ PMap
 Mapping
 [
 KT
-VT
+VT_co
 ]
 Hashable
 )
@@ -324,7 +348,7 @@ PSet
 (
 Generic
 [
-T
+T_co
 ]
 Hashable
 )
@@ -337,7 +361,7 @@ PVector
 (
 Sequence
 [
-T
+T_co
 ]
 Hashable
 )
