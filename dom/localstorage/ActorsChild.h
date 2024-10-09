@@ -944,8 +944,8 @@ ipc
 IPCResult
 Recv__delete__
 (
-const
 LSRequestResponse
+&
 &
 aResponse
 )
@@ -976,8 +976,8 @@ virtual
 void
 OnResponse
 (
-const
 LSRequestResponse
+&
 &
 aResponse
 )

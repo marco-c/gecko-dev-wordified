@@ -1395,8 +1395,8 @@ LSRequestChild
 :
 Recv__delete__
 (
-const
 LSRequestResponse
+&
 &
 aResponse
 )
@@ -1415,7 +1415,13 @@ mCallback
 >
 OnResponse
 (
+std
+:
+:
+move
+(
 aResponse
+)
 )
 ;
 mCallback
