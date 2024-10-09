@@ -1369,13 +1369,13 @@ result
 *
 CalendarMergeFields
 (
-calendarRec
+calendar
 fields
 additionalFields
 )
 *
 /
-JSObject
+PlainObject
 *
 CalendarMergeFields
 (
@@ -1387,7 +1387,7 @@ JS
 :
 Handle
 <
-CalendarRecord
+CalendarValue
 >
 calendar
 JS

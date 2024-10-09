@@ -10764,7 +10764,7 @@ Step
 .
 Rooted
 <
-JSObject
+PlainObject
 *
 >
 mergedFields
@@ -10773,7 +10773,7 @@ cx
 CalendarMergeFields
 (
 cx
-calendarRec
+calendar
 fields
 partialDateTime
 )
