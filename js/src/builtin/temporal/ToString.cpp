@@ -2422,11 +2422,9 @@ TemporalInstantToString
 JSContext
 *
 cx
-Handle
-<
-InstantObject
-*
->
+const
+Instant
+&
 instant
 Handle
 <
@@ -2558,10 +2556,7 @@ dateTime
 =
 GetPlainDateTimeFor
 (
-ToInstant
-(
 instant
-)
 offsetNanoseconds
 )
 ;
