@@ -774,6 +774,12 @@ dep_symbol
 "
 if
 dep_symbol
+[
+1
+:
+-
+1
+]
 else
 "
 "
