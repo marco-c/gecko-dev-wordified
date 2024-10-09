@@ -1033,14 +1033,9 @@ newTarget
 )
 *
 /
+static
 PlainYearMonthObject
 *
-js
-:
-:
-temporal
-:
-:
 CreateTemporalYearMonth
 (
 JSContext
