@@ -293,7 +293,7 @@ telemetrySuffix
 "
 wikipedia
 "
-aliases
+required_aliases
 :
 [
 "
