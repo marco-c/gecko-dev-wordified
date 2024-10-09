@@ -2239,6 +2239,11 @@ aExpirationTime
 )
 ;
 }
+nsLiteralString
+InitiatorTypeString
+(
+)
+;
 private
 :
 const
