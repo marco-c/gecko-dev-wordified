@@ -588,7 +588,10 @@ return
 NS_OK
 ;
 }
+Maybe
+<
 AspectRatio
+>
 DynamicImage
 :
 :
@@ -607,6 +610,8 @@ Size
 )
 ;
 return
+Some
+(
 AspectRatio
 :
 :
@@ -618,6 +623,7 @@ width
 size
 .
 height
+)
 )
 ;
 }

@@ -2134,7 +2134,10 @@ NS_OK
 *
 *
 *
+Maybe
+<
 AspectRatio
+>
 RasterImage
 :
 :
@@ -2148,11 +2151,14 @@ mError
 )
 {
 return
-{
-}
+Nothing
+(
+)
 ;
 }
 return
+Some
+(
 AspectRatio
 :
 :
@@ -2164,6 +2170,7 @@ width
 mSize
 .
 height
+)
 )
 ;
 }

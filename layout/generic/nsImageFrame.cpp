@@ -6381,7 +6381,10 @@ aImage
 {
 if
 (
+Maybe
+<
 AspectRatio
+>
 fromImage
 =
 aImage
@@ -6393,6 +6396,7 @@ GetIntrinsicRatio
 )
 {
 return
+*
 fromImage
 ;
 }
