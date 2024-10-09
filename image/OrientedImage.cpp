@@ -394,10 +394,7 @@ return
 rv
 ;
 }
-Maybe
-<
 AspectRatio
->
 OrientedImage
 :
 :
@@ -405,10 +402,7 @@ GetIntrinsicRatio
 (
 )
 {
-Maybe
-<
 AspectRatio
->
 ratio
 =
 InnerImage
@@ -434,14 +428,10 @@ SwapsWidthAndHeight
 {
 ratio
 =
-Some
-(
 ratio
--
->
+.
 Inverted
 (
-)
 )
 ;
 }

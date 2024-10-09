@@ -653,10 +653,7 @@ aSize
 )
 ;
 }
-Maybe
-<
 AspectRatio
->
 ImageWrapper
 :
 :

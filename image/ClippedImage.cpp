@@ -1334,10 +1334,7 @@ return
 NS_OK
 ;
 }
-Maybe
-<
 AspectRatio
->
 ClippedImage
 :
 :
@@ -1365,8 +1362,6 @@ GetIntrinsicRatio
 ;
 }
 return
-Some
-(
 AspectRatio
 :
 :
@@ -1381,7 +1376,6 @@ mClip
 .
 Height
 (
-)
 )
 )
 ;
