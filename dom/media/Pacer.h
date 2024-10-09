@@ -314,9 +314,6 @@ mTimer
 MakeAndAddRef
 <
 MediaTimer
-<
-TimeStamp
->
 >
 (
 )
@@ -984,9 +981,6 @@ mTaskQueue
 RefPtr
 <
 MediaTimer
-<
-TimeStamp
->
 >
 mTimer
 ;

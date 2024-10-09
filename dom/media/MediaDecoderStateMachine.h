@@ -2837,9 +2837,6 @@ target
 time
 .
 DelayedScheduler
-<
-TimeStamp
->
 mDelayedScheduler
 ;
 /
@@ -3338,9 +3335,6 @@ suspension
 via
 timer
 DelayedScheduler
-<
-TimeStamp
->
 mVideoDecodeSuspendTimer
 ;
 /

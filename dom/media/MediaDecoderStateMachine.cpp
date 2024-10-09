@@ -5603,9 +5603,6 @@ enter
 dormant
 .
 DelayedScheduler
-<
-TimeStamp
->
 mDormantTimer
 ;
 MediaEventListener

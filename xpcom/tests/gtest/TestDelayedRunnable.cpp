@@ -1148,12 +1148,6 @@ mozilla
 :
 :
 MediaTimer
-<
-mozilla
-:
-:
-TimeStamp
->
 >
 (
 )
