@@ -1264,13 +1264,31 @@ already
 tried
 SIGINT
 escalate
+(
+if
+possible
+)
 .
                         
-sig
-=
-signal
-.
+#
+Note
+:
 SIGKILL
+is
+not
+available
+on
+Windows
+.
+                        
+getattr
+(
+signal
+"
+SIGKILL
+"
+sig
+)
         
 if
 ensure_exit_code
