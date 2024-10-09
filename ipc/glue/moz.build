@@ -341,6 +341,11 @@ RawShmem
 h
 "
 "
+RustMessageUtils
+.
+h
+"
+"
 ScopedPort
 .
 h

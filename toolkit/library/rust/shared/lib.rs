@@ -220,6 +220,10 @@ idna_glue
 ;
 extern
 crate
+ipdl_utils
+;
+extern
+crate
 jog
 ;
 extern

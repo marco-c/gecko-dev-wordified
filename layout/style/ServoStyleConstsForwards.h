@@ -579,17 +579,6 @@ ImageTracker
 /
 namespace
 dom
-namespace
-ipc
-{
-class
-ByteBuf
-;
-}
-/
-/
-namespace
-ipc
 /
 /
 Replacement
