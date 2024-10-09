@@ -313,6 +313,7 @@ Linux
 .
 namespace
 {
+MOZ_RUNINIT
 static
 mozilla
 :

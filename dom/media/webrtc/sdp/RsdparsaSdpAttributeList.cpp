@@ -167,6 +167,7 @@ limits
 namespace
 mozilla
 {
+MOZ_RUNINIT
 const
 std
 :

@@ -917,6 +917,7 @@ mReleasedChunksByTime
 static
 *
 /
+MOZ_RUNINIT
 DataMutexBase
 <
 ProfileBufferGlobalController

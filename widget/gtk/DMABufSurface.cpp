@@ -581,6 +581,7 @@ MOZ_LOGGING
 define
 BUFFER_FLAGS
 0
+MOZ_RUNINIT
 static
 RefPtr
 <

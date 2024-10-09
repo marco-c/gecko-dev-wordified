@@ -675,6 +675,7 @@ second
 /
 /
 /
+MOZ_RUNINIT
 std
 :
 :
@@ -686,6 +687,7 @@ CompressedFormatInfo
 >
 gCompressedFormatInfoMap
 ;
+MOZ_RUNINIT
 std
 :
 :

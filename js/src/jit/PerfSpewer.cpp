@@ -744,6 +744,7 @@ profiling
 is
 enabled
 .
+MOZ_RUNINIT
 static
 js
 :
@@ -757,6 +758,7 @@ mutexid
 PerfSpewer
 )
 ;
+MOZ_RUNINIT
 static
 PersistentRooted
 <
@@ -773,6 +775,7 @@ SystemAllocPolicy
 >
 jitCodeVector
 ;
+MOZ_RUNINIT
 static
 ProfilerJitCodeVector
 profilerData

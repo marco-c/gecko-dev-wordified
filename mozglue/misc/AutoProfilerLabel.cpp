@@ -417,6 +417,7 @@ sGeneration
 ;
 }
 ;
+MOZ_RUNINIT
 /
 *
 static

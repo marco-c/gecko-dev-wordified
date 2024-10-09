@@ -1704,6 +1704,7 @@ mRemovedGradientData
 ;
 }
 ;
+MOZ_RUNINIT
 GradientCacheMutex
 GradientCache
 :

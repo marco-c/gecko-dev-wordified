@@ -147,6 +147,7 @@ mozilla
 namespace
 layers
 {
+MOZ_RUNINIT
 const
 TimeDuration
 kOvershootInterval

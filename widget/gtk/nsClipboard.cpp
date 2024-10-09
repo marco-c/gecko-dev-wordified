@@ -540,12 +540,14 @@ uri
 list
 "
 ;
+MOZ_CONSTINIT
 ClipboardTargets
 nsRetrievalContext
 :
 :
 sClipboardTargets
 ;
+MOZ_CONSTINIT
 ClipboardTargets
 nsRetrievalContext
 :

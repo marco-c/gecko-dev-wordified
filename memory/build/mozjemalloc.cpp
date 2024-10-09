@@ -11566,6 +11566,7 @@ mMainThreadId
 ;
 }
 ;
+MOZ_RUNINIT
 static
 ArenaCollection
 gArenas

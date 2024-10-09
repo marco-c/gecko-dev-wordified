@@ -388,6 +388,7 @@ NUM_HTTP_ATOMS
 #
 undef
 HTTP_ATOM
+MOZ_RUNINIT
 static
 StaticDataMutex
 <

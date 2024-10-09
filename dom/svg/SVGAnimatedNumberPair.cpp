@@ -409,6 +409,7 @@ mDoSetAttr
 ;
 }
 ;
+MOZ_RUNINIT
 static
 SVGAttrTearoffTable
 <
@@ -420,6 +421,7 @@ DOMAnimatedNumber
 >
 sSVGFirstAnimatedNumberTearoffTable
 ;
+MOZ_RUNINIT
 static
 SVGAttrTearoffTable
 <

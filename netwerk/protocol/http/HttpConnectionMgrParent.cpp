@@ -220,6 +220,7 @@ mozilla
 :
 net
 {
+MOZ_RUNINIT
 nsTHashMap
 <
 uint32_t

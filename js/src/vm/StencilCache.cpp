@@ -543,6 +543,7 @@ enabled
 false
 ;
 }
+MOZ_RUNINIT
 /
 *
 static

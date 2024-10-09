@@ -143,6 +143,7 @@ AsyncLogger
 :
 TracingPhase
 ;
+MOZ_RUNINIT
 mozilla
 :
 :

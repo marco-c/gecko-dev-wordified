@@ -8090,6 +8090,7 @@ ANY
 =
 0xffff
 ;
+MOZ_RUNINIT
 const
 gfxFontUtils
 :
@@ -8240,6 +8241,7 @@ GB18030_ENCODING
 }
 }
 ;
+MOZ_RUNINIT
 const
 Encoding
 *
@@ -8304,6 +8306,7 @@ ISO
 /
 }
 ;
+MOZ_RUNINIT
 const
 Encoding
 *

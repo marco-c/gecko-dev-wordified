@@ -7883,6 +7883,7 @@ true
 static
 *
 /
+MOZ_RUNINIT
 WellKnownParserAtoms
 WellKnownParserAtoms
 :

@@ -2016,6 +2016,7 @@ defined
 (
 MOZ_HAS_REMOTE
 )
+MOZ_RUNINIT
 static
 RefPtr
 <
@@ -2073,6 +2074,7 @@ gAllowContentAnalysisArgPresent
 =
 false
 ;
+MOZ_RUNINIT
 nsString
 gAbsoluteArgv0Path
 ;
@@ -2179,6 +2181,7 @@ defined
 (
 MOZ_WAYLAND
 )
+MOZ_RUNINIT
 std
 :
 :
@@ -7639,10 +7642,12 @@ return
 NS_OK
 ;
 }
+MOZ_RUNINIT
 static
 nsCString
 gLastAppVersion
 ;
+MOZ_RUNINIT
 static
 nsCString
 gLastAppBuildID
@@ -16336,6 +16341,7 @@ gDoProfileReset
 =
 false
 ;
+MOZ_RUNINIT
 static
 nsCOMPtr
 <
@@ -38678,6 +38684,7 @@ install_rust_hooks
 }
 }
 ;
+MOZ_RUNINIT
 InstallRustHooks
 sInstallRustHooks
 ;

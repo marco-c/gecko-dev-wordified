@@ -14501,6 +14501,7 @@ metadataBuilder
 static
 *
 /
+MOZ_RUNINIT
 ReconstructedSavedFramePrincipals
 ReconstructedSavedFramePrincipals
 :
@@ -14512,6 +14513,7 @@ IsSystem
 static
 *
 /
+MOZ_RUNINIT
 ReconstructedSavedFramePrincipals
 ReconstructedSavedFramePrincipals
 :

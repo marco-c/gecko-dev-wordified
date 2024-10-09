@@ -7694,6 +7694,7 @@ ID
 cache
 map
 .
+MOZ_RUNINIT
 ScalarMapType
 gScalarNameIDMap
 (
@@ -7746,6 +7747,7 @@ from
 the
 map
 .
+MOZ_RUNINIT
 ProcessesScalarsMapType
 gScalarStorageMap
 ;
@@ -7758,6 +7760,7 @@ the
 keyed
 scalars
 .
+MOZ_RUNINIT
 ProcessesKeyedScalarsMapType
 gKeyedScalarStorageMap
 ;
@@ -7789,9 +7792,11 @@ local
 developer
 builds
 .
+MOZ_RUNINIT
 ProcessesScalarsMapType
 gDynamicBuiltinScalarStorageMap
 ;
+MOZ_RUNINIT
 ProcessesKeyedScalarsMapType
 gDynamicBuiltinKeyedScalarStorageMap
 ;

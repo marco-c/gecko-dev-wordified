@@ -156,6 +156,7 @@ mCertName
 ;
 }
 ;
+MOZ_RUNINIT
 const
 std
 :

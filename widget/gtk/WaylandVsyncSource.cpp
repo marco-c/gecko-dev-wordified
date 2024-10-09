@@ -409,6 +409,7 @@ ToMilliseconds
 )
 ;
 }
+MOZ_RUNINIT
 static
 nsTArray
 <

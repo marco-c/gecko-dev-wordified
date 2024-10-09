@@ -289,6 +289,7 @@ exit
 #
 ifdef
 XP_LINUX
+MOZ_RUNINIT
 static
 size_t
 sPageSize
@@ -7384,6 +7385,7 @@ endif
 XP_LINUX
 }
 ;
+MOZ_RUNINIT
 static
 Replay
 replay

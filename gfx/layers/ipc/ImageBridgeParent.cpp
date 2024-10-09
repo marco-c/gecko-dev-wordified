@@ -534,6 +534,7 @@ mozilla
 :
 media
 ;
+MOZ_RUNINIT
 ImageBridgeParent
 :
 :

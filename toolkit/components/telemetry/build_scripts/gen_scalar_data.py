@@ -533,6 +533,7 @@ total_key_count
 print
 (
 "
+MOZ_RUNINIT
 const
 ScalarInfo
 gScalars

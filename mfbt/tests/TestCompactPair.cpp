@@ -193,6 +193,8 @@ name
 size
 )
 \
+MOZ_RUNINIT
+MOZ_GENERATED
 CompactPair
 <
 T1
@@ -326,6 +328,8 @@ size
 ;
 \
 \
+MOZ_RUNINIT
+MOZ_GENERATED
 CompactPair
 <
 T2

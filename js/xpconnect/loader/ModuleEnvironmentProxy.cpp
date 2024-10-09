@@ -1057,6 +1057,7 @@ gHandler
 ;
 }
 ;
+MOZ_RUNINIT
 const
 ModuleEnvironmentProxyHandler
 ModuleEnvironmentProxyHandler

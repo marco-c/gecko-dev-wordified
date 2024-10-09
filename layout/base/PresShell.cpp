@@ -1902,6 +1902,7 @@ ScrollableLayerGuid
 ViewID
 ViewID
 ;
+MOZ_RUNINIT
 PresShell
 :
 :
