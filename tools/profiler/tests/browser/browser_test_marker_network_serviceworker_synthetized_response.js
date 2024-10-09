@@ -1932,6 +1932,13 @@ Expect
 number
 (
 )
+secureConnectionStart
+:
+Expect
+.
+number
+(
+)
 tcpConnectEnd
 :
 Expect
@@ -2728,6 +2735,13 @@ number
 (
 )
 connectStart
+:
+Expect
+.
+number
+(
+)
+secureConnectionStart
 :
 Expect
 .
