@@ -120,6 +120,9 @@ Sprites
 "
 Todolist
 "
+"
+UniffiTraitInterfaces
+"
 ]
 EXTRA_JS_MODULES
 +
