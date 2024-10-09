@@ -301,6 +301,13 @@ h
 #
 include
 "
+NotifyUtils
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h
@@ -1491,6 +1498,10 @@ rv
 return
 ;
 }
+NotifyDatabaseWorkStarted
+(
+)
+;
 }
 void
 Context
