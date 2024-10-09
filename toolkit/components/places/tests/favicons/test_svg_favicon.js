@@ -66,13 +66,6 @@ now
 )
 ;
 await
-new
-Promise
-(
-resolve
-=
->
-{
 PlacesUtils
 .
 favicons
@@ -82,11 +75,6 @@ setFaviconForPage
 PAGEURI
 SMALLSVG_DATA_URI
 SMALLSVG_DATA_URI
-null
-resolve
-)
-;
-}
 )
 ;
 await
