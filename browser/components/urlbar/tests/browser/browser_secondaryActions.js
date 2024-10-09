@@ -1148,6 +1148,11 @@ entry
 "
 typed
 "
+restrictType
+:
+"
+symbol
+"
 }
 )
 ;
