@@ -30830,6 +30830,10 @@ Database
 (
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 MOZ_ASSERT_IF
 (
 mActorWasAlive
