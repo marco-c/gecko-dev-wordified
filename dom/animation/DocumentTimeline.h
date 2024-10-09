@@ -351,15 +351,6 @@ aAnimation
 override
 ;
 void
-RemoveAnimation
-(
-Animation
-*
-aAnimation
-)
-override
-;
-void
 NotifyAnimationContentVisibilityChanged
 (
 Animation

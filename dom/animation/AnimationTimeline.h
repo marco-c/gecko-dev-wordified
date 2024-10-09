@@ -718,7 +718,6 @@ IsEmpty
 )
 ;
 }
-virtual
 void
 RemoveAnimation
 (
