@@ -4801,6 +4801,13 @@ iconURI
 ;
 }
 await
+new
+Promise
+(
+resolve
+=
+>
+{
 PlacesUtils
 .
 favicons
@@ -4810,6 +4817,11 @@ setFaviconForPage
 pageURI
 iconURI
 dataURL
+null
+resolve
+)
+;
+}
 )
 ;
 }

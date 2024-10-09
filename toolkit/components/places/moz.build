@@ -168,6 +168,11 @@ nsITaggingService
 .
 idl
 "
+"
+PlacesCompletionCallback
+.
+idl
+"
 ]
 EXPORTS
 .

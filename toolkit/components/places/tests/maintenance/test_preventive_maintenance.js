@@ -15716,6 +15716,13 @@ testtag
 )
 ;
 await
+new
+Promise
+(
+resolve
+=
+>
+{
 PlacesUtils
 .
 favicons
@@ -15727,6 +15734,11 @@ this
 _uri2
 SMALLPNG_DATA_URI
 SMALLPNG_DATA_URI
+null
+resolve
+)
+;
+}
 )
 ;
 await
