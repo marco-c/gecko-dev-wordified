@@ -558,7 +558,7 @@ mActor
 mActor
 -
 >
-SendDeleteMeInternal
+SendDelete
 (
 )
 ;
@@ -567,7 +567,7 @@ MOZ_ASSERT
 !
 mActor
 "
-SendDeleteMeInternal
+SendDelete
 should
 have
 cleared

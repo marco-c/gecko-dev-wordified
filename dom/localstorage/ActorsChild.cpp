@@ -446,7 +446,7 @@ void
 LSDatabaseChild
 :
 :
-SendDeleteMeInternal
+SendDelete
 (
 )
 {
@@ -475,8 +475,9 @@ MOZ_ALWAYS_TRUE
 PBackgroundLSDatabaseChild
 :
 :
-SendDeleteMe
+Send__delete__
 (
+this
 )
 )
 ;
