@@ -1154,16 +1154,6 @@ aBlockInlineCheck
 -
 If
 UseHTMLDefaultStyle
-or
-editor
-.
-block_inline_check
-.
-use_computed_style
-*
-pref
-is
-false
 this
 returns
 true
@@ -1172,9 +1162,9 @@ for
 HTML
 elements
 which
+*
 are
 defined
-*
 as
 a
 block
@@ -1192,8 +1182,8 @@ non
 HTML
 elements
 are
-always
 *
+always
 treated
 as
 inline
