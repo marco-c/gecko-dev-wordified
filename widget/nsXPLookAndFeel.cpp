@@ -4997,13 +4997,11 @@ MozDialog
 /
 -
 -
-in
+background
 -
-content
+color
 -
 box
--
-background
 color
 =
 NS_RGB
