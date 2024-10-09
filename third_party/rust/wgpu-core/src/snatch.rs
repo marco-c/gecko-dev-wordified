@@ -332,6 +332,8 @@ snatch
 self
 _guard
 :
+&
+mut
 ExclusiveSnatchGuard
 )
 -

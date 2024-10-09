@@ -1652,6 +1652,9 @@ SemanticError
 format
 !
 (
+concat
+!
+(
 "
 swizzle
 cannot
@@ -1659,6 +1662,8 @@ have
 duplicate
 components
 in
+"
+"
 left
 -
 hand
@@ -1669,13 +1674,14 @@ for
 \
 "
 {
-name
 :
 ?
 }
 \
 "
 "
+)
+name
 )
 .
 into

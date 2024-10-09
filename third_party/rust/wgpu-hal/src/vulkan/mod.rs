@@ -3107,6 +3107,9 @@ of
 panic
 !
 (
+concat
+!
+(
 "
 Tried
 to
@@ -3114,13 +3117,14 @@ set
 display
 timing
 properties
+"
+"
 without
 the
 corresponding
 feature
 (
 {
-features
 :
 ?
 }
@@ -3128,6 +3132,8 @@ features
 enabled
 .
 "
+)
+features
 )
 ;
 }

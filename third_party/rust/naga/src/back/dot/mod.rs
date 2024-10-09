@@ -5151,10 +5151,10 @@ format
 "
 rayQueryGet
 {
+ty
 }
 Intersection
 "
-ty
 )
 .
 into

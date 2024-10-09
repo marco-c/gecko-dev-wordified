@@ -953,6 +953,7 @@ StructTransparentGeneric
 E
 >
 (
+pub
 E
 )
 ;

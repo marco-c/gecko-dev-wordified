@@ -993,6 +993,9 @@ DOWNLEVEL_WARNING_MESSAGE
 &
 str
 =
+concat
+!
+(
 "
 The
 underlying
@@ -1003,7 +1006,8 @@ in
 use
 does
 not
-\
+"
+"
 support
 enough
 features
@@ -1016,6 +1020,8 @@ implementation
 of
 WebGPU
 .
+"
+"
 A
 subset
 of
@@ -1026,7 +1032,8 @@ still
 be
 used
 .
-\
+"
+"
 If
 you
 are
@@ -1044,6 +1051,8 @@ and
 wish
 to
 limit
+"
+"
 the
 features
 you
@@ -1052,7 +1061,8 @@ to
 the
 supported
 subset
-\
+"
+"
 call
 Adapter
 :
@@ -1065,6 +1075,8 @@ Device
 downlevel_properties
 to
 get
+"
+"
 a
 listing
 of
@@ -1072,11 +1084,13 @@ the
 features
 the
 current
-\
+"
+"
 platform
 supports
 .
 "
+)
 ;
 const
 DOWNLEVEL_ERROR_MESSAGE
@@ -1084,6 +1098,9 @@ DOWNLEVEL_ERROR_MESSAGE
 &
 str
 =
+concat
+!
+(
 "
 This
 is
@@ -1101,7 +1118,8 @@ or
 device
 does
 not
-\
+"
+"
 support
 enough
 features
@@ -1112,6 +1130,8 @@ fully
 compliant
 implementation
 .
+"
+"
 A
 subset
 of
@@ -1122,7 +1142,8 @@ still
 be
 used
 .
-\
+"
+"
 If
 you
 are
@@ -1136,6 +1157,8 @@ not
 in
 a
 browser
+"
+"
 and
 wish
 to
@@ -1144,7 +1167,8 @@ around
 this
 issue
 call
-\
+"
+"
 Adapter
 :
 :
@@ -1154,6 +1178,8 @@ Device
 :
 :
 downlevel_properties
+"
+"
 to
 get
 a
@@ -1163,11 +1189,11 @@ the
 features
 the
 current
-\
 platform
 supports
 .
 "
+)
 ;
 #
 [

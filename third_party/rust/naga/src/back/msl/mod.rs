@@ -3792,6 +3792,7 @@ Binding
 Location
 (
 {
+location
 }
 )
 for
@@ -3799,7 +3800,6 @@ the
 Uniform
 mode
 "
-location
 )
 )
 )
