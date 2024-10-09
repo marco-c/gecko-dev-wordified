@@ -148,6 +148,12 @@ SOCKET
 socket
 "
 )
+REMOTESANDBOXBROKER
+(
+"
+sandboxbroker
+"
+)
 FORKSERVER
 (
 "
