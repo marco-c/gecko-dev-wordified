@@ -445,7 +445,7 @@ moment
 .
 [
 "
-nsIAndroidBridge
+nsIGeckoViewBridge
 "
 "
 any
@@ -453,7 +453,7 @@ any
 ]
 [
 "
-nsIAndroidView
+nsIGeckoViewView
 "
 "
 any

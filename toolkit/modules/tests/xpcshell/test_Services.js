@@ -462,7 +462,7 @@ nsISearchService
 if
 (
 "
-nsIAndroidBridge
+nsIGeckoViewBridge
 "
 in
 Ci
@@ -475,7 +475,7 @@ androidBridge
 "
 Ci
 .
-nsIAndroidBridge
+nsIGeckoViewBridge
 )
 ;
 }

@@ -456,7 +456,7 @@ QueryInterface
 (
 Ci
 .
-nsIAndroidView
+nsIGeckoViewView
 )
 .
 initData

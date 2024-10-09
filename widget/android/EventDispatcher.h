@@ -239,7 +239,7 @@ EventDispatcher
 final
 :
 public
-nsIAndroidEventDispatcher
+nsIGeckoViewEventDispatcher
 public
 java
 :
@@ -269,7 +269,7 @@ EventDispatcher
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIANDROIDEVENTDISPATCHER
+NS_DECL_NSIGECKOVIEWEVENTDISPATCHER
 EventDispatcher
 (
 )
@@ -313,7 +313,7 @@ Param
 aData
 =
 nullptr
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 *
 aCallback
 =
@@ -458,7 +458,7 @@ ListenersList
 {
 nsCOMArray
 <
-nsIAndroidEventListener
+nsIGeckoViewEventListener
 >
 listeners
 {
@@ -547,7 +547,7 @@ EventDispatcher
 const
 nsAString
 &
-nsIAndroidEventListener
+nsIGeckoViewEventListener
 *
 )
 ;
@@ -570,7 +570,7 @@ Value
 aEvents
 IterateEventsCallback
 aCallback
-nsIAndroidEventListener
+nsIGeckoViewEventListener
 *
 aListener
 )
@@ -581,7 +581,7 @@ RegisterEventLocked
 const
 nsAString
 &
-nsIAndroidEventListener
+nsIGeckoViewEventListener
 *
 )
 ;
@@ -591,7 +591,7 @@ UnregisterEventLocked
 const
 nsAString
 &
-nsIAndroidEventListener
+nsIGeckoViewEventListener
 *
 )
 ;
@@ -616,7 +616,7 @@ JS
 Value
 >
 aData
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 *
 aCallback
 )
@@ -633,10 +633,10 @@ NativeCallbackDelegate
 LocalRef
 WrapCallback
 (
-nsIAndroidEventCallback
+nsIGeckoViewEventCallback
 *
 aCallback
-nsIAndroidEventFinalizer
+nsIGeckoViewEventFinalizer
 *
 aFinalizer
 =
