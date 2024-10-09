@@ -911,6 +911,17 @@ _consoleScope
 ;
 }
 get
+targetGlobal
+(
+)
+{
+return
+this
+.
+_consoleScope
+;
+}
+get
 sourcesManager
 (
 )

@@ -663,8 +663,15 @@ thread
 targetActor
 exposes
 a
-workerGlobal
+targetGlobal
 property
+which
+isn
+'
+t
+a
+Window
+object
 )
 const
 winStartTime

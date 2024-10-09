@@ -2573,7 +2573,7 @@ isWorker
 ?
 targetActor
 .
-workerGlobal
+targetGlobal
 :
 Cu
 .

@@ -3376,6 +3376,17 @@ null
 ;
 }
 get
+targetGlobal
+(
+)
+{
+return
+this
+.
+window
+;
+}
+get
 outerWindowID
 (
 )
