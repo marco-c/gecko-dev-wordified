@@ -157,17 +157,6 @@ js
 /
 experimental
 /
-BindingAllocs
-.
-h
-"
-#
-include
-"
-js
-/
-experimental
-/
 JitInfo
 .
 h
@@ -20782,7 +20771,7 @@ aReflector
 .
 set
 (
-JS_NewObjectWithGivenProtoAndUseAllocSite
+JS_NewObjectWithGivenProto
 (
 aCx
 aClass
