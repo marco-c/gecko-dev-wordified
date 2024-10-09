@@ -2219,7 +2219,6 @@ if
 !
 SendDeliverFrame
 (
-aCapEngine
 aStreamId
 std
 :
@@ -2281,7 +2280,6 @@ if
 !
 SendDeliverFrame
 (
-aCapEngine
 aStreamId
 std
 :
@@ -2368,7 +2366,6 @@ mParent
 >
 SendCaptureEnded
 (
-mCapEngine
 mStreamId
 )
 ;
