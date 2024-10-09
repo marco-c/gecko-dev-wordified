@@ -561,7 +561,7 @@ class
 Increment
 ;
 class
-CalendarRecord
+CalendarValue
 ;
 class
 PlainDateObject
@@ -1684,7 +1684,7 @@ JS
 :
 Handle
 <
-CalendarRecord
+CalendarValue
 >
 calendar
 JS
