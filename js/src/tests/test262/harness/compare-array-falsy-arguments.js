@@ -133,7 +133,7 @@ compareArray
 (
 )
 "
-Actual
+First
 argument
 shouldn
 '
@@ -159,7 +159,7 @@ null
 ]
 )
 "
-Actual
+First
 argument
 shouldn
 '
@@ -188,7 +188,7 @@ foo
 "
 )
 "
-Actual
+First
 argument
 shouldn
 '
@@ -214,7 +214,7 @@ compareArray
 ]
 )
 "
-Expected
+Second
 argument
 shouldn
 '
@@ -243,7 +243,7 @@ foo
 "
 )
 "
-Expected
+Second
 argument
 shouldn
 '
