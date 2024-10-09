@@ -674,6 +674,11 @@ WrappedFunction
 target
 bool
 isDOMCall
+gc
+:
+:
+Heap
+initialHeap
 )
 {
 auto
@@ -710,6 +715,7 @@ callInfo
 needsThisCheck
 target
 isDOMCall
+initialHeap
 )
 ;
 }
