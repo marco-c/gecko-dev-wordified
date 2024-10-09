@@ -1981,11 +1981,6 @@ calledFrom
 "
 ui
 "
-dispatchTo
-=
-"
-gecko
-"
 )
 private
 native
