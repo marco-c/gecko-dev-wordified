@@ -711,11 +711,9 @@ button
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 button
-5
-2
 eventDetails
 /
 /
