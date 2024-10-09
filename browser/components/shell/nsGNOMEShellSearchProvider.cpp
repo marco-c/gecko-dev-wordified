@@ -2915,6 +2915,11 @@ MOZ_ASSERT
 mReply
 )
 ;
+MOZ_ASSERT
+(
+mHistResultContainer
+)
+;
 GVariantBuilder
 b
 ;
@@ -3307,6 +3312,7 @@ timestamp
 .
 if
 (
+!
 mSearchProvider
 -
 >
@@ -3316,11 +3322,13 @@ this
 )
 )
 {
+return
+;
+}
 mHistResultContainer
 =
 aHistResultContainer
 ;
-}
 /
 /
 Getting
