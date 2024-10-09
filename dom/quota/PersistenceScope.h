@@ -984,6 +984,15 @@ delete
 ;
 }
 ;
+bool
+MatchesBestEffortPersistenceScope
+(
+const
+PersistenceScope
+&
+aPersistenceScope
+)
+;
 }
 /
 /
