@@ -418,6 +418,7 @@ defined
 (
 SOLARIS
 )
+\
 |
 |
 (
@@ -439,6 +440,7 @@ __GLIBC__
 )
 &
 &
+\
 __GLIBC__
 <
 2
