@@ -784,7 +784,7 @@ localRequiresTrickleIce
 |
 pc
 .
-_local_ice_candidates
+_new_local_ice_candidates
 .
 length
 )
