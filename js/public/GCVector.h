@@ -1401,9 +1401,12 @@ mallocSizeOf
 const
 {
 return
-vector
-.
-sizeOfIncludingThis
+mallocSizeOf
+(
+this
+)
++
+sizeOfExcludingThis
 (
 mallocSizeOf
 )
