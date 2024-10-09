@@ -11176,6 +11176,28 @@ uint32_t
 aPrivateBrowsingId
 )
 ;
+void
+AssertIsOnOwningThread
+(
+)
+const
+{
+AssertIsOnBackgroundThread
+(
+)
+;
+NS_ASSERT_OWNINGTHREAD
+(
+mozilla
+:
+:
+dom
+:
+:
+Database
+)
+;
+}
 Datastore
 *
 GetDatastore
@@ -11183,7 +11205,7 @@ GetDatastore
 )
 const
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -11201,7 +11223,7 @@ MaybeDatastoreRef
 )
 const
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -11303,7 +11325,7 @@ GetSnapshot
 )
 const
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -30795,7 +30817,7 @@ false
 #
 endif
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -30832,7 +30854,7 @@ Datastore
 aDatastore
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -30906,7 +30928,7 @@ Snapshot
 aSnapshot
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -30997,7 +31019,7 @@ RequestAllowToClose
 (
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -31135,7 +31157,7 @@ ForceKill
 (
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -31176,7 +31198,7 @@ aResult
 )
 const
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -31363,7 +31385,7 @@ AllowToClose
 (
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -31459,7 +31481,7 @@ ActorDestroyReason
 aWhy
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -31499,7 +31521,7 @@ RecvDeleteMe
 (
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -31561,7 +31583,7 @@ RecvAllowToClose
 (
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -31624,7 +31646,7 @@ LSSnapshotInitInfo
 aInitInfo
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -31735,7 +31757,7 @@ LSSnapshotInitInfo
 aInitInfo
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
@@ -32025,7 +32047,7 @@ PBackgroundLSSnapshotParent
 aActor
 )
 {
-AssertIsOnBackgroundThread
+AssertIsOnOwningThread
 (
 )
 ;
