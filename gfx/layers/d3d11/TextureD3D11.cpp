@@ -3664,13 +3664,7 @@ D3D11TextureData
 (
 texture11
 0
-std
-:
-:
-move
-(
 handle
-)
 aSize
 aFormat
 aFlags
