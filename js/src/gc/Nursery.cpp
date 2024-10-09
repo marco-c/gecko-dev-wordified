@@ -13077,11 +13077,12 @@ if
 head_
 )
 {
-head_
--
->
+ArenaCellSet
+:
+:
 sweepDependentStrings
 (
+head_
 )
 ;
 head_
