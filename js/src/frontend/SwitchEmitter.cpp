@@ -883,10 +883,10 @@ ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 EmitterScope
 :
 :
-IsSwitchBlock
+BlockKind
 :
 :
-Yes
+Switch
 #
 endif
 )
