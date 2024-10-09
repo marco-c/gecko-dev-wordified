@@ -12923,7 +12923,7 @@ it
 '
 s
 counted
-separatly
+separately
 .
 if
 (
@@ -13065,10 +13065,11 @@ t
 measure
 each
 nsAtom
+because
 they
 are
 measured
-separatly
+separately
 .
 n
 +
@@ -13081,8 +13082,6 @@ mValue
 mAtomArray
 -
 >
-mArray
-.
 ShallowSizeOfIncludingThis
 (
 aMallocSizeOf
