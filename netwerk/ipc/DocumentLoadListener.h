@@ -1119,6 +1119,8 @@ OpenDocument
 nsDocShellLoadState
 *
 aLoadState
+nsLoadFlags
+aLoadFlags
 uint32_t
 aCacheKey
 const
