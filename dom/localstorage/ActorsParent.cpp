@@ -37604,10 +37604,16 @@ PrepareDatastoreOp
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mDirectoryLock
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+mExtraDirectoryLock
 )
 ;
 MOZ_ASSERT_IF
