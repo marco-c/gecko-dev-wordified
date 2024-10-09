@@ -3396,7 +3396,7 @@ so
 that
 we
 add
-REDIRECT_INTERNAL
+REDIRECT_TRANSPARENT
 to
 the
 flag
@@ -3407,7 +3407,7 @@ flag
 must_use
 ]
 void
-internalRedirectTo
+transparentRedirectTo
 (
 in
 nsIURI

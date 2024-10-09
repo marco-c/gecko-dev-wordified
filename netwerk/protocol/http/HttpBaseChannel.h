@@ -1387,7 +1387,7 @@ newURI
 override
 ;
 NS_IMETHOD
-InternalRedirectTo
+TransparentRedirectTo
 (
 nsIURI
 *
@@ -4222,7 +4222,7 @@ should
 be
 true
 if
-internal
+trasparent
 redirect
 otherwise
 false
