@@ -2987,6 +2987,8 @@ clearer
 .
 bool
 isStackDump
+=
+false
 ;
 #
 endif
@@ -3022,15 +3024,6 @@ codeArray_
 (
 nullptr
 )
-#
-ifdef
-DEBUG
-isStackDump
-(
-false
-)
-#
-endif
 {
 }
 bool
