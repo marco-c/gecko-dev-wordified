@@ -2452,11 +2452,12 @@ gQuitting
 =
 true
 ;
-/
-/
-exit
+JS
+:
+:
+ReportUncatchableException
 (
-0
+cx
 )
 ;
 return
