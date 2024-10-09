@@ -835,6 +835,16 @@ aTarget
 )
 ;
 }
+bool
+IsXPCSandbox
+(
+)
+override
+{
+return
+true
+;
+}
 private
 :
 explicit
