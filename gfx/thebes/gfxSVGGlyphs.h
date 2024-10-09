@@ -1082,7 +1082,7 @@ SVGContextPaint
 private
 :
 static
-const
+constexpr
 mozilla
 :
 :
@@ -1091,6 +1091,8 @@ gfx
 :
 DeviceColor
 sZero
+{
+}
 ;
 static
 gfxMatrix
