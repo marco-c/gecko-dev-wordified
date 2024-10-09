@@ -665,6 +665,13 @@ getLoadedScript
 (
 )
 )
+mNetworkMetadata
+(
+aRequest
+-
+>
+mNetworkMetadata
+)
 {
 }
 NS_IMPL_ISUPPORTS
