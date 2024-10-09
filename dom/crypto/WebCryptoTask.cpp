@@ -8618,7 +8618,7 @@ UNWRAPKEY
 )
 {
 return
-NS_ERROR_DOM_DATA_ERR
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 if
@@ -8649,7 +8649,7 @@ UNWRAPKEY
 )
 {
 return
-NS_ERROR_DOM_DATA_ERR
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 if
@@ -8768,7 +8768,7 @@ DERIVEBITS
 )
 {
 return
-NS_ERROR_DOM_DATA_ERR
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 mKey
@@ -8849,7 +8849,7 @@ VERIFY
 )
 {
 return
-NS_ERROR_DOM_DATA_ERR
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 mKey
@@ -9803,7 +9803,7 @@ UNWRAPKEY
 )
 {
 return
-NS_ERROR_DOM_DATA_ERR
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 }
@@ -9885,7 +9885,7 @@ SIGN
 )
 {
 return
-NS_ERROR_DOM_DATA_ERR
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 }
@@ -10875,15 +10875,7 @@ DERIVEKEY
 ;
 publicAllowedUsages
 =
-CryptoKey
-:
-:
-DERIVEBITS
-|
-CryptoKey
-:
-:
-DERIVEKEY
+0
 ;
 }
 else
@@ -10973,7 +10965,7 @@ publicAllowedUsages
 )
 {
 return
-NS_ERROR_DOM_DATA_ERR
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 if
