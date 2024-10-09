@@ -1929,11 +1929,6 @@ entry
 "
 typed
 "
-restrictType
-:
-"
-symbol
-"
 }
 )
 ;
