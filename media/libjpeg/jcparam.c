@@ -1701,13 +1701,6 @@ data_precision
 =
 =
 12
-&
-&
-!
-cinfo
--
->
-arith_code
 )
 cinfo
 -

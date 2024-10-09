@@ -46,6 +46,7 @@ C
 2017
 -
 2018
+2024
 D
 .
 R
@@ -235,7 +236,7 @@ return
 void
 *
 )
-malloc
+MALLOC
 (
 sizeofobject
 )
@@ -299,7 +300,7 @@ return
 void
 *
 )
-malloc
+MALLOC
 (
 sizeofobject
 )

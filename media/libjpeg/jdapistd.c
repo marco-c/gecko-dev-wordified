@@ -49,7 +49,7 @@ C
 2020
 2022
 -
-2023
+2024
 D
 .
 R
@@ -1423,8 +1423,15 @@ width
 0
 |
 |
+(
+unsigned
+long
+long
+)
+(
 *
 xoffset
+)
 +
 *
 width
@@ -3409,6 +3416,11 @@ image
 /
 if
 (
+(
+unsigned
+long
+long
+)
 cinfo
 -
 >
