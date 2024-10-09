@@ -10356,6 +10356,10 @@ editingHost
 =
 ComputeEditingHost
 (
+LimitInBodyElement
+:
+:
+No
 )
 ;
 if
