@@ -688,6 +688,8 @@ const
 nsCString
 &
 aBaseDomain
+bool
+aSorted
 nsTArray
 <
 RefPtr

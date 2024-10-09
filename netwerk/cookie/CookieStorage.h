@@ -638,6 +638,8 @@ const
 nsACString
 &
 aBaseDomain
+bool
+aSorted
 nsTArray
 <
 RefPtr
