@@ -529,13 +529,6 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-const
-Maybe
-<
-Type
->
-&
-aClientType
 ClearStoragesForOriginResolver
 &
 &
