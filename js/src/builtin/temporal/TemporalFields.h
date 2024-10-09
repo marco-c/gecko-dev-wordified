@@ -2071,11 +2071,11 @@ fieldNames
 *
 PrepareCalendarFieldsAndFieldNames
 (
-calendarRec
+calendar
 fields
 calendarFieldNames
-*
 [
+*
 nonCalendarFieldNames
 [
 requiredFieldNames
@@ -2095,7 +2095,7 @@ JS
 :
 Handle
 <
-CalendarRecord
+CalendarValue
 >
 calendar
 JS
@@ -2140,7 +2140,7 @@ resultFieldNames
 *
 PrepareCalendarFields
 (
-calendarRec
+calendar
 fields
 calendarFieldNames
 *
@@ -2161,7 +2161,7 @@ JS
 :
 Handle
 <
-CalendarRecord
+CalendarValue
 >
 calendar
 JS
