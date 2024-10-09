@@ -1895,13 +1895,7 @@ dom
 BrowsingContext
 *
 aBrowsingContext
-mozilla
-:
-:
-Maybe
-<
 bool
->
 aUriModified
 mozilla
 :
