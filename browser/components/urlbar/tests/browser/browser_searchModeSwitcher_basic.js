@@ -445,7 +445,7 @@ Bing
 entry
 :
 "
-other
+searchbutton
 "
 source
 :
@@ -841,7 +841,7 @@ Bing
 entry
 :
 "
-other
+searchbutton
 "
 source
 :
@@ -1515,7 +1515,7 @@ com
 entry
 :
 "
-other
+searchbutton
 "
 isPreview
 :
@@ -1546,7 +1546,7 @@ false
 entry
 :
 "
-other
+searchbutton
 "
 }
 ;
@@ -2636,7 +2636,7 @@ Bing
 entry
 :
 "
-other
+searchbutton
 "
 source
 :
@@ -3624,7 +3624,7 @@ true
 entry
 :
 "
-other
+searchbutton
 "
 }
 )

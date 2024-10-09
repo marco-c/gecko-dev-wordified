@@ -946,7 +946,7 @@ SEARCH
 entry
 :
 "
-other
+searchbutton
 "
 }
 )
@@ -1170,7 +1170,7 @@ SEARCH
 entry
 :
 "
-other
+searchbutton
 "
 }
 )
@@ -1416,7 +1416,7 @@ SEARCH
 entry
 :
 "
-other
+searchbutton
 "
 }
 )
