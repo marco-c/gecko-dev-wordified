@@ -1929,6 +1929,11 @@ entry
 "
 typed
 "
+restrictType
+:
+"
+symbol
+"
 }
 )
 ;

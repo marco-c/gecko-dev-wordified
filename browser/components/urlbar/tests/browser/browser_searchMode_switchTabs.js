@@ -1719,7 +1719,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 backgroundTab
 .
@@ -2024,6 +2024,11 @@ entry
 "
 typed
 "
+restrictType
+:
+"
+symbol
+"
 }
 )
 ;
@@ -2085,6 +2090,11 @@ entry
 :
 "
 typed
+"
+restrictType
+:
+"
+symbol
 "
 }
 )
