@@ -1490,6 +1490,13 @@ h
 #
 include
 "
+NotifyUtils
+.
+h
+"
+#
+include
+"
 nsBaseHashtable
 .
 h
@@ -82224,6 +82231,10 @@ NS_DISPATCH_NORMAL
 )
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 IDB_REPORT_INTERNAL_ERR_LAMBDA
+)
+;
+NotifyDatabaseWorkStarted
+(
 )
 ;
 return
