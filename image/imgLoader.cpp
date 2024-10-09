@@ -12284,7 +12284,7 @@ http
 -
 on
 -
-image
+resource
 -
 cache
 -
@@ -12439,7 +12439,7 @@ http
 -
 on
 -
-image
+resource
 -
 cache
 -

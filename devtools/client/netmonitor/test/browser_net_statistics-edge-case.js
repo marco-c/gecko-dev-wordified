@@ -72,7 +72,7 @@ http
 -
 on
 -
-image
+resource
 -
 cache
 -
@@ -82,6 +82,7 @@ requests
 in
 the
 content
+*
 process
 *
 -
