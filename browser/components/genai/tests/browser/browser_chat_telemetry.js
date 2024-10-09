@@ -157,12 +157,8 @@ testGetValue
 )
 ?
 ?
-AppConstants
-.
-NIGHTLY_BUILD
-AppConstants
-.
-NIGHTLY_BUILD
+true
+true
 "
 Default
 shortcuts_custom
