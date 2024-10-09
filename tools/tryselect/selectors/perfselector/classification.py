@@ -230,7 +230,7 @@ ClassificationEnum
 )
 :
     
-ANDROID_A51
+ANDROID_A55
 =
 {
 "
@@ -240,7 +240,7 @@ value
 "
 android
 -
-a51
+a55
 "
 "
 index
@@ -1551,7 +1551,7 @@ return
             
 Platforms
 .
-ANDROID_A51
+ANDROID_A55
 .
 value
 :
@@ -1565,7 +1565,7 @@ query
 '
 android
 '
-a51
+a55
 '
 shippable
 '
@@ -1604,7 +1604,7 @@ android
 and
 android
 -
-a51
+a55
 queries
 are
 expected
@@ -1637,7 +1637,7 @@ query
 '
 android
 '
-a51
+a55
 '
 shippable
 '
