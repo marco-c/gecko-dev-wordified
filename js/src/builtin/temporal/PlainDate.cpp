@@ -14537,14 +14537,8 @@ ii
 Step
 6
 .
-Rooted
-<
-PlainDateTimeWithCalendar
->
+PlainDateTime
 temporalDateTime
-(
-cx
-)
 ;
 if
 (
@@ -14552,11 +14546,8 @@ if
 CreateTemporalDateTime
 (
 cx
-{
 date
 time
-}
-calendar
 &
 temporalDateTime
 )
