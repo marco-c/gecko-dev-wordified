@@ -42745,6 +42745,14 @@ move
 childEndpoint
 )
 ;
+prepareDatastoreResponse
+.
+invalidated
+(
+)
+=
+mInvalidated
+;
 aResponse
 =
 std
