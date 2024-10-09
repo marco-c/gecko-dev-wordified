@@ -292,6 +292,8 @@ mv_r
 Motion
 vector
 row
+in
+pixel
 *
 /
 int16_t
@@ -304,6 +306,8 @@ mv_c
 Motion
 vector
 col
+in
+pixel
 *
 /
 int64_t

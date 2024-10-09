@@ -8935,10 +8935,10 @@ lrc
 -
 >
 avg_frame_bandwidth
+/
+3
 >
 (
-3
-*
 lrc
 -
 >
@@ -11619,7 +11619,7 @@ mode
 :
 reset
 the
-avg_frame_index
+avg_frame_qindex
 for
 base
 layer
