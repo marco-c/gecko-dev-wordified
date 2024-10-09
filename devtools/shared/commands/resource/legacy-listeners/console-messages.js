@@ -360,7 +360,11 @@ on
 "
 consoleAPICall
 "
+(
+{
 message
+}
+)
 =
 >
 {
