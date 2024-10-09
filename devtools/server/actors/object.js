@@ -580,7 +580,7 @@ object
 *
 param
 ThreadActor
-thread
+threadActor
 *
 The
 current
@@ -684,7 +684,7 @@ depth
 /
 constructor
 (
-thread
+threadActor
 obj
 {
 createValueGrip
@@ -700,7 +700,7 @@ customFormatterConfigDbgObj
 {
 super
 (
-thread
+threadActor
 .
 conn
 objectSpec
@@ -734,9 +734,9 @@ obj
 ;
 this
 .
-thread
+threadActor
 =
-thread
+threadActor
 ;
 this
 .
@@ -777,7 +777,7 @@ watchpointType
 {
 this
 .
-thread
+threadActor
 .
 addWatchpoint
 (
@@ -797,7 +797,7 @@ property
 {
 this
 .
-thread
+threadActor
 .
 removeWatchpoint
 (
@@ -812,7 +812,7 @@ removeWatchpoints
 {
 this
 .
-thread
+threadActor
 .
 removeWatchpoint
 (
@@ -943,7 +943,7 @@ if
 (
 this
 .
-thread
+threadActor
 ?
 .
 targetActor
@@ -4538,7 +4538,7 @@ if
 (
 this
 .
-thread
+threadActor
 .
 getWatchpoint
 (
@@ -4556,7 +4556,7 @@ watchpoint
 =
 this
 .
-thread
+threadActor
 .
 getWatchpoint
 (
@@ -4868,7 +4868,7 @@ null
 ;
 this
 .
-thread
+threadActor
 =
 null
 ;
