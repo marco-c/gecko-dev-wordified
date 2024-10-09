@@ -226,6 +226,14 @@ public
 explicit
 ProcessChild
 (
+IPC
+:
+:
+Channel
+:
+:
+ChannelHandle
+aClientChannel
 ProcessId
 aParentPid
 const
