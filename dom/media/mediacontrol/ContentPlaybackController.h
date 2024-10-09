@@ -415,6 +415,15 @@ NotifyContentMediaControlKeyReceiver
 (
 MediaControlKey
 aKey
+Maybe
+<
+SeekDetails
+>
+aDetails
+=
+Nothing
+(
+)
 )
 ;
 void

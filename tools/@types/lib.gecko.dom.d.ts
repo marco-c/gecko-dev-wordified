@@ -150193,6 +150193,10 @@ generateMediaControlKey
 aKey
 :
 MediaControlKey
+aSeekValue
+?
+:
+double
 )
 :
 void

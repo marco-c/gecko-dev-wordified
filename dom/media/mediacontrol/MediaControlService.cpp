@@ -367,6 +367,8 @@ GlobalObject
 global
 MediaControlKey
 aKey
+double
+aSeekTime
 )
 {
 RefPtr
@@ -393,6 +395,7 @@ service
 GenerateTestMediaControlKey
 (
 aKey
+aSeekTime
 )
 ;
 }
@@ -1564,6 +1567,8 @@ GenerateTestMediaControlKey
 (
 MediaControlKey
 aKey
+double
+aSeekValue
 )
 {
 if
@@ -1608,9 +1613,7 @@ MediaControlAction
 aKey
 SeekDetails
 (
-0
-.
-0
+aSeekValue
 false
 /
 *
@@ -1646,9 +1649,7 @@ MediaControlAction
 aKey
 SeekDetails
 (
-0
-.
-0
+aSeekValue
 )
 )
 )

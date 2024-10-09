@@ -296,6 +296,8 @@ GlobalObject
 global
 MediaControlKey
 aKey
+double
+aSeekTime
 )
 ;
 static
@@ -531,6 +533,8 @@ GenerateTestMediaControlKey
 (
 MediaControlKey
 aKey
+double
+aSeekValue
 )
 ;
 MediaMetadataBase
