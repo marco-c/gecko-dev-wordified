@@ -92,7 +92,7 @@ newFileURI
 do_get_file
 (
 "
-test_blocklistchange
+test_softblocked
 .
 js
 "
