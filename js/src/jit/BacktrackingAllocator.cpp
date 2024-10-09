@@ -11355,6 +11355,7 @@ false
 *
 /
 )
+const
 {
 assertRangesSorted
 (
@@ -12038,6 +12039,7 @@ VirtualRegister
 assertRangesSorted
 (
 )
+const
 {
 MOZ_ASSERT
 (

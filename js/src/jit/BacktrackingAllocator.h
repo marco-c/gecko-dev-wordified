@@ -3584,6 +3584,7 @@ void
 assertRangesSorted
 (
 )
+const
 ;
 #
 else
@@ -3591,15 +3592,18 @@ void
 assertRangesSorted
 (
 )
+const
 {
 }
 #
 endif
+const
 RangeVector
 &
 sortedRanges
 (
 )
+const
 {
 assertRangesSorted
 (
@@ -3819,6 +3823,7 @@ LiveRange
 firstRange
 (
 )
+const
 {
 assertRangesSorted
 (
@@ -3837,6 +3842,7 @@ LiveRange
 lastRange
 (
 )
+const
 {
 assertRangesSorted
 (
@@ -3860,6 +3866,7 @@ preferRegister
 =
 false
 )
+const
 ;
 void
 sortRanges
@@ -3933,6 +3940,7 @@ LiveBundle
 firstBundle
 (
 )
+const
 {
 return
 firstRange
@@ -4025,6 +4033,7 @@ class
 MOZ_RAII
 RangeIterator
 {
+const
 RangeVector
 &
 ranges_
@@ -4032,6 +4041,7 @@ ranges_
 #
 ifdef
 DEBUG
+const
 VirtualRegister
 &
 reg_
@@ -4083,6 +4093,7 @@ public
 explicit
 RangeIterator
 (
+const
 VirtualRegister
 &
 reg
@@ -4117,6 +4128,7 @@ length
 }
 RangeIterator
 (
+const
 VirtualRegister
 &
 reg
