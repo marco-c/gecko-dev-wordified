@@ -1193,10 +1193,10 @@ Day
 *
 *
 *
-CalendarFields
+CalendarFieldDescriptors
 (
 calendar
-fieldNames
+type
 )
 *
 /
@@ -1207,7 +1207,7 @@ EnumSet
 <
 TemporalField
 >
-CalendarFields
+CalendarFieldDescriptors
 (
 const
 CalendarValue
@@ -1220,7 +1220,7 @@ EnumSet
 <
 CalendarField
 >
-fieldNames
+type
 )
 ;
 /
