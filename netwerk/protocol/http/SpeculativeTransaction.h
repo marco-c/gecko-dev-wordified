@@ -206,10 +206,6 @@ aHTTPSSVCRecord
 nsISVCBRecord
 *
 aHighestPriorityRecord
-const
-nsACString
-&
-aCname
 )
 override
 ;
@@ -363,6 +359,8 @@ virtual
 SpeculativeTransaction
 (
 )
+=
+default
 ;
 private
 :
@@ -406,12 +404,6 @@ bool
 )
 >
 mCloseCallback
-;
-RefPtr
-<
-HTTPSRecordResolver
->
-mResolver
 ;
 }
 ;
