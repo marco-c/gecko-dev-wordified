@@ -818,8 +818,8 @@ function
 clearClient
 (
 principal
-persistence
 client
+persistence
 callback
 )
 {
@@ -832,11 +832,11 @@ _getQuotaManager
 (
 )
 .
-clearStoragesForPrincipal
+clearStoragesForClient
 (
 principal
-persistence
 client
+persistence
 )
 ;
 request

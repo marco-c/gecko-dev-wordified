@@ -415,7 +415,7 @@ page
 .
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -1134,14 +1134,14 @@ Services
 .
 qms
 .
-clearStoragesForPrincipal
+clearStoragesForClient
 (
 principal
 "
-default
-"
-"
 ls
+"
+"
+default
 "
 )
 ;

@@ -108,14 +108,14 @@ Services
 .
 qms
 .
-clearStoragesForPrincipal
+clearStoragesForClient
 (
 principal
 "
-default
-"
-"
 ls
+"
+"
+default
 "
 )
 ;
@@ -719,7 +719,7 @@ processes
 .
 requestLongerTimeout
 (
-4
+6
 )
 ;
 /
