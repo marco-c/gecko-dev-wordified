@@ -412,6 +412,16 @@ enabled
 "
 true
 ]
+[
+"
+dom
+.
+fs
+.
+testing
+"
+true
+]
 ]
 ;
 await
