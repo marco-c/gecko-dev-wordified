@@ -4462,27 +4462,6 @@ png
             
 return
         
-if
-'
-;
-'
-in
-expected
-:
-            
-print
-(
-f
-'
-Found
-semicolon
-in
-{
-name
-}
-'
-)
-        
 expected
 =
 re
