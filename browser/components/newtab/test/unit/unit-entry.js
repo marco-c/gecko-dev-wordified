@@ -1946,6 +1946,14 @@ notifyObservers
 telemetry
 :
 {
+setEventRecordingEnabled
+:
+(
+)
+=
+>
+{
+}
 recordEvent
 :
 _eventDetails

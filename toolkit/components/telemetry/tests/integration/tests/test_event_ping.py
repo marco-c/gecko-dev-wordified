@@ -101,6 +101,12 @@ events
     
 browser
 .
+enable_search_events
+(
+)
+    
+browser
+.
 wait_for_search_service_init
 (
 )
