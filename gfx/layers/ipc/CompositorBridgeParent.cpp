@@ -2947,6 +2947,12 @@ mWrBridge
 FlushRendering
 (
 aReasons
+/
+*
+aBlocking
+*
+/
+true
 )
 ;
 return
@@ -3017,6 +3023,11 @@ mWrBridge
 FlushRendering
 (
 aReasons
+/
+*
+aBlocking
+*
+/
 false
 )
 ;
@@ -4575,6 +4586,12 @@ RenderReasons
 :
 :
 TESTING
+/
+*
+aBlocking
+*
+/
+true
 )
 ;
 return
