@@ -19314,6 +19314,8 @@ callback
 (
 )
 idle_timeout
+/
+2
 )
 ;
 }
@@ -31353,7 +31355,8 @@ control
 and
 qpack
 streams
-anda
+and
+a
 SETTINGS
 frame
 are
@@ -35910,6 +35913,8 @@ callback
 (
 )
 idle_timeout
+/
+2
 )
 ;
 }

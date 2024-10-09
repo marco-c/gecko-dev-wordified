@@ -549,7 +549,7 @@ self
 read
 a
 new
-instraction
+instruction
 "
 )
 ;

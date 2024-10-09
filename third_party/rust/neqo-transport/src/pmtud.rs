@@ -947,15 +947,6 @@ ping
 ;
 stats
 .
-frame_tx
-.
-all
-+
-=
-1
-;
-stats
-.
 pmtud_tx
 +
 =
