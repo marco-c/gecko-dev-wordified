@@ -3343,6 +3343,18 @@ contents
 of
 directory
             
+#
+Sort
+the
+list
+to
+ensure
+we
+preserve
+01_
+02_
+ordering
+            
 if
 os
 .
@@ -3379,8 +3391,12 @@ paths
 extend
 (
                     
+sorted
+(
+                        
 iglob_hidden
 (
+                            
 mozpath
 .
 join
@@ -3394,6 +3410,9 @@ pattern_full_path
 recursive
 =
 True
+                        
+)
+                    
 )
                 
 )
@@ -3414,6 +3433,27 @@ without
 altering
 it
             
+#
+Sort
+the
+list
+to
+ensure
+we
+preserve
+01_
+02_
+ordering
+for
+e
+.
+g
+.
+*
+.
+patch
+globs
+            
 else
 :
                 
@@ -3421,12 +3461,15 @@ paths
 .
 extend
 (
+sorted
+(
 iglob_hidden
 (
 pattern_full_path
 recursive
 =
 True
+)
 )
 )
         
@@ -3449,34 +3492,10 @@ truncating
 directories
 elsewhere
         
-#
-Sort
-the
-final
-list
-to
-ensure
-we
-preserve
-01_
-02_
-ordering
-for
-e
-.
-g
-.
-*
-.
-patch
-globs
-        
 final_paths
 =
-sorted
-(
-            
 [
+            
 mozpath
 .
 normsep
@@ -3497,9 +3516,8 @@ isdir
 (
 path
 )
-]
         
-)
+]
         
 return
 final_paths
