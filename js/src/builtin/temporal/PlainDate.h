@@ -234,9 +234,6 @@ js
 struct
 ClassSpec
 ;
-class
-PlainObject
-;
 }
 /
 /

@@ -218,9 +218,6 @@ js
 struct
 ClassSpec
 ;
-class
-PlainObject
-;
 }
 /
 /
@@ -687,6 +684,9 @@ DifferenceSettings
 ;
 class
 Increment
+;
+class
+TemporalFields
 ;
 enum
 class
@@ -1204,8 +1204,7 @@ JS
 :
 Handle
 <
-PlainObject
-*
+TemporalFields
 >
 fields
 TemporalOverflow
