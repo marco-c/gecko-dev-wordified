@@ -2778,13 +2778,9 @@ String
 ]
 args
 int
-prefsFd
-int
-prefMapFd
-int
-ipcFd
-int
-crashFd
+[
+]
+fds
 boolean
 xpcshell
 String
