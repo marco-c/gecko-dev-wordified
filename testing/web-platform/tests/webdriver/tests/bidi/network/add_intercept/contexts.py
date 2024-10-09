@@ -95,7 +95,7 @@ url
     
 inline
     
-top_context
+new_tab
     
 add_intercept
     
@@ -132,7 +132,7 @@ RESPONSE_COMPLETED_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -197,7 +197,7 @@ url
 test_url
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -231,7 +231,7 @@ get_tree
 (
 root
 =
-top_context
+new_tab
 [
 "
 context
@@ -316,7 +316,7 @@ text_url
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -414,7 +414,7 @@ bidi_session
     
 url
     
-top_context
+new_tab
     
 add_intercept
     
@@ -437,7 +437,7 @@ network
 events
 only
 in
-top_context
+new_tab
     
 await
 setup_network_test
@@ -458,7 +458,7 @@ RESPONSE_COMPLETED_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -573,7 +573,7 @@ text_url
 #
 Request
 to
-top_context
+new_tab
 should
 be
 blocked
@@ -605,7 +605,7 @@ fetch
 text_url
 context
 =
-top_context
+new_tab
 )
 )
     
@@ -679,7 +679,7 @@ bidi_session
     
 url
     
-top_context
+new_tab
     
 add_intercept
     
@@ -782,7 +782,7 @@ RESPONSE_COMPLETED_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -803,7 +803,7 @@ Add
 an
 intercept
 to
-top_context
+new_tab
 only
 .
     
@@ -848,7 +848,7 @@ text_url
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -862,7 +862,7 @@ context
 Request
 to
 the
-top_context
+new_tab
 should
 be
 blocked
@@ -884,7 +884,7 @@ fetch
 text_url
 context
 =
-top_context
+new_tab
 )
 )
     
@@ -967,7 +967,7 @@ bidi_session
     
 url
     
-top_context
+new_tab
     
 add_intercept
     
@@ -1052,7 +1052,7 @@ BEFORE_REQUEST_SENT_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -1119,7 +1119,7 @@ text_url
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -1139,7 +1139,7 @@ context
 Request
 on
 the
-top_context
+new_tab
 should
 be
 blocked
@@ -1161,7 +1161,7 @@ fetch
 text_url
 context
 =
-top_context
+new_tab
 )
 )
     
@@ -1254,7 +1254,7 @@ bidi_session
     
 url
     
-top_context
+new_tab
     
 add_intercept
     
@@ -1339,7 +1339,7 @@ BEFORE_REQUEST_SENT_EVENT
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -1360,7 +1360,7 @@ Add
 an
 intercept
 for
-top_context
+new_tab
 and
 a
 global
@@ -1410,7 +1410,7 @@ text_url
 contexts
 =
 [
-top_context
+new_tab
 [
 "
 context
@@ -1459,7 +1459,7 @@ text_url
 Request
 on
 the
-top_context
+new_tab
 should
 be
 blocked
@@ -1485,7 +1485,7 @@ fetch
 text_url
 context
 =
-top_context
+new_tab
 )
 )
     
