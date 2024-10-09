@@ -569,7 +569,7 @@ ASSERT_TRUE
 listener
 -
 >
-IsResultEqualTo
+IsKeyEqualTo
 (
 MediaControlKey
 :
@@ -592,7 +592,7 @@ ASSERT_TRUE
 listener
 -
 >
-IsResultEqualTo
+IsKeyEqualTo
 (
 MediaControlKey
 :
@@ -615,7 +615,7 @@ ASSERT_TRUE
 listener
 -
 >
-IsResultEqualTo
+IsKeyEqualTo
 (
 MediaControlKey
 :
