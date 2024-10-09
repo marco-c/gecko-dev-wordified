@@ -2046,6 +2046,12 @@ ImageBitmapFormat
 :
 RGBA32
 :
+return
+Some
+(
+kCVPixelFormatType_32RGBA
+)
+;
 case
 dom
 :
