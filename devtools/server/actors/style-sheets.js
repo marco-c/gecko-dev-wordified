@@ -204,7 +204,7 @@ styleSheetsSpec
 ;
 this
 .
-parentActor
+targetActor
 =
 targetActor
 ;
@@ -234,7 +234,7 @@ window
 return
 this
 .
-parentActor
+targetActor
 .
 window
 ;
@@ -293,7 +293,7 @@ win
 of
 this
 .
-parentActor
+targetActor
 .
 windows
 )
@@ -455,7 +455,7 @@ _getStyleSheetsManager
 return
 this
 .
-parentActor
+targetActor
 .
 getStyleSheetsManager
 (
