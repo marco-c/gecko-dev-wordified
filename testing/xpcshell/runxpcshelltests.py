@@ -12748,26 +12748,20 @@ ljust
             
 if
 os_version
-=
-=
-"
-14
 .
-40
+split
+(
 "
-and
-self
 .
-mozInfo
+"
+)
 [
-"
-arch
-"
+0
 ]
 =
 =
 "
-aarch64
+14
 "
 :
                 
