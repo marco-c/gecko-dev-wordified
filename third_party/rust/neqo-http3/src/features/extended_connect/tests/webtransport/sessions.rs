@@ -269,9 +269,9 @@ Status
 (
 404
 )
-&
 Some
 (
+&
 headers
 )
 )
@@ -402,7 +402,6 @@ code
 (
 )
 )
-&
 None
 )
 ;
@@ -479,7 +478,6 @@ new
 (
 )
 }
-&
 None
 )
 ;
@@ -561,7 +559,6 @@ code
 (
 )
 )
-&
 None
 )
 ;
@@ -643,7 +640,6 @@ code
 (
 )
 )
-&
 None
 )
 ;
@@ -1086,9 +1082,9 @@ Status
 (
 302
 )
-&
 Some
 (
+&
 headers
 )
 )
@@ -1601,7 +1597,6 @@ to_string
 (
 )
 }
-&
 None
 )
 ;
@@ -1872,7 +1867,6 @@ code
 ]
 None
 false
-&
 None
 )
 ;
@@ -1903,9 +1897,9 @@ code
 (
 )
 )
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -2094,7 +2088,6 @@ code
 (
 )
 )
-&
 None
 )
 ;
@@ -2721,9 +2714,9 @@ code
 )
 )
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -2762,7 +2755,6 @@ None
 [
 ]
 None
-&
 None
 )
 ;

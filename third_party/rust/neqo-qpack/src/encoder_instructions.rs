@@ -253,14 +253,10 @@ u64
 NoInstruction
 }
 impl
-<
-'
-a
->
 EncoderInstruction
 <
 '
-a
+_
 >
 {
 pub

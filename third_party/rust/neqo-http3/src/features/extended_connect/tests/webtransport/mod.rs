@@ -1496,9 +1496,9 @@ expected_reason
 SessionCloseReason
 expected_headers
 :
-&
 Option
 <
+&
 Vec
 <
 Header
@@ -1543,6 +1543,10 @@ expected_reason
 &
 &
 headers
+.
+as_ref
+(
+)
 =
 =
 expected_headers
@@ -1568,9 +1572,9 @@ expected_reason
 SessionCloseReason
 expected_headers
 :
-&
 Option
 <
+&
 Vec
 <
 Header
@@ -2393,9 +2397,9 @@ expected_local
 bool
 expected_session_close
 :
-&
 Option
 <
+&
 (
 StreamId
 SessionCloseReason
@@ -3176,9 +3180,9 @@ u64
 >
 expected_session_close
 :
-&
 Option
 <
+&
 (
 StreamId
 SessionCloseReason

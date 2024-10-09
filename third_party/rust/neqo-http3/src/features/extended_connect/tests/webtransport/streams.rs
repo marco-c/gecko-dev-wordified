@@ -2877,9 +2877,9 @@ code
 (
 )
 )
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -2939,7 +2939,6 @@ code
 )
 )
 false
-&
 None
 )
 ;
@@ -3067,9 +3066,9 @@ code
 [
 ]
 None
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -3118,7 +3117,6 @@ code
 )
 )
 false
-&
 None
 )
 ;
@@ -3242,9 +3240,9 @@ None
 [
 ]
 None
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -3282,7 +3280,6 @@ None
 ]
 None
 false
-&
 None
 )
 ;
@@ -3401,9 +3398,9 @@ None
 [
 ]
 None
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -3452,7 +3449,6 @@ code
 )
 )
 false
-&
 None
 )
 ;
@@ -3584,9 +3580,9 @@ code
 [
 ]
 None
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -3624,7 +3620,6 @@ None
 ]
 None
 false
-&
 None
 )
 ;
@@ -3765,9 +3760,9 @@ code
 (
 )
 )
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -3835,7 +3830,6 @@ code
 )
 )
 false
-&
 None
 )
 ;
@@ -3961,9 +3955,9 @@ code
 (
 )
 )
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -4016,7 +4010,6 @@ code
 ]
 None
 false
-&
 None
 )
 ;
@@ -4135,9 +4128,9 @@ None
 [
 ]
 None
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -4175,7 +4168,6 @@ None
 ]
 None
 false
-&
 None
 )
 ;
@@ -4298,9 +4290,9 @@ code
 (
 )
 )
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -4338,7 +4330,6 @@ None
 ]
 None
 false
-&
 None
 )
 ;
@@ -4443,9 +4434,9 @@ None
 [
 ]
 None
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -4498,7 +4489,6 @@ code
 ]
 None
 false
-&
 None
 )
 ;
@@ -4636,9 +4626,9 @@ None
 [
 ]
 None
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -4676,7 +4666,6 @@ None
 ]
 None
 false
-&
 None
 )
 ;
@@ -4789,9 +4778,9 @@ None
 [
 ]
 None
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -4859,7 +4848,6 @@ code
 )
 )
 false
-&
 None
 )
 ;
@@ -5045,9 +5033,9 @@ code
 (
 )
 )
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -5109,7 +5097,6 @@ code
 )
 )
 false
-&
 None
 )
 ;
@@ -5431,9 +5418,9 @@ code
 )
 )
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -5492,7 +5479,6 @@ code
 (
 )
 )
-&
 None
 )
 ;
@@ -5618,9 +5604,9 @@ code
 )
 )
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -5668,7 +5654,6 @@ code
 [
 ]
 None
-&
 None
 )
 ;
@@ -5792,9 +5777,9 @@ None
 ]
 None
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -5831,7 +5816,6 @@ None
 [
 ]
 None
-&
 None
 )
 ;
@@ -5959,9 +5943,9 @@ code
 )
 )
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -5998,7 +5982,6 @@ None
 [
 ]
 None
-&
 None
 )
 ;
@@ -6137,9 +6120,9 @@ code
 )
 )
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -6206,7 +6189,6 @@ code
 (
 )
 )
-&
 None
 )
 ;
@@ -6330,9 +6312,9 @@ code
 ]
 None
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -6384,7 +6366,6 @@ code
 (
 )
 )
-&
 None
 )
 ;
@@ -6513,9 +6494,9 @@ None
 ]
 None
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -6552,7 +6533,6 @@ None
 [
 ]
 None
-&
 None
 )
 ;
@@ -6690,9 +6670,9 @@ code
 ]
 None
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -6729,7 +6709,6 @@ None
 [
 ]
 None
-&
 None
 )
 ;
@@ -6877,9 +6856,9 @@ None
 ]
 None
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -6916,7 +6895,6 @@ None
 [
 ]
 None
-&
 None
 )
 ;
@@ -7057,9 +7035,9 @@ code
 )
 )
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -7096,7 +7074,6 @@ None
 [
 ]
 None
-&
 None
 )
 ;
@@ -7280,9 +7257,9 @@ code
 )
 )
 false
-&
 Some
 (
+&
 (
 wt_session
 .
@@ -7343,7 +7320,6 @@ code
 (
 )
 )
-&
 None
 )
 ;
@@ -7483,7 +7459,6 @@ code
 ]
 None
 false
-&
 None
 )
 ;
@@ -7520,9 +7495,9 @@ code
 (
 )
 )
-&
 Some
 (
+&
 (
 wt_session
 .

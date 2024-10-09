@@ -2046,9 +2046,9 @@ url
 Url
 output_dir
 :
-&
 Option
 <
+&
 PathBuf
 >
 all_paths
@@ -2074,7 +2074,6 @@ if
 let
 Some
 (
-ref
 dir
 )
 =

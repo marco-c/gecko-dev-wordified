@@ -9961,16 +9961,12 @@ pos
 }
 }
 impl
-<
-'
-a
->
 Iterator
 for
 OrderGroupIter
 <
 '
-a
+_
 >
 {
 type

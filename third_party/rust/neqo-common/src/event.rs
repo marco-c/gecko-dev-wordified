@@ -288,8 +288,6 @@ PhantomData
 }
 impl
 <
-'
-a
 P
 E
 >
@@ -298,7 +296,7 @@ for
 Iter
 <
 '
-a
+_
 P
 E
 >
