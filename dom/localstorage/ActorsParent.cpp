@@ -42508,6 +42508,14 @@ mForPreload
 LSRequestPreloadDatastoreResponse
 preloadDatastoreResponse
 ;
+preloadDatastoreResponse
+.
+invalidated
+(
+)
+=
+mInvalidated
+;
 aResponse
 =
 preloadDatastoreResponse
