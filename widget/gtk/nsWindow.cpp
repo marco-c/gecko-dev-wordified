@@ -1193,6 +1193,7 @@ state
 ;
 }
 ;
+constexpr
 gint
 GDK_TOUCHPAD_GESTURE_MASK
 =
@@ -1214,7 +1215,7 @@ GdkEventType
 ;
 #
 endif
-const
+constexpr
 gint
 kEvents
 =
