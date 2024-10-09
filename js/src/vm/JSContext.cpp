@@ -6284,11 +6284,6 @@ hadUncatchableException_
 this
 false
 )
-shouldAssertExceptionOnFalseReturn_
-(
-this
-false
-)
 #
 endif
 reportGranularity
