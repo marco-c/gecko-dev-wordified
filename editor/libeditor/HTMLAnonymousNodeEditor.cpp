@@ -195,6 +195,13 @@ h
 #
 include
 "
+nsFocusManager
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -2702,8 +2709,9 @@ return
 NS_OK
 ;
 }
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+editingHost
 editingHost
 =
 =
