@@ -2111,7 +2111,6 @@ widget
 Create
 (
 nullptr
-0
 LayoutDeviceIntRect
 (
 0

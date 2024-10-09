@@ -7093,7 +7093,6 @@ baseWindow
 >
 InitWindow
 (
-nullptr
 view
 -
 >

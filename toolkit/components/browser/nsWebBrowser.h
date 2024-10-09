@@ -705,9 +705,6 @@ mShouldEnableHistory
 bool
 mWillChangeProcess
 ;
-nativeWindow
-mParentNativeWindow
-;
 nsIWebProgressListener
 *
 mProgressListener

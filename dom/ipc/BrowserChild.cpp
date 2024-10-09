@@ -2565,11 +2565,10 @@ mPuppetWidget
 InfallibleCreate
 (
 nullptr
-nullptr
 /
 /
-no
-parents
+No
+parent
 LayoutDeviceIntRect
 (
 0
