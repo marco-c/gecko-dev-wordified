@@ -274,15 +274,6 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Tab
-"
-)
-;
-EventUtils
-.
-synthesizeKey
-(
-"
 KEY_Enter
 "
 )
