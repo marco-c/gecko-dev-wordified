@@ -135,6 +135,10 @@ import
 fromNow
 from
 taskgraph
+import
+MAX_DEPENDENCIES
+from
+taskgraph
 .
 transforms
 .
@@ -198,7 +202,6 @@ from
 gecko_taskgraph
 import
 GECKO
-MAX_DEPENDENCIES
 from
 gecko_taskgraph
 .
