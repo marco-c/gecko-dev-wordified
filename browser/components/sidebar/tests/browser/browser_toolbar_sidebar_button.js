@@ -587,7 +587,7 @@ expanded
 "
 sidebar
 -
-toolbar
+widget
 -
 collapse
 -
@@ -597,7 +597,7 @@ sidebar
 "
 sidebar
 -
-toolbar
+widget
 -
 expand
 -
@@ -1116,7 +1116,7 @@ hidden
 "
 sidebar
 -
-toolbar
+widget
 -
 show
 -
@@ -1126,7 +1126,7 @@ sidebar
 "
 sidebar
 -
-toolbar
+widget
 -
 hide
 -
