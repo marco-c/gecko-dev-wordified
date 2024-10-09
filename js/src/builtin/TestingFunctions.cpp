@@ -31077,7 +31077,10 @@ n
 )
 ;
 }
-JS_ClearPendingException
+JS
+:
+:
+ReportUncatchableException
 (
 cx
 )

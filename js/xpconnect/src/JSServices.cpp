@@ -947,6 +947,14 @@ cx
 )
 )
 {
+JS
+:
+:
+ReportUncatchableException
+(
+cx
+)
+;
 return
 false
 ;
