@@ -2047,6 +2047,11 @@ state
 const
 isSourceActorWithSourceMapProp
 =
+selectedLocation
+?
+.
+sourceActor
+?
 isSourceActorWithSourceMap
 (
 state
@@ -2057,6 +2062,8 @@ sourceActor
 .
 id
 )
+:
+false
 ;
 const
 sourceMapError
