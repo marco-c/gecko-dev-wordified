@@ -632,16 +632,6 @@ given
 object
 *
 -
-createEnvironmentActor
-*
-Creates
-and
-return
-an
-environment
-actor
-*
--
 getGripDepth
 *
 An
@@ -687,7 +677,6 @@ thread
 createValueGrip
 :
 createValueGripHook
-createEnvironmentActor
 getGripDepth
 incrementGripDepth
 decrementGripDepth
@@ -743,7 +732,6 @@ hooks
 createValueGrip
 :
 createValueGripHook
-createEnvironmentActor
 getGripDepth
 incrementGripDepth
 decrementGripDepth
