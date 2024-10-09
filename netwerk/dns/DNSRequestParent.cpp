@@ -1052,6 +1052,17 @@ result
 mTTL
 )
 ;
+rec
+-
+>
+IsTRR
+(
+&
+result
+.
+mIsTRR
+)
+;
 }
 SendLookupCompletedHelper
 (
