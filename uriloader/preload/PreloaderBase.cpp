@@ -1792,6 +1792,12 @@ ReportUsageTelemetry
 if
 (
 mUsageTelementryReported
+|
+|
+!
+XRE_IsContentProcess
+(
+)
 )
 {
 return
