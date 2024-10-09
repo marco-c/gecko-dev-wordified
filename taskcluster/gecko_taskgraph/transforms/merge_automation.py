@@ -148,6 +148,10 @@ fields
 [
         
 "
+routes
+"
+        
+"
 worker
 .
 push
