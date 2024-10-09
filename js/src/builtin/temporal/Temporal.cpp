@@ -10219,7 +10219,6 @@ auto
 protoKey
 :
 {
-JSProto_Calendar
 JSProto_Duration
 JSProto_Instant
 JSProto_PlainDate
@@ -10227,7 +10226,6 @@ JSProto_PlainDateTime
 JSProto_PlainMonthDay
 JSProto_PlainTime
 JSProto_PlainYearMonth
-JSProto_TimeZone
 JSProto_ZonedDateTime
 }
 )
