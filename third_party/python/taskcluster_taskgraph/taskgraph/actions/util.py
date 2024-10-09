@@ -425,10 +425,6 @@ status_code
 =
 404
 :
-#
-type
-:
-ignore
                     
 raise
                 
@@ -611,10 +607,6 @@ status_code
 =
 404
 :
-#
-type
-:
-ignore
                     
 raise
                 
@@ -1337,11 +1329,8 @@ target_graph
 .
 nodes
 }
+        
 target_graph
-#
-type
-:
-ignore
     
 )
     

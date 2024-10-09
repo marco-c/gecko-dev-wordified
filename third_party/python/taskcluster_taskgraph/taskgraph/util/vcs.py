@@ -66,7 +66,6 @@ abc
 import
 ABC
 abstractmethod
-abstractproperty
 from
 shutil
 import
@@ -342,16 +341,23 @@ type
 ignore
                 
 cmd
+#
+type
+:
+ignore
+                
 cwd
 =
 self
 .
 path
+                
 env
 =
 self
 .
 _env
+                
 encoding
 =
 "
@@ -359,13 +365,10 @@ utf
 -
 8
 "
+                
 *
 *
 kwargs
-#
-type
-:
-ignore
             
 )
         
@@ -391,7 +394,9 @@ return
             
 raise
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 tool
@@ -402,10 +407,6 @@ self
 >
 str
 :
-#
-type
-:
-ignore
         
 "
 "
@@ -428,7 +429,9 @@ git
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 head_rev
@@ -439,10 +442,6 @@ self
 >
 str
 :
-#
-type
-:
-ignore
         
 "
 "
@@ -456,7 +455,9 @@ revision
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 base_rev
@@ -483,7 +484,9 @@ on
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 branch
@@ -508,7 +511,9 @@ active
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 all_remote_names
@@ -531,13 +536,18 @@ repositories
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 default_remote_name
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -580,7 +590,9 @@ instance
 "
 "
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 remote_name
@@ -616,6 +628,31 @@ self
 .
 all_remote_names
         
+#
+in
+case
+all_remote_names
+raised
+a
+RuntimeError
+        
+if
+remotes
+is
+None
+:
+            
+raise
+RuntimeError
+(
+"
+No
+valid
+remotes
+found
+"
+)
+        
 if
 len
 (
@@ -625,20 +662,12 @@ remotes
 =
 1
 :
-#
-type
-:
-ignore
             
 return
 remotes
 [
 0
 ]
-#
-type
-:
-ignore
         
 if
 self
@@ -647,10 +676,6 @@ default_remote_name
 in
 remotes
 :
-#
-type
-:
-ignore
             
 return
 self
@@ -663,10 +688,6 @@ remotes
 [
 0
 ]
-#
-type
-:
-ignore
         
 logger
 .
@@ -744,7 +765,9 @@ remote_instructions
 return
 first_remote
     
-abstractproperty
+property
+    
+abstractmethod
     
 def
 default_branch
@@ -1308,25 +1331,39 @@ Repository
 )
 :
     
+property
+    
+def
 tool
-=
+(
+self
+)
+-
+>
+str
+:
+        
+return
 "
 hg
 "
-#
-type
-:
-ignore
     
+property
+    
+def
 default_remote_name
-=
+(
+self
+)
+-
+>
+str
+:
+        
+return
 "
 default
 "
-#
-type
-:
-ignore
     
 def
 __init__
@@ -2490,25 +2527,39 @@ Repository
 )
 :
     
+property
+    
+def
 tool
-=
+(
+self
+)
+-
+>
+str
+:
+        
+return
 "
 git
 "
-#
-type
-:
-ignore
     
+property
+    
+def
 default_remote_name
-=
+(
+self
+)
+-
+>
+str
+:
+        
+return
 "
 origin
 "
-#
-type
-:
-ignore
     
 _LS_REMOTE_PATTERN
 =

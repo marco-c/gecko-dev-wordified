@@ -60,7 +60,7 @@ dataclass
 from
 typing
 import
-List
+Dict
 from
 .
 graph
@@ -152,8 +152,9 @@ dependents
     
 tasks
 :
-List
+Dict
 [
+str
 Task
 ]
     
