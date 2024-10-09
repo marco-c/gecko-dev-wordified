@@ -1020,16 +1020,6 @@ nonRemovables
 gBrowser
 .
 tabContainer
-document
-.
-getElementById
-(
-"
-alltabs
--
-button
-"
-)
 ]
 ;
 for
