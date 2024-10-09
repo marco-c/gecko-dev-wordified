@@ -134,6 +134,11 @@ NotifyDatabaseWorkStarted
 (
 )
 ;
+void
+NotifyRequestFinalizationStarted
+(
+)
+;
 }
 /
 /
