@@ -2417,7 +2417,7 @@ return
 PCompositorBridgeChild
 :
 :
-SendFlushRendering
+SendFlushRenderingAsync
 (
 aReasons
 )
