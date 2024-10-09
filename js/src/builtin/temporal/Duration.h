@@ -1651,9 +1651,9 @@ RoundRelativeDuration
 duration
 destEpochNs
 dateTime
-calendarRec
+calendar
+timeZone
 *
-timeZoneRec
 largestUnit
 increment
 smallestUnit
