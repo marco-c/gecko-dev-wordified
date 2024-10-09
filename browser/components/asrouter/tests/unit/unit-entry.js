@@ -2108,14 +2108,6 @@ notifyObservers
 telemetry
 :
 {
-setEventRecordingEnabled
-:
-(
-)
-=
->
-{
-}
 scalarSet
 :
 (

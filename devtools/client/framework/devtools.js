@@ -735,15 +735,6 @@ Telemetry
 (
 )
 ;
-this
-.
-_telemetry
-.
-setEventRecordingEnabled
-(
-true
-)
-;
 /
 /
 List
