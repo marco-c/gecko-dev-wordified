@@ -407,7 +407,11 @@ load_mlbf_record_as_blob
 )
 ;
 const
+{
+mlbf
+:
 result
+}
 =
 await
 ExtensionBlocklistMLBF
@@ -498,7 +502,11 @@ blocked
 )
 ;
 const
+{
+mlbf
+:
 result2
+}
 =
 await
 ExtensionBlocklistMLBF
