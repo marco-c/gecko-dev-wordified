@@ -2184,15 +2184,13 @@ actor
 new
 ObjectActor
 (
-object
-{
-thread
-:
 this
 .
 parentActor
 .
 threadActor
+object
+{
 getGripDepth
 :
 (
@@ -2236,9 +2234,6 @@ createValueGrip
 v
 )
 }
-this
-.
-conn
 )
 ;
 pool

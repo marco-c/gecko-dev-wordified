@@ -10869,11 +10869,9 @@ actor
 new
 PauseScopedObjectActor
 (
+this
 value
 {
-thread
-:
-this
 getGripDepth
 :
 (
@@ -10934,9 +10932,6 @@ this
 .
 threadLifetimePool
 }
-this
-.
-conn
 )
 ;
 pool
