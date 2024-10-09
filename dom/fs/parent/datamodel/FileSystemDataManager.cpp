@@ -173,6 +173,13 @@ h
 #
 include
 "
+NotifyUtils
+.
+h
+"
+#
+include
+"
 ResultStatement
 .
 h
@@ -3548,6 +3555,10 @@ __func__
 )
 ;
 }
+NotifyDatabaseWorkStarted
+(
+)
+;
 return
 BoolPromise
 :
