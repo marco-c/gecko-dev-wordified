@@ -2231,10 +2231,6 @@ add
 behavior
 )
         
-start
-=
-0
-        
 errored
 =
 False
@@ -2274,6 +2270,10 @@ time
 )
 -
 start
+#
+type
+:
+ignore
             
 if
 errored
@@ -5267,10 +5267,6 @@ havewantedrev
 =
 False
     
-checkoutrevision
-=
-None
-    
 if
 revision
 :
@@ -5854,10 +5850,6 @@ sparse
 matcher
 .
         
-old_sparse_fn
-=
-None
-        
 try
 :
             
@@ -5985,6 +5977,10 @@ is
 not
 None
 :
+#
+type
+:
+ignore
                 
 repo
 .
@@ -5993,6 +5989,10 @@ dirstate
 _sparsematchfn
 =
 old_sparse_fn
+#
+type
+:
+ignore
     
 #
 Update
@@ -6094,6 +6094,10 @@ checkoutrevision
 data
 (
 )
+#
+type
+:
+ignore
         
 except
 error
@@ -6130,6 +6134,10 @@ s
 sparse_profile
 checkoutrevision
 )
+#
+type
+:
+ignore
             
 )
         
@@ -6568,6 +6576,10 @@ clean
 True
 )
 :
+#
+type
+:
+ignore
             
 raise
 error
@@ -6597,6 +6609,10 @@ n
 %
 checkoutrevision
 )
+#
+type
+:
+ignore
     
 return
 None

@@ -97,6 +97,10 @@ new
 jobs
 "
     
+generic
+=
+True
+    
 symbol
 =
 "

@@ -102,16 +102,6 @@ tasks
 .
 "
     
-permission
-=
-"
-rebuild
--
-cached
--
-tasks
-"
-    
 order
 =
 1000
@@ -165,6 +155,10 @@ tasks
 items
 (
 )
+#
+type
+:
+ignore
         
 if
 task

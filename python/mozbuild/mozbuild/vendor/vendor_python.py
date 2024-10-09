@@ -444,19 +444,15 @@ third_party
 python
 "
         
-requirements_file_name
+requirements_txt
 =
+vendor_dir
+/
 "
 requirements
 .
 txt
 "
-        
-requirements_path
-=
-vendor_dir
-/
-requirements_file_name
         
 uv_lock_file
 =
@@ -799,7 +795,7 @@ txt
 o
 "
                 
-requirements_file_name
+requirements_txt
                 
 "
 -
@@ -920,7 +916,7 @@ versions
         
 remove_environment_markers_from_requirements_txt
 (
-requirements_path
+requirements_txt
 )
         
 with
@@ -978,7 +974,7 @@ r
                     
 str
 (
-requirements_path
+requirements_txt
 )
                     
 "

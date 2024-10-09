@@ -109,6 +109,10 @@ cancel
 all
 "
     
+generic
+=
+True
+    
 symbol
 =
 "
@@ -215,6 +219,10 @@ status_code
 =
 409
 :
+#
+type
+:
+ignore
                 
 #
 A

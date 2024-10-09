@@ -1863,15 +1863,16 @@ kind_graph
 =
 Graph
 (
-frozenset
+set
 (
 kinds
 )
-frozenset
-(
 edges
 )
-)
+#
+type
+:
+ignore
         
 if
 target_kinds
@@ -2067,15 +2068,19 @@ TaskGraph
 all_tasks
 Graph
 (
-frozenset
+set
 (
 all_tasks
 )
-frozenset
+set
 (
 )
 )
 )
+#
+type
+:
+ignore
         
 yield
 self
@@ -2186,25 +2191,21 @@ full_task_graph
 =
 TaskGraph
 (
-            
 all_tasks
 Graph
-(
-frozenset
 (
 full_task_set
 .
 graph
 .
 nodes
-)
-frozenset
-(
 edges
 )
 )
-        
-)
+#
+type
+:
+ignore
         
 logger
 .
@@ -2277,10 +2278,9 @@ dict
 (
 all_tasks
 )
-            
 Graph
 (
-frozenset
+set
 (
 all_tasks
 .
@@ -2288,10 +2288,14 @@ keys
 (
 )
 )
-frozenset
+set
 (
 )
 )
+#
+type
+:
+ignore
         
 )
         
@@ -2341,17 +2345,17 @@ l
 in
 target_tasks
 }
-                
 Graph
 (
-frozenset
-(
 target_tasks
-)
-frozenset
+set
 (
 )
 )
+#
+type
+:
+ignore
             
 )
             
@@ -2580,7 +2584,6 @@ target_graph
 .
 nodes
 }
-            
 target_graph
 #
 type
