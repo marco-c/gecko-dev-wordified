@@ -336,17 +336,6 @@ builtin
 /
 temporal
 /
-Calendar
-.
-h
-"
-#
-include
-"
-builtin
-/
-temporal
-/
 Duration
 .
 h
@@ -1280,9 +1269,6 @@ ifdef
 JS_HAS_TEMPORAL_API
 case
 JSProto_Temporal
-:
-case
-JSProto_Calendar
 :
 case
 JSProto_Duration
