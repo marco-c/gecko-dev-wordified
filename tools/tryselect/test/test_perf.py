@@ -10963,6 +10963,13 @@ builds
 "
 :
 True
+"
+disable
+-
+pgo
+"
+:
+True
 }
             
 [
@@ -11074,6 +11081,13 @@ use
 artifact
 -
 builds
+"
+:
+True
+"
+disable
+-
+pgo
 "
 :
 True
