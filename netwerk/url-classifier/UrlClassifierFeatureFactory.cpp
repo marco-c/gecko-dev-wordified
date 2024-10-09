@@ -1606,13 +1606,13 @@ char
 *
 mConsoleMessage
 ;
-nsLiteralCString
+nsCString
 mConsoleCategory
 ;
 }
 ;
 static
-constexpr
+const
 BlockingErrorCode
 sBlockingErrorCodes
 [

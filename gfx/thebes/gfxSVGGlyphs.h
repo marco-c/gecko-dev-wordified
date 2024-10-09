@@ -1082,7 +1082,7 @@ SVGContextPaint
 private
 :
 static
-constexpr
+const
 mozilla
 :
 :
