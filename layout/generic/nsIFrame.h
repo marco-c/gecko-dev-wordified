@@ -40473,7 +40473,6 @@ AutoWeakFrame
 public
 :
 explicit
-constexpr
 AutoWeakFrame
 (
 )
