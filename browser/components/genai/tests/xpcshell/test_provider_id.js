@@ -284,12 +284,6 @@ test_hide_providers
 (
 )
 {
-GenAI
-.
-init
-(
-)
-;
 const
 chatgpt
 =
