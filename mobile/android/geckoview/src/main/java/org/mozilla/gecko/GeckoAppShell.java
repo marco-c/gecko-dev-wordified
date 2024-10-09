@@ -9534,6 +9534,15 @@ isGpuProcessEnabled
 (
 )
 ;
+WrapForJNI
+public
+static
+native
+boolean
+isInteractiveWidgetDefaultResizesVisual
+(
+)
+;
 SuppressLint
 (
 "
