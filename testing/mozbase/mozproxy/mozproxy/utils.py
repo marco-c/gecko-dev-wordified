@@ -83,20 +83,16 @@ import
 PIPE
 Popen
 from
-redo
-import
-retriable
-retry
-from
-six
-.
-moves
-.
 urllib
 .
 request
 import
 urlretrieve
+from
+redo
+import
+retriable
+retry
 try
 :
     
