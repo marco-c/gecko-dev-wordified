@@ -16505,8 +16505,6 @@ Base
 typename
 Traits
 >
-MOZ_RUNINIT
-MOZ_GENERATED
 const
 xpc
 :

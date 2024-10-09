@@ -1245,7 +1245,6 @@ AsyncScriptCompileTask
 :
 sOngoingTasksMutex
 ;
-MOZ_RUNINIT
 /
 *
 static

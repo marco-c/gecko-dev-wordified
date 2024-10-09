@@ -2006,7 +2006,6 @@ mLock
 ;
 }
 ;
-MOZ_RUNINIT
 detail
 :
 :

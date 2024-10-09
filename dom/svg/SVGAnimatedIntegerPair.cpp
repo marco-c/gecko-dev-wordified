@@ -452,7 +452,6 @@ mDoSetAttr
 ;
 }
 ;
-MOZ_RUNINIT
 static
 SVGAttrTearoffTable
 <
@@ -464,7 +463,6 @@ DOMAnimatedInteger
 >
 sSVGFirstAnimatedIntegerTearoffTable
 ;
-MOZ_RUNINIT
 static
 SVGAttrTearoffTable
 <

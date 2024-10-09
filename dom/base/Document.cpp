@@ -92028,7 +92028,6 @@ sList
 static
 *
 /
-MOZ_RUNINIT
 LinkedList
 <
 FullscreenChange

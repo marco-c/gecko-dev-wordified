@@ -1861,7 +1861,6 @@ implementation
 static
 *
 /
-MOZ_RUNINIT
 IOUtils
 :
 :

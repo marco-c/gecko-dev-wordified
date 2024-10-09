@@ -1075,7 +1075,6 @@ sIndirectLayerTreesLock
 static
 *
 /
-MOZ_RUNINIT
 CompositorBridgeParent
 :
 :

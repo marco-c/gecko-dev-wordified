@@ -397,7 +397,6 @@ return
 true
 ;
 }
-MOZ_RUNINIT
 BranchHintVector
 BranchHintCollection
 :

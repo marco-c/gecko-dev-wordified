@@ -1010,7 +1010,6 @@ gHandler
 ;
 }
 ;
-MOZ_RUNINIT
 const
 JSMEnvironmentProxyHandler
 JSMEnvironmentProxyHandler

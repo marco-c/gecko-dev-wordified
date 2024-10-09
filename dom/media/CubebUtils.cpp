@@ -901,7 +901,6 @@ brand
 properties
 "
 ;
-MOZ_RUNINIT
 std
 :
 :

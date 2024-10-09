@@ -158,7 +158,6 @@ gScrollDistanceCSSPixels
 =
 0
 ;
-MOZ_RUNINIT
 static
 dom
 :

@@ -1216,7 +1216,6 @@ obj
 static
 *
 /
-MOZ_RUNINIT
 nsString
 PromiseDebugging
 :

@@ -786,7 +786,6 @@ WebGLContext
 :
 sLruMutex
 ;
-MOZ_RUNINIT
 std
 :
 :

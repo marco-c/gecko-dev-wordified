@@ -12537,7 +12537,6 @@ XRE_IsContentProcess
 )
 ;
 }
-MOZ_RUNINIT
 FILE
 *
 gfxUtils

@@ -433,7 +433,6 @@ mozilla
 :
 dom
 ;
-MOZ_RUNINIT
 static
 const
 nscoord

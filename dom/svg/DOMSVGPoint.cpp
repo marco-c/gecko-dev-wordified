@@ -333,7 +333,6 @@ mValue
 ;
 }
 ;
-MOZ_RUNINIT
 static
 SVGAttrTearoffTable
 <

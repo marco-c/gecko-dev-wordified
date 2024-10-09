@@ -10595,7 +10595,6 @@ mVar
 ;
 }
 ;
-MOZ_RUNINIT
 static
 nsTHashSet
 <

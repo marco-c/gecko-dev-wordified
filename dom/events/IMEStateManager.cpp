@@ -751,7 +751,6 @@ InputContext
 :
 ORIGIN_MAIN
 ;
-MOZ_RUNINIT
 InputContext
 IMEStateManager
 :
@@ -790,7 +789,6 @@ sIsActive
 =
 false
 ;
-MOZ_RUNINIT
 Maybe
 <
 IMEStateManager

@@ -134,7 +134,6 @@ profiler
 static
 *
 /
-MOZ_RUNINIT
 ThreadRegistry
 :
 :
@@ -149,7 +148,6 @@ sRegistryContainer
 static
 *
 /
-MOZ_RUNINIT
 ThreadRegistry
 :
 :

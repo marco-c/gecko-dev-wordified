@@ -2285,7 +2285,6 @@ it
 away
 otherwise
 .
-MOZ_RUNINIT
 static
 GUniquePtr
 <

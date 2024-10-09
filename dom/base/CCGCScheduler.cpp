@@ -136,7 +136,6 @@ constants
 namespace
 mozilla
 {
-MOZ_RUNINIT
 const
 TimeDuration
 kOneMinute
@@ -151,7 +150,6 @@ FromSeconds
 0f
 )
 ;
-MOZ_RUNINIT
 const
 TimeDuration
 kCCDelay
@@ -164,7 +162,6 @@ FromSeconds
 6
 )
 ;
-MOZ_RUNINIT
 const
 TimeDuration
 kCCSkippableDelay
@@ -177,7 +174,6 @@ FromMilliseconds
 250
 )
 ;
-MOZ_RUNINIT
 const
 TimeDuration
 kTimeBetweenForgetSkippableCycles
@@ -190,7 +186,6 @@ FromSeconds
 2
 )
 ;
-MOZ_RUNINIT
 const
 TimeDuration
 kForgetSkippableSliceDuration
@@ -203,7 +198,6 @@ FromMilliseconds
 2
 )
 ;
-MOZ_RUNINIT
 const
 TimeDuration
 kICCIntersliceDelay
@@ -216,7 +210,6 @@ FromMilliseconds
 250
 )
 ;
-MOZ_RUNINIT
 const
 TimeDuration
 kICCSliceBudget
@@ -229,7 +222,6 @@ FromMilliseconds
 3
 )
 ;
-MOZ_RUNINIT
 const
 TimeDuration
 kIdleICCSliceBudget
@@ -242,7 +234,6 @@ FromMilliseconds
 2
 )
 ;
-MOZ_RUNINIT
 const
 TimeDuration
 kMaxICCDuration
@@ -255,7 +246,6 @@ FromSeconds
 2
 )
 ;
-MOZ_RUNINIT
 const
 TimeDuration
 kCCForced
@@ -264,7 +254,6 @@ kOneMinute
 *
 2
 ;
-MOZ_RUNINIT
 const
 TimeDuration
 kMaxCCLockedoutTime

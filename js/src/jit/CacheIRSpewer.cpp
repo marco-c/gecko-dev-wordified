@@ -2243,7 +2243,6 @@ more
 }
 }
 ;
-MOZ_RUNINIT
 CacheIRSpewer
 CacheIRSpewer
 :

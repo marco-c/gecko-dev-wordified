@@ -250,7 +250,6 @@ SVGMarkerElement_Binding
 namespace
 mozilla
 {
-MOZ_RUNINIT
 static
 SVGAttrTearoffTable
 <
@@ -259,7 +258,6 @@ DOMSVGAnimatedEnumeration
 >
 sSVGAnimatedEnumTearoffTable
 ;
-MOZ_RUNINIT
 static
 SVGAttrTearoffTable
 <
@@ -268,7 +266,6 @@ DOMSVGAnimatedAngle
 >
 sSVGAnimatedAngleTearoffTable
 ;
-MOZ_RUNINIT
 static
 SVGAttrTearoffTable
 <
@@ -277,7 +274,6 @@ DOMSVGAngle
 >
 sBaseSVGAngleTearoffTable
 ;
-MOZ_RUNINIT
 static
 SVGAttrTearoffTable
 <

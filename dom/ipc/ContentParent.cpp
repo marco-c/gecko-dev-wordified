@@ -2838,7 +2838,6 @@ Process
 "
 )
 ;
-MOZ_RUNINIT
 static
 std
 :

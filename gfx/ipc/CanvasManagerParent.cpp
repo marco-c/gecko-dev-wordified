@@ -276,7 +276,6 @@ mozilla
 :
 gfx
 {
-MOZ_RUNINIT
 CanvasManagerParent
 :
 :

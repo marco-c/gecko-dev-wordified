@@ -2081,7 +2081,6 @@ sRecordCnt
 =
 0
 ;
-MOZ_RUNINIT
 DetailedCacheHitTelemetry
 :
 :
@@ -2633,7 +2632,6 @@ CachePerfStats
 :
 sLock
 ;
-MOZ_RUNINIT
 CachePerfStats
 :
 :

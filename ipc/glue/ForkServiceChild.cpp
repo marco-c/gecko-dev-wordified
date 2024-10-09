@@ -237,7 +237,6 @@ extern
 LazyLogModule
 gForkServiceLog
 ;
-MOZ_RUNINIT
 mozilla
 :
 :

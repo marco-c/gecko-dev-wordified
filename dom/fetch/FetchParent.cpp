@@ -369,7 +369,6 @@ return
 NS_OK
 ;
 }
-MOZ_RUNINIT
 nsTHashMap
 <
 nsIDHashKey

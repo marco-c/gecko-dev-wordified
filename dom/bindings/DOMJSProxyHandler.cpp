@@ -535,7 +535,6 @@ sCrossOriginProxyFamily
 }
 }
 ;
-MOZ_RUNINIT
 SetDOMProxyInformation
 gSetDOMProxyInformation
 ;

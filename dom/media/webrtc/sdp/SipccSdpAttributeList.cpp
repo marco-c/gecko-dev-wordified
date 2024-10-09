@@ -163,7 +163,6 @@ InternalResults
 static
 *
 /
-MOZ_RUNINIT
 const
 std
 :

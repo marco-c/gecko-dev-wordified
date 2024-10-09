@@ -871,7 +871,6 @@ sMutex
 ;
 static
 inline
-MOZ_RUNINIT
 UniquePtr
 <
 ProcessCrashMonitor

@@ -17699,8 +17699,6 @@ fill
 "
 "
             
-MOZ_RUNINIT
-MOZ_GENERATED
 static
 {
 specType

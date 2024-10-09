@@ -547,7 +547,6 @@ void
 >
 static
 inline
-MOZ_RUNINIT
 std
 :
 :

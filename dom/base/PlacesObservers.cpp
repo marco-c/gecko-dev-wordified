@@ -407,8 +407,6 @@ template
 class
 T
 >
-MOZ_RUNINIT
-MOZ_GENERATED
 StaticAutoPtr
 <
 FlaggedArray
@@ -429,8 +427,6 @@ template
 class
 T
 >
-MOZ_RUNINIT
-MOZ_GENERATED
 StaticAutoPtr
 <
 FlaggedArray
@@ -522,7 +518,6 @@ still
 being
 sent
 .
-MOZ_RUNINIT
 static
 nsTArray
 <

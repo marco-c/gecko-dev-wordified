@@ -1055,7 +1055,6 @@ generating
 the
 crash
 report
-MOZ_RUNINIT
 mozilla
 :
 :
@@ -1496,7 +1495,6 @@ gz
 "
 )
 ;
-MOZ_RUNINIT
 static
 std
 :
@@ -1550,22 +1548,18 @@ gEncounteredChildException
 false
 )
 ;
-MOZ_RUNINIT
 static
 nsCString
 gServerURL
 ;
-MOZ_RUNINIT
 static
 xpstring
 pendingDirectory
 ;
-MOZ_RUNINIT
 static
 xpstring
 crashReporterPath
 ;
-MOZ_RUNINIT
 static
 xpstring
 memoryReportPath
@@ -1578,7 +1572,6 @@ events
 should
 go
 .
-MOZ_RUNINIT
 static
 xpstring
 eventsDirectory
@@ -2479,7 +2472,6 @@ defined
 (
 XP_WIN
 )
-MOZ_RUNINIT
 static
 struct
 ReservedResources

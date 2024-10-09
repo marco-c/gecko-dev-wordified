@@ -1942,7 +1942,6 @@ gWorkingDirPath
 MAXPATHLEN
 ]
 ;
-MOZ_RUNINIT
 static
 ArchiveReader
 gArchiveReader
@@ -2043,7 +2042,6 @@ the
 ReadMARChannelIDsFrom
 variants
 .
-MOZ_RUNINIT
 static
 MARChannelStringTable
 gMARStrings

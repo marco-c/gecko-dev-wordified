@@ -1360,11 +1360,9 @@ DEFAULT_STACKSIZE
 /
 global
 data
-MOZ_RUNINIT
 string
 nssconfigdir
 ;
-MOZ_RUNINIT
 vector
 <
 server_info_t

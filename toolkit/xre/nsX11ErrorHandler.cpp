@@ -202,7 +202,6 @@ aCode
 }
 }
 ;
-MOZ_RUNINIT
 static
 nsTArray
 <

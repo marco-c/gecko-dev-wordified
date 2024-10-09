@@ -1771,7 +1771,6 @@ StaticMutex
 gAllURLsMutex
 MOZ_UNANNOTATED
 ;
-MOZ_RUNINIT
 static
 LinkedList
 <

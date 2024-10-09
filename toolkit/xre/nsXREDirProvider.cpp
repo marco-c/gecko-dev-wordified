@@ -569,7 +569,6 @@ gDataDirHome
 =
 nullptr
 ;
-MOZ_RUNINIT
 nsCOMPtr
 <
 nsIFile
@@ -578,7 +577,6 @@ gDataDirProfileLocal
 =
 nullptr
 ;
-MOZ_RUNINIT
 nsCOMPtr
 <
 nsIFile

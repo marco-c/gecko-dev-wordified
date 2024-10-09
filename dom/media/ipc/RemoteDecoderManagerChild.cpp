@@ -498,7 +498,6 @@ DataMutex
 /
 wrapper
 .
-MOZ_RUNINIT
 static
 StaticDataMutex
 <

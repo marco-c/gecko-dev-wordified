@@ -288,7 +288,6 @@ O
 milliseconds
 )
 .
-MOZ_RUNINIT
 const
 TimeDuration
 kTelemetryReportThreshold

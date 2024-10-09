@@ -189,7 +189,6 @@ memory
 namespace
 mozilla
 {
-MOZ_RUNINIT
 /
 *
 static

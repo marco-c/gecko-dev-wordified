@@ -519,7 +519,6 @@ sFileMgrMapLock
 static
 *
 /
-MOZ_RUNINIT
 std
 :
 :
@@ -544,7 +543,6 @@ sFileMgrMap
 static
 *
 /
-MOZ_RUNINIT
 std
 :
 :

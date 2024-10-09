@@ -397,7 +397,6 @@ mozilla
 :
 widget
 ;
-MOZ_RUNINIT
 GLXLibrary
 sGLXLibrary
 ;

@@ -209,7 +209,6 @@ mozilla
 :
 layers
 {
-MOZ_RUNINIT
 static
 RefPtr
 <

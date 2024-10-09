@@ -950,15 +950,12 @@ NS_DECL_CI_INTERFACE_GETTER
 _class
 )
 \
-MOZ_RUNINIT
-MOZ_GENERATED
 static
 const
 GenericClassInfo
 :
 :
 ClassInfoData
-\
 k
 #
 #

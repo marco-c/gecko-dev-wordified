@@ -582,7 +582,6 @@ aPath
 )
 ;
 }
-MOZ_RUNINIT
 StaticDataMutex
 <
 Maybe

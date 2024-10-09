@@ -626,7 +626,6 @@ logic
 namespace
 js
 {
-MOZ_RUNINIT
 Mutex
 gHelperThreadLock
 (

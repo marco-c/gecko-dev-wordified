@@ -394,7 +394,6 @@ gs
 IonSpewer
 singleton
 .
-MOZ_RUNINIT
 static
 IonSpewer
 ionspewer
