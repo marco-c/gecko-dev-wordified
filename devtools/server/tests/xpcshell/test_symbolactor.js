@@ -279,9 +279,7 @@ strictEqual
 (
 actor
 .
-rawValue
-(
-)
+rawObj
 TEST_SYMBOL
 )
 ;
