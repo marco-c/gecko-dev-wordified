@@ -80,6 +80,10 @@ try
 :
     
 from
+six
+.
+moves
+.
 configparser
 import
 SafeConfigParser

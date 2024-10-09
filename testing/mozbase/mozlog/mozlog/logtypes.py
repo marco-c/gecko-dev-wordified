@@ -57,6 +57,13 @@ import
 inspect
 import
 six
+from
+six
+.
+moves
+import
+range
+zip
 convertor_registry
 =
 {

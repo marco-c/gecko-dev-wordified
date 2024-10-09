@@ -56,8 +56,6 @@ MPL
 import
 argparse
 import
-configparser
-import
 io
 import
 os
@@ -67,6 +65,12 @@ import
 zipfile
 import
 mozlog
+from
+six
+.
+moves
+import
+configparser
 from
 mozversion
 import

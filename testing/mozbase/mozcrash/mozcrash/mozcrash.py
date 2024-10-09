@@ -74,8 +74,6 @@ tempfile
 import
 traceback
 import
-urllib
-import
 zipfile
 from
 collections
@@ -2032,6 +2030,10 @@ zipfile
             
 data
 =
+six
+.
+moves
+.
 urllib
 .
 request
