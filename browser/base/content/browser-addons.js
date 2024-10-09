@@ -9919,11 +9919,16 @@ back
 const
 container
 =
+CustomizableUI
+.
+getCustomizationTarget
+(
 document
 .
 getElementById
 (
 area
+)
 )
 ;
 let
