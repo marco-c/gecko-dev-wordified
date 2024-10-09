@@ -349,11 +349,11 @@ the
 child
 starts
 the
-deletion
+shutdown
 process
 *
 (
-SendDelete
+Shutdown
 )
 or
 unexpected
@@ -402,7 +402,7 @@ database
 .
 *
 -
-Deletion
+Shutdown
 begun
 by
 LSDatabase
@@ -410,13 +410,10 @@ LSDatabase
 s
 destructor
 invoking
-SendDelete
-which
-sends
-*
-__delete__
+Shutdown
 which
 destroys
+*
 the
 actor
 .
@@ -493,7 +490,7 @@ LSDatabaseChild
 )
 ;
 void
-SendDelete
+Shutdown
 (
 )
 ;

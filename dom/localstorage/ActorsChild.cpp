@@ -446,7 +446,7 @@ void
 LSDatabaseChild
 :
 :
-SendDelete
+Shutdown
 (
 )
 {
@@ -470,15 +470,8 @@ mDatabase
 =
 nullptr
 ;
-MOZ_ALWAYS_TRUE
+Close
 (
-PBackgroundLSDatabaseChild
-:
-:
-Send__delete__
-(
-this
-)
 )
 ;
 }
