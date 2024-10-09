@@ -4203,7 +4203,8 @@ ArenaCellBits
 :
 WordT
 ;
-const
+static
+constexpr
 size_t
 BitsPerWord
 =
@@ -4212,7 +4213,8 @@ ArenaCellBits
 :
 bitsPerElement
 ;
-const
+static
+constexpr
 size_t
 NumWords
 =
