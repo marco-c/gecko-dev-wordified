@@ -537,13 +537,6 @@ tabsintitlebar
 allowed
 )
 ;
-TabBarVisibility
-.
-update
-(
-true
-)
-;
 }
 uninit
 (
