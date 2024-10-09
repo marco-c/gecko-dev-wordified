@@ -63,7 +63,7 @@ document
 getElementById
 (
 "
-titlebar
+TabsToolbar
 "
 )
 ;
