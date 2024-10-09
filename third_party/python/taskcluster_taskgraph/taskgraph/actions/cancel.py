@@ -100,10 +100,6 @@ symbol
 cx
 "
     
-generic
-=
-True
-    
 description
 =
 (
@@ -193,10 +189,6 @@ status_code
 =
 409
 :
-#
-type
-:
-ignore
             
 #
 A

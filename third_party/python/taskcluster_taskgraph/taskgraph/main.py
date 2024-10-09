@@ -504,20 +504,21 @@ taskgraph
 =
 TaskGraph
 (
+            
 filteredtasks
 Graph
 (
-set
+frozenset
 (
 filteredtasks
 )
+frozenset
+(
 filterededges
 )
 )
-#
-type
-:
-ignore
+        
+)
     
 if
 exclude_keys
@@ -535,10 +536,6 @@ items
 (
 )
 :
-#
-type
-:
-ignore
             
 task
 =
@@ -6273,10 +6270,6 @@ repo
 .
 remote_name
 )
-#
-type
-:
-ignore
     
 except
 RuntimeError
@@ -6525,13 +6518,12 @@ no_input
         
 output_dir
 =
+str
+(
 root
 .
 parent
-#
-type
-:
-ignore
+)
         
 overwrite_if_exists
 =
