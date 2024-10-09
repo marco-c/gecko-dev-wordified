@@ -759,12 +759,6 @@ it
 assertSearchStringIsInUrlbar
 (
 SEARCH_STRING
-{
-userTypedValue
-:
-"
-"
-}
 )
 ;
 BrowserTestUtils

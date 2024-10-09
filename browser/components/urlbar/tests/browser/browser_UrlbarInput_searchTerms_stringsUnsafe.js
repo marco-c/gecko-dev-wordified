@@ -382,6 +382,8 @@ equal
 (
 state
 .
+persist
+.
 searchTerms
 "
 "
