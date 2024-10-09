@@ -1579,13 +1579,30 @@ events
 remove_listener
 (
 )
+pytest
+.
+mark
+.
+parametrize
+(
+"
+sandbox
+"
+[
+None
+"
+sandbox_1
+"
+]
+)
 async
 def
 test_document_write
 (
 bidi_session
 subscribe_events
-top_context
+new_tab
+sandbox
 )
 :
     
@@ -1679,12 +1696,13 @@ target
 =
 ContextTarget
 (
-top_context
+new_tab
 [
 "
 context
 "
 ]
+sandbox
 )
         
 await_promise

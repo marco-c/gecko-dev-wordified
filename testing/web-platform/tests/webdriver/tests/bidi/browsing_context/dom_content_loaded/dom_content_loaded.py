@@ -952,6 +952,22 @@ navigation
 is
 not
 None
+pytest
+.
+mark
+.
+parametrize
+(
+"
+sandbox
+"
+[
+None
+"
+sandbox_1
+"
+]
+)
 async
 def
 test_document_write
@@ -959,10 +975,10 @@ test_document_write
     
 bidi_session
 subscribe_events
-inline
-top_context
+new_tab
 wait_for_event
 wait_for_future_safe
+sandbox
 )
 :
     
@@ -1032,12 +1048,13 @@ target
 =
 ContextTarget
 (
-top_context
+new_tab
 [
 "
 context
 "
 ]
+sandbox
 )
         
 await_promise
@@ -1064,7 +1081,7 @@ event
 context
 "
 :
-top_context
+new_tab
 [
 "
 context
