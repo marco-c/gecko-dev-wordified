@@ -88,7 +88,7 @@ MPL
 imply_option
 (
 "
-MOZ_PLACES
+MOZ_GECKOVIEW_HISTORY
 "
 True
 )
