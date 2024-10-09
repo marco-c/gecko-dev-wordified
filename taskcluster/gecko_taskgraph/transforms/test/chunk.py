@@ -1423,6 +1423,22 @@ manifests
 active
 "
 ]
+            
+and
+not
+task
+[
+"
+test
+-
+manifests
+"
+]
+[
+"
+other_dirs
+"
+]
         
 )
 :
