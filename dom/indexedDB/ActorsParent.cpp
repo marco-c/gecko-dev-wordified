@@ -84546,6 +84546,16 @@ Close
 )
 )
 ;
+SleepIfEnabled
+(
+StaticPrefs
+:
+:
+dom_indexedDB_databaseInitialization_pauseOnIOThreadMs
+(
+)
+)
+;
 /
 /
 Must
