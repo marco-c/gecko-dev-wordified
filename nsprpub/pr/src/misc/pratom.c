@@ -310,6 +310,7 @@ of
 #
 define
 DEFAULT_ATOMIC_LOCKS
+\
 16
 /
 *
@@ -322,6 +323,7 @@ the
 number
 of
 initializers
+\
 below
 *
 /
@@ -423,7 +425,6 @@ ptr
 2
 )
 ^
-\
 (
 (
 PRUptrdiff

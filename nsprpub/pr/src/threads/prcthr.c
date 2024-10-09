@@ -1179,12 +1179,6 @@ defined
 (
 WINNT
 )
-|
-|
-defined
-(
-WIN16
-)
 if
 (
 !

@@ -923,6 +923,8 @@ PR_LOG_MIN
 "
 CheckOverlappedPendingSocketsAreDone
 GetOverlappedResult
+"
+"
 succeeded
 \
 n
@@ -949,6 +951,8 @@ PR_LOG_MIN
 CheckOverlappedPendingSocketsAreDone
 GetOverlappedResult
 failed
+"
+"
 %
 d
 \
@@ -1265,12 +1269,6 @@ XP_UNIX
 defined
 (
 WIN32
-)
-|
-|
-defined
-(
-XP_OS2
 )
 /
 *

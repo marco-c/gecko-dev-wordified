@@ -230,6 +230,7 @@ printfs
 associated
 with
 this
+*
 test
 .
 *
@@ -247,6 +248,7 @@ Since
 the
 regress
 tool
+*
 limits
 *
 *
@@ -265,6 +267,7 @@ all
 of
 the
 printf
+*
 statements
 *
 *

@@ -131,8 +131,8 @@ testing
 race
 conditions
 in
-thread
 *
+thread
 creation
 *
 /
@@ -147,6 +147,7 @@ DPRINTF
 (
 arg
 )
+\
 if
 (
 _debug_on

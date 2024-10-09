@@ -523,6 +523,8 @@ of
 mode
 '
 on
+"
+"
 Open
 (
 )

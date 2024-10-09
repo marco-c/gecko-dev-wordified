@@ -132,9 +132,9 @@ PASS
 This
 is
 used
+*
 by
 the
-*
 regress
 tool
 parsing
@@ -157,6 +157,7 @@ Regress
 tool
 has
 been
+*
 updated
 to
 *

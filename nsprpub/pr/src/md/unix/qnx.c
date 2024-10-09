@@ -269,7 +269,7 @@ not
 be
 called
 for
-Unixware
+qnx
 *
 /
 void
@@ -287,7 +287,7 @@ not
 be
 called
 for
-Unixware
+qnx
 .
 "
 )
@@ -327,7 +327,7 @@ not
 be
 called
 for
-Unixware
+qnx
 .
 "
 )

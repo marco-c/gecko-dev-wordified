@@ -168,6 +168,7 @@ h
 #
 define
 POLL_DESC_COUNT
+\
 256
 /
 *
@@ -177,10 +178,12 @@ be
 greater
 than
 the
+\
 *
 STACK_POLL_DESC_COUNT
 macro
 in
+\
 *
 ptio
 .
@@ -189,6 +192,7 @@ to
 cause
 syspoll_list
 to
+\
 *
 be
 created

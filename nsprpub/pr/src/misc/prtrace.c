@@ -772,6 +772,8 @@ logEntries
 :
 %
 ld
+"
+"
 logEntriesPerSegment
 :
 %

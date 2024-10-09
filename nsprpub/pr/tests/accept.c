@@ -224,6 +224,7 @@ and
 a
 1
 for
+*
 FAIL
 *
 *
@@ -255,6 +256,7 @@ printfs
 associated
 with
 this
+*
 test
 .
 *
@@ -272,6 +274,7 @@ Since
 the
 regress
 tool
+*
 limits
 *
 *
@@ -290,6 +293,7 @@ all
 of
 the
 printf
+*
 statements
 *
 *
@@ -321,6 +325,7 @@ Regress
 tool
 has
 been
+*
 updated
 to
 *
@@ -655,23 +660,9 @@ define
 SERVER_MAX_BIND_COUNT
 100
 #
-if
-defined
-(
-XP_OS2
-)
-#
-define
-TIMEOUTSECS
-10
-#
-else
-#
 define
 TIMEOUTSECS
 2
-#
-endif
 PRIntervalTime
 timeoutTime
 ;

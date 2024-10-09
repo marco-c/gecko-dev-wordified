@@ -224,6 +224,7 @@ the
 printfs
 associated
 with
+*
 this
 test
 .
@@ -240,6 +241,7 @@ mode
 .
 Since
 the
+*
 regress
 tool
 limits
@@ -260,6 +262,7 @@ all
 of
 the
 printf
+*
 statements
 *
 *
@@ -291,6 +294,7 @@ Regress
 tool
 has
 been
+*
 updated
 to
 *
@@ -323,6 +327,7 @@ and
 remove
 debug
 option
+*
 (
 obsolete
 )

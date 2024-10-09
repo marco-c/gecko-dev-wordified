@@ -269,12 +269,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_OS2
-)
 #
 include
 <
@@ -355,6 +349,7 @@ DPRINTF
 (
 arg
 )
+\
 if
 (
 _debug_on

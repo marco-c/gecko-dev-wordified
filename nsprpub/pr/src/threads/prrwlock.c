@@ -192,12 +192,12 @@ SOLARIS
 )
 &
 &
+\
 (
 defined
 (
 _PR_PTHREADS
 )
-\
 |
 |
 defined
@@ -440,11 +440,13 @@ enable
 deadlock
 detection
 using
+\
 rank
 -
 order
 for
 locks
+\
 *
 /
 #

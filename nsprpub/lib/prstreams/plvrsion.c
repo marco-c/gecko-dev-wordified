@@ -667,6 +667,8 @@ of
 the
 Mozilla
 Public
+"
+"
 License
 v
 .
@@ -686,6 +688,8 @@ distributed
 with
 this
 file
+"
+"
 You
 can
 obtain

@@ -168,10 +168,13 @@ define
 _PR_LOCK_MCACHE
 (
 )
+\
 {
+\
 PRIntn
 _is
 ;
+\
 _PR_INTSOFF
 (
 _is
@@ -181,11 +184,13 @@ define
 _PR_UNLOCK_MCACHE
 (
 )
+\
 _PR_INTSON
 (
 _is
 )
 ;
+\
 }
 #
 else
@@ -469,7 +474,6 @@ address
 2
 )
 ^
-\
 (
 (
 PRUptrdiff
@@ -482,8 +486,8 @@ address
 10
 )
 )
-\
 &
+\
 hash_mask
 )
 /

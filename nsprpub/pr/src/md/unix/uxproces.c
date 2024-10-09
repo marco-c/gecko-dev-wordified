@@ -463,9 +463,9 @@ defined
 __GLIBC__
 )
 )
+&
+&
 \
-&
-&
 defined
 (
 _PR_PTHREADS
@@ -553,15 +553,14 @@ defined
 (
 _PR_GLOBAL_THREADS_ONLY
 )
+|
+|
 \
-|
-|
 (
 defined
 (
 _PR_PTHREADS
 )
-\
 &
 &
 !
@@ -578,6 +577,7 @@ __GNU__
 )
 &
 &
+\
 !
 defined
 (

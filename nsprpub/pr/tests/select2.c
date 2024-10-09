@@ -225,6 +225,7 @@ printfs
 associated
 with
 this
+*
 test
 .
 *
@@ -242,6 +243,7 @@ Since
 the
 regress
 tool
+*
 limits
 *
 *
@@ -260,6 +262,7 @@ all
 of
 the
 printf
+*
 statements
 *
 *
@@ -546,23 +549,6 @@ string
 .
 h
 >
-#
-if
-defined
-(
-OS2
-)
-#
-include
-<
-sys
-/
-time
-.
-h
->
-#
-endif
 #
 define
 PORT

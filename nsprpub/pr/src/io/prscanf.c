@@ -574,7 +574,6 @@ UNGET
 state
 ch
 )
-\
 (
 (
 state

@@ -224,6 +224,7 @@ printfs
 associated
 with
 this
+*
 test
 .
 *
@@ -241,6 +242,7 @@ Since
 the
 regress
 tool
+*
 limits
 *
 *
@@ -259,6 +261,7 @@ all
 of
 the
 printf
+*
 statements
 *
 *
@@ -570,12 +573,6 @@ if
 defined
 (
 XP_UNIX
-)
-|
-|
-defined
-(
-XP_OS2
 )
 #
 include

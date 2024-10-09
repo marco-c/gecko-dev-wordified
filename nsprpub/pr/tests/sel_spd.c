@@ -1813,6 +1813,8 @@ client
 thread
 %
 d
+"
+"
 (
 read
 %
@@ -2334,12 +2336,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_OS2
-)
 int
 opt
 ;
@@ -2357,12 +2353,6 @@ if
 defined
 (
 XP_UNIX
-)
-|
-|
-defined
-(
-XP_OS2
 )
 while
 (

@@ -294,9 +294,9 @@ printfs
 associated
 with
 this
+*
 test
 .
-*
 The
 regress
 mode
@@ -327,8 +327,8 @@ all
 of
 the
 printf
-statements
 *
+statements
 have
 been
 handled

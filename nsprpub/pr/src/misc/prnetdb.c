@@ -300,9 +300,9 @@ defined
 (
 _PR_HAVE_GETHOST_R
 )
+|
+|
 \
-|
-|
 defined
 (
 _PR_HAVE_THREADSAFE_GETHOST
@@ -423,21 +423,6 @@ SOLARIS
 (
 defined
 (
-BSDI
-)
-&
-&
-defined
-(
-_REENTRANT
-)
-)
-\
-|
-|
-(
-defined
-(
 LINUX
 )
 &
@@ -446,7 +431,6 @@ defined
 (
 _REENTRANT
 )
-\
 &
 &
 defined
@@ -487,9 +471,9 @@ defined
 _THREAD_SAFE
 )
 )
+|
+|
 \
-|
-|
 (
 defined
 (
@@ -502,9 +486,9 @@ defined
 _REENTRANT
 )
 )
+|
+|
 \
-|
-|
 (
 defined
 (
@@ -517,7 +501,6 @@ defined
 _REENTRANT
 )
 )
-\
 |
 |
 defined
@@ -638,7 +621,6 @@ pr_s6_addr32
 )
 &
 &
-\
 (
 (
 a
@@ -672,7 +654,6 @@ pr_s6_addr32
 )
 &
 &
-\
 (
 (
 a
@@ -712,7 +693,6 @@ pr_s6_addr32
 )
 &
 &
-\
 (
 (
 a
@@ -746,7 +726,6 @@ pr_s6_addr32
 )
 &
 &
-\
 (
 (
 a
@@ -780,7 +759,6 @@ pr_s6_addr
 )
 &
 &
-\
 (
 (
 a
@@ -935,7 +913,6 @@ pr_s6_addr32
 )
 &
 &
-\
 (
 (
 a
@@ -969,7 +946,6 @@ pr_s6_addr
 )
 &
 &
-\
 (
 (
 a
@@ -1003,7 +979,6 @@ pr_s6_addr
 )
 &
 &
-\
 (
 (
 a
@@ -1043,7 +1018,6 @@ pr_s6_addr32
 )
 &
 &
-\
 (
 (
 a
@@ -1221,7 +1195,6 @@ defined
 (
 AIX
 )
-\
 |
 |
 (
@@ -2078,9 +2051,9 @@ defined
 (
 FREEBSD
 )
+|
+|
 \
-|
-|
 defined
 (
 NETBSD
@@ -4363,7 +4336,6 @@ gethostbyaddr_r
 addr
 addrlen
 af
-\
 &
 tmphe
 tmpbuf
@@ -4706,13 +4678,13 @@ _PR_INET6
 )
 &
 &
-\
 defined
 (
 _PR_INET6_PROBE
 )
 &
 &
+\
 defined
 (
 _PR_HAVE_GETIPNODEBYNAME
@@ -8604,12 +8576,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_OS2
-)
 else
 if
 (
@@ -10999,6 +10965,7 @@ STUFF
 (
 c
 )
+\
 do
 {
 \

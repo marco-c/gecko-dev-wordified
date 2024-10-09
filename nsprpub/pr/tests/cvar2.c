@@ -266,6 +266,7 @@ printfs
 associated
 with
 this
+*
 test
 .
 *
@@ -283,6 +284,7 @@ Since
 the
 regress
 tool
+*
 limits
 *
 *
@@ -301,6 +303,7 @@ all
 of
 the
 printf
+*
 statements
 *
 *
@@ -440,6 +443,7 @@ DPRINTF
 (
 arg
 )
+\
 if
 (
 _debug_on
@@ -931,6 +935,8 @@ exitcvar
 lx
 cnt
 =
+"
+"
 %
 ld
 \
@@ -2246,6 +2252,8 @@ exitcvar
 lx
 cnt
 =
+"
+"
 %
 ld
 \

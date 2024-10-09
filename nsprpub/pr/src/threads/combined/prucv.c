@@ -1756,6 +1756,7 @@ now
 "
 is
 the
+*
 current
 *
 *

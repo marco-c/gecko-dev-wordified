@@ -324,6 +324,8 @@ force
 a
 delete
 of
+"
+"
 the
 current
 errorString

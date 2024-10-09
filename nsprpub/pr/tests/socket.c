@@ -305,6 +305,7 @@ DPRINTF
 (
 arg
 )
+\
 if
 (
 _debug_on
@@ -3463,6 +3464,8 @@ port
 =
 %
 d
+"
+"
 bytes
 =
 %
@@ -3546,6 +3549,8 @@ bytes
 =
 %
 d
+"
+"
 inbuf
 =
 0x
@@ -6863,6 +6868,8 @@ small
 file
 header
 data
+"
+"
 corruption
 \
 n
@@ -6903,6 +6910,8 @@ ERROR
 small
 file
 data
+"
+"
 corruption
 \
 n
@@ -6998,6 +7007,8 @@ ERROR
 large
 file
 data
+"
+"
 corruption
 \
 n
@@ -9561,6 +9572,7 @@ end
 of
 file
 with
+*
 header
 *
 /
@@ -13285,13 +13297,6 @@ implementation
 .
 *
 /
-#
-if
-!
-defined
-(
-WIN16
-)
 /
 *
 *
@@ -13421,8 +13426,6 @@ n
 )
 ;
 }
-#
-endif
 done
 :
 PR_Cleanup
