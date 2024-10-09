@@ -19745,10 +19745,12 @@ Zero
 )
 mLetterSpacing
 (
-{
-0
-.
-}
+LengthPercentage
+:
+:
+Zero
+(
+)
 )
 mTextUnderlineOffset
 (

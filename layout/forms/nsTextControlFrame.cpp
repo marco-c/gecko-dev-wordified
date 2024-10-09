@@ -1516,7 +1516,7 @@ spacing
 .
 {
 const
-StyleLength
+auto
 &
 letterSpacing
 =
@@ -1532,7 +1532,7 @@ if
 !
 letterSpacing
 .
-IsZero
+IsDefinitelyZero
 (
 )
 )
@@ -1549,8 +1549,14 @@ cols
 *
 letterSpacing
 .
-ToAppUnits
+Resolve
 (
+fontMet
+-
+>
+EmHeight
+(
+)
 )
 ;
 }
