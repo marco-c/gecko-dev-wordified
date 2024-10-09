@@ -12925,9 +12925,6 @@ BatchExists
 xsimd
 :
 :
-types
-:
-:
 has_simd_register
 <
 T
