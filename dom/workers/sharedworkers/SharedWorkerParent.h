@@ -279,6 +279,11 @@ nsresult
 aError
 )
 ;
+void
+MismatchOptionsErrorPropagation
+(
+)
+;
 mozilla
 :
 :
