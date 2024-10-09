@@ -39745,7 +39745,7 @@ with
 DrawSelectionDecorations
 below
 static
-const
+constexpr
 SelectionTypeMask
 kSelectionTypesWithDecorations
 =
