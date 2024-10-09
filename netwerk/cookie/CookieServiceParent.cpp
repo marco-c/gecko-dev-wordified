@@ -2123,9 +2123,6 @@ aOriginAttributes
 )
 )
 {
-#
-ifdef
-NIGHTLY_BUILD
 return
 IPC_FAIL
 (
@@ -2142,15 +2139,6 @@ process
 "
 )
 ;
-#
-else
-return
-IPC_OK
-(
-)
-;
-#
-endif
 }
 return
 SetCookies
