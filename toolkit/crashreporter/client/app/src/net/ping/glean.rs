@@ -872,6 +872,17 @@ str
 "
 RemoteType
 "
+utility_actors_name
+:
+(
+string_list
+'
+'
+)
+=
+"
+UtilityActorsName
+"
 shutdown_progress
 :
 str
