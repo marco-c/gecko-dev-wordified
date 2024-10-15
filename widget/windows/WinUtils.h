@@ -4029,6 +4029,12 @@ aName
 )
 ;
 static
+bool
+MicaEnabled
+(
+)
+;
+static
 void
 EnableWindowOcclusion
 (
