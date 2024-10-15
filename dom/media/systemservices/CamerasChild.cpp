@@ -2293,9 +2293,7 @@ NewRunnableMethod
 <
 CaptureEngine
 nsCString
-const
 uint64_t
-&
 >
 (
 "
