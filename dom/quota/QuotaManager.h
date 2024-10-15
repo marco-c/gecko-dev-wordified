@@ -1790,6 +1790,10 @@ const
 ClientMetadata
 &
 aClientMetadata
+bool
+aCreateIfNonExistent
+=
+true
 Maybe
 <
 RefPtr
