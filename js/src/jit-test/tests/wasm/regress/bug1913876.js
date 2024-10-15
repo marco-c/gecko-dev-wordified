@@ -22,10 +22,10 @@ also
 P
 wasm_lazy_tiering
 -
-P
-wasm_lazy_tiering_level
+-
+setpref
 =
-9
+wasm_lazy_tiering_synchronous
 ;
 let
 {
