@@ -4524,6 +4524,8 @@ false
 ;
 bool
 mIsRTL
+=
+false
 ;
 bool
 mMousePresent
@@ -4542,9 +4544,13 @@ false
 ;
 bool
 mOpeningAnimationSuppressed
+=
+false
 ;
 bool
 mAlwaysOnTop
+=
+false
 ;
 bool
 mIsEarlyBlankWindow
