@@ -557,7 +557,9 @@ install
 -
 error
 -
-blocklisted
+hard
+-
+blocked
 "
 "
 addon
@@ -566,7 +568,9 @@ install
 -
 error
 -
-blocklisted
+hard
+-
+blocked
 "
 ]
 ]
