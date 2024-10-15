@@ -350,9 +350,6 @@ if
 notificationType
 )
 {
-#
-ifdef
-MOZ_EXECUTION_TRACING
 CycleCollectedJSContext
 *
 ccjcx
@@ -426,16 +423,6 @@ get
 ;
 }
 }
-#
-endif
-if
-(
-MOZ_UNLIKELY
-(
-aManager
-)
-)
-{
 aManager
 -
 >
@@ -470,7 +457,6 @@ notificationType
 aPhase
 )
 ;
-}
 }
 }
 }
