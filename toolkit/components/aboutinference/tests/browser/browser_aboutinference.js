@@ -299,7 +299,7 @@ stringContains
 (
 element
 .
-textContent
+message
 "
 browser
 .
