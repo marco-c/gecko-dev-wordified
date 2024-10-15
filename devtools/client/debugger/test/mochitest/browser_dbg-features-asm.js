@@ -606,7 +606,6 @@ breakables
 "
 )
 ;
-await
 assertLineIsBreakable
 (
 dbg
@@ -695,7 +694,6 @@ js
 "
 )
 ;
-await
 assertLineIsBreakable
 (
 dbg
@@ -784,7 +782,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

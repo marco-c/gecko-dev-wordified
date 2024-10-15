@@ -105,11 +105,6 @@ const
 BREAKABLE_LINE_HINT_CHAR
 =
 ;
-requestLongerTimeout
-(
-2
-)
-;
 /
 /
 Import

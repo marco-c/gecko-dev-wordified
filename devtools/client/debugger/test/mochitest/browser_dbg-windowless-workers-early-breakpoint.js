@@ -198,7 +198,6 @@ simple
 worker
 .
 js
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -331,7 +330,6 @@ simple
 worker
 .
 js
-await
 assertPausedAtSourceAndLine
 (
 dbg

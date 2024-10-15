@@ -253,7 +253,6 @@ html
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -334,7 +333,6 @@ getSelectedSource
 (
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -425,7 +423,6 @@ stepOver
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -526,7 +523,6 @@ stepOver
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -674,7 +670,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -749,7 +744,6 @@ URL
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -779,7 +773,6 @@ stepOver
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -799,7 +792,6 @@ selectThread
 thread1
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

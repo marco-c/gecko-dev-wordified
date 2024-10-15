@@ -93,11 +93,6 @@ html
 "
 )
 ;
-requestLongerTimeout
-(
-4
-)
-;
 /
 /
 Assert

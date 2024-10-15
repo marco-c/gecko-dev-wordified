@@ -2633,7 +2633,6 @@ in
 the
 first
 argument
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -2776,7 +2775,6 @@ in
 the
 first
 argument
-await
 assertPausedAtSourceAndLine
 (
 dbg

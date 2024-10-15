@@ -143,7 +143,6 @@ html
 "
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -159,7 +158,6 @@ pressResume
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -175,7 +173,6 @@ pressStepOver
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -191,7 +188,6 @@ pressStepIn
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -207,7 +203,6 @@ pressStepOut
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -223,7 +218,6 @@ pressStepOver
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

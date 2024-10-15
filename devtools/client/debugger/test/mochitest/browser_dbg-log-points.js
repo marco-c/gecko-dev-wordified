@@ -530,7 +530,6 @@ on
 firstCall
 line
 8
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -702,7 +701,6 @@ the
 other
 script
 .
-await
 assertPausedAtSourceAndLine
 (
 dbg

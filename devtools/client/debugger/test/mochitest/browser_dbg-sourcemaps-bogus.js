@@ -394,7 +394,6 @@ waitForPaused
 dbg
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -668,7 +667,6 @@ source
 is
 automatically
 selected
-await
 assertPausedAtSourceAndLine
 (
 dbg
