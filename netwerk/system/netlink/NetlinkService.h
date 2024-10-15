@@ -365,6 +365,12 @@ NetAddr
 aResolvers
 )
 ;
+static
+bool
+HasNonLocalIPv6Address
+(
+)
+;
 private
 :
 void
