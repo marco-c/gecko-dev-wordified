@@ -276,6 +276,23 @@ taskcluster
 /
 androidTest
 "
+SCRIPT_DIR
+=
+os
+.
+path
+.
+dirname
+(
+os
+.
+path
+.
+realpath
+(
+__file__
+)
+)
 def
 setup_logging
 (
@@ -1236,15 +1253,15 @@ path
 join
 (
         
-ANDROID_TEST
+SCRIPT_DIR
 "
 copy
 -
-robo
--
-crash
--
 artifacts
+-
+from
+-
+ftl
 .
 py
 "
@@ -1383,6 +1400,9 @@ run_command
 (
 [
 copy_robo_crash_artifacts_script
+"
+crash_log
+"
 ]
 )
     
