@@ -84276,12 +84276,6 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 mOriginMetadata
-/
-*
-aCreateIfNonExistent
-*
-/
-true
 )
 )
 ;
@@ -93131,12 +93125,6 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 mOriginMetadata
-/
-*
-aCreateIfNonExistent
-*
-/
-true
 )
 )
 ;

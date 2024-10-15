@@ -2916,12 +2916,6 @@ EnsureTemporaryOriginIsInitializedInternal
 (
 *
 mDirectoryMetadata
-/
-*
-aCreateIfNonExistent
-*
-/
-true
 )
 .
 map

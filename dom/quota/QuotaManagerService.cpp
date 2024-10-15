@@ -3625,8 +3625,6 @@ aPersistenceType
 nsIPrincipal
 *
 aPrincipal
-bool
-aCreateIfNonExistent
 nsIQuotaRequest
 *
 *
@@ -3839,7 +3837,6 @@ SendInitializeTemporaryOrigin
 (
 persistenceType
 principalInfo
-aCreateIfNonExistent
 )
 -
 >

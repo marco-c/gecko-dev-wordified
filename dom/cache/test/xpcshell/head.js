@@ -497,9 +497,6 @@ function
 initTemporaryOrigin
 (
 principal
-createIfNonExistent
-=
-true
 )
 {
 return
@@ -513,7 +510,6 @@ initializeTemporaryOrigin
 default
 "
 principal
-createIfNonExistent
 )
 ;
 }

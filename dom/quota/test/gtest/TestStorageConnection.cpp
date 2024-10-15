@@ -309,12 +309,6 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 aClientMetadata
-/
-*
-aCreateIfNonExistent
-*
-/
-true
 )
 .
 map
