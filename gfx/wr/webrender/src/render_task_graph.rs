@@ -247,7 +247,6 @@ render_target
 {
 PictureCacheTarget
 TextureCacheRenderTarget
-AlphaRenderTarget
 }
 ;
 use
@@ -6078,7 +6077,7 @@ alpha
 :
 RenderTargetList
 <
-AlphaRenderTarget
+ColorRenderTarget
 >
 pub
 color
