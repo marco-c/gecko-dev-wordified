@@ -1711,8 +1711,10 @@ spe
 3172
 *
 /
-static
 YearMonthDay
+js
+:
+:
 ToYearMonthDay
 (
 int64_t
@@ -3077,25 +3079,6 @@ D_G
 }
 ;
 }
-YearMonthDay
-js
-:
-:
-ToYearMonthDay
-(
-int64_t
-epochMilliseconds
-)
-{
-return
-:
-:
-ToYearMonthDay
-(
-epochMilliseconds
-)
-;
-}
 /
 *
 *
@@ -3128,8 +3111,6 @@ t
 )
 {
 return
-:
-:
 ToYearMonthDay
 (
 t
@@ -3230,8 +3211,6 @@ t
 )
 {
 return
-:
-:
 ToYearMonthDay
 (
 t
@@ -3272,8 +3251,6 @@ t
 )
 {
 return
-:
-:
 ToYearMonthDay
 (
 t
@@ -5294,8 +5271,6 @@ month
 day
 ]
 =
-:
-:
 ToYearMonthDay
 (
 t
@@ -15088,8 +15063,6 @@ month
 day
 ]
 =
-:
-:
 ToYearMonthDay
 (
 localTime
@@ -23641,8 +23614,6 @@ month
 day
 ]
 =
-:
-:
 ToYearMonthDay
 (
 epochMilliseconds
@@ -23942,8 +23913,6 @@ month
 day
 ]
 =
-:
-:
 ToYearMonthDay
 (
 epochMilliseconds
@@ -24584,8 +24553,6 @@ month
 day
 ]
 =
-:
-:
 ToYearMonthDay
 (
 localTime
@@ -25544,8 +25511,6 @@ month
 day
 ]
 =
-:
-:
 ToYearMonthDay
 (
 localTime
@@ -25641,8 +25606,6 @@ month
 day
 ]
 =
-:
-:
 ToYearMonthDay
 (
 localTime
