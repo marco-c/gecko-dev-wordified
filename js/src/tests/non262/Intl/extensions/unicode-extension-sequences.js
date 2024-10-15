@@ -11,6 +11,17 @@ if
 this
 .
 getSelfHostedValue
+|
+|
+!
+this
+.
+hasOwnProperty
+(
+'
+Intl
+'
+)
 )
 const
 startOfUnicodeExtensions

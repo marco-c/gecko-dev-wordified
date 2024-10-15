@@ -14,6 +14,17 @@ winWidget
 xulRuntime
 .
 shell
+|
+|
+!
+this
+.
+hasOwnProperty
+(
+'
+Intl
+'
+)
 )
 assertEq
 (

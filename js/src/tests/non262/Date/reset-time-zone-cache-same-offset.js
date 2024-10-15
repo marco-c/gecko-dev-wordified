@@ -8,6 +8,17 @@ skip
 if
 (
 winWidget
+|
+|
+!
+this
+.
+hasOwnProperty
+(
+'
+Intl
+'
+)
 )
 -
 -
