@@ -715,6 +715,7 @@ createLocation
 getCM
 getEditorContent
 getCMEditor
+isCm6Enabled
 log
 :
 (
