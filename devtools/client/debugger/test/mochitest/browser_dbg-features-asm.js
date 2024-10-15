@@ -606,6 +606,7 @@ breakables
 "
 )
 ;
+await
 assertLineIsBreakable
 (
 dbg
@@ -694,6 +695,7 @@ js
 "
 )
 ;
+await
 assertLineIsBreakable
 (
 dbg
