@@ -15080,7 +15080,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -15722,7 +15722,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -16013,7 +16013,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -16304,7 +16304,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -16593,7 +16593,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -16957,7 +16957,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -17321,7 +17321,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -17681,7 +17681,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -17969,7 +17969,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -18203,7 +18203,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -18534,7 +18534,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -18805,7 +18805,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -19062,7 +19062,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -19394,7 +19394,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -19712,7 +19712,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -20105,7 +20105,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -20484,7 +20484,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -20938,7 +20938,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -21366,7 +21366,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -21637,7 +21637,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -21894,7 +21894,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -22223,7 +22223,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -22539,7 +22539,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -22897,7 +22897,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -23237,7 +23237,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -23617,7 +23617,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -23911,7 +23911,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -25912,7 +25912,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
@@ -27002,7 +27002,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 FormatSpec
@@ -27165,7 +27165,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 FormatSpec
@@ -27477,7 +27477,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 FormatSpec
@@ -27846,7 +27846,7 @@ UTCTime
 (
 )
 .
-toNumber
+toDouble
 (
 )
 ;
