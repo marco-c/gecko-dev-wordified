@@ -60,16 +60,9 @@ appName
 "
 appVersion
 "
-{
-name
-:
 "
 globalPrivacyControl
 "
-isAndroid
-:
-false
-}
 "
 platform
 "
