@@ -1203,10 +1203,11 @@ network_cookie_CHIPS_enabled
 )
 &
 &
+!
 cookieJarSettings
 -
 >
-GetPartitionForeign
+GetBlockingAllContexts
 (
 )
 ;
