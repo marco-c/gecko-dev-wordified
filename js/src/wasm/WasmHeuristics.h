@@ -1118,7 +1118,7 @@ JS
 Prefs
 :
 :
-wasm_experimental_direct_inlining
+wasm_direct_inlining
 (
 )
 ;
@@ -1130,7 +1130,7 @@ JS
 Prefs
 :
 :
-wasm_experimental_callRef_inlining
+wasm_call_ref_inlining
 (
 )
 ;
@@ -1142,7 +1142,7 @@ JS
 Prefs
 :
 :
-wasm_experimental_inlining_level
+wasm_inlining_level
 (
 )
 ;
