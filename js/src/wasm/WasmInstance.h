@@ -4302,9 +4302,6 @@ uint8_t
 memBase
 )
 ;
-#
-ifdef
-ENABLE_WASM_JS_STRING_BUILTINS
 static
 int32_t
 stringTest
@@ -4455,9 +4452,9 @@ instance
 void
 *
 stringArg
-uint32_t
+int32_t
 startIndex
-uint32_t
+int32_t
 endIndex
 )
 ;
@@ -4491,11 +4488,6 @@ void
 secondStringArg
 )
 ;
-#
-endif
-/
-/
-ENABLE_WASM_JS_STRING_BUILTINS
 }
 ;
 bool
