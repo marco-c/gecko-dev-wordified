@@ -101,6 +101,7 @@ test_noopener_opening_popup
 (
 opener_coop
 openee_coop
+origin
 opener_expectation
 )
 =
@@ -434,7 +435,7 @@ popup_openee_url
 getExecutorPath
 (
 popup_openee_token
-SAME_ORIGIN
+origin
 coop_header
 (
 openee_coop
@@ -777,6 +778,15 @@ opener_coop
 '
 +
 openee_coop
++
+'
+:
+'
++
+origin
+=
+=
+SAME_ORIGIN
 )
 ;
 }
@@ -974,6 +984,12 @@ popup
 .
 window
 null
+'
+can
+script
+the
+popup
+'
 )
 ;
 assert_false
