@@ -2874,6 +2874,14 @@ isHttpOnly
 =
 false
 ;
+mCookieData
+.
+isPartitioned
+(
+)
+=
+false
+;
 SetSameSiteAttributeDefault
 (
 mCookieData
