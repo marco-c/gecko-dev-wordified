@@ -580,6 +580,7 @@ c
 "
 )
 ;
+await
 assertLineIsBreakable
 (
 dbg
@@ -1078,6 +1079,7 @@ false
 }
 )
 ;
+await
 assertLineIsBreakable
 (
 dbg
