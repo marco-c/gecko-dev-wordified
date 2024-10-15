@@ -540,6 +540,12 @@ isDebuggee
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+localAllocSite
+)
+;
 /
 /
 Write
