@@ -1405,16 +1405,6 @@ popup_maximum
 1
 )
 ;
-user_pref
-(
-"
-dom
-.
-block_multiple_popups
-"
-false
-)
-;
 /
 /
 Prevent

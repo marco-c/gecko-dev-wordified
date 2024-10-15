@@ -32,14 +32,6 @@ disable_open_during_load
 "
 true
 ]
-[
-"
-dom
-.
-block_multiple_popups
-"
-true
-]
 ]
 }
 )
