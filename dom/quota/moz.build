@@ -352,6 +352,11 @@ IPCStreamCipherStrategy
 h
 "
 "
+MozPromiseUtils
+.
+h
+"
+"
 NotifyUtils
 .
 h
