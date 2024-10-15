@@ -53,6 +53,10 @@ MPL
 0
 /
 .
+import
+unittest
+import
+mozinfo
 from
 marionette_driver
 .
@@ -712,6 +716,31 @@ y
 None
 )
     
+unittest
+.
+skipIf
+(
+        
+mozinfo
+.
+display
+=
+=
+"
+wayland
+"
+"
+Wayland
+doesn
+'
+t
+support
+window
+positioning
+"
+    
+)
+    
 def
 test_set_position
 (
@@ -1291,6 +1320,17 @@ marionette
 .
 window_rect
         
+if
+mozinfo
+.
+display
+!
+=
+"
+wayland
+"
+:
+            
 self
 .
 assertEqual
@@ -1308,7 +1348,7 @@ x
 "
 ]
 )
-        
+            
 self
 .
 assertEqual
@@ -1435,6 +1475,17 @@ height
         
 )
         
+if
+mozinfo
+.
+display
+!
+=
+"
+wayland
+"
+:
+            
 self
 .
 assertEqual
@@ -1445,14 +1496,14 @@ new_rect
 x
 "
 ]
-expected_rect
+wanted_rect
 [
 "
 x
 "
 ]
 )
-        
+            
 self
 .
 assertEqual
@@ -1463,7 +1514,7 @@ new_rect
 y
 "
 ]
-expected_rect
+wanted_rect
 [
 "
 y
@@ -2206,12 +2257,33 @@ or
 less
 .
         
+#
+Wayland
+doesn
+'
+t
+supports
+being
+positioned
+at
+all
+.
+        
 elif
 os
 =
 =
 "
 linux
+"
+and
+mozinfo
+.
+display
+!
+=
+"
+wayland
 "
 :
             
