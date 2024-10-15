@@ -523,7 +523,7 @@ processes
 "
 div
 #
-runningInference
+procInfoTableContainer
 "
 }
 ;
