@@ -342,7 +342,6 @@ render_target
 :
 :
 {
-RenderTarget
 PictureCacheTarget
 TextureCacheRenderTarget
 PictureCacheTargetKind
