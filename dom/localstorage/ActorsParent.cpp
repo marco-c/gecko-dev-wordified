@@ -16345,7 +16345,7 @@ DiagnosticAssertEnabled
 :
 :
 value
-nsCStringHashKeyDM
+nsCStringHashKeyWithDisabledMemmove
 nsCStringHashKey
 >
 :

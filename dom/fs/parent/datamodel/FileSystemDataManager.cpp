@@ -564,7 +564,7 @@ value
 quota
 :
 :
-nsCStringHashKeyDM
+nsCStringHashKeyWithDisabledMemmove
 nsCStringHashKey
 >
 :
