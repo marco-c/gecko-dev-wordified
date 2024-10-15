@@ -737,6 +737,7 @@ waitForPausedInOriginalFileAndToggleMapScopes
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -1162,6 +1163,7 @@ of
 line
 in
 wasm
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -1246,6 +1248,7 @@ waitForPausedInOriginalFileAndToggleMapScopes
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -1336,6 +1339,7 @@ in
 CodeMirror
 /
 /
+await
 assertPausedAtSourceAndLine
 (
 dbg

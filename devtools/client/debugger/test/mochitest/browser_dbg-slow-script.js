@@ -322,6 +322,7 @@ html
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -756,6 +757,7 @@ html
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

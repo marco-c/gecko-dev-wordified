@@ -303,6 +303,7 @@ js
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

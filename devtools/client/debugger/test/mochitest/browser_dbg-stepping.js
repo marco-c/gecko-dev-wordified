@@ -199,6 +199,7 @@ js
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -361,6 +362,7 @@ in
 bundle
 .
 js
+await
 assertPausedAtSourceAndLine
 (
 dbg

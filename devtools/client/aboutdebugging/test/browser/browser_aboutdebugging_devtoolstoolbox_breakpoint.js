@@ -374,6 +374,7 @@ debuggerContext
 SCRIPT_FILE
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 debuggerContext

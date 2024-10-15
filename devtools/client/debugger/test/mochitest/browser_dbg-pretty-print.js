@@ -264,6 +264,7 @@ waitForPaused
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -279,6 +280,7 @@ stepOver
 dbg
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

@@ -121,6 +121,7 @@ html
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -263,6 +264,7 @@ in
 Bug
 1581530
 .
+await
 assertPausedAtSourceAndLine
 (
 dbg
