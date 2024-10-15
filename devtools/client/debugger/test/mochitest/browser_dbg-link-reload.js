@@ -283,6 +283,7 @@ html
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

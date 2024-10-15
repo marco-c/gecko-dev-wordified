@@ -334,6 +334,7 @@ line
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -498,6 +499,7 @@ line
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
@@ -685,6 +687,7 @@ line
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg

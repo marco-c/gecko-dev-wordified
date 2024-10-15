@@ -2898,6 +2898,7 @@ expectedColumn
 ]
 *
 /
+async
 function
 assertPausedAtSourceAndLine
 (
@@ -3045,6 +3046,7 @@ correct
 )
 ;
 }
+await
 _assertDebugLine
 (
 dbg
@@ -7091,6 +7093,7 @@ invokeResult
 return
 ;
 }
+await
 assertPausedAtSourceAndLine
 (
 dbg

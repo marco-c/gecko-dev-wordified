@@ -320,6 +320,7 @@ focused
 "
 )
 ;
+await
 assertPausedAtSourceAndLine
 (
 dbg
