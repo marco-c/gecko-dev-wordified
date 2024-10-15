@@ -75,6 +75,10 @@ copy
 import
 deepcopy
 from
+importlib
+import
+util
+from
 pathlib
 import
 Path
@@ -3073,6 +3077,19 @@ stderr
                     
 continue
             
+if
+include
+in
+context_attrs
+[
+"
+LOCAL_INCLUDES
+"
+]
+:
+                
+continue
+            
 context_attrs
 [
 "
@@ -4851,6 +4868,15 @@ finalize
 (
 )
     
+#
+write
+the
+project
+moz
+.
+build
+file
+    
 dirs_mozbuild
 =
 mozpath
@@ -5293,7 +5319,9 @@ def
 generate_gn_config
 (
     
-srcdir
+build_root_dir
+    
+target_dir
     
 gn_binary
     
@@ -5302,6 +5330,10 @@ input_variables
 sandbox_variables
     
 gn_target
+    
+preprocessor
+    
+moz_build_flag
 )
 :
     
@@ -5355,6 +5387,15 @@ update
 (
         
 {
+            
+f
+"
+{
+moz_build_flag
+}
+"
+:
+True
             
 "
 concurrent_links
@@ -5587,15 +5628,20 @@ resolve
 gen_args
 =
 [
+            
 gn_binary
+            
 "
 gen
 "
+            
 str
 (
 resolved_tempdir
 )
+            
 gn_args
+            
 "
 -
 -
@@ -5603,6 +5649,40 @@ ide
 =
 json
 "
+            
+"
+-
+-
+root
+=
+.
+/
+"
+#
+must
+find
+the
+google
+build
+directory
+in
+this
+directory
+            
+f
+"
+-
+-
+dotfile
+=
+{
+target_dir
+}
+/
+.
+gn
+"
+        
 ]
         
 print
@@ -5636,7 +5716,7 @@ check_call
 gen_args
 cwd
 =
-srcdir
+build_root_dir
 stderr
 =
 subprocess
@@ -5653,6 +5733,17 @@ project
 .
 json
 "
+        
+if
+preprocessor
+:
+            
+preprocessor
+.
+main
+(
+gn_config_file
+)
         
 with
 open
@@ -5690,6 +5781,73 @@ gn_target
             
 return
 gn_out
+def
+load_preprocessor
+(
+script_name
+)
+:
+    
+if
+script_name
+and
+os
+.
+path
+.
+isfile
+(
+script_name
+)
+:
+        
+print
+(
+f
+"
+Loading
+preprocessor
+{
+script_name
+}
+"
+)
+        
+spec
+=
+util
+.
+spec_from_file_location
+(
+"
+preprocess
+"
+script_name
+)
+        
+module
+=
+util
+.
+module_from_spec
+(
+spec
+)
+        
+spec
+.
+loader
+.
+exec_module
+(
+module
+)
+        
+return
+module
+    
+return
+None
 def
 main
 (
@@ -6086,6 +6244,21 @@ append
 vars
 )
     
+preprocessor
+=
+load_preprocessor
+(
+config
+.
+get
+(
+"
+preprocessing_script
+"
+None
+)
+)
+    
 gn_configs
 =
 [
@@ -6110,6 +6283,13 @@ topsrcdir
 config
 [
 "
+build_root_dir
+"
+]
+                
+config
+[
+"
 target_dir
 "
 ]
@@ -6129,6 +6309,15 @@ config
 [
 "
 gn_target
+"
+]
+                
+preprocessor
+                
+config
+[
+"
+moz_build_flag
 "
 ]
             
@@ -6153,6 +6342,13 @@ write_mozbuild
 topsrcdir
         
 topsrcdir
+/
+config
+[
+"
+build_root_dir
+"
+]
 /
 config
 [
