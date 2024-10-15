@@ -852,8 +852,10 @@ all
 "
 ]
 ;
-let
-platformInfo
+const
+{
+os
+}
 =
 await
 browser
@@ -868,8 +870,13 @@ platformMatches
 .
 push
 (
-platformInfo
+os
+)
+;
+platformMatches
 .
+push
+(
 os
 =
 =
@@ -918,8 +925,6 @@ override
 .
 currentPlatform
 =
-platformInfo
-.
 os
 ;
 /
