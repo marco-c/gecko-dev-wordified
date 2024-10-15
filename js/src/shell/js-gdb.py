@@ -164,7 +164,7 @@ execute
 (
 "
 show
-dir
+directories
 "
 False
 True
@@ -197,7 +197,7 @@ execute
 (
 "
 set
-dir
+directories
 {
 }
 :
