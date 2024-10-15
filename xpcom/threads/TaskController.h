@@ -208,6 +208,17 @@ h
 "
 #
 include
+"
+nsThreadUtils
+.
+h
+"
+/
+/
+for
+MOZ_COLLECTING_RUNNABLE_TELEMETRY
+#
+include
 <
 atomic
 >
