@@ -18010,6 +18010,11 @@ toObject
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
