@@ -297,7 +297,6 @@ waitForAllTargetsToBeAttached
 createDebuggerContext
 isWasmBinarySource
 DEBUGGER_L10N
-getCM
 waitForState
 waitForSelectedSource
 createLocation
