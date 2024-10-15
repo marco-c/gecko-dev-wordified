@@ -15529,6 +15529,12 @@ fileManager
 Init
 (
 aFMDirectory
+/
+*
+aDatabaseVersion
+*
+/
+0
 aConnection
 )
 ;
