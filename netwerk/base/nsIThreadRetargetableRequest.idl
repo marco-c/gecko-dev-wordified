@@ -283,6 +283,9 @@ thread
 .
 *
 /
+[
+must_use
+]
 void
 retargetDeliveryTo
 (
