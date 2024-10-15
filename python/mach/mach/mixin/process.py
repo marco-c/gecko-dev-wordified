@@ -1319,6 +1319,7 @@ ensure_exit_code
 raise
 Exception
 (
+                
 f
 "
 Process
@@ -1334,9 +1335,25 @@ status
 }
 :
 {
+'
+'
+.
+join
+(
+shellutil
+.
+quote
+(
+arg
+)
+for
+arg
+in
 args
+)
 }
 "
+            
 )
         
 return
