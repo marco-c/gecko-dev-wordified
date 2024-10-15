@@ -824,6 +824,7 @@ ignored
 "
 )
 ;
+await
 assertIgnoredStyleInSourceLines
 (
 dbg

@@ -1264,6 +1264,7 @@ correctly
 "
 )
 ;
+await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -1529,6 +1530,7 @@ correctly
 "
 )
 ;
+await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -1903,6 +1905,7 @@ correctly
 "
 )
 ;
+await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -2167,6 +2170,7 @@ style
 "
 )
 ;
+await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -2455,6 +2459,7 @@ correctly
 "
 )
 ;
+await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -2524,6 +2529,7 @@ correctly
 "
 )
 ;
+await
 assertIgnoredStyleInSourceLines
 (
 dbg
@@ -2709,6 +2715,7 @@ correctly
 "
 )
 ;
+await
 assertIgnoredStyleInSourceLines
 (
 dbg
