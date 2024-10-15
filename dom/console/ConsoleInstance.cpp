@@ -301,6 +301,9 @@ aCx
 nullptr
 0
 0
+aOptions
+.
+mPrefix
 )
 )
 {
@@ -348,15 +351,6 @@ Value
 )
 ;
 }
-mConsole
--
->
-mPrefix
-=
-aOptions
-.
-mPrefix
-;
 /
 /
 Let
