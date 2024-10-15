@@ -252,6 +252,12 @@ UpgradeFromPersistentStorageDirectory
 <
 <
 10
+PersistentRepository
+=
+1
+<
+<
+11
 }
 ;
 enum

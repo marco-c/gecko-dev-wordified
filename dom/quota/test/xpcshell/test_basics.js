@@ -155,6 +155,7 @@ verifyInitializationStatus
 (
 false
 false
+false
 )
 .
 then
@@ -210,6 +211,7 @@ verifyInitializationStatus
 (
 true
 false
+false
 )
 .
 then
@@ -246,6 +248,7 @@ status
 ;
 verifyInitializationStatus
 (
+false
 false
 false
 )
@@ -377,6 +380,7 @@ verifyInitializationStatus
 (
 true
 false
+false
 )
 .
 then
@@ -455,6 +459,7 @@ verifyInitializationStatus
 (
 false
 false
+false
 )
 .
 then
@@ -527,6 +532,7 @@ status
 verifyInitializationStatus
 (
 true
+false
 false
 )
 .
@@ -660,6 +666,7 @@ status
 verifyInitializationStatus
 (
 true
+false
 false
 )
 .

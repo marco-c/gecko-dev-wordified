@@ -985,6 +985,15 @@ delete
 }
 ;
 bool
+MatchesPersistentPersistenceScope
+(
+const
+PersistenceScope
+&
+aPersistenceScope
+)
+;
+bool
 MatchesBestEffortPersistenceScope
 (
 const

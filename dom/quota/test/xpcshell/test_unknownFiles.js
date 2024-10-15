@@ -106,6 +106,9 @@ modes
 initializedStorage
 :
 false
+initializedPersistentStorage
+:
+false
 initializedTemporaryStorage
 :
 false
@@ -114,6 +117,9 @@ false
 initializedStorage
 :
 true
+initializedPersistentStorage
+:
+false
 initializedTemporaryStorage
 :
 false
@@ -122,6 +128,9 @@ false
 initializedStorage
 :
 true
+initializedPersistentStorage
+:
+false
 initializedTemporaryStorage
 :
 true
@@ -308,6 +317,9 @@ verifyInitializationStatus
 mode
 .
 initializedStorage
+mode
+.
+initializedPersistentStorage
 mode
 .
 initializedTemporaryStorage

@@ -40,7 +40,7 @@ is
 mainly
 to
 verify
-initTemporaryStorage
+initializePersistentStorage
 (
 )
 does
@@ -49,7 +49,7 @@ call
 QuotaManager
 :
 :
-EnsureTemporaryStorageIsInitializedInternal
+EnsurePersistentStorageIsInitializedInternal
 (
 )
 which
@@ -87,7 +87,7 @@ originDirPath
 "
 storage
 /
-default
+permanent
 /
 https
 +
@@ -187,15 +187,14 @@ info
 (
 "
 Initializing
-the
-temporary
+persistent
 storage
 "
 )
 ;
 request
 =
-initTemporaryStorage
+initializePersistentStorage
 (
 )
 ;
@@ -218,7 +217,7 @@ calling
 "
 +
 "
-initTemporaryStorage
+initializePersistentStorage
 (
 )
 "
@@ -269,8 +268,8 @@ await
 verifyInitializationStatus
 (
 true
-false
 true
+false
 )
 ;
 }
