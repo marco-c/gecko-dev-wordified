@@ -139,6 +139,11 @@ _
 (
 IntrinsicGuardToAsyncDisposableStack
 )
+\
+_
+(
+IntrinsicGuardToDisposableStack
+)
 #
 else
 #

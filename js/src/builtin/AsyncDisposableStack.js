@@ -491,8 +491,8 @@ undefined
 SetCanonicalName
 (
 AsyncDisposableStackDisposeAsync
-'
+"
 disposeAsync
-'
+"
 )
 ;

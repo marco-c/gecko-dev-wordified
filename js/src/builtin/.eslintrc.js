@@ -1009,6 +1009,11 @@ DisposeResourcesAsync
 "
 readonly
 "
+DisposeResourcesSync
+:
+"
+readonly
+"
 /
 /
 We

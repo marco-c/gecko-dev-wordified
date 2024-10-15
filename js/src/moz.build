@@ -4943,6 +4943,13 @@ AsyncDisposableStack
 .
 js
 "
+"
+builtin
+/
+DisposableStack
+.
+js
+"
 ]
 #
 Prepare
