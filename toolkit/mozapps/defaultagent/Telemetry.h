@@ -167,6 +167,8 @@ const
 NotificationActivities
 &
 activitiesPerformed
+uint32_t
+daysSinceLastAppLaunch
 )
 ;
 }
