@@ -139,6 +139,7 @@ None
 =
 0
 UninitStorage
+UninitOrigins
 }
 ;
 }

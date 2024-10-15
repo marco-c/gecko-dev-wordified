@@ -672,7 +672,7 @@ No
 DirectoryLockCategory
 :
 :
-None
+UninitOrigins
 )
 ;
 }
