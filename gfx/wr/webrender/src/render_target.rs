@@ -975,7 +975,7 @@ targets
 :
 FrameVec
 <
-ColorRenderTarget
+RenderTarget
 >
 }
 impl
@@ -1317,7 +1317,7 @@ Deserialize
 ]
 pub
 struct
-ColorRenderTarget
+RenderTarget
 {
 pub
 target_kind
@@ -1538,7 +1538,7 @@ RenderTaskId
 >
 }
 impl
-ColorRenderTarget
+RenderTarget
 {
 pub
 fn
@@ -1568,7 +1568,7 @@ FrameMemory
 >
 Self
 {
-ColorRenderTarget
+RenderTarget
 {
 target_kind
 screen_size
