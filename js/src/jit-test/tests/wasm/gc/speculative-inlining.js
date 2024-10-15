@@ -27,6 +27,11 @@ also
 -
 P
 wasm_lazy_tiering
+-
+P
+wasm_lazy_tiering_level
+=
+9
 ;
 /
 /
