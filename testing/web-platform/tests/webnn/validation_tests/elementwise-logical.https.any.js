@@ -84,6 +84,15 @@ lesser
 '
 lesserOrEqual
 '
+'
+logicalAnd
+'
+'
+logicalOr
+'
+'
+logicalXor
+'
 ]
 ;
 const
