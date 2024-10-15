@@ -235,7 +235,7 @@ render_target
 {
 RenderTargetList
 PictureCacheTarget
-TextureCacheRenderTarget
+RenderTarget
 }
 ;
 use
@@ -6075,7 +6075,7 @@ texture_cache
 FastHashMap
 <
 CacheTextureId
-TextureCacheRenderTarget
+RenderTarget
 >
 pub
 picture_cache
