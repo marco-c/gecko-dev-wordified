@@ -19731,12 +19731,9 @@ numFuncImports
 bodyLength
 ;
 return
-codeMeta
-(
-)
-.
-lazyTieringHeuristics
-.
+LazyTieringHeuristics
+:
+:
 estimateIonCompilationCost
 (
 bodyLength
