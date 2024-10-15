@@ -1137,8 +1137,6 @@ const
 OriginMetadata
 &
 aOriginMetadata
-bool
-aPersisted
 )
 ;
 /
