@@ -2977,6 +2977,14 @@ reorder
 /
 /
 EVENT_INNER_REORDER
+"
+live
+region
+changed
+"
+/
+/
+EVENT_LIVE_REGION_CHANGED
 }
 ;
 #

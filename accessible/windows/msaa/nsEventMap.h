@@ -433,6 +433,13 @@ nsIAccessibleEvent
 :
 :
 EVENT_INNER_REORDER
+kEVENT_WIN_UNKNOWN
+/
+/
+nsIAccessibleEvent
+:
+:
+EVENT_LIVE_REGION_CHANGED
 /
 /
 clang
