@@ -549,6 +549,9 @@ initTemporaryOrigin
 (
 persistence
 principal
+createIfNonExistent
+=
+true
 )
 {
 return
@@ -560,6 +563,7 @@ initializeTemporaryOrigin
 (
 persistence
 principal
+createIfNonExistent
 )
 ;
 }
@@ -728,7 +732,7 @@ request
 ;
 }
 function
-resetOrigin
+resetClient
 (
 principal
 )
@@ -740,14 +744,14 @@ Services
 .
 qms
 .
-resetStoragesForPrincipal
+resetStoragesForClient
 (
 principal
 "
-default
-"
-"
 ls
+"
+"
+default
 "
 )
 ;

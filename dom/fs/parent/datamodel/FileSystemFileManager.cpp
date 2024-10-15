@@ -1117,6 +1117,12 @@ quotaManager
 EnsureTemporaryOriginIsInitializedInternal
 (
 aOriginMetadata
+/
+*
+aCreateIfNonExistent
+*
+/
+true
 )
 .
 map
