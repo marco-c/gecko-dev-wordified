@@ -235,16 +235,6 @@ srcs
 =
 [
 "
-/
-toolkit
-/
-xre
-/
-WinTokenUtils
-.
-cpp
-"
-"
 loaddlls
 .
 cpp
