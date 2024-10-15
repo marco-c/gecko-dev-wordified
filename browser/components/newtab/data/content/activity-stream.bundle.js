@@ -21524,16 +21524,12 @@ be
 set
 if
 (
+!
 this
 .
 props
 .
 selectedTopics
-=
-=
-=
-"
-"
 )
 {
 return
