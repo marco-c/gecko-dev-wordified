@@ -1004,6 +1004,11 @@ ToString
 "
 readonly
 "
+DisposeResourcesAsync
+:
+"
+readonly
+"
 /
 /
 We
