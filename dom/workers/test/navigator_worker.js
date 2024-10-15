@@ -110,6 +110,9 @@ true
 "
 connection
 "
+"
+permissions
+"
 ]
 ;
 self
