@@ -132,10 +132,11 @@ then
 =
 >
 {
-gBrowser
+BrowserTestUtils
 .
 showOnlyTheseTabs
 (
+gBrowser
 [
 tabTwo
 ]

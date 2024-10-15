@@ -143,10 +143,11 @@ tabs
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 showOnlyTheseTabs
 (
+gBrowser
 [
 gBrowser
 .

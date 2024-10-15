@@ -204,10 +204,11 @@ selectedTab
 =
 testTab2
 ;
-gBrowser
+BrowserTestUtils
 .
 showOnlyTheseTabs
 (
+gBrowser
 [
 testTab2
 ]
@@ -335,10 +336,11 @@ gBrowser
 tabs
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 showOnlyTheseTabs
 (
+gBrowser
 allTabs
 )
 ;
