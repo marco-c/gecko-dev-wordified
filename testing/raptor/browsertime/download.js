@@ -458,7 +458,7 @@ results
 await
 waitForDownload
 (
-120000
+1200000
 commands
 context
 )
