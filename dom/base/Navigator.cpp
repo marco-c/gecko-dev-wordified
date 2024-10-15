@@ -3118,6 +3118,11 @@ new
 Permissions
 (
 mWindow
+-
+>
+AsGlobal
+(
+)
 )
 ;
 }
