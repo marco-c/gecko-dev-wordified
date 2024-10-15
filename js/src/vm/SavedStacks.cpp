@@ -14501,7 +14501,6 @@ metadataBuilder
 static
 *
 /
-MOZ_CONSTINIT
 ReconstructedSavedFramePrincipals
 ReconstructedSavedFramePrincipals
 :
@@ -14513,7 +14512,6 @@ IsSystem
 static
 *
 /
-MOZ_CONSTINIT
 ReconstructedSavedFramePrincipals
 ReconstructedSavedFramePrincipals
 :
