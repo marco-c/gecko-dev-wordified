@@ -1664,6 +1664,7 @@ line
 +
 )
 {
+await
 assertLineIsBreakable
 (
 dbg
