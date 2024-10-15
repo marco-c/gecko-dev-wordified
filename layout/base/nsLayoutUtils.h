@@ -22041,12 +22041,16 @@ iframes
 /
 static
 bool
-FrameIsScrolledOutOfViewInCrossProcess
+FrameRectIsScrolledOutOfViewInCrossProcess
 (
 const
 nsIFrame
 *
 aFrame
+const
+nsRect
+&
+aFrameRect
 )
 ;
 /
