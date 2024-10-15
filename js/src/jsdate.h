@@ -427,7 +427,7 @@ February
 is
 December
 .
-uint32_t
+int32_t
 month
 ;
 /
@@ -439,7 +439,7 @@ day
 of
 month
 .
-uint32_t
+int32_t
 day
 ;
 }
