@@ -454,6 +454,15 @@ inboundStackArgBytes_
 (
 0
 )
+safepointIndices_
+(
+gen
+-
+>
+alloc
+(
+)
+)
 nativeToBytecodeMap_
 (
 nullptr
