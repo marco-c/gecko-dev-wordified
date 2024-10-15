@@ -1670,9 +1670,10 @@ parameters
 void
 computeParameters
 (
-Decoder
+const
+ModuleMetadata
 &
-d
+moduleMeta
 )
 ;
 /

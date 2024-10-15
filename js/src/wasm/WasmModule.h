@@ -1228,6 +1228,12 @@ Code
 caching
 support
 .
+bool
+canSerialize
+(
+)
+const
+;
 [
 [
 nodiscard

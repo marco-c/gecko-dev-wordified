@@ -43,7 +43,7 @@ also
 =
 -
 P
-wasm_experimental_compile_pipeline
+wasm_lazy_tiering
 ;
 include
 :
