@@ -342,7 +342,9 @@ resize
 (
 BPE
 *
-2
+3
+-
+1
 )
 ;
 expected
