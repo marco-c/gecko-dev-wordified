@@ -2150,7 +2150,6 @@ nsIWidget
 *
 GetParent
 (
-void
 )
 override
 ;
@@ -3659,8 +3658,10 @@ NSView
 *
 mParentView
 ;
+nsCOMPtr
+<
 nsIWidget
-*
+>
 mParentWidget
 ;
 #

@@ -1494,10 +1494,6 @@ mParentView
 (
 nil
 )
-mParentWidget
-(
-nullptr
-)
 mCompositingLock
 (
 "
@@ -1682,13 +1678,6 @@ childWindow
 -
 >
 mParent
-=
-nullptr
-;
-childWindow
--
->
-mAncestorLink
 =
 nullptr
 ;
