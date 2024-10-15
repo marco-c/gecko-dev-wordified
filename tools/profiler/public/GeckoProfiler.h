@@ -476,13 +476,6 @@ define
 PROFILER_CLEAR_JS_CONTEXT
 (
 )
-namespace
-mozilla
-{
-class
-CycleCollectedJSContext
-;
-}
 /
 /
 Function
@@ -1842,10 +1835,7 @@ profiler_clear_js_context
 void
 profiler_set_js_context
 (
-mozilla
-:
-:
-CycleCollectedJSContext
+JSContext
 *
 aCx
 )
