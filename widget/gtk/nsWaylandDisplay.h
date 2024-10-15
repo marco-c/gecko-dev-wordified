@@ -892,6 +892,11 @@ WaylandDisplayRelease
 (
 )
 ;
+void
+WlCompositorCrashHandler
+(
+)
+;
 }
 /
 /
