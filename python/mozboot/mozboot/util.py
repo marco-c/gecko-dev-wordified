@@ -57,6 +57,8 @@ import
 hashlib
 import
 os
+import
+ssl
 from
 pathlib
 import
@@ -262,11 +264,12 @@ sha256
 "
 "
     
-f
+ssl_context
 =
-urlopen
+ssl
+.
+create_default_context
 (
-url
 cafile
 =
 certifi
@@ -274,6 +277,16 @@ certifi
 where
 (
 )
+)
+    
+f
+=
+urlopen
+(
+url
+context
+=
+ssl_context
 )
     
 h
