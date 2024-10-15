@@ -277,6 +277,9 @@ canceled
 .
 *
 /
+[
+must_use
+]
 void
 onDataAvailable
 (
