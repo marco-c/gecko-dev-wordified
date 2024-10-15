@@ -2282,6 +2282,7 @@ mAudioSink
 >
 Start
 (
+mParams
 aStartTime
 )
 -
@@ -2290,7 +2291,7 @@ Then
 (
 mOwnerThread
 .
-get
+GetEventTarget
 (
 )
 __func__
@@ -2714,7 +2715,6 @@ audioSink
 >
 InitializeAudioStream
 (
-mParams
 audioDevice
 AudioSink
 :
@@ -2777,6 +2777,10 @@ __func__
 Then
 (
 mOwnerThread
+.
+GetEventTarget
+(
+)
 "
 MaybeAsyncCreateAudioSink
 (
@@ -3393,7 +3397,6 @@ audioSink
 >
 InitializeAudioStream
 (
-mParams
 mAudioDevice
 AudioSink
 :
