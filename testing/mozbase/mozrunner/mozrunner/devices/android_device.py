@@ -83,6 +83,12 @@ from
 enum
 import
 Enum
+from
+urllib
+.
+request
+import
+urlopen
 import
 six
 from
@@ -90,13 +96,6 @@ mozdevice
 import
 ADBDeviceFactory
 ADBHost
-from
-six
-.
-moves
-import
-input
-urllib
 MOZBUILD_PATH
 =
 os
@@ -7655,10 +7654,6 @@ filename
     
 f
 =
-urllib
-.
-request
-.
 urlopen
 (
 url

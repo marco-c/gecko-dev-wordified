@@ -57,12 +57,6 @@ import
 os
 import
 signal
-from
-six
-.
-moves
-import
-range
 #
 a
 dict

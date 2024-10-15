@@ -135,6 +135,14 @@ collections
 import
 defaultdict
 from
+urllib
+.
+parse
+import
+parse_qsl
+unquote
+urlparse
+from
 mitmproxy
 import
 ctx
@@ -172,12 +180,6 @@ http2
 import
 Http2Layer
 SafeH2Connection
-from
-six
-.
-moves
-import
-urllib
 _PROTO
 =
 {
@@ -1395,16 +1397,8 @@ _
 query
 _
 =
-urllib
-.
-parse
-.
 urlparse
 (
-urllib
-.
-parse
-.
 unquote
 (
 r
@@ -1415,10 +1409,6 @@ url
         
 queriesArray
 =
-urllib
-.
-parse
-.
 parse_qsl
 (
 query
@@ -2129,17 +2119,8 @@ upload_dir
                     
 parsed_url
 =
-urllib
-.
-parse
-.
 urlparse
 (
-                        
-urllib
-.
-parse
-.
 unquote
 (
 f
@@ -2148,7 +2129,6 @@ request
 .
 url
 )
-                    
 )
                     
 self

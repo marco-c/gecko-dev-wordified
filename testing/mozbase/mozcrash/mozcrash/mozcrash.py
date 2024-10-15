@@ -79,6 +79,12 @@ from
 collections
 import
 namedtuple
+from
+urllib
+.
+request
+import
+urlopen
 import
 mozfile
 import
@@ -2030,14 +2036,6 @@ zipfile
             
 data
 =
-six
-.
-moves
-.
-urllib
-.
-request
-.
 urlopen
 (
 self
