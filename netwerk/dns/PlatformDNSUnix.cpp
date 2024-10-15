@@ -271,7 +271,10 @@ const
 nsACString
 &
 aHost
-uint16_t
+nsIDNSService
+:
+:
+DNSFlags
 aFlags
 TypeRecordResultType
 &

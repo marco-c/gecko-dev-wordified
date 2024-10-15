@@ -1100,10 +1100,10 @@ if
 (
 mFlags
 &
-nsHostResolver
+nsIDNSService
 :
 :
-RES_CANON_NAME
+RESOLVE_CANONICAL_NAME
 )
 {
 rec
