@@ -13894,6 +13894,11 @@ Hover
 NonTSPseudoClass
 :
 :
+HasSlotted
+|
+NonTSPseudoClass
+:
+:
 MozAutofillPreview
 |
 NonTSPseudoClass
