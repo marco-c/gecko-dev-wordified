@@ -734,16 +734,6 @@ with
 kAllocJunk
 ?
 bool
-opt_randomize_small
-;
-/
-/
-Randomization
-of
-small
-allocations
-?
-bool
 opt_zero
 ;
 /
