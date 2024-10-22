@@ -35641,6 +35641,8 @@ detail
 :
 compile_string
 )
+/
+/
 FMT_API
 auto
 vsystem_error
@@ -35652,6 +35654,8 @@ fmt
 format_args
 args
 )
+/
+/
 -
 >
 std
@@ -35797,6 +35801,8 @@ filename
 ;
 *
 /
+/
+/
 template
 <
 typename
@@ -35805,6 +35811,8 @@ typename
 .
 T
 >
+/
+/
 auto
 system_error
 (
@@ -35826,6 +35834,8 @@ T
 .
 args
 )
+/
+/
 -
 >
 std
@@ -35833,6 +35843,8 @@ std
 :
 system_error
 {
+/
+/
 return
 vsystem_error
 (
@@ -35857,6 +35869,8 @@ args
 }
 )
 ;
+/
+/
 }
 /
 *
@@ -35991,6 +36005,8 @@ errno
 .
 *
 /
+/
+/
 FMT_API
 void
 format_system_error
@@ -36006,6 +36022,8 @@ char
 out
 int
 error_code
+/
+/
 const
 char
 *
