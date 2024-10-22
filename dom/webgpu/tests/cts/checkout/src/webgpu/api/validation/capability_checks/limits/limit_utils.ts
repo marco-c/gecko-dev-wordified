@@ -2830,6 +2830,14 @@ extraLimits
 ?
 :
 LimitsRequest
+extraFeatures
+:
+GPUFeatureName
+[
+]
+=
+[
+]
 )
 {
 assert
@@ -2850,6 +2858,7 @@ _getDeviceWithRequestedMaximumLimit
 (
 limitTest
 extraLimits
+extraFeatures
 )
 ;
 /

@@ -173,6 +173,9 @@ subgroupAdd
 '
 subgroupExclusiveAdd
 '
+'
+subgroupInclusiveAdd
+'
 ]
 ;
 const

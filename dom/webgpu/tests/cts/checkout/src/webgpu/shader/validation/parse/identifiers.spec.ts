@@ -706,6 +706,12 @@ noinline
 nointerpolation
 '
 '
+non_coherent
+'
+'
+noncoherent
+'
+'
 noperspective
 '
 '

@@ -2313,6 +2313,10 @@ limitTest
 testValueName
 fn
 extraLimits
+extraFeatures
+=
+[
+]
 )
 {
 assert
@@ -2333,6 +2337,7 @@ _getDeviceWithRequestedMaximumLimit
 (
 limitTest
 extraLimits
+extraFeatures
 )
 ;
 /
