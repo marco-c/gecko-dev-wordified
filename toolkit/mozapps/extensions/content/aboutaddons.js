@@ -1924,7 +1924,7 @@ messageId
 type
 :
 "
-error
+warning
 "
 }
 ;
