@@ -3758,7 +3758,7 @@ dbg
 .
 selectors
 .
-getSelectedInlinePreviews
+getInlinePreviews
 (
 )
 )

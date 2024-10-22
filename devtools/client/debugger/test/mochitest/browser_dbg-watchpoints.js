@@ -322,7 +322,6 @@ getSelectedInlinePreviews
 )
 )
 ;
-await
 assertPausedAtSourceAndLine
 (
 dbg

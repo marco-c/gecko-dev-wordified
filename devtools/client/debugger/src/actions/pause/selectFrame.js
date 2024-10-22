@@ -282,7 +282,6 @@ dispatch
 (
 fetchScopes
 (
-frame
 )
 )
 ;
