@@ -6418,6 +6418,13 @@ reached
 _ns
 )
 ;
+if
+(
+NS_IsMainThread
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIObserverService
@@ -6459,6 +6466,7 @@ reached
 nullptr
 )
 ;
+}
 }
 return
 ;
