@@ -4770,6 +4770,16 @@ the
 owner
 LayoutDeviceIntMargin
 mNonClientMargins
+{
+-
+1
+-
+1
+-
+1
+-
+1
+}
 ;
 /
 /
