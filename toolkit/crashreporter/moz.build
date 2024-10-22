@@ -407,6 +407,11 @@ client
 /
 app
 "
+"
+minidump
+-
+analyzer
+"
 ]
 DIRS
 +
