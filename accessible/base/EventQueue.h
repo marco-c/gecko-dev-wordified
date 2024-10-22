@@ -203,16 +203,6 @@ AccEvent
 aEvent
 )
 ;
-bool
-PushNameOrDescriptionChangeToRelations
-(
-LocalAccessible
-*
-aAccessible
-RelationType
-aType
-)
-;
 /
 *
 *
