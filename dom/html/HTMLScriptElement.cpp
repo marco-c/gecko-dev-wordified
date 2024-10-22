@@ -876,7 +876,7 @@ void
 HTMLScriptElement
 :
 :
-SetInnerHTML
+SetInnerHTMLTrusted
 (
 const
 nsAString
@@ -884,7 +884,7 @@ nsAString
 aInnerHTML
 nsIPrincipal
 *
-aScriptedPrincipal
+aSubjectPrincipal
 ErrorResult
 &
 aError

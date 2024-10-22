@@ -234,9 +234,8 @@ aError
 )
 override
 ;
-virtual
 void
-SetInnerHTML
+SetInnerHTMLTrusted
 (
 const
 nsAString
@@ -254,6 +253,8 @@ aError
 )
 override
 ;
+public
+:
 /
 /
 nsIScriptElement
