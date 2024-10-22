@@ -9296,6 +9296,19 @@ addonName
 "
 )
 ;
+final
+String
+extensionVersion
+=
+bundle
+.
+getString
+(
+"
+addonVersion
+"
+)
+;
 if
 (
 extensionBundle
@@ -9325,6 +9338,7 @@ InstallException
 errorCode
 extensionId
 extensionName
+extensionVersion
 )
 )
 ;
