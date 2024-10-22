@@ -1379,6 +1379,7 @@ nsWindowGfx
 CreateIcon
 (
 aSmallIcon
+nullptr
 false
 mozilla
 :
@@ -1433,6 +1434,7 @@ nsWindowGfx
 CreateIcon
 (
 aBigIcon
+nullptr
 false
 mozilla
 :
