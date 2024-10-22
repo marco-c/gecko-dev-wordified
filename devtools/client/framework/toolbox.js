@@ -19632,6 +19632,17 @@ then
 =
 >
 {
+if
+(
+!
+this
+.
+component
+)
+{
+return
+;
+}
 this
 .
 component
