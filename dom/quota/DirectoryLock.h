@@ -261,6 +261,16 @@ with
 multiple
 inheritance
 .
+/
+/
+/
+/
+XXX
+Unused
+remove
+this
+class
+.
 class
 NS_NO_VTABLE
 DirectoryLock
