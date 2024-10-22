@@ -390,19 +390,6 @@ dom
 /
 quota
 /
-DirectoryLock
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-quota
-/
 DirectoryLockInlines
 .
 h
@@ -1159,7 +1146,7 @@ PBackgroundSDBConnectionParent
 {
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 mDirectoryLock
 ;
@@ -1219,7 +1206,7 @@ override
 )
 Maybe
 <
-DirectoryLock
+ClientDirectoryLock
 &
 >
 MaybeDirectoryLockRef
@@ -1358,7 +1345,7 @@ nsAString
 aName
 already_AddRefed
 <
-DirectoryLock
+ClientDirectoryLock
 >
 aDirectoryLock
 already_AddRefed
@@ -2099,7 +2086,7 @@ mParams
 ;
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 mDirectoryLock
 ;
@@ -2225,7 +2212,7 @@ override
 void
 DirectoryLockAcquired
 (
-DirectoryLock
+ClientDirectoryLock
 *
 aLock
 )
@@ -4189,7 +4176,7 @@ nsAString
 aName
 already_AddRefed
 <
-DirectoryLock
+ClientDirectoryLock
 >
 aDirectoryLock
 already_AddRefed
@@ -7209,7 +7196,7 @@ mFileRandomAccessStreamOpen
 ;
 RefPtr
 <
-DirectoryLock
+ClientDirectoryLock
 >
 directoryLock
 ;
@@ -7609,7 +7596,7 @@ OpenOp
 :
 DirectoryLockAcquired
 (
-DirectoryLock
+ClientDirectoryLock
 *
 aLock
 )
