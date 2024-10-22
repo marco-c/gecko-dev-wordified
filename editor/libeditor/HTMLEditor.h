@@ -14358,6 +14358,10 @@ TreatEmptyTextNodes
 aTreatEmptyTextNodes
 DeleteDirection
 aDeleteDirection
+const
+Element
+&
+aEditingHost
 )
 ;
 /
