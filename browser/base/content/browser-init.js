@@ -5826,13 +5826,11 @@ init
 ;
 scheduleIdleTask
 (
-async
 (
 )
 =
 >
 {
-await
 gProfiles
 .
 init
