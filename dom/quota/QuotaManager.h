@@ -3893,6 +3893,10 @@ aPersisted
 nsIFile
 *
 aDirectory
+bool
+aForGroup
+=
+false
 )
 ;
 using
