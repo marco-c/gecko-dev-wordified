@@ -12220,7 +12220,11 @@ true
 {
 PROFILER_SET_JS_CONTEXT
 (
-cx
+context
+.
+get
+(
+)
 )
 ;
 {
