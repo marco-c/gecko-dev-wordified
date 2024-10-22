@@ -4338,7 +4338,6 @@ scheduleFuzzingRun
 base
 name
 target
-max_len
 symbol
 =
 null
@@ -4410,13 +4409,6 @@ max_total_time
 =
 {
 MAX_FUZZ_TIME
-}
-+
--
-max_len
-=
-{
-max_len
 }
 ]
 provisioner
@@ -4870,7 +4862,28 @@ CertDN
 "
 certDN
 "
-4096
+)
+;
+scheduleFuzzingRun
+(
+run_base
+"
+PKCS7
+"
+"
+pkcs7
+"
+)
+;
+scheduleFuzzingRun
+(
+run_base
+"
+PKCS12
+"
+"
+pkcs12
+"
 )
 ;
 scheduleFuzzingRun
@@ -4882,7 +4895,6 @@ QuickDER
 "
 quickder
 "
-10000
 )
 ;
 /
@@ -4962,7 +4974,6 @@ mpi
 {
 name
 }
-4096
 name
 )
 ;
@@ -4977,7 +4988,6 @@ invmod
 mpi
 -
 invmod
-256
 "
 invmod
 "
@@ -4993,7 +5003,6 @@ expmod
 mpi
 -
 expmod
-2048
 "
 expmod
 "
@@ -5039,7 +5048,6 @@ tls
 -
 client
 "
-20000
 "
 client
 -
@@ -5066,7 +5074,6 @@ tls
 -
 server
 "
-20000
 "
 server
 -
@@ -5093,7 +5100,6 @@ dtls
 -
 client
 "
-20000
 "
 dtls
 -
@@ -5122,7 +5128,6 @@ dtls
 -
 server
 "
-20000
 "
 dtls
 -
@@ -5175,7 +5180,6 @@ tls
 -
 client
 "
-20000
 "
 client
 "
@@ -5193,7 +5197,6 @@ tls
 -
 server
 "
-20000
 "
 server
 "
@@ -5211,7 +5214,6 @@ dtls
 -
 client
 "
-20000
 "
 dtls
 -
@@ -5231,7 +5233,6 @@ dtls
 -
 server
 "
-20000
 "
 dtls
 -
@@ -5675,7 +5676,28 @@ CertDN
 "
 certDN
 "
-4096
+)
+;
+scheduleFuzzingRun
+(
+run_base
+"
+PKCS7
+"
+"
+pkcs7
+"
+)
+;
+scheduleFuzzingRun
+(
+run_base
+"
+PKCS12
+"
+"
+pkcs12
+"
 )
 ;
 scheduleFuzzingRun
@@ -5687,7 +5709,6 @@ QuickDER
 "
 quickder
 "
-10000
 )
 ;
 /
@@ -5770,7 +5791,6 @@ mpi
 {
 name
 }
-4096
 name
 )
 ;
@@ -5785,7 +5805,6 @@ invmod
 mpi
 -
 invmod
-256
 "
 invmod
 "
@@ -5831,7 +5850,6 @@ tls
 -
 client
 "
-20000
 "
 client
 -
@@ -5858,7 +5876,6 @@ tls
 -
 server
 "
-20000
 "
 server
 -
@@ -5885,7 +5902,6 @@ dtls
 -
 client
 "
-20000
 "
 dtls
 -
@@ -5914,7 +5930,6 @@ dtls
 -
 server
 "
-20000
 "
 dtls
 -
@@ -5967,7 +5982,6 @@ tls
 -
 client
 "
-20000
 "
 client
 "
@@ -5985,7 +5999,6 @@ tls
 -
 server
 "
-20000
 "
 server
 "
@@ -6003,7 +6016,6 @@ dtls
 -
 client
 "
-20000
 "
 dtls
 -
@@ -6023,7 +6035,6 @@ dtls
 -
 server
 "
-20000
 "
 dtls
 -

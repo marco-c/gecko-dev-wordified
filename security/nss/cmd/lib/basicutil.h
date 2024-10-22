@@ -154,9 +154,11 @@ SECU_PPFunc
 PRFileDesc
 *
 out
+const
 SECItem
 *
 item
+const
 char
 *
 msg
@@ -176,9 +178,11 @@ SECU_PPFunc
 FILE
 *
 out
+const
 SECItem
 *
 item
+const
 char
 *
 msg

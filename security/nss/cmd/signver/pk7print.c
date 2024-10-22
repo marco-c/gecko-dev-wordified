@@ -3201,9 +3201,11 @@ sv_PrintCertificate
 FILE
 *
 out
+const
 SECItem
 *
 der
+const
 char
 *
 m
