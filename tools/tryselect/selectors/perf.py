@@ -9075,6 +9075,10 @@ False
 allow_log_capture
 =
 True
+                        
+push_to_vcs
+=
+True
                     
 )
                 
@@ -9201,6 +9205,10 @@ closed_tree
 False
                     
 allow_log_capture
+=
+True
+                    
+push_to_vcs
 =
 True
                 

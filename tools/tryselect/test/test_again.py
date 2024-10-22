@@ -179,6 +179,27 @@ True
 }
         
 )
+        
+#
+Push
+to
+VCS
+instead
+of
+Lando
+so
+the
+push
+fails
+but
+history
+is
+generated
+.
+        
+push_to_vcs
+=
+True
     
 )
     

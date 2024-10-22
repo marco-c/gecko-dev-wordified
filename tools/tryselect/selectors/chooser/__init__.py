@@ -260,6 +260,10 @@ False
 push_to_lando
 =
 False
+    
+push_to_vcs
+=
+False
 )
 :
     
@@ -621,6 +625,10 @@ closed_tree
 push_to_lando
 =
 push_to_lando
+        
+push_to_vcs
+=
+push_to_vcs
     
 )
 def
