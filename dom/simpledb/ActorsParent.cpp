@@ -416,6 +416,19 @@ dom
 /
 quota
 /
+PrincipalUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+quota
+/
 QuotaCommon
 .
 h
@@ -3303,7 +3316,7 @@ if
 NS_WARN_IF
 (
 !
-QuotaManager
+quota
 :
 :
 IsPrincipalInfoValid
@@ -6190,7 +6203,7 @@ TSystemPrincipalInfo
 mOriginMetadata
 =
 {
-QuotaManager
+quota
 :
 :
 GetInfoForChrome
@@ -6221,7 +6234,7 @@ QM_TRY_UNWRAP
 (
 auto
 principalMetadata
-QuotaManager
+quota
 :
 :
 GetInfoFromValidatedPrincipalInfo

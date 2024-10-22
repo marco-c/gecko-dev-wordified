@@ -143,7 +143,7 @@ dom
 /
 quota
 /
-QuotaManager
+PrincipalUtils
 .
 h
 "
@@ -228,7 +228,13 @@ NS_IsMainThread
 ;
 /
 /
-QuotaManager
+mozilla
+:
+:
+dom
+:
+:
+quota
 :
 :
 GetOriginFromPrincipal
@@ -271,7 +277,7 @@ const
 auto
 &
 quotaOrigin
-QuotaManager
+quota
 :
 :
 GetOriginFromPrincipal

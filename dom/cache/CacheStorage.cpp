@@ -326,7 +326,7 @@ dom
 /
 quota
 /
-QuotaManager
+PrincipalUtils
 .
 h
 "
@@ -496,18 +496,6 @@ mozilla
 :
 :
 ErrorResult
-;
-using
-mozilla
-:
-:
-dom
-:
-:
-quota
-:
-:
-QuotaManager
 ;
 using
 mozilla
@@ -1166,7 +1154,7 @@ QM_TRY
 (
 OkIf
 (
-QuotaManager
+quota
 :
 :
 IsPrincipalInfoValid
@@ -1468,7 +1456,7 @@ QM_TRY
 (
 OkIf
 (
-QuotaManager
+quota
 :
 :
 IsPrincipalInfoValid

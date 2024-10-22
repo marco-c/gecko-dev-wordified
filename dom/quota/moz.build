@@ -397,6 +397,11 @@ PersistenceType
 h
 "
 "
+PrincipalUtils
+.
+h
+"
+"
 PromiseUtils
 .
 h
@@ -648,6 +653,11 @@ cpp
 "
 "
 PersistenceType
+.
+cpp
+"
+"
+PrincipalUtils
 .
 cpp
 "
