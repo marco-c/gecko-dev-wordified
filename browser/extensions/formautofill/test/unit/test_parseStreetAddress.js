@@ -507,9 +507,6 @@ options
 trim
 :
 true
-ignore_case
-:
-true
 }
 ;
 const
