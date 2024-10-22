@@ -219,6 +219,10 @@ Shutdown
 (
 )
 ;
+gProfileResetCleanupCompleted
+=
+true
+;
 return
 NS_OK
 ;
@@ -532,10 +536,6 @@ cache
 ;
 }
 }
-gProfileResetCleanupCompleted
-=
-true
-;
 nsCOMPtr
 <
 nsIRunnable
