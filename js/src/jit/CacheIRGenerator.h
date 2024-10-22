@@ -3189,6 +3189,9 @@ FullYear
 Month
 Date
 Day
+Hours
+Minutes
+Seconds
 }
 ;
 AttachDecision
