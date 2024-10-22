@@ -403,7 +403,7 @@ throwing
 an
 exception
 .
-assertThrows
+assertThrowsValue
 (
 (
 )
@@ -431,6 +431,9 @@ hello
 }
 }
 )
+"
+hello
+"
 )
 ;
 /
