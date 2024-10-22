@@ -106,6 +106,13 @@ parsing
 :
 ChannelKeyword
 ;
+pub
+use
+color_function
+:
+:
+*
+;
 use
 component
 :

@@ -703,6 +703,7 @@ Vi
 Vmax
 Vmin
 Vw
+ColorComponent
 Other
 }
 /
@@ -9572,6 +9573,7 @@ children
 )
 ;
 return
+;
 }
 let
 mut
@@ -9617,6 +9619,7 @@ i
 )
 ;
 return
+;
 }
 let
 o
