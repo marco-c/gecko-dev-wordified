@@ -62,7 +62,7 @@ import
 {
 getOriginalFrameScope
 getGeneratedFrameScope
-getInlinePreviews
+getSelectedFrameInlinePreviews
 getSelectedLocation
 getSelectedFrame
 getCurrentThread
@@ -243,7 +243,7 @@ preview
 data
 if
 (
-getInlinePreviews
+getSelectedFrameInlinePreviews
 (
 getState
 (

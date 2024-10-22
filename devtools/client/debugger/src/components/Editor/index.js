@@ -4614,7 +4614,6 @@ createElement
 InlinePreviews
 {
 editor
-selectedSource
 }
 )
 :
@@ -4854,7 +4853,6 @@ createElement
 InlinePreviews
 {
 editor
-selectedSource
 }
 )
 :
