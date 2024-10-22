@@ -74,8 +74,8 @@ parsing
 :
 :
 {
-NumberOrAngle
-NumberOrPercentage
+NumberOrAngleComponent
+NumberOrPercentageComponent
 }
 AbsoluteColor
 ColorFlags
@@ -315,7 +315,7 @@ none
 impl
 ToCss
 for
-NumberOrPercentage
+NumberOrPercentageComponent
 {
 fn
 to_css
@@ -407,7 +407,7 @@ Ok
 impl
 ToCss
 for
-NumberOrAngle
+NumberOrAngleComponent
 {
 fn
 to_css
