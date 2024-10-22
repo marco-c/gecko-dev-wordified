@@ -1379,6 +1379,13 @@ defined
 (
 XP_WIN
 )
+async
+HasThirdPartyRoots
+(
+bool
+aResult
+)
+;
 both
 :
 async
