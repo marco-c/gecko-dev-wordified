@@ -1937,6 +1937,32 @@ chrome
 "
                     
 "
+translations
+"
+                    
+None
+                
+)
+:
+"
+mochitest
+-
+browser
+-
+translations
+"
+                
+(
+                    
+"
+mochitest
+-
+browser
+-
+chrome
+"
+                    
+"
 devtools
 "
                     

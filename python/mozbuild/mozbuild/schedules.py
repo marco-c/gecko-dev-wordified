@@ -496,6 +496,14 @@ chrome
 "
 mochitest
 -
+browser
+-
+translations
+"
+    
+"
+mochitest
+-
 chrome
 "
     
