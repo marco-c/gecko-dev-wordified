@@ -11961,7 +11961,9 @@ FromOrigin
 originInfo
 -
 >
-mOrigin
+FlattenToOriginMetadata
+(
+)
 )
 ;
 const
@@ -30202,8 +30204,6 @@ OriginScope
 FromOrigin
 (
 aClientMetadata
-.
-mOrigin
 )
 originInitialized
 IsDirectoryLockBlockedByUninitStorageOrUninitOriginsOperation
@@ -31348,8 +31348,6 @@ OriginScope
 FromOrigin
 (
 principalMetadata
-.
-mOrigin
 )
 Nullable
 <
@@ -32308,8 +32306,6 @@ OriginScope
 FromOrigin
 (
 principalMetadata
-.
-mOrigin
 )
 Nullable
 <

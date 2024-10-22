@@ -516,8 +516,6 @@ OriginScope
 FromOrigin
 (
 aOriginMetadata
-.
-mOrigin
 )
 aOriginMetadata
 .
@@ -635,8 +633,6 @@ OriginScope
 FromOrigin
 (
 aOriginMetadata
-.
-mOrigin
 )
 aOriginMetadata
 .
