@@ -3665,7 +3665,7 @@ RemoveAllClips
 )
 override
 ;
-void
+bool
 CopyToFallback
 (
 DrawTarget

@@ -2304,6 +2304,15 @@ NotifyDeviceChanged
 (
 )
 ;
+void
+NotifyDeviceReset
+(
+const
+RemoteTextureOwnerIdSet
+&
+aIds
+)
+;
 bool
 EnsureSharedContextWebgl
 (
