@@ -16344,13 +16344,6 @@ MOZ_ASSERT
 rv
 )
 ;
-nsHttpHandler
-:
-:
-CheckThirdPartyRoots
-(
-)
-;
 }
 bool
 NS_IsAboutBlank
