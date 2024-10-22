@@ -2697,6 +2697,14 @@ isExtensible
 \
 MACRO_
 (
+isError
+"
+isError
+"
+)
+\
+MACRO_
+(
 isFinite
 "
 isFinite
