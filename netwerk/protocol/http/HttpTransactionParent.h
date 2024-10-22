@@ -299,11 +299,11 @@ const
 nsresult
 &
 aStatus
+const
 Maybe
 <
 nsHttpResponseHead
 >
-&
 &
 aResponseHead
 nsITransportSecurityInfo
@@ -654,11 +654,11 @@ const
 nsresult
 &
 aStatus
+const
 Maybe
 <
 nsHttpResponseHead
 >
-&
 &
 aResponseHead
 nsITransportSecurityInfo
