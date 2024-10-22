@@ -615,6 +615,10 @@ class
 ShutdownStorageOp
 ;
 friend
+class
+UniversalDirectoryLock
+;
+friend
 Result
 <
 PrincipalMetadata
