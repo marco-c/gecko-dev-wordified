@@ -253,11 +253,6 @@ SanityTest
 .
 cpp
 "
-"
-WaitFor
-.
-cpp
-"
 ]
 if
 CONFIG
