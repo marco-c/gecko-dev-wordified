@@ -19068,6 +19068,14 @@ IsTemporaryStorageInitializedInternal
 ;
 MOZ_ASSERT
 (
+IsTemporaryGroupInitializedInternal
+(
+aOriginMetadata
+)
+)
+;
+MOZ_ASSERT
+(
 IsTemporaryOriginInitializedInternal
 (
 aOriginMetadata
