@@ -7035,6 +7035,14 @@ Level
 Reporting
 if
 (
+StaticPrefs
+:
+:
+dom_reporting_enabled
+(
+)
+&
+&
 !
 reportGroup
 .
