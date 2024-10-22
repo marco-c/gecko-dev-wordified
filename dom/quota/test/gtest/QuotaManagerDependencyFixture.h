@@ -1341,6 +1341,12 @@ sBackgroundTarget
 ;
 }
 static
+PrincipalMetadata
+GetTestPrincipalMetadata
+(
+)
+;
+static
 OriginMetadata
 GetTestOriginMetadata
 (
@@ -1349,6 +1355,12 @@ GetTestOriginMetadata
 static
 ClientMetadata
 GetTestClientMetadata
+(
+)
+;
+static
+PrincipalMetadata
+GetOtherTestPrincipalMetadata
 (
 )
 ;
