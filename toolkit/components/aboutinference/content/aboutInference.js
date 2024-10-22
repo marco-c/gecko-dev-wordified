@@ -229,6 +229,7 @@ mjs
 ;
 const
 {
+ExecutionPriority
 EngineProcess
 PipelineOptions
 }
@@ -3984,6 +3985,11 @@ numThreads
 timeoutMS
 :
 THIRTY_SECONDS
+executionPriority
+:
+ExecutionPriority
+.
+LOW
 }
 ;
 appendTextConsole
