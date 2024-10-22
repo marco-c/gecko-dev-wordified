@@ -350,9 +350,6 @@ bool
 >
 &
 aWantsUntrusted
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -369,9 +366,6 @@ const
 EventListenerOptionsOrBoolean
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 ;
 protected

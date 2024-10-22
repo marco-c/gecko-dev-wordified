@@ -467,9 +467,6 @@ AddListener
 EventListener
 *
 aListener
-ErrorResult
-&
-aRv
 )
 {
 if
@@ -507,7 +504,6 @@ bool
 >
 (
 )
-aRv
 )
 ;
 }
@@ -520,9 +516,6 @@ RemoveListener
 EventListener
 *
 aListener
-ErrorResult
-&
-aRv
 )
 {
 if
@@ -554,7 +547,6 @@ change
 _ns
 aListener
 options
-aRv
 )
 ;
 }
