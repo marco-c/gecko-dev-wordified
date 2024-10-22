@@ -168,7 +168,7 @@ dom
 /
 quota
 /
-DirectoryLock
+OriginDirectoryLock
 .
 h
 "
