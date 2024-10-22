@@ -645,6 +645,15 @@ aName
 void
 CancelChannelAndListener
 (
+bool
+aCheckRFP
+)
+;
+bool
+ShouldResistFingerprinting
+(
+RFPTarget
+aRfpTarget
 )
 ;
 /
