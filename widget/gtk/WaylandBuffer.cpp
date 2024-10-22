@@ -390,9 +390,9 @@ shmPool
 >
 mShm
 =
-MakeRefPtr
+MakeUnique
 <
-ipc
+base
 :
 :
 SharedMemory
@@ -553,7 +553,7 @@ mImageData
 mShm
 -
 >
-Memory
+memory
 (
 )
 ;
