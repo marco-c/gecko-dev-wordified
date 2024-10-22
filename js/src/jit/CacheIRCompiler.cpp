@@ -14256,6 +14256,12 @@ GuardClassKind
 :
 BoundFunction
 :
+case
+GuardClassKind
+:
+:
+Date
+:
 return
 ClassFor
 (

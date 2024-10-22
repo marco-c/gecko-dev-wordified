@@ -15224,7 +15224,7 @@ ThisNumberValueForToLocaleString
 0
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 ThisTimeValue
@@ -15232,6 +15232,7 @@ ThisTimeValue
 intrinsic_ThisTimeValue
 1
 0
+IntrinsicThisTimeValue
 )
 #
 ifdef

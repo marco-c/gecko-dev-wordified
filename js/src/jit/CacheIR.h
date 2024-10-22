@@ -3314,6 +3314,7 @@ JSFunction
 BoundFunction
 Set
 Map
+Date
 }
 ;
 const

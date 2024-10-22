@@ -1581,6 +1581,12 @@ InlinableNative
 :
 IntrinsicArrayIteratorPrototypeOptimizable
 :
+case
+InlinableNative
+:
+:
+IntrinsicThisTimeValue
+:
 #
 ifdef
 ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
@@ -1887,6 +1893,12 @@ InlinableNative
 :
 :
 DataViewSetBigUint64
+:
+case
+InlinableNative
+:
+:
+DateGetTime
 :
 case
 InlinableNative

@@ -406,6 +406,12 @@ DataViewSetBigUint64
 \
 _
 (
+DateGetTime
+)
+\
+\
+_
+(
 FunctionBind
 )
 \
@@ -1143,6 +1149,12 @@ IntrinsicTypedArrayByteOffset
 _
 (
 IntrinsicTypedArrayElementSize
+)
+\
+\
+_
+(
+IntrinsicThisTimeValue
 )
 \
 \
