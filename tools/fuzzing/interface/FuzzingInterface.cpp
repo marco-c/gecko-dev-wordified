@@ -216,10 +216,6 @@ FuzzingTestFuncRaw
 testFunc
 )
 {
-__AFL_INIT
-(
-)
-;
 char
 *
 testFilePtr
