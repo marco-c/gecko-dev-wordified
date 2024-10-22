@@ -355,19 +355,6 @@ dom
 /
 quota
 /
-DirectoryLock
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-quota
-/
 StringifyUtils
 .
 h
@@ -485,7 +472,7 @@ dom
 quota
 :
 :
-CloneFileAndAppend
+ClientDirectoryLock
 ;
 using
 mozilla
@@ -497,7 +484,7 @@ dom
 quota
 :
 :
-DirectoryLock
+CloneFileAndAppend
 ;
 namespace
 {
@@ -13857,7 +13844,7 @@ return
 }
 Maybe
 <
-DirectoryLock
+ClientDirectoryLock
 &
 >
 Manager

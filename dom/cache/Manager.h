@@ -233,7 +233,7 @@ namespace
 quota
 {
 class
-DirectoryLock
+ClientDirectoryLock
 ;
 }
 /
@@ -628,12 +628,12 @@ quota
 Client
 ;
 using
-DirectoryLock
+ClientDirectoryLock
 =
 quota
 :
 :
-DirectoryLock
+ClientDirectoryLock
 ;
 public
 :
@@ -1318,7 +1318,7 @@ const
 ;
 Maybe
 <
-DirectoryLock
+ClientDirectoryLock
 &
 >
 MaybeDirectoryLockRef
