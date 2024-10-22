@@ -206,7 +206,6 @@ directory
 .
 class
 OriginDirectoryLock
-final
 :
 public
 DirectoryLockImpl
