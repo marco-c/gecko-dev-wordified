@@ -384,8 +384,9 @@ MOZ_ASSERT
 quotaManager
 -
 >
-IsTemporaryStorageInitializedInternal
+IsTemporaryOriginInitializedInternal
 (
+aOriginMetadata
 )
 )
 ;

@@ -594,7 +594,8 @@ RefPtr
 <
 ResolvableNormalOriginOp
 <
-bool
+MaybePrincipalMetadataArray
+true
 >
 >
 CreateInitTemporaryStorageOp
