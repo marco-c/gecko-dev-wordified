@@ -12751,7 +12751,7 @@ enabled
 static
 const
 JSFunctionSpec
-iterator_methods_with_helpers
+iterator_methods
 [
 ]
 =
@@ -14186,7 +14186,7 @@ IteratorObject
 >
 iterator_static_methods
 nullptr
-iterator_methods_with_helpers
+iterator_methods
 iterator_properties
 IteratorObject
 :
