@@ -100,7 +100,7 @@ PARENT
 default
 "
 )
-PLUGIN
+OBSOLETE1
 (
 "
 plugin
@@ -148,7 +148,7 @@ SOCKET
 socket
 "
 )
-REMOTESANDBOXBROKER
+OBSOLETE2
 (
 "
 sandboxbroker
