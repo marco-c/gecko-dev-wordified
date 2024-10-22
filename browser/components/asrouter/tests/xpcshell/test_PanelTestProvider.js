@@ -144,6 +144,9 @@ toast_notification
 bookmarks_bar_button
 :
 1
+menu_message
+:
+1
 }
 ;
 const
