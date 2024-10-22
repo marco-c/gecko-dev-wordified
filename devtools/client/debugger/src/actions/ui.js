@@ -1069,16 +1069,6 @@ shouldHide
 )
 {
 return
-(
-{
-dispatch
-}
-)
-=
->
-{
-dispatch
-(
 {
 type
 :
@@ -1086,9 +1076,6 @@ type
 HIDE_IGNORED_SOURCES
 "
 shouldHide
-}
-)
-;
 }
 ;
 }
