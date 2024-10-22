@@ -742,7 +742,7 @@ promiseClearHistory
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 mozilla

@@ -837,7 +837,7 @@ site
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 TEST_HOST
 )
@@ -1144,7 +1144,7 @@ site
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 TEST_HOST
 )
@@ -1435,7 +1435,7 @@ site
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 localhost
@@ -1930,7 +1930,7 @@ site
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 TEST_HOST
 )

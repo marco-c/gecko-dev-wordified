@@ -350,7 +350,7 @@ HSTS
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 a
@@ -559,7 +559,7 @@ HSTS
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 example
@@ -848,7 +848,7 @@ case
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 example

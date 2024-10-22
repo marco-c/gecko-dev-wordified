@@ -2423,7 +2423,7 @@ domain
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 example

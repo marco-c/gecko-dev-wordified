@@ -164,7 +164,7 @@ up
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 example
@@ -358,7 +358,7 @@ up
 await
 ForgetAboutSite
 .
-removeDataFromDomain
+removeDataFromBaseDomain
 (
 "
 sub
