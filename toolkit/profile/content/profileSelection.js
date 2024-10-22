@@ -493,10 +493,9 @@ gNeedsFlush
 {
 try
 {
-await
 gProfileService
 .
-asyncFlush
+flush
 (
 )
 ;
