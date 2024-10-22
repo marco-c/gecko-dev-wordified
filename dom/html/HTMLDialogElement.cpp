@@ -1154,6 +1154,17 @@ if
 Open
 (
 )
+|
+|
+!
+IsInComposedDoc
+(
+)
+|
+|
+IsPopoverOpen
+(
+)
 )
 {
 return
