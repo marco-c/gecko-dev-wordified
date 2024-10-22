@@ -2233,7 +2233,7 @@ string
 isMultiple
 :
 true
-alias
+shortFlag
 :
 "
 t

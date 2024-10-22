@@ -77,6 +77,7 @@ plugin
 mozilla
 "
 ;
+export
 function
 namespace
 (
@@ -93,11 +94,3 @@ ruleName
 }
 ;
 }
-module
-.
-exports
-=
-{
-namespace
-}
-;
