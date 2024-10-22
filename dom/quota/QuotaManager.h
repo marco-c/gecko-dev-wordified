@@ -581,7 +581,15 @@ InitOp
 ;
 friend
 class
+InitializePersistentOriginOp
+;
+friend
+class
 InitializePersistentStorageOp
+;
+friend
+class
+InitializeTemporaryOriginOp
 ;
 friend
 class
@@ -2271,6 +2279,8 @@ aOriginMetadata
 )
 const
 ;
+private
+:
 /
 /
 Returns
@@ -2320,6 +2330,8 @@ OriginMetadata
 aOriginMetadata
 )
 ;
+public
+:
 RefPtr
 <
 BoolPromise
@@ -2392,6 +2404,8 @@ aOriginMetadata
 )
 const
 ;
+private
+:
 /
 /
 Returns
@@ -2443,6 +2457,8 @@ bool
 aCreateIfNonExistent
 )
 ;
+public
+:
 RefPtr
 <
 BoolPromise
