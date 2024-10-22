@@ -49,7 +49,9 @@ licenses
 publicdomain
 /
 *
-*
+/
+/
+/
 Test
 courtesy
 of
@@ -64,8 +66,6 @@ gmail
 com
 >
 .
-*
-/
 function
 keys
 (

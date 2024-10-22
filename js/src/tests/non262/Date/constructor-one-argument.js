@@ -15,7 +15,7 @@ http
 :
 /
 /
-creativecommonn
+creativecommons
 .
 org
 /
