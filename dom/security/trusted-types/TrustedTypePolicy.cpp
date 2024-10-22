@@ -562,7 +562,7 @@ nsAString
 &
 aValue
 const
-Sequence
+nsTArray
 <
 JS
 :
