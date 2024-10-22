@@ -1355,9 +1355,9 @@ if
 !
 DescribeScriptedCaller
 (
-cx
 &
 scriptFilename
+cx
 )
 |
 |

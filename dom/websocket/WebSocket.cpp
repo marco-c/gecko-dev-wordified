@@ -8474,13 +8474,13 @@ JS
 :
 DescribeScriptedCaller
 (
+&
+file
 aGlobal
 .
 Context
 (
 )
-&
-file
 &
 lineno
 &
@@ -10034,9 +10034,9 @@ JS
 :
 DescribeScriptedCaller
 (
-aCx
 &
 file
+aCx
 &
 lineno
 &

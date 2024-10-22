@@ -3778,9 +3778,9 @@ JS
 :
 DescribeScriptedCaller
 (
-cx
 &
 scriptFilename
+cx
 )
 )
 {
