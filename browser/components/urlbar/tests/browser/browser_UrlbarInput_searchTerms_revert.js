@@ -177,8 +177,9 @@ focus
 info
 (
 "
-Escape
-to
+Double
+escape
+and
 revert
 Urlbar
 .
@@ -192,6 +193,11 @@ synthesizeKey
 "
 KEY_Escape
 "
+{
+repeat
+:
+2
+}
 )
 ;
 }
