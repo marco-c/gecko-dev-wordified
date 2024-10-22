@@ -162,11 +162,6 @@ GPU_IMPL_CYCLE_COLLECTION
 (
 RenderPassEncoder
 mParent
-mUsedBindGroups
-mUsedBuffers
-mUsedPipelines
-mUsedTextureViews
-mUsedRenderBundles
 )
 GPU_IMPL_JS_WRAP
 (
