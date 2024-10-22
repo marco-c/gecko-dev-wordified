@@ -11487,6 +11487,15 @@ mNetworkMetadata
 return
 ;
 }
+if
+(
+!
+mDocument
+)
+{
+return
+;
+}
 nsAutoCString
 name
 ;
