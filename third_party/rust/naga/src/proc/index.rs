@@ -3115,6 +3115,10 @@ already
 Known
 unchanged
 .
+pub
+(
+crate
+)
 fn
 try_resolve_to_constant
 (

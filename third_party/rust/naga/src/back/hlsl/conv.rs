@@ -1518,6 +1518,11 @@ Self
 :
 :
 PointCoord
+|
+Self
+:
+:
+DrawID
 =
 >
 {

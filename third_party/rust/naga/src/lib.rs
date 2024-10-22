@@ -3209,6 +3209,7 @@ CullDistance
 InstanceIndex
 PointSize
 VertexIndex
+DrawID
 /
 /
 fragment
