@@ -359,11 +359,6 @@ RowWidth
 (
 )
 ;
-int32_t
-HorizontalPosition
-(
-)
-;
 void
 EnsureCellIsVisible
 (
