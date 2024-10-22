@@ -127,9 +127,15 @@ Error
 ;
 assertThrowsInstanceOf
 (
+(
+)
+=
+>
 wrap
 .
 return
+(
+)
 Error
 )
 ;
