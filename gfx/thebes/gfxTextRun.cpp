@@ -18662,6 +18662,10 @@ process
 below
 gfxScriptItemizer
 scriptRuns
+;
+scriptRuns
+.
+SetText
 (
 textPtr
 aLength
