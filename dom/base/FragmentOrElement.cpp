@@ -4367,16 +4367,6 @@ get
 )
 )
 ;
-if
-(
-!
-mAttrElementsMap
-.
-IsEmpty
-(
-)
-)
-{
 for
 (
 auto
@@ -4419,7 +4409,6 @@ entry
 0
 )
 ;
-}
 }
 }
 if
