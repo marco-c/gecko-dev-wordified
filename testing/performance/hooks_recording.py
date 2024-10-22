@@ -909,12 +909,34 @@ app_name
 firefox
 "
         
+#
+bug
+1883701
+linux
+uses
+a
+different
+version
+for
+now
+        
 name
 =
 [
             
 "
 mitm8
+"
+if
+platform_name
+=
+=
+"
+linux
+"
+else
+"
+mitm11
 "
             
 platform_name
