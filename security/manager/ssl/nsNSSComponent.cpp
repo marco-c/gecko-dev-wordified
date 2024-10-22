@@ -14009,6 +14009,15 @@ CertificateTransparencyMode
 :
 TelemetryOnly
 :
+case
+CertVerifier
+:
+:
+CertificateTransparencyMode
+:
+:
+Enforce
+:
 break
 ;
 default
