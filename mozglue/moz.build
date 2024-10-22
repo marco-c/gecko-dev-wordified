@@ -203,3 +203,14 @@ TEST_DIRS
 tests
 "
 ]
+DIRS
++
+=
+[
+"
+/
+third_party
+/
+fmt
+"
+]
