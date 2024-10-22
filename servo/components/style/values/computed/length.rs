@@ -3453,7 +3453,7 @@ max
 -
 width
 or
-min
+max
 -
 height
 property
