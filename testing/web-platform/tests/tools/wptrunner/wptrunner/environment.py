@@ -560,6 +560,9 @@ None
 suppress_handler_traceback
 =
 None
+ws_extra
+=
+None
 )
 :
         
@@ -742,6 +745,12 @@ self
 suppress_handler_traceback
 =
 suppress_handler_traceback
+        
+self
+.
+ws_extra
+=
+ws_extra
     
 def
 __enter__
@@ -1112,6 +1121,11 @@ ConfigBuilder
 self
 .
 server_logger
+ws_extra
+=
+self
+.
+ws_extra
 )
         
 ports
