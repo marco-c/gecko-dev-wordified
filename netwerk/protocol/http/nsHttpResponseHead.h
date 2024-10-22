@@ -412,6 +412,14 @@ aOther
 )
 ;
 nsHttpResponseHead
+(
+nsHttpResponseHead
+&
+&
+aOther
+)
+;
+nsHttpResponseHead
 &
 operator
 =

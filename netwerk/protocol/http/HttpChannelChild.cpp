@@ -10207,8 +10207,8 @@ const
 ParentLoadInfoForwarderArgs
 &
 aLoadInfoForwarder
-const
 nsHttpResponseHead
+&
 &
 aResponseHead
 nsITransportSecurityInfo
@@ -10343,6 +10343,14 @@ aNewLoadFlags
 aRedirectFlags
 aLoadInfoForwarder
 aResponseHead
+=
+std
+:
+:
+move
+(
+aResponseHead
+)
 aSecurityInfo
 =
 nsCOMPtr

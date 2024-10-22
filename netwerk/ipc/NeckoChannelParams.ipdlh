@@ -281,6 +281,9 @@ nsHttp
 h
 "
 ;
+[
+MoveOnly
+]
 using
 class
 mozilla
@@ -1194,6 +1197,9 @@ isThirdPartyContextToTopWindow
 ;
 bool
 isFormSubmission
+;
+bool
+isGETRequest
 ;
 bool
 sendCSPViolationEvents
