@@ -1590,8 +1590,8 @@ OnLoadComplete
 imgIRequest
 *
 aRequest
-nsresult
-aStatus
+uint32_t
+aImageStatus
 )
 ;
 void
