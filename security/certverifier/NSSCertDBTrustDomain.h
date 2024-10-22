@@ -932,6 +932,9 @@ ocspCache
 SignatureCache
 *
 signatureCache
+TrustCache
+*
+trustCache
 void
 *
 pinArg
@@ -2023,6 +2026,16 @@ owning
 SignatureCache
 *
 mSignatureCache
+;
+/
+/
+non
+-
+owning
+!
+TrustCache
+*
+mTrustCache
 ;
 /
 /
