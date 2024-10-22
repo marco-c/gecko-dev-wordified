@@ -1556,6 +1556,8 @@ aIsThirdPartyContextToTopWindow
 bool
 aIsFormSubmission
 bool
+aIsGETRequest
+bool
 aSendCSPViolationEvents
 const
 OriginAttributes
@@ -2206,6 +2208,11 @@ mIsFormSubmission
 false
 ;
 bool
+mIsGETRequest
+=
+true
+;
+bool
 mSendCSPViolationEvents
 =
 true
@@ -2569,6 +2576,11 @@ NOT_INITIALIZED
 ;
 bool
 mIsNewWindowTarget
+=
+false
+;
+bool
+mSkipHTTPSUpgrade
 =
 false
 ;
