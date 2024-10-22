@@ -23173,6 +23173,12 @@ nsDisplayTransform
 :
 :
 kTransformRectFlags
+&
+~
+nsDisplayTransform
+:
+:
+OFFSET_BY_ORIGIN
 )
 ;
 nsRect
