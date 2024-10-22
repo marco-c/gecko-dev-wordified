@@ -74,6 +74,7 @@ mozbuild
 .
 base
 import
+BuildEnvironmentNotFoundException
 MozbuildObject
 here
 =
@@ -769,6 +770,9 @@ device_serial
 "
 ]
         
+try
+:
+            
 is_gve_build
 =
 command_context
@@ -786,6 +790,37 @@ MOZ_APP_NAME
 "
 fennec
 "
+        
+except
+BuildEnvironmentNotFoundException
+:
+            
+#
+If
+we
+don
+'
+t
+have
+a
+build
+just
+use
+the
+logic
+below
+to
+choose
+between
+            
+#
+desktop
+and
+Android
+            
+is_gve_build
+=
+False
         
 if
 platform
