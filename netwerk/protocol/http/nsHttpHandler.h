@@ -3139,6 +3139,12 @@ bool
 waitForCompletion
 )
 ;
+static
+void
+CheckThirdPartyRoots
+(
+)
+;
 private
 :
 nsHttpHandler
