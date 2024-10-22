@@ -2169,13 +2169,12 @@ PointAfterReachedContent
 )
 returns
 the
-next
 position
-of
+after
 found
 visible
-*
 content
+*
 or
 reached
 block
@@ -2208,7 +2207,9 @@ EditorDOMPointType
 )
 .
 template
-NextPointOrAfterContainer
+NextPoint
+<
+>
 (
 )
 ;
@@ -11363,10 +11364,6 @@ const
 EditorDOMPointType
 &
 aPoint
-const
-Element
-&
-aEditingHost
 )
 ;
 private
