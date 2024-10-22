@@ -211,6 +211,14 @@ gecko_metrics
 [
     
 "
+accessible
+/
+metrics
+.
+yaml
+"
+    
+"
 browser
 /
 base
