@@ -1050,9 +1050,6 @@ RTCRtpSender
 RTCDMTFSender
 :
 5
-VideoFrameConverter
-:
-5
 WebrtcTCPSocket
 :
 5
