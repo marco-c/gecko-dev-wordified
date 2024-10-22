@@ -355,7 +355,7 @@ children
 length
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 "
 Three
 tabs

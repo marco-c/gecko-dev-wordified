@@ -2533,7 +2533,7 @@ win
 .
 gBrowser
 .
-_numPinnedTabs
+pinnedTabCount
 )
 ;
 tabs

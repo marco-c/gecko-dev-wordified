@@ -683,7 +683,7 @@ is
 (
 tabbrowser
 .
-_numPinnedTabs
+pinnedTabCount
 1
 "
 One
@@ -824,7 +824,7 @@ is
 (
 tabbrowser
 .
-_numPinnedTabs
+pinnedTabCount
 1
 "
 One
@@ -851,7 +851,7 @@ is
 (
 tabbrowser
 .
-_numPinnedTabs
+pinnedTabCount
 0
 "
 No
@@ -932,7 +932,7 @@ is
 (
 tabbrowser
 .
-_numPinnedTabs
+pinnedTabCount
 2
 "
 Two
@@ -1405,7 +1405,7 @@ is
 (
 tabbrowser
 .
-_numPinnedTabs
+pinnedTabCount
 3
 "
 One
