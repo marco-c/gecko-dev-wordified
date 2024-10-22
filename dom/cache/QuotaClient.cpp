@@ -2392,12 +2392,10 @@ CacheQuotaClient
 :
 OnOriginClearCompleted
 (
-PersistenceType
-aPersistenceType
 const
-nsACString
+OriginMetadata
 &
-aOrigin
+aOriginMetadata
 )
 {
 AssertIsOnIOThread
@@ -2406,7 +2404,9 @@ AssertIsOnIOThread
 ;
 if
 (
-aPersistenceType
+aOriginMetadata
+.
+mPersistenceType
 =
 =
 quota
@@ -2424,7 +2424,9 @@ mCipherKeyManagers
 .
 Lookup
 (
-aOrigin
+aOriginMetadata
+.
+mOrigin
 )
 )
 {
