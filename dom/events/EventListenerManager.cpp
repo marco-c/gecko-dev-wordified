@@ -6004,9 +6004,8 @@ GetCurrentJSContext
 if
 (
 cx
-&
-&
-!
+)
+{
 JS
 :
 :
@@ -6018,12 +6017,6 @@ cx
 lineNum
 &
 columnNum
-)
-)
-{
-JS_ClearPendingException
-(
-cx
 )
 ;
 }

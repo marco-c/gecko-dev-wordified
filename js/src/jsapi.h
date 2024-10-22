@@ -7636,6 +7636,14 @@ return
 false
 .
 *
+*
+This
+never
+throws
+an
+exception
+.
+*
 /
 extern
 JS_PUBLIC_API
