@@ -5980,6 +5980,7 @@ bool
 HasPendingInterrupt
 (
 )
+const
 {
 return
 mHasPendingInterrupt
