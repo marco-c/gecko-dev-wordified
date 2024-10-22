@@ -3141,7 +3141,7 @@ empty
 )
 ;
 nsAutoCString
-pageHost
+pageHostAndPort
 ;
 /
 /
@@ -3157,6 +3157,8 @@ not
 have
 a
 host
+/
+port
 .
 Unused
 <
@@ -3164,9 +3166,9 @@ Unused
 aPageURI
 -
 >
-GetHost
+GetHostPort
 (
-pageHost
+pageHostAndPort
 )
 ;
 const
@@ -3459,10 +3461,12 @@ hash
 fixup_url
 (
 :
-host
+hostAndPort
 )
 |
 |
+"
+"
 '
 /
 favicon
@@ -3573,10 +3577,10 @@ stmt
 BindUTF8StringByName
 (
 "
-host
+hostAndPort
 "
 _ns
-pageHost
+pageHostAndPort
 )
 ;
 NS_ENSURE_SUCCESS
