@@ -943,7 +943,6 @@ aStyle
 overloaded
 nsTableRowFrame
 methods
-virtual
 nsresult
 AttributeChanged
 (

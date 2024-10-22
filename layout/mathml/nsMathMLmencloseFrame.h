@@ -315,7 +315,6 @@ aDesiredSize
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -338,7 +337,6 @@ aOldStyle
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -361,7 +359,6 @@ aParent
 )
 override
 ;
-virtual
 nscoord
 FixInterFrameSpacing
 (

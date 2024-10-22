@@ -4102,7 +4102,6 @@ MOZ_COUNTED_DTOR_OVERRIDE
 (
 nsDisplayNotation
 )
-virtual
 void
 Paint
 (

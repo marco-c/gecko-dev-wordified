@@ -1946,7 +1946,6 @@ aFrame
 )
 {
 }
-virtual
 nsRect
 GetBounds
 (
@@ -2026,7 +2025,6 @@ return
 bounds
 ;
 }
-virtual
 void
 Paint
 (
@@ -2204,7 +2202,6 @@ return
 false
 ;
 }
-virtual
 bool
 IsInvisibleInRect
 (
