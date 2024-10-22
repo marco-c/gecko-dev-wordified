@@ -484,7 +484,7 @@ featureC
 "
 )
 .
-checkboxEl
+inputEl
 {
 }
 gBrowser
