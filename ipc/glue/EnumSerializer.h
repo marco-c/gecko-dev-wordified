@@ -538,7 +538,6 @@ return
 false
 ;
 }
-else
 if
 (
 !
