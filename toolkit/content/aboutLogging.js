@@ -1077,9 +1077,6 @@ GetUserMedia
 MediaPipeline
 :
 5
-PeerConnectionImpl
-:
-5
 WebAudioAPI
 :
 5
