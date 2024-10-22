@@ -244,11 +244,9 @@ h
 #
 include
 "
-mozilla
+base
 /
-ipc
-/
-SharedMemory
+shared_memory
 .
 h
 "
@@ -2165,7 +2163,7 @@ kEnabledForMedia
 )
 &
 &
-ipc
+base
 :
 :
 SharedMemory
