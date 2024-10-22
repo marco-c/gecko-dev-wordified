@@ -651,6 +651,7 @@ clubcard
 {
 ApproximateSizeOf
 Clubcard
+ClubcardIndex
 ClubcardIndexEntry
 Membership
 }
