@@ -696,8 +696,6 @@ Telemetry
 :
 ProcessID
 aProcessType
-bool
-aDynamic
 )
 ;
 /
