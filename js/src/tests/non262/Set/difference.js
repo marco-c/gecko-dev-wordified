@@ -2342,7 +2342,7 @@ Unexpected
 call
 to
 |
-keys
+has
 |
 method
 "
