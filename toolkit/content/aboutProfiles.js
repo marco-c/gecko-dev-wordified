@@ -121,10 +121,9 @@ flush
 {
 try
 {
-await
 ProfileService
 .
-asyncFlush
+flush
 (
 )
 ;
