@@ -2882,6 +2882,11 @@ success
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 bool
 NonVoidStringToJsval
 (
@@ -3214,6 +3219,11 @@ content
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 bool
 NonVoidLatin1StringToJsval
 (
