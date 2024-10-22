@@ -13829,7 +13829,7 @@ toSpaceChunk
 gc
 -
 >
-getOrAllocChunk
+takeOrAllocChunk
 (
 lock
 )
@@ -13862,7 +13862,7 @@ fromSpaceChunk
 gc
 -
 >
-getOrAllocChunk
+takeOrAllocChunk
 (
 lock
 )
