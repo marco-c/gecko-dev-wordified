@@ -716,6 +716,15 @@ PRemoteWorkerService
 =
 10
 ;
+portNameToIndex
+[
+"
+PBackgroundLSDatabase
+"
+]
+=
+11
+;
 /
 /
 Used
