@@ -2037,7 +2037,8 @@ rule
 .
 Wait
 for
-reorder
+name
+change
 event
 on
 "
