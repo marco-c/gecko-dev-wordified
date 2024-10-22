@@ -1098,8 +1098,8 @@ template
 typename
 KeyClass
 >
-auto
-RangeSize
+size_t
+RangeSizeEstimate
 (
 const
 nsTBaseHashSet
