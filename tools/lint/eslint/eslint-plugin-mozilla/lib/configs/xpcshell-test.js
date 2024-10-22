@@ -21,9 +21,6 @@ exports
 env
 :
 {
-browser
-:
-false
 "
 mozilla
 /
