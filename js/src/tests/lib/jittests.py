@@ -3549,25 +3549,6 @@ minidump
 return
 cmd
     
-#
-The
-test
-runner
-expects
-this
-to
-be
-set
-to
-give
-to
-get_command
-.
-    
-js_cmd_prefix
-=
-None
-    
 def
 get_command
 (
@@ -6407,28 +6388,6 @@ options
 use_xdr
     
 )
-    
-#
-The
-test
-runner
-wants
-the
-prefix
-as
-a
-static
-on
-the
-Test
-class
-.
-    
-JitTest
-.
-js_cmd_prefix
-=
-prefix
     
 with
 TemporaryDirectory
