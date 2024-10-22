@@ -250,9 +250,9 @@ browser
 .
 urlbar
 .
-secondaryActions
+scotchBonnet
 .
-featureGate
+enableOverride
 "
 true
 ]
@@ -1347,9 +1347,9 @@ querySelectorAll
 .
 urlbarView
 -
-quickaction
+action
 -
-button
+btn
 "
 )
 .
@@ -1382,9 +1382,9 @@ querySelectorAll
 .
 urlbarView
 -
-quickaction
+action
 -
-button
+btn
 "
 )
 .
