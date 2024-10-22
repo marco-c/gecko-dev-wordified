@@ -13192,7 +13192,9 @@ groupDropIndex
 groupDropIndex
 )
 {
-tabs
+this
+.
+allTabs
 [
 dragData
 .
@@ -13219,7 +13221,9 @@ if
 (
 groupDropIndex
 in
-tabs
+this
+.
+allTabs
 )
 {
 dragData
@@ -13240,7 +13244,9 @@ createGroup
 true
 )
 ;
-tabs
+this
+.
+allTabs
 [
 groupDropIndex
 ]
