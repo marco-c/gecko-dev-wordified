@@ -65,7 +65,6 @@ getGeneratedFrameScope
 getSelectedFrameInlinePreviews
 getSelectedLocation
 getSelectedFrame
-getCurrentThread
 }
 from
 "
@@ -262,12 +261,6 @@ getSelectedFrame
 (
 getState
 (
-)
-getCurrentThread
-(
-getState
-(
-)
 )
 )
 ;

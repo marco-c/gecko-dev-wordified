@@ -185,6 +185,12 @@ pause
 threads
 [
 thread
+|
+|
+getCurrentThread
+(
+state
+)
 ]
 threadPauseState
 =

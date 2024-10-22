@@ -179,7 +179,6 @@ import
 getFrameworkGroupingState
 getSelectedFrame
 getCurrentThreadFrames
-getCurrentThread
 getShouldSelectOriginalLocation
 getSelectedTraceIndex
 }
@@ -939,10 +938,6 @@ selectedFrame
 getSelectedFrame
 (
 state
-getCurrentThread
-(
-state
-)
 )
 isTracerFrameSelected
 :

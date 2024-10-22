@@ -2481,7 +2481,6 @@ selectedFrame
 getSelectedFrame
 (
 state
-thread
 )
 ;
 const

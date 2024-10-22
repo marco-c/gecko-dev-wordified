@@ -532,7 +532,6 @@ newSelectedFrame
 getSelectedFrame
 (
 state
-newThread
 )
 ;
 /
