@@ -127,11 +127,6 @@ group
 -
 label
 "
-crop
-=
-"
-end
-"
 /
 >
 <
@@ -178,7 +173,7 @@ label
 "
 :
 "
-value
+text
 =
 label
 tooltiptext
