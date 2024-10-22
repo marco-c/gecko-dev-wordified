@@ -3357,6 +3357,7 @@ PrincipalInfo
 aPrincipalInfo
 )
 ;
+static
 Result
 <
 PrincipalMetadata
@@ -3364,6 +3365,9 @@ nsresult
 >
 GetInfoFromValidatedPrincipalInfo
 (
+QuotaManager
+&
+aQuotaManager
 const
 PrincipalInfo
 &
