@@ -290,7 +290,7 @@ namespace
 quota
 {
 class
-DirectoryLock
+ClientDirectoryLock
 ;
 class
 QuotaManager
@@ -604,7 +604,7 @@ Maybe
 quota
 :
 :
-DirectoryLock
+ClientDirectoryLock
 &
 >
 MaybeDirectoryLockRef
@@ -982,7 +982,7 @@ RefPtr
 quota
 :
 :
-DirectoryLock
+ClientDirectoryLock
 >
 mDirectoryLock
 ;
