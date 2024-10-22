@@ -1125,7 +1125,7 @@ const
 bool
 mUseDedicatedProfile
 ;
-nsCString
+nsString
 mStartupReason
 ;
 /
