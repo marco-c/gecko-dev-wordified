@@ -41,9 +41,6 @@ specified
 properties
 only
 .
-info
-:
->
 features
 :
 [

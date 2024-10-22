@@ -18,8 +18,6 @@ Iterator
 )
 )
 /
-/
-/
 *
 -
 -
@@ -29,6 +27,7 @@ esid
 pending
 description
 :
+"
 %
 Iterator
 .
@@ -42,6 +41,7 @@ when
 yield
 throws
 .
+"
 info
 :
 >

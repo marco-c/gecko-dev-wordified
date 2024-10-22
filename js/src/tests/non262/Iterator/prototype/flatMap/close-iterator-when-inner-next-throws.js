@@ -18,10 +18,6 @@ Iterator
 )
 )
 /
-/
-/
-/
-/
 *
 -
 -
@@ -31,6 +27,7 @@ esid
 pending
 description
 :
+"
 %
 Iterator
 .
@@ -45,6 +42,7 @@ when
 innerNext
 throws
 .
+"
 info
 :
 >
