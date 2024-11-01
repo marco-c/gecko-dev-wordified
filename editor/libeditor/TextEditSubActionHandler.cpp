@@ -1434,6 +1434,13 @@ inspect
 EndOfInsertedTextRef
 (
 )
+.
+To
+<
+EditorDOMPoint
+>
+(
+)
 :
 pointToInsert
 ;
@@ -3370,6 +3377,13 @@ inspect
 )
 .
 EndOfInsertedTextRef
+(
+)
+.
+To
+<
+EditorDOMPoint
+>
 (
 )
 ;
