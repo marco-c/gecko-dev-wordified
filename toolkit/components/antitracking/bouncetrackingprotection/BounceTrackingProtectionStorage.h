@@ -1186,16 +1186,6 @@ MOZ_GUARDED_BY
 mMonitor
 )
 ;
-FlippedOnce
-<
-false
->
-mFinalized
-MOZ_GUARDED_BY
-(
-mMonitor
-)
-;
 uint32_t
 mPendingWrites
 MOZ_GUARDED_BY
