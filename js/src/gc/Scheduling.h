@@ -4824,7 +4824,7 @@ bool
 mozilla
 :
 :
-ReleaseAcquire
+Relaxed
 >
 inHighFrequencyGCMode_
 ;
@@ -4921,7 +4921,7 @@ size_t
 mozilla
 :
 :
-ReleaseAcquire
+Relaxed
 >
 ;
 /
