@@ -205,12 +205,13 @@ unique_ptr
 SessionDescriptionInterface
 >
 sdp
-(
+=
 CreateSessionDescription
 (
-"
-offer
-"
+SdpType
+:
+:
+kOffer
 std
 :
 :
@@ -220,7 +221,6 @@ message
 )
 &
 error
-)
 )
 ;
 caller
