@@ -656,11 +656,6 @@ WinIMEHandler
 cpp
 "
 "
-WinMouseScrollHandler
-.
-cpp
-"
-"
 WinPointerEvents
 .
 cpp
@@ -762,6 +757,11 @@ cpp
 "
 "
 WindowsUIUtils
+.
+cpp
+"
+"
+WinMouseScrollHandler
 .
 cpp
 "
