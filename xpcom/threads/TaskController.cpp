@@ -682,7 +682,6 @@ numCores
 ;
 #
 if
-(
 defined
 (
 XP_MACOSX
@@ -692,13 +691,6 @@ XP_MACOSX
 defined
 (
 __aarch64__
-)
-)
-|
-|
-defined
-(
-XP_WIN
 )
 if
 (
