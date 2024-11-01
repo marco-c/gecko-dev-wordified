@@ -308,8 +308,8 @@ GCRuntime
 gc
 const
 AutoLockGC
-&
-lock
+*
+maybeLock
 )
 {
 MOZ_ASSERT
@@ -329,6 +329,11 @@ isAtomsZone
 )
 )
 {
+MOZ_ASSERT
+(
+maybeLock
+)
+;
 gc
 -
 >
@@ -337,7 +342,8 @@ atomMarking
 unregisterArena
 (
 this
-lock
+*
+maybeLock
 )
 ;
 }

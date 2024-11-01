@@ -5810,6 +5810,7 @@ arena
 release
 (
 this
+&
 lock
 )
 ;
