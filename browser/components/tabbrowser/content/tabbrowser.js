@@ -44878,7 +44878,7 @@ hideTabstrip
 )
 ;
 }
-navbar
+gNavToolbox
 .
 toggleAttribute
 (
