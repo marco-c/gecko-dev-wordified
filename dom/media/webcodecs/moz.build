@@ -119,6 +119,15 @@ mochitest
 .
 toml
 "
+"
+test
+/
+performance
+/
+perftest
+.
+toml
+"
 ]
 CRASHTEST_MANIFESTS
 +
