@@ -1131,13 +1131,7 @@ archive_files
 archive_path
 ]
 =
-open
-(
 source_path
-"
-rb
-"
-)
     
 #
 Parse

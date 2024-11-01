@@ -979,8 +979,6 @@ label
 "
 :
 "
-build
--
 docker
 -
 image
@@ -1495,8 +1493,6 @@ parent
 =
 f
 "
-build
--
 docker
 -
 image
