@@ -1399,6 +1399,20 @@ test
 metadata
 .
         
+:
+returns
+:
+A
+browser
+-
+specific
+handle
+to
+the
+runner
+page
+.
+        
 "
 "
 "
