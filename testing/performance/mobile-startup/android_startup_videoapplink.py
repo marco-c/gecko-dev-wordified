@@ -826,13 +826,6 @@ video_location
         
 )
         
-time
-.
-sleep
-(
-1
-)
-        
 #
 Navigate
 to
