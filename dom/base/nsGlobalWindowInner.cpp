@@ -37990,13 +37990,11 @@ GetGlobalJSObject
 )
 ;
 {
-IgnoredErrorResult
-erv
-;
 if
 (
-MOZ_LIKELY
+MOZ_UNLIKELY
 (
+!
 xpc
 :
 :
@@ -38014,6 +38012,13 @@ Allowed
 )
 )
 {
+return
+true
+;
+}
+IgnoredErrorResult
+erv
+;
 mozilla
 :
 :
@@ -38208,7 +38213,6 @@ cx
 )
 )
 ;
-}
 }
 }
 if
