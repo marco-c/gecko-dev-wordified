@@ -153,6 +153,12 @@ TEST_URI
 1
 "
 TEST_URI
++
+"
+#
+inject
+"
+TEST_URI
 ]
 )
 ;
