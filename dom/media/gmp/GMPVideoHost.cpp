@@ -442,6 +442,13 @@ i
 ;
 }
 mSharedMemMgr
+-
+>
+MgrPurgeShmems
+(
+)
+;
+mSharedMemMgr
 =
 nullptr
 ;

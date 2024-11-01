@@ -393,9 +393,6 @@ mSize
 GMPBufferType
 mBufferType
 ;
-Shmem
-mBuffer
-;
 bool
 mCompleteFrame
 ;
@@ -418,9 +415,6 @@ mStride
 struct
 GMPVideoi420FrameData
 {
-Shmem
-mBuffer
-;
 GMPPlaneData
 mYPlane
 ;
