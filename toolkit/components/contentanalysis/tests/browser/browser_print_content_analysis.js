@@ -108,7 +108,6 @@ test_setup
 {
 mockCA
 =
-await
 mockContentAnalysisService
 (
 mockCA
