@@ -22227,6 +22227,7 @@ CreateIcon
 aCursor
 .
 mContainer
+nullptr
 true
 hotspot
 layoutSize
