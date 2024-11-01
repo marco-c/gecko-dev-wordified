@@ -1207,14 +1207,12 @@ grokSupplementals
 {
 supplementalHandler
 =
-(
 o
 .
 supplementalHandler
 !
 =
-0
-)
+nullptr
 ?
 new
 EscapeTransliterator

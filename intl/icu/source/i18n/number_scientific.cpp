@@ -746,7 +746,7 @@ bool
 ScientificModifier
 :
 :
-semanticallyEquivalent
+strictEquals
 (
 const
 Modifier
@@ -755,6 +755,7 @@ other
 )
 const
 {
+const
 auto
 *
 _other

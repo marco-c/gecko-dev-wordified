@@ -143,6 +143,7 @@ UHashTok
 token
 )
 {
+const
 auto
 *
 locale
@@ -179,6 +180,7 @@ UHashTok
 t2
 )
 {
+const
 auto
 *
 l1
@@ -195,6 +197,7 @@ t1
 pointer
 )
 ;
+const
 auto
 *
 l2

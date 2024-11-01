@@ -3273,7 +3273,10 @@ override
 private
 :
 int32_t
-index
+pos
+;
+int32_t
+size
 ;
 const
 TransliteratorRegistry
@@ -3391,7 +3394,7 @@ IDs
 .
 *
 /
-UVector
+Hashtable
 availableIDs
 ;
 TransliteratorRegistry

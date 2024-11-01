@@ -406,8 +406,8 @@ namespace
 U_NAMESPACE_BEGIN
 namespace
 double_conversion
-{
-namespace
+:
+:
 PowersOfTenCache
 {
 /
@@ -567,12 +567,10 @@ found_exponent
 /
 /
 namespace
-PowersOfTenCache
-}
-/
-/
-namespace
 double_conversion
+:
+:
+PowersOfTenCache
 /
 /
 ICU

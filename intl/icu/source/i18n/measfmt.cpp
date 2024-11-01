@@ -3082,8 +3082,6 @@ pos
 )
 const
 {
-return
-;
 }
 UnicodeString
 &
@@ -3124,6 +3122,7 @@ return
 appendTo
 ;
 }
+const
 auto
 *
 df
@@ -3175,6 +3174,7 @@ result
 ;
 if
 (
+const
 auto
 *
 lnf
@@ -4152,6 +4152,7 @@ status
 )
 ;
 }
+const
 auto
 *
 df
@@ -4311,6 +4312,7 @@ result
 ;
 if
 (
+const
 auto
 *
 lnf
@@ -4739,6 +4741,7 @@ numberFormatter2
 ;
 if
 (
+const
 auto
 *
 lnf

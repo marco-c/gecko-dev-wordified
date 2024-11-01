@@ -360,11 +360,13 @@ fStuff
 (
 capacity
 ?
-(
+static_cast
+<
 NFRule
 *
 *
-)
+>
+(
 uprv_malloc
 (
 capacity
@@ -373,6 +375,7 @@ sizeof
 (
 NFRule
 *
+)
 )
 )
 :
@@ -548,11 +551,13 @@ fCapacity
 ;
 fStuff
 =
-(
+static_cast
+<
 NFRule
 *
 *
-)
+>
+(
 uprv_realloc
 (
 fStuff
@@ -562,6 +567,7 @@ sizeof
 (
 NFRule
 *
+)
 )
 )
 ;

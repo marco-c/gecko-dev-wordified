@@ -448,6 +448,7 @@ U_CFUNC
 UBool
 getShowWarning
 (
+void
 )
 {
 return
@@ -464,6 +465,7 @@ U_CFUNC
 UBool
 isStrict
 (
+void
 )
 {
 return
@@ -493,6 +495,7 @@ U_CFUNC
 UBool
 isVerbose
 (
+void
 )
 {
 return

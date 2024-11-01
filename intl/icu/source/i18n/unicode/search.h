@@ -1146,7 +1146,6 @@ virtual
 int32_t
 getOffset
 (
-void
 )
 const
 =
@@ -1428,7 +1427,6 @@ ICU
 int32_t
 getMatchedStart
 (
-void
 )
 const
 ;
@@ -1571,7 +1569,6 @@ ICU
 int32_t
 getMatchedLength
 (
-void
 )
 const
 ;
@@ -1961,7 +1958,6 @@ BreakIterator
 *
 getBreakIterator
 (
-void
 )
 const
 ;
@@ -2275,7 +2271,6 @@ UnicodeString
 &
 getText
 (
-void
 )
 const
 ;
@@ -2562,7 +2557,6 @@ SearchIterator
 *
 safeClone
 (
-void
 )
 const
 =

@@ -603,7 +603,7 @@ if
 pattern
 =
 =
-0
+nullptr
 )
 {
 return

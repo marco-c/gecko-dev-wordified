@@ -95,8 +95,8 @@ Grouper
 U_NAMESPACE_BEGIN
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 class
@@ -195,12 +195,10 @@ fCustomPlusSign
 /
 /
 namespace
-impl
-}
-/
-/
-namespace
 numparse
+:
+:
+impl
 U_NAMESPACE_END
 #
 endif

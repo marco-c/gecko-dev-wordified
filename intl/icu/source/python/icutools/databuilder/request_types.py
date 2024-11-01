@@ -1579,6 +1579,9 @@ def
 __init__
 (
 self
+shall_be_utf8
+=
+False
 *
 *
 kwargs
@@ -1596,6 +1599,12 @@ self
 content
 =
 None
+        
+self
+.
+shall_be_utf8
+=
+shall_be_utf8
         
 super
 (
@@ -2145,6 +2154,10 @@ output_file
 self
 .
 txt_file
+                
+shall_be_utf8
+=
+True
                 
 content
 =

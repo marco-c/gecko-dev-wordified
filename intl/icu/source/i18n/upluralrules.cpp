@@ -590,9 +590,8 @@ number
 }
 }
 return
-UnicodeString
-(
-)
+{
+}
 ;
 }
 }

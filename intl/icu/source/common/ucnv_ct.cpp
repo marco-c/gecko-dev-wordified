@@ -3397,9 +3397,6 @@ unit
 char16_t
 trail
 =
-(
-char16_t
-)
 *
 source
 ;

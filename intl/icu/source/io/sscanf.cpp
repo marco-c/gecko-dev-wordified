@@ -571,9 +571,6 @@ if
 size
 >
 =
-(
-int32_t
-)
 MAX_UCHAR_BUFFER_SIZE
 (
 patBuffer
@@ -601,7 +598,7 @@ if
 pattern
 =
 =
-0
+nullptr
 )
 {
 return
@@ -794,7 +791,7 @@ en_US_POSIX
 )
 =
 =
-0
+nullptr
 )
 {
 return

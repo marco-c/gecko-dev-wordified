@@ -487,6 +487,7 @@ OTHER
 }
 ;
 auto
+*
 pm
 =
 new
@@ -1085,6 +1086,7 @@ parent
 class
 .
 auto
+*
 nonConstThis
 =
 const_cast
@@ -1220,6 +1222,7 @@ parent
 class
 .
 auto
+*
 nonConstThis
 =
 const_cast
@@ -1392,6 +1395,7 @@ parent
 class
 .
 auto
+*
 nonConstThis
 =
 const_cast
@@ -1505,6 +1509,7 @@ parent
 class
 .
 auto
+*
 nonConstThis
 =
 const_cast
@@ -1670,7 +1675,7 @@ bool
 MutablePatternModifier
 :
 :
-semanticallyEquivalent
+strictEquals
 (
 const
 Modifier
@@ -2190,9 +2195,8 @@ UNumberUnitWidth
 UNUM_UNIT_WIDTH_HIDDEN
 :
 return
-UnicodeString
-(
-)
+{
+}
 ;
 default
 :

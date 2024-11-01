@@ -543,15 +543,10 @@ pBuffer
 newBuffer
 ;
 return
-(
-UBool
-)
-(
 newBuffer
 !
 =
 nullptr
-)
 ;
 }
 /

@@ -1004,7 +1004,6 @@ virtual
 int32_t
 hashCode
 (
-void
 )
 const
 override
@@ -1129,7 +1128,6 @@ virtual
 char16_t
 first
 (
-void
 )
 override
 ;
@@ -1206,7 +1204,6 @@ virtual
 char16_t
 firstPostInc
 (
-void
 )
 override
 ;
@@ -1297,7 +1294,6 @@ virtual
 UChar32
 first32
 (
-void
 )
 override
 ;
@@ -1375,7 +1371,6 @@ virtual
 UChar32
 first32PostInc
 (
-void
 )
 override
 ;
@@ -1441,7 +1436,6 @@ virtual
 char16_t
 last
 (
-void
 )
 override
 ;
@@ -1507,7 +1501,6 @@ virtual
 UChar32
 last32
 (
-void
 )
 override
 ;
@@ -1716,7 +1709,6 @@ virtual
 char16_t
 current
 (
-void
 )
 const
 override
@@ -1758,7 +1750,6 @@ virtual
 UChar32
 current32
 (
-void
 )
 const
 override
@@ -1826,7 +1817,6 @@ virtual
 char16_t
 next
 (
-void
 )
 override
 ;
@@ -1893,7 +1883,6 @@ virtual
 char16_t
 nextPostInc
 (
-void
 )
 override
 ;
@@ -1993,7 +1982,6 @@ virtual
 UChar32
 next32
 (
-void
 )
 override
 ;
@@ -2059,7 +2047,6 @@ virtual
 UChar32
 next32PostInc
 (
-void
 )
 override
 ;
@@ -2211,7 +2198,6 @@ virtual
 char16_t
 previous
 (
-void
 )
 override
 ;
@@ -2278,7 +2264,6 @@ virtual
 UChar32
 previous32
 (
-void
 )
 override
 ;
@@ -2740,7 +2725,6 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 /
@@ -2780,7 +2764,6 @@ virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override

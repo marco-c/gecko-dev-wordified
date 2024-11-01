@@ -7679,9 +7679,6 @@ U_HIDE_INTERNAL_API
 }
 UNumberFormatAttribute
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -7764,7 +7761,7 @@ unum_getTextAttribute
 see
 unum_setTextAttribute
 *
-draft
+stable
 ICU
 72
 *
@@ -7782,11 +7779,6 @@ UNumberFormatAttribute
 attr
 )
 ;
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

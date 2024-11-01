@@ -1358,7 +1358,6 @@ ICU
 DateRuleType
 getDateRuleType
 (
-void
 )
 const
 ;
@@ -1417,7 +1416,6 @@ ICU
 TimeRuleType
 getTimeRuleType
 (
-void
 )
 const
 ;
@@ -1447,7 +1445,6 @@ ICU
 int32_t
 getRuleMonth
 (
-void
 )
 const
 ;
@@ -1501,7 +1498,6 @@ ICU
 int32_t
 getRuleDayOfMonth
 (
-void
 )
 const
 ;
@@ -1556,7 +1552,6 @@ ICU
 int32_t
 getRuleDayOfWeek
 (
-void
 )
 const
 ;
@@ -1627,7 +1622,6 @@ ICU
 int32_t
 getRuleWeekInMonth
 (
-void
 )
 const
 ;
@@ -1666,7 +1660,6 @@ ICU
 int32_t
 getRuleMillisInDay
 (
-void
 )
 const
 ;
@@ -1794,7 +1787,6 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 /
@@ -1896,7 +1888,6 @@ virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override

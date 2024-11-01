@@ -4384,7 +4384,7 @@ pluginFile
 ;
 #
 ifdef
-OS390BATCH
+ICU_PLUGINS_DD
 /
 *
 There

@@ -167,8 +167,8 @@ DECNUM_INITIAL_CAPACITY
 endif
 namespace
 number
-{
-namespace
+:
+:
 impl
 {
 /
@@ -514,12 +514,10 @@ status
 /
 /
 namespace
-impl
-}
-/
-/
-namespace
 number
+:
+:
+impl
 U_NAMESPACE_END
 #
 endif

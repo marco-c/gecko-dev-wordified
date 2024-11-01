@@ -866,7 +866,6 @@ APPEND
 buffer
 bufLimit
 value
-num
 status
 )
 UPRV_BLOCK_MACRO_BEGIN
@@ -901,11 +900,6 @@ U_BUFFER_OVERFLOW_ERROR
 ;
 \
 }
-\
-num
-+
-+
-;
 \
 }
 UPRV_BLOCK_MACRO_END
@@ -968,11 +962,6 @@ UErrorCode
 status
 )
 {
-int32_t
-num
-=
-0
-;
 if
 (
 length
@@ -1013,7 +1002,6 @@ APPEND
 buffer
 bufLimit
 ESCAPE
-num
 status
 )
 ;
@@ -1023,7 +1011,6 @@ APPEND
 buffer
 bufLimit
 value
-num
 status
 )
 ;
@@ -1058,7 +1045,6 @@ APPEND
 buffer
 bufLimit
 ESCAPE
-num
 status
 )
 ;
@@ -1068,7 +1054,6 @@ APPEND
 buffer
 bufLimit
 value
-num
 status
 )
 ;
@@ -1082,7 +1067,6 @@ APPEND
 buffer
 bufLimit
 ESCAPE
-num
 status
 )
 ;
@@ -1094,7 +1078,6 @@ bufLimit
 uint16_t
 )
 length
-num
 status
 )
 ;
@@ -1106,7 +1089,6 @@ bufLimit
 uint16_t
 )
 value
-num
 status
 )
 ;
@@ -1393,9 +1375,6 @@ encodeRunShort
 (
 buffer
 bufLimit
-(
-uint16_t
-)
 runValue
 runLength
 status
@@ -1417,9 +1396,6 @@ encodeRunShort
 (
 buffer
 bufLimit
-(
-uint16_t
-)
 runValue
 runLength
 status

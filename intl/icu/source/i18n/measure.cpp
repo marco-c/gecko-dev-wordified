@@ -393,7 +393,7 @@ isNumeric
 adoptedUnit
 =
 =
-0
+nullptr
 )
 )
 {

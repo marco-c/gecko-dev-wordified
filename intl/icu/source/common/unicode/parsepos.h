@@ -867,7 +867,6 @@ inline
 int32_t
 getIndex
 (
-void
 )
 const
 ;
@@ -1000,7 +999,6 @@ inline
 int32_t
 getErrorIndex
 (
-void
 )
 const
 ;

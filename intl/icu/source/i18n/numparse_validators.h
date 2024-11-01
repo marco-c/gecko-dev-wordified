@@ -67,8 +67,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 class
@@ -371,12 +371,10 @@ fMultiplier
 /
 /
 namespace
-impl
-}
-/
-/
-namespace
 numparse
+:
+:
+impl
 U_NAMESPACE_END
 #
 endif

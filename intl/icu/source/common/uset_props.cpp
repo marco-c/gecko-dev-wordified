@@ -390,7 +390,7 @@ if
 set
 =
 =
-0
+nullptr
 )
 {
 *
@@ -399,7 +399,7 @@ ec
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-0
+nullptr
 ;
 }
 if
@@ -484,7 +484,7 @@ if
 set
 =
 =
-0
+nullptr
 )
 {
 *
@@ -493,7 +493,7 @@ ec
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-0
+nullptr
 ;
 }
 if

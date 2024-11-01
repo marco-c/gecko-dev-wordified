@@ -327,7 +327,7 @@ fMaxInt
 {
 quantity
 .
-setMinInteger
+increaseMinIntegerTo
 (
 fUnion
 .
@@ -379,7 +379,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 }
 quantity
 .
-setMinInteger
+increaseMinIntegerTo
 (
 fUnion
 .
