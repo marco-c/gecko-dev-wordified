@@ -707,15 +707,8 @@ false
 ;
 scalarReplacement_
 =
-false
+true
 ;
-/
-/
-wasm
-has
-no
-objects
-.
 sink_
 =
 false
