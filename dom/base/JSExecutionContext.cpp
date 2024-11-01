@@ -532,10 +532,6 @@ JSScript
 aDebuggerIntroductionScript
 )
 :
-mCx
-(
-aCx
-)
 mDebuggerPrivateValue
 (
 aCx
@@ -640,6 +636,9 @@ JSExecutionContext
 :
 JoinOffThread
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -704,7 +703,7 @@ aContext
 >
 StealOffThreadResult
 (
-mCx
+aCx
 &
 storage
 )
@@ -723,7 +722,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 return
@@ -741,7 +740,7 @@ JS
 :
 DuplicateStencil
 (
-mCx
+aCx
 stencil
 .
 get
@@ -763,7 +762,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 return
@@ -775,6 +774,7 @@ unused
 ;
 InstantiateStencil
 (
+aCx
 aCompileOptions
 std
 :
@@ -803,6 +803,9 @@ JSExecutionContext
 :
 InternalCompile
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -860,7 +863,7 @@ stencil
 =
 CompileGlobalScriptToStencil
 (
-mCx
+aCx
 aCompileOptions
 aSrcBuf
 )
@@ -879,7 +882,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 return
@@ -897,7 +900,7 @@ JS
 :
 DuplicateStencil
 (
-mCx
+aCx
 stencil
 .
 get
@@ -919,7 +922,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 return
@@ -931,6 +934,7 @@ unused
 ;
 InstantiateStencil
 (
+aCx
 aCompileOptions
 std
 :
@@ -952,6 +956,9 @@ JSExecutionContext
 :
 Compile
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -991,6 +998,7 @@ false
 {
 InternalCompile
 (
+aCx
 aCompileOptions
 aSrcBuf
 aScript
@@ -1005,6 +1013,9 @@ JSExecutionContext
 :
 Compile
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -1044,6 +1055,7 @@ false
 {
 InternalCompile
 (
+aCx
 aCompileOptions
 aSrcBuf
 aScript
@@ -1058,6 +1070,9 @@ JSExecutionContext
 :
 Compile
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -1122,7 +1137,7 @@ srcBuf
 .
 init
 (
-mCx
+aCx
 flatScript
 .
 get
@@ -1151,7 +1166,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 return
@@ -1159,6 +1174,7 @@ return
 }
 Compile
 (
+aCx
 aCompileOptions
 srcBuf
 aScriptOut
@@ -1173,6 +1189,9 @@ JSExecutionContext
 :
 Decode
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -1248,7 +1267,7 @@ JS
 :
 DecodeStencil
 (
-mCx
+aCx
 decodeOptions
 aBytecodeBuf
 getter_AddRefs
@@ -1343,7 +1362,7 @@ JS
 :
 DuplicateStencil
 (
-mCx
+aCx
 stencil
 .
 get
@@ -1365,7 +1384,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 return
@@ -1377,6 +1396,7 @@ unused
 ;
 InstantiateStencil
 (
+aCx
 aCompileOptions
 std
 :
@@ -1397,6 +1417,9 @@ JSExecutionContext
 :
 InstantiateStencil
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -1463,13 +1486,13 @@ JSScript
 >
 script
 (
-mCx
+aCx
 JS
 :
 :
 InstantiateGlobalStencil
 (
-mCx
+aCx
 instantiateOptions
 aStencil
 aStorage
@@ -1490,7 +1513,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 return
@@ -1509,7 +1532,7 @@ JS
 :
 StartIncrementalEncoding
 (
-mCx
+aCx
 std
 :
 :
@@ -1529,7 +1552,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 return
@@ -1564,7 +1587,7 @@ JS
 :
 UpdateDebugMetadata
 (
-mCx
+aCx
 aScript
 instantiateOptions
 mDebuggerPrivateValue
@@ -1587,6 +1610,9 @@ JSExecutionContext
 :
 ExecScript
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -1617,7 +1643,7 @@ if
 !
 JS_ExecuteScript
 (
-mCx
+aCx
 aScript
 )
 )
@@ -1630,7 +1656,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 }
@@ -1733,6 +1759,9 @@ JSExecutionContext
 :
 ExecScript
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -1782,7 +1811,7 @@ if
 !
 JS_ExecuteScript
 (
-mCx
+aCx
 aScript
 aRetValue
 )
@@ -1796,7 +1825,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 return
@@ -1809,7 +1838,7 @@ aCoerceToString
 &
 IsPromiseValue
 (
-mCx
+aCx
 aRetValue
 )
 )
@@ -1892,7 +1921,7 @@ JS
 :
 ToString
 (
-mCx
+aCx
 aRetValue
 )
 ;
@@ -1931,7 +1960,7 @@ aRv
 .
 NoteJSContextException
 (
-mCx
+aCx
 )
 ;
 return

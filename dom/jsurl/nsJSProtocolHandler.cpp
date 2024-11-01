@@ -2452,6 +2452,7 @@ exec
 .
 Compile
 (
+cx
 options
 NS_ConvertUTF8toUTF16
 (
@@ -2484,6 +2485,7 @@ exec
 .
 ExecScript
 (
+cx
 compiledScript
 &
 v

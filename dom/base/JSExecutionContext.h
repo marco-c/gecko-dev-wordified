@@ -261,10 +261,6 @@ MOZ_STACK_CLASS
 JSExecutionContext
 final
 {
-JSContext
-*
-mCx
-;
 /
 /
 Debug
@@ -386,6 +382,9 @@ Unit
 void
 InternalCompile
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -679,6 +678,9 @@ thread
 void
 JoinOffThread
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -719,6 +721,9 @@ SourceText
 void
 Compile
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -755,6 +760,9 @@ false
 void
 Compile
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -804,6 +812,9 @@ string
 void
 Compile
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -845,6 +856,9 @@ buffer
 void
 Decode
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -904,6 +918,9 @@ decoding
 void
 InstantiateStencil
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -964,6 +981,9 @@ value
 void
 ExecScript
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -1115,6 +1135,9 @@ set
 void
 ExecScript
 (
+JSContext
+*
+aCx
 JS
 :
 :
