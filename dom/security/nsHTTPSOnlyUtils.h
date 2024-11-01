@@ -1304,7 +1304,7 @@ aURI
 /
 static
 nsresult
-AddHTTPSFirstExceptionForSession
+AddHTTPSFirstException
 (
 nsCOMPtr
 <
