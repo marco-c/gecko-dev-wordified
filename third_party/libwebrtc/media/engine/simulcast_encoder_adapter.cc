@@ -2894,6 +2894,10 @@ height
 is_paused
 )
 ;
+encoder_context
+=
+nullptr
+;
 }
 /
 /
