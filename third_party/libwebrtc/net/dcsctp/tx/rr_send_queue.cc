@@ -610,6 +610,9 @@ is
 "
 <
 <
+webrtc
+:
+:
 StrJoin
 (
 actual_active_streams
@@ -627,6 +630,9 @@ expected
 "
 <
 <
+webrtc
+:
+:
 StrJoin
 (
 expected_active_streams
