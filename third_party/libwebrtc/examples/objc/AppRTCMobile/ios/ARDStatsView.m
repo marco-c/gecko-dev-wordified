@@ -134,8 +134,6 @@ CGRect
 )
 frame
 {
-if
-(
 self
 =
 [
@@ -144,6 +142,10 @@ initWithFrame
 :
 frame
 ]
+;
+if
+(
+self
 )
 {
 _statsLabel

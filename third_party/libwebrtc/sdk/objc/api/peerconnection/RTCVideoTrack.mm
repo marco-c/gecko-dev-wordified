@@ -338,8 +338,6 @@ type
 RTCMediaStreamTrackTypeVideo
 )
 ;
-if
-(
 self
 =
 [
@@ -354,6 +352,10 @@ type
 :
 type
 ]
+;
+if
+(
+self
 )
 {
 _adapters

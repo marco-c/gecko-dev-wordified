@@ -426,8 +426,6 @@ NSRect
 )
 frame
 {
-if
-(
 self
 =
 [
@@ -436,6 +434,10 @@ initWithFrame
 :
 frame
 ]
+;
+if
+(
+self
 )
 {
 [

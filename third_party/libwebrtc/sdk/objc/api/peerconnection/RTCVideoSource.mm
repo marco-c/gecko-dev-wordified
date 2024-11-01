@@ -284,8 +284,6 @@ RTC_DCHECK
 nativeVideoSource
 )
 ;
-if
-(
 self
 =
 [
@@ -300,6 +298,10 @@ type
 :
 RTCMediaSourceTypeVideo
 ]
+;
+if
+(
+self
 )
 {
 _nativeVideoSource

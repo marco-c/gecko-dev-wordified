@@ -169,8 +169,6 @@ CGRect
 )
 frame
 {
-if
-(
 self
 =
 [
@@ -179,6 +177,10 @@ initWithFrame
 :
 frame
 ]
+;
+if
+(
+self
 )
 {
 _roomText
@@ -452,8 +454,6 @@ CGRect
 )
 frame
 {
-if
-(
 self
 =
 [
@@ -462,6 +462,10 @@ initWithFrame
 :
 frame
 ]
+;
+if
+(
+self
 )
 {
 _roomText

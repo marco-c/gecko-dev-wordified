@@ -553,8 +553,6 @@ RTCVideoViewShading
 )
 shader
 {
-if
-(
 self
 =
 [
@@ -563,6 +561,10 @@ initWithFrame
 :
 frame
 ]
+;
+if
+(
+self
 )
 {
 _shader
@@ -611,8 +613,6 @@ RTCVideoViewShading
 )
 shader
 {
-if
-(
 self
 =
 [
@@ -621,6 +621,10 @@ initWithCoder
 :
 aDecoder
 ]
+;
+if
+(
+self
 )
 {
 _shader
