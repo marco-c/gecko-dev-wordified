@@ -2255,10 +2255,7 @@ Kinds
 PerformTrackSelection
 (
 ttKinds
-std
-:
-:
-size
+ArrayLength
 (
 ttKinds
 )
@@ -2451,10 +2448,7 @@ aTextTrackKind
 PerformTrackSelection
 (
 ttKinds
-std
-:
-:
-size
+ArrayLength
 (
 ttKinds
 )

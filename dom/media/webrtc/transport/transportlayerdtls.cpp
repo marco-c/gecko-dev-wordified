@@ -3133,10 +3133,10 @@ get
 (
 )
 NamedGroupPreferences
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 NamedGroupPreferences
 )

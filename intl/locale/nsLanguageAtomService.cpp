@@ -904,10 +904,7 @@ nsUConvPropertySearch
 SearchPropertyValue
 (
 encodingsGroups
-std
-:
-:
-size
+ArrayLength
 (
 encodingsGroups
 )
@@ -1739,10 +1736,7 @@ BinarySearchIf
 (
 kScriptLangGroup
 0
-std
-:
-:
-size
+ArrayLength
 (
 kScriptLangGroup
 )

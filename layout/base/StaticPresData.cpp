@@ -706,10 +706,7 @@ format
 on
 static_assert
 (
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 fontTypes
 )

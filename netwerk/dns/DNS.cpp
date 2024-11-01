@@ -2569,10 +2569,7 @@ other
 local
 .
 path
-std
-:
-:
-size
+ArrayLength
 (
 this
 -

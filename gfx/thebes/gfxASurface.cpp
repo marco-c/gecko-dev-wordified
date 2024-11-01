@@ -2045,10 +2045,7 @@ nullptr
 ;
 static_assert
 (
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 sSurfaceMemoryReporterAttrs
 )
@@ -2310,10 +2307,7 @@ const
 size_t
 len
 =
-std
-:
-:
-size
+ArrayLength
 (
 sSurfaceMemoryReporterAttrs
 )

@@ -732,10 +732,7 @@ del_type
 )
 >
 =
-std
-:
-:
-size
+ArrayLength
 (
 sDeleteCommands
 )
@@ -1330,10 +1327,7 @@ step
 )
 >
 =
-std
-:
-:
-size
+ArrayLength
 (
 sMoveCommands
 )

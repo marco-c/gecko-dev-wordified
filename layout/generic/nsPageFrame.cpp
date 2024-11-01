@@ -4019,10 +4019,7 @@ stroke
 gap
 *
 /
-std
-:
-:
-size
+ArrayLength
 (
 dashes
 )

@@ -6044,10 +6044,7 @@ baseURI
 [
 0
 ]
-std
-:
-:
-size
+ArrayLength
 (
 baseURI
 )
@@ -11225,10 +11222,7 @@ baseURI
 [
 0
 ]
-std
-:
-:
-size
+ArrayLength
 (
 baseURI
 )

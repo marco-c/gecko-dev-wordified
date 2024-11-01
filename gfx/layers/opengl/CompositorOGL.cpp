@@ -2609,10 +2609,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 textureTargets
 )
@@ -5301,10 +5298,7 @@ mGLContext
 fInvalidateFramebuffer
 (
 LOCAL_GL_FRAMEBUFFER
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 attachments
 )

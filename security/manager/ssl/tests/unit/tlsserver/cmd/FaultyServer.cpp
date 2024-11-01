@@ -1532,10 +1532,10 @@ SSL_NamedGroupConfig
 (
 aFd
 mlkemTestNamedGroups
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 mlkemTestNamedGroups
 )

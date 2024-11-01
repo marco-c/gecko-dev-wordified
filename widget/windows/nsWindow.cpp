@@ -4534,10 +4534,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 sInstance
 -

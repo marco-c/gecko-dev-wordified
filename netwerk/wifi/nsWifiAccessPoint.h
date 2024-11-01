@@ -196,10 +196,10 @@ memcpy
 (
 mMac
 aString
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 mMac
 )
@@ -355,10 +355,10 @@ std
 min
 (
 len
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 mSsid
 )

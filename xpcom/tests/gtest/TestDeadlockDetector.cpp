@@ -2379,10 +2379,7 @@ i
 (
 int32_t
 )
-std
-:
-:
-size
+ArrayLength
 (
 threads
 )
@@ -2413,10 +2410,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 threads
 )

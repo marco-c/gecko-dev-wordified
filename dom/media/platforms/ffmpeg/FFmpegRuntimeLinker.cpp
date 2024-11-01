@@ -520,10 +520,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 sLibs
 )
@@ -872,10 +869,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 sLibs
 )

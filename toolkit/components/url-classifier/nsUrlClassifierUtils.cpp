@@ -2192,10 +2192,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 THREAT_TYPE_CONV_TABLE
 )
@@ -2285,10 +2282,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 THREAT_TYPE_CONV_TABLE
 )

@@ -4060,10 +4060,10 @@ if
 tempBufferPos
 >
 =
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 tempBuffer
 )

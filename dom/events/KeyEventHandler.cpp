@@ -2923,10 +2923,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 gKeyCodes
 )

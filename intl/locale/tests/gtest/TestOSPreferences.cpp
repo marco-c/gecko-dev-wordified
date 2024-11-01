@@ -599,10 +599,10 @@ i
 ;
 i
 <
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 tests
 )

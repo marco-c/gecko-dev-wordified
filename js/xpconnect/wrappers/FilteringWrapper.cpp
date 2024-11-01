@@ -487,10 +487,10 @@ length
 (
 )
 +
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 sCrossOriginWhitelistedSymbolCodes
 )

@@ -2310,10 +2310,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 kIMESelections
 )

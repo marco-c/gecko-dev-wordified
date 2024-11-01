@@ -424,10 +424,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 kMimeTypeNames
 )
@@ -478,10 +475,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 kExtraPluginNames
 )
@@ -599,10 +593,7 @@ ForceNoPlugins
 &
 aIndex
 <
-std
-:
-:
-size
+ArrayLength
 (
 mPlugins
 )

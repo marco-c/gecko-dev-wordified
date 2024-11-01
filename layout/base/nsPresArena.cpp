@@ -250,10 +250,7 @@ mFreeLists
 entry
 !
 =
-std
-:
-:
-end
+ArrayEnd
 (
 mFreeLists
 )
@@ -353,10 +350,7 @@ size_t
 aCode
 )
 <
-std
-:
-:
-size
+ArrayLength
 (
 mFreeLists
 )
@@ -850,10 +844,7 @@ size_t
 aCode
 )
 <
-std
-:
-:
-size
+ArrayLength
 (
 mFreeLists
 )
@@ -1134,10 +1125,7 @@ mFreeLists
 entry
 !
 =
-std
-:
-:
-end
+ArrayEnd
 (
 mFreeLists
 )

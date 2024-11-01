@@ -7450,10 +7450,7 @@ link
 GetPath
 (
 storedExePath
-std
-:
-:
-size
+ArrayLength
 (
 storedExePath
 )
@@ -8771,10 +8768,7 @@ link
 GetPath
 (
 storedExePath
-std
-:
-:
-size
+ArrayLength
 (
 storedExePath
 )
@@ -15882,10 +15876,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 folders
 )

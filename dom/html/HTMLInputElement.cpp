@@ -1444,10 +1444,7 @@ kInputDefaultType
 &
 kInputTypeTable
 [
-std
-:
-:
-size
+ArrayLength
 (
 kInputTypeTable
 )
@@ -34830,10 +34827,7 @@ MOZ_ASSERT
 (
 kInputTypeTable
 [
-std
-:
-:
-size
+ArrayLength
 (
 kInputTypeTable
 )
@@ -34865,10 +34859,7 @@ FormControlType
 (
 kInputTypeTable
 [
-std
-:
-:
-size
+ArrayLength
 (
 kInputTypeTable
 )

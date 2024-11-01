@@ -2900,10 +2900,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 sPhaseObserverKeys
 )

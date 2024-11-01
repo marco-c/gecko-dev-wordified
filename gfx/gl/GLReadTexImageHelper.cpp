@@ -803,10 +803,7 @@ size_t
 )
 variant
 <
-std
-:
-:
-size
+ArrayLength
 (
 mPrograms
 )

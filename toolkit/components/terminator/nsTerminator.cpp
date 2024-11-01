@@ -1543,10 +1543,7 @@ for
 int
 i
 =
-std
-:
-:
-size
+ArrayLength
 (
 sShutdownSteps
 )

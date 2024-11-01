@@ -342,10 +342,7 @@ TestSplitAt
 (
 input
 delims
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 tokens
 )
@@ -402,10 +399,7 @@ TestSplitAt
 (
 input
 delims
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 tokens
 )
@@ -497,10 +491,7 @@ TestSplitAt
 (
 input
 delims
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 tokens
 )

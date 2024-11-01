@@ -2219,10 +2219,7 @@ i
 (
 LONG
 )
-std
-:
-:
-size
+ArrayLength
 (
 ids
 )

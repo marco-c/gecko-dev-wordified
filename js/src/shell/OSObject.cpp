@@ -6329,10 +6329,10 @@ if
 _wcserror_s
 (
 buffer
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 buffer
 )
@@ -6381,10 +6381,10 @@ strerror_r
 (
 errno
 buffer
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 buffer
 )

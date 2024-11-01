@@ -940,10 +940,10 @@ return
 ShellExecuteWithIFile
 (
 defaultApp
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 argv
 )
@@ -1380,10 +1380,10 @@ return
 ShellExecuteWithIFile
 (
 executable
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 argv
 )

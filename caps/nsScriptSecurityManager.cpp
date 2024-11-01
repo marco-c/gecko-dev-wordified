@@ -8085,10 +8085,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 flags
 )

@@ -6324,10 +6324,7 @@ STATE_COUNT
 ;
 MOZ_ASSERT
 (
-std
-:
-:
-size
+ArrayLength
 (
 names
 )
@@ -6403,10 +6400,7 @@ EVENT_COUNT
 ;
 MOZ_ASSERT
 (
-std
-:
-:
-size
+ArrayLength
 (
 names
 )

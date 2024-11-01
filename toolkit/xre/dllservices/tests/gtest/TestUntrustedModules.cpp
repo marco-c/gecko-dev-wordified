@@ -2170,10 +2170,7 @@ BinarySearchIf
 (
 kKnownModules
 0
-std
-:
-:
-size
+ArrayLength
 (
 kKnownModules
 )
@@ -2236,10 +2233,7 @@ BinarySearchIf
 (
 kTestModules
 0
-std
-:
-:
-size
+ArrayLength
 (
 kTestModules
 )
@@ -3440,10 +3434,7 @@ data3
 ValidateJSValue
 (
 kPattern
-std
-:
-:
-size
+ArrayLength
 (
 kPattern
 )

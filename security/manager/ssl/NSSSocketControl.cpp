@@ -1107,10 +1107,7 @@ unsigned
 int
 >
 (
-std
-:
-:
-size
+ArrayLength
 (
 chosenAlpn
 )

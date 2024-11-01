@@ -2403,10 +2403,7 @@ mPrivateKey
 PrivateKeyFromPrivateKeyTemplate
 (
 keyTemplate
-std
-:
-:
-size
+ArrayLength
 (
 keyTemplate
 )
@@ -4438,10 +4435,7 @@ return
 PrivateKeyFromPrivateKeyTemplate
 (
 keyTemplate
-std
-:
-:
-size
+ArrayLength
 (
 keyTemplate
 )
@@ -4944,10 +4938,7 @@ return
 PrivateKeyFromPrivateKeyTemplate
 (
 keyTemplate
-std
-:
-:
-size
+ArrayLength
 (
 keyTemplate
 )
@@ -5332,10 +5323,7 @@ return
 PrivateKeyFromPrivateKeyTemplate
 (
 keyTemplate
-std
-:
-:
-size
+ArrayLength
 (
 keyTemplate
 )

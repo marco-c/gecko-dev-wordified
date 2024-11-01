@@ -684,10 +684,7 @@ idx
 ;
 idx
 <
-std
-:
-:
-size
+ArrayLength
 (
 sDOMErrorMsgMap
 )
@@ -2186,10 +2183,7 @@ idx
 ;
 idx
 <
-std
-:
-:
-size
+ArrayLength
 (
 sDOMErrorMsgMap
 )

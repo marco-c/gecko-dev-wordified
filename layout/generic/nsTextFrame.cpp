@@ -47090,10 +47090,7 @@ for
 size_t
 i
 =
-std
-:
-:
-size
+ArrayLength
 (
 kPresentSelectionTypes
 )

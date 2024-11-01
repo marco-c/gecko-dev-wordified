@@ -1088,10 +1088,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-std
-:
-:
-size
+ArrayLength
 (
 sNumberInfo
 )
@@ -1114,10 +1111,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-std
-:
-:
-size
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -1140,10 +1134,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-std
-:
-:
-size
+ArrayLength
 (
 sStringInfo
 )

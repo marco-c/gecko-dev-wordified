@@ -15708,10 +15708,7 @@ if
 (
 nsid
 <
-std
-:
-:
-size
+ArrayLength
 (
 kNSURIs
 )

@@ -3752,10 +3752,7 @@ aliasName
 ;
 lenAlias
 =
-std
-:
-:
-size
+ArrayLength
 (
 aliasName
 )

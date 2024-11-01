@@ -315,10 +315,7 @@ ForceNoPlugins
 ?
 0
 :
-std
-:
-:
-size
+ArrayLength
 (
 mPlugins
 )

@@ -1660,10 +1660,7 @@ aLength
 offset
 !
 =
-std
-:
-:
-size
+ArrayLength
 (
 data
 )
@@ -1720,10 +1717,7 @@ std
 make_pair
 (
 offset
-std
-:
-:
-size
+ArrayLength
 (
 data
 )
@@ -2100,10 +2094,7 @@ aLength
 offset
 !
 =
-std
-:
-:
-size
+ArrayLength
 (
 data
 )
@@ -2159,10 +2150,7 @@ std
 make_pair
 (
 offset
-std
-:
-:
-size
+ArrayLength
 (
 data
 )
