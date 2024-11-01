@@ -946,16 +946,6 @@ EXPECT_CALL
 (
 *
 channel_receive_
-SetSourceTracker
-(
-_
-)
-)
-;
-EXPECT_CALL
-(
-*
-channel_receive_
 GetLocalSsrc
 (
 )
