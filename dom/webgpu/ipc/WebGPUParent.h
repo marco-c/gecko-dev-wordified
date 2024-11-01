@@ -1155,6 +1155,16 @@ WGPUSwapChainId
 aSwapChainId
 )
 ;
+void
+DisableExternalTextureForSwapChain
+(
+ffi
+:
+:
+WGPUSwapChainId
+aSwapChainId
+)
+;
 bool
 EnsureExternalTextureForSwapChain
 (
