@@ -1028,6 +1028,12 @@ ToString
 )
 const
 ;
+bool
+HasRequestedResolution
+(
+)
+const
+;
 /
 /
 TODO
