@@ -2684,7 +2684,7 @@ VIEW_SOURCE_HTML
 mTokenizer
 -
 >
-StartViewSourceCharacters
+StartViewSourceBodyContents
 (
 )
 ;
@@ -2775,7 +2775,7 @@ VIEW_SOURCE_HTML
 mTokenizer
 -
 >
-StartViewSourceCharacters
+StartViewSourceBodyContents
 (
 )
 ;
@@ -4906,7 +4906,7 @@ speculation
 mTokenizer
 -
 >
-StartViewSourceCharacters
+StartViewSourceBodyContents
 (
 )
 ;
@@ -4972,7 +4972,7 @@ VIEW_SOURCE_HTML
 mTokenizer
 -
 >
-StartViewSourceCharacters
+StartViewSourceBodyContents
 (
 )
 ;
@@ -7136,7 +7136,7 @@ VIEW_SOURCE_XML
 mTokenizer
 -
 >
-StartViewSourceCharacters
+StartViewSourceBodyContents
 (
 )
 ;
@@ -12741,7 +12741,7 @@ speculation
 mTokenizer
 -
 >
-StartViewSourceCharacters
+StartViewSourceBodyContents
 (
 )
 ;

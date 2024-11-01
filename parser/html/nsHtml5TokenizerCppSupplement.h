@@ -678,14 +678,14 @@ void
 nsHtml5Tokenizer
 :
 :
-StartViewSourceCharacters
+StartViewSourceBodyContents
 (
 )
 {
 mViewSource
 -
 >
-StartCharacters
+StartBodyContents
 (
 )
 ;

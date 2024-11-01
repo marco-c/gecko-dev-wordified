@@ -333,7 +333,7 @@ aTitle
 )
 ;
 void
-StartViewSourceCharacters
+StartViewSourceBodyContents
 (
 )
 ;
