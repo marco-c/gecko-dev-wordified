@@ -13717,17 +13717,6 @@ mgr
 hyperAcc
 aIncludeDefaults
 acc
-acc
-?
-acc
--
->
-IndexInParent
-(
-)
-:
--
-1
 )
 ;
 mgr
@@ -13735,8 +13724,6 @@ mgr
 GetAttributes
 (
 attributes
-nullptr
-nullptr
 )
 ;
 }
