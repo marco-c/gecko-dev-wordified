@@ -324,15 +324,6 @@ html
 file
 :
 "
-helper_fission_setResolution
-.
-html
-"
-}
-{
-file
-:
-"
 helper_fission_inactivescroller_positionedcontent
 .
 html
