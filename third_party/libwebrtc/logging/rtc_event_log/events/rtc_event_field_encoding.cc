@@ -1336,12 +1336,9 @@ if
 (
 values
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 /
@@ -1757,12 +1754,9 @@ if
 (
 values
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 /

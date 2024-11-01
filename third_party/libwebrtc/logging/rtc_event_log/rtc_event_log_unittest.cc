@@ -1243,7 +1243,7 @@ the
 config
 events
 and
-num_events_before_log_start
+num_events_before_start
 /
 /
 randomized
@@ -1275,7 +1275,7 @@ WriteLog
 EventCounts
 count
 size_t
-num_events_before_log_start
+num_events_before_start
 )
 ;
 void
