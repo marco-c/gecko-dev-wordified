@@ -17743,8 +17743,6 @@ aScript
 )
 ;
 }
-aExec
-.
 ExecScript
 (
 aCx

@@ -38088,8 +38088,6 @@ script
 )
 ;
 }
-exec
-.
 ExecScript
 (
 aes

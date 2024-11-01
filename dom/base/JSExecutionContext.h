@@ -966,6 +966,8 @@ aStorage
 nullptr
 )
 ;
+}
+;
 /
 /
 Execute
@@ -1047,6 +1049,19 @@ result
 to
 a
 string
+the
+nsresult
+is
+be
+set
+to
+the
+corresponding
+result
+/
+/
+code
+and
 the
 mutable
 handle
@@ -1166,8 +1181,6 @@ aCoerceToString
 =
 false
 )
-;
-}
 ;
 }
 /
