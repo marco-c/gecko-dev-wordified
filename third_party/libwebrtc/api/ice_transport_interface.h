@@ -116,15 +116,6 @@ include
 "
 api
 /
-rtc_error
-.
-h
-"
-#
-include
-"
-api
-/
 rtc_event_log
 /
 rtc_event_log

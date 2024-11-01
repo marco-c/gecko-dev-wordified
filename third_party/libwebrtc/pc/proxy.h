@@ -458,6 +458,15 @@ include
 "
 api
 /
+make_ref_counted
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h

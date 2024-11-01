@@ -91,11 +91,6 @@ API_ASYNC_DNS_RESOLVER_H_
 #
 include
 <
-functional
->
-#
-include
-<
 memory
 >
 #
@@ -106,15 +101,6 @@ absl
 functional
 /
 any_invocable
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-checks
 .
 h
 "

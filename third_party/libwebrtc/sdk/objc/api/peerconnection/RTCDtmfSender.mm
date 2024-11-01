@@ -114,6 +114,15 @@ h
 #
 include
 "
+api
+/
+scoped_refptr
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 time_utils

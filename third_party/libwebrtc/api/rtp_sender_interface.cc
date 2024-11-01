@@ -94,6 +94,15 @@ h
 #
 include
 "
+api
+/
+rtp_parameters
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks
