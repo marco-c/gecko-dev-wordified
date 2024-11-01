@@ -48405,7 +48405,7 @@ prevSiblingIndex
 prevSibLine
 -
 >
-RIndexOf
+RLIndexOf
 (
 aPrevSibling
 lastFrameInLine
