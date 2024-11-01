@@ -893,7 +893,7 @@ dbg
 assertColumn
 (
 dbg
-null
+1
 )
 ;
 await
