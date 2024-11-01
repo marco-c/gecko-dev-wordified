@@ -2266,7 +2266,7 @@ clears
 /
 MODIFIER_ALT
 and
-MODIFIER_CONTROL
+MDOFIEIR_CONTROL
 of
 eKeyPress
 event
