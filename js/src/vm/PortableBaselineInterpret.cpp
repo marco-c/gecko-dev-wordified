@@ -19969,7 +19969,7 @@ index
 )
 DEFINE_IC
 (
-Typeof
+TypeOf
 1
 {
 IC_LOAD_VAL
@@ -20011,7 +20011,7 @@ error
 ;
 DEFINE_IC
 (
-TypeofEq
+TypeOfEq
 1
 {
 IC_LOAD_VAL
@@ -23797,7 +23797,7 @@ IC_POP_ARG
 ;
 INVOKE_IC
 (
-Typeof
+TypeOf
 )
 ;
 IC_PUSH_RESULT
@@ -23907,7 +23907,7 @@ IC_POP_ARG
 ;
 INVOKE_IC
 (
-TypeofEq
+TypeOfEq
 )
 ;
 IC_PUSH_RESULT
