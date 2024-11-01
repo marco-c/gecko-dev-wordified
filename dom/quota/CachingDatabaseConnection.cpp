@@ -575,6 +575,10 @@ destroy
 (
 )
 ;
+mClosed
+=
+true
+;
 }
 #
 if
