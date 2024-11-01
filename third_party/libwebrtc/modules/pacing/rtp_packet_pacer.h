@@ -94,13 +94,6 @@ MODULES_PACING_RTP_PACKET_PACER_H_
 #
 include
 <
-stdint
-.
-h
->
-#
-include
-<
 optional
 >
 #
