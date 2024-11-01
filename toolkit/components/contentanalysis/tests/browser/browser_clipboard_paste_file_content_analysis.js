@@ -254,6 +254,7 @@ test_setup
 {
 mockCA
 =
+await
 mockContentAnalysisService
 (
 mockCA
@@ -1825,7 +1826,7 @@ calls
 innerTempDir
 )
 ;
-assertContentAnalysisRequestFile
+assertContentAnalysisRequestText
 (
 mockCA
 .
@@ -1833,7 +1834,9 @@ calls
 [
 1
 ]
-file1
+"
+Alternate
+"
 )
 ;
 assertContentAnalysisRequestFile
@@ -1844,10 +1847,10 @@ calls
 [
 2
 ]
-file2
+file1
 )
 ;
-assertContentAnalysisRequestText
+assertContentAnalysisRequestFile
 (
 mockCA
 .
@@ -1855,9 +1858,7 @@ calls
 [
 3
 ]
-"
-Alternate
-"
+file2
 )
 ;
 mockCA
