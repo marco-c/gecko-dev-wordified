@@ -1340,6 +1340,9 @@ final
 String
 autocapitalize
 final
+boolean
+autocorrect
+final
 int
 flags
 )
@@ -1438,6 +1441,17 @@ append
 "
 \
 "
+"
+)
+.
+append
+(
+autocorrect
+)
+.
+append
+(
+"
 0x
 "
 )
@@ -1499,6 +1513,7 @@ typeHint
 modeHint
 actionHint
 autocapitalize
+autocorrect
 flags
 )
 ;

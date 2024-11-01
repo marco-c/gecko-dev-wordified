@@ -8661,6 +8661,9 @@ mActionHint
 aContext
 .
 mAutocapitalize
+aContext
+.
+mAutocorrect
 flags
 )
 ;
