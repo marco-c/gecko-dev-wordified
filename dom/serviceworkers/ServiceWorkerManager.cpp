@@ -15135,6 +15135,10 @@ ServiceWorkerManager
 :
 Update
 (
+const
+ClientInfo
+&
+aClientInfo
 nsIPrincipal
 *
 aPrincipal
@@ -15168,6 +15172,7 @@ IsEmpty
 ;
 UpdateInternal
 (
+aClientInfo
 aPrincipal
 aScope
 std
@@ -15187,6 +15192,10 @@ ServiceWorkerManager
 :
 UpdateInternal
 (
+const
+ClientInfo
+&
+aClientInfo
 nsIPrincipal
 *
 aPrincipal

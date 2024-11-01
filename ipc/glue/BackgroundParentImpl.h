@@ -1660,6 +1660,9 @@ AllocPServiceWorkerRegistrationParent
 const
 IPCServiceWorkerRegistrationDescriptor
 &
+const
+IPCClientInfo
+&
 )
 final
 ;
@@ -1679,6 +1682,10 @@ const
 IPCServiceWorkerRegistrationDescriptor
 &
 aDescriptor
+const
+IPCClientInfo
+&
+aForClient
 )
 override
 ;

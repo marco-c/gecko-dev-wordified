@@ -803,6 +803,10 @@ aRv
 void
 Update
 (
+const
+ClientInfo
+&
+aClientInfo
 nsIPrincipal
 *
 aPrincipal
@@ -820,6 +824,10 @@ aCallback
 void
 UpdateInternal
 (
+const
+ClientInfo
+&
+aClientInfo
 nsIPrincipal
 *
 aPrincipal

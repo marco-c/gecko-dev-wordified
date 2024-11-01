@@ -6676,6 +6676,9 @@ AllocPServiceWorkerRegistrationParent
 const
 IPCServiceWorkerRegistrationDescriptor
 &
+const
+IPCClientInfo
+&
 )
 {
 return
@@ -6712,6 +6715,10 @@ const
 IPCServiceWorkerRegistrationDescriptor
 &
 aDescriptor
+const
+IPCClientInfo
+&
+aForClient
 )
 {
 dom
@@ -6721,6 +6728,7 @@ InitServiceWorkerRegistrationParent
 (
 aActor
 aDescriptor
+aForClient
 )
 ;
 return
