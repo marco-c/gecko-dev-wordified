@@ -6968,12 +6968,7 @@ receive_stream
 new
 FlexfecReceiveStreamImpl
 (
-&
 env_
-.
-clock
-(
-)
 std
 :
 :
