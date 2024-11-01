@@ -232,6 +232,8 @@ u
 -
 ca
 -
+islamic
+-
 umalqura
 -
 nu
