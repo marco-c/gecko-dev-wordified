@@ -257,8 +257,6 @@ nativeVideoSource
 nativeId
 )
 ;
-if
-(
 self
 =
 [
@@ -273,6 +271,10 @@ type
 :
 RTCMediaStreamTrackTypeVideo
 ]
+;
+if
+(
+self
 )
 {
 _source

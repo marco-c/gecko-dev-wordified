@@ -239,8 +239,6 @@ get
 )
 )
 ;
-if
-(
 self
 =
 [
@@ -255,6 +253,10 @@ type
 :
 RTCMediaStreamTrackTypeAudio
 ]
+;
+if
+(
+self
 )
 {
 _source
