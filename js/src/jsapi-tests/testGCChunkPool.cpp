@@ -205,6 +205,10 @@ runtime
 -
 >
 gc
+StallAndRetry
+:
+:
+No
 )
 ;
 CHECK

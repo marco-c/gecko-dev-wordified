@@ -137,6 +137,15 @@ include
 "
 gc
 /
+Memory
+.
+h
+"
+#
+include
+"
+gc
+/
 Pretenuring
 .
 h
@@ -3691,6 +3700,8 @@ allocate
 GCRuntime
 *
 gc
+StallAndRetry
+stallAndRetry
 )
 ;
 static

@@ -218,6 +218,15 @@ include
 "
 gc
 /
+Memory
+.
+h
+"
+#
+include
+"
+gc
+/
 Nursery
 .
 h
@@ -3600,6 +3609,8 @@ ArenaChunk
 *
 getOrAllocChunk
 (
+StallAndRetry
+stallAndRetry
 AutoLockGCBgAlloc
 &
 lock
@@ -3625,6 +3636,8 @@ ArenaChunk
 *
 takeOrAllocChunk
 (
+StallAndRetry
+stallAndRetry
 AutoLockGCBgAlloc
 &
 lock
@@ -4442,6 +4455,8 @@ ArenaChunk
 *
 pickChunk
 (
+StallAndRetry
+stallAndRetry
 AutoLockGCBgAlloc
 &
 lock

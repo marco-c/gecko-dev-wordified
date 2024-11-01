@@ -152,6 +152,15 @@ h
 #
 include
 "
+gc
+/
+Memory
+.
+h
+"
+#
+include
+"
 js
 /
 GCAPI
@@ -2524,6 +2533,8 @@ AllocKind
 thingKind
 ShouldCheckThresholds
 checkThresholds
+StallAndRetry
+stallAndRetry
 )
 ;
 friend
