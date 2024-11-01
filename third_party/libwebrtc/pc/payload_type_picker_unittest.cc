@@ -560,7 +560,7 @@ ok
 ;
 recorder
 .
-Checkpoint
+Commit
 (
 )
 ;
@@ -727,7 +727,7 @@ effect
 .
 recorder
 .
-Checkpoint
+Commit
 (
 )
 ;
