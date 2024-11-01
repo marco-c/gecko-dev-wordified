@@ -2896,9 +2896,6 @@ name
 "
 ImageDecoder
 "
-nightly
-:
-true
 }
 /
 /
@@ -2922,9 +2919,6 @@ name
 "
 ImageTrack
 "
-nightly
-:
-true
 }
 /
 /
@@ -2948,9 +2942,6 @@ name
 "
 ImageTrackList
 "
-nightly
-:
-true
 }
 /
 /
@@ -4343,9 +4334,6 @@ VideoColorSpace
 insecureContext
 :
 true
-nightlyAndroid
-:
-true
 }
 /
 /
@@ -4422,9 +4410,6 @@ name
 VideoFrame
 "
 insecureContext
-:
-true
-nightlyAndroid
 :
 true
 }
