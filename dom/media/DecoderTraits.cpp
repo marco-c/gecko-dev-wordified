@@ -1174,8 +1174,8 @@ DecoderTraits
 ShouldHandleMediaType
 (
 const
-char
-*
+nsACString
+&
 aMIMEType
 DecoderDoctorDiagnostics
 *

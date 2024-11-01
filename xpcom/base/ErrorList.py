@@ -10850,6 +10850,18 @@ FAILURE
 98
 )
     
+errors
+[
+"
+NS_ERROR_CSP_BLOCKED_MEDIA_DOCUMENT
+"
+]
+=
+FAILURE
+(
+99
+)
+    
 #
 Error
 code
