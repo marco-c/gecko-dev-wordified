@@ -2337,7 +2337,7 @@ dom_push_enabled
 )
 &
 &
-ServiceWorkerVisible
+ServiceWorkersEnabled
 (
 aCx
 aGlobal

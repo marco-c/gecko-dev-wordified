@@ -2113,6 +2113,7 @@ GetClientState
 (
 )
 const
+final
 ;
 mozilla
 :

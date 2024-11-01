@@ -337,17 +337,6 @@ JSObject
 aGlobal
 )
 ;
-bool
-ServiceWorkerVisible
-(
-JSContext
-*
-aCx
-JSObject
-*
-aGlobal
-)
-;
 }
 /
 /

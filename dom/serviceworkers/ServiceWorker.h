@@ -385,7 +385,7 @@ ServiceWorker
 (
 nsIGlobalObject
 *
-aWindow
+aGlobal
 const
 ServiceWorkerDescriptor
 &
