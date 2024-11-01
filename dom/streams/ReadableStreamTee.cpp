@@ -5935,18 +5935,6 @@ Step
 .
 5
 .
-Perform
-!
-ReadableStreamBYOBReaderRead
-(
-reader
-view
-1
-/
-/
-readIntoRequest
-)
-.
 RefPtr
 <
 ReadableStreamBYOBReader
@@ -5970,7 +5958,6 @@ ReadableStreamBYOBReaderRead
 aCx
 byobReader
 aView
-1
 readIntoRequest
 aRv
 )
