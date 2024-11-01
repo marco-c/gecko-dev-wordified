@@ -4563,6 +4563,14 @@ readOp
 )
 ;
 \
+cacheop
+=
+CacheOp
+:
+:
+name
+;
+\
 goto
 cacheop_
 #
