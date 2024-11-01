@@ -269,7 +269,6 @@ NS_IMPL_QUERY_INTERFACE
 (
 Variant_base
 nsIVariant
-nsIInterfaceRequestor
 )
 /
 /

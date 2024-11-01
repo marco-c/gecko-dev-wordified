@@ -4337,11 +4337,6 @@ sqlite3
 h
 "
 "
-sqlite3_static_ext
-.
-h
-"
-"
 sslerr
 .
 h

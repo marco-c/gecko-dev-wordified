@@ -475,8 +475,6 @@ RefPtr
 <
 VisitedQuery
 >
-&
-&
 )
 ;
 /
