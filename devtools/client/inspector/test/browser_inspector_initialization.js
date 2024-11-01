@@ -800,7 +800,9 @@ querySelector
 "
 button
 [
-checked
+aria
+-
+pressed
 =
 true
 ]
@@ -814,9 +816,7 @@ button
 A
 crumbs
 is
-checked
-=
-true
+pressed
 "
 )
 ;

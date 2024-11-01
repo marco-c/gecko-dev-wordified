@@ -917,7 +917,9 @@ querySelector
 "
 button
 [
-checked
+aria
+-
+pressed
 =
 true
 ]
