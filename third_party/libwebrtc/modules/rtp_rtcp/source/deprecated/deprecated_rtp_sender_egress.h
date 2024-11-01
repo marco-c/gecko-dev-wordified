@@ -136,9 +136,9 @@ include
 "
 api
 /
-rtc_event_log
+environment
 /
-rtc_event_log
+environment
 .
 h
 "
@@ -373,6 +373,10 @@ sequence_number_assigner_
 ;
 DEPRECATED_RtpSenderEgress
 (
+const
+Environment
+&
+env
 const
 RtpRtcpInterface
 :
@@ -723,6 +727,10 @@ lock_
 )
 ;
 const
+Environment
+env_
+;
+const
 uint32_t
 ssrc_
 ;
@@ -750,11 +758,6 @@ const
 bool
 populate_network2_timestamp_
 ;
-Clock
-*
-const
-clock_
-;
 RtpPacketHistory
 *
 const
@@ -764,11 +767,6 @@ Transport
 *
 const
 transport_
-;
-RtcEventLog
-*
-const
-event_log_
 ;
 const
 bool
