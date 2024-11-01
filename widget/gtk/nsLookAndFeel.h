@@ -334,7 +334,15 @@ NS_RGB
 255
 )
 ;
-void
+/
+/
+Returns
+whether
+any
+setting
+changed
+.
+bool
 RecomputeDBusSettings
 (
 )
