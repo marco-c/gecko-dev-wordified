@@ -2457,8 +2457,12 @@ compiledScript
 cx
 )
 ;
-exec
-.
+mozilla
+:
+:
+dom
+:
+:
 Compile
 (
 cx
