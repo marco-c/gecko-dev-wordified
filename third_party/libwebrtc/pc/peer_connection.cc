@@ -4547,6 +4547,7 @@ make_unique
 RtpTransmissionManager
 >
 (
+env_
 IsUnifiedPlan
 (
 )
@@ -7735,6 +7736,11 @@ std
 :
 :
 nullopt
+env_
+.
+field_trials
+(
+)
 )
 ;
 if
@@ -8269,6 +8275,7 @@ AudioRtpSender
 :
 Create
 (
+env_
 worker_thread
 (
 )
@@ -8360,6 +8367,7 @@ VideoRtpSender
 :
 Create
 (
+env_
 worker_thread
 (
 )

@@ -1584,6 +1584,9 @@ AudioRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 audio_track_
 -
@@ -1675,6 +1678,9 @@ AudioRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 /
 *
@@ -1993,6 +1999,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 video_track_
 -
@@ -2082,6 +2091,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 /
 *
@@ -3306,6 +3318,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 rtc
 :
 :
@@ -6039,6 +6054,9 @@ AudioRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 /
 *
@@ -6155,6 +6173,9 @@ AudioRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 /
 *
@@ -6367,6 +6388,9 @@ AudioRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 audio_track_
 -
@@ -6606,6 +6630,9 @@ AudioRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 /
 *
@@ -7665,6 +7692,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 /
 *
@@ -7780,6 +7810,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 /
 *
@@ -7974,6 +8007,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 video_track_
 -
@@ -8298,6 +8334,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 video_track_
 -
@@ -8614,6 +8653,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 video_track_
 -
@@ -8870,6 +8912,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 /
 *
@@ -11675,6 +11720,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 video_track_
 -
@@ -13054,6 +13102,9 @@ VideoRtpSender
 :
 Create
 (
+CreateEnvironment
+(
+)
 worker_thread_
 video_track_
 -
