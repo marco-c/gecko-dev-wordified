@@ -18664,8 +18664,11 @@ nsComputedDOMStyle
 GetUnanimatedComputedStyleNoFlush
 (
 aElement
+PseudoStyleRequest
+(
 *
 pseudo
+)
 )
 ;
 if

@@ -571,11 +571,10 @@ dom
 Element
 *
 aElement
-PseudoStyleType
+const
+PseudoStyleRequest
+&
 aPseudo
-nsAtom
-*
-aFunctionalPseudoParameter
 )
 {
 MOZ_ASSERT
@@ -661,7 +660,6 @@ GetComputedStyle
 (
 aElement
 aPseudo
-aFunctionalPseudoParameter
 )
 ;
 }
@@ -2095,10 +2093,7 @@ aResult
 )
 {
 auto
-[
-type
-functionalPseudoParameter
-]
+pseudo
 =
 nsCSSPseudoElements
 :
@@ -2115,7 +2110,7 @@ ForAllContent
 if
 (
 !
-type
+pseudo
 )
 {
 return
@@ -2195,8 +2190,7 @@ GetCleanComputedStyleForElement
 &
 aElement
 *
-type
-functionalPseudoParameter
+pseudo
 )
 ;
 }
