@@ -470,7 +470,7 @@ hiddenWindowDisabledItems
 cmd_close
 "
 "
-minimizeWindow
+cmd_minimizeWindow
 "
 "
 zoomWindow
