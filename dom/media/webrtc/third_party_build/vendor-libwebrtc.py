@@ -76,6 +76,10 @@ THIRDPARTY_USED_IN_FIREFOX
 [
     
 "
+crc32c
+"
+    
+"
 pffft
 "
     
