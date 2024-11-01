@@ -1517,6 +1517,9 @@ Wait
 task
 .
 sleep_time
+task
+.
+sleep_time
 )
 ;
 }
