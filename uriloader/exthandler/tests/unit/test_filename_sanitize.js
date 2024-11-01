@@ -166,7 +166,11 @@ png
 0
 )
 "
-whitespaceanddots
+_whitespaceanddots
+.
+png
+.
+.
 .
 png
 "
@@ -297,6 +301,7 @@ u180e
 0
 )
 "
+_
 whit
 \
 u180ee
@@ -2583,9 +2588,7 @@ unknown
 "
 filename
 .
-local
-.
-download
+local___
 "
 "
 filename
