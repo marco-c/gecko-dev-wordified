@@ -1250,6 +1250,8 @@ prepareForForOfLoopIteration
 BytecodeEmitter
 *
 bce
+bool
+hasAwaitUsing
 )
 ;
 [
