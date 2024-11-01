@@ -4214,14 +4214,6 @@ dom
 Selection
 :
 :
-SCROLL_FOR_CARET_MOVE
-|
-dom
-:
-:
-Selection
-:
-:
 SCROLL_OVERFLOW_HIDDEN
 )
 ;
