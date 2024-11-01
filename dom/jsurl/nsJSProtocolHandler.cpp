@@ -2435,6 +2435,19 @@ cx
 globalJSObject
 )
 ;
+JS
+:
+:
+Rooted
+<
+JSScript
+*
+>
+compiledScript
+(
+cx
+)
+;
 exec
 .
 Compile
@@ -2444,6 +2457,8 @@ NS_ConvertUTF8toUTF16
 (
 script
 )
+&
+compiledScript
 erv
 )
 ;
@@ -2469,6 +2484,7 @@ exec
 .
 ExecScript
 (
+compiledScript
 &
 v
 erv
