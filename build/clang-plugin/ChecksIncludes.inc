@@ -143,6 +143,13 @@ endif
 #
 include
 "
+GlobalVariableInitializationChecker
+.
+h
+"
+#
+include
+"
 JSHandleRootedTypedefChecker
 .
 h

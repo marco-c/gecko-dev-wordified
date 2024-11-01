@@ -147,6 +147,11 @@ TestGlobalClass
 cpp
 "
 "
+TestGlobalVariableInitialization
+.
+cpp
+"
+"
 TestHeapClass
 .
 cpp

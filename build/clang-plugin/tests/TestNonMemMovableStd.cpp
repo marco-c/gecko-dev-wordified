@@ -12,6 +12,20 @@ moz_needs_memmovable_type
 )
 )
 )
+#
+define
+MOZ_RUNINIT
+__attribute__
+(
+(
+annotate
+(
+"
+moz_global_var
+"
+)
+)
+)
 template
 <
 class
@@ -660,6 +674,7 @@ char
 )
 }
 }
+MOZ_RUNINIT
 static
 Mover
 <
@@ -702,6 +717,7 @@ requested
 here
 }
 }
+MOZ_RUNINIT
 static
 Mover
 <
@@ -742,6 +758,7 @@ int
 >
 good
 ;
+MOZ_RUNINIT
 static
 Mover
 <
@@ -803,6 +820,7 @@ requested
 here
 }
 }
+MOZ_RUNINIT
 static
 Mover
 <
@@ -929,6 +947,7 @@ has_trivial_move
 >
 trivial_move
 ;
+MOZ_RUNINIT
 static
 Mover
 <

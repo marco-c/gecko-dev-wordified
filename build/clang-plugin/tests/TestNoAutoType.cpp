@@ -12,6 +12,20 @@ moz_non_autoable
 )
 )
 )
+#
+define
+MOZ_RUNINIT
+__attribute__
+(
+(
+annotate
+(
+"
+moz_global_var
+"
+)
+)
+)
 template
 <
 class
@@ -527,6 +541,7 @@ c
 ExplicitType
 A
 ;
+MOZ_RUNINIT
 auto
 B
 =
@@ -569,6 +584,7 @@ explicitly
 NonExplicitType
 C
 ;
+MOZ_RUNINIT
 auto
 D
 =
