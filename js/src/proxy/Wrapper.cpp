@@ -3125,6 +3125,7 @@ unsigned
 true
 )
 ;
+MOZ_RUNINIT
 JSObject
 *
 const

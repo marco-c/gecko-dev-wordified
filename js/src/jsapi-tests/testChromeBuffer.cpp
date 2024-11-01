@@ -237,6 +237,7 @@ Text
 .
 h
 "
+MOZ_RUNINIT
 static
 TestJSPrincipals
 system_principals
@@ -263,6 +264,7 @@ JS
 DefaultGlobalClassOps
 }
 ;
+MOZ_RUNINIT
 static
 JS
 :
@@ -270,6 +272,7 @@ JS
 PersistentRootedObject
 trusted_glob
 ;
+MOZ_RUNINIT
 static
 JS
 :

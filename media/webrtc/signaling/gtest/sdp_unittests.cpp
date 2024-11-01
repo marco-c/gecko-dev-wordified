@@ -1348,6 +1348,7 @@ sdp_ptr_
 ;
 }
 ;
+MOZ_RUNINIT
 static
 const
 std
@@ -2534,6 +2535,7 @@ n
 )
 ;
 }
+MOZ_RUNINIT
 static
 const
 std
@@ -11145,6 +11147,7 @@ npos
 )
 ;
 }
+MOZ_RUNINIT
 static
 const
 std
@@ -12960,6 +12963,7 @@ error
 "
 ;
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -14195,6 +14199,7 @@ call
 FFX
 /
 FFX
+MOZ_RUNINIT
 const
 std
 :
@@ -15676,6 +15681,7 @@ str
 )
 ;
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -15694,6 +15700,7 @@ n
 "
 )
 ;
+MOZ_RUNINIT
 const
 std
 :
@@ -18836,6 +18843,7 @@ videoRtpmap
 )
 ;
 }
+MOZ_RUNINIT
 static
 const
 std
@@ -20611,6 +20619,7 @@ CheckDtmfFmtp
 )
 ;
 }
+MOZ_RUNINIT
 static
 const
 std
@@ -21776,6 +21785,7 @@ encodings
 )
 ;
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -27132,6 +27142,7 @@ channel
 FFX
 /
 FFX
+MOZ_RUNINIT
 const
 std
 :
@@ -30411,6 +30422,7 @@ GetMaxptime
 )
 ;
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -30661,6 +30673,7 @@ Bool
 )
 )
 ;
+MOZ_RUNINIT
 const
 std
 :
@@ -30881,6 +30894,7 @@ kCandidateAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -31087,6 +31101,7 @@ kBundleOnlyAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -31296,6 +31311,7 @@ kFmtpAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -31502,6 +31518,7 @@ kIceMismatchAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -31706,6 +31723,7 @@ kImageattrAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -31906,6 +31924,7 @@ kLabelAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -32106,6 +32125,7 @@ kMaxptimeAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -32306,6 +32326,7 @@ kMidAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -32506,6 +32527,7 @@ kMsidAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -32706,6 +32728,7 @@ kPtimeAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -32916,6 +32939,7 @@ kRemoteCandidatesAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -33116,6 +33140,7 @@ kRtcpAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -33320,6 +33345,7 @@ kRtcpFbAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -33520,6 +33546,7 @@ kRtcpMuxAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -33720,6 +33747,7 @@ kRtcpRsizeAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -33912,6 +33940,7 @@ kRtpmapAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -34112,6 +34141,7 @@ kSctpmapAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -34312,6 +34342,7 @@ kSsrcAttribute
 ;
 }
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -35146,6 +35177,7 @@ ParseErrorCount
 )
 ;
 }
+MOZ_RUNINIT
 const
 std
 :
@@ -35564,6 +35596,7 @@ GetDirection
 )
 ;
 }
+MOZ_RUNINIT
 const
 std
 :

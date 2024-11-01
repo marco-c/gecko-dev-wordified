@@ -1738,6 +1738,7 @@ aPattern
 }
 }
 ;
+MOZ_RUNINIT
 const
 nsString
 UntrustedModulesFixture
@@ -1779,6 +1780,7 @@ sInitLoadOnce
 =
 INIT_ONCE_STATIC_INIT
 ;
+MOZ_RUNINIT
 UntrustedModulesCollector
 UntrustedModulesFixture
 :

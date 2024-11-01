@@ -140,6 +140,7 @@ h
 namespace
 mozilla
 {
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 sOleAut32Intercept

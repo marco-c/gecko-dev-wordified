@@ -160,6 +160,7 @@ AndroidAlerts
 :
 sListenerMap
 ;
+MOZ_RUNINIT
 nsTHashMap
 <
 nsStringHashKey

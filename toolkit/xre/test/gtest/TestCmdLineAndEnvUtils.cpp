@@ -1398,6 +1398,7 @@ beth
 "
 }
 ;
+MOZ_RUNINIT
 std
 :
 :
@@ -2555,6 +2556,7 @@ semantic
 coherence
 .
 )
+MOZ_RUNINIT
 std
 :
 :

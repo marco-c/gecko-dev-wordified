@@ -127,6 +127,7 @@ mozilla
 namespace
 layers
 {
+MOZ_RUNINIT
 ScrollableLayerGuid
 InputAPZContext
 :

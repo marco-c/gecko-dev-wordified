@@ -193,6 +193,7 @@ name
 size
 )
 \
+MOZ_GLOBINIT
 CompactPair
 <
 T1
@@ -326,6 +327,7 @@ size
 ;
 \
 \
+MOZ_GLOBINIT
 CompactPair
 <
 T2

@@ -188,6 +188,7 @@ the
 AFL
 entrypoint
 .
+MOZ_RUNINIT
 class
 _InitFuzzer
 {

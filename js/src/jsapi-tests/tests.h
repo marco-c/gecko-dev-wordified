@@ -2896,6 +2896,7 @@ testname
 \
 ;
 \
+MOZ_RUNINIT
 static
 cls_
 #
@@ -3042,6 +3043,7 @@ testname
 \
 ;
 \
+MOZ_RUNINIT
 static
 cls_
 #

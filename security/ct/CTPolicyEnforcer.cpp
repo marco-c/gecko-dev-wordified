@@ -209,6 +209,7 @@ Otherwise
 are
 required
 .
+MOZ_RUNINIT
 const
 Duration
 ONE_HUNDRED_AND_EIGHTY_DAYS

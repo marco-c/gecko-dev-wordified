@@ -104,6 +104,7 @@ sCurrentCursorScaleFactor
 .
 0f
 ;
+MOZ_RUNINIT
 static
 nsIWidget
 :
@@ -1642,7 +1643,6 @@ imgIContainer
 :
 :
 FRAME_FIRST
-nullptr
 nullptr
 cocoaSize
 &

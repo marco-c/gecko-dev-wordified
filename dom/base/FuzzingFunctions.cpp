@@ -609,6 +609,7 @@ aLockable
 }
 }
 ;
+MOZ_RUNINIT
 static
 const
 ModifierKey

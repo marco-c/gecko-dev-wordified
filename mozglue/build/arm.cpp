@@ -81,6 +81,15 @@ arm
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -784,6 +793,7 @@ proc
 cpuinfo
 once
 .
+MOZ_RUNINIT
 static
 unsigned
 arm_cpu_flags
@@ -954,6 +964,7 @@ defined
 (
 MOZILLA_PRESUME_EDSP
 )
+MOZ_RUNINIT
 bool
 edsp_enabled
 =
@@ -970,6 +981,7 @@ defined
 (
 MOZILLA_PRESUME_ARMV6
 )
+MOZ_RUNINIT
 bool
 armv6_enabled
 =
@@ -986,6 +998,7 @@ defined
 (
 MOZILLA_PRESUME_ARMV7
 )
+MOZ_RUNINIT
 bool
 armv7_enabled
 =
@@ -1002,6 +1015,7 @@ defined
 (
 MOZILLA_PRESUME_NEON
 )
+MOZ_RUNINIT
 bool
 neon_enabled
 =
@@ -1018,6 +1032,7 @@ defined
 (
 MOZILLA_PRESUME_ARM_AES
 )
+MOZ_RUNINIT
 bool
 aes_enabled
 =

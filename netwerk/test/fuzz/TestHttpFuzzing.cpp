@@ -203,10 +203,12 @@ cover
 all
 combinations
 .
+MOZ_RUNINIT
 static
 nsAutoCString
 httpSpec
 ;
+MOZ_RUNINIT
 static
 nsAutoCString
 proxyType

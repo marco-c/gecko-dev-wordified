@@ -222,6 +222,7 @@ GdkPixbuf
 *
 sPixbuf
 ;
+MOZ_RUNINIT
 StringTable
 sStrings
 ;

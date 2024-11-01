@@ -533,6 +533,7 @@ timeOut
 )
 ;
 }
+MOZ_RUNINIT
 Input
 fakeIssuer1
 (
@@ -546,6 +547,7 @@ issuer1
 )
 )
 ;
+MOZ_RUNINIT
 Input
 fakeKey000
 (
@@ -557,6 +559,7 @@ key000
 )
 )
 ;
+MOZ_RUNINIT
 Input
 fakeKey001
 (
@@ -568,6 +571,7 @@ key001
 )
 )
 ;
+MOZ_RUNINIT
 Input
 fakeSerial0000
 (

@@ -3288,6 +3288,7 @@ the
 main
 thread
 .
+MOZ_RUNINIT
 static
 nsTHashMap
 <

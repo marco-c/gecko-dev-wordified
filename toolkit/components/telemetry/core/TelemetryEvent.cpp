@@ -2750,6 +2750,7 @@ EventKey
 cache
 map
 .
+MOZ_RUNINIT
 nsTHashMap
 <
 nsCStringHashKey
@@ -2766,6 +2767,7 @@ The
 CategoryName
 set
 .
+MOZ_RUNINIT
 nsTHashSet
 <
 nsCString
@@ -2813,6 +2815,7 @@ EventRecordArray
 >
 EventRecordsMapType
 ;
+MOZ_RUNINIT
 EventRecordsMapType
 gEventRecords
 ;

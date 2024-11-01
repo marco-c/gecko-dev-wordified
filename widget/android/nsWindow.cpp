@@ -1128,6 +1128,7 @@ topmost
 /
 one
 .
+MOZ_RUNINIT
 static
 nsTArray
 <

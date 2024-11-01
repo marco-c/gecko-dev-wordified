@@ -928,12 +928,14 @@ reference
 namespace
 test_unvisited_does_not_notify
 {
+MOZ_RUNINIT
 nsCOMPtr
 <
 nsIURI
 >
 testURI
 ;
+MOZ_RUNINIT
 RefPtr
 <
 mock_Link

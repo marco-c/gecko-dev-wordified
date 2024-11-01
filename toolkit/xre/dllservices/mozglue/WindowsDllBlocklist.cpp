@@ -427,6 +427,7 @@ static
 bool
 sUser32BeforeBlocklist
 ;
+MOZ_RUNINIT
 static
 WritableBuffer
 sBlocklistWriter
@@ -3674,10 +3675,12 @@ aThreadParam
 )
 ;
 }
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 NtDllIntercept
 ;
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 Kernel32Intercept
@@ -3695,6 +3698,7 @@ glue
 LoaderObserver
 gMozglueLoaderObserver
 ;
+MOZ_RUNINIT
 static
 nt
 :

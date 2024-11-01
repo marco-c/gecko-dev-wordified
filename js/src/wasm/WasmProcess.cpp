@@ -1010,6 +1010,7 @@ MinAddressBitsForHugeMemory
 ;
 #
 endif
+MOZ_RUNINIT
 ExclusiveData
 <
 ReadLockFlag
@@ -1022,6 +1023,7 @@ mutexid
 WasmHugeMemoryEnabled
 )
 ;
+MOZ_RUNINIT
 ExclusiveData
 <
 ReadLockFlag

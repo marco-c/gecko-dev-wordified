@@ -950,12 +950,14 @@ NS_DECL_CI_INTERFACE_GETTER
 _class
 )
 \
+MOZ_GLOBINIT
 static
 const
 GenericClassInfo
 :
 :
 ClassInfoData
+\
 k
 #
 #

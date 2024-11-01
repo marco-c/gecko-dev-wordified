@@ -4054,6 +4054,7 @@ nsIInputStreamCallback
 /
 /
 static
+MOZ_RUNINIT
 const
 nsCString
 FetchUtil

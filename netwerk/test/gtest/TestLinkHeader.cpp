@@ -1176,6 +1176,7 @@ each
 test
 case
 .
+MOZ_RUNINIT
 const
 SimpleParseTestData
 simple_parse_tests
@@ -4246,6 +4247,7 @@ AnchorTestData
 {
 }
 ;
+MOZ_RUNINIT
 const
 AnchorTestData
 anchor_tests

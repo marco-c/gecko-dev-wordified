@@ -2260,6 +2260,7 @@ sIsOleInitialized
 =
 false
 ;
+MOZ_RUNINIT
 nsIWidget
 :
 :
@@ -3678,6 +3679,7 @@ user32
 dll
 hook
 object
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 sUser32Intercept

@@ -193,6 +193,7 @@ sIndeterminate
 =
 NO
 ;
+MOZ_RUNINIT
 static
 StringTable
 sLabels

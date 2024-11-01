@@ -1781,6 +1781,7 @@ END_TEST
 (
 testGCRootedStaticStructInternalStackStorageAugmented
 )
+MOZ_RUNINIT
 static
 JS
 :
@@ -1882,6 +1883,7 @@ fires
 as
 expected
 .
+MOZ_RUNINIT
 static
 JS
 :

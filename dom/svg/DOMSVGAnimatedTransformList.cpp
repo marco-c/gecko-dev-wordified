@@ -159,6 +159,7 @@ mozilla
 :
 dom
 {
+MOZ_CONSTINIT
 static
 SVGAttrTearoffTable
 <

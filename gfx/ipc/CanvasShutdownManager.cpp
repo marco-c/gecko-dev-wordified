@@ -215,6 +215,7 @@ CanvasShutdownManager
 :
 sManagersMutex
 ;
+MOZ_RUNINIT
 std
 :
 :

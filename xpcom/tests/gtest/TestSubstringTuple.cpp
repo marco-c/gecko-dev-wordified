@@ -151,6 +151,7 @@ foo
 "
 _ns
 ;
+MOZ_RUNINIT
 static
 const
 auto
@@ -163,6 +164,7 @@ foo
 "
 )
 ;
+MOZ_RUNINIT
 static
 const
 auto
@@ -175,6 +177,7 @@ bar
 "
 )
 ;
+MOZ_RUNINIT
 static
 const
 auto

@@ -333,6 +333,7 @@ mozilla
 :
 dmd
 ;
+MOZ_RUNINIT
 DMDFuncs
 :
 :

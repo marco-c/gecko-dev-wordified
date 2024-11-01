@@ -1007,6 +1007,7 @@ false
 static
 *
 /
+MOZ_RUNINIT
 RefPtr
 <
 mozilla

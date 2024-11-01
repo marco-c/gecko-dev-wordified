@@ -1643,6 +1643,7 @@ forget
 /
 unnamed
 namespace
+MOZ_RUNINIT
 LinkedList
 <
 OldWindowSize

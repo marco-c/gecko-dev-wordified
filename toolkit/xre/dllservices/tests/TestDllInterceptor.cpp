@@ -5733,6 +5733,7 @@ ExpectedFail
 =
 1
 ;
+MOZ_GLOBINIT
 struct
 TestCase
 {
@@ -6748,6 +6749,7 @@ with
 unwind
 information
 .
+MOZ_RUNINIT
 decltype
 (
 &

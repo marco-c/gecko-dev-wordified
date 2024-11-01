@@ -426,6 +426,7 @@ gCx
 =
 nullptr
 ;
+MOZ_RUNINIT
 static
 std
 :

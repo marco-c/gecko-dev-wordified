@@ -188,6 +188,7 @@ JSContext
 .
 h
 "
+MOZ_RUNINIT
 static
 ProfilingStack
 profilingStack

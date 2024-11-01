@@ -316,6 +316,7 @@ our
 own
 copy
 .
+MOZ_GLOBINIT
 const
 SEC_ASN1Template
 SGN_DigestInfoTemplate

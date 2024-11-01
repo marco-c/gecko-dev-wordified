@@ -12505,6 +12505,7 @@ XRE_IsContentProcess
 )
 ;
 }
+MOZ_GLOBINIT
 FILE
 *
 gfxUtils

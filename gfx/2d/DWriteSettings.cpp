@@ -252,6 +252,7 @@ sGDIGamma
 4f
 }
 ;
+MOZ_RUNINIT
 StaticDataMutex
 <
 StaticRefPtr
@@ -266,6 +267,7 @@ StandardRenderingParams
 "
 )
 ;
+MOZ_RUNINIT
 StaticDataMutex
 <
 StaticRefPtr

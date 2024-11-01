@@ -234,6 +234,7 @@ mozilla
 namespace
 webgl
 {
+MOZ_RUNINIT
 /
 *
 static

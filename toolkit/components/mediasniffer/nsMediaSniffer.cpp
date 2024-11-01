@@ -766,6 +766,7 @@ com
 index
 .
 html
+MOZ_RUNINIT
 nsMediaSnifferFtypEntry
 sFtypEntries
 [

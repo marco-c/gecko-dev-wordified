@@ -174,6 +174,7 @@ mac
 .
 debug
 "
+MOZ_RUNINIT
 static
 nsTHashMap
 <

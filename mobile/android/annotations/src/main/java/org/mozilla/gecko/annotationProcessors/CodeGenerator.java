@@ -5286,6 +5286,7 @@ n
 "
 +
 "
+MOZ_GLOBINIT
 const
 JNINativeMethod
 "

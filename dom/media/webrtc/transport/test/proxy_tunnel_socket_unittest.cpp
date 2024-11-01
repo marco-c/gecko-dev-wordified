@@ -181,6 +181,7 @@ if
 you
 change
 this
+MOZ_RUNINIT
 const
 std
 :

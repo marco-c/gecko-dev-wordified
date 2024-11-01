@@ -200,6 +200,7 @@ using
 namespace
 mozilla
 ;
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 NtdllIntercept
@@ -497,6 +498,7 @@ sIsTestRunning
 =
 false
 ;
+MOZ_RUNINIT
 static
 MappedViewsInfoCollector
 sMappedViewsInfoCollector

@@ -690,6 +690,7 @@ nullptr
 )
 ;
 }
+MOZ_RUNINIT
 static
 inline
 RefPtr

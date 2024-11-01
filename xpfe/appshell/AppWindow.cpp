@@ -18659,6 +18659,7 @@ false
 #
 endif
 ;
+MOZ_RUNINIT
 static
 nsTArray
 <

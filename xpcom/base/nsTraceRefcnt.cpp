@@ -625,6 +625,7 @@ unlock
 }
 }
 ;
+MOZ_RUNINIT
 static
 TraceLogMutex
 gTraceLog

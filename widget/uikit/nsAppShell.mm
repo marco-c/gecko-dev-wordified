@@ -210,6 +210,7 @@ gWindow
 =
 nil
 ;
+MOZ_RUNINIT
 NSMutableArray
 *
 nsAppShell

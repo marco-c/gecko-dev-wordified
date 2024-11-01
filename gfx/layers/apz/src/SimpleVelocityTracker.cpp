@@ -265,6 +265,7 @@ recompute
 the
 velocity
 .
+MOZ_RUNINIT
 const
 TimeDuration
 MIN_VELOCITY_SAMPLE_TIME

@@ -364,6 +364,7 @@ SANs
 .
 *
 /
+MOZ_RUNINIT
 const
 FaultyServerHost
 sFaultyServerHosts

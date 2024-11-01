@@ -186,6 +186,7 @@ expectIsIpAddress
 )
 ;
 }
+MOZ_RUNINIT
 static
 const
 PrincipalAttributesParam

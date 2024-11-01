@@ -2557,6 +2557,7 @@ ElfLoader
 instance
 *
 /
+MOZ_RUNINIT
 ElfLoader
 ElfLoader
 :

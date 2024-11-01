@@ -831,6 +831,7 @@ mDeltaY
 ;
 }
 ;
+MOZ_RUNINIT
 static
 WaylandPointerEvent
 sHoldGesture
@@ -957,6 +958,7 @@ gesture_hold_begin
 gesture_hold_end
 }
 ;
+MOZ_RUNINIT
 static
 WaylandPointerEvent
 sScrollEvent

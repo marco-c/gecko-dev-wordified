@@ -2364,6 +2364,7 @@ IsDone
 )
 ;
 }
+MOZ_RUNINIT
 nsCOMPtr
 <
 nsISerialEventTarget

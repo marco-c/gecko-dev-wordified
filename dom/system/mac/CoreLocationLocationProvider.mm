@@ -277,6 +277,7 @@ using
 namespace
 mozilla
 ;
+MOZ_RUNINIT
 static
 const
 CLLocationAccuracy
@@ -284,6 +285,7 @@ kHIGH_ACCURACY
 =
 kCLLocationAccuracyBest
 ;
+MOZ_RUNINIT
 static
 const
 CLLocationAccuracy

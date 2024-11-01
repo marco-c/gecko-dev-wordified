@@ -4221,6 +4221,7 @@ nullptr
 }
 }
 ;
+MOZ_RUNINIT
 ExclusiveData
 <
 TypeIdSet

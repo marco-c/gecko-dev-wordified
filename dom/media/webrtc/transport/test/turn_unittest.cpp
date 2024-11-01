@@ -499,6 +499,7 @@ using
 namespace
 mozilla
 ;
+MOZ_RUNINIT
 static
 std
 :

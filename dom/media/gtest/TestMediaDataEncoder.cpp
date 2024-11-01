@@ -336,6 +336,7 @@ constraint
 level
 30
 .
+MOZ_RUNINIT
 const
 H264Specific
 kH264SpecificAnnexB
@@ -351,6 +352,7 @@ H264BitStreamFormat
 ANNEXB
 )
 ;
+MOZ_RUNINIT
 const
 H264Specific
 kH264SpecificAVCC

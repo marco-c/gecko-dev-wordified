@@ -498,6 +498,7 @@ DataMutex
 /
 wrapper
 .
+MOZ_RUNINIT
 static
 StaticDataMutex
 <
@@ -569,12 +570,7 @@ processes
 StaticMutex
 sProcessSupportedMutex
 ;
-#
-ifndef
-MOZ_DEBUG
-MOZ_CONSTINIT
-#
-endif
+MOZ_GLOBINIT
 static
 EnumeratedArray
 <

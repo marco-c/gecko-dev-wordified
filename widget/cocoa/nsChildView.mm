@@ -1119,6 +1119,7 @@ sWindowUnderMouse
 =
 nil
 ;
+MOZ_RUNINIT
 NSPoint
 ChildViewMouseTracker
 :
@@ -28782,6 +28783,7 @@ is
 leaked
 "
 .
+MOZ_RUNINIT
 static
 NSMutableDictionary
 *

@@ -237,6 +237,7 @@ h
 namespace
 mozilla
 {
+MOZ_RUNINIT
 static
 std
 :
@@ -43068,6 +43069,7 @@ options
 )
 ;
 }
+MOZ_RUNINIT
 static
 const
 std

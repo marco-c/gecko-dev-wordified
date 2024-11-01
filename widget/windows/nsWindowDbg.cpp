@@ -1091,6 +1091,7 @@ mozilla
 :
 HashSet
 .
+MOZ_RUNINIT
 std
 :
 :
@@ -1153,6 +1154,7 @@ nsWindowLoggedMessages
 .
 cpp
 .
+MOZ_RUNINIT
 std
 :
 :
@@ -5962,6 +5964,7 @@ return
 result
 ;
 }
+MOZ_RUNINIT
 const
 nsTArray
 <
@@ -7318,6 +7321,7 @@ lParamName
 }
 \
 }
+MOZ_RUNINIT
 std
 :
 :

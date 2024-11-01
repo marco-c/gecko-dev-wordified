@@ -1029,6 +1029,7 @@ END_TEST
 (
 test_PersistentRootedAssign
 )
+MOZ_RUNINIT
 static
 PersistentRootedObject
 gGlobalRoot

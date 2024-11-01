@@ -1541,6 +1541,7 @@ true
 static
 *
 /
+MOZ_RUNINIT
 const
 SandboxInfo
 SandboxInfo

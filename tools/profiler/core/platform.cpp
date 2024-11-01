@@ -3349,6 +3349,7 @@ aJsonValue
 )
 ;
 }
+MOZ_RUNINIT
 /
 *
 static
@@ -3369,6 +3370,7 @@ ProfilingLog
 :
 gMutex
 ;
+MOZ_RUNINIT
 /
 *
 static
@@ -3760,6 +3762,7 @@ mLock
 ;
 }
 ;
+MOZ_RUNINIT
 /
 *
 static
@@ -13203,6 +13206,7 @@ detail
 :
 BaseProfilerAutoLock
 ;
+MOZ_RUNINIT
 static
 ProfilerStateChangeMutex
 gProfilerStateChangeMutex
@@ -13256,6 +13260,7 @@ UniquePtr
 IdentifiedProfilingStateChangeCallback
 >
 ;
+MOZ_RUNINIT
 static
 Vector
 <

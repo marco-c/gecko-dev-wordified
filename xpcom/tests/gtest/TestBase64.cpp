@@ -225,6 +225,7 @@ mResult
 ;
 }
 ;
+MOZ_RUNINIT
 static
 Chunk
 kTest1Chunks
@@ -247,6 +248,7 @@ nullptr
 )
 }
 ;
+MOZ_RUNINIT
 static
 Chunk
 kTest2Chunks
@@ -282,6 +284,7 @@ nullptr
 )
 }
 ;
+MOZ_RUNINIT
 static
 Chunk
 kTest3Chunks
@@ -303,6 +306,7 @@ nullptr
 )
 }
 ;
+MOZ_RUNINIT
 static
 Chunk
 kTest4Chunks
@@ -324,6 +328,7 @@ nullptr
 )
 }
 ;
+MOZ_RUNINIT
 static
 Chunk
 kTest5Chunks
@@ -352,6 +357,7 @@ nullptr
 )
 }
 ;
+MOZ_RUNINIT
 static
 Chunk
 kTest6Chunks
@@ -380,6 +386,7 @@ nullptr
 )
 }
 ;
+MOZ_RUNINIT
 static
 Chunk
 kTest7Chunks
@@ -466,6 +473,7 @@ nullptr
 )
 }
 ;
+MOZ_RUNINIT
 static
 Chunk
 kTest8Chunks
@@ -538,6 +546,7 @@ nullptr
 )
 }
 ;
+MOZ_RUNINIT
 static
 Test
 kTests

@@ -171,6 +171,7 @@ mozilla
 :
 widget
 ;
+MOZ_RUNINIT
 nsUXThemeData
 :
 :

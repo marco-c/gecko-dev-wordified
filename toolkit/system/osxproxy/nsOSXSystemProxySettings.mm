@@ -444,6 +444,7 @@ schemes
 to
 SystemConfiguration
 keys
+MOZ_RUNINIT
 const
 nsOSXSystemProxySettings
 :

@@ -501,6 +501,7 @@ contains
 intermediate
 certificates
 .
+MOZ_RUNINIT
 const
 CertStoreLocation
 kCertStoreLocations

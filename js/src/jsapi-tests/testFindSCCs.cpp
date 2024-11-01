@@ -192,6 +192,7 @@ ComponentFinder
 TestNode
 >
 ;
+MOZ_RUNINIT
 static
 TestNode
 Vertex

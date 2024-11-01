@@ -706,6 +706,7 @@ false
 StaticMutex
 sFactoryMutex
 ;
+MOZ_RUNINIT
 static
 nsTHashMap
 <
@@ -717,6 +718,7 @@ IMFContentDecryptionModuleFactory
 >
 sFactoryMap
 ;
+MOZ_RUNINIT
 static
 CopyableTArray
 <
@@ -727,6 +729,7 @@ sCapabilities
 StaticMutex
 sCapabilitesMutex
 ;
+MOZ_RUNINIT
 static
 ComPtr
 <

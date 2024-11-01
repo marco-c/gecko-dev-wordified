@@ -1605,12 +1605,14 @@ MSIME
 98
 /
 2000
+MOZ_RUNINIT
 WritingMode
 IMMHandler
 :
 :
 sWritingModeOfCompositionFont
 ;
+MOZ_RUNINIT
 nsString
 IMMHandler
 :

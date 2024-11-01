@@ -2632,6 +2632,7 @@ T
 typename
 FP
 >
+MOZ_RUNINIT
 FP
 const
 scoped_ptr_malloc

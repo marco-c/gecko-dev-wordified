@@ -194,6 +194,7 @@ gfx
 define
 FONT_NAME_MAX
 32
+MOZ_RUNINIT
 static
 StaticDataMutex
 <

@@ -148,6 +148,7 @@ sNextFontFileKey
 =
 0
 ;
+MOZ_RUNINIT
 static
 std
 :

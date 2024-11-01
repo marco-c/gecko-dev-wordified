@@ -7569,6 +7569,7 @@ doubleEncoder
 static
 *
 /
+MOZ_RUNINIT
 const
 js
 :

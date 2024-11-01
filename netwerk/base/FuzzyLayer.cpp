@@ -309,6 +309,7 @@ have
 currently
 open
 .
+MOZ_RUNINIT
 static
 nsTHashMap
 <
@@ -334,6 +335,7 @@ can
 still
 open
 .
+MOZ_RUNINIT
 static
 nsDeque
 <

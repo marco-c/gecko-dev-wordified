@@ -926,6 +926,7 @@ nsString
 32
 >
 ;
+MOZ_RUNINIT
 static
 mozilla
 :
@@ -2589,6 +2590,7 @@ Poisoning
 Windows
 DLL
 interceptor
+MOZ_RUNINIT
 static
 mozilla
 :

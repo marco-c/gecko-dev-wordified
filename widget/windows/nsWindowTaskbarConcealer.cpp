@@ -734,6 +734,7 @@ located
 static
 *
 /
+MOZ_RUNINIT
 nsTHashMap
 <
 HWND

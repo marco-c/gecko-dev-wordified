@@ -7891,6 +7891,7 @@ sHBUnicodeFuncs
 =
 nullptr
 ;
+MOZ_RUNINIT
 static
 const
 hb_script_t

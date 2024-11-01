@@ -132,6 +132,7 @@ mozilla
 #
 ifdef
 JS_STANDALONE
+MOZ_RUNINIT
 static
 bool
 fuzzing_verbose

@@ -189,6 +189,7 @@ using
 namespace
 videocapturemodule
 ;
+MOZ_RUNINIT
 static
 NSArray
 *
@@ -540,6 +541,9 @@ productUniqueIdUTF8Length
 pid_t
 *
 pid
+bool
+*
+deviceIsPlaceholder
 )
 {
 if

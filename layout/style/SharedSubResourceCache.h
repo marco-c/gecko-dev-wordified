@@ -1744,6 +1744,7 @@ shutdown
 .
 inline
 static
+MOZ_GLOBINIT
 StaticRefPtr
 <
 Derived

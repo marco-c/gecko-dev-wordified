@@ -3981,6 +3981,7 @@ StaticMutex
 sCheckForSmartCardChangesMutex
 MOZ_UNANNOTATED
 ;
+MOZ_RUNINIT
 static
 TimeStamp
 sLastCheckedForSmartCardChanges

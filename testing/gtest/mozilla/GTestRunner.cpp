@@ -1464,6 +1464,7 @@ GTest
 is
 supported
 .
+MOZ_RUNINIT
 class
 _InitRunGTest
 {

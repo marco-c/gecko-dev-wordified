@@ -309,6 +309,7 @@ true
 )
 }
 ;
+MOZ_RUNINIT
 static
 WindowsDllInterceptor
 MsctfIntercept

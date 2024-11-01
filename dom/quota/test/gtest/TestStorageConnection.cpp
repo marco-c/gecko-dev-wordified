@@ -996,6 +996,7 @@ p
 }
 }
 ;
+MOZ_RUNINIT
 inline
 static
 std

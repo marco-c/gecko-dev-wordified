@@ -255,6 +255,7 @@ starts
 moving
 again
 .
+MOZ_RUNINIT
 static
 const
 TimeDuration

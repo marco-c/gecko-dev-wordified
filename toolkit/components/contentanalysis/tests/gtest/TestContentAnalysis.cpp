@@ -890,12 +890,14 @@ aReq
 }
 }
 ;
+MOZ_RUNINIT
 nsString
 ContentAnalysisTest
 :
 :
 mPipeName
 ;
+MOZ_RUNINIT
 MozAgentInfo
 ContentAnalysisTest
 :

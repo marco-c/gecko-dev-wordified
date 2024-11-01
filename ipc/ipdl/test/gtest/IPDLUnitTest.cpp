@@ -238,6 +238,7 @@ mozilla
 :
 _ipdltest
 {
+MOZ_RUNINIT
 static
 std
 :
@@ -2028,6 +2029,7 @@ a
 static
 constructor
 .
+MOZ_RUNINIT
 int
 _childProcessEntryPointStaticConstructor
 =

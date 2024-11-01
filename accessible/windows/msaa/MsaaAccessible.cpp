@@ -393,6 +393,7 @@ d6b5c010046b
 }
 }
 ;
+MOZ_RUNINIT
 MsaaIdGenerator
 MsaaAccessible
 :

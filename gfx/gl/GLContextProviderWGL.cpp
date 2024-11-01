@@ -253,6 +253,7 @@ mozilla
 :
 widget
 ;
+MOZ_RUNINIT
 WGLLibrary
 sWGLLib
 ;

@@ -18961,6 +18961,7 @@ frameViewClass
 ;
 }
 }
+MOZ_RUNINIT
 static
 IMP
 our_closeButtonOrigin
@@ -18977,6 +18978,7 @@ FrameView__closeButtonOrigin
 )
 )
 ;
+MOZ_RUNINIT
 static
 IMP
 our_titlebarHeight

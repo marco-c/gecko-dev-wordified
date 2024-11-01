@@ -138,6 +138,7 @@ using
 namespace
 mozilla
 ;
+MOZ_RUNINIT
 static
 TimeDuration
 kOneSecond
@@ -150,6 +151,7 @@ FromSeconds
 1
 )
 ;
+MOZ_RUNINIT
 static
 TimeDuration
 kTenthSecond
@@ -164,6 +166,7 @@ FromSeconds
 1
 )
 ;
+MOZ_RUNINIT
 static
 TimeDuration
 kFrameDuration
@@ -182,6 +185,7 @@ FromSeconds
 0
 )
 ;
+MOZ_RUNINIT
 static
 mozilla
 :
@@ -2251,10 +2255,12 @@ return
 true
 ;
 }
+MOZ_RUNINIT
 static
 CCGCScheduler
 scheduler
 ;
+MOZ_RUNINIT
 static
 TestGC
 gc
@@ -2262,6 +2268,7 @@ gc
 scheduler
 )
 ;
+MOZ_RUNINIT
 static
 TestIdleCC
 ccIdle
@@ -2269,6 +2276,7 @@ ccIdle
 scheduler
 )
 ;
+MOZ_RUNINIT
 static
 TestNonIdleCC
 ccNonIdle

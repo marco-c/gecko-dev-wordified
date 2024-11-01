@@ -724,6 +724,7 @@ nsISerialEventTarget
 >
 mManagerThread
 ;
+MOZ_RUNINIT
 static
 inline
 nsTHashMap

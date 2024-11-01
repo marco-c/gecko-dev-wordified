@@ -271,6 +271,7 @@ DrawTargetD2D1
 :
 mFactory
 ;
+MOZ_RUNINIT
 const
 D2D1_MATRIX_5X4_F
 kLuminanceMatrix

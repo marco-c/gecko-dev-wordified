@@ -133,6 +133,7 @@ using
 namespace
 js
 ;
+MOZ_RUNINIT
 js
 :
 :
@@ -177,6 +178,7 @@ unlock
 )
 ;
 }
+MOZ_RUNINIT
 SharedScriptDataTableHolder
 js
 :

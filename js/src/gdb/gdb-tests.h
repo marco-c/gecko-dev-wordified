@@ -671,6 +671,7 @@ category
 subname
 )
 \
+MOZ_RUNINIT
 FRAGMENT_CLASS_NAME
 (
 category
