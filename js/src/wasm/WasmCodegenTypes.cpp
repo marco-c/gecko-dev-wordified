@@ -1150,6 +1150,9 @@ BuiltinThunk
 case
 RequestTierUpStub
 :
+case
+UpdateCallRefMetricsStub
+:
 break
 ;
 default

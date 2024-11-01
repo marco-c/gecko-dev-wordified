@@ -8649,6 +8649,10 @@ requestTierUpStubOffset_
 (
 0
 )
+updateCallRefMetricsStubOffset_
+(
+0
+)
 {
 }
 bool

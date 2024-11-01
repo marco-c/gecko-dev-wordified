@@ -877,6 +877,17 @@ invalid_reg
 static
 constexpr
 Register
+WasmCallRefCallScratchReg2
+{
+Registers
+:
+:
+invalid_reg
+}
+;
+static
+constexpr
+Register
 WasmCallRefReg
 {
 Registers
