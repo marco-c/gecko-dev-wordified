@@ -1015,6 +1015,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 aCallback
+const
 TextFrameUnions
 &
 aField
@@ -1030,6 +1031,7 @@ aFlags
 {
 for
 (
+const
 auto
 &
 entry
@@ -1037,10 +1039,14 @@ entry
 aField
 )
 {
-ImplCycleCollectionTraverse
+CycleCollectionNoteChild
 (
 aCallback
 entry
+.
+GetKey
+(
+)
 "
 TextFrameUnions
 '

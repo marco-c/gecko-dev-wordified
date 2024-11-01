@@ -4931,6 +4931,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 aCallback
+const
 nsTHashtable
 <
 EntryType
@@ -4954,7 +4955,7 @@ iter
 =
 aField
 .
-Iter
+ConstIter
 (
 )
 ;
@@ -4972,6 +4973,7 @@ Next
 )
 )
 {
+const
 EntryType
 *
 entry

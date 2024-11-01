@@ -2037,6 +2037,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 aCallback
+const
 nsRefPtrHashKey
 <
 T
