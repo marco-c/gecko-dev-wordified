@@ -791,9 +791,10 @@ that
 can
 access
 experimental
-intrinsics
+features
+.
 bool
-IsSimdPrivilegedContext
+IsPrivilegedContext
 (
 JSContext
 *

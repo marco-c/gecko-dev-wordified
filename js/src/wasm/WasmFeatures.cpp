@@ -1817,7 +1817,7 @@ bool
 wasm
 :
 :
-IsSimdPrivilegedContext
+IsPrivilegedContext
 (
 JSContext
 *
