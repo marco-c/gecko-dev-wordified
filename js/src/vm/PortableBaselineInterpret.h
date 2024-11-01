@@ -3410,6 +3410,9 @@ pc
 ImmutableScriptData
 *
 isd
+jsbytecode
+*
+restartEntryPC
 jit
 :
 :
