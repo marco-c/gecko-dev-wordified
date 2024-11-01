@@ -553,7 +553,7 @@ SimulcastMode
 :
 kNormal
 ;
-absl
+std
 :
 :
 optional
@@ -2799,7 +2799,7 @@ const
 SdpVideoFormat
 &
 format
-absl
+std
 :
 :
 optional

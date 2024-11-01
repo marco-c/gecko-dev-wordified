@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -111,17 +116,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -1186,7 +1180,7 @@ id
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1408,7 +1402,7 @@ was
 not
 decoded
 .
-absl
+std
 :
 :
 optional
@@ -1858,7 +1852,7 @@ RTC_GUARDED_BY
 packet_sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1944,7 +1938,7 @@ decode_sequence_checker_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -2043,7 +2037,7 @@ playout
 delay
 extension
 .
-absl
+std
 :
 :
 optional
@@ -2073,7 +2067,7 @@ webrtc
 api
 "
 .
-absl
+std
 :
 :
 optional
@@ -2100,7 +2094,7 @@ V
 synchronization
 feature
 .
-absl
+std
 :
 :
 optional
@@ -2126,7 +2120,7 @@ playout
 delay
 extension
 .
-absl
+std
 :
 :
 optional
@@ -2232,7 +2226,7 @@ pending_resolution_
 .
 /
 /
-absl
+std
 :
 :
 nullopt
@@ -2262,7 +2256,7 @@ filled
 a
 resolution
 .
-absl
+std
 :
 :
 optional
@@ -2374,7 +2368,7 @@ TaskQueueDeleter
 >
 decode_queue_
 ;
-absl
+std
 :
 :
 optional

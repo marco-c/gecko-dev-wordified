@@ -319,7 +319,7 @@ false
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -456,7 +456,7 @@ false
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -604,7 +604,7 @@ false
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -730,7 +730,7 @@ false
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -2289,7 +2289,7 @@ call_stats
 void
 SetAudioDeviceStats
 (
-absl
+std
 :
 :
 optional
@@ -2797,7 +2797,7 @@ return
 call_stats_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3289,7 +3289,7 @@ Call
 Stats
 call_stats_
 ;
-absl
+std
 :
 :
 optional

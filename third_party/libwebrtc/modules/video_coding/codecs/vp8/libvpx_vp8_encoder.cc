@@ -853,7 +853,7 @@ bool
 MaybeSetNewValue
 (
 const
-absl
+std
 :
 :
 optional
@@ -862,7 +862,7 @@ T
 >
 &
 new_value
-absl
+std
 :
 :
 optional
@@ -1844,7 +1844,7 @@ original_frame_drop_threshold_
 ;
 }
 ;
-absl
+std
 :
 :
 optional
@@ -1927,7 +1927,7 @@ frame
 interval
 .
 return
-absl
+std
 :
 :
 nullopt
@@ -3432,7 +3432,7 @@ WEBRTC_VIDEO_CODEC_ERR_PARAMETER
 }
 if
 (
-absl
+std
 :
 :
 optional
@@ -8528,7 +8528,7 @@ codec_specific
 template_structure
 !
 =
-absl
+std
 :
 :
 nullopt

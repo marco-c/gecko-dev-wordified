@@ -131,6 +131,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -143,17 +148,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -2763,7 +2757,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -3247,7 +3241,7 @@ base
 event
 )
 .
-absl
+std
 :
 :
 optional
@@ -3290,7 +3284,7 @@ seqnum
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -3336,7 +3330,7 @@ offset
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -3379,7 +3373,7 @@ sendtime
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -3428,7 +3422,7 @@ video_rotation
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -3437,7 +3431,7 @@ uint64_t
 >
 base_audio_level
 ;
-absl
+std
 :
 :
 optional
@@ -3702,7 +3696,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -7390,7 +7384,7 @@ value
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -7627,7 +7621,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -7825,7 +7819,7 @@ reset
 }
 }
 const
-absl
+std
 :
 :
 optional
@@ -7863,7 +7857,7 @@ value
 )
 )
 :
-absl
+std
 :
 :
 optional
@@ -7987,7 +7981,7 @@ reset
 }
 }
 const
-absl
+std
 :
 :
 optional
@@ -8025,7 +8019,7 @@ value
 )
 )
 :
-absl
+std
 :
 :
 optional
@@ -8379,7 +8373,7 @@ i
 ]
 ;
 const
-absl
+std
 :
 :
 optional
@@ -8551,7 +8545,7 @@ down
 by
 1
 .
-absl
+std
 :
 :
 optional
@@ -8764,7 +8758,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -9099,7 +9093,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -9773,7 +9767,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -10214,7 +10208,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -11230,7 +11224,7 @@ timestamp_ms
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -11275,7 +11269,7 @@ base_link_capacity_lower
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -11356,7 +11350,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -12038,7 +12032,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -12815,7 +12809,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -13391,7 +13385,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -13784,7 +13778,7 @@ acked_packet_number
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -13856,7 +13850,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -14229,7 +14223,7 @@ values
 i
 ]
 =
-absl
+std
 :
 :
 nullopt

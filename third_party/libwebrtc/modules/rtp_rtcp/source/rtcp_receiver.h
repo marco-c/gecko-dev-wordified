@@ -104,6 +104,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -111,17 +116,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -535,7 +529,7 @@ dom
 rtcremoteoutboundrtpstreamstats
 -
 roundtriptime
-absl
+std
 :
 :
 optional
@@ -621,7 +615,7 @@ round_trip_time_measurements_
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -748,7 +742,7 @@ RTCP
 Sender
 Reports
 .
-absl
+std
 :
 :
 optional
@@ -804,7 +798,7 @@ remote_ntp_timestamp_ms
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -816,7 +810,7 @@ AverageRtt
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -854,7 +848,7 @@ bool
 enabled
 )
 ;
-absl
+std
 :
 :
 optional
@@ -892,7 +886,7 @@ one
 is
 available
 .
-absl
+std
 :
 :
 optional
@@ -2251,7 +2245,7 @@ RTC_GUARDED_BY
 rtcp_receiver_lock_
 )
 ;
-absl
+std
 :
 :
 optional

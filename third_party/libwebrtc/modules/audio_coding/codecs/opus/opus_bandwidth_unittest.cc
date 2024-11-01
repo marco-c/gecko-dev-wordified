@@ -879,7 +879,7 @@ enc_config
 .
 bitrate_bps
 =
-absl
+std
 :
 :
 optional

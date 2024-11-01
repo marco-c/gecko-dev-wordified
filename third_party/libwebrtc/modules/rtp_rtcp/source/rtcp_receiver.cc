@@ -861,7 +861,7 @@ config
 fec_generator
 )
 {
-absl
+std
 :
 :
 optional
@@ -1039,7 +1039,7 @@ ReportBlockData
 >
 report_block_datas
 ;
-absl
+std
 :
 :
 optional
@@ -1065,7 +1065,7 @@ TransportFeedback
 >
 transport_feedback
 ;
-absl
+std
 :
 :
 optional
@@ -1077,7 +1077,7 @@ CongestionControlFeedback
 >
 congestion_control_feedback
 ;
-absl
+std
 :
 :
 optional
@@ -1086,7 +1086,7 @@ VideoBitrateAllocation
 >
 target_bitrate_allocation
 ;
-absl
+std
 :
 :
 optional
@@ -1959,7 +1959,7 @@ rtt
 num_rtts_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2004,7 +2004,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2021,7 +2021,7 @@ average_rtt
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2066,7 +2066,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2158,7 +2158,7 @@ xr_rrtr_status_
 enabled
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2179,7 +2179,7 @@ lock
 rtcp_receiver_lock_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2192,7 +2192,7 @@ xr_rr_rtt_
 ;
 xr_rr_rtt_
 =
-absl
+std
 :
 :
 nullopt
@@ -2219,7 +2219,7 @@ do
 rtt
 calculations
 .
-absl
+std
 :
 :
 optional
@@ -2251,7 +2251,7 @@ construction
 thread
 )
 .
-absl
+std
 :
 :
 optional
@@ -2469,7 +2469,7 @@ return
 rtt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2507,7 +2507,7 @@ Valid
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -5529,7 +5529,7 @@ it
 }
 xr_rr_rtt_
 =
-absl
+std
 :
 :
 nullopt

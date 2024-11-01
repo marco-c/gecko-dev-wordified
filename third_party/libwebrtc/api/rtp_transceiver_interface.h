@@ -91,6 +91,11 @@ API_RTP_TRANSCEIVER_INTERFACE_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -106,17 +111,6 @@ absl
 base
 /
 attributes
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -613,7 +607,7 @@ rtcrtptransceiver
 -
 mid
 virtual
-absl
+std
 :
 :
 optional
@@ -1229,7 +1223,7 @@ rtcrtptransceiver
 -
 currentdirection
 virtual
-absl
+std
 :
 :
 optional
@@ -1301,7 +1295,7 @@ by
 Chromium
 .
 virtual
-absl
+std
 :
 :
 optional

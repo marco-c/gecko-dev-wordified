@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -111,17 +116,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -373,7 +367,7 @@ const
 VideoFrame
 &
 frame
-absl
+std
 :
 :
 optional
@@ -432,7 +426,7 @@ const
 VideoFrameMetaData
 &
 frame_meta
-absl
+std
 :
 :
 optional
@@ -710,7 +704,7 @@ call
 void
 UpdateHistograms
 (
-absl
+std
 :
 :
 optional
@@ -843,7 +837,7 @@ now_ms
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -1102,7 +1096,7 @@ RTC_GUARDED_BY
 main_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1115,7 +1109,7 @@ RTC_GUARDED_BY
 main_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1128,7 +1122,7 @@ RTC_GUARDED_BY
 main_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1195,7 +1189,7 @@ RTC_GUARDED_BY
 main_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1208,7 +1202,7 @@ RTC_GUARDED_BY
 main_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1221,7 +1215,7 @@ RTC_GUARDED_BY
 main_thread_
 )
 ;
-absl
+std
 :
 :
 optional

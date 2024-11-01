@@ -110,15 +110,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -392,7 +386,7 @@ RtpPacketInfos
 ;
 absolute_capture_timestamp_ms_
 =
-absl
+std
 :
 :
 nullopt

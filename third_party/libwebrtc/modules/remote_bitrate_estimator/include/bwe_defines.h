@@ -100,15 +100,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -208,7 +202,7 @@ RateControlInput
 BandwidthUsage
 bw_state
 const
-absl
+std
 :
 :
 optional
@@ -227,7 +221,7 @@ RateControlInput
 BandwidthUsage
 bw_state
 ;
-absl
+std
 :
 :
 optional

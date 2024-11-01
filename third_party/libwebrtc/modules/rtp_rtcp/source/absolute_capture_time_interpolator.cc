@@ -170,7 +170,7 @@ csrcs
 ]
 ;
 }
-absl
+std
 :
 :
 optional
@@ -189,7 +189,7 @@ rtp_timestamp
 int
 rtp_clock_frequency_hz
 const
-absl
+std
 :
 :
 optional
@@ -223,7 +223,7 @@ if
 received_extension
 =
 =
-absl
+std
 :
 :
 nullopt
@@ -251,7 +251,7 @@ MinusInfinity
 )
 ;
 return
-absl
+std
 :
 :
 nullopt

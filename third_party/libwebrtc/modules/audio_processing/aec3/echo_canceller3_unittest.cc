@@ -1536,7 +1536,7 @@ multichannel_config
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -1704,7 +1704,7 @@ multichannel_config
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -2243,7 +2243,7 @@ multichannel_config
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -2725,7 +2725,7 @@ multichannel_config
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -3300,7 +3300,7 @@ multichannel_config
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -3561,7 +3561,7 @@ multichannel_config
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -3874,7 +3874,7 @@ multichannel_config
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -4075,7 +4075,7 @@ multichannel_config
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -4214,7 +4214,7 @@ multichannel_config
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -6320,7 +6320,7 @@ kNumBlocksForSurroundConfig
 EchoCanceller3Config
 mono_config
 ;
-absl
+std
 :
 :
 optional
@@ -6590,7 +6590,7 @@ kNumBlocksForSurroundConfig
 EchoCanceller3Config
 mono_config
 ;
-absl
+std
 :
 :
 optional
@@ -6878,7 +6878,7 @@ kNumBlocksForSurroundConfig
 EchoCanceller3Config
 mono_config
 ;
-absl
+std
 :
 :
 optional
@@ -7210,7 +7210,7 @@ kNumBlocksForSurroundConfig
 EchoCanceller3Config
 mono_config
 ;
-absl
+std
 :
 :
 optional
@@ -7487,7 +7487,7 @@ multichannel_config_
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -7571,7 +7571,7 @@ multichannel_config_
 =
 *
 /
-absl
+std
 :
 :
 nullopt

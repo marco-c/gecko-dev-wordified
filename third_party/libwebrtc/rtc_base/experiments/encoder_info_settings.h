@@ -91,6 +91,11 @@ RTC_BASE_EXPERIMENTS_ENCODER_INFO_SETTINGS_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -106,17 +111,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -225,7 +219,7 @@ bitrate
 .
 }
 ;
-absl
+std
 :
 :
 optional
@@ -288,7 +282,7 @@ codec_type
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -322,7 +316,7 @@ GetDefaultSinglecastBitrateLimitsWhenQpIsUntrusted
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -334,7 +328,7 @@ ResolutionBitrateLimits
 >
 GetSinglecastBitrateLimitForResolutionWhenQpIsUntrusted
 (
-absl
+std
 :
 :
 optional

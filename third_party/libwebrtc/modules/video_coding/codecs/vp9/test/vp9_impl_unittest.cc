@@ -956,7 +956,7 @@ kHeight
 GetParam
 (
 )
-absl
+std
 :
 :
 optional
@@ -1096,7 +1096,7 @@ VideoFrame
 >
 decoded_frame
 ;
-absl
+std
 :
 :
 optional
@@ -1564,7 +1564,7 @@ VideoFrame
 >
 decoded_frame
 ;
-absl
+std
 :
 :
 optional
@@ -1710,7 +1710,7 @@ VideoFrame
 >
 decoded_frame
 ;
-absl
+std
 :
 :
 optional
@@ -1918,7 +1918,7 @@ OutputType
 :
 :
 kNV12
-absl
+std
 :
 :
 optional
@@ -1985,7 +1985,7 @@ OutputType
 :
 :
 kI420
-absl
+std
 :
 :
 optional
@@ -4366,7 +4366,7 @@ codec_specific_info
 generic_frame_info
 =
 =
-absl
+std
 :
 :
 nullopt
@@ -14786,12 +14786,12 @@ num_spatial_layers_
 =
 1
 ?
-absl
+std
 :
 :
 nullopt
 :
-absl
+std
 :
 :
 optional
@@ -15820,7 +15820,7 @@ OutputType
 :
 :
 kI010
-absl
+std
 :
 :
 optional
@@ -15974,7 +15974,7 @@ VideoFrame
 >
 decoded_frame
 ;
-absl
+std
 :
 :
 optional
@@ -18936,7 +18936,7 @@ SvcFrameDropConfigTestParameters
 bool
 flexible_mode
 ;
-absl
+std
 :
 :
 optional
@@ -19390,7 +19390,7 @@ true
 .
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt

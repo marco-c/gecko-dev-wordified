@@ -897,7 +897,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional
@@ -1040,7 +1040,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional
@@ -1291,7 +1291,7 @@ uint16_t
 override
 {
 }
-absl
+std
 :
 :
 optional
@@ -1306,7 +1306,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1674,7 +1674,7 @@ uint16_t
 override
 {
 }
-absl
+std
 :
 :
 optional
@@ -1689,7 +1689,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt

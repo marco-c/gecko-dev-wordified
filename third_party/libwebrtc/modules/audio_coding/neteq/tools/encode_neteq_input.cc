@@ -196,7 +196,7 @@ EncodeNetEqInput
 =
 default
 ;
-absl
+std
 :
 :
 optional
@@ -229,7 +229,7 @@ time_ms
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -349,7 +349,7 @@ next_output_event_ms_
 input_duration_ms_
 ;
 }
-absl
+std
 :
 :
 optional

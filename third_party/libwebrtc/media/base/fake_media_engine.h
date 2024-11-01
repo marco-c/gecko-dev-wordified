@@ -703,7 +703,7 @@ ResetUnsignaledRecvStream
 override
 {
 }
-absl
+std
 :
 :
 optional
@@ -717,7 +717,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3131,7 +3131,7 @@ delay_ms
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -3283,7 +3283,7 @@ size_t
 number_of_channels
 size_t
 number_of_frames
-absl
+std
 :
 :
 optional
@@ -3708,7 +3708,7 @@ callback
 override
 {
 }
-absl
+std
 :
 :
 optional
@@ -3772,7 +3772,7 @@ size_t
 number_of_channels
 size_t
 number_of_frames
-absl
+std
 :
 :
 optional
@@ -4212,7 +4212,7 @@ delay_ms
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -4279,7 +4279,7 @@ webrtc
 :
 RtcpMode
 rtcp_mode
-absl
+std
 :
 :
 optional
@@ -4580,7 +4580,7 @@ params
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -4748,7 +4748,7 @@ return
 false
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4762,7 +4762,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -5082,7 +5082,7 @@ StopAecDump
 )
 override
 ;
-absl
+std
 :
 :
 optional

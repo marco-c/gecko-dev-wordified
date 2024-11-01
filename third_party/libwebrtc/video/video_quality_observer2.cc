@@ -1013,7 +1013,7 @@ kMinFrameSamplesToDetectFreeze
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -1346,7 +1346,7 @@ OnDecodedFrame
 (
 uint32_t
 rtp_frame_timestamp
-absl
+std
 :
 :
 optional
@@ -1365,7 +1365,7 @@ qp
 )
 return
 ;
-absl
+std
 :
 :
 optional
@@ -1419,7 +1419,7 @@ default
 :
 qp_blocky_threshold
 =
-absl
+std
 :
 :
 nullopt

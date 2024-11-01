@@ -93,15 +93,9 @@ define
 MODULES_VIDEO_CODING_UTILITY_QP_PARSER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -170,7 +164,7 @@ QpParser
 {
 public
 :
-absl
+std
 :
 :
 optional
@@ -209,7 +203,7 @@ H264QpParser
 {
 public
 :
-absl
+std
 :
 :
 optional
@@ -267,7 +261,7 @@ H265QpParser
 {
 public
 :
-absl
+std
 :
 :
 optional

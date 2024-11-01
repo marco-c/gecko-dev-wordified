@@ -185,7 +185,7 @@ has_input
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -231,7 +231,7 @@ min_pixels_per_frame
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt

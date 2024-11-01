@@ -107,15 +107,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -171,7 +165,7 @@ ValueSizeIs1UnlessSamplesAreSpecified
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -219,7 +213,7 @@ Build
 ASSERT_NE
 (
 kMessage
-absl
+std
 :
 :
 nullopt
@@ -270,7 +264,7 @@ kSampleValues
 }
 ;
 const
-absl
+std
 :
 :
 optional
@@ -298,7 +292,7 @@ Build
 ASSERT_NE
 (
 kMessage
-absl
+std
 :
 :
 nullopt
@@ -328,7 +322,7 @@ WritesMandatoryWhenEnoughMemoryIsAllocatedWithoutSamples
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -372,7 +366,7 @@ data
 ASSERT_NE
 (
 kMessage
-absl
+std
 :
 :
 nullopt
@@ -410,7 +404,7 @@ FailsToWriteWhenTooMuchMemoryIsAllocatedWithoutSamples
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -456,7 +450,7 @@ data
 ASSERT_NE
 (
 kMessage
-absl
+std
 :
 :
 nullopt
@@ -495,7 +489,7 @@ kSampleValues
 }
 ;
 const
-absl
+std
 :
 :
 optional
@@ -555,7 +549,7 @@ data
 ASSERT_NE
 (
 kMessage
-absl
+std
 :
 :
 nullopt
@@ -594,7 +588,7 @@ kSampleValues
 }
 ;
 const
-absl
+std
 :
 :
 optional
@@ -653,7 +647,7 @@ data
 ASSERT_NE
 (
 kMessage
-absl
+std
 :
 :
 nullopt
@@ -742,7 +736,7 @@ kSampleValues
 }
 ;
 const
-absl
+std
 :
 :
 optional
@@ -818,7 +812,7 @@ data
 ASSERT_NE
 (
 kMessage
-absl
+std
 :
 :
 nullopt
@@ -921,7 +915,7 @@ kSampleValues
 }
 ;
 const
-absl
+std
 :
 :
 optional
@@ -997,7 +991,7 @@ data
 ASSERT_NE
 (
 kMessage
-absl
+std
 :
 :
 nullopt
@@ -1070,7 +1064,7 @@ kSampleValues
 }
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1104,7 +1098,7 @@ data
 ASSERT_NE
 (
 kMessage
-absl
+std
 :
 :
 nullopt

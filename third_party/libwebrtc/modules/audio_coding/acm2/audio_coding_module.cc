@@ -805,7 +805,7 @@ const
 InputData
 &
 input_data
-absl
+std
 :
 :
 optional
@@ -1091,7 +1091,7 @@ RTC_GUARDED_BY
 acm_mutex_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1317,7 +1317,7 @@ const
 InputData
 &
 input_data
-absl
+std
 :
 :
 optional
@@ -1810,7 +1810,7 @@ value_or
 }
 absolute_capture_timestamp_ms_
 =
-absl
+std
 :
 :
 nullopt

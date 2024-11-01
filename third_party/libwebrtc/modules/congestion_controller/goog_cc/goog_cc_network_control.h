@@ -111,19 +111,13 @@ memory
 #
 include
 <
-vector
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+vector
+>
 #
 include
 "
@@ -577,7 +571,7 @@ const
 void
 SetNetworkStateEstimate
 (
-absl
+std
 :
 :
 optional
@@ -708,7 +702,7 @@ AcknowledgedBitrateEstimatorInterface
 >
 acknowledged_bitrate_estimator_
 ;
-absl
+std
 :
 :
 optional
@@ -747,7 +741,7 @@ PlusInfinity
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -761,7 +755,7 @@ first_packet_sent_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -811,7 +805,7 @@ last_stable_target_rate_
 LossBasedState
 last_loss_base_state_
 ;
-absl
+std
 :
 :
 optional
@@ -846,7 +840,7 @@ previously_in_alr_
 =
 false
 ;
-absl
+std
 :
 :
 optional

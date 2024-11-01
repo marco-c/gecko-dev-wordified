@@ -121,6 +121,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -141,17 +146,6 @@ absl
 algorithm
 /
 container
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1518,7 +1512,7 @@ return
 pad_up_to_bitrate_bps
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1677,7 +1671,7 @@ send
 stream
 config
 .
-absl
+std
 :
 :
 optional
@@ -1717,12 +1711,12 @@ config
 )
 )
 return
-absl
+std
 :
 :
 nullopt
 ;
-absl
+std
 :
 :
 optional
@@ -3181,7 +3175,7 @@ field_trials
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -3217,7 +3211,7 @@ if
 configured_pacing_factor_
 )
 {
-absl
+std
 :
 :
 optional
@@ -3822,7 +3816,7 @@ GetStats
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -5081,7 +5075,7 @@ ContentType
 kRealtimeVideo
 )
 ?
-absl
+std
 :
 :
 optional
@@ -5095,7 +5089,7 @@ TrackRateElasticity
 kCanConsumeExtraRate
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -5219,7 +5213,7 @@ payload_name
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -6125,7 +6119,7 @@ return
 protection_bitrate_bps
 ;
 }
-absl
+std
 :
 :
 optional
@@ -6173,7 +6167,7 @@ support
 that
 .
 return
-absl
+std
 :
 :
 nullopt

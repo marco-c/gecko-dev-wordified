@@ -2645,7 +2645,7 @@ av_frame_alloc
 ;
 if
 (
-absl
+std
 :
 :
 optional
@@ -3065,7 +3065,7 @@ ParseBitstream
 input_image
 )
 ;
-absl
+std
 :
 :
 optional
@@ -4820,7 +4820,7 @@ decoded_image_callback_
 Decoded
 (
 decoded_frame
-absl
+std
 :
 :
 nullopt

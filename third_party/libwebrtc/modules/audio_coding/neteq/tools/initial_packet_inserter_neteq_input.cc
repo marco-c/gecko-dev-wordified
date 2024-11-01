@@ -169,7 +169,7 @@ sample_rate_hz
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -193,7 +193,7 @@ NextPacketTime
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -217,7 +217,7 @@ NextOutputEventTime
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -482,7 +482,7 @@ ended
 )
 ;
 }
-absl
+std
 :
 :
 optional

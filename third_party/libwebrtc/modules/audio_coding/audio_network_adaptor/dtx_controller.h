@@ -93,15 +93,9 @@ define
 MODULES_AUDIO_CODING_AUDIO_NETWORK_ADAPTOR_DTX_CONTROLLER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -254,7 +248,7 @@ config_
 bool
 dtx_enabled_
 ;
-absl
+std
 :
 :
 optional

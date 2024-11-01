@@ -124,19 +124,13 @@ limits
 #
 include
 <
-utility
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+utility
+>
 #
 include
 "
@@ -882,7 +876,7 @@ return
 best_scale
 ;
 }
-absl
+std
 :
 :
 optional
@@ -899,7 +893,7 @@ int
 Swap
 (
 const
-absl
+std
 :
 :
 optional
@@ -924,7 +918,7 @@ in
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1198,7 +1192,7 @@ frame
 /
 orientation
 .
-absl
+std
 :
 :
 optional
@@ -1924,7 +1918,7 @@ VideoAdapter
 OnOutputFormatRequest
 (
 const
-absl
+std
 :
 :
 optional
@@ -1935,7 +1929,7 @@ VideoFormat
 format
 )
 {
-absl
+std
 :
 :
 optional
@@ -1951,7 +1945,7 @@ int
 >
 target_aspect_ratio
 ;
-absl
+std
 :
 :
 optional
@@ -1960,7 +1954,7 @@ int
 >
 max_pixel_count
 ;
-absl
+std
 :
 :
 optional
@@ -2040,7 +2034,7 @@ VideoAdapter
 OnOutputFormatRequest
 (
 const
-absl
+std
 :
 :
 optional
@@ -2057,7 +2051,7 @@ int
 &
 target_aspect_ratio
 const
-absl
+std
 :
 :
 optional
@@ -2067,7 +2061,7 @@ int
 &
 max_pixel_count
 const
-absl
+std
 :
 :
 optional
@@ -2078,7 +2072,7 @@ int
 max_fps
 )
 {
-absl
+std
 :
 :
 optional
@@ -2094,7 +2088,7 @@ int
 >
 target_landscape_aspect_ratio
 ;
-absl
+std
 :
 :
 optional
@@ -2215,7 +2209,7 @@ VideoAdapter
 OnOutputFormatRequest
 (
 const
-absl
+std
 :
 :
 optional
@@ -2232,7 +2226,7 @@ int
 &
 target_landscape_aspect_ratio
 const
-absl
+std
 :
 :
 optional
@@ -2242,7 +2236,7 @@ int
 &
 max_landscape_pixel_count
 const
-absl
+std
 :
 :
 optional
@@ -2259,7 +2253,7 @@ int
 &
 target_portrait_aspect_ratio
 const
-absl
+std
 :
 :
 optional
@@ -2269,7 +2263,7 @@ int
 &
 max_portrait_pixel_count
 const
-absl
+std
 :
 :
 optional

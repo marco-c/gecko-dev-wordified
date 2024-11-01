@@ -123,6 +123,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -143,17 +148,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -435,7 +429,7 @@ EmulatedSFUConfig
 :
 EmulatedSFUConfig
 (
-absl
+std
 :
 :
 optional
@@ -443,7 +437,7 @@ optional
 int
 >
 target_layer_index
-absl
+std
 :
 :
 optional
@@ -899,7 +893,7 @@ resolution
 resolution
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1001,7 +995,7 @@ resolution
 resolution
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1170,7 +1164,7 @@ Release
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1204,7 +1198,7 @@ export_frame_ids_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1291,7 +1285,7 @@ Release
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1330,7 +1324,7 @@ export_frame_ids_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1604,7 +1598,7 @@ required_params
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -1665,7 +1659,7 @@ resolutions
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1698,7 +1692,7 @@ empty
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1915,7 +1909,7 @@ return
 this
 ;
 }
-absl
+std
 :
 :
 optional

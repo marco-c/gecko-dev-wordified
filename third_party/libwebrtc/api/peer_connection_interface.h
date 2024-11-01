@@ -621,6 +621,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -647,17 +652,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -3292,7 +3286,7 @@ PeerConnection
 /
 /
 /
-absl
+std
 :
 :
 optional
@@ -3577,7 +3571,7 @@ one
 with
 motion
 .
-absl
+std
 :
 :
 optional
@@ -4754,7 +4748,7 @@ them
 is
 less
 .
-absl
+std
 :
 :
 optional
@@ -4763,7 +4757,7 @@ int
 >
 ice_check_interval_strong_connectivity
 ;
-absl
+std
 :
 :
 optional
@@ -4772,7 +4766,7 @@ int
 >
 ice_check_interval_weak_connectivity
 ;
-absl
+std
 :
 :
 optional
@@ -4821,7 +4815,7 @@ implementation
 if
 set
 .
-absl
+std
 :
 :
 optional
@@ -4869,7 +4863,7 @@ implementation
 if
 set
 .
-absl
+std
 :
 :
 optional
@@ -4917,7 +4911,7 @@ implementation
 if
 set
 .
-absl
+std
 :
 :
 optional
@@ -4949,7 +4943,7 @@ NAT
 bindings
 open
 .
-absl
+std
 :
 :
 optional
@@ -5045,7 +5039,7 @@ network
 /
 cost
 .
-absl
+std
 :
 :
 optional
@@ -5440,7 +5434,7 @@ is
 deprecated
 )
 .
-absl
+std
 :
 :
 optional
@@ -5577,7 +5571,7 @@ for
 testing
 only
 .
-absl
+std
 :
 :
 optional
@@ -5617,7 +5611,7 @@ implementation
 if
 set
 .
-absl
+std
 :
 :
 optional
@@ -5758,7 +5752,7 @@ see
 TaskQueuePacedSender
 constructor
 .
-absl
+std
 :
 :
 optional
@@ -10409,7 +10403,7 @@ attributes
 -
 1
 virtual
-absl
+std
 :
 :
 optional

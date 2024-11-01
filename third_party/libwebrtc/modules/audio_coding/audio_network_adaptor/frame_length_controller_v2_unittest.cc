@@ -349,7 +349,7 @@ use_slow_adaptation
 false
 )
 ;
-absl
+std
 :
 :
 optional
@@ -358,7 +358,7 @@ int
 >
 target_audio_bitrate_bps_
 ;
-absl
+std
 :
 :
 optional

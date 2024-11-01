@@ -116,15 +116,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -483,7 +477,7 @@ the
 speech
 encoder
 .
-absl
+std
 :
 :
 optional
@@ -1809,7 +1803,7 @@ received
 .
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -1887,7 +1881,7 @@ undefined
 .
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -1901,7 +1895,7 @@ LastDecoder
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt

@@ -116,6 +116,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -131,17 +136,6 @@ absl
 base
 /
 macros
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -486,7 +480,7 @@ section
 4
 .
 2
-absl
+std
 :
 :
 optional
@@ -553,7 +547,7 @@ truncated
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -571,7 +565,7 @@ cdata
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -733,7 +727,7 @@ truncated
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -769,7 +763,7 @@ lengths
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -919,7 +913,7 @@ short
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1202,7 +1196,7 @@ payload_data
 start_offset
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1480,7 +1474,7 @@ received
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1532,7 +1526,7 @@ section
 4
 .
 3
-absl
+std
 :
 :
 optional
@@ -1579,13 +1573,13 @@ truncated
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1933,7 +1927,7 @@ parsed_payload
 /
 /
 namespace
-absl
+std
 :
 :
 optional
@@ -1977,7 +1971,7 @@ payload
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -2088,7 +2082,7 @@ type
 nal_type
 ;
 return
-absl
+std
 :
 :
 nullopt

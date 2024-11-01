@@ -93,15 +93,9 @@ define
 MODULES_AUDIO_PROCESSING_AEC3_CONFIG_SELECTOR_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -136,7 +130,7 @@ EchoCanceller3Config
 &
 config
 const
-absl
+std
 :
 :
 optional
@@ -192,7 +186,7 @@ EchoCanceller3Config
 config_
 ;
 const
-absl
+std
 :
 :
 optional

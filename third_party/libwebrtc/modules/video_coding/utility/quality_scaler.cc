@@ -299,7 +299,7 @@ alpha
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -335,7 +335,7 @@ kValueUndefined
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1685,7 +1685,7 @@ frame
 drop
 .
 const
-absl
+std
 :
 :
 optional
@@ -1762,7 +1762,7 @@ on
 QP
 .
 const
-absl
+std
 :
 :
 optional
@@ -1787,7 +1787,7 @@ GetAverageRoundedDown
 )
 ;
 const
-absl
+std
 :
 :
 optional

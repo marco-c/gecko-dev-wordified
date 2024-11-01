@@ -121,6 +121,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -141,17 +146,6 @@ absl
 algorithm
 /
 container
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -682,7 +676,7 @@ return
 buffer_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -775,7 +769,7 @@ is_key_frame_
 EncodedResolution
 resolution_
 ;
-absl
+std
 :
 :
 optional
@@ -1091,7 +1085,7 @@ string
 OptionalDelayToLogString
 (
 const
-absl
+std
 :
 :
 optional
@@ -3776,7 +3770,7 @@ GetStats
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -3950,7 +3944,7 @@ RTC_DCHECK_RUN_ON
 worker_sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -4729,7 +4723,7 @@ worker_sequence_checker_
 ;
 if
 (
-absl
+std
 :
 :
 optional
@@ -4915,7 +4909,7 @@ remote_ssrc
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4939,7 +4933,7 @@ RTC_DCHECK_RUN_ON
 packet_sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -4963,7 +4957,7 @@ if
 info
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -5453,7 +5447,7 @@ CurrentTime
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -5572,7 +5566,7 @@ IsDecryptable
 )
 )
 {
-absl
+std
 :
 :
 optional
@@ -5718,7 +5712,7 @@ force_request_key_frame
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -6392,7 +6386,7 @@ if
 encoded_frame_output_enabled
 )
 {
-absl
+std
 :
 :
 optional
@@ -6726,7 +6720,7 @@ RTC_DCHECK_RUN_ON
 packet_sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -6810,7 +6804,7 @@ std
 :
 initializer_list
 <
-absl
+std
 :
 :
 optional
@@ -6850,7 +6844,7 @@ all
 are
 nullopt
 .
-absl
+std
 :
 :
 optional
@@ -7183,7 +7177,7 @@ state
 RecordingState
 old_state
 ;
-absl
+std
 :
 :
 optional

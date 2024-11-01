@@ -100,15 +100,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 namespace
 webrtc
 {
@@ -136,7 +130,7 @@ sample
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -397,7 +391,7 @@ sample
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -462,7 +456,7 @@ const
 float
 init_const_
 ;
-absl
+std
 :
 :
 optional

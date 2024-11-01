@@ -108,15 +108,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -260,7 +254,7 @@ RollingAccumulator
 The
 measures
 return
-absl
+std
 :
 :
 nullopt
@@ -957,7 +951,7 @@ RemoveSample
 (
 )
 .
-absl
+std
 :
 :
 optional
@@ -978,7 +972,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1015,7 +1009,7 @@ RemoveSample
 (
 )
 .
-absl
+std
 :
 :
 optional
@@ -1036,7 +1030,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1057,7 +1051,7 @@ O
 )
 time
 .
-absl
+std
 :
 :
 optional
@@ -1078,7 +1072,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1099,7 +1093,7 @@ O
 )
 time
 .
-absl
+std
 :
 :
 optional
@@ -1120,7 +1114,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1143,7 +1137,7 @@ O
 )
 time
 .
-absl
+std
 :
 :
 optional
@@ -1164,7 +1158,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1189,7 +1183,7 @@ O
 )
 time
 .
-absl
+std
 :
 :
 optional
@@ -1210,7 +1204,7 @@ size_
 )
 {
 return
-absl
+std
 :
 :
 nullopt

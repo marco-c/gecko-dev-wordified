@@ -104,19 +104,13 @@ memory
 #
 include
 <
-vector
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+vector
+>
 #
 include
 "
@@ -265,7 +259,7 @@ instead
 ;
 \
 return
-absl
+std
 :
 :
 nullopt
@@ -448,7 +442,7 @@ a
 ;
 \
 return
-absl
+std
 :
 :
 nullopt
@@ -540,7 +534,7 @@ REC
 H
 .
 265
-absl
+std
 :
 :
 optional
@@ -785,7 +779,7 @@ Ok
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -834,7 +828,7 @@ sps
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -856,7 +850,7 @@ sps_id
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1801,7 +1795,7 @@ reader
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1840,7 +1834,7 @@ Ok
 )
 {
 return
-absl
+std
 :
 :
 nullopt

@@ -980,7 +980,7 @@ lock
 lock_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -989,7 +989,7 @@ size_t
 >
 outlier_frame_size
 ;
-absl
+std
 :
 :
 optional
@@ -1514,7 +1514,7 @@ stalled_encoder_logged_messages_
 0
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1533,7 +1533,7 @@ EncodedImage
 encoded_image
 )
 {
-absl
+std
 :
 :
 optional

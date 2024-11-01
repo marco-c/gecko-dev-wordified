@@ -922,7 +922,7 @@ return
 filename
 ;
 }
-absl
+std
 :
 :
 optional
@@ -959,7 +959,7 @@ length
 0
 )
 return
-absl
+std
 :
 :
 optional
@@ -1064,7 +1064,7 @@ handle
 INVALID_HANDLE_VALUE
 )
 return
-absl
+std
 :
 :
 optional
@@ -1238,7 +1238,7 @@ dir
 nullptr
 )
 return
-absl
+std
 :
 :
 optional
@@ -1340,7 +1340,7 @@ dir
 #
 endif
 return
-absl
+std
 :
 :
 optional

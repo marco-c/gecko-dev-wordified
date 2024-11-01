@@ -217,7 +217,7 @@ socket_address
 AdapterType
 adapter_type
 ;
-absl
+std
 :
 :
 optional
@@ -318,7 +318,7 @@ string_view
 if_name
 AdapterType
 type
-absl
+std
 :
 :
 optional
@@ -327,7 +327,7 @@ AdapterType
 >
 underlying_vpn_adapter_type
 =
-absl
+std
 :
 :
 nullopt

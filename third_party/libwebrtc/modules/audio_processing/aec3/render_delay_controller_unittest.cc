@@ -653,7 +653,7 @@ num_bands
 num_capture_channels
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1052,7 +1052,7 @@ delay_samples
 }
 )
 {
-absl
+std
 :
 :
 optional
@@ -1514,7 +1514,7 @@ delay_samples
 }
 )
 {
-absl
+std
 :
 :
 optional
@@ -1929,7 +1929,7 @@ delay_samples
 }
 )
 {
-absl
+std
 :
 :
 optional

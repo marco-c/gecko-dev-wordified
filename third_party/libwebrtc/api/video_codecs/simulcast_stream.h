@@ -93,15 +93,9 @@ define
 API_VIDEO_CODECS_SIMULCAST_STREAM_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -176,7 +170,7 @@ GetNumberOfTemporalLayers
 )
 const
 ;
-absl
+std
 :
 :
 optional

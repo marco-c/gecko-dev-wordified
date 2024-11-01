@@ -90,15 +90,9 @@ define
 RTC_BASE_EXPERIMENTS_QUALITY_SCALING_EXPERIMENT_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -342,7 +336,7 @@ field
 trial
 .
 static
-absl
+std
 :
 :
 optional
@@ -366,7 +360,7 @@ the
 codec_type
 .
 static
-absl
+std
 :
 :
 optional

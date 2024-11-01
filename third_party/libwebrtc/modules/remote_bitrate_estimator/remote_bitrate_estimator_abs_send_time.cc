@@ -1705,7 +1705,7 @@ to
 be
 reset
 .
-absl
+std
 :
 :
 optional
@@ -2336,7 +2336,7 @@ BandwidthUsage
 kBwOverusing
 )
 {
-absl
+std
 :
 :
 optional

@@ -113,15 +113,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -529,7 +523,7 @@ expand_mutefactor
 size_t
 last_packet_samples
 ;
-absl
+std
 :
 :
 optional
@@ -1130,7 +1124,7 @@ be
 computed
 .
 virtual
-absl
+std
 :
 :
 optional

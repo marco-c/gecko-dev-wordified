@@ -126,6 +126,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -162,17 +167,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -3807,7 +3801,7 @@ return
 media_type_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4039,7 +4033,7 @@ RtpTransceiver
 :
 set_fired_direction
 (
-absl
+std
 :
 :
 optional
@@ -4220,7 +4214,7 @@ OK
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4254,7 +4248,7 @@ return
 current_direction_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4829,7 +4823,7 @@ null
 .
 current_direction_
 =
-absl
+std
 :
 :
 nullopt

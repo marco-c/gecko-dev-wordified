@@ -3093,7 +3093,7 @@ video_bitrate_allocator_factory_
 WebRtcVideoEngine
 engine_
 ;
-absl
+std
 :
 :
 optional
@@ -5944,7 +5944,7 @@ kH264CodecName
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -19595,7 +19595,7 @@ parameters
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -19800,7 +19800,7 @@ parameters
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -20010,7 +20010,7 @@ parameters
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -28430,7 +28430,7 @@ RtpEncodingParameters
 :
 :
 scalability_mode
-absl
+std
 :
 :
 nullopt
@@ -29447,7 +29447,7 @@ RtpEncodingParameters
 :
 :
 scalability_mode
-absl
+std
 :
 :
 nullopt
@@ -33244,7 +33244,7 @@ send_parameters_
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -38066,7 +38066,7 @@ encodings
 ]
 .
 codec
-absl
+std
 :
 :
 nullopt
@@ -39890,7 +39890,7 @@ back
 max_qp
 )
 ;
-absl
+std
 :
 :
 optional
@@ -46529,7 +46529,7 @@ EXPECT_EQ
 sender
 .
 qp_sum
-absl
+std
 :
 :
 nullopt
@@ -46584,7 +46584,7 @@ EXPECT_EQ
 sender
 .
 rid
-absl
+std
 :
 :
 nullopt
@@ -47538,7 +47538,7 @@ EXPECT_EQ
 sender
 .
 rid
-absl
+std
 :
 :
 nullopt
@@ -48474,7 +48474,7 @@ EXPECT_EQ
 sender
 .
 rid
-absl
+std
 :
 :
 nullopt
@@ -50162,7 +50162,7 @@ kFirstMediaStreamSsrc
 .
 referenced_media_ssrc
 =
-absl
+std
 :
 :
 nullopt
@@ -50323,7 +50323,7 @@ kSecondMediaStreamSsrc
 .
 referenced_media_ssrc
 =
-absl
+std
 :
 :
 nullopt
@@ -51171,7 +51171,7 @@ substreams
 .
 referenced_media_ssrc
 =
-absl
+std
 :
 :
 nullopt
@@ -51484,7 +51484,7 @@ substreams
 .
 referenced_media_ssrc
 =
-absl
+std
 :
 :
 nullopt
@@ -58093,7 +58093,7 @@ WebRtcVideoChannelTest
 BaseMinimumPlayoutDelayMsUnsignaledRecvStream
 )
 {
-absl
+std
 :
 :
 optional
@@ -62403,7 +62403,7 @@ VideoStreams
 .
 EXPECT_EQ
 (
-absl
+std
 :
 :
 optional
@@ -62903,7 +62903,7 @@ size
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 optional
@@ -62953,7 +62953,7 @@ of
 .
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -62972,7 +62972,7 @@ bitrate_priority
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -65910,7 +65910,7 @@ encodings
 .
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt
@@ -65989,7 +65989,7 @@ VideoEncoderConfig
 correctly
 .
 const
-absl
+std
 :
 :
 optional
@@ -66555,7 +66555,7 @@ VideoEncoderConfig
 correctly
 .
 const
-absl
+std
 :
 :
 optional
@@ -76216,7 +76216,7 @@ SetSend
 true
 )
 ;
-absl
+std
 :
 :
 optional

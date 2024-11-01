@@ -357,7 +357,7 @@ FecType
 kFlexFec
 ;
 }
-absl
+std
 :
 :
 optional
@@ -528,7 +528,7 @@ has
 shut
 down
 .
-absl
+std
 :
 :
 optional

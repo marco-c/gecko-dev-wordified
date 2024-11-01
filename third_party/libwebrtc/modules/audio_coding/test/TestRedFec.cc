@@ -792,7 +792,7 @@ opus
 48000
 2
 }
-absl
+std
 :
 :
 nullopt
@@ -886,7 +886,7 @@ L16
 8000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -914,7 +914,7 @@ opus
 48000
 2
 }
-absl
+std
 :
 :
 nullopt
@@ -1028,7 +1028,7 @@ const
 SdpAudioFormat
 &
 codec_format
-absl
+std
 :
 :
 optional

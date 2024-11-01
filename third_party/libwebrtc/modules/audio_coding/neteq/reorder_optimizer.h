@@ -93,15 +93,9 @@ define
 MODULES_AUDIO_CODING_NETEQ_REORDER_OPTIMIZER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -163,7 +157,7 @@ int
 forget_factor
 int
 ms_per_loss_percent
-absl
+std
 :
 :
 optional
@@ -184,7 +178,7 @@ int
 base_delay_ms
 )
 ;
-absl
+std
 :
 :
 optional
@@ -222,7 +216,7 @@ const
 int
 ms_per_loss_percent_
 ;
-absl
+std
 :
 :
 optional

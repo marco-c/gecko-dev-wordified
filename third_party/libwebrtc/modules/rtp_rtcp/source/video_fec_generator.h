@@ -194,7 +194,7 @@ SSRC
 )
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -442,7 +442,7 @@ FlexFec
 )
 .
 virtual
-absl
+std
 :
 :
 optional

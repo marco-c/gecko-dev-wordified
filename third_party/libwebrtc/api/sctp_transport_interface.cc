@@ -129,7 +129,7 @@ scoped_refptr
 DtlsTransportInterface
 >
 dtls_transport
-absl
+std
 :
 :
 optional
@@ -137,7 +137,7 @@ optional
 double
 >
 max_message_size
-absl
+std
 :
 :
 optional

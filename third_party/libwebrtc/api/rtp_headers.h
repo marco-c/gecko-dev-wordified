@@ -108,19 +108,13 @@ h
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -768,7 +762,7 @@ Clock
 Capture
 Clock
 Offset
-absl
+std
 :
 :
 optional
@@ -1191,7 +1185,7 @@ hasAbsoluteSendTime
 uint32_t
 absoluteSendTime
 ;
-absl
+std
 :
 :
 optional
@@ -1206,7 +1200,7 @@ hasTransportSequenceNumber
 uint16_t
 transportSequenceNumber
 ;
-absl
+std
 :
 :
 optional
@@ -1251,7 +1245,7 @@ rfc6464
 section
 -
 3
-absl
+std
 :
 :
 optional
@@ -1270,7 +1264,7 @@ audio_level_
 void
 set_audio_level
 (
-absl
+std
 :
 :
 optional
@@ -1345,7 +1339,7 @@ one
 above
 to
 be
-absl
+std
 :
 :
 optional
@@ -1452,7 +1446,7 @@ std
 string
 mid
 ;
-absl
+std
 :
 :
 optional
@@ -1466,7 +1460,7 @@ csrcAudioLevels
 ;
 private
 :
-absl
+std
 :
 :
 optional

@@ -2978,7 +2978,7 @@ ssrcs
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3099,7 +3099,7 @@ qp_
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3130,7 +3130,7 @@ codec_info
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3204,7 +3204,7 @@ ssrcs
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3225,7 +3225,7 @@ scalability_mode
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3287,7 +3287,7 @@ layer0_mode
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -18137,7 +18137,7 @@ kFirstSsrc
 )
 .
 referenced_media_ssrc
-absl
+std
 :
 :
 nullopt
@@ -18276,7 +18276,7 @@ kFirstSsrc
 )
 .
 referenced_media_ssrc
-absl
+std
 :
 :
 nullopt

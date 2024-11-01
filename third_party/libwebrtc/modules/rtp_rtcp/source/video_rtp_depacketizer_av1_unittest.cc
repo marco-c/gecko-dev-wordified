@@ -225,7 +225,7 @@ packet
 VideoRtpDepacketizerAv1
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -336,7 +336,7 @@ packet
 VideoRtpDepacketizerAv1
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -407,7 +407,7 @@ kObuHeaderFrame
 VideoRtpDepacketizerAv1
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -487,7 +487,7 @@ packet
 VideoRtpDepacketizerAv1
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -552,7 +552,7 @@ kObuHeaderFrame
 VideoRtpDepacketizerAv1
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -623,7 +623,7 @@ kObuHeaderSequenceHeader
 VideoRtpDepacketizerAv1
 depacketizer
 ;
-absl
+std
 :
 :
 optional
@@ -710,7 +710,7 @@ kObuHeaderSequenceHeader
 VideoRtpDepacketizerAv1
 depacketizer
 ;
-absl
+std
 :
 :
 optional

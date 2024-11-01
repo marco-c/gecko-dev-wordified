@@ -123,7 +123,7 @@ rtc
 namespace
 string_to_number_internal
 {
-absl
+std
 :
 :
 optional
@@ -150,7 +150,7 @@ empty
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -274,13 +274,13 @@ value
 }
 }
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -307,7 +307,7 @@ empty
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -498,7 +498,7 @@ value
 }
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -612,7 +612,7 @@ template
 typename
 T
 >
-absl
+std
 :
 :
 optional
@@ -637,7 +637,7 @@ empty
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -656,7 +656,7 @@ str
 '
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -727,14 +727,14 @@ value
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
 template
-absl
+std
 :
 :
 optional
@@ -751,7 +751,7 @@ str
 )
 ;
 template
-absl
+std
 :
 :
 optional
@@ -768,7 +768,7 @@ str
 )
 ;
 template
-absl
+std
 :
 :
 optional

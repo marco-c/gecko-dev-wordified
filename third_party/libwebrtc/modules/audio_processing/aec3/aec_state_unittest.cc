@@ -225,7 +225,7 @@ config
 num_capture_channels
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2236,7 +2236,7 @@ config
 )
 )
 ;
-absl
+std
 :
 :
 optional

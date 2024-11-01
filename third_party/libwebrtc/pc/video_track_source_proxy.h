@@ -90,15 +90,9 @@ define
 PC_VIDEO_TRACK_SOURCE_PROXY_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -250,7 +244,7 @@ is_screencast
 )
 PROXY_CONSTMETHOD0
 (
-absl
+std
 :
 :
 optional

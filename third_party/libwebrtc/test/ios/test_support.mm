@@ -439,7 +439,7 @@ string
 g_webrtc_test_metrics_output_path
 ;
 static
-absl
+std
 :
 :
 optional
@@ -449,7 +449,7 @@ bool
 g_is_xctest
 ;
 static
-absl
+std
 :
 :
 optional
@@ -1426,7 +1426,7 @@ std
 :
 string
 webrtc_test_metrics_output_path
-absl
+std
 :
 :
 optional
@@ -1555,7 +1555,7 @@ nullptr
 {
 g_is_xctest
 =
-absl
+std
 :
 :
 optional
@@ -1577,7 +1577,7 @@ argv
 }
 g_is_xctest
 =
-absl
+std
 :
 :
 optional

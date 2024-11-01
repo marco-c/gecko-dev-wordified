@@ -268,7 +268,7 @@ output_dump_file_name
 {
 }
 static
-absl
+std
 :
 :
 optional
@@ -277,7 +277,7 @@ RemotePeerAudioConfig
 >
 Create
 (
-absl
+std
 :
 :
 optional
@@ -290,7 +290,7 @@ config
 int
 sampling_frequency_in_hz
 ;
-absl
+std
 :
 :
 optional
@@ -483,7 +483,7 @@ unique_ptr
 MockPeerConnectionObserver
 >
 observer
-absl
+std
 :
 :
 optional
@@ -491,7 +491,7 @@ optional
 RemotePeerAudioConfig
 >
 remote_audio_config
-absl
+std
 :
 :
 optional

@@ -253,7 +253,7 @@ the
 supplied
 buffer
 .
-absl
+std
 :
 :
 optional
@@ -309,7 +309,7 @@ reader
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -962,7 +962,7 @@ kScaldingDeltaMax
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1094,7 +1094,7 @@ kMaxLog2Minus4
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1169,7 +1169,7 @@ kMaxLog2Minus4
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1302,7 +1302,7 @@ Ok
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1682,7 +1682,7 @@ Ok
 )
 {
 return
-absl
+std
 :
 :
 nullopt

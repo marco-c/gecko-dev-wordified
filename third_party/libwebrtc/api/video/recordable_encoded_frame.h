@@ -93,15 +93,9 @@ define
 API_VIDEO_RECORDABLE_ENCODED_FRAME_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -291,7 +285,7 @@ s
 colorspace
 .
 virtual
-absl
+std
 :
 :
 optional

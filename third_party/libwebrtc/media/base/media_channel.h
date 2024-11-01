@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -121,17 +126,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -605,7 +599,7 @@ char
 *
 key
 const
-absl
+std
 :
 :
 optional
@@ -1037,7 +1031,7 @@ Disabled
 by
 default
 .
-absl
+std
 :
 :
 optional
@@ -1119,7 +1113,7 @@ to
 kbps
 )
 .
-absl
+std
 :
 :
 optional
@@ -1178,7 +1172,7 @@ have
 different
 needs
 .
-absl
+std
 :
 :
 optional
@@ -1207,7 +1201,7 @@ static
 void
 SetFrom
 (
-absl
+std
 :
 :
 optional
@@ -1217,7 +1211,7 @@ T
 *
 s
 const
-absl
+std
 :
 :
 optional
@@ -1386,7 +1380,7 @@ outgoing
 media
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -2187,7 +2181,7 @@ is
 one
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -2555,7 +2549,7 @@ in
 milliseconds
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -3131,7 +3125,7 @@ dom
 rtcoutboundrtpstreamstats
 -
 targetbitrate
-absl
+std
 :
 :
 optional
@@ -3163,7 +3157,7 @@ std
 string
 codec_name
 ;
-absl
+std
 :
 :
 optional
@@ -3254,7 +3248,7 @@ ReportBlockData
 >
 report_block_datas
 ;
-absl
+std
 :
 :
 optional
@@ -3627,7 +3621,7 @@ packets_lost
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -3636,7 +3630,7 @@ uint64_t
 >
 retransmitted_bytes_received
 ;
-absl
+std
 :
 :
 optional
@@ -3645,7 +3639,7 @@ uint64_t
 >
 retransmitted_packets_received
 ;
-absl
+std
 :
 :
 optional
@@ -3874,7 +3868,7 @@ dom
 rtcinboundrtpstreamstats
 -
 lastpacketreceivedtimestamp
-absl
+std
 :
 :
 optional
@@ -3908,7 +3902,7 @@ dom
 rtcinboundrtpstreamstats
 -
 estimatedplayouttimestamp
-absl
+std
 :
 :
 optional
@@ -3923,7 +3917,7 @@ std
 string
 codec_name
 ;
-absl
+std
 :
 :
 optional
@@ -3972,7 +3966,7 @@ dom
 rtcinboundrtpstreamstats
 -
 fecpacketsreceived
-absl
+std
 :
 :
 optional
@@ -4003,7 +3997,7 @@ dom
 rtcinboundrtpstreamstats
 -
 fecpacketsdiscarded
-absl
+std
 :
 :
 optional
@@ -4034,7 +4028,7 @@ dom
 rtcinboundrtpstreamstats
 -
 fecbytesreceived
-absl
+std
 :
 :
 optional
@@ -4108,7 +4102,7 @@ remoteoutboundrtpstats
 -
 dict
 *
-absl
+std
 :
 :
 optional
@@ -4117,7 +4111,7 @@ int64_t
 >
 last_sender_report_timestamp_ms
 ;
-absl
+std
 :
 :
 optional
@@ -4171,7 +4165,7 @@ dom
 rtcremoteoutboundrtpstreamstats
 -
 roundtriptime
-absl
+std
 :
 :
 optional
@@ -4823,7 +4817,7 @@ SsrcGroup
 >
 ssrc_groups
 ;
-absl
+std
 :
 :
 optional
@@ -5067,7 +5061,7 @@ has_entered_low_resolution
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -5127,7 +5121,7 @@ aggregated_huge_frames_sent
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -5139,7 +5133,7 @@ string
 >
 rid
 ;
-absl
+std
 :
 :
 optional
@@ -5148,7 +5142,7 @@ bool
 >
 power_efficient_encoder
 ;
-absl
+std
 :
 :
 optional
@@ -5186,7 +5180,7 @@ SsrcGroup
 >
 ssrc_groups
 ;
-absl
+std
 :
 :
 optional
@@ -5198,7 +5192,7 @@ string
 >
 decoder_implementation_name
 ;
-absl
+std
 :
 :
 optional
@@ -5299,7 +5293,7 @@ frames_rendered
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -5664,7 +5658,7 @@ timing
 frame
 '
 .
-absl
+std
 :
 :
 optional
@@ -7847,7 +7841,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -8161,7 +8155,7 @@ webrtc
 :
 RtcpMode
 rtcp_mode
-absl
+std
 :
 :
 optional

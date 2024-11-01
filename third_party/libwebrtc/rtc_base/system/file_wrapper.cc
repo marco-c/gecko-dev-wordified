@@ -116,6 +116,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -126,17 +131,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -560,7 +554,7 @@ SEEK_SET
 0
 ;
 }
-absl
+std
 :
 :
 optional
@@ -582,7 +576,7 @@ file_
 nullptr
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -602,7 +596,7 @@ original_position
 0
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -622,7 +616,7 @@ if
 seek_error
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -649,7 +643,7 @@ if
 seek_error
 )
 return
-absl
+std
 :
 :
 nullopt

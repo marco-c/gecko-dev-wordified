@@ -187,7 +187,7 @@ size_t
 num_temporal_layers
 bool
 is_screen_sharing
-absl
+std
 :
 :
 optional
@@ -199,7 +199,7 @@ StreamLayersConfig
 >
 config
 =
-absl
+std
 :
 :
 nullopt

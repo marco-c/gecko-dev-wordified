@@ -963,7 +963,7 @@ returned
 RTCError
 ReserveOrAllocateSid
 (
-absl
+std
 :
 :
 optional
@@ -972,7 +972,7 @@ StreamId
 >
 &
 sid
-absl
+std
 :
 :
 optional

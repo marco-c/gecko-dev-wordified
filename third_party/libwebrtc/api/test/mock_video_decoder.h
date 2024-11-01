@@ -98,15 +98,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -219,7 +213,7 @@ decoded_image
 /
 /
 NOLINT
-absl
+std
 :
 :
 optional
@@ -227,7 +221,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional

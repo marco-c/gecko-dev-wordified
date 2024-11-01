@@ -395,7 +395,7 @@ Decoded
 VideoFrame
 &
 frame
-absl
+std
 :
 :
 optional
@@ -403,7 +403,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -592,7 +592,7 @@ VideoFrame
 >
 *
 frame
-absl
+std
 :
 :
 optional
@@ -700,7 +700,7 @@ decoded_frame_event_
 Mutex
 decoded_frame_section_
 ;
-absl
+std
 :
 :
 optional
@@ -713,7 +713,7 @@ RTC_GUARDED_BY
 decoded_frame_section_
 )
 ;
-absl
+std
 :
 :
 optional

@@ -1445,7 +1445,7 @@ kMinBitrateBps
 kOverheadBps
 -
 1
-absl
+std
 :
 :
 nullopt
@@ -1486,7 +1486,7 @@ kMaxBitrateBps
 kOverheadBps
 +
 1
-absl
+std
 :
 :
 nullopt
@@ -1524,7 +1524,7 @@ OnReceivedUplinkBandwidth
 kMinBitrateBps
 +
 kOverheadBps
-absl
+std
 :
 :
 nullopt
@@ -1562,7 +1562,7 @@ OnReceivedUplinkBandwidth
 kMaxBitrateBps
 +
 kOverheadBps
-absl
+std
 :
 :
 nullopt
@@ -1624,7 +1624,7 @@ encoder
 OnReceivedUplinkBandwidth
 (
 rate
-absl
+std
 :
 :
 nullopt
@@ -2715,7 +2715,7 @@ OnReceivedUplinkBandwidth
 kDefaultOpusRate
 *
 2
-absl
+std
 :
 :
 nullopt
@@ -2807,7 +2807,7 @@ bitrate_bps
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -2868,7 +2868,7 @@ bitrate_bps
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -3029,7 +3029,7 @@ config
 .
 bitrate_bps
 =
-absl
+std
 :
 :
 optional
@@ -3054,7 +3054,7 @@ inst
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 optional
@@ -3149,7 +3149,7 @@ config
 .
 bitrate_bps
 =
-absl
+std
 :
 :
 optional
@@ -3173,7 +3173,7 @@ inst
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 optional
@@ -3199,7 +3199,7 @@ config
 .
 bitrate_bps
 =
-absl
+std
 :
 :
 optional
@@ -3223,7 +3223,7 @@ inst
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 optional
@@ -3318,7 +3318,7 @@ config
 .
 bitrate_bps
 =
-absl
+std
 :
 :
 optional
@@ -3342,7 +3342,7 @@ inst
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 optional
@@ -3368,7 +3368,7 @@ config
 .
 bitrate_bps
 =
-absl
+std
 :
 :
 optional
@@ -3392,7 +3392,7 @@ inst
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 optional
@@ -3956,7 +3956,7 @@ encoder
 OnReceivedUplinkBandwidth
 (
 0
-absl
+std
 :
 :
 nullopt
@@ -5095,7 +5095,7 @@ Millis
 10
 )
 ;
-absl
+std
 :
 :
 optional

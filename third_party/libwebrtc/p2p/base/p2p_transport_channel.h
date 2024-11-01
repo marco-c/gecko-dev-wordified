@@ -223,6 +223,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -259,17 +264,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1133,7 +1127,7 @@ deadbeef
 )
 :
 Use
-absl
+std
 :
 :
 optional
@@ -1247,7 +1241,7 @@ ice_transport_stats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1268,7 +1262,7 @@ selected_connection
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1518,7 +1512,7 @@ check_receiving_interval
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -1791,7 +1785,7 @@ Release
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3390,7 +3384,7 @@ has
 ever
 been
 true
-absl
+std
 :
 :
 optional

@@ -135,21 +135,21 @@ VideoSourceRestrictions
 :
 max_pixels_per_frame_
 (
-absl
+std
 :
 :
 nullopt
 )
 target_pixels_per_frame_
 (
-absl
+std
 :
 :
 nullopt
 )
 max_frame_rate_
 (
-absl
+std
 :
 :
 nullopt
@@ -161,7 +161,7 @@ VideoSourceRestrictions
 :
 VideoSourceRestrictions
 (
-absl
+std
 :
 :
 optional
@@ -169,7 +169,7 @@ optional
 size_t
 >
 max_pixels_per_frame
-absl
+std
 :
 :
 optional
@@ -177,7 +177,7 @@ optional
 size_t
 >
 target_pixels_per_frame
-absl
+std
 :
 :
 optional
@@ -404,7 +404,7 @@ Release
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -425,7 +425,7 @@ max_pixels_per_frame_
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -446,7 +446,7 @@ target_pixels_per_frame_
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -472,7 +472,7 @@ VideoSourceRestrictions
 :
 set_max_pixels_per_frame
 (
-absl
+std
 :
 :
 optional
@@ -499,7 +499,7 @@ VideoSourceRestrictions
 :
 set_target_pixels_per_frame
 (
-absl
+std
 :
 :
 optional
@@ -526,7 +526,7 @@ VideoSourceRestrictions
 :
 set_max_frame_rate
 (
-absl
+std
 :
 :
 optional

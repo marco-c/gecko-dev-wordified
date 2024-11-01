@@ -153,15 +153,9 @@ define
 API_VIDEO_TRACK_SOURCE_CONSTRAINTS_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 namespace
 webrtc
 {
@@ -191,7 +185,7 @@ ProcessConstraints
 struct
 VideoTrackSourceConstraints
 {
-absl
+std
 :
 :
 optional
@@ -200,7 +194,7 @@ double
 >
 min_fps
 ;
-absl
+std
 :
 :
 optional

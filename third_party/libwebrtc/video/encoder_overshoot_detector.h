@@ -98,15 +98,9 @@ deque
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -230,7 +224,7 @@ building
 growing
 queues
 .
-absl
+std
 :
 :
 optional
@@ -285,7 +279,7 @@ close
 to
 target_bitrate
 .
-absl
+std
 :
 :
 optional

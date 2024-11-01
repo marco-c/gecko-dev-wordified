@@ -90,15 +90,9 @@ define
 P2P_BASE_P2P_TRANSPORT_CHANNEL_ICE_FIELD_TRIALS_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 namespace
 cricket
 {
@@ -170,7 +164,7 @@ skip_relay_to_non_relay_connections
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -214,7 +208,7 @@ connection
 before
 starting
 .
-absl
+std
 :
 :
 optional
@@ -262,7 +256,7 @@ connection
 before
 starting
 .
-absl
+std
 :
 :
 optional
@@ -455,7 +449,7 @@ true
 DSCP
 taging
 .
-absl
+std
 :
 :
 optional

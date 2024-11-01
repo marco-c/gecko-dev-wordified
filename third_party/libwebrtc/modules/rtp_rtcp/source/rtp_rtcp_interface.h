@@ -99,6 +99,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -114,17 +119,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -896,7 +890,7 @@ local_media_ssrc
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -1368,7 +1362,7 @@ dom
 rtcremoteoutboundrtpstreamstats
 -
 roundtriptime
-absl
+std
 :
 :
 optional
@@ -2359,7 +2353,7 @@ a
 nullopt
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -2427,7 +2421,7 @@ is
 one
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -3550,7 +3544,7 @@ time
 estimate
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -3768,7 +3762,7 @@ RTCP
 SRs
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -3795,7 +3789,7 @@ on
 DLRR
 .
 virtual
-absl
+std
 :
 :
 optional

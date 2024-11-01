@@ -98,15 +98,9 @@ cstddef
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 namespace
 cricket
 {
@@ -178,7 +172,7 @@ size_t
 number_of_channels
 size_t
 number_of_frames
-absl
+std
 :
 :
 optional

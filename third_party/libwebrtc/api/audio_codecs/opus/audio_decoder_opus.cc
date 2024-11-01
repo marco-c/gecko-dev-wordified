@@ -111,6 +111,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -131,17 +136,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -285,7 +279,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -317,7 +311,7 @@ num_channels
 )
 -
 >
-absl
+std
 :
 :
 optional
@@ -391,7 +385,7 @@ return
 else
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -477,7 +471,7 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -490,7 +484,7 @@ config
 else
 {
 return
-absl
+std
 :
 :
 nullopt

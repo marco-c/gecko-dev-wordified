@@ -1875,7 +1875,7 @@ RTC_GUARDED_BY
 encoder_queue_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1906,7 +1906,7 @@ encoder_queue_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -1928,7 +1928,7 @@ encoder_queue_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -2067,7 +2067,7 @@ encoder_queue_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -2118,7 +2118,7 @@ encoder_queue_
 =
 nullptr
 ;
-absl
+std
 :
 :
 optional
@@ -2131,7 +2131,7 @@ RTC_GUARDED_BY
 encoder_queue_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2306,7 +2306,7 @@ cwnd_frame_drop_interval_
 frames
 )
 .
-absl
+std
 :
 :
 optional
@@ -2771,7 +2771,7 @@ bool
 switch_encoder_on_init_failures_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -2781,7 +2781,7 @@ int
 vp9_low_tier_core_threshold_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -2861,7 +2861,7 @@ not
 be
 needed
 .
-absl
+std
 :
 :
 optional

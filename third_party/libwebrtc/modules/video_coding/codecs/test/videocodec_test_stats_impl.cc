@@ -654,7 +654,7 @@ target_bitrate
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -664,7 +664,7 @@ target_framerate
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -745,7 +745,7 @@ target_bitrate
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -755,7 +755,7 @@ target_framerate
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -1102,7 +1102,7 @@ size_t
 temporal_idx
 bool
 aggregate_independent_layers
-absl
+std
 :
 :
 optional
@@ -1110,7 +1110,7 @@ optional
 DataRate
 >
 target_bitrate
-absl
+std
 :
 :
 optional

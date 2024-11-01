@@ -567,7 +567,7 @@ CheckBitrateResult
 kInsufficientSamples
 ;
 }
-absl
+std
 :
 :
 optional
@@ -624,7 +624,7 @@ CheckBitrateResult
 kInsufficientSamples
 ;
 }
-absl
+std
 :
 :
 optional

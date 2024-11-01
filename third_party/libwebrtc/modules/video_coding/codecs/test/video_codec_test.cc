@@ -503,7 +503,7 @@ mode
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -511,7 +511,7 @@ optional
 int
 >
 width
-absl
+std
 :
 :
 nullopt
@@ -524,7 +524,7 @@ width
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -532,7 +532,7 @@ optional
 int
 >
 height
-absl
+std
 :
 :
 nullopt
@@ -589,7 +589,7 @@ kbps
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -597,7 +597,7 @@ optional
 double
 >
 framerate_fps
-absl
+std
 :
 :
 nullopt
@@ -1516,7 +1516,7 @@ scalability_mode
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -1976,7 +1976,7 @@ scalability_mode
 =
 *
 /
-absl
+std
 :
 :
 nullopt

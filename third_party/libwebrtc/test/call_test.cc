@@ -2537,7 +2537,7 @@ video_send_config
 rtcp_send_transport
 &
 fake_decoder_factory_
-absl
+std
 :
 :
 nullopt
@@ -2565,7 +2565,7 @@ rtcp_send_transport
 VideoDecoderFactory
 *
 decoder_factory
-absl
+std
 :
 :
 optional
@@ -2623,7 +2623,7 @@ rtcp_send_transport
 VideoDecoderFactory
 *
 decoder_factory
-absl
+std
 :
 :
 optional
@@ -3334,11 +3334,11 @@ CreateSquareFrameGenerator
 (
 width
 height
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -3433,11 +3433,11 @@ CreateSquareFrameGenerator
 (
 width
 height
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -4858,7 +4858,7 @@ packet
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4906,7 +4906,7 @@ extension
 }
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -4938,7 +4938,7 @@ extensions
 const
 {
 const
-absl
+std
 :
 :
 optional

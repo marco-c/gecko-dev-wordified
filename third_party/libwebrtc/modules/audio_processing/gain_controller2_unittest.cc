@@ -428,7 +428,7 @@ speech_probability
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -2801,7 +2801,7 @@ speech_probability
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -2853,7 +2853,7 @@ speech_probability
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -3479,7 +3479,7 @@ speech_probability
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -3956,7 +3956,7 @@ agc2_reference
 .
 Process
 (
-absl
+std
 :
 :
 nullopt

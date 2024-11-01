@@ -123,6 +123,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -130,17 +135,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -705,7 +699,7 @@ bounded
 buffer
 .
 static
-absl
+std
 :
 :
 optional
@@ -762,7 +756,7 @@ kHeaderSize
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -835,7 +829,7 @@ kType
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -916,7 +910,7 @@ kHeaderSize
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -970,7 +964,7 @@ size
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1040,7 +1034,7 @@ padding
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1072,7 +1066,7 @@ kVariableLengthAlignment
 )
 ;
 return
-absl
+std
 :
 :
 nullopt

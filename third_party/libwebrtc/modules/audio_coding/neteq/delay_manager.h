@@ -117,15 +117,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -235,7 +229,7 @@ forget_factor
 .
 983
 ;
-absl
+std
 :
 :
 optional
@@ -246,7 +240,7 @@ start_forget_weight
 =
 2
 ;
-absl
+std
 :
 :
 optional

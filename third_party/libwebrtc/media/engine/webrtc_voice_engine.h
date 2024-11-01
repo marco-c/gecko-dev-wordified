@@ -118,6 +118,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -154,17 +159,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1017,7 +1011,7 @@ StopAecDump
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1481,7 +1475,7 @@ return
 this
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1971,7 +1965,7 @@ Codec
 >
 &
 codecs
-absl
+std
 :
 :
 optional
@@ -2075,7 +2069,7 @@ max_send_bitrate_bps_
 AudioOptions
 options_
 ;
-absl
+std
 :
 :
 optional
@@ -2155,7 +2149,7 @@ webrtc
 RtcpMode
 rtcp_mode_
 ;
-absl
+std
 :
 :
 optional
@@ -2524,7 +2518,7 @@ ResetUnsignaledRecvStream
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2661,7 +2655,7 @@ delay_ms
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -3381,7 +3375,7 @@ webrtc
 RtpHeaderExtensionMap
 recv_rtp_extension_map_
 ;
-absl
+std
 :
 :
 optional

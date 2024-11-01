@@ -111,6 +111,11 @@ cstddef
 #
 include
 <
+optional
+>
+#
+include
+<
 type_traits
 >
 #
@@ -132,17 +137,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -209,7 +203,7 @@ InterLayerPredMode
 inter_layer_pred
 ;
 const
-absl
+std
 :
 :
 optional
@@ -288,7 +282,7 @@ kOff
 .
 ratio
 =
-absl
+std
 :
 :
 nullopt
@@ -326,7 +320,7 @@ kOff
 .
 ratio
 =
-absl
+std
 :
 :
 nullopt
@@ -364,7 +358,7 @@ kOff
 .
 ratio
 =
-absl
+std
 :
 :
 nullopt
@@ -1560,7 +1554,7 @@ index
 /
 /
 namespace
-absl
+std
 :
 :
 optional
@@ -1575,7 +1569,7 @@ int
 num_temporal_layers
 InterLayerPredMode
 inter_layer_pred
-absl
+std
 :
 :
 optional
@@ -1658,13 +1652,13 @@ scalability_mode
 }
 }
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1733,7 +1727,7 @@ scalability_mode
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -1796,7 +1790,7 @@ scalability_mode
 num_temporal_layers
 ;
 }
-absl
+std
 :
 :
 optional

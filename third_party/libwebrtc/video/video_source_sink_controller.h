@@ -91,6 +91,11 @@ VIDEO_VIDEO_SOURCE_SINK_CONTROLLER_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -98,17 +103,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -345,7 +339,7 @@ restrictions
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -357,7 +351,7 @@ pixels_per_frame_upper_limit
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -407,7 +401,7 @@ active
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -464,7 +458,7 @@ restrictions
 void
 SetPixelsPerFrameUpperLimit
 (
-absl
+std
 :
 :
 optional
@@ -477,7 +471,7 @@ pixels_per_frame_upper_limit
 void
 SetFrameRateUpperLimit
 (
-absl
+std
 :
 :
 optional
@@ -530,7 +524,7 @@ active
 void
 SetRequestedResolution
 (
-absl
+std
 :
 :
 optional
@@ -693,7 +687,7 @@ fps
 frame_rate_upper_limit_
 )
 .
-absl
+std
 :
 :
 optional
@@ -707,7 +701,7 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -771,7 +765,7 @@ sequence_checker_
 =
 true
 ;
-absl
+std
 :
 :
 optional

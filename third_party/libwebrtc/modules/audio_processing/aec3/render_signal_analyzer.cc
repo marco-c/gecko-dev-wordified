@@ -166,7 +166,7 @@ RenderBuffer
 &
 render_buffer
 const
-absl
+std
 :
 :
 optional
@@ -416,7 +416,7 @@ RenderBuffer
 render_buffer
 int
 strong_peak_freeze_duration
-absl
+std
 :
 :
 optional
@@ -465,7 +465,7 @@ strong_peak_freeze_duration
 *
 narrow_peak_band
 =
-absl
+std
 :
 :
 nullopt
@@ -960,7 +960,7 @@ RenderBuffer
 &
 render_buffer
 const
-absl
+std
 :
 :
 optional

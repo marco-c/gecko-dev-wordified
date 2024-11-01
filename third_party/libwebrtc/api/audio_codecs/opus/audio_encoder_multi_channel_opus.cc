@@ -121,7 +121,7 @@ h
 namespace
 webrtc
 {
-absl
+std
 :
 :
 optional
@@ -456,7 +456,7 @@ AudioEncoderMultiChannelOpusConfig
 config
 int
 payload_type
-absl
+std
 :
 :
 optional

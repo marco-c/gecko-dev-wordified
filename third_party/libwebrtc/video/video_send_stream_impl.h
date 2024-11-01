@@ -120,6 +120,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -127,17 +132,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -798,7 +792,7 @@ GetRtpPayloadStates
 const
 ;
 const
-absl
+std
 :
 :
 optional
@@ -857,7 +851,7 @@ send_delay_stats
 void
 OnSendPacket
 (
-absl
+std
 :
 :
 optional
@@ -913,7 +907,7 @@ send_delay_stats_
 ;
 }
 ;
-absl
+std
 :
 :
 optional
@@ -938,7 +932,7 @@ update
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1356,7 +1350,7 @@ VbaSendContext
 VideoBitrateAllocation
 last_sent_allocation
 ;
-absl
+std
 :
 :
 optional
@@ -1370,7 +1364,7 @@ last_send_time_ms
 ;
 }
 ;
-absl
+std
 :
 :
 optional
@@ -1384,7 +1378,7 @@ thread_checker_
 )
 ;
 const
-absl
+std
 :
 :
 optional

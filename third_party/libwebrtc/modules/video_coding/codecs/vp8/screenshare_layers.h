@@ -503,7 +503,7 @@ in
 the
 ctor
 .
-absl
+std
 :
 :
 optional
@@ -512,7 +512,7 @@ int
 >
 min_qp_
 ;
-absl
+std
 :
 :
 optional
@@ -558,7 +558,7 @@ Configured
 max
 framerate
 .
-absl
+std
 :
 :
 optional
@@ -574,7 +574,7 @@ framerate
 from
 capturer
 .
-absl
+std
 :
 :
 optional

@@ -104,6 +104,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -124,17 +129,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1045,7 +1039,7 @@ RtcEvent
 >
 batch
 const
-absl
+std
 :
 :
 optional
@@ -1112,7 +1106,7 @@ E
 kType
 )
 ;
-absl
+std
 :
 :
 optional

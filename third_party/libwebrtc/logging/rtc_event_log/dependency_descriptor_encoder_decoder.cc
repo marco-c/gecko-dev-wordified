@@ -109,6 +109,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -124,17 +129,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -221,7 +215,7 @@ webrtc
 /
 /
 static
-absl
+std
 :
 :
 optional
@@ -374,7 +368,7 @@ end
 bit
 .
 {
-absl
+std
 :
 :
 optional
@@ -429,7 +423,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -535,7 +529,7 @@ Template
 IDs
 .
 {
-absl
+std
 :
 :
 optional
@@ -591,7 +585,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -698,7 +692,7 @@ Frame
 IDs
 .
 {
-absl
+std
 :
 :
 optional
@@ -761,7 +755,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -884,7 +878,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1094,7 +1088,7 @@ res
 num_packets
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1121,7 +1115,7 @@ start_end_bit
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1148,7 +1142,7 @@ template_id
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1180,7 +1174,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1243,7 +1237,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1306,7 +1300,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1369,7 +1363,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1414,7 +1408,7 @@ recreate_raw_dd
 int
 i
 const
-absl
+std
 :
 :
 optional
@@ -1424,7 +1418,7 @@ uint64_t
 &
 be
 const
-absl
+std
 :
 :
 optional
@@ -1434,7 +1428,7 @@ uint64_t
 &
 tid
 const
-absl
+std
 :
 :
 optional

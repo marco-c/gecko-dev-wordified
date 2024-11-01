@@ -114,6 +114,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -139,17 +144,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -498,7 +492,7 @@ ana_event
 )
 -
 >
-absl
+std
 :
 :
 optional
@@ -515,7 +509,7 @@ config
 bitrate_bps
 )
 return
-absl
+std
 :
 :
 optional
@@ -538,7 +532,7 @@ bitrate_bps
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -715,7 +709,7 @@ config
 frame_length_ms
 )
 return
-absl
+std
 :
 :
 optional
@@ -738,7 +732,7 @@ frame_length_ms
 )
 ;
 return
-absl
+std
 :
 :
 optional
@@ -923,7 +917,7 @@ config
 uplink_packet_loss_fraction
 )
 return
-absl
+std
 :
 :
 optional
@@ -946,7 +940,7 @@ uplink_packet_loss_fraction
 )
 ;
 return
-absl
+std
 :
 :
 optional
@@ -1126,7 +1120,7 @@ config
 enable_fec
 )
 return
-absl
+std
 :
 :
 optional
@@ -1149,7 +1143,7 @@ enable_fec
 )
 ;
 return
-absl
+std
 :
 :
 optional
@@ -1331,7 +1325,7 @@ config
 enable_dtx
 )
 return
-absl
+std
 :
 :
 optional
@@ -1354,7 +1348,7 @@ enable_dtx
 )
 ;
 return
-absl
+std
 :
 :
 optional
@@ -1538,7 +1532,7 @@ config
 num_channels
 )
 return
-absl
+std
 :
 :
 optional
@@ -1561,7 +1555,7 @@ num_channels
 )
 ;
 return
-absl
+std
 :
 :
 optional
@@ -1807,7 +1801,7 @@ const
 SdpAudioFormat
 &
 format
-absl
+std
 :
 :
 optional

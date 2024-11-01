@@ -113,6 +113,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -125,17 +130,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -1525,7 +1519,7 @@ ice_gathering_state
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2167,7 +2161,7 @@ GetDataChannelStats
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2183,7 +2177,7 @@ sctp_transport_name
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2250,7 +2244,7 @@ GetCallStats
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2451,7 +2445,7 @@ s
 underlying
 transport
 .
-absl
+std
 :
 :
 optional
@@ -3149,7 +3143,7 @@ SrtpRequired
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -3724,7 +3718,7 @@ turn_port_prune_policy
 TurnCustomizer
 *
 turn_customizer
-absl
+std
 :
 :
 optional
@@ -4861,7 +4855,7 @@ invoke
 (
 )
 .
-absl
+std
 :
 :
 optional
@@ -4879,7 +4873,7 @@ signaling_thread
 )
 )
 ;
-absl
+std
 :
 :
 optional

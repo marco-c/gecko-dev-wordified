@@ -2123,7 +2123,7 @@ return
 rtp_streams
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2146,7 +2146,7 @@ raw_payload
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3965,7 +3965,7 @@ template_structure
 else
 if
 (
-absl
+std
 :
 :
 optional
@@ -4006,7 +4006,7 @@ nullptr
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -4250,7 +4250,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -5237,7 +5237,7 @@ i
 fec_generator
 )
 {
-absl
+std
 :
 :
 optional

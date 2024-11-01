@@ -799,7 +799,7 @@ time_when_first_seen_us
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -818,7 +818,7 @@ int64_t
 capture_time_us
 *
 /
-absl
+std
 :
 :
 optional
@@ -833,7 +833,7 @@ encode_duration_us
 )
 override
 {
-absl
+std
 :
 :
 optional
@@ -1634,7 +1634,7 @@ last_capture_time_us
 override
 {
 }
-absl
+std
 :
 :
 optional
@@ -1657,7 +1657,7 @@ time_sent_in_us
 /
 int64_t
 capture_time_us
-absl
+std
 :
 :
 optional
@@ -2418,7 +2418,7 @@ last_capture_time_us
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2453,7 +2453,7 @@ estimator
 .
 int64_t
 capture_time_us
-absl
+std
 :
 :
 optional
@@ -2645,7 +2645,7 @@ break
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -3053,7 +3053,7 @@ org
 )
 :
 Use
-absl
+std
 :
 :
 optional
@@ -3419,7 +3419,7 @@ num_process_times_
 ;
 encode_usage_percent_
 =
-absl
+std
 :
 :
 nullopt
@@ -3572,7 +3572,7 @@ int64_t
 time_sent_in_us
 int64_t
 capture_time_us
-absl
+std
 :
 :
 optional

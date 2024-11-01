@@ -1108,7 +1108,7 @@ template
 typename
 T
 >
-absl
+std
 :
 :
 optional
@@ -1155,7 +1155,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1721,7 +1721,7 @@ PushBack
 frame_id
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1730,7 +1730,7 @@ TimeDelta
 >
 time_between_captured_frames
 =
-absl
+std
 :
 :
 nullopt
@@ -1970,7 +1970,7 @@ captured
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -1980,7 +1980,7 @@ rendered
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -2789,7 +2789,7 @@ stream
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2798,7 +2798,7 @@ TimeDelta
 >
 time_between_encoded_frames
 =
-absl
+std
 :
 :
 nullopt
@@ -4199,7 +4199,7 @@ frame_it
 >
 second
 ;
-absl
+std
 :
 :
 optional
@@ -5563,7 +5563,7 @@ peer_name
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -7446,7 +7446,7 @@ captured
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -7456,7 +7456,7 @@ rendered
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -8341,7 +8341,7 @@ captured
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -8351,7 +8351,7 @@ rendered
 =
 *
 /
-absl
+std
 :
 :
 nullopt

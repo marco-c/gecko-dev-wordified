@@ -112,6 +112,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -138,17 +143,6 @@ absl
 memory
 /
 memory
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1278,7 +1272,7 @@ between
 ;
 lntf_state_
 =
-absl
+std
 :
 :
 make_optional
@@ -1323,7 +1317,7 @@ uint16_t
 >
 nack_sequence_numbers
 ;
-absl
+std
 :
 :
 optional
@@ -1598,7 +1592,7 @@ forced_playout_delay_max_ms_
 "
 max_ms
 "
-absl
+std
 :
 :
 nullopt
@@ -1608,7 +1602,7 @@ forced_playout_delay_min_ms_
 "
 min_ms
 "
-absl
+std
 :
 :
 nullopt
@@ -2350,7 +2344,7 @@ reset
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2380,7 +2374,7 @@ Syncable
 Info
 info
 ;
-absl
+std
 :
 :
 optional
@@ -2410,7 +2404,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2462,7 +2456,7 @@ last_received_rtp_system_time_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3496,7 +3490,7 @@ video_header
 .
 playout_delay
 =
-absl
+std
 :
 :
 nullopt
@@ -5360,7 +5354,7 @@ frame
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -6527,7 +6521,7 @@ clock
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -6554,7 +6548,7 @@ last_received_rtp_system_time_
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -6572,13 +6566,13 @@ ms
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -6603,7 +6597,7 @@ return
 last_received_rtp_timestamp_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -6630,7 +6624,7 @@ last_received_keyframe_rtp_system_time_
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -6648,7 +6642,7 @@ ms
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -6740,7 +6734,7 @@ remote_ntp_timestamp_ms
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -6960,7 +6954,7 @@ RTC_DCHECK_RUN_ON
 packet_sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -6992,7 +6986,7 @@ if
 parsed_payload
 =
 =
-absl
+std
 :
 :
 nullopt
@@ -7578,7 +7572,7 @@ rtcp_packet_length
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -7615,7 +7609,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -7712,7 +7706,7 @@ last_sr
 last_remote_rtp_timestamp
 )
 ;
-absl
+std
 :
 :
 optional

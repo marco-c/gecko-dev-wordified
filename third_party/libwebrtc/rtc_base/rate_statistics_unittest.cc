@@ -375,7 +375,7 @@ i
 kInterval
 )
 {
-absl
+std
 :
 :
 optional
@@ -574,7 +574,7 @@ prev_error
 =
 kExpectedBitrate
 ;
-absl
+std
 :
 :
 optional
@@ -760,7 +760,7 @@ Update
 now_ms
 )
 ;
-absl
+std
 :
 :
 optional
@@ -948,7 +948,7 @@ prev_error
 =
 kExpectedBitrate
 ;
-absl
+std
 :
 :
 optional
@@ -1715,7 +1715,7 @@ accepted
 +
 now_ms
 ;
-absl
+std
 :
 :
 optional
@@ -1911,7 +1911,7 @@ Update
 now_ms
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2078,7 +2078,7 @@ kWindowMs
 -
 1
 ;
-absl
+std
 :
 :
 optional

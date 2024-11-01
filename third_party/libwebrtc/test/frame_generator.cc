@@ -742,7 +742,7 @@ return
 VideoFrameData
 (
 buffer
-absl
+std
 :
 :
 nullopt
@@ -2197,7 +2197,7 @@ return
 VideoFrameData
 (
 buffer_
-absl
+std
 :
 :
 nullopt
@@ -2746,7 +2746,7 @@ false
 current_source_frame_
 (
 nullptr
-absl
+std
 :
 :
 nullopt
@@ -2754,7 +2754,7 @@ nullopt
 current_frame_
 (
 nullptr
-absl
+std
 :
 :
 nullopt

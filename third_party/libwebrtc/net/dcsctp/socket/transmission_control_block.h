@@ -1009,7 +1009,7 @@ ClearCookieEchoChunk
 {
 cookie_echo_chunk_
 =
-absl
+std
 :
 :
 nullopt
@@ -1493,7 +1493,7 @@ in
 the
 packet
 .
-absl
+std
 :
 :
 optional
@@ -1502,7 +1502,7 @@ CookieEchoChunk
 >
 cookie_echo_chunk_
 =
-absl
+std
 :
 :
 nullopt

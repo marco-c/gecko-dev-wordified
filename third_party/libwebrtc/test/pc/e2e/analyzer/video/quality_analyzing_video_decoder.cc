@@ -120,6 +120,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -130,17 +135,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1229,7 +1223,7 @@ decode_time_ms
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -1239,7 +1233,7 @@ qp
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -1297,7 +1291,7 @@ qp
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -1338,7 +1332,7 @@ Decoded
 VideoFrame
 &
 decodedImage
-absl
+std
 :
 :
 optional
@@ -1346,7 +1340,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -1460,11 +1454,11 @@ delegate_callback_
 Decoded
 (
 dummy_frame
-absl
+std
 :
 :
 nullopt
-absl
+std
 :
 :
 nullopt
@@ -1520,7 +1514,7 @@ OnFrameDecoded
 VideoFrame
 *
 frame
-absl
+std
 :
 :
 optional
@@ -1528,7 +1522,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -1538,7 +1532,7 @@ uint8_t
 qp
 )
 {
-absl
+std
 :
 :
 optional

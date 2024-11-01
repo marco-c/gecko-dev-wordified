@@ -92,15 +92,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -187,7 +181,7 @@ transport_sequence_number
 }
 else
 {
-absl
+std
 :
 :
 optional

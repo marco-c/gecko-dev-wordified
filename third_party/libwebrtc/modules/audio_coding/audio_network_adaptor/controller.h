@@ -93,15 +93,9 @@ define
 MODULES_AUDIO_CODING_AUDIO_NETWORK_ADAPTOR_CONTROLLER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -137,7 +131,7 @@ NetworkMetrics
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -146,7 +140,7 @@ int
 >
 uplink_bandwidth_bps
 ;
-absl
+std
 :
 :
 optional
@@ -155,7 +149,7 @@ float
 >
 uplink_packet_loss_fraction
 ;
-absl
+std
 :
 :
 optional
@@ -164,7 +158,7 @@ int
 >
 target_audio_bitrate_bps
 ;
-absl
+std
 :
 :
 optional
@@ -173,7 +167,7 @@ int
 >
 rtt_ms
 ;
-absl
+std
 :
 :
 optional

@@ -90,15 +90,9 @@ define
 RTC_BASE_EXPERIMENTS_NORMALIZE_SIMULCAST_SIZE_EXPERIMENT_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -128,7 +122,7 @@ field
 trial
 .
 static
-absl
+std
 :
 :
 optional

@@ -450,7 +450,7 @@ kEnd
 "
 ;
 const
-absl
+std
 :
 :
 optional
@@ -474,7 +474,7 @@ kVideoCodecVP8
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -498,7 +498,7 @@ kVideoCodecVP9
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -540,7 +540,7 @@ TestParams
 bool
 active
 ;
-absl
+std
 :
 :
 optional

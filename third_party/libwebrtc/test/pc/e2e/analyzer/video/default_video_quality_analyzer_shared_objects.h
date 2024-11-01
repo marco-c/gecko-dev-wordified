@@ -109,6 +109,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 ostream
 >
 #
@@ -131,17 +136,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -1707,7 +1701,7 @@ specified
 stream_label
 .
 Returns
-absl
+std
 :
 :
 nullopt
@@ -1725,7 +1719,7 @@ the
 video
 analyzer
 .
-absl
+std
 :
 :
 optional

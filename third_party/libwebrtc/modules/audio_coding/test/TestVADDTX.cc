@@ -619,7 +619,7 @@ const
 SdpAudioFormat
 &
 codec_format
-absl
+std
 :
 :
 optional
@@ -1331,7 +1331,7 @@ expect_dtx_enabled
 RegisterCodec
 (
 codec_format
-absl
+std
 :
 :
 nullopt
@@ -1618,7 +1618,7 @@ opus
 48000
 2
 }
-absl
+std
 :
 :
 nullopt

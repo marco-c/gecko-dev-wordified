@@ -150,7 +150,7 @@ field_trials
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -217,7 +217,7 @@ field_trials
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -408,7 +408,7 @@ field_trials
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt

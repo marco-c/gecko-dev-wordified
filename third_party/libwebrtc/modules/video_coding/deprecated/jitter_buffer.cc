@@ -3480,7 +3480,7 @@ jitter_estimate_
 GetJitterEstimate
 (
 rtt_mult
-absl
+std
 :
 :
 nullopt

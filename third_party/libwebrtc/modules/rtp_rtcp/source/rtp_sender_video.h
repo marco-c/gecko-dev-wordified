@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
@@ -114,17 +119,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -617,7 +611,7 @@ the
 egress
 stage
 .
-absl
+std
 :
 :
 optional
@@ -658,7 +652,7 @@ enable_retransmit_all_layers
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -776,7 +770,7 @@ SendVideo
 (
 int
 payload_type
-absl
+std
 :
 :
 optional
@@ -819,7 +813,7 @@ SendEncodedImage
 (
 int
 payload_type
-absl
+std
 :
 :
 optional
@@ -1358,7 +1352,7 @@ RTC_GUARDED_BY
 send_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1391,7 +1385,7 @@ RTC_GUARDED_BY
 send_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1421,7 +1415,7 @@ RTC_GUARDED_BY
 send_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1441,7 +1435,7 @@ target
 playout
 delay
 .
-absl
+std
 :
 :
 optional
@@ -1500,7 +1494,7 @@ video
 frames
 .
 const
-absl
+std
 :
 :
 optional
@@ -1526,7 +1520,7 @@ Mutex
 mutex_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1535,7 +1529,7 @@ int
 >
 red_payload_type_
 ;
-absl
+std
 :
 :
 optional

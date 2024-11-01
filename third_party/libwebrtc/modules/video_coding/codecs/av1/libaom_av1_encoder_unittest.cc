@@ -118,6 +118,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -125,17 +130,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -677,7 +671,7 @@ encoded_frames
 codec_specific_info
 .
 generic_frame_info
-absl
+std
 :
 :
 nullopt
@@ -3570,7 +3564,7 @@ GetEncoderInfo
 scaling_settings
 .
 thresholds
-absl
+std
 :
 :
 nullopt

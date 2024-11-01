@@ -99,6 +99,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -109,17 +114,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -594,7 +588,7 @@ can
 be
 omitted
 .
-absl
+std
 :
 :
 optional
@@ -603,7 +597,7 @@ int32_t
 >
 decode_time_ms
 =
-absl
+std
 :
 :
 nullopt
@@ -614,7 +608,7 @@ Decoder
 quantizer
 value
 .
-absl
+std
 :
 :
 optional
@@ -623,7 +617,7 @@ uint8_t
 >
 qp
 =
-absl
+std
 :
 :
 nullopt

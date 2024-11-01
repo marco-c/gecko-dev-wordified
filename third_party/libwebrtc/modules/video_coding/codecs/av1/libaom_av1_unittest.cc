@@ -112,6 +112,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 ostream
 >
 #
@@ -124,17 +129,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -925,7 +919,7 @@ VideoFrame
 decoded_image
 *
 /
-absl
+std
 :
 :
 optional
@@ -937,7 +931,7 @@ int32_t
 decode_time_ms
 *
 /
-absl
+std
 :
 :
 optional
@@ -1383,7 +1377,7 @@ GetScalabilityMode
 )
 const
 {
-absl
+std
 :
 :
 optional

@@ -626,7 +626,7 @@ GetRenderBuffer
 )
 known_delay
 ?
-absl
+std
 :
 :
 optional
@@ -637,7 +637,7 @@ size_t
 0
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -1159,7 +1159,7 @@ render_delay_buffer
 GetRenderBuffer
 (
 )
-absl
+std
 :
 :
 optional

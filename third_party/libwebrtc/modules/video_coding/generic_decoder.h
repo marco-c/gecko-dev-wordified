@@ -298,7 +298,7 @@ of
 an
 integer
 .
-absl
+std
 :
 :
 optional
@@ -307,7 +307,7 @@ Timestamp
 >
 render_time
 ;
-absl
+std
 :
 :
 optional
@@ -422,7 +422,7 @@ Decoded
 VideoFrame
 &
 decodedImage
-absl
+std
 :
 :
 optional
@@ -430,7 +430,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -472,7 +472,7 @@ std
 :
 pair
 <
-absl
+std
 :
 :
 optional

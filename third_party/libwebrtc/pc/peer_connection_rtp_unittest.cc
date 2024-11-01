@@ -102,6 +102,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -114,17 +119,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -8791,7 +8785,7 @@ MEDIA_TYPE_AUDIO
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -8829,7 +8823,7 @@ direction
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt

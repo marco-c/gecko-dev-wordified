@@ -116,6 +116,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -128,17 +133,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -434,7 +428,7 @@ RTPVideoHeader
 video_header
 int
 payload_type
-absl
+std
 :
 :
 optional
@@ -775,7 +769,7 @@ return
 payload_type_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -801,7 +795,7 @@ return
 capture_time_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -936,7 +930,7 @@ uint8_t
 payload_type_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -945,7 +939,7 @@ VideoCodecType
 >
 codec_type_
 =
-absl
+std
 :
 :
 nullopt
@@ -958,7 +952,7 @@ Timestamp
 capture_time_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1100,7 +1094,7 @@ TransformFrame
 (
 int
 payload_type
-absl
+std
 :
 :
 optional

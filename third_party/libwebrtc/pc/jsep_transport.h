@@ -106,6 +106,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -113,17 +118,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -1116,7 +1110,7 @@ if
 negotiated
 or
 empty
-absl
+std
 :
 :
 optional
@@ -1131,7 +1125,7 @@ been
 negotiated
 yet
 .
-absl
+std
 :
 :
 optional
@@ -1798,7 +1792,7 @@ ConnectionRole
 local_connection_role
 ConnectionRole
 remote_connection_role
-absl
+std
 :
 :
 optional
@@ -1857,7 +1851,7 @@ SetNegotiatedDtlsParameters
 DtlsTransportInternal
 *
 dtls_transport
-absl
+std
 :
 :
 optional
@@ -2195,7 +2189,7 @@ for
 SDES
 negoitation
 .
-absl
+std
 :
 :
 optional
@@ -2214,7 +2208,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional

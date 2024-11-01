@@ -582,7 +582,7 @@ speech_probability
 void
 Process
 (
-absl
+std
 :
 :
 optional
@@ -623,7 +623,7 @@ return
 cpu_features_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -805,7 +805,7 @@ non
 empty
 value
 .
-absl
+std
 :
 :
 optional

@@ -604,7 +604,7 @@ Enabled
 returns
 80
 .
-absl
+std
 :
 :
 optional
@@ -645,7 +645,7 @@ kMinMicLevelFieldTrial
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -734,7 +734,7 @@ ignored
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1363,7 +1363,7 @@ const
 int16_t
 >
 audio
-absl
+std
 :
 :
 optional
@@ -1375,7 +1375,7 @@ rms_error_override
 {
 new_compression_to_set_
 =
-absl
+std
 :
 :
 nullopt
@@ -4254,7 +4254,7 @@ speech_probability
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -4264,7 +4264,7 @@ speech_level_dbfs
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -4281,7 +4281,7 @@ const
 AudioBuffer
 &
 audio_buffer
-absl
+std
 :
 :
 optional
@@ -4289,7 +4289,7 @@ optional
 float
 >
 speech_probability
-absl
+std
 :
 :
 optional
@@ -4328,7 +4328,7 @@ num_frames_per_band
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -4337,7 +4337,7 @@ int
 >
 rms_error_override
 =
-absl
+std
 :
 :
 nullopt
@@ -4497,7 +4497,7 @@ recommended_input_volume_
 ;
 }
 }
-absl
+std
 :
 :
 optional

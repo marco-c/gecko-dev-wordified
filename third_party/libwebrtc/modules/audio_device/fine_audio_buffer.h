@@ -103,15 +103,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -606,7 +600,7 @@ DeliverRecordedData
 (
 audio_buffer
 record_delay_ms
-absl
+std
 :
 :
 nullopt
@@ -627,7 +621,7 @@ int16_t
 audio_buffer
 int
 record_delay_ms
-absl
+std
 :
 :
 optional

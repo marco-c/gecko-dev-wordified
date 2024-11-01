@@ -472,7 +472,7 @@ const
 VideoEncoderConfig
 &
 encoder_config
-absl
+std
 :
 :
 optional
@@ -481,7 +481,7 @@ VideoSourceRestrictions
 >
 restrictions
 =
-absl
+std
 :
 :
 nullopt
@@ -685,7 +685,7 @@ target_pixels_per_frame
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -695,7 +695,7 @@ max_frame_rate
 =
 *
 /
-absl
+std
 :
 :
 nullopt

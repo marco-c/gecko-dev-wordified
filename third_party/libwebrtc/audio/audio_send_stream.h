@@ -299,7 +299,7 @@ allocation
 is
 enabled
 .
-absl
+std
 :
 :
 optional
@@ -308,7 +308,7 @@ DataRate
 >
 min_bitrate
 ;
-absl
+std
 :
 :
 optional
@@ -351,7 +351,7 @@ raw
 value
 instead
 .
-absl
+std
 :
 :
 optional
@@ -360,7 +360,7 @@ DataRate
 >
 priority_bitrate_raw
 ;
-absl
+std
 :
 :
 optional
@@ -453,7 +453,7 @@ RtcpRttStats
 *
 rtcp_rtt_stats
 const
-absl
+std
 :
 :
 optional
@@ -513,7 +513,7 @@ BitrateAllocatorInterface
 *
 bitrate_allocator
 const
-absl
+std
 :
 :
 optional
@@ -709,7 +709,7 @@ update
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -932,7 +932,7 @@ by
 field
 trial
 .
-absl
+std
 :
 :
 optional
@@ -1169,7 +1169,7 @@ RtpRtcpInterface
 const
 rtp_rtcp_module_
 ;
-absl
+std
 :
 :
 optional
@@ -1344,7 +1344,7 @@ worker_thread_checker_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1364,7 +1364,7 @@ RTC_GUARDED_BY
 worker_thread_checker_
 )
 ;
-absl
+std
 :
 :
 optional

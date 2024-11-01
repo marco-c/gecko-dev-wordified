@@ -99,19 +99,13 @@ memory
 #
 include
 <
-vector
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+vector
+>
 #
 include
 "
@@ -379,7 +373,7 @@ rtc
 ArrayView
 <
 const
-absl
+std
 :
 :
 optional
@@ -524,7 +518,7 @@ in
 log2
 units
 .
-absl
+std
 :
 :
 optional
@@ -564,7 +558,7 @@ current
 time
 instant
 .
-absl
+std
 :
 :
 optional
@@ -625,7 +619,7 @@ value
 ;
 }
 return
-absl
+std
 :
 :
 optional
@@ -638,7 +632,7 @@ value
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -680,7 +674,7 @@ const
 bool
 clamp_inst_quality_to_one_
 ;
-absl
+std
 :
 :
 optional
@@ -749,7 +743,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional

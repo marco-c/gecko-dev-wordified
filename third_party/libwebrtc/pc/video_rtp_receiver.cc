@@ -725,7 +725,7 @@ VideoRtpReceiver
 :
 RestartMediaChannel
 (
-absl
+std
 :
 :
 optional
@@ -817,7 +817,7 @@ VideoRtpReceiver
 :
 RestartMediaChannel_w
 (
-absl
+std
 :
 :
 optional
@@ -1092,14 +1092,14 @@ signaling_thread_checker_
 ;
 RestartMediaChannel
 (
-absl
+std
 :
 :
 nullopt
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1504,7 +1504,7 @@ VideoRtpReceiver
 :
 SetJitterBufferMinimumDelay
 (
-absl
+std
 :
 :
 optional
@@ -1879,7 +1879,7 @@ VideoRtpReceiver
 :
 SetupMediaChannel
 (
-absl
+std
 :
 :
 optional

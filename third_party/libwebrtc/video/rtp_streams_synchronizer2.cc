@@ -96,15 +96,9 @@ h
 "
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -511,7 +505,7 @@ audio_measurement_
 .
 latest_receive_time_ms
 ;
-absl
+std
 :
 :
 optional
@@ -582,7 +576,7 @@ video_measurement_
 .
 latest_receive_time_ms
 ;
-absl
+std
 :
 :
 optional

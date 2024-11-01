@@ -155,6 +155,11 @@ limits
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -165,17 +170,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -485,7 +479,7 @@ kH264EncoderEventMax
 int
 NumberOfThreads
 (
-absl
+std
 :
 :
 optional
@@ -833,7 +827,7 @@ VideoFrameType
 kEmptyFrame
 ;
 }
-absl
+std
 :
 :
 optional
@@ -891,7 +885,7 @@ RTC_DCHECK_NOTREACHED
 ;
 }
 return
-absl
+std
 :
 :
 nullopt

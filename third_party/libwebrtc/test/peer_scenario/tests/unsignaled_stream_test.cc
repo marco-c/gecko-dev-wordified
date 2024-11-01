@@ -1255,7 +1255,7 @@ second_ssrc
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -1264,7 +1264,7 @@ int
 >
 mid_header_extension_id
 =
-absl
+std
 :
 :
 nullopt

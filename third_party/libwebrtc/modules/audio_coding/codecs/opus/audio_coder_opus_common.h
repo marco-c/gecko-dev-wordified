@@ -94,6 +94,11 @@ MODULES_AUDIO_CODING_CODECS_OPUS_AUDIO_CODER_OPUS_COMMON_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -114,17 +119,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -162,7 +156,7 @@ h
 namespace
 webrtc
 {
-absl
+std
 :
 :
 optional
@@ -190,7 +184,7 @@ template
 typename
 T
 >
-absl
+std
 :
 :
 optional
@@ -236,7 +230,7 @@ value_or
 template
 <
 >
-absl
+std
 :
 :
 optional
@@ -403,7 +397,7 @@ size
 2
 ;
 }
-absl
+std
 :
 :
 optional
@@ -538,7 +532,7 @@ ret
 0
 )
 return
-absl
+std
 :
 :
 nullopt

@@ -1077,7 +1077,7 @@ uint8_t
 digest
 size_t
 digest_len
-absl
+std
 :
 :
 optional
@@ -1488,7 +1488,7 @@ GetError
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1716,7 +1716,7 @@ err
 void
 OnNetworkRouteChanged
 (
-absl
+std
 :
 :
 optional
@@ -1908,7 +1908,7 @@ RTCCertificate
 >
 local_certificate_
 ;
-absl
+std
 :
 :
 optional

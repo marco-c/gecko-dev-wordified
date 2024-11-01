@@ -504,7 +504,7 @@ to
 expected
 .
 const
-absl
+std
 :
 :
 optional
@@ -539,7 +539,7 @@ allowed_error
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1315,7 +1315,7 @@ see
 above
 .
 const
-absl
+std
 :
 :
 optional
@@ -1365,7 +1365,7 @@ average
 correct
 .
 const
-absl
+std
 :
 :
 optional

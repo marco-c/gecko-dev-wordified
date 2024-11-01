@@ -100,15 +100,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -253,7 +247,7 @@ bitrate_bps_
 int
 frame_length_ms_
 ;
-absl
+std
 :
 :
 optional
@@ -262,7 +256,7 @@ int
 >
 target_audio_bitrate_bps_
 ;
-absl
+std
 :
 :
 optional

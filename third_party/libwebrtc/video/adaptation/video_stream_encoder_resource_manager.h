@@ -106,6 +106,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -123,17 +128,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -929,7 +923,7 @@ EncodedImage
 encoded_image
 int64_t
 time_sent_in_us
-absl
+std
 :
 :
 optional
@@ -1046,7 +1040,7 @@ DropInitialFrames
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -1058,7 +1052,7 @@ SingleActiveStreamPixels
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -1223,7 +1217,7 @@ scaling
 void
 UpdateQualityScalerSettings
 (
-absl
+std
 :
 :
 optional
@@ -1465,7 +1459,7 @@ RTC_GUARDED_BY
 encoder_queue_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1478,7 +1472,7 @@ RTC_GUARDED_BY
 encoder_queue_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1494,7 +1488,7 @@ RTC_GUARDED_BY
 encoder_queue_
 )
 ;
-absl
+std
 :
 :
 optional

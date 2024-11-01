@@ -347,7 +347,7 @@ kExtension1
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -372,7 +372,7 @@ kExtension2
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -527,7 +527,7 @@ kExtension1
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -552,7 +552,7 @@ kExtension2
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -712,7 +712,7 @@ kExtension1
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -737,7 +737,7 @@ kExtension2
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -892,7 +892,7 @@ kExtension1
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -917,7 +917,7 @@ kExtension2
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -1082,7 +1082,7 @@ kExtension1
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -1300,7 +1300,7 @@ kExtension2
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -1491,7 +1491,7 @@ force
 /
 false
 )
-absl
+std
 :
 :
 nullopt
@@ -1676,7 +1676,7 @@ kExtension2
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt
@@ -1925,7 +1925,7 @@ Int64MsToUQ32x32
 +
 40
 )
-absl
+std
 :
 :
 nullopt
@@ -2179,7 +2179,7 @@ kExtension1
 .
 estimated_capture_clock_offset
 )
-absl
+std
 :
 :
 nullopt

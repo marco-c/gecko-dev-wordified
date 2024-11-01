@@ -401,7 +401,7 @@ const
 SdpAudioFormat
 &
 codec_format
-absl
+std
 :
 :
 optional

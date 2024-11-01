@@ -93,15 +93,9 @@ define
 RTC_BASE_EXPERIMENTS_KEYFRAME_INTERVAL_SETTINGS_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -209,7 +203,7 @@ MinKeyframeSendIntervalMs
 (
 )
 .
-absl
+std
 :
 :
 optional

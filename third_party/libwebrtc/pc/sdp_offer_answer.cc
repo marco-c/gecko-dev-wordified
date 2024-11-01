@@ -129,6 +129,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 queue
 >
 #
@@ -192,17 +197,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -23873,7 +23867,7 @@ UpdateNegotiationNeeded
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -23988,7 +23982,7 @@ content_name
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -24605,7 +24599,7 @@ transport
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -24644,7 +24638,7 @@ network_thread
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -24689,7 +24683,7 @@ role
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -24725,7 +24719,7 @@ sctp_mid
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -31421,7 +31415,7 @@ offer_to_receive_video
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -31430,7 +31424,7 @@ size_t
 >
 audio_index
 ;
-absl
+std
 :
 :
 optional
@@ -31439,7 +31433,7 @@ size_t
 >
 video_index
 ;
-absl
+std
 :
 :
 optional
@@ -33424,7 +33418,7 @@ offer_to_receive_video
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -33433,7 +33427,7 @@ size_t
 >
 audio_index
 ;
-absl
+std
 :
 :
 optional
@@ -33442,7 +33436,7 @@ size_t
 >
 video_index
 ;
-absl
+std
 :
 :
 optional
@@ -37455,7 +37449,7 @@ internal
 >
 set_mid
 (
-absl
+std
 :
 :
 nullopt
@@ -37471,7 +37465,7 @@ internal
 >
 set_mline_index
 (
-absl
+std
 :
 :
 nullopt
@@ -39373,7 +39367,7 @@ RtpTransceiverDirection
 audio_direction
 RtpTransceiverDirection
 video_direction
-absl
+std
 :
 :
 optional
@@ -39382,7 +39376,7 @@ size_t
 >
 *
 audio_index
-absl
+std
 :
 :
 optional
@@ -39391,7 +39385,7 @@ size_t
 >
 *
 video_index
-absl
+std
 :
 :
 optional

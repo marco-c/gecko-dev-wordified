@@ -178,7 +178,7 @@ LoggedNetEqSetMinimumDelayEvent
 >
 &
 neteq_set_minimum_delay_events
-absl
+std
 :
 :
 optional
@@ -273,7 +273,7 @@ output_events_it_
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -299,7 +299,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -324,7 +324,7 @@ end_time_ms_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -341,7 +341,7 @@ log_time_ms
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -367,7 +367,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -390,7 +390,7 @@ end_time_ms_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -405,7 +405,7 @@ log_time_ms
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -431,7 +431,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -454,7 +454,7 @@ end_time_ms_
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -688,7 +688,7 @@ NextEventTime
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -714,7 +714,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -798,7 +798,7 @@ const_iterator
 neteq_set_minimum_delay_events_it_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -826,7 +826,7 @@ const
 ParsedRtcEventLog
 &
 parsed_log
-absl
+std
 :
 :
 optional

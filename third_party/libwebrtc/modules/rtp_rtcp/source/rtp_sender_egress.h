@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -111,17 +116,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -526,7 +520,7 @@ return
 ssrc_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -542,7 +536,7 @@ return
 rtx_ssrc_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -882,7 +876,7 @@ uint32_t
 ssrc_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -892,7 +886,7 @@ uint32_t
 rtx_ssrc_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -946,7 +940,7 @@ RTC_GUARDED_BY
 worker_queue_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -959,7 +953,7 @@ RTC_GUARDED_BY
 worker_queue_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1048,7 +1042,7 @@ RTC_GUARDED_BY
 worker_queue_
 )
 ;
-absl
+std
 :
 :
 optional

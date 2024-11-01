@@ -778,7 +778,7 @@ const
 uint8_t
 >
 buffer
-absl
+std
 :
 :
 optional
@@ -857,7 +857,7 @@ source_buffer
 rbsp_buffer
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1312,7 +1312,7 @@ const
 uint8_t
 >
 buffer
-absl
+std
 :
 :
 optional
@@ -1702,7 +1702,7 @@ send
 clients
 )
 .
-absl
+std
 :
 :
 optional

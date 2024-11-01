@@ -111,6 +111,11 @@ limits
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -128,17 +133,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -694,7 +688,7 @@ EXPECT_EQ
 LastLossNotification
 (
 )
-absl
+std
 :
 :
 nullopt
@@ -942,7 +936,7 @@ return
 result
 ;
 }
-absl
+std
 :
 :
 optional
@@ -954,7 +948,7 @@ LastLossNotification
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -967,7 +961,7 @@ last_loss_notification_
 ;
 last_loss_notification_
 =
-absl
+std
 :
 :
 nullopt
@@ -988,7 +982,7 @@ test
 bool
 key_frame_requested_
 ;
-absl
+std
 :
 :
 optional
@@ -1054,7 +1048,7 @@ frame
 changes
 .
 )
-absl
+std
 :
 :
 optional

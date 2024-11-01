@@ -105,15 +105,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -773,7 +767,7 @@ config
 >
 maxRetransmits
 =
-absl
+std
 :
 :
 nullopt
@@ -783,7 +777,7 @@ config
 >
 maxRetransmitTime
 =
-absl
+std
 :
 :
 nullopt
@@ -977,7 +971,7 @@ std
 string
 &
 protocol
-absl
+std
 :
 :
 optional
@@ -987,7 +981,7 @@ PriorityValue
 opt_priority
 bool
 ordered
-absl
+std
 :
 :
 optional
@@ -995,7 +989,7 @@ optional
 int
 >
 max_retransmits
-absl
+std
 :
 :
 optional

@@ -909,7 +909,7 @@ const
 LibvpxVp8EncoderInfoSettings
 encoder_info_override_
 ;
-absl
+std
 :
 :
 optional

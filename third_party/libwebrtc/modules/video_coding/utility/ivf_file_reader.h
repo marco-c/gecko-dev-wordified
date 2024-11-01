@@ -99,19 +99,13 @@ memory
 #
 include
 <
-utility
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+utility
+>
 #
 include
 "
@@ -284,7 +278,7 @@ Returns
 next
 frame
 or
-absl
+std
 :
 :
 nullopt
@@ -297,7 +291,7 @@ Always
 returns
 /
 /
-absl
+std
 :
 :
 nullopt
@@ -307,7 +301,7 @@ error
 was
 spotted
 .
-absl
+std
 :
 :
 optional
@@ -430,7 +424,7 @@ won
 t
 overflow
 .
-absl
+std
 :
 :
 optional
@@ -446,7 +440,7 @@ size_t
 start_pos
 )
 ;
-absl
+std
 :
 :
 optional
@@ -478,7 +472,7 @@ time_scale_
 FileWrapper
 file_
 ;
-absl
+std
 :
 :
 optional

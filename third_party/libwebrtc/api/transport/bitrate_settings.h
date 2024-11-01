@@ -93,15 +93,9 @@ define
 API_TRANSPORT_BITRATE_SETTINGS_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -215,7 +209,7 @@ for
 set
 parameters
 .
-absl
+std
 :
 :
 optional
@@ -224,7 +218,7 @@ int
 >
 min_bitrate_bps
 ;
-absl
+std
 :
 :
 optional
@@ -233,7 +227,7 @@ int
 >
 start_bitrate_bps
 ;
-absl
+std
 :
 :
 optional

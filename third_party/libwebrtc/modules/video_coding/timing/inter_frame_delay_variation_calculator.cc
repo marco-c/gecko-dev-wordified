@@ -100,15 +100,9 @@ h
 "
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -182,7 +176,7 @@ Reset
 {
 prev_wall_clock_
 =
-absl
+std
 :
 :
 nullopt
@@ -192,7 +186,7 @@ prev_rtp_timestamp_unwrapped_
 0
 ;
 }
-absl
+std
 :
 :
 optional
@@ -258,7 +252,7 @@ brandtr
 Should
 this
 return
-absl
+std
 :
 :
 nullopt
@@ -344,7 +338,7 @@ cropped_prev
 )
 {
 return
-absl
+std
 :
 :
 nullopt

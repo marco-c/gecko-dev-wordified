@@ -131,7 +131,7 @@ field_trials
 :
 encoder_target_bitrate_bps_
 (
-absl
+std
 :
 :
 nullopt
@@ -163,7 +163,7 @@ BalancedConstraint
 :
 OnEncoderTargetBitrateUpdated
 (
-absl
+std
 :
 :
 optional

@@ -414,7 +414,7 @@ f
 ;
 block_size_
 =
-absl
+std
 :
 :
 nullopt
@@ -850,7 +850,7 @@ the
 *
 operator
 of
-absl
+std
 :
 :
 optional

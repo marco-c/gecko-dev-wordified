@@ -636,7 +636,7 @@ GetPacerQueuingDelayMs
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -868,7 +868,7 @@ RTC_RUN_ON
 sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -948,7 +948,7 @@ RTC_RUN_ON
 sequence_checker_
 )
 ;
-absl
+std
 :
 :
 optional

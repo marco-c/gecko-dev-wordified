@@ -98,15 +98,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -697,7 +691,7 @@ MinusInfinity
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -706,7 +700,7 @@ VideoFrame
 >
 last_frame_
 =
-absl
+std
 :
 :
 nullopt

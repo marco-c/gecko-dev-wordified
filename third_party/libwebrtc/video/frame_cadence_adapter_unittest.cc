@@ -897,7 +897,7 @@ Millis
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1563,7 +1563,7 @@ adapter
 >
 SetZeroHertzModeEnabled
 (
-absl
+std
 :
 :
 nullopt
@@ -7660,7 +7660,7 @@ adapter_
 >
 UpdateVideoSourceRestrictions
 (
-absl
+std
 :
 :
 nullopt
@@ -9186,7 +9186,7 @@ rtc
 Event
 event
 ;
-absl
+std
 :
 :
 optional

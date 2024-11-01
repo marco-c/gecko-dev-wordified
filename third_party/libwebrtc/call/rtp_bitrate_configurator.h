@@ -93,15 +93,9 @@ define
 CALL_RTP_BITRATE_CONFIGURATOR_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -304,7 +298,7 @@ it
 was
 updated
 .
-absl
+std
 :
 :
 optional
@@ -405,7 +399,7 @@ it
 was
 updated
 .
-absl
+std
 :
 :
 optional
@@ -429,7 +423,7 @@ for
 relayed
 calls
 .
-absl
+std
 :
 :
 optional
@@ -462,7 +456,7 @@ new_start
 if
 set
 .
-absl
+std
 :
 :
 optional
@@ -472,7 +466,7 @@ BitrateConstraints
 UpdateConstraints
 (
 const
-absl
+std
 :
 :
 optional

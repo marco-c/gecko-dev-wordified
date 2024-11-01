@@ -91,6 +91,11 @@ P2P_BASE_PACKET_TRANSPORT_INTERNAL_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -111,17 +116,6 @@ absl
 functional
 /
 any_invocable
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -553,7 +547,7 @@ is
 updated
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -784,7 +778,7 @@ sigslot
 :
 signal1
 <
-absl
+std
 :
 :
 optional

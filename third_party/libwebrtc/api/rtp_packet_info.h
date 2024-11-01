@@ -99,6 +99,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -106,17 +111,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -397,7 +391,7 @@ receive_time_
 value
 ;
 }
-absl
+std
 :
 :
 optional
@@ -417,7 +411,7 @@ RtpPacketInfo
 &
 set_audio_level
 (
-absl
+std
 :
 :
 optional
@@ -437,7 +431,7 @@ this
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -459,7 +453,7 @@ RtpPacketInfo
 set_absolute_capture_time
 (
 const
-absl
+std
 :
 :
 optional
@@ -480,7 +474,7 @@ this
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -501,7 +495,7 @@ RtpPacketInfo
 &
 set_local_capture_clock_offset
 (
-absl
+std
 :
 :
 optional
@@ -615,7 +609,7 @@ rfc6464
 section
 -
 3
-absl
+std
 :
 :
 optional
@@ -658,7 +652,7 @@ abs
 capture
 -
 time
-absl
+std
 :
 :
 optional
@@ -731,7 +725,7 @@ Local
 Capture
 Clock
 Offset
-absl
+std
 :
 :
 optional

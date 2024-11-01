@@ -123,6 +123,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 ostream
 >
 #
@@ -153,17 +158,6 @@ absl
 strings
 /
 str_replace
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -2226,7 +2220,7 @@ return
 false
 ;
 }
-absl
+std
 :
 :
 optional
@@ -15925,7 +15919,7 @@ connection_info
 .
 current_round_trip_time_ms
 =
-absl
+std
 :
 :
 nullopt
@@ -18283,7 +18277,7 @@ receivers
 .
 last_packet_received
 =
-absl
+std
 :
 :
 nullopt
@@ -19442,7 +19436,7 @@ receivers
 .
 qp_sum
 =
-absl
+std
 :
 :
 nullopt
@@ -19649,7 +19643,7 @@ receivers
 .
 last_packet_received
 =
-absl
+std
 :
 :
 nullopt
@@ -19677,7 +19671,7 @@ receivers
 .
 estimated_playout_ntp_timestamp_ms
 =
-absl
+std
 :
 :
 nullopt
@@ -19691,7 +19685,7 @@ receivers
 .
 decoder_implementation_name
 =
-absl
+std
 :
 :
 nullopt
@@ -21818,7 +21812,7 @@ senders
 .
 qp_sum
 =
-absl
+std
 :
 :
 nullopt
@@ -21846,7 +21840,7 @@ senders
 .
 encoder_implementation_name
 =
-absl
+std
 :
 :
 nullopt
@@ -26661,7 +26655,7 @@ ReportBlockData
 >
 &
 report_block_datas
-absl
+std
 :
 :
 optional
@@ -27221,7 +27215,7 @@ AddSenderInfoAndMediaChannel
 TransportName
 "
 report_block_datas
-absl
+std
 :
 :
 nullopt
@@ -27619,7 +27613,7 @@ TransportName
 {
 report_block_data
 }
-absl
+std
 :
 :
 nullopt
@@ -27813,7 +27807,7 @@ TransportName
 {
 report_block_data
 }
-absl
+std
 :
 :
 nullopt
@@ -28386,7 +28380,7 @@ TransportName
 {
 report_block_data
 }
-absl
+std
 :
 :
 nullopt
@@ -30421,7 +30415,7 @@ timestamp
 )
 {
 }
-absl
+std
 :
 :
 optional

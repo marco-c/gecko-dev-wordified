@@ -1946,7 +1946,7 @@ mid
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -2009,7 +2009,7 @@ dtls_role
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -2024,7 +2024,7 @@ SSLRole
 ;
 }
 return
-absl
+std
 :
 :
 optional
@@ -2632,7 +2632,7 @@ SetNegotiatedDtlsParameters
 DtlsTransportInternal
 *
 dtls_transport
-absl
+std
 :
 :
 optional
@@ -3053,7 +3053,7 @@ SSLFingerprint
 >
 remote_fingerprint
 ;
-absl
+std
 :
 :
 optional
@@ -3386,7 +3386,7 @@ ConnectionRole
 local_connection_role
 ConnectionRole
 remote_connection_role
-absl
+std
 :
 :
 optional

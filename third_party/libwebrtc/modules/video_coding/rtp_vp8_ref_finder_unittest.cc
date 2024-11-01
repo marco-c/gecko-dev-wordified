@@ -546,7 +546,7 @@ color_space
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -582,7 +582,7 @@ is_keyframe_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -591,7 +591,7 @@ int
 >
 picture_id_
 ;
-absl
+std
 :
 :
 optional
@@ -600,7 +600,7 @@ int
 >
 temporal_id_
 ;
-absl
+std
 :
 :
 optional

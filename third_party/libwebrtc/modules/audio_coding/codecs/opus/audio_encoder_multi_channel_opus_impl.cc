@@ -745,7 +745,7 @@ int
 max_playback_rate_hz
 size_t
 num_channels
-absl
+std
 :
 :
 optional
@@ -1106,7 +1106,7 @@ config_
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1608,7 +1608,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1652,7 +1652,7 @@ clockrate_hz
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1855,7 +1855,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1893,7 +1893,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1938,7 +1938,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1962,7 +1962,7 @@ IsOk
 )
 {
 return
-absl
+std
 :
 :
 nullopt

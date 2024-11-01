@@ -100,15 +100,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -192,7 +186,7 @@ Reset
 ;
 private
 :
-absl
+std
 :
 :
 optional
@@ -206,7 +200,7 @@ timestamp_ms
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -215,7 +209,7 @@ float
 >
 target_framerate_fps_
 ;
-absl
+std
 :
 :
 optional

@@ -1142,7 +1142,7 @@ AimdRateControl
 SetNetworkStateEstimate
 (
 const
-absl
+std
 :
 :
 optional
@@ -1401,7 +1401,7 @@ Timestamp
 at_time
 )
 {
-absl
+std
 :
 :
 optional

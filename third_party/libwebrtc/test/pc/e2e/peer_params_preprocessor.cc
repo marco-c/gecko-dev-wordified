@@ -411,7 +411,7 @@ default_names
 void
 MaybeSetName
 (
-absl
+std
 :
 :
 optional
@@ -1227,7 +1227,7 @@ scalability_mode
 )
 continue
 ;
-absl
+std
 :
 :
 optional
@@ -1256,7 +1256,7 @@ scalability_mode
 requested
 "
 ;
-absl
+std
 :
 :
 optional

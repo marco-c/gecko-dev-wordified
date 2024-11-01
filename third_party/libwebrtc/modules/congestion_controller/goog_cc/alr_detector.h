@@ -112,15 +112,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -421,7 +415,7 @@ application
 -
 limited
 .
-absl
+std
 :
 :
 optional
@@ -443,7 +437,7 @@ const
 AlrDetectorConfig
 conf_
 ;
-absl
+std
 :
 :
 optional
@@ -455,7 +449,7 @@ last_send_time_ms_
 IntervalBudget
 alr_budget_
 ;
-absl
+std
 :
 :
 optional

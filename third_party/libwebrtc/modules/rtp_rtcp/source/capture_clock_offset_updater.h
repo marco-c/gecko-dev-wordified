@@ -100,15 +100,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -251,7 +245,7 @@ capturer
 s
 clock
 .
-absl
+std
 :
 :
 optional
@@ -260,7 +254,7 @@ int64_t
 >
 AdjustEstimatedCaptureClockOffset
 (
-absl
+std
 :
 :
 optional
@@ -356,7 +350,7 @@ seconds
 void
 SetRemoteToLocalClockOffset
 (
-absl
+std
 :
 :
 optional
@@ -384,7 +378,7 @@ a
 TimeDelta
 .
 static
-absl
+std
 :
 :
 optional
@@ -393,7 +387,7 @@ TimeDelta
 >
 ConvertsToTimeDela
 (
-absl
+std
 :
 :
 optional
@@ -405,7 +399,7 @@ q32x32
 ;
 private
 :
-absl
+std
 :
 :
 optional

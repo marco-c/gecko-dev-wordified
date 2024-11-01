@@ -187,7 +187,7 @@ uint8_t
 forbidden_types
 )
 ;
-absl
+std
 :
 :
 optional
@@ -200,7 +200,7 @@ NextPacketTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -213,7 +213,7 @@ NextOutputEventTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -257,7 +257,7 @@ ended
 const
 override
 ;
-absl
+std
 :
 :
 optional

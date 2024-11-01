@@ -589,7 +589,7 @@ GetBaseMinimumDelayMs
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -604,7 +604,7 @@ last_packet_sample_rate_hz
 )
 const
 {
-absl
+std
 :
 :
 optional
@@ -630,7 +630,7 @@ decoder
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1253,7 +1253,7 @@ FlushBuffers
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1312,7 +1312,7 @@ TargetDelayMs
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1334,7 +1334,7 @@ LastDecoder
 )
 const
 {
-absl
+std
 :
 :
 optional
@@ -1360,7 +1360,7 @@ decoder
 )
 {
 return
-absl
+std
 :
 :
 nullopt

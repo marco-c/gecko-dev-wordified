@@ -142,7 +142,7 @@ BitrateController
 *
 controller
 const
-absl
+std
 :
 :
 optional
@@ -152,7 +152,7 @@ int
 &
 target_audio_bitrate_bps
 const
-absl
+std
 :
 :
 optional
@@ -263,7 +263,7 @@ BitrateController
 *
 controller
 const
-absl
+std
 :
 :
 optional
@@ -374,7 +374,7 @@ UpdateNetworkMetrics
 (
 &
 controller
-absl
+std
 :
 :
 nullopt
@@ -436,7 +436,7 @@ UpdateNetworkMetrics
 &
 controller
 kTargetBitrateBps
-absl
+std
 :
 :
 nullopt
@@ -784,7 +784,7 @@ CheckDecision
 (
 &
 controller
-absl
+std
 :
 :
 nullopt
@@ -857,7 +857,7 @@ CheckDecision
 (
 &
 controller
-absl
+std
 :
 :
 nullopt
@@ -974,7 +974,7 @@ CheckDecision
 (
 &
 controller
-absl
+std
 :
 :
 nullopt

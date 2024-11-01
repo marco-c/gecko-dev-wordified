@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -119,17 +124,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -589,7 +583,7 @@ Decoded
 VideoFrame
 &
 decodedImage
-absl
+std
 :
 :
 optional
@@ -597,7 +591,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -669,7 +663,7 @@ OnFrameDecoded
 VideoFrame
 *
 frame
-absl
+std
 :
 :
 optional
@@ -677,7 +671,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -801,7 +795,7 @@ std
 map
 <
 uint32_t
-absl
+std
 :
 :
 optional

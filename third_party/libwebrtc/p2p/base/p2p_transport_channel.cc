@@ -2278,7 +2278,7 @@ return
 gathering_state_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2327,14 +2327,14 @@ rtt
 else
 {
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -2364,7 +2364,7 @@ nullptr
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3208,7 +3208,7 @@ convention
 that
 setting
 a
-absl
+std
 :
 :
 optional
@@ -3229,7 +3229,7 @@ However
 some
 /
 /
-absl
+std
 :
 :
 optional
@@ -11172,7 +11172,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional

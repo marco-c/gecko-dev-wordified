@@ -93,15 +93,9 @@ define
 MODULES_AUDIO_CODING_NETEQ_PACKET_BUFFER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -527,7 +521,7 @@ is
 empty
 .
 virtual
-absl
+std
 :
 :
 optional

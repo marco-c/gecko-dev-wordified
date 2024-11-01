@@ -142,6 +142,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -189,17 +194,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -6138,7 +6132,7 @@ debug_name_
 ReceiveIceMessage
 "
 ;
-absl
+std
 :
 :
 optional
@@ -8158,7 +8152,7 @@ PeerConnectionIntegrationBaseTest
 (
 SdpSemantics
 sdp_semantics
-absl
+std
 :
 :
 optional
@@ -8170,7 +8164,7 @@ string
 >
 field_trials
 =
-absl
+std
 :
 :
 nullopt

@@ -646,7 +646,7 @@ void
 audio_buffer
 size_t
 samples_per_channel
-absl
+std
 :
 :
 optional
@@ -1402,7 +1402,7 @@ rec_delay_ms_
 Capture
 timestamp
 .
-absl
+std
 :
 :
 optional
@@ -1450,7 +1450,7 @@ offset
 too
 often
 .
-absl
+std
 :
 :
 optional

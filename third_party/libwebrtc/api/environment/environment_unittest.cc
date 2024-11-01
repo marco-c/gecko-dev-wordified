@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -135,17 +140,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1266,7 +1260,7 @@ it
 is
 deleted
 .
-absl
+std
 :
 :
 optional
@@ -1293,7 +1287,7 @@ utility_destroyed
 ;
 env
 =
-absl
+std
 :
 :
 nullopt
@@ -1343,7 +1337,7 @@ true
 }
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1363,7 +1357,7 @@ field_trials
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1381,7 +1375,7 @@ utility_destroyed
 ;
 env1
 =
-absl
+std
 :
 :
 nullopt
@@ -1393,7 +1387,7 @@ utility_destroyed
 ;
 env2
 =
-absl
+std
 :
 :
 nullopt
@@ -1753,7 +1747,7 @@ utility2_destroyed
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1790,7 +1784,7 @@ true
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1820,7 +1814,7 @@ alive
 .
 env1
 =
-absl
+std
 :
 :
 nullopt
@@ -1861,7 +1855,7 @@ true
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1893,7 +1887,7 @@ alive
 .
 factory
 =
-absl
+std
 :
 :
 nullopt
@@ -1924,7 +1918,7 @@ too
 .
 env2
 =
-absl
+std
 :
 :
 nullopt
@@ -2024,7 +2018,7 @@ task_queue_factory
 }
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2061,7 +2055,7 @@ IsEmpty
 ;
 env
 =
-absl
+std
 :
 :
 nullopt

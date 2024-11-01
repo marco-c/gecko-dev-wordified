@@ -124,6 +124,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -145,17 +150,6 @@ absl
 container
 /
 inlined_vector
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1428,7 +1422,7 @@ num_discarded_packets_
 num_discarded_packets
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1447,7 +1441,7 @@ return
 last_continuous_frame_id_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1466,7 +1460,7 @@ return
 last_continuous_temporal_unit_frame_id_
 ;
 }
-absl
+std
 :
 :
 optional

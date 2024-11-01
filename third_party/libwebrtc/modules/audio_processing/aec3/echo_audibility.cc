@@ -275,7 +275,7 @@ false
 ;
 render_spectrum_write_prev_
 =
-absl
+std
 :
 :
 nullopt

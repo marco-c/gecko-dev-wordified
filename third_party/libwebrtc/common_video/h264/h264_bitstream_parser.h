@@ -107,15 +107,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -269,7 +263,7 @@ bitstream
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -340,7 +334,7 @@ to
 parse
 slices
 .
-absl
+std
 :
 :
 optional
@@ -352,7 +346,7 @@ SpsState
 >
 sps_
 ;
-absl
+std
 :
 :
 optional
@@ -371,7 +365,7 @@ parsed
 slice
 QP
 .
-absl
+std
 :
 :
 optional

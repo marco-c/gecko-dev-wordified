@@ -184,7 +184,7 @@ RenderDelayControllerMetrics
 :
 Update
 (
-absl
+std
 :
 :
 optional
@@ -192,7 +192,7 @@ optional
 size_t
 >
 delay_samples
-absl
+std
 :
 :
 optional

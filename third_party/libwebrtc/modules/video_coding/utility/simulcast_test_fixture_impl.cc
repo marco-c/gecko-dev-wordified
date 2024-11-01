@@ -1053,7 +1053,7 @@ Decoded
 VideoFrame
 &
 decoded_image
-absl
+std
 :
 :
 optional
@@ -1061,7 +1061,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -7514,7 +7514,7 @@ Invoke
 VideoFrame
 &
 decodedImage
-absl
+std
 :
 :
 optional
@@ -7522,7 +7522,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -7602,7 +7602,7 @@ Invoke
 VideoFrame
 &
 decodedImage
-absl
+std
 :
 :
 optional
@@ -7610,7 +7610,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -7690,7 +7690,7 @@ Invoke
 VideoFrame
 &
 decodedImage
-absl
+std
 :
 :
 optional
@@ -7698,7 +7698,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional

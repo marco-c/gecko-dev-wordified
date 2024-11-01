@@ -125,15 +125,9 @@ h
 "
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 static
 const
 int
@@ -618,7 +612,7 @@ when
 rotation
 changes
 .
-absl
+std
 :
 :
 optional
@@ -986,7 +980,7 @@ _currentRotation
 {
 _currentRotation
 =
-absl
+std
 :
 :
 optional

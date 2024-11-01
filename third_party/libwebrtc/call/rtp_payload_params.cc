@@ -290,7 +290,7 @@ const
 CodecSpecificInfo
 &
 info
-absl
+std
 :
 :
 optional
@@ -1556,7 +1556,7 @@ const
 CodecSpecificInfo
 *
 codec_specific_info
-absl
+std
 :
 :
 optional
@@ -1688,7 +1688,7 @@ ColorSpace
 (
 )
 ?
-absl
+std
 :
 :
 make_optional
@@ -1701,7 +1701,7 @@ ColorSpace
 )
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -2466,7 +2466,7 @@ codec
 "
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2493,7 +2493,7 @@ nullptr
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2570,7 +2570,7 @@ num_temporal_layer
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -2607,7 +2607,7 @@ VideoCodecType
 kVideoCodecVP9
 :
 {
-absl
+std
 :
 :
 optional
@@ -2880,7 +2880,7 @@ VideoCodecType
 kVideoCodecH265
 :
 return
-absl
+std
 :
 :
 nullopt

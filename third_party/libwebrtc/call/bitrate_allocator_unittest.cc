@@ -442,7 +442,7 @@ bps
 protection_ratio_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -456,7 +456,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -502,7 +502,7 @@ Zero
 )
 {
 }
-absl
+std
 :
 :
 optional
@@ -737,7 +737,7 @@ bool
 enforce_min_bitrate
 double
 bitrate_priority
-absl
+std
 :
 :
 optional
@@ -746,7 +746,7 @@ TrackRateElasticity
 >
 rate_elasticity
 =
-absl
+std
 :
 :
 nullopt

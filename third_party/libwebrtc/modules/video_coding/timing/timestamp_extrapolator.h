@@ -100,15 +100,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -161,7 +155,7 @@ uint32_t
 ts90khz
 )
 ;
-absl
+std
 :
 :
 optional
@@ -219,7 +213,7 @@ start_
 Timestamp
 prev_
 ;
-absl
+std
 :
 :
 optional
@@ -231,7 +225,7 @@ first_unwrapped_timestamp_
 RtpTimestampUnwrapper
 unwrapper_
 ;
-absl
+std
 :
 :
 optional

@@ -126,6 +126,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -152,17 +157,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1327,7 +1321,7 @@ std
 string
 EncodeDeltas
 (
-absl
+std
 :
 :
 optional
@@ -1341,7 +1335,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1406,7 +1400,7 @@ static
 void
 CalculateMinAndMaxDeltas
 (
-absl
+std
 :
 :
 optional
@@ -1420,7 +1414,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1556,7 +1550,7 @@ const
 FixedLengthEncodingParameters
 &
 params
-absl
+std
 :
 :
 optional
@@ -1570,7 +1564,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1764,7 +1758,7 @@ is
 base_
 .
 const
-absl
+std
 :
 :
 optional
@@ -1806,7 +1800,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1903,7 +1897,7 @@ FixedLengthDeltaEncoder
 :
 EncodeDeltas
 (
-absl
+std
 :
 :
 optional
@@ -1917,7 +1911,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -2002,7 +1996,7 @@ cend
 base
 ]
 (
-absl
+std
 :
 :
 optional
@@ -2346,7 +2340,7 @@ FixedLengthDeltaEncoder
 :
 CalculateMinAndMaxDeltas
 (
-absl
+std
 :
 :
 optional
@@ -2360,7 +2354,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -2432,7 +2426,7 @@ min_neg_signed_delta
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -2714,7 +2708,7 @@ const
 FixedLengthEncodingParameters
 &
 params
-absl
+std
 :
 :
 optional
@@ -2728,7 +2722,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -2820,7 +2814,7 @@ t
 .
 for
 (
-absl
+std
 :
 :
 optional
@@ -2851,7 +2845,7 @@ has_value
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -2864,7 +2858,7 @@ base_
 ;
 for
 (
-absl
+std
 :
 :
 optional
@@ -3135,7 +3129,7 @@ end
 [
 ]
 (
-absl
+std
 :
 :
 optional
@@ -3880,7 +3874,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -3895,7 +3889,7 @@ absl
 :
 string_view
 input
-absl
+std
 :
 :
 optional
@@ -4032,7 +4026,7 @@ absl
 :
 string_view
 input
-absl
+std
 :
 :
 optional
@@ -4133,7 +4127,7 @@ const
 FixedLengthEncodingParameters
 &
 params
-absl
+std
 :
 :
 optional
@@ -4163,7 +4157,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -4369,7 +4363,7 @@ is
 base_
 .
 const
-absl
+std
 :
 :
 optional
@@ -4476,7 +4470,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -4494,7 +4488,7 @@ absl
 :
 string_view
 input
-absl
+std
 :
 :
 optional
@@ -4531,7 +4525,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -4569,7 +4563,7 @@ absl
 :
 string_view
 input
-absl
+std
 :
 :
 optional
@@ -4917,7 +4911,7 @@ const
 FixedLengthEncodingParameters
 &
 params
-absl
+std
 :
 :
 optional
@@ -4961,7 +4955,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -5059,7 +5053,7 @@ true
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -5075,7 +5069,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -5500,7 +5494,7 @@ std
 string
 EncodeDeltas
 (
-absl
+std
 :
 :
 optional
@@ -5514,7 +5508,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -5553,7 +5547,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -5568,7 +5562,7 @@ absl
 :
 string_view
 input
-absl
+std
 :
 :
 optional
@@ -5630,7 +5624,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -5711,7 +5705,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional

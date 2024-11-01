@@ -181,7 +181,7 @@ Video
 MinVideoBitrate
 "
 ;
-absl
+std
 :
 :
 optional
@@ -207,7 +207,7 @@ kVideoCodecVP8
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -225,7 +225,7 @@ kForcedFallbackFieldTrial
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -255,7 +255,7 @@ empty
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -310,7 +310,7 @@ min_bps
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -325,7 +325,7 @@ min_bps
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -339,7 +339,7 @@ min_bps
 /
 /
 namespace
-absl
+std
 :
 :
 optional
@@ -357,7 +357,7 @@ type
 )
 {
 const
-absl
+std
 :
 :
 optional
@@ -682,7 +682,7 @@ case
 kVideoCodecGeneric
 :
 return
-absl
+std
 :
 :
 nullopt
@@ -694,7 +694,7 @@ RTC_DCHECK_NOTREACHED
 ;
 }
 return
-absl
+std
 :
 :
 nullopt

@@ -109,6 +109,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -116,17 +121,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -220,7 +214,7 @@ new_bitrate_sum_bps
 =
 sum_
 ;
-absl
+std
 :
 :
 optional
@@ -706,7 +700,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -727,7 +721,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -753,7 +747,7 @@ kMaxSpatialLayers
 si
 )
 {
-absl
+std
 :
 :
 optional

@@ -498,7 +498,7 @@ cricket
 Codec
 >
 send_codecs
-absl
+std
 :
 :
 optional
@@ -922,7 +922,7 @@ cricket
 Codec
 >
 send_codecs
-absl
+std
 :
 :
 optional
@@ -1397,7 +1397,7 @@ old_rtp_parameters
 rtp_parameters
 {
 }
-absl
+std
 :
 :
 nullopt
@@ -1435,7 +1435,7 @@ cricket
 Codec
 >
 send_codecs
-absl
+std
 :
 :
 optional

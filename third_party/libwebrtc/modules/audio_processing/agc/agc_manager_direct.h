@@ -103,15 +103,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -681,7 +675,7 @@ const
 AudioBuffer
 &
 audio_buffer
-absl
+std
 :
 :
 optional
@@ -689,7 +683,7 @@ optional
 float
 >
 speech_probability
-absl
+std
 :
 :
 optional
@@ -887,7 +881,7 @@ been
 /
 chosen
 .
-absl
+std
 :
 :
 optional
@@ -1089,7 +1083,7 @@ bool
 analog_controller_enabled_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1272,7 +1266,7 @@ std
 :
 vector
 <
-absl
+std
 :
 :
 optional
@@ -1520,7 +1514,7 @@ const
 int16_t
 >
 audio
-absl
+std
 :
 :
 optional
@@ -1581,7 +1575,7 @@ log_to_histograms_
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1856,7 +1850,7 @@ recommended_input_volume_
 =
 0
 ;
-absl
+std
 :
 :
 optional

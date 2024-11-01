@@ -105,15 +105,9 @@ bitset
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -289,7 +283,7 @@ the
 dependency
 descriptor
 .
-absl
+std
 :
 :
 optional
@@ -310,7 +304,7 @@ none
 )
 )
 return
-absl
+std
 :
 :
 nullopt

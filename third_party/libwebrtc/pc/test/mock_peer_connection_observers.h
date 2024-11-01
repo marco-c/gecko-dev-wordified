@@ -1377,7 +1377,7 @@ clear_latest_negotiation_needed_event
 {
 latest_negotiation_needed_event_
 =
-absl
+std
 :
 :
 nullopt
@@ -1436,7 +1436,7 @@ renegotiation_needed_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -2030,7 +2030,7 @@ OK
 )
 error
 .
-absl
+std
 :
 :
 optional
@@ -2129,7 +2129,7 @@ OK
 )
 error
 .
-absl
+std
 :
 :
 optional

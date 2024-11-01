@@ -97,15 +97,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -232,7 +226,7 @@ AudioProcessing
 :
 Config
 .
-absl
+std
 :
 :
 optional
@@ -256,7 +250,7 @@ P_far
 /
 P_echo
 )
-absl
+std
 :
 :
 optional
@@ -275,7 +269,7 @@ P_echo
 /
 P_out
 )
-absl
+std
 :
 :
 optional
@@ -309,7 +303,7 @@ overlapped
 aggregation
 window
 .
-absl
+std
 :
 :
 optional
@@ -415,7 +409,7 @@ window
 for
 all
 .
-absl
+std
 :
 :
 optional
@@ -424,7 +418,7 @@ int32_t
 >
 delay_median_ms
 ;
-absl
+std
 :
 :
 optional
@@ -440,7 +434,7 @@ echo
 detector
 likelihood
 .
-absl
+std
 :
 :
 optional
@@ -461,7 +455,7 @@ last
 time
 period
 .
-absl
+std
 :
 :
 optional
@@ -508,7 +502,7 @@ GetStatistics
 (
 )
 .
-absl
+std
 :
 :
 optional

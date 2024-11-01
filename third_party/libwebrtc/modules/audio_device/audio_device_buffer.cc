@@ -1659,7 +1659,7 @@ SetRecordedBuffer
 (
 audio_buffer
 samples_per_channel
-absl
+std
 :
 :
 nullopt
@@ -1678,7 +1678,7 @@ void
 audio_buffer
 size_t
 samples_per_channel
-absl
+std
 :
 :
 optional

@@ -110,15 +110,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -738,7 +732,7 @@ return
 header
 ;
 }
-absl
+std
 :
 :
 optional
@@ -833,7 +827,7 @@ remaining
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -906,7 +900,7 @@ value_bit_width
 value_bit_width
 ;
 return
-absl
+std
 :
 :
 nullopt

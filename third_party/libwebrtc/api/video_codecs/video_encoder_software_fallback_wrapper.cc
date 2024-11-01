@@ -116,6 +116,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -136,17 +141,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -558,7 +552,7 @@ Encoder
 v2
 "
 ;
-absl
+std
 :
 :
 optional
@@ -691,7 +685,7 @@ Enabled
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -779,7 +773,7 @@ provided
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -835,7 +829,7 @@ provided
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -851,7 +845,7 @@ return
 params
 ;
 }
-absl
+std
 :
 :
 optional
@@ -872,7 +866,7 @@ VideoEncoder
 main_encoder
 )
 {
-absl
+std
 :
 :
 optional
@@ -1231,7 +1225,7 @@ required
 VideoCodec
 codec_settings_
 ;
-absl
+std
 :
 :
 optional
@@ -1253,7 +1247,7 @@ settings
 if
 set
 .
-absl
+std
 :
 :
 optional
@@ -1270,7 +1264,7 @@ channel
 parameters
 set
 .
-absl
+std
 :
 :
 optional
@@ -1279,7 +1273,7 @@ float
 >
 packet_loss_
 ;
-absl
+std
 :
 :
 optional
@@ -1288,7 +1282,7 @@ int64_t
 >
 rtt_
 ;
-absl
+std
 :
 :
 optional
@@ -1341,7 +1335,7 @@ EncodedImageCallback
 callback_
 ;
 const
-absl
+std
 :
 :
 optional
@@ -1991,7 +1985,7 @@ parameters
 .
 rate_control_parameters_
 =
-absl
+std
 :
 :
 nullopt

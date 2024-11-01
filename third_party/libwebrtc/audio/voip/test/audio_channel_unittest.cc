@@ -1265,7 +1265,7 @@ number_of_channels
 audio_frame
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2131,7 +2131,7 @@ SendRTCPReportForTesting
 kRtcpSr
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2777,7 +2777,7 @@ ac_2
 audio_channel_
 )
 ;
-absl
+std
 :
 :
 optional

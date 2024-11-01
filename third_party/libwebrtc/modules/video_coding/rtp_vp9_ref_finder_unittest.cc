@@ -692,7 +692,7 @@ color_space
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -738,7 +738,7 @@ keyframe
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -747,7 +747,7 @@ int
 >
 picture_id
 ;
-absl
+std
 :
 :
 optional
@@ -756,7 +756,7 @@ int
 >
 spatial_id
 ;
-absl
+std
 :
 :
 optional
@@ -765,7 +765,7 @@ int
 >
 temporal_id
 ;
-absl
+std
 :
 :
 optional

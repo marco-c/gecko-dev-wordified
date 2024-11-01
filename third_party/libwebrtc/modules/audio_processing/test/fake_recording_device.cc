@@ -110,15 +110,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -316,7 +310,7 @@ level
 to
 undo
 .
-absl
+std
 :
 :
 optional
@@ -754,7 +748,7 @@ float
 ComputeAgcLinearFactor
 (
 const
-absl
+std
 :
 :
 optional

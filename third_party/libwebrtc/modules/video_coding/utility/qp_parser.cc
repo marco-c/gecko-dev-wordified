@@ -127,7 +127,7 @@ h
 namespace
 webrtc
 {
-absl
+std
 :
 :
 optional
@@ -172,7 +172,7 @@ kMaxSimulcastStreams
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -306,13 +306,13 @@ frame_size
 endif
 }
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -371,7 +371,7 @@ GetLastSliceQp
 #
 ifdef
 RTC_ENABLE_H265
-absl
+std
 :
 :
 optional

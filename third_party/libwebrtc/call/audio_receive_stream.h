@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -111,17 +116,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -272,7 +266,7 @@ std
 string
 codec_name
 ;
-absl
+std
 :
 :
 optional
@@ -595,7 +589,7 @@ dom
 rtcinboundrtpstreamstats
 -
 lastpacketreceivedtimestamp
-absl
+std
 :
 :
 optional
@@ -648,7 +642,7 @@ dom
 rtcinboundrtpstreamstats
 -
 estimatedplayouttimestamp
-absl
+std
 :
 :
 optional
@@ -691,7 +685,7 @@ remoteoutboundrtpstats
 -
 dict
 *
-absl
+std
 :
 :
 optional
@@ -700,7 +694,7 @@ int64_t
 >
 last_sender_report_timestamp_ms
 ;
-absl
+std
 :
 :
 optional
@@ -724,7 +718,7 @@ sender_reports_reports_count
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -955,7 +949,7 @@ AudioDecoderFactory
 >
 decoder_factory
 ;
-absl
+std
 :
 :
 optional

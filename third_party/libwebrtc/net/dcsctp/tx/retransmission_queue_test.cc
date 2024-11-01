@@ -121,6 +121,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -128,17 +133,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -1121,7 +1115,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1224,7 +1218,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1355,7 +1349,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1562,7 +1556,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1857,7 +1851,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1961,7 +1955,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2164,7 +2158,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2266,7 +2260,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2743,7 +2737,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2920,7 +2914,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3025,7 +3019,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3535,7 +3529,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3709,7 +3703,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -4060,7 +4054,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -4314,7 +4308,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -4671,7 +4665,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -5101,7 +5095,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -5561,7 +5555,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -6061,7 +6055,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -6655,7 +6649,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -7557,7 +7551,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -7861,7 +7855,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -8275,7 +8269,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -8709,7 +8703,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -9355,7 +9349,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -9938,7 +9932,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -10421,7 +10415,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -10797,7 +10791,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -11525,7 +11519,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -12880,7 +12874,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -13024,7 +13018,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -13209,7 +13203,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -13295,7 +13289,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -13391,7 +13385,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -13487,7 +13481,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -13772,7 +13766,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -13874,7 +13868,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -14208,7 +14202,7 @@ size_t
 )
 {
 return
-absl
+std
 :
 :
 nullopt

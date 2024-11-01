@@ -116,15 +116,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 namespace
 webrtc
 {
@@ -184,7 +178,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional

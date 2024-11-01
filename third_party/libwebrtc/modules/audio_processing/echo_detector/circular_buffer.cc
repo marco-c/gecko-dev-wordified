@@ -208,7 +208,7 @@ size
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -231,7 +231,7 @@ nr_elements_in_buffer_
 )
 {
 return
-absl
+std
 :
 :
 nullopt

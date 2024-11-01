@@ -1660,7 +1660,7 @@ KeyParams
 (
 keyType
 )
-absl
+std
 :
 :
 optional
@@ -1757,7 +1757,7 @@ nativeConfig
 >
 ice_check_min_interval
 =
-absl
+std
 :
 :
 optional
@@ -1882,7 +1882,7 @@ nativeConfig
 >
 crypto_options
 =
-absl
+std
 :
 :
 optional
@@ -1950,7 +1950,7 @@ nativeConfig
 >
 ice_check_interval_strong_connectivity
 =
-absl
+std
 :
 :
 optional
@@ -1977,7 +1977,7 @@ nativeConfig
 >
 ice_check_interval_weak_connectivity
 =
-absl
+std
 :
 :
 optional
@@ -2004,7 +2004,7 @@ nativeConfig
 >
 ice_unwritable_timeout
 =
-absl
+std
 :
 :
 optional
@@ -2031,7 +2031,7 @@ nativeConfig
 >
 ice_unwritable_min_checks
 =
-absl
+std
 :
 :
 optional
@@ -2058,7 +2058,7 @@ nativeConfig
 >
 ice_inactive_timeout
 =
-absl
+std
 :
 :
 optional

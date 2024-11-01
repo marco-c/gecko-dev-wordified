@@ -463,7 +463,7 @@ PopulateCodecSpecific
 CodecSpecificInfo
 *
 codec_specific
-absl
+std
 :
 :
 optional
@@ -472,7 +472,7 @@ int
 >
 *
 spatial_idx
-absl
+std
 :
 :
 optional
@@ -920,7 +920,7 @@ ScalableVideoController
 >
 svc_controller_
 ;
-absl
+std
 :
 :
 optional

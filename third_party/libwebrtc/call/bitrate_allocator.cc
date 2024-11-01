@@ -2262,13 +2262,13 @@ new
 allocation
 if
 modified
-absl
+std
 :
 :
 nullopt
 otherwise
 .
-absl
+std
 :
 :
 optional
@@ -2322,7 +2322,7 @@ IsZero
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -2503,7 +2503,7 @@ allocated
 if
 (
 const
-absl
+std
 :
 :
 optional
@@ -2547,7 +2547,7 @@ kCanContributeAndConsume
 if
 (
 const
-absl
+std
 :
 :
 optional
@@ -2720,7 +2720,7 @@ available
 surplus
 .
 return
-absl
+std
 :
 :
 nullopt
@@ -2802,7 +2802,7 @@ track
 continue
 ;
 }
-absl
+std
 :
 :
 optional

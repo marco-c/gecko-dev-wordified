@@ -415,7 +415,7 @@ Build
 ;
 private
 :
-absl
+std
 :
 :
 optional
@@ -424,7 +424,7 @@ uint32_t
 >
 rtp_timestamp_
 ;
-absl
+std
 :
 :
 optional
@@ -433,7 +433,7 @@ int64_t
 >
 frame_id_
 ;
-absl
+std
 :
 :
 optional
@@ -442,7 +442,7 @@ VideoPlayoutDelay
 >
 playout_delay_
 ;
-absl
+std
 :
 :
 optional
@@ -451,7 +451,7 @@ int
 >
 spatial_layer_
 ;
-absl
+std
 :
 :
 optional
@@ -460,7 +460,7 @@ Timestamp
 >
 received_time_
 ;
-absl
+std
 :
 :
 optional
@@ -469,7 +469,7 @@ int
 >
 payload_type_
 ;
-absl
+std
 :
 :
 optional
@@ -478,7 +478,7 @@ Timestamp
 >
 ntp_time_
 ;
-absl
+std
 :
 :
 optional
@@ -487,7 +487,7 @@ VideoRotation
 >
 rotation_
 ;
-absl
+std
 :
 :
 optional

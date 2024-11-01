@@ -431,7 +431,7 @@ interpret
 the
 attribute
 .
-absl
+std
 :
 :
 optional
@@ -590,7 +590,7 @@ frames_rendered
 Decoder
 stats
 .
-absl
+std
 :
 :
 optional
@@ -602,7 +602,7 @@ string
 >
 decoder_implementation_name
 ;
-absl
+std
 :
 :
 optional
@@ -1037,7 +1037,7 @@ first_frame_received_to_decoded_ms
 -
 1
 ;
-absl
+std
 :
 :
 optional
@@ -1139,7 +1139,7 @@ and
 vice
 versa
 .
-absl
+std
 :
 :
 optional
@@ -1148,7 +1148,7 @@ double
 >
 corruption_score_sum
 ;
-absl
+std
 :
 :
 optional
@@ -1255,7 +1255,7 @@ dom
 rtcinboundrtpstreamstats
 -
 estimatedplayouttimestamp
-absl
+std
 :
 :
 optional
@@ -1297,7 +1297,7 @@ rtp_stats
 RtcpPacketTypeCounter
 rtcp_packet_type_counts
 ;
-absl
+std
 :
 :
 optional
@@ -1357,7 +1357,7 @@ timing
 frame
 '
 .
-absl
+std
 :
 :
 optional
@@ -1403,7 +1403,7 @@ remoteoutboundrtpstats
 -
 dict
 *
-absl
+std
 :
 :
 optional
@@ -1412,7 +1412,7 @@ int64_t
 >
 last_sender_report_timestamp_ms
 ;
-absl
+std
 :
 :
 optional

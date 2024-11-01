@@ -114,6 +114,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 sstream
 >
 #
@@ -172,17 +177,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -30813,7 +30807,7 @@ EXPECT_EQ
 vp9
 .
 packetization
-absl
+std
 :
 :
 nullopt
@@ -30858,7 +30852,7 @@ EXPECT_EQ
 h264
 .
 packetization
-absl
+std
 :
 :
 nullopt

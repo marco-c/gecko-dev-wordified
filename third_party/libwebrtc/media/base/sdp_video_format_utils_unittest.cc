@@ -722,7 +722,7 @@ MaxFrameRateIsMissingOrInvalid
 CodecParameterMap
 params
 ;
-absl
+std
 :
 :
 optional
@@ -849,7 +849,7 @@ MaxFrameSizeIsMissingOrInvalid
 CodecParameterMap
 params
 ;
-absl
+std
 :
 :
 optional

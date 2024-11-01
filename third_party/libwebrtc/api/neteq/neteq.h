@@ -120,6 +120,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -127,17 +132,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -1013,7 +1007,7 @@ enable_rtx_handling
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -1505,7 +1499,7 @@ int
 current_sample_rate_hz
 =
 nullptr
-absl
+std
 :
 :
 optional
@@ -1514,7 +1508,7 @@ Operation
 >
 action_override
 =
-absl
+std
 :
 :
 nullopt
@@ -2116,7 +2110,7 @@ is
 available
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -2217,7 +2211,7 @@ GetCurrentDecoderFormat
 ]
 ]
 virtual
-absl
+std
 :
 :
 optional
@@ -2232,7 +2226,7 @@ payload_type
 const
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2250,7 +2244,7 @@ used
 decoder
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -2263,7 +2257,7 @@ GetCurrentDecoderFormat
 const
 {
 return
-absl
+std
 :
 :
 nullopt

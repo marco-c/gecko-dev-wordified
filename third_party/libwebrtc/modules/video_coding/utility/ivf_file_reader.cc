@@ -531,7 +531,7 @@ return
 false
 ;
 }
-absl
+std
 :
 :
 optional
@@ -848,7 +848,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -874,7 +874,7 @@ HasMoreFrames
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1100,7 +1100,7 @@ has_error_
 true
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1174,7 +1174,7 @@ has_error_
 true
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1320,7 +1320,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1499,13 +1499,13 @@ kCodecTypeBytesCount
 )
 ;
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1599,7 +1599,7 @@ header
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -1689,7 +1689,7 @@ size
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -1730,7 +1730,7 @@ timestamp
 "
 ;
 return
-absl
+std
 :
 :
 nullopt

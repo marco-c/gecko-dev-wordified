@@ -171,6 +171,11 @@ endif
 WEBRTC_WIN
 #
 include
+<
+optional
+>
+#
+include
 "
 absl
 /
@@ -188,17 +193,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -372,7 +366,7 @@ string_view
 file
 )
 ;
-absl
+std
 :
 :
 optional
@@ -790,7 +784,7 @@ FILE_ATTRIBUTE_DIRECTORY
 FILE_ATTRIBUTE_DIRECTORY
 ;
 }
-absl
+std
 :
 :
 optional
@@ -836,7 +830,7 @@ data
 0
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -1273,7 +1267,7 @@ st_mode
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1318,7 +1312,7 @@ st
 0
 )
 return
-absl
+std
 :
 :
 nullopt

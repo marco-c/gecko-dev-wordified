@@ -122,6 +122,11 @@ numeric
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -143,17 +148,6 @@ absl
 cleanup
 /
 cleanup
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -717,7 +711,7 @@ return
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -780,7 +774,7 @@ kDroppedByEncoder
 default
 :
 return
-absl
+std
 :
 :
 nullopt
@@ -2871,7 +2865,7 @@ for
 active
 stream
 .
-absl
+std
 :
 :
 optional
@@ -2902,7 +2896,7 @@ has_value
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2943,7 +2937,7 @@ the
 active
 stream
 .
-absl
+std
 :
 :
 optional
@@ -3420,7 +3414,7 @@ for
 active
 stream
 .
-absl
+std
 :
 :
 optional
@@ -3715,7 +3709,7 @@ max_bitrate_bps
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3782,7 +3776,7 @@ Get
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -3796,7 +3790,7 @@ Get
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -5708,7 +5702,7 @@ start_bitrate_bps
 =
 0
 ?
-absl
+std
 :
 :
 optional
@@ -5719,7 +5713,7 @@ uint32_t
 start_bitrate_bps
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -5827,7 +5821,7 @@ The
 max
 requested_resolution
 .
-absl
+std
 :
 :
 optional
@@ -6043,7 +6037,7 @@ video_source_sink_controller_
 .
 SetFrameRateUpperLimit
 (
-absl
+std
 :
 :
 nullopt
@@ -6246,7 +6240,7 @@ frame_cadence_adapter_
 >
 SetZeroHertzModeEnabled
 (
-absl
+std
 :
 :
 nullopt
@@ -6673,7 +6667,7 @@ GetEncoderInfo
 )
 &
 encoder_config_
-absl
+std
 :
 :
 nullopt
@@ -7350,7 +7344,7 @@ are
 both
 2000Kbps
 .
-absl
+std
 :
 :
 optional
@@ -7532,7 +7526,7 @@ max_bitrate_bps
 }
 else
 {
-absl
+std
 :
 :
 optional
@@ -7713,7 +7707,7 @@ simulcast_layers
 .
 max_bitrate_bps
 .
-absl
+std
 :
 :
 optional
@@ -8163,7 +8157,7 @@ numberOfSimulcastStreams
 i
 )
 {
-absl
+std
 :
 :
 optional
@@ -9216,7 +9210,7 @@ Reset
 ;
 last_encode_info_ms_
 =
-absl
+std
 :
 :
 nullopt
@@ -10247,7 +10241,7 @@ WebRTC
 codec
 )
 .
-absl
+std
 :
 :
 optional
@@ -11586,7 +11580,7 @@ a
 decent
 estimate
 .
-absl
+std
 :
 :
 optional
@@ -11604,7 +11598,7 @@ GetInputFrameRateFps
 (
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -16489,7 +16483,7 @@ value
 )
 )
 ;
-absl
+std
 :
 :
 optional
@@ -16715,7 +16709,7 @@ max_pixels_per_frame
 (
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -16961,7 +16955,7 @@ get
 )
 )
 ;
-absl
+std
 :
 :
 optional

@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -111,17 +116,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -728,7 +722,7 @@ rtcp_send_transport
 VideoDecoderFactory
 *
 decoder_factory
-absl
+std
 :
 :
 optional
@@ -770,7 +764,7 @@ rtcp_send_transport
 VideoDecoderFactory
 *
 decoder_factory
-absl
+std
 :
 :
 optional
@@ -1474,7 +1468,7 @@ fake_renderer_
 ;
 private
 :
-absl
+std
 :
 :
 optional

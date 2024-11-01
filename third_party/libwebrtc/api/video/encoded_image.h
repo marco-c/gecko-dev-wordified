@@ -111,19 +111,13 @@ map
 #
 include
 <
-utility
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+utility
+>
 #
 include
 "
@@ -715,7 +709,7 @@ different
 simulcast
 layers
 .
-absl
+std
 :
 :
 optional
@@ -734,7 +728,7 @@ simulcast_index_
 void
 SetSimulcastIndex
 (
-absl
+std
 :
 :
 optional
@@ -772,7 +766,7 @@ simulcast_index
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -793,7 +787,7 @@ void
 SetCaptureTimeIdentifier
 (
 const
-absl
+std
 :
 :
 optional
@@ -858,7 +852,7 @@ svc
 dependencydiagrams
 *
 .
-absl
+std
 :
 :
 optional
@@ -877,7 +871,7 @@ spatial_index_
 void
 SetSpatialIndex
 (
-absl
+std
 :
 :
 optional
@@ -914,7 +908,7 @@ spatial_index_
 spatial_index
 ;
 }
-absl
+std
 :
 :
 optional
@@ -933,7 +927,7 @@ temporal_index_
 void
 SetTemporalIndex
 (
-absl
+std
 :
 :
 optional
@@ -1000,7 +994,7 @@ multiple
 spatial
 layers
 .
-absl
+std
 :
 :
 optional
@@ -1048,7 +1042,7 @@ void
 SetColorSpace
 (
 const
-absl
+std
 :
 :
 optional
@@ -1067,7 +1061,7 @@ color_space_
 color_space
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1086,7 +1080,7 @@ playout_delay_
 void
 SetPlayoutDelay
 (
-absl
+std
 :
 :
 optional
@@ -1122,7 +1116,7 @@ testing
 purpose
 only
 .
-absl
+std
 :
 :
 optional
@@ -1141,7 +1135,7 @@ video_frame_tracking_id_
 void
 SetVideoFrameTrackingId
 (
-absl
+std
 :
 :
 optional
@@ -1741,7 +1735,7 @@ a
 change
 again
 .
-absl
+std
 :
 :
 optional
@@ -1777,7 +1771,7 @@ timestamp_rtp_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -1786,7 +1780,7 @@ int
 >
 simulcast_index_
 ;
-absl
+std
 :
 :
 optional
@@ -1795,7 +1789,7 @@ Timestamp
 >
 capture_time_identifier_
 ;
-absl
+std
 :
 :
 optional
@@ -1804,7 +1798,7 @@ int
 >
 spatial_index_
 ;
-absl
+std
 :
 :
 optional
@@ -1823,7 +1817,7 @@ size_t
 >
 spatial_layer_frame_size_bytes_
 ;
-absl
+std
 :
 :
 optional
@@ -1868,7 +1862,7 @@ to
 the
 receiver
 .
-absl
+std
 :
 :
 optional

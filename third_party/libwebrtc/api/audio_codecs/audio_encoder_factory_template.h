@@ -99,6 +99,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 type_traits
 >
 #
@@ -114,17 +119,6 @@ absl
 base
 /
 nullability
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -252,7 +246,7 @@ specs
 {
 }
 static
-absl
+std
 :
 :
 optional
@@ -268,7 +262,7 @@ format
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -504,7 +498,7 @@ std
 :
 declval
 <
-absl
+std
 :
 :
 optional
@@ -660,7 +654,7 @@ specs
 ;
 }
 static
-absl
+std
 :
 :
 optional
@@ -697,7 +691,7 @@ decltype
 (
 opt_config
 )
-absl
+std
 :
 :
 optional
@@ -727,7 +721,7 @@ of
 type
 "
 "
-absl
+std
 :
 :
 optional
@@ -743,7 +737,7 @@ Config
 return
 opt_config
 ?
-absl
+std
 :
 :
 optional
@@ -921,7 +915,7 @@ return
 specs
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1091,7 +1085,7 @@ type
 .
 /
 /
-absl
+std
 :
 :
 optional
@@ -1279,7 +1273,7 @@ int
 payload_type
 /
 /
-absl
+std
 :
 :
 optional

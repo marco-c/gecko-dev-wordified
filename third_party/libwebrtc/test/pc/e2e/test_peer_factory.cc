@@ -512,7 +512,7 @@ contains
 /
 1
 .
-absl
+std
 :
 :
 nullopt
@@ -648,7 +648,7 @@ Renderer
 CreateAudioRenderer
 (
 const
-absl
+std
 :
 :
 optional
@@ -742,7 +742,7 @@ Capturer
 CreateAudioCapturer
 (
 const
-absl
+std
 :
 :
 optional
@@ -874,7 +874,7 @@ AudioDeviceModule
 >
 CreateAudioDeviceModule
 (
-absl
+std
 :
 :
 optional
@@ -882,7 +882,7 @@ optional
 AudioConfig
 >
 audio_config
-absl
+std
 :
 :
 optional
@@ -890,7 +890,7 @@ optional
 RemotePeerAudioConfig
 >
 remote_audio_config
-absl
+std
 :
 :
 optional
@@ -1796,7 +1796,7 @@ pc_deps
 /
 /
 namespace
-absl
+std
 :
 :
 optional
@@ -1808,7 +1808,7 @@ RemotePeerAudioConfig
 :
 Create
 (
-absl
+std
 :
 :
 optional
@@ -1825,7 +1825,7 @@ config
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1870,7 +1870,7 @@ unique_ptr
 MockPeerConnectionObserver
 >
 observer
-absl
+std
 :
 :
 optional
@@ -1878,7 +1878,7 @@ optional
 RemotePeerAudioConfig
 >
 remote_audio_config
-absl
+std
 :
 :
 optional

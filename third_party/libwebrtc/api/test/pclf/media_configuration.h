@@ -123,6 +123,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -138,17 +143,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -585,7 +579,7 @@ slides_yuv_file_names
 for
 scrolling
 .
-absl
+std
 :
 :
 optional
@@ -1039,7 +1033,7 @@ target_layer_index
 ;
 EmulatedSFUConfig
 (
-absl
+std
 :
 :
 optional
@@ -1047,7 +1041,7 @@ optional
 int
 >
 target_layer_index
-absl
+std
 :
 :
 optional
@@ -1203,7 +1197,7 @@ the
 requested
 layers
 .
-absl
+std
 :
 :
 optional
@@ -1270,7 +1264,7 @@ the
 requested
 layer
 .
-absl
+std
 :
 :
 optional
@@ -2073,13 +2067,13 @@ is
 /
 /
 true
-absl
+std
 :
 :
 nullopt
 otherwise
 .
-absl
+std
 :
 :
 optional
@@ -2144,13 +2138,13 @@ is
 /
 /
 true
-absl
+std
 :
 :
 nullopt
 otherwise
 .
-absl
+std
 :
 :
 optional
@@ -2334,7 +2328,7 @@ generated
 if
 omitted
 .
-absl
+std
 :
 :
 optional
@@ -2369,7 +2363,7 @@ screencast
 in
 on
 .
-absl
+std
 :
 :
 optional
@@ -2468,7 +2462,7 @@ to
 /
 VideoSimulcastConfig
 .
-absl
+std
 :
 :
 optional
@@ -2490,7 +2484,7 @@ Unit
 SFU
 )
 .
-absl
+std
 :
 :
 optional
@@ -2624,7 +2618,7 @@ this
 video
 stream
 .
-absl
+std
 :
 :
 optional
@@ -2689,7 +2683,7 @@ used
 as
 input
 .
-absl
+std
 :
 :
 optional
@@ -2738,7 +2732,7 @@ per
 each
 receiver
 .
-absl
+std
 :
 :
 optional
@@ -2850,7 +2844,7 @@ single
 video
 stream
 .
-absl
+std
 :
 :
 optional
@@ -2893,7 +2887,7 @@ precedence
 over
 content_hint
 .
-absl
+std
 :
 :
 optional
@@ -2959,7 +2953,7 @@ generated
 if
 omitted
 .
-absl
+std
 :
 :
 optional
@@ -2984,7 +2978,7 @@ will
 be
 generated
 .
-absl
+std
 :
 :
 optional
@@ -3011,7 +3005,7 @@ to
 specified
 file
 .
-absl
+std
 :
 :
 optional
@@ -3037,7 +3031,7 @@ to
 specified
 file
 .
-absl
+std
 :
 :
 optional
@@ -3124,7 +3118,7 @@ single
 video
 stream
 .
-absl
+std
 :
 :
 optional
@@ -3402,7 +3396,7 @@ and
 fps
 .
 static
-absl
+std
 :
 :
 optional
@@ -3423,7 +3417,7 @@ video_configs
 )
 ;
 static
-absl
+std
 :
 :
 optional
@@ -3627,7 +3621,7 @@ subscribe
 to
 all
 streams
-absl
+std
 :
 :
 nullopt
@@ -3637,7 +3631,7 @@ be
 /
 returned
 .
-absl
+std
 :
 :
 optional
@@ -3701,7 +3695,7 @@ const
 ;
 private
 :
-absl
+std
 :
 :
 optional
@@ -3710,7 +3704,7 @@ VideoResolution
 >
 default_resolution_
 =
-absl
+std
 :
 :
 nullopt

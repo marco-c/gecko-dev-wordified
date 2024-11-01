@@ -433,7 +433,7 @@ input
 framerate
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -545,7 +545,7 @@ frame
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -622,7 +622,7 @@ ms
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -824,7 +824,7 @@ frame
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -904,7 +904,7 @@ restricted_frame_delay_
 void
 UpdateVideoSourceRestrictions
 (
-absl
+std
 :
 :
 optional
@@ -961,7 +961,7 @@ of
 the
 layer
 .
-absl
+std
 :
 :
 optional
@@ -1407,7 +1407,7 @@ with
 post_time
 set
 to
-absl
+std
 :
 :
 nullopt
@@ -1415,7 +1415,7 @@ nullopt
 void
 SendFrameNow
 (
-absl
+std
 :
 :
 optional
@@ -1717,7 +1717,7 @@ are
 repeating
 frames
 .
-absl
+std
 :
 :
 optional
@@ -1808,7 +1808,7 @@ max
 frame
 rate
 .
-absl
+std
 :
 :
 optional
@@ -1983,7 +1983,7 @@ frame
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2195,7 +2195,7 @@ zero
 hertz
 mode
 .
-absl
+std
 :
 :
 optional
@@ -2358,7 +2358,7 @@ override
 void
 SetZeroHertzModeEnabled
 (
-absl
+std
 :
 :
 optional
@@ -2369,7 +2369,7 @@ params
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -2404,7 +2404,7 @@ override
 void
 UpdateVideoSourceRestrictions
 (
-absl
+std
 :
 :
 optional
@@ -2658,7 +2658,7 @@ are
 monotonically
 increasing
 .
-absl
+std
 :
 :
 optional
@@ -2683,7 +2683,7 @@ we
 re
 under
 .
-absl
+std
 :
 :
 optional
@@ -2692,7 +2692,7 @@ PassthroughAdapterMode
 >
 passthrough_adapter_
 ;
-absl
+std
 :
 :
 optional
@@ -2745,7 +2745,7 @@ has
 been
 enabled
 .
-absl
+std
 :
 :
 optional
@@ -2796,7 +2796,7 @@ for
 statistics
 reporting
 .
-absl
+std
 :
 :
 optional
@@ -2830,7 +2830,7 @@ source
 s
 constraints
 .
-absl
+std
 :
 :
 optional
@@ -2876,7 +2876,7 @@ of
 the
 adapter
 .
-absl
+std
 :
 :
 optional
@@ -3270,7 +3270,7 @@ spatial_index
 .
 quality_converged
 =
-absl
+std
 :
 :
 nullopt
@@ -3423,7 +3423,7 @@ current_frame_id_
 ;
 scheduled_repeat_
 =
-absl
+std
 :
 :
 nullopt
@@ -3562,7 +3562,7 @@ MaybeStartRefreshFrameRequester
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3592,7 +3592,7 @@ ZeroHertzAdapterMode
 :
 UpdateVideoSourceRestrictions
 (
-absl
+std
 :
 :
 optional
@@ -3686,7 +3686,7 @@ unrestricted
 .
 restricted_frame_delay_
 =
-absl
+std
 :
 :
 nullopt
@@ -4773,7 +4773,7 @@ HasQualityConverged
 ;
 SendFrameNow
 (
-absl
+std
 :
 :
 nullopt
@@ -4787,7 +4787,7 @@ ZeroHertzAdapterMode
 :
 SendFrameNow
 (
-absl
+std
 :
 :
 optional
@@ -6007,7 +6007,7 @@ FrameCadenceAdapterImpl
 :
 SetZeroHertzModeEnabled
 (
-absl
+std
 :
 :
 optional
@@ -6041,7 +6041,7 @@ was_zero_hertz_enabled
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -6239,7 +6239,7 @@ FrameCadenceAdapterImpl
 :
 UpdateVideoSourceRestrictions
 (
-absl
+std
 :
 :
 optional
@@ -6450,7 +6450,7 @@ zero_hertz_adapter_created_timestamp_
 ;
 zero_hertz_adapter_created_timestamp_
 =
-absl
+std
 :
 :
 nullopt
@@ -7071,7 +7071,7 @@ was_zero_hertz_enabled
 {
 zero_hertz_adapter_
 =
-absl
+std
 :
 :
 nullopt

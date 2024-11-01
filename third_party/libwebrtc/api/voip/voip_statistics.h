@@ -98,15 +98,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -319,7 +313,7 @@ dom
 rtcremoteinboundrtpstreamstats
 -
 roundtriptime
-absl
+std
 :
 :
 optional
@@ -555,7 +549,7 @@ RFC
 1
 ]
 .
-absl
+std
 :
 :
 optional
@@ -564,7 +558,7 @@ uint32_t
 >
 remote_ssrc
 ;
-absl
+std
 :
 :
 optional

@@ -101,19 +101,13 @@ h
 #
 include
 <
-utility
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+utility
+>
 #
 include
 "
@@ -561,7 +555,7 @@ use_low_latency_rendering
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -690,7 +684,7 @@ Builder
 set_capture_time_identifier
 (
 const
-absl
+std
 :
 :
 optional
@@ -706,7 +700,7 @@ Builder
 set_reference_time
 (
 const
-absl
+std
 :
 :
 optional
@@ -776,7 +770,7 @@ Builder
 set_color_space
 (
 const
-absl
+std
 :
 :
 optional
@@ -810,7 +804,7 @@ Builder
 set_update_rect
 (
 const
-absl
+std
 :
 :
 optional
@@ -853,7 +847,7 @@ timestamp_us_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -862,7 +856,7 @@ Timestamp
 >
 capture_time_identifier_
 ;
-absl
+std
 :
 :
 optional
@@ -886,7 +880,7 @@ rotation_
 =
 kVideoRotation_0
 ;
-absl
+std
 :
 :
 optional
@@ -898,7 +892,7 @@ color_space_
 RenderParameters
 render_parameters_
 ;
-absl
+std
 :
 :
 optional
@@ -1198,7 +1192,7 @@ timestamp_us
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -1219,7 +1213,7 @@ void
 set_capture_time_identifier
 (
 const
-absl
+std
 :
 :
 optional
@@ -1236,7 +1230,7 @@ capture_time_identifier
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -1257,7 +1251,7 @@ void
 set_reference_time
 (
 const
-absl
+std
 :
 :
 optional
@@ -1505,7 +1499,7 @@ when
 available
 .
 const
-absl
+std
 :
 :
 optional
@@ -1526,7 +1520,7 @@ void
 set_color_space
 (
 const
-absl
+std
 :
 :
 optional
@@ -1808,7 +1802,7 @@ clear_update_rect
 {
 update_rect_
 =
-absl
+std
 :
 :
 nullopt
@@ -1871,7 +1865,7 @@ value
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -1920,7 +1914,7 @@ buffer
 int64_t
 timestamp_us
 const
-absl
+std
 :
 :
 optional
@@ -1930,7 +1924,7 @@ Timestamp
 &
 capture_time_identifier
 const
-absl
+std
 :
 :
 optional
@@ -1946,7 +1940,7 @@ ntp_time_ms
 VideoRotation
 rotation
 const
-absl
+std
 :
 :
 optional
@@ -1960,7 +1954,7 @@ RenderParameters
 &
 render_parameters
 const
-absl
+std
 :
 :
 optional
@@ -2010,7 +2004,7 @@ ntp_time_ms_
 int64_t
 timestamp_us_
 ;
-absl
+std
 :
 :
 optional
@@ -2080,7 +2074,7 @@ version
 of
 it
 .
-absl
+std
 :
 :
 optional
@@ -2092,7 +2086,7 @@ reference_time_
 VideoRotation
 rotation_
 ;
-absl
+std
 :
 :
 optional
@@ -2184,7 +2178,7 @@ the
 entire
 frame
 .
-absl
+std
 :
 :
 optional
@@ -2308,7 +2302,7 @@ captured
 video
 frames
 .
-absl
+std
 :
 :
 optional

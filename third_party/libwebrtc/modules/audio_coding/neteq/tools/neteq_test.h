@@ -109,6 +109,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -116,17 +121,6 @@ include
 <
 utility
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -720,7 +714,7 @@ const
 Environment
 env_
 ;
-absl
+std
 :
 :
 optional
@@ -729,7 +723,7 @@ Action
 >
 next_action_
 ;
-absl
+std
 :
 :
 optional
@@ -771,7 +765,7 @@ prev_ops_state_
 NetEqLifetimeStatistics
 prev_lifetime_stats_
 ;
-absl
+std
 :
 :
 optional

@@ -101,6 +101,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -108,17 +113,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -440,7 +434,7 @@ this
 optional
 instead
 .
-absl
+std
 :
 :
 optional
@@ -468,7 +462,7 @@ between
 multiple
 streams
 .
-absl
+std
 :
 :
 optional
@@ -477,7 +471,7 @@ double
 >
 bitrate_priority
 ;
-absl
+std
 :
 :
 optional
@@ -591,7 +585,7 @@ adaptation
 is
 active
 .
-absl
+std
 :
 :
 optional
@@ -649,7 +643,7 @@ VideoEncoderConfig
 /
 and
 use
-absl
+std
 :
 :
 optional

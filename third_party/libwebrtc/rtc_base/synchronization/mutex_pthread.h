@@ -419,7 +419,7 @@ primitive
 types
 rather
 than
-absl
+std
 :
 :
 optional
@@ -433,7 +433,7 @@ described
 below
 might
 invalidate
-absl
+std
 :
 :
 optional

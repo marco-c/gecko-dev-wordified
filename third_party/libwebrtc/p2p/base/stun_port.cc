@@ -2399,7 +2399,7 @@ UDPPort
 :
 GetStunStats
 (
-absl
+std
 :
 :
 optional
@@ -2423,7 +2423,7 @@ UDPPort
 set_stun_keepalive_delay
 (
 const
-absl
+std
 :
 :
 optional
@@ -4373,7 +4373,7 @@ const
 ServerAddresses
 &
 servers
-absl
+std
 :
 :
 optional
@@ -4489,7 +4489,7 @@ const
 ServerAddresses
 &
 servers
-absl
+std
 :
 :
 optional

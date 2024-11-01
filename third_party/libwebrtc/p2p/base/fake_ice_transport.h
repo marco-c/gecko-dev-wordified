@@ -101,6 +101,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -127,17 +132,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1456,7 +1450,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1469,7 +1463,7 @@ GetRttEstimate
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1488,7 +1482,7 @@ return
 nullptr
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1503,7 +1497,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1877,7 +1871,7 @@ return
 last_sent_packet_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1905,7 +1899,7 @@ network_route_
 void
 SetNetworkRoute
 (
-absl
+std
 :
 :
 optional
@@ -2193,7 +2187,7 @@ network_thread_
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -2209,7 +2203,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2277,7 +2271,7 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
-absl
+std
 :
 :
 optional

@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -124,17 +129,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -707,7 +701,7 @@ event_log
 =
 nullptr
 ;
-absl
+std
 :
 :
 optional
@@ -914,7 +908,7 @@ SetLastRtpTime
 (
 uint32_t
 rtp_timestamp
-absl
+std
 :
 :
 optional
@@ -922,7 +916,7 @@ optional
 Timestamp
 >
 capture_time
-absl
+std
 :
 :
 optional
@@ -1194,7 +1188,7 @@ RtcpContext
 class
 PacketSender
 ;
-absl
+std
 :
 :
 optional
@@ -1650,7 +1644,7 @@ RTC_GUARDED_BY
 mutex_rtcp_sender_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1677,7 +1671,7 @@ RTC_GUARDED_BY
 mutex_rtcp_sender_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1899,7 +1893,7 @@ RTC_GUARDED_BY
 mutex_rtcp_sender_
 )
 ;
-absl
+std
 :
 :
 optional

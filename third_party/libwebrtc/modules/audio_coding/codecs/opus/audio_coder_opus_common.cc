@@ -114,7 +114,7 @@ h
 namespace
 webrtc
 {
-absl
+std
 :
 :
 optional
@@ -169,7 +169,7 @@ end
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -209,7 +209,7 @@ char
 template
 <
 >
-absl
+std
 :
 :
 optional
@@ -359,7 +359,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt

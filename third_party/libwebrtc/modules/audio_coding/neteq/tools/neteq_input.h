@@ -104,19 +104,13 @@ memory
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -281,7 +275,7 @@ of
 packets
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -326,7 +320,7 @@ are
 available
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -360,7 +354,7 @@ if
 available
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -407,7 +401,7 @@ no
 more
 events
 .
-absl
+std
 :
 :
 optional
@@ -419,7 +413,7 @@ NextEventTime
 )
 const
 {
-absl
+std
 :
 :
 optional
@@ -752,7 +746,7 @@ PopPacket
 )
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -843,7 +837,7 @@ TimeLimitedNetEqInput
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -856,7 +850,7 @@ NextPacketTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -869,7 +863,7 @@ NextOutputEventTime
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -913,7 +907,7 @@ ended
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -943,7 +937,7 @@ NetEqInput
 input_
 ;
 const
-absl
+std
 :
 :
 optional

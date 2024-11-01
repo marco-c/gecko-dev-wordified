@@ -90,15 +90,9 @@ define
 API_TEST_MOCK_ENCODER_SELECTOR_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -183,7 +177,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional
@@ -204,7 +198,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional
@@ -225,7 +219,7 @@ override
 ;
 MOCK_METHOD
 (
-absl
+std
 :
 :
 optional

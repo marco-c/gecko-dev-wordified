@@ -98,15 +98,9 @@ map
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -203,7 +197,7 @@ a
 valid
 cluster
 .
-absl
+std
 :
 :
 optional
@@ -218,7 +212,7 @@ PacketResult
 packet_feedback
 )
 ;
-absl
+std
 :
 :
 optional
@@ -345,7 +339,7 @@ RtcEventLog
 const
 event_log_
 ;
-absl
+std
 :
 :
 optional

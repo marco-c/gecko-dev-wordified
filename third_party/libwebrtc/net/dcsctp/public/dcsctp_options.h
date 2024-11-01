@@ -107,15 +107,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -1150,7 +1144,7 @@ closed
 too
 quickly
 .
-absl
+std
 :
 :
 optional
@@ -1159,7 +1153,7 @@ DurationMs
 >
 max_timer_backoff_duration
 =
-absl
+std
 :
 :
 nullopt
@@ -1783,7 +1777,7 @@ chunk
 .
 Set
 to
-absl
+std
 :
 :
 nullopt
@@ -1793,7 +1787,7 @@ for
 no
 limit
 .
-absl
+std
 :
 :
 optional
@@ -1835,7 +1829,7 @@ Set
 /
 /
 to
-absl
+std
 :
 :
 nullopt
@@ -1843,7 +1837,7 @@ for
 no
 limit
 .
-absl
+std
 :
 :
 optional

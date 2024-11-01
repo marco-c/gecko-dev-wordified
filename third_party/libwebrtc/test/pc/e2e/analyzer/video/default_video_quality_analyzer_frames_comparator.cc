@@ -115,6 +115,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -127,17 +132,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -2648,7 +2642,7 @@ AddComparison
 (
 InternalStatsKey
 stats_key
-absl
+std
 :
 :
 optional
@@ -2656,7 +2650,7 @@ optional
 VideoFrame
 >
 captured
-absl
+std
 :
 :
 optional
@@ -2745,7 +2739,7 @@ InternalStatsKey
 stats_key
 int
 skipped_between_rendered
-absl
+std
 :
 :
 optional
@@ -2753,7 +2747,7 @@ optional
 VideoFrame
 >
 captured
-absl
+std
 :
 :
 optional
@@ -2883,7 +2877,7 @@ AddComparisonInternal
 (
 InternalStatsKey
 stats_key
-absl
+std
 :
 :
 optional
@@ -2891,7 +2885,7 @@ optional
 VideoFrame
 >
 captured
-absl
+std
 :
 :
 optional
@@ -2997,7 +2991,7 @@ captured
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -3007,7 +3001,7 @@ rendered
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -3143,7 +3137,7 @@ from
 the
 queue
 .
-absl
+std
 :
 :
 optional
@@ -3152,7 +3146,7 @@ FrameComparison
 >
 comparison
 =
-absl
+std
 :
 :
 nullopt

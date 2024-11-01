@@ -99,6 +99,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -109,17 +114,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -296,7 +290,7 @@ GetResolution
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -310,7 +304,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -366,7 +360,7 @@ Decoded
 VideoFrame
 &
 decoded_image
-absl
+std
 :
 :
 optional
@@ -374,7 +368,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -588,7 +582,7 @@ rtc
 Event
 next_frame_decoded_
 ;
-absl
+std
 :
 :
 optional

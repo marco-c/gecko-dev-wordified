@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -111,17 +116,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -455,7 +449,7 @@ dom
 rtcinboundrtpstreamstats
 -
 lastpacketreceivedtimestamp
-absl
+std
 :
 :
 optional
@@ -517,7 +511,7 @@ remoteoutboundrtpstats
 -
 dict
 *
-absl
+std
 :
 :
 optional
@@ -526,7 +520,7 @@ int64_t
 >
 last_sender_report_timestamp_ms
 ;
-absl
+std
 :
 :
 optional
@@ -550,7 +544,7 @@ sender_reports_reports_count
 =
 0
 ;
-absl
+std
 :
 :
 optional
@@ -672,7 +666,7 @@ if
 any
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -858,7 +852,7 @@ time_ms
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -935,7 +929,7 @@ left
 unset
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -1231,7 +1225,7 @@ scoped_refptr
 AudioDecoderFactory
 >
 decoder_factory
-absl
+std
 :
 :
 optional

@@ -602,7 +602,7 @@ kDefaultMinPushbackTargetBitrateBps
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -623,7 +623,7 @@ congestion_window_config_
 initial_data_window
 ;
 }
-absl
+std
 :
 :
 optional
@@ -659,7 +659,7 @@ video_config_
 alr_probing
 ;
 }
-absl
+std
 :
 :
 optional
@@ -714,7 +714,7 @@ ignored
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -726,7 +726,7 @@ video_config_
 vp8_qp_max
 ;
 }
-absl
+std
 :
 :
 optional
@@ -757,7 +757,7 @@ vp8_min_pixels
 )
 {
 return
-absl
+std
 :
 :
 nullopt

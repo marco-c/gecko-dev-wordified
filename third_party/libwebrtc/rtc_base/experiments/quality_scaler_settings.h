@@ -93,15 +93,9 @@ define
 RTC_BASE_EXPERIMENTS_QUALITY_SCALER_SETTINGS_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -140,7 +134,7 @@ FieldTrialsView
 field_trials
 )
 ;
-absl
+std
 :
 :
 optional
@@ -152,7 +146,7 @@ SamplingPeriodMs
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -164,7 +158,7 @@ AverageQpWindow
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -176,7 +170,7 @@ MinFrames
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -188,7 +182,7 @@ InitialScaleFactor
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -200,7 +194,7 @@ ScaleFactor
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -212,7 +206,7 @@ InitialBitrateIntervalMs
 )
 const
 ;
-absl
+std
 :
 :
 optional

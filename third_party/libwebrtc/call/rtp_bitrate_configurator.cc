@@ -266,7 +266,7 @@ return
 bitrate_config_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -320,7 +320,7 @@ max_bitrate_bps
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -430,7 +430,7 @@ new_start
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -471,7 +471,7 @@ only
 max
 bitrate
 .
-absl
+std
 :
 :
 optional
@@ -514,14 +514,14 @@ cap
 return
 UpdateConstraints
 (
-absl
+std
 :
 :
 nullopt
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -534,7 +534,7 @@ RtpBitrateConfigurator
 UpdateConstraints
 (
 const
-absl
+std
 :
 :
 optional
@@ -709,7 +709,7 @@ new_start
 )
 {
 return
-absl
+std
 :
 :
 nullopt

@@ -1282,7 +1282,7 @@ frame
 is
 delivered
 .
-absl
+std
 :
 :
 optional
@@ -1510,7 +1510,7 @@ constant_rate
 PacingSettings
 settings_
 ;
-absl
+std
 :
 :
 optional
@@ -1519,7 +1519,7 @@ Timestamp
 >
 prev_timestamp_
 ;
-absl
+std
 :
 :
 optional
@@ -2603,7 +2603,7 @@ level_bits_
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -3330,7 +3330,7 @@ VideoFrame
 decoded_frame
 int
 spatial_idx
-absl
+std
 :
 :
 optional
@@ -3339,7 +3339,7 @@ VideoFrame
 >
 ref_frame
 =
-absl
+std
 :
 :
 nullopt
@@ -5641,7 +5641,7 @@ const
 EncodingSettings
 &
 encoding_settings
-absl
+std
 :
 :
 optional
@@ -5867,7 +5867,7 @@ const
 EncodingSettings
 &
 encoding_settings
-absl
+std
 :
 :
 optional
@@ -6290,7 +6290,7 @@ const
 EncodedImage
 &
 encoded_frame
-absl
+std
 :
 :
 optional
@@ -6299,7 +6299,7 @@ VideoFrame
 >
 ref_frame
 =
-absl
+std
 :
 :
 nullopt
@@ -6574,7 +6574,7 @@ override
 int
 spatial_idx
 ;
-absl
+std
 :
 :
 optional
@@ -6735,7 +6735,7 @@ TesterY4mWriter
 >
 y4m_writer_
 ;
-absl
+std
 :
 :
 optional
@@ -6744,7 +6744,7 @@ VideoCodecType
 >
 codec_type_
 ;
-absl
+std
 :
 :
 optional
@@ -8927,7 +8927,7 @@ analyzer_
 Pacer
 pacer_
 ;
-absl
+std
 :
 :
 optional
@@ -8997,7 +8997,7 @@ mutex_
 VideoCodecType
 codec_type_
 ;
-absl
+std
 :
 :
 optional

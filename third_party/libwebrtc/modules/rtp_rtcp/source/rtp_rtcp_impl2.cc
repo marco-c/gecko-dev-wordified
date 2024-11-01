@@ -123,6 +123,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -154,17 +159,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1037,7 +1031,7 @@ associated_payload_type
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1064,13 +1058,13 @@ RtxSsrc
 (
 )
 :
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1102,7 +1096,7 @@ FlexfecSsrc
 ;
 }
 return
-absl
+std
 :
 :
 nullopt
@@ -1857,7 +1851,7 @@ rtcp_receiver_
 ;
 if
 (
-absl
+std
 :
 :
 optional
@@ -2136,7 +2130,7 @@ use
 optional
 Timestamps
 .
-absl
+std
 :
 :
 optional
@@ -2163,7 +2157,7 @@ capture_time_ms
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3144,7 +3138,7 @@ c_name
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3159,7 +3153,7 @@ LastRtt
 )
 const
 {
-absl
+std
 :
 :
 optional
@@ -3273,7 +3267,7 @@ receiver
 .
 if
 (
-absl
+std
 :
 :
 optional
@@ -3432,7 +3426,7 @@ GetLatestReportBlockData
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3458,7 +3452,7 @@ GetSenderReportStats
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3963,7 +3957,7 @@ rtt
 {
 if
 (
-absl
+std
 :
 :
 optional
@@ -4394,7 +4388,7 @@ rtt
 {
 if
 (
-absl
+std
 :
 :
 optional
@@ -4462,7 +4456,7 @@ SSRC
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -4726,7 +4720,7 @@ CurrentTime
 -
 kRttUpdateInterval
 ;
-absl
+std
 :
 :
 optional

@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -111,17 +116,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -440,7 +434,7 @@ audio_format
 }
 ;
 static
-absl
+std
 :
 :
 optional
@@ -482,7 +476,7 @@ config
 else
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -557,7 +551,7 @@ MakeAudioDecoder
 const
 Config
 &
-absl
+std
 :
 :
 optional
@@ -570,7 +564,7 @@ codec_pair_id
 *
 /
 =
-absl
+std
 :
 :
 nullopt
@@ -699,7 +693,7 @@ fake
 ;
 }
 static
-absl
+std
 :
 :
 optional
@@ -833,7 +827,7 @@ const
 Config
 &
 config
-absl
+std
 :
 :
 optional
@@ -896,7 +890,7 @@ const
 Config
 &
 config
-absl
+std
 :
 :
 optional
@@ -1021,7 +1015,7 @@ const
 Config
 &
 config
-absl
+std
 :
 :
 optional
@@ -1185,7 +1179,7 @@ bar
 16000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -1303,7 +1297,7 @@ bar
 16000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -1326,7 +1320,7 @@ bogus
 8000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -1516,7 +1510,7 @@ bar
 16000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -1539,7 +1533,7 @@ bogus
 8000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -1578,7 +1572,7 @@ sham
 16000
 2
 }
-absl
+std
 :
 :
 nullopt
@@ -1611,7 +1605,7 @@ value
 }
 }
 }
-absl
+std
 :
 :
 nullopt
@@ -1774,7 +1768,7 @@ pcmu
 16000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -1797,7 +1791,7 @@ pcmu
 8000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -1836,7 +1830,7 @@ PCMA
 8000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -1967,7 +1961,7 @@ bar
 16000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -1990,7 +1984,7 @@ G722
 8000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -2040,7 +2034,7 @@ G722
 8000
 2
 }
-absl
+std
 :
 :
 nullopt
@@ -2090,7 +2084,7 @@ G722
 8000
 3
 }
-absl
+std
 :
 :
 nullopt
@@ -2210,7 +2204,7 @@ bar
 8000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -2233,7 +2227,7 @@ ilbc
 8000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -2474,7 +2468,7 @@ L16
 8000
 0
 }
-absl
+std
 :
 :
 nullopt
@@ -2497,7 +2491,7 @@ L16
 48000
 2
 }
-absl
+std
 :
 :
 nullopt
@@ -2671,7 +2665,7 @@ bar
 16000
 1
 }
-absl
+std
 :
 :
 nullopt
@@ -2694,7 +2688,7 @@ opus
 48000
 2
 }
-absl
+std
 :
 :
 nullopt

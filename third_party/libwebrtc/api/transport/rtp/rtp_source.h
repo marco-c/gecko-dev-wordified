@@ -97,15 +97,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -156,7 +150,7 @@ public
 struct
 Extensions
 {
-absl
+std
 :
 :
 optional
@@ -199,7 +193,7 @@ abs
 capture
 -
 time
-absl
+std
 :
 :
 optional
@@ -272,7 +266,7 @@ Local
 Capture
 Clock
 Offset
-absl
+std
 :
 :
 optional
@@ -418,7 +412,7 @@ return
 source_type_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -440,7 +434,7 @@ void
 set_audio_level
 (
 const
-absl
+std
 :
 :
 optional
@@ -468,7 +462,7 @@ return
 rtp_timestamp_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -486,7 +480,7 @@ extensions_
 absolute_capture_time
 ;
 }
-absl
+std
 :
 :
 optional

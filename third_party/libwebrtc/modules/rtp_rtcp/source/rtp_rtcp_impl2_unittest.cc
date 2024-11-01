@@ -116,6 +116,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -123,17 +128,6 @@ include
 <
 utility
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -1239,7 +1233,7 @@ packet_counter
 void
 OnSendPacket
 (
-absl
+std
 :
 :
 optional
@@ -1275,7 +1269,7 @@ ssrc
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -1549,7 +1543,7 @@ rtx_send_ssrc
 =
 is_sender_
 ?
-absl
+std
 :
 :
 make_optional
@@ -1557,7 +1551,7 @@ make_optional
 kRtxSenderSsrc
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -1636,7 +1630,7 @@ RtcpPacketTypeCounter
 >
 counter_map_
 ;
-absl
+std
 :
 :
 optional
@@ -1928,7 +1922,7 @@ ReinitWithFec
 VideoFecGenerator
 *
 fec_generator
-absl
+std
 :
 :
 optional
@@ -5730,7 +5724,7 @@ GetSenderReportStats
 )
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -5830,7 +5824,7 @@ Not
 (
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -5994,7 +5988,7 @@ GetSenderReportStats
 )
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -6473,7 +6467,7 @@ Not
 (
 Eq
 (
-absl
+std
 :
 :
 nullopt
@@ -7778,7 +7772,7 @@ red_payload_type
 =
 *
 /
-absl
+std
 :
 :
 nullopt

@@ -99,6 +99,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 type_traits
 >
 #
@@ -106,17 +111,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -278,7 +272,7 @@ const
 SdpAudioFormat
 &
 format
-absl
+std
 :
 :
 optional
@@ -373,7 +367,7 @@ std
 :
 declval
 <
-absl
+std
 :
 :
 optional
@@ -423,7 +417,7 @@ Trait
 Config
 &
 config
-absl
+std
 :
 :
 optional
@@ -486,7 +480,7 @@ std
 :
 declval
 <
-absl
+std
 :
 :
 optional
@@ -536,7 +530,7 @@ Trait
 Config
 &
 config
-absl
+std
 :
 :
 optional
@@ -669,7 +663,7 @@ decltype
 (
 opt_config
 )
-absl
+std
 :
 :
 optional
@@ -699,7 +693,7 @@ of
 type
 "
 "
-absl
+std
 :
 :
 optional
@@ -756,7 +750,7 @@ const
 SdpAudioFormat
 &
 format
-absl
+std
 :
 :
 optional
@@ -922,7 +916,7 @@ const
 SdpAudioFormat
 &
 format
-absl
+std
 :
 :
 optional
@@ -1043,7 +1037,7 @@ type
 .
 /
 /
-absl
+std
 :
 :
 optional
@@ -1157,7 +1151,7 @@ ConfigType
 config
 /
 /
-absl
+std
 :
 :
 optional
@@ -1189,7 +1183,7 @@ ConfigType
 config
 /
 /
-absl
+std
 :
 :
 optional

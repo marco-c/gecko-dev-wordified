@@ -90,6 +90,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -107,17 +112,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -762,7 +756,7 @@ last_datachannel_
 nullptr
 ;
 }
-absl
+std
 :
 :
 optional
@@ -784,7 +778,7 @@ ClearInterestingUsageDetector
 {
 interesting_usage_detected_
 =
-absl
+std
 :
 :
 optional
@@ -807,7 +801,7 @@ candidate_gathered_
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -5158,7 +5152,7 @@ ObservedFingerprint
 ;
 EXPECT_METRIC_EQ
 (
-absl
+std
 :
 :
 make_optional
@@ -5302,7 +5296,7 @@ ObservedFingerprint
 ;
 EXPECT_METRIC_EQ
 (
-absl
+std
 :
 :
 make_optional

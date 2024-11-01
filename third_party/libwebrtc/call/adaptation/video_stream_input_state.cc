@@ -120,7 +120,7 @@ false
 )
 frame_size_pixels_
 (
-absl
+std
 :
 :
 nullopt
@@ -142,7 +142,7 @@ kDefaultMinPixelsPerFrame
 )
 single_active_stream_pixels_
 (
-absl
+std
 :
 :
 nullopt
@@ -170,7 +170,7 @@ VideoStreamInputState
 :
 set_frame_size_pixels
 (
-absl
+std
 :
 :
 optional
@@ -236,7 +236,7 @@ VideoStreamInputState
 :
 set_single_active_stream_pixels
 (
-absl
+std
 :
 :
 optional
@@ -264,7 +264,7 @@ return
 has_input_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -322,7 +322,7 @@ return
 min_pixels_per_frame_
 ;
 }
-absl
+std
 :
 :
 optional

@@ -105,6 +105,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 unordered_map
 >
 #
@@ -117,17 +122,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -210,7 +204,7 @@ template
 typename
 T
 >
-absl
+std
 :
 :
 optional
@@ -257,7 +251,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -285,7 +279,7 @@ uint16_t
 frame_id
 Timestamp
 captured_time
-absl
+std
 :
 :
 optional
@@ -525,7 +519,7 @@ webrtc
 :
 Timestamp
 time
-absl
+std
 :
 :
 optional
@@ -867,7 +861,7 @@ StreamCodecInfo
 &
 used_decoder
 const
-absl
+std
 :
 :
 optional
@@ -1240,7 +1234,7 @@ spatial_layers_qp
 =
 stream_layers_qp_
 ;
-absl
+std
 :
 :
 optional

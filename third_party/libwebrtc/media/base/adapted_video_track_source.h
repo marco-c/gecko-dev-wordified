@@ -100,15 +100,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -700,7 +694,7 @@ webrtc
 Mutex
 stats_mutex_
 ;
-absl
+std
 :
 :
 optional

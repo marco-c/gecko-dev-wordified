@@ -1320,7 +1320,7 @@ rtc
 Buffer
 buffer_
 ;
-absl
+std
 :
 :
 optional
@@ -1537,7 +1537,7 @@ parse
 slice
 header
 .
-absl
+std
 :
 :
 optional

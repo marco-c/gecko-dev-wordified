@@ -101,6 +101,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -108,17 +113,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -175,7 +169,7 @@ of
 /
 /
 type
-absl
+std
 :
 :
 optional
@@ -203,7 +197,7 @@ absl
 variant
 <
 const
-absl
+std
 :
 :
 optional
@@ -212,7 +206,7 @@ bool
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -221,7 +215,7 @@ int32_t
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -230,7 +224,7 @@ uint32_t
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -239,7 +233,7 @@ int64_t
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -248,7 +242,7 @@ uint64_t
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -257,7 +251,7 @@ double
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -269,7 +263,7 @@ string
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -284,7 +278,7 @@ bool
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -299,7 +293,7 @@ int32_t
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -314,7 +308,7 @@ uint32_t
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -329,7 +323,7 @@ int64_t
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -344,7 +338,7 @@ uint64_t
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -359,7 +353,7 @@ double
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -377,7 +371,7 @@ string
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -396,7 +390,7 @@ uint64_t
 >
 *
 const
-absl
+std
 :
 :
 optional
@@ -429,7 +423,7 @@ char
 *
 name
 const
-absl
+std
 :
 :
 optional
@@ -490,7 +484,7 @@ absl
 holds_alternative
 <
 const
-absl
+std
 :
 :
 optional
@@ -510,7 +504,7 @@ typename
 T
 >
 const
-absl
+std
 :
 :
 optional
@@ -541,7 +535,7 @@ absl
 get
 <
 const
-absl
+std
 :
 :
 optional
@@ -592,7 +586,7 @@ absl
 get
 <
 const
-absl
+std
 :
 :
 optional

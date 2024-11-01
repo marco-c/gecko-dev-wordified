@@ -115,6 +115,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -127,17 +132,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -313,7 +307,7 @@ list
 their
 dictionary
 attributes
-absl
+std
 :
 :
 optional
@@ -645,7 +639,7 @@ Attribute
 GetAttribute
 (
 const
-absl
+std
 :
 :
 optional
@@ -693,7 +687,7 @@ absl
 get
 <
 const
-absl
+std
 :
 :
 optional
@@ -1153,7 +1147,7 @@ timestamp
 /
 /
 /
-absl
+std
 :
 :
 optional
@@ -1164,7 +1158,7 @@ foo
 ;
 /
 /
-absl
+std
 :
 :
 optional

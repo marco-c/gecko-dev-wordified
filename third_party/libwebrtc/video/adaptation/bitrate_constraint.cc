@@ -146,14 +146,14 @@ BitrateConstraint
 :
 encoder_settings_
 (
-absl
+std
 :
 :
 nullopt
 )
 encoder_target_bitrate_bps_
 (
-absl
+std
 :
 :
 nullopt
@@ -172,7 +172,7 @@ BitrateConstraint
 :
 OnEncoderSettingsUpdated
 (
-absl
+std
 :
 :
 optional
@@ -205,7 +205,7 @@ BitrateConstraint
 :
 OnEncoderTargetBitrateUpdated
 (
-absl
+std
 :
 :
 optional
@@ -406,7 +406,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional
@@ -435,7 +435,7 @@ return
 true
 ;
 }
-absl
+std
 :
 :
 optional

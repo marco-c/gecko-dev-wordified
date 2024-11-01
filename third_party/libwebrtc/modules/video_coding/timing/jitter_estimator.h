@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 queue
 >
 #
@@ -114,17 +119,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -447,7 +441,7 @@ recent
 frame
 sizes
 .
-absl
+std
 :
 :
 optional
@@ -456,7 +450,7 @@ double
 >
 max_frame_size_percentile
 =
-absl
+std
 :
 :
 nullopt
@@ -476,7 +470,7 @@ number
 of
 frames
 .
-absl
+std
 :
 :
 optional
@@ -485,7 +479,7 @@ int
 >
 frame_size_window
 =
-absl
+std
 :
 :
 nullopt
@@ -526,7 +520,7 @@ clamps
 fewer
 samples
 .
-absl
+std
 :
 :
 optional
@@ -535,7 +529,7 @@ double
 >
 num_stddev_delay_clamp
 =
-absl
+std
 :
 :
 nullopt
@@ -586,7 +580,7 @@ rejects
 fewer
 samples
 .
-absl
+std
 :
 :
 optional
@@ -595,7 +589,7 @@ double
 >
 num_stddev_delay_outlier
 =
-absl
+std
 :
 :
 nullopt
@@ -646,7 +640,7 @@ rejects
 fewer
 samples
 .
-absl
+std
 :
 :
 optional
@@ -655,7 +649,7 @@ double
 >
 num_stddev_size_outlier
 =
-absl
+std
 :
 :
 nullopt
@@ -709,7 +703,7 @@ rejects
 fewer
 samples
 .
-absl
+std
 :
 :
 optional
@@ -718,7 +712,7 @@ double
 >
 congestion_rejection_factor
 =
-absl
+std
 :
 :
 nullopt
@@ -954,7 +948,7 @@ GetJitterEstimate
 (
 double
 rtt_multiplier
-absl
+std
 :
 :
 optional
@@ -1334,7 +1328,7 @@ startup_frame_size_sum_bytes_
 size_t
 startup_frame_size_count_
 ;
-absl
+std
 :
 :
 optional
@@ -1350,7 +1344,7 @@ previously
 returned
 jitter
 estimate
-absl
+std
 :
 :
 optional
@@ -1367,7 +1361,7 @@ of
 the
 previous
 frame
-absl
+std
 :
 :
 optional

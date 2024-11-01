@@ -286,7 +286,7 @@ allocated
 by
 BitrateAllocatorObserver
 virtual
-absl
+std
 :
 :
 optional
@@ -478,7 +478,7 @@ min
 double
 bitrate_priority
 ;
-absl
+std
 :
 :
 optional
@@ -594,7 +594,7 @@ config
 int64_t
 allocated_bitrate_bps
 ;
-absl
+std
 :
 :
 optional

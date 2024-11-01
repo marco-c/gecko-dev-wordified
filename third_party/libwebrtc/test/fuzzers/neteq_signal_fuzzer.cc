@@ -749,7 +749,7 @@ output_event_periods
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -769,7 +769,7 @@ packet_
 time_ms
 ;
 }
-absl
+std
 :
 :
 optional
@@ -786,7 +786,7 @@ return
 next_output_event_ms_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1060,7 +1060,7 @@ return
 ended_
 ;
 }
-absl
+std
 :
 :
 optional

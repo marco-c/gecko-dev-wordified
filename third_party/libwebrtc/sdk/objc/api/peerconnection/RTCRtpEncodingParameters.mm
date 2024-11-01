@@ -445,7 +445,7 @@ parameters
 .
 max_bitrate_bps
 =
-absl
+std
 :
 :
 optional
@@ -471,7 +471,7 @@ parameters
 .
 min_bitrate_bps
 =
-absl
+std
 :
 :
 optional
@@ -497,7 +497,7 @@ parameters
 .
 max_framerate
 =
-absl
+std
 :
 :
 optional
@@ -523,7 +523,7 @@ parameters
 .
 num_temporal_layers
 =
-absl
+std
 :
 :
 optional
@@ -549,7 +549,7 @@ parameters
 .
 scale_resolution_down_by
 =
-absl
+std
 :
 :
 optional
@@ -575,7 +575,7 @@ parameters
 .
 ssrc
 =
-absl
+std
 :
 :
 optional

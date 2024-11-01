@@ -98,15 +98,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -184,7 +178,7 @@ int
 histogram_quantile
 int
 forget_factor
-absl
+std
 :
 :
 optional
@@ -192,7 +186,7 @@ optional
 int
 >
 start_forget_weight
-absl
+std
 :
 :
 optional
@@ -209,7 +203,7 @@ int
 relative_delay_ms
 )
 ;
-absl
+std
 :
 :
 optional
@@ -250,7 +244,7 @@ In
 Q30
 .
 const
-absl
+std
 :
 :
 optional
@@ -276,7 +270,7 @@ max_delay_in_interval_ms_
 =
 0
 ;
-absl
+std
 :
 :
 optional

@@ -2756,7 +2756,7 @@ return
 bitstream
 ;
 }
-absl
+std
 :
 :
 optional
@@ -2804,7 +2804,7 @@ payload
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -2852,13 +2852,13 @@ OBU
 fragment
 .
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional

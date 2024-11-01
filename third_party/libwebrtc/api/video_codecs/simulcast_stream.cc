@@ -98,15 +98,9 @@ h
 "
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -172,7 +166,7 @@ numberOfTemporalLayers
 n
 ;
 }
-absl
+std
 :
 :
 optional
@@ -223,7 +217,7 @@ numberOfTemporalLayers
 )
 {
 return
-absl
+std
 :
 :
 nullopt

@@ -318,7 +318,7 @@ cricket
 Codec
 >
 send_codecs
-absl
+std
 :
 :
 optional
@@ -375,7 +375,7 @@ cricket
 Codec
 >
 send_codecs
-absl
+std
 :
 :
 optional
@@ -442,7 +442,7 @@ cricket
 Codec
 >
 send_codecs
-absl
+std
 :
 :
 optional
@@ -931,7 +931,7 @@ StopAecDump
 0
 ;
 virtual
-absl
+std
 :
 :
 optional

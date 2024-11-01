@@ -7303,7 +7303,7 @@ using
 ssrc
 lookup
 .
-absl
+std
 :
 :
 optional
@@ -8585,7 +8585,7 @@ ProducePartialResultsOnNetworkThread
 (
 Timestamp
 timestamp
-absl
+std
 :
 :
 optional
@@ -14997,7 +14997,7 @@ stats
 .
 transceiver
 ;
-absl
+std
 :
 :
 optional
@@ -15009,7 +15009,7 @@ VoiceMediaInfo
 >
 voice_media_info
 ;
-absl
+std
 :
 :
 optional
@@ -15349,7 +15349,7 @@ GetAudioDeviceStats
 (
 )
 :
-absl
+std
 :
 :
 nullopt

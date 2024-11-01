@@ -3015,7 +3015,7 @@ TransportSequenceNumber
 >
 (
 )
-absl
+std
 :
 :
 nullopt
@@ -4476,7 +4476,7 @@ decltype
 (
 time_offset
 )
-absl
+std
 :
 :
 optional
@@ -7537,7 +7537,7 @@ estimated_capture_clock_offset
 =
 *
 /
-absl
+std
 :
 :
 nullopt
@@ -7886,7 +7886,7 @@ TransportSequenceNumberV2
 >
 (
 kTransportSequenceNumber
-absl
+std
 :
 :
 nullopt
@@ -7944,7 +7944,7 @@ Buffer
 uint16_t
 received_transport_sequeunce_number
 ;
-absl
+std
 :
 :
 optional
@@ -8109,7 +8109,7 @@ kTransportSequenceNumber
 12345
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -8208,7 +8208,7 @@ Buffer
 uint16_t
 received_transport_sequeunce_number
 ;
-absl
+std
 :
 :
 optional
@@ -8325,7 +8325,7 @@ kTransportSequenceNumber
 12345
 ;
 constexpr
-absl
+std
 :
 :
 optional
@@ -8408,7 +8408,7 @@ request
 uint16_t
 received_transport_sequeunce_number
 ;
-absl
+std
 :
 :
 optional

@@ -116,6 +116,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -133,17 +138,6 @@ include
 <
 atomic
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -1004,7 +998,7 @@ value
 is
 empty
 .
-absl
+std
 :
 :
 optional
@@ -1124,7 +1118,7 @@ timestamp
 is
 available
 .
-absl
+std
 :
 :
 optional
@@ -1253,7 +1247,7 @@ DTMF
 packet
 is
 received
-absl
+std
 :
 :
 nullopt
@@ -1262,7 +1256,7 @@ returned
 .
 /
 /
-absl
+std
 :
 :
 optional

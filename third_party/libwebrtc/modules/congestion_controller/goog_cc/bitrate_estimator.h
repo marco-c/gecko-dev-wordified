@@ -100,15 +100,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -267,7 +261,7 @@ in_alr
 )
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -279,7 +273,7 @@ bitrate
 )
 const
 ;
-absl
+std
 :
 :
 optional

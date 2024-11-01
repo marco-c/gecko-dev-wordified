@@ -118,15 +118,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -310,7 +304,7 @@ value
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -350,7 +344,7 @@ total_elements_
 0
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -487,7 +481,7 @@ RTC_DCHECK_NOTREACHED
 )
 ;
 return
-absl
+std
 :
 :
 nullopt

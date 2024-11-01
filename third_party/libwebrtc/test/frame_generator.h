@@ -308,7 +308,7 @@ GetResolution
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -322,7 +322,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -525,7 +525,7 @@ GetResolution
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -539,7 +539,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -710,7 +710,7 @@ GetResolution
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -724,7 +724,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -911,7 +911,7 @@ GetResolution
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -925,7 +925,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1068,7 +1068,7 @@ GetResolution
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1082,7 +1082,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt

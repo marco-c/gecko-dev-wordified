@@ -109,6 +109,11 @@ limits
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -124,17 +129,6 @@ absl
 container
 /
 inlined_vector
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -674,7 +668,7 @@ org
 )
 :
 Since
-absl
+std
 :
 :
 optional
@@ -751,7 +745,7 @@ ScalingSettings
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1818,7 +1812,7 @@ the
 /
 frame_size_pixels
 .
-absl
+std
 :
 :
 optional
@@ -1980,7 +1974,7 @@ slice
 tile
 QP
 .
-absl
+std
 :
 :
 optional
@@ -2030,7 +2024,7 @@ static
 screenshare
 content
 .
-absl
+std
 :
 :
 optional
@@ -2352,7 +2346,7 @@ dependencies
 are
 unknown
 .
-absl
+std
 :
 :
 optional
@@ -2443,7 +2437,7 @@ not
 yet
 received
 .
-absl
+std
 :
 :
 optional
@@ -2556,7 +2550,7 @@ of
 encoder
 threads
 .
-absl
+std
 :
 :
 optional

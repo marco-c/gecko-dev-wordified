@@ -477,7 +477,7 @@ received_seq_out_of_order_
 ;
 received_seq_out_of_order_
 =
-absl
+std
 :
 :
 nullopt
@@ -1912,7 +1912,7 @@ last_report_seq_max_
 received_seq_max_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1936,7 +1936,7 @@ ReceivedRtpPacket
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1960,7 +1960,7 @@ expected_packets
 )
 {
 return
-absl
+std
 :
 :
 nullopt

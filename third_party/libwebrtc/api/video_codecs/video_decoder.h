@@ -99,19 +99,13 @@ cstdint
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -283,7 +277,7 @@ Decoded
 VideoFrame
 &
 decodedImage
-absl
+std
 :
 :
 optional
@@ -291,7 +285,7 @@ optional
 int32_t
 >
 decode_time_ms
-absl
+std
 :
 :
 optional
@@ -485,7 +479,7 @@ be
 /
 ignored
 .
-absl
+std
 :
 :
 optional
@@ -500,7 +494,7 @@ const
 void
 set_buffer_pool_size
 (
-absl
+std
 :
 :
 optional
@@ -630,7 +624,7 @@ value
 }
 private
 :
-absl
+std
 :
 :
 optional
@@ -855,7 +849,7 @@ const
 }
 ;
 inline
-absl
+std
 :
 :
 optional
@@ -887,7 +881,7 @@ Settings
 :
 set_buffer_pool_size
 (
-absl
+std
 :
 :
 optional

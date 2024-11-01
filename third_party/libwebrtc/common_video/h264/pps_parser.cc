@@ -225,7 +225,7 @@ REC
 H
 .
 264
-absl
+std
 :
 :
 optional
@@ -442,7 +442,7 @@ Ok
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -574,7 +574,7 @@ Ok
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -584,7 +584,7 @@ return
 slice_header
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1041,7 +1041,7 @@ max
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1115,7 +1115,7 @@ kMaxReferenceIndex
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1211,7 +1211,7 @@ kMinPicInitQpDeltaValue
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1297,7 +1297,7 @@ Ok
 )
 {
 return
-absl
+std
 :
 :
 nullopt

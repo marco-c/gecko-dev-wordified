@@ -3063,7 +3063,7 @@ return
 SEND_PACKET
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3076,7 +3076,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-absl
+std
 :
 :
 optional

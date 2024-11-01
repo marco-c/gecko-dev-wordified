@@ -699,7 +699,7 @@ any
 packets
 yet
 .
-absl
+std
 :
 :
 optional
@@ -1517,7 +1517,7 @@ IncomingRtcpPacket
 rtcp_packet
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1553,7 +1553,7 @@ RTT
 return
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1645,7 +1645,7 @@ clockrate_hz
 =
 0
 ;
-absl
+std
 :
 :
 optional

@@ -982,7 +982,7 @@ ParseBitstream
 kH264BitstreamChunk
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1097,7 +1097,7 @@ ParseBitstream
 kH264BitstreamNextImageSliceChunkCabac
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1145,7 +1145,7 @@ ParseBitstream
 kH264BitstreamWeightedPred
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1186,7 +1186,7 @@ ReportsLastSliceQpForWeightedPredSlicesL0Active
 H264BitstreamParser
 h264_parser
 ;
-absl
+std
 :
 :
 optional
@@ -1336,7 +1336,7 @@ ReportsLastSliceQpForWeightedPredSlicesL1Active
 H264BitstreamParser
 h264_parser
 ;
-absl
+std
 :
 :
 optional

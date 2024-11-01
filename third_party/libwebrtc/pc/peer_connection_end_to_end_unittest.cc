@@ -107,6 +107,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -132,17 +137,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -2173,7 +2167,7 @@ webrtc
 SdpAudioFormat
 &
 format
-absl
+std
 :
 :
 optional
@@ -2237,7 +2231,7 @@ AudioEncoderL16
 Config
 ;
 static
-absl
+std
 :
 :
 optional
@@ -2327,7 +2321,7 @@ format
 else
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2479,7 +2473,7 @@ Config
 config
 int
 payload_type
-absl
+std
 :
 :
 optional
@@ -2491,7 +2485,7 @@ AudioCodecPairId
 >
 codec_pair_id
 =
-absl
+std
 :
 :
 nullopt
@@ -2529,7 +2523,7 @@ AudioDecoderL16
 Config
 ;
 static
-absl
+std
 :
 :
 optional
@@ -2619,7 +2613,7 @@ format
 else
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -2743,7 +2737,7 @@ const
 Config
 &
 config
-absl
+std
 :
 :
 optional
@@ -2755,7 +2749,7 @@ AudioCodecPairId
 >
 codec_pair_id
 =
-absl
+std
 :
 :
 nullopt
@@ -2962,7 +2956,7 @@ GetSupportedEncoders
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3203,7 +3197,7 @@ webrtc
 SdpAudioFormat
 &
 format
-absl
+std
 :
 :
 optional

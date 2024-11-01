@@ -103,15 +103,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -733,7 +727,7 @@ int64_t
 time_sent_in_us
 int64_t
 capture_time_us
-absl
+std
 :
 :
 optional
@@ -811,7 +805,7 @@ new
 measurement
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -846,7 +840,7 @@ estimator
 .
 int64_t
 capture_time_us
-absl
+std
 :
 :
 optional
@@ -1011,7 +1005,7 @@ CpuOveruseMetricsObserver
 const
 metrics_observer_
 ;
-absl
+std
 :
 :
 optional

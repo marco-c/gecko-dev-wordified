@@ -183,7 +183,7 @@ rey
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -251,7 +251,7 @@ pcmu
 8000
 0
 )
-absl
+std
 :
 :
 nullopt
@@ -274,7 +274,7 @@ pcmu
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -297,7 +297,7 @@ pcmu
 8000
 2
 )
-absl
+std
 :
 :
 nullopt
@@ -320,7 +320,7 @@ pcmu
 8000
 3
 )
-absl
+std
 :
 :
 nullopt
@@ -343,7 +343,7 @@ pcmu
 16000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -411,7 +411,7 @@ pcma
 8000
 0
 )
-absl
+std
 :
 :
 nullopt
@@ -434,7 +434,7 @@ pcma
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -457,7 +457,7 @@ pcma
 8000
 2
 )
-absl
+std
 :
 :
 nullopt
@@ -480,7 +480,7 @@ pcma
 8000
 3
 )
-absl
+std
 :
 :
 nullopt
@@ -503,7 +503,7 @@ pcma
 16000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -568,7 +568,7 @@ ilbc
 8000
 0
 )
-absl
+std
 :
 :
 nullopt
@@ -594,7 +594,7 @@ ilbc
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -619,7 +619,7 @@ ilbc
 8000
 2
 )
-absl
+std
 :
 :
 nullopt
@@ -642,7 +642,7 @@ ilbc
 16000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -748,7 +748,7 @@ l16
 clockrate
 0
 )
-absl
+std
 :
 :
 nullopt
@@ -779,7 +779,7 @@ l16
 clockrate
 channels
 )
-absl
+std
 :
 :
 nullopt
@@ -902,7 +902,7 @@ kMaxNumberOfChannels
 +
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -970,7 +970,7 @@ g722
 8000
 0
 )
-absl
+std
 :
 :
 nullopt
@@ -993,7 +993,7 @@ g722
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -1016,7 +1016,7 @@ g722
 8000
 2
 )
-absl
+std
 :
 :
 nullopt
@@ -1039,7 +1039,7 @@ g722
 8000
 3
 )
-absl
+std
 :
 :
 nullopt
@@ -1062,7 +1062,7 @@ g722
 16000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -1085,7 +1085,7 @@ g722
 32000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -1132,7 +1132,7 @@ g722
 8000
 1
 )
-absl
+std
 :
 :
 nullopt
@@ -1356,7 +1356,7 @@ move
 params
 )
 )
-absl
+std
 :
 :
 nullopt

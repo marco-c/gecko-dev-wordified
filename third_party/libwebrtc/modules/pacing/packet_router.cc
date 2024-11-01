@@ -119,6 +119,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -129,17 +134,6 @@ absl
 functional
 /
 any_invocable
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -355,7 +349,7 @@ SSRC
 ;
 if
 (
-absl
+std
 :
 :
 optional
@@ -382,7 +376,7 @@ rtx_ssrc
 }
 if
 (
-absl
+std
 :
 :
 optional
@@ -805,7 +799,7 @@ SSRC
 ;
 if
 (
-absl
+std
 :
 :
 optional
@@ -831,7 +825,7 @@ rtx_ssrc
 }
 if
 (
-absl
+std
 :
 :
 optional
@@ -1910,7 +1904,7 @@ sequence_numbers
 ;
 }
 }
-absl
+std
 :
 :
 optional
@@ -2007,7 +2001,7 @@ RtxSsrc
 ;
 }
 return
-absl
+std
 :
 :
 nullopt

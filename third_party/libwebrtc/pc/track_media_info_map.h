@@ -108,6 +108,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -115,17 +120,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -304,7 +298,7 @@ destroyed
 void
 Initialize
 (
-absl
+std
 :
 :
 optional
@@ -315,7 +309,7 @@ cricket
 VoiceMediaInfo
 >
 voice_media_info
-absl
+std
 :
 :
 optional
@@ -357,7 +351,7 @@ rtp_receivers
 )
 ;
 const
-absl
+std
 :
 :
 optional
@@ -383,7 +377,7 @@ voice_media_info_
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -595,7 +589,7 @@ track
 loopback
 )
 .
-absl
+std
 :
 :
 optional
@@ -618,7 +612,7 @@ is_initialized_
 =
 false
 ;
-absl
+std
 :
 :
 optional
@@ -630,7 +624,7 @@ VoiceMediaInfo
 >
 voice_media_info_
 ;
-absl
+std
 :
 :
 optional

@@ -98,6 +98,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -118,17 +123,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -731,7 +725,7 @@ deadbeef
 )
 :
 Use
-absl
+std
 :
 :
 optional
@@ -783,7 +777,7 @@ value
 in
 milliseconds
 .
-absl
+std
 :
 :
 optional
@@ -813,7 +807,7 @@ is
 strongly
 connected
 .
-absl
+std
 :
 :
 optional
@@ -876,7 +870,7 @@ rate
 once
 stablized
 .
-absl
+std
 :
 :
 optional
@@ -1026,7 +1020,7 @@ connection
 on
 it
 .
-absl
+std
 :
 :
 optional
@@ -1076,7 +1070,7 @@ become
 receiving
 soon
 .
-absl
+std
 :
 :
 optional
@@ -1175,7 +1169,7 @@ h
 if
 set
 .
-absl
+std
 :
 :
 optional
@@ -1241,7 +1235,7 @@ h
 if
 set
 .
-absl
+std
 :
 :
 optional
@@ -1326,7 +1320,7 @@ the
 min
 interval
 .
-absl
+std
 :
 :
 optional
@@ -1388,7 +1382,7 @@ a
 candidate
 pair
 .
-absl
+std
 :
 :
 optional
@@ -1449,7 +1443,7 @@ a
 candidate
 pair
 .
-absl
+std
 :
 :
 optional
@@ -1510,7 +1504,7 @@ a
 candidate
 pair
 .
-absl
+std
 :
 :
 optional
@@ -1542,7 +1536,7 @@ NAT
 bindings
 open
 .
-absl
+std
 :
 :
 optional
@@ -1551,7 +1545,7 @@ int
 >
 stun_keepalive_interval
 ;
-absl
+std
 :
 :
 optional
@@ -1632,7 +1626,7 @@ represented
 by
 /
 /
-absl
+std
 :
 :
 optional
@@ -2176,7 +2170,7 @@ an
 empty
 /
 /
-absl
+std
 :
 :
 optional
@@ -2186,7 +2180,7 @@ is
 none
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -2239,7 +2233,7 @@ pair
 or
 an
 empty
-absl
+std
 :
 :
 optional
@@ -2251,7 +2245,7 @@ is
 none
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -2267,7 +2261,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -2285,7 +2279,7 @@ GetDictionaryWriter
 )
 {
 return
-absl
+std
 :
 :
 nullopt

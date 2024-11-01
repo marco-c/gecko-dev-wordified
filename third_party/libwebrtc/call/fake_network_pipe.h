@@ -219,7 +219,7 @@ int64_t
 send_time
 int64_t
 arrival_time
-absl
+std
 :
 :
 optional
@@ -231,7 +231,7 @@ bool
 is_rtcp
 MediaType
 media_type
-absl
+std
 :
 :
 optional
@@ -445,7 +445,7 @@ return
 media_type_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -480,7 +480,7 @@ value
 nullptr
 ;
 }
-absl
+std
 :
 :
 optional
@@ -570,7 +570,7 @@ number
 for
 RTP
 .
-absl
+std
 :
 :
 optional
@@ -633,7 +633,7 @@ pipe
 MediaType
 media_type_
 ;
-absl
+std
 :
 :
 optional
@@ -642,7 +642,7 @@ int64_t
 >
 packet_time_us_
 ;
-absl
+std
 :
 :
 optional
@@ -1053,7 +1053,7 @@ Process
 )
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1224,7 +1224,7 @@ rtc
 :
 CopyOnWriteBuffer
 packet
-absl
+std
 :
 :
 optional
@@ -1236,7 +1236,7 @@ bool
 is_rtcp
 MediaType
 media_type
-absl
+std
 :
 :
 optional
@@ -1283,7 +1283,7 @@ rtc
 :
 CopyOnWriteBuffer
 packet
-absl
+std
 :
 :
 optional

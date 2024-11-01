@@ -229,7 +229,7 @@ Enabled
 ;
 #
 endif
-absl
+std
 :
 :
 optional
@@ -266,7 +266,7 @@ high
 low
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -298,7 +298,7 @@ high
 high
 ;
 return
-absl
+std
 :
 :
 optional
@@ -382,7 +382,7 @@ Disabled
 #
 endif
 }
-absl
+std
 :
 :
 optional
@@ -569,7 +569,7 @@ provided
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -579,7 +579,7 @@ return
 s
 ;
 }
-absl
+std
 :
 :
 optional
@@ -617,7 +617,7 @@ if
 settings
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -721,7 +721,7 @@ kMaxGenericQp
 default
 :
 return
-absl
+std
 :
 :
 nullopt

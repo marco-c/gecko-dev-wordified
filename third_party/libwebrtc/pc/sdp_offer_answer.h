@@ -120,6 +120,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -132,17 +137,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -790,7 +784,7 @@ content_name
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1069,7 +1063,7 @@ MediaStreamInterface
 local_stream
 )
 ;
-absl
+std
 :
 :
 optional
@@ -1142,7 +1136,7 @@ InternalDataChannelInit
 :
 fallback_ssl_role
 .
-absl
+std
 :
 :
 optional
@@ -3766,7 +3760,7 @@ RtpTransceiverDirection
 audio_direction
 RtpTransceiverDirection
 video_direction
-absl
+std
 :
 :
 optional
@@ -3775,7 +3769,7 @@ size_t
 >
 *
 audio_index
-absl
+std
 :
 :
 optional
@@ -3784,7 +3778,7 @@ size_t
 >
 *
 video_index
-absl
+std
 :
 :
 optional
@@ -4408,7 +4402,7 @@ description
 is
 applied
 .
-absl
+std
 :
 :
 optional
@@ -5071,7 +5065,7 @@ the
 SSL
 role
 .
-absl
+std
 :
 :
 optional

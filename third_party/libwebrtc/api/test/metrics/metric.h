@@ -99,6 +99,11 @@ map
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -106,17 +111,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -380,7 +374,7 @@ wiki
 Sample_mean_and_covariance
 )
 .
-absl
+std
 :
 :
 optional
@@ -421,7 +415,7 @@ a
 single
 value
 .
-absl
+std
 :
 :
 optional
@@ -430,7 +424,7 @@ double
 >
 stddev
 ;
-absl
+std
 :
 :
 optional
@@ -439,7 +433,7 @@ double
 >
 min
 ;
-absl
+std
 :
 :
 optional

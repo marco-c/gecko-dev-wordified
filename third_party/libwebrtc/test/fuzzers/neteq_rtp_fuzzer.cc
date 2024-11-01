@@ -523,7 +523,7 @@ MaybeFuzzPayload
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -543,7 +543,7 @@ packet_
 time_ms
 ;
 }
-absl
+std
 :
 :
 optional
@@ -565,7 +565,7 @@ NextOutputEventTime
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -683,7 +683,7 @@ return
 ended_
 ;
 }
-absl
+std
 :
 :
 optional

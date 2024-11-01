@@ -99,6 +99,11 @@ cstddef
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -106,17 +111,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -506,7 +500,7 @@ if
 not
 set
 .
-absl
+std
 :
 :
 optional
@@ -515,7 +509,7 @@ int
 >
 clip_width
 ;
-absl
+std
 :
 :
 optional
@@ -538,7 +532,7 @@ if
 not
 set
 .
-absl
+std
 :
 :
 optional
@@ -573,7 +567,7 @@ size
 if
 different
 .
-absl
+std
 :
 :
 optional
@@ -582,7 +576,7 @@ int
 >
 reference_width
 ;
-absl
+std
 :
 :
 optional
@@ -803,7 +797,7 @@ as
 /
 codec_name
 .
-absl
+std
 :
 :
 optional
@@ -812,7 +806,7 @@ SdpVideoFormat
 >
 encoder_format
 ;
-absl
+std
 :
 :
 optional

@@ -245,7 +245,7 @@ addr
 Buffer
 buf
 ;
-absl
+std
 :
 :
 optional
@@ -746,7 +746,7 @@ socket
 bool
 CheckTimestamp
 (
-absl
+std
 :
 :
 optional
@@ -807,7 +807,7 @@ ready_to_send_count_
 =
 0
 ;
-absl
+std
 :
 :
 optional

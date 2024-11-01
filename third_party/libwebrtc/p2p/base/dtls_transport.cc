@@ -1569,7 +1569,7 @@ uint8_t
 digest
 size_t
 digest_len
-absl
+std
 :
 :
 optional
@@ -3380,7 +3380,7 @@ GetError
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -5298,7 +5298,7 @@ DtlsTransport
 :
 OnNetworkRouteChanged
 (
-absl
+std
 :
 :
 optional
@@ -6093,7 +6093,7 @@ RTC_DCHECK
 dtls_
 )
 ;
-absl
+std
 :
 :
 optional

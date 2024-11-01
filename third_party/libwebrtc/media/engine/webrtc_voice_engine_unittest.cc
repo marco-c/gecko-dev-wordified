@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -125,17 +130,6 @@ absl
 strings
 /
 match
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -3562,7 +3556,7 @@ target_bitrate_bps
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -3604,7 +3598,7 @@ max_bitrate_bps
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -9356,7 +9350,7 @@ encodings
 .
 max_bitrate_bps
 =
-absl
+std
 :
 :
 optional
@@ -10671,7 +10665,7 @@ encodings
 ]
 .
 codec
-absl
+std
 :
 :
 nullopt
@@ -12082,7 +12076,7 @@ clockrate_hz
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -12348,7 +12342,7 @@ c_str
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -12472,7 +12466,7 @@ c_str
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -12596,7 +12590,7 @@ c_str
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -12720,7 +12714,7 @@ c_str
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -12878,7 +12872,7 @@ c_str
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -13156,7 +13150,7 @@ send_channel_
 GetSendCodec
 (
 )
-absl
+std
 :
 :
 nullopt
@@ -13250,7 +13244,7 @@ send_channel_
 GetSendCodec
 (
 )
-absl
+std
 :
 :
 nullopt
@@ -13362,7 +13356,7 @@ send_channel_
 GetSendCodec
 (
 )
-absl
+std
 :
 :
 nullopt
@@ -13464,7 +13458,7 @@ send_channel_
 GetSendCodec
 (
 )
-absl
+std
 :
 :
 nullopt
@@ -13580,7 +13574,7 @@ send_channel_
 GetSendCodec
 (
 )
-absl
+std
 :
 :
 nullopt
@@ -13696,7 +13690,7 @@ send_channel_
 GetSendCodec
 (
 )
-absl
+std
 :
 :
 nullopt
@@ -15773,7 +15767,7 @@ send_channel_
 GetSendCodec
 (
 )
-absl
+std
 :
 :
 nullopt
@@ -16893,7 +16887,7 @@ c_str
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -17049,7 +17043,7 @@ c_str
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -18292,7 +18286,7 @@ c_str
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -19510,7 +19504,7 @@ options
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 nullopt
@@ -19592,7 +19586,7 @@ options
 .
 audio_network_adaptor
 =
-absl
+std
 :
 :
 nullopt

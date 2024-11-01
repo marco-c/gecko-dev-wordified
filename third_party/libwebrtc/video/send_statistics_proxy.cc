@@ -569,7 +569,7 @@ kNoTemporalIdx
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -596,7 +596,7 @@ empty
 )
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -641,7 +641,7 @@ min_bps
 )
 {
 return
-absl
+std
 :
 :
 optional
@@ -671,7 +671,7 @@ max_pixels
 min_pixels
 )
 return
-absl
+std
 :
 :
 optional
@@ -682,7 +682,7 @@ int
 )
 ;
 return
-absl
+std
 :
 :
 optional
@@ -694,7 +694,7 @@ max_pixels
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -749,7 +749,7 @@ substr
 )
 )
 :
-absl
+std
 :
 :
 optional
@@ -760,7 +760,7 @@ int
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -815,7 +815,7 @@ substr
 )
 )
 :
-absl
+std
 :
 :
 optional
@@ -6678,7 +6678,7 @@ codec_info
 >
 scalability_mode
 :
-absl
+std
 :
 :
 nullopt
@@ -7209,7 +7209,7 @@ AddSamples
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -7391,7 +7391,7 @@ stream_stats
 .
 scalability_mode
 =
-absl
+std
 :
 :
 nullopt
@@ -8579,7 +8579,7 @@ SendStatisticsProxy
 :
 TryUpdateInitialQualityResolutionAdaptUp
 (
-absl
+std
 :
 :
 optional
@@ -8587,7 +8587,7 @@ optional
 int
 >
 old_quality_downscales
-absl
+std
 :
 :
 optional

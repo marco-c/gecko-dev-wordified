@@ -115,15 +115,9 @@ cstdint
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -989,7 +983,7 @@ return
 bitrate_sample
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1013,7 +1007,7 @@ bitrate_estimate_kbps_
 f
 )
 return
-absl
+std
 :
 :
 nullopt
@@ -1028,7 +1022,7 @@ bitrate_estimate_kbps_
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1067,7 +1061,7 @@ current_window_ms_
 )
 ;
 return
-absl
+std
 :
 :
 nullopt

@@ -93,15 +93,9 @@ define
 COMMON_VIDEO_H265_H265_PPS_PARSER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -286,7 +280,7 @@ supplied
 buffer
 .
 static
-absl
+std
 :
 :
 optional
@@ -329,7 +323,7 @@ Deprecate
 .
 static
 inline
-absl
+std
 :
 :
 optional
@@ -461,7 +455,7 @@ been
 performed
 .
 static
-absl
+std
 :
 :
 optional

@@ -106,19 +106,13 @@ cmath
 #
 include
 <
-vector
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+vector
+>
 #
 include
 "
@@ -356,7 +350,7 @@ PlusInfinity
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -398,7 +392,7 @@ probes
 ignores
 max_total_allocated_bitrate
 .
-absl
+std
 :
 :
 optional
@@ -407,7 +401,7 @@ bool
 >
 enable_repeated_initial_probing
 ;
-absl
+std
 :
 :
 optional
@@ -427,7 +421,7 @@ Use
 BitrateAllocationLimits
 here
 .
-absl
+std
 :
 :
 optional
@@ -436,7 +430,7 @@ DataRate
 >
 min_total_allocated_bitrate
 ;
-absl
+std
 :
 :
 optional
@@ -445,7 +439,7 @@ DataRate
 >
 max_padding_rate
 ;
-absl
+std
 :
 :
 optional
@@ -486,7 +480,7 @@ PlusInfinity
 (
 )
 ;
-absl
+std
 :
 :
 optional
@@ -495,7 +489,7 @@ DataRate
 >
 min_data_rate
 ;
-absl
+std
 :
 :
 optional
@@ -532,7 +526,7 @@ and
 OnPacerConfig
 callbacks
 .
-absl
+std
 :
 :
 optional
@@ -1616,7 +1610,7 @@ has_value
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1625,7 +1619,7 @@ DataSize
 >
 congestion_window
 ;
-absl
+std
 :
 :
 optional
@@ -1643,7 +1637,7 @@ ProbeClusterConfig
 >
 probe_cluster_configs
 ;
-absl
+std
 :
 :
 optional
@@ -1672,7 +1666,7 @@ PlusInfinity
 (
 )
 ;
-absl
+std
 :
 :
 optional

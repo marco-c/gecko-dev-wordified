@@ -91,19 +91,13 @@ RTC_BASE_EXPERIMENTS_BALANCED_DEGRADATION_SETTINGS_H_
 #
 include
 <
-vector
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+vector
+>
 #
 include
 "
@@ -250,7 +244,7 @@ o
 kbps_res
 ;
 }
-absl
+std
 :
 :
 optional
@@ -262,7 +256,7 @@ GetQpLow
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -274,7 +268,7 @@ GetQpHigh
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -286,7 +280,7 @@ GetFps
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -298,7 +292,7 @@ GetKbps
 )
 const
 ;
-absl
+std
 :
 :
 optional
@@ -921,7 +915,7 @@ based
 on
 pixels
 .
-absl
+std
 :
 :
 optional
@@ -947,7 +941,7 @@ based
 on
 pixels
 .
-absl
+std
 :
 :
 optional
@@ -968,7 +962,7 @@ const
 ;
 private
 :
-absl
+std
 :
 :
 optional
@@ -982,7 +976,7 @@ pixels
 )
 const
 ;
-absl
+std
 :
 :
 optional

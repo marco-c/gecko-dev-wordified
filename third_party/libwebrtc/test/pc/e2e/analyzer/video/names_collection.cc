@@ -105,6 +105,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -115,17 +120,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -492,7 +486,7 @@ return
 out
 ;
 }
-absl
+std
 :
 :
 optional
@@ -534,7 +528,7 @@ end
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -557,7 +551,7 @@ index
 )
 {
 return
-absl
+std
 :
 :
 nullopt

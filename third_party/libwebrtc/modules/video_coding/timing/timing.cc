@@ -1913,7 +1913,7 @@ info
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1944,7 +1944,7 @@ VCMTiming
 :
 SetMaxCompositionDelayInFrames
 (
-absl
+std
 :
 :
 optional

@@ -101,6 +101,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 valarray
 >
 #
@@ -108,17 +113,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 namespace
 webrtc
 {
@@ -378,7 +372,7 @@ T
 *
 x
 .
-absl
+std
 :
 :
 optional
@@ -410,7 +404,7 @@ T
 *
 y
 .
-absl
+std
 :
 :
 optional

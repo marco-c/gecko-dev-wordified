@@ -231,7 +231,7 @@ SdpVideoFormat
 >
 &
 formats
-absl
+std
 :
 :
 optional
@@ -1162,7 +1162,7 @@ webrtc
 SdpVideoFormat
 &
 format
-absl
+std
 :
 :
 optional

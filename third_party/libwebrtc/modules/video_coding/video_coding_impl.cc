@@ -394,7 +394,7 @@ use
 .
 current_decoder_
 =
-absl
+std
 :
 :
 nullopt
@@ -574,7 +574,7 @@ current_payload_type_
 {
 current_payload_type_
 =
-absl
+std
 :
 :
 nullopt
@@ -634,7 +634,7 @@ use
 .
 current_payload_type_
 =
-absl
+std
 :
 :
 nullopt
@@ -732,14 +732,14 @@ has_value
 {
 current_decoder_
 =
-absl
+std
 :
 :
 nullopt
 ;
 current_payload_type_
 =
-absl
+std
 :
 :
 nullopt
@@ -755,7 +755,7 @@ if
 current_decoder_
 =
 =
-absl
+std
 :
 :
 nullopt
@@ -799,7 +799,7 @@ decoded_frame_callback
 {
 current_decoder_
 =
-absl
+std
 :
 :
 nullopt
@@ -1080,7 +1080,7 @@ second
 {
 current_decoder_
 =
-absl
+std
 :
 :
 nullopt

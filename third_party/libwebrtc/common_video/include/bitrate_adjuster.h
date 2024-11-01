@@ -104,15 +104,9 @@ h
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -328,7 +322,7 @@ current
 bitrate
 is
 .
-absl
+std
 :
 :
 optional

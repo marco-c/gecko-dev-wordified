@@ -249,7 +249,7 @@ CookieReceivedWhileShuttingDownCause
 {
 }
 static
-absl
+std
 :
 :
 optional

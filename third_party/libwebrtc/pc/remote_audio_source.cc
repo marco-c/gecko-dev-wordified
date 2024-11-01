@@ -464,7 +464,7 @@ cricket
 VoiceMediaReceiveChannelInterface
 *
 media_channel
-absl
+std
 :
 :
 optional
@@ -570,7 +570,7 @@ cricket
 VoiceMediaReceiveChannelInterface
 *
 media_channel
-absl
+std
 :
 :
 optional
@@ -1010,7 +1010,7 @@ absolute_capture_timestamp_ms
 =
 *
 /
-absl
+std
 :
 :
 nullopt

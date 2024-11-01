@@ -93,15 +93,9 @@ define
 MODULES_AUDIO_DEVICE_MOCK_AUDIO_DEVICE_BUFFER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -184,7 +178,7 @@ void
 audioBuffer
 size_t
 nSamples
-absl
+std
 :
 :
 optional

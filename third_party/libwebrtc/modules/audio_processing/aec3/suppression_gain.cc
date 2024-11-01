@@ -914,7 +914,7 @@ kFftLengthBy2Plus1
 >
 comfort_noise_spectrum
 const
-absl
+std
 :
 :
 optional
@@ -3178,7 +3178,7 @@ upper
 bands
 .
 const
-absl
+std
 :
 :
 optional

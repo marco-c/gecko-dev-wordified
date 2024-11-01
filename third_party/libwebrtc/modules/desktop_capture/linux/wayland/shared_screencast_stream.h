@@ -95,15 +95,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -611,7 +605,7 @@ from
 PipeWire
 buffer
 .
-absl
+std
 :
 :
 optional

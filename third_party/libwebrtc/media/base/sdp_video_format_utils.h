@@ -93,15 +93,9 @@ define
 MEDIA_BASE_SDP_VIDEO_FORMAT_UTILS_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -440,7 +434,7 @@ SDP
 FMTP
 line
 .
-absl
+std
 :
 :
 nullopt
@@ -458,7 +452,7 @@ not
 a
 number
 .
-absl
+std
 :
 :
 optional
@@ -484,7 +478,7 @@ SDP
 FMTP
 line
 .
-absl
+std
 :
 :
 nullopt
@@ -525,7 +519,7 @@ number
 of
 pixels
 .
-absl
+std
 :
 :
 optional

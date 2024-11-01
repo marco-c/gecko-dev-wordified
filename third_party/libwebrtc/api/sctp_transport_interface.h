@@ -90,15 +90,9 @@ define
 API_SCTP_TRANSPORT_INTERFACE_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -316,7 +310,7 @@ scoped_refptr
 DtlsTransportInterface
 >
 dtls_transport
-absl
+std
 :
 :
 optional
@@ -324,7 +318,7 @@ optional
 double
 >
 max_message_size
-absl
+std
 :
 :
 optional
@@ -376,7 +370,7 @@ return
 state_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -392,7 +386,7 @@ return
 max_message_size_
 ;
 }
-absl
+std
 :
 :
 optional
@@ -427,7 +421,7 @@ DtlsTransportInterface
 >
 dtls_transport_
 ;
-absl
+std
 :
 :
 optional
@@ -436,7 +430,7 @@ double
 >
 max_message_size_
 ;
-absl
+std
 :
 :
 optional

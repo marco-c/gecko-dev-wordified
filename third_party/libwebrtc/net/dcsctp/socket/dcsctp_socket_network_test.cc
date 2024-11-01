@@ -103,6 +103,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -134,17 +139,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -1780,7 +1774,7 @@ send_options
 .
 max_retransmissions
 =
-absl
+std
 :
 :
 nullopt
@@ -1810,7 +1804,7 @@ send_options
 }
 }
 }
-absl
+std
 :
 :
 optional
@@ -1832,7 +1826,7 @@ has_value
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1852,7 +1846,7 @@ last_received_message_
 ;
 last_received_message_
 =
-absl
+std
 :
 :
 nullopt
@@ -2212,7 +2206,7 @@ received_bytes_
 =
 0
 ;
-absl
+std
 :
 :
 optional

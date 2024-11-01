@@ -124,17 +124,6 @@ vector
 #
 include
 "
-absl
-/
-types
-/
-optional
-.
-h
-"
-#
-include
-"
 api
 /
 audio
@@ -761,7 +750,7 @@ int
 current_sample_rate_hz
 =
 nullptr
-absl
+std
 :
 :
 optional
@@ -770,7 +759,7 @@ Operation
 >
 action_override
 =
-absl
+std
 :
 :
 nullopt
@@ -935,7 +924,7 @@ GetOperationsAndState
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -955,7 +944,7 @@ last_output_sample_rate_hz
 const
 override
 ;
-absl
+std
 :
 :
 optional
@@ -1270,7 +1259,7 @@ GetAudioInternal
 AudioFrame
 *
 audio_frame
-absl
+std
 :
 :
 optional
@@ -1368,7 +1357,7 @@ dtmf_event
 bool
 *
 play_dtmf
-absl
+std
 :
 :
 optional
@@ -2437,7 +2426,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2503,7 +2492,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-absl
+std
 :
 :
 optional
@@ -2516,7 +2505,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-absl
+std
 :
 :
 optional

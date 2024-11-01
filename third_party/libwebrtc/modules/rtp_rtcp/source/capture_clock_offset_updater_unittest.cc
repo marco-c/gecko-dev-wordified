@@ -138,7 +138,7 @@ SkipEstimatedCaptureClockOffsetIfRemoteToLocalClockOffsetIsUnknown
 {
 static
 const
-absl
+std
 :
 :
 optional
@@ -160,7 +160,7 @@ updater
 .
 SetRemoteToLocalClockOffset
 (
-absl
+std
 :
 :
 nullopt
@@ -174,7 +174,7 @@ AdjustEstimatedCaptureClockOffset
 (
 kRemoteCaptureClockOffset
 )
-absl
+std
 :
 :
 nullopt
@@ -189,7 +189,7 @@ SkipEstimatedCaptureClockOffsetIfRemoteCaptureClockOffsetIsUnknown
 {
 static
 const
-absl
+std
 :
 :
 optional
@@ -198,7 +198,7 @@ int64_t
 >
 kCaptureClockOffsetNull
 =
-absl
+std
 :
 :
 nullopt
@@ -226,7 +226,7 @@ kCaptureClockOffsetNull
 ;
 static
 const
-absl
+std
 :
 :
 optional
@@ -261,7 +261,7 @@ EstimatedCaptureClockOffsetArithmetic
 {
 static
 const
-absl
+std
 :
 :
 optional
@@ -278,7 +278,7 @@ Int64MsToQ32x32
 ;
 static
 const
-absl
+std
 :
 :
 optional
@@ -416,7 +416,7 @@ Millis
 1
 )
 ;
-absl
+std
 :
 :
 optional
@@ -482,7 +482,7 @@ CaptureClockOffsetUpdater
 :
 ConvertsToTimeDela
 (
-absl
+std
 :
 :
 nullopt

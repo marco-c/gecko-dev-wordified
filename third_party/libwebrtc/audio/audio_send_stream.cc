@@ -444,7 +444,7 @@ payload_types_equal
 ]
 (
 const
-absl
+std
 :
 :
 optional
@@ -454,7 +454,7 @@ SendCodecSpec
 &
 a
 const
-absl
+std
 :
 :
 optional
@@ -854,7 +854,7 @@ RtcpRttStats
 *
 rtcp_rtt_stats
 const
-absl
+std
 :
 :
 optional
@@ -953,7 +953,7 @@ BitrateAllocatorInterface
 *
 bitrate_allocator
 const
-absl
+std
 :
 :
 optional
@@ -3408,7 +3408,7 @@ g
 extra
 FEC
 .
-absl
+std
 :
 :
 optional
@@ -3491,7 +3491,7 @@ return
 0
 ;
 }
-absl
+std
 :
 :
 optional
@@ -4530,7 +4530,7 @@ new_config
 ;
 }
 const
-absl
+std
 :
 :
 optional
@@ -5716,7 +5716,7 @@ this
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -5795,7 +5795,7 @@ to
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -5964,7 +5964,7 @@ min
 "
 ;
 return
-absl
+std
 :
 :
 nullopt
@@ -6083,7 +6083,7 @@ set
 "
 ;
 return
-absl
+std
 :
 :
 nullopt

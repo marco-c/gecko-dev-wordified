@@ -101,6 +101,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -113,17 +118,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -1178,7 +1172,7 @@ IceGatheringState
 kIceGatheringNew
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1190,7 +1184,7 @@ can_trickle_ice_candidates
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1365,7 +1359,7 @@ return
 }
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1382,13 +1376,13 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1405,7 +1399,7 @@ const
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1466,7 +1460,7 @@ Stats
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1482,7 +1476,7 @@ GetAudioDeviceStats
 override
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1773,7 +1767,7 @@ return
 nullptr
 ;
 }
-absl
+std
 :
 :
 optional
@@ -1789,7 +1783,7 @@ GetSctpSslRole_n
 override
 {
 return
-absl
+std
 :
 :
 nullopt

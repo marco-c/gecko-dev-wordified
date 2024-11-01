@@ -93,15 +93,9 @@ define
 MODULES_AUDIO_PROCESSING_AEC3_RENDER_DELAY_CONTROLLER_H_
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -296,7 +290,7 @@ capture
 signal
 .
 virtual
-absl
+std
 :
 :
 optional

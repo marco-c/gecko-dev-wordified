@@ -101,19 +101,13 @@ memory
 #
 include
 <
-string
+optional
 >
 #
 include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
+<
+string
+>
 #
 include
 "
@@ -420,7 +414,7 @@ implemented
 everywhere
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -433,7 +427,7 @@ GetCaptureTimeIdentifier
 const
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -636,7 +630,7 @@ const
 ;
 virtual
 const
-absl
+std
 :
 :
 optional
@@ -651,7 +645,7 @@ const
 0
 ;
 virtual
-absl
+std
 :
 :
 optional
@@ -757,7 +751,7 @@ was
 included
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -797,7 +791,7 @@ audio
 packet
 .
 virtual
-absl
+std
 :
 :
 optional

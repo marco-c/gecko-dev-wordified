@@ -104,6 +104,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -111,17 +116,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -542,7 +536,7 @@ decoder_sequence_checker_
 SequenceChecker
 decoder_sequence_checker_
 ;
-absl
+std
 :
 :
 optional
@@ -551,7 +545,7 @@ uint8_t
 >
 current_payload_type_
 ;
-absl
+std
 :
 :
 optional

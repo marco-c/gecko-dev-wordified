@@ -89,15 +89,9 @@ memory
 >
 #
 include
-"
-absl
-/
-types
-/
+<
 optional
-.
-h
-"
+>
 #
 include
 "
@@ -390,7 +384,7 @@ int
 no_frames_to_wait_for
 VideoRotation
 rotation_to_test
-absl
+std
 :
 :
 optional
@@ -726,7 +720,7 @@ color_space
 (
 )
 ?
-absl
+std
 :
 :
 make_optional
@@ -739,7 +733,7 @@ color_space
 )
 )
 :
-absl
+std
 :
 :
 nullopt
@@ -799,7 +793,7 @@ no_frames_to_wait_for_
 VideoRotation
 expected_rotation_
 ;
-absl
+std
 :
 :
 optional
@@ -894,7 +888,7 @@ test
 (
 5
 kVideoRotation_0
-absl
+std
 :
 :
 nullopt
@@ -981,7 +975,7 @@ test
 (
 5
 kVideoRotation_90
-absl
+std
 :
 :
 nullopt
@@ -1068,7 +1062,7 @@ test
 (
 500
 kVideoRotation_0
-absl
+std
 :
 :
 nullopt
@@ -1149,7 +1143,7 @@ test
 (
 5
 kVideoRotation_90
-absl
+std
 :
 :
 nullopt
@@ -1506,7 +1500,7 @@ test
 (
 500
 kVideoRotation_0
-absl
+std
 :
 :
 nullopt
@@ -1587,7 +1581,7 @@ test
 (
 5
 kVideoRotation_90
-absl
+std
 :
 :
 nullopt
@@ -1699,7 +1693,7 @@ test
 (
 500
 kVideoRotation_0
-absl
+std
 :
 :
 nullopt
@@ -1811,7 +1805,7 @@ test
 (
 500
 kVideoRotation_0
-absl
+std
 :
 :
 nullopt

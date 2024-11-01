@@ -168,6 +168,11 @@ h
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -175,17 +180,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -922,7 +916,7 @@ the
 encoder
 .
 virtual
-absl
+std
 :
 :
 optional
@@ -1566,7 +1560,7 @@ size_t
 number_of_channels
 size_t
 number_of_frames
-absl
+std
 :
 :
 optional

@@ -2573,7 +2573,7 @@ scalability
 mode
 information
 .
-absl
+std
 :
 :
 optional
@@ -4352,7 +4352,7 @@ OutputType
 :
 :
 kI420
-absl
+std
 :
 :
 nullopt

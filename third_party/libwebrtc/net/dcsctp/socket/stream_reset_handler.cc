@@ -111,6 +111,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -118,17 +123,6 @@ include
 <
 vector
 >
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 #
 include
 "
@@ -800,7 +794,7 @@ return
 false
 ;
 }
-absl
+std
 :
 :
 optional
@@ -834,7 +828,7 @@ chunk
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -931,7 +925,7 @@ ReConfigChunk
 chunk
 )
 {
-absl
+std
 :
 :
 optional
@@ -1384,7 +1378,7 @@ ReconfigurationResponseParameter
 responses
 )
 {
-absl
+std
 :
 :
 optional
@@ -1875,7 +1869,7 @@ ReconfigurationResponseParameter
 responses
 )
 {
-absl
+std
 :
 :
 optional
@@ -1991,7 +1985,7 @@ ParameterDescriptor
 descriptor
 )
 {
-absl
+std
 :
 :
 optional
@@ -2192,7 +2186,7 @@ streams
 ;
 current_request_
 =
-absl
+std
 :
 :
 nullopt
@@ -2454,7 +2448,7 @@ result
 ;
 current_request_
 =
-absl
+std
 :
 :
 nullopt
@@ -2471,7 +2465,7 @@ break
 }
 }
 }
-absl
+std
 :
 :
 optional
@@ -2543,7 +2537,7 @@ HasStreamsReadyToBeReset
 )
 {
 return
-absl
+std
 :
 :
 nullopt

@@ -116,6 +116,11 @@ cstdint
 #
 include
 <
+optional
+>
+#
+include
+<
 tuple
 >
 #
@@ -126,17 +131,6 @@ absl
 strings
 /
 string_view
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -234,7 +228,7 @@ h
 "
 namespace
 {
-absl
+std
 :
 :
 optional
@@ -378,7 +372,7 @@ kString
 default
 :
 return
-absl
+std
 :
 :
 nullopt
@@ -1345,7 +1339,7 @@ are
 looking
 for
 .
-absl
+std
 :
 :
 optional
@@ -2099,7 +2093,7 @@ field_tag
 >
 3
 ;
-absl
+std
 :
 :
 optional

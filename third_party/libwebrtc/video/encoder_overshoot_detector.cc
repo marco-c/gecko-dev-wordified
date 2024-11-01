@@ -839,7 +839,7 @@ return
 utilization_factor
 ;
 }
-absl
+std
 :
 :
 optional
@@ -879,7 +879,7 @@ empty
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -918,7 +918,7 @@ size
 )
 ;
 }
-absl
+std
 :
 :
 optional
@@ -958,7 +958,7 @@ empty
 )
 {
 return
-absl
+std
 :
 :
 nullopt
