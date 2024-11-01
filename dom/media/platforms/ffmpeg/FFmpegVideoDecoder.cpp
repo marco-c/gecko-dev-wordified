@@ -284,12 +284,6 @@ MOZ_AV1
 )
 &
 &
-defined
-(
-MOZ_WIDGET_GTK
-)
-&
-&
 \
 (
 defined
