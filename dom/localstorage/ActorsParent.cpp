@@ -38778,6 +38778,12 @@ LS
 }
 /
 *
+aInitializeOrigin
+*
+/
+true
+/
+*
 aCreateIfNonExistent
 *
 /
