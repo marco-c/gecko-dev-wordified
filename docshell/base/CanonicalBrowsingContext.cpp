@@ -16697,6 +16697,16 @@ ClearRestoreState
 {
 if
 (
+IsDiscarded
+(
+)
+)
+{
+return
+;
+}
+if
+(
 !
 mRestoreState
 )
