@@ -247,6 +247,10 @@ u32
 =
 60000
 ;
+pub
+(
+crate
+)
 const
 ENTRYPOINT_FAILURE_ERROR
 :

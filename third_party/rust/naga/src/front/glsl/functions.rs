@@ -3814,7 +3814,7 @@ overload
 internal
 &
 &
-ScalarKind
+Scalar
 :
 :
 from
@@ -3823,7 +3823,7 @@ overload_format
 )
 =
 =
-ScalarKind
+Scalar
 :
 :
 from

@@ -76,15 +76,6 @@ arrayvec
 :
 ArrayVec
 ;
-use
-once_cell
-:
-:
-sync
-:
-:
-OnceCell
-;
 #
 [
 cfg
@@ -141,6 +132,7 @@ sync
 :
 {
 Arc
+OnceLock
 Weak
 }
 }
@@ -3479,7 +3471,7 @@ crate
 )
 exclusive_pipeline
 :
-OnceCell
+OnceLock
 <
 ExclusivePipeline
 >

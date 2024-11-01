@@ -3419,14 +3419,6 @@ SameSourceDestinationBuffer
 TransferError
 :
 :
-MissingRenderAttachmentUsageFlag
-(
-_
-)
-|
-TransferError
-:
-:
 BufferOverrun
 {
 .
@@ -3464,9 +3456,6 @@ TransferError
 :
 :
 InvalidDimensionExternal
-(
-_
-)
 |
 TransferError
 :

@@ -4456,18 +4456,8 @@ Type
 >
 )
 {
-match
-self
-.
-module
-.
-types
-[
-ty
-]
-.
-inner
-{
+if
+let
 TypeInner
 :
 :
@@ -4479,7 +4469,16 @@ members
 .
 }
 =
->
+self
+.
+module
+.
+types
+[
+ty
+]
+.
+inner
 {
 for
 member
@@ -4504,10 +4503,7 @@ ty
 ;
 }
 }
-_
-=
->
-{
+else
 if
 let
 Some
@@ -4542,7 +4538,6 @@ BuiltIn
 ClipDistance
 =
 >
-{
 self
 .
 features
@@ -4554,7 +4549,6 @@ Features
 :
 CLIP_DISTANCE
 )
-}
 crate
 :
 :
@@ -4564,7 +4558,6 @@ BuiltIn
 CullDistance
 =
 >
-{
 self
 .
 features
@@ -4576,7 +4569,6 @@ Features
 :
 CULL_DISTANCE
 )
-}
 crate
 :
 :
@@ -4608,7 +4600,6 @@ BuiltIn
 ViewIndex
 =
 >
-{
 self
 .
 features
@@ -4620,7 +4611,6 @@ Features
 :
 MULTI_VIEW
 )
-}
 crate
 :
 :
@@ -4737,8 +4727,6 @@ Features
 DUAL_SOURCE_BLENDING
 )
 ;
-}
-}
 }
 }
 }
