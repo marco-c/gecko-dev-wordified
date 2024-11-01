@@ -11,6 +11,8 @@ socket
 import
 subprocess
 import
+sys
+import
 tempfile
 import
 threading
@@ -1387,6 +1389,15 @@ self
 line
 )
 :
+        
+sys
+.
+stdout
+.
+write
+(
+line
+)
         
 if
 self
