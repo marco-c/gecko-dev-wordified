@@ -28562,8 +28562,10 @@ rev
 76814cbd5d7842c2a99d28e6e8c7833f1de5bee0
 *
 /
-static
 bool
+js
+:
+:
 date_toPrimitive
 (
 JSContext

@@ -4576,6 +4576,11 @@ tryAttachStringNumberArith
 (
 )
 ;
+AttachDecision
+tryAttachDateArith
+(
+)
+;
 public
 :
 BinaryArithIRGenerator
