@@ -60,7 +60,15 @@ executors
 .
 executorchrome
 import
+(
 ChromeDriverPrintRefTestExecutor
+#
+noqa
+:
+F401
+                                        
+ChromeDriverTestharnessExecutor
+)
 #
 noqa
 :
@@ -74,12 +82,6 @@ executorwebdriver
 import
 (
 WebDriverCrashtestExecutor
-#
-noqa
-:
-F401
-                                           
-WebDriverTestharnessExecutor
 #
 noqa
 :
@@ -128,7 +130,7 @@ testharness
 "
 :
 "
-WebDriverTestharnessExecutor
+ChromeDriverTestharnessExecutor
 "
                               
 "
