@@ -336,9 +336,6 @@ push
 T
 :
 Copy
-+
-?
-Sized
 >
 (
 &
@@ -610,8 +607,6 @@ API
 .
 impl
 <
-'
-a
 M
 :
 MsgHdr
@@ -621,7 +616,7 @@ for
 Encoder
 <
 '
-a
+_
 M
 >
 {
