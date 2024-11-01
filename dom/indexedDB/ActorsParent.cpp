@@ -12742,11 +12742,6 @@ if
 mConnection
 )
 {
-MOZ_ASSERT
-(
-mConnection
-)
-;
 mConnection
 -
 >
