@@ -649,11 +649,6 @@ products
     
 -
 fennec
-operating_systems
-:
-    
--
-windows
 "
 "
 "
@@ -751,20 +746,6 @@ products
 [
 "
 fennec
-"
-]
-)
-        
-self
-.
-assertEqual
-(
-evt
-.
-operating_systems
-[
-"
-windows
 "
 ]
 )
