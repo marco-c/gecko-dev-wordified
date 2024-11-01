@@ -1776,7 +1776,7 @@ handler_class_name
 }
 :
 public
-UniffiHandlerBase
+UniffiSyncCallHandler
 {
 private
 :
@@ -2264,9 +2264,9 @@ endfor
 }
 UniquePtr
 <
-UniffiHandlerBase
+UniffiSyncCallHandler
 >
-GetHandler
+GetSyncCallHandler
 (
 uint64_t
 aId
