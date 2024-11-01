@@ -263,6 +263,9 @@ LockManager
 class
 Permissions
 ;
+class
+ServiceWorkerContainer
+;
 namespace
 network
 {
@@ -345,6 +348,12 @@ dom
 Permissions
 >
 mPermissions
+;
+RefPtr
+<
+ServiceWorkerContainer
+>
+mServiceWorkerContainer
 ;
 bool
 mOnline
@@ -699,6 +708,14 @@ dom
 Permissions
 *
 Permissions
+(
+)
+;
+already_AddRefed
+<
+ServiceWorkerContainer
+>
+ServiceWorker
 (
 )
 ;

@@ -1212,6 +1212,15 @@ NoteShuttingDown
 /
 nsIGlobalObject
 implementation
+already_AddRefed
+<
+ServiceWorkerContainer
+>
+GetServiceWorkerContainer
+(
+)
+final
+;
 RefPtr
 <
 ServiceWorker

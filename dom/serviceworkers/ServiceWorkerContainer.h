@@ -590,7 +590,7 @@ function
 <
 void
 (
-Document
+nsIGlobalObject
 *
 )
 >
