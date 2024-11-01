@@ -5681,6 +5681,13 @@ flushPrefEnv
 (
 )
 ;
+SpecialPowers
+.
+cleanupAllClipboard
+(
+window
+)
+;
 runNextTest
 (
 )
