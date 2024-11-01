@@ -172,6 +172,10 @@ nsACString
 aScriptSpec
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
+const
+ServiceWorkerLifetimeExtension
+&
+aLifetimeExtension
 )
 :
 ServiceWorkerUpdateJob
@@ -187,6 +191,7 @@ nsCString
 aScriptSpec
 )
 aUpdateViaCache
+aLifetimeExtension
 )
 {
 }

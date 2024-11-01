@@ -2713,6 +2713,9 @@ nsID
 GenerateUUID
 (
 )
+Nothing
+(
+)
 dom
 :
 :
@@ -2727,6 +2730,16 @@ TimeStamp
 Now
 (
 )
+"
+"
+_ns
+dom
+:
+:
+FrameType
+:
+:
+None
 )
 ;
 /

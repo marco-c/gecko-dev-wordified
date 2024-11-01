@@ -768,6 +768,12 @@ mServiceWorkerRegistrationDescriptor
 ;
 Maybe
 <
+ClientInfo
+>
+mSourceInfo
+;
+Maybe
+<
 ServiceWorkerDescriptor
 >
 mParentController

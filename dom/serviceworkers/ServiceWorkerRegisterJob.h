@@ -189,6 +189,10 @@ nsACString
 aScriptSpec
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
+const
+ServiceWorkerLifetimeExtension
+&
+aLifetimeExtension
 )
 ;
 private
