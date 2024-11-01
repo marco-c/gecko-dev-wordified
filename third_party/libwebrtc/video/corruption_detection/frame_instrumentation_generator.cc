@@ -907,7 +907,7 @@ sequence_index
 =
 sequence_index
 .
-is_key_frame
+communicate_upper_bits
 =
 true
 }
@@ -1020,7 +1020,7 @@ sequence_index
 =
 sequence_index
 .
-is_key_frame
+communicate_upper_bits
 =
 is_key_frame
 .
