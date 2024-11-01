@@ -1970,7 +1970,7 @@ Z
 '
 )
 {
-CHROMIUM_LOG
+DLOG
 (
 ERROR
 )
@@ -2245,7 +2245,7 @@ edge
 case
 (
 bug
-NNNNNNN
+1881386
 )
 :
 if
