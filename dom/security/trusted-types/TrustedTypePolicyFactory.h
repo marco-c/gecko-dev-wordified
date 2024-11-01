@@ -656,14 +656,7 @@ DOMString
 &
 aResult
 )
-{
-/
-/
-TODO
-:
-impl
-.
-}
+;
 /
 /
 https
