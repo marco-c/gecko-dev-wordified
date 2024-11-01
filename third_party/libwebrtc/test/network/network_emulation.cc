@@ -2872,7 +2872,9 @@ task_queue_
 PostTask
 (
 [
-=
+this
+dest_ip
+receiver
 ]
 {
 RTC_DCHECK_RUN_ON
@@ -2980,7 +2982,8 @@ task_queue_
 PostTask
 (
 [
-=
+this
+receiver
 ]
 {
 RTC_DCHECK_RUN_ON
@@ -3069,7 +3072,8 @@ task_queue_
 PostTask
 (
 [
-=
+this
+watcher
 ]
 {
 RTC_DCHECK_RUN_ON
@@ -3112,7 +3116,8 @@ task_queue_
 PostTask
 (
 [
-=
+this
+filter
 ]
 {
 RTC_DCHECK_RUN_ON
