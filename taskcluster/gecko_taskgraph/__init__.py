@@ -386,12 +386,8 @@ method
 registration
         
 morph
-#
-noqa
-:
-trigger
-morph
-registration
+        
+filter_tasks
         
 target_tasks
     

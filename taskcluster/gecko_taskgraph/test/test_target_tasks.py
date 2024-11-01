@@ -74,6 +74,12 @@ Graph
 from
 taskgraph
 .
+target_tasks
+import
+get_method
+from
+taskgraph
+.
 task
 import
 Task
@@ -311,8 +317,6 @@ parameters
         
 method
 =
-target_tasks
-.
 get_method
 (
 "
@@ -1359,8 +1363,6 @@ make_task_graph
         
 method
 =
-target_tasks
-.
 get_method
 (
 "
@@ -1445,8 +1447,6 @@ make_task_graph
         
 method
 =
-target_tasks
-.
 get_method
 (
 "
@@ -1533,8 +1533,6 @@ make_task_graph
         
 method
 =
-target_tasks
-.
 get_method
 (
 "
@@ -1623,8 +1621,6 @@ make_task_graph
         
 method
 =
-target_tasks
-.
 get_method
 (
 "
@@ -1742,8 +1738,6 @@ make_task_graph
         
 method
 =
-target_tasks
-.
 get_method
 (
 "
@@ -1873,8 +1867,6 @@ make_task_graph
         
 method
 =
-target_tasks
-.
 get_method
 (
 "
@@ -2008,8 +2000,6 @@ make_task_graph
         
 method
 =
-target_tasks
-.
 get_method
 (
 "
