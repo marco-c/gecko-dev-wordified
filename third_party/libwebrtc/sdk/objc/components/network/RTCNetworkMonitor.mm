@@ -604,6 +604,9 @@ adapterType
 )
 )
 ;
+return
+true
+;
 }
 )
 ;
