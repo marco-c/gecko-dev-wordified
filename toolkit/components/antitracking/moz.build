@@ -125,9 +125,6 @@ DIRS
 "
 bouncetrackingprotection
 "
-"
-imageinputmetadatastripper
-"
 ]
 XPIDL_SOURCES
 +
