@@ -264,6 +264,13 @@ DataTransfer
 aClipboardData
 )
 ;
+private
+:
+bool
+mImageInputTelemetryCollected
+=
+false
+;
 protected
 :
 ~
