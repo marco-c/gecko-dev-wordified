@@ -2131,14 +2131,12 @@ initialAppendCapacity
 0
 &
 &
-static_cast
-<
+(
 uint32_t
+)
+initialAppendCapacity
 >
 (
-initialAppendCapacity
-)
->
 dest
 -
 >
@@ -2151,6 +2149,7 @@ dest
 >
 length
 (
+)
 )
 )
 {

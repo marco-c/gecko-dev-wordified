@@ -1686,8 +1686,9 @@ case
 STEM_BASE_UNIT
 :
 return
-{
-}
+MeasureUnit
+(
+)
 ;
 case
 STEM_PERCENT
@@ -7976,6 +7977,8 @@ status
 =
 U_NUMBER_SKELETON_SYNTAX_ERROR
 ;
+return
+;
 }
 void
 blueprint_helpers
@@ -8099,6 +8102,8 @@ zeroFillTo
 (
 offset
 )
+;
+return
 ;
 }
 bool
@@ -8306,7 +8311,6 @@ maxSig
 minSig
 ;
 }
-const
 auto
 &
 oldPrecision

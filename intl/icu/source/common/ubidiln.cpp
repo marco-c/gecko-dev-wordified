@@ -2143,6 +2143,8 @@ successful
 setLine
 *
 /
+return
+;
 }
 U_CAPI
 UBiDiLevel

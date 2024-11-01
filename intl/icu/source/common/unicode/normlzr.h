@@ -3981,6 +3981,7 @@ instead
 UChar32
 current
 (
+void
 )
 ;
 /
@@ -4042,6 +4043,7 @@ instead
 UChar32
 first
 (
+void
 )
 ;
 /
@@ -4103,6 +4105,7 @@ instead
 UChar32
 last
 (
+void
 )
 ;
 /
@@ -4259,6 +4262,7 @@ instead
 UChar32
 next
 (
+void
 )
 ;
 /
@@ -4399,6 +4403,7 @@ instead
 UChar32
 previous
 (
+void
 )
 ;
 /
@@ -4509,6 +4514,7 @@ instead
 void
 reset
 (
+void
 )
 ;
 /
@@ -4617,6 +4623,7 @@ instead
 int32_t
 getIndex
 (
+void
 )
 const
 ;
@@ -4707,6 +4714,7 @@ instead
 int32_t
 startIndex
 (
+void
 )
 const
 ;
@@ -4812,6 +4820,7 @@ instead
 int32_t
 endIndex
 (
+void
 )
 const
 ;
@@ -5020,6 +5029,7 @@ instead
 int32_t
 hashCode
 (
+void
 )
 const
 ;
@@ -5421,6 +5431,7 @@ instead
 UNormalizationMode
 getUMode
 (
+void
 )
 const
 ;
@@ -6271,6 +6282,7 @@ init
 void
 clearBuffer
 (
+void
 )
 ;
 /

@@ -3352,7 +3352,7 @@ return
 length
 ;
 }
-U_CAPI
+U_CFUNC
 UBool
 uprv_isEbcdicAtSign
 (

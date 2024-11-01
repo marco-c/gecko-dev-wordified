@@ -106,6 +106,9 @@ uversion
 .
 h
 "
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -123,7 +126,7 @@ CLDR
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -161,7 +164,7 @@ value
 )
 .
 *
-stable
+draft
 ICU
 72
 *
@@ -172,7 +175,7 @@ UDISPOPT_GRAMMATICAL_CASE_UNDEFINED
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -183,7 +186,7 @@ UDISPOPT_GRAMMATICAL_CASE_ABLATIVE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -194,7 +197,7 @@ UDISPOPT_GRAMMATICAL_CASE_ACCUSATIVE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -205,7 +208,7 @@ UDISPOPT_GRAMMATICAL_CASE_COMITATIVE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -216,7 +219,7 @@ UDISPOPT_GRAMMATICAL_CASE_DATIVE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -227,7 +230,7 @@ UDISPOPT_GRAMMATICAL_CASE_ERGATIVE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -238,7 +241,7 @@ UDISPOPT_GRAMMATICAL_CASE_GENITIVE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -249,7 +252,7 @@ UDISPOPT_GRAMMATICAL_CASE_INSTRUMENTAL
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -260,7 +263,7 @@ UDISPOPT_GRAMMATICAL_CASE_LOCATIVE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -271,7 +274,7 @@ UDISPOPT_GRAMMATICAL_CASE_LOCATIVE_COPULATIVE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -282,7 +285,7 @@ UDISPOPT_GRAMMATICAL_CASE_NOMINATIVE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -293,7 +296,7 @@ UDISPOPT_GRAMMATICAL_CASE_OBLIQUE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -304,7 +307,7 @@ UDISPOPT_GRAMMATICAL_CASE_PREPOSITIONAL
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -315,7 +318,7 @@ UDISPOPT_GRAMMATICAL_CASE_SOCIATIVE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -350,7 +353,7 @@ case
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -397,7 +400,7 @@ or
 UDISPOPT_GRAMMATICAL_CASE_UNDEFINED
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -450,7 +453,7 @@ html
 Language_Plural_Rules
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -490,7 +493,7 @@ value
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -501,7 +504,7 @@ UDISPOPT_PLURAL_CATEGORY_UNDEFINED
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -512,7 +515,7 @@ UDISPOPT_PLURAL_CATEGORY_ZERO
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -523,7 +526,7 @@ UDISPOPT_PLURAL_CATEGORY_ONE
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -534,7 +537,7 @@ UDISPOPT_PLURAL_CATEGORY_TWO
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -545,7 +548,7 @@ UDISPOPT_PLURAL_CATEGORY_FEW
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -556,7 +559,7 @@ UDISPOPT_PLURAL_CATEGORY_MANY
 /
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -591,7 +594,7 @@ category
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -640,7 +643,7 @@ or
 UDISPOPT_PLURAL_CATEGORY_UNDEFINED
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -674,7 +677,7 @@ CLDR
 .
 *
 *
-stable
+draft
 ICU
 72
 .
@@ -715,7 +718,7 @@ value
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -726,7 +729,6 @@ UDISPOPT_NOUN_CLASS_UNDEFINED
 /
 *
 *
-stable
 ICU
 72
 *
@@ -737,7 +739,6 @@ UDISPOPT_NOUN_CLASS_OTHER
 /
 *
 *
-stable
 ICU
 72
 *
@@ -748,7 +749,6 @@ UDISPOPT_NOUN_CLASS_NEUTER
 /
 *
 *
-stable
 ICU
 72
 *
@@ -759,7 +759,6 @@ UDISPOPT_NOUN_CLASS_FEMININE
 /
 *
 *
-stable
 ICU
 72
 *
@@ -770,7 +769,6 @@ UDISPOPT_NOUN_CLASS_MASCULINE
 /
 *
 *
-stable
 ICU
 72
 *
@@ -781,7 +779,6 @@ UDISPOPT_NOUN_CLASS_ANIMATE
 /
 *
 *
-stable
 ICU
 72
 *
@@ -792,7 +789,6 @@ UDISPOPT_NOUN_CLASS_INANIMATE
 /
 *
 *
-stable
 ICU
 72
 *
@@ -803,7 +799,6 @@ UDISPOPT_NOUN_CLASS_PERSONAL
 /
 *
 *
-stable
 ICU
 72
 *
@@ -838,7 +833,7 @@ class
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -885,7 +880,7 @@ or
 UDISPOPT_NOUN_CLASS_UNDEFINED
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -913,7 +908,7 @@ options
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -951,7 +946,7 @@ value
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -991,7 +986,7 @@ sentence
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1031,7 +1026,7 @@ sentence
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1080,7 +1075,7 @@ page
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1123,7 +1118,7 @@ item
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1146,7 +1141,7 @@ handlings
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1184,7 +1179,7 @@ value
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1222,7 +1217,7 @@ Kingdom
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1257,7 +1252,7 @@ English
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1280,7 +1275,7 @@ lengths
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1318,7 +1313,7 @@ value
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1352,7 +1347,7 @@ US
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1388,7 +1383,7 @@ US
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1411,7 +1406,7 @@ handling
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1449,7 +1444,7 @@ value
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1489,7 +1484,7 @@ behaviour
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1513,7 +1508,7 @@ available
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -1524,6 +1519,11 @@ UDISPOPT_SUBSTITUTE_HANDLING_NO_SUBSTITUTE
 }
 UDisplayOptionsSubstituteHandling
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 #
 endif
 /

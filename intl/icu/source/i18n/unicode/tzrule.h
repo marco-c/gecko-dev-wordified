@@ -678,6 +678,7 @@ ICU
 int32_t
 getRawOffset
 (
+void
 )
 const
 ;
@@ -725,6 +726,7 @@ ICU
 int32_t
 getDSTSavings
 (
+void
 )
 const
 ;
@@ -2712,6 +2714,7 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 /
@@ -2813,6 +2816,7 @@ virtual
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override
@@ -3644,6 +3648,7 @@ DateTimeRule
 *
 getRule
 (
+void
 )
 const
 ;
@@ -3702,6 +3707,7 @@ ICU
 int32_t
 getStartYear
 (
+void
 )
 const
 ;
@@ -3763,6 +3769,7 @@ ICU
 int32_t
 getEndYear
 (
+void
 )
 const
 ;
@@ -4612,6 +4619,7 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 /
@@ -4713,6 +4721,7 @@ virtual
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override
@@ -5365,6 +5374,7 @@ DateTimeRule
 TimeRuleType
 getTimeType
 (
+void
 )
 const
 ;
@@ -5485,6 +5495,7 @@ ICU
 int32_t
 countStartTimes
 (
+void
 )
 const
 ;
@@ -6251,6 +6262,7 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 /
@@ -6352,6 +6364,7 @@ virtual
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override

@@ -229,7 +229,7 @@ toMatcher
 const
 {
 return
-nullptr
+0
 ;
 }
 UnicodeReplacer
@@ -243,7 +243,7 @@ toReplacer
 const
 {
 return
-nullptr
+0
 ;
 }
 U_NAMESPACE_END

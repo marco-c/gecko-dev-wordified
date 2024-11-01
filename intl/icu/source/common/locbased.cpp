@@ -326,10 +326,12 @@ status
 return
 Locale
 (
+(
 id
 !
 =
-nullptr
+0
+)
 ?
 id
 :
@@ -415,7 +417,7 @@ if
 validID
 !
 =
-nullptr
+0
 )
 {
 uprv_strncpy
@@ -444,7 +446,7 @@ if
 actualID
 !
 =
-nullptr
+0
 )
 {
 uprv_strncpy

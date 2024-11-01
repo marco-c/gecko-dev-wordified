@@ -107,6 +107,9 @@ uversion
 h
 "
 U_NAMESPACE_BEGIN
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -216,7 +219,7 @@ build
 *
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -238,7 +241,7 @@ DisplayOptions
 .
 *
 *
-stable
+draft
 ICU
 72
 *
@@ -270,7 +273,7 @@ case
 return
 Builder
 *
-stable
+draft
 ICU
 72
 *
@@ -316,7 +319,7 @@ class
 return
 Builder
 *
-stable
+draft
 ICU
 72
 *
@@ -362,7 +365,7 @@ category
 return
 Builder
 *
-stable
+draft
 ICU
 72
 *
@@ -406,7 +409,7 @@ capitalization
 return
 Builder
 *
-stable
+draft
 ICU
 72
 *
@@ -452,7 +455,7 @@ style
 return
 Builder
 *
-stable
+draft
 ICU
 72
 *
@@ -498,7 +501,7 @@ length
 return
 Builder
 *
-stable
+draft
 ICU
 72
 *
@@ -544,7 +547,7 @@ handling
 return
 Builder
 *
-stable
+draft
 ICU
 72
 *
@@ -583,7 +586,7 @@ options
 return
 DisplayOptions
 *
-stable
+draft
 ICU
 72
 *
@@ -662,7 +665,7 @@ parameters
 return
 Builder
 *
-stable
+draft
 ICU
 72
 *
@@ -693,7 +696,7 @@ object
 return
 Builder
 *
-stable
+draft
 ICU
 72
 *
@@ -718,7 +721,7 @@ case
 return
 UDisplayOptionsGrammaticalCase
 *
-stable
+draft
 ICU
 72
 *
@@ -747,7 +750,7 @@ class
 return
 UDisplayOptionsNounClass
 *
-stable
+draft
 ICU
 72
 *
@@ -776,7 +779,7 @@ category
 return
 UDisplayOptionsPluralCategory
 *
-stable
+draft
 ICU
 72
 *
@@ -804,7 +807,7 @@ capitalization
 return
 UDisplayOptionsCapitalization
 *
-stable
+draft
 ICU
 72
 *
@@ -833,7 +836,7 @@ handling
 return
 UDisplayOptionsNameStyle
 *
-stable
+draft
 ICU
 72
 *
@@ -862,7 +865,7 @@ length
 return
 UDisplayOptionsDisplayLength
 *
-stable
+draft
 ICU
 72
 *
@@ -891,7 +894,7 @@ handling
 return
 UDisplayOptionsSubstituteHandling
 *
-stable
+draft
 ICU
 72
 *
@@ -924,7 +927,7 @@ to
 copy
 .
 *
-stable
+draft
 ICU
 72
 *
@@ -961,7 +964,7 @@ move
 from
 .
 *
-stable
+draft
 ICU
 72
 *
@@ -998,7 +1001,7 @@ to
 copy
 .
 *
-stable
+draft
 ICU
 72
 *
@@ -1046,6 +1049,11 @@ substituteHandling
 ;
 }
 ;
+#
+endif
+/
+/
+U_HIDE_DRAFT_API
 U_NAMESPACE_END
 #
 endif

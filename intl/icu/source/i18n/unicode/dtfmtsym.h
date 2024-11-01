@@ -4509,6 +4509,7 @@ char16_t
 U_EXPORT2
 getPatternUChars
 (
+void
 )
 ;
 /
@@ -6875,6 +6876,7 @@ object
 void
 dispose
 (
+void
 )
 ;
 /
@@ -6931,6 +6933,7 @@ available
 void
 initZoneStringsArray
 (
+void
 )
 ;
 /
@@ -6948,6 +6951,7 @@ strings
 void
 disposeZoneStrings
 (
+void
 )
 ;
 /

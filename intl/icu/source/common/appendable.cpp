@@ -311,13 +311,10 @@ c
 return
 appendCodeUnit
 (
-static_cast
-<
-char16_t
->
 (
-c
+char16_t
 )
+c
 )
 ;
 }

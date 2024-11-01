@@ -1893,6 +1893,9 @@ ICU
 *
 /
 kRoundUnnecessary
+#
+ifndef
+U_HIDE_DRAFT_API
 /
 *
 *
@@ -1905,7 +1908,7 @@ odd
 number
 .
 *
-stable
+draft
 ICU
 73
 *
@@ -1921,7 +1924,7 @@ toward
 +
 .
 *
-stable
+draft
 ICU
 73
 *
@@ -1937,12 +1940,19 @@ toward
 -
 .
 *
-stable
+draft
 ICU
 73
 *
 /
 kRoundHalfFloor
+#
+endif
+/
+*
+U_HIDE_DRAFT_API
+*
+/
 }
 ;
 /
@@ -5387,6 +5397,7 @@ ICU
 UBool
 isParseIntegerOnly
 (
+void
 )
 const
 ;
@@ -5545,6 +5556,7 @@ virtual
 UBool
 isLenient
 (
+void
 )
 const
 ;
@@ -6714,6 +6726,7 @@ StringEnumeration
 U_EXPORT2
 getAvailableLocales
 (
+void
 )
 ;
 #
@@ -6801,6 +6814,7 @@ ICU
 UBool
 isGroupingUsed
 (
+void
 )
 const
 ;
@@ -6902,6 +6916,7 @@ ICU
 int32_t
 getMaximumIntegerDigits
 (
+void
 )
 const
 ;
@@ -7053,6 +7068,7 @@ ICU
 int32_t
 getMinimumIntegerDigits
 (
+void
 )
 const
 ;
@@ -7191,6 +7207,7 @@ ICU
 int32_t
 getMaximumFractionDigits
 (
+void
 )
 const
 ;
@@ -7329,6 +7346,7 @@ ICU
 int32_t
 getMinimumFractionDigits
 (
+void
 )
 const
 ;
@@ -7815,6 +7833,7 @@ virtual
 ERoundingMode
 getRoundingMode
 (
+void
 )
 const
 ;
@@ -7942,6 +7961,7 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 /
@@ -8046,6 +8066,7 @@ virtual
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override
@@ -8576,6 +8597,7 @@ virtual
 UBool
 visible
 (
+void
 )
 const
 =
@@ -8850,6 +8872,7 @@ virtual
 UBool
 visible
 (
+void
 )
 const
 override

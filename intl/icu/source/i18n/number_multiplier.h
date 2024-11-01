@@ -67,8 +67,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 /
@@ -298,10 +298,12 @@ none
 /
 /
 namespace
-number
-:
-:
 impl
+}
+/
+/
+namespace
+number
 U_NAMESPACE_END
 #
 endif

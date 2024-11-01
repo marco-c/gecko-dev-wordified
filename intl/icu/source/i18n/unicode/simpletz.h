@@ -6110,6 +6110,7 @@ virtual
 int32_t
 getRawOffset
 (
+void
 )
 const
 override
@@ -6351,6 +6352,7 @@ virtual
 int32_t
 getDSTSavings
 (
+void
 )
 const
 override
@@ -6395,6 +6397,7 @@ virtual
 UBool
 useDaylightTime
 (
+void
 )
 const
 override
@@ -7239,6 +7242,7 @@ virtual
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override
@@ -7342,6 +7346,7 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 private
@@ -8019,11 +8024,13 @@ status
 void
 clearTransitionRules
 (
+void
 )
 ;
 void
 deleteTransitionRules
 (
+void
 )
 ;
 UBool

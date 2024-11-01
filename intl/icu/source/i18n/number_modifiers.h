@@ -102,8 +102,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 /
@@ -247,7 +247,7 @@ const
 override
 ;
 bool
-strictEquals
+semanticallyEquivalent
 (
 const
 Modifier
@@ -410,7 +410,7 @@ const
 override
 ;
 bool
-strictEquals
+semanticallyEquivalent
 (
 const
 Modifier
@@ -971,7 +971,7 @@ const
 override
 ;
 bool
-strictEquals
+semanticallyEquivalent
 (
 const
 Modifier
@@ -1377,7 +1377,7 @@ nullptr
 ;
 }
 bool
-strictEquals
+semanticallyEquivalent
 (
 const
 Modifier
@@ -1906,10 +1906,12 @@ COUNT
 /
 /
 namespace
-number
-:
-:
 impl
+}
+/
+/
+namespace
+number
 U_NAMESPACE_END
 #
 endif

@@ -1217,13 +1217,10 @@ ICU
 /
 NULLORDER
 =
-static_cast
-<
-int32_t
->
 (
-0xffffffff
+int32_t
 )
+0xffffffff
 }
 ;
 /
@@ -1491,6 +1488,7 @@ ICU
 void
 reset
 (
+void
 )
 ;
 /
@@ -2057,6 +2055,7 @@ ICU
 int32_t
 getOffset
 (
+void
 )
 const
 ;

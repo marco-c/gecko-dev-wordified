@@ -1376,6 +1376,10 @@ hi
 const
 {
 return
+(
+UBool
+)
+(
 findCodePoint
 (
 c
@@ -1384,6 +1388,7 @@ hi
 )
 &
 1
+)
 ;
 }
 U_NAMESPACE_END

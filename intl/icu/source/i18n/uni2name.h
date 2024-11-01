@@ -371,7 +371,7 @@ UnicodeFilter
 *
 adoptedFilter
 =
-nullptr
+0
 )
 ;
 /

@@ -1683,7 +1683,7 @@ return
 buf
 !
 =
-nullptr
+0
 ;
 }
 U_NAMESPACE_END

@@ -74,8 +74,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 /
@@ -322,10 +322,12 @@ status
 /
 /
 namespace
-number
-:
-:
 impl
+}
+/
+/
+namespace
+numparse
 U_NAMESPACE_END
 #
 endif

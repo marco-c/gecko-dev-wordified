@@ -9904,6 +9904,7 @@ ICU
 int32_t
 getMaximumContextLength
 (
+void
 )
 const
 ;
@@ -10032,6 +10033,7 @@ UnicodeString
 &
 getID
 (
+void
 )
 const
 ;
@@ -10413,6 +10415,7 @@ UnicodeFilter
 *
 getFilter
 (
+void
 )
 const
 ;
@@ -10511,6 +10514,7 @@ UnicodeFilter
 *
 orphanFilter
 (
+void
 )
 ;
 /
@@ -13199,6 +13203,7 @@ int32_t
 U_EXPORT2
 countAvailableSources
 (
+void
 )
 ;
 /
@@ -13645,6 +13650,7 @@ static
 int32_t
 _countAvailableSources
 (
+void
 )
 ;
 /
@@ -13935,6 +13941,7 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 /
@@ -14065,6 +14072,7 @@ virtual
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override
@@ -14155,6 +14163,7 @@ int32_t
 U_EXPORT2
 countAvailableIDs
 (
+void
 )
 ;
 /
@@ -14313,6 +14322,7 @@ Transliterator
 :
 getMaximumContextLength
 (
+void
 )
 const
 {
@@ -14357,13 +14367,10 @@ ID
 .
 append
 (
-static_cast
-<
-char16_t
->
 (
-0
+char16_t
 )
+0
 )
 ;
 ID

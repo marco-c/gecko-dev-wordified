@@ -1889,7 +1889,7 @@ PtnSkeleton
 *
 specifiedSkeletonPtr
 =
-nullptr
+0
 )
 const
 ;

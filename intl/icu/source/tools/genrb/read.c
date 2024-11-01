@@ -521,7 +521,6 @@ U_CFUNC
 void
 resetLineNumber
 (
-void
 )
 {
 lineCount

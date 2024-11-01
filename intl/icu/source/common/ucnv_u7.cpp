@@ -3905,6 +3905,8 @@ offsets
 =
 offsets
 ;
+return
+;
 }
 static
 void
@@ -5735,6 +5737,8 @@ pArgs
 offsets
 =
 offsets
+;
+return
 ;
 }
 static
@@ -8593,6 +8597,8 @@ offsets
 =
 offsets
 ;
+return
+;
 }
 static
 void
@@ -10512,6 +10518,8 @@ pArgs
 offsets
 =
 offsets
+;
+return
 ;
 }
 U_CDECL_END

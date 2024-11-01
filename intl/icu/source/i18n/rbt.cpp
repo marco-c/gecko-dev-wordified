@@ -385,7 +385,7 @@ status
 {
 fData
 =
-nullptr
+0
 ;
 isDataOwned
 =
@@ -481,12 +481,10 @@ return
 }
 fData
 =
-static_cast
-<
+(
 TransliterationRuleData
 *
->
-(
+)
 parser
 .
 dataVector
@@ -494,7 +492,6 @@ dataVector
 orphanElementAt
 (
 0
-)
 )
 ;
 setMaximumContextLength
@@ -952,14 +949,11 @@ adoptedFilter
 )
 fData
 (
-const_cast
-<
+(
 TransliterationRuleData
 *
->
-(
-theData
 )
+theData
 )
 /
 /
@@ -1012,7 +1006,7 @@ isDataAdopted
 Transliterator
 (
 id
-nullptr
+0
 )
 fData
 (

@@ -1361,6 +1361,7 @@ ICU
 UBool
 isBogus
 (
+void
 )
 const
 ;
@@ -1909,6 +1910,7 @@ ICU
 int32_t
 hashCode
 (
+void
 )
 const
 ;
@@ -2122,20 +2124,19 @@ getCapacity
 const
 {
 return
+(
 fFlagAndLength
 >
 =
 0
+)
 ?
-static_cast
-<
-int32_t
->
 (
+int32_t
+)
 sizeof
 (
 fUnion
-)
 )
 :
 fUnion
@@ -2182,6 +2183,7 @@ CollationKey
 &
 setToBogus
 (
+void
 )
 ;
 /
@@ -2205,6 +2207,7 @@ CollationKey
 &
 reset
 (
+void
 )
 ;
 /

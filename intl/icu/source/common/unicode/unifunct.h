@@ -693,6 +693,7 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 /
@@ -824,6 +825,7 @@ virtual
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override

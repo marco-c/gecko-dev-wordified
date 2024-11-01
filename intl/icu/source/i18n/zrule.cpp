@@ -555,6 +555,8 @@ getBuffer
 nameLength
 )
 ;
+return
+;
 }
 U_CAPI
 int32_t
@@ -1003,6 +1005,8 @@ getBuffer
 )
 nameLength
 )
+;
+return
 ;
 }
 U_CAPI

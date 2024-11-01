@@ -2844,6 +2844,9 @@ extraInfo
 UBool
 isTargetUCharDBCS
 =
+(
+UBool
+)
 myConverterData
 -
 >
@@ -2977,6 +2980,9 @@ targetLength
 {
 mySourceChar
 =
+(
+char16_t
+)
 mySource
 [
 mySourceIndex
@@ -3173,9 +3179,14 @@ isTargetUCharDBCS
 =
 isTargetUCharDBCS
 =
+(
+UBool
+)
+(
 targetUniChar
 >
 0x00FF
+)
 ;
 if
 (

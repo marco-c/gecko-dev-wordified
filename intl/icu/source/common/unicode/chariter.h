@@ -1109,6 +1109,7 @@ virtual
 int32_t
 hashCode
 (
+void
 )
 const
 =
@@ -1177,6 +1178,7 @@ virtual
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override
@@ -1246,6 +1248,7 @@ virtual
 char16_t
 nextPostInc
 (
+void
 )
 =
 0
@@ -1313,6 +1316,7 @@ virtual
 UChar32
 next32PostInc
 (
+void
 )
 =
 0
@@ -3133,6 +3137,7 @@ virtual
 char16_t
 first
 (
+void
 )
 =
 0
@@ -3211,6 +3216,7 @@ virtual
 char16_t
 firstPostInc
 (
+void
 )
 ;
 /
@@ -3301,6 +3307,7 @@ virtual
 UChar32
 first32
 (
+void
 )
 =
 0
@@ -3379,6 +3386,7 @@ virtual
 UChar32
 first32PostInc
 (
+void
 )
 ;
 /
@@ -3504,6 +3512,7 @@ virtual
 char16_t
 last
 (
+void
 )
 =
 0
@@ -3566,6 +3575,7 @@ virtual
 UChar32
 last32
 (
+void
 )
 =
 0
@@ -3864,6 +3874,7 @@ virtual
 char16_t
 current
 (
+void
 )
 const
 =
@@ -3902,6 +3913,7 @@ virtual
 UChar32
 current32
 (
+void
 )
 const
 =
@@ -3966,6 +3978,7 @@ virtual
 char16_t
 next
 (
+void
 )
 =
 0
@@ -4062,6 +4075,7 @@ virtual
 UChar32
 next32
 (
+void
 )
 =
 0
@@ -4125,6 +4139,7 @@ virtual
 char16_t
 previous
 (
+void
 )
 =
 0
@@ -4188,6 +4203,7 @@ virtual
 UChar32
 previous32
 (
+void
 )
 =
 0
@@ -4367,6 +4383,7 @@ inline
 int32_t
 startIndex
 (
+void
 )
 const
 ;
@@ -4439,6 +4456,7 @@ inline
 int32_t
 endIndex
 (
+void
 )
 const
 ;
@@ -4513,6 +4531,7 @@ inline
 int32_t
 getIndex
 (
+void
 )
 const
 ;
@@ -5244,6 +5263,7 @@ CharacterIterator
 :
 startIndex
 (
+void
 )
 const
 {
@@ -5258,6 +5278,7 @@ CharacterIterator
 :
 endIndex
 (
+void
 )
 const
 {
@@ -5272,6 +5293,7 @@ CharacterIterator
 :
 getIndex
 (
+void
 )
 const
 {
@@ -5286,6 +5308,7 @@ CharacterIterator
 :
 getLength
 (
+void
 )
 const
 {

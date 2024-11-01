@@ -507,15 +507,12 @@ USetAdder
 *
 sa
 =
-static_cast
-<
+(
 const
 USetAdder
 *
->
-(
-context
 )
+context
 ;
 sa
 -
@@ -1080,6 +1077,9 @@ c
 )
 ;
 return
+(
+UBool
+)
 UBIDI_GET_FLAG
 (
 props
@@ -1314,6 +1314,9 @@ c
 )
 ;
 return
+(
+UBool
+)
 UBIDI_GET_FLAG
 (
 props
@@ -1342,6 +1345,9 @@ c
 )
 ;
 return
+(
+UBool
+)
 UBIDI_GET_FLAG
 (
 props

@@ -506,7 +506,7 @@ doReplace
 (
 0
 start
-nullptr
+0
 0
 0
 )

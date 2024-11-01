@@ -102,15 +102,12 @@ approximately
 sign
 in
 CLDR
-46
+40
 .
 const
 approximatelySigns
 =
 [
-"
--
-"
 "
 ~
 "

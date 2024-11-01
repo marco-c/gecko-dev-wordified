@@ -620,10 +620,9 @@ result
 )
 {
 return
-static_cast
-<
+(
 int8_t
->
+)
 (
 result
 >
@@ -670,10 +669,9 @@ srcLength
 )
 {
 return
-static_cast
-<
+(
 int8_t
->
+)
 (
 (
 length
@@ -1501,7 +1499,7 @@ int32_t
 *
 bufferToDelete
 =
-nullptr
+0
 ;
 if
 (

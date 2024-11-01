@@ -1676,6 +1676,7 @@ ICU
 int32_t
 getField
 (
+void
 )
 const
 {
@@ -1723,6 +1724,7 @@ ICU
 int32_t
 getBeginIndex
 (
+void
 )
 const
 {
@@ -1778,6 +1780,7 @@ ICU
 int32_t
 getEndIndex
 (
+void
 )
 const
 {

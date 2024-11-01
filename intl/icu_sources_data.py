@@ -481,6 +481,20 @@ icu
 /
 source
 /
+common
+/
+util_props
+.
+cpp
+"
+        
+"
+intl
+/
+icu
+/
+source
+/
 i18n
 /
 anytrans
@@ -2594,12 +2608,6 @@ DUCONFIG_NO_BREAK_ITERATION
 "
 -
 DUCONFIG_NO_BREAK_IDNA
-"
-                
-+
-"
--
-DUCONFIG_NO_MF2
 "
                 
 +

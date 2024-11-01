@@ -396,15 +396,6 @@ include
 "
 unicode
 /
-char16ptr
-.
-h
-"
-#
-include
-"
-unicode
-/
 utypes
 .
 h
@@ -6482,15 +6473,12 @@ char16_t
 *
 r
 =
-ConstChar16Ptr
-(
 ures_getString
 (
 resB
 &
 len
 status
-)
 )
 ;
 if
@@ -6653,8 +6641,6 @@ char16_t
 *
 r
 =
-ConstChar16Ptr
-(
 ures_getNextString
 (
 resB
@@ -6662,7 +6648,6 @@ resB
 len
 key
 status
-)
 )
 ;
 if
@@ -6793,8 +6778,6 @@ char16_t
 *
 r
 =
-ConstChar16Ptr
-(
 ures_getStringByIndex
 (
 resB
@@ -6802,7 +6785,6 @@ indexS
 &
 len
 status
-)
 )
 ;
 if
@@ -6941,8 +6923,6 @@ char16_t
 *
 r
 =
-ConstChar16Ptr
-(
 ures_getStringByKey
 (
 resB
@@ -6950,7 +6930,6 @@ key
 &
 len
 status
-)
 )
 ;
 if

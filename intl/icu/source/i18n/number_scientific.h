@@ -60,8 +60,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 /
@@ -156,7 +156,7 @@ const
 override
 ;
 bool
-strictEquals
+semanticallyEquivalent
 (
 const
 Modifier
@@ -260,10 +260,12 @@ ScientificModifier
 /
 /
 namespace
-number
-:
-:
 impl
+}
+/
+/
+namespace
+number
 U_NAMESPACE_END
 #
 endif

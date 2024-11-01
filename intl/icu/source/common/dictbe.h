@@ -526,12 +526,6 @@ engine
 might
 handle
 *
-param
-locale
-The
-locale
-.
-*
 return
 true
 if
@@ -554,10 +548,6 @@ handles
 (
 UChar32
 c
-const
-char
-*
-locale
 )
 const
 override

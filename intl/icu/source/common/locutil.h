@@ -410,7 +410,7 @@ bundleID
 )
 ;
 static
-bool
+UBool
 isFallbackOf
 (
 const

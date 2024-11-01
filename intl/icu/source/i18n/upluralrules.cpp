@@ -590,8 +590,9 @@ number
 }
 }
 return
-{
-}
+UnicodeString
+(
+)
 ;
 }
 }

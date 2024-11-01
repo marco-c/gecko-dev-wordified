@@ -1019,10 +1019,9 @@ UCASE_LOC_ROOT
 }
 doTitle
 =
-static_cast
-<
+(
 UBool
->
+)
 (
 type
 =

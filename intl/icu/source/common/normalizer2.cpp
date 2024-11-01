@@ -2362,15 +2362,12 @@ Normalizer2
 *
 n2
 =
-reinterpret_cast
-<
+(
 const
 Normalizer2
 *
->
-(
-norm2
 )
+norm2
 ;
 const
 Normalizer2WithImpl

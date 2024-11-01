@@ -154,8 +154,8 @@ impl
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 /
@@ -309,10 +309,12 @@ nullptr
 /
 /
 namespace
-number
-:
-:
 impl
+}
+/
+/
+namespace
+number
 U_NAMESPACE_END
 UPRV_FORMATTED_VALUE_CAPI_NO_IMPLTYPE_AUTO_IMPL
 (
@@ -341,7 +343,6 @@ UErrorCode
 status
 )
 {
-const
 auto
 *
 result
@@ -823,7 +824,6 @@ UErrorCode
 ec
 )
 {
-const
 auto
 *
 result

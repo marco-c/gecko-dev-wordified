@@ -404,13 +404,14 @@ CharString
 ;
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 class
 DecimalQuantity
 ;
+}
 }
 /
 *
@@ -1725,6 +1726,7 @@ ICU
 Type
 getType
 (
+void
 )
 const
 ;
@@ -1819,6 +1821,7 @@ ICU
 double
 getDouble
 (
+void
 )
 const
 {
@@ -1996,19 +1999,17 @@ ICU
 int32_t
 getLong
 (
+void
 )
 const
 {
 return
-static_cast
-<
-int32_t
->
 (
+int32_t
+)
 fValue
 .
 fInt64
-)
 ;
 }
 /
@@ -2228,6 +2229,7 @@ ICU
 int64_t
 getInt64
 (
+void
 )
 const
 {
@@ -2741,6 +2743,7 @@ UnicodeString
 &
 getString
 (
+void
 )
 const
 ;
@@ -2876,6 +2879,7 @@ UnicodeString
 &
 getString
 (
+void
 )
 ;
 /
@@ -4605,6 +4609,7 @@ objects
 void
 dispose
 (
+void
 )
 ;
 /
@@ -4751,6 +4756,7 @@ Formattable
 :
 getString
 (
+void
 )
 const
 {
@@ -4769,6 +4775,7 @@ Formattable
 :
 getString
 (
+void
 )
 {
 return

@@ -2436,6 +2436,9 @@ length
 =
 ucase_toFullFolding
 (
+(
+UChar32
+)
 cp1
 &
 p
@@ -2740,6 +2743,9 @@ length
 =
 ucase_toFullFolding
 (
+(
+UChar32
+)
 cp2
 &
 p
@@ -3038,7 +3044,7 @@ _COMPARE_EQUIV
 )
 &
 &
-nullptr
+0
 !
 =
 (
@@ -3049,6 +3055,9 @@ nfcImpl
 >
 getDecomposition
 (
+(
+UChar32
+)
 cp1
 decomp1
 length
@@ -3312,7 +3321,7 @@ _COMPARE_EQUIV
 )
 &
 &
-nullptr
+0
 !
 =
 (
@@ -3323,6 +3332,9 @@ nfcImpl
 >
 getDecomposition
 (
+(
+UChar32
+)
 cp2
 decomp2
 length
@@ -4215,7 +4227,7 @@ if
 s1
 =
 =
-nullptr
+0
 |
 |
 length1
@@ -4227,7 +4239,7 @@ length1
 s2
 =
 =
-nullptr
+0
 |
 |
 length2

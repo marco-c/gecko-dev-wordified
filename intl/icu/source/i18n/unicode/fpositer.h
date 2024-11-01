@@ -508,6 +508,7 @@ ICU
 /
 FieldPositionIterator
 (
+void
 )
 ;
 /

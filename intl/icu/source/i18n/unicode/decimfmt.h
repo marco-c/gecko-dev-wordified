@@ -564,13 +564,14 @@ UFormattedNumberData
 }
 namespace
 numparse
-:
-:
+{
+namespace
 impl
 {
 class
 NumberParserImpl
 ;
+}
 }
 /
 *
@@ -10619,6 +10620,7 @@ DecimalFormatSymbols
 *
 getDecimalFormatSymbols
 (
+void
 )
 const
 ;
@@ -10752,6 +10754,7 @@ CurrencyPluralInfo
 *
 getCurrencyPluralInfo
 (
+void
 )
 const
 ;
@@ -11553,6 +11556,7 @@ ICU
 int32_t
 getMultiplier
 (
+void
 )
 const
 ;
@@ -11797,6 +11801,7 @@ ICU
 int32_t
 getMultiplierScale
 (
+void
 )
 const
 ;
@@ -12000,6 +12005,7 @@ virtual
 double
 getRoundingIncrement
 (
+void
 )
 const
 ;
@@ -12126,6 +12132,7 @@ virtual
 ERoundingMode
 getRoundingMode
 (
+void
 )
 const
 override
@@ -12249,6 +12256,7 @@ virtual
 int32_t
 getFormatWidth
 (
+void
 )
 const
 ;
@@ -12646,6 +12654,7 @@ virtual
 EPadPosition
 getPadPosition
 (
+void
 )
 const
 ;
@@ -12811,6 +12820,7 @@ virtual
 UBool
 isScientificNotation
 (
+void
 )
 const
 ;
@@ -12990,6 +13000,7 @@ virtual
 int8_t
 getMinimumExponentDigits
 (
+void
 )
 const
 ;
@@ -13164,6 +13175,7 @@ virtual
 UBool
 isExponentSignAlwaysShown
 (
+void
 )
 const
 ;
@@ -13343,6 +13355,7 @@ ICU
 int32_t
 getGroupingSize
 (
+void
 )
 const
 ;
@@ -13598,6 +13611,7 @@ ICU
 int32_t
 getSecondaryGroupingSize
 (
+void
 )
 const
 ;
@@ -14074,6 +14088,7 @@ ICU
 UBool
 isDecimalSeparatorAlwaysShown
 (
+void
 )
 const
 ;
@@ -14197,6 +14212,7 @@ ICU
 UBool
 isDecimalPatternMatchRequired
 (
+void
 )
 const
 ;
@@ -17119,6 +17135,7 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
+void
 )
 ;
 /
@@ -17219,6 +17236,7 @@ ICU
 UClassID
 getDynamicClassID
 (
+void
 )
 const
 override

@@ -165,8 +165,8 @@ impl
 U_NAMESPACE_BEGIN
 namespace
 number
-:
-:
+{
+namespace
 impl
 {
 /
@@ -442,13 +442,7 @@ fData
 ;
 }
 }
-/
-/
-namespace
-number
-:
-:
-impl
+}
 U_NAMESPACE_END
 UPRV_FORMATTED_VALUE_CAPI_NO_IMPLTYPE_AUTO_IMPL
 (
@@ -480,7 +474,6 @@ UErrorCode
 status
 )
 {
-const
 auto
 *
 result
@@ -1901,7 +1894,7 @@ ec
 U_CAPI
 void
 U_EXPORT2
-usnum_setMaximumIntegerDigits
+usnum_truncateStart
 (
 USimpleNumber
 *
@@ -1944,7 +1937,7 @@ number
 >
 fNumber
 .
-setMaximumIntegerDigits
+truncateStart
 (
 maximumIntegerDigits
 *
@@ -2159,7 +2152,6 @@ UErrorCode
 ec
 )
 {
-const
 auto
 *
 formatter
@@ -2284,7 +2276,6 @@ UErrorCode
 ec
 )
 {
-const
 auto
 *
 formatter

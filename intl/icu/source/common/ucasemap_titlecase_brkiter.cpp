@@ -745,6 +745,11 @@ utext_openUTF8
 (
 &
 utext
+(
+const
+char
+*
+)
 src
 srcLength
 pErrorCode

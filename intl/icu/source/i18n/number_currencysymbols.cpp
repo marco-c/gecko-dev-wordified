@@ -841,8 +841,9 @@ currency
 XXX
 )
 return
-{
-}
+CurrencyUnit
+(
+)
 ;
 }
 }

@@ -326,6 +326,7 @@ fStart
 )
 ;
 }
+const
 UnicodeString
 StringSegment
 :

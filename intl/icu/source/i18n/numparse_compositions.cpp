@@ -161,7 +161,6 @@ true
 ;
 for
 (
-const
 auto
 *
 it
@@ -514,7 +513,6 @@ checking
 .
 for
 (
-const
 auto
 &
 matcher
@@ -597,7 +595,6 @@ methods
 .
 for
 (
-const
 auto
 *
 matcher

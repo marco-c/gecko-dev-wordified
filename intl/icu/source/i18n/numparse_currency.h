@@ -90,8 +90,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 numparse
-:
-:
+{
+namespace
 impl
 {
 using
@@ -399,10 +399,12 @@ const
 /
 /
 namespace
-numparse
-:
-:
 impl
+}
+/
+/
+namespace
+numparse
 U_NAMESPACE_END
 #
 endif

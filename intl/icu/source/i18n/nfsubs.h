@@ -1716,8 +1716,6 @@ UBool
 lenientParse
 uint32_t
 nonNumericalExecutedRuleMask
-int32_t
-recursionCount
 Formattable
 &
 result
