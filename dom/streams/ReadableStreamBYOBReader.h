@@ -216,6 +216,9 @@ ReadIntoRequest
 class
 ReadableStream
 ;
+struct
+ReadableStreamBYOBReaderReadOptions
+;
 }
 /
 /
@@ -360,6 +363,10 @@ const
 ArrayBufferView
 &
 aArray
+const
+ReadableStreamBYOBReaderReadOptions
+&
+aOptions
 ErrorResult
 &
 rv
@@ -446,6 +453,8 @@ JSObject
 *
 >
 aView
+uint64_t
+aMin
 ReadIntoRequest
 *
 aReadIntoRequest
