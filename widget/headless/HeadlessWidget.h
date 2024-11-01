@@ -364,13 +364,6 @@ signature
 not
 overridden
 here
-nsIWidget
-*
-GetTopLevelWidget
-(
-)
-override
-;
 void
 GetCompositorWidgetInitData
 (
@@ -829,10 +822,6 @@ mDestroyed
 ;
 bool
 mAlwaysOnTop
-;
-nsIWidget
-*
-mTopLevel
 ;
 HeadlessCompositorWidget
 *
