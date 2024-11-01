@@ -41386,7 +41386,12 @@ sPageLoadEventCounter
 30
 )
 {
-NS_SUCCEEDED
+Unused
+<
+<
+NS_WARN_IF
+(
+NS_FAILED
 (
 NS_DispatchToMainThreadQueue
 (
@@ -41420,6 +41425,7 @@ EventQueuePriority
 :
 :
 Idle
+)
 )
 )
 ;
