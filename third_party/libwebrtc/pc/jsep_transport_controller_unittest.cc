@@ -809,6 +809,7 @@ nullptr
 async_resolver_factory
 *
 /
+payload_type_picker_
 std
 :
 :
@@ -2674,6 +2675,12 @@ DtlsTransportInternal
 *
 >
 changed_dtls_transport_by_mid_
+;
+webrtc
+:
+:
+PayloadTypePicker
+payload_type_picker_
 ;
 /
 /

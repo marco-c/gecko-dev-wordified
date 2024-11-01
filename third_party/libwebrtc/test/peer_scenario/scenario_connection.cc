@@ -469,6 +469,9 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
+PayloadTypePicker
+payload_type_picker_
+;
 std
 :
 :
@@ -762,6 +765,7 @@ async_resolver_factory
 *
 /
 nullptr
+payload_type_picker_
 CreateJsepConfig
 (
 )

@@ -3309,6 +3309,17 @@ GetNetworkController
 )
 ;
 }
+PayloadTypePicker
+&
+payload_type_picker
+(
+)
+override
+{
+return
+payload_type_picker_
+;
+}
 protected
 :
 /
@@ -5069,6 +5080,9 @@ signaling_thread
 )
 =
 false
+;
+PayloadTypePicker
+payload_type_picker_
 ;
 /
 /
