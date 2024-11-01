@@ -1641,14 +1641,9 @@ icScript
 frame
 -
 >
-setInterpreterFields
+setInterpreterFieldsForPrologue
 (
 script
--
->
-code
-(
-)
 )
 ;
 #
