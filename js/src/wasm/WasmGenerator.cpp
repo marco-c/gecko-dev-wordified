@@ -7319,7 +7319,7 @@ ifdef
 JS_JITSPEW
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 mozilla
 :
 :
@@ -7991,7 +7991,7 @@ bodyLength
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 mozilla
 :
 :
@@ -9563,7 +9563,7 @@ ifdef
 JS_JITSPEW
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 mozilla
 :
 :

@@ -1550,7 +1550,7 @@ run
 with
 MOZ_LOG
 =
-wasmCodeMetaStats
+wasmPerf
 :
 3
 /
@@ -1638,7 +1638,7 @@ Info
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 CM
@@ -1673,7 +1673,7 @@ this
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 -
@@ -1695,7 +1695,7 @@ Settings
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 w_lazy_tiering_level
@@ -1719,7 +1719,7 @@ rawLevel
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 w_inlining_level
@@ -1743,7 +1743,7 @@ rawLevel
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 w_direct_inlining
@@ -1769,7 +1769,7 @@ false
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 w_call_ref_inlining
@@ -1795,7 +1795,7 @@ false
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 w_call_ref_inlining_percent
@@ -1819,7 +1819,7 @@ rawCallRefPercent
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 -
@@ -1841,7 +1841,7 @@ Tier
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -1857,7 +1857,7 @@ completeNumFuncs
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -1886,7 +1886,7 @@ numCallRefMetrics
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -1914,7 +1914,7 @@ CallRefMetrics
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 -
@@ -1936,7 +1936,7 @@ Tier
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -1952,7 +1952,7 @@ partialNumFuncs
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -1969,7 +1969,7 @@ partialBCSize
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -1986,7 +1986,7 @@ partialNumFuncsInlinedDirect
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -2003,7 +2003,7 @@ partialNumFuncsInlinedCallRef
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -2021,7 +2021,7 @@ partialBCInlinedSizeDirect
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -2039,7 +2039,7 @@ partialBCInlinedSizeCallRef
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -2056,7 +2056,7 @@ partialInlineBudgetOverruns
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -2079,7 +2079,7 @@ partialCodeBytesMapped
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -2197,7 +2197,7 @@ partialCodeBytesMapped
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 -
@@ -2219,7 +2219,7 @@ Values
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -2246,7 +2246,7 @@ inliningExpansion
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 %
@@ -2272,7 +2272,7 @@ codeSpaceUseRatio
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 -
@@ -2286,7 +2286,7 @@ level
 ;
 JS_LOG
 (
-wasmCodeMetaStats
+wasmPerf
 level
 "
 >
