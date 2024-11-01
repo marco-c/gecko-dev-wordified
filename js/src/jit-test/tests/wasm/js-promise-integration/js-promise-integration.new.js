@@ -896,7 +896,9 @@ exports
 test
 )
 ;
-await
+const
+p
+=
 wrapped_export
 (
 )
@@ -912,6 +914,9 @@ g
 .
 value
 )
+;
+await
+p
 ;
 }
 "

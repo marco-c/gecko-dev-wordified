@@ -622,6 +622,10 @@ jsStringConstants
 (
 false
 )
+requireExnref
+(
+false
+)
 #
 ifdef
 ENABLE_WASM_GC
@@ -706,6 +710,15 @@ jsStringConstants
 ;
 SharedChars
 jsStringConstantsNamespace
+;
+/
+/
+Enable
+exnref
+support
+.
+bool
+requireExnref
 ;
 #
 ifdef
