@@ -930,7 +930,7 @@ self
 .
 config
 .
-sibling_program_path
+installation_program_path
 (
 "
 pingsender
@@ -1009,6 +1009,15 @@ to
 be
 sent
 .
+map
+.
+remove
+(
+"
+ProfileDirectory
+"
+)
+;
 map
 .
 remove
