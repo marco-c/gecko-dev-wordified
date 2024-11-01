@@ -448,11 +448,6 @@ frame
 at
 return_call_ref
 .
-wasmGcEnabled
-(
-)
-&
-&
 wasmRunWithDebugger
 (
 '

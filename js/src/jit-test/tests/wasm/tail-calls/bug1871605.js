@@ -40,15 +40,6 @@ compiler
 =
 ion
 true
-;
-skip
--
-if
-:
-!
-wasmGcEnabled
-(
-)
 var
 dbg
 =

@@ -19,15 +19,6 @@ wasm_test_serialization
 =
 true
 true
-;
-skip
--
-if
-:
-!
-wasmGcEnabled
-(
-)
 gczeal
 (
 18

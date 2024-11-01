@@ -5,12 +5,6 @@ jit
 -
 test
 |
--
--
-setpref
-=
-wasm_gc
-;
 test
 -
 also

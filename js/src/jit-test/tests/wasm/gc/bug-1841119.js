@@ -20,15 +20,6 @@ offthread
 compile
 =
 off
-;
-skip
--
-if
-:
-!
-wasmGcEnabled
-(
-)
 function
 f
 (

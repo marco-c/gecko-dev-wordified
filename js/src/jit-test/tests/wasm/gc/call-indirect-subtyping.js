@@ -16,15 +16,6 @@ setpref
 wasm_tail_calls
 =
 true
-;
-skip
--
-if
-:
-!
-wasmGcEnabled
-(
-)
 /
 /
 Test

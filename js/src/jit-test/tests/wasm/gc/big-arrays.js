@@ -15,12 +15,6 @@ skip
 -
 if
 :
-!
-wasmGcEnabled
-(
-)
-|
-|
 getBuildConfiguration
 (
 "

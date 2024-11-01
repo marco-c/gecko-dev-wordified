@@ -9,12 +9,6 @@ skip
 -
 if
 :
-!
-wasmGcEnabled
-(
-)
-|
-|
 wasmCompileMode
 (
 )

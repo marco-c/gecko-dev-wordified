@@ -46,12 +46,6 @@ skip
 if
 :
 !
-wasmGcEnabled
-(
-)
-|
-|
-!
 (
 '
 Function

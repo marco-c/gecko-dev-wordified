@@ -16,15 +16,6 @@ setpref
 wasm_test_serialization
 =
 true
-;
-skip
--
-if
-:
-!
-wasmGcEnabled
-(
-)
 let
 {
 run

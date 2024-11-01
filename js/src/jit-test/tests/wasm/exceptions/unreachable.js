@@ -11,13 +11,6 @@ also
 =
 -
 -
-setpref
-=
-wasm_gc
-=
-true
--
--
 wasm
 -
 compiler
@@ -28,13 +21,6 @@ test
 -
 also
 =
--
--
-setpref
-=
-wasm_gc
-=
-true
 -
 -
 wasm
@@ -80,13 +66,6 @@ popping
 /
 )
 ;
-if
-(
-wasmGcEnabled
-(
-)
-)
-{
 wasmFailValidateText
 (
 (
@@ -155,4 +134,3 @@ local
 /
 )
 ;
-}

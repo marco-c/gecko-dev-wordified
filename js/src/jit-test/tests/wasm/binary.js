@@ -3800,18 +3800,6 @@ let
 reservedGc
 =
 {
-}
-;
-if
-(
-wasmGcEnabled
-(
-)
-)
-{
-reservedGc
-=
-{
 /
 /
 Structure
@@ -3923,7 +3911,6 @@ true
 true
 }
 ;
-}
 for
 (
 let

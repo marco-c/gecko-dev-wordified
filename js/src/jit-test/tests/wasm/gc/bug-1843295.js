@@ -5,15 +5,6 @@ jit
 -
 test
 |
-skip
--
-if
-:
-!
-wasmGcEnabled
-(
-)
-;
 -
 -
 setpref

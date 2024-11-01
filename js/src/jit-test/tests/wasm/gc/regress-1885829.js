@@ -6,15 +6,6 @@ jit
 test
 |
 slow
-;
-skip
--
-if
-:
-!
-wasmGcEnabled
-(
-)
 const
 {
 test

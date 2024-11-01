@@ -14,15 +14,6 @@ also
 setpref
 =
 wasm_test_serialization
-;
-skip
--
-if
-:
-!
-wasmGcEnabled
-(
-)
 /
 /
 Conditional
