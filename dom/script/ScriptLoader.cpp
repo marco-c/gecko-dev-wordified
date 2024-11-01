@@ -20033,6 +20033,13 @@ cx
 profilerLabelString
 )
 ;
+MOZ_ASSERT
+(
+options
+.
+noScriptRval
+)
+;
 ExecuteCompiledScript
 (
 cx

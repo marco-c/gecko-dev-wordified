@@ -2457,6 +2457,14 @@ Failed
 )
 )
 {
+MOZ_ASSERT
+(
+!
+options
+.
+noScriptRval
+)
+;
 exec
 .
 ExecScript
