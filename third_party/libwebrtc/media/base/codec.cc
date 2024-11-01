@@ -1445,7 +1445,7 @@ type
 Codec
 (
 type
-0
+kIdNotSet
 "
 "
 0
@@ -1472,7 +1472,7 @@ Type
 :
 :
 kAudio
-0
+kIdNotSet
 c
 .
 name
@@ -1511,7 +1511,7 @@ Type
 :
 :
 kVideo
-0
+kIdNotSet
 c
 .
 name
@@ -3901,7 +3901,10 @@ name
 return
 CreateVideoCodec
 (
-0
+Codec
+:
+:
+kIdNotSet
 name
 )
 ;
