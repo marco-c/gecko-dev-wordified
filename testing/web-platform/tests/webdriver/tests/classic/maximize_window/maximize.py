@@ -62,6 +62,8 @@ document_hidden
 is_fullscreen
     
 is_maximized
+    
+is_not_maximized
 )
 def
 maximize
@@ -154,11 +156,18 @@ session
 :
     
 assert
-not
-is_maximized
+is_not_maximized
 (
 session
 )
+    
+original
+=
+session
+.
+window
+.
+rect
     
 response
 =
@@ -183,6 +192,7 @@ assert
 is_maximized
 (
 session
+original
 )
     
 assert
@@ -255,11 +265,18 @@ session
 :
     
 assert
-not
-is_maximized
+is_not_maximized
 (
 session
 )
+    
+original
+=
+session
+.
+window
+.
+rect
     
 session
 .
@@ -296,70 +313,7 @@ assert
 is_maximized
 (
 session
-)
-    
-assert
-not
-document_hidden
-(
-session
-)
-def
-test_restore_from_minimized
-(
-session
-)
-:
-    
-assert
-not
-is_maximized
-(
-session
-)
-    
-session
-.
-window
-.
-minimize
-(
-)
-    
-assert
-document_hidden
-(
-session
-)
-    
-assert
-not
-is_maximized
-(
-session
-)
-    
-response
-=
-maximize
-(
-session
-)
-    
-assert_success
-(
-response
-session
-.
-window
-.
-rect
-)
-    
-assert
-is_maximized
-(
-session
+original
 )
     
 assert
@@ -376,11 +330,18 @@ session
 :
     
 assert
-not
-is_maximized
+is_not_maximized
 (
 session
 )
+    
+original
+=
+session
+.
+window
+.
+rect
     
 response
 =
@@ -403,6 +364,7 @@ assert
 is_maximized
 (
 session
+original
 )
     
 assert
@@ -420,11 +382,18 @@ available_screen_size
 :
     
 assert
-not
-is_maximized
+is_not_maximized
 (
 session
 )
+    
+original
+=
+session
+.
+window
+.
+rect
     
 #
 Resize
@@ -540,6 +509,7 @@ assert
 is_maximized
 (
 session
+original
 )
     
 assert
@@ -556,11 +526,18 @@ session
 :
     
 assert
-not
-is_maximized
+is_not_maximized
 (
 session
 )
+    
+original
+=
+session
+.
+window
+.
+rect
     
 first_response
 =
@@ -583,6 +560,7 @@ assert
 is_maximized
 (
 session
+original
 )
     
 assert
@@ -613,6 +591,7 @@ assert
 is_maximized
 (
 session
+original
 )
     
 assert
