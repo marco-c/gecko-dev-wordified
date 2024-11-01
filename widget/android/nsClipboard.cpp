@@ -547,6 +547,16 @@ return
 rv
 ;
 }
+bool
+isPrivate
+=
+aTransferable
+-
+>
+GetIsPrivateData
+(
+)
+;
 if
 (
 !
@@ -576,6 +586,7 @@ GetApplicationContext
 )
 text
 html
+isPrivate
 )
 )
 {
@@ -611,6 +622,7 @@ GetApplicationContext
 (
 )
 text
+isPrivate
 )
 )
 {
