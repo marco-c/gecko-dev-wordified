@@ -65,6 +65,11 @@ if
 U_SHOW_CPLUSPLUS_API
 #
 include
+<
+optional
+>
+#
+include
 "
 unicode
 /
@@ -814,6 +819,9 @@ struct
 LSR
 ;
 class
+LikelySubtags
+;
+class
 LocaleDistance
 ;
 class
@@ -821,9 +829,6 @@ LocaleLsrIterator
 ;
 class
 UVector
-;
-class
-XLikelySubtags
 ;
 /
 *
@@ -4730,7 +4735,13 @@ UErrorCode
 errorCode
 )
 ;
+std
+:
+:
+optional
+<
 int32_t
+>
 getBestSuppIndex
 (
 LSR
@@ -4745,7 +4756,7 @@ errorCode
 const
 ;
 const
-XLikelySubtags
+LikelySubtags
 &
 likelySubtags
 ;

@@ -67,8 +67,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 number
-{
-namespace
+:
+:
 impl
 {
 namespace
@@ -1266,12 +1266,10 @@ status
 /
 /
 namespace
-impl
-}
-/
-/
-namespace
 number
+:
+:
+impl
 U_NAMESPACE_END
 #
 endif

@@ -76,8 +76,8 @@ h
 U_NAMESPACE_BEGIN
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 /
@@ -815,12 +815,10 @@ fAllowTrailing
 /
 /
 namespace
-impl
-}
-/
-/
-namespace
 numparse
+:
+:
+impl
 U_NAMESPACE_END
 #
 endif

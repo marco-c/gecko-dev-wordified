@@ -362,7 +362,6 @@ toUnicodeString
 )
 const
 ;
-const
 UnicodeString
 toTempUnicodeString
 (

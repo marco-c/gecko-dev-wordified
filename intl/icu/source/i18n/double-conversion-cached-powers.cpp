@@ -428,8 +428,8 @@ namespace
 U_NAMESPACE_BEGIN
 namespace
 double_conversion
-{
-namespace
+:
+:
 PowersOfTenCache
 {
 struct
@@ -1603,12 +1603,10 @@ kDecimalExponentDistance
 /
 /
 namespace
-PowersOfTenCache
-}
-/
-/
-namespace
 double_conversion
+:
+:
+PowersOfTenCache
 /
 /
 ICU

@@ -237,8 +237,8 @@ NumberParseMatcher
 endif
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 /
@@ -590,12 +590,10 @@ const
 /
 /
 namespace
-impl
-}
-/
-/
-namespace
 numparse
+:
+:
+impl
 U_NAMESPACE_END
 #
 endif

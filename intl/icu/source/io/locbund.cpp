@@ -658,10 +658,10 @@ if
 result
 =
 =
-0
+nullptr
 )
 return
-0
+nullptr
 ;
 if
 (
@@ -722,11 +722,11 @@ result
 fLocale
 =
 =
-0
+nullptr
 )
 {
 return
-0
+nullptr
 ;
 }
 uprv_strcpy

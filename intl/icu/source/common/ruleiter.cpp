@@ -381,7 +381,7 @@ theSym
 )
 buf
 (
-0
+nullptr
 )
 bufPos
 (
@@ -402,7 +402,7 @@ return
 buf
 =
 =
-0
+nullptr
 &
 &
 pos
@@ -488,7 +488,7 @@ SYMBOL_REF
 buf
 =
 =
-0
+nullptr
 &
 &
 (
@@ -504,7 +504,7 @@ PARSE_VARIABLES
 sym
 !
 =
-0
+nullptr
 )
 {
 UnicodeString
@@ -582,7 +582,7 @@ if
 buf
 =
 =
-0
+nullptr
 )
 {
 ec
@@ -614,7 +614,7 @@ length
 {
 buf
 =
-0
+nullptr
 ;
 }
 continue
@@ -889,7 +889,7 @@ if
 buf
 !
 =
-0
+nullptr
 )
 {
 buf
@@ -1015,7 +1015,7 @@ if
 buf
 !
 =
-0
+nullptr
 )
 {
 return
@@ -1057,10 +1057,13 @@ char32At
 i
 )
 :
-(
+static_cast
+<
 UChar32
-)
+>
+(
 DONE
+)
 ;
 }
 }
@@ -1079,7 +1082,7 @@ if
 buf
 !
 =
-0
+nullptr
 )
 {
 bufPos
@@ -1102,7 +1105,7 @@ length
 {
 buf
 =
-0
+nullptr
 ;
 }
 }

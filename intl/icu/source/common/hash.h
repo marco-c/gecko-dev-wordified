@@ -1194,7 +1194,7 @@ status
 :
 hash
 (
-0
+nullptr
 )
 {
 init
@@ -1221,7 +1221,7 @@ status
 :
 hash
 (
-0
+nullptr
 )
 {
 init
@@ -1258,7 +1258,7 @@ status
 :
 hash
 (
-0
+nullptr
 )
 {
 initSize
@@ -1292,7 +1292,7 @@ status
 :
 hash
 (
-0
+nullptr
 )
 {
 init
@@ -1314,7 +1314,7 @@ Hashtable
 :
 hash
 (
-0
+nullptr
 )
 {
 UErrorCode

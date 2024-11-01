@@ -98,14 +98,13 @@ Forward
 declarations
 namespace
 number
-{
-namespace
+:
+:
 impl
 {
 class
 UFormattedNumberRangeData
 ;
-}
 }
 class
 StandardPluralRanges

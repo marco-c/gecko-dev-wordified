@@ -548,6 +548,7 @@ to
 allocate
 .
 auto
+*
 digitStrings
 =
 new

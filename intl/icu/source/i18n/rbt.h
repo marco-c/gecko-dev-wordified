@@ -874,7 +874,7 @@ UnicodeFilter
 *
 adoptedFilter
 =
-0
+nullptr
 )
 ;
 friend

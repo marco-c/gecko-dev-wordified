@@ -187,7 +187,6 @@ string
 .
 *
 /
-static
 bool
 matched
 (
@@ -258,7 +257,6 @@ null
 .
 *
 /
-static
 int32_t
 length
 (
@@ -338,7 +336,6 @@ equals
 )
 *
 /
-static
 bool
 equals
 (

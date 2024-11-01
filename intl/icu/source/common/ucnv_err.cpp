@@ -918,8 +918,6 @@ code
 accordingly
 *
 /
-return
-;
 }
 /
 *
@@ -998,8 +996,6 @@ reason
 void
 )
 err
-;
-return
 ;
 }
 U_CAPI
@@ -2365,8 +2361,6 @@ err2
 return
 ;
 }
-return
-;
 }
 U_CAPI
 void

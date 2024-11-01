@@ -1267,7 +1267,6 @@ virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -1300,7 +1299,6 @@ CharacterIterator
 &
 getText
 (
-void
 )
 const
 =
@@ -1819,11 +1817,14 @@ ICU
 /
 DONE
 =
-(
+static_cast
+<
 int32_t
-)
+>
+(
 -
 1
+)
 }
 ;
 /
@@ -1868,7 +1869,6 @@ virtual
 int32_t
 first
 (
-void
 )
 =
 0
@@ -1922,7 +1922,6 @@ virtual
 int32_t
 last
 (
-void
 )
 =
 0
@@ -1975,7 +1974,6 @@ virtual
 int32_t
 previous
 (
-void
 )
 =
 0
@@ -2027,7 +2025,6 @@ virtual
 int32_t
 next
 (
-void
 )
 =
 0
@@ -2068,7 +2065,6 @@ virtual
 int32_t
 current
 (
-void
 )
 const
 =
@@ -4367,7 +4363,6 @@ inline
 UBool
 isBufferClone
 (
-void
 )
 ;
 #
@@ -4745,7 +4740,6 @@ StringEnumeration
 U_EXPORT2
 getAvailableLocales
 (
-void
 )
 ;
 #
@@ -5280,6 +5274,12 @@ ULOC_FULLNAME_CAPACITY
 ;
 char
 validLocale
+[
+ULOC_FULLNAME_CAPACITY
+]
+;
+char
+requestLocale
 [
 ULOC_FULLNAME_CAPACITY
 ]

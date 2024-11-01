@@ -3019,7 +3019,6 @@ char16_t
 *
 getCurrencyPattern
 (
-void
 )
 const
 ;
@@ -3048,7 +3047,6 @@ char
 *
 getNumberingSystemName
 (
-void
 )
 const
 ;
@@ -3863,10 +3861,13 @@ sym
 ;
 fSymbols
 [
-(
+static_cast
+<
 int
-)
+>
+(
 kOneDigitSymbol
+)
 +
 i
 -

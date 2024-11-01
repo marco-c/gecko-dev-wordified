@@ -156,8 +156,8 @@ NumberParseMatcher
 endif
 namespace
 numparse
-{
-namespace
+:
+:
 impl
 {
 /
@@ -738,12 +738,10 @@ fMatchersLen
 /
 /
 namespace
-impl
-}
-/
-/
-namespace
 numparse
+:
+:
+impl
 U_NAMESPACE_END
 #
 endif

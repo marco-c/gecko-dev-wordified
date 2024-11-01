@@ -475,10 +475,6 @@ return
 dataIs32
 =
 (
-UBool
-)
-(
-(
 trie
 .
 options
@@ -488,7 +484,6 @@ UTRIE_OPTIONS_DATA_IS_32_BIT
 !
 =
 0
-)
 ;
 size
 =
@@ -2020,12 +2015,15 @@ return
 signature
 =
 *
-(
+static_cast
+<
 const
 uint32_t
 *
-)
+>
+(
 data
+)
 ;
 if
 (

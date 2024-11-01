@@ -1619,6 +1619,7 @@ extern
 void
 init
 (
+void
 )
 {
 sprepTrie
@@ -1800,10 +1801,6 @@ p2
 )
 {
 return
-(
-UBool
-)
-(
 p1
 .
 integer
@@ -1812,7 +1809,6 @@ integer
 p2
 .
 integer
-)
 ;
 }
 static

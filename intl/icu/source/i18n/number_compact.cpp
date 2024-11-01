@@ -1084,7 +1084,9 @@ HashSet
 .
 for
 (
+const
 auto
+*
 pattern
 :
 patterns
@@ -2241,7 +2243,9 @@ i
 +
 )
 {
+const
 auto
+*
 patternString
 =
 static_cast

@@ -535,7 +535,7 @@ sLimit
 &
 us
 uLimit
-0
+nullptr
 false
 &
 errorCode
@@ -826,10 +826,13 @@ sLimit
 &
 ch
 +
-(
+static_cast
+<
 int
-)
+>
+(
 continueReading
+)
 ;
 us
 =
@@ -904,7 +907,7 @@ uLimit
 &
 s
 sLimit
-0
+nullptr
 !
 continueReading
 &

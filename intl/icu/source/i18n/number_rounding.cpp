@@ -2651,7 +2651,7 @@ fMinSig
 {
 value
 .
-setMinInteger
+increaseMinIntegerTo
 (
 1
 )

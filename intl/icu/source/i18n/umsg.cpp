@@ -1347,7 +1347,7 @@ status
 )
 {
 return
-0
+nullptr
 ;
 }
 if
@@ -1370,7 +1370,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-0
+nullptr
 ;
 }
 UParseError
@@ -1599,7 +1599,7 @@ if
 retVal
 =
 =
-0
+nullptr
 )
 {
 *
@@ -1608,7 +1608,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-0
+nullptr
 ;
 }
 return
@@ -1910,7 +1910,7 @@ resultLength
 result
 =
 =
-0
+nullptr
 )
 )
 {
@@ -2129,7 +2129,7 @@ if
 status
 =
 =
-0
+nullptr
 |
 |
 U_FAILURE
@@ -2166,7 +2166,7 @@ resultLength
 result
 =
 =
-0
+nullptr
 )
 )
 {
@@ -3036,9 +3036,6 @@ aInt
 *
 aInt
 =
-(
-int32_t
-)
 args
 [
 i

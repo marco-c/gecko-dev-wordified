@@ -786,7 +786,6 @@ ContextualHandler
 )
 {
 }
-static
 const
 char16_t
 *
@@ -803,7 +802,6 @@ y
 }
 "
 ;
-static
 const
 char16_t
 *
@@ -820,7 +818,6 @@ e
 }
 "
 ;
-static
 const
 char16_t
 *
@@ -837,7 +834,6 @@ o
 }
 "
 ;
-static
 const
 char16_t
 *
@@ -854,7 +850,6 @@ u
 }
 "
 ;
-static
 const
 char16_t
 *
@@ -872,7 +867,6 @@ u05D5
 }
 "
 ;
-static
 const
 char16_t
 *
@@ -920,7 +914,6 @@ nor
 "
 hia
 "
-static
 bool
 shouldChangeToE
 (
@@ -1183,7 +1176,6 @@ ho
 |
 11
 )
-static
 bool
 shouldChangeToU
 (
@@ -1437,7 +1429,6 @@ non
 Hebrew
 letter
 .
-static
 bool
 shouldChangeToVavDash
 (

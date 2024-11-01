@@ -246,6 +246,13 @@ ICU
 #
 include
 "
+tzdir
+.
+h
+"
+#
+include
+"
 dirent
 .
 h
