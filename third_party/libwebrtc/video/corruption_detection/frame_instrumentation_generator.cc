@@ -218,6 +218,15 @@ h
 #
 include
 "
+common_video
+/
+frame_instrumentation_data
+.
+h
+"
+#
+include
+"
 modules
 /
 include
