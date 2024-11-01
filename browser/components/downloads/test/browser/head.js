@@ -1171,11 +1171,11 @@ originalOnPopupShown
 =
 DownloadsPanel
 .
-onPopupShown
+_onPopupShown
 ;
 DownloadsPanel
 .
-onPopupShown
+_onPopupShown
 =
 function
 (
@@ -1183,7 +1183,7 @@ function
 {
 DownloadsPanel
 .
-onPopupShown
+_onPopupShown
 =
 originalOnPopupShown
 ;

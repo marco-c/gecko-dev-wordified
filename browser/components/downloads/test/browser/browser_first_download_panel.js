@@ -490,11 +490,11 @@ originalOnPopupShown
 =
 DownloadsPanel
 .
-onPopupShown
+_onPopupShown
 ;
 DownloadsPanel
 .
-onPopupShown
+_onPopupShown
 =
 function
 (
@@ -569,7 +569,7 @@ resolve
 ;
 DownloadsPanel
 .
-onPopupShown
+_onPopupShown
 =
 originalOnPopupShown
 ;
