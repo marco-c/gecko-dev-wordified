@@ -269,8 +269,8 @@ bool
 ShouldHandleMediaType
 (
 const
-nsACString
-&
+char
+*
 aMIMEType
 DecoderDoctorDiagnostics
 *
