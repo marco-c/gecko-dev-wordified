@@ -8979,8 +8979,6 @@ result
 =
 InitAndSetControlSettings
 (
-&
-codec_
 )
 ;
 if
