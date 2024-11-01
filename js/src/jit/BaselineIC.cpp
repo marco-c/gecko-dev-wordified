@@ -3130,6 +3130,9 @@ tableValue
 TrampolinePtr
 stubCode
 =
+#
+ifdef
+ENABLE_PORTABLE_BASELINE_INTERP
 !
 jit
 :
@@ -3159,6 +3162,17 @@ kind
 )
 )
 ;
+#
+else
+fallbackCode
+.
+addr
+(
+kind
+)
+;
+#
+endif
 /
 /
 Initialize
