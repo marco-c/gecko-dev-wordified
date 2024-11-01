@@ -262,6 +262,12 @@ querySelector
 why
 -
 paused
+:
+not
+(
+.
+hidden
+)
 "
 )
 )
@@ -314,7 +320,6 @@ waitUntil
 )
 =
 >
-!
 dbg
 .
 win
@@ -328,6 +333,8 @@ querySelector
 why
 -
 paused
+.
+hidden
 "
 )
 )
