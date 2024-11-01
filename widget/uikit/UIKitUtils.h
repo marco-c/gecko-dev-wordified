@@ -94,6 +94,12 @@ MPL
 *
 /
 #
+ifndef
+mozilla_widget_UIKitUtils_h__
+#
+define
+mozilla_widget_UIKitUtils_h__
+#
 import
 <
 UIKit
@@ -164,6 +170,16 @@ InputContext
 aContext
 )
 ;
+static
+UITextAutocorrectionType
+GetUITextAutocorrectionType
+(
+const
+InputContext
+&
+aContext
+)
+;
 }
 ;
 }
@@ -174,3 +190,5 @@ mozilla
 :
 :
 widget
+#
+endif
