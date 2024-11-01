@@ -675,6 +675,10 @@ while
 )
 #
 endif
+#
+define
+PBL_HYBRID_ICS_DEFAULT
+true
 /
 /
 Whether
@@ -722,9 +726,9 @@ future
 static
 const
 bool
-kHybridICs
+kHybridICsInterp
 =
-true
+PBL_HYBRID_ICS_DEFAULT
 ;
 /
 /
@@ -17131,6 +17135,7 @@ result
 PortableBaselineInterpret
 <
 false
+kHybridICsInterp
 >
 (
 cx
@@ -17745,6 +17750,7 @@ result
 PortableBaselineInterpret
 <
 false
+kHybridICsInterp
 >
 (
 cx
@@ -18410,6 +18416,7 @@ result
 PortableBaselineInterpret
 <
 false
+kHybridICsInterp
 >
 (
 cx
@@ -40885,6 +40892,8 @@ template
 <
 bool
 IsRestart
+bool
+HybridICs
 >
 PBIResult
 PortableBaselineInterpret
@@ -42592,7 +42601,7 @@ JSOpLength_TypeofExpr
 ;
 if
 (
-kHybridICs
+HybridICs
 )
 {
 SYNCSP
@@ -42671,7 +42680,7 @@ TypeofEq
 {
 if
 (
-kHybridICs
+HybridICs
 )
 {
 TypeofEqOperand
@@ -43291,7 +43300,7 @@ NEXT_IC
 else
 if
 (
-kHybridICs
+HybridICs
 )
 {
 SYNCSP
@@ -43420,7 +43429,7 @@ Not
 {
 if
 (
-kHybridICs
+HybridICs
 )
 {
 SYNCSP
@@ -43513,7 +43522,7 @@ result
 ;
 if
 (
-kHybridICs
+HybridICs
 )
 {
 SYNCSP
@@ -43627,7 +43636,7 @@ result
 ;
 if
 (
-kHybridICs
+HybridICs
 )
 {
 SYNCSP
@@ -43740,7 +43749,7 @@ result
 ;
 if
 (
-kHybridICs
+HybridICs
 )
 {
 result
@@ -43852,7 +43861,7 @@ result
 ;
 if
 (
-kHybridICs
+HybridICs
 )
 {
 result
@@ -44170,7 +44179,7 @@ Add
 }
 if
 (
-kHybridICs
+HybridICs
 )
 {
 MutableHandleValue
@@ -44453,7 +44462,7 @@ Add
 }
 if
 (
-kHybridICs
+HybridICs
 )
 {
 MutableHandleValue
@@ -44761,7 +44770,7 @@ Mul
 }
 if
 (
-kHybridICs
+HybridICs
 )
 {
 MutableHandleValue
@@ -44928,7 +44937,7 @@ Div
 }
 if
 (
-kHybridICs
+HybridICs
 )
 {
 MutableHandleValue
@@ -45206,7 +45215,7 @@ Mod
 }
 if
 (
-kHybridICs
+HybridICs
 )
 {
 MutableHandleValue
@@ -45373,7 +45382,7 @@ Pow
 }
 if
 (
-kHybridICs
+HybridICs
 )
 {
 MutableHandleValue
@@ -47672,7 +47681,7 @@ StrictNe
 {
 if
 (
-kHybridICs
+HybridICs
 )
 {
 bool
@@ -48520,7 +48529,7 @@ NewInit
 {
 if
 (
-kHybridICs
+HybridICs
 )
 {
 JSObject
@@ -48631,7 +48640,7 @@ NewObject
 {
 if
 (
-kHybridICs
+HybridICs
 )
 {
 JSObject
@@ -51348,7 +51357,7 @@ NewArray
 {
 if
 (
-kHybridICs
+HybridICs
 )
 {
 ArrayObject
@@ -60382,6 +60391,7 @@ return
 PortableBaselineInterpret
 <
 true
+HybridICs
 >
 (
 ctx
@@ -62233,6 +62243,7 @@ ret
 PortableBaselineInterpret
 <
 false
+kHybridICsInterp
 >
 (
 cx

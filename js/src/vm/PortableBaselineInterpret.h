@@ -3380,6 +3380,8 @@ template
 <
 bool
 IsRestart
+bool
+HybridICs
 >
 PBIResult
 PortableBaselineInterpret
