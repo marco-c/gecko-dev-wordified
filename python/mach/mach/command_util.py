@@ -334,6 +334,27 @@ py
 )
     
 "
+android
+-
+test
+"
+:
+MachCommandReference
+(
+"
+testing
+/
+android
+-
+test
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 artifact
 "
 :
