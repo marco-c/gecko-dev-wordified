@@ -666,6 +666,14 @@ GetCookieJarSettings
 )
 final
 ;
+nsIURI
+*
+GetBaseURI
+(
+)
+const
+final
+;
 Maybe
 <
 ClientInfo
