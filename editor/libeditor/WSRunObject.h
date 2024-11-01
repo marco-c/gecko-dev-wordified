@@ -11366,10 +11366,6 @@ const
 EditorDOMPointType
 &
 aPoint
-const
-Element
-&
-aEditingHost
 )
 ;
 private
