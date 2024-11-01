@@ -2310,7 +2310,10 @@ self
 .
 in_negation
 =
-true
+!
+self
+.
+in_negation
 ;
 let
 result
