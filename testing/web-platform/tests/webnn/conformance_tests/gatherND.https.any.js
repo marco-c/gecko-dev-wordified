@@ -1279,7 +1279,7 @@ shape
 dataType
 :
 '
-int64
+int32
 '
 }
 '
@@ -1517,7 +1517,7 @@ shape
 dataType
 :
 '
-int64
+int32
 '
 }
 '
