@@ -38794,7 +38794,11 @@ LS
 aInitializeOrigin
 *
 /
-true
+!
+mForPreload
+|
+|
+mEnableMigration
 /
 *
 aCreateIfNonExistent
