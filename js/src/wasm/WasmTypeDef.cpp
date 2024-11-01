@@ -1594,8 +1594,6 @@ FuncType
 initImmediateTypeId
 (
 bool
-gcEnabled
-bool
 isFinal
 const
 TypeDef
@@ -1795,10 +1793,6 @@ respect
 .
 if
 (
-gcEnabled
-&
-&
-(
 !
 isFinal
 |
@@ -1810,7 +1804,6 @@ recGroupLength
 !
 =
 1
-)
 )
 {
 immediateTypeId_

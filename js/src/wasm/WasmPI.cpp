@@ -7901,12 +7901,6 @@ true
 ;
 options
 .
-requireGC
-=
-true
-;
-options
-.
 requireExnref
 =
 true
@@ -10909,12 +10903,6 @@ options
 options
 .
 isBuiltinModule
-=
-true
-;
-options
-.
-requireGC
 =
 true
 ;
