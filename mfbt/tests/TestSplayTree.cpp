@@ -1392,7 +1392,7 @@ find
 (
 SplayInt
 (
-0
+1
 )
 )
 )
@@ -1402,10 +1402,10 @@ const
 int
 N
 =
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 gValues
 )

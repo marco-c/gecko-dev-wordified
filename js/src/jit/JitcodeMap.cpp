@@ -7991,7 +7991,10 @@ addr
 result
 .
 labels_
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 result
 .

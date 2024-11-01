@@ -726,7 +726,10 @@ if
 ParseArguments
 (
 t
-ArrayLength
+std
+:
+:
+size
 (
 t
 )
@@ -834,7 +837,10 @@ if
 ParseArguments
 (
 s
-ArrayLength
+std
+:
+:
+size
 (
 s
 )
@@ -943,7 +949,10 @@ if
 ParseArguments
 (
 r
-ArrayLength
+std
+:
+:
+size
 (
 r
 )
@@ -1200,7 +1209,10 @@ if
 ParseArguments
 (
 m
-ArrayLength
+std
+:
+:
+size
 (
 m
 )

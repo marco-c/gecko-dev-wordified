@@ -3326,7 +3326,10 @@ BinarySearchIf
 (
 sStaticFileExtensions
 0
-ArrayLength
+std
+:
+:
+size
 (
 sStaticFileExtensions
 )

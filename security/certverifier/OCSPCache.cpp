@@ -461,7 +461,10 @@ get
 (
 )
 array
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 array
 )

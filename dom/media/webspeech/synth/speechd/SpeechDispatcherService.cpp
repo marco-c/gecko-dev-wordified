@@ -1781,7 +1781,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 kSpeechDispatcherSymbols
 )

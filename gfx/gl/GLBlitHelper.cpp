@@ -4957,7 +4957,10 @@ mGL
 fShaderSource
 (
 mDrawBlitProg_VertShader
-ArrayLength
+std
+:
+:
+size
 (
 parts
 )

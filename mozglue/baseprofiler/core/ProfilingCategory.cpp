@@ -354,7 +354,10 @@ aCategoryPair
 {
 static_assert
 (
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 sProfilingCategoryPairInfo
 )

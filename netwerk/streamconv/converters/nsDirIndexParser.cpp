@@ -612,7 +612,10 @@ aFormatStr
 formatNum
 <
 (
-ArrayLength
+std
+:
+:
+size
 (
 mFormat
 )

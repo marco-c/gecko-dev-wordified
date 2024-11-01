@@ -198,7 +198,10 @@ HasMore
 count
 !
 =
-ArrayLength
+std
+:
+:
+size
 (
 _exp
 )
@@ -287,7 +290,10 @@ over
 ASSERT_EQ
 (
 count
-ArrayLength
+std
+:
+:
+size
 (
 _exp
 )

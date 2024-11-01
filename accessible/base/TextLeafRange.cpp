@@ -3502,7 +3502,10 @@ result
 .
 SetCapacity
 (
-ArrayLength
+std
+:
+:
+size
 (
 kSelectionTypesToAttributes
 )

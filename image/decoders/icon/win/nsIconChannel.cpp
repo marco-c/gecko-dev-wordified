@@ -1208,7 +1208,10 @@ get
 (
 )
 fileNativePath
-ArrayLength
+std
+:
+:
+size
 (
 fileNativePath
 )
@@ -1295,7 +1298,10 @@ GetShortPathNameW
 (
 specialNativePath
 specialNativePath
-ArrayLength
+std
+:
+:
+size
 (
 specialNativePath
 )

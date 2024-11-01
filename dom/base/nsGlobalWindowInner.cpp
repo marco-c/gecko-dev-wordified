@@ -19627,7 +19627,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 kInterfaceShimMap
 )

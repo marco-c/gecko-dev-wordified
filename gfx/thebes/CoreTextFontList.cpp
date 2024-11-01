@@ -5371,7 +5371,10 @@ end
 =
 begin
 +
-ArrayLength
+std
+:
+:
+size
 (
 kCoreTextToCSSWeights
 )
@@ -8217,7 +8220,10 @@ familyNames
 if
 USE_DEPRECATED_FONT_FAMILY_NAMES
 +
-ArrayLength
+std
+:
+:
+size
 (
 kDeprecatedFontFamilies
 )

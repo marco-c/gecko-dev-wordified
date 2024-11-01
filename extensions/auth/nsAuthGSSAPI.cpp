@@ -1050,7 +1050,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 verLibNames
 )
@@ -1178,7 +1181,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 verLibNames
 )
@@ -1316,7 +1322,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 libNames
 )

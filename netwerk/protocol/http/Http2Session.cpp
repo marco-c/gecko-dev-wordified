@@ -24745,7 +24745,10 @@ if
 (
 mInputFrameType
 <
-ArrayLength
+std
+:
+:
+size
 (
 sControlFunctions
 )

@@ -1256,7 +1256,10 @@ BinarySearchIf
 (
 blackList
 0
-ArrayLength
+std
+:
+:
+size
 (
 blackList
 )

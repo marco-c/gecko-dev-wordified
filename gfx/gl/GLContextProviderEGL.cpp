@@ -5143,7 +5143,10 @@ attribs
 EGLint
 ncfg
 =
-ArrayLength
+std
+:
+:
+size
 (
 configs
 )

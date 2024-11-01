@@ -7330,7 +7330,10 @@ Length
 )
 =
 =
-ArrayLength
+std
+:
+:
+size
 (
 allZero
 )
@@ -7344,7 +7347,10 @@ Elements
 (
 )
 allZero
-ArrayLength
+std
+:
+:
+size
 (
 allZero
 )

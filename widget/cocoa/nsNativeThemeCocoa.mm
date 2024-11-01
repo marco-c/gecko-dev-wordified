@@ -5445,7 +5445,10 @@ MOZ_ASSERT
 (
 sizeIndex
 <
-ArrayLength
+std
+:
+:
+size
 (
 settings
 .
@@ -5609,7 +5612,10 @@ MOZ_ASSERT
 (
 sizeIndex
 <
-ArrayLength
+std
+:
+:
+size
 (
 settings
 .

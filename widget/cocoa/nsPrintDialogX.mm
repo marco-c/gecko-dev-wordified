@@ -2465,7 +2465,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 sHeaderFooterTags
 )
@@ -3139,7 +3142,10 @@ index
 <
 NSInteger
 (
-ArrayLength
+std
+:
+:
+size
 (
 sHeaderFooterTags
 )

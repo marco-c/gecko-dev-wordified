@@ -16469,7 +16469,10 @@ MOZ_ASSERT
 (
 aIdx
 <
-ArrayLength
+std
+:
+:
+size
 (
 mObservers
 )
