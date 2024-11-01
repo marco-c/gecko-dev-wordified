@@ -5675,7 +5675,7 @@ MoveCaret
 nsDirection
 aDirection
 ExtendSelection
-aContinueSelection
+aExtendSelection
 nsSelectionAmount
 aAmount
 CaretMovementStyle
@@ -5709,7 +5709,7 @@ non
 null
 *
 param
-aContinueSelection
+aExtendSelection
 Whether
 the
 selection
@@ -5766,7 +5766,7 @@ Selection
 *
 aSelection
 ExtendSelection
-aContinueSelection
+aExtendSelection
 CaretMovementStyle
 aMovementStyle
 )
@@ -5916,7 +5916,7 @@ PeekOffsetForCaretMove
 nsDirection
 aDirection
 ExtendSelection
-aContinueSelection
+aExtendSelection
 const
 nsSelectionAmount
 aAmount
@@ -6976,7 +6976,7 @@ bool
 IsVisualMovement
 (
 ExtendSelection
-aContinueSelection
+aExtendSelection
 CaretMovementStyle
 aMovementStyle
 )
