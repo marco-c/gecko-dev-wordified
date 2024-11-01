@@ -147,14 +147,6 @@ webrtc
 namespace
 test
 {
-using
-:
-:
-testing
-:
-:
-_
-;
 TEST
 (
 CongestionWindowPushbackControllerTest

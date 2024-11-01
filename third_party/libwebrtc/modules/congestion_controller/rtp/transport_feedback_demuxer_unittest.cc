@@ -311,7 +311,7 @@ kRtpStartSeq
 kTransportStartSeq
 /
 *
-is_retransmit
+is_retransmission
 =
 *
 /
@@ -334,7 +334,7 @@ kTransportStartSeq
 1
 /
 *
-is_retransmit
+is_retransmission
 =
 *
 /
@@ -357,7 +357,7 @@ kTransportStartSeq
 2
 /
 *
-is_retransmit
+is_retransmission
 =
 *
 /

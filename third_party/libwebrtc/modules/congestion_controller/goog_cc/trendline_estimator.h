@@ -480,7 +480,7 @@ void
 UpdateThreshold
 (
 double
-modified_offset
+modified_trend
 int64_t
 now_ms
 )
