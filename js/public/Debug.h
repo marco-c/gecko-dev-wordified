@@ -344,6 +344,16 @@ char16_t
 label
 )
 ;
+extern
+JS_PUBLIC_API
+bool
+JS_TracerIsTracing
+(
+JSContext
+*
+cx
+)
+;
 /
 /
 If
