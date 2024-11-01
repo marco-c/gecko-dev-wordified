@@ -880,7 +880,7 @@ example
 com
 /
 %
-23
+23section
 target
 =
 t
