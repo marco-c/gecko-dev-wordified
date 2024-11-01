@@ -881,10 +881,6 @@ We
 no
 longer
 use
-don
-'
-t
-use
 MOZ_CRASHREPORTER_RESTART_ARG_0
 see
 bug
