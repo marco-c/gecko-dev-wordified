@@ -29441,6 +29441,7 @@ instancePointer_
 exception
 data
 offset
+i
 argValues
 [
 i
@@ -30680,6 +30681,7 @@ instancePointer_
 keepAlive
 base
 offset
+fieldIndex
 value
 AliasSet
 :
