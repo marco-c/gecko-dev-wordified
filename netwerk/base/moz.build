@@ -896,11 +896,6 @@ SimpleChannelParent
 h
 "
 "
-SimpleURIUnknownSchemes
-.
-h
-"
-"
 SSLTokensCache
 .
 h
@@ -1241,11 +1236,6 @@ SimpleChannelParent
 cpp
 "
 "
-SimpleURIUnknownSchemes
-.
-cpp
-"
-"
 SSLTokensCache
 .
 cpp
@@ -1479,13 +1469,6 @@ EXTRA_JS_MODULES
 [
 "
 NetUtil
-.
-sys
-.
-mjs
-"
-"
-SimpleURIUnknownSchemesRemoteObserver
 .
 sys
 .
