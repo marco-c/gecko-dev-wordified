@@ -256,6 +256,13 @@ nsNetCID
 .
 h
 "
+#
+include
+"
+SimpleURIUnknownSchemes
+.
+h
+"
 /
 /
 We
@@ -1740,6 +1747,9 @@ nsCOMPtr
 nsIObserverService
 >
 mObserverService
+;
+SimpleURIUnknownSchemes
+mSimpleURIUnknownSchemes
 ;
 public
 :
