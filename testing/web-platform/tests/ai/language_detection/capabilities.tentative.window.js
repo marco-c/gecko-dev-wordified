@@ -59,7 +59,7 @@ com
 Add
 languageDetectorCapabilities
 .
-canDetect
+languageAvailable
 (
 "
 en
