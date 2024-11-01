@@ -2273,6 +2273,12 @@ LDefinition
 :
 STACKRESULTS
 :
+case
+LDefinition
+:
+:
+WASM_ANYREF
+:
 lir
 -
 >

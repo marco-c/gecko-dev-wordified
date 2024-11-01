@@ -210,6 +210,15 @@ include
 "
 wasm
 /
+WasmAnyRef
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmTypeDef
 .
 h
@@ -1787,6 +1796,9 @@ GetSuspendingPromiseResult
 Instance
 *
 instance
+PromiseObject
+*
+promise
 SuspenderObject
 *
 suspender
