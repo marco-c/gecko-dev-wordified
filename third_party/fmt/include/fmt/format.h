@@ -29568,7 +29568,6 @@ template
 typename
 Float
 >
-FMT_CONSTEXPR20
 auto
 format_float_gecko
 (
