@@ -2783,6 +2783,11 @@ topLevelCreatedByWebContent
 =
 false
 ;
+bool
+isForPrinting
+=
+false
+;
 }
 ;
 /

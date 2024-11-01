@@ -2977,6 +2977,11 @@ nsILoadInfo
 :
 :
 OPENER_POLICY_SAME_ORIGIN_ALLOW_POPUPS
+|
+|
+aOptions
+.
+isForPrinting
 )
 ;
 }
