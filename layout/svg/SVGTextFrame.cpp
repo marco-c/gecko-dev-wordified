@@ -36144,7 +36144,10 @@ pointInRun
 .
 x
 =
-clamped
+std
+:
+:
+clamp
 (
 pointInRunUserSpace
 .
@@ -36167,7 +36170,10 @@ pointInRun
 .
 y
 =
-clamped
+std
+:
+:
+clamp
 (
 pointInRunUserSpace
 .

@@ -5409,7 +5409,10 @@ aValue
 =
 int32_t
 (
-clamped
+std
+:
+:
+clamp
 (
 sign
 *

@@ -1062,7 +1062,10 @@ by
 clamping
 aCurrentScale
 =
-clamped
+std
+:
+:
+clamp
 (
 aCurrentScale
 CURRENT_SCALE_MIN

@@ -799,7 +799,10 @@ GetAnimValue
 uint32_t
 octaves
 =
-clamped
+std
+:
+:
+clamp
 (
 mIntegerAttributes
 [
