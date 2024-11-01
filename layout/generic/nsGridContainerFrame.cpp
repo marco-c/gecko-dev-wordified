@@ -2834,7 +2834,7 @@ eSkipGrowUnlimited2
 eBreakBefore
 =
 0x800
-eFitContent
+eApplyFitContentClamping
 =
 0x1000
 eInfinitelyGrowable
@@ -3365,7 +3365,7 @@ aPercentageBasis
 {
 mState
 =
-eFitContent
+eApplyFitContentClamping
 ;
 }
 minSizeTag
@@ -19485,7 +19485,7 @@ mState
 TrackSize
 :
 :
-eFitContent
+eApplyFitContentClamping
 )
 &
 &
@@ -20401,7 +20401,7 @@ mState
 TrackSize
 :
 :
-eFitContent
+eApplyFitContentClamping
 )
 &
 &
@@ -47727,7 +47727,7 @@ eIntrinsicMaxSizing
 TrackSize
 :
 :
-eFitContent
+eApplyFitContentClamping
 )
 )
 {
@@ -48241,7 +48241,7 @@ mState
 TrackSize
 :
 :
-eFitContent
+eApplyFitContentClamping
 )
 )
 {
@@ -50446,7 +50446,7 @@ eIntrinsicMaxSizing
 TrackSize
 :
 :
-eFitContent
+eApplyFitContentClamping
 |
 TrackSize
 :
