@@ -3827,7 +3827,7 @@ bytecode
 *
 cached
 stencil
-nsresult
+void
 InstantiateClassicScriptFromAny
 (
 JSContext
@@ -3839,6 +3839,9 @@ aExec
 ScriptLoadRequest
 *
 aRequest
+ErrorResult
+&
+aRv
 )
 ;
 /
@@ -3863,7 +3866,7 @@ source
 *
 encoded
 bytecode
-nsresult
+void
 InstantiateClassicScriptFromMaybeEncodedSource
 (
 JSContext
@@ -3875,6 +3878,9 @@ aExec
 ScriptLoadRequest
 *
 aRequest
+ErrorResult
+&
+aRv
 )
 ;
 /
@@ -3892,7 +3898,7 @@ data
 *
 cached
 stencil
-nsresult
+void
 InstantiateClassicScriptFromCachedStencil
 (
 JSContext
@@ -3910,6 +3916,9 @@ JS
 Stencil
 *
 aStencil
+ErrorResult
+&
+aRv
 )
 ;
 static
