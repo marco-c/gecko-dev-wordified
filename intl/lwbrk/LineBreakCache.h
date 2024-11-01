@@ -371,7 +371,7 @@ Shutdown
 )
 ;
 using
-Key
+KeyType
 =
 detail
 :
@@ -379,7 +379,7 @@ detail
 LBCacheKey
 ;
 using
-Entry
+EntryType
 =
 detail
 :
@@ -416,7 +416,7 @@ HashNumber
 Hash
 (
 const
-Key
+KeyType
 &
 aKey
 )
@@ -473,11 +473,11 @@ bool
 Match
 (
 const
-Key
+KeyType
 &
 aKey
 const
-Entry
+EntryType
 &
 aEntry
 )
