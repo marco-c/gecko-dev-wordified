@@ -184,6 +184,9 @@ unimplemented_exc
 =
 (
 NotImplementedError
+webdriver_error
+.
+UnknownCommandException
 webdriver_bidi_error
 .
 UnknownCommandException
@@ -192,6 +195,9 @@ UnknownCommandException
 expected_exc
 =
 (
+webdriver_error
+.
+WebDriverException
 webdriver_bidi_error
 .
 BidiException
