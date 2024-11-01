@@ -540,11 +540,6 @@ aCallback
 )
 ;
 void
-MaybeDispatchUpdateFoundRunnable
-(
-)
-;
-void
 RevokeActor
 (
 ServiceWorkerRegistrationChild
@@ -556,7 +551,12 @@ void
 FireUpdateFound
 (
 )
+{
+MaybeDispatchUpdateFound
+(
+)
 ;
+}
 private
 :
 ServiceWorkerRegistration
