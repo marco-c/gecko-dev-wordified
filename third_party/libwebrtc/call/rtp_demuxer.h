@@ -94,6 +94,11 @@ CALL_RTP_DEMUXER_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 map
 >
 #
@@ -105,11 +110,6 @@ string
 include
 <
 utility
->
-#
-include
-<
-vector
 >
 #
 include

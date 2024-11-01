@@ -94,6 +94,11 @@ CALL_RECEIVE_STREAM_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 vector
 >
 #
@@ -121,7 +126,7 @@ include
 "
 api
 /
-media_types
+rtp_headers
 .
 h
 "

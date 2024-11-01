@@ -94,6 +94,11 @@ CALL_RTP_STREAM_RECEIVER_CONTROLLER_INTERFACE_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #

@@ -94,6 +94,11 @@ CALL_RTP_STREAM_RECEIVER_CONTROLLER_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -133,6 +138,15 @@ rtp_rtcp
 include
 /
 recovered_packet_receiver
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+thread_annotations
 .
 h
 "
