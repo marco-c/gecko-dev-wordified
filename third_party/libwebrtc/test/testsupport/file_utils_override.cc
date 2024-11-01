@@ -145,11 +145,6 @@ algorithm
 #
 include
 <
-codecvt
->
-#
-include
-<
 locale
 >
 #
