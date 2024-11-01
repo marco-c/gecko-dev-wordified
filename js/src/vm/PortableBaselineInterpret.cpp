@@ -41233,6 +41233,7 @@ ToNumeric
 }
 generic_unary
 :
+;
 {
 static_assert
 (
@@ -44121,6 +44122,7 @@ generic_binary
 }
 generic_binary
 :
+;
 {
 static_assert
 (
@@ -45843,6 +45845,7 @@ generic_cmp
 }
 generic_cmp
 :
+;
 {
 static_assert
 (
@@ -59335,6 +59338,7 @@ ifndef
 __wasi__
 debug
 :
+;
 {
 TRACE_PRINTF
 (
