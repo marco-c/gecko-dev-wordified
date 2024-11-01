@@ -14697,9 +14697,6 @@ pointer
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 CodeOffset
 MacroAssembler
 :
@@ -14735,11 +14732,6 @@ return
 offset
 ;
 }
-#
-endif
-/
-/
-ENABLE_WASM_TAIL_CALLS
 /
 /
 }

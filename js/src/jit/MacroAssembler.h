@@ -1971,9 +1971,6 @@ reg
 }
 }
 ;
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 /
 /
 Instance
@@ -2033,11 +2030,6 @@ oldSlotsAndStackArgBytes
 }
 }
 ;
-#
-endif
-/
-/
-ENABLE_WASM_TAIL_CALLS
 struct
 BranchWasmRefIsSubtypeRegisters
 {
@@ -28081,9 +28073,6 @@ CalleeDesc
 callee
 )
 ;
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 CodeOffset
 wasmReturnCallImport
 (
@@ -28232,8 +28221,6 @@ mips64
 riscv64
 )
 ;
-#
-endif
 #
 ifdef
 ENABLE_WASM_MEMORY64
@@ -28433,9 +28420,6 @@ CodeOffset
 slowCallOffset
 )
 ;
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 /
 /
 WasmTableCallIndexReg
@@ -28538,11 +28522,6 @@ ReturnCallAdjustmentInfo
 retCallInfo
 )
 ;
-#
-endif
-/
-/
-ENABLE_WASM_TAIL_CALLS
 /
 /
 This
@@ -28589,9 +28568,6 @@ CodeOffset
 slowCallOffset
 )
 ;
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 void
 wasmReturnCallRef
 (
@@ -28615,11 +28591,6 @@ ReturnCallAdjustmentInfo
 retCallInfo
 )
 ;
-#
-endif
-/
-/
-ENABLE_WASM_TAIL_CALLS
 /
 /
 WasmTableCallIndexReg

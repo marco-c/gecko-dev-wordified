@@ -165,18 +165,8 @@ js
 jit
 ;
 #
-if
-defined
-(
-ENABLE_WASM_TAIL_CALLS
-)
-&
-&
-!
-defined
-(
+ifndef
 JS_CODEGEN_NONE
-)
 /
 /
 Check
@@ -617,6 +607,3 @@ testWasmCheckSlowCallMarkerMiss
 )
 #
 endif
-/
-/
-ENABLE_WASM_TAIL_CALLS

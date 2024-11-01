@@ -8713,9 +8713,6 @@ CodeOffset
 slowCallOffset
 )
 ;
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 void
 returnCallRef
 (
@@ -8733,8 +8730,6 @@ FuncType
 funcType
 )
 ;
-#
-endif
 CodeOffset
 builtinCall
 (

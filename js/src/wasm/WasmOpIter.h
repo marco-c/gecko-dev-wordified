@@ -4858,9 +4858,6 @@ ValueVector
 argValues
 )
 ;
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 [
 [
 nodiscard
@@ -4899,8 +4896,6 @@ ValueVector
 argValues
 )
 ;
-#
-endif
 [
 [
 nodiscard
@@ -4922,9 +4917,6 @@ ValueVector
 argValues
 )
 ;
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 [
 [
 nodiscard
@@ -4946,8 +4938,6 @@ ValueVector
 argValues
 )
 ;
-#
-endif
 [
 [
 nodiscard
@@ -16853,9 +16843,6 @@ results
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 template
 <
 typename
@@ -17056,8 +17043,6 @@ return
 true
 ;
 }
-#
-endif
 template
 <
 typename
@@ -17395,9 +17380,6 @@ results
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 template
 <
 typename
@@ -17799,8 +17781,6 @@ return
 true
 ;
 }
-#
-endif
 template
 <
 typename
@@ -17953,9 +17933,6 @@ results
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 template
 <
 typename
@@ -18172,8 +18149,6 @@ return
 true
 ;
 }
-#
-endif
 template
 <
 typename

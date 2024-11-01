@@ -5415,9 +5415,6 @@ if
 tryNote
 )
 {
-#
-ifdef
-ENABLE_WASM_TAIL_CALLS
 /
 /
 Skip
@@ -5472,8 +5469,6 @@ ReturnStub
 continue
 ;
 }
-#
-endif
 cx
 -
 >
