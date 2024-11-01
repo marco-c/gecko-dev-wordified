@@ -2333,7 +2333,7 @@ newMenuBar
 =
 [
 [
-GeckoNSMenu
+NSMenu
 alloc
 ]
 initWithTitle
