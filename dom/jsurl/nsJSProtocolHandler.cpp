@@ -2911,9 +2911,6 @@ if
 stencil
 )
 {
-bool
-unused
-;
 exec
 .
 InstantiateStencil
@@ -2924,16 +2921,9 @@ cx
 (
 )
 options
-std
-:
-:
-move
-(
 stencil
-)
 &
 compiledScript
-unused
 erv
 )
 ;
