@@ -1387,6 +1387,11 @@ target
 /
 quality
 .
+[
+[
+deprecated
+]
+]
 bool
 IsAtTargetQuality
 (
@@ -1419,6 +1424,11 @@ true
 or
 false
 .
+[
+[
+deprecated
+]
+]
 void
 SetAtTargetQuality
 (
