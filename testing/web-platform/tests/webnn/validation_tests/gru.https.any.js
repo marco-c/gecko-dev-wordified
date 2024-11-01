@@ -1788,8 +1788,6 @@ i
 ]
 .
 dataType
-(
-)
 test
 .
 outputs
@@ -1808,8 +1806,6 @@ i
 ]
 .
 shape
-(
-)
 test
 .
 outputs

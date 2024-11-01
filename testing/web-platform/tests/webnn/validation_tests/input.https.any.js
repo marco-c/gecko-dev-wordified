@@ -443,8 +443,6 @@ assert_equals
 inputOperand
 .
 dataType
-(
-)
 test
 .
 output
@@ -457,8 +455,6 @@ assert_array_equals
 inputOperand
 .
 shape
-(
-)
 test
 .
 output

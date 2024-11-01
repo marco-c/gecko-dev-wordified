@@ -229,8 +229,6 @@ inputIndex
 ]
 .
 shape
-(
-)
 ;
 }
 const
@@ -806,8 +804,6 @@ assert_true
 outputOperand
 .
 dataType
-(
-)
 =
 =
 =
@@ -831,8 +827,6 @@ assert_array_equals
 outputOperand
 .
 shape
-(
-)
 expected
 .
 shape
@@ -4792,8 +4786,6 @@ indexA
 ]
 .
 shape
-(
-)
 ;
 }
 const
@@ -5125,8 +5117,6 @@ inputIndex
 ]
 .
 shape
-(
-)
 ;
 }
 let
@@ -5162,8 +5152,6 @@ filterIndex
 ]
 .
 shape
-(
-)
 ;
 }
 const

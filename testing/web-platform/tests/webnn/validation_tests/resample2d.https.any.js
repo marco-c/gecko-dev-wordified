@@ -1719,8 +1719,6 @@ assert_equals
 output
 .
 dataType
-(
-)
 test
 .
 output
@@ -1733,8 +1731,6 @@ assert_array_equals
 output
 .
 shape
-(
-)
 test
 .
 output
@@ -1956,8 +1952,6 @@ assert_equals
 output
 .
 dataType
-(
-)
 dataType
 )
 ;
@@ -1966,8 +1960,6 @@ assert_array_equals
 output
 .
 shape
-(
-)
 shape
 )
 ;

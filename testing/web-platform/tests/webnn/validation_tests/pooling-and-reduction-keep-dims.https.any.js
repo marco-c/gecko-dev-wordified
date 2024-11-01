@@ -343,13 +343,9 @@ assert_equals
 reshapeOutput
 .
 dataType
-(
-)
 avgPool2dInput
 .
 dataType
-(
-)
 )
 ;
 assert_array_equals
@@ -357,8 +353,6 @@ assert_array_equals
 reshapeOutput
 .
 shape
-(
-)
 newShape
 )
 ;
@@ -700,13 +694,9 @@ assert_equals
 reshapeOutput
 .
 dataType
-(
-)
 reduceMeanInput
 .
 dataType
-(
-)
 )
 ;
 assert_array_equals
@@ -714,8 +704,6 @@ assert_array_equals
 reshapeOutput
 .
 shape
-(
-)
 newShape
 )
 ;
