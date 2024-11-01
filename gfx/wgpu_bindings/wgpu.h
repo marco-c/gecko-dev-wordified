@@ -408,6 +408,13 @@ aPtr
 }
 }
 ;
+#
+if
+!
+defined
+(
+XP_MACOSX
+)
 template
 <
 >
@@ -456,6 +463,8 @@ aPtr
 }
 }
 ;
+#
+endif
 }
 /
 /
