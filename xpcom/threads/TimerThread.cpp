@@ -5953,10 +5953,7 @@ ChaosMode
 :
 randomUint32LessThan
 (
-std
-:
-:
-size
+ArrayLength
 (
 sChaosFractions
 )
@@ -6264,10 +6261,7 @@ ChaosMode
 :
 randomUint32LessThan
 (
-std
-:
-:
-size
+ArrayLength
 (
 sChaosFractions
 )

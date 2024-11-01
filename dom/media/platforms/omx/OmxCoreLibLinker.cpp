@@ -525,10 +525,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 sLibNames
 )

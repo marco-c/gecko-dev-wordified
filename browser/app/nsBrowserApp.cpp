@@ -715,10 +715,7 @@ write
 (
 STDERR_FILENO
 sSSE2Message
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 sSSE2Message
 )

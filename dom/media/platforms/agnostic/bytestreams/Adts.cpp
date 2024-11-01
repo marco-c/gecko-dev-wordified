@@ -599,10 +599,7 @@ header
 [
 0
 ]
-std
-:
-:
-size
+ArrayLength
 (
 header
 )
@@ -1390,10 +1387,7 @@ if
 mSamplingIndex
 >
 =
-std
-:
-:
-size
+ArrayLength
 (
 SAMPLE_RATES
 )

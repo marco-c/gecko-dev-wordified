@@ -5828,10 +5828,7 @@ const
 uint32_t
 numVersions
 =
-std
-:
-:
-size
+ArrayLength
 (
 gSupportedRegistrarVersions
 )

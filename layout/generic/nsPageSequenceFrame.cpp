@@ -468,10 +468,7 @@ checks
 :
 MOZ_ASSERT
 (
-std
-:
-:
-size
+ArrayLength
 (
 kSupportedPagesPerSheet
 )

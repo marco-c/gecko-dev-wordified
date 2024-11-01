@@ -755,10 +755,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 mStorage
 )
@@ -835,10 +832,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 mStorage
 )

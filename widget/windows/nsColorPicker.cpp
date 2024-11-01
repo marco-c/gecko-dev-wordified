@@ -701,10 +701,10 @@ std
 :
 min
 (
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 sCustomColors
 )

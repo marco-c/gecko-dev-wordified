@@ -945,10 +945,7 @@ tick
 ;
 tick
 <
-std
-:
-:
-size
+ArrayLength
 (
 positions
 )

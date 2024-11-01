@@ -765,10 +765,7 @@ BinarySearchIf
 (
 kContentBundles
 0
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 kContentBundles
 )

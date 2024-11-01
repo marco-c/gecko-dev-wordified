@@ -37602,10 +37602,7 @@ sideX
 ;
 sideX
 <
-std
-:
-:
-size
+ArrayLength
 (
 tableBorderReset
 )

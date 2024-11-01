@@ -14957,10 +14957,10 @@ MAX_TEST_FRAMES
 size_t
 framesAvail
 =
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 framePCs
 )

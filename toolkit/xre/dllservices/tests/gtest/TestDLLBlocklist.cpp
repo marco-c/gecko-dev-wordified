@@ -2062,10 +2062,10 @@ i
 ;
 i
 <
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 gWindowsDllBlocklist
 )

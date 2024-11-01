@@ -975,10 +975,10 @@ index
 0
 len
 =
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 gBlockedConfigs
 )

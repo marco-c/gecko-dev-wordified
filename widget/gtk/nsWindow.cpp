@@ -23447,10 +23447,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 extensions
 )
@@ -23481,10 +23478,7 @@ if
 i
 =
 =
-std
-:
-:
-size
+ArrayLength
 (
 extensions
 )

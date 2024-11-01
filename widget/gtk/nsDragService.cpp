@@ -17941,10 +17941,7 @@ size_t
 aTask
 )
 <
-std
-:
-:
-size
+ArrayLength
 (
 taskNames
 )

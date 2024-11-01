@@ -1488,10 +1488,7 @@ index
 0
 len
 =
-std
-:
-:
-size
+ArrayLength
 (
 gBlockedInprocDlls
 )
@@ -1730,10 +1727,7 @@ i
 0
 len
 =
-std
-:
-:
-size
+ArrayLength
 (
 gBlockedRemoteClients
 )

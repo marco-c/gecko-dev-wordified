@@ -1588,10 +1588,7 @@ aEventType
 aEventType
 >
 =
-std
-:
-:
-size
+ArrayLength
 (
 gWinEventMap
 )

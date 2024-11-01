@@ -1007,10 +1007,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-std
-:
-:
-size
+ArrayLength
 (
 sLengthInfo
 )
@@ -1033,10 +1030,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-std
-:
-:
-size
+ArrayLength
 (
 sEnumInfo
 )
@@ -1059,10 +1053,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-std
-:
-:
-size
+ArrayLength
 (
 sStringInfo
 )

@@ -757,10 +757,10 @@ _wcsnicmp
 (
 token
 kRunAsAdmin
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 kRunAsAdmin
 )

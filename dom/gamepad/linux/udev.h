@@ -301,10 +301,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 lib_names
 )
@@ -374,10 +371,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 lib_names
 )

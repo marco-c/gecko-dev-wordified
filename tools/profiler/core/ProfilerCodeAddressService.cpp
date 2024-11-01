@@ -315,10 +315,7 @@ get
 (
 )
 demangled
-std
-:
-:
-size
+ArrayLength
 (
 demangled
 )
@@ -343,10 +340,7 @@ get
 (
 )
 demangled
-std
-:
-:
-size
+ArrayLength
 (
 demangled
 )
@@ -355,10 +349,7 @@ demangled
 }
 demangled
 [
-std
-:
-:
-size
+ArrayLength
 (
 demangled
 )

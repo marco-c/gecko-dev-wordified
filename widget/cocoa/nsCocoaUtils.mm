@@ -4570,10 +4570,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 sModifierFlagMap
 )
@@ -6682,10 +6679,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 gKeyConversions
 )
@@ -6769,10 +6763,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 gKeyConversions
 )

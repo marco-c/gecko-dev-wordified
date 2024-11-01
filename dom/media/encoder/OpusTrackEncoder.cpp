@@ -1063,10 +1063,7 @@ supportedSamplingRates
 AppendElements
 (
 kOpusSupportedInputSamplingRates
-std
-:
-:
-size
+ArrayLength
 (
 kOpusSupportedInputSamplingRates
 )

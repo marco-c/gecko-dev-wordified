@@ -1123,10 +1123,7 @@ std
 make_pair
 (
 kBaseFonts
-std
-:
-:
-size
+ArrayLength
 (
 kBaseFonts
 )

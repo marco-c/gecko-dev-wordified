@@ -962,10 +962,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-std
-:
-:
-size
+ArrayLength
 (
 sLengthInfo
 )

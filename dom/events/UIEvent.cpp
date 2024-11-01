@@ -1480,10 +1480,10 @@ on
 Mac
 at
 calling
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 )
 .
@@ -1667,10 +1667,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 kPairs
 )

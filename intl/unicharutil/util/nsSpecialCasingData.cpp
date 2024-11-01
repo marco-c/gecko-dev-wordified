@@ -2913,10 +2913,10 @@ CaseSpecials_
 #
 which
 \
-std
+mozilla
 :
 :
-size
+ArrayLength
 (
 CaseSpecials_
 #

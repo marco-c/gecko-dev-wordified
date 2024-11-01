@@ -197,10 +197,7 @@ len
 :
 GetTempPathW
 (
-std
-:
-:
-size
+ArrayLength
 (
 tempDir
 )

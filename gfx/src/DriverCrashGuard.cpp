@@ -285,10 +285,7 @@ wmfvpxvideo
 ;
 static_assert
 (
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 sCrashGuardNames
 )

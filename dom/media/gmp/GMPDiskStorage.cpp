@@ -1777,10 +1777,7 @@ record
 >
 mFileDesc
 buf
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 buf
 )
@@ -1791,10 +1788,7 @@ if
 bytesWritten
 !
 =
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 buf
 )

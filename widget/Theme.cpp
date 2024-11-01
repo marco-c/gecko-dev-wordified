@@ -5824,10 +5824,7 @@ aRect
 xs
 ys
 kPolygonSize
-std
-:
-:
-size
+ArrayLength
 (
 polygonX
 )
@@ -6025,10 +6022,7 @@ aRect
 kPolygonX
 polygonY
 kPolygonSize
-std
-:
-:
-size
+ArrayLength
 (
 kPolygonX
 )

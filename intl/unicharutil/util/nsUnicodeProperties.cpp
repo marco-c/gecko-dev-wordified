@@ -1432,10 +1432,7 @@ if
 index
 >
 =
-std
-:
-:
-size
+MOZ_ARRAY_LENGTH
 (
 BASE_CHAR_MAPPING_BLOCK_INDEX
 )

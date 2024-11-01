@@ -10512,10 +10512,7 @@ i
 ;
 i
 <
-std
-:
-:
-size
+ArrayLength
 (
 kFieldTypeMaps
 )
