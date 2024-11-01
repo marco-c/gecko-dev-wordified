@@ -5713,7 +5713,6 @@ NS_SUCCEEDED
 NS_NewLocalFile
 (
 str
-false
 getter_AddRefs
 (
 file
@@ -6706,7 +6705,6 @@ self
 -
 >
 mUnicodeFile
-false
 getter_AddRefs
 (
 file
@@ -7173,7 +7171,6 @@ rv
 NS_NewLocalFile
 (
 mUnicodeFile
-false
 getter_AddRefs
 (
 file
@@ -7857,7 +7854,6 @@ NS_FAILED
 NS_NewLocalFile
 (
 mUnicodeFile
-false
 getter_AddRefs
 (
 file

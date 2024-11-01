@@ -10905,13 +10905,6 @@ nsCString
 (
 env
 )
-/
-*
-followLinks
-=
-*
-/
-true
 &
 logFile
 )

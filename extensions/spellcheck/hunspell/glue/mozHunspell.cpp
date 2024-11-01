@@ -1540,7 +1540,6 @@ rv
 NS_NewNativeLocalFile
 (
 extDictPath
-true
 getter_AddRefs
 (
 dictDir
@@ -1672,7 +1671,6 @@ nsCString
 (
 currPath
 )
-true
 getter_AddRefs
 (
 dir

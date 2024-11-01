@@ -951,7 +951,6 @@ rv
 NS_NewLocalFile
 (
 path
-true
 getter_AddRefs
 (
 file

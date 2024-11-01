@@ -2417,7 +2417,6 @@ rv
 NS_NewLocalFile
 (
 aCommandHandler
-true
 getter_AddRefs
 (
 locfile

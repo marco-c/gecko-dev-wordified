@@ -643,7 +643,6 @@ nsDependentCString
 (
 buf
 )
-false
 getter_AddRefs
 (
 mSpoolFile
@@ -2655,7 +2654,6 @@ rv
 NS_NewLocalFile
 (
 targetPath
-false
 getter_AddRefs
 (
 destFile

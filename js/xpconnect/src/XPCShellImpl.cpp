@@ -1208,7 +1208,6 @@ rv
 NS_NewLocalFile
 (
 filenameString
-false
 getter_AddRefs
 (
 location
@@ -1261,7 +1260,6 @@ rv
 NS_NewLocalFile
 (
 absolutePath
-false
 getter_AddRefs
 (
 location
@@ -7388,7 +7386,6 @@ rv
 NS_NewLocalFile
 (
 workingDir
-true
 getter_AddRefs
 (
 greDir

@@ -3806,7 +3806,6 @@ rv
 NS_NewLocalFile
 (
 aFilename
-false
 getter_AddRefs
 (
 reportsFile

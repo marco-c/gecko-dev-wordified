@@ -205,7 +205,6 @@ nsDependentString
 (
 path
 )
-true
 getter_AddRefs
 (
 file
@@ -264,7 +263,6 @@ nsDependentCString
 (
 arg
 )
-true
 getter_AddRefs
 (
 file

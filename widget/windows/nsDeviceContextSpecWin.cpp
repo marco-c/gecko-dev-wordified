@@ -2819,7 +2819,6 @@ rv
 NS_NewLocalFile
 (
 targetPath
-false
 getter_AddRefs
 (
 destFile

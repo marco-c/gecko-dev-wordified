@@ -317,7 +317,6 @@ rv
 NS_NewLocalFile
 (
 filePath
-true
 aPath
 )
 ;
@@ -485,7 +484,6 @@ NS_NewLocalFile
 LocalRootPath
 (
 )
-true
 getter_AddRefs
 (
 fileSystemPath

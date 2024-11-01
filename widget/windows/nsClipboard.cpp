@@ -7402,7 +7402,6 @@ NS_SUCCEEDED
 NS_NewLocalFile
 (
 filepath
-false
 getter_AddRefs
 (
 file
@@ -8859,7 +8858,6 @@ rv
 NS_NewLocalFile
 (
 filepath
-true
 getter_AddRefs
 (
 file

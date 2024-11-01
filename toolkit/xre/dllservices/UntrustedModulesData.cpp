@@ -614,7 +614,6 @@ rv
 NS_NewLocalFile
 (
 resolvedDosPath
-false
 getter_AddRefs
 (
 mResolvedDosName

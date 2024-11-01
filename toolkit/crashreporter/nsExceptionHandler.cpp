@@ -2778,7 +2778,6 @@ c_str
 (
 )
 )
-false
 file
 )
 ;
@@ -2874,7 +2873,6 @@ c_str
 (
 )
 )
-false
 file
 )
 ;
@@ -17107,7 +17105,6 @@ nsDependentCString
 (
 env
 )
-false
 getter_AddRefs
 (
 eventsDir

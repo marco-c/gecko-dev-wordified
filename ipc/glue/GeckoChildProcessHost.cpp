@@ -3280,7 +3280,6 @@ nsDependentString
 (
 gGREBinPath
 )
-false
 getter_AddRefs
 (
 childProcPath

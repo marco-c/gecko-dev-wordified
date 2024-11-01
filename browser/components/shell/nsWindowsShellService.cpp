@@ -10791,7 +10791,6 @@ rv
 NS_NewLocalFile
 (
 exeStr
-true
 getter_AddRefs
 (
 exeFile

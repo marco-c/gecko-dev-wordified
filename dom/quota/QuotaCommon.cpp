@@ -801,12 +801,6 @@ nsIFile
 >
 NS_NewLocalFile
 aPath
-/
-*
-aFollowLinks
-*
-/
-false
 )
 QM_PROPAGATE
 [

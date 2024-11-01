@@ -1886,7 +1886,6 @@ NS_SUCCEEDED
 NS_NewLocalFile
 (
 fileTarget
-true
 getter_AddRefs
 (
 resolvedFile
@@ -1914,7 +1913,6 @@ NS_SUCCEEDED
 NS_NewNativeLocalFile
 (
 fileTarget
-true
 getter_AddRefs
 (
 resolvedFile

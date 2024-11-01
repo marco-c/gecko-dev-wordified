@@ -10703,7 +10703,6 @@ nsDependentString
 (
 clipboardDataPtr
 )
-true
 getter_AddRefs
 (
 file

@@ -5723,7 +5723,6 @@ rv
 NS_NewLocalFile
 (
 platformAppPath
-true
 &
 localFile
 )

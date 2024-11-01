@@ -1882,7 +1882,6 @@ c_str
 (
 )
 )
-true
 getter_AddRefs
 (
 pluginDir
@@ -2286,7 +2285,6 @@ NS_ConvertUTF8toUTF16
 (
 aPath
 )
-true
 getter_AddRefs
 (
 fileOrDir

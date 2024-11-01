@@ -555,7 +555,6 @@ nsDependentCString
 (
 outDir
 )
-false
 getter_AddRefs
 (
 file

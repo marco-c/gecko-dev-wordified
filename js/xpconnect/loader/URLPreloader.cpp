@@ -4169,7 +4169,6 @@ NS_ConvertUTF8toUTF16
 (
 mPath
 )
-false
 getter_AddRefs
 (
 file

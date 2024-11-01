@@ -10915,7 +10915,6 @@ rv
 NS_NewLocalFile
 (
 filename
-false
 getter_AddRefs
 (
 file

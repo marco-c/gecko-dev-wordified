@@ -4556,7 +4556,6 @@ rv
 NS_NewNativeLocalFile
 (
 xdgConfigHome
-true
 getter_AddRefs
 (
 confDirOrXDGConfigHomeDir

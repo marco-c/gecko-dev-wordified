@@ -655,7 +655,6 @@ nsDependentCString
 (
 workingDir
 )
-true
 getter_AddRefs
 (
 lf

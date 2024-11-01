@@ -1168,7 +1168,6 @@ aRv
 NS_NewLocalFile
 (
 aPath
-false
 getter_AddRefs
 (
 file

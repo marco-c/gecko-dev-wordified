@@ -1143,7 +1143,6 @@ NS_ConvertUTF8toUTF16
 (
 env
 )
-false
 getter_AddRefs
 (
 mFile

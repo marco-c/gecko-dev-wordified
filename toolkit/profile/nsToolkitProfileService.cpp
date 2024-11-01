@@ -4601,7 +4601,6 @@ NS_NewNativeLocalFile
 "
 "
 _ns
-false
 getter_AddRefs
 (
 lastGreDir
@@ -6831,7 +6830,6 @@ NS_NewNativeLocalFile
 "
 "
 _ns
-true
 getter_AddRefs
 (
 rootDir
@@ -9846,7 +9844,6 @@ delim
 +
 1
 )
-true
 getter_AddRefs
 (
 lf
@@ -16213,7 +16210,6 @@ NS_NewNativeLocalFile
 "
 "
 _ns
-true
 getter_AddRefs
 (
 localDir
@@ -16423,7 +16419,6 @@ NS_NewNativeLocalFile
 "
 "
 _ns
-true
 getter_AddRefs
 (
 lf
@@ -16526,7 +16521,6 @@ nsDependentCString
 (
 fullPath
 )
-true
 aResult
 )
 ;
@@ -16569,7 +16563,6 @@ nsDependentString
 (
 fullPath
 )
-true
 aResult
 )
 ;

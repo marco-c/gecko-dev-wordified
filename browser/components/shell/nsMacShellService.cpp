@@ -1352,7 +1352,6 @@ rv
 NS_NewNativeLocalFile
 (
 DESKTOP_PREFPANE
-true
 getter_AddRefs
 (
 lf

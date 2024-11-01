@@ -350,7 +350,6 @@ aRv
 NS_NewLocalFile
 (
 aRealPath
-true
 getter_AddRefs
 (
 path

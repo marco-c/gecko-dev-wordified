@@ -861,7 +861,6 @@ d
 directoryRealPath
 (
 )
-true
 getter_AddRefs
 (
 path
@@ -1077,7 +1076,6 @@ aParam
 realPath
 (
 )
-true
 getter_AddRefs
 (
 task
@@ -1263,7 +1261,6 @@ i
 ]
 .
 mPath
-true
 getter_AddRefs
 (
 path
@@ -2254,7 +2251,6 @@ i
 ]
 .
 mPath
-true
 getter_AddRefs
 (
 file
