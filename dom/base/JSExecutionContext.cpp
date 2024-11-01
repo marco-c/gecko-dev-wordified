@@ -568,10 +568,6 @@ mScript
 (
 aCx
 )
-mCompileOptions
-(
-aCompileOptions
-)
 mDebuggerPrivateValue
 (
 aCx
@@ -706,6 +702,12 @@ JSExecutionContext
 :
 JoinOffThread
 (
+JS
+:
+:
+CompileOptions
+&
+aCompileOptions
 ScriptLoadContext
 *
 aContext
@@ -817,6 +819,7 @@ unused
 ;
 InstantiateStencil
 (
+aCompileOptions
 std
 :
 :
@@ -842,6 +845,12 @@ JSExecutionContext
 :
 InternalCompile
 (
+JS
+:
+:
+CompileOptions
+&
+aCompileOptions
 JS
 :
 :
@@ -886,7 +895,7 @@ DEBUG
 mWantsReturnValue
 =
 !
-mCompileOptions
+aCompileOptions
 .
 noScriptRval
 ;
@@ -904,7 +913,7 @@ stencil
 CompileGlobalScriptToStencil
 (
 mCx
-mCompileOptions
+aCompileOptions
 aSrcBuf
 )
 ;
@@ -974,6 +983,7 @@ unused
 ;
 InstantiateStencil
 (
+aCompileOptions
 std
 :
 :
@@ -995,6 +1005,12 @@ Compile
 JS
 :
 :
+CompileOptions
+&
+aCompileOptions
+JS
+:
+:
 SourceText
 <
 char16_t
@@ -1008,6 +1024,7 @@ aRv
 {
 InternalCompile
 (
+aCompileOptions
 aSrcBuf
 aRv
 )
@@ -1019,6 +1036,12 @@ JSExecutionContext
 :
 Compile
 (
+JS
+:
+:
+CompileOptions
+&
+aCompileOptions
 JS
 :
 :
@@ -1035,6 +1058,7 @@ aRv
 {
 InternalCompile
 (
+aCompileOptions
 aSrcBuf
 aRv
 )
@@ -1046,6 +1070,12 @@ JSExecutionContext
 :
 Compile
 (
+JS
+:
+:
+CompileOptions
+&
+aCompileOptions
 const
 nsAString
 &
@@ -1124,6 +1154,7 @@ return
 }
 Compile
 (
+aCompileOptions
 srcBuf
 aRv
 )
@@ -1135,6 +1166,12 @@ JSExecutionContext
 :
 Decode
 (
+JS
+:
+:
+CompileOptions
+&
+aCompileOptions
 const
 JS
 :
@@ -1159,7 +1196,7 @@ JS
 DecodeOptions
 decodeOptions
 (
-mCompileOptions
+aCompileOptions
 )
 ;
 decodeOptions
@@ -1323,6 +1360,7 @@ unused
 ;
 InstantiateStencil
 (
+aCompileOptions
 std
 :
 :
@@ -1341,6 +1379,12 @@ JSExecutionContext
 :
 InstantiateStencil
 (
+JS
+:
+:
+CompileOptions
+&
+aCompileOptions
 RefPtr
 <
 JS
@@ -1371,7 +1415,7 @@ JS
 InstantiateOptions
 instantiateOptions
 (
-mCompileOptions
+aCompileOptions
 )
 ;
 JS
