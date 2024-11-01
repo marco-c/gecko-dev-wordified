@@ -312,8 +312,6 @@ third_party
 android_build_tools
 /
 aapt2
-/
-aapt2
 '
     
 '
@@ -342,14 +340,14 @@ src
 third_party
 /
 hamcrest
+'
+    
+'
+src
 /
-lib
+third_party
 /
-hamcrest
--
-core
-.
-jar
+icu4j
 '
     
 '
