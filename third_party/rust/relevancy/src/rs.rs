@@ -210,7 +210,7 @@ for
 remote_settings
 :
 :
-Client
+RemoteSettings
 {
 fn
 get_records
@@ -230,7 +230,7 @@ Ok
 remote_settings
 :
 :
-Client
+RemoteSettings
 :
 :
 get_records
@@ -265,7 +265,7 @@ Ok
 remote_settings
 :
 :
-Client
+RemoteSettings
 :
 :
 get_attachment

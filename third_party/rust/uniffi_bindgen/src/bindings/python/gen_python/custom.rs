@@ -146,7 +146,9 @@ Type
 "
 self
 .
-name
+type_label
+(
+)
 )
 }
 }

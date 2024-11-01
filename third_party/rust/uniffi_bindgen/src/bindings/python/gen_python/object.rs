@@ -155,7 +155,9 @@ Type
 "
 self
 .
-id
+type_label
+(
+)
 )
 }
 fn

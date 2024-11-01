@@ -149,13 +149,15 @@ format
 !
 (
 "
-CallbackInterface
+Type
 {
 }
 "
 self
 .
-id
+type_label
+(
+)
 )
 }
 fn

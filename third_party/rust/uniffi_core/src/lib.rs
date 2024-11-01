@@ -654,9 +654,6 @@ use
 static_assertions
 ;
 }
-mod
-panichook
-;
 const
 PACKAGE_VERSION
 :
@@ -708,10 +705,6 @@ const_assert
 !
 (
 PACKAGE_VERSION
-.
-as_bytes
-(
-)
 .
 len
 (
