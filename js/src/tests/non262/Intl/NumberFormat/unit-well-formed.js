@@ -501,6 +501,11 @@ nanosecond
 "
 duration
 -
+night
+"
+"
+duration
+-
 quarter
 "
 "
@@ -1026,6 +1031,11 @@ inch
 "
 speed
 -
+beaufort
+"
+"
+speed
+-
 kilometer
 -
 per
@@ -1036,6 +1046,13 @@ hour
 speed
 -
 knot
+"
+"
+speed
+-
+light
+-
+speed
 "
 "
 speed
