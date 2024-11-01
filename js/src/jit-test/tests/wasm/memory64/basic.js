@@ -21382,15 +21382,6 @@ get
 )
 )
 )
-{
-!
-wasmTailCallsEnabled
-(
-)
-?
-"
-"
-:
 (
 func
 (
@@ -21479,7 +21470,6 @@ get
 )
 )
 )
-}
 )
 )
 .
@@ -21548,13 +21538,6 @@ pointer
 /
 )
 ;
-if
-(
-wasmTailCallsEnabled
-(
-)
-)
-{
 assertEq
 (
 returnCallIndirect
@@ -21618,7 +21601,6 @@ pointer
 /
 )
 ;
-}
 /
 /
 Test
@@ -21721,13 +21703,6 @@ bounds
 /
 )
 ;
-if
-(
-wasmTailCallsEnabled
-(
-)
-)
-{
 assertErrorMessage
 (
 (
@@ -21779,7 +21754,6 @@ bounds
 /
 )
 ;
-}
 }
 }
 /

@@ -25,12 +25,6 @@ if
 wasmDebuggingEnabled
 (
 )
-|
-|
-!
-wasmTailCallsEnabled
-(
-)
 /
 /
 Tests

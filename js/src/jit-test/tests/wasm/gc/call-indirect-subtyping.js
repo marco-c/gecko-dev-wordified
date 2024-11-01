@@ -631,13 +631,6 @@ get
 \
 n
 ;
-if
-(
-wasmTailCallsEnabled
-(
-)
-)
-{
 returnCallIndirectFuncs
 +
 =
@@ -696,7 +689,6 @@ get
 \
 n
 ;
-}
 i
 +
 +
@@ -994,13 +986,6 @@ callerTypeIndex
 (
 calleeDefinedFuncIndex
 )
-if
-(
-wasmTailCallsEnabled
-(
-)
-)
-{
 exports
 [
 return_call_indirect
@@ -1021,7 +1006,6 @@ callerTypeIndex
 (
 calleeDefinedFuncIndex
 )
-}
 }
 ;
 if
