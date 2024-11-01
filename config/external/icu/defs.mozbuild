@@ -228,6 +228,14 @@ UCONFIG_NO_IDNA
 ]
 =
 True
+DEFINES
+[
+"
+UCONFIG_NO_MF2
+"
+]
+=
+True
 #
 We
 don
