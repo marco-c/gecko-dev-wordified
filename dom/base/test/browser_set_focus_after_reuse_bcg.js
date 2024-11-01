@@ -243,6 +243,14 @@ function
 (
 )
 {
+content
+.
+document
+.
+notifyUserGestureActivation
+(
+)
+;
 var
 button
 =

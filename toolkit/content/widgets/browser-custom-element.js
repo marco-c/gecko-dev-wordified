@@ -4463,9 +4463,15 @@ webNavigation
 ;
 if
 (
+requireUserInteraction
+?
 webNavigation
 .
 canGoBack
+:
+webNavigation
+.
+canGoBackIgnoringUserInteraction
 )
 {
 this
