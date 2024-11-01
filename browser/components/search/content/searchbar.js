@@ -3050,6 +3050,8 @@ searchForm
 =
 engine
 .
+wrappedJSObject
+.
 searchForm
 ;
 if
