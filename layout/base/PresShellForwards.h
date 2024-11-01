@@ -1025,6 +1025,8 @@ mOnlyIfPerceivedScrollableDirection
 enum
 class
 ScrollFlags
+:
+uint8_t
 {
 None
 =
