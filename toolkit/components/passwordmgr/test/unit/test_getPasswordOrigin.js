@@ -496,7 +496,15 @@ example
 .
 com
 "
-null
+"
+randomprotocol
+:
+/
+/
+example
+.
+com
+"
 ]
 ]
 ;
