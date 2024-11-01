@@ -18464,8 +18464,6 @@ JS
 InstantiationStorage
 storage
 ;
-aExec
-.
 JoinOffThread
 (
 aCx
@@ -18534,8 +18532,6 @@ stencil
 bool
 unused
 ;
-aExec
-.
 InstantiateStencil
 (
 aCx
@@ -18669,8 +18665,6 @@ stencil
 bool
 unused
 ;
-aExec
-.
 InstantiateStencil
 (
 aCx
@@ -18818,8 +18812,6 @@ JS
 InstantiationStorage
 storage
 ;
-aExec
-.
 JoinOffThread
 (
 aCx
@@ -18888,8 +18880,6 @@ stencil
 bool
 unused
 ;
-aExec
-.
 InstantiateStencil
 (
 aCx
@@ -19127,8 +19117,6 @@ stencil
 bool
 unused
 ;
-aExec
-.
 InstantiateStencil
 (
 aCx
@@ -19270,8 +19258,6 @@ incrementalEncodingAlreadyStarted
 =
 false
 ;
-aExec
-.
 InstantiateStencil
 (
 aCx

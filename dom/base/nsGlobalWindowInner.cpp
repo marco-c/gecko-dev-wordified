@@ -38079,8 +38079,6 @@ if
 stencil
 )
 {
-exec
-.
 InstantiateStencil
 (
 aes
