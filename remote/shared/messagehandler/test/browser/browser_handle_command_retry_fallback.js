@@ -557,7 +557,7 @@ name
 =
 =
 "
-AbortError
+DiscardedBrowsingContextError
 "
 "
 Caught
