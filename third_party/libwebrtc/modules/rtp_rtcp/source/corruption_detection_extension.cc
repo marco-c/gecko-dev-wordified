@@ -933,7 +933,7 @@ size
 (
 )
 >
-16
+kMaxValueSizeBytes
 )
 {
 return
@@ -1084,6 +1084,15 @@ ValueSize
 (
 message
 )
+|
+|
+data
+.
+size
+(
+)
+>
+kMaxValueSizeBytes
 )
 {
 return

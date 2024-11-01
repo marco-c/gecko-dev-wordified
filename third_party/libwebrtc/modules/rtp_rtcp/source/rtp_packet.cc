@@ -1917,6 +1917,12 @@ case
 RTPExtensionType
 :
 :
+kRtpExtensionCorruptionDetection
+:
+case
+RTPExtensionType
+:
+:
 kRtpExtensionGenericFrameDescriptor
 :
 case

@@ -500,6 +500,7 @@ deprecated
 kRtpExtensionDependencyDescriptor
 kRtpExtensionColorSpace
 kRtpExtensionVideoFrameTrackingId
+kRtpExtensionCorruptionDetection
 kRtpExtensionNumberOfExtensions
 /
 /
