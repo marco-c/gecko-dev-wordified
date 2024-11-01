@@ -564,6 +564,17 @@ jse
 "
 "
 .
+library
+-
+ms
+"
+/
+/
+Windows
+Library
+Files
+"
+.
 lnk
 "
 "

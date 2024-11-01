@@ -1045,6 +1045,17 @@ Linux
 shell
 "
 .
+library
+-
+ms
+"
+/
+/
+Windows
+Library
+Files
+"
+.
 lnk
 "
 /
