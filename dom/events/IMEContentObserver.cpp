@@ -5400,13 +5400,6 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-ScrollAxis
-(
-)
-ScrollAxis
-(
-)
-0
 )
 ;
 }
