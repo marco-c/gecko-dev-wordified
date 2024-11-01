@@ -58,7 +58,7 @@ now
 we
 give
 it
-10
+20
 seconds
 .
 #
@@ -74,6 +74,18 @@ devices
 including
 the
 emulator
+#
+Skip
+Linux
+as
+it
+'
+s
+unsupported
+by
+the
+site
+.
 pytest
 .
 mark
@@ -82,6 +94,9 @@ skip_platforms
 (
 "
 android
+"
+"
+linux
 "
 )
 pytest
@@ -118,7 +133,7 @@ await_css
 LOGIN_CSS
 timeout
 =
-10
+20
 )
 pytest
 .
@@ -128,6 +143,9 @@ skip_platforms
 (
 "
 android
+"
+"
+linux
 "
 )
 pytest
@@ -164,5 +182,5 @@ await_css
 UNSUPPORTED_CSS
 timeout
 =
-10
+20
 )

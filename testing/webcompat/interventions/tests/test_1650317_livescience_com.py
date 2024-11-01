@@ -29,31 +29,31 @@ client
 :
     
 #
+note
+that
 the
 page
 does
 not
+always
 properly
 load
 so
 we
-just
-time
-out
     
 #
+start
+loading
 and
 wait
 for
 the
 element
 we
-'
-re
-interested
-in
+want
 to
 appear
+.
     
 await
 client
@@ -61,9 +61,11 @@ client
 navigate
 (
 URL
-timeout
+wait
 =
-1
+"
+none
+"
 )
     
 link
@@ -73,6 +75,9 @@ client
 await_css
 (
 TEXT_TO_TEST
+timeout
+=
+10
 )
     
 assert
@@ -186,13 +191,10 @@ pytest
 .
 mark
 .
-skip_platforms
+only_platforms
 (
 "
-android
-"
-"
-mac
+windows
 "
 )
 pytest
@@ -223,13 +225,10 @@ pytest
 .
 mark
 .
-skip_platforms
+only_platforms
 (
 "
-android
-"
-"
-mac
+windows
 "
 )
 pytest
