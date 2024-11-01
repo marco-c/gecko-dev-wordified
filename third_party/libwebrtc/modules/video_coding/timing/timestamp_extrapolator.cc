@@ -1056,7 +1056,6 @@ std
 nullopt
 ;
 }
-else
 if
 (
 packet_count_
@@ -1141,7 +1140,6 @@ prev_
 diff
 ;
 }
-else
 if
 (
 w_
@@ -1158,15 +1156,19 @@ return
 start_
 ;
 }
-else
-{
 double
-timestampDiff
+timestamp_diff
 =
+static_cast
+<
+double
+>
+(
 unwrapped_ts90khz
 -
 *
 first_unwrapped_timestamp_
+)
 ;
 TimeDelta
 diff
@@ -1182,7 +1184,7 @@ int64_t
 >
 (
 (
-timestampDiff
+timestamp_diff
 -
 w_
 [
@@ -1253,7 +1255,6 @@ start_
 +
 diff
 ;
-}
 }
 bool
 TimestampExtrapolator
