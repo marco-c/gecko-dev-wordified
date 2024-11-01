@@ -328,7 +328,10 @@ ForceNoPlugins
 &
 aIndex
 <
-ArrayLength
+std
+:
+:
+size
 (
 mMimeTypes
 )

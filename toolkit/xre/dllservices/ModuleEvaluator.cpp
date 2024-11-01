@@ -366,7 +366,10 @@ true
 DWORD
 strTempSize
 =
-ArrayLength
+std
+:
+:
+size
 (
 strTemp
 )

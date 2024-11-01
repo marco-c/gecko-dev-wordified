@@ -2127,7 +2127,10 @@ index
 ;
 index
 <
-ArrayLength
+std
+:
+:
+size
 (
 atk_if_infos
 )

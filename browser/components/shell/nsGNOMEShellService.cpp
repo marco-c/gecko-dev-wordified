@@ -1260,7 +1260,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 appProtocols
 )
@@ -1764,7 +1767,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 appProtocols
 )
@@ -1834,7 +1840,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 appTypes
 )

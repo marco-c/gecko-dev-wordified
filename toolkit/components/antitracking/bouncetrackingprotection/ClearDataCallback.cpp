@@ -226,7 +226,10 @@ _ns
 ;
 static_assert
 (
-ArrayLength
+std
+:
+:
+size
 (
 kUrlClassifierFeatures
 )

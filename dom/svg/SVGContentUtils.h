@@ -589,7 +589,10 @@ if
 aDashCount
 <
 =
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 mSmallArray
 )

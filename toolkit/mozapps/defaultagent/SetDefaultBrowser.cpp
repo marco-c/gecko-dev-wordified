@@ -1894,10 +1894,10 @@ mozilla
 :
 MakeCommandLine
 (
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 args
 )
@@ -2122,10 +2122,10 @@ return
 LaunchExecutable
 (
 powershellPath
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 args
 )

@@ -921,7 +921,10 @@ nsTaskbarProgressState
 )
 nsTaskbarProgressState
 (
-ArrayLength
+std
+:
+:
+size
 (
 sNativeStates
 )

@@ -10227,7 +10227,10 @@ j
 ;
 j
 <
-ArrayLength
+std
+:
+:
+size
 (
 kButtonExcludeKids
 )

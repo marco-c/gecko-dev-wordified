@@ -656,7 +656,10 @@ len
 :
 GetTempPathW
 (
-ArrayLength
+std
+:
+:
+size
 (
 tempDir
 )
@@ -3799,10 +3802,10 @@ mozilla
 :
 MakeCommandLine
 (
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 childArgv
 )

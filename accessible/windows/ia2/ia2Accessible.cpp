@@ -736,7 +736,10 @@ idx
 ;
 idx
 <
-ArrayLength
+std
+:
+:
+size
 (
 sRelationTypePairs
 )
@@ -860,7 +863,10 @@ idx
 ;
 idx
 <
-ArrayLength
+std
+:
+:
+size
 (
 sRelationTypePairs
 )
@@ -1025,7 +1031,10 @@ idx
 ;
 idx
 <
-ArrayLength
+std
+:
+:
+size
 (
 sRelationTypePairs
 )
@@ -3111,7 +3120,10 @@ idx
 ;
 idx
 <
-ArrayLength
+std
+:
+:
+size
 (
 sRelationTypePairs
 )

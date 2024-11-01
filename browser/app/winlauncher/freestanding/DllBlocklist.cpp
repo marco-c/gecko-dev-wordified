@@ -852,10 +852,10 @@ p
 ;
 p
 <
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 parts
 )
@@ -895,10 +895,10 @@ if
 p
 !
 =
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 parts
 )

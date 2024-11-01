@@ -4005,7 +4005,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 descriptTable
 )

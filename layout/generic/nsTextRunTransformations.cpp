@@ -5937,7 +5937,10 @@ const
 uint16_t
 len
 =
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 kSmallKanas
 )

@@ -607,7 +607,10 @@ test
 ;
 test
 <
-ArrayLength
+std
+:
+:
+size
 (
 testFiles
 )

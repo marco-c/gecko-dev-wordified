@@ -249,10 +249,10 @@ UNLEN
 DWORD
 size
 =
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 userName
 )

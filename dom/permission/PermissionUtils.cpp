@@ -272,7 +272,10 @@ value
 ;
 static_assert
 (
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 (
 kPermissionTypes
 )
@@ -305,7 +308,10 @@ size_t
 )
 aName
 <
-ArrayLength
+std
+:
+:
+size
 (
 kPermissionTypes
 )
@@ -456,7 +462,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 kPermissionTypes
 )

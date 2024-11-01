@@ -3521,7 +3521,10 @@ const
 size_t
 prefixLen
 =
-ArrayLength
+std
+:
+:
+size
 (
 kHTMLMarkupPrefix
 )
@@ -7843,7 +7846,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 imageMimeTypes
 )

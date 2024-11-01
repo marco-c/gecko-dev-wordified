@@ -3186,7 +3186,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 sAtkTextAttrNames
 )

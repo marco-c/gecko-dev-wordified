@@ -6326,7 +6326,10 @@ size
 uint16_t
 nameCount
 =
-ArrayLength
+std
+:
+:
+size
 (
 neededNameIDs
 )
@@ -8607,7 +8610,10 @@ BinarySearchIf
 (
 gMacFontNameCharsets
 0
-ArrayLength
+std
+:
+:
+size
 (
 gMacFontNameCharsets
 )
@@ -8658,7 +8664,10 @@ if
 (
 aScript
 <
-ArrayLength
+std
+:
+:
+size
 (
 gISOFontNameCharsets
 )
@@ -8680,7 +8689,10 @@ if
 (
 aScript
 <
-ArrayLength
+std
+:
+:
+size
 (
 gMSFontNameCharsets
 )
