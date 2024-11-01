@@ -161,9 +161,6 @@ bindings
 #
 ifdef
 ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-EmitterScope
-:
-:
 BlockKind
 blockKind
 #

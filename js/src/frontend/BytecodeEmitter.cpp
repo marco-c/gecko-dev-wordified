@@ -33495,15 +33495,9 @@ kind
 #
 ifdef
 ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-EmitterScope
-:
-:
 BlockKind
 blockKind
 =
-EmitterScope
-:
-:
 BlockKind
 :
 :
@@ -33560,9 +33554,6 @@ Lexical
 ;
 blockKind
 =
-EmitterScope
-:
-:
 BlockKind
 :
 :

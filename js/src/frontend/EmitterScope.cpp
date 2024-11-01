@@ -2580,6 +2580,7 @@ usingEmitter_
 >
 prepareForDisposableScopeBody
 (
+blockKind_
 )
 )
 {
