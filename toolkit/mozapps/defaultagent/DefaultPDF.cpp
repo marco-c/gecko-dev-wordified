@@ -328,10 +328,10 @@ SumatraPDF
 ;
 static_assert
 (
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 kStringPdfHandlerMap
 )
@@ -946,10 +946,10 @@ telemetry
 .
 static_assert
 (
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 kFriendlyNamePrefixes
 )

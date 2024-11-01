@@ -3398,10 +3398,10 @@ static_assert
 U_LB_COUNT
 =
 =
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 sUnicodeLineBreakToClass
 )
@@ -3427,10 +3427,10 @@ MOZ_ASSERT
 (
 cls
 <
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 sUnicodeLineBreakToClass
 )

@@ -367,10 +367,10 @@ DuckDuckGo
 ;
 static_assert
 (
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 kStringBrowserMap
 )
@@ -1018,10 +1018,10 @@ below
 .
 static_assert
 (
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 kFriendlyNamePrefixes
 )

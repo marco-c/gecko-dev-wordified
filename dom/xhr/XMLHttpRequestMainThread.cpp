@@ -6823,7 +6823,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 kCrossOriginSafeHeaders
 )

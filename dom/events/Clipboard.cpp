@@ -1744,7 +1744,10 @@ return
 AutoTArray
 <
 nsCString
-ArrayLength
+std
+:
+:
+size
 (
 kMandatoryDataTypes
 )

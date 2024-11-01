@@ -2826,7 +2826,10 @@ regexResults
 [
 0
 ]
-ArrayLength
+std
+:
+:
+size
 (
 "
 extensions

@@ -1180,7 +1180,10 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+std
+:
+:
+size
 (
 sLengthInfo
 )
@@ -1203,7 +1206,10 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-ArrayLength
+std
+:
+:
+size
 (
 sEnumInfo
 )

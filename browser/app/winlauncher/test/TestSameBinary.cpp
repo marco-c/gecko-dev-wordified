@@ -1238,10 +1238,10 @@ MakeCommandLine
 (
 argc
 argv
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 extraArgs
 )

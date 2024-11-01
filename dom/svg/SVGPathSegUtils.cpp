@@ -132,7 +132,10 @@ h
 "
 /
 /
-MOZ_ARRAY_LENGTH
+std
+:
+:
+size
 #
 include
 "

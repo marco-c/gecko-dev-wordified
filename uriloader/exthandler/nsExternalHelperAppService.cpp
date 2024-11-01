@@ -5628,7 +5628,10 @@ i
 ;
 i
 <
-ArrayLength
+std
+:
+:
+size
 (
 nonDecodableExtensions
 )
@@ -10079,7 +10082,10 @@ Length
 (
 )
 -
-ArrayLength
+std
+:
+:
+size
 (
 "
 .
@@ -17493,7 +17499,10 @@ Length
 (
 )
 +
-ArrayLength
+std
+:
+:
+size
 (
 "
 .
@@ -21888,7 +21897,10 @@ iter
 int32_t
 numEntries
 =
-ArrayLength
+std
+:
+:
+size
 (
 extraMimeEntries
 )

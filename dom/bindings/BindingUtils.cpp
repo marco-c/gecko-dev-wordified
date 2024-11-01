@@ -1182,7 +1182,10 @@ MOZ_ASSERT
 (
 aErrorNumber
 <
-ArrayLength
+std
+:
+:
+size
 (
 ErrorFormatString
 )

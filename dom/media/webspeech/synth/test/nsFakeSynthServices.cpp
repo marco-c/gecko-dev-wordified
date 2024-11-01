@@ -1323,7 +1323,10 @@ AddVoices
 (
 mSynthService
 sVoices
-ArrayLength
+std
+:
+:
+size
 (
 sVoices
 )

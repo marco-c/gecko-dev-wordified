@@ -2169,10 +2169,10 @@ const
 int
 NumFunctions
 =
-mozilla
+std
 :
 :
-ArrayLength
+size
 (
 Functions
 )
