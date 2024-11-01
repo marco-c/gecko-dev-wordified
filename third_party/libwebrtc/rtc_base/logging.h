@@ -241,7 +241,7 @@ the
 given
 stream
 at
-severitye
+severity
 "
 sev
 "
