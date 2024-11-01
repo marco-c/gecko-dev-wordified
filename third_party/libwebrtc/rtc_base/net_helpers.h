@@ -103,6 +103,12 @@ socket
 .
 h
 >
+/
+/
+IWYU
+pragma
+:
+export
 #
 elif
 WEBRTC_WIN
