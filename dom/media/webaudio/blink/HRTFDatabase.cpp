@@ -883,10 +883,10 @@ range
 .
 elevationAngle
 =
-std
+mozilla
 :
 :
-clamp
+clamped
 (
 elevationAngle
 static_cast

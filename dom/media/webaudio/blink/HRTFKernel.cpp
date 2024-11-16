@@ -813,10 +813,10 @@ x
 ;
 x
 =
-std
+mozilla
 :
 :
-clamp
+clamped
 (
 x
 0
