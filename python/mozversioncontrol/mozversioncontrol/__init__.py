@@ -106,3 +106,13 @@ import
 HgRepository
 #
 noqa
+from
+mozversioncontrol
+.
+repo
+.
+source
+import
+SrcRepository
+#
+noqa
