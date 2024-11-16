@@ -36702,7 +36702,11 @@ aRv
 {
 uint32_t
 selEnd
+=
+0
 selStart
+=
+0
 ;
 GetSelectionRange
 (
@@ -36864,7 +36868,11 @@ aRv
 {
 uint32_t
 selEnd
+=
+0
 selStart
+=
+0
 ;
 GetSelectionRange
 (
