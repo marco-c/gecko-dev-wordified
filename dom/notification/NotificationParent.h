@@ -164,6 +164,10 @@ dom
 :
 notification
 {
+enum
+class
+CloseMode
+;
 class
 NotificationParent
 final
@@ -320,6 +324,13 @@ FireClickEvent
 nsresult
 FireCloseEvent
 (
+)
+;
+void
+Unregister
+(
+CloseMode
+aCloseMode
 )
 ;
 void
