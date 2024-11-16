@@ -819,7 +819,7 @@ mDependentElemID
 {
 mReferencedElement
 .
-ResetWithID
+ResetToID
 (
 aContextElement
 mParams

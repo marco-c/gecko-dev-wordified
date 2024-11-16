@@ -651,7 +651,7 @@ mechanism
 *
 /
 void
-ResetToURIFragmentID
+ResetToURIWithFragmentID
 (
 nsIContent
 *
@@ -679,7 +679,7 @@ false
 A
 variation
 on
-ResetToURIFragmentID
+ResetToURIWithFragmentID
 (
 )
 to
@@ -688,8 +688,8 @@ up
 a
 reference
 that
-consists
 *
+consists
 only
 of
 a
@@ -701,8 +701,8 @@ element
 in
 the
 same
-document
 *
+document
 as
 aFrom
 .
@@ -783,7 +783,7 @@ ID
 *
 /
 void
-ResetWithLocalRef
+ResetToLocalFragmentID
 (
 Element
 &
@@ -805,7 +805,7 @@ true
 A
 variation
 on
-ResetToURIFragmentID
+ResetToURIWithFragmentID
 (
 )
 to
@@ -814,8 +814,8 @@ up
 a
 reference
 that
-consists
 *
+consists
 of
 a
 pre
@@ -829,6 +829,7 @@ in
 the
 same
 document
+*
 as
 aFrom
 .
@@ -899,7 +900,7 @@ ID
 *
 /
 void
-ResetWithID
+ResetToID
 (
 Element
 &

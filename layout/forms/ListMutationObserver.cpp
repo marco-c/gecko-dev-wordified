@@ -201,7 +201,7 @@ NS_AtomizeMainThread
 id
 )
 ;
-ResetWithID
+ResetToID
 (
 InputElement
 (
