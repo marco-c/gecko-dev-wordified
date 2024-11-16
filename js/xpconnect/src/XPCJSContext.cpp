@@ -8548,12 +8548,7 @@ rlim
 std
 :
 :
-max
-(
-std
-:
-:
-min
+clamp
 (
 size_t
 (
@@ -8563,11 +8558,10 @@ rlim_cur
 -
 kStackSafeMargin
 )
+kStackQuotaMin
 kStackQuotaMax
 -
 kStackSafeMargin
-)
-kStackQuotaMin
 )
 :
 kStackQuotaMin
