@@ -6461,7 +6461,7 @@ insn
 int32_t
 advance
 =
-Load32Aligned
+Load16AlignedSigned
 (
 pc
 +
