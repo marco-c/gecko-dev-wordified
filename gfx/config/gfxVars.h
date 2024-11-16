@@ -693,6 +693,13 @@ false
 \
 _
 (
+UseDMABufWebGL
+bool
+true
+)
+\
+_
+(
 DMABufModifiersXRGB
 ArrayOfuint64_t
 nsTArray

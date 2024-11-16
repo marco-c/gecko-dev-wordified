@@ -547,6 +547,17 @@ canvas
 "
 )
 \
+_
+(
+DMABUF_WEBGL
+Feature
+"
+DMABuf
+for
+WebGL
+"
+)
+\
 /
 *
 Add
