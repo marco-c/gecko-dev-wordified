@@ -927,7 +927,7 @@ standardEditMenuItem
 [
 [
 [
-GeckoNSMenuItem
+NSMenuItem
 alloc
 ]
 initWithTitle
@@ -952,7 +952,7 @@ standardEditMenu
 =
 [
 [
-GeckoNSMenu
+NSMenu
 alloc
 ]
 initWithTitle
@@ -983,7 +983,7 @@ undoItem
 =
 [
 [
-GeckoNSMenuItem
+NSMenuItem
 alloc
 ]
 initWithTitle
@@ -1027,7 +1027,7 @@ redoItem
 =
 [
 [
-GeckoNSMenuItem
+NSMenuItem
 alloc
 ]
 initWithTitle
@@ -1085,7 +1085,7 @@ cutItem
 =
 [
 [
-GeckoNSMenuItem
+NSMenuItem
 alloc
 ]
 initWithTitle
@@ -1129,7 +1129,7 @@ copyItem
 =
 [
 [
-GeckoNSMenuItem
+NSMenuItem
 alloc
 ]
 initWithTitle
@@ -1173,7 +1173,7 @@ pasteItem
 =
 [
 [
-GeckoNSMenuItem
+NSMenuItem
 alloc
 ]
 initWithTitle
@@ -1217,7 +1217,7 @@ deleteItem
 =
 [
 [
-GeckoNSMenuItem
+NSMenuItem
 alloc
 ]
 initWithTitle
@@ -1261,7 +1261,7 @@ selectAllItem
 =
 [
 [
-GeckoNSMenuItem
+NSMenuItem
 alloc
 ]
 initWithTitle
