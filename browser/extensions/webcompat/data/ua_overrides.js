@@ -5599,7 +5599,7 @@ webc119012
 platform
 :
 "
-all
+desktop
 "
 domain
 :
