@@ -2502,7 +2502,7 @@ NANOS_IN_MILLIS
 /
 /
 bug
-1701949
+1931539
 -
 Sleep
 gets
@@ -2519,7 +2519,7 @@ enough
 const
 EPSILON
 =
-40000
+50000
 ;
 Assert
 .
