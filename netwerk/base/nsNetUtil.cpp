@@ -17790,9 +17790,15 @@ if
 aLoadInfo
 -
 >
-GetWasSchemelessInput
+GetSchemelessInput
 (
 )
+=
+=
+nsILoadInfo
+:
+:
+SchemelessInputTypeSchemeless
 )
 {
 aLoadInfo
