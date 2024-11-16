@@ -48471,7 +48471,7 @@ model
 cache
 (
 in
-bytes
+GiB
 )
 pref
 (
@@ -48480,9 +48480,9 @@ browser
 .
 ml
 .
-modelCacheMaxSizeBytes
+modelCacheMaxSize
 "
-1073741824
+4
 )
 ;
 /
