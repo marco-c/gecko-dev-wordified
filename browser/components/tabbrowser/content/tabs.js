@@ -12289,7 +12289,7 @@ tabs
 =
 this
 .
-allTabs
+visibleTabs
 .
 slice
 (
