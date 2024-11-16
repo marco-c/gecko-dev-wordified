@@ -6452,6 +6452,13 @@ cyclicModuleFields
 (
 )
 {
+MOZ_ASSERT
+(
+hasCyclicModuleFields
+(
+)
+)
+;
 void
 *
 ptr
