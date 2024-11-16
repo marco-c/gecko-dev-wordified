@@ -274,9 +274,8 @@ out
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 ;
@@ -321,7 +320,6 @@ server
 .
 process_input
 (
-&
 out
 .
 dgram
@@ -453,9 +451,8 @@ out
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 ;
@@ -500,7 +497,6 @@ server
 .
 process_input
 (
-&
 out
 .
 dgram
@@ -576,9 +572,8 @@ dgram
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -606,10 +601,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -664,9 +655,8 @@ dgram
 =
 server
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -690,7 +680,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -776,9 +765,8 @@ dgram
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -806,10 +794,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 (
 )
@@ -860,7 +844,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -1005,7 +988,6 @@ process
 (
 Some
 (
-&
 p2
 )
 now
@@ -1055,10 +1037,6 @@ client
 process
 (
 ack
-.
-as_ref
-(
-)
 now
 )
 .
@@ -1111,9 +1089,8 @@ client_close
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -1167,9 +1144,8 @@ client_close_timer
 =
 client
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -1280,9 +1256,8 @@ client_close
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1307,9 +1282,8 @@ client_close_timer
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1371,7 +1345,6 @@ process
 (
 Some
 (
-&
 p3
 )
 now
@@ -1431,9 +1404,8 @@ end
 =
 client
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1497,10 +1469,6 @@ server
 process
 (
 client_close
-.
-as_ref
-(
-)
 now
 (
 )
@@ -1554,10 +1522,6 @@ server
 process
 (
 client_close2
-.
-as_ref
-(
-)
 now
 (
 )
@@ -1601,7 +1565,6 @@ process
 (
 Some
 (
-&
 p1
 )
 now
@@ -1625,9 +1588,8 @@ end
 =
 server
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -1756,7 +1718,6 @@ client
 .
 process_input
 (
-&
 datagram
 (
 vec

@@ -410,14 +410,10 @@ iter
 .
 map
 (
-|
-d
-|
-d
-.
+Datagram
+:
+:
 len
-(
-)
 )
 .
 sum
@@ -680,7 +676,6 @@ client
 .
 process_input
 (
-&
 s_ack
 now
 )
@@ -887,7 +882,6 @@ client
 .
 process_input
 (
-&
 s_ack
 now
 )
@@ -1178,7 +1172,6 @@ client
 .
 process_input
 (
-&
 s_ack
 now
 )
@@ -1231,7 +1224,6 @@ client
 .
 process_input
 (
-&
 s_ack
 now
 )
@@ -1475,7 +1467,6 @@ process
 (
 Some
 (
-&
 delivered
 )
 now
@@ -1526,7 +1517,6 @@ client
 .
 process_input
 (
-&
 ack
 .
 unwrap
@@ -1770,7 +1760,6 @@ client
 .
 process_input
 (
-&
 s_ack
 now
 )
@@ -1908,14 +1897,10 @@ iter
 .
 map
 (
-|
-d
-|
-d
-.
+Datagram
+:
+:
 len
-(
-)
 )
 .
 sum
@@ -2099,7 +2084,6 @@ client
 .
 process_input
 (
-&
 s_ack
 now
 )
@@ -2170,7 +2154,6 @@ client
 .
 process_input
 (
-&
 s_ack
 now
 )
@@ -2556,7 +2539,6 @@ client
 .
 process_input
 (
-&
 s_ack
 now
 )
@@ -2896,7 +2878,6 @@ client
 .
 process_input
 (
-&
 s_ack
 now
 )
@@ -3141,9 +3122,8 @@ dropped_packet
 =
 server
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -3211,9 +3191,8 @@ ack_eliciting_packet
 =
 server
 .
-process
+process_output
 (
-None
 now
 )
 .
@@ -3269,10 +3248,6 @@ client
 process
 (
 ack_eliciting_packet
-.
-as_ref
-(
-)
 now
 )
 .
@@ -3319,7 +3294,6 @@ server
 .
 process_input
 (
-&
 ack_pkt
 .
 unwrap

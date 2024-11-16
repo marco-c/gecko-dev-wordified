@@ -2257,9 +2257,8 @@ decoder
 .
 peer_conn
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -2278,7 +2277,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
@@ -2350,9 +2349,8 @@ decoder
 .
 conn
 .
-process
+process_output
 (
-None
 now
 (
 )
@@ -2371,7 +2369,7 @@ process
 (
 out
 .
-as_dgram_ref
+dgram
 (
 )
 now
