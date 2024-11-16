@@ -3926,6 +3926,14 @@ pattern
 \
 MACRO_
 (
+pause
+"
+pause
+"
+)
+\
+MACRO_
+(
 pending
 "
 pending
