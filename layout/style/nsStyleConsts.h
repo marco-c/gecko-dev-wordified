@@ -1396,7 +1396,7 @@ StyleTopLayer
 uint8_t
 {
 None
-Top
+Auto
 }
 ;
 /
