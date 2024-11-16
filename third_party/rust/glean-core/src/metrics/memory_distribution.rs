@@ -353,7 +353,7 @@ snapshot
 (
 )
 .
-into_iter
+iter
 (
 )
 .
@@ -361,7 +361,9 @@ map
 (
 |
 (
+&
 k
+&
 v
 )
 |

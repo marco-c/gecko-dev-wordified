@@ -1712,7 +1712,7 @@ Lifetime
 Ping
 disabled
 :
-false
+true
 dynamic_label
 :
 None
