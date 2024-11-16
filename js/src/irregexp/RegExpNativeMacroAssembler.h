@@ -347,7 +347,7 @@ default
 ;
 virtual
 int
-stack_limit_slack
+stack_limit_slack_slot_count
 (
 )
 ;
@@ -871,6 +871,8 @@ Handle
 String
 >
 source
+RegExpFlags
+flags
 )
 ;
 virtual
