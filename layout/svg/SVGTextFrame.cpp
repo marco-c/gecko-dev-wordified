@@ -198,13 +198,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsBidiPresUtils
 .
 h
