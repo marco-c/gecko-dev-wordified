@@ -56,6 +56,10 @@ MPL
 import
 time
 from
+copy
+import
+deepcopy
+from
 cProfile
 import
 Profile
@@ -1079,6 +1083,8 @@ and
 restore
 existing
 defaults
+and
+actions
 so
 *
 *
@@ -1086,10 +1092,10 @@ kwargs
 don
 '
 t
-persist
-across
             
 #
+persist
+across
 subsequent
 invocations
 of
@@ -1101,14 +1107,25 @@ dispatch
             
 old_defaults
 =
+deepcopy
+(
 parser
 .
 _defaults
-.
-copy
-(
 )
             
+old_actions
+=
+deepcopy
+(
+parser
+.
+_actions
+)
+            
+try
+:
+                
 parser
 .
 set_defaults
@@ -1117,7 +1134,7 @@ set_defaults
 *
 kwargs
 )
-            
+                
 kwargs
 unknown
 =
@@ -1130,7 +1147,7 @@ or
 [
 ]
 )
-            
+                
 kwargs
 =
 vars
@@ -1138,11 +1155,20 @@ vars
 kwargs
 )
             
+finally
+:
+                
 parser
 .
 _defaults
 =
 old_defaults
+                
+parser
+.
+_actions
+=
+old_actions
             
 if
 unknown
