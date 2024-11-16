@@ -2426,6 +2426,11 @@ Text
 cpp
 "
 "
+TextDirectiveUtil
+.
+cpp
+"
+"
 TextInputProcessor
 .
 cpp
