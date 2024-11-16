@@ -13149,6 +13149,11 @@ obj
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
