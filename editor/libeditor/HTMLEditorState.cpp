@@ -227,13 +227,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsAtom
 .
 h
