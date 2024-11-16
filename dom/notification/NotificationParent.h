@@ -339,6 +339,15 @@ MaybeInitAlertName
 (
 )
 ;
+Maybe
+<
+NotificationParent
+:
+:
+ShowResolver
+>
+mResolver
+;
 NotNull
 <
 nsCOMPtr
