@@ -985,6 +985,11 @@ this
 )
 ;
 }
+PrintAttributes
+(
+that
+)
+;
 }
 void
 DotPrinterImpl
