@@ -1533,6 +1533,8 @@ color
 background
 -
 position
+-
+x
 '
 :
 [
