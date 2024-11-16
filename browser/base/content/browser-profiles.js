@@ -174,6 +174,14 @@ bind
 (
 this
 )
+(
+)
+=
+>
+SelectableProfileService
+?
+.
+isEnabled
 )
 ;
 if

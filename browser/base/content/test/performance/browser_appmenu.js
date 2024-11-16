@@ -529,6 +529,13 @@ not
 disabled
 ]
 )
+:
+not
+(
+[
+hidden
+]
+)
 "
 )
 )
