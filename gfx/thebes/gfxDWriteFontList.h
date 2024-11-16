@@ -670,7 +670,10 @@ GetStretch
 int
 weight
 =
-NS_ROUNDUP
+mozilla
+:
+:
+RoundUpToMultiple
 (
 aFont
 -
