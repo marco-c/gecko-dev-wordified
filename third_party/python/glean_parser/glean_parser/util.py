@@ -94,12 +94,6 @@ urllib
 .
 request
 import
-appdirs
-#
-type
-:
-ignore
-import
 diskcache
 #
 type
@@ -117,6 +111,12 @@ from
 jsonschema
 import
 _utils
+#
+type
+:
+ignore
+import
+platformdirs
 #
 type
 :
@@ -1862,7 +1862,7 @@ cache
         
 cache_dir
 =
-appdirs
+platformdirs
 .
 user_cache_dir
 (
