@@ -38894,7 +38894,9 @@ a
 value
 in
 a
-OrderedHashTable
+MapObject
+or
+SetObject
 .
 *
 *
@@ -38919,7 +38921,7 @@ entry
 template
 <
 typename
-OrderedHashTable
+TableObject
 >
 void
 orderedHashTableLookup
@@ -39373,7 +39375,7 @@ private
 template
 <
 typename
-OrderedHashTable
+TableObject
 >
 void
 loadOrderedHashTableCount
