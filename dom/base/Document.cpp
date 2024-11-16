@@ -9458,6 +9458,10 @@ mShouldResistFingerprinting
 (
 false
 )
+mIsInPrivateBrowsing
+(
+false
+)
 mCloningForSVGUse
 (
 false
