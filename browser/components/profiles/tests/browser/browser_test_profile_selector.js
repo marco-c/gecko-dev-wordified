@@ -296,6 +296,13 @@ profile
 aProfile
 .
 path
+"
+-
+-
+profiles
+-
+activate
+"
 ]
 ;
 }
@@ -312,6 +319,13 @@ profile
 aProfile
 .
 path
+"
+-
+-
+profiles
+-
+activate
+"
 ]
 ;
 }
