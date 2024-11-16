@@ -2118,9 +2118,6 @@ aRv
 bool
 CreateActor
 (
-Promise
-*
-aPromise
 )
 ;
 bool
