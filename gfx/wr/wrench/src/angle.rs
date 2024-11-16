@@ -159,6 +159,9 @@ EventLoop
 (
 )
 >
+_
+:
+bool
 )
 -
 >
@@ -229,6 +232,9 @@ EventLoop
 (
 )
 >
+using_compositor
+:
+bool
 )
 -
 >
@@ -345,6 +351,7 @@ hwnd
 )
 as
 _
+using_compositor
 )
 )
 .

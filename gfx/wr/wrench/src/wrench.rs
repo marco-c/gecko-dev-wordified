@@ -206,6 +206,7 @@ webrender
 DebugFlags
 RenderResults
 ShaderPrecacheFlags
+Compositor2
 }
 ;
 use
@@ -1408,6 +1409,16 @@ dyn
 RenderNotifier
 >
 >
+compositor2
+:
+Option
+<
+Box
+<
+dyn
+Compositor2
+>
+>
 )
 -
 >
@@ -1606,6 +1617,7 @@ window
 is_software
 (
 )
+compositor2
 .
 .
 Default
