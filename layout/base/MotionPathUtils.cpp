@@ -3122,7 +3122,10 @@ path
 .
 usedDistance
 =
-clamped
+std
+:
+:
+clamp
 (
 usedDistance
 0

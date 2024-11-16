@@ -890,10 +890,10 @@ transparency
 .
 sat
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 (
 sat
 *
@@ -933,10 +933,10 @@ opacity
 .
 value
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 (
 255
 -

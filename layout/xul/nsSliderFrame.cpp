@@ -3901,7 +3901,10 @@ maxPos
 ;
 curPos
 =
-clamped
+std
+:
+:
+clamp
 (
 curPos
 minPos
@@ -5904,7 +5907,10 @@ maxPos
 ;
 curPos
 =
-clamped
+std
+:
+:
+clamp
 (
 curPos
 minPos

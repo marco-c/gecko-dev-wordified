@@ -10704,7 +10704,10 @@ aSize
 ;
 aStart
 =
-clamped
+std
+:
+:
+clamp
 (
 aStart
 float
@@ -10719,7 +10722,10 @@ nscoord_MAX
 ;
 end
 =
-clamped
+std
+:
+:
+clamp
 (
 end
 float

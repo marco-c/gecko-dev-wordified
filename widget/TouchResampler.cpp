@@ -121,13 +121,6 @@ TouchResampler
 .
 h
 "
-#
-include
-"
-nsAlgorithm
-.
-h
-"
 /
 *
 *
@@ -799,7 +792,10 @@ kTouchResampleMaxPredictMs
 TimeStamp
 sampleTime
 =
-clamped
+std
+:
+:
+clamp
 (
 aTimeStamp
 lowerBound

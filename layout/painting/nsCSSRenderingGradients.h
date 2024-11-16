@@ -557,7 +557,10 @@ kFullRangeExtraStops
 ;
 extraStops
 =
-clamped
+std
+:
+:
+clamp
 (
 extraStops
 1U

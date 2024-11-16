@@ -376,7 +376,10 @@ aTime
 const
 {
 return
-clamped
+std
+:
+:
+clamp
 (
 (
 aTime

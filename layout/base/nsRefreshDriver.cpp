@@ -5966,7 +5966,10 @@ period
 TimeDuration
 timeForOutsideTick
 =
-clamped
+std
+:
+:
+clamp
 (
 tickStart
 -

@@ -2136,13 +2136,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsArrayUtils
 .
 h
@@ -12072,7 +12065,10 @@ value
 }
 }
 return
-clamped
+std
+:
+:
+clamp
 (
 value
 1

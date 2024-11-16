@@ -8778,7 +8778,10 @@ Sanitize
 it
 nextGuess
 =
-clamped
+std
+:
+:
+clamp
 (
 nextGuess
 aConfig

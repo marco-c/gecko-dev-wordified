@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -1172,7 +1165,10 @@ strokeAlpha
 =
 uint8_t
 (
-clamped
+std
+:
+:
+clamp
 (
 NS_GET_A
 (

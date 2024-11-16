@@ -34230,7 +34230,10 @@ error
 return
 corners
 [
-clamped
+std
+:
+:
+clamp
 (
 i
 startIndex
@@ -34361,7 +34364,10 @@ error
 return
 borders
 [
-clamped
+std
+:
+:
+clamp
 (
 i
 startIndex

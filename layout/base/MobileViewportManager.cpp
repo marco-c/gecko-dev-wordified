@@ -3161,7 +3161,10 @@ b
 float
 denominator
 =
-clamped
+std
+:
+:
+clamp
 (
 c
 a
