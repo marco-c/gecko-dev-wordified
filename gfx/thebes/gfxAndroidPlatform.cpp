@@ -585,7 +585,7 @@ sFontAPIInitializeThread
 =
 nullptr
 ;
-MOZ_RUNINIT
+MOZ_CONSTINIT
 nsCString
 gfxAndroidPlatform
 :
