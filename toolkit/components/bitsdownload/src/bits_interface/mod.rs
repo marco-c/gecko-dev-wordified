@@ -1407,6 +1407,11 @@ u32
 update_interval_ms
 :
 u32
+custom_headers
+:
+*
+const
+nsACString
 observer
 :
 *
@@ -1445,6 +1450,10 @@ u32
 update_interval_ms
 :
 u32
+custom_headers
+:
+&
+nsACString
 observer
 :
 &
@@ -1620,6 +1629,13 @@ save_rel_path
 proxy
 no_progress_timeout_secs
 update_interval_ms
+nsCString
+:
+:
+from
+(
+custom_headers
+)
 RefPtr
 :
 :
