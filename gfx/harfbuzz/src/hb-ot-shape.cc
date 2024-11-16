@@ -5702,7 +5702,7 @@ i
 {
 if
 (
-_hb_glyph_info_get_general_category
+_hb_glyph_info_is_variation_selector
 (
 &
 info
@@ -5710,9 +5710,6 @@ info
 i
 ]
 )
-=
-=
-_HB_UNICODE_GENERAL_CATEGORY_VARIATION_SELECTOR
 )
 {
 info
@@ -5757,14 +5754,14 @@ y_offset
 =
 0
 ;
-_hb_glyph_info_set_general_category
+_hb_glyph_info_set_variation_selector
 (
 &
 info
 [
 i
 ]
-HB_UNICODE_GENERAL_CATEGORY_NON_SPACING_MARK
+false
 )
 ;
 }

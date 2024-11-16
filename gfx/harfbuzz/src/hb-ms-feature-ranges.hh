@@ -223,6 +223,8 @@ in
 hb
 -
 coretext
+-
+shape
 .
 cc
 as

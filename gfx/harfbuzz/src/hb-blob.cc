@@ -3219,7 +3219,6 @@ hb_blob_create_from_file_or_fail
 file_name
 :
 A
-font
 filename
 *
 *
@@ -3232,10 +3231,7 @@ the
 data
 from
 the
-*
 specified
-binary
-font
 file
 .
 *

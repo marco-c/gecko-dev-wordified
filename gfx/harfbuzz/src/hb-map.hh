@@ -2039,10 +2039,7 @@ item
 fetch_item
 (
 key
-hb_hash
-(
-key
-)
+hash
 )
 ;
 if

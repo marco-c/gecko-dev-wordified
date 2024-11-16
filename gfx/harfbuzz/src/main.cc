@@ -1261,6 +1261,9 @@ extents
 =
 {
 0
+0
+0
+0
 }
 ;
 if
@@ -1657,6 +1660,9 @@ hb_glyph_extents_t
 extents
 =
 {
+0
+0
+0
 0
 }
 ;

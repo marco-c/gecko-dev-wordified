@@ -2813,24 +2813,20 @@ False
 Whether
 the
 parser
-is
-after
-a
-<
-br
->
-element
-within
+ignores
+the
+rest
+of
 the
 current
 <
-tr
+td
 >
 element
 		
 self
 .
-_br
+_disengaged
 =
 False
 		
@@ -2873,13 +2869,50 @@ tag
 =
 =
 '
+a
+'
+:
+			
+if
+self
+.
+_current_tr
+and
+not
+self
+.
+_disengaged
+:
+				
+self
+.
+_current_tr
+[
+-
+1
+]
+=
+'
+'
+				
+self
+.
+_disengaged
+=
+True
+		
+elif
+tag
+=
+=
+'
 br
 '
 :
 			
 self
 .
-_br
+_disengaged
 =
 True
 		
@@ -2963,7 +2996,7 @@ tr
 			
 self
 .
-_br
+_disengaged
 =
 False
 			
@@ -2994,6 +3027,12 @@ td
 self
 .
 _td
+=
+False
+			
+self
+.
+_disengaged
 =
 False
 		
@@ -3250,7 +3289,7 @@ and
 not
 self
 .
-_br
+_disengaged
 :
 			
 self
