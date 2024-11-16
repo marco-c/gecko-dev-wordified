@@ -6510,6 +6510,7 @@ aPoint
 )
 ;
 enum
+class
 AxisLockMode
 {
 FREE
