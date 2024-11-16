@@ -2197,7 +2197,7 @@ ungroupTabs
 and
 waiting
 for
-TabGroupRemove
+TabGroupRemoved
 event
 .
 "
@@ -2212,7 +2212,7 @@ waitForEvent
 (
 group
 "
-TabGroupRemove
+TabGroupRemoved
 "
 )
 ;
@@ -2513,7 +2513,7 @@ adoptTabGroup
 and
 waiting
 for
-TabGroupRemove
+TabGroupRemoved
 event
 .
 "
@@ -2528,7 +2528,7 @@ waitForEvent
 (
 group
 "
-TabGroupRemove
+TabGroupRemoved
 "
 )
 ;
@@ -3016,7 +3016,7 @@ waitForEvent
 (
 group
 "
-TabGroupRemove
+TabGroupRemoved
 "
 )
 ;
