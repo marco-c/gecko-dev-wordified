@@ -4767,7 +4767,7 @@ webc65753
 platform
 :
 "
-all
+android
 "
 domain
 :
