@@ -10116,9 +10116,7 @@ em
 if
 context
 .
-parsing_mode
-.
-allows_font_relative_lengths
+allows_computational_dependence
 (
 )
 =
@@ -10142,9 +10140,7 @@ ex
 if
 context
 .
-parsing_mode
-.
-allows_font_relative_lengths
+allows_computational_dependence
 (
 )
 =
@@ -10168,9 +10164,7 @@ ch
 if
 context
 .
-parsing_mode
-.
-allows_font_relative_lengths
+allows_computational_dependence
 (
 )
 =
@@ -10194,9 +10188,7 @@ cap
 if
 context
 .
-parsing_mode
-.
-allows_font_relative_lengths
+allows_computational_dependence
 (
 )
 =
@@ -10220,9 +10212,7 @@ ic
 if
 context
 .
-parsing_mode
-.
-allows_font_relative_lengths
+allows_computational_dependence
 (
 )
 =
@@ -10246,9 +10236,7 @@ rem
 if
 context
 .
-parsing_mode
-.
-allows_font_relative_lengths
+allows_computational_dependence
 (
 )
 =
@@ -10272,9 +10260,7 @@ lh
 if
 context
 .
-parsing_mode
-.
-allows_font_relative_lengths
+allows_computational_dependence
 (
 )
 =
@@ -10298,9 +10284,7 @@ rlh
 if
 context
 .
-parsing_mode
-.
-allows_font_relative_lengths
+allows_computational_dependence
 (
 )
 =
