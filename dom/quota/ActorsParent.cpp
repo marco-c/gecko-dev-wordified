@@ -19730,6 +19730,17 @@ AssertIsOnIOThread
 (
 )
 ;
+QM_TRY
+(
+ArtificialFailure
+(
+nsIQuotaArtificialFailure
+:
+:
+CATEGORY_CREATE_DIRECTORY_METADATA2
+)
+)
+;
 QM_TRY_INSPECT
 (
 const
