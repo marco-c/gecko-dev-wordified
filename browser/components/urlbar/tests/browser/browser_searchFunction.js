@@ -345,6 +345,7 @@ focused
 "
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
