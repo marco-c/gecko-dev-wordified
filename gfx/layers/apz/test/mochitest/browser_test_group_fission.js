@@ -329,15 +329,6 @@ helper_fission_inactivescroller_positionedcontent
 html
 "
 }
-{
-file
-:
-"
-helper_fission_irregular_areas
-.
-html
-"
-}
 /
 /
 add
