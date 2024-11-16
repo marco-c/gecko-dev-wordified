@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]
@@ -678,8 +682,6 @@ snapshot
 pat
 r
 #
-#
-#
 "
 Pat
 :
@@ -713,8 +715,6 @@ Wild
 ]
 }
 "
-#
-#
 #
 )
 ;
@@ -1276,8 +1276,6 @@ as
 Pat
 r
 #
-#
-#
 "
 Pat
 :
@@ -1298,8 +1296,6 @@ Token
 ]
 }
 "
-#
-#
 #
 )
 ;
@@ -1334,8 +1330,6 @@ as
 Pat
 r
 #
-#
-#
 "
 Pat
 :
@@ -1356,8 +1350,6 @@ Token
 ]
 }
 "
-#
-#
 #
 )
 ;
@@ -1386,8 +1378,6 @@ as
 Pat
 r
 #
-#
-#
 "
 Pat
 :
@@ -1412,8 +1402,6 @@ Wild
 ]
 }
 "
-#
-#
 #
 )
 ;
@@ -1448,8 +1436,6 @@ as
 Pat
 r
 #
-#
-#
 "
 Pat
 :
@@ -1478,8 +1464,6 @@ Token
 ]
 }
 "
-#
-#
 #
 )
 ;

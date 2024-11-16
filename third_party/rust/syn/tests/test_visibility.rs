@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]
@@ -832,8 +836,6 @@ as
 DeriveInput
 r
 #
-#
-#
 "
 DeriveInput
 {
@@ -899,8 +901,6 @@ Tuple
 }
 }
 "
-#
-#
 #
 )
 ;
@@ -1076,8 +1076,6 @@ as
 DeriveInput
 r
 #
-#
-#
 "
 DeriveInput
 {
@@ -1162,8 +1160,6 @@ Some
 }
 }
 "
-#
-#
 #
 )
 ;

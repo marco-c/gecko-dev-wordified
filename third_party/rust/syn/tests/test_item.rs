@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+needless_lifetimes
+clippy
+:
+:
 uninlined_format_args
 )
 ]
@@ -198,8 +202,6 @@ as
 Item
 r
 #
-#
-#
 "
 Item
 :
@@ -276,8 +278,6 @@ stmts
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -332,8 +332,6 @@ as
 Item
 r
 #
-#
-#
 "
 Item
 :
@@ -351,8 +349,6 @@ Type
 Never
 }
 "
-#
-#
 #
 )
 ;
@@ -398,8 +394,6 @@ as
 Item
 r
 #
-#
-#
 "
 Item
 :
@@ -421,8 +415,6 @@ Trait
 )
 }
 "
-#
-#
 #
 )
 ;
@@ -464,8 +456,6 @@ tokens
 as
 Item
 r
-#
-#
 #
 "
 Item
@@ -527,8 +517,6 @@ T
 }
 "
 #
-#
-#
 )
 ;
 #
@@ -573,8 +561,6 @@ as
 Item
 r
 #
-#
-#
 "
 Item
 :
@@ -596,8 +582,6 @@ Verbatim
 )
 }
 "
-#
-#
 #
 )
 ;
@@ -751,8 +735,6 @@ as
 Item
 r
 #
-#
-#
 "
 Item
 :
@@ -821,8 +803,6 @@ Type
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -872,8 +852,6 @@ as
 ItemTrait
 r
 #
-#
-#
 "
 ItemTrait
 {
@@ -901,8 +879,6 @@ WhereClause
 }
 }
 "
-#
-#
 #
 )
 ;
@@ -934,8 +910,6 @@ tokens
 as
 ItemTrait
 r
-#
-#
 #
 "
 ItemTrait
@@ -968,8 +942,6 @@ Some
 }
 "
 #
-#
-#
 )
 ;
 #
@@ -1001,8 +973,6 @@ tokens
 as
 ItemTrait
 r
-#
-#
 #
 "
 ItemTrait
@@ -1065,8 +1035,6 @@ Sized
 }
 "
 #
-#
-#
 )
 ;
 #
@@ -1099,8 +1067,6 @@ tokens
 as
 ItemTrait
 r
-#
-#
 #
 "
 ItemTrait
@@ -1168,8 +1134,6 @@ Token
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -1213,8 +1177,6 @@ as
 ItemTrait
 r
 #
-#
-#
 "
 ItemTrait
 {
@@ -1255,8 +1217,6 @@ Some
 ]
 }
 "
-#
-#
 #
 )
 ;
@@ -1365,8 +1325,6 @@ as
 Item
 r
 #
-#
-#
 "
 Item
 :
@@ -1423,8 +1381,6 @@ Tuple
 }
 "
 #
-#
-#
 )
 ;
 }
@@ -1463,8 +1419,6 @@ tokens
 as
 Item
 r
-#
-#
 #
 "
 Item
@@ -1551,8 +1505,6 @@ stmts
 }
 }
 "
-#
-#
 #
 )
 ;
