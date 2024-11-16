@@ -218,9 +218,11 @@ Self
 let
 result
 :
-Vec
+Box
 <
+[
 _
+]
 >
 =
 super
@@ -251,10 +253,6 @@ Ok
 Self
 (
 result
-.
-into_boxed_slice
-(
-)
 )
 )
 }

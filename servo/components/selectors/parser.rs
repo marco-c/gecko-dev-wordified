@@ -13346,14 +13346,6 @@ Self
 ]
 >
 {
-let
-vec
-:
-Vec
-<
-Self
->
-=
 selector_list
 .
 slice
@@ -13547,12 +13539,6 @@ clone
 )
 .
 collect
-(
-)
-;
-vec
-.
-into_boxed_slice
 (
 )
 }
