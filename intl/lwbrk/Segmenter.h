@@ -821,6 +821,17 @@ WordBreakIteratorUtf16
 )
 override
 ;
+void
+Reset
+(
+Span
+<
+const
+char16_t
+>
+aText
+)
+;
 Maybe
 <
 uint32_t
