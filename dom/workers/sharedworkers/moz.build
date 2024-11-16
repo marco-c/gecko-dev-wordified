@@ -109,11 +109,6 @@ SharedWorkerManager
 h
 "
 "
-SharedWorkerOp
-.
-h
-"
-"
 SharedWorkerParent
 .
 h
@@ -139,11 +134,6 @@ SharedWorkerManager
 cpp
 "
 "
-SharedWorkerOp
-.
-cpp
-"
-"
 SharedWorkerParent
 .
 cpp
@@ -162,11 +152,6 @@ IPDL_SOURCES
 PSharedWorker
 .
 ipdl
-"
-"
-SharedWorkerOpArgs
-.
-ipdlh
 "
 ]
 include
