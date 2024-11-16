@@ -702,6 +702,11 @@ testSlowScript
 cpp
 "
 "
+testSortedArenaList
+.
+cpp
+"
+"
 testSourcePolicy
 .
 cpp
