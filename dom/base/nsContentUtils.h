@@ -8676,6 +8676,16 @@ SpoofLocaleEnglish
 (
 )
 ;
+static
+bool
+SpoofLocaleEnglish
+(
+const
+Document
+*
+aDocument
+)
+;
 /
 *
 *
