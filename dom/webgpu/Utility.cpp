@@ -3040,7 +3040,7 @@ check
 this
 here
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 .
@@ -3666,7 +3666,7 @@ check
 this
 here
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 !
