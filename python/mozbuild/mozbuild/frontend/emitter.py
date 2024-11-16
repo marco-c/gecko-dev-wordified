@@ -5235,10 +5235,12 @@ _binaries
 program
 ]
                         
+(
+                            
 "
 HOST_USE_LIBS
 "
-                        
+                            
 if
 kind
 =
@@ -5246,11 +5248,13 @@ kind
 "
 HOST_SIMPLE_PROGRAMS
 "
-                        
+                            
 else
 "
 USE_LIBS
 "
+                        
+)
                     
 )
                 

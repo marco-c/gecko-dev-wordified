@@ -585,13 +585,13 @@ server_root
         
 kwargs
 [
-            
 "
 server_root
 "
-        
 ]
 =
+(
+            
 "
 toolkit
 /
@@ -607,6 +607,8 @@ harness
 /
 www
 "
+        
+)
     
 return
 run_telemetry

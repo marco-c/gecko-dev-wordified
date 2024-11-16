@@ -15866,13 +15866,13 @@ subtest
                             
 new_subtest
 [
-                                
 "
 name
 "
-                            
 ]
 =
+(
+                                
 f
 "
 {
@@ -15889,6 +15889,8 @@ alternative_method
 }
 )
 "
+                            
+)
                             
 _process
 (
@@ -17968,8 +17970,10 @@ suites
 =
 [
             
+(
+                
 s
-            
+                
 if
 (
 "
@@ -17992,11 +17996,13 @@ support_class
 "
 )
 )
-            
+                
 else
 _process_suite
 (
 s
+)
+            
 )
             
 for

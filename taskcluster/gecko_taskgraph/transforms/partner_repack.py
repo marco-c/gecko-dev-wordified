@@ -403,17 +403,19 @@ env
 }
 )
 [
-                    
 "
 REPACK_MANIFESTS_URL
 "
-                
 ]
 =
+(
+                    
 partner_url_config
 [
 k
 ]
+                
+)
                 
 break
         

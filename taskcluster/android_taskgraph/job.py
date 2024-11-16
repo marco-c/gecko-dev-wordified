@@ -891,13 +891,13 @@ gradlew
     
 run
 [
-        
 "
 command
 "
-    
 ]
 =
+(
+        
 "
 /
 builds
@@ -920,6 +920,8 @@ android
 .
 sh
 "
+    
+)
     
 _inject_secrets_scopes
 (

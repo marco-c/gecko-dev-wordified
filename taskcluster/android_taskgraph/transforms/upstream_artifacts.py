@@ -214,21 +214,23 @@ type
             
 worker_definition
 [
-                
 "
 upstream
 -
 artifacts
 "
-            
 ]
 =
+(
+                
 generate_beetmover_upstream_artifacts
 (
 config
 task
 build_type
 locale
+)
+            
 )
         
 else

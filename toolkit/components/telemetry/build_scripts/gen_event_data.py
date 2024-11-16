@@ -1329,8 +1329,9 @@ extra_keys
 record_on_release
 "
 :
+(
+                    
 True
-                
 if
 event
 .
@@ -1342,9 +1343,10 @@ opt
 -
 out
 "
-                
 else
 False
+                
+)
                 
 #
 We

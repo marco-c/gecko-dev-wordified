@@ -942,16 +942,18 @@ instance
 .
 required_prefs
 [
-                
 Prefs
 .
 FISSION_AUTOSTART
-            
 ]
 =
+(
+                
 self
 .
 fissionRequired
+            
+)
         
 self
 .

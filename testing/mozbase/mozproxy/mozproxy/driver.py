@@ -1098,6 +1098,8 @@ now
 playback_version
 "
 :
+(
+                        
 "
 8
 .
@@ -1105,16 +1107,16 @@ playback_version
 .
 1
 "
-                    
 if
 mozinfo
 .
 isLinux
-                    
 else
 args
 .
 tool_version
+                    
+)
                     
 "
 record

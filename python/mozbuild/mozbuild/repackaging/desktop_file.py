@@ -1522,12 +1522,14 @@ StartupWMClass
 value
 "
 :
+(
+                    
 "
 firefox
 -
 aurora
 "
-                
+                    
 if
 build_variables
 [
@@ -1542,13 +1544,13 @@ firefox
 -
 devedition
 "
-                
+                    
 else
 build_variables
 .
 get
 (
-                    
+                        
 "
 StartupWMClass
 "
@@ -1558,6 +1560,8 @@ build_variables
 DEB_PKG_NAME
 "
 ]
+                    
+)
                 
 )
             

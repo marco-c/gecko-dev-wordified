@@ -3337,11 +3337,13 @@ values
 =
 [
                             
+(
+                                
 "
 \
 u2705
 "
-                            
+                                
 if
 match_run_on_projects
 (
@@ -3353,12 +3355,14 @@ run_on_projects
 "
 ]
 )
-                            
+                                
 else
 "
 \
 u274C
 "
+                            
+)
                             
 for
 x
@@ -5143,11 +5147,13 @@ values
 =
 [
                         
+(
+                            
 "
 \
 u2705
 "
-                        
+                            
 if
 match_run_on_projects
 (
@@ -5159,12 +5165,14 @@ run_on_projects
 "
 ]
 )
-                        
+                            
 else
 "
 \
 u274C
 "
+                        
+)
                         
 for
 x

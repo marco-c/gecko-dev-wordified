@@ -2970,6 +2970,8 @@ on
 projects
 "
 :
+(
+                
 job
 .
 get
@@ -2982,7 +2984,6 @@ on
 projects
 "
 )
-            
 if
 job
 .
@@ -2996,10 +2997,11 @@ on
 projects
 "
 )
-            
 else
 [
 ]
+            
+)
         
 }
         

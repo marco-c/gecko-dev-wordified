@@ -54881,10 +54881,12 @@ s
 %
 (
                     
+(
+                        
 "
 named
 "
-                    
+                        
 if
 specialType
 =
@@ -54894,12 +54896,14 @@ IDLMethod
 NamedOrIndexed
 .
 Named
-                    
+                        
 else
+(
+                            
 "
 indexed
 "
-                    
+                            
 if
 specialType
 =
@@ -54909,10 +54913,14 @@ IDLMethod
 NamedOrIndexed
 .
 Indexed
-                    
+                            
 else
 "
 "
+                        
+)
+                    
+)
                     
 "
 getter

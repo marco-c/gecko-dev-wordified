@@ -1268,8 +1268,9 @@ keys
 record_on_release
 "
 :
+(
+                    
 True
-                
 if
 scalar
 .
@@ -1281,9 +1282,10 @@ opt
 -
 out
 "
-                
 else
 False
+                
+)
                 
 #
 We

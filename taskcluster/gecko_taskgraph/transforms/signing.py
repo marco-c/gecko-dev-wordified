@@ -1604,13 +1604,13 @@ notarization
             
 task
 [
-                
 "
 description
 "
-            
 ]
 =
+(
+                
 "
 Notarization
 of
@@ -1632,7 +1632,7 @@ build
 .
 format
 (
-                
+                    
 get_locales_description
 (
 attributes
@@ -1642,9 +1642,9 @@ en
 US
 "
 )
-                
+                    
 build_platform
-                
+                    
 attributes
 .
 get
@@ -1652,6 +1652,8 @@ get
 "
 build_type
 "
+)
+                
 )
             
 )

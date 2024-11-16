@@ -2975,6 +2975,8 @@ to
 second
 .
             
+(
+                
 str
 (
 min
@@ -2985,16 +2987,18 @@ post_startup_delay
 1000
 )
 )
-            
+                
 if
 extra_profiler_run
-            
+                
 else
 str
 (
 self
 .
 post_startup_delay
+)
+            
 )
             
 "
@@ -3116,10 +3120,12 @@ browsertime
 expose_profiler
 "
             
+(
+                
 "
 true
 "
-            
+                
 if
 self
 .
@@ -3128,11 +3134,13 @@ _expose_browser_profiler
 extra_profiler_run
 test
 )
-            
+                
 else
 "
 false
 "
+            
+)
         
 ]
         
@@ -4297,13 +4305,13 @@ self
 .
 config
 [
-                
 "
 browsertime_result_dir
 "
-            
 ]
 =
+(
+                
 self
 .
 results_handler
@@ -4311,6 +4319,8 @@ results_handler
 result_dir_for_test
 (
 test
+)
+            
 )
             
 self
@@ -4340,13 +4350,13 @@ self
 .
 config
 [
-                
 "
 browsertime_result_dir
 "
-            
 ]
 =
+(
+                
 self
 .
 results_handler
@@ -4354,6 +4364,8 @@ results_handler
 result_dir_for_test
 (
 test
+)
+            
 )
             
 self

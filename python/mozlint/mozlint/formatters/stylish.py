@@ -859,6 +859,8 @@ grey
 c2
 "
 :
+(
+                        
 self
 .
 color
@@ -867,7 +869,7 @@ color
 red
 "
 )
-                    
+                        
 if
 err
 .
@@ -877,7 +879,7 @@ level
 "
 error
 "
-                    
+                        
 else
 self
 .
@@ -886,6 +888,8 @@ color
 "
 yellow
 "
+)
+                    
 )
                     
 "
@@ -1122,6 +1126,8 @@ term
                 
 c
 =
+(
+                    
 self
 .
 color
@@ -1130,12 +1136,12 @@ color
 brightred
 "
 )
-                
+                    
 if
 num_errors
 or
 failed
-                
+                    
 else
 self
 .
@@ -1144,6 +1150,8 @@ color
 "
 brightyellow
 "
+)
+                
 )
                 
 problem
@@ -1191,6 +1199,8 @@ total_suppressed_warnings
                 
 failure
 =
+(
+                    
 "
 {
 }
@@ -1209,13 +1219,13 @@ failed
 )
 )
 )
-                
 if
 failed
-                
 else
 "
 "
+                
+)
                 
 fixed
 =

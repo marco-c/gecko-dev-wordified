@@ -207,15 +207,15 @@ worker
 "
 ]
 [
-            
 "
 release
 -
 name
 "
-        
 ]
 =
+(
+            
 "
 {
 product
@@ -233,7 +233,7 @@ build_number
 .
 format
 (
-            
+                
 product
 =
 job
@@ -248,7 +248,7 @@ product
 capitalize
 (
 )
-            
+                
 version
 =
 release_config
@@ -257,7 +257,7 @@ release_config
 version
 "
 ]
-            
+                
 build_number
 =
 release_config
@@ -266,6 +266,8 @@ release_config
 build_number
 "
 ]
+            
+)
         
 )
         

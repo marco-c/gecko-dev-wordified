@@ -2389,6 +2389,8 @@ _metadata
 update_current_site
 (
             
+(
+                
 self
 .
 _virtualenv
@@ -2396,7 +2398,7 @@ _virtualenv
 )
 .
 python_path
-            
+                
 if
 self
 .
@@ -2406,11 +2408,13 @@ _site_packages_source
 SitePackagesSource
 .
 VENV
-            
+                
 else
 sys
 .
 executable
+            
+)
         
 )
 :
@@ -9399,6 +9403,8 @@ lower
 ]
 "
                 
+(
+                    
 f
 "
 import
@@ -9418,12 +9424,14 @@ site_packages_dir
 }
 )
 "
-                
+                    
 if
 populate_virtualenv
-                
+                    
 else
 None
+                
+)
             
 )
         

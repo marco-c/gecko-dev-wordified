@@ -6203,19 +6203,21 @@ getSubject
         
 tbsCertificate
 [
-            
 "
 subjectPublicKeyInfo
 "
-        
 ]
 =
+(
+            
 self
 .
 subjectKey
 .
 asSubjectPublicKeyInfo
 (
+)
+        
 )
         
 if

@@ -6408,6 +6408,8 @@ topsrcdir
 sysroot
 "
 :
+(
+                            
 "
 namespace
 (
@@ -6416,14 +6418,16 @@ bootstrapped
 True
 )
 "
-                        
+                            
 if
 bootstrapped_sysroot
-                        
+                            
 else
 "
 None
 "
+                        
+)
                     
 }
                 
