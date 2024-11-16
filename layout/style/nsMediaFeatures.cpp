@@ -1420,6 +1420,13 @@ CSSResolution
 )
 {
 return
+float
+(
+nsRFPService
+:
+:
+GetDevicePixelRatioAtZoom
+(
 pc
 -
 >
@@ -1431,12 +1438,7 @@ DeviceContext
 GetFullZoom
 (
 )
-*
-nsRFPService
-:
-:
-GetDefaultPixelDensity
-(
+)
 )
 ;
 }

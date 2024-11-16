@@ -22275,15 +22275,14 @@ return
 nsRFPService
 :
 :
-GetDefaultPixelDensity
+GetDevicePixelRatioAtZoom
 (
-)
-*
 presContext
 -
 >
 GetFullZoom
 (
+)
 )
 ;
 }
