@@ -3719,6 +3719,13 @@ tryAttachTypedArrayConstructor
 )
 ;
 AttachDecision
+tryAttachMapSetConstructor
+(
+InlinableNative
+native
+)
+;
+AttachDecision
 tryAttachNumber
 (
 )

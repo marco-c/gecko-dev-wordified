@@ -509,6 +509,11 @@ IntlGuardToSegmentIterator
 \
 _
 (
+MapConstructor
+)
+\
+_
+(
 MapGet
 )
 \
@@ -766,6 +771,11 @@ _
 GetFirstDollarIndex
 )
 \
+\
+_
+(
+SetConstructor
+)
 \
 _
 (
