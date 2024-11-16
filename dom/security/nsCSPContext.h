@@ -1280,6 +1280,11 @@ mWarnedAboutTooManyReports
 =
 false
 ;
+bool
+mHasPolicyWithRequireTrustedTypesForDirective
+=
+false
+;
 }
 ;
 /
