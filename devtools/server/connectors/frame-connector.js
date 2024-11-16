@@ -275,13 +275,6 @@ connectToFrame
 connection
 frame
 onDestroy
-{
-addonId
-addonBrowsingContextGroupId
-}
-=
-{
-}
 )
 {
 return
@@ -1041,8 +1034,6 @@ connect
 "
 {
 prefix
-addonId
-addonBrowsingContextGroupId
 }
 )
 ;
