@@ -7109,12 +7109,8 @@ aViewer
 Init
 (
 nullptr
-nsIntRect
+LayoutDeviceIntRect
 (
-0
-0
-0
-0
 )
 nullptr
 )

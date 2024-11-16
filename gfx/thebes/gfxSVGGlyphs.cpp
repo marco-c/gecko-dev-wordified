@@ -1039,10 +1039,7 @@ viewer
 Init
 (
 nullptr
-gfx
-:
-:
-IntRect
+LayoutDeviceIntRect
 (
 0
 0

@@ -7902,7 +7902,10 @@ Dimensions
 of
 the
 docshell
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 mBounds
 ;
 /

@@ -10210,7 +10210,7 @@ what
 we
 want
 .
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 viewer
