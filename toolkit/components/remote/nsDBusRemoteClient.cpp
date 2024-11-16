@@ -777,6 +777,16 @@ DoSendDBusCommandLine
 "
 )
 ;
+if
+(
+!
+gAppData
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 nsAutoCString
 appName
 ;
