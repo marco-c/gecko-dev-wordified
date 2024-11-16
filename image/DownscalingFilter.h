@@ -1829,16 +1829,10 @@ mRowsInWindow
 std
 :
 :
-min
-(
-std
-:
-:
-max
+clamp
 (
 mRowsInWindow
 0
-)
 mWindowCapacity
 )
 ;
