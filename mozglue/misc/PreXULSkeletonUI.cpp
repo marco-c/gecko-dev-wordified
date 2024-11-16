@@ -10418,11 +10418,7 @@ by
 -
 toolbar
 -
-non
--
-lwt
--
-textcolor
+color
 in
 browser
 .
@@ -10490,10 +10486,6 @@ default
 -
 -
 toolbar
--
-non
--
-lwt
 -
 bgcolor
 in
