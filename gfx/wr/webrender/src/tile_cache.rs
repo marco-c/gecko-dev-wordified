@@ -3404,7 +3404,6 @@ PictureFlags
 empty
 (
 )
-None
 )
 )
 ;
