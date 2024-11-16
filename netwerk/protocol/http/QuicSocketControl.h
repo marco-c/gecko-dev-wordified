@@ -273,6 +273,12 @@ nsACString
 aEchConfig
 )
 ;
+bool
+IsBuiltCertChainRootBuiltInRoot
+(
+)
+const
+;
 private
 :
 ~
