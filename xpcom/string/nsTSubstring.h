@@ -8333,7 +8333,6 @@ nullptr
 }
 protected
 :
-constexpr
 void
 AssertValid
 (
@@ -8800,7 +8799,6 @@ AssertValid
 initialization
 with
 ClassFlags
-constexpr
 explicit
 nsTSubstring
 (
