@@ -4862,6 +4862,18 @@ nsICookie
 SCHEME_FILE
 ;
 }
+let
+isPartitioned
+=
+originAttributes
+.
+partitionKey
+?
+.
+length
+>
+0
+;
 /
 /
 The
@@ -4900,6 +4912,7 @@ expiry
 originAttributes
 sameSite
 schemeType
+isPartitioned
 )
 ;
 return

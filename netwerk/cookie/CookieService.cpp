@@ -5134,6 +5134,8 @@ nsICookie
 :
 schemeType
 aSchemeMap
+bool
+aIsPartitioned
 JSContext
 *
 aCx
@@ -5181,7 +5183,7 @@ aExpiry
 attrs
 aSameSite
 aSchemeMap
-false
+aIsPartitioned
 nullptr
 )
 ;
