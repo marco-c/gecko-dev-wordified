@@ -3510,7 +3510,7 @@ SampleFillValue
 (
 )
 ;
-nsresult
+void
 AddInstanceTimeFromCurrentTime
 (
 SMILTime
