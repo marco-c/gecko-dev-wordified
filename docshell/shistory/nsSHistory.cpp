@@ -1957,7 +1957,7 @@ estimate
 of
 how
 many
-ContentViewers
+DocumentViewers
 we
 should
 cache
@@ -1972,7 +1972,7 @@ assumes
 that
 the
 average
-ContentViewer
+DocumentViewer
 is
 4MB
 (
@@ -1986,7 +1986,7 @@ the
 max
 at
 8
-ContentViewers
+DocumentViewers
 /
 /
 /
@@ -2001,7 +2001,7 @@ cache
 memory
 betw
 .
-ContentViewer
+DocumentViewer
 caching
 and
 /
@@ -2014,7 +2014,7 @@ nsCacheService
 /
 RAM
 |
-ContentViewers
+DocumentViewers
 |
 on
 Android
@@ -2227,7 +2227,7 @@ since
 we
 assume
 each
-ContentViewer
+DocumentViewer
 takes
 on
 average

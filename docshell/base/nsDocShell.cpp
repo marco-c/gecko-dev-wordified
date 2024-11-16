@@ -45511,7 +45511,7 @@ across
 the
 /
 /
-SetContentViewer
+SetDocumentViewer
 (
 nullptr
 )
@@ -49303,7 +49303,7 @@ parent
 /
 /
 and
-parentContentViewer
+parentDocumentViewer
 .
 /
 /
@@ -49933,7 +49933,7 @@ nullptr
 NS_WARNING
 (
 "
-ContentViewer
+DocumentViewer
 Initialization
 failed
 "

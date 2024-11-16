@@ -13022,7 +13022,7 @@ have
 too
 many
 cached
-ContentViewers
+DocumentViewers
 nsCOMPtr
 <
 nsIDocShellTreeItem
@@ -18730,7 +18730,7 @@ event
 may
 have
 caused
-ContentViewer
+DocumentViewer
 to
 be
 shutdown

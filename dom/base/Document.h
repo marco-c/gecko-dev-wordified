@@ -14309,7 +14309,7 @@ document
 that
 its
 associated
-ContentViewer
+DocumentViewer
 is
 being
 destroyed
@@ -14360,7 +14360,7 @@ document
 that
 its
 associated
-ContentViewer
+DocumentViewer
 is
 no
 longer

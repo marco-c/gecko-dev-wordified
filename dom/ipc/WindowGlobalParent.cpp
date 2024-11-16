@@ -5590,7 +5590,7 @@ comment
 /
 /
 in
-nsContentViewer
+nsDocumentViewer
 :
 :
 PermitUnload

@@ -2091,7 +2091,7 @@ new
 document
 into
 the
-contentviewer
+documentviewer
 /
 /
 after
@@ -2216,7 +2216,7 @@ new
 document
 into
 the
-contentviewer
+documentviewer
 /
 /
 after
