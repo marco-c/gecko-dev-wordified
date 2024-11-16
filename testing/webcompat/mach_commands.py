@@ -322,6 +322,10 @@ add_argument
 (
 "
 -
+B
+"
+"
+-
 -
 bug
 "
@@ -431,6 +435,11 @@ parser
 .
 add_argument
 (
+        
+"
+-
+H
+"
         
 "
 -
@@ -594,6 +603,52 @@ help
 Platform
 to
 target
+"
+    
+)
+    
+parser
+.
+add_argument
+(
+        
+"
+-
+S
+"
+        
+"
+-
+-
+no
+-
+failure
+-
+screenshots
+"
+        
+action
+=
+"
+store_true
+"
+        
+default
+=
+False
+        
+help
+=
+"
+Do
+not
+save
+a
+screenshot
+for
+each
+test
+failure
 "
     
 )
@@ -2021,6 +2076,17 @@ do2fa
 log_level
 =
 log_level
+                    
+no_failure_screenshots
+=
+kwargs
+.
+get
+(
+"
+no_failure_screenshots
+"
+)
                 
 )
         
@@ -2214,6 +2280,17 @@ kwargs
 do2fa
 "
 ]
+                    
+no_failure_screenshots
+=
+kwargs
+.
+get
+(
+"
+no_failure_screenshots
+"
+)
                 
 )
         
