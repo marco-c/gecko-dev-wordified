@@ -105,7 +105,7 @@ runw
 await
 SelectableProfileService
 .
-createNewProfile
+maybeSetupDataStore
 (
 )
 ;
