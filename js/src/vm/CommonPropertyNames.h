@@ -2505,6 +2505,14 @@ InitializeDisplayNames
 \
 MACRO_
 (
+InitializeDurationFormat
+"
+InitializeDurationFormat
+"
+)
+\
+MACRO_
+(
 InitializeListFormat
 "
 InitializeListFormat
