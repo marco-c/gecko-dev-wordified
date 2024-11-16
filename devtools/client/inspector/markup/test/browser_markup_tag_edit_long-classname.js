@@ -238,7 +238,7 @@ AccessibilityUtils
 setEnv
 (
 {
-focusabeRule
+mustHaveAccessibleRule
 :
 false
 }
