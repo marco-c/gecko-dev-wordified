@@ -77,6 +77,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +90,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -108,6 +118,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -119,6 +131,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ shared
 react
 -
 utils
+.
+js
 "
 )
 ;
@@ -141,6 +159,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +172,8 @@ jsonview
 components
 /
 JsonPanel
+.
+js
 "
 )
 )
@@ -164,6 +188,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -173,6 +201,8 @@ jsonview
 components
 /
 TextPanel
+.
+js
 "
 )
 )
@@ -187,6 +217,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -196,6 +230,8 @@ jsonview
 components
 /
 HeadersPanel
+.
+js
 "
 )
 )
@@ -211,6 +247,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -222,6 +262,8 @@ components
 tabs
 /
 Tabs
+.
+js
 "
 )
 )

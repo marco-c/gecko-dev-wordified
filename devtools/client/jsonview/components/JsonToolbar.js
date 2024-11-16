@@ -77,6 +77,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +90,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -95,6 +101,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -108,6 +118,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -119,6 +131,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ shared
 react
 -
 utils
+.
+js
 "
 )
 ;
@@ -139,6 +157,10 @@ div
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -152,6 +174,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -165,6 +189,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -174,6 +202,8 @@ jsonview
 components
 /
 SearchBox
+.
+js
 "
 )
 )
@@ -189,6 +219,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +234,8 @@ components
 reps
 /
 Toolbar
+.
+js
 "
 )
 )

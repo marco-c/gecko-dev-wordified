@@ -97,6 +97,10 @@ factory
 require
 (
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +110,8 @@ shared
 vendor
 /
 react
+.
+js
 '
 )
 )
@@ -128,6 +134,10 @@ define
 (
 [
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -137,6 +147,8 @@ shared
 vendor
 /
 react
+.
+js
 '
 ]
 factory

@@ -354,6 +354,10 @@ Services
 ServicesMock
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -369,6 +373,8 @@ reps
 custom
 -
 formatter
+.
+js
 "
 :
 "

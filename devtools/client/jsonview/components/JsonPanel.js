@@ -78,6 +78,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +91,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -96,6 +102,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +119,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -118,6 +130,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +147,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -142,6 +160,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +173,8 @@ shared
 react
 -
 utils
+.
+js
 "
 )
 ;
@@ -162,6 +186,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -173,6 +201,8 @@ components
 tree
 /
 TreeView
+.
+js
 "
 )
 )
@@ -187,6 +217,10 @@ createFactories
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -196,6 +230,8 @@ jsonview
 components
 /
 JsonToolbar
+.
+js
 "
 )
 )
@@ -208,6 +244,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -221,6 +261,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -232,6 +274,10 @@ Rep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -245,6 +291,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;

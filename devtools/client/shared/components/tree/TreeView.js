@@ -92,6 +92,10 @@ createRef
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +105,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -112,6 +118,10 @@ findDOMNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +133,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -132,6 +144,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +161,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -154,6 +172,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +189,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -181,6 +205,10 @@ ObjectProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -192,6 +220,8 @@ components
 tree
 /
 ObjectProvider
+.
+js
 "
 )
 ;
@@ -203,6 +233,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -214,6 +248,8 @@ components
 tree
 /
 TreeRow
+.
+js
 "
 )
 )
@@ -226,6 +262,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -237,6 +277,8 @@ components
 tree
 /
 TreeHeader
+.
+js
 "
 )
 )
@@ -249,6 +291,10 @@ scrollIntoView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -256,6 +302,8 @@ client
 shared
 /
 scroll
+.
+js
 "
 )
 ;
