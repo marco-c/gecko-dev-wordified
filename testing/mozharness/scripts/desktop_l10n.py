@@ -1362,7 +1362,7 @@ _mach_configure
         
 self
 .
-_run_make_in_config_dir
+_make_export
 (
 )
         
@@ -1379,7 +1379,7 @@ make_unpack_en_US
 )
     
 def
-_run_make_in_config_dir
+_make_export
 (
 self
 )
@@ -1409,25 +1409,6 @@ query_abs_dirs
 (
 )
         
-config_dir
-=
-os
-.
-path
-.
-join
-(
-dirs
-[
-"
-abs_obj_dir
-"
-]
-"
-config
-"
-)
-        
 env
 =
 self
@@ -1441,19 +1422,31 @@ self
 .
 _make
 (
+            
 target
 =
 [
+"
+pre
+-
+export
+"
 "
 export
 "
 ]
 cwd
 =
-config_dir
+dirs
+[
+"
+abs_obj_dir
+"
+]
 env
 =
 env
+        
 )
     
 def
