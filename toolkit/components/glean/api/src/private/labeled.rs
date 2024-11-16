@@ -105,6 +105,15 @@ marker
 :
 PhantomData
 ;
+use
+std
+:
+:
+sync
+:
+:
+Arc
+;
 /
 /
 /
@@ -1737,7 +1746,10 @@ traits
 :
 Labeled
 <
+Arc
+<
 U
+>
 >
 for
 LabeledMetric
@@ -1906,7 +1918,10 @@ str
 )
 -
 >
+Arc
+<
 U
+>
 {
 let
 metric
@@ -1920,6 +1935,11 @@ get
 label
 )
 ;
+Arc
+:
+:
+new
+(
 U
 :
 :
@@ -1933,6 +1953,7 @@ label
 self
 .
 permit_unordered_ipc
+)
 )
 }
 /
