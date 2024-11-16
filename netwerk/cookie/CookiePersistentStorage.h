@@ -493,6 +493,11 @@ Read
 (
 )
 ;
+void
+MoveUnpartitionedChipsCookies
+(
+)
+;
 nsresult
 CreateTableWorker
 (
