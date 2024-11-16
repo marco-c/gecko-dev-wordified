@@ -302,6 +302,11 @@ NotificationParent
 =
 default
 ;
+nsresult
+Show
+(
+)
+;
 void
 GetAlertName
 (
