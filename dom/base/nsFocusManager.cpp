@@ -33794,6 +33794,9 @@ PointerLockManager
 :
 Unlock
 (
+"
+FocusChange
+"
 )
 ;
 }

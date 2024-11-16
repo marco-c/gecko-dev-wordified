@@ -48731,6 +48731,9 @@ PointerLockManager
 :
 Unlock
 (
+"
+TouchEvent
+"
 )
 ;
 }
@@ -59201,6 +59204,9 @@ PointerLockManager
 :
 Unlock
 (
+"
+EscapeKey
+"
 )
 ;
 }

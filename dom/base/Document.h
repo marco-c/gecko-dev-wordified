@@ -21680,6 +21680,12 @@ PointerLockManager
 :
 Unlock
 (
+"
+Document
+:
+:
+ExitPointerLock
+"
 this
 )
 ;

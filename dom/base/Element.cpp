@@ -14319,6 +14319,12 @@ PointerLockManager
 :
 Unlock
 (
+"
+Element
+:
+:
+UnbindFromTree
+"
 )
 ;
 }

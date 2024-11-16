@@ -6908,6 +6908,9 @@ PointerLockManager
 :
 Unlock
 (
+"
+ShowPopupAsNativeMenu
+"
 )
 ;
 PresShell
@@ -8261,6 +8264,9 @@ PointerLockManager
 :
 Unlock
 (
+"
+ShowPopupCallback
+"
 )
 ;
 }
