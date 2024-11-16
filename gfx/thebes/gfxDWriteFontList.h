@@ -685,10 +685,10 @@ GetWeight
 ;
 weight
 =
-mozilla
+std
 :
 :
-Clamp
+clamp
 (
 weight
 100

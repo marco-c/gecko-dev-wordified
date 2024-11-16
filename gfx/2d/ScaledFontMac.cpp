@@ -3871,12 +3871,7 @@ value
 std
 :
 :
-min
-(
-std
-:
-:
-max
+clamp
 <
 double
 >
@@ -3888,7 +3883,6 @@ j
 .
 mValue
 minDouble
-)
 maxDouble
 )
 ;
@@ -4393,12 +4387,7 @@ value
 std
 :
 :
-min
-(
-std
-:
-:
-max
+clamp
 <
 double
 >
@@ -4410,7 +4399,6 @@ j
 .
 mValue
 minDouble
-)
 maxDouble
 )
 ;
