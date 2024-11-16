@@ -1568,7 +1568,7 @@ aOverriddenFingerprintingSettings
 ;
 static
 bool
-IsSoftwareRenderingOptionExposed
+IsSystemPrincipalOrAboutFingerprintingProtection
 (
 JSContext
 *
