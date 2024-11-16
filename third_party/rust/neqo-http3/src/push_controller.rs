@@ -2410,9 +2410,9 @@ Cancel
 the
 stream
 .
-the
+The
 transport
-steam
+stream
 may
 already
 be

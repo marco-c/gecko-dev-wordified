@@ -739,7 +739,6 @@ client
 .
 process_input
 (
-&
 out
 now
 (
@@ -958,7 +957,6 @@ server
 .
 process_input
 (
-&
 out
 now
 (
@@ -1776,7 +1774,6 @@ server
 .
 process_input
 (
-&
 out
 .
 unwrap
@@ -1897,7 +1894,6 @@ client
 .
 process_input
 (
-&
 out
 .
 unwrap
@@ -1985,7 +1981,6 @@ server
 .
 process_input
 (
-&
 out
 .
 unwrap
@@ -3051,7 +3046,6 @@ client
 .
 process_input
 (
-&
 out
 now
 (
@@ -3152,7 +3146,6 @@ client
 .
 process_input
 (
-&
 out
 now
 (
@@ -3421,7 +3414,6 @@ server
 .
 process_input
 (
-&
 out
 .
 unwrap
@@ -3517,7 +3509,6 @@ server
 .
 process_input
 (
-&
 out
 .
 unwrap
@@ -3667,7 +3658,6 @@ receiver
 .
 process_input
 (
-&
 out
 now
 (
@@ -4576,7 +4566,6 @@ server
 .
 process_input
 (
-&
 out
 .
 unwrap

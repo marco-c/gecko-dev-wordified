@@ -321,7 +321,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -601,7 +600,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -814,7 +812,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -939,7 +936,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -1136,7 +1132,6 @@ server
 .
 process_input
 (
-&
 d
 now
 )
@@ -1243,10 +1238,6 @@ client
 process
 (
 ack
-.
-as_ref
-(
-)
 now
 )
 .
@@ -1280,7 +1271,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -1430,7 +1420,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -1560,10 +1549,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 )
 .
@@ -1575,7 +1560,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -1779,10 +1763,6 @@ client
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 )
 .
@@ -1794,7 +1774,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -1982,10 +1961,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 )
 .
@@ -1997,7 +1972,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -2206,10 +2180,6 @@ client
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 )
 .
@@ -2221,7 +2191,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -2422,10 +2391,6 @@ server
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 )
 .
@@ -2437,7 +2402,6 @@ client
 .
 process_input
 (
-&
 dgram
 .
 unwrap
@@ -2646,10 +2610,6 @@ client
 process
 (
 dgram
-.
-as_ref
-(
-)
 now
 )
 .
@@ -2661,7 +2621,6 @@ server
 .
 process_input
 (
-&
 dgram
 .
 unwrap
