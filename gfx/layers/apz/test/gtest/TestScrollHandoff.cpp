@@ -3549,7 +3549,10 @@ MultiTouchInput
 :
 MULTITOUCH_START
 0
-TimeStamp
+mcc
+-
+>
+Time
 (
 )
 0
