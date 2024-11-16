@@ -4062,6 +4062,8 @@ isStackSwitch
 }
 }
 ;
+/
+/
 static_assert
 (
 js
@@ -4070,9 +4072,11 @@ js
 wasm
 :
 :
-MaxFunctionBytes
+MaxModuleBytes
 <
 =
+/
+/
 CallSiteDesc
 :
 :
