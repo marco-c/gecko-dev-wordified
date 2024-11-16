@@ -367,6 +367,14 @@ json
 .
 processID
 ;
+this
+.
+isFallbackExtensionDocument
+=
+json
+.
+isFallbackExtensionDocument
+;
 /
 /
 Save

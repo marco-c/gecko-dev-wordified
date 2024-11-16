@@ -1529,7 +1529,16 @@ resource
 .
 targetFront
 .
-isTopLevel
+url
+.
+endsWith
+(
+"
+background_page
+.
+html
+"
+)
 )
 ;
 }
