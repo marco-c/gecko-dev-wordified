@@ -831,7 +831,7 @@ return
 module_
 -
 >
-bytecode
+debugBytecode
 (
 )
 ;
