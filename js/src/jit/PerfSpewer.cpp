@@ -1405,7 +1405,7 @@ false
 }
 if
 (
-snprintf
+SprintfBuf
 (
 filenameBuffer
 bufferSize
