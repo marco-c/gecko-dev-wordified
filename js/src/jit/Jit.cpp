@@ -852,13 +852,6 @@ aru
 cx
 )
 ;
-ActivationEntryMonitor
-entryMonitor
-(
-cx
-calleeToken
-)
-;
 JitActivation
 activation
 (
