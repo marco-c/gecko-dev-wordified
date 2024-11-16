@@ -470,7 +470,7 @@ it
 await
 WindowsLaunchOnLogin
 .
-disableLaunchOnLoginMSIX
+_disableLaunchOnLoginMSIX
 (
 )
 ;
@@ -616,7 +616,7 @@ settings
 await
 WindowsLaunchOnLogin
 .
-disableLaunchOnLoginMSIX
+_disableLaunchOnLoginMSIX
 (
 )
 ;
