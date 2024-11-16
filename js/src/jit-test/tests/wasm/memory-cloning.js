@@ -64,7 +64,7 @@ memtype
 {
 d
 .
-index
+address
 =
 memtype
 ;
@@ -412,7 +412,7 @@ type
 (
 )
 .
-index
+address
 memtype
 )
 ;

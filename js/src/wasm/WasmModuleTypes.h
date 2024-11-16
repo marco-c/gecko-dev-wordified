@@ -4504,6 +4504,16 @@ Memory
 Table
 }
 ;
+extern
+const
+char
+*
+ToString
+(
+LimitsKind
+kind
+)
+;
 /
 /
 Represents

@@ -300,6 +300,14 @@ addInitializer
 \
 MACRO_
 (
+address
+"
+address
+"
+)
+\
+MACRO_
+(
 allowContentIter
 "
 allowContentIter
