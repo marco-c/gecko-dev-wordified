@@ -1187,6 +1187,11 @@ Initialize
 (
 )
 ;
+void
+RegenerateClientInfo
+(
+)
+;
 /
 *
 *
