@@ -8439,16 +8439,6 @@ aExtend
 )
 override
 ;
-NS_IMETHOD
-IntraParagraphMove
-(
-bool
-aForward
-bool
-aExtend
-)
-override
-;
 MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 PageMove
