@@ -340,7 +340,7 @@ MozParam
 .
 However
 they
-are
+were
 only
 /
 /

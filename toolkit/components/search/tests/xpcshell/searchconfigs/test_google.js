@@ -193,7 +193,7 @@ b
 -
 d
 "
-codes
+searchUrlCode
 :
 SearchUtils
 .
@@ -293,7 +293,7 @@ b
 -
 d
 "
-codes
+searchUrlCode
 :
 SearchUtils
 .
@@ -435,7 +435,7 @@ add_task
 (
 async
 function
-test_searchConfig_google_with_mozparam
+test_searchConfig_google_with_pref_param
 (
 )
 {
@@ -448,7 +448,8 @@ of
 configurations
 with
 a
-MozParam
+preference
+parameter
 set
 up
 .
@@ -673,7 +674,7 @@ be
 including
 the
 correct
-MozParam
+preference
 parameter
 for
 the
@@ -745,7 +746,8 @@ of
 configurations
 with
 a
-MozParam
+preference
+parameter
 set
 up
 .
@@ -1067,7 +1069,7 @@ be
 including
 the
 correct
-MozParam
+preference
 parameter
 for
 the
