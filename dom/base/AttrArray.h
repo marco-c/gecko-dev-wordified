@@ -1309,6 +1309,16 @@ uint32_t
 aCapacity
 )
 ;
+void
+Clear
+(
+)
+{
+mImpl
+=
+nullptr
+;
+}
 private
 :
 /
