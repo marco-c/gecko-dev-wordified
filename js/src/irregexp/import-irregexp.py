@@ -460,10 +460,18 @@ flags
 .
 h
 and
+regexp
+-
+utils
+.
+h
+    
+#
+and
 provide
 our
 own
-definition
+definitions
 .
     
 regexp_include
@@ -485,7 +493,11 @@ regexp
 /
 regexp
 -
+(
 flags
+|
+utils
+)
 .
 h
 )
