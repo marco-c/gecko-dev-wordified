@@ -422,6 +422,12 @@ display
 "
 x11
 "
+        
+"
+remoteAsyncEvents
+"
+:
+False
     
 }
     
@@ -776,6 +782,12 @@ display
 "
 x11
 "
+        
+"
+remoteAsyncEvents
+"
+:
+False
     
 }
     
@@ -1125,6 +1137,12 @@ display
 "
 :
 None
+        
+"
+remoteAsyncEvents
+"
+:
+False
     
 }
 }
