@@ -1129,12 +1129,11 @@ InnerWindowID
 ;
 isPrivateBrowsing
 =
-nsContentUtils
-:
-:
+doc
+-
+>
 IsInPrivateBrowsing
 (
-doc
 )
 ;
 }
