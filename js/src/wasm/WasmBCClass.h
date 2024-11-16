@@ -6733,10 +6733,10 @@ bits
 .
 inline
 RegI64
-popIndexToInt64
+popAddressToInt64
 (
-IndexType
-indexType
+AddressType
+addressType
 )
 ;
 /
@@ -6768,10 +6768,10 @@ checks
 .
 inline
 RegI32
-popTableIndexToClampedInt32
+popTableAddressToClampedInt32
 (
-IndexType
-indexType
+AddressType
+addressType
 )
 ;
 /
@@ -6809,10 +6809,10 @@ range
 .
 inline
 void
-replaceTableIndexWithClampedInt32
+replaceTableAddressWithClampedInt32
 (
-IndexType
-indexType
+AddressType
+addressType
 )
 ;
 /
@@ -10564,7 +10564,7 @@ needed
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 prepareMemoryAccess
@@ -10577,7 +10577,7 @@ AccessCheck
 check
 RegPtr
 instance
-RegIndexType
+RegAddressType
 ptr
 )
 ;
@@ -10710,7 +10710,7 @@ register
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 Address
 prepareAtomicMemoryAccess
@@ -10723,14 +10723,14 @@ AccessCheck
 check
 RegPtr
 instance
-RegIndexType
+RegAddressType
 ptr
 )
 ;
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 computeEffectiveAddress
@@ -11023,7 +11023,7 @@ JS_64BIT
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 atomicLoad64
@@ -11060,7 +11060,7 @@ op
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 atomicRMW32
@@ -11077,7 +11077,7 @@ op
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 atomicRMW64
@@ -11104,7 +11104,7 @@ type
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 atomicXchg64
@@ -11119,7 +11119,7 @@ wantResult
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 atomicXchg32
@@ -11144,7 +11144,7 @@ type
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 atomicCmpXchg32
@@ -11159,7 +11159,7 @@ type
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 atomicCmpXchg64
@@ -14723,7 +14723,7 @@ emitTableBoundsCheck
 uint32_t
 tableIndex
 RegI32
-index
+address
 RegPtr
 instance
 )

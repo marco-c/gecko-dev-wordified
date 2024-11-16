@@ -749,8 +749,8 @@ AllocateWasm
 wasm
 :
 :
-IndexType
-indexType
+AddressType
+addressType
 Pages
 initialPages
 wasm
@@ -923,7 +923,7 @@ p
 =
 MapBufferMemory
 (
-indexType
+addressType
 mappedSizeWithHeader
 accessibleSizeWithHeader
 )
@@ -978,7 +978,7 @@ WasmSharedArrayRawBuffer
 (
 buffer
 length
-indexType
+addressType
 clampedMaxPages
 sourceMaxPages
 .
@@ -1120,7 +1120,7 @@ Lock
 wasm
 :
 :
-IndexType
+AddressType
 t
 wasm
 :
@@ -2163,13 +2163,13 @@ toWasmBuffer
 wasm
 :
 :
-IndexType
-indexType
+AddressType
+addressType
 =
 wasmBuf
 -
 >
-wasmIndexType
+wasmAddressType
 (
 )
 ;
@@ -2222,7 +2222,7 @@ WasmSharedArrayRawBuffer
 ;
 UnmapBufferMemory
 (
-indexType
+addressType
 basePointer
 mappedSizeWithHeader
 )

@@ -6855,12 +6855,12 @@ offset
 table
 -
 >
-indexType
+addressType
 (
 )
 =
 =
-IndexType
+AddressType
 :
 :
 I32
@@ -7061,12 +7061,12 @@ offset
 memoryObj
 -
 >
-indexType
+addressType
 (
 )
 =
 =
-IndexType
+AddressType
 :
 :
 I32
@@ -9057,7 +9057,7 @@ Instance
 *
 instance
 uint32_t
-index
+address
 uint32_t
 tableIndex
 )
@@ -9104,7 +9104,7 @@ tableIndex
 ;
 if
 (
-index
+address
 >
 =
 table
@@ -9153,7 +9153,7 @@ table
 .
 getAnyRef
 (
-index
+address
 )
 .
 forCompiledCode
@@ -9191,7 +9191,7 @@ table
 getFuncRef
 (
 cx
-index
+address
 &
 fun
 )
@@ -9399,7 +9399,7 @@ Instance
 *
 instance
 uint32_t
-index
+address
 void
 *
 value
@@ -9448,7 +9448,7 @@ tableIndex
 ;
 if
 (
-index
+address
 >
 =
 table
@@ -9488,7 +9488,7 @@ table
 .
 setAnyRef
 (
-index
+address
 AnyRef
 :
 :
@@ -9520,7 +9520,7 @@ table
 .
 fillFuncRef
 (
-index
+address
 1
 FuncRef
 :

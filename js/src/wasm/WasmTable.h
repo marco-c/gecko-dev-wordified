@@ -381,8 +381,8 @@ but
 not
 both
 const
-IndexType
-indexType_
+AddressType
+addressType_
 ;
 const
 RefType
@@ -510,14 +510,14 @@ JSTracer
 trc
 )
 ;
-IndexType
-indexType
+AddressType
+addressType
 (
 )
 const
 {
 return
-indexType_
+addressType_
 ;
 }
 RefType
@@ -670,7 +670,7 @@ FunctionTableElem
 getFuncRef
 (
 uint32_t
-index
+address
 )
 const
 ;
@@ -686,7 +686,7 @@ JSContext
 *
 cx
 uint32_t
-index
+address
 MutableHandleFunction
 fun
 )
@@ -696,7 +696,7 @@ void
 setFuncRef
 (
 uint32_t
-index
+address
 JSFunction
 *
 func
@@ -706,7 +706,7 @@ void
 setFuncRef
 (
 uint32_t
-index
+address
 void
 *
 code
@@ -719,7 +719,7 @@ void
 fillFuncRef
 (
 uint32_t
-index
+address
 uint32_t
 fillCount
 FuncRef
@@ -733,7 +733,7 @@ AnyRef
 getAnyRef
 (
 uint32_t
-index
+address
 )
 const
 ;
@@ -741,7 +741,7 @@ void
 setAnyRef
 (
 uint32_t
-index
+address
 AnyRef
 ref
 )
@@ -750,7 +750,7 @@ void
 fillAnyRef
 (
 uint32_t
-index
+address
 uint32_t
 fillCount
 AnyRef
@@ -785,7 +785,7 @@ void
 setRef
 (
 uint32_t
-index
+address
 AnyRef
 ref
 )
@@ -796,7 +796,7 @@ Get
 the
 element
 at
-index
+address
 and
 convert
 it
@@ -817,7 +817,7 @@ JSContext
 *
 cx
 uint32_t
-index
+address
 MutableHandleValue
 result
 )
@@ -827,7 +827,7 @@ void
 setNull
 (
 uint32_t
-index
+address
 )
 ;
 /
@@ -953,7 +953,7 @@ void
 fillUninitialized
 (
 uint32_t
-index
+address
 uint32_t
 fillCount
 HandleAnyRef
@@ -970,7 +970,7 @@ void
 assertRangeNull
 (
 uint32_t
-index
+address
 uint32_t
 length
 )
@@ -980,7 +980,7 @@ void
 assertRangeNotNull
 (
 uint32_t
-index
+address
 uint32_t
 length
 )

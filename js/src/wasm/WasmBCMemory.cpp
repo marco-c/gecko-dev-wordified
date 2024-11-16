@@ -2867,7 +2867,7 @@ ptr
 endif
 /
 /
-RegIndexType
+RegAddressType
 is
 RegI32
 for
@@ -2880,7 +2880,7 @@ Memory64
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 BaseCompiler
@@ -2896,7 +2896,7 @@ AccessCheck
 check
 RegPtr
 instance
-RegIndexType
+RegAddressType
 ptr
 )
 {
@@ -3338,7 +3338,7 @@ memoryIndex
 )
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -3434,7 +3434,7 @@ ptr
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 BaseCompiler
@@ -3460,12 +3460,12 @@ offset64
 Label
 ok
 ;
-RegIndexType
+RegAddressType
 ptr
 =
 pop
 <
-RegIndexType
+RegAddressType
 >
 (
 )
@@ -7670,7 +7670,7 @@ register
 /
 /
 /
-RegIndexType
+RegAddressType
 is
 RegI32
 for
@@ -7683,7 +7683,7 @@ Memory64
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 Address
 BaseCompiler
@@ -7699,7 +7699,7 @@ AccessCheck
 check
 RegPtr
 instance
-RegIndexType
+RegAddressType
 ptr
 )
 {
@@ -8209,7 +8209,7 @@ JS_64BIT
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 BaseCompiler
@@ -8241,12 +8241,12 @@ temp
 AccessCheck
 check
 ;
-RegIndexType
+RegAddressType
 rp
 =
 popMemoryAccess
 <
-RegIndexType
+RegAddressType
 >
 (
 access
@@ -10145,7 +10145,7 @@ atomic_rmw32
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 BaseCompiler
@@ -10205,12 +10205,12 @@ temps
 AccessCheck
 check
 ;
-RegIndexType
+RegAddressType
 rp
 =
 popMemoryAccess
 <
-RegIndexType
+RegAddressType
 >
 (
 access
@@ -11383,7 +11383,7 @@ atomic_rmw64
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 BaseCompiler
@@ -11423,12 +11423,12 @@ temp
 AccessCheck
 check
 ;
-RegIndexType
+RegAddressType
 rp
 =
 popMemoryAccess
 <
-RegIndexType
+RegAddressType
 >
 (
 access
@@ -12875,7 +12875,7 @@ atomic_xchg32
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 BaseCompiler
@@ -12932,12 +12932,12 @@ temps
 AccessCheck
 check
 ;
-RegIndexType
+RegAddressType
 rp
 =
 popMemoryAccess
 <
-RegIndexType
+RegAddressType
 >
 (
 access
@@ -13841,7 +13841,7 @@ atomic_xchg64
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 BaseCompiler
@@ -13875,12 +13875,12 @@ rv
 AccessCheck
 check
 ;
-RegIndexType
+RegAddressType
 rp
 =
 popMemoryAccess
 <
-RegIndexType
+RegAddressType
 >
 (
 access
@@ -13905,7 +13905,7 @@ memaddr
 =
 prepareAtomicMemoryAccess
 <
-RegIndexType
+RegAddressType
 >
 (
 access
@@ -15426,7 +15426,7 @@ atomic_cmpxchg32
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 BaseCompiler
@@ -15486,12 +15486,12 @@ temps
 AccessCheck
 check
 ;
-RegIndexType
+RegAddressType
 rp
 =
 popMemoryAccess
 <
-RegIndexType
+RegAddressType
 >
 (
 access
@@ -15613,7 +15613,7 @@ memory64
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -15636,7 +15636,7 @@ rd
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -15660,7 +15660,7 @@ JS_CODEGEN_X64
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -15780,7 +15780,7 @@ rd
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -15813,7 +15813,7 @@ JS_CODEGEN_X86
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -16591,7 +16591,7 @@ JS_CODEGEN_ARM
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -16697,7 +16697,7 @@ rd
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -16751,7 +16751,7 @@ JS_CODEGEN_LOONG64
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -16841,7 +16841,7 @@ rd
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -16882,7 +16882,7 @@ JS_CODEGEN_RISCV64
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -16972,7 +16972,7 @@ rd
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -17019,7 +17019,7 @@ JS_CODEGEN_WASM32
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -17065,7 +17065,7 @@ rd
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 static
 void
@@ -17091,7 +17091,7 @@ atomic_cmpxchg64
 template
 <
 typename
-RegIndexType
+RegAddressType
 >
 void
 BaseCompiler
@@ -17116,7 +17116,7 @@ atomic_cmpxchg64
 :
 PopAndAllocate
 <
-RegIndexType
+RegAddressType
 >
 (
 this
@@ -17131,12 +17131,12 @@ rd
 AccessCheck
 check
 ;
-RegIndexType
+RegAddressType
 rp
 =
 popMemoryAccess
 <
-RegIndexType
+RegAddressType
 >
 (
 access
@@ -17231,7 +17231,7 @@ atomic_cmpxchg64
 :
 Perform
 <
-RegIndexType
+RegAddressType
 >
 (
 this
@@ -17264,7 +17264,7 @@ atomic_cmpxchg64
 :
 Deallocate
 <
-RegIndexType
+RegAddressType
 >
 (
 this

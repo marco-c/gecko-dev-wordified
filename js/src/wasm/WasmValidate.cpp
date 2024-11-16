@@ -13867,8 +13867,8 @@ DecodeLimitBound
 Decoder
 &
 d
-IndexType
-indexType
+AddressType
+addressType
 uint64_t
 *
 bound
@@ -13876,10 +13876,10 @@ bound
 {
 if
 (
-indexType
+addressType
 =
 =
-IndexType
+AddressType
 :
 :
 I64
@@ -13906,7 +13906,7 @@ decode
 a
 LEB32
 when
-index
+address
 type
 is
 I32
@@ -14156,7 +14156,7 @@ ENABLE_WASM_MEMORY64
 limits
 -
 >
-indexType
+addressType
 =
 (
 flags
@@ -14170,12 +14170,12 @@ IsI64
 )
 )
 ?
-IndexType
+AddressType
 :
 :
 I64
 :
-IndexType
+AddressType
 :
 :
 I32
@@ -14185,9 +14185,9 @@ else
 limits
 -
 >
-indexType
+addressType
 =
-IndexType
+AddressType
 :
 :
 I32
@@ -14238,7 +14238,7 @@ d
 limits
 -
 >
-indexType
+addressType
 &
 initial
 )
@@ -14289,7 +14289,7 @@ d
 limits
 -
 >
-indexType
+addressType
 &
 maximum
 )
@@ -14552,10 +14552,10 @@ if
 (
 limits
 .
-indexType
+addressType
 =
 =
-IndexType
+AddressType
 :
 :
 I64
@@ -14635,7 +14635,7 @@ MaxTableElemsValidation
 (
 limits
 .
-indexType
+addressType
 )
 |
 |
@@ -14662,7 +14662,7 @@ MaxTableElemsValidation
 (
 limits
 .
-indexType
+addressType
 )
 )
 )
@@ -15048,7 +15048,7 @@ MaxMemoryPagesValidation
 (
 limits
 .
-indexType
+addressType
 )
 ;
 if
@@ -15150,10 +15150,10 @@ if
 (
 limits
 .
-indexType
+addressType
 =
 =
-IndexType
+AddressType
 :
 :
 I64
@@ -19121,7 +19121,7 @@ tables
 tableIndex
 ]
 .
-indexType
+addressType
 (
 )
 )
@@ -21918,7 +21918,7 @@ segRange
 memoryIndex
 ]
 .
-indexType
+addressType
 (
 )
 )

@@ -4398,7 +4398,7 @@ RangeError
 bad
 Table
 get
-index
+address
 /
 )
 ;

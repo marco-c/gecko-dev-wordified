@@ -1288,7 +1288,7 @@ test
 that
 linking
 requires
-index
+address
 types
 to
 be
@@ -1296,8 +1296,8 @@ equal
 function
 testLinkMemory
 (
-importedIndexType
-importIndexType
+importedAddressType
+importAddressType
 )
 {
 let
@@ -1311,10 +1311,10 @@ Memory
 {
 index
 :
-importedIndexType
+importedAddressType
 initial
 :
-importedIndexType
+importedAddressType
 =
 =
 =
@@ -1344,7 +1344,7 @@ imported
 "
 )
 {
-importIndexType
+importAddressType
 }
 0
 )
@@ -1352,11 +1352,11 @@ importIndexType
 ;
 if
 (
-importedIndexType
+importedAddressType
 =
 =
 =
-importIndexType
+importAddressType
 )
 {
 wasmEvalText
@@ -1397,7 +1397,7 @@ WebAssembly
 .
 LinkError
 /
-index
+address
 type
 /
 )
@@ -1407,8 +1407,8 @@ type
 function
 testLinkTable
 (
-importedIndexType
-importIndexType
+importedAddressType
+importAddressType
 )
 {
 const
@@ -1427,10 +1427,10 @@ funcref
 '
 index
 :
-importedIndexType
+importedAddressType
 initial
 :
-importedIndexType
+importedAddressType
 =
 =
 =
@@ -1460,7 +1460,7 @@ imported
 "
 )
 {
-importIndexType
+importAddressType
 }
 0
 funcref
@@ -1469,11 +1469,11 @@ funcref
 ;
 if
 (
-importedIndexType
+importedAddressType
 =
 =
 =
-importIndexType
+importAddressType
 )
 {
 wasmEvalText
@@ -1514,7 +1514,7 @@ WebAssembly
 .
 LinkError
 /
-index
+address
 type
 /
 )
@@ -1590,7 +1590,7 @@ data
 segments
 use
 the
-index
+address
 type
 for
 the
@@ -1680,7 +1680,7 @@ element
 segments
 use
 the
-index
+address
 type
 for
 the
@@ -21085,7 +21085,7 @@ jsError
 bad
 Table
 get
-index
+address
 /
 )
 ;
@@ -21107,7 +21107,7 @@ jsError
 bad
 Table
 set
-index
+address
 /
 )
 ;
@@ -21178,7 +21178,7 @@ jsError
 bad
 Table
 get
-index
+address
 /
 )
 ;
@@ -21200,7 +21200,7 @@ jsError
 bad
 Table
 set
-index
+address
 /
 )
 ;
@@ -23959,7 +23959,7 @@ TypeError
 /
 Table
 get
-index
+address
 /
 )
 ;
@@ -23980,7 +23980,7 @@ TypeError
 /
 Table
 set
-index
+address
 /
 )
 ;

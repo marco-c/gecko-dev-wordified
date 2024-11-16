@@ -569,7 +569,7 @@ js
 wasm
 :
 :
-IndexType
+AddressType
 ;
 using
 js
@@ -1497,7 +1497,7 @@ MapBufferMemory
 wasm
 :
 :
-IndexType
+AddressType
 t
 size_t
 mappedSize
@@ -2176,7 +2176,7 @@ UnmapBufferMemory
 wasm
 :
 :
-IndexType
+AddressType
 t
 void
 *
@@ -7819,8 +7819,8 @@ WasmArrayRawBuffer
 :
 AllocateWasm
 (
-IndexType
-indexType
+AddressType
+addressType
 Pages
 initialPages
 Pages
@@ -8070,7 +8070,7 @@ data
 =
 MapBufferMemory
 (
-indexType
+addressType
 (
 size_t
 )
@@ -8131,7 +8131,7 @@ header
 )
 WasmArrayRawBuffer
 (
-indexType
+addressType
 base
 clampedMaxPages
 sourceMaxPages
@@ -8241,7 +8241,7 @@ UnmapBufferMemory
 header
 -
 >
-indexType
+addressType
 (
 )
 header
@@ -8324,7 +8324,7 @@ IsHugeMemoryEnabled
 (
 memory
 .
-indexType
+addressType
 (
 )
 )
@@ -8360,7 +8360,7 @@ ClampedMaxPages
 (
 memory
 .
-indexType
+addressType
 (
 )
 initialPages
@@ -8440,7 +8440,7 @@ memory
 .
 limits
 .
-indexType
+addressType
 initialPages
 clampedMaxPages
 sourceMaxPages
@@ -8601,7 +8601,7 @@ memory
 .
 limits
 .
-indexType
+addressType
 initialPages
 Pages
 (
@@ -9078,7 +9078,7 @@ MaxMemoryPages
 (
 memory
 .
-indexType
+addressType
 (
 )
 )
@@ -10175,11 +10175,11 @@ byteLength
 )
 ;
 }
-IndexType
+AddressType
 ArrayBufferObject
 :
 :
-wasmIndexType
+wasmAddressType
 (
 )
 const
@@ -10201,7 +10201,7 @@ wasmBuffer
 )
 -
 >
-indexType
+addressType
 (
 )
 ;
@@ -10217,7 +10217,7 @@ return
 wasm
 :
 :
-IndexType
+AddressType
 :
 :
 I32
@@ -10439,11 +10439,11 @@ wasmMappedSize
 )
 ;
 }
-IndexType
+AddressType
 js
 :
 :
-WasmArrayBufferIndexType
+WasmArrayBufferAddressType
 (
 const
 ArrayBufferObjectMaybeShared
@@ -10475,7 +10475,7 @@ ArrayBufferObject
 (
 )
 .
-wasmIndexType
+wasmAddressType
 (
 )
 ;
@@ -10491,7 +10491,7 @@ SharedArrayBufferObject
 (
 )
 .
-wasmIndexType
+wasmAddressType
 (
 )
 ;
@@ -10784,7 +10784,7 @@ wasmGrowToPagesInPlace
 wasm
 :
 :
-IndexType
+AddressType
 t
 Pages
 newPages
@@ -11197,7 +11197,7 @@ ArrayBufferObject
 :
 wasmMovingGrowToPages
 (
-IndexType
+AddressType
 t
 Pages
 newPages
@@ -11467,7 +11467,7 @@ AllocateWasm
 oldBuf
 -
 >
-wasmIndexType
+wasmAddressType
 (
 )
 newPages

@@ -473,7 +473,7 @@ that
 bool
 IsHugeMemoryEnabled
 (
-IndexType
+AddressType
 t
 )
 ;

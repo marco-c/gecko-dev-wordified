@@ -6481,7 +6481,7 @@ mismatch
 )
 MSG_DEF
 (
-JSMSG_WASM_BAD_IMP_INDEX
+JSMSG_WASM_BAD_IMP_ADDRESS
 1
 JSEXN_WASMLINKERROR
 "
@@ -6491,7 +6491,7 @@ imported
 }
 with
 incompatible
-index
+address
 type
 "
 )
@@ -7175,12 +7175,12 @@ type
 )
 MSG_DEF
 (
-JSMSG_WASM_BAD_STRING_IDX_TYPE
+JSMSG_WASM_BAD_STRING_ADDR_TYPE
 0
 JSEXN_TYPEERR
 "
 bad
-index
+address
 type
 "
 )
