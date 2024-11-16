@@ -168,6 +168,9 @@ false
 RPMSetTRRDisabledLoadFlags
 :
 false
+RPMShowOSXLocalNetworkPermissionWarning
+:
+false
 }
 }
 ;
