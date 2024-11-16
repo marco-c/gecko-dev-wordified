@@ -600,6 +600,8 @@ Safari
 Bug
 1582582
 -
+watch
+.
 sling
 .
 com
@@ -607,6 +609,8 @@ com
 UA
 override
 for
+watch
+.
 sling
 .
 com
@@ -629,6 +633,8 @@ issues
 17804
 *
 *
+watch
+.
 sling
 .
 com
@@ -664,6 +670,8 @@ desktop
 domain
 :
 "
+watch
+.
 sling
 .
 com
@@ -685,19 +693,6 @@ https
 /
 /
 watch
-.
-sling
-.
-com
-/
-*
-"
-"
-https
-:
-/
-/
-www
 .
 sling
 .
