@@ -439,6 +439,7 @@ nsIContent
 aContent
 )
 ;
+const
 RefPtr
 <
 nsIContent
