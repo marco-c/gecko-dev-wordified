@@ -154,7 +154,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 contentBrowser
 url
@@ -346,6 +346,15 @@ STATUS_STOP
 URI
 :
 url
+httpVersion
+:
+"
+http
+/
+1
+.
+1
+"
 requestMethod
 :
 "

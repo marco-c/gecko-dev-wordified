@@ -151,7 +151,7 @@ Spdy
 value
 :
 "
-http
+HTTP
 /
 1
 .
