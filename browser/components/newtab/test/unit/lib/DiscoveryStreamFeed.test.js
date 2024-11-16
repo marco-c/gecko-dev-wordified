@@ -23096,6 +23096,10 @@ settings
 :
 {
 }
+sections
+:
+[
+]
 recommendations
 :
 [
