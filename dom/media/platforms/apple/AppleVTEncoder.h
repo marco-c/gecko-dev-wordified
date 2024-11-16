@@ -481,7 +481,7 @@ mHardwareNotAllowed
 ;
 /
 /
-Access
+Accessed
 only
 in
 mTaskQueue
