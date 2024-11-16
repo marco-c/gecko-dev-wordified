@@ -138,15 +138,6 @@ Bug
 1693576
         
 "
-Intl
-.
-DurationFormat
-"
-#
-Bug
-1648139
-        
-"
 Atomics
 .
 waitAsync
@@ -350,6 +341,27 @@ Segmenter
 #
 Bug
 1423593
+    
+"
+Intl
+.
+DurationFormat
+"
+:
+"
+!
+Intl
+.
+hasOwnProperty
+(
+'
+DurationFormat
+'
+)
+"
+#
+Bug
+1648139
     
 "
 resizable
