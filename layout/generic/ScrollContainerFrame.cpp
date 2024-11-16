@@ -10924,10 +10924,7 @@ bug
 1791069
 .
 return
-std
-:
-:
-clamp
+CSSMinMax
 (
 border
 .
