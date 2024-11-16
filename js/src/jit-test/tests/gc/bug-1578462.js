@@ -142,6 +142,17 @@ gcstate
 "
 Prepare
 "
+|
+|
+gcstate
+(
+)
+=
+=
+=
+"
+MarkRoots
+"
 )
 {
 gcslice
