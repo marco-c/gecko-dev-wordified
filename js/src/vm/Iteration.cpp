@@ -9244,7 +9244,7 @@ JSContext
 cx
 )
 {
-HeapPtr
+GCPtr
 <
 PlainObject
 *
@@ -9316,7 +9316,7 @@ JSContext
 cx
 )
 {
-HeapPtr
+GCPtr
 <
 PlainObject
 *

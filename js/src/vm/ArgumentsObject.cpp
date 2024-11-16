@@ -1868,7 +1868,7 @@ data
 (
 )
 ;
-HeapPtr
+GCPtr
 <
 ArgumentsObject
 *

@@ -2626,7 +2626,7 @@ object
 .
 *
 /
-HeapPtr
+GCPtr
 <
 SharedShape
 *
@@ -2770,7 +2770,7 @@ data
 property
 *
 /
-HeapPtr
+GCPtr
 <
 Shape
 *
@@ -2803,7 +2803,7 @@ RegExp
 prototype
 *
 /
-HeapPtr
+GCPtr
 <
 Shape
 *
@@ -3130,7 +3130,7 @@ static_assert
 (
 sizeof
 (
-HeapPtr
+GCPtr
 <
 SharedShape
 *
