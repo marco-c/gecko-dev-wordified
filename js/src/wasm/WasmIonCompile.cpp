@@ -3735,11 +3735,13 @@ int64_t
 inlineeBytecodeSize
 )
 ;
+#
+ifdef
+JS_JITSPEW
 if
 (
 inliningBudget_
 <
-=
 0
 )
 {
@@ -3792,6 +3794,8 @@ funcIndex
 )
 ;
 }
+#
+endif
 }
 }
 FunctionCompiler
@@ -5318,6 +5322,9 @@ stats_
 inlinedCallRefBytecodeSize
 )
 ;
+#
+ifdef
+JS_JITSPEW
 if
 (
 guard
@@ -5325,7 +5332,6 @@ guard
 >
 inliningBudget
 <
-=
 0
 )
 {
@@ -5373,6 +5379,8 @@ codeMeta_
 )
 ;
 }
+#
+endif
 }
 /
 /
@@ -5402,7 +5410,6 @@ if
 (
 inliningBudget_
 <
-=
 0
 )
 {
@@ -18106,10 +18113,6 @@ slightly
 negative
 /
 /
-(
-or
-zero
-)
 if
 a
 budget
@@ -18120,10 +18123,10 @@ we
 will
 have
 performed
-/
-/
 slightly
 more
+/
+/
 inlining
 than
 allowed
@@ -18132,11 +18135,11 @@ the
 initial
 setting
 of
-/
-/
 availableBudget
 .
 The
+/
+/
 size
 of
 this
@@ -18145,8 +18148,6 @@ is
 however
 very
 limited
-/
-/
 -
 -
 it
@@ -18155,6 +18156,8 @@ can
 t
 exceed
 the
+/
+/
 size
 of
 one
@@ -18165,12 +18168,12 @@ is
 inlined
 .
 And
-/
-/
 that
 is
 limited
 by
+/
+/
 InliningHeuristics
 :
 :
@@ -18193,7 +18196,6 @@ if
 (
 availableBudget
 <
-=
 0
 )
 {
