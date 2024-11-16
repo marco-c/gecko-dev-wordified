@@ -249,7 +249,7 @@ const
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 )
 {

@@ -796,7 +796,7 @@ aConstraintRect
 mozilla
 :
 :
-ScreenIntSize
+LayoutDeviceIntSize
 GetSubdocumentSize
 (
 )

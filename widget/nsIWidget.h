@@ -10485,7 +10485,7 @@ virtual
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 GetSafeAreaInsets
 (
 )
@@ -10495,7 +10495,7 @@ return
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 (
 )
 ;

@@ -1228,11 +1228,11 @@ BrowserBridgeParent
 RecvUpdateDimensions
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 const
-ScreenIntSize
+LayoutDeviceIntSize
 &
 aSize
 )

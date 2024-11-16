@@ -1902,7 +1902,7 @@ StylePosition
 )
 ;
 }
-ScreenIntSize
+LayoutDeviceIntSize
 nsSubDocumentFrame
 :
 :
@@ -1986,7 +1986,7 @@ PresContext
 )
 ;
 return
-ScreenIntSize
+LayoutDeviceIntSize
 (
 presContext
 -
@@ -2035,7 +2035,7 @@ to
 do
 .
 return
-ScreenIntSize
+LayoutDeviceIntSize
 (
 10
 10
@@ -2062,7 +2062,7 @@ PresContext
 )
 ;
 return
-ScreenIntSize
+LayoutDeviceIntSize
 (
 pc
 -

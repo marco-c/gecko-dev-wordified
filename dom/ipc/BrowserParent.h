@@ -2613,11 +2613,11 @@ void
 UpdateDimensions
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 const
-ScreenIntSize
+LayoutDeviceIntSize
 &
 aSize
 )
@@ -5367,10 +5367,10 @@ SentKeyEventData
 >
 mWaitingReplyKeyboardEvents
 ;
-nsIntRect
+LayoutDeviceIntRect
 mRect
 ;
-ScreenIntSize
+LayoutDeviceIntSize
 mDimensions
 ;
 float

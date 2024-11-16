@@ -2253,7 +2253,10 @@ type
 nsresult
 GetWindowDimensions
 (
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -3091,7 +3094,7 @@ frame
 mozilla
 :
 :
-ScreenIntSize
+LayoutDeviceIntSize
 mLazySize
 ;
 /

@@ -5711,7 +5711,7 @@ aDragMetrics
 )
 ;
 }
-ScreenIntMargin
+LayoutDeviceIntMargin
 PuppetWidget
 :
 :
@@ -5731,7 +5731,7 @@ PuppetWidget
 UpdateSafeAreaInsets
 (
 const
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 aSafeAreaInsets
 )

@@ -6955,6 +6955,8 @@ Dst
 aMargin
 .
 top
+.
+value
 /
 aScale
 .
@@ -6962,6 +6964,8 @@ scale
 aMargin
 .
 right
+.
+value
 /
 aScale
 .
@@ -6969,6 +6973,8 @@ scale
 aMargin
 .
 bottom
+.
+value
 /
 aScale
 .
@@ -6976,6 +6982,8 @@ scale
 aMargin
 .
 left
+.
+value
 /
 aScale
 .

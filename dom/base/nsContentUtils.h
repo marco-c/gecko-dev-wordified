@@ -23035,7 +23035,7 @@ static
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 GetWindowSafeAreaInsets
 (
 nsIScreen
@@ -23045,7 +23045,7 @@ const
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
 aSafeareaInsets
 const

@@ -267,15 +267,6 @@ h
 "
 ;
 using
-nsIntRect
-from
-"
-nsRect
-.
-h
-"
-;
-using
 mozilla
 :
 :
@@ -690,9 +681,9 @@ all
 async
 UpdateDimensions
 (
-nsIntRect
+LayoutDeviceIntRect
 rect
-ScreenIntSize
+LayoutDeviceIntSize
 size
 )
 ;

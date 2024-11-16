@@ -402,7 +402,7 @@ mDynamicToolbarMaxHeight
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 mSafeAreaInsets
 ;
 mozilla
@@ -1548,7 +1548,7 @@ aOffset
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 GetSafeAreaInsets
 (
 )
@@ -1562,9 +1562,8 @@ const
 mozilla
 :
 :
-ScreenIntMargin
+LayoutDeviceIntMargin
 &
-aSafeAreaInsets
 )
 ;
 void
