@@ -708,7 +708,7 @@ ScriptPrivateData
 \
 _
 (
-MapObjectTable
+MapObjectData
 )
 \
 _
