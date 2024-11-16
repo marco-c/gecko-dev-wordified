@@ -716,9 +716,7 @@ GetPageSize
 )
 ;
 }
-nsSize
-size
-;
+return
 pc
 -
 >
@@ -729,16 +727,7 @@ DeviceContext
 >
 GetDeviceSurfaceDimensions
 (
-size
-.
-width
-size
-.
-height
 )
-;
-return
-size
 ;
 }
 bool
