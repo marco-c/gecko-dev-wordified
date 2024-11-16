@@ -2675,13 +2675,6 @@ PSEUDO_DICT
 [
 key
 ]
-|
-|
-nb
-=
-=
-=
-0
 )
 {
 return
