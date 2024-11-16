@@ -210,7 +210,6 @@ ok
 false
 "
 Expected
-NoBrowsingContext
 error
 not
 raised
@@ -232,9 +231,11 @@ message
 includes
 (
 "
-No
 BrowsingContext
-found
+does
+no
+longer
+exist
 "
 )
 "
