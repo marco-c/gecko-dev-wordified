@@ -801,6 +801,15 @@ LIBC_GLIBC
 )
 dso_handle
 #
+else
+(
+void
+*
+)
+(
+1
+)
+#
 endif
 )
 ?
