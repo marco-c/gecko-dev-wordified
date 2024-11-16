@@ -440,8 +440,7 @@ type
 (
 member
 )
-=
-=
+is
 xpidl
 .
 Attribute
@@ -521,8 +520,7 @@ type
 (
 member
 )
-=
-=
+is
 xpidl
 .
 Method

@@ -18489,8 +18489,7 @@ items
     
 if
 storage_type
-=
-=
+is
 list
 :
         

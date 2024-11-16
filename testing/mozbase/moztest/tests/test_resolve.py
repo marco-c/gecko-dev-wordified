@@ -78,10 +78,6 @@ import
 os
 import
 re
-import
-shutil
-import
-tempfile
 from
 collections
 import
@@ -101,12 +97,6 @@ pytest
 from
 mozbuild
 .
-base
-import
-MozbuildObject
-from
-mozbuild
-.
 frontend
 .
 reader
@@ -120,10 +110,6 @@ test
 common
 import
 MockConfig
-from
-mozfile
-import
-NamedTemporaryFile
 from
 moztest
 .

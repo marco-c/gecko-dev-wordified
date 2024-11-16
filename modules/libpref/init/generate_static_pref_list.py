@@ -961,8 +961,8 @@ type
 (
 name
 )
-!
-=
+is
+not
 str
 :
             
@@ -1242,8 +1242,8 @@ type
 (
 value
 )
-!
-=
+is
+not
 str
 :
                 
@@ -1443,8 +1443,8 @@ type
 (
 do_not_use_directly
 )
-!
-=
+is
+not
 bool
 :
                 
@@ -1550,8 +1550,8 @@ type
 (
 include
 )
-!
-=
+is
+not
 str
 :
                 
@@ -1668,8 +1668,8 @@ type
 (
 rust
 )
-!
-=
+is
+not
 bool
 :
                 

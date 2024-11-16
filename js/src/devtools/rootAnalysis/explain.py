@@ -968,8 +968,7 @@ type
 (
 v
 )
-=
-=
+is
 str
 }
 num_hazards

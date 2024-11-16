@@ -572,13 +572,16 @@ rows
 :
         
 if
+(
+            
 type
 (
 rows
 )
-!
-=
+is
+not
 list
+            
 or
 type
 (
@@ -587,9 +590,10 @@ rows
 0
 ]
 )
-!
-=
+is
+not
 list
+            
 or
 type
 (
@@ -601,9 +605,11 @@ rows
 0
 ]
 )
-!
-=
+is
+not
 str
+        
+)
 :
             
 raise

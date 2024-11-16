@@ -378,7 +378,8 @@ import
 (
 #
 noqa
-:
+        
+#
 trigger
 target
 task
@@ -386,6 +387,8 @@ method
 registration
         
 morph
+#
+noqa
         
 filter_tasks
         
@@ -407,6 +410,11 @@ parameters
 import
 register_parameters
     
+#
+trigger
+group_by
+registration
+    
 from
 gecko_taskgraph
 .
@@ -415,10 +423,6 @@ import
 dependencies
 #
 noqa
-:
-trigger
-group_by
-registration
     
 from
 gecko_taskgraph

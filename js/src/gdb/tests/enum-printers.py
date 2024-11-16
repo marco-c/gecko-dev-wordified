@@ -31,7 +31,7 @@ unscoped_no_storage
 "
 )
 class
-my_typedef
+UnscopedNoStoragePrinter
 (
 object
 )
@@ -73,7 +73,7 @@ unscoped_with_storage
 "
 )
 class
-my_typedef
+UnscopedWithStoragePrinter
 (
 object
 )
@@ -115,7 +115,7 @@ scoped_no_storage
 "
 )
 class
-my_typedef
+ScopedNoStoragePrinter
 (
 object
 )
@@ -157,7 +157,7 @@ scoped_with_storage
 "
 )
 class
-my_typedef
+ScopedWithStoragePrinter
 (
 object
 )

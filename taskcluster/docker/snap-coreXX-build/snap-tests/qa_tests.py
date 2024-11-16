@@ -438,8 +438,7 @@ duration
 "
 )
 )
-=
-=
+is
 float
 )
         

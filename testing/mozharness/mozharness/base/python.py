@@ -3663,7 +3663,7 @@ exists
 for
 executable
 in
-{
+(
                             
 "
 python
@@ -3689,7 +3689,7 @@ pythonw_d
 exe
 "
                         
-}
+)
 :
                             
 expected_python_debug_exe

@@ -917,9 +917,11 @@ mk
     
 __slots__
 =
+(
 "
 variables
 "
+)
     
 def
 __init__
@@ -1207,9 +1209,11 @@ OrderedDicts
     
 __slots__
 =
+(
 "
 defines
 "
+)
     
 def
 __init__
@@ -3046,9 +3050,11 @@ name
     
 __slots__
 =
+(
 "
 program
 "
+)
     
 DICT_ATTRS
 =
@@ -7438,9 +7444,11 @@ FINAL_TARGET_FILES
     
 __slots__
 =
+(
 "
 files
 "
+)
     
 def
 __init__
@@ -7531,9 +7539,11 @@ FINAL_TARGET_PP_FILES
     
 __slots__
 =
+(
 "
 files
 "
+)
     
 def
 __init__

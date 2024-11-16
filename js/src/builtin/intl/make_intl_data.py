@@ -1201,8 +1201,7 @@ type
 (
 mappings
 )
-=
-=
+is
 dict
 else
 mappings
@@ -1403,8 +1402,7 @@ type
 (
 mappings
 )
-=
-=
+is
 dict
 :
                 
@@ -1546,8 +1544,7 @@ type
 (
 mappings
 )
-=
-=
+is
 dict
 :
                 
@@ -1747,8 +1744,7 @@ type
 (
 mappings
 )
-=
-=
+is
 dict
 :
                 

@@ -12529,8 +12529,7 @@ type
 (
 args
 )
-=
-=
+is
 WebElement
 :
             
@@ -12549,8 +12548,7 @@ type
 (
 args
 )
-=
-=
+is
 ShadowRoot
 :
             
@@ -12569,8 +12567,7 @@ type
 (
 args
 )
-=
-=
+is
 WebFrame
 :
             
@@ -12589,8 +12586,7 @@ type
 (
 args
 )
-=
-=
+is
 WebWindow
 :
             

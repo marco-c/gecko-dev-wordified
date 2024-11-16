@@ -1929,8 +1929,7 @@ type
 (
 value
 )
-=
-=
+is
 str
 and
 value

@@ -4,10 +4,6 @@ flake8
 noqa
 :
 F821
-from
-collections
-import
-defaultdict
 test
 .
 compile

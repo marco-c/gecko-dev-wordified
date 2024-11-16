@@ -63,16 +63,18 @@ toolchain_task_definitions
 )
 :
     
-import
-gecko_taskgraph
 #
-noqa
-:
 triggers
 override
 of
 the
 graph_config_schema
+noqa
+    
+import
+gecko_taskgraph
+#
+noqa
     
 from
 taskgraph

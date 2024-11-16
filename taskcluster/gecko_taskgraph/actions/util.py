@@ -2391,17 +2391,18 @@ tasks
 "
 "
     
+#
+triggers
+registration
+of
+strategies
+    
 import
 gecko_taskgraph
 .
 optimize
 #
 noqa
-:
-triggers
-registration
-of
-strategies
     
 if
 suffix

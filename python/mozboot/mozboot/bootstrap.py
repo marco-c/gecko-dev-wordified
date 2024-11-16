@@ -5669,6 +5669,7 @@ else
 :
                 
 raise
+exc
         
 shutil
 .
