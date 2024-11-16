@@ -185,6 +185,17 @@ ServiceWorkerOpPromise
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+SharedWorkerOpArgs
+.
+h
+"
 namespace
 mozilla
 :
