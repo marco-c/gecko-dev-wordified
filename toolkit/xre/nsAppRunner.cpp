@@ -23480,6 +23480,12 @@ kioskMonitorNumber
 )
 ;
 }
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 if
 (
 XRE_IsParentProcess
@@ -23509,6 +23515,8 @@ None
 ARG_FOUND
 ;
 }
+#
+endif
 nsresult
 rv
 ;
