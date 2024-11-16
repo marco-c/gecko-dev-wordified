@@ -1650,6 +1650,14 @@ _
 TypeParamBound
 :
 :
+PreciseCapture
+(
+_
+)
+|
+TypeParamBound
+:
+:
 Verbatim
 (
 _
