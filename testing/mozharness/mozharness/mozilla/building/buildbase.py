@@ -7736,49 +7736,19 @@ return
 False
         
 #
-OS
-X
-opt
+shippable
 builds
-without
-a
-variant
-are
-shipped
-.
+set
+nightly_build
         
 if
 self
 .
-config
-.
-get
+query_is_nightly
 (
-"
-platform
-"
 )
-=
-=
-"
-macosx64
-"
 :
             
-if
-not
-self
-.
-config
-.
-get
-(
-"
-build_variant
-"
-)
-:
-                
 return
 True
         
