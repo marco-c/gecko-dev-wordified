@@ -213,6 +213,14 @@ RecvNotifyClick
 (
 )
 ;
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+override
+;
 private
 :
 ~
