@@ -137,6 +137,15 @@ include
 "
 jit
 /
+CompileWrappers
+.
+h
+"
+#
+include
+"
+jit
+/
 FixedList
 .
 h
@@ -242,6 +251,10 @@ handler
 JSContext
 *
 cx
+;
+CompileRuntime
+*
+runtime
 ;
 StackMacroAssembler
 masm
