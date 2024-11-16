@@ -225,7 +225,7 @@ how
 BlockContext
 :
 :
-write_expression_pointer
+write_access_chain
 ]
 should
 /
@@ -662,7 +662,7 @@ expression
 /
 On
 success
-write_expression_pointer
+write_access_chain
 returns
 one
 of
@@ -3042,7 +3042,7 @@ result_id
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 expr_handle
 block
@@ -3693,7 +3693,7 @@ result_id
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 expr_handle
 block
@@ -12863,7 +12863,7 @@ that
 type
 .
 fn
-write_expression_pointer
+write_access_chain
 (
 &
 mut
@@ -14480,7 +14480,7 @@ Error
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 pointer
 block
@@ -18014,7 +18014,7 @@ value
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 pointer
 &
@@ -18604,7 +18604,7 @@ pointer_id
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 pointer
 &
@@ -19502,7 +19502,7 @@ of
 match
 self
 .
-write_expression_pointer
+write_access_chain
 (
 pointer
 &

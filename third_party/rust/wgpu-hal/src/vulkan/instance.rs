@@ -8136,6 +8136,9 @@ None
 block
 :
 None
+external_memory
+:
+None
 usage
 :
 swapchain
