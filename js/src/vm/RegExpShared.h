@@ -645,7 +645,7 @@ RegExpZone
 struct
 RegExpCompilation
 {
-HeapPtr
+GCPtr
 <
 jit
 :
