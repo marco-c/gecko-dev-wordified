@@ -1603,15 +1603,6 @@ Not
 supported
 .
 void
-SetIsLiveStream
-(
-bool
-aIsLiveStream
-)
-override
-{
-}
-void
 SetCanPlayThrough
 (
 bool

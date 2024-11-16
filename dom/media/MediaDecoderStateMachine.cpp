@@ -22434,7 +22434,9 @@ USECS_PER_S
 mMaster
 -
 >
-mIsLiveStream
+IsLiveStream
+(
+)
 )
 {
 SLOG
