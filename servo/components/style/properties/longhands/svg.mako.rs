@@ -538,6 +538,7 @@ engines
 =
 "
 gecko
+servo
 "
 extra_prefixes
 =
