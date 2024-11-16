@@ -808,6 +808,8 @@ public
 DOMEventTargetHelper
 public
 GlobalFreezeObserver
+public
+SupportsWeakPtr
 {
 friend
 class
