@@ -339,6 +339,17 @@ frame
 *
 /
 int64_t
+pred_error
+;
+/
+*
+*
+<
+Prediction
+error
+*
+/
+int64_t
 inter_pred_err
 ;
 /

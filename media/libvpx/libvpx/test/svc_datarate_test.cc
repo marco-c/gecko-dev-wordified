@@ -508,14 +508,14 @@ i
 +
 )
 {
-prev_frame_width
+prev_frame_width_
 [
 i
 ]
 =
 320
 ;
-prev_frame_height
+prev_frame_height_
 [
 i
 ]
@@ -4521,7 +4521,7 @@ width
 sl
 ]
 <
-prev_frame_width
+prev_frame_width_
 [
 sl
 ]
@@ -4539,7 +4539,7 @@ height
 sl
 ]
 <
-prev_frame_height
+prev_frame_height_
 [
 sl
 ]
@@ -4563,7 +4563,7 @@ width
 sl
 ]
 >
-prev_frame_width
+prev_frame_width_
 [
 sl
 ]
@@ -4581,7 +4581,7 @@ height
 sl
 ]
 >
-prev_frame_height
+prev_frame_height_
 [
 sl
 ]
@@ -4592,7 +4592,7 @@ num_resize_up_
 1
 ;
 }
-prev_frame_width
+prev_frame_width_
 [
 sl
 ]
@@ -4609,7 +4609,7 @@ width
 sl
 ]
 ;
-prev_frame_height
+prev_frame_height_
 [
 sl
 ]
@@ -4959,14 +4959,14 @@ num_resize_down_
 ;
 unsigned
 int
-prev_frame_width
+prev_frame_width_
 [
 VPX_MAX_LAYERS
 ]
 ;
 unsigned
 int
-prev_frame_height
+prev_frame_height_
 [
 VPX_MAX_LAYERS
 ]
