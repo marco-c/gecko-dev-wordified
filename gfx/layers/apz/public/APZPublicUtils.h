@@ -246,6 +246,16 @@ clang
 -
 format
 on
+enum
+class
+DispatchToContent
+:
+bool
+{
+No
+Yes
+}
+;
 namespace
 apz
 {
