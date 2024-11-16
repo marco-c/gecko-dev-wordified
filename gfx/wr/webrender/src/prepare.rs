@@ -2577,7 +2577,6 @@ mut
 |
 rg_builder
 _
-_
 |
 {
 rg_builder
@@ -3761,7 +3760,6 @@ mut
 |
 rg_builder
 _
-_
 |
 {
 rg_builder
@@ -4475,10 +4473,6 @@ image_data
 .
 write_prim_gpu_blocks
 (
-&
-image_instance
-.
-adjustment
 request
 )
 ;
