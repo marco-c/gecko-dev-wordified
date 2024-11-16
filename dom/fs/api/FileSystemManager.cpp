@@ -641,10 +641,7 @@ FileSystemManager
 :
 BeginRequest
 (
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
@@ -657,10 +654,7 @@ FileSystemManagerChild
 &
 &
 aSuccess
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
@@ -845,6 +839,7 @@ ResolveOrRejectValue
 &
 aValue
 )
+mutable
 {
 holder
 -
