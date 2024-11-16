@@ -688,6 +688,10 @@ selection
 toString
 (
 )
+.
+trimEnd
+(
+)
 "
 <
 title

@@ -250,6 +250,10 @@ selection
 toString
 (
 )
+.
+trim
+(
+)
 "
 line
 "
