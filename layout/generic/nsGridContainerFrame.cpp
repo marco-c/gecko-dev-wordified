@@ -47215,7 +47215,7 @@ intrinsic
 sizing
 algorithm
 step
-11
+12
 .
 5
 as
@@ -47238,7 +47238,7 @@ css
 -
 grid
 -
-1
+2
 /
 #
 algo
@@ -47264,7 +47264,7 @@ percentageBasis
 }
 /
 /
-11
+12
 .
 5
 step
@@ -47302,7 +47302,7 @@ css
 -
 grid
 -
-1
+2
 /
 #
 algo
@@ -47318,7 +47318,7 @@ aGridItems
 ;
 /
 /
-11
+12
 .
 5
 steps
@@ -47338,11 +47338,11 @@ aConstraint
 /
 /
 Neither
-11
+12
 .
 6
 nor
-11
+12
 .
 7
 will
@@ -47386,7 +47386,7 @@ SumOfGridGaps
 }
 /
 /
-11
+12
 .
 6
 maximize
@@ -47412,7 +47412,7 @@ css
 -
 grid
 -
-1
+2
 /
 #
 algo
@@ -47427,7 +47427,7 @@ freeSpace
 ;
 /
 /
-11
+12
 .
 7
 Expand
@@ -47450,7 +47450,7 @@ css
 -
 grid
 -
-1
+2
 /
 #
 algo
@@ -53196,7 +53196,7 @@ aConstraint
 Intrinsic
 sizing
 algorithm
-11
+12
 .
 5
 steps
@@ -53219,7 +53219,7 @@ css
 -
 grid
 -
-1
+2
 /
 #
 algo
@@ -53848,7 +53848,7 @@ css
 -
 grid
 -
-1
+2
 /
 #
 algo
@@ -53912,7 +53912,7 @@ css
 -
 grid
 -
-1
+2
 /
 #
 algo
