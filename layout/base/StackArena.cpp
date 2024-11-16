@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
@@ -757,10 +750,7 @@ of
 .
 aSize
 =
-NS_ROUNDUP
-<
-size_t
->
+RoundUpToMultiple
 (
 aSize
 8
