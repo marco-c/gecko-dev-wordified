@@ -9064,7 +9064,7 @@ id
 platform
 :
 "
-all
+desktop
 "
 domain
 :
