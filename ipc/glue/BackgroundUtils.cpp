@@ -3416,6 +3416,12 @@ GetIsFormSubmission
 aLoadInfo
 -
 >
+GetIsGETRequest
+(
+)
+aLoadInfo
+-
+>
 GetSendCSPViolationEvents
 (
 )
@@ -3436,7 +3442,7 @@ GetHasInjectedCookieForCookieBannerHandling
 aLoadInfo
 -
 >
-GetWasSchemelessInput
+GetSchemelessInput
 (
 )
 aLoadInfo
@@ -5239,6 +5245,11 @@ isFormSubmission
 )
 loadInfoArgs
 .
+isGETRequest
+(
+)
+loadInfoArgs
+.
 sendCSPViolationEvents
 (
 )
@@ -5431,7 +5442,7 @@ hasInjectedCookieForCookieBannerHandling
 )
 loadInfoArgs
 .
-wasSchemelessInput
+schemelessInput
 (
 )
 loadInfoArgs
@@ -5808,7 +5819,7 @@ GetHttpsOnlyStatus
 aLoadInfo
 -
 >
-GetWasSchemelessInput
+GetSchemelessInput
 (
 )
 aLoadInfo
@@ -6111,11 +6122,11 @@ rv
 aLoadInfo
 -
 >
-SetWasSchemelessInput
+SetSchemelessInput
 (
 aForwarderArgs
 .
-wasSchemelessInput
+schemelessInput
 (
 )
 )
