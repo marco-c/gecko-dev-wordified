@@ -378,10 +378,6 @@ write
 (
 assert
 err
-.
-to_string
-(
-)
 )
 ?
 ;
