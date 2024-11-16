@@ -34000,9 +34000,6 @@ return
 promise
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -34492,8 +34489,6 @@ return
 true
 ;
 }
-#
-endif
 /
 *
 *
@@ -48659,9 +48654,6 @@ Promise_static_withResolvers
 0
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -48671,8 +48663,6 @@ Promise_static_try
 1
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
