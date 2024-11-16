@@ -1597,6 +1597,13 @@ uint32_t
 )
 ;
 void
+ReportResponseHeader
+(
+uint32_t
+aSubType
+)
+;
+void
 DeleteSelfOnConsumerThread
 (
 )
