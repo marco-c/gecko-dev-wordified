@@ -1612,6 +1612,8 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToResolvedValue
+Serialize
+Deserialize
 )
 ]
 #
@@ -1902,6 +1904,8 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToResolvedValue
+Serialize
+Deserialize
 )
 ]
 #
@@ -2128,6 +2132,8 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToResolvedValue
+Serialize
+Deserialize
 )
 ]
 #

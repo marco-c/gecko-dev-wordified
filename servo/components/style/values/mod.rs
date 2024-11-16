@@ -3919,6 +3919,8 @@ ToAnimatedValue
 ToComputedValue
 ToResolvedValue
 ToShmem
+Serialize
+Deserialize
 )
 ]
 pub
