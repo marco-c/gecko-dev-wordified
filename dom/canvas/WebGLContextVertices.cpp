@@ -1873,6 +1873,15 @@ index
 divisor
 )
 ;
+gl
+-
+>
+fVertexAttribDivisor
+(
+index
+divisor
+)
+;
 }
 }
 /
