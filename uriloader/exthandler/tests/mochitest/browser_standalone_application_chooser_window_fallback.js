@@ -347,10 +347,11 @@ gBrowser
 .
 getTabDialogBox
 ;
-delete
 gBrowser
 .
 getTabDialogBox
+=
+null
 ;
 let
 appChooserDialogOpenPromise
