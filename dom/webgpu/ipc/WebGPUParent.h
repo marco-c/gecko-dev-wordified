@@ -573,6 +573,16 @@ ipc
 :
 :
 IPCResult
+RecvQuerySetDrop
+(
+RawId
+aQuerySetId
+)
+;
+ipc
+:
+:
+IPCResult
 RecvCommandEncoderFinish
 (
 RawId
