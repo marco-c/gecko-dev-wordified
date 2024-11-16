@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h

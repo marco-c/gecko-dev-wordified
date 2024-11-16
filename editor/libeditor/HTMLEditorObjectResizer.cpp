@@ -234,6 +234,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
