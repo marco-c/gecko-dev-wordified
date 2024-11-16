@@ -7386,7 +7386,7 @@ name
 #
 ifdef
 NIGHTLY_BUILD
-JS_FN
+JS_INLINABLE_FN
 (
 "
 pause
@@ -7394,6 +7394,7 @@ pause
 atomics_pause
 0
 0
+AtomicsPause
 )
 #
 endif

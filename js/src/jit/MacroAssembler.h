@@ -34710,6 +34710,12 @@ Register
 output
 )
 ;
+void
+atomicPause
+(
+)
+PER_SHARED_ARCH
+;
 /
 /
 =
