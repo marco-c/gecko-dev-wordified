@@ -216,6 +216,10 @@ zone_
 =
 zoneArg
 ;
+next
+=
+nullptr
+;
 isNewlyCreated_
 =
 1
