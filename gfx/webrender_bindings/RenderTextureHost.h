@@ -503,11 +503,7 @@ TextureSourceProvider
 *
 aProvider
 )
-{
-return
-nullptr
 ;
-}
 virtual
 void
 ClearCachedResources
