@@ -15070,12 +15070,11 @@ aLoadingDocument
 {
 isPrivate
 =
-nsContentUtils
-:
-:
+aLoadingDocument
+-
+>
 IsInPrivateBrowsing
 (
-aLoadingDocument
 )
 ;
 }

@@ -2019,12 +2019,11 @@ prompt
 .
 if
 (
-nsContentUtils
-:
-:
+doc
+-
+>
 IsInPrivateBrowsing
 (
-doc
 )
 )
 {
