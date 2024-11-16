@@ -278,8 +278,10 @@ count
 0
 )
 {
-auto
-*
+RefPtr
+<
+RemoteLazyInputStreamThread
+>
 t
 =
 RemoteLazyInputStreamThread
