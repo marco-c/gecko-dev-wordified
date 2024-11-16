@@ -58,8 +58,6 @@ io
 import
 os
 import
-pipes
-import
 posixpath
 import
 re
@@ -9720,22 +9718,6 @@ quote
 quote
 =
 shlex
-.
-quote
-        
-elif
-hasattr
-(
-pipes
-"
-quote
-"
-)
-:
-            
-quote
-=
-pipes
 .
 quote
         

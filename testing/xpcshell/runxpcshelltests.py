@@ -70,13 +70,13 @@ json
 import
 os
 import
-pipes
-import
 platform
 import
 random
 import
 re
+import
+shlex
 import
 shutil
 import
@@ -2898,7 +2898,7 @@ shell_command_tokens
 =
 [
             
-pipes
+shlex
 .
 quote
 (
@@ -2944,7 +2944,7 @@ s
 %
 (
 name
-pipes
+shlex
 .
 quote
 (

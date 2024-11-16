@@ -1,9 +1,9 @@
 import
 json
 import
-pipes
-import
 re
+import
+shlex
 from
 .
 progressbar
@@ -42,7 +42,7 @@ return
 join
 (
 [
-pipes
+shlex
 .
 quote
 (
