@@ -1237,15 +1237,6 @@ aPrevInFlow
 )
 override
 ;
-void
-DidSetComputedStyle
-(
-ComputedStyle
-*
-aOldComputedStyle
-)
-override
-;
 nsresult
 AttributeChanged
 (

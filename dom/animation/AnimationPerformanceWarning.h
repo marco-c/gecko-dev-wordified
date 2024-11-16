@@ -181,7 +181,6 @@ uint8_t
 None
 ContentTooLarge
 ContentTooLargeArea
-NonScalingStroke
 TransformSVG
 TransformFrameInactive
 TransformIsBlockedByImportantRules
