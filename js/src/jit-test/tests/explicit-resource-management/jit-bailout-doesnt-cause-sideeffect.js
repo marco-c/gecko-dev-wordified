@@ -20,16 +20,6 @@ resource
 management
 "
 )
-;
--
--
-enable
--
-explicit
--
-resource
--
-management
 function
 foo
 (
