@@ -4253,9 +4253,6 @@ uint32_t
 segByteOffset
 uint32_t
 numElements
-TypeDefInstanceData
-*
-typeDefData
 uint32_t
 segIndex
 )
