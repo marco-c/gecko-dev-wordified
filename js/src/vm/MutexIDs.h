@@ -405,12 +405,6 @@ WasmSignalInstallState
 \
 _
 (
-WasmHugeMemoryEnabled
-500
-)
-\
-_
-(
 MemoryTracker
 500
 )
