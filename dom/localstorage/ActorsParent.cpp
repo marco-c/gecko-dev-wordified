@@ -25464,7 +25464,7 @@ IsEmpty
 )
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mConnections
@@ -42644,7 +42644,7 @@ DatastoreHashtable
 )
 ;
 }
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 gDatastores
