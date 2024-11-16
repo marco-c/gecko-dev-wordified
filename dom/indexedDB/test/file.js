@@ -1465,7 +1465,7 @@ wrap
 document
 )
 .
-nodePrincipal
+effectiveStoragePrincipal
 ;
 let
 cb
