@@ -307,6 +307,11 @@ Show
 (
 )
 ;
+nsresult
+FireClickEvent
+(
+)
+;
 void
 GetAlertName
 (
