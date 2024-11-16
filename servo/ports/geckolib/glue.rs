@@ -37851,9 +37851,11 @@ PropertyValuePair
 ]
 sorted_property_indices
 :
-Vec
+Box
 <
+[
 PropertyAndIndex
+]
 >
 curr
 :
@@ -37942,9 +37944,11 @@ let
 mut
 sorted_property_indices
 :
-Vec
+Box
 <
+[
 PropertyAndIndex
+]
 >
 =
 properties
