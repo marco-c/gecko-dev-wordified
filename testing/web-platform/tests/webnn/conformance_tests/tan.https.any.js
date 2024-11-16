@@ -2111,7 +2111,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getTanPrecisionTolerance
 test
 )

@@ -4955,7 +4955,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getTriangularPrecisionTolerance
 test
 )

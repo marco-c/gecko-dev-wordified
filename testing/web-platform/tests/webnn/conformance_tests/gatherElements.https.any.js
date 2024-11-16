@@ -1116,7 +1116,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getGatherElementsPrecisionTolerance
 test
 )

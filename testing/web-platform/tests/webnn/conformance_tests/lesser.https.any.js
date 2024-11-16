@@ -3960,7 +3960,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getLesserPrecisionTolerance
 test
 )

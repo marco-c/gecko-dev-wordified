@@ -2040,7 +2040,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getExpPrecisionTolerance
 test
 )

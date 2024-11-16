@@ -1745,7 +1745,7 @@ test
 {
 webnn_conformance_test
 (
-buildGraphAndCompute
+buildAndExecuteGraph
 getCeilPrecisionTolerance
 test
 )
