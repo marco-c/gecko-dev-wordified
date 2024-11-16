@@ -272,8 +272,9 @@ self
 .
 conn_s
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -292,7 +293,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1723,8 +1724,9 @@ fr
 .
 conn_s
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -1743,7 +1745,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1785,8 +1787,9 @@ fr
 .
 conn_s
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -1805,7 +1808,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3481,8 +3484,9 @@ fr
 .
 conn_s
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -3501,7 +3505,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3537,8 +3541,9 @@ fr
 .
 conn_c
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -3557,7 +3562,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3683,8 +3688,9 @@ fr
 .
 conn_s
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -3703,7 +3709,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3739,8 +3745,9 @@ fr
 .
 conn_c
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -3759,7 +3766,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now

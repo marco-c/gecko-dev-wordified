@@ -629,8 +629,9 @@ out
 =
 hconn_c
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -648,7 +649,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -670,7 +671,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -692,7 +693,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -754,8 +755,9 @@ out
 =
 hconn_c
 .
-process_output
+process
 (
+None
 now
 (
 )
@@ -787,7 +789,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -807,7 +809,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -824,7 +826,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -851,7 +853,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -940,8 +942,9 @@ out
 =
 hconn_c
 .
-process_output
+process
 (
+None
 now
 )
 ;
@@ -962,7 +965,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -987,7 +990,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1010,7 +1013,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1086,8 +1089,9 @@ out
 =
 hconn_c
 .
-process_output
+process
 (
+None
 now
 )
 ;
@@ -1122,7 +1126,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1145,7 +1149,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1173,7 +1177,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1201,7 +1205,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1308,6 +1312,10 @@ client
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -1324,6 +1332,10 @@ server
 process
 (
 out
+.
+as_ref
+(
+)
 now
 (
 )
@@ -1469,6 +1481,10 @@ hconn_c
 process
 (
 dgram
+.
+as_ref
+(
+)
 now
 (
 )
@@ -1496,7 +1512,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1515,7 +1531,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1538,11 +1554,6 @@ hconn_s
 process
 (
 None
-:
-:
-<
-Datagram
->
 now
 (
 )
@@ -1572,7 +1583,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1589,11 +1600,6 @@ hconn_s
 process
 (
 None
-:
-:
-<
-Datagram
->
 now
 (
 )
@@ -1610,7 +1616,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1717,6 +1723,10 @@ hconn_c
 process
 (
 dgram
+.
+as_ref
+(
+)
 now
 (
 )
@@ -1731,7 +1741,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1750,7 +1760,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1840,11 +1850,6 @@ hconn_s
 process
 (
 None
-:
-:
-<
-Datagram
->
 now
 (
 )
@@ -1861,7 +1866,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -1940,11 +1945,6 @@ hconn_s
 process
 (
 None
-:
-:
-<
-Datagram
->
 now
 (
 )
@@ -1961,7 +1961,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3499,6 +3499,10 @@ hconn_c
 process
 (
 dgram
+.
+as_ref
+(
+)
 now
 (
 )
@@ -3513,7 +3517,7 @@ process
 (
 out
 .
-dgram
+as_dgram_ref
 (
 )
 now
@@ -3879,6 +3883,10 @@ hconn_c
 process
 (
 dgram
+.
+as_ref
+(
+)
 now
 )
 ;

@@ -128,7 +128,6 @@ tests
 :
 :
 {
-assert_path_challenge_min_len
 connect_force_idle
 connect_force_idle_with_modifier
 default_client
@@ -737,15 +736,6 @@ path_challenge
 probes
 )
 ;
-assert_path_challenge_min_len
-(
-&
-client
-&
-d
-now
-)
-;
 if
 probes
 <
@@ -886,6 +876,7 @@ client
 .
 process_input
 (
+&
 ack
 .
 unwrap
@@ -921,6 +912,7 @@ server
 .
 process_input
 (
+&
 ack
 .
 unwrap
@@ -1269,6 +1261,7 @@ client
 .
 process_input
 (
+&
 ack
 now
 )
@@ -1547,6 +1540,7 @@ server
 .
 process_input
 (
+&
 orig_path_modifier
 (
 client_pkt
@@ -1592,6 +1586,7 @@ server
 .
 process_input
 (
+&
 client_pkt
 now
 )
@@ -1619,6 +1614,7 @@ client
 .
 process_input
 (
+&
 ack
 now
 )
@@ -1648,6 +1644,7 @@ server
 .
 process_input
 (
+&
 orig_path_modifier
 (
 client_pkt
@@ -1727,15 +1724,6 @@ true
 Contains
 PATH_CHALLENGE
 .
-assert_path_challenge_min_len
-(
-&
-client
-&
-probe
-now
-)
-;
 assert_eq
 !
 (
@@ -1777,6 +1765,7 @@ process
 (
 Some
 (
+&
 probe
 )
 now
@@ -1832,15 +1821,6 @@ path_challenge
 1
 )
 ;
-assert_path_challenge_min_len
-(
-&
-server
-&
-resp
-now
-)
-;
 /
 /
 Data
@@ -1887,6 +1867,7 @@ server
 .
 process_input
 (
+&
 client_data
 now
 )
@@ -1914,6 +1895,7 @@ client
 .
 process_input
 (
+&
 server_data
 now
 )
@@ -1938,6 +1920,7 @@ client
 .
 process_input
 (
+&
 resp
 now
 )
@@ -2041,6 +2024,7 @@ server
 .
 process_input
 (
+&
 migrate_client
 now
 )
@@ -2116,19 +2100,6 @@ else
 }
 )
 ;
-if
-migrated
-{
-assert_path_challenge_min_len
-(
-&
-server
-&
-probe_old_server
-now
-)
-;
-}
 assert_eq
 !
 (
@@ -2253,6 +2224,7 @@ client
 .
 process_input
 (
+&
 migrate_server
 now
 )
@@ -2261,6 +2233,7 @@ client
 .
 process_input
 (
+&
 probe_old_server
 now
 )
@@ -2398,6 +2371,7 @@ client
 .
 process_input
 (
+&
 server_confirmation
 now
 )
@@ -2450,6 +2424,7 @@ server
 .
 process_input
 (
+&
 client_pkt
 now
 )
@@ -2477,6 +2452,7 @@ client
 .
 process_input
 (
+&
 ack
 now
 )
