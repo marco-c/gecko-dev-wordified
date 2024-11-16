@@ -333,7 +333,7 @@ score
 lower
 .
 constexpr
-uint32_t
+int
 kMaxLookaheadForBoyerMoore
 =
 8
@@ -371,7 +371,7 @@ extra
 logic
 .
 constexpr
-uint32_t
+int
 kPatternTooShortForBoyerMoore
 =
 2
@@ -1732,18 +1732,6 @@ DirectHandle
 ByteArray
 >
 boolean_skip_table
-DirectHandle
-<
-ByteArray
->
-nibble_table
-=
-DirectHandle
-<
-ByteArray
->
-{
-}
 )
 ;
 bool
