@@ -10399,6 +10399,7 @@ DEFINED_ON
 (
 arm64
 loong64
+mips64
 riscv64
 )
 ;
@@ -10510,6 +10511,7 @@ DEFINED_ON
 (
 arm64
 loong64
+mips64
 riscv64
 )
 ;
