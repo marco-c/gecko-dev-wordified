@@ -275,6 +275,17 @@ hWnd
 )
 )
 )
+mTransparencyMode
+(
+uint32_t
+(
+aInitData
+.
+transparencyMode
+(
+)
+)
+)
 mCompositorWnds
 (
 nullptr
