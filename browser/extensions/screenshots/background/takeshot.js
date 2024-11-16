@@ -65,7 +65,6 @@ getZoomFactor
 shot
 main
 catcher
-analytics
 blobConverters
 thumbnailGenerator
 *
