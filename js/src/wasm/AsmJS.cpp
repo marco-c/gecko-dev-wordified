@@ -13709,7 +13709,7 @@ length
 codeMeta_
 -
 >
-codeSectionRange
+codeSection
 .
 emplace
 (
@@ -13718,7 +13718,7 @@ emplace
 codeMeta_
 -
 >
-codeSectionRange
+codeSection
 -
 >
 start
@@ -13728,7 +13728,7 @@ start
 codeMeta_
 -
 >
-codeSectionRange
+codeSection
 -
 >
 size
