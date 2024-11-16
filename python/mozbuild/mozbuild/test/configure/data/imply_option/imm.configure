@@ -108,7 +108,7 @@ foo
 help
 =
 "
-enable
+Enable
 foo
 "
 )
@@ -174,7 +174,7 @@ nargs
 help
 =
 "
-enable
+Enable
 bar
 "
 )
@@ -227,7 +227,7 @@ nargs
 help
 =
 "
-enable
+Enable
 baz
 "
 )

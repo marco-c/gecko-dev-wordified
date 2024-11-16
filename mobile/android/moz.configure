@@ -331,7 +331,6 @@ unnecessary
 dependencies
 like
 Glean
-.
 "
 )
 set_config

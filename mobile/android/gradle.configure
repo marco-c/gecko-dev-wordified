@@ -1614,7 +1614,6 @@ Disable
 }
 AAB
 build
-.
 "
 )
 imply_option
@@ -3210,7 +3209,6 @@ to
 pass
 to
 Gradle
-.
 "
 )
 depends
@@ -3365,7 +3363,6 @@ repositories
 containing
 Gradle
 dependencies
-.
 "
 )
 option
@@ -3393,7 +3390,6 @@ to
 insecure
 Maven
 repositories
-.
 "
 )
 set_config
@@ -3441,7 +3437,6 @@ that
 are
 conditionally
 used
-.
 "
 )
 set_config

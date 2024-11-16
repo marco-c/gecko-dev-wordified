@@ -97,7 +97,7 @@ foo
 help
 =
 "
-enable
+Enable
 foo
 "
 )
@@ -145,7 +145,7 @@ hoge
 help
 =
 "
-enable
+Enable
 hoge
 "
 )
@@ -197,7 +197,7 @@ True
 help
 =
 "
-enable
+Enable
 bar
 "
 )

@@ -253,7 +253,6 @@ artifact
 builds
 are
 enabled
-.
 "
 )
 depends
@@ -363,6 +362,9 @@ nargs
 help
 =
 "
+Path
+to
+the
 moz
 .
 build
@@ -375,10 +377,10 @@ as
 if
 it
 were
+"
+"
 appended
 to
-"
-"
 every
 moz
 .
@@ -386,7 +388,6 @@ build
 in
 the
 tree
-.
 "
 )
 depends_if
@@ -494,7 +495,6 @@ the
 resulting
 build
 archive
-.
 "
 )
 set_config
@@ -794,7 +794,6 @@ given
 compiler
 flags
 )
-.
 "
 )
 depends
@@ -3522,7 +3521,6 @@ libxul
 during
 the
 build
-.
 "
 when
 =

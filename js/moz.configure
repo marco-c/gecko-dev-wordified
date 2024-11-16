@@ -296,7 +296,6 @@ lowercase
 form
 of
 MOZ_APP_BASENAME
-.
 "
 )
 depends
@@ -1449,7 +1448,6 @@ the
 portable
 baseline
 interpreter
-.
 "
 )
 set_define
@@ -1545,7 +1543,6 @@ the
 portable
 baseline
 interpreter
-.
 "
 )
 set_define
@@ -3905,7 +3902,6 @@ verbosity
 of
 generated
 code
-.
 "
 )
 set_define
@@ -4131,7 +4127,6 @@ instruction
 on
 Aarch64
 targets
-.
 "
 )
 #
@@ -4713,7 +4708,6 @@ SIMD
 in
 Rust
 code
-.
 "
 )
 depends
@@ -5174,7 +5168,6 @@ experimental
 features
 for
 testing
-.
 "
 )
 #

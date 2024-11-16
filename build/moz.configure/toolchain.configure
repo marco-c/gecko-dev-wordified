@@ -172,7 +172,6 @@ for
 Preprocessing
 host
 sources
-.
 "
 nargs
 =
@@ -199,7 +198,6 @@ compiling
 host
 C
 sources
-.
 "
 nargs
 =
@@ -228,7 +226,6 @@ C
 +
 +
 sources
-.
 "
 nargs
 =
@@ -255,7 +252,6 @@ linking
 host
 object
 files
-.
 "
 nargs
 =
@@ -280,7 +276,6 @@ flags
 for
 preprocessing
 sources
-.
 "
 nargs
 =
@@ -306,7 +301,6 @@ for
 compiling
 C
 sources
-.
 "
 nargs
 =
@@ -334,7 +328,6 @@ C
 +
 +
 sources
-.
 "
 nargs
 =
@@ -359,7 +352,6 @@ flags
 for
 assembling
 sources
-.
 "
 nargs
 =
@@ -385,7 +377,6 @@ for
 linking
 object
 files
-.
 "
 nargs
 =
@@ -408,7 +399,6 @@ help
 Extra
 optimization
 flags
-.
 "
 nargs
 =
@@ -25518,7 +25508,6 @@ paths
 in
 compiled
 outputs
-.
 "
 )
 depends
