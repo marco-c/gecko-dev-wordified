@@ -914,6 +914,12 @@ f
 name
 (
 )
+or
+"
+<
+unnamed
+>
+"
 )
 :
             
@@ -1029,6 +1035,9 @@ True
         
 )
         
+try
+:
+            
 while
 b
 .
@@ -1037,7 +1046,7 @@ hit_count
 =
 0
 :
-            
+                
 gdb
 .
 execute
@@ -1050,6 +1059,9 @@ to_string
 True
 )
         
+finally
+:
+            
 b
 .
 delete
