@@ -226,8 +226,7 @@ UpdateTransparency
 TransparencyMode
 )
 override
-{
-}
+;
 void
 ClearTransparentWindow
 (

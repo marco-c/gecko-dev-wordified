@@ -261,6 +261,13 @@ bool
 aIsFullyOccluded
 )
 ;
+async
+UpdateTransparency
+(
+TransparencyMode
+aMode
+)
+;
 sync
 ClearTransparentWindow
 (
