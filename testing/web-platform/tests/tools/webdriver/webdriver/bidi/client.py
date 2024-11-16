@@ -748,6 +748,17 @@ module
         
 self
 .
+bluetooth
+=
+modules
+.
+Bluetooth
+(
+self
+)
+        
+self
+.
 browser
 =
 modules

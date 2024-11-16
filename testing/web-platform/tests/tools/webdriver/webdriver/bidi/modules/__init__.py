@@ -4,6 +4,11 @@ flake8
 noqa
 from
 .
+bluetooth
+import
+Bluetooth
+from
+.
 browser
 import
 Browser
