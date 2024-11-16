@@ -195,14 +195,14 @@ releases
 ERROR_CHANNEL_ID
 =
 "
-G016BC5FUHJ
+C0134KJ4JHL
 "
 #
 mobile
 -
 alerts
 -
-sandbox
+android
 def
 main
 (
