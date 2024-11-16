@@ -19415,6 +19415,7 @@ unused
 aDebuggerPrivateValue
 aDebuggerIntroductionScript
 erv
+encodeBytecode
 )
 ;
 }
