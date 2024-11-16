@@ -126,7 +126,10 @@ specified
 calc
 :
 :
+{
+AllowParse
 Leaf
+}
 }
 }
 ;
@@ -703,8 +706,13 @@ location
 ?
 ;
 let
-units
+allow
 =
+AllowParse
+:
+:
+new
+(
 if
 rcs_enabled
 (
@@ -731,6 +739,7 @@ units
 (
 )
 }
+)
 ;
 let
 mut
@@ -744,7 +753,7 @@ parse
 context
 input
 function
-units
+allow
 )
 ?
 ;
