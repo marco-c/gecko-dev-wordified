@@ -5586,6 +5586,12 @@ mIgnoreCacheEntry
 false
 }
 ;
+bool
+mAllowRCWN
+{
+true
+}
+;
 /
 /
 Lock
