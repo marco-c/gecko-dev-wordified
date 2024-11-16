@@ -3318,7 +3318,7 @@ webc119017
 platform
 :
 "
-desktop
+all
 "
 domain
 :
