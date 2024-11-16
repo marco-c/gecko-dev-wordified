@@ -92,6 +92,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +109,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -119,6 +125,10 @@ wrapRender
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +144,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;
@@ -145,6 +157,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -158,6 +174,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -169,6 +187,10 @@ rep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +204,8 @@ reps
 reps
 /
 grip
+.
+js
 "
 )
 ;

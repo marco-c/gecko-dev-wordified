@@ -96,6 +96,10 @@ Undefined
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +113,8 @@ reps
 reps
 /
 undefined
+.
+js
 "
 )
 ;
@@ -118,6 +124,10 @@ Null
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +141,8 @@ reps
 reps
 /
 null
+.
+js
 "
 )
 ;
@@ -140,6 +152,10 @@ StringRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +169,8 @@ reps
 reps
 /
 string
+.
+js
 "
 )
 ;
@@ -162,6 +180,10 @@ Number
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -175,6 +197,8 @@ reps
 reps
 /
 number
+.
+js
 "
 )
 ;
@@ -184,6 +208,10 @@ ArrayRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +225,8 @@ reps
 reps
 /
 array
+.
+js
 "
 )
 ;
@@ -206,6 +236,10 @@ Obj
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -219,6 +253,8 @@ reps
 reps
 /
 object
+.
+js
 "
 )
 ;
@@ -228,6 +264,10 @@ SymbolRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -241,6 +281,8 @@ reps
 reps
 /
 symbol
+.
+js
 "
 )
 ;
@@ -250,6 +292,10 @@ InfinityRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -263,6 +309,8 @@ reps
 reps
 /
 infinity
+.
+js
 "
 )
 ;
@@ -272,6 +320,10 @@ NaNRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -285,6 +337,8 @@ reps
 reps
 /
 nan
+.
+js
 "
 )
 ;
@@ -294,6 +348,10 @@ Accessor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -307,6 +365,8 @@ reps
 reps
 /
 accessor
+.
+js
 "
 )
 ;
@@ -323,6 +383,10 @@ Accessible
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -336,6 +400,8 @@ reps
 reps
 /
 accessible
+.
+js
 "
 )
 ;
@@ -345,6 +411,10 @@ Attribute
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -358,6 +428,8 @@ reps
 reps
 /
 attribute
+.
+js
 "
 )
 ;
@@ -367,6 +439,10 @@ BigInt
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -382,6 +458,8 @@ reps
 big
 -
 int
+.
+js
 "
 )
 ;
@@ -391,6 +469,10 @@ DateTime
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -406,6 +488,8 @@ reps
 date
 -
 time
+.
+js
 "
 )
 ;
@@ -415,6 +499,10 @@ Document
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -428,6 +516,8 @@ reps
 reps
 /
 document
+.
+js
 "
 )
 ;
@@ -437,6 +527,10 @@ DocumentType
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -452,6 +546,8 @@ reps
 document
 -
 type
+.
+js
 "
 )
 ;
@@ -461,6 +557,10 @@ Event
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -474,6 +574,8 @@ reps
 reps
 /
 event
+.
+js
 "
 )
 ;
@@ -483,6 +585,10 @@ Func
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -496,6 +602,8 @@ reps
 reps
 /
 function
+.
+js
 "
 )
 ;
@@ -505,6 +613,10 @@ PromiseRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -518,6 +630,8 @@ reps
 reps
 /
 promise
+.
+js
 "
 )
 ;
@@ -527,6 +641,10 @@ RegExp
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -540,6 +658,8 @@ reps
 reps
 /
 regexp
+.
+js
 "
 )
 ;
@@ -549,6 +669,10 @@ StyleSheet
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -562,6 +686,8 @@ reps
 reps
 /
 stylesheet
+.
+js
 "
 )
 ;
@@ -571,6 +697,10 @@ CommentNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -586,6 +716,8 @@ reps
 comment
 -
 node
+.
+js
 "
 )
 ;
@@ -595,6 +727,10 @@ ElementNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -610,6 +746,8 @@ reps
 element
 -
 node
+.
+js
 "
 )
 ;
@@ -619,6 +757,10 @@ TextNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -634,6 +776,8 @@ reps
 text
 -
 node
+.
+js
 "
 )
 ;
@@ -643,6 +787,10 @@ ErrorRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -656,6 +804,8 @@ reps
 reps
 /
 error
+.
+js
 "
 )
 ;
@@ -665,6 +815,10 @@ Window
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -678,6 +832,8 @@ reps
 reps
 /
 window
+.
+js
 "
 )
 ;
@@ -687,6 +843,10 @@ ObjectWithText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -704,6 +864,8 @@ object
 with
 -
 text
+.
+js
 "
 )
 ;
@@ -713,6 +875,10 @@ ObjectWithURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -730,6 +896,8 @@ object
 with
 -
 url
+.
+js
 "
 )
 ;
@@ -739,6 +907,10 @@ GripArray
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -754,6 +926,8 @@ reps
 grip
 -
 array
+.
+js
 "
 )
 ;
@@ -763,6 +937,10 @@ GripEntry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -778,6 +956,8 @@ reps
 grip
 -
 entry
+.
+js
 "
 )
 ;
@@ -787,6 +967,10 @@ GripMap
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -802,6 +986,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;
@@ -811,6 +997,10 @@ Grip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -824,6 +1014,8 @@ reps
 reps
 /
 grip
+.
+js
 "
 )
 ;
@@ -1138,6 +1330,10 @@ CustomFormatter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1153,6 +1349,8 @@ reps
 custom
 -
 formatter
+.
+js
 "
 )
 ;
