@@ -18740,7 +18740,7 @@ sample
 \
 break
 ;
-FOR_EACH_JS_METRIC
+FOR_EACH_JS_LEGACY_METRIC
 (
 CASE_ACCUMULATE
 )
@@ -18749,14 +18749,7 @@ undef
 CASE_ACCUMULATE
 default
 :
-MOZ_CRASH
-(
-"
-Bad
-metric
-id
-"
-)
+break
 ;
 }
 /
