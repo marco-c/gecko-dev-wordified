@@ -61,13 +61,6 @@ use
 strict
 "
 ;
-/
-*
-globals
-DEFAULT_STORE
-PRIVATE_STORE
-*
-/
 var
 {
 ExtensionError

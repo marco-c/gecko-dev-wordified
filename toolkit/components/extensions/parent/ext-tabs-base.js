@@ -106,12 +106,6 @@ use
 strict
 "
 ;
-/
-*
-globals
-EventEmitter
-*
-/
 ChromeUtils
 .
 defineESModuleGetters

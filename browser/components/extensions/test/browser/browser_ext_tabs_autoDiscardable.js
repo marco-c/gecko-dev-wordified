@@ -114,6 +114,13 @@ mjs
 "
 )
 ;
+/
+*
+globals
+ExtensionAPI
+ExtensionUtils
+*
+/
 const
 {
 ExtensionError
