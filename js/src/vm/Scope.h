@@ -293,7 +293,7 @@ h
 "
 /
 /
-HeapPtr
+GCPtr
 #
 include
 "
@@ -2220,7 +2220,7 @@ Otherwise
 nullptr
 .
 const
-HeapPtr
+GCPtr
 <
 SharedShape
 *
@@ -2235,7 +2235,7 @@ scope
 or
 nullptr
 .
-HeapPtr
+GCPtr
 <
 Scope
 *
@@ -4642,7 +4642,7 @@ an
 arrow
 )
 .
-HeapPtr
+GCPtr
 <
 JSFunction
 *
@@ -6419,7 +6419,7 @@ of
 the
 scope
 .
-HeapPtr
+GCPtr
 <
 ModuleObject
 *
@@ -6770,7 +6770,7 @@ of
 the
 scope
 .
-HeapPtr
+GCPtr
 <
 WasmInstanceObject
 *
