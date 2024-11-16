@@ -2167,9 +2167,6 @@ Insert
 aActor
 )
 ;
-#
-ifdef
-DEBUG
 aActor
 -
 >
@@ -2178,8 +2175,6 @@ SetRegistered
 true
 )
 ;
-#
-endif
 /
 /
 It
@@ -2342,9 +2337,6 @@ Remove
 aActor
 )
 ;
-#
-ifdef
-DEBUG
 aActor
 -
 >
@@ -2353,8 +2345,6 @@ SetRegistered
 false
 )
 ;
-#
-endif
 if
 (
 IsInactive
