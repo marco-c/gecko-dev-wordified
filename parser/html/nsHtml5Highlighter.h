@@ -1571,7 +1571,7 @@ aCreator
 Pushes
 a
 <
-span
+pre
 id
 =
 "
@@ -1584,7 +1584,7 @@ lineno
 *
 /
 void
-PushCurrentLineContainer
+PushCurrentLinePre
 (
 )
 ;

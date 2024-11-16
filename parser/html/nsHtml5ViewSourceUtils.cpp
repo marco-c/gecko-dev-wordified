@@ -66,6 +66,15 @@ h
 #
 include
 "
+mozilla
+/
+Preferences
+.
+h
+"
+#
+include
+"
 nsHtml5AttributeName
 .
 h

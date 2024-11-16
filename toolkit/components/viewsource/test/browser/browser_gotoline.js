@@ -250,10 +250,6 @@ selection
 toString
 (
 )
-.
-trim
-(
-)
 "
 line
 "
