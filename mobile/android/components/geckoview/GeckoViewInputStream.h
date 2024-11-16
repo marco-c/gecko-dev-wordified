@@ -205,7 +205,7 @@ java
 GeckoViewInputStream
 :
 :
-LocalRef
+GlobalRef
 mInstance
 ;
 bool
