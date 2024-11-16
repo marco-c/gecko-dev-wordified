@@ -1083,6 +1083,23 @@ warning_rules
 "
 )
         
+log
+.
+debug
+(
+f
+"
+Running
+-
+-
+fix
+:
+{
+fix_args
+}
+"
+)
+        
 output
 =
 run_process
