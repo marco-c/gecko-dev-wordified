@@ -64,7 +64,11 @@ typing
 import
 Union
 from
+mozversioncontrol
 .
+repo
+.
+base
 import
 get_tool_path
 #
