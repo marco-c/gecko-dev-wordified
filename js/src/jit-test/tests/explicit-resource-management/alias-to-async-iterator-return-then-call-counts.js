@@ -20,6 +20,16 @@ resource
 management
 "
 )
+;
+-
+-
+enable
+-
+explicit
+-
+resource
+-
+management
 let
 thenGetterCalls
 =
