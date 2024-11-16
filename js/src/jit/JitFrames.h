@@ -2513,7 +2513,7 @@ this
 public
 :
 static
-inline
+constexpr
 size_t
 Size
 (
@@ -2527,7 +2527,7 @@ ExitFrameLayout
 ;
 }
 static
-inline
+constexpr
 size_t
 SizeWithFooter
 (
