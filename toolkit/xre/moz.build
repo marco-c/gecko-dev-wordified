@@ -891,6 +891,11 @@ nsUpdateDriver
 cpp
 "
 "
+nsUpdateMutex
+.
+cpp
+"
+"
 nsUpdateSyncManager
 .
 cpp
