@@ -569,3 +569,13 @@ a0
 a0
 ret
 endfunc
+function
+get_vlenb
+export
+=
+1
+csrr
+a0
+vlenb
+ret
+endfunc
