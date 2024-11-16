@@ -5805,13 +5805,6 @@ init
 }
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_SELECTABLE_PROFILES
-)
-{
 scheduleIdleTask
 (
 async
@@ -5830,7 +5823,6 @@ init
 }
 )
 ;
-}
 /
 /
 This
