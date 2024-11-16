@@ -5610,8 +5610,10 @@ x
 1
 ;
 }
-static
 bool
+js
+:
+:
 math_sign
 (
 JSContext

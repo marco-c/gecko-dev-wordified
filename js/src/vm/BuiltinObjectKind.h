@@ -187,6 +187,7 @@ constructors
 Array
 ArrayBuffer
 Int32Array
+ListFormat
 Map
 Promise
 RegExp
