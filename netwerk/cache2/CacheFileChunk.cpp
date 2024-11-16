@@ -520,7 +520,10 @@ kChunkSize
 ;
 aBufSize
 =
-clamped
+std
+:
+:
+clamp
 (
 aBufSize
 minBufSize

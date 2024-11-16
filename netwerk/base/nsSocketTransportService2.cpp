@@ -9589,7 +9589,10 @@ rv
 {
 mKeepaliveIdleTimeS
 =
-clamped
+std
+:
+:
+clamp
 (
 keepaliveIdleTimeS
 1
@@ -9622,7 +9625,10 @@ rv
 {
 mKeepaliveRetryIntervalS
 =
-clamped
+std
+:
+:
+clamp
 (
 keepaliveRetryIntervalS
 1
@@ -9655,7 +9661,10 @@ rv
 {
 mKeepaliveProbeCount
 =
-clamped
+std
+:
+:
+clamp
 (
 keepaliveProbeCount
 1

@@ -449,13 +449,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsQueryObject
 .
 h
@@ -49230,7 +49223,10 @@ value
 int16_t
 newValue
 =
-clamped
+std
+:
+:
+clamp
 <
 int32_t
 >
@@ -71737,7 +71733,10 @@ mRaceDelay
 }
 mRaceDelay
 =
-clamped
+std
+:
+:
+clamp
 <
 uint32_t
 >

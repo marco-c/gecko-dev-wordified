@@ -2100,10 +2100,10 @@ hour
 .
 poolTimeoutMs
 =
-mozilla
+std
 :
 :
-clamped
+clamp
 <
 uint32_t
 >
