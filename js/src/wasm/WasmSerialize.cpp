@@ -8199,7 +8199,7 @@ wasm
 :
 :
 CodeMetadata
-1120
+1128
 )
 ;
 /
