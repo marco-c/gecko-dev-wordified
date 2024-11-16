@@ -1463,6 +1463,9 @@ actor
 resource
 .
 enabled
+resource
+.
+traceValues
 )
 ;
 }
@@ -1507,7 +1510,6 @@ order
 to
 clear
 data
-await
 actions
 .
 clearTracerData
