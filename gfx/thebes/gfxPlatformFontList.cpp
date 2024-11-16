@@ -3302,6 +3302,12 @@ device
 return
 ;
 }
+fontList
+.
+Sort
+(
+)
+;
 aMissingFonts
 .
 Append
