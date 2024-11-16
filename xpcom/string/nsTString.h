@@ -467,6 +467,7 @@ public
 constructors
 *
 /
+constexpr
 nsTString
 (
 )
