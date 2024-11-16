@@ -3713,11 +3713,11 @@ heap
 limit
 must
 be
-greater
-than
+at
+least
 1
 .
-3
+7
 to
 maintain
 performance
@@ -3742,7 +3742,7 @@ ConvertTimes100
 CheckIncrementalLimit
 1
 .
-50
+70
 )
 \
 _
