@@ -102,8 +102,6 @@ family
 "
 :
 "
-Helvetica
-Arial
 sans
 -
 serif
@@ -1364,14 +1362,9 @@ font
 -
 family
 "
-'
 "
-Courier
-New
-"
-Courier
 monospace
-'
+"
 )
 ;
 await
