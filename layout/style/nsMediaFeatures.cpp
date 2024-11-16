@@ -1431,6 +1431,13 @@ DeviceContext
 GetFullZoom
 (
 )
+*
+nsRFPService
+:
+:
+GetDefaultPixelDensity
+(
+)
 ;
 }
 /
