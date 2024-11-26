@@ -821,13 +821,6 @@ timings
 are
 enabled
 .
-if
-(
-LoadTimingEnabled
-(
-)
-)
-{
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
@@ -838,7 +831,6 @@ IsNull
 )
 )
 ;
-}
 StoreIsPending
 (
 true

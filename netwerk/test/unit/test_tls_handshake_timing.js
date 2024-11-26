@@ -540,12 +540,6 @@ Ci
 nsITimedChannel
 )
 ;
-timedChannel
-.
-timingEnabled
-=
-true
-;
 await
 channelOpenPromise
 (

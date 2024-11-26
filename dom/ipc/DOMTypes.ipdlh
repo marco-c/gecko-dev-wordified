@@ -1338,9 +1338,6 @@ IsMetaRefresh
 struct
 TimedChannelInfo
 {
-bool
-timingEnabled
-;
 int8_t
 redirectCount
 ;

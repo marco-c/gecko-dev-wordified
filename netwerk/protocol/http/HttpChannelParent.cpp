@@ -3924,14 +3924,6 @@ this
 )
 ;
 }
-httpChannel
--
->
-SetTimingEnabled
-(
-true
-)
-;
 if
 (
 mPBOverride

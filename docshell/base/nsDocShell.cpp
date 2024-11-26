@@ -64529,14 +64529,6 @@ channel
 )
 )
 {
-timedChannel
--
->
-SetTimingEnabled
-(
-true
-)
-;
 nsString
 initiatorType
 ;
