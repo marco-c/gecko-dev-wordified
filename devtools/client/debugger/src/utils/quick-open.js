@@ -412,7 +412,6 @@ icon
 getSourceClassnames
 (
 source
-null
 isBlackBoxed
 )
 }

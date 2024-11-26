@@ -2548,7 +2548,7 @@ module
 js
 "
 "
-react
+javascript
 "
 )
 ;
