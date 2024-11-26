@@ -2695,12 +2695,16 @@ LitVal
 literal
 )
 {
+ValTypeVector
+locals
+;
 ValidatingOpIter
 iter
 (
 *
 codeMeta
 d
+locals
 ValidatingOpIter
 :
 :

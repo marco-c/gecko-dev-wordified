@@ -8726,7 +8726,7 @@ FunctionCall
 call
 const
 FuncType
-*
+&
 funcType
 )
 ;
@@ -14515,7 +14515,7 @@ nodiscard
 ]
 ]
 bool
-emitWake
+emitNotify
 (
 )
 ;
@@ -14525,7 +14525,7 @@ nodiscard
 ]
 ]
 bool
-atomicWake
+atomicNotify
 (
 MemoryAccessDesc
 *

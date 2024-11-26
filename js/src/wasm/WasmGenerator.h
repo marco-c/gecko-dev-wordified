@@ -1303,7 +1303,7 @@ of
 finish
 (
 )
-FuncDefRangeVector
+BytecodeRangeVector
 funcDefRanges_
 ;
 FeatureUsageVector
