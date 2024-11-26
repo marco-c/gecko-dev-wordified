@@ -2243,13 +2243,6 @@ terminated
 200
 )
 ;
-await
-SpecialPowers
-.
-popPrefEnv
-(
-)
-;
 }
 }
 ;
