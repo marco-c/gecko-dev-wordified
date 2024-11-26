@@ -1297,6 +1297,8 @@ ShadowingDOMProxyHandler
 public
 DOMProxyHandler
 {
+public
+:
 virtual
 void
 trace
