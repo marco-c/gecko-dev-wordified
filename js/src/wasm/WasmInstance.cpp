@@ -15847,7 +15847,7 @@ MOZ_ASSERT
 cx
 -
 >
-isThrowingOutOfMemory
+isExceptionPending
 (
 )
 )
