@@ -1446,11 +1446,6 @@ nsIDeviceContextSpec
 cpp
 "
 "
-nsIWidgetListener
-.
-cpp
-"
-"
 nsPrimitiveHelpers
 .
 cpp
