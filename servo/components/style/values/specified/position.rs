@@ -10086,7 +10086,7 @@ i
 LengthPercentage
 :
 :
-parse_quirky_anchor
+parse_quirky_with_anchor_functions
 (
 context
 i
