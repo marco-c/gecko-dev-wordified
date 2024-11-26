@@ -75,7 +75,7 @@ FOG_DAU_REPORTING
 FOGDocTypePingFilter
 (
 "
-dau
+usage
 -
 reporting
 "
@@ -106,7 +106,7 @@ FOGTestCase
 Tests
 for
 FOG
-dau
+usage
 -
 reporting
 ping
@@ -134,7 +134,7 @@ self
 Test
 the
 "
-dau
+usage
 -
 reporting
 "
@@ -177,7 +177,7 @@ fog_ping_server
         
 self
 .
-assertIn
+assertNotIn
 (
 "
 ping_info
@@ -192,35 +192,15 @@ payload
         
 self
 .
-assertIn
-(
-"
-client_info
-"
-ping1
-[
-"
-payload
-"
-]
-)
-        
-self
-.
 assertNotIn
 (
 "
-client_id
+client_info
 "
 ping1
 [
 "
 payload
-"
-]
-[
-"
-client_info
 "
 ]
 )
