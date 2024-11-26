@@ -5314,7 +5314,7 @@ flows
 mozilla
 :
 :
-UsedClear
+StyleClear
 FindTrailingClear
 (
 )

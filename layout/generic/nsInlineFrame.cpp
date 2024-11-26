@@ -5227,7 +5227,7 @@ be
 propagated
 upward
 .
-UsedClear
+StyleClear
 oldClearType
 =
 aStatus

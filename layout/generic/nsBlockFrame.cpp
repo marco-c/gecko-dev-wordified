@@ -6457,7 +6457,7 @@ line
 >
 mFirstChild
 ;
-UsedClear
+StyleClear
 clearType
 ;
 if
@@ -6476,7 +6476,7 @@ kid
 {
 clearType
 =
-UsedClear
+StyleClear
 :
 :
 Both
@@ -6494,12 +6494,7 @@ StyleDisplay
 )
 -
 >
-UsedClear
-(
-GetWritingMode
-(
-)
-)
+mClear
 ;
 }
 data
@@ -16305,7 +16300,7 @@ aState
 ClearFloats
 (
 blockEndEdgeOfChildren
-UsedClear
+StyleClear
 :
 :
 Both
@@ -21546,7 +21541,7 @@ impacted
 line
 -
 >
-UsedClearToString
+StyleClearToString
 (
 line
 -
@@ -21558,7 +21553,7 @@ FloatClearTypeBefore
 line
 -
 >
-UsedClearToString
+StyleClearToString
 (
 line
 -
@@ -22161,13 +22156,6 @@ aState
 .
 GetFloatAvailableSpaceForBSize
 (
-aState
-.
-mReflowInput
-.
-GetWritingMode
-(
-)
 aLine
 -
 >
@@ -22791,7 +22779,7 @@ aState
 mTrailingClearFromPIF
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -23104,7 +23092,7 @@ BR
 -
 clearance
 here
-UsedClear
+StyleClear
 inlineFloatClearType
 =
 aState
@@ -23704,7 +23692,7 @@ if
 inlineFloatClearType
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -23920,7 +23908,7 @@ if
 inlineFloatClearType
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -24002,7 +23990,7 @@ MarkDirty
 }
 inlineFloatClearType
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -27145,7 +27133,7 @@ if
 inlineFloatClearType
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -29818,7 +29806,6 @@ aState
 .
 GetFloatAvailableSpaceForBSize
 (
-wm
 aLine
 -
 >
@@ -32197,22 +32184,7 @@ aState
 mReflowInput
 )
 ;
-WritingMode
-cbWM
-=
-frame
--
->
-GetContainingBlock
-(
-)
--
->
-GetWritingMode
-(
-)
-;
-UsedClear
+StyleClear
 clearType
 =
 frame
@@ -32223,10 +32195,7 @@ StyleDisplay
 )
 -
 >
-UsedClear
-(
-cbWM
-)
+mClear
 ;
 if
 (
@@ -32235,7 +32204,7 @@ aState
 mTrailingClearFromPIF
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -32258,7 +32227,7 @@ aState
 .
 mTrailingClearFromPIF
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -32291,7 +32260,7 @@ if
 clearType
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -32452,7 +32421,7 @@ mightClearFloats
 clearType
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -33652,7 +33621,6 @@ aState
 .
 GetFloatAvailableSpace
 (
-cbWM
 )
 ;
 WritingMode
@@ -34910,7 +34878,6 @@ aState
 .
 GetFloatAvailableSpaceForBSize
 (
-cbWM
 aState
 .
 mBCoord
@@ -35220,7 +35187,7 @@ aState
 ClearFloats
 (
 newBCoord
-UsedClear
+StyleClear
 :
 :
 None
@@ -35248,7 +35215,6 @@ aState
 .
 GetFloatAvailableSpaceWithState
 (
-cbWM
 aState
 .
 mBCoord
@@ -37422,9 +37388,6 @@ aState
 .
 GetFloatAvailableSpace
 (
-GetWritingMode
-(
-)
 )
 ;
 LineReflowStatus
@@ -39559,9 +39522,6 @@ aState
 .
 GetFloatAvailableSpace
 (
-GetWritingMode
-(
-)
 )
 ;
 }
@@ -40073,7 +40033,7 @@ to
 something
 other
 than
-UsedClear
+StyleClear
 :
 :
 None
@@ -40439,7 +40399,7 @@ aState
 mTrailingClearFromPIF
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -40713,7 +40673,7 @@ aState
 mTrailingClearFromPIF
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -40794,7 +40754,7 @@ split
 float
 )
 .
-UsedClear
+StyleClear
 clearType
 =
 frameReflowStatus
@@ -40810,7 +40770,7 @@ aState
 mTrailingClearFromPIF
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -40833,7 +40793,7 @@ aState
 .
 mTrailingClearFromPIF
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -40850,7 +40810,7 @@ if
 clearType
 !
 =
-UsedClear
+StyleClear
 :
 :
 None
@@ -41368,7 +41328,7 @@ NS_FRAME_IS_OVERFLOW_CONTAINER
 )
 ;
 }
-UsedFloat
+StyleFloat
 floatStyle
 =
 aFloat
@@ -41379,23 +41339,14 @@ StyleDisplay
 )
 -
 >
-UsedFloat
-(
-aState
-.
-mReflowInput
-.
-GetWritingMode
-(
-)
-)
+mFloat
 ;
 if
 (
 floatStyle
 =
 =
-UsedFloat
+StyleFloat
 :
 :
 Left
@@ -41420,7 +41371,7 @@ MOZ_ASSERT
 floatStyle
 =
 =
-UsedFloat
+StyleFloat
 :
 :
 Right
@@ -42791,7 +42742,6 @@ aState
 .
 GetFloatAvailableSpace
 (
-wm
 aLine
 -
 >
@@ -42806,7 +42756,6 @@ aState
 .
 GetFloatAvailableSpaceForBSize
 (
-wm
 aLine
 -
 >
@@ -42871,7 +42820,6 @@ aState
 .
 GetFloatAvailableSpaceForBSize
 (
-wm
 aLine
 -
 >
@@ -43033,7 +42981,6 @@ aState
 .
 GetFloatAvailableSpaceForBSize
 (
-wm
 aLine
 -
 >
@@ -57167,7 +57114,7 @@ aFloatRI
 )
 ;
 }
-UsedClear
+StyleClear
 nsBlockFrame
 :
 :
@@ -57236,7 +57183,7 @@ FloatClearTypeAfter
 }
 }
 return
-UsedClear
+StyleClear
 :
 :
 None
@@ -58270,7 +58217,7 @@ aState
 ClearFloats
 (
 0
-UsedClear
+StyleClear
 :
 :
 Both
@@ -63431,11 +63378,6 @@ aState
 .
 GetFloatAvailableSpaceWithState
 (
-ri
-.
-GetWritingMode
-(
-)
 aLineTop
 ShapeType
 :

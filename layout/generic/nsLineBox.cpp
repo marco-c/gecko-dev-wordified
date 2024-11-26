@@ -1423,9 +1423,9 @@ char
 nsLineBox
 :
 :
-UsedClearToString
+StyleClearToString
 (
-UsedClear
+StyleClear
 aClearType
 )
 {
@@ -1435,7 +1435,7 @@ aClearType
 )
 {
 case
-UsedClear
+StyleClear
 :
 :
 None
@@ -1446,7 +1446,7 @@ none
 "
 ;
 case
-UsedClear
+StyleClear
 :
 :
 Left
@@ -1457,7 +1457,7 @@ left
 "
 ;
 case
-UsedClear
+StyleClear
 :
 :
 Right
@@ -1468,7 +1468,7 @@ right
 "
 ;
 case
-UsedClear
+StyleClear
 :
 :
 Both
@@ -1682,13 +1682,13 @@ no
 -
 break
 "
-UsedClearToString
+StyleClearToString
 (
 FloatClearTypeBefore
 (
 )
 )
-UsedClearToString
+StyleClearToString
 (
 FloatClearTypeAfter
 (

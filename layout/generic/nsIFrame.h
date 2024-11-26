@@ -1807,7 +1807,7 @@ mFloatClearType
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 None
@@ -1854,7 +1854,7 @@ mFloatClearType
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 None
@@ -2536,7 +2536,7 @@ After
 mozilla
 :
 :
-UsedClear
+StyleClear
 FloatClearType
 (
 )
@@ -2687,7 +2687,7 @@ mFloatClearType
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 None
@@ -2732,13 +2732,13 @@ SetInlineLineBreakAfter
 mozilla
 :
 :
-UsedClear
+StyleClear
 aClearType
 =
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 None
@@ -2801,7 +2801,7 @@ private
 mozilla
 :
 :
-UsedClear
+StyleClear
 mFloatClearType
 ;
 InlineBreak
@@ -20382,13 +20382,13 @@ ForceBreak
 mozilla
 :
 :
-UsedClear
+StyleClear
 aClearType
 =
 mozilla
 :
 :
-UsedClear
+StyleClear
 :
 :
 Both
