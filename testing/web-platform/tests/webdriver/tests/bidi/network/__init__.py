@@ -414,6 +414,12 @@ cookies
 any_list
             
 "
+destination
+"
+:
+any_string
+            
+"
 headers
 "
 :
@@ -424,6 +430,12 @@ headersSize
 "
 :
 any_int
+            
+"
+initiatorType
+"
+:
+any_string_or_null
             
 "
 method
@@ -951,6 +963,14 @@ None
 Assert
 initiator
     
+if
+"
+initiator
+"
+in
+event
+:
+        
 assert
 isinstance
 (
@@ -961,23 +981,6 @@ initiator
 "
 ]
 dict
-)
-    
-assert
-isinstance
-(
-event
-[
-"
-initiator
-"
-]
-[
-"
-type
-"
-]
-str
 )
     
 #
