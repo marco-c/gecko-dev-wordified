@@ -265,12 +265,6 @@ string
 algorithm
 /
 /
-specialized
-for
-TrustedHTML
-.
-/
-/
 /
 /
 May
@@ -281,7 +275,9 @@ if
 aInput
 is
 not
-TrustedHTML
+a
+trusted
+type
 and
 if
 the
