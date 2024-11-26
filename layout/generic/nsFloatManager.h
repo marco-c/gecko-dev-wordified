@@ -2456,7 +2456,7 @@ aBCoord
 mozilla
 :
 :
-StyleClear
+UsedClear
 aClearType
 )
 const
@@ -2503,7 +2503,7 @@ ClearContinues
 mozilla
 :
 :
-StyleClear
+UsedClear
 aClearType
 )
 const

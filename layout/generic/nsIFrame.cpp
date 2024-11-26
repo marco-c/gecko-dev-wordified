@@ -43760,7 +43760,7 @@ InlinePrefISizeData
 :
 ForceBreak
 (
-StyleClear
+UsedClear
 aClearType
 )
 {
@@ -43802,7 +43802,7 @@ IsEmpty
 aClearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 None
@@ -43897,7 +43897,7 @@ GetWritingMode
 (
 )
 ;
-StyleClear
+UsedClear
 clearType
 =
 floatDisp
@@ -43913,7 +43913,7 @@ if
 clearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Left
@@ -43922,7 +43922,7 @@ Left
 clearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Right
@@ -43931,7 +43931,7 @@ Right
 clearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Both
@@ -43963,7 +43963,7 @@ if
 clearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 Right
@@ -43979,7 +43979,7 @@ if
 clearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 Left
@@ -43991,7 +43991,7 @@ floatsCurRight
 ;
 }
 }
-StyleFloat
+UsedFloat
 floatStyle
 =
 floatDisp
@@ -44009,7 +44009,7 @@ floatsCur
 floatStyle
 =
 =
-StyleFloat
+UsedFloat
 :
 :
 Left
@@ -44104,7 +44104,7 @@ if
 aClearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Both
@@ -44200,7 +44200,7 @@ MOZ_ASSERT
 aClearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Left
@@ -44209,7 +44209,7 @@ Left
 aClearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Right
@@ -44226,23 +44226,23 @@ branches
 "
 )
 ;
-StyleFloat
+UsedFloat
 clearFloatType
 =
 aClearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Left
 ?
-StyleFloat
+UsedFloat
 :
 :
 Left
 :
-StyleFloat
+UsedFloat
 :
 :
 Right
@@ -44449,7 +44449,7 @@ kept
 in
 mFloats
 .
-StyleClear
+UsedClear
 clearType
 =
 floatDisp
@@ -44471,7 +44471,7 @@ aClearType
 clearType
 !
 =
-StyleClear
+UsedClear
 :
 :
 None

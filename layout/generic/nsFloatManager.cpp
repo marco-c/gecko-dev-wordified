@@ -1480,7 +1480,7 @@ width
 if
 needed
 .
-StyleFloat
+UsedFloat
 floatStyle
 =
 fi
@@ -1545,7 +1545,7 @@ if
 floatStyle
 =
 =
-StyleFloat
+UsedFloat
 :
 :
 Left
@@ -2100,7 +2100,7 @@ GetWritingMode
 (
 )
 ;
-StyleFloat
+UsedFloat
 floatStyle
 =
 aFloatFrame
@@ -2121,7 +2121,7 @@ MOZ_ASSERT
 floatStyle
 =
 =
-StyleFloat
+UsedFloat
 :
 :
 Left
@@ -2130,7 +2130,7 @@ Left
 floatStyle
 =
 =
-StyleFloat
+UsedFloat
 :
 :
 Right
@@ -2149,7 +2149,7 @@ sideBEnd
 floatStyle
 =
 =
-StyleFloat
+UsedFloat
 :
 :
 Left
@@ -2361,7 +2361,7 @@ GetWritingMode
 (
 )
 ;
-StyleFloat
+UsedFloat
 floatStyle
 =
 display
@@ -2375,7 +2375,7 @@ cbWM
 if
 (
 (
-StyleFloat
+UsedFloat
 :
 :
 Left
@@ -3463,7 +3463,7 @@ ClearFloats
 (
 nscoord
 aBCoord
-StyleClear
+UsedClear
 aClearType
 )
 const
@@ -3509,7 +3509,7 @@ aClearType
 )
 {
 case
-StyleClear
+UsedClear
 :
 :
 Both
@@ -3543,7 +3543,7 @@ mRightBEnd
 break
 ;
 case
-StyleClear
+UsedClear
 :
 :
 Left
@@ -3564,7 +3564,7 @@ mLeftBEnd
 break
 ;
 case
-StyleClear
+UsedClear
 :
 :
 Right
@@ -3584,7 +3584,11 @@ mRightBEnd
 ;
 break
 ;
-default
+case
+UsedClear
+:
+:
+None
 :
 /
 /
@@ -3608,7 +3612,7 @@ nsFloatManager
 :
 ClearContinues
 (
-StyleClear
+UsedClear
 aClearType
 )
 const
@@ -3627,7 +3631,7 @@ mSplitLeftFloatAcrossBreak
 aClearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Both
@@ -3636,7 +3640,7 @@ Both
 aClearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Left
@@ -3657,7 +3661,7 @@ mSplitRightFloatAcrossBreak
 aClearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Both
@@ -3666,7 +3670,7 @@ Both
 aClearType
 =
 =
-StyleClear
+UsedClear
 :
 :
 Right
