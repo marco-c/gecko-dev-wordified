@@ -9541,6 +9541,14 @@ compileArgs_
 features
 .
 testSerialization
+&
+&
+module
+-
+>
+canSerialize
+(
+)
 )
 {
 MOZ_RELEASE_ASSERT

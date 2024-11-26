@@ -10940,6 +10940,16 @@ CompileMode
 LazyTiering
 &
 &
+!
+codeMeta
+(
+)
+.
+isBuiltinModule
+(
+)
+&
+&
 codeMeta
 (
 )
