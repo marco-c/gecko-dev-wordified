@@ -1181,7 +1181,7 @@ rel
 AppendIter
 (
 new
-AssociatedElementsIterator
+IDRefsIterator
 (
 mDoc
 mContent
