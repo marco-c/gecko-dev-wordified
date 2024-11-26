@@ -15849,9 +15849,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 It
@@ -15937,6 +15934,9 @@ return
 true
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 key

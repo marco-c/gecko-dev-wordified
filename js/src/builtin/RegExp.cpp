@@ -6785,9 +6785,6 @@ RegExpSplit
 JS_FS_END
 }
 ;
-#
-ifdef
-NIGHTLY_BUILD
 static
 constexpr
 JS
@@ -8786,8 +8783,6 @@ true
 ;
 }
 #
-endif
-#
 define
 STATIC_PAREN_GETTER_CODE
 (
@@ -9491,9 +9486,6 @@ regexp_static_methods
 ]
 =
 {
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -9503,8 +9495,6 @@ regexp_escape
 1
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
