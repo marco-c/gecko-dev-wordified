@@ -2963,12 +2963,12 @@ connected
 to
 it
 .
-XRE_GetIOMessageLoop
+XRE_GetAsyncIOEventTarget
 (
 )
 -
 >
-PostTask
+Dispatch
 (
 NewRunnableMethod
 <
