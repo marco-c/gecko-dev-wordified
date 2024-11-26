@@ -3804,6 +3804,16 @@ str
 (
 path
 )
+or
+"
+objdir
+-
+"
+in
+str
+(
+path
+)
 :
                 
 continue
