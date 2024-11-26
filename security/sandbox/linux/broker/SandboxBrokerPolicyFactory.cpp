@@ -2299,7 +2299,7 @@ ldConfigCache
 aPolicy
 -
 >
-AddDir
+AddTree
 (
 e
 .
@@ -2465,7 +2465,7 @@ resolvedPath
 aPolicy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 resolvedPath
@@ -3068,7 +3068,7 @@ Devices
 policy
 -
 >
-AddDir
+AddTree
 (
 rdwr
 "
@@ -3124,7 +3124,7 @@ drirc
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3136,7 +3136,7 @@ etc
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3150,7 +3150,7 @@ share
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3241,7 +3241,7 @@ share
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 snapDesktopShare
@@ -3318,7 +3318,7 @@ gpu
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 snapRootString
@@ -3587,7 +3587,7 @@ meminfo
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3603,7 +3603,7 @@ cpu
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3621,7 +3621,7 @@ cpu
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3633,7 +3633,7 @@ lib
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3645,7 +3645,7 @@ lib64
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3659,7 +3659,7 @@ lib
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3673,7 +3673,7 @@ lib32
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3687,7 +3687,7 @@ lib64
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3699,7 +3699,7 @@ etc
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3713,7 +3713,7 @@ share
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3736,7 +3736,7 @@ reside
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3756,7 +3756,7 @@ fonts
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3801,7 +3801,7 @@ conf
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3817,7 +3817,7 @@ fonts
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3835,7 +3835,7 @@ fonts
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -3853,7 +3853,7 @@ fonts
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -4456,7 +4456,7 @@ rv
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 tmpPath
@@ -4808,7 +4808,7 @@ rv
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 tmpPath
@@ -5106,7 +5106,7 @@ rv
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 tmpPath
@@ -5194,7 +5194,7 @@ developer_repo_dir
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 developer_repo_dir
@@ -5418,7 +5418,7 @@ AddFutureDir
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 snap
@@ -5601,7 +5601,7 @@ rv
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 tmpPath
@@ -5737,7 +5737,7 @@ else
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 tmpPath
@@ -5812,7 +5812,7 @@ support
 policy
 -
 >
-AddDir
+AddTree
 (
 rdwr
 "
@@ -5832,7 +5832,7 @@ allowPulse
 policy
 -
 >
-AddDir
+AddTree
 (
 rdwrcr
 "
@@ -6110,7 +6110,7 @@ HasAtiDrivers
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -6327,7 +6327,7 @@ aFileProcess
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7161,7 +7161,7 @@ size
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7177,7 +7177,7 @@ cpu
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7195,7 +7195,7 @@ cpu
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7213,7 +7213,7 @@ node
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7225,7 +7225,7 @@ lib
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7237,7 +7237,7 @@ lib64
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7251,7 +7251,7 @@ lib
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7265,7 +7265,7 @@ lib32
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7279,7 +7279,7 @@ lib64
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7297,7 +7297,7 @@ lib
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7434,7 +7434,7 @@ rv
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 tmpPath
@@ -7522,7 +7522,7 @@ developer_repo_dir
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 developer_repo_dir
@@ -7663,7 +7663,7 @@ __aarch64__
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7681,7 +7681,7 @@ present
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7928,7 +7928,7 @@ meminfo
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7944,7 +7944,7 @@ cpu
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7962,7 +7962,7 @@ cpu
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7974,7 +7974,7 @@ lib
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -7986,7 +7986,7 @@ lib64
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8000,7 +8000,7 @@ lib
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8014,7 +8014,7 @@ lib32
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8028,7 +8028,7 @@ lib64
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8042,7 +8042,7 @@ share
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8058,7 +8058,7 @@ share
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8136,7 +8136,7 @@ ENONAME
 policy
 -
 >
-AddDir
+AddPath
 (
 access
 "
@@ -8310,7 +8310,7 @@ rv
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 tmpPath
@@ -8445,7 +8445,7 @@ get
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8461,7 +8461,7 @@ cpu
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8479,7 +8479,7 @@ cpu
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8491,7 +8491,7 @@ lib
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8503,7 +8503,7 @@ lib64
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8517,7 +8517,7 @@ lib
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8531,7 +8531,7 @@ lib32
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8545,7 +8545,7 @@ lib64
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8559,7 +8559,7 @@ share
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8575,7 +8575,7 @@ share
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8606,7 +8606,7 @@ RDD
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 "
@@ -8686,7 +8686,7 @@ ENONAME
 policy
 -
 >
-AddDir
+AddPath
 (
 access
 "
@@ -8869,7 +8869,7 @@ rv
 policy
 -
 >
-AddDir
+AddTree
 (
 rdonly
 tmpPath
