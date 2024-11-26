@@ -54553,7 +54553,7 @@ GetContentEnd
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 (
 mIsSelected
