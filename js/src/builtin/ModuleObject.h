@@ -2985,12 +2985,12 @@ ModuleObject
 *
 >
 self
-Handle
-<
-GCVector
+JS
+:
+:
+HandleVector
 <
 Value
->
 >
 values
 )

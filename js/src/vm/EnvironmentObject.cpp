@@ -3545,6 +3545,16 @@ module
 )
 )
 ;
+if
+(
+!
+shape
+)
+{
+return
+nullptr
+;
+}
 MOZ_ASSERT
 (
 shape
