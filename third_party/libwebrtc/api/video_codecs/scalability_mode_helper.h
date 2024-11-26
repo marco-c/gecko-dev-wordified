@@ -118,6 +118,17 @@ scalability_mode
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -143,6 +154,7 @@ mode
 is
 unknown
 .
+RTC_EXPORT
 std
 :
 :
@@ -181,6 +193,7 @@ mode
 is
 unknown
 .
+RTC_EXPORT
 std
 :
 :
@@ -219,6 +232,7 @@ mode
 is
 unknown
 .
+RTC_EXPORT
 std
 :
 :
