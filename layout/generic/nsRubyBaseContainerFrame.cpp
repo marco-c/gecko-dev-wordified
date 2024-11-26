@@ -2711,6 +2711,10 @@ ComputedISize
 NS_UNCONSTRAINEDSIZE
 false
 false
+CollapseEmptyInlineFramesInLine
+:
+:
+Collapse
 reflowWM
 nsSize
 (
