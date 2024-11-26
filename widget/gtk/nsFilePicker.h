@@ -144,6 +144,7 @@ nsIFile
 ;
 class
 nsFilePicker
+final
 :
 public
 nsBaseFilePicker
@@ -404,9 +405,13 @@ mFiles
 ;
 int16_t
 mSelectedType
+=
+0
 ;
 bool
 mAllowURLs
+=
+false
 ;
 nsCString
 mFileURL
@@ -490,6 +495,8 @@ modal
 GtkFileChooserWidget
 *
 mFileChooserDelegate
+=
+nullptr
 ;
 bool
 mUseNativeFileChooser
