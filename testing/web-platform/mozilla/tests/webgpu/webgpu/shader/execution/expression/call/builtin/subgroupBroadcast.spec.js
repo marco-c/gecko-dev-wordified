@@ -1635,6 +1635,12 @@ wgsl
 enable
 subgroups
 ;
+diagnostic
+(
+off
+subgroup_branching
+)
+;
 var
 <
 workgroup

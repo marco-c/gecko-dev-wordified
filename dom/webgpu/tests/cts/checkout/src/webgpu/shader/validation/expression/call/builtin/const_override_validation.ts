@@ -866,7 +866,6 @@ elementTypeOf
 (
 type
 )
-!
 )
 )
 {
@@ -1028,7 +1027,6 @@ arg
 .
 type
 )
-!
 )
 ;
 const
@@ -1510,7 +1508,6 @@ arg
 .
 type
 )
-!
 )
 ;
 const

@@ -164,10 +164,10 @@ TestCopyTextureToTexture
 (
 source
 :
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 destination
 :
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 copySize
 :
 GPUExtent3D
@@ -4589,7 +4589,7 @@ member
 aspect
 '
 of
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 in
 CopyTextureToTexture
 (

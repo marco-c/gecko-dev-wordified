@@ -4633,7 +4633,7 @@ member
 aspect
 '
 of
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 in
 CopyTextureToTexture
 (

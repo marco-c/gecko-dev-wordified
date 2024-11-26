@@ -1676,7 +1676,7 @@ DataBytesForCopyArgs
 {
 layout
 :
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 ;
 format
 :

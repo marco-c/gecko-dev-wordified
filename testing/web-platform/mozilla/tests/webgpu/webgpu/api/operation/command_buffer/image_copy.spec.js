@@ -1222,7 +1222,7 @@ passing
 undefined
 members
 of
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 instead
 of
 actual
@@ -1337,7 +1337,7 @@ passing
 undefined
 members
 of
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 instead
 of
 actual

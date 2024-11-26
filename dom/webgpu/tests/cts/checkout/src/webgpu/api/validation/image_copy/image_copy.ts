@@ -92,10 +92,10 @@ testRun
 (
 textureCopyView
 :
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 textureDataLayout
 :
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 size
 :
 GPUExtent3D
@@ -691,7 +691,7 @@ texture
 GPUTexture
 textureDataLayout
 :
-GPUImageDataLayout
+GPUTexelCopyBufferLayout
 size
 :
 GPUExtent3D
