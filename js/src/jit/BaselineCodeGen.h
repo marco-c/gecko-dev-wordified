@@ -1943,9 +1943,6 @@ CompilerFrameInfo
 ;
 BaselineCompilerHandler
 (
-JSContext
-*
-cx
 MacroAssembler
 &
 masm
@@ -2697,9 +2694,6 @@ InterpreterFrameInfo
 explicit
 BaselineInterpreterHandler
 (
-JSContext
-*
-cx
 MacroAssembler
 &
 masm

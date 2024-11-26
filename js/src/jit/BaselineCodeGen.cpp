@@ -566,9 +566,6 @@ BaselineCompilerHandler
 :
 BaselineCompilerHandler
 (
-JSContext
-*
-cx
 MacroAssembler
 &
 masm
@@ -640,9 +637,6 @@ BaselineInterpreterHandler
 :
 BaselineInterpreterHandler
 (
-JSContext
-*
-cx
 MacroAssembler
 &
 masm
@@ -692,7 +686,6 @@ args
 :
 handler
 (
-cx
 masm
 std
 :
