@@ -237,10 +237,9 @@ APZC
 /
 /
 with
-scroll
-id
+guid
 |
-aScrollId
+aGuid
 |
 and
 the
@@ -253,10 +252,7 @@ void
 QueueHitResult
 (
 ScrollableLayerGuid
-:
-:
-ViewID
-aScrollId
+aGuid
 gfx
 :
 :
