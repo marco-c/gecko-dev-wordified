@@ -359,7 +359,7 @@ h
 /
 /
 for
-XRE_GetIOMessageLoop
+XRE_GetAsyncIOEventTarget
 #
 include
 "
@@ -2570,7 +2570,7 @@ ContentCompositorBridgeParent
 {
 MOZ_ASSERT
 (
-XRE_GetIOMessageLoop
+XRE_GetAsyncIOEventTarget
 (
 )
 )

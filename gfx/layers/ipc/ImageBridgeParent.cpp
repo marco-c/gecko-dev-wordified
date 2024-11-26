@@ -469,7 +469,7 @@ h
 /
 /
 for
-XRE_GetIOMessageLoop
+XRE_GetAsyncIOEventTarget
 #
 include
 "
