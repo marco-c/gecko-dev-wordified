@@ -3492,6 +3492,12 @@ exist
 void
 ClearXrayExpandoSlots
 (
+JS
+:
+:
+RootingContext
+*
+cx
 JSObject
 *
 target
