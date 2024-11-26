@@ -1025,6 +1025,9 @@ slug
 "
 control
 "
+ratio
+:
+1
 features
 :
 [
@@ -1273,6 +1276,9 @@ slug
 "
 control
 "
+ratio
+:
+1
 features
 :
 [
@@ -1628,6 +1634,9 @@ slug
 "
 control
 "
+ratio
+:
+1
 features
 :
 [
@@ -1988,6 +1997,9 @@ slug
 "
 control
 "
+ratio
+:
+1
 features
 :
 [
@@ -2326,6 +2338,9 @@ slug
 "
 control
 "
+ratio
+:
+1
 features
 :
 [
@@ -2394,6 +2409,9 @@ slug
 "
 control
 "
+ratio
+:
+1
 features
 :
 [
@@ -3571,6 +3589,9 @@ slug
 "
 control
 "
+ratio
+:
+1
 features
 :
 [
@@ -3617,6 +3638,9 @@ slug
 "
 control
 "
+ratio
+:
+1
 features
 :
 [

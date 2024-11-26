@@ -492,6 +492,9 @@ slug
 "
 slug
 "
+ratio
+:
+1
 features
 :
 [
@@ -786,6 +789,9 @@ slug
 "
 slug
 "
+ratio
+:
+1
 features
 :
 [

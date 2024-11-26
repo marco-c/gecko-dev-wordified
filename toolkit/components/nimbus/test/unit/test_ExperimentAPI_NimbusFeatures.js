@@ -138,6 +138,9 @@ slug
 "
 slug
 "
+ratio
+:
+1
 features
 :
 [
@@ -186,6 +189,9 @@ slug
 "
 slug
 "
+ratio
+:
+1
 features
 :
 [
@@ -898,6 +904,9 @@ slug
 "
 slug
 "
+ratio
+:
+1
 feature
 :
 {
@@ -962,6 +971,9 @@ slug
 "
 slug
 "
+ratio
+:
+1
 feature
 :
 {
@@ -1558,6 +1570,9 @@ config
 -
 isEarlyStartup
 "
+ratio
+:
+1
 features
 :
 [

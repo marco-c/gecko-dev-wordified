@@ -1049,6 +1049,9 @@ slug
 "
 treatment
 "
+ratio
+:
+1
 features
 :
 [
@@ -1060,7 +1063,8 @@ cfr
 "
 value
 :
-null
+{
+}
 }
 ]
 feature
