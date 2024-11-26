@@ -317,6 +317,13 @@ sys
 mjs
 "
 "
+ExtensionUserScriptsContent
+.
+sys
+.
+mjs
+"
+"
 ExtensionUtils
 .
 sys
