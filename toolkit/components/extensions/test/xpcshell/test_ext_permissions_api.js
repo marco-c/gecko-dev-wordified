@@ -368,6 +368,16 @@ tabs
 trialML
 "
 "
+userScripts
+"
+/
+/
+Covered
+by
+test_ext_userScripts_mv3_availability
+.
+js
+"
 webRequestAuthProvider
 "
 "
