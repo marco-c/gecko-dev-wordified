@@ -1516,6 +1516,7 @@ if
 (
 aNextContinuation
 )
+{
 aNextContinuation
 -
 >
@@ -1524,6 +1525,7 @@ RemoveStateBits
 NS_FRAME_IS_FLUID_CONTINUATION
 )
 ;
+}
 /
 /
 Setting
@@ -4496,9 +4498,11 @@ HasFontSizeInflation
 (
 )
 )
+{
 return
 mTextRun
 ;
+}
 return
 GetUninflatedTextRun
 (

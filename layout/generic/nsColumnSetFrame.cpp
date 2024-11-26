@@ -858,12 +858,14 @@ if
 !
 child
 )
+{
 return
 ;
 /
 /
 no
 columns
+}
 nsIFrame
 *
 nextSibling
@@ -880,6 +882,7 @@ if
 !
 nextSibling
 )
+{
 return
 ;
 /
@@ -895,6 +898,7 @@ gap
 to
 draw
 on
+}
 const
 nsStyleColumn
 *
@@ -919,8 +923,10 @@ if
 !
 ruleWidth
 )
+{
 return
 ;
+}
 WritingMode
 wm
 =

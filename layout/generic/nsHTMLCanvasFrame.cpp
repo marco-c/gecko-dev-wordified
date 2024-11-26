@@ -3182,8 +3182,10 @@ IsVisibleForPainting
 (
 )
 )
+{
 return
 ;
+}
 DisplayBorderBackgroundOutline
 (
 aBuilder

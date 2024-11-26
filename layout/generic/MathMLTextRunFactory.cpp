@@ -4471,8 +4471,10 @@ if
 !
 child
 )
+{
 return
 ;
+}
 typedef
 gfxTextRun
 :

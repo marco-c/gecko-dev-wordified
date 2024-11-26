@@ -3636,6 +3636,7 @@ HasView
 (
 )
 )
+{
 nsContainerFrame
 :
 :
@@ -3644,7 +3645,9 @@ PositionFrameView
 aFrame
 )
 ;
+}
 else
+{
 nsContainerFrame
 :
 :
@@ -3653,6 +3656,7 @@ PositionChildViews
 aFrame
 )
 ;
+}
 }
 /
 *
@@ -8215,6 +8219,7 @@ if
 (
 mTracker
 )
+{
 mTracker
 -
 >
@@ -8223,6 +8228,7 @@ BeginFinish
 mChild
 )
 ;
+}
 }
 ~
 AutoFinish
@@ -8233,6 +8239,7 @@ if
 (
 mTracker
 )
+{
 mTracker
 -
 >
@@ -8241,6 +8248,7 @@ EndFinish
 mChild
 )
 ;
+}
 }
 private
 :

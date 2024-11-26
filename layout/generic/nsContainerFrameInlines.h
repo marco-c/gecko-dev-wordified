@@ -199,6 +199,7 @@ GetPrevInFlow
 (
 )
 )
+{
 return
 ;
 /
@@ -206,6 +207,7 @@ return
 Already
 added
 .
+}
 WritingMode
 wm
 =

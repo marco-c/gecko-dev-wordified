@@ -1110,9 +1110,11 @@ aIndex
 <
 0
 )
+{
 return
 nullptr
 ;
+}
 nsIFrame
 *
 frame
@@ -1191,9 +1193,11 @@ f
 =
 aFrame
 )
+{
 return
 count
 ;
+}
 +
 +
 count
@@ -1541,9 +1545,11 @@ if
 !
 mFirstChild
 )
+{
 return
 nullptr
 ;
+}
 nsIFrame
 *
 parent
@@ -1560,6 +1566,7 @@ if
 !
 parent
 )
+{
 return
 aFrame
 ?
@@ -1574,6 +1581,7 @@ LastChild
 (
 )
 ;
+}
 mozilla
 :
 :
@@ -1813,9 +1821,11 @@ thisLine
 <
 0
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {
@@ -2029,9 +2039,11 @@ if
 !
 mFirstChild
 )
+{
 return
 nullptr
 ;
+}
 nsIFrame
 *
 parent
@@ -2048,6 +2060,7 @@ if
 !
 parent
 )
+{
 return
 aFrame
 ?
@@ -2060,6 +2073,7 @@ GetPrevSibling
 :
 mFirstChild
 ;
+}
 mozilla
 :
 :
@@ -2299,9 +2313,11 @@ thisLine
 <
 0
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {

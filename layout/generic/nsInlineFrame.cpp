@@ -1134,9 +1134,11 @@ IsEmpty
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -1202,10 +1204,12 @@ startOffset
 <
 0
 )
+{
 startOffset
 =
 1
 ;
+}
 if
 (
 aForward
@@ -6421,6 +6425,7 @@ nsGkAtoms
 img
 )
 )
+{
 /
 /
 Create
@@ -6436,6 +6441,7 @@ a11y
 :
 eHyperTextType
 ;
+}
 return
 a11y
 :

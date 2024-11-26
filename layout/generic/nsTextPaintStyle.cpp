@@ -1912,9 +1912,11 @@ mUnderlineRelativeSize
 .
 0f
 )
+{
 return
 false
 ;
+}
 *
 aLineColor
 =

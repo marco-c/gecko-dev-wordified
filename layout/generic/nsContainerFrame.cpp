@@ -4078,8 +4078,10 @@ HasView
 !
 parentFrame
 )
+{
 return
 ;
+}
 nsView
 *
 view
@@ -5398,6 +5400,7 @@ devMaxSize
 .
 width
 )
+{
 devMaxSize
 .
 width
@@ -5406,6 +5409,7 @@ devMinSize
 .
 width
 ;
+}
 if
 (
 devMinSize
@@ -5416,6 +5420,7 @@ devMaxSize
 .
 height
 )
+{
 devMaxSize
 .
 height
@@ -5424,6 +5429,7 @@ devMinSize
 .
 height
 ;
+}
 nsIWidget
 *
 rootWidget
@@ -15716,8 +15722,10 @@ if
 !
 aReparentSiblings
 )
+{
 return
 ;
+}
 nsIFrame
 *
 next
@@ -15734,8 +15742,10 @@ if
 !
 next
 )
+{
 return
 ;
+}
 if
 (
 next
