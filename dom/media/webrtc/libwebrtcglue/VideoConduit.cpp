@@ -1311,6 +1311,15 @@ VideoCodecType
 :
 kVideoCodecH264
 :
+case
+webrtc
+:
+:
+VideoCodecType
+:
+:
+kVideoCodecAV1
+:
 return
 aType
 ;
