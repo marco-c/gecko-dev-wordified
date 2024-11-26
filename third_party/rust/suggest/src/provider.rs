@@ -750,6 +750,10 @@ SuggestRecordType
 :
 :
 Yelp
+SuggestRecordType
+:
+:
+Geonames
 ]
 Self
 :

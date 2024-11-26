@@ -596,9 +596,6 @@ the
 crate
 .
 pub
-(
-crate
-)
 fn
 get_url
 (
