@@ -633,6 +633,12 @@ _
 WASM_LEGACY_EXCEPTIONS
 WasmLegacyExceptions
 )
+\
+_
+(
+ISHTMLDDA_FUSE
+IsHTMLDDAFuse
+)
 /
 *
 *
