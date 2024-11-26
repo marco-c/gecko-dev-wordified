@@ -1672,16 +1672,12 @@ angle
 (
 degrees
 .
-max
+clamp
 (
 -
 89
 .
 0
-)
-.
-min
-(
 89
 .
 0
@@ -2645,7 +2641,7 @@ allow
 clippy
 :
 :
-derive_hash_xor_eq
+derived_hash_with_manual_eq
 )
 ]
 impl
