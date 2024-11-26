@@ -842,7 +842,9 @@ timeout_multiplier
 get_timeout_multiplier
 (
 test_type
+                                                                   
 run_info_data
+                                                                   
 *
 *
 kwargs
@@ -974,25 +976,6 @@ kwargs
 allow_list_paths
 "
 ]
-                      
-"
-gmp_path
-"
-:
-kwargs
-[
-"
-gmp_path
-"
-]
-if
-"
-gmp_path
-"
-in
-kwargs
-else
-None
                       
 "
 debug_test
@@ -2149,7 +2132,6 @@ logger
 binary
 debug_info
 headless
-gmp_path
 chaos_mode_flags
 =
 None
@@ -2314,22 +2296,6 @@ is
 not
 None
 }
-    
-if
-gmp_path
-is
-not
-None
-:
-        
-env
-[
-"
-MOZ_GMP_PATH
-"
-]
-=
-gmp_path
     
 #
 Disable
@@ -2528,7 +2494,6 @@ headless
 leak_check
 stackfix_dir
 symbols_path
-gmp_path
 asan
 e10s
 )
@@ -2614,12 +2579,6 @@ self
 symbols_path
 =
 symbols_path
-        
-self
-.
-gmp_path
-=
-gmp_path
         
 self
 .
@@ -2856,11 +2815,7 @@ self
 headless
 self
 .
-gmp_path
-self
-.
 chaos_mode_flags
-                          
 self
 .
 e10s
@@ -6273,10 +6228,6 @@ False
 allow_list_paths
 =
 None
-                 
-gmp_path
-=
-None
 *
 *
 kwargs
@@ -6430,8 +6381,6 @@ leak_check
 stackfix_dir
                                                      
 symbols_path
-                                                     
-gmp_path
                                                      
 asan
                                                      
@@ -6850,9 +6799,6 @@ ProfileCreator
 allow_list_paths
 =
 None
-gmp_path
-=
-None
 *
 *
 kwargs
@@ -6936,7 +6882,6 @@ get_env
 binary
 debug_info
 headless
-gmp_path
 chaos_mode_flags
 e10s
 )
@@ -6997,7 +6942,6 @@ self
 binary
 debug_info
 headless
-gmp_path
 chaos_mode_flags
 e10s
 )
@@ -7016,8 +6960,6 @@ binary
 debug_info
                           
 headless
-                          
-gmp_path
                           
 chaos_mode_flags
 e10s
