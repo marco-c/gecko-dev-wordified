@@ -263,9 +263,11 @@ if
 !
 aDocShell
 )
+{
 return
 nullptr
 ;
+}
 nsCOMPtr
 <
 nsIDocumentViewer
@@ -317,9 +319,11 @@ if
 !
 viewer
 )
+{
 return
 nullptr
 ;
+}
 return
 viewer
 -
@@ -477,9 +481,11 @@ if
 !
 aWin
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 auto
 *
 window
@@ -1941,9 +1947,11 @@ if
 !
 vm
 )
+{
 return
 NS_OK
 ;
+}
 nsView
 *
 root
