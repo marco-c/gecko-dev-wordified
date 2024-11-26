@@ -491,6 +491,9 @@ uaTransformer
 header
 .
 value
+override
+.
+currentPlatform
 )
 ;
 }
