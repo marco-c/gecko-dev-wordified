@@ -5237,7 +5237,6 @@ false
 }
 DoCommand
 (
-nullptr
 aIndex
 )
 ;
@@ -6018,9 +6017,6 @@ XULTreeItemAccessibleBase
 :
 DispatchClickEvent
 (
-nsIContent
-*
-aContent
 uint32_t
 aActionIndex
 )

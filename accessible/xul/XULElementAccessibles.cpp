@@ -438,9 +438,6 @@ XULLabelAccessible
 :
 DispatchClickEvent
 (
-nsIContent
-*
-aContent
 uint32_t
 aActionIndex
 )
@@ -484,7 +481,7 @@ nsXULElement
 :
 FromNodeOrNull
 (
-aContent
+mContent
 )
 ;
 if
