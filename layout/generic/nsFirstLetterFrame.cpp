@@ -1596,10 +1596,6 @@ wm
 NS_UNCONSTRAINEDSIZE
 false
 true
-CollapseEmptyInlineFramesInLine
-:
-:
-Collapse
 kidWritingMode
 nsSize
 (
