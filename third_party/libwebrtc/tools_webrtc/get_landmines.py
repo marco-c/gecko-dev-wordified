@@ -196,6 +196,16 @@ disable
 invalid
 -
 name
+#
+pylint
+:
+disable
+=
+line
+-
+too
+-
+long
 def
 print_landmines
 (
@@ -209,7 +219,7 @@ disable
 invalid
 -
 name
-  
+    
 "
 "
 "
@@ -225,7 +235,7 @@ HERE
 "
 "
 "
-  
+    
 #
 DO
 NOT
@@ -244,7 +254,7 @@ a
 last
 -
 effort
-  
+    
 #
 bandaid
 fix
@@ -261,7 +271,7 @@ dependency
 bug
 and
 all
-  
+    
 #
 bots
 need
@@ -281,7 +291,7 @@ CL
 that
 causes
 build
-  
+    
 #
 dependency
 problems
@@ -293,11 +303,11 @@ instead
 of
 adding
 a
-  
+    
 #
 landmine
 .
-  
+    
 #
 See
 the
@@ -315,7 +325,7 @@ for
 usage
 examples
 .
-  
+    
 print
 (
 '
@@ -339,7 +349,7 @@ webrtc
 )
 '
 )
-  
+    
 if
 host_os
 (
@@ -350,9 +360,10 @@ host_os
 win
 '
 :
-    
+        
 print
 (
+            
 '
 Clobber
 to
@@ -369,7 +380,7 @@ bots
 .
 '
 )
-    
+        
 print
 (
 '
@@ -387,9 +398,10 @@ after
 )
 '
 )
-    
+        
 print
 (
+            
 '
 Clobber
 due
@@ -410,7 +422,7 @@ com
 )
 '
 )
-    
+        
 print
 (
 '
@@ -424,7 +436,7 @@ linking
 errors
 in
 '
-          
+              
 '
 https
 :
@@ -439,7 +451,7 @@ org
 2786603002
 '
 )
-    
+        
 print
 (
 '
@@ -452,7 +464,7 @@ linking
 errors
 in
 '
-          
+              
 '
 https
 :
@@ -468,7 +480,7 @@ org
 /
 '
 )
-    
+        
 print
 (
 '
@@ -485,7 +497,7 @@ files
 .
 '
 )
-    
+        
 print
 (
 '
@@ -498,7 +510,7 @@ libc
 issue
 '
 )
-    
+        
 print
 (
 '
@@ -514,7 +526,7 @@ take
 2
 '
 )
-    
+        
 print
 (
 '
@@ -530,7 +542,7 @@ take
 3
 '
 )
-    
+        
 print
 (
 '
@@ -553,7 +565,7 @@ com
 )
 '
 )
-    
+        
 print
 (
 '
@@ -576,7 +588,7 @@ com
 )
 '
 )
-    
+        
 print
 (
 '
@@ -599,7 +611,18 @@ com
 )
 '
 )
-  
+        
+print
+(
+'
+Clobber
+because
+b
+/
+367066321
+'
+)
+    
 if
 host_os
 (
@@ -610,7 +633,7 @@ host_os
 mac
 '
 :
-    
+        
 print
 (
 '
@@ -629,7 +652,7 @@ com
 )
 '
 )
-    
+        
 print
 (
 '
@@ -649,7 +672,7 @@ org
 2709573003
 '
 )
-    
+        
 print
 (
 '
@@ -669,12 +692,12 @@ org
 2709573003
 after
 '
-          
+              
 '
 landing
 '
 )
-    
+        
 print
 (
 '
@@ -694,7 +717,7 @@ org
 2767383005
 before
 '
-          
+              
 '
 landing
 (
@@ -708,7 +731,7 @@ iOS
 )
 '
 )
-    
+        
 print
 (
 '
@@ -728,7 +751,7 @@ org
 2767383005
 before
 '
-          
+              
 '
 landing
 (
@@ -742,7 +765,7 @@ iOS
 )
 '
 )
-    
+        
 print
 (
 '
@@ -757,7 +780,7 @@ webrtc
 )
 '
 )
-    
+        
 print
 (
 '
@@ -770,7 +793,7 @@ to
 executable
 '
 )
-    
+        
 print
 (
 '
@@ -783,7 +806,7 @@ files
 .
 '
 )
-    
+        
 print
 (
 '
@@ -800,7 +823,7 @@ take
 .
 '
 )
-    
+        
 print
 (
 '
@@ -815,11 +838,11 @@ main
 (
 )
 :
-  
+    
 print_landmines
 (
 )
-  
+    
 return
 0
 if
@@ -830,7 +853,7 @@ __name__
 __main__
 '
 :
-  
+    
 sys
 .
 exit
