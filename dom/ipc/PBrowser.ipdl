@@ -2984,6 +2984,8 @@ yet
 async
 PColorPicker
 (
+MaybeDiscardedBrowsingContext
+aBrowsingContext
 nsString
 title
 nsString

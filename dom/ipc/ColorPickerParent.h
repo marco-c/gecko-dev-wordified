@@ -154,6 +154,9 @@ public
 :
 ColorPickerParent
 (
+BrowsingContext
+*
+aBrowsingContext
 const
 nsString
 &
@@ -171,6 +174,10 @@ nsString
 aDefaultColors
 )
 :
+mBrowsingContext
+(
+aBrowsingContext
+)
 mTitle
 (
 aTitle
@@ -277,6 +284,12 @@ bool
 CreateColorPicker
 (
 )
+;
+RefPtr
+<
+BrowsingContext
+>
+mBrowsingContext
 ;
 RefPtr
 <

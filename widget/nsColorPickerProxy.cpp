@@ -127,9 +127,9 @@ nsColorPickerProxy
 :
 Init
 (
-mozIDOMWindowProxy
+BrowsingContext
 *
-aParent
+aBrowsingContext
 const
 nsAString
 &
@@ -156,7 +156,12 @@ BrowserChild
 :
 GetFrom
 (
-aParent
+aBrowsingContext
+-
+>
+GetDocShell
+(
+)
 )
 ;
 if
@@ -175,6 +180,7 @@ browserChild
 SendPColorPickerConstructor
 (
 this
+aBrowsingContext
 aTitle
 aInitialColor
 aDefaultColors
