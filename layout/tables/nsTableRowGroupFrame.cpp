@@ -653,6 +653,7 @@ index
 =
 aRowIndex
 )
+{
 (
 (
 nsTableRowFrame
@@ -669,6 +670,7 @@ index
 anAdjustment
 )
 ;
+}
 }
 }
 }
@@ -3798,8 +3800,10 @@ numRows
 =
 0
 )
+{
 return
 ;
+}
 AutoTArray
 <
 RowInfo
@@ -7252,6 +7256,7 @@ if
 !
 aRow
 )
+{
 return
 ;
 /
@@ -7265,6 +7270,7 @@ callers
 doing
 null
 checks
+}
 /
 /
 rowBefore
@@ -11402,9 +11408,11 @@ if
 !
 firstChild
 )
+{
 return
 false
 ;
+}
 return
 firstChild
 -
@@ -11456,9 +11464,11 @@ if
 !
 lastChild
 )
+{
 return
 false
 ;
+}
 return
 lastChild
 -
@@ -12604,9 +12614,11 @@ cursorIndex
 =
 frameCount
 )
+{
 return
 nullptr
 ;
+}
 nsIFrame
 *
 cursorFrame
@@ -12983,9 +12995,11 @@ IsEmpty
 (
 )
 )
+{
 return
 true
 ;
+}
 nscoord
 overflowAbove
 =

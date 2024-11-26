@@ -680,10 +680,12 @@ mArray
 mEnumerationIndex
 ]
 )
+{
 +
 +
 mEnumerationIndex
 ;
+}
 if
 (
 mEnumerationIndex

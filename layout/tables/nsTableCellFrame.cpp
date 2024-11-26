@@ -987,9 +987,11 @@ if
 !
 rs
 )
+{
 return
 false
 ;
+}
 if
 (
 rs
@@ -6656,6 +6658,7 @@ IsBorderCollapse
 (
 )
 )
+{
 return
 new
 (
@@ -6667,7 +6670,9 @@ aStyle
 aTableFrame
 )
 ;
+}
 else
+{
 return
 new
 (
@@ -6679,6 +6684,7 @@ aStyle
 aTableFrame
 )
 ;
+}
 }
 NS_IMPL_FRAMEARENA_HELPERS
 (

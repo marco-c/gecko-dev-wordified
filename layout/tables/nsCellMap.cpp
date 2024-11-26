@@ -2669,6 +2669,7 @@ colX
 }
 }
 else
+{
 break
 ;
 /
@@ -2682,6 +2683,7 @@ the
 1st
 valid
 one
+}
 }
 }
 void
@@ -2702,6 +2704,7 @@ if
 (
 mBCInfo
 )
+{
 mBCInfo
 -
 >
@@ -2711,6 +2714,7 @@ Clear
 (
 )
 ;
+}
 }
 void
 nsTableCellMap
@@ -3202,9 +3206,11 @@ if
 !
 rgFrame
 )
+{
 return
 0
 ;
+}
 rgFrame
 =
 rgFrame
@@ -3225,9 +3231,11 @@ if
 !
 rgFrame
 )
+{
 return
 0
 ;
+}
 CellData
 *
 result
@@ -4800,6 +4808,7 @@ cellMapIdx
 -
 1
 )
+{
 index
 +
 =
@@ -4807,6 +4816,7 @@ cellMapIdx
 +
 1
 ;
+}
 }
 else
 {
@@ -4852,6 +4862,7 @@ cellMapIdx
 -
 1
 )
+{
 return
 -
 1
@@ -4867,6 +4878,7 @@ row
 and
 column
 .
+}
 index
 +
 =
@@ -6069,6 +6081,7 @@ changed
 ;
 }
 else
+{
 NS_ERROR
 (
 "
@@ -6081,6 +6094,7 @@ found
 "
 )
 ;
+}
 }
 break
 ;
@@ -6236,6 +6250,7 @@ changed
 ;
 }
 else
+{
 NS_ERROR
 (
 "
@@ -6248,6 +6263,7 @@ found
 "
 )
 ;
+}
 }
 }
 break
@@ -6755,6 +6771,7 @@ aBevel
 ;
 }
 else
+{
 NS_ERROR
 (
 "
@@ -6767,6 +6784,7 @@ found
 "
 )
 ;
+}
 }
 nsCellMap
 :
@@ -7164,8 +7182,10 @@ if
 !
 data
 )
+{
 break
 ;
+}
 if
 (
 data
@@ -7175,10 +7195,12 @@ IsOrig
 (
 )
 )
+{
 index
 +
 +
 ;
+}
 }
 }
 return
@@ -7214,10 +7236,12 @@ Length
 (
 )
 )
+{
 return
 -
 1
 ;
+}
 int32_t
 index
 =
@@ -7373,8 +7397,10 @@ if
 !
 data
 )
+{
 break
 ;
+}
 if
 (
 data
@@ -7384,10 +7410,12 @@ IsOrig
 (
 )
 )
+{
 index
 +
 +
 ;
+}
 }
 }
 /
@@ -7409,10 +7437,12 @@ if
 !
 data
 )
+{
 return
 -
 1
 ;
+}
 return
 index
 ;
@@ -7531,8 +7561,10 @@ if
 !
 data
 )
+{
 break
 ;
+}
 if
 (
 data
@@ -7542,10 +7574,12 @@ IsOrig
 (
 )
 )
+{
 index
 -
 -
 ;
+}
 if
 (
 index
@@ -8417,11 +8451,13 @@ if
 (
 aColToBeginSearch
 )
+{
 startColIndex
 =
 *
 aColToBeginSearch
 ;
+}
 for
 (
 ;
@@ -8449,8 +8485,10 @@ if
 !
 data
 )
+{
 break
 ;
+}
 /
 /
 The
@@ -8535,6 +8573,7 @@ if
 (
 aColToBeginSearch
 )
+{
 *
 aColToBeginSearch
 =
@@ -8542,6 +8581,7 @@ startColIndex
 +
 1
 ;
+}
 int32_t
 colSpan
 =
@@ -9262,9 +9302,11 @@ if
 !
 cellData
 )
+{
 return
 origData
 ;
+}
 if
 (
 rowX
@@ -10026,8 +10068,10 @@ Length
 =
 0
 )
+{
 return
 ;
+}
 NS_ASSERTION
 (
 aColIndexBefore
@@ -10794,8 +10838,10 @@ if
 !
 origData
 )
+{
 return
 ;
+}
 /
 /
 set
@@ -11033,8 +11079,10 @@ if
 !
 data
 )
+{
 return
 ;
+}
 if
 (
 rowX
@@ -11989,8 +12037,10 @@ colX
 =
 maxCols
 )
+{
 break
 ;
+}
 }
 }
 }
@@ -12016,8 +12066,10 @@ break
 }
 }
 else
+{
 break
 ;
+}
 }
 return
 colSpan
@@ -12297,10 +12349,12 @@ IsOrig
 (
 )
 )
+{
 count
 +
 +
 ;
+}
 }
 return
 count
@@ -12398,8 +12452,10 @@ break
 }
 }
 else
+{
 break
 ;
+}
 }
 return
 rowSpan
@@ -15792,6 +15848,7 @@ mNumCellsSpan
 }
 }
 else
+{
 NS_ERROR
 (
 "
@@ -15808,6 +15865,7 @@ cols
 "
 )
 ;
+}
 }
 nsTableCellFrame
 *
@@ -15888,11 +15946,13 @@ if
 (
 aOriginates
 )
+{
 *
 aOriginates
 =
 true
 ;
+}
 }
 else
 {

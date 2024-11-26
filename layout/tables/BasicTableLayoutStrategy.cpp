@@ -3753,10 +3753,12 @@ large_pct_pref
 >
 pref_pct_expand
 )
+{
 pref_pct_expand
 =
 large_pct_pref
 ;
+}
 }
 /
 /
@@ -3984,6 +3986,7 @@ colCount
 =
 0
 )
+{
 return
 ;
 /
@@ -3991,6 +3994,7 @@ return
 nothing
 to
 do
+}
 DistributeISizeToColumns
 (
 iSize
@@ -6587,6 +6591,7 @@ c
 }
 }
 else
+{
 col_iSize
 =
 col_iSize_before_adjust
@@ -6598,6 +6603,7 @@ GetMinCoord
 (
 )
 ;
+}
 }
 break
 ;

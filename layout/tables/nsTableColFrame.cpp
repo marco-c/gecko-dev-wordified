@@ -456,6 +456,7 @@ if
 !
 aOldComputedStyle
 )
+{
 /
 /
 avoid
@@ -464,6 +465,7 @@ on
 init
 return
 ;
+}
 nsTableFrame
 *
 tableFrame

@@ -964,6 +964,7 @@ if
 !
 aOldComputedStyle
 )
+{
 /
 /
 avoid
@@ -972,6 +973,7 @@ on
 init
 return
 ;
+}
 nsTableFrame
 *
 tableFrame
@@ -1014,6 +1016,7 @@ if
 !
 colCount
 )
+{
 return
 ;
 /
@@ -1023,6 +1026,7 @@ is
 a
 degenerated
 colgroup
+}
 TableArea
 damageArea
 (
@@ -1902,6 +1906,7 @@ if
 (
 nextGroup
 )
+{
 /
 /
 reset
@@ -1916,6 +1921,7 @@ nextGroup
 colIndex
 )
 ;
+}
 }
 }
 PresShell
@@ -2963,8 +2969,10 @@ if
 !
 indent
 )
+{
 return
 ;
+}
 for
 (
 int32_t
