@@ -1648,9 +1648,6 @@ aContainer
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 {
 nsINode
@@ -1680,7 +1677,7 @@ parent
 >
 ComputeIndexOf
 (
-aPreviousSibling
+aChild
 )
 ;
 MOZ_ASSERT
@@ -1696,16 +1693,10 @@ RemoveMenuAtIndex
 (
 index
 .
-isSome
+valueOr
 (
-)
-?
-*
-index
-+
-1u
-:
 0u
+)
 )
 ;
 }

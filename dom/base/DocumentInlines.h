@@ -254,7 +254,12 @@ Document
 :
 GetBodyElement
 (
+const
+nsIContent
+*
+aContentToIgnore
 )
+const
 {
 return
 static_cast
@@ -269,6 +274,7 @@ nsGkAtoms
 :
 :
 body
+aContentToIgnore
 )
 )
 ;

@@ -588,14 +588,11 @@ void
 nsMenuGroupOwnerX
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 {
 nsIContent
@@ -654,7 +651,6 @@ OwnerDoc
 )
 container
 aChild
-aPreviousSibling
 )
 ;
 }
@@ -751,7 +747,6 @@ OwnerDoc
 )
 container
 aChild
-aPreviousSibling
 )
 ;
 }

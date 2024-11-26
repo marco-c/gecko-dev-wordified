@@ -392,7 +392,7 @@ aNode
 )
 ;
 void
-AdjustAfterRemoval
+AdjustForRemoval
 (
 nsINode
 *
@@ -403,9 +403,6 @@ aContainer
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 ;
 void

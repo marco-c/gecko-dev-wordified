@@ -830,14 +830,11 @@ aChild
 ;
 }
 void
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 override
 {
@@ -849,10 +846,9 @@ mOwner
 mOwner
 -
 >
-ContentRemoved
+ContentWillBeRemoved
 (
 aChild
-aPreviousSibling
 )
 ;
 }

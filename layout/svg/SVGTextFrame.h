@@ -2334,7 +2334,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentRemoved
+kContentWillBeRemoved
 )
 ;
 }

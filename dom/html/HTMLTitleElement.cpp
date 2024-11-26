@@ -392,14 +392,11 @@ void
 HTMLTitleElement
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 {
 SendTitleChangeEvent

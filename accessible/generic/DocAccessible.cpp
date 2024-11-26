@@ -7897,14 +7897,11 @@ void
 DocAccessible
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChildNode
-nsIContent
-*
-aPreviousSiblingNode
 )
 {
 #

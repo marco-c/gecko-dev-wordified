@@ -2127,14 +2127,11 @@ void
 nsSHEntryShared
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 {
 if

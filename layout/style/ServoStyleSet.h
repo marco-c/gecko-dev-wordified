@@ -3540,10 +3540,6 @@ dom
 Element
 &
 aElement
-const
-nsIContent
-*
-aFollowingSibling
 )
 ;
 /

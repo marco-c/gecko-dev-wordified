@@ -876,14 +876,11 @@ void
 CrossShadowBoundaryRange
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 {
 /
@@ -1117,7 +1114,6 @@ MaybeCreateNewBoundary
 [
 container
 aChild
-aPreviousSibling
 ]
 (
 const
@@ -1187,7 +1183,12 @@ RawRangeBoundary
 (
 {
 container
-aPreviousSibling
+aChild
+-
+>
+GetPreviousSibling
+(
+)
 }
 )
 ;

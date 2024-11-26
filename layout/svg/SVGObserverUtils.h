@@ -746,7 +746,7 @@ kContentAppended
 |
 kContentInserted
 |
-kContentRemoved
+kContentWillBeRemoved
 )
 {
 SetEnabledCallbacks

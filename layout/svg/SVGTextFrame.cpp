@@ -19168,14 +19168,11 @@ SVGTextFrame
 MutationObserver
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 {
 mFrame

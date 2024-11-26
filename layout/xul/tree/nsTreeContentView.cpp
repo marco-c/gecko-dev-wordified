@@ -5362,14 +5362,11 @@ void
 nsTreeContentView
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 {
 NS_ASSERTION

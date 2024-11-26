@@ -1741,14 +1741,11 @@ async
 *
 /
 bool
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aOldNextSibling
 RemoveFlags
 aFlags
 )
@@ -15092,6 +15089,11 @@ mCountersDirty
 ;
 bool
 mAlwaysCreateFramesForIgnorableWhitespace
+:
+1
+;
+bool
+mReframingForViewportStyles
 :
 1
 ;
