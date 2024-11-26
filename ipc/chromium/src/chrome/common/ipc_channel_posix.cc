@@ -4034,9 +4034,8 @@ Message
 MAX_DESCRIPTORS_PER_MESSAGE
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Too
 many
@@ -4196,9 +4195,8 @@ Done
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 partial_write_
 -

@@ -1897,9 +1897,8 @@ readerState
 #
 ifndef
 FUZZING_SNAPSHOT
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 mHeader
 -
@@ -2305,9 +2304,8 @@ readerState
 #
 ifndef
 FUZZING_SNAPSHOT
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 mHeader
 -
@@ -7059,9 +7057,8 @@ IsValid
 #
 ifndef
 FUZZING_SNAPSHOT
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 No
 texture
@@ -7281,9 +7278,8 @@ aFormat
 #
 ifndef
 FUZZING_SNAPSHOT
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unexpected
 CreateDrawTarget

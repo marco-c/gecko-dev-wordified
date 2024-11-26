@@ -36270,9 +36270,8 @@ OSForceClose
 }
 else
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Received
 WM_ENDSESSION

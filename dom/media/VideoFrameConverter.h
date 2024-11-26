@@ -2314,9 +2314,8 @@ if
 buffer
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Buffers
 not

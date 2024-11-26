@@ -1859,9 +1859,8 @@ if
 sCanvasRenderThread
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Dispatching
 after

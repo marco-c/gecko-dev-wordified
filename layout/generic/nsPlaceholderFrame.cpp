@@ -1057,9 +1057,8 @@ FrameChildListID
 Absolute
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 unknown
 list

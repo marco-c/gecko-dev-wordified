@@ -2710,9 +2710,8 @@ aTarget
 )
 override
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Can
 '
@@ -19642,9 +19641,8 @@ Exit
 )
 override
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Shouldn
 '
@@ -19685,9 +19683,8 @@ aTarget
 )
 override
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Can
 '
@@ -19723,9 +19720,8 @@ HandleShutdown
 )
 override
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Already
 shutting
@@ -19744,9 +19740,8 @@ HandleVideoSuspendTimeout
 )
 override
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Already
 shutting
@@ -19765,9 +19760,8 @@ TimeUnit
 )
 override
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Already
 shutting

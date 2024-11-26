@@ -12928,9 +12928,8 @@ nbytes
 INT32_MAX
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 ArrayBuffer
 allocation

@@ -886,9 +886,8 @@ CARRAY_TEXT
 )
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Unsupported
 type

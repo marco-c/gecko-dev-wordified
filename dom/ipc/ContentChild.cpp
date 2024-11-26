@@ -22887,9 +22887,8 @@ rv
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 LoadInfoArgsToLoadInfo
 failed
@@ -28227,9 +28226,8 @@ rv
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 LoadInfoArgsToLoadInfo
 failed

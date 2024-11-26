@@ -1157,9 +1157,8 @@ aObj
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Invalid
 object
@@ -1196,9 +1195,8 @@ IsTracked
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Tried
 to
@@ -1394,9 +1392,8 @@ aObj
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Invalid
 object
@@ -1433,9 +1430,8 @@ IsTracked
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Tried
 to

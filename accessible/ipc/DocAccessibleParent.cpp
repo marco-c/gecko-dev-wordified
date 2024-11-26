@@ -5095,9 +5095,8 @@ under
 these
 conditions
 .
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Binding
 to
@@ -5219,9 +5218,8 @@ IsDoc
 #
 ifndef
 FUZZING_SNAPSHOT
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Binding
 to

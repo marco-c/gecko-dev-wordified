@@ -494,9 +494,8 @@ ChildSide
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Failed
 to

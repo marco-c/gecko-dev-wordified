@@ -1806,9 +1806,8 @@ HANDLE_FLAG_INHERIT
 0
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 SetHandleInformation
 failed

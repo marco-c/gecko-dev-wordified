@@ -4446,9 +4446,8 @@ NS_ERROR_FAILURE
 ;
 default
 :
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Wrong
 state
