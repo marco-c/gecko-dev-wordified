@@ -372,7 +372,7 @@ const
 StyleFilter
 >
 aFilterChain
-nsISupports
+ISVGFilterObserverList
 *
 aFiltersObserverList
 bool

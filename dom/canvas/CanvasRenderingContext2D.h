@@ -282,6 +282,9 @@ class
 ErrorResult
 ;
 class
+ISVGFilterObserverList
+;
+class
 PresShell
 ;
 namespace
@@ -6816,7 +6819,7 @@ elements
 .
 nsCOMPtr
 <
-nsISupports
+ISVGFilterObserverList
 >
 autoSVGFiltersObserver
 ;
