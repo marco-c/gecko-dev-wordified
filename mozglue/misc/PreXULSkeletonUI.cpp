@@ -14547,9 +14547,6 @@ if
 IsSystemDarkThemeEnabled
 (
 )
-=
-=
-true
 )
 {
 themeMode
@@ -14707,13 +14704,6 @@ before
 uncloaking
 it
 .
-if
-(
-sDwmGetWindowAttribute
-!
-=
-nullptr
-)
 {
 constexpr
 static
