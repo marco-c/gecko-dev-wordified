@@ -614,6 +614,7 @@ if
 (
 mDocument
 )
+{
 mDocument
 -
 >
@@ -622,6 +623,7 @@ RemoveObserver
 this
 )
 ;
+}
 }
 nsresult
 NS_NewTreeContentView
@@ -644,9 +646,11 @@ if
 *
 aResult
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 NS_ADDREF
 (
 *
@@ -824,9 +828,11 @@ LegacyIsCallerChromeOrNativeCode
 (
 )
 )
+{
 return
 true
 ;
+}
 nsCOMPtr
 <
 nsINativeTreeSelection
@@ -996,6 +1002,7 @@ IsSeparator
 (
 )
 )
+{
 realRow
 =
 row
@@ -1003,7 +1010,9 @@ row
 >
 mContent
 ;
+}
 else
+{
 realRow
 =
 nsTreeUtils
@@ -1021,6 +1030,7 @@ nsGkAtoms
 treerow
 )
 ;
+}
 if
 (
 realRow
@@ -2312,6 +2322,7 @@ if
 (
 cell
 )
+{
 cell
 -
 >
@@ -2324,6 +2335,7 @@ src
 aSrc
 )
 ;
+}
 }
 }
 NS_IMETHODIMP
@@ -2456,6 +2468,7 @@ if
 (
 cell
 )
+{
 cell
 -
 >
@@ -2468,6 +2481,7 @@ value
 aValue
 )
 ;
+}
 }
 }
 NS_IMETHODIMP
@@ -2672,6 +2686,7 @@ if
 (
 cell
 )
+{
 cell
 -
 >
@@ -2684,6 +2699,7 @@ label
 aText
 )
 ;
+}
 }
 }
 }
@@ -2938,6 +2954,7 @@ IsOpen
 (
 )
 )
+{
 row
 -
 >
@@ -2959,7 +2976,9 @@ _ns
 true
 )
 ;
+}
 else
+{
 row
 -
 >
@@ -2981,6 +3000,7 @@ _ns
 true
 )
 ;
+}
 }
 NS_IMETHODIMP
 nsTreeContentView
@@ -3028,8 +3048,10 @@ if
 !
 mTree
 )
+{
 return
 ;
+}
 RefPtr
 <
 Element
@@ -3498,6 +3520,7 @@ if
 (
 cell
 )
+{
 cell
 -
 >
@@ -3512,6 +3535,7 @@ aValue
 true
 )
 ;
+}
 }
 }
 NS_IMETHODIMP
@@ -3646,6 +3670,7 @@ if
 (
 cell
 )
+{
 cell
 -
 >
@@ -3660,6 +3685,7 @@ aValue
 true
 )
 ;
+}
 }
 }
 NS_IMETHODIMP
@@ -4016,6 +4042,7 @@ if
 !
 element
 )
+{
 return
 ;
 /
@@ -4025,6 +4052,7 @@ is
 not
 for
 us
+}
 if
 (
 element
@@ -4038,6 +4066,7 @@ nsGkAtoms
 tree
 )
 )
+{
 return
 ;
 /
@@ -4047,6 +4076,7 @@ is
 not
 for
 us
+}
 }
 /
 /
@@ -4145,6 +4175,7 @@ if
 (
 mTree
 )
+{
 mTree
 -
 >
@@ -4155,6 +4186,7 @@ index
 count
 )
 ;
+}
 }
 else
 if
@@ -4368,6 +4400,7 @@ if
 (
 mTree
 )
+{
 mTree
 -
 >
@@ -4376,6 +4409,7 @@ InvalidateRow
 index
 )
 ;
+}
 }
 else
 if
@@ -4427,11 +4461,13 @@ isOpen
 &
 wasOpen
 )
+{
 CloseContainer
 (
 index
 )
 ;
+}
 else
 if
 (
@@ -4441,11 +4477,13 @@ isOpen
 !
 wasOpen
 )
+{
 OpenContainer
 (
 index
 )
 ;
+}
 }
 else
 if
@@ -4491,6 +4529,7 @@ if
 (
 mTree
 )
+{
 mTree
 -
 >
@@ -4499,6 +4538,7 @@ InvalidateRow
 index
 )
 ;
+}
 }
 }
 }
@@ -4919,8 +4959,10 @@ IsXULElement
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -5009,6 +5051,7 @@ if
 !
 element
 )
+{
 return
 ;
 /
@@ -5018,6 +5061,7 @@ is
 not
 for
 us
+}
 if
 (
 element
@@ -5031,6 +5075,7 @@ nsGkAtoms
 tree
 )
 )
+{
 return
 ;
 /
@@ -5040,6 +5085,7 @@ is
 not
 for
 us
+}
 }
 /
 /
@@ -5122,6 +5168,7 @@ if
 (
 mTree
 )
+{
 mTree
 -
 >
@@ -5130,6 +5177,7 @@ InvalidateRow
 index
 )
 ;
+}
 if
 (
 row
@@ -5160,6 +5208,7 @@ if
 (
 mTree
 )
+{
 mTree
 -
 >
@@ -5171,6 +5220,7 @@ index
 count
 )
 ;
+}
 }
 }
 }
@@ -5233,6 +5283,7 @@ index
 &
 mTree
 )
+{
 mTree
 -
 >
@@ -5241,6 +5292,7 @@ InvalidateRow
 index
 )
 ;
+}
 }
 else
 if
@@ -5293,6 +5345,7 @@ index
 &
 mTree
 )
+{
 mTree
 -
 >
@@ -5301,6 +5354,7 @@ InvalidateRow
 index
 )
 ;
+}
 }
 }
 }
@@ -5396,8 +5450,10 @@ IsXULElement
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -5486,6 +5542,7 @@ if
 !
 element
 )
+{
 return
 ;
 /
@@ -5495,6 +5552,7 @@ is
 not
 for
 us
+}
 if
 (
 element
@@ -5508,6 +5566,7 @@ nsGkAtoms
 tree
 )
 )
+{
 return
 ;
 /
@@ -5517,6 +5576,7 @@ is
 not
 for
 us
+}
 }
 /
 /
@@ -5688,6 +5748,7 @@ if
 (
 mTree
 )
+{
 mTree
 -
 >
@@ -5698,6 +5759,7 @@ index
 count
 )
 ;
+}
 }
 }
 else
@@ -5733,6 +5795,7 @@ index
 &
 mTree
 )
+{
 mTree
 -
 >
@@ -5741,6 +5804,7 @@ InvalidateRow
 index
 )
 ;
+}
 }
 else
 if
@@ -5793,6 +5857,7 @@ index
 &
 mTree
 )
+{
 mTree
 -
 >
@@ -5801,6 +5866,7 @@ InvalidateRow
 index
 )
 ;
+}
 }
 }
 }
@@ -5903,8 +5969,10 @@ IsXULElement
 (
 )
 )
+{
 return
 ;
+}
 dom
 :
 :
@@ -6061,8 +6129,10 @@ _true
 eCaseMatters
 )
 )
+{
 return
 ;
+}
 aRows
 .
 AppendElement
@@ -6228,6 +6298,7 @@ count
 ;
 }
 else
+{
 row
 -
 >
@@ -6236,6 +6307,7 @@ SetEmpty
 true
 )
 ;
+}
 }
 else
 if
@@ -6313,8 +6385,10 @@ _true
 eCaseMatters
 )
 )
+{
 return
 ;
+}
 auto
 row
 =
@@ -6376,8 +6450,10 @@ IsXULElement
 (
 )
 )
+{
 return
 ;
+}
 for
 (
 nsIContent
@@ -6410,8 +6486,10 @@ content
 =
 aContent
 )
+{
 break
 ;
+}
 if
 (
 content
@@ -6535,6 +6613,7 @@ IsXULElement
 (
 )
 )
+{
 GetIndexInSubtree
 (
 child
@@ -6542,6 +6621,7 @@ aContent
 aIndex
 )
 ;
+}
 }
 }
 }
@@ -6585,6 +6665,7 @@ _true
 eCaseMatters
 )
 )
+{
 (
 *
 aIndex
@@ -6592,6 +6673,7 @@ aIndex
 +
 +
 ;
+}
 }
 }
 }
@@ -7091,10 +7173,12 @@ IsOpen
 (
 )
 )
+{
 insertRow
 =
 true
 ;
+}
 }
 }
 if
@@ -7129,6 +7213,7 @@ if
 (
 mTree
 )
+{
 mTree
 -
 >
@@ -7142,6 +7227,7 @@ index
 count
 )
 ;
+}
 }
 }
 int32_t

@@ -238,10 +238,12 @@ IsAsciiSpace
 iter
 )
 )
+{
 +
 +
 iter
 ;
+}
 /
 /
 If
@@ -258,8 +260,10 @@ iter
 =
 end
 )
+{
 break
 ;
+}
 /
 /
 Note
@@ -303,10 +307,12 @@ IsAsciiSpace
 iter
 )
 )
+{
 +
 +
 iter
 ;
+}
 /
 /
 XXX
@@ -338,8 +344,10 @@ iter
 =
 first
 )
+{
 break
 ;
+}
 RefPtr
 <
 nsAtom

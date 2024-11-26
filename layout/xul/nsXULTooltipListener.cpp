@@ -2333,8 +2333,10 @@ if
 !
 sourceNode
 )
+{
 return
 ;
+}
 /
 /
 get
@@ -4402,6 +4404,7 @@ if
 (
 instance
 )
+{
 instance
 -
 >
@@ -4409,6 +4412,7 @@ ShowTooltip
 (
 )
 ;
+}
 }
 XULTreeElement
 *
