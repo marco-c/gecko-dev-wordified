@@ -201,7 +201,7 @@ initialization
 data
 and
 when
-Show
+Open
 (
 )
 is
@@ -474,18 +474,6 @@ nsIWidget
 const
 nsAString
 &
-)
-override
-;
-nsresult
-Show
-(
-nsIFilePicker
-:
-:
-ResultCode
-*
-aReturn
 )
 override
 ;

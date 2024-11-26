@@ -144,6 +144,9 @@ nsFilePicker
 public
 nsBaseFilePicker
 {
+class
+AsyncShowFilePicker
+;
 public
 :
 nsFilePicker
@@ -168,6 +171,15 @@ s
 in
 nsBaseFilePicker
 )
+NS_IMETHOD
+Open
+(
+nsIFilePickerShownCallback
+*
+aCallback
+)
+override
+;
 NS_IMETHOD
 GetDefaultString
 (
@@ -335,7 +347,6 @@ ResultCode
 *
 _retval
 )
-override
 ;
 /
 /
