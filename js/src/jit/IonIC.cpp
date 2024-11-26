@@ -641,7 +641,7 @@ case
 CacheKind
 :
 :
-GetIntrinsic
+LazyConstant
 :
 case
 CacheKind

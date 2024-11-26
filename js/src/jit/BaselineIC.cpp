@@ -2583,7 +2583,7 @@ GetIntrinsic
 BaselineICFallbackKind
 :
 :
-GetIntrinsic
+LazyConstant
 )
 ;
 setKind
@@ -8167,11 +8167,11 @@ masm
 /
 /
 /
-GetIntrinsic_Fallback
+LazyConstant_Fallback
 /
 /
 bool
-DoGetIntrinsicFallback
+DoLazyConstantFallback
 (
 JSContext
 *
@@ -8246,7 +8246,7 @@ FallbackICSpew
 cx
 stub
 "
-GetIntrinsic
+LazyConstant
 (
 %
 s
@@ -8291,11 +8291,11 @@ false
 }
 TryAttachStub
 <
-GetIntrinsicIRGenerator
+LazyConstantIRGenerator
 >
 (
 "
-GetIntrinsic
+LazyConstant
 "
 cx
 frame
@@ -8311,7 +8311,7 @@ bool
 FallbackICCodeCompiler
 :
 :
-emit_GetIntrinsic
+emit_LazyConstant
 (
 )
 {
@@ -8358,7 +8358,7 @@ return
 tailCallVM
 <
 Fn
-DoGetIntrinsicFallback
+DoLazyConstantFallback
 >
 (
 masm

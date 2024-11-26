@@ -39356,7 +39356,7 @@ error
 ;
 DEFINE_IC
 (
-GetIntrinsic
+LazyConstant
 0
 {
 PUSH_FALLBACK_IC_FRAME
@@ -39366,7 +39366,7 @@ PUSH_FALLBACK_IC_FRAME
 if
 (
 !
-DoGetIntrinsicFallback
+DoLazyConstantFallback
 (
 cx
 ctx
@@ -58274,7 +58274,7 @@ IC_ZERO_ARG
 ;
 INVOKE_IC_AND_PUSH
 (
-GetIntrinsic
+LazyConstant
 false
 )
 ;

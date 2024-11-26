@@ -232,7 +232,7 @@ BindName
 \
 _
 (
-GetIntrinsic
+LazyConstant
 )
 \
 _

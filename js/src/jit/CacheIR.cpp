@@ -995,7 +995,7 @@ case
 CacheKind
 :
 :
-GetIntrinsic
+LazyConstant
 :
 return
 0
@@ -87338,10 +87338,10 @@ AttachDecision
 Attach
 ;
 }
-GetIntrinsicIRGenerator
+LazyConstantIRGenerator
 :
 :
-GetIntrinsicIRGenerator
+LazyConstantIRGenerator
 (
 JSContext
 *
@@ -87365,7 +87365,7 @@ pc
 CacheKind
 :
 :
-GetIntrinsic
+LazyConstant
 state
 )
 val_
@@ -87375,7 +87375,7 @@ val
 {
 }
 void
-GetIntrinsicIRGenerator
+LazyConstantIRGenerator
 :
 :
 trackAttached
@@ -87435,7 +87435,7 @@ val_
 endif
 }
 AttachDecision
-GetIntrinsicIRGenerator
+LazyConstantIRGenerator
 :
 :
 tryAttachStub
@@ -87464,7 +87464,7 @@ returnFromIC
 trackAttached
 (
 "
-GetIntrinsic
+LazyConstant
 "
 )
 ;
