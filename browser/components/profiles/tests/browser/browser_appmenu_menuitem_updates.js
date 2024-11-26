@@ -71,13 +71,6 @@ test_appmenu_updates_on_edit
 (
 )
 {
-await
-gProfiles
-.
-init
-(
-)
-;
 /
 /
 Mock
