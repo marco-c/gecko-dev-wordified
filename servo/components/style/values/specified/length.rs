@@ -16138,7 +16138,7 @@ allow_quirks
 AllowAnchorPositioningFunctions
 :
 :
-AllowAnchor
+AllowAnchorAndAnchorSize
 )
 }
 /
