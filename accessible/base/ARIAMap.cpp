@@ -5430,7 +5430,10 @@ static_cast
 int32_t
 >
 (
-ArrayLength
+std
+:
+:
+size
 (
 gWAIUnivAttrMap
 )
