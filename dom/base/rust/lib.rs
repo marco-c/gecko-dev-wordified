@@ -77,6 +77,12 @@ bitflags
 :
 bitflags
 ;
+use
+malloc_size_of
+:
+:
+malloc_size_of_is_0
+;
 bitflags
 !
 {
@@ -2094,3 +2100,10 @@ bits
 ;
 }
 }
+malloc_size_of_is_0
+!
+(
+ElementState
+DocumentState
+)
+;
