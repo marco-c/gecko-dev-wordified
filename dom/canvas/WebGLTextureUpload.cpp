@@ -316,13 +316,6 @@ h
 #
 include
 "
-WebGLFormats
-.
-h
-"
-#
-include
-"
 WebGLContextUtils
 .
 h

@@ -246,7 +246,7 @@ include
 "
 mozilla
 /
-TiedFields
+TypedEnumBits
 .
 h
 "
@@ -255,7 +255,9 @@ include
 "
 mozilla
 /
-TypedEnumBits
+dom
+/
+TiedFields
 .
 h
 "

@@ -159,7 +159,9 @@ include
 "
 mozilla
 /
-ParamTraits_TiedFields
+dom
+/
+WebGLIpdl
 .
 h
 "
