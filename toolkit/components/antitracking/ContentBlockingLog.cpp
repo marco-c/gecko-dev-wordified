@@ -689,6 +689,12 @@ nsIWebProgressListener
 :
 STATE_PURGED_BOUNCETRACKER
 :
+case
+nsIWebProgressListener
+:
+:
+STATE_COOKIES_PARTITIONED_TRACKER
+:
 Unused
 <
 <
