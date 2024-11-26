@@ -1211,7 +1211,6 @@ PointerEvents
 ScrollbarColor
 UserFocus
 UserInput
-UserModify
 UserSelect
 }
 ;
