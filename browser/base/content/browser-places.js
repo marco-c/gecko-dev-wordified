@@ -3710,13 +3710,6 @@ window
 "
 menuitem
 "
-/
-*
-aPrefixRestoreAll
-=
-*
-/
-false
 )
 ;
 undoPopup
