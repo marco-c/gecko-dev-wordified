@@ -3810,12 +3810,6 @@ case
 AudioTimelineEvent
 :
 :
-SetValue
-:
-case
-AudioTimelineEvent
-:
-:
 Cancel
 :
 case
@@ -3916,12 +3910,6 @@ SetTarget
 "
 )
 ;
-case
-AudioTimelineEvent
-:
-:
-SetValue
-:
 case
 AudioTimelineEvent
 :
