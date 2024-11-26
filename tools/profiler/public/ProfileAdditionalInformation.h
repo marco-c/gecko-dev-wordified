@@ -167,7 +167,7 @@ ProfileAdditionalInformation_h
 #
 include
 "
-BaseProfilerSharedLibraries
+SharedLibraries
 .
 h
 "
