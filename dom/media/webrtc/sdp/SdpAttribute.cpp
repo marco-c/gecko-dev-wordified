@@ -7366,12 +7366,6 @@ case
 SdpRtpmapAttributeList
 :
 :
-kAV1
-:
-case
-SdpRtpmapAttributeList
-:
-:
 kRed
 :
 case
