@@ -9583,6 +9583,10 @@ friend
 class
 AutoApplyAsyncTestAttributes
 ;
+friend
+class
+AutoDynamicToolbarHider
+;
 bool
 SuppressAsyncScrollOffset
 (
