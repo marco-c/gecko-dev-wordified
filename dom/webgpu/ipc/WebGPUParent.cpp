@@ -4208,13 +4208,7 @@ req
 >
 mResolver
 (
-std
-:
-:
-move
-(
 result
-)
 )
 ;
 delete
