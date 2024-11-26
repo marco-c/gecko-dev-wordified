@@ -145,8 +145,10 @@ uint32_t
 certShortLifetimeInDays
 NetscapeStepUpPolicy
 netscapeStepUpPolicy
-CertificateTransparencyMode
-ctMode
+CertificateTransparencyConfig
+&
+&
+ctConfig
 CRLiteMode
 crliteMode
 const
@@ -172,7 +174,13 @@ ocspSoftTimeout
 ocspHardTimeout
 certShortLifetimeInDays
 netscapeStepUpPolicy
-ctMode
+std
+:
+:
+move
+(
+ctConfig
+)
 crliteMode
 thirdPartyCerts
 )
