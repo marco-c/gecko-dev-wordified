@@ -3112,6 +3112,16 @@ if
 subdocRootFrame
 )
 {
+if
+(
+aBuilder
+-
+>
+BuildCompositorHitTestInfo
+(
+)
+)
+{
 bool
 hasDocumentLevelListenersForApzAwareEvents
 =
@@ -3139,6 +3149,7 @@ SetAncestorHasApzAwareEventHandler
 hasDocumentLevelListenersForApzAwareEvents
 )
 ;
+}
 subdocRootFrame
 -
 >
