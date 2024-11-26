@@ -159,17 +159,6 @@ mozilla
 /
 ipc
 /
-BrowserProcessSubThread
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ipc
-/
 ProtocolUtils
 .
 h

@@ -126,17 +126,6 @@ include
 "
 mozilla
 /
-ipc
-/
-IOThreadChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
 GeckoArgs
 .
 h

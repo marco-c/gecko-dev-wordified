@@ -156,11 +156,6 @@ BigBuffer
 h
 "
 "
-BrowserProcessSubThread
-.
-h
-"
-"
 ByteBuf
 .
 h
@@ -241,7 +236,7 @@ InputStreamUtils
 h
 "
 "
-IOThreadChild
+IOThread
 .
 h
 "
@@ -921,11 +916,6 @@ BigBuffer
 cpp
 "
 "
-BrowserProcessSubThread
-.
-cpp
-"
-"
 CrashReporterClient
 .
 cpp
@@ -967,6 +957,11 @@ cpp
 "
 "
 InputStreamUtils
+.
+cpp
+"
+"
+IOThread
 .
 cpp
 "
