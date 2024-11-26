@@ -182,6 +182,13 @@ engine2
 )
 ;
 await
+SearchTestUtils
+.
+initXPCShellAddonManager
+(
+)
+;
+await
 Services
 .
 search
