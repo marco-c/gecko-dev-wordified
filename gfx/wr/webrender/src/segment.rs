@@ -655,9 +655,7 @@ crate
 util
 :
 :
-{
 extract_inner_rect_safe
-}
 ;
 use
 smallvec

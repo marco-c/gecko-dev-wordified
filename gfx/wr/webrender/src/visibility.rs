@@ -83,9 +83,7 @@ use
 api
 :
 :
-{
 DebugFlags
-}
 ;
 use
 api
@@ -100,9 +98,7 @@ use
 std
 :
 :
-{
 usize
-}
 ;
 use
 crate
@@ -280,9 +276,7 @@ crate
 util
 :
 :
-{
 MaxRect
-}
 ;
 pub
 struct

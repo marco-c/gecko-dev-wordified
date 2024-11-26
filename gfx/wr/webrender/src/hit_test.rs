@@ -175,9 +175,7 @@ crate
 util
 :
 :
-{
 LayoutToWorldFastTransform
-}
 ;
 pub
 struct

@@ -126,9 +126,7 @@ crate
 spatial_tree
 :
 :
-{
 CoordinateSystemId
-}
 ;
 use
 euclid

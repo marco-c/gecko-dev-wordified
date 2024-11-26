@@ -354,9 +354,7 @@ use
 glyph_rasterizer
 :
 :
-{
 FontInstance
-}
 ;
 use
 crate
@@ -415,9 +413,7 @@ crate
 internal_types
 :
 :
-{
 DebugOutput
-}
 ;
 use
 crate
@@ -467,9 +463,7 @@ crate
 picture
 :
 :
-{
 PicturePrimitive
-}
 ;
 use
 crate

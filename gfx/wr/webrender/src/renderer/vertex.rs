@@ -165,9 +165,7 @@ crate
 internal_types
 :
 :
-{
 FrameVec
-}
 ;
 pub
 const
