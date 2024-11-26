@@ -3119,6 +3119,7 @@ self
 binary
 debug_info
 headless
+gmp_path
 chaos_mode_flags
 e10s
 )
