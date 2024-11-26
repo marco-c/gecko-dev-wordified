@@ -3087,7 +3087,7 @@ set
 0
 MapSet
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 delete
@@ -3095,6 +3095,7 @@ delete
 delete_
 1
 0
+MapDelete
 )
 JS_FN
 (
@@ -8243,7 +8244,7 @@ add
 0
 SetAdd
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 delete
@@ -8251,6 +8252,7 @@ delete
 delete_
 1
 0
+SetDelete
 )
 JS_FN
 (

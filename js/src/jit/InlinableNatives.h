@@ -519,6 +519,11 @@ MapConstructor
 \
 _
 (
+MapDelete
+)
+\
+_
+(
 MapGet
 )
 \
@@ -785,6 +790,11 @@ GetFirstDollarIndex
 _
 (
 SetConstructor
+)
+\
+_
+(
+SetDelete
 )
 \
 _

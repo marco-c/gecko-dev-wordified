@@ -3861,6 +3861,11 @@ tryAttachSetHas
 )
 ;
 AttachDecision
+tryAttachSetDelete
+(
+)
+;
+AttachDecision
 tryAttachSetAdd
 (
 )
@@ -3877,6 +3882,11 @@ tryAttachMapHas
 ;
 AttachDecision
 tryAttachMapGet
+(
+)
+;
+AttachDecision
+tryAttachMapDelete
 (
 )
 ;

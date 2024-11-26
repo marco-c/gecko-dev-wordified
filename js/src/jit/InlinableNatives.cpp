@@ -2006,6 +2006,12 @@ case
 InlinableNative
 :
 :
+MapDelete
+:
+case
+InlinableNative
+:
+:
 MapSet
 :
 case
@@ -2043,6 +2049,12 @@ InlinableNative
 :
 :
 SetHas
+:
+case
+InlinableNative
+:
+:
+SetDelete
 :
 case
 InlinableNative
