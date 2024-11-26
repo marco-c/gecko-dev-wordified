@@ -1931,6 +1931,9 @@ JitScript
 uint32_t
 icEntryIndex_
 ;
+uint32_t
+baseWarmUpThreshold_
+;
 bool
 compileDebugInstrumentation_
 ;
@@ -1961,6 +1964,8 @@ globalLexical
 JSObject
 *
 globalThis
+uint32_t
+baseWarmUpThreshold
 )
 ;
 [
@@ -2378,6 +2383,16 @@ return
 globalThis_
 ;
 }
+uint32_t
+baseWarmUpThreshold
+(
+)
+const
+{
+return
+baseWarmUpThreshold_
+;
+}
 }
 ;
 using
@@ -2475,6 +2490,8 @@ globalLexical
 JSObject
 *
 globalThis
+uint32_t
+baseWarmUpThreshold
 )
 ;
 [
