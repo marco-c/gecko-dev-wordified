@@ -312,9 +312,11 @@ if
 !
 presContext
 )
+{
 return
 nullptr
 ;
+}
 return
 presContext
 -
