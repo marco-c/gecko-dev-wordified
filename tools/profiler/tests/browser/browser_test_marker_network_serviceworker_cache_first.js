@@ -2016,6 +2016,11 @@ http
 .
 1
 "
+classOfService
+:
+"
+Unset
+"
 requestMethod
 :
 "
@@ -2173,6 +2178,11 @@ http
 .
 1
 "
+classOfService
+:
+"
+UrgentStart
+"
 contentType
 :
 null
@@ -2218,6 +2228,11 @@ status
 :
 "
 STATUS_STOP
+"
+classOfService
+:
+"
+UrgentStart
 "
 }
 )

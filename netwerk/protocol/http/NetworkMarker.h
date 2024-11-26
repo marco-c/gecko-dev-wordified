@@ -134,6 +134,13 @@ nsHttp
 .
 h
 "
+#
+include
+"
+nsIClassOfService
+.
+h
+"
 namespace
 mozilla
 {
@@ -206,6 +213,9 @@ net
 :
 HttpVersion
 aHttpVersion
+unsigned
+long
+aClassOfServiceFlag
 const
 mozilla
 :
