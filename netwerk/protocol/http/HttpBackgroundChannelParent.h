@@ -270,8 +270,8 @@ channel
 bool
 OnStartRequest
 (
-const
 nsHttpResponseHead
+&
 &
 aResponseHead
 const
