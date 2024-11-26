@@ -112,6 +112,15 @@ h
 #
 include
 "
+mozilla
+/
+Try
+.
+h
+"
+#
+include
+"
 WinRemoteMessage
 .
 h
@@ -315,6 +324,8 @@ Length
 )
 )
 {
+MOZ_TRY
+(
 NS_NewLocalFile
 (
 Substring
@@ -325,6 +336,7 @@ cch
 getter_AddRefs
 (
 workingDir
+)
 )
 )
 ;
@@ -561,9 +573,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-NS_NewLocalFile
-(
-NS_ConvertUTF8toUTF16
+NS_NewUTF8LocalFile
 (
 Substring
 (
@@ -572,7 +582,6 @@ pos
 nextNul
 -
 pos
-)
 )
 getter_AddRefs
 (

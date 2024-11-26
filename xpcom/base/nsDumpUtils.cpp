@@ -2827,6 +2827,13 @@ DOWNLOADS_DIRECTORY
 )
 )
 {
+Unused
+<
+<
+NS_WARN_IF
+(
+NS_FAILED
+(
 NS_NewNativeLocalFile
 (
 nsCString
@@ -2834,6 +2841,8 @@ nsCString
 env
 )
 aFile
+)
+)
 )
 ;
 }

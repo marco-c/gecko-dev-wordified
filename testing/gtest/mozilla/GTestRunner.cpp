@@ -1138,9 +1138,9 @@ path
 nsresult
 rv
 =
-NS_NewLocalFile
+NS_NewUTF8LocalFile
 (
-NS_ConvertUTF8toUTF16
+nsDependentCString
 (
 path
 )

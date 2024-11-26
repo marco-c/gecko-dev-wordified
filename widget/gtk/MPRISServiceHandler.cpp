@@ -4347,6 +4347,9 @@ nsIOutputStream
 >
 out
 ;
+nsresult
+rv
+=
 NS_NewLocalFileOutputStream
 (
 getter_AddRefs
@@ -4364,7 +4367,14 @@ PR_TRUNCATE
 uint32_t
 written
 ;
-nsresult
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 rv
 =
 out
@@ -4378,6 +4388,7 @@ aDataSize
 written
 )
 ;
+}
 if
 (
 NS_FAILED
