@@ -1838,11 +1838,6 @@ sel
 .
 content
 +
-"
-\
-n
-"
-+
 content_to_add
         
 #
