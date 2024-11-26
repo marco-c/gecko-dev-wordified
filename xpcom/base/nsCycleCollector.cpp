@@ -9042,7 +9042,7 @@ InputType
 :
 Uint32
 "
-GC
+Refcounted
 Objects
 Freed
 "
