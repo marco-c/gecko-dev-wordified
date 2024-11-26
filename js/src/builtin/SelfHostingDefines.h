@@ -697,7 +697,7 @@ iterators
 #
 define
 MAP_SET_ITERATOR_SLOT_ITEM_KIND
-2
+1
 #
 define
 ITEM_KIND_KEY
