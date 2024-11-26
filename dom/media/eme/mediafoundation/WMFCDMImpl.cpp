@@ -213,6 +213,13 @@ MFCDMChild
 mKeySystem
 )
 ;
+mCDM
+-
+>
+EnsureRemote
+(
+)
+;
 }
 RefPtr
 <
@@ -453,6 +460,13 @@ MFCDMChild
 request
 .
 mKeySystem
+)
+;
+cdm
+-
+>
+EnsureRemote
+(
 )
 ;
 promises
