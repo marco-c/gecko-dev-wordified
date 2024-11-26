@@ -1313,7 +1313,7 @@ ClearFloats
 (
 nscoord
 aBCoord
-StyleClear
+UsedClear
 aClearType
 nsIFrame
 *
@@ -3134,7 +3134,7 @@ ReflowPushedFloats
 (
 )
 .
-StyleClear
+UsedClear
 mTrailingClearFromPIF
 ;
 /
