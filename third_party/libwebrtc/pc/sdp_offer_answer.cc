@@ -407,6 +407,15 @@ h
 #
 include
 "
+call
+/
+payload_type
+.
+h
+"
+#
+include
+"
 media
 /
 base
@@ -10103,6 +10112,9 @@ dependencies
 ConnectionContext
 *
 context
+PayloadTypeSuggester
+*
+pt_suggester
 )
 {
 auto
@@ -10129,6 +10141,7 @@ Initialize
 configuration
 dependencies
 context
+pt_suggester
 )
 ;
 return
@@ -10154,6 +10167,9 @@ dependencies
 ConnectionContext
 *
 context
+PayloadTypeSuggester
+*
+pt_suggester
 )
 {
 RTC_DCHECK_RUN_ON
@@ -10401,6 +10417,7 @@ certificate
 )
 ;
 }
+pt_suggester
 pc_
 -
 >
