@@ -1813,7 +1813,7 @@ if
 document
 )
 {
-AssociatedElementsIterator
+IDRefsIterator
 iter
 (
 document
