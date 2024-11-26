@@ -6353,6 +6353,9 @@ embedClicked
 smartblockGetFluentString
 "
 ]
+isSmartblockEmbedShim
+:
+true
 onlyIfBlockedByETP
 :
 true
