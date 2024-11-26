@@ -134,7 +134,7 @@ installer
 .
 tar
 .
-xz
+bz2
 "
 )
 config

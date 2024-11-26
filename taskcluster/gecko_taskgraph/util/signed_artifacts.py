@@ -787,7 +787,7 @@ target
 .
 tar
 .
-xz
+bz2
 "
 )
 ]

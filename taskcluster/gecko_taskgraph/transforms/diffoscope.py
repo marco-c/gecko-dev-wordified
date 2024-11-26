@@ -338,7 +338,7 @@ target
 .
 tar
 .
-xz
+bz2
         
 #
 for
@@ -776,7 +776,7 @@ target
 .
 tar
 .
-xz
+bz2
 "
             
 elif

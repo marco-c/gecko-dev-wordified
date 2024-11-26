@@ -2780,7 +2780,7 @@ target
 .
 tar
 .
-xz
+bz2
 (
 Linux
 )
