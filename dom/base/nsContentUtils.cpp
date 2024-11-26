@@ -38237,8 +38237,6 @@ nsString
 aTargetSpec
 bool
 aClick
-bool
-aIsTrusted
 )
 {
 MOZ_ASSERT
@@ -38701,7 +38699,6 @@ UserActivation
 IsHandlingUserInput
 (
 )
-aIsTrusted
 triggeringPrincipal
 csp
 )

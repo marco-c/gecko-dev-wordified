@@ -18603,12 +18603,6 @@ anchorNode
 uri
 target
 clicked
-/
-*
-isTrusted
-*
-/
-true
 )
 ;
 }

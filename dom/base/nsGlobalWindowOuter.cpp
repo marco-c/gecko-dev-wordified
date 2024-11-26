@@ -45615,6 +45615,10 @@ full
 blown
 AutoEntryScript
 .
+(
+Bug
+1930445
+)
 const
 bool
 checkForPopup
