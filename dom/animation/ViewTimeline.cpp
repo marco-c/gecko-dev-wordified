@@ -357,12 +357,9 @@ FindNearestScroller
 aTarget
 .
 mElement
-PseudoStyleRequest
-(
 aTarget
 .
-mPseudoType
-)
+mPseudoRequest
 )
 ;
 Scroller
@@ -400,7 +397,9 @@ aTarget
 mElement
 aTarget
 .
-mPseudoType
+mPseudoRequest
+.
+mType
 aInset
 )
 ;

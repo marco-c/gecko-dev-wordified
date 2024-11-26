@@ -555,7 +555,9 @@ mElement
 target
 -
 >
-mPseudoType
+mPseudoRequest
+.
+mType
 )
 ;
 }
@@ -648,7 +650,9 @@ mElement
 target
 -
 >
-mPseudoType
+mPseudoRequest
+.
+mType
 )
 ;
 }
@@ -704,7 +708,9 @@ target
 mElement
 target
 .
-mPseudoType
+mPseudoRequest
+.
+mType
 )
 ;
 }

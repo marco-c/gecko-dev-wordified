@@ -1690,8 +1690,10 @@ dom
 Element
 *
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 const
 ComputedStyle
 *
@@ -2488,8 +2490,10 @@ dom
 Element
 *
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 const
 ComputedStyle
 *
@@ -2518,7 +2522,7 @@ GetComputedKeyframeValues
 (
 aKeyframes
 aElement
-aPseudoType
+aPseudoRequest
 aStyle
 )
 ;
@@ -5666,8 +5670,10 @@ dom
 Element
 *
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 const
 ComputedStyle
 *
@@ -5773,7 +5779,7 @@ GetComputedKeyframeValuesFor
 (
 aKeyframes
 aElement
-aPseudoType
+aPseudoRequest
 aComputedStyle
 )
 ;
