@@ -708,7 +708,7 @@ VideoProcessorD3D11
 )
 {
 }
-bool
+HRESULT
 VideoProcessorD3D11
 :
 :
@@ -732,7 +732,7 @@ aSize
 )
 {
 return
-true
+S_OK
 ;
 }
 mVideoProcessorEnumerator
@@ -876,7 +876,7 @@ hr
 )
 ;
 return
-false
+hr
 ;
 }
 hr
@@ -923,7 +923,7 @@ hr
 )
 ;
 return
-false
+hr
 ;
 }
 /
@@ -960,7 +960,7 @@ mSize
 aSize
 ;
 return
-true
+S_OK
 ;
 }
 bool
