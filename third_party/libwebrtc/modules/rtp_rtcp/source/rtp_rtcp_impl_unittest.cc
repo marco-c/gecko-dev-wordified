@@ -923,10 +923,6 @@ Create
 clock
 )
 )
-clock_
-(
-clock
-)
 {
 CreateModuleImpl
 (
@@ -1137,12 +1133,6 @@ false
 ;
 config
 .
-clock
-=
-clock_
-;
-config
-.
 outgoing_transport
 =
 &
@@ -1235,11 +1225,6 @@ kCompound
 )
 ;
 }
-SimulatedClock
-*
-const
-clock_
-;
 std
 :
 :
