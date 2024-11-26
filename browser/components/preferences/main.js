@@ -2849,7 +2849,7 @@ warnOnQuitKey
 "
 )
 "
-confirm
+ask
 -
 on
 -
