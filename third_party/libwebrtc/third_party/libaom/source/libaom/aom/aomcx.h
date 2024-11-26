@@ -13,7 +13,7 @@ tab
 -
 width
 :
-2
+8
 ;
 indent
 -
@@ -34,13 +34,13 @@ offset
 *
 -
 *
-/
-/
-*
 vim
 :
 set
 ts
+=
+8
+sts
 =
 2
 et
@@ -51,9 +51,6 @@ tw
 =
 80
 :
-*
-/
-/
 *
 *
 Copyright
