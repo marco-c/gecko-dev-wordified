@@ -1897,6 +1897,9 @@ case
 kRGBA_F16_SkColorType
 :
 case
+kRGB_F16F16F16x_SkColorType
+:
+case
 kRGBA_F16Norm_SkColorType
 :
 case

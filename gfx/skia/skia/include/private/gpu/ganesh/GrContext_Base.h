@@ -57,6 +57,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrTypes
 .
 h

@@ -206,7 +206,6 @@ Kind
 fKind
 ;
 }
-virtual
 const
 Type
 &

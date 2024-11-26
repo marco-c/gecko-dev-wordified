@@ -171,8 +171,6 @@ const
 FunctionDeclaration
 *
 declaration
-bool
-builtin
 std
 :
 :
@@ -191,10 +189,6 @@ kIRNodeKind
 fDeclaration
 (
 declaration
-)
-fBuiltin
-(
-builtin
 )
 fBody
 (
@@ -379,8 +373,6 @@ unique_ptr
 Statement
 >
 body
-bool
-builtin
 )
 ;
 static
@@ -411,8 +403,6 @@ unique_ptr
 Statement
 >
 body
-bool
-builtin
 )
 ;
 const
@@ -426,16 +416,6 @@ const
 return
 *
 fDeclaration
-;
-}
-bool
-isBuiltin
-(
-)
-const
-{
-return
-fBuiltin
 ;
 }
 std
@@ -516,9 +496,6 @@ const
 FunctionDeclaration
 *
 fDeclaration
-;
-bool
-fBuiltin
 ;
 std
 :

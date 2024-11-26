@@ -1806,7 +1806,7 @@ inset
 ;
 SkASSERT
 (
-SkScalarIsFinite
+SkIsFinite
 (
 ratio
 )
@@ -6332,7 +6332,7 @@ size
 |
 |
 !
-SkScalarIsFinite
+SkIsFinite
 (
 fArea
 )
@@ -7028,7 +7028,7 @@ size
 |
 |
 !
-SkScalarIsFinite
+SkIsFinite
 (
 fArea
 )
@@ -8323,7 +8323,7 @@ SK_ScalarNearlyZero
 |
 |
 !
-SkScalarIsFinite
+SkIsFinite
 (
 lightRadius
 )

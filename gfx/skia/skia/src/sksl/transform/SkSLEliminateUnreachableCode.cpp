@@ -74,7 +74,7 @@ src
 /
 sksl
 /
-SkSLCompiler
+SkSLDefines
 .
 h
 "
@@ -85,7 +85,7 @@ src
 /
 sksl
 /
-SkSLDefines
+SkSLModule
 .
 h
 "

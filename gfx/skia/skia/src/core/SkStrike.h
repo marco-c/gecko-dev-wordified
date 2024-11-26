@@ -545,6 +545,8 @@ SkPath
 path
 bool
 hairline
+bool
+modified
 )
 SK_EXCLUDES
 (

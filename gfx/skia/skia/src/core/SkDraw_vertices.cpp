@@ -2728,7 +2728,7 @@ below
 if
 (
 !
-SkScalarsAreFinite
+SkIsFinite
 (
 (
 const

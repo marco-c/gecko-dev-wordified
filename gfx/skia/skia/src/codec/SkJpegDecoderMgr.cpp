@@ -638,7 +638,8 @@ false
 {
 /
 /
-Error
+An
+error
 manager
 must
 be
@@ -647,12 +648,13 @@ before
 any
 calls
 to
-libjeg
+libjpeg
 in
 order
 to
 handle
 failures
+.
 fDInfo
 .
 err

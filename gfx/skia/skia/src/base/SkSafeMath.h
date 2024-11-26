@@ -391,12 +391,14 @@ alignment
 template
 <
 typename
-T
+TDst
+typename
+TSrc
 >
-T
+TDst
 castTo
 (
-size_t
+TSrc
 value
 )
 {
@@ -405,7 +407,8 @@ if
 !
 SkTFitsIn
 <
-T
+TDst
+TSrc
 >
 (
 value
@@ -420,7 +423,7 @@ false
 return
 static_cast
 <
-T
+TDst
 >
 (
 value

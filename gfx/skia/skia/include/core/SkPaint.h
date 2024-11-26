@@ -1128,7 +1128,7 @@ param
 dither
 setting
 for
-ditering
+dithering
 *
 /
 void

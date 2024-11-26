@@ -2536,10 +2536,6 @@ SkPoint
 p1
 )
 {
-fRiteE
-=
-nullptr
-;
 /
 /
 We
@@ -3382,10 +3378,6 @@ pts
 ]
 )
 {
-fRiteE
-=
-nullptr
-;
 if
 (
 !
@@ -3955,10 +3947,6 @@ bool
 sortY
 )
 {
-fRiteE
-=
-nullptr
-;
 if
 (
 !

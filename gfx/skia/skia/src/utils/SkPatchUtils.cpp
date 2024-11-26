@@ -1176,7 +1176,7 @@ i
 ;
 }
 return
-SkScalarIsFinite
+SkIsFinite
 (
 arcLength
 )

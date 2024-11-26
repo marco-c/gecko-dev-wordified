@@ -61,7 +61,7 @@ src
 /
 sksl
 /
-SkSLCompiler
+SkSLConstantFolder
 .
 h
 "
@@ -72,7 +72,7 @@ src
 /
 sksl
 /
-SkSLConstantFolder
+SkSLModule
 .
 h
 "

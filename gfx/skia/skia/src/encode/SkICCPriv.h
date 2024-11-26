@@ -46,13 +46,10 @@ include
 /
 core
 /
-SkTypes
+SkFourByteTag
 .
 h
 "
-/
-/
-SkSetFourByteTag
 #
 include
 <

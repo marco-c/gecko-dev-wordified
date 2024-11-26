@@ -46,6 +46,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrBackendSemaphore
 .
 h

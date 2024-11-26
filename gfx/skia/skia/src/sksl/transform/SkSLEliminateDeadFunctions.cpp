@@ -39,7 +39,7 @@ src
 /
 sksl
 /
-SkSLCompiler
+SkSLContext
 .
 h
 "
@@ -50,7 +50,7 @@ src
 /
 sksl
 /
-SkSLContext
+SkSLModule
 .
 h
 "

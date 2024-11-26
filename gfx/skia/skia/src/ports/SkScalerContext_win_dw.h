@@ -190,6 +190,8 @@ SkGlyph
 &
 SkPath
 *
+bool
+*
 )
 override
 ;

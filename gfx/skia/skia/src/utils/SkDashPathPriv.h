@@ -50,6 +50,17 @@ SkPathEffect
 .
 h
 "
+#
+include
+"
+src
+/
+core
+/
+SkPathEffectBase
+.
+h
+"
 namespace
 SkDashPath
 {
@@ -174,7 +185,7 @@ const
 SkRect
 *
 const
-SkPathEffect
+SkPathEffectBase
 :
 :
 DashInfo

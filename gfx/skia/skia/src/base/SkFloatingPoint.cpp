@@ -58,6 +58,11 @@ cmath
 #
 include
 <
+cstring
+>
+#
+include
+<
 limits
 >
 /

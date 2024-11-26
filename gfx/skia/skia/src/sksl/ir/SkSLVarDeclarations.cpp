@@ -2679,7 +2679,9 @@ context
 fConfig
 -
 >
-fIsBuiltinCode
+isBuiltinCode
+(
+)
 )
 {
 permittedLayoutFlags

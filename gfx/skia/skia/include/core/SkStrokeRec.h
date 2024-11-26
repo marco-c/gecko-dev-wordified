@@ -88,6 +88,11 @@ h
 #
 include
 <
+cmath
+>
+#
+include
+<
 cstdint
 >
 class
@@ -390,7 +395,10 @@ rs
 0
 &
 &
-SkScalarIsFinite
+std
+:
+:
+isfinite
 (
 rs
 )

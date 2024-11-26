@@ -85,17 +85,6 @@ src
 /
 sksl
 /
-SkSLDefines
-.
-h
-"
-#
-include
-"
-src
-/
-sksl
-/
 analysis
 /
 SkSLProgramUsage

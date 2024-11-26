@@ -95,7 +95,7 @@ include
 /
 core
 /
-SkScalar
+SkShader
 .
 h
 "
@@ -104,9 +104,11 @@ include
 "
 include
 /
-core
+private
 /
-SkShader
+base
+/
+SkFloatingPoint
 .
 h
 "
@@ -866,7 +868,7 @@ space
 if
 (
 !
-SkScalarsAreFinite
+SkIsFinite
 (
 color
 .

@@ -3256,7 +3256,7 @@ len
 0
 &
 &
-SkScalarIsFinite
+SkIsFinite
 (
 len
 )
@@ -3977,7 +3977,10 @@ cot
 sk_ieee_float_divide
 (
 1
-sk_float_tan
+std
+:
+:
+tan
 (
 halfAngle
 )

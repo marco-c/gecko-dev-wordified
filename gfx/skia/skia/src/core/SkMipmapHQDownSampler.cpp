@@ -4518,6 +4518,16 @@ use
 1010102
 ?
 case
+kRGB_F16F16F16x_SkColorType
+:
+/
+/
+TODO
+:
+use
+F16
+?
+case
 kBGRA_10101010_XR_SkColorType
 :
 case

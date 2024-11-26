@@ -67,6 +67,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrRecordingContext
 .
 h

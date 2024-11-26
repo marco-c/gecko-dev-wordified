@@ -57,7 +57,7 @@ include
 /
 core
 /
-SkScalar
+SkFourByteTag
 .
 h
 "
@@ -72,6 +72,11 @@ SkTypes
 .
 h
 "
+#
+include
+<
+cstdint
+>
 /
 *
 *

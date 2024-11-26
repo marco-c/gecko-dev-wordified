@@ -3025,6 +3025,9 @@ GetBackdropScaleFactor
 (
 rec
 )
+rec
+.
+fBackdropTileMode
 std
 :
 :

@@ -139,6 +139,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrBackendSurface
 .
 h
@@ -150,6 +152,8 @@ include
 /
 gpu
 /
+ganesh
+/
 GrContextThreadSafeProxy
 .
 h
@@ -160,6 +164,8 @@ include
 include
 /
 gpu
+/
+ganesh
 /
 GrTypes
 .

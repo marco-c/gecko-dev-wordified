@@ -94,7 +94,7 @@ src
 /
 sksl
 /
-SkSLCompiler
+SkSLModule
 .
 h
 "

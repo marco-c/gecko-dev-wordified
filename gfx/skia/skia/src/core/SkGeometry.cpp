@@ -526,7 +526,7 @@ denom
 ;
 if
 (
-SkScalarIsNaN
+SkIsNaN
 (
 r
 )
@@ -815,7 +815,7 @@ dr
 if
 (
 !
-SkScalarIsFinite
+SkIsFinite
 (
 R
 )
@@ -3374,7 +3374,7 @@ t
 )
 |
 |
-SkScalarIsNaN
+SkIsNaN
 (
 t
 )
@@ -12929,7 +12929,7 @@ fX
 )
 ;
 return
-SkScalarsAreFinite
+SkIsFinite
 (
 &
 dst
@@ -14458,7 +14458,7 @@ tol
 |
 |
 !
-SkScalarIsFinite
+SkIsFinite
 (
 tol
 )
@@ -17188,7 +17188,7 @@ finalP
 ;
 if
 (
-SkScalarIsNaN
+SkIsNaN
 (
 dot
 )

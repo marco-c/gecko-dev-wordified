@@ -187,6 +187,19 @@ private
 /
 base
 /
+SkFloatingPoint
+.
+h
+"
+#
+include
+"
+include
+/
+private
+/
+base
+/
 SkPoint_impl
 .
 h
@@ -693,7 +706,7 @@ SkDebugf
 "
 edging
 %
-d
+u
 \
 n
 "
@@ -708,7 +721,7 @@ SkDebugf
 "
 hinting
 %
-d
+u
 \
 n
 "
@@ -2844,7 +2857,7 @@ textLocation
 ;
 if
 (
-SkScalarIsFinite
+SkIsFinite
 (
 maxScaleSq
 )

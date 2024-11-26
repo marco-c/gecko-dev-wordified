@@ -189,6 +189,12 @@ return
 kRGBA_SkColorChannelFlags
 ;
 case
+kRGB_F16F16F16x_SkColorType
+:
+return
+kRGB_SkColorChannelFlags
+;
+case
 kRGBA_F32_SkColorType
 :
 return
@@ -392,6 +398,12 @@ return
 ;
 case
 kRGBA_F16_SkColorType
+:
+return
+3
+;
+case
+kRGB_F16F16F16x_SkColorType
 :
 return
 3
@@ -646,6 +658,9 @@ case
 kBGR_101010x_XR_SkColorType
 :
 case
+kRGB_F16F16F16x_SkColorType
+:
+case
 kRGBA_F16_SkColorType
 :
 case
@@ -761,6 +776,9 @@ kR16G16B16A16_unorm_SkColorType
 :
 case
 kRGBA_F16_SkColorType
+:
+case
+kRGB_F16F16F16x_SkColorType
 :
 case
 kR16G16_float_SkColorType

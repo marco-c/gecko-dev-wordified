@@ -76,6 +76,11 @@ include
 cinttypes
 >
 #
+include
+<
+cstdint
+>
+#
 if
 !
 defined
@@ -776,6 +781,9 @@ lock
 \
 n
 "
+(
+uint64_t
+)
 threadID
 )
 ;
@@ -807,6 +815,9 @@ lock
 \
 n
 "
+(
+uint64_t
+)
 threadID
 )
 ;
@@ -971,6 +982,9 @@ held
 \
 n
 "
+(
+uint64_t
+)
 threadID
 )
 ;
@@ -1173,6 +1187,9 @@ waiting
 \
 n
 "
+(
+uint64_t
+)
 threadID
 )
 ;
@@ -1209,6 +1226,9 @@ lock
 \
 n
 "
+(
+uint64_t
+)
 threadID
 )
 ;
@@ -1308,6 +1328,9 @@ lock
 \
 n
 "
+(
+uint64_t
+)
 threadID
 )
 ;

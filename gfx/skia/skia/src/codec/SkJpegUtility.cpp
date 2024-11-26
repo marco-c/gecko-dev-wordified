@@ -155,14 +155,17 @@ skjpeg_error_mgr
 *
 error
 =
-(
+static_cast
+<
 skjpeg_error_mgr
 *
-)
+>
+(
 dinfo
 -
 >
 err
+)
 ;
 (
 *
@@ -389,7 +392,7 @@ bytes_in_buffer
 0
 ;
 return
-false
+FALSE
 ;
 }
 src
@@ -415,7 +418,7 @@ bytes_in_buffer
 bytes
 ;
 return
-true
+TRUE
 ;
 }
 /
@@ -808,7 +811,7 @@ error
 *
 /
 return
-false
+FALSE
 ;
 }
 /

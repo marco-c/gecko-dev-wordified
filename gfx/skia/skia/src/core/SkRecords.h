@@ -331,6 +331,10 @@ enum
 class
 SkClipOp
 ;
+enum
+class
+SkTileMode
+;
 struct
 SkPoint
 ;
@@ -1332,6 +1336,9 @@ saveLayerFlags
 ;
 SkScalar
 backdropScale
+;
+SkTileMode
+backdropTileMode
 ;
 skia_private
 :

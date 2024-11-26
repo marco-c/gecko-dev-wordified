@@ -68,6 +68,19 @@ private
 /
 base
 /
+SkFloatingPoint
+.
+h
+"
+#
+include
+"
+include
+/
+private
+/
+base
+/
 SkMalloc
 .
 h
@@ -1189,7 +1202,7 @@ NaNs
 )
 if
 (
-SkScalarIsNaN
+SkIsNaN
 (
 value
 )
@@ -1212,7 +1225,7 @@ string
 if
 (
 !
-SkScalarIsFinite
+SkIsFinite
 (
 value
 )

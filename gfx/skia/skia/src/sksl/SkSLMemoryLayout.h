@@ -1661,6 +1661,16 @@ false
 ;
 }
 }
+Standard
+getStandard
+(
+)
+const
+{
+return
+fStd
+;
+}
 private
 :
 static

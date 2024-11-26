@@ -500,6 +500,9 @@ glyph
 SkPath
 *
 path
+bool
+*
+modified
 )
 {
 TRACE_EVENT1

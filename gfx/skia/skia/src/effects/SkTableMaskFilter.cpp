@@ -1027,10 +1027,7 @@ const
 float
 g
 =
-SkScalarToFloat
-(
 gamma
-)
 ;
 float
 x

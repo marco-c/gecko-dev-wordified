@@ -4266,6 +4266,9 @@ glyph
 SkPath
 *
 path
+bool
+*
+modified
 )
 override
 ;
@@ -7433,7 +7436,10 @@ f
 ;
 x
 =
-sk_float_pow
+std
+:
+:
+pow
 (
 x
 ee
@@ -11460,6 +11466,9 @@ glyph
 SkPath
 *
 path
+bool
+*
+modified
 )
 {
 SkASSERT
@@ -15476,6 +15485,13 @@ rec
 )
 const
 {
+rec
+-
+>
+useStrokeForFakeBold
+(
+)
+;
 if
 (
 rec

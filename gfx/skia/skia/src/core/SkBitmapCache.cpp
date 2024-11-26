@@ -62,6 +62,17 @@ include
 /
 core
 /
+SkFourByteTag
+.
+h
+"
+#
+include
+"
+include
+/
+core
+/
 SkImage
 .
 h

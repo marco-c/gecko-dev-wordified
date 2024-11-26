@@ -987,7 +987,7 @@ false
 if
 (
 !
-SkScalarIsFinite
+SkIsFinite
 (
 seed
 )

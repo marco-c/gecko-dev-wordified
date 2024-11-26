@@ -46,6 +46,17 @@ include
 /
 core
 /
+SkFourByteTag
+.
+h
+"
+#
+include
+"
+include
+/
+core
+/
 SkTypes
 .
 h

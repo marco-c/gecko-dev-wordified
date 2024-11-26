@@ -45,6 +45,8 @@ include
 /
 gpu
 /
+ganesh
+/
 gl
 /
 GrGLTypes

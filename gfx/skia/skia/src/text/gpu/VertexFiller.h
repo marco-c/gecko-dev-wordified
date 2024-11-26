@@ -131,11 +131,6 @@ h
 #
 include
 <
-cstddef
->
-#
-include
-<
 optional
 >
 #
@@ -189,6 +184,11 @@ AtlasTextOp
 .
 h
 "
+#
+include
+<
+cstddef
+>
 #
 endif
 /
@@ -648,7 +648,7 @@ flags
 skvx
 :
 :
-ushort2
+uint2
 ssboIndex
 SkSpan
 <

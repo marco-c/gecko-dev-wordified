@@ -1071,12 +1071,12 @@ kMaxLinearRadius
 KEEP
 IN
 SYNC
-W
-/
-SkKnownRuntimeEffects
+WITH
+CONSTANT
+IN
+sksl_rt_shader
 .
-cpp
-VERSION
+sksl
 sk_sp
 <
 SkShader

@@ -177,7 +177,10 @@ endif
 #
 define
 SkDoubleIsNaN
-sk_double_isnan
+std
+:
+:
+isnan
 class
 SkTCoincident
 {

@@ -218,7 +218,7 @@ matrix
 if
 (
 !
-SkScalarsAreFinite
+SkIsFinite
 (
 outMatrix
 4
@@ -571,7 +571,7 @@ matrix
 if
 (
 !
-SkScalarsAreFinite
+SkIsFinite
 (
 outMatrix
 9
@@ -1290,7 +1290,7 @@ matrix
 if
 (
 !
-SkScalarsAreFinite
+SkIsFinite
 (
 outMatrix
 16

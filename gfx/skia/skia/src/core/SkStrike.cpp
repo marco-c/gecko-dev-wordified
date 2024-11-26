@@ -1207,6 +1207,8 @@ SkPath
 path
 bool
 hairline
+bool
+modified
 )
 {
 Monitor
@@ -1256,6 +1258,7 @@ setPath
 fAlloc
 path
 hairline
+modified
 )
 )
 {
@@ -2168,7 +2171,7 @@ s
 %
 s_
 %
-d
+u
 /
 %
 p

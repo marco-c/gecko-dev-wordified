@@ -247,13 +247,14 @@ Block
 )
 ;
 return
+!
 block
 .
 children
 (
 )
 .
-size
+empty
 (
 )
 &

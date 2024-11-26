@@ -2196,7 +2196,7 @@ dst
 x
 ]
 =
-SkPackARGB32NoCheck
+SkPackARGB32
 (
 0xFF
 *
@@ -2469,7 +2469,7 @@ dst32
 x
 ]
 =
-SkPackARGB32NoCheck
+SkPackARGB32
 (
 src
 [
@@ -2675,7 +2675,7 @@ dst32
 x
 ]
 =
-SkPackARGB32NoCheck
+SkPackARGB32
 (
 src
 [
@@ -6034,6 +6034,10 @@ SkCodec
 Options
 &
 options
+const
+SkIRect
+*
+frame
 )
 {
 RowProc
@@ -6151,12 +6155,7 @@ bytesPerPixel
 (
 )
 options
-nullptr
-/
-*
 frame
-*
-/
 )
 ;
 }

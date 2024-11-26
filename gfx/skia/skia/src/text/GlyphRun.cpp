@@ -152,11 +152,6 @@ include
 <
 cstring
 >
-#
-include
-<
-initializer_list
->
 class
 SkPaint
 ;

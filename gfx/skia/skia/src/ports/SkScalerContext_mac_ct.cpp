@@ -5163,6 +5163,9 @@ glyph
 SkPath
 *
 path
+bool
+*
+modified
 )
 {
 SkScalar

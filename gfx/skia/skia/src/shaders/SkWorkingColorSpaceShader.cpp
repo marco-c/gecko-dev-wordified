@@ -529,10 +529,7 @@ nullptr
 ;
 }
 return
-sk_make_sp
-<
-SkWorkingColorSpaceShader
->
+Make
 (
 std
 :

@@ -130,10 +130,7 @@ SkScalarToDouble
 scalar
 )
 :
-SkScalarToFloat
-(
 scalar
-)
 ;
 }
 static
@@ -153,10 +150,7 @@ SkDoubleToScalar
 cgFloat
 )
 :
-SkFloatToScalar
-(
 cgFloat
-)
 ;
 }
 static

@@ -103,6 +103,16 @@ CFBundleGetMainBundle
 (
 )
 ;
+if
+(
+!
+mainBundle
+)
+{
+return
+false
+;
+}
 /
 /
 Get

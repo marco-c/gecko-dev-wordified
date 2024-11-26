@@ -1660,6 +1660,9 @@ kSuccess
 namespace
 SkAvifDecoder
 {
+namespace
+LibAvif
+{
 bool
 IsAvif
 (
@@ -1817,6 +1820,11 @@ nullptr
 )
 ;
 }
+}
+/
+/
+namespace
+LibAvif
 }
 /
 /

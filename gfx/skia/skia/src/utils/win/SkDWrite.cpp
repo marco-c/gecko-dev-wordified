@@ -191,7 +191,7 @@ DWriteCreateFactoryProc
 (
 GetProcAddress
 (
-LoadLibraryW
+LoadLibraryExW
 (
 L
 "
@@ -199,6 +199,8 @@ DWriteCore
 .
 dll
 "
+NULL
+LOAD_LIBRARY_SEARCH_DEFAULT_DIRS
 )
 "
 DWriteCoreCreateFactory
@@ -221,7 +223,7 @@ DWriteCreateFactoryProc
 (
 GetProcAddress
 (
-LoadLibraryW
+LoadLibraryExW
 (
 L
 "
@@ -229,6 +231,8 @@ dwrite
 .
 dll
 "
+NULL
+LOAD_LIBRARY_SEARCH_DEFAULT_DIRS
 )
 "
 DWriteCreateFactory
@@ -959,7 +963,7 @@ SkGetUserDefaultLocaleNameProc
 (
 GetProcAddress
 (
-LoadLibraryW
+LoadLibraryExW
 (
 L
 "
@@ -967,6 +971,8 @@ Kernel32
 .
 dll
 "
+NULL
+LOAD_LIBRARY_SEARCH_SYSTEM32
 )
 "
 GetUserDefaultLocaleName

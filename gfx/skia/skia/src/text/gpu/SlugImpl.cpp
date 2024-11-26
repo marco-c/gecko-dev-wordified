@@ -413,15 +413,6 @@ wrong
 while
 reading
 .
-SkASSERT
-(
-buffer
-.
-isValid
-(
-)
-)
-;
 if
 (
 !

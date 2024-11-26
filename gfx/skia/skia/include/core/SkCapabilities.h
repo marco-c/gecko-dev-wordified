@@ -78,12 +78,6 @@ struct
 ShaderCaps
 ;
 }
-#
-if
-defined
-(
-SK_GRAPHITE
-)
 namespace
 skgpu
 :
@@ -94,8 +88,6 @@ class
 Caps
 ;
 }
-#
-endif
 class
 SK_API
 SkCapabilities
@@ -130,12 +122,6 @@ fSkSLVersion
 }
 protected
 :
-#
-if
-defined
-(
-SK_GRAPHITE
-)
 friend
 class
 skgpu
@@ -150,8 +136,6 @@ Caps
 /
 for
 ctor
-#
-endif
 SkCapabilities
 (
 )

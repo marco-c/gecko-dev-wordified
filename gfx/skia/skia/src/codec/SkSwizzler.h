@@ -395,6 +395,12 @@ SkCodec
 :
 Options
 &
+const
+SkIRect
+*
+frame
+=
+nullptr
 )
 ;
 /

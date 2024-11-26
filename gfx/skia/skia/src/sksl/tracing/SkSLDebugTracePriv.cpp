@@ -1588,9 +1588,6 @@ SkStream
 r
 )
 {
-return
-false
-;
 }
 }
 /

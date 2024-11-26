@@ -140,8 +140,6 @@ SkScalar
 build_distance_adjust_table
 (
 SkScalar
-paintGamma
-SkScalar
 deviceGamma
 )
 {
@@ -627,7 +625,6 @@ SkScalerContext
 GetGammaLUTSize
 (
 contrast
-paintGamma
 deviceGamma
 &
 width
@@ -674,7 +671,6 @@ SkScalerContext
 GetGammaLUTData
 (
 contrast
-paintGamma
 deviceGamma
 data
 .
@@ -1018,14 +1014,12 @@ fTable
 build_distance_adjust_table
 (
 SK_GAMMA_EXPONENT
-SK_GAMMA_EXPONENT
 )
 ;
 fGammaCorrectTable
 =
 build_distance_adjust_table
 (
-SK_Scalar1
 SK_Scalar1
 )
 ;
