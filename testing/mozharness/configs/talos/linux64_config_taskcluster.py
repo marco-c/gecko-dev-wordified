@@ -119,7 +119,7 @@ installer
 .
 tar
 .
-bz2
+xz
 "
 )
 config

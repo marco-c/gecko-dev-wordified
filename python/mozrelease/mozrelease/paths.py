@@ -59,6 +59,11 @@ urllib
 parse
 import
 urlunsplit
+from
+.
+versions
+import
+MozillaVersion
 product_ftp_map
 =
 {
@@ -274,10 +279,15 @@ directory
 def
 getReleaseInstallerPath
 (
+    
 productName
+    
 brandName
+    
 version
+    
 platform
+    
 locale
 =
 "
@@ -285,6 +295,10 @@ en
 -
 US
 "
+    
+last_linux_bz2_version
+=
+None
 )
 :
     
@@ -309,6 +323,36 @@ linux
 "
 )
 :
+            
+compression
+=
+"
+bz2
+"
+            
+if
+last_linux_bz2_version
+and
+(
+                
+MozillaVersion
+(
+version
+)
+>
+MozillaVersion
+(
+last_linux_bz2_version
+)
+            
+)
+:
+                
+compression
+=
+"
+xz
+"
             
 return
 "
@@ -347,12 +391,14 @@ s
 .
 tar
 .
-bz2
+%
+s
 "
 %
 (
 productName
 version
+compression
 )
                     
 ]
@@ -482,10 +528,7 @@ Unsupported
 platform
 "
     
-else
-:
-        
-if
+elif
 platform
 .
 startswith
@@ -495,7 +538,7 @@ android
 "
 )
 :
-            
+        
 filename
 =
 "
@@ -520,7 +563,7 @@ productName
 version
 locale
 )
-            
+        
 return
 "
 /
@@ -547,10 +590,10 @@ filename
 ]
 ]
 )
-        
+    
 else
 :
-            
+        
 raise
 "
 Unsupported
