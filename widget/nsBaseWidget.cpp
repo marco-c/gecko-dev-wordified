@@ -16402,6 +16402,11 @@ if
 (
 aPanInput
 .
+mHandledByAPZ
+&
+&
+aPanInput
+.
 AllowsSwipe
 (
 )
