@@ -997,6 +997,13 @@ priority
 ;
 static
 constexpr
+bool
+IsStackBased
+=
+true
+;
+static
+constexpr
 MS
 :
 :
