@@ -3814,8 +3814,10 @@ if
 (
 inSafeMode
 )
+{
 return
 ;
+}
 }
 nsCOMPtr
 <
@@ -3879,8 +3881,10 @@ if
 !
 chromeFile
 )
+{
 return
 ;
+}
 contentFile
 -
 >

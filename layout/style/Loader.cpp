@@ -4033,9 +4033,11 @@ kCharsetSym
 -
 1
 )
+{
 return
 false
 ;
+}
 if
 (
 strncmp
