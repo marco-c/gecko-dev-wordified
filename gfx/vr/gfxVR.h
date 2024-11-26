@@ -182,9 +182,7 @@ include
 "
 mozilla
 /
-dom
-/
-TiedFields
+EnumeratedArray
 .
 h
 "
@@ -193,7 +191,7 @@ include
 "
 mozilla
 /
-EnumeratedArray
+TiedFields
 .
 h
 "
