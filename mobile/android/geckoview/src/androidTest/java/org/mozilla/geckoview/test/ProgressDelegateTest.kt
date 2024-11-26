@@ -135,12 +135,6 @@ org
 .
 junit
 .
-Ignore
-import
-org
-.
-junit
-.
 Test
 import
 org
@@ -692,7 +686,6 @@ true
 }
 )
 }
-Ignore
 Test
 fun
 multipleLoads
