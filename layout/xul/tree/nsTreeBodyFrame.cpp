@@ -8239,8 +8239,6 @@ mozTreeTwisty
 )
 ;
 }
-else
-{
 return
 nsCSSAnonBoxes
 :
@@ -8249,7 +8247,6 @@ mozTreeCell
 (
 )
 ;
-}
 }
 if
 (
@@ -8597,8 +8594,6 @@ mozTreeCellText
 )
 ;
 }
-else
-{
 return
 nsCSSAnonBoxes
 :
@@ -8607,7 +8602,6 @@ mozTreeCell
 (
 )
 ;
-}
 }
 void
 nsTreeBodyFrame
