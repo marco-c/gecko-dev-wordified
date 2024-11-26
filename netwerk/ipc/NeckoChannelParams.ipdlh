@@ -3615,6 +3615,9 @@ loadInfo
 nsCString
 contentType
 ;
+uint64_t
+channelId
+;
 }
 ;
 struct
