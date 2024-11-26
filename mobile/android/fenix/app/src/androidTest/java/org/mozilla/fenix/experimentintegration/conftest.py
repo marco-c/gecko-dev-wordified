@@ -827,12 +827,6 @@ all
 ALWAYS
 "
 ]
-        
-case
-_
-:
-            
-pass
     
 logging
 .
