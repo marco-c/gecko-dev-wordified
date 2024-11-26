@@ -2496,6 +2496,10 @@ net
 :
 TypeRecordResultType
 mResults
+MOZ_GUARDED_BY
+(
+mResultsLock
+)
 =
 AsVariant
 (
@@ -2512,7 +2516,6 @@ mozilla
 :
 Mutex
 mResultsLock
-MOZ_UNANNOTATED
 {
 "
 TypeHostRecord
@@ -2529,6 +2532,10 @@ Maybe
 nsCString
 >
 mOriginHost
+MOZ_GUARDED_BY
+(
+mResultsLock
+)
 ;
 bool
 mAllRecordsExcluded
