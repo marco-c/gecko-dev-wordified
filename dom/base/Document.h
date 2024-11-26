@@ -9273,12 +9273,8 @@ has
 the
 given
 tag
-and
-is
 /
 /
-not
-aContentToIgnore
 or
 nullptr
 if
@@ -9295,14 +9291,7 @@ GetHtmlChildElement
 nsAtom
 *
 aTag
-const
-nsIContent
-*
-aContentToIgnore
-=
-nullptr
 )
-const
 ;
 /
 /
@@ -9353,14 +9342,7 @@ HTMLBodyElement
 *
 GetBodyElement
 (
-const
-nsIContent
-*
-aContentToIgnore
-=
-nullptr
 )
-const
 ;
 /
 /
@@ -9412,7 +9394,6 @@ Element
 GetHeadElement
 (
 )
-const
 {
 return
 GetHtmlChildElement
@@ -9466,7 +9447,6 @@ nsGenericHTMLElement
 GetBody
 (
 )
-const
 ;
 /
 /
@@ -9515,7 +9495,6 @@ HTMLSharedElement
 GetHead
 (
 )
-const
 ;
 ServoStyleSet
 *

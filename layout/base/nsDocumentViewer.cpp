@@ -1699,11 +1699,14 @@ void
 BFCachePreventionObserver
 :
 :
-ContentWillBeRemoved
+ContentRemoved
 (
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 if

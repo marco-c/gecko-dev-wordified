@@ -163,8 +163,11 @@ aContainer
 nsIContent
 *
 aChild
-)
 \
+nsIContent
+*
+aPreviousChild
+)
 override
 ;
 \
@@ -471,6 +474,9 @@ aContainer
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 =
 0

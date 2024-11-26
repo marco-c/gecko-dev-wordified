@@ -7996,11 +7996,14 @@ nsTextControlFrame
 nsAnonDivObserver
 :
 :
-ContentWillBeRemoved
+ContentRemoved
 (
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 mFrame

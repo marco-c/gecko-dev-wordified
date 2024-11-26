@@ -514,11 +514,14 @@ void
 ListMutationObserver
 :
 :
-ContentWillBeRemoved
+ContentRemoved
 (
 nsIContent
 *
 aChild
+nsIContent
+*
+aPreviousSibling
 )
 {
 mOwningElementFrame
