@@ -1188,6 +1188,7 @@ test
 -
 curIndex
 )
+{
 curNode
 =
 Prev
@@ -1195,6 +1196,7 @@ Prev
 curNode
 )
 ;
+}
 }
 else
 {
@@ -1210,6 +1212,7 @@ test
 +
 curIndex
 )
+{
 curNode
 =
 Next
@@ -1217,6 +1220,7 @@ Next
 curNode
 )
 ;
+}
 }
 if
 (

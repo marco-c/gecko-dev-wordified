@@ -1746,9 +1746,11 @@ frame
 =
 aFrame
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -4842,8 +4844,10 @@ GetNextSibling
 (
 )
 )
+{
 break
 ;
+}
 frame
 =
 frame
@@ -8394,8 +8398,10 @@ if
 !
 aCurrentFrame
 )
+{
 return
 ;
+}
 #
 ifdef
 DEBUG
@@ -12480,9 +12486,11 @@ if
 !
 aFrame
 )
+{
 return
 0
 ;
+}
 bool
 isFirst
 isLast
@@ -15753,8 +15761,10 @@ visualLeftTwips
 =
 kNotFound
 )
+{
 continue
 ;
+}
 /
 *
 *

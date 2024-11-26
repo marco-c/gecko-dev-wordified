@@ -2904,6 +2904,7 @@ normal
 "
 )
 )
+{
 mImageAnimationModePref
 =
 imgIContainer
@@ -2911,6 +2912,7 @@ imgIContainer
 :
 kNormalAnimMode
 ;
+}
 else
 if
 (
@@ -2923,6 +2925,7 @@ none
 "
 )
 )
+{
 mImageAnimationModePref
 =
 imgIContainer
@@ -2930,6 +2933,7 @@ imgIContainer
 :
 kDontAnimMode
 ;
+}
 else
 if
 (
@@ -2942,6 +2946,7 @@ once
 "
 )
 )
+{
 mImageAnimationModePref
 =
 imgIContainer
@@ -2949,7 +2954,9 @@ imgIContainer
 :
 kLoopOnceAnimMode
 ;
+}
 else
+{
 /
 /
 dynamic
@@ -2970,6 +2977,7 @@ imgIContainer
 :
 kNormalAnimMode
 ;
+}
 uint32_t
 bidiOptions
 =
@@ -6301,11 +6309,14 @@ resource
 "
 )
 )
+{
 mImageAnimationMode
 =
 mImageAnimationModePref
 ;
+}
 else
+{
 mImageAnimationMode
 =
 imgIContainer
@@ -6313,6 +6324,7 @@ imgIContainer
 :
 kNormalAnimMode
 ;
+}
 }
 UpdateCharSet
 (
@@ -8028,9 +8040,11 @@ IsChrome
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 nsPresContext
 *
 pc
@@ -8067,9 +8081,11 @@ IsChrome
 (
 )
 )
+{
 return
 pc
 ;
+}
 pc
 =
 parent
@@ -8247,8 +8263,10 @@ if
 !
 parent
 )
+{
 break
 ;
+}
 pc
 =
 parent
@@ -8948,6 +8966,7 @@ imgIContainer
 :
 kDontAnimMode
 )
+{
 controller
 -
 >
@@ -8959,6 +8978,7 @@ SMILTimeContainer
 PAUSE_USERPREF
 )
 ;
+}
 break
 ;
 case
@@ -8977,6 +8997,7 @@ imgIContainer
 :
 kDontAnimMode
 )
+{
 controller
 -
 >
@@ -8988,6 +9009,7 @@ SMILTimeContainer
 PAUSE_USERPREF
 )
 ;
+}
 break
 ;
 }
@@ -9062,8 +9084,10 @@ IsDynamic
 (
 )
 )
+{
 return
 ;
+}
 /
 /
 Now
@@ -14701,8 +14725,10 @@ if
 !
 ourWindow
 )
+{
 return
 ;
+}
 nsCOMPtr
 <
 EventTarget
@@ -15058,9 +15084,11 @@ if
 !
 aInnerWindow
 )
+{
 return
 false
 ;
+}
 if
 (
 aInnerWindow
@@ -15070,9 +15098,11 @@ HasPaintEventListeners
 (
 )
 )
+{
 return
 true
 ;
+}
 EventTarget
 *
 parentTarget
@@ -15089,9 +15119,11 @@ if
 !
 parentTarget
 )
+{
 return
 false
 ;
+}
 EventListenerManager
 *
 manager

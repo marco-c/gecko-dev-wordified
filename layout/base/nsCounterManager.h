@@ -1538,6 +1538,7 @@ mType
 =
 USE
 )
+{
 UseNode
 (
 )
@@ -1549,7 +1550,9 @@ aList
 aNotify
 )
 ;
+}
 else
+{
 ChangeNode
 (
 )
@@ -1560,6 +1563,7 @@ Calc
 aList
 )
 ;
+}
 }
 inline
 bool
