@@ -124,6 +124,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+IOThreadChild
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h

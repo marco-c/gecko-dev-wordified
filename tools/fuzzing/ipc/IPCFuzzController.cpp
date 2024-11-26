@@ -9763,12 +9763,12 @@ O
 thread
 instead
 .
-XRE_GetAsyncIOEventTarget
+XRE_GetIOMessageLoop
 (
 )
 -
 >
-Dispatch
+PostTask
 (
 NS_NewRunnableFunction
 (

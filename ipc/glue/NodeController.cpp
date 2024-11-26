@@ -243,7 +243,7 @@ mozilla
 /
 ipc
 /
-IOThread
+BrowserProcessSubThread
 .
 h
 "
@@ -2963,12 +2963,12 @@ connected
 to
 it
 .
-XRE_GetAsyncIOEventTarget
+XRE_GetIOMessageLoop
 (
 )
 -
 >
-Dispatch
+PostTask
 (
 NewRunnableMethod
 <

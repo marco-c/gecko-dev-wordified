@@ -29078,12 +29078,12 @@ for
 closing
 otherProcessHandle
 .
-XRE_GetAsyncIOEventTarget
+XRE_GetIOMessageLoop
 (
 )
 -
 >
-Dispatch
+PostTask
 (
 NewRunnableFunction
 (

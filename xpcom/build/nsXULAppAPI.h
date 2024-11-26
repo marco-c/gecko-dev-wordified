@@ -191,9 +191,6 @@ class
 nsIFile
 ;
 class
-nsISerialEventTarget
-;
-class
 nsISupports
 ;
 struct
@@ -2171,9 +2168,9 @@ XRE_ShutdownChildProcess
 (
 )
 ;
-nsISerialEventTarget
+MessageLoop
 *
-XRE_GetAsyncIOEventTarget
+XRE_GetIOMessageLoop
 (
 )
 ;
