@@ -1951,6 +1951,12 @@ IsSelfEmpty
 )
 override
 ;
+bool
+LinesAreEmpty
+(
+)
+const
+;
 /
 /
 Given
