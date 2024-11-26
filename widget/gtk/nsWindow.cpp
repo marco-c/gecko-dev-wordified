@@ -1053,6 +1053,13 @@ nsView
 h
 "
 #
+include
+"
+WaylandVsyncSource
+.
+h
+"
+#
 endif
 using
 namespace

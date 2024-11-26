@@ -351,13 +351,6 @@ h
 #
 include
 "
-WaylandVsyncSource
-.
-h
-"
-#
-include
-"
 nsClipboardWayland
 .
 h
@@ -799,6 +792,12 @@ GdkTouchpadGesturePhase
 ;
 #
 endif
+struct
+zwp_locked_pointer_v1
+;
+struct
+zwp_relative_pointer_v1
+;
 namespace
 mozilla
 {
@@ -810,6 +809,9 @@ uint8_t
 ;
 class
 TimeStamp
+;
+class
+WaylandVsyncSource
 ;
 #
 ifdef
