@@ -732,8 +732,10 @@ IsBackgroundOnly
 (
 )
 )
+{
 return
 ;
+}
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
 "
@@ -885,8 +887,10 @@ if
 !
 containerFrame
 )
+{
 return
 ;
+}
 nsIFrame
 *
 childframe
@@ -4871,9 +4875,11 @@ nsEventStatus_eConsumeNoDefault
 *
 aEventStatus
 )
+{
 return
 NS_OK
 ;
+}
 /
 /
 disabled
@@ -6229,6 +6235,7 @@ aIndex
 *
 low
 )
+{
 *
 low
 =
@@ -6241,6 +6248,7 @@ low
 numOptions
 )
 ;
+}
 if
 (
 aIndex
@@ -6249,6 +6257,7 @@ aIndex
 *
 high
 )
+{
 *
 high
 =
@@ -6261,6 +6270,7 @@ high
 numOptions
 )
 ;
+}
 if
 (
 forward
@@ -6268,6 +6278,7 @@ forward
 =
 0
 )
+{
 *
 low
 =
@@ -6275,7 +6286,9 @@ low
 high
 ;
 }
+}
 else
+{
 NS_ASSERTION
 (
 mEndSelectionIndex
@@ -6286,6 +6299,7 @@ kNothingSelected
 "
 )
 ;
+}
 InvalidateFocus
 (
 )

@@ -414,6 +414,7 @@ if
 (
 mControlFrame
 )
+{
 mControlFrame
 -
 >
@@ -421,6 +422,7 @@ HandleRedisplayTextEvent
 (
 )
 ;
+}
 return
 NS_OK
 ;
