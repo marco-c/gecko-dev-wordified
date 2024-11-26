@@ -319,10 +319,12 @@ if
 !
 sLayoutStaticRefcnt
 )
+{
 Shutdown
 (
 )
 ;
+}
 }
 private
 :

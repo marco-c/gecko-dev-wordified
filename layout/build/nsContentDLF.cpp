@@ -1787,9 +1787,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 #
 ifdef
 NOISY_CREATE_DOC
