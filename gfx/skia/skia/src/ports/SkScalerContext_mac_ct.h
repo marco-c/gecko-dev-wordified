@@ -300,6 +300,8 @@ size_t
 rowBytesPtr
 bool
 generateA8FromLCD
+bool
+lightOnDark
 )
 ;
 private
