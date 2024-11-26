@@ -140,7 +140,7 @@ BrowserTestUtils
 .
 overflowTabs
 (
-registerCleanupFunction
+null
 win
 {
 overflowAtStart
