@@ -17503,7 +17503,7 @@ mPresShell
 *
 /
 struct
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoCurrentEventInfoSetter
 final
 {

@@ -876,7 +876,7 @@ it
 *
 /
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoAssertNoDomMutations
 final
 {

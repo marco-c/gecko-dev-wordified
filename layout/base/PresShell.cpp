@@ -4291,7 +4291,7 @@ to
 it
 .
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoPointerEventTargetUpdater
 final
 {
