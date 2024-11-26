@@ -2042,8 +2042,6 @@ data
 GetProgressTimelineScheduler
 (
 aPseudoRequest
-.
-mType
 )
 ;
 }
@@ -2083,11 +2081,7 @@ EnsureAnimationData
 .
 EnsureProgressTimelineScheduler
 (
-*
-aElement
 aPseudoRequest
-.
-mType
 )
 ;
 }
@@ -2134,8 +2128,6 @@ data
 ClearProgressTimelineScheduler
 (
 aPseudoRequest
-.
-mType
 )
 ;
 }

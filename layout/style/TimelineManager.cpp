@@ -799,8 +799,10 @@ EnsureTimelineCollection
 Element
 &
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 )
 ;
 template
@@ -816,8 +818,10 @@ ScrollTimeline
 Element
 &
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 )
 {
 return
@@ -830,7 +834,7 @@ EnsureAnimationData
 EnsureScrollTimelineCollection
 (
 aElement
-aPseudoType
+aPseudoRequest
 )
 ;
 }
@@ -847,8 +851,10 @@ ViewTimeline
 Element
 &
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 )
 {
 return
@@ -861,7 +867,7 @@ EnsureAnimationData
 EnsureViewTimelineCollection
 (
 aElement
-aPseudoType
+aPseudoRequest
 )
 ;
 }
@@ -1025,8 +1031,6 @@ TimelineType
 *
 aElement
 aPseudoRequest
-.
-mType
 )
 ;
 if

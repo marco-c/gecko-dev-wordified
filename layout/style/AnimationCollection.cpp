@@ -347,8 +347,6 @@ data
 GetAnimationCollection
 (
 mPseudo
-.
-mType
 )
 =
 =
@@ -361,8 +359,6 @@ data
 ClearAnimationCollectionFor
 (
 mPseudo
-.
-mType
 )
 ;
 }
@@ -376,8 +372,6 @@ data
 GetTransitionCollection
 (
 mPseudo
-.
-mType
 )
 =
 =
@@ -390,8 +384,6 @@ data
 ClearTransitionCollectionFor
 (
 mPseudo
-.
-mType
 )
 ;
 }
@@ -471,8 +463,6 @@ data
 GetAnimationCollection
 (
 aRequest
-.
-mType
 )
 ;
 }
@@ -485,8 +475,6 @@ data
 GetTransitionCollection
 (
 aRequest
-.
-mType
 )
 ;
 }

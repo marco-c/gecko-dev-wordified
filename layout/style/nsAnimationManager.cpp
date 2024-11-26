@@ -3526,8 +3526,6 @@ mElement
 aTarget
 .
 mPseudoRequest
-.
-mType
 )
 ;
 if

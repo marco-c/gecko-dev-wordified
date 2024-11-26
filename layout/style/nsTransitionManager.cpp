@@ -3865,8 +3865,6 @@ EnsureTransitionCollection
 *
 aElement
 aPseudoRequest
-.
-mType
 )
 ;
 if

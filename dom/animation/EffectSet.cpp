@@ -290,8 +290,6 @@ data
 GetEffectSetFor
 (
 aPseudoRequest
-.
-mType
 )
 ;
 }
@@ -335,8 +333,6 @@ EnsureAnimationData
 EnsureEffectSetFor
 (
 aPseudoRequest
-.
-mType
 )
 ;
 }
@@ -723,8 +719,6 @@ data
 ClearEffectSetFor
 (
 aPseudoRequest
-.
-mType
 )
 ;
 }
