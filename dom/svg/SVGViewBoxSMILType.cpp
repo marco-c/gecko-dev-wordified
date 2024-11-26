@@ -837,7 +837,7 @@ id
 541884
 #
 c12
-float
+double
 dLeft
 =
 to
@@ -850,7 +850,7 @@ from
 >
 x
 ;
-float
+double
 dTop
 =
 to
@@ -863,7 +863,7 @@ from
 >
 y
 ;
-float
+double
 dRight
 =
 (
@@ -890,7 +890,7 @@ from
 width
 )
 ;
-float
+double
 dBottom
 =
 (
