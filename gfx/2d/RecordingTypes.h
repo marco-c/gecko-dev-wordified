@@ -338,6 +338,10 @@ SetIsBad
 (
 )
 ;
+aElement
+=
+false
+;
 break
 ;
 }
