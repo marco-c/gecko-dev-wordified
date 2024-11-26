@@ -66036,7 +66036,11 @@ bool
 (
 JSContext
 *
-HandleObject
+Handle
+<
+MapObject
+*
+>
 HandleValue
 MutableHandleValue
 )
