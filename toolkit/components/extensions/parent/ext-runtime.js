@@ -286,6 +286,12 @@ runtime
 onUserScriptMessage
 /
 /
+-
+runtime
+.
+onUserScriptConnect
+/
+/
 For
 details
 see
