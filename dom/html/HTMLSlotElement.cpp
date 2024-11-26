@@ -163,6 +163,17 @@ mozilla
 /
 dom
 /
+HTMLSlotElementBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLUnknownElement
 .
 h
