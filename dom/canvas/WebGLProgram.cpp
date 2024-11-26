@@ -182,6 +182,13 @@ h
 #
 include
 "
+WebGLFormats
+.
+h
+"
+#
+include
+"
 WebGLShader
 .
 h

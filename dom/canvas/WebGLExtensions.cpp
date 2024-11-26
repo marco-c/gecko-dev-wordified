@@ -152,6 +152,13 @@ WebGLContext
 .
 h
 "
+#
+include
+"
+WebGLFormats
+.
+h
+"
 namespace
 mozilla
 {
@@ -546,6 +553,7 @@ webgl
 :
 :
 FormatRenderableState
+&
 state
 )
 {
@@ -799,6 +807,7 @@ webgl
 :
 :
 FormatRenderableState
+&
 state
 )
 {
