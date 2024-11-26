@@ -8074,10 +8074,7 @@ First
 return
 Some
 (
-std
-:
-:
-clamp
+CSSMinMax
 (
 mFirstBaseline
 0
