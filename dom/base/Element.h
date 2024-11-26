@@ -11734,7 +11734,6 @@ any
 .
 *
 /
-const
 Element
 *
 GetPseudoElement

@@ -3155,7 +3155,7 @@ const
 auto
 [
 element
-pseudoType
+pseudoRequest
 ]
 =
 AnimationUtils
@@ -3178,7 +3178,7 @@ EffectCompositor
 GetServoAnimationRule
 (
 element
-pseudoType
+pseudoRequest
 aCascadeLevel
 aAnimationValues
 )
@@ -3358,7 +3358,7 @@ const
 auto
 [
 element
-pseudoType
+pseudoRequest
 ]
 =
 AnimationUtils
@@ -3419,7 +3419,9 @@ Element
 (
 element
 )
-pseudoType
+pseudoRequest
+.
+mType
 aComputedData
 TimelineManager
 :
@@ -3459,7 +3461,9 @@ Element
 (
 element
 )
-pseudoType
+pseudoRequest
+.
+mType
 aComputedData
 TimelineManager
 :
@@ -3499,7 +3503,9 @@ Element
 (
 element
 )
-pseudoType
+pseudoRequest
+.
+mType
 aComputedData
 )
 ;
@@ -3621,7 +3627,9 @@ Element
 (
 element
 )
-pseudoType
+pseudoRequest
+.
+mType
 *
 aOldComputedData
 *
@@ -3658,7 +3666,7 @@ Element
 (
 element
 )
-pseudoType
+pseudoRequest
 )
 ;
 }
@@ -3682,7 +3690,9 @@ EffectSet
 Get
 (
 element
-pseudoType
+pseudoRequest
+.
+mType
 )
 ;
 /
@@ -3799,7 +3809,7 @@ Element
 (
 element
 )
-pseudoType
+pseudoRequest
 )
 ;
 }
@@ -3832,7 +3842,7 @@ Element
 (
 element
 )
-pseudoType
+pseudoRequest
 EffectCompositor
 :
 :
@@ -3864,7 +3874,7 @@ const
 auto
 [
 element
-pseudoType
+pseudo
 ]
 =
 AnimationUtils
@@ -3885,7 +3895,9 @@ EffectSet
 Get
 (
 element
-pseudoType
+pseudo
+.
+mType
 )
 ;
 return
@@ -3914,7 +3926,7 @@ const
 auto
 [
 element
-pseudoType
+pseudo
 ]
 =
 AnimationUtils
@@ -3934,7 +3946,9 @@ EffectSet
 Get
 (
 element
-pseudoType
+pseudo
+.
+mType
 )
 ;
 }
@@ -3951,7 +3965,7 @@ const
 auto
 [
 element
-pseudoType
+pseudo
 ]
 =
 AnimationUtils
@@ -3975,7 +3989,9 @@ CSSAnimationCollection
 Get
 (
 element
-pseudoType
+pseudo
+.
+mType
 )
 ;
 return
@@ -4006,7 +4022,7 @@ const
 auto
 [
 element
-pseudoType
+pseudo
 ]
 =
 AnimationUtils
@@ -4030,7 +4046,9 @@ CSSTransitionCollection
 Get
 (
 element
-pseudoType
+pseudo
+.
+mType
 )
 ;
 return
@@ -4061,7 +4079,7 @@ const
 auto
 [
 element
-pseudoType
+pseudo
 ]
 =
 AnimationUtils
@@ -4085,7 +4103,9 @@ CSSTransitionCollection
 Get
 (
 element
-pseudoType
+pseudo
+.
+mType
 )
 ;
 return
@@ -4120,7 +4140,7 @@ const
 auto
 [
 element
-pseudoType
+pseudo
 ]
 =
 AnimationUtils
@@ -4144,7 +4164,9 @@ CSSTransitionCollection
 Get
 (
 element
-pseudoType
+pseudo
+.
+mType
 )
 ;
 if
