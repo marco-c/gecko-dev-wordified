@@ -1218,9 +1218,15 @@ extras
 .
 putBoolean
 (
-ClipDescription
+"
+android
 .
-EXTRA_IS_SENSITIVE
+content
+.
+extra
+.
+IS_SENSITIVE
+"
 true
 )
 ;
