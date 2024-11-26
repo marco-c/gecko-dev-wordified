@@ -2157,7 +2157,7 @@ Add
 1
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 false
 )
