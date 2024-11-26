@@ -3041,6 +3041,7 @@ ImplCycleCollectionTraverse
 nsCycleCollectionTraversalCallback
 &
 aCallback
+const
 RefPtr
 <
 T
