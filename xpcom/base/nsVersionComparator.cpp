@@ -164,8 +164,8 @@ defined
 (
 XP_WIN
 )
-&
-&
+#
+if
 !
 defined
 (
@@ -182,6 +182,15 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+endif
+#
+include
+"
+nsAlgorithm
 .
 h
 "
