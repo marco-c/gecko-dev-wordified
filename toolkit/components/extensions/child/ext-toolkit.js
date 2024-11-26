@@ -509,6 +509,9 @@ paths
 "
 userScripts
 "
+"
+register
+"
 ]
 ]
 }
