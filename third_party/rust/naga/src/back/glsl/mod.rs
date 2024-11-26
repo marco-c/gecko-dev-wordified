@@ -24302,6 +24302,7 @@ for
 multisampled
 samplers
 if
+!
 class
 .
 is_multisampled
