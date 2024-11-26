@@ -1645,6 +1645,10 @@ CloseMode
 CloseMethod
 )
 ;
+Close
+(
+)
+;
 return
 IPC_OK
 (
@@ -1681,6 +1685,10 @@ up
 return
 ;
 }
+mDangling
+=
+true
+;
 nsAutoString
 alertName
 ;
