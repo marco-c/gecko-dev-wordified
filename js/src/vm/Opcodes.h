@@ -13833,6 +13833,8 @@ NULL
 0
 1
 JOF_UINT8
+|
+JOF_IC
 )
 \
 /
