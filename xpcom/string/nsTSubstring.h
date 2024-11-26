@@ -6683,17 +6683,6 @@ AppendASCII
 AppendLiteral
 (
 )
-(
-except
-if
-the
-string
-is
-empty
-:
-bug
-1487606
-)
 *
 AppendPrintf
 (
