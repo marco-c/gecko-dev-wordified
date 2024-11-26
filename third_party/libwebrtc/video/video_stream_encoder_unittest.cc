@@ -16029,7 +16029,7 @@ kStandardRequestedResolution
 }
 ;
 class
-VideoStreamEncoderStandardOrLegacyRequestedResolutionTest
+VideoStreamEncoderResolutionTest
 :
 public
 VideoStreamEncoderTest
@@ -16046,7 +16046,7 @@ RequestedResolutionVersion
 {
 public
 :
-VideoStreamEncoderStandardOrLegacyRequestedResolutionTest
+VideoStreamEncoderResolutionTest
 (
 )
 :
@@ -16178,8 +16178,8 @@ requested_resolution_version_
 ;
 INSTANTIATE_TEST_SUITE_P
 (
-VideoStreamEncoderStandardOrLegacyRequestedResolutionTest
-VideoStreamEncoderStandardOrLegacyRequestedResolutionTest
+VideoStreamEncoderResolutionTest
+VideoStreamEncoderResolutionTest
 :
 :
 testing
@@ -16200,8 +16200,8 @@ kStandardRequestedResolution
 ;
 TEST_P
 (
-VideoStreamEncoderStandardOrLegacyRequestedResolutionTest
-ResolutionLimitMaybePropagatedToSinkWantsBeforeFirstFrame
+VideoStreamEncoderResolutionTest
+RequestInSinkWantsBeforeFirstFrame
 )
 {
 ASSERT_THAT
@@ -16443,8 +16443,8 @@ Stop
 }
 TEST_P
 (
-VideoStreamEncoderStandardOrLegacyRequestedResolutionTest
-RequestedResolutionInWrongAspectRatioAndSourceIsAdapting
+VideoStreamEncoderResolutionTest
+RequestInWrongAspectRatioWithAdapter
 )
 {
 /
