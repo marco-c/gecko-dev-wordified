@@ -808,9 +808,6 @@ public
 void
 recordInstruction
 (
-JSContext
-*
-cx
 MacroAssembler
 &
 masm
