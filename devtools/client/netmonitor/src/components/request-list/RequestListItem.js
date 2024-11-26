@@ -1119,6 +1119,9 @@ mimeType
 eventTimings
 "
 "
+earlyHintsStatus
+"
+"
 securityState
 "
 "
