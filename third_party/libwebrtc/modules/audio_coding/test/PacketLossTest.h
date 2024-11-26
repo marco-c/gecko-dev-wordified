@@ -138,12 +138,9 @@ ReceiverWithPacketLoss
 void
 Setup
 (
-acm2
-:
-:
-AcmReceiver
+NetEq
 *
-acm_receiver
+neteq
 RTPStream
 *
 rtpStream
