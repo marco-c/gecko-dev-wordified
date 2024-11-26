@@ -3861,6 +3861,11 @@ tryAttachSetHas
 )
 ;
 AttachDecision
+tryAttachSetAdd
+(
+)
+;
+AttachDecision
 tryAttachSetSize
 (
 )
@@ -3872,6 +3877,11 @@ tryAttachMapHas
 ;
 AttachDecision
 tryAttachMapGet
+(
+)
+;
+AttachDecision
+tryAttachMapSet
 (
 )
 ;

@@ -3077,7 +3077,7 @@ has
 0
 MapHas
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 set
@@ -3085,6 +3085,7 @@ set
 set
 2
 0
+MapSet
 )
 JS_FN
 (
@@ -8232,7 +8233,7 @@ has
 0
 SetHas
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 add
@@ -8240,6 +8241,7 @@ add
 add
 1
 0
+SetAdd
 )
 JS_FN
 (
