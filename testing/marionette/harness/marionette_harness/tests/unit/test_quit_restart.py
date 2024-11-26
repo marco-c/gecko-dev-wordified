@@ -1470,13 +1470,14 @@ skipIf
 mozinfo
 .
 info
-[
+.
+get
+(
 "
 tsan
 "
-]
-=
-=
+)
+is
 True
         
 "
