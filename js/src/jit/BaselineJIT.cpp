@@ -1685,6 +1685,7 @@ compiler
 .
 compile
 (
+cx
 )
 ;
 MOZ_ASSERT_IF
@@ -6433,6 +6434,7 @@ generator
 .
 generate
 (
+cx
 interpreter
 )
 ;

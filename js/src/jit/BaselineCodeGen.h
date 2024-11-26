@@ -248,10 +248,6 @@ protected
 Handler
 handler
 ;
-JSContext
-*
-cx
-;
 CompileRuntime
 *
 runtime
@@ -2507,6 +2503,9 @@ init
 MethodStatus
 compile
 (
+JSContext
+*
+cx
 )
 ;
 bool
@@ -3253,6 +3252,9 @@ nodiscard
 bool
 generate
 (
+JSContext
+*
+cx
 BaselineInterpreter
 &
 interpreter
