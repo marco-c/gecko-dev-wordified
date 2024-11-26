@@ -3969,7 +3969,10 @@ End
 media
 :
 :
-TimeInterval
+Interval
+<
+double
+>
 mAppendWindow
 MOZ_GUARDED_BY
 (
