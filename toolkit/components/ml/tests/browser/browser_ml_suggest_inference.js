@@ -680,6 +680,8 @@ null
 const
 OUTPUT_FILE_PATH
 =
+normalizePathForOS
+(
 {
 Services
 .
@@ -704,6 +706,7 @@ type
 }
 .
 json
+)
 ;
 await
 IOUtils
