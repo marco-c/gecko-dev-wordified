@@ -1,0 +1,9 @@
+"
+use
+strict
+"
+;
+/
+/
+nothing
+important
