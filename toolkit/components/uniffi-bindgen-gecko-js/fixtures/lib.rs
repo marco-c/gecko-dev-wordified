@@ -88,6 +88,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+uniffi_fixture_futures
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 uniffi_fixture_refcounts
 :
 :
