@@ -551,16 +551,6 @@ withArgs
 doesAppNeedPin
 &
 &
-(
-unhandledCampaignAction
-!
-=
-'
-SET_DEFAULT_BROWSER
-'
-)
-&
-&
 '
 browser
 .
