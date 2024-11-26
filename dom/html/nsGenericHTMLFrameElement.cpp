@@ -1035,6 +1035,12 @@ mFrameLoader
 LoadFrame
 (
 origSrc
+/
+*
+aShouldCheckForRecursion
+*
+/
+true
 )
 ;
 }
