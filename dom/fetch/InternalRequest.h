@@ -2218,8 +2218,6 @@ aOther
 ConstructorGuard
 )
 ;
-private
-:
 /
 /
 Map
@@ -2319,6 +2317,8 @@ nsContentPolicyType
 aContentPolicyType
 )
 ;
+private
+:
 static
 bool
 IsNavigationContentPolicy
