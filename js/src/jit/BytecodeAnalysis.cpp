@@ -2085,10 +2085,7 @@ if
 normallyReachableReturn
 )
 {
-script_
--
->
-setUninlineable
+disableInlining
 (
 )
 ;
@@ -2161,9 +2158,6 @@ oneOriginValue
 )
 )
 ;
-script_
--
->
 disableIon
 (
 )
@@ -2267,9 +2261,6 @@ op
 )
 )
 ;
-script_
--
->
 disableIon
 (
 )
