@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsIFile
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -133,6 +126,9 @@ nsTArray
 h
 "
 class
+nsIFile
+;
+class
 nsILocalFileMac
 ;
 class
@@ -140,6 +136,7 @@ NSArray
 ;
 class
 nsFilePicker
+final
 :
 public
 nsBaseFilePicker
@@ -473,6 +470,8 @@ mTitles
 ;
 int32_t
 mSelectedTypeIndex
+=
+0
 ;
 }
 ;
