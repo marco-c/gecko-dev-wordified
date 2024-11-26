@@ -221,6 +221,16 @@ TrustedHTMLOrNullIsEmptyString
 namespace
 TrustedTypeUtils
 {
+template
+<
+typename
+T
+>
+nsString
+GetTrustedTypeName
+(
+)
+;
 /
 /
 https
