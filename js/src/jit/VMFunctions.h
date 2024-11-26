@@ -4654,7 +4654,11 @@ SetObjectHas
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+SetObject
+*
+>
 obj
 HandleValue
 key
@@ -4669,7 +4673,11 @@ MapObjectHas
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+MapObject
+*
+>
 obj
 HandleValue
 key
