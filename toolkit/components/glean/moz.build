@@ -798,12 +798,6 @@ SOURCES
 [
 "
 !
-EventExtraGIFFTMaps
-.
-cpp
-"
-"
-!
 GleanJSMetricsLookup
 .
 cpp
