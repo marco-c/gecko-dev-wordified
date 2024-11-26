@@ -275,6 +275,7 @@ Assert
 .
 ok
 (
+!
 row
 .
 hasClass
@@ -3410,6 +3411,7 @@ Assert
 .
 ok
 (
+!
 addRow
 .
 hasClass
