@@ -377,8 +377,10 @@ dom
 Element
 *
 aElement
-PseudoStyleType
-aPseudoType
+const
+PseudoStyleRequest
+&
+aPseudoRequest
 )
 {
 MOZ_ASSERT
@@ -399,7 +401,7 @@ AnimationType
 Get
 (
 aElement
-aPseudoType
+aPseudoRequest
 )
 ;
 if

@@ -15436,8 +15436,6 @@ StopAnimationsForElement
 (
 element
 aPseudoRequest
-.
-mType
 )
 ;
 transitionManager
@@ -15447,8 +15445,6 @@ StopAnimationsForElement
 (
 element
 aPseudoRequest
-.
-mType
 )
 ;
 /

@@ -3420,8 +3420,6 @@ Element
 element
 )
 pseudoRequest
-.
-mType
 aComputedData
 TimelineManager
 :
@@ -3462,8 +3460,6 @@ Element
 element
 )
 pseudoRequest
-.
-mType
 aComputedData
 TimelineManager
 :
@@ -3504,8 +3500,6 @@ Element
 element
 )
 pseudoRequest
-.
-mType
 aComputedData
 )
 ;
@@ -3984,8 +3978,6 @@ Get
 (
 element
 pseudo
-.
-mType
 )
 ;
 return
@@ -4041,8 +4033,6 @@ Get
 (
 element
 pseudo
-.
-mType
 )
 ;
 return
@@ -4098,8 +4088,6 @@ Get
 (
 element
 pseudo
-.
-mType
 )
 ;
 return
@@ -4159,8 +4147,6 @@ Get
 (
 element
 pseudo
-.
-mType
 )
 ;
 if
