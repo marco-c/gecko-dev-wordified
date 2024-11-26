@@ -734,6 +734,15 @@ PRemoteWorkerNonLifeCycleOpController
 =
 12
 ;
+portNameToIndex
+[
+"
+PNotification
+"
+]
+=
+13
+;
 /
 /
 Used
