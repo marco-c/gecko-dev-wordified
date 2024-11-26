@@ -3306,13 +3306,11 @@ before
 XPCOMShutdownThreads
 .
 static
-UniquePtr
+StaticAutoPtr
 <
 ProfilerParentTracker
 >
 instance
-=
-nullptr
 ;
 if
 (
@@ -3340,10 +3338,8 @@ nullptr
 }
 instance
 =
-MakeUnique
-<
+new
 ProfilerParentTracker
->
 (
 )
 ;
