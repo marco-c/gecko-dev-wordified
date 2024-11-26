@@ -4440,10 +4440,6 @@ mContent
 AsElement
 (
 )
-PseudoStyleType
-:
-:
-NotPseudo
 )
 )
 {

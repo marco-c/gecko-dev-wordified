@@ -3691,8 +3691,6 @@ Get
 (
 element
 pseudoRequest
-.
-mType
 )
 ;
 /
@@ -3896,8 +3894,6 @@ Get
 (
 element
 pseudo
-.
-mType
 )
 ;
 return
@@ -3947,8 +3943,6 @@ Get
 (
 element
 pseudo
-.
-mType
 )
 ;
 }

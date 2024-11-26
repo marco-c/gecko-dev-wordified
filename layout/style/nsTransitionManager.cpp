@@ -3583,7 +3583,10 @@ EffectSet
 Get
 (
 aElement
+PseudoStyleRequest
+(
 aPseudoType
+)
 )
 )
 {
@@ -3966,7 +3969,10 @@ EffectSet
 Get
 (
 aElement
+PseudoStyleRequest
+(
 aPseudoType
+)
 )
 )
 {

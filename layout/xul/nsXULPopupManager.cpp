@@ -12716,10 +12716,6 @@ AnimationUtils
 HasCurrentTransitions
 (
 aPopup
-PseudoStyleType
-:
-:
-NotPseudo
 )
 )
 {
