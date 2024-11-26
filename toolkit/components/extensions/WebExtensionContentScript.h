@@ -944,6 +944,16 @@ return
 mExcludeMatches
 ;
 }
+bool
+IsUserScript
+(
+)
+const
+{
+return
+mIsUserScript
+;
+}
 Nullable
 <
 uint64_t
@@ -1082,6 +1092,9 @@ Nullable
 MatchGlobSet
 >
 mExcludeGlobs
+;
+bool
+mIsUserScript
 ;
 bool
 mAllFrames
