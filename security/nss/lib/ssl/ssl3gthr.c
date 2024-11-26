@@ -2910,11 +2910,6 @@ contentType
 0x10
 )
 {
-PORT_Assert
-(
-PR_FALSE
-)
-;
 PORT_SetError
 (
 SSL_ERROR_RX_UNKNOWN_RECORD_TYPE
