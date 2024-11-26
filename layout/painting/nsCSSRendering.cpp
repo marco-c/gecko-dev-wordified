@@ -11063,8 +11063,10 @@ if
 !
 shadowContext
 )
+{
 continue
 ;
+}
 MOZ_ASSERT
 (
 shadowContext
@@ -14033,9 +14035,11 @@ aSide
 =
 0
 )
+{
 return
 true
 ;
+}
 switch
 (
 aBorder
@@ -22716,9 +22720,11 @@ height
 =
 0
 )
+{
 return
 state
 ;
+}
 state
 .
 mImageRenderer

@@ -8579,8 +8579,10 @@ aDirtyRect
 aFillArea
 )
 )
+{
 return
 ;
+}
 gfxRect
 areaToFill
 =
