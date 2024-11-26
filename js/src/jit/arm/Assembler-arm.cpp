@@ -435,6 +435,12 @@ case
 MIRType
 :
 :
+WasmArrayData
+:
+case
+MIRType
+:
+:
 StackResults
 :
 if
@@ -831,6 +837,12 @@ MIRType
 :
 :
 WasmAnyRef
+:
+case
+MIRType
+:
+:
+WasmArrayData
 :
 case
 MIRType

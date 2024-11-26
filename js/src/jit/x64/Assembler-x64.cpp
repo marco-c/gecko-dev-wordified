@@ -368,6 +368,12 @@ case
 MIRType
 :
 :
+WasmArrayData
+:
+case
+MIRType
+:
+:
 StackResults
 :
 current_
@@ -546,6 +552,12 @@ MIRType
 :
 :
 WasmAnyRef
+:
+case
+MIRType
+:
+:
+WasmArrayData
 :
 case
 MIRType

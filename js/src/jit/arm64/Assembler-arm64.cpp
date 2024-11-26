@@ -333,6 +333,12 @@ case
 MIRType
 :
 :
+WasmArrayData
+:
+case
+MIRType
+:
+:
 StackResults
 :
 if

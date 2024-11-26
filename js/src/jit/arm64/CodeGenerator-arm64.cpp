@@ -17106,6 +17106,12 @@ MIRType
 :
 WasmAnyRef
 :
+case
+MIRType
+:
+:
+WasmArrayData
+:
 {
 Register
 outReg
