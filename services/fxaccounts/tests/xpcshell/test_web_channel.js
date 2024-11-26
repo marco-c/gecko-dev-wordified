@@ -3387,6 +3387,10 @@ test_helpers_login_with_customize_sync_and_declined_engines
 (
 )
 {
+ensureOauthNotConfigured
+(
+)
+;
 let
 configured
 =

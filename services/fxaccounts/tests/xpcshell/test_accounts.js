@@ -2289,6 +2289,10 @@ test_verification_poll
 (
 )
 {
+ensureOauthNotConfigured
+(
+)
+;
 let
 fxa
 =
@@ -2608,6 +2612,10 @@ test_polling_timeout
 (
 )
 {
+ensureOauthNotConfigured
+(
+)
+;
 /
 /
 This
@@ -6052,6 +6060,10 @@ test_overlapping_signins
 (
 )
 {
+ensureOauthNotConfigured
+(
+)
+;
 let
 fxa
 =
