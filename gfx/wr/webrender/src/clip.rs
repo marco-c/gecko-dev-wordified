@@ -12748,6 +12748,8 @@ shader
 can
 only
 work
+/
+/
 if
 the
 radii
@@ -12756,7 +12758,11 @@ uniform
 .
 radius
 .
-all_sides_uniform
+is_uniform
+(
+)
+.
+is_some
 (
 )
 }
