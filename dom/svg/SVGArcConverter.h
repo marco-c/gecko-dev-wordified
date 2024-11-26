@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-DOM_SVG_SVGPATHDATAPARSER_H_
+DOM_SVG_SVGARCCONVERTER_H_
 #
 define
-DOM_SVG_SVGPATHDATAPARSER_H_
+DOM_SVG_SVGARCCONVERTER_H_
 #
 include
 "
@@ -135,6 +135,7 @@ namespace
 mozilla
 {
 class
+MOZ_STACK_CLASS
 SVGArcConverter
 {
 using
@@ -220,4 +221,4 @@ mozilla
 endif
 /
 /
-DOM_SVG_SVGPATHDATAPARSER_H_
+DOM_SVG_SVGARCCONVERTER_H_

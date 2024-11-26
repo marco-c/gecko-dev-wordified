@@ -209,13 +209,6 @@ SVGMotionSMILType
 .
 h
 "
-#
-include
-"
-SVGPathDataParser
-.
-h
-"
 using
 namespace
 mozilla
