@@ -606,6 +606,10 @@ present
 ;
 pub
 mod
+ray_tracing
+;
+pub
+mod
 registry
 ;
 pub
@@ -688,6 +692,9 @@ made
 private
 again
 .
+mod
+scratch
+;
 pub
 mod
 validation

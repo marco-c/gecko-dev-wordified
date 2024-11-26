@@ -3900,6 +3900,11 @@ barrier
 usage
 .
 start
+self
+.
+device
+.
+features
 )
 ;
 let
@@ -3918,6 +3923,11 @@ barrier
 usage
 .
 end
+self
+.
+device
+.
+features
 )
 ;
 unsafe

@@ -5403,6 +5403,11 @@ Mf
 :
 :
 Pow
+|
+Mf
+:
+:
+QuantizeToF16
 =
 >
 res_arg

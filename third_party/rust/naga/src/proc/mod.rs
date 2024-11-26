@@ -3799,6 +3799,13 @@ Determinant
 =
 >
 1
+Self
+:
+:
+QuantizeToF16
+=
+>
+1
 /
 /
 bits
