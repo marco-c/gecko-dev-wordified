@@ -1,12 +1,3 @@
-/
-/
-META
-:
-global
-=
-window
-dedicatedworker
-shadowrealm
 test
 (
 function
