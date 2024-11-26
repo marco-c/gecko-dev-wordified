@@ -3250,6 +3250,11 @@ SkScalerContext_DW
 }
 #
 if
+!
+SK_DISABLE_DIRECTWRITE_COLRv1
+&
+&
+(
 DWRITE_CORE
 |
 |
@@ -3264,6 +3269,7 @@ NTDDI_VERSION
 >
 =
 NTDDI_WIN11_ZN
+)
 )
 namespace
 {
@@ -11057,6 +11063,11 @@ true
 else
 /
 /
+!
+SK_DISABLE_DIRECTWRITE_COLRv1
+&
+&
+(
 DWRITE_CORE
 |
 |
@@ -11071,6 +11082,7 @@ NTDDI_VERSION
 >
 =
 NTDDI_WIN11_ZN
+)
 )
 bool
 SkScalerContext_DW
@@ -11127,6 +11139,11 @@ false
 endif
 /
 /
+!
+SK_DISABLE_DIRECTWRITE_COLRv1
+&
+&
+(
 DWRITE_CORE
 |
 |
@@ -11141,6 +11158,7 @@ NTDDI_VERSION
 >
 =
 NTDDI_WIN11_ZN
+)
 )
 bool
 SkScalerContext_DW
