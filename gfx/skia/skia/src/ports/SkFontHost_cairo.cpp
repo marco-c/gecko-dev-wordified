@@ -2753,7 +2753,6 @@ mozilla_glyphslot_embolden_less
 glyph
 )
 ;
-bool
 modified
 =
 true
