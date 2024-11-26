@@ -1482,6 +1482,7 @@ comment
 >
 0
 )
+{
 aValue
 .
 Truncate
@@ -1489,6 +1490,7 @@ Truncate
 comment
 )
 ;
+}
 aValue
 .
 CompressWhitespace
@@ -2227,9 +2229,11 @@ mState
 =
 NS_TABLE_STATE_ERROR
 )
+{
 return
 kNullGlyph
 ;
+}
 /
 /
 Load
@@ -2564,9 +2568,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 kNullGlyph
 ;
+}
 Clean
 (
 value
@@ -3004,9 +3010,11 @@ Length
 (
 )
 )
+{
 return
 kNullGlyph
 ;
+}
 nsGlyphCode
 ch
 ;
@@ -4567,9 +4575,11 @@ if
 !
 obs
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 nsresult
 rv
 =
@@ -4649,6 +4659,7 @@ if
 (
 obs
 )
+{
 rv
 =
 obs
@@ -4660,11 +4671,14 @@ this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
 )
 ;
+}
 else
+{
 rv
 =
 NS_ERROR_FAILURE
 ;
+}
 gGlyphTableInitialized
 =
 false
@@ -4739,9 +4753,11 @@ glyphTable
 &
 mUnicodeTable
 )
+{
 return
 glyphTable
 ;
+}
 /
 /
 allocate
@@ -6556,9 +6572,11 @@ if
 =
 olda
 )
+{
 return
 true
 ;
+}
 if
 (
 aHint
@@ -6569,6 +6587,7 @@ NS_STRETCH_LARGER
 NS_STRETCH_LARGEOP
 )
 )
+{
 return
 (
 a
@@ -6590,12 +6609,14 @@ a
 b
 )
 ;
+}
 if
 (
 aHint
 &
 NS_STRETCH_SMALLER
 )
+{
 return
 (
 a
@@ -6617,6 +6638,7 @@ a
 b
 )
 ;
+}
 /
 /
 XXXkt
@@ -6896,6 +6918,7 @@ maxSize
 <
 aTargetSize
 )
+{
 return
 maxSize
 ;
@@ -6906,6 +6929,7 @@ with
 the
 maximum
 size
+}
 /
 /
 Get
@@ -6933,6 +6957,7 @@ minSize
 >
 aTargetSize
 )
+{
 return
 minSize
 ;
@@ -6943,6 +6968,7 @@ with
 the
 minimum
 size
+}
 /
 /
 Fill
@@ -8185,8 +8211,10 @@ if
 (
 largeopOnly
 )
+{
 break
 ;
+}
 +
 +
 size
@@ -8471,6 +8499,7 @@ bm
 .
 width
 )
+{
 mBoundingMetrics
 .
 width
@@ -8479,6 +8508,7 @@ bm
 .
 width
 ;
+}
 if
 (
 mBoundingMetrics
@@ -8489,6 +8519,7 @@ bm
 .
 leftBearing
 )
+{
 mBoundingMetrics
 .
 leftBearing
@@ -8497,6 +8528,7 @@ bm
 .
 leftBearing
 ;
+}
 if
 (
 mBoundingMetrics
@@ -8507,6 +8539,7 @@ bm
 .
 rightBearing
 )
+{
 mBoundingMetrics
 .
 rightBearing
@@ -8515,6 +8548,7 @@ bm
 .
 rightBearing
 ;
+}
 /
 /
 Continue
@@ -8614,6 +8648,7 @@ if
 (
 haveBetter
 )
+{
 break
 ;
 /
@@ -8625,6 +8660,7 @@ futher
 progress
 stop
 searching
+}
 }
 /
 /
@@ -8876,6 +8912,7 @@ uchar
 isVertical
 )
 )
+{
 return
 false
 ;
@@ -8884,6 +8921,7 @@ false
 to
 next
 table
+}
 for
 (
 int32_t
@@ -8949,9 +8987,11 @@ font
 aFontGroup
 )
 )
+{
 return
 false
 ;
+}
 textRun
 [
 i
@@ -9456,7 +9496,9 @@ i
 +
 +
 )
+{
 ;
+}
 if
 (
 i
@@ -9536,8 +9578,10 @@ textRun
 i
 ]
 )
+{
 continue
 ;
+}
 lbearing
 =
 std
@@ -9767,7 +9811,9 @@ i
 +
 +
 )
+{
 ;
+}
 if
 (
 i
@@ -9837,8 +9883,10 @@ textRun
 i
 ]
 )
+{
 continue
 ;
+}
 ascent
 =
 std
@@ -9911,6 +9959,7 @@ if
 (
 maxWidth
 )
+{
 return
 false
 ;
@@ -9921,6 +9970,7 @@ to
 check
 other
 sizes
+}
 /
 /
 reset
@@ -10387,6 +10437,7 @@ Contains
 glyphTable
 )
 )
+{
 return
 false
 ;
@@ -10396,6 +10447,7 @@ already
 tried
 this
 one
+}
 /
 /
 Only
@@ -11689,10 +11741,12 @@ aStretchHint
 )
 )
 )
+{
 done
 =
 true
 ;
+}
 }
 /
 /
@@ -14389,6 +14443,7 @@ NS_STRETCH_DIRECTION_VERTICAL
 =
 mDirection
 )
+{
 PaintVertically
 (
 presContext
@@ -14398,6 +14453,7 @@ r
 fgColor
 )
 ;
+}
 else
 if
 (
@@ -14406,6 +14462,7 @@ NS_STRETCH_DIRECTION_HORIZONTAL
 =
 mDirection
 )
+{
 PaintHorizontally
 (
 presContext
@@ -14415,6 +14472,7 @@ r
 fgColor
 )
 ;
+}
 break
 ;
 }
@@ -15827,6 +15885,7 @@ first
 .
 leftBearing
 )
+{
 lbearing
 =
 mBmData
@@ -15836,6 +15895,7 @@ first
 .
 leftBearing
 ;
+}
 if
 (
 rbearing
@@ -15847,6 +15907,7 @@ first
 .
 rightBearing
 )
+{
 rbearing
 =
 mBmData
@@ -15856,6 +15917,7 @@ first
 .
 rightBearing
 ;
+}
 }
 }
 else
@@ -17298,6 +17360,7 @@ first
 .
 ascent
 )
+{
 ascent
 =
 mBmData
@@ -17307,6 +17370,7 @@ first
 .
 ascent
 ;
+}
 if
 (
 descent
@@ -17318,6 +17382,7 @@ first
 .
 descent
 )
+{
 descent
 =
 mBmData
@@ -17327,6 +17392,7 @@ first
 .
 descent
 ;
+}
 }
 }
 else

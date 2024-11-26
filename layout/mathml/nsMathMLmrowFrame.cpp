@@ -363,6 +363,7 @@ IsTableWrapperFrame
 (
 )
 )
+{
 return
 frame
 -
@@ -374,6 +375,7 @@ aAttribute
 aModType
 )
 ;
+}
 }
 MOZ_ASSERT_UNREACHABLE
 (

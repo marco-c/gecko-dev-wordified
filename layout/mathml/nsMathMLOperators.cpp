@@ -399,8 +399,10 @@ IsEmpty
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 aName
@@ -427,6 +429,7 @@ Length
 )
 )
 )
+{
 aOperatorData
 -
 >
@@ -435,6 +438,7 @@ mFlags
 =
 NS_MATHML_OPERATOR_STRETCHY
 ;
+}
 else
 if
 (
@@ -447,6 +451,7 @@ fence
 "
 )
 )
+{
 aOperatorData
 -
 >
@@ -455,6 +460,7 @@ mFlags
 =
 NS_MATHML_OPERATOR_FENCE
 ;
+}
 else
 if
 (
@@ -467,6 +473,7 @@ accent
 "
 )
 )
+{
 aOperatorData
 -
 >
@@ -475,6 +482,7 @@ mFlags
 =
 NS_MATHML_OPERATOR_ACCENT
 ;
+}
 else
 if
 (
@@ -487,6 +495,7 @@ largeop
 "
 )
 )
+{
 aOperatorData
 -
 >
@@ -495,6 +504,7 @@ mFlags
 =
 NS_MATHML_OPERATOR_LARGEOP
 ;
+}
 else
 if
 (
@@ -507,6 +517,7 @@ separator
 "
 )
 )
+{
 aOperatorData
 -
 >
@@ -515,6 +526,7 @@ mFlags
 =
 NS_MATHML_OPERATOR_SEPARATOR
 ;
+}
 else
 if
 (
@@ -527,6 +539,7 @@ movablelimits
 "
 )
 )
+{
 aOperatorData
 -
 >
@@ -535,6 +548,7 @@ mFlags
 =
 NS_MATHML_OPERATOR_MOVABLELIMITS
 ;
+}
 else
 if
 (
@@ -547,6 +561,7 @@ symmetric
 "
 )
 )
+{
 aOperatorData
 -
 >
@@ -555,6 +570,7 @@ mFlags
 =
 NS_MATHML_OPERATOR_SYMMETRIC
 ;
+}
 }
 static
 void
@@ -584,8 +600,10 @@ IsEmpty
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 aName
@@ -609,6 +627,7 @@ vertical
 "
 )
 )
+{
 aOperatorData
 -
 >
@@ -617,6 +636,7 @@ mFlags
 =
 NS_MATHML_OPERATOR_DIRECTION_VERTICAL
 ;
+}
 else
 if
 (
@@ -629,6 +649,7 @@ horizontal
 "
 )
 )
+{
 aOperatorData
 -
 >
@@ -637,13 +658,16 @@ mFlags
 =
 NS_MATHML_OPERATOR_DIRECTION_HORIZONTAL
 ;
+}
 else
+{
 return
 ;
 /
 /
 invalid
 value
+}
 }
 else
 {
@@ -661,10 +685,12 @@ lspace
 "
 )
 )
+{
 isLeadingSpace
 =
 true
 ;
+}
 else
 if
 (
@@ -677,11 +703,14 @@ rspace
 "
 )
 )
+{
 isLeadingSpace
 =
 false
 ;
+}
 else
+{
 return
 ;
 /
@@ -690,6 +719,7 @@ input
 is
 not
 applicable
+}
 /
 /
 aValue
@@ -730,12 +760,15 @@ NS_FAILED
 error
 )
 )
+{
 return
 ;
+}
 if
 (
 isLeadingSpace
 )
+{
 aOperatorData
 -
 >
@@ -743,7 +776,9 @@ mLeadingSpace
 =
 space
 ;
+}
 else
+{
 aOperatorData
 -
 >
@@ -751,6 +786,7 @@ mTrailingSpace
 =
 space
 ;
+}
 }
 }
 static
@@ -875,15 +911,18 @@ c
 \
 '
 )
+{
 return
 false
 ;
+}
 if
 (
 i
 <
 len
 )
+{
 c
 =
 aOperator
@@ -891,6 +930,7 @@ aOperator
 i
 ]
 ;
+}
 i
 +
 +
@@ -916,15 +956,18 @@ U
 c
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 i
 <
 len
 )
+{
 c
 =
 aOperator
@@ -932,6 +975,7 @@ aOperator
 i
 ]
 ;
+}
 i
 +
 +
@@ -964,6 +1008,7 @@ c
 '
 )
 )
+{
 uchar
 =
 (
@@ -981,6 +1026,7 @@ c
 '
 )
 ;
+}
 else
 if
 (
@@ -1003,6 +1049,7 @@ f
 '
 )
 )
+{
 uchar
 =
 (
@@ -1022,6 +1069,7 @@ a
 0x0a
 )
 ;
+}
 else
 if
 (
@@ -1044,6 +1092,7 @@ F
 '
 )
 )
+{
 uchar
 =
 (
@@ -1063,16 +1112,20 @@ A
 0x0a
 )
 ;
+}
 else
+{
 return
 false
 ;
+}
 if
 (
 i
 <
 len
 )
+{
 c
 =
 aOperator
@@ -1080,6 +1133,7 @@ aOperator
 i
 ]
 ;
+}
 i
 +
 +
@@ -1121,9 +1175,11 @@ if
 =
 state
 )
+{
 return
 false
 ;
+}
 /
 /
 Quick
@@ -1178,9 +1234,11 @@ if
 !
 aForm
 )
+{
 return
 true
 ;
+}
 /
 /
 Add
@@ -1659,9 +1717,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 /
 /
 Parse
@@ -2052,6 +2112,7 @@ prefix
 ;
 }
 else
+{
 continue
 ;
 /
@@ -2060,6 +2121,7 @@ input
 is
 not
 applicable
+}
 name
 .
 SetLength
@@ -2096,9 +2158,11 @@ if
 =
 gOperatorCount
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 gOperatorArray
 =
 new
@@ -2167,10 +2231,12 @@ if
 =
 pass
 )
+{
 gOperatorCount
 =
 index
 ;
+}
 }
 }
 }
@@ -2228,6 +2294,7 @@ NS_FAILED
 rv
 )
 )
+{
 nsMathMLOperators
 :
 :
@@ -2235,6 +2302,7 @@ CleanUp
 (
 )
 ;
+}
 return
 rv
 ;
