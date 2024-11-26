@@ -2200,6 +2200,7 @@ aSpread
 =
 SVG_SPREADMETHOD_PAD
 )
+{
 gradient
 -
 >
@@ -2211,6 +2212,7 @@ ExtendMode
 CLAMP
 )
 ;
+}
 else
 if
 (
@@ -2219,6 +2221,7 @@ aSpread
 =
 SVG_SPREADMETHOD_REFLECT
 )
+{
 gradient
 -
 >
@@ -2230,6 +2233,7 @@ ExtendMode
 REFLECT
 )
 ;
+}
 else
 if
 (
@@ -2238,6 +2242,7 @@ aSpread
 =
 SVG_SPREADMETHOD_REPEAT
 )
+{
 gradient
 -
 >
@@ -2249,6 +2254,7 @@ ExtendMode
 REPEAT
 )
 ;
+}
 gradient
 -
 >

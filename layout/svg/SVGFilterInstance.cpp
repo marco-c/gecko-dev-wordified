@@ -1360,6 +1360,7 @@ IsExplicitlySet
 (
 )
 )
+{
 region
 .
 x
@@ -1370,6 +1371,7 @@ X
 (
 )
 ;
+}
 if
 (
 !
@@ -1388,6 +1390,7 @@ IsExplicitlySet
 (
 )
 )
+{
 region
 .
 y
@@ -1398,6 +1401,7 @@ Y
 (
 )
 ;
+}
 if
 (
 !
@@ -1416,6 +1420,7 @@ IsExplicitlySet
 (
 )
 )
+{
 region
 .
 width
@@ -1426,6 +1431,7 @@ Width
 (
 )
 ;
+}
 if
 (
 !
@@ -1444,6 +1450,7 @@ IsExplicitlySet
 (
 )
 )
+{
 region
 .
 height
@@ -1454,6 +1461,7 @@ Height
 (
 )
 ;
+}
 /
 /
 We
