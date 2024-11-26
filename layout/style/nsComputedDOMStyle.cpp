@@ -1066,8 +1066,6 @@ AnimationUtils
 IsSupportedPseudoForAnimations
 (
 aPseudo
-.
-mType
 )
 )
 {
