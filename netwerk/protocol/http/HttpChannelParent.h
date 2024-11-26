@@ -1036,6 +1036,10 @@ const
 bool
 &
 aIsUserAgentHeaderModified
+const
+nsString
+&
+aInitiatorType
 )
 ;
 virtual

@@ -1488,6 +1488,11 @@ a
 isUserAgentHeaderModified
 (
 )
+a
+.
+initiatorType
+(
+)
 )
 ;
 }
@@ -3438,6 +3443,10 @@ const
 bool
 &
 aIsUserAgentHeaderModified
+const
+nsString
+&
+aInitiatorType
 )
 {
 MOZ_ASSERT
@@ -4181,6 +4190,14 @@ httpChannel
 SetIsUserAgentHeaderModified
 (
 aIsUserAgentHeaderModified
+)
+;
+httpChannel
+-
+>
+SetInitiatorType
+(
+aInitiatorType
 )
 ;
 RefPtr
