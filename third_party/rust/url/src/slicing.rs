@@ -93,7 +93,13 @@ those
 terms
 .
 use
-core
+crate
+:
+:
+Url
+;
+use
+std
 :
 :
 ops
@@ -106,12 +112,6 @@ RangeFrom
 RangeFull
 RangeTo
 }
-;
-use
-crate
-:
-:
-Url
 ;
 impl
 Index
