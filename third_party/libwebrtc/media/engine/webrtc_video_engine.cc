@@ -27236,6 +27236,14 @@ stats
 .
 info
 .
+last_sender_report_timestamp_ms
+=
+stats
+.
+last_sender_report_timestamp_ms
+;
+info
+.
 last_sender_report_utc_timestamp_ms
 =
 stats

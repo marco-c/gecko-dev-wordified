@@ -2403,6 +2403,14 @@ decoded_muted_output
 ;
 stats
 .
+last_sender_report_timestamp_ms
+=
+call_stats
+.
+last_sender_report_timestamp_ms
+;
+stats
+.
 last_sender_report_utc_timestamp_ms
 =
 call_stats
