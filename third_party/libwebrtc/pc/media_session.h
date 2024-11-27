@@ -1967,6 +1967,9 @@ PayloadTypeSuggester
 *
 pt_suggester_
 ;
+bool
+payload_types_in_transport_trial_enabled_
+;
 }
 ;
 /
