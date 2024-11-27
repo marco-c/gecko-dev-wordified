@@ -328,6 +328,15 @@ content_type
 VideoFrameType
 frame_type
 ;
+std
+:
+:
+optional
+<
+double
+>
+corruption_score
+;
 }
 ;
 /
