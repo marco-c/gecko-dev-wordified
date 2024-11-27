@@ -2358,7 +2358,9 @@ LambdaCreateSessionDescriptionObserver
 >
 (
 [
-=
+this
+munge_offer
+offer_handler
 ]
 (
 std
@@ -2515,7 +2517,10 @@ signaling_thread_
 PostTask
 (
 [
-=
+this
+remote_offer
+remote_description_set
+answer_handler
 ]
 {
 SetSdpOfferAndGetAnswer
@@ -2558,7 +2563,9 @@ LambdaSetRemoteDescriptionObserver
 >
 (
 [
-=
+this
+remote_description_set
+answer_handler
 ]
 (
 RTCError
@@ -2608,7 +2615,8 @@ LambdaCreateSessionDescriptionObserver
 >
 (
 [
-=
+this
+answer_handler
 ]
 (
 std
@@ -2748,7 +2756,9 @@ signaling_thread_
 PostTask
 (
 [
-=
+this
+remote_answer
+done_handler
 ]
 {
 SetSdpAnswer

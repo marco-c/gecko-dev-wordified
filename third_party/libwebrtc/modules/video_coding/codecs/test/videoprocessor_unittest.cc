@@ -662,7 +662,7 @@ q_
 SendTask
 (
 [
-=
+this
 ]
 {
 video_processor_
@@ -860,7 +860,7 @@ q_
 SendTask
 (
 [
-=
+this
 ]
 {
 video_processor_
@@ -984,7 +984,7 @@ q_
 SendTask
 (
 [
-=
+this
 ]
 {
 video_processor_
@@ -1132,7 +1132,7 @@ q_
 SendTask
 (
 [
-=
+this
 ]
 {
 video_processor_
@@ -1224,7 +1224,7 @@ q_
 SendTask
 (
 [
-=
+this
 ]
 {
 video_processor_
