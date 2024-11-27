@@ -1833,7 +1833,6 @@ CopySocketInformationToPacketInfo
 cb
 *
 this
-false
 &
 sent_packet
 .
