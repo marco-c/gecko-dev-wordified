@@ -1095,9 +1095,7 @@ surface
 )
 {
 /
-*
-*
-*
+/
 We
 have
 to
@@ -1111,7 +1109,8 @@ for
 some
 reason
 eglCreateWindowSurface
-*
+/
+/
 couldn
 '
 t
@@ -1129,7 +1128,8 @@ versions
 fortunately
 just
 call
-*
+/
+/
 SurfaceHolder
 .
 getSurface
@@ -1148,8 +1148,6 @@ methods
 are
 relevant
 .
-*
-/
 class
 FakeSurfaceHolder
 implements
