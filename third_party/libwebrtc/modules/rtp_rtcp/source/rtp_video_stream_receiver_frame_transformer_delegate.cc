@@ -1561,6 +1561,9 @@ video_header
 video_header
 .
 color_space
+video_header
+.
+frame_instrumentation_data
 RtpPacketInfos
 (
 )
