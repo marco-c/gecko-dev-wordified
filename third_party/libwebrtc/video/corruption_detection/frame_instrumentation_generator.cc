@@ -316,7 +316,11 @@ layer_id
 *
 TODO
 :
-b
+bugs
+.
+webrtc
+.
+org
 /
 358039777
 -
@@ -327,6 +331,7 @@ are
 available
 in
 EncodedImage
+.
 if
 (
 encoded_image
@@ -921,7 +926,11 @@ sequence_index
 /
 TODO
 :
-b
+bugs
+.
+webrtc
+.
+org
 /
 358039777
 -
