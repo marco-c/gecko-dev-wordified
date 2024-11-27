@@ -122,6 +122,12 @@ field_trials_view
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 #
 endif
 /

@@ -99,6 +99,11 @@ cstddef
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
