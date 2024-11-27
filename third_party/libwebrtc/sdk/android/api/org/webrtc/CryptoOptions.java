@@ -177,6 +177,12 @@ Options
 .
 *
 /
+SuppressWarnings
+(
+"
+ClassCanBeStatic
+"
+)
 public
 final
 class
@@ -407,6 +413,12 @@ used
 .
 *
 /
+SuppressWarnings
+(
+"
+ClassCanBeStatic
+"
+)
 public
 final
 class
