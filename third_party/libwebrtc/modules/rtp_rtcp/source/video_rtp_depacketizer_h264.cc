@@ -1495,6 +1495,8 @@ NaluType
 :
 kFiller
 :
+break
+;
 case
 H264
 :
