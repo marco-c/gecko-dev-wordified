@@ -2366,11 +2366,9 @@ Integer
 .
 toString
 (
-(
 new
 Random
 (
-)
 )
 .
 nextInt
