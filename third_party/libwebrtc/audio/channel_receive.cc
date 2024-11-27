@@ -5089,7 +5089,7 @@ rtt
 last_sr
 -
 >
-last_remote_timestamp
+last_remote_ntp_timestamp
 last_sr
 -
 >
@@ -5552,12 +5552,12 @@ has_value
 {
 stats
 .
-last_sender_report_timestamp_ms
+last_sender_report_utc_timestamp_ms
 =
 rtcp_sr_stats
 -
 >
-last_arrival_timestamp
+last_arrival_ntp_timestamp
 .
 ToMs
 (
@@ -5570,12 +5570,12 @@ kNtpJan1970Millisecs
 ;
 stats
 .
-last_sender_report_remote_timestamp_ms
+last_sender_report_remote_utc_timestamp_ms
 =
 rtcp_sr_stats
 -
 >
-last_remote_timestamp
+last_remote_ntp_timestamp
 .
 ToMs
 (
@@ -7076,7 +7076,7 @@ capture_time_ntp_secs
 last_sr
 -
 >
-last_remote_timestamp
+last_remote_ntp_timestamp
 .
 seconds
 (
@@ -7089,7 +7089,7 @@ capture_time_ntp_frac
 last_sr
 -
 >
-last_remote_timestamp
+last_remote_ntp_timestamp
 .
 fractions
 (

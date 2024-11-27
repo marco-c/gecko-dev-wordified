@@ -1872,7 +1872,7 @@ CompactNtp
 last_sr
 -
 >
-last_remote_timestamp
+last_remote_ntp_timestamp
 )
 ;
 state
@@ -1882,7 +1882,7 @@ last_rr
 last_sr
 -
 >
-last_arrival_timestamp
+last_arrival_ntp_timestamp
 ;
 }
 state

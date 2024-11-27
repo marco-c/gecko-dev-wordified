@@ -1091,7 +1091,7 @@ RTCP
 SR
 .
 NtpTime
-last_arrival_timestamp
+last_arrival_ntp_timestamp
 ;
 /
 /
@@ -1115,7 +1115,7 @@ RTCP
 SR
 .
 NtpTime
-last_remote_timestamp
+last_remote_ntp_timestamp
 ;
 /
 /

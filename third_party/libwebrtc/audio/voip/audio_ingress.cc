@@ -1644,7 +1644,7 @@ rtt
 last_sr
 -
 >
-last_remote_timestamp
+last_remote_ntp_timestamp
 last_sr
 -
 >
