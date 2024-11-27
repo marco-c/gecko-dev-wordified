@@ -1530,6 +1530,9 @@ int
 *
 cipher_suite
 )
+const
+=
+0
 ;
 /
 /
@@ -1839,6 +1842,8 @@ int
 &
 crypto_suites
 )
+=
+0
 ;
 virtual
 bool
@@ -1848,6 +1853,9 @@ int
 *
 crypto_suite
 )
+const
+=
+0
 ;
 /
 /

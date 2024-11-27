@@ -2317,6 +2317,7 @@ int
 *
 cipher_suite
 )
+const
 {
 if
 (
@@ -2779,6 +2780,7 @@ int
 *
 crypto_suite
 )
+const
 {
 RTC_DCHECK
 (

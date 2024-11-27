@@ -1518,6 +1518,7 @@ int
 *
 cipher
 )
+const
 {
 if
 (
@@ -2850,6 +2851,7 @@ int
 *
 cipher
 )
+const
 {
 if
 (

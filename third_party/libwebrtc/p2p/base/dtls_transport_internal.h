@@ -496,6 +496,7 @@ int
 *
 cipher
 )
+const
 =
 0
 ;
@@ -532,6 +533,7 @@ int
 *
 cipher
 )
+const
 =
 0
 ;

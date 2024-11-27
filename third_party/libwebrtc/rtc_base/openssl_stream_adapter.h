@@ -886,6 +886,7 @@ int
 *
 cipher
 )
+const
 override
 ;
 [
@@ -981,6 +982,7 @@ int
 *
 crypto_suite
 )
+const
 override
 ;
 bool
