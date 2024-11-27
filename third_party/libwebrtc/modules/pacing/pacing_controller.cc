@@ -2109,10 +2109,7 @@ time
 "
 <
 <
-ToLogString
-(
 elapsed_time
-)
 <
 <
 "
@@ -2125,10 +2122,7 @@ to
 "
 <
 <
-ToLogString
-(
 kMaxElapsedTime
-)
 ;
 elapsed_time
 =
