@@ -144,6 +144,17 @@ h
 #
 include
 "
+common_video
+/
+include
+/
+corruption_score_calculator
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding
@@ -285,6 +296,9 @@ const
 FieldTrialsView
 &
 field_trials
+CorruptionScoreCalculator
+*
+corruption_score_calculator
 )
 ;
 ~

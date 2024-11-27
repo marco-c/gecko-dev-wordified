@@ -584,6 +584,13 @@ clock_
 &
 timing_
 field_trials_
+/
+*
+corruption_score_calculator
+=
+*
+/
+nullptr
 }
 ;
 }

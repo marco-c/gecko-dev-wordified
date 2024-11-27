@@ -375,6 +375,13 @@ _decodedFrameCallback
 _timing
 clock_
 field_trials
+/
+*
+corruption_score_calculator
+=
+*
+/
+nullptr
 )
 _frameTypeCallback
 (
