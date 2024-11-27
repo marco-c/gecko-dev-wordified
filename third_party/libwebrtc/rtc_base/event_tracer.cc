@@ -723,7 +723,11 @@ arg_values
 uint64_t
 timestamp
 int
+/
+*
 pid
+*
+/
 rtc
 :
 :
@@ -2450,7 +2454,11 @@ name
 unsigned
 long
 long
+/
+*
 id
+*
+/
 int
 num_args
 const
@@ -2471,7 +2479,11 @@ long
 arg_values
 unsigned
 char
+/
+*
 flags
+*
+/
 )
 {
 /

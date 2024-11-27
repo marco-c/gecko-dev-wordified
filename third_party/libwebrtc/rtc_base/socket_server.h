@@ -325,7 +325,11 @@ SetMessageQueue
 (
 Thread
 *
+/
+*
 queue
+*
+/
 )
 {
 }
