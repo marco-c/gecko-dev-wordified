@@ -970,7 +970,7 @@ rtp_timestamp
 )
 /
 *
-sample_size
+num_samples
 =
 *
 /
