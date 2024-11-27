@@ -299,12 +299,7 @@ SetCurrentIndex
 int
 idx
 )
-{
-current_idx_
-=
-idx
 ;
-}
 void
 Reset
 (
