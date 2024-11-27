@@ -335,7 +335,7 @@ override
 MOCK_METHOD
 (
 int32_t
-FrameToRender
+OnFrameToRender
 (
 const
 struct

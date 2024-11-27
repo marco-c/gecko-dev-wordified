@@ -393,7 +393,7 @@ virtual
 .
 virtual
 int32_t
-FrameToRender
+OnFrameToRender
 (
 const
 struct

@@ -404,7 +404,7 @@ frame_type
 )
 {
 return
-FrameToRender
+OnFrameToRender
 (
 {
 .
@@ -435,7 +435,7 @@ int32_t
 VideoStreamDecoder
 :
 :
-FrameToRender
+OnFrameToRender
 (
 const
 struct
