@@ -673,7 +673,7 @@ classifier
 return
 classifier
 .
-CalculateCorruptionProbablility
+CalculateCorruptionProbability
 (
 data_samples
 samples
