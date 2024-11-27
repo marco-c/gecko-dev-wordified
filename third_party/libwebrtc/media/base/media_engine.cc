@@ -1452,6 +1452,11 @@ encoding
 )
 {
 return
+encoding
+.
+active
+&
+&
 !
 encoding
 .
