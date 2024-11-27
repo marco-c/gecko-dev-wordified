@@ -3956,6 +3956,13 @@ encoder_config
 size_t
 max_num_layers
 =
+!
+encoder_config
+.
+HasRequestedResolution
+(
+)
+?
 LimitSimulcastLayerCount
 (
 min_num_layers
@@ -3969,6 +3976,10 @@ encoder_config
 .
 codec_type
 )
+:
+encoder_config
+.
+number_of_streams
 ;
 RTC_DCHECK_LE
 (
