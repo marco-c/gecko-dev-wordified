@@ -302,6 +302,11 @@ SvcRateAllocator
 >
 (
 codec
+env
+.
+field_trials
+(
+)
 )
 ;
 }
