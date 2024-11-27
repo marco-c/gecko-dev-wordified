@@ -1208,7 +1208,7 @@ MinResendTime
 )
 {
 static
-const
+constexpr
 TimeDelta
 kMinRetransmitInterval
 =

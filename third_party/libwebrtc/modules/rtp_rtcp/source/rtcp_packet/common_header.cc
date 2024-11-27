@@ -128,13 +128,6 @@ webrtc
 namespace
 rtcp
 {
-constexpr
-size_t
-CommonHeader
-:
-:
-kHeaderSizeBytes
-;
 /
 /
 0

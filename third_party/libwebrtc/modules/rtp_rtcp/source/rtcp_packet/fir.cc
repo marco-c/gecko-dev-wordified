@@ -152,13 +152,6 @@ webrtc
 namespace
 rtcp
 {
-constexpr
-uint8_t
-Fir
-:
-:
-kFeedbackMessageType
-;
 /
 /
 RFC

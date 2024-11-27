@@ -304,15 +304,13 @@ kFuA
 28
 }
 ;
-static
-const
+constexpr
 size_t
 kNalHeaderSize
 =
 1
 ;
-static
-const
+constexpr
 size_t
 kFuAHeaderSize
 =

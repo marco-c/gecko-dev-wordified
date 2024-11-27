@@ -505,13 +505,6 @@ M
 +
 -
 +
-constexpr
-RTPExtensionType
-RtpGenericFrameDescriptorExtension00
-:
-:
-kId
-;
 bool
 RtpGenericFrameDescriptorExtension00
 :

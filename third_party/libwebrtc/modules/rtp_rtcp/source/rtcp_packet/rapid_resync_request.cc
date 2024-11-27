@@ -139,13 +139,6 @@ webrtc
 namespace
 rtcp
 {
-constexpr
-uint8_t
-RapidResyncRequest
-:
-:
-kFeedbackMessageType
-;
 /
 /
 RFC
