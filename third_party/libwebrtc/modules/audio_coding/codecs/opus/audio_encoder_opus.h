@@ -1138,9 +1138,6 @@ int64_t
 >
 bitrate_smoother_last_update_time_
 ;
-int
-consecutive_dtx_frames_
-;
 friend
 struct
 AudioEncoderOpus
