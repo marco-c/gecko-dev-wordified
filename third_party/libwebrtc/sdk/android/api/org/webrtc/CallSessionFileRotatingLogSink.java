@@ -136,6 +136,12 @@ dirPath
 )
 ;
 }
+SuppressWarnings
+(
+"
+EnumOrdinal
+"
+)
 public
 CallSessionFileRotatingLogSink
 (

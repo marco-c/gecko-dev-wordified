@@ -736,8 +736,7 @@ bluetoothState
 }
 Override
 /
-*
-*
+/
 Notifies
 the
 client
@@ -752,8 +751,6 @@ from
 the
 service
 .
-*
-/
 public
 void
 onServiceDisconnected
