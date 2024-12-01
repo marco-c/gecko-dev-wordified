@@ -1179,6 +1179,15 @@ DisplayItemType
 TYPE_COMPOSITOR_HITTEST_INFO
 |
 |
+aType
+=
+=
+DisplayItemType
+:
+:
+TYPE_REMOTE
+|
+|
 (
 GetDisplayItemFlagsForType
 (
