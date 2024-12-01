@@ -731,7 +731,7 @@ initialization
 first
 to
 avoid
-TabsInTitlebar
+CustomTitlebar
 code
 picking
 /
@@ -775,7 +775,7 @@ update
 (
 )
 ;
-TabsInTitlebar
+CustomTitlebar
 .
 init
 (
@@ -6313,7 +6313,7 @@ uninit
 (
 )
 ;
-TabsInTitlebar
+CustomTitlebar
 .
 uninit
 (

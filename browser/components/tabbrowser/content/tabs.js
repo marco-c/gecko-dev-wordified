@@ -2193,7 +2193,7 @@ the
 titlebar
 if
 (
-TabsInTitlebar
+CustomTitlebar
 .
 enabled
 &

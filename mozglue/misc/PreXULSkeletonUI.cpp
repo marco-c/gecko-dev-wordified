@@ -10531,7 +10531,7 @@ css
 :
 root
 [
-tabsintitlebar
+customtitlebar
 ]
 :
 not

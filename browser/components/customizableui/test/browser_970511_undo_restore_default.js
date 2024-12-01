@@ -912,7 +912,7 @@ function
 const
 supported
 =
-TabsInTitlebar
+CustomTitlebar
 .
 systemSupported
 ;
@@ -928,7 +928,7 @@ boolean
 info
 (
 "
-TabsInTitlebar
+CustomTitlebar
 support
 :
 "

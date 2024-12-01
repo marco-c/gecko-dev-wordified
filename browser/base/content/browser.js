@@ -39309,7 +39309,7 @@ false
 fullscreen
 :
 false
-tabsintitlebar
+customtitlebar
 :
 false
 }
@@ -39706,14 +39706,14 @@ break
 ;
 case
 "
-tabsintitlebar
+customtitlebar
 "
 :
 this
 .
 _windowState
 .
-tabsintitlebar
+customtitlebar
 =
 reasonValue
 ;
