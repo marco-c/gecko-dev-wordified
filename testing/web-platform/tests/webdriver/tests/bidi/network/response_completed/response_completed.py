@@ -3623,7 +3623,7 @@ events
 )
 =
 =
-5
+6
     
 def
 assert_initiator_destination
@@ -3758,6 +3758,17 @@ css
 "
 "
 image
+"
+)
+    
+assert_initiator_destination
+(
+PAGE_EMPTY_HTML
+"
+iframe
+"
+"
+iframe
 "
 )
     
