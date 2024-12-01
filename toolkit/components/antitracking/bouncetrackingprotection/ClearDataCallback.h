@@ -128,7 +128,7 @@ MozPromise
 <
 RefPtr
 <
-BounceTrackingMapEntry
+BounceTrackingPurgeEntry
 >
 uint32_t
 true
@@ -231,7 +231,7 @@ purged
 .
 RefPtr
 <
-BounceTrackingMapEntry
+BounceTrackingPurgeEntry
 >
 mEntry
 ;
