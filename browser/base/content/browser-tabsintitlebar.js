@@ -417,13 +417,10 @@ documentElement
 setAttribute
 (
 "
-chromemargin
+customtitlebar
 "
 "
-0
-0
-0
-0
+true
 "
 )
 ;
@@ -472,7 +469,7 @@ documentElement
 removeAttribute
 (
 "
-chromemargin
+customtitlebar
 "
 )
 ;

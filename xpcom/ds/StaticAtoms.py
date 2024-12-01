@@ -2602,10 +2602,10 @@ choose
 Atom
 (
 "
-chromemargin
+customtitlebar
 "
 "
-chromemargin
+customtitlebar
 "
 )
     

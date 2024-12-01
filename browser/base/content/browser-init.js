@@ -755,7 +755,7 @@ init
 /
 Update
 the
-chromemargin
+customtitlebar
 attribute
 so
 the
@@ -763,6 +763,8 @@ window
 can
 be
 sized
+/
+/
 correctly
 .
 window
