@@ -108,6 +108,13 @@ LookupCacheV4
 h
 "
 #
+include
+"
+nsICryptoHash
+.
+h
+"
+#
 define
 EXPIRED_TIME_SEC
 (

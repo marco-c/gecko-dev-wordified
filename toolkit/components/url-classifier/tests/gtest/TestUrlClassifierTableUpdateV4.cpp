@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsICryptoHash
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
