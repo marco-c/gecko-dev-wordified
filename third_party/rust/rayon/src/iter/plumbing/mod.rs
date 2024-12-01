@@ -77,7 +77,7 @@ rayon
 /
 blob
 /
-master
+main
 /
 src
 /
@@ -99,12 +99,6 @@ super
 :
 :
 IndexedParallelIterator
-;
-use
-std
-:
-:
-cmp
 ;
 use
 std
@@ -182,7 +176,7 @@ rayon
 /
 blob
 /
-master
+main
 /
 src
 /
@@ -678,7 +672,7 @@ rayon
 /
 blob
 /
-master
+main
 /
 src
 /
@@ -1372,7 +1366,7 @@ rayon
 /
 blob
 /
-master
+main
 /
 src
 /
@@ -2112,7 +2106,7 @@ rayon
 /
 blob
 /
-master
+main
 /
 src
 /
@@ -2808,7 +2802,7 @@ self
 .
 splits
 =
-cmp
+Ord
 :
 :
 max
@@ -3098,7 +3092,7 @@ new
 )
 min
 :
-cmp
+Ord
 :
 :
 max
@@ -3176,7 +3170,7 @@ min_splits
 =
 len
 /
-cmp
+Ord
 :
 :
 max

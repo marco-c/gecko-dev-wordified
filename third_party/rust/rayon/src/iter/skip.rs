@@ -22,15 +22,6 @@ super
 :
 *
 ;
-use
-std
-:
-:
-cmp
-:
-:
-min
-;
 /
 /
 /
@@ -179,6 +170,9 @@ Self
 let
 n
 =
+Ord
+:
+:
 min
 (
 base

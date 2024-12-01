@@ -17,12 +17,6 @@ use
 std
 :
 :
-cmp
-;
-use
-std
-:
-:
 iter
 ;
 /
@@ -350,7 +344,7 @@ self
 >
 usize
 {
-cmp
+Ord
 :
 :
 min
@@ -804,7 +798,7 @@ self
 >
 usize
 {
-cmp
+Ord
 :
 :
 max
@@ -835,7 +829,7 @@ self
 >
 usize
 {
-cmp
+Ord
 :
 :
 min

@@ -1,13 +1,4 @@
 use
-std
-:
-:
-cmp
-:
-:
-min
-;
-use
 super
 :
 :
@@ -693,6 +684,9 @@ Self
 let
 elem_index
 =
+Ord
+:
+:
 min
 (
 index
