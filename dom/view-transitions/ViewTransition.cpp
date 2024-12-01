@@ -2542,7 +2542,7 @@ mDocument
 PseudoStyleType
 :
 :
-viewTransitionOld
+viewTransitionNew
 transitionName
 )
 ;
@@ -4736,10 +4736,9 @@ GetPresShell
 ps
 -
 >
-ContentRemoved
+ContentWillBeRemoved
 (
 mViewTransitionRoot
-nullptr
 )
 ;
 }
