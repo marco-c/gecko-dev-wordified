@@ -731,7 +731,7 @@ initialization
 first
 to
 avoid
-CustomTitlebar
+TabsInTitlebar
 code
 picking
 /
@@ -755,7 +755,7 @@ init
 /
 Update
 the
-customtitlebar
+chromemargin
 attribute
 so
 the
@@ -763,8 +763,6 @@ window
 can
 be
 sized
-/
-/
 correctly
 .
 window
@@ -775,7 +773,7 @@ update
 (
 )
 ;
-CustomTitlebar
+TabsInTitlebar
 .
 init
 (
@@ -6313,7 +6311,7 @@ uninit
 (
 )
 ;
-CustomTitlebar
+TabsInTitlebar
 .
 uninit
 (

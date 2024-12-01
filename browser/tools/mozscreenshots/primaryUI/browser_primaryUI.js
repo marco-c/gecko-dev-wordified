@@ -100,7 +100,7 @@ sets
 =
 [
 "
-CustomTitlebar
+TabsInTitlebar
 "
 "
 Tabs
