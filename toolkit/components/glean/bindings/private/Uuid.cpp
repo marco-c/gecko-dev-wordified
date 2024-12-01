@@ -185,6 +185,13 @@ nsString
 .
 h
 "
+#
+include
+"
+GIFFTFwd
+.
+h
+"
 namespace
 mozilla
 :
@@ -220,10 +227,10 @@ if
 scalarId
 )
 {
-Telemetry
+TelemetryScalar
 :
 :
-ScalarSet
+Set
 (
 scalarId
 .
