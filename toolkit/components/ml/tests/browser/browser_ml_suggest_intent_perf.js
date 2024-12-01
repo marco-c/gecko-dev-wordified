@@ -79,7 +79,7 @@ perfherder_metrics
 name
 :
 "
-intent
+INTENT
 -
 pipeline
 -
@@ -100,7 +100,7 @@ true
 name
 :
 "
-intent
+INTENT
 -
 initialization
 -
@@ -119,7 +119,7 @@ true
 name
 :
 "
-intent
+INTENT
 -
 model
 -
@@ -140,7 +140,7 @@ true
 name
 :
 "
-intent
+INTENT
 -
 pipeline
 -
@@ -161,7 +161,7 @@ true
 name
 :
 "
-intent
+INTENT
 -
 initialization
 -
@@ -180,7 +180,7 @@ true
 name
 :
 "
-intent
+INTENT
 -
 model
 -
@@ -201,7 +201,7 @@ true
 name
 :
 "
-intent
+INTENT
 -
 total
 -
@@ -340,6 +340,25 @@ wa
 "
 ]
 ;
+const
+request
+=
+{
+args
+options
+:
+{
+pooling
+:
+"
+mean
+"
+normalize
+:
+true
+}
+}
+;
 await
 perfTest
 (
@@ -347,7 +366,7 @@ perfTest
 intent
 "
 options
-args
+request
 )
 ;
 }
