@@ -6780,7 +6780,7 @@ Permutation
 /
 /
 /
-rotate_right
+rotate_left
 template
 <
 size_t
@@ -6805,7 +6805,7 @@ batch
 T
 A
 >
-rotate_right
+rotate_left
 (
 batch
 <

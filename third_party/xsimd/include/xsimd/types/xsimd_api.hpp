@@ -13911,7 +13911,7 @@ by
 \
 c
 n
-bytes
+elements
 and
 reintroduce
 the
@@ -13930,7 +13930,7 @@ from
 *
 \
 c
-rol
+rotl
 that
 rotates
 each
@@ -13946,9 +13946,9 @@ tparam
 N
 Amount
 of
-bytes
+elements
 to
-rotated
+rotate
 to
 the
 left
@@ -14043,7 +14043,7 @@ by
 \
 c
 n
-bytes
+elements
 and
 reintroduce
 the
@@ -14062,7 +14062,7 @@ from
 *
 \
 c
-rol
+rotr
 that
 rotates
 each
@@ -14070,7 +14070,7 @@ batch
 element
 to
 the
-left
+right
 .
 *
 *
@@ -14078,7 +14078,7 @@ tparam
 N
 Amount
 of
-bytes
+elements
 to
 rotate
 to
