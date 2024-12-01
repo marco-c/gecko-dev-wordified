@@ -239,16 +239,6 @@ private
 nsresult
 InvokeCallback
 (
-nsIDNSHTTPSSVCRecord
-*
-aHTTPSSVCRecord
-nsISVCBRecord
-*
-aHighestPriorityRecord
-const
-nsACString
-&
-aCname
 )
 ;
 mozilla
