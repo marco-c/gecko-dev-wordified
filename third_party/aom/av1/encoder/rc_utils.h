@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -155,7 +156,7 @@ C
 #
 endif
 static
-AOM_INLINE
+inline
 void
 check_reset_rc_flag
 (
@@ -236,10 +237,10 @@ rc
 -
 >
 avg_frame_bandwidth
+/
+3
 >
 (
-3
-*
 rc
 -
 >
@@ -305,7 +306,7 @@ optimal_buffer_level
 }
 }
 static
-AOM_INLINE
+inline
 void
 set_primary_rc_buffer_sizes
 (
@@ -490,7 +491,7 @@ maximum_buffer_size
 ;
 }
 static
-AOM_INLINE
+inline
 void
 config_target_level
 (
@@ -1000,7 +1001,7 @@ required
 *
 /
 static
-AOM_INLINE
+inline
 int
 recode_loop_test
 (
@@ -1218,6 +1219,9 @@ projected_frame_size
 <
 (
 (
+(
+int64_t
+)
 rc
 -
 >
@@ -1243,7 +1247,7 @@ force_recode
 ;
 }
 static
-AOM_INLINE
+inline
 double
 av1_get_gfu_boost_projection_factor
 (
@@ -1301,7 +1305,7 @@ factor
 ;
 }
 static
-AOM_INLINE
+inline
 int
 get_gfu_boost_from_r0_lap
 (
@@ -1344,7 +1348,7 @@ boost
 ;
 }
 static
-AOM_INLINE
+inline
 double
 av1_get_kf_boost_projection_factor
 (
@@ -1402,7 +1406,7 @@ factor
 ;
 }
 static
-AOM_INLINE
+inline
 int
 get_regulated_q_overshoot
 (
@@ -1552,7 +1556,7 @@ q_regulated
 ;
 }
 static
-AOM_INLINE
+inline
 int
 get_regulated_q_undershoot
 (
@@ -1926,7 +1930,7 @@ far
 *
 /
 static
-AOM_INLINE
+inline
 void
 recode_loop_update_q
 (

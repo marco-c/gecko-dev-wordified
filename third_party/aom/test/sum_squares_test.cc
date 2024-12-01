@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -141,16 +142,6 @@ tuple
 #
 include
 "
-third_party
-/
-googletest
-/
-src
-/
-googletest
-/
-include
-/
 gtest
 /
 gtest
@@ -5614,6 +5605,9 @@ endif
 /
 /
 HAVE_NEON_DOTPROD
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 class
 Highbd2dVarTest
 :
@@ -6560,6 +6554,11 @@ endif
 /
 /
 HAVE_SVE
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH
 }
 /
 /

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -463,7 +464,7 @@ row_max
 SubpelMvLimits
 ;
 static
-AOM_INLINE
+inline
 FULLPEL_MV
 get_fullmv_from_mv
 (
@@ -505,7 +506,7 @@ full_mv
 ;
 }
 static
-AOM_INLINE
+inline
 MV
 get_mv_from_fullmv
 (
@@ -547,7 +548,7 @@ subpel_mv
 ;
 }
 static
-AOM_INLINE
+inline
 void
 convert_fullmv_to_mv
 (
@@ -1143,7 +1144,7 @@ GM_ALPHA_MIN
 -
 GM_ALPHA_MAX
 static
-INLINE
+inline
 int
 block_center_x
 (
@@ -1175,7 +1176,7 @@ bw
 ;
 }
 static
-INLINE
+inline
 int
 block_center_y
 (
@@ -1207,7 +1208,7 @@ bh
 ;
 }
 static
-INLINE
+inline
 int
 convert_to_trans_prec
 (
@@ -1244,7 +1245,7 @@ WARPEDMODEL_PREC_BITS
 ;
 }
 static
-INLINE
+inline
 void
 integer_mv_precision
 (
@@ -1465,7 +1466,7 @@ an
 integer
 )
 static
-INLINE
+inline
 int_mv
 gm_get_motion_vector
 (
@@ -2019,7 +2020,7 @@ res
 ;
 }
 static
-INLINE
+inline
 TransformationType
 get_wmtype
 (
@@ -2174,7 +2175,7 @@ comp_mv
 CANDIDATE_MV
 ;
 static
-INLINE
+inline
 int
 is_zero_mv
 (
@@ -2200,7 +2201,7 @@ mv
 ;
 }
 static
-INLINE
+inline
 int
 is_equal_mv
 (
@@ -2238,7 +2239,7 @@ b
 ;
 }
 static
-INLINE
+inline
 void
 clamp_mv
 (
@@ -2295,7 +2296,7 @@ row_max
 ;
 }
 static
-INLINE
+inline
 void
 clamp_fullmv
 (

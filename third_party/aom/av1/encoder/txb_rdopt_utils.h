@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -373,7 +374,7 @@ AV1_PROB_COST_SHIFT
 10000
 ;
 static
-INLINE
+inline
 int
 get_dqv
 (
@@ -438,7 +439,7 @@ dqv
 ;
 }
 static
-INLINE
+inline
 int64_t
 get_coeff_dist
 (
@@ -755,7 +756,7 @@ eob_cost
 ;
 }
 static
-INLINE
+inline
 int
 get_golomb_cost
 (
@@ -812,7 +813,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 get_br_cost
 (
@@ -851,7 +852,7 @@ level
 ;
 }
 static
-INLINE
+inline
 int
 get_br_cost_with_diff
 (
@@ -1182,7 +1183,7 @@ cost
 ;
 }
 static
-INLINE
+inline
 int
 get_coeff_cost_eob
 (
@@ -1314,7 +1315,7 @@ cost
 ;
 }
 static
-INLINE
+inline
 int
 get_coeff_cost_general
 (
@@ -1494,7 +1495,7 @@ cost
 ;
 }
 static
-INLINE
+inline
 void
 get_qc_dqc_low
 (
@@ -1591,7 +1592,7 @@ dqc_low
 ;
 }
 static
-INLINE
+inline
 void
 update_coeff_eob_fast
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1428,7 +1429,7 @@ c
 }
 }
 static
-INLINE
+inline
 void
 free_solver_local_buf
 (

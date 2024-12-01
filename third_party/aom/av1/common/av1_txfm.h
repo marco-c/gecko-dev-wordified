@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -294,7 +295,7 @@ NewInvSqrt2
 2896
 ;
 static
-INLINE
+inline
 const
 int32_t
 *
@@ -314,7 +315,7 @@ cos_bit_min
 ;
 }
 static
-INLINE
+inline
 const
 int32_t
 *
@@ -434,7 +435,7 @@ av1_cospi_arr_s32_data
 ]
 ;
 static
-INLINE
+inline
 const
 int16_t
 *
@@ -454,7 +455,7 @@ cos_bit_min
 ;
 }
 static
-INLINE
+inline
 const
 int16_t
 *
@@ -474,7 +475,7 @@ cos_bit_min
 ;
 }
 static
-INLINE
+inline
 const
 int32_t
 *
@@ -499,7 +500,7 @@ endif
 /
 HAVE_NEON
 static
-INLINE
+inline
 int32_t
 range_check_value
 (
@@ -652,7 +653,7 @@ value
 ;
 }
 static
-INLINE
+inline
 int32_t
 round_shift
 (
@@ -696,7 +697,7 @@ bit
 ;
 }
 static
-INLINE
+inline
 int32_t
 half_btf
 (
@@ -955,7 +956,7 @@ bit
 ;
 }
 static
-INLINE
+inline
 uint16_t
 highbd_clip_pixel_add
 (
@@ -1109,7 +1110,7 @@ stage_num_row
 TXFM_2D_FLIP_CFG
 ;
 static
-INLINE
+inline
 void
 get_flip_cfg
 (
@@ -1256,7 +1257,7 @@ assert
 }
 }
 static
-INLINE
+inline
 void
 set_flip_cfg
 (
@@ -1304,7 +1305,7 @@ row
 sizes
 .
 static
-INLINE
+inline
 int
 get_rect_tx_log_ratio
 (
@@ -1496,7 +1497,7 @@ TXFM_TYPES
 ]
 ;
 static
-INLINE
+inline
 int
 get_txw_idx
 (
@@ -1517,7 +1518,7 @@ tx_size_wide_log2
 ;
 }
 static
-INLINE
+inline
 int
 get_txh_idx
 (

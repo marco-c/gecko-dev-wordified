@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -3686,7 +3687,7 @@ qs1
 }
 }
 static
-INLINE
+inline
 void
 trans_store_16x16_lpf_vert14
 (

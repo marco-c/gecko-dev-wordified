@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -167,6 +168,7 @@ under
 bits
 .
 static
+const
 int
 div_mult
 [
@@ -232,7 +234,7 @@ den
 altogether
 .
 static
-AOM_INLINE
+inline
 void
 get_mv_projection
 (
@@ -630,7 +632,7 @@ frame_mvs_stride
 }
 }
 static
-AOM_INLINE
+inline
 void
 add_ref_mv_candidate
 (
@@ -1152,7 +1154,7 @@ ref_match_count
 }
 }
 static
-AOM_INLINE
+inline
 void
 scan_row_mbmi
 (
@@ -1522,7 +1524,7 @@ len
 }
 }
 static
-AOM_INLINE
+inline
 void
 scan_col_mbmi
 (
@@ -1873,7 +1875,7 @@ len
 }
 }
 static
-AOM_INLINE
+inline
 void
 scan_blk_mbmi
 (
@@ -3355,7 +3357,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 void
 process_compound_ref_mv_candidate
 (
@@ -3593,7 +3595,7 @@ cmp_idx
 }
 }
 static
-AOM_INLINE
+inline
 void
 process_single_ref_mv_candidate
 (
@@ -3829,7 +3831,7 @@ refmv_count
 }
 }
 static
-AOM_INLINE
+inline
 void
 setup_ref_mv_list
 (
@@ -8366,7 +8368,7 @@ LAST2_FRAME
 ;
 }
 static
-INLINE
+inline
 void
 record_samples
 (
@@ -10512,7 +10514,7 @@ map_idx
 ;
 }
 static
-AOM_INLINE
+inline
 void
 set_ref_frame_info
 (

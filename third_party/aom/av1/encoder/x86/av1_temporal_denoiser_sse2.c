@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -202,7 +203,7 @@ this
 MB
 .
 static
-INLINE
+inline
 int
 sum_diff_16x1
 (
@@ -310,7 +311,7 @@ a
 vector
 .
 static
-INLINE
+inline
 __m128i
 av1_denoiser_16x1_sse2
 (
@@ -735,7 +736,7 @@ weaker
 filter
 .
 static
-INLINE
+inline
 __m128i
 av1_denoiser_adj_16x1_sse2
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -135,7 +136,7 @@ aom_dsp_rtcd
 h
 "
 static
-INLINE
+inline
 void
 sse_sum_wd4_sse2
 (
@@ -416,7 +417,7 @@ tmp
 endif
 }
 static
-INLINE
+inline
 void
 sse_sum_wd8_sse2
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -178,7 +179,7 @@ h
 return
 mv_diff
 static
-INLINE
+inline
 int
 is_interp_filter_good_match
 (
@@ -377,7 +378,7 @@ mv_diff
 ;
 }
 static
-INLINE
+inline
 int
 save_interp_filter_search_stat
 (
@@ -475,7 +476,7 @@ interp_filter_stats_idx
 ;
 }
 static
-INLINE
+inline
 int
 find_interp_filter_in_stats
 (
@@ -700,8 +701,9 @@ match
 result
 found
 }
+static
 int
-av1_find_interp_filter_match
+find_interp_filter_match
 (
 MB_MODE_INFO
 *
@@ -785,7 +787,7 @@ match_found_idx
 ;
 }
 static
-INLINE
+inline
 int
 get_switchable_rate
 (
@@ -893,7 +895,7 @@ given
 plane
 .
 static
-INLINE
+inline
 void
 interp_model_rd_eval
 (
@@ -1064,7 +1066,7 @@ of
 given
 interpolation_filter
 static
-INLINE
+inline
 int64_t
 interpolation_filter_rd
 (
@@ -1931,7 +1933,7 @@ return
 ;
 }
 static
-INLINE
+inline
 INTERP_PRED_TYPE
 is_pred_filter_search_allowed
 (
@@ -2434,7 +2436,7 @@ best_filt_type
 ;
 }
 static
-INLINE
+inline
 void
 pred_dual_interp_filter_rd
 (
@@ -2710,7 +2712,7 @@ vertical
 filters
 .
 static
-INLINE
+inline
 void
 fast_dual_interp_filter_rd
 (
@@ -3081,7 +3083,7 @@ dual_interp_filter
 =
 0
 static
-INLINE
+inline
 void
 find_best_non_dual_interp_filter
 (
@@ -4159,7 +4161,7 @@ break
 }
 }
 static
-INLINE
+inline
 void
 calc_interp_skip_pred_flag
 (
@@ -5167,7 +5169,7 @@ interp_filter
 ;
 match_found_idx
 =
-av1_find_interp_filter_match
+find_interp_filter_match
 (
 mbmi
 cpi

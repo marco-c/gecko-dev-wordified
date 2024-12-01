@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -242,7 +243,7 @@ spatial
 layer
 .
 static
-INLINE
+inline
 int
 noise_est_svc
 (

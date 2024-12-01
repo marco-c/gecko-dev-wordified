@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -2295,7 +2296,7 @@ pbi
 )
 ;
 static
-INLINE
+inline
 void
 decrease_ref_count
 (
@@ -2487,7 +2488,7 @@ define
 ACCT_STR
 __func__
 static
-INLINE
+inline
 int
 av1_read_uniform
 (

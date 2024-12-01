@@ -152,6 +152,11 @@ cmath
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstring
 >
 #

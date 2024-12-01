@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1539,7 +1540,7 @@ SIMD
 implementation
 .
 static
-AOM_INLINE
+inline
 void
 highbd_unsharp_rect
 (
@@ -1690,7 +1691,7 @@ dst_stride
 }
 }
 static
-AOM_INLINE
+inline
 void
 unsharp_rect
 (
@@ -1826,7 +1827,7 @@ dst_stride
 }
 }
 static
-AOM_INLINE
+inline
 void
 unsharp
 (
@@ -2074,7 +2075,7 @@ gauss_filter
 }
 ;
 static
-AOM_INLINE
+inline
 void
 gaussian_blur
 (
@@ -2340,7 +2341,7 @@ conv_params
 }
 }
 static
-AOM_INLINE
+inline
 double
 cal_approx_vmaf
 (
@@ -5838,7 +5839,7 @@ SIMD
 versions
 .
 static
-AOM_INLINE
+inline
 double
 highbd_image_sad_c
 (
@@ -5951,7 +5952,7 @@ w
 ;
 }
 static
-AOM_INLINE
+inline
 double
 image_sad_c
 (
@@ -6511,7 +6512,7 @@ motion2
 ;
 }
 static
-AOM_INLINE
+inline
 void
 get_neighbor_frames
 (
@@ -7149,7 +7150,7 @@ qindex
 ;
 }
 static
-AOM_INLINE
+inline
 double
 cal_approx_score
 (

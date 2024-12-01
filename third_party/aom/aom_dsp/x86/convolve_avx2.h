@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -5609,7 +5610,7 @@ while
 0
 )
 static
-INLINE
+inline
 void
 prepare_coeffs_lowbd
 (
@@ -5862,7 +5863,7 @@ _mm256_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_6t_lowbd
 (
@@ -6090,7 +6091,7 @@ _mm256_set1_epi16
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_6t
 (
@@ -6222,7 +6223,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs
 (
@@ -6372,7 +6373,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_12taps
 (
@@ -6597,7 +6598,7 @@ coeffs
 11
 }
 static
-INLINE
+inline
 __m256i
 convolve_lowbd
 (
@@ -6720,7 +6721,7 @@ res
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_lowbd_6tap
 (
@@ -6823,7 +6824,7 @@ res
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_lowbd_4tap
 (
@@ -6906,7 +6907,7 @@ res
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_6tap
 (
@@ -6989,7 +6990,7 @@ res
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_12taps
 (
@@ -7138,7 +7139,7 @@ res
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve
 (
@@ -7241,7 +7242,7 @@ res
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_4tap
 (
@@ -7304,7 +7305,7 @@ res
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_lowbd_x
 (
@@ -7394,7 +7395,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_lowbd_x_6tap
 (
@@ -7470,7 +7471,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_lowbd_x_4tap
 (
@@ -7532,7 +7533,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 add_store_aligned_256
 (
@@ -7607,7 +7608,7 @@ d
 ;
 }
 static
-INLINE
+inline
 __m256i
 comp_avg
 (
@@ -7742,7 +7743,7 @@ res
 ;
 }
 static
-INLINE
+inline
 __m256i
 convolve_rounding
 (
@@ -7798,7 +7799,7 @@ res_round
 ;
 }
 static
-INLINE
+inline
 __m256i
 highbd_comp_avg
 (
@@ -7906,7 +7907,7 @@ res
 ;
 }
 static
-INLINE
+inline
 __m256i
 highbd_convolve_rounding
 (

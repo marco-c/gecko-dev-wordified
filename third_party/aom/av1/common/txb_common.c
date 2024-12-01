@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -171,6 +172,7 @@ are
 clamped
 to
 4
+static
 const
 int8_t
 av1_nz_map_ctx_offset_4x4
@@ -197,6 +199,7 @@ av1_nz_map_ctx_offset_4x4
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_8x8
@@ -271,6 +274,7 @@ av1_nz_map_ctx_offset_8x8
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_16x16
@@ -537,6 +541,7 @@ av1_nz_map_ctx_offset_16x16
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_32x32
@@ -1571,6 +1576,7 @@ av1_nz_map_ctx_offset_32x32
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_4x8
@@ -1613,6 +1619,7 @@ av1_nz_map_ctx_offset_4x8
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_8x16
@@ -1751,6 +1758,7 @@ av1_nz_map_ctx_offset_8x16
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_16x32
@@ -2273,6 +2281,7 @@ av1_nz_map_ctx_offset_16x32
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_32x16
@@ -2795,6 +2804,7 @@ av1_nz_map_ctx_offset_32x16
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_32x64
@@ -3829,6 +3839,7 @@ av1_nz_map_ctx_offset_32x64
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_64x32
@@ -4863,6 +4874,7 @@ av1_nz_map_ctx_offset_64x32
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_4x16
@@ -4937,6 +4949,7 @@ av1_nz_map_ctx_offset_4x16
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_16x4
@@ -5011,6 +5024,7 @@ av1_nz_map_ctx_offset_16x4
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_8x32
@@ -5277,6 +5291,7 @@ av1_nz_map_ctx_offset_8x32
 21
 }
 ;
+static
 const
 int8_t
 av1_nz_map_ctx_offset_32x8

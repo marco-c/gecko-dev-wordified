@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1558,7 +1559,7 @@ log2height
 )
 \
 static
-AOM_INLINE
+inline
 int
 aom_sub_pixel_variance32x
 #

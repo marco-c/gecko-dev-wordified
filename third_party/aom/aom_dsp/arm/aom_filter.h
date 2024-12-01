@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -150,7 +151,7 @@ aom_dsp_rtcd
 h
 "
 static
-INLINE
+inline
 int
 get_filter_taps_convolve8
 (

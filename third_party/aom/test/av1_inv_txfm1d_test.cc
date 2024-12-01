@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -844,7 +845,7 @@ ni
 }
 }
 static
-INLINE
+inline
 int
 get_max_bit
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -362,7 +363,7 @@ bit
 /
 /
 static
-INLINE
+inline
 void
 obmc_variance_w8n
 (
@@ -786,7 +787,7 @@ v_d
 ;
 }
 static
-INLINE
+inline
 void
 obmc_variance_w16n
 (

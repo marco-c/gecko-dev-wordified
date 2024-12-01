@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -205,7 +206,7 @@ a
 time
 .
 static
-INLINE
+inline
 void
 highbd_variance_4xh_sve
 (
@@ -344,7 +345,7 @@ sse_s64
 ;
 }
 static
-INLINE
+inline
 void
 variance_8x1_sve
 (
@@ -418,7 +419,7 @@ diff
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_8xh_sve
 (
@@ -511,7 +512,7 @@ sse_s64
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_16xh_sve
 (
@@ -668,7 +669,7 @@ sse_s64
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_large_sve
 (
@@ -987,7 +988,7 @@ sse_s64
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_32xh_sve
 (
@@ -1027,7 +1028,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_64xh_sve
 (
@@ -1067,7 +1068,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_128xh_sve
 (
@@ -1977,7 +1978,7 @@ HBD_VARIANCE_WXH_10_SVE
 undef
 HBD_VARIANCE_WXH_12_SVE
 static
-INLINE
+inline
 uint32_t
 highbd_mse_wxh_sve
 (

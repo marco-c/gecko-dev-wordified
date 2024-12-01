@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -341,7 +342,7 @@ __GNUC__
 4
 )
 static
-INLINE
+inline
 int
 get_msb
 (
@@ -380,7 +381,7 @@ intrinsic
 _BitScanReverse
 )
 static
-INLINE
+inline
 int
 get_msb
 (
@@ -415,7 +416,7 @@ first_set_bit
 #
 else
 static
-INLINE
+inline
 int
 get_msb
 (
@@ -527,7 +528,7 @@ __GNUC__
 4
 )
 static
-INLINE
+inline
 int
 aom_clzll
 (
@@ -569,7 +570,7 @@ _BitScanReverse64
 #
 endif
 static
-INLINE
+inline
 int
 aom_clzll
 (
@@ -762,7 +763,7 @@ USE_MSC_INTRINSICS
 #
 else
 static
-INLINE
+inline
 int
 aom_clzll
 (

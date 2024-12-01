@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -182,7 +183,7 @@ synonyms_avx2
 h
 "
 static
-INLINE
+inline
 void
 sse_w32_avx2
 (
@@ -315,7 +316,7 @@ v_d01_w
 ;
 }
 static
-INLINE
+inline
 int64_t
 summary_all_avx2
 (
@@ -413,7 +414,7 @@ sum
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 summary_32_avx2
 (
@@ -475,7 +476,7 @@ sum_4x64
 ;
 }
 static
-INLINE
+inline
 int64_t
 summary_4x64_avx2
 (
@@ -532,7 +533,7 @@ sum
 #
 endif
 static
-INLINE
+inline
 void
 sse_w4x4_avx2
 (
@@ -725,7 +726,7 @@ v_d_w
 ;
 }
 static
-INLINE
+inline
 void
 sse_w8x2_avx2
 (
@@ -1604,7 +1605,7 @@ sse
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 highbd_sse_w16_avx2
 (
@@ -1665,7 +1666,7 @@ v_d_w
 ;
 }
 static
-INLINE
+inline
 void
 highbd_sse_w4x4_avx2
 (
@@ -1840,7 +1841,7 @@ v_d_w
 ;
 }
 static
-INLINE
+inline
 void
 highbd_sse_w8x2_avx2
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -130,6 +131,15 @@ include
 aom_scale
 /
 yv12config
+.
+h
+"
+#
+include
+"
+config
+/
+aom_config
 .
 h
 "
@@ -275,6 +285,9 @@ depth
 }
 PSNR_STATS
 ;
+#
+if
+CONFIG_INTERNAL_STATS
 /
 *
 !
@@ -351,6 +364,11 @@ double
 sse
 )
 ;
+#
+endif
+/
+/
+CONFIG_INTERNAL_STATS
 uint64_t
 aom_get_y_var
 (

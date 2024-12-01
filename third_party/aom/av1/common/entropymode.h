@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1755,7 +1756,7 @@ n
 )
 .
 static
-INLINE
+inline
 int
 av1_ceil_log2
 (

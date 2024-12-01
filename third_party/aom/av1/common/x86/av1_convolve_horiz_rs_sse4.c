@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1162,6 +1163,9 @@ shifted_8
 }
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 /
 /
 Note
@@ -2072,3 +2076,8 @@ clipped_16
 }
 }
 }
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -586,17 +587,6 @@ tile_data_start
 const
 int
 num_workers
-)
-;
-int
-av1_compute_num_enc_workers
-(
-const
-AV1_COMP
-*
-cpi
-int
-max_workers
 )
 ;
 int

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1066,6 +1067,7 @@ tx_size_
 }
 ;
 static
+const
 int
 max_error_ls
 [
@@ -1171,6 +1173,7 @@ transform
 }
 ;
 static
+const
 double
 avg_error_ls
 [

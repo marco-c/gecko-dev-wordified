@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -629,7 +630,7 @@ the
 best
 .
 static
-AOM_INLINE
+inline
 void
 compute_global_motion_for_ref_frame
 (
@@ -1464,7 +1465,7 @@ motion
 estimation
 .
 static
-AOM_INLINE
+inline
 void
 compute_global_motion_for_references
 (
@@ -2123,7 +2124,7 @@ num_ref_frames
 '
 .
 static
-AOM_INLINE
+inline
 void
 update_valid_ref_frames_for_gm
 (
@@ -2710,7 +2711,7 @@ global
 motion
 .
 static
-AOM_INLINE
+inline
 void
 setup_global_motion_info_params
 (
@@ -3095,7 +3096,7 @@ reference
 frames
 .
 static
-AOM_INLINE
+inline
 void
 global_motion_estimation
 (

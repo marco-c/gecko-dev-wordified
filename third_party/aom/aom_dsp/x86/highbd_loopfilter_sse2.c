@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -217,7 +218,7 @@ a
 ;
 }
 static
-INLINE
+inline
 void
 get_limit
 (
@@ -358,7 +359,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 void
 get_limit_dual
 (
@@ -584,7 +585,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 void
 load_highbd_pixel
 (
@@ -669,7 +670,7 @@ pitch
 }
 }
 static
-INLINE
+inline
 void
 highbd_filter_mask_dual
 (
@@ -892,7 +893,7 @@ return
 mask
 }
 static
-INLINE
+inline
 void
 highbd_hev_filter_mask_x_sse2
 (
@@ -1327,7 +1328,7 @@ zero
 mask
 }
 static
-INLINE
+inline
 void
 flat_mask_internal
 (
@@ -1461,7 +1462,7 @@ zero
 ;
 }
 static
-INLINE
+inline
 void
 flat_mask_internal_dual
 (
@@ -1603,7 +1604,7 @@ zero
 ;
 }
 static
-INLINE
+inline
 void
 highbd_flat_mask4_sse2
 (
@@ -1670,7 +1671,7 @@ flat2
 ;
 }
 static
-INLINE
+inline
 void
 highbd_flat_mask4_dual_sse2
 (
@@ -2115,7 +2116,7 @@ t80
 ;
 }
 static
-INLINE
+inline
 void
 highbd_filter4_dual_sse2
 (

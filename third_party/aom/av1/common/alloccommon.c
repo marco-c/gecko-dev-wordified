@@ -15,6 +15,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -552,7 +553,7 @@ num_frame_bufs
 ;
 }
 static
-INLINE
+inline
 void
 free_cdef_linebuf_conditional
 (
@@ -634,7 +635,7 @@ NULL
 }
 }
 static
-INLINE
+inline
 void
 free_cdef_bufs_conditional
 (
@@ -744,7 +745,7 @@ NULL
 }
 }
 static
-INLINE
+inline
 void
 free_cdef_bufs
 (
@@ -803,7 +804,7 @@ NULL
 }
 }
 static
-INLINE
+inline
 void
 free_cdef_row_sync
 (
@@ -1162,7 +1163,7 @@ NULL
 }
 }
 static
-INLINE
+inline
 void
 alloc_cdef_linebuf
 (
@@ -1237,7 +1238,7 @@ plane
 }
 }
 static
-INLINE
+inline
 void
 alloc_cdef_bufs
 (
@@ -1339,7 +1340,7 @@ plane
 }
 }
 static
-INLINE
+inline
 void
 alloc_cdef_row_sync
 (
@@ -2341,6 +2342,13 @@ allocated_mi_rows
 )
 ;
 }
+#
+if
+!
+CONFIG_REALTIME_ONLY
+|
+|
+CONFIG_AV1_DECODER
 /
 /
 Allocate
@@ -2892,6 +2900,15 @@ rst_frame
 )
 ;
 }
+#
+endif
+/
+/
+!
+CONFIG_REALTIME_ONLY
+|
+|
+CONFIG_AV1_DECODER
 void
 av1_free_above_context_buffers
 (

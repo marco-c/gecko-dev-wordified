@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -185,8 +186,6 @@ CDEF_NONE
 0
 /
 *
-!
-<
 Disable
 CDEF
 on
@@ -200,8 +199,6 @@ CDEF_ALL
 1
 /
 *
-!
-<
 Enable
 CDEF
 for
@@ -215,8 +212,6 @@ CDEF_REFERENCE
 2
 /
 *
-!
-<
 Disable
 CDEF
 on
@@ -224,6 +219,19 @@ non
 reference
 frames
 .
+*
+/
+CDEF_ADAPTIVE
+=
+3
+/
+*
+Enable
+CDEF
+adaptively
+on
+frame
+qindex
 *
 /
 }
@@ -1005,7 +1013,7 @@ use_highbitdepth
 CdefSearchCtx
 ;
 static
-INLINE
+inline
 int
 sb_all_skip
 (
@@ -1217,7 +1225,7 @@ sb
 respectively
 .
 static
-INLINE
+inline
 int
 cdef_sb_skip
 (

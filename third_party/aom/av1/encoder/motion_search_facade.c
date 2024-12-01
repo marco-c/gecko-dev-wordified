@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -410,7 +411,7 @@ used
 as
 candidates
 static
-INLINE
+inline
 void
 get_mv_candidate_from_tpl
 (
@@ -6470,7 +6471,7 @@ bestsme
 ;
 }
 static
-AOM_INLINE
+inline
 void
 build_second_inter_pred
 (
@@ -6780,8 +6781,9 @@ an
 inter
 mode
 .
+static
 int
-av1_compound_single_motion_search_interinter
+compound_single_motion_search_interinter
 (
 const
 AV1_COMP
@@ -6941,7 +6943,7 @@ ref_idx
 ;
 }
 static
-AOM_INLINE
+inline
 void
 do_masked_motion_search_indexed
 (
@@ -7087,7 +7089,7 @@ which
 1
 )
 {
-av1_compound_single_motion_search_interinter
+compound_single_motion_search_interinter
 (
 cpi
 x

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -206,6 +207,10 @@ CONFIG_CWG_C013
 0
 #
 define
+CONFIG_CWG_E050
+0
+#
+define
 CONFIG_DEBUG
 0
 #
@@ -342,12 +347,12 @@ CONFIG_SIZE_LIMIT
 0
 #
 define
-CONFIG_SPATIAL_RESAMPLING
-1
-#
-define
 CONFIG_SPEED_STATS
 0
+#
+define
+CONFIG_SVT_AV1
+1
 #
 define
 CONFIG_TFLITE
@@ -452,10 +457,6 @@ HAVE_VSX
 define
 HAVE_WXWIDGETS
 0
-#
-define
-INLINE
-inline
 #
 define
 STATIC_LINK_JXL

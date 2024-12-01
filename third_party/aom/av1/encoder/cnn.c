@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -250,7 +251,7 @@ th_step
 CONVOLVE_OPS
 ;
 static
-INLINE
+inline
 float
 softsign
 (
@@ -274,7 +275,7 @@ x
 ;
 }
 static
-INLINE
+inline
 float
 relu
 (
@@ -1843,7 +1844,7 @@ c
 if
 CONFIG_DEBUG
 static
-INLINE
+inline
 int
 cnn_has_at_least_one_output
 (
@@ -2319,7 +2320,7 @@ branch
 }
 }
 static
-INLINE
+inline
 int
 get_start_shift_convolve
 (
@@ -6307,7 +6308,7 @@ th
 }
 }
 static
-INLINE
+inline
 int
 get_start_shift_deconvolve
 (

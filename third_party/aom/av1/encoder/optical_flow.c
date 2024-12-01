@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -281,7 +282,7 @@ bit
 depth
 .
 static
-INLINE
+inline
 int
 is_frame_high_bitdepth
 (
@@ -320,7 +321,7 @@ is
 sparse
 .
 static
-INLINE
+inline
 int
 is_sparse
 (

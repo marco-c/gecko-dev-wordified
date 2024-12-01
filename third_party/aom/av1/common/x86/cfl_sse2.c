@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -146,7 +147,7 @@ av1_rtcd
 h
 "
 static
-INLINE
+inline
 __m128i
 fill_sum_epi32
 (
@@ -191,7 +192,7 @@ _MM_SHUFFLE
 ;
 }
 static
-INLINE
+inline
 void
 subtract_average_sse2
 (

@@ -12,8 +12,8 @@ project
 authors
 .
 All
-Rights
-Reserved
+rights
+reserved
 .
 *
 Copyright
@@ -29,6 +29,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -434,7 +435,7 @@ block
 }
 ;
 static
-INLINE
+inline
 int16x4_t
 convolve8_4_h
 (
@@ -631,7 +632,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve8_8_h
 (
@@ -911,7 +912,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve8_horiz_8tap_neon_dotprod
 (
@@ -1260,7 +1261,7 @@ h
 }
 }
 static
-INLINE
+inline
 int16x4_t
 convolve4_4_h
 (
@@ -1417,7 +1418,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve4_8_h
 (
@@ -1673,7 +1674,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve8_horiz_4tap_neon_dotprod
 (
@@ -2230,7 +2231,7 @@ h
 }
 }
 static
-INLINE
+inline
 void
 transpose_concat_4x4
 (
@@ -2437,7 +2438,7 @@ a0123
 ;
 }
 static
-INLINE
+inline
 void
 transpose_concat_8x4
 (
@@ -2680,7 +2681,7 @@ val
 ;
 }
 static
-INLINE
+inline
 int16x4_t
 convolve8_4_v
 (
@@ -2773,7 +2774,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve8_8_v
 (
@@ -2919,7 +2920,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve8_vert_8tap_neon_dotprod
 (

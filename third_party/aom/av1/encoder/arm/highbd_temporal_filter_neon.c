@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -197,7 +198,7 @@ sum_neon
 h
 "
 static
-INLINE
+inline
 void
 get_squared_error
 (

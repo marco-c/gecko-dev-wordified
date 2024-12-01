@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -221,7 +222,7 @@ in
 q4
 precision
 static
-INLINE
+inline
 int
 av1_scaled_x
 (
@@ -304,7 +305,7 @@ in
 q4
 precision
 static
-INLINE
+inline
 int
 av1_scaled_y
 (
@@ -387,7 +388,7 @@ in
 q4
 precision
 static
-INLINE
+inline
 int
 av1_unscaled_value
 (
@@ -452,7 +453,7 @@ this_h
 )
 ;
 static
-INLINE
+inline
 int
 av1_is_valid_scale
 (
@@ -491,7 +492,7 @@ REF_INVALID_SCALE
 ;
 }
 static
-INLINE
+inline
 int
 av1_is_scaled
 (
@@ -556,7 +557,7 @@ refs
 semantics
 .
 static
-INLINE
+inline
 int
 valid_ref_frame_size
 (

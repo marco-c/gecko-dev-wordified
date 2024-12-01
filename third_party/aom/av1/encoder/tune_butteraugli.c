@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -2540,6 +2541,19 @@ q_cfg
 -
 >
 enable_hdr_deltaq
+oxcf
+-
+>
+mode
+=
+=
+ALLINTRA
+oxcf
+-
+>
+tune_cfg
+.
+tuning
 )
 ;
 av1_set_speed_features_qindex_dependent

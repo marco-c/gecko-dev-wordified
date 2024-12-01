@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -3178,7 +3179,7 @@ shuffle_gamma0_mask3
 }
 ;
 static
-INLINE
+inline
 void
 filter_src_pixels
 (
@@ -3599,7 +3600,7 @@ reduce_bits_horiz
 ;
 }
 static
-INLINE
+inline
 void
 prepare_horizontal_filter_coeff
 (
@@ -4205,7 +4206,7 @@ tmp_15
 ;
 }
 static
-INLINE
+inline
 void
 prepare_horizontal_filter_coeff_alpha0
 (
@@ -4377,7 +4378,7 @@ shuffle_alpha0_mask67
 ;
 }
 static
-INLINE
+inline
 void
 horizontal_filter
 (
@@ -4425,7 +4426,7 @@ k
 ;
 }
 static
-INLINE
+inline
 void
 warp_horizontal_filter
 (
@@ -4574,7 +4575,7 @@ reduce_bits_horiz
 }
 }
 static
-INLINE
+inline
 void
 warp_horizontal_filter_alpha0
 (
@@ -4739,7 +4740,7 @@ k
 }
 }
 static
-INLINE
+inline
 void
 warp_horizontal_filter_beta0
 (
@@ -4892,7 +4893,7 @@ k
 }
 }
 static
-INLINE
+inline
 void
 warp_horizontal_filter_alpha0_beta0
 (
@@ -5049,7 +5050,7 @@ k
 }
 }
 static
-INLINE
+inline
 void
 unpack_weights_and_set_round_const
 (
@@ -5181,7 +5182,7 @@ wt1
 ;
 }
 static
-INLINE
+inline
 void
 prepare_vertical_filter_coeffs
 (
@@ -5596,7 +5597,7 @@ tmp_15
 ;
 }
 static
-INLINE
+inline
 void
 prepare_vertical_filter_coeffs_gamma0
 (
@@ -5751,7 +5752,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 void
 filter_src_pixels_vertical
 (
@@ -6126,7 +6127,7 @@ res_odd
 ;
 }
 static
-INLINE
+inline
 void
 store_vertical_filter_output
 (
@@ -6799,7 +6800,7 @@ res_8bit
 }
 }
 static
-INLINE
+inline
 void
 warp_vertical_filter
 (
@@ -6962,7 +6963,7 @@ round_bits
 }
 }
 static
-INLINE
+inline
 void
 warp_vertical_filter_gamma0
 (
@@ -7129,7 +7130,7 @@ round_bits
 }
 }
 static
-INLINE
+inline
 void
 warp_vertical_filter_delta0
 (
@@ -7284,7 +7285,7 @@ round_bits
 }
 }
 static
-INLINE
+inline
 void
 warp_vertical_filter_gamma0_delta0
 (
@@ -7443,7 +7444,7 @@ round_bits
 }
 }
 static
-INLINE
+inline
 void
 prepare_warp_vertical_filter
 (
@@ -7607,7 +7608,7 @@ offset_bits
 ;
 }
 static
-INLINE
+inline
 void
 prepare_warp_horizontal_filter
 (

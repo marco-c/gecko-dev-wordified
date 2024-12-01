@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1951,16 +1952,6 @@ CYCLIC_REFRESH
 cr
 )
 ;
-void
-av1_cyclic_refresh_reset_resize
-(
-struct
-AV1_COMP
-*
-const
-cpi
-)
-;
 int
 av1_cyclic_refresh_disable_lf_cdef
 (
@@ -1972,7 +1963,7 @@ cpi
 )
 ;
 static
-INLINE
+inline
 int
 cyclic_refresh_segment_id_boosted
 (
@@ -1994,7 +1985,7 @@ CR_SEGMENT_ID_BOOST2
 ;
 }
 static
-INLINE
+inline
 int
 cyclic_refresh_segment_id
 (

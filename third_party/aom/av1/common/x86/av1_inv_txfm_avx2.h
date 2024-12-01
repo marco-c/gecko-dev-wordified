@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -276,7 +277,7 @@ while
 0
 )
 static
-INLINE
+inline
 void
 round_shift_avx2
 (
@@ -335,7 +336,7 @@ scale
 }
 }
 static
-INLINE
+inline
 void
 write_recon_w16_avx2
 (
@@ -403,7 +404,7 @@ y
 ;
 }
 static
-INLINE
+inline
 void
 lowbd_write_buffer_16xn_avx2
 (

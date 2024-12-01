@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -463,7 +464,7 @@ g_shuffle_stats_highbd_data
 }
 ;
 static
-INLINE
+inline
 uint8_t
 find_average
 (
@@ -564,7 +565,7 @@ avg
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 uint16_t
 find_average_highbd
 (

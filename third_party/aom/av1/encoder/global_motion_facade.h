@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -150,7 +151,7 @@ of
 GlobalMotionData
 .
 static
-AOM_INLINE
+inline
 void
 gm_alloc_data
 (
@@ -285,7 +286,7 @@ of
 GlobalMotionData
 .
 static
-AOM_INLINE
+inline
 void
 gm_dealloc_data
 (

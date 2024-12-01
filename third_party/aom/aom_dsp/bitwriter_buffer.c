@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -348,8 +349,9 @@ off
 1
 ;
 }
+static
 void
-aom_wb_overwrite_bit
+overwrite_bit
 (
 struct
 aom_write_bit_buffer
@@ -585,7 +587,7 @@ bit
 -
 -
 )
-aom_wb_overwrite_bit
+overwrite_bit
 (
 wb
 (

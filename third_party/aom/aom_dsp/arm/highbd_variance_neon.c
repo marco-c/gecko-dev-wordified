@@ -12,8 +12,8 @@ project
 authors
 .
 All
-Rights
-Reserved
+rights
+reserved
 .
 *
 Copyright
@@ -29,6 +29,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -213,7 +214,7 @@ a
 time
 .
 static
-INLINE
+inline
 void
 highbd_variance_4xh_neon
 (
@@ -428,7 +429,7 @@ block
 )
 .
 static
-INLINE
+inline
 void
 highbd_variance_large_neon
 (
@@ -648,7 +649,7 @@ sse_s32
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_8xh_neon
 (
@@ -688,7 +689,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_16xh_neon
 (
@@ -728,7 +729,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_32xh_neon
 (
@@ -768,7 +769,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_64xh_neon
 (
@@ -808,7 +809,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_128xh_neon
 (
@@ -976,7 +977,7 @@ bit
 elements
 .
 static
-INLINE
+inline
 void
 highbd_variance_xlarge_neon
 (
@@ -1284,7 +1285,7 @@ sse_s64
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_32xh_xlarge_neon
 (
@@ -1325,7 +1326,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_64xh_xlarge_neon
 (
@@ -1366,7 +1367,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 void
 highbd_variance_128xh_xlarge_neon
 (
@@ -2442,7 +2443,7 @@ endif
 !
 CONFIG_REALTIME_ONLY
 static
-INLINE
+inline
 uint32_t
 highbd_mse_wxh_neon
 (
@@ -2904,7 +2905,7 @@ HIGHBD_MSE_WXH_NEON
 undef
 HIGHBD_MSE_WXH_NEON
 static
-INLINE
+inline
 uint64x2_t
 mse_accumulate_u16_8x2
 (

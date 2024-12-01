@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -157,7 +158,7 @@ a
 reference
 r
 static
-INLINE
+inline
 uint16_t
 inv_recenter_nonneg
 (
@@ -251,7 +252,7 @@ n
 1
 ]
 static
-INLINE
+inline
 uint16_t
 inv_recenter_finite_nonneg
 (
@@ -317,7 +318,7 @@ a
 reference
 r
 static
-INLINE
+inline
 uint16_t
 recenter_nonneg
 (
@@ -408,7 +409,7 @@ n
 1
 ]
 static
-INLINE
+inline
 uint16_t
 recenter_finite_nonneg
 (

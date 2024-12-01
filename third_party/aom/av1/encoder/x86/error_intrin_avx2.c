@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -147,7 +148,7 @@ aom_integer
 h
 "
 static
-INLINE
+inline
 void
 read_coeff
 (
@@ -250,7 +251,7 @@ addr
 }
 }
 static
-INLINE
+inline
 void
 av1_block_error_block_size16_avx2
 (
@@ -412,7 +413,7 @@ _mm256_setzero_si256
 ;
 }
 static
-INLINE
+inline
 void
 av1_block_error_block_size32_avx2
 (
@@ -643,7 +644,7 @@ sum_temp_0
 ;
 }
 static
-INLINE
+inline
 void
 av1_block_error_block_size64_avx2
 (

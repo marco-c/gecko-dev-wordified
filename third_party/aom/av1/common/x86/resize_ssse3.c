@@ -15,6 +15,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -203,7 +204,7 @@ resize
 h
 "
 static
-INLINE
+inline
 __m128i
 scale_plane_2_to_1_phase_0_kernel
 (
@@ -290,7 +291,7 @@ b_and
 ;
 }
 static
-INLINE
+inline
 void
 shuffle_filter_odd_ssse3
 (
@@ -452,7 +453,7 @@ _mm_set1_epi16
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve8_8_even_offset_ssse3
 (
@@ -664,7 +665,7 @@ temp
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve8_8_odd_offset_ssse3
 (
@@ -1191,7 +1192,7 @@ y
 ;
 }
 static
-INLINE
+inline
 __m128i
 scale_plane_bilinear_kernel
 (
@@ -7319,7 +7320,7 @@ x
 ;
 }
 static
-INLINE
+inline
 __m128i
 scale_1_to_2_phase_0_kernel
 (
@@ -8449,7 +8450,7 @@ in
 SSSE3
 .
 static
-INLINE
+inline
 bool
 has_normative_scaler_ssse3
 (

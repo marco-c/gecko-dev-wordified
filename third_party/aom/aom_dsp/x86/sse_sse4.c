@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -180,7 +181,7 @@ synonyms
 h
 "
 static
-INLINE
+inline
 int64_t
 summary_all_sse4
 (
@@ -256,7 +257,7 @@ sum
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 summary_32_sse4
 (
@@ -317,7 +318,7 @@ sum64
 #
 endif
 static
-INLINE
+inline
 void
 sse_w16_sse4_1
 (
@@ -446,7 +447,7 @@ v_d01_w
 ;
 }
 static
-INLINE
+inline
 void
 sse4x2_sse4_1
 (
@@ -559,7 +560,7 @@ v_d_w
 ;
 }
 static
-INLINE
+inline
 void
 sse8_sse4_1
 (
@@ -1324,7 +1325,7 @@ sse
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 highbd_sse_w4x2_sse4_1
 (
@@ -1431,7 +1432,7 @@ v_d_w
 ;
 }
 static
-INLINE
+inline
 void
 highbd_sse_w8_sse4_1
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -255,7 +256,7 @@ tokenize
 h
 "
 static
-AOM_INLINE
+inline
 int
 av1_fast_palette_color_index_context_on_edge
 (
@@ -620,7 +621,7 @@ color
 order
 .
 static
-AOM_INLINE
+inline
 int
 av1_fast_palette_color_index_context
 (

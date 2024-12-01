@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -261,7 +262,7 @@ endif
 TOKEN_STATS
 ;
 static
-INLINE
+inline
 void
 init_token_stats
 (
@@ -381,7 +382,7 @@ w
 )
 ;
 static
-INLINE
+inline
 void
 aom_write
 (
@@ -452,7 +453,7 @@ p
 ;
 }
 static
-INLINE
+inline
 void
 aom_write_bit
 (
@@ -475,7 +476,7 @@ bit
 aom_prob_half
 }
 static
-INLINE
+inline
 void
 aom_write_literal
 (
@@ -523,7 +524,7 @@ bit
 ;
 }
 static
-INLINE
+inline
 void
 aom_write_cdf
 (
@@ -566,7 +567,7 @@ nsymbs
 ;
 }
 static
-INLINE
+inline
 void
 aom_write_symbol
 (

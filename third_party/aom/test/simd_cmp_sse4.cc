@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -171,7 +172,7 @@ test
 /
 simd_cmp_impl
 .
-h
+inc
 "
 #
 endif

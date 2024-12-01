@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -848,7 +849,7 @@ dest
 }
 }
 static
-INLINE
+inline
 TxfmFunc
 inv_txfm_type_to_func
 (
@@ -1844,7 +1845,7 @@ opt_range_col
 }
 }
 static
-INLINE
+inline
 void
 inv_txfm2d_add_c
 (
@@ -2549,7 +2550,7 @@ bd
 }
 }
 static
-INLINE
+inline
 void
 inv_txfm2d_add_facade
 (

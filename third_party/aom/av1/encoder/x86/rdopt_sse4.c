@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -222,8 +223,8 @@ at
 a
 time
 .
-INLINE
 static
+inline
 void
 horver_correlation_4x4
 (

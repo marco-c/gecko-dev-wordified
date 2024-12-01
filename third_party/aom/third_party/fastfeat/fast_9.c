@@ -330,8 +330,9 @@ fast
 .
 h
 "
+static
 int
-aom_fast9_corner_score
+fast9_corner_score
 (
 const
 byte
@@ -16447,7 +16448,7 @@ scores
 n
 ]
 =
-aom_fast9_corner_score
+fast9_corner_score
 (
 i
 +

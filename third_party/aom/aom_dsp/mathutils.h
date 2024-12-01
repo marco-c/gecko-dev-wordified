@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -186,7 +187,7 @@ A
 is
 nxn
 static
-INLINE
+inline
 int
 linsolve
 (
@@ -931,7 +932,7 @@ the
 problem
 size
 static
-INLINE
+inline
 void
 least_squares_init
 (
@@ -1015,7 +1016,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 least_squares_accumulate
 (
@@ -1121,7 +1122,7 @@ b
 }
 }
 static
-INLINE
+inline
 int
 least_squares_solve
 (
@@ -1154,7 +1155,7 @@ x
 Matrix
 multiply
 static
-INLINE
+inline
 void
 multiply_mat
 (
@@ -1270,7 +1271,7 @@ sum
 }
 }
 static
-AOM_INLINE
+inline
 float
 approx_exp
 (

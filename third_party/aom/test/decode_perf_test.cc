@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -131,9 +132,9 @@ tuple
 #
 include
 "
-config
+aom
 /
-aom_version
+aom_codec
 .
 h
 "
@@ -628,7 +629,9 @@ s
 \
 n
 "
-VERSION_STRING_NOSP
+aom_codec_version_str
+(
+)
 )
 ;
 printf
@@ -1650,7 +1653,9 @@ s
 \
 n
 "
-VERSION_STRING_NOSP
+aom_codec_version_str
+(
+)
 )
 ;
 printf

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -623,7 +624,7 @@ data
 stride
 ;
 static
-INLINE
+inline
 void
 prepare_filter_coeffs
 (
@@ -1547,7 +1548,7 @@ the
 result
 .
 static
-INLINE
+inline
 __m128i
 blend
 (
