@@ -273,6 +273,9 @@ Components
 Exception
 (
 )
+"
+SuppressedError
+"
 ]
 )
 ;
