@@ -1414,8 +1414,6 @@ offering
 some
 service
 .
-:
-w
 *
 /
 getRemoteDevices
