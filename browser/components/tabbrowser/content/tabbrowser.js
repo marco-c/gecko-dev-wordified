@@ -45977,7 +45977,7 @@ nonPopupWithVerticalTabs
 {
 /
 /
-TabsInTitlebar
+CustomTitlebar
 decides
 if
 we
@@ -46013,7 +46013,7 @@ titlebar
 .
 This
 makes
-TabsInTitlebar
+CustomTitlebar
 a
 bit
 of
@@ -46035,7 +46035,7 @@ hideTabstrip
 =
 true
 ;
-TabsInTitlebar
+CustomTitlebar
 .
 allowedBy
 (
@@ -46050,7 +46050,7 @@ true
 }
 else
 {
-TabsInTitlebar
+CustomTitlebar
 .
 allowedBy
 (
@@ -46101,7 +46101,7 @@ browser
 -
 titlebar
 "
-TabsInTitlebar
+CustomTitlebar
 .
 enabled
 &
@@ -46129,7 +46129,7 @@ toolbox
 -
 background
 "
-TabsInTitlebar
+CustomTitlebar
 .
 enabled
 &

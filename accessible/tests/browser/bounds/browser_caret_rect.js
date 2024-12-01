@@ -906,7 +906,7 @@ attributeFilter
 :
 [
 "
-tabsintitlebar
+customtitlebar
 "
 ]
 }
@@ -922,7 +922,7 @@ documentElement
 hasAttribute
 (
 "
-tabsintitlebar
+customtitlebar
 "
 )
 )
