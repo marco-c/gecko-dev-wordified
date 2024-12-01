@@ -29395,15 +29395,12 @@ AutoHideSelectionChanges
 (
 aFrame
 ?
+&
 aFrame
 -
 >
-GetSelection
+NormalSelection
 (
-SelectionType
-:
-:
-eNormal
 )
 :
 nullptr

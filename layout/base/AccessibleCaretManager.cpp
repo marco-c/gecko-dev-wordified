@@ -4997,15 +4997,12 @@ nullptr
 ;
 }
 return
+&
 fs
 -
 >
-GetSelection
+NormalSelection
 (
-SelectionType
-:
-:
-eNormal
 )
 ;
 }

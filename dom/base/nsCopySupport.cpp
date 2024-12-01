@@ -4013,15 +4013,12 @@ Selection
 >
 sel
 =
+&
 frameSel
 -
 >
-GetSelection
+NormalSelection
 (
-SelectionType
-:
-:
-eNormal
 )
 ;
 return
