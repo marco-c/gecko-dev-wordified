@@ -1711,7 +1711,7 @@ d
 LOGTAG
 "
 NULL
-crytpo
+crypto
 "
 )
 ;
