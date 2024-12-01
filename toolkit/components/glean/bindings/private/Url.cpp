@@ -194,13 +194,6 @@ fog_ffi_generated
 .
 h
 "
-#
-include
-"
-GIFFTFwd
-.
-h
-"
 namespace
 mozilla
 :
@@ -236,10 +229,10 @@ if
 scalarId
 )
 {
-TelemetryScalar
+Telemetry
 :
 :
-Set
+ScalarSet
 (
 scalarId
 .

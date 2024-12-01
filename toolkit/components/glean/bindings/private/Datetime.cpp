@@ -201,13 +201,6 @@ prtime
 .
 h
 "
-#
-include
-"
-GIFFTFwd
-.
-h
-"
 namespace
 mozilla
 :
@@ -392,10 +385,10 @@ written
 :
 '
 ;
-TelemetryScalar
+Telemetry
 :
 :
-Set
+ScalarSet
 (
 id
 .
