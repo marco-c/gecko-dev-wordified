@@ -3874,6 +3874,17 @@ UpdateOpaqueRegionInternal
 (
 )
 ;
+LayoutDeviceIntRegion
+GetOpaqueRegionForTesting
+(
+)
+const
+override
+{
+return
+mOpaqueRegion
+;
+}
 void
 SetColorScheme
 (
