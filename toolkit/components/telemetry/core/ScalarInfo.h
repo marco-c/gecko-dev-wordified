@@ -232,9 +232,6 @@ Common
 SupportedProduct
 products
 ;
-bool
-builtin
-;
 constexpr
 BaseScalarInfo
 (
@@ -270,10 +267,6 @@ Common
 :
 SupportedProduct
 aProducts
-bool
-aBuiltin
-=
-true
 )
 :
 kind
@@ -303,10 +296,6 @@ aKeyOffset
 products
 (
 aProducts
-)
-builtin
-(
-aBuiltin
 )
 {
 }
