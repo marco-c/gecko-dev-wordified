@@ -6554,7 +6554,6 @@ controller
 c
 ;
 }
-async
 pull
 (
 )
@@ -6582,7 +6581,6 @@ byobRequest
 const
 transferredView
 =
-await
 transferArrayBufferView
 (
 controller
@@ -16537,7 +16535,6 @@ buffer
 const
 transferredView
 =
-await
 transferArrayBufferView
 (
 controller
@@ -16863,7 +16860,6 @@ buffer
 const
 transferredView
 =
-await
 transferArrayBufferView
 (
 controller
