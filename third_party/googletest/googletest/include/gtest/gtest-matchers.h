@@ -567,6 +567,7 @@ std
 ostream
 *
 )
+const
 ;
 /
 /
@@ -596,6 +597,7 @@ std
 ostream
 *
 )
+const
 ;
 /
 /
@@ -608,6 +610,7 @@ std
 ostream
 *
 )
+const
 ;
 /
 /
