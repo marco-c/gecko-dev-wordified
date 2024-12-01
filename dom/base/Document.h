@@ -1488,6 +1488,9 @@ TouchList
 class
 TreeWalker
 ;
+class
+OwningTrustedHTMLOrString
+;
 enum
 class
 ViewportFitType
@@ -20915,6 +20918,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Write
 (
@@ -20927,7 +20931,7 @@ dom
 :
 Sequence
 <
-nsString
+OwningTrustedHTMLOrString
 >
 &
 aText
@@ -20939,6 +20943,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Writeln
 (
@@ -20951,7 +20956,7 @@ dom
 :
 Sequence
 <
-nsString
+OwningTrustedHTMLOrString
 >
 &
 aText
@@ -26722,6 +26727,7 @@ nsIURI
 aOrigHost
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 WriteCommon
 (
@@ -26731,6 +26737,8 @@ nsAString
 aText
 bool
 aNewlineTerminate
+bool
+aIsTrusted
 mozilla
 :
 :
@@ -26749,6 +26757,7 @@ used
 by
 WebIDL
 bindings
+MOZ_CAN_RUN_SCRIPT
 void
 WriteCommon
 (
@@ -26761,7 +26770,7 @@ dom
 :
 Sequence
 <
-nsString
+OwningTrustedHTMLOrString
 >
 &
 aText
