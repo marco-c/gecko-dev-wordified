@@ -1878,7 +1878,7 @@ info
 (
 Test
 for
-shiftKey
+shifrKey
 :
 {
 shiftKey
