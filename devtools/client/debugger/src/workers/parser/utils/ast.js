@@ -171,6 +171,9 @@ classPrivateMethods
 classProperties
 "
 "
+explicitResourceManagement
+"
+"
 objectRestSpread
 "
 "
@@ -235,6 +238,9 @@ classPrivateMethods
 "
 "
 classProperties
+"
+"
+explicitResourceManagement
 "
 "
 exportDefaultFrom
@@ -582,6 +588,9 @@ classPrivateProperties
 "
 "
 classPrivateMethods
+"
+"
+explicitResourceManagement
 "
 "
 objectRestSpread
