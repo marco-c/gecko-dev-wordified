@@ -1221,6 +1221,7 @@ Deserialize
 [
 repr
 (
+C
 packed
 )
 ]
