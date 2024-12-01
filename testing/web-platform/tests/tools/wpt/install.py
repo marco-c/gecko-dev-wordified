@@ -97,6 +97,14 @@ nightly
 '
     
 '
+wpewebkit_minibrowser
+'
+:
+'
+nightly
+'
+    
+'
 wktr
 '
 :
