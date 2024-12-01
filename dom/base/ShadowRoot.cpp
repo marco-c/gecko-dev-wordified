@@ -2617,7 +2617,9 @@ css
 :
 Rule
 *
-StyleRuleChangeKind
+const
+StyleRuleChange
+&
 )
 {
 if
