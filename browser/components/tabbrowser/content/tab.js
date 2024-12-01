@@ -955,7 +955,6 @@ pinned
 selected
 =
 visuallyselected
-multiselected
 titlechanged
 attention
 "
