@@ -627,7 +627,7 @@ class
 External
 ;
 class
-FunctionOrString
+FunctionOrTrustedScriptOrString
 ;
 class
 Gamepad
@@ -4826,7 +4826,7 @@ mozilla
 dom
 :
 :
-FunctionOrString
+FunctionOrTrustedScriptOrString
 &
 aHandler
 int32_t
@@ -4881,7 +4881,7 @@ mozilla
 dom
 :
 :
-FunctionOrString
+FunctionOrTrustedScriptOrString
 &
 aHandler
 const
@@ -7527,7 +7527,7 @@ mozilla
 dom
 :
 :
-FunctionOrString
+FunctionOrTrustedScriptOrString
 &
 aHandler
 int32_t
