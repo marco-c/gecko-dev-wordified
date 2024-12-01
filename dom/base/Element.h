@@ -14736,9 +14736,12 @@ void
 SetHTMLUnsafe
 (
 const
-nsAString
+TrustedHTMLOrString
 &
 aHTML
+ErrorResult
+&
+aError
 )
 ;
 protected

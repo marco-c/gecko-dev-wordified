@@ -262,6 +262,9 @@ class
 HTMLInputElement
 ;
 class
+TrustedHTMLOrString
+;
+class
 ShadowRoot
 final
 :
@@ -1602,9 +1605,12 @@ void
 SetHTMLUnsafe
 (
 const
-nsAString
+TrustedHTMLOrString
 &
 aHTML
+ErrorResult
+&
+aError
 )
 ;
 void

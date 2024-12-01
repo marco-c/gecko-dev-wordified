@@ -37014,9 +37014,12 @@ Element
 SetHTMLUnsafe
 (
 const
-nsAString
+TrustedHTMLOrString
 &
 aHTML
+ErrorResult
+&
+aError
 )
 {
 nsContentUtils
@@ -37027,6 +37030,13 @@ SetHTMLUnsafe
 this
 this
 aHTML
+false
+/
+*
+aIsShadowRoot
+*
+/
+aError
 )
 ;
 }
