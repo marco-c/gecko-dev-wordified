@@ -1286,9 +1286,13 @@ empty
 )
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
+"
+mConnections
+not
+empty
+"
 )
 ;
 mConnections
