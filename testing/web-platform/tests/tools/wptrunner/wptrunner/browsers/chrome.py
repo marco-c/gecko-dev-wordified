@@ -422,27 +422,6 @@ kwargs
 )
 :
     
-sanitizer_enabled
-=
-kwargs
-.
-get
-(
-"
-sanitizer_enabled
-"
-)
-    
-if
-sanitizer_enabled
-:
-        
-test_type
-=
-"
-crashtest
-"
-    
 executor_kwargs
 =
 base_executor_kwargs
@@ -473,7 +452,15 @@ sanitizer_enabled
 "
 ]
 =
+kwargs
+.
+get
+(
+"
 sanitizer_enabled
+"
+False
+)
     
 executor_kwargs
 [

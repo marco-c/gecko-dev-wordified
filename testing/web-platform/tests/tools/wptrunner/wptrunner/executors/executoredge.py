@@ -14,8 +14,6 @@ executorwebdriver
 import
 (
     
-WebDriverCrashtestExecutor
-    
 WebDriverRefTestExecutor
     
 WebDriverRun
@@ -26,12 +24,7 @@ from
 .
 executorchrome
 import
-(
-    
 ChromeDriverProtocol
-    
-make_sanitizer_mixin
-)
 here
 =
 os
@@ -41,12 +34,6 @@ path
 dirname
 (
 __file__
-)
-_SanitizerMixin
-=
-make_sanitizer_mixin
-(
-WebDriverCrashtestExecutor
 )
 class
 EdgeDriverProtocol
@@ -64,13 +51,8 @@ class
 EdgeDriverRefTestExecutor
 (
 WebDriverRefTestExecutor
-_SanitizerMixin
 )
 :
-#
-type
-:
-ignore
     
 protocol_cls
 =
@@ -79,13 +61,8 @@ class
 EdgeDriverTestharnessExecutor
 (
 WebDriverTestharnessExecutor
-_SanitizerMixin
 )
 :
-#
-type
-:
-ignore
     
 protocol_cls
 =
