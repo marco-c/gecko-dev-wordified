@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -195,7 +196,7 @@ blend
 h
 "
 static
-INLINE
+inline
 uint16x8_t
 masked_sad_16x1_neon
 (
@@ -274,7 +275,7 @@ s0
 ;
 }
 static
-INLINE
+inline
 unsigned
 masked_sad_128xh_neon
 (
@@ -721,7 +722,7 @@ sad
 ;
 }
 static
-INLINE
+inline
 unsigned
 masked_sad_64xh_neon
 (
@@ -994,7 +995,7 @@ sad
 ;
 }
 static
-INLINE
+inline
 unsigned
 masked_sad_32xh_neon
 (
@@ -1155,7 +1156,7 @@ sad
 ;
 }
 static
-INLINE
+inline
 unsigned
 masked_sad_16xh_neon
 (
@@ -1273,7 +1274,7 @@ sad
 ;
 }
 static
-INLINE
+inline
 unsigned
 masked_sad_8xh_neon
 (
@@ -1434,7 +1435,7 @@ sad
 ;
 }
 static
-INLINE
+inline
 unsigned
 masked_sad_4xh_neon
 (

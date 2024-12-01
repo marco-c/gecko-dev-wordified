@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -224,7 +225,7 @@ txfm_common_avx2
 h
 "
 static
-INLINE
+inline
 void
 fdct16x16_new_avx2
 (
@@ -1376,7 +1377,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 fdct16x32_avx2
 (
@@ -3962,7 +3963,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 fdct16x64_new_avx2
 (
@@ -9776,7 +9777,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 fdct32_avx2
 (
@@ -12023,7 +12024,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 fdct64_new_avx2
 (
@@ -17583,7 +17584,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 fadst16x16_new_avx2
 (
@@ -19144,7 +19145,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 fidentity16x16_new_avx2
 (
@@ -19253,7 +19254,7 @@ b_hi
 }
 }
 static
-INLINE
+inline
 void
 fidentity16x32_avx2
 (
@@ -19306,7 +19307,7 @@ i
 }
 }
 static
-INLINE
+inline
 void
 store_output_32bit_w16
 (
@@ -19404,7 +19405,7 @@ the
 values
 .
 static
-INLINE
+inline
 void
 store_buffer_16bit_to_32bit_w16_avx2
 (
@@ -19493,7 +19494,7 @@ stride
 }
 }
 static
-INLINE
+inline
 void
 store_rect_16bit_to_32bit_avx2
 (
@@ -19591,7 +19592,7 @@ b_hi
 ;
 }
 static
-INLINE
+inline
 void
 store_rect_buffer_16bit_to_32bit_w16_avx2
 (
@@ -20112,7 +20113,7 @@ H_FLIPADST
 }
 ;
 static
-INLINE
+inline
 void
 load_buffer_and_round_shift
 (
@@ -20411,7 +20412,7 @@ bit
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_and_flip_round_shift
 (
@@ -21087,7 +21088,7 @@ bb3
 \
 }
 static
-INLINE
+inline
 void
 transpose_round_shift_flip_8x8
 (
@@ -21592,7 +21593,7 @@ c3
 ;
 }
 static
-INLINE
+inline
 void
 transpose_round_shift_8x8
 (
@@ -22097,7 +22098,7 @@ c3
 ;
 }
 static
-INLINE
+inline
 void
 store_buffer_16bit_to_32bit_w8_avx2
 (
@@ -25488,7 +25489,7 @@ output
 ;
 }
 static
-INLINE
+inline
 void
 btf_16_avx2
 (
@@ -25721,7 +25722,7 @@ temp1
 ;
 }
 static
-INLINE
+inline
 void
 fdct8x8_new_avx2
 (
@@ -26550,7 +26551,7 @@ x4
 ;
 }
 static
-INLINE
+inline
 void
 fadst8x8_new_avx2
 (
@@ -27699,7 +27700,7 @@ x6
 ;
 }
 static
-INLINE
+inline
 void
 fidentity8x8_new_avx2
 (
@@ -27857,7 +27858,7 @@ input
 ;
 }
 static
-INLINE
+inline
 void
 fdct8x16_new_avx2
 (
@@ -29611,7 +29612,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 fadst8x16_new_avx2
 (
@@ -32130,7 +32131,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 fidentity8x16_new_avx2
 (

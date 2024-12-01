@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -143,7 +144,7 @@ intrinsics
 head
 file
 static
-INLINE
+inline
 void
 mult_add_store
 (
@@ -238,7 +239,7 @@ d
 ;
 }
 static
-INLINE
+inline
 __m128i
 highbd_comp_avg_sse4_1
 (

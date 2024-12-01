@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -175,7 +176,7 @@ of
 dst
 .
 static
-INLINE
+inline
 __m128i
 _mm_loadh_epi32
 (
@@ -216,7 +217,7 @@ into
 memory
 .
 static
-INLINE
+inline
 void
 _mm_storeh_epi32
 (
@@ -339,7 +340,7 @@ buffer
 *
 /
 static
-INLINE
+inline
 void
 cfl_luma_subsampling_420_lbd_ssse3
 (
@@ -799,7 +800,7 @@ buffer
 *
 /
 static
-INLINE
+inline
 void
 cfl_luma_subsampling_422_lbd_ssse3
 (
@@ -1081,7 +1082,7 @@ buffer
 *
 /
 static
-INLINE
+inline
 void
 cfl_luma_subsampling_444_lbd_ssse3
 (
@@ -1460,7 +1461,7 @@ buffer
 *
 /
 static
-INLINE
+inline
 void
 cfl_luma_subsampling_420_hbd_ssse3
 (
@@ -1967,7 +1968,7 @@ buffer
 *
 /
 static
-INLINE
+inline
 void
 cfl_luma_subsampling_422_hbd_ssse3
 (
@@ -2221,7 +2222,7 @@ end
 ;
 }
 static
-INLINE
+inline
 void
 cfl_luma_subsampling_444_hbd_ssse3
 (
@@ -2480,7 +2481,7 @@ CFL_GET_SUBSAMPLE_FUNCTION
 ssse3
 )
 static
-INLINE
+inline
 __m128i
 predict_unclipped
 (
@@ -2542,7 +2543,7 @@ dc_q0
 ;
 }
 static
-INLINE
+inline
 void
 cfl_predict_lbd_ssse3
 (
@@ -2790,7 +2791,7 @@ lbd
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 __m128i
 highbd_max_epi16
 (
@@ -2867,7 +2868,7 @@ neg_one
 ;
 }
 static
-INLINE
+inline
 __m128i
 highbd_clamp_epi16
 (
@@ -2892,7 +2893,7 @@ zero
 ;
 }
 static
-INLINE
+inline
 void
 cfl_predict_hbd_ssse3
 (

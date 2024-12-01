@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -218,7 +219,7 @@ txfm_common_avx2
 h
 "
 static
-INLINE
+inline
 void
 load_buffer_8x8_avx2
 (
@@ -947,7 +948,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 void
 col_txfm_8x8_rounding
 (
@@ -1200,7 +1201,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_8x16_avx2
 (
@@ -1286,7 +1287,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 void
 load_buffer_16xn_avx2
 (
@@ -1893,7 +1894,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 round_shift_32_8xn_avx2
 (
@@ -2035,7 +2036,7 @@ bit
 }
 }
 static
-INLINE
+inline
 void
 store_buffer_avx2
 (
@@ -2094,7 +2095,7 @@ stride
 }
 }
 static
-INLINE
+inline
 void
 fwd_txfm_transpose_16x16_avx2
 (
@@ -2173,7 +2174,7 @@ out
 ;
 }
 static
-INLINE
+inline
 __m256i
 av1_half_btf_avx2
 (
@@ -15750,7 +15751,7 @@ bd
 ;
 }
 static
-INLINE
+inline
 void
 fdct32_avx2
 (
@@ -20300,7 +20301,7 @@ buf0
 ;
 }
 static
-INLINE
+inline
 void
 idtx32x32_avx2
 (
@@ -21223,7 +21224,7 @@ output
 ;
 }
 static
-INLINE
+inline
 void
 fdct64_stage2_avx2
 (
@@ -22169,7 +22170,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 fdct64_stage3_avx2
 (
@@ -23199,7 +23200,7 @@ x2
 ;
 }
 static
-INLINE
+inline
 void
 fdct64_stage4_avx2
 (
@@ -24112,7 +24113,7 @@ x3
 ;
 }
 static
-INLINE
+inline
 void
 fdct64_stage5_avx2
 (
@@ -25130,7 +25131,7 @@ x4
 ;
 }
 static
-INLINE
+inline
 void
 fdct64_stage6_avx2
 (
@@ -26047,7 +26048,7 @@ x5
 ;
 }
 static
-INLINE
+inline
 void
 fdct64_stage7_avx2
 (
@@ -27053,7 +27054,7 @@ x6
 ;
 }
 static
-INLINE
+inline
 void
 fdct64_stage8_avx2
 (
@@ -28073,7 +28074,7 @@ x7
 ;
 }
 static
-INLINE
+inline
 void
 fdct64_stage9_avx2
 (
@@ -29177,7 +29178,7 @@ x8
 ;
 }
 static
-INLINE
+inline
 void
 fdct64_stage10_avx2
 (

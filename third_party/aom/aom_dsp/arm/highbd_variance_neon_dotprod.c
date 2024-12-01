@@ -12,8 +12,8 @@ project
 authors
 .
 All
-Rights
-Reserved
+rights
+reserved
 .
 *
 Copyright
@@ -29,6 +29,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -170,7 +171,7 @@ aom_dsp_rtcd
 h
 "
 static
-INLINE
+inline
 uint32_t
 highbd_mse8_8xh_neon_dotprod
 (
@@ -336,7 +337,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 uint32_t
 highbd_mse8_16xh_neon_dotprod
 (

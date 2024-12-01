@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -428,7 +429,7 @@ value
 *
 /
 static
-AOM_INLINE
+inline
 void
 av1_sort_fi32_16
 (
@@ -899,7 +900,7 @@ values
 *
 /
 static
-AOM_INLINE
+inline
 void
 av1_sort_fi32_8
 (

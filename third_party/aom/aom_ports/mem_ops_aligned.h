@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -386,7 +387,7 @@ sz
 )
 \
 static
-AOM_INLINE
+inline
 unsigned
 MEM_VALUE_T
 mem_get_
@@ -448,7 +449,7 @@ sz
 )
 \
 static
-AOM_INLINE
+inline
 signed
 MEM_VALUE_T
 mem_get_s
@@ -510,7 +511,7 @@ sz
 )
 \
 static
-AOM_INLINE
+inline
 unsigned
 MEM_VALUE_T
 mem_get_
@@ -590,7 +591,7 @@ sz
 )
 \
 static
-AOM_INLINE
+inline
 signed
 MEM_VALUE_T
 mem_get_s
@@ -673,7 +674,7 @@ sz
 )
 \
 static
-AOM_INLINE
+inline
 void
 mem_put_
 #
@@ -743,7 +744,7 @@ sz
 )
 \
 static
-AOM_INLINE
+inline
 void
 mem_put_
 #

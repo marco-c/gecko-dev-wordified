@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -155,7 +156,7 @@ quantize_x86
 h
 "
 static
-INLINE
+inline
 void
 load_b_values_avx2
 (
@@ -470,7 +471,7 @@ shift
 ;
 }
 static
-INLINE
+inline
 __m256i
 load_coefficients_avx2
 (
@@ -519,7 +520,7 @@ coeff2
 ;
 }
 static
-INLINE
+inline
 void
 store_coefficients_avx2
 (
@@ -880,7 +881,7 @@ v_nz_mask
 ;
 }
 static
-INLINE
+inline
 __m256i
 get_max_lane_eob
 (
@@ -947,7 +948,7 @@ v_nz_iscan
 ;
 }
 static
-INLINE
+inline
 int16_t
 accumulate_eob256
 (

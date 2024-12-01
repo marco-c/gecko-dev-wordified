@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -248,7 +249,7 @@ int
 frame_drop_thresh
 ;
 int
-max_consec_drop
+max_consec_drop_ms
 ;
 double
 framerate

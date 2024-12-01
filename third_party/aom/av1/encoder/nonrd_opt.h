@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -3666,7 +3667,7 @@ on
 special
 logic
 static
-INLINE
+inline
 int
 get_model_rd_flag
 (
@@ -3990,7 +3991,7 @@ set
 *
 /
 static
-INLINE
+inline
 void
 find_predictors
 (
@@ -4466,7 +4467,7 @@ scaled_ref
 ;
 }
 static
-INLINE
+inline
 void
 init_mbmi_nonrd
 (
@@ -4622,7 +4623,7 @@ interp_filter
 ;
 }
 static
-INLINE
+inline
 void
 init_estimate_block_intra_args
 (
@@ -4689,7 +4690,7 @@ false
 ;
 }
 static
-INLINE
+inline
 int
 get_pred_buffer
 (
@@ -4747,7 +4748,7 @@ return
 ;
 }
 static
-INLINE
+inline
 void
 free_pred_buffer
 (
@@ -4775,7 +4776,7 @@ in_use
 if
 CONFIG_INTERNAL_STATS
 static
-INLINE
+inline
 void
 store_coding_context_nonrd
 (
@@ -4792,7 +4793,7 @@ mode_index
 #
 else
 static
-INLINE
+inline
 void
 store_coding_context_nonrd
 (

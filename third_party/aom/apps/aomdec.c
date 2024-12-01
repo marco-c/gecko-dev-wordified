@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1027,7 +1028,7 @@ on
 failure
 .
 static
-INLINE
+inline
 int
 libyuv_scale
 (

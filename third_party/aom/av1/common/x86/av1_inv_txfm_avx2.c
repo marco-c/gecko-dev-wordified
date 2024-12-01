@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -217,6 +218,7 @@ Sqrt2
 ^
 5
 static
+const
 int32_t
 NewSqrt2list
 [
@@ -240,7 +242,7 @@ TX_SIZES
 }
 ;
 static
-INLINE
+inline
 void
 idct16_stage5_avx2
 (
@@ -395,7 +397,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 idct16_stage6_avx2
 (
@@ -540,7 +542,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 idct16_stage7_avx2
 (
@@ -2312,7 +2314,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 iadst16_stage3_avx2
 (
@@ -2435,7 +2437,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 iadst16_stage4_avx2
 (
@@ -2627,7 +2629,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 iadst16_stage5_avx2
 (
@@ -2750,7 +2752,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 iadst16_stage6_avx2
 (
@@ -2892,7 +2894,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 iadst16_stage7_avx2
 (
@@ -3015,7 +3017,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 iadst16_stage8_avx2
 (
@@ -3140,7 +3142,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 iadst16_stage9_avx2
 (
@@ -4763,7 +4765,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 idct32_high16_stage3_avx2
 (
@@ -4886,7 +4888,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 idct32_high16_stage4_avx2
 (
@@ -5080,7 +5082,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 idct32_high24_stage5_avx2
 (
@@ -5299,7 +5301,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 idct32_high28_stage6_avx2
 (
@@ -5549,7 +5551,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 idct32_stage7_avx2
 (
@@ -5806,7 +5808,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 idct32_stage8_avx2
 (
@@ -6043,7 +6045,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 idct32_stage9_avx2
 (
@@ -9497,7 +9499,7 @@ x1
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage4_high32_avx2
 (
@@ -9870,7 +9872,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage5_high48_avx2
 (
@@ -10293,7 +10295,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage6_high32_avx2
 (
@@ -10564,7 +10566,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage6_high48_avx2
 (
@@ -10704,7 +10706,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage7_high48_avx2
 (
@@ -11076,7 +11078,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage8_high48_avx2
 (
@@ -11408,7 +11410,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage9_avx2
 (
@@ -11874,7 +11876,7 @@ x
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage10_avx2
 (
@@ -12300,7 +12302,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 idct64_stage11_avx2
 (
@@ -18513,7 +18515,7 @@ h
 =
 16
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_no_identity_avx2
 (
@@ -19091,7 +19093,7 @@ txfm_size_row
 }
 }
 static
-INLINE
+inline
 void
 iidentity_row_16xn_avx2
 (
@@ -19419,7 +19421,7 @@ hi
 }
 }
 static
-INLINE
+inline
 void
 iidentity_col_16xn_avx2
 (
@@ -19633,7 +19635,7 @@ stride
 }
 }
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_idtx_avx2
 (
@@ -19844,7 +19846,7 @@ txh_idx
 }
 }
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_h_identity_avx2
 (
@@ -20212,7 +20214,7 @@ stride
 }
 }
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_v_identity_avx2
 (
@@ -20650,7 +20652,7 @@ av1_iadst8_sse2
 }
 ;
 static
-INLINE
+inline
 void
 load_buffer_avx2
 (
@@ -21129,7 +21131,7 @@ gh
 ;
 }
 static
-INLINE
+inline
 void
 round_and_transpose_avx2
 (
@@ -22054,7 +22056,7 @@ reg_11
 ;
 }
 static
-INLINE
+inline
 void
 round_shift_lowbd_write_buffer_avx2
 (
@@ -23038,7 +23040,7 @@ operations
 together
 .
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_8x8_no_identity_avx2
 (
@@ -23383,7 +23385,7 @@ for
 64x16
 16x64
 static
-INLINE
+inline
 void
 lowbd_inv_txfm2d_add_universe_avx2
 (

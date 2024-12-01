@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -186,7 +187,7 @@ pickrst
 h
 "
 static
-INLINE
+inline
 void
 acc_stat_sse41
 (
@@ -309,7 +310,7 @@ r1
 ;
 }
 static
-INLINE
+inline
 void
 acc_stat_win7_one_line_sse4_1
 (
@@ -1110,7 +1111,7 @@ kl
 }
 }
 static
-INLINE
+inline
 void
 compute_stats_win7_opt_sse4_1
 (
@@ -1989,7 +1990,7 @@ m
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 acc_stat_highbd_sse41
 (
@@ -2411,7 +2412,7 @@ rhh
 ;
 }
 static
-INLINE
+inline
 void
 acc_stat_highbd_win7_one_line_sse4_1
 (
@@ -3243,7 +3244,7 @@ dgd_ijkl
 }
 }
 static
-INLINE
+inline
 void
 compute_stats_highbd_win7_opt_sse4_1
 (
@@ -3752,7 +3753,7 @@ bit_depth_divider
 }
 }
 static
-INLINE
+inline
 void
 acc_stat_highbd_win5_one_line_sse4_1
 (
@@ -4516,7 +4517,7 @@ dgd_ijkl
 }
 }
 static
-INLINE
+inline
 void
 compute_stats_highbd_win5_opt_sse4_1
 (
@@ -5162,7 +5163,7 @@ endif
 /
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 acc_stat_win5_one_line_sse4_1
 (
@@ -5895,7 +5896,7 @@ kl
 }
 }
 static
-INLINE
+inline
 void
 compute_stats_win5_opt_sse4_1
 (
@@ -6887,7 +6888,7 @@ use_downsampled_wiener_stats
 }
 }
 static
-INLINE
+inline
 __m128i
 pair_set_epi16
 (
@@ -6917,6 +6918,9 @@ a
 (
 (
 uint32_t
+)
+(
+uint16_t
 )
 (
 b
@@ -8208,7 +8212,7 @@ be
 computed
 .
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r0_r1_sse4_1
 (
@@ -8938,7 +8942,7 @@ be
 computed
 .
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r0_sse4_1
 (
@@ -9375,7 +9379,7 @@ be
 computed
 .
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r1_sse4_1
 (
@@ -9930,8 +9934,11 @@ C
 ;
 }
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r0_r1_high_bd_sse4_1
 (
@@ -10661,7 +10668,7 @@ be
 computed
 .
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r0_high_bd_sse4_1
 (
@@ -11098,7 +11105,7 @@ be
 computed
 .
 static
-AOM_INLINE
+inline
 void
 calc_proj_params_r1_high_bd_sse4_1
 (
@@ -11653,9 +11660,6 @@ C
 ;
 }
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 int64_t
 av1_highbd_pixel_proj_error_sse4_1
 (

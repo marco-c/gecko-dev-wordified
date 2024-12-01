@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1985,7 +1986,7 @@ size
 *
 /
 static
-INLINE
+inline
 int
 av1_cost_skip_txb
 (

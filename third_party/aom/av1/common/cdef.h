@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -525,7 +526,7 @@ offset
 CdefBlockInfo
 ;
 static
-INLINE
+inline
 int
 sign
 (
@@ -545,7 +546,7 @@ i
 ;
 }
 static
-INLINE
+inline
 int
 constrain
 (

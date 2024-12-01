@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -168,7 +169,7 @@ av1_quantize
 h
 "
 static
-INLINE
+inline
 uint16x4_t
 quantize_4
 (
@@ -488,7 +489,7 @@ nz_qcoeff_mask
 ;
 }
 static
-INLINE
+inline
 int16x8_t
 get_max_lane_eob
 (
@@ -551,7 +552,7 @@ v_nz_iscan
 ;
 }
 static
-INLINE
+inline
 uint16_t
 get_max_eob
 (

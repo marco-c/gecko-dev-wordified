@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1804,7 +1805,7 @@ level
 ]
 .
 static
-INLINE
+inline
 void
 fill_border
 (
@@ -2105,7 +2106,7 @@ frame_pyr
 >
 mutex
 static
-INLINE
+inline
 int
 fill_pyramid
 (

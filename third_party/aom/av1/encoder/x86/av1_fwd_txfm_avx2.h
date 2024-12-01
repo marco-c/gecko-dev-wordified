@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -155,7 +156,7 @@ in0
 *
 w1
 static
-INLINE
+inline
 void
 btf_32_avx2_type0
 (
@@ -303,7 +304,7 @@ cos_bit
 ;
 }
 static
-INLINE
+inline
 void
 btf_32_avx2_type1
 (
@@ -474,7 +475,7 @@ in0
 *
 w1
 static
-INLINE
+inline
 void
 btf_32_avx2_type0_new
 (
@@ -626,7 +627,7 @@ in0
 *
 w1
 static
-INLINE
+inline
 void
 btf_32_avx2_type1_new
 (

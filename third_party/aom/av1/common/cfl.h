@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -158,7 +159,7 @@ current
 block
 ?
 static
-INLINE
+inline
 CFL_ALLOWED_TYPE
 is_cfl_allowed
 (
@@ -346,7 +347,7 @@ CfL
 prediction
 ?
 static
-INLINE
+inline
 CFL_ALLOWED_TYPE
 store_cfl_required
 (
@@ -506,7 +507,7 @@ UV_CFL_PRED
 ;
 }
 static
-INLINE
+inline
 int
 get_scaled_luma_q0
 (
@@ -532,7 +533,7 @@ scaled_luma_q6
 ;
 }
 static
-INLINE
+inline
 CFL_PRED_TYPE
 get_cfl_pred_type
 (
@@ -559,7 +560,7 @@ plane
 ;
 }
 static
-INLINE
+inline
 void
 clear_cfl_dc_pred_cache_flags
 (

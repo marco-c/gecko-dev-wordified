@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -144,13 +145,8 @@ h
 "
 #
 if
-(
 defined
 (
-__GNUC__
-)
-&
-&
 __GNUC__
 )
 |

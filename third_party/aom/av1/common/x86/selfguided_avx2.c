@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1753,7 +1754,7 @@ box
 radius
 .
 static
-INLINE
+inline
 __m256i
 boxsum_from_ii
 (
@@ -2832,7 +2833,7 @@ threes
 -
 threes
 static
-INLINE
+inline
 __m256i
 cross_sum
 (
@@ -3992,7 +3993,7 @@ sixes
 +
 sixes
 static
-INLINE
+inline
 __m256i
 cross_sum_fast_even_row
 (
@@ -4248,7 +4249,7 @@ sixes
 +
 sixes
 static
-INLINE
+inline
 __m256i
 cross_sum_fast_odd_row
 (

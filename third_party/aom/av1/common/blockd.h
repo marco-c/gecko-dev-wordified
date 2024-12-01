@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -344,7 +345,7 @@ FRAME_TYPE
 )
 ;
 static
-INLINE
+inline
 int
 is_comp_ref_allowed
 (
@@ -370,7 +371,7 @@ bsize
 ;
 }
 static
-INLINE
+inline
 int
 is_inter_mode
 (
@@ -410,7 +411,7 @@ MAX_MB_PLANE
 BUFFER_SET
 ;
 static
-INLINE
+inline
 int
 is_inter_singleref_mode
 (
@@ -431,7 +432,7 @@ SINGLE_INTER_MODE_END
 ;
 }
 static
-INLINE
+inline
 int
 is_inter_compound_mode
 (
@@ -452,7 +453,7 @@ COMP_INTER_MODE_END
 ;
 }
 static
-INLINE
+inline
 PREDICTION_MODE
 compound_ref0_mode
 (
@@ -603,7 +604,7 @@ mode
 ;
 }
 static
-INLINE
+inline
 PREDICTION_MODE
 compound_ref1_mode
 (
@@ -748,7 +749,7 @@ mode
 ;
 }
 static
-INLINE
+inline
 int
 have_nearmv_in_inter_mode
 (
@@ -784,7 +785,7 @@ NEW_NEARMV
 ;
 }
 static
-INLINE
+inline
 int
 have_newmv_in_inter_mode
 (
@@ -832,7 +833,7 @@ NEW_NEARMV
 ;
 }
 static
-INLINE
+inline
 int
 is_masked_compound_type
 (
@@ -2980,7 +2981,7 @@ cond
 *
 /
 static
-INLINE
+inline
 int
 is_intrabc_block
 (
@@ -2998,7 +2999,7 @@ use_intrabc
 ;
 }
 static
-INLINE
+inline
 PREDICTION_MODE
 get_uv_mode
 (
@@ -3095,7 +3096,7 @@ mode
 ;
 }
 static
-INLINE
+inline
 int
 is_inter_block
 (
@@ -3124,7 +3125,7 @@ INTRA_FRAME
 ;
 }
 static
-INLINE
+inline
 int
 has_second_ref
 (
@@ -3147,7 +3148,7 @@ INTRA_FRAME
 ;
 }
 static
-INLINE
+inline
 int
 has_uni_comp_refs
 (
@@ -3197,7 +3198,7 @@ BWDREF_FRAME
 ;
 }
 static
-INLINE
+inline
 MV_REFERENCE_FRAME
 comp_ref0
 (
@@ -3270,7 +3271,7 @@ ref_idx
 ;
 }
 static
-INLINE
+inline
 MV_REFERENCE_FRAME
 comp_ref1
 (
@@ -3361,7 +3362,7 @@ above_mi
 )
 ;
 static
-INLINE
+inline
 int
 is_global_mv_block
 (
@@ -3438,7 +3439,7 @@ block_size_allowed
 if
 CONFIG_MISMATCH_DEBUG
 static
-INLINE
+inline
 void
 mi_to_pixel_loc
 (
@@ -6906,7 +6907,7 @@ cond
 *
 /
 static
-INLINE
+inline
 int
 is_cur_buf_hbd
 (
@@ -6948,7 +6949,7 @@ return
 endif
 }
 static
-INLINE
+inline
 uint8_t
 *
 get_buf_by_bd
@@ -7051,7 +7052,7 @@ use_highbitdepth_buf
 BitDepthInfo
 ;
 static
-INLINE
+inline
 BitDepthInfo
 get_bit_depth_info
 (
@@ -7104,7 +7105,7 @@ bit_depth_info
 ;
 }
 static
-INLINE
+inline
 int
 get_sqr_bsize_idx
 (
@@ -7254,7 +7255,7 @@ considered
 invalid
 .
 static
-INLINE
+inline
 BLOCK_SIZE
 get_partition_subsize
 (
@@ -7419,7 +7420,7 @@ mode
 ;
 }
 static
-INLINE
+inline
 int
 is_rect_tx
 (
@@ -7435,7 +7436,7 @@ TX_SIZES
 ;
 }
 static
-INLINE
+inline
 int
 block_signals_txsize
 (
@@ -8000,7 +8001,7 @@ EXT_TX_SET_DTT9_IDTX_1DDCT
 }
 ;
 static
-INLINE
+inline
 TxSetType
 av1_get_ext_tx_set_type
 (
@@ -8129,7 +8130,7 @@ Inter
 }
 ;
 static
-INLINE
+inline
 int
 get_ext_tx_set
 (
@@ -8163,7 +8164,7 @@ set_type
 ;
 }
 static
-INLINE
+inline
 int
 get_ext_tx_types
 (
@@ -8256,7 +8257,7 @@ t2
 )
 )
 static
-INLINE
+inline
 TX_SIZE
 tx_size_from_tx_mode
 (
@@ -8363,7 +8364,7 @@ raster
 order
 .
 static
-INLINE
+inline
 int
 av1_block_index_to_raster_order
 (
@@ -8486,7 +8487,7 @@ right
 now
 .
 static
-INLINE
+inline
 int
 av1_raster_order_to_block_index
 (
@@ -8557,7 +8558,7 @@ raster_order
 ;
 }
 static
-INLINE
+inline
 TX_TYPE
 get_default_tx_type
 (
@@ -8661,7 +8662,7 @@ function
 )
 .
 static
-INLINE
+inline
 BLOCK_SIZE
 get_plane_block_size
 (
@@ -8811,7 +8812,7 @@ tx_w_log2
 *
 /
 static
-INLINE
+inline
 int
 av1_get_txb_size_index
 (
@@ -9061,7 +9062,7 @@ tx_w_log2
 *
 /
 static
-INLINE
+inline
 int
 av1_get_txk_type_index
 (
@@ -9221,7 +9222,7 @@ endif
 /
 CONFIG_INSPECTION
 static
-INLINE
+inline
 void
 update_txk_array
 (
@@ -9429,7 +9430,7 @@ tx_type
 }
 }
 static
-INLINE
+inline
 TX_TYPE
 av1_get_tx_type
 (
@@ -9761,7 +9762,7 @@ tx_size
 *
 /
 static
-INLINE
+inline
 int
 bsize_to_max_depth
 (
@@ -9879,7 +9880,7 @@ depth
 *
 /
 static
-INLINE
+inline
 int
 bsize_to_tx_size_cat
 (
@@ -9951,7 +9952,7 @@ depth
 ;
 }
 static
-INLINE
+inline
 TX_SIZE
 depth_to_tx_size
 (
@@ -10001,7 +10002,7 @@ tx_size
 ;
 }
 static
-INLINE
+inline
 TX_SIZE
 av1_get_adjusted_tx_size
 (
@@ -10046,7 +10047,7 @@ tx_size
 }
 }
 static
-INLINE
+inline
 TX_SIZE
 av1_get_max_uv_txsize
 (
@@ -10093,7 +10094,7 @@ uv_tx
 ;
 }
 static
-INLINE
+inline
 TX_SIZE
 av1_get_tx_size
 (
@@ -10269,7 +10270,7 @@ MAX_INTERINTRA_SB_SQUARE
 *
 32
 static
-INLINE
+inline
 int
 is_interintra_mode
 (
@@ -10306,7 +10307,7 @@ INTRA_FRAME
 ;
 }
 static
-INLINE
+inline
 int
 is_interintra_allowed_bsize
 (
@@ -10333,7 +10334,7 @@ BLOCK_32X32
 ;
 }
 static
-INLINE
+inline
 int
 is_interintra_allowed_mode
 (
@@ -10359,7 +10360,7 @@ SINGLE_INTER_MODE_END
 ;
 }
 static
-INLINE
+inline
 int
 is_interintra_allowed_ref
 (
@@ -10394,7 +10395,7 @@ INTRA_FRAME
 ;
 }
 static
-INLINE
+inline
 int
 is_interintra_allowed
 (
@@ -10433,7 +10434,7 @@ ref_frame
 ;
 }
 static
-INLINE
+inline
 int
 is_interintra_allowed_bsize_group
 (
@@ -10489,7 +10490,7 @@ return
 ;
 }
 static
-INLINE
+inline
 int
 is_interintra_pred
 (
@@ -10530,7 +10531,7 @@ mbmi
 ;
 }
 static
-INLINE
+inline
 int
 get_vartx_max_txsize
 (
@@ -10599,7 +10600,7 @@ max_txsize
 chroma
 }
 static
-INLINE
+inline
 int
 is_motion_variation_allowed_bsize
 (
@@ -10632,7 +10633,7 @@ bsize
 ;
 }
 static
-INLINE
+inline
 int
 is_motion_variation_allowed_compound
 (
@@ -10686,7 +10687,7 @@ max_neighbor_obmc
 }
 ;
 static
-INLINE
+inline
 int
 check_num_overlappable_neighbors
 (
@@ -10707,7 +10708,7 @@ overlappable_neighbors
 ;
 }
 static
-INLINE
+inline
 MOTION_MODE
 motion_mode_allowed
 (
@@ -10872,7 +10873,7 @@ SIMPLE_TRANSLATION
 ;
 }
 static
-INLINE
+inline
 int
 is_neighbor_overlappable
 (
@@ -10892,7 +10893,7 @@ mbmi
 ;
 }
 static
-INLINE
+inline
 int
 av1_allow_palette
 (
@@ -10995,7 +10996,7 @@ image
 boundary
 .
 static
-INLINE
+inline
 void
 av1_get_block_dimensions
 (
@@ -11445,7 +11446,7 @@ color_cost
 Av1ColorMapParam
 ;
 static
-INLINE
+inline
 int
 is_nontrans_global_motion
 (
@@ -11579,7 +11580,7 @@ return
 ;
 }
 static
-INLINE
+inline
 PLANE_TYPE
 get_plane_type
 (
@@ -11601,7 +11602,7 @@ PLANE_TYPE_UV
 ;
 }
 static
-INLINE
+inline
 int
 av1_get_max_eob
 (

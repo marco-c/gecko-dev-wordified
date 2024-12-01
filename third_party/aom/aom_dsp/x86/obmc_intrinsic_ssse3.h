@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -141,7 +142,7 @@ aom_config
 h
 "
 static
-INLINE
+inline
 int32_t
 xx_hsum_epi32_si32
 (
@@ -173,7 +174,7 @@ v_d
 ;
 }
 static
-INLINE
+inline
 int64_t
 xx_hsum_epi64_si64
 (
@@ -227,7 +228,7 @@ tmp
 endif
 }
 static
-INLINE
+inline
 int64_t
 xx_hsum_epi32_si64
 (
@@ -290,7 +291,7 @@ v_val_d
 bits
 )
 static
-INLINE
+inline
 __m128i
 xx_roundn_epi32
 (

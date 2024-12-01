@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -202,7 +203,7 @@ mem_neon
 h
 "
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve8_4_h
 (
@@ -358,7 +359,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 highbd_convolve8_8_h
 (
@@ -639,7 +640,7 @@ max
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve8_horiz_8tap_sve
 (
@@ -1368,7 +1369,7 @@ clang
 format
 on
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve4_4_h
 (
@@ -1471,7 +1472,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 highbd_convolve4_8_h
 (
@@ -1620,7 +1621,7 @@ max
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve8_horiz_4tap_sve
 (
@@ -2394,7 +2395,7 @@ block
 }
 ;
 static
-INLINE
+inline
 void
 transpose_concat_4x4
 (
@@ -2604,7 +2605,7 @@ val
 ;
 }
 static
-INLINE
+inline
 void
 transpose_concat_8x4
 (
@@ -2877,7 +2878,7 @@ val
 ;
 }
 static
-INLINE
+inline
 void
 aom_tbl2x4_s16
 (
@@ -3038,7 +3039,7 @@ tbl
 ;
 }
 static
-INLINE
+inline
 void
 aom_tbl2x2_s16
 (
@@ -3131,7 +3132,7 @@ tbl
 ;
 }
 static
-INLINE
+inline
 uint16x4_t
 highbd_convolve8_4_v
 (
@@ -3272,7 +3273,7 @@ max
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 highbd_convolve8_8_v
 (
@@ -3518,7 +3519,7 @@ max
 ;
 }
 static
-INLINE
+inline
 void
 highbd_convolve8_vert_8tap_sve
 (

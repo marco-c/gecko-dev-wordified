@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -384,7 +385,7 @@ bit
 /
 /
 static
-INLINE
+inline
 void
 obmc_variance_w8n
 (
@@ -1409,7 +1410,7 @@ depth
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 hbd_obmc_variance_w4
 (
@@ -1678,7 +1679,7 @@ v_sse_d
 ;
 }
 static
-INLINE
+inline
 void
 hbd_obmc_variance_w8n
 (
@@ -2064,7 +2065,7 @@ v_sse_d
 ;
 }
 static
-INLINE
+inline
 void
 highbd_8_obmc_variance
 (
@@ -2163,7 +2164,7 @@ sse64
 ;
 }
 static
-INLINE
+inline
 void
 highbd_10_obmc_variance
 (
@@ -2348,7 +2349,7 @@ sse64
 ;
 }
 static
-INLINE
+inline
 void
 highbd_12_obmc_variance
 (

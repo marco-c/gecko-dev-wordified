@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -3833,7 +3834,7 @@ sampling
 /
 /
 static
-INLINE
+inline
 void
 blend_a64_mask_bn_w4_sse4_1
 (
@@ -4059,7 +4060,7 @@ blend_4_b12
 ;
 }
 static
-INLINE
+inline
 void
 blend_a64_mask_bn_w8n_sse4_1
 (
@@ -4469,7 +4470,7 @@ sampling
 /
 /
 static
-INLINE
+inline
 void
 blend_a64_mask_bn_sx_w4_sse4_1
 (
@@ -4742,7 +4743,7 @@ blend_4_b12
 ;
 }
 static
-INLINE
+inline
 void
 blend_a64_mask_bn_sx_w8n_sse4_1
 (
@@ -5201,7 +5202,7 @@ sampling
 /
 /
 static
-INLINE
+inline
 void
 blend_a64_mask_bn_sy_w4_sse4_1
 (
@@ -5450,7 +5451,7 @@ blend_4_b12
 ;
 }
 static
-INLINE
+inline
 void
 blend_a64_mask_bn_sy_w8n_sse4_1
 (
@@ -5887,7 +5888,7 @@ sampling
 /
 /
 static
-INLINE
+inline
 void
 blend_a64_mask_bn_sx_sy_w4_sse4_1
 (
@@ -6203,7 +6204,7 @@ blend_4_b12
 ;
 }
 static
-INLINE
+inline
 void
 blend_a64_mask_bn_sx_sy_w8n_sse4_1
 (
@@ -7110,7 +7111,7 @@ endif
 /
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 blend_a64_d16_mask_w16_sse41
 (
@@ -7377,7 +7378,7 @@ res
 ;
 }
 static
-INLINE
+inline
 void
 lowbd_blend_a64_d16_mask_subw0_subh0_w16_sse4_1
 (
@@ -7536,7 +7537,7 @@ src1_stride
 }
 }
 static
-INLINE
+inline
 void
 lowbd_blend_a64_d16_mask_subw1_subh1_w16_sse4_1
 (
@@ -7811,7 +7812,7 @@ src1_stride
 }
 }
 static
-INLINE
+inline
 void
 lowbd_blend_a64_d16_mask_subw1_subh0_w16_sse4_1
 (
@@ -8022,7 +8023,7 @@ src1_stride
 }
 }
 static
-INLINE
+inline
 void
 lowbd_blend_a64_d16_mask_subw0_subh1_w16_sse4_1
 (
@@ -8904,7 +8905,7 @@ aom_highbd_blend_a64_d16_mask_sse4_1
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 void
 highbd_blend_a64_d16_mask_w4_sse4_1
 (
@@ -9425,7 +9426,7 @@ clipb
 ;
 }
 static
-INLINE
+inline
 void
 highbd_blend_a64_d16_mask_subw0_subh0_w4_sse4_1
 (
@@ -9612,7 +9613,7 @@ h
 ;
 }
 static
-INLINE
+inline
 void
 highbd_blend_a64_d16_mask_subw1_subh1_w4_sse4_1
 (
@@ -9956,7 +9957,7 @@ h
 ;
 }
 static
-INLINE
+inline
 void
 highbd_blend_a64_d16_mask_w8_sse4_1
 (
@@ -10426,7 +10427,7 @@ clipb
 ;
 }
 static
-INLINE
+inline
 void
 highbd_blend_a64_d16_mask_subw0_subh0_w8_sse4_1
 (
@@ -10561,7 +10562,7 @@ h
 ;
 }
 static
-INLINE
+inline
 void
 highbd_blend_a64_d16_mask_subw1_subh1_w8_sse4_1
 (
@@ -10802,7 +10803,7 @@ h
 ;
 }
 static
-INLINE
+inline
 void
 highbd_blend_a64_d16_mask_w16_sse4_1
 (
@@ -11282,7 +11283,7 @@ cliph
 ;
 }
 static
-INLINE
+inline
 void
 highbd_blend_a64_d16_mask_subw0_subh0_w16_sse4_1
 (
@@ -11458,7 +11459,7 @@ mask_stride
 }
 }
 static
-INLINE
+inline
 void
 highbd_blend_a64_d16_mask_subw1_subh1_w16_sse4_1
 (

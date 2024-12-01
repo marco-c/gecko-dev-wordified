@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -863,7 +864,7 @@ sz
 )
 \
 static
-AOM_INLINE
+inline
 signed
 MEM_VALUE_T
 mem_get_s
@@ -1040,7 +1041,7 @@ mem_ops_wrap_symbol
 mem_put_be16
 )
 static
-AOM_INLINE
+inline
 void
 mem_put_be16
 (
@@ -1111,7 +1112,7 @@ mem_ops_wrap_symbol
 mem_put_be24
 )
 static
-AOM_INLINE
+inline
 void
 mem_put_be24
 (
@@ -1201,7 +1202,7 @@ mem_ops_wrap_symbol
 mem_put_be32
 )
 static
-AOM_INLINE
+inline
 void
 mem_put_be32
 (
@@ -1310,7 +1311,7 @@ mem_ops_wrap_symbol
 mem_put_le16
 )
 static
-AOM_INLINE
+inline
 void
 mem_put_le16
 (
@@ -1381,7 +1382,7 @@ mem_ops_wrap_symbol
 mem_put_le24
 )
 static
-AOM_INLINE
+inline
 void
 mem_put_le24
 (
@@ -1471,7 +1472,7 @@ mem_ops_wrap_symbol
 mem_put_le32
 )
 static
-AOM_INLINE
+inline
 void
 mem_put_le32
 (

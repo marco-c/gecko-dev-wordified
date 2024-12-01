@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -155,7 +156,7 @@ cfl
 h
 "
 static
-INLINE
+inline
 void
 vldsubstq_s16
 (
@@ -194,7 +195,7 @@ sub
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 vldaddq_u16
 (
@@ -235,7 +236,7 @@ in
 other
 half
 static
-INLINE
+inline
 uint8x8_t
 vldh_dup_u8
 (
@@ -269,7 +270,7 @@ a
 vector
 .
 static
-INLINE
+inline
 void
 vsth_u16
 (
@@ -304,7 +305,7 @@ a
 vector
 .
 static
-INLINE
+inline
 void
 vsth_u8
 (
@@ -1167,6 +1168,7 @@ CONFIG_AV1_HIGHBITDEPTH
 if
 !
 AOM_ARCH_AARCH64
+static
 uint16x8_t
 vpaddq_u16
 (
@@ -2222,7 +2224,7 @@ CFL_GET_SUBSAMPLE_FUNCTION
 neon
 )
 static
-INLINE
+inline
 void
 subtract_average_neon
 (
@@ -3530,7 +3532,7 @@ mask
 ;
 }
 static
-INLINE
+inline
 int16x4_t
 predict_w4
 (
@@ -3590,7 +3592,7 @@ dc
 ;
 }
 static
-INLINE
+inline
 int16x8_t
 predict_w8
 (
@@ -3650,7 +3652,7 @@ dc
 ;
 }
 static
-INLINE
+inline
 int16x8x2_t
 predict_w16
 (
@@ -3817,7 +3819,7 @@ result
 ;
 }
 static
-INLINE
+inline
 int16x8x4_t
 predict_w32
 (
@@ -4084,7 +4086,7 @@ result
 ;
 }
 static
-INLINE
+inline
 void
 cfl_predict_lbd_neon
 (
@@ -4399,7 +4401,7 @@ lbd
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 uint16x4_t
 clamp_s16
 (
@@ -4428,7 +4430,7 @@ vdup_n_s16
 ;
 }
 static
-INLINE
+inline
 uint16x8_t
 clampq_s16
 (
@@ -4457,7 +4459,7 @@ vdupq_n_s16
 ;
 }
 static
-INLINE
+inline
 uint16x8x2_t
 clamp2q_s16
 (
@@ -4531,7 +4533,7 @@ result
 ;
 }
 static
-INLINE
+inline
 uint16x8x4_t
 clamp4q_s16
 (
@@ -4661,7 +4663,7 @@ result
 ;
 }
 static
-INLINE
+inline
 void
 cfl_predict_hbd_neon
 (

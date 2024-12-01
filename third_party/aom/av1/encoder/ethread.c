@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -355,7 +356,7 @@ tpl_model
 h
 "
 static
-AOM_INLINE
+inline
 void
 accumulate_rd_opt
 (
@@ -614,7 +615,7 @@ newmv_or_intra_blocks
 ;
 }
 static
-AOM_INLINE
+inline
 void
 update_delta_lf_for_row_mt
 (
@@ -1800,7 +1801,7 @@ row_mt_sync
 }
 }
 static
-AOM_INLINE
+inline
 int
 get_sb_rows_in_frame
 (
@@ -2266,7 +2267,7 @@ allocated_sb_rows
 ;
 }
 static
-AOM_INLINE
+inline
 void
 assign_tile_to_thread
 (
@@ -2325,7 +2326,7 @@ tile_id
 }
 }
 static
-AOM_INLINE
+inline
 int
 get_next_job
 (
@@ -2404,7 +2405,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 void
 switch_tile_and_get_next_job
 (
@@ -5262,6 +5263,10 @@ mb
 e_mbd
 )
 ;
+#
+if
+!
+CONFIG_REALTIME_ONLY
 cfl_init
 (
 &
@@ -5279,6 +5284,8 @@ cm
 seq_params
 )
 ;
+#
+endif
 if
 (
 td
@@ -8565,7 +8572,7 @@ Returns
 otherwise
 .
 static
-AOM_INLINE
+inline
 int
 is_fpmt_config
 (
@@ -9075,7 +9082,7 @@ each
 resolution
 .
 static
-AOM_INLINE
+inline
 int
 compute_max_num_enc_workers
 (
@@ -9584,7 +9591,7 @@ parallel
 frames
 .
 static
-AOM_INLINE
+inline
 int
 compute_num_workers_per_frame
 (
@@ -9625,7 +9632,7 @@ workers_per_frame
 ;
 }
 static
-AOM_INLINE
+inline
 void
 restore_workers_after_fpmt
 (
@@ -9704,7 +9711,7 @@ level
 workers
 .
 static
-AOM_INLINE
+inline
 void
 prepare_fpmt_workers
 (
@@ -10456,7 +10463,7 @@ parallel
 encode
 .
 static
-AOM_INLINE
+inline
 void
 launch_fpmt_workers
 (
@@ -10555,7 +10562,7 @@ parallel
 encode
 .
 static
-AOM_INLINE
+inline
 void
 restore_workers_after_fpmt
 (
@@ -10838,7 +10845,7 @@ level
 workers
 .
 static
-AOM_INLINE
+inline
 void
 sync_fpmt_workers
 (
@@ -11218,7 +11225,7 @@ ref_buffers_used_map
 ;
 }
 static
-AOM_INLINE
+inline
 void
 launch_workers
 (
@@ -11307,7 +11314,7 @@ worker
 }
 }
 static
-AOM_INLINE
+inline
 void
 sync_enc_workers
 (
@@ -11553,7 +11560,7 @@ error
 ;
 }
 static
-AOM_INLINE
+inline
 void
 accumulate_counters_enc_workers
 (
@@ -11918,7 +11925,7 @@ CONFIG_SPEED_STATS
 }
 }
 static
-AOM_INLINE
+inline
 void
 prepare_enc_workers
 (
@@ -12893,7 +12900,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-AOM_INLINE
+inline
 void
 fp_prepare_enc_workers
 (
@@ -13121,7 +13128,7 @@ of
 encoding
 stage
 static
-AOM_INLINE
+inline
 int
 compute_num_enc_row_mt_workers
 (
@@ -13268,7 +13275,7 @@ of
 encoding
 stage
 static
-AOM_INLINE
+inline
 int
 compute_num_enc_tile_mt_workers
 (
@@ -13408,8 +13415,9 @@ multi
 -
 threading
 )
+static
 int
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 const
 AV1_COMP
@@ -13763,7 +13771,7 @@ mt
 1
 .
 static
-AOM_INLINE
+inline
 void
 compute_max_sb_rows_cols
 (
@@ -14204,7 +14212,7 @@ firstpass
 /
 stage
 static
-AOM_INLINE
+inline
 int
 fp_compute_max_mb_rows
 (
@@ -16408,7 +16416,7 @@ endif
 CONFIG_MULTITHREAD
 }
 static
-AOM_INLINE
+inline
 void
 set_mode_estimation_done
 (
@@ -17449,7 +17457,7 @@ thread
 data
 .
 static
-AOM_INLINE
+inline
 void
 prepare_tpl_workers
 (
@@ -18276,7 +18284,7 @@ returns
 0
 .
 static
-AOM_INLINE
+inline
 int
 tf_get_next_job
 (
@@ -19404,7 +19412,7 @@ returns
 0
 .
 static
-AOM_INLINE
+inline
 int
 get_next_gm_job
 (
@@ -19543,7 +19551,7 @@ not
 set
 .
 static
-AOM_INLINE
+inline
 void
 switch_direction
 (
@@ -20164,7 +20172,7 @@ each
 worker
 .
 static
-AOM_INLINE
+inline
 void
 prepare_gm_workers
 (
@@ -20367,7 +20375,7 @@ future
 direction
 .
 static
-AOM_INLINE
+inline
 void
 assign_thread_to_dir
 (
@@ -20435,7 +20443,7 @@ multi
 threading
 .
 static
-AOM_INLINE
+inline
 int
 compute_gm_workers
 (
@@ -20524,7 +20532,7 @@ multi
 threading
 .
 static
-AOM_INLINE
+inline
 void
 gm_dealloc_thread_data
 (
@@ -20706,7 +20714,7 @@ endif
 !
 CONFIG_REALTIME_ONLY
 static
-AOM_INLINE
+inline
 int
 get_next_job_allintra
 (
@@ -20766,7 +20774,7 @@ return
 ;
 }
 static
-AOM_INLINE
+inline
 void
 prepare_wiener_var_workers
 (
@@ -22055,7 +22063,7 @@ for
 pack
 bitstream
 static
-AOM_INLINE
+inline
 int
 get_next_pack_bs_tile_idx
 (
@@ -22131,7 +22139,7 @@ group
 size
 .
 static
-AOM_INLINE
+inline
 size_t
 get_bs_chunk_size
 (
@@ -24591,7 +24599,7 @@ cdef_sync
 parameters
 .
 static
-AOM_INLINE
+inline
 void
 cdef_reset_job_info
 (
@@ -24680,7 +24688,7 @@ returns
 0
 .
 static
-AOM_INLINE
+inline
 int
 cdef_get_next_job
 (
@@ -25338,7 +25346,7 @@ multi
 threading
 .
 static
-AOM_INLINE
+inline
 int
 compute_num_tf_workers
 (
@@ -25405,8 +25413,7 @@ pass
 AOM_RC_SECOND_PASS
 )
 return
-(
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -25415,7 +25422,6 @@ cpi
 oxcf
 .
 max_threads
-)
 )
 ;
 if
@@ -25493,7 +25499,7 @@ multi
 threading
 .
 static
-AOM_INLINE
+inline
 int
 compute_num_tpl_workers
 (
@@ -25503,7 +25509,7 @@ cpi
 )
 {
 return
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -25527,7 +25533,7 @@ multi
 threading
 .
 static
-AOM_INLINE
+inline
 int
 compute_num_lf_workers
 (
@@ -25537,7 +25543,7 @@ cpi
 )
 {
 return
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -25560,7 +25566,7 @@ multi
 threading
 .
 static
-AOM_INLINE
+inline
 int
 compute_num_cdef_workers
 (
@@ -25570,7 +25576,7 @@ cpi
 )
 {
 return
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -25595,7 +25601,7 @@ multi
 threading
 .
 static
-AOM_INLINE
+inline
 int
 compute_num_lr_workers
 (
@@ -25605,7 +25611,7 @@ cpi
 )
 {
 return
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -25629,7 +25635,7 @@ multi
 threading
 .
 static
-AOM_INLINE
+inline
 int
 compute_num_pack_bs_workers
 (
@@ -25682,7 +25688,7 @@ multi
 threading
 .
 static
-AOM_INLINE
+inline
 int
 compute_num_ai_workers
 (
@@ -25840,7 +25846,7 @@ num_mod_workers
 else
 num_mod_workers
 =
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi
@@ -25891,7 +25897,7 @@ MOD_ENC
 :
 num_mod_workers
 =
-av1_compute_num_enc_workers
+compute_num_enc_workers
 (
 cpi
 cpi

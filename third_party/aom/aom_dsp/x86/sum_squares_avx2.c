@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -162,6 +163,15 @@ aom_dsp
 x86
 /
 sum_squares_sse2
+.
+h
+"
+#
+include
+"
+config
+/
+aom_config
 .
 h
 "
@@ -1288,7 +1298,7 @@ in
 the
 vector
 static
-AOM_INLINE
+inline
 int32_t
 mm256_accumulate_epi16
 (
@@ -1390,7 +1400,7 @@ in
 the
 vector
 static
-AOM_INLINE
+inline
 int32_t
 mm256_accumulate_epi32
 (
@@ -1966,6 +1976,9 @@ height
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 uint64_t
 aom_var_2d_u16_avx2
 (
@@ -2449,3 +2462,8 @@ height
 )
 ;
 }
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH

@@ -15,6 +15,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -227,7 +228,7 @@ convolve_neon
 h
 "
 static
-INLINE
+inline
 int16x4_t
 convolve12_4_x
 (
@@ -430,7 +431,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_x_sr_12tap_neon
 (
@@ -1442,7 +1443,7 @@ endif
 AOM_ARCH_AARCH64
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve4_8_x
 (
@@ -1535,7 +1536,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_x_sr_4tap_neon
 (
@@ -2231,7 +2232,7 @@ h
 }
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve8_8_x
 (
@@ -3579,7 +3580,7 @@ dst_stride
 }
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve4_8_y
 (
@@ -3665,7 +3666,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_y_sr_4tap_neon
 (
@@ -4231,7 +4232,7 @@ w
 }
 }
 static
-INLINE
+inline
 int16x4_t
 convolve6_4_y
 (
@@ -4353,7 +4354,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve6_8_y
 (
@@ -4497,7 +4498,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_y_sr_6tap_neon
 (
@@ -5462,7 +5463,7 @@ w
 }
 }
 static
-INLINE
+inline
 int16x4_t
 convolve8_4_y
 (
@@ -5598,7 +5599,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve8_8_y
 (
@@ -5756,7 +5757,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_y_sr_8tap_neon
 (
@@ -6853,7 +6854,7 @@ w
 }
 }
 static
-INLINE
+inline
 int16x4_t
 convolve12_4_y
 (
@@ -7078,7 +7079,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 convolve12_8_y
 (
@@ -7307,7 +7308,7 @@ FILTER_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_y_sr_12tap_neon
 (
@@ -8502,7 +8503,7 @@ y_filter
 }
 }
 static
-INLINE
+inline
 int16x4_t
 convolve12_4_2d_h
 (
@@ -8705,7 +8706,7 @@ ROUND0_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_2d_sr_horiz_12tap_neon
 (
@@ -9650,7 +9651,7 @@ h
 ;
 }
 static
-INLINE
+inline
 int16x8_t
 convolve4_8_2d_h
 (
@@ -9740,7 +9741,7 @@ ROUND0_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_2d_sr_horiz_4tap_neon
 (
@@ -10652,7 +10653,7 @@ h
 }
 }
 static
-INLINE
+inline
 int16x8_t
 convolve8_8_2d_h
 (
@@ -10818,7 +10819,7 @@ ROUND0_BITS
 ;
 }
 static
-INLINE
+inline
 void
 convolve_2d_sr_horiz_8tap_neon
 (

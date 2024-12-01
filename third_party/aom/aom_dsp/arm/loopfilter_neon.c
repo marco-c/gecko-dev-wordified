@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -175,7 +176,7 @@ transpose_neon
 h
 "
 static
-INLINE
+inline
 uint8x8_t
 lpf_mask
 (
@@ -406,7 +407,7 @@ mask_8x8
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 lpf_mask2
 (
@@ -598,7 +599,7 @@ mask_8x8
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 lpf_flat_mask4
 (
@@ -702,7 +703,7 @@ flat_8x8
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 lpf_flat_mask3
 (
@@ -792,7 +793,7 @@ flat_8x8
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 lpf_mask3_chroma
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -158,7 +159,7 @@ sum_neon
 h
 "
 static
-INLINE
+inline
 void
 obmc_sad_8x1_s16_neon
 (
@@ -442,7 +443,7 @@ obmc_variance_permute_idx
 }
 ;
 static
-INLINE
+inline
 void
 obmc_sad_8x1_s32_neon
 (
@@ -581,7 +582,7 @@ abs_hi
 ;
 }
 static
-INLINE
+inline
 unsigned
 int
 obmc_sad_large_neon
@@ -869,7 +870,7 @@ else
 !
 AOM_ARCH_AARCH64
 static
-INLINE
+inline
 unsigned
 int
 obmc_sad_large_neon
@@ -1038,7 +1039,7 @@ endif
 /
 AOM_ARCH_AARCH64
 static
-INLINE
+inline
 unsigned
 int
 obmc_sad_128xh_neon
@@ -1074,7 +1075,7 @@ h
 ;
 }
 static
-INLINE
+inline
 unsigned
 int
 obmc_sad_64xh_neon
@@ -1110,7 +1111,7 @@ h
 ;
 }
 static
-INLINE
+inline
 unsigned
 int
 obmc_sad_32xh_neon
@@ -1146,7 +1147,7 @@ h
 ;
 }
 static
-INLINE
+inline
 unsigned
 int
 obmc_sad_16xh_neon
@@ -1182,7 +1183,7 @@ h
 ;
 }
 static
-INLINE
+inline
 unsigned
 int
 obmc_sad_8xh_neon
@@ -1282,7 +1283,7 @@ sum
 ;
 }
 static
-INLINE
+inline
 unsigned
 int
 obmc_sad_4xh_neon

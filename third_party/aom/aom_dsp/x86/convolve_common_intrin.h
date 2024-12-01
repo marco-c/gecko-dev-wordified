@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -143,7 +144,7 @@ intrinsics
 head
 file
 static
-INLINE
+inline
 void
 add_store
 (
@@ -218,7 +219,7 @@ d
 ;
 }
 static
-INLINE
+inline
 void
 prepare_coeffs_12tap
 (
@@ -415,7 +416,7 @@ coeffs
 11
 }
 static
-INLINE
+inline
 __m128i
 convolve_12tap
 (
@@ -562,7 +563,7 @@ d
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_lo_x_12tap
 (
@@ -738,7 +739,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_lo_y_12tap
 (
@@ -859,7 +860,7 @@ coeffs
 ;
 }
 static
-INLINE
+inline
 __m128i
 convolve_hi_y_12tap
 (

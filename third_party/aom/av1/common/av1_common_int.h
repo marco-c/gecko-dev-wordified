@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -124,6 +125,13 @@ AOM_AV1_COMMON_AV1_COMMON_INT_H_
 #
 define
 AOM_AV1_COMMON_AV1_COMMON_INT_H_
+#
+include
+<
+stdbool
+.
+h
+>
 #
 include
 "
@@ -2087,6 +2095,34 @@ operating_point_idc
 [
 MAX_NUM_OPERATING_POINTS
 ]
+;
+/
+/
+True
+if
+operating_point_idc
+[
+op
+]
+is
+not
+equal
+to
+0
+for
+any
+value
+of
+op
+from
+/
+/
+0
+to
+operating_points_cnt_minus_1
+.
+bool
+has_nonzero_operating_point_idc
 ;
 int
 timing_info_present
@@ -6946,7 +6982,7 @@ pool
 endif
 }
 static
-INLINE
+inline
 YV12_BUFFER_CONFIG
 *
 get_ref_frame
@@ -7004,7 +7040,7 @@ buf
 ;
 }
 static
-INLINE
+inline
 int
 get_free_fb
 (
@@ -7279,7 +7315,7 @@ i
 ;
 }
 static
-INLINE
+inline
 RefCntBuffer
 *
 assign_cur_frame_new_fb
@@ -7455,7 +7491,7 @@ counts
 accordingly
 .
 static
-INLINE
+inline
 void
 assign_frame_buffer_p
 (
@@ -7550,7 +7586,7 @@ ref_count
 ;
 }
 static
-INLINE
+inline
 int
 frame_is_intra_only
 (
@@ -7585,7 +7621,7 @@ INTRA_ONLY_FRAME
 ;
 }
 static
-INLINE
+inline
 int
 frame_is_sframe
 (
@@ -7644,7 +7680,7 @@ frame_refs
 array
 .
 static
-INLINE
+inline
 int
 get_ref_frame_map_idx
 (
@@ -7686,7 +7722,7 @@ INVALID_IDX
 ;
 }
 static
-INLINE
+inline
 RefCntBuffer
 *
 get_ref_frame_buf
@@ -7760,7 +7796,7 @@ if
 needed
 .
 static
-INLINE
+inline
 const
 struct
 scale_factors
@@ -7808,7 +7844,7 @@ NULL
 ;
 }
 static
-INLINE
+inline
 struct
 scale_factors
 *
@@ -7854,7 +7890,7 @@ NULL
 ;
 }
 static
-INLINE
+inline
 RefCntBuffer
 *
 get_primary_ref_frame_buf
@@ -7934,7 +7970,7 @@ reference
 frame
 .
 static
-INLINE
+inline
 int
 frame_might_allow_ref_frame_mvs
 (
@@ -7994,7 +8030,7 @@ might
 use
 warped_motion
 static
-INLINE
+inline
 int
 frame_might_allow_warped_motion
 (
@@ -8031,7 +8067,7 @@ enable_warped_motion
 ;
 }
 static
-INLINE
+inline
 void
 ensure_mv_buffer
 (
@@ -8312,6 +8348,13 @@ mem_size
 ;
 }
 }
+#
+if
+!
+CONFIG_REALTIME_ONLY
+|
+|
+CONFIG_AV1_DECODER
 void
 cfl_init
 (
@@ -8324,8 +8367,10 @@ SequenceHeader
 seq_params
 )
 ;
+#
+endif
 static
-INLINE
+inline
 int
 av1_num_planes
 (
@@ -8350,7 +8395,7 @@ MAX_MB_PLANE
 ;
 }
 static
-INLINE
+inline
 void
 av1_init_above_context
 (
@@ -8430,7 +8475,7 @@ tile_row
 ;
 }
 static
-INLINE
+inline
 void
 av1_init_macroblockd
 (
@@ -8678,6 +8723,13 @@ cm
 >
 error
 ;
+#
+if
+!
+CONFIG_REALTIME_ONLY
+|
+|
+CONFIG_AV1_DECODER
 cfl_init
 (
 &
@@ -8691,9 +8743,11 @@ cm
 seq_params
 )
 ;
+#
+endif
 }
 static
-INLINE
+inline
 void
 set_entropy_context
 (
@@ -8896,7 +8950,7 @@ subsampling_y
 }
 }
 static
-INLINE
+inline
 int
 calc_mi_size
 (
@@ -8928,7 +8982,7 @@ MAX_MIB_SIZE_LOG2
 ;
 }
 static
-INLINE
+inline
 void
 set_plane_n4
 (
@@ -9068,7 +9122,7 @@ height
 }
 }
 static
-INLINE
+inline
 void
 set_mi_row_col
 (
@@ -9753,7 +9807,7 @@ is_first_horizontal_rect
 ;
 }
 static
-INLINE
+inline
 aom_cdf_prob
 *
 get_y_mode_cdf
@@ -9821,7 +9875,7 @@ left_ctx
 ;
 }
 static
-INLINE
+inline
 void
 update_partition_context
 (
@@ -9910,7 +9964,7 @@ bh
 ;
 }
 static
-INLINE
+inline
 int
 is_chroma_reference
 (
@@ -10000,7 +10054,7 @@ ref_pos
 ;
 }
 static
-INLINE
+inline
 aom_cdf_prob
 cdf_element_prob
 (
@@ -10043,7 +10097,7 @@ element
 ;
 }
 static
-INLINE
+inline
 void
 partition_gather_horz_alike
 (
@@ -10175,7 +10229,7 @@ CDF_PROB_TOP
 ;
 }
 static
-INLINE
+inline
 void
 partition_gather_vert_alike
 (
@@ -10307,7 +10361,7 @@ CDF_PROB_TOP
 ;
 }
 static
-INLINE
+inline
 void
 update_ext_partition_context
 (
@@ -10517,7 +10571,7 @@ type
 }
 }
 static
-INLINE
+inline
 int
 partition_plane_context
 (
@@ -10676,7 +10730,7 @@ of
 bsize
 .
 static
-INLINE
+inline
 int
 partition_cdf_length
 (
@@ -10713,7 +10767,7 @@ EXT_PARTITION_TYPES
 ;
 }
 static
-INLINE
+inline
 int
 max_block_wide
 (
@@ -10806,7 +10860,7 @@ MI_SIZE_LOG2
 ;
 }
 static
-INLINE
+inline
 int
 max_block_high
 (
@@ -10892,7 +10946,7 @@ MI_SIZE_LOG2
 ;
 }
 static
-INLINE
+inline
 void
 av1_zero_above_context
 (
@@ -11144,7 +11198,7 @@ TXFM_CONTEXT
 ;
 }
 static
-INLINE
+inline
 void
 av1_zero_left_context
 (
@@ -11191,7 +11245,7 @@ left_txfm_context_buffer
 ;
 }
 static
-INLINE
+inline
 void
 set_txfm_ctx
 (
@@ -11230,7 +11284,7 @@ txs
 ;
 }
 static
-INLINE
+inline
 void
 set_txfm_ctxs
 (
@@ -11304,7 +11358,7 @@ n4_h
 ;
 }
 static
-INLINE
+inline
 int
 get_mi_grid_idx
 (
@@ -11331,7 +11385,7 @@ mi_col
 ;
 }
 static
-INLINE
+inline
 int
 get_alloc_mi_idx
 (
@@ -11405,7 +11459,7 @@ xd
 mi
 .
 static
-INLINE
+inline
 void
 set_mi_offsets
 (
@@ -11553,7 +11607,7 @@ mi_stride
 ;
 }
 static
-INLINE
+inline
 void
 txfm_partition_update
 (
@@ -11656,7 +11710,7 @@ txw
 ;
 }
 static
-INLINE
+inline
 TX_SIZE
 get_sqr_tx_size
 (
@@ -11712,7 +11766,7 @@ TX_4X4
 }
 }
 static
-INLINE
+inline
 TX_SIZE
 get_tx_size
 (
@@ -11922,7 +11976,7 @@ TX_4X4
 ;
 }
 static
-INLINE
+inline
 int
 txfm_partition_context
 (
@@ -12098,7 +12152,7 @@ with
 bsize
 .
 static
-INLINE
+inline
 PARTITION_TYPE
 get_partition
 (
@@ -12456,7 +12510,7 @@ sswide
 2
 =
 =
-bhigh
+bwide
 )
 ;
 if
@@ -12686,7 +12740,7 @@ split_idx
 ;
 }
 static
-INLINE
+inline
 void
 set_sb_size
 (
@@ -12773,7 +12827,7 @@ upscaled
 resolution
 .
 static
-INLINE
+inline
 int
 is_coded_lossless
 (
@@ -12857,7 +12911,7 @@ coded_lossless
 ;
 }
 static
-INLINE
+inline
 int
 is_valid_seq_level_idx
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -2799,7 +2800,7 @@ approx_exp
 (
 )
 static
-AOM_INLINE
+inline
 __m256
 approx_exp_avx2
 (

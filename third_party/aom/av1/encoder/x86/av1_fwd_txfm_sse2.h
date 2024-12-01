@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -219,7 +220,7 @@ cos_bit
 )
 ;
 static
-INLINE
+inline
 void
 fidentity4x4_new_sse2
 (
@@ -304,7 +305,7 @@ b
 }
 }
 static
-INLINE
+inline
 void
 fidentity8x4_new_sse2
 (
@@ -412,7 +413,7 @@ b_hi
 }
 }
 static
-INLINE
+inline
 void
 fidentity8x8_new_sse2
 (
@@ -570,7 +571,7 @@ input
 ;
 }
 static
-INLINE
+inline
 void
 fdct8x8_new_sse2
 (
@@ -1240,7 +1241,7 @@ output
 ;
 }
 static
-INLINE
+inline
 void
 fadst8x8_new_sse2
 (
@@ -2177,7 +2178,7 @@ output
 ;
 }
 static
-INLINE
+inline
 void
 fidentity8x16_new_sse2
 (
@@ -2286,7 +2287,7 @@ b_hi
 }
 }
 static
-INLINE
+inline
 void
 fidentity8x32_new_sse2
 (

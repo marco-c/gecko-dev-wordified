@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -233,6 +234,7 @@ g
 DECLARE_ALIGNED
 (
 16
+static
 const
 int
 cdef_directions_padded
@@ -2722,7 +2724,7 @@ blur
 *
 /
 static
-INLINE
+inline
 int
 adjust_strength
 (
@@ -2793,7 +2795,7 @@ i
 ;
 }
 static
-AOM_INLINE
+inline
 void
 aom_cdef_find_dir
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -664,6 +665,7 @@ TX_SIZES_ALL
 }
 ;
 static
+const
 int
 eob_fill
 [
@@ -706,7 +708,7 @@ eob_fill
 }
 ;
 static
-INLINE
+inline
 void
 get_eobx_eoby_scan_default
 (
@@ -794,7 +796,7 @@ eobxy
 ;
 }
 static
-INLINE
+inline
 void
 get_eobx_eoby_scan_v_identity
 (
@@ -866,7 +868,7 @@ eob
 ;
 }
 static
-INLINE
+inline
 void
 get_eobx_eoby_scan_h_identity
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -141,7 +142,7 @@ blend
 h
 "
 static
-INLINE
+inline
 uint8x16_t
 alpha_blend_a64_u8x16
 (
@@ -253,7 +254,7 @@ blend_u8_hi
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 alpha_blend_a64_u8x8
 (
@@ -308,7 +309,7 @@ AOM_BLEND_A64_ROUND_BITS
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 uint16x8_t
 alpha_blend_a64_u16x8
 (
@@ -419,7 +420,7 @@ blend_u16_hi
 ;
 }
 static
-INLINE
+inline
 uint16x4_t
 alpha_blend_a64_u16x4
 (
@@ -476,7 +477,7 @@ endif
 /
 CONFIG_AV1_HIGHBITDEPTH
 static
-INLINE
+inline
 uint8x8_t
 avg_blend_u8x8
 (
@@ -495,7 +496,7 @@ b
 ;
 }
 static
-INLINE
+inline
 uint8x16_t
 avg_blend_u8x16
 (
@@ -514,7 +515,7 @@ b
 ;
 }
 static
-INLINE
+inline
 uint8x8_t
 avg_blend_pairwise_u8x8
 (
@@ -537,7 +538,7 @@ b
 ;
 }
 static
-INLINE
+inline
 uint8x16_t
 avg_blend_pairwise_u8x16
 (
@@ -611,7 +612,7 @@ endif
 AOM_ARCH_AARCH64
 }
 static
-INLINE
+inline
 uint8x8_t
 avg_blend_pairwise_u8x8_4
 (
@@ -656,7 +657,7 @@ b_d
 ;
 }
 static
-INLINE
+inline
 uint8x16_t
 avg_blend_pairwise_u8x16_4
 (

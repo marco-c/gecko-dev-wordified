@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -361,7 +362,7 @@ dest
 )
 )
 static
-INLINE
+inline
 int
 get_unsigned_bits
 (

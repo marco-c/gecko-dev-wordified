@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -2595,7 +2596,7 @@ j
 }
 }
 static
-INLINE
+inline
 double
 convolve_map
 (
@@ -2682,7 +2683,7 @@ downsampled
 map
 .
 static
-INLINE
+inline
 void
 decimate_map
 (
@@ -3036,7 +3037,7 @@ by
 x2
 .
 static
-INLINE
+inline
 int
 upscale_map
 (
@@ -5513,7 +5514,7 @@ return
 ;
 }
 static
-INLINE
+inline
 void
 filter2d
 (
@@ -6467,7 +6468,7 @@ return
 ;
 }
 static
-INLINE
+inline
 void
 find_min_max
 (
@@ -6617,7 +6618,7 @@ max_value
 }
 }
 static
-INLINE
+inline
 double
 average_local_max
 (

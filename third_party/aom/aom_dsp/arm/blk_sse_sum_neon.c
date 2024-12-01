@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -173,7 +174,7 @@ sum_neon
 h
 "
 static
-INLINE
+inline
 void
 get_blk_sse_sum_4xh_neon
 (
@@ -310,7 +311,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 void
 get_blk_sse_sum_8xh_neon
 (
@@ -489,7 +490,7 @@ sse
 ;
 }
 static
-INLINE
+inline
 void
 get_blk_sse_sum_large_neon
 (

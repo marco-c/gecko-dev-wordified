@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -281,7 +282,7 @@ highbd_shuffle_alpha0_mask3
 }
 ;
 static
-INLINE
+inline
 void
 highbd_prepare_horizontal_filter_coeff
 (
@@ -830,7 +831,7 @@ tmp_15
 ;
 }
 static
-INLINE
+inline
 void
 highbd_prepare_horizontal_filter_coeff_alpha0
 (
@@ -981,7 +982,7 @@ coeff
 ;
 }
 static
-INLINE
+inline
 void
 highbd_filter_src_pixels
 (
@@ -1303,7 +1304,7 @@ res_odd
 ;
 }
 static
-INLINE
+inline
 void
 highbd_horiz_filter
 (
@@ -1358,7 +1359,7 @@ k
 ;
 }
 static
-INLINE
+inline
 void
 highbd_warp_horizontal_filter_alpha0_beta0
 (
@@ -1541,7 +1542,7 @@ k
 }
 }
 static
-INLINE
+inline
 void
 highbd_warp_horizontal_filter_alpha0
 (
@@ -1732,7 +1733,7 @@ k
 }
 }
 static
-INLINE
+inline
 void
 highbd_warp_horizontal_filter_beta0
 (
@@ -1911,7 +1912,7 @@ k
 }
 }
 static
-INLINE
+inline
 void
 highbd_warp_horizontal_filter
 (
@@ -2086,7 +2087,7 @@ reduce_bits_horiz
 }
 }
 static
-INLINE
+inline
 void
 highbd_prepare_warp_horizontal_filter
 (

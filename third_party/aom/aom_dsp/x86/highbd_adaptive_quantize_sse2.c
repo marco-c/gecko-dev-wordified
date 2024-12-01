@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -164,7 +165,7 @@ quantize_x86
 h
 "
 static
-INLINE
+inline
 __m128i
 highbd_invert_sign_64bit_sse2
 (
@@ -191,7 +192,7 @@ sign
 ;
 }
 static
-INLINE
+inline
 void
 highbd_mul_shift_sse2
 (
@@ -360,7 +361,7 @@ prod_hi
 ;
 }
 static
-INLINE
+inline
 void
 highbd_calculate_qcoeff
 (
@@ -431,7 +432,7 @@ log_scale
 ;
 }
 static
-INLINE
+inline
 void
 highbd_update_mask1
 (
@@ -513,7 +514,7 @@ mask
 ;
 }
 static
-INLINE
+inline
 void
 highbd_update_mask0
 (
@@ -617,7 +618,7 @@ mask
 ;
 }
 static
-INLINE
+inline
 __m128i
 highbd_calculate_dqcoeff
 (

@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -125,6 +126,15 @@ assert
 .
 h
 >
+#
+include
+"
+config
+/
+aom_config
+.
+h
+"
 #
 include
 "
@@ -361,6 +371,9 @@ height
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 uint64_t
 aom_var_2d_u16_c
 (
@@ -470,6 +483,11 @@ height
 )
 ;
 }
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH
 uint64_t
 aom_sum_sse_2d_i16_c
 (

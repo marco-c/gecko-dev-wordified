@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -307,6 +308,13 @@ AV1CdefSyncData
 cdef_sync
 )
 ;
+#
+if
+!
+CONFIG_REALTIME_ONLY
+|
+|
+CONFIG_AV1_DECODER
 void
 av1_alloc_restoration_buffers
 (
@@ -327,6 +335,15 @@ AV1Common
 cm
 )
 ;
+#
+endif
+/
+/
+!
+CONFIG_REALTIME_ONLY
+|
+|
+CONFIG_AV1_DECODER
 int
 av1_alloc_state_buffers
 (

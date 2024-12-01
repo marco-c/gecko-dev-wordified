@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -293,7 +294,7 @@ two
 regions
 .
 static
-INLINE
+inline
 void
 compute_flow_error
 (
@@ -1654,7 +1655,7 @@ dt
 )
 |
 static
-INLINE
+inline
 void
 compute_flow_matrix
 (
@@ -2070,7 +2071,7 @@ det_inv
 ;
 }
 static
-INLINE
+inline
 void
 compute_flow_vector
 (

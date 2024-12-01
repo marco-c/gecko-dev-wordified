@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -250,6 +251,7 @@ level
 *
 /
 static
+const
 int32_t
 main_kbps
 [
@@ -334,6 +336,7 @@ level
 *
 /
 static
+const
 int32_t
 high_kbps
 [
@@ -384,6 +387,7 @@ BitrateProfileFactor
 *
 /
 static
+const
 int
 bitrate_profile_factor
 [

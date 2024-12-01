@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -1352,7 +1353,7 @@ CTRL_MAP_END
 NULL
 }
 static
-AOM_INLINE
+inline
 int
 at_ctrl_map_end
 (

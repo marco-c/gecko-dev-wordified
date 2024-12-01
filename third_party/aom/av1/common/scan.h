@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -227,7 +228,7 @@ xd
 )
 ;
 static
-INLINE
+inline
 const
 SCAN_ORDER
 *
@@ -251,7 +252,7 @@ tx_type
 ;
 }
 static
-INLINE
+inline
 const
 SCAN_ORDER
 *

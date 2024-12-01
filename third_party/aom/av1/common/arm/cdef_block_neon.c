@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -375,6 +376,9 @@ height
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 void
 cdef_copy_rect8_16bit_to_16bit_neon
 (
@@ -500,6 +504,11 @@ height
 )
 ;
 }
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH
 /
 /
 partial
@@ -619,7 +628,7 @@ and
 const2
 .
 static
-INLINE
+inline
 uint32x4_t
 fold_mul_and_sum_neon
 (
@@ -1232,7 +1241,7 @@ vertical
 direction
 .
 static
-INLINE
+inline
 uint32x4_t
 compute_vert_directions_neon
 (
@@ -2062,7 +2071,7 @@ costs
 ;
 }
 static
-INLINE
+inline
 uint32x4_t
 fold_mul_and_sum_pairwise_neon
 (
@@ -4188,7 +4197,7 @@ adjdamp
 )
 )
 static
-INLINE
+inline
 int16x8_t
 constrain16
 (
@@ -4269,7 +4278,7 @@ clip
 ;
 }
 static
-INLINE
+inline
 void
 primary_filter
 (
@@ -4433,7 +4442,7 @@ pri_taps
 ;
 }
 static
-INLINE
+inline
 void
 secondary_filter
 (

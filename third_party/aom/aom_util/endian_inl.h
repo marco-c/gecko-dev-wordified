@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -428,7 +429,7 @@ HAVE_BUILTIN_BSWAP64
 #
 endif
 static
-INLINE
+inline
 uint16_t
 BSwap16
 (
@@ -503,7 +504,7 @@ endif
 HAVE_BUILTIN_BSWAP16
 }
 static
-INLINE
+inline
 uint32_t
 BSwap32
 (
@@ -627,7 +628,7 @@ endif
 HAVE_BUILTIN_BSWAP32
 }
 static
-INLINE
+inline
 uint64_t
 BSwap64
 (

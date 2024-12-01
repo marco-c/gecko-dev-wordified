@@ -14,6 +14,7 @@ Media
 All
 rights
 reserved
+.
 *
 *
 This
@@ -154,7 +155,7 @@ synonyms
 h
 "
 static
-INLINE
+inline
 void
 obmc_variance_w4
 (
