@@ -124,7 +124,7 @@ linux
 .
 tar
 .
-bz2
+xz
 "
     
 "

@@ -207,7 +207,7 @@ target
 .
 tar
 .
-bz2
+xz
 "
         
 job

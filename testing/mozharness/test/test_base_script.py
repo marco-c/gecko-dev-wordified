@@ -2263,6 +2263,14 @@ gz
 "
 archive
 .
+tar
+.
+xz
+"
+            
+"
+archive
+.
 zip
 "
         
@@ -2766,6 +2774,14 @@ archive
 tar
 .
 gz
+"
+            
+"
+archive
+.
+tar
+.
+xz
 "
             
 "

@@ -5642,13 +5642,11 @@ file
 from
 a
 tar
-tar
-.
+{
 bz2
-and
-tar
-.
 gz
+xz
+}
 files
 .
         
@@ -5904,6 +5902,18 @@ bzip2
 "
                 
 "
+xz
+"
+:
+"
+application
+/
+x
+-
+xz
+"
+                
+"
 gz
 "
 :
@@ -5942,6 +5952,42 @@ zip
 MIMETYPES
 =
 {
+                
+"
+application
+/
+x
+-
+xz
+"
+:
+{
+                    
+"
+function
+"
+:
+self
+.
+deflate
+                    
+"
+kwargs
+"
+:
+{
+"
+mode
+"
+:
+"
+r
+:
+xz
+"
+}
+                
+}
                 
 "
 application
@@ -6112,6 +6158,8 @@ XXX
 bz2
 /
 gz
+/
+xz
 instead
 of
 tar
@@ -6120,6 +6168,8 @@ tar
 bz2
 /
 gz
+/
+xz
 }
             
 extension

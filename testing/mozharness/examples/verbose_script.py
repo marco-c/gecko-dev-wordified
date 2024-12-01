@@ -178,7 +178,7 @@ bar
 .
 tar
 .
-bz2
+xz
 "
 }
         
@@ -225,7 +225,7 @@ foo
 .
 tar
 .
-bz2
+xz
 "
 file_name
 =
@@ -333,7 +333,7 @@ run_command
 tar
 "
 "
-xjvf
+xJvf
 "
 tarball_name
 ]
@@ -383,7 +383,7 @@ run_command
 tar
 "
 "
-cjvf
+cJvf
 "
 tarball_name
 "
@@ -441,7 +441,7 @@ foo2
 .
 tar
 .
-bz2
+xz
 "
 ]
             

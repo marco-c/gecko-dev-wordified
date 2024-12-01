@@ -471,34 +471,6 @@ single_locale
 "
                 
 "
-hg_l10n_base
-"
-:
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-l10n
--
-central
-"
-                
-#
-If
-set
-takes
-precedence
-over
-hg_l10n_base
-                
-"
 git_repository
 "
 :
@@ -2440,6 +2412,12 @@ targets_exts
 tar
 .
 bz2
+"
+                
+"
+tar
+.
+xz
 "
                 
 "
