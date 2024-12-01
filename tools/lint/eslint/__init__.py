@@ -737,6 +737,7 @@ path
 .
 join
 (
+                
 module_path
 "
 node_modules
@@ -746,11 +747,13 @@ prettier
 "
 "
 bin
--
+"
+"
 prettier
 .
-js
+cjs
 "
+            
 )
             
 "
