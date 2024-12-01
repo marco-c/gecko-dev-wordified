@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -227,7 +226,7 @@ highbd_convolve_neon
 h
 "
 static
-inline
+INLINE
 void
 highbd_dist_wtd_comp_avg_neon
 (
@@ -723,7 +722,7 @@ h
 }
 }
 static
-inline
+INLINE
 void
 highbd_comp_avg_neon
 (
@@ -1127,7 +1126,7 @@ h
 }
 }
 static
-inline
+INLINE
 void
 highbd_convolve_2d_x_scale_8tap_neon
 (
@@ -2573,7 +2572,7 @@ height
 }
 }
 static
-inline
+INLINE
 void
 highbd_convolve_2d_y_scale_8tap_neon
 (
@@ -3006,7 +3005,7 @@ width
 }
 }
 static
-inline
+INLINE
 void
 highbd_convolve_correct_offset_neon
 (

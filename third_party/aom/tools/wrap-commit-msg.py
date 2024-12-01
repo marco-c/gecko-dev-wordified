@@ -24,7 +24,6 @@ Media
 All
 rights
 reserved
-.
 #
 #
 #

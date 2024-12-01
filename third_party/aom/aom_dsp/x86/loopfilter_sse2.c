@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -179,7 +178,7 @@ lpf_common_sse2
 h
 "
 static
-inline
+INLINE
 __m128i
 abs_diff
 (
@@ -243,7 +242,7 @@ pq
 pairs
 creation
 static
-inline
+INLINE
 void
 transpose_pq_14_sse2
 (
@@ -795,7 +794,7 @@ pq
 pairs
 inverse
 static
-inline
+INLINE
 void
 transpose_pq_14_inv_sse2
 (
@@ -3549,7 +3548,7 @@ d3
 ;
 }
 static
-inline
+INLINE
 void
 store_buffer_horz_8
 (
@@ -18496,7 +18495,7 @@ q3
 ;
 }
 static
-inline
+INLINE
 __m128i
 filter_add2_sub2
 (
@@ -18562,7 +18561,7 @@ x
 ;
 }
 static
-inline
+INLINE
 __m128i
 filter8_mask
 (
@@ -18634,7 +18633,7 @@ result
 ;
 }
 static
-inline
+INLINE
 __m128i
 filter16_mask
 (

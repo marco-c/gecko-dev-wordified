@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -145,7 +144,7 @@ aom_integer
 h
 "
 static
-inline
+INLINE
 void
 init_one_qp
 (
@@ -206,7 +205,7 @@ ac
 ;
 }
 static
-inline
+INLINE
 void
 update_qp
 (
@@ -254,7 +253,7 @@ i
 }
 }
 static
-inline
+INLINE
 void
 init_qp
 (
@@ -570,7 +569,7 @@ in
 p
 .
 static
-inline
+INLINE
 __m256i
 mm256_mul_shift_epi32
 (

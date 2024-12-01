@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -691,7 +690,7 @@ pixel
 mapping
 .
 static
-inline
+INLINE
 void
 prepare_weights_for_5x5_convolve
 (
@@ -1146,7 +1145,7 @@ and
 weights
 .
 static
-inline
+INLINE
 void
 load_shuffle_masks_for_2x2_convolve
 (
@@ -1258,7 +1257,7 @@ pixel
 mapping
 .
 static
-inline
+INLINE
 void
 prepare_weights_for_2x2_convolve
 (
@@ -1763,7 +1762,7 @@ horizontal
 blocks
 .
 static
-inline
+INLINE
 void
 perform_convolve_for_8h_2x2_blocks
 (
@@ -2039,7 +2038,7 @@ vertical
 blocks
 .
 static
-inline
+INLINE
 void
 perform_convolve_for_4hx2v_2x2_blocks
 (
@@ -3276,7 +3275,7 @@ layer
 1
 .
 static
-inline
+INLINE
 void
 cnn_convolve_no_maxpool_padding_valid_layer1_avx2
 (
@@ -3718,7 +3717,7 @@ layer
 2
 .
 static
-inline
+INLINE
 void
 cnn_convolve_no_maxpool_padding_valid_layer2_avx2
 (

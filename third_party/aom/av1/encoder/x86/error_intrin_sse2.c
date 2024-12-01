@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -148,7 +147,7 @@ aom_integer
 h
 "
 static
-inline
+AOM_INLINE
 __m128i
 reduce_sum_epi64
 (

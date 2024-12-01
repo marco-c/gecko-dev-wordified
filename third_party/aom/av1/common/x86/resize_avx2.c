@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -2291,7 +2290,7 @@ high_128
 )
 ;
 static
-inline
+INLINE
 void
 resize_convolve
 (
@@ -2489,7 +2488,7 @@ dst_11
 ;
 }
 static
-inline
+INLINE
 void
 prepare_filter_coeffs
 (

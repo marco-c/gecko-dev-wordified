@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -274,7 +273,7 @@ bd
 )
 ;
 static
-inline
+INLINE
 const
 int32_t
 *

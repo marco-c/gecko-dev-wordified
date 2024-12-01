@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -229,7 +228,7 @@ highbd_convolve_neon
 h
 "
 static
-inline
+INLINE
 uint16x4_t
 highbd_12_convolve6_4
 (
@@ -362,7 +361,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve6_4
 (
@@ -493,7 +492,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_12_convolve6_8
 (
@@ -733,7 +732,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_convolve6_8
 (
@@ -969,7 +968,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 highbd_12_dist_wtd_convolve_x_6tap_neon
 (
@@ -1421,7 +1420,7 @@ height
 ;
 }
 static
-inline
+INLINE
 void
 highbd_dist_wtd_convolve_x_6tap_neon
 (
@@ -1873,7 +1872,7 @@ height
 ;
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_12_convolve8_4
 (
@@ -2019,7 +2018,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve8_4
 (
@@ -2163,7 +2162,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_12_convolve8_8
 (
@@ -2448,7 +2447,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_convolve8_8
 (
@@ -2729,7 +2728,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_12_convolve4_4_x
 (
@@ -2809,7 +2808,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve4_4_x
 (
@@ -2889,7 +2888,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 highbd_12_dist_wtd_convolve_x_neon
 (
@@ -3692,7 +3691,7 @@ height
 }
 }
 static
-inline
+INLINE
 void
 highbd_dist_wtd_convolve_x_neon
 (
@@ -4944,7 +4943,7 @@ offset_convolve
 }
 }
 static
-inline
+INLINE
 void
 highbd_12_dist_wtd_convolve_y_6tap_neon
 (
@@ -5411,7 +5410,7 @@ w
 }
 }
 static
-inline
+INLINE
 void
 highbd_dist_wtd_convolve_y_6tap_neon
 (
@@ -5878,7 +5877,7 @@ w
 }
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_12_convolve4_4
 (
@@ -5954,7 +5953,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_12_convolve4_8
 (
@@ -6105,7 +6104,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 highbd_12_dist_wtd_convolve_y_4tap_neon
 (
@@ -6530,7 +6529,7 @@ w
 }
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve4_4
 (
@@ -6604,7 +6603,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_convolve4_8
 (
@@ -6751,7 +6750,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 highbd_dist_wtd_convolve_y_4tap_neon
 (
@@ -7176,7 +7175,7 @@ w
 }
 }
 static
-inline
+INLINE
 void
 highbd_12_dist_wtd_convolve_y_8tap_neon
 (
@@ -7687,7 +7686,7 @@ w
 }
 }
 static
-inline
+INLINE
 void
 highbd_dist_wtd_convolve_y_8tap_neon
 (
@@ -8725,7 +8724,7 @@ round_offset_conv
 }
 }
 static
-inline
+INLINE
 void
 highbd_2d_copy_neon
 (
@@ -9227,7 +9226,7 @@ bd
 }
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve6_4_2d_v
 (
@@ -9358,7 +9357,7 @@ COMPOUND_ROUND1_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_convolve6_8_2d_v
 (
@@ -9594,7 +9593,7 @@ COMPOUND_ROUND1_BITS
 ;
 }
 static
-inline
+INLINE
 void
 highbd_dist_wtd_convolve_2d_vert_6tap_neon
 (
@@ -10060,7 +10059,7 @@ w
 }
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve8_4_2d_v
 (
@@ -10204,7 +10203,7 @@ COMPOUND_ROUND1_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_convolve8_8_2d_v
 (
@@ -10485,7 +10484,7 @@ COMPOUND_ROUND1_BITS
 ;
 }
 static
-inline
+INLINE
 void
 highbd_dist_wtd_convolve_2d_vert_8tap_neon
 (
@@ -10995,7 +10994,7 @@ w
 }
 }
 static
-inline
+INLINE
 void
 highbd_12_dist_wtd_convolve_2d_horiz_6tap_neon
 (
@@ -11639,7 +11638,7 @@ height
 ;
 }
 static
-inline
+INLINE
 void
 highbd_dist_wtd_convolve_2d_horiz_6tap_neon
 (
@@ -12283,7 +12282,7 @@ height
 ;
 }
 static
-inline
+INLINE
 void
 highbd_12_dist_wtd_convolve_2d_horiz_neon
 (
@@ -13370,7 +13369,7 @@ height
 }
 }
 static
-inline
+INLINE
 void
 highbd_dist_wtd_convolve_2d_horiz_neon
 (

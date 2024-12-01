@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -154,7 +153,7 @@ aom_config
 h
 "
 static
-inline
+INLINE
 __m128i
 dc_sum_16_sse2
 (
@@ -212,7 +211,7 @@ high
 ;
 }
 static
-inline
+INLINE
 __m128i
 dc_sum_32_sse2
 (

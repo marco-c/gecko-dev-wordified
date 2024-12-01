@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -471,9 +470,6 @@ tile_cols
 ;
 arg_def_t
 tile_rows
-;
-arg_def_t
-auto_tiles
 ;
 arg_def_t
 enable_tpl_model

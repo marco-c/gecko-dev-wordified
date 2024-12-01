@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -153,7 +152,7 @@ intrinsics
 head
 file
 static
-inline
+INLINE
 void
 prepare_coeffs
 (
@@ -294,7 +293,7 @@ coeff
 ;
 }
 static
-inline
+INLINE
 __m128i
 convolve
 (
@@ -397,7 +396,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m128i
 convolve_lo_x
 (
@@ -492,7 +491,7 @@ coeffs
 ;
 }
 static
-inline
+INLINE
 __m128i
 convolve_lo_y
 (
@@ -587,7 +586,7 @@ coeffs
 ;
 }
 static
-inline
+INLINE
 __m128i
 convolve_hi_y
 (
@@ -682,7 +681,7 @@ coeffs
 ;
 }
 static
-inline
+INLINE
 __m128i
 comp_avg
 (
@@ -817,7 +816,7 @@ res
 ;
 }
 static
-inline
+INLINE
 __m128i
 convolve_rounding
 (
@@ -873,7 +872,7 @@ res_round
 ;
 }
 static
-inline
+INLINE
 __m128i
 highbd_convolve_rounding_sse2
 (

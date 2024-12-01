@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -2003,7 +2002,7 @@ endif
 /
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 __m256i
 predict_unclipped
 (
@@ -2065,7 +2064,7 @@ dc_q0
 ;
 }
 static
-inline
+INLINE
 void
 cfl_predict_lbd_avx2
 (
@@ -2538,7 +2537,7 @@ zero
 ;
 }
 static
-inline
+INLINE
 void
 cfl_predict_hbd_avx2
 (
@@ -3015,7 +3014,7 @@ in
 a
 .
 static
-inline
+INLINE
 __m256i
 fill_sum_epi32
 (
@@ -3269,7 +3268,7 @@ A
 ]
 }
 static
-inline
+INLINE
 __m256i
 _mm256_addl_epi16
 (
@@ -3298,7 +3297,7 @@ _mm256_setzero_si256
 ;
 }
 static
-inline
+INLINE
 void
 subtract_average_avx2
 (

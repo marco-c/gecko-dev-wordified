@@ -12,8 +12,8 @@ project
 authors
 .
 All
-rights
-reserved
+Rights
+Reserved
 .
 *
 Copyright
@@ -27,8 +27,8 @@ Open
 Media
 .
 All
-rights
-reserved
+Rights
+Reserved
 .
 *
 *

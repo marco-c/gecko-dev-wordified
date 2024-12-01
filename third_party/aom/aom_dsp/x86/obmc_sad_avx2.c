@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -365,7 +364,7 @@ bit
 /
 /
 static
-inline
+INLINE
 unsigned
 int
 obmc_sad_w4_avx2
@@ -662,7 +661,7 @@ v_sad_d_0
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 obmc_sad_w8n_avx2
@@ -1331,11 +1330,8 @@ depth
 /
 /
 /
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 unsigned
 int
 hbd_obmc_sad_w4_avx2
@@ -1642,7 +1638,7 @@ v_sad_d_0
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 hbd_obmc_sad_w8n_avx2
@@ -2155,8 +2151,3 @@ HBD_OBMCSADWXH
 64
 16
 )
-#
-endif
-/
-/
-CONFIG_AV1_HIGHBITDEPTH

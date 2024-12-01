@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -334,7 +333,7 @@ the
 sum
 .
 static
-inline
+INLINE
 void
 filter_4x2_sse4_1
 (
@@ -559,7 +558,7 @@ it
 is
 not
 static
-inline
+INLINE
 void
 filter_4xh
 (
@@ -2098,7 +2097,7 @@ taps_6_7
 }
 }
 static
-inline
+INLINE
 void
 filter_intra_predictor_sse4_1
 (

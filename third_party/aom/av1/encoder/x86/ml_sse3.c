@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -2597,7 +2596,7 @@ Computation
 1999
 .
 static
-inline
+AOM_INLINE
 __m128
 approx_exp
 (
@@ -2727,7 +2726,7 @@ undef
 C
 }
 static
-inline
+AOM_INLINE
 __m128
 reduce_max
 (
@@ -2789,7 +2788,7 @@ reg
 ;
 }
 static
-inline
+AOM_INLINE
 __m128
 reduce_sum
 (

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -176,7 +175,7 @@ with
 saturation
 .
 static
-inline
+INLINE
 __m128i
 load_tran_low
 (
@@ -219,7 +218,7 @@ a
 ;
 }
 static
-inline
+INLINE
 void
 unpack_trans
 (
@@ -308,7 +307,7 @@ by
 1
 .
 static
-inline
+INLINE
 void
 store_tran_low
 (
@@ -399,7 +398,7 @@ store_tran_low
 )
 .
 static
-inline
+INLINE
 void
 store_tran_low_offset_4
 (

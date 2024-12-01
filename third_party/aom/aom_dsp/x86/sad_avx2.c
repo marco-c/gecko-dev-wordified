@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -145,7 +144,7 @@ mem
 h
 "
 static
-inline
+INLINE
 unsigned
 int
 sad64xh_avx2
@@ -347,7 +346,7 @@ res
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 sad32xh_avx2

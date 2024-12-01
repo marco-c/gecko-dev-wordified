@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -1451,7 +1450,7 @@ coefficients
 declaration
 area
 static
-inline
+INLINE
 uint8x16_t
 load_8bit_4x4_to_1_reg
 (
@@ -1556,7 +1555,7 @@ byte_stride
 endif
 }
 static
-inline
+INLINE
 uint8x16_t
 load_8bit_8x2_to_1_reg
 (
@@ -1641,7 +1640,7 @@ v_data_high
 endif
 }
 static
-inline
+INLINE
 uint8x16_t
 load_8bit_16x1_to_1_reg
 (
@@ -1668,7 +1667,7 @@ src
 ;
 }
 static
-inline
+INLINE
 void
 load_levels_4x4x5
 (
@@ -1777,7 +1776,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 load_levels_8x2x5
 (
@@ -1886,7 +1885,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 load_levels_16x1x5
 (
@@ -1995,7 +1994,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 uint8x16_t
 get_coeff_contexts_kernel
 (
@@ -2158,7 +2157,7 @@ count
 ;
 }
 static
-inline
+INLINE
 void
 get_4_nz_map_contexts_2d
 (
@@ -2320,7 +2319,7 @@ coeff_contexts
 ;
 }
 static
-inline
+INLINE
 void
 get_4_nz_map_contexts_ver
 (
@@ -2441,7 +2440,7 @@ col
 ;
 }
 static
-inline
+INLINE
 void
 get_4_nz_map_contexts_hor
 (
@@ -2573,7 +2572,7 @@ col
 ;
 }
 static
-inline
+INLINE
 void
 get_8_coeff_contexts_2d
 (
@@ -2833,7 +2832,7 @@ coeff_contexts
 ;
 }
 static
-inline
+INLINE
 void
 get_8_coeff_contexts_ver
 (
@@ -2951,7 +2950,7 @@ col
 ;
 }
 static
-inline
+INLINE
 void
 get_8_coeff_contexts_hor
 (
@@ -3094,7 +3093,7 @@ col
 ;
 }
 static
-inline
+INLINE
 void
 get_16n_coeff_contexts_2d
 (
@@ -3569,7 +3568,7 @@ coeff_contexts
 ;
 }
 static
-inline
+INLINE
 void
 get_16n_coeff_contexts_ver
 (
@@ -3722,7 +3721,7 @@ col
 ;
 }
 static
-inline
+INLINE
 void
 get_16n_coeff_contexts_hor
 (

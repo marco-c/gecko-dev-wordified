@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -227,7 +226,7 @@ convolve
 h
 "
 static
-inline
+INLINE
 __m256i
 unpack_weights_avx2
 (
@@ -293,7 +292,7 @@ wt
 ;
 }
 static
-inline
+INLINE
 __m256i
 load_line2_avx2
 (
@@ -6290,7 +6289,7 @@ FILTER_BITS
 7
 )
 static
-inline
+AOM_INLINE
 void
 av1_dist_wtd_convolve_2d_no_avg_copy_avx2
 (

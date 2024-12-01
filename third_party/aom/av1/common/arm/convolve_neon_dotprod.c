@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -377,7 +376,7 @@ block
 }
 ;
 static
-inline
+INLINE
 int16x4_t
 convolve12_4_x
 (
@@ -680,7 +679,7 @@ FILTER_BITS
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 convolve12_8_x
 (
@@ -1114,7 +1113,7 @@ sum_s16
 ;
 }
 static
-inline
+INLINE
 void
 convolve_x_sr_12tap_neon_dotprod
 (
@@ -1571,7 +1570,7 @@ h
 }
 }
 static
-inline
+INLINE
 int16x4_t
 convolve4_4_x
 (
@@ -1801,7 +1800,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 convolve4_8_x
 (
@@ -2116,7 +2115,7 @@ FILTER_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve_x_sr_4tap_neon_dotprod
 (
@@ -2524,7 +2523,7 @@ height
 }
 }
 static
-inline
+INLINE
 uint8x8_t
 convolve8_8_x
 (
@@ -3232,7 +3231,7 @@ h
 ;
 }
 static
-inline
+INLINE
 void
 transpose_concat_4x4
 (
@@ -3439,7 +3438,7 @@ a0123
 ;
 }
 static
-inline
+INLINE
 void
 transpose_concat_8x4
 (
@@ -3682,7 +3681,7 @@ val
 ;
 }
 static
-inline
+INLINE
 int16x4_t
 convolve12_4_y
 (
@@ -3794,7 +3793,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 convolve12_8_y
 (
@@ -3958,7 +3957,7 @@ FILTER_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve_y_sr_12tap_neon_dotprod
 (
@@ -5533,7 +5532,7 @@ w
 }
 }
 static
-inline
+INLINE
 int16x4_t
 convolve8_4_y
 (
@@ -5629,7 +5628,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 convolve8_8_y
 (
@@ -5764,7 +5763,7 @@ FILTER_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve_y_sr_8tap_neon_dotprod
 (
@@ -7141,7 +7140,7 @@ y_filter_ptr
 ;
 }
 static
-inline
+INLINE
 int16x4_t
 convolve12_4_2d_h
 (
@@ -7372,7 +7371,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 int16x8_t
 convolve12_8_2d_h
 (
@@ -7718,7 +7717,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve_2d_sr_horiz_12tap_neon_dotprod
 (
@@ -8404,7 +8403,7 @@ h
 }
 }
 static
-inline
+INLINE
 int16x4_t
 convolve4_4_2d_h
 (
@@ -8545,7 +8544,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 int16x8_t
 convolve4_8_2d_h
 (
@@ -8759,7 +8758,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve_2d_sr_horiz_4tap_neon_dotprod
 (
@@ -9375,7 +9374,7 @@ h
 }
 }
 static
-inline
+INLINE
 int16x8_t
 convolve8_8_2d_h
 (
@@ -9648,7 +9647,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve_2d_sr_horiz_8tap_neon_dotprod
 (
@@ -10083,7 +10082,7 @@ height
 ;
 }
 static
-inline
+INLINE
 void
 convolve_2d_sr_6tap_neon_dotprod
 (
@@ -10606,7 +10605,7 @@ w
 ;
 }
 static
-inline
+INLINE
 void
 convolve_2d_sr_4tap_neon_dotprod
 (

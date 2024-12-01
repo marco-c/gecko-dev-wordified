@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -191,7 +190,7 @@ ROUND0_BITS
 -
 COMPOUND_ROUND1_BITS
 static
-inline
+INLINE
 void
 highbd_12_comp_avg_neon
 (
@@ -588,7 +587,7 @@ h
 }
 }
 static
-inline
+INLINE
 void
 highbd_comp_avg_neon
 (
@@ -980,7 +979,7 @@ h
 }
 }
 static
-inline
+INLINE
 void
 highbd_12_dist_wtd_comp_avg_neon
 (
@@ -1466,7 +1465,7 @@ h
 }
 }
 static
-inline
+INLINE
 void
 highbd_dist_wtd_comp_avg_neon
 (

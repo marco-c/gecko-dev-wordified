@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -197,7 +196,7 @@ _mm256
 GEN_FFT_8
 (
 static
-inline
+INLINE
 void
 avx2
 float
@@ -212,7 +211,7 @@ _mm256_mul_ps
 GEN_FFT_16
 (
 static
-inline
+INLINE
 void
 avx2
 float
@@ -227,7 +226,7 @@ _mm256_mul_ps
 GEN_FFT_32
 (
 static
-inline
+INLINE
 void
 avx2
 float
@@ -337,7 +336,7 @@ _mm256
 GEN_IFFT_8
 (
 static
-inline
+INLINE
 void
 avx2
 float
@@ -352,7 +351,7 @@ _mm256_mul_ps
 GEN_IFFT_16
 (
 static
-inline
+INLINE
 void
 avx2
 float
@@ -367,7 +366,7 @@ _mm256_mul_ps
 GEN_IFFT_32
 (
 static
-inline
+INLINE
 void
 avx2
 float

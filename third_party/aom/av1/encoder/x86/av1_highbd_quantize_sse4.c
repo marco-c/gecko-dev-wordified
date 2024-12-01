@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -184,7 +183,7 @@ quan
 dequan
 constants
 static
-inline
+INLINE
 void
 quantize_coeff_phase1
 (
@@ -398,7 +397,7 @@ quantization
 phase
 2
 static
-inline
+INLINE
 void
 quantize_coeff_phase2
 (
@@ -762,7 +761,7 @@ dquan
 ;
 }
 static
-inline
+INLINE
 void
 find_eob
 (
@@ -904,7 +903,7 @@ iscanIdx
 ;
 }
 static
-inline
+INLINE
 uint16_t
 get_accumulated_eob
 (

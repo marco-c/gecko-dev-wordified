@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -127,6 +126,16 @@ memory
 #
 include
 "
+third_party
+/
+googletest
+/
+src
+/
+googletest
+/
+include
+/
 gtest
 /
 gtest

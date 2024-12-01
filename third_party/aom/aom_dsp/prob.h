@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -1074,7 +1073,7 @@ CDF_PROB_TOP
 )
 0
 static
-inline
+INLINE
 uint8_t
 get_prob
 (
@@ -1175,7 +1174,7 @@ clipped_prob
 }
 }
 static
-inline
+INLINE
 void
 update_cdf
 (

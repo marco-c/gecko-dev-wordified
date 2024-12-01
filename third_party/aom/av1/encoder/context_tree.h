@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -646,7 +645,7 @@ BLOCK_128X128
 }
 ;
 static
-inline
+AOM_INLINE
 int
 av1_get_pc_tree_nodes
 (

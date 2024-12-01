@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -15499,7 +15498,7 @@ weights_layer_5
 }
 ;
 static
-inline
+INLINE
 float32x4_t
 add_f32x4_x4
 (
@@ -15550,7 +15549,7 @@ sum23
 ;
 }
 static
-inline
+INLINE
 void
 av1_cnn_convolve_no_maxpool_padding_valid_2x2_large_neon
 (
@@ -16395,7 +16394,7 @@ out_channels
 ;
 }
 static
-inline
+INLINE
 void
 av1_cnn_convolve_no_maxpool_padding_valid_2x2_neon
 (
@@ -16985,7 +16984,7 @@ out_channels
 ;
 }
 static
-inline
+INLINE
 void
 av1_cnn_convolve_no_maxpool_padding_valid_5x5_neon
 (

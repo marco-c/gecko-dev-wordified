@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -182,7 +181,7 @@ shift
 )
 \
 static
-inline
+INLINE
 uint16x8_t
 name
 #
@@ -408,7 +407,7 @@ im_max_val
 \
 \
 static
-inline
+INLINE
 void
 name
 #
@@ -609,7 +608,7 @@ shift
 )
 \
 static
-inline
+INLINE
 uint16x8_t
 name
 #
@@ -854,7 +853,7 @@ im_max_val
 \
 \
 static
-inline
+INLINE
 void
 name
 #
@@ -1063,7 +1062,7 @@ shift
 )
 \
 static
-inline
+INLINE
 uint16x8_t
 name
 #
@@ -1354,7 +1353,7 @@ res_max_val
 \
 \
 static
-inline
+INLINE
 void
 name
 #
@@ -1723,7 +1722,7 @@ shift
 )
 \
 static
-inline
+INLINE
 uint16x8_t
 name
 #
@@ -2049,7 +2048,7 @@ res_max_val
 \
 \
 static
-inline
+INLINE
 void
 name
 #
@@ -2433,7 +2432,7 @@ WIENER_ROUND0_BITS
 undef
 HBD_WIENER_7TAP_VERT
 static
-inline
+AOM_INLINE
 int
 get_wiener_filter_taps
 (

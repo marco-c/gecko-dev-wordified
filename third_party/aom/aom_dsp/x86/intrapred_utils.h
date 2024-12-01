@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -762,7 +761,7 @@ LoadMaskz2
 }
 ;
 static
-inline
+INLINE
 void
 transpose4x16_sse2
 (
@@ -1118,7 +1117,7 @@ d
 ;
 }
 static
-inline
+INLINE
 void
 transpose16x16_sse2
 (

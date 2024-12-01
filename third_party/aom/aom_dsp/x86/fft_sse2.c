@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -155,7 +154,7 @@ fft_common
 h
 "
 static
-inline
+INLINE
 void
 transpose4x4
 (
@@ -1368,7 +1367,7 @@ __mm128
 GEN_FFT_4
 (
 static
-inline
+INLINE
 void
 sse2
 float
@@ -1382,7 +1381,7 @@ _mm_sub_ps
 GEN_FFT_8
 (
 static
-inline
+INLINE
 void
 sse2
 float
@@ -1397,7 +1396,7 @@ _mm_mul_ps
 GEN_FFT_16
 (
 static
-inline
+INLINE
 void
 sse2
 float
@@ -1412,7 +1411,7 @@ _mm_mul_ps
 GEN_FFT_32
 (
 static
-inline
+INLINE
 void
 sse2
 float
@@ -1551,7 +1550,7 @@ mm128
 GEN_IFFT_4
 (
 static
-inline
+INLINE
 void
 sse2
 float
@@ -1565,7 +1564,7 @@ _mm_sub_ps
 GEN_IFFT_8
 (
 static
-inline
+INLINE
 void
 sse2
 float
@@ -1580,7 +1579,7 @@ _mm_mul_ps
 GEN_IFFT_16
 (
 static
-inline
+INLINE
 void
 sse2
 float
@@ -1595,7 +1594,7 @@ _mm_mul_ps
 GEN_IFFT_32
 (
 static
-inline
+INLINE
 void
 sse2
 float

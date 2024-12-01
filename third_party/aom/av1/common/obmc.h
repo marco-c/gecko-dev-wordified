@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -155,7 +154,7 @@ num_planes
 )
 ;
 static
-inline
+INLINE
 void
 foreach_overlappable_nb_above
 (
@@ -463,7 +462,7 @@ num_planes
 }
 }
 static
-inline
+INLINE
 void
 foreach_overlappable_nb_left
 (

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -143,7 +142,7 @@ C
 #
 endif
 static
-inline
+INLINE
 __m128i
 av1_round_shift_32_sse4_1
 (
@@ -188,7 +187,7 @@ bit
 ;
 }
 static
-inline
+INLINE
 void
 av1_round_shift_array_32_sse4_1
 (
@@ -287,7 +286,7 @@ bit
 }
 }
 static
-inline
+INLINE
 void
 av1_round_shift_rect_array_32_sse4_1
 (

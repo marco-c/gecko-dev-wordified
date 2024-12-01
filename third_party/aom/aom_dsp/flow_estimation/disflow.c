@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -637,7 +636,7 @@ respectively
 }
 ;
 static
-inline
+INLINE
 void
 get_cubic_kernel_dbl
 (
@@ -846,7 +845,7 @@ x3
 ;
 }
 static
-inline
+INLINE
 void
 get_cubic_kernel_int
 (
@@ -965,7 +964,7 @@ DISFLOW_INTERP_BITS
 ;
 }
 static
-inline
+INLINE
 double
 get_cubic_value_dbl
 (
@@ -1024,7 +1023,7 @@ p
 ;
 }
 static
-inline
+INLINE
 int
 get_cubic_value_int
 (
@@ -1083,7 +1082,7 @@ p
 ;
 }
 static
-inline
+INLINE
 double
 bicubic_interp_one
 (
@@ -1846,7 +1845,7 @@ two
 regions
 .
 static
-inline
+INLINE
 void
 compute_flow_vector
 (
@@ -2725,7 +2724,7 @@ dt
 }
 }
 static
-inline
+INLINE
 void
 sobel_filter
 (
@@ -3470,7 +3469,7 @@ dt
 )
 |
 static
-inline
+INLINE
 void
 compute_flow_matrix
 (
@@ -3915,7 +3914,7 @@ matrices
 here
 .
 static
-inline
+INLINE
 void
 invert_2x2
 (

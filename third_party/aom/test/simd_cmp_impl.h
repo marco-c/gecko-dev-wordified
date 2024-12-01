@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -2121,8 +2120,6 @@ shift
 )
 ;
 }
-namespace
-{
 /
 /
 Wrappers
@@ -2633,6 +2630,8 @@ b
 )
 ;
 }
+namespace
+{
 typedef
 void
 (

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -897,9 +896,6 @@ int
 hsize
 )
 ;
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 void
 av1_cdef_copy_sb8_16_highbd
 (
@@ -925,11 +921,6 @@ int
 hsize
 )
 ;
-#
-endif
-/
-/
-CONFIG_AV1_HIGHBITDEPTH
 void
 av1_alloc_cdef_sync
 (
@@ -1032,13 +1023,6 @@ int
 lpf_opt_level
 )
 ;
-#
-if
-!
-CONFIG_REALTIME_ONLY
-|
-|
-CONFIG_AV1_DECODER
 void
 av1_loop_restoration_filter_frame_mt
 (
@@ -1093,15 +1077,6 @@ int
 width
 )
 ;
-#
-endif
-/
-/
-!
-CONFIG_REALTIME_ONLY
-|
-|
-CONFIG_AV1_DECODER
 int
 av1_get_intrabc_extra_top_right_sb_delay
 (
@@ -1290,7 +1265,7 @@ plane
 ;
 }
 static
-inline
+AOM_INLINE
 void
 enqueue_lf_jobs
 (
@@ -1493,7 +1468,7 @@ jobs_enqueued
 }
 }
 static
-inline
+AOM_INLINE
 void
 loop_filter_frame_mt_init
 (
@@ -1667,7 +1642,7 @@ num_mis_in_lpf_unit_height_log2
 ;
 }
 static
-inline
+AOM_INLINE
 AV1LfMTInfo
 *
 get_lf_job_info
@@ -1756,7 +1731,7 @@ cur_job_info
 ;
 }
 static
-inline
+AOM_INLINE
 void
 loop_filter_data_reset
 (
@@ -1892,7 +1867,7 @@ subsampling_y
 }
 }
 static
-inline
+AOM_INLINE
 void
 set_planes_to_loop_filter
 (
@@ -2006,7 +1981,7 @@ plane_end
 ;
 }
 static
-inline
+AOM_INLINE
 int
 check_planes_to_loop_filter
 (

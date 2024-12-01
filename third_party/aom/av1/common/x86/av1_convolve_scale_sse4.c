@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -2160,9 +2159,6 @@ conv_params
 )
 ;
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 /
 /
 A
@@ -4137,8 +4133,3 @@ bd
 )
 ;
 }
-#
-endif
-/
-/
-CONFIG_AV1_HIGHBITDEPTH

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -206,7 +205,7 @@ C
 #
 endif
 static
-inline
+INLINE
 void
 btf_16_w4_sse2
 (
@@ -632,7 +631,7 @@ while
 0
 )
 static
-inline
+INLINE
 __m128i
 load_16bit_to_16bit
 (
@@ -655,7 +654,7 @@ a
 ;
 }
 static
-inline
+INLINE
 __m128i
 load_32bit_to_16bit
 (
@@ -698,7 +697,7 @@ a
 ;
 }
 static
-inline
+INLINE
 __m128i
 load_32bit_to_16bit_w4
 (
@@ -744,7 +743,7 @@ the
 values
 .
 static
-inline
+INLINE
 void
 store_16bit_to_32bit_w4
 (
@@ -802,7 +801,7 @@ the
 values
 .
 static
-inline
+INLINE
 void
 store_16bit_to_32bit
 (
@@ -879,7 +878,7 @@ a_2
 ;
 }
 static
-inline
+INLINE
 __m128i
 scale_round_sse2
 (
@@ -927,7 +926,7 @@ NewSqrt2Bits
 ;
 }
 static
-inline
+INLINE
 void
 store_rect_16bit_to_32bit_w4
 (
@@ -981,7 +980,7 @@ b_lo
 ;
 }
 static
-inline
+INLINE
 void
 store_rect_16bit_to_32bit
 (
@@ -1069,7 +1068,7 @@ b_hi
 ;
 }
 static
-inline
+INLINE
 void
 load_buffer_16bit_to_16bit_w4
 (
@@ -1130,7 +1129,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 load_buffer_16bit_to_16bit_w4_flip
 (
@@ -1195,7 +1194,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 load_buffer_16bit_to_16bit
 (
@@ -1245,7 +1244,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 load_buffer_16bit_to_16bit_flip
 (
@@ -1299,7 +1298,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 load_buffer_32bit_to_16bit
 (
@@ -1349,7 +1348,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 load_buffer_32bit_to_16bit_w4
 (
@@ -1399,7 +1398,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 load_buffer_32bit_to_16bit_flip
 (
@@ -1453,7 +1452,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 store_buffer_16bit_to_32bit_w4
 (
@@ -1506,7 +1505,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 store_buffer_16bit_to_32bit_w8
 (
@@ -1559,7 +1558,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 store_rect_buffer_16bit_to_32bit_w4
 (
@@ -1612,7 +1611,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 store_rect_buffer_16bit_to_32bit_w8
 (
@@ -1665,7 +1664,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 store_buffer_16bit_to_16bit_8x8
 (
@@ -1719,7 +1718,7 @@ i
 }
 }
 static
-inline
+INLINE
 void
 round_shift_16bit
 (
@@ -1847,7 +1846,7 @@ bit
 }
 }
 static
-inline
+INLINE
 void
 flip_buf_sse2
 (

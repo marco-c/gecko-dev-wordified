@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -154,7 +153,7 @@ aom_dsp_common
 h
 "
 static
-inline
+INLINE
 __m256i
 load_tran_low
 (
@@ -205,7 +204,7 @@ a_high
 ;
 }
 static
-inline
+INLINE
 void
 store_tran_low
 (

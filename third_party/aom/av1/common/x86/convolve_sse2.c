@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -187,7 +186,7 @@ convolve
 h
 "
 static
-inline
+INLINE
 void
 prepare_coeffs
 (
@@ -371,7 +370,7 @@ coeffs
 7
 }
 static
-inline
+INLINE
 __m128i
 convolve
 (
@@ -474,7 +473,7 @@ d
 ;
 }
 static
-inline
+INLINE
 __m128i
 convolve_lo_x
 (
@@ -569,7 +568,7 @@ coeffs
 ;
 }
 static
-inline
+INLINE
 __m128i
 convolve_lo_y
 (
@@ -664,7 +663,7 @@ coeffs
 ;
 }
 static
-inline
+INLINE
 __m128i
 convolve_hi_y
 (

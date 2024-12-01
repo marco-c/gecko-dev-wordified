@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -147,7 +146,7 @@ C
 #
 endif
 static
-inline
+INLINE
 int32_t
 clamp_value
 (
@@ -222,7 +221,7 @@ max_value
 ;
 }
 static
-inline
+INLINE
 void
 clamp_buf
 (

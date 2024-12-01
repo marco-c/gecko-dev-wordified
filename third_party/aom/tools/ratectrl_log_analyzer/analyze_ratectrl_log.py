@@ -23,7 +23,6 @@ Media
 All
 rights
 reserved
-.
 #
 #
 #

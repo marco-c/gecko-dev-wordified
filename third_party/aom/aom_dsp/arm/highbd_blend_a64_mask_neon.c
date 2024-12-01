@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -191,7 +190,7 @@ round0_bits
 )
 \
 static
-inline
+INLINE
 uint16x8_t
 alpha_
 #
@@ -394,7 +393,7 @@ blend_u16
 \
 \
 static
-inline
+INLINE
 void
 highbd_
 #

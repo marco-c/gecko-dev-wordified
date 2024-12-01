@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -246,7 +245,7 @@ MV_JOINT_TYPE
 )
 ;
 static
-inline
+INLINE
 int
 mv_joint_vertical
 (
@@ -268,7 +267,7 @@ MV_JOINT_HNZVNZ
 ;
 }
 static
-inline
+INLINE
 int
 mv_joint_horizontal
 (

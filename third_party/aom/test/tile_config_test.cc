@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -140,6 +139,16 @@ h
 #
 include
 "
+third_party
+/
+googletest
+/
+src
+/
+googletest
+/
+include
+/
 gtest
 /
 gtest
@@ -523,7 +532,7 @@ k
 =
 target
 static
-inline
+INLINE
 int
 tile_log2
 (

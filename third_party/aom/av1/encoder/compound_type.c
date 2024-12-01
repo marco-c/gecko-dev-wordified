@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -259,7 +258,7 @@ of
 search
 match
 static
-inline
+INLINE
 int
 is_comp_rd_match
 (
@@ -771,7 +770,7 @@ relevant
 rd
 data
 static
-inline
+INLINE
 int
 find_comp_rd_in_stats
 (
@@ -872,7 +871,7 @@ result
 found
 }
 static
-inline
+INLINE
 bool
 enable_wedge_search
 (
@@ -914,7 +913,7 @@ disable_wedge_var_thresh
 ;
 }
 static
-inline
+INLINE
 bool
 enable_wedge_interinter_search
 (
@@ -955,7 +954,7 @@ enable_interinter_wedge
 ;
 }
 static
-inline
+INLINE
 bool
 enable_wedge_interintra_search
 (
@@ -3272,7 +3271,7 @@ rd
 ;
 }
 static
-inline
+AOM_INLINE
 void
 get_inter_predictors_masked_compound
 (
@@ -3524,7 +3523,7 @@ updates
 the
 best
 static
-inline
+INLINE
 void
 compute_best_interintra_mode
 (
@@ -3861,7 +3860,7 @@ rd
 search
 .
 static
-inline
+AOM_INLINE
 int64_t
 compute_rd_thresh
 (
@@ -3922,7 +3921,7 @@ wedge
 interintra
 mode
 static
-inline
+AOM_INLINE
 int64_t
 compute_best_wedge_interintra
 (
@@ -6125,7 +6124,7 @@ to
 be
 evaluated
 static
-inline
+INLINE
 int
 compute_valid_comp_types
 (
@@ -6425,7 +6424,7 @@ compound
 type
 mask
 static
-inline
+INLINE
 void
 calc_masked_type_cost
 (
@@ -6646,7 +6645,7 @@ compound
 type
 info
 static
-inline
+INLINE
 void
 update_mbmi_for_compound_type
 (
@@ -6722,7 +6721,7 @@ mbmi
 appropriately
 .
 static
-inline
+INLINE
 int
 populate_reuse_comp_type_data
 (
@@ -6895,7 +6894,7 @@ best
 compound
 type
 static
-inline
+INLINE
 void
 update_best_info
 (
@@ -6957,7 +6956,7 @@ masked
 compound
 types
 static
-inline
+INLINE
 void
 update_mask_best_mv
 (
@@ -7017,7 +7016,7 @@ as_int
 ;
 }
 static
-inline
+INLINE
 void
 save_comp_rd_search_stat
 (
@@ -7326,7 +7325,7 @@ comp_rd_stats_idx
 }
 }
 static
-inline
+INLINE
 int
 get_interinter_compound_mask_rate
 (
@@ -7441,7 +7440,7 @@ for
 future
 reuse
 static
-inline
+INLINE
 void
 backup_stats
 (
@@ -7516,7 +7515,7 @@ rs2
 ;
 }
 static
-inline
+INLINE
 int
 save_mask_search_results
 (
@@ -7549,7 +7548,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 prune_mode_by_skip_rd
 (
@@ -8987,7 +8986,6 @@ best
 approximate
 rd
 static
-const
 int
 comp_type_rd_threshold_mul
 [
@@ -9001,7 +8999,6 @@ comp_type_rd_threshold_mul
 }
 ;
 static
-const
 int
 comp_type_rd_threshold_div
 [

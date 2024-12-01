@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -160,21 +159,12 @@ include
 "
 config
 /
-aom_config
-.
-h
-"
-#
-include
-"
-config
-/
 aom_dsp_rtcd
 .
 h
 "
 static
-inline
+INLINE
 uint64_t
 aom_sum_squares_2d_i16_4x4_neon
 (
@@ -281,7 +271,7 @@ sum_squares
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_sum_squares_2d_i16_4xn_neon
 (
@@ -469,7 +459,7 @@ sum_squares
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_sum_squares_2d_i16_nxn_neon
 (
@@ -983,7 +973,7 @@ height
 }
 }
 static
-inline
+INLINE
 uint64_t
 aom_sum_sse_2d_i16_4x4_neon
 (
@@ -1124,7 +1114,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_sum_sse_2d_i16_4xn_neon
 (
@@ -1407,7 +1397,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_sum_sse_2d_i16_nxn_neon
 (
@@ -1967,7 +1957,7 @@ sse
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_sum_squares_i16_4xn_neon
 (
@@ -2071,7 +2061,7 @@ sum_u64
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_sum_squares_i16_8xn_neon
 (
@@ -2344,7 +2334,7 @@ n
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_var_2d_u8_4xh_neon
 (
@@ -2700,7 +2690,7 @@ height
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_var_2d_u8_8xh_neon
 (
@@ -3052,7 +3042,7 @@ height
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_var_2d_u8_16xh_neon
 (
@@ -3549,11 +3539,8 @@ height
 )
 ;
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 uint64_t
 aom_var_2d_u16_4xh_neon
 (
@@ -3773,7 +3760,7 @@ height
 ;
 }
 static
-inline
+INLINE
 uint64_t
 aom_var_2d_u16_8xh_neon
 (
@@ -4112,8 +4099,3 @@ height
 )
 ;
 }
-#
-endif
-/
-/
-CONFIG_AV1_HIGHBITDEPTH

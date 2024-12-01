@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -136,7 +135,7 @@ aom_dsp_rtcd
 h
 "
 static
-inline
+INLINE
 void
 accumulate_sse_sum
 (
@@ -304,7 +303,7 @@ tmp
 endif
 }
 static
-inline
+INLINE
 void
 sse_sum_wd4_avx2
 (
@@ -610,7 +609,7 @@ x2_sum
 ;
 }
 static
-inline
+INLINE
 void
 sse_sum_wd8_avx2
 (
@@ -846,7 +845,7 @@ x2_sum
 ;
 }
 static
-inline
+INLINE
 void
 sse_sum_wd16_avx2
 (

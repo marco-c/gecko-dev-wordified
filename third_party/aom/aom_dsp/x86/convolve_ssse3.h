@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -136,7 +135,7 @@ h
 /
 SSSE3
 static
-inline
+INLINE
 void
 shuffle_filter_ssse3
 (
@@ -231,7 +230,7 @@ _mm_set1_epi16
 ;
 }
 static
-inline
+INLINE
 __m128i
 convolve8_8_ssse3
 (

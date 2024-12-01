@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -181,9 +180,6 @@ a
 uint32_t
 )
 (
-uint16_t
-)
-(
 b
 )
 )
@@ -204,7 +200,7 @@ words
 in
 __m128i
 static
-inline
+INLINE
 __m128i
 mm_reverse_epi16
 (

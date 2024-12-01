@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -239,7 +238,7 @@ dot_prod_permute_tbl
 }
 ;
 static
-inline
+INLINE
 int16x4_t
 convolve4_4_2d_h
 (
@@ -381,7 +380,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 int16x8_t
 convolve8_8_2d_h
 (
@@ -713,7 +712,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_horiz_neon_dotprod
 (
@@ -1735,7 +1734,7 @@ w
 }
 }
 static
-inline
+INLINE
 uint16x4_t
 convolve4_4_x
 (
@@ -1880,7 +1879,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 convolve8_8_x
 (
@@ -2220,7 +2219,7 @@ res
 ;
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_x_dist_wtd_avg_neon_dotprod
 (
@@ -3039,7 +3038,7 @@ height
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_x_avg_neon_dotprod
 (
@@ -3836,7 +3835,7 @@ height
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_x_neon_dotprod
 (

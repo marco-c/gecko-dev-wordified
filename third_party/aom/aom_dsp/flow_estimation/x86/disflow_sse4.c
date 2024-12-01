@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -273,7 +272,7 @@ main
 compute_flow_at_point
 function
 static
-inline
+INLINE
 __m128i
 compute_cubic_kernels
 (
@@ -730,7 +729,7 @@ of
 bicubic
 interpolation
 static
-inline
+INLINE
 void
 compute_flow_vector
 (
@@ -2261,7 +2260,7 @@ dy
 respectively
 .
 static
-inline
+INLINE
 void
 sobel_filter
 (
@@ -2769,7 +2768,7 @@ row_p1_hdiff
 }
 }
 static
-inline
+INLINE
 void
 compute_flow_matrix
 (
@@ -3226,7 +3225,7 @@ matrices
 here
 .
 static
-inline
+INLINE
 void
 invert_2x2
 (

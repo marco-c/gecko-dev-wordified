@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -506,7 +505,7 @@ sse
 ;
 }
 static
-inline
+AOM_INLINE
 int64_t
 compute_sse_plane
 (
@@ -608,7 +607,7 @@ sse
 ;
 }
 static
-inline
+AOM_INLINE
 void
 model_rd_from_sse
 (
@@ -848,7 +847,7 @@ qstep
 2
 )
 static
-inline
+AOM_INLINE
 void
 model_rd_with_curvfit
 (
@@ -1167,7 +1166,7 @@ dist_i
 ;
 }
 static
-inline
+AOM_INLINE
 void
 model_rd_for_sb
 (
@@ -1561,7 +1560,7 @@ dist_sum
 ;
 }
 static
-inline
+AOM_INLINE
 void
 model_rd_for_sb_with_curvfit
 (

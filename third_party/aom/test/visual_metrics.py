@@ -21,7 +21,6 @@ Media
 All
 rights
 reserved
-.
 #
 #
 This
@@ -2309,8 +2308,7 @@ each
 which
   
 compares
-file
-size
+filesize
 to
 that
 metric

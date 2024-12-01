@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -528,7 +527,7 @@ r
 if
 CONFIG_ACCOUNTING
 static
-inline
+INLINE
 void
 aom_process_accounting
 (
@@ -591,7 +590,7 @@ tell_frac
 }
 }
 static
-inline
+INLINE
 void
 aom_update_symb_counts
 (
@@ -648,7 +647,7 @@ is_binary
 #
 endif
 static
-inline
+INLINE
 int
 aom_read_
 (
@@ -985,7 +984,7 @@ bit
 ;
 }
 static
-inline
+INLINE
 int
 aom_read_bit_
 (
@@ -1030,7 +1029,7 @@ ret
 ;
 }
 static
-inline
+INLINE
 int
 aom_read_literal_
 (
@@ -1097,7 +1096,7 @@ literal
 ;
 }
 static
-inline
+INLINE
 int
 aom_read_cdf_
 (
@@ -1471,7 +1470,7 @@ symb
 ;
 }
 static
-inline
+INLINE
 int
 aom_read_symbol_
 (

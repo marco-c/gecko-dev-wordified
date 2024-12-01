@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -2557,7 +2556,7 @@ return
 #
 endif
 static
-inline
+AOM_INLINE
 void
 read_gop_frames
 (

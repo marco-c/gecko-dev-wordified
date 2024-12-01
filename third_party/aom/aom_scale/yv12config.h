@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -1277,7 +1276,7 @@ pixels
 *
 /
 static
-inline
+AOM_INLINE
 int
 aom_calc_y_stride
 (

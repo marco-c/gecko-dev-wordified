@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -375,7 +374,7 @@ MAX_SEGMENTS
 }
 ;
 static
-inline
+INLINE
 int
 segfeature_active
 (
@@ -416,7 +415,7 @@ feature_id
 ;
 }
 static
-inline
+INLINE
 void
 segfeatures_copy
 (
@@ -587,7 +586,7 @@ seg_data
 )
 ;
 static
-inline
+INLINE
 int
 get_segdata
 (
@@ -616,7 +615,7 @@ feature_id
 ;
 }
 static
-inline
+AOM_INLINE
 void
 set_segment_id
 (

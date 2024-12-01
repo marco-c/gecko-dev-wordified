@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -269,7 +268,7 @@ memblk
 )
 ;
 static
-inline
+INLINE
 void
 *
 aom_memset16

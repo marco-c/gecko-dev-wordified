@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -176,7 +175,7 @@ sum_neon
 h
 "
 static
-inline
+INLINE
 void
 sad16_neon
 (
@@ -215,7 +214,7 @@ vdupq_n_u8
 ;
 }
 static
-inline
+INLINE
 void
 sadwxhx3d_large_neon_dotprod
 (
@@ -559,7 +558,7 @@ sum_hi
 ;
 }
 static
-inline
+INLINE
 void
 sad128xhx3d_neon_dotprod
 (
@@ -601,7 +600,7 @@ h
 ;
 }
 static
-inline
+INLINE
 void
 sad64xhx3d_neon_dotprod
 (
@@ -643,7 +642,7 @@ h
 ;
 }
 static
-inline
+INLINE
 void
 sad32xhx3d_neon_dotprod
 (
@@ -685,7 +684,7 @@ h
 ;
 }
 static
-inline
+INLINE
 void
 sad16xhx3d_neon_dotprod
 (
@@ -1032,7 +1031,7 @@ CONFIG_REALTIME_ONLY
 undef
 SAD_WXH_3D_NEON_DOTPROD
 static
-inline
+INLINE
 void
 sadwxhx4d_large_neon_dotprod
 (
@@ -1451,7 +1450,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 sad128xhx4d_neon_dotprod
 (
@@ -1493,7 +1492,7 @@ h
 ;
 }
 static
-inline
+INLINE
 void
 sad64xhx4d_neon_dotprod
 (
@@ -1535,7 +1534,7 @@ h
 ;
 }
 static
-inline
+INLINE
 void
 sad32xhx4d_neon_dotprod
 (
@@ -1577,7 +1576,7 @@ h
 ;
 }
 static
-inline
+INLINE
 void
 sad16xhx4d_neon_dotprod
 (
@@ -2038,6 +2037,11 @@ res
 SAD_SKIP_WXH_4D_NEON_DOTPROD
 (
 16
+8
+)
+SAD_SKIP_WXH_4D_NEON_DOTPROD
+(
+16
 16
 )
 SAD_SKIP_WXH_4D_NEON_DOTPROD
@@ -2092,7 +2096,17 @@ CONFIG_REALTIME_ONLY
 SAD_SKIP_WXH_4D_NEON_DOTPROD
 (
 16
+4
+)
+SAD_SKIP_WXH_4D_NEON_DOTPROD
+(
+16
 64
+)
+SAD_SKIP_WXH_4D_NEON_DOTPROD
+(
+32
+8
 )
 SAD_SKIP_WXH_4D_NEON_DOTPROD
 (

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -396,7 +395,7 @@ coeff_shift
 )
 ;
 static
-inline
+INLINE
 void
 fill_rect
 (

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -174,7 +173,7 @@ blend
 h
 "
 static
-inline
+INLINE
 void
 comp_mask_pred_16_ssse3
 (
@@ -374,7 +373,7 @@ roundAH
 ;
 }
 static
-inline
+INLINE
 void
 comp_mask_pred_8_ssse3
 (

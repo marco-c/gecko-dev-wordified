@@ -12,8 +12,8 @@ project
 authors
 .
 All
-rights
-reserved
+Rights
+Reserved
 .
 *
 Copyright
@@ -27,8 +27,8 @@ Open
 Media
 .
 All
-rights
-reserved
+Rights
+Reserved
 .
 *
 *
@@ -202,7 +202,7 @@ mem
 h
 "
 static
-inline
+INLINE
 void
 hadamard_highbd_col8_first_pass
 (
@@ -466,7 +466,7 @@ c7
 ;
 }
 static
-inline
+INLINE
 void
 hadamard_highbd_col4_second_pass
 (

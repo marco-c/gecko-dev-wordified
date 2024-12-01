@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -492,7 +491,7 @@ LF_UPDATE
 frames
 .
 static
-inline
+AOM_INLINE
 void
 set_params_for_leaf_frames
 (
@@ -760,7 +759,7 @@ INTNL_OVERLAY_UPDATE
 frames
 .
 static
-inline
+AOM_INLINE
 void
 set_params_for_intnl_overlay_frames
 (
@@ -908,7 +907,7 @@ INTNL_ARF_UPDATE
 frames
 .
 static
-inline
+AOM_INLINE
 void
 set_params_for_internal_arfs
 (
@@ -2205,7 +2204,7 @@ the
 GF_GROUP
 .
 static
-inline
+AOM_INLINE
 void
 fill_arf_frame_stats
 (
@@ -2268,7 +2267,7 @@ and
 arf_frame_stats
 .
 static
-inline
+AOM_INLINE
 void
 set_params_for_internal_arfs_in_gf14
 (
@@ -2634,7 +2633,7 @@ layer
 dpeth
 .
 static
-inline
+AOM_INLINE
 void
 set_params_for_cur_layer_frames
 (
@@ -2957,7 +2956,7 @@ is
 enbaled
 .
 static
-inline
+AOM_INLINE
 void
 set_multi_layer_params_for_gf14
 (

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -176,7 +175,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-inline
+AOM_INLINE
 int_mv
 get_ref_mv_for_mv_stats
 (
@@ -338,7 +337,7 @@ ref_frame_type
 ;
 }
 static
-inline
+AOM_INLINE
 int
 get_symbol_cost
 (
@@ -400,7 +399,7 @@ p15
 ;
 }
 static
-inline
+AOM_INLINE
 int
 keep_one_comp_stat
 (
@@ -954,7 +953,7 @@ total_rate
 ;
 }
 static
-inline
+AOM_INLINE
 void
 keep_one_mv_stat
 (
@@ -1419,7 +1418,7 @@ lp_rate
 }
 }
 static
-inline
+AOM_INLINE
 void
 collect_mv_stats_b
 (
@@ -2141,7 +2140,7 @@ vert_diff
 Split
 block
 static
-inline
+AOM_INLINE
 void
 collect_mv_stats_sb
 (
@@ -2586,7 +2585,7 @@ assert
 }
 }
 static
-inline
+AOM_INLINE
 void
 collect_mv_stats_tile
 (
@@ -2911,7 +2910,7 @@ valid
 ;
 }
 static
-inline
+AOM_INLINE
 int
 get_smart_mv_prec
 (

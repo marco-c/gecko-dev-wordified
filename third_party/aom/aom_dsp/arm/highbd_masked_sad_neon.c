@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -196,7 +195,7 @@ blend
 h
 "
 static
-inline
+INLINE
 uint16x8_t
 masked_sad_8x1_neon
 (
@@ -282,7 +281,7 @@ s0
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 masked_sad_16x1_neon
 (
@@ -345,7 +344,7 @@ m
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 masked_sad_32x1_neon
 (
@@ -408,7 +407,7 @@ m
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 masked_sad_128xh_large_neon
@@ -818,7 +817,7 @@ sad_u32
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 masked_sad_64xh_large_neon
@@ -1068,7 +1067,7 @@ sad_u32
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 masked_sad_32xh_large_neon
@@ -1227,7 +1226,7 @@ sad_u32
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 masked_sad_16xh_large_neon
@@ -1390,7 +1389,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-inline
+INLINE
 unsigned
 int
 masked_sad_8xh_large_neon
@@ -1555,7 +1554,7 @@ endif
 !
 CONFIG_REALTIME_ONLY
 static
-inline
+INLINE
 unsigned
 int
 masked_sad_16xh_small_neon
@@ -1731,7 +1730,7 @@ sad
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 masked_sad_8xh_small_neon
@@ -1907,7 +1906,7 @@ sad
 ;
 }
 static
-inline
+INLINE
 unsigned
 int
 masked_sad_4xh_small_neon

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -170,7 +169,7 @@ aom_filter
 h
 "
 static
-inline
+INLINE
 void
 variance4x4_64_sse4_1
 (

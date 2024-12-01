@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -163,7 +162,7 @@ mem
 h
 "
 static
-inline
+INLINE
 int8_t
 signed_char_clamp
 (
@@ -188,7 +187,7 @@ t
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 int16_t
 signed_char_clamp_high
 (
@@ -283,7 +282,7 @@ yes
 00000000
 no
 static
-inline
+INLINE
 int8_t
 filter_mask2
 (
@@ -374,7 +373,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 int8_t
 filter_mask
 (
@@ -541,7 +540,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 int8_t
 filter_mask3_chroma
 (
@@ -670,7 +669,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 int8_t
 flat_mask3_chroma
 (
@@ -769,7 +768,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 int8_t
 flat_mask4
 (
@@ -920,7 +919,7 @@ yes
 00000000
 no
 static
-inline
+INLINE
 int8_t
 hev_mask
 (
@@ -980,7 +979,7 @@ hev
 ;
 }
 static
-inline
+INLINE
 void
 filter4
 (
@@ -1828,7 +1827,7 @@ thresh0
 ;
 }
 static
-inline
+INLINE
 void
 filter6
 (
@@ -2013,7 +2012,7 @@ oq1
 }
 }
 static
-inline
+INLINE
 void
 filter8
 (
@@ -3516,7 +3515,7 @@ thresh0
 ;
 }
 static
-inline
+INLINE
 void
 filter14
 (
@@ -5037,7 +5036,7 @@ yes
 no
 ?
 static
-inline
+INLINE
 int8_t
 highbd_filter_mask2
 (
@@ -5175,7 +5174,7 @@ yes
 no
 ?
 static
-inline
+INLINE
 int8_t
 highbd_filter_mask
 (
@@ -5374,7 +5373,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 int8_t
 highbd_filter_mask3_chroma
 (
@@ -5535,7 +5534,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 int8_t
 highbd_flat_mask3_chroma
 (
@@ -5651,7 +5650,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 int8_t
 highbd_flat_mask4
 (
@@ -5822,7 +5821,7 @@ yes
 no
 ?
 static
-inline
+INLINE
 int16_t
 highbd_hev_mask
 (
@@ -5899,7 +5898,7 @@ hev
 ;
 }
 static
-inline
+INLINE
 void
 highbd_filter4
 (
@@ -6695,7 +6694,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 void
 highbd_filter6
 (
@@ -6883,7 +6882,7 @@ bd
 }
 }
 static
-inline
+INLINE
 void
 highbd_filter8
 (
@@ -8153,7 +8152,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 void
 highbd_filter14
 (

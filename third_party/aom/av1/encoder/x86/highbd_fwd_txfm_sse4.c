@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -247,7 +246,7 @@ av1_rtcd
 h
 "
 static
-inline
+INLINE
 void
 store_output_w4
 (
@@ -809,7 +808,7 @@ op
 ;
 }
 static
-inline
+INLINE
 void
 load_buffer_4x4
 (
@@ -1613,7 +1612,7 @@ u3
 ;
 }
 static
-inline
+INLINE
 void
 write_buffer_4x4
 (
@@ -3226,7 +3225,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 void
 load_buffer_8x8
 (
@@ -4228,7 +4227,7 @@ shift
 ;
 }
 static
-inline
+INLINE
 void
 col_txfm_8x8_rounding
 (
@@ -4705,7 +4704,7 @@ shift
 ;
 }
 static
-inline
+INLINE
 void
 col_txfm_4x8_rounding
 (
@@ -4958,7 +4957,7 @@ shift
 ;
 }
 static
-inline
+INLINE
 void
 write_buffer_8x8
 (
@@ -5277,7 +5276,7 @@ res
 ;
 }
 static
-inline
+INLINE
 void
 write_buffer_16x8
 (
@@ -10065,7 +10064,7 @@ Hybrid
 Transform
 16x16
 static
-inline
+INLINE
 void
 convert_8x8_to_16x16
 (
@@ -10271,7 +10270,7 @@ row_index
 ;
 }
 static
-inline
+INLINE
 void
 load_buffer_16x16
 (
@@ -10505,7 +10504,7 @@ out
 ;
 }
 static
-inline
+INLINE
 void
 load_buffer_8x16
 (
@@ -10591,7 +10590,7 @@ shift
 ;
 }
 static
-inline
+INLINE
 void
 load_buffer_8x4
 (
@@ -10675,7 +10674,7 @@ shift
 ;
 }
 static
-inline
+INLINE
 void
 load_buffer_16x4
 (
@@ -10759,7 +10758,7 @@ shift
 ;
 }
 static
-inline
+INLINE
 void
 load_buffer_4x8
 (
@@ -10849,7 +10848,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-inline
+INLINE
 void
 load_buffer_4x16
 (
@@ -10941,7 +10940,7 @@ shift
 #
 endif
 static
-inline
+INLINE
 void
 load_buffer_32x8n
 (
@@ -19290,7 +19289,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 void
 flip_buf_sse4_1
 (

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -168,7 +167,7 @@ quantize
 h
 "
 static
-inline
+INLINE
 uint32_t
 sum_abs_coeff
 (
@@ -227,7 +226,7 @@ c
 endif
 }
 static
-inline
+INLINE
 uint16x4_t
 quantize_4
 (
@@ -644,7 +643,7 @@ nz_qcoeff_mask
 ;
 }
 static
-inline
+INLINE
 int16x8_t
 get_max_lane_eob
 (
@@ -711,7 +710,7 @@ if
 !
 CONFIG_REALTIME_ONLY
 static
-inline
+INLINE
 void
 get_min_max_lane_eob
 (
@@ -816,7 +815,7 @@ endif
 !
 CONFIG_REALTIME_ONLY
 static
-inline
+INLINE
 uint16_t
 get_max_eob
 (
@@ -927,7 +926,7 @@ SKIP_EOB_FACTOR_ADJUST
 !
 CONFIG_REALTIME_ONLY
 static
-inline
+INLINE
 uint16_t
 get_min_eob
 (

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -191,6 +190,15 @@ include
 aom_ports
 /
 aom_timer
+.
+h
+"
+#
+include
+"
+aom_scale
+/
+aom_scale
 .
 h
 "

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -205,7 +204,6 @@ Sqrt2
 ^
 5
 static
-const
 int32_t
 NewSqrt2list
 [
@@ -1996,7 +1994,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct16_stage5_sse2
 (
@@ -2143,7 +2141,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct16_stage6_sse2
 (
@@ -2288,7 +2286,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct16_stage7_sse2
 (
@@ -5165,7 +5163,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct32_high16_stage3_sse2
 (
@@ -5272,7 +5270,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct32_high16_stage4_sse2
 (
@@ -5482,7 +5480,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct32_high24_stage5_sse2
 (
@@ -5693,7 +5691,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct32_high28_stage6_sse2
 (
@@ -5955,7 +5953,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct32_stage7_sse2
 (
@@ -6196,7 +6194,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct32_stage8_sse2
 (
@@ -6433,7 +6431,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct32_stage9_sse2
 (
@@ -9943,7 +9941,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage4_high32_sse2
 (
@@ -10343,7 +10341,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage5_high48_sse2
 (
@@ -10745,7 +10743,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage6_high32_sse2
 (
@@ -11043,7 +11041,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage6_high48_sse2
 (
@@ -11167,7 +11165,7 @@ cos_bit
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage7_high48_sse2
 (
@@ -11518,7 +11516,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage8_high48_sse2
 (
@@ -11861,7 +11859,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage9_sse2
 (
@@ -12290,7 +12288,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage10_sse2
 (
@@ -12711,7 +12709,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage11_sse2
 (
@@ -22111,7 +22109,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 iadst16_stage3_ssse3
 (
@@ -22218,7 +22216,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 iadst16_stage4_ssse3
 (
@@ -22426,7 +22424,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 iadst16_stage5_ssse3
 (
@@ -22533,7 +22531,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 iadst16_stage6_ssse3
 (
@@ -22691,7 +22689,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 iadst16_stage7_ssse3
 (
@@ -22798,7 +22796,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 iadst16_stage8_ssse3
 (
@@ -22939,7 +22937,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 iadst16_stage9_ssse3
 (
@@ -26044,7 +26042,7 @@ srcx2
 }
 }
 static
-inline
+INLINE
 __m128i
 lowbd_get_recon_8x8_sse2
 (
@@ -26085,7 +26083,7 @@ x0
 ;
 }
 static
-inline
+INLINE
 void
 lowbd_write_buffer_4xn_sse2
 (
@@ -26225,7 +26223,7 @@ u
 }
 }
 static
-inline
+INLINE
 void
 lowbd_write_buffer_8xn_sse2
 (
@@ -26586,7 +26584,7 @@ NULL
 }
 ;
 static
-inline
+INLINE
 void
 iidentity_row_8xn_ssse3
 (
@@ -26914,7 +26912,7 @@ hi
 }
 }
 static
-inline
+INLINE
 void
 iidentity_col_8xn_ssse3
 (
@@ -27587,7 +27585,7 @@ txfm_size_row
 ;
 }
 static
-inline
+INLINE
 __m128i
 lowbd_get_recon_16x16_sse2
 (
@@ -27651,7 +27649,7 @@ x1
 ;
 }
 static
-inline
+INLINE
 void
 lowbd_write_buffer_16xn_sse2
 (
@@ -27769,7 +27767,7 @@ u
 }
 }
 static
-inline
+INLINE
 void
 round_shift_ssse3
 (
@@ -27828,7 +27826,7 @@ scale
 }
 }
 static
-inline
+INLINE
 void
 lowbd_inv_txfm2d_add_no_identity_ssse3
 (
@@ -29185,7 +29183,7 @@ for
 64x16
 16x64
 static
-inline
+INLINE
 void
 lowbd_inv_txfm2d_add_universe_ssse3
 (

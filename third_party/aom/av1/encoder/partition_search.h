@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -125,15 +124,6 @@ AOM_AV1_ENCODER_PARTITION_SEARCH_H_
 #
 define
 AOM_AV1_ENCODER_PARTITION_SEARCH_H_
-#
-include
-"
-config
-/
-aom_config
-.
-h
-"
 #
 include
 "
@@ -337,9 +327,6 @@ pc_tree
 ;
 #
 endif
-#
-if
-CONFIG_PARTITION_SEARCH_ORDER
 void
 av1_reset_part_sf
 (
@@ -357,6 +344,9 @@ const
 cpi
 )
 ;
+#
+if
+CONFIG_PARTITION_SEARCH_ORDER
 bool
 av1_rd_partition_search
 (
@@ -435,7 +425,7 @@ rect_part_win_info
 )
 ;
 static
-inline
+AOM_INLINE
 void
 set_cb_offsets
 (
@@ -466,7 +456,7 @@ cb_offset_uv
 ;
 }
 static
-inline
+AOM_INLINE
 void
 update_cb_offsets
 (

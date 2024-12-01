@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -1039,7 +1038,7 @@ InvSqrt2
 11585
 ;
 static
-inline
+INLINE
 tran_high_t
 fdct_round_shift
 (

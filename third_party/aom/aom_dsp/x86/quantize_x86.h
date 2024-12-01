@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -136,7 +135,7 @@ aom_integer
 h
 "
 static
-inline
+INLINE
 void
 load_b_values
 (
@@ -273,7 +272,7 @@ are
 preferred
 .
 static
-inline
+INLINE
 __m128i
 invert_sign_sse2
 (
@@ -300,7 +299,7 @@ sign
 ;
 }
 static
-inline
+INLINE
 __m128i
 invert_sign_32_sse2
 (
@@ -327,7 +326,7 @@ sign
 ;
 }
 static
-inline
+INLINE
 void
 calculate_qcoeff
 (
@@ -385,7 +384,7 @@ shift
 ;
 }
 static
-inline
+INLINE
 void
 calculate_qcoeff_log_scale
 (
@@ -489,7 +488,7 @@ tmp1
 ;
 }
 static
-inline
+INLINE
 __m128i
 calculate_dqcoeff
 (
@@ -508,7 +507,7 @@ dequant
 ;
 }
 static
-inline
+INLINE
 void
 calculate_dqcoeff_and_store_log_scale
 (
@@ -704,7 +703,7 @@ scan
 '
 .
 static
-inline
+INLINE
 __m128i
 scan_for_eob
 (
@@ -845,7 +844,7 @@ eob1
 ;
 }
 static
-inline
+INLINE
 int16_t
 accumulate_eob
 (
@@ -913,7 +912,7 @@ eob
 ;
 }
 static
-inline
+INLINE
 __m128i
 load_coefficients
 (
@@ -975,7 +974,7 @@ coeff2
 ;
 }
 static
-inline
+INLINE
 void
 store_coefficients
 (
@@ -1069,7 +1068,7 @@ coeff_vals_2
 ;
 }
 static
-inline
+INLINE
 void
 update_mask1
 (
@@ -1197,7 +1196,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 void
 update_mask0
 (
@@ -1428,7 +1427,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 int
 calculate_non_zero_count
 (

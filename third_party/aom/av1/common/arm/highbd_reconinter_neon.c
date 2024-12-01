@@ -15,7 +15,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -180,7 +179,7 @@ av1_rtcd
 h
 "
 static
-inline
+INLINE
 void
 diffwtd_mask_highbd_neon
 (

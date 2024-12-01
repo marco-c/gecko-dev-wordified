@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -169,10 +168,6 @@ depth
 .
 *
 /
-#
-if
-!
-CONFIG_REALTIME_ONLY
 static
 aom_film_grain_t
 film_grain_test_vectors
@@ -4710,12 +4705,6 @@ random_seed
 }
 }
 ;
-#
-endif
-/
-/
-!
-CONFIG_REALTIME_ONLY
 #
 endif
 /

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -185,7 +184,7 @@ C
 #
 endif
 static
-inline
+INLINE
 uint8_t
 get_segment_id
 (
@@ -344,7 +343,7 @@ segment_id
 ;
 }
 static
-inline
+INLINE
 uint8_t
 av1_get_spatial_seg_pred
 (
@@ -710,7 +709,7 @@ prev_l
 ;
 }
 static
-inline
+INLINE
 uint8_t
 av1_get_pred_context_seg_id
 (
@@ -785,7 +784,7 @@ left_sip
 ;
 }
 static
-inline
+INLINE
 int
 get_comp_index_context
 (
@@ -1068,7 +1067,7 @@ offset
 ;
 }
 static
-inline
+INLINE
 int
 get_comp_group_idx_context
 (
@@ -1195,7 +1194,7 @@ left_ctx
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_seg_id
@@ -1224,7 +1223,7 @@ xd
 ;
 }
 static
-inline
+INLINE
 int
 av1_get_skip_mode_context
 (
@@ -1289,7 +1288,7 @@ left_skip_mode
 ;
 }
 static
-inline
+INLINE
 int
 av1_get_skip_txfm_context
 (
@@ -1444,7 +1443,7 @@ cache
 )
 ;
 static
-inline
+INLINE
 int
 av1_get_palette_bsize_ctx
 (
@@ -1472,7 +1471,7 @@ BLOCK_8X8
 ;
 }
 static
-inline
+INLINE
 int
 av1_get_palette_mode_ctx
 (
@@ -1574,7 +1573,7 @@ xd
 )
 ;
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_reference_mode_cdf
@@ -1602,7 +1601,7 @@ xd
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_skip_txfm_cdf
@@ -1676,7 +1675,7 @@ xd
 )
 ;
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_comp_reference_type_cdf
@@ -1710,7 +1709,7 @@ pred_context
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_uni_comp_ref_p
@@ -1747,7 +1746,7 @@ pred_context
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_uni_comp_ref_p1
@@ -1784,7 +1783,7 @@ pred_context
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_uni_comp_ref_p2
@@ -1876,7 +1875,7 @@ xd
 )
 ;
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_comp_ref_p
@@ -1913,7 +1912,7 @@ pred_context
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_comp_ref_p1
@@ -1950,7 +1949,7 @@ pred_context
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_comp_ref_p2
@@ -1987,7 +1986,7 @@ pred_context
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_comp_bwdref_p
@@ -2024,7 +2023,7 @@ pred_context
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_comp_bwdref_p1
@@ -2123,7 +2122,7 @@ xd
 )
 ;
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_single_ref_p1
@@ -2154,7 +2153,7 @@ xd
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_single_ref_p2
@@ -2185,7 +2184,7 @@ xd
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_single_ref_p3
@@ -2216,7 +2215,7 @@ xd
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_single_ref_p4
@@ -2247,7 +2246,7 @@ xd
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_single_ref_p5
@@ -2278,7 +2277,7 @@ xd
 ;
 }
 static
-inline
+INLINE
 aom_cdf_prob
 *
 av1_get_pred_cdf_single_ref_p6
@@ -2362,7 +2361,7 @@ to
 0
 .
 static
-inline
+INLINE
 int
 get_tx_size_context
 (

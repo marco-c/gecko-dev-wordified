@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -1238,7 +1237,7 @@ Negate
 under
 mask
 static
-inline
+INLINE
 __m128i
 negm_epi16
 (

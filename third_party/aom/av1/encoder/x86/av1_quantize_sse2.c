@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -163,7 +162,7 @@ quantize_x86
 h
 "
 static
-inline
+INLINE
 void
 read_coeff
 (
@@ -315,7 +314,7 @@ addr
 }
 }
 static
-inline
+INLINE
 void
 write_qcoeff
 (
@@ -494,7 +493,7 @@ qc1
 }
 }
 static
-inline
+INLINE
 void
 write_zero
 (
@@ -606,7 +605,7 @@ zero
 }
 }
 static
-inline
+INLINE
 void
 quantize
 (
@@ -1434,7 +1433,7 @@ eob
 }
 }
 static
-inline
+INLINE
 void
 quantize_lp
 (

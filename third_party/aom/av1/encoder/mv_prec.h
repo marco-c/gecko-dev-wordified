@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -175,7 +174,7 @@ current_q
 )
 ;
 static
-inline
+AOM_INLINE
 int
 av1_frame_allows_smart_mv
 (
@@ -245,7 +244,7 @@ endif
 !
 CONFIG_REALTIME_ONLY
 static
-inline
+AOM_INLINE
 void
 av1_set_high_precision_mv
 (

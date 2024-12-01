@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -136,7 +135,7 @@ aom_dsp_rtcd
 h
 "
 static
-inline
+INLINE
 void
 subtract32_avx2
 (
@@ -264,7 +263,7 @@ diff1
 ;
 }
 static
-inline
+INLINE
 void
 subtract_block_16xn_avx2
 (
@@ -389,7 +388,7 @@ diff_stride
 }
 }
 static
-inline
+INLINE
 void
 subtract_block_32xn_avx2
 (
@@ -455,7 +454,7 @@ diff_stride
 }
 }
 static
-inline
+INLINE
 void
 subtract_block_64xn_avx2
 (
@@ -534,7 +533,7 @@ diff_stride
 }
 }
 static
-inline
+INLINE
 void
 subtract_block_128xn_avx2
 (

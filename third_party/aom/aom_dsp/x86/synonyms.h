@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -221,7 +220,7 @@ right
 type
 .
 static
-inline
+INLINE
 __m128i
 xx_loadl_32
 (
@@ -253,7 +252,7 @@ val
 ;
 }
 static
-inline
+INLINE
 __m128i
 xx_loadl_64
 (
@@ -276,7 +275,7 @@ a
 ;
 }
 static
-inline
+INLINE
 __m128i
 xx_load_128
 (
@@ -299,7 +298,7 @@ a
 ;
 }
 static
-inline
+INLINE
 __m128i
 xx_loadu_128
 (
@@ -445,7 +444,7 @@ a
 different
 approach
 static
-inline
+INLINE
 __m128i
 xx_loadu_2x64
 (
@@ -486,7 +485,7 @@ hi
 #
 endif
 static
-inline
+INLINE
 void
 xx_storel_32
 (
@@ -521,7 +520,7 @@ val
 ;
 }
 static
-inline
+INLINE
 void
 xx_storel_64
 (
@@ -546,7 +545,7 @@ v
 ;
 }
 static
-inline
+INLINE
 void
 xx_store_128
 (
@@ -571,7 +570,7 @@ v
 ;
 }
 static
-inline
+INLINE
 void
 xx_storeu_128
 (
@@ -665,7 +664,7 @@ _mm_madd_epi16
 /
 instruction
 static
-inline
+INLINE
 __m128i
 xx_set2_epi16
 (
@@ -690,7 +689,7 @@ b
 ;
 }
 static
-inline
+INLINE
 __m128i
 xx_round_epu16
 (
@@ -709,7 +708,7 @@ _mm_setzero_si128
 ;
 }
 static
-inline
+INLINE
 __m128i
 xx_roundn_epu16
 (
@@ -742,7 +741,7 @@ _mm_setzero_si128
 ;
 }
 static
-inline
+INLINE
 __m128i
 xx_roundn_epu32
 (
@@ -788,7 +787,7 @@ bits
 ;
 }
 static
-inline
+INLINE
 __m128i
 xx_roundn_epi16_unsigned
 (
@@ -845,7 +844,7 @@ v_val_d
 bits
 )
 static
-inline
+INLINE
 __m128i
 xx_roundn_epi32_unsigned
 (
@@ -891,7 +890,7 @@ bits
 ;
 }
 static
-inline
+INLINE
 __m128i
 xx_roundn_epi16
 (

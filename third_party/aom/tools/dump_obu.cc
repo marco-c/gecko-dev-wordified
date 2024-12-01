@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -638,20 +637,6 @@ return
 true
 ;
 }
-void
-CloseFile
-(
-FILE
-*
-stream
-)
-{
-fclose
-(
-stream
-)
-;
-}
 }
 /
 /
@@ -723,7 +708,7 @@ FILE
 decltype
 (
 &
-CloseFile
+fclose
 )
 >
 ;
@@ -742,7 +727,7 @@ rb
 "
 )
 &
-CloseFile
+fclose
 )
 ;
 if

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -161,7 +160,7 @@ frame_idx
 )
 ;
 int
-aom_bitstream_queue_get_frame_write
+aom_bitstream_queue_get_frame_writee
 (
 void
 )

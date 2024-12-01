@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -241,7 +240,7 @@ p15
 ^
 15
 static
-inline
+INLINE
 int
 av1_cost_symbol
 (

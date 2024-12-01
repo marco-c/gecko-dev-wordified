@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -166,7 +165,7 @@ filter
 h
 "
 static
-inline
+INLINE
 void
 compute_dist_wtd_avg_4x1
 (
@@ -252,7 +251,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 compute_basic_avg_4x1
 (
@@ -314,7 +313,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 compute_dist_wtd_avg_8x1
 (
@@ -426,7 +425,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 compute_basic_avg_8x1
 (
@@ -476,7 +475,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 compute_dist_wtd_avg_4x4
 (
@@ -685,7 +684,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 compute_basic_avg_4x4
 (
@@ -816,7 +815,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 compute_dist_wtd_avg_8x4
 (
@@ -1213,7 +1212,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 compute_basic_avg_8x4
 (
@@ -1380,7 +1379,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x4_t
 convolve6_4_2d_v
 (
@@ -1514,7 +1513,7 @@ COMPOUND_ROUND1_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 convolve6_8_2d_v
 (
@@ -1757,7 +1756,7 @@ COMPOUND_ROUND1_BITS
 ;
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_vert_6tap_dist_wtd_avg_neon
 (
@@ -2624,7 +2623,7 @@ w
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_vert_6tap_avg_neon
 (
@@ -3465,7 +3464,7 @@ w
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_vert_6tap_neon
 (
@@ -4086,7 +4085,7 @@ w
 }
 }
 static
-inline
+INLINE
 uint16x4_t
 convolve8_4_2d_v
 (
@@ -4234,7 +4233,7 @@ COMPOUND_ROUND1_BITS
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 convolve8_8_2d_v
 (
@@ -4523,7 +4522,7 @@ COMPOUND_ROUND1_BITS
 ;
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_vert_8tap_dist_wtd_avg_neon
 (
@@ -5454,7 +5453,7 @@ w
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_vert_8tap_avg_neon
 (
@@ -6359,7 +6358,7 @@ w
 }
 }
 static
-inline
+INLINE
 void
 dist_wtd_convolve_2d_vert_8tap_neon
 (

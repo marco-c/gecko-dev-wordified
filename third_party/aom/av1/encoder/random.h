@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -197,7 +196,7 @@ their
 outputs
 .
 static
-inline
+INLINE
 uint32_t
 lcg_next
 (
@@ -241,7 +240,7 @@ range
 )
 .
 static
-inline
+INLINE
 uint32_t
 lcg_rand16
 (
@@ -349,7 +348,7 @@ bottom
 bits
 .
 static
-inline
+INLINE
 uint32_t
 lcg_randint
 (
@@ -399,7 +398,7 @@ lo
 hi
 )
 static
-inline
+INLINE
 uint32_t
 lcg_randrange
 (
@@ -523,7 +522,7 @@ than
 k
 .
 static
-inline
+INLINE
 void
 lcg_pick
 (

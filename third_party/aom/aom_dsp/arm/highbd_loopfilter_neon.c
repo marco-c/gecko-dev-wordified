@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -165,7 +164,7 @@ transpose_neon
 h
 "
 static
-inline
+INLINE
 int16x4_t
 clip3_s16
 (
@@ -193,7 +192,7 @@ high
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 convert_to_unsigned_pixel_u16
 (
@@ -268,7 +267,7 @@ q0
 thresh
 )
 static
-inline
+INLINE
 uint16x4_t
 hev
 (
@@ -330,7 +329,7 @@ q1
 =
 outer_thresh
 static
-inline
+INLINE
 uint16x4_t
 outer_threshold
 (
@@ -442,7 +441,7 @@ outer_threshold
 (
 )
 static
-inline
+INLINE
 uint16x4_t
 needs_filter4
 (
@@ -548,7 +547,7 @@ outer_threshold
 (
 )
 static
-inline
+INLINE
 uint16x4_t
 needs_filter6
 (
@@ -689,7 +688,7 @@ outer_threshold
 (
 )
 static
-inline
+INLINE
 uint16x4_t
 needs_filter8
 (
@@ -852,7 +851,7 @@ filterN_masks
 functions
 .
 static
-inline
+INLINE
 void
 filter4_masks
 (
@@ -1027,7 +1026,7 @@ bit
 decode
 .
 static
-inline
+INLINE
 uint16x4_t
 is_flat3
 (
@@ -1093,7 +1092,7 @@ b
 ;
 }
 static
-inline
+INLINE
 void
 filter6_masks
 (
@@ -1304,7 +1303,7 @@ bit
 decode
 .
 static
-inline
+INLINE
 uint16x4_t
 is_flat4
 (
@@ -1383,7 +1382,7 @@ c
 ;
 }
 static
-inline
+INLINE
 void
 filter8_masks
 (
@@ -1676,7 +1675,7 @@ hev_mask
 |
 .
 static
-inline
+INLINE
 void
 filter4
 (
@@ -3164,7 +3163,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 void
 filter6
 (
@@ -5068,7 +5067,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 void
 filter8
 (
@@ -6352,7 +6351,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 reverse_low_half
 (
@@ -7175,7 +7174,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 void
 filter14
 (
@@ -9390,7 +9389,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 uint16x8x2_t
 permute_acdb64
 (

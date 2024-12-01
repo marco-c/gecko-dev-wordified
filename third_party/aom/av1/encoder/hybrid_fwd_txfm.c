@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -1986,7 +1985,7 @@ break
 if
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 void
 highbd_wht_fwd_txfm
 (
@@ -2107,7 +2106,7 @@ endif
 /
 CONFIG_AV1_HIGHBITDEPTH
 static
-inline
+INLINE
 void
 wht_fwd_txfm
 (

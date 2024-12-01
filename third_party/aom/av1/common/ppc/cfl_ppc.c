@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -278,7 +277,7 @@ runtime
 int
 )
 static
-inline
+INLINE
 void
 subtract_average_vsx
 (

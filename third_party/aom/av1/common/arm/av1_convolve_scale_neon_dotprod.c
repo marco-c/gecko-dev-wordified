@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -320,7 +319,7 @@ clang
 format
 on
 static
-inline
+INLINE
 int16x4_t
 convolve8_4_h
 (
@@ -475,7 +474,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 int16x8_t
 convolve8_8_h
 (
@@ -729,7 +728,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve_horiz_scale_neon_dotprod
 (
@@ -1446,7 +1445,7 @@ h
 }
 }
 static
-inline
+INLINE
 int16x4_t
 convolve8_4_h_scale_2
 (
@@ -1627,7 +1626,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 int16x8_t
 convolve8_8_h_scale_2
 (
@@ -1903,7 +1902,7 @@ ROUND0_BITS
 ;
 }
 static
-inline
+INLINE
 void
 convolve_horiz_scale_2_neon_dotprod
 (

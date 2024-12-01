@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -721,7 +720,7 @@ counts
 )
 ;
 static
-inline
+INLINE
 int
 av1_get_tx_eob
 (
@@ -770,7 +769,7 @@ palette
 tokens
 .
 static
-inline
+INLINE
 unsigned
 int
 get_token_alloc
@@ -891,7 +890,7 @@ related
 info
 .
 static
-inline
+AOM_INLINE
 void
 alloc_token_info
 (
@@ -1027,7 +1026,7 @@ related
 info
 .
 static
-inline
+AOM_INLINE
 bool
 is_token_info_allocated
 (
@@ -1084,7 +1083,7 @@ related
 variables
 .
 static
-inline
+AOM_INLINE
 void
 free_token_info
 (

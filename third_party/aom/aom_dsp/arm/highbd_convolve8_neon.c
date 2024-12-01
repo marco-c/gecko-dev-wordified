@@ -12,8 +12,8 @@ project
 authors
 .
 All
-rights
-reserved
+Rights
+Reserved
 .
 *
 Copyright
@@ -29,7 +29,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -247,7 +246,7 @@ mem
 h
 "
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve8_4
 (
@@ -399,7 +398,7 @@ max
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 highbd_convolve8_8
 (

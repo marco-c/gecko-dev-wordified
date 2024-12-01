@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -274,7 +273,7 @@ H_FLIPADST
 }
 ;
 static
-inline
+INLINE
 int
 get_txb_bhl
 (
@@ -297,7 +296,7 @@ tx_size
 ;
 }
 static
-inline
+INLINE
 int
 get_txb_wide
 (
@@ -320,7 +319,7 @@ tx_size
 ;
 }
 static
-inline
+INLINE
 int
 get_txb_high
 (
@@ -343,7 +342,7 @@ tx_size
 ;
 }
 static
-inline
+INLINE
 uint8_t
 *
 set_levels
@@ -370,7 +369,7 @@ TX_PAD_HOR
 ;
 }
 static
-inline
+INLINE
 int
 get_padded_idx
 (
@@ -399,7 +398,7 @@ TX_PAD_HOR_LOG2
 ;
 }
 static
-inline
+INLINE
 int
 get_br_ctx_2d
 (
@@ -1908,7 +1907,7 @@ BR_CDF_SIZE
 ]
 ;
 static
-inline
+INLINE
 int
 get_lower_levels_ctx_eob
 (
@@ -1969,7 +1968,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 get_lower_levels_ctx_2d
 (
@@ -2217,7 +2216,7 @@ tx_class
 ;
 }
 static
-inline
+INLINE
 int
 get_lower_levels_ctx_general
 (
@@ -2308,7 +2307,7 @@ tx_class
 ;
 }
 static
-inline
+INLINE
 void
 set_dc_sign
 (
@@ -3672,7 +3671,7 @@ while
 loops
 .
 static
-inline
+INLINE
 void
 get_txb_ctx
 (

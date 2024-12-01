@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -166,7 +165,7 @@ convolve
 h
 "
 static
-inline
+INLINE
 int32x4_t
 highbd_convolve8_4_s32
 (
@@ -306,7 +305,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve8_4_sr_s32_s16
 (
@@ -391,7 +390,7 @@ subtract
 correction
 term
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve8_4_srsub_s32_s16
 (
@@ -470,7 +469,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 highbd_convolve8_8_s32
 (
@@ -783,7 +782,7 @@ subtract
 correction
 term
 static
-inline
+INLINE
 uint16x8_t
 highbd_convolve8_8_srsub_s32_s16
 (
@@ -888,7 +887,7 @@ sum1
 ;
 }
 static
-inline
+INLINE
 int32x4_t
 highbd_convolve8_2d_scale_horiz4x8_s32
 (
@@ -1109,7 +1108,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 uint16x4_t
 highbd_convolve8_2d_scale_horiz4x8_s32_s16
 (

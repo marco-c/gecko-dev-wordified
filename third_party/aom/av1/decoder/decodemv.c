@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -5305,7 +5304,7 @@ ACCT_STR
 }
 }
 static
-inline
+INLINE
 void
 read_mv
 (
@@ -5327,7 +5326,7 @@ precision
 )
 ;
 static
-inline
+INLINE
 int
 is_mv_valid
 (
@@ -5338,7 +5337,7 @@ mv
 )
 ;
 static
-inline
+INLINE
 int
 assign_dv
 (
@@ -7025,7 +7024,7 @@ mag
 ;
 }
 static
-inline
+INLINE
 void
 read_mv
 (
@@ -7977,7 +7976,7 @@ mode
 }
 }
 static
-inline
+INLINE
 void
 read_mb_interp_filter
 (
@@ -8502,7 +8501,7 @@ r
 ;
 }
 static
-inline
+INLINE
 int
 is_mv_valid
 (
@@ -8546,7 +8545,7 @@ MV_UPP
 ;
 }
 static
-inline
+INLINE
 int
 assign_mv
 (

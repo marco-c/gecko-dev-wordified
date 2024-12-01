@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -537,7 +536,7 @@ is
 referenced
 .
 static
-inline
+INLINE
 int
 total_adj_strong_thresh
 (

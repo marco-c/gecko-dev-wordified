@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -172,7 +171,7 @@ aom_dsp_rtcd
 h
 "
 static
-inline
+INLINE
 __m128i
 xx_loadh_64
 (
@@ -209,7 +208,7 @@ b
 ;
 }
 static
-inline
+INLINE
 uint64_t
 xx_cvtsi128_si64
 (
@@ -254,7 +253,7 @@ tmp
 endif
 }
 static
-inline
+INLINE
 __m128i
 sum_squares_i16_4x4_sse2
 (
@@ -2410,7 +2409,7 @@ in
 the
 vector
 static
-inline
+AOM_INLINE
 int32_t
 mm_accumulate_epi16
 (
@@ -2488,7 +2487,7 @@ in
 the
 vector
 static
-inline
+AOM_INLINE
 int32_t
 mm_accumulate_epi32
 (
@@ -3040,9 +3039,6 @@ height
 )
 ;
 }
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 uint64_t
 aom_var_2d_u16_sse2
 (
@@ -3526,8 +3522,3 @@ height
 )
 ;
 }
-#
-endif
-/
-/
-CONFIG_AV1_HIGHBITDEPTH

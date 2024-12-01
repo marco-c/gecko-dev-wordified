@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -227,7 +226,7 @@ this
 MB
 .
 static
-inline
+INLINE
 int
 horizontal_add_s8x16
 (
@@ -317,7 +316,7 @@ a
 vector
 .
 static
-inline
+INLINE
 int8x16_t
 denoiser_16x1_neon
 (
@@ -695,7 +694,7 @@ v_sum_diff_total
 ;
 }
 static
-inline
+INLINE
 int8x16_t
 denoiser_adjust_16x1_neon
 (

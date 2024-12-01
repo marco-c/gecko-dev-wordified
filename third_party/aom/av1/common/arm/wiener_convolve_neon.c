@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -214,7 +213,7 @@ restoration
 h
 "
 static
-inline
+INLINE
 uint16x8_t
 wiener_convolve5_8_2d_h
 (
@@ -435,7 +434,7 @@ im_max_val
 ;
 }
 static
-inline
+INLINE
 void
 convolve_add_src_horiz_5tap_neon
 (
@@ -578,7 +577,7 @@ h
 ;
 }
 static
-inline
+INLINE
 uint16x8_t
 wiener_convolve7_8_2d_h
 (
@@ -821,7 +820,7 @@ im_max_val
 ;
 }
 static
-inline
+INLINE
 void
 convolve_add_src_horiz_7tap_neon
 (
@@ -972,7 +971,7 @@ h
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 wiener_convolve5_8_2d_v
 (
@@ -1163,7 +1162,7 @@ res_hi
 ;
 }
 static
-inline
+INLINE
 void
 convolve_add_src_vert_5tap_neon
 (
@@ -1429,7 +1428,7 @@ w
 ;
 }
 static
-inline
+INLINE
 uint8x8_t
 wiener_convolve7_8_2d_v
 (
@@ -1661,7 +1660,7 @@ res_hi
 ;
 }
 static
-inline
+INLINE
 void
 convolve_add_src_vert_7tap_neon
 (
@@ -1949,7 +1948,7 @@ w
 ;
 }
 static
-inline
+AOM_INLINE
 int
 get_wiener_filter_taps
 (

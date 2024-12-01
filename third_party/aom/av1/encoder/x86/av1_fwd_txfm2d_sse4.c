@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -214,7 +213,7 @@ av1_fwd_txfm_sse2
 h
 "
 static
-inline
+INLINE
 void
 int16_array_with_stride_to_int32_array_without_stride
 (
@@ -290,7 +289,7 @@ c
 }
 }
 static
-inline
+INLINE
 void
 store_output_32bit_w8
 (
@@ -616,7 +615,7 @@ cos_bit
 }
 }
 static
-inline
+INLINE
 TxfmFuncSSE2
 fwd_txfm_type_to_func
 (
@@ -660,7 +659,7 @@ NULL
 ;
 }
 static
-inline
+INLINE
 void
 fwd_txfm2d_sse4_1
 (
@@ -941,7 +940,7 @@ shift
 ;
 }
 static
-inline
+INLINE
 void
 fwd_txfm2d_64x64_sse4_1
 (

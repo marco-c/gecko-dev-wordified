@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -165,7 +164,7 @@ quantize_x86
 h
 "
 static
-inline
+INLINE
 void
 highbd_load_b_values_avx2
 (
@@ -301,7 +300,7 @@ shift_ptr
 ;
 }
 static
-inline
+INLINE
 void
 highbd_update_mask1_avx2
 (
@@ -378,7 +377,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 void
 highbd_update_mask0_avx2
 (
@@ -486,7 +485,7 @@ mask
 ;
 }
 static
-inline
+INLINE
 void
 highbd_mul_shift_avx2
 (
@@ -582,7 +581,7 @@ prod_hi
 ;
 }
 static
-inline
+INLINE
 void
 highbd_calculate_qcoeff_avx2
 (
@@ -653,7 +652,7 @@ log_scale
 ;
 }
 static
-inline
+INLINE
 __m256i
 highbd_calculate_dqcoeff_avx2
 (
@@ -672,7 +671,7 @@ dequant
 ;
 }
 static
-inline
+INLINE
 __m256i
 highbd_calculate_dqcoeff_log_scale_avx2
 (
@@ -713,7 +712,7 @@ qcoeff
 ;
 }
 static
-inline
+INLINE
 void
 highbd_store_coefficients_avx2
 (

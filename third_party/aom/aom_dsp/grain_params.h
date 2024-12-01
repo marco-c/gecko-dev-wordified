@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -609,7 +608,7 @@ otherwise
 *
 /
 static
-inline
+INLINE
 int
 aom_check_grain_params_equiv
 (

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -154,7 +153,7 @@ aom_dsp_common
 h
 "
 static
-inline
+INLINE
 void
 write_zero
 (
@@ -195,7 +194,7 @@ zero
 ;
 }
 static
-inline
+INLINE
 void
 init_one_qp
 (
@@ -236,7 +235,7 @@ ac
 ;
 }
 static
-inline
+INLINE
 void
 init_qp
 (
@@ -450,7 +449,7 @@ _mm256_set1_epi16
 ;
 }
 static
-inline
+INLINE
 void
 update_qp
 (
@@ -530,7 +529,7 @@ thr
 ;
 }
 static
-inline
+INLINE
 __m256i
 load_coefficients_avx2
 (
@@ -579,7 +578,7 @@ coeff2
 ;
 }
 static
-inline
+INLINE
 void
 store_coefficients_avx2
 (
@@ -643,7 +642,7 @@ coeff_vals_hi
 ;
 }
 static
-inline
+INLINE
 uint16_t
 quant_gather_eob
 (
@@ -708,7 +707,7 @@ eob_s
 ;
 }
 static
-inline
+INLINE
 int16_t
 accumulate_eob256
 (
@@ -2260,7 +2259,7 @@ eob
 ;
 }
 static
-inline
+INLINE
 void
 quantize_fp_64x64
 (

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -496,7 +495,7 @@ index
 ;
 }
 static
-inline
+AOM_INLINE
 void
 reset_cdf_symbol_counter
 (
@@ -620,7 +619,7 @@ while
 0
 )
 static
-inline
+AOM_INLINE
 void
 reset_nmv_counter
 (

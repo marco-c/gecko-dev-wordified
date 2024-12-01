@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -349,7 +348,7 @@ NULL
 }
 ;
 static
-inline
+INLINE
 void
 lowbd_add_flip_buffer_8xn_neon
 (
@@ -456,7 +455,7 @@ stride
 }
 }
 static
-inline
+INLINE
 uint8x16_t
 lowbd_get_recon_16x16_neon
 (
@@ -563,7 +562,7 @@ temp_output_8q
 ;
 }
 static
-inline
+INLINE
 void
 lowbd_add_flip_buffer_16xn_neon
 (
@@ -671,7 +670,7 @@ temp_output_8q
 }
 }
 static
-inline
+INLINE
 void
 lowbd_inv_txfm2d_memset_neon
 (
@@ -716,7 +715,7 @@ value
 }
 }
 static
-inline
+INLINE
 void
 btf_16_lane_0_1_neon
 (
@@ -981,7 +980,7 @@ v1
 ;
 }
 static
-inline
+INLINE
 void
 btf_16_lane_1_0_neon
 (
@@ -1246,7 +1245,7 @@ v1
 ;
 }
 static
-inline
+INLINE
 void
 btf_16_lane_2_3_neon
 (
@@ -1511,7 +1510,7 @@ v1
 ;
 }
 static
-inline
+INLINE
 void
 btf_16_neon
 (
@@ -1666,7 +1665,7 @@ v1
 ;
 }
 static
-inline
+INLINE
 void
 btf_16_lane_3_2_neon
 (
@@ -1931,7 +1930,7 @@ v1
 ;
 }
 static
-inline
+INLINE
 void
 btf_16_half_neon
 (
@@ -2184,7 +2183,7 @@ v1
 ;
 }
 static
-inline
+INLINE
 int16x4_t
 set_s16x4_neon
 (
@@ -2242,7 +2241,7 @@ val
 ;
 }
 static
-inline
+INLINE
 void
 iadst8_neon
 (
@@ -2915,7 +2914,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 iadst8_low1_neon
 (
@@ -3272,7 +3271,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct8_neon
 (
@@ -3783,7 +3782,7 @@ step2
 ;
 }
 static
-inline
+INLINE
 void
 idct8_low1_neon
 (
@@ -4039,7 +4038,7 @@ dup_bits_n_16x8
 }
 }
 static
-inline
+INLINE
 void
 flip_buf_ud_neon
 (
@@ -4116,7 +4115,7 @@ i
 }
 }
 static
-inline
+INLINE
 void
 load_buffer_32bit_to_16bit_neon
 (
@@ -4183,7 +4182,6 @@ stride
 }
 }
 static
-const
 int16_t
 sqrt_2_list
 [
@@ -4207,7 +4205,7 @@ TX_SIZES
 }
 ;
 static
-inline
+INLINE
 void
 identity_txfm_round_neon
 (
@@ -4357,7 +4355,7 @@ high_i16
 }
 }
 static
-inline
+INLINE
 void
 round_shift_for_rect
 (
@@ -4465,7 +4463,7 @@ high
 }
 }
 static
-inline
+INLINE
 void
 idct16_low1_neon
 (
@@ -4686,7 +4684,7 @@ step1
 ;
 }
 static
-inline
+INLINE
 void
 idct16_neon
 (
@@ -6273,7 +6271,7 @@ step2
 ;
 }
 static
-inline
+INLINE
 void
 idct16_low8_neon
 (
@@ -7723,7 +7721,7 @@ step2
 ;
 }
 static
-inline
+INLINE
 void
 iadst16_neon
 (
@@ -9466,7 +9464,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 iadst16_low1_neon
 (
@@ -10215,7 +10213,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 iadst16_low8_neon
 (
@@ -11762,7 +11760,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 idct32_neon
 (
@@ -15769,7 +15767,7 @@ step2
 ;
 }
 static
-inline
+INLINE
 void
 idct32_low1_neon
 (
@@ -16126,7 +16124,7 @@ step1
 ;
 }
 static
-inline
+INLINE
 void
 idct32_low8_neon
 (
@@ -19372,7 +19370,7 @@ step2
 ;
 }
 static
-inline
+INLINE
 void
 idct32_low16_neon
 (
@@ -23127,7 +23125,7 @@ step2
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage9_neon
 (
@@ -24177,7 +24175,7 @@ step2
 ;
 }
 static
-inline
+INLINE
 void
 idct64_stage10_neon
 (
@@ -25127,7 +25125,7 @@ step1
 ;
 }
 static
-inline
+INLINE
 void
 idct64_low32_neon
 (
@@ -32375,7 +32373,7 @@ step2
 ;
 }
 static
-inline
+INLINE
 void
 idct64_low1_neon
 (
@@ -32964,7 +32962,7 @@ step1
 ;
 }
 static
-inline
+INLINE
 void
 idct64_low8_neon
 (
@@ -37748,7 +37746,7 @@ step2
 ;
 }
 static
-inline
+INLINE
 void
 idct64_low16_neon
 (
@@ -44109,7 +44107,7 @@ NULL
 }
 ;
 static
-inline
+INLINE
 void
 lowbd_inv_txfm2d_add_idtx_neon
 (
@@ -44541,7 +44539,7 @@ txfm_size_row
 }
 }
 static
-inline
+INLINE
 void
 lowbd_inv_txfm2d_add_v_identity_neon
 (
@@ -45071,7 +45069,7 @@ txfm_size_row
 }
 }
 static
-inline
+INLINE
 void
 lowbd_inv_txfm2d_add_h_identity_neon
 (
@@ -45535,7 +45533,7 @@ txfm_size_row
 }
 }
 static
-inline
+INLINE
 void
 lowbd_inv_txfm2d_add_4x4_neon
 (
@@ -47989,7 +47987,7 @@ r
 }
 }
 static
-inline
+INLINE
 void
 lowbd_inv_txfm2d_add_no_identity_neon
 (
@@ -48549,7 +48547,7 @@ txfm_size_row
 }
 }
 static
-inline
+INLINE
 void
 lowbd_inv_txfm2d_add_universe_neon
 (
@@ -48648,37 +48646,6 @@ break
 ;
 }
 }
-/
-/
-This
-function
-is
-used
-by
-av1_inv_txfm2d_test
-.
-cc
-.
-void
-av1_lowbd_inv_txfm2d_add_neon
-(
-const
-int32_t
-*
-input
-uint8_t
-*
-output
-int
-stride
-TX_TYPE
-tx_type
-TX_SIZE
-tx_size
-int
-eob
-)
-;
 void
 av1_lowbd_inv_txfm2d_add_neon
 (

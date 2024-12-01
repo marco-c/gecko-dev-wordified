@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -159,7 +158,7 @@ sum_neon
 h
 "
 static
-inline
+INLINE
 void
 obmc_variance_8x1_s16_neon
 (
@@ -640,7 +639,7 @@ obmc_variance_permute_idx
 }
 ;
 static
-inline
+INLINE
 void
 obmc_variance_8x1_s32_neon
 (
@@ -883,7 +882,7 @@ round_hi
 ;
 }
 static
-inline
+INLINE
 void
 obmc_variance_large_neon
 (
@@ -1198,7 +1197,7 @@ else
 !
 AOM_ARCH_AARCH64
 static
-inline
+INLINE
 void
 obmc_variance_large_neon
 (
@@ -1439,7 +1438,7 @@ endif
 /
 AOM_ARCH_AARCH64
 static
-inline
+INLINE
 void
 obmc_variance_neon_128xh
 (
@@ -1481,7 +1480,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 obmc_variance_neon_64xh
 (
@@ -1523,7 +1522,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 obmc_variance_neon_32xh
 (
@@ -1565,7 +1564,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 obmc_variance_neon_16xh
 (
@@ -1607,7 +1606,7 @@ sum
 ;
 }
 static
-inline
+INLINE
 void
 obmc_variance_neon_8xh
 (
@@ -1727,7 +1726,7 @@ sumv
 ;
 }
 static
-inline
+INLINE
 void
 obmc_variance_neon_4xh
 (

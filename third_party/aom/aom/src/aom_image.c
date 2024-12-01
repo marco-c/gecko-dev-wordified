@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -186,7 +185,7 @@ aom_mem
 h
 "
 static
-inline
+INLINE
 unsigned
 int
 align_image_dimension

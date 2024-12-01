@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -145,7 +144,7 @@ aom_config
 h
 "
 static
-inline
+INLINE
 __m128i
 transpose_8bit_4x4
 (
@@ -306,7 +305,7 @@ a1
 ;
 }
 static
-inline
+INLINE
 void
 transpose_8bit_8x8
 (
@@ -1076,7 +1075,7 @@ c3
 ;
 }
 static
-inline
+INLINE
 void
 transpose_16bit_4x4
 (
@@ -1386,7 +1385,7 @@ out
 ;
 }
 static
-inline
+INLINE
 void
 transpose_16bit_4x8
 (
@@ -1859,7 +1858,7 @@ b3
 ;
 }
 static
-inline
+INLINE
 void
 transpose_16bit_8x4
 (
@@ -2384,7 +2383,7 @@ zeros
 ;
 }
 static
-inline
+INLINE
 void
 transpose_16bit_8x8
 (
@@ -3167,7 +3166,7 @@ in
 -
 place
 static
-inline
+INLINE
 void
 transpose_16bit_16x16
 (
@@ -3299,7 +3298,7 @@ tbuf
 ;
 }
 static
-inline
+INLINE
 void
 transpose_32bit_4x4
 (
@@ -3567,7 +3566,7 @@ a3
 ;
 }
 static
-inline
+INLINE
 void
 transpose_32bit_4x4x2
 (
@@ -4063,7 +4062,7 @@ a7
 ;
 }
 static
-inline
+INLINE
 void
 transpose_32bit_8x4
 (

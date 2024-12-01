@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -309,7 +308,7 @@ define
 FILTER_INTRA_SCALE_BITS
 4
 static
-inline
+INLINE
 int
 av1_is_directional_mode
 (
@@ -331,7 +330,7 @@ D67_PRED
 ;
 }
 static
-inline
+INLINE
 int
 av1_is_diagonal_mode
 (
@@ -353,7 +352,7 @@ D67_PRED
 ;
 }
 static
-inline
+INLINE
 int
 av1_use_angle_delta
 (
@@ -369,7 +368,7 @@ BLOCK_8X8
 ;
 }
 static
-inline
+INLINE
 int
 av1_allow_intrabc
 (
@@ -404,7 +403,7 @@ allow_intrabc
 ;
 }
 static
-inline
+INLINE
 int
 av1_filter_intra_allowed_bsize
 (
@@ -457,7 +456,7 @@ bs
 ;
 }
 static
-inline
+INLINE
 int
 av1_filter_intra_allowed
 (
@@ -924,7 +923,7 @@ dx
 1
 ;
 static
-inline
+INLINE
 int
 av1_get_dx
 (
@@ -1088,7 +1087,7 @@ t
 )
 ;
 static
-inline
+INLINE
 int
 av1_get_dy
 (
@@ -1167,7 +1166,7 @@ return
 }
 }
 static
-inline
+INLINE
 int
 av1_use_intra_edge_upsample
 (

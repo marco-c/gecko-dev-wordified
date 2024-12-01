@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -179,7 +178,7 @@ txb_common
 h
 "
 static
-inline
+INLINE
 void
 load_levels_4x4x5_sse2
 (
@@ -278,7 +277,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 load_levels_8x2x5_sse2
 (
@@ -377,7 +376,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 load_levels_16x1x5_sse2
 (
@@ -501,7 +500,7 @@ offsets
 ;
 }
 static
-inline
+INLINE
 __m128i
 get_coeff_contexts_kernel_sse2
 (
@@ -666,7 +665,7 @@ count
 ;
 }
 static
-inline
+INLINE
 void
 get_4_nz_map_contexts_2d
 (
@@ -856,7 +855,7 @@ coeff_contexts
 ;
 }
 static
-inline
+INLINE
 void
 get_4_nz_map_contexts_ver
 (
@@ -1025,7 +1024,7 @@ col
 ;
 }
 static
-inline
+INLINE
 void
 get_4_nz_map_contexts_hor
 (
@@ -1208,7 +1207,7 @@ col
 ;
 }
 static
-inline
+INLINE
 void
 get_8_coeff_contexts_2d
 (
@@ -1544,7 +1543,7 @@ coeff_contexts
 ;
 }
 static
-inline
+INLINE
 void
 get_8_coeff_contexts_ver
 (
@@ -1713,7 +1712,7 @@ col
 ;
 }
 static
-inline
+INLINE
 void
 get_8_coeff_contexts_hor
 (
@@ -1896,7 +1895,7 @@ col
 ;
 }
 static
-inline
+INLINE
 void
 get_16n_coeff_contexts_2d
 (
@@ -2495,7 +2494,7 @@ coeff_contexts
 ;
 }
 static
-inline
+INLINE
 void
 get_16n_coeff_contexts_ver
 (
@@ -2744,7 +2743,7 @@ col
 ;
 }
 static
-inline
+INLINE
 void
 get_16n_coeff_contexts_hor
 (

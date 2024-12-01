@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -1282,9 +1281,6 @@ depth
 /
 /
 /
-#
-if
-CONFIG_AV1_HIGHBITDEPTH
 static
 AOM_FORCE_INLINE
 unsigned
@@ -2057,8 +2053,3 @@ HBD_OBMCSADWXH
 64
 16
 )
-#
-endif
-/
-/
-CONFIG_AV1_HIGHBITDEPTH

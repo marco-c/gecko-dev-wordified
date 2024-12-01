@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -128,9 +127,9 @@ AOM_AOM_DSP_AOM_SIMD_INLINE_H_
 #
 include
 "
-aom_dsp
+aom
 /
-aom_dsp_common
+aom_integer
 .
 h
 "

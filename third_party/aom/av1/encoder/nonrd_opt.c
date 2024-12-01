@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -510,7 +509,7 @@ step
 ;
 }
 static
-inline
+INLINE
 void
 aom_process_hadamard_lp_8x16
 (
@@ -2508,7 +2507,7 @@ encoding
 time
 .
 static
-inline
+AOM_INLINE
 void
 scale_square_buf_vals
 (
@@ -4364,7 +4363,7 @@ speed
 features
 .
 static
-inline
+INLINE
 bool
 is_prune_intra_mode
 (

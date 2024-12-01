@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -485,9 +484,8 @@ SIMD_WIDTH
 ;
 }
 }
-static
 uint8_t
-get_filter_level
+av1_get_filter_level
 (
 const
 AV1_COMMON
@@ -2207,7 +2205,7 @@ const
 uint32_t
 curr_level
 =
-get_filter_level
+av1_get_filter_level
 (
 cm
 &
@@ -2340,7 +2338,7 @@ const
 uint32_t
 pv_lvl
 =
-get_filter_level
+av1_get_filter_level
 (
 cm
 &
@@ -4902,7 +4900,7 @@ mi_prev
 uint8_t
 level
 =
-get_filter_level
+av1_get_filter_level
 (
 cm
 &
@@ -4923,7 +4921,7 @@ level
 {
 level
 =
-get_filter_level
+av1_get_filter_level
 (
 cm
 &
@@ -5159,7 +5157,7 @@ get_transform_size
 and
 \
 ref
-get_filter_level
+av1_get_filter_level
 static
 AOM_FORCE_INLINE
 void
@@ -5869,7 +5867,7 @@ pv_ts
 uint8_t
 level
 =
-get_filter_level
+av1_get_filter_level
 (
 cm
 &
@@ -5890,7 +5888,7 @@ level
 {
 level
 =
-get_filter_level
+av1_get_filter_level
 (
 cm
 &
@@ -5915,7 +5913,7 @@ joint_filter_chroma
 uint8_t
 v_level
 =
-get_filter_level
+av1_get_filter_level
 (
 cm
 &
@@ -5936,7 +5934,7 @@ v_level
 {
 v_level
 =
-get_filter_level
+av1_get_filter_level
 (
 cm
 &
@@ -6355,7 +6353,7 @@ advance_units
 }
 }
 static
-inline
+AOM_INLINE
 void
 filter_vert
 (
@@ -7714,7 +7712,7 @@ endif
 CONFIG_AV1_HIGHBITDEPTH
 }
 static
-inline
+AOM_INLINE
 void
 filter_vert_chroma
 (
@@ -10679,7 +10677,7 @@ y_inc
 }
 }
 static
-inline
+AOM_INLINE
 void
 filter_horz
 (
@@ -12030,7 +12028,7 @@ endif
 CONFIG_AV1_HIGHBITDEPTH
 }
 static
-inline
+AOM_INLINE
 void
 filter_horz_chroma
 (

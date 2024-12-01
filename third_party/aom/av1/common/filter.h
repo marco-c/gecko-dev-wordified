@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -368,7 +367,7 @@ as_filters
 int_interpfilters
 ;
 static
-inline
+INLINE
 InterpFilter
 av1_extract_interp_filter
 (
@@ -402,7 +401,7 @@ y_filter
 ;
 }
 static
-inline
+INLINE
 int_interpfilters
 av1_broadcast_interp_filter
 (
@@ -434,7 +433,7 @@ filters
 ;
 }
 static
-inline
+INLINE
 InterpFilter
 av1_unswitchable_filter
 (
@@ -2421,7 +2420,7 @@ BILINEAR
 }
 ;
 static
-inline
+INLINE
 const
 InterpFilterParams
 *
@@ -2464,7 +2463,7 @@ interp_filter
 ;
 }
 static
-inline
+INLINE
 const
 int16_t
 *
@@ -2525,7 +2524,7 @@ filter_ptr
 ;
 }
 static
-inline
+INLINE
 const
 int16_t
 *
@@ -2556,7 +2555,7 @@ subpel
 ;
 }
 static
-inline
+INLINE
 const
 InterpFilterParams
 *
@@ -2622,7 +2621,7 @@ NULL
 }
 }
 static
-inline
+INLINE
 void
 reset_interp_filter_allowed_mask
 (
@@ -2660,7 +2659,7 @@ ALLOW_ALL_INTERP_FILT_MASK
 ;
 }
 static
-inline
+INLINE
 void
 set_interp_filter_allowed_mask
 (
@@ -2684,7 +2683,7 @@ filt_type
 ;
 }
 static
-inline
+INLINE
 uint8_t
 get_interp_filter_allowed_mask
 (
@@ -2706,7 +2705,7 @@ filt_type
 ;
 }
 static
-inline
+AOM_INLINE
 int
 get_filter_tap
 (
@@ -2782,9 +2781,6 @@ return
 6
 ;
 }
-#
-if
-CONFIG_SVT_AV1
 if
 (
 filter
@@ -2805,13 +2801,6 @@ return
 return
 2
 ;
-#
-else
-return
-4
-;
-#
-endif
 }
 #
 ifdef

@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -369,7 +368,7 @@ conv_params
 )
 ;
 static
-inline
+INLINE
 ConvolveParams
 get_conv_params_no_round
 (
@@ -581,7 +580,7 @@ conv_params
 ;
 }
 static
-inline
+INLINE
 ConvolveParams
 get_conv_params
 (
@@ -606,7 +605,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 WienerConvolveParams
 get_conv_params_wiener
 (

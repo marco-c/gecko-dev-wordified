@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -154,7 +153,7 @@ the
 same
 value
 static
-inline
+INLINE
 void
 mm256_transpose_16x16
 (

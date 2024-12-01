@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -408,7 +407,7 @@ while
 0
 )
 static
-inline
+INLINE
 void
 round_shift_16bit_ssse3
 (
@@ -1020,7 +1019,7 @@ TX_SIZES_ALL
 }
 ;
 static
-inline
+INLINE
 void
 get_eobx_eoby_scan_default
 (
@@ -1108,7 +1107,6 @@ eobxy
 ;
 }
 static
-const
 int
 eob_fill
 [
@@ -1151,7 +1149,7 @@ eob_fill
 }
 ;
 static
-inline
+INLINE
 void
 get_eobx_eoby_scan_h_identity
 (
@@ -1239,7 +1237,7 @@ temp_eoby
 ;
 }
 static
-inline
+INLINE
 void
 get_eobx_eoby_scan_v_identity
 (

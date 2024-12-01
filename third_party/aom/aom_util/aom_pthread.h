@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -436,7 +435,7 @@ define
 THREAD_EXIT_SUCCESS
 0
 static
-inline
+INLINE
 int
 pthread_attr_init
 (
@@ -455,7 +454,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 pthread_attr_destroy
 (
@@ -474,7 +473,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 pthread_attr_getstacksize
 (
@@ -502,7 +501,7 @@ EINVAL
 ;
 }
 static
-inline
+INLINE
 int
 pthread_attr_setstacksize
 (
@@ -528,7 +527,7 @@ EINVAL
 ;
 }
 static
-inline
+INLINE
 int
 pthread_create
 (
@@ -666,7 +665,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 pthread_join
 (
@@ -715,7 +714,7 @@ thread
 /
 Mutex
 static
-inline
+INLINE
 int
 pthread_mutex_init
 (
@@ -755,7 +754,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 pthread_mutex_trylock
 (
@@ -777,7 +776,7 @@ EBUSY
 ;
 }
 static
-inline
+INLINE
 int
 pthread_mutex_lock
 (
@@ -797,7 +796,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 pthread_mutex_unlock
 (
@@ -817,7 +816,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 pthread_mutex_destroy
 (
@@ -840,7 +839,7 @@ return
 /
 Condition
 static
-inline
+INLINE
 int
 pthread_cond_destroy
 (
@@ -860,7 +859,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 pthread_cond_init
 (
@@ -888,7 +887,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 pthread_cond_signal
 (
@@ -908,7 +907,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 pthread_cond_broadcast
 (
@@ -928,7 +927,7 @@ return
 ;
 }
 static
-inline
+INLINE
 int
 pthread_cond_wait
 (

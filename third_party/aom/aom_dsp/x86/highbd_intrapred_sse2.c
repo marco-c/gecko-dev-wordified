@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -890,7 +889,7 @@ bd
 ;
 }
 static
-inline
+INLINE
 void
 h_store_16_unpacklo
 (
@@ -953,7 +952,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 h_store_16_unpackhi
 (
@@ -1018,7 +1017,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 h_predictor_16x8
 (
@@ -1377,7 +1376,7 @@ stride
 }
 }
 static
-inline
+INLINE
 void
 h_store_32_unpacklo
 (
@@ -1472,7 +1471,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 h_store_32_unpackhi
 (
@@ -1567,7 +1566,7 @@ stride
 ;
 }
 static
-inline
+INLINE
 void
 h_predictor_32x8
 (
@@ -1975,7 +1974,7 @@ DC_128
 /
 4x4
 static
-inline
+INLINE
 __m128i
 dc_sum_4
 (
@@ -2032,7 +2031,7 @@ a
 ;
 }
 static
-inline
+INLINE
 void
 dc_store_4x4
 (
@@ -2382,7 +2381,7 @@ dc_dup
 /
 4x8
 static
-inline
+INLINE
 void
 dc_store_4x8
 (
@@ -2449,7 +2448,7 @@ with
 DC
 8xh
 static
-inline
+INLINE
 __m128i
 dc_sum_8
 (
@@ -2809,7 +2808,7 @@ dc_dup
 /
 8xh
 static
-inline
+INLINE
 void
 dc_store_8xh
 (
@@ -2964,7 +2963,7 @@ dc_dup
 /
 DC_TOP
 static
-inline
+INLINE
 void
 dc_top_predictor_8xh
 (
@@ -3373,7 +3372,7 @@ with
 DC
 16xh
 static
-inline
+INLINE
 __m128i
 dc_sum_16
 (
@@ -3566,7 +3565,7 @@ dc
 /
 DC_128
 static
-inline
+INLINE
 void
 dc_128_predictor_8xh
 (
@@ -3817,7 +3816,7 @@ bd
 /
 16xh
 static
-inline
+INLINE
 void
 dc_store_16xh
 (
@@ -4135,7 +4134,7 @@ Shared
 with
 32xh
 static
-inline
+INLINE
 __m128i
 dc_sum_32
 (
@@ -4938,7 +4937,7 @@ dc_dup
 /
 32xh
 static
-inline
+INLINE
 void
 dc_store_32xh
 (

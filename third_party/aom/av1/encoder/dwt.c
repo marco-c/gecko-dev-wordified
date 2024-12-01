@@ -14,7 +14,6 @@ Media
 All
 rights
 reserved
-.
 *
 *
 This
@@ -1043,7 +1042,7 @@ output
 64
 ]
 ;
-av1_fdwt8x8_uint8_input
+av1_fdwt8x8_uint8_input_c
 (
 input
 output
