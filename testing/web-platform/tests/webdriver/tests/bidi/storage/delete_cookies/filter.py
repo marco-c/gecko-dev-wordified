@@ -33,11 +33,11 @@ import
     
 assert_cookie_is_set
     
+assert_partition_key
+    
 create_cookie
     
 format_expiry_string
-    
-get_default_partition_key
     
 generate_expiry_date
 )
@@ -304,25 +304,19 @@ filter
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 result
-=
-=
-{
-        
+[
 "
 partitionKey
 "
-:
-(
-await
-get_default_partition_key
-(
-bidi_session
+]
 )
-)
-    
-}
     
 #
 Make
@@ -591,25 +585,19 @@ filter
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 result
-=
-=
-{
-        
+[
 "
 partitionKey
 "
-:
-(
-await
-get_default_partition_key
-(
-bidi_session
+]
 )
-)
-    
-}
     
 #
 Make
@@ -952,25 +940,19 @@ expiry_to_delete
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 result
-=
-=
-{
-        
+[
 "
 partitionKey
 "
-:
-(
-await
-get_default_partition_key
-(
-bidi_session
+]
 )
-)
-    
-}
     
 #
 Make
@@ -1217,25 +1199,19 @@ filter
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 result
-=
-=
-{
-        
+[
 "
 partitionKey
 "
-:
-(
-await
-get_default_partition_key
-(
-bidi_session
+]
 )
-)
-    
-}
     
 #
 Make
@@ -1539,25 +1515,19 @@ filter
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 result
-=
-=
-{
-        
+[
 "
 partitionKey
 "
-:
-(
-await
-get_default_partition_key
-(
-bidi_session
+]
 )
-)
-    
-}
     
 #
 Make
@@ -1833,25 +1803,19 @@ filter
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 result
-=
-=
-{
-        
+[
 "
 partitionKey
 "
-:
-(
-await
-get_default_partition_key
-(
-bidi_session
+]
 )
-)
-    
-}
     
 #
 Make
@@ -2151,25 +2115,19 @@ filter
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 result
-=
-=
-{
-        
+[
 "
 partitionKey
 "
-:
-(
-await
-get_default_partition_key
-(
-bidi_session
+]
 )
-)
-    
-}
     
 #
 Make
@@ -2490,25 +2448,19 @@ filter
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 result
-=
-=
-{
-        
+[
 "
 partitionKey
 "
-:
-(
-await
-get_default_partition_key
-(
-bidi_session
+]
 )
-)
-    
-}
     
 #
 Make

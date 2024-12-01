@@ -29,8 +29,8 @@ from
 .
 .
 import
+assert_partition_key
 create_cookie
-get_default_partition_key
 from
 .
 .
@@ -180,28 +180,19 @@ get_cookies
 (
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 cookies
 [
 "
 partitionKey
 "
 ]
-=
-=
-{
-        
-*
-*
-(
-await
-get_default_partition_key
-(
-bidi_session
 )
-)
-    
-}
     
 assert
 len
@@ -595,32 +586,21 @@ context
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 cookies
 [
 "
 partitionKey
 "
 ]
-=
+expected
 =
 {
-        
-*
-*
-(
-await
-get_default_partition_key
-(
-bidi_session
-new_tab
-[
-"
-context
-"
-]
-)
-)
         
 "
 userContext
@@ -631,6 +611,15 @@ default
 "
     
 }
+context
+=
+new_tab
+[
+"
+context
+"
+]
+)
     
 assert
 len
@@ -779,32 +768,21 @@ context
     
 )
     
-assert
+await
+assert_partition_key
+(
+bidi_session
+actual
+=
 cookies
 [
 "
 partitionKey
 "
 ]
-=
+expected
 =
 {
-        
-*
-*
-(
-await
-get_default_partition_key
-(
-bidi_session
-new_context
-[
-"
-context
-"
-]
-)
-)
         
 "
 userContext
@@ -813,6 +791,15 @@ userContext
 user_context
     
 }
+context
+=
+new_context
+[
+"
+context
+"
+]
+)
     
 assert
 len
