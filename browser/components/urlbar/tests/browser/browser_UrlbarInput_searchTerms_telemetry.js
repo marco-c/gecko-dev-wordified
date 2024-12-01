@@ -1155,6 +1155,7 @@ linkedBrowser
 .
 goBack
 (
+false
 )
 ;
 await
