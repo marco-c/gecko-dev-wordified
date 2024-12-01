@@ -131,6 +131,10 @@ tab
 [
 selected
 ]
+.
+tab
+-
+content
 "
 )
 ;
@@ -290,6 +294,10 @@ tab
 [
 selected
 ]
+.
+tab
+-
+content
 "
 )
 ;
