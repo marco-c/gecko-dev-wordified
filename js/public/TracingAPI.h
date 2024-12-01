@@ -1015,6 +1015,10 @@ operator
 TracingContext
 *
 tcx
+const
+char
+*
+name
 char
 *
 buf
