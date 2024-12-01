@@ -2286,6 +2286,17 @@ Shutdown
 (
 )
 ;
+static
+Task
+:
+:
+TaskResult
+RunTask
+(
+Task
+*
+)
+;
 /
 /
 This
