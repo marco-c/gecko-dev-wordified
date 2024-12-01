@@ -3491,8 +3491,6 @@ aFlags
 bool
 aCanGoBack
 bool
-aCanGoBackIgnoringUserInteraction
-bool
 aCanGoForward
 WebProgressLocationChangeData
 ?
