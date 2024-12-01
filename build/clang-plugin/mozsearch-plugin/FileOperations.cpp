@@ -128,6 +128,13 @@ _WIN64
 )
 #
 include
+"
+StringOperations
+.
+h
+"
+#
+include
 <
 direct
 .
@@ -147,13 +154,6 @@ windows
 .
 h
 >
-#
-include
-"
-StringOperations
-.
-h
-"
 #
 else
 #

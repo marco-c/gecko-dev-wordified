@@ -108,13 +108,13 @@ memory
 include
 <
 string
+.
+h
 >
 #
 include
 <
 string
-.
-h
 >
 std
 :
