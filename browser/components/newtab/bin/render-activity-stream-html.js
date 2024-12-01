@@ -615,7 +615,7 @@ MPL
 >
 <
 !
-DOCTYPE
+doctype
 html
 >
 <
