@@ -685,8 +685,6 @@ channelId
 async
 PFileChannel
 (
-uint32_t
-channelId
 )
 ;
 async
