@@ -211,7 +211,10 @@ std
 :
 max
 (
+size_t
+(
 aDecompressedSize
+)
 woff2
 :
 :
