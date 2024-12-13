@@ -1833,6 +1833,18 @@ yaml
 "
     
 "
+toolkit
+/
+components
+/
+nimbus
+/
+pings
+.
+yaml
+"
+    
+"
 browser
 /
 components
@@ -2033,6 +2045,18 @@ toolkit
 components
 /
 crashes
+/
+pings
+.
+yaml
+"
+    
+"
+toolkit
+/
+components
+/
+nimbus
 /
 pings
 .
