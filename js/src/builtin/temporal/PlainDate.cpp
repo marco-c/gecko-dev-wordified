@@ -6225,7 +6225,7 @@ Step
 auto
 normalized
 =
-CreateNormalizedDurationRecord
+NormalizeDuration
 (
 duration
 )

@@ -4079,13 +4079,13 @@ ns2
 *
 result
 =
-CreateNormalizedDurationRecord
-(
+NormalizedDuration
+{
 {
 }
 {
 }
-)
+}
 ;
 return
 true
@@ -4514,7 +4514,7 @@ Step
 16
 .
 return
-CreateNormalizedDurationRecord
+CombineDateAndNormalizedTimeDuration
 (
 cx
 dateDifference
@@ -6287,7 +6287,7 @@ negate
 auto
 normalized
 =
-CreateNormalizedDurationRecord
+NormalizeDuration
 (
 duration
 )

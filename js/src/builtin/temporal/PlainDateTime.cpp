@@ -4909,7 +4909,7 @@ Step
 14
 .
 return
-CreateNormalizedDurationRecord
+CombineDateAndNormalizedTimeDuration
 (
 cx
 dateDifference
@@ -6540,7 +6540,7 @@ negate
 auto
 normalized
 =
-CreateNormalizedDurationRecord
+NormalizeDuration
 (
 duration
 )
