@@ -5262,8 +5262,8 @@ roundingMode
 Step
 7
 .
-TimeDuration
-balancedDuration
+Duration
+duration
 ;
 if
 (
@@ -5276,7 +5276,7 @@ settings
 .
 largestUnit
 &
-balancedDuration
+duration
 )
 )
 {
@@ -5289,15 +5289,6 @@ false
 Step
 8
 .
-auto
-duration
-=
-balancedDuration
-.
-toDuration
-(
-)
-;
 if
 (
 operation
