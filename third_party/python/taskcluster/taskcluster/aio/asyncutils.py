@@ -21,8 +21,6 @@ logging
 import
 os
 import
-six
-import
 taskcluster
 .
 utils
@@ -346,7 +344,7 @@ retries
                     
 log
 .
-warn
+warning
 (
 '
 Retrying
@@ -803,9 +801,7 @@ char
 '
 %
                       
-six
-.
-text_type
+str
 (
 response_text
 )

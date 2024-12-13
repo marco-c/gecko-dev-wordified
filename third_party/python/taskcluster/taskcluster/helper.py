@@ -1074,11 +1074,25 @@ with
 proxy
 "
     
+#
+Contet
+can
+be
+str
+or
+bytes
+    
 assert
 isinstance
 (
 content
 str
+)
+or
+isinstance
+(
+content
+bytes
 )
     
 assert

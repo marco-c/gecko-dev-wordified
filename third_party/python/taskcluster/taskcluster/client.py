@@ -35,17 +35,9 @@ datetime
 import
 calendar
 import
-requests
-import
 time
 import
-six
-import
 warnings
-from
-six
-.
-moves
 import
 urllib
 import
@@ -54,6 +46,8 @@ import
 mohawk
 .
 bewit
+import
+requests
 import
 taskcluster
 .
@@ -387,9 +381,7 @@ not
 isinstance
 (
 value
-six
-.
-binary_type
+bytes
 )
 :
                     
@@ -646,16 +638,10 @@ cert
 :
                 
 if
-six
-.
-PY3
-and
 isinstance
 (
 cert
-six
-.
-binary_type
+bytes
 )
 :
                     
@@ -671,9 +657,7 @@ if
 isinstance
 (
 cert
-six
-.
-string_types
+str
 )
 :
                     
@@ -931,9 +915,7 @@ if
 isinstance
 (
 routingKeyPattern
-six
-.
-string_types
+str
 )
 :
             
@@ -965,13 +947,12 @@ return
 data
         
 if
-type
+not
+isinstance
 (
 routingKeyPattern
-)
-!
-=
 dict
+)
 :
             
 errStr
@@ -2850,9 +2831,7 @@ not
 isinstance
 (
 arg
-six
-.
-string_types
+str
 )
 and
 not
@@ -2902,11 +2881,10 @@ for
 name
 arg
 in
-six
-.
-iteritems
-(
 kwApiArgs
+.
+items
+(
 )
 :
             
@@ -2915,9 +2893,7 @@ not
 isinstance
 (
 arg
-six
-.
-string_types
+str
 )
 and
 not
@@ -3488,11 +3464,10 @@ for
 arg
 val
 in
-six
-.
-iteritems
-(
 args
+.
+items
+(
 )
 :
             
@@ -4078,7 +4053,7 @@ retries
                     
 log
 .
-warn
+warning
 (
 '
 Retrying
@@ -4130,22 +4105,41 @@ retry
 if
 possible
             
+try
+:
+                
+response
+.
+raise_for_status
+(
+)
+                
+if
+response
+.
+status_code
+=
+=
+204
+:
+                    
+return
+None
+            
+except
+requests
+.
+exceptions
+.
+HTTPError
+:
+                
 status
 =
 response
 .
 status_code
-            
-if
-status
-=
-=
-204
-:
                 
-return
-None
-            
 #
 Catch
 retryable
@@ -4158,13 +4152,13 @@ beginning
 of
 the
 loop
-            
+                
 #
 to
 do
 the
 retry
-            
+                
 if
 500
 <
@@ -4179,10 +4173,10 @@ retry
 <
 retries
 :
-                
+                    
 log
 .
-warn
+warning
 (
 '
 Retrying
@@ -4197,28 +4191,8 @@ code
 %
 status
 )
-                
+                    
 continue
-            
-#
-Throw
-errors
-for
-non
--
-retryable
-errors
-            
-if
-status
-<
-200
-or
-status
->
-=
-300
-:
                 
 data
 =
@@ -5302,9 +5276,7 @@ not
 isinstance
 (
 scope
-six
-.
-string_types
+str
 )
 :
             
@@ -5650,9 +5622,7 @@ if
 isinstance
 (
 accessToken
-six
-.
-text_type
+str
 )
 :
         
