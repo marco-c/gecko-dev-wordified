@@ -713,7 +713,7 @@ widget
 -
 collapse
 -
-sidebar
+sidebar2
 "
 :
 "
@@ -723,7 +723,7 @@ widget
 -
 expand
 -
-sidebar
+sidebar2
 "
 args
 :
@@ -1320,7 +1320,7 @@ widget
 -
 show
 -
-sidebar
+sidebar2
 "
 :
 "
@@ -1330,7 +1330,7 @@ widget
 -
 hide
 -
-sidebar
+sidebar2
 "
 args
 :
