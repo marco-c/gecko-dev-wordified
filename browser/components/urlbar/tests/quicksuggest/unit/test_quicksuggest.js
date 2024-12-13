@@ -4256,7 +4256,7 @@ suggestions
 await
 QuickSuggest
 .
-backend
+rustBackend
 .
 query
 (
@@ -4958,7 +4958,7 @@ suggestions
 await
 QuickSuggest
 .
-backend
+rustBackend
 .
 query
 (

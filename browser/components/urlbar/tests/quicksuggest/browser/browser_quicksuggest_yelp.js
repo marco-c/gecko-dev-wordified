@@ -152,14 +152,6 @@ prefs
 [
 [
 "
-quicksuggest
-.
-rustEnabled
-"
-true
-]
-[
-"
 suggest
 .
 quicksuggest
