@@ -18134,7 +18134,7 @@ axis
 const
 ReflowInput
 *
-containerRS
+containerRI
 =
 aFlexItemReflowInput
 .
@@ -18144,7 +18144,7 @@ if
 (
 IsLegacyBox
 (
-containerRS
+containerRI
 -
 >
 mFrame
@@ -18280,7 +18280,7 @@ nsStyleXUL
 *
 containerStyleXUL
 =
-containerRS
+containerRI
 -
 >
 mFrame
@@ -18316,7 +18316,7 @@ mStylePosition
 >
 UsedAlignSelf
 (
-containerRS
+containerRI
 -
 >
 mFrame
@@ -18728,7 +18728,7 @@ IsRowOriented
 |
 |
 (
-containerRS
+containerRI
 -
 >
 ComputedBSize
@@ -18740,7 +18740,7 @@ NS_UNCONSTRAINEDSIZE
 &
 &
 !
-containerRS
+containerRI
 -
 >
 mFlags
