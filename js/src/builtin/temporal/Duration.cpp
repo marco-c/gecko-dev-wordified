@@ -3558,18 +3558,18 @@ temporal
 NormalizedTimeDurationFromEpochNanosecondsDifference
 (
 const
-Instant
+EpochNanoseconds
 &
 one
 const
-Instant
+EpochNanoseconds
 &
 two
 )
 {
 MOZ_ASSERT
 (
-IsValidEpochInstant
+IsValidEpochNanoseconds
 (
 one
 )
@@ -3577,7 +3577,7 @@ one
 ;
 MOZ_ASSERT
 (
-IsValidEpochInstant
+IsValidEpochNanoseconds
 (
 two
 )
@@ -3602,7 +3602,7 @@ Step
 .
 MOZ_ASSERT
 (
-IsValidInstantSpan
+IsValidEpochDuration
 (
 result
 )
@@ -10761,7 +10761,7 @@ Steps
 -
 6
 .
-Instant
+EpochNanoseconds
 epochNanoseconds
 ;
 Rooted
@@ -10832,11 +10832,13 @@ ZonedDateTimeObject
 )
 {
 auto
-instant
+epochNs
 =
-ToInstant
-(
 zonedDateTime
+-
+>
+epochNanoseconds
+(
 )
 ;
 Rooted
@@ -10914,7 +10916,7 @@ set
 (
 ZonedDateTime
 {
-instant
+epochNs
 timeZone
 calendar
 }
@@ -11859,7 +11861,7 @@ false
 }
 MOZ_ASSERT
 (
-IsValidEpochInstant
+IsValidEpochNanoseconds
 (
 epochNanoseconds
 )
@@ -13833,7 +13835,7 @@ DurationNudge
 NormalizedDuration
 duration
 ;
-Instant
+EpochNanoseconds
 epochNs
 ;
 double
@@ -13879,7 +13881,7 @@ NormalizedDuration
 &
 duration
 const
-Instant
+EpochNanoseconds
 &
 destEpochNs
 const
@@ -13917,7 +13919,7 @@ duration
 ;
 MOZ_ASSERT
 (
-IsValidEpochInstant
+IsValidEpochNanoseconds
 (
 destEpochNs
 )
@@ -14695,10 +14697,10 @@ Steps
 -
 12
 .
-Instant
+EpochNanoseconds
 startEpochNs
 ;
-Instant
+EpochNanoseconds
 endEpochNs
 ;
 if
@@ -15961,7 +15963,7 @@ Steps
 -
 8
 .
-Instant
+EpochNanoseconds
 startEpochNs
 ;
 if
@@ -15992,7 +15994,7 @@ Steps
 -
 10
 .
-Instant
+EpochNanoseconds
 endEpochNs
 ;
 if
@@ -16175,7 +16177,7 @@ didRoundBeyondDay
 int32_t
 dayDelta
 ;
-Instant
+EpochNanoseconds
 nudgedEpochNs
 ;
 if
@@ -16257,7 +16259,7 @@ roundedTime
 .
 to
 <
-InstantSpan
+EpochDuration
 >
 (
 )
@@ -16306,7 +16308,7 @@ roundedTime
 .
 to
 <
-InstantSpan
+EpochDuration
 >
 (
 )
@@ -16415,7 +16417,7 @@ NormalizedDuration
 &
 duration
 const
-Instant
+EpochNanoseconds
 &
 destEpochNs
 TemporalUnit
@@ -16441,7 +16443,7 @@ duration
 ;
 MOZ_ASSERT
 (
-IsValidEpochInstant
+IsValidEpochNanoseconds
 (
 destEpochNs
 )
@@ -16700,7 +16702,7 @@ diffTime
 .
 to
 <
-InstantSpan
+EpochDuration
 >
 (
 )
@@ -17432,7 +17434,7 @@ vi
 -
 vii
 .
-Instant
+EpochNanoseconds
 endEpochNs
 ;
 if
@@ -17525,7 +17527,7 @@ beyondEndSign
 =
 beyondEnd
 <
-InstantSpan
+EpochDuration
 {
 }
 ?
@@ -17534,7 +17536,7 @@ InstantSpan
 :
 beyondEnd
 >
-InstantSpan
+EpochDuration
 {
 }
 ?
@@ -17643,7 +17645,7 @@ NormalizedDuration
 &
 duration
 const
-Instant
+EpochNanoseconds
 &
 destEpochNs
 const
@@ -17683,7 +17685,7 @@ duration
 ;
 MOZ_ASSERT
 (
-IsValidEpochInstant
+IsValidEpochNanoseconds
 (
 destEpochNs
 )
@@ -19412,7 +19414,7 @@ Step
 .
 c
 .
-Instant
+EpochNanoseconds
 after1
 ;
 if
@@ -19439,7 +19441,7 @@ Step
 .
 d
 .
-Instant
+EpochNanoseconds
 after2
 ;
 if
@@ -23157,7 +23159,7 @@ Step
 .
 e
 .
-Instant
+EpochNanoseconds
 targetEpochNs
 ;
 if
@@ -24110,7 +24112,7 @@ Step
 .
 e
 .
-Instant
+EpochNanoseconds
 targetEpochNs
 ;
 if

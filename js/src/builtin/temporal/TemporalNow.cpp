@@ -468,7 +468,7 @@ SystemUTCEpochNanoseconds
 JSContext
 *
 cx
-Instant
+EpochNanoseconds
 *
 result
 )
@@ -538,7 +538,7 @@ Step
 *
 result
 =
-Instant
+EpochNanoseconds
 :
 :
 fromMilliseconds
@@ -649,8 +649,8 @@ false
 Step
 3
 .
-Instant
-instant
+EpochNanoseconds
+epochNs
 ;
 if
 (
@@ -659,7 +659,7 @@ SystemUTCEpochNanoseconds
 (
 cx
 &
-instant
+epochNs
 )
 )
 {
@@ -677,7 +677,7 @@ GetISODateTimeFor
 (
 cx
 timeZone
-instant
+epochNs
 dateTime
 )
 ;
@@ -798,8 +798,8 @@ vp
 Step
 1
 .
-Instant
-instant
+EpochNanoseconds
+epochNs
 ;
 if
 (
@@ -808,7 +808,7 @@ SystemUTCEpochNanoseconds
 (
 cx
 &
-instant
+epochNs
 )
 )
 {
@@ -828,7 +828,7 @@ result
 CreateTemporalInstant
 (
 cx
-instant
+epochNs
 )
 ;
 if
@@ -1092,8 +1092,8 @@ false
 Step
 3
 .
-Instant
-instant
+EpochNanoseconds
+epochNs
 ;
 if
 (
@@ -1102,7 +1102,7 @@ SystemUTCEpochNanoseconds
 (
 cx
 &
-instant
+epochNs
 )
 )
 {
@@ -1138,7 +1138,7 @@ result
 CreateTemporalZonedDateTime
 (
 cx
-instant
+epochNs
 timeZone
 calendar
 )

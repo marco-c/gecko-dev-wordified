@@ -2169,11 +2169,13 @@ ZonedDateTimeObject
 )
 {
 auto
-epochInstant
+epochNs
 =
-ToInstant
-(
 zonedDateTime
+-
+>
+epochNanoseconds
+(
 )
 ;
 Rooted
@@ -2255,7 +2257,7 @@ GetISODateTimeFor
 (
 cx
 timeZone
-epochInstant
+epochNs
 &
 dateTime
 )
@@ -12660,8 +12662,8 @@ Steps
 -
 7
 .
-Instant
-instant
+EpochNanoseconds
+epochNs
 ;
 if
 (
@@ -12678,7 +12680,7 @@ dateTime
 )
 disambiguation
 &
-instant
+epochNs
 )
 )
 {
@@ -12698,7 +12700,7 @@ result
 CreateTemporalZonedDateTime
 (
 cx
-instant
+epochNs
 timeZone
 calendar
 )

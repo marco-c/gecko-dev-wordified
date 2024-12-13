@@ -1260,11 +1260,11 @@ NormalizedTimeDuration
 NormalizedTimeDurationFromEpochNanosecondsDifference
 (
 const
-Instant
+EpochNanoseconds
 &
 one
 const
-Instant
+EpochNanoseconds
 &
 two
 )
@@ -1459,7 +1459,7 @@ NormalizedDuration
 &
 duration
 const
-Instant
+EpochNanoseconds
 &
 destEpochNs
 const

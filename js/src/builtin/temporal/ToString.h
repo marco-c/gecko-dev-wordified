@@ -209,9 +209,9 @@ JSContext
 *
 cx
 const
-Instant
+EpochNanoseconds
 &
-instant
+epochNs
 JS
 :
 :
