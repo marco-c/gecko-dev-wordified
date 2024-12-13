@@ -1604,6 +1604,15 @@ aOverscrollSideBits
 )
 override
 {
+if
+(
+!
+mIsOverscrolled
+)
+{
+return
+;
+}
 RefPtr
 <
 GeckoContentController
