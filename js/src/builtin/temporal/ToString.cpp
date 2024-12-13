@@ -2754,15 +2754,9 @@ finishString
 *
 *
 *
-TemporalTimeToString
+TimeRecordToString
 (
-hour
-minute
-second
-millisecond
-microsecond
-*
-nanosecond
+time
 precision
 )
 *
@@ -2775,7 +2769,7 @@ js
 temporal
 :
 :
-TemporalTimeToString
+TimeRecordToString
 (
 JSContext
 *

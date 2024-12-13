@@ -3736,7 +3736,7 @@ Steps
 4
 .
 return
-CompareTemporalTime
+CompareTimeRecord
 (
 one
 .
