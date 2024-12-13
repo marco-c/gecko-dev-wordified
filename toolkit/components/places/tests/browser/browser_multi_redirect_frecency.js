@@ -32,15 +32,13 @@ const
 ROOT_URI
 =
 "
-http
+https
 :
 /
 /
-mochi
+example
 .
-test
-:
-8888
+org
 /
 tests
 /
@@ -120,7 +118,7 @@ io
 newURI
 (
 "
-http
+https
 :
 /
 /

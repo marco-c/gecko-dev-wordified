@@ -69,7 +69,7 @@ const
 pageURI
 =
 "
-http
+https
 :
 /
 /

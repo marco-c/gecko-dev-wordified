@@ -60,7 +60,7 @@ const
 initialURL
 =
 "
-http
+https
 :
 /
 /
@@ -89,7 +89,7 @@ const
 finalURL
 =
 "
-http
+https
 :
 /
 /

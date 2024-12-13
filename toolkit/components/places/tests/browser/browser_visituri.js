@@ -142,7 +142,7 @@ expectedUrls
 =
 [
 "
-http
+https
 :
 /
 /
@@ -167,7 +167,7 @@ begin
 html
 "
 "
-http
+https
 :
 /
 /
@@ -192,7 +192,7 @@ redirect_twice
 sjs
 "
 "
-http
+https
 :
 /
 /
@@ -217,7 +217,7 @@ redirect_once
 sjs
 "
 "
-http
+https
 :
 /
 /
@@ -470,7 +470,7 @@ const
 testUrl
 =
 "
-http
+https
 :
 /
 /

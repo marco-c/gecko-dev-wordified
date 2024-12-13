@@ -34,7 +34,7 @@ const
 INITIAL_URL
 =
 "
-http
+https
 :
 /
 /
@@ -63,7 +63,7 @@ const
 FINAL_URL
 =
 "
-http
+https
 :
 /
 /
@@ -225,7 +225,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 FINAL_URL

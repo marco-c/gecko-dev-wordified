@@ -144,7 +144,7 @@ const
 url1
 =
 "
-http
+https
 :
 /
 /
@@ -182,7 +182,7 @@ const
 url2
 =
 "
-http
+https
 :
 /
 /
@@ -221,7 +221,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -247,7 +247,7 @@ events
 .
 url
 "
-http
+https
 :
 /
 /
