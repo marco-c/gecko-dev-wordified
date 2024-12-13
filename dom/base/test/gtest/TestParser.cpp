@@ -346,7 +346,7 @@ document
 parser
 -
 >
-ParseFromString
+ParseFromStringInternal
 (
 htmlInput
 mozilla

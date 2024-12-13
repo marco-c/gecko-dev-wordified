@@ -398,7 +398,7 @@ document
 parser
 -
 >
-ParseFromString
+ParseFromStringInternal
 (
 htmlInput
 SupportedType
