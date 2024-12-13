@@ -746,6 +746,12 @@ isSecure
 "
 Secure
 "
+partitionKey
+:
+"
+Partition
+Key
+"
 path
 :
 "
