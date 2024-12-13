@@ -1352,6 +1352,10 @@ mContentResponseTimerExpired
 (
 false
 )
+mHasStateBeenReset
+(
+false
+)
 {
 }
 bool
