@@ -261,11 +261,6 @@ the
 APZC
 tree
 )
-*
-then
-adjusting
-for
-scrollgrab
 .
 *
 /
