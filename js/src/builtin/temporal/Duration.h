@@ -1379,14 +1379,14 @@ duration
 *
 *
 *
-ToTemporalDurationRecord
+ToTemporalDuration
 (
-temporalDurationLike
+item
 )
 *
 /
 bool
-ToTemporalDurationRecord
+ToTemporalDuration
 (
 JSContext
 *
@@ -1401,7 +1401,7 @@ JS
 :
 Value
 >
-temporalDurationLike
+item
 Duration
 *
 result
