@@ -3816,16 +3816,12 @@ kwargs
 no_install
 "
 :
-"
-false
-"
+False
 "
 mach_test
 "
 :
-"
-true
-"
+True
 }
     
 }
@@ -3873,16 +3869,12 @@ kwargs
 no_install
 "
 :
-"
-false
-"
+False
 "
 mach_test
 "
 :
-"
-true
-"
+True
 }
     
 }
