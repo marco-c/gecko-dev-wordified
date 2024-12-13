@@ -4304,8 +4304,6 @@ const
 MOZ_ASSERT
 (
 mAlignSelf
-.
-_0
 =
 =
 StyleAlignFlags
@@ -4315,8 +4313,6 @@ BASELINE
 |
 |
 mAlignSelf
-.
-_0
 =
 =
 StyleAlignFlags
@@ -4573,7 +4569,7 @@ return
 mCBWM
 ;
 }
-StyleAlignSelf
+StyleAlignFlags
 AlignSelf
 (
 )
@@ -7875,7 +7871,7 @@ our
 constructor
 )
 .
-StyleAlignSelf
+StyleAlignFlags
 mAlignSelf
 {
 StyleAlignFlags
@@ -18296,12 +18292,10 @@ StyleXUL
 ;
 mAlignSelf
 =
-{
 ConvertLegacyStyleToAlignItems
 (
 containerStyleXUL
 )
-}
 ;
 mAlignSelfFlags
 =
@@ -18312,7 +18306,8 @@ mAlignSelfFlags
 }
 else
 {
-mAlignSelf
+StyleAlignSelf
+alignSelf
 =
 aFlexItemReflowInput
 .
@@ -18336,7 +18331,7 @@ if
 (
 MOZ_LIKELY
 (
-mAlignSelf
+alignSelf
 .
 _0
 =
@@ -18348,7 +18343,7 @@ NORMAL
 )
 )
 {
-mAlignSelf
+alignSelf
 =
 {
 StyleAlignFlags
@@ -18373,7 +18368,7 @@ position
 bits
 mAlignSelfFlags
 =
-mAlignSelf
+alignSelf
 .
 _0
 &
@@ -18383,10 +18378,11 @@ StyleAlignFlags
 FLAG_BITS
 ;
 mAlignSelf
+=
+alignSelf
 .
 _0
 &
-=
 ~
 StyleAlignFlags
 :
@@ -19035,8 +19031,6 @@ DEBUG
 if
 (
 mAlignSelf
-.
-_0
 =
 =
 StyleAlignFlags
@@ -19046,8 +19040,6 @@ BASELINE
 |
 |
 mAlignSelf
-.
-_0
 =
 =
 StyleAlignFlags
@@ -19084,8 +19076,6 @@ usingItemFirstBaseline
 =
 (
 mAlignSelf
-.
-_0
 =
 =
 StyleAlignFlags
@@ -19789,12 +19779,10 @@ all
 )
 mAlignSelf
 (
-{
 StyleAlignFlags
 :
 :
 FLEX_START
-}
 )
 {
 MOZ_ASSERT
@@ -31902,8 +31890,6 @@ item
 AlignSelf
 (
 )
-.
-_0
 =
 =
 StyleAlignFlags
@@ -31917,8 +31903,6 @@ item
 AlignSelf
 (
 )
-.
-_0
 =
 =
 StyleAlignFlags
@@ -31948,8 +31932,6 @@ item
 AlignSelf
 (
 )
-.
-_0
 =
 =
 StyleAlignFlags
@@ -32779,8 +32761,6 @@ stretch
 if
 (
 mAlignSelf
-.
-_0
 !
 =
 StyleAlignFlags
@@ -33364,8 +33344,6 @@ aItem
 AlignSelf
 (
 )
-.
-_0
 ;
 /
 /
@@ -37903,8 +37881,6 @@ aItem
 AlignSelf
 (
 )
-.
-_0
 =
 =
 StyleAlignFlags
