@@ -33499,9 +33499,9 @@ QuotaManager
 PersistentOriginInitialized
 (
 const
-PrincipalInfo
+PrincipalMetadata
 &
-aPrincipalInfo
+aPrincipalMetadata
 )
 {
 AssertIsOnOwningThread
@@ -33517,7 +33517,7 @@ WrapMovingNotNullUnchecked
 (
 this
 )
-aPrincipalInfo
+aPrincipalMetadata
 )
 ;
 RegisterNormalOriginOp
@@ -34471,9 +34471,9 @@ TemporaryOriginInitialized
 PersistenceType
 aPersistenceType
 const
-PrincipalInfo
+PrincipalMetadata
 &
-aPrincipalInfo
+aPrincipalMetadata
 )
 {
 AssertIsOnOwningThread
@@ -34490,7 +34490,7 @@ WrapMovingNotNullUnchecked
 this
 )
 aPersistenceType
-aPrincipalInfo
+aPrincipalMetadata
 )
 ;
 RegisterNormalOriginOp
