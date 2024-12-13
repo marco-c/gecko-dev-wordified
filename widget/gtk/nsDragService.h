@@ -415,6 +415,12 @@ GetURIsNum
 )
 const
 ;
+bool
+IsDataValid
+(
+)
+const
+;
 #
 ifdef
 MOZ_LOGGING
