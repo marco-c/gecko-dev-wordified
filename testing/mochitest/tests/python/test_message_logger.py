@@ -26,6 +26,8 @@ zero
 0
 /
 import
+io
+import
 json
 import
 time
@@ -35,8 +37,6 @@ import
 mozunit
 import
 pytest
-import
-six
 from
 conftest
 import
@@ -61,10 +61,6 @@ mozlog
 structuredlog
 import
 StructuredLogger
-from
-six
-import
-string_types
 pytest
 .
 fixture
@@ -85,7 +81,7 @@ mochitest_message_logger
     
 buf
 =
-six
+io
 .
 StringIO
 (
@@ -488,7 +484,7 @@ if
 isinstance
 (
 expected
-string_types
+str
 )
 :
             

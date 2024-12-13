@@ -77,8 +77,6 @@ import
 mozunit
 import
 pytest
-import
-six
 from
 conftest
 import
@@ -272,9 +270,7 @@ if
 isinstance
 (
 manifest
-six
-.
-string_types
+str
 )
 :
             
@@ -417,19 +413,9 @@ ensure
 True
 )
         
-#
-pylint
--
--
-py3k
-:
-W1612
-        
 path
 =
-six
-.
-text_type
+str
 (
 manifest
 )

@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+io
+import
 json
 import
 os
@@ -65,8 +67,6 @@ import
 mozinfo
 import
 pytest
-import
-six
 from
 manifestparser
 import
@@ -167,19 +167,9 @@ ensure
 True
 )
         
-#
-pylint
--
--
-py3k
-:
-W1612
-        
 path
 =
-six
-.
-text_type
+str
 (
 manifest
 )
@@ -541,17 +531,9 @@ flavor
 "
 )
     
-#
-pylint
--
--
-py3k
-:
-W1648
-    
 buf
 =
-six
+io
 .
 StringIO
 (
