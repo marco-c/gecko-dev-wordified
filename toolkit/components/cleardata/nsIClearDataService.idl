@@ -2566,6 +2566,14 @@ and
 CLEAR_DOM_STORAGES
 .
 *
+This
+flag
+does
+not
+clear
+caches
+.
+*
 /
 const
 uint32_t
