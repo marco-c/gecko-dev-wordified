@@ -30,15 +30,7 @@ zero
 /
 *
 /
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-WorkerTest
-"
-]
-;
+export
 var
 WorkerTest
 =
