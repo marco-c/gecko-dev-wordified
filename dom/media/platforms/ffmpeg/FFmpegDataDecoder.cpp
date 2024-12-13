@@ -539,7 +539,7 @@ LIBAV_VER
 >
 :
 :
-InitDecoder
+InitSWDecoder
 (
 AVDictionary
 *

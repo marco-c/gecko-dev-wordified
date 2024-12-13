@@ -351,7 +351,7 @@ PrepareFrame
 )
 ;
 MediaResult
-InitDecoder
+InitSWDecoder
 (
 AVDictionary
 *
