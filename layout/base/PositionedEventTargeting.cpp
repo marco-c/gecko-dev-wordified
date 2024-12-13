@@ -3920,6 +3920,12 @@ aPointRelativeToRootFrame
 options
 )
 ;
+nsIFrame
+*
+initialTarget
+=
+target
+;
 PET_LOG
 (
 "
@@ -4658,6 +4664,12 @@ target
 prefs
 .
 mReposition
+|
+|
+target
+=
+=
+initialTarget
 )
 {
 /
