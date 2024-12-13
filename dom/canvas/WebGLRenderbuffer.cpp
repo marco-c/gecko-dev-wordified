@@ -1118,11 +1118,6 @@ depth
 =
 1
 ;
-auto
-uninitializedSlices
-=
-Some
-(
 std
 :
 :
@@ -1130,10 +1125,10 @@ vector
 <
 bool
 >
+uninitializedSlices
 (
 depth
 true
-)
 )
 ;
 mImageInfo
