@@ -13,6 +13,14 @@ Japanese
 /
 META
 :
+global
+=
+window
+worker
+/
+/
+META
+:
 timeout
 =
 long
