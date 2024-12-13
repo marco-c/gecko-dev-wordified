@@ -6745,10 +6745,6 @@ nullptr
 /
 /
 contentSecurityPolicyAllows
-nullptr
-/
-/
-codeForEvalGets
 subsumes
 }
 ;
