@@ -585,6 +585,7 @@ columnBreakpoint
 toggleDisabledBreakpoint
 removeBreakpoint
 addBreakpoint
+setSkipPausing
 }
 =
 this
@@ -635,6 +636,11 @@ breakpoint
 }
 else
 {
+setSkipPausing
+(
+false
+)
+;
 addBreakpoint
 (
 columnBreakpoint

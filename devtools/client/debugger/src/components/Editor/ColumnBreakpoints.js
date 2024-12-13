@@ -507,6 +507,11 @@ removeBreakpoint
 PropTypes
 .
 func
+setSkipPausing
+:
+PropTypes
+.
+func
 toggleDisabledBreakpoint
 :
 PropTypes
@@ -908,6 +913,7 @@ const
 toggleDisabledBreakpoint
 removeBreakpoint
 addBreakpoint
+setSkipPausing
 }
 =
 this
@@ -958,6 +964,11 @@ breakpoint
 }
 else
 {
+setSkipPausing
+(
+false
+)
+;
 addBreakpoint
 (
 columnBreakpoint
@@ -1040,6 +1051,7 @@ showEditorEditBreakpointContextMenu
 toggleDisabledBreakpoint
 removeBreakpoint
 addBreakpoint
+setSkipPausing
 }
 =
 this
@@ -1123,6 +1135,7 @@ showEditorEditBreakpointContextMenu
 toggleDisabledBreakpoint
 removeBreakpoint
 addBreakpoint
+setSkipPausing
 }
 )
 )
@@ -1250,6 +1263,11 @@ addBreakpoint
 actions
 .
 addBreakpoint
+setSkipPausing
+:
+actions
+.
+setSkipPausing
 }
 )
 (
