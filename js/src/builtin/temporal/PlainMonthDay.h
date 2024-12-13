@@ -139,6 +139,17 @@ builtin
 /
 temporal
 /
+PlainDate
+.
+h
+"
+#
+include
+"
+builtin
+/
+temporal
+/
 PlainDateTime
 .
 h

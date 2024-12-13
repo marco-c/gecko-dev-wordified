@@ -184,6 +184,9 @@ class
 ZonedDateTime
 ;
 struct
+EpochNanoseconds
+;
+struct
 ISODateTime
 ;
 struct

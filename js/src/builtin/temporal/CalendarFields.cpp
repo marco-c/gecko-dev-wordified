@@ -501,6 +501,17 @@ include
 "
 vm
 /
+JSObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 ObjectOperations
 -
 inl
