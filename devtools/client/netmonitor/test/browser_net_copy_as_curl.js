@@ -599,16 +599,6 @@ UTF
 8
 "
 )
-header
-(
-"
-idempotency
--
-key
-:
-123456
-"
-)
 ]
 ;
 const
