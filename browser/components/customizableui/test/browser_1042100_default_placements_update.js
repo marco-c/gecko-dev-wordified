@@ -969,6 +969,11 @@ reload
 button
 "
 "
+vertical
+-
+spacer
+"
+"
 urlbar
 -
 container
@@ -1052,6 +1057,11 @@ let
 oldNavbarPlacements
 =
 [
+"
+vertical
+-
+spacer
+"
 "
 urlbar
 -
@@ -1298,6 +1308,11 @@ oldNavbarPlacements
 =
 [
 "
+vertical
+-
+spacer
+"
+"
 urlbar
 -
 container
@@ -1361,6 +1376,11 @@ let
 expectedNavbarPlacements
 =
 [
+"
+vertical
+-
+spacer
+"
 "
 urlbar
 -

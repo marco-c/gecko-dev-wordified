@@ -270,7 +270,7 @@ is
 alltabsPlacement
 .
 position
-13
+14
 "
 alltabs
 -
@@ -289,7 +289,7 @@ is
 firefoxViewPlacement
 .
 position
-12
+13
 "
 firefox
 -
