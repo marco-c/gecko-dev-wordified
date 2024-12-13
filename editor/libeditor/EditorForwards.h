@@ -1374,6 +1374,14 @@ DeleteNodeTransaction
 .
 h
 class
+DeleteRangeResult
+;
+/
+/
+HTMLEditHelpers
+.
+h
+class
 DeleteRangeTransaction
 ;
 /
