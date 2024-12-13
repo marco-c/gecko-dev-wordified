@@ -3387,6 +3387,10 @@ makedirs
 includeDir
 )
     
+skipped
+=
+0
+    
 #
 Go
 through
@@ -3793,6 +3797,11 @@ s
 testName
 )
                     
+skipped
++
+=
+1
+                    
 continue
                 
 skip
@@ -3834,6 +3843,11 @@ ascii
 "
                     
 )
+                    
+skipped
++
+=
+1
                     
 continue
                 
@@ -3882,6 +3896,11 @@ sys
 stdout
 )
                     
+skipped
++
+=
+1
+                    
 continue
                 
 with
@@ -3920,6 +3939,18 @@ s
 "
 %
 testName
+)
+    
+print
+(
+f
+"
+Skipped
+{
+skipped
+}
+tests
+"
 )
 if
 __name__
