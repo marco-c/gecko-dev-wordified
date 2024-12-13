@@ -620,16 +620,6 @@ limit
 "
 "
 -
-Xclang
-"
-"
--
-std
-=
-c11
-"
-"
--
 Wno
 -
 invalid
