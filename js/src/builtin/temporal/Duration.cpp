@@ -10951,9 +10951,11 @@ PlainDateObject
 auto
 date
 =
-ToPlainDate
-(
 plainDate
+-
+>
+date
+(
 )
 ;
 Rooted
@@ -11028,9 +11030,11 @@ PlainDateTimeObject
 auto
 date
 =
-ToPlainDate
-(
 dateTime
+-
+>
+date
+(
 )
 ;
 Rooted
