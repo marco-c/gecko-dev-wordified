@@ -19166,12 +19166,6 @@ aInitData
 .
 isRasterImage
 )
-mShouldFixToViewport
-(
-aInitData
-.
-shouldFixToViewport
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -19253,7 +19247,9 @@ aFrameForBounds
 ;
 if
 (
-mShouldFixToViewport
+aInitData
+.
+shouldFixToViewport
 )
 {
 /
