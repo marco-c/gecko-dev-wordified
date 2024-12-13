@@ -192,6 +192,14 @@ debug
 "
     
 "
+macosx64
+-
+aarch64
+-
+debug
+"
+    
+"
 win32
 -
 opt
