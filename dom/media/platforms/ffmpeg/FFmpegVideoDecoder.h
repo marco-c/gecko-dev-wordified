@@ -788,6 +788,12 @@ DecodedData
 aResults
 )
 ;
+bool
+CanUseZeroCopyVideoFrame
+(
+)
+const
+;
 int32_t
 mTextureAlignment
 ;

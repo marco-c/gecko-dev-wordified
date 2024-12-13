@@ -449,8 +449,12 @@ A
 wrapper
 of
 ID3D11Texture2D
-of
-IMFSample
+for
+zero
+copy
+hw
+video
+decoding
 .
 *
 Expected
@@ -463,7 +467,7 @@ process
 .
 *
 /
-D3D11_TEXTURE_IMF_SAMPLE
+D3D11_TEXTURE_ZERO_COPY
 /
 *
 *
