@@ -279,8 +279,9 @@ max_bits_
 kBitsPerByte
 )
 ;
-JXL_RETURN_IF_ERROR
+if
 (
+!
 writer
 -
 >
@@ -293,7 +294,15 @@ prev_bytes
 next_bytes
 )
 )
+{
+called_
+=
+true
 ;
+return
+false
+;
+}
 parent_
 =
 writer

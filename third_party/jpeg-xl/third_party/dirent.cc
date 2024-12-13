@@ -186,6 +186,13 @@ NOMINMAX
 #
 include
 <
+errno
+.
+h
+>
+#
+include
+<
 windows
 .
 h
