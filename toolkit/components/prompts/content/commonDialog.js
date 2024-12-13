@@ -1245,6 +1245,13 @@ Ci
 nsIContentAnalysisRequest
 .
 eBulkDataEntry
+reason
+:
+Ci
+.
+nsIContentAnalysisRequest
+.
+eClipboardPaste
 operationTypeForDisplay
 :
 Ci

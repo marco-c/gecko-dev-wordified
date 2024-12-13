@@ -5467,6 +5467,13 @@ AnalysisType
 :
 :
 eFileAttached
+nsIContentAnalysisRequest
+:
+:
+Reason
+:
+:
+eFilePickerDialog
 aItem
 true
 std

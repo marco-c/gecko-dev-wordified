@@ -428,6 +428,8 @@ ContentAnalysisRequest
 (
 AnalysisType
 aAnalysisType
+Reason
+aReason
 nsString
 aString
 bool
