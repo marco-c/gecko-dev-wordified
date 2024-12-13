@@ -1642,6 +1642,9 @@ bool
 aCanGoBack
 const
 bool
+aCanGoBackIgnoringUserInteraction
+const
+bool
 aCanGoForward
 const
 Maybe
