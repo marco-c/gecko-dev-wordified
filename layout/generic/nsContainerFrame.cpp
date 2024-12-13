@@ -9027,6 +9027,13 @@ ConsiderChildOverflow
 (
 aOverflowRects
 frame
+/
+*
+aAsIfScrolled
+=
+*
+/
+false
 )
 ;
 }
@@ -19392,6 +19399,8 @@ aOverflowAreas
 nsIFrame
 *
 aChildFrame
+bool
+aAsIfScrolled
 )
 {
 if
@@ -19409,6 +19418,10 @@ IsContainLayout
 SupportsContainLayoutAndPaint
 (
 )
+&
+&
+!
+aAsIfScrolled
 )
 {
 /

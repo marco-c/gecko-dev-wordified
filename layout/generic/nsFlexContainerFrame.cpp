@@ -41246,6 +41246,7 @@ ConsiderChildOverflow
 (
 aOverflowAreas
 f
+aAsIfScrolled
 )
 ;
 if

@@ -4029,6 +4029,10 @@ aOverflowAreas
 nsIFrame
 *
 aChildFrame
+bool
+aAsIfScrolled
+=
+false
 )
 ;
 protected
