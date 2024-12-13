@@ -277,6 +277,11 @@ testDifferentNewTargetInvokeConstructor
 cpp
 "
 "
+testDynamicCodeBrandChecks
+.
+cpp
+"
+"
 testEmptyWindowIsOmitted
 .
 cpp
