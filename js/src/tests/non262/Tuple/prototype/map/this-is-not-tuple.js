@@ -77,14 +77,6 @@ is
 not
 a
 Tuple
-info
-:
-|
-features
-:
-[
-Tuple
-]
 -
 -
 -

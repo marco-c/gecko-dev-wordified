@@ -107,11 +107,6 @@ Sequence
 Return
 size
 .
-features
-:
-[
-Tuple
-]
 -
 -
 -

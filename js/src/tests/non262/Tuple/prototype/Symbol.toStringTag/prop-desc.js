@@ -141,7 +141,6 @@ features
 Symbol
 .
 toStringTag
-Tuple
 ]
 -
 -
