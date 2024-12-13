@@ -136,7 +136,7 @@ binary
 -
 reader
 -
-stats
+opcnt
 .
 h
 "

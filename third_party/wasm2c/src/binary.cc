@@ -278,9 +278,6 @@ elemseg
 dataseg
 "
 "
-field
-"
-"
 tag
 "
 }

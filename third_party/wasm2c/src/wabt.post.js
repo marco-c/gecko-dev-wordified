@@ -616,7 +616,6 @@ _wabt_new_features
 ;
 for
 (
-var
 [
 f
 v

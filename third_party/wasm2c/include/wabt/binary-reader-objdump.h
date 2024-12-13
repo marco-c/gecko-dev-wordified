@@ -433,16 +433,6 @@ Index
 >
 function_param_counts
 ;
-std
-:
-:
-map
-<
-Index
-Index
->
-function_types
-;
 }
 ;
 Result
