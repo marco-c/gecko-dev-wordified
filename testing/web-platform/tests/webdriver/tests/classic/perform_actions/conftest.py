@@ -371,6 +371,9 @@ sleep
 1
 )
     
+try
+:
+        
 session
 .
 actions
@@ -378,6 +381,12 @@ actions
 release
 (
 )
+    
+except
+NoSuchWindowException
+:
+        
+pass
 pytest
 .
 fixture
