@@ -194,6 +194,9 @@ namespace
 layers
 {
 class
+GpuFence
+;
+class
 NativeLayer
 ;
 class
@@ -2329,6 +2332,15 @@ wr
 RenderTextureHost
 *
 aExternalImage
+)
+=
+0
+;
+virtual
+GpuFence
+*
+GetGpuFence
+(
 )
 =
 0
