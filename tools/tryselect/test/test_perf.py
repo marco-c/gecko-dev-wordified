@@ -1734,6 +1734,143 @@ description
 "
     
 }
+    
+"
+Machine
+Learning
+"
+:
+{
+        
+"
+query
+"
+:
+{
+            
+Suites
+.
+PERFTEST
+.
+value
+:
+[
+"
+'
+perftest
+'
+-
+ml
+-
+"
+]
+        
+}
+        
+"
+suites
+"
+:
+[
+Suites
+.
+PERFTEST
+.
+value
+]
+        
+"
+platform
+-
+restrictions
+"
+:
+[
+            
+Platforms
+.
+DESKTOP
+.
+value
+            
+Platforms
+.
+LINUX
+.
+value
+            
+Platforms
+.
+MACOSX
+.
+value
+            
+Platforms
+.
+WINDOWS
+.
+value
+        
+]
+        
+"
+app
+-
+restrictions
+"
+:
+{
+            
+Suites
+.
+PERFTEST
+.
+value
+:
+[
+                
+Apps
+.
+FIREFOX
+.
+value
+            
+]
+        
+}
+        
+"
+tasks
+"
+:
+[
+]
+        
+"
+description
+"
+:
+(
+            
+"
+A
+set
+of
+tests
+used
+to
+test
+machine
+learning
+performance
+in
+Firefox
+.
+"
+        
+)
+    
+}
 }
 contextlib
 .
@@ -1848,7 +1985,7 @@ platforms
 {
 }
             
-58
+66
             
 {
                 
@@ -2134,6 +2271,58 @@ swr
 ]
                 
 }
+                
+"
+Machine
+Learning
+desktop
+firefox
+"
+:
+{
+                    
+"
+perftest
+"
+:
+[
+                        
+"
+'
+perftest
+'
+-
+ml
+-
+"
+                        
+"
+!
+android
+"
+                        
+"
+!
+chrom
+!
+geckoview
+!
+fenix
+!
+safari
+!
+m
+-
+car
+!
+safari
+-
+tp
+"
+                    
+]
+                
+}
             
 }
             
@@ -2164,7 +2353,7 @@ live_sites
 True
 }
             
-66
+74
             
 {
                 
@@ -2450,7 +2639,7 @@ safari
 True
 }
             
-72
+80
             
 {
                 
@@ -2653,7 +2842,7 @@ tp
 True
 }
             
-58
+66
             
 {
                 
@@ -2849,7 +3038,7 @@ chrome
 True
 }
             
-90
+98
             
 {
                 
@@ -3026,7 +3215,7 @@ android
 True
 }
             
-88
+96
             
 {
                 
@@ -3202,7 +3391,7 @@ chrome
 True
 }
             
-118
+126
             
 {
                 
@@ -3379,7 +3568,7 @@ profile
 True
 }
             
-156
+164
             
 {
                 
@@ -3539,7 +3728,7 @@ fenix
 True
 }
             
-88
+96
             
 {
                 
@@ -3739,7 +3928,7 @@ windows
 ]
 }
             
-14
+16
             
 {
                 
@@ -4964,7 +5153,7 @@ windows
             
 }
             
-14
+16
             
 {
                 
@@ -5116,7 +5305,7 @@ True
             
 }
             
-16
+18
             
 {
                 
@@ -5384,6 +5573,62 @@ profil
 "
 !
 swr
+"
+                    
+]
+                
+}
+                
+"
+Machine
+Learning
+windows
+"
+:
+{
+                    
+"
+perftest
+"
+:
+[
+                        
+"
+'
+perftest
+'
+-
+ml
+-
+"
+                        
+"
+'
+windows
+"
+                        
+"
+!
+chrom
+"
+                        
+"
+!
+safari
+"
+                        
+"
+!
+m
+-
+car
+"
+                        
+"
+!
+safari
+-
+tp
 "
                     
 ]
