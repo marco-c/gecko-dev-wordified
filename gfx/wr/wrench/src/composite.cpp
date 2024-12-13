@@ -922,7 +922,7 @@ rust
 impl
 of
 the
-LayerCompositor
+Compositor2
 trait
 extern
 "

@@ -338,7 +338,7 @@ webrender
 :
 {
 DebugFlags
-LayerCompositor
+Compositor2
 }
 ;
 use
@@ -2304,7 +2304,7 @@ Option
 Box
 <
 dyn
-LayerCompositor
+Compositor2
 >
 >
 {
@@ -2327,7 +2327,7 @@ as
 Box
 <
 dyn
-LayerCompositor
+Compositor2
 >
 )
 }
@@ -2359,7 +2359,7 @@ Option
 Box
 <
 dyn
-LayerCompositor
+Compositor2
 >
 >
 {
@@ -5448,7 +5448,7 @@ None
 }
 ;
 let
-layer_compositor
+compositor2
 =
 if
 using_compositor
@@ -5554,7 +5554,7 @@ precache
 )
 dump_shader_source
 notifier
-layer_compositor
+compositor2
 )
 ;
 if

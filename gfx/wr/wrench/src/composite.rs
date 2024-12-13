@@ -91,7 +91,7 @@ webrender
 :
 :
 {
-LayerCompositor
+Compositor2
 CompositorInputConfig
 }
 ;
@@ -145,7 +145,7 @@ simplistic
 implementation
 of
 the
-LayerCompositor
+Compositor2
 trait
 to
 allow
@@ -478,7 +478,7 @@ null
 /
 A
 basic
-LayerCompositor
+Compositor2
 implementation
 for
 wrench
@@ -692,7 +692,7 @@ compositor
 }
 }
 impl
-LayerCompositor
+Compositor2
 for
 WrCompositor
 {
