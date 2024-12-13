@@ -149,6 +149,11 @@ GeckoViewSupport
 h
 "
 "
+IOSView
+.
+h
+"
+"
 nsWindow
 .
 h
