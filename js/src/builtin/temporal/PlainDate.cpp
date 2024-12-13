@@ -12244,7 +12244,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 temporalDate
@@ -12477,7 +12477,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 temporalDate
@@ -13223,7 +13223,7 @@ cx
 if
 (
 !
-TemporalObjectToFields
+ISODateToFields
 (
 cx
 temporalDate
