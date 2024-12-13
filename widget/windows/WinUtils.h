@@ -2246,7 +2246,7 @@ TRUE
 |
 *
 a
-pupup
+popup
 window
 (
 WS_POPUP
