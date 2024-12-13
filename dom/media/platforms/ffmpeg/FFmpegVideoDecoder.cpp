@@ -5659,6 +5659,16 @@ EINVAL
 )
 ;
 }
+image
+-
+>
+SetColorDepth
+(
+mInfo
+.
+mColorDepth
+)
+;
 RefPtr
 <
 layers

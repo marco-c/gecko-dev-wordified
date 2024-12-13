@@ -2811,6 +2811,16 @@ MOZ_ASSERT
 videoImage
 )
 ;
+videoImage
+-
+>
+SetColorDepth
+(
+aBuffer
+.
+mColorDepth
+)
+;
 if
 (
 MediaResult
