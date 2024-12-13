@@ -109,6 +109,12 @@ MPL
 *
 /
 #
+ifndef
+builtin_temporal_Era_h
+#
+define
+builtin_temporal_Era_h
+#
 include
 "
 mozilla
@@ -1655,3 +1661,10 @@ js
 :
 :
 temporal
+#
+endif
+/
+*
+builtin_temporal_Era_h
+*
+/
