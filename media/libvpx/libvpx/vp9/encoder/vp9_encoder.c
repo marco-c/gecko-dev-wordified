@@ -663,6 +663,17 @@ vp9
 /
 encoder
 /
+vp9_quantize
+.
+h
+"
+#
+include
+"
+vp9
+/
+encoder
+/
 vp9_ratectrl
 .
 h
@@ -31193,6 +31204,7 @@ vp9_set_quantizer
 (
 cpi
 q
+0
 )
 ;
 vp9_set_variance_partition_thresholds
@@ -31415,6 +31427,7 @@ vp9_set_quantizer
 (
 cpi
 q
+0
 )
 ;
 vp9_set_variance_partition_thresholds
@@ -31897,6 +31910,7 @@ vp9_set_quantizer
 (
 cpi
 q
+0
 )
 ;
 vp9_set_variance_partition_thresholds
@@ -34104,6 +34118,11 @@ twopass
 .
 gf_group
 ;
+int
+ext_rc_delta_q_uv
+=
+0
+;
 if
 (
 cpi
@@ -34360,6 +34379,12 @@ encode_frame_decision
 q_index
 ;
 }
+ext_rc_delta_q_uv
+=
+encode_frame_decision
+.
+delta_q_uv
+;
 }
 if
 (
@@ -34423,6 +34448,7 @@ vp9_set_quantizer
 (
 cpi
 q
+ext_rc_delta_q_uv
 )
 ;
 if

@@ -1133,6 +1133,13 @@ q_index
 /
 2
 ;
+frame_decision
+-
+>
+delta_q_uv
+=
+0
+;
 return
 VPX_RC_OK
 ;

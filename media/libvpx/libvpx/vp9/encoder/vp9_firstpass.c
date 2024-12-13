@@ -11020,6 +11020,7 @@ cm
 >
 bit_depth
 )
+0
 )
 ;
 vp9_setup_block_planes
