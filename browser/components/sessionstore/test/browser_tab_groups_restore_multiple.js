@@ -768,6 +768,10 @@ closeWindow
 win
 )
 ;
+forgetClosedWindows
+(
+)
+;
 }
 )
 ;
