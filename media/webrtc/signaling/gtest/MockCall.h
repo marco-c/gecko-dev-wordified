@@ -1918,7 +1918,7 @@ mStats
 webrtc
 :
 :
-NoTrialsConfig
+MozTrialsConfig
 mUnusedConfig
 ;
 }

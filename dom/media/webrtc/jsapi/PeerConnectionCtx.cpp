@@ -3195,7 +3195,7 @@ trials
 WrapUnique
 (
 new
-NoTrialsConfig
+MozTrialsConfig
 (
 )
 )

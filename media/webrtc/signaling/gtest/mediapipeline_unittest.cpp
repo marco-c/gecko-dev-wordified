@@ -2825,7 +2825,7 @@ new
 webrtc
 :
 :
-NoTrialsConfig
+MozTrialsConfig
 (
 )
 )
