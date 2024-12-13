@@ -2179,7 +2179,7 @@ EditorDOMPoint
 explicit
 InsertTextResult
 (
-EditorDOMPoint
+EditorDOMPointInText
 &
 &
 aEndOfInsertedText
@@ -2212,7 +2212,7 @@ CT
 >
 InsertTextResult
 (
-EditorDOMPoint
+EditorDOMPointInText
 &
 &
 aEndOfInsertedText
@@ -2252,7 +2252,7 @@ aEndOfInsertedText
 }
 InsertTextResult
 (
-EditorDOMPoint
+EditorDOMPointInText
 &
 &
 aEndOfInsertedText
@@ -2344,7 +2344,7 @@ IsSet
 ;
 }
 const
-EditorDOMPoint
+EditorDOMPointInText
 &
 EndOfInsertedTextRef
 (
@@ -2357,7 +2357,7 @@ mEndOfInsertedText
 }
 private
 :
-EditorDOMPoint
+EditorDOMPointInText
 mEndOfInsertedText
 ;
 }
