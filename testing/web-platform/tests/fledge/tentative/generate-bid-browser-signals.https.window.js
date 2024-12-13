@@ -308,6 +308,11 @@ bidCount
 :
 0
 "
+multiBidLimit
+"
+:
+1
+"
 prevWinsMs
 "
 :
