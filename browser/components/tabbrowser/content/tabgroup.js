@@ -1071,7 +1071,7 @@ this
 *
 *
 *
-remove
+Remove
 all
 tabs
 from
@@ -1081,6 +1081,7 @@ and
 delete
 the
 group
+.
 *
 *
 /
