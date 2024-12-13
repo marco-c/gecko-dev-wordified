@@ -851,9 +851,7 @@ MatchMinutes
 *
 InterpretISODateTimeOffset
 (
-year
-month
-day
+isoDate
 time
 offsetBehaviour
 *
@@ -904,9 +902,7 @@ result
 *
 InterpretISODateTimeOffset
 (
-year
-month
-day
+isoDate
 time
 offsetBehaviour
 *
@@ -927,7 +923,7 @@ cx
 const
 ISODate
 &
-date
+isoDate
 OffsetBehaviour
 offsetBehaviour
 int64_t
