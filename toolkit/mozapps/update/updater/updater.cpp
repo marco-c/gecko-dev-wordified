@@ -26514,7 +26514,7 @@ old
 way
 .
 DWORD
-ret
+launchResult
 =
 LaunchServiceSoftwareUpdateCommand
 (
@@ -26533,7 +26533,7 @@ get
 useService
 =
 (
-ret
+launchResult
 =
 =
 ERROR_SUCCESS
@@ -27061,7 +27061,12 @@ failed
 useService
 =
 false
+launchResult
+=
+%
+u
 "
+launchResult
 )
 )
 ;
