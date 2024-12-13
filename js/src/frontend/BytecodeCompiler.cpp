@@ -9187,6 +9187,9 @@ setAllowRelazify
 }
 if
 (
+stencils
+&
+&
 input
 .
 options
