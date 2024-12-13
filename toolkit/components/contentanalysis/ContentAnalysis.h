@@ -464,6 +464,8 @@ nsIURI
 aUrl
 nsString
 aPrinterName
+Reason
+aReason
 dom
 :
 :
