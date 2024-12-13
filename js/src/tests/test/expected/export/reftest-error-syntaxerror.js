@@ -100,10 +100,6 @@ flags
 :
 -
 noStrict
-features
-:
-[
-]
 negative
 :
 phase
