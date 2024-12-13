@@ -22,6 +22,8 @@ AsyncIterator
 -
 -
 -
+description
+:
 The
 length
 property

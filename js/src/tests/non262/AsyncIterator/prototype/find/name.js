@@ -22,6 +22,9 @@ AsyncIterator
 -
 -
 -
+description
+:
+"
 name
 property
 of
@@ -31,6 +34,7 @@ prototype
 .
 find
 .
+"
 -
 -
 -

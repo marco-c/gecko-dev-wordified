@@ -31,6 +31,7 @@ esid
 pending
 description
 :
+"
 %
 AsyncIterator
 .
@@ -46,6 +47,7 @@ has
 been
 mutated
 .
+"
 info
 :
 >
