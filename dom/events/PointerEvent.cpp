@@ -851,7 +851,7 @@ aOwner
 e
 -
 >
-InitMouseEvent
+InitMouseEventInternal
 (
 aType
 aParam
