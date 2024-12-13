@@ -31,7 +31,7 @@ length
 Basic
 tests
 .
-assertDeepEq
+assertEqArray
 (
 new
 constructor
@@ -63,7 +63,7 @@ constructor
 )
 )
 ;
-assertDeepEq
+assertEqArray
 (
 new
 constructor
@@ -97,7 +97,7 @@ constructor
 )
 )
 ;
-assertDeepEq
+assertEqArray
 (
 new
 constructor
@@ -119,7 +119,7 @@ constructor
 )
 )
 ;
-assertDeepEq
+assertEqArray
 (
 new
 constructor
@@ -139,7 +139,7 @@ new
 constructor
 )
 ;
-assertDeepEq
+assertEqArray
 (
 new
 constructor
@@ -194,7 +194,7 @@ count
 =
 0
 ;
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -282,7 +282,7 @@ constructor
 ]
 )
 ;
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -352,7 +352,7 @@ wrapper
 of
 thisArg
 .
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -388,7 +388,7 @@ strictly
 equals
 thisArg
 .
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -438,7 +438,7 @@ self
 =
 this
 ;
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -796,7 +796,7 @@ sum
 =
 0
 ;
-assertDeepEq
+assertEqArray
 (
 map
 .
@@ -942,7 +942,7 @@ is
 never
 called
 .
-assertDeepEq
+assertEqArray
 (
 Object
 .
@@ -1033,7 +1033,7 @@ length
 Basic
 tests
 .
-assertDeepEq
+assertEqArray
 (
 new
 constructor
@@ -1066,7 +1066,7 @@ constructor
 )
 )
 ;
-assertDeepEq
+assertEqArray
 (
 new
 constructor
@@ -1101,7 +1101,7 @@ constructor
 )
 )
 ;
-assertDeepEq
+assertEqArray
 (
 new
 constructor
@@ -1135,7 +1135,7 @@ constructor
 )
 )
 ;
-assertDeepEq
+assertEqArray
 (
 new
 constructor
@@ -1185,7 +1185,7 @@ count
 =
 0
 ;
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -1285,7 +1285,7 @@ constructor
 ]
 )
 ;
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -1355,7 +1355,7 @@ wrapper
 of
 thisArg
 .
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -1391,7 +1391,7 @@ strictly
 equals
 thisArg
 .
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -1441,7 +1441,7 @@ self
 =
 this
 ;
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -1799,7 +1799,7 @@ sum
 =
 0
 ;
-assertDeepEq
+assertEqArray
 (
 filter
 .
@@ -1950,7 +1950,7 @@ is
 never
 called
 .
-assertDeepEq
+assertEqArray
 (
 Object
 .
@@ -2111,7 +2111,7 @@ unreachable
 ;
 }
 ;
-assertDeepEq
+assertEqArray
 (
 arr
 .
@@ -2224,7 +2224,7 @@ b
 }
 )
 ;
-assertDeepEq
+assertEqArray
 (
 new
 Uint16Array

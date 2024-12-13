@@ -68,7 +68,7 @@ values
 o
 )
 ;
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -102,7 +102,7 @@ values
 (
 o
 )
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -146,7 +146,7 @@ values
 o
 )
 ;
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -187,7 +187,7 @@ values
 o
 )
 ;
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -213,7 +213,7 @@ values
 o
 )
 ;
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -245,7 +245,7 @@ values
 o
 )
 ;
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -294,7 +294,7 @@ values
 o
 )
 ;
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -340,7 +340,7 @@ values
 o
 )
 ;
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -382,7 +382,7 @@ values
 o
 )
 ;
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -435,7 +435,7 @@ null
 TypeError
 )
 ;
-assertDeepEq
+assertEqArray
 (
 Object
 .
@@ -447,7 +447,7 @@ values
 ]
 )
 ;
-assertDeepEq
+assertEqArray
 (
 Object
 .
@@ -470,7 +470,7 @@ Symbol
 function
 "
 )
-assertDeepEq
+assertEqArray
 (
 Object
 .
@@ -487,7 +487,7 @@ foo
 ]
 )
 ;
-assertDeepEq
+assertEqArray
 (
 Object
 .
@@ -551,7 +551,7 @@ B
 }
 )
 ;
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -654,7 +654,7 @@ ownKeysCallCount
 1
 )
 ;
-assertDeepEq
+assertEqArray
 (
 values
 [
@@ -663,7 +663,7 @@ values
 ]
 )
 ;
-assertDeepEq
+assertEqArray
 (
 getOwnPropertyDescriptorCalls
 [
