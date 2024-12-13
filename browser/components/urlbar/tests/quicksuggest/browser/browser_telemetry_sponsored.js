@@ -196,7 +196,7 @@ REMOTE_SETTINGS_RESULT
 /
 /
 sponsored
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -595,7 +595,7 @@ priority
 sponsored
 best
 match
-add_tasks_with_rust
+add_task
 (
 async
 function

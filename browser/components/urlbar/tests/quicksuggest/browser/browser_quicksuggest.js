@@ -309,7 +309,7 @@ and
 keyword
 highlighting
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -468,7 +468,7 @@ non
 sponsored
 result
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -538,7 +538,7 @@ sponsored
 priority
 feature
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -798,7 +798,7 @@ non
 sponsored
 suggestion
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -987,7 +987,7 @@ meets
 the
 threshold
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1279,7 +1279,7 @@ below
 the
 threshold
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1527,7 +1527,7 @@ for
 sponsored
 suggestion
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1568,7 +1568,7 @@ non
 sponsored
 suggestion
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1607,7 +1607,7 @@ for
 Navigational
 suggestion
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1700,7 +1700,7 @@ Dynamic
 Wikipedia
 suggestion
 .
-add_tasks_with_rust
+add_task
 (
 async
 function

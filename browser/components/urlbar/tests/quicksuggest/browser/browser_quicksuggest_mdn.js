@@ -182,7 +182,7 @@ REMOTE_SETTINGS_DATA
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -383,7 +383,7 @@ row
 group
 label
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -480,7 +480,7 @@ window
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -597,7 +597,7 @@ menu
 dismissal
 command
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -715,7 +715,7 @@ menu
 dismissal
 command
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -800,7 +800,7 @@ Manage
 result
 menu
 .
-add_tasks_with_rust
+add_task
 (
 async
 function

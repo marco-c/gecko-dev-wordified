@@ -350,7 +350,7 @@ the
 result
 menu
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -404,7 +404,7 @@ block
 a
 suggestion
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1095,7 +1095,7 @@ after
 the
 other
 .
-add_tasks_with_rust
+add_task
 (
 async
 function

@@ -766,7 +766,7 @@ should
 be
 disabled
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -944,7 +944,7 @@ not
 be
 added
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1120,7 +1120,7 @@ Nimbus
 /
 variable
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1364,7 +1364,7 @@ forceSync
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1530,7 +1530,7 @@ false
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -2526,7 +2526,7 @@ frequently
 "
 behavior
 .
-add_tasks_with_rust
+add_task
 (
 async
 function

@@ -212,7 +212,7 @@ true
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -506,7 +506,7 @@ frequently
 "
 command
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1188,7 +1188,7 @@ menu
 dismissal
 command
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1258,7 +1258,7 @@ menu
 dismissal
 command
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1914,7 +1914,7 @@ Tests
 row
 labels
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -2060,7 +2060,7 @@ frequently
 "
 menu
 .
-add_tasks_with_rust
+add_task
 (
 async
 function

@@ -441,7 +441,7 @@ false
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -647,7 +647,7 @@ by
 the
 pref
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -839,7 +839,7 @@ Nimbus
 /
 variable
 .
-add_tasks_with_rust
+add_task
 (
 async
 function
@@ -1120,7 +1120,7 @@ forceSync
 }
 )
 ;
-add_tasks_with_rust
+add_task
 (
 async
 function
