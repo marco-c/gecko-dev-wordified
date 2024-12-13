@@ -13626,6 +13626,9 @@ GetFrameColorSpace
 GetFrameColorRange
 (
 )
+mInfo
+.
+mColorDepth
 mFrame
 -
 >

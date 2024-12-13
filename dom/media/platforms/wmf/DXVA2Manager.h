@@ -489,6 +489,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+ColorDepth
+aColorDepth
 uint32_t
 aWidth
 uint32_t
@@ -518,6 +523,11 @@ gfx
 :
 ColorRange
 aColorRange
+gfx
+:
+:
+ColorDepth
+aColorDepth
 uint32_t
 aWidth
 uint32_t

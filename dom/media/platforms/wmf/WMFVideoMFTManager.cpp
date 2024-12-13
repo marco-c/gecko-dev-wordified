@@ -565,6 +565,12 @@ aConfig
 .
 mColorRange
 )
+mColorDepth
+(
+aConfig
+.
+mColorDepth
+)
 mImageContainer
 (
 aImageContainer
@@ -2395,6 +2401,7 @@ height
 )
 )
 mColorRange
+mColorDepth
 mVideoInfo
 .
 ImageRect
@@ -5854,6 +5861,7 @@ height
 )
 )
 mColorRange
+mColorDepth
 mVideoInfo
 .
 ImageRect
