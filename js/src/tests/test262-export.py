@@ -2974,6 +2974,13 @@ info
 "
 in
 frontmatter
+and
+frontmatter
+[
+"
+info
+"
+]
 :
             
 frontmatter
@@ -2989,8 +2996,6 @@ info
 n
 \
 n
-\
-\
 %
 s
 "
