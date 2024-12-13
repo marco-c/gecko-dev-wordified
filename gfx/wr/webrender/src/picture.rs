@@ -41115,7 +41115,10 @@ push_surface
 surface_index
 false
 surface_local_dirty_rect
+Some
+(
 descriptor
+)
 frame_state
 .
 surfaces
@@ -43819,7 +43822,10 @@ is_sub_graph
 surface_rects
 .
 clipped_local
+Some
+(
 surface_descriptor
+)
 frame_state
 .
 surfaces
