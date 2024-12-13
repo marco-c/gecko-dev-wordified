@@ -135,6 +135,11 @@ nsIQuotaManagerService
 idl
 "
 "
+nsIQuotaManagerServiceInternal
+.
+idl
+"
+"
 nsIQuotaRequests
 .
 idl

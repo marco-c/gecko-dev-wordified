@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsIQuotaManagerServiceInternal
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -254,6 +261,8 @@ final
 :
 public
 nsIQuotaManagerService
+public
+nsIQuotaManagerServiceInternal
 public
 nsIObserver
 public
@@ -432,6 +441,7 @@ RemoveIdleObserver
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIQUOTAMANAGERSERVICE
+NS_DECL_NSIQUOTAMANAGERSERVICEINTERNAL
 NS_DECL_NSIOBSERVER
 /
 /
