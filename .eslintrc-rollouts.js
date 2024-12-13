@@ -19707,17 +19707,6 @@ url
 /
 tests
 /
-file_url
-.
-jsm
-"
-"
-dom
-/
-url
-/
-tests
-/
 protocol_worker
 .
 js
