@@ -1299,7 +1299,7 @@ t
 know
 how
 to
-defineLazyModuleGetters
+defineESModuleGetters
 so
 we
 '
