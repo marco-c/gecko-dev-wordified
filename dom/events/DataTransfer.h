@@ -3010,6 +3010,12 @@ ClearForPaste
 (
 )
 ;
+bool
+HasPrivateHTMLFlavor
+(
+)
+const
+;
 protected
 :
 /
