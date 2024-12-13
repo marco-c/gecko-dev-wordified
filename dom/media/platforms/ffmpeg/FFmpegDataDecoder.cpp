@@ -2109,9 +2109,6 @@ aCodec
 )
 ;
 }
-#
-ifdef
-MOZ_WIDGET_GTK
 /
 *
 static
@@ -2195,8 +2192,6 @@ return
 nullptr
 ;
 }
-#
-endif
 }
 /
 /
