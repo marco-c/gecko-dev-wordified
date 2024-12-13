@@ -46221,7 +46221,7 @@ if
 requested
 :
 bool
-stretch
+isStretchAligned
 =
 false
 ;
@@ -46319,7 +46319,7 @@ Style
 .
 _0
 ;
-stretch
+isStretchAligned
 =
 inlineAxisAlignment
 =
@@ -46435,7 +46435,7 @@ sizing
 if
 (
 !
-stretch
+isStretchAligned
 &
 &
 mayUseAspectRatio
@@ -46471,7 +46471,7 @@ ToComputeISize
 }
 if
 (
-stretch
+isStretchAligned
 |
 |
 aFlags
@@ -46521,7 +46521,7 @@ aWM
 ;
 if
 (
-stretch
+isStretchAligned
 |
 |
 result
@@ -48345,7 +48345,7 @@ if
 requested
 :
 bool
-stretch
+isStretchAligned
 =
 false
 ;
@@ -48418,7 +48418,7 @@ Style
 .
 _0
 ;
-stretch
+isStretchAligned
 =
 blockAxisAlignment
 =
@@ -48534,7 +48534,7 @@ sizing
 if
 (
 !
-stretch
+isStretchAligned
 &
 &
 mayUseAspectRatio
@@ -48586,7 +48586,7 @@ ToComputeBSize
 }
 if
 (
-stretch
+isStretchAligned
 |
 |
 aFlags
@@ -48631,7 +48631,7 @@ aWM
 ;
 if
 (
-stretch
+isStretchAligned
 |
 |
 (
