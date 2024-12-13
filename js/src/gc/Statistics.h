@@ -3016,6 +3016,11 @@ formatTotalSlices
 (
 )
 ;
+size_t
+getMallocHeapSize
+(
+)
+;
 static
 void
 printProfileTimes
