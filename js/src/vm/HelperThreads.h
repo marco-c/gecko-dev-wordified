@@ -260,7 +260,7 @@ namespace
 frontend
 {
 struct
-CompilationStencil
+InitialStencilAndDelazifications
 ;
 }
 namespace
@@ -1421,13 +1421,12 @@ JS
 ReadOnlyCompileOptions
 &
 options
-const
 frontend
 :
 :
-CompilationStencil
-&
-stencil
+InitialStencilAndDelazifications
+*
+stencils
 )
 ;
 /

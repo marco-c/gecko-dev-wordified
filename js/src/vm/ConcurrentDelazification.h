@@ -165,6 +165,7 @@ frontend
 :
 :
 {
+InitialStencilAndDelazifications
 CompilationStencil
 ScriptStencilRef
 CompilationStencilMerger
@@ -1046,13 +1047,12 @@ JS
 ReadOnlyCompileOptions
 &
 options
-const
 frontend
 :
 :
-CompilationStencil
-&
-stencil
+InitialStencilAndDelazifications
+*
+stencils
 )
 ;
 bool
