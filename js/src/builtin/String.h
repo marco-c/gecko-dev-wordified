@@ -587,7 +587,8 @@ StringToLowerCase
 JSContext
 *
 cx
-HandleString
+JSString
+*
 string
 )
 ;
@@ -599,7 +600,8 @@ StringToUpperCase
 JSContext
 *
 cx
-HandleString
+JSString
+*
 string
 )
 ;
