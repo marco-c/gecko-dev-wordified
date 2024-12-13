@@ -481,7 +481,7 @@ sendMouseEvent
 type
 :
 "
-mousedown
+click
 "
 }
 frame

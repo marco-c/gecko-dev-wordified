@@ -381,7 +381,7 @@ sendMouseEvent
 type
 :
 "
-mousedown
+click
 "
 }
 frameNode

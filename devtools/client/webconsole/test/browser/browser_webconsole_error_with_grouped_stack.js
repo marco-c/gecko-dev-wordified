@@ -238,6 +238,8 @@ querySelector
 (
 "
 .
+frames
+-
 group
 "
 )
@@ -311,6 +313,14 @@ querySelectorAll
 "
 .
 frame
+:
+not
+(
+.
+frames
+-
+group
+)
 "
 )
 .
