@@ -1361,6 +1361,12 @@ GetTestPrincipalMetadata
 ;
 static
 OriginMetadata
+GetTestPersistentOriginMetadata
+(
+)
+;
+static
+OriginMetadata
 GetTestOriginMetadata
 (
 )

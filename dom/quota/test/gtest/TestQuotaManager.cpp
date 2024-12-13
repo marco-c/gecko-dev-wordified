@@ -10194,7 +10194,7 @@ PerformOnBackgroundThread
 auto
 testOriginMetadata
 =
-GetTestOriginMetadata
+GetTestPersistentOriginMetadata
 (
 )
 ;
