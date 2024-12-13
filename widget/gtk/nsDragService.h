@@ -680,6 +680,12 @@ UpdateDragEffect
 )
 override
 ;
+nsAutoCString
+GetDebugTag
+(
+)
+const
+;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 EndDragSessionImpl
@@ -1825,7 +1831,7 @@ GtkSelectionData
 aSelectionData
 )
 ;
-void
+bool
 SourceDataGetImage
 (
 nsITransferable
@@ -1836,7 +1842,7 @@ GtkSelectionData
 aSelectionData
 )
 ;
-void
+bool
 SourceDataGetXDND
 (
 nsITransferable
