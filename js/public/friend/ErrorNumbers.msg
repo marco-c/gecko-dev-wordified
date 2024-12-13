@@ -11493,7 +11493,6 @@ prevent
 extensions
 on
 this
-proxy
 object
 "
 )
