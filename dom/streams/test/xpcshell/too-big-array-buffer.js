@@ -22,7 +22,7 @@ is
 /
 smaller
 than
-20GB
+10GB
 -
 -
 if
@@ -47,7 +47,7 @@ bytes
 "
 autoAllocateChunkSize
 :
-20
+10
 *
 1024
 *
