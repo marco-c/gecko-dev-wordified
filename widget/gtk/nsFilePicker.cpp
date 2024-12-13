@@ -373,11 +373,11 @@ MAX_PREVIEW_SIZE
 /
 /
 bug
-1184009
+1935858
 #
 define
 MAX_PREVIEW_SOURCE_SIZE
-4096
+8192
 nsIFile
 *
 nsFilePicker
