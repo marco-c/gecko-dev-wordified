@@ -2642,7 +2642,12 @@ visibility_context
 &
 mut
 visibility_state
+&
+mut
+Some
+(
 tile_cache
+)
 )
 ;
 /
