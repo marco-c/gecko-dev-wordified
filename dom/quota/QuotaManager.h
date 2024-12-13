@@ -2272,9 +2272,9 @@ BoolPromise
 InitializeTemporaryGroup
 (
 const
-PrincipalInfo
+PrincipalMetadata
 &
-aPrincipalInfo
+aPrincipalMetadata
 )
 ;
 RefPtr
@@ -2284,9 +2284,9 @@ BoolPromise
 InitializeTemporaryGroup
 (
 const
-PrincipalInfo
+PrincipalMetadata
 &
-aPrincipalInfo
+aPrincipalMetadata
 RefPtr
 <
 UniversalDirectoryLock
@@ -2310,9 +2310,9 @@ bool
 IsTemporaryGroupInitialized
 (
 const
-PrincipalInfo
+PrincipalMetadata
 &
-aPrincipalInfo
+aPrincipalMetadata
 )
 ;
 bool
