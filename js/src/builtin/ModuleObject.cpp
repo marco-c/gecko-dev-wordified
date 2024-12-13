@@ -8793,6 +8793,17 @@ hadEvaluationError
 )
 const
 {
+if
+(
+hasSyntheticModuleFields
+(
+)
+)
+{
+return
+false
+;
+}
 ModuleStatus
 fullStatus
 =
