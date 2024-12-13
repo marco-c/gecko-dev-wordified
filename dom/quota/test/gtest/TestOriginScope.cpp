@@ -221,22 +221,12 @@ group
 =
 aGroupNoSuffix
 +
-"
-^
-"
-_ns
-+
 aSuffix
 ;
 nsCString
 origin
 =
 aOriginNoSuffix
-+
-"
-^
-"
-_ns
 +
 aSuffix
 ;
@@ -644,6 +634,7 @@ FromOrigin
 GetPrincipalMetadata
 (
 "
+^
 userContextId
 =
 1
@@ -686,6 +677,7 @@ FromOrigin
 GetPrincipalMetadata
 (
 "
+^
 userContextId
 =
 1
@@ -791,6 +783,7 @@ FromOrigin
 GetPrincipalMetadata
 (
 "
+^
 userContextId
 =
 1
@@ -833,6 +826,7 @@ FromOrigin
 GetPrincipalMetadata
 (
 "
+^
 userContextId
 =
 1
@@ -925,6 +919,7 @@ FromOrigin
 GetPrincipalMetadata
 (
 "
+^
 userContextId
 =
 1
@@ -967,6 +962,7 @@ FromOrigin
 GetPrincipalMetadata
 (
 "
+^
 userContextId
 =
 1
@@ -1118,6 +1114,7 @@ FromOrigin
 GetPrincipalMetadata
 (
 "
+^
 userContextId
 =
 1
