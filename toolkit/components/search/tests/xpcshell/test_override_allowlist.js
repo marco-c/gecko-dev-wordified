@@ -950,6 +950,12 @@ unload
 (
 )
 ;
+sinon
+.
+restore
+(
+)
+;
 }
 )
 ;

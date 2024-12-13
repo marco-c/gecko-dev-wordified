@@ -298,6 +298,12 @@ unload
 (
 )
 ;
+sinon
+.
+restore
+(
+)
+;
 }
 )
 ;
