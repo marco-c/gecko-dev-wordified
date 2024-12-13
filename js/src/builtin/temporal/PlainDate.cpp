@@ -3071,8 +3071,8 @@ toString
 Step
 4
 .
-PlainDate
-date
+PlainDateTime
+dateTime
 ;
 Rooted
 <
@@ -3087,12 +3087,12 @@ cx
 if
 (
 !
-ParseTemporalDateString
+ParseTemporalDateTimeString
 (
 cx
 string
 &
-date
+dateTime
 &
 calendarString
 )
@@ -3111,6 +3111,8 @@ MOZ_ASSERT
 (
 IsValidISODate
 (
+dateTime
+.
 date
 )
 )
@@ -3169,6 +3171,8 @@ return
 CreateTemporalDate
 (
 cx
+dateTime
+.
 date
 calendar
 result
