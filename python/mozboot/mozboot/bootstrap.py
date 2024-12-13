@@ -5839,6 +5839,9 @@ urlopen
 import
 certifi
         
+import
+ssl
+        
 if
 not
 cinnabar_dir
@@ -5895,6 +5898,21 @@ as
 fh
 :
             
+context
+=
+ssl
+.
+create_default_context
+(
+cafile
+=
+certifi
+.
+where
+(
+)
+)
+            
 shutil
 .
 copyfileobj
@@ -5902,7 +5920,6 @@ copyfileobj
                 
 urlopen
 (
-                    
 f
 "
 {
@@ -5917,14 +5934,9 @@ download
 .
 py
 "
-cafile
+context
 =
-certifi
-.
-where
-(
-)
-                
+context
 )
                 
 fh
