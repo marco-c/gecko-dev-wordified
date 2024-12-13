@@ -1710,6 +1710,9 @@ app
 .
 srcdir
 =
+Path
+(
 manager
 .
 staging_dir
+)
