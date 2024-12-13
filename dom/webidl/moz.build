@@ -4791,11 +4791,6 @@ MimeTypeArray
 webidl
 "
 "
-MLS
-.
-webidl
-"
-"
 MouseEvent
 .
 webidl
