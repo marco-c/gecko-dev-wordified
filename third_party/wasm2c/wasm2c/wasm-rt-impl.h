@@ -164,6 +164,9 @@ C
 {
 #
 endif
+#
+ifndef
+WASM_RT_TRAP_HANDLER
 /
 *
 *
@@ -183,8 +186,10 @@ wasm_rt_jmp_buf
 g_wasm_rt_jmp_buf
 ;
 #
+endif
+#
 if
-WASM_RT_USE_STACK_DEPTH_COUNT
+WASM_RT_STACK_DEPTH_COUNT
 /
 *
 *
