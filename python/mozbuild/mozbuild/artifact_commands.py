@@ -3075,24 +3075,6 @@ task_id
 artifact_name
 )
             
-record
-.
-unpack
-=
-task
-.
-attributes
-.
-get
-(
-"
-toolchain
--
-extract
-"
-True
-)
-            
 records
 [
 record
