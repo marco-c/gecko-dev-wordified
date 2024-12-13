@@ -1,3 +1,8 @@
+/
+/
+SKIP
+test262
+export
 loadRelativeToScript
 (
 '

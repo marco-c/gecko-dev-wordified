@@ -1,5 +1,10 @@
 /
 /
+SKIP
+test262
+export
+/
+/
 Return
 a
 promise
