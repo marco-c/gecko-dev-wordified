@@ -2256,6 +2256,16 @@ modelCacheTimeout
 ]
 [
 "
+browser
+.
+ml
+.
+checkForMemory
+"
+false
+]
+[
+"
 javascript
 .
 options
