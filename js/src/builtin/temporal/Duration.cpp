@@ -14683,7 +14683,7 @@ start
 if
 (
 !
-AddDate
+CalendarDateAdd
 (
 cx
 calendar
@@ -14717,7 +14717,7 @@ end
 if
 (
 !
-AddDate
+CalendarDateAdd
 (
 cx
 calendar
@@ -15916,7 +15916,7 @@ start
 if
 (
 !
-AddDate
+CalendarDateAdd
 (
 cx
 calendar
@@ -23447,7 +23447,7 @@ targetDate
 if
 (
 !
-AddDate
+CalendarDateAdd
 (
 cx
 plainRelativeTo
@@ -24398,7 +24398,7 @@ targetDate
 if
 (
 !
-AddDate
+CalendarDateAdd
 (
 cx
 plainRelativeTo
