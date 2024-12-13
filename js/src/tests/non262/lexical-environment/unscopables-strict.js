@@ -1,5 +1,15 @@
 /
 /
+SKIP
+test262
+export
+/
+/
+Pending
+review
+.
+/
+/
 Strict
 assignment
 to
