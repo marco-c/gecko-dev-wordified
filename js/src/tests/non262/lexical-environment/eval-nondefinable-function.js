@@ -1,13 +1,3 @@
-/
-/
-SKIP
-test262
-export
-/
-/
-Pending
-review
-.
 try
 {
 eval

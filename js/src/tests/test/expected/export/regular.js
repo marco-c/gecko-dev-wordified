@@ -59,6 +59,7 @@ declarations
 description
 :
 |
+'
 |
 await
 |
@@ -95,10 +96,7 @@ parse
 without
 error
 .
-flags
-:
--
-noStrict
+'
 -
 -
 -

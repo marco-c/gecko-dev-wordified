@@ -8,17 +8,6 @@ skip
 -
 support
 file
-/
-/
-SKIP
-test262
-export
-/
-/
-Test
-needs
-drainJobQueue
-.
 import
 A
 from

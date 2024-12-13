@@ -31,7 +31,6 @@ esid
 pending
 description
 :
-"
 %
 AsyncIterator
 .
@@ -46,7 +45,6 @@ when
 IteratorNext
 throws
 .
-"
 info
 :
 >

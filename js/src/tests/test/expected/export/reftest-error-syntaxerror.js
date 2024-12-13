@@ -96,15 +96,15 @@ a
 syntax
 error
 .
-flags
+features
 :
--
-noStrict
+[
+]
 negative
 :
 phase
 :
-parse
+early
 type
 :
 SyntaxError
@@ -123,7 +123,3 @@ await
 0
 ;
 }
-DONOTEVALUATE
-(
-)
-;

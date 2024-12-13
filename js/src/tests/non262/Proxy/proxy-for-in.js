@@ -23,16 +23,6 @@ licenses
 /
 publicdomain
 /
-/
-/
-SKIP
-test262
-export
-/
-/
-Pending
-review
-.
 "
 use
 strict

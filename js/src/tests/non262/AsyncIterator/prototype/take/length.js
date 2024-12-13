@@ -29,7 +29,6 @@ esid
 pending
 description
 :
-"
 %
 AsyncIterator
 .
@@ -42,7 +41,6 @@ value
 and
 descriptor
 .
-"
 info
 :
 >

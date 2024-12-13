@@ -29,9 +29,6 @@ unconditionally
 -
 -
 -
-description
-:
-"
 name
 property
 of
@@ -39,7 +36,6 @@ Iterator
 .
 from
 .
-"
 -
 -
 -

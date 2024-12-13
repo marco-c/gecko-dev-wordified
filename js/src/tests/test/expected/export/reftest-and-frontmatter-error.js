@@ -92,10 +92,10 @@ runtime
 type
 :
 SyntaxError
-flags
+features
 :
--
-noStrict
+[
+]
 -
 -
 -

@@ -1,15 +1,5 @@
 /
 /
-SKIP
-test262
-export
-/
-/
-Pending
-review
-.
-/
-/
 Test
 that
 we

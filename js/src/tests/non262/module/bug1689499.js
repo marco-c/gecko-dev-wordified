@@ -17,17 +17,6 @@ async
 -
 needs
 drainJobQueue
-/
-/
-SKIP
-test262
-export
-/
-/
-Test
-needs
-drainJobQueue
-.
 async
 function
 test

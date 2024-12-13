@@ -42,7 +42,6 @@ esid
 pending
 description
 :
-"
 %
 AsyncIterator
 .
@@ -57,7 +56,6 @@ iterator
 is
 done
 .
-"
 info
 :
 >

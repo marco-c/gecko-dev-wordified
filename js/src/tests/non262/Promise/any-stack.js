@@ -18,15 +18,6 @@ needs
 async
 stack
 capture
-/
-/
-SKIP
-test262
-export
-/
-/
-File
-name
 function
 toMessage
 (
@@ -99,7 +90,7 @@ any
 /
 /
 line
-12
+10
 p
 .
 then
@@ -152,7 +143,7 @@ stack
 .
 js
 :
-12
+10
 /
 m
 .
@@ -202,7 +193,7 @@ any
 /
 /
 line
-26
+24
 p
 .
 then
@@ -256,7 +247,7 @@ stack
 .
 js
 :
-26
+24
 /
 m
 .
@@ -317,7 +308,7 @@ rejected
 /
 /
 line
-42
+40
 p
 .
 then
@@ -375,7 +366,7 @@ stack
 .
 js
 :
-42
+40
 /
 m
 .
@@ -436,7 +427,7 @@ rejected
 /
 /
 line
-57
+55
 p
 .
 then
@@ -495,7 +486,7 @@ stack
 .
 js
 :
-57
+55
 /
 m
 .
