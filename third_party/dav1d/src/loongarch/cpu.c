@@ -326,7 +326,7 @@ unsigned
 long
 hw_cap
 =
-getauxval
+dav1d_getauxval
 (
 AT_HWCAP
 )
