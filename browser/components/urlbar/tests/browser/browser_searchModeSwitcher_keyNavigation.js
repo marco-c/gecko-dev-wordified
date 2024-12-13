@@ -1879,7 +1879,7 @@ info
 (
 Test
 for
-shifrKey
+shiftKey
 :
 {
 shiftKey
