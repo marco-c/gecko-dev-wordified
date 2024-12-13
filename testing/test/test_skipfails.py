@@ -8165,6 +8165,18 @@ task_id
 =
 task_details
     
+path_to_task
+=
+{
+}
+    
+path_to_task
+[
+path
+]
+=
+task_id
+    
 sf
 .
 skip_failure
@@ -8174,7 +8186,7 @@ manifest
         
 kind
         
-path
+path_to_task
         
 anyjs
         
@@ -8760,6 +8772,18 @@ task_id
 =
 task_details
     
+path_to_task
+=
+{
+}
+    
+path_to_task
+[
+path
+]
+=
+task_id
+    
 sf
 .
 skip_failure
@@ -8769,7 +8793,7 @@ manifest
         
 kind
         
-path
+path_to_task
         
 anyjs
         
