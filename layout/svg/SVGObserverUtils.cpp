@@ -11141,6 +11141,16 @@ aFlags
 {
 if
 (
+!
+(
+aFlags
+&
+INVALIDATE_DESTROY
+)
+)
+{
+if
+(
 nsIFrame
 *
 frame
@@ -11181,6 +11191,7 @@ ObjectBoundingBoxProperty
 )
 )
 ;
+}
 }
 if
 (
