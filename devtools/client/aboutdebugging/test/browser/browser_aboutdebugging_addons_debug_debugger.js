@@ -978,8 +978,10 @@ threadLabels
 .
 textContent
 "
-Main
-Thread
+Web
+Extension
+Fallback
+Document
 "
 )
 ;

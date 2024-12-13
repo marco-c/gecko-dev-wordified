@@ -1080,7 +1080,10 @@ contextLabels
 0
 ]
 "
-Top
+Web
+Extension
+Fallback
+Document
 "
 )
 ;
