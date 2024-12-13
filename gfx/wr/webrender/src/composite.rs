@@ -8660,6 +8660,10 @@ a
 [
 CompositorInputLayer
 ]
+pub
+framebuffer_size
+:
+DeviceIntSize
 }
 /
 /
