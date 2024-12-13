@@ -499,6 +499,17 @@ nsAString
 aDriverVersionString
 )
 ;
+virtual
+ID3D11Device
+*
+GetD3D11Device
+(
+)
+{
+return
+nullptr
+;
+}
 protected
 :
 Mutex
