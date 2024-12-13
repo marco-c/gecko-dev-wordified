@@ -18308,7 +18308,7 @@ AssignRangeAlgorithm
 std
 :
 :
-is_trivially_copy_constructible_v
+is_trivially_copyable_v
 <
 Item
 >
