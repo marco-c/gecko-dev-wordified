@@ -62,7 +62,7 @@ toolbarGuid
 url
 :
 "
-http
+https
 :
 /
 /

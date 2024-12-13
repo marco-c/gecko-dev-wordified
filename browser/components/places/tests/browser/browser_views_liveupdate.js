@@ -222,7 +222,7 @@ prefix
 1
 url
 :
-http
+https
 :
 /
 /
@@ -475,7 +475,7 @@ prefix
 f1
 url
 :
-http
+https
 :
 /
 /

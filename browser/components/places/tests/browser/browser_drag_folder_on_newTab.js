@@ -196,7 +196,7 @@ first
 url
 :
 "
-http
+https
 :
 /
 /
@@ -218,7 +218,7 @@ second
 url
 :
 "
-http
+https
 :
 /
 /
@@ -249,7 +249,7 @@ third
 url
 :
 "
-http
+https
 :
 /
 /

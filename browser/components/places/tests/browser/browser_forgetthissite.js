@@ -167,7 +167,7 @@ title
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -185,7 +185,7 @@ title
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -207,7 +207,7 @@ title
 uri
 :
 "
-http
+https
 :
 /
 /
@@ -1427,7 +1427,7 @@ sure
 that
 forgetting
 "
-http
+https
 :
 /
 /
@@ -1442,7 +1442,7 @@ test2
 also
 removes
 "
-http
+https
 :
 /
 /

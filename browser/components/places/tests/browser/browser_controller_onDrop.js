@@ -140,7 +140,7 @@ bm1
 url
 :
 "
-http
+https
 :
 /
 /
@@ -158,7 +158,7 @@ bm2
 url
 :
 "
-http
+https
 :
 /
 /
@@ -176,7 +176,7 @@ bm3
 url
 :
 "
-http
+https
 :
 /
 /

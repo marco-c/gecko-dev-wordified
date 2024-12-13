@@ -33,7 +33,7 @@ pages
 =
 [
 "
-http
+https
 :
 /
 /
@@ -46,7 +46,7 @@ org
 a
 "
 "
-http
+https
 :
 /
 /
@@ -59,7 +59,7 @@ org
 b
 "
 "
-http
+https
 :
 /
 /
@@ -72,7 +72,7 @@ org
 c
 "
 "
-http
+https
 :
 /
 /

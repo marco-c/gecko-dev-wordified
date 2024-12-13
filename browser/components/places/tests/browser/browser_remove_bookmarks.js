@@ -382,7 +382,7 @@ uris
 =
 [
 "
-http
+https
 :
 /
 /
@@ -393,7 +393,7 @@ com
 1
 "
 "
-http
+https
 :
 /
 /
@@ -404,7 +404,7 @@ com
 2
 "
 "
-http
+https
 :
 /
 /

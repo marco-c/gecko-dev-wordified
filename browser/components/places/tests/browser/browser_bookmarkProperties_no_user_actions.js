@@ -208,7 +208,7 @@ assign
 url
 :
 "
-http
+https
 :
 /
 /

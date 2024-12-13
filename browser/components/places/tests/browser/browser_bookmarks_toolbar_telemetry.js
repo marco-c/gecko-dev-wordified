@@ -111,7 +111,7 @@ firefox
 url
 :
 "
-http
+https
 :
 /
 /
@@ -129,7 +129,7 @@ rules
 url
 :
 "
-http
+https
 :
 /
 /
@@ -149,7 +149,7 @@ yo
 url
 :
 "
-http
+https
 :
 /
 /

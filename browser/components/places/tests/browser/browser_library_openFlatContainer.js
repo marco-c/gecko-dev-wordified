@@ -154,7 +154,7 @@ testBM
 url
 :
 "
-http
+https
 :
 /
 /
@@ -333,7 +333,7 @@ Bookmark
 url
 :
 "
-http
+https
 :
 /
 /
@@ -531,7 +531,7 @@ addVisits
 uri
 :
 "
-http
+https
 :
 /
 /

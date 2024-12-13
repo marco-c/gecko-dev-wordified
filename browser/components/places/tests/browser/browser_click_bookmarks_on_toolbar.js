@@ -71,7 +71,7 @@ const
 EXAMPLE_PAGE
 =
 "
-http
+https
 :
 /
 /

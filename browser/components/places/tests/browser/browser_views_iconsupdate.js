@@ -90,7 +90,7 @@ NetUtil
 newURI
 (
 "
-http
+https
 :
 /
 /

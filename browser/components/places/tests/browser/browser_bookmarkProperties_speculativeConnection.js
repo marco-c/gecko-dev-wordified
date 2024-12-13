@@ -460,7 +460,7 @@ menuGuid
 url
 :
 "
-http
+https
 :
 /
 /
@@ -772,7 +772,7 @@ menuGuid
 url
 :
 "
-http
+https
 :
 /
 /

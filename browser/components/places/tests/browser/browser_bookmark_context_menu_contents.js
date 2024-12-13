@@ -99,7 +99,7 @@ firefox
 url
 :
 "
-http
+https
 :
 /
 /
@@ -117,7 +117,7 @@ rules
 url
 :
 "
-http
+https
 :
 /
 /
@@ -137,7 +137,7 @@ yo
 url
 :
 "
-http
+https
 :
 /
 /
@@ -3302,7 +3302,7 @@ insert
 url
 :
 "
-http
+https
 :
 /
 /
@@ -3470,7 +3470,7 @@ addVisits
 (
 [
 "
-http
+https
 :
 /
 /
@@ -3482,7 +3482,7 @@ com
 /
 "
 "
-http
+https
 :
 /
 /

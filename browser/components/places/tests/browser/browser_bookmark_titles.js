@@ -84,7 +84,7 @@ page
 url
 :
 "
-http
+https
 :
 /
 /
@@ -285,7 +285,7 @@ openNewForegroundTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -347,7 +347,7 @@ isError
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -543,7 +543,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url

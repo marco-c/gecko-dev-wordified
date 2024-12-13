@@ -126,7 +126,7 @@ insert
 {
 url
 :
-http
+https
 :
 /
 /
@@ -372,7 +372,7 @@ fetch
 {
 url
 :
-http
+https
 :
 /
 /
@@ -400,7 +400,7 @@ i
 The
 keyword
 for
-http
+https
 :
 /
 /

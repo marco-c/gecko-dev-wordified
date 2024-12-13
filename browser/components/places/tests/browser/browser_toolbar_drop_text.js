@@ -251,7 +251,7 @@ const
 url
 =
 "
-http
+https
 :
 /
 /
@@ -566,7 +566,7 @@ urls
 =
 [
 "
-http
+https
 :
 /
 /
@@ -587,7 +587,7 @@ A484
 FE131586348A
 "
 "
-http
+https
 :
 /
 /
@@ -608,7 +608,7 @@ AF7C
 BF3C5FD8870D
 "
 "
-http
+https
 :
 /
 /
