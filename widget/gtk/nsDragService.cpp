@@ -523,7 +523,7 @@ microseconds
 define
 NS_DND_TIMEOUT
 (
-5
+1
 *
 1000000
 )
