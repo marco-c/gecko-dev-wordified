@@ -610,6 +610,10 @@ closeWindow
 win
 )
 ;
+forgetClosedWindows
+(
+)
+;
 }
 )
 ;
