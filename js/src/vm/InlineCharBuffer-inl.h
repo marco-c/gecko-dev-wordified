@@ -750,7 +750,7 @@ return
 true
 ;
 }
-JSString
+JSLinearString
 *
 toStringDontDeflate
 (
@@ -822,7 +822,7 @@ string
 ;
 if
 (
-JSString
+auto
 *
 str
 =
@@ -887,7 +887,7 @@ heap
 )
 ;
 }
-JSString
+JSLinearString
 *
 toString
 (
