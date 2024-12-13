@@ -2422,7 +2422,7 @@ Step
 auto
 dateTime
 =
-GetPlainDateTimeFor
+GetISODateTimeFor
 (
 instant
 offsetNanoseconds
@@ -3391,7 +3391,7 @@ Step
 auto
 temporalDateTime
 =
-GetPlainDateTimeFor
+GetISODateTimeFor
 (
 ns
 offsetNanoseconds
