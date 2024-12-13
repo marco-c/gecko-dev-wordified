@@ -531,6 +531,15 @@ mAnalysisType
 ;
 /
 /
+See
+nsIContentAnalysisRequest
+for
+values
+Reason
+mReason
+;
+/
+/
 Text
 content
 to
