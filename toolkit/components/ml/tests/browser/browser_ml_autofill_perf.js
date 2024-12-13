@@ -257,8 +257,11 @@ main
 dtype
 :
 "
-q8
+int8
 "
+numThreads
+:
+2
 }
 )
 ;
