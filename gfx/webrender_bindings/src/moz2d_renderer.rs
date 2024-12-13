@@ -143,13 +143,13 @@ use
 gecko_profiler
 :
 :
-gecko_profiler_label
+auto_profiler_marker_tracing
 ;
 use
 gecko_profiler
 :
 :
-auto_profiler_marker_tracing
+gecko_profiler_label
 ;
 use
 rayon

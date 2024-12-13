@@ -85,12 +85,6 @@ gleam
 gl
 ;
 use
-webrender
-:
-:
-ChunkPool
-;
-use
 std
 :
 :
@@ -354,6 +348,12 @@ glyph_rasterizer
 GlyphRasterThread
 ;
 use
+webrender
+:
+:
+ChunkPool
+;
+use
 euclid
 :
 :
@@ -433,6 +433,7 @@ PartialPresentCompositor
 PipelineInfo
 ProfilerHooks
 RecordedFrameHandle
+RenderBackendHooks
 Renderer
 RendererStats
 SWGLCompositeSurfaceInfo
@@ -444,7 +445,6 @@ TextureCacheConfig
 UploadMethod
 WebRenderOptions
 WindowVisibility
-RenderBackendHooks
 ONE_TIME_USAGE_HINT
 }
 ;
