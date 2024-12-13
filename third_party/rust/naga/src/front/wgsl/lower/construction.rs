@@ -737,15 +737,13 @@ impl
 <
 '
 source
-'
-temp
 >
 Lowerer
 <
 '
 source
 '
-temp
+_
 >
 {
 /

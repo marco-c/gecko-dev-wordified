@@ -237,14 +237,10 @@ Expression
 >
 }
 impl
-<
-'
-tracer
->
 ExpressionTracer
 <
 '
-tracer
+_
 >
 {
 /

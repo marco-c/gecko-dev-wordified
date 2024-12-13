@@ -1615,14 +1615,10 @@ _
 }
 }
 impl
-<
-'
-w
->
 BlockContext
 <
 '
-w
+_
 >
 {
 /

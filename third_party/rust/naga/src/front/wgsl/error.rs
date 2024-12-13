@@ -1876,10 +1876,6 @@ Span
 }
 }
 impl
-<
-'
-a
->
 From
 <
 ConflictingDiagnosticRuleError
@@ -1888,7 +1884,7 @@ for
 Error
 <
 '
-a
+_
 >
 {
 fn
@@ -7561,6 +7557,13 @@ to_ident
 into
 (
 )
+)
+]
+#
+[
+allow
+(
+irrefutable_let_patterns
 )
 ]
 notes

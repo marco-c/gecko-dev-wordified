@@ -694,8 +694,6 @@ compact
 ]
 impl
 <
-'
-a
 T
 >
 Iterator
@@ -703,7 +701,7 @@ for
 UniqueArenaDrain
 <
 '
-a
+_
 T
 >
 {

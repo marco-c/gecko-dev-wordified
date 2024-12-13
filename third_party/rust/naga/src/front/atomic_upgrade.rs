@@ -883,14 +883,10 @@ mut
 Module
 }
 impl
-<
-'
-a
->
 UpgradeState
 <
 '
-a
+_
 >
 {
 fn
