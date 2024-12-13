@@ -3727,13 +3727,6 @@ UserActivity
 (
 )
 ;
-int32_t
-GetHeight
-(
-int32_t
-aProposedHeight
-)
-;
 DWORD
 WindowStyle
 (
