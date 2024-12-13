@@ -1309,6 +1309,11 @@ and
 not
 dry_run
     
+push_to_vcs
+|
+=
+MACH_TRY_PUSH_TO_VCS
+    
 check_working_directory
 (
 push
@@ -1660,8 +1665,6 @@ try
         
 if
 push_to_vcs
-or
-MACH_TRY_PUSH_TO_VCS
 :
             
 vcs
