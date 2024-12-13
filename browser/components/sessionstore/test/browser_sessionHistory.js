@@ -1017,14 +1017,6 @@ content
 .
 document
 .
-notifyUserGestureActivation
-(
-)
-;
-content
-.
-document
-.
 querySelector
 (
 "
