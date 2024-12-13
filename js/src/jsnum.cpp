@@ -10358,6 +10358,8 @@ sbuf
 )
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 converter
 .
 ToShortest
@@ -10365,6 +10367,7 @@ ToShortest
 d
 &
 builder
+)
 )
 ;
 size_t
@@ -10505,6 +10508,8 @@ out
 )
 )
 ;
+MOZ_ALWAYS_TRUE
+(
 converter
 .
 ToShortest
@@ -10512,6 +10517,7 @@ ToShortest
 d
 &
 builder
+)
 )
 ;
 #
