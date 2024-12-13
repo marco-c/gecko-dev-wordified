@@ -192,7 +192,7 @@ js
 frontend
 {
 struct
-CompilationStencil
+InitialStencilAndDelazifications
 ;
 }
 /
@@ -214,7 +214,7 @@ js
 frontend
 :
 :
-CompilationStencil
+InitialStencilAndDelazifications
 ;
 class
 JS_PUBLIC_API

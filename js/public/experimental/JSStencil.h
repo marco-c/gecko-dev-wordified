@@ -356,6 +356,9 @@ CompilationInput
 struct
 PreallocatedCompilationGCOutput
 ;
+struct
+InitialStencilAndDelazifications
+;
 }
 /
 /
@@ -529,7 +532,7 @@ js
 frontend
 :
 :
-CompilationStencil
+InitialStencilAndDelazifications
 ;
 using
 FrontendContext
