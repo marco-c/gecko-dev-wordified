@@ -86882,7 +86882,7 @@ lowerCase
 using
 Fn
 =
-JSLinearString
+JSString
 *
 (
 *
@@ -86918,9 +86918,6 @@ js
 :
 :
 Int32ToStringWithBase
-<
-CanGC
->
 >
 (
 lir
@@ -87015,9 +87012,6 @@ js
 :
 :
 Int32ToStringWithBase
-<
-CanGC
->
 >
 (
 lir
@@ -105453,7 +105447,7 @@ temp4
 using
 Fn
 =
-JSLinearString
+JSString
 *
 (
 *
@@ -105461,8 +105455,7 @@ JSLinearString
 (
 JSContext
 *
-JSString
-*
+HandleString
 )
 ;
 OutOfLineCode
@@ -106427,7 +106420,7 @@ string
 using
 Fn
 =
-JSLinearString
+JSString
 *
 (
 *
@@ -106435,8 +106428,7 @@ JSLinearString
 (
 JSContext
 *
-JSString
-*
+HandleString
 )
 ;
 callVM
