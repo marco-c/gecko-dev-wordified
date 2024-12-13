@@ -18083,13 +18083,8 @@ JS
 StartIncrementalEncoding
 (
 cx
-std
-:
-:
-move
-(
+script
 stencil
-)
 alreadyStarted
 )
 )

@@ -18509,13 +18509,8 @@ JS
 StartIncrementalEncoding
 (
 aCx
-std
-:
-:
-move
-(
+script
 aStencil
-)
 incrementalEncodingAlreadyStarted
 )
 )
