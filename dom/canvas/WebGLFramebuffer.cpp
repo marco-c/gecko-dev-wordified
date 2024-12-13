@@ -9558,7 +9558,7 @@ srcQ0
 =
 srcP0f
 .
-ClampMinMax
+Clamp
 (
 zero2f
 srcSizef
@@ -9570,7 +9570,7 @@ srcQ1
 =
 srcP1f
 .
-ClampMinMax
+Clamp
 (
 zero2f
 srcSizef
@@ -9649,7 +9649,7 @@ dstQ0
 =
 srcQ0InDst
 .
-ClampMinMax
+Clamp
 (
 zero2f
 dstSizef
@@ -9661,7 +9661,7 @@ dstQ1
 =
 srcQ1InDst
 .
-ClampMinMax
+Clamp
 (
 zero2f
 dstSizef
@@ -9744,7 +9744,7 @@ srcQ0Constrained
 =
 dstQ0InSrc
 .
-ClampMinMax
+Clamp
 (
 zero2f
 srcSizef
@@ -9756,7 +9756,7 @@ srcQ1Constrained
 =
 dstQ1InSrc
 .
-ClampMinMax
+Clamp
 (
 zero2f
 srcSizef
