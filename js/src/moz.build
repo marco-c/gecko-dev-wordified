@@ -3462,13 +3462,6 @@ cpp
 "
 vm
 /
-StencilCache
-.
-cpp
-"
-"
-vm
-/
 StencilObject
 .
 cpp

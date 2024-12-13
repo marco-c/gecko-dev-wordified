@@ -67,7 +67,7 @@ foo
 "
 ;
 }
-waitForStencilCache
+waitForDelazificationOf
 (
 foo
 )
@@ -85,7 +85,7 @@ disabled
 .
 assertEq
 (
-isInStencilCache
+isDelazificationPopulatedFor
 (
 foo
 )
