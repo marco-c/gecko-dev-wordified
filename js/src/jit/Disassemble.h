@@ -158,7 +158,6 @@ extern
 void
 Disassemble
 (
-const
 uint8_t
 *
 code
