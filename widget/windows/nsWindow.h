@@ -2087,14 +2087,6 @@ bool
 aIncludeOwner
 )
 ;
-/
-*
-*
-*
-Misc
-.
-*
-/
 bool
 WidgetTypeSupportsAcceleration
 (
