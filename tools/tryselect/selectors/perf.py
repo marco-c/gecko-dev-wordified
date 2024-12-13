@@ -728,6 +728,14 @@ default
 False
                 
 "
+dest
+"
+:
+"
+full
+"
+                
+"
 help
 "
 :
@@ -736,6 +744,14 @@ Show
 all
 available
 tasks
+.
+Alternatively
+-
+-
+full
+may
+be
+used
 .
 "
             
@@ -1240,6 +1256,10 @@ if
 show
 -
 all
+/
+-
+-
+full
 is
 provided
 .
@@ -1536,6 +1556,10 @@ through
 show
 -
 all
+/
+-
+-
+full
 as
 they
 "
@@ -9247,7 +9271,7 @@ update
 =
 False
         
-show_all
+full
 =
 False
         
@@ -9703,7 +9727,7 @@ n
         
 elif
 not
-show_all
+full
 :
             
 #
@@ -10964,6 +10988,10 @@ use
 show
 -
 all
+/
+-
+-
+full
 for
 mozperftest
 task
