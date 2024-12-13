@@ -35,6 +35,10 @@ file
 -
 -
 -
+flags
+:
+-
+noStrict
 description
 :
 |

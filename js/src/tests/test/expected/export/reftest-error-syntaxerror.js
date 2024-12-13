@@ -96,6 +96,10 @@ a
 syntax
 error
 .
+flags
+:
+-
+noStrict
 features
 :
 [

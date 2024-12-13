@@ -92,6 +92,10 @@ runtime
 type
 :
 SyntaxError
+flags
+:
+-
+noStrict
 features
 :
 [

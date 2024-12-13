@@ -97,6 +97,10 @@ without
 error
 .
 '
+flags
+:
+-
+noStrict
 -
 -
 -
