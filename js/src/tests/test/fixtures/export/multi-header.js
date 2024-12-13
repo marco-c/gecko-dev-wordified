@@ -13,7 +13,7 @@ this
 hasOwnProperty
 (
 '
-foobar
+AsyncIterator
 '
 )
 |
