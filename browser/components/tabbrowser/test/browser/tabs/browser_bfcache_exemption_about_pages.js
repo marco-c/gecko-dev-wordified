@@ -334,6 +334,7 @@ browser
 .
 goBack
 (
+false
 )
 ;
 await
@@ -495,6 +496,7 @@ browser
 .
 goBack
 (
+false
 )
 ;
 await
