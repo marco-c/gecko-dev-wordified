@@ -122,7 +122,7 @@ Path
 (
 command_context
 .
-_topobjdir
+topobjdir
 "
 dist
 "
