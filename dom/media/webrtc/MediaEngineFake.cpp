@@ -2059,7 +2059,7 @@ interval
 nsITimer
 :
 :
-TYPE_REPEATING_SLACK
+TYPE_REPEATING_PRECISE_CAN_SKIP
 "
 MediaEngineFakeVideoSource
 :
