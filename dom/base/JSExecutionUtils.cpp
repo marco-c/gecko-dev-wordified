@@ -229,7 +229,11 @@ h
 JS
 :
 :
-StartIncrementalEncoding
+Stencil
+JS
+:
+:
+CompileGlobalScriptToStencil
 #
 include
 "

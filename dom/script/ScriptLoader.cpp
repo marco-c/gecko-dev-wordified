@@ -296,6 +296,18 @@ JS
 :
 :
 InstantiationStorage
+JS
+:
+:
+StartCollectingDelazifications
+JS
+:
+:
+FinishCollectingDelazifications
+JS
+:
+:
+AbortCollectingDelazifications
 #
 include
 "
@@ -18405,7 +18417,7 @@ JSScript
 aScript
 bool
 &
-incrementalEncodingAlreadyStarted
+aCollectingDelazificationsAlreadyStarted
 JS
 :
 :
@@ -18502,12 +18514,12 @@ if
 JS
 :
 :
-StartIncrementalEncoding
+StartCollectingDelazifications
 (
 aCx
 script
 aStencil
-incrementalEncodingAlreadyStarted
+aCollectingDelazificationsAlreadyStarted
 )
 )
 {
@@ -19322,7 +19334,7 @@ aRv
 )
 {
 bool
-incrementalEncodingAlreadyStarted
+collectingDelazificationsAlreadyStarted
 =
 false
 ;
@@ -19332,7 +19344,7 @@ aCx
 aCompileOptions
 aStencil
 aScript
-incrementalEncodingAlreadyStarted
+collectingDelazificationsAlreadyStarted
 aDebuggerPrivateValue
 aDebuggerIntroductionScript
 aRv
@@ -19346,7 +19358,7 @@ true
 ;
 if
 (
-incrementalEncodingAlreadyStarted
+collectingDelazificationsAlreadyStarted
 )
 {
 aRequest
@@ -21759,7 +21771,7 @@ result
 JS
 :
 :
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 aCx
 module
@@ -21816,7 +21828,7 @@ result
 JS
 :
 :
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 aCx
 script
@@ -21889,7 +21901,7 @@ result
 JS
 :
 :
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 aCx
 script
@@ -22645,7 +22657,7 @@ ModuleRecord
 JS
 :
 :
-AbortIncrementalEncoding
+AbortCollectingDelazifications
 (
 module
 )
@@ -22685,7 +22697,7 @@ nullptr
 JS
 :
 :
-AbortIncrementalEncoding
+AbortCollectingDelazifications
 (
 script
 )

@@ -34605,8 +34605,8 @@ delazified
 twice
 within
 single
-incremental
-encoding
+collecting
+delazifications
 /
 /
 1
@@ -34620,8 +34620,8 @@ parsed
 /
 2
 .
-incremental
-encoding
+collecting
+delazifications
 is
 started
 /
@@ -34677,8 +34677,8 @@ parsed
 /
 2
 .
-incremental
-encoding
+collecting
+delazifications
 is
 started
 /
@@ -34696,8 +34696,8 @@ merged
 /
 4
 .
-incremental
-encoding
+collecting
+delazifications
 is
 finished
 /
@@ -34709,8 +34709,8 @@ decoded
 /
 6
 .
-incremental
-encoding
+collecting
+delazifications
 is
 started
 /
@@ -34787,7 +34787,7 @@ function
 See
 Evaluate
 and
-StartIncrementalEncoding
+StartCollectingDelazifications
 in
 js
 /

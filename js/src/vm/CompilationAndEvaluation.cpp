@@ -1087,8 +1087,10 @@ are
 reported
 by
 the
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 function
+/
+/
 below
 .
 if
@@ -1134,7 +1136,7 @@ bool
 JS
 :
 :
-StartIncrementalEncoding
+StartCollectingDelazifications
 (
 JSContext
 *
@@ -1179,6 +1181,8 @@ sourceObject
 )
 ;
 return
+:
+:
 StartCollectingDelazifications
 (
 cx
@@ -1193,7 +1197,7 @@ bool
 JS
 :
 :
-StartIncrementalEncoding
+StartCollectingDelazifications
 (
 JSContext
 *
@@ -1245,6 +1249,8 @@ scriptSourceObject
 )
 ;
 return
+:
+:
 StartCollectingDelazifications
 (
 cx
@@ -1256,7 +1262,7 @@ alreadyStarted
 }
 static
 bool
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 JSContext
 *
@@ -1468,7 +1474,7 @@ true
 }
 static
 bool
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 JSContext
 *
@@ -1543,7 +1549,7 @@ bool
 JS
 :
 :
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 JSContext
 *
@@ -1583,7 +1589,7 @@ sourceObject
 return
 :
 :
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 cx
 sso
@@ -1596,7 +1602,7 @@ bool
 JS
 :
 :
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 JSContext
 *
@@ -1637,7 +1643,7 @@ sourceObject
 return
 :
 :
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 cx
 sso
@@ -1650,7 +1656,7 @@ bool
 JS
 :
 :
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 JSContext
 *
@@ -1701,7 +1707,7 @@ scriptSourceObject
 return
 :
 :
-FinishIncrementalEncoding
+FinishCollectingDelazifications
 (
 cx
 sso
@@ -1714,7 +1720,7 @@ void
 JS
 :
 :
-AbortIncrementalEncoding
+AbortCollectingDelazifications
 (
 JS
 :
@@ -1750,7 +1756,7 @@ void
 JS
 :
 :
-AbortIncrementalEncoding
+AbortCollectingDelazifications
 (
 JS
 :
