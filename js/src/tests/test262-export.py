@@ -83,6 +83,8 @@ import
 shutil
 import
 sys
+import
+traceback
 from
 typing
 import
@@ -3835,6 +3837,9 @@ ascii
                     
 continue
                 
+try
+:
+                    
 newSource
 =
 convertTestFile
@@ -3842,6 +3847,42 @@ convertTestFile
 testSource
 includes
 )
+                
+except
+Exception
+as
+e
+:
+                    
+print
+(
+f
+"
+SKIPPED
+{
+testName
+}
+due
+to
+error
+{
+e
+}
+"
+)
+                    
+traceback
+.
+print_exc
+(
+file
+=
+sys
+.
+stdout
+)
+                    
+continue
                 
 with
 open
