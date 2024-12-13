@@ -1089,6 +1089,14 @@ SERVICE_WORKER
 :
 [
 ]
+[
+TARGET_TYPES
+.
+CONTENT_SCRIPT
+]
+:
+[
+]
 }
 ;
 /

@@ -95,6 +95,13 @@ process
 js
 "
 "
+content
+-
+script
+.
+js
+"
+"
 target
 -
 mixin

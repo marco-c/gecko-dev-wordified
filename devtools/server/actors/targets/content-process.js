@@ -92,6 +92,8 @@ devtools
 /
 docs
 /
+contributor
+/
 backend
 /
 actor
@@ -102,6 +104,10 @@ md
 for
 more
 details
+about
+all
+the
+targets
 .
 *
 /

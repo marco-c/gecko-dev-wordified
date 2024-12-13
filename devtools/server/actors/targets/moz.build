@@ -116,6 +116,13 @@ process
 js
 "
 "
+content
+-
+script
+.
+js
+"
+"
 index
 .
 js
