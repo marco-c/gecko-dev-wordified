@@ -646,7 +646,7 @@ Step
 if
 (
 !
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 isoYear
 isoMonth
@@ -896,7 +896,7 @@ Step
 if
 (
 !
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 date
 )
@@ -1072,7 +1072,7 @@ monthDay
 {
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 monthDay
 )
@@ -1163,7 +1163,7 @@ Step
 if
 (
 !
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 date
 )

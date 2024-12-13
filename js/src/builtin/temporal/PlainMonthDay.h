@@ -379,7 +379,7 @@ calendar
 {
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+ISODateWithinLimits
 (
 date
 )
