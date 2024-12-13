@@ -574,6 +574,9 @@ if
 aGL
 )
 {
+#
+if
+0
 buffer
 =
 widget
@@ -594,6 +597,8 @@ aSize
 aGL
 )
 ;
+#
+endif
 }
 else
 {
