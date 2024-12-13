@@ -539,7 +539,7 @@ LIBAV_VER
 >
 :
 :
-InitSWDecoder
+InitDecoder
 (
 AVDictionary
 *
@@ -990,14 +990,7 @@ Couldn
 t
 open
 avcodec
-for
-%
-s
 "
-codec
--
->
-name
 )
 ;
 return
@@ -2109,6 +2102,9 @@ aCodec
 )
 ;
 }
+#
+ifdef
+MOZ_WIDGET_GTK
 /
 *
 static
@@ -2192,6 +2188,8 @@ return
 nullptr
 ;
 }
+#
+endif
 }
 /
 /

@@ -195,7 +195,7 @@ namespace
 layers
 {
 class
-ZeroCopyUsageInfo
+IMFSampleUsageInfo
 ;
 class
 TextureWrapperD3D11Allocator
@@ -309,7 +309,7 @@ IntSize
 aSize
 RefPtr
 <
-ZeroCopyUsageInfo
+IMFSampleUsageInfo
 >
 aUsageInfo
 RefPtr
@@ -347,7 +347,7 @@ IntSize
 aSize
 RefPtr
 <
-ZeroCopyUsageInfo
+IMFSampleUsageInfo
 >
 aUsageInfo
 RefPtr
@@ -444,7 +444,7 @@ IntSize
 aSize
 RefPtr
 <
-ZeroCopyUsageInfo
+IMFSampleUsageInfo
 >
 aUsageInfo
 RefPtr
@@ -482,9 +482,9 @@ mSize
 ;
 RefPtr
 <
-ZeroCopyUsageInfo
+IMFSampleUsageInfo
 >
-mZeroCopyUsageInfo
+mIMFSampleUsageInfo
 ;
 RefPtr
 <

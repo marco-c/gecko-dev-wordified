@@ -146,7 +146,7 @@ mozilla
 /
 layers
 /
-D3D11ZeroCopyTextureImage
+D3D11TextureIMFSampleImage
 .
 h
 "
@@ -347,7 +347,7 @@ IntSize
 aSize
 RefPtr
 <
-ZeroCopyUsageInfo
+IMFSampleUsageInfo
 >
 aUsageInfo
 RefPtr
@@ -404,7 +404,7 @@ IntSize
 aSize
 RefPtr
 <
-ZeroCopyUsageInfo
+IMFSampleUsageInfo
 >
 aUsageInfo
 RefPtr
@@ -1177,7 +1177,7 @@ it
 >
 second
 .
-mZeroCopyUsageInfo
+mIMFSampleUsageInfo
 )
 {
 it
@@ -1185,7 +1185,7 @@ it
 >
 second
 .
-mZeroCopyUsageInfo
+mIMFSampleUsageInfo
 -
 >
 DisableZeroCopyNV12Texture
@@ -2359,7 +2359,7 @@ IntSize
 aSize
 RefPtr
 <
-ZeroCopyUsageInfo
+IMFSampleUsageInfo
 >
 aUsageInfo
 RefPtr
@@ -2384,7 +2384,7 @@ mSize
 (
 aSize
 )
-mZeroCopyUsageInfo
+mIMFSampleUsageInfo
 (
 aUsageInfo
 )

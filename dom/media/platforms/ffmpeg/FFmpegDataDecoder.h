@@ -296,6 +296,9 @@ AVCodecID
 aCodec
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GTK
 static
 AVCodec
 *
@@ -308,6 +311,8 @@ AVCodecID
 aCodec
 )
 ;
+#
+endif
 protected
 :
 /
@@ -351,7 +356,7 @@ PrepareFrame
 )
 ;
 MediaResult
-InitSWDecoder
+InitDecoder
 (
 AVDictionary
 *

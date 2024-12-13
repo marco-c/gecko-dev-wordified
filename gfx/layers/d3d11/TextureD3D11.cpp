@@ -272,7 +272,7 @@ mozilla
 /
 layers
 /
-D3D11ZeroCopyTextureImage
+D3D11TextureIMFSampleImage
 .
 h
 "
@@ -2661,7 +2661,7 @@ KnowsCompositor
 aKnowsCompositor
 RefPtr
 <
-ZeroCopyUsageInfo
+IMFSampleUsageInfo
 >
 aUsageInfo
 )

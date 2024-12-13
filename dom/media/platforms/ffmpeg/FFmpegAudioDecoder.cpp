@@ -884,7 +884,7 @@ __func__
 MediaResult
 rv
 =
-InitSWDecoder
+InitDecoder
 (
 &
 options
