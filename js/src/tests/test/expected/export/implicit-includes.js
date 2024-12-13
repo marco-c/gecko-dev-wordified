@@ -44,6 +44,9 @@ js
 deepEqual
 .
 js
+include
+.
+js
 ]
 flags
 :
