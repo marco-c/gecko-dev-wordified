@@ -91,9 +91,8 @@ webrender
 :
 :
 {
-CompositorInputConfig
-CompositorSurfaceTransform
 LayerCompositor
+CompositorInputConfig
 }
 ;
 use
@@ -1559,9 +1558,6 @@ self
 index
 :
 usize
-_transform
-:
-CompositorSurfaceTransform
 _clip_rect
 :
 webrender
