@@ -2059,6 +2059,17 @@ platform
 _ns
 )
 ;
+transports
+.
+AppendElement
+(
+u
+"
+hybrid
+"
+_ns
+)
+;
 break
 ;
 case
