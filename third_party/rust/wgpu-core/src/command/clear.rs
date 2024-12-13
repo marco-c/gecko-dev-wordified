@@ -2535,7 +2535,7 @@ buffer_layout
 wgt
 :
 :
-TexelCopyBufferLayout
+ImageDataLayout
 {
 offset
 :

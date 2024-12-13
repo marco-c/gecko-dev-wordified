@@ -4396,6 +4396,7 @@ Some
 build_index
 )
 ;
+*
 action
 .
 tlas
@@ -4405,10 +4406,11 @@ dependencies
 write
 (
 )
-.
-clone_from
-(
+=
 dependencies
+.
+clone
+(
 )
 ;
 }

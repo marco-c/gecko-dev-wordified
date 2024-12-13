@@ -1061,7 +1061,7 @@ dst
 wgt
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 <
 id
 :
@@ -1073,7 +1073,7 @@ layout
 wgt
 :
 :
-TexelCopyBufferLayout
+ImageDataLayout
 size
 :
 wgt
@@ -1310,7 +1310,7 @@ C
 ]
 pub
 struct
-TexelCopyBufferLayout
+ImageDataLayout
 <
 '
 a
@@ -1349,7 +1349,7 @@ impl
 '
 a
 >
-TexelCopyBufferLayout
+ImageDataLayout
 <
 '
 a
@@ -1366,12 +1366,12 @@ self
 wgt
 :
 :
-TexelCopyBufferLayout
+ImageDataLayout
 {
 wgt
 :
 :
-TexelCopyBufferLayout
+ImageDataLayout
 {
 offset
 :

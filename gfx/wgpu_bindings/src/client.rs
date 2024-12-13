@@ -72,10 +72,10 @@ ByteBuf
 CommandEncoderAction
 DeviceAction
 DropAction
+ImageDataLayout
 ImplicitLayout
 QueueWriteAction
 RawString
-TexelCopyBufferLayout
 TextureAction
 }
 ;
@@ -7322,7 +7322,7 @@ wgc
 command
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 dst_buffer
 :
 wgc
@@ -7335,7 +7335,7 @@ BufferId
 dst_layout
 :
 &
-TexelCopyBufferLayout
+ImageDataLayout
 size
 :
 wgt
@@ -7366,7 +7366,7 @@ wgc
 command
 :
 :
-TexelCopyBufferInfo
+ImageCopyBuffer
 {
 buffer
 :
@@ -7417,7 +7417,7 @@ BufferId
 src_layout
 :
 &
-TexelCopyBufferLayout
+ImageDataLayout
 dst
 :
 wgc
@@ -7426,7 +7426,7 @@ wgc
 command
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 size
 :
 wgt
@@ -7456,7 +7456,7 @@ wgc
 command
 :
 :
-TexelCopyBufferInfo
+ImageCopyBuffer
 {
 buffer
 :
@@ -7504,7 +7504,7 @@ wgc
 command
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 dst
 :
 wgc
@@ -7513,7 +7513,7 @@ wgc
 command
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 size
 :
 wgt
@@ -7904,7 +7904,7 @@ dst
 wgt
 :
 :
-TexelCopyTextureInfo
+ImageCopyTexture
 <
 id
 :
@@ -7913,7 +7913,7 @@ TextureId
 >
 layout
 :
-TexelCopyBufferLayout
+ImageDataLayout
 size
 :
 wgt

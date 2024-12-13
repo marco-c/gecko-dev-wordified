@@ -3555,7 +3555,7 @@ contains
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE
 )
 )
 ;
@@ -3610,7 +3610,7 @@ wgt
 TextureFormatFeatureFlags
 :
 :
-STORAGE_WRITE
+STORAGE_READ_WRITE
 caps
 .
 contains
@@ -4412,7 +4412,7 @@ a
 device
 from
 the
-adapter
+adaptor
 #
 [
 non_exhaustive
