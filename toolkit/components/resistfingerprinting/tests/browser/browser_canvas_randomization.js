@@ -3153,7 +3153,7 @@ Glean
 .
 fingerprintingProtection
 .
-canvasNoiseCalculateTime
+canvasNoiseCalculateTime2
 .
 testGetValue
 (
