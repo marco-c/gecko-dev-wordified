@@ -1239,6 +1239,12 @@ nsCString
 >
 mRedirectTargets
 ;
+unsigned
+int
+mNetworkDelayMs
+=
+0
+;
 }
 ;
 struct

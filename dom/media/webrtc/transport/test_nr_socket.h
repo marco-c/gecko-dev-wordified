@@ -1088,6 +1088,10 @@ nat_delegate_
 (
 nullptr
 )
+network_delay_ms_
+(
+0
+)
 {
 }
 bool
@@ -1324,6 +1328,10 @@ stun_redirect_map_
 NatDelegate
 *
 nat_delegate_
+;
+unsigned
+int
+network_delay_ms_
 ;
 std
 :
@@ -2296,6 +2304,15 @@ port_mappings_
 void
 *
 timer_handle_
+;
+nsTArray
+<
+nsCOMPtr
+<
+nsITimer
+>
+>
+mTimers
 ;
 /
 /
