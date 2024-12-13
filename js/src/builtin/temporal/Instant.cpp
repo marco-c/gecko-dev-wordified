@@ -3203,7 +3203,7 @@ EpochNanoseconds
 &
 epochNanoseconds
 const
-NormalizedTimeDuration
+TimeDuration
 &
 duration
 EpochNanoseconds
@@ -3221,7 +3221,7 @@ epochNanoseconds
 ;
 MOZ_ASSERT
 (
-IsValidNormalizedTimeDuration
+IsValidTimeDuration
 (
 duration
 )
@@ -3234,7 +3234,7 @@ Step
 .
 (
 Inlined
-AddNormalizedTimeDurationToEpochNanoseconds
+AddTimeDurationToEpochNanoseconds
 )
 auto
 r
@@ -3304,7 +3304,7 @@ roundingMode
 )
 *
 /
-NormalizedTimeDuration
+TimeDuration
 js
 :
 :
@@ -3374,7 +3374,7 @@ Step
 auto
 diff
 =
-NormalizedTimeDurationFromEpochNanosecondsDifference
+TimeDurationFromEpochNanosecondsDifference
 (
 ns2
 ns1
@@ -4220,13 +4220,13 @@ Step
 .
 (
 Inlined
-NormalizeDurationWith24HourDays
+ToInternalDurationRecordWith24HourDays
 .
 )
 auto
 timeDuration
 =
-NormalizeTimeDuration
+TimeDurationFromComponents
 (
 duration
 )

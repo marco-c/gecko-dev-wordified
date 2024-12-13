@@ -7583,7 +7583,7 @@ Reordered
 auto
 duration
 =
-NormalizedDuration
+InternalDuration
 {
 difference
 {
@@ -7941,7 +7941,7 @@ Step
 auto
 dateDuration
 =
-NormalizeDurationWithoutTime
+ToDateDurationRecordWithoutTime
 (
 duration
 )

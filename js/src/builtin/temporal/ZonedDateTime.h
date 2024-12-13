@@ -736,7 +736,7 @@ ZonedDateTime
 >
 zonedDateTime
 const
-NormalizedDuration
+InternalDuration
 &
 duration
 EpochNanoseconds

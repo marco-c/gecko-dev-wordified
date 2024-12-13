@@ -2629,12 +2629,12 @@ Reordered
 )
 (
 Inlined
-CombineDateAndNormalizedTimeDuration
+CombineDateAndTimeDuration
 )
 auto
 duration
 =
-NormalizedDuration
+InternalDuration
 {
 dateDuration
 {
@@ -3432,7 +3432,7 @@ Steps
 auto
 durationToAdd
 =
-NormalizeDurationWithoutTime
+ToDateDurationRecordWithoutTime
 (
 duration
 )

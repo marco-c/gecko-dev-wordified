@@ -501,7 +501,7 @@ Time
 &
 time
 const
-NormalizedTimeDuration
+TimeDuration
 &
 duration
 )
@@ -517,7 +517,7 @@ time2
 )
 *
 /
-NormalizedTimeDuration
+TimeDuration
 DifferenceTime
 (
 const

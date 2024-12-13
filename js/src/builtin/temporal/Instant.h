@@ -589,7 +589,7 @@ EpochNanoseconds
 &
 epochNanoseconds
 const
-NormalizedTimeDuration
+TimeDuration
 &
 duration
 EpochNanoseconds
@@ -611,7 +611,7 @@ roundingMode
 )
 *
 /
-NormalizedTimeDuration
+TimeDuration
 DifferenceInstant
 (
 const

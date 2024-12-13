@@ -3674,7 +3674,7 @@ ZonedDateTime
 >
 zonedDateTime
 const
-NormalizedDuration
+InternalDuration
 &
 duration
 TemporalOverflow
@@ -3922,7 +3922,7 @@ ZonedDateTime
 >
 zonedDateTime
 const
-NormalizedDuration
+InternalDuration
 &
 duration
 EpochNanoseconds
@@ -3987,7 +3987,7 @@ CalendarValue
 calendar
 TemporalUnit
 largestUnit
-NormalizedDuration
+InternalDuration
 *
 result
 )
@@ -4024,7 +4024,7 @@ ns2
 *
 result
 =
-NormalizedDuration
+InternalDuration
 {
 {
 }
@@ -4315,7 +4315,7 @@ e
 auto
 norm
 =
-NormalizedTimeDurationFromEpochNanosecondsDifference
+TimeDurationFromEpochNanosecondsDifference
 (
 ns2
 intermediateNs
@@ -4447,7 +4447,7 @@ Step
 16
 .
 return
-CombineDateAndNormalizedTimeDuration
+CombineDateAndTimeDuration
 (
 cx
 dateDifference
@@ -4661,7 +4661,7 @@ result
 Step
 2
 .
-NormalizedDuration
+InternalDuration
 difference
 ;
 if
@@ -5038,7 +5038,7 @@ step
 auto
 diff
 =
-NormalizedTimeDurationFromEpochNanosecondsDifference
+TimeDurationFromEpochNanosecondsDifference
 (
 ns2
 ns1
@@ -5082,7 +5082,7 @@ c
 *
 result
 =
-DivideNormalizedTimeDuration
+DivideTimeDuration
 (
 diff
 unit
@@ -5097,7 +5097,7 @@ true
 Step
 2
 .
-NormalizedDuration
+InternalDuration
 difference
 ;
 if
@@ -6156,9 +6156,9 @@ Step
 7
 .
 auto
-normalized
+internalDuration
 =
-NormalizeDuration
+ToInternalDurationRecord
 (
 duration
 )
@@ -6180,7 +6180,7 @@ AddZonedDateTime
 (
 cx
 zonedDateTime
-normalized
+internalDuration
 overflow
 &
 epochNanoseconds
@@ -14570,7 +14570,7 @@ h
 .
 (
 Inlined
-NormalizedTimeDurationFromEpochNanosecondsDifference
+TimeDurationFromEpochNanosecondsDifference
 )
 auto
 dayProgressNs
@@ -14633,7 +14633,7 @@ i
 .
 (
 Inlined
-RoundNormalizedTimeDurationToIncrement
+RoundTimeDurationToIncrement
 )
 auto
 rounded
