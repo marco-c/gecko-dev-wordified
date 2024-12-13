@@ -21400,6 +21400,9 @@ invalid_values
 "
 5
 "
+"
+stretch
+"
 ]
 }
 "
@@ -22231,6 +22234,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 -
 10
 "
@@ -22356,6 +22362,9 @@ other_values
 invalid_values
 :
 [
+"
+stretch
+"
 "
 -
 10
@@ -22850,6 +22859,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 2px
 -
@@ -25218,6 +25230,9 @@ invalid_values
 "
 5
 "
+"
+stretch
+"
 ]
 }
 "
@@ -25921,6 +25936,9 @@ auto
 invalid_values
 :
 [
+"
+stretch
+"
 "
 5
 %
@@ -27367,6 +27385,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 20
 "
 "
@@ -27967,6 +27988,9 @@ invalid_values
 "
 50
 %
+"
+"
+stretch
 "
 ]
 }
@@ -28712,6 +28736,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 5
 "
@@ -38894,6 +38921,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 5
 %
 "
@@ -39563,6 +39593,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 5
 %
 "
@@ -40193,6 +40226,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 0
 %
@@ -40841,6 +40877,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 5
 %
 "
@@ -41149,6 +41188,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -46137,6 +46179,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 -
 2em
 "
@@ -48784,6 +48829,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -48920,6 +48968,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -49236,6 +49287,9 @@ calc
 .
 1
 )
+"
+"
+stretch
 "
 ]
 }
@@ -51157,6 +51211,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 .
 .
 25px
@@ -52997,6 +53054,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 100px
 0deg
 path
@@ -53277,6 +53337,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 none
 "
@@ -54101,6 +54164,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 5
 %
 "
@@ -54311,6 +54377,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 5
 %
@@ -54851,6 +54920,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 -
 10px
 "
@@ -55362,6 +55434,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -55511,6 +55586,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -55660,6 +55738,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -55809,6 +55890,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -56606,6 +56690,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -57141,6 +57228,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 auto
 "
 "
@@ -57208,6 +57298,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 auto
 "
 "
@@ -57271,6 +57364,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 auto
 "
@@ -57336,6 +57432,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 auto
 "
 "
@@ -57399,6 +57498,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 auto
 "
@@ -57489,6 +57591,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 auto
 "
@@ -57979,6 +58084,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 20
 "
 "
@@ -58055,6 +58163,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 20
 "
@@ -58133,6 +58244,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 20
 "
 "
@@ -58210,6 +58324,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 20
 "
 "
@@ -58286,6 +58403,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 20
 "
@@ -58382,6 +58502,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 20
 "
 "
@@ -58464,6 +58587,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 20
 "
 "
@@ -58545,6 +58671,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 20
 "
@@ -58641,6 +58770,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 20
 "
 "
@@ -58723,6 +58855,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 20
 "
 "
@@ -58804,6 +58939,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 "
 20
 "
@@ -59800,6 +59938,9 @@ rubbish
 from
 font
 "
+"
+stretch
+"
 ]
 }
 "
@@ -59988,6 +60129,9 @@ font
 "
 from
 font
+"
+"
+stretch
 "
 ]
 }
@@ -60795,6 +60939,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -61647,6 +61794,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -64547,6 +64697,9 @@ calc
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 quirks_values
 :
@@ -68146,6 +68299,9 @@ auto
 none
 "
 "
+stretch
+"
+"
 1px
 1px
 "
@@ -68655,6 +68811,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 -
 5px
 3px
@@ -68733,6 +68892,9 @@ value
 invalid_values
 :
 [
+"
+stretch
+"
 ]
 }
 "
@@ -69060,6 +69222,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 -
 0
 .
@@ -69118,6 +69283,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 auto
 "
 "
@@ -69178,6 +69346,9 @@ other_values
 invalid_values
 :
 [
+"
+stretch
+"
 "
 auto
 "
@@ -69240,6 +69411,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 auto
 "
 "
@@ -69301,6 +69475,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 auto
 "
 "
@@ -69357,6 +69534,9 @@ other_values
 invalid_values
 :
 [
+"
+stretch
+"
 "
 auto
 "
@@ -69420,6 +69600,9 @@ invalid_values
 :
 [
 "
+stretch
+"
+"
 hello
 "
 "
@@ -69475,6 +69658,9 @@ other_values
 invalid_values
 :
 [
+"
+stretch
+"
 "
 hello
 "
