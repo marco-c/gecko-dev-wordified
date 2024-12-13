@@ -20798,9 +20798,6 @@ GetCaret
 (
 )
 ;
-nsRect
-caretRect
-;
 nsIFrame
 *
 caretFrame
@@ -20810,8 +20807,6 @@ caret
 >
 GetPaintGeometry
 (
-&
-caretRect
 )
 ;
 gfxContextAutoSaveRestore

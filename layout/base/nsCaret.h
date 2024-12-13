@@ -804,6 +804,7 @@ to
 paint
 in
 and
+optionally
 the
 bounds
 of
@@ -816,7 +817,6 @@ to
 that
 frame
 .
-*
 The
 rectangle
 includes
@@ -846,6 +846,12 @@ off
 .
 *
 /
+nsIFrame
+*
+GetPaintGeometry
+(
+)
+;
 nsIFrame
 *
 GetPaintGeometry
