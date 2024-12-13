@@ -637,6 +637,17 @@ IonFreeCompileTasks
 tasks
 )
 ;
+UniquePtr
+<
+LifoAlloc
+>
+FreeIonCompileTaskAndReuseLifoAlloc
+(
+IonCompileTask
+*
+task
+)
+;
 }
 /
 /
