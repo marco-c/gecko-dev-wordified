@@ -2145,7 +2145,7 @@ Always
 auto
 id
 =
-ToTemporalCalendarIdentifier
+CalendarIdentifier
 (
 calendar
 )
@@ -2173,7 +2173,7 @@ Critical
 auto
 id
 =
-ToTemporalCalendarIdentifier
+CalendarIdentifier
 (
 calendar
 )
