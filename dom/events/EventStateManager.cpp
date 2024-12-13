@@ -6444,6 +6444,8 @@ locked
 .
 sLastScreenPoint
 =
+RoundedToInt
+(
 Event
 :
 :
@@ -6460,9 +6462,12 @@ mRefPoint
 extract
 (
 )
+)
 ;
 sLastClientPoint
 =
+RoundedToInt
+(
 Event
 :
 :
@@ -6474,10 +6479,11 @@ aEvent
 -
 >
 mRefPoint
-CSSIntPoint
-(
+CSSDoublePoint
+{
 0
 0
+}
 )
 )
 ;
@@ -29998,9 +30004,12 @@ if
 sourceWC
 )
 {
+const
 CSSIntPoint
 dropPointInScreen
 =
+RoundedToInt
+(
 Event
 :
 :
@@ -30016,6 +30025,7 @@ mRefPoint
 .
 extract
 (
+)
 )
 ;
 dragSession

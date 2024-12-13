@@ -2048,9 +2048,12 @@ aEvent
 }
 else
 {
+const
 CSSIntPoint
 pos
 =
+RoundedToInt
+(
 aEvent
 -
 >
@@ -2060,6 +2063,7 @@ CallerType
 :
 :
 System
+)
 )
 ;
 pm

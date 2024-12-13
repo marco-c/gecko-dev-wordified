@@ -1041,9 +1041,12 @@ to
 right
 coordinates
 .
+const
 CSSIntPoint
 screenPoint
 =
+RoundedToInt
+(
 Event
 :
 :
@@ -1064,6 +1067,7 @@ CSSIntPoint
 0
 0
 }
+)
 )
 ;
 Event
