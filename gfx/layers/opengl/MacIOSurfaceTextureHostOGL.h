@@ -169,6 +169,9 @@ mozilla
 namespace
 layers
 {
+class
+GpuFence
+;
 /
 *
 *
@@ -483,6 +486,12 @@ RefPtr
 MacIOSurface
 >
 mSurface
+;
+RefPtr
+<
+GpuFence
+>
+mGpuFence
 ;
 }
 ;

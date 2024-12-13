@@ -748,6 +748,17 @@ aExternalImage
 )
 override
 ;
+GpuFence
+*
+GetGpuFence
+(
+)
+override
+{
+return
+nullptr
+;
+}
 void
 Commit
 (
