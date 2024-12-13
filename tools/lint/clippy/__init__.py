@@ -671,6 +671,21 @@ root
 mach
 "
     
+#
+can
+be
+extended
+in
+build
+/
+cargo
+/
+cargo
+-
+clippy
+.
+yaml
+    
 clippy_args
 =
 [
