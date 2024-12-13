@@ -216,15 +216,6 @@ subtests
 file
 :
 "
-helper_fission_scroll_oopif
-.
-html
-"
-}
-{
-file
-:
-"
 helper_fission_event_region_override
 .
 html
