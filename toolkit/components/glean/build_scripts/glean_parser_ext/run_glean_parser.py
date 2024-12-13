@@ -240,6 +240,10 @@ labeled_timing_distribution
 "
 counter
 "
+        
+"
+labeled_counter
+"
     
 ]
     
