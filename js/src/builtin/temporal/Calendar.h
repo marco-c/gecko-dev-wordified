@@ -966,6 +966,12 @@ day
 *
 *
 *
+CanonicalizeCalendar
+(
+id
+)
+*
+*
 Return
 the
 case
@@ -994,7 +1000,7 @@ RangeError
 *
 /
 bool
-ToBuiltinCalendar
+CanonicalizeCalendar
 (
 JSContext
 *

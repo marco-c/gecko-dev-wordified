@@ -11733,7 +11733,7 @@ Steps
 .
 g
 -
-j
+i
 .
 if
 (
@@ -11747,7 +11747,7 @@ calendar
 if
 (
 !
-ToBuiltinCalendar
+CanonicalizeCalendar
 (
 cx
 parsed

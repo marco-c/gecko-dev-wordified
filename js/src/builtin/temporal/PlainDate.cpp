@@ -3761,11 +3761,6 @@ return
 false
 ;
 }
-/
-/
-Step
-5
-.
 MOZ_ASSERT
 (
 IsValidISODate
@@ -3779,9 +3774,9 @@ date
 /
 /
 Steps
-6
+5
 -
-8
+7
 .
 Rooted
 <
@@ -3807,7 +3802,7 @@ calendarString
 if
 (
 !
-ToBuiltinCalendar
+CanonicalizeCalendar
 (
 cx
 calendarString
@@ -3824,9 +3819,9 @@ false
 /
 /
 Steps
-9
+8
 -
-10
+9
 .
 DateOptions
 ignoredOptions
@@ -9467,7 +9462,7 @@ false
 Steps
 5
 -
-8
+7
 .
 Rooted
 <
@@ -9536,10 +9531,8 @@ false
 }
 /
 /
-Steps
+Step
 7
--
-8
 .
 Rooted
 <
@@ -9562,7 +9555,7 @@ toString
 if
 (
 !
-ToBuiltinCalendar
+CanonicalizeCalendar
 (
 cx
 calendarString
@@ -9579,7 +9572,7 @@ false
 /
 /
 Step
-9
+8
 .
 auto
 *

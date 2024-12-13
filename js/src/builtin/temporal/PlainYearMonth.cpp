@@ -2078,7 +2078,7 @@ calendarString
 if
 (
 !
-ToBuiltinCalendar
+CanonicalizeCalendar
 (
 cx
 calendarString
@@ -4295,7 +4295,7 @@ false
 Steps
 5
 -
-8
+7
 .
 Rooted
 <
@@ -4364,10 +4364,8 @@ false
 }
 /
 /
-Steps
+Step
 7
--
-8
 .
 Rooted
 <
@@ -4390,7 +4388,7 @@ toString
 if
 (
 !
-ToBuiltinCalendar
+CanonicalizeCalendar
 (
 cx
 calendarString
@@ -4409,7 +4407,7 @@ false
 Steps
 2
 and
-9
+8
 .
 double
 isoDay
@@ -4452,7 +4450,7 @@ false
 /
 /
 Step
-10
+9
 .
 auto
 *
