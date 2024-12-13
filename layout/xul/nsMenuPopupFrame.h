@@ -4556,10 +4556,6 @@ nsRect
 mOverrideConstraintRect
 ;
 static
-int8_t
-sDefaultLevelIsTop
-;
-static
 mozilla
 :
 :
