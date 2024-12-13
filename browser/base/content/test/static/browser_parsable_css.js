@@ -223,6 +223,10 @@ mathml
 |
 ua
 |
+EditorOverride
+|
+contenteditable
+|
 forms
 |
 svg
