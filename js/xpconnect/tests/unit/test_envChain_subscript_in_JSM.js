@@ -502,7 +502,7 @@ env
 type
 "
 *
-BackstagePass
+SystemGlobal
 *
 "
 )

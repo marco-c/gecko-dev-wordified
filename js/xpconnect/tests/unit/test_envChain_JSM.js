@@ -333,7 +333,7 @@ env
 type
 "
 *
-BackstagePass
+SystemGlobal
 *
 "
 )

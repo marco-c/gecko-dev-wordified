@@ -1347,7 +1347,7 @@ h
 #
 include
 "
-BackstagePass
+SystemGlobal
 .
 h
 "
@@ -14877,12 +14877,10 @@ define
 XPCVARIANT_IID
 \
 {
-\
 0x1809fd50
 0x91e8
 0x11d5
 {
-\
 0x90
 0xf9
 0x0
@@ -14891,9 +14889,7 @@ XPCVARIANT_IID
 0xe7
 0x3d
 0x9a
-\
 }
-\
 }
 /
 /
@@ -14913,12 +14909,10 @@ define
 XPCVARIANT_CID
 \
 {
-\
 0xdc524540
 0x487e
 0x4501
 {
-\
 0x9a
 0xc7
 0xaa
@@ -14927,9 +14921,7 @@ XPCVARIANT_CID
 0xb1
 0x7c
 0x1c
-\
 }
-\
 }
 class
 XPCVariant

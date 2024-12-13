@@ -70,7 +70,7 @@ env
 |
 "
 *
-BackstagePass
+SystemGlobal
 *
 "
 qualified

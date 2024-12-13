@@ -138,7 +138,7 @@ h
 #
 include
 "
-BackstagePass
+SystemGlobal
 .
 h
 "
@@ -215,17 +215,17 @@ dom
 ;
 NS_IMPL_ISUPPORTS
 (
-BackstagePass
+SystemGlobal
 nsIXPCScriptable
 nsIGlobalObject
 nsIClassInfo
 nsIScriptObjectPrincipal
 nsISupportsWeakReference
 )
-BackstagePass
+SystemGlobal
 :
 :
-BackstagePass
+SystemGlobal
 (
 )
 :
@@ -323,12 +323,12 @@ us
 #
 define
 XPC_MAP_CLASSNAME
-BackstagePass
+SystemGlobal
 #
 define
 XPC_MAP_QUOTED_CLASSNAME
 "
-BackstagePass
+SystemGlobal
 "
 #
 define
@@ -378,7 +378,7 @@ above
 /
 JSObject
 *
-BackstagePass
+SystemGlobal
 :
 :
 GetGlobalJSObject
@@ -405,7 +405,7 @@ nullptr
 }
 JSObject
 *
-BackstagePass
+SystemGlobal
 :
 :
 GetGlobalJSObjectPreserveColor
@@ -432,7 +432,7 @@ nullptr
 ;
 }
 void
-BackstagePass
+SystemGlobal
 :
 :
 SetGlobalObject
@@ -472,7 +472,7 @@ p
 ;
 }
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 Resolve
@@ -801,7 +801,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 NewEnumerate
@@ -1045,7 +1045,7 @@ NS_ERROR_FAILURE
 *
 /
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 GetInterfaces
@@ -1080,7 +1080,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 GetScriptableHelper
@@ -1111,7 +1111,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 GetContractID
@@ -1133,7 +1133,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 }
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 GetClassDescription
@@ -1148,7 +1148,7 @@ aClassDescription
 AssignLiteral
 (
 "
-BackstagePass
+SystemGlobal
 "
 )
 ;
@@ -1157,7 +1157,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 GetClassID
@@ -1178,7 +1178,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 GetFlags
@@ -1198,7 +1198,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 GetClassIDNoAlloc
@@ -1213,7 +1213,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 }
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 Finalize
@@ -1256,7 +1256,7 @@ bsp
 ;
 static_cast
 <
-BackstagePass
+SystemGlobal
 *
 >
 (
@@ -1277,7 +1277,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-BackstagePass
+SystemGlobal
 :
 :
 PreCreate
@@ -1398,7 +1398,7 @@ ipc
 PrincipalInfo
 nsresult
 >
-BackstagePass
+SystemGlobal
 :
 :
 GetStorageKey

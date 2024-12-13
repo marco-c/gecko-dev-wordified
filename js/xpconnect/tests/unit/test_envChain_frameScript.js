@@ -310,7 +310,7 @@ env
 |
 "
 *
-BackstagePass
+SystemGlobal
 *
 "
 qualified
@@ -772,7 +772,7 @@ env
 type
 "
 *
-BackstagePass
+SystemGlobal
 *
 "
 )
@@ -1100,7 +1100,7 @@ env
 |
 "
 *
-BackstagePass
+SystemGlobal
 *
 "
 qualified
@@ -1482,7 +1482,7 @@ env
 type
 "
 *
-BackstagePass
+SystemGlobal
 *
 "
 )
@@ -1512,8 +1512,8 @@ must
 live
 in
 the
-backstage
-pass
+system
+global
 "
 )
 ;

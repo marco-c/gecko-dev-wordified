@@ -1950,8 +1950,7 @@ chain
 :
 *
 *
-BackstagePass
-global
+SystemGlobal
 *
 |
 *
@@ -2224,8 +2223,7 @@ NonSyntacticVariablesObject
 .
 *
 *
-BackstagePass
-global
+SystemGlobal
 *
 |
 *
@@ -2319,8 +2317,7 @@ created
 .
 *
 *
-BackstagePass
-global
+SystemGlobal
 *
 |
 *
@@ -2463,8 +2460,7 @@ ExecuteInFrameScriptEnvironment
 .
 *
 *
-BackstagePass
-global
+SystemGlobal
 *
 |
 *
@@ -2590,8 +2586,7 @@ runs
 .
 *
 *
-BackstagePass
-global
+SystemGlobal
 (
 unqualified
 names

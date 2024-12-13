@@ -3453,7 +3453,7 @@ follows
 /
 GlobalObject
 /
-BackstagePass
+SystemGlobal
 /
 /
 GlobalLexicalEnvironmentObject

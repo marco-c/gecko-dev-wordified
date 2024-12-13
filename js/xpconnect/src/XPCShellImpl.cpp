@@ -444,7 +444,7 @@ h
 #
 include
 "
-BackstagePass
+SystemGlobal
 .
 h
 "
@@ -8155,11 +8155,11 @@ shellSecurityCallbacks
 )
 ;
 auto
-backstagePass
+systemGlobal
 =
 MakeRefPtr
 <
-BackstagePass
+SystemGlobal
 >
 (
 )
@@ -8292,7 +8292,7 @@ nsIGlobalObject
 *
 >
 (
-backstagePass
+systemGlobal
 )
 systemprincipal
 0
@@ -8562,7 +8562,7 @@ DoneStartingUp
 (
 )
 ;
-backstagePass
+systemGlobal
 -
 >
 SetGlobalObject
@@ -8716,7 +8716,7 @@ spec
 AutoEntryScript
 aes
 (
-backstagePass
+systemGlobal
 "
 xpcshell
 argument
