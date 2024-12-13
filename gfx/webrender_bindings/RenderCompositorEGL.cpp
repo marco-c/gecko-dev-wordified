@@ -1235,10 +1235,7 @@ SwapBuffers
 .
 UniquePtr
 <
-widget
-:
-:
-WaylandSurfaceLock
+MozContainerSurfaceLock
 >
 lock
 ;
