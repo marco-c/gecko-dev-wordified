@@ -3927,7 +3927,7 @@ allowGC
 static
 JSLinearString
 *
-toStringSingleDigitBaseTen
+toStringSingleDigit
 (
 JSContext
 *
@@ -3936,6 +3936,8 @@ Digit
 digit
 bool
 isNegative
+unsigned
+radix
 )
 ;
 static
