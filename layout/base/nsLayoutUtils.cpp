@@ -20323,10 +20323,10 @@ builder
 >
 SetAncestorHasApzAwareEventHandler
 (
-gfxPlatform
-:
-:
-AsyncPanZoomEnabled
+builder
+-
+>
+BuildCompositorHitTestInfo
 (
 )
 &
