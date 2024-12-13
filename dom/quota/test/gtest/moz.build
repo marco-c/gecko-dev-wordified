@@ -123,6 +123,11 @@ QuotaManagerDependencyFixture
 .
 h
 "
+"
+QuotaManagerTestHelpers
+.
+h
+"
 ]
 UNIFIED_SOURCES
 =
@@ -134,6 +139,11 @@ cpp
 "
 "
 QuotaManagerDependencyFixture
+.
+cpp
+"
+"
+QuotaManagerTestHelpers
 .
 cpp
 "
