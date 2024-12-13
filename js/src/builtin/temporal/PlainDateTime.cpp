@@ -3869,7 +3869,7 @@ Step
 int32_t
 timeSign
 =
-NormalizedTimeDurationSign
+TimeDurationSign
 (
 timeDuration
 )
