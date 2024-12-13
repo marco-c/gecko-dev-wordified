@@ -4927,8 +4927,8 @@ cx
 difference
 ns2
 dateTime
-calendar
 timeZone
+calendar
 settings
 .
 largestUnit
@@ -5212,8 +5212,8 @@ cx
 difference
 ns2
 dateTime
-calendar
 timeZone
+calendar
 unit
 Increment
 {
