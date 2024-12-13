@@ -19978,7 +19978,7 @@ stats
 (
 )
 .
-measureInitialHeapSize
+measureInitialHeapSizes
 (
 )
 ;
