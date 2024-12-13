@@ -13632,7 +13632,7 @@ d
 if
 (
 !
-GetInstantFor
+GetEpochNanosecondsFor
 (
 cx
 timeZone

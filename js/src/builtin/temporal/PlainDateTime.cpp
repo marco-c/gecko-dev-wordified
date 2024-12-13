@@ -12666,7 +12666,7 @@ instant
 if
 (
 !
-GetInstantFor
+GetEpochNanosecondsFor
 (
 cx
 timeZone
