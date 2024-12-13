@@ -107,9 +107,6 @@ attr
 s
 class
 CommandInfo
-(
-object
-)
 :
     
 name

@@ -575,7 +575,6 @@ if
 not
 any
 (
-(
 p
 for
 p
@@ -598,7 +597,6 @@ dist
 -
 info
 "
-)
 )
 )
 :

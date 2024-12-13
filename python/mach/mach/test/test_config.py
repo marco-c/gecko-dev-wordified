@@ -72,10 +72,6 @@ mozunit
 import
 main
 from
-six
-import
-string_types
-from
 mach
 .
 config
@@ -143,9 +139,6 @@ value2
 SettingsProvider
 class
 Provider1
-(
-object
-)
 :
     
 config_settings
@@ -180,9 +173,6 @@ desc
 SettingsProvider
 class
 ProviderDuplicate
-(
-object
-)
 :
     
 config_settings
@@ -217,9 +207,6 @@ desc
 SettingsProvider
 class
 Provider2
-(
-object
-)
 :
     
 config_settings
@@ -290,9 +277,6 @@ desc
 SettingsProvider
 class
 Provider3
-(
-object
-)
 :
     
 classmethod
@@ -381,9 +365,6 @@ desc
 SettingsProvider
 class
 Provider4
-(
-object
-)
 :
     
 config_settings
@@ -448,9 +429,6 @@ xyz
 SettingsProvider
 class
 Provider5
-(
-object
-)
 :
     
 config_settings
@@ -1080,7 +1058,9 @@ assertIsInstance
 a
 .
 string
-string_types
+(
+str
+)
 )
         
 self
@@ -1120,7 +1100,9 @@ assertIsInstance
 a
 .
 path
-string_types
+(
+str
+)
 )
     
 def

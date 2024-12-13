@@ -70,10 +70,6 @@ mozunit
 import
 main
 from
-six
-import
-string_types
-from
 mach
 .
 base
@@ -169,7 +165,7 @@ if
 isinstance
 (
 config
-string_types
+str
 )
 :
                 

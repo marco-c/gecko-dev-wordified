@@ -78,9 +78,6 @@ MozSiteMetadata
 SitePackagesSource
 class
 NoopTelemetry
-(
-object
-)
 :
     
 def
@@ -285,9 +282,6 @@ stderr
 )
 class
 GleanTelemetry
-(
-object
-)
 :
     
 "

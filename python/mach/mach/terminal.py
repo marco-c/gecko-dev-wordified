@@ -96,12 +96,6 @@ import
 logging
 import
 sys
-from
-six
-.
-moves
-import
-range
 class
 LoggingHandler
 (
@@ -324,9 +318,6 @@ flush
 )
 class
 TerminalFooter
-(
-object
-)
 :
     
 "

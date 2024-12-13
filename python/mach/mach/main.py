@@ -831,9 +831,6 @@ return
 text
 class
 ContextWrapper
-(
-object
-)
 :
     
 def
@@ -982,9 +979,6 @@ value
 )
 class
 Mach
-(
-object
-)
 :
     
 "

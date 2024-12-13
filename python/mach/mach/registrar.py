@@ -67,8 +67,6 @@ from
 pathlib
 import
 Path
-import
-six
 from
 .
 base
@@ -135,9 +133,6 @@ lstrip
 )
 class
 MachRegistrar
-(
-object
-)
 :
     
 "
@@ -875,9 +870,7 @@ assert
 isinstance
 (
 result
-six
-.
-integer_types
+int
 )
         
 if
