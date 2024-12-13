@@ -1028,9 +1028,6 @@ result
 ToTemporalCalendarSlotValue
 (
 temporalCalendarLike
-[
-default
-]
 )
 *
 /
