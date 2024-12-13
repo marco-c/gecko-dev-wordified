@@ -71,8 +71,6 @@ from
 collections
 import
 defaultdict
-import
-six
 from
 mach
 .
@@ -1908,11 +1906,10 @@ for
 fname
 fobj
 in
-six
-.
-iteritems
-(
 ALL_FLAVORS
+.
+items
+(
 )
 :
             
@@ -1955,17 +1952,15 @@ else
 flavors
 =
 [
-            
 f
 for
 f
 v
 in
-six
-.
-iteritems
-(
 ALL_FLAVORS
+.
+items
+(
 )
 if
 buildapp
@@ -1976,7 +1971,6 @@ v
 enabled_apps
 "
 ]
-        
 ]
     
 from

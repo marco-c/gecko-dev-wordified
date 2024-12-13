@@ -67,8 +67,6 @@ from
 functools
 import
 partial
-import
-six
 from
 mach
 .
@@ -195,11 +193,10 @@ for
 fname
 fobj
 in
-six
-.
-iteritems
-(
 ALL_FLAVORS
+.
+items
+(
 )
 :
             

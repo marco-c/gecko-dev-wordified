@@ -77,8 +77,6 @@ import
 mozlog
 import
 moznetwork
-import
-six
 from
 mozdevice
 import
@@ -2029,11 +2027,10 @@ env_val
 in
 enumerate
 (
-six
-.
-iteritems
-(
 env
+.
+items
+(
 )
 )
 :
@@ -2406,11 +2403,15 @@ messages
             
 line
 =
-six
-.
-ensure_str
-(
 line
+.
+decode
+(
+"
+utf
+-
+8
+"
 )
             
 self
@@ -2424,10 +2425,7 @@ self
 options
 .
 app
-str
-(
 line
-)
 )
             
 #
