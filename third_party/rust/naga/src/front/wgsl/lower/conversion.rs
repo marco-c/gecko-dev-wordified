@@ -42,10 +42,6 @@ impl
 <
 '
 source
-'
-temp
-'
-out
 >
 super
 :
@@ -55,9 +51,9 @@ ExpressionContext
 '
 source
 '
-temp
+_
 '
-out
+_
 >
 {
 /

@@ -429,14 +429,10 @@ Word
 )
 }
 impl
-<
-'
-w
->
 BlockContext
 <
 '
-w
+_
 >
 {
 /

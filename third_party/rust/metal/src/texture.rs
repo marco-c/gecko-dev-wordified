@@ -304,6 +304,11 @@ PixelFormatView
 =
 0x0010
 ;
+const
+ShaderAtomic
+=
+0x0020
+;
 }
 }
 /

@@ -3825,14 +3825,10 @@ Ok
 }
 }
 impl
-<
-'
-function
->
 BlockContext
 <
 '
-function
+_
 >
 {
 pub

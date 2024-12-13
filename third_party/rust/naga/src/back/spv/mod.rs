@@ -6120,16 +6120,12 @@ a
 >
 }
 impl
-<
-'
-a
->
 Default
 for
 Options
 <
 '
-a
+_
 >
 {
 fn
