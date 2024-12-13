@@ -1275,9 +1275,6 @@ quotaManager
 InitializeTemporaryOrigin
 (
 aOriginMetadata
-.
-mPersistenceType
-aOriginMetadata
 aCreateIfNonExistent
 )
 )
@@ -1344,9 +1341,6 @@ quotaManager
 >
 TemporaryOriginInitialized
 (
-aOriginMetadata
-.
-mPersistenceType
 aOriginMetadata
 )
 )

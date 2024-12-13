@@ -10500,9 +10500,6 @@ quotaManager
 InitializeTemporaryOrigin
 (
 testOriginMetadata
-.
-mPersistenceType
-testOriginMetadata
 /
 *
 aCreateIfNonExistent
@@ -10567,9 +10564,6 @@ quotaManager
 IsTemporaryOriginInitialized
 (
 testOriginMetadata
-.
-mPersistenceType
-testOriginMetadata
 )
 )
 ;
@@ -10625,9 +10619,6 @@ quotaManager
 >
 InitializeTemporaryOrigin
 (
-testOriginMetadata
-.
-mPersistenceType
 testOriginMetadata
 /
 *
@@ -10692,9 +10683,6 @@ quotaManager
 >
 IsTemporaryOriginInitialized
 (
-testOriginMetadata
-.
-mPersistenceType
 testOriginMetadata
 )
 )
@@ -10953,9 +10941,6 @@ quotaManager
 IsTemporaryOriginInitialized
 (
 testOriginMetadata
-.
-mPersistenceType
-testOriginMetadata
 )
 )
 ;
@@ -11206,9 +11191,6 @@ quotaManager
 >
 IsTemporaryOriginInitialized
 (
-testOriginMetadata
-.
-mPersistenceType
 testOriginMetadata
 )
 )
@@ -11467,9 +11449,6 @@ quotaManager
 IsTemporaryOriginInitialized
 (
 testOriginMetadata
-.
-mPersistenceType
-testOriginMetadata
 )
 )
 ;
@@ -11720,9 +11699,6 @@ quotaManager
 >
 IsTemporaryOriginInitialized
 (
-testOriginMetadata
-.
-mPersistenceType
 testOriginMetadata
 )
 )
@@ -11975,9 +11951,6 @@ quotaManager
 IsTemporaryOriginInitialized
 (
 testOriginMetadata
-.
-mPersistenceType
-testOriginMetadata
 )
 )
 ;
@@ -12174,9 +12147,6 @@ quotaManager
 >
 IsTemporaryOriginInitialized
 (
-testOriginMetadata
-.
-mPersistenceType
 testOriginMetadata
 )
 )
@@ -12435,9 +12405,6 @@ quotaManager
 IsTemporaryOriginInitialized
 (
 testOriginMetadata
-.
-mPersistenceType
-testOriginMetadata
 )
 )
 ;
@@ -12688,9 +12655,6 @@ quotaManager
 >
 IsTemporaryOriginInitialized
 (
-testOriginMetadata
-.
-mPersistenceType
 testOriginMetadata
 )
 )
