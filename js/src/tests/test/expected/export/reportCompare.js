@@ -39,6 +39,10 @@ description
 assert
 .
 sameValue
+flags
+:
+-
+noStrict
 esid
 :
 pending

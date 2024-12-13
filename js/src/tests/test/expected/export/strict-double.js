@@ -38,7 +38,7 @@ file
 flags
 :
 -
-noStrict
+onlyStrict
 description
 :
 |
@@ -51,6 +51,11 @@ pending
 -
 *
 /
+"
+use
+strict
+"
+;
 async
 function
 f
