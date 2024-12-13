@@ -3528,6 +3528,7 @@ mozilla
 {
 class
 nsDisplayVideo
+final
 :
 public
 nsPaintedDisplayItem
@@ -3556,7 +3557,7 @@ nsDisplayVideo
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayVideo
 )

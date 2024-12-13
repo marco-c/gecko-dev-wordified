@@ -9274,6 +9274,7 @@ mStyleDisplay
 }
 class
 nsDisplayFramesetBorder
+final
 :
 public
 nsPaintedDisplayItem
@@ -9302,7 +9303,7 @@ nsDisplayFramesetBorder
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayFramesetBorder
 )
@@ -10564,6 +10565,7 @@ mStyleDisplay
 }
 class
 nsDisplayFramesetBlank
+final
 :
 public
 nsPaintedDisplayItem
@@ -10592,7 +10594,7 @@ nsDisplayFramesetBlank
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayFramesetBlank
 )

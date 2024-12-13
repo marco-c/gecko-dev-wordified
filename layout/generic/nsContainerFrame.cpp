@@ -2883,6 +2883,7 @@ GetNextSibling
 }
 class
 nsDisplaySelectionOverlay
+final
 :
 public
 nsPaintedDisplayItem
@@ -2930,7 +2931,7 @@ nsDisplaySelectionOverlay
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplaySelectionOverlay
 )

@@ -17877,7 +17877,7 @@ DisplaySVGText
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 DisplaySVGText
 )
@@ -19168,14 +19168,11 @@ SVGTextFrame
 MutationObserver
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 {
 mFrame

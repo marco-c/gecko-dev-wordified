@@ -483,6 +483,13 @@ h
 "
 #
 include
+"
+nsCaret
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -525,9 +532,6 @@ nsIContent
 ;
 class
 nsSubDocumentFrame
-;
-class
-nsCaret
 ;
 struct
 WrFiltersHolder
@@ -13290,18 +13294,10 @@ Combines3DTransformWithAncestors
 ;
 }
 }
-virtual
-~
-nsDisplayItem
-(
-)
-{
-MOZ_COUNT_DTOR
+MOZ_COUNTED_DTOR_VIRTUAL
 (
 nsDisplayItem
 )
-;
-}
 void
 SetType
 (
@@ -21536,18 +21532,10 @@ nsDisplayList
 aList
 )
 ;
-~
-nsDisplayContainer
-(
-)
-override
-{
-MOZ_COUNT_DTOR
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayContainer
 )
-;
-}
 NS_DISPLAY_DECL_NAME
 (
 "
@@ -21892,6 +21880,7 @@ types
 /
 class
 nsDisplayGeneric
+final
 :
 public
 nsPaintedDisplayItem
@@ -22067,7 +22056,7 @@ DisplayItemType
 TYPE_GENERIC
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayGeneric
 )
@@ -22476,6 +22465,7 @@ bother
 /
 class
 nsDisplayReflowCount
+final
 :
 public
 nsPaintedDisplayItem
@@ -22520,7 +22510,7 @@ nsDisplayReflowCount
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayReflowCount
 )
@@ -22790,6 +22780,7 @@ MOZ_REFLOW_PERF_DSP
 MOZ_REFLOW_PERF
 class
 nsDisplayCaret
+final
 :
 public
 nsPaintedDisplayItem
@@ -22806,17 +22797,10 @@ nsIFrame
 aCaretFrame
 )
 ;
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
-~
-nsDisplayCaret
+MOZ_COUNTED_DTOR_FINAL
 (
+nsDisplayCaret
 )
-override
-;
-#
-endif
 NS_DISPLAY_DECL_NAME
 (
 "
@@ -23866,6 +23850,7 @@ mColor
 ;
 class
 nsDisplaySolidColor
+final
 :
 public
 nsDisplaySolidColorBase
@@ -23943,7 +23928,7 @@ SetCantBeReused
 ;
 }
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplaySolidColor
 )
@@ -24133,6 +24118,7 @@ dimmer
 /
 class
 nsDisplaySolidColorRegion
+final
 :
 public
 nsPaintedDisplayItem
@@ -24203,7 +24189,7 @@ nsDisplaySolidColorRegion
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplaySolidColorRegion
 )
@@ -24579,12 +24565,10 @@ aFrameForBounds
 nullptr
 )
 ;
-~
-nsDisplayBackgroundImage
+MOZ_COUNTED_DTOR_OVERRIDE
 (
+nsDisplayBackgroundImage
 )
-override
-;
 NS_DISPLAY_DECL_NAME
 (
 "
@@ -25455,6 +25439,7 @@ informations
 /
 class
 nsDisplayTableBackgroundImage
+final
 :
 public
 nsDisplayBackgroundImage
@@ -25952,6 +25937,7 @@ mAppearance
 ;
 class
 nsDisplayTableThemedBackground
+final
 :
 public
 nsDisplayThemedBackground
@@ -26660,6 +26646,7 @@ mColor
 ;
 class
 nsDisplayTableBackgroundColor
+final
 :
 public
 nsDisplayBackgroundColor
@@ -26867,7 +26854,7 @@ GetBoundsInternal
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayBoxShadowOuter
 )
@@ -27023,6 +27010,7 @@ frame
 /
 class
 nsDisplayBoxShadowInner
+final
 :
 public
 nsPaintedDisplayItem
@@ -27051,7 +27039,7 @@ nsDisplayBoxShadowInner
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayBoxShadowInner
 )
@@ -27315,7 +27303,7 @@ nsDisplayOutline
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayOutline
 )
@@ -27702,7 +27690,7 @@ SetHasHitTestInfo
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayCompositorHitTestInfo
 )
@@ -28230,12 +28218,10 @@ nsDisplayWrapList
 )
 ;
 }
-~
-nsDisplayWrapList
+MOZ_COUNTED_DTOR_OVERRIDE
 (
+nsDisplayWrapList
 )
-override
-;
 const
 nsDisplayWrapList
 *
@@ -29409,6 +29395,7 @@ false
 ;
 class
 nsDisplayWrapper
+final
 :
 public
 nsDisplayWrapList
@@ -29730,6 +29717,7 @@ style
 /
 class
 nsDisplayOpacity
+final
 :
 public
 nsDisplayWrapList
@@ -29860,7 +29848,7 @@ aOutFrames
 )
 override
 ;
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayOpacity
 )
@@ -30605,6 +30593,7 @@ NS_DISPLAY_ALLOW_CLONING
 ;
 class
 nsDisplayTableBlendMode
+final
 :
 public
 nsDisplayBlendMode
@@ -31062,6 +31051,7 @@ NS_DISPLAY_ALLOW_CLONING
 ;
 class
 nsDisplayTableBlendContainer
+final
 :
 public
 nsDisplayBlendContainer
@@ -31997,12 +31987,10 @@ nsDisplayOwnLayerFlags
 aFlags
 )
 ;
-~
-nsDisplaySubDocument
+MOZ_COUNTED_DTOR_OVERRIDE
 (
+nsDisplaySubDocument
 )
-override
-;
 NS_DISPLAY_DECL_NAME
 (
 "
@@ -32161,6 +32149,7 @@ it
 /
 class
 nsDisplayStickyPosition
+final
 :
 public
 nsDisplayOwnLayer
@@ -32233,7 +32222,7 @@ nsDisplayStickyPosition
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayStickyPosition
 )
@@ -33002,6 +32991,7 @@ NS_DISPLAY_ALLOW_CLONING
 ;
 class
 nsDisplayTableFixedPosition
+final
 :
 public
 nsDisplayFixedPosition
@@ -33167,6 +33157,7 @@ tree
 /
 class
 nsDisplayScrollInfoLayer
+final
 :
 public
 nsDisplayWrapList
@@ -33197,7 +33188,7 @@ nsRect
 aHitArea
 )
 ;
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayScrollInfoLayer
 )
@@ -33397,6 +33388,7 @@ layer
 /
 class
 nsDisplayZoom
+final
 :
 public
 nsDisplaySubDocument
@@ -33514,7 +33506,7 @@ nsDisplayOwnLayerFlags
 None
 )
 ;
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayZoom
 )
@@ -33699,6 +33691,7 @@ layer
 /
 class
 nsDisplayAsyncZoom
+final
 :
 public
 nsDisplayOwnLayer
@@ -33759,17 +33752,10 @@ nsDisplayAsyncZoom
 )
 ;
 }
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
-virtual
-~
-nsDisplayAsyncZoom
+MOZ_COUNTED_DTOR_FINAL
 (
+nsDisplayAsyncZoom
 )
-;
-#
-endif
 NS_DISPLAY_DECL_NAME
 (
 "
@@ -34126,6 +34112,7 @@ elements
 /
 class
 nsDisplayMasksAndClipPaths
+final
 :
 public
 nsDisplayEffectsBase
@@ -34190,7 +34177,7 @@ nsDisplayMasksAndClipPaths
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayMasksAndClipPaths
 )
@@ -34491,6 +34478,7 @@ mWrapsBackdropFilter
 ;
 class
 nsDisplayBackdropFilters
+final
 :
 public
 nsDisplayWrapList
@@ -34550,7 +34538,7 @@ nsDisplayBackdropFilters
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayBackdropFilters
 )
@@ -34721,6 +34709,7 @@ elements
 /
 class
 nsDisplayFilters
+final
 :
 public
 nsDisplayEffectsBase
@@ -34786,7 +34775,7 @@ nsDisplayFilters
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayFilters
 )
@@ -35210,6 +35199,7 @@ null
 /
 class
 nsDisplayTransform
+final
 :
 public
 nsPaintedDisplayItem
@@ -35343,7 +35333,7 @@ WithTransformGetter
 )
 )
 ;
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayTransform
 )
@@ -37617,6 +37607,7 @@ separately
 /
 class
 nsDisplayPerspective
+final
 :
 public
 nsPaintedDisplayItem
@@ -37635,14 +37626,6 @@ nsDisplayList
 *
 aList
 )
-;
-~
-nsDisplayPerspective
-(
-)
-override
-=
-default
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -38054,7 +38037,7 @@ nsTextFrame
 aFrame
 )
 ;
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayText
 )
@@ -38505,6 +38488,7 @@ SVG
 /
 class
 nsDisplaySVGWrapper
+final
 :
 public
 nsDisplayWrapList
@@ -38524,7 +38508,7 @@ nsDisplayList
 aList
 )
 ;
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplaySVGWrapper
 )
@@ -38630,6 +38614,7 @@ object
 /
 class
 nsDisplayForeignObject
+final
 :
 public
 nsDisplayWrapList
@@ -38649,17 +38634,10 @@ nsDisplayList
 aList
 )
 ;
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
-virtual
-~
-nsDisplayForeignObject
+MOZ_COUNTED_DTOR_FINAL
 (
+nsDisplayForeignObject
 )
-;
-#
-endif
 NS_DISPLAY_DECL_NAME
 (
 "
@@ -38761,6 +38739,7 @@ hyperlink
 /
 class
 nsDisplayLink
+final
 :
 public
 nsPaintedDisplayItem
@@ -38859,6 +38838,7 @@ document
 /
 class
 nsDisplayDestination
+final
 :
 public
 nsPaintedDisplayItem

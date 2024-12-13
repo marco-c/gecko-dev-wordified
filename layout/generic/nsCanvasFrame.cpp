@@ -2777,6 +2777,7 @@ GetBounds
 /
 class
 nsDisplayCanvasFocus
+final
 :
 public
 nsPaintedDisplayItem
@@ -2805,7 +2806,7 @@ nsDisplayCanvasFocus
 )
 ;
 }
-MOZ_COUNTED_DTOR_OVERRIDE
+MOZ_COUNTED_DTOR_FINAL
 (
 nsDisplayCanvasFocus
 )
