@@ -4668,11 +4668,13 @@ as
 is
 .
                 
-(
-_
-fileExt
-)
-=
+if
+"
+_FIXTURE
+"
+in
+fileName
+or
 os
 .
 path
@@ -4681,9 +4683,9 @@ splitext
 (
 fileName
 )
-                
-if
-fileExt
+[
+1
+]
 !
 =
 "
