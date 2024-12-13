@@ -106,6 +106,17 @@ Security
 PSM
 "
 )
+DIRS
++
+=
+[
+"
+/
+security
+/
+mls
+"
+]
 with
 Files
 (
