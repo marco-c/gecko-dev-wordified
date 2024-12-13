@@ -1027,7 +1027,7 @@ dom
 :
 Element
 &
-aEditingHost
+aAncestorLimiter
 )
 ;
 /
