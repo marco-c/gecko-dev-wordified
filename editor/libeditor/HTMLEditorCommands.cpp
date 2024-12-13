@@ -1170,7 +1170,6 @@ DispatchPasteEvent
 :
 :
 Yes
-nullptr
 aPrincipal
 )
 ;
