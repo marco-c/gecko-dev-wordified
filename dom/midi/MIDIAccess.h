@@ -283,8 +283,6 @@ Observer
 <
 MIDIPortList
 >
-public
-SupportsWeakPtr
 {
 /
 /
