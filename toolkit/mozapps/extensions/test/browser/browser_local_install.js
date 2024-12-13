@@ -1500,16 +1500,6 @@ required
 "
 false
 ]
-[
-"
-extensions
-.
-ui
-.
-ignoreUnsigned
-"
-true
-]
 ]
 }
 )

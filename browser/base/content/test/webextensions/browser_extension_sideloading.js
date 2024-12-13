@@ -419,7 +419,7 @@ extensions
 .
 ui
 .
-ignoreUnsigned
+showAddonIconForUnsigned
 "
 true
 ]
