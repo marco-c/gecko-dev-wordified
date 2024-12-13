@@ -104,7 +104,7 @@ negative
 :
 phase
 :
-early
+parse
 type
 :
 SyntaxError
@@ -123,3 +123,7 @@ await
 0
 ;
 }
+DONOTEVALUATE
+(
+)
+;
