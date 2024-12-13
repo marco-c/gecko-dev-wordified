@@ -1285,7 +1285,7 @@ Handle
 Value
 >
 temporalTimeZoneLike
-PlainDateTime
+ISODateTime
 *
 dateTime
 )
@@ -1607,7 +1607,7 @@ vp
 Step
 1
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -1919,7 +1919,7 @@ vp
 Step
 1
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -2047,7 +2047,7 @@ vp
 Step
 1
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if

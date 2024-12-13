@@ -827,7 +827,7 @@ JSContext
 *
 cx
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 OffsetBehaviour
@@ -1439,7 +1439,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 date
 OffsetBehaviour
@@ -2213,7 +2213,7 @@ Step
 .
 k
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -3758,7 +3758,7 @@ result
 Step
 2
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -3806,7 +3806,7 @@ dateTime
 Step
 4
 .
-PlainDate
+ISODate
 addedDate
 ;
 if
@@ -3841,7 +3841,7 @@ Steps
 -
 6
 .
-PlainDateTime
+ISODateTime
 intermediateDateTime
 ;
 if
@@ -4062,7 +4062,7 @@ true
 Step
 2
 .
-PlainDateTime
+ISODateTime
 startDateTime
 ;
 if
@@ -4089,7 +4089,7 @@ Steps
 -
 3
 .
-PlainDateTime
+ISODateTime
 endDateTime
 ;
 if
@@ -4271,7 +4271,7 @@ Step
 .
 b
 .
-PlainDateTime
+ISODateTime
 intermediateDateTime
 ;
 if
@@ -4905,7 +4905,7 @@ true
 Step
 4
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -5209,7 +5209,7 @@ applicable
 Step
 4
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7367,7 +7367,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7537,7 +7537,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7709,7 +7709,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -7879,7 +7879,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -8049,7 +8049,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -8219,7 +8219,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -8389,7 +8389,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -8558,7 +8558,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -8727,7 +8727,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -8896,7 +8896,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -9065,7 +9065,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -9234,7 +9234,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -9695,7 +9695,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -9865,7 +9865,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -10035,7 +10035,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -10207,7 +10207,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -10393,7 +10393,7 @@ timeZone
 Step
 4
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -10714,7 +10714,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -10884,7 +10884,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -11054,7 +11054,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -11224,7 +11224,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -11394,7 +11394,7 @@ ZonedDateTimeObject
 Step
 3
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -12101,12 +12101,12 @@ Step
 .
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 date
 (
 cx
-PlainDateWithCalendar
+PlainDate
 {
 dateTime
 .
@@ -12481,7 +12481,7 @@ false
 Step
 24
 .
-PlainDateTime
+ISODateTime
 dateTimeResult
 ;
 if
@@ -12763,7 +12763,7 @@ calendar
 Step
 5
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -12858,7 +12858,7 @@ Step
 .
 a
 .
-PlainTime
+Time
 time
 =
 {
@@ -12902,7 +12902,7 @@ b
 -
 c
 .
-PlainDateTime
+ISODateTime
 resultPlainDateTime
 ;
 if
@@ -14428,7 +14428,7 @@ calendar
 Step
 17
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -16204,7 +16204,7 @@ calendar
 Step
 5
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -17104,7 +17104,7 @@ Steps
 -
 6
 .
-PlainDateTime
+ISODateTime
 temporalDateTime
 ;
 if
@@ -17301,7 +17301,7 @@ Steps
 -
 6
 .
-PlainDateTime
+ISODateTime
 temporalDateTime
 ;
 if
@@ -17493,7 +17493,7 @@ Steps
 -
 4
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if

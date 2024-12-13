@@ -190,13 +190,13 @@ struct
 Duration
 ;
 struct
-PlainDate
+ISODate
 ;
 struct
-PlainDateTime
+ISODateTime
 ;
 struct
-PlainTime
+Time
 ;
 struct
 MOZ_STACK_CLASS
@@ -304,7 +304,7 @@ MOZ_STACK_CLASS
 ParsedZonedDateTime
 final
 {
-PlainDateTime
+ISODateTime
 dateTime
 =
 {
@@ -376,7 +376,7 @@ JSString
 *
 >
 str
-PlainDateTime
+ISODateTime
 *
 result
 int64_t
@@ -567,7 +567,7 @@ JSString
 *
 >
 str
-PlainTime
+Time
 *
 result
 )
@@ -597,7 +597,7 @@ JSString
 *
 >
 str
-PlainDate
+ISODate
 *
 result
 bool
@@ -639,7 +639,7 @@ JSString
 *
 >
 str
-PlainDate
+ISODate
 *
 result
 JS
@@ -678,7 +678,7 @@ JSString
 *
 >
 str
-PlainDateTime
+ISODateTime
 *
 result
 JS
@@ -930,7 +930,7 @@ const
 temporal
 :
 :
-PlainDateTime
+ISODateTime
 &
 dateTime
 (

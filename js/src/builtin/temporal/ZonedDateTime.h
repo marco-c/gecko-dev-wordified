@@ -907,7 +907,7 @@ JSContext
 *
 cx
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 OffsetBehaviour
@@ -960,7 +960,7 @@ JSContext
 *
 cx
 const
-PlainDate
+ISODate
 &
 date
 OffsetBehaviour

@@ -2843,8 +2843,7 @@ MinEpochDay
 *
 *
 *
-Plain
-date
+ISODate
 represents
 a
 date
@@ -2857,7 +2856,7 @@ calendar
 *
 /
 struct
-PlainDate
+ISODate
 final
 {
 /
@@ -2944,7 +2943,7 @@ operator
 =
 (
 const
-PlainDate
+ISODate
 &
 other
 )
@@ -2981,7 +2980,7 @@ operator
 =
 (
 const
-PlainDate
+ISODate
 &
 other
 )
@@ -3004,8 +3003,7 @@ other
 *
 *
 *
-Plain
-time
+Time
 represents
 a
 time
@@ -3028,7 +3026,7 @@ supported
 *
 /
 struct
-PlainTime
+Time
 final
 {
 /
@@ -3103,7 +3101,7 @@ operator
 =
 (
 const
-PlainTime
+Time
 &
 other
 )
@@ -3164,7 +3162,7 @@ operator
 =
 (
 const
-PlainTime
+Time
 &
 other
 )
@@ -3187,10 +3185,7 @@ other
 *
 *
 *
-Plain
-date
--
-time
+ISODateTime
 represents
 a
 date
@@ -3206,13 +3201,13 @@ calendar
 *
 /
 struct
-PlainDateTime
+ISODateTime
 final
 {
-PlainDate
+ISODate
 date
 ;
-PlainTime
+Time
 time
 ;
 bool
@@ -3221,7 +3216,7 @@ operator
 =
 (
 const
-PlainDateTime
+ISODateTime
 &
 other
 )
@@ -3250,7 +3245,7 @@ operator
 =
 (
 const
-PlainDateTime
+ISODateTime
 &
 other
 )
@@ -3345,7 +3340,7 @@ PackedDate
 pack
 (
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -3386,7 +3381,7 @@ DayShift
 }
 static
 constexpr
-PlainDate
+ISODate
 unpack
 (
 const
@@ -3566,7 +3561,7 @@ PackedTime
 pack
 (
 const
-PlainTime
+Time
 &
 time
 )
@@ -3637,7 +3632,7 @@ NanosecondShift
 }
 static
 constexpr
-PlainTime
+Time
 unpack
 (
 const

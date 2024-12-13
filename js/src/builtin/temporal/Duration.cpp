@@ -9064,7 +9064,7 @@ DateDuration
 duration
 Handle
 <
-PlainDateWithCalendar
+PlainDate
 >
 plainRelativeTo
 int64_t
@@ -9161,7 +9161,7 @@ false
 Step
 3
 .
-PlainDate
+ISODate
 later
 ;
 if
@@ -10635,7 +10635,7 @@ JSObject
 options
 MutableHandle
 <
-PlainDateWithCalendar
+PlainDate
 >
 plainRelativeTo
 MutableHandle
@@ -10657,7 +10657,7 @@ plainRelativeTo
 .
 set
 (
-PlainDateWithCalendar
+PlainDate
 {
 }
 )
@@ -10992,7 +10992,7 @@ plainRelativeTo
 .
 set
 (
-PlainDateWithCalendar
+PlainDate
 {
 date
 calendar
@@ -11082,7 +11082,7 @@ plainRelativeTo
 .
 set
 (
-PlainDateWithCalendar
+PlainDate
 {
 date
 calendar
@@ -11206,7 +11206,7 @@ Step
 .
 f
 .
-PlainDateTime
+ISODateTime
 dateTime
 ;
 if
@@ -13883,7 +13883,7 @@ Instant
 &
 destEpochNs
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 Handle
@@ -14220,7 +14220,7 @@ Step
 .
 b
 .
-PlainDate
+ISODate
 weeksStart
 ;
 if
@@ -14262,7 +14262,7 @@ Step
 .
 c
 .
-PlainDate
+ISODate
 weeksEnd
 ;
 if
@@ -14627,7 +14627,7 @@ Steps
 -
 8
 .
-PlainDate
+ISODate
 start
 ;
 if
@@ -14661,7 +14661,7 @@ Steps
 -
 10
 .
-PlainDate
+ISODate
 end
 ;
 if
@@ -14758,7 +14758,7 @@ a
 auto
 startDateTime
 =
-PlainDateTime
+ISODateTime
 {
 start
 dateTime
@@ -14814,7 +14814,7 @@ d
 auto
 endDateTime
 =
-PlainDateTime
+ISODateTime
 {
 end
 dateTime
@@ -15772,7 +15772,7 @@ NormalizedDuration
 &
 duration
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 Handle
@@ -15860,7 +15860,7 @@ Steps
 -
 3
 .
-PlainDate
+ISODate
 start
 ;
 if
@@ -15897,7 +15897,7 @@ Step
 auto
 startDateTime
 =
-PlainDateTime
+ISODateTime
 {
 start
 dateTime
@@ -15932,7 +15932,7 @@ sign
 Step
 6
 .
-PlainDateTime
+ISODateTime
 endDateTime
 ;
 if
@@ -16869,7 +16869,7 @@ DurationNudge
 &
 nudge
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 Handle
@@ -17366,7 +17366,7 @@ b
 .
 iv
 .
-PlainDate
+ISODate
 end
 ;
 if
@@ -17405,7 +17405,7 @@ v
 auto
 endDateTime
 =
-PlainDateTime
+ISODateTime
 {
 end
 dateTime
@@ -17647,7 +17647,7 @@ Instant
 &
 destEpochNs
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 Handle
@@ -19188,7 +19188,7 @@ Steps
 .
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 plainRelativeTo
 (
@@ -22069,7 +22069,7 @@ Increment
 ;
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 plainRelativeTo
 (
@@ -23228,7 +23228,7 @@ targetTime
 =
 AddTime
 (
-PlainTime
+Time
 {
 }
 normDuration
@@ -23289,7 +23289,7 @@ Step
 .
 c
 .
-PlainDate
+ISODate
 targetDate
 ;
 if
@@ -23330,7 +23330,7 @@ e
 auto
 sourceDateTime
 =
-PlainDateTime
+ISODateTime
 {
 plainRelativeTo
 {
@@ -23340,7 +23340,7 @@ plainRelativeTo
 auto
 targetDateTime
 =
-PlainDateTime
+ISODateTime
 {
 targetDate
 targetTime
@@ -23803,7 +23803,7 @@ Steps
 .
 Rooted
 <
-PlainDateWithCalendar
+PlainDate
 >
 plainRelativeTo
 (
@@ -24174,7 +24174,7 @@ targetTime
 =
 AddTime
 (
-PlainTime
+Time
 {
 }
 normDuration
@@ -24235,7 +24235,7 @@ Step
 .
 c
 .
-PlainDate
+ISODate
 targetDate
 ;
 if
@@ -24274,7 +24274,7 @@ d
 auto
 sourceDateTime
 =
-PlainDateTime
+ISODateTime
 {
 plainRelativeTo
 {
@@ -24284,7 +24284,7 @@ plainRelativeTo
 auto
 targetDateTime
 =
-PlainDateTime
+ISODateTime
 {
 targetDate
 targetTime

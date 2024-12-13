@@ -1757,7 +1757,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 PossibleInstants
@@ -2907,7 +2907,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDate
+ISODate
 &
 date
 Instant
@@ -2923,7 +2923,7 @@ Step
 auto
 dateTime
 =
-PlainDateTime
+ISODateTime
 {
 date
 {
@@ -5025,7 +5025,7 @@ epochNanoseconds
 *
 /
 static
-PlainDateTime
+ISODateTime
 GetISOPartsFromEpoch
 (
 const
@@ -5186,7 +5186,7 @@ remainderNs
 Step
 13
 .
-PlainDateTime
+ISODateTime
 result
 =
 {
@@ -5261,11 +5261,11 @@ nanosecond
 *
 /
 static
-PlainDateTime
+ISODateTime
 BalanceISODateTime
 (
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 int64_t
@@ -5388,7 +5388,7 @@ epochNs
 )
 *
 /
-PlainDateTime
+ISODateTime
 js
 :
 :
@@ -5465,7 +5465,7 @@ perf
 Step
 2
 .
-PlainDateTime
+ISODateTime
 dateTime
 =
 GetISOPartsFromEpoch
@@ -5531,7 +5531,7 @@ const
 Instant
 &
 instant
-PlainDateTime
+ISODateTime
 *
 result
 )
@@ -5635,7 +5635,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 PossibleInstants
@@ -5893,7 +5893,7 @@ auto
 AddTime
 (
 const
-PlainTime
+Time
 &
 time
 int64_t
@@ -5979,7 +5979,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 TemporalDisambiguation
@@ -6529,7 +6529,7 @@ d
 auto
 earlierDateTime
 =
-PlainDateTime
+ISODateTime
 {
 earlierDate
 earlierTime
@@ -6708,7 +6708,7 @@ Step
 auto
 laterDateTime
 =
-PlainDateTime
+ISODateTime
 {
 laterDate
 laterTime
@@ -6817,7 +6817,7 @@ TimeZoneValue
 >
 timeZone
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 TemporalDisambiguation

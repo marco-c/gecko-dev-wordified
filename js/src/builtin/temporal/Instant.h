@@ -579,7 +579,7 @@ Instant
 GetUTCEpochNanoseconds
 (
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 )
@@ -610,7 +610,7 @@ Instant
 GetUTCEpochNanoseconds
 (
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 const

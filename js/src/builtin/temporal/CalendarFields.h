@@ -2082,16 +2082,16 @@ js
 temporal
 {
 class
-PlainDateWithCalendar
+PlainDate
 ;
 class
-PlainDateTimeWithCalendar
+PlainDateTime
 ;
 class
-PlainMonthDayWithCalendar
+PlainMonthDay
 ;
 class
-PlainYearMonthWithCalendar
+PlainYearMonth
 ;
 /
 *
@@ -2332,7 +2332,7 @@ JSContext
 cx
 Handle
 <
-PlainDateWithCalendar
+PlainDate
 >
 date
 MutableHandle
@@ -2362,7 +2362,7 @@ JSContext
 cx
 Handle
 <
-PlainDateTimeWithCalendar
+PlainDateTime
 >
 dateTime
 MutableHandle
@@ -2392,7 +2392,7 @@ JSContext
 cx
 Handle
 <
-PlainMonthDayWithCalendar
+PlainMonthDay
 >
 monthDay
 MutableHandle
@@ -2422,7 +2422,7 @@ JSContext
 cx
 Handle
 <
-PlainYearMonthWithCalendar
+PlainYearMonth
 >
 yearMonth
 MutableHandle

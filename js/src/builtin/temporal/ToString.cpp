@@ -1502,7 +1502,7 @@ TemporalStringBuilder
 &
 result
 const
-PlainTime
+Time
 &
 time
 Precision
@@ -1626,7 +1626,7 @@ TemporalStringBuilder
 &
 result
 const
-PlainDate
+ISODate
 &
 date
 )
@@ -1685,7 +1685,7 @@ TemporalStringBuilder
 &
 result
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 Precision
@@ -2654,7 +2654,7 @@ JSContext
 *
 cx
 const
-PlainDateTime
+ISODateTime
 &
 dateTime
 Handle
@@ -2777,7 +2777,7 @@ JSContext
 *
 cx
 const
-PlainTime
+Time
 &
 time
 Precision
