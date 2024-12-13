@@ -111,7 +111,7 @@ create
 (
 ctx
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 {
 value

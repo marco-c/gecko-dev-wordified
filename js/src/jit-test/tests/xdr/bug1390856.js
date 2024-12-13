@@ -62,7 +62,7 @@ t
 sourceIsLazy
 :
 true
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

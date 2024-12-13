@@ -16928,7 +16928,7 @@ loadBytecode
 false
 ;
 bool
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 =
 false
 ;
@@ -17154,7 +17154,7 @@ JS_GetProperty
 cx
 opts
 "
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 "
 &
 v
@@ -17175,7 +17175,7 @@ isUndefined
 )
 )
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 =
 ToBoolean
 (
@@ -17519,7 +17519,7 @@ if
 loadBytecode
 |
 |
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 )
 {
 if
@@ -18071,7 +18071,7 @@ false
 }
 if
 (
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 )
 {
 bool
@@ -18250,7 +18250,7 @@ linearly
 .
 if
 (
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 )
 {
 if
@@ -18272,7 +18272,7 @@ false
 }
 if
 (
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 )
 {
 /
@@ -60968,7 +60968,7 @@ usual
 n
 "
 "
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 if
 true
@@ -61048,7 +61048,7 @@ either
 n
 "
 "
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 is
 true
 then
@@ -65057,7 +65057,7 @@ by
 setting
 \
 "
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 \
 "
 and

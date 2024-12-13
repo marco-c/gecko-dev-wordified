@@ -35,7 +35,7 @@ evaluate
 (
 code
 {
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }

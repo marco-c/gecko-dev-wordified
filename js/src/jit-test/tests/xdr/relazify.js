@@ -180,7 +180,7 @@ evalWithCache
 (
 test
 {
-incremental
+collectDelazifications
 :
 true
 checkAfter

@@ -104,7 +104,7 @@ check
 envChainObject
 :
 nonSyntacticEnvironment
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }
@@ -138,7 +138,7 @@ check
 envChainObject
 :
 nonSyntacticEnvironment
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }
@@ -193,7 +193,7 @@ check
 global
 :
 global
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }
@@ -255,7 +255,7 @@ check
 envChainObject
 :
 nonSyntacticEnvironment
-saveIncrementalBytecode
+saveBytecodeWithDelazifications
 :
 true
 }
