@@ -905,6 +905,7 @@ gBrowser
 .
 goBack
 (
+false
 )
 ;
 }
