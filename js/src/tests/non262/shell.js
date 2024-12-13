@@ -84,7 +84,6 @@ MPL
 (
 function
 (
-global
 )
 {
 const
@@ -123,7 +122,7 @@ exception
 .
 *
 /
-global
+globalThis
 .
 completesNormally
 =
@@ -220,7 +219,7 @@ true
 .
 *
 /
-global
+globalThis
 .
 raisesException
 =
@@ -318,7 +317,7 @@ is
 .
 *
 /
-global
+globalThis
 .
 deepEqual
 =
@@ -599,7 +598,7 @@ method
 .
 *
 /
-global
+globalThis
 .
 makeIterator
 =
@@ -727,7 +726,7 @@ array
 .
 *
 /
-global
+globalThis
 .
 Permutations
 =
@@ -845,7 +844,7 @@ e
 if
 (
 typeof
-global
+globalThis
 .
 assertThrowsValue
 =
@@ -856,7 +855,7 @@ undefined
 '
 )
 {
-global
+globalThis
 .
 assertThrowsValue
 =
@@ -1000,7 +999,7 @@ fullmsg
 if
 (
 typeof
-global
+globalThis
 .
 assertThrownErrorContains
 =
@@ -1011,7 +1010,7 @@ undefined
 '
 )
 {
-global
+globalThis
 .
 assertThrownErrorContains
 =
@@ -1097,7 +1096,7 @@ thrown
 if
 (
 typeof
-global
+globalThis
 .
 assertThrowsInstanceOfWithMessageCheck
 =
@@ -1108,7 +1107,7 @@ undefined
 '
 )
 {
-global
+globalThis
 .
 assertThrowsInstanceOfWithMessageCheck
 =
@@ -1252,7 +1251,7 @@ fullmsg
 if
 (
 typeof
-global
+globalThis
 .
 assertThrowsInstanceOf
 =
@@ -1263,7 +1262,7 @@ undefined
 '
 )
 {
-global
+globalThis
 .
 assertThrowsInstanceOf
 =
@@ -1292,7 +1291,7 @@ msg
 if
 (
 typeof
-global
+globalThis
 .
 assertThrowsInstanceOfWithMessage
 =
@@ -1303,7 +1302,7 @@ undefined
 '
 )
 {
-global
+globalThis
 .
 assertThrowsInstanceOfWithMessage
 =
@@ -1336,7 +1335,7 @@ msg
 if
 (
 typeof
-global
+globalThis
 .
 assertThrowsInstanceOfWithMessageContains
 =
@@ -1347,7 +1346,7 @@ undefined
 '
 )
 {
-global
+globalThis
 .
 assertThrowsInstanceOfWithMessageContains
 =
@@ -1383,7 +1382,7 @@ msg
 ;
 }
 }
-global
+globalThis
 .
 assertDeepEq
 =
@@ -3088,6 +3087,5 @@ b
 }
 )
 (
-this
 )
 ;
