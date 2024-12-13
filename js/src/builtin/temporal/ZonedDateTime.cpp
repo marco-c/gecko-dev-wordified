@@ -10774,6 +10774,10 @@ int64_t
 Step
 10
 .
+(
+Inlined
+TotalTimeDuration
+)
 constexpr
 auto
 nsPerHour
@@ -15001,6 +15005,10 @@ Step
 .
 j
 .
+(
+Inlined
+AddTimeDurationToEpochNanoseconds
+)
 epochNanoseconds
 =
 startNs

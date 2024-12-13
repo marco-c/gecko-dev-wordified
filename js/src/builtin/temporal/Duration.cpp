@@ -10804,10 +10804,10 @@ rounded
 *
 *
 *
-DivideTimeDuration
+TotalTimeDuration
 (
-d
-divisor
+timeDuration
+unit
 )
 *
 /
@@ -10818,7 +10818,7 @@ js
 temporal
 :
 :
-DivideTimeDuration
+TotalTimeDuration
 (
 const
 TimeDuration
