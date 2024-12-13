@@ -720,6 +720,17 @@ type
 dbg
 .
 type
+relatedDocumentInnerWindowId
+:
+dbg
+.
+window
+?
+.
+windowGlobalChild
+?
+.
+innerWindowId
 url
 :
 absoluteURL
