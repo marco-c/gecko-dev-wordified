@@ -9131,6 +9131,9 @@ BindingKind
 :
 :
 Const
+#
+ifdef
+ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 |
 |
 bi
@@ -9144,6 +9147,8 @@ BindingKind
 :
 :
 Using
+#
+endif
 "
 bad
 var
