@@ -819,7 +819,7 @@ vec
 !
 [
 "
-test1
+store1
 "
 .
 into
@@ -1060,7 +1060,7 @@ vec
 !
 [
 "
-test1
+store1
 "
 .
 into
@@ -1268,7 +1268,7 @@ vec
 !
 [
 "
-test1
+store1
 "
 .
 into
@@ -1597,7 +1597,7 @@ vec
 !
 [
 "
-test1
+store1
 "
 .
 into

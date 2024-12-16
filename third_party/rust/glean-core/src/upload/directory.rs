@@ -745,6 +745,7 @@ the
 persisted
 headers
 .
+pub
 fn
 process_metadata
 (
@@ -2533,6 +2534,7 @@ vec
 !
 [
 ]
+true
 )
 ;
 glean
@@ -2748,6 +2750,7 @@ vec
 !
 [
 ]
+true
 )
 ;
 glean
@@ -3024,6 +3027,7 @@ vec
 !
 [
 ]
+true
 )
 ;
 glean
