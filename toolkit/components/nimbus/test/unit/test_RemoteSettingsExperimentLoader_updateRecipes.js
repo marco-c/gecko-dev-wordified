@@ -3474,6 +3474,9 @@ validationFailed
 .
 testGetValue
 (
+"
+events
+"
 )
 .
 map
@@ -6213,6 +6216,9 @@ unenrollment
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -9737,6 +9743,9 @@ isReady
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -10010,6 +10019,9 @@ isReady
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
