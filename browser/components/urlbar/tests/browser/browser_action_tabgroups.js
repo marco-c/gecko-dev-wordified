@@ -125,7 +125,7 @@ robots
 )
 ;
 let
-aboutCrashesTab
+aboutMozillaTab
 =
 BrowserTestUtils
 .
@@ -137,7 +137,7 @@ gBrowser
 "
 about
 :
-crashes
+mozilla
 "
 )
 ;
@@ -152,7 +152,7 @@ addTabGroup
 (
 [
 aboutRobotsTab
-aboutCrashesTab
+aboutMozillaTab
 ]
 {
 color
