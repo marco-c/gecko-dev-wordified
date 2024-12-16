@@ -1452,10 +1452,12 @@ define
 DEFINED_ON_RESULT_crash
 \
 {
+\
 MOZ_CRASH
 (
 )
 ;
+\
 }
 #
 define
