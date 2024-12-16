@@ -333,6 +333,17 @@ CSPViolationData
 (
 )
 ;
+static
+const
+nsDependentSubstring
+MaybeTruncateSample
+(
+const
+nsAString
+&
+aSample
+)
+;
 BlockedContentSource
 BlockedContentSourceOrUnknown
 (
