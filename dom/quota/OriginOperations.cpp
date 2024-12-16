@@ -13897,6 +13897,12 @@ mIterations
 +
 +
 ;
+aQuotaManager
+.
+IncreaseTotalDirectoryIterations
+(
+)
+;
 return
 Ok
 {

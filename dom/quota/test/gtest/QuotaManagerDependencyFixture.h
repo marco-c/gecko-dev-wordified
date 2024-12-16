@@ -472,6 +472,12 @@ ClientMetadata
 aClientMetadata
 )
 ;
+static
+uint64_t
+TotalDirectoryIterations
+(
+)
+;
 /
 *
 Convenience
