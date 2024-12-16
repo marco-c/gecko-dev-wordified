@@ -567,6 +567,7 @@ can
 be
 executed
 .
+MOZ_CAN_RUN_SCRIPT
 static
 bool
 ContentSecurityPolicyPermitsJSAction
