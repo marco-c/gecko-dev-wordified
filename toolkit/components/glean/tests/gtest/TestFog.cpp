@@ -980,7 +980,9 @@ no_extra_event
 TestGetValue
 (
 "
-store1
+test
+-
+ping
 "
 _ns
 )
@@ -1036,7 +1038,9 @@ an_event
 TestGetValue
 (
 "
-store1
+test
+-
+ping
 "
 _ns
 )
@@ -1247,7 +1251,9 @@ event_with_extra
 TestGetValue
 (
 "
-store1
+test
+-
+ping
 "
 _ns
 )
@@ -1645,7 +1651,9 @@ a_custom_dist
 TestGetValue
 (
 "
-store1
+test
+-
+ping
 "
 _ns
 )
@@ -3628,7 +3636,9 @@ a_url
 TestGetValue
 (
 "
-store1
+test
+-
+ping
 "
 _ns
 )

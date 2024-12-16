@@ -1248,6 +1248,9 @@ enrollment
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -1401,6 +1404,9 @@ enrollment
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 /
@@ -1754,6 +1760,9 @@ enrollment
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -2036,6 +2045,9 @@ enrollment
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 /
@@ -2298,6 +2310,9 @@ enrollFailed
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -2442,6 +2457,9 @@ enrollFailed
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 /
@@ -2641,6 +2659,9 @@ enrollFailed
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -2902,6 +2923,9 @@ enrollFailed
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 /
@@ -3144,6 +3168,9 @@ enrollFailed
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -3270,6 +3297,9 @@ enrollFailed
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 /
@@ -3500,6 +3530,9 @@ enrollFailed
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -3638,6 +3671,9 @@ enrollFailed
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert

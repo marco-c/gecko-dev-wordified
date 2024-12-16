@@ -541,6 +541,9 @@ exposure
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 Assert
@@ -673,6 +676,9 @@ exposure
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 /
@@ -1008,6 +1014,9 @@ exposure
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 /
@@ -1201,6 +1210,9 @@ exposure
 .
 testGetValue
 (
+"
+events
+"
 )
 ;
 /

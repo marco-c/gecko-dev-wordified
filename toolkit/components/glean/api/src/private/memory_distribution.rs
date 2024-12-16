@@ -1764,7 +1764,9 @@ vec
 !
 [
 "
-store1
+test
+-
+ping
 "
 .
 into
@@ -1804,7 +1806,9 @@ metric
 test_get_value
 (
 "
-store1
+test
+-
+ping
 "
 )
 .
@@ -1915,7 +1919,9 @@ parent_metric
 test_get_value
 (
 "
-store1
+test
+-
+ping
 "
 )
 .
