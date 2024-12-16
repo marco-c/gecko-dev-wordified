@@ -715,6 +715,11 @@ id
 dbg
 .
 id
+name
+:
+dbg
+.
+name
 type
 :
 dbg

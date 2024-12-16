@@ -416,15 +416,10 @@ expectedWorkerItem
 {
 label
 :
-javascript
-console
-.
-log
-(
 "
+my
 worker
 "
-)
 tooltip
 :
 data
