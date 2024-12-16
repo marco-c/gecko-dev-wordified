@@ -3087,21 +3087,18 @@ pid
 "
 )
         
-else
-:
-            
-if
+elif
 not
 self
 .
 stackwalk_binary
 :
-                
+            
 errors
 .
 append
 (
-                    
+                
 "
 MINIDUMP_STACKWALK
 not
@@ -3115,7 +3112,7 @@ dump
 Either
 set
 "
-                    
+                
 "
 MINIDUMP_STACKWALK
 or
@@ -3130,7 +3127,7 @@ system
 -
 changes
 "
-                    
+                
 "
 to
 install
@@ -3139,9 +3136,9 @@ minidump
 stackwalk
 .
 "
-                
-)
             
+)
+        
 elif
 self
 .
@@ -3159,12 +3156,12 @@ self
 stackwalk_binary
 )
 :
-                
+            
 errors
 .
 append
 (
-                    
+                
 "
 MINIDUMP_STACKWALK
 binary
@@ -3178,7 +3175,7 @@ Use
 mach
 bootstrap
 "
-                    
+                
 "
 -
 -
@@ -3194,14 +3191,14 @@ minidump
 stackwalk
 .
 "
-                    
+                
 %
 self
 .
 stackwalk_binary
-                
-)
             
+)
+        
 elif
 not
 os
@@ -3216,7 +3213,7 @@ os
 X_OK
 )
 :
-                
+            
 errors
 .
 append
@@ -3869,7 +3866,7 @@ pass
         
 shutil
 .
-move
+copy
 (
 path
 self
@@ -3931,7 +3928,7 @@ extra
             
 shutil
 .
-move
+copy
 (
 extra
 self
