@@ -1066,16 +1066,8 @@ page
 )
 ;
 await
-toolbox
-.
-destroy
+closeTabAndToolbox
 (
-)
-;
-await
-removeTab
-(
-tab
 )
 ;
 }
