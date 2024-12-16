@@ -822,6 +822,15 @@ bak
 "
 ;
 const
+FILE_TEST_PROCESS_UPDATES
+=
+"
+test_process_updates
+.
+txt
+"
+;
+const
 FILE_UPDATE_CONFIG_JSON
 =
 "
@@ -3539,6 +3548,9 @@ FILE_UPDATE_CONFIG_JSON
 :
 case
 FILE_BACKUP_UPDATE_CONFIG_JSON
+:
+case
+FILE_TEST_PROCESS_UPDATES
 :
 case
 FILE_UPDATE_TEST
