@@ -1425,6 +1425,12 @@ ExtContentPolicy
 :
 TYPE_WEB_IDENTITY
 :
+case
+ExtContentPolicy
+:
+:
+TYPE_JSON
+:
 break
 ;
 /
