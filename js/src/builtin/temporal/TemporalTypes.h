@@ -764,6 +764,7 @@ value
 ;
 return
 {
+{
 secs
 .
 value
@@ -774,6 +775,7 @@ nanos
 value
 (
 )
+}
 }
 ;
 }
@@ -939,6 +941,7 @@ value
 ;
 return
 {
+{
 secs
 .
 value
@@ -949,6 +952,7 @@ nanos
 value
 (
 )
+}
 }
 ;
 }
@@ -1141,6 +1145,7 @@ denormalize
 ;
 return
 {
+{
 std
 :
 :
@@ -1155,6 +1160,7 @@ abs
 (
 nanos
 )
+}
 }
 ;
 }
@@ -1396,8 +1402,10 @@ Other
 return
 Other
 {
+{
 seconds
 nanoseconds
+}
 }
 ;
 }
@@ -1424,6 +1432,7 @@ days
 {
 return
 {
+{
 days
 *
 ToSeconds
@@ -1434,6 +1443,7 @@ TemporalUnit
 Day
 )
 0
+}
 }
 ;
 }
@@ -1460,6 +1470,7 @@ minutes
 {
 return
 {
+{
 minutes
 *
 ToSeconds
@@ -1470,6 +1481,7 @@ TemporalUnit
 Minute
 )
 0
+}
 }
 ;
 }
@@ -1537,6 +1549,7 @@ millis
 }
 return
 {
+{
 seconds
 millis
 *
@@ -1545,6 +1558,7 @@ millis
 000
 '
 000
+}
 }
 ;
 }
@@ -1624,8 +1638,10 @@ nanos
 }
 return
 {
+{
 seconds
 nanos
+}
 }
 ;
 }
@@ -1716,8 +1732,10 @@ nanos
 }
 return
 {
+{
 seconds
 nanos
+}
 }
 ;
 }
@@ -1938,8 +1956,10 @@ nanos
 ;
 return
 {
+{
 seconds
 nanos
+}
 }
 ;
 }
@@ -2425,8 +2445,10 @@ nanos
 ;
 return
 {
+{
 seconds
 nanos
+}
 }
 ;
 }
@@ -5112,8 +5134,10 @@ nanos
 ;
 return
 {
+{
 seconds
 nanos
+}
 }
 ;
 }

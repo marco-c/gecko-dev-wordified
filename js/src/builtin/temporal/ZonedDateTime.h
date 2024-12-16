@@ -387,11 +387,13 @@ nanoseconds
 ;
 return
 {
+{
 int64_t
 (
 seconds
 )
 nanoseconds
+}
 }
 ;
 }
