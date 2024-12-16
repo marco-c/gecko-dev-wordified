@@ -50713,7 +50713,7 @@ Some
 LogicalSize
 (
 aWM
-availBased
+NS_UNCONSTRAINEDSIZE
 bSize
 )
 .
