@@ -21457,8 +21457,12 @@ rect
 top
 +
 =
+mCustomNonClientMetrics
+.
 mCaptionHeight
 +
+mCustomNonClientMetrics
+.
 mVertResizeMargin
 ;
 rect
@@ -21466,6 +21470,8 @@ rect
 right
 -
 =
+mCustomNonClientMetrics
+.
 mHorResizeMargin
 ;
 rect
@@ -21473,6 +21479,8 @@ rect
 bottom
 -
 =
+mCustomNonClientMetrics
+.
 mVertResizeMargin
 ;
 rect
@@ -21480,6 +21488,8 @@ rect
 left
 +
 =
+mCustomNonClientMetrics
+.
 mHorResizeMargin
 ;
 :
