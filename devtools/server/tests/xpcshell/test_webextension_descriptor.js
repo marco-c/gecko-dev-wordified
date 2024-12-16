@@ -703,9 +703,6 @@ true
 watcher
 :
 true
-isServerTargetSwitchingEnabled
-:
-true
 }
 }
 "
