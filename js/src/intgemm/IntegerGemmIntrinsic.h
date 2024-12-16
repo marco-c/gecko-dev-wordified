@@ -2591,7 +2591,7 @@ function
 int8_multiply_and_add_bias
 (
 const
-int8_t
+uint8_t
 *
 inputMatrixAPrepared
 float
