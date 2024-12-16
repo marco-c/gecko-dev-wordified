@@ -625,7 +625,7 @@ Get
 (
 )
 ;
-ASSERT_TRUE
+MOZ_RELEASE_ASSERT
 (
 quotaManager
 )
