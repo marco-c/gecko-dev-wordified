@@ -6178,11 +6178,9 @@ to_vector
 (
 )
 )
-key
-:
-snapshot
 .
-key
+.
+snapshot
 }
 }
 )
