@@ -100,6 +100,8 @@ active
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -313,6 +315,8 @@ profiler
 once
 .
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {

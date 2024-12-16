@@ -99,6 +99,9 @@ active
 "
 )
 ;
+await
+ProfilerTestUtils
+.
 startProfilerForMarkerTests
 (
 )
@@ -171,6 +174,8 @@ contentPid
 const
 parentNetworkMarkers
 =
+ProfilerTestUtils
+.
 getInflatedNetworkMarkers
 (
 parentThread
@@ -179,6 +184,8 @@ parentThread
 const
 contentNetworkMarkers
 =
+ProfilerTestUtils
+.
 getInflatedNetworkMarkers
 (
 contentThread

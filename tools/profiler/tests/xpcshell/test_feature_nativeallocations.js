@@ -175,6 +175,8 @@ profiler
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -257,6 +259,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 waitSamplingAndStopAndGetProfile
 (
 )
@@ -443,6 +447,8 @@ allocations
 ;
 {
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {
@@ -487,6 +493,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 waitSamplingAndStopAndGetProfile
 (
 )
@@ -494,6 +502,8 @@ waitSamplingAndStopAndGetProfile
 const
 allocationPayloads
 =
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 profile
@@ -609,6 +619,8 @@ payloads
 const
 allocationPayloads
 =
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 profile

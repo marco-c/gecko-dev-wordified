@@ -193,6 +193,8 @@ page
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 )
@@ -253,7 +255,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 contentBrowser
 url
@@ -910,6 +912,8 @@ page
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 )
@@ -973,7 +977,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 contentBrowser
 url

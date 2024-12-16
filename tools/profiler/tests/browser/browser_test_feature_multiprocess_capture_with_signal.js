@@ -271,6 +271,8 @@ js
 const
 markers
 =
+ProfilerTestUtils
+.
 getInflatedMarkerData
 (
 profile
@@ -301,6 +303,10 @@ phase
 =
 =
 =
+ProfilerTestUtils
+.
+markerPhases
+.
 INTERVAL_START
 &
 &
@@ -335,6 +341,10 @@ phase
 =
 =
 =
+ProfilerTestUtils
+.
+markerPhases
+.
 INTERVAL_END
 &
 &

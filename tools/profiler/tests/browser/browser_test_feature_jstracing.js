@@ -99,6 +99,8 @@ active
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {

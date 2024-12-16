@@ -398,6 +398,9 @@ active
 "
 )
 ;
+await
+ProfilerTestUtils
+.
 startProfilerForMarkerTests
 (
 )
@@ -495,6 +498,8 @@ contentThread
 const
 parentNetworkMarkers
 =
+ProfilerTestUtils
+.
 getInflatedNetworkMarkers
 (
 parentThread
@@ -593,6 +598,8 @@ serviceWorkerFileName
 const
 contentNetworkMarkers
 =
+ProfilerTestUtils
+.
 getInflatedNetworkMarkers
 (
 contentThread
@@ -649,6 +656,8 @@ null
 const
 parentPairs
 =
+ProfilerTestUtils
+.
 getPairsOfNetworkMarkers
 (
 parentNetworkMarkers
@@ -657,6 +666,8 @@ parentNetworkMarkers
 const
 contentPairs
 =
+ProfilerTestUtils
+.
 getPairsOfNetworkMarkers
 (
 contentNetworkMarkers

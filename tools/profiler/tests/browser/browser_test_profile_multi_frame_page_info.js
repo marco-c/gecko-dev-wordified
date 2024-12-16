@@ -193,6 +193,8 @@ page
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 )

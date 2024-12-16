@@ -93,6 +93,8 @@ for
 let
 payload
 of
+ProfilerTestUtils
+.
 getPayloadsOfType
 (
 thread
@@ -275,6 +277,8 @@ active
 )
 ;
 await
+ProfilerTestUtils
+.
 startProfiler
 (
 {

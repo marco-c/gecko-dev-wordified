@@ -124,6 +124,8 @@ const
 profile
 =
 await
+ProfilerTestUtils
+.
 stopNowAndGetProfile
 (
 )
@@ -309,6 +311,8 @@ doSyncWork
 )
 ;
 return
+ProfilerTestUtils
+.
 captureAtLeastOneJsSample
 (
 )

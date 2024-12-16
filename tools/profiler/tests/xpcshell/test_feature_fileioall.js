@@ -135,6 +135,8 @@ filename
 const
 threads
 =
+ProfilerTestUtils
+.
 getThreads
 (
 profile
@@ -480,6 +482,8 @@ filename
 const
 threads
 =
+ProfilerTestUtils
+.
 getThreads
 (
 profile
@@ -911,6 +915,8 @@ path
 )
 ;
 return
+ProfilerTestUtils
+.
 stopNowAndGetProfile
 (
 )
