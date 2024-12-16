@@ -230,7 +230,7 @@ jog_counter
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -306,7 +306,7 @@ jog_string
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -405,7 +405,7 @@ jog_string_list
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -538,7 +538,7 @@ jog_timespan
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -702,7 +702,7 @@ jog_uuid
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -842,7 +842,7 @@ jog_datetime
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -938,7 +938,7 @@ jog_bool
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -1004,7 +1004,7 @@ jog_event_no_extra
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -1095,7 +1095,7 @@ jog_event
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -1236,7 +1236,7 @@ jog_event_with_extra
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -1482,7 +1482,7 @@ jog_memory_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -1662,7 +1662,7 @@ jog_custom_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -1909,6 +1909,7 @@ true
 ]
 [
 ]
+true
 )
 ;
 Assert
@@ -2051,7 +2052,7 @@ jog_timing_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -2371,7 +2372,7 @@ jog_labeled_bool
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -2611,7 +2612,7 @@ jog_labeled_bool_with_labels
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -2833,7 +2834,7 @@ jog_labeled_counter
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -3043,7 +3044,7 @@ jog_labeled_counter_with_labels
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -3305,7 +3306,7 @@ jog_labeled_string
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -3515,7 +3516,7 @@ jog_labeled_string_with_labels
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -3778,7 +3779,7 @@ jog_quantity
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -3843,7 +3844,7 @@ jog_rate
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -3925,7 +3926,7 @@ jog_denominator
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -3957,7 +3958,7 @@ send_in_pings
 "
 test
 -
-only
+ping
 "
 ]
 lifetime
@@ -3993,7 +3994,7 @@ jog_rate_ext
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -4102,7 +4103,7 @@ jog_counter
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -4179,6 +4180,7 @@ true
 [
 kReason
 ]
+true
 )
 ;
 let
@@ -4279,6 +4281,7 @@ true
 [
 kReason
 ]
+true
 )
 ;
 let
@@ -4442,7 +4445,9 @@ a_counter
 "
 [
 "
-store1
+test
+-
+ping
 "
 ]
 "
@@ -4634,7 +4639,9 @@ an_event
 "
 [
 "
-store1
+test
+-
+ping
 "
 ]
 "
@@ -4859,7 +4866,7 @@ a_text
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -4925,7 +4932,7 @@ jog_labeled_custom_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -5151,7 +5158,7 @@ jog_labeled_memory_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -5337,7 +5344,7 @@ jog_labeled_timing_dist
 "
 test
 -
-only
+ping
 "
 ]
 "
@@ -5622,7 +5629,7 @@ jog_labeled_quantity
 "
 test
 -
-only
+ping
 "
 ]
 "

@@ -1052,7 +1052,9 @@ metric
 test_get_value
 (
 "
-store1
+test
+-
+ping
 "
 )
 .
