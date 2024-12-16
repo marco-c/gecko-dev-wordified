@@ -4151,7 +4151,7 @@ call
 (
 CallSiteDesc
 (
-CallSiteDesc
+CallSiteKind
 :
 :
 Func
@@ -14197,7 +14197,7 @@ stub
 CallSiteDesc
 desc
 (
-CallSiteDesc
+CallSiteKind
 :
 :
 Import

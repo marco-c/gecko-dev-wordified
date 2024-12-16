@@ -1306,7 +1306,7 @@ AppendName
 namePayload
 -
 >
-bytes
+vector
 *
 moduleName
 name
@@ -1364,7 +1364,7 @@ AppendName
 namePayload
 -
 >
-bytes
+vector
 funcNames
 [
 funcIndex
