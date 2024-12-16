@@ -786,28 +786,6 @@ swr
 -
 *
 "
-            
-"
-test
--
-linux1804
--
-64
--
-qr
-/
-debug
--
-mochitest
--
-browser
--
-chrome
--
-vt
--
-*
-"
         
 ]
     
@@ -1247,28 +1225,6 @@ output
 expected
 =
 [
-            
-"
-test
--
-linux1804
--
-64
--
-qr
-/
-debug
--
-mochitest
--
-browser
--
-chrome
--
-vt
--
-*
-"
             
 "
 test
