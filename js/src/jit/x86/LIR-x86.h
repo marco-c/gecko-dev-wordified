@@ -782,13 +782,11 @@ canBeNegativeOverflow
 )
 ;
 }
-const
 wasm
 :
 :
-TrapSiteDesc
-&
-trapSiteDesc
+BytecodeOffset
+bytecodeOffset
 (
 )
 const
@@ -830,7 +828,7 @@ toWasmBuiltinModI64
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;
@@ -844,7 +842,7 @@ toWasmBuiltinDivI64
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;
@@ -1052,13 +1050,11 @@ canBeNegativeOverflow
 )
 ;
 }
-const
 wasm
 :
 :
-TrapSiteDesc
-&
-trapSiteDesc
+BytecodeOffset
+bytecodeOffset
 (
 )
 const
@@ -1100,7 +1096,7 @@ toWasmBuiltinModI64
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;
@@ -1114,7 +1110,7 @@ toWasmBuiltinDivI64
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;

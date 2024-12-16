@@ -1012,7 +1012,7 @@ CompileCompleteTier2
 bytecode_
 -
 >
-vector
+bytes
 *
 module_
 &

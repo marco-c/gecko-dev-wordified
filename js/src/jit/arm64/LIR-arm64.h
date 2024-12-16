@@ -1845,8 +1845,8 @@ canBeNegativeOverflow
 wasm
 :
 :
-TrapSiteDesc
-trapSiteDesc
+BytecodeOffset
+bytecodeOffset
 (
 )
 const
@@ -1888,7 +1888,7 @@ toMod
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;
@@ -1902,7 +1902,7 @@ toDiv
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;
@@ -2063,8 +2063,8 @@ canBeDivideByZero
 wasm
 :
 :
-TrapSiteDesc
-trapSiteDesc
+BytecodeOffset
+bytecodeOffset
 (
 )
 const
@@ -2106,7 +2106,7 @@ toMod
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;
@@ -2120,7 +2120,7 @@ toDiv
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;

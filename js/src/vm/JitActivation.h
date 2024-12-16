@@ -1831,13 +1831,8 @@ wasm
 :
 Trap
 trap
-const
-wasm
-:
-:
-TrapSiteDesc
-&
-trapDesc
+uint32_t
+bytecodeOffset
 const
 wasm
 :

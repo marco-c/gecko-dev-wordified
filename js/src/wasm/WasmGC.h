@@ -3505,9 +3505,11 @@ register
 /
 /
 If
-trapSiteDesc
+trapOffset
 is
-something
+non
+-
+null
 then
 metadata
 to
@@ -3594,8 +3596,9 @@ jit
 Label
 *
 skipBarrier
-MaybeTrapSiteDesc
-trapSiteDesc
+BytecodeOffset
+*
+trapOffset
 )
 ;
 /

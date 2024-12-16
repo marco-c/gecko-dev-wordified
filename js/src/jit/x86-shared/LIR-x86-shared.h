@@ -1006,8 +1006,8 @@ trapOnError
 wasm
 :
 :
-TrapSiteDesc
-trapSiteDesc
+BytecodeOffset
+bytecodeOffset
 (
 )
 const
@@ -1031,7 +1031,7 @@ toMod
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;
@@ -1045,7 +1045,7 @@ toDiv
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;
@@ -1260,8 +1260,8 @@ trapOnError
 wasm
 :
 :
-TrapSiteDesc
-trapSiteDesc
+BytecodeOffset
+bytecodeOffset
 (
 )
 const
@@ -1285,7 +1285,7 @@ toMod
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;
@@ -1299,7 +1299,7 @@ toDiv
 )
 -
 >
-trapSiteDesc
+bytecodeOffset
 (
 )
 ;
