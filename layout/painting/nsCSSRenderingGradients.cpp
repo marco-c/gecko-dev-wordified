@@ -8268,7 +8268,7 @@ StyleColorInterpolationMethod
 &
 aStyleColorInterpolationMethod
 bool
-aExtendLastStop
+aExtend
 nsTArray
 <
 gfx
@@ -8284,7 +8284,7 @@ ColorStopInterpolator
 (
 aStops
 aStyleColorInterpolationMethod
-aExtendLastStop
+aExtend
 )
 mStops
 (
@@ -8334,7 +8334,7 @@ mStops
 }
 ;
 bool
-extendLastStop
+extend
 =
 !
 isRepeat
@@ -8355,7 +8355,7 @@ interpolator
 (
 mStops
 styleColorInterpolationMethod
-extendLastStop
+extend
 rawStops
 )
 ;
@@ -9788,14 +9788,14 @@ GradientStop
 &
 aResult
 bool
-aExtendLastStop
+aExtend
 )
 :
 ColorStopInterpolator
 (
 aStops
 aStyleColorInterpolationMethod
-aExtendLastStop
+aExtend
 )
 mResult
 (
@@ -10543,7 +10543,7 @@ that
 complexity
 .
 bool
-extendLastStop
+extend
 =
 aMode
 =
@@ -10574,7 +10574,7 @@ mStops
 styleColorInterpolationMethod
 aOpacity
 aStops
-extendLastStop
+extend
 )
 ;
 interpolator
