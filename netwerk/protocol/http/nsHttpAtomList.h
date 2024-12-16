@@ -525,15 +525,6 @@ Host
 )
 HTTP_ATOM
 (
-Idempotency_Key
-"
-Idempotency
--
-Key
-"
-)
-HTTP_ATOM
-(
 If
 "
 If
