@@ -1258,9 +1258,8 @@ already_sent_today
 =
 last_sent_time
 .
-map_or
+is_some_and
 (
-false
 |
 d
 |
