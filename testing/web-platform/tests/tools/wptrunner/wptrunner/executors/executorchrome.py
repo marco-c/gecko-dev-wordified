@@ -811,6 +811,7 @@ _get_next_message_classic
 (
 self
 url
+script_resume
 )
 :
         
@@ -839,8 +840,6 @@ execute_script
 (
 message_script
 +
-self
-.
 script_resume
                                                    
 asynchronous
