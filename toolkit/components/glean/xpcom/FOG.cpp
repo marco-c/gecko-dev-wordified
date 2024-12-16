@@ -2770,9 +2770,6 @@ nsCString
 >
 &
 aReasonCodes
-const
-bool
-aFollowsCollectionEnabled
 uint32_t
 *
 aPingIdOut
@@ -2805,7 +2802,6 @@ aEnabled
 aSchedulesPings
 &
 aReasonCodes
-aFollowsCollectionEnabled
 )
 ;
 return

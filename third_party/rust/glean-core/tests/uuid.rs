@@ -158,7 +158,7 @@ vec
 !
 [
 "
-store1
+core
 "
 .
 into
@@ -192,7 +192,7 @@ glean
 snapshot
 (
 "
-store1
+core
 "
 false
 )
@@ -243,7 +243,7 @@ glean
 snapshot
 (
 "
-store1
+core
 "
 false
 )

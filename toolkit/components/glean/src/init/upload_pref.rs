@@ -904,7 +904,7 @@ pings
 glean
 :
 :
-set_collection_enabled
+set_upload_enabled
 (
 false
 )
@@ -924,7 +924,7 @@ SeqCst
 glean
 :
 :
-set_collection_enabled
+set_upload_enabled
 (
 upload_enabled
 |
