@@ -2500,6 +2500,12 @@ rendered
 "
 "
     
+alert_threshold
+=
+6
+.
+0
+    
 tpmanifest
 =
 "
