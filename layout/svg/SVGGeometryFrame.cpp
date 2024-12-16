@@ -5291,9 +5291,8 @@ bool
 aDryRun
 )
 {
-if
+MOZ_ASSERT
 (
-!
 StyleVisibility
 (
 )
@@ -5303,11 +5302,7 @@ IsVisible
 (
 )
 )
-{
-return
-true
 ;
-}
 SVGGeometryElement
 *
 element
