@@ -211,6 +211,16 @@ fog
 .
 initializeFOG
 (
+undefined
+"
+firefox
+.
+desktop
+.
+background
+.
+update
+"
 )
 ;
 }
