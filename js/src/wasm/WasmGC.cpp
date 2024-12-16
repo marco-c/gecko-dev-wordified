@@ -1256,9 +1256,8 @@ addr
 Label
 *
 skipBarrier
-BytecodeOffset
-*
-trapOffset
+MaybeTrapSiteDesc
+trapSiteDesc
 )
 {
 /
@@ -1370,7 +1369,7 @@ value
 .
 if
 (
-trapOffset
+trapSiteDesc
 )
 {
 masm
@@ -1394,7 +1393,7 @@ TrapMachineInsnForLoadWord
 )
 fco
 *
-trapOffset
+trapSiteDesc
 )
 )
 ;
@@ -1422,9 +1421,8 @@ addr
 Label
 *
 skipBarrier
-BytecodeOffset
-*
-trapOffset
+MaybeTrapSiteDesc
+trapSiteDesc
 )
 ;
 template
@@ -1449,9 +1447,8 @@ addr
 Label
 *
 skipBarrier
-BytecodeOffset
-*
-trapOffset
+MaybeTrapSiteDesc
+trapSiteDesc
 )
 ;
 void

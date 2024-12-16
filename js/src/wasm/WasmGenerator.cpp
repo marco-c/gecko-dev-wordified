@@ -3178,8 +3178,9 @@ offsetInModule
 if
 (
 !
-code
-.
+codeBlock_
+-
+>
 trapSites
 .
 appendAll
