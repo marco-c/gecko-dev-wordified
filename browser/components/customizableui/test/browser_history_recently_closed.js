@@ -2007,6 +2007,10 @@ triggeringPrincipal_base64
 ]
 }
 ]
+closedGroups
+:
+[
+]
 _closedTabs
 :
 closedTabUrls
