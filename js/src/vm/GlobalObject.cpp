@@ -1296,7 +1296,16 @@ case
 JSProto_ZonedDateTime
 :
 return
-false
+!
+JS
+:
+:
+Prefs
+:
+:
+experimental_temporal
+(
+)
 ;
 #
 endif
