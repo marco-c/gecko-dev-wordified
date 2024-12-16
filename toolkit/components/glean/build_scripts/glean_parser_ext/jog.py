@@ -283,7 +283,7 @@ specific
 args
 that
 JOG
-undertsands
+understands
 .
 known_ping_args
 =
@@ -319,6 +319,10 @@ schedules_pings
     
 "
 reason_codes
+"
+    
+"
+follows_collection_enabled
 "
 ]
 def
