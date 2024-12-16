@@ -2275,21 +2275,18 @@ Linux
 "
 :
             
-cmd
-=
-"
-bunzip2
-%
-s
-"
-%
-target
-            
-os
-.
-system
+#
+Tar
+should
+automatically
+recognize
+the
+compression
+algo
 (
-cmd
+xz
+/
+bzip2
 )
             
 cmd
@@ -2303,17 +2300,6 @@ s
 "
 %
 target
-[
-:
--
-len
-(
-"
-.
-xz
-"
-)
-]
             
 os
 .
