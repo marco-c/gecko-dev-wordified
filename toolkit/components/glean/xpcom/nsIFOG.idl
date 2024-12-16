@@ -1375,9 +1375,6 @@ Array
 ACString
 >
 aReasonCodes
-in
-boolean
-aFollowsCollectionEnabled
 )
 ;
 }

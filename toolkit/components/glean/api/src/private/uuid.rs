@@ -1350,9 +1350,7 @@ metric
 test_get_value
 (
 "
-test
--
-ping
+store1
 "
 )
 .
@@ -1511,9 +1509,7 @@ parent_metric
 test_get_value
 (
 "
-test
--
-ping
+store1
 "
 )
 .

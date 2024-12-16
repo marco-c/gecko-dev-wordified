@@ -983,9 +983,6 @@ ThinVec
 <
 nsCString
 >
-follows_collection_enabled
-:
-bool
 )
 -
 >
@@ -1060,7 +1057,6 @@ include_info_sections
 enabled
 schedules_pings
 reason_codes
-follows_collection_enabled
 )
 .
 expect
@@ -1130,9 +1126,6 @@ Vec
 <
 String
 >
-follows_collection_enabled
-:
-bool
 )
 -
 >
@@ -1180,7 +1173,6 @@ include_info_sections
 enabled
 schedules_pings
 reason_codes
-follows_collection_enabled
 )
 ;
 extern
@@ -1438,9 +1430,6 @@ Vec
 String
 >
 >
-follows_collection_enabled
-:
-bool
 }
 /
 /
@@ -1800,9 +1789,6 @@ Vec
 :
 new
 )
-ping
-.
-follows_collection_enabled
 )
 ;
 }
