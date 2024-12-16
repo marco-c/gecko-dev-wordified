@@ -378,7 +378,7 @@ CONFIG
 let
 promiseSaved
 =
-promiseSaveSettingsData
+promiseAfterSettings
 (
 )
 ;
@@ -438,7 +438,7 @@ reloaded
 let
 promiseSaved
 =
-promiseSaveSettingsData
+promiseAfterSettings
 (
 )
 ;
