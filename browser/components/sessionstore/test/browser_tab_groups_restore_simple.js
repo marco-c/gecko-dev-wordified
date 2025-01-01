@@ -338,6 +338,15 @@ restored
 "
 )
 ;
+win
+.
+gBrowser
+.
+removeTabGroup
+(
+tabGroup
+)
+;
 await
 BrowserTestUtils
 .
