@@ -4831,9 +4831,8 @@ i
 ]
 -
 >
-SetParent
+ClearParent
 (
-nullptr
 )
 ;
 }
