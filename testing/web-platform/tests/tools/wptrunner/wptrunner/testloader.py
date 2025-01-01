@@ -1131,7 +1131,7 @@ run_info
 )
 )
 def
-read_include_from_file
+read_test_prefixes_from_file
 (
 file
 )
