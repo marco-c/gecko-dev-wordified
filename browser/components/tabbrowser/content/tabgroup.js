@@ -1259,6 +1259,14 @@ this
 .
 collapsed
 ;
+gBrowser
+.
+tabGroupMenu
+.
+close
+(
+)
+;
 }
 }
 on_TabSelect
