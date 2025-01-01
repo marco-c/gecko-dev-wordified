@@ -4077,6 +4077,10 @@ Shutdown
 )
 ;
 }
+ShutdownPlatformAPI
+(
+)
+;
 if
 (
 AbnormalShutdown
