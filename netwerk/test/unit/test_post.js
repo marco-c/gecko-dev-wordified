@@ -402,10 +402,9 @@ nsIStringInputStream
 ;
 sstream1
 .
-setByteStringData
-(
+data
+=
 teststring1
-)
 ;
 var
 fstream
@@ -516,10 +515,9 @@ nsIStringInputStream
 ;
 sstream2
 .
-setByteStringData
-(
+data
+=
 teststring2
-)
 ;
 var
 multi

@@ -467,10 +467,9 @@ nsIStringInputStream
 ;
 stringStream
 .
-setByteStringData
-(
 data
-)
+=
+data
 ;
 return
 stringStream

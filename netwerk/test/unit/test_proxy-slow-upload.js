@@ -414,10 +414,9 @@ nsIStringInputStream
 ;
 sstream
 .
-setByteStringData
-(
+data
+=
 CONTENT
-)
 ;
 let
 mime

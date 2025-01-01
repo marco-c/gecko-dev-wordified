@@ -476,12 +476,11 @@ nsIStringInputStream
 ;
 stream
 .
-setByteStringData
-(
+data
+=
 test
 .
 data
-)
 ;
 let
 contentTypeCalled
