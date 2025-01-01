@@ -3955,6 +3955,15 @@ Attributes
 (
 )
 ;
+nsAccUtils
+:
+:
+SetAccGroupAttrs
+(
+attributes
+acc
+)
+;
 return
 ConvertToAtkAttributeSet
 (

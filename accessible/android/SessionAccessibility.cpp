@@ -4684,6 +4684,15 @@ Attributes
 (
 )
 ;
+nsAccUtils
+:
+:
+SetAccGroupAttrs
+(
+attributes
+aAccessible
+)
+;
 nsAutoString
 geckoRole
 ;
