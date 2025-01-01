@@ -72,6 +72,13 @@ support
 promises
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 '
 use_strict
 '
