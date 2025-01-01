@@ -1862,6 +1862,10 @@ crate
 struct
 RemoteBrowser
 {
+pub
+(
+crate
+)
 handler
 :
 AndroidHandler
