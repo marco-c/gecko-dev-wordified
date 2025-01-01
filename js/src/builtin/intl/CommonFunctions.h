@@ -800,6 +800,16 @@ nbytes
 void
 RemoveICUCellMemory
 (
+JSObject
+*
+obj
+size_t
+nbytes
+)
+;
+void
+RemoveICUCellMemory
+(
 JS
 :
 :
