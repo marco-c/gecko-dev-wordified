@@ -5092,10 +5092,7 @@ mPlaybackRate
 ;
 if
 (
-mLogicalPosition
-!
-=
-0
+mLogicallySeeking
 )
 {
 Seek
