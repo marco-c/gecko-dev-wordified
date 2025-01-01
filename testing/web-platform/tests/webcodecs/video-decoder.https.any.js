@@ -18,8 +18,6 @@ webcodecs
 utils
 .
 js
-/
-/
 const
 detachedArrayBuffer
 =
