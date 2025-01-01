@@ -180,12 +180,9 @@ nsIStringInputStream
 ;
 s
 .
-setData
+setByteStringData
 (
 data
-data
-.
-length
 )
 ;
 multiplex
@@ -1358,12 +1355,9 @@ nsIStringInputStream
 ;
 s
 .
-setData
+setByteStringData
 (
 data2
-data2
-.
-length
 )
 ;
 multiplex

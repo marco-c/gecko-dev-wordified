@@ -538,16 +538,11 @@ try
 {
 sis
 .
-setData
+setByteStringData
 (
 newEntry
 .
 content
-newEntry
-.
-content
-.
-length
 )
 ;
 writer

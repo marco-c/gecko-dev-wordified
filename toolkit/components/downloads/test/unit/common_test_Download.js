@@ -3324,12 +3324,9 @@ nsIStringInputStream
 ;
 stream
 .
-setData
+setByteStringData
 (
 postData
-postData
-.
-length
 )
 ;
 channel

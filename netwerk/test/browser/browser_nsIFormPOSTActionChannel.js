@@ -896,12 +896,9 @@ nsIStringInputStream
 ;
 stream
 .
-setData
+setByteStringData
 (
 data
-data
-.
-length
 )
 ;
 var

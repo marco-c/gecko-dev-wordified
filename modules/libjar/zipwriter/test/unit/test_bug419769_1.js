@@ -305,12 +305,9 @@ nsIStringInputStream
 ;
 stream
 .
-setData
+setByteStringData
 (
 DATA
-DATA
-.
-length
 )
 ;
 zipW

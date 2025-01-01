@@ -394,12 +394,9 @@ nsIStringInputStream
 ;
 input
 .
-setData
+setByteStringData
 (
 reallyLong
-reallyLong
-.
-length
 )
 ;
 try

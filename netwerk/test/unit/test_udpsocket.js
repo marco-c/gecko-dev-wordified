@@ -487,12 +487,9 @@ nsIStringInputStream
 ;
 stream
 .
-setData
+setByteStringData
 (
 HELLO_WORLD
-HELLO_WORLD
-.
-length
 )
 ;
 socket
