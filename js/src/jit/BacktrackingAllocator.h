@@ -2084,6 +2084,14 @@ other
 )
 ;
 void
+moveAllUsesToTheEndOf
+(
+LiveRange
+*
+other
+)
+;
+void
 setHasDefinition
 (
 )
@@ -5870,7 +5878,7 @@ LiveBundle
 *
 bundle
 bool
-fixed
+hasCall
 LiveBundle
 *
 conflict
@@ -5918,7 +5926,7 @@ bool
 success
 bool
 *
-pfixed
+hasCall
 LiveBundleVector
 &
 conflicting
@@ -5940,7 +5948,7 @@ bool
 success
 bool
 *
-pfixed
+hasCall
 LiveBundleVector
 &
 conflicting
@@ -5977,7 +5985,7 @@ bool
 success
 bool
 *
-pfixed
+hasCall
 LiveBundleVector
 &
 conflicting
@@ -6003,7 +6011,7 @@ bool
 success
 bool
 *
-pfixed
+hasCall
 LiveBundleVector
 &
 conflicting
