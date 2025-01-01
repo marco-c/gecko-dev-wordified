@@ -217,7 +217,7 @@ SCCSPICKER_AVAILABLE
 available
 (
 macOS
-15
+14
 .
 0
 *
