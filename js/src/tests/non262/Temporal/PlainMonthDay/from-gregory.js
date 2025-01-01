@@ -3,16 +3,6 @@
 |
 reftest
 |
-shell
--
-option
-(
--
--
-enable
--
-temporal
-)
 skip
 -
 if
