@@ -440,16 +440,6 @@ mVideoDecoder
 GMPVideoHostImpl
 mVideoHost
 ;
-bool
-mOutstandingDrain
-=
-false
-;
-bool
-mOutstandingReset
-=
-false
-;
 }
 ;
 }
