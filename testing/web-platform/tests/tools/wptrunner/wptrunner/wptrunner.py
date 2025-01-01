@@ -1952,6 +1952,12 @@ run_by_dir
 ]
 )
         
+test_environment
+.
+reset
+(
+)
+        
 with
 ManagerGroup
 (

@@ -170,6 +170,18 @@ reftest
 )
 :
         
+screenshot_cache
+=
+test_environment
+.
+screenshot_caches
+[
+test_type
+subsuite
+.
+name
+]
+        
 executor_kwargs
 [
 "
@@ -177,13 +189,7 @@ screenshot_cache
 "
 ]
 =
-test_environment
-.
-cache_manager
-.
-dict
-(
-)
+screenshot_cache
         
 executor_kwargs
 [
@@ -3017,9 +3023,6 @@ page_ranges
 key
 =
 (
-self
-.
-subsuite
 test
 .
 url
