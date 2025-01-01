@@ -200,7 +200,7 @@ class
 nsStartupLock
 ;
 struct
-CurrentProfileData
+GroupProfileData
 {
 nsCString
 mPath
@@ -706,7 +706,7 @@ nsStartupLock
 &
 aStartupLock
 const
-CurrentProfileData
+GroupProfileData
 *
 aProfileInfo
 )
