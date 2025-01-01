@@ -8187,12 +8187,12 @@ a
 linefeed
 character
 into
-aInsertToBreak
+aPointToBreak
 .
 *
 *
 param
-aInsertToBreak
+aPointToBreak
 The
 point
 where
@@ -8240,7 +8240,7 @@ HandleInsertLinefeed
 const
 EditorDOMPoint
 &
-aInsertToBreak
+aPointToBreak
 const
 Element
 &
