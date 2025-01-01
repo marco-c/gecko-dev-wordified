@@ -295,12 +295,10 @@ define
 HTTPCONNECTIONMGRSHELL_IID
 \
 {
-\
 0xf5379ff9
 0x2758
 0x4bec
 {
-\
 0x99
 0x92
 0x23
@@ -309,9 +307,7 @@ HTTPCONNECTIONMGRSHELL_IID
 0x58
 0xae
 0xd6
-\
 }
-\
 }
 class
 HttpConnectionMgrShell
