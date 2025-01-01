@@ -41396,6 +41396,13 @@ WaylandVsyncSource
 this
 )
 ;
+mWaylandVsyncSource
+-
+>
+Init
+(
+)
+;
 mWaylandVsyncDispatcher
 =
 new

@@ -820,10 +820,6 @@ WaylandVsyncSource
 "
 )
 ;
-Init
-(
-)
-;
 }
 WaylandVsyncSource
 :
