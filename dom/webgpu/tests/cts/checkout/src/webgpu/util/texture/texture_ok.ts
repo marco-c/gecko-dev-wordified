@@ -44,7 +44,7 @@ js
 ;
 import
 {
-GPUTest
+GPUTestBase
 }
 from
 '
@@ -1272,7 +1272,7 @@ createTextureCopyForMapRead
 (
 t
 :
-GPUTest
+GPUTestBase
 source
 :
 GPUTexelCopyTextureInfo
@@ -2355,7 +2355,7 @@ textureContentIsOKByT2B
 (
 t
 :
-GPUTest
+GPUTestBase
 source
 :
 GPUTexelCopyTextureInfo

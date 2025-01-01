@@ -368,7 +368,7 @@ to
 fail
 if
 low
->
+=
 =
 high
 .
@@ -380,7 +380,9 @@ t
 params
 .
 value1
-<
+!
+=
+=
 t
 .
 params
@@ -460,7 +462,8 @@ desc
 Validates
 that
 low
-<
+!
+=
 high
 '
 )
@@ -929,7 +932,8 @@ t
 params
 .
 low
->
+=
+=
 =
 t
 .
@@ -2431,7 +2435,9 @@ t
 params
 .
 low
-<
+!
+=
+=
 t
 .
 params

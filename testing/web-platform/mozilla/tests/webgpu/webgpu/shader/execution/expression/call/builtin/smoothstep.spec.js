@@ -365,7 +365,9 @@ return
 low
 .
 value
-<
+!
+=
+=
 high
 .
 value

@@ -198,6 +198,7 @@ acquire
 (
 recorder
 descriptor
+descriptorModifierFn
 )
 {
 let
@@ -239,6 +240,7 @@ getOrCreate
 (
 recorder
 undefined
+descriptorModifierFn
 )
 ;
 }
@@ -317,6 +319,7 @@ getOrCreate
 (
 recorder
 descriptor
+descriptorModifierFn
 )
 ;
 assert
@@ -1039,6 +1042,7 @@ getOrCreate
 (
 recorder
 uncanonicalizedDescriptor
+descriptorModifierFn
 )
 {
 const
@@ -1196,6 +1200,7 @@ create
 (
 recorder
 descriptor
+descriptorModifierFn
 )
 ;
 }
@@ -1947,6 +1952,7 @@ create
 (
 recorder
 descriptor
+descriptorModifierFn
 )
 {
 const
@@ -1981,6 +1987,20 @@ null
 '
 )
 ;
+if
+(
+descriptorModifierFn
+)
+{
+descriptor
+=
+descriptorModifierFn
+(
+adapter
+descriptor
+)
+;
+}
 if
 (
 !

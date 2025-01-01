@@ -33,7 +33,7 @@ description
 Tests
 for
 resource
-compatibilty
+compatibility
 between
 pipeline
 layout
