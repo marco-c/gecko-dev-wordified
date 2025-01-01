@@ -427,7 +427,7 @@ available
 .
 Throw
 a
-ReferenceError
+SyntaxError
 exception
 .
 -
@@ -510,7 +510,7 @@ error
 .
 name
 '
-ReferenceError
+SyntaxError
 '
 )
 ;
