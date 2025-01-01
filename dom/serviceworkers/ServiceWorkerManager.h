@@ -2401,7 +2401,7 @@ nsACString
 &
 aOriginSuffix
 const
-nsACString
+nsAString
 &
 aScope
 const
