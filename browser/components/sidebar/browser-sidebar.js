@@ -1867,6 +1867,14 @@ window
 state
 manager
 .
+if
+(
+!
+this
+.
+_state
+)
+{
 this
 .
 _state
@@ -1879,6 +1887,7 @@ SidebarState
 this
 )
 ;
+}
 this
 .
 _box
