@@ -31081,7 +31081,13 @@ DeleteNodeWithTransaction
 DeleteTextAndTextNodesWithTransaction
 /
 /
+InsertLineBreak
+/
+/
 JoinNearestEditableNodesWithTransaction
+/
+/
+LineBreakType
 /
 /
 MoveChildrenWithTransaction
