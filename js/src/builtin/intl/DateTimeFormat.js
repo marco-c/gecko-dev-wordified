@@ -4258,7 +4258,7 @@ JSMSG_INVALID_DATETIME_STYLE
 timeStyle
 "
 "
-toLocaleDateString
+date
 "
 )
 ;
@@ -4295,7 +4295,7 @@ JSMSG_INVALID_DATETIME_STYLE
 dateStyle
 "
 "
-toLocaleTimeString
+time
 "
 )
 ;
