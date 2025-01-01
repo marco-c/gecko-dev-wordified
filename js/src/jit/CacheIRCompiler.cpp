@@ -59465,7 +59465,7 @@ bool
 CacheIRCompiler
 :
 :
-emitCallStringConcatResult
+emitConcatStringsResult
 (
 StringOperandId
 lhsId
