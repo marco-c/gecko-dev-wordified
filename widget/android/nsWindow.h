@@ -969,10 +969,11 @@ Destroy
 override
 ;
 void
-DidClearParent
+DidChangeParent
 (
 nsIWidget
 *
+aNewParent
 )
 override
 ;

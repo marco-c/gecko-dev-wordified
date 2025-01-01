@@ -1251,7 +1251,7 @@ GetDefaultScaleInternal
 override
 ;
 void
-DidClearParent
+DidChangeParent
 (
 nsIWidget
 *

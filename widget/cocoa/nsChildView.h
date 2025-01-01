@@ -3117,7 +3117,7 @@ GetAppWindowWidget
 const
 ;
 void
-DidClearParent
+DidChangeParent
 (
 nsIWidget
 *
