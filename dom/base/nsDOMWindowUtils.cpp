@@ -17456,6 +17456,9 @@ nsDOMWindowUtils
 :
 FlushApzRepaints
 (
+Element
+*
+aElement
 bool
 *
 aOutResult
@@ -17465,8 +17468,9 @@ nsIWidget
 *
 widget
 =
-GetWidget
+GetWidgetForElement
 (
+aElement
 )
 ;
 if
