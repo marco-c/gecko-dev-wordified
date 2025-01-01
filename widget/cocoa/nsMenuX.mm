@@ -6393,9 +6393,6 @@ aContainer
 nsIContent
 *
 aChild
-nsIContent
-*
-aPreviousSibling
 )
 {
 if
@@ -6657,6 +6654,11 @@ SetupIcon
 (
 )
 {
+SetRebuild
+(
+true
+)
+;
 mIcon
 -
 >
