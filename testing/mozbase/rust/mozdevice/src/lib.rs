@@ -2720,9 +2720,11 @@ RemoteDirEntry
 depth
 :
 usize
+pub
 metadata
 :
 RemoteMetadata
+pub
 name
 :
 String
