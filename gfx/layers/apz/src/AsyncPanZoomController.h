@@ -10249,6 +10249,10 @@ friend
 class
 StateChangeNotificationBlocker
 ;
+friend
+class
+ThreadSafeStateChangeNotificationBlocker
+;
 /
 *
 *
