@@ -850,6 +850,9 @@ mOriginAttributes
 bool
 mIsThirdPartyContext
 ;
+bool
+mIsOn3PCBExceptionList
+;
 enum
 {
 eNotSet
