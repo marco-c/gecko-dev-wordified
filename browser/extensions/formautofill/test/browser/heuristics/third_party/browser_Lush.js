@@ -54,12 +54,6 @@ cc
 number
 "
 }
-]
-}
-{
-fields
-:
-[
 {
 fieldName
 :
@@ -74,6 +68,12 @@ reason
 autocomplete
 "
 }
+]
+}
+{
+fields
+:
+[
 {
 fieldName
 :

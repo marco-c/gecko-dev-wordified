@@ -1305,12 +1305,6 @@ reason
 autocomplete
 "
 }
-]
-}
-{
-fields
-:
-[
 {
 fieldName
 :
