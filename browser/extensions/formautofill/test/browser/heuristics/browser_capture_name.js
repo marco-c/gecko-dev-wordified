@@ -912,10 +912,7 @@ Doe
 }
 expected
 :
-"
-John
-Doe
-"
+undefined
 }
 ]
 ;
