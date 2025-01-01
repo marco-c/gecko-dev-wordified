@@ -3950,6 +3950,12 @@ CacheKind
 :
 NewObject
 :
+case
+CacheKind
+:
+:
+Lambda
+:
 MOZ_CRASH
 (
 "
@@ -4644,6 +4650,12 @@ CacheKind
 :
 :
 NewObject
+:
+case
+CacheKind
+:
+:
+Lambda
 :
 MOZ_CRASH
 (

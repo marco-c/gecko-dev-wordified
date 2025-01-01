@@ -162,6 +162,11 @@ NewObject
 \
 _
 (
+Lambda
+)
+\
+_
+(
 ToBool
 )
 \

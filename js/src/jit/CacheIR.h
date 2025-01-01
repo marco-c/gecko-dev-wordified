@@ -1409,6 +1409,11 @@ _
 (
 NewArray
 )
+\
+_
+(
+Lambda
+)
 enum
 class
 CacheKind

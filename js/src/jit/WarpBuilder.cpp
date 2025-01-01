@@ -23967,6 +23967,12 @@ CacheKind
 :
 Call
 :
+case
+CacheKind
+:
+:
+Lambda
+:
 /
 /
 We
@@ -24157,6 +24163,12 @@ CacheKind
 :
 :
 NewObject
+:
+case
+CacheKind
+:
+:
+Lambda
 :
 resultType
 =
