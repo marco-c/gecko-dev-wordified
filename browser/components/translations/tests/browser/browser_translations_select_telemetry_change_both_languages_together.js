@@ -421,8 +421,6 @@ top_preferred_language
 :
 "
 en
--
-US
 "
 text_source
 :
@@ -495,8 +493,6 @@ top_preferred_language
 :
 "
 en
--
-US
 "
 request_target
 :
@@ -788,8 +784,6 @@ top_preferred_language
 :
 "
 en
--
-US
 "
 request_target
 :
@@ -1063,8 +1057,6 @@ top_preferred_language
 :
 "
 en
--
-US
 "
 request_target
 :
@@ -1341,8 +1333,6 @@ top_preferred_language
 :
 "
 en
--
-US
 "
 request_target
 :

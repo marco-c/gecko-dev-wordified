@@ -1738,15 +1738,12 @@ retrievedRecords
 await
 TranslationsParent
 .
-getMaxSupportedVersionRecords
+getMaxVersionRecords
 (
 client
 {
 lookupKey
-minSupportedMajorVersion
-:
-1
-maxSupportedMajorVersion
+majorVersion
 :
 1
 }
