@@ -5326,6 +5326,13 @@ defined
 (
 DEBUG
 )
+&
+&
+!
+defined
+(
+MOZ_UBSAN
+)
 jemalloc_stats_t
 stats
 ;
