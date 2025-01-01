@@ -1001,8 +1001,8 @@ nsIStringInputStream
 ;
 stream
 .
-data
-=
+setByteStringData
+(
 "
 b
 "
@@ -1010,6 +1010,7 @@ b
 repeat
 (
 500
+)
 )
 ;
 /

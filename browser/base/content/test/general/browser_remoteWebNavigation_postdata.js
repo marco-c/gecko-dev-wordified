@@ -93,9 +93,10 @@ nsIStringInputStream
 ;
 stream
 .
-data
-=
+setByteStringData
+(
 aString
+)
 ;
 return
 stream
