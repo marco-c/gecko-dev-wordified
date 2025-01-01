@@ -2642,7 +2642,12 @@ aHost
 }
 if
 (
-gNativeIsLocalhost
+StaticPrefs
+:
+:
+network_dns_native_is_localhost
+(
+)
 )
 {
 /

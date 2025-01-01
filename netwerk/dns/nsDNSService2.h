@@ -693,17 +693,7 @@ false
 }
 ;
 bool
-mBlockDotOnion
-=
-false
-;
-bool
 mNotifyResolution
-=
-false
-;
-bool
-mOfflineLocalhost
 =
 false
 ;
