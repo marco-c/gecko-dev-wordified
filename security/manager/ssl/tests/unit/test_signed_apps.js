@@ -677,10 +677,11 @@ nsIStringInputStream
 ;
 content
 .
-data
-=
+setByteStringData
+(
 "
 "
+)
 ;
 return
 [
