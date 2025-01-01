@@ -963,7 +963,7 @@ promise_rejects_js
 t
 WebAssembly
 .
-SuspendError
+RuntimeError
 wrapper
 (
 )
