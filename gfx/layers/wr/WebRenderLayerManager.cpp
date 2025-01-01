@@ -2466,6 +2466,7 @@ mScrollData
 .
 SetIsFirstPaint
 (
+true
 )
 ;
 mIsFirstPaint
