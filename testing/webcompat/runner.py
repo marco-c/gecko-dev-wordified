@@ -1134,11 +1134,6 @@ parser
 .
 addoption
 (
-            
-"
--
-B
-"
 "
 -
 -
@@ -1159,7 +1154,6 @@ run
 tests
 for
 "
-        
 )
         
 parser
@@ -1203,11 +1197,6 @@ parser
 .
 addoption
 (
-            
-"
--
-S
-"
             
 "
 -
@@ -1379,10 +1368,6 @@ parser
 addoption
 (
             
-"
--
-H
-"
 "
 -
 -
