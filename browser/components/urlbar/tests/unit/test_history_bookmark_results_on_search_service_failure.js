@@ -106,8 +106,6 @@ false
 searchService
 .
 errorToThrowInTest
-.
-type
 =
 "
 Settings
@@ -164,8 +162,6 @@ async
 searchService
 .
 errorToThrowInTest
-.
-type
 =
 null
 ;
