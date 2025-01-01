@@ -7456,6 +7456,9 @@ aButton
 nsIObserver
 *
 aObserver
+Element
+*
+aElement
 )
 {
 nsCOMPtr
@@ -7464,8 +7467,9 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetWidgetForElement
 (
+aElement
 )
 ;
 if

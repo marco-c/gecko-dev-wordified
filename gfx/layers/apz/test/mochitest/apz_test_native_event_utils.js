@@ -4448,6 +4448,7 @@ aState
 aX
 aY
 aObserver
+aElement
 {
 pressure
 =
@@ -4491,6 +4492,7 @@ aY
 pressure
 90
 aObserver
+aElement
 )
 ;
 break
@@ -4514,6 +4516,7 @@ tiltX
 tiltY
 button
 aObserver
+aElement
 )
 ;
 break
@@ -4600,6 +4603,13 @@ pt
 .
 y
 resolve
+aTarget
+instanceof
+Element
+?
+aTarget
+:
+null
 options
 )
 ;
@@ -5461,6 +5471,13 @@ j
 .
 y
 observer
+aTarget
+instanceof
+Element
+?
+aTarget
+:
+null
 options
 )
 ;
@@ -5506,6 +5523,13 @@ j
 ]
 .
 y
+null
+aTarget
+instanceof
+Element
+?
+aTarget
+:
 null
 options
 )
