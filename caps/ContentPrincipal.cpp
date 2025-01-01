@@ -709,10 +709,10 @@ uris
 if
 (
 !
-nsScriptSecurityManager
+StaticPrefs
 :
 :
-GetStrictFileOriginPolicy
+security_fileuri_strict_origin_policy_AtStartup
 (
 )
 &
@@ -2464,10 +2464,10 @@ here
 if
 (
 !
-nsScriptSecurityManager
+StaticPrefs
 :
 :
-GetStrictFileOriginPolicy
+security_fileuri_strict_origin_policy_AtStartup
 (
 )
 )

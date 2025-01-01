@@ -82,7 +82,7 @@ mozilla
 StaticPrefs
 :
 :
-security_fileuri_strict_origin_policy
+security_fileuri_strict_origin_policy_AtStartup
 (
 )
 ;
