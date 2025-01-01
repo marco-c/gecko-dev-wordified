@@ -233,8 +233,6 @@ bool
 aPartitionedOnly
 bool
 aIsInPrivateBrowsing
-bool
-aOn3pcbException
 )
 ;
 bool

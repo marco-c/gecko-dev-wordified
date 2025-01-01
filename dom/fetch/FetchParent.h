@@ -526,12 +526,6 @@ mIsWorkerFetch
 false
 }
 ;
-bool
-mIsOn3PCBExceptionList
-{
-false
-}
-;
 Atomic
 <
 bool

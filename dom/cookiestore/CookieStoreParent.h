@@ -250,10 +250,6 @@ aUsingStorageAccess
 const
 bool
 &
-aIsOn3PCBExceptionList
-const
-bool
-&
 aMatchName
 const
 nsString
@@ -302,10 +298,6 @@ const
 bool
 &
 aUsingStorageAccess
-const
-bool
-&
-aIsOn3PCBExceptionList
 const
 nsString
 &
@@ -374,10 +366,6 @@ bool
 &
 aUsingStorageAccess
 const
-bool
-&
-aIsOn3PCBExceptionList
-const
 nsString
 &
 aName
@@ -434,8 +422,6 @@ bool
 aPartitionForeign
 bool
 aUsingStorageAccess
-bool
-aIsOn3PCBExceptionList
 bool
 aMatchName
 const
@@ -494,8 +480,6 @@ bool
 aPartitionForeign
 bool
 aUsingStorageAccess
-bool
-aIsOn3PCBExceptionList
 const
 nsAString
 &
@@ -560,8 +544,6 @@ bool
 aPartitionForeign
 bool
 aUsingStorageAccess
-bool
-aIsOn3PCBExceptionList
 const
 nsAString
 &
