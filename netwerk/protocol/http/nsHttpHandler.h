@@ -1274,14 +1274,7 @@ ThrottlingReadLimit
 )
 {
 return
-mThrottleVersion
-=
-=
-1
-?
 0
-:
-mThrottleReadLimit
 ;
 }
 int32_t
@@ -3550,12 +3543,6 @@ bool
 mThrottleEnabled
 {
 true
-}
-;
-uint32_t
-mThrottleVersion
-{
-2
 }
 ;
 uint32_t
