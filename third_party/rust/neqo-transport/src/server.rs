@@ -2244,6 +2244,7 @@ version
 wire_version
 (
 )
+now
 )
 ;
 }
@@ -2696,6 +2697,7 @@ packet
 wire_version
 (
 )
+now
 )
 ;
 return

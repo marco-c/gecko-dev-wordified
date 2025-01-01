@@ -6706,9 +6706,8 @@ fin
 =
 final_size
 .
-map_or
+is_some_and
 (
-false
 |
 fs
 |

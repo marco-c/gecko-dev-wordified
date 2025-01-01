@@ -10139,9 +10139,8 @@ get
 space
 )
 .
-map_or
+is_some_and
 (
-false
 |
 cs
 |

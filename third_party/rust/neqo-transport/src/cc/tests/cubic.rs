@@ -338,6 +338,7 @@ on_packet_sent
 (
 &
 sent
+now
 )
 ;
 next_pn
@@ -497,6 +498,9 @@ PTO
 [
 p_lost
 ]
+now
+(
+)
 )
 ;
 }

@@ -302,6 +302,16 @@ cwnd_initial
 [
 test
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+too_many_lines
+)
+]
 fn
 issue_876
 (
@@ -332,16 +342,16 @@ IP_ADDR
 )
 ;
 let
-time_now
+now
 =
 now
 (
 )
 ;
 let
-time_before
+before
 =
-time_now
+now
 .
 checked_sub
 (
@@ -359,9 +369,9 @@ unwrap
 )
 ;
 let
-time_after
+after
 =
-time_now
+now
 +
 Duration
 :
@@ -392,7 +402,7 @@ IpTosEcn
 default
 (
 )
-time_before
+before
 true
 Vec
 :
@@ -424,7 +434,7 @@ IpTosEcn
 default
 (
 )
-time_before
+before
 true
 Vec
 :
@@ -456,7 +466,7 @@ IpTosEcn
 default
 (
 )
-time_before
+before
 true
 Vec
 :
@@ -486,7 +496,7 @@ IpTosEcn
 default
 (
 )
-time_before
+before
 true
 Vec
 :
@@ -516,7 +526,7 @@ IpTosEcn
 default
 (
 )
-time_before
+before
 true
 Vec
 :
@@ -546,7 +556,7 @@ IpTosEcn
 default
 (
 )
-time_before
+before
 true
 Vec
 :
@@ -576,7 +586,7 @@ IpTosEcn
 default
 (
 )
-time_after
+after
 true
 Vec
 :
@@ -626,6 +636,7 @@ cc
 on_packet_sent
 (
 p
+now
 )
 ;
 }
@@ -671,7 +682,7 @@ on_packets_lost
 (
 Some
 (
-time_now
+now
 )
 None
 PTO
@@ -683,6 +694,7 @@ sent_packets
 .
 1
 ]
+now
 )
 ;
 /
@@ -755,6 +767,7 @@ sent_packets
 [
 6
 ]
+now
 )
 ;
 assert
@@ -826,7 +839,7 @@ sent_packets
 ]
 &
 RTT_ESTIMATE
-time_now
+now
 )
 ;
 assert_eq
@@ -891,7 +904,7 @@ on_packets_lost
 (
 Some
 (
-time_now
+now
 )
 None
 PTO
@@ -903,6 +916,7 @@ sent_packets
 .
 2
 ]
+now
 )
 ;
 assert
@@ -1107,6 +1121,7 @@ on_packet_sent
 (
 &
 p
+now
 )
 ;
 p
@@ -1230,6 +1245,7 @@ PTO
 [
 p1
 ]
+now
 )
 ;
 /
@@ -1310,6 +1326,7 @@ PTO
 [
 p3
 ]
+now
 )
 ;
 assert_eq
@@ -1439,6 +1456,7 @@ on_packet_sent
 (
 &
 p4
+now
 )
 ;
 now
@@ -1524,6 +1542,7 @@ PTO
 [
 p5
 ]
+now
 )
 ;
 /
@@ -1626,6 +1645,7 @@ PTO
 [
 p6
 ]
+now
 )
 ;
 assert_eq

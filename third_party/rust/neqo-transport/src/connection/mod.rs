@@ -6691,6 +6691,7 @@ Closed
 (
 error
 )
+now
 )
 ;
 }
@@ -6777,6 +6778,7 @@ Closed
 (
 error
 )
+now
 )
 ;
 }
@@ -6844,6 +6846,7 @@ Closed
 (
 error
 )
+now
 )
 ;
 }
@@ -6868,6 +6871,7 @@ get_closing_period_time
 now
 )
 }
+now
 )
 ;
 }
@@ -6885,6 +6889,7 @@ Closed
 (
 error
 )
+now
 )
 ;
 }
@@ -7072,6 +7077,7 @@ self
 set_state
 (
 st
+now
 )
 ;
 qinfo
@@ -7171,6 +7177,7 @@ Error
 IdleTimeout
 )
 )
+now
 )
 ;
 return
@@ -7281,6 +7288,7 @@ self
 qlog
 &
 lost
+now
 )
 ;
 }
@@ -9279,9 +9287,8 @@ len
 ]
 )
 .
-map_or
+is_ok_and
 (
-false
 |
 token
 |
@@ -9438,6 +9445,7 @@ get_closing_period_time
 now
 )
 }
+now
 )
 ;
 Err
@@ -10005,6 +10013,7 @@ all
 )
 supported
 version
+now
 )
 ;
 Ok
@@ -10064,6 +10073,7 @@ Error
 VersionNegotiation
 )
 )
+now
 )
 ;
 Err
@@ -10155,9 +10165,8 @@ PreprocessResult
 if
 dcid
 .
-map_or
+is_some_and
 (
-false
 |
 d
 |
@@ -10521,6 +10530,7 @@ State
 :
 :
 WaitInitial
+now
 )
 ;
 /
@@ -11677,7 +11687,7 @@ self
 .
 paths
 .
-find_path_with_rebinding
+find_path
 (
 d
 .
@@ -12205,6 +12215,7 @@ qlog
 packet
 &
 payload
+now
 )
 ;
 let
@@ -12643,6 +12654,7 @@ self
 qlog
 &
 packet
+now
 )
 ;
 }
@@ -13408,6 +13420,7 @@ clone
 (
 )
 )
+now
 )
 ;
 if
@@ -13464,6 +13477,9 @@ path
 :
 &
 PathRef
+now
+:
+Instant
 )
 -
 >
@@ -13557,6 +13573,7 @@ make_permanent
 path
 None
 cid
+now
 )
 ;
 Ok
@@ -13619,6 +13636,7 @@ ConnectionIdEntry
 empty_remote
 (
 )
+now
 )
 ;
 Ok
@@ -13864,6 +13882,7 @@ self
 ensure_permanent
 (
 path
+now
 )
 )
 ;
@@ -14181,6 +14200,7 @@ State
 :
 :
 Handshaking
+now
 )
 ;
 }
@@ -14194,6 +14214,7 @@ State
 :
 :
 WaitVersion
+now
 )
 ;
 }
@@ -14305,15 +14326,20 @@ a
 client
 not
 confirmed
+the
+peer
+disabled
+connection
+migration
 or
+/
+/
+/
 there
 are
 not
 enough
 connection
-/
-/
-/
 IDs
 available
 to
@@ -14388,6 +14414,37 @@ State
 :
 :
 Confirmed
+)
+{
+return
+Err
+(
+Error
+:
+:
+InvalidMigration
+)
+;
+}
+if
+self
+.
+tps
+.
+borrow
+(
+)
+.
+remote
+(
+)
+.
+get_empty
+(
+tparams
+:
+:
+DISABLE_MIGRATION
 )
 {
 return
@@ -14706,6 +14763,7 @@ ensure_permanent
 (
 &
 path
+now
 )
 ?
 ;
@@ -14801,6 +14859,24 @@ Res
 {
 let
 spa
+:
+Option
+<
+(
+tparams
+:
+:
+PreferredAddress
+ConnectionIdEntry
+<
+[
+u8
+;
+16
+]
+>
+)
+>
 =
 if
 matches
@@ -14819,6 +14895,20 @@ PreferredAddressConfig
 Disabled
 )
 {
+qdebug
+!
+(
+[
+self
+]
+"
+Preferred
+address
+is
+disabled
+"
+)
+;
 None
 }
 else
@@ -15169,6 +15259,25 @@ family
 ;
 }
 }
+else
+{
+qdebug
+!
+(
+[
+self
+]
+"
+No
+preferred
+address
+to
+migrate
+to
+"
+)
+;
+}
 Ok
 (
 (
@@ -15233,6 +15342,7 @@ self
 ensure_permanent
 (
 path
+now
 )
 .
 is_ok
@@ -18301,6 +18411,7 @@ payload_start
 .
 .
 ]
+now
 )
 ;
 self
@@ -18426,6 +18537,7 @@ on_packet_sent
 (
 path
 sent
+now
 )
 ;
 }
@@ -18530,6 +18642,7 @@ on_packet_sent
 (
 path
 sent
+now
 )
 ;
 }
@@ -18781,6 +18894,7 @@ on_packet_sent
 (
 path
 initial
+now
 )
 ;
 }
@@ -19029,6 +19143,7 @@ self
 qlog
 &
 path
+now
 )
 ;
 }
@@ -19048,6 +19163,7 @@ conn_params
 get_versions
 (
 )
+now
 )
 ;
 self
@@ -19074,6 +19190,7 @@ State
 :
 :
 WaitInitial
+now
 )
 ;
 self
@@ -19261,6 +19378,7 @@ Closing
 error
 timeout
 }
+now
 )
 ;
 }
@@ -19277,6 +19395,7 @@ Closed
 (
 error
 )
+now
 )
 ;
 }
@@ -19413,6 +19532,9 @@ process_tps
 &
 mut
 self
+now
+:
+Instant
 )
 -
 >
@@ -19771,6 +19893,7 @@ tps
 borrow
 (
 )
+now
 )
 ;
 Ok
@@ -21178,6 +21301,9 @@ set_confirmed
 &
 mut
 self
+now
+:
+Instant
 )
 -
 >
@@ -21195,6 +21321,7 @@ State
 :
 :
 Confirmed
+now
 )
 ;
 if
@@ -22071,6 +22198,7 @@ self
 ensure_permanent
 (
 path
+now
 )
 ?
 ;
@@ -22334,6 +22462,7 @@ get_closing_period_time
 now
 )
 }
+now
 )
 ;
 }
@@ -22394,6 +22523,7 @@ self
 .
 set_confirmed
 (
+now
 )
 ?
 ;
@@ -23342,6 +23472,7 @@ self
 qlog
 &
 lost_packets
+now
 )
 ;
 let
@@ -23738,6 +23869,7 @@ self
 qlog
 &
 path
+now
 )
 ;
 }
@@ -23834,6 +23966,7 @@ self
 .
 process_tps
 (
+now
 )
 ?
 ;
@@ -23845,6 +23978,7 @@ State
 :
 :
 Connected
+now
 )
 ;
 self
@@ -23922,6 +24056,7 @@ self
 .
 set_confirmed
 (
+now
 )
 ?
 ;
@@ -23953,6 +24088,9 @@ self
 state
 :
 State
+now
+:
+Instant
 )
 {
 if
@@ -24039,6 +24177,7 @@ qlog
 self
 .
 state
+now
 )
 ;
 }

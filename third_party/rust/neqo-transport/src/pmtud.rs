@@ -654,9 +654,8 @@ self
 .
 raise_timer
 .
-map_or
+is_some_and
 (
-false
 |
 t
 |

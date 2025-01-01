@@ -367,6 +367,9 @@ lost_packets
 [
 SentPacket
 ]
+now
+:
+Instant
 )
 -
 >
@@ -394,6 +397,9 @@ largest_acked_pkt
 :
 &
 SentPacket
+now
+:
+Instant
 )
 -
 >
@@ -423,6 +429,9 @@ pkt
 :
 &
 SentPacket
+now
+:
+Instant
 )
 ;
 fn
@@ -435,6 +444,9 @@ pkt
 :
 &
 SentPacket
+now
+:
+Instant
 )
 ;
 fn
@@ -443,6 +455,9 @@ discard_in_flight
 &
 mut
 self
+now
+:
+Instant
 )
 ;
 }

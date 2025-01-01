@@ -2149,9 +2149,8 @@ self
 .
 ack_time
 .
-map_or
+is_some_and
 (
-false
 |
 next
 |
@@ -2166,9 +2165,8 @@ self
 .
 last_ack_time
 .
-map_or
+is_some_and
 (
-false
 |
 last
 |

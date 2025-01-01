@@ -248,6 +248,7 @@ Tls13CompatMode
 HelloDowngradeCheck
 SuppressEndOfEarlyData
 Grease
+EnableChExtensionPermutation
 }
 impl
 Opt
@@ -416,6 +417,16 @@ SSLOption
 :
 :
 SSL_ENABLE_GREASE
+Self
+:
+:
+EnableChExtensionPermutation
+=
+>
+SSLOption
+:
+:
+SSL_ENABLE_CH_EXTENSION_PERMUTATION
 }
 ;
 i

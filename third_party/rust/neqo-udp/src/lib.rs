@@ -288,7 +288,7 @@ None
 ;
 state
 .
-send
+try_send
 (
 socket
 &
@@ -1836,7 +1836,7 @@ sender
 .
 state
 .
-send
+try_send
 (
 (
 &

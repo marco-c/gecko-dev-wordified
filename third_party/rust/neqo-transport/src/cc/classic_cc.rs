@@ -1464,6 +1464,7 @@ State
 :
 :
 CongestionAvoidance
+now
 )
 ;
 qlog
@@ -1485,6 +1486,7 @@ InRecovery
 false
 )
 ]
+now
 )
 ;
 }
@@ -1672,6 +1674,7 @@ State
 :
 :
 CongestionAvoidance
+now
 )
 ;
 }
@@ -1942,6 +1945,7 @@ self
 bytes_in_flight
 )
 ]
+now
 )
 ;
 qdebug
@@ -2033,6 +2037,9 @@ lost_packets
 [
 SentPacket
 ]
+now
+:
+Instant
 )
 -
 >
@@ -2179,6 +2186,7 @@ self
 bytes_in_flight
 )
 ]
+now
 )
 ;
 let
@@ -2261,6 +2269,7 @@ self
 on_congestion_event
 (
 last_lost_packet
+now
 )
 ;
 let
@@ -2278,6 +2287,7 @@ lost_packets
 rev
 (
 )
+now
 )
 ;
 qdebug
@@ -2387,6 +2397,9 @@ largest_acked_pkt
 :
 &
 SentPacket
+now
+:
+Instant
 )
 -
 >
@@ -2397,6 +2410,7 @@ self
 on_congestion_event
 (
 largest_acked_pkt
+now
 )
 }
 fn
@@ -2409,6 +2423,9 @@ pkt
 :
 &
 SentPacket
+now
+:
+Instant
 )
 {
 if
@@ -2465,6 +2482,7 @@ self
 bytes_in_flight
 )
 ]
+now
 )
 ;
 qtrace
@@ -2496,6 +2514,9 @@ discard_in_flight
 &
 mut
 self
+now
+:
+Instant
 )
 {
 self
@@ -2525,6 +2546,7 @@ self
 bytes_in_flight
 )
 ]
+now
 )
 ;
 }
@@ -2538,6 +2560,9 @@ pkt
 :
 &
 SentPacket
+now
+:
+Instant
 )
 {
 /
@@ -2740,6 +2765,7 @@ self
 bytes_in_flight
 )
 ]
+now
 )
 ;
 }
@@ -3021,6 +3047,9 @@ self
 state
 :
 State
+now
+:
+Instant
 )
 {
 if
@@ -3060,7 +3089,7 @@ self
 .
 qlog
 .
-add_event_data
+add_event_data_with_instant
 (
 |
 |
@@ -3136,6 +3165,7 @@ ev_data
 )
 }
 }
+now
 )
 ;
 self
@@ -3183,6 +3213,9 @@ Item
 a
 SentPacket
 >
+now
+:
+Instant
 )
 -
 >
@@ -3457,6 +3490,7 @@ State
 :
 :
 PersistentCongestion
+now
 )
 ;
 qlog
@@ -3480,6 +3514,7 @@ self
 congestion_window
 )
 ]
+now
 )
 ;
 return
@@ -3660,6 +3695,9 @@ last_packet
 :
 &
 SentPacket
+now
+:
+Instant
 )
 -
 >
@@ -3824,6 +3862,7 @@ InRecovery
 true
 )
 ]
+now
 )
 ;
 self
@@ -3834,6 +3873,7 @@ State
 :
 :
 RecoveryStart
+now
 )
 ;
 true
@@ -4508,6 +4548,9 @@ cc
 on_packet_sent
 (
 p
+now
+(
+)
 )
 ;
 }
@@ -4524,6 +4567,12 @@ now
 None
 PTO
 lost_packets
+Instant
+:
+:
+now
+(
+)
 )
 ;
 let
@@ -5601,6 +5650,16 @@ SentPacket
 >
 bool
 {
+let
+now
+=
+Instant
+:
+:
+now
+(
+)
+;
 assert_eq
 !
 (
@@ -5664,6 +5723,7 @@ lost
 iter
 (
 )
+now
 )
 ;
 assert_eq
@@ -5693,6 +5753,7 @@ lost
 iter
 (
 )
+now
 )
 ;
 assert_eq
@@ -5722,6 +5783,7 @@ lost
 iter
 (
 )
+now
 )
 ;
 cc
@@ -6604,6 +6666,12 @@ lost
 iter
 (
 )
+Instant
+:
+:
+now
+(
+)
 )
 ;
 assert_eq
@@ -6685,6 +6753,12 @@ PTO
 lost
 .
 iter
+(
+)
+Instant
+:
+:
+now
 (
 )
 )
@@ -7022,6 +7096,7 @@ on_packet_sent
 (
 &
 p
+now
 )
 ;
 pkts
@@ -7193,6 +7268,7 @@ on_packet_sent
 (
 &
 p
+now
 )
 ;
 pkts
@@ -7472,6 +7548,7 @@ on_packet_sent
 (
 &
 p_lost
+now
 )
 ;
 cwnd_is_default
@@ -7499,6 +7576,7 @@ PTO
 [
 p_lost
 ]
+now
 )
 ;
 cwnd_is_halved
@@ -7547,6 +7625,7 @@ on_packet_sent
 (
 &
 p_not_lost
+now
 )
 ;
 now
@@ -7712,6 +7791,7 @@ on_packet_sent
 (
 &
 p
+now
 )
 ;
 pkts
@@ -7911,6 +7991,7 @@ on_packet_sent
 (
 &
 p
+now
 )
 ;
 pkts
@@ -8085,6 +8166,13 @@ ecn_ce
 )
 {
 let
+now
+=
+now
+(
+)
+;
+let
 mut
 cc
 =
@@ -8128,8 +8216,6 @@ default
 (
 )
 now
-(
-)
 true
 Vec
 :
@@ -8150,6 +8236,7 @@ on_packet_sent
 (
 &
 p_ce
+now
 )
 ;
 cwnd_is_default
@@ -8192,6 +8279,7 @@ on_ecn_ce_received
 (
 &
 p_ce
+now
 )
 ;
 cwnd_is_halved
