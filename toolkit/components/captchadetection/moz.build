@@ -147,4 +147,11 @@ sys
 .
 mjs
 "
+"
+CaptchaResponseObserver
+.
+sys
+.
+mjs
+"
 ]
