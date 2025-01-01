@@ -322,6 +322,7 @@ enum
 Error
 {
 AeadError
+AeadTruncated
 CertificateLoading
 CipherInitFailure
 CreateSslSocket
@@ -336,6 +337,7 @@ HkdfError
 InternalError
 IntegerOverflow
 InvalidEpoch
+InvalidInput
 MixedHandshakeMethod
 NoDataAvailable
 NssError
@@ -355,6 +357,8 @@ SelfEncryptFailure
 StringError
 TimeTravelError
 UnsupportedCipher
+UnsupportedCurve
+UnsupportedHash
 UnsupportedVersion
 }
 impl
@@ -1040,6 +1044,7 @@ self
 }
 }
 }
+;
 }
 impl
 IntoResult
