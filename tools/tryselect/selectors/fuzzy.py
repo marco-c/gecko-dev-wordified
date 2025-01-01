@@ -568,6 +568,13 @@ task
 -
 filter
 "
+"
+-
+-
+all
+-
+tasks
+"
 ]
             
 {
