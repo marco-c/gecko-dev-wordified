@@ -1375,14 +1375,6 @@ CompositionTransaction
 .
 h
 class
-CreateLineBreakResult
-;
-/
-/
-EditorLineBreak
-.
-h
-class
 CSSEditUtils
 ;
 /
