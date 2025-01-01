@@ -16811,8 +16811,15 @@ AsHTMLEditor
 )
 -
 >
-PrepareToInsertBRElement
+PrepareToInsertLineBreak
 (
+HTMLEditor
+:
+:
+LineBreakType
+:
+:
+BRElement
 aPointToInsert
 )
 ;
