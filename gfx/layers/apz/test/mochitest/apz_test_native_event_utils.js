@@ -4425,6 +4425,13 @@ y
 1
 90
 aObserver
+aTarget
+instanceof
+Element
+?
+aTarget
+:
+null
 )
 ;
 return

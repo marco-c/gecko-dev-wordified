@@ -7122,6 +7122,9 @@ aOrientation
 nsIObserver
 *
 aObserver
+Element
+*
+aElement
 )
 {
 /
@@ -7164,8 +7167,9 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetWidgetForElement
 (
+aElement
 )
 ;
 if
