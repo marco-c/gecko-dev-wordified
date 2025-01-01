@@ -2153,15 +2153,6 @@ InputRegion
 )
 override
 ;
-void
-DidChangeParent
-(
-nsIWidget
-*
-aOldParent
-)
-override
-;
 nsresult
 SynthesizeNativeMouseEvent
 (
