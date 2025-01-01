@@ -122,6 +122,13 @@ sys
 mjs
 "
 "
+CaptchaDetectionCommunicationChild
+.
+sys
+.
+mjs
+"
+"
 CaptchaDetectionParent
 .
 sys
