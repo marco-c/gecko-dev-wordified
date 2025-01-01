@@ -426,6 +426,10 @@ _closedTabs
 :
 [
 ]
+closedGroups
+:
+[
+]
 }
 /
 /
@@ -565,6 +569,10 @@ _closedTabs
 :
 [
 ]
+closedGroups
+:
+[
+]
 }
 /
 /
@@ -695,6 +703,10 @@ title
 :
 REMEMBER
 }
+]
+closedGroups
+:
+[
 ]
 }
 ]
