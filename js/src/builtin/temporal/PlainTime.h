@@ -116,6 +116,15 @@ define
 builtin_temporal_PlainTime_h
 #
 include
+"
+mozilla
+/
+Casting
+.
+h
+"
+#
+include
 <
 stdint
 .

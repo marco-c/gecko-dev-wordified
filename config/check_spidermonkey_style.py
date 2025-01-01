@@ -980,6 +980,14 @@ h
 ICU4X
         
 "
+ICU4XError
+.
+h
+"
+#
+ICU4X
+        
+"
 ICU4XGraphemeClusterSegmenter
 .
 h
