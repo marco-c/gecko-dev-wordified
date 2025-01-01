@@ -714,6 +714,12 @@ mEventTarget
 nsID
 mActorID
 ;
+bool
+mIsThirdPartyContext
+{
+false
+}
+;
 }
 ;
 struct
