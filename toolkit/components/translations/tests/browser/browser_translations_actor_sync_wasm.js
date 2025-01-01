@@ -191,7 +191,7 @@ oldWasmRecord
 await
 TranslationsParent
 .
-getMaxVersionRecords
+getMaxSupportedVersionRecords
 (
 remoteClients
 .
@@ -445,7 +445,7 @@ oldWasmRecord
 await
 TranslationsParent
 .
-getMaxVersionRecords
+getMaxSupportedVersionRecords
 (
 remoteClients
 .
