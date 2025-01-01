@@ -180,13 +180,6 @@ nsString
 .
 h
 "
-#
-include
-"
-Statistics
-.
-h
-"
 using
 namespace
 mozilla
@@ -265,13 +258,6 @@ IID_IAccessibleTable
 iid
 )
 {
-statistics
-:
-:
-IAccessibleTableUsed
-(
-)
-;
 *
 ppv
 =
