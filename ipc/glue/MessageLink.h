@@ -220,7 +220,6 @@ MsgNotKnown
 MsgNotAllowed
 MsgPayloadError
 MsgProcessingError
-MsgRouteError
 MsgValueError
 }
 ;
