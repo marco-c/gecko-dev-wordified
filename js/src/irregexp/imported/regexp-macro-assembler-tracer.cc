@@ -3107,7 +3107,7 @@ RegExpFlags
 flags
 )
 {
-Handle
+DirectHandle
 <
 String
 >
