@@ -1600,10 +1600,6 @@ pref
 )
 :
     
-pref_value
-=
-False
-    
 for
 key
 value
@@ -1620,7 +1616,15 @@ pref
 key
 :
             
-pref_value
+if
+isinstance
+(
+value
+str
+)
+:
+                
+value
 =
 value
 .
@@ -1637,10 +1641,14 @@ true
 '
 )
             
-break
+return
+bool
+(
+value
+)
     
 return
-pref_value
+False
 def
 run_info_extras
 (
@@ -5220,6 +5228,18 @@ profile
 return
 profile
     
+staticmethod
+    
+def
+default_prefs
+(
+)
+:
+        
+return
+{
+}
+    
 def
 _load_prefs
 (
@@ -5444,13 +5464,28 @@ any
 custom
 preferences
         
-prefs
+all_prefs
+=
+self
 .
-add
+default_prefs
+(
+)
+        
+all_prefs
+.
+update
 (
 self
 .
 extra_prefs
+)
+        
+prefs
+.
+add
+(
+all_prefs
 cast
 =
 True
