@@ -1789,9 +1789,6 @@ loadInfo
 .
 mShouldResistFingerprinting
 overriddenFingerprintingSettingsArg
-loadInfo
-.
-mIsOn3PCBExceptionList
 OriginTrials
 :
 :

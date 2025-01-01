@@ -1208,9 +1208,6 @@ bool
 isThirdPartyContextToTopWindow
 ;
 bool
-isOn3PCBExceptionList
-;
-bool
 isFormSubmission
 ;
 bool
@@ -2005,9 +2002,6 @@ isThirdPartyContextToTopWindow
 ;
 bool
 isInThirdPartyContext
-;
-bool
-isOn3PCBExceptionList
 ;
 nullable
 nsIURI
