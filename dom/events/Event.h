@@ -200,6 +200,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BindingDeclarations
@@ -2638,7 +2647,7 @@ mPresContext
 until
 destroyed
 .
-RefPtr
+WeakPtr
 <
 nsPresContext
 >

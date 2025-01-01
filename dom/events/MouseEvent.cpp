@@ -1455,6 +1455,10 @@ nsPresContext
 presContext
 =
 mPresContext
+.
+get
+(
+)
 ;
 UIEvent
 :
@@ -1465,12 +1469,10 @@ DuplicatePrivateData
 ;
 mPresContext
 =
-std
-:
-:
-move
-(
 presContext
+.
+get
+(
 )
 ;
 }
