@@ -327,12 +327,17 @@ b
 "
 -
 -
-bug
+bugs
+"
+nargs
+=
+"
+*
 "
 help
 =
 "
-Bug
+Bugs
 to
 run
 tests
@@ -2024,12 +2029,12 @@ addon
 "
 )
                     
-bug
+bugs
 =
 kwargs
 [
 "
-bug
+bugs
 "
 ]
                     
@@ -2232,12 +2237,12 @@ addon
 "
 )
                     
-bug
+bugs
 =
 kwargs
 [
 "
-bug
+bugs
 "
 ]
                     
