@@ -1535,7 +1535,7 @@ source
 element
 {
 "
-type
+contentType
 "
 MS
 :
@@ -1545,6 +1545,7 @@ InputType
 :
 String
 "
+Content
 Type
 "
 MS
