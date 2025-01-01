@@ -95,14 +95,10 @@ struct
 GuidVisitor
 ;
 impl
-<
-'
-de
->
 Visitor
 <
 '
-de
+_
 >
 for
 GuidVisitor

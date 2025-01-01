@@ -173,7 +173,6 @@ bso
 /
 /
 *
-*
 The
 payload
 is
@@ -205,7 +204,6 @@ record
 /
 /
 /
-*
 *
 This
 supplies
@@ -248,7 +246,6 @@ bso
 /
 /
 *
-*
 The
 payload
 is
@@ -265,7 +262,6 @@ EncryptedPayload
 /
 /
 /
-*
 *
 Only
 clients
@@ -297,7 +293,6 @@ bsos
 /
 /
 /
-*
 *
 The
 encrypted
