@@ -1677,13 +1677,6 @@ ip_addr_any
 .
 disabled
 "
-"
-network
-.
-socket
-.
-attach_mock_network_layer
-"
 nullptr
 }
 ;
