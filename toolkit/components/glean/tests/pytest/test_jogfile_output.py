@@ -248,6 +248,8 @@ components
 /
 glean
 /
+tests
+/
 pytest
     
 "

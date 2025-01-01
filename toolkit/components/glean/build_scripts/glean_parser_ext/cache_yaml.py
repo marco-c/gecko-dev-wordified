@@ -69,6 +69,8 @@ import
 pickle
 import
 sys
+import
+buildconfig
 from
 run_glean_parser
 import
@@ -82,11 +84,25 @@ args
 )
 :
     
+interesting_yamls
+=
+buildconfig
+.
+substs
+.
+get
+(
+"
+MOZ_GLEAN_INTERESTING_METRICS_FILES
+"
+)
+    
 parse_result
 =
 parse
 (
 args
+interesting_yamls
 )
     
 pickle

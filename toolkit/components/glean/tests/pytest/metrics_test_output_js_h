@@ -549,7 +549,7 @@ const
 category_entry_t
 sCategoryByNameLookupEntries
 [
-2
+4
 ]
 ;
 extern
@@ -557,7 +557,7 @@ const
 metric_entry_t
 sMetricByNameLookupEntries
 [
-28
+56
 ]
 ;
 }
