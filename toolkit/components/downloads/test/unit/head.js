@@ -4168,12 +4168,11 @@ ex
 if
 (
 !
+DOMException
+.
+isInstance
 (
 ex
-instanceof
-IOUtils
-.
-Error
 )
 )
 {
@@ -4210,7 +4209,7 @@ platform
 info
 (
 "
-Expected
+IOUtils
 exception
 while
 checking
@@ -4220,9 +4219,7 @@ existence
 +
 ex
 .
-toString
-(
-)
+name
 )
 ;
 /
