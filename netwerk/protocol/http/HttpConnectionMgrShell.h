@@ -371,10 +371,6 @@ throttleSuspendFor
 uint32_t
 throttleResumeFor
 uint32_t
-throttleReadLimit
-uint32_t
-throttleReadInterval
-uint32_t
 throttleHoldTime
 uint32_t
 throttleMaxTime
@@ -1279,11 +1275,6 @@ throttleSuspendFor
 \
 uint32_t
 throttleResumeFor
-uint32_t
-throttleReadLimit
-\
-uint32_t
-throttleReadInterval
 uint32_t
 throttleHoldTime
 \
