@@ -66,9 +66,6 @@ logic
 /
 /
 /
-/
-/
-/
 Score
 used
 to

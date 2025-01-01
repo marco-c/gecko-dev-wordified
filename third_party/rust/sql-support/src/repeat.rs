@@ -129,6 +129,8 @@ F
 }
 impl
 <
+'
+a
 F
 >
 fmt
@@ -139,7 +141,7 @@ for
 RepeatDisplay
 <
 '
-_
+a
 F
 >
 where

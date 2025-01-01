@@ -134,15 +134,6 @@ sys
 .
 mjs
 "
-"
-generated
-/
-RustWebextstorage
-.
-sys
-.
-mjs
-"
 ]
 with
 Files
