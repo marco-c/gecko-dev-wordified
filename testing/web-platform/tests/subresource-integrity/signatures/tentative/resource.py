@@ -308,7 +308,7 @@ Reflect
 the
 accept
 -
-signatures
+signature
 header
 from
 the
@@ -330,7 +330,7 @@ b
 '
 accept
 -
-signatures
+signature
 '
 b
 '
@@ -347,7 +347,7 @@ b
 '
 accept
 -
-signatures
+signature
 '
 acceptSigs
 )
@@ -372,7 +372,7 @@ b
 '
 accept
 -
-signatures
+signature
 '
 )
   
