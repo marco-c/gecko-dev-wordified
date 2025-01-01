@@ -1984,6 +1984,15 @@ PresShell
 aPresShell
 )
 ;
+static
+nsRect
+GetDisplayportBase
+(
+nsIFrame
+*
+aFrame
+)
+;
 /
 *
 *
