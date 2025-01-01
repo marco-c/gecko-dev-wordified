@@ -615,6 +615,7 @@ aCookieHeader
 The
 cookie
 header
+values
 to
 be
 parsed
@@ -625,11 +626,14 @@ parsed
 must_use
 ]
 void
-setCookie
+setCookieHeaders
 (
 in
+Array
+<
 ACString
-aCookieHeader
+>
+aCookieHeaders
 )
 ;
 /

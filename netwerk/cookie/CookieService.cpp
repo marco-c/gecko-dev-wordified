@@ -4239,16 +4239,6 @@ cookie
 in
 the
 header
-bool
-moreCookieToRead
-=
-true
-;
-while
-(
-moreCookieToRead
-)
-{
 CookieParser
 cookieParser
 (
@@ -4256,8 +4246,6 @@ crc
 aHostURI
 )
 ;
-moreCookieToRead
-=
 cookieParser
 .
 Parse
@@ -4287,7 +4275,8 @@ ContainsCookie
 )
 )
 {
-continue
+return
+NS_OK
 ;
 }
 /
@@ -4354,7 +4343,8 @@ CookieParser
 RejectedByPermissionManager
 )
 ;
-continue
+return
+NS_OK
 ;
 }
 /
@@ -4574,7 +4564,6 @@ isForeignAndNotAddon
 bc
 )
 ;
-}
 return
 NS_OK
 ;
