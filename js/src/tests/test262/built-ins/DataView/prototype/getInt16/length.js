@@ -207,7 +207,7 @@ js
 -
 *
 /
-verifyPrimordialProperty
+verifyProperty
 (
 DataView
 .

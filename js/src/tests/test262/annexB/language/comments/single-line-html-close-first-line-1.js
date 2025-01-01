@@ -103,7 +103,7 @@ phase
 runtime
 type
 :
-EvalError
+Test262Error
 -
 -
 -
@@ -188,7 +188,7 @@ such
 .
 throw
 new
-EvalError
+Test262Error
 (
 "
 This

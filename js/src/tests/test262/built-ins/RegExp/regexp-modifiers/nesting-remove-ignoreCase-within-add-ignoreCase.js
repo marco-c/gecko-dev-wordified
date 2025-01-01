@@ -399,12 +399,12 @@ re1
 /
 (
 ?
+-
 i
 :
 a
 (
 ?
--
 i
 :
 b
@@ -412,6 +412,7 @@ b
 )
 c
 /
+i
 ;
 assert
 (
@@ -425,11 +426,11 @@ ABC
 "
 )
 "
-b
+a
 should
 not
 match
-B
+A
 in
 ABC
 "
@@ -447,11 +448,11 @@ ABc
 "
 )
 "
-b
+a
 should
 not
 match
-B
+A
 in
 ABc
 "
@@ -459,6 +460,7 @@ ABc
 ;
 assert
 (
+!
 re1
 .
 test
@@ -470,6 +472,7 @@ Abc
 "
 a
 should
+not
 match
 A
 in
@@ -479,7 +482,6 @@ Abc
 ;
 assert
 (
-!
 re1
 .
 test
@@ -491,7 +493,6 @@ aBc
 "
 b
 should
-not
 match
 B
 in
@@ -501,7 +502,6 @@ aBc
 ;
 assert
 (
-!
 re1
 .
 test
@@ -513,7 +513,6 @@ abC
 "
 c
 should
-not
 match
 C
 in

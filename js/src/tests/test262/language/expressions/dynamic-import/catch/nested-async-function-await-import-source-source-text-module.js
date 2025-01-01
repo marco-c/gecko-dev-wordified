@@ -277,7 +277,7 @@ available
 .
 Throw
 a
-SyntaxError
+ReferenceError
 exception
 .
 Import
@@ -483,7 +483,7 @@ error
 .
 name
 '
-SyntaxError
+ReferenceError
 '
 )
 ;

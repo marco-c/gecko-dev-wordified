@@ -380,7 +380,7 @@ type
 name
 =
 "
-papty
+utcw05
 "
 [
 .
@@ -390,9 +390,11 @@ papty
 alias
 =
 "
-America
+Etc
 /
-Panama
+GMT
++
+5
 EST
 "
 /
@@ -402,7 +404,7 @@ est
 "
 :
 "
-papty
+utcw05
 "
 /
 /

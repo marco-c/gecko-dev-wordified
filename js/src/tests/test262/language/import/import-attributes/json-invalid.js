@@ -160,7 +160,7 @@ negative
 :
 phase
 :
-resolution
+parse
 type
 :
 SyntaxError

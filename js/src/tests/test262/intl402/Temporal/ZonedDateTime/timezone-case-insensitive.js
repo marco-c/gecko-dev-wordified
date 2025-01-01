@@ -3194,6 +3194,13 @@ Pacific
 '
 US
 /
+Pacific
+-
+New
+'
+'
+US
+/
 Samoa
 '
 '

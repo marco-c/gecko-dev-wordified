@@ -163,7 +163,7 @@ function
 new
 Math
 .
-f16round
+fround
 (
 )
 ;

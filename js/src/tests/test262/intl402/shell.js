@@ -18512,15 +18512,6 @@ unitDisplay
 style
 ;
 }
-else
-{
-nfOpts
-.
-useGrouping
-=
-false
-;
-}
 let
 nf
 =

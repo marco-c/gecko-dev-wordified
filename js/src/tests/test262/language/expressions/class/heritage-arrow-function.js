@@ -57,6 +57,7 @@ superclass
 is
 false
 (
+async
 arrow
 )
 info
@@ -179,6 +180,7 @@ C
 class
 extends
 (
+async
 (
 )
 =
