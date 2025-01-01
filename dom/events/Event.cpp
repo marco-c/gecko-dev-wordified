@@ -1088,6 +1088,11 @@ nullptr
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
+mPresContext
+)
+;
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
 mExplicitOriginalTarget
 )
 ;
@@ -1359,6 +1364,10 @@ mClickTarget
 ;
 }
 }
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mPresContext
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mExplicitOriginalTarget
