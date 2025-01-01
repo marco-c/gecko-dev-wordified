@@ -7462,6 +7462,7 @@ LOCAL_SEARCH_MODES
 ;
 if
 (
+!
 lazy
 .
 UrlbarPrefs
