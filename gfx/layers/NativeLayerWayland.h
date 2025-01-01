@@ -443,12 +443,17 @@ mContainer
 =
 nullptr
 ;
+#
+if
+0
 wl_surface
 *
 mWlSurface
 =
 nullptr
 ;
+#
+endif
 RefPtr
 <
 widget
@@ -495,6 +500,9 @@ mFrameInProcess
 =
 false
 ;
+#
+if
+0
 bool
 mCallbackRequested
 =
@@ -505,6 +513,8 @@ mGdkAfterPaintId
 =
 0
 ;
+#
+endif
 RefPtr
 <
 CallbackMultiplexHelper
