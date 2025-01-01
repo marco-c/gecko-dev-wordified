@@ -721,7 +721,7 @@ SetHiddenWindowVSync
 aEmulateFrameCallback
 *
 /
-false
+true
 )
 ;
 }
