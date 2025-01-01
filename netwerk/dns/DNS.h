@@ -1407,6 +1407,15 @@ ToString
 )
 const
 ;
+void
+ToAddrPortString
+(
+nsACString
+&
+aOutput
+)
+const
+;
 }
 ;
 enum
