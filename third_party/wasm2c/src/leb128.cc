@@ -1908,7 +1908,7 @@ set
 represent
 values
 >
-32
+64
 bits
 .
 if
@@ -1918,7 +1918,7 @@ p
 9
 ]
 &
-0xf0
+0xfe
 )
 {
 return
