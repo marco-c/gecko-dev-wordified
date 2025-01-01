@@ -1662,8 +1662,13 @@ result
 .
 payload
 .
-l10nRestrictKeyword
+l10nRestrictKeywords
 ?
+.
+at
+(
+0
+)
 .
 toLowerCase
 (
