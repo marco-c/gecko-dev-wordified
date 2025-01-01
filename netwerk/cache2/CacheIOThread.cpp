@@ -959,7 +959,7 @@ hard
 null
 -
 check
-bellow
+below
 .
 MOZ_ASSERT
 (
