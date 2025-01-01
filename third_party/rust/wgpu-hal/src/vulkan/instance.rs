@@ -2593,7 +2593,7 @@ else
 log
 :
 :
-info
+debug
 !
 (
 "
@@ -2616,7 +2616,7 @@ else
 log
 :
 :
-info
+debug
 !
 (
 "

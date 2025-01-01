@@ -1905,10 +1905,10 @@ Selector
 pub
 usage
 :
-ops
+hal
 :
 :
-Range
+StateTransition
 <
 S
 >
@@ -2100,7 +2100,7 @@ self
 .
 usage
 .
-start
+from
 hal
 :
 :
@@ -2117,7 +2117,7 @@ self
 .
 usage
 .
-end
+to
 hal
 :
 :

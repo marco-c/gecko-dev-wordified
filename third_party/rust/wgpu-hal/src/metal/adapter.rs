@@ -942,7 +942,7 @@ SAMPLED_LINEAR
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 Tfc
 :
@@ -1076,7 +1076,7 @@ read_write_tier2_if
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 Tfc
 :
@@ -1125,7 +1125,7 @@ SAMPLED_LINEAR
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 Tfc
 :
@@ -1169,10 +1169,11 @@ Tf
 Rg8Sint
 =
 >
+{
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 Tfc
 :
@@ -1180,6 +1181,7 @@ Tfc
 COLOR_ATTACHMENT
 |
 msaa_count
+}
 Tf
 :
 :
@@ -1197,7 +1199,7 @@ read_write_tier1_if
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 Tfc
 :
@@ -1228,7 +1230,7 @@ else
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 Tfc
 :
@@ -1258,10 +1260,11 @@ Tf
 Rg16Sint
 =
 >
+{
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 Tfc
 :
@@ -1269,6 +1272,7 @@ Tfc
 COLOR_ATTACHMENT
 |
 msaa_count
+}
 Tf
 :
 :
@@ -1294,7 +1298,7 @@ set
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 pc
 .
 format_rgba8_srgb_all
@@ -1327,7 +1331,7 @@ set
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 pc
 .
 format_rgb10a2_uint_write
@@ -1355,7 +1359,7 @@ set
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 pc
 .
 format_rgb10a2_unorm_all
@@ -1383,7 +1387,7 @@ set
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 pc
 .
 format_rg11b10_all
@@ -1402,6 +1406,7 @@ Tf
 Rg32Sint
 =
 >
+{
 Tfc
 :
 :
@@ -1410,9 +1415,10 @@ COLOR_ATTACHMENT
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 msaa_count
+}
 Tf
 :
 :
@@ -1432,7 +1438,7 @@ else
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 Tfc
 :
@@ -1464,7 +1470,7 @@ read_write_tier2_if
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 Tfc
 :
@@ -1489,7 +1495,7 @@ read_write_tier2_if
 Tfc
 :
 :
-STORAGE_WRITE
+STORAGE_WRITE_ONLY
 |
 Tfc
 :
@@ -1961,6 +1967,11 @@ Tfc
 :
 SAMPLED
 |
+Tfc
+:
+:
+STORAGE_READ_ONLY
+|
 extra
 }
 unsafe
@@ -2293,7 +2304,15 @@ crate
 TextureUses
 :
 :
-STORAGE_READ
+STORAGE_READ_ONLY
+|
+crate
+:
+:
+TextureUses
+:
+:
+STORAGE_WRITE_ONLY
 |
 crate
 :

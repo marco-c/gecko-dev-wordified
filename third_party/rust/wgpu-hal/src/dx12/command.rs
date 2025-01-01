@@ -423,6 +423,17 @@ discard_encoding
 (
 )
 }
+self
+.
+counters
+.
+command_encoders
+.
+sub
+(
+1
+)
+;
 }
 }
 impl
@@ -2296,7 +2307,7 @@ barrier
 .
 usage
 .
-start
+from
 )
 ;
 let
@@ -2311,7 +2322,7 @@ barrier
 .
 usage
 .
-end
+to
 )
 ;
 if
@@ -2411,7 +2422,7 @@ barrier
 .
 usage
 .
-start
+from
 =
 =
 crate
@@ -2599,7 +2610,7 @@ barrier
 .
 usage
 .
-start
+from
 )
 ;
 let
@@ -2614,7 +2625,7 @@ barrier
 .
 usage
 .
-end
+to
 )
 ;
 if
@@ -3078,7 +3089,7 @@ barrier
 .
 usage
 .
-start
+from
 =
 =
 crate

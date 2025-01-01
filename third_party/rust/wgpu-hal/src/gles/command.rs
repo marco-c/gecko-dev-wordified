@@ -743,6 +743,17 @@ discard_encoding
 (
 )
 }
+self
+.
+counters
+.
+command_encoders
+.
+sub
+(
+1
+)
+;
 }
 }
 impl
@@ -1993,7 +2004,7 @@ bar
 .
 usage
 .
-start
+from
 .
 contains
 (
@@ -2035,7 +2046,7 @@ bar
 .
 usage
 .
-end
+to
 )
 )
 ;
@@ -2133,7 +2144,7 @@ bar
 .
 usage
 .
-start
+from
 .
 contains
 (
@@ -2178,7 +2189,7 @@ bar
 .
 usage
 .
-end
+to
 ;
 }
 if

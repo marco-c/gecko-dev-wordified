@@ -8244,6 +8244,9 @@ self
 meta
 .
 workgroup_size
+workgroup_size_overrides
+:
+None
 function
 :
 Function

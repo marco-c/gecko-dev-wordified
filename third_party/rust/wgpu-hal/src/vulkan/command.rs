@@ -1001,7 +1001,7 @@ bar
 .
 usage
 .
-start
+from
 )
 ;
 src_stages
@@ -1024,7 +1024,7 @@ bar
 .
 usage
 .
-end
+to
 )
 ;
 dst_stages
@@ -1245,7 +1245,7 @@ bar
 .
 usage
 .
-start
+from
 )
 ;
 let
@@ -1260,7 +1260,7 @@ bar
 .
 usage
 .
-start
+from
 bar
 .
 texture
@@ -1288,7 +1288,7 @@ bar
 .
 usage
 .
-end
+to
 )
 ;
 let
@@ -1303,7 +1303,7 @@ bar
 .
 usage
 .
-end
+to
 bar
 .
 texture
@@ -3899,7 +3899,7 @@ barrier
 .
 usage
 .
-start
+from
 self
 .
 device
@@ -3922,7 +3922,7 @@ barrier
 .
 usage
 .
-end
+to
 self
 .
 device

@@ -3709,6 +3709,11 @@ TypeFlags
 :
 :
 HOST_SHAREABLE
+|
+TypeFlags
+:
+:
+CREATION_RESOLVED
 true
 )
 }
@@ -3790,6 +3795,11 @@ TypeFlags
 :
 :
 HOST_SHAREABLE
+|
+TypeFlags
+:
+:
+CREATION_RESOLVED
 true
 )
 }
@@ -4005,6 +4015,11 @@ TypeFlags
 :
 :
 CONSTRUCTIBLE
+|
+TypeFlags
+:
+:
+CREATION_RESOLVED
 false
 )
 crate
