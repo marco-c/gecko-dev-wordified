@@ -2671,6 +2671,10 @@ mSwipeTracker
 nullptr
 ;
 }
+RemoveAllChildren
+(
+)
+;
 IMEStateManager
 :
 :
