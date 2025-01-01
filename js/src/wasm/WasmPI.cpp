@@ -1260,7 +1260,7 @@ MOZ_ASSERT
 (
 iter
 .
-stackSwitched
+currentFrameStackSwitched
 (
 )
 )
@@ -1351,7 +1351,7 @@ if
 (
 iter
 .
-stackSwitched
+currentFrameStackSwitched
 (
 )
 )
@@ -2966,7 +2966,7 @@ if
 (
 iter
 .
-stackSwitched
+currentFrameStackSwitched
 (
 )
 )
@@ -3138,7 +3138,7 @@ if
 (
 wasmIter
 .
-stackSwitched
+currentFrameStackSwitched
 (
 )
 )
