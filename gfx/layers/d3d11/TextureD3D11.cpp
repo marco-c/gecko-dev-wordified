@@ -2496,16 +2496,6 @@ const
 aOutDesc
 )
 {
-if
-(
-mGpuProcessTextureId
-.
-isNothing
-(
-)
-)
-{
-}
 *
 aOutDesc
 =
