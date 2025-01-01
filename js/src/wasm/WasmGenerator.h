@@ -483,7 +483,7 @@ bytes
 CodeRangeVector
 codeRanges
 ;
-CallSiteVector
+CallSites
 callSites
 ;
 CallSiteTargetVector

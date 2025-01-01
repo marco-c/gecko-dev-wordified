@@ -8270,10 +8270,7 @@ entails
 void
 insertBreakablePoint
 (
-CallSiteDesc
-:
-:
-Kind
+CallSiteKind
 kind
 )
 ;
