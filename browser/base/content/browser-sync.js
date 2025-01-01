@@ -8520,6 +8520,11 @@ true
 "
 false
 "
+fxa_sync_on
+:
+state
+.
+syncEnabled
 }
 ;
 let
