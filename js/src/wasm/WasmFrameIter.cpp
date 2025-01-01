@@ -6704,9 +6704,8 @@ Trap
 :
 :
 IndirectCallBadSig
-BytecodeOffset
+TrapSiteDesc
 (
-0
 )
 )
 ;
@@ -6752,9 +6751,8 @@ Trap
 :
 :
 IndirectCallBadSig
-BytecodeOffset
+TrapSiteDesc
 (
-0
 )
 )
 ;

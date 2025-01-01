@@ -4534,8 +4534,8 @@ checkStack
 (
 Register
 tmp
-BytecodeOffset
-trapOffset
+TrapSiteDesc
+trapSiteDesc
 )
 {
 stackAddOffset_
@@ -4584,7 +4584,7 @@ Trap
 :
 :
 StackOverflow
-trapOffset
+trapSiteDesc
 )
 ;
 masm

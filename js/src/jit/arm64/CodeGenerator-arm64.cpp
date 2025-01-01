@@ -2480,7 +2480,7 @@ IntegerDivideByZero
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -2708,7 +2708,7 @@ IntegerOverflow
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -3577,7 +3577,7 @@ IntegerOverflow
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -4640,7 +4640,7 @@ mir
 )
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -5291,7 +5291,7 @@ IntegerDivideByZero
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -13005,7 +13005,7 @@ IntegerDivideByZero
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -13347,7 +13347,7 @@ IntegerDivideByZero
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -18460,7 +18460,7 @@ OutOfLineAbortingWasmTrap
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -18582,7 +18582,7 @@ OutOfLineAbortingWasmTrap
 mir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 wasm
@@ -20043,16 +20043,18 @@ flags
 (
 )
 ;
+const
 wasm
 :
 :
-BytecodeOffset
-off
+TrapSiteDesc
+&
+trapSiteDesc
 =
 ool
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 ;
@@ -20085,7 +20087,7 @@ oolWasmTruncateCheckF32ToI32
 input
 output
 flags
-off
+trapSiteDesc
 oolRejoin
 )
 ;
@@ -20109,7 +20111,7 @@ oolWasmTruncateCheckF32ToI64
 input
 output64
 flags
-off
+trapSiteDesc
 oolRejoin
 )
 ;
@@ -20156,7 +20158,7 @@ oolWasmTruncateCheckF64ToI32
 input
 output
 flags
-off
+trapSiteDesc
 oolRejoin
 )
 ;
@@ -20180,7 +20182,7 @@ oolWasmTruncateCheckF64ToI64
 input
 output64
 flags
-off
+trapSiteDesc
 oolRejoin
 )
 ;
@@ -21072,7 +21074,7 @@ IntegerDivideByZero
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -21190,7 +21192,7 @@ IntegerOverflow
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -21385,7 +21387,7 @@ IntegerDivideByZero
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -29662,7 +29664,7 @@ offset32
 )
 access
 .
-trapOffset
+trapDesc
 (
 )
 access

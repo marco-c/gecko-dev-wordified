@@ -962,11 +962,13 @@ flags
 Label
 *
 rejoin
+const
 wasm
 :
 :
-BytecodeOffset
-trapOffset
+TrapSiteDesc
+&
+trapSiteDesc
 )
 ;
 /
