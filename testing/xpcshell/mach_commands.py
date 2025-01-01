@@ -2176,6 +2176,9 @@ available
 now
 .
             
+try
+:
+                
 tags
 =
 "
@@ -2195,8 +2198,6 @@ get
 "
 tags
 "
-"
-"
 )
 )
 .
@@ -2205,6 +2206,28 @@ split
 "
 "
 )
+            
+except
+KeyError
+:
+                
+#
+.
+get
+(
+"
+tags
+"
+)
+may
+raise
+KeyError
+.
+                
+tags
+=
+[
+]
             
 if
 "
