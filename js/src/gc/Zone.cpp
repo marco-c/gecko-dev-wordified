@@ -4053,6 +4053,7 @@ jit
 JitZone
 >
 (
+cx
 allocNurseryStrings
 (
 )

@@ -550,6 +550,17 @@ IonRegisterAllocator
 >
 forcedRegisterAllocator
 ;
+#
+ifdef
+ENABLE_JS_AOT_ICS
+bool
+enableAOTICs
+;
+bool
+enableAOTICEnforce
+;
+#
+endif
 /
 /
 Spectre
