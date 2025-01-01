@@ -145,6 +145,15 @@ WaylandSurfaceLock
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GRefPtr
+.
+h
+"
 /
 *
 Workaround
