@@ -1579,6 +1579,11 @@ _mlbfData
 delete
 ExtensionBlocklistMLBF
 .
+_mlbfDataSoftBlocks
+;
+delete
+ExtensionBlocklistMLBF
+.
 _stashes
 ;
 Assert
