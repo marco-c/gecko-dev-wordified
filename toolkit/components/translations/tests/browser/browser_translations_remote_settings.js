@@ -1743,7 +1743,10 @@ getMaxSupportedVersionRecords
 client
 {
 lookupKey
-majorVersion
+minSupportedMajorVersion
+:
+1
+maxSupportedMajorVersion
 :
 1
 }

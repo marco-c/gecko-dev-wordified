@@ -210,7 +210,12 @@ bergamot
 translator
 "
 }
-majorVersion
+minSupportedMajorVersion
+:
+TranslationsParent
+.
+BERGAMOT_MAJOR_VERSION
+maxSupportedMajorVersion
 :
 TranslationsParent
 .
@@ -464,7 +469,12 @@ bergamot
 translator
 "
 }
-majorVersion
+minSupportedMajorVersion
+:
+TranslationsParent
+.
+BERGAMOT_MAJOR_VERSION
+maxSupportedMajorVersion
 :
 TranslationsParent
 .
