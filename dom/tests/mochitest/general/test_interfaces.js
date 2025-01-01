@@ -13624,7 +13624,7 @@ Scheduler
 insecureContext
 :
 true
-nightly
+disabled
 :
 true
 }
@@ -16937,7 +16937,7 @@ TaskController
 insecureContext
 :
 true
-nightly
+disabled
 :
 true
 }
@@ -16966,7 +16966,7 @@ TaskPriorityChangeEvent
 insecureContext
 :
 true
-nightly
+disabled
 :
 true
 }
@@ -16995,7 +16995,7 @@ TaskSignal
 insecureContext
 :
 true
-nightly
+disabled
 :
 true
 }
@@ -24357,7 +24357,7 @@ scheduler
 insecureContext
 :
 true
-nightly
+disabled
 :
 true
 }

@@ -2701,7 +2701,7 @@ name
 "
 Scheduler
 "
-nightly
+disabled
 :
 true
 }
@@ -2848,7 +2848,7 @@ name
 "
 TaskController
 "
-nightly
+disabled
 :
 true
 }
@@ -2874,7 +2874,7 @@ name
 "
 TaskPriorityChangeEvent
 "
-nightly
+disabled
 :
 true
 }
@@ -2900,7 +2900,7 @@ name
 "
 TaskSignal
 "
-nightly
+disabled
 :
 true
 }
