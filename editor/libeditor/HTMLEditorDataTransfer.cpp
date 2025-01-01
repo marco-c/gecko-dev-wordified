@@ -4904,6 +4904,7 @@ SpecifiedStyle
 :
 :
 Preserve
+mEditingHost
 )
 ;
 if
