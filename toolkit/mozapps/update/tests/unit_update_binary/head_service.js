@@ -58,3 +58,13 @@ gIsServiceTest
 =
 true
 ;
+LOG_FUNCTION
+(
+gIsServiceTest
+=
+?
+{
+gIsServiceTest
+}
+)
+;

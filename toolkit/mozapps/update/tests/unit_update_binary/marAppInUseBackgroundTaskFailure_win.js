@@ -251,7 +251,11 @@ true
 /
 /
 aHasActiveUpdate
+gIsServiceTest
+?
 STATE_PENDING_SVC
+:
+STATE_PENDING
 /
 /
 aUpdateStatusState
