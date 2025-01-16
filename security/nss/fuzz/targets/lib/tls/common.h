@@ -81,6 +81,9 @@ seccomon
 .
 h
 "
+namespace
+TlsCommon
+{
 void
 FixTime
 (
@@ -142,6 +145,11 @@ size_t
 usedLen
 )
 ;
+}
+/
+/
+namespace
+TlsCommon
 #
 endif
 /

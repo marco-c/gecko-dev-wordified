@@ -555,7 +555,7 @@ stack_size
 ]
 ;
 \
-PORT_Memset
+PORT_SafeZero
 (
 (
 void
@@ -566,7 +566,6 @@ _stkclr
 [
 0
 ]
-0
 stack_size
 )
 ;

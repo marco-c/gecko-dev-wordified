@@ -3434,10 +3434,9 @@ dsa_signature_len
 ;
 cleanup
 :
-PORT_Memset
+PORT_SafeZero
 (
 localDigestData
-0
 DSA_MAX_SUBPRIME_LEN
 )
 ;
@@ -3796,10 +3795,9 @@ retries
 0
 )
 ;
-PORT_Memset
+PORT_SafeZero
 (
 kSeed
-0
 sizeof
 kSeed
 )
@@ -4964,10 +4962,9 @@ verified
 }
 cleanup
 :
-PORT_Memset
+PORT_SafeZero
 (
 localDigestData
-0
 sizeof
 localDigestData
 )
