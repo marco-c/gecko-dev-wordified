@@ -476,6 +476,14 @@ PruneDeadConnections
 )
 ;
 void
+MakeConnectionPendingAndDontReuse
+(
+HttpConnectionBase
+*
+conn
+)
+;
+void
 VerifyTraffic
 (
 )
