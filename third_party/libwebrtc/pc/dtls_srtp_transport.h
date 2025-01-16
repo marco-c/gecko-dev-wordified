@@ -419,8 +419,7 @@ rtc
 :
 ZeroOnFreeBuffer
 <
-unsigned
-char
+uint8_t
 >
 *
 send_key
@@ -429,8 +428,7 @@ rtc
 :
 ZeroOnFreeBuffer
 <
-unsigned
-char
+uint8_t
 >
 *
 recv_key

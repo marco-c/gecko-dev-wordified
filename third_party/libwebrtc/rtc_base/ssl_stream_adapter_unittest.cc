@@ -9453,8 +9453,7 @@ rtc
 :
 ZeroOnFreeBuffer
 <
-unsigned
-char
+uint8_t
 >
 client_out
 (
@@ -9472,8 +9471,7 @@ rtc
 :
 ZeroOnFreeBuffer
 <
-unsigned
-char
+uint8_t
 >
 server_out
 (
@@ -9524,8 +9522,7 @@ rtc
 :
 ZeroOnFreeBuffer
 <
-unsigned
-char
+uint8_t
 >
 legacy_out
 (

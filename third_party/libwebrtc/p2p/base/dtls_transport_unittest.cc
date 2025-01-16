@@ -3340,8 +3340,7 @@ rtc
 :
 ZeroOnFreeBuffer
 <
-unsigned
-char
+uint8_t
 >
 client1_out
 (
@@ -3359,8 +3358,7 @@ rtc
 :
 ZeroOnFreeBuffer
 <
-unsigned
-char
+uint8_t
 >
 client2_out
 (
@@ -3423,8 +3421,7 @@ rtc
 :
 ZeroOnFreeBuffer
 <
-unsigned
-char
+uint8_t
 >
 client1_out_legacy
 (
