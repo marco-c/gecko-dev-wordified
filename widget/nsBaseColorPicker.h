@@ -225,6 +225,14 @@ OpenNative
 =
 0
 ;
+bool
+MaybeBlockColorPicker
+(
+nsIColorPickerShownCallback
+*
+aCallback
+)
+;
 RefPtr
 <
 mozilla
