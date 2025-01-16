@@ -302,6 +302,8 @@ None
 )
 :
         
+result
+=
 await
 bidi_session
 .
@@ -326,6 +328,9 @@ events
 contexts
 )
 )
+        
+return
+result
     
 yield
 subscribe_events
