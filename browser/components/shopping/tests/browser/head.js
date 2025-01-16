@@ -43,6 +43,7 @@ MOCK_UNAVAILABLE_PRODUCT_RESPONSE
 MOCK_UNAVAILABLE_PRODUCT_REPORTED_RESPONSE
 MOCK_PAGE_NOT_SUPPORTED_RESPONSE
 MOCK_RECOMMENDED_ADS_RESPONSE
+SUPPORTED_SITE_URL
 verifyAnalysisDetailsVisible
 verifyAnalysisDetailsHidden
 verifyFooterHidden
@@ -704,6 +705,19 @@ jpeg
 )
 }
 ]
+;
+const
+SUPPORTED_SITE_URL
+=
+"
+https
+:
+/
+/
+example
+.
+com
+"
 ;
 function
 verifyAnalysisDetailsVisible
