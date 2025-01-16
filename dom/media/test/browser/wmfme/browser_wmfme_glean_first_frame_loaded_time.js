@@ -171,7 +171,7 @@ video_codec
 "
 video
 /
-avc
+vp9
 "
 resolution
 :
@@ -220,12 +220,12 @@ video_codec
 "
 video
 /
-avc
+vp9
 "
 resolution
 :
 "
-AV
+V
 240
 <
 h
