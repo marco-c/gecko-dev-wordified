@@ -2194,7 +2194,11 @@ allocatable_tracks
 uint32_t
 bitrate
 uint32_t
+/
+*
 sum_max_bitrates
+*
+/
 )
 {
 std

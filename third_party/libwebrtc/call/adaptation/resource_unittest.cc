@@ -262,7 +262,11 @@ scoped_refptr
 <
 Resource
 >
+/
+*
 resource
+*
+/
 ResourceUsageState
 usage_state
 )

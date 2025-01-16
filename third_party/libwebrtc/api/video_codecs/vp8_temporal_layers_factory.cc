@@ -246,7 +246,11 @@ VideoEncoder
 :
 Settings
 &
+/
+*
 settings
+*
+/
 FecControllerOverride
 *
 fec_controller_override
