@@ -427,7 +427,7 @@ if
 (
 scroller
 .
-scrollTop
+scrollLeft
 =
 =
 x
@@ -435,7 +435,7 @@ x
 &
 scroller
 .
-scrollLeft
+scrollTop
 =
 =
 y
