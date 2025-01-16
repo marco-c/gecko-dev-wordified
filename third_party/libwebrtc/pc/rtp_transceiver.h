@@ -2464,6 +2464,11 @@ OnFirstPacketReceived
 )
 ;
 void
+OnFirstPacketSent
+(
+)
+;
+void
 StopSendingAndReceiving
 (
 )

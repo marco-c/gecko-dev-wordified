@@ -1274,6 +1274,11 @@ last_packet_in_batch
 options
 .
 last_packet_in_batch
+is_retransmit
+=
+options
+.
+is_retransmit
 packet
 =
 rtc
@@ -1332,6 +1337,15 @@ info_signaled_after_sent
 included_in_allocation
 =
 included_in_allocation
+;
+rtc_options
+.
+info_signaled_after_sent
+.
+is_media
+=
+!
+is_retransmit
 ;
 rtc_options
 .

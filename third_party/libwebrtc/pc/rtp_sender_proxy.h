@@ -285,6 +285,13 @@ scoped_refptr
 FrameEncryptorInterface
 >
 )
+PROXY_METHOD1
+(
+void
+SetObserver
+RtpSenderObserverInterface
+*
+)
 PROXY_CONSTMETHOD0
 (
 rtc
