@@ -2481,7 +2481,7 @@ has
 been
 initialized
 bool
-gInitDone
+gTelemetryHistogramInitDone
 =
 false
 ;
@@ -2500,7 +2500,7 @@ Histogram
 data
 .
 bool
-gCanRecordBase
+gTelemetryHistogramCanRecordBase
 =
 false
 ;
@@ -2519,7 +2519,7 @@ Histogram
 data
 .
 bool
-gCanRecordExtended
+gTelemetryHistogramCanRecordExtended
 =
 false
 ;
@@ -3964,7 +3964,7 @@ internal_CanRecordBase
 )
 {
 return
-gCanRecordBase
+gTelemetryHistogramCanRecordBase
 ;
 }
 bool
@@ -3973,7 +3973,7 @@ internal_CanRecordExtended
 )
 {
 return
-gCanRecordExtended
+gTelemetryHistogramCanRecordExtended
 ;
 }
 bool
@@ -10970,7 +10970,7 @@ aSample
 if
 (
 !
-gInitDone
+gTelemetryHistogramInitDone
 |
 |
 !
@@ -11151,7 +11151,7 @@ aSample
 if
 (
 !
-gInitDone
+gTelemetryHistogramInitDone
 |
 |
 !
@@ -16916,7 +16916,7 @@ gTelemetryHistogramMutex
 MOZ_ASSERT
 (
 !
-gInitDone
+gTelemetryHistogramInitDone
 "
 TelemetryHistogram
 :
@@ -16932,11 +16932,11 @@ once
 "
 )
 ;
-gCanRecordBase
+gTelemetryHistogramCanRecordBase
 =
 canRecordBase
 ;
-gCanRecordExtended
+gTelemetryHistogramCanRecordExtended
 =
 canRecordExtended
 ;
@@ -17180,7 +17180,7 @@ clang
 -
 format
 on
-gInitDone
+gTelemetryHistogramInitDone
 =
 true
 ;
@@ -17199,15 +17199,15 @@ locker
 gTelemetryHistogramMutex
 )
 ;
-gCanRecordBase
+gTelemetryHistogramCanRecordBase
 =
 false
 ;
-gCanRecordExtended
+gTelemetryHistogramCanRecordExtended
 =
 false
 ;
-gInitDone
+gTelemetryHistogramInitDone
 =
 false
 ;
@@ -17338,7 +17338,7 @@ gTelemetryHistogramMutex
 )
 ;
 return
-gInitDone
+gTelemetryHistogramInitDone
 ;
 }
 #
@@ -17379,7 +17379,7 @@ locker
 gTelemetryHistogramMutex
 )
 ;
-gCanRecordBase
+gTelemetryHistogramCanRecordBase
 =
 b
 ;
@@ -17420,7 +17420,7 @@ locker
 gTelemetryHistogramMutex
 )
 ;
-gCanRecordExtended
+gTelemetryHistogramCanRecordExtended
 =
 b
 ;

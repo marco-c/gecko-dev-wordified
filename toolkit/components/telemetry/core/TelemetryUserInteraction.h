@@ -114,9 +114,7 @@ void
 InitializeGlobalState
 (
 bool
-canRecordBase
-bool
-canRecordExtended
+canRecord
 )
 ;
 void
