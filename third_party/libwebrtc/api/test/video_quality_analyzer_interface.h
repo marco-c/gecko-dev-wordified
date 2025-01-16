@@ -347,7 +347,7 @@ Generator
 Stack
 |
 |
-Decoder
+Encoder
 |
 |
 /
