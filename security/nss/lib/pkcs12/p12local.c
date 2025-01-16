@@ -544,7 +544,7 @@ NULL
 &
 utf8Pw
 pwitem
-PR_TRUE
+PR_FALSE
 PR_FALSE
 PR_FALSE
 )

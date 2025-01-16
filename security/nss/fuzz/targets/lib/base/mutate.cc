@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-shared
+mutate
 .
 h
 "
@@ -89,7 +89,7 @@ data
 size_t
 size
 size_t
-max_size
+maxSize
 unsigned
 int
 seed
@@ -151,7 +151,7 @@ rng
 (
 data
 size
-max_size
+maxSize
 seed
 )
 ;
@@ -161,7 +161,7 @@ LLVMFuzzerMutate
 (
 data
 size
-max_size
+maxSize
 )
 ;
 }
