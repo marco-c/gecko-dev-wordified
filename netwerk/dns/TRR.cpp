@@ -448,6 +448,7 @@ nsIInterfaceRequestor
 nsIStreamListener
 nsIRunnable
 nsITimerCallback
+nsINamed
 )
 /
 /
