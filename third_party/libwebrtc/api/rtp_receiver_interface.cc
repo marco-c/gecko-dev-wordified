@@ -246,7 +246,11 @@ scoped_refptr
 <
 FrameDecryptorInterface
 >
+/
+*
 frame_decryptor
+*
+/
 )
 {
 }
@@ -301,7 +305,11 @@ scoped_refptr
 <
 FrameTransformerInterface
 >
+/
+*
 frame_transformer
+*
+/
 )
 {
 }

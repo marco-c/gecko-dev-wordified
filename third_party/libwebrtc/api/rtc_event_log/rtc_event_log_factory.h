@@ -196,7 +196,11 @@ RtcEventLogFactory
 (
 TaskQueueFactory
 *
+/
+*
 task_queue_factory
+*
+/
 )
 {
 }

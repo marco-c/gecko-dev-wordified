@@ -149,7 +149,11 @@ cricket
 Candidate
 >
 &
+/
+*
 candidates
+*
+/
 )
 {
 return

@@ -172,7 +172,11 @@ cricket
 :
 :
 MediaType
+/
+*
 media_type
+*
+/
 const
 std
 :
@@ -182,7 +186,11 @@ vector
 uint32_t
 >
 &
+/
+*
 csrcs
+*
+/
 rtc
 :
 :
@@ -191,7 +199,11 @@ ArrayView
 const
 uint8_t
 >
+/
+*
 additional_data
+*
+/
 rtc
 :
 :
@@ -327,7 +339,11 @@ cricket
 :
 :
 MediaType
+/
+*
 media_type
+*
+/
 size_t
 encrypted_frame_size
 )

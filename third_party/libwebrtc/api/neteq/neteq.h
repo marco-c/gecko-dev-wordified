@@ -1200,7 +1200,11 @@ uint8_t
 >
 payload
 Timestamp
+/
+*
 receive_time
+*
+/
 )
 {
 /
@@ -2221,7 +2225,11 @@ DecoderFormat
 GetDecoderFormat
 (
 int
+/
+*
 payload_type
+*
+/
 )
 const
 {
