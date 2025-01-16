@@ -429,7 +429,7 @@ uint8_t
 >
 ;
 void
-OntFirstFrameLoaded
+OnFirstFrameLoaded
 (
 const
 double
@@ -450,6 +450,10 @@ const
 MediaInfo
 &
 aInfo
+const
+nsCString
+&
+aVideoDecoderName
 )
 ;
 double

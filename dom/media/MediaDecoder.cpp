@@ -5828,7 +5828,7 @@ IsHardwareDecoding
 mTelemetryProbesReporter
 -
 >
-OntFirstFrameLoaded
+OnFirstFrameLoaded
 (
 firstFrameLoadedTime
 result
@@ -5852,6 +5852,15 @@ mTotalBufferingTimeMs
 flags
 *
 mInfo
+NS_ConvertUTF16toUTF8
+(
+result
+-
+>
+mReader
+.
+mVideoDecoderName
+)
 )
 ;
 }
