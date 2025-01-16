@@ -1635,15 +1635,6 @@ expectedFile
 RedirectURI
 :
 expectedFile
-httpVersion
-:
-"
-http
-/
-1
-.
-1
-"
 classOfService
 :
 "
