@@ -1740,6 +1740,17 @@ IsOffThreadSourceCompressionEnabled
 (
 )
 ;
+void
+AttachFinishedBaselineCompilations
+(
+JSContext
+*
+cx
+AutoLockHelperThreadState
+&
+lock
+)
+;
 }
 /
 /
