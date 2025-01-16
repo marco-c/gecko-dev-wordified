@@ -3732,10 +3732,8 @@ mFlags
 mComposed
 )
 {
-nsCOMPtr
-<
 nsIContent
->
+*
 originalTarget
 =
 nsIContent
@@ -3815,10 +3813,8 @@ it
 to
 chrome
 .
-nsCOMPtr
-<
 nsPIDOMWindowOuter
->
+*
 win
 =
 OwnerDoc
@@ -3884,12 +3880,10 @@ shadowHost
 false
 )
 ;
-nsCOMPtr
-<
 nsIContent
->
+*
 content
-(
+=
 nsIContent
 :
 :
@@ -3901,7 +3895,6 @@ mEvent
 -
 >
 mTarget
-)
 )
 ;
 if
