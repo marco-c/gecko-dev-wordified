@@ -6,6 +6,14 @@ title
 =
 capabilities
 test
+/
+/
+META
+:
+global
+=
+window
+worker
 '
 use
 strict
