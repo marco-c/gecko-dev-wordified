@@ -515,6 +515,9 @@ requestMethod
 "
 GET
 "
+responseStatus
+:
+301
 contentType
 :
 null
@@ -704,6 +707,9 @@ requestMethod
 "
 GET
 "
+responseStatus
+:
+200
 contentType
 :
 "
@@ -1515,6 +1521,9 @@ requestMethod
 "
 GET
 "
+responseStatus
+:
+301
 startTime
 :
 Expect
@@ -1749,6 +1758,9 @@ status
 "
 STATUS_STOP
 "
+responseStatus
+:
+200
 URI
 :
 Expect
