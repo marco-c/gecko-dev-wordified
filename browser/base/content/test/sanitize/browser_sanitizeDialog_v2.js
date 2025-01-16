@@ -5319,7 +5319,7 @@ context
 "
 clearSiteData
 "
-history_form_data_downloads
+history_and_downloads
 :
 "
 true
@@ -5338,6 +5338,11 @@ site_settings
 :
 "
 true
+"
+form_data
+:
+"
+false
 "
 }
 ;

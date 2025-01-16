@@ -3982,7 +3982,7 @@ record
 context
 :
 contextOpenedIn
-history_form_data_downloads
+history_and_downloads
 :
 selectedOptions
 .
@@ -4020,6 +4020,16 @@ includes
 (
 "
 siteSettings
+"
+)
+form_data
+:
+selectedOptions
+.
+includes
+(
+"
+formData
 "
 )
 }
