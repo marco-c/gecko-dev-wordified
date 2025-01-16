@@ -518,8 +518,8 @@ Union
 )
 :
 empty
-(
-)
+{
+}
 {
 }
 constexpr
@@ -606,7 +606,9 @@ aArgs
 NonConstT
 val
 ;
-char
+struct
+{
+}
 empty
 ;
 }
