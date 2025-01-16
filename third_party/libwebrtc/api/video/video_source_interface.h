@@ -739,6 +739,17 @@ the
 user
 using
 RtpEncodingParameters
+/
+/
+which
+is
+the
+maximum
+scale_resolution_down_by
+value
+of
+any
+encoding
 .
 std
 :
@@ -855,7 +866,7 @@ Aggregates
 {
 /
 /
-active_without_requested_resolution
+any_active_without_requested_resolution
 is
 set
 by

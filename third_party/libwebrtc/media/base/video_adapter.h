@@ -1306,7 +1306,7 @@ webrtc
 :
 Resolution
 >
-requested_resolution_
+scale_resolution_down_to_
 RTC_GUARDED_BY
 (
 mutex_
@@ -1335,7 +1335,7 @@ are
 using
 /
 /
-requested_resolution
+scale_resolution_down_to
 .
 I
 .
@@ -1348,7 +1348,7 @@ are
 using
 /
 /
-requested_resolution
+scale_resolution_down_to
 the
 call
 to
@@ -1361,7 +1361,7 @@ and
 the
 value
 from
-requested_resolution
+scale_resolution_down_to
 is
 used
 instead

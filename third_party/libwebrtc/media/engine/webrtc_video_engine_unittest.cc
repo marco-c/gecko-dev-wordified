@@ -77613,7 +77613,7 @@ nullptr
 TEST_F
 (
 WebRtcVideoChannelTest
-RequestedResolutionSinglecast
+ScaleResolutionDownToSinglecast
 )
 {
 cricket
@@ -77698,7 +77698,7 @@ frame_forwarder
 /
 /
 TEST
-requested_resolution
+scale_resolution_down_to
 <
 frame
 size
@@ -77735,7 +77735,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -77833,7 +77833,7 @@ height
 /
 /
 TEST
-requested_resolution
+scale_resolution_down_to
 =
 =
 frame
@@ -77868,7 +77868,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -77966,7 +77966,7 @@ height
 /
 /
 TEST
-requested_resolution
+scale_resolution_down_to
 >
 frame
 size
@@ -78000,7 +78000,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -78115,7 +78115,7 @@ nullptr
 TEST_F
 (
 WebRtcVideoChannelTest
-RequestedResolutionSinglecastScaling
+ScaleResolutionDownToSinglecastScaling
 )
 {
 cricket
@@ -78227,7 +78227,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -78379,7 +78379,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -78513,7 +78513,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -78659,7 +78659,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -78767,7 +78767,7 @@ nullptr
 TEST_F
 (
 WebRtcVideoChannelTest
-RequestedResolutionSimulcast
+ScaleResolutionDownToSimulcast
 )
 {
 cricket
@@ -78890,7 +78890,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -78910,7 +78910,7 @@ encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -78930,7 +78930,7 @@ encodings
 2
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -79055,7 +79055,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -79086,7 +79086,7 @@ encodings
 2
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -79201,7 +79201,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -79232,7 +79232,7 @@ encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -79252,7 +79252,7 @@ encodings
 2
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .

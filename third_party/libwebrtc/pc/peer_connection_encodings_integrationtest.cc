@@ -17184,7 +17184,7 @@ ok
 TEST_F
 (
 PeerConnectionEncodingsIntegrationTest
-RequestedResolutionParameterChecking
+ScaleToParameterChecking
 )
 {
 rtc
@@ -17205,15 +17205,15 @@ CreatePc
 AddTransceiver
 :
 If
-requested_resolution
+scale_resolution_down_to
 is
 specified
 on
 any
 encoding
+/
+/
 it
-/
-/
 must
 be
 specified
@@ -17229,7 +17229,7 @@ encoding
 ;
 encoding
 .
-requested_resolution
+scale_resolution_down_to
 =
 std
 :
@@ -17247,7 +17247,7 @@ encoding
 ;
 encoding
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17334,7 +17334,7 @@ send_encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17354,7 +17354,7 @@ send_encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17418,7 +17418,7 @@ AddTransceiver
 :
 Specifying
 both
-requested_resolution
+scale_resolution_down_to
 and
 /
 /
@@ -17439,7 +17439,7 @@ send_encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17472,7 +17472,7 @@ send_encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17531,7 +17531,7 @@ ok
 SetParameters
 :
 If
-requested_resolution
+scale_resolution_down_to
 is
 specified
 on
@@ -17580,7 +17580,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17600,7 +17600,7 @@ encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 std
 :
@@ -17650,10 +17650,12 @@ OK
 not
 to
 specify
-requested_resolution
+scale_resolution_down_to
 on
 an
 inactive
+/
+/
 encoding
 .
 parameters
@@ -17672,7 +17674,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17703,7 +17705,7 @@ encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 std
 :
@@ -17770,7 +17772,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17801,7 +17803,7 @@ encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17852,7 +17854,7 @@ SetParameters
 :
 Specifying
 both
-requested_resolution
+scale_resolution_down_to
 and
 /
 /
@@ -17882,7 +17884,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17915,7 +17917,7 @@ encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -17964,7 +17966,7 @@ ok
 TEST_F
 (
 PeerConnectionEncodingsIntegrationTest
-ScaleResolutionDownByIsIgnoredWhenRequestedResolutionIsSpecified
+ScaleResolutionDownByIsIgnoredWhenScaleToIsSpecified
 )
 {
 rtc
@@ -18082,7 +18084,7 @@ scale_resolution_down_by
 ;
 encoding
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -18209,7 +18211,7 @@ and
 /
 scale_resolution_down_by
 or
-requested_resolution
+scale_resolution_down_to
 )
 should
 pass
@@ -19417,12 +19419,12 @@ Configure
 :
 1
 using
-requested_resolution
+scale_resolution_down_to
 .
 TEST_P
 (
 PeerConnectionEncodingsIntegrationParameterizedTest
-SimulcastWithRequestedResolution
+SimulcastWithScaleTo
 )
 {
 rtc
@@ -19598,7 +19600,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -19631,7 +19633,7 @@ encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -19664,7 +19666,7 @@ encodings
 2
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -20747,13 +20749,13 @@ using
 /
 /
 the
-requested_resolution
+scale_resolution_down_to
 API
 .
 TEST_P
 (
 PeerConnectionEncodingsIntegrationParameterizedTest
-SimulcastRequestedResolutionNoLongerPowerOfTwo
+SimulcastScaleToNoLongerPowerOfTwo
 )
 {
 rtc
@@ -20938,7 +20940,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -20971,7 +20973,7 @@ encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -21004,7 +21006,7 @@ encodings
 2
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -21188,7 +21190,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -21208,7 +21210,7 @@ encodings
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -21228,7 +21230,7 @@ encodings
 2
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -21470,7 +21472,7 @@ run
 /
 /
 when
-requested_resolution
+scale_resolution_down_to
 is
 specified
 .
@@ -21483,9 +21485,9 @@ run
 in
 any
 case
+/
+/
 but
-/
-/
 that
 is
 an
@@ -21502,9 +21504,9 @@ we
 don
 '
 t
+/
+/
 have
-/
-/
 to
 repeat
 here
@@ -21513,7 +21515,7 @@ here
 TEST_P
 (
 PeerConnectionEncodingsIntegrationParameterizedTest
-LowResolutionSimulcastWithRequestedResolution
+LowResolutionSimulcastWithScaleTo
 )
 {
 rtc
@@ -21632,7 +21634,7 @@ q
 ;
 encoding
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -21664,7 +21666,7 @@ h
 ;
 encoding
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -21696,7 +21698,7 @@ f
 ;
 encoding
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -22486,7 +22488,7 @@ encoded_frames_f
 TEST_P
 (
 PeerConnectionEncodingsIntegrationParameterizedTest
-RequestedResolutionDownscaleAndThenUpscale
+ScaleToDownscaleAndThenUpscale
 )
 {
 rtc
@@ -22699,7 +22701,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -22899,7 +22901,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -22959,7 +22961,7 @@ ms
 TEST_P
 (
 PeerConnectionEncodingsIntegrationParameterizedTest
-RequestedResolutionIsOrientationAgnostic
+ScaleToIsOrientationAgnostic
 )
 {
 rtc
@@ -23173,7 +23175,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -23233,7 +23235,7 @@ ms
 TEST_P
 (
 PeerConnectionEncodingsIntegrationParameterizedTest
-RequestedResolutionMaintainsAspectRatio
+ScaleToMaintainsAspectRatio
 )
 {
 rtc
@@ -23450,7 +23452,7 @@ encodings
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .

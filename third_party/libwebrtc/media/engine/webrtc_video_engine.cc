@@ -15273,7 +15273,7 @@ encodings
 i
 ]
 .
-requested_resolution
+scale_resolution_down_to
 !
 =
 rtp_parameters_
@@ -15283,7 +15283,7 @@ encodings
 i
 ]
 .
-requested_resolution
+scale_resolution_down_to
 )
 |
 |
@@ -16234,7 +16234,7 @@ has_value
 |
 encoding
 .
-requested_resolution
+scale_resolution_down_to
 .
 has_value
 (
@@ -16950,7 +16950,7 @@ simulcast_layers
 i
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 rtp_parameters_
 .
@@ -16959,7 +16959,7 @@ encodings
 i
 ]
 .
-requested_resolution
+scale_resolution_down_to
 ;
 }
 encoder_config

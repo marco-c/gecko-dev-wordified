@@ -258,7 +258,7 @@ might
 be
 less
 than
-requested_resolution
+scale_resolution_down_to
 due
 to
 adaptation
@@ -526,7 +526,7 @@ from
 RtpEncodingParameters
 :
 :
-requested_resolution
+scale_resolution_down_to
 /
 /
 (
@@ -563,7 +563,7 @@ can
 be
 lower
 than
-requested_resolution
+scale_resolution_down_to
 /
 /
 e
@@ -592,7 +592,7 @@ optional
 <
 Resolution
 >
-requested_resolution
+scale_resolution_down_to
 ;
 }
 ;
@@ -1023,7 +1023,7 @@ ToString
 const
 ;
 bool
-HasRequestedResolution
+HasScaleResolutionDownTo
 (
 )
 const

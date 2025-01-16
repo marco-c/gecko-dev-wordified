@@ -1059,7 +1059,7 @@ webrtc
 RTCErrorType
 ;
 bool
-has_requested_resolution
+has_scale_resolution_down_to
 =
 false
 ;
@@ -1394,14 +1394,14 @@ encodings
 i
 ]
 .
-requested_resolution
+scale_resolution_down_to
 .
 has_value
 (
 )
 )
 {
-has_requested_resolution
+has_scale_resolution_down_to
 =
 true
 ;
@@ -1414,7 +1414,7 @@ encodings
 i
 ]
 .
-requested_resolution
+scale_resolution_down_to
 -
 >
 width
@@ -1430,7 +1430,7 @@ encodings
 i
 ]
 .
-requested_resolution
+scale_resolution_down_to
 -
 >
 height
@@ -1529,7 +1529,7 @@ encodings
 }
 if
 (
-has_requested_resolution
+has_scale_resolution_down_to
 &
 &
 absl
@@ -1561,7 +1561,7 @@ active
 !
 encoding
 .
-requested_resolution
+scale_resolution_down_to
 .
 has_value
 (

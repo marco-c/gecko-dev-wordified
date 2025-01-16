@@ -1007,7 +1007,7 @@ the
 new
 api
 (
-requested_resolution
+scale_resolution_down_to
 )
 /
 /
@@ -1338,9 +1338,9 @@ actual
 can
 be
 downscaled
-/
-/
 in
+/
+/
 encoder
 instead
 .

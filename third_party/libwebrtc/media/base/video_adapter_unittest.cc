@@ -364,7 +364,7 @@ webrtc
 :
 Resolution
 >
-requested_resolution
+scale_resolution_down_to
 bool
 any_active_without_requested_resolution
 )
@@ -395,7 +395,7 @@ true
 ;
 if
 (
-requested_resolution
+scale_resolution_down_to
 )
 {
 wants
@@ -412,11 +412,11 @@ VideoSinkWants
 :
 FrameSize
 (
-requested_resolution
+scale_resolution_down_to
 -
 >
 width
-requested_resolution
+scale_resolution_down_to
 -
 >
 height
@@ -8511,7 +8511,7 @@ ignored
 and
 /
 /
-requested_resolution
+scale_resolution_down_to
 is
 used
 instead
@@ -8519,7 +8519,7 @@ instead
 TEST_P
 (
 VideoAdapterTest
-UseRequestedResolutionInsteadOfOnOutputFormatRequest
+UseScaleResolutionDownToInsteadOfOnOutputFormatRequest
 )
 {
 {
@@ -8624,7 +8624,7 @@ and
 use
 /
 /
-requested_resolution
+scale_resolution_down_to
 .
 OnOutputFormatRequest
 (
@@ -8879,7 +8879,7 @@ NOT
 using
 /
 /
-requested_resolution
+scale_resolution_down_to
 .
 OnOutputFormatRequest
 (
@@ -9003,7 +9003,7 @@ height
 TEST_P
 (
 VideoAdapterTest
-RequestedResolutionIsOrientationAgnostic
+ScaleResolutionDownToIsOrientationAgnostic
 )
 {
 /
@@ -9164,7 +9164,7 @@ height
 TEST_P
 (
 VideoAdapterTest
-RequestedResolutionMaintainsAspectRatio
+ScaleResolutionDownToMaintainsAspectRatio
 )
 {
 /
@@ -9563,7 +9563,7 @@ kSinkResolutionAlignment
 TEST_P
 (
 VideoAdapterWithSourceAlignmentTest
-RequestedResolutionMaintainsAspectRatioWithAlignment
+ScaleResolutionDownToMaintainsAspectRatioWithAlignment
 )
 {
 /

@@ -532,7 +532,7 @@ namespace
 TEST
 (
 EncoderStreamFactory
-SinglecastRequestedResolution
+SinglecastScaleResolutionDownTo
 )
 {
 ExplicitKeyValueConfig
@@ -567,7 +567,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -606,7 +606,7 @@ streams
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 (
 Resolution
 {
@@ -655,7 +655,7 @@ height
 TEST
 (
 EncoderStreamFactory
-SinglecastRequestedResolutionWithAdaptation
+SinglecastScaleResolutionDownToWithAdaptation
 )
 {
 ExplicitKeyValueConfig
@@ -726,7 +726,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -766,7 +766,7 @@ streams
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 (
 Resolution
 {
@@ -815,7 +815,7 @@ height
 TEST
 (
 EncoderStreamFactory
-SimulcastRequestedResolutionUnrestricted
+SimulcastScaleResolutionDownToUnrestricted
 )
 {
 ExplicitKeyValueConfig
@@ -850,7 +850,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -870,7 +870,7 @@ simulcast_layers
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -890,7 +890,7 @@ simulcast_layers
 2
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -1012,7 +1012,7 @@ height
 TEST
 (
 EncoderStreamFactory
-SimulcastRequestedResolutionWith360pRestriction
+SimulcastScaleResolutionDownToWith360pRestriction
 )
 {
 ExplicitKeyValueConfig
@@ -1083,7 +1083,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -1103,7 +1103,7 @@ simulcast_layers
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -1123,7 +1123,7 @@ simulcast_layers
 2
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -1236,7 +1236,7 @@ height
 TEST
 (
 EncoderStreamFactory
-SimulcastRequestedResolutionWith90pRestriction
+SimulcastScaleResolutionDownToWith90pRestriction
 )
 {
 ExplicitKeyValueConfig
@@ -1307,7 +1307,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -1327,7 +1327,7 @@ simulcast_layers
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -1347,7 +1347,7 @@ simulcast_layers
 2
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -1456,7 +1456,7 @@ height
 TEST
 (
 EncoderStreamFactory
-ReverseSimulcastRequestedResolutionWithRestriction
+ReverseSimulcastScaleResolutionDownToWithRestriction
 )
 {
 ExplicitKeyValueConfig
@@ -1542,7 +1542,7 @@ simulcast_layers
 0
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -1562,7 +1562,7 @@ simulcast_layers
 1
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .
@@ -1582,7 +1582,7 @@ simulcast_layers
 2
 ]
 .
-requested_resolution
+scale_resolution_down_to
 =
 {
 .

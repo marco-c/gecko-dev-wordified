@@ -615,7 +615,7 @@ bool
 VideoEncoderConfig
 :
 :
-HasRequestedResolution
+HasScaleResolutionDownTo
 (
 )
 const
@@ -634,7 +634,7 @@ if
 (
 simulcast_layer
 .
-requested_resolution
+scale_resolution_down_to
 .
 has_value
 (

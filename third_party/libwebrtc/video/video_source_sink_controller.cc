@@ -535,7 +535,7 @@ FrameSize
 VideoSourceSinkController
 :
 :
-requested_resolution
+scale_resolution_down_to
 (
 )
 const
@@ -547,7 +547,7 @@ sequence_checker_
 )
 ;
 return
-requested_resolution_
+scale_resolution_down_to_
 ;
 }
 void
@@ -749,7 +749,7 @@ void
 VideoSourceSinkController
 :
 :
-SetRequestedResolution
+SetScaleResolutionDownTo
 (
 std
 :
@@ -764,7 +764,7 @@ VideoSinkWants
 :
 FrameSize
 >
-requested_resolution
+scale_resolution_down_to
 )
 {
 RTC_DCHECK_RUN_ON
@@ -773,14 +773,14 @@ RTC_DCHECK_RUN_ON
 sequence_checker_
 )
 ;
-requested_resolution_
+scale_resolution_down_to_
 =
 std
 :
 :
 move
 (
-requested_resolution
+scale_resolution_down_to
 )
 ;
 }
@@ -1061,7 +1061,7 @@ wants
 .
 requested_resolution
 =
-requested_resolution_
+scale_resolution_down_to_
 ;
 return
 wants
