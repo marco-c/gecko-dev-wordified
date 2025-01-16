@@ -8608,7 +8608,7 @@ absl
 internal
 :
 :
-identity
+type_identity
 ;
 /
 /
@@ -8655,7 +8655,7 @@ overload
 on
 T
 is
-identity
+type_identity
 <
 T
 >
@@ -8745,7 +8745,7 @@ Ts
 >
 ;
 static
-identity
+type_identity
 <
 T
 >

@@ -1038,7 +1038,7 @@ MakeNan
 absl
 :
 :
-Nullable
+Nonnull
 <
 const
 char
@@ -1625,7 +1625,7 @@ MakeNan
 absl
 :
 :
-Nullable
+Nonnull
 <
 const
 char

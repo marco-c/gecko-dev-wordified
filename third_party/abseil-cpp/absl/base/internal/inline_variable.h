@@ -673,7 +673,7 @@ Note
 :
 /
 /
-identity_t
+type_identity_t
 is
 used
 here
@@ -727,7 +727,7 @@ absl
 internal
 :
 :
-identity_t
+type_identity_t
 <
 type
 >
@@ -798,7 +798,7 @@ absl
 internal
 :
 :
-identity_t
+type_identity_t
 <
 type
 >
@@ -827,7 +827,7 @@ Note
 :
 /
 /
-identity_t
+type_identity_t
 is
 used
 here
@@ -895,12 +895,13 @@ absl
 internal
 :
 :
-identity_t
+type_identity_t
 <
 var_type
 >
 kInstance
 =
+\
 init
 ;
 \
@@ -923,7 +924,7 @@ absl
 internal
 :
 :
-identity_t
+type_identity_t
 <
 var_type
 >
@@ -952,7 +953,7 @@ absl
 internal
 :
 :
-identity_t
+type_identity_t
 <
 var_type
 >
