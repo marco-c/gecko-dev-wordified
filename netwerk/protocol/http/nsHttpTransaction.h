@@ -4023,6 +4023,9 @@ none
 nsCString
 mCname
 ;
+nsCString
+mServerHeader
+;
 nsCOMPtr
 <
 WebTransportSessionEventListener
