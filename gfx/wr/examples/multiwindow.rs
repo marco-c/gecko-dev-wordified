@@ -1739,6 +1739,7 @@ txn
 generate_frame
 (
 0
+true
 RenderReasons
 :
 :
