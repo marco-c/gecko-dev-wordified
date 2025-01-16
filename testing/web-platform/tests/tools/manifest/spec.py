@@ -147,6 +147,7 @@ manifest
 manifest_path
 cache_root
                             
+None
 working_copy
 True
 )
