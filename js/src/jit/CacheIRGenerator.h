@@ -2871,6 +2871,17 @@ BoundFunctionObject
 calleeObj
 )
 ;
+AttachDecision
+tryAttachBoundFunCall
+(
+Handle
+<
+BoundFunctionObject
+*
+>
+calleeObj
+)
+;
 void
 trackAttached
 (
