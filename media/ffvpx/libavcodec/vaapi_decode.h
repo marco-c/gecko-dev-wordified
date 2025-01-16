@@ -225,13 +225,6 @@ data
 ]
 ;
 }
-enum
-{
-MAX_PARAM_BUFFERS
-=
-16
-}
-;
 typedef
 struct
 VAAPIDecodePicture
@@ -243,10 +236,11 @@ int
 nb_param_buffers
 ;
 VABufferID
+*
 param_buffers
-[
-MAX_PARAM_BUFFERS
-]
+;
+int
+nb_param_buffers_allocated
 ;
 int
 nb_slices
@@ -256,7 +250,7 @@ VABufferID
 slice_buffers
 ;
 int
-slices_allocated
+nb_slice_buffers_allocated
 ;
 }
 VAAPIDecodePicture

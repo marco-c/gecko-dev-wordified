@@ -2035,16 +2035,6 @@ high_bit_depth
 ;
 #
 elif
-ARCH_ALPHA
-ff_idctdsp_init_alpha
-(
-c
-avctx
-high_bit_depth
-)
-;
-#
-elif
 ARCH_ARM
 ff_idctdsp_init_arm
 (

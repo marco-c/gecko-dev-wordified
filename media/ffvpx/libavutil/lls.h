@@ -421,6 +421,14 @@ indep_count
 )
 ;
 void
+ff_init_lls_riscv
+(
+LLSModel
+*
+m
+)
+;
+void
 ff_init_lls_x86
 (
 LLSModel

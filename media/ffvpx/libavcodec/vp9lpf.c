@@ -193,6 +193,13 @@ USA
 #
 include
 "
+avcodec
+.
+h
+"
+#
+include
+"
 vp9dec
 .
 h

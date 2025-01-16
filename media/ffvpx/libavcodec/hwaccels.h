@@ -205,6 +205,12 @@ extern
 const
 struct
 FFHWAccel
+ff_av1_videotoolbox_hwaccel
+;
+extern
+const
+struct
+FFHWAccel
 ff_av1_vulkan_hwaccel
 ;
 extern
@@ -536,6 +542,12 @@ const
 struct
 FFHWAccel
 ff_vp9_videotoolbox_hwaccel
+;
+extern
+const
+struct
+FFHWAccel
+ff_vvc_vaapi_hwaccel
 ;
 extern
 const

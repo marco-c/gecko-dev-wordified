@@ -243,6 +243,13 @@ h
 #
 include
 "
+avcodec_internal
+.
+h
+"
+#
+include
+"
 codec_internal
 .
 h

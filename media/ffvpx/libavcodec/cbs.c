@@ -236,6 +236,8 @@ h
 #
 include
 "
+libavutil
+/
 refstruct
 .
 h
@@ -749,7 +751,7 @@ CodedBitstreamUnit
 unit
 )
 {
-ff_refstruct_unref
+av_refstruct_unref
 (
 &
 unit
@@ -1011,7 +1013,7 @@ nb_decompose_unit_types
 continue
 ;
 }
-ff_refstruct_unref
+av_refstruct_unref
 (
 &
 unit
@@ -1147,7 +1149,7 @@ unit
 type
 )
 ;
-ff_refstruct_unref
+av_refstruct_unref
 (
 &
 unit
@@ -4206,7 +4208,7 @@ one
 .
 content_ref
 =
-ff_refstruct_ref
+av_refstruct_ref
 (
 content_ref
 )
@@ -4550,7 +4552,7 @@ static
 void
 cbs_default_free_unit_content
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *
@@ -4818,7 +4820,7 @@ desc
 )
 {
 return
-ff_refstruct_alloc_ext_c
+av_refstruct_alloc_ext_c
 (
 desc
 -
@@ -4826,7 +4828,7 @@ desc
 content_size
 0
 (
-FFRefStructOpaque
+AVRefStructOpaque
 )
 {
 .
@@ -5310,7 +5312,7 @@ return
 ;
 fail
 :
-ff_refstruct_unref
+av_refstruct_unref
 (
 &
 copy
@@ -5579,7 +5581,7 @@ if
 ref
 &
 &
-ff_refstruct_exclusive
+av_refstruct_exclusive
 (
 ref
 )
@@ -5604,7 +5606,7 @@ err
 return
 err
 ;
-ff_refstruct_unref
+av_refstruct_unref
 (
 &
 ref

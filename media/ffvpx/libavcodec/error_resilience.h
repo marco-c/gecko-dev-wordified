@@ -262,6 +262,12 @@ ThreadFrame
 *
 tf
 ;
+const
+struct
+ThreadProgress
+*
+progress
+;
 /
 /
 it

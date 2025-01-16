@@ -202,7 +202,16 @@ h
 #
 include
 "
-threadframe
+libavutil
+/
+frame
+.
+h
+"
+#
+include
+"
+progressframe
 .
 h
 "
@@ -863,7 +872,7 @@ REF_FRAME_SEGMAP
 .
 uses_2pass
 )
-ff_thread_await_progress
+ff_progress_frame_await
 (
 &
 s
@@ -881,7 +890,6 @@ row
 >
 >
 3
-0
 )
 ;
 for

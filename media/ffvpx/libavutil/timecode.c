@@ -460,7 +460,7 @@ framenum
 (
 fps
 *
-60
+60LL
 )
 %
 60
@@ -472,7 +472,7 @@ framenum
 (
 fps
 *
-3600
+3600LL
 )
 %
 24
@@ -771,7 +771,7 @@ char
 *
 buf
 int
-framenum
+framenum_arg
 )
 {
 int
@@ -801,6 +801,11 @@ ff_len
 neg
 =
 0
+;
+int64_t
+framenum
+=
+framenum_arg
 ;
 framenum
 +

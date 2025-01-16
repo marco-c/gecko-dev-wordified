@@ -683,6 +683,9 @@ n
 RIGHT_SHIFT
 (
 (
+int
+)
+(
 x
 )
 +
@@ -1724,10 +1727,16 @@ var
 const
 )
 (
+int
+)
+(
 (
 var
 )
 *
+(
+unsigned
+)
 (
 const
 )
@@ -1763,7 +1772,7 @@ tmp11
 tmp12
 tmp13
 ;
-int
+unsigned
 z1
 z2
 z3
@@ -2551,7 +2560,7 @@ tmp11
 tmp12
 tmp13
 ;
-int
+unsigned
 z1
 z2
 z3

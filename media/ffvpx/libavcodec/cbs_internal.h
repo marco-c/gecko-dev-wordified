@@ -213,6 +213,8 @@ h
 #
 include
 "
+libavutil
+/
 refstruct
 .
 h
@@ -606,7 +608,7 @@ void
 content_free
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 opaque
 void
 *

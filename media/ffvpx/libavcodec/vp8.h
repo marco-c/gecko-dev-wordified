@@ -228,6 +228,13 @@ h
 #
 include
 "
+avcodec
+.
+h
+"
+#
+include
+"
 h264pred
 .
 h
@@ -235,7 +242,7 @@ h
 #
 include
 "
-threadframe
+progressframe
 .
 h
 "
@@ -777,7 +784,7 @@ typedef
 struct
 VP8Frame
 {
-ThreadFrame
+ProgressFrame
 tf
 ;
 uint8_t

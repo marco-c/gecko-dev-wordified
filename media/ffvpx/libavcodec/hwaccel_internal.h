@@ -189,6 +189,8 @@ h
 #
 include
 "
+libavutil
+/
 refstruct
 .
 h
@@ -978,7 +980,7 @@ void
 free_frame_priv
 )
 (
-FFRefStructOpaque
+AVRefStructOpaque
 hwctx
 void
 *

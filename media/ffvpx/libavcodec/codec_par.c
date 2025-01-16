@@ -1634,6 +1634,13 @@ codec
 extradata
 )
 ;
+codec
+-
+>
+extradata_size
+=
+0
+;
 if
 (
 par

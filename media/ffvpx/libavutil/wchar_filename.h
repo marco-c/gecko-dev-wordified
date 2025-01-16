@@ -373,6 +373,7 @@ av_malloc_array
 num_chars
 sizeof
 *
+*
 filename
 )
 ;

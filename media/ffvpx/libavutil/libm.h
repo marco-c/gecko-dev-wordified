@@ -2492,7 +2492,6 @@ y
 )
 {
 double
-ret
 temp
 ;
 x
