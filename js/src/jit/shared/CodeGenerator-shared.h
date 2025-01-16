@@ -271,7 +271,7 @@ mozilla
 :
 Maybe
 <
-IonHeapMacroAssembler
+OffThreadMacroAssembler
 >
 maybeMasm_
 ;

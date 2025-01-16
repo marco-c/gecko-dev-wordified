@@ -30816,10 +30816,10 @@ realm
 )
 {
 }
-IonHeapMacroAssembler
+OffThreadMacroAssembler
 :
 :
-IonHeapMacroAssembler
+OffThreadMacroAssembler
 (
 TempAllocator
 &
@@ -30843,7 +30843,7 @@ realm
 {
 MOZ_ASSERT
 (
-CurrentThreadIsIonCompiling
+CurrentThreadIsOffThreadCompiling
 (
 )
 )

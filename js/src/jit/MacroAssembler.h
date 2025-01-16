@@ -42534,7 +42534,6 @@ allocated
 MacroAssembler
 used
 for
-Ion
 off
 -
 thread
@@ -42551,14 +42550,14 @@ thread
 compilations
 .
 class
-IonHeapMacroAssembler
+OffThreadMacroAssembler
 :
 public
 MacroAssembler
 {
 public
 :
-IonHeapMacroAssembler
+OffThreadMacroAssembler
 (
 TempAllocator
 &

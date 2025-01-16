@@ -208,7 +208,7 @@ GCTaskOrIonCompile
 {
 if
 (
-CurrentThreadIsIonCompiling
+CurrentThreadIsOffThreadCompiling
 (
 )
 )
