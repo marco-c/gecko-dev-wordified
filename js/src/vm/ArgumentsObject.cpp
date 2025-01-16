@@ -331,7 +331,7 @@ uint8_t
 *
 data
 =
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 <
 uint8_t
 >
@@ -2131,7 +2131,7 @@ ArgumentsData
 *
 >
 (
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 <
 uint8_t
 >
@@ -2846,7 +2846,7 @@ ArgumentsData
 *
 >
 (
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 <
 uint8_t
 >
@@ -7215,7 +7215,7 @@ result
 =
 nursery
 .
-maybeMoveBufferOnPromotion
+maybeMoveNurseryOrMallocBufferOnPromotion
 (
 &
 data
@@ -7294,7 +7294,7 @@ result
 =
 nursery
 .
-maybeMoveBufferOnPromotion
+maybeMoveNurseryOrMallocBufferOnPromotion
 (
 &
 rareData

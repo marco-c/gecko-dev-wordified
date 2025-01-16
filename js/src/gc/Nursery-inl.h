@@ -2166,7 +2166,7 @@ static
 inline
 T
 *
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 (
 Nursery
 &
@@ -2207,7 +2207,7 @@ T
 (
 nursery
 .
-allocateBuffer
+allocNurseryOrMallocBuffer
 (
 cell
 -
@@ -2234,7 +2234,7 @@ static
 inline
 T
 *
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 (
 JSContext
 *
@@ -2253,7 +2253,7 @@ T
 *
 buffer
 =
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 <
 T
 >
@@ -2311,7 +2311,7 @@ static
 inline
 T
 *
-ReallocateCellBuffer
+ReallocNurseryOrMallocBuffer
 (
 JSContext
 *
@@ -2384,7 +2384,7 @@ nursery
 (
 )
 .
-reallocateBuffer
+reallocNurseryOrMallocBuffer
 (
 cell
 -

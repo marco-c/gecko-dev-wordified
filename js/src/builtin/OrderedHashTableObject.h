@@ -4321,7 +4321,7 @@ result
 =
 nursery
 .
-maybeMoveBufferOnPromotion
+maybeMoveNurseryOrMallocBufferOnPromotion
 (
 &
 buf

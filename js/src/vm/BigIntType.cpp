@@ -1443,7 +1443,7 @@ heapDigits_
 js
 :
 :
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 <
 Digit
 >
@@ -11243,7 +11243,7 @@ newdigits
 js
 :
 :
-ReallocateCellBuffer
+ReallocNurseryOrMallocBuffer
 <
 Digit
 >

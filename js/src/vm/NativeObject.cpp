@@ -2497,7 +2497,7 @@ HeapSlot
 *
 allocation
 =
-ReallocateCellBuffer
+ReallocNurseryOrMallocBuffer
 <
 HeapSlot
 >
@@ -2731,7 +2731,7 @@ HeapSlot
 *
 allocation
 =
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 <
 HeapSlot
 >
@@ -2938,7 +2938,7 @@ HeapSlot
 *
 allocation
 =
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 <
 HeapSlot
 >
@@ -3564,7 +3564,7 @@ HeapSlot
 *
 allocation
 =
-ReallocateCellBuffer
+ReallocNurseryOrMallocBuffer
 <
 HeapSlot
 >
@@ -6795,7 +6795,7 @@ buffer
 .
 newHeaderSlots
 =
-ReallocateCellBuffer
+ReallocNurseryOrMallocBuffer
 <
 HeapSlot
 >
@@ -6887,7 +6887,7 @@ the
 object
 newHeaderSlots
 =
-AllocateCellBuffer
+AllocNurseryOrMallocBuffer
 <
 HeapSlot
 >
@@ -7331,7 +7331,7 @@ HeapSlot
 *
 newHeaderSlots
 =
-ReallocateCellBuffer
+ReallocNurseryOrMallocBuffer
 <
 HeapSlot
 >

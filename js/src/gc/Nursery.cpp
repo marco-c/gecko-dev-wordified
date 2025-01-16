@@ -4502,7 +4502,7 @@ js
 Nursery
 :
 :
-allocateBuffer
+allocNurseryOrMallocBuffer
 (
 Zone
 *
@@ -4680,7 +4680,7 @@ js
 Nursery
 :
 :
-allocateBuffer
+allocNurseryOrMallocBuffer
 (
 Zone
 *
@@ -4735,7 +4735,7 @@ buffer
 isMalloced
 ]
 =
-allocateBuffer
+allocNurseryOrMallocBuffer
 (
 zone
 nbytes
@@ -4979,7 +4979,7 @@ js
 Nursery
 :
 :
-reallocateBuffer
+reallocNurseryOrMallocBuffer
 (
 Zone
 *
@@ -5149,7 +5149,7 @@ oldBuffer
 auto
 newBuffer
 =
-allocateBuffer
+allocNurseryOrMallocBuffer
 (
 zone
 cell
@@ -11569,7 +11569,7 @@ crash
 Nursery
 :
 :
-updateBufferOnPromotion
+maybeMoveRawNurseryOrMallocBufferOnPromotion
 "
 )
 ;
