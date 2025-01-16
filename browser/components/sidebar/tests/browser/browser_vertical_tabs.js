@@ -2515,10 +2515,10 @@ true
 await
 SidebarController
 .
-setUIState
+initializeUIState
 (
 {
-expanded
+launcherExpanded
 :
 true
 }
