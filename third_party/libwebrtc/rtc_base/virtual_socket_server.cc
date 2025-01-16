@@ -472,11 +472,11 @@ kernel
 does
 .
 class
-Packet
+VirtualSocketPacket
 {
 public
 :
-Packet
+VirtualSocketPacket
 (
 const
 char
@@ -528,7 +528,7 @@ size_
 ;
 }
 ~
-Packet
+VirtualSocketPacket
 (
 )
 {
@@ -1706,7 +1706,7 @@ of
 the
 queue
 .
-Packet
+VirtualSocketPacket
 &
 packet
 =
@@ -2349,7 +2349,7 @@ std
 :
 unique_ptr
 <
-Packet
+VirtualSocketPacket
 >
 packet
 )
@@ -2449,7 +2449,7 @@ std
 :
 unique_ptr
 <
-Packet
+VirtualSocketPacket
 >
 packet
 )
@@ -7116,7 +7116,7 @@ std
 :
 make_unique
 <
-Packet
+VirtualSocketPacket
 >
 (
 data

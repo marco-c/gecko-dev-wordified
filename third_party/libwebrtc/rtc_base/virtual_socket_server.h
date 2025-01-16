@@ -197,7 +197,7 @@ namespace
 rtc
 {
 class
-Packet
+VirtualSocketPacket
 ;
 class
 VirtualSocketServer
@@ -597,7 +597,7 @@ std
 :
 unique_ptr
 <
-Packet
+VirtualSocketPacket
 >
 packet
 )
@@ -808,7 +808,7 @@ std
 :
 unique_ptr
 <
-Packet
+VirtualSocketPacket
 >
 packet
 )
@@ -1055,7 +1055,7 @@ std
 :
 unique_ptr
 <
-Packet
+VirtualSocketPacket
 >
 >
 recv_buffer_
