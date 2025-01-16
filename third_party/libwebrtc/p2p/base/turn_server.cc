@@ -1014,13 +1014,6 @@ ssl_adapter_factory
 CreateAdapter
 (
 accepted_socket
-/
-*
-permute_extensions
-=
-*
-/
-true
 )
 ;
 ssl_adapter

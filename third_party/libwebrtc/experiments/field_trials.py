@@ -715,24 +715,6 @@ FieldTrial
 '
 WebRTC
 -
-PermuteTlsClientHello
-'
-               
-42225803
-               
-date
-(
-2025
-1
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 DisableTlsSessionTicketKillswitch
 '
                

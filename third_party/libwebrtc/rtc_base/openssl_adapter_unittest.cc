@@ -180,12 +180,6 @@ rtc
 {
 namespace
 {
-constexpr
-bool
-kPermuteExtensions
-=
-true
-;
 class
 MockAsyncSocket
 :
@@ -800,7 +794,6 @@ adapter_factory
 CreateAdapter
 (
 async_socket
-kPermuteExtensions
 )
 )
 ;
@@ -921,7 +914,6 @@ adapter_factory
 CreateAdapter
 (
 async_socket
-kPermuteExtensions
 )
 )
 ;
