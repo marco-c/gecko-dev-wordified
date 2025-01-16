@@ -51,6 +51,18 @@ from
 .
 executors
 .
+base
+import
+WdspecExecutor
+#
+noqa
+:
+F401
+from
+.
+.
+executors
+.
 executorservodriver
 import
 (
@@ -61,6 +73,12 @@ noqa
 F401
                                              
 ServoWebDriverRefTestExecutor
+#
+noqa
+:
+F401
+                                             
+ServoWebDriverCrashtestExecutor
 )
 #
 noqa
@@ -124,6 +142,22 @@ reftest
 :
 "
 ServoWebDriverRefTestExecutor
+"
+        
+"
+crashtest
+"
+:
+"
+ServoWebDriverCrashtestExecutor
+"
+        
+"
+wdspec
+"
+:
+"
+WdspecExecutor
 "
     
 }
