@@ -146,8 +146,6 @@ patch_directory
 state_directory
     
 tar_name
-    
-clone_protocol
 )
 :
     
@@ -266,9 +264,7 @@ repo
     
 fetch_repo
 (
-        
 github_path
-clone_protocol
 True
 os
 .
@@ -279,7 +275,6 @@ join
 state_directory
 tar_name
 )
-    
 )
     
 #
@@ -907,60 +902,6 @@ default_state_dir
     
 )
     
-parser
-.
-add_argument
-(
-        
-"
--
--
-clone
--
-protocol
-"
-        
-choices
-=
-[
-"
-https
-"
-"
-ssh
-"
-]
-        
-default
-=
-"
-https
-"
-        
-help
-=
-"
-Use
-either
-https
-or
-ssh
-to
-clone
-the
-git
-repo
-(
-ignored
-if
-tar
-file
-exists
-)
-"
-    
-)
-    
 args
 =
 parser
@@ -998,9 +939,5 @@ state_path
 args
 .
 tar_name
-        
-args
-.
-clone_protocol
     
 )
