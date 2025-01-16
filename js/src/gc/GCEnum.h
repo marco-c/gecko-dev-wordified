@@ -698,11 +698,6 @@ ObjectElements
 \
 _
 (
-ObjectSlots
-)
-\
-_
-(
 ScriptPrivateData
 )
 \
