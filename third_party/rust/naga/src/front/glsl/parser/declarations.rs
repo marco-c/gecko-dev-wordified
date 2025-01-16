@@ -1176,9 +1176,8 @@ peek
 frontend
 )
 .
-map_or
+is_some_and
 (
-false
 |
 t
 |
