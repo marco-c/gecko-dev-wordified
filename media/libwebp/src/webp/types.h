@@ -332,7 +332,7 @@ __cplusplus
 __cplusplus
 >
 =
-201700L
+201703L
 )
 |
 |
@@ -364,7 +364,12 @@ else
 gcc
 '
 s
-__has_attribute
+__attribute__
+(
+(
+warn_unused_result
+)
+)
 does
 not
 work

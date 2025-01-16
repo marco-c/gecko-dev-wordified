@@ -322,11 +322,13 @@ ImportRowShrink_MIPS32
 (
 WebPRescaler
 *
+WEBP_RESTRICT
 const
 wrk
 const
 uint8_t
 *
+WEBP_RESTRICT
 src
 )
 {
@@ -1044,11 +1046,13 @@ ImportRowExpand_MIPS32
 (
 WebPRescaler
 *
+WEBP_RESTRICT
 const
 wrk
 const
 uint8_t
 *
+WEBP_RESTRICT
 src
 )
 {

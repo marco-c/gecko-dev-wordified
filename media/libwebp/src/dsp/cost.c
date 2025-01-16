@@ -3285,10 +3285,12 @@ SetResidualCoeffs_C
 const
 int16_t
 *
+WEBP_RESTRICT
 const
 coeffs
 VP8Residual
 *
+WEBP_RESTRICT
 const
 res
 )

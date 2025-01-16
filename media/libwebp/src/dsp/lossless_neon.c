@@ -370,11 +370,13 @@ ConvertBGRAToRGBA_NEON
 const
 uint32_t
 *
+WEBP_RESTRICT
 src
 int
 num_pixels
 uint8_t
 *
+WEBP_RESTRICT
 dst
 )
 {
@@ -503,11 +505,13 @@ ConvertBGRAToBGR_NEON
 const
 uint32_t
 *
+WEBP_RESTRICT
 src
 int
 num_pixels
 uint8_t
 *
+WEBP_RESTRICT
 dst
 )
 {
@@ -613,11 +617,13 @@ ConvertBGRAToRGB_NEON
 const
 uint32_t
 *
+WEBP_RESTRICT
 src
 int
 num_pixels
 uint8_t
 *
+WEBP_RESTRICT
 dst
 )
 {
@@ -757,11 +763,13 @@ ConvertBGRAToRGBA_NEON
 const
 uint32_t
 *
+WEBP_RESTRICT
 src
 int
 num_pixels
 uint8_t
 *
+WEBP_RESTRICT
 dst
 )
 {
@@ -897,11 +905,13 @@ ConvertBGRAToBGR_NEON
 const
 uint32_t
 *
+WEBP_RESTRICT
 src
 int
 num_pixels
 uint8_t
 *
+WEBP_RESTRICT
 dst
 )
 {
@@ -1139,11 +1149,13 @@ ConvertBGRAToRGB_NEON
 const
 uint32_t
 *
+WEBP_RESTRICT
 src
 int
 num_pixels
 uint8_t
 *
+WEBP_RESTRICT
 dst
 )
 {
@@ -1973,6 +1985,7 @@ int
 num_pixels
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {
@@ -2086,6 +2099,7 @@ int
 num_pixels
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {
@@ -2349,6 +2363,7 @@ num_pixels
 \
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {
@@ -2609,6 +2624,7 @@ int
 num_pixels
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {
@@ -2823,6 +2839,7 @@ int
 num_pixels
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {
@@ -2954,6 +2971,7 @@ int
 num_pixels
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {
@@ -3093,6 +3111,7 @@ num_pixels
 \
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {
@@ -3372,6 +3391,7 @@ int
 num_pixels
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {
@@ -3668,6 +3688,7 @@ int
 num_pixels
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {
@@ -3980,6 +4001,7 @@ int
 num_pixels
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {
@@ -4378,6 +4400,7 @@ int
 num_pixels
 uint32_t
 *
+WEBP_RESTRICT
 out
 )
 {

@@ -243,6 +243,14 @@ _M_ARM
 &
 !
 WEBP_AARCH64
+&
+&
+\
+!
+defined
+(
+__wasm__
+)
 /
 /
 using

@@ -953,11 +953,13 @@ ConvertBGRAToRGB_SSE41
 const
 uint32_t
 *
+WEBP_RESTRICT
 src
 int
 num_pixels
 uint8_t
 *
+WEBP_RESTRICT
 dst
 )
 {
@@ -1080,11 +1082,13 @@ ConvertBGRAToBGR_SSE41
 const
 uint32_t
 *
+WEBP_RESTRICT
 src
 int
 num_pixels
 uint8_t
 *
+WEBP_RESTRICT
 dst
 )
 {

@@ -2336,6 +2336,17 @@ transform_bits
 stats
 -
 >
+cross_color_transform_bits
+=
+best
+.
+stats
+.
+cross_color_transform_bits
+;
+stats
+-
+>
 cache_bits
 =
 best

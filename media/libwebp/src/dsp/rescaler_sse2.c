@@ -550,11 +550,13 @@ RescalerImportRowExpand_SSE2
 (
 WebPRescaler
 *
+WEBP_RESTRICT
 const
 wrk
 const
 uint8_t
 *
+WEBP_RESTRICT
 src
 )
 {
@@ -1007,11 +1009,13 @@ RescalerImportRowShrink_SSE2
 (
 WebPRescaler
 *
+WEBP_RESTRICT
 const
 wrk
 const
 uint8_t
 *
+WEBP_RESTRICT
 src
 )
 {
@@ -1619,6 +1623,7 @@ LoadDispatchAndMult_SSE2
 const
 rescaler_t
 *
+WEBP_RESTRICT
 const
 src
 const

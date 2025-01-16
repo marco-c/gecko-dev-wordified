@@ -488,17 +488,6 @@ proba
 Level
 cost
 calculations
-extern
-const
-uint16_t
-VP8LevelCodes
-[
-MAX_VARIABLE_LEVEL
-]
-[
-2
-]
-;
 void
 VP8CalculateLevelCosts
 (
