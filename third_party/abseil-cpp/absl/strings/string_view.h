@@ -1693,7 +1693,7 @@ abcdef
 0
 )
 class
-ABSL_INTERNAL_ATTRIBUTE_VIEW
+ABSL_ATTRIBUTE_VIEW
 string_view
 {
 public

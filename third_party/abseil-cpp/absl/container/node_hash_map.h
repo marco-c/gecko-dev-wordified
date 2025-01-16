@@ -1513,7 +1513,7 @@ Value
 >
 >
 class
-ABSL_INTERNAL_ATTRIBUTE_OWNER
+ABSL_ATTRIBUTE_OWNER
 node_hash_map
 :
 public
