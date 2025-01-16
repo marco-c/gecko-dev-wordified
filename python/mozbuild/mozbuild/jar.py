@@ -117,10 +117,6 @@ path
 as
 mozpath
 from
-MozZipFile
-import
-ZipFile
-from
 mozbuild
 .
 action
@@ -3204,6 +3200,11 @@ exist_ok
 =
 True
 )
+            
+from
+MozZipFile
+import
+ZipFile
             
 jf
 =
