@@ -873,6 +873,7 @@ shared
 points
 *
 /
+true
 &
 shared_tuples_idx_map
 )

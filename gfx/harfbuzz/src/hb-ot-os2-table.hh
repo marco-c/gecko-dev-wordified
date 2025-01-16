@@ -1751,11 +1751,9 @@ c
 plan
 -
 >
-unicodes
+os2_info
 .
-get_min
-(
-)
+min_cmap_codepoint
 )
 ;
 os2_prime
@@ -1772,11 +1770,9 @@ c
 plan
 -
 >
-unicodes
+os2_info
 .
-get_max
-(
-)
+max_cmap_codepoint
 )
 ;
 if

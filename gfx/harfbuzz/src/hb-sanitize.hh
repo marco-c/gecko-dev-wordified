@@ -601,7 +601,6 @@ of
 the
 object
 and
-%
 false
 otherwise
 .

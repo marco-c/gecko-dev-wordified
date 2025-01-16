@@ -834,14 +834,12 @@ index
 Return
 value
 :
-%
 true
 if
 the
 glyph
 was
 painted
-%
 false
 otherwise
 .
