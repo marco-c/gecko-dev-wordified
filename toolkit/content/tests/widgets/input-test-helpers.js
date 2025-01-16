@@ -3638,9 +3638,7 @@ querySelector
 (
 "
 .
-label
--
-content
+text
 "
 )
 ;
@@ -3655,7 +3653,7 @@ previousSibling
 )
 "
 Label
-content
+text
 is
 not
 preceded
