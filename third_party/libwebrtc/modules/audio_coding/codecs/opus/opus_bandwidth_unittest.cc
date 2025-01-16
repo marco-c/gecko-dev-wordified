@@ -404,9 +404,17 @@ input
 size_t
 num_input_channels
 size_t
+/
+*
 num_freq_bins
+*
+/
 size_t
+/
+*
 num_output_channels
+*
+/
 std
 :
 :

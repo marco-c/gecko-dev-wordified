@@ -882,7 +882,11 @@ payload_data
 size_t
 payload_len_bytes
 int64_t
+/
+*
 absolute_capture_timestamp_ms
+*
+/
 )
 override
 {
@@ -6979,7 +6983,11 @@ payload_type
 int
 frame_size_samples
 int
+/
+*
 frame_size_rtp_timestamps
+*
+/
 )
 {
 return
@@ -7008,7 +7016,11 @@ AudioEncoder
 >
 external_speech_encoder
 int
+/
+*
 payload_type
+*
+/
 )
 {
 send_test_

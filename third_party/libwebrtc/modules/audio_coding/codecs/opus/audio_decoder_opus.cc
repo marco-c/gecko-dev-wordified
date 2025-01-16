@@ -811,7 +811,11 @@ AudioDecoderOpusImpl
 GeneratePlc
 (
 size_t
+/
+*
 requested_samples_per_channel
+*
+/
 rtc
 :
 :

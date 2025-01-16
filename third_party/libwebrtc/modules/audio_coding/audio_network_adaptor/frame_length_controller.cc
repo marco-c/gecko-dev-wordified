@@ -552,7 +552,11 @@ FrameLengthIncreasingDecision
 const
 AudioEncoderRuntimeConfig
 &
+/
+*
 config
+*
+/
 )
 {
 /
@@ -915,7 +919,11 @@ FrameLengthDecreasingDecision
 const
 AudioEncoderRuntimeConfig
 &
+/
+*
 config
+*
+/
 )
 {
 /

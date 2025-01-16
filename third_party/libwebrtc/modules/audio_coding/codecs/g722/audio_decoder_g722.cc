@@ -339,7 +339,11 @@ PacketDuration
 const
 uint8_t
 *
+/
+*
 encoded
+*
+/
 size_t
 encoded_len
 )
@@ -773,7 +777,11 @@ PacketDuration
 const
 uint8_t
 *
+/
+*
 encoded
+*
+/
 size_t
 encoded_len
 )

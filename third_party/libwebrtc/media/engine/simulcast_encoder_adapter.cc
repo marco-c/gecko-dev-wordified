@@ -4726,7 +4726,11 @@ SimulcastEncoderAdapter
 OnDroppedFrame
 (
 size_t
+/
+*
 stream_idx
+*
+/
 )
 {
 /
