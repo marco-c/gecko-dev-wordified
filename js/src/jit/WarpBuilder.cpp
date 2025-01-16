@@ -23973,12 +23973,6 @@ CacheKind
 :
 Lambda
 :
-case
-CacheKind
-:
-:
-GetImport
-:
 /
 /
 We
@@ -24112,12 +24106,6 @@ CacheKind
 :
 :
 GetElemSuper
-:
-case
-CacheKind
-:
-:
-GetImport
 :
 case
 CacheKind
