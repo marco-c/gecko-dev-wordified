@@ -154,7 +154,7 @@ const
 GlobalObject
 &
 const
-nsAString
+nsACString
 &
 aMsg
 )
@@ -167,7 +167,7 @@ const
 GlobalObject
 &
 const
-nsAString
+nsACString
 &
 aFuzzerName
 )
