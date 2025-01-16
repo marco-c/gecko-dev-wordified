@@ -274,7 +274,11 @@ vector
 AudioCodecSpec
 >
 *
+/
+*
 specs
+*
+/
 )
 {
 /

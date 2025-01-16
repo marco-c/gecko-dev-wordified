@@ -328,7 +328,11 @@ Send
 const
 DataBuffer
 &
+/
+*
 buffer
+*
+/
 )
 {
 RTC_DCHECK_NOTREACHED
@@ -361,7 +365,11 @@ DataChannelInterface
 SendAsync
 (
 DataBuffer
+/
+*
 buffer
+*
+/
 absl
 :
 :
@@ -374,7 +382,11 @@ RTCError
 &
 &
 >
+/
+*
 on_complete
+*
+/
 )
 {
 RTC_DCHECK_NOTREACHED
