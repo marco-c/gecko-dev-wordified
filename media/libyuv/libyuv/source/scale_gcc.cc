@@ -1688,7 +1688,6 @@ src_stride
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -4425,7 +4424,6 @@ kShuf2
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -4823,7 +4821,6 @@ kRound34
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -5448,7 +5445,6 @@ kRound34
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -6301,7 +6297,6 @@ kScaleAb2
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -6696,7 +6691,6 @@ kScaleAc33
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -7866,7 +7860,6 @@ dst_width
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -21377,7 +21370,6 @@ dx
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -21567,7 +21559,6 @@ src_stride
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -21736,7 +21727,6 @@ src_stride
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -21934,7 +21924,6 @@ dst_width
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :
@@ -23663,7 +23652,6 @@ dx
 asm
 volatile
 (
-LABELALIGN
 "
 1
 :

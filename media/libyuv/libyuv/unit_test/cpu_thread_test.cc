@@ -159,6 +159,7 @@ libyuv
 #
 ifdef
 LIBYUV_HAVE_PTHREAD
+static
 void
 *
 ThreadMain

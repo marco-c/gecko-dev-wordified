@@ -128,6 +128,7 @@ TANY
 (
 NAMEANY
 TPOS_SIMD
+TPOS_C
 MASK
 )
 \
@@ -187,7 +188,7 @@ n
 \
 }
 \
-TransposeWx8_C
+TPOS_C
 (
 src
 +
@@ -211,6 +212,7 @@ TANY
 (
 TransposeWx8_Any_NEON
 TransposeWx8_NEON
+TransposeWx8_C
 7
 )
 #
@@ -222,6 +224,7 @@ TANY
 (
 TransposeWx16_Any_NEON
 TransposeWx16_NEON
+TransposeWx16_C
 15
 )
 #
@@ -233,6 +236,7 @@ TANY
 (
 TransposeWx8_Any_SSSE3
 TransposeWx8_SSSE3
+TransposeWx8_C
 7
 )
 #
@@ -244,6 +248,7 @@ TANY
 (
 TransposeWx8_Fast_Any_SSSE3
 TransposeWx8_Fast_SSSE3
+TransposeWx8_C
 15
 )
 #
@@ -255,6 +260,7 @@ TANY
 (
 TransposeWx16_Any_MSA
 TransposeWx16_MSA
+TransposeWx16_C
 15
 )
 #
@@ -266,6 +272,7 @@ TANY
 (
 TransposeWx16_Any_LSX
 TransposeWx16_LSX
+TransposeWx16_C
 15
 )
 #
