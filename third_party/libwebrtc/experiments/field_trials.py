@@ -955,24 +955,6 @@ FieldTrial
 '
 WebRTC
 -
-EncryptedRtpHeaderExtensions
-'
-               
-358039777
-               
-date
-(
-2025
-10
-4
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 SetReadyToSendFalseIfSendFail
 '
                
