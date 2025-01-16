@@ -191,7 +191,6 @@ compileDebugInstrumentation_
 ;
 public
 :
-explicit
 BaselineSnapshot
 (
 JSScript
