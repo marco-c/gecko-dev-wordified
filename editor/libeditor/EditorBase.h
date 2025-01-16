@@ -8236,6 +8236,12 @@ case
 EditSubAction
 :
 :
+eMaintainWhiteSpaceVisibility
+:
+case
+EditSubAction
+:
+:
 eNone
 :
 case
