@@ -3061,7 +3061,7 @@ callee_
 target_
 ;
 }
-void
+ObjOperandId
 emitNativeCalleeGuard
 (
 )
@@ -3091,6 +3091,13 @@ kind
 ObjOperandId
 emitLoadArgsArray
 (
+)
+;
+ValOperandId
+loadThis
+(
+ObjOperandId
+calleeId
 )
 ;
 void
