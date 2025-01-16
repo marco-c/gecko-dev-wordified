@@ -2753,7 +2753,8 @@ Cell
 owner
 void
 *
-buffer
+*
+bufferp
 const
 char
 *
