@@ -1938,6 +1938,26 @@ _TRY_MAPPING
 Path
 (
 "
+browser
+"
+)
+:
+Path
+(
+"
+mochitest
+"
+"
+browser
+"
+"
+browser
+"
+)
+    
+Path
+(
+"
 netwerk
 "
 )
@@ -2239,6 +2259,7 @@ replace
 (
 src_path
 ci_path
+1
 )
 )
                     
