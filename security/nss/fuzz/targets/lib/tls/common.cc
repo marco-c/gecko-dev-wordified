@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-tls_common
+common
 .
 h
 "
@@ -82,6 +82,13 @@ cstdint
 include
 "
 prio
+.
+h
+"
+#
+include
+"
+secport
 .
 h
 "
@@ -111,6 +118,9 @@ return
 1234
 ;
 }
+namespace
+TlsCommon
+{
 /
 /
 Fix
@@ -462,10 +472,9 @@ len
 output
 )
 {
-PR_SetError
+PORT_SetError
 (
 SEC_ERROR_INVALID_ARGS
-0
 )
 ;
 return
@@ -533,10 +542,9 @@ outputLen
 0
 )
 {
-PR_SetError
+PORT_SetError
 (
 SEC_ERROR_INVALID_ARGS
-0
 )
 ;
 return
@@ -553,10 +561,9 @@ len
 outputLen
 )
 {
-PR_SetError
+PORT_SetError
 (
 SEC_ERROR_BAD_DATA
-0
 )
 ;
 return
@@ -588,3 +595,8 @@ return
 SECSuccess
 ;
 }
+}
+/
+/
+namespace
+TlsCommon
