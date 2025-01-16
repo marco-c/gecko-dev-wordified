@@ -349,6 +349,16 @@ disableIon_
 true
 ;
 }
+bool
+ionDisabled
+(
+)
+const
+{
+return
+disableIon_
+;
+}
 void
 disableInlining
 (
