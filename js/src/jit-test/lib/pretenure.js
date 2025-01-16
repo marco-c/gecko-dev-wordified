@@ -179,6 +179,17 @@ gczeal
 0
 )
 ;
+setJitCompilerOption
+(
+"
+offthread
+-
+compilation
+.
+enable
+"
+0
+)
 /
 /
 Restrict

@@ -18,6 +18,16 @@ on
 fast
 -
 warmup
+;
+-
+-
+baseline
+-
+offthread
+-
+compile
+=
+off
 var
 max
 =
