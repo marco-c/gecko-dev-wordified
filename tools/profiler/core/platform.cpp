@@ -45148,7 +45148,7 @@ mozilla
 profiler
 :
 :
-install_memory_hooks
+install_memory_counter
 (
 )
 )
@@ -49286,7 +49286,7 @@ mozilla
 profiler
 :
 :
-install_memory_hooks
+install_memory_counter
 (
 )
 )

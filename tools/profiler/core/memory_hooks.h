@@ -143,7 +143,12 @@ profiler
 {
 BaseProfilerCount
 *
-install_memory_hooks
+install_memory_counter
+(
+)
+;
+void
+unregister_memory_counter
 (
 )
 ;
@@ -159,11 +164,6 @@ enable_native_allocations
 ;
 void
 disable_native_allocations
-(
-)
-;
-void
-unregister_memory_counter
 (
 )
 ;
