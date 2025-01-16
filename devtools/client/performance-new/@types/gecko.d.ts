@@ -955,6 +955,12 @@ ownerDocument
 :
 ChromeDocument
 ;
+tabs
+:
+BrowserTab
+[
+]
+;
 }
 /
 /
@@ -1068,6 +1074,10 @@ browsingContext
 ?
 :
 BrowsingContext
+;
+browserId
+:
+number
 ;
 }
 interface
