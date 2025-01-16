@@ -1030,6 +1030,9 @@ interpret_sequence_index_as_most_significant_bits
 #
 if
 GTEST_HAS_DEATH_TEST
+&
+&
+RTC_DCHECK_IS_ON
 TEST
 (
 FrameInstrumentationSyncDataToCorruptionDetectionMessageTest
