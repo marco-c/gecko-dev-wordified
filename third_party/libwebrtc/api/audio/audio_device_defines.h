@@ -409,7 +409,11 @@ optional
 <
 int64_t
 >
+/
+*
 estimatedCaptureTimeNS
+*
+/
 )
 {
 /

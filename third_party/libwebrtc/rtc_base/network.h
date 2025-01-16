@@ -1337,7 +1337,11 @@ vector
 NetworkMask
 >
 &
+/
+*
 vpn
+*
+/
 )
 {
 }

@@ -352,7 +352,11 @@ void
 SetCaptureOutputUsage
 (
 bool
+/
+*
 capture_output_used
+*
+/
 )
 {
 }

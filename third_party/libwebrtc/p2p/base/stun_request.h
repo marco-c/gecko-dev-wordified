@@ -935,7 +935,11 @@ OnResponse
 (
 StunMessage
 *
+/
+*
 response
+*
+/
 )
 {
 }
@@ -945,7 +949,11 @@ OnErrorResponse
 (
 StunMessage
 *
+/
+*
 response
+*
+/
 )
 {
 }
