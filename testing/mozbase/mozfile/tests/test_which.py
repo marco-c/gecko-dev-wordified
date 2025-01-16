@@ -31,8 +31,6 @@ import
 sys
 import
 mozunit
-import
-six
 from
 mozfile
 import
@@ -96,21 +94,7 @@ win32
 "
 :
         
-if
-six
-.
-PY3
-:
-            
 import
-winreg
-        
-else
-:
-            
-import
-_winreg
-as
 winreg
         
 bindir
@@ -237,6 +221,9 @@ FOO
 .
 BAR
 "
+"
+.
+"
 ]
 )
 .
@@ -306,6 +293,13 @@ which
 "
 bar
 "
+exts
+=
+[
+"
+.
+"
+]
 )
 .
 lower
