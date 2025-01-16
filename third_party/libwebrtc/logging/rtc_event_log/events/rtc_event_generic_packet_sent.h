@@ -559,7 +559,11 @@ vector
 LoggedGenericPacketSent
 >
 &
+/
+*
 output
+*
+/
 )
 {
 /

@@ -158,9 +158,17 @@ unique_ptr
 <
 RtcEventLogOutput
 >
+/
+*
 output
+*
+/
 int64_t
+/
+*
 output_period_ms
+*
+/
 )
 {
 return
