@@ -540,15 +540,9 @@ testMathRandomWithNoArgs
 {
 /
 /
-We
-don
-'
-t
-yet
-support
-calling
-bound
+Bound
 fun_call
+called
 with
 no
 additional
