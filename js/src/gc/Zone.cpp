@@ -1161,6 +1161,10 @@ arenas
 (
 this
 )
+bufferAllocator
+(
+this
+)
 data
 (
 nullptr
