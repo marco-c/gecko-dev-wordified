@@ -27552,10 +27552,9 @@ failure
 {
 static_assert
 (
-BaselineDisabledScript
-=
-=
-0x1
+DisabledScript
+<
+CompilingScript
 )
 ;
 branchPtr
@@ -27567,7 +27566,7 @@ BelowOrEqual
 dest
 ImmWord
 (
-BaselineDisabledScript
+CompilingScript
 )
 failure
 )
