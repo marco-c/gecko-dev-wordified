@@ -282,7 +282,7 @@ asyncFlush
 {
 }
 async
-asyncFlushCurrentProfile
+asyncFlushGroupProfile
 (
 )
 {
