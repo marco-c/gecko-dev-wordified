@@ -1404,6 +1404,14 @@ HasKnownLiveWrapper
 {
 if
 (
+tmp
+-
+>
+mEventIsInternal
+)
+{
+if
+(
 WidgetEvent
 *
 event
@@ -1533,6 +1541,7 @@ event
 mOriginalRelatedTarget
 )
 ;
+}
 }
 return
 true
