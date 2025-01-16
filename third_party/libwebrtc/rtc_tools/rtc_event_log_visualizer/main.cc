@@ -743,12 +743,6 @@ flag
 "
 )
 ;
-using
-webrtc
-:
-:
-Plot
-;
 namespace
 {
 std
