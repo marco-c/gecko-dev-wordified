@@ -178,6 +178,11 @@ BaselineCodeGen
 cpp
 "
 "
+BaselineCompileTask
+.
+cpp
+"
+"
 BaselineDebugModeOSR
 .
 cpp
