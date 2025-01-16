@@ -2904,6 +2904,17 @@ JSFunction
 callee
 )
 ;
+AttachDecision
+tryAttachFunApplyBound
+(
+Handle
+<
+JSFunction
+*
+>
+callee
+)
+;
 void
 trackAttached
 (
