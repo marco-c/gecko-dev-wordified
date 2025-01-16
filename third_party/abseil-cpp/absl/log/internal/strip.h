@@ -528,7 +528,7 @@ log_internal
 :
 NullStreamMaybeFatal
 (
-log_internal_severity
+absl_log_internal_severity
 )
 #
 define
@@ -730,7 +730,8 @@ LogMessage
 (
 __FILE__
 __LINE__
-log_internal_severity
+\
+absl_log_internal_severity
 )
 /
 /

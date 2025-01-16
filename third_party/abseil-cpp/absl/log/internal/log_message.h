@@ -1919,6 +1919,9 @@ std
 :
 enable_if
 <
+absl
+:
+:
 HasAbslStringify
 <
 T
@@ -1987,6 +1990,9 @@ std
 enable_if
 <
 !
+absl
+:
+:
 HasAbslStringify
 <
 T
@@ -2734,6 +2740,9 @@ std
 :
 enable_if
 <
+absl
+:
+:
 HasAbslStringify
 <
 T
@@ -2807,6 +2816,9 @@ std
 enable_if
 <
 !
+absl
+:
+:
 HasAbslStringify
 <
 T
