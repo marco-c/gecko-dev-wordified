@@ -4748,14 +4748,12 @@ aLineLength
 {
 MOZ_ASSERT
 (
+!
 aItems
 .
-Length
+IsEmpty
 (
 )
->
-=
-2
 "
 The
 parser
@@ -4763,9 +4761,7 @@ should
 reject
 gradients
 with
-less
-than
-two
+no
 stops
 "
 )
