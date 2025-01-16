@@ -12416,6 +12416,12 @@ CacheKind
 :
 LazyConstant
 :
+case
+CacheKind
+:
+:
+GetImport
+:
 MOZ_ASSERT
 (
 numInputs
