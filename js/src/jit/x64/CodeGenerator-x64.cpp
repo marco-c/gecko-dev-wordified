@@ -3751,9 +3751,9 @@ void
 CodeGenerator
 :
 :
-visitWasmReinterpretFromI64
+visitReinterpretCastFromI64
 (
-LWasmReinterpretFromI64
+LReinterpretCastFromI64
 *
 lir
 )
@@ -3834,9 +3834,9 @@ void
 CodeGenerator
 :
 :
-visitWasmReinterpretToI64
+visitReinterpretCastToI64
 (
-LWasmReinterpretToI64
+LReinterpretCastToI64
 *
 lir
 )
