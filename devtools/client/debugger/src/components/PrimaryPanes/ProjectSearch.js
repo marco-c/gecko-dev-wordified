@@ -2231,9 +2231,6 @@ no
 result
 -
 msg
-absolute
--
-center
 "
 }
 msg
