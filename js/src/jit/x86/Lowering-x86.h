@@ -453,6 +453,14 @@ rhs
 )
 ;
 void
+lowerTruncateFToInt32
+(
+MTruncateToInt32
+*
+ins
+)
+;
+void
 lowerBuiltinInt64ToFloatingPoint
 (
 MBuiltinInt64ToFloatingPoint
