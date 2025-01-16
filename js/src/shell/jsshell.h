@@ -683,7 +683,11 @@ enableDisassemblyDumps
 ;
 extern
 bool
-offthreadCompilation
+offthreadBaselineCompilation
+;
+extern
+bool
+offthreadIonCompilation
 ;
 extern
 JS
