@@ -1791,6 +1791,11 @@ toObject
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -1922,6 +1927,11 @@ obj
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -2000,6 +2010,11 @@ WasmMemoryObject
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
@@ -2608,6 +2623,11 @@ val
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
