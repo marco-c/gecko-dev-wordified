@@ -2860,6 +2860,17 @@ BoundFunctionObject
 calleeObj
 )
 ;
+AttachDecision
+tryAttachBoundNative
+(
+Handle
+<
+BoundFunctionObject
+*
+>
+calleeObj
+)
+;
 void
 trackAttached
 (
