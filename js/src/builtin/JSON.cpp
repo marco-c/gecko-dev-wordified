@@ -12253,9 +12253,6 @@ false
 ;
 }
 }
-if
-(
-!
 parseRecord
 -
 >
@@ -12265,12 +12262,7 @@ cx
 &
 entries
 )
-)
-{
-return
-false
 ;
-}
 }
 }
 if

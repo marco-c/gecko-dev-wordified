@@ -437,10 +437,15 @@ or
 for
 JSON
 primitives
-return
-null
+the
+entries
+/
+/
+parameter
+is
+unmodified
 .
-bool
+void
 getEntries
 (
 JSContext
@@ -454,7 +459,7 @@ EntryMap
 entries
 )
 ;
-bool
+void
 setEntries
 (
 JSContext
