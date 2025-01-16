@@ -305,7 +305,11 @@ VideoBitrateAllocator
 SetLegacyConferenceMode
 (
 bool
+/
+*
 enabled
+*
+/
 )
 {
 }

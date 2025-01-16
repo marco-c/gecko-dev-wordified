@@ -198,7 +198,11 @@ int16_t
 *
 destination
 size_t
+/
+*
 destination_capacity
+*
+/
 )
 {
 if

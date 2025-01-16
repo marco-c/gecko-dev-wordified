@@ -547,7 +547,11 @@ ArrayView
 <
 Type
 >
+/
+*
 types
+*
+/
 )
 {
 RTC_CHECK

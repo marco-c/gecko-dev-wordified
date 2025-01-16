@@ -121,9 +121,17 @@ SetParametersAsync
 const
 RtpParameters
 &
+/
+*
 parameters
+*
+/
 SetParametersCallback
+/
+*
 callback
+*
+/
 )
 {
 RTC_DCHECK_NOTREACHED

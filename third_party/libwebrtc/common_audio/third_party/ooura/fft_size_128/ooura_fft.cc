@@ -3194,6 +3194,11 @@ OouraFft
 :
 OouraFft
 (
+[
+[
+maybe_unused
+]
+]
 bool
 sse2_available
 )

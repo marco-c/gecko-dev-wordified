@@ -155,7 +155,11 @@ VideoFrame
 &
 decodedImage
 int64_t
+/
+*
 decode_time_ms
+*
+/
 )
 {
 /
@@ -200,7 +204,11 @@ optional
 <
 uint8_t
 >
+/
+*
 qp
+*
+/
 )
 {
 Decoded

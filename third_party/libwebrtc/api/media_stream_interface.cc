@@ -176,7 +176,11 @@ GetSignalLevel
 (
 int
 *
+/
+*
 level
+*
+/
 )
 {
 return
