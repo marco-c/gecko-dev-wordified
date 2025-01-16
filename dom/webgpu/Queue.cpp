@@ -769,7 +769,7 @@ byteLength
 {
 aRv
 .
-ThrowAbortError
+ThrowOperationError
 (
 nsPrintfCString
 (
@@ -799,7 +799,7 @@ size
 {
 aRv
 .
-ThrowAbortError
+ThrowOperationError
 (
 "
 Byte
@@ -1100,7 +1100,7 @@ IsEmpty
 {
 aRv
 .
-ThrowAbortError
+ThrowOperationError
 (
 "
 Input
@@ -1147,7 +1147,7 @@ isValid
 {
 aRv
 .
-ThrowAbortError
+ThrowOperationError
 (
 "
 Offset
