@@ -3628,6 +3628,11 @@ memory
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
