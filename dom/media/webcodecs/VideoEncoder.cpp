@@ -2050,9 +2050,9 @@ ImageBitmapFormat
 :
 :
 BGRA32
-AssertedCast
+SaturatingCast
 <
-uint8_t
+uint32_t
 >
 (
 mFramerate
