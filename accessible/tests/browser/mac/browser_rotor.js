@@ -6190,6 +6190,17 @@ child
 )
 ;
 }
+{
+contentDocBodyAttrs
+:
+{
+role
+:
+"
+application
+"
+}
+}
 )
 ;
 /
