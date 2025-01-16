@@ -844,6 +844,10 @@ bool
 aFlushLayout
 ViewportType
 aViewportType
+bool
+aPerformRetargeting
+=
+true
 )
 ;
 void
