@@ -1035,6 +1035,8 @@ ping_names_by_app_id
 app_id
 ]
 =
+sorted
+(
 ping_objs
 [
 "
@@ -1044,6 +1046,7 @@ pings
 .
 keys
 (
+)
 )
     
 with
