@@ -63,6 +63,8 @@ wasm2c
 output
 wasm2c_bin
 wasm_lib
+*
+flags
 )
 :
     
@@ -106,6 +108,14 @@ wasm2c_bin
 n
 "
 module_name
+]
++
+list
+(
+flags
+)
++
+[
 "
 -
 o
