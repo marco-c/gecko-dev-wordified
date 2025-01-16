@@ -5858,7 +5858,7 @@ aCallback
 >
 OnComplete
 (
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
@@ -6215,7 +6215,7 @@ callback
 >
 OnComplete
 (
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
@@ -6384,7 +6384,7 @@ IsValid
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 MOZ_ASSERT

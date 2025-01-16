@@ -577,7 +577,7 @@ this
 ;
 aResolver
 (
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
@@ -944,7 +944,7 @@ destroySoon
 *
 aTransferableDataOrError
 =
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 ;
 return
 IPC_OK
