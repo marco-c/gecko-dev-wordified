@@ -4997,7 +4997,7 @@ return
 stat
 -
 >
-corruption_score_count
+corruption_measurements
 .
 value_or
 (

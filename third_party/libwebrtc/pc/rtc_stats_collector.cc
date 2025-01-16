@@ -4052,7 +4052,7 @@ corruption_score_count
 inbound_video
 -
 >
-corruption_score_sum
+total_corruption_probability
 =
 *
 video_receiver_info
@@ -4062,7 +4062,7 @@ corruption_score_sum
 inbound_video
 -
 >
-corruption_score_squared_sum
+total_squared_corruption_probability
 =
 *
 video_receiver_info
@@ -4072,7 +4072,7 @@ corruption_score_squared_sum
 inbound_video
 -
 >
-corruption_score_count
+corruption_measurements
 =
 video_receiver_info
 .

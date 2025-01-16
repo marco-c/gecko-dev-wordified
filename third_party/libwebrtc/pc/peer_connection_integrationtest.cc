@@ -33349,7 +33349,7 @@ EXPECT_TRUE
 stat
 -
 >
-corruption_score_sum
+total_corruption_probability
 .
 has_value
 (
@@ -33361,7 +33361,7 @@ EXPECT_TRUE
 stat
 -
 >
-corruption_score_squared_sum
+total_squared_corruption_probability
 .
 has_value
 (
@@ -33376,7 +33376,7 @@ average_corruption_score
 stat
 -
 >
-corruption_score_sum
+total_corruption_probability
 )
 /
 static_cast
@@ -33388,7 +33388,7 @@ int32_t
 stat
 -
 >
-corruption_score_count
+corruption_measurements
 )
 ;
 EXPECT_GE
@@ -33441,7 +33441,7 @@ EXPECT_FALSE
 stat
 -
 >
-corruption_score_sum
+total_corruption_probability
 .
 has_value
 (
@@ -33453,7 +33453,7 @@ EXPECT_FALSE
 stat
 -
 >
-corruption_score_squared_sum
+total_squared_corruption_probability
 .
 has_value
 (
@@ -33759,7 +33759,7 @@ EXPECT_TRUE
 stat
 -
 >
-corruption_score_sum
+total_corruption_probability
 .
 has_value
 (
@@ -33771,7 +33771,7 @@ EXPECT_TRUE
 stat
 -
 >
-corruption_score_squared_sum
+total_squared_corruption_probability
 .
 has_value
 (
@@ -33786,7 +33786,7 @@ average_corruption_score
 stat
 -
 >
-corruption_score_sum
+total_corruption_probability
 )
 /
 static_cast
@@ -33798,7 +33798,7 @@ int32_t
 stat
 -
 >
-corruption_score_count
+corruption_measurements
 )
 ;
 EXPECT_GE
@@ -34117,7 +34117,7 @@ EXPECT_FALSE
 stat
 -
 >
-corruption_score_sum
+total_corruption_probability
 .
 has_value
 (
@@ -34129,7 +34129,7 @@ EXPECT_FALSE
 stat
 -
 >
-corruption_score_squared_sum
+total_squared_corruption_probability
 .
 has_value
 (
