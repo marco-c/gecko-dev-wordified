@@ -2627,11 +2627,6 @@ GetBounceTrackingState
 (
 )
 ;
-bool
-CanOpenModalPicker
-(
-)
-;
 protected
 :
 /
