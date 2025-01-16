@@ -2901,7 +2901,7 @@ const
 size_t
 MatchResultObjectNumDynamicSlots
 =
-5
+6
 ;
 static
 const

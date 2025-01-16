@@ -6173,7 +6173,12 @@ const
 uint32_t
 SLOT_CAPACITY_MIN
 =
-5
+8
+-
+ObjectSlots
+:
+:
+VALUES_PER_HEADER
 ;
 /
 *
@@ -6195,7 +6200,12 @@ const
 uint32_t
 ELEMENT_CAPACITY_MIN
 =
-5
+8
+-
+ObjectElements
+:
+:
+VALUES_PER_HEADER
 ;
 HeapSlot
 *
