@@ -530,9 +530,12 @@ g
 "
 linear
 "
-or
 "
 exponential
+"
+or
+"
+enumerated
 "
 )
 def
@@ -903,6 +906,10 @@ linear
         
 "
 exponential
+"
+        
+"
+enumerated
 "
     
 ]
