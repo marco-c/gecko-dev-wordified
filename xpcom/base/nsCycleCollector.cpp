@@ -11340,6 +11340,10 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+if
+(
+NS_SUCCEEDED
+(
 aLog
 -
 >
@@ -11356,7 +11360,9 @@ directory
 nullptr
 logFileFinalDestinationName
 )
-;
+)
+)
+{
 /
 /
 Save
@@ -11371,6 +11377,7 @@ mFile
 =
 logFileFinalDestination
 ;
+}
 /
 /
 Log
@@ -11382,7 +11389,10 @@ console
 nsAutoString
 logPath
 ;
-logFileFinalDestination
+aLog
+-
+>
+mFile
 -
 >
 GetPath
