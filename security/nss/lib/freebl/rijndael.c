@@ -9745,9 +9745,10 @@ destroy
 NULL
 ;
 }
-PORT_SafeZero
+PORT_Memset
 (
 cx
+0
 sizeof
 (
 AESContext

@@ -475,9 +475,6 @@ write_error_
 (
 0
 )
-receivedData_
-(
-)
 {
 }
 virtual
@@ -485,7 +482,8 @@ virtual
 DummyPrSocket
 (
 )
-;
+{
+}
 static
 PRDescIdentity
 LayerId
@@ -825,15 +823,6 @@ filter_
 ;
 PRErrorCode
 write_error_
-;
-std
-:
-:
-vector
-<
-uint8_t
->
-receivedData_
 ;
 }
 ;

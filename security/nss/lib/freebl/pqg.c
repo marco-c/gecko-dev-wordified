@@ -5455,9 +5455,10 @@ mp_clear
 two_length_minus_1
 )
 ;
-PORT_SafeZero
+PORT_Memset
 (
 x
+0
 sizeof
 (
 x
@@ -6773,9 +6774,10 @@ mp_clear
 one
 )
 ;
-PORT_SafeZero
+PORT_Memset
 (
 x
+0
 sizeof
 (
 x
@@ -8875,9 +8877,10 @@ c
 /
 cleanup
 :
-PORT_SafeZero
+PORT_Memset
 (
 V_j
+0
 sizeof
 V_j
 )
@@ -10053,9 +10056,10 @@ G
 /
 cleanup
 :
-PORT_SafeZero
+PORT_Memset
 (
 data
+0
 sizeof
 (
 data
