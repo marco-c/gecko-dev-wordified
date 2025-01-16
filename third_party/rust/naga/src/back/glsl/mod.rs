@@ -32628,7 +32628,7 @@ imageStore
 s
 have
 no
-effects
+effets
 when
 the
 texel

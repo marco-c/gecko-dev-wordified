@@ -2357,15 +2357,7 @@ label
 None
 runtime_checks
 :
-wgt
-:
-:
-ShaderRuntimeChecks
-:
-:
-checked
-(
-)
+false
 }
 ;
 let

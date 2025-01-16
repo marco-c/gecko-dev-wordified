@@ -2218,6 +2218,10 @@ encoder
 .
 open
 (
+&
+cmd_buf
+.
+device
 )
 ?
 ;
@@ -2822,6 +2826,10 @@ encoder
 .
 open
 (
+&
+cmd_buf
+.
+device
 )
 ?
 ;

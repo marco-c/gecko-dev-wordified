@@ -1614,6 +1614,9 @@ iter
 {
 if
 let
+crate
+:
+:
 TypeInner
 :
 :
@@ -1847,6 +1850,9 @@ name
 :
 None
 inner
+:
+crate
+:
 :
 TypeInner
 :

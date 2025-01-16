@@ -926,8 +926,9 @@ peek
 frontend
 )
 .
-is_some_and
+map_or
 (
+false
 |
 t
 |
@@ -2256,8 +2257,9 @@ peek
 frontend
 )
 .
-is_some_and
+map_or
 (
+false
 |
 t
 |
