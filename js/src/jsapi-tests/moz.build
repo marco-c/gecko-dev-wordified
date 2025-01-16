@@ -512,6 +512,11 @@ testLargeArrayBuffers
 cpp
 "
 "
+testLinkedList
+.
+cpp
+"
+"
 testLookup
 .
 cpp
