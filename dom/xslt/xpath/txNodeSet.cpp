@@ -1690,6 +1690,10 @@ count
 ;
 memmove
 (
+(
+void
+*
+)
 insertPos
 pos
 count
