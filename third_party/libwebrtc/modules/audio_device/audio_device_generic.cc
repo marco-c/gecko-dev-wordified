@@ -142,7 +142,11 @@ AudioDeviceGeneric
 EnableBuiltInAEC
 (
 bool
+/
+*
 enable
+*
+/
 )
 {
 RTC_LOG_F
@@ -198,7 +202,11 @@ AudioDeviceGeneric
 EnableBuiltInAGC
 (
 bool
+/
+*
 enable
+*
+/
 )
 {
 RTC_LOG_F
@@ -254,7 +262,11 @@ AudioDeviceGeneric
 EnableBuiltInNS
 (
 bool
+/
+*
 enable
+*
+/
 )
 {
 RTC_LOG_F
