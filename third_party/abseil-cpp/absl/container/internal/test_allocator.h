@@ -2286,7 +2286,7 @@ IsAssertEnabled
 )
 )
 {
-EXPECT_DEATH
+EXPECT_DEATH_IF_SUPPORTED
 (
 c2
 .

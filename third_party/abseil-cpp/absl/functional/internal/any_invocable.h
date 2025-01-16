@@ -2464,6 +2464,11 @@ __GNUC__
 pragma
 GCC
 diagnostic
+push
+#
+pragma
+GCC
+diagnostic
 ignored
 "
 -
@@ -2471,11 +2476,6 @@ Wstrict
 -
 aliasing
 "
-#
-pragma
-GCC
-diagnostic
-push
 #
 endif
 return
@@ -5125,6 +5125,11 @@ __GNUC__
 pragma
 GCC
 diagnostic
+push
+#
+pragma
+GCC
+diagnostic
 ignored
 "
 -
@@ -5150,11 +5155,6 @@ Wnonnull
 -
 compare
 "
-#
-pragma
-GCC
-diagnostic
-push
 #
 endif
 if

@@ -904,7 +904,7 @@ vsrc
 reinterpret_cast
 <
 const
-V128u
+V128
 *
 >
 (
@@ -2239,7 +2239,7 @@ vsrc
 reinterpret_cast
 <
 const
-V128u
+V128
 *
 >
 (

@@ -825,6 +825,12 @@ after
 rehash
 (
 )
+and
+when
+the
+table
+is
+moved
 .
 /
 /

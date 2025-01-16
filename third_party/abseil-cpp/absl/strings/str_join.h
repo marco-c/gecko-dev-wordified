@@ -1076,11 +1076,11 @@ dur
 /
 EXPECT_EQ
 (
+s
 "
 1s
 10ms
 "
-s
 )
 ;
 /
@@ -1880,6 +1880,7 @@ v
 /
 EXPECT_EQ
 (
+s
 "
 foo
 -
@@ -1887,7 +1888,6 @@ bar
 -
 baz
 "
-s
 )
 ;
 /
@@ -1979,8 +1979,7 @@ baz
 ;
 /
 /
-EXPECT_EQ
-(
+EXPECT_EQs
 "
 foo
 -
@@ -1988,7 +1987,6 @@ bar
 -
 baz
 "
-s
 )
 ;
 /
@@ -2072,6 +2070,7 @@ v
 /
 EXPECT_EQ
 (
+s
 "
 1
 -
@@ -2082,7 +2081,6 @@ EXPECT_EQ
 -
 4
 "
-s
 )
 ;
 /
@@ -2233,6 +2231,7 @@ v
 /
 EXPECT_EQ
 (
+s
 "
 1
 -
@@ -2240,7 +2239,6 @@ EXPECT_EQ
 -
 3
 "
-s
 )
 ;
 /
@@ -2344,6 +2342,7 @@ v
 /
 EXPECT_EQ
 (
+s
 "
 1
 -
@@ -2351,7 +2350,6 @@ EXPECT_EQ
 -
 3
 "
-s
 )
 ;
 /
@@ -2497,6 +2495,7 @@ PairFormatter
 /
 EXPECT_EQ
 (
+s
 "
 a
 =
@@ -2508,7 +2507,6 @@ c
 =
 3
 "
-s
 )
 ;
 /
@@ -2561,8 +2559,6 @@ v_empty
 /
 EXPECT_EQ
 (
-"
-"
 absl
 :
 :
@@ -2573,6 +2569,8 @@ v_empty
 -
 "
 )
+"
+"
 )
 ;
 /
@@ -2601,9 +2599,6 @@ foo
 /
 EXPECT_EQ
 (
-"
-foo
-"
 absl
 :
 :
@@ -2614,6 +2609,9 @@ v_one_item
 -
 "
 )
+"
+foo
+"
 )
 ;
 /
@@ -2641,8 +2639,6 @@ v_empty_string
 /
 EXPECT_EQ
 (
-"
-"
 absl
 :
 :
@@ -2653,6 +2649,8 @@ v_empty_string
 -
 "
 )
+"
+"
 )
 ;
 /
@@ -2683,10 +2681,6 @@ a
 /
 EXPECT_EQ
 (
-"
-a
--
-"
 absl
 :
 :
@@ -2697,6 +2691,10 @@ v_one_item_empty_string
 -
 "
 )
+"
+a
+-
+"
 )
 ;
 /
@@ -2726,9 +2724,6 @@ v_two_empty_string
 /
 EXPECT_EQ
 (
-"
--
-"
 absl
 :
 :
@@ -2739,6 +2734,9 @@ v_two_empty_string
 -
 "
 )
+"
+-
+"
 )
 ;
 /
@@ -2822,6 +2820,7 @@ abc
 /
 EXPECT_EQ
 (
+s
 "
 123
 -
@@ -2831,7 +2830,6 @@ abc
 .
 456
 "
-s
 )
 ;
 template

@@ -1907,7 +1907,15 @@ DEPS
 absl
 :
 :
+config
+absl
+:
+:
 container_memory
+absl
+:
+:
+core_headers
 absl
 :
 :
@@ -2209,6 +2217,10 @@ absl
 :
 :
 core_headers
+absl
+:
+:
+debugging_internal
 absl
 :
 :
