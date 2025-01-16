@@ -426,6 +426,13 @@ windows
 h
 >
 #
+include
+<
+winstring
+.
+h
+>
+#
 endif
 #
 endif

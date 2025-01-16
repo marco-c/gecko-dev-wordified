@@ -5917,8 +5917,7 @@ pow10
 ;
 }
 ;
-ABSL_CONST_INIT
-const
+constexpr
 DisplayUnit
 kDisplayNano
 =
@@ -5930,8 +5929,7 @@ ns
 1e2
 }
 ;
-ABSL_CONST_INIT
-const
+constexpr
 DisplayUnit
 kDisplayMicro
 =
@@ -5943,8 +5941,7 @@ us
 1e5
 }
 ;
-ABSL_CONST_INIT
-const
+constexpr
 DisplayUnit
 kDisplayMilli
 =
@@ -5956,8 +5953,7 @@ ms
 1e8
 }
 ;
-ABSL_CONST_INIT
-const
+constexpr
 DisplayUnit
 kDisplaySec
 =
@@ -5969,8 +5965,7 @@ s
 1e11
 }
 ;
-ABSL_CONST_INIT
-const
+constexpr
 DisplayUnit
 kDisplayMin
 =
@@ -5989,8 +5984,7 @@ m
 /
 prec
 ignored
-ABSL_CONST_INIT
-const
+constexpr
 DisplayUnit
 kDisplayHour
 =
