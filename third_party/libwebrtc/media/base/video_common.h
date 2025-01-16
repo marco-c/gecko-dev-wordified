@@ -117,6 +117,17 @@ string
 #
 include
 "
+absl
+/
+base
+/
+macros
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 system
@@ -2408,6 +2419,9 @@ a
 and
 b
 .
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 int
 GreatestCommonDivisor
 (
@@ -2433,6 +2447,9 @@ a
 and
 b
 .
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 int
 LeastCommonMultiple
 (
