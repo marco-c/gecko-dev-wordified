@@ -17944,6 +17944,7 @@ if
 selectedRect
 |
 |
+(
 this
 .
 verticalMode
@@ -17997,6 +17998,7 @@ left
 scrollRect
 .
 width
+)
 )
 {
 this
