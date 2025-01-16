@@ -2492,6 +2492,12 @@ aCloneDataPolicy
 )
 )
 {
+mTransferredPorts
+.
+Clear
+(
+)
+;
 JS_ClearPendingException
 (
 aCx
