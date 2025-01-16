@@ -71,9 +71,9 @@ only
 ;
 scrollbar
 -
-width
+color
 :
-thin
+auto
 ;
 }
 <
@@ -125,7 +125,7 @@ property
 "
 scrollbar
 -
-width
+color
 "
 nodes
 :
