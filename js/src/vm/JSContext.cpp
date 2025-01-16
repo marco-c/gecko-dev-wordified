@@ -1391,11 +1391,9 @@ Cancel
 all
 off
 thread
-Ion
 compiles
 .
 Completed
-Ion
 compiles
 may
 try
@@ -1412,7 +1410,7 @@ HelperThread
 :
 handleIonWorkload
 .
-CancelOffThreadIonCompile
+CancelOffThreadCompile
 (
 cx
 -

@@ -1349,10 +1349,12 @@ in
 progress
 or
 completed
+baseline
+/
 Ion
 compilations
-and
 *
+and
 parse
 tasks
 .
@@ -1388,7 +1390,7 @@ these
 .
 *
 /
-CancelOffThreadIonCompile
+CancelOffThreadCompile
 (
 this
 )

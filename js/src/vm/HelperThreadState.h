@@ -2676,6 +2676,15 @@ lock
 #
 endif
 void
+cancelOffThreadBaselineCompile
+(
+const
+CompilationSelector
+&
+selector
+)
+;
+void
 cancelOffThreadIonCompile
 (
 const

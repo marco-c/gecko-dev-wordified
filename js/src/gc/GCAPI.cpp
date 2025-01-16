@@ -721,7 +721,7 @@ gcx
 js
 :
 :
-CancelOffThreadIonCompile
+CancelOffThreadCompile
 (
 gcx
 -
