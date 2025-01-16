@@ -1509,9 +1509,6 @@ return
 SECSuccess
 ;
 }
-#
-ifndef
-NSS_DISABLE_DBM
 static
 char
 *
@@ -1647,11 +1644,6 @@ return
 file
 ;
 }
-#
-endif
-/
-/
-NSS_DISABLE_DBM
 static
 SECStatus
 nssutil_AddSecmodDBEntry
@@ -3114,9 +3106,6 @@ NULL
 }
 done
 :
-#
-ifndef
-NSS_DISABLE_DBM
 /
 *
 if
@@ -3240,11 +3229,6 @@ olddbname
 ;
 }
 }
-#
-endif
-/
-/
-NSS_DISABLE_DBM
 return_default
 :
 if
