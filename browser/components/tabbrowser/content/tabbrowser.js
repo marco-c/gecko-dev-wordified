@@ -36079,7 +36079,7 @@ tabContainer
 .
 advanceSelectedTab
 (
-1
+DIRECTION_FORWARD
 true
 )
 ;
@@ -36115,8 +36115,7 @@ tabContainer
 .
 advanceSelectedTab
 (
--
-1
+DIRECTION_BACKWARD
 true
 )
 ;
