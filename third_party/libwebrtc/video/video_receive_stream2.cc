@@ -152,6 +152,17 @@ h
 #
 include
 "
+absl
+/
+strings
+/
+str_cat
+.
+h
+"
+#
+include
+"
 api
 /
 array_view
@@ -1115,7 +1126,6 @@ std
 string
 OptionalDelayToLogString
 (
-const
 std
 :
 :
@@ -1133,7 +1143,10 @@ has_value
 (
 )
 ?
-ToLogString
+absl
+:
+:
+StrCat
 (
 *
 opt
