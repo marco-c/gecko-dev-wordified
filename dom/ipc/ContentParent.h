@@ -1783,12 +1783,6 @@ StringBundleDescriptor
 ;
 static
 void
-BroadcastFontListChanged
-(
-)
-;
-static
-void
 BroadcastShmBlockAdded
 (
 uint32_t
