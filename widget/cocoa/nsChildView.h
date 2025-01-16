@@ -693,6 +693,7 @@ NSTextInputClient
 NSDraggingSource
 NSDraggingDestination
 NSPasteboardItemDataProvider
+NSStandardKeyBindingResponding
 >
 {
 private
@@ -1562,6 +1563,17 @@ viewWillStartLiveResize
 void
 )
 viewDidEndLiveResize
+;
+-
+(
+void
+)
+showContextMenuForSelection
+:
+(
+id
+)
+sender
 ;
 /
 *
