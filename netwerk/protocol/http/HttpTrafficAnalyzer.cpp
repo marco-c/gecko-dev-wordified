@@ -2594,7 +2594,10 @@ CLAMP_U32
 num
 )
 \
-Clamp
+std
+:
+:
+clamp
 <
 uint32_t
 >
