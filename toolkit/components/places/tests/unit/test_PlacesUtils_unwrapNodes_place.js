@@ -256,6 +256,8 @@ unwrapNodes
 blob
 type
 )
+.
+validNodes
 [
 ]
 "
