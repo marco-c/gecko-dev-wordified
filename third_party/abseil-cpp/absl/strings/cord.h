@@ -10565,7 +10565,7 @@ InvokeReleaser
 cord_internal
 :
 :
-Rank0
+Rank1
 {
 }
 ReleaserType
@@ -10885,9 +10885,12 @@ this
 return
 ;
 }
+using
 std
 :
 :
+swap
+;
 swap
 (
 data_

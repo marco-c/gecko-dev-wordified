@@ -671,7 +671,7 @@ as_bytes
 or
 /
 /
-as_mutable_bytes
+as_writable_bytes
 (
 )
 methods

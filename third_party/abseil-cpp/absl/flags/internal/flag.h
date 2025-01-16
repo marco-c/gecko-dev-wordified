@@ -176,11 +176,6 @@ memory
 #
 include
 <
-new
->
-#
-include
-<
 string
 >
 #
@@ -6568,6 +6563,7 @@ FlagRegistrar
 {
 public
 :
+constexpr
 explicit
 FlagRegistrar
 (
@@ -6661,6 +6657,7 @@ as
 /
 temporary
 .
+constexpr
 operator
 FlagRegistrarEmpty
 (

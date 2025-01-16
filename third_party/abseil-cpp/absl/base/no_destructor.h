@@ -925,7 +925,7 @@ scope
 .
 /
 /
-ABSL_CONST_INIT
+constinit
 absl
 :
 :

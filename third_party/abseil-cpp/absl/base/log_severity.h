@@ -919,14 +919,12 @@ return
 FATAL
 "
 ;
-default
-:
+}
 return
 "
 UNKNOWN
 "
 ;
-}
 }
 /
 /

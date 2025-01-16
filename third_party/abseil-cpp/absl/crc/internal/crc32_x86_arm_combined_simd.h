@@ -376,6 +376,13 @@ defined
 (
 __AVX__
 )
+&
+&
+\
+defined
+(
+_M_AMD64
+)
 /
 /
 MSVC

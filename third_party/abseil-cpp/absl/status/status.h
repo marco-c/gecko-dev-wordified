@@ -4175,6 +4175,7 @@ Status
 &
 &
 )
+noexcept
 ;
 ~
 Status
@@ -4927,6 +4928,7 @@ Status
 &
 b
 )
+noexcept
 ;
 /
 /
@@ -7284,6 +7286,7 @@ Status
 &
 x
 )
+noexcept
 {
 uintptr_t
 old_rep
@@ -7726,6 +7729,7 @@ Status
 &
 b
 )
+noexcept
 {
 using
 std

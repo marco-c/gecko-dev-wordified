@@ -1100,13 +1100,6 @@ PiecewiseChunkSize
 (
 )
 ;
-if
-(
-size
->
-large_chunk_stride
-)
-{
 /
 /
 Combining
@@ -1144,7 +1137,6 @@ while
 (
 size
 >
-=
 large_chunk_stride
 )
 {
@@ -1177,7 +1169,13 @@ size
 large_chunk_stride
 ;
 }
-}
+if
+(
+size
+>
+0
+)
+{
 hash_state
 .
 hash_representation_
@@ -1196,6 +1194,7 @@ begin
 size
 )
 ;
+}
 return
 hash_state
 ;

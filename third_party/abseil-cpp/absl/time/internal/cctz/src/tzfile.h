@@ -655,10 +655,14 @@ there
 is
 no
 POSIX
+.
+1
+-
+2017
+*
+*
 representation
 for
-*
-*
 such
 instants
 )
@@ -686,7 +690,6 @@ follows
 *
 First
 the
-POSIX
 TZ
 string
 '
