@@ -363,11 +363,6 @@ log
 -
 wptreport
 '
-action
-=
-'
-store
-'
 )
     
 return
@@ -407,11 +402,6 @@ add_argument
 log
 -
 wptscreenshot
-'
-action
-=
-'
-store
 '
 )
     
@@ -1019,11 +1009,6 @@ commit
 -
 range
 "
-action
-=
-"
-store
-"
                         
 help
 =
@@ -1073,12 +1058,6 @@ artifact
 -
 path
 "
-action
-=
-"
-store
-"
-                        
 default
 =
 "
@@ -1109,12 +1088,6 @@ add_argument
 "
 product
 "
-action
-=
-"
-store
-"
-                        
 help
 =
 "
@@ -1133,12 +1106,6 @@ add_argument
 "
 channel
 "
-action
-=
-"
-store
-"
-                        
 help
 =
 "

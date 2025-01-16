@@ -490,6 +490,7 @@ action
 "
 store_true
 "
+                   
 help
 =
 "
@@ -511,9 +512,6 @@ add_argument
 -
 serve
 "
-default
-=
-None
 nargs
 =
 "

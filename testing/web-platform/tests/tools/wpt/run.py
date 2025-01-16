@@ -249,12 +249,6 @@ add_argument
 "
 product
 "
-action
-=
-"
-store
-"
-                        
 help
 =
 "
@@ -275,15 +269,6 @@ add_argument
 -
 affected
 "
-action
-=
-"
-store
-"
-default
-=
-None
-                        
 help
 =
 "
@@ -318,9 +303,6 @@ action
 "
 store_false
 "
-default
-=
-True
                         
 help
 =
@@ -439,14 +421,6 @@ logcat
 -
 dir
 "
-action
-=
-"
-store
-"
-default
-=
-None
                         
 help
 =

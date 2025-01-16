@@ -206,11 +206,6 @@ default
 '
 nightly
 '
-action
-=
-'
-store
-'
                           
 help
 =
@@ -470,14 +465,6 @@ add_argument
 -
 rename
 '
-action
-=
-"
-store
-"
-default
-=
-None
                         
 help
 =
@@ -538,9 +525,6 @@ add_argument
 -
 revision
 '
-default
-=
-None
                         
 help
 =

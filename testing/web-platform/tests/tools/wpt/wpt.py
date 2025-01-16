@@ -537,11 +537,6 @@ add_argument
 -
 venv
 "
-action
-=
-"
-store
-"
 help
 =
 "
@@ -572,12 +567,6 @@ action
 =
 "
 store_true
-"
-                        
-dest
-=
-"
-skip_venv_setup
 "
                         
 help
@@ -616,6 +605,7 @@ action
 "
 store_true
 "
+                        
 help
 =
 "
