@@ -1492,7 +1492,7 @@ browser
 /
 skin
 /
-tab
+tabs
 .
 svg
 "
