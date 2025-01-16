@@ -9126,6 +9126,10 @@ BufferAllocator
 ;
 friend
 class
+AutoLock
+;
+friend
+class
 BackgroundSweepTask
 ;
 friend

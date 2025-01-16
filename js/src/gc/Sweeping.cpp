@@ -11610,6 +11610,13 @@ present
 ZoneList
 zones
 ;
+{
+BufferAllocator
+:
+:
+MaybeLock
+lock
+;
 for
 (
 SweepGroupZonesIter
@@ -11667,8 +11674,10 @@ bufferAllocator
 .
 startMajorSweeping
 (
+lock
 )
 ;
+}
 }
 queueZonesAndStartBackgroundSweep
 (
