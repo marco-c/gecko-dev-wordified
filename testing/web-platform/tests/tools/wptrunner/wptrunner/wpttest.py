@@ -1499,7 +1499,7 @@ tests_root
 url
 inherit_metadata
 test_metadata
-                 
+          
 timeout
 =
 None
@@ -1515,6 +1515,10 @@ subdomain
 =
 False
 pac
+=
+None
+          
+testdriver_features
 =
 None
 )
@@ -1570,6 +1574,12 @@ self
 path
 =
 path
+        
+self
+.
+testdriver_features
+=
+testdriver_features
         
 self
 .
@@ -3026,6 +3036,10 @@ False
 pac
 =
 None
+                 
+testdriver_features
+=
+None
 )
 :
         
@@ -3045,6 +3059,7 @@ path
 protocol
 subdomain
 pac
+testdriver_features
 )
         
 self
@@ -3105,6 +3120,12 @@ pac
 manifest_item
 .
 pac
+        
+testdriver_features
+=
+manifest_item
+.
+testdriver_features
         
 testdriver
 =
@@ -3194,6 +3215,10 @@ timeout
 pac
 =
 pac
+                   
+testdriver_features
+=
+testdriver_features
                    
 path
 =

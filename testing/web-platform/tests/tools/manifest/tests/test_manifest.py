@@ -2694,15 +2694,23 @@ from_json
 json_str
 )
     
+testdriver_features
+=
+[
+'
+feature_1
+'
+'
+feature_2
+'
+]
+    
 #
 Update
-it
-with
 timeout
-=
-"
-long
-"
+pac
+and
+testdriver_features
     
 s2
 =
@@ -2719,6 +2727,7 @@ test1
 item
 .
 TestharnessTest
+                            
 timeout
 =
 "
@@ -2731,6 +2740,10 @@ proxy
 .
 pac
 "
+                            
+testdriver_features
+=
+testdriver_features
 )
     
 tree
@@ -2829,6 +2842,12 @@ proxy
 .
 pac
 '
+                    
+'
+testdriver_features
+'
+:
+testdriver_features
 }
 )
         
