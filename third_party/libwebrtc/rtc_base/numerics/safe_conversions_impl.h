@@ -749,7 +749,11 @@ RangeCheckResult
 Check
 (
 Src
+/
+*
 value
+*
+/
 )
 {
 return

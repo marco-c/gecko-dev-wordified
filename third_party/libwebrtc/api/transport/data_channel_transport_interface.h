@@ -681,7 +681,11 @@ void
 OnTransportClosed
 (
 RTCError
+/
+*
 error
+*
+/
 )
 {
 }

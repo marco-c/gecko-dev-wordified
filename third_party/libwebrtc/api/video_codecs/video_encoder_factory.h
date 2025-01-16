@@ -399,7 +399,11 @@ OnResolutionChange
 const
 RenderResolution
 &
+/
+*
 resolution
+*
+/
 )
 {
 return

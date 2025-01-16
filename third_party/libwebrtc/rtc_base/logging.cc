@@ -1736,6 +1736,11 @@ LogMessage
 :
 AddTag
 (
+[
+[
+maybe_unused
+]
+]
 const
 char
 *

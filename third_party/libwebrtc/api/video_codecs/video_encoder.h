@@ -559,7 +559,11 @@ void
 OnDroppedFrame
 (
 DropReason
+/
+*
 reason
+*
+/
 )
 {
 }
