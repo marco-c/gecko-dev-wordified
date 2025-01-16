@@ -10873,6 +10873,7 @@ fromSpace
 .
 mallocedBuffers
 stringBuffersToReleaseAfterMinorGC_
+largeAllocsToFreeAfterMinorGC_
 )
 ;
 fromSpace
@@ -12758,6 +12759,15 @@ sweepBuffers
 (
 )
 {
+MOZ_ASSERT
+(
+largeAllocsToFreeAfterMinorGC_
+.
+isEmpty
+(
+)
+)
+;
 for
 (
 ZonesIter
@@ -12792,6 +12802,7 @@ bufferAllocator
 .
 startMinorSweeping
 (
+largeAllocsToFreeAfterMinorGC_
 )
 )
 {
