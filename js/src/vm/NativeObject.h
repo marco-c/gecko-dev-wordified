@@ -6173,12 +6173,7 @@ const
 uint32_t
 SLOT_CAPACITY_MIN
 =
-8
--
-ObjectSlots
-:
-:
-VALUES_PER_HEADER
+5
 ;
 /
 *

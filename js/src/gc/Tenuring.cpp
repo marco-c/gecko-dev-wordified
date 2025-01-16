@@ -6562,16 +6562,12 @@ nursery
 (
 )
 .
-maybeMoveNurseryOrMallocBufferOnPromotion
+maybeMoveBufferOnPromotion
 (
 &
 header
 dst
 allocSize
-MemoryUse
-:
-:
-ObjectSlots
 )
 ;
 if
