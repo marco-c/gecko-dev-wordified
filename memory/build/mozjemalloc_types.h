@@ -1251,7 +1251,7 @@ move
 the
 memory
 .
-size_t
+uint64_t
 num_operations
 ;
 }

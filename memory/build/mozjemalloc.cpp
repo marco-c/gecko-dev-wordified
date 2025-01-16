@@ -6623,7 +6623,7 @@ mallocs
 /
 frees
 .
-size_t
+uint64_t
 operations
 ;
 }
@@ -10011,7 +10011,7 @@ without
 a
 lock
 :
-size_t
+uint64_t
 Operations
 (
 )
@@ -12857,7 +12857,7 @@ active
 disposed
 arenas
 .
-size_t
+uint64_t
 OperationsDisposedArenas
 (
 )
@@ -13048,7 +13048,7 @@ been
 /
 destroyed
 .
-size_t
+uint64_t
 mNumOperationsDisposedArenas
 =
 0
@@ -13252,7 +13252,7 @@ huge_mtx
 )
 ;
 static
-size_t
+uint64_t
 huge_operations
 MOZ_GUARDED_BY
 (
