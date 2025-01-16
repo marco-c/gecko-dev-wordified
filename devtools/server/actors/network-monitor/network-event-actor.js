@@ -1396,6 +1396,13 @@ timeStamp
 toISOString
 (
 )
+securityFlags
+:
+channel
+.
+loadInfo
+.
+securityFlags
 timeStamp
 timings
 :

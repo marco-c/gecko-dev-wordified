@@ -1180,6 +1180,9 @@ fromCache
 "
 fromServiceWorker
 "
+"
+securityFlags
+"
 ]
 ;
 const
