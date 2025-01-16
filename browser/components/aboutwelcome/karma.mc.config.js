@@ -87,7 +87,8 @@ require
 .
 .
 /
-newtab
+.
+.
 /
 tools
 /
