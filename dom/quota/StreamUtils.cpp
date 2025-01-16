@@ -218,13 +218,6 @@ nsNetUtil
 .
 h
 "
-#
-include
-"
-prio
-.
-h
-"
 namespace
 mozilla
 :
