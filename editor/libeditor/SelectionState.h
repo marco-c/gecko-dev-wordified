@@ -621,7 +621,7 @@ explicit
 SelectionState
 (
 const
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 )
@@ -787,7 +787,7 @@ instance
 void
 ApplyTo
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 )

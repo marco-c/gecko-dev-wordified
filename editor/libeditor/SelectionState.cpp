@@ -103,14 +103,14 @@ h
 #
 include
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 h
 "
 /
 /
 for
-AutoRangeArray
+AutoClonedRangeArray
 #
 include
 "
@@ -122,7 +122,6 @@ h
 /
 for
 EditorUtils
-AutoRangeArray
 #
 include
 "
@@ -816,7 +815,7 @@ SelectionState
 SelectionState
 (
 const
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 )
@@ -1279,7 +1278,7 @@ SelectionState
 :
 ApplyTo
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 )

@@ -103,14 +103,14 @@ h
 #
 include
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 h
 "
 /
 /
 for
-AutoRangeArray
+AutoClonedRangeArray
 #
 include
 "
@@ -21006,7 +21006,7 @@ SelectedTableCellScanner
 SelectedTableCellScanner
 (
 const
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 )

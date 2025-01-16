@@ -215,6 +215,11 @@ nsIStyleSheetService
 .
 idl
 "
+"
+nsISVGPaintContext
+.
+idl
+"
 ]
 if
 CONFIG
@@ -562,6 +567,11 @@ cpp
 "
 "
 Baseline
+.
+cpp
+"
+"
+CaretAssociationHint
 .
 cpp
 "

@@ -145,7 +145,7 @@ utility
 #
 include
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 h
 "
@@ -2893,7 +2893,7 @@ nsRange
 >
 extendedChangedRange
 =
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CreateRangeWrappingStartAndEndLinesContainingBoundaries
@@ -11970,7 +11970,7 @@ ignored
 ;
 }
 }
-AutoRangeArray
+AutoClonedSelectionRangeArray
 selectionRanges
 (
 SelectionRef
@@ -25026,7 +25026,7 @@ listItemTagName
 aBulletType
 )
 ;
-AutoRangeArray
+AutoClonedSelectionRangeArray
 selectionRanges
 (
 SelectionRef
@@ -25134,7 +25134,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedSelectionRangeArray
 :
 :
 ApplyTo
@@ -25193,7 +25193,7 @@ Run
 HTMLEditor
 &
 aHTMLEditor
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 SelectAllOfCurrentList
@@ -25459,7 +25459,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 Collapse
@@ -25643,7 +25643,7 @@ SplitAtRangeEdgesAndCollectContentNodesToMoveIntoList
 HTMLEditor
 &
 aHTMLEditor
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 SelectAllOfCurrentList
@@ -25710,7 +25710,7 @@ NS_OK
 ;
 }
 }
-AutoRangeArray
+AutoClonedRangeArray
 extendedRanges
 (
 aRanges
@@ -25816,7 +25816,7 @@ isErr
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 "
@@ -25849,7 +25849,7 @@ EditSubAction
 :
 :
 eCreateOrChangeList
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -25869,7 +25869,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -26083,7 +26083,7 @@ HTMLEditor
 &
 aHTMLEditor
 const
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 const
@@ -26557,7 +26557,7 @@ WrapContentNodesIntoNewListElements
 HTMLEditor
 &
 aHTMLEditor
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 AutoContentNodeArray
@@ -31013,7 +31013,7 @@ EnsureCollapsedRangeIsInListItemOrListElement
 Element
 &
 aListItemOrListToPutCaret
-AutoRangeArray
+AutoClonedRangeArray
 &
 aRanges
 )
@@ -31163,7 +31163,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 Collapse
@@ -31614,7 +31614,7 @@ this
 )
 ;
 {
-AutoRangeArray
+AutoClonedSelectionRangeArray
 extendedSelectionRanges
 (
 SelectionRef
@@ -31672,7 +31672,7 @@ isErr
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 "
@@ -31708,7 +31708,7 @@ EditSubAction
 :
 :
 eCreateOrChangeList
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -31728,7 +31728,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -32109,7 +32109,7 @@ HTMLEditor
 :
 FormatBlockContainerWithTransaction
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aSelectionRanges
 const
@@ -32243,7 +32243,7 @@ we
 /
 cannot
 use
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 SetStartAndEnd
@@ -32284,7 +32284,7 @@ EndRef
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 SetBaseAndExtent
@@ -32436,7 +32436,7 @@ isErr
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 "
@@ -32483,7 +32483,7 @@ EditSubAction
 :
 :
 eCreateOrRemoveBlock
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -32503,7 +32503,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -32511,10 +32511,10 @@ CollectEditTargetNodes
 CollectNonEditableNodes
 :
 :
+"
+"
 No
 )
-"
-"
 failed
 "
 )
@@ -33204,7 +33204,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 Collapse
@@ -33602,7 +33602,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 Collapse
@@ -35353,7 +35353,7 @@ ignored
 ;
 }
 }
-AutoRangeArray
+AutoClonedSelectionRangeArray
 selectionRanges
 (
 SelectionRef
@@ -35504,7 +35504,7 @@ Destroyed
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedSelectionRangeArray
 :
 :
 ApplyTo
@@ -35513,6 +35513,8 @@ ApplyTo
 caused
 destroying
 the
+"
+"
 editor
 "
 )
@@ -35535,7 +35537,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedSelectionRangeArray
 :
 :
 ApplyTo
@@ -35567,7 +35569,7 @@ HTMLEditor
 :
 HandleCSSIndentAroundRanges
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 const
@@ -35796,7 +35798,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 SetBaseAndExtent
@@ -35984,7 +35986,7 @@ IsEmpty
 )
 {
 {
-AutoRangeArray
+AutoClonedSelectionRangeArray
 extendedRanges
 (
 aRanges
@@ -36040,7 +36042,7 @@ isErr
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 "
@@ -36098,7 +36100,7 @@ EditSubAction
 :
 :
 eIndent
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -36118,7 +36120,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -36126,9 +36128,9 @@ CollectEditTargetNodes
 EditSubAction
 :
 :
+"
+"
 eIndent
-"
-"
 CollectNonEditableNodes
 :
 :
@@ -36631,7 +36633,7 @@ NS_SUCCEEDED
 rv
 )
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 Collapse
@@ -37702,7 +37704,7 @@ HTMLEditor
 :
 HandleHTMLIndentAroundRanges
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 const
@@ -37902,7 +37904,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 SetBaseAndExtent
@@ -38011,7 +38013,7 @@ nsIContent
 arrayOfContents
 ;
 {
-AutoRangeArray
+AutoClonedSelectionRangeArray
 extendedRanges
 (
 aRanges
@@ -38067,7 +38069,7 @@ isErr
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 "
@@ -38125,7 +38127,7 @@ EditSubAction
 :
 :
 eIndent
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -38145,7 +38147,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -41489,7 +41491,7 @@ nsIContent
 arrayOfContents
 ;
 {
-AutoRangeArray
+AutoClonedSelectionRangeArray
 extendedSelectionRanges
 (
 SelectionRef
@@ -41526,7 +41528,7 @@ EditSubAction
 :
 :
 eOutdent
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -41546,7 +41548,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -41554,9 +41556,9 @@ CollectEditTargetNodes
 EditSubAction
 :
 :
+"
+"
 eOutdent
-"
-"
 CollectNonEditableNodes
 :
 :
@@ -47371,7 +47373,7 @@ reuse
 ancestors
 better
 .
-AutoRangeArray
+AutoClonedRangeArray
 ranges
 (
 pointToPutCaret
@@ -47396,10 +47398,10 @@ IsEmpty
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
-AutoRangeArray
+AutoClonedRangeArray
 (
 )
 failed
@@ -48016,7 +48018,7 @@ ignored
 ;
 }
 }
-AutoRangeArray
+AutoClonedSelectionRangeArray
 selectionRanges
 (
 SelectionRef
@@ -48382,7 +48384,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 Collapse
@@ -48423,7 +48425,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 ApplyTo
@@ -48486,7 +48488,7 @@ HTMLEditor
 :
 AlignContentsAtRanges
 (
-AutoRangeArray
+AutoClonedSelectionRangeArray
 &
 aRanges
 const
@@ -48601,7 +48603,7 @@ nsIContent
 arrayOfContents
 ;
 {
-AutoRangeArray
+AutoClonedSelectionRangeArray
 extendedRanges
 (
 aRanges
@@ -48657,7 +48659,7 @@ isErr
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 "
@@ -48715,7 +48717,7 @@ EditSubAction
 :
 :
 eSetOrClearAlignment
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -48735,7 +48737,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes
@@ -49471,7 +49473,7 @@ NS_SUCCEEDED
 rv
 )
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 Collapse
@@ -49738,7 +49740,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 Collapse
@@ -53964,7 +53966,7 @@ EditorDOMPoint
 (
 )
 ;
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 UpdatePointsToSelectAllChildrenIfCollapsedInEmptyBlockElement
@@ -54002,7 +54004,7 @@ IsInContentNode
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 "
@@ -73440,7 +73442,7 @@ knownNonEmptyContents
 ;
 Maybe
 <
-AutoRangeArray
+AutoClonedSelectionRangeArray
 >
 maybeSelectionRanges
 ;
@@ -80998,7 +81000,7 @@ nsIContent
 arrayOfContents
 ;
 {
-AutoRangeArray
+AutoClonedSelectionRangeArray
 extendedSelectionRanges
 (
 SelectionRef
@@ -81056,7 +81058,7 @@ isErr
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 "
@@ -81114,7 +81116,7 @@ EditSubAction
 :
 :
 eSetPositionToAbsolute
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectNonEditableNodes
@@ -81134,7 +81136,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 CollectEditTargetNodes

@@ -4050,7 +4050,7 @@ information
 template
 <
 typename
-SelectionOrAutoRangeArray
+SelectionOrAutoClonedRangeArray
 >
 static
 bool
@@ -4061,9 +4061,9 @@ nsIEditor
 :
 EDirection
 aDirectionAndAmount
-SelectionOrAutoRangeArray
+SelectionOrAutoClonedRangeArray
 &
-aSelectionOrAutoRangeArray
+aSelectionOrAutoClonedRangeArray
 )
 {
 switch
@@ -4111,7 +4111,7 @@ nsIEditor
 eNext
 :
 return
-aSelectionOrAutoRangeArray
+aSelectionOrAutoClonedRangeArray
 .
 IsCollapsed
 (

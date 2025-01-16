@@ -207,7 +207,7 @@ UNIFIED_SOURCES
 =
 [
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 cpp
 "

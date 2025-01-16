@@ -117,7 +117,7 @@ h
 #
 include
 "
-AutoRangeArray
+AutoClonedRangeArray
 .
 h
 "
@@ -20920,7 +20920,7 @@ at
 restoring
 Selection
 .
-AutoRangeArray
+AutoClonedSelectionRangeArray
 selectionRanges
 (
 SelectionRef
@@ -21140,7 +21140,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 Collapse
@@ -21207,14 +21207,11 @@ NS_SUCCEEDED
 rv
 )
 "
-AutoRangeArray
+AutoClonedSelectionRangeArray
 :
 :
 ApplyTo
 (
-SelectionRef
-(
-)
 )
 failed
 but
@@ -21371,7 +21368,7 @@ rv
 NS_WARNING
 (
 "
-AutoRangeArray
+AutoClonedRangeArray
 :
 :
 Collapse
@@ -21418,14 +21415,11 @@ NS_SUCCEEDED
 rv
 )
 "
-AutoRangeArray
+AutoClonedSelectionRangeArray
 :
 :
 ApplyTo
 (
-SelectionRef
-(
-)
 )
 failed
 but
@@ -44709,7 +44703,7 @@ dontChangeMySelection
 this
 )
 ;
-AutoRangeArray
+AutoClonedSelectionRangeArray
 selectionRanges
 (
 SelectionRef
@@ -46359,7 +46353,7 @@ NS_SUCCEEDED
 rv
 )
 "
-AutoRangeArray
+AutoClonedSelectionRangeArray
 :
 :
 ApplyTo
