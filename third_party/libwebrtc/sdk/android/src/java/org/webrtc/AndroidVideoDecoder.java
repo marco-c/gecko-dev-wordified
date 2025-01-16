@@ -2760,10 +2760,6 @@ frame
 )
 {
 final
-VideoFrame
-newFrame
-;
-final
 Integer
 decodeTimeMs
 ;

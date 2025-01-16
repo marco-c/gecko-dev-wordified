@@ -1187,16 +1187,6 @@ float
 ]
 ;
 private
-final
-Point
-renderSize
-=
-new
-Point
-(
-)
-;
-private
 int
 renderWidth
 ;
