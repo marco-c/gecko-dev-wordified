@@ -26837,6 +26837,10 @@ tt
 error
 (
 JSMSG_NO_VARIABLE_NAME
+TokenKindToDesc
+(
+tt
+)
 )
 ;
 return
@@ -27063,6 +27067,10 @@ tt
 error
 (
 JSMSG_NO_VARIABLE_NAME
+TokenKindToDesc
+(
+tt
+)
 )
 ;
 return
@@ -27501,6 +27509,10 @@ namePos
 .
 begin
 JSMSG_NO_VARIABLE_NAME
+TokenKindToDesc
+(
+tt
+)
 )
 ;
 return
@@ -29172,6 +29184,10 @@ tt
 error
 (
 JSMSG_NO_VARIABLE_NAME
+TokenKindToDesc
+(
+tt
+)
 )
 ;
 return
