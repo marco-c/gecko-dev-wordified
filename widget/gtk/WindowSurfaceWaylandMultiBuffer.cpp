@@ -2352,16 +2352,6 @@ lock
 waylandSurface
 )
 ;
-/
-/
-TODO
-:
-Mapped
-or
-read
-to
-draw
-?
 if
 (
 !
@@ -2426,7 +2416,7 @@ this
 waylandSurface
 -
 >
-AddInitialDrawCallbackLocked
+AddReadyToDrawCallbackLocked
 (
 lock
 [
