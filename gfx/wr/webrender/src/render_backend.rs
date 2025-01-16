@@ -3368,6 +3368,9 @@ Option
 <
 FullFrameStats
 >
+present
+:
+bool
 render_reasons
 :
 RenderReasons
@@ -3449,6 +3452,7 @@ mut
 self
 .
 scene
+present
 resource_cache
 gpu_cache
 &
@@ -6034,6 +6038,9 @@ take
 txn
 .
 render_frame
+txn
+.
+present
 RenderReasons
 :
 :
@@ -8252,6 +8259,13 @@ as_bool
 )
 txn
 .
+generate_frame
+.
+present
+(
+)
+txn
+.
 render_reasons
 txn
 .
@@ -8500,6 +8514,7 @@ default
 (
 )
 false
+false
 RenderReasons
 :
 :
@@ -8575,6 +8590,9 @@ NotificationRequest
 >
 mut
 render_frame
+:
+bool
+present
 :
 bool
 render_reasons
@@ -9266,6 +9284,7 @@ self
 .
 tile_caches
 frame_stats
+present
 render_reasons
 frame_memory
 )
@@ -10743,6 +10762,7 @@ self
 .
 tile_caches
 None
+true
 RenderReasons
 :
 :

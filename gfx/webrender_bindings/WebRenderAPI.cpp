@@ -1801,6 +1801,8 @@ const
 VsyncId
 &
 aVsyncId
+bool
+aPresent
 wr
 :
 :
@@ -1814,6 +1816,7 @@ mTxn
 aVsyncId
 .
 mId
+aPresent
 aReasons
 )
 ;
