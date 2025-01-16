@@ -261,7 +261,7 @@ CreateDefaultTaskQueueFactory
 ;
 config
 .
-audio_processing_factory
+audio_processing_builder
 =
 std
 :
@@ -273,7 +273,7 @@ NiceMock
 test
 :
 :
-MockAudioProcessingFactory
+MockAudioProcessingBuilder
 >
 >
 (

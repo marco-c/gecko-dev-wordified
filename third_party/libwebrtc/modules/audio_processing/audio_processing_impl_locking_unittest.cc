@@ -116,7 +116,7 @@ api
 /
 audio
 /
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 .
 h
 "
@@ -2637,7 +2637,7 @@ GetParam
 )
 apm_
 (
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
@@ -2651,7 +2651,7 @@ aec_type
 )
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (

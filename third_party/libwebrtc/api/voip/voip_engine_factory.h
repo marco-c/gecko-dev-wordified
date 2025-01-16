@@ -534,7 +534,7 @@ api
 /
 audio
 /
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 )
 .
 /
@@ -598,9 +598,9 @@ std
 :
 unique_ptr
 <
-AudioProcessingFactory
+AudioProcessingBuilderInterface
 >
-audio_processing_factory
+audio_processing_builder
 ;
 /
 /
@@ -623,7 +623,7 @@ to
 set
 /
 /
-audio_processing_factory
+audio_processing_builder
 instead
 .
 [

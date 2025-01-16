@@ -1065,10 +1065,10 @@ override
 }
 ;
 class
-MockAudioProcessingFactory
+MockAudioProcessingBuilder
 :
 public
-AudioProcessingFactory
+AudioProcessingBuilderInterface
 {
 public
 :
@@ -1078,7 +1078,7 @@ scoped_refptr
 <
 AudioProcessing
 >
-Create
+Build
 (
 const
 Environment

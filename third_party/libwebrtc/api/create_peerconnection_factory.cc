@@ -141,7 +141,7 @@ api
 /
 audio
 /
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 .
 h
 "
@@ -493,7 +493,7 @@ nullptr
 {
 dependencies
 .
-audio_processing_factory
+audio_processing_builder
 =
 CustomAudioProcessing
 (
@@ -514,14 +514,14 @@ ifndef
 WEBRTC_EXCLUDE_AUDIO_PROCESSING_MODULE
 dependencies
 .
-audio_processing_factory
+audio_processing_builder
 =
 std
 :
 :
 make_unique
 <
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 >
 (
 )

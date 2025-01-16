@@ -128,7 +128,7 @@ api
 /
 audio
 /
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 .
 h
 "
@@ -860,11 +860,11 @@ dump_file_name
 {
 apm_
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (

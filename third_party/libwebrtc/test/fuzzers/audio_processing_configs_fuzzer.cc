@@ -135,7 +135,7 @@ api
 /
 audio
 /
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 .
 h
 "
@@ -926,7 +926,7 @@ AudioProcessing
 >
 apm
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
@@ -957,7 +957,7 @@ SetConfig
 apm_config
 )
 .
-Create
+Build
 (
 GetEnvironment
 (

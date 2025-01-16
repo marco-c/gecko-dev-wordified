@@ -139,7 +139,7 @@ api
 /
 audio
 /
-builtin_audio_processing_factory
+builtin_audio_processing_builder
 .
 h
 "
@@ -1535,11 +1535,11 @@ AudioProcessing
 >
 apm
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (
@@ -1784,11 +1784,11 @@ AudioProcessing
 >
 apm
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (
@@ -2033,11 +2033,11 @@ AudioProcessing
 >
 apm
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (
@@ -2324,7 +2324,7 @@ AudioProcessing
 >
 apm
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
@@ -2339,7 +2339,7 @@ echo_control_factory
 )
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (
@@ -2987,7 +2987,7 @@ AudioProcessing
 >
 apm
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
@@ -3002,7 +3002,7 @@ echo_control_factory
 )
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (
@@ -3333,7 +3333,7 @@ AudioProcessing
 >
 apm
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
@@ -3348,7 +3348,7 @@ echo_control_factory
 )
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (
@@ -3680,7 +3680,7 @@ AudioProcessing
 >
 apm
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
@@ -3695,7 +3695,7 @@ echo_control_factory
 )
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (
@@ -4117,7 +4117,7 @@ AudioProcessing
 >
 apm
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
@@ -4132,7 +4132,7 @@ echo_control_factory
 )
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (
@@ -4628,7 +4628,7 @@ AudioProcessing
 >
 apm
 =
-BuiltinAudioProcessingFactory
+BuiltinAudioProcessingBuilder
 (
 )
 .
@@ -4648,7 +4648,7 @@ test_render_pre_processor
 )
 )
 .
-Create
+Build
 (
 CreateEnvironment
 (
