@@ -2165,7 +2165,7 @@ richlistbox
 .
 style
 .
-height
+maxHeight
 =
 Math
 .
