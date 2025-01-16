@@ -260,7 +260,7 @@ A
 >
 fnma
 (
-simd_register
+batch
 <
 float
 A
@@ -268,7 +268,7 @@ A
 const
 &
 x
-simd_register
+batch
 <
 float
 A
@@ -276,7 +276,7 @@ A
 const
 &
 y
-simd_register
+batch
 <
 float
 A
@@ -313,7 +313,7 @@ A
 >
 fnma
 (
-simd_register
+batch
 <
 double
 A
@@ -321,7 +321,7 @@ A
 const
 &
 x
-simd_register
+batch
 <
 double
 A
@@ -329,7 +329,7 @@ A
 const
 &
 y
-simd_register
+batch
 <
 double
 A
@@ -369,7 +369,7 @@ A
 >
 fnms
 (
-simd_register
+batch
 <
 float
 A
@@ -377,7 +377,7 @@ A
 const
 &
 x
-simd_register
+batch
 <
 float
 A
@@ -385,7 +385,7 @@ A
 const
 &
 y
-simd_register
+batch
 <
 float
 A
@@ -422,7 +422,7 @@ A
 >
 fnms
 (
-simd_register
+batch
 <
 double
 A
@@ -430,7 +430,7 @@ A
 const
 &
 x
-simd_register
+batch
 <
 double
 A
@@ -438,7 +438,7 @@ A
 const
 &
 y
-simd_register
+batch
 <
 double
 A
@@ -478,7 +478,7 @@ A
 >
 fma
 (
-simd_register
+batch
 <
 float
 A
@@ -486,7 +486,7 @@ A
 const
 &
 x
-simd_register
+batch
 <
 float
 A
@@ -494,7 +494,7 @@ A
 const
 &
 y
-simd_register
+batch
 <
 float
 A
@@ -531,7 +531,7 @@ A
 >
 fma
 (
-simd_register
+batch
 <
 double
 A
@@ -539,7 +539,7 @@ A
 const
 &
 x
-simd_register
+batch
 <
 double
 A
@@ -547,7 +547,7 @@ A
 const
 &
 y
-simd_register
+batch
 <
 double
 A
@@ -587,7 +587,7 @@ A
 >
 fms
 (
-simd_register
+batch
 <
 float
 A
@@ -595,7 +595,7 @@ A
 const
 &
 x
-simd_register
+batch
 <
 float
 A
@@ -603,7 +603,7 @@ A
 const
 &
 y
-simd_register
+batch
 <
 float
 A
@@ -640,7 +640,7 @@ A
 >
 fms
 (
-simd_register
+batch
 <
 double
 A
@@ -648,7 +648,7 @@ A
 const
 &
 x
-simd_register
+batch
 <
 double
 A
@@ -656,7 +656,7 @@ A
 const
 &
 y
-simd_register
+batch
 <
 double
 A
