@@ -6421,6 +6421,12 @@ bytesWritten
 _outputStream
 write
 :
+(
+const
+unsigned
+char
+*
+)
 _outputBuffer
 .
 bytes
