@@ -2035,6 +2035,16 @@ cookieJarSettings
 (
 )
 ;
+info
+.
+mIsOn3PCBExceptionList
+=
+aData
+.
+isOn3PCBExceptionList
+(
+)
+;
 /
 /
 Default
