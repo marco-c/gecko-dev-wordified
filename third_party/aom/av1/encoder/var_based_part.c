@@ -12246,6 +12246,12 @@ me_search_size_col
 =
 is_screen
 ?
+source_sad_nonrd
+>
+kMedSad
+?
+160
+:
 96
 :
 block_size_wide
@@ -12289,6 +12295,12 @@ me_search_size_row
 =
 is_screen
 ?
+source_sad_nonrd
+>
+kMedSad
+?
+512
+:
 192
 :
 block_size_high

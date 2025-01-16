@@ -40418,6 +40418,13 @@ ppi
 seq_params
 .
 has_nonzero_operating_point_idc
+/
+*
+is_layer_specific_obu
+=
+*
+/
+false
 0
 &
 header_buf
