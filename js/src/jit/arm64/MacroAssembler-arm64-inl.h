@@ -10717,7 +10717,6 @@ label
 {
 compareFloat
 (
-cond
 lhs
 rhs
 )
@@ -11010,7 +11009,6 @@ label
 {
 compareDouble
 (
-cond
 lhs
 rhs
 )

@@ -10252,8 +10252,6 @@ JITCODE
 void
 compareDouble
 (
-DoubleCondition
-cond
 FloatRegister
 lhs
 FloatRegister
@@ -10278,8 +10276,6 @@ rhs
 void
 compareFloat
 (
-DoubleCondition
-cond
 FloatRegister
 lhs
 FloatRegister

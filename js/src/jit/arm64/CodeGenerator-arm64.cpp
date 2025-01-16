@@ -10117,7 +10117,6 @@ masm
 .
 compareDouble
 (
-cond
 left
 right
 )
@@ -10214,7 +10213,6 @@ masm
 .
 compareFloat
 (
-cond
 left
 right
 )
@@ -10312,7 +10310,6 @@ masm
 .
 compareDouble
 (
-doubleCond
 left
 right
 )
@@ -10413,7 +10410,6 @@ masm
 .
 compareFloat
 (
-doubleCond
 left
 right
 )
@@ -17712,15 +17708,6 @@ masm
 .
 compareFloat
 (
-JSOpToDoubleCondition
-(
-ins
--
->
-jsop
-(
-)
-)
 ToFloatRegister
 (
 ins
@@ -17758,15 +17745,6 @@ masm
 .
 compareDouble
 (
-JSOpToDoubleCondition
-(
-ins
--
->
-jsop
-(
-)
-)
 ToFloatRegister
 (
 ins
