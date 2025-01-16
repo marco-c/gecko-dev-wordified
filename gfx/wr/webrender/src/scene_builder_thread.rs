@@ -679,10 +679,6 @@ render_frame
 :
 bool
 pub
-present
-:
-bool
-pub
 invalidate_rendered_frame
 :
 bool
@@ -3138,9 +3134,6 @@ render_frame
 item
 .
 build_frame
-present
-:
-true
 invalidate_rendered_frame
 :
 false
@@ -4229,15 +4222,6 @@ txn
 generate_frame
 .
 as_bool
-(
-)
-present
-:
-txn
-.
-generate_frame
-.
-present
 (
 )
 invalidate_rendered_frame
