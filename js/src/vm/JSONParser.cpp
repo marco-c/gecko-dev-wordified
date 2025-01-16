@@ -602,6 +602,7 @@ h
 /
 /
 NewPlainObjectWithMaybeDuplicateKeys
+NewPlainObjectWithProto
 #
 include
 "
@@ -7624,11 +7625,12 @@ ParseRecordEntry
 *
 newParseEntry
 =
-NewPlainObject
+NewPlainObjectWithProto
 (
 context
 (
 )
+nullptr
 )
 ;
 if
@@ -7917,11 +7919,12 @@ ParseRecordEntry
 *
 newParseEntry
 =
-NewPlainObject
+NewPlainObjectWithProto
 (
 context
 (
 )
+nullptr
 )
 ;
 if
