@@ -304,10 +304,6 @@ is_packed
 quote
 !
 {
-#
-[
-automatically_derived
-]
 impl
 #
 impl_generics
@@ -4797,10 +4793,6 @@ this_type
 ty_generics
 >
 }
-#
-[
-automatically_derived
-]
 impl
 #
 wrapper_impl_generics
@@ -6341,10 +6333,6 @@ this_type
 ty_generics
 >
 }
-#
-[
-automatically_derived
-]
 impl
 #
 wrapper_impl_generics
@@ -7769,10 +7757,6 @@ this_type
 ty_generics
 >
 }
-#
-[
-automatically_derived
-]
 impl
 #
 wrapper_impl_generics
