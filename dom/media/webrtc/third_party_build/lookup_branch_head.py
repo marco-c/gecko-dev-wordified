@@ -654,6 +654,7 @@ sys
 .
 exit
 (
+f
 "
 error
 :
@@ -661,6 +662,9 @@ chromium
 milestone
 '
 {
+args
+.
+milestone
 }
 '
 is
@@ -668,13 +672,6 @@ not
 found
 .
 "
-.
-format
-(
-args
-.
-milestone
-)
 )
     
 if
@@ -685,11 +682,14 @@ verbose
         
 print
 (
-            
+f
 "
 chromium
 milestone
 {
+args
+.
+milestone
 }
 uses
 branch
@@ -697,19 +697,9 @@ branch
 heads
 /
 {
+branch_head
 }
 "
-.
-format
-(
-                
-args
-.
-milestone
-branch_head
-            
-)
-        
 )
     
 else

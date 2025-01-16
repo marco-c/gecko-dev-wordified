@@ -135,6 +135,7 @@ early_exit_handler
     
 print
 (
+f
 "
 *
 *
@@ -144,17 +145,13 @@ ERROR
 *
 *
 {
+script_name
 }
 did
 not
 complete
 successfully
 "
-.
-format
-(
-script_name
-)
 )
     
 if
@@ -234,22 +231,19 @@ stack
     
 cmd
 =
+f
 "
 git
 merge
 -
 base
 {
+github_branch
 }
 {
+target_branch_head
 }
 "
-.
-format
-(
-github_branch
-target_branch_head
-)
     
 stdout_lines
 =
@@ -273,6 +267,7 @@ stack
     
 cmd
 =
+f
 "
 git
 format
@@ -294,23 +289,17 @@ output
 -
 directory
 {
+patch_directory
 }
 {
+merge_base
 }
 .
 .
 {
+github_branch
 }
 "
-.
-format
-(
-        
-patch_directory
-merge_base
-github_branch
-    
-)
     
 run_git
 (
@@ -485,6 +474,7 @@ linux
     
 run_shell
 (
+f
 "
 sed
 -
@@ -499,24 +489,22 @@ e
 1d
 '
 {
+patch_directory
 }
 /
 *
 .
 patch
 "
-.
-format
-(
-patch_directory
-)
 )
     
 run_shell
 (
+f
 "
 rm
 {
+patch_directory
 }
 /
 *
@@ -525,11 +513,6 @@ patch
 .
 bak
 "
-.
-format
-(
-patch_directory
-)
 )
     
 #
@@ -657,6 +640,7 @@ removed
     
 cmd
 =
+f
 "
 hg
 status
@@ -669,13 +653,9 @@ status
 -
 deleted
 {
+patch_directory
 }
 "
-.
-format
-(
-patch_directory
-)
     
 stdout_lines
 =
@@ -696,23 +676,20 @@ stdout_lines
         
 cmd
 =
+f
 "
 hg
 rm
 {
-}
-"
-.
-format
-(
-"
-"
+'
+'
 .
 join
 (
 stdout_lines
 )
-)
+}
+"
         
 run_hg
 (
@@ -733,6 +710,7 @@ added
     
 cmd
 =
+f
 "
 hg
 status
@@ -745,13 +723,9 @@ status
 -
 unknown
 {
+patch_directory
 }
 "
-.
-format
-(
-patch_directory
-)
     
 stdout_lines
 =
@@ -772,23 +746,20 @@ stdout_lines
         
 cmd
 =
+f
 "
 hg
 add
 {
-}
-"
-.
-format
-(
-"
-"
+'
+'
 .
 join
 (
 stdout_lines
 )
-)
+}
+"
         
 run_hg
 (
@@ -812,6 +783,7 @@ them
     
 cmd
 =
+f
 "
 hg
 status
@@ -825,13 +797,9 @@ removed
 -
 modified
 {
+patch_directory
 }
 "
-.
-format
-(
-patch_directory
-)
     
 stdout_lines
 =
@@ -854,24 +822,21 @@ stdout_lines
         
 print
 (
+f
 "
 Updating
 {
-}
-files
-in
-{
-}
-"
-.
-format
-(
 len
 (
 stdout_lines
 )
+}
+files
+in
+{
 patch_directory
-)
+}
+"
 )
         
 if
@@ -894,6 +859,7 @@ else
 run_shell
 (
                 
+f
 "
 hg
 commit
@@ -903,6 +869,7 @@ message
 '
 Bug
 {
+bug_number
 }
 -
 updated
@@ -911,13 +878,6 @@ patch
 stack
 '
 "
-.
-format
-(
-                    
-bug_number
-                
-)
             
 )
 if
@@ -1067,6 +1027,7 @@ default_patch_dir
         
 help
 =
+f
 "
 path
 to
@@ -1076,14 +1037,10 @@ patches
 defaults
 to
 {
+default_patch_dir
 }
 )
 "
-.
-format
-(
-default_patch_dir
-)
     
 )
     
@@ -1106,6 +1063,7 @@ default_state_dir
         
 help
 =
+f
 "
 path
 to
@@ -1115,14 +1073,10 @@ directory
 defaults
 to
 {
+default_state_dir
 }
 )
 "
-.
-format
-(
-default_state_dir
-)
     
 )
     
@@ -1183,6 +1137,7 @@ default_script_dir
         
 help
 =
+f
 "
 path
 to
@@ -1192,14 +1147,10 @@ directory
 defaults
 to
 {
+default_script_dir
 }
 )
 "
-.
-format
-(
-default_script_dir
-)
     
 )
     
@@ -1337,6 +1288,7 @@ repo
 n
 "
             
+f
 "
 Please
 start
@@ -1347,14 +1299,10 @@ repo
 before
 running
 {
+script_name
 }
 "
         
-)
-.
-format
-(
-script_name
 )
         
 stdout_lines
@@ -1396,6 +1344,7 @@ error_help
 =
 (
             
+f
 "
 No
 moz
@@ -1406,11 +1355,15 @@ repo
 found
 at
 {
+args
+.
+repo_path
 }
 \
 n
 "
             
+f
 "
 Please
 run
@@ -1420,17 +1373,10 @@ py
 before
 running
 {
+script_name
 }
 "
         
-)
-.
-format
-(
-args
-.
-repo_path
-script_name
 )
         
 if
@@ -1476,22 +1422,19 @@ stack
         
 run_shell
 (
+f
 "
 bash
 {
+args
+.
+script_path
 }
 /
 verify_vendoring
 .
 sh
 "
-.
-format
-(
-args
-.
-script_path
-)
 False
 )
     

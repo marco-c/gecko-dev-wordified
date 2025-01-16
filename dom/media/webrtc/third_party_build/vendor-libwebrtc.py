@@ -2792,18 +2792,15 @@ url
     
 print
 (
+f
 "
 Fetching
 commit
 from
 {
+url
 }
 "
-.
-format
-(
-url
-)
 )
     
 req
@@ -2858,11 +2855,15 @@ else
 print
 (
             
+f
 "
 Hit
 status
 code
 {
+req
+.
+status_code
 }
 fetching
 commit
@@ -2870,13 +2871,6 @@ commit
 Aborting
 .
 "
-.
-format
-(
-req
-.
-status_code
-)
             
 file
 =
@@ -2929,6 +2923,7 @@ f
 .
 write
 (
+f
 "
 #
 .
@@ -2936,15 +2931,8 @@ write
 mach
 python
 {
-}
-\
-n
-"
-.
-format
-(
-"
-"
+'
+'
 .
 join
 (
@@ -2956,7 +2944,10 @@ argv
 :
 ]
 )
-)
+}
+\
+n
+"
 )
         
 f
@@ -2964,27 +2955,19 @@ f
 write
 (
             
+f
 "
 {
+target
 }
 updated
 from
 commit
 {
+url
 }
 on
 {
-}
-.
-\
-n
-"
-.
-format
-(
-                
-target
-url
 datetime
 .
 datetime
@@ -3003,8 +2986,11 @@ tzutc
 isoformat
 (
 )
-            
-)
+}
+.
+\
+n
+"
         
 )
 def
@@ -3069,11 +3055,15 @@ returncode
 print
 (
             
+f
 "
 Hit
 return
 code
 {
+cp
+.
+returncode
 }
 fetching
 commit
@@ -3081,13 +3071,6 @@ commit
 Aborting
 .
 "
-.
-format
-(
-cp
-.
-returncode
-)
             
 file
 =
@@ -3140,6 +3123,7 @@ f
 .
 write
 (
+f
 "
 #
 .
@@ -3147,15 +3131,8 @@ write
 mach
 python
 {
-}
-\
-n
-"
-.
-format
-(
-"
-"
+'
+'
 .
 join
 (
@@ -3167,7 +3144,10 @@ argv
 :
 ]
 )
-)
+}
+\
+n
+"
 )
         
 f
@@ -3175,33 +3155,22 @@ f
 write
 (
             
+f
 "
 {
+target
 }
 updated
 from
 {
+path
 }
 commit
 {
+commit
 }
 on
 {
-}
-.
-\
-n
-"
-.
-format
-(
-                
-target
-                
-path
-                
-commit
-                
 datetime
 .
 datetime
@@ -3220,8 +3189,11 @@ tzutc
 isoformat
 (
 )
-            
-)
+}
+.
+\
+n
+"
         
 )
     

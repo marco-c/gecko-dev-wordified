@@ -524,6 +524,7 @@ chromium
 milestone
 '
 {
+milestone
 }
 '
 is
@@ -531,11 +532,6 @@ not
 found
 .
 "
-.
-format
-(
-milestone
-)
 )
     
 new_branch_head
@@ -559,7 +555,6 @@ sys
 .
 exit
 (
-            
 "
 error
 :
@@ -568,6 +563,9 @@ chromium
 milestone
 '
 {
+milestone
++
+1
 }
 '
 is
@@ -575,14 +573,6 @@ not
 found
 .
 "
-.
-format
-(
-milestone
-+
-1
-)
-        
 )
     
 s

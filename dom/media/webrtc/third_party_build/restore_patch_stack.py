@@ -318,9 +318,11 @@ files
     
 run_shell
 (
+f
 "
 rm
 {
+state_directory
 }
 /
 *
@@ -338,11 +340,6 @@ msg
 |
 true
 "
-.
-format
-(
-state_directory
-)
 )
     
 #
@@ -431,6 +428,7 @@ name
 print
 (
         
+f
 "
 checkout
 the
@@ -439,6 +437,7 @@ vendored
 commit
 (
 {
+last_vendored_commit
 }
 )
 with
@@ -446,34 +445,24 @@ proper
 branch
 name
 "
-.
-format
-(
-            
-last_vendored_commit
-        
-)
     
 )
     
 cmd
 =
+f
 "
 git
 checkout
 -
 b
 {
+github_branch
 }
 {
+last_vendored_commit
 }
 "
-.
-format
-(
-github_branch
-last_vendored_commit
-)
     
 run_git
 (
@@ -513,27 +502,24 @@ stack
     
 run_shell
 (
+f
 "
 cd
 {
+github_path
 }
 &
 &
 git
 am
 {
+patch_directory
 }
 /
 *
 .
 patch
 "
-.
-format
-(
-github_path
-patch_directory
-)
 )
     
 #
@@ -832,6 +818,7 @@ default_patch_dir
         
 help
 =
+f
 "
 path
 to
@@ -841,14 +828,10 @@ patches
 defaults
 to
 {
+default_patch_dir
 }
 )
 "
-.
-format
-(
-default_patch_dir
-)
     
 )
     
@@ -871,6 +854,7 @@ default_tar_name
         
 help
 =
+f
 "
 name
 of
@@ -880,14 +864,10 @@ file
 defaults
 to
 {
+default_tar_name
 }
 )
 "
-.
-format
-(
-default_tar_name
-)
     
 )
     
@@ -910,6 +890,7 @@ default_state_dir
         
 help
 =
+f
 "
 path
 to
@@ -919,14 +900,10 @@ directory
 defaults
 to
 {
+default_state_dir
 }
 )
 "
-.
-format
-(
-default_state_dir
-)
     
 )
     

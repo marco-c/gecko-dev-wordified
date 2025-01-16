@@ -881,9 +881,11 @@ ofile
 .
 write
 (
+f
 "
 From
 {
+sha1
 }
 Mon
 Sep
@@ -897,49 +899,38 @@ Sep
 \
 n
 "
-.
-format
-(
-sha1
-)
 )
     
 ofile
 .
 write
 (
+f
 "
 From
 :
 {
+author
 }
 \
 n
 "
-.
-format
-(
-author
-)
 )
     
 ofile
 .
 write
 (
+f
 "
 Date
 :
 {
+date
 }
 \
 n
 "
-.
-format
-(
-date
-)
 )
     
 description
@@ -958,22 +949,19 @@ ofile
 .
 write
 (
+f
 "
 Subject
 :
 {
-}
-\
-n
-"
-.
-format
-(
 description
 [
 0
 ]
-)
+}
+\
+n
+"
 )
     
 ofile
@@ -1000,6 +988,7 @@ ofile
 write
 (
         
+f
 "
 \
 nMercurial
@@ -1022,17 +1011,11 @@ central
 rev
 /
 {
+sha1
 }
 \
 n
 "
-.
-format
-(
-            
-sha1
-        
-)
     
 )
     

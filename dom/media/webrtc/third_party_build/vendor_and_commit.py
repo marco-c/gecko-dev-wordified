@@ -165,7 +165,7 @@ help_string
             
 print
 (
-                
+f
 "
 Please
 resolve
@@ -176,16 +176,9 @@ then
 continue
 running
 {
+script_name
 }
 "
-.
-format
-(
-                    
-script_name
-                
-)
-            
 )
 error_help
 =
@@ -201,6 +194,7 @@ early_exit_handler
     
 print
 (
+f
 "
 *
 *
@@ -210,17 +204,13 @@ ERROR
 *
 *
 {
+script_name
 }
 did
 not
 complete
 successfully
 "
-.
-format
-(
-script_name
-)
 )
     
 error_help
@@ -315,6 +305,7 @@ print
     
 print
 (
+f
 "
 -
 -
@@ -325,17 +316,13 @@ print
 -
 Vendor
 {
+github_branch
 }
 from
 {
+github_path
 }
 "
-.
-format
-(
-github_branch
-github_path
-)
 )
     
 print
@@ -365,8 +352,10 @@ mach
 python
 "
         
+f
 "
 {
+script_dir
 }
 /
 vendor
@@ -375,11 +364,6 @@ libwebrtc
 .
 py
 "
-.
-format
-(
-script_dir
-)
         
 "
 -
@@ -475,6 +459,7 @@ print
     
 cmd
 =
+f
 '
 hg
 revert
@@ -483,6 +468,7 @@ revert
 include
 "
 {
+target_dir
 }
 /
 *
@@ -492,14 +478,9 @@ moz
 build
 "
 {
+target_dir
 }
 '
-.
-format
-(
-target_dir
-target_dir
-)
     
 stdout_lines
 =
@@ -655,23 +636,20 @@ print
         
 cmd
 =
+f
 "
 hg
 rm
 {
-}
-"
-.
-format
-(
-"
-"
+'
+'
 .
 join
 (
 deleted_paths
 )
-)
+}
+"
         
 stdout_lines
 =
@@ -821,23 +799,20 @@ print
         
 cmd
 =
+f
 "
 hg
 add
 {
-}
-"
-.
-format
-(
-"
-"
+'
+'
 .
 join
 (
 added_paths
 )
-)
+}
+"
         
 stdout_lines
 =
@@ -1032,6 +1007,7 @@ renamed_paths
             
 cmd
 =
+f
 "
 hg
 rename
@@ -1039,13 +1015,9 @@ rename
 -
 after
 {
+x
 }
 "
-.
-format
-(
-x
-)
             
 stdout_lines
 =
@@ -1094,6 +1066,7 @@ print
     
 print
 (
+f
 "
 -
 -
@@ -1107,13 +1080,9 @@ vendored
 changes
 from
 {
+github_sha
 }
 "
-.
-format
-(
-github_sha
-)
 )
     
 print
@@ -1131,22 +1100,19 @@ print
     
 cmd
 =
+f
 "
 hg
 commit
 -
 l
 {
+commit_msg_filename
 }
 {
+target_dir
 }
 "
-.
-format
-(
-commit_msg_filename
-target_dir
-)
     
 run_hg
 (
@@ -1210,122 +1176,98 @@ early_exit_handler
     
 print
 (
+f
 "
 script_dir
 :
 {
-}
-"
-.
-format
-(
 script_dir
-)
+}
+"
 )
     
 print
 (
+f
 "
 github_path
 :
 {
-}
-"
-.
-format
-(
 github_path
-)
+}
+"
 )
     
 print
 (
+f
 "
 github_branch
 :
 {
-}
-"
-.
-format
-(
 github_branch
-)
+}
+"
 )
     
 print
 (
+f
 "
 github_sha
 :
 {
-}
-"
-.
-format
-(
 github_sha
-)
+}
+"
 )
     
 print
 (
+f
 "
 target_dir
 :
 {
-}
-"
-.
-format
-(
 target_dir
-)
+}
+"
 )
     
 print
 (
+f
 "
 state_dir
 :
 {
-}
-"
-.
-format
-(
 state_dir
-)
+}
+"
 )
     
 print
 (
+f
 "
 log_dir
 :
 {
+log_dir
 }
 "
-.
-format
-(
-log_dir
-)
 )
     
 print
 (
+f
 "
 commit_msg_filename
 :
 {
+commit_msg_filename
 }
 "
-.
-format
-(
-commit_msg_filename
-)
 )
     
 resume_state_filename
@@ -1353,8 +1295,10 @@ path
 join
 (
 state_dir
+f
 "
 {
+github_sha
 }
 .
 no
@@ -1367,13 +1311,6 @@ pick
 -
 msg
 "
-)
-.
-format
-(
-        
-github_sha
-    
 )
     
 handle_noop_commit
@@ -1389,32 +1326,26 @@ noop_commit_path
     
 print
 (
+f
 "
 noop_commit_path
 :
 {
+noop_commit_path
 }
 "
-.
-format
-(
-noop_commit_path
-)
 )
     
 print
 (
+f
 "
 handle_noop_commit
 :
 {
+handle_noop_commit
 }
 "
-.
-format
-(
-handle_noop_commit
-)
 )
     
 if
@@ -1568,19 +1499,16 @@ strip
     
 print
 (
+f
 "
 resume_state
 :
 '
 {
+resume_state
 }
 '
 "
-.
-format
-(
-resume_state
-)
 )
     
 if
@@ -1608,11 +1536,13 @@ set_help
             
 (
                 
+f
 "
 Running
 script
 '
 {
+script_dir
 }
 /
 vendor
@@ -1627,6 +1557,7 @@ failed
 n
 "
                 
+f
 "
 Please
 manually
@@ -1638,6 +1569,7 @@ from
 git
 (
 {
+github_path
 }
 )
 \
@@ -1657,12 +1589,6 @@ diff
 '
 "
             
-)
-.
-format
-(
-script_dir
-github_path
 )
         
 )
@@ -2355,6 +2281,7 @@ default_target_dir
         
 help
 =
+f
 "
 target
 path
@@ -2364,14 +2291,10 @@ vendoring
 defaults
 to
 {
-}
-)
-"
-.
-format
-(
 default_target_dir
+}
 )
+"
     
 )
     
@@ -2394,6 +2317,7 @@ default_state_dir
         
 help
 =
+f
 "
 path
 to
@@ -2403,14 +2327,10 @@ directory
 defaults
 to
 {
+default_state_dir
 }
 )
 "
-.
-format
-(
-default_state_dir
-)
     
 )
     
@@ -2433,6 +2353,7 @@ default_log_dir
         
 help
 =
+f
 "
 path
 to
@@ -2442,14 +2363,10 @@ directory
 defaults
 to
 {
+default_log_dir
 }
 )
 "
-.
-format
-(
-default_log_dir
-)
     
 )
     
