@@ -649,7 +649,7 @@ is
 /
 /
 /
-SetVLOGLevel
+SetVLogLevel
 helper
 function
 is
@@ -713,7 +713,7 @@ vmodule
 /
 including
 via
-SetVLOGLevel
+SetVLogLevel
 .
 #
 ifndef
@@ -805,7 +805,7 @@ manually
 /
 /
 calling
-SetVLOGLevel
+SetVLogLevel
 .
 /
 /

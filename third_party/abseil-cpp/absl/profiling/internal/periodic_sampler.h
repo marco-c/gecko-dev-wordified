@@ -1543,6 +1543,10 @@ HashTablezTag
 /
 thread_local
 PeriodicSampler
+<
+HashTablezTag
+100
+>
 sampler
 ;
 /

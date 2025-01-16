@@ -216,6 +216,13 @@ _WIN32
 )
 &
 &
+!
+defined
+(
+__Fuchsia__
+)
+&
+&
 \
 (
 defined

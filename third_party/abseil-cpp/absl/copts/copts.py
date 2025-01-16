@@ -120,6 +120,15 @@ declarations
     
 "
 -
+Wnon
+-
+virtual
+-
+dtor
+"
+    
+"
+-
 Woverlength
 -
 strings
@@ -282,6 +291,20 @@ Wextra
     
 "
 -
+Wc
++
++
+98
+-
+compat
+-
+extra
+-
+semi
+"
+    
+"
+-
 Wcast
 -
 qual
@@ -294,11 +317,9 @@ Wconversion
     
 "
 -
-Wdead
+Wdeprecated
 -
-code
--
-aggressive
+pragma
 "
     
 "

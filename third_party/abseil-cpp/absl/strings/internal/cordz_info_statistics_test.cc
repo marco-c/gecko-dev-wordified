@@ -1207,6 +1207,7 @@ CordzUpdateTracker
 :
 :
 kUnknown
+1
 )
 ;
 CordzStatistics
@@ -3464,6 +3465,7 @@ CordzUpdateTracker
 :
 :
 kUnknown
+1
 )
 ;
 }

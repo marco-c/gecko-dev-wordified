@@ -616,7 +616,11 @@ ABSL_DIE_IF_NULL
 is
 called
 .
-ABSL_ATTRIBUTE_NORETURN
+[
+[
+noreturn
+]
+]
 ABSL_ATTRIBUTE_NOINLINE
 void
 DieBecauseNull

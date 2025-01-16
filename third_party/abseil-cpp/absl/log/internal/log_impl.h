@@ -324,7 +324,7 @@ this
 expansion
 is
 the
-begnning
+beginning
 of
 a
 statement

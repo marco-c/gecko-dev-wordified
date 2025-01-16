@@ -1421,6 +1421,8 @@ beta_
 ;
 result_type
 a_
+{
+}
 ;
 /
 /
@@ -1441,6 +1443,8 @@ in
 JOEHNK
 result_type
 b_
+{
+}
 ;
 /
 /
@@ -1461,6 +1465,8 @@ in
 JOEHNK
 result_type
 x_
+{
+}
 ;
 /
 /
@@ -1475,6 +1481,8 @@ degenerate
 cases
 result_type
 log_x_
+{
+}
 ;
 /
 /
@@ -1484,6 +1492,8 @@ x_
 )
 result_type
 y_
+{
+}
 ;
 /
 /
@@ -1494,6 +1504,8 @@ in
 Cheng
 result_type
 gamma_
+{
+}
 ;
 /
 /
@@ -1504,6 +1516,8 @@ in
 Cheng
 Method
 method_
+{
+}
 ;
 /
 /
@@ -1533,6 +1547,8 @@ beta_
 .
 bool
 inverted_
+{
+}
 ;
 static_assert
 (

@@ -1691,7 +1691,7 @@ absl
 :
 :
 discrete_distribution
-stabilitiy
+stability
 relies
 on
 /

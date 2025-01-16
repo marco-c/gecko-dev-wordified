@@ -448,12 +448,16 @@ SupportsSteadyClock
 )
 )
 {
+thread_local
 absl
 :
 :
-SharedBitGen
+BitGen
 gen
 ;
+/
+/
+NOLINT
 ts
 -
 >

@@ -837,6 +837,7 @@ CMakeLists
 .
 txt
 '
+      
 {
           
 '
@@ -848,6 +849,7 @@ CXX
 )
 '
 :
+(
               
 '
 project
@@ -865,10 +867,9 @@ format
 (
 datestamp
 )
-      
-}
+          
 )
-  
+          
 #
 Set
 the
@@ -888,7 +889,7 @@ we
 only
 have
 ABI
-  
+          
 #
 compatible
 changes
@@ -902,7 +903,7 @@ can
 increment
 it
 to
-  
+          
 #
 mark
 changes
@@ -917,7 +918,7 @@ releases
 Note
 that
 we
-  
+          
 #
 only
 use
@@ -933,7 +934,7 @@ the
 month
 because
 the
-  
+          
 #
 MacOS
 linker
@@ -947,12 +948,12 @@ SOVERSION
 to
 fit
 into
-  
+          
 #
 16
 bits
 .
-  
+          
 #
 https
 :
@@ -982,26 +983,14 @@ o
 -
 library
 /
-  
-ReplaceStringsInFile
-(
-      
+          
 '
-CMake
-/
-AbseilHelpers
-.
-cmake
-'
-      
-{
-'
-SOVERSION
+ABSL_SOVERSION
 0
 '
 :
 '
-SOVERSION
+ABSL_SOVERSION
 "
 {
 }
@@ -1021,7 +1010,9 @@ datestamp
 6
 ]
 )
+      
 }
+  
 )
   
 StripContentBetweenTags

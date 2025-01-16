@@ -1857,6 +1857,7 @@ typename
 T
 >
 class
+ABSL_INTERNAL_ATTRIBUTE_VIEW
 Span
 {
 private
@@ -2132,6 +2133,14 @@ using
 difference_type
 =
 ptrdiff_t
+;
+using
+absl_internal_is_view
+=
+std
+:
+:
+true_type
 ;
 static
 const

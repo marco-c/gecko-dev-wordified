@@ -1743,6 +1743,7 @@ acquisition
 .
 class
 ABSL_LOCKABLE
+ABSL_ATTRIBUTE_WARN_UNUSED
 Mutex
 {
 public
@@ -2087,6 +2088,7 @@ Mutex
 was
 free
 .
+ABSL_MUST_USE_RESULT
 bool
 TryLock
 (
@@ -3133,6 +3135,7 @@ free
 or
 shared
 .
+ABSL_MUST_USE_RESULT
 bool
 ReaderTryLock
 (
@@ -3369,6 +3372,7 @@ Unlock
 )
 ;
 }
+ABSL_MUST_USE_RESULT
 bool
 WriterTryLock
 (

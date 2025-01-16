@@ -1693,6 +1693,7 @@ abcdef
 0
 )
 class
+ABSL_INTERNAL_ATTRIBUTE_VIEW
 string_view
 {
 public
@@ -1797,6 +1798,14 @@ std
 :
 :
 ptrdiff_t
+;
+using
+absl_internal_is_view
+=
+std
+:
+:
+true_type
 ;
 static
 constexpr

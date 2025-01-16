@@ -154,6 +154,10 @@ define
 ABSL_TEST_LOG
 ABSL_LOG
 #
+define
+ABSL_TEST_DLOG
+ABSL_DLOG
+#
 include
 "
 gtest

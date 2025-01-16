@@ -151,6 +151,11 @@ h
 "
 #
 include
+<
+cstdint
+>
+#
+include
 "
 absl
 /
@@ -2117,6 +2122,8 @@ InlineData
 cord
 MethodIdentifier
 method
+int64_t
+sampling_stride
 )
 {
 assert
@@ -2152,6 +2159,7 @@ as_tree
 )
 nullptr
 method
+sampling_stride
 )
 ;
 cord
@@ -2277,6 +2285,16 @@ cordz_info
 (
 )
 method
+src
+.
+cordz_info
+(
+)
+-
+>
+sampling_stride
+(
+)
 )
 ;
 cord
@@ -2513,6 +2531,8 @@ CordzInfo
 src
 MethodIdentifier
 method
+int64_t
+sampling_stride
 )
 :
 rep_
@@ -2576,6 +2596,10 @@ absl
 Now
 (
 )
+)
+sampling_stride_
+(
+sampling_stride
 )
 {
 update_tracker_

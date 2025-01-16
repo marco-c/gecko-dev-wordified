@@ -155,6 +155,11 @@ cstdint
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 absl
 /
@@ -1223,7 +1228,13 @@ nullptr
 *
 err
 =
+std
+:
+:
+move
+(
 error
+)
 ;
 }
 return

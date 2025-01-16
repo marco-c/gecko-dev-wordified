@@ -2086,7 +2086,11 @@ abort
 the
 application
 quietly
-ABSL_ATTRIBUTE_NORETURN
+[
+[
+noreturn
+]
+]
 inline
 void
 AbortQuietly
@@ -2098,7 +2102,11 @@ abort
 )
 ;
 }
-ABSL_ATTRIBUTE_NORETURN
+[
+[
+noreturn
+]
+]
 inline
 void
 ExitQuietly

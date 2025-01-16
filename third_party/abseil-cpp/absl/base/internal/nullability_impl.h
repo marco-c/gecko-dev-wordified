@@ -168,6 +168,17 @@ include
 "
 absl
 /
+base
+/
+config
+.
+h
+"
+#
+include
+"
+absl
+/
 meta
 /
 type_traits
@@ -177,6 +188,7 @@ h
 namespace
 absl
 {
+ABSL_NAMESPACE_BEGIN
 namespace
 nullability_internal
 {
@@ -718,6 +730,7 @@ T
 /
 namespace
 nullability_internal
+ABSL_NAMESPACE_END
 }
 /
 /

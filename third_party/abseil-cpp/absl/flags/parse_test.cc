@@ -374,7 +374,6 @@ name
 "
 "
 )
-;
 #
 define
 F1
@@ -425,7 +424,6 @@ name
 #
 5
 )
-;
 /
 *
 *
@@ -480,7 +478,6 @@ name
 #
 5
 )
-;
 /
 *
 *
@@ -535,7 +532,6 @@ name
 #
 5
 )
-;
 /
 *
 *
@@ -544,6 +540,7 @@ FLAG_MULT
 (
 TEST_FLAG_HEADER
 )
+;
 namespace
 {
 using

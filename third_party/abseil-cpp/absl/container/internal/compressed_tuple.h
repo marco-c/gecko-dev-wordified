@@ -721,7 +721,7 @@ v
 :
 value
 (
-absl
+std
 :
 :
 forward
@@ -748,6 +748,7 @@ return
 value
 ;
 }
+constexpr
 T
 &
 get
@@ -772,7 +773,7 @@ const
 &
 {
 return
-absl
+std
 :
 :
 move
@@ -784,6 +785,7 @@ this
 value
 ;
 }
+constexpr
 T
 &
 &
@@ -854,7 +856,7 @@ v
 :
 T
 (
-absl
+std
 :
 :
 forward
@@ -882,6 +884,7 @@ return
 this
 ;
 }
+constexpr
 T
 &
 get
@@ -907,7 +910,7 @@ const
 &
 {
 return
-absl
+std
 :
 :
 move
@@ -917,6 +920,7 @@ this
 )
 ;
 }
+constexpr
 T
 &
 &
@@ -1105,7 +1109,7 @@ absl
 :
 :
 in_place
-absl
+std
 :
 :
 forward
@@ -1245,7 +1249,7 @@ absl
 :
 :
 in_place
-absl
+std
 :
 :
 forward
@@ -2123,7 +2127,7 @@ absl
 :
 :
 in_place
-absl
+std
 :
 :
 forward
@@ -2133,7 +2137,7 @@ First
 (
 first
 )
-absl
+std
 :
 :
 forward
@@ -2154,6 +2158,7 @@ template
 int
 I
 >
+constexpr
 ElemT
 <
 I
@@ -2211,6 +2216,7 @@ template
 int
 I
 >
+constexpr
 ElemT
 <
 I
@@ -2265,7 +2271,7 @@ const
 &
 {
 return
-absl
+std
 :
 :
 move
