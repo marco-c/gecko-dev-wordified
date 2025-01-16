@@ -837,6 +837,13 @@ pace_at_loss_based_estimate
 =
 false
 ;
+double
+median_sending_rate_factor
+=
+0
+.
+0
+;
 }
 ;
 struct
@@ -1270,6 +1277,12 @@ CanKeepIncreasingState
 (
 DataRate
 estimate
+)
+const
+;
+DataRate
+GetMedianSendingRate
+(
 )
 const
 ;
