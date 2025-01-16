@@ -892,7 +892,11 @@ WillOnce
 ]
 (
 size_t
+/
+*
 padding_size
+*
+/
 )
 {
 return
@@ -1160,7 +1164,11 @@ generate_padding
 ]
 (
 size_t
+/
+*
 padding_size
+*
+/
 )
 {
 return
@@ -1992,7 +2000,11 @@ WillOnce
 ]
 (
 size_t
+/
+*
 target_size_bytes
+*
+/
 )
 {
 std
@@ -2089,7 +2101,11 @@ WillOnce
 ]
 (
 size_t
+/
+*
 target_size_bytes
+*
+/
 )
 {
 std

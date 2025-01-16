@@ -1462,7 +1462,11 @@ ArrayView
 const
 uint8_t
 >
+/
+*
 packet
+*
+/
 Unused
 )
 {
@@ -2246,7 +2250,11 @@ ArrayView
 const
 uint8_t
 >
+/
+*
 packet
+*
+/
 Unused
 )
 {

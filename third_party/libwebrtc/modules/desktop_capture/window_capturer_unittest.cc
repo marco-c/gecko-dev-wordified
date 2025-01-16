@@ -231,7 +231,11 @@ DesktopCapturer
 :
 :
 Result
+/
+*
 result
+*
+/
 std
 :
 :

@@ -732,7 +732,11 @@ ArrayView
 const
 int
 >
+/
+*
 preferred_rates
+*
+/
 )
 override
 {
@@ -3232,7 +3236,11 @@ ArrayView
 const
 int
 >
+/
+*
 preferred_sample_rates
+*
+/
 )
 override
 {

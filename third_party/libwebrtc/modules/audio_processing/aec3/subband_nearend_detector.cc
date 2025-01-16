@@ -230,7 +230,11 @@ float
 kFftLengthBy2Plus1
 >
 >
+/
+*
 residual_echo_spectrum
+*
+/
 rtc
 :
 :
@@ -248,7 +252,11 @@ kFftLengthBy2Plus1
 >
 comfort_noise_spectrum
 bool
+/
+*
 initial_state
+*
+/
 )
 {
 nearend_state_

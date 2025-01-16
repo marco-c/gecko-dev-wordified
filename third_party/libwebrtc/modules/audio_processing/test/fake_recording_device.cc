@@ -396,7 +396,11 @@ ArrayView
 <
 int16_t
 >
+/
+*
 buffer
+*
+/
 )
 override
 {
@@ -409,7 +413,11 @@ ChannelBuffer
 float
 >
 *
+/
+*
 buffer
+*
+/
 )
 override
 {

@@ -837,7 +837,11 @@ IsOccluded
 const
 DesktopVector
 &
+/
+*
 pos
+*
+/
 )
 override
 {
@@ -954,7 +958,11 @@ Callback
 *
 callback
 Mode
+/
+*
 mode
+*
+/
 )
 override
 {
@@ -1360,7 +1368,11 @@ DesktopCapturer
 :
 :
 Result
+/
+*
 result
+*
+/
 std
 :
 :

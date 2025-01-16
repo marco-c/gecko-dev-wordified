@@ -172,7 +172,11 @@ num_channels
 size_t
 num_bands
 size_t
+/
+*
 num_frames
+*
+/
 )
 :
 num_bands_

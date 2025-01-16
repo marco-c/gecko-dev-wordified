@@ -371,7 +371,11 @@ float
 kFftLengthBy2Plus1
 >
 &
+/
+*
 comfort_noise_spectrum
+*
+/
 const
 std
 :
@@ -382,7 +386,11 @@ float
 kFftLengthBy2Plus1
 >
 &
+/
+*
 suppressor_gain
+*
+/
 )
 {
 metrics_reported_

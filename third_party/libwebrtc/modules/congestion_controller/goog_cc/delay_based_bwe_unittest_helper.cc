@@ -1647,7 +1647,11 @@ DelayBasedBweTest
 GenerateAndProcessFrame
 (
 uint32_t
+/
+*
 ssrc
+*
+/
 uint32_t
 bitrate_bps
 )
@@ -3002,7 +3006,11 @@ CapacityDropTestHelper
 int
 number_of_streams
 bool
+/
+*
 wrap_time_stamp
+*
+/
 uint32_t
 expected_bitrate_drop_delta
 int64_t

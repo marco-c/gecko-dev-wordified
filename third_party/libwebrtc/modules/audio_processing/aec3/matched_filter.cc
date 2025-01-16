@@ -6110,7 +6110,11 @@ MatchedFilter
 LogFilterProperties
 (
 int
+/
+*
 sample_rate_hz
+*
+/
 size_t
 shift
 size_t
