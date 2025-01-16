@@ -58,7 +58,7 @@ MPL
 /
 pub
 use
-cfg_aliases
+thiserror
 :
 :
 *
