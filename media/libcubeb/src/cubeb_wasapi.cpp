@@ -20327,7 +20327,6 @@ CUBEB_DEVICE_PREF_NOTIFICATION
 )
 ;
 }
-else
 if
 (
 defaults
