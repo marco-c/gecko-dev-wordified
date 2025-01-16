@@ -216,7 +216,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 true
 ]
@@ -429,7 +429,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 )
 false
@@ -592,7 +592,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 false
 ]
@@ -825,7 +825,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 )
 "
@@ -1171,7 +1171,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 false
 ]
@@ -1210,11 +1210,11 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 )
 "
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 should
 be
 set
@@ -1349,7 +1349,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 true
 ]
@@ -1389,11 +1389,11 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 )
 "
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 should
 be
 set

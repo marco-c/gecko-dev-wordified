@@ -279,7 +279,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 true
 )
@@ -575,14 +575,13 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 )
 "
 Clearing
+browsing
 history
-form
-data
 and
 downloads
 (
