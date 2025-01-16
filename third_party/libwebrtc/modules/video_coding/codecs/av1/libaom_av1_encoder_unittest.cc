@@ -2660,7 +2660,7 @@ kVideoFrameDelta
 TEST
 (
 LibaomAv1EncoderTest
-TestCaptureTimeId
+TestPresentationTimestamp
 )
 {
 std
@@ -2681,7 +2681,7 @@ CreateEnvironment
 ;
 const
 Timestamp
-capture_time_id
+presentation_timestamp
 =
 Timestamp
 :
@@ -2817,9 +2817,9 @@ SetNumInputFrames
 1
 )
 .
-SetCaptureTimeIdentifier
+SetPresentationTimestamp
 (
-capture_time_id
+presentation_timestamp
 )
 .
 Encode
@@ -2844,7 +2844,7 @@ encoded_frames
 .
 encoded_image
 .
-CaptureTimeIdentifier
+PresentationTimestamp
 (
 )
 .
@@ -2862,7 +2862,7 @@ encoded_frames
 .
 encoded_image
 .
-CaptureTimeIdentifier
+PresentationTimestamp
 (
 )
 .
@@ -2880,7 +2880,7 @@ encoded_frames
 .
 encoded_image
 .
-CaptureTimeIdentifier
+PresentationTimestamp
 (
 )
 -
@@ -2888,7 +2888,7 @@ CaptureTimeIdentifier
 us
 (
 )
-capture_time_id
+presentation_timestamp
 .
 us
 (
@@ -2904,7 +2904,7 @@ encoded_frames
 .
 encoded_image
 .
-CaptureTimeIdentifier
+PresentationTimestamp
 (
 )
 -
@@ -2912,7 +2912,7 @@ CaptureTimeIdentifier
 us
 (
 )
-capture_time_id
+presentation_timestamp
 .
 us
 (

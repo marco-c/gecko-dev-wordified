@@ -353,7 +353,7 @@ optional
 <
 Timestamp
 >
-GetCaptureTimeIdentifier
+GetPresentationTimestamp
 (
 )
 (

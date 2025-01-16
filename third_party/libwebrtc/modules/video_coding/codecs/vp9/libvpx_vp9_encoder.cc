@@ -12848,12 +12848,12 @@ rtp_timestamp
 ;
 encoded_image_
 .
-SetCaptureTimeIdentifier
+SetPresentationTimestamp
 (
 input_image_
 -
 >
-capture_time_identifier
+presentation_timestamp
 (
 )
 )

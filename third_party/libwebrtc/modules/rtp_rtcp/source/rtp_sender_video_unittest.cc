@@ -11548,7 +11548,7 @@ CreateDefaultEncodedImage
 encoded_image
 -
 >
-SetCaptureTimeIdentifier
+SetPresentationTimestamp
 (
 Timestamp
 :
@@ -11613,13 +11613,13 @@ EXPECT_EQ
 frame
 -
 >
-GetCaptureTimeIdentifier
+GetPresentationTimestamp
 (
 )
 encoded_image
 -
 >
-CaptureTimeIdentifier
+PresentationTimestamp
 (
 )
 )
