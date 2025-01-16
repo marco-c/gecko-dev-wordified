@@ -339,6 +339,12 @@ OutputStreamHolder
 (
 )
 ;
+RefPtr
+<
+FetchStreamReader
+>
+mAsyncWaitReader
+;
 /
 /
 WeakPtr
