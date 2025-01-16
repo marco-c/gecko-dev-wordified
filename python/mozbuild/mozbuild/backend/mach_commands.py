@@ -2229,6 +2229,41 @@ clangd_cfg
 file
 )
     
+rust_analyzer_extra_includes
+=
+[
+command_context
+.
+topobjdir
+]
+    
+if
+windows_rs_dir
+:
+=
+command_context
+.
+config_environment
+.
+substs
+.
+get
+(
+        
+"
+MOZ_WINDOWS_RS_DIR
+"
+    
+)
+:
+        
+rust_analyzer_extra_includes
+.
+append
+(
+windows_rs_dir
+)
+    
 return
 {
         
@@ -2403,6 +2438,18 @@ command_context
 topobjdir
         
 }
+        
+"
+rust
+-
+analyzer
+.
+vfs
+.
+extraIncludes
+"
+:
+rust_analyzer_extra_includes
         
 "
 rust
