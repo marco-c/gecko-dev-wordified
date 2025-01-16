@@ -87,14 +87,9 @@ e
 ;
 if
 (
-typeof
+this
+.
 reportCompare
-=
-=
-=
-"
-function
-"
 )
 reportCompare
 (
