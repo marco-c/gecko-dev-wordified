@@ -2694,6 +2694,7 @@ const
 {
 networkThrottling
 onChangeNetworkThrottling
+toolboxDoc
 }
 =
 this
@@ -2706,6 +2707,7 @@ NetworkThrottlingMenu
 {
 networkThrottling
 onChangeNetworkThrottling
+toolboxDoc
 }
 )
 ;

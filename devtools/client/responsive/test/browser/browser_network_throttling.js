@@ -220,7 +220,7 @@ expectedTooltip
 )
 {
 const
-title
+menu
 =
 ui
 .
@@ -235,16 +235,12 @@ querySelector
 network
 -
 throttling
--
-menu
-.
-title
 "
 )
 ;
 is
 (
-title
+menu
 .
 textContent
 expectedLabel
@@ -261,9 +257,7 @@ expectedLabel
 ;
 is
 (
-title
-.
-parentNode
+menu
 .
 getAttribute
 (
