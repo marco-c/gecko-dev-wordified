@@ -350,10 +350,11 @@ PlotDeclaration
 >
 :
 :
-iterator
+const_iterator
 begin
 (
 )
+const
 {
 return
 plots_
@@ -372,10 +373,11 @@ PlotDeclaration
 >
 :
 :
-iterator
+const_iterator
 end
 (
 )
+const
 {
 return
 plots_
@@ -478,6 +480,7 @@ PlotCollection
 *
 collection
 )
+const
 ;
 void
 InitializeMapOfNamedGraphs
@@ -503,6 +506,7 @@ string
 GetGraphNames
 (
 )
+const
 {
 std
 :
@@ -549,6 +553,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateRtcpTypeGraph
@@ -559,6 +564,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateAccumulatedPacketsGraph
@@ -569,6 +575,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreatePacketRateGraph
@@ -579,6 +586,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateTotalPacketRateGraph
@@ -589,6 +597,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreatePlayoutGraph
@@ -597,6 +606,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateNetEqSetMinimumDelay
@@ -605,6 +615,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateAudioLevelGraph
@@ -615,6 +626,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateSequenceNumberGraph
@@ -623,6 +635,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateIncomingPacketLossGraph
@@ -631,6 +644,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateIncomingDelayGraph
@@ -639,6 +653,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateFractionLossGraph
@@ -647,6 +662,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateTotalIncomingBitrateGraph
@@ -655,6 +671,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateTotalOutgoingBitrateGraph
@@ -675,6 +692,7 @@ show_link_capacity
 =
 false
 )
+const
 ;
 void
 CreateStreamBitrateGraph
@@ -685,6 +703,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateBitrateAllocationGraph
@@ -695,6 +714,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateOutgoingTWCCLossRateGraph
@@ -703,6 +723,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateGoogCcSimulationGraph
@@ -711,6 +732,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateSendSideBweSimulationGraph
@@ -719,6 +741,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateReceiveSideBweSimulationGraph
@@ -727,6 +750,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateNetworkDelayFeedbackGraph
@@ -735,6 +759,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreatePacerDelayGraph
@@ -743,6 +768,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateTimestampGraph
@@ -753,6 +779,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateSenderAndReceiverReportPlot
@@ -789,6 +816,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateIceCandidatePairConfigGraph
@@ -797,6 +825,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateIceConnectivityCheckGraph
@@ -805,6 +834,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateDtlsTransportStateGraph
@@ -813,6 +843,7 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateDtlsWritableStateGraph
@@ -821,11 +852,13 @@ Plot
 *
 plot
 )
+const
 ;
 void
 CreateTriageNotifications
 (
 )
+const
 ;
 void
 PrintNotifications
@@ -834,6 +867,7 @@ FILE
 *
 file
 )
+const
 ;
 private
 :
@@ -860,16 +894,7 @@ string
 &
 label
 )
-;
-std
-:
-:
-string
-GetCandidatePairLogDescriptionFromId
-(
-uint32_t
-candidate_pair_id
-)
+const
 ;
 const
 ParsedRtcEventLog
@@ -908,19 +933,6 @@ vector
 uint32_t
 >
 desired_ssrc_
-;
-std
-:
-:
-map
-<
-uint32_t
-std
-:
-:
-string
->
-candidate_pair_desc_by_id_
 ;
 AnalyzerConfig
 config_
