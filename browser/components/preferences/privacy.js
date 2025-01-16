@@ -665,7 +665,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 "
 privacy
@@ -1420,7 +1420,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-historyFormDataAndDownloads
+browsingHistoryAndDownloads
 "
 type
 :
