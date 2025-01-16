@@ -2455,8 +2455,10 @@ if
 (
 mOnDestroyCalled
 )
+{
 return
 ;
+}
 mOnDestroyCalled
 =
 true

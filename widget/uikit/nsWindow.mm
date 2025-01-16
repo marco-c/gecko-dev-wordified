@@ -4872,6 +4872,15 @@ mNativeView
 widgetDestroyed
 ]
 ;
+nsCOMPtr
+<
+nsIWidget
+>
+kungFuDeathGrip
+(
+this
+)
+;
 nsBaseWidget
 :
 :

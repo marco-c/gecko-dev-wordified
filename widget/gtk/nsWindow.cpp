@@ -3440,10 +3440,6 @@ Destroy
 (
 )
 ;
-RemoveAllChildren
-(
-)
-;
 NotifyWindowDestroyed
 (
 )

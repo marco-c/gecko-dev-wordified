@@ -14855,10 +14855,6 @@ kungFuDeathGrip
 this
 )
 ;
-RemoveAllChildren
-(
-)
-;
 /
 /
 Ensure
