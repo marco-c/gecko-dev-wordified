@@ -813,9 +813,6 @@ Option
 &
 Path
 >
-enable_crash_reporter
-:
-bool
 )
 -
 >
@@ -1139,10 +1136,6 @@ org
 docs
 /
 Environment_variables_affecting_crash_reporting
-if
-!
-enable_crash_reporter
-{
 runner
 .
 env
@@ -1175,7 +1168,6 @@ MOZ_CRASHREPORTER_SHUTDOWN
 "
 )
 ;
-}
 let
 process
 =
@@ -1908,9 +1900,6 @@ Option
 &
 Path
 >
-enable_crash_reporter
-:
-bool
 )
 -
 >
@@ -2094,7 +2083,6 @@ env
 unwrap_or_default
 (
 )
-enable_crash_reporter
 )
 ?
 ;
