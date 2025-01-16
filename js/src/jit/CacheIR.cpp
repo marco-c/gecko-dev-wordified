@@ -69866,6 +69866,13 @@ length
 1
 )
 ;
+uint32_t
+argc
+=
+argc_
+-
+1
+;
 /
 /
 Check
@@ -69886,6 +69893,7 @@ target
 newTarget
 thisValue
 args
+argc
 targetFlags
 )
 ;
@@ -76453,6 +76461,12 @@ getDenseElements
 )
 )
 ;
+constexpr
+uint32_t
+argc
+=
+1
+;
 /
 /
 Check
@@ -76473,6 +76487,7 @@ target
 newTarget
 thisValue
 args
+argc
 targetFlags
 )
 ;
@@ -76568,6 +76583,12 @@ empty
 (
 )
 ;
+constexpr
+uint32_t
+argc
+=
+0
+;
 /
 /
 Check
@@ -76588,6 +76609,7 @@ target
 newTarget
 thisValue
 args
+argc
 targetFlags
 )
 ;
@@ -78070,6 +78092,7 @@ callee
 newTarget_
 thisval_
 args_
+argc_
 flags
 )
 ;
@@ -84411,6 +84434,7 @@ target
 newTarget_
 thisValue
 args_
+argc_
 flags
 )
 ;
