@@ -1406,7 +1406,7 @@ OnBatchComplete
 TEST_F
 (
 RtpSenderEgressTest
-PacketOptionsIsRetransmitSetByPacketType
+PacketOptionsIsMediaSetByPacketType
 )
 {
 std
@@ -1473,7 +1473,7 @@ PacedPacketInfo
 )
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 transport_
 .
@@ -1484,7 +1484,7 @@ last_packet
 >
 options
 .
-is_retransmit
+is_media
 )
 ;
 std
@@ -1536,7 +1536,7 @@ PacedPacketInfo
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 transport_
 .
@@ -1547,7 +1547,7 @@ last_packet
 >
 options
 .
-is_retransmit
+is_media
 )
 ;
 }
@@ -5727,11 +5727,11 @@ packet_options
 included_in_feedback
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 packet_options
 .
-is_retransmit
+is_media
 )
 ;
 /
@@ -5813,7 +5813,7 @@ PacedPacketInfo
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 transport_
 .
@@ -5824,7 +5824,7 @@ last_packet
 >
 options
 .
-is_retransmit
+is_media
 )
 ;
 }

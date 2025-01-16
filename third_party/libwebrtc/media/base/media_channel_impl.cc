@@ -1274,11 +1274,11 @@ last_packet_in_batch
 options
 .
 last_packet_in_batch
-is_retransmit
+is_media
 =
 options
 .
-is_retransmit
+is_media
 packet
 =
 rtc
@@ -1344,8 +1344,7 @@ info_signaled_after_sent
 .
 is_media
 =
-!
-is_retransmit
+is_media
 ;
 rtc_options
 .
