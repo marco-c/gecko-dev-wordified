@@ -1625,6 +1625,25 @@ enabled
 False
         
 #
+Disable
+logging
+for
+remote
+settings
+        
+"
+services
+.
+settings
+.
+loglevel
+"
+:
+"
+off
+"
+        
+#
 Ensure
 blocklist
 updates
