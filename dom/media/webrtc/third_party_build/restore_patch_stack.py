@@ -354,11 +354,11 @@ libwebrtc
 /
 README
 .
-moz
+mozilla
+.
+last
 -
-ff
--
-commit
+vendor
     
 print
 (
@@ -375,11 +375,11 @@ libwebrtc
 /
 README
 .
-moz
+mozilla
+.
+last
 -
-ff
--
-commit
+vendor
 "
     
 )
@@ -399,11 +399,11 @@ libwebrtc
 /
 README
 .
-moz
+mozilla
+.
+last
 -
-ff
--
-commit
+vendor
 "
 )
     
