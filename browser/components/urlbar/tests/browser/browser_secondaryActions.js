@@ -1082,7 +1082,9 @@ EventUtils
 .
 sendString
 (
-query
+"
+rch
+"
 )
 ;
 EventUtils
