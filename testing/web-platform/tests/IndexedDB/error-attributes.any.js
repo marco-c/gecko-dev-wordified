@@ -66,13 +66,6 @@ store
 '
 readwrite
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 let

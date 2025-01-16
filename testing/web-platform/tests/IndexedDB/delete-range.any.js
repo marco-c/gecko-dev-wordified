@@ -167,13 +167,6 @@ store
 "
 readwrite
 "
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 .
 objectStore

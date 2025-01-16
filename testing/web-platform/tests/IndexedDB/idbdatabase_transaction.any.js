@@ -188,13 +188,6 @@ readonly
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 assert_equals
@@ -314,13 +307,6 @@ test
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 }

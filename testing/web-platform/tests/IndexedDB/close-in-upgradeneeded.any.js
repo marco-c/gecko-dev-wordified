@@ -197,13 +197,6 @@ os
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 }

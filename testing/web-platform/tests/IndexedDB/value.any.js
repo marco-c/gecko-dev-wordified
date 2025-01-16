@@ -127,13 +127,6 @@ store
 "
 readonly
 "
-{
-durability
-:
-"
-relaxed
-"
-}
 )
 ;
 const

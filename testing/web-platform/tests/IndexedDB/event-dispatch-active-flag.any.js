@@ -86,13 +86,6 @@ transaction
 store
 '
 mode
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 const

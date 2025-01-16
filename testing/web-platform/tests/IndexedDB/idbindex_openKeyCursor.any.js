@@ -400,13 +400,6 @@ store
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 let

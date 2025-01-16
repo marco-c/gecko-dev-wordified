@@ -261,13 +261,6 @@ test
 "
 readwrite
 "
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 .
 objectStore

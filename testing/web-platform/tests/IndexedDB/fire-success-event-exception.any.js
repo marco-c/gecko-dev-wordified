@@ -113,13 +113,6 @@ s
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 tx

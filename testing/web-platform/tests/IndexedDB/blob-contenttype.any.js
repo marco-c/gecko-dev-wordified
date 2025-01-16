@@ -116,13 +116,6 @@ store
 '
 readwrite
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 tx
@@ -167,13 +160,6 @@ store
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 tx

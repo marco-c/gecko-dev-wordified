@@ -140,13 +140,6 @@ store
 '
 readonly
 '
-{
-durability
-:
-'
-relaxed
-'
-}
 )
 ;
 store
