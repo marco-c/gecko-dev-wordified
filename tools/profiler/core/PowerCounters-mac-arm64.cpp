@@ -91,8 +91,6 @@ BaseProfilerCount
 Process
 Power
 "
-nullptr
-nullptr
 "
 power
 "

@@ -201,8 +201,6 @@ aInitialTime
 BaseProfilerCount
 (
 nullptr
-nullptr
-nullptr
 "
 power
 "

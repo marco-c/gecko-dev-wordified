@@ -794,8 +794,6 @@ aDescription
 BaseProfilerCount
 (
 aLabel
-nullptr
-nullptr
 "
 power
 "

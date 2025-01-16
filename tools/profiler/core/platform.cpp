@@ -11292,7 +11292,7 @@ ProcessCPUCounter
 final
 :
 public
-BaseProfilerCount
+AtomicProfilerCount
 {
 public
 :
@@ -11303,7 +11303,7 @@ PSLockRef
 aLock
 )
 :
-BaseProfilerCount
+AtomicProfilerCount
 (
 "
 processCPU
