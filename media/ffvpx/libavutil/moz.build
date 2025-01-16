@@ -224,6 +224,11 @@ channel_layout
 c
 '
 '
+container_fifo
+.
+c
+'
+'
 cpu
 .
 c
@@ -320,6 +325,11 @@ c
 '
 '
 rational
+.
+c
+'
+'
+refstruct
 .
 c
 '
