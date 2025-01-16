@@ -708,6 +708,14 @@ jemalloc_bin_stats_t
 ;
 static
 void
+jemalloc_stats_lite
+(
+jemalloc_stats_lite_t
+*
+)
+;
+static
+void
 jemalloc_ptr_info
 (
 const
