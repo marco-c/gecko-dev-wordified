@@ -1186,6 +1186,14 @@ aIsForUserEvent
 true
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+MaybeDispatchWillBlur
+(
+EventChainVisitor
+&
+)
+;
 enum
 class
 SnapToTickMarks
