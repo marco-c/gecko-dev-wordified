@@ -1302,6 +1302,11 @@ GetElemSuper
 \
 _
 (
+GetImport
+)
+\
+_
+(
 LazyConstant
 )
 \

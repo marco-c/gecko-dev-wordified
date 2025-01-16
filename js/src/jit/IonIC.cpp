@@ -661,6 +661,12 @@ CacheKind
 :
 Lambda
 :
+case
+CacheKind
+:
+:
+GetImport
+:
 MOZ_CRASH
 (
 "
