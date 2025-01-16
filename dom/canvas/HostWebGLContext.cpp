@@ -330,7 +330,10 @@ Unlock
 static
 *
 /
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 HostWebGLContext
 >
@@ -362,7 +365,13 @@ out
 auto
 host
 =
-WrapUnique
+std
+:
+:
+unique_ptr
+<
+HostWebGLContext
+>
 (
 new
 HostWebGLContext

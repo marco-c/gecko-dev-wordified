@@ -352,15 +352,6 @@ include
 "
 mozilla
 /
-UniquePtrExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_webgl
 .
 h

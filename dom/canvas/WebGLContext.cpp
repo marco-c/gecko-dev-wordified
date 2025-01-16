@@ -3094,7 +3094,10 @@ new
 Layer
 .
 }
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 webgl
 :

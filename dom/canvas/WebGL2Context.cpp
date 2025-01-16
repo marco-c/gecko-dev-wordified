@@ -176,7 +176,10 @@ h
 namespace
 mozilla
 {
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 webgl
 :

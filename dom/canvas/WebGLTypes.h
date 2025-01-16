@@ -1269,7 +1269,7 @@ final
 /
 /
 Like
-UniquePtr
+unique_ptr
 <
 >
 but

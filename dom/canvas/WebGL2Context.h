@@ -1521,7 +1521,10 @@ uniformBlockBinding
 private
 :
 virtual
-UniquePtr
+std
+:
+:
+unique_ptr
 <
 webgl
 :
