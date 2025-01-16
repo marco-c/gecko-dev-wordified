@@ -71,9 +71,9 @@ tenuredCount
 =
 is64bit
 ?
-300000
+400000
 :
-600000
+800000
 ;
 function
 setupPretenureTest
