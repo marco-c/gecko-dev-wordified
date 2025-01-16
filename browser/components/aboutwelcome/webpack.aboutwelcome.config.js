@@ -75,13 +75,11 @@ require
 .
 .
 /
-newtab
+asrouter
 /
 webpack
 .
-system
--
-addon
+base
 .
 config
 .
