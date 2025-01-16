@@ -1709,6 +1709,9 @@ false
 SVGDescElement
 :
 false
+SVGDiscardElement
+:
+false
 SVGElement
 :
 false
