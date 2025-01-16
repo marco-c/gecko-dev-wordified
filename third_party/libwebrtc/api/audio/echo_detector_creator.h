@@ -140,7 +140,7 @@ the
 webrtc
 :
 :
-AudioProcessingBuilder
+BuiltinAudioProcessingBuilder
 to
 obtain
 the
@@ -151,9 +151,6 @@ residual
 echo
 metrics
 .
-rtc
-:
-:
 scoped_refptr
 <
 EchoDetector
