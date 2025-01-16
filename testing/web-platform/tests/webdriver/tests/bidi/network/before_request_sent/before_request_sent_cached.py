@@ -2253,6 +2253,8 @@ complete
     
 #
 Expect
+two
+or
 three
 events
 one
@@ -2260,11 +2262,49 @@ for
 the
 document
 and
-two
+the
+rest
 for
-script
 javascript
 files
+.
+    
+#
+If
+the
+browser
+uses
+memory
+caching
+there
+may
+be
+only
+single
+request
+for
+the
+javascript
+files
+    
+#
+see
+issue
+https
+:
+/
+/
+github
+.
+com
+/
+whatwg
+/
+html
+/
+issues
+/
+6110
 .
     
 wait
@@ -2291,7 +2331,7 @@ events
 )
 >
 =
-7
+6
 )
     
 assert
@@ -2299,9 +2339,9 @@ len
 (
 events
 )
+>
 =
-=
-7
+6
     
 #
 Assert
@@ -2374,14 +2414,23 @@ cached_script_js_url
     
 )
     
+if
+len
+(
+events
+)
+>
+6
+:
+        
 assert_before_request_sent_event
 (
-        
+            
 cached_events
 [
 2
 ]
-        
+            
 expected_request
 =
 {
@@ -2398,7 +2447,7 @@ url
 :
 cached_script_js_url
 }
-    
+        
 )
 pytest
 .
