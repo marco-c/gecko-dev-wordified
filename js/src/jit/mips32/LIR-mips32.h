@@ -587,8 +587,8 @@ canBeNegativeOverflow
 wasm
 :
 :
-BytecodeOffset
-bytecodeOffset
+TrapSiteDesc
+trapSiteDesc
 (
 )
 const
@@ -630,7 +630,7 @@ toMod
 )
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 ;
@@ -644,7 +644,7 @@ toDiv
 )
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 ;
@@ -841,8 +841,8 @@ canBeNegativeOverflow
 wasm
 :
 :
-BytecodeOffset
-bytecodeOffset
+TrapSiteDesc
+trapSiteDesc
 (
 )
 const
@@ -884,7 +884,7 @@ toMod
 )
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 ;
@@ -898,7 +898,7 @@ toDiv
 )
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 ;

@@ -959,7 +959,7 @@ IntegerDivideByZero
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -1074,7 +1074,7 @@ IntegerOverflow
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
@@ -1292,7 +1292,7 @@ IntegerDivideByZero
 lir
 -
 >
-bytecodeOffset
+trapSiteDesc
 (
 )
 )
