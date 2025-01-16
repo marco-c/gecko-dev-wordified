@@ -50380,14 +50380,6 @@ if
 (
 NS_WARN_IF
 (
-newContainer
--
->
-IsInComposedDoc
-(
-)
-&
-&
 !
 EditorUtils
 :
