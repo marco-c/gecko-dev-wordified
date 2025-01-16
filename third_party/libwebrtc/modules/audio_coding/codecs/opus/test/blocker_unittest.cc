@@ -164,7 +164,11 @@ input
 size_t
 num_frames
 size_t
+/
+*
 num_input_channels
+*
+/
 size_t
 num_output_channels
 float
@@ -261,7 +265,11 @@ input
 size_t
 num_frames
 size_t
+/
+*
 num_input_channels
+*
+/
 size_t
 num_output_channels
 float

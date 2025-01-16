@@ -707,7 +707,11 @@ cricket
 :
 :
 MediaType
+/
+*
 kind
+*
+/
 )
 const
 {

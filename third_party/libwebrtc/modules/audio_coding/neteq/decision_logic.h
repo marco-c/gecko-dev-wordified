@@ -531,7 +531,11 @@ NetEq
 :
 :
 Operation
+/
+*
 operation
+*
+/
 )
 override
 {

@@ -375,7 +375,11 @@ int16_t
 *
 in_data
 size_t
+/
+*
 block_size_samples
+*
+/
 rtc
 :
 :
@@ -383,7 +387,11 @@ Buffer
 *
 payload
 size_t
+/
+*
 max_bytes
+*
+/
 )
 override
 {

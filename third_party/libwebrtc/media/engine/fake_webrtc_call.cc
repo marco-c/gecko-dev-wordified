@@ -796,7 +796,11 @@ FakeAudioReceiveStream
 GetStats
 (
 bool
+/
+*
 get_and_clear_legacy_stats
+*
+/
 )
 const
 {
@@ -1933,7 +1937,11 @@ webrtc
 :
 Resource
 >
+/
+*
 resource
+*
+/
 )
 {
 }
@@ -3606,7 +3614,11 @@ webrtc
 :
 Resource
 >
+/
+*
 resource
+*
+/
 )
 {
 }
@@ -4118,7 +4130,11 @@ FakeCall
 OnAudioTransportOverheadChanged
 (
 int
+/
+*
 transport_overhead_per_packet
+*
+/
 )
 {
 }

@@ -246,7 +246,11 @@ NetEqInput
 :
 PacketData
 &
+/
+*
 packet
+*
+/
 )
 {
 }

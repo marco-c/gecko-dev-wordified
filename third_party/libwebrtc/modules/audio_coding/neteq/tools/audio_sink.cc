@@ -150,9 +150,17 @@ WriteArray
 const
 int16_t
 *
+/
+*
 audio
+*
+/
 size_t
+/
+*
 num_samples
+*
+/
 )
 {
 return
