@@ -501,15 +501,6 @@ url
 RedirectURI
 :
 targetUrl
-httpVersion
-:
-"
-http
-/
-1
-.
-1
-"
 classOfService
 :
 "
