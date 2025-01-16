@@ -41893,6 +41893,8 @@ InlinableNativeIRGenerator
 :
 emitNativeCalleeGuard
 (
+Int32OperandId
+argcId
 )
 {
 /
@@ -42029,24 +42031,6 @@ FunCall
 {
 MOZ_ASSERT
 (
-generator_
-.
-writer
-.
-numOperandIds
-(
-)
->
-0
-"
-argcId
-is
-initialized
-"
-)
-;
-MOZ_ASSERT
-(
 !
 isCalleeBoundFunction
 (
@@ -42056,12 +42040,6 @@ unexpected
 bound
 function
 "
-)
-;
-Int32OperandId
-argcId
-(
-0
 )
 ;
 calleeObjId
@@ -42093,24 +42071,6 @@ FunApplyArray
 ;
 MOZ_ASSERT
 (
-generator_
-.
-writer
-.
-numOperandIds
-(
-)
->
-0
-"
-argcId
-is
-initialized
-"
-)
-;
-MOZ_ASSERT
-(
 !
 isCalleeBoundFunction
 (
@@ -42120,12 +42080,6 @@ unexpected
 bound
 function
 "
-)
-;
-Int32OperandId
-argcId
-(
-0
 )
 ;
 calleeObjId
@@ -43663,6 +43617,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -43684,6 +43641,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -44043,6 +44001,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -44068,6 +44029,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -44297,6 +44259,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -44318,6 +44283,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -44789,6 +44755,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -44810,6 +44779,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -45158,6 +45128,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -45179,6 +45152,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -45554,6 +45528,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -45573,6 +45550,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -46025,6 +46003,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -46044,6 +46025,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -51933,6 +51915,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -51953,6 +51938,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -52144,6 +52130,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -52164,6 +52153,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -52298,6 +52288,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -52323,6 +52316,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -52814,6 +52808,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -52847,6 +52844,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -53340,6 +53338,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -53361,6 +53362,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -53586,6 +53588,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -53607,6 +53612,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -53754,6 +53760,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -53775,6 +53784,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -53940,6 +53950,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -53961,6 +53974,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -54126,6 +54140,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -54147,6 +54164,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -54312,6 +54330,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -54333,6 +54354,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -54498,6 +54520,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -54519,6 +54544,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -54672,6 +54698,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -54693,6 +54722,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -54827,6 +54857,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -54848,6 +54881,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -54982,6 +55016,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -55003,6 +55040,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -55127,6 +55165,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -55148,6 +55189,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -55272,6 +55314,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -55293,6 +55338,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -55423,6 +55469,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -55441,6 +55490,7 @@ function
 .
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 mozilla
@@ -55553,6 +55603,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -55574,6 +55627,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -55735,6 +55789,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -55756,6 +55813,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -55910,6 +55968,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -55931,6 +55992,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -56158,6 +56220,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -56179,6 +56244,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -56432,6 +56498,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -56453,6 +56522,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -56693,6 +56763,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -56714,6 +56787,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -56954,6 +57028,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -56975,6 +57052,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -57204,6 +57282,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -57225,6 +57306,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -57428,6 +57510,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -57449,6 +57534,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -57554,6 +57640,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -57575,6 +57664,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -57680,6 +57770,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -57701,6 +57794,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -58037,6 +58131,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -58057,6 +58154,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -58293,6 +58391,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -58314,6 +58415,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -58584,6 +58686,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -58605,6 +58710,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -58809,6 +58915,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -58827,6 +58936,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 if
@@ -59169,6 +59279,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -59184,6 +59297,7 @@ function
 .
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -59393,6 +59507,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -59411,6 +59528,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -59552,6 +59670,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -59570,6 +59691,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -59932,6 +60054,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -59953,6 +60078,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 auto
@@ -60606,6 +60732,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -60627,6 +60756,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -60924,6 +61054,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -60945,6 +61078,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -61411,6 +61545,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -61430,6 +61567,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -61835,6 +61973,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -61853,6 +61994,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -62773,6 +62915,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -62792,6 +62937,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -63240,6 +63386,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -63259,6 +63408,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -63492,6 +63642,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -63511,6 +63664,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -63620,6 +63774,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -63636,6 +63793,7 @@ function
 .
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 writer
@@ -63705,6 +63863,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -63726,6 +63887,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 if
@@ -63830,6 +63992,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -63848,6 +64013,7 @@ function
 .
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 writer
@@ -63957,6 +64123,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -63978,6 +64147,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -64095,6 +64265,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -64116,6 +64289,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -64198,6 +64372,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -64217,6 +64394,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -64914,6 +65092,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -64933,6 +65114,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -65204,6 +65386,9 @@ the
 native
 function
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -65225,6 +65410,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -65479,6 +65665,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -65500,6 +65689,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -65613,6 +65803,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -65634,6 +65827,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -65807,6 +66001,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -65830,6 +66027,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -66024,6 +66222,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -66047,6 +66248,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -66229,6 +66431,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -66250,6 +66455,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -66727,6 +66933,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -66748,6 +66957,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -66915,6 +67125,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -66936,6 +67149,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -67103,6 +67317,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -67124,6 +67341,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -67275,6 +67493,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -67296,6 +67517,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -67773,6 +67995,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -67794,6 +68019,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -68271,6 +68497,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -68292,6 +68521,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -68494,6 +68724,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -68515,6 +68748,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -68734,6 +68968,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -68774,6 +69011,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 }
@@ -69024,6 +69262,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -69043,6 +69284,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -69547,17 +69789,6 @@ AttachDecision
 NoAction
 ;
 }
-Int32OperandId
-argcId
-(
-writer
-.
-setInputOperandId
-(
-0
-)
-)
-;
 CallFlags
 targetFlags
 (
@@ -70043,6 +70274,17 @@ tryAttachStub
 )
 ;
 }
+Int32OperandId
+argcId
+(
+writer
+.
+setInputOperandId
+(
+0
+)
+)
+;
 ObjOperandId
 thisObjId
 =
@@ -72506,6 +72748,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -72527,6 +72772,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -72822,6 +73068,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -72849,6 +73098,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 if
@@ -73325,6 +73575,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -73352,6 +73605,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 Int32OperandId
@@ -73812,6 +74066,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -73833,6 +74090,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -74337,6 +74595,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -74360,6 +74621,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 if
@@ -75162,6 +75424,9 @@ AttachDecision
 NoAction
 ;
 }
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -75171,6 +75436,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
@@ -75846,6 +76112,9 @@ templateObj
 )
 )
 ;
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -75855,6 +76124,7 @@ calleeId
 =
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 /
@@ -76452,17 +76722,6 @@ AttachDecision
 NoAction
 ;
 }
-Int32OperandId
-argcId
-(
-writer
-.
-setInputOperandId
-(
-0
-)
-)
-;
 CallFlags
 targetFlags
 (
@@ -76759,6 +77018,17 @@ tryAttachStub
 )
 ;
 }
+Int32OperandId
+argcId
+(
+writer
+.
+setInputOperandId
+(
+0
+)
+)
+;
 ObjOperandId
 thisObjId
 =
@@ -78277,6 +78547,9 @@ the
 input
 operand
 .
+Int32OperandId
+argcId
+=
 initializeInputOperand
 (
 )
@@ -78293,22 +78566,24 @@ fuzzilli_hash
 native
 function
 .
+ObjOperandId
+calleeId
+=
 emitNativeCalleeGuard
 (
+argcId
 )
 ;
 ValOperandId
 argValId
 =
-writer
-.
-loadArgumentFixedSlot
+loadArgument
 (
+calleeId
 ArgumentKind
 :
 :
 Arg0
-argc_
 )
 ;
 writer
