@@ -6195,12 +6195,7 @@ const
 uint32_t
 ELEMENT_CAPACITY_MIN
 =
-8
--
-ObjectElements
-:
-:
-VALUES_PER_HEADER
+5
 ;
 HeapSlot
 *
