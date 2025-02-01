@@ -6964,6 +6964,10 @@ _resolve_installed_packages
 (
 )
         
+if
+existing_packages
+:
+            
 with
 tempfile
 .
@@ -6973,7 +6977,7 @@ TemporaryDirectory
 as
 tempdir
 :
-            
+                
 constraints_path
 =
 os
@@ -6991,7 +6995,7 @@ constraints
 txt
 "
 )
-            
+                
 with
 open
 (
@@ -7003,12 +7007,12 @@ w
 as
 file
 :
-                
+                    
 file
 .
 write
 (
-                    
+                        
 "
 \
 n
@@ -7016,9 +7020,9 @@ n
 .
 join
 (
-                        
-[
                             
+[
+                                
 f
 "
 {
@@ -7030,7 +7034,7 @@ name
 version
 }
 "
-                            
+                                
 for
 name
 version
@@ -7040,14 +7044,13 @@ existing_packages
 items
 (
 )
-                        
+                            
 ]
+                        
+)
                     
 )
                 
-)
-            
-return
 self
 .
 pip_install
@@ -7061,6 +7064,16 @@ constraint
 constraints_path
 ]
 +
+pip_args
+)
+        
+else
+:
+            
+self
+.
+pip_install
+(
 pip_args
 )
     
