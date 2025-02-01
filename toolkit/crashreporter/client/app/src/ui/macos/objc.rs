@@ -1526,6 +1526,9 @@ rust_self
 (
 {
 extern
+"
+C
+"
 fn
 method_impl
 (
@@ -1595,6 +1598,9 @@ sel
 method_impl
 as
 extern
+"
+C
+"
 fn
 (
 &
@@ -1628,6 +1634,9 @@ rettype
 *
 {
 extern
+"
+C
+"
 fn
 dealloc_impl
 (
@@ -1716,6 +1725,9 @@ dealloc
 dealloc_impl
 as
 extern
+"
+C
+"
 fn
 (
 &
