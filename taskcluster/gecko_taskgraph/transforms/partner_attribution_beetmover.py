@@ -411,22 +411,6 @@ release_artifacts
 "
 ]
         
-attribution_task_ref
-=
-"
-<
-{
-}
->
-"
-.
-format
-(
-dep_job
-.
-label
-)
-        
 prefix
 =
 get_artifact_prefix
@@ -660,7 +644,9 @@ artifacts
             
 generate_upstream_artifacts
 (
-attribution_task_ref
+dep_job
+.
+kind
 artifacts
 partner_path
 )
@@ -912,7 +898,7 @@ task
 def
 generate_upstream_artifacts
 (
-attribution_task
+attribution_task_kind
 artifacts
 partner_path
 )
@@ -951,7 +937,17 @@ task
 reference
 "
 :
-attribution_task
+"
+<
+{
+}
+>
+"
+.
+format
+(
+attribution_task_kind
+)
 }
                 
 "
