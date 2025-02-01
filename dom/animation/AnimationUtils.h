@@ -647,6 +647,15 @@ for
 Animation
 .
 return
+PseudoStyle
+:
+:
+IsViewTransitionPseudoElement
+(
+aType
+)
+|
+|
 aType
 =
 =
