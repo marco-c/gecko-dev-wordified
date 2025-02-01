@@ -650,6 +650,10 @@ getTabGroupById
 tabGroupId
 )
 ;
+tabGroup
+.
+ownerGlobal
+.
 gBrowser
 .
 replaceGroupWithWindow
