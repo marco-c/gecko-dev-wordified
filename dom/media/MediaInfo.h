@@ -2251,6 +2251,7 @@ return
 mType
 ;
 }
+virtual
 nsCString
 ToString
 (
@@ -3254,6 +3255,7 @@ ToString
 (
 )
 const
+override
 {
 std
 :
@@ -3374,6 +3376,18 @@ BT2020
 ;
 nsAutoCString
 rv
+;
+rv
+.
+Append
+(
+TrackInfo
+:
+:
+ToString
+(
+)
+)
 ;
 rv
 .
@@ -4253,6 +4267,7 @@ ToString
 (
 )
 const
+override
 ;
 UniquePtr
 <

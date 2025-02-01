@@ -394,7 +394,7 @@ ToString
 )
 const
 {
-nsCString
+nsAutoCString
 rv
 ;
 rv
@@ -402,6 +402,7 @@ rv
 AppendPrintf
 (
 "
+(
 TrackInfo
 :
 id
@@ -458,6 +459,7 @@ type
 :
 %
 s
+)
 "
 NS_ConvertUTF16toUTF8
 (
@@ -803,8 +805,20 @@ ToString
 )
 const
 {
-nsCString
+nsAutoCString
 rv
+;
+rv
+.
+Append
+(
+TrackInfo
+:
+:
+ToString
+(
+)
+)
 ;
 rv
 .
