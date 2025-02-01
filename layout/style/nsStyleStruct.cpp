@@ -899,7 +899,7 @@ StyleLoadData
 &
 data
 =
-LoadData
+MutLoadData
 (
 )
 ;
@@ -927,13 +927,6 @@ StyleLoadDataFlags
 :
 :
 TRIED_TO_RESOLVE_IMAGE
-;
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
 ;
 /
 /
