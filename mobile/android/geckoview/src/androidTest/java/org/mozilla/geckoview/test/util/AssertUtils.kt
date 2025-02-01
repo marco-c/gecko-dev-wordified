@@ -115,7 +115,7 @@ kotlin
 .
 math
 .
-max
+min
 object
 AssertUtils
 {
@@ -174,7 +174,7 @@ string
 substring
 (
 i
-max
+min
 (
 i
 +
