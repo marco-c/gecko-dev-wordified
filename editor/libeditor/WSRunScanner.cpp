@@ -930,10 +930,13 @@ IsBlockElement
 (
 *
 mContent
+RespectParentBlockBoundary
+(
 aScanner
 .
 BlockInlineCheckMode
 (
+)
 )
 )
 )
