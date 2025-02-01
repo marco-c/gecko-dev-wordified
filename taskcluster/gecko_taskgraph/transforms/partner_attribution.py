@@ -891,23 +891,6 @@ locale
 )
 :
     
-#
-find
-the
-upstream
-throw
-away
-locales
-we
-don
-'
-t
-have
-somehow
-.
-Skip
-?
-    
 if
 platform
 .
