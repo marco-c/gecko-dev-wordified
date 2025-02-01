@@ -1654,6 +1654,13 @@ EDirection
 aDirectionAndAmount
 IfSelectingOnlyOneAtomicContent
 aIfSelectingOnlyOneAtomicContent
+const
+dom
+:
+:
+Element
+*
+aEditingHost
 )
 ;
 /

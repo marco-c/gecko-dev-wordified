@@ -191,14 +191,7 @@ h
 #
 include
 "
-WhiteSpaceVisibilityKeeper
-.
-h
-"
-#
-include
-"
-WSRunScanner
+WSRunObject
 .
 h
 "
