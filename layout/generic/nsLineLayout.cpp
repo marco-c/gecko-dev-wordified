@@ -4926,7 +4926,9 @@ aWM
 pos
 -
 >
-GetInset
+mOffset
+.
+Get
 (
 LogicalSide
 :
@@ -4935,7 +4937,7 @@ IStart
 aWM
 )
 .
-HasPercent
+MaybePercentageAware
 (
 )
 |
@@ -4943,7 +4945,9 @@ HasPercent
 pos
 -
 >
-GetInset
+mOffset
+.
+Get
 (
 LogicalSide
 :
@@ -4952,7 +4956,7 @@ IEnd
 aWM
 )
 .
-HasPercent
+MaybePercentageAware
 (
 )
 )
