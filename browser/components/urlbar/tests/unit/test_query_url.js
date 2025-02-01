@@ -250,13 +250,6 @@ test
 .
 html
 "
-iconUri
-:
-UrlbarUtils
-.
-ICON
-.
-DEFAULT
 providerName
 :
 PLACES_PROVIDERNAME
@@ -843,13 +836,6 @@ test
 .
 html
 "
-iconUri
-:
-UrlbarUtils
-.
-ICON
-.
-DEFAULT
 providerName
 :
 PLACES_PROVIDERNAME
