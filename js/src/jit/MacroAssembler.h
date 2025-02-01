@@ -37946,11 +37946,6 @@ LiveRegisterSet
 volatileLiveReg
 )
 ;
-template
-<
-typename
-T
->
 void
 loadFromTypedArray
 (
@@ -37960,7 +37955,7 @@ Scalar
 Type
 arrayType
 const
-T
+BaseIndex
 &
 src
 const
@@ -37978,11 +37973,6 @@ LiveRegisterSet
 volatileLiveReg
 )
 ;
-template
-<
-typename
-T
->
 void
 loadFromTypedBigIntArray
 (
@@ -37992,7 +37982,7 @@ Scalar
 Type
 arrayType
 const
-T
+BaseIndex
 &
 src
 Register
