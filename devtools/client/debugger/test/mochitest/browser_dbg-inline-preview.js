@@ -634,6 +634,15 @@ checkInspectorIcon
 dbg
 )
 ;
+await
+dbg
+.
+toolbox
+.
+closeToolbox
+(
+)
+;
 }
 )
 ;
