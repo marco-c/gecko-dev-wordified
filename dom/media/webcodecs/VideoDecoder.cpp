@@ -5406,11 +5406,14 @@ decoder
 %
 s
 "
+NS_ConvertUTF16toUTF8
+(
 vi
 -
 >
 ToString
 (
+)
 )
 .
 get
