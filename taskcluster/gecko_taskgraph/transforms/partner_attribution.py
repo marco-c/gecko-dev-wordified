@@ -309,9 +309,14 @@ locales
 ]
 :
                     
+for
+(
+                        
 attributed_build_config
-=
-_get_attributed_build_configuration
+                    
+)
+in
+_get_all_attributed_builds_configuration
 (
                         
 task
@@ -320,7 +325,8 @@ platform
 locale
                     
 )
-                    
+:
+                        
 upstream_label
 =
 attributed_build_config
@@ -329,7 +335,7 @@ attributed_build_config
 upstream_label
 "
 ]
-                    
+                        
 if
 upstream_label
 not
@@ -338,11 +344,11 @@ config
 .
 kind_dependencies_tasks
 :
-                        
+                            
 raise
 Exception
 (
-                            
+                                
 f
 "
 Can
@@ -359,9 +365,9 @@ platform
 locale
 }
 "
-                        
+                            
 )
-                    
+                        
 upstream
 =
 config
@@ -370,7 +376,7 @@ kind_dependencies_tasks
 [
 upstream_label
 ]
-                    
+                        
 #
 set
 the
@@ -385,7 +391,7 @@ than
 all
 of
 l10n
-                    
+                        
 dependencies
 .
 update
@@ -400,7 +406,7 @@ upstream
 label
 }
 )
-                    
+                        
 fetches
 [
 upstream_label
@@ -408,21 +414,23 @@ upstream_label
 .
 add
 (
+                            
 attributed_build_config
 [
 "
 fetch_config
 "
 ]
+                        
 )
-                    
+                        
 attributions
 .
 append
 (
-                        
-{
                             
+{
+                                
 "
 input
 "
@@ -433,7 +441,7 @@ attributed_build_config
 input_path
 "
 ]
-                            
+                                
 "
 output
 "
@@ -444,29 +452,29 @@ attributed_build_config
 output_path
 "
 ]
-                            
+                                
 "
 attribution
 "
 :
 attribution_code
-                        
+                            
 }
-                    
+                        
 )
-                    
+                        
 release_artifacts
 .
 append
 (
-                        
+                            
 attributed_build_config
 [
 "
 release_artifact
 "
 ]
-                    
+                        
 )
         
 if
@@ -636,12 +644,58 @@ attributions
 yield
 task
 def
-_get_attributed_build_configuration
+_get_all_attributed_builds_configuration
 (
 task
 partner_config
 platform
 locale
+)
+:
+    
+all_attributed_builds_configuration
+=
+[
+]
+    
+for
+artifact_file_name
+in
+_get_artifact_file_names
+(
+platform
+)
+:
+        
+all_attributed_builds_configuration
+.
+append
+(
+            
+_get_attributed_build_configuration
+(
+                
+task
+partner_config
+platform
+locale
+artifact_file_name
+            
+)
+        
+)
+    
+return
+all_attributed_builds_configuration
+def
+_get_attributed_build_configuration
+(
+    
+task
+partner_config
+platform
+locale
+artifact_file_name
 )
 :
     
@@ -657,13 +711,6 @@ shippable
 "
 "
 "
-)
-    
-artifact_file_name
-=
-_get_artifact_file_name
-(
-platform
 )
     
 output_artifact
@@ -884,7 +931,7 @@ artifact_file_name
     
 )
 def
-_get_artifact_file_name
+_get_artifact_file_names
 (
 platform
 )
@@ -902,6 +949,7 @@ win
 :
         
 return
+(
 "
 target
 .
@@ -909,6 +957,7 @@ installer
 .
 exe
 "
+)
     
 elif
 platform
@@ -922,11 +971,13 @@ macos
 :
         
 return
+(
 "
 target
 .
 dmg
 "
+)
     
 else
 :
