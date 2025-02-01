@@ -1953,7 +1953,7 @@ Warning
 "
 Bad
 sxHeight
-settig
+setting
 it
 to
 0
