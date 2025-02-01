@@ -2369,10 +2369,8 @@ document
 .
 *
 /
-RefPtr
-<
 MobileViewportManager
->
+*
 GetMobileViewportManager
 (
 )
