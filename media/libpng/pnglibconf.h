@@ -498,6 +498,12 @@ define
 PNG_sRGB_SUPPORTED
 #
 define
+PNG_cICP_SUPPORTED
+#
+define
+PNG_READ_cICP_SUPPORTED
+#
+define
 PNG_tRNS_SUPPORTED
 #
 define
