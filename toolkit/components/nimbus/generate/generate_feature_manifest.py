@@ -201,6 +201,10 @@ pocketNewtab
 "
     
 "
+searchConfiguration
+"
+    
+"
 testFeature
 "
     
