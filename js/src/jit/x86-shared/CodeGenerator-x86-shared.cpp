@@ -15685,9 +15685,8 @@ ToFloatRegister
 lir
 -
 >
-getOperand
+lhs
 (
-0
 )
 )
 ;
@@ -15699,9 +15698,8 @@ ToFloatRegister
 lir
 -
 >
-getOperand
+rhs
 (
-1
 )
 )
 ;
@@ -15775,9 +15773,8 @@ ToFloatRegister
 lir
 -
 >
-getOperand
+lhs
 (
-0
 )
 )
 ;
@@ -15789,9 +15786,8 @@ ToFloatRegister
 lir
 -
 >
-getOperand
+rhs
 (
-1
 )
 )
 ;

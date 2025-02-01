@@ -11770,9 +11770,8 @@ ToFloatRegister
 ins
 -
 >
-getOperand
+lhs
 (
-0
 )
 )
 ;
@@ -11784,9 +11783,8 @@ ToFloatRegister
 ins
 -
 >
-getOperand
+rhs
 (
-1
 )
 )
 ;
@@ -11798,9 +11796,8 @@ ToFloatRegister
 ins
 -
 >
-getDef
+output
 (
-0
 )
 )
 ;
@@ -11833,9 +11830,8 @@ ToFloatRegister
 ins
 -
 >
-getOperand
+lhs
 (
-0
 )
 )
 ;
@@ -11847,9 +11843,8 @@ ToFloatRegister
 ins
 -
 >
-getOperand
+rhs
 (
-1
 )
 )
 ;
@@ -11861,9 +11856,8 @@ ToFloatRegister
 ins
 -
 >
-getDef
+output
 (
-0
 )
 )
 ;
