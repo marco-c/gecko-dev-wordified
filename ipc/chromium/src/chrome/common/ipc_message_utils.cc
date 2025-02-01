@@ -139,14 +139,6 @@ h
 namespace
 IPC
 {
-static
-uint32_t
-kShmemThreshold
-=
-64
-*
-1024
-;
 MessageBufferWriter
 :
 :
@@ -180,9 +172,9 @@ we
 '
 re
 over
-kShmemThreshold
 /
 /
+kMessageBufferShmemThreshold
 to
 avoid
 bloating
@@ -191,6 +183,8 @@ size
 of
 messages
 with
+/
+/
 small
 buffers
 .
@@ -198,7 +192,7 @@ if
 (
 full_len
 >
-kShmemThreshold
+kMessageBufferShmemThreshold
 )
 {
 shmem_
@@ -552,9 +546,9 @@ we
 '
 re
 over
-kShmemThreshold
 /
 /
+kMessageBufferShmemThreshold
 to
 avoid
 bloating
@@ -563,6 +557,8 @@ size
 of
 messages
 with
+/
+/
 small
 buffers
 .
@@ -570,7 +566,7 @@ if
 (
 full_len
 >
-kShmemThreshold
+kMessageBufferShmemThreshold
 )
 {
 bool
