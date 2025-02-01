@@ -541,6 +541,9 @@ SupportedAlpnRank
 >
 GetAllAlpn
 (
+bool
+&
+aHasNoDefaultAlpn
 )
 const
 ;
@@ -781,7 +784,7 @@ aRecords
 )
 ;
 void
-GetAllRecordsWithEchConfigInternal
+GetAllRecordsInternal
 (
 bool
 aNoHttp2
@@ -798,6 +801,8 @@ SVCB
 >
 &
 aRecords
+bool
+aOnlyRecordsWithECH
 bool
 *
 aAllRecordsHaveEchConfig
