@@ -43399,10 +43399,6 @@ delete
 imageUrl
 )
 )
-.
-catch
-(
-)
 ;
 }
 /

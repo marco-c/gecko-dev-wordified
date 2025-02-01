@@ -896,8 +896,10 @@ Promise
 .
 race
 (
+[
 playPromise
 tooSlowPromise
+]
 )
 .
 catch

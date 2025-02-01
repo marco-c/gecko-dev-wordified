@@ -567,6 +567,9 @@ import
 "
 json
 "
+"
+promise
+"
 ]
 overrides
 :
