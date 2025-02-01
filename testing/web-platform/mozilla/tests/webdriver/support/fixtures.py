@@ -658,6 +658,9 @@ None
 extra_args
 =
 None
+extra_env
+=
+None
 )
 :
         
@@ -681,6 +684,7 @@ Geckodriver
 config
 hostname
 extra_args
+extra_env
 )
         
 driver
