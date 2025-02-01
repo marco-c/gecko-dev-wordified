@@ -837,8 +837,10 @@ _spec
 aContentBlockingAllowListPrincipal
 )
 ;
+RefPtr
+<
 PermissionManager
-*
+>
 permManager
 =
 PermissionManager
@@ -2008,8 +2010,10 @@ allow
 list
 entries
 .
+RefPtr
+<
 PermissionManager
-*
+>
 permManager
 =
 PermissionManager

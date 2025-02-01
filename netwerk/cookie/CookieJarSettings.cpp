@@ -1617,8 +1617,10 @@ the
 permission
 manager
 .
+RefPtr
+<
 PermissionManager
-*
+>
 pm
 =
 PermissionManager

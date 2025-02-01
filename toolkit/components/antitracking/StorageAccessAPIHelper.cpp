@@ -5638,8 +5638,10 @@ __func__
 )
 ;
 }
+RefPtr
+<
 PermissionManager
-*
+>
 permManager
 =
 PermissionManager

@@ -346,8 +346,10 @@ expire
 )
 )
 ;
+RefPtr
+<
 PermissionManager
-*
+>
 permManager
 =
 PermissionManager
