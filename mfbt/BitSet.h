@@ -467,7 +467,7 @@ const
 return
 mBitSet
 .
-test
+Test
 (
 mPos
 )
@@ -575,7 +575,7 @@ kNumWords
 static
 constexpr
 size_t
-size
+Size
 (
 )
 {
@@ -585,7 +585,7 @@ N
 }
 constexpr
 bool
-test
+Test
 (
 size_t
 aPos
@@ -679,7 +679,7 @@ aPos
 const
 {
 return
-test
+Test
 (
 aPos
 )
@@ -1230,7 +1230,7 @@ const
 return
 FindPrev
 (
-size
+Size
 (
 )
 -

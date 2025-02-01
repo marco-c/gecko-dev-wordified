@@ -344,7 +344,7 @@ mController
 ;
 Maybe
 <
-RFPTargetSet
+RFPTarget
 >
 mOverriddenFingerprintingSettings
 ;

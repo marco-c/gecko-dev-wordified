@@ -1715,7 +1715,7 @@ nullptr
 }
 Maybe
 <
-RFPTargetSet
+uint64_t
 >
 overriddenFingerprintingSettingsArg
 ;
@@ -1734,12 +1734,15 @@ overriddenFingerprintingSettingsArg
 .
 emplace
 (
+uint64_t
+(
 loadInfo
 .
 mOverriddenFingerprintingSettings
 .
 ref
 (
+)
 )
 )
 ;

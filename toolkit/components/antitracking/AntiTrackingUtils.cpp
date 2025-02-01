@@ -6768,7 +6768,7 @@ protections
 .
 Maybe
 <
-RFPTargetSet
+RFPTarget
 >
 overriddenFingerprintingSettings
 =

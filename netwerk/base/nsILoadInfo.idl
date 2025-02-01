@@ -485,7 +485,7 @@ ServiceWorkerDescriptor
 ref
 ]
 native
-const_MaybeRFPTargetSet
+const_MaybeRFPTarget
 (
 const
 mozilla
@@ -496,17 +496,17 @@ Maybe
 mozilla
 :
 :
-RFPTargetSet
+RFPTarget
 >
 )
 ;
 native
-RFPTargetSet
+RFPTarget
 (
 mozilla
 :
 :
-RFPTargetSet
+RFPTarget
 )
 ;
 [
@@ -4922,7 +4922,7 @@ noscript
 nostdcall
 notxpcom
 ]
-const_MaybeRFPTargetSet
+const_MaybeRFPTarget
 GetOverriddenFingerprintingSettings
 (
 )
@@ -4953,7 +4953,7 @@ void
 SetOverriddenFingerprintingSettings
 (
 in
-RFPTargetSet
+RFPTarget
 aTargets
 )
 ;

@@ -529,18 +529,6 @@ UserNavigationInvolvement
 h
 "
 ;
-using
-mozilla
-:
-:
-RFPTargetSet
-from
-"
-nsRFPService
-.
-h
-"
-;
 namespace
 mozilla
 {
@@ -1518,7 +1506,7 @@ cspToInheritInfo
 StoragePermissionState
 storagePermission
 ;
-RFPTargetSet
+uint64_t
 ?
 overriddenFingerprintingSettings
 ;
@@ -2037,7 +2025,7 @@ requestBlockingReason
 StoragePermissionState
 storagePermission
 ;
-RFPTargetSet
+uint64_t
 ?
 overriddenFingerprintingSettings
 ;
