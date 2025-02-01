@@ -137,8 +137,8 @@ debug
 is
 allowed
 for
-jsm
-files
+system
+modules
 this
 is
 non
