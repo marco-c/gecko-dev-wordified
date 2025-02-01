@@ -2082,10 +2082,6 @@ EDirection
 aDirectionAndAmount
 IfSelectingOnlyOneAtomicContent
 aIfSelectingOnlyOneAtomicContent
-const
-Element
-*
-aEditingHost
 )
 {
 if
@@ -2189,7 +2185,6 @@ ShrinkRangeIfStartsFromOrEndsAfterAtomicContent
 (
 aHTMLEditor
 range
-aEditingHost
 )
 ;
 if

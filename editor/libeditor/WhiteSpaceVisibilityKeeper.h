@@ -390,6 +390,14 @@ WSRunScanner
 PointPosition
 ;
 using
+Scan
+=
+WSRunScanner
+:
+:
+Scan
+;
+using
 TextFragmentData
 =
 WSRunScanner
@@ -1550,10 +1558,6 @@ const
 EditorDOMPoint
 &
 aPointToInsert
-const
-Element
-&
-aEditingHost
 )
 ;
 /
@@ -1653,10 +1657,6 @@ EditorDOMPointType
 aPointToInsert
 InsertTextTo
 aInsertTextTo
-const
-Element
-&
-aEditingHost
 )
 {
 return
@@ -1672,7 +1672,6 @@ EditorDOMRange
 aPointToInsert
 )
 aInsertTextTo
-aEditingHost
 )
 ;
 }
@@ -1776,10 +1775,6 @@ EditorDOMRange
 aRangeToBeReplaced
 InsertTextTo
 aInsertTextTo
-const
-Element
-&
-aEditingHost
 )
 ;
 /
