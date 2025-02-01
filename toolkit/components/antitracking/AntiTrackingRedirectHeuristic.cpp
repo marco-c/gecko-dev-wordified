@@ -2324,7 +2324,7 @@ Telemetry
 LABELS_STORAGE_ACCESS_GRANTED_COUNT
 :
 :
-Redirect
+RedirectTracker
 )
 ;
 /

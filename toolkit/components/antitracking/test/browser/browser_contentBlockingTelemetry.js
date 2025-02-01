@@ -69,6 +69,16 @@ LABEL_REDIRECT
 =
 4
 ;
+const
+LABEL_REDIRECT_TRACKER
+=
+5
+;
+const
+LABEL_NAVIGATION
+=
+6
+;
 function
 clearTelemetry
 (
@@ -2429,7 +2439,7 @@ testTelemetry
 (
 true
 1
-LABEL_REDIRECT
+LABEL_REDIRECT_TRACKER
 expectedExpiredDaysRedirect
 )
 ;
