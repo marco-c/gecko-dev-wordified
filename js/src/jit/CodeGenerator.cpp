@@ -12823,6 +12823,19 @@ input
 )
 )
 ;
+Register
+temp
+=
+ToRegister
+(
+lir
+-
+>
+temp0
+(
+)
+)
+;
 bool
 intact
 =
@@ -12838,15 +12851,7 @@ intact
 assertObjectDoesNotEmulateUndefined
 (
 input
-ToRegister
-(
-lir
--
->
 temp
-(
-)
-)
 lir
 -
 >
@@ -12910,15 +12915,7 @@ testObjectEmulatesUndefined
 input
 falsy
 truthy
-ToRegister
-(
-lir
--
->
 temp
-(
-)
-)
 ool
 )
 ;
@@ -12997,7 +12994,7 @@ lir
 LTestVAndBranch
 :
 :
-Input
+InputIndex
 )
 ;
 Register
@@ -13034,7 +13031,7 @@ ToFloatRegister
 lir
 -
 >
-tempFloat
+temp0
 (
 )
 )
@@ -90939,7 +90936,7 @@ ToRegister
 lir
 -
 >
-temp1
+temp0
 (
 )
 )
@@ -90952,7 +90949,7 @@ ToTempRegisterOrInvalid
 lir
 -
 >
-temp2
+temp1
 (
 )
 )
@@ -92682,7 +92679,7 @@ lir
 LIsNullOrLikeUndefinedAndBranchV
 :
 :
-Value
+ValueIndex
 )
 ;
 MBasicBlock
@@ -92869,7 +92866,7 @@ ToRegister
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -92891,7 +92888,7 @@ ToTempUnboxRegister
 lir
 -
 >
-tempToUnbox
+temp1
 (
 )
 )
@@ -93475,7 +93472,7 @@ ToRegister
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -93884,7 +93881,7 @@ lir
 LIsNullAndBranch
 :
 :
-Value
+ValueIndex
 )
 ;
 Assembler
@@ -94047,7 +94044,7 @@ lir
 LIsUndefinedAndBranch
 :
 :
-Value
+ValueIndex
 )
 ;
 Assembler
@@ -116925,7 +116922,7 @@ lir
 LIsNoIterAndBranch
 :
 :
-Input
+InputIndex
 )
 ;
 Label
@@ -130241,7 +130238,7 @@ ToRegister
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -130254,7 +130251,7 @@ ToRegister
 lir
 -
 >
-temp2
+temp1
 (
 )
 )
@@ -143688,7 +143685,7 @@ ins
 LIsObjectAndBranch
 :
 :
-Input
+InputIndex
 )
 ;
 MBasicBlock
@@ -143915,7 +143912,7 @@ ins
 LIsNullOrUndefinedAndBranch
 :
 :
-Input
+InputIndex
 )
 ;
 ScratchTagScope
