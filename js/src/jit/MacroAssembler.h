@@ -8594,7 +8594,6 @@ ValueOperand
 &
 dest
 )
-PER_ARCH
 ;
 void
 moveValue
