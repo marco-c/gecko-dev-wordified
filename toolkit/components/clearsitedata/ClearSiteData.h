@@ -249,6 +249,9 @@ const
 enum
 Type
 {
+eCache
+=
+0x01
 eCookies
 =
 0x02
