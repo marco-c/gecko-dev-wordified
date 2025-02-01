@@ -7078,7 +7078,7 @@ temp
 )
 ;
 }
-LWasmAtomicExchangeHeap
+auto
 *
 lir
 =
@@ -7103,10 +7103,10 @@ value
 (
 )
 )
+memoryBase
 valueTemp
 offsetTemp
 maskTemp
-memoryBase
 )
 ;
 define
