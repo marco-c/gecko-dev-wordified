@@ -1761,6 +1761,8 @@ num_temps64
 call_instruction
     
 mir_op
+    
+extra_name
 )
 :
     
@@ -1962,6 +1964,29 @@ mir_name
 ;
 }
 }
+;
+"
+    
+extra_name_decl
+=
+"
+"
+    
+if
+extra_name
+:
+        
+extra_name_decl
+=
+"
+inline
+const
+char
+*
+extraName
+(
+)
+const
 ;
 "
     
@@ -2211,6 +2236,10 @@ args_getters
   
 {
 mir_accessor
+}
+  
+{
+extra_name_decl
 }
 }
 }
@@ -2550,6 +2579,25 @@ mir_op
 str
 )
             
+extra_name
+=
+op
+.
+get
+(
+"
+extra_name
+"
+False
+)
+            
+assert
+isinstance
+(
+extra_name
+bool
+)
+            
 lir_op_classes
 .
 append
@@ -2575,6 +2623,8 @@ num_temps64
 call_instruction
                     
 mir_op
+                    
+extra_name
                 
 )
             
@@ -2815,6 +2865,10 @@ mir_op
 =
 None
             
+extra_name
+=
+False
+            
 lir_op_classes
 .
 append
@@ -2840,6 +2894,8 @@ num_temps64
 call_instruction
                     
 mir_op
+                    
+extra_name
                 
 )
             

@@ -58175,7 +58175,7 @@ ToRegister
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -61164,7 +61164,7 @@ ToRegister
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -110254,7 +110254,7 @@ lir
 LStoreElementV
 :
 :
-Value
+ValueIndex
 )
 ;
 Register
