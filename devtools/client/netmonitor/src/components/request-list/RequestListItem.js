@@ -1329,6 +1329,9 @@ props
 "
 onWaterfallMouseDown
 "
+"
+slowLimit
+"
 ]
 }
 {
@@ -1773,6 +1776,11 @@ intersectionObserver
 PropTypes
 .
 object
+waterfallScale
+:
+PropTypes
+.
+number
 }
 ;
 }
@@ -2106,6 +2114,7 @@ onContextMenu
 onMouseDown
 onWaterfallMouseDown
 selectedActionBarTabId
+waterfallScale
 }
 =
 this
@@ -2388,6 +2397,7 @@ firstRequestStartedMs
 item
 onWaterfallMouseDown
 isVisible
+waterfallScale
 }
 )
 )
