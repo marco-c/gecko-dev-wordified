@@ -4160,8 +4160,17 @@ decoding
 VTSessionCopyProperty
 query
 failed
+%
+d
 )
 "
+static_cast
+<
+int
+>
+(
+rv
+)
 )
 ;
 }
