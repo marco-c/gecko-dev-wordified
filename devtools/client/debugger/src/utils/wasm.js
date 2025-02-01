@@ -58,6 +58,16 @@ MPL
 .
 *
 /
+/
+/
+Note
+this
+is
+used
+to
+support
+Codemirror
+5
 import
 {
 BinaryReader

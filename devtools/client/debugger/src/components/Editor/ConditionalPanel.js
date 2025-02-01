@@ -1044,8 +1044,6 @@ toEditorLine
 location
 .
 source
-.
-id
 location
 .
 line
@@ -1491,8 +1489,6 @@ toEditorLine
 location
 .
 source
-.
-id
 location
 .
 line

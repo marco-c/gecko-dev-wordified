@@ -1214,8 +1214,6 @@ clickedLine
 toSourceLine
 (
 selectedSource
-.
-id
 from
 .
 line
@@ -1230,8 +1228,6 @@ clickedLine
 toSourceLine
 (
 selectedSource
-.
-id
 to
 .
 line
@@ -1543,8 +1539,6 @@ startLine
 toSourceLine
 (
 selectedSource
-.
-id
 from
 .
 line
@@ -1556,8 +1550,6 @@ endLine
 toSourceLine
 (
 selectedSource
-.
-id
 to
 .
 line
@@ -2203,8 +2195,6 @@ startLine
 toSourceLine
 (
 source
-.
-id
 lineObject
 .
 from
@@ -2218,8 +2208,6 @@ endLine
 toSourceLine
 (
 source
-.
-id
 lineObject
 .
 to

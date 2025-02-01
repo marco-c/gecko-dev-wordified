@@ -706,8 +706,6 @@ line
 toEditorLine
 (
 selectedSource
-.
-id
 selectedLocation
 .
 line
@@ -933,8 +931,6 @@ line
 toEditorLine
 (
 selectedSource
-.
-id
 selectedLocation
 .
 line
