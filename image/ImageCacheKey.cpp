@@ -1027,6 +1027,7 @@ GetInnerWindow
 (
 )
 aURI
+true
 &
 rejectedReason
 )

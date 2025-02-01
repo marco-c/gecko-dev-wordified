@@ -4784,6 +4784,7 @@ ShouldAllowAccessFor
 (
 win
 uri
+true
 aRejectedReason
 )
 ;
