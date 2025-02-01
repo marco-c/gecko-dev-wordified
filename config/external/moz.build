@@ -202,6 +202,14 @@ modules
 woff2
 "
 ]
+if
+CONFIG
+[
+"
+MOZ_UPDATER
+"
+]
+:
 external_dirs
 +
 =
