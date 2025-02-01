@@ -885,7 +885,7 @@ operands
 .
     
 for
-index_value
+index
 operand
 in
 enumerate
@@ -911,6 +911,14 @@ operand
 :
 ]
         
+index_value
+=
+cap_operand
++
+"
+Index
+"
+        
 init_expr
 =
 f
@@ -926,6 +934,26 @@ operand
 )
 ;
 "
+        
+indices
+.
+append
+(
+f
+"
+static
+constexpr
+size_t
+{
+index_value
+}
+=
+{
+index
+}
+;
+"
+)
         
 if
 not
@@ -1048,6 +1076,22 @@ cap_operand
 Index
 "
         
+init_expr
+=
+f
+"
+setBoxOperand
+(
+{
+index_value
+}
+{
+operand
+}
+)
+;
+"
+        
 indices
 .
 append
@@ -1073,22 +1117,6 @@ reg_operands
 "
         
 )
-        
-init_expr
-=
-f
-"
-setBoxOperand
-(
-{
-index_value
-}
-{
-operand
-}
-)
-;
-"
         
 if
 not
@@ -1208,6 +1236,22 @@ cap_operand
 Index
 "
         
+init_expr
+=
+f
+"
+setInt64Operand
+(
+{
+index_value
+}
+{
+operand
+}
+)
+;
+"
+        
 indices
 .
 append
@@ -1234,22 +1278,6 @@ value_operands
 "
         
 )
-        
-init_expr
-=
-f
-"
-setInt64Operand
-(
-{
-index_value
-}
-{
-operand
-}
-)
-;
-"
         
 if
 not
