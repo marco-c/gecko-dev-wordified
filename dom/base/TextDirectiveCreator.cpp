@@ -3847,7 +3847,13 @@ UseExactMatch
 )
 {
 return
+std
+:
+:
+move
+(
 newCandidates
+)
 ;
 }
 MOZ_TRY
@@ -3964,7 +3970,13 @@ nullptr
 )
 ;
 return
+std
+:
+:
+move
+(
 newCandidates
+)
 ;
 }
 nsTArray
