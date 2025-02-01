@@ -101,6 +101,13 @@ h
 >
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 vpx_scale
 /
@@ -1699,6 +1706,11 @@ endif
 /
 /
 VPX_MAX_ALLOCABLE_MEMORY
+#
+if
+UINT64_MAX
+>
+SIZE_MAX
 /
 /
 frame_size
@@ -1734,6 +1746,8 @@ return
 1
 ;
 }
+#
+endif
 if
 (
 cb

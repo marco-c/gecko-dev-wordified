@@ -203,7 +203,7 @@ structures
 define
 VPX_EXT_RATECTRL_ABI_VERSION
 (
-5
+6
 +
 VPX_TPL_ABI_VERSION
 )
