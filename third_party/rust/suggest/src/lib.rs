@@ -178,6 +178,7 @@ provider
 :
 :
 {
+AmpMatchingStrategy
 SuggestionProvider
 SuggestionProviderConstraints
 }
