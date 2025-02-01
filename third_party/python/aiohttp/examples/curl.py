@@ -12,6 +12,8 @@ argparse
 import
 asyncio
 import
+sys
+import
 aiohttp
 async
 def
@@ -172,6 +174,15 @@ if
 options
 .
 iocp
+and
+sys
+.
+platform
+=
+=
+"
+win32
+"
 :
         
 from
@@ -180,6 +191,23 @@ import
 events
 windows_events
         
+#
+https
+:
+/
+/
+github
+.
+com
+/
+python
+/
+mypy
+/
+issues
+/
+12286
+        
 el
 =
 windows_events
@@ -187,6 +215,15 @@ windows_events
 ProactorEventLoop
 (
 )
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
         
 events
 .

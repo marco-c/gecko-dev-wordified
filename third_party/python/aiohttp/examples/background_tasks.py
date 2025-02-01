@@ -26,12 +26,48 @@ handler
 "
 import
 asyncio
+from
+typing
+import
+List
 import
 aioredis
 from
 aiohttp
 import
 web
+redis_listener
+=
+web
+.
+AppKey
+(
+"
+redis_listener
+"
+asyncio
+.
+Task
+[
+None
+]
+)
+websockets
+=
+web
+.
+AppKey
+(
+"
+websockets
+"
+List
+[
+web
+.
+WebSocketResponse
+]
+)
 async
 def
 websocket_handler
@@ -60,9 +96,7 @@ request
 .
 app
 [
-"
 websockets
-"
 ]
 .
 append
@@ -100,9 +134,7 @@ request
 .
 app
 [
-"
 websockets
-"
 ]
 .
 remove
@@ -117,7 +149,14 @@ def
 on_shutdown
 (
 app
+:
+web
+.
+Application
 )
+-
+>
+None
 :
     
 for
@@ -125,9 +164,7 @@ ws
 in
 app
 [
-"
 websockets
-"
 ]
 :
         
@@ -141,6 +178,7 @@ code
 999
 message
 =
+b
 "
 Server
 shutdown
@@ -162,19 +200,16 @@ sub
 await
 aioredis
 .
-create_redis
+Redis
 (
-(
+host
+=
 "
 localhost
 "
-6379
-)
-loop
+port
 =
-app
-.
-loop
+6379
 )
         
 ch
@@ -223,9 +258,7 @@ ws
 in
 app
 [
-"
 websockets
-"
 ]
 :
                 
@@ -335,9 +368,7 @@ None
     
 app
 [
-"
 redis_listener
-"
 ]
 =
 asyncio
@@ -371,9 +402,7 @@ tasks
     
 app
 [
-"
 redis_listener
-"
 ]
 .
 cancel
@@ -383,9 +412,7 @@ cancel
 await
 app
 [
-"
 redis_listener
-"
 ]
 def
 init
@@ -401,15 +428,24 @@ Application
 (
 )
     
-app
+l
+:
+List
 [
-"
-websockets
-"
+web
+.
+WebSocketResponse
 ]
 =
 [
 ]
+    
+app
+[
+websockets
+]
+=
+l
     
 app
 .

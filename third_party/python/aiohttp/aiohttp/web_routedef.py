@@ -51,11 +51,6 @@ PathLike
 if
 TYPE_CHECKING
 :
-#
-pragma
-:
-no
-cover
     
 from
 .
@@ -1064,7 +1059,6 @@ int
 >
 AbstractRouteDef
 :
-        
 .
 .
 .
@@ -1086,7 +1080,6 @@ List
 AbstractRouteDef
 ]
 :
-        
 .
 .
 .

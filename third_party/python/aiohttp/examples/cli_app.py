@@ -122,15 +122,37 @@ from
 argparse
 import
 ArgumentParser
+Namespace
 from
 aiohttp
 import
 web
+args_key
+=
+web
+.
+AppKey
+(
+"
+args_key
+"
+Namespace
+)
+async
 def
 display_message
 (
 req
+:
+web
+.
+Request
 )
+-
+>
+web
+.
+StreamResponse
 :
     
 args
@@ -139,9 +161,7 @@ req
 .
 app
 [
-"
-args
-"
+args_key
 ]
     
 text
@@ -323,9 +343,7 @@ Application
     
 app
 [
-"
-args
-"
+args_key
 ]
 =
 args

@@ -21,8 +21,64 @@ server
 "
 "
 "
+#
+The
+extra
+strict
+mypy
+settings
+are
+here
+to
+help
+test
+that
+Application
+[
+AppKey
+(
+)
+]
+#
+syntax
+is
+working
+correctly
+.
+A
+regression
+will
+cause
+mypy
+to
+raise
+an
+error
+.
+#
+mypy
+:
+disallow
+-
+any
+-
+expr
+disallow
+-
+any
+-
+unimported
+disallow
+-
+subclassing
+-
+any
 import
 os
+from
+typing
+import
+List
 from
 aiohttp
 import
@@ -49,12 +105,37 @@ websocket
 html
 "
 )
+sockets
+=
+web
+.
+AppKey
+(
+"
+sockets
+"
+List
+[
+web
+.
+WebSocketResponse
+]
+)
 async
 def
 wshandler
 (
 request
+:
+web
+.
+Request
 )
+-
+>
+web
+.
+StreamResponse
 :
     
 resp
@@ -152,9 +233,7 @@ request
 .
 app
 [
-"
 sockets
-"
 ]
 :
             
@@ -173,9 +252,7 @@ request
 .
 app
 [
-"
 sockets
-"
 ]
 .
 append
@@ -189,6 +266,13 @@ msg
 in
 resp
 :
+#
+type
+:
+ignore
+[
+misc
+]
             
 if
 msg
@@ -202,6 +286,13 @@ WSMsgType
 .
 TEXT
 :
+#
+type
+:
+ignore
+[
+misc
+]
                 
 for
 ws
@@ -210,9 +301,7 @@ request
 .
 app
 [
-"
 sockets
-"
 ]
 :
                     
@@ -232,6 +321,13 @@ msg
 .
 data
 )
+#
+type
+:
+ignore
+[
+misc
+]
             
 else
 :
@@ -249,9 +345,7 @@ request
 .
 app
 [
-"
 sockets
-"
 ]
 .
 remove
@@ -275,9 +369,7 @@ request
 .
 app
 [
-"
 sockets
-"
 ]
 :
             
@@ -297,7 +389,14 @@ def
 on_shutdown
 (
 app
+:
+web
+.
+Application
 )
+-
+>
+None
 :
     
 for
@@ -305,9 +404,7 @@ ws
 in
 app
 [
-"
 sockets
-"
 ]
 :
         
@@ -321,6 +418,11 @@ def
 init
 (
 )
+-
+>
+web
+.
+Application
 :
     
 app
@@ -331,15 +433,24 @@ Application
 (
 )
     
-app
+l
+:
+List
 [
-"
-sockets
-"
+web
+.
+WebSocketResponse
 ]
 =
 [
 ]
+    
+app
+[
+sockets
+]
+=
+l
     
 app
 .

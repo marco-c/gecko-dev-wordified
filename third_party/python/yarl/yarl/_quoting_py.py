@@ -693,9 +693,7 @@ if
 self
 .
 _qs
-:
-                
-if
+and
 ch
 =
 =
@@ -705,7 +703,7 @@ ord
 "
 )
 :
-                    
+                
 ret
 .
 append
@@ -717,7 +715,7 @@ ord
 "
 )
 )
-                    
+                
 continue
             
 if

@@ -7,7 +7,9 @@ typing
 import
 TYPE_CHECKING
 Awaitable
+Mapping
 Optional
+Protocol
 Type
 TypeVar
 import
@@ -32,23 +34,12 @@ ClientResponse
 if
 TYPE_CHECKING
 :
-#
-pragma
-:
-no
-cover
     
 from
 .
 client
 import
 ClientSession
-    
-from
-.
-typedefs
-import
-Protocol
     
 _ParamT_contra
 =
@@ -98,7 +89,6 @@ Awaitable
 None
 ]
 :
-            
 .
 .
 .
@@ -223,17 +213,19 @@ _on_request_start
 :
 Signal
 [
-            
 _SignalCallback
 [
 TraceRequestStartParams
 ]
-        
 ]
 =
+(
+            
 Signal
 (
 self
+)
+        
 )
         
 self
@@ -470,17 +462,19 @@ _on_dns_cache_hit
 :
 Signal
 [
-            
 _SignalCallback
 [
 TraceDnsCacheHitParams
 ]
-        
 ]
 =
+(
+            
 Signal
 (
 self
+)
+        
 )
         
 self
@@ -489,17 +483,19 @@ _on_dns_cache_miss
 :
 Signal
 [
-            
 _SignalCallback
 [
 TraceDnsCacheMissParams
 ]
-        
 ]
 =
+(
+            
 Signal
 (
 self
+)
+        
 )
         
 self
@@ -536,7 +532,11 @@ trace_request_ctx
 :
 Optional
 [
-SimpleNamespace
+Mapping
+[
+str
+str
+]
 ]
 =
 None

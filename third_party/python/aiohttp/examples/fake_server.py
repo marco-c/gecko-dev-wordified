@@ -15,6 +15,10 @@ import
 socket
 import
 ssl
+from
+typing
+import
+List
 import
 aiohttp
 from
@@ -27,6 +31,7 @@ aiohttp
 abc
 import
 AbstractResolver
+ResolveResult
 from
 aiohttp
 .
@@ -130,17 +135,36 @@ async
 def
 resolve
 (
+        
 self
+        
 host
+:
+str
+        
 port
+:
+int
 =
 0
+        
 family
+:
+socket
+.
+AddressFamily
 =
 socket
 .
 AF_INET
+    
 )
+-
+>
+List
+[
+ResolveResult
+]
 :
         
 fake_port
@@ -240,6 +264,7 @@ self
 None
 :
         
+await
 self
 .
 _resolver
