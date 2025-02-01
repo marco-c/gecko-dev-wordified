@@ -1900,8 +1900,14 @@ from
 the
 image
 cache
+or
+request
+it
 .
-nsresult
+already_AddRefed
+<
+imgIContainer
+>
 GetImage
 (
 int32_t
@@ -1914,10 +1920,6 @@ aUseContext
 ComputedStyle
 *
 aComputedStyle
-imgIContainer
-*
-*
-aResult
 )
 ;
 /
