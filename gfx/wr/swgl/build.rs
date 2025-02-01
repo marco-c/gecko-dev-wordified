@@ -94,8 +94,8 @@ shader
 :
 :
 {
-ShaderFeatureFlags
 get_shader_features
+ShaderFeatureFlags
 }
 ;
 /
