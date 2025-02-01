@@ -438,6 +438,9 @@ class
 Optional
 ;
 class
+OwningTrustedScriptURLOrString
+;
+class
 Performance
 ;
 class
@@ -1416,6 +1419,7 @@ IgnoreErrors
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 ImportScripts
 (
@@ -1425,7 +1429,7 @@ aCx
 const
 Sequence
 <
-nsString
+OwningTrustedScriptURLOrString
 >
 &
 aScriptURLs
