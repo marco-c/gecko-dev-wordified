@@ -2599,7 +2599,7 @@ r
 >
 mgr
 .
-getReports
+getReportsExtended
 (
 handleReport
 null
@@ -2612,6 +2612,14 @@ anonymized
 *
 /
 false
+/
+*
+minimizeMemoryUsage
+=
+*
+/
+true
+null
 )
 )
 ;
