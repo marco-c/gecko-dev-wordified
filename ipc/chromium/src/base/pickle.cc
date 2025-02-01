@@ -271,7 +271,7 @@ h
 -
 static_assert
 (
-MOZ_ALIGNOF
+alignof
 (
 Pickle
 :
@@ -280,7 +280,7 @@ memberAlignmentType
 )
 >
 =
-MOZ_ALIGNOF
+alignof
 (
 uint32_t
 )
@@ -590,14 +590,14 @@ hiIndex
 endif
 static_assert
 (
-MOZ_ALIGNOF
+alignof
 (
 uint32_t
 *
 )
 =
 =
-MOZ_ALIGNOF
+alignof
 (
 void
 *
@@ -712,7 +712,7 @@ iter
 )
 &
 (
-MOZ_ALIGNOF
+alignof
 (
 T
 )
@@ -827,7 +827,7 @@ sizeof
 T
 )
 (
-MOZ_ALIGNOF
+alignof
 (
 T
 )
