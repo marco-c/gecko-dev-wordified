@@ -5090,6 +5090,7 @@ nsILoadInfo
 :
 :
 SchemelessInputTypeSchemeless
+)
 &
 &
 mozilla
@@ -5101,7 +5102,14 @@ StaticPrefs
 dom_security_https_first_schemeless
 (
 )
-)
+&
+&
+!
+isHttpsOnly
+&
+&
+!
+isHttpsFirst
 ;
 if
 (
