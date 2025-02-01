@@ -1632,7 +1632,8 @@ see
 :
 PanelMultiView
 .
-_isNavigableWithTabOnly
+#
+isNavigableWithTabOnly
 (
 )
 .
