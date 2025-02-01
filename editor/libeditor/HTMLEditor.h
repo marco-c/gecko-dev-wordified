@@ -29850,12 +29850,12 @@ created
 element
 .
 If
-aAnonClass
+aClass
 is
 not
-*
 the
 empty
+*
 string
 it
 becomes
@@ -29863,10 +29863,8 @@ the
 value
 of
 the
+class
 attribute
-"
-_moz_anonclass
-"
 *
 return
 a
@@ -29901,7 +29899,7 @@ anonymous
 element
 *
 param
-aAnonClass
+aClass
 [
 IN
 ]
@@ -29950,7 +29948,7 @@ aParentContent
 const
 nsAString
 &
-aAnonClass
+aClass
 bool
 aIsCreatedHidden
 )
