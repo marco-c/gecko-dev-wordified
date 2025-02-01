@@ -307,7 +307,7 @@ x
 SVGLength_Binding
 :
 :
-SVG_LENGTHTYPE_PERCENTAGE
+SVG_LENGTHTYPE_NUMBER
 SVGContentUtils
 :
 :
@@ -322,7 +322,7 @@ y
 SVGLength_Binding
 :
 :
-SVG_LENGTHTYPE_PERCENTAGE
+SVG_LENGTHTYPE_NUMBER
 SVGContentUtils
 :
 :
@@ -337,7 +337,7 @@ width
 SVGLength_Binding
 :
 :
-SVG_LENGTHTYPE_PERCENTAGE
+SVG_LENGTHTYPE_NUMBER
 SVGContentUtils
 :
 :
@@ -352,7 +352,7 @@ height
 SVGLength_Binding
 :
 :
-SVG_LENGTHTYPE_PERCENTAGE
+SVG_LENGTHTYPE_NUMBER
 SVGContentUtils
 :
 :
