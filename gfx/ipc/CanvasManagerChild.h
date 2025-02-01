@@ -266,6 +266,13 @@ RemoteTextureOwnerId
 >
 &
 aOwnerId
+const
+Maybe
+<
+RawId
+>
+&
+aCommandEncoderId
 SurfaceFormat
 aFormat
 bool

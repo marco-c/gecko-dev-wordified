@@ -369,9 +369,6 @@ override
 ;
 already_AddRefed
 <
-mozilla
-:
-:
 gfx
 :
 :

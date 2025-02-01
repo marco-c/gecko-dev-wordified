@@ -1393,6 +1393,13 @@ RemoteTextureOwnerId
 >
 &
 aOwnerId
+const
+Maybe
+<
+RawId
+>
+&
+aCommandEncoderId
 SurfaceFormat
 aFormat
 bool
@@ -1427,6 +1434,7 @@ SendGetSnapshot
 aManagerId
 aProtocolId
 aOwnerId
+aCommandEncoderId
 &
 res
 )
