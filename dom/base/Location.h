@@ -422,7 +422,7 @@ void
 Assign
 (
 const
-nsAString
+nsACString
 &
 aUrl
 nsIPrincipal
@@ -449,7 +449,7 @@ aError
 void
 GetHref
 (
-nsAString
+nsACString
 &
 aHref
 nsIPrincipal
@@ -491,7 +491,7 @@ aHref
 void
 GetOrigin
 (
-nsAString
+nsACString
 &
 aOrigin
 nsIPrincipal
@@ -505,7 +505,7 @@ aError
 void
 GetProtocol
 (
-nsAString
+nsACString
 &
 aProtocol
 nsIPrincipal
@@ -520,7 +520,7 @@ void
 SetProtocol
 (
 const
-nsAString
+nsACString
 &
 aProtocol
 nsIPrincipal
@@ -534,7 +534,7 @@ aError
 void
 GetHost
 (
-nsAString
+nsACString
 &
 aHost
 nsIPrincipal
@@ -549,7 +549,7 @@ void
 SetHost
 (
 const
-nsAString
+nsACString
 &
 aHost
 nsIPrincipal
@@ -563,7 +563,7 @@ aError
 void
 GetHostname
 (
-nsAString
+nsACString
 &
 aHostname
 nsIPrincipal
@@ -578,7 +578,7 @@ void
 SetHostname
 (
 const
-nsAString
+nsACString
 &
 aHostname
 nsIPrincipal
@@ -592,7 +592,7 @@ aError
 void
 GetPort
 (
-nsAString
+nsACString
 &
 aPort
 nsIPrincipal
@@ -607,7 +607,7 @@ void
 SetPort
 (
 const
-nsAString
+nsACString
 &
 aPort
 nsIPrincipal
@@ -621,7 +621,7 @@ aError
 void
 GetPathname
 (
-nsAString
+nsACString
 &
 aPathname
 nsIPrincipal
@@ -636,7 +636,7 @@ void
 SetPathname
 (
 const
-nsAString
+nsACString
 &
 aPathname
 nsIPrincipal
@@ -650,7 +650,7 @@ aError
 void
 GetSearch
 (
-nsAString
+nsACString
 &
 aSeach
 nsIPrincipal
@@ -665,7 +665,7 @@ void
 SetSearch
 (
 const
-nsAString
+nsACString
 &
 aSeach
 nsIPrincipal
@@ -679,7 +679,7 @@ aError
 void
 GetHash
 (
-nsAString
+nsACString
 &
 aHash
 nsIPrincipal
@@ -694,7 +694,7 @@ void
 SetHash
 (
 const
-nsAString
+nsACString
 &
 aHash
 nsIPrincipal
@@ -745,26 +745,11 @@ methods
 nsresult
 GetHref
 (
-nsAString
+nsACString
 &
 aHref
 )
 ;
-nsresult
-ToString
-(
-nsAString
-&
-aString
-)
-{
-return
-GetHref
-(
-aString
-)
-;
-}
 void
 ClearCachedValues
 (
@@ -884,7 +869,7 @@ nsIPrincipal
 aSubjectPrincipal
 )
 ;
-nsString
+nsCString
 mCachedHash
 ;
 nsCOMPtr

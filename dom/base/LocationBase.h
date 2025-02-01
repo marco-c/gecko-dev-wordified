@@ -341,7 +341,7 @@ void
 Replace
 (
 const
-nsAString
+nsACString
 &
 aUrl
 nsIPrincipal
@@ -356,7 +356,7 @@ void
 SetHref
 (
 const
-nsAString
+nsACString
 &
 aHref
 nsIPrincipal
@@ -409,7 +409,7 @@ void
 SetHrefWithBase
 (
 const
-nsAString
+nsACString
 &
 aHref
 nsIURI
@@ -438,7 +438,7 @@ void
 DoSetHref
 (
 const
-nsAString
+nsACString
 &
 aHref
 nsIPrincipal

@@ -1490,7 +1490,7 @@ LocationBase
 SetHref
 (
 const
-nsAString
+nsACString
 &
 aHref
 nsIPrincipal
@@ -1517,7 +1517,7 @@ LocationBase
 DoSetHref
 (
 const
-nsAString
+nsACString
 &
 aHref
 nsIPrincipal
@@ -1565,7 +1565,7 @@ LocationBase
 SetHrefWithBase
 (
 const
-nsAString
+nsACString
 &
 aHref
 nsIURI
@@ -1657,10 +1657,7 @@ ThrowSyntaxError
 "
 _ns
 +
-NS_ConvertUTF16toUTF8
-(
 aHref
-)
 +
 "
 '
@@ -1964,7 +1961,7 @@ LocationBase
 Replace
 (
 const
-nsAString
+nsACString
 &
 aUrl
 nsIPrincipal
