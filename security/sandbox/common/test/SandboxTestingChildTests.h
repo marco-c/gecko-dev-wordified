@@ -171,6 +171,15 @@ XP_LINUX
 #
 include
 <
+arpa
+/
+inet
+.
+h
+>
+#
+include
+<
 linux
 /
 mempolicy
