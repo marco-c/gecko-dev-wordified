@@ -3538,13 +3538,13 @@ ecx
 ebx
 )
 )
-tempFixed
+tempInt64Fixed
+(
+Register64
 (
 edx
-)
-tempFixed
-(
 eax
+)
 )
 )
 ;
