@@ -1557,10 +1557,6 @@ wasm
 BytecodeOffset
 (
 )
-bool
-preserveInstance
-=
-false
 )
 ;
 void
