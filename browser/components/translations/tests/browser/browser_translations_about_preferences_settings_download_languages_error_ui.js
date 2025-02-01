@@ -144,7 +144,7 @@ spm
 ]
 ;
 const
-spainishModels
+spanishModels
 =
 [
 "
@@ -865,11 +865,11 @@ translationModels
 .
 resolvePendingDownloads
 (
-spainishModels
+spanishModels
 .
 length
 )
-spainishModels
+spanishModels
 "
 Spanish
 models
