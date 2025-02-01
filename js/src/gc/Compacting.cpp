@@ -3274,7 +3274,15 @@ gcContext
 (
 )
 ;
-discardJitCode
+MOZ_ASSERT
+(
+!
+isPreservingCode
+(
+)
+)
+;
+forceDiscardJitCode
 (
 gcx
 )
