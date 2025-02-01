@@ -1128,6 +1128,15 @@ only
 -
 prefs
 "
+HTTPSFirst
+:
+supportBaseURL
++
+"
+https
+-
+first
+"
 HTML_PARSER__DOCTYPE
 :
 DOCTYPE_MODES_LEARN_MORE
