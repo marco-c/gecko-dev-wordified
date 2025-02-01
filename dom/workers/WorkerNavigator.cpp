@@ -405,6 +405,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mPermissions
 )
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mServiceWorkerContainer
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 WorkerNavigator
 :
@@ -567,6 +571,10 @@ nullptr
 ;
 }
 mPermissions
+=
+nullptr
+;
+mServiceWorkerContainer
 =
 nullptr
 ;
