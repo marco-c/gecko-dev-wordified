@@ -1868,15 +1868,11 @@ QuickSuggest
 .
 blockedSuggestions
 .
-has
+isResultBlocked
 (
 details
 .
 result
-.
-payload
-.
-originalUrl
 )
 !
 allDismissed

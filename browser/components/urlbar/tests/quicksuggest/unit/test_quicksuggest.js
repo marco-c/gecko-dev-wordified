@@ -8475,7 +8475,7 @@ QuickSuggest
 .
 blockedSuggestions
 .
-add
+blockResult
 (
 context
 .
@@ -8483,10 +8483,6 @@ results
 [
 0
 ]
-.
-payload
-.
-url
 )
 ;
 /
@@ -8766,13 +8762,9 @@ QuickSuggest
 .
 blockedSuggestions
 .
-add
+blockResult
 (
 result
-.
-payload
-.
-originalUrl
 )
 ;
 /

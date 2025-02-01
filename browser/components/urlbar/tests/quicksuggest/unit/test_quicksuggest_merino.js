@@ -3515,11 +3515,14 @@ QuickSuggest
 .
 blockedSuggestions
 .
-has
+isResultBlocked
 (
-suggestion
+context
 .
-url
+results
+[
+0
+]
 )
 "
 The
