@@ -1930,17 +1930,9 @@ always
 -
 stdout
 "
-)
-.
-encode
-(
-                
-"
-utf
--
-8
-"
-            
+encoding
+=
+None
 )
             
 for
