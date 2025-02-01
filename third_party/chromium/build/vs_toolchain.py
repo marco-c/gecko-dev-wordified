@@ -55,8 +55,6 @@ json
 import
 os
 import
-pipes
-import
 platform
 import
 re
