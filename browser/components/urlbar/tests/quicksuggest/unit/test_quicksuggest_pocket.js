@@ -1750,6 +1750,13 @@ getFeature
 PocketSuggestions
 "
 )
+expectedCountsByCall
+:
+{
+removeResult
+:
+1
+}
 }
 )
 ;
@@ -2068,6 +2075,13 @@ getFeature
 PocketSuggestions
 "
 )
+expectedCountsByCall
+:
+{
+removeResult
+:
+1
+}
 }
 )
 ;
