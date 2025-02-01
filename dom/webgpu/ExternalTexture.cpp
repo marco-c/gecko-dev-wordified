@@ -240,17 +240,6 @@ defined
 (
 MOZ_WIDGET_GTK
 )
-auto
-*
-context
-=
-aParent
--
->
-GetContext
-(
-)
-;
 texture
 =
 ExternalTextureDMABuf
@@ -258,7 +247,7 @@ ExternalTextureDMABuf
 :
 Create
 (
-context
+aParent
 aDeviceId
 aWidth
 aHeight
