@@ -1612,6 +1612,13 @@ DOMEventTargetHelper
 aGlobal
 )
 {
+if
+(
+NS_IsMainThread
+(
+)
+)
+{
 mNotifier
 =
 CookieStoreNotifier
@@ -1622,6 +1629,7 @@ Create
 this
 )
 ;
+}
 /
 /
 This
