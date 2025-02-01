@@ -5258,6 +5258,14 @@ currentCallee
 hasBaseScript
 (
 )
+&
+&
+fun
+-
+>
+hasBaseScript
+(
+)
 )
 {
 if
