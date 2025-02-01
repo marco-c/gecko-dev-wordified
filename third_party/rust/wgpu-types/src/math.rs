@@ -6,7 +6,7 @@ math
 functions
 .
 use
-std
+core
 :
 :
 ops

@@ -3536,7 +3536,10 @@ wants_extended_dynamic_range_content
 }
 }
 mod
-accelerator_structure
+acceleration_structure
+;
+mod
+acceleration_structure_pass
 ;
 mod
 argument
@@ -3638,7 +3641,11 @@ skip
 pub
 use
 {
-accelerator_structure
+acceleration_structure
+:
+:
+*
+acceleration_structure_pass
 :
 :
 *

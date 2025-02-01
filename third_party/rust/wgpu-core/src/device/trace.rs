@@ -846,13 +846,6 @@ wgt
 :
 BlasGeometrySizeDescriptors
 }
-FreeBlas
-(
-id
-:
-:
-BlasId
-)
 DestroyBlas
 (
 id
@@ -882,13 +875,6 @@ TlasDescriptor
 a
 >
 }
-FreeTlas
-(
-id
-:
-:
-TlasId
-)
 DestroyTlas
 (
 id

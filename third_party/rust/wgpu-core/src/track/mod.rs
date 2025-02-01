@@ -880,9 +880,6 @@ mod
 range
 ;
 mod
-ray_tracing
-;
-mod
 stateless
 ;
 mod
@@ -935,18 +932,6 @@ thiserror
 :
 :
 Error
-;
-use
-crate
-:
-:
-track
-:
-:
-ray_tracing
-:
-:
-AccelerationStructureTracker
 ;
 pub
 (
@@ -4335,7 +4320,7 @@ TextureTracker
 pub
 blas_s
 :
-AccelerationStructureTracker
+StatelessTracker
 <
 resource
 :
@@ -4345,7 +4330,7 @@ Blas
 pub
 tlas_s
 :
-AccelerationStructureTracker
+StatelessTracker
 <
 resource
 :
@@ -4445,7 +4430,7 @@ new
 )
 blas_s
 :
-AccelerationStructureTracker
+StatelessTracker
 :
 :
 new
@@ -4453,7 +4438,7 @@ new
 )
 tlas_s
 :
-AccelerationStructureTracker
+StatelessTracker
 :
 :
 new

@@ -1382,8 +1382,11 @@ self
 )
 -
 >
+Option
+<
 &
 CounterSampleBufferRef
+>
 {
 unsafe
 {

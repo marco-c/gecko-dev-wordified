@@ -144,7 +144,7 @@ is
 equivalent
 to
 [
-std
+core
 :
 :
 assert
@@ -159,7 +159,7 @@ otherwise
 equal
 to
 [
-std
+core
 :
 :
 debug_assert
@@ -213,7 +213,7 @@ is
 equivalent
 to
 [
-std
+core
 :
 :
 assert_eq
@@ -228,7 +228,7 @@ otherwise
 equal
 to
 [
-std
+core
 :
 :
 debug_assert_eq
@@ -282,7 +282,7 @@ is
 equivalent
 to
 [
-std
+core
 :
 :
 assert_ne
@@ -297,7 +297,7 @@ otherwise
 equal
 to
 [
-std
+core
 :
 :
 debug_assert_ne
@@ -351,7 +351,7 @@ is
 equivalent
 to
 [
-std
+core
 :
 :
 assert
@@ -366,7 +366,7 @@ otherwise
 equal
 to
 [
-std
+core
 :
 :
 debug_assert
@@ -423,7 +423,7 @@ is
 equivalent
 to
 [
-std
+core
 :
 :
 assert_eq
@@ -438,7 +438,7 @@ otherwise
 equal
 to
 [
-std
+core
 :
 :
 debug_assert_eq
@@ -495,7 +495,7 @@ is
 equivalent
 to
 [
-std
+core
 :
 :
 assert_ne
@@ -510,7 +510,7 @@ otherwise
 equal
 to
 [
-std
+core
 :
 :
 debug_assert_ne

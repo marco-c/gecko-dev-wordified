@@ -2183,9 +2183,6 @@ accel
 Option
 <
 &
-accelerator_structure
-:
-:
 AccelerationStructureRef
 >
 )
@@ -4059,9 +4056,6 @@ accel
 Option
 <
 &
-accelerator_structure
-:
-:
 AccelerationStructureRef
 >
 )
@@ -8031,9 +8025,6 @@ accel
 Option
 <
 &
-accelerator_structure
-:
-:
 AccelerationStructureRef
 >
 )

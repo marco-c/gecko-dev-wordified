@@ -120,15 +120,10 @@ metal
 "
 any
 (
-target_os
+target_vendor
 =
 "
-macos
-"
-target_os
-=
-"
-ios
+apple
 "
 )
 )
