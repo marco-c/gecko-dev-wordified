@@ -84,8 +84,6 @@ http3_setup_tests
 (
 "
 h3
--
-29
 "
 )
 ;
@@ -357,8 +355,6 @@ equal
 httpVersion
 "
 h3
--
-29
 "
 )
 ;

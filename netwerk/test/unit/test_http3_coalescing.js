@@ -540,8 +540,6 @@ host1
 }
 ;
 h3
--
-29
 =
 :
 {
@@ -609,8 +607,6 @@ req
 protocolVersion
 "
 h3
--
-29
 "
 )
 ;
@@ -660,8 +656,6 @@ host2
 }
 ;
 h3
--
-29
 =
 :
 {
@@ -727,8 +721,6 @@ req
 protocolVersion
 "
 h3
--
-29
 "
 )
 ;
@@ -785,8 +777,6 @@ http3_setup_tests
 (
 "
 h3
--
-29
 "
 )
 ;

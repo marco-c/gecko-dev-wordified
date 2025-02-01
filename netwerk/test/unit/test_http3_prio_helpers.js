@@ -466,8 +466,6 @@ equal
 httpVersion
 "
 h3
--
-29
 "
 )
 ;

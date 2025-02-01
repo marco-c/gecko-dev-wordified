@@ -799,8 +799,6 @@ equal
 httpVersion
 "
 h3
--
-29
 "
 )
 ;
@@ -976,8 +974,6 @@ equal
 httpVersion
 "
 h3
--
-29
 "
 )
 ;
@@ -1119,8 +1115,6 @@ alt
 svc
 =
 h3
--
-29
 =
 :
 h3port
