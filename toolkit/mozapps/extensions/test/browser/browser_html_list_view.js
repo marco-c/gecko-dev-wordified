@@ -792,6 +792,8 @@ ok
 (
 disableToggle
 .
+buttonEl
+.
 getAttribute
 (
 "
@@ -927,6 +929,8 @@ label
 ok
 (
 disableToggle
+.
+buttonEl
 .
 getAttribute
 (
