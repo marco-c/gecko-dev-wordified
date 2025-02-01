@@ -1956,10 +1956,10 @@ alloc
 LDivConstantI
 (
 lhs
-rhs
 temp
 (
 )
+rhs
 )
 ;
 if
@@ -4502,10 +4502,10 @@ alloc
 LUDivConstantI
 (
 lhs
-rhs
 temp
 (
 )
+rhs
 )
 ;
 if

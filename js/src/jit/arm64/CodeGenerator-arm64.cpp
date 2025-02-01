@@ -3747,7 +3747,7 @@ toWRegister
 ins
 -
 >
-temp
+temp0
 (
 )
 )
@@ -4186,6 +4186,11 @@ if
 ins
 -
 >
+mir
+(
+)
+-
+>
 canBeNegativeDividend
 (
 )
@@ -4530,7 +4535,7 @@ toWRegister
 ins
 -
 >
-temp
+temp0
 (
 )
 )
@@ -13210,7 +13215,7 @@ ToRegister
 ins
 -
 >
-remainder
+temp0
 (
 )
 )
