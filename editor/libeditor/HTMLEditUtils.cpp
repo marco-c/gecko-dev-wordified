@@ -14737,7 +14737,6 @@ EditorDOMPointType
 (
 *
 textNode
-aAncestorLimiter
 )
 ;
 }
@@ -15521,7 +15520,6 @@ EditorDOMPointType
 (
 *
 textNode
-aAncestorLimiter
 )
 ;
 }
