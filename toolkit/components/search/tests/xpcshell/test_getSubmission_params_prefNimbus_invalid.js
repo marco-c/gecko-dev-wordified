@@ -220,7 +220,7 @@ stub
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 onUpdate
 "
@@ -234,7 +234,7 @@ stub
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 getVariable
 "
@@ -246,7 +246,7 @@ stub
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 ready
 "

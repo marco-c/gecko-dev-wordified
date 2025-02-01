@@ -407,7 +407,7 @@ spy
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 onUpdate
 "
@@ -419,7 +419,7 @@ stub
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 ready
 "
@@ -844,7 +844,7 @@ ok
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 onUpdate
 .
@@ -879,7 +879,7 @@ stub
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 getVariable
 "
@@ -926,7 +926,7 @@ Nimbus
 values
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 onUpdate
 .
@@ -1038,7 +1038,7 @@ ok
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 ready
 .
@@ -1060,7 +1060,7 @@ ok
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 getVariable
 "
@@ -1068,7 +1068,7 @@ Should
 call
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 getVariable
 to
