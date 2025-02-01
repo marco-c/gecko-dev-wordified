@@ -1297,6 +1297,9 @@ telemetryType
 "
 exposure
 "
+isSponsored
+:
+false
 }
 }
 ;

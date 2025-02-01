@@ -2686,6 +2686,9 @@ telemetryType
 "
 exposure
 "
+isSponsored
+:
+false
 }
 }
 ;

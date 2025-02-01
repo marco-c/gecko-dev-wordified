@@ -3299,6 +3299,9 @@ displayUrl
 icon
 :
 null
+isSponsored
+:
+true
 }
 }
 ;

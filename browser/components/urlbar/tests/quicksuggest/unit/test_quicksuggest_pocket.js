@@ -2820,6 +2820,9 @@ favicon
 .
 ico
 "
+isSponsored
+:
+false
 helpUrl
 :
 QuickSuggest
