@@ -477,6 +477,17 @@ browser
 /
 components
 /
+customizableui
+"
+    
+"
+.
+.
+/
+browser
+/
+components
+/
 extensions
 "
     
