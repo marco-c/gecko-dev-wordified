@@ -254,14 +254,6 @@ MOZ_CRASH
 }
 }
 ;
-class
-LMulI
-:
-public
-LInstruction
-{
-}
-;
 }
 /
 /
