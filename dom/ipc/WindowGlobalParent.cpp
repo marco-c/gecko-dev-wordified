@@ -10977,6 +10977,12 @@ PR_Now
 (
 )
 )
+top
+-
+>
+BrowsingContext
+(
+)
 )
 ;
 NS_WARNING_ASSERTION
