@@ -9823,6 +9823,15 @@ nsGkAtoms
 aria_multiselectable
 |
 |
+/
+/
+We
+track
+this
+for
+focusable
+state
+update
 aAttribute
 =
 =
