@@ -131,6 +131,14 @@ HEADER
 "
 )
 }
+JSON_NUMBER
+:
+Symbol
+(
+"
+JSON_NUMBER
+"
+)
 }
 ;
 }
