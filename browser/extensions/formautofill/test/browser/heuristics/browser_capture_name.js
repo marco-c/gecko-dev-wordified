@@ -912,7 +912,10 @@ Doe
 }
 expected
 :
-undefined
+"
+John
+Doe
+"
 }
 ]
 ;
