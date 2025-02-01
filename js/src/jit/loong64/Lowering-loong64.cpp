@@ -3291,8 +3291,6 @@ useRegister
 (
 rhs
 )
-compTy
-jsop
 useRegisterAtStart
 (
 ins
@@ -3311,6 +3309,8 @@ falseExpr
 (
 )
 )
+compTy
+jsop
 )
 ;
 defineReuseInput
