@@ -26326,6 +26326,11 @@ MOZ_RELEASE_ASSERT
 ins
 -
 >
+mir
+(
+)
+-
+>
 simdOp
 (
 )
@@ -26369,6 +26374,11 @@ masm
 replaceLaneInt64x2
 (
 ins
+-
+>
+mir
+(
+)
 -
 >
 laneIndex

@@ -11944,7 +11944,7 @@ ins
 LWasmReplaceInt64LaneSimd128
 :
 :
-LhsDest
+LhsIndex
 )
 ;
 }
