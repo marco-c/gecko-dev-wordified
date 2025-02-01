@@ -30376,6 +30376,17 @@ AllFrames
 )
 *
 /
+JS
+:
+:
+HandleObject
+startAt
+/
+*
+=
+nullptr
+*
+/
 )
 {
 AssertHeapIsIdle
@@ -30440,6 +30451,7 @@ move
 (
 capture
 )
+startAt
 )
 )
 {

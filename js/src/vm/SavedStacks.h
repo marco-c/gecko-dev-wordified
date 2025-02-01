@@ -2000,6 +2000,10 @@ AllFrames
 (
 )
 )
+HandleObject
+startAt
+=
+nullptr
 )
 ;
 [
@@ -2327,6 +2331,8 @@ StackCapture
 &
 &
 capture
+HandleObject
+startAt
 )
 ;
 [
