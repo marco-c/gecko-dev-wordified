@@ -1652,7 +1652,7 @@ aStoragePermission
 const
 Maybe
 <
-RFPTarget
+RFPTargetSet
 >
 &
 aOverriddenFingerprintingSettings
@@ -2381,7 +2381,7 @@ NoStoragePermission
 ;
 Maybe
 <
-RFPTarget
+RFPTargetSet
 >
 mOverriddenFingerprintingSettings
 ;

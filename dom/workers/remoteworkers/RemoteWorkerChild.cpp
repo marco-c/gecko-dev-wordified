@@ -1962,7 +1962,7 @@ shouldResistFingerprinting
 ;
 Maybe
 <
-RFPTarget
+RFPTargetSet
 >
 overriddenFingerprintingSettings
 ;
@@ -1983,8 +1983,6 @@ overriddenFingerprintingSettings
 .
 emplace
 (
-RFPTarget
-(
 aData
 .
 overriddenFingerprintingSettings
@@ -1993,7 +1991,6 @@ overriddenFingerprintingSettings
 .
 ref
 (
-)
 )
 )
 ;
