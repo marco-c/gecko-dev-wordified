@@ -118,9 +118,6 @@ managed
 by
 the
 library
-/
-/
-/
 itself
 and
 not
@@ -133,9 +130,6 @@ or
 included
 in
 the
-/
-/
-/
 application
 '
 s
@@ -150,9 +144,6 @@ ping
 is
 automatically
 sent
-/
-/
-/
 when
 the
 application
@@ -251,9 +242,6 @@ of
 sending
 technical
 and
-/
-/
-/
 interaction
 data
 to
@@ -268,9 +256,6 @@ communicate
 to
 the
 Data
-/
-/
-/
 Pipeline
 that
 the
@@ -285,9 +270,6 @@ data
 deleted
 .
 As
-/
-/
-/
 such
 it
 attempts
@@ -303,9 +285,6 @@ opts
 out
 of
 data
-/
-/
-/
 collection
 .
 pub
@@ -381,9 +360,6 @@ event
 metric
 information
 .
-/
-/
-/
 The
 events
 ping
@@ -397,9 +373,6 @@ is
 moved
 to
 the
-/
-/
-/
 background
 .
 pub
@@ -492,9 +465,6 @@ that
 are
 explicitly
 set
-/
-/
-/
 by
 the
 application
@@ -510,9 +480,6 @@ metrics
 .
 yaml
 file
-/
-/
-/
 (
 except
 events
@@ -532,9 +499,6 @@ s
 measurement
 window
 *
-/
-/
-/
 which
 is
 the
@@ -549,9 +513,6 @@ ping
 .
 Ideally
 this
-/
-/
-/
 window
 is
 expected
@@ -566,9 +527,6 @@ the
 collection
 is
 scheduled
-/
-/
-/
 daily
 at
 4AM
@@ -586,9 +544,6 @@ be
 used
 to
 infer
-/
-/
-/
 the
 length
 of
