@@ -1122,6 +1122,16 @@ shopping
 .
 svg
 "
+gleanEvent
+:
+Glean
+.
+shopping
+.
+sidebarToggle
+recordSidebarVersion
+:
+true
 }
 )
 ;
