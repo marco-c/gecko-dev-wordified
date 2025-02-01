@@ -3336,9 +3336,6 @@ telemetryKey
 DEVTOOLS_INSPECTOR_NEW_ROOT_TO_RELOAD_DELAY_MS
 "
 ;
-const
-histogram
-=
 this
 .
 telemetry
@@ -3347,8 +3344,6 @@ getHistogramById
 (
 telemetryKey
 )
-;
-histogram
 .
 add
 (

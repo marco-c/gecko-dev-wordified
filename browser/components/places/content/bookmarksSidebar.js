@@ -626,9 +626,6 @@ urlsOpened
 ]
 )
 {
-let
-searchesHistogram
-=
 Services
 .
 telemetry
@@ -639,8 +636,6 @@ getHistogramById
 PLACES_BOOKMARKS_SEARCHBAR_CUMULATIVE_SEARCHES
 "
 )
-;
-searchesHistogram
 .
 add
 (

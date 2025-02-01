@@ -5850,9 +5850,6 @@ persistent
 =
 false
 ;
-let
-secHistogram
-=
 Services
 .
 telemetry
@@ -5863,8 +5860,6 @@ getHistogramById
 SECURITY_UI
 "
 )
-;
-secHistogram
 .
 add
 (
@@ -6534,9 +6529,6 @@ article
 ;
 }
 ;
-let
-secHistogram
-=
 Services
 .
 telemetry
@@ -6547,8 +6539,6 @@ getHistogramById
 SECURITY_UI
 "
 )
-;
-secHistogram
 .
 add
 (
@@ -6627,7 +6617,16 @@ installMsg
 =
 >
 {
-secHistogram
+Services
+.
+telemetry
+.
+getHistogramById
+(
+"
+SECURITY_UI
+"
+)
 .
 add
 (
