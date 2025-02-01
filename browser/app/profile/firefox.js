@@ -24389,7 +24389,7 @@ chat
 .
 enabled
 "
-false
+true
 )
 ;
 pref

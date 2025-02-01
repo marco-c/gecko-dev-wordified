@@ -755,7 +755,7 @@ ml
 .
 chat
 .
-enabled
+test
 "
 ;
 const
@@ -870,7 +870,7 @@ value
 prefs
 :
 {
-enabled
+test
 :
 {
 value

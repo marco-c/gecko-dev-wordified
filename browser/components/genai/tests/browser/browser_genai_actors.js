@@ -164,9 +164,10 @@ ml
 .
 chat
 .
-enabled
+provider
 "
-false
+"
+"
 ]
 ]
 }
