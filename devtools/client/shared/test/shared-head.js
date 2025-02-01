@@ -16276,8 +16276,8 @@ provided
 id
 for
 the
-provided
 *
+provided
 netmonitor
 instance
 .
@@ -16290,7 +16290,7 @@ monitor
 *
 The
 network
-monnitor
+monitor
 object
 *
 param
@@ -16309,7 +16309,7 @@ item
 *
 /
 function
-getContextMenuItem
+getNetmonitorContextMenuItem
 (
 monitor
 id
@@ -16361,6 +16361,9 @@ the
 context
 menu
 item
+of
+the
+netmonitor
 it
 should
 *
@@ -16381,7 +16384,7 @@ monitor
 *
 The
 network
-monnitor
+monitor
 object
 *
 param
@@ -16401,7 +16404,7 @@ item
 /
 async
 function
-selectContextMenuItem
+selectNetmonitorContextMenuItem
 (
 monitor
 id
@@ -16410,7 +16413,7 @@ id
 const
 contextMenuItem
 =
-getContextMenuItem
+getNetmonitorContextMenuItem
 (
 monitor
 id
@@ -16424,7 +16427,7 @@ contextMenuItem
 parentNode
 ;
 await
-maybeOpenAncestorMenu
+_maybeOpenAncestorMenu
 (
 contextMenuItem
 )
@@ -16455,7 +16458,7 @@ hidden
 }
 async
 function
-maybeOpenAncestorMenu
+_maybeOpenAncestorMenu
 (
 menuItem
 )
@@ -16475,7 +16478,7 @@ state
 =
 =
 "
-shown
+open
 "
 )
 {
@@ -16521,7 +16524,7 @@ parentPopup
 parentNode
 ;
 await
-maybeOpenAncestorMenu
+_maybeOpenAncestorMenu
 (
 parentMenu
 )
