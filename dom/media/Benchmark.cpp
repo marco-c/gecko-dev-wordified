@@ -1403,17 +1403,11 @@ mSamples
 .
 AppendElements
 (
-std
-:
-:
-move
-(
 aHolder
 -
 >
 GetMovableSamples
 (
-)
 )
 )
 ;
