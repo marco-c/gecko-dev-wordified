@@ -5518,7 +5518,7 @@ IsEmbedderTypeObjectOrEmbed
 Unused
 <
 <
-SetSyntheticDocumentContainer
+SetIsSyntheticDocumentContainer
 (
 true
 )
@@ -14979,14 +14979,6 @@ openControlled
 )
 &
 &
-StaticPrefs
-:
-:
-dom_block_multiple_popups
-(
-)
-&
-&
 !
 IsPopupAllowed
 (
@@ -19763,7 +19755,7 @@ DidSet
 (
 FieldIndex
 <
-IDX_SyntheticDocumentContainer
+IDX_IsSyntheticDocumentContainer
 >
 )
 {
@@ -19784,7 +19776,7 @@ parentWindowContext
 UpdateChildSynthetic
 (
 this
-GetSyntheticDocumentContainer
+GetIsSyntheticDocumentContainer
 (
 )
 )
@@ -24701,9 +24693,7 @@ aOffset
 aHistoryEpoch
 aRequireUserInteraction
 aUserActivation
-Canonical
-(
-)
+self
 -
 >
 GetContentParent
@@ -24712,9 +24702,7 @@ GetContentParent
 ?
 Some
 (
-Canonical
-(
-)
+self
 -
 >
 GetContentParent
