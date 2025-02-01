@@ -663,10 +663,6 @@ mBackend
 (
 aBackend
 )
-mNotification
-(
-nullptr
-)
 {
 if
 (
@@ -1443,6 +1439,7 @@ if
 (
 mAlertListener
 )
+{
 mAlertListener
 -
 >
@@ -1459,6 +1456,7 @@ get
 )
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1475,6 +1473,7 @@ if
 (
 mAlertListener
 )
+{
 mAlertListener
 -
 >
@@ -1491,6 +1490,7 @@ get
 )
 )
 ;
+}
 }
 void
 nsAlertsIconListener
@@ -2031,6 +2031,7 @@ gHasActions
 &
 mAlertHasAction
 )
+{
 return
 NS_ERROR_FAILURE
 ;
@@ -2041,6 +2042,7 @@ good
 fallback
 to
 XUL
+}
 rv
 =
 aAlert
@@ -2311,6 +2313,7 @@ if
 (
 mAlertListener
 )
+{
 mAlertListener
 -
 >
@@ -2327,4 +2330,5 @@ get
 )
 )
 ;
+}
 }
