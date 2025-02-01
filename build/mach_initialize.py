@@ -507,6 +507,7 @@ _activate_python_environment
 (
 topsrcdir
 get_state_dir
+quiet
 )
 :
     
@@ -525,8 +526,10 @@ from_environment
 (
         
 topsrcdir
-        
 get_state_dir
+quiet
+=
+quiet
     
 )
     
@@ -1178,6 +1181,78 @@ topsrcdir
 )
     
 #
+See
+bug
+1874208
+:
+    
+#
+Status
+messages
+from
+site
+.
+py
+break
+usages
+of
+.
+/
+mach
+environment
+.
+    
+#
+We
+pass
+quiet
+only
+for
+it
+to
+work
+around
+this
+so
+that
+all
+other
+    
+#
+commands
+can
+still
+write
+status
+messages
+.
+    
+if
+args
+and
+args
+[
+0
+]
+=
+=
+"
+environment
+"
+:
+        
+quiet
+=
+True
+    
+else
+:
+        
+quiet
+=
+False
+    
+#
 normpath
 state_dir
 to
@@ -1192,6 +1267,7 @@ _activate_python_environment
 (
         
 topsrcdir
+        
 lambda
 :
 os
@@ -1208,6 +1284,10 @@ topsrcdir
 topsrcdir
 )
 )
+        
+quiet
+=
+quiet
     
 )
     
@@ -2496,6 +2576,10 @@ get_virtualenv_base_dir
 (
 topsrcdir
 )
+            
+quiet
+=
+quiet
         
 )
         

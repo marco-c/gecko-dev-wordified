@@ -293,6 +293,44 @@ which
 uv
 "
 )
+lru_cache
+(
+maxsize
+=
+None
+)
+def
+show_pip_output
+(
+)
+:
+    
+return
+os
+.
+environ
+.
+get
+(
+"
+MACH_SHOW_PIP_OUTPUT
+"
+"
+"
+)
+.
+lower
+(
+)
+in
+(
+"
+1
+"
+"
+true
+"
+)
 def
 pip_command
 (
@@ -1788,6 +1826,12 @@ ExternalPythonSite
 site_packages_source
 :
 SitePackagesSource
+        
+quiet
+:
+bool
+=
+False
     
 )
 :
@@ -1964,12 +2008,41 @@ self
 _virtualenv_root
         
 )
+        
+self
+.
+_quiet
+=
+quiet
+    
+def
+_log
+(
+self
+message
+:
+str
+)
+:
+        
+if
+not
+self
+.
+_quiet
+:
+            
+print
+(
+message
+)
     
 classmethod
     
 def
 from_environment
 (
+        
 cls
 topsrcdir
 :
@@ -1982,6 +2055,12 @@ Callable
 ]
 str
 ]
+quiet
+:
+bool
+=
+False
+    
 )
 :
         
@@ -2259,6 +2338,8 @@ requirements
 original_python
             
 source
+            
+quiet
         
 )
     
@@ -2731,6 +2812,27 @@ self
 )
 :
         
+self
+.
+_log
+(
+f
+"
+Creating
+the
+'
+mach
+'
+site
+at
+{
+self
+.
+_virtualenv_root
+}
+"
+)
+        
 if
 self
 .
@@ -3060,6 +3162,9 @@ self
 _metadata
 .
 prefix
+self
+.
+_quiet
 )
 class
 CommandSiteManager
@@ -3277,6 +3382,12 @@ bool
 requirements
 :
 MachEnvRequirements
+        
+quiet
+:
+bool
+=
+False
     
 )
 :
@@ -3449,6 +3560,12 @@ site_name
         
 self
 .
+_quiet
+=
+quiet
+        
+self
+.
 _virtualenv
 =
 PythonVirtualenv
@@ -3456,6 +3573,9 @@ PythonVirtualenv
 self
 .
 virtualenv_root
+self
+.
+_quiet
 )
         
 self
@@ -3523,6 +3643,65 @@ virtualenv_root
         
 )
     
+def
+_log
+(
+self
+message
+:
+str
+)
+:
+        
+if
+not
+self
+.
+_quiet
+:
+            
+#
+Ideally
+we
+would
+write
+to
+stderr
+here
+but
+mozharness
+            
+#
+has
+tests
+that
+fail
+if
+there
+is
+any
+output
+to
+stderr
+.
+            
+#
+So
+until
+that
+changes
+this
+will
+have
+to
+do
+.
+            
+print
+(
+message
+)
+    
 classmethod
     
 def
@@ -3554,6 +3733,12 @@ str
 command_virtualenvs_dir
 :
 str
+        
+quiet
+:
+bool
+=
+False
     
 )
 :
@@ -3872,6 +4057,8 @@ resolve_requirements
 topsrcdir
 site_name
 )
+            
+quiet
         
 )
     
@@ -4167,6 +4354,33 @@ running
                         
 )
                     
+self
+.
+_log
+(
+                        
+f
+"
+Creating
+the
+'
+{
+self
+.
+_site_name
+}
+'
+site
+at
+{
+self
+.
+virtualenv_root
+}
+"
+                    
+)
+                    
 _create_venv_with_pthfile
 (
                         
@@ -4198,7 +4412,9 @@ except
 Timeout
 :
             
-print
+self
+.
+_log
 (
                 
 f
@@ -4669,6 +4885,29 @@ mode
 "
 "
         
+self
+.
+_log
+(
+f
+"
+Installing
+pip
+requirements
+to
+the
+'
+{
+self
+.
+_site_name
+}
+'
+site
+.
+"
+)
+        
 if
 not
 os
@@ -4731,24 +4970,7 @@ _virtualenv
 .
 pip_install
 (
-            
 args
-            
-check
-=
-not
-quiet
-            
-stdout
-=
-subprocess
-.
-PIPE
-if
-quiet
-else
-None
-        
 )
         
 if
@@ -4756,13 +4978,6 @@ install_result
 .
 returncode
 :
-            
-print
-(
-install_result
-.
-stdout
-)
             
 raise
 InstallPipRequirementsException
@@ -5363,9 +5578,11 @@ install_result
 stdout
 )
             
+result
+=
 subprocess
 .
-check_call
+run
 (
                 
 pip_command
@@ -5394,15 +5611,23 @@ v
                 
 stdout
 =
-sys
+subprocess
 .
-stderr
+PIPE
+                
+text
+=
+True
+                
+check
+=
+True
             
 )
             
 print
 (
-check_result
+result
 .
 stdout
 file
@@ -6166,6 +6391,9 @@ __init__
 (
 self
 prefix
+quiet
+=
+False
 )
 :
         
@@ -6303,6 +6531,12 @@ self
 bin_path
 python_exe_name
 )
+        
+self
+.
+_quiet
+=
+quiet
     
 staticmethod
     
@@ -7392,11 +7626,35 @@ kwargs
 setdefault
 (
 "
-stderr
+stdout
 "
+None
+if
+show_pip_output
+(
+)
+else
 subprocess
 .
-STDOUT
+PIPE
+)
+        
+kwargs
+.
+setdefault
+(
+"
+stderr
+"
+None
+if
+show_pip_output
+(
+)
+else
+subprocess
+.
+PIPE
 )
         
 kwargs
@@ -7405,6 +7663,16 @@ setdefault
 (
 "
 universal_newlines
+"
+True
+)
+        
+kwargs
+.
+setdefault
+(
+"
+text
 "
 True
 )
@@ -7516,7 +7784,8 @@ s
 worth
 .
         
-return
+install_result
+=
 subprocess
 .
 run
@@ -7548,6 +7817,51 @@ pip_install_args
 kwargs
         
 )
+        
+if
+install_result
+.
+returncode
+and
+not
+self
+.
+_quiet
+:
+            
+if
+install_result
+.
+stdout
+:
+                
+print
+(
+install_result
+.
+stdout
+)
+            
+if
+install_result
+.
+stderr
+:
+                
+print
+(
+install_result
+.
+stderr
+file
+=
+sys
+.
+stderr
+)
+        
+return
+install_result
     
 def
 install_optional_packages
@@ -7584,10 +7898,44 @@ except
 subprocess
 .
 CalledProcessError
+as
+error
 :
                 
 print
 (
+                    
+f
+"
+{
+error
+.
+output
+if
+error
+.
+output
+else
+'
+'
+}
+"
+                    
+f
+"
+{
+error
+.
+stderr
+if
+error
+.
+stderr
+else
+'
+'
+}
+"
                     
 f
 "
@@ -9113,11 +9461,11 @@ python_executable
 )
 :
     
-pip_json
+result
 =
 subprocess
 .
-check_output
+run
 (
         
 pip_command
@@ -9167,6 +9515,22 @@ check
 universal_newlines
 =
 True
+        
+stdout
+=
+subprocess
+.
+PIPE
+        
+stderr
+=
+subprocess
+.
+PIPE
+        
+check
+=
+True
     
 )
     
@@ -9176,7 +9540,9 @@ json
 .
 loads
 (
-pip_json
+result
+.
+stdout
 )
     
 return
