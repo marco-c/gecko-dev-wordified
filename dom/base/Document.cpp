@@ -18127,6 +18127,7 @@ NotifyContentWillBeRemoved
 (
 this
 content
+nullptr
 )
 ;
 DisconnectChild
@@ -46651,6 +46652,10 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
+aState
 )
 {
 Maybe
@@ -46741,6 +46746,7 @@ NotifyContentWillBeRemoved
 (
 this
 aKid
+aState
 )
 ;
 aNotify

@@ -180,7 +180,6 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 HTMLPictureElement
 nsGenericHTMLElement
 )
-virtual
 nsresult
 Clone
 (
@@ -197,7 +196,6 @@ aResult
 const
 override
 ;
-virtual
 void
 RemoveChildNode
 (
@@ -206,10 +204,12 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
 )
 override
 ;
-virtual
 void
 InsertChildBefore
 (
@@ -235,14 +235,12 @@ HTMLPictureElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :

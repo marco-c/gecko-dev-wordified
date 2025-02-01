@@ -1903,7 +1903,7 @@ great
 aPresShell
 -
 >
-ContentRemoved
+ContentWillBeRemoved
 (
 aContent
 nullptr

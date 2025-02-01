@@ -1481,6 +1481,10 @@ ContentWillBeRemoved
 nsIContent
 *
 aChild
+const
+BatchRemovalState
+*
+aState
 )
 {
 if

@@ -291,7 +291,6 @@ SVGSwitchElementBase
 /
 /
 nsINode
-virtual
 void
 InsertChildBefore
 (
@@ -317,6 +316,9 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
 )
 override
 ;

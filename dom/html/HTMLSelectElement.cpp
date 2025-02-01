@@ -1880,6 +1880,10 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
+aState
 )
 {
 SafeOptionListMutation
@@ -1903,6 +1907,7 @@ RemoveChildNode
 (
 aKid
 aNotify
+aState
 )
 ;
 }

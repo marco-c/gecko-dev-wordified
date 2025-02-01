@@ -191,7 +191,6 @@ nsGenericHTMLElement
 /
 /
 nsINode
-virtual
 void
 InsertChildBefore
 (
@@ -209,7 +208,6 @@ aRv
 )
 override
 ;
-virtual
 void
 RemoveChildNode
 (
@@ -218,6 +216,9 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
 )
 override
 ;
@@ -233,7 +234,6 @@ aVisitor
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -250,7 +250,6 @@ aResult
 const
 override
 ;
-virtual
 void
 AfterSetAttr
 (
@@ -362,14 +361,12 @@ HTMLOptGroupElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :

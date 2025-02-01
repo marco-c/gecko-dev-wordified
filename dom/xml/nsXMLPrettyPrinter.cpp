@@ -1232,14 +1232,14 @@ void
 nsXMLPrettyPrinter
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
+const
+BatchRemovalState
 *
-aPreviousSibling
 )
 {
 MaybeUnhook

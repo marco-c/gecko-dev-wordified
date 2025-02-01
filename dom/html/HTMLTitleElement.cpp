@@ -392,14 +392,14 @@ void
 HTMLTitleElement
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
+const
+BatchRemovalState
 *
-aPreviousSibling
 )
 {
 SendTitleChangeEvent
@@ -521,6 +521,8 @@ bool
 aBound
 )
 {
+if
+(
 Document
 *
 doc
@@ -528,10 +530,6 @@ doc
 GetUncomposedDoc
 (
 )
-;
-if
-(
-doc
 )
 {
 doc

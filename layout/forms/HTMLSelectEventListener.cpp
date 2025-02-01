@@ -2399,14 +2399,14 @@ void
 HTMLSelectEventListener
 :
 :
-ContentRemoved
+ContentWillBeRemoved
 (
 nsIContent
 *
 aChild
-nsIContent
+const
+BatchRemovalState
 *
-aPreviousSibling
 )
 {
 if

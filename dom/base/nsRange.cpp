@@ -5233,6 +5233,9 @@ ContentWillBeRemoved
 nsIContent
 *
 aChild
+const
+BatchRemovalState
+*
 )
 {
 MOZ_ASSERT

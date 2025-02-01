@@ -716,6 +716,10 @@ nsIContent
 aKid
 bool
 aNotify
+const
+BatchRemovalState
+*
+aState
 )
 {
 SVGSwitchElementBase
@@ -725,6 +729,7 @@ RemoveChildNode
 (
 aKid
 aNotify
+aState
 )
 ;
 MaybeInvalidate
