@@ -445,11 +445,6 @@ nsIContent
 &
 )
 ;
-void
-RecalculateHasSlottedState
-(
-)
-;
 protected
 :
 virtual
