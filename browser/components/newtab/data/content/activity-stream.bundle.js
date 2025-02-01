@@ -31908,7 +31908,7 @@ alt_text
 }
 ;
 const
-onLinkCLick
+onLinkClick
 =
 (
 )
@@ -32229,7 +32229,7 @@ spoc
 title
 onLinkClick
 :
-onLinkCLick
+onLinkClick
 dispatch
 :
 dispatch
@@ -35518,6 +35518,19 @@ billboardEnabled
 if
 (
 spocToRender
+&
+&
+!
+spocs
+.
+blocked
+.
+includes
+(
+spocToRender
+.
+url
+)
 )
 {
 const
