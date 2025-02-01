@@ -644,6 +644,18 @@ zydis
 #
 imported
 code
+    
+"
+js
+/
+src
+/
+xsum
+/
+"
+#
+imported
+code
 ]
 #
 We
@@ -1281,6 +1293,16 @@ h
 "
 #
 Zydis
+        
+"
+xsum
+/
+xsum
+.
+h
+"
+#
+xsum
     
 ]
 )

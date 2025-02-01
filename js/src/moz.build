@@ -4392,6 +4392,9 @@ util
 "
 wasm
 "
+"
+xsum
+"
 ]
 if
 CONFIG
