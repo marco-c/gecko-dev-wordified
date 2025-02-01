@@ -4018,6 +4018,12 @@ to
 same
 size
 .
+void
+*
+prev
+=
+alloc
+;
 alloc
 =
 ReallocBuffer
@@ -4031,6 +4037,14 @@ nurseryOwned
 CHECK
 (
 alloc
+)
+;
+CHECK
+(
+alloc
+=
+=
+prev
 )
 ;
 CHECK
