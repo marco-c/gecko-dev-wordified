@@ -219,9 +219,6 @@ const
 LDefinition
 &
 inputCopy
-MTableSwitch
-*
-tableswitch
 )
 {
 return
@@ -238,7 +235,6 @@ inputCopy
 temp
 (
 )
-tableswitch
 )
 ;
 }
@@ -249,9 +245,10 @@ LIRGeneratorRiscv64
 :
 newLTableSwitchV
 (
-MTableSwitch
-*
-tableswitch
+const
+LBoxAllocation
+&
+in
 )
 {
 return
@@ -263,16 +260,7 @@ alloc
 )
 LTableSwitchV
 (
-useBox
-(
-tableswitch
--
->
-getOperand
-(
-0
-)
-)
+in
 temp
 (
 )
@@ -282,7 +270,6 @@ tempDouble
 temp
 (
 )
-tableswitch
 )
 ;
 }

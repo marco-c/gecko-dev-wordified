@@ -250,9 +250,6 @@ const
 LDefinition
 &
 inputCopy
-MTableSwitch
-*
-tableswitch
 )
 {
 return
@@ -269,7 +266,6 @@ inputCopy
 temp
 (
 )
-tableswitch
 )
 ;
 }
@@ -280,9 +276,10 @@ LIRGeneratorX86Shared
 :
 newLTableSwitchV
 (
-MTableSwitch
-*
-tableswitch
+const
+LBoxAllocation
+&
+in
 )
 {
 return
@@ -294,16 +291,7 @@ alloc
 )
 LTableSwitchV
 (
-useBox
-(
-tableswitch
--
->
-getOperand
-(
-0
-)
-)
+in
 temp
 (
 )
@@ -313,7 +301,6 @@ tempDouble
 temp
 (
 )
-tableswitch
 )
 ;
 }

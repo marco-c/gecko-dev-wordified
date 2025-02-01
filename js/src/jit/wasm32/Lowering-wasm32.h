@@ -841,8 +841,6 @@ newLTableSwitch
 (
 LAllocation
 LDefinition
-MTableSwitch
-*
 )
 {
 MOZ_CRASH
@@ -854,8 +852,9 @@ LTableSwitchV
 *
 newLTableSwitchV
 (
-MTableSwitch
-*
+const
+LBoxAllocation
+&
 )
 {
 MOZ_CRASH
