@@ -62,7 +62,7 @@ derive
 zerocopy
 :
 :
-AsBytes
+IntoBytes
 zerocopy
 :
 :
@@ -70,7 +70,11 @@ FromBytes
 zerocopy
 :
 :
-FromZeroes
+KnownLayout
+zerocopy
+:
+:
+Immutable
 )
 ]
 #
