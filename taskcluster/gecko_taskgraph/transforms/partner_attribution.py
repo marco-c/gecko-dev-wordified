@@ -659,6 +659,13 @@ shippable
 "
 )
     
+artifact_file_name
+=
+_get_artifact_file_name
+(
+platform
+)
+    
 output_artifact
 =
 _get_output_path
@@ -671,6 +678,7 @@ task
 partner_config
 platform
 locale
+artifact_file_name
     
 )
     
@@ -685,7 +693,7 @@ fetch_config
             
 _get_upstream_artifact_path
 (
-platform
+artifact_file_name
 locale
 )
             
@@ -702,8 +710,8 @@ input_path
 _get_input_path
 (
 stage_platform
-platform
 locale
+artifact_file_name
 )
         
 "
@@ -748,8 +756,8 @@ def
 _get_input_path
 (
 stage_platform
-platform
 locale
+artifact_file_name
 )
 :
     
@@ -790,10 +798,7 @@ locale
             
 artifact_file_name
 =
-_get_artifact_file_name
-(
-platform
-)
+artifact_file_name
         
 )
     
@@ -801,10 +806,12 @@ platform
 def
 _get_output_path
 (
+    
 artifact_prefix
 partner_config
 platform
 locale
+artifact_file_name
 )
 :
     
@@ -873,10 +880,7 @@ locale
         
 artifact_file_name
 =
-_get_artifact_file_name
-(
-platform
-)
+artifact_file_name
     
 )
 def
@@ -1144,17 +1148,10 @@ upstream_label
 def
 _get_upstream_artifact_path
 (
-platform
+artifact_file_name
 locale
 )
 :
-    
-artifact_file_name
-=
-_get_artifact_file_name
-(
-platform
-)
     
 return
 (
