@@ -170,7 +170,7 @@ include
 "
 mozilla
 /
-Preferences
+PresShell
 .
 h
 "
@@ -179,7 +179,7 @@ include
 "
 mozilla
 /
-PresShell
+StaticPrefs_accessibility
 .
 h
 "
@@ -1660,16 +1660,11 @@ caretOn
 {
 caretOn
 =
-Preferences
+StaticPrefs
 :
 :
-GetBool
+accessibility_browsewithcaret
 (
-"
-accessibility
-.
-browsewithcaret
-"
 )
 ;
 if

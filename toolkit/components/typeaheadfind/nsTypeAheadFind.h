@@ -478,9 +478,6 @@ bool
 mStartLinksOnlyPref
 ;
 bool
-mCaretBrowsingOn
-;
-bool
 mDidAddObservers
 ;
 nsCOMPtr
