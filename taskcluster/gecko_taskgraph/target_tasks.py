@@ -5447,6 +5447,11 @@ tp6
 jobs
 in
 cron
+on
+non
+-
+a55
+platform
                 
 if
 "
@@ -5454,6 +5459,13 @@ tp6m
 "
 in
 try_name
+and
+"
+a55
+"
+not
+in
+platform
 :
                     
 return
