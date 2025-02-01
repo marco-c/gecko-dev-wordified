@@ -15749,15 +15749,6 @@ the
 node
 .
 *
-param
-aEditingHost
-The
-editing
-host
-containing
-aPointToInsert
-.
-*
 return
 Better
 insertion
@@ -15814,10 +15805,6 @@ const
 EditorDOMPointTypeInput
 &
 aPointToInsert
-const
-Element
-&
-aEditingHost
 )
 ;
 /
