@@ -429,6 +429,7 @@ ToOperandOrRegister64
 (
 const
 LInt64Allocation
+&
 input
 )
 {
@@ -453,6 +454,7 @@ ToOperandOrRegister64
 (
 const
 LInt64Allocation
+&
 input
 )
 {
@@ -3704,7 +3706,6 @@ condExpr
 )
 )
 ;
-const
 LInt64Allocation
 falseExpr
 =
