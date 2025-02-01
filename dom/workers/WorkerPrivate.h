@@ -4884,6 +4884,13 @@ aState
 )
 ;
 }
+void
+UpdateIsOnContentBlockingAllowList
+(
+bool
+aOnContentBlockingAllowList
+)
+;
 const
 Maybe
 <
