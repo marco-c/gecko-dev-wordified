@@ -28012,7 +28012,7 @@ const
 If
 the
 software
-keyboard
+keybaord
 is
 visible
 and
