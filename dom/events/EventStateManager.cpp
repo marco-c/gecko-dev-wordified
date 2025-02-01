@@ -36369,7 +36369,7 @@ ePointerOver
 "
 :
 "
-eMoustOver
+eMouseOver
 "
 aContent
 ?
