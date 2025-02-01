@@ -1955,6 +1955,13 @@ font
 weight
 "
 "
+hyphenate
+-
+limit
+-
+chars
+"
+"
 mask
 -
 position
