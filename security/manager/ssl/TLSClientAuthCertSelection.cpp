@@ -371,6 +371,17 @@ include
 "
 mozilla
 /
+glean
+/
+SecurityManagerSslMetrics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 Endpoint

@@ -238,6 +238,17 @@ include
 "
 mozilla
 /
+glean
+/
+NetwerkMetrics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 URIUtils
