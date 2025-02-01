@@ -62,11 +62,9 @@ zipfile
 import
 six
 from
-mozbuild
-.
-lock
+filelock
 import
-lock_file
+SoftFileLock
 class
 ZipFile
 (
@@ -155,7 +153,7 @@ self
 .
 lockfile
 =
-lock_file
+SoftFileLock
 (
 file
 +
@@ -163,6 +161,14 @@ file
 .
 lck
 "
+)
+            
+self
+.
+lockfile
+.
+acquire
+(
 )
         
 else
@@ -926,6 +932,23 @@ close
 self
 )
             
+if
+self
+.
+lockfile
+is
+not
+None
+:
+                
+self
+.
+lockfile
+.
+release
+(
+)
+                
 self
 .
 lockfile
@@ -1240,6 +1263,23 @@ close
 self
 )
         
+if
+self
+.
+lockfile
+is
+not
+None
+:
+            
+self
+.
+lockfile
+.
+release
+(
+)
+            
 self
 .
 lockfile
