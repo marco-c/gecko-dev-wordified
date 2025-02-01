@@ -187,16 +187,6 @@ size_t
 pos
 )
 ;
-ValueOperand
-ToTempValue
-(
-LInstruction
-*
-ins
-size_t
-pos
-)
-;
 void
 emitBigIntPtrDiv
 (
