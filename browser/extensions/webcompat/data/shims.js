@@ -6374,6 +6374,10 @@ instagram
 svg
 "
 ]
+webExposedShimHelpers
+:
+[
+]
 needsShimHelpers
 :
 [
@@ -6524,6 +6528,10 @@ tiktok
 .
 svg
 "
+]
+webExposedShimHelpers
+:
+[
 ]
 needsShimHelpers
 :
