@@ -4880,13 +4880,6 @@ CloseDateTimePicker
 (
 )
 ;
-void
-SetDateTimePickerState
-(
-bool
-aIsOpen
-)
-;
 /
 *
 *

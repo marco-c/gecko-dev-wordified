@@ -2817,15 +2817,6 @@ mIsPickerOpen
 =
 aIsOpen
 ;
-this
-.
-mInputElement
-.
-setDateTimePickerState
-(
-aIsOpen
-)
-;
 /
 /
 Calendar
