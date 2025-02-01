@@ -38154,11 +38154,6 @@ volatileLiveRegs
 void
 storeToTypedBigIntArray
 (
-Scalar
-:
-:
-Type
-arrayType
 Register64
 value
 const
@@ -38170,11 +38165,6 @@ dest
 void
 storeToTypedBigIntArray
 (
-Scalar
-:
-:
-Type
-arrayType
 Register64
 value
 const
@@ -38186,11 +38176,6 @@ dest
 void
 storeToTypedBigIntArray
 (
-Scalar
-:
-:
-Type
-arrayType
 Imm64
 value
 const
@@ -38202,11 +38187,6 @@ dest
 void
 storeToTypedBigIntArray
 (
-Scalar
-:
-:
-Type
-arrayType
 Imm64
 value
 const
