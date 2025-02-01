@@ -2776,21 +2776,6 @@ local
 build
 .
         
-cdp
-:
-          
-Boolean
-to
-indicate
-whether
-to
-test
-Firefox
-with
-CDP
-protocol
-.
-        
 headless
 :
           
@@ -2914,18 +2899,6 @@ total_chunks
 "
 1
 "
-)
-        
-with_cdp
-=
-params
-.
-get
-(
-"
-cdp
-"
-False
 )
         
 extra_options
@@ -3244,45 +3217,8 @@ chrome
 :
             
 if
-with_cdp
-:
-                
-if
+not
 headless
-:
-                    
-test_command
-=
-"
-chrome
--
-headless
-"
-                
-else
-:
-                    
-test_command
-=
-"
-chrome
--
-headful
-"
-            
-elif
-headless
-:
-                
-test_command
-=
-"
-chrome
--
-bidi
-"
-            
-else
 :
                 
 raise
@@ -3305,6 +3241,14 @@ protocol
 "
                 
 )
+            
+test_command
+=
+"
+chrome
+-
+bidi
+"
         
 elif
 product
@@ -3316,18 +3260,6 @@ firefox
 :
             
 if
-with_cdp
-:
-                
-test_command
-=
-"
-firefox
--
-cdp
-"
-            
-elif
 headless
 :
                 
@@ -3644,7 +3576,6 @@ is_relevant_expectation
                 
 expectation
 product
-with_cdp
 env
 [
 "
@@ -3822,42 +3753,6 @@ to
 local
 Firefox
 build
-.
-"
-    
-)
-    
-p
-.
-add_argument
-(
-        
-"
--
--
-cdp
-"
-        
-action
-=
-"
-store_true
-"
-        
-help
-=
-"
-Flag
-that
-indicates
-whether
-to
-test
-Firefox
-with
-the
-CDP
-protocol
 .
 "
     
@@ -4279,7 +4174,6 @@ is_relevant_expectation
     
 expectation
 expected_product
-with_cdp
 is_headless
 expected_platform
 )
@@ -4339,22 +4233,6 @@ not
 in
 parameters
     
-if
-with_cdp
-:
-        
-is_expected_protocol
-=
-"
-webDriverBiDi
-"
-not
-in
-parameters
-    
-else
-:
-        
 is_expected_protocol
 =
 "
@@ -4363,12 +4241,6 @@ cdp
 not
 in
 parameters
-        
-is_headless
-=
-"
-True
-"
     
 if
 is_headless
@@ -4502,10 +4374,6 @@ command_context
 binary
 =
 None
-    
-cdp
-=
-False
     
 ci
 =
@@ -4987,12 +4855,6 @@ binary
 "
 :
 binary
-        
-"
-cdp
-"
-:
-cdp
         
 "
 headless
