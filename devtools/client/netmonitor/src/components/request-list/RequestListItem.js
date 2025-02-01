@@ -1208,9 +1208,6 @@ isVisible
 "
 requestFilterTypes
 "
-"
-waterfallScale
-"
 ]
 ;
 /
