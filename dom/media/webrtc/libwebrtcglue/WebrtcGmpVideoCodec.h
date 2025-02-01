@@ -1523,8 +1523,6 @@ time
 input
 image
 data
-DataMutex
-<
 std
 :
 :
@@ -1532,7 +1530,6 @@ map
 <
 uint64_t
 InputImageData
->
 >
 mInputImageMap
 ;
