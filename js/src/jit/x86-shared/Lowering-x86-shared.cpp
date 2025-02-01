@@ -13100,7 +13100,7 @@ ins
 LWasmUnarySimd128
 :
 :
-Src
+SrcIndex
 )
 ;
 }
