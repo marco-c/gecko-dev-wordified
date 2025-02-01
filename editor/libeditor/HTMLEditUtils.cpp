@@ -194,7 +194,7 @@ EditorInlineStyle
 #
 include
 "
-WSRunObject
+WSRunScanner
 .
 h
 "

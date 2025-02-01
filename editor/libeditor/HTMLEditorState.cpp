@@ -173,13 +173,6 @@ h
 #
 include
 "
-WSRunObject
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -332,6 +325,10 @@ cpp
 namespace
 mozilla
 {
+using
+namespace
+dom
+;
 using
 EditorType
 =
