@@ -28289,6 +28289,8 @@ AutomaticStorageAccessPermissionCanBeGranted
 (
 bool
 hasUserActivation
+bool
+aIsThirdPartyTracker
 )
 ;
 static
