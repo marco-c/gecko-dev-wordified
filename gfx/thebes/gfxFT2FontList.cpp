@@ -855,10 +855,6 @@ reader
 GetItem
 (
 mFilename
-.
-get
-(
-)
 )
 ;
 NS_ASSERTION
@@ -3602,10 +3598,6 @@ reader
 GetItem
 (
 mFilename
-.
-get
-(
-)
 )
 ;
 MOZ_ASSERT
@@ -10481,10 +10473,6 @@ aArchive
 GetItem
 (
 aEntryName
-.
-get
-(
-)
 )
 ;
 NS_ASSERTION

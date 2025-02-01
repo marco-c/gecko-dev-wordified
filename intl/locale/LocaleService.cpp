@@ -2176,7 +2176,10 @@ char
 item
 (
 zip
+nsDependentCString
+(
 aFilePath
+)
 )
 ;
 if

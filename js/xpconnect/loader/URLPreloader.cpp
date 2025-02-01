@@ -2668,10 +2668,6 @@ entry
 -
 >
 mPath
-.
-get
-(
-)
 )
 ;
 if
@@ -3712,14 +3708,7 @@ FileLocation
 location
 (
 zip
-PromiseFlatCString
-(
 path
-)
-.
-BeginReading
-(
-)
 )
 ;
 return
@@ -4197,10 +4186,6 @@ FileLocation
 (
 zip
 mPath
-.
-get
-(
-)
 )
 ;
 }

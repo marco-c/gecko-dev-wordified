@@ -1999,10 +1999,6 @@ Init
 (
 file
 entry
-.
-get
-(
-)
 )
 ;
 }

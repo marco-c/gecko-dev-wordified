@@ -2601,6 +2601,7 @@ chrome
 .
 manifest
 "
+_ns
 )
 ;
 }
@@ -2691,6 +2692,7 @@ chrome
 .
 manifest
 "
+_ns
 )
 ;
 }
@@ -3584,7 +3586,10 @@ f
 aCx
 .
 mFile
+nsDependentCString
+(
 file
+)
 )
 ;
 RegisterManifest
@@ -9361,6 +9366,7 @@ chrome
 .
 manifest
 "
+_ns
 )
 ;
 }
@@ -9796,6 +9802,7 @@ chrome
 .
 manifest
 "
+_ns
 )
 ;
 if

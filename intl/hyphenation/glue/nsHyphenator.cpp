@@ -430,10 +430,6 @@ archive
 GetItem
 (
 path
-.
-get
-(
-)
 )
 ;
 if
