@@ -1760,16 +1760,6 @@ Register
 protoReg
 )
 ;
-void
-loadJSScriptForBlock
-(
-MBasicBlock
-*
-block
-Register
-reg
-)
-;
 #
 ifdef
 DEBUG
