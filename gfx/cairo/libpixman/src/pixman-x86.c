@@ -471,10 +471,11 @@ cpuid
 h
 >
 #
-endif
-#
-ifdef
+elif
+defined
+(
 _MSC_VER
+)
 #
 include
 <
@@ -482,12 +483,6 @@ intrin
 .
 h
 >
-/
-*
-for
-__cpuid
-*
-/
 #
 endif
 static

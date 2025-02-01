@@ -407,6 +407,17 @@ scanline
 processing
 *
 /
+#
+include
+"
+pixman
+-
+arm
+-
+asm
+.
+h
+"
 /
 *
 *
@@ -6861,6 +6872,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 /
 *
@@ -7213,6 +7225,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 /
 *
@@ -8012,6 +8025,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 /
 *
@@ -8072,6 +8086,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 /
 *
@@ -8186,6 +8201,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 /
 *
@@ -8279,6 +8295,7 @@ x30
 sp
 ]
 16
+VERIFY_LR
 ret
 /
 *
