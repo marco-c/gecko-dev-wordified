@@ -170,16 +170,6 @@ LInt64Allocation
 a
 )
 ;
-ValueOperand
-ToValue
-(
-LInstruction
-*
-ins
-size_t
-pos
-)
-;
 void
 emitBigIntPtrDiv
 (
