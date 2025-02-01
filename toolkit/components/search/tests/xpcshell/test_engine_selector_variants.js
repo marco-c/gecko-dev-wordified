@@ -253,8 +253,6 @@ foo
 "
 }
 ]
-}
-}
 searchTermParamName
 :
 "
@@ -262,6 +260,8 @@ search
 -
 param
 "
+}
+}
 }
 ]
 }
@@ -564,8 +564,6 @@ foo
 "
 }
 ]
-}
-}
 searchTermParamName
 :
 "
@@ -573,6 +571,8 @@ search
 -
 param
 "
+}
+}
 }
 ]
 "
@@ -762,8 +762,6 @@ foo
 "
 }
 ]
-}
-}
 searchTermParamName
 :
 "
@@ -771,6 +769,8 @@ search
 -
 param
 "
+}
+}
 }
 ]
 "
