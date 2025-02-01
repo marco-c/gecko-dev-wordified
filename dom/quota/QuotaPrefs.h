@@ -169,6 +169,12 @@ TriggerOriginInitializationInBackgroundEnabled
 (
 )
 ;
+static
+bool
+IncrementalOriginInitializationEnabled
+(
+)
+;
 }
 ;
 }
