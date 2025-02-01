@@ -85,6 +85,9 @@ lesser
 lesserOrEqual
 '
 '
+notEqual
+'
+'
 logicalAnd
 '
 '
