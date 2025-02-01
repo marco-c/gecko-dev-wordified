@@ -538,7 +538,7 @@ assert_equals
 (
 sink
 "
-Worker
+WorkerGlobalScope
 importScripts
 "
 )

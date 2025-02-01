@@ -216,7 +216,7 @@ Window
 "
 :
 "
-Worker
+WorkerGlobalScope
 "
 ;
 if

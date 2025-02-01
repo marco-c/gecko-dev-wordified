@@ -462,7 +462,7 @@ Window
 "
 :
 "
-Worker
+WorkerGlobalScope
 "
 ;
 if
