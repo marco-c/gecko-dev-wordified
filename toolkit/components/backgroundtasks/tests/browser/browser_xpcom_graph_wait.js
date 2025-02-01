@@ -1690,10 +1690,6 @@ equivalent
 of
 Cu
 .
-loadedJSModules
-+
-Cu
-.
 loadedESModules
 .
 modules
