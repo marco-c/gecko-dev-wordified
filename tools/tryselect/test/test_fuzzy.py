@@ -1394,8 +1394,6 @@ debug
 test
 -
 verify
--
-*
 "
             
 "
