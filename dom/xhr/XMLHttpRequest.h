@@ -691,7 +691,7 @@ nsACString
 &
 aMethod
 const
-nsACString
+nsAString
 &
 aUrl
 ErrorResult
@@ -710,17 +710,17 @@ nsACString
 &
 aMethod
 const
-nsACString
+nsAString
 &
 aUrl
 bool
 aAsync
 const
-nsACString
+nsAString
 &
 aUser
 const
-nsACString
+nsAString
 &
 aPassword
 ErrorResult
@@ -852,7 +852,7 @@ virtual
 void
 GetResponseURL
 (
-nsACString
+nsAString
 &
 aUrl
 )
@@ -921,7 +921,7 @@ void
 OverrideMimeType
 (
 const
-nsACString
+nsAString
 &
 aMimeType
 ErrorResult
