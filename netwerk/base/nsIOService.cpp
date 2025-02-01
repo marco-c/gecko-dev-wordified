@@ -6546,8 +6546,6 @@ nsContentPolicyType
 aContentPolicyType
 uint32_t
 aSandboxFlags
-bool
-aSkipCheckForBrokenURLOrZeroSized
 nsIChannel
 *
 *
@@ -6574,7 +6572,6 @@ aController
 aSecurityFlags
 aContentPolicyType
 aSandboxFlags
-aSkipCheckForBrokenURLOrZeroSized
 aResult
 )
 ;
@@ -6657,8 +6654,6 @@ nsContentPolicyType
 aContentPolicyType
 uint32_t
 aSandboxFlags
-bool
-aSkipCheckForBrokenURLOrZeroSized
 nsIChannel
 *
 *
@@ -6682,7 +6677,6 @@ aContentPolicyType
 aLoadingClientInfo
 aController
 aSandboxFlags
-aSkipCheckForBrokenURLOrZeroSized
 )
 ;
 return
@@ -7226,13 +7220,6 @@ ServiceWorkerDescriptor
 aSecurityFlags
 aContentPolicyType
 0
-/
-*
-aSkipCheckForBrokenURLOrZeroSized
-=
-*
-/
-false
 result
 )
 ;

@@ -64245,11 +64245,6 @@ isFromObjectOrEmbed
 :
 boolean
 ;
-readonly
-shouldSkipCheckForBrokenURLOrZeroSized
-:
-boolean
-;
 unstrippedURI
 :
 nsIURI
