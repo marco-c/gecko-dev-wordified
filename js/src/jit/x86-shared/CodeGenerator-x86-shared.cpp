@@ -27095,7 +27095,7 @@ offset
 ;
 switch
 (
-ins
+mir
 -
 >
 laneSize
@@ -27133,7 +27133,7 @@ masm
 .
 vpinsrb
 (
-ins
+mir
 -
 >
 laneIndex
@@ -27183,7 +27183,7 @@ masm
 .
 vpinsrw
 (
-ins
+mir
 -
 >
 laneIndex
@@ -27233,7 +27233,7 @@ masm
 .
 vinsertps
 (
-ins
+mir
 -
 >
 laneIndex
@@ -27284,7 +27284,7 @@ currentOffset
 ;
 if
 (
-ins
+mir
 -
 >
 laneIndex

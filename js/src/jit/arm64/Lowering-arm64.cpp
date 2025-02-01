@@ -10858,7 +10858,7 @@ LGeneralReg
 HeapReg
 )
 ;
-LWasmLoadLaneSimd128
+auto
 *
 lir
 =
@@ -10872,10 +10872,10 @@ LWasmLoadLaneSimd128
 (
 base
 inputUse
+memoryBase
 temp
 (
 )
-memoryBase
 )
 ;
 define

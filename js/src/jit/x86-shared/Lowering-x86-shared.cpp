@@ -13280,7 +13280,7 @@ LAllocation
 (
 )
 ;
-LWasmLoadLaneSimd128
+auto
 *
 lir
 =
@@ -13294,12 +13294,6 @@ LWasmLoadLaneSimd128
 (
 base
 inputUse
-LDefinition
-:
-:
-BogusTemp
-(
-)
 memoryBase
 )
 ;
@@ -13310,7 +13304,7 @@ ins
 LWasmLoadLaneSimd128
 :
 :
-Src
+SrcIndex
 )
 ;
 #
