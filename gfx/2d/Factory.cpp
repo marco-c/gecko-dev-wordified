@@ -7156,6 +7156,10 @@ CreateD3D11DXVA
 nullptr
 error
 device
+DXVA2Usage
+:
+:
+ColorConversionOnly
 )
 )
 ;

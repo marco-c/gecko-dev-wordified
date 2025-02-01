@@ -7618,6 +7618,8 @@ aFailureReason
 ID3D11Device
 *
 aDevice
+DXVA2Usage
+aUsage
 )
 {
 /
@@ -7664,6 +7666,15 @@ sDXVAVideosCount
 =
 =
 dxvaLimit
+&
+&
+aUsage
+=
+=
+DXVA2Usage
+:
+:
+Playback
 )
 {
 aFailureReason
