@@ -662,6 +662,10 @@ const
 EditorDOMRange
 &
 aRange
+const
+Element
+&
+aEditingHost
 )
 const
 ;
@@ -861,6 +865,13 @@ new
 text
 .
 *
+param
+aEditingHost
+The
+editing
+host
+.
+*
 return
 If
 this
@@ -929,6 +940,10 @@ const
 EditorDOMPoint
 &
 aCandidatePointToInsert
+const
+Element
+&
+aEditingHost
 )
 ;
 private
