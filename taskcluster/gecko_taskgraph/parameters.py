@@ -988,6 +988,8 @@ image
 files_changed
 "
 :
+lambda
+:
 sorted
 (
 get_locally_changed_files

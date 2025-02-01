@@ -132,6 +132,12 @@ MOZ_SCM_LEVEL
 3
 "
 )
+"
+files_changed
+"
+:
+[
+]
 }
     
 root_dir
