@@ -8654,11 +8654,6 @@ dialog
 ;
 }
 }
-if
-(
-accept
-)
-{
 let
 popupnotificationID
 =
@@ -8679,6 +8674,11 @@ getElementById
 popupnotificationID
 )
 ;
+if
+(
+accept
+)
+{
 popupnotification
 .
 button
@@ -8690,6 +8690,7 @@ click
 }
 resolve
 (
+popupnotification
 )
 ;
 }
