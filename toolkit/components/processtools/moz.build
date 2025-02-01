@@ -243,11 +243,15 @@ CONFIG
 OS_TARGET
 "
 ]
-=
-=
+in
+(
+"
+FreeBSD
+"
 "
 OpenBSD
 "
+)
 :
 UNIFIED_SOURCES
 +
