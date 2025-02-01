@@ -24738,13 +24738,6 @@ MOZ_ENABLE_LIBPROXY
 "
 True
 )
-set_define
-(
-"
-MOZ_ENABLE_LIBPROXY
-"
-True
-)
 #
 Enable
 runtime
