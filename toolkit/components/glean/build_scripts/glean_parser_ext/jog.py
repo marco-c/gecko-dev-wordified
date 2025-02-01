@@ -789,10 +789,6 @@ template
 render
 (
             
-all_objs
-=
-objs
-            
 common_metric_data_args
 =
 common_metric_data_args
