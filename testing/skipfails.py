@@ -1451,21 +1451,26 @@ str
 #
 Processor
                         
+Dict
+[
+                            
+str
 #
-Test
-variants
-for
-each
-build
-type
-                        
+Variant
+                            
 Dict
 [
 str
-list
-[
-str
+int
 ]
+#
+pass
+:
+X
+fail
+:
+Y
+                        
 ]
                     
 ]
