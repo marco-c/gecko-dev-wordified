@@ -7174,7 +7174,7 @@ HTMLEditor
 :
 InitializeSelectionAncestorLimit
 (
-nsIContent
+Element
 &
 aAncestorLimit
 )
@@ -50629,8 +50629,9 @@ current
 editing
 host
 .
-nsIContent
+Element
 *
+const
 editingHost
 =
 ComputeEditingHost

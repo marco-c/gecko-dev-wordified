@@ -37947,7 +37947,7 @@ EditorBase
 :
 InitializeSelectionAncestorLimit
 (
-nsIContent
+Element
 &
 aAncestorLimit
 )
@@ -37990,9 +37990,10 @@ IsEditActionDataAvailable
 )
 )
 ;
-nsCOMPtr
+const
+RefPtr
 <
-nsIContent
+Element
 >
 selectionRootContent
 =

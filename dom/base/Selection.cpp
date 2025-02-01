@@ -14819,7 +14819,7 @@ return
 rv
 ;
 }
-nsIContent
+Element
 *
 Selection
 :
@@ -14864,7 +14864,7 @@ Selection
 :
 SetAncestorLimiter
 (
-nsIContent
+Element
 *
 aLimiter
 )

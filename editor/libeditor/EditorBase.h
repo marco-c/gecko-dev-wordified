@@ -15946,7 +15946,7 @@ virtual
 void
 InitializeSelectionAncestorLimit
 (
-nsIContent
+Element
 &
 aAncestorLimit
 )

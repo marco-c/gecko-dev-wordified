@@ -5034,7 +5034,7 @@ s
 ancestor
 limiter
 .
-nsIContent
+Element
 *
 GetAncestorLimiter
 (
@@ -5044,7 +5044,7 @@ const
 void
 SetAncestorLimiter
 (
-nsIContent
+Element
 *
 aLimiter
 )
