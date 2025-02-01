@@ -23318,14 +23318,6 @@ UseComputedDisplayStyle
 )
 )
 {
-Element
-*
-editingHost
-=
-ComputeEditingHost
-(
-)
-;
 /
 /
 Try
@@ -23350,8 +23342,6 @@ HTMLEditUtils
 GetPreviousLeafContentOrPreviousBlockElement
 (
 newCaretPosition
-*
-editableBlockElementOrInlineEditingHost
 {
 LeafNodeType
 :
@@ -23362,7 +23352,7 @@ BlockInlineCheck
 :
 :
 UseComputedDisplayStyle
-editingHost
+editableBlockElementOrInlineEditingHost
 )
 ;
 if
@@ -23464,8 +23454,6 @@ HTMLEditUtils
 GetNextLeafContentOrNextBlockElement
 (
 newCaretPosition
-*
-editableBlockElementOrInlineEditingHost
 {
 LeafNodeType
 :
@@ -23476,7 +23464,7 @@ BlockInlineCheck
 :
 :
 UseComputedDisplayStyle
-editingHost
+editableBlockElementOrInlineEditingHost
 )
 )
 {
