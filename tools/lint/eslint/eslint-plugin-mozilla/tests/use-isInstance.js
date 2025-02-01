@@ -728,7 +728,7 @@ SpecialPowers
 .
 ChromeUtils
 .
-import
+importESModule
 (
 '
 '
@@ -956,7 +956,7 @@ code
 "
 ChromeUtils
 .
-import
+importESModule
 (
 '
 '
@@ -971,7 +971,7 @@ output
 "
 ChromeUtils
 .
-import
+importESModule
 (
 '
 '
@@ -1000,7 +1000,7 @@ code
 "
 ChromeUtils
 .
-import
+importESModule
 (
 '
 '
@@ -1015,7 +1015,7 @@ output
 "
 ChromeUtils
 .
-import
+importESModule
 (
 '
 '
