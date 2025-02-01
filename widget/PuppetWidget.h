@@ -1222,6 +1222,13 @@ return
 mBrowserChild
 ;
 }
+LayersId
+GetLayersId
+(
+)
+const
+override
+;
 void
 UpdateBackingScaleCache
 (
