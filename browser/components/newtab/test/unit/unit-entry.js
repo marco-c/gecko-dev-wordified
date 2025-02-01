@@ -1446,6 +1446,11 @@ options
 }
 )
 }
+shortHostname
+(
+)
+{
+}
 }
 OS
 :
