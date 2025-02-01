@@ -16,6 +16,8 @@ from
 unittest
 import
 mock
+import
+mozunit
 PYWIN32
 =
 False
@@ -8341,7 +8343,7 @@ __main__
 "
 :
     
-unittest
+mozunit
 .
 main
 (
