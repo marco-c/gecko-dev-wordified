@@ -359,9 +359,8 @@ MOZ_ASSERT
 box
 -
 >
-getOperand
+payload
 (
-0
 )
 -
 >
@@ -449,9 +448,8 @@ ToAnyRegister
 box
 -
 >
-getOperand
+input
 (
-0
 )
 )
 ;
