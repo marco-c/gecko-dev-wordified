@@ -23042,7 +23042,7 @@ skipRemoves
 {
 tab
 .
-_closedInGroup
+_closedInMultiselection
 =
 true
 ;
@@ -24378,7 +24378,7 @@ tab
 .
 tab
 .
-_closedInGroup
+_closedInMultiselection
 =
 false
 ;
