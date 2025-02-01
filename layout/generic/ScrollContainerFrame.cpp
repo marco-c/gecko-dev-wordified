@@ -22291,9 +22291,6 @@ nsIWidget
 *
 widget
 =
-presContext
--
->
 GetNearestWidget
 (
 )
