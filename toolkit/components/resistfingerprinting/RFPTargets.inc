@@ -637,6 +637,11 @@ ITEM_VALUE
 WebVTT
 63
 )
+ITEM_VALUE
+(
+WebGPULimits
+64
+)
 /
 /
 !
