@@ -141,10 +141,10 @@ getState
 state
 .
 ui
-.
-columns
 =
-null
+"
+foo
+"
 ;
 await
 reloadBrowser
