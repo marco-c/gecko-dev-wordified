@@ -11674,13 +11674,6 @@ SidebarController
 uninitializing
 )
 {
-SidebarController
-.
-recordTabsLayoutSetting
-(
-newValue
-)
-;
 Services
 .
 prefs
@@ -11703,6 +11696,13 @@ hide
 -
 sidebar
 "
+)
+;
+SidebarController
+.
+recordTabsLayoutSetting
+(
+newValue
 )
 ;
 }
