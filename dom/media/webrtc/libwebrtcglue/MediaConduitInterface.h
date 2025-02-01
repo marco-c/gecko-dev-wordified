@@ -2435,6 +2435,15 @@ mUsingFEC
 ;
 }
 virtual
+bool
+LockScaling
+(
+)
+const
+=
+0
+;
+virtual
 Maybe
 <
 webrtc

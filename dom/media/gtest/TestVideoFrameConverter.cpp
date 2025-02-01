@@ -425,6 +425,13 @@ GetMainThreadSerialEventTarget
 )
 )
 aTimestampMaker
+/
+*
+aLockScaling
+=
+*
+/
+false
 )
 {
 }
