@@ -7346,7 +7346,7 @@ hasUses
 )
 )
 {
-LWasmAtomicBinopHeapForEffect
+auto
 *
 lir
 =
@@ -7371,10 +7371,10 @@ value
 (
 )
 )
+memoryBase
 valueTemp
 offsetTemp
 maskTemp
-memoryBase
 )
 ;
 add

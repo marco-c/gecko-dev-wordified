@@ -7682,10 +7682,10 @@ value
 (
 )
 )
+memoryBase
 valueTemp
 offsetTemp
 maskTemp
-memoryBase
 )
 ;
 add

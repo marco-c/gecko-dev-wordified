@@ -8400,7 +8400,7 @@ hasUses
 )
 )
 {
-LWasmAtomicBinopHeapForEffect
+auto
 *
 lir
 =
@@ -8425,16 +8425,10 @@ value
 (
 )
 )
-/
-*
-flagTemp
-=
-*
-/
+memoryBase
 temp
 (
 )
-memoryBase
 )
 ;
 add
