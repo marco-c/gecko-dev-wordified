@@ -535,7 +535,7 @@ Cell
 class
 GCSchedulingTunables
 ;
-class
+struct
 LargeBuffer
 ;
 class
