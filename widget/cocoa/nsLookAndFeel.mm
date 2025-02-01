@@ -3482,7 +3482,7 @@ CFStringRef
 TISGetInputSourceProperty
 (
 source
-kTISPropertyLocalizedName
+kTISPropertyInputSourceID
 )
 )
 ;
