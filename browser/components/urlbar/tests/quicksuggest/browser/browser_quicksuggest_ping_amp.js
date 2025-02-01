@@ -36,11 +36,12 @@ quick
 -
 suggest
 ping
+which
+is
+used
+for
 for
 AMP
-(
-sponsored
-)
 suggestions
 .
 "
