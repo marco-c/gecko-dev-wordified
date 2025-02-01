@@ -4849,6 +4849,9 @@ kNeedAVCC
 kNeedAnnexB
 =
 2
+kNeedHVCC
+=
+3
 }
 ;
 /

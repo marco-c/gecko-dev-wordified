@@ -1508,7 +1508,7 @@ MediaDataDecoder
 ConversionRequired
 :
 :
-kNeedAnnexB
+kNeedHVCC
 )
 >
 {
