@@ -2956,6 +2956,7 @@ replace
 if
 (
             
+(
 "
 android
 -
@@ -2965,7 +2966,6 @@ p6
 "
 in
 test_platform
-            
 or
 "
 android
@@ -2976,10 +2976,47 @@ s24
 "
 in
 test_platform
+)
             
+and
+"
+speedometer
+-
+"
+not
+in
+test
+[
+"
+test
+-
+name
+"
+]
+            
+#
+Bug
+1943674
+resolve
+why
+-
+-
+power
+-
+test
+causes
+permafails
+on
+certain
+mobile
+platforms
+and
+browsers
+        
+)
 or
 (
-                
+            
 "
 android
 -
@@ -2989,7 +3026,7 @@ a55
 "
 in
 test_platform
-                
+            
 and
 any
 (
@@ -3015,7 +3052,7 @@ speedometer3
 "
 )
 )
-                
+            
 #
 Bug
 1919024
@@ -3033,8 +3070,6 @@ in
 the
 support
 scripts
-            
-)
         
 )
 :
