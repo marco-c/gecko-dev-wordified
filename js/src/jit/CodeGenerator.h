@@ -1770,13 +1770,6 @@ Register
 reg
 )
 ;
-void
-loadOutermostJSScript
-(
-Register
-reg
-)
-;
 #
 ifdef
 DEBUG
