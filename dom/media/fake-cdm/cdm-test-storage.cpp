@@ -309,7 +309,7 @@ std
 string
 &
 aName
-Host_10
+Host_11
 *
 aHost
 )
@@ -513,7 +513,7 @@ mData
 void
 WriteRecord
 (
-Host_10
+Host_11
 *
 aHost
 const
@@ -604,7 +604,7 @@ aHost
 void
 WriteRecord
 (
-Host_10
+Host_11
 *
 aHost
 const
@@ -819,7 +819,7 @@ std
 string
 &
 aName
-Host_10
+Host_11
 *
 aHost
 )
@@ -1023,7 +1023,7 @@ mOnReadComplete
 void
 ReadRecord
 (
-Host_10
+Host_11
 *
 aHost
 const
@@ -1175,7 +1175,7 @@ std
 string
 &
 aName
-Host_10
+Host_11
 *
 aHost
 )
@@ -1362,7 +1362,7 @@ mOpenComplete
 void
 OpenRecord
 (
-Host_10
+Host_11
 *
 aHost
 const

@@ -180,12 +180,13 @@ h
 endif
 class
 ClearKeyCDM
+final
 :
 public
 cdm
 :
 :
-ContentDecryptionModule_10
+ContentDecryptionModule_11
 {
 private
 :
@@ -216,7 +217,7 @@ protected
 cdm
 :
 :
-Host_10
+Host_11
 *
 mHost
 ;
@@ -228,7 +229,7 @@ ClearKeyCDM
 cdm
 :
 :
-Host_10
+Host_11
 *
 aHost
 )

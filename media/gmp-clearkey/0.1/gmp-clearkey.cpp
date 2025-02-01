@@ -328,7 +328,7 @@ cdm_interface_version
 cdm
 :
 :
-ContentDecryptionModule_10
+ContentDecryptionModule_11
 :
 :
 kVersion
@@ -446,7 +446,7 @@ endif
 cdm
 :
 :
-Host_10
+Host_11
 *
 host
 =
@@ -455,7 +455,7 @@ static_cast
 cdm
 :
 :
-Host_10
+Host_11
 *
 >
 (

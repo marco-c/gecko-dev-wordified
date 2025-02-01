@@ -437,7 +437,7 @@ class
 cdm
 :
 :
-Host_10
+Host_11
 .
 /
 /
@@ -478,7 +478,7 @@ private
 cdm
 :
 :
-Host_10
+Host_11
 {
 public
 :
@@ -602,7 +602,7 @@ SessionManagerWrapper
 cdm
 :
 :
-Host_10
+Host_11
 void
 OnInitialized
 (
@@ -883,6 +883,20 @@ aVersion
 override
 {
 }
+void
+ReportMetrics
+(
+cdm
+:
+:
+MetricName
+aMetricName
+uint64_t
+aValue
+)
+override
+{
+}
 cdm
 :
 :
@@ -1001,7 +1015,7 @@ uses
 cdm
 :
 :
-Host_10
+Host_11
 '
 s
 OnResolve
@@ -1137,7 +1151,7 @@ in
 cdm
 :
 :
-Host_10
+Host_11
 '
 s
 callback
