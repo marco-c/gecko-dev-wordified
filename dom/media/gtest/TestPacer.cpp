@@ -212,10 +212,7 @@ T
 >
 >
 (
-do_AddRef
-(
 mTaskQueue
-)
 aDuplicationInterval
 )
 )

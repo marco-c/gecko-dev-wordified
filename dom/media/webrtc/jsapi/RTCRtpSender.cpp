@@ -4060,7 +4060,10 @@ apply
 ]
 (
 const
-auto
+VideoSessionConduit
+:
+:
+Resolution
 &
 aResolution
 )
