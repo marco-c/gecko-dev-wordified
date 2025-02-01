@@ -1,6 +1,6 @@
 export
 type
-ProviderType
+Protocol
 =
 "
 default
@@ -150,18 +150,6 @@ export
 interface
 CredentialRequestOptions
 {
-/
-*
-*
-*
-The
-digital
-credential
-request
-options
-.
-*
-/
 digital
 :
 DigitalCredentialRequestOptions

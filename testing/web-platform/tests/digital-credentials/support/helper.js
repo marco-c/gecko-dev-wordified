@@ -30,9 +30,9 @@ types
 '
 )
 .
-ProviderType
+Protocol
 }
-ProviderType
+protocol
 *
 typedef
 {
@@ -113,9 +113,9 @@ SendMessageData
 *
 param
 {
-ProviderType
+protocol
 |
-ProviderType
+protocol
 [
 ]
 }
