@@ -290,9 +290,6 @@ IDBKeyRange
 :
 IDBKeyRange
 (
-nsISupports
-*
-aGlobal
 bool
 aLowerOpen
 bool
@@ -301,10 +298,6 @@ bool
 aIsOnly
 )
 :
-mGlobal
-(
-aGlobal
-)
 mCachedLowerVal
 (
 JS
@@ -542,7 +535,6 @@ keyRange
 new
 IDBKeyRange
 (
-nullptr
 false
 false
 true
@@ -611,7 +603,6 @@ keyRange
 new
 IDBKeyRange
 (
-nullptr
 aKeyRange
 .
 lowerOpen
@@ -751,10 +742,6 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 IDBKeyRange
 )
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mGlobal
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN
 (
@@ -772,10 +759,6 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 IDBKeyRange
-)
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
-mGlobal
 )
 tmp
 -
@@ -1331,11 +1314,6 @@ keyRange
 new
 IDBKeyRange
 (
-aGlobal
-.
-GetAsSupports
-(
-)
 false
 false
 true
@@ -1418,11 +1396,6 @@ keyRange
 new
 IDBKeyRange
 (
-aGlobal
-.
-GetAsSupports
-(
-)
 aOpen
 true
 false
@@ -1505,11 +1478,6 @@ keyRange
 new
 IDBKeyRange
 (
-aGlobal
-.
-GetAsSupports
-(
-)
 true
 aOpen
 false
@@ -1605,11 +1573,6 @@ keyRange
 new
 IDBKeyRange
 (
-aGlobal
-.
-GetAsSupports
-(
-)
 aLowerOpen
 aUpperOpen
 false
