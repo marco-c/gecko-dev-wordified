@@ -117,6 +117,13 @@ h
 #
 include
 "
+HTMLEditUtils
+.
+h
+"
+#
+include
+"
 PendingStyles
 .
 h
