@@ -335,13 +335,6 @@ constants
 asm
 volatile
 (
-"
-.
-fpu
-neon
-\
-n
-"
 /
 *
 Allow
@@ -381,6 +374,13 @@ n
 .
 object_arch
 armv4t
+\
+n
+"
+"
+.
+fpu
+neon
 \
 n
 "
