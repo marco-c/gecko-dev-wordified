@@ -36,6 +36,15 @@ js
 "
 )
 ;
+if
+(
+'
+captureStackTrace
+'
+in
+Error
+)
+{
 function
 caller
 (
@@ -232,3 +241,4 @@ test_jit_elision2
 (
 )
 ;
+}

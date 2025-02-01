@@ -24,16 +24,15 @@ js
 "
 )
 ;
-assertEq
+if
 (
 '
 captureStackTrace
 '
 in
 Error
-true
 )
-;
+{
 assertEq
 (
 Error
@@ -2565,3 +2564,4 @@ low_target
 stack
 )
 ;
+}
