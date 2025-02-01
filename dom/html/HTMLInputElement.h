@@ -1361,7 +1361,7 @@ override
 ;
 TextEditor
 *
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 const
@@ -4679,7 +4679,7 @@ aRv
 ;
 nsIControllers
 *
-GetControllersWithoutCreation
+GetExtantControllers
 (
 )
 const

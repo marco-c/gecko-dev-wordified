@@ -776,7 +776,7 @@ you
 should
 use
 *
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 .
@@ -795,7 +795,7 @@ GetTextEditor
 virtual
 TextEditor
 *
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 const

@@ -37027,7 +37027,7 @@ EditorBase
 Element
 :
 :
-GetEditorWithoutCreation
+GetExtantEditor
 (
 )
 const
@@ -37147,18 +37147,10 @@ IsSingleLineTextControlOrTextArea
 )
 {
 return
-static_cast
-<
-const
-TextControlElement
-*
->
-(
-this
-)
+textControlElement
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 ;
@@ -37193,6 +37185,7 @@ immediately
 .
 nsDocShell
 *
+const
 docShell
 =
 nsDocShell

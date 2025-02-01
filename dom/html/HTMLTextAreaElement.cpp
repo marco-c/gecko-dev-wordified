@@ -1080,7 +1080,7 @@ TextEditor
 HTMLTextAreaElement
 :
 :
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 const
@@ -1094,7 +1094,7 @@ return
 mState
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 ;
@@ -3008,7 +3008,7 @@ commandController
 ;
 }
 return
-GetControllersWithoutCreation
+GetExtantControllers
 (
 )
 ;

@@ -17917,14 +17917,16 @@ used
 password
 generator
 .
+const
 TextEditor
 *
+const
 textEditor
 =
 nsContentUtils
 :
 :
-GetTextEditorFromAnonymousNodeWithoutCreation
+GetExtantTextEditorFromAnonymousNode
 (
 eventContent
 )

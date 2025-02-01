@@ -14488,7 +14488,7 @@ const
 return
 !
 !
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 ;
@@ -14548,13 +14548,15 @@ TextEditor
 HTMLInputElement
 :
 :
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 const
 {
+const
 TextControlState
 *
+const
 state
 =
 GetEditorState
@@ -14575,7 +14577,7 @@ return
 state
 -
 >
-GetTextEditorWithoutCreation
+GetExtantTextEditor
 (
 )
 ;
@@ -36509,7 +36511,7 @@ commandController
 }
 }
 return
-GetControllersWithoutCreation
+GetExtantControllers
 (
 )
 ;

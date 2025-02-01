@@ -6351,13 +6351,14 @@ this
 {
 if
 (
+const
 RefPtr
 <
 EditorBase
 >
 editorBase
 =
-GetEditorWithoutCreation
+GetExtantEditor
 (
 )
 )

@@ -18895,7 +18895,7 @@ mozilla
 :
 TextEditor
 *
-GetTextEditorFromAnonymousNodeWithoutCreation
+GetExtantTextEditorFromAnonymousNode
 (
 const
 nsIContent
