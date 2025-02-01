@@ -74,7 +74,8 @@ util
 .
 archive
 import
-create_tar_gz_from_files
+create_tar_from_files
+gzip_compressor
 IMAGE_DIR
 =
 os
@@ -564,6 +565,12 @@ self
 _writer
 =
 writer
+        
+self
+.
+_written
+=
+0
     
 def
 write
@@ -590,6 +597,28 @@ write
 (
 buf
 )
+        
+self
+.
+_written
++
+=
+len
+(
+buf
+)
+    
+def
+tell
+(
+self
+)
+:
+        
+return
+self
+.
+_written
     
 def
 hexdigest
@@ -803,17 +832,11 @@ as
 fh
 :
         
-return
-stream_context_tar
+with
+gzip_compressor
 (
-            
-topsrcdir
-            
-context_dir
-            
 fh
-            
-image_name
+filename
 =
 os
 .
@@ -823,11 +846,20 @@ basename
 (
 out_path
 )
+)
+as
+gf
+:
             
+return
+stream_context_tar
+(
+topsrcdir
+context_dir
+gf
 args
 =
 args
-        
 )
 RUN_TASK_ROOT
 =
@@ -1014,9 +1046,6 @@ stream_context_tar
 topsrcdir
 context_dir
 out_file
-image_name
-=
-None
 args
 =
 None
@@ -1605,11 +1634,10 @@ HashingWriter
 out_file
 )
     
-create_tar_gz_from_files
+create_tar_from_files
 (
 writer
 archive_files
-image_name
 )
     
 return

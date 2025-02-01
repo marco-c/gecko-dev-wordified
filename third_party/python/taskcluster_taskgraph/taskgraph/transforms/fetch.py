@@ -1724,17 +1724,17 @@ sha256
 size
 "
         
+f
 "
-%
-d
-"
-%
+{
 fetch
 [
-"
+'
 size
-"
+'
 ]
+}
+"
     
 ]
     
@@ -1763,11 +1763,9 @@ strip
 -
 components
 "
-"
-%
-d
-"
-%
+f
+'
+{
 fetch
 [
 "
@@ -1776,6 +1774,8 @@ strip
 components
 "
 ]
+}
+'
 ]
 )
     

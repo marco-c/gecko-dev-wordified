@@ -987,8 +987,6 @@ stream_context_tar
 "
 image_dir
 buf
-"
-"
 args
 )
     

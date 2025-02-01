@@ -95,10 +95,6 @@ mercurial
 i18n
 import
 _
-#
-type
-:
-ignore
 from
 mercurial
 .
@@ -106,18 +102,10 @@ node
 import
 hex
 nullid
-#
-type
-:
-ignore
 from
 mercurial
 import
 (
-#
-type
-:
-ignore
     
 commands
     
@@ -307,10 +295,6 @@ from
 mercurial
 import
 sparse
-#
-type
-:
-ignore
     
 return
 sparse
@@ -493,9 +477,6 @@ of
 attempts
 for
 network
-"
-b
-"
 operations
 "
         
@@ -1069,9 +1050,6 @@ fragment
 12
 -
 40
-"
-b
-"
 characters
 long
 "
@@ -1274,9 +1252,6 @@ be
 enabled
 to
 use
-"
-b
-"
 -
 -
 sparseprofile
@@ -2231,10 +2206,6 @@ add
 behavior
 )
         
-start
-=
-0
-        
 errored
 =
 False
@@ -2630,9 +2601,6 @@ sparse
 profile
 on
 existing
-"
-b
-"
 non
 -
 sparse
@@ -2699,9 +2667,6 @@ checkout
 on
 existing
 sparse
-"
-b
-"
 checkout
 "
             
@@ -2935,7 +2900,7 @@ re
 .
 search
 (
-rb
+b
 "
 [
 a
@@ -2948,6 +2913,7 @@ f0
 40
 }
 /
+\
 \
 .
 hg
@@ -3195,9 +3161,6 @@ recover
 repo
 state
 ;
-"
-b
-"
 deleting
 shared
 store
@@ -3303,9 +3266,6 @@ of
 network
 attempts
 ;
-"
-b
-"
 giving
 up
 \
@@ -4229,9 +4189,6 @@ root
 revision
 from
 clone
-"
-b
-"
 source
 "
 )
@@ -5267,10 +5224,6 @@ havewantedrev
 =
 False
     
-checkoutrevision
-=
-None
-    
 if
 revision
 :
@@ -5345,9 +5298,6 @@ first
 characters
 of
 a
-"
-b
-"
 SHA
 -
 1
@@ -5853,10 +5803,6 @@ the
 sparse
 matcher
 .
-        
-old_sparse_fn
-=
-None
         
 try
 :

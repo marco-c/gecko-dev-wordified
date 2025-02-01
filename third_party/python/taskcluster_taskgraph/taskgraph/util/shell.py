@@ -163,12 +163,12 @@ int
 :
         
 return
+f
 "
-%
-d
-"
-%
+{
 s
+}
+"
     
 #
 Empty
