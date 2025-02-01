@@ -3298,7 +3298,6 @@ nsRFPService
 GetSpoofedUserAgent
 (
 mSpoofedUserAgent
-true
 )
 ;
 mSessionStartTime
