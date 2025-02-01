@@ -21193,12 +21193,6 @@ headerShown
 JS_LOG
 (
 wasmPerf
-mozilla
-:
-:
-LogLevel
-:
-:
 Info
 "
 CM
@@ -21408,12 +21402,6 @@ length
 JS_LOG
 (
 wasmPerf
-mozilla
-:
-:
-LogLevel
-:
-:
 Info
 "
 CM
