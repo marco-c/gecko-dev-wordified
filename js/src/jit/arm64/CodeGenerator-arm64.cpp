@@ -29437,7 +29437,7 @@ ToRegister
 ins
 -
 >
-temp
+temp0
 (
 )
 )
@@ -29457,7 +29457,7 @@ src
 ;
 switch
 (
-ins
+mir
 -
 >
 laneSize
@@ -29473,7 +29473,7 @@ masm
 .
 extractLaneInt8x16
 (
-ins
+mir
 -
 >
 laneIndex
@@ -29527,7 +29527,7 @@ masm
 .
 extractLaneInt16x8
 (
-ins
+mir
 -
 >
 laneIndex
@@ -29581,7 +29581,7 @@ masm
 .
 extractLaneInt32x4
 (
-ins
+mir
 -
 >
 laneIndex
@@ -29635,7 +29635,7 @@ masm
 .
 extractLaneInt64x2
 (
-ins
+mir
 -
 >
 laneIndex

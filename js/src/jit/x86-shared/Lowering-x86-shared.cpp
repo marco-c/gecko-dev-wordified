@@ -13416,7 +13416,7 @@ LAllocation
 (
 )
 ;
-LWasmStoreLaneSimd128
+auto
 *
 lir
 =
@@ -13430,12 +13430,6 @@ LWasmStoreLaneSimd128
 (
 base
 input
-LDefinition
-:
-:
-BogusTemp
-(
-)
 memoryBase
 )
 ;

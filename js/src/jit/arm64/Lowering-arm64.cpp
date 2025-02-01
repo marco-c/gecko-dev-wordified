@@ -10975,7 +10975,7 @@ LGeneralReg
 HeapReg
 )
 ;
-LWasmStoreLaneSimd128
+auto
 *
 lir
 =
@@ -10989,10 +10989,10 @@ LWasmStoreLaneSimd128
 (
 base
 input
+memoryBase
 temp
 (
 )
-memoryBase
 )
 ;
 add
