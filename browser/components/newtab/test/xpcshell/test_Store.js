@@ -90,7 +90,7 @@ mjs
 ;
 const
 {
-ActivityStreamStorage
+ASRouterStorage
 }
 =
 ChromeUtils
@@ -102,13 +102,12 @@ resource
 :
 /
 /
-activity
--
-stream
 /
-lib
+modules
 /
-ActivityStreamStorage
+asrouter
+/
+ASRouterStorage
 .
 sys
 .
@@ -1045,7 +1044,7 @@ sandbox
 .
 stub
 (
-ActivityStreamStorage
+ASRouterStorage
 .
 prototype
 "
@@ -1197,7 +1196,7 @@ ok
 (
 dbAccessed
 "
-ActivityStreamStorage
+ASRouterStorage
 was
 accessed
 "
@@ -1209,7 +1208,7 @@ info
 Store
 should
 reset
-ActivityStreamStorage
+ASRouterStorage
 telemetry
 if
 opening
