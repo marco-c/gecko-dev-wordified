@@ -763,7 +763,7 @@ workerlet
 .
 Maybe
 <
-RFPTarget
+RFPTargetSet
 >
 mOverriddenFingerprintingSettings
 ;
