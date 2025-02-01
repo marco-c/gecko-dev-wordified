@@ -2805,7 +2805,7 @@ elements
 ;
 const
 {
-requestedTranslationPair
+requestedLanguagePair
 isEngineReady
 }
 =
@@ -2813,7 +2813,7 @@ languageState
 ;
 if
 (
-requestedTranslationPair
+requestedLanguagePair
 &
 &
 !
@@ -2827,7 +2827,7 @@ langTagsMatch
 fromMenuList
 .
 value
-requestedTranslationPair
+requestedLanguagePair
 .
 fromLanguage
 )
@@ -2840,7 +2840,7 @@ langTagsMatch
 toMenuList
 .
 value
-requestedTranslationPair
+requestedLanguagePair
 .
 toLanguage
 )
@@ -2994,18 +2994,18 @@ This
 is
 the
 requested
-translation
+language
 pair
 .
 (
-requestedTranslationPair
+requestedLanguagePair
 &
 &
 TranslationsUtils
 .
 langTagsMatch
 (
-requestedTranslationPair
+requestedLanguagePair
 .
 fromLanguage
 fromMenuList
@@ -3018,7 +3018,7 @@ TranslationsUtils
 .
 langTagsMatch
 (
-requestedTranslationPair
+requestedLanguagePair
 .
 toLanguage
 toMenuList
@@ -3030,7 +3030,7 @@ value
 }
 if
 (
-requestedTranslationPair
+requestedLanguagePair
 &
 &
 isEngineReady
@@ -3042,7 +3042,7 @@ fromLanguage
 toLanguage
 }
 =
-requestedTranslationPair
+requestedLanguagePair
 ;
 const
 languageDisplayNames
@@ -6818,7 +6818,7 @@ buttonElements
 ;
 const
 {
-requestedTranslationPair
+requestedLanguagePair
 }
 =
 TranslationsParent
@@ -6842,7 +6842,7 @@ ensureLangListsBuilt
 ;
 if
 (
-requestedTranslationPair
+requestedLanguagePair
 )
 {
 await
@@ -6851,7 +6851,7 @@ this
 #
 showRevisitView
 (
-requestedTranslationPair
+requestedLanguagePair
 )
 .
 catch
@@ -6984,7 +6984,7 @@ autoShow
 reportAsAutoShow
 viewName
 :
-requestedTranslationPair
+requestedLanguagePair
 ?
 "
 revisitView
@@ -7029,7 +7029,7 @@ isTranslationsActive
 {
 const
 {
-requestedTranslationPair
+requestedLanguagePair
 }
 =
 TranslationsParent
@@ -7044,7 +7044,7 @@ selectedBrowser
 languageState
 ;
 return
-requestedTranslationPair
+requestedLanguagePair
 !
 =
 =
@@ -8947,7 +8947,7 @@ return
 const
 {
 detectedLanguages
-requestedTranslationPair
+requestedLanguagePair
 error
 isEngineReady
 }
@@ -9126,7 +9126,7 @@ show
 the
 icon
 .
-requestedTranslationPair
+requestedLanguagePair
 |
 |
 /
@@ -9224,7 +9224,7 @@ false
 ;
 if
 (
-requestedTranslationPair
+requestedLanguagePair
 )
 {
 /
@@ -9285,7 +9285,7 @@ languageDisplayNames
 .
 of
 (
-requestedTranslationPair
+requestedLanguagePair
 .
 fromLanguage
 )
@@ -9295,7 +9295,7 @@ languageDisplayNames
 .
 of
 (
-requestedTranslationPair
+requestedLanguagePair
 .
 toLanguage
 )
@@ -9332,7 +9332,7 @@ buttonLocale
 .
 innerText
 =
-requestedTranslationPair
+requestedLanguagePair
 .
 toLanguage
 .

@@ -1775,7 +1775,7 @@ try
 {
 const
 {
-requestedTranslationPair
+requestedLanguagePair
 }
 =
 TranslationsParent
@@ -1792,7 +1792,7 @@ languageState
 return
 !
 !
-requestedTranslationPair
+requestedLanguagePair
 ;
 }
 catch
