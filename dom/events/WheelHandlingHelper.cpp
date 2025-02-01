@@ -3235,7 +3235,7 @@ rv
 nsITimer
 :
 :
-InitWithFuncCallback
+InitWithNamedFuncCallback
 failed
 "
 )
