@@ -10751,7 +10751,7 @@ it
 .
 const_cast
 <
-StyleComputedImageUrl
+StyleComputedUrl
 *
 >
 (

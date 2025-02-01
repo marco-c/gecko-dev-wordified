@@ -1009,7 +1009,7 @@ nsIFrame
 *
 aFrame
 const
-StyleComputedImageUrl
+StyleComputedUrl
 &
 aURL
 )
@@ -5976,7 +5976,7 @@ i
 )
 {
 const
-StyleComputedImageUrl
+StyleComputedUrl
 *
 data
 =

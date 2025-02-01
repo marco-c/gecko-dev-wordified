@@ -147,7 +147,7 @@ computed
 url
 :
 :
-ComputedImageUrl
+ComputedUrl
 ;
 use
 crate
@@ -323,7 +323,7 @@ generic
 GenericImage
 <
 Gradient
-ComputedImageUrl
+ComputedUrl
 Color
 Percentage
 Resolution

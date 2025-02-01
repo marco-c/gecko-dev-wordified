@@ -2714,7 +2714,7 @@ nsIURI
 *
 aURI
 const
-StyleComputedImageUrl
+StyleComputedUrl
 &
 aImage
 )
@@ -2804,7 +2804,7 @@ ImageLoader
 LoadImage
 (
 const
-StyleComputedImageUrl
+StyleComputedUrl
 &
 aImage
 Document

@@ -272,7 +272,7 @@ specified
 url
 :
 :
-SpecifiedImageUrl
+SpecifiedUrl
 ;
 use
 crate
@@ -460,7 +460,7 @@ generic
 Image
 <
 Gradient
-SpecifiedImageUrl
+SpecifiedUrl
 Color
 Percentage
 Resolution
@@ -1627,7 +1627,7 @@ try_parse
 |
 input
 |
-SpecifiedImageUrl
+SpecifiedUrl
 :
 :
 parse_with_cors_mode
@@ -3199,7 +3199,7 @@ Image
 :
 Url
 (
-SpecifiedImageUrl
+SpecifiedUrl
 :
 :
 parse_from_string

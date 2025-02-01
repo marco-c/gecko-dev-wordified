@@ -3032,7 +3032,7 @@ false
 }
 inline
 bool
-StyleComputedImageUrl
+StyleComputedUrl
 :
 :
 IsImageResolved
@@ -3059,7 +3059,7 @@ TRIED_TO_RESOLVE_IMAGE
 inline
 imgRequestProxy
 *
-StyleComputedImageUrl
+StyleComputedUrl
 :
 :
 GetImage
@@ -6472,7 +6472,7 @@ template
 >
 inline
 const
-StyleComputedImageUrl
+StyleComputedUrl
 *
 StyleImage
 :

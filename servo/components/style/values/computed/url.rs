@@ -110,10 +110,7 @@ gecko
 url
 :
 :
-{
-ComputedImageUrl
 ComputedUrl
-}
 ;
 #
 [
@@ -137,10 +134,7 @@ servo
 url
 :
 :
-{
-ComputedImageUrl
 ComputedUrl
-}
 ;
 /
 /
