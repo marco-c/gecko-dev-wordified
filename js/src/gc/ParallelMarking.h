@@ -311,7 +311,6 @@ gc
 bool
 mark
 (
-const
 JS
 :
 :
@@ -372,7 +371,6 @@ markOneColor
 (
 MarkColor
 color
-const
 JS
 :
 :
