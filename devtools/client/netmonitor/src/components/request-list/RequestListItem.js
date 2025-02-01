@@ -1208,6 +1208,9 @@ isVisible
 "
 requestFilterTypes
 "
+"
+waterfallScale
+"
 ]
 ;
 /
