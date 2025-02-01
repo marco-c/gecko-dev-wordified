@@ -2415,7 +2415,7 @@ ToTempRegister64OrInvalid
 lir
 -
 >
-temp
+temp0
 (
 )
 )
