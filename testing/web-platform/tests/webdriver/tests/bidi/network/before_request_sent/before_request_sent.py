@@ -23,16 +23,12 @@ AsyncPoll
 from
 .
 .
-.
-import
-number_interval
-from
-.
-.
 import
 (
     
 assert_before_request_sent_event
+    
+get_network_event_timerange
     
 PAGE_DATA_URL_HTML
     
@@ -1547,6 +1543,8 @@ def
 test_request_timing_info
 (
     
+bidi_session
+    
 url
     
 wait_for_event
@@ -1638,14 +1636,11 @@ current_time
     
 time_range
 =
-number_interval
+get_network_event_timerange
 (
 time_start
--
-1
 time_end
-+
-1
+bidi_session
 )
     
 assert
@@ -2754,14 +2749,11 @@ current_time
     
 time_range
 =
-number_interval
+get_network_event_timerange
 (
 time_start
--
-1
 time_end
-+
-1
+bidi_session
 )
     
 assert
@@ -2820,11 +2812,18 @@ def
 test_url_with_fragment
 (
     
+bidi_session
+    
 url
+    
 wait_for_event
+    
 wait_for_future_safe
+    
 fetch
+    
 setup_network_test
+    
 current_time
 )
 :
@@ -2917,14 +2916,11 @@ current_time
     
 time_range
 =
-number_interval
+get_network_event_timerange
 (
 time_start
--
-1
 time_end
-+
-1
+bidi_session
 )
     
 assert
@@ -3132,14 +3128,11 @@ current_time
     
 time_range
 =
-number_interval
+get_network_event_timerange
 (
 time_start
--
-1
 time_end
-+
-1
+bidi_session
 )
     
 assert
@@ -3248,6 +3241,8 @@ def
 test_fetch_data_url
 (
     
+bidi_session
+    
 wait_for_event
     
 wait_for_future_safe
@@ -3336,14 +3331,11 @@ current_time
     
 time_range
 =
-number_interval
+get_network_event_timerange
 (
 time_start
--
-1
 time_end
-+
-1
+bidi_session
 )
     
 assert
