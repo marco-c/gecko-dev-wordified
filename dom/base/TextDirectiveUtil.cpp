@@ -276,7 +276,7 @@ mozilla
 dom
 {
 LazyLogModule
-sFragmentDirectiveLog
+gFragmentDirectiveLog
 (
 "
 FragmentDirective
