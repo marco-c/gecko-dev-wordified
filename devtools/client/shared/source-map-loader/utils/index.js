@@ -327,13 +327,6 @@ text
 /
 javascript
 "
-jsm
-:
-"
-text
-/
-javascript
-"
 mjs
 :
 "
