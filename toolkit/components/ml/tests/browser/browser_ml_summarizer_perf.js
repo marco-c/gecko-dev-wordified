@@ -2521,10 +2521,6 @@ dtype
 useExternalDataFormat
 :
 true
-timeoutMS
-:
--
-1
 }
 )
 ;
