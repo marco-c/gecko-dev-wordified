@@ -1748,9 +1748,8 @@ eax
 ins
 -
 >
-setInt64Operand
+setLhs
 (
-0
 useInt64Fixed
 (
 lhs
@@ -1772,9 +1771,8 @@ true
 ins
 -
 >
-setInt64Operand
+setRhs
 (
-INT64_PIECES
 useInt64OrConstant
 (
 rhs
@@ -1789,9 +1787,8 @@ needsTemp
 ins
 -
 >
-setTemp
+setTemp0
 (
-0
 temp
 (
 )

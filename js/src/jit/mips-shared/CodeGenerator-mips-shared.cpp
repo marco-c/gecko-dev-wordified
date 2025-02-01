@@ -2993,7 +2993,7 @@ ToTempRegisterOrInvalid
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -3025,7 +3025,7 @@ ToTempRegisterOrInvalid
 lir
 -
 >
-temp
+temp0
 (
 )
 )
