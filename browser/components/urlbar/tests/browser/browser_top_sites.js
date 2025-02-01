@@ -82,6 +82,8 @@ resource
 /
 modules
 /
+topsites
+/
 TopSites
 .
 sys
