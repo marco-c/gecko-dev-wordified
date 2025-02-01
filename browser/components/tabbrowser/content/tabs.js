@@ -7223,13 +7223,6 @@ dropIndex
 ;
 }
 }
-gBrowser
-.
-syncThrobberAnimations
-(
-tab
-)
-;
 }
 ;
 if
