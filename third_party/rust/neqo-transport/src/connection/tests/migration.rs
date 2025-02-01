@@ -89,6 +89,7 @@ cell
 :
 :
 RefCell
+mem
 net
 :
 :
@@ -219,8 +220,6 @@ TransportParameter
 CloseReason
 ConnectionId
 ConnectionIdDecoder
-as
-_
 ConnectionIdGenerator
 ConnectionIdRef
 ConnectionParameters
@@ -1484,9 +1483,12 @@ unwrap
 (
 )
 .
-is_empty
+len
 (
 )
+=
+=
+0
 ;
 let
 mut
@@ -10007,6 +10009,9 @@ frame_tx
 .
 connection_close
 ;
+mem
+:
+:
 drop
 (
 client

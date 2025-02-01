@@ -115,10 +115,10 @@ usize
 This
 is
 the
-number
+munber
 of
 header
-blocks
+blockes
 that
 reference
 the

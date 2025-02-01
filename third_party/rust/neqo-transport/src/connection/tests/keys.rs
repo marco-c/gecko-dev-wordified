@@ -81,6 +81,12 @@ those
 terms
 .
 use
+std
+:
+:
+mem
+;
+use
 neqo_common
 :
 :
@@ -182,6 +188,9 @@ before
 doing
 this
 .
+mem
+:
+:
 drop
 (
 peer
@@ -1330,6 +1339,9 @@ Some
 )
 )
 ;
+mem
+:
+:
 drop
 (
 server
@@ -1579,6 +1591,9 @@ now
 =
 AT_LEAST_PTO
 ;
+mem
+:
+:
 drop
 (
 client
@@ -1708,6 +1723,9 @@ from
 the
 client
 .
+mem
+:
+:
 drop
 (
 send_something
@@ -1858,6 +1876,9 @@ in
 the
 present
 .
+mem
+:
+:
 drop
 (
 server
@@ -2633,6 +2654,9 @@ overwrite_invocations
 UPDATE_WRITE_KEYS_AT
 )
 ;
+mem
+:
+:
 drop
 (
 send_something
@@ -2717,6 +2741,9 @@ after
 the
 first
 .
+mem
+:
+:
 drop
 (
 send_something
@@ -2758,6 +2785,9 @@ will
 update
 though
 .
+mem
+:
+:
 drop
 (
 send_something

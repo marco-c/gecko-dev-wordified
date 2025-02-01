@@ -690,6 +690,12 @@ cid
 }
 }
 impl
+std
+:
+:
+ops
+:
+:
 Deref
 for
 ConnectionId
@@ -1111,6 +1117,12 @@ as_ref
 }
 }
 impl
+std
+:
+:
+ops
+:
+:
 Deref
 for
 ConnectionIdRef

@@ -150,7 +150,7 @@ are
 instantiated
 as
 consts
-below
+bellow
 .
 The
 only
@@ -159,7 +159,7 @@ where
 this
 /
 /
-constructor
+construcrtor
 is
 used
 is
@@ -183,7 +183,7 @@ one
 of
 the
 consts
-below
+bellow
 .
 create_prefix
 guaranty

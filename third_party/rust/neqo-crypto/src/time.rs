@@ -1584,12 +1584,12 @@ println
 }
 -
 {
-delta_micros
 }
 "
 base
 .
 prtime
+delta_micros
 )
 ;
 let

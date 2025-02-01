@@ -120,8 +120,6 @@ event
 :
 :
 Provider
-as
-_
 hex
 qdebug
 qerror
@@ -671,9 +669,9 @@ partial
 URL
 :
 {
-url_dbg
 }
 "
+url_dbg
 )
 ;
 self
@@ -699,9 +697,9 @@ on
 partial
 URL
 {
-url_dbg
 }
 "
+url_dbg
 )
 ;
 conn
@@ -759,7 +757,6 @@ qdebug
 "
 Stream
 {
-stream_id
 }
 not
 client
@@ -768,6 +765,7 @@ initiated
 bidi
 ignoring
 "
+stream_id
 )
 ;
 return

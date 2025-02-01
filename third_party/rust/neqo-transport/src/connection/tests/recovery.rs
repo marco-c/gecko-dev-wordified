@@ -84,12 +84,15 @@ use
 std
 :
 :
+{
+mem
 time
 :
 :
 {
 Duration
 Instant
+}
 }
 ;
 use
@@ -3107,6 +3110,9 @@ from_millis
 10
 )
 ;
+mem
+:
+:
 drop
 (
 server
@@ -4061,6 +4067,9 @@ will
 drop
 this
 .
+mem
+:
+:
 drop
 (
 send_something
@@ -4201,6 +4210,9 @@ is_some
 This
 crashes
 .
+mem
+:
+:
 drop
 (
 send_something
@@ -4317,6 +4329,9 @@ into
 a
 PTO
 .
+mem
+:
+:
 drop
 (
 send_something
@@ -4475,6 +4490,9 @@ has
 been
 transferred
 .
+mem
+:
+:
 drop
 (
 send_something
@@ -6242,9 +6260,9 @@ trickle
 remaining
 =
 {
-count
 }
 "
+count
 )
 ;
 assert_eq

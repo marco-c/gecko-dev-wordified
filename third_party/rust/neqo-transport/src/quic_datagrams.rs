@@ -928,7 +928,7 @@ datagram
 size
 .
 The
-function
+funcion
 does
 not
 check

@@ -357,7 +357,6 @@ qtrace
 "
 set_negotiated
 {
-feature_type
 :
 ?
 }
@@ -365,6 +364,7 @@ to
 {
 }
 "
+feature_type
 settings
 .
 get

@@ -92,6 +92,7 @@ cell
 :
 :
 RefCell
+mem
 net
 :
 :
@@ -156,10 +157,6 @@ ConnectionRef
 Server
 ValidateAddress
 }
-version
-:
-:
-WireVersion
 CloseReason
 Connection
 ConnectionParameters
@@ -1765,6 +1762,9 @@ let
 mut
 header
 =
+neqo_common
+:
+:
 Encoder
 :
 :
@@ -1922,6 +1922,9 @@ let
 mut
 header
 =
+neqo_common
+:
+:
 Encoder
 :
 :
@@ -2064,6 +2067,9 @@ let
 mut
 header
 =
+neqo_common
+:
+:
 Encoder
 :
 :
@@ -2520,6 +2526,9 @@ handshake
 get
 dropped
 .
+mem
+:
+:
 drop
 (
 server
@@ -2575,6 +2584,9 @@ c1
 now
 )
 ;
+mem
+:
+:
 drop
 (
 server
@@ -2740,6 +2752,9 @@ dgram
 now
 )
 ;
+mem
+:
+:
 drop
 (
 server
@@ -2768,6 +2783,9 @@ last
 RTT
 packet
 .
+mem
+:
+:
 drop
 (
 server
@@ -5045,12 +5063,8 @@ assert_eq
 dec
 .
 decode_uint
-:
-:
-<
-u32
->
 (
+4
 )
 .
 expect
@@ -5133,12 +5147,8 @@ v
 dec
 .
 decode_uint
-:
-:
-<
-WireVersion
->
 (
+4
 )
 .
 expect
@@ -5155,6 +5165,11 @@ found
 v
 =
 =
+u64
+:
+:
+from
+(
 Version
 :
 :
@@ -5164,6 +5179,7 @@ default
 .
 wire_version
 (
+)
 )
 ;
 }

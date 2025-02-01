@@ -89,6 +89,7 @@ cell
 :
 :
 RefCell
+mem
 net
 :
 :
@@ -116,8 +117,6 @@ event
 :
 :
 Provider
-as
-_
 qdebug
 Datagram
 }
@@ -2402,6 +2401,9 @@ is_some
 )
 )
 ;
+mem
+:
+:
 drop
 (
 server
@@ -2419,6 +2421,9 @@ now
 )
 )
 ;
+mem
+:
+:
 drop
 (
 server
@@ -3428,6 +3433,9 @@ client
 now
 )
 ;
+assertions
+:
+:
 assert_coalesced_0rtt
 (
 &
@@ -3513,6 +3521,9 @@ RTT
 /
 2
 ;
+mem
+:
+:
 drop
 (
 server
@@ -4268,6 +4279,9 @@ dropped_rx
 0
 )
 ;
+mem
+:
+:
 drop
 (
 client
@@ -4508,6 +4522,9 @@ RTT
 /
 2
 ;
+mem
+:
+:
 drop
 (
 client
@@ -8066,6 +8083,9 @@ the
 initial
 packet
 .
+mem
+:
+:
 drop
 (
 client
@@ -11062,8 +11082,6 @@ FrameStats
 {
 crypto
 :
-2
-*
 i
 .
 .
@@ -11201,6 +11219,8 @@ default_server
 let
 mut
 total_ptos
+:
+Duration
 =
 Duration
 :

@@ -551,7 +551,6 @@ from
 }
 to
 {
-current_mtu
 }
 updating
 pacer
@@ -563,6 +562,7 @@ pacer
 mtu
 (
 )
+current_mtu
 )
 ;
 self
@@ -623,7 +623,6 @@ pmtud_mut
 on_packets_acked
 (
 acked_pkts
-now
 stats
 )
 ;
@@ -971,7 +970,7 @@ bytes
 in
 flight
 .
-(
+if
 self
 .
 cc
@@ -981,12 +980,9 @@ bytes_in_flight
 )
 >
 0
-)
-.
-then
+{
+Some
 (
-|
-|
 self
 .
 pacer
@@ -1003,6 +999,11 @@ cwnd
 )
 )
 )
+}
+else
+{
+None
+}
 }
 #
 [
