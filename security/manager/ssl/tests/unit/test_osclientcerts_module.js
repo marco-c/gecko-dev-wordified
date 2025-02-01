@@ -180,9 +180,6 @@ Client
 Cert
 Module
 "
-"
-osclientcerts
-"
 )
 ;
 /
@@ -295,9 +292,6 @@ Client
 Cert
 Module
 "
-"
-osclientcerts
-"
 )
 ;
 /
@@ -395,9 +389,6 @@ Client
 Cert
 Module
 "
-"
-osclientcerts
-"
 )
 ;
 /
@@ -464,9 +455,6 @@ OS
 Client
 Cert
 Module
-"
-"
-osclientcerts
 "
 )
 ;
