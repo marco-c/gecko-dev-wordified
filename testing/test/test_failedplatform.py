@@ -117,11 +117,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -149,20 +152,26 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 "
 build_type2
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
     
 )
@@ -228,11 +237,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -259,11 +271,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -294,20 +309,26 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 "
 build_type2
 "
 :
-[
+{
 "
 test_variant2
 "
-]
+:
+{
+}
+}
 }
     
 )
@@ -338,14 +359,20 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -412,8 +439,8 @@ FailedPlatform
 build_type1
 "
 :
-[
-]
+{
+}
 }
 )
     
@@ -436,11 +463,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -464,11 +494,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -507,11 +540,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -549,14 +585,20 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -595,14 +637,20 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -672,8 +720,8 @@ FailedPlatform
 build_type1
 "
 :
-[
-]
+{
+}
 }
 )
     
@@ -694,11 +742,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -719,8 +770,8 @@ FailedPlatform
 build_type1
 "
 :
-[
-]
+{
+}
 }
 )
     
@@ -753,8 +804,8 @@ FailedPlatform
 build_type1
 "
 :
-[
-]
+{
+}
 }
 )
     
@@ -788,11 +839,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -826,11 +880,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -865,14 +922,20 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -908,14 +971,20 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -955,27 +1024,39 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
             
 "
 build_type2
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
         
 }
     
@@ -1018,27 +1099,39 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
             
 "
 build_type2
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
         
 }
     
@@ -1136,8 +1229,8 @@ FailedPlatform
 build_type1
 "
 :
-[
-]
+{
+}
 }
 )
     
@@ -1168,11 +1261,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -1214,15 +1310,21 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 !
 fission
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -1328,8 +1430,8 @@ FailedPlatform
 build_type1
 "
 :
-[
-]
+{
+}
 }
 )
     
@@ -1371,11 +1473,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -1428,16 +1533,22 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant1
 +
 test_variant2
 "
-]
+:
+{
+}
+}
 }
     
 )
@@ -1495,16 +1606,22 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 +
 test_variant3
 "
-]
+:
+{
+}
+}
 }
     
 )
@@ -1555,16 +1672,22 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant1
 +
 test_variant2
 "
-]
+:
+{
+}
+}
 }
     
 )
@@ -1625,13 +1748,16 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
                 
 "
 test_variant1
 +
 test_variant2
 "
+:
+{
+}
                 
 "
 test_variant1
@@ -1640,8 +1766,11 @@ test_variant2
 +
 test_variant3
 "
+:
+{
+}
             
-]
+}
         
 }
     
@@ -1708,13 +1837,16 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
                 
 "
 test_variant2
 +
 test_variant1
 "
+:
+{
+}
                 
 "
 test_variant1
@@ -1723,8 +1855,11 @@ test_variant3
 +
 test_variant2
 "
+:
+{
+}
             
-]
+}
         
 }
     
@@ -1791,13 +1926,16 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
                 
 "
 test_variant1
 +
 test_variant2
 "
+:
+{
+}
                 
 "
 test_variant1
@@ -1806,6 +1944,9 @@ test_variant2
 +
 test_variant3
 "
+:
+{
+}
                 
 "
 test_variant1
@@ -1814,8 +1955,11 @@ test_variant4
 +
 test_variant2
 "
+:
+{
+}
             
-]
+}
         
 }
     
@@ -1887,22 +2031,33 @@ FailedPlatform
 (
         
 {
+            
 "
 build_type1
 "
 :
-[
+{
+                
 "
 test_variant1
 +
 test_variant2
 "
+:
+{
+}
+                
 "
 test_variant1
 +
 test_variant3
 "
-]
+:
+{
+}
+            
+}
+        
 }
     
 )
@@ -1964,23 +2119,29 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
             
 "
 build_type2
 "
 :
-[
+{
 "
 test_variant1
 +
 test_variant2
 "
-]
+:
+{
+}
+}
         
 }
     
@@ -2049,11 +2210,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 no_variant
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -2087,11 +2251,14 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -2125,13 +2292,16 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 +
 test_variant2
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -2186,26 +2356,34 @@ fp
 =
 FailedPlatform
 (
+        
 {
 "
 build_type1
 "
 :
-[
+{
 "
 no_variant
 "
-]
+:
+{
+}
+}
 "
 build_type2
 "
 :
-[
+{
 "
 no_variant
 "
-]
+:
+{
 }
+}
+}
+    
 )
     
 assert
@@ -2262,27 +2440,39 @@ FailedPlatform
 (
         
 {
+            
 "
 build_type1
 "
 :
-[
+{
 "
 no_variant
 "
+:
+{
+}
 "
 test_variant1
 "
-]
+:
+{
+}
+}
+            
 "
 build_type2
 "
 :
-[
+{
 "
 no_variant
 "
-]
+:
+{
+}
+}
+        
 }
     
 )
@@ -2345,20 +2535,26 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
-]
+:
+{
+}
+}
 "
 build_type2
 "
 :
-[
+{
 "
 no_variant
 "
-]
+:
+{
+}
+}
 }
     
 )
@@ -2397,26 +2593,35 @@ FailedPlatform
 (
         
 {
+            
 "
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 +
 test_variant2
 "
-]
+:
+{
+}
+}
+            
 "
 build_type2
 "
 :
-[
+{
 "
 no_variant
 "
-]
+:
+{
+}
+}
+        
 }
     
 )
@@ -2479,24 +2684,33 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
             
 "
 build_type2
 "
 :
-[
+{
 "
 no_variant
 "
-]
+:
+{
+}
+}
         
 }
     
@@ -2545,26 +2759,34 @@ fp
 =
 FailedPlatform
 (
+        
 {
 "
 build_type1
 "
 :
-[
+{
 "
 no_variant
 "
-]
+:
+{
+}
+}
 "
 build_type2
 "
 :
-[
+{
 "
 no_variant
 "
-]
+:
+{
 }
+}
+}
+    
 )
     
 assert
@@ -2633,25 +2855,31 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 +
 test_variant2
 "
-]
+:
+{
+}
+}
             
 "
 build_type2
 "
 :
-[
+{
 "
 test_variant1
 +
 test_variant2
 "
-]
+:
+{
+}
+}
         
 }
     
@@ -2724,14 +2952,20 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
 }
 )
     
@@ -2801,27 +3035,39 @@ FailedPlatform
 (
         
 {
+            
 "
 build_type1
 "
 :
-[
+{
 "
 test_variant1
 "
+:
+{
+}
 "
 no_variant
 "
-]
+:
+{
+}
+}
+            
 "
 build_type2
 "
 :
-[
+{
 "
 no_variant
 "
-]
+:
+{
+}
+}
+        
 }
     
 )
@@ -2897,39 +3143,57 @@ FailedPlatform
 build_type1
 "
 :
-[
+{
                 
 "
 test_variant1
 "
+:
+{
+}
                 
 "
 test_variant2
 "
+:
+{
+}
                 
 "
 test_variant1
 +
 test_variant2
 "
+:
+{
+}
             
-]
+}
             
 "
 build_type2
 "
 :
-[
+{
 "
 no_variant
 "
+:
+{
+}
 "
 test_variant1
 "
+:
+{
+}
 "
 test_variant2
 "
-]
+:
+{
+}
+}
         
 }
     

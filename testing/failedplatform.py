@@ -371,7 +371,8 @@ str
 ]
 :
         
-return
+permutations
+=
 self
 .
 oop_permutations
@@ -379,9 +380,18 @@ oop_permutations
 get
 (
 build_type
-[
-]
+{
+}
 )
+        
+return
+[
+tv
+for
+tv
+in
+permutations
+]
     
 def
 is_full_fail
