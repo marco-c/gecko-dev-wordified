@@ -89,7 +89,6 @@ cell
 :
 :
 RefCell
-mem
 rc
 :
 :
@@ -104,6 +103,8 @@ event
 :
 :
 Provider
+as
+_
 ;
 use
 test_fixture
@@ -1520,9 +1521,7 @@ test
 that
 critical
 streams
-pre
--
-empt
+preempt
 most
 frame
 types
@@ -1801,9 +1800,6 @@ stats
 .
 frame_tx
 ;
-mem
-:
-:
 drop
 (
 fill_cwnd
@@ -1932,9 +1928,7 @@ test
 that
 important
 streams
-pre
--
-empt
+preempt
 most
 frame
 types
@@ -2219,9 +2213,6 @@ stats
 .
 frame_tx
 ;
-mem
-:
-:
 drop
 (
 fill_cwnd
@@ -2362,9 +2353,7 @@ test
 that
 important
 streams
-pre
--
-empt
+preempt
 most
 frame
 types
@@ -2673,9 +2662,6 @@ unwrap
 (
 )
 ;
-mem
-:
-:
 drop
 (
 fill_cwnd
@@ -2982,9 +2968,6 @@ unwrap
 (
 )
 ;
-mem
-:
-:
 drop
 (
 server
@@ -3095,9 +3078,6 @@ stats
 .
 frame_tx
 ;
-mem
-:
-:
 drop
 (
 server

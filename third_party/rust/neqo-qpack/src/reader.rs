@@ -1235,11 +1235,11 @@ IntReader
 is
 created
 by
-suppling
+supplying
 the
 first
 byte
-anf
+and
 prefix
 length
 .
@@ -1318,7 +1318,6 @@ cannot
 larger
 than
 7
-.
 "
 )
 ;
@@ -1855,7 +1854,7 @@ used
 /
 when
 a
-litreral
+literal
 has
 a
 prefix
@@ -2380,7 +2379,6 @@ read
 in
 this
 state
-.
 "
 )
 ;
@@ -2730,6 +2728,8 @@ Error
 IntReader
 LiteralReader
 ReadByte
+as
+_
 ReceiverBufferWrapper
 Res
 }

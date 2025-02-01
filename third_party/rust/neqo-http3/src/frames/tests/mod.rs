@@ -81,12 +81,6 @@ those
 terms
 .
 use
-std
-:
-:
-mem
-;
-use
 neqo_common
 :
 :
@@ -278,9 +272,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 conn_s
@@ -323,9 +314,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 conn_s
@@ -368,8 +356,6 @@ unwrap
 let
 mut
 fr
-:
-FrameReader
 =
 FrameReader
 :
@@ -380,7 +366,7 @@ new
 ;
 /
 /
-conver
+convert
 string
 into
 u8
@@ -424,9 +410,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 conn_c

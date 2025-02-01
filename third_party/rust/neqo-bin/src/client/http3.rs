@@ -119,6 +119,8 @@ io
 {
 BufWriter
 Write
+as
+_
 }
 net
 :
@@ -941,12 +943,6 @@ self
 >
 bool
 {
-neqo_common
-:
-:
-event
-:
-:
 Provider
 :
 :
@@ -1817,6 +1813,7 @@ qdebug
 READ
 [
 {
+stream_id
 }
 ]
 :
@@ -1824,7 +1821,6 @@ READ
 {
 }
 "
-stream_id
 hex
 (
 data
@@ -2104,6 +2100,7 @@ Unexpected
 data
 [
 {
+stream_id
 }
 ]
 :
@@ -2111,7 +2108,6 @@ data
 {
 }
 "
-stream_id
 hex
 (
 data
