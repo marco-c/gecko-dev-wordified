@@ -886,6 +886,17 @@ DOMException
 if
 (
 !
+StaticPrefs
+:
+:
+dom_webcomponents_lift_adoptedstylesheets_restriction_enabled
+(
+)
+)
+{
+if
+(
+!
 aSheet
 .
 IsConstructed
@@ -956,6 +967,7 @@ document
 "
 )
 ;
+}
 }
 auto
 *

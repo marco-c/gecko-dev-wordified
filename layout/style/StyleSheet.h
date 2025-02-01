@@ -2848,6 +2848,8 @@ DocumentOrShadowRoot
 aAdopter
 )
 {
+/
+/
 MOZ_ASSERT
 (
 IsConstructed
