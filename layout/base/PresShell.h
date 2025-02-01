@@ -2369,10 +2369,8 @@ document
 .
 *
 /
-RefPtr
-<
 MobileViewportManager
->
+*
 GetMobileViewportManager
 (
 )
@@ -7088,7 +7086,7 @@ FireResizeEventSync
 )
 ;
 void
-NativeAnonymousContentRemoved
+NativeAnonymousContentWillBeRemoved
 (
 nsIContent
 *
