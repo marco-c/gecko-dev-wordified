@@ -131,7 +131,7 @@ POPUP_TEXT_COLOR_DARK
 :
 "
 #
-00000
+5b5b66
 "
 ;
 const
