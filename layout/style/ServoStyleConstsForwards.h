@@ -544,14 +544,6 @@ UseBoxSizing
 :
 uint8_t
 ;
-template
-<
-typename
-L
->
-union
-StyleGenericCalcNode
-;
 namespace
 css
 {

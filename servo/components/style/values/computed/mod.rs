@@ -501,7 +501,6 @@ OverflowAnchor
 OverflowClipBox
 OverscrollBehavior
 Perspective
-PositionProperty
 Resize
 ScrollSnapAlign
 ScrollSnapAxis
