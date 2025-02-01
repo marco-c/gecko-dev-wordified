@@ -770,7 +770,7 @@ which
     
 #
 ignores
-punctuations
+punctuation
 .
     
 if
