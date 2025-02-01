@@ -9161,6 +9161,9 @@ setupIframe
 (
 aIFrame
 aURL
+aIsOffScreen
+=
+false
 )
 {
 const
@@ -9184,6 +9187,12 @@ aURL
 await
 iframeLoadPromise
 ;
+if
+(
+!
+aIsOffScreen
+)
+{
 await
 SpecialPowers
 .
@@ -9210,6 +9219,7 @@ waitUntilApzStable
 }
 )
 ;
+}
 }
 /
 /
@@ -9240,6 +9250,9 @@ setupCrossOriginIFrame
 (
 aIFrame
 aUrl
+aIsOffScreen
+=
+false
 )
 {
 let
@@ -9279,8 +9292,15 @@ setupIframe
 (
 aIFrame
 iframeURL
+aIsOffScreen
 )
 ;
+if
+(
+!
+aIsOffScreen
+)
+{
 await
 SpecialPowers
 .
@@ -9306,4 +9326,5 @@ content
 }
 )
 ;
+}
 }
