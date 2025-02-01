@@ -364,6 +364,12 @@ ClearTransparentWindow
 override
 ;
 bool
+DrawsToMemoryDC
+(
+)
+const
+;
+bool
 RedrawTransparentWindow
 (
 )
