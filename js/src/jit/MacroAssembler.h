@@ -37985,6 +37985,10 @@ const
 BaseIndex
 &
 src
+const
+ValueOperand
+&
+dest
 Register
 bigInt
 Register64
