@@ -8234,9 +8234,8 @@ ToRegister64
 lir
 -
 >
-getInt64Operand
+num
 (
-0
 )
 )
 ;
@@ -8293,6 +8292,11 @@ endif
 switch
 (
 lir
+-
+>
+mir
+(
+)
 -
 >
 mode

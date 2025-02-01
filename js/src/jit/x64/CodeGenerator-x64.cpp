@@ -6781,9 +6781,8 @@ ToRegister64
 ins
 -
 >
-getInt64Operand
+num
 (
-0
 )
 )
 ;
@@ -6798,6 +6797,11 @@ ins
 switch
 (
 ins
+-
+>
+mir
+(
+)
 -
 >
 mode

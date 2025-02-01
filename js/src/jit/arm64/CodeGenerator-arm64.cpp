@@ -7611,7 +7611,7 @@ ToRegister
 ins
 -
 >
-temp
+temp0
 (
 )
 )
@@ -7625,7 +7625,7 @@ toWRegister
 ins
 -
 >
-temp
+temp0
 (
 )
 )
@@ -18829,9 +18829,8 @@ ToRegister64
 ins
 -
 >
-getInt64Operand
+num
 (
-0
 )
 )
 ;
@@ -18846,6 +18845,11 @@ ins
 switch
 (
 ins
+-
+>
+mir
+(
+)
 -
 >
 mode
