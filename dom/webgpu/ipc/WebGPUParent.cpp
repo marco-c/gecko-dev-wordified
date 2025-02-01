@@ -8102,7 +8102,7 @@ RemoteTextureMap
 if
 (
 it
-!
+=
 =
 mExternalTextures
 .
