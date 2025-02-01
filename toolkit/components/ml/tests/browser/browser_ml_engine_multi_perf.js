@@ -878,7 +878,16 @@ initializeEngine
 new
 PipelineOptions
 (
+{
+timeoutMS
+:
+-
+1
+.
+.
+.
 engineConfig
+}
 )
 )
 ;
