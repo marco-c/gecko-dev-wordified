@@ -287,6 +287,11 @@ ContentBlockingUserInteraction
 h
 "
 "
+DynamicFpiNavigationHeuristic
+.
+h
+"
+"
 DynamicFpiRedirectHeuristic
 .
 h
@@ -358,6 +363,11 @@ cpp
 "
 "
 ContentBlockingUserInteraction
+.
+cpp
+"
+"
+DynamicFpiNavigationHeuristic
 .
 cpp
 "
