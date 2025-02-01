@@ -17785,7 +17785,7 @@ isPreservingCode
 Zone
 :
 :
-DiscardOptions
+JitDiscardOptions
 options
 ;
 options
