@@ -3845,7 +3845,7 @@ inp
 type
 =
 "
-month
+number
 "
 ;
 assert_equals
