@@ -1614,6 +1614,8 @@ dragAndDrop
 tab1
 tab2
 copy
+=
+false
 destWindow
 =
 window
@@ -1722,11 +1724,11 @@ height
 ;
 }
 let
-originalTPos
+originalIndex
 =
 tab1
 .
-_tPos
+elementIndex
 ;
 EventUtils
 .
@@ -1797,10 +1799,10 @@ waitForCondition
 return
 tab1
 .
-_tPos
+elementIndex
 !
 =
-originalTPos
+originalIndex
 ;
 }
 "

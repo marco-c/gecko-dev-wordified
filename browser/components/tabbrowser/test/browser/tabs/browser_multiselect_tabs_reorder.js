@@ -275,7 +275,6 @@ dragAndDrop
 (
 tab3
 tab4
-false
 )
 ;
 is
