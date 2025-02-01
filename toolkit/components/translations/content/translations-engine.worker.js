@@ -3084,6 +3084,11 @@ model
 )
 }
 ;
+if
+(
+lex
+)
+{
 memoryLog
 +
 =
@@ -3098,6 +3103,7 @@ lex
 )
 }
 ;
+}
 /
 /
 Set
@@ -3434,6 +3440,9 @@ targetLanguage
 config
 model
 lex
+?
+?
+null
 vocabList
 qualityModel
 ?
