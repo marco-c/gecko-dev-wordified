@@ -890,6 +890,12 @@ overflow
 :
 auto
 ;
+overscroll
+-
+behavior
+:
+none
+;
 margin
 :
 0
