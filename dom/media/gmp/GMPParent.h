@@ -562,12 +562,6 @@ State
 )
 const
 ;
-bool
-IsOnGMPEventTarget
-(
-)
-const
-;
 nsCOMPtr
 <
 nsISerialEventTarget
@@ -575,7 +569,6 @@ nsISerialEventTarget
 GMPEventTarget
 (
 )
-const
 ;
 void
 OnPreferenceChange
