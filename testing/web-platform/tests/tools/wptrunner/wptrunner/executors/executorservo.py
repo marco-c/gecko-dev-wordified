@@ -1582,11 +1582,6 @@ or
 debug_opts
 =
 "
-disable
--
-text
--
-aa
 replace
 -
 surrogates
