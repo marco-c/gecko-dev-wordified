@@ -883,11 +883,6 @@ forget
 )
 ;
 }
-void
-AbortAsyncShutdown
-(
-)
-;
 /
 /
 Called
