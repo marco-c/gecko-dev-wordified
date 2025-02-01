@@ -201,11 +201,6 @@ Gadugi
 Georgia
 "
 "
-HoloLens
-MDL2
-Assets
-"
-"
 Impact
 "
 "
