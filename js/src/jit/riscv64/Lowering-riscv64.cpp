@@ -7329,15 +7329,7 @@ value
 )
 )
 memoryBase
-)
-;
-lir
--
->
-setTemp
-(
-0
-temp
+tempInt64
 (
 )
 )
