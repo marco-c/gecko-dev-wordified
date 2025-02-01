@@ -475,7 +475,9 @@ modules
 /
 SomeModule
 .
-jsm
+sys
+.
+mjs
 "
 )
 '
