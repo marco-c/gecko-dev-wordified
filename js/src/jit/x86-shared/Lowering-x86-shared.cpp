@@ -12038,7 +12038,7 @@ ins
 LWasmReplaceLaneSimd128
 :
 :
-LhsDest
+LhsIndex
 )
 ;
 }
