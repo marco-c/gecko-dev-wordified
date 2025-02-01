@@ -1606,6 +1606,16 @@ GetSkipAllowInlineStyleCheck
 (
 )
 ;
+RequireTrustedTypesForDirectiveState
+requireTrustedTypesForDirectiveState
+=
+aCSP
+-
+>
+GetRequireTrustedTypesForDirectiveState
+(
+)
+;
 nsTArray
 <
 ContentSecurityPolicy
@@ -1643,6 +1653,7 @@ requestingPrincipalInfo
 selfURISpec
 referrer
 windowID
+requireTrustedTypesForDirectiveState
 skipAllowInlineStyleCheck
 )
 ;
