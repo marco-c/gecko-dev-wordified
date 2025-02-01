@@ -716,6 +716,12 @@ validateTwoInputsFromMultipleBuilders
 operatorName
 )
 ;
+validateTwoBroadcastableInputsTensorLimit
+(
+operatorName
+label
+)
+;
 runElementWiseBinaryTests
 (
 operatorName
