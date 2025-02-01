@@ -896,7 +896,7 @@ platform
 startswith
 (
 "
-win
+win32
 "
 )
 :
@@ -905,6 +905,8 @@ return
 "
 target
 .
+stub
+-
 installer
 .
 exe
