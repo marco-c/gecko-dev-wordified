@@ -203,7 +203,7 @@ element
 {
 role
 :
-ROLE_SEARCHBOX
+ROLE_ENTRY
 children
 :
 [
@@ -319,7 +319,7 @@ element
 {
 role
 :
-ROLE_SEARCHBOX
+ROLE_ENTRY
 children
 :
 [

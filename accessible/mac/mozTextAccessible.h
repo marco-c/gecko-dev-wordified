@@ -185,6 +185,16 @@ moxRole
 override
 -
 (
+NSString
+*
+)
+moxSubrole
+;
+/
+/
+override
+-
+(
 NSNumber
 *
 )
