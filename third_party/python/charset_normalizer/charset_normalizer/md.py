@@ -1328,7 +1328,7 @@ self
 _character_count
 <
 =
-24
+13
 :
             
 return
@@ -1441,6 +1441,14 @@ str
 self
 .
 _buffer_accent_count
+:
+int
+=
+0
+        
+self
+.
+_buffer_glyph_count
 :
 int
 =
@@ -1577,6 +1585,48 @@ _foreign_long_watch
 =
 True
             
+if
+(
+                
+is_cjk
+(
+character
+)
+                
+or
+is_hangul
+(
+character
+)
+                
+or
+is_katakana
+(
+character
+)
+                
+or
+is_hiragana
+(
+character
+)
+                
+or
+is_thai
+(
+character
+)
+            
+)
+:
+                
+self
+.
+_buffer_glyph_count
++
+=
+1
+            
 return
         
 if
@@ -1653,9 +1703,10 @@ _buffer_accent_count
 /
 buffer_length
 >
+=
 0
 .
-34
+5
 :
                     
 self
@@ -1696,7 +1747,7 @@ foreign_long
 suspicious
 .
                 
-if
+elif
 (
                     
 is_accentuated
@@ -1756,6 +1807,28 @@ self
 _is_current_word_bad
 =
 True
+                
+elif
+self
+.
+_buffer_glyph_count
+=
+=
+1
+:
+                    
+self
+.
+_is_current_word_bad
+=
+True
+                    
+self
+.
+_foreign_long_count
++
+=
+1
             
 if
 buffer_length
@@ -1892,6 +1965,12 @@ _buffer
 self
 .
 _buffer_accent_count
+=
+0
+            
+self
+.
+_buffer_glyph_count
 =
 0
         

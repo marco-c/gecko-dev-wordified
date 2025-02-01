@@ -383,6 +383,15 @@ __stdin__
 fileno
 (
 )
+#
+type
+:
+ignore
+[
+union
+-
+attr
+]
 except
 Exception
 :
@@ -402,6 +411,15 @@ __stdout__
 fileno
 (
 )
+#
+type
+:
+ignore
+[
+union
+-
+attr
+]
 except
 Exception
 :
@@ -421,6 +439,15 @@ __stderr__
 fileno
 (
 )
+#
+type
+:
+ignore
+[
+union
+-
+attr
+]
 except
 Exception
 :
@@ -7153,14 +7180,19 @@ int
 =
 None
         
+streams
+=
+_STD_STREAMS_OUTPUT
 if
 WINDOWS
+else
+_STD_STREAMS
+        
+for
+file_descriptor
+in
+streams
 :
-#
-pragma
-:
-no
-cover
             
 try
 :
@@ -7172,6 +7204,7 @@ os
 .
 get_terminal_size
 (
+file_descriptor
 )
             
 except
@@ -7188,42 +7221,10 @@ a
 terminal
                 
 pass
-        
-else
-:
             
-for
-file_descriptor
-in
-_STD_STREAMS
-:
-                
-try
-:
-                    
-width
-height
-=
-os
-.
-get_terminal_size
-(
-file_descriptor
-)
-                
-except
-(
-AttributeError
-ValueError
-OSError
-)
-:
-                    
-pass
-                
 else
 :
-                    
+                
 break
         
 columns
@@ -9390,15 +9391,6 @@ __rich_console__
 self
 _options
 )
-#
-type
-:
-ignore
-[
-union
--
-attr
-]
         
 elif
 isinstance
