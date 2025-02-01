@@ -1431,6 +1431,16 @@ if
 item
 .
 mBlocked
+|
+|
+item
+.
+mType
+&
+nsIWebProgressListener
+:
+:
+STATE_ALLOWED_TRACKING_CONTENT
 )
 {
 events
