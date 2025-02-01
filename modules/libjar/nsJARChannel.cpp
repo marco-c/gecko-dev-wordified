@@ -256,7 +256,7 @@ mozilla
 /
 glean
 /
-ModulesLibjarMetrics
+LibjarMetrics
 .
 h
 "
