@@ -6242,7 +6242,7 @@ bundle
 getString
 (
 "
-fromLanguage
+sourceLanguage
 "
 )
 bundle
@@ -6250,7 +6250,7 @@ bundle
 getString
 (
 "
-toLanguage
+targetLanguage
 "
 )
 )
@@ -6912,7 +6912,7 @@ bundle
 getBundle
 (
 "
-requestedTranslationPair
+requestedLanguagePair
 "
 )
 )
