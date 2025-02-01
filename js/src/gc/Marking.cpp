@@ -9183,7 +9183,7 @@ phase
 ;
 }
 }
-size_t
+void
 GCMarker
 :
 :
@@ -9219,7 +9219,6 @@ canDonateWork
 )
 )
 ;
-return
 MarkStack
 :
 :
@@ -13377,7 +13376,7 @@ SlotsOrElementsRangeTag
 static
 *
 /
-size_t
+void
 MarkStack
 :
 :
@@ -13613,7 +13612,6 @@ wordsToMove
 )
 {
 return
-0
 ;
 }
 /
@@ -13736,9 +13734,6 @@ peekPtr
 assertValid
 (
 )
-;
-return
-wordsToMove
 ;
 }
 void
