@@ -3040,7 +3040,7 @@ ToTempRegisterOrInvalid
 ins
 -
 >
-temp
+temp0
 (
 )
 )
@@ -3053,7 +3053,7 @@ ToRegister
 ins
 -
 >
-addrTemp
+temp1
 (
 )
 )

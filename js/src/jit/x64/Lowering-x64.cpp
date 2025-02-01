@@ -3422,6 +3422,7 @@ useRegister
 base
 )
 value
+memoryBase
 bitOp
 ?
 temp
@@ -3434,13 +3435,6 @@ LDefinition
 BogusTemp
 (
 )
-LDefinition
-:
-:
-BogusTemp
-(
-)
-memoryBase
 )
 ;
 if
@@ -3455,7 +3449,7 @@ ins
 LWasmAtomicBinopHeap
 :
 :
-valueOp
+ValueIndex
 )
 ;
 }
