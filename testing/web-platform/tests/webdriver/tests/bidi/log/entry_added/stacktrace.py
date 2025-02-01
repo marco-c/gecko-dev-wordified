@@ -19,66 +19,41 @@ parametrize
     
 "
 log_method
-expect_stack
 "
     
 [
-        
-(
+      
 "
 assert
 "
-True
-)
-        
-(
+      
 "
 debug
 "
-False
-)
-        
-(
+      
 "
 error
 "
-True
-)
-        
-(
+      
 "
 info
 "
-False
-)
-        
-(
+      
 "
 log
 "
-False
-)
-        
-(
+      
 "
 table
 "
-False
-)
-        
-(
+      
 "
 trace
 "
-True
-)
-        
-(
+      
 "
 warn
 "
-True
-)
     
 ]
 )
@@ -94,7 +69,6 @@ top_context
 wait_for_event
 wait_for_future_safe
 log_method
-expect_stack
 )
 :
     
@@ -279,14 +253,10 @@ entryAdded
 "
 )
     
-if
-expect_stack
-:
-        
 expected_stack
 =
 [
-            
+        
 {
 "
 columnNumber
@@ -311,7 +281,7 @@ url
 :
 url
 }
-            
+        
 {
 "
 columnNumber
@@ -336,7 +306,7 @@ url
 :
 url
 }
-            
+        
 {
 "
 columnNumber
@@ -360,15 +330,8 @@ url
 :
 url
 }
-        
-]
     
-else
-:
-        
-expected_stack
-=
-None
+]
     
 await
 bidi_session
