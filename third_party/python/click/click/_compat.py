@@ -3620,6 +3620,10 @@ WeakKeyDictionary
 def
 auto_wrap_for_ansi
 (
+#
+noqa
+:
+F811
         
 stream
 :

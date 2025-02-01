@@ -1099,6 +1099,7 @@ function
 complete_func
 )
 s
+;
     
 set
 -
@@ -1134,11 +1135,13 @@ prog_name
 )
 s
 )
+;
     
 for
 completion
 in
 response
+;
         
 set
 -
@@ -1151,6 +1154,7 @@ split
 "
 completion
 )
+;
         
 if
 test
@@ -1162,12 +1166,14 @@ metadata
 "
 dir
 "
+;
             
 __fish_complete_directories
 metadata
 [
 2
 ]
+;
         
 else
 if
@@ -1180,12 +1186,14 @@ metadata
 "
 file
 "
+;
             
 __fish_complete_path
 metadata
 [
 2
 ]
+;
         
 else
 if
@@ -1198,17 +1206,22 @@ metadata
 "
 plain
 "
+;
             
 echo
 metadata
 [
 2
 ]
+;
         
 end
+;
     
 end
+;
 end
+;
 complete
 -
 -
@@ -1236,6 +1249,7 @@ complete_func
 s
 )
 "
+;
 "
 "
 "
@@ -1535,6 +1549,8 @@ replace
 _
 "
 )
+flags
+=
 re
 .
 ASCII
@@ -2056,10 +2072,11 @@ source_template
 =
 _SOURCE_BASH
     
+staticmethod
+    
 def
 _check_version
 (
-self
 )
 -
 >
@@ -2174,8 +2191,7 @@ minor
 "
 :
                 
-raise
-RuntimeError
+echo
 (
                     
 _
@@ -2202,14 +2218,17 @@ than
 "
                     
 )
+                    
+err
+=
+True
                 
 )
         
 else
 :
             
-raise
-RuntimeError
+echo
 (
                 
 _
@@ -2229,6 +2248,10 @@ supported
 .
 "
 )
+                
+err
+=
+True
             
 )
     
