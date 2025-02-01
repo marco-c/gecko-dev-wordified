@@ -76,6 +76,7 @@ TOGGLE_COLUMN
 WATERFALL_RESIZE
 SET_COLUMNS_WIDTH
 SET_HEADERS_URL_PREVIEW_EXPANDED
+SET_DEFAULT_RAW_RESPONSE
 OPEN_ACTION_BAR
 }
 =
@@ -997,6 +998,21 @@ expanded
 }
 ;
 }
+function
+setDefaultRawResponse
+(
+enabled
+)
+{
+return
+{
+type
+:
+SET_DEFAULT_RAW_RESPONSE
+enabled
+}
+;
+}
 module
 .
 exports
@@ -1020,5 +1036,6 @@ togglePersistentLogs
 toggleBrowserCache
 toggleStatistics
 setHeadersUrlPreviewExpanded
+setDefaultRawResponse
 }
 ;
