@@ -4888,9 +4888,8 @@ ToRegister
 ins
 -
 >
-getTemp
+temp0
 (
-0
 )
 )
 ;
@@ -4902,9 +4901,8 @@ ToRegister
 ins
 -
 >
-getTemp
+temp1
 (
-1
 )
 )
 ;
