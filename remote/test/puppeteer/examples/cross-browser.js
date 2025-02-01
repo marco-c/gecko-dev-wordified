@@ -114,7 +114,7 @@ const
 firefoxOptions
 =
 {
-product
+browser
 :
 '
 firefox

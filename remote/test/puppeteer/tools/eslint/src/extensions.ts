@@ -42,6 +42,14 @@ createRule
 ESLintUtils
 .
 RuleCreator
+<
+{
+requiresTypeChecking
+:
+boolean
+;
+}
+>
 (
 name
 =

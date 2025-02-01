@@ -230,7 +230,7 @@ package
 .
 json
 '
-assert
+with
 {
 type
 :
@@ -248,7 +248,11 @@ from
 .
 .
 /
-src
+lib
+/
+esm
+/
+puppeteer
 /
 revisions
 .

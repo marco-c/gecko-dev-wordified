@@ -33,7 +33,7 @@ expect
 import
 type
 {
-PuppeteerLaunchOptions
+LaunchOptions
 }
 from
 '
@@ -45,7 +45,7 @@ internal
 /
 node
 /
-PuppeteerNode
+LaunchOptions
 .
 js
 '
@@ -106,14 +106,7 @@ timeout
 let
 launchOptions
 :
-PuppeteerLaunchOptions
-&
-{
-devtools
-:
-boolean
-;
-}
+LaunchOptions
 ;
 const
 browsers

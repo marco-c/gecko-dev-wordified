@@ -5,7 +5,7 @@ script
 for
 background
 extension
-window
+globalThis
 .
 MAGIC
 =

@@ -159,6 +159,11 @@ launch
 (
 {
 }
+{
+createContext
+:
+true
+}
 )
 ;
 outputFile

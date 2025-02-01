@@ -46,6 +46,7 @@ js
 '
 ;
 export
+type
 *
 from
 '

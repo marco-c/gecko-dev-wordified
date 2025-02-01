@@ -1076,11 +1076,6 @@ launch
 (
 {
 }
-{
-createContext
-:
-false
-}
 )
 ;
 try
@@ -1181,11 +1176,6 @@ launch
 (
 {
 }
-{
-createContext
-:
-false
-}
 )
 ;
 try
@@ -1278,7 +1268,7 @@ async
 {
 const
 {
-page
+browser
 close
 }
 =
@@ -1294,6 +1284,16 @@ error
 !
 :
 Error
+;
+const
+page
+=
+await
+browser
+.
+newPage
+(
+)
 ;
 const
 neverResolves
@@ -1473,7 +1473,7 @@ TMP_FOLDER
 ;
 const
 {
-context
+browser
 close
 }
 =
@@ -1499,7 +1499,7 @@ functional
 try
 {
 await
-context
+browser
 .
 newPage
 (
@@ -1713,7 +1713,7 @@ toHaveLength
 ;
 const
 {
-context
+browser
 close
 }
 =
@@ -1805,7 +1805,7 @@ its
 functional
 .
 await
-context
+browser
 .
 newPage
 (
@@ -1945,7 +1945,7 @@ prefsJSContent
 ;
 const
 {
-context
+browser
 close
 }
 =
@@ -1971,7 +1971,7 @@ its
 functional
 .
 await
-context
+browser
 .
 newPage
 (
@@ -3421,7 +3421,7 @@ async
 {
 const
 {
-context
+browser
 close
 }
 =
@@ -3441,7 +3441,7 @@ const
 page
 =
 await
-context
+browser
 .
 newPage
 (
@@ -3861,11 +3861,6 @@ launch
 (
 {
 }
-{
-createContext
-:
-false
-}
 )
 ;
 try
@@ -4002,11 +3997,6 @@ await
 launch
 (
 options
-{
-createContext
-:
-false
-}
 )
 ;
 try
@@ -4211,7 +4201,7 @@ async
 {
 const
 {
-context
+browser
 close
 }
 =
@@ -4238,7 +4228,7 @@ const
 page
 =
 await
-context
+browser
 .
 newPage
 (
@@ -4313,7 +4303,7 @@ async
 {
 const
 {
-context
+browser
 close
 }
 =
@@ -4333,7 +4323,7 @@ const
 page
 =
 await
-context
+browser
 .
 newPage
 (
@@ -5039,11 +5029,6 @@ launch
 (
 {
 }
-{
-createContext
-:
-false
-}
 )
 ;
 try
@@ -5267,11 +5252,6 @@ waitForInitialPage
 :
 false
 }
-{
-createContext
-:
-false
-}
 )
 ;
 try
@@ -5382,11 +5362,6 @@ await
 launch
 (
 {
-}
-{
-createContext
-:
-false
 }
 )
 ;

@@ -918,6 +918,8 @@ Bidi
 Network
 .
 Initiator
+|
+undefined
 {
 return
 this
@@ -1467,6 +1469,7 @@ disposeSymbol
 )
 ;
 }
+override
 [
 disposeSymbol
 ]

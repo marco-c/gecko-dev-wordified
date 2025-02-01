@@ -53,9 +53,9 @@ js
 '
 ;
 import
-{
-PuppeteerNode
-}
+*
+as
+PuppeteerCore
 from
 '
 puppeteer
@@ -64,9 +64,9 @@ core
 /
 internal
 /
-node
-/
-PuppeteerNode
+puppeteer
+-
+core
 .
 js
 '
@@ -102,6 +102,8 @@ const
 puppeteer
 =
 new
+PuppeteerCore
+.
 PuppeteerNode
 (
 {

@@ -76,7 +76,6 @@ js
 import
 type
 {
-BrowserConnectOptions
 ConnectOptions
 }
 from
@@ -238,8 +237,6 @@ url
 string
 options
 :
-BrowserConnectOptions
-&
 ConnectOptions
 )
 :
@@ -408,7 +405,7 @@ url
 string
 options
 :
-BrowserConnectOptions
+ConnectOptions
 )
 :
 Promise
@@ -644,6 +641,13 @@ url
 connectionTransport
 slowMo
 protocolTimeout
+/
+*
+rawErrors
+=
+*
+/
+true
 )
 ;
 const

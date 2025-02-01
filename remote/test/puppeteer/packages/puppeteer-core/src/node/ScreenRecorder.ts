@@ -1622,6 +1622,7 @@ resolve
 internal
 *
 /
+override
 async
 [
 asyncDisposeSymbol

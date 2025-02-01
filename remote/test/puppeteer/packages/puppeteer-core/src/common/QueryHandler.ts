@@ -923,12 +923,6 @@ options
 const
 polling
 =
-options
-.
-polling
-?
-?
-(
 visible
 |
 |
@@ -938,10 +932,9 @@ PollingOptions
 .
 RAF
 :
-PollingOptions
+options
 .
-MUTATION
-)
+polling
 ;
 try
 {

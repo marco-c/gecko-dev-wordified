@@ -46,6 +46,7 @@ js
 '
 ;
 export
+type
 *
 from
 '
@@ -57,6 +58,7 @@ js
 '
 ;
 export
+type
 *
 from
 '
@@ -68,6 +70,7 @@ js
 '
 ;
 export
+type
 *
 from
 '
@@ -90,6 +93,7 @@ js
 '
 ;
 export
+type
 *
 from
 '
@@ -244,6 +248,7 @@ js
 '
 ;
 export
+type
 *
 from
 '
@@ -343,6 +348,7 @@ js
 '
 ;
 export
+type
 *
 from
 '
@@ -376,6 +382,7 @@ js
 '
 ;
 export
+type
 *
 from
 '
@@ -404,6 +411,18 @@ from
 .
 /
 XPathQueryHandler
+.
+js
+'
+;
+export
+type
+*
+from
+'
+.
+/
+DownloadBehavior
 .
 js
 '

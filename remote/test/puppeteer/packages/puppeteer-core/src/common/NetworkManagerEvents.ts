@@ -218,8 +218,6 @@ RequestServedFromCache
 ]
 :
 HTTPRequest
-|
-undefined
 ;
 [
 NetworkManagerEvent
