@@ -7310,12 +7310,6 @@ hasPendingIonCompileTask
 JS_LOG
 (
 compilationDependency
-mozilla
-:
-:
-LogLevel
-:
-:
 Debug
 "
 Cancelling

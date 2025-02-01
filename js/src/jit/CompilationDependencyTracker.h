@@ -557,12 +557,6 @@ cx
 JS_LOG
 (
 compilationDependency
-mozilla
-:
-:
-LogLevel
-:
-:
 Debug
 "
 Failed

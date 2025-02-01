@@ -8447,12 +8447,6 @@ THENABLE_USE_PROTO
 JS_LOG
 (
 thenable
-mozilla
-:
-:
-LogLevel
-:
-:
 Debug
 "
 Thenable
@@ -8492,12 +8486,6 @@ THENABLE_USE_STANDARD_PROTO
 JS_LOG
 (
 thenable
-mozilla
-:
-:
-LogLevel
-:
-:
 Info
 "
 Thenable
