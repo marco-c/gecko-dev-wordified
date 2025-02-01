@@ -161,7 +161,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+ImageDecodersMetrics
 .
 h
 "

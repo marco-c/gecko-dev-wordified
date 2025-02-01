@@ -70,7 +70,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+StartupMetrics
 .
 h
 "

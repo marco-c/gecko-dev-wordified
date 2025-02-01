@@ -281,7 +281,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+WidgetGtkMetrics
 .
 h
 "

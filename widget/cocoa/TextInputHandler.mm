@@ -197,7 +197,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+WidgetCocoaMetrics
 .
 h
 "

@@ -151,17 +151,6 @@ h
 #
 include
 "
-mozilla
-/
-glean
-/
-GleanMetrics
-.
-h
-"
-#
-include
-"
 mozpkix
 /
 Input

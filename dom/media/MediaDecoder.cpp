@@ -317,7 +317,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomMediaPlatformsWmfMetrics
 .
 h
 "

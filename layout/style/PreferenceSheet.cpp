@@ -196,7 +196,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+AccessibleMetrics
 .
 h
 "

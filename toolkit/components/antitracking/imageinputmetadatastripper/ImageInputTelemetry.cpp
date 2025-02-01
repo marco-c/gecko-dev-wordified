@@ -179,7 +179,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+AntitrackingImageinputmetadatastripperMetrics
 .
 h
 "

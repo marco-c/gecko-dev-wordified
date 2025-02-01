@@ -306,7 +306,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+SecurityCertverifierMetrics
 .
 h
 "

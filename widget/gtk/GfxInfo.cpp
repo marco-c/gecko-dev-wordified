@@ -210,7 +210,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+GfxMetrics
 .
 h
 "

@@ -136,7 +136,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomMetrics
 .
 h
 "

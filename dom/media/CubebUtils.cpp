@@ -153,7 +153,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomMediaMetrics
 .
 h
 "

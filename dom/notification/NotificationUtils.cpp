@@ -177,7 +177,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomNotificationMetrics
 .
 h
 "

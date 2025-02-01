@@ -329,7 +329,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+ParserHtmlparserMetrics
 .
 h
 "

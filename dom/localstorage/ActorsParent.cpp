@@ -949,7 +949,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomLocalstorageMetrics
 .
 h
 "

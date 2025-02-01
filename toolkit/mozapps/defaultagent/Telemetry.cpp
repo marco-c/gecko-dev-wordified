@@ -233,7 +233,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+ToolkitMozappsDefaultagentMetrics
 .
 h
 "

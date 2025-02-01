@@ -217,7 +217,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+XpcomMetrics
 .
 h
 "

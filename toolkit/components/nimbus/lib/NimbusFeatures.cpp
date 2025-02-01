@@ -163,7 +163,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+NimbusMetrics
 .
 h
 "

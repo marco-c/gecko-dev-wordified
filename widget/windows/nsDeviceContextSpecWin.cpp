@@ -176,7 +176,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+PrintingMetrics
 .
 h
 "

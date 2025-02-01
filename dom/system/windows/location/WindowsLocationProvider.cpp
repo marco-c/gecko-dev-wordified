@@ -146,7 +146,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+DomGeolocationMetrics
 .
 h
 "

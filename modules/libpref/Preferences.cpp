@@ -269,7 +269,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+ModulesLibprefMetrics
 .
 h
 "

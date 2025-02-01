@@ -293,7 +293,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+AntitrackingBouncetrackingprotectionMetrics
 .
 h
 "

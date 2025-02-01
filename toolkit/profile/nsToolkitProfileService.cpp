@@ -434,7 +434,7 @@ mozilla
 /
 glean
 /
-GleanMetrics
+ToolkitProfileMetrics
 .
 h
 "
