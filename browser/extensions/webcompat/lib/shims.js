@@ -3317,9 +3317,6 @@ unblock
 -
 embed
 "
-data
-:
-hostname
 }
 )
 ;
