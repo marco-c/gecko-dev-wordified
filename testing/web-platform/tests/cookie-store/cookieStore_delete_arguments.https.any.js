@@ -1363,6 +1363,8 @@ cookieStore
 delete
 (
 cookie_attributes
+.
+name
 )
 ;
 const
