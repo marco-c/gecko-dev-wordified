@@ -215,7 +215,7 @@ Timeout
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mWindow
+mGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -246,7 +246,7 @@ Timeout
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mWindow
+mGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -271,7 +271,7 @@ aDelay
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-mWindow
+mGlobal
 )
 ;
 mSubmitTime
@@ -364,7 +364,7 @@ windows
 .
 if
 (
-mWindow
+mGlobal
 -
 >
 IsFrozen
@@ -465,7 +465,7 @@ IsNull
 /
 /
 Note
-mWindow
+mGlobal
 -
 >
 IsFrozen
@@ -537,7 +537,7 @@ IsNull
 /
 /
 Note
-mWindow
+mGlobal
 -
 >
 IsFrozen

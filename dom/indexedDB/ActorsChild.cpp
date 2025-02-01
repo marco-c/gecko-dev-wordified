@@ -7556,7 +7556,7 @@ windows
 .
 if
 (
-nsPIDOMWindowInner
+nsGlobalWindowInner
 *
 owner
 =

@@ -887,7 +887,8 @@ packing
 .
 /
 /
-Window
+Global
+object
 for
 which
 this
@@ -895,9 +896,9 @@ timeout
 fires
 RefPtr
 <
-nsGlobalWindowInner
+nsIGlobalObject
 >
-mWindow
+mGlobal
 ;
 /
 /
