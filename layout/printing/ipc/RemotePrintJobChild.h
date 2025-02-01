@@ -158,6 +158,13 @@ nsIWebProgressListener
 .
 h
 "
+#
+include
+"
+prio
+.
+h
+"
 class
 nsPagePrintTimer
 ;
