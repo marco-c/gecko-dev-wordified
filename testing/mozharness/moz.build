@@ -107,3 +107,15 @@ Applications
 MozharnessCore
 "
 )
+PYTHON_UNITTEST_MANIFESTS
++
+=
+[
+"
+test
+/
+python
+.
+toml
+"
+]
