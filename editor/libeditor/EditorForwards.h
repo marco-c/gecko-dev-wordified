@@ -1603,7 +1603,7 @@ WhiteSpaceVisibilityKeeper
 ;
 /
 /
-WSRunObject
+WhiteSpaceVisibilityKeeper
 .
 h
 class
@@ -1611,7 +1611,7 @@ WSRunScanner
 ;
 /
 /
-WSRunObject
+WSRunScanner
 .
 h
 class
@@ -1619,7 +1619,7 @@ WSScanResult
 ;
 /
 /
-WSRunObject
+WSRunScanner
 .
 h
 /

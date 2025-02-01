@@ -447,7 +447,12 @@ TextEditSubActionHandler
 cpp
 "
 "
-WSRunObject
+WhiteSpaceVisibilityKeeper
+.
+cpp
+"
+"
+WSRunScanner
 .
 cpp
 "

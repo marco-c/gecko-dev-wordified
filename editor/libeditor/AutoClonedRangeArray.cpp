@@ -167,7 +167,7 @@ TextEditor
 #
 include
 "
-WSRunObject
+WSRunScanner
 .
 h
 "
