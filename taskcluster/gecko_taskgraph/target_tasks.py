@@ -5881,6 +5881,21 @@ try_name
 return
 False
             
+#
+Bug
+1929960
+-
+Enable
+all
+chrome
+-
+m
+tp6m
+tests
+on
+a55
+only
+            
 if
 "
 chrome
@@ -5891,10 +5906,18 @@ in
 try_name
 and
 "
-essential
+tp6m
 "
 in
 try_name
+and
+"
+hw
+-
+a55
+"
+in
+platform
 :
                 
 return
