@@ -164,17 +164,6 @@ MOZ_CRASH
 )
 ;
 }
-MIRType
-type
-(
-)
-const
-{
-MOZ_CRASH
-(
-)
-;
-}
 }
 ;
 class
