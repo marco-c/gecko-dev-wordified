@@ -642,6 +642,11 @@ ITEM_VALUE
 WebGPULimits
 64
 )
+ITEM_VALUE
+(
+WebGPUIsFallbackAdapter
+65
+)
 /
 /
 !
