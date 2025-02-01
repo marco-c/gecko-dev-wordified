@@ -3002,9 +3002,6 @@ name
 "
 CookieChangeEvent
 "
-earlyBetaOrEarlier
-:
-true
 }
 /
 /
@@ -3028,9 +3025,6 @@ name
 "
 CookieStore
 "
-earlyBetaOrEarlier
-:
-true
 }
 /
 /
@@ -19627,9 +19621,6 @@ name
 "
 cookieStore
 "
-earlyBetaOrEarlier
-:
-true
 }
 /
 /
