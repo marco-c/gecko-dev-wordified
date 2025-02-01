@@ -284,7 +284,7 @@ load
 in
 the
 shared
-JSM
+system
 global
 "
 )
@@ -383,7 +383,7 @@ shared
 from
 the
 shared
-JSM
+system
 global
 is
 equivalent
@@ -1229,7 +1229,6 @@ loaded
 via
 the
 shared
-jsm
 loader
 .
 /

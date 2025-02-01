@@ -108,17 +108,6 @@ sys
 mjs
 .
 *
-Also
-on
-ComponentUtils
-.
-jsm
-.
-Which
-is
-deprecated
-.
-*
 /
 const
 {
