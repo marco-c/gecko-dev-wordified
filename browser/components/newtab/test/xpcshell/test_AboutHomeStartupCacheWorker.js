@@ -1784,7 +1784,7 @@ the
 top
 story
 and
-20
+23
 placeholders
 .
 equal
@@ -1807,11 +1807,11 @@ card
 )
 .
 length
-21
+24
 "
 There
 are
-21
+24
 DSCards
 "
 )
@@ -1882,12 +1882,12 @@ equal
 placeholders
 .
 length
-20
+23
 "
 There
 should
 be
-20
+23
 placeholders
 "
 )
