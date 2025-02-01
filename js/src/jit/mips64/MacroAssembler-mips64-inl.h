@@ -5805,12 +5805,9 @@ asMasm
 ;
 mov
 (
-ImmWord
-(
-JSVAL_TYPE_TO_SHIFTED_TAG
+ImmShiftedTag
 (
 type
-)
 )
 scratch
 )
