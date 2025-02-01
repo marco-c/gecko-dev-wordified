@@ -142,8 +142,6 @@ translations
 /
 TranslationsUtils
 .
-sys
-.
 mjs
 "
 )
