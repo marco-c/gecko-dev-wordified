@@ -1042,7 +1042,10 @@ self
 text
 :
 :
+{
 HyphenateCharacter
+HyphenateLimitChars
+}
 ;
 pub
 use
