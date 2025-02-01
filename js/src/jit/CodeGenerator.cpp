@@ -37583,7 +37583,7 @@ ToRegister64
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -134777,7 +134777,7 @@ ToTempRegisterOrInvalid
 lir
 -
 >
-temp1
+temp0
 (
 )
 )
@@ -134790,7 +134790,7 @@ ToTempRegisterOrInvalid
 lir
 -
 >
-temp2
+temp1
 (
 )
 )
@@ -134803,7 +134803,7 @@ ToTempRegister64OrInvalid
 lir
 -
 >
-temp64
+temp2
 (
 )
 )
@@ -136265,7 +136265,7 @@ ToRegister
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -136300,7 +136300,7 @@ MOZ_ASSERT
 lir
 -
 >
-temp64
+temp1
 (
 )
 .
@@ -136328,7 +136328,7 @@ ToRegister64
 lir
 -
 >
-temp64
+temp1
 (
 )
 )
@@ -137002,7 +137002,7 @@ ToTempRegisterOrInvalid
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -137015,7 +137015,7 @@ ToTempRegister64OrInvalid
 lir
 -
 >
-temp64
+temp1
 (
 )
 )
@@ -137781,7 +137781,7 @@ ToTempRegister64OrInvalid
 lir
 -
 >
-temp
+temp0
 (
 )
 )
@@ -140145,7 +140145,7 @@ ins
 LInstanceOfCache
 :
 :
-LHS
+LhsIndex
 )
 )
 ;
