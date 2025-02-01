@@ -18,8 +18,6 @@ vcs
 mercurial
 as
 mercurial
-import
-mozunit
 test_string
 =
 "
@@ -3464,7 +3462,7 @@ __main__
 "
 :
     
-mozunit
+unittest
 .
 main
 (
