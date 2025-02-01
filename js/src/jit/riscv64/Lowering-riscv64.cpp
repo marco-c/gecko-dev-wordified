@@ -6815,7 +6815,7 @@ temp
 )
 ;
 }
-LWasmCompareExchangeHeap
+auto
 *
 lir
 =
@@ -6849,10 +6849,10 @@ newValue
 (
 )
 )
+memoryBase
 valueTemp
 offsetTemp
 maskTemp
-memoryBase
 )
 ;
 define

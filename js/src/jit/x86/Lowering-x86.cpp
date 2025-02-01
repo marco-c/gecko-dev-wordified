@@ -4209,7 +4209,7 @@ newValue
 )
 )
 ;
-LWasmCompareExchangeHeap
+auto
 *
 lir
 =
@@ -4231,13 +4231,6 @@ useRegister
 (
 memoryBase
 )
-)
-;
-lir
--
->
-setAddrTemp
-(
 temp
 (
 )
