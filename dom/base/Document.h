@@ -24454,6 +24454,11 @@ PerformPendingViewTransitionOperations
 (
 )
 ;
+void
+EnsureViewTransitionOperationsHappen
+(
+)
+;
 /
 /
 Getter

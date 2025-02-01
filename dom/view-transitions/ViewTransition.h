@@ -389,6 +389,12 @@ HandleFrame
 (
 )
 ;
+bool
+CheckForActiveAnimations
+(
+)
+const
+;
 void
 SkipTransition
 (
