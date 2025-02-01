@@ -2699,10 +2699,6 @@ JS
 GCContext
 *
 gcx
-const
-JitDiscardOptions
-&
-options
 )
 {
 if
@@ -2716,7 +2712,6 @@ isPreservingCode
 forceDiscardJitCode
 (
 gcx
-options
 )
 ;
 }
