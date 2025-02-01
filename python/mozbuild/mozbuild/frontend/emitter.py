@@ -9457,7 +9457,7 @@ at
 the
 moment
 because
-USE_STATIC_LIBS
+USE_STATIC_MSVCRT
 can
 be
 set
@@ -9527,7 +9527,7 @@ cl
 )
 :
             
-use_static_lib
+use_static_msvcrt
 =
 context
 .
@@ -9535,7 +9535,7 @@ get
 (
                 
 "
-USE_STATIC_LIBS
+USE_STATIC_MSVCRT
 "
             
 )
@@ -9561,7 +9561,7 @@ rtl_flag
 MT
 "
 if
-use_static_lib
+use_static_msvcrt
 else
 "
 -

@@ -156,7 +156,7 @@ xre
 DisableStlWrapping
 (
 )
-USE_STATIC_LIBS
+USE_STATIC_MSVCRT
 =
 True
 OS_LIBS
