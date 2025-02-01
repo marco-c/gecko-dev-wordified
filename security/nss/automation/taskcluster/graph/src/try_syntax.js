@@ -1138,7 +1138,7 @@ make
 "
 :
 "
-windows2012
+windows2022
 -
 64
 "
@@ -1149,7 +1149,7 @@ make
 "
 :
 "
-windows2012
+windows2022
 -
 32
 "
@@ -1158,7 +1158,7 @@ win64
 "
 :
 "
-windows2012
+windows2022
 -
 64
 "
@@ -1167,7 +1167,7 @@ win
 "
 :
 "
-windows2012
+windows2022
 -
 32
 "
