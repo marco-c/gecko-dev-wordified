@@ -77,6 +77,14 @@ test_about_preferences_manage_languages
 (
 )
 {
+await
+testWithAndWithoutLexicalShortlist
+(
+async
+lexicalShortlistPrefs
+=
+>
+{
 const
 {
 cleanup
@@ -119,6 +127,10 @@ enable
 "
 false
 ]
+.
+.
+.
+lexicalShortlistPrefs
 ]
 }
 )
@@ -613,6 +625,9 @@ ukrainianDownload
 await
 cleanup
 (
+)
+;
+}
 )
 ;
 }
