@@ -327,9 +327,7 @@ MutableMapping
 from
 typing
 import
-Optional
 Set
-Tuple
 import
 re
 import
@@ -342,8 +340,6 @@ import
 enum
 import
 importlib
-import
-itertools
 import
 math
 import
