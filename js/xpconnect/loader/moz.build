@@ -100,11 +100,6 @@ ChromeScriptLoader
 cpp
 "
 "
-JSMEnvironmentProxy
-.
-cpp
-"
-"
 mozJSLoaderUtils
 .
 cpp
