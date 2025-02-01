@@ -1125,7 +1125,10 @@ element
 .
 *
 /
-nsIContent
+dom
+:
+:
+Element
 *
 NextElem
 (

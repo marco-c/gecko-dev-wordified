@@ -2809,7 +2809,10 @@ idStartIdx
 )
 ;
 }
-nsIContent
+dom
+:
+:
+Element
 *
 AssociatedElementsIterator
 :
@@ -2841,7 +2844,10 @@ IsEmpty
 )
 break
 ;
-nsIContent
+dom
+:
+:
+Element
 *
 refContent
 =
@@ -2860,7 +2866,10 @@ refContent
 }
 while
 (
-nsIContent
+dom
+:
+:
+Element
 *
 element
 =
@@ -3036,7 +3045,10 @@ Next
 (
 )
 {
-nsIContent
+dom
+:
+:
+Element
 *
 nextEl
 =
