@@ -752,6 +752,11 @@ QuotaParent
 cpp
 "
 "
+QuotaPrefs
+.
+cpp
+"
+"
 QuotaRequestBase
 .
 cpp
