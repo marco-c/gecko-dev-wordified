@@ -20911,7 +20911,7 @@ WindowProxyHolder
 Open
 (
 const
-nsAString
+nsACString
 &
 aURL
 const
