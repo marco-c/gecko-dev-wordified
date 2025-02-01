@@ -88,6 +88,16 @@ path
 from
 taskgraph
 .
+transforms
+.
+run
+.
+common
+import
+support_caches
+from
+taskgraph
+.
 util
 .
 schema
@@ -240,7 +250,13 @@ caches
 "
 )
 :
+Any
+(
 bool
+[
+str
+]
+)
         
 #
 if
@@ -612,19 +628,6 @@ support_vcs_checkout
 config
 job
 taskdesc
-sparse
-=
-bool
-(
-run
-[
-"
-sparse
--
-profile
-"
-]
-)
 )
         
 command
@@ -735,6 +738,13 @@ profile
 sparse_profile_path
 }
 "
+)
+    
+support_caches
+(
+config
+job
+taskdesc
 )
     
 taskdesc

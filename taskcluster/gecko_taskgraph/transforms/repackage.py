@@ -114,6 +114,7 @@ get_artifact_prefix
 from
 voluptuous
 import
+Any
 Extra
 Optional
 Required
@@ -791,7 +792,13 @@ caches
 "
 )
 :
+Any
+(
 bool
+[
+str
+]
+)
         
 }
         
@@ -4317,24 +4324,6 @@ as
 root
 "
 False
-)
-                
-"
-use
--
-caches
-"
-:
-run
-.
-get
-(
-"
-use
--
-caches
-"
-True
 )
             
 }

@@ -86,6 +86,7 @@ taskref_or_string
 from
 voluptuous
 import
+Any
 Optional
 Required
 secret_schema
@@ -257,7 +258,13 @@ caches
 "
 )
 :
+Any
+(
 bool
+[
+str
+]
+)
         
 Optional
 (
@@ -351,7 +358,13 @@ caches
 "
 )
 :
+Any
+(
 bool
+[
+str
+]
+)
         
 Optional
 (
