@@ -615,6 +615,12 @@ aUpdate
 ;
 static
 void
+ClearPendingUpdate
+(
+)
+;
+static
+void
 GatherProfileThreadFunction
 (
 void
