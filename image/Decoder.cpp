@@ -1855,7 +1855,7 @@ mIterator
 return
 DecoderTelemetry
 (
-SpeedHistogram
+SpeedMetric
 (
 )
 mIterator
