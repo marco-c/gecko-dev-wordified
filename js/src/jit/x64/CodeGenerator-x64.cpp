@@ -7019,7 +7019,7 @@ ToFloatRegister
 lir
 -
 >
-temp
+temp0
 (
 )
 )
