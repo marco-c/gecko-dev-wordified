@@ -7112,6 +7112,13 @@ document_start
 }
 )
 ;
+shimToApply
+.
+setActiveOnTab
+(
+tabId
+)
+;
 }
 catch
 (
