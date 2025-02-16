@@ -108,15 +108,6 @@ subscriber
 js
 "
 "
-visibility
--
-handler
--
-connect
-.
-js
-"
-"
 visibilityHandlerStore
 .
 js
