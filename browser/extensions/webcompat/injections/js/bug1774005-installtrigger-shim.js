@@ -183,7 +183,7 @@ This
 property
 has
 been
-shimed
+shimmed
 for
 Web
 Compatibility
