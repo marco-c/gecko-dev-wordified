@@ -391,10 +391,10 @@ override
 void
 SetDtlsTransport
 (
-rtc
+cricket
 :
 :
-PacketTransportInternal
+DtlsTransportInternal
 *
 transport
 )
@@ -751,7 +751,6 @@ return
 states_
 ;
 }
-const
 SctpTransportInformation
 LastReceivedInformation
 (

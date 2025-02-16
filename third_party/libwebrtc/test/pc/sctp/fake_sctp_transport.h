@@ -213,10 +213,10 @@ override
 void
 SetDtlsTransport
 (
-rtc
+cricket
 :
 :
-PacketTransportInternal
+DtlsTransportInternal
 *
 transport
 )
@@ -519,10 +519,10 @@ webrtc
 Environment
 &
 env
-rtc
+cricket
 :
 :
-PacketTransportInternal
+DtlsTransportInternal
 *
 )
 override
