@@ -1256,7 +1256,6 @@ PersistNotification
 (
 mPrincipal
 mId
-alertName
 mOptions
 mScope
 )
