@@ -9885,6 +9885,14 @@ p
             
 process
 .
+stdin
+.
+flush
+(
+)
+            
+process
+.
 wait
 (
 )
