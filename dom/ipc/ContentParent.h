@@ -674,12 +674,10 @@ define
 NS_CONTENTPARENT_IID
 \
 {
-\
 0xeeec9ebf
 0x8ecf
 0x4e38
 {
-\
 0x81
 0xda
 0xb7
@@ -688,9 +686,7 @@ NS_CONTENTPARENT_IID
 0x7e
 0xac
 0xf3
-\
 }
-\
 }
 class
 ContentParent
