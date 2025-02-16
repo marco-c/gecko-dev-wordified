@@ -1931,15 +1931,6 @@ Codec
 codec
 )
 ;
-bool
-HasTransportCc
-(
-const
-Codec
-&
-codec
-)
-;
 /
 /
 Returns
