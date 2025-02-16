@@ -23574,12 +23574,6 @@ IsPaintingToWindow
 )
 &
 &
-!
-IsMenuPopupFrame
-(
-)
-&
-&
 (
 DisplayPortUtils
 :
