@@ -6654,7 +6654,7 @@ EVENT_HIDE
 ipcDoc
 -
 >
-AppendMutationEventData
+PushMutationEventData
 (
 HideEventData
 {
@@ -6861,7 +6861,7 @@ IsApplication
 ipcDoc
 -
 >
-AppendMutationEventData
+PushMutationEventData
 (
 ReorderEventData
 {
@@ -6999,7 +6999,7 @@ aEvent
 ipcDoc
 -
 >
-AppendMutationEventData
+PushMutationEventData
 (
 TextChangeEventData
 {
@@ -24497,7 +24497,7 @@ aAppendEventData
 ipcDoc
 -
 >
-AppendMutationEventData
+PushMutationEventData
 (
 CacheEventData
 {
