@@ -986,6 +986,10 @@ normal
 "
 "
 oblique
+0deg
+"
+"
+oblique
 10deg
 40deg
 "
@@ -1047,6 +1051,10 @@ oblique
 "
 "
 normal
+"
+"
+oblique
+0deg
 "
 "
 oblique
