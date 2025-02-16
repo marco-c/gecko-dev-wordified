@@ -60246,6 +60246,11 @@ HTMLQuoteElement
 ;
 }
 ;
+/
+/
+ts
+-
+ignore
 interface
 HTMLScriptElement
 extends
