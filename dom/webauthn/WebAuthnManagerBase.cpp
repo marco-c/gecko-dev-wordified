@@ -182,12 +182,12 @@ WebAuthnManagerBase
 (
 nsPIDOMWindowInner
 *
-aParent
+aWindow
 )
 :
-mParent
+mWindow
 (
-aParent
+aWindow
 )
 {
 MOZ_ASSERT
@@ -199,7 +199,7 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-aParent
+aWindow
 )
 ;
 }
@@ -231,7 +231,7 @@ NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTION
 (
 WebAuthnManagerBase
-mParent
+mWindow
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -405,7 +405,7 @@ NS_IsMainThread
 ;
 if
 (
-mChild
+mActor
 )
 {
 return
@@ -416,7 +416,7 @@ RefPtr
 <
 WebAuthnTransactionChild
 >
-child
+actor
 =
 new
 WebAuthnTransactionChild
@@ -454,11 +454,11 @@ return
 false
 ;
 }
-mChild
+mActor
 =
-child
+actor
 ;
-mChild
+mActor
 -
 >
 SetManager
@@ -485,7 +485,7 @@ NS_IsMainThread
 )
 )
 ;
-mChild
+mActor
 =
 nullptr
 ;
