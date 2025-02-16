@@ -25005,7 +25005,7 @@ uiDensityChanged
 ;
 gURLBar
 .
-updateLayoutBreakout
+uiDensityChanged
 (
 )
 ;
