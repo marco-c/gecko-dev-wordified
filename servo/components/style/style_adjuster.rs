@@ -6828,6 +6828,7 @@ font
 {
 FontFamily
 FontSynthesis
+FontSynthesisStyle
 }
 ;
 use
@@ -7074,7 +7075,7 @@ mutate_font
 .
 set_font_synthesis_style
 (
-FontSynthesis
+FontSynthesisStyle
 :
 :
 None

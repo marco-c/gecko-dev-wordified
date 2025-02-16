@@ -768,7 +768,7 @@ synthesis
 style
 "
 "
-FontSynthesis
+FontSynthesisStyle
 "
 engines
 =
@@ -781,7 +781,7 @@ initial_value
 computed
 :
 :
-FontSynthesis
+FontSynthesisStyle
 :
 :
 Auto
@@ -792,7 +792,7 @@ initial_specified_value
 specified
 :
 :
-FontSynthesis
+FontSynthesisStyle
 :
 :
 Auto

@@ -575,6 +575,7 @@ FontSizeAdjustFactor
 FontSizeKeyword
 FontStretch
 FontSynthesis
+FontSynthesisStyle
 }
 ;
 pub

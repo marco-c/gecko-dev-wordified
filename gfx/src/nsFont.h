@@ -653,13 +653,13 @@ Auto
 mozilla
 :
 :
-StyleFontSynthesis
+StyleFontSynthesisStyle
 synthesisStyle
 =
 mozilla
 :
 :
-StyleFontSynthesis
+StyleFontSynthesisStyle
 :
 :
 Auto
