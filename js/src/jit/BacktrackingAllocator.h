@@ -5678,12 +5678,7 @@ queueing
 of
 LiveRange
 groups
-[
-[
-nodiscard
-]
-]
-bool
+void
 tryMergeBundles
 (
 LiveBundle
