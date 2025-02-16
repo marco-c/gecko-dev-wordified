@@ -1265,13 +1265,6 @@ GraphSpewer
 TempAllocator
 *
 alloc
-const
-wasm
-:
-:
-TypeContext
-*
-wasmTypes
 )
 :
 graph_
@@ -1290,7 +1283,6 @@ lifoAlloc
 jsonSpewer_
 (
 jsonPrinter_
-wasmTypes
 )
 {
 }
