@@ -1946,6 +1946,16 @@ nsCaseTreatment
 aCaseSensitive
 )
 ;
+static
+bool
+IsEditableARIACombobox
+(
+const
+LocalAccessible
+*
+aAccessible
+)
+;
 }
 ;
 }
