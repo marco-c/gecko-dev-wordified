@@ -103,11 +103,9 @@ h
 #
 include
 "
-mozilla
-/
-a11y
-/
 DocAccessible
+-
+inl
 .
 h
 "
