@@ -26701,17 +26701,6 @@ parse
 the
 attribute
 .
-StyleComputedFontStyleDescriptor
-style
-(
-StyleComputedFontStyleDescriptor
-:
-:
-Normal
-(
-)
-)
-;
 StyleFontFamilyList
 list
 ;
