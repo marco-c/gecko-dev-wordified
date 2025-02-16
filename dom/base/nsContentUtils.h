@@ -4368,6 +4368,11 @@ RT2
 >
 &
 aBoundary2
+NodeIndexCache
+*
+aIndexCache
+=
+nullptr
 )
 ;
 /
