@@ -8516,7 +8516,6 @@ alloc
 )
 LWasmBinarySimd128
 (
-op
 useRegisterAtStart
 (
 lhs
@@ -8527,6 +8526,7 @@ rhs
 )
 tempReg0
 tempReg1
+op
 )
 ;
 define
@@ -8586,11 +8586,11 @@ alloc
 )
 LWasmBinarySimd128
 (
-op
 lhsDestAlloc
 rhsAlloc
 tempReg0
 tempReg1
+op
 )
 ;
 defineReuseInput
@@ -8600,7 +8600,7 @@ ins
 LWasmBinarySimd128
 :
 :
-LhsDest
+LhsIndex
 )
 ;
 break

@@ -8342,11 +8342,11 @@ alloc
 )
 LWasmBinarySimd128
 (
-op
 lhsAlloc
 rhsAlloc
 tempReg0
 tempReg1
+op
 )
 ;
 define
