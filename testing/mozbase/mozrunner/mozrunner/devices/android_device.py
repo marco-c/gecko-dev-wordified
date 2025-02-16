@@ -2926,7 +2926,7 @@ if
 device_verified
 and
 "
-ANDROID_SERIAL
+DEVICE_SERIAL
 "
 not
 in
@@ -2971,7 +2971,7 @@ os
 environ
 [
 "
-ANDROID_SERIAL
+DEVICE_SERIAL
 "
 ]
 =
@@ -3743,7 +3743,7 @@ environ
 get
 (
 "
-ANDROID_SERIAL
+DEVICE_SERIAL
 "
 )
         
