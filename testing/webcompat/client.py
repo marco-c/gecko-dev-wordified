@@ -4734,12 +4734,28 @@ def
 await_alert
 (
 self
-text
+texts
 timeout
 =
-None
+10
 )
 :
+        
+if
+type
+(
+texts
+)
+is
+not
+list
+:
+            
+texts
+=
+[
+texts
+]
         
 if
 not
@@ -4820,8 +4836,11 @@ run
 "
 "
 (
-msg
 timeout
+.
+.
+.
+msgs
 )
 =
 >
@@ -4864,9 +4883,22 @@ of
 window
 .
 __alerts
+|
+|
+[
+]
 )
 {
                             
+for
+(
+const
+msg
+of
+msgs
+)
+{
+                                
 if
 (
 a
@@ -4877,21 +4909,23 @@ msg
 )
 )
 {
-                                
+                                    
 clearInterval
 (
 to
 )
 ;
-                                
+                                    
 done
 (
 a
 )
 ;
-                                
+                                    
 return
 ;
+                                
+}
                             
 }
                         
@@ -4942,9 +4976,10 @@ interval
 "
 "
             
-text
-            
 timeout
+            
+*
+texts
             
 await_promise
 =
@@ -6079,6 +6114,9 @@ finder
 is_displayed
 =
 None
+all
+=
+None
 *
 *
 kwargs
@@ -6092,12 +6130,16 @@ finder
 find
 (
 self
+all
+=
+True
 *
 *
 kwargs
 )
         
-return
+found
+=
 self
 .
 _do_is_displayed_check
@@ -6105,6 +6147,27 @@ _do_is_displayed_check
 ele
 is_displayed
 )
+        
+if
+not
+all
+:
+            
+return
+found
+[
+0
+]
+if
+len
+(
+found
+)
+else
+None
+        
+return
+found
     
 def
 await_css
@@ -6359,6 +6422,9 @@ delay
 condition
 =
 False
+all
+=
+False
 *
 *
 kwargs
@@ -6376,25 +6442,32 @@ time
         
 condition
 =
+(
+            
 f
 "
-var
-elem
-=
+return
 arguments
 [
 0
 ]
-;
-return
+.
+filter
+(
+elem
+=
+>
 {
 condition
 }
+)
 "
 if
 condition
 else
 False
+        
+)
         
 if
 timeout
@@ -6452,20 +6525,27 @@ finder
 find
 (
 self
+all
+=
+True
 *
 *
 kwargs
 )
                     
 if
-result
-and
+len
 (
+result
+)
+:
                         
-not
+if
 condition
-                        
-or
+:
+                            
+result
+=
 self
 .
 session
@@ -6477,15 +6557,20 @@ condition
 result
 ]
 )
-                    
-)
-:
                         
 found
 [
 i
 ]
 =
+result
+[
+0
+]
+if
+not
+all
+else
 result
                         
 return
