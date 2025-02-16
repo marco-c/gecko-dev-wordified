@@ -4070,7 +4070,7 @@ LOCALIZATIONS
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -4290,7 +4290,7 @@ featureValidationOptOut
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -4723,7 +4723,7 @@ US
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -5309,7 +5309,7 @@ LOCALIZATIONS
 await
 loader
 .
-init
+enable
 (
 )
 ;
@@ -6040,7 +6040,7 @@ LOCALIZATIONS
 await
 loader
 .
-init
+enable
 (
 )
 ;

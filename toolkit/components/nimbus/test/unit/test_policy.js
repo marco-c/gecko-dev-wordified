@@ -238,7 +238,7 @@ updateRecipes
 await
 loader
 .
-init
+enable
 (
 )
 ;
