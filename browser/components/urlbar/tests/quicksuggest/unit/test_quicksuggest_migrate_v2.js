@@ -116,13 +116,6 @@ enabled
 :
 false
 "
-quicksuggest
-.
-shouldShowOnboardingDialog
-"
-:
-false
-"
 suggest
 .
 quicksuggest
