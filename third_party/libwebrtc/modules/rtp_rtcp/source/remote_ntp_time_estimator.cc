@@ -156,7 +156,7 @@ constexpr
 int
 kMinimumNumberOfSamples
 =
-2
+3
 ;
 constexpr
 TimeDelta
@@ -174,7 +174,7 @@ constexpr
 int
 kClocksOffsetSmoothingWindow
 =
-100
+7
 ;
 /
 /
