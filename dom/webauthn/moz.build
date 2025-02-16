@@ -196,11 +196,6 @@ WebAuthnManager
 h
 "
 "
-WebAuthnManagerBase
-.
-h
-"
-"
 WebAuthnPromiseHolder
 .
 h
@@ -264,11 +259,6 @@ cpp
 "
 "
 WebAuthnManager
-.
-cpp
-"
-"
-WebAuthnManagerBase
 .
 cpp
 "

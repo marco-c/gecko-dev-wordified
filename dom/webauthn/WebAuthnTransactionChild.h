@@ -131,17 +131,6 @@ PWebAuthnTransactionChild
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-WebAuthnManagerBase
-.
-h
-"
 /
 *
 *
@@ -192,6 +181,9 @@ mozilla
 dom
 {
 class
+WebAuthnManager
+;
+class
 WebAuthnTransactionChild
 final
 :
@@ -223,7 +215,7 @@ override
 void
 SetManager
 (
-WebAuthnManagerBase
+WebAuthnManager
 *
 aMananger
 )
@@ -248,7 +240,7 @@ WebAuthnManager
 when
 disconnecting
 .
-WebAuthnManagerBase
+WebAuthnManager
 *
 mManager
 ;
