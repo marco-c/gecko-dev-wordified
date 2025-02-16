@@ -1778,6 +1778,8 @@ with
 /
 seconds
 =
+MinTimeT
++
 SecondsPerDay
 ;
 }
