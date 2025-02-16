@@ -81263,12 +81263,6 @@ case
 InlinableNative
 :
 :
-IntrinsicGuardToIteratorRange
-:
-case
-InlinableNative
-:
-:
 IntrinsicGuardToAsyncIteratorHelper
 :
 #
