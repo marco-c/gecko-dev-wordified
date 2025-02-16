@@ -276,6 +276,11 @@ __dirname
 .
 .
 /
+.
+.
+/
+components
+/
 topsites
 /
 "
