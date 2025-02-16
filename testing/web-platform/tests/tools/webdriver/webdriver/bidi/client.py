@@ -844,6 +844,17 @@ Storage
 (
 self
 )
+        
+self
+.
+web_extension
+=
+modules
+.
+WebExtension
+(
+self
+)
     
 property
     
