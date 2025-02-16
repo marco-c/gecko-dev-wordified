@@ -132,7 +132,7 @@ impl
 BooleanMetric
 boolean_metric
 (
-22495729
+1
 )
 ;
 /
@@ -160,7 +160,7 @@ impl
 CounterMetric
 counter_metric
 (
-30349935
+2
 )
 ;
 /
@@ -188,7 +188,7 @@ impl
 CustomDistributionMetric
 custom_distribution_metric
 (
-28021745
+3
 )
 ;
 /
@@ -223,7 +223,7 @@ DynamicLabel
 >
 labeled_boolean_metric
 (
-21875658
+4
 )
 ;
 /
@@ -302,7 +302,7 @@ LabeledBooleanMetricLabelsLabel
 >
 labeled_boolean_metric_labels
 (
-7966417
+5
 )
 ;
 /
@@ -337,7 +337,7 @@ DynamicLabel
 >
 labeled_counter_metric
 (
-139440
+6
 )
 ;
 /
@@ -392,7 +392,7 @@ LabeledCounterMetricLabelsLabel
 >
 labeled_counter_metric_labels
 (
-6593356
+7
 )
 ;
 /
@@ -427,7 +427,7 @@ DynamicLabel
 >
 labeled_string_metric
 (
-22655931
+8
 )
 ;
 /
@@ -482,7 +482,7 @@ LabeledStringMetricLabelsLabel
 >
 labeled_string_metric_labels
 (
-10006522
+9
 )
 ;
 /
@@ -510,7 +510,7 @@ impl
 MemoryDistributionMetric
 memory_distribution_metric
 (
-6804861
+10
 )
 ;
 /
@@ -538,7 +538,7 @@ impl
 StringListMetric
 string_list_metric
 (
-18320715
+11
 )
 ;
 /
@@ -566,7 +566,7 @@ impl
 StringMetric
 string_metric
 (
-25252540
+12
 )
 ;
 /
@@ -594,7 +594,7 @@ impl
 TextMetric
 text_metric
 (
-23203570
+13
 )
 ;
 /
@@ -622,7 +622,7 @@ impl
 TimespanMetric
 timespan_metric
 (
-11887791
+14
 )
 ;
 /
@@ -650,7 +650,7 @@ impl
 TimingDistributionMetric
 timing_distribution_metric
 (
-25552771
+15
 )
 ;
 /
@@ -678,7 +678,7 @@ impl
 BooleanMetric
 unordered_boolean_metric
 (
-23138752
+16
 )
 ;
 /
@@ -713,7 +713,7 @@ DynamicLabel
 >
 unordered_labeled_boolean_metric
 (
-11455568
+17
 )
 ;
 }
@@ -747,7 +747,7 @@ impl
 DatetimeMetric
 datetime_metric
 (
-32461197
+19
 )
 ;
 /
@@ -785,7 +785,7 @@ NoExtraKeys
 >
 event_metric
 (
-110940
+20
 )
 ;
 /
@@ -962,7 +962,7 @@ EventMetricWithExtraExtra
 >
 event_metric_with_extra
 (
-20015710
+21
 )
 ;
 /
@@ -992,7 +992,7 @@ impl
 DenominatorMetric
 external_denominator
 (
-21877185
+22
 )
 ;
 /
@@ -1022,7 +1022,7 @@ impl
 CounterMetric
 optimizable_counter_metric
 (
-14212265
+23
 )
 ;
 /
@@ -1052,7 +1052,7 @@ impl
 CounterMetric
 optimizable_disabled_counter_metric
 (
-7676830
+24
 )
 ;
 /
@@ -1082,7 +1082,7 @@ impl
 QuantityMetric
 quantity_metric
 (
-8082779
+25
 )
 ;
 /
@@ -1112,7 +1112,7 @@ impl
 RateMetric
 rate_metric
 (
-30750772
+26
 )
 ;
 /
@@ -1142,7 +1142,7 @@ impl
 NumeratorMetric
 rate_with_external_denominator
 (
-1413969
+27
 )
 ;
 /
@@ -1172,7 +1172,7 @@ impl
 UuidMetric
 uuid_metric
 (
-32794253
+28
 )
 ;
 }
@@ -1204,7 +1204,7 @@ impl
 BooleanMetric
 boolean_metric
 (
-5536416
+29
 )
 ;
 /
@@ -1232,7 +1232,7 @@ impl
 CounterMetric
 counter_metric
 (
-27435907
+30
 )
 ;
 /
@@ -1260,7 +1260,7 @@ impl
 CustomDistributionMetric
 custom_distribution_metric
 (
-27313004
+31
 )
 ;
 /
@@ -1295,7 +1295,7 @@ DynamicLabel
 >
 labeled_boolean_metric
 (
-9102331
+32
 )
 ;
 /
@@ -1374,7 +1374,7 @@ LabeledBooleanMetricLabelsLabel
 >
 labeled_boolean_metric_labels
 (
-27310108
+33
 )
 ;
 /
@@ -1409,7 +1409,7 @@ DynamicLabel
 >
 labeled_counter_metric
 (
-4435991
+34
 )
 ;
 /
@@ -1464,7 +1464,7 @@ LabeledCounterMetricLabelsLabel
 >
 labeled_counter_metric_labels
 (
-27714779
+35
 )
 ;
 /
@@ -1499,7 +1499,7 @@ DynamicLabel
 >
 labeled_string_metric
 (
-13299578
+36
 )
 ;
 /
@@ -1554,7 +1554,7 @@ LabeledStringMetricLabelsLabel
 >
 labeled_string_metric_labels
 (
-21201865
+37
 )
 ;
 /
@@ -1582,7 +1582,7 @@ impl
 MemoryDistributionMetric
 memory_distribution_metric
 (
-29118730
+38
 )
 ;
 /
@@ -1610,7 +1610,7 @@ impl
 StringListMetric
 string_list_metric
 (
-27603867
+39
 )
 ;
 /
@@ -1638,7 +1638,7 @@ impl
 StringMetric
 string_metric
 (
-31008897
+40
 )
 ;
 /
@@ -1666,7 +1666,7 @@ impl
 TextMetric
 text_metric
 (
-3163718
+41
 )
 ;
 /
@@ -1694,7 +1694,7 @@ impl
 TimespanMetric
 timespan_metric
 (
-18482215
+42
 )
 ;
 /
@@ -1722,7 +1722,7 @@ impl
 TimingDistributionMetric
 timing_distribution_metric
 (
-14261116
+43
 )
 ;
 /
@@ -1750,7 +1750,7 @@ impl
 BooleanMetric
 unordered_boolean_metric
 (
-17090832
+44
 )
 ;
 /
@@ -1785,7 +1785,7 @@ DynamicLabel
 >
 unordered_labeled_boolean_metric
 (
-13310781
+45
 )
 ;
 }
@@ -1819,7 +1819,7 @@ impl
 DatetimeMetric
 datetime_metric
 (
-9930003
+47
 )
 ;
 /
@@ -1857,7 +1857,7 @@ NoExtraKeys
 >
 event_metric
 (
-1091783
+48
 )
 ;
 /
@@ -2034,7 +2034,7 @@ EventMetricWithExtraExtra
 >
 event_metric_with_extra
 (
-20312052
+49
 )
 ;
 /
@@ -2064,7 +2064,7 @@ impl
 CounterMetric
 external_denominator
 (
-2838206
+50
 )
 ;
 /
@@ -2094,7 +2094,7 @@ impl
 CounterMetric
 optimizable_counter_metric
 (
-8514908
+51
 )
 ;
 /
@@ -2124,7 +2124,7 @@ impl
 CounterMetric
 optimizable_disabled_counter_metric
 (
-17063655
+52
 )
 ;
 /
@@ -2154,7 +2154,7 @@ impl
 QuantityMetric
 quantity_metric
 (
-20268999
+53
 )
 ;
 /
@@ -2184,7 +2184,7 @@ impl
 RateMetric
 rate_metric
 (
-15523628
+54
 )
 ;
 /
@@ -2214,7 +2214,7 @@ impl
 NumeratorMetric
 rate_with_external_denominator
 (
-25857163
+55
 )
 ;
 /
@@ -2244,7 +2244,7 @@ impl
 UuidMetric
 uuid_metric
 (
-23885948
+56
 )
 ;
 }

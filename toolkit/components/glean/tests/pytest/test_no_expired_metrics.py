@@ -285,6 +285,7 @@ run_glean_parser
 get_parser_options
 (
 app_version
+False
 )
     
 paths

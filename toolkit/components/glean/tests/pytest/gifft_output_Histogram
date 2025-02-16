@@ -141,7 +141,7 @@ aId
 )
 {
 case
-28021745
+3
 :
 {
 /
@@ -160,7 +160,7 @@ SOME_LINEAR_HISTOGRAM
 ;
 }
 case
-6804861
+10
 :
 {
 /
@@ -179,7 +179,7 @@ SOME_MEM_HISTOGRAM_KB
 ;
 }
 case
-25552771
+15
 :
 {
 /

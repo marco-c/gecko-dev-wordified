@@ -271,6 +271,11 @@ allow_reserved
 "
 :
 False
+"
+is_local_build
+"
+:
+False
 }
     
 input_files
@@ -655,6 +660,7 @@ get_parser_options
 .
 0a1
 "
+False
 )
     
 input_files

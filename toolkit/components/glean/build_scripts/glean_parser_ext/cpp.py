@@ -796,6 +796,7 @@ else
 generate_metric_ids
 (
 objs
+options
 )
         
 )

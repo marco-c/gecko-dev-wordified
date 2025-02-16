@@ -127,6 +127,10 @@ import
 cpp
 import
 run_glean_parser
+from
+util
+import
+generate_metric_ids
 def
 test_all_metric_types
 (
@@ -224,6 +228,11 @@ options
 {
 "
 allow_reserved
+"
+:
+False
+"
+is_local_build
 "
 :
 False
@@ -331,10 +340,19 @@ StringIO
 (
 )
     
+get_metric_id
+=
+generate_metric_ids
+(
+all_objs
+options
+)
+    
 cpp
 .
 output_cpp
 (
+        
 all_objs
 output_fd
 {
@@ -345,7 +363,13 @@ header_name
 "
 Metrics
 "
+"
+get_metric_id
+"
+:
+get_metric_id
 }
+    
 )
     
 expect
