@@ -130,6 +130,15 @@ it
 can
 be
 empty
+nsString
+mBaseDomain
+;
+/
+/
+it
+can
+be
+empty
 PRTime
 mTimeStamp
 =
@@ -224,6 +233,10 @@ const
 nsAString
 &
 aOrigin
+const
+nsAString
+&
+aBaseDomain
 )
 ;
 /
