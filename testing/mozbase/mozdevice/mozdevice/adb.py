@@ -20047,12 +20047,18 @@ close
             
 script
 =
-f
+posixpath
+.
+join
+(
 "
 /
-sdcard
+data
 /
-{
+local
+/
+tmp
+"
 os
 .
 path
@@ -20063,8 +20069,7 @@ tmpf
 .
 name
 )
-}
-"
+)
             
 self
 .
