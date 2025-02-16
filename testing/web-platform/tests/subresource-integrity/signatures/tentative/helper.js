@@ -463,7 +463,7 @@ sig0
 =
 (
 "
-identity
+unencoded
 -
 digest
 "
@@ -488,7 +488,7 @@ sig1
 =
 (
 "
-identity
+unencoded
 -
 digest
 "
@@ -559,7 +559,7 @@ sig0
 =
 (
 "
-identity
+unencoded
 -
 digest
 "

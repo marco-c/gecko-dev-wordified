@@ -146,7 +146,7 @@ application
 json
 /
 /
-Identity
+Unencoded
 -
 Digest
 :
@@ -175,7 +175,7 @@ signature
 =
 (
 "
-identity
+unencoded
 -
 digest
 "
@@ -300,7 +300,7 @@ kRequestsWithValidSignature
 [
 /
 /
-identity
+unencoded
 -
 digest
 then
@@ -318,7 +318,7 @@ base
 /
 /
 "
-identity
+unencoded
 -
 digest
 "
@@ -367,7 +367,7 @@ params
 :
 (
 "
-identity
+unencoded
 -
 digest
 "
@@ -432,11 +432,11 @@ signature
 signature
 =
 :
-W54PPjO6aWHvhTmDICG4EGLs461FrwYxXE
+7tDPtzmoGvVu
 /
-UkBH7dz9V5lnCtv3N6ZTmOxPRMkmADhRilem6W
+qv3xJgdlyy5ss6FobmL0aR7Gzez3BvyTMSlIOb4ErCNRDyCMK4UesKSwfOrIH1y7xgAdr
 /
-Zq5SH9tVoxAg
+OBw
 =
 =
 :
@@ -446,7 +446,7 @@ signature
 =
 (
 "
-identity
+unencoded
 -
 digest
 "
@@ -482,7 +482,7 @@ sri
 /
 path
 then
-identity
+unencoded
 -
 digest
 with
@@ -518,7 +518,7 @@ py
 /
 /
 "
-identity
+unencoded
 -
 digest
 "
@@ -552,7 +552,7 @@ path
 ;
 req
 "
-identity
+unencoded
 -
 digest
 "
@@ -612,13 +612,14 @@ signature
 signature
 =
 :
-qF
+nw0vxi
 /
-RJ9L8bCpRx5cm6QW9qvqw7nU0ziwi6lLD6KkhT
+Gj
 /
-ZgLS2c6O9s4UFXieM9
+UDbKTFddPEwKYAP5crT1sE916F
 +
-waU71YtNfTXQAQ4PeMSAVKlDQ
+/
+rjb55LUaoxJcXDFPfUINzMOpHI5i6g6pn9tCOoFb6KwjXGDQ
 =
 =
 :
@@ -633,7 +634,7 @@ path
 ;
 req
 "
-identity
+unencoded
 -
 digest
 "
