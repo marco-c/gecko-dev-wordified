@@ -108,6 +108,11 @@ FontList
 js
 "
 "
+FontMetadata
+.
+js
+"
+"
 FontName
 .
 js
