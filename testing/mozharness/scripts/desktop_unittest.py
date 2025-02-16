@@ -10790,8 +10790,11 @@ Event
 (
 )
                     
-do_video_recording
+video_recording_thread
 =
+None
+                    
+if
 os
 .
 getenv
@@ -10800,10 +10803,11 @@ getenv
 MOZ_RECORD_TEST
 "
 )
-                    
-if
-do_video_recording
 :
+                        
+video_recording_target
+=
+None
                         
 if
 sys
@@ -10816,7 +10820,7 @@ linux
 "
 :
                             
-target
+video_recording_target
 =
 do_gnome_video_recording
                         
@@ -10831,9 +10835,67 @@ darwin
 "
 :
                             
-target
+video_recording_target
 =
 do_macos_video_recording
+                        
+if
+video_recording_target
+:
+                            
+video_recording_thread
+=
+threading
+.
+Thread
+(
+                                
+target
+=
+video_recording_target
+                                
+args
+=
+(
+                                    
+suite
+                                    
+env
+[
+"
+MOZ_UPLOAD_DIR
+"
+]
+                                    
+finish_video
+                                
+)
+                            
+)
+                            
+self
+.
+info
+(
+"
+Starting
+recording
+thread
+{
+}
+"
+.
+format
+(
+suite
+)
+)
+                            
+video_recording_thread
+.
+start
+(
+)
                         
 else
 :
@@ -10853,60 +10915,6 @@ this
 platform
 "
                             
-)
-                        
-thread
-=
-threading
-.
-Thread
-(
-                            
-target
-=
-target
-                            
-args
-=
-(
-                                
-suite
-                                
-env
-[
-"
-MOZ_UPLOAD_DIR
-"
-]
-                                
-finish_video
-                            
-)
-                        
-)
-                        
-self
-.
-info
-(
-"
-Starting
-recording
-thread
-{
-}
-"
-.
-format
-(
-suite
-)
-)
-                        
-thread
-.
-start
-(
 )
                     
 if
@@ -11084,7 +11092,7 @@ in
 success_codes
                     
 if
-do_video_recording
+video_recording_thread
 :
                         
 self
@@ -11111,7 +11119,7 @@ set
 (
 )
                         
-thread
+video_recording_thread
 .
 join
 (
