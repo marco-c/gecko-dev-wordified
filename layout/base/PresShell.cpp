@@ -25543,8 +25543,7 @@ GetAnchorResolvedInset
 side
 positionProperty
 )
--
->
+.
 IsAuto
 (
 )
