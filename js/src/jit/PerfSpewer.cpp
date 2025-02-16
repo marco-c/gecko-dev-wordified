@@ -2298,6 +2298,8 @@ masm
 currentOffset
 (
 )
+-
+startOffset_
 static_cast
 <
 uint32_t
@@ -2491,6 +2493,8 @@ masm
 currentOffset
 (
 )
+-
+startOffset_
 static_cast
 <
 uint32_t
@@ -3090,6 +3094,8 @@ masm
 currentOffset
 (
 )
+-
+startOffset_
 op
 .
 toPacked
@@ -3447,6 +3453,8 @@ masm
 currentOffset
 (
 )
+-
+startOffset_
 static_cast
 <
 uint32_t
@@ -4227,6 +4235,8 @@ masm
 currentOffset
 (
 )
+-
+startOffset_
 offsetStr
 )
 )
@@ -6078,6 +6088,8 @@ masm
 currentOffset
 (
 )
+-
+startOffset_
 unsigned
 (
 op
@@ -6143,6 +6155,8 @@ masm
 currentOffset
 (
 )
+-
+startOffset_
 desc
 )
 )

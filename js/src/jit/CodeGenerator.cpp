@@ -120528,6 +120528,17 @@ nInboundStackArgBytes
 ;
 perfSpewer_
 .
+markStartOffset
+(
+masm
+.
+currentOffset
+(
+)
+)
+;
+perfSpewer_
+.
 recordOffset
 (
 masm
