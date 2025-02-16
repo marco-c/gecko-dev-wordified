@@ -29254,9 +29254,8 @@ frame
 lir
 -
 >
-getOperand
+entry
 (
-0
 )
 ;
 const
