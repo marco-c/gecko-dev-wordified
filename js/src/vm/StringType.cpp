@@ -20064,6 +20064,11 @@ data
 )
 inlineChars_
 InlineLength
+*
+sizeof
+(
+CharT
+)
 )
 ;
 ownedChars_
