@@ -82,7 +82,7 @@ add_task
 (
 async
 function
-test_session_data_update_contexts
+test_session_data_update_user_contexts
 (
 )
 {
@@ -125,6 +125,8 @@ session
 data
 -
 update
+-
+user
 -
 contexts
 "
@@ -494,6 +496,10 @@ data
 -
 update
 -
+two
+-
+user
+-
 contexts
 "
 )
@@ -638,6 +644,16 @@ TEST_PAGE
 {
 userContextId
 }
+)
+;
+await
+BrowserTestUtils
+.
+browserLoaded
+(
+tab3
+.
+linkedBrowser
 )
 ;
 const
