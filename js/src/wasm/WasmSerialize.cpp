@@ -10398,6 +10398,9 @@ nullptr
 FuncIonPerfSpewerSpan
 (
 )
+FuncBaselinePerfSpewerSpan
+(
+)
 )
 ;
 UniqueLinkData
@@ -10443,6 +10446,9 @@ sendToProfiler
 codeMeta
 nullptr
 FuncIonPerfSpewerSpan
+(
+)
+FuncBaselinePerfSpewerSpan
 (
 )
 )

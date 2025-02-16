@@ -4099,6 +4099,8 @@ CodeMetadataForAsmJS
 codeMetaForAsmJS
 FuncIonPerfSpewerSpan
 ionSpewers
+FuncBaselinePerfSpewerSpan
+baselineSpewers
 )
 const
 ;
