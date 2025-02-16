@@ -256,6 +256,17 @@ Tunnel
 ServerPush
 }
 ;
+enum
+class
+ExtendedCONNECTType
+:
+uint8_t
+{
+Proxy
+WebSocket
+WebTransport
+}
+;
 /
 /
 b23b147c
@@ -2084,7 +2095,7 @@ aCallbacks
 PRIntervalTime
 aRtt
 bool
-aIsWebSocket
+aIsExtendedCONNECT
 =
 false
 )
@@ -2125,8 +2136,8 @@ bcId
 nsHttpConnectionInfo
 *
 connInfo
-bool
-isWebSocket
+ExtendedCONNECTType
+aType
 )
 ;
 /
