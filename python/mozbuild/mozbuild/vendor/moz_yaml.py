@@ -2552,14 +2552,6 @@ in
 [
             
 "
-skip
--
-vendoring
--
-steps
-"
-            
-"
 keep
 "
             
@@ -2639,6 +2631,14 @@ for
 i
 in
 [
+                
+"
+skip
+-
+vendoring
+-
+steps
+"
                 
 "
 update
