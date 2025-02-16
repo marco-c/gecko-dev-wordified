@@ -37079,6 +37079,13 @@ scratch
 )
 ;
 void
+loadBaselineCompileQueue
+(
+Register
+dest
+)
+;
+void
 loadJitActivation
 (
 Register
