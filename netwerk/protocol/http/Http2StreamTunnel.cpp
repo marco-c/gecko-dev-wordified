@@ -1527,7 +1527,7 @@ aCallbacks
 PRIntervalTime
 aRtt
 bool
-aIsExtendedCONNECT
+aIsWebSocket
 )
 {
 mInput
@@ -1602,7 +1602,7 @@ true
 NS_OK
 aCallbacks
 aRtt
-aIsExtendedCONNECT
+aIsWebSocket
 )
 ;
 MOZ_RELEASE_ASSERT

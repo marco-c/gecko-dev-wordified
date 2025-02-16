@@ -809,13 +809,6 @@ principal
 flags
 self
 clientInfo
-nsIWebTransport
-:
-:
-HTTPVersion
-:
-:
-h3
 )
 )
 )

@@ -14982,16 +14982,6 @@ return
 false
 ;
 }
-/
-/
-TODO
-:
-Add
-support
-for
-Http2WebTransportSession
-here
-.
 RefPtr
 <
 Http3WebTransportSession
