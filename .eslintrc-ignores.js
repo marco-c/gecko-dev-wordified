@@ -2674,17 +2674,6 @@ content
 /
 web
 "
-"
-toolkit
-/
-components
-/
-pdfjs
-/
-PdfJsOverridePrefs
-.
-js
-"
 /
 /
 Uses
