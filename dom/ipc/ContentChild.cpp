@@ -21481,10 +21481,13 @@ ContentChild
 :
 CreateGetFilesRequest
 (
-const
-nsAString
+nsTArray
+<
+nsString
+>
 &
-aDirectoryPath
+&
+aDirectoryPaths
 bool
 aRecursiveFlag
 nsID
@@ -21517,7 +21520,7 @@ Unused
 SendGetFilesRequest
 (
 aUUID
-aDirectoryPath
+aDirectoryPaths
 aRecursiveFlag
 )
 ;
