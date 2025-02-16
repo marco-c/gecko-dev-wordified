@@ -356,6 +356,11 @@ SharedMemory
 h
 "
 "
+SharedMemoryCursor
+.
+h
+"
+"
 SharedMemoryHandle
 .
 h
@@ -1193,6 +1198,11 @@ memory
 impl
 is
 removed
+"
+SharedMemoryCursor
+.
+cpp
+"
 "
 SharedMemoryHandle
 .
