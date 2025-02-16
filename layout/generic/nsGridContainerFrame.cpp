@@ -27467,7 +27467,7 @@ SubgridPlaceGridItems
 (
 GridReflowInput
 &
-aParentState
+aParentGridRI
 Grid
 *
 aParentGrid
@@ -31658,13 +31658,13 @@ aContentBoxSize
 )
 {
 GridReflowInput
-state
+gridRI
 (
 aFrame
 aRC
 )
 ;
-state
+gridRI
 .
 mGridItems
 =
@@ -31698,7 +31698,7 @@ aSubgrid
 >
 mGridRowEnd
 ;
-state
+gridRI
 .
 CalculateTrackSizesForAxis
 (
@@ -31724,11 +31724,11 @@ LogicalAxis
 :
 Inline
 ?
-state
+gridRI
 .
 mCols
 :
-state
+gridRI
 .
 mRows
 ;
@@ -39003,7 +39003,7 @@ SubgridPlaceGridItems
 (
 GridReflowInput
 &
-aParentState
+aParentGridRI
 Grid
 *
 aParentGrid
@@ -39060,7 +39060,7 @@ Inline
 )
 )
 {
-aParentState
+aParentGridRI
 .
 mFrame
 -
@@ -39084,7 +39084,7 @@ Block
 )
 )
 {
-aParentState
+aParentGridRI
 .
 mFrame
 -
@@ -39125,10 +39125,10 @@ NormalizeChildLists
 )
 ;
 GridReflowInput
-state
+gridRI
 (
 childGrid
-aParentState
+aParentGridRI
 .
 mRenderingContext
 )
@@ -39145,13 +39145,13 @@ const
 bool
 isOrthogonal
 =
-aParentState
+aParentGridRI
 .
 mWM
 .
 IsOrthogonalTo
 (
-state
+gridRI
 .
 mWM
 )
@@ -39201,7 +39201,7 @@ aGridItem
 .
 mArea
 isOrthogonal
-aParentState
+aParentGridRI
 .
 mWM
 )
@@ -39456,7 +39456,7 @@ Extent
 )
 |
 |
-state
+gridRI
 .
 mGridItems
 .
@@ -39550,7 +39550,7 @@ otherwise
 RepeatTrackSizingInput
 repeatSizing
 (
-state
+gridRI
 .
 mWM
 )
@@ -39566,7 +39566,7 @@ IsColSubgrid
 )
 &
 &
-state
+gridRI
 .
 mColFunctions
 .
@@ -39656,10 +39656,10 @@ LogicalAxis
 :
 :
 Inline
-state
+gridRI
 .
 mWM
-state
+gridRI
 .
 mFrame
 -
@@ -39667,7 +39667,7 @@ mFrame
 Style
 (
 )
-state
+gridRI
 .
 mFrame
 -
@@ -39692,7 +39692,7 @@ IsRowSubgrid
 )
 &
 &
-state
+gridRI
 .
 mRowFunctions
 .
@@ -39718,10 +39718,10 @@ LogicalAxis
 :
 :
 Block
-state
+gridRI
 .
 mWM
-state
+gridRI
 .
 mFrame
 -
@@ -39729,7 +39729,7 @@ mFrame
 Style
 (
 )
-state
+gridRI
 .
 mFrame
 -
@@ -39745,7 +39745,7 @@ Nothing
 }
 PlaceGridItems
 (
-state
+gridRI
 repeatSizing
 )
 ;
@@ -39759,7 +39759,7 @@ std
 :
 move
 (
-state
+gridRI
 .
 mGridItems
 )
@@ -39774,7 +39774,7 @@ std
 :
 move
 (
-state
+gridRI
 .
 mAbsPosItems
 )
@@ -72741,7 +72741,7 @@ kIsSubgridBits
 ;
 }
 GridReflowInput
-gridReflowInput
+gridRI
 (
 this
 aReflowInput
@@ -72749,7 +72749,7 @@ aReflowInput
 ;
 if
 (
-gridReflowInput
+gridRI
 .
 mIter
 .
@@ -72774,7 +72774,7 @@ NS_STATE_GRID_NORMAL_FLOW_CHILDREN_IN_CSS_ORDER
 }
 if
 (
-gridReflowInput
+gridRI
 .
 mIter
 .
@@ -72864,7 +72864,7 @@ WritingMode
 &
 wm
 =
-gridReflowInput
+gridRI
 .
 mWM
 ;
@@ -72930,7 +72930,7 @@ grid
 .
 PlaceGridItems
 (
-gridReflowInput
+gridRI
 repeatSizing
 )
 ;
@@ -72965,7 +72965,7 @@ PlaceGridItems
 "
 )
 ;
-gridReflowInput
+gridRI
 .
 mGridItems
 =
@@ -72978,7 +72978,7 @@ Clone
 (
 )
 ;
-gridReflowInput
+gridRI
 .
 mAbsPosItems
 =
@@ -73139,7 +73139,7 @@ computedISize
 trackSizingBSize
 )
 ;
-gridReflowInput
+gridRI
 .
 CalculateTrackSizesForAxis
 (
@@ -73160,7 +73160,7 @@ SizingConstraint
 NoConstraint
 )
 ;
-gridReflowInput
+gridRI
 .
 CalculateTrackSizesForAxis
 (
@@ -73217,7 +73217,7 @@ auto
 &
 rowSizes
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -73290,7 +73290,7 @@ mBase
 bSize
 +
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -73310,7 +73310,7 @@ NS_UNCONSTRAINEDSIZE
 {
 bSize
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -73339,7 +73339,7 @@ CalcAndCacheConsumedBSize
 (
 )
 ;
-gridReflowInput
+gridRI
 .
 InitializeForContinuation
 (
@@ -73435,7 +73435,7 @@ const
 uint32_t
 numRows
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -73447,7 +73447,7 @@ Length
 ;
 bSize
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -73545,7 +73545,7 @@ auto
 &
 bp
 =
-gridReflowInput
+gridRI
 .
 mBorderPadding
 ;
@@ -73580,7 +73580,7 @@ auto
 &
 rowSizes
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -73657,7 +73657,7 @@ block
 -
 size
 .
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -73679,7 +73679,7 @@ bSize
 if
 (
 !
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -73694,7 +73694,7 @@ stylePos
 >
 mAlignContent
 ;
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -73721,7 +73721,7 @@ NS_UNCONSTRAINEDSIZE
 {
 bSize
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -73977,7 +73977,7 @@ bSize
 =
 ReflowChildren
 (
-gridReflowInput
+gridRI
 contentArea
 containerSize
 aDesiredSize
@@ -74022,7 +74022,7 @@ IsComplete
 &
 &
 !
-gridReflowInput
+gridRI
 .
 mSkipSides
 .
@@ -74144,7 +74144,7 @@ auto
 &
 item
 :
-gridReflowInput
+gridRI
 .
 mGridItems
 )
@@ -74464,7 +74464,7 @@ static_cast
 int32_t
 >
 (
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -74484,7 +74484,7 @@ static_cast
 int32_t
 >
 (
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -74527,7 +74527,7 @@ const
 LogicalRect
 gridAreaRect
 =
-gridReflowInput
+gridRI
 .
 ContainingBlockFor
 (
@@ -74627,7 +74627,7 @@ auto
 &
 item
 :
-gridReflowInput
+gridRI
 .
 mGridItems
 )
@@ -74696,7 +74696,7 @@ Inline
 )
 )
 {
-gridReflowInput
+gridRI
 .
 AlignJustifyTracksInMasonryAxis
 (
@@ -74794,14 +74794,14 @@ desiredSize
 if
 (
 !
-gridReflowInput
+gridRI
 .
 mInFragmentainer
 )
 {
 MOZ_ASSERT
 (
-gridReflowInput
+gridRI
 .
 mIter
 .
@@ -74826,18 +74826,18 @@ BaselineSet
 :
 eBoth
 &
-gridReflowInput
+gridRI
 .
 mIter
 &
-gridReflowInput
+gridRI
 .
 mGridItems
-gridReflowInput
+gridRI
 .
 mCols
 0
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -74875,18 +74875,18 @@ BaselineSet
 :
 eBoth
 &
-gridReflowInput
+gridRI
 .
 mIter
 &
-gridReflowInput
+gridRI
 .
 mGridItems
-gridReflowInput
+gridRI
 .
 mRows
 0
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -74956,7 +74956,7 @@ eNone
 ;
 if
 (
-gridReflowInput
+gridRI
 .
 mStartRow
 =
@@ -74964,12 +74964,12 @@ mStartRow
 0
 &
 &
-gridReflowInput
+gridRI
 .
 mStartRow
 !
 =
-gridReflowInput
+gridRI
 .
 mNextFragmentStartRow
 )
@@ -75011,7 +75011,7 @@ bug
 uint32_t
 len
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -75023,7 +75023,7 @@ Length
 ;
 if
 (
-gridReflowInput
+gridRI
 .
 mStartRow
 !
@@ -75031,7 +75031,7 @@ mStartRow
 len
 &
 &
-gridReflowInput
+gridRI
 .
 mNextFragmentStartRow
 =
@@ -75107,9 +75107,9 @@ point
 /
 Even
 if
-the
-gridReflowInput
-iterator
+gridRI
+.
+mIter
 is
 invalid
 we
@@ -75215,7 +75215,7 @@ OrderState
 bool
 ordered
 =
-gridReflowInput
+gridRI
 .
 mIter
 .
@@ -75293,7 +75293,7 @@ auto
 &
 info
 :
-gridReflowInput
+gridRI
 .
 mGridItems
 )
@@ -75344,11 +75344,11 @@ ptrOr
 (
 nullptr
 )
-gridReflowInput
+gridRI
 .
 mCols
 0
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -75394,13 +75394,13 @@ ptrOr
 (
 nullptr
 )
-gridReflowInput
+gridRI
 .
 mRows
-gridReflowInput
+gridRI
 .
 mStartRow
-gridReflowInput
+gridRI
 .
 mNextFragmentStartRow
 wm
@@ -75639,13 +75639,13 @@ nullptr
 LineNameMap
 colLineNameMap
 (
-gridReflowInput
+gridRI
 .
 mGridStyle
 GetImplicitNamedAreas
 (
 )
-gridReflowInput
+gridRI
 .
 mColFunctions
 nullptr
@@ -75656,7 +75656,7 @@ true
 uint32_t
 colTrackCount
 =
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -75699,7 +75699,7 @@ bool
 >
 colRemovedRepeatTracks
 (
-gridReflowInput
+gridRI
 .
 mColFunctions
 .
@@ -75722,7 +75722,7 @@ TrackSize
 &
 sz
 :
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -75755,7 +75755,7 @@ isRepeat
 col
 >
 =
-gridReflowInput
+gridRI
 .
 mColFunctions
 .
@@ -75766,7 +75766,7 @@ mRepeatAutoStart
 (
 col
 <
-gridReflowInput
+gridRI
 .
 mColFunctions
 .
@@ -75888,7 +75888,7 @@ Length
 (
 )
 :
-gridReflowInput
+gridRI
 .
 mColFunctions
 .
@@ -75903,7 +75903,7 @@ colInfo
 new
 ComputedGridTrackInfo
 (
-gridReflowInput
+gridRI
 .
 mColFunctions
 .
@@ -75939,7 +75939,7 @@ move
 (
 colRemovedRepeatTracks
 )
-gridReflowInput
+gridRI
 .
 mColFunctions
 .
@@ -76002,13 +76002,13 @@ nullptr
 LineNameMap
 rowLineNameMap
 (
-gridReflowInput
+gridRI
 .
 mGridStyle
 GetImplicitNamedAreas
 (
 )
-gridReflowInput
+gridRI
 .
 mRowFunctions
 nullptr
@@ -76019,7 +76019,7 @@ true
 uint32_t
 rowTrackCount
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -76062,7 +76062,7 @@ bool
 >
 rowRemovedRepeatTracks
 (
-gridReflowInput
+gridRI
 .
 mRowFunctions
 .
@@ -76085,7 +76085,7 @@ TrackSize
 &
 sz
 :
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -76118,7 +76118,7 @@ isRepeat
 row
 >
 =
-gridReflowInput
+gridRI
 .
 mRowFunctions
 .
@@ -76129,7 +76129,7 @@ mRepeatAutoStart
 (
 row
 <
-gridReflowInput
+gridRI
 .
 mRowFunctions
 .
@@ -76251,7 +76251,7 @@ Length
 (
 )
 :
-gridReflowInput
+gridRI
 .
 mRowFunctions
 .
@@ -76300,13 +76300,13 @@ rowInfo
 new
 ComputedGridTrackInfo
 (
-gridReflowInput
+gridRI
 .
 mRowFunctions
 .
 mExplicitGridOffset
 numRowExplicitTracks
-gridReflowInput
+gridRI
 .
 mStartRow
 row
@@ -76338,7 +76338,7 @@ move
 (
 rowRemovedRepeatTracks
 )
-gridReflowInput
+gridRI
 .
 mRowFunctions
 .
@@ -76516,7 +76516,7 @@ priorRowInfo
 -
 >
 mStartFragmentTrack
-gridReflowInput
+gridRI
 .
 mStartRow
 std
@@ -76661,7 +76661,7 @@ auto
 &
 colFunctions
 =
-gridReflowInput
+gridRI
 .
 mColFunctions
 ;
@@ -76675,7 +76675,7 @@ first
 uint32_t
 capacity
 =
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -76709,7 +76709,7 @@ col
 col
 <
 =
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -77052,13 +77052,13 @@ auto
 &
 rowFunctions
 =
-gridReflowInput
+gridRI
 .
 mRowFunctions
 ;
 capacity
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -77092,7 +77092,7 @@ row
 row
 <
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -77444,7 +77444,7 @@ elsewhere
 if
 (
 !
-gridReflowInput
+gridRI
 .
 mGridStyle
 -
@@ -77466,7 +77466,7 @@ StyleOwnedSlice
 NamedArea
 >
 (
-gridReflowInput
+gridRI
 .
 mGridStyle
 -
@@ -77566,7 +77566,7 @@ std
 :
 move
 (
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -77580,7 +77580,7 @@ mCols
 .
 mContentBoxSize
 =
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -77593,7 +77593,7 @@ mCols
 .
 mBaselineSubtreeAlign
 =
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -77606,7 +77606,7 @@ mCols
 .
 mIsMasonry
 =
-gridReflowInput
+gridRI
 .
 mCols
 .
@@ -77624,7 +77624,7 @@ std
 :
 move
 (
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -77750,7 +77750,7 @@ mRows
 .
 mContentBoxSize
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -77763,7 +77763,7 @@ mRows
 .
 mBaselineSubtreeAlign
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -77776,7 +77776,7 @@ mRows
 .
 mIsMasonry
 =
-gridReflowInput
+gridRI
 .
 mRows
 .
@@ -77792,7 +77792,7 @@ std
 :
 move
 (
-gridReflowInput
+gridRI
 .
 mGridItems
 )
@@ -77807,7 +77807,7 @@ std
 :
 move
 (
-gridReflowInput
+gridRI
 .
 mAbsPosItems
 )
@@ -78746,7 +78746,7 @@ NormalizeChildLists
 )
 ;
 GridReflowInput
-state
+gridRI
 (
 this
 *
@@ -78757,7 +78757,7 @@ mContext
 ;
 InitImplicitNamedAreas
 (
-state
+gridRI
 .
 mGridStyle
 )
@@ -78832,7 +78832,7 @@ otherwise
 RepeatTrackSizingInput
 repeatSizing
 (
-state
+gridRI
 .
 mWM
 )
@@ -78845,7 +78845,7 @@ IsColSubgrid
 )
 &
 &
-state
+gridRI
 .
 mColFunctions
 .
@@ -78860,10 +78860,10 @@ LogicalAxis
 :
 :
 Inline
-state
+gridRI
 .
 mWM
-state
+gridRI
 .
 mFrame
 -
@@ -78871,7 +78871,7 @@ mFrame
 Style
 (
 )
-state
+gridRI
 .
 mFrame
 -
@@ -78894,7 +78894,7 @@ IsRowSubgrid
 )
 &
 &
-state
+gridRI
 .
 mRowFunctions
 .
@@ -78903,7 +78903,7 @@ mHasRepeatAuto
 &
 !
 (
-state
+gridRI
 .
 mGridStyle
 -
@@ -78987,10 +78987,10 @@ LogicalAxis
 :
 :
 Block
-state
+gridRI
 .
 mWM
-state
+gridRI
 .
 mFrame
 -
@@ -78998,7 +78998,7 @@ mFrame
 Style
 (
 )
-state
+gridRI
 .
 mFrame
 -
@@ -79030,7 +79030,7 @@ grid
 .
 PlaceGridItems
 (
-state
+gridRI
 repeatSizing
 )
 ;
@@ -79055,7 +79055,7 @@ Prop
 )
 )
 ;
-state
+gridRI
 .
 mGridItems
 =
@@ -79068,7 +79068,7 @@ Clone
 (
 )
 ;
-state
+gridRI
 .
 mAbsPosItems
 =
@@ -79135,7 +79135,7 @@ Inline
 ReflowOutput
 desiredSize
 (
-state
+gridRI
 .
 mWM
 )
@@ -79146,7 +79146,7 @@ containerSize
 LogicalRect
 contentArea
 (
-state
+gridRI
 .
 mWM
 )
@@ -79154,7 +79154,7 @@ mWM
 nsReflowStatus
 status
 ;
-state
+gridRI
 .
 mRows
 .
@@ -79167,7 +79167,7 @@ grid
 mGridRowEnd
 )
 ;
-state
+gridRI
 .
 CalculateTrackSizesForAxis
 (
@@ -79183,7 +79183,7 @@ constraint
 return
 MasonryLayout
 (
-state
+gridRI
 contentArea
 constraint
 desiredSize
@@ -79210,7 +79210,7 @@ nscoord
 )
 ;
 }
-state
+gridRI
 .
 CalculateTrackSizesForAxis
 (
@@ -79235,7 +79235,7 @@ IsSubgrid
 )
 {
 return
-state
+gridRI
 .
 mCols
 .
@@ -79249,7 +79249,7 @@ auto
 &
 last
 =
-state
+gridRI
 .
 mCols
 .
