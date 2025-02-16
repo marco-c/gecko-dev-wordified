@@ -2114,7 +2114,7 @@ MacroAssembler
 :
 memoryBarrier
 (
-MemoryBarrierBits
+MemoryBarrier
 barrier
 )
 {

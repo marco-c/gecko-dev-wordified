@@ -16288,7 +16288,7 @@ MacroAssembler
 :
 memoryBarrier
 (
-MemoryBarrierBits
+MemoryBarrier
 barrier
 )
 {
@@ -16323,7 +16323,12 @@ barrier
 .
 if
 (
+!
 barrier
+.
+isNone
+(
+)
 )
 {
 Dmb

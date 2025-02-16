@@ -138612,7 +138612,7 @@ memoryBarrier
 ins
 -
 >
-type
+barrier
 (
 )
 )
@@ -160943,7 +160943,12 @@ masm
 .
 memoryBarrier
 (
-MembarFull
+MemoryBarrier
+:
+:
+Full
+(
+)
 )
 ;
 }

@@ -18679,7 +18679,7 @@ inline
 void
 memoryBarrier
 (
-MemoryBarrierBits
+MemoryBarrier
 barrier
 )
 PER_SHARED_ARCH
