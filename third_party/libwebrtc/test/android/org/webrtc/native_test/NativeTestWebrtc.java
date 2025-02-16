@@ -1330,6 +1330,12 @@ test_package
 .
 py
 .
+SuppressWarnings
+(
+"
+UnusedMethod
+"
+)
 private
 void
 nativeTestFailed
