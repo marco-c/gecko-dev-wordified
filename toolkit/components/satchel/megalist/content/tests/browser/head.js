@@ -1454,7 +1454,9 @@ key
 is
 the
 recorded
-trigger
+{
+key
+}
 .
 Expected
 :
