@@ -1107,6 +1107,14 @@ FeedbackAccordingToRfc8888Count
 0
 ;
 virtual
+int
+FeedbackAccordingToTransportCcCount
+(
+)
+=
+0
+;
+virtual
 const
 FieldTrialsView
 &

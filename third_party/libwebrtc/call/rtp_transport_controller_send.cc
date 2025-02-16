@@ -4053,6 +4053,10 @@ RTC_DCHECK_RUN_ON
 sequence_checker_
 )
 ;
++
++
+transport_cc_feedback_count_
+;
 feedback_demuxer_
 .
 OnTransportFeedback
