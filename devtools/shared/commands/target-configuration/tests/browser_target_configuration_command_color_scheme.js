@@ -322,12 +322,11 @@ BrowserTestUtils
 reloadTab
 (
 tab
-/
-*
+{
 includeSubFrames
-*
-/
+:
 true
+}
 )
 ;
 is
@@ -484,7 +483,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
