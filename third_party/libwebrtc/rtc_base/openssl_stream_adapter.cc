@@ -5613,6 +5613,14 @@ ssl_error
 ;
 }
 }
+if
+(
+ssl_
+!
+=
+nullptr
+)
+{
 struct
 timeval
 timeout
@@ -5647,6 +5655,7 @@ SetTimeout
 delay
 )
 ;
+}
 }
 return
 0
