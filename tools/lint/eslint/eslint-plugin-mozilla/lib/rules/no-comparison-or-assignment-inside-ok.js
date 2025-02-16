@@ -377,6 +377,10 @@ arguments
 if
 (
 !
+firstArg
+|
+|
+!
 exprs
 .
 has

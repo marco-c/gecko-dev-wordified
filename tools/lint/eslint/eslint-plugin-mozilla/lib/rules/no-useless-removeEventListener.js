@@ -389,6 +389,14 @@ removeEventListener
 "
 &
 &
+call
+.
+arguments
+[
+0
+]
+&
+&
 (
 (
 call

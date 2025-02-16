@@ -852,6 +852,16 @@ node
 callee
 &
 &
+node
+.
+arguments
+.
+length
+>
+=
+1
+&
+&
 isConcatenation
 (
 node

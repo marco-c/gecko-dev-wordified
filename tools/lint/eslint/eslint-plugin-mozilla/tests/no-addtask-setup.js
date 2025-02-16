@@ -452,6 +452,12 @@ valid
 "
 add_task
 (
+)
+;
+"
+"
+add_task
+(
 function
 (
 )
