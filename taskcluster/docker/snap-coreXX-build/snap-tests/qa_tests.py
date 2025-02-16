@@ -1639,9 +1639,6 @@ in
 "
 release
 "
-"
-beta
-"
 )
             
 and
