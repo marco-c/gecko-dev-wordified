@@ -129,7 +129,7 @@ mjs
 const
 {
 ModelHub
-IndexedDBCache
+TestIndexedDBCache
 }
 =
 ChromeUtils
@@ -154,6 +154,11 @@ sys
 mjs
 "
 )
+;
+const
+IndexedDBCache
+=
+TestIndexedDBCache
 ;
 const
 {
