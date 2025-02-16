@@ -1956,7 +1956,7 @@ handles
 isolate
 )
 ;
-Handle
+DirectHandle
 <
 TrustedByteArray
 >
@@ -1967,7 +1967,7 @@ code_array_out
 isolate
 )
 ;
-Handle
+DirectHandle
 <
 String
 >

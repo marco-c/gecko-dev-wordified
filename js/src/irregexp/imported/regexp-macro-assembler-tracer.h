@@ -494,13 +494,13 @@ Fail
 )
 override
 ;
-Handle
+DirectHandle
 <
 HeapObject
 >
 GetCode
 (
-Handle
+DirectHandle
 <
 String
 >

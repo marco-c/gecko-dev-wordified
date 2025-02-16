@@ -2333,7 +2333,7 @@ RegExpNode
 start
 int
 capture_count
-Handle
+DirectHandle
 <
 String
 >
@@ -2502,7 +2502,7 @@ RegExpTooBig
 )
 ;
 }
-Handle
+DirectHandle
 <
 HeapObject
 >

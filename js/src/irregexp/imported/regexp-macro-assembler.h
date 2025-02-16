@@ -285,13 +285,13 @@ RegExpMacroAssembler
 default
 ;
 virtual
-Handle
+DirectHandle
 <
 HeapObject
 >
 GetCode
 (
-Handle
+DirectHandle
 <
 String
 >
