@@ -1605,6 +1605,7 @@ node
 ID01
 "
                 
+f
 "
 Identifiers
 may
@@ -1614,6 +1615,15 @@ lowercase
 characters
 and
 -
+(
+ID
+:
+{
+node
+.
+name
+}
+)
 "
             
 )
@@ -1700,6 +1710,14 @@ minimum_id_length
 }
 characters
 long
+(
+ID
+:
+{
+node
+.
+name
+}
 "
             
 )
@@ -2064,9 +2082,27 @@ brand_names
 :
                     
 if
+re
+.
+search
+(
+rf
+"
+\
+b
+{
+re
+.
+escape
+(
 brand
-in
+)
+}
+\
+b
+"
 text
+)
 :
                         
 found_brands
