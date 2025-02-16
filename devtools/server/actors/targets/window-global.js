@@ -4482,6 +4482,11 @@ actor
 this
 .
 actorID
+targetType
+:
+this
+.
+targetType
 browsingContextID
 processID
 :

@@ -825,6 +825,11 @@ actor
 this
 .
 actorID
+targetType
+:
+this
+.
+targetType
 consoleActor
 :
 this
