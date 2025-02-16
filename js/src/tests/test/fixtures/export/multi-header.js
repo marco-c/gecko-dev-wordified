@@ -18,9 +18,7 @@ Temporal
 )
 |
 |
-outro
-(
-)
+true
 )
 error
 :
