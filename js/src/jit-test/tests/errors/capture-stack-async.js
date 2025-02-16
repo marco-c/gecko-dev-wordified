@@ -5,6 +5,17 @@ jit
 -
 test
 |
+skip
+-
+if
+:
+getBuildConfiguration
+(
+"
+release_or_beta
+"
+)
+;
 -
 -
 setpref
