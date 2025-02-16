@@ -1412,7 +1412,7 @@ asrouter
 "
 browser
 /
-components
+extensions
 /
 newtab
 /
