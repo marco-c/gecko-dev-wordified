@@ -245,6 +245,23 @@ MACH_COMMANDS
 {
     
 "
+adb
+"
+:
+MachCommandReference
+(
+"
+mobile
+/
+android
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 addstory
 "
 :
