@@ -2662,6 +2662,13 @@ channel
 "
 esr
 "
+appName
+:
+"
+firefox
+-
+android
+"
 }
 [
 "
