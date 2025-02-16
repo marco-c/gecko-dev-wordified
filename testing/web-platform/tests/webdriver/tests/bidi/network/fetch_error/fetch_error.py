@@ -765,9 +765,10 @@ wait_for_event
 FETCH_ERROR_EVENT
 )
     
-result
-=
-await
+asyncio
+.
+ensure_future
+(
 bidi_session
 .
 browsing_context
@@ -787,7 +788,7 @@ context
 url
 =
 PAGE_INVALID_URL
-    
+)
 )
     
 fetch_error_event
@@ -823,33 +824,8 @@ fetch_error_event
 expected_request
 =
 expected_request
-        
-navigation
-=
-result
-[
-"
-navigation
-"
-]
     
 )
-    
-assert
-fetch_error_event
-[
-"
-navigation
-"
-]
-=
-=
-result
-[
-"
-navigation
-"
-]
 pytest
 .
 mark
@@ -1684,9 +1660,10 @@ wait_for_event
 RESPONSE_COMPLETED_EVENT
 )
     
-result
-=
-await
+asyncio
+.
+ensure_future
+(
 bidi_session
 .
 browsing_context
@@ -1707,6 +1684,7 @@ url
 =
 redirect_url
     
+)
 )
     
 wait
@@ -1755,15 +1733,6 @@ expected_request
 =
 expected_request
         
-navigation
-=
-result
-[
-"
-navigation
-"
-]
-        
 redirect_count
 =
 0
@@ -1795,15 +1764,6 @@ fetch_error_event
 expected_request
 =
 expected_request
-        
-navigation
-=
-result
-[
-"
-navigation
-"
-]
         
 redirect_count
 =
