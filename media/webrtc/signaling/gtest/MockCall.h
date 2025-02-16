@@ -1779,6 +1779,16 @@ return
 0
 ;
 }
+int
+FeedbackAccordingToTransportCcCount
+(
+)
+override
+{
+return
+0
+;
+}
 std
 :
 :
