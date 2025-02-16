@@ -11256,9 +11256,6 @@ mozilla
 StylePositionProperty
 aProp
 const
-nsStylePosition
-:
-:
 AnchorResolvedInset
 &
 aInset
@@ -11267,7 +11264,8 @@ aInset
 if
 (
 aInset
-.
+-
+>
 IsAuto
 (
 )
@@ -11299,7 +11297,8 @@ NS_UNCONSTRAINEDSIZE
 |
 !
 aInset
-.
+-
+>
 HasPercent
 (
 )
@@ -11336,7 +11335,8 @@ calculation
 ;
 return
 aInset
-.
+-
+>
 AsLengthPercentage
 (
 )
