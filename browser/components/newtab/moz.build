@@ -131,16 +131,6 @@ browser
 toml
 "
 ]
-SPHINX_TREES
-[
-"
-docs
-"
-]
-=
-"
-docs
-"
 XPCSHELL_TESTS_MANIFESTS
 +
 =
