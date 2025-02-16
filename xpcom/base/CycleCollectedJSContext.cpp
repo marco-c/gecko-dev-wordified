@@ -235,6 +235,15 @@ include
 "
 mozilla
 /
+ProfilerRunnable
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Sprintf
 .
 h
@@ -3257,6 +3266,11 @@ mStableStateEvents
 [
 i
 ]
+)
+;
+AUTO_PROFILE_FOLLOWING_RUNNABLE
+(
+event
 )
 ;
 event
