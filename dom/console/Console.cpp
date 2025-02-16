@@ -12490,7 +12490,14 @@ MakeFormatString
 (
 format
 integer
+std
+:
+:
+min
+(
 mantissa
+15
+)
 '
 f
 '
