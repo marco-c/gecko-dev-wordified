@@ -539,6 +539,11 @@ MACRO
 (
 A11Y_ProcessShowEvent
 )
+\
+MACRO
+(
+A11Y_CoalesceEvents
+)
 namespace
 mozilla
 {
