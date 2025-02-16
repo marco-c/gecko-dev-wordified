@@ -10667,7 +10667,9 @@ the
 "
 translations
 :
-pref
+model
+-
+records
 -
 changed
 "
@@ -10725,7 +10727,9 @@ the
 "
 translations
 :
-pref
+model
+-
+records
 -
 changed
 "
@@ -10737,7 +10741,7 @@ observed
 /
 async
 function
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 callback
 )
@@ -10769,7 +10773,9 @@ onChange
 "
 translations
 :
-pref
+model
+-
+records
 -
 changed
 "
@@ -10790,7 +10796,9 @@ onChange
 "
 translations
 :
-pref
+model
+-
+records
 -
 changed
 "

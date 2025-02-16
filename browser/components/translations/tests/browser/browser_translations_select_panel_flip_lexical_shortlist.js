@@ -177,7 +177,7 @@ assertPanelViewTranslated
 )
 ;
 await
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 (
 )
@@ -232,7 +232,7 @@ assertPanelViewTranslated
 )
 ;
 await
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 (
 )
@@ -446,7 +446,7 @@ assertPanelViewTranslated
 )
 ;
 await
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 (
 )
@@ -501,7 +501,7 @@ assertPanelViewTranslated
 )
 ;
 await
-waitForTranslationsPrefChanged
+waitForTranslationModelRecordsChanged
 (
 (
 )
