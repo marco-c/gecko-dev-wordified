@@ -401,6 +401,8 @@ nsString
 ;
 int32_t
 ;
+uint64_t
+;
 float
 ;
 uint64_t

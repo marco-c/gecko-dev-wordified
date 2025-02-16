@@ -445,7 +445,7 @@ int32_t
 _
 (
 WebRenderDebugFlags
-int32_t
+uint64_t
 0
 )
 \
