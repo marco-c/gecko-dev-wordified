@@ -381,6 +381,11 @@ done
 ;
 }
 }
+{
+ignoreVisibility
+:
+true
+}
 )
 ;
 }
