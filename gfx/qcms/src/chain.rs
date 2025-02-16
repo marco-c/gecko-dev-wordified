@@ -722,8 +722,6 @@ chunks_exact
 {
 let
 device_L
-:
-f32
 =
 src
 [
@@ -736,8 +734,6 @@ src
 ;
 let
 device_a
-:
-f32
 =
 src
 [
@@ -754,8 +750,6 @@ src
 ;
 let
 device_b
-:
-f32
 =
 src
 [
@@ -772,8 +766,6 @@ src
 ;
 let
 y
-:
-f32
 =
 (
 device_L
@@ -982,8 +974,6 @@ chunks_exact
 {
 let
 device_x
-:
-f32
 =
 (
 src
@@ -1016,8 +1006,6 @@ f32
 ;
 let
 device_y
-:
-f32
 =
 (
 src
@@ -1050,8 +1038,6 @@ f32
 ;
 let
 device_z
-:
-f32
 =
 (
 src
@@ -1108,8 +1094,6 @@ device_z
 ;
 let
 L
-:
-f32
 =
 116
 .
@@ -1123,8 +1107,6 @@ fy
 ;
 let
 a
-:
-f32
 =
 500
 .
@@ -1138,8 +1120,6 @@ fy
 ;
 let
 b
-:
-f32
 =
 200
 .
@@ -1241,15 +1221,11 @@ f32
 {
 let
 xy_len
-:
-i32
 =
 1
 ;
 let
 x_len
-:
-i32
 =
 self
 .
@@ -1259,8 +1235,6 @@ i32
 ;
 let
 len
-:
-i32
 =
 x_len
 *
@@ -1380,8 +1354,6 @@ i32
 ;
 let
 linear_r
-:
-f32
 =
 src
 [
@@ -1390,8 +1362,6 @@ src
 ;
 let
 linear_g
-:
-f32
 =
 src
 [
@@ -1400,8 +1370,6 @@ src
 ;
 let
 linear_b
-:
-f32
 =
 src
 [
@@ -1410,8 +1378,6 @@ src
 ;
 let
 x
-:
-i32
 =
 (
 linear_r
@@ -1437,8 +1403,6 @@ i32
 ;
 let
 y
-:
-i32
 =
 (
 linear_g
@@ -1464,8 +1428,6 @@ i32
 ;
 let
 z
-:
-i32
 =
 (
 linear_b
@@ -1491,8 +1453,6 @@ i32
 ;
 let
 x_n
-:
-i32
 =
 (
 linear_r
@@ -1518,8 +1478,6 @@ i32
 ;
 let
 y_n
-:
-i32
 =
 (
 linear_g
@@ -1545,8 +1503,6 @@ i32
 ;
 let
 z_n
-:
-i32
 =
 (
 linear_b
@@ -1572,8 +1528,6 @@ i32
 ;
 let
 x_d
-:
-f32
 =
 linear_r
 *
@@ -1595,8 +1549,6 @@ f32
 ;
 let
 y_d
-:
-f32
 =
 linear_g
 *
@@ -1618,8 +1570,6 @@ f32
 ;
 let
 z_d
-:
-f32
 =
 linear_b
 *
@@ -1641,8 +1591,6 @@ f32
 ;
 let
 r_x1
-:
-f32
 =
 lerp
 (
@@ -1665,8 +1613,6 @@ x_d
 ;
 let
 r_x2
-:
-f32
 =
 lerp
 (
@@ -1689,8 +1635,6 @@ x_d
 ;
 let
 r_y1
-:
-f32
 =
 lerp
 (
@@ -1701,8 +1645,6 @@ y_d
 ;
 let
 r_x3
-:
-f32
 =
 lerp
 (
@@ -1725,8 +1667,6 @@ x_d
 ;
 let
 r_x4
-:
-f32
 =
 lerp
 (
@@ -1749,8 +1689,6 @@ x_d
 ;
 let
 r_y2
-:
-f32
 =
 lerp
 (
@@ -1761,8 +1699,6 @@ y_d
 ;
 let
 clut_r
-:
-f32
 =
 lerp
 (
@@ -1773,8 +1709,6 @@ z_d
 ;
 let
 g_x1
-:
-f32
 =
 lerp
 (
@@ -1797,8 +1731,6 @@ x_d
 ;
 let
 g_x2
-:
-f32
 =
 lerp
 (
@@ -1821,8 +1753,6 @@ x_d
 ;
 let
 g_y1
-:
-f32
 =
 lerp
 (
@@ -1833,8 +1763,6 @@ y_d
 ;
 let
 g_x3
-:
-f32
 =
 lerp
 (
@@ -1857,8 +1785,6 @@ x_d
 ;
 let
 g_x4
-:
-f32
 =
 lerp
 (
@@ -1881,8 +1807,6 @@ x_d
 ;
 let
 g_y2
-:
-f32
 =
 lerp
 (
@@ -1893,8 +1817,6 @@ y_d
 ;
 let
 clut_g
-:
-f32
 =
 lerp
 (
@@ -1905,8 +1827,6 @@ z_d
 ;
 let
 b_x1
-:
-f32
 =
 lerp
 (
@@ -1929,8 +1849,6 @@ x_d
 ;
 let
 b_x2
-:
-f32
 =
 lerp
 (
@@ -1953,8 +1871,6 @@ x_d
 ;
 let
 b_y1
-:
-f32
 =
 lerp
 (
@@ -1965,8 +1881,6 @@ y_d
 ;
 let
 b_x3
-:
-f32
 =
 lerp
 (
@@ -1989,8 +1903,6 @@ x_d
 ;
 let
 b_x4
-:
-f32
 =
 lerp
 (
@@ -2013,8 +1925,6 @@ x_d
 ;
 let
 b_y2
-:
-f32
 =
 lerp
 (
@@ -2025,8 +1935,6 @@ y_d
 ;
 let
 clut_b
-:
-f32
 =
 lerp
 (
@@ -2144,15 +2052,11 @@ f32
 {
 let
 xy_len
-:
-i32
 =
 1
 ;
 let
 x_len
-:
-i32
 =
 self
 .
@@ -2162,8 +2066,6 @@ i32
 ;
 let
 len
-:
-i32
 =
 x_len
 *
@@ -2361,8 +2263,6 @@ i32
 ;
 let
 device_r
-:
-f32
 =
 src
 [
@@ -2371,8 +2271,6 @@ src
 ;
 let
 device_g
-:
-f32
 =
 src
 [
@@ -2381,8 +2279,6 @@ src
 ;
 let
 device_b
-:
-f32
 =
 src
 [
@@ -2391,8 +2287,6 @@ src
 ;
 let
 linear_r
-:
-f32
 =
 lut_interp_linear_float
 (
@@ -2403,8 +2297,6 @@ input_clut_table_r
 ;
 let
 linear_g
-:
-f32
 =
 lut_interp_linear_float
 (
@@ -2415,8 +2307,6 @@ input_clut_table_g
 ;
 let
 linear_b
-:
-f32
 =
 lut_interp_linear_float
 (
@@ -2427,8 +2317,6 @@ input_clut_table_b
 ;
 let
 x
-:
-i32
 =
 (
 linear_r
@@ -2454,8 +2342,6 @@ i32
 ;
 let
 y
-:
-i32
 =
 (
 linear_g
@@ -2481,8 +2367,6 @@ i32
 ;
 let
 z
-:
-i32
 =
 (
 linear_b
@@ -2508,8 +2392,6 @@ i32
 ;
 let
 x_n
-:
-i32
 =
 (
 linear_r
@@ -2535,8 +2417,6 @@ i32
 ;
 let
 y_n
-:
-i32
 =
 (
 linear_g
@@ -2562,8 +2442,6 @@ i32
 ;
 let
 z_n
-:
-i32
 =
 (
 linear_b
@@ -2589,8 +2467,6 @@ i32
 ;
 let
 x_d
-:
-f32
 =
 linear_r
 *
@@ -2612,8 +2488,6 @@ f32
 ;
 let
 y_d
-:
-f32
 =
 linear_g
 *
@@ -2635,8 +2509,6 @@ f32
 ;
 let
 z_d
-:
-f32
 =
 linear_b
 *
@@ -2658,8 +2530,6 @@ f32
 ;
 let
 r_x1
-:
-f32
 =
 lerp
 (
@@ -2682,8 +2552,6 @@ x_d
 ;
 let
 r_x2
-:
-f32
 =
 lerp
 (
@@ -2706,8 +2574,6 @@ x_d
 ;
 let
 r_y1
-:
-f32
 =
 lerp
 (
@@ -2718,8 +2584,6 @@ y_d
 ;
 let
 r_x3
-:
-f32
 =
 lerp
 (
@@ -2742,8 +2606,6 @@ x_d
 ;
 let
 r_x4
-:
-f32
 =
 lerp
 (
@@ -2766,8 +2628,6 @@ x_d
 ;
 let
 r_y2
-:
-f32
 =
 lerp
 (
@@ -2778,8 +2638,6 @@ y_d
 ;
 let
 clut_r
-:
-f32
 =
 lerp
 (
@@ -2790,8 +2648,6 @@ z_d
 ;
 let
 g_x1
-:
-f32
 =
 lerp
 (
@@ -2814,8 +2670,6 @@ x_d
 ;
 let
 g_x2
-:
-f32
 =
 lerp
 (
@@ -2838,8 +2692,6 @@ x_d
 ;
 let
 g_y1
-:
-f32
 =
 lerp
 (
@@ -2850,8 +2702,6 @@ y_d
 ;
 let
 g_x3
-:
-f32
 =
 lerp
 (
@@ -2874,8 +2724,6 @@ x_d
 ;
 let
 g_x4
-:
-f32
 =
 lerp
 (
@@ -2898,8 +2746,6 @@ x_d
 ;
 let
 g_y2
-:
-f32
 =
 lerp
 (
@@ -2910,8 +2756,6 @@ y_d
 ;
 let
 clut_g
-:
-f32
 =
 lerp
 (
@@ -2922,8 +2766,6 @@ z_d
 ;
 let
 b_x1
-:
-f32
 =
 lerp
 (
@@ -2946,8 +2788,6 @@ x_d
 ;
 let
 b_x2
-:
-f32
 =
 lerp
 (
@@ -2970,8 +2810,6 @@ x_d
 ;
 let
 b_y1
-:
-f32
 =
 lerp
 (
@@ -2982,8 +2820,6 @@ y_d
 ;
 let
 b_x3
-:
-f32
 =
 lerp
 (
@@ -3006,8 +2842,6 @@ x_d
 ;
 let
 b_x4
-:
-f32
 =
 lerp
 (
@@ -3030,8 +2864,6 @@ x_d
 ;
 let
 b_y2
-:
-f32
 =
 lerp
 (
@@ -3042,8 +2874,6 @@ y_d
 ;
 let
 clut_b
-:
-f32
 =
 lerp
 (
@@ -3054,8 +2884,6 @@ z_d
 ;
 let
 pcs_r
-:
-f32
 =
 lut_interp_linear_float
 (
@@ -3079,8 +2907,6 @@ unwrap
 ;
 let
 pcs_g
-:
-f32
 =
 lut_interp_linear_float
 (
@@ -3104,8 +2930,6 @@ unwrap
 ;
 let
 pcs_b
-:
-f32
 =
 lut_interp_linear_float
 (
@@ -3236,8 +3060,6 @@ f32
 {
 let
 z_stride
-:
-i32
 =
 self
 .
@@ -3247,8 +3069,6 @@ i32
 ;
 let
 y_stride
-:
-i32
 =
 z_stride
 *
@@ -3256,8 +3076,6 @@ z_stride
 ;
 let
 x_stride
-:
-i32
 =
 z_stride
 *
@@ -3480,8 +3298,6 @@ i32
 ;
 let
 linear_x
-:
-f32
 =
 lut_interp_linear_float
 (
@@ -3495,8 +3311,6 @@ input_clut_table_0
 ;
 let
 linear_y
-:
-f32
 =
 lut_interp_linear_float
 (
@@ -3510,8 +3324,6 @@ input_clut_table_1
 ;
 let
 linear_z
-:
-f32
 =
 lut_interp_linear_float
 (
@@ -3525,8 +3337,6 @@ input_clut_table_2
 ;
 let
 linear_w
-:
-f32
 =
 lut_interp_linear_float
 (
@@ -3540,8 +3350,6 @@ input_clut_table_3
 ;
 let
 x
-:
-i32
 =
 (
 linear_x
@@ -3567,8 +3375,6 @@ i32
 ;
 let
 y
-:
-i32
 =
 (
 linear_y
@@ -3594,8 +3400,6 @@ i32
 ;
 let
 z
-:
-i32
 =
 (
 linear_z
@@ -3621,8 +3425,6 @@ i32
 ;
 let
 w
-:
-i32
 =
 (
 linear_w
@@ -3648,8 +3450,6 @@ i32
 ;
 let
 x_n
-:
-i32
 =
 (
 linear_x
@@ -3675,8 +3475,6 @@ i32
 ;
 let
 y_n
-:
-i32
 =
 (
 linear_y
@@ -3702,8 +3500,6 @@ i32
 ;
 let
 z_n
-:
-i32
 =
 (
 linear_z
@@ -3729,8 +3525,6 @@ i32
 ;
 let
 w_n
-:
-i32
 =
 (
 linear_w
@@ -3756,8 +3550,6 @@ i32
 ;
 let
 x_d
-:
-f32
 =
 linear_x
 *
@@ -3779,8 +3571,6 @@ f32
 ;
 let
 y_d
-:
-f32
 =
 linear_y
 *
@@ -3802,8 +3592,6 @@ f32
 ;
 let
 z_d
-:
-f32
 =
 linear_z
 *
@@ -3825,8 +3613,6 @@ f32
 ;
 let
 w_d
-:
-f32
 =
 linear_w
 *
@@ -5920,8 +5706,6 @@ chunks_exact
 {
 let
 in_r
-:
-f32
 =
 src
 [
@@ -5930,8 +5714,6 @@ src
 ;
 let
 in_g
-:
-f32
 =
 src
 [
@@ -5940,8 +5722,6 @@ src
 ;
 let
 in_b
-:
-f32
 =
 src
 [
@@ -6126,8 +5906,6 @@ chunks_exact
 {
 let
 in_r
-:
-f32
 =
 src
 [
@@ -6136,8 +5914,6 @@ src
 ;
 let
 in_g
-:
-f32
 =
 src
 [
@@ -6146,8 +5922,6 @@ src
 ;
 let
 in_b
-:
-f32
 =
 src
 [
@@ -6563,8 +6337,6 @@ chunks_exact
 {
 let
 in_r
-:
-f32
 =
 src
 [
@@ -6573,8 +6345,6 @@ src
 ;
 let
 in_g
-:
-f32
 =
 src
 [
@@ -6583,8 +6353,6 @@ src
 ;
 let
 in_b
-:
-f32
 =
 src
 [
@@ -6593,8 +6361,6 @@ src
 ;
 let
 out_r
-:
-f32
 =
 mat
 .
@@ -6638,8 +6404,6 @@ tx
 ;
 let
 out_g
-:
-f32
 =
 mat
 .
@@ -6683,8 +6447,6 @@ ty
 ;
 let
 out_b
-:
-f32
 =
 mat
 .
@@ -6952,8 +6714,6 @@ chunks_exact
 {
 let
 in_r
-:
-f32
 =
 src
 [
@@ -6962,8 +6722,6 @@ src
 ;
 let
 in_g
-:
-f32
 =
 src
 [
@@ -6972,8 +6730,6 @@ src
 ;
 let
 in_b
-:
-f32
 =
 src
 [
@@ -6982,8 +6738,6 @@ src
 ;
 let
 out_r
-:
-f32
 =
 mat
 .
@@ -7023,8 +6777,6 @@ in_b
 ;
 let
 out_g
-:
-f32
 =
 mat
 .
@@ -7064,8 +6816,6 @@ in_b
 ;
 let
 out_b
-:
-f32
 =
 mat
 .
@@ -7234,8 +6984,6 @@ num_grid_points
 [
 0
 ]
-as
-i32
 !
 =
 lut
@@ -7244,8 +6992,6 @@ num_grid_points
 [
 1
 ]
-as
-i32
 |
 |
 lut
@@ -7254,8 +7000,6 @@ num_grid_points
 [
 1
 ]
-as
-i32
 !
 =
 lut
@@ -7264,8 +7008,6 @@ num_grid_points
 [
 2
 ]
-as
-i32
 {
 /
 /
