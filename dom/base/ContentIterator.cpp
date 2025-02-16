@@ -802,7 +802,7 @@ aNode
 =
 aStart
 .
-Container
+GetContainer
 (
 )
 |
@@ -812,7 +812,7 @@ aNode
 =
 aEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -855,7 +855,7 @@ aNode
 =
 aStart
 .
-Container
+GetContainer
 (
 )
 |
@@ -868,7 +868,7 @@ IsStartOfContainer
 "
 aStart
 .
-Container
+GetContainer
 (
 )
 doesn
@@ -902,7 +902,7 @@ aNode
 =
 aEnd
 .
-Container
+GetContainer
 (
 )
 |
@@ -915,7 +915,7 @@ IsStartOfContainer
 "
 aEnd
 .
-Container
+GetContainer
 (
 )
 doesn
@@ -1864,7 +1864,7 @@ mStartIsCharacterData
 {
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -2145,14 +2145,14 @@ mStartIsCharacterData
 &
 mStart
 .
-Container
+GetContainer
 (
 )
 =
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 ;
@@ -2193,12 +2193,12 @@ GetClosestCommonInclusiveAncestor
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -2308,7 +2308,7 @@ mFirst
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -2495,7 +2495,7 @@ node
 in
 mStart
 .
-Container
+GetContainer
 (
 )
 .
@@ -2664,7 +2664,7 @@ if
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -2680,7 +2680,7 @@ name
 =
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -2742,7 +2742,7 @@ GetNextSibling
 (
 mStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -2825,7 +2825,7 @@ result
 return
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -2847,7 +2847,7 @@ NS_WARN_IF
 !
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -2873,7 +2873,7 @@ nullptr
 return
 mStart
 .
-Container
+GetContainer
 (
 )
 -
@@ -3021,7 +3021,7 @@ endIsCharacterData
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -3038,7 +3038,7 @@ endIsCharacterData
 !
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -3075,7 +3075,7 @@ NS_WARN_IF
 !
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -3157,7 +3157,7 @@ if
 (
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -3173,7 +3173,7 @@ name
 =
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -3232,7 +3232,7 @@ PrevNode
 (
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -3298,7 +3298,7 @@ result
 return
 mEnd
 .
-Container
+GetContainer
 (
 )
 -
@@ -3363,7 +3363,7 @@ GetPrevSibling
 (
 mEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -3409,7 +3409,7 @@ result
 return
 mEnd
 .
-Container
+GetContainer
 (
 )
 -

@@ -1163,7 +1163,7 @@ ComputeRootNode
 (
 aStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -1306,7 +1306,7 @@ ComputeRootNode
 (
 aEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -1565,7 +1565,7 @@ ComputeRootNode
 (
 aStart
 .
-Container
+GetContainer
 (
 )
 )
@@ -1598,14 +1598,14 @@ if
 (
 aStart
 .
-Container
+GetContainer
 (
 )
 =
 =
 aEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -1697,7 +1697,7 @@ ComputeRootNode
 (
 aEnd
 .
-Container
+GetContainer
 (
 )
 )
@@ -11162,7 +11162,7 @@ GetFrameForTextRect
 (
 focusRef
 .
-Container
+GetContainer
 (
 )
 focusRef
@@ -11969,7 +11969,7 @@ GetFrameForTextRect
 (
 nodePosition
 .
-Container
+GetContainer
 (
 )
 *
@@ -12393,7 +12393,7 @@ if
 (
 endPoint
 .
-Container
+GetContainer
 (
 )
 -
@@ -12481,7 +12481,7 @@ GetStartContainer
 =
 endPoint
 .
-Container
+GetContainer
 (
 )
 )
@@ -12490,7 +12490,7 @@ nextNodeOfRangeEnd
 =
 endPoint
 .
-Container
+GetContainer
 (
 )
 ;
@@ -12835,7 +12835,7 @@ GetFrameForTextRect
 (
 nodePosition
 .
-Container
+GetContainer
 (
 )
 *
@@ -13116,7 +13116,7 @@ nodePosition
 {
 nodePosition
 .
-Container
+GetContainer
 (
 )
 newNodePositionOffset
@@ -13130,7 +13130,7 @@ GetFrameForTextRect
 (
 nodePosition
 .
-Container
+GetContainer
 (
 )
 *
@@ -23715,14 +23715,14 @@ MOZ_ASSERT
 (
 aStartPosition
 .
-Container
+GetContainer
 (
 )
 =
 =
 endPosition
 .
-Container
+GetContainer
 (
 )
 "
@@ -23799,7 +23799,7 @@ kValidOrInvalidOffsets
 =
 endPosition
 .
-Container
+GetContainer
 (
 )
 -
@@ -23833,7 +23833,7 @@ Init
 (
 aStartPosition
 .
-Container
+GetContainer
 (
 )
 )
@@ -23924,7 +23924,7 @@ if
 (
 endPosition
 .
-Container
+GetContainer
 (
 )
 !
@@ -23943,7 +23943,7 @@ if
 (
 endPosition
 .
-Container
+GetContainer
 (
 )
 -
@@ -23985,7 +23985,7 @@ firstChild
 =
 endPosition
 .
-Container
+GetContainer
 (
 )
 -
@@ -24044,7 +24044,7 @@ NS_WARN_IF
 !
 endPosition
 .
-Container
+GetContainer
 (
 )
 -
@@ -24066,7 +24066,7 @@ parentContent
 =
 endPosition
 .
-Container
+GetContainer
 (
 )
 -
@@ -24098,7 +24098,7 @@ After
 *
 endPosition
 .
-Container
+GetContainer
 (
 )
 -
@@ -24211,7 +24211,7 @@ if
 (
 endPosition
 .
-Container
+GetContainer
 (
 )
 !
@@ -24245,7 +24245,7 @@ SetEndAfter
 (
 endPosition
 .
-Container
+GetContainer
 (
 )
 )
@@ -24463,7 +24463,7 @@ node
 =
 endPosition
 .
-Container
+GetContainer
 (
 )
 )
@@ -24481,13 +24481,13 @@ here
 as
 endPosition
 .
-Container
+GetContainer
 (
 )
 is
+/
+/
 a
-/
-/
 nsINode
 :
 :
@@ -24586,7 +24586,7 @@ node
 =
 aStartPosition
 .
-Container
+GetContainer
 (
 )
 &
@@ -24631,7 +24631,7 @@ node
 =
 endPosition
 .
-Container
+GetContainer
 (
 )
 &
@@ -25047,7 +25047,7 @@ if
 !
 startPoint
 .
-Container
+GetContainer
 (
 )
 -
@@ -25142,7 +25142,7 @@ if
 !
 startPoint
 .
-Container
+GetContainer
 (
 )
 -
@@ -25172,7 +25172,7 @@ RawRangeBoundary
 (
 startPoint
 .
-Container
+GetContainer
 (
 )
 -

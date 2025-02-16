@@ -41317,7 +41317,7 @@ if
 (
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 =
@@ -41337,7 +41337,7 @@ IsDescendantOf
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 *
@@ -41541,7 +41541,7 @@ if
 (
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 =
@@ -41561,7 +41561,7 @@ IsDescendantOf
 *
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 *
@@ -69975,14 +69975,14 @@ startContainerElement
 =
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 &
 &
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 -
@@ -69993,7 +69993,7 @@ IsContent
 ?
 atStartOfSelection
 .
-Container
+GetContainer
 (
 )
 -

@@ -744,7 +744,7 @@ ComputeRootNode
 (
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -754,7 +754,7 @@ ComputeRootNode
 (
 aEndBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -1552,7 +1552,7 @@ ComparePoints_AllowNegativeOffsets
 (
 aStartBoundary
 .
-Container
+GetContainer
 (
 )
 *
@@ -1620,7 +1620,7 @@ ComparePointsWithIndices
 (
 aEndBoundary
 .
-Container
+GetContainer
 (
 )
 *

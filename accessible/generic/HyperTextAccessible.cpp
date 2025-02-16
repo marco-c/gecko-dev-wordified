@@ -6231,7 +6231,7 @@ if
 !
 precedingBoundary
 .
-Container
+GetContainer
 (
 )
 -
@@ -6257,7 +6257,7 @@ DOMPointToOffset
 (
 precedingBoundary
 .
-Container
+GetContainer
 (
 )
 AssertedCast
@@ -6287,7 +6287,7 @@ if
 !
 followingBoundary
 .
-Container
+GetContainer
 (
 )
 -
@@ -6315,7 +6315,7 @@ DOMPointToOffset
 (
 followingBoundary
 .
-Container
+GetContainer
 (
 )
 AssertedCast

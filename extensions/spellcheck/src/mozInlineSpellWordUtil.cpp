@@ -849,7 +849,7 @@ if
 (
 aRangeBoundary
 .
-Container
+GetContainer
 (
 )
 !

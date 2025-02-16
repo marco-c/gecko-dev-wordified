@@ -1458,7 +1458,7 @@ if
 *
 mOffset
 >
-Container
+GetContainer
 (
 )
 -
@@ -1502,7 +1502,7 @@ if
 mOffset
 =
 =
-Container
+GetContainer
 (
 )
 -
@@ -1635,7 +1635,7 @@ mRef
 }
 RawParentType
 *
-Container
+GetContainer
 (
 )
 const
@@ -2324,7 +2324,7 @@ mIsMutationObserved
 *
 mOffset
 >
-Container
+GetContainer
 (
 )
 -
@@ -2493,7 +2493,7 @@ mParent
 <
 aRangeBoundary
 .
-Container
+GetContainer
 (
 )
 ;
@@ -2501,7 +2501,7 @@ if
 (
 aRangeBoundary
 .
-Container
+GetContainer
 (
 )
 )
@@ -2517,7 +2517,7 @@ aStream
 *
 aRangeBoundary
 .
-Container
+GetContainer
 (
 )
 <
@@ -2532,7 +2532,7 @@ Length
 <
 aRangeBoundary
 .
-Container
+GetContainer
 (
 )
 -
@@ -3169,7 +3169,7 @@ GetParentNode
 )
 =
 =
-Container
+GetContainer
 (
 )
 &
@@ -3199,7 +3199,7 @@ return
 mOffset
 <
 =
-Container
+GetContainer
 (
 )
 -
@@ -3325,7 +3325,7 @@ last
 /
 child
 in
-Container
+GetContainer
 (
 )
 or
@@ -3395,7 +3395,7 @@ value
 )
 =
 =
-Container
+GetContainer
 (
 )
 -
