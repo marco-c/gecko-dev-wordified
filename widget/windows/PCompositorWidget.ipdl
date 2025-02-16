@@ -268,11 +268,6 @@ TransparencyMode
 aMode
 )
 ;
-sync
-ClearTransparentWindow
-(
-)
-;
 async
 __delete__
 (

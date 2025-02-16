@@ -227,12 +227,6 @@ TransparencyMode
 )
 override
 ;
-void
-ClearTransparentWindow
-(
-)
-override
-;
 mozilla
 :
 :

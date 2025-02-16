@@ -256,14 +256,6 @@ aMode
 =
 0
 ;
-virtual
-void
-ClearTransparentWindow
-(
-)
-=
-0
-;
 /
 /
 Deliver
