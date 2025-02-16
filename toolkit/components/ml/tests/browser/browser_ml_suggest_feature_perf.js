@@ -98,7 +98,7 @@ memory
 unit
 :
 "
-MB
+MiB
 "
 shouldAlert
 :
