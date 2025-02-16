@@ -87,12 +87,6 @@ consistency
 "
 "
 "
-import
-mozpack
-.
-path
-as
-mozpath
 from
 taskgraph
 .
@@ -350,17 +344,6 @@ get_artifact_prefix
 taskdesc
 )
     
-#
-{
-task_workdir
-}
-gets
-interpolated
-in
-run
--
-task
-    
 taskdesc
 [
 "
@@ -382,18 +365,7 @@ UPLOAD_DIR
 "
 ]
 =
-f
-"
-{
-{
-task_workdir
-}
-}
-/
-{
 path
-}
-"
     
 add_artifacts
 (
@@ -686,6 +658,8 @@ is_win
 checkoutdir
 =
 "
+.
+/
 build
 "
         
@@ -823,6 +797,8 @@ else
 checkoutdir
 =
 "
+.
+/
 checkouts
 "
         
@@ -876,8 +852,6 @@ cache_name
 =
 get_cache_name
     
-env
-=
 taskdesc
 [
 "
@@ -893,8 +867,6 @@ env
 {
 }
 )
-    
-env
 .
 update
 (
@@ -950,57 +922,22 @@ hgstore
     
 )
     
-if
-"
-GECKO_PATH
-"
-in
-env
-:
-        
-gecko_path
-=
-env
+taskdesc
 [
 "
-GECKO_PATH
+worker
 "
 ]
-    
-else
-:
-        
-gecko_path
-=
-geckodir
-        
-#
-{
-task_workdir
-}
-is
-interpolated
-by
-run
--
-task
-script
-        
-env
 [
 "
-GECKO_PATH
+env
 "
 ]
-=
-mozpath
 .
-join
+setdefault
 (
 "
-{
-task_workdir
-}
+GECKO_PATH
 "
 geckodir
 )
@@ -1237,9 +1174,6 @@ proxy
 ]
 =
 True
-    
-return
-gecko_path
 def
 setup_secrets
 (

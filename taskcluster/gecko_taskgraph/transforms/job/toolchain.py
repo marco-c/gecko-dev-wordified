@@ -2009,6 +2009,33 @@ build
 src
 "
     
+elif
+job
+[
+"
+worker
+"
+]
+[
+"
+os
+"
+]
+=
+=
+"
+windows
+"
+:
+        
+gecko_path
+=
+"
+%
+GECKO_PATH
+%
+"
+    
 else
 :
         
