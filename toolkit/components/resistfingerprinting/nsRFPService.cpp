@@ -2168,10 +2168,6 @@ false
 endif
 if
 (
-!
-aSkipChromePrincipalCheck
-&
-&
 IsJSContextCurrentlyChromePrivileged
 (
 )
