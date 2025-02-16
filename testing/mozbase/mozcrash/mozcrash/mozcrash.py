@@ -1307,6 +1307,27 @@ const
 )
 "
     
+#
+This
+also
+appears
+as
+an
+inlined
+function
+after
+bug
+1858670
+    
+"
+MOZ_CrashSequence
+(
+void
+*
+long
+)
+"
+    
 "
 <
 alloc
