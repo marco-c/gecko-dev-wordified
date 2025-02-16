@@ -5672,14 +5672,6 @@ exponent
 .
 masm
 .
-movePtr
-(
-output
-temp
-)
-;
-masm
-.
 rshiftPtr
 (
 Imm32
@@ -5695,6 +5687,7 @@ double
 :
 kExponentShift
 )
+output
 temp
 )
 ;
