@@ -8253,8 +8253,7 @@ StylePositionProperty
 :
 Fixed
 )
--
->
+.
 IsAuto
 (
 )
@@ -8283,8 +8282,7 @@ StylePositionProperty
 :
 Fixed
 )
--
->
+.
 IsAuto
 (
 )
@@ -8313,8 +8311,7 @@ StylePositionProperty
 :
 Fixed
 )
--
->
+.
 IsAuto
 (
 )
@@ -8343,8 +8340,7 @@ StylePositionProperty
 :
 Fixed
 )
--
->
+.
 IsAuto
 (
 )
