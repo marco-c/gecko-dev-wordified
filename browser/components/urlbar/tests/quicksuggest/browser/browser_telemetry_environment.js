@@ -827,9 +827,6 @@ QuickSuggest
 updateFirefoxSuggestScenario
 (
 {
-isStartup
-:
-true
 scenario
 :
 "
@@ -1004,11 +1001,6 @@ QuickSuggest
 .
 updateFirefoxSuggestScenario
 (
-{
-isStartup
-:
-true
-}
 )
 ;
 await
