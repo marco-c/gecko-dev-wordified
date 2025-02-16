@@ -1216,7 +1216,7 @@ session
 width
 "
 :
-500
+550
 .
 5
 "
@@ -1248,7 +1248,7 @@ width
 ]
 =
 =
-500
+550
     
 assert
 value
@@ -1271,7 +1271,7 @@ session
 width
 "
 :
-500
+550
 "
 height
 "
@@ -1303,7 +1303,7 @@ width
 ]
 =
 =
-500
+550
     
 assert
 value
@@ -3007,7 +3007,10 @@ x
 ]
 <
 =
+minimal_screen_position
+[
 0
+]
             
 assert
 value
@@ -3018,7 +3021,10 @@ y
 ]
 <
 =
-0
+minimal_screen_position
+[
+1
+]
     
 #
 On
