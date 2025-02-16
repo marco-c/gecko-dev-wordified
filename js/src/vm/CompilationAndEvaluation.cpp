@@ -1103,7 +1103,9 @@ getInitial
 )
 -
 >
-asmJS
+hasAsmJS
+(
+)
 )
 {
 return
