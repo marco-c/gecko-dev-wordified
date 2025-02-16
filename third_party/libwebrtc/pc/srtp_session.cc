@@ -292,6 +292,15 @@ srtp_priv
 .
 h
 "
+#
+ifndef
+SRTP_SRCTP_INDEX_LEN
+#
+define
+SRTP_SRCTP_INDEX_LEN
+4
+#
+endif
 namespace
 cricket
 {
