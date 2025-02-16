@@ -165,11 +165,9 @@ task
 "
         
 #
-Whether
-or
-not
-to
-use
+Use
+the
+specified
 caches
 .
         
