@@ -135,9 +135,14 @@ shouldWork
 let
 searchBar
 =
-BrowserSearch
+document
 .
-searchBar
+getElementById
+(
+"
+searchbar
+"
+)
 ;
 let
 rootDir

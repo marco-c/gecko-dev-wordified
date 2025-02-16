@@ -175,9 +175,14 @@ document
 let
 searchInput
 =
-BrowserSearch
+doc
 .
-searchBar
+getElementById
+(
+"
+searchbar
+"
+)
 .
 textbox
 ;

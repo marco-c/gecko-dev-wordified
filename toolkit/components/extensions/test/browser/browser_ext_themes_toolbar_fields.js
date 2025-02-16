@@ -267,9 +267,14 @@ urlbar
 background
 "
 )
-BrowserSearch
+document
 .
-searchBar
+getElementById
+(
+"
+searchbar
+"
+)
 ]
 .
 filter

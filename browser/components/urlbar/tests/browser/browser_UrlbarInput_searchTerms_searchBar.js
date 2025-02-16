@@ -340,6 +340,9 @@ openNewForegroundTab
 gBrowser
 )
 ;
+let
+searchBar
+=
 await
 gCUITestUtils
 .
@@ -375,13 +378,6 @@ q
 SEARCH_STRING
 }
 )
-;
-let
-searchBar
-=
-BrowserSearch
-.
-searchBar
 ;
 searchBar
 .

@@ -103,6 +103,9 @@ _getDOMWindowUtils
 window
 )
 ;
+let
+searchBar
+;
 add_task
 (
 async
@@ -111,6 +114,8 @@ test_setup
 (
 )
 {
+searchBar
+=
 await
 gCUITestUtils
 .
@@ -149,8 +154,6 @@ BrowserTestUtils
 .
 waitForEvent
 (
-BrowserSearch
-.
 searchBar
 .
 textbox
@@ -159,8 +162,6 @@ focus
 "
 )
 ;
-BrowserSearch
-.
 searchBar
 .
 textbox
@@ -169,8 +170,6 @@ focus
 (
 )
 ;
-BrowserSearch
-.
 searchBar
 .
 textbox
@@ -352,8 +351,6 @@ event
 )
 ;
 }
-BrowserSearch
-.
 searchBar
 .
 textbox
@@ -381,8 +378,6 @@ XYZ
 ;
 is
 (
-BrowserSearch
-.
 searchBar
 .
 textbox
@@ -487,8 +482,6 @@ cancelable
 "
 )
 ;
-BrowserSearch
-.
 searchBar
 .
 textbox
@@ -501,8 +494,6 @@ beforeinput
 logEvent
 )
 ;
-BrowserSearch
-.
 searchBar
 .
 textbox
@@ -1030,8 +1021,6 @@ element
 ;
 is
 (
-BrowserSearch
-.
 searchBar
 .
 textbox
@@ -1562,8 +1551,6 @@ editor
 ;
 is
 (
-BrowserSearch
-.
 searchBar
 .
 textbox

@@ -94,9 +94,14 @@ searchBar
 =
 win
 .
-BrowserSearch
+document
 .
-searchBar
+getElementById
+(
+"
+searchbar
+"
+)
 ;
 searchPopup
 =

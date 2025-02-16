@@ -45,6 +45,9 @@ mjs
 let
 suggestionEngine
 ;
+let
+searchBar
+;
 function
 checkHistogramResults
 (
@@ -192,8 +195,6 @@ clickOptions
 let
 richlistbox
 =
-BrowserSearch
-.
 searchBar
 .
 textbox
@@ -270,6 +271,8 @@ function
 (
 )
 {
+searchBar
+=
 await
 gCUITestUtils
 .
