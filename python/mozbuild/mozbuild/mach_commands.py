@@ -10845,7 +10845,7 @@ True
 #
 verify_android_device
 respects
-DEVICE_SERIAL
+ANDROID_SERIAL
 if
 it
 is
@@ -10898,7 +10898,7 @@ environ
 get
 (
 "
-DEVICE_SERIAL
+ANDROID_SERIAL
 "
 )
     

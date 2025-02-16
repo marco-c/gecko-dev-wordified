@@ -246,7 +246,7 @@ environ
 get
 (
 "
-DEVICE_SERIAL
+ANDROID_SERIAL
 "
 None
 )
