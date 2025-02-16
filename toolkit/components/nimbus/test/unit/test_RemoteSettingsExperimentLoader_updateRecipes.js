@@ -10625,6 +10625,9 @@ in
 -
 desc
 "
+firefoxLabsDescriptionLinks
+:
+null
 firefoxLabsGroup
 :
 "
@@ -10718,6 +10721,9 @@ in
 -
 desc
 "
+firefoxLabsDescriptionLinks
+:
+null
 firefoxLabsGroup
 :
 "
@@ -11023,6 +11029,9 @@ in
 -
 desc
 "
+firefoxLabsDescriptionLinks
+:
+null
 firefoxLabsGroup
 :
 "
@@ -11379,6 +11388,9 @@ in
 -
 desc
 "
+firefoxLabsDescriptionLinks
+:
+null
 firefoxLabsGroup
 :
 "
@@ -11698,6 +11710,9 @@ in
 -
 desc
 "
+firefoxLabsDescriptionLinks
+:
+null
 firefoxLabsGroup
 :
 "
@@ -12022,6 +12037,9 @@ in
 -
 desc
 "
+firefoxLabsDescriptionLinks
+:
+null
 firefoxLabsGroup
 :
 "

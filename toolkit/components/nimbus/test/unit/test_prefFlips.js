@@ -2706,6 +2706,11 @@ assertEmptyStore
 manager
 .
 store
+{
+cleanup
+:
+true
+}
 )
 ;
 assertNoObservers
@@ -9617,6 +9622,11 @@ assertEmptyStore
 manager
 .
 store
+{
+cleanup
+:
+true
+}
 )
 ;
 assertNoObservers
@@ -12151,6 +12161,11 @@ assertEmptyStore
 manager
 .
 store
+{
+cleanup
+:
+true
+}
 )
 ;
 assertNoObservers
