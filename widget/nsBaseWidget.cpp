@@ -4025,14 +4025,14 @@ LayoutDeviceIntSize
 nsIWidget
 :
 :
-ClientToWindowSizeDifference
+NormalSizeModeClientToWindowSizeDifference
 (
 )
 {
 auto
 margin
 =
-ClientToWindowMargin
+NormalSizeModeClientToWindowMargin
 (
 )
 ;

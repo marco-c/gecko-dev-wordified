@@ -1653,7 +1653,7 @@ WidgetToScreenOffset
 override
 ;
 LayoutDeviceIntMargin
-ClientToWindowMargin
+NormalSizeModeClientToWindowMargin
 (
 )
 override

@@ -1337,7 +1337,7 @@ GetClientOffset
 override
 ;
 LayoutDeviceIntMargin
-ClientToWindowMargin
+NormalSizeModeClientToWindowMargin
 (
 )
 override
