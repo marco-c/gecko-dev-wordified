@@ -333,9 +333,9 @@ requestToken
 )
 ;
 }
-analyzeContentRequest
+analyzeContentRequests
 (
-aRequest
+aRequests
 aAutoAcknowledge
 )
 {
@@ -353,9 +353,9 @@ this
 .
 realCAService
 .
-analyzeContentRequest
+analyzeContentRequests
 (
-aRequest
+aRequests
 aAutoAcknowledge
 )
 ;
