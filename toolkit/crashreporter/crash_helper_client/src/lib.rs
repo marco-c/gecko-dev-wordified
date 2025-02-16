@@ -565,6 +565,11 @@ helper_name
 *
 const
 BreakpadChar
+user_app_data_dir
+:
+*
+const
+BreakpadChar
 minidump_path
 :
 *
@@ -598,6 +603,7 @@ CrashHelperClient
 new
 (
 helper_name
+user_app_data_dir
 )
 {
 let
