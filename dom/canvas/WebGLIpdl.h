@@ -1141,7 +1141,7 @@ MOZ_RELEASE_ASSERT
 !
 in
 .
-dataSurf
+sourceSurf
 )
 ;
 WriteParam

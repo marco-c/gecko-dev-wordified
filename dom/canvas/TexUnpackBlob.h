@@ -233,6 +233,10 @@ TexUnpackBlobDesc
 OptionalRenderableFormatBits
 bool
 sameColorSpace
+bool
+allowConversion
+=
+false
 )
 ;
 class
