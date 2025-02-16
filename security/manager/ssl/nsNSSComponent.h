@@ -293,12 +293,10 @@ define
 NS_NSSCOMPONENT_CID
 \
 {
-\
 0x4cb64dfd
 0xca98
 0x4e24
 {
-\
 0xbe
 0xfd
 0x0d
@@ -307,9 +305,7 @@ NS_NSSCOMPONENT_CID
 0xa3
 0x3b
 0xcb
-\
 }
-\
 }
 bool
 EnsureNSSInitializedChromeOrContent
@@ -513,8 +509,6 @@ PrepareForShutdown
 void
 setValidationOptions
 (
-bool
-isInitialSetting
 const
 mozilla
 :
