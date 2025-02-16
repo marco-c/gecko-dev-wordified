@@ -395,8 +395,7 @@ id
 =
 '
 /
-Response
-Headers
+responseHeaders
 '
 ]
 "
