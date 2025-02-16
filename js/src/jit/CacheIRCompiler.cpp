@@ -14311,17 +14311,6 @@ ValueType
 :
 Object
 :
-#
-ifdef
-ENABLE_RECORD_TUPLE
-case
-ValueType
-:
-:
-ExtendedPrimitive
-:
-#
-endif
 MOZ_CRASH
 (
 "

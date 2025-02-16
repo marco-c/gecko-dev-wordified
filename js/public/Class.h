@@ -5520,13 +5520,6 @@ Only
 JSFunction
 objects
 .
-#
-ifdef
-ENABLE_RECORD_TUPLE
-Record
-Tuple
-#
-endif
 /
 *
 *
