@@ -820,7 +820,7 @@ arch
 ;
 /
 /
-Intialize
+Initialize
 b_Q14
 variables
 b_Q14_0
@@ -860,7 +860,7 @@ b_Q14
 ;
 /
 /
-Intialize
+Initialize
 a_Q12
 variables
 a_Q12_0

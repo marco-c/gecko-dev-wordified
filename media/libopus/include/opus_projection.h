@@ -3095,7 +3095,7 @@ OPUS_ARG_NONNULL
 /
 *
 *
-Intialize
+Initialize
 a
 previously
 allocated
