@@ -7148,6 +7148,14 @@ show
 sidebars
 "
 ;
+toolbarButton
+.
+checked
+=
+this
+.
+isOpen
+;
 }
 else
 {
