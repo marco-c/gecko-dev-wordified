@@ -443,6 +443,15 @@ FeedbackParam
 param
 )
 ;
+bool
+Remove
+(
+const
+FeedbackParam
+&
+param
+)
+;
 void
 Intersect
 (
