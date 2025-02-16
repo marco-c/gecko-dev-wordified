@@ -94,6 +94,13 @@ MODULES_AUDIO_CODING_NETEQ_TOOLS_INPUT_AUDIO_FILE_H_
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
