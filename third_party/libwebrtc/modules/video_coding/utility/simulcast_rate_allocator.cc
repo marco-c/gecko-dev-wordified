@@ -2036,7 +2036,11 @@ DefaultTemporalLayerAllocation
 int
 bitrate_kbps
 int
+/
+*
 max_bitrate_kbps
+*
+/
 int
 simulcast_id
 )

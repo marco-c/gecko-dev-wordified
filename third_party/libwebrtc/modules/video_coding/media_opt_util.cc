@@ -3208,7 +3208,11 @@ EffectivePacketLoss
 const
 VCMProtectionParameters
 *
+/
+*
 parameters
+*
+/
 )
 {
 /

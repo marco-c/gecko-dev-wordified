@@ -1883,7 +1883,11 @@ GetCandidateStatsFromReadyPorts
 (
 CandidateStatsList
 *
+/
+*
 candidate_stats_list
+*
+/
 )
 const
 {
@@ -1949,7 +1953,11 @@ optional
 int
 >
 &
+/
+*
 stun_keepalive_interval
+*
+/
 )
 {
 }
@@ -3093,7 +3101,11 @@ rtc
 NetworkMask
 >
 &
+/
+*
 vpn_list
+*
+/
 )
 {
 }

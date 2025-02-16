@@ -1765,7 +1765,11 @@ PacketOptions
 &
 options
 int
+/
+*
 flags
+*
+/
 )
 override
 {

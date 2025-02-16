@@ -688,9 +688,17 @@ message_id
 ]
 (
 Timestamp
+/
+*
 now
+*
+/
 size_t
+/
+*
 max_size
+*
+/
 )
 {
 return

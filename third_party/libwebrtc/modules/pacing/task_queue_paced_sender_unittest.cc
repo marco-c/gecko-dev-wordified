@@ -1723,7 +1723,11 @@ packet
 const
 PacedPacketInfo
 &
+/
+*
 cluster_info
+*
+/
 )
 {
 if

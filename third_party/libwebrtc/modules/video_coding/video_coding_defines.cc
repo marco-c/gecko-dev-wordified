@@ -108,7 +108,11 @@ VCMReceiveCallback
 OnDroppedFrames
 (
 uint32_t
+/
+*
 frames_dropped
+*
+/
 )
 {
 }
@@ -119,7 +123,11 @@ VCMReceiveCallback
 OnIncomingPayloadType
 (
 int
+/
+*
 payload_type
+*
+/
 )
 {
 }

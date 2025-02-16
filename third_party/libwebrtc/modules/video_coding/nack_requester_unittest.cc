@@ -258,7 +258,11 @@ uint16_t
 &
 sequence_numbers
 bool
+/
+*
 buffering_allowed
+*
+/
 )
 override
 {
@@ -1755,7 +1759,11 @@ uint16_t
 &
 sequence_numbers
 bool
+/
+*
 buffering_allowed
+*
+/
 )
 override
 {
