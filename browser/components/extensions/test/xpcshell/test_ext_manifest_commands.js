@@ -356,6 +356,7 @@ of
 validShortcuts
 )
 {
+await
 validateShortcut
 (
 shortcut
@@ -371,6 +372,7 @@ of
 invalidShortcuts
 )
 {
+await
 validateShortcut
 (
 shortcut
