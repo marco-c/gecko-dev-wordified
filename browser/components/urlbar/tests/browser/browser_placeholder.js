@@ -2303,6 +2303,9 @@ BrowserUtils
 .
 callModulesFromCategory
 (
+{
+categoryName
+:
 "
 search
 -
@@ -2310,6 +2313,7 @@ service
 -
 notification
 "
+}
 "
 search
 -
