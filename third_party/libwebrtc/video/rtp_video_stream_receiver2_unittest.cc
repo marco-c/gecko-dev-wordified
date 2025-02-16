@@ -11567,6 +11567,12 @@ GetDefaultH265VideoHeader
 (
 )
 ;
+video_header
+.
+is_first_packet_in_frame
+=
+true
+;
 mock_on_complete_frame_callback_
 .
 AppendExpectedBitstream
@@ -11605,6 +11611,12 @@ SetSequenceNumber
 (
 1
 )
+;
+video_header
+.
+is_first_packet_in_frame
+=
+false
 ;
 mock_on_complete_frame_callback_
 .

@@ -589,7 +589,7 @@ Insert
 start
 code
 and
-paramter
+parameter
 sets
 for
 H
