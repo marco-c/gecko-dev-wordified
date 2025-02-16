@@ -1581,6 +1581,15 @@ mOutOfFlowFrame
 >
 ListTag
 (
+aFlags
+.
+contains
+(
+ListFlag
+:
+:
+OnlyListDeterministicInfo
+)
 )
 ;
 }

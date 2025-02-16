@@ -3370,6 +3370,7 @@ ExtraContainerFrameInfo
 nsACString
 &
 aTo
+bool
 )
 const
 {

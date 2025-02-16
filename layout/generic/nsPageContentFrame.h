@@ -329,6 +329,8 @@ ExtraContainerFrameInfo
 nsACString
 &
 aTo
+bool
+aListOnlyDeterministic
 )
 const
 override
