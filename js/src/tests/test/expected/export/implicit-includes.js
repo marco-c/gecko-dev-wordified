@@ -38,13 +38,13 @@ file
 includes
 :
 [
-compareArray
+include
 .
 js
 deepEqual
 .
 js
-include
+compareArray
 .
 js
 ]
