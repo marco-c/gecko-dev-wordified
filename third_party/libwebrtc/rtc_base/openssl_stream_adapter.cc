@@ -2011,6 +2011,7 @@ rtc
 :
 ArrayView
 <
+const
 uint8_t
 >
 digest_val
