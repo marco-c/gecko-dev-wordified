@@ -954,6 +954,12 @@ test_single_window
 (
 )
 {
+TelemetryReportingPolicy
+.
+reset
+(
+)
+;
 clearAcceptedPolicy
 (
 )
