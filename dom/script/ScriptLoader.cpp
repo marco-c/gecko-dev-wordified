@@ -308,6 +308,10 @@ JS
 :
 :
 AbortCollectingDelazifications
+JS
+:
+:
+IsStencilCacheable
 #
 include
 "
@@ -19631,6 +19635,15 @@ Failed
 if
 (
 createCache
+&
+&
+JS
+:
+:
+IsStencilCacheable
+(
+stencil
+)
 )
 {
 MOZ_ASSERT
