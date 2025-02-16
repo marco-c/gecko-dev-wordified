@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+os
+import
 subprocess
 import
 sys
@@ -346,6 +348,19 @@ instead
 try
 :
         
+if
+os
+.
+environ
+.
+get
+(
+"
+BUILD_VERBOSE_LOG
+"
+)
+:
+            
 print
 (
 '
@@ -370,7 +385,7 @@ sys
 .
 stderr
 )
-        
+            
 sys
 .
 stderr
