@@ -46,8 +46,6 @@ css
 scroll
 -
 snap
--
-2
 /
 scroll
 -
@@ -198,8 +196,6 @@ css
 scroll
 -
 snap
--
-2
 /
 scroll
 -
@@ -246,8 +242,6 @@ css
 scroll
 -
 snap
--
-2
 /
 scroll
 -
