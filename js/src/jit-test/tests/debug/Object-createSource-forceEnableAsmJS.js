@@ -13,6 +13,11 @@ if
 wasmDebuggingEnabled
 (
 )
+gczeal
+(
+0
+)
+;
 const
 text
 =
