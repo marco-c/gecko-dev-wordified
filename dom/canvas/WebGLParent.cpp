@@ -1008,6 +1008,16 @@ surfSize
 .
 y
 ;
+const
+auto
+byteStride
+=
+4
+*
+surfSize
+.
+x
+;
 auto
 shmem
 =
@@ -1061,6 +1071,7 @@ ret
 =
 {
 surfSize
+byteStride
 Some
 (
 shmem

@@ -1104,6 +1104,9 @@ gfx
 IntSize
 &
 aSize
+uint32_t
+&
+aByteStride
 )
 ;
 void

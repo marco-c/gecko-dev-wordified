@@ -1495,6 +1495,11 @@ CommandEncoderId
 )
 ;
 }
+uint32_t
+stride
+=
+0
+;
 mozilla
 :
 :
@@ -1518,6 +1523,7 @@ buffer
 .
 shmem
 size
+stride
 )
 ;
 if
@@ -1561,6 +1567,12 @@ size
 .
 height
 )
+;
+buffer
+.
+byteStride
+=
+stride
 ;
 }
 break

@@ -4672,6 +4672,11 @@ surfSize
 {
 }
 ;
+size_t
+byteStride
+=
+0
+;
 Maybe
 <
 mozilla
