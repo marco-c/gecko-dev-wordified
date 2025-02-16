@@ -1129,7 +1129,7 @@ if
 StaticPrefs
 :
 :
-media_wmf_hevc_enabled
+media_hevc_enabled
 (
 )
 )
