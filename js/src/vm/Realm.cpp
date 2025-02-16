@@ -1993,6 +1993,13 @@ trace
 trc
 )
 ;
+baselineCompileQueue_
+.
+trace
+(
+trc
+)
+;
 }
 void
 ObjectRealm
