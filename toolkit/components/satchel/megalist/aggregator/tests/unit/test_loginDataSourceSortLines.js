@@ -64,6 +64,7 @@ strict
 const
 {
 LoginDataSource
+DISPLAY_MODES
 }
 =
 ChromeUtils
@@ -899,6 +900,14 @@ setLayout
 >
 {
 }
+setDisplayMode
+:
+(
+)
+=
+>
+{
+}
 }
 )
 ;
@@ -965,8 +974,11 @@ value
 ;
 header
 .
-executeSortByAlerts
+executeUpdateDisplayMode
 (
+DISPLAY_MODES
+.
+ALERTS
 )
 ;
 await
