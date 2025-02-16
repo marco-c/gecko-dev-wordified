@@ -22879,11 +22879,7 @@ Element
 /
 Heading_Elements
 #
-specify_font
--
-size_and_margin
--
-block_on_h1
+specifying_a_uniform_font_size_for_h1
 "
 _ns
 }
