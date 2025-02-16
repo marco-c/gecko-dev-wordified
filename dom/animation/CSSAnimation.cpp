@@ -1286,7 +1286,7 @@ if
 !
 mOwningElement
 .
-IsSet
+ShouldFireEvents
 (
 )
 )
