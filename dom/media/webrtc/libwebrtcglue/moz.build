@@ -248,6 +248,11 @@ WebrtcCallWrapper
 cpp
 "
 "
+WebrtcEnvironmentWrapper
+.
+cpp
+"
+"
 WebrtcGmpVideoCodec
 .
 cpp
