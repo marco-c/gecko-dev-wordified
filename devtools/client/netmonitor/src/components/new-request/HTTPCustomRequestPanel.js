@@ -184,11 +184,13 @@ client
 /
 shared
 /
-vendor
-/
-react
--
 redux
+/
+visibility
+-
+handler
+-
+connect
 .
 js
 "

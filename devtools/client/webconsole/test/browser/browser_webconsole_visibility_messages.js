@@ -381,11 +381,6 @@ done
 ;
 }
 }
-{
-ignoreVisibility
-:
-true
-}
 )
 ;
 }

@@ -195,6 +195,11 @@ VirtualizedTree
 .
 js
 "
+"
+VisibilityHandler
+.
+js
+"
 )
 MOCHITEST_CHROME_MANIFESTS
 +
