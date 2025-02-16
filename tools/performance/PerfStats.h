@@ -529,6 +529,16 @@ MACRO
 (
 A11Y_ShowEvent
 )
+\
+MACRO
+(
+A11Y_RecvCache
+)
+\
+MACRO
+(
+A11Y_ProcessShowEvent
+)
 namespace
 mozilla
 {
