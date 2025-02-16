@@ -745,6 +745,12 @@ wasm
 Decoder
 *
 decoder
+jit
+:
+:
+IonPerfSpewer
+*
+spewer
 )
 ;
 [
