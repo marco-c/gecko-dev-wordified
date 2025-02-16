@@ -1790,7 +1790,7 @@ uint32_t
 (
 kCallStats
 .
-packetsReceived
+packets_received
 )
 stats
 .
@@ -1801,7 +1801,7 @@ EXPECT_EQ
 (
 kCallStats
 .
-cumulativeLost
+packets_lost
 stats
 .
 packets_lost
@@ -1823,17 +1823,7 @@ EXPECT_EQ
 (
 kCallStats
 .
-jitterSamples
-/
-(
-kReceiveCodec
-.
-second
-.
-clockrate_hz
-/
-1000
-)
+jitter_ms
 stats
 .
 jitter_ms
@@ -2332,7 +2322,7 @@ EXPECT_EQ
 (
 kCallStats
 .
-capture_start_ntp_time_ms_
+capture_start_ntp_time_ms
 stats
 .
 capture_start_ntp_time_ms
