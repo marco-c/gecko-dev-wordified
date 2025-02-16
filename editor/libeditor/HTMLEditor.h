@@ -5671,9 +5671,6 @@ nsresult
 >
 InsertTextWithTransaction
 (
-Document
-&
-aDocument
 const
 nsAString
 &

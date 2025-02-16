@@ -11154,15 +11154,6 @@ it
 *
 *
 param
-aDocument
-The
-document
-of
-this
-editor
-.
-*
-param
 aStringToInsert
 The
 string
@@ -11232,9 +11223,6 @@ nsresult
 >
 InsertTextWithTransaction
 (
-Document
-&
-aDocument
 const
 nsAString
 &
