@@ -728,11 +728,6 @@ ResetDevices
 (
 )
 ;
-void
-InitializeDirectDraw
-(
-)
-;
 /
 /
 Reset
@@ -1328,15 +1323,6 @@ MOZ_GUARDED_BY
 (
 mDeviceLock
 )
-;
-nsModuleHandle
-mDirectDrawDLL
-;
-RefPtr
-<
-IDirectDraw7
->
-mDirectDraw
 ;
 }
 ;
