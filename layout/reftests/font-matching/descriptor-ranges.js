@@ -1008,9 +1008,6 @@ oblique
 -
 30deg
 "
-"
-italic
-"
 ]
 }
 {
@@ -1096,6 +1093,9 @@ oblique
 10deg
 "
 "
+italic
+"
+"
 oblique
 0deg
 "
@@ -1112,9 +1112,6 @@ oblique
 40deg
 -
 30deg
-"
-"
-italic
 "
 ]
 }
@@ -1151,6 +1148,9 @@ oblique
 10deg
 "
 "
+italic
+"
+"
 oblique
 0deg
 "
@@ -1167,9 +1167,6 @@ oblique
 40deg
 -
 30deg
-"
-"
-italic
 "
 ]
 }
@@ -1207,6 +1204,9 @@ oblique
 50deg
 "
 "
+italic
+"
+"
 oblique
 0deg
 "
@@ -1223,9 +1223,6 @@ oblique
 40deg
 -
 30deg
-"
-"
-italic
 "
 ]
 }
@@ -1263,6 +1260,9 @@ oblique
 50deg
 "
 "
+italic
+"
+"
 oblique
 -
 50deg
@@ -1275,9 +1275,6 @@ oblique
 40deg
 -
 30deg
-"
-"
-italic
 "
 ]
 }
@@ -1330,6 +1327,9 @@ oblique
 40deg
 "
 "
+italic
+"
+"
 oblique
 0deg
 10deg
@@ -1338,9 +1338,6 @@ oblique
 oblique
 40deg
 50deg
-"
-"
-italic
 "
 ]
 }
@@ -1373,6 +1370,9 @@ oblique
 10deg
 "
 "
+italic
+"
+"
 oblique
 0deg
 "
@@ -1385,9 +1385,6 @@ oblique
 oblique
 40deg
 50deg
-"
-"
-italic
 "
 ]
 }
@@ -1420,6 +1417,9 @@ oblique
 10deg
 "
 "
+italic
+"
+"
 oblique
 0deg
 "
@@ -1432,9 +1432,6 @@ oblique
 oblique
 40deg
 50deg
-"
-"
-italic
 "
 ]
 }
