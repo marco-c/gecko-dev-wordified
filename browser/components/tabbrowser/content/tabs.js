@@ -7454,6 +7454,9 @@ draggedTab
 Move
 the
 tabs
+into
+this
+window
 .
 To
 avoid
@@ -7462,11 +7465,11 @@ tab
 -
 switches
 in
+/
+/
 the
 original
 window
-/
-/
 the
 selected
 tab
