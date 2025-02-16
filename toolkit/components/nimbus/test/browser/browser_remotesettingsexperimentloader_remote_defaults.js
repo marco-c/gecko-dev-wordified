@@ -1451,6 +1451,12 @@ timer
 ;
 RemoteSettingsExperimentLoader
 .
+_enabled
+=
+true
+;
+RemoteSettingsExperimentLoader
+.
 setTimer
 (
 )
@@ -1527,12 +1533,6 @@ un
 register
 the
 timer
-RemoteSettingsExperimentLoader
-.
-_enabled
-=
-true
-;
 RemoteSettingsExperimentLoader
 .
 disable
