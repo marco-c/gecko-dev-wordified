@@ -366,7 +366,7 @@ popup
 querySelector
 (
 "
-toolbarbutton
+menuitem
 [
 label
 =
@@ -530,7 +530,7 @@ popup
 querySelector
 (
 "
-toolbarbutton
+menuitem
 [
 label
 =
@@ -731,7 +731,7 @@ popup
 querySelector
 (
 "
-toolbarbutton
+menuitem
 [
 label
 =
@@ -885,7 +885,7 @@ popup
 querySelector
 (
 "
-toolbarbutton
+menuitem
 [
 label
 =
@@ -1087,7 +1087,7 @@ popup
 querySelector
 (
 "
-toolbarbutton
+menuitem
 [
 label
 =
@@ -1297,7 +1297,7 @@ popup
 querySelector
 (
 "
-toolbarbutton
+menuitem
 [
 label
 =
