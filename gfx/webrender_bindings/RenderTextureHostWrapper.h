@@ -354,6 +354,13 @@ AsRenderTextureHostSWGL
 )
 override
 ;
+RenderDMABUFTextureHost
+*
+AsRenderDMABUFTextureHost
+(
+)
+override
+;
 void
 SetIsSoftwareDecodedVideo
 (
