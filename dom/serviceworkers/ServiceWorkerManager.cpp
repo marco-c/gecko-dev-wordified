@@ -220,13 +220,6 @@ h
 #
 include
 "
-nsIPushService
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h
@@ -6940,9 +6933,6 @@ const
 nsACString
 &
 aScope
-nsIPushSubscription
-*
-aOldSubscription
 )
 {
 OriginAttributes
@@ -6994,7 +6984,6 @@ WorkerPrivate
 >
 SendPushSubscriptionChangeEvent
 (
-aOldSubscription
 )
 ;
 }

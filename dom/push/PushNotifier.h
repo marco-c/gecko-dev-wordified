@@ -841,9 +841,6 @@ aScope
 nsIPrincipal
 *
 aPrincipal
-nsIPushSubscription
-*
-aOldSubscription
 )
 ;
 ~
@@ -880,14 +877,6 @@ ContentParent
 aContentActor
 )
 override
-;
-private
-:
-nsCOMPtr
-<
-nsIPushSubscription
->
-mOldSubscription
 ;
 }
 ;
