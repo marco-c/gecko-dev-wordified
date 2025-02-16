@@ -73,6 +73,16 @@ windows
 )
 ]
 mod
+windows_targets
+;
+#
+[
+cfg
+(
+windows
+)
+]
+mod
 registry
 ;
 #
