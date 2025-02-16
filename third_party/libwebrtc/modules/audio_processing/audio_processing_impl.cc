@@ -2670,6 +2670,10 @@ CustomAudioAnalyzer
 capture_analyzer
 )
 :
+env_
+(
+env
+)
 data_dumper_
 (
 new
@@ -12154,6 +12158,7 @@ make_unique
 GainController2
 >
 (
+env_
 config_
 .
 gain_controller2
