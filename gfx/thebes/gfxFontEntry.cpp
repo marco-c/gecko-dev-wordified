@@ -9357,17 +9357,6 @@ l
 else
 if
 (
-aStyle
-.
-style
-!
-=
-StyleFontStyle
-:
-:
-NORMAL
-&
-&
 HasSlantVariation
 (
 )
