@@ -536,13 +536,6 @@ test
 extra_args
 =
 None
-debug_opts
-=
-"
-replace
--
-surrogates
-"
 )
 :
         
@@ -624,21 +617,6 @@ test_url
 test
 )
         
-]
-        
-if
-debug_opts
-:
-            
-args
-+
-=
-[
-"
--
-Z
-"
-debug_opts
 ]
         
 for
@@ -1579,14 +1557,6 @@ or
 "
 ]
             
-debug_opts
-=
-"
-replace
--
-surrogates
-"
-            
 if
 dpi
 :
@@ -1617,7 +1587,6 @@ build_servo_command
 (
 test
 extra_args
-debug_opts
 )
             
 if
