@@ -2296,7 +2296,7 @@ else
 {
 /
 /
-WebAuthnManager
+WebAuthnHandler
 :
 :
 MakeCredential

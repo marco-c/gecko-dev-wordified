@@ -191,7 +191,7 @@ PublicKeyCredential
 h
 "
 "
-WebAuthnManager
+WebAuthnHandler
 .
 h
 "
@@ -258,7 +258,7 @@ WebAuthnAutoFillEntry
 cpp
 "
 "
-WebAuthnManager
+WebAuthnHandler
 .
 cpp
 "
