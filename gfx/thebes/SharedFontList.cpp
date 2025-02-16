@@ -239,6 +239,15 @@ mStyle
 aStyle
 .
 style
+aStyle
+.
+synthesisStyle
+!
+=
+StyleFontSynthesisStyle
+:
+:
+ObliqueOnly
 )
 ;
 double

@@ -142,8 +142,12 @@ h
 /
 /
 for
-NS_FONT_SYNTHESIS_
-*
+NS_FONT_
+{
+SUB
+SUPER
+}
+SCRIPT_OFFSET_RATIO
 #
 include
 "
@@ -1027,12 +1031,6 @@ Auto
 aFont
 .
 synthesisStyle
-=
-=
-StyleFontSynthesisStyle
-:
-:
-Auto
 aFont
 .
 synthesisSmallCaps
