@@ -1333,6 +1333,9 @@ Factory
 CreateBGRA8DataSourceSurfaceForD3D11Texture
 (
 src
+0
+mColorSpace
+mColorRange
 )
 ;
 }
