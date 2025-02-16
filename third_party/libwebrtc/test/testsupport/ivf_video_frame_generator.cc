@@ -399,6 +399,14 @@ absl
 :
 string_view
 file_name
+std
+:
+:
+optional
+<
+int
+>
+fps_hint
 )
 :
 callback_
@@ -451,6 +459,10 @@ file_reader_
 GetFrameHeight
 (
 )
+)
+fps_hint_
+(
+fps_hint
 )
 {
 RTC_CHECK
