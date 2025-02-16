@@ -424,6 +424,11 @@ CompositorWidgetParent
 cpp
 "
 "
+DMABufFormats
+.
+cpp
+"
+"
 DMABufLibWrapper
 .
 cpp
@@ -641,11 +646,6 @@ UNIFIED_SOURCES
 +
 =
 [
-"
-DMABufFormats
-.
-cpp
-"
 "
 MozContainerWayland
 .
