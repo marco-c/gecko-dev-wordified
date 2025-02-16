@@ -782,7 +782,7 @@ SidebarController
 show
 (
 "
-viewMegalistSidebar
+viewCPMSidebar
 "
 )
 ;

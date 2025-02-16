@@ -1460,7 +1460,7 @@ await
 testSidebarToggle
 (
 "
-viewMegalistSidebar
+viewCPMSidebar
 "
 gleanEvent
 )
