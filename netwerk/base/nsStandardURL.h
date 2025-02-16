@@ -1798,8 +1798,6 @@ CheckIfHostIsAscii
 void
 CoalescePath
 (
-netCoalesceFlags
-coalesceFlag
 char
 *
 path
@@ -3546,10 +3544,12 @@ af5a
 /
 \
 0xb8e3e97b
-0x1ccd
-0x4b45
-{
 \
+0x1ccd
+\
+0x4b45
+\
+{
 0xaf
 0x5a
 0x79
@@ -3558,9 +3558,7 @@ af5a
 0x70
 0xf5
 0xd7
-\
 }
-\
 }
 /
 /
