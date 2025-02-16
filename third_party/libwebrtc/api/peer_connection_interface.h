@@ -12939,7 +12939,7 @@ org
 /
 369904700
 -
-Deprecate
+Delete
 audio_processing
 in
 favor
@@ -12948,9 +12948,11 @@ favor
 of
 audio_processing_builder
 .
-rtc
-:
-:
+[
+[
+deprecated
+]
+]
 scoped_refptr
 <
 AudioProcessing
