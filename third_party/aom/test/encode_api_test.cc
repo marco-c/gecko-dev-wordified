@@ -829,7 +829,7 @@ enc
 TEST
 (
 EncodeAPI
-TuneSsimulacra2NotAllIntra
+TuneIqNotAllIntra
 )
 {
 aom_codec_iface_t
@@ -879,7 +879,7 @@ aom_codec_control
 &
 enc
 AOME_SET_TUNING
-AOM_TUNE_SSIMULACRA2
+AOM_TUNE_IQ
 )
 AOM_CODEC_INCAPABLE
 )
@@ -6604,7 +6604,7 @@ AOM_CODEC_OK
 TEST
 (
 EncodeAPI
-AllIntraAndTuneSsimulacra2
+AllIntraAndTuneIq
 )
 {
 aom_codec_iface_t
@@ -6654,7 +6654,7 @@ aom_codec_control
 &
 enc
 AOME_SET_TUNING
-AOM_TUNE_SSIMULACRA2
+AOM_TUNE_IQ
 )
 AOM_CODEC_OK
 )

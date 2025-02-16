@@ -8593,7 +8593,8 @@ chosen
 empirically
 to
 maximize
-SSIMULACRA2
+SSIMULACRA
+2
 /
 /
 scores

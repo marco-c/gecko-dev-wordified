@@ -138,6 +138,15 @@ h
 #
 include
 "
+aom
+/
+aomcx
+.
+h
+"
+#
+include
+"
 aom_dsp
 /
 quantize
@@ -7448,7 +7457,7 @@ is_allintra
 tuning
 =
 =
-AOM_TUNE_SSIMULACRA2
+AOM_TUNE_IQ
 )
 {
 int
@@ -8435,7 +8444,7 @@ if
 tuning
 =
 =
-AOM_TUNE_SSIMULACRA2
+AOM_TUNE_IQ
 )
 {
 /
@@ -8448,11 +8457,10 @@ specifically
 tailored
 for
 tune
-SSIMULACRA
-2
+IQ
 get_luma_qmlevel
 =
-aom_get_qmlevel_luma_ssimulacra2
+aom_get_qmlevel_luma_iq
 ;
 if
 (
@@ -8545,7 +8553,7 @@ QM
 .
 get_chroma_qmlevel
 =
-aom_get_qmlevel_444_chroma_ssimulacra2
+aom_get_qmlevel_444_chroma_iq
 ;
 }
 else

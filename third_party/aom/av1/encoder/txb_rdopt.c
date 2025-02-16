@@ -2458,8 +2458,7 @@ plane_type
 /
 For
 the
-SSIMULACRA
-2
+IQ
 tune
 increase
 rshift
@@ -2484,7 +2483,7 @@ and
 together
 with
 the
-SSIMULACRA2
+IQ
 rdmult
 adjustment
 in
@@ -2533,7 +2532,7 @@ tune_cfg
 tuning
 =
 =
-AOM_TUNE_SSIMULACRA2
+AOM_TUNE_IQ
 ?
 4
 :

@@ -350,9 +350,9 @@ AOM_TUNE_VMAF_SALIENCY_MAP
 }
 {
 "
-ssimulacra2
+iq
 "
-AOM_TUNE_SSIMULACRA2
+AOM_TUNE_IQ
 }
 {
 NULL
@@ -3186,6 +3186,7 @@ enable
 "
 "
 adaptively
+based
 on
 frame
 qindex
