@@ -155,6 +155,12 @@ linux64
 "
                 
 "
+linux64
+-
+aarch64
+"
+                
+"
 osx
 "
                 
@@ -272,6 +278,12 @@ linux
                 
 "
 linux64
+"
+                
+"
+linux64
+-
+aarch64
 "
                 
 "
@@ -758,6 +770,12 @@ linux
                 
 "
 linux64
+"
+                
+"
+linux64
+-
+aarch64
 "
                 
 "
@@ -870,6 +888,12 @@ linux
                 
 "
 linux64
+"
+                
+"
+linux64
+-
+aarch64
 "
                 
 "
