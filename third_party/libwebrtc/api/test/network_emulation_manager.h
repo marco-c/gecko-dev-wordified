@@ -748,6 +748,11 @@ client_config
 EmulatedEndpointConfig
 peer_config
 ;
+bool
+enable_permission_checks
+=
+true
+;
 }
 ;
 /

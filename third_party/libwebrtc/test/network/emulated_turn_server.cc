@@ -788,6 +788,10 @@ EmulatedTURNServer
 :
 EmulatedTURNServer
 (
+const
+EmulatedTURNServerConfig
+&
+config
 std
 :
 :
@@ -851,6 +855,11 @@ get
 )
 [
 this
+enable_permission_checks
+=
+config
+.
+enable_permission_checks
 ]
 (
 )
@@ -906,6 +915,14 @@ turn_server_
 set_auth_hook
 (
 this
+)
+;
+turn_server_
+-
+>
+set_enable_permission_checks
+(
+enable_permission_checks
 )
 ;
 auto

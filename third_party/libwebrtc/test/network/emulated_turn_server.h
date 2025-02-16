@@ -323,6 +323,10 @@ thread
 .
 EmulatedTURNServer
 (
+const
+EmulatedTURNServerConfig
+&
+config
 std
 :
 :
