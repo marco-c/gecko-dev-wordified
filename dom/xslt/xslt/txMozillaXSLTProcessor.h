@@ -830,6 +830,8 @@ txStylesheet
 >
 mStylesheet
 ;
+RefPtr
+<
 mozilla
 :
 :
@@ -837,12 +839,9 @@ dom
 :
 :
 Document
-*
+>
 mStylesheetDocument
 ;
-/
-/
-weak
 nsCOMPtr
 <
 nsIContent
