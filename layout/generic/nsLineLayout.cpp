@@ -12007,6 +12007,8 @@ child
 spans
 the
 block
+-
+start
 edge
 is
 relative
@@ -12014,10 +12016,10 @@ to
 that
 of
 parent
+/
+/
 which
 is
-/
-/
 zero
 (
 since
@@ -12029,6 +12031,8 @@ empty
 See
 NOTE
 in
+/
+/
 nsLineLayout
 :
 :
