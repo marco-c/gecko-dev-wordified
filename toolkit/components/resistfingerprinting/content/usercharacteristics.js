@@ -6456,11 +6456,10 @@ getBoundingClientRect
 )
 .
 width
-*
-10
-*
-*
-15
+.
+toString
+(
+)
 ;
 return
 acc
