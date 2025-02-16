@@ -5354,7 +5354,7 @@ true
 }
 )
 ;
-selectContextMenuItem
+selectDebuggerContextMenuItem
 (
 dbg
 contextMenuItem
@@ -13790,7 +13790,7 @@ function
 /
 /
 completes
-selectContextMenuItem
+selectDebuggerContextMenuItem
 can
 be
 called
@@ -14038,7 +14038,7 @@ onHidden
 ;
 }
 function
-selectContextMenuItem
+selectDebuggerContextMenuItem
 (
 dbg
 selector
@@ -21448,7 +21448,7 @@ waitForContextMenu
 dbg
 )
 ;
-selectContextMenuItem
+selectDebuggerContextMenuItem
 (
 dbg
 {
@@ -22299,7 +22299,7 @@ menu
 item
 )
 ;
-selectContextMenuItem
+selectDebuggerContextMenuItem
 (
 dbg
 #
@@ -22697,7 +22697,7 @@ popuphidden
 "
 )
 ;
-selectContextMenuItem
+selectDebuggerContextMenuItem
 (
 dbg
 selector
