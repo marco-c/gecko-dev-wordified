@@ -21701,7 +21701,7 @@ int32_t
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 const
 nsINode
@@ -22873,9 +22873,7 @@ can
 /
 /
 use
-the
-other
-ComparePoints
+ComparePointsWithIndices
 (
 )
 which
@@ -22900,7 +22898,7 @@ HasOffset
 )
 {
 return
-ComparePoints
+ComparePointsWithIndices
 (
 aBoundary1
 .
@@ -23132,9 +23130,7 @@ implementation
 is
 similar
 to
-the
-other
-ComparePoints
+ComparePointsWithIndices
 (
 )
 but

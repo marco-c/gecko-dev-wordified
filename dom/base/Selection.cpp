@@ -20370,7 +20370,7 @@ anchorOldFocusOrder
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 anchorNode
 anchorOffset
@@ -20394,7 +20394,7 @@ oldFocusNewFocusOrder
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 focusNode
 focusOffset
@@ -20419,7 +20419,7 @@ anchorNewFocusOrder
 nsContentUtils
 :
 :
-ComparePoints
+ComparePointsWithIndices
 (
 anchorNode
 anchorOffset
