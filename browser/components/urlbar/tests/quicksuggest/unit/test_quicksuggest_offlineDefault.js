@@ -59,7 +59,7 @@ MPL
 /
 /
 Tests
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 in
@@ -449,7 +449,7 @@ and
 region
 calls
 *
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 and
@@ -642,7 +642,7 @@ async
 >
 {
 await
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 (

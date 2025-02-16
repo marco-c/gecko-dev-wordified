@@ -394,8 +394,8 @@ Get
 the
 prefs
 that
-UrlbarPrefs
-sets
+are
+set
 when
 the
 Suggest
@@ -452,9 +452,9 @@ Object
 .
 values
 (
-UrlbarPrefs
+QuickSuggest
 .
-FIREFOX_SUGGEST_UI_PREFS_BY_VARIABLE
+UI_PREFS_BY_VARIABLE
 )
 .
 .
@@ -463,9 +463,9 @@ Object
 .
 values
 (
-UrlbarPrefs
+QuickSuggest
 .
-FIREFOX_SUGGEST_DEFAULT_PREFS
+DEFAULT_PREFS
 )
 .
 map
@@ -822,7 +822,7 @@ are
 now
 .
 await
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 (
@@ -1000,7 +1000,7 @@ onInitialized
 )
 ;
 await
-UrlbarPrefs
+QuickSuggest
 .
 updateFirefoxSuggestScenario
 (
