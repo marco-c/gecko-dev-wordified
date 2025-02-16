@@ -17646,6 +17646,11 @@ KEYCODE_VOLUME_DOWN
 case
 KeyEvent
 .
+KEYCODE_VOLUME_MUTE
+:
+case
+KeyEvent
+.
 KEYCODE_SEARCH
 :
 /
