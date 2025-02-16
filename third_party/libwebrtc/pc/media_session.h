@@ -1939,7 +1939,7 @@ ssrc_generator_
 bool
 enable_encrypted_rtp_header_extensions_
 =
-false
+true
 ;
 const
 TransportDescriptionFactory
