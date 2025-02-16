@@ -17018,17 +17018,14 @@ g_profile
 }
 if
 (
-(
 global
 .
 show_psnr
 =
 =
 2
-)
 &
 &
-(
 stream
 -
 >
@@ -17039,6 +17036,10 @@ cfg
 g_input_bit_depth
 =
 =
+(
+unsigned
+int
+)
 stream
 -
 >
@@ -17047,7 +17048,6 @@ config
 cfg
 .
 g_bit_depth
-)
 )
 {
 fprintf

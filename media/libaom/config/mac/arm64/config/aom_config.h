@@ -139,6 +139,10 @@ AOM_ARCH_PPC
 0
 #
 define
+AOM_ARCH_RISCV
+0
+#
+define
 AOM_ARCH_X86
 0
 #
@@ -417,6 +421,10 @@ HAVE_NEON_DOTPROD
 define
 HAVE_NEON_I8MM
 1
+#
+define
+HAVE_RVV
+0
 #
 define
 HAVE_SSE
