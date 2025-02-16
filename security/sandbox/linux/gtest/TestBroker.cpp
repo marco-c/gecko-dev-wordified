@@ -336,7 +336,7 @@ Policy
 :
 AddAlways
 ;
-UniquePtr
+RefPtr
 <
 SandboxBroker
 >
@@ -5468,7 +5468,10 @@ ipc
 FileDescriptor
 fd
 ;
-auto
+RefPtr
+<
+SandboxBroker
+>
 broker
 =
 SandboxBroker
@@ -5490,6 +5493,9 @@ fd
 ASSERT_TRUE
 (
 broker
+!
+=
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -5499,6 +5505,13 @@ fd
 IsValid
 (
 )
+)
+;
+broker
+-
+>
+Terminate
+(
 )
 ;
 }
