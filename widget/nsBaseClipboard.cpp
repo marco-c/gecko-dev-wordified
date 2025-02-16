@@ -5884,10 +5884,7 @@ mozilla
 contentanalysis
 :
 :
-ContentAnalysis
-:
-:
-SafeContentAnalysisResultCallback
+ContentAnalysisCallback
 >
 (
 [
@@ -5905,12 +5902,8 @@ aCallback
 }
 ]
 (
-RefPtr
-<
 nsIContentAnalysisResult
->
-&
-&
+*
 aResult
 )
 {
