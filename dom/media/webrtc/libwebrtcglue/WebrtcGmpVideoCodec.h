@@ -1747,7 +1747,7 @@ constexpr
 size_t
 kMaxImagesInFlight
 =
-5
+1
 ;
 /
 /
