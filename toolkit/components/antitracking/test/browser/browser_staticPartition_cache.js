@@ -638,6 +638,8 @@ arg
 /
 The
 CSS
+/
+JS
 cache
 needs
 to
@@ -652,6 +654,14 @@ content
 windowUtils
 .
 clearSharedStyleSheetCache
+(
+)
+;
+content
+.
+windowUtils
+.
+clearSharedScriptCache
 (
 )
 ;
