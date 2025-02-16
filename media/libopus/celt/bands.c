@@ -1028,12 +1028,9 @@ EPSILON
 +
 VSHR32
 (
-EXTEND32
-(
 celt_sqrt
 (
 sum
-)
 )
 -
 shift
@@ -2309,6 +2306,8 @@ pulses
 opus_uint32
 seed
 int
+encode
+int
 arch
 )
 {
@@ -2597,6 +2596,10 @@ i
 ;
 if
 (
+!
+encode
+&
+&
 C
 =
 =

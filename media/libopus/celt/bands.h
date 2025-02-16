@@ -979,6 +979,8 @@ pulses
 opus_uint32
 seed
 int
+encode
+int
 arch
 )
 ;

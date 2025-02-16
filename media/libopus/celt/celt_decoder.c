@@ -1863,6 +1863,8 @@ chain
 /
 tmp0
 =
+SATURATE
+(
 x0
 [
 j
@@ -1871,9 +1873,13 @@ j
 VERY_SMALL
 +
 m0
+SIG_SAT
+)
 ;
 tmp1
 =
+SATURATE
+(
 x1
 [
 j
@@ -1882,6 +1888,8 @@ j
 VERY_SMALL
 +
 m1
+SIG_SAT
+)
 ;
 m0
 =
@@ -2179,6 +2187,8 @@ j
 celt_sig
 tmp
 =
+SATURATE
+(
 x
 [
 j
@@ -2187,6 +2197,8 @@ j
 m
 +
 VERY_SMALL
+SIG_SAT
+)
 ;
 m
 =
@@ -2273,6 +2285,8 @@ j
 celt_sig
 tmp
 =
+SATURATE
+(
 x
 [
 j
@@ -2281,6 +2295,8 @@ j
 VERY_SMALL
 +
 m
+SIG_SAT
+)
 ;
 m
 =
@@ -2346,6 +2362,8 @@ j
 celt_sig
 tmp
 =
+SATURATE
+(
 x
 [
 j
@@ -2354,6 +2372,8 @@ j
 m
 +
 VERY_SMALL
+SIG_SAT
+)
 ;
 m
 =
@@ -2414,6 +2434,8 @@ j
 celt_sig
 tmp
 =
+SATURATE
+(
 x
 [
 j
@@ -2422,6 +2444,8 @@ j
 VERY_SMALL
 +
 m
+SIG_SAT
+)
 ;
 m
 =
@@ -4704,6 +4728,13 @@ start
 #
 ifdef
 ENABLE_DEEP_PLC
+if
+(
+lpcnet
+!
+=
+NULL
+)
 noise_based
 =
 start
@@ -4736,8 +4767,9 @@ loss_duration
 )
 )
 ;
-#
 else
+#
+endif
 noise_based
 =
 loss_duration
@@ -4757,8 +4789,6 @@ st
 >
 skip_plc
 ;
-#
-endif
 if
 (
 noise_based
@@ -5224,6 +5254,12 @@ ifdef
 ENABLE_DEEP_PLC
 if
 (
+lpcnet
+!
+=
+NULL
+&
+&
 lpcnet
 -
 >
@@ -6828,6 +6864,12 @@ ifdef
 ENABLE_DEEP_PLC
 if
 (
+lpcnet
+!
+=
+NULL
+&
+&
 lpcnet
 -
 >
@@ -9693,6 +9735,7 @@ st
 -
 >
 rng
+0
 st
 -
 >
