@@ -1690,6 +1690,9 @@ mMaxPayloadSize
 bool
 mNeedKeyframe
 ;
+int
+mSyncLayerCap
+;
 const
 webrtc
 :
