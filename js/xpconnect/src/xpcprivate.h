@@ -16228,6 +16228,10 @@ originAttributes
 (
 cx
 )
+alwaysUseFdlibm
+(
+false
+)
 {
 }
 virtual
@@ -16311,6 +16315,9 @@ JS
 :
 RootedObject
 originAttributes
+;
+bool
+alwaysUseFdlibm
 ;
 protected
 :
