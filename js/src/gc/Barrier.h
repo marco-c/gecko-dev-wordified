@@ -6342,7 +6342,7 @@ constexpr
 uintptr_t
 MaxTaggedPointer
 =
-0x3
+0x5
 ;
 GCStructPtr
 (
