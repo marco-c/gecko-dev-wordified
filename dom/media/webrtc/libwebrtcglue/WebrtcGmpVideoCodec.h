@@ -1430,6 +1430,8 @@ int32_t
 SetRates_g
 (
 uint32_t
+aOldBitRateKbps
+uint32_t
 aNewBitRateKbps
 Maybe
 <
@@ -1502,6 +1504,9 @@ mCodecParams
 ;
 uint32_t
 mMaxPayloadSize
+;
+bool
+mNeedKeyframe
 ;
 const
 webrtc
