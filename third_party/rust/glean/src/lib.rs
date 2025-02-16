@@ -361,6 +361,7 @@ metrics
 Datetime
 DistributionData
 MemoryUnit
+MetricIdentifier
 Rate
 RecordedEvent
 TimeUnit
