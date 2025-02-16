@@ -1815,6 +1815,7 @@ define
 LAZY_INSTANCE_INITIALIZER
 \
 {
+\
 }
 template
 <
@@ -7322,6 +7323,19 @@ using
 IndirectHandle
 =
 Handle
+<
+T
+>
+;
+template
+<
+typename
+T
+>
+using
+MaybeDirectHandle
+=
+MaybeHandle
 <
 T
 >
