@@ -403,6 +403,14 @@ JSTracer
 trc
 )
 ;
+void
+remove
+(
+JSScript
+*
+script
+)
+;
 }
 ;
 }

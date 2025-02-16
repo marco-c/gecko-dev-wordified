@@ -5269,6 +5269,14 @@ baselineCompileQueue_
 )
 ;
 }
+void
+removeFromCompileQueue
+(
+JSScript
+*
+script
+)
+;
 js
 :
 :
