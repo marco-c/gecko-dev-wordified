@@ -51755,6 +51755,14 @@ AssertAboutPageHasCSP
 this
 )
 ;
+nsContentSecurityUtils
+:
+:
+AssertChromePageHasCSP
+(
+this
+)
+;
 }
 #
 endif
