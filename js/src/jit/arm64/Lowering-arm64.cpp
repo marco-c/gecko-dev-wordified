@@ -8827,12 +8827,6 @@ LWasmVariableShiftSimd128
 (
 lhsDestAlloc
 rhsAlloc
-LDefinition
-:
-:
-BogusTemp
-(
-)
 )
 ;
 define

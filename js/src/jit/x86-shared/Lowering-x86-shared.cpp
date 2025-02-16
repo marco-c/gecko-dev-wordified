@@ -11032,7 +11032,7 @@ ins
 LWasmVariableShiftSimd128
 :
 :
-LhsDest
+LhsIndex
 )
 ;
 #
