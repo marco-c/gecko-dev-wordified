@@ -2621,6 +2621,9 @@ blank
 preferredRemoteType
 :
 type
+allowInheritPrincipal
+:
+true
 }
 )
 ;
