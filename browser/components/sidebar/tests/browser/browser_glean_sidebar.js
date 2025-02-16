@@ -110,14 +110,6 @@ async
 =
 >
 {
-Services
-.
-fog
-.
-testResetFOG
-(
-)
-;
 SidebarController
 .
 init
