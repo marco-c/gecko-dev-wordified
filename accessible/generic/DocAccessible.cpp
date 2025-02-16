@@ -7268,6 +7268,15 @@ ElementState
 :
 READWRITE
 )
+&
+&
+!
+accessible
+-
+>
+IsTextField
+(
+)
 )
 {
 const
