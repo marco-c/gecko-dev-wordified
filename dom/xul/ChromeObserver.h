@@ -192,6 +192,12 @@ SetCustomTitlebar
 bool
 )
 ;
+void
+SetMica
+(
+bool
+)
+;
 ~
 ChromeObserver
 (
