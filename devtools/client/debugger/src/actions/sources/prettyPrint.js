@@ -2081,7 +2081,7 @@ object
 export
 async
 function
-prettyPrintSource
+doPrettyPrintSource
 (
 source
 thunkArgs
@@ -2383,13 +2383,14 @@ source
 only
 once
 .
+export
 const
-memoizedPrettyPrintSource
+prettyPrintSource
 =
 memoizeableAction
 (
 "
-setSymbols
+prettyPrintSource
 "
 {
 getValue
@@ -2493,7 +2494,7 @@ thunkArgs
 )
 =
 >
-prettyPrintSource
+doPrettyPrintSource
 (
 source
 thunkArgs
@@ -2524,7 +2525,7 @@ prettySource
 await
 dispatch
 (
-memoizedPrettyPrintSource
+prettyPrintSource
 (
 source
 )
@@ -2606,9 +2607,9 @@ isn
 t
 part
 of
-memoizedTogglePrettyPrint
+prettyPrintSource
 /
-doTogglePrettyPrint
+doPrettyPrintSource
 /
 /
 because
