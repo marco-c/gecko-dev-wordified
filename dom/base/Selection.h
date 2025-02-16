@@ -3914,18 +3914,6 @@ HighlightSelectionData
 aHighlightSelectionData
 )
 ;
-const
-HighlightSelectionData
-&
-HighlightSelectionData
-(
-)
-const
-{
-return
-mHighlightData
-;
-}
 /
 *
 *
@@ -7280,7 +7268,6 @@ const
 SelectionType
 mSelectionType
 ;
-struct
 HighlightSelectionData
 mHighlightData
 ;
