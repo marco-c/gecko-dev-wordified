@@ -3971,7 +3971,7 @@ ToRegister64
 lir
 -
 >
-num
+input
 (
 )
 )
@@ -11113,7 +11113,7 @@ ToFloatRegister
 lir
 -
 >
-in
+input
 (
 )
 )
@@ -11153,7 +11153,7 @@ ToFloatRegister
 lir
 -
 >
-in
+input
 (
 )
 )
@@ -15569,7 +15569,7 @@ ToRegister64
 ins
 -
 >
-num
+input
 (
 )
 )
