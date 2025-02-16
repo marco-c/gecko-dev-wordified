@@ -7021,6 +7021,17 @@ ClearCachedValuesOfLocations
 (
 )
 ;
+void
+GetContiguousHistoryEntries
+(
+SessionHistoryInfo
+&
+aActiveEntry
+Navigation
+*
+aNavigation
+)
+;
 protected
 :
 virtual
