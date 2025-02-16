@@ -5739,6 +5739,15 @@ self
 )
 :
         
+if
+not
+self
+.
+timeout
+:
+            
+return
+        
 try
 :
             
@@ -7361,6 +7370,27 @@ test_url
 test
 )
         
+timeout
+=
+(
+test
+.
+timeout
+*
+self
+.
+timeout_multiplier
+if
+self
+.
+debug_info
+is
+None
+                   
+else
+None
+)
+        
 success
 data
 =
@@ -7380,13 +7410,7 @@ protocol
                                      
 url
                                      
-test
-.
 timeout
-*
-self
-.
-timeout_multiplier
                                      
 self
 .
@@ -8284,6 +8308,24 @@ dpi
 is
 None
         
+timeout
+=
+self
+.
+timeout_multiplier
+*
+test
+.
+timeout
+if
+self
+.
+debug_info
+is
+None
+else
+None
+        
 return
 WebDriverRun
 (
@@ -8306,8 +8348,6 @@ test_url
 test
 )
                             
-test
-.
 timeout
                             
 self
