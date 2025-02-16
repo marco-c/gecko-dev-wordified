@@ -1760,6 +1760,16 @@ stores
 the
 update
 locale
+/
+/
+Bug
+1936528
+renamed
+it
+as
+default
+.
+locale
 add_task
 (
 async

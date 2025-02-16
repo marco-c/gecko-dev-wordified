@@ -157,7 +157,7 @@ ini
 "
         
 "
-update
+default
 .
 locale
 "

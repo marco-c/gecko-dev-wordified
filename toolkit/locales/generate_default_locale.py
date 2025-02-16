@@ -55,7 +55,7 @@ MPL
 .
 #
 Generate
-update
+default
 .
 locale
 which
@@ -85,7 +85,7 @@ not
 None
     
 #
-update
+default
 .
 locale
 is

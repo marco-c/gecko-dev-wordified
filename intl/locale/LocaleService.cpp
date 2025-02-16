@@ -2657,7 +2657,7 @@ the
 package
 locale
 from
-update
+default
 .
 locale
 in
@@ -2667,7 +2667,7 @@ If
 the
 /
 /
-update
+default
 .
 locale
 file
@@ -2698,7 +2698,7 @@ below
 GetGREFileContents
 (
 "
-update
+default
 .
 locale
 "
@@ -2772,7 +2772,7 @@ to
 survive
 even
 if
-update
+default
 .
 locale
 was
