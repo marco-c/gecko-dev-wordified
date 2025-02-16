@@ -283,7 +283,10 @@ aRv
 ;
 /
 /
-ChromeOnly
+Chrome
+and
+UI
+Widgets
 API
 already_AddRefed
 <
