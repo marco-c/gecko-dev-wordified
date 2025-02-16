@@ -2999,7 +2999,7 @@ vpmovzxwq
 (
 Operand
 (
-dest
+src
 )
 dest
 )
