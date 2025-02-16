@@ -91,6 +91,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+search
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 }
 /
 /
