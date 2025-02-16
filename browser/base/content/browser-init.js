@@ -1264,7 +1264,7 @@ skipintoolbarset
 ;
 }
 }
-BrowserSearch
+gURLBar
 .
 initPlaceHolder
 (
@@ -2666,7 +2666,7 @@ init
 (
 )
 ;
-BrowserSearch
+gURLBar
 .
 delayedStartupInit
 (
