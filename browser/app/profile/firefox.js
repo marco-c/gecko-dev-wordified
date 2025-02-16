@@ -12150,7 +12150,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-formData
+formdata
 "
 false
 )
@@ -12365,7 +12365,7 @@ privacy
 .
 clearHistory
 .
-formData
+formdata
 "
 false
 )
@@ -12437,7 +12437,7 @@ privacy
 .
 clearSiteData
 .
-formData
+formdata
 "
 false
 )

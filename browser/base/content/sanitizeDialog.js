@@ -455,7 +455,7 @@ privacy
 .
 clearHistory
 .
-formData
+formdata
 "
 type
 :
@@ -535,7 +535,7 @@ privacy
 .
 clearSiteData
 .
-formData
+formdata
 "
 type
 :
@@ -583,7 +583,7 @@ privacy
 .
 clearOnShutdown_v2
 .
-formData
+formdata
 "
 type
 :
@@ -4054,7 +4054,7 @@ selectedOptions
 includes
 (
 "
-formData
+formdata
 "
 )
 }
