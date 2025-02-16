@@ -2310,6 +2310,17 @@ Ssrc
 }
 options
 .
+send_as_ect1
+=
+packet
+-
+>
+send_as_ect1
+(
+)
+;
+options
+.
 batchable
 =
 enable_send_packet_batching_

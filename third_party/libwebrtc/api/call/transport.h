@@ -202,6 +202,11 @@ included_in_allocation
 =
 false
 ;
+bool
+send_as_ect1
+=
+false
+;
 /
 /
 Whether

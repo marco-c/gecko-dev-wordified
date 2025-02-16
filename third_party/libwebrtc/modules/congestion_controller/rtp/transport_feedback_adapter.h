@@ -699,6 +699,8 @@ PacketResult
 packet_results
 Timestamp
 feedback_receive_time
+bool
+supports_ecn
 )
 ;
 DataSize

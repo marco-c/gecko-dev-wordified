@@ -1279,6 +1279,11 @@ is_media
 options
 .
 is_media
+ect_1
+=
+options
+.
+send_as_ect1
 packet
 =
 rtc
@@ -1345,6 +1350,12 @@ info_signaled_after_sent
 is_media
 =
 is_media
+;
+rtc_options
+.
+ecn_1
+=
+ect_1
 ;
 rtc_options
 .

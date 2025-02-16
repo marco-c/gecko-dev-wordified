@@ -1155,6 +1155,11 @@ Zero
 (
 )
 ;
+bool
+transport_supports_ecn
+=
+false
+;
 std
 :
 :
