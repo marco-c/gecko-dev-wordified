@@ -364,11 +364,12 @@ PlusInfinity
 )
 ;
 }
+constexpr
 DataRate
 (
 )
 =
-delete
+default
 ;
 template
 <

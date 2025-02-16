@@ -174,6 +174,16 @@ MinusInfinity
 ;
 static_assert
 (
+TimeDelta
+(
+)
+=
+=
+kTimeDeltaZero
+)
+;
+static_assert
+(
 kTimeDeltaZero
 .
 IsZero

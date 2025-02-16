@@ -405,11 +405,12 @@ value
 )
 ;
 }
+constexpr
 TimeDelta
 (
 )
 =
-delete
+default
 ;
 template
 <

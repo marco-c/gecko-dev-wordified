@@ -168,6 +168,16 @@ MinusInfinity
 ;
 static_assert
 (
+Frequency
+(
+)
+=
+=
+kFrequencyZero
+)
+;
+static_assert
+(
 kFrequencyZero
 .
 IsZero
