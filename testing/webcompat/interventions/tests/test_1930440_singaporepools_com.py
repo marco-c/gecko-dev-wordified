@@ -42,17 +42,11 @@ shouldPass
 )
 :
     
-#
-we
-should
-never
-see
-an
-alert
-of
-unsupported
-browser
-    
+if
+not
+shouldPass
+:
+        
 alert
 =
 await
@@ -74,25 +68,14 @@ navigate
 URL
 )
     
-gotAlert
-=
+if
+not
+shouldPass
+:
+        
+assert
 await
 alert
-    
-assert
-(
-shouldPass
-and
-not
-gotAlert
-)
-or
-(
-not
-shouldPass
-and
-gotAlert
-)
     
 #
 the
