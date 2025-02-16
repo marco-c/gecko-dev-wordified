@@ -2987,9 +2987,8 @@ of
 the
 type
 .
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_DIAGNOSTIC_CRASH
 (
-false
 "
 Callback
 should
