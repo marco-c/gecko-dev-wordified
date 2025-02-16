@@ -3734,12 +3734,6 @@ mType
 eHTMLDateTimeFieldType
 ;
 }
-bool
-IsSearchbox
-(
-)
-const
-;
 virtual
 bool
 HasNumericValue
