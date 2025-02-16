@@ -134,7 +134,7 @@ bookmark_sync
 ;
 extern
 crate
-buildid_reader_ffi
+buildid_reader
 ;
 extern
 crate
