@@ -1412,6 +1412,10 @@ presume_writable_when_fully_relayed
 REGATHER_ON_FAILED_NETWORKS_INTERVAL
 RECEIVING_SWITCHING_DELAY
 )
+field_trials_
+(
+field_trials
+)
 {
 TRACE_EVENT0
 (
