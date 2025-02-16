@@ -116,9 +116,9 @@ mozilla
 .
 org
 /
-mozgeckoprofiler
+mozbase
 /
-index
+mozgeckoprofiler
 .
 html
 "

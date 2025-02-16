@@ -243,6 +243,8 @@ components
 /
 glean
 /
+dev
+/
 builtin_pings
 .
 html
