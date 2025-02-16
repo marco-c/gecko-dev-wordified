@@ -358,15 +358,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h

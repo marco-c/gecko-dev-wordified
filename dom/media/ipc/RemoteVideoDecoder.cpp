@@ -232,15 +232,6 @@ include
 "
 mozilla
 /
-Telemetry
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 ImageClient

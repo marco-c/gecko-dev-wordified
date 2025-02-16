@@ -205,15 +205,6 @@ StaticPrefs_media
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
 namespace
 mozilla
 {
