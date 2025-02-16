@@ -5222,9 +5222,6 @@ javascript_options_source_pragmas
 (
 )
 )
-#
-ifdef
-NIGHTLY_BUILD
 .
 setImportAttributes
 (
@@ -5235,8 +5232,6 @@ javascript_options_experimental_import_attributes
 (
 )
 )
-#
-endif
 .
 setAsmJS
 (
