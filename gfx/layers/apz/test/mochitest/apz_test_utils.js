@@ -6086,6 +6086,9 @@ function
 hitTest
 (
 point
+popupElement
+=
+null
 )
 {
 var
@@ -6135,6 +6138,7 @@ x
 point
 .
 y
+popupElement
 )
 ;
 var
@@ -6144,6 +6148,7 @@ utils
 .
 getCompositorAPZTestData
 (
+popupElement
 )
 ;
 ok
