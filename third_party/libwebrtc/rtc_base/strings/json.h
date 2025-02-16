@@ -118,6 +118,12 @@ json
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+export
 namespace
 rtc
 {

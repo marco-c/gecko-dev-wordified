@@ -127,6 +127,17 @@ h
 #
 include
 "
+api
+/
+units
+/
+timestamp
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 system
@@ -149,6 +160,7 @@ public
 :
 WEBRTC_RTCSTATS_DECL
 (
+RTCTestStats
 )
 ;
 RTCTestStats
