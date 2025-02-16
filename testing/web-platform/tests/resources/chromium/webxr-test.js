@@ -5612,6 +5612,14 @@ const
 frameData
 =
 {
+renderInfo
+:
+{
+frameId
+:
+this
+.
+next_frame_id_
 mojoFromViewer
 :
 this
@@ -5620,6 +5628,7 @@ pose_
 views
 :
 frame_views
+}
 mojoSpaceReset
 :
 mojo_space_reset
@@ -5666,11 +5675,6 @@ now
 )
 )
 }
-frameId
-:
-this
-.
-next_frame_id_
 bufferHolder
 :
 null
