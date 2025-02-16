@@ -1135,6 +1135,15 @@ name
 )
 )
 }
+wgpu_types
+:
+:
+GlBackendOptions
+:
+:
+default
+(
+)
 )
 }
 .
@@ -2068,7 +2077,7 @@ adapter
 .
 open
 (
-wgt
+wgpu_types
 :
 :
 Features
@@ -2078,7 +2087,7 @@ empty
 (
 )
 &
-wgt
+wgpu_types
 :
 :
 Limits
@@ -2088,7 +2097,7 @@ downlevel_defaults
 (
 )
 &
-wgt
+wgpu_types
 :
 :
 MemoryHints
@@ -2107,7 +2116,7 @@ unwrap
 let
 format
 =
-wgt
+wgpu_types
 :
 :
 TextureFormat
@@ -2167,7 +2176,7 @@ None
 format
 dimension
 :
-wgt
+wgpu_types
 :
 :
 TextureViewDimension
@@ -2176,7 +2185,7 @@ TextureViewDimension
 D2
 usage
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -2185,7 +2194,7 @@ TextureUses
 COLOR_TARGET
 range
 :
-wgt
+wgpu_types
 :
 :
 ImageSubresourceRange
@@ -2279,7 +2288,7 @@ label
 None
 extent
 :
-wgt
+wgpu_types
 :
 :
 Extent3d
@@ -2317,7 +2326,7 @@ view
 view
 usage
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -2339,7 +2348,7 @@ AttachmentOps
 STORE
 clear_value
 :
-wgt
+wgpu_types
 :
 :
 Color

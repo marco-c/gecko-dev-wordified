@@ -5304,7 +5304,7 @@ set_single
 (
 &
 buffer
-hal
+wgt
 :
 :
 BufferUses
@@ -5381,7 +5381,7 @@ StateTransition
 {
 from
 :
-hal
+wgt
 :
 :
 BufferUses
@@ -5390,7 +5390,7 @@ BufferUses
 INDIRECT
 to
 :
-hal
+wgt
 :
 :
 BufferUses
@@ -5599,7 +5599,7 @@ StateTransition
 {
 from
 :
-hal
+wgt
 :
 :
 BufferUses
@@ -5608,7 +5608,7 @@ BufferUses
 STORAGE_READ_WRITE
 to
 :
-hal
+wgt
 :
 :
 BufferUses
@@ -5673,7 +5673,7 @@ merge_single
 (
 &
 buffer
-hal
+wgt
 :
 :
 BufferUses

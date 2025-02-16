@@ -82,10 +82,6 @@ snatch
 :
 :
 SnatchGuard
-track
-:
-:
-TextureSelector
 }
 ;
 use
@@ -108,6 +104,7 @@ wgt
 BufferAddress
 BufferUsages
 Extent3d
+TextureSelector
 TextureUsages
 }
 ;
@@ -3577,7 +3574,7 @@ set_single
 (
 &
 src_buffer
-hal
+wgt
 :
 :
 BufferUses
@@ -3687,7 +3684,7 @@ set_single
 (
 &
 dst_buffer
-hal
+wgt
 :
 :
 BufferUses
@@ -4686,7 +4683,7 @@ set_single
 (
 &
 src_buffer
-hal
+wgt
 :
 :
 BufferUses
@@ -4761,7 +4758,7 @@ set_single
 &
 dst_texture
 dst_range
-hal
+wgt
 :
 :
 TextureUses
@@ -5536,7 +5533,7 @@ set_single
 &
 src_texture
 src_range
-hal
+wgt
 :
 :
 TextureUses
@@ -5723,7 +5720,7 @@ set_single
 (
 &
 dst_buffer
-hal
+wgt
 :
 :
 BufferUses
@@ -6076,7 +6073,7 @@ cmd_buf_raw
 copy_texture_to_buffer
 (
 src_raw
-hal
+wgt
 :
 :
 TextureUses
@@ -6736,7 +6733,7 @@ set_single
 &
 src_texture
 src_range
-hal
+wgt
 :
 :
 TextureUses
@@ -6849,7 +6846,7 @@ set_single
 &
 dst_texture
 dst_range
-hal
+wgt
 :
 :
 TextureUses
@@ -7058,7 +7055,7 @@ cmd_buf_raw
 copy_texture_to_texture
 (
 src_raw
-hal
+wgt
 :
 :
 TextureUses

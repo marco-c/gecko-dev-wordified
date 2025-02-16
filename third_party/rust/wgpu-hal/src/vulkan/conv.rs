@@ -374,6 +374,16 @@ B10G11R11_UFLOAT_PACK32
 Tf
 :
 :
+R64Uint
+=
+>
+F
+:
+:
+R64_UINT
+Tf
+:
+:
 Rg32Uint
 =
 >
@@ -1816,7 +1826,7 @@ derive_image_layout
 (
 usage
 :
-crate
+wgt
 :
 :
 TextureUses
@@ -1859,7 +1869,7 @@ is_depth_stencil_format
 match
 usage
 {
-crate
+wgt
 :
 :
 TextureUses
@@ -1875,7 +1885,7 @@ ImageLayout
 :
 :
 UNDEFINED
-crate
+wgt
 :
 :
 TextureUses
@@ -1891,7 +1901,7 @@ ImageLayout
 :
 :
 TRANSFER_SRC_OPTIMAL
-crate
+wgt
 :
 :
 TextureUses
@@ -1907,7 +1917,7 @@ ImageLayout
 :
 :
 TRANSFER_DST_OPTIMAL
-crate
+wgt
 :
 :
 TextureUses
@@ -1925,7 +1935,7 @@ ImageLayout
 :
 :
 SHADER_READ_ONLY_OPTIMAL
-crate
+wgt
 :
 :
 TextureUses
@@ -1941,7 +1951,7 @@ ImageLayout
 :
 :
 COLOR_ATTACHMENT_OPTIMAL
-crate
+wgt
 :
 :
 TextureUses
@@ -1950,7 +1960,6 @@ TextureUses
 DEPTH_STENCIL_WRITE
 =
 >
-{
 vk
 :
 :
@@ -1958,7 +1967,6 @@ ImageLayout
 :
 :
 DEPTH_STENCIL_ATTACHMENT_OPTIMAL
-}
 _
 =
 >
@@ -1967,7 +1975,7 @@ if
 usage
 =
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2014,7 +2022,7 @@ map_texture_usage
 (
 usage
 :
-crate
+wgt
 :
 :
 TextureUses
@@ -2045,7 +2053,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2071,7 +2079,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2097,7 +2105,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2123,7 +2131,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2149,7 +2157,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2157,7 +2165,7 @@ TextureUses
 :
 DEPTH_STENCIL_READ
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2183,7 +2191,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2191,7 +2199,7 @@ TextureUses
 :
 STORAGE_READ_ONLY
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2199,7 +2207,7 @@ TextureUses
 :
 STORAGE_WRITE_ONLY
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2207,7 +2215,7 @@ TextureUses
 :
 STORAGE_READ_WRITE
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2236,7 +2244,7 @@ map_texture_usage_to_barrier
 (
 usage
 :
-crate
+wgt
 :
 :
 TextureUses
@@ -2314,7 +2322,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2351,7 +2359,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2388,7 +2396,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2419,7 +2427,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2464,7 +2472,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2509,7 +2517,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2562,7 +2570,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2570,7 +2578,7 @@ TextureUses
 :
 STORAGE_READ_ONLY
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2578,7 +2586,7 @@ TextureUses
 :
 STORAGE_READ_WRITE
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2609,7 +2617,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 TextureUses
@@ -2617,7 +2625,7 @@ TextureUses
 :
 STORAGE_WRITE_ONLY
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2625,7 +2633,7 @@ TextureUses
 :
 STORAGE_READ_WRITE
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2655,7 +2663,7 @@ if
 usage
 =
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2667,7 +2675,7 @@ UNINITIALIZED
 usage
 =
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2715,7 +2723,7 @@ ImageUsageFlags
 )
 -
 >
-crate
+wgt
 :
 :
 TextureUses
@@ -2724,7 +2732,7 @@ let
 mut
 bits
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2751,7 +2759,7 @@ TRANSFER_SRC
 bits
 |
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2777,7 +2785,7 @@ TRANSFER_DST
 bits
 |
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2803,7 +2811,7 @@ SAMPLED
 bits
 |
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2829,7 +2837,7 @@ COLOR_ATTACHMENT
 bits
 |
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2855,7 +2863,7 @@ DEPTH_STENCIL_ATTACHMENT
 bits
 |
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2863,7 +2871,7 @@ TextureUses
 :
 DEPTH_STENCIL_READ
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2889,7 +2897,7 @@ STORAGE
 bits
 |
 =
-crate
+wgt
 :
 :
 TextureUses
@@ -2897,7 +2905,7 @@ TextureUses
 :
 STORAGE_READ_ONLY
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2905,7 +2913,7 @@ TextureUses
 :
 STORAGE_WRITE_ONLY
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -2913,7 +2921,7 @@ TextureUses
 :
 STORAGE_READ_WRITE
 |
-crate
+wgt
 :
 :
 TextureUses
@@ -4466,7 +4474,7 @@ map_buffer_usage
 (
 usage
 :
-crate
+wgt
 :
 :
 BufferUses
@@ -4497,7 +4505,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4523,7 +4531,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4549,7 +4557,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4575,7 +4583,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4583,7 +4591,7 @@ BufferUses
 :
 STORAGE_READ_ONLY
 |
-crate
+wgt
 :
 :
 BufferUses
@@ -4609,7 +4617,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4635,7 +4643,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4661,7 +4669,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4687,7 +4695,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4721,7 +4729,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4729,7 +4737,7 @@ BufferUses
 :
 BOTTOM_LEVEL_ACCELERATION_STRUCTURE_INPUT
 |
-crate
+wgt
 :
 :
 BufferUses
@@ -4766,7 +4774,7 @@ map_buffer_usage_to_barrier
 (
 usage
 :
-crate
+wgt
 :
 :
 BufferUses
@@ -4844,7 +4852,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4881,7 +4889,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4918,7 +4926,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4955,7 +4963,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -4992,7 +5000,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -5023,7 +5031,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -5054,7 +5062,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -5093,7 +5101,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -5130,7 +5138,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -5167,7 +5175,7 @@ usage
 .
 contains
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -5204,7 +5212,7 @@ usage
 .
 intersects
 (
-crate
+wgt
 :
 :
 BufferUses
@@ -5212,7 +5220,7 @@ BufferUses
 :
 BOTTOM_LEVEL_ACCELERATION_STRUCTURE_INPUT
 |
-crate
+wgt
 :
 :
 BufferUses
@@ -5220,7 +5228,7 @@ BufferUses
 :
 TOP_LEVEL_ACCELERATION_STRUCTURE_INPUT
 |
-crate
+wgt
 :
 :
 BufferUses

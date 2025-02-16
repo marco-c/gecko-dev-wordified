@@ -955,6 +955,15 @@ Sf
 :
 Rg11b10Ufloat
 "
+r64uint
+"
+=
+>
+Sf
+:
+:
+R64Uint
+"
 rg32uint
 "
 =

@@ -5580,11 +5580,8 @@ ep_resource_bindings
 .
 insert
 (
+*
 bind
-.
-clone
-(
-)
 )
 {
 if

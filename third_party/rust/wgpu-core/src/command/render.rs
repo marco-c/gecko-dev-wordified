@@ -148,7 +148,6 @@ track
 :
 {
 ResourceUsageCompatibilityError
-TextureSelector
 Tracker
 UsageScope
 }
@@ -179,6 +178,7 @@ Color
 DynamicOffset
 IndexFormat
 ShaderStages
+TextureSelector
 TextureUsages
 TextureViewDimension
 VertexStepMode
@@ -5155,7 +5155,7 @@ selector
 TextureSelector
 usage
 :
-hal
+wgt
 :
 :
 TextureUses
@@ -5170,7 +5170,7 @@ to_render_attachment
 self
 usage
 :
-hal
+wgt
 :
 :
 TextureUses
@@ -6893,7 +6893,7 @@ DownlevelFlags
 READ_ONLY_DEPTH_STENCIL
 )
 {
-hal
+wgt
 :
 :
 TextureUses
@@ -6901,7 +6901,7 @@ TextureUses
 :
 DEPTH_STENCIL_READ
 |
-hal
+wgt
 :
 :
 TextureUses
@@ -6911,7 +6911,7 @@ RESOURCE
 }
 else
 {
-hal
+wgt
 :
 :
 TextureUses
@@ -7188,7 +7188,7 @@ color_view
 .
 to_render_attachment
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -7467,7 +7467,7 @@ resolve_view
 .
 to_render_attachment
 (
-hal
+wgt
 :
 :
 TextureUses
@@ -7497,7 +7497,7 @@ snatch_guard
 ?
 usage
 :
-hal
+wgt
 :
 :
 TextureUses
@@ -7537,7 +7537,7 @@ snatch_guard
 ?
 usage
 :
-hal
+wgt
 :
 :
 TextureUses
@@ -8534,7 +8534,7 @@ snatch_guard
 ?
 usage
 :
-hal
+wgt
 :
 :
 TextureUses
@@ -12775,7 +12775,7 @@ merge_single
 (
 &
 buffer
-hal
+wgt
 :
 :
 BufferUses
@@ -13011,7 +13011,7 @@ merge_single
 (
 &
 buffer
-hal
+wgt
 :
 :
 BufferUses
@@ -14549,7 +14549,7 @@ merge_single
 (
 &
 indirect_buffer
-hal
+wgt
 :
 :
 BufferUses
@@ -14937,7 +14937,7 @@ merge_single
 (
 &
 indirect_buffer
-hal
+wgt
 :
 :
 BufferUses
@@ -14983,7 +14983,7 @@ merge_single
 (
 &
 count_buffer
-hal
+wgt
 :
 :
 BufferUses

@@ -444,7 +444,7 @@ A
 Surface
 surface_format
 :
-wgt
+wgpu_types
 :
 :
 TextureFormat
@@ -625,7 +625,7 @@ example
 "
 flags
 :
-wgt
+wgpu_types
 :
 :
 InstanceFlags
@@ -652,21 +652,12 @@ so
 use
 FXC
 instead
-dx12_shader_compiler
+backend_options
 :
-wgt
-:
-:
-Dx12Compiler
+wgpu_types
 :
 :
-Fxc
-gles_minor_version
-:
-wgt
-:
-:
-Gles3MinorVersion
+BackendOptions
 :
 :
 default
@@ -867,7 +858,7 @@ adapter
 .
 open
 (
-wgt
+wgpu_types
 :
 :
 Features
@@ -877,7 +868,7 @@ empty
 (
 )
 &
-wgt
+wgpu_types
 :
 :
 Limits
@@ -887,7 +878,7 @@ default
 (
 )
 &
-wgt
+wgpu_types
 :
 :
 MemoryHints
@@ -954,7 +945,7 @@ end
 )
 present_mode
 :
-wgt
+wgpu_types
 :
 :
 PresentMode
@@ -963,7 +954,7 @@ PresentMode
 Fifo
 composite_alpha_mode
 :
-wgt
+wgpu_types
 :
 :
 CompositeAlphaMode
@@ -972,7 +963,7 @@ CompositeAlphaMode
 Opaque
 format
 :
-wgt
+wgpu_types
 :
 :
 TextureFormat
@@ -981,7 +972,7 @@ TextureFormat
 Bgra8UnormSrgb
 extent
 :
-wgt
+wgpu_types
 :
 :
 Extent3d
@@ -1002,7 +993,7 @@ depth_or_array_layers
 }
 usage
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -1216,7 +1207,7 @@ label
 None
 runtime_checks
 :
-wgt
+wgpu_types
 :
 :
 ShaderRuntimeChecks
@@ -1281,7 +1272,7 @@ entries
 :
 &
 [
-wgt
+wgpu_types
 :
 :
 BindGroupLayoutEntry
@@ -1291,7 +1282,7 @@ binding
 0
 visibility
 :
-wgt
+wgpu_types
 :
 :
 ShaderStages
@@ -1300,7 +1291,7 @@ ShaderStages
 VERTEX
 ty
 :
-wgt
+wgpu_types
 :
 :
 BindingType
@@ -1310,7 +1301,7 @@ Buffer
 {
 ty
 :
-wgt
+wgpu_types
 :
 :
 BufferBindingType
@@ -1322,7 +1313,7 @@ has_dynamic_offset
 false
 min_binding_size
 :
-wgt
+wgpu_types
 :
 :
 BufferSize
@@ -1346,7 +1337,7 @@ count
 :
 None
 }
-wgt
+wgpu_types
 :
 :
 BindGroupLayoutEntry
@@ -1356,7 +1347,7 @@ binding
 1
 visibility
 :
-wgt
+wgpu_types
 :
 :
 ShaderStages
@@ -1365,7 +1356,7 @@ ShaderStages
 FRAGMENT
 ty
 :
-wgt
+wgpu_types
 :
 :
 BindingType
@@ -1375,7 +1366,7 @@ Texture
 {
 sample_type
 :
-wgt
+wgpu_types
 :
 :
 TextureSampleType
@@ -1389,7 +1380,7 @@ true
 }
 view_dimension
 :
-wgt
+wgpu_types
 :
 :
 TextureViewDimension
@@ -1404,7 +1395,7 @@ count
 :
 None
 }
-wgt
+wgpu_types
 :
 :
 BindGroupLayoutEntry
@@ -1414,7 +1405,7 @@ binding
 2
 visibility
 :
-wgt
+wgpu_types
 :
 :
 ShaderStages
@@ -1423,7 +1414,7 @@ ShaderStages
 FRAGMENT
 ty
 :
-wgt
+wgpu_types
 :
 :
 BindingType
@@ -1431,7 +1422,7 @@ BindingType
 :
 Sampler
 (
-wgt
+wgpu_types
 :
 :
 SamplerBindingType
@@ -1490,7 +1481,7 @@ entries
 :
 &
 [
-wgt
+wgpu_types
 :
 :
 BindGroupLayoutEntry
@@ -1500,7 +1491,7 @@ binding
 0
 visibility
 :
-wgt
+wgpu_types
 :
 :
 ShaderStages
@@ -1509,7 +1500,7 @@ ShaderStages
 VERTEX
 ty
 :
-wgt
+wgpu_types
 :
 :
 BindingType
@@ -1519,7 +1510,7 @@ Buffer
 {
 ty
 :
-wgt
+wgpu_types
 :
 :
 BufferBindingType
@@ -1531,7 +1522,7 @@ has_dynamic_offset
 true
 min_binding_size
 :
-wgt
+wgpu_types
 :
 :
 BufferSize
@@ -1721,14 +1712,14 @@ true
 )
 primitive
 :
-wgt
+wgpu_types
 :
 :
 PrimitiveState
 {
 topology
 :
-wgt
+wgpu_types
 :
 :
 PrimitiveTopology
@@ -1737,7 +1728,7 @@ PrimitiveTopology
 TriangleStrip
 .
 .
-wgt
+wgpu_types
 :
 :
 PrimitiveState
@@ -1752,7 +1743,7 @@ depth_stencil
 None
 multisample
 :
-wgt
+wgpu_types
 :
 :
 MultisampleState
@@ -1767,7 +1758,7 @@ color_targets
 [
 Some
 (
-wgt
+wgpu_types
 :
 :
 ColorTargetState
@@ -1781,7 +1772,7 @@ blend
 :
 Some
 (
-wgt
+wgpu_types
 :
 :
 BlendState
@@ -1791,7 +1782,7 @@ ALPHA_BLENDING
 )
 write_mask
 :
-wgt
+wgpu_types
 :
 :
 ColorWrites
@@ -1862,13 +1853,13 @@ len
 (
 )
 as
-wgt
+wgpu_types
 :
 :
 BufferAddress
 usage
 :
-hal
+wgpu_types
 :
 :
 BufferUses
@@ -1876,7 +1867,7 @@ BufferUses
 :
 MAP_WRITE
 |
-hal
+wgpu_types
 :
 :
 BufferUses
@@ -1997,7 +1988,7 @@ label
 None
 size
 :
-wgt
+wgpu_types
 :
 :
 Extent3d
@@ -2020,7 +2011,7 @@ sample_count
 1
 dimension
 :
-wgt
+wgpu_types
 :
 :
 TextureDimension
@@ -2029,7 +2020,7 @@ TextureDimension
 D2
 format
 :
-wgt
+wgpu_types
 :
 :
 TextureFormat
@@ -2038,7 +2029,7 @@ TextureFormat
 Rgba8UnormSrgb
 usage
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -2046,7 +2037,7 @@ TextureUses
 :
 COPY_DST
 |
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -2167,7 +2158,7 @@ StateTransition
 {
 from
 :
-hal
+wgpu_types
 :
 :
 BufferUses
@@ -2178,7 +2169,7 @@ empty
 )
 to
 :
-hal
+wgpu_types
 :
 :
 BufferUses
@@ -2202,7 +2193,7 @@ texture
 texture
 range
 :
-wgt
+wgpu_types
 :
 :
 ImageSubresourceRange
@@ -2220,7 +2211,7 @@ StateTransition
 {
 from
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -2229,7 +2220,7 @@ TextureUses
 UNINITIALIZED
 to
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -2253,7 +2244,7 @@ texture
 texture
 range
 :
-wgt
+wgpu_types
 :
 :
 ImageSubresourceRange
@@ -2271,7 +2262,7 @@ StateTransition
 {
 from
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -2280,7 +2271,7 @@ TextureUses
 COPY_DST
 to
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -2300,7 +2291,7 @@ BufferTextureCopy
 {
 buffer_layout
 :
-wgt
+wgpu_types
 :
 :
 TexelCopyBufferLayout
@@ -2327,7 +2318,7 @@ TextureCopyBase
 {
 origin
 :
-wgt
+wgpu_types
 :
 :
 Origin3d
@@ -2443,7 +2434,7 @@ None
 address_modes
 :
 [
-wgt
+wgpu_types
 :
 :
 AddressMode
@@ -2455,7 +2446,7 @@ ClampToEdge
 ]
 mag_filter
 :
-wgt
+wgpu_types
 :
 :
 FilterMode
@@ -2464,7 +2455,7 @@ FilterMode
 Linear
 min_filter
 :
-wgt
+wgpu_types
 :
 :
 FilterMode
@@ -2473,7 +2464,7 @@ FilterMode
 Nearest
 mipmap_filter
 :
-wgt
+wgpu_types
 :
 :
 FilterMode
@@ -2652,13 +2643,13 @@ Globals
 (
 )
 as
-wgt
+wgpu_types
 :
 :
 BufferAddress
 usage
 :
-hal
+wgpu_types
 :
 :
 BufferUses
@@ -2666,7 +2657,7 @@ BufferUses
 :
 MAP_WRITE
 |
-hal
+wgpu_types
 :
 :
 BufferUses
@@ -2779,7 +2770,7 @@ buffer
 let
 local_alignment
 =
-wgt
+wgpu_types
 :
 :
 math
@@ -2825,7 +2816,7 @@ size
 (
 MAX_BUNNIES
 as
-wgt
+wgpu_types
 :
 :
 BufferAddress
@@ -2834,14 +2825,14 @@ BufferAddress
 (
 local_alignment
 as
-wgt
+wgpu_types
 :
 :
 BufferAddress
 )
 usage
 :
-hal
+wgpu_types
 :
 :
 BufferUses
@@ -2849,7 +2840,7 @@ BufferUses
 :
 MAP_WRITE
 |
-hal
+wgpu_types
 :
 :
 BufferUses
@@ -2903,7 +2894,7 @@ texture_desc
 format
 dimension
 :
-wgt
+wgpu_types
 :
 :
 TextureViewDimension
@@ -2912,7 +2903,7 @@ TextureViewDimension
 D2
 usage
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -2921,7 +2912,7 @@ TextureUses
 RESOURCE
 range
 :
-wgt
+wgpu_types
 :
 :
 ImageSubresourceRange
@@ -2990,7 +2981,7 @@ view
 texture_view
 usage
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -3132,7 +3123,7 @@ offset
 0
 size
 :
-wgt
+wgpu_types
 :
 :
 BufferSize
@@ -4174,7 +4165,7 @@ local_buffer
 .
 size
 as
-wgt
+wgpu_types
 :
 :
 BufferAddress
@@ -4292,7 +4283,7 @@ borrow
 )
 range
 :
-wgt
+wgpu_types
 :
 :
 ImageSubresourceRange
@@ -4310,7 +4301,7 @@ StateTransition
 {
 from
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -4319,7 +4310,7 @@ TextureUses
 UNINITIALIZED
 to
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -4383,7 +4374,7 @@ self
 surface_format
 dimension
 :
-wgt
+wgpu_types
 :
 :
 TextureViewDimension
@@ -4392,7 +4383,7 @@ TextureViewDimension
 D2
 usage
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -4401,7 +4392,7 @@ TextureUses
 COLOR_TARGET
 range
 :
-wgt
+wgpu_types
 :
 :
 ImageSubresourceRange
@@ -4450,7 +4441,7 @@ label
 None
 extent
 :
-wgt
+wgpu_types
 :
 :
 Extent3d
@@ -4502,7 +4493,7 @@ view
 surface_tex_view
 usage
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -4524,7 +4515,7 @@ AttachmentOps
 STORE
 clear_value
 :
-wgt
+wgpu_types
 :
 :
 Color
@@ -4632,7 +4623,7 @@ offset
 (
 i
 as
-wgt
+wgpu_types
 :
 :
 DynamicOffset
@@ -4643,7 +4634,7 @@ self
 .
 local_alignment
 as
-wgt
+wgpu_types
 :
 :
 DynamicOffset
@@ -4710,7 +4701,7 @@ borrow
 )
 range
 :
-wgt
+wgpu_types
 :
 :
 ImageSubresourceRange
@@ -4728,7 +4719,7 @@ StateTransition
 {
 from
 :
-hal
+wgpu_types
 :
 :
 TextureUses
@@ -4737,7 +4728,7 @@ TextureUses
 COLOR_TARGET
 to
 :
-hal
+wgpu_types
 :
 :
 TextureUses

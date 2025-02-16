@@ -1148,7 +1148,7 @@ name
 Some
 (
 "
-instance_custom_index
+instance_custom_data
 "
 .
 to_string
@@ -1175,7 +1175,7 @@ name
 Some
 (
 "
-instance_id
+instance_index
 "
 .
 to_string

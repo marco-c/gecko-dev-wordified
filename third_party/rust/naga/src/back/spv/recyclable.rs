@@ -372,10 +372,7 @@ Clone
 >
 Recyclable
 for
-std
-:
-:
-collections
+hashbrown
 :
 :
 HashMap
@@ -413,10 +410,7 @@ Clone
 >
 Recyclable
 for
-std
-:
-:
-collections
+hashbrown
 :
 :
 HashSet

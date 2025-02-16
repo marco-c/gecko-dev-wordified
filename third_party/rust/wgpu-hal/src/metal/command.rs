@@ -2049,7 +2049,7 @@ super
 Texture
 _src_usage
 :
-crate
+wgt
 :
 :
 TextureUses
@@ -2541,7 +2541,7 @@ super
 Texture
 _src_usage
 :
-crate
+wgt
 :
 :
 TextureUses
