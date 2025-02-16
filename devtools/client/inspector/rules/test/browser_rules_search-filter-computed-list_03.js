@@ -322,7 +322,7 @@ testclass
 "
 )
 ;
-ok
+is
 (
 ruleEditor
 .
@@ -331,9 +331,14 @@ expander
 getAttribute
 (
 "
-open
+aria
+-
+expanded
 "
 )
+"
+true
+"
 "
 Expander
 is
