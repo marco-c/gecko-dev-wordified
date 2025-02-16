@@ -320,6 +320,11 @@ resolve
 ;
 }
 }
+{
+ignoreVisibility
+:
+true
+}
 )
 ;
 return
@@ -861,6 +866,12 @@ sources
 )
 ;
 }
+exports
+.
+waitForSources
+=
+waitForSources
+;
 function
 waitForSource
 (
