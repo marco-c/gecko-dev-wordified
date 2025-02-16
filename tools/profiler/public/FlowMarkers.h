@@ -162,7 +162,10 @@ ETWTools
 h
 "
 namespace
-mozilla
+geckoprofiler
+:
+:
+markers
 {
 /
 /
@@ -200,6 +203,9 @@ class
 FlowMarker
 :
 public
+mozilla
+:
+:
 BaseMarkerType
 <
 FlowMarker
@@ -221,6 +227,9 @@ FlowMarker
 using
 MS
 =
+mozilla
+:
+:
 MarkerSchema
 ;
 static
@@ -364,6 +373,10 @@ aFlow
 }
 }
 ;
+}
+namespace
+mozilla
+{
 class
 FlowStackMarker
 :
