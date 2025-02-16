@@ -10883,7 +10883,7 @@ ins
 LWasmConstantShiftSimd128
 :
 :
-Src
+SrcIndex
 )
 ;
 }

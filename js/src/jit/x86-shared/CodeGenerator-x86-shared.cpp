@@ -21168,6 +21168,11 @@ switch
 ins
 -
 >
+mir
+(
+)
+-
+>
 simdOp
 (
 )
