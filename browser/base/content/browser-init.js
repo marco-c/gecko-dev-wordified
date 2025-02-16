@@ -1773,12 +1773,6 @@ init
 (
 )
 ;
-BrowserSearch
-.
-init
-(
-)
-;
 BrowserPageActions
 .
 init
@@ -6566,12 +6560,6 @@ uninit
 )
 ;
 }
-BrowserSearch
-.
-uninit
-(
-)
-;
 NewTabPagePreloading
 .
 removePreloadedBrowser
