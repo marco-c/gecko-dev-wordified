@@ -41,8 +41,9 @@ info
 Information
 flags
 :
--
+[
 noStrict
+]
 description
 :
 |

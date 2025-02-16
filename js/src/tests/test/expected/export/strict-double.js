@@ -37,8 +37,9 @@ file
 -
 flags
 :
--
+[
 onlyStrict
+]
 description
 :
 |

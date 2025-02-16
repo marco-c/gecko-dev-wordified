@@ -98,8 +98,9 @@ error
 .
 flags
 :
--
+[
 noStrict
+]
 negative
 :
 phase

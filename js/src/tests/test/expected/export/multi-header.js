@@ -106,12 +106,14 @@ type
 SyntaxError
 flags
 :
--
+[
 module
+]
 features
 :
--
+[
 Temporal
+]
 info
 :
 |

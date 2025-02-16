@@ -94,8 +94,9 @@ type
 SyntaxError
 flags
 :
--
+[
 noStrict
+]
 -
 -
 -

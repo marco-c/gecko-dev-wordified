@@ -37,12 +37,14 @@ file
 -
 features
 :
--
+[
 IsHTMLDDA
+]
 flags
 :
--
+[
 noStrict
+]
 description
 :
 |

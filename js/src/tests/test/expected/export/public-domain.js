@@ -32,8 +32,9 @@ publicdomain
 -
 flags
 :
--
+[
 noStrict
+]
 description
 :
 |

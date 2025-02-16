@@ -37,8 +37,9 @@ file
 -
 flags
 :
--
+[
 noStrict
+]
 description
 :
 |

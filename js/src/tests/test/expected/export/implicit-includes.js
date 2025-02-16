@@ -50,8 +50,9 @@ js
 ]
 flags
 :
--
+[
 noStrict
+]
 description
 :
 |

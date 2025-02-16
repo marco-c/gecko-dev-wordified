@@ -97,8 +97,9 @@ error
 .
 flags
 :
--
+[
 noStrict
+]
 -
 -
 -

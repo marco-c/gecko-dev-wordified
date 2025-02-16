@@ -44,8 +44,9 @@ bar
 baz
 flags
 :
--
+[
 noStrict
+]
 description
 :
 |
