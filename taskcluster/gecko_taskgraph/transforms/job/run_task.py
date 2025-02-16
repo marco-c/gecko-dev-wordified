@@ -566,6 +566,8 @@ checkout
 ]
 :
         
+gecko_path
+=
 support_vcs_checkout
 (
 config
@@ -577,7 +579,6 @@ command
 .
 append
 (
-            
 "
 -
 -
@@ -591,24 +592,8 @@ checkout
 .
 format
 (
-taskdesc
-[
-"
-worker
-"
-]
-[
-"
-env
-"
-]
-[
-"
-GECKO_PATH
-"
-]
+gecko_path
 )
-        
 )
         
 if
@@ -621,31 +606,14 @@ path
 .
 normpath
 (
-                
 run_cwd
 .
 format
 (
 checkout
 =
-taskdesc
-[
-"
-worker
-"
-]
-[
-"
-env
-"
-]
-[
-"
-GECKO_PATH
-"
-]
+gecko_path
 )
-            
 )
     
 elif
