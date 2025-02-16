@@ -289,6 +289,9 @@ class
 nsIInterceptedChannel
 ;
 class
+nsIPushSubscription
+;
+class
 nsIWorkerDebugger
 ;
 namespace
@@ -596,6 +599,13 @@ aRegistration
 nsresult
 SendPushSubscriptionChangeEvent
 (
+const
+RefPtr
+<
+nsIPushSubscription
+>
+&
+aOldSubscription
 )
 ;
 nsresult
