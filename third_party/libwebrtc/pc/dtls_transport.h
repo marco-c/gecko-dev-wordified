@@ -128,11 +128,9 @@ h
 #
 include
 "
-p2p
+api
 /
-base
-/
-dtls_transport
+sequence_checker
 .
 h
 "
@@ -141,7 +139,7 @@ include
 "
 p2p
 /
-base
+dtls
 /
 dtls_transport_internal
 .
