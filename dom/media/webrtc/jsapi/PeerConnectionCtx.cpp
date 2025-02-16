@@ -3210,9 +3210,6 @@ DummyAudioMixer
 (
 )
 ;
-AudioProcessingBuilder
-audio_processing_builder
-;
 audioStateConfig
 .
 audio_processing
