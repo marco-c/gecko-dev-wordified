@@ -295,6 +295,7 @@ otherwise
 )
 ;
 }
+constexpr
 IntMarginTyped
 (
 Coord

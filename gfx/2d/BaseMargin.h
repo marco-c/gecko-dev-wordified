@@ -575,6 +575,7 @@ left
 /
 /
 Constructors
+constexpr
 BaseMargin
 (
 )
@@ -597,6 +598,7 @@ left
 )
 {
 }
+constexpr
 BaseMargin
 (
 Coord
