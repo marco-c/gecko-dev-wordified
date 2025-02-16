@@ -358,6 +358,9 @@ a
 supported
 configuration
 .
+/
+/
+SKIP_ABSL_INLINE_NAMESPACE_CHECK
 #
 ifndef
 ABSL_BASE_POLICY_CHECKS_H_

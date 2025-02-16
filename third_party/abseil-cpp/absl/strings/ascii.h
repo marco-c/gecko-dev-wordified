@@ -1248,6 +1248,7 @@ e
 )
 .
 inline
+constexpr
 bool
 ascii_isdigit
 (
@@ -1293,6 +1294,7 @@ including
 spaces
 .
 inline
+constexpr
 bool
 ascii_isprint
 (
@@ -1333,6 +1335,7 @@ graphical
 representation
 .
 inline
+constexpr
 bool
 ascii_isgraph
 (
@@ -1370,6 +1373,7 @@ is
 uppercase
 .
 inline
+constexpr
 bool
 ascii_isupper
 (
@@ -1413,6 +1417,7 @@ is
 lowercase
 .
 inline
+constexpr
 bool
 ascii_islower
 (
@@ -1456,6 +1461,7 @@ is
 ASCII
 .
 inline
+constexpr
 bool
 ascii_isascii
 (

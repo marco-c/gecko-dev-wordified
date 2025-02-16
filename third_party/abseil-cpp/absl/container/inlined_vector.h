@@ -582,6 +582,17 @@ absl
 /
 base
 /
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 internal
 /
 throw_delegate
@@ -946,6 +957,7 @@ T
 >
 >
 class
+ABSL_ATTRIBUTE_WARN_UNUSED
 InlinedVector
 {
 static_assert

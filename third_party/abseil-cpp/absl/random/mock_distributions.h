@@ -326,7 +326,7 @@ MockingBitGen
 object
 within
 the
-Googletest
+GoogleTest
 testing
 framework
 .
@@ -388,7 +388,7 @@ More
 information
 about
 the
-Googletest
+GoogleTest
 testing
 framework
 is

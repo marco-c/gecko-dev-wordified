@@ -136,6 +136,9 @@ under
 the
 License
 .
+/
+/
+SKIP_ABSL_INLINE_NAMESPACE_CHECK
 #
 include
 "
@@ -159,16 +162,6 @@ h
 >
 #
 if
-!
-(
-WINAPI_FAMILY_PARTITION
-(
-WINAPI_PARTITION_APP
-)
-)
-|
-|
-\
 WINAPI_FAMILY_PARTITION
 (
 WINAPI_PARTITION_DESKTOP

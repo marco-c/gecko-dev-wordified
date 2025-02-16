@@ -334,6 +334,17 @@ include
 "
 absl
 /
+base
+/
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
 log
 /
 internal
@@ -375,6 +386,7 @@ absl
 :
 string_view
 str
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 )
 :
 str_
@@ -429,6 +441,8 @@ ostream
 &
 os
 AsLiteralImpl
+&
+&
 as_literal
 )
 {
