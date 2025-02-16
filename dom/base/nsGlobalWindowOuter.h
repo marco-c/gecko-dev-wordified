@@ -511,6 +511,9 @@ struct
 nsRect
 ;
 class
+nsWindowRoot
+;
+class
 nsWindowSizes
 ;
 namespace

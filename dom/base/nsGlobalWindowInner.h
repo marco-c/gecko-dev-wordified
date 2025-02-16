@@ -543,6 +543,9 @@ struct
 nsRect
 ;
 class
+nsWindowRoot
+;
+class
 nsWindowSizes
 ;
 class
