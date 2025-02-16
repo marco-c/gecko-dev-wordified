@@ -16211,7 +16211,7 @@ popupAlign
 popupFrame
 -
 >
-GetPopupAlignment
+GetUntransformedPopupAlignment
 (
 )
 ;
@@ -16220,7 +16220,7 @@ anchorAlign
 popupFrame
 -
 >
-GetPopupAnchor
+GetUntransformedPopupAnchor
 (
 )
 ;
