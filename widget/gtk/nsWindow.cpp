@@ -21827,6 +21827,12 @@ IsTopLevelWidget
 GdkIsX11Display
 (
 )
+&
+&
+aWin
+=
+=
+toplevel
 )
 {
 /
