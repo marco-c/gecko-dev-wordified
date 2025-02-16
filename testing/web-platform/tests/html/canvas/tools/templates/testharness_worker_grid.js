@@ -129,7 +129,7 @@ js
 for
 variant
 in
-worker_variants
+variants
 %
 }
 {
@@ -247,7 +247,7 @@ endif
 {
 variant
 .
-code_worker
+code
 |
 trim
 |
