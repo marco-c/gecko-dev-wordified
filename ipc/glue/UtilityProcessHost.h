@@ -1143,7 +1143,7 @@ defined
 (
 MOZ_SANDBOX
 )
-RefPtr
+UniquePtr
 <
 SandboxBroker
 >

@@ -9356,7 +9356,10 @@ defined
 (
 MOZ_SANDBOX
 )
-RefPtr
+mozilla
+:
+:
+UniquePtr
 <
 SandboxBroker
 >
