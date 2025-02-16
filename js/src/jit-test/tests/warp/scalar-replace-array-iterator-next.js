@@ -12,6 +12,12 @@ ion
 pruning
 =
 on
+;
+-
+-
+no
+-
+threads
 /
 /
 Verify
