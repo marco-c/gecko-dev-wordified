@@ -1102,10 +1102,11 @@ Tools
 Search
 "
 :
-BrowserSearch
+SearchUIUtils
 .
 webSearch
 (
+window
 )
 ;
 break

@@ -1362,10 +1362,11 @@ event
 .
 target
 ;
-BrowserSearch
+SearchUIUtils
 .
 loadSearchFromContext
 (
+window
 searchTerms
 usePrivate
 principal
@@ -1397,10 +1398,11 @@ event
 .
 target
 ;
-BrowserSearch
+SearchUIUtils
 .
 loadSearchFromContext
 (
+window
 searchTerms
 true
 principal
