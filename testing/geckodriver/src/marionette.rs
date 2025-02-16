@@ -11430,7 +11430,6 @@ fs
 :
 read_dir
 (
-&
 minidumps_path
 )
 .
@@ -11538,18 +11537,16 @@ true
 }
 }
 }
-assert_eq
+assert
 !
 (
 dmp_file_present
-true
 )
 ;
-assert_eq
+assert
 !
 (
 extra_file_present
-true
 )
 ;
 }
@@ -11627,18 +11624,11 @@ extra
 ]
 ;
 for
-(
-_
 file_extension
-)
 in
 file_extensions
 .
 iter_mut
-(
-)
-.
-enumerate
 (
 )
 {
@@ -11760,7 +11750,6 @@ test
 ;
 create_minidump_files
 (
-&
 profile_path
 filename
 )
@@ -11866,7 +11855,6 @@ test_1
 ;
 create_minidump_files
 (
-&
 profile_path
 filename_1
 )
@@ -11880,7 +11868,6 @@ test_2
 ;
 create_minidump_files
 (
-&
 profile_path
 filename_2
 )
@@ -11985,7 +11972,6 @@ path
 ;
 create_minidump_folder
 (
-&
 profile_path
 )
 ;
@@ -12130,7 +12116,6 @@ minidumps_folder
 =
 create_minidump_folder
 (
-&
 profile_path
 )
 ;

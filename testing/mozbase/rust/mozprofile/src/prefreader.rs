@@ -416,14 +416,10 @@ Position
 )
 }
 impl
-<
-'
-a
->
 PrefToken
 <
 '
-a
+_
 >
 {
 fn
@@ -1364,8 +1360,6 @@ TokenType
 Int
 =
 >
-{
-return
 match
 buf
 .
@@ -1417,7 +1411,6 @@ buf
 )
 position
 )
-}
 }
 TokenType
 :

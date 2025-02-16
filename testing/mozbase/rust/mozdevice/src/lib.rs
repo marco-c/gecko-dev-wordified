@@ -2904,9 +2904,8 @@ id
 "
 )
 .
-map_or
+is_ok_and
 (
-false
 uid_check
 )
 ;
@@ -2925,9 +2924,8 @@ id
 "
 )
 .
-map_or
+is_ok_and
 (
-false
 uid_check
 )
 ;
@@ -2947,9 +2945,8 @@ id
 "
 )
 .
-map_or
+is_ok_and
 (
-false
 uid_check
 )
 ;

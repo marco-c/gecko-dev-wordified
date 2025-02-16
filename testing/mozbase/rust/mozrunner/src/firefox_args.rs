@@ -1090,15 +1090,9 @@ into
 }
 }
 impl
-<
-'
-a
->
 From
 <
 &
-'
-a
 OsString
 >
 for
