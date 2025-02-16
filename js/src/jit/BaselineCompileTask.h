@@ -323,7 +323,7 @@ BaselineCompileTask
 CompileRealm
 *
 realm
-TempAllocator
+LifoAlloc
 *
 alloc
 BaselineSnapshot
@@ -460,7 +460,7 @@ CompileRealm
 *
 realm_
 ;
-TempAllocator
+LifoAlloc
 *
 alloc_
 ;
