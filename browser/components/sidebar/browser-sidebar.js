@@ -1214,6 +1214,13 @@ menu
 -
 megalist
 "
+gleanEvent
+:
+Glean
+.
+contextualManager
+.
+sidebarToggle
 }
 )
 ;
