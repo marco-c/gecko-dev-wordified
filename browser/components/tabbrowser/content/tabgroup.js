@@ -407,6 +407,12 @@ now
 ;
 this
 .
+saveOnWindowClose
+=
+true
+;
+this
+.
 addEventListener
 (
 "
