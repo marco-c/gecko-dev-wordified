@@ -1,5 +1,7 @@
 import
 imghdr
+import
+json
 from
 base64
 import
@@ -264,6 +266,9 @@ assert_error
 (
 response
 error_code
+data
+=
+None
 )
 :
     
@@ -324,6 +329,20 @@ the
 expected
 error
 code
+    
+:
+param
+data
+:
+Optional
+dictionary
+containing
+additional
+information
+about
+the
+error
+.
     
 "
 "
@@ -404,6 +423,31 @@ stacktrace
 ]
 str
 )
+    
+if
+data
+is
+not
+None
+:
+        
+assert
+response
+.
+body
+[
+"
+value
+"
+]
+[
+"
+data
+"
+]
+=
+=
+data
     
 assert_response_headers
 (
