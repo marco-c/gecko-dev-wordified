@@ -1624,7 +1624,6 @@ setCachedResponse
 (
 aURI
 aClipboardSequenceNumber
-aFlavors
 aAction
 )
 {
@@ -1637,7 +1636,6 @@ setCachedResponse
 (
 aURI
 aClipboardSequenceNumber
-aFlavors
 aAction
 )
 ;
@@ -1646,7 +1644,6 @@ getCachedResponse
 (
 aURI
 aClipboardSequenceNumber
-aFlavors
 aAction
 aIsValid
 )
@@ -1660,7 +1657,6 @@ getCachedResponse
 (
 aURI
 aClipboardSequenceNumber
-aFlavors
 aAction
 aIsValid
 )
