@@ -1497,6 +1497,15 @@ SelectionType
 :
 :
 eTargetText
+&
+&
+aType
+!
+=
+SelectionType
+:
+:
+eHighlight
 )
 {
 /
