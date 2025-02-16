@@ -26,6 +26,8 @@ codemirror
 .
 net
 /
+5
+/
 LICENSE
 (
 function
@@ -752,6 +754,7 @@ lastMatchIn
 (
 string
 regexp
+endMargin
 )
 {
 var
@@ -949,15 +952,6 @@ regexp
 start
 )
 {
-regexp
-=
-ensureFlags
-(
-regexp
-"
-gm
-"
-)
 var
 string
 chunk
