@@ -730,13 +730,6 @@ Vec
 <
 Url
 >
-pub
-(
-crate
-)
-system_access
-:
-bool
 /
 /
 /
@@ -1301,11 +1294,6 @@ self
 .
 settings
 .
-system_access
-self
-.
-settings
-.
 profile_root
 .
 as_deref
@@ -1341,11 +1329,6 @@ self
 settings
 .
 jsdebugger
-self
-.
-settings
-.
-system_access
 self
 .
 settings
