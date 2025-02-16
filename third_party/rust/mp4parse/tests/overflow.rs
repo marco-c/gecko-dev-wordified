@@ -78,6 +78,13 @@ test
 ]
 #
 [
+allow
+(
+arithmetic_overflow
+)
+]
+#
+[
 should_panic
 (
 expected
@@ -102,9 +109,7 @@ edge
 u32
 :
 :
-max_value
-(
-)
+MAX
 ;
 assert_eq
 !
@@ -121,9 +126,7 @@ edge
 u64
 :
 :
-max_value
-(
-)
+MAX
 ;
 assert_eq
 !
