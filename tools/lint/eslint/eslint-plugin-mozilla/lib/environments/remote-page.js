@@ -117,9 +117,6 @@ false
 RPMIsFirefox
 :
 false
-RPMIsNativeFallbackFailure
-:
-false
 RPMIsWindowPrivate
 :
 false
