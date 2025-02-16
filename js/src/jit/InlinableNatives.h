@@ -1092,9 +1092,13 @@ IntrinsicGuardToIteratorHelper
 \
 _
 (
-IntrinsicGuardToAsyncIteratorHelper
+IntrinsicGuardToIteratorRange
 )
 \
+_
+(
+IntrinsicGuardToAsyncIteratorHelper
+)
 \
 _
 (
