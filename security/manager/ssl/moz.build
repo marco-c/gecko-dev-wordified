@@ -90,14 +90,6 @@ DIRS
 =
 [
 "
-ipcclientcerts
-"
-]
-DIRS
-+
-=
-[
-"
 builtins
 "
 ]
@@ -922,6 +914,7 @@ ipdl
 Required
 by
 OSClientCerts
+IPCClientCerts
 and
 CredentialManagerSecret
 .
@@ -944,6 +937,9 @@ OS_LIBS
 [
 "
 advapi32
+"
+"
+bcrypt
 "
 "
 credui

@@ -410,6 +410,10 @@ extern
 crate
 localization_ffi
 ;
+extern
+crate
+ipcclientcerts
+;
 #
 [
 cfg

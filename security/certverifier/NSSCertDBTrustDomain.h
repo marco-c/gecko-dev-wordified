@@ -599,10 +599,6 @@ otherwise
 bool
 LoadIPCClientCertsModule
 (
-const
-nsCString
-&
-dir
 )
 ;
 /
