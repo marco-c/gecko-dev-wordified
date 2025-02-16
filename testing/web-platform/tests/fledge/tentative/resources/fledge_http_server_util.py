@@ -1159,6 +1159,17 @@ pair
 '
 adComponentBuyer
 '
+or
+            
+pair
+[
+0
+]
+=
+=
+'
+adBuyerAndSellerReportingIds
+'
 )
 :
           
