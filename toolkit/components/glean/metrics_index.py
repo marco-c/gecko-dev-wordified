@@ -469,6 +469,16 @@ yaml
 "
 dom
 /
+serviceworkers
+/
+metrics
+.
+yaml
+"
+    
+"
+dom
+/
 storage
 /
 metrics
