@@ -251,6 +251,12 @@ extends
 Window
 {
 }
+interface
+MozChannel
+extends
+nsIChannel
+{
+}
 type
 HTMLCollectionOf
 <
