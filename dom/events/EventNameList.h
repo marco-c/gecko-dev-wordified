@@ -2031,7 +2031,7 @@ DOCUMENT_ONLY_EVENT
 (
 readystatechange
 eReadyStateChange
-EventNameType_HTMLXUL
+EventNameType_XUL
 eBasicEventClass
 )
 EVENT
@@ -2045,7 +2045,7 @@ DOCUMENT_ONLY_EVENT
 (
 visibilitychange
 eVisibilityChange
-EventNameType_HTMLXUL
+EventNameType_XUL
 eBasicEventClass
 )
 NON_IDL_EVENT
