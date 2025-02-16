@@ -2217,7 +2217,7 @@ browser
 /
 components
 /
-pocket
+newtab
 /
 *
 *
@@ -2225,9 +2225,9 @@ pocket
 "
 browser
 /
-extensions
+components
 /
-newtab
+pocket
 /
 *
 *

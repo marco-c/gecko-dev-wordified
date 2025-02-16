@@ -259,7 +259,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 newtab
 /
@@ -518,7 +518,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 newtab
 /
@@ -952,7 +952,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 newtab
 /
@@ -1238,7 +1238,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 newtab
 /
@@ -1524,7 +1524,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 newtab
 /
@@ -2231,7 +2231,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 newtab
 /

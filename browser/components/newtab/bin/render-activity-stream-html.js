@@ -181,7 +181,7 @@ registration
 in
 browser
 /
-extensions
+components
 /
 newtab
 /

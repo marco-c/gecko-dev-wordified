@@ -241,7 +241,6 @@ to
 History
 .
 *
-*
 param
 {
 string
@@ -2583,7 +2582,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 newtab
 /
@@ -2882,7 +2881,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 newtab
 /
@@ -3743,7 +3742,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 newtab
 /
