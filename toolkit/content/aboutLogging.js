@@ -2335,8 +2335,6 @@ if
 (
 !
 options
-.
-size
 )
 {
 return
