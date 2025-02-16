@@ -392,6 +392,9 @@ bool
 baselineJit
 ;
 bool
+baselineBatching
+;
+bool
 ion
 ;
 bool
@@ -458,6 +461,9 @@ baselineInterpreterWarmUpThreshold
 ;
 uint32_t
 baselineJitWarmUpThreshold
+;
+uint32_t
+baselineQueueCapacity
 ;
 uint32_t
 trialInliningWarmUpThreshold
