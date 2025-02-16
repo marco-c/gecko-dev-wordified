@@ -1475,7 +1475,7 @@ GetInnerWindow
 StaticPrefs
 :
 :
-dom_workers_timeoutmanager
+dom_workers_timeoutmanager_AtStartup
 (
 )
 &
@@ -1484,7 +1484,7 @@ dom_workers_timeoutmanager
 StaticPrefs
 :
 :
-dom_workers_throttling_enabled
+dom_workers_throttling_enabled_AtStartup
 (
 )
 )
@@ -9211,7 +9211,7 @@ GetInnerWindow
 StaticPrefs
 :
 :
-dom_workers_timeoutmanager
+dom_workers_timeoutmanager_AtStartup
 (
 )
 &
@@ -9220,7 +9220,7 @@ dom_workers_timeoutmanager
 StaticPrefs
 :
 :
-dom_workers_throttling_enabled
+dom_workers_throttling_enabled_AtStartup
 (
 )
 )
