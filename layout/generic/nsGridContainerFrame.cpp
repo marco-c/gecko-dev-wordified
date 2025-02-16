@@ -17777,7 +17777,7 @@ InitializeItemBaselines
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -18123,7 +18123,7 @@ InitializeItemBaselinesInMasonryAxis
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -18735,7 +18735,7 @@ ResolveIntrinsicSize
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -18824,7 +18824,7 @@ ResolveIntrinsicSizeForNonSpanningItems
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 TrackSizingFunctions
 &
@@ -21909,7 +21909,7 @@ FindUsedFlexFraction
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -21976,7 +21976,7 @@ StretchFlexibleTracks
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -22035,7 +22035,7 @@ CalculateSizes
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -27455,7 +27455,7 @@ PlaceGridItems
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 RepeatTrackSizingInput
 &
@@ -39805,7 +39805,7 @@ PlaceGridItems
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 RepeatTrackSizingInput
 &
@@ -39832,7 +39832,7 @@ map
 ;
 mAreas
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -39843,7 +39843,7 @@ GetImplicitNamedAreas
 ;
 if
 (
-aState
+aGridRI
 .
 mFrame
 -
@@ -39853,7 +39853,7 @@ HasSubgridItems
 )
 |
 |
-aState
+aGridRI
 .
 mFrame
 -
@@ -39869,7 +39869,7 @@ auto
 *
 uts
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -39934,7 +39934,7 @@ any
 subgrid
 items
 .
-aState
+aGridRI
 .
 mFrame
 -
@@ -40087,7 +40087,7 @@ nsStylePosition
 const
 gridStyle
 =
-aState
+aGridRI
 .
 mGridStyle
 ;
@@ -40140,7 +40140,7 @@ true
 if
 (
 !
-aState
+aGridRI
 .
 mFrame
 -
@@ -40150,7 +40150,7 @@ IsColSubgrid
 )
 )
 {
-aState
+aGridRI
 .
 mColFunctions
 .
@@ -40166,7 +40166,7 @@ mMin
 .
 ISize
 (
-aState
+aGridRI
 .
 mWM
 )
@@ -40176,7 +40176,7 @@ mSize
 .
 ISize
 (
-aState
+aGridRI
 .
 mWM
 )
@@ -40186,7 +40186,7 @@ mMax
 .
 ISize
 (
-aState
+aGridRI
 .
 mWM
 )
@@ -40208,7 +40208,7 @@ width
 ;
 mExplicitGridColEnd
 =
-aState
+aGridRI
 .
 mColFunctions
 .
@@ -40225,7 +40225,7 @@ auto
 *
 subgrid
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -40294,7 +40294,7 @@ Inline
 auto
 parentWM
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -40310,7 +40310,7 @@ GetWritingMode
 ;
 subgridAxisIsSameDirection
 =
-aState
+aGridRI
 .
 mWM
 .
@@ -40333,7 +40333,7 @@ colLineNameMap
 (
 gridStyle
 mAreas
-aState
+aGridRI
 .
 mColFunctions
 parentLineNameMap
@@ -40344,7 +40344,7 @@ subgridAxisIsSameDirection
 if
 (
 !
-aState
+aGridRI
 .
 mFrame
 -
@@ -40361,7 +40361,7 @@ nscoord
 >
 containBSize
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -40399,7 +40399,7 @@ mSize
 .
 BSize
 (
-aState
+aGridRI
 .
 mWM
 )
@@ -40419,7 +40419,7 @@ mMin
 .
 BSize
 (
-aState
+aGridRI
 .
 mWM
 )
@@ -40429,7 +40429,7 @@ mMax
 .
 BSize
 (
-aState
+aGridRI
 .
 mWM
 )
@@ -40443,7 +40443,7 @@ mSize
 .
 BSize
 (
-aState
+aGridRI
 .
 mWM
 )
@@ -40452,7 +40452,7 @@ mWM
 (
 )
 ;
-aState
+aGridRI
 .
 mRowFunctions
 .
@@ -40468,7 +40468,7 @@ mMin
 .
 BSize
 (
-aState
+aGridRI
 .
 mWM
 )
@@ -40479,7 +40479,7 @@ mMax
 .
 BSize
 (
-aState
+aGridRI
 .
 mWM
 )
@@ -40505,7 +40505,7 @@ Length
 ;
 mExplicitGridRowEnd
 =
-aState
+aGridRI
 .
 mRowFunctions
 .
@@ -40530,7 +40530,7 @@ auto
 *
 subgrid
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -40599,7 +40599,7 @@ Block
 auto
 parentWM
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -40615,7 +40615,7 @@ GetWritingMode
 ;
 subgridAxisIsSameDirection
 =
-aState
+aGridRI
 .
 mWM
 .
@@ -40638,7 +40638,7 @@ rowLineNameMap
 (
 gridStyle
 mAreas
-aState
+aGridRI
 .
 mRowFunctions
 parentLineNameMap
@@ -40650,7 +40650,7 @@ const
 bool
 isSubgridOrItemInSubgrid
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -40865,7 +40865,7 @@ minRow
 =
 1
 ;
-aState
+aGridRI
 .
 mGridItems
 .
@@ -40873,7 +40873,7 @@ ClearAndRetainStorage
 (
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -40885,7 +40885,7 @@ for
 (
 ;
 !
-aState
+aGridRI
 .
 mIter
 .
@@ -40893,7 +40893,7 @@ AtEnd
 (
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -40907,7 +40907,7 @@ nsIFrame
 child
 =
 *
-aState
+aGridRI
 .
 mIter
 ;
@@ -40915,7 +40915,7 @@ GridItemInfo
 *
 info
 =
-aState
+aGridRI
 .
 mGridItems
 .
@@ -40936,7 +40936,7 @@ gridStyle
 ;
 MOZ_ASSERT
 (
-aState
+aGridRI
 .
 mIter
 .
@@ -40945,7 +40945,7 @@ ItemIndex
 )
 =
 =
-aState
+aGridRI
 .
 mGridItems
 .
@@ -41072,7 +41072,7 @@ mExplicitGridOffsetRow
 -
 minRow
 ;
-aState
+aGridRI
 .
 mColFunctions
 .
@@ -41080,7 +41080,7 @@ mExplicitGridOffset
 =
 mExplicitGridOffsetCol
 ;
-aState
+aGridRI
 .
 mRowFunctions
 .
@@ -41114,7 +41114,7 @@ const
 bool
 isRowMasonry
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -41131,7 +41131,7 @@ const
 bool
 isColMasonry
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -41173,7 +41173,7 @@ mGridColEnd
 :
 mGridRowEnd
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -41185,7 +41185,7 @@ for
 (
 ;
 !
-aState
+aGridRI
 .
 mIter
 .
@@ -41193,7 +41193,7 @@ AtEnd
 (
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -41206,11 +41206,11 @@ auto
 &
 item
 =
-aState
+aGridRI
 .
 mGridItems
 [
-aState
+aGridRI
 .
 mIter
 .
@@ -41325,7 +41325,7 @@ item
 .
 MaybeInhibitSubgridInMasonry
 (
-aState
+aGridRI
 .
 mFrame
 gridAxisTrackCount
@@ -41351,7 +41351,7 @@ grid
 .
 SubgridPlaceGridItems
 (
-aState
+aGridRI
 this
 item
 )
@@ -41559,7 +41559,7 @@ clampMaxColLine
 :
 clampMaxRowLine
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -41571,7 +41571,7 @@ for
 (
 ;
 !
-aState
+aGridRI
 .
 mIter
 .
@@ -41579,7 +41579,7 @@ AtEnd
 (
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -41592,11 +41592,11 @@ auto
 &
 item
 =
-aState
+aGridRI
 .
 mGridItems
 [
-aState
+aGridRI
 .
 mIter
 .
@@ -41711,7 +41711,7 @@ item
 .
 MaybeInhibitSubgridInMasonry
 (
-aState
+aGridRI
 .
 mFrame
 gridAxisTrackCount
@@ -41737,7 +41737,7 @@ grid
 .
 SubgridPlaceGridItems
 (
-aState
+aGridRI
 this
 item
 )
@@ -41963,7 +41963,7 @@ clampMaxRowLine
 :
 clampMaxColLine
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -41975,7 +41975,7 @@ for
 (
 ;
 !
-aState
+aGridRI
 .
 mIter
 .
@@ -41983,7 +41983,7 @@ AtEnd
 (
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -41996,11 +41996,11 @@ auto
 &
 item
 =
-aState
+aGridRI
 .
 mGridItems
 [
-aState
+aGridRI
 .
 mIter
 .
@@ -42020,7 +42020,7 @@ mArea
 MOZ_ASSERT
 (
 *
-aState
+aGridRI
 .
 mIter
 =
@@ -42301,7 +42301,7 @@ item
 .
 MaybeInhibitSubgridInMasonry
 (
-aState
+aGridRI
 .
 mFrame
 gridAxisTrackCount
@@ -42327,7 +42327,7 @@ grid
 .
 SubgridPlaceGridItems
 (
-aState
+aGridRI
 this
 item
 )
@@ -42465,7 +42465,7 @@ LogicalAxis
 :
 Inline
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -42477,7 +42477,7 @@ for
 (
 ;
 !
-aState
+aGridRI
 .
 mIter
 .
@@ -42485,7 +42485,7 @@ AtEnd
 (
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -42498,11 +42498,11 @@ auto
 &
 item
 =
-aState
+aGridRI
 .
 mGridItems
 [
-aState
+aGridRI
 .
 mIter
 .
@@ -42553,7 +42553,7 @@ mStart
 }
 if
 (
-aState
+aGridRI
 .
 mFrame
 -
@@ -42628,14 +42628,14 @@ nsFrameList
 &
 children
 =
-aState
+aGridRI
 .
 mFrame
 -
 >
 GetChildList
 (
-aState
+aGridRI
 .
 mFrame
 -
@@ -42710,7 +42710,7 @@ mGridRowEnd
 =
 offsetToRowZero
 ;
-aState
+aGridRI
 .
 mAbsPosItems
 .
@@ -42731,7 +42731,7 @@ GridItemInfo
 *
 info
 =
-aState
+aGridRI
 .
 mAbsPosItems
 .
@@ -43081,7 +43081,7 @@ info
 >
 MaybeInhibitSubgridInMasonry
 (
-aState
+aGridRI
 .
 mFrame
 gridAxisTrackCount
@@ -43174,7 +43174,7 @@ info
 >
 InhibitSubgrid
 (
-aState
+aGridRI
 .
 mFrame
 LogicalAxis
@@ -43236,7 +43236,7 @@ info
 >
 InhibitSubgrid
 (
-aState
+aGridRI
 .
 mFrame
 LogicalAxis
@@ -43267,7 +43267,7 @@ grid
 .
 SubgridPlaceGridItems
 (
-aState
+aGridRI
 this
 *
 info
@@ -43342,7 +43342,7 @@ numEmptyCols
 ;
 if
 (
-aState
+aGridRI
 .
 mColFunctions
 .
@@ -43379,7 +43379,7 @@ CalculateAdjustForAutoFitElements
 (
 &
 numEmptyCols
-aState
+aGridRI
 .
 mColFunctions
 mGridColEnd
@@ -43439,7 +43439,7 @@ numEmptyRows
 ;
 if
 (
-aState
+aGridRI
 .
 mRowFunctions
 .
@@ -43476,7 +43476,7 @@ CalculateAdjustForAutoFitElements
 (
 &
 numEmptyRows
-aState
+aGridRI
 .
 mRowFunctions
 mGridRowEnd
@@ -43580,7 +43580,7 @@ auto
 &
 item
 :
-aState
+aGridRI
 .
 mGridItems
 )
@@ -43628,7 +43628,7 @@ auto
 &
 item
 :
-aState
+aGridRI
 .
 mAbsPosItems
 )
@@ -43712,7 +43712,7 @@ tracks
 auto
 colRepeatCount
 =
-aState
+aGridRI
 .
 mColFunctions
 .
@@ -43720,7 +43720,7 @@ NumRepeatTracks
 (
 )
 ;
-aState
+aGridRI
 .
 mColFunctions
 .
@@ -43734,7 +43734,7 @@ numEmptyCols
 auto
 rowRepeatCount
 =
-aState
+aGridRI
 .
 mRowFunctions
 .
@@ -43742,7 +43742,7 @@ NumRepeatTracks
 (
 )
 ;
-aState
+aGridRI
 .
 mRowFunctions
 .
@@ -43773,7 +43773,7 @@ if
 mAreas
 &
 &
-aState
+aGridRI
 .
 mFrame
 -
@@ -45512,7 +45512,7 @@ aGridItem
 const
 GridReflowInput
 &
-aState
+aGridRI
 gfxContext
 *
 aRC
@@ -45571,7 +45571,7 @@ GetParent
 )
 !
 =
-aState
+aGridRI
 .
 mFrame
 )
@@ -45889,11 +45889,11 @@ LogicalAxis
 :
 Block
 ?
-aState
+aGridRI
 .
 mRows
 :
-aState
+aGridRI
 .
 mCols
 ;
@@ -46136,7 +46136,7 @@ GetParent
 )
 !
 =
-aState
+aGridRI
 .
 mFrame
 )
@@ -46487,7 +46487,7 @@ sz
 else
 if
 (
-aState
+aGridRI
 .
 mCols
 .
@@ -46497,7 +46497,7 @@ mCanResolveLineRangeSize
 nscoord
 sz
 =
-aState
+aGridRI
 .
 mCols
 .
@@ -46629,7 +46629,7 @@ size
 MeasuringReflow
 (
 child
-aState
+aGridRI
 .
 mReflowInput
 aRC
@@ -46970,7 +46970,7 @@ aGridItem
 const
 GridReflowInput
 &
-aState
+aGridRI
 gfxContext
 *
 aRC
@@ -47025,7 +47025,7 @@ mPercentageBasis
 .
 emplace
 (
-aState
+aGridRI
 .
 PercentageBasisFor
 (
@@ -47041,7 +47041,7 @@ s
 ContentContribution
 (
 aGridItem
-aState
+aGridRI
 aRC
 aCBWM
 aAxis
@@ -47084,7 +47084,7 @@ aGridItem
 const
 GridReflowInput
 &
-aState
+aGridRI
 gfxContext
 *
 aRC
@@ -47139,7 +47139,7 @@ mPercentageBasis
 .
 emplace
 (
-aState
+aGridRI
 .
 PercentageBasisFor
 (
@@ -47155,7 +47155,7 @@ s
 ContentContribution
 (
 aGridItem
-aState
+aGridRI
 aRC
 aCBWM
 aAxis
@@ -47237,7 +47237,7 @@ aGridItem
 const
 GridReflowInput
 &
-aState
+aGridRI
 gfxContext
 *
 aRC
@@ -47427,7 +47427,7 @@ s
 MinContentContribution
 (
 aGridItem
-aState
+aGridRI
 aRC
 aCBWM
 aAxis
@@ -47467,7 +47467,7 @@ mPercentageBasis
 .
 emplace
 (
-aState
+aGridRI
 .
 PercentageBasisFor
 (
@@ -47943,7 +47943,7 @@ sz
 ContentContribution
 (
 aGridItem
-aState
+aGridRI
 aRC
 aCBWM
 aAxis
@@ -47993,7 +47993,7 @@ CalculateSizes
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -48121,7 +48121,7 @@ baseline
 shims
 InitializeItemBaselines
 (
-aState
+aGridRI
 aGridItems
 )
 ;
@@ -48136,7 +48136,7 @@ steps
 5
 ResolveIntrinsicSize
 (
-aState
+aGridRI
 aGridItems
 aFunctions
 aRange
@@ -48269,7 +48269,7 @@ flex
 tracks
 StretchFlexibleTracks
 (
-aState
+aGridRI
 aGridItems
 aFunctions
 freeSpace
@@ -48488,7 +48488,7 @@ ResolveIntrinsicSizeForNonSpanningItems
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 TrackSizingFunctions
 &
@@ -48512,14 +48512,14 @@ gfxContext
 rc
 =
 &
-aState
+aGridRI
 .
 mRenderingContext
 ;
 WritingMode
 wm
 =
-aState
+aGridRI
 .
 mWM
 ;
@@ -48679,7 +48679,7 @@ s
 MinContentContribution
 (
 aGridItem
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -48695,7 +48695,7 @@ s
 MaxContentContribution
 (
 aGridItem
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -48712,7 +48712,7 @@ s
 MinContribution
 (
 aGridItem
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -48756,7 +48756,7 @@ s
 MinContentContribution
 (
 aGridItem
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -48799,7 +48799,7 @@ s
 MaxContentContribution
 (
 aGridItem
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -48845,7 +48845,7 @@ s
 MinContentContribution
 (
 aGridItem
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -48915,7 +48915,7 @@ s
 MaxContentContribution
 (
 aGridItem
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -49537,7 +49537,7 @@ InitializeItemBaselines
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -49554,7 +49554,7 @@ mIsMasonry
 ;
 if
 (
-aState
+aGridRI
 .
 mFrame
 -
@@ -49600,7 +49600,7 @@ const
 WritingMode
 containerWM
 =
-aState
+aGridRI
 .
 mWM
 ;
@@ -49608,7 +49608,7 @@ ComputedStyle
 *
 containerStyle
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -50748,7 +50748,7 @@ auto
 rc
 =
 &
-aState
+aGridRI
 .
 mRenderingContext
 ;
@@ -50881,7 +50881,7 @@ NS_UNCONSTRAINEDSIZE
 MeasuringReflow
 (
 child
-aState
+aGridRI
 .
 mReflowInput
 rc
@@ -51727,7 +51727,7 @@ InitializeItemBaselinesInMasonryAxis
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -51768,7 +51768,7 @@ mIsMasonry
 WritingMode
 wm
 =
-aState
+aGridRI
 .
 mWM
 ;
@@ -51776,7 +51776,7 @@ ComputedStyle
 *
 containerSC
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -53981,7 +53981,7 @@ ResolveIntrinsicSize
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -54066,14 +54066,14 @@ gfxContext
 rc
 =
 &
-aState
+aGridRI
 .
 mRenderingContext
 ;
 WritingMode
 wm
 =
-aState
+aGridRI
 .
 mWM
 ;
@@ -54214,7 +54214,7 @@ const
 bool
 isMasonryInOtherAxis
 =
-aState
+aGridRI
 .
 mFrame
 -
@@ -54513,7 +54513,7 @@ GetWritingMode
 auto
 percentageBasis
 =
-aState
+aGridRI
 .
 PercentageBasisFor
 (
@@ -54716,7 +54716,7 @@ span
 items
 ResolveIntrinsicSizeForNonSpanningItems
 (
-aState
+aGridRI
 aFunctions
 aPercentageBasis
 aConstraint
@@ -55069,7 +55069,7 @@ minSize
 MinContribution
 (
 gridItem
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -55114,7 +55114,7 @@ minContent
 MinContentContribution
 (
 gridItem
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -55159,7 +55159,7 @@ maxContent
 MaxContentContribution
 (
 gridItem
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -56858,7 +56858,7 @@ FindUsedFlexFraction
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -57040,7 +57040,7 @@ possiblyDividedBaseSize
 WritingMode
 wm
 =
-aState
+aGridRI
 .
 mWM
 ;
@@ -57049,7 +57049,7 @@ gfxContext
 rc
 =
 &
-aState
+aGridRI
 .
 mRenderingContext
 ;
@@ -57128,7 +57128,7 @@ pb
 =
 Some
 (
-aState
+aGridRI
 .
 PercentageBasisFor
 (
@@ -57143,7 +57143,7 @@ spaceToFill
 ContentContribution
 (
 item
-aState
+aGridRI
 rc
 wm
 mAxis
@@ -57323,7 +57323,7 @@ StretchFlexibleTracks
 (
 GridReflowInput
 &
-aState
+aGridRI
 nsTArray
 <
 GridItemInfo
@@ -57433,7 +57433,7 @@ NS_UNCONSTRAINEDSIZE
 ;
 if
 (
-aState
+aGridRI
 .
 mReflowInput
 )
@@ -57442,7 +57442,7 @@ auto
 *
 ri
 =
-aState
+aGridRI
 .
 mReflowInput
 ;
@@ -57573,7 +57573,7 @@ fr
 =
 FindUsedFlexFraction
 (
-aState
+aGridRI
 aGridItems
 flexTracks
 aFunctions
@@ -61354,7 +61354,7 @@ GetNearestFragmentainer
 const
 GridReflowInput
 &
-aState
+aGridRI
 )
 const
 {
@@ -61372,7 +61372,7 @@ ReflowInput
 *
 gridRI
 =
-aState
+aGridRI
 .
 mReflowInput
 ;
@@ -61394,7 +61394,7 @@ data
 WritingMode
 wm
 =
-aState
+aGridRI
 .
 mWM
 ;
@@ -61540,7 +61540,7 @@ data
 >
 mToFragmentainerEnd
 =
-aState
+aGridRI
 .
 mFragBStart
 +
@@ -61551,7 +61551,7 @@ AvailableBSize
 (
 )
 -
-aState
+aGridRI
 .
 mBorderPadding
 .
@@ -61594,7 +61594,7 @@ const
 auto
 numRows
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -61614,7 +61614,7 @@ numRows
 0
 &
 &
-aState
+aGridRI
 .
 mRows
 .
@@ -61681,7 +61681,7 @@ bSize
 nscoord
 gridEnd
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -61706,7 +61706,7 @@ gridEnd
 &
 bSize
 >
-aState
+aGridRI
 .
 mFragBStart
 ;
@@ -61747,7 +61747,7 @@ aFragmentainer
 const
 GridReflowInput
 &
-aState
+aGridRI
 const
 LogicalRect
 &
@@ -61779,7 +61779,7 @@ Style
 WritingMode
 wm
 =
-aState
+aGridRI
 .
 mReflowInput
 -
@@ -61909,7 +61909,7 @@ IsDefinite
 ;
 cb
 =
-aState
+aGridRI
 .
 ContainingBlockFor
 (
@@ -62010,7 +62010,7 @@ BStart
 wm
 )
 -
-aState
+aGridRI
 .
 mFragBStart
 ;
@@ -62060,7 +62060,7 @@ aFragmentainer
 >
 mToFragmentainerEnd
 -
-aState
+aGridRI
 .
 mFragBStart
 -
@@ -62098,7 +62098,7 @@ Origin
 wm
 )
 ;
-aState
+aGridRI
 .
 mRows
 .
@@ -62108,7 +62108,7 @@ AlignBaselineSubtree
 aGridItemInfo
 )
 ;
-aState
+aGridRI
 .
 mCols
 .
@@ -62881,7 +62881,7 @@ childRI
 (
 pc
 *
-aState
+aGridRI
 .
 mReflowInput
 aChild
@@ -63409,7 +63409,7 @@ mStart
 ;
 aCBSize
 =
-aState
+aGridRI
 .
 TracksFor
 (
@@ -63603,7 +63603,7 @@ ReflowInFragmentainer
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 LogicalRect
 &
@@ -63634,7 +63634,7 @@ IsEmpty
 ;
 MOZ_ASSERT
 (
-aState
+aGridRI
 .
 mReflowInput
 )
@@ -63672,7 +63672,7 @@ GridItemInfo
 >
 sortedItems
 (
-aState
+aGridRI
 .
 mGridItems
 .
@@ -63688,7 +63688,7 @@ nsIFrame
 >
 placeholders
 (
-aState
+aGridRI
 .
 mAbsPosItems
 .
@@ -63697,7 +63697,7 @@ Length
 )
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -63716,7 +63716,7 @@ for
 (
 ;
 !
-aState
+aGridRI
 .
 mIter
 .
@@ -63724,7 +63724,7 @@ AtEnd
 (
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -63738,7 +63738,7 @@ nsIFrame
 child
 =
 *
-aState
+aGridRI
 .
 mIter
 ;
@@ -63759,11 +63759,11 @@ GridItemInfo
 info
 =
 &
-aState
+aGridRI
 .
 mGridItems
 [
-aState
+aGridRI
 .
 mIter
 .
@@ -63923,7 +63923,7 @@ Nothing
 )
 &
 aFragmentainer
-aState
+aGridRI
 aContentArea
 aDesiredSize
 childStatus
@@ -63993,7 +63993,7 @@ const
 uint32_t
 startRow
 =
-aState
+aGridRI
 .
 mStartRow
 ;
@@ -64001,7 +64001,7 @@ const
 uint32_t
 numRows
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -64014,7 +64014,7 @@ Length
 bool
 isBDBClone
 =
-aState
+aGridRI
 .
 mReflowInput
 -
@@ -64033,13 +64033,13 @@ Clone
 nscoord
 bpBEnd
 =
-aState
+aGridRI
 .
 mBorderPadding
 .
 BEnd
 (
-aState
+aGridRI
 .
 mWM
 )
@@ -64085,7 +64085,7 @@ auto
 &
 sz
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -64199,7 +64199,7 @@ avoidBreakInside
 ShouldAvoidBreakInside
 (
 *
-aState
+aGridRI
 .
 mReflowInput
 )
@@ -64329,7 +64329,7 @@ SetInlineLineBreakBeforeAndReset
 )
 ;
 return
-aState
+aGridRI
 .
 mFragBStart
 ;
@@ -64626,7 +64626,7 @@ SetInlineLineBreakBeforeAndReset
 )
 ;
 return
-aState
+aGridRI
 .
 mFragBStart
 ;
@@ -64646,7 +64646,7 @@ fragment
 nscoord
 bEndRow
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -64706,7 +64706,7 @@ clampedBSize
 ClampToCSSMaxBSize
 (
 bSize
-aState
+aGridRI
 .
 mReflowInput
 )
@@ -64784,7 +64784,7 @@ else
 {
 bSize
 =
-aState
+aGridRI
 .
 mReflowInput
 -
@@ -64800,14 +64800,14 @@ else
 {
 bSize
 =
-aState
+aGridRI
 .
 mReflowInput
 -
 >
 ApplyMinMaxBSize
 (
-aState
+aGridRI
 .
 mReflowInput
 -
@@ -64856,7 +64856,7 @@ SetInlineLineBreakBeforeAndReset
 )
 ;
 return
-aState
+aGridRI
 .
 mFragBStart
 ;
@@ -64940,7 +64940,7 @@ std
 max
 (
 availableSize
-aState
+aGridRI
 .
 mFragBStart
 +
@@ -65131,7 +65131,7 @@ endRow
 ;
 bEndRow
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -65160,7 +65160,7 @@ bSize
 ClampToCSSMaxBSize
 (
 bSize
-aState
+aGridRI
 .
 mReflowInput
 )
@@ -65187,7 +65187,7 @@ bSize
 ClampToCSSMaxBSize
 (
 bEndRow
-aState
+aGridRI
 .
 mReflowInput
 &
@@ -65288,7 +65288,7 @@ bSize
 ClampToCSSMaxBSize
 (
 bEndRow
-aState
+aGridRI
 .
 mReflowInput
 &
@@ -65383,7 +65383,7 @@ bEndRow
 return
 ReflowRowsInFragmentainer
 (
-aState
+aGridRI
 aContentArea
 aDesiredSize
 aStatus
@@ -65405,7 +65405,7 @@ ReflowRowsInFragmentainer
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 LogicalRect
 &
@@ -65464,7 +65464,7 @@ const
 auto
 rowCount
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -65481,7 +65481,7 @@ const
 auto
 wm
 =
-aState
+aGridRI
 .
 mWM
 ;
@@ -65508,7 +65508,7 @@ auto
 &
 sz
 :
-aState
+aGridRI
 .
 mCols
 .
@@ -65529,7 +65529,7 @@ nsLayoutUtils
 :
 ResolveGapToLength
 (
-aState
+aGridRI
 .
 mGridStyle
 -
@@ -65543,7 +65543,7 @@ wm
 )
 )
 ;
-aState
+aGridRI
 .
 mCols
 .
@@ -65581,7 +65581,7 @@ rowCount
 bool
 isBDBClone
 =
-aState
+aGridRI
 .
 mReflowInput
 -
@@ -65992,7 +65992,7 @@ auto
 &
 sz
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -66069,7 +66069,7 @@ maxRowSize
 =
 gridAvailableSize
 -
-aState
+aGridRI
 .
 mBorderPadding
 .
@@ -66167,7 +66167,7 @@ Extent
 1
 )
 ;
-aState
+aGridRI
 .
 mCols
 .
@@ -66385,7 +66385,7 @@ needed
 nscoord
 bSize
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -66412,7 +66412,7 @@ GridLineSide
 BeforeGridGap
 )
 -
-aState
+aGridRI
 .
 mRows
 .
@@ -66443,7 +66443,7 @@ bSize
 )
 &
 aFragmentainer
-aState
+aGridRI
 aContentArea
 aDesiredSize
 childStatus
@@ -66561,7 +66561,7 @@ as
 aEndRow
 |
 .
-aState
+aGridRI
 .
 mRows
 .
@@ -66573,12 +66573,12 @@ maxRowSize
 ;
 if
 (
-aState
+aGridRI
 .
 mSharedGridData
 )
 {
-aState
+aGridRI
 .
 mSharedGridData
 -
@@ -66648,7 +66648,7 @@ Clear
 nscoord
 bEndRow
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -66679,7 +66679,7 @@ aBSize
 ClampToCSSMaxBSize
 (
 bEndRow
-aState
+aGridRI
 .
 mReflowInput
 &
@@ -66699,14 +66699,14 @@ IsIncomplete
 {
 aBSize
 =
-aState
+aGridRI
 .
 mReflowInput
 -
 >
 ApplyMinMaxBSize
 (
-aState
+aGridRI
 .
 mReflowInput
 -
@@ -66761,7 +66761,7 @@ row
 ;
 aBSize
 =
-aState
+aGridRI
 .
 mRows
 .
@@ -67142,7 +67142,7 @@ before
 aEndRow
 |
 .
-aState
+aGridRI
 .
 mNextFragmentStartRow
 =
@@ -67155,7 +67155,7 @@ aEndRow
 rowCount
 )
 {
-aState
+aGridRI
 .
 mRows
 .
@@ -67166,12 +67166,12 @@ aEndRow
 ;
 if
 (
-aState
+aGridRI
 .
 mSharedGridData
 )
 {
-aState
+aGridRI
 .
 mSharedGridData
 -
@@ -67266,7 +67266,7 @@ after
 this
 point
 .
-aState
+aGridRI
 .
 mIter
 .
@@ -67315,7 +67315,7 @@ after
 this
 point
 .
-aState
+aGridRI
 .
 mIter
 .
@@ -67374,7 +67374,7 @@ maxSize
 masonryAxisGap
 )
 ;
-aState
+aGridRI
 .
 AlignJustifyContentInMasonryAxis
 (
@@ -67715,7 +67715,7 @@ MasonryLayout
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 LogicalRect
 &
@@ -67751,7 +67751,7 @@ recordAutoPlacement
 [
 this
 &
-aState
+aGridRI
 ]
 (
 GridItemInfo
@@ -67790,7 +67790,7 @@ if
 (
 MOZ_UNLIKELY
 (
-aState
+aGridRI
 .
 mSharedGridData
 &
@@ -67852,7 +67852,7 @@ auto
 &
 sharedItem
 :
-aState
+aGridRI
 .
 mSharedGridData
 -
@@ -67960,7 +67960,7 @@ GridItemInfo
 >
 sortedItems
 (
-aState
+aGridRI
 .
 mGridItems
 .
@@ -67969,7 +67969,7 @@ Length
 )
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -68015,7 +68015,7 @@ const
 auto
 wm
 =
-aState
+aGridRI
 .
 mWM
 ;
@@ -68023,7 +68023,7 @@ for
 (
 ;
 !
-aState
+aGridRI
 .
 mIter
 .
@@ -68031,7 +68031,7 @@ AtEnd
 (
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -68045,7 +68045,7 @@ nsIFrame
 child
 =
 *
-aState
+aGridRI
 .
 mIter
 ;
@@ -68068,11 +68068,11 @@ GridItemInfo
 item
 =
 &
-aState
+aGridRI
 .
 mGridItems
 [
-aState
+aGridRI
 .
 mIter
 .
@@ -68166,7 +68166,7 @@ this
 item
 =
 &
-aState
+aGridRI
 .
 mAbsPosItems
 [
@@ -68423,7 +68423,7 @@ Nothing
 (
 )
 nullptr
-aState
+aGridRI
 aContentArea
 aDesiredSize
 childStatus
@@ -68436,7 +68436,7 @@ const
 auto
 masonryAutoFlow
 =
-aState
+aGridRI
 .
 mGridStyle
 -
@@ -68545,7 +68545,7 @@ nscoord_MAX
 nscoord
 fragStartPos
 =
-aState
+aGridRI
 .
 mFragBStart
 ;
@@ -68559,7 +68559,7 @@ aFragmentainer
 ShouldAvoidBreakInside
 (
 *
-aState
+aGridRI
 .
 mReflowInput
 )
@@ -68609,7 +68609,7 @@ const
 auto
 gridAxisTrackCount
 =
-aState
+aGridRI
 .
 TracksFor
 (
@@ -68626,7 +68626,7 @@ auto
 &
 masonryTracks
 =
-aState
+aGridRI
 .
 TracksFor
 (
@@ -68805,14 +68805,14 @@ LogicalAxis
 :
 Block
 ?
-aState
+aGridRI
 .
 mGridStyle
 -
 >
 mRowGap
 :
-aState
+aGridRI
 .
 mGridStyle
 -
@@ -69909,8 +69909,8 @@ masonryTracks
 .
 InitializeItemBaselinesInMasonryAxis
 (
-aState
-aState
+aGridRI
+aGridRI
 .
 mGridItems
 aSet
@@ -70165,7 +70165,7 @@ Nothing
 (
 )
 aFragmentainer
-aState
+aGridRI
 aContentArea
 aDesiredSize
 childStatus
@@ -70700,7 +70700,7 @@ Nothing
 (
 )
 nullptr
-aState
+aGridRI
 contentArea
 aDesiredSize
 childStatus
@@ -71081,7 +71081,7 @@ Nothing
 (
 )
 aFragmentainer
-aState
+aGridRI
 aContentArea
 aDesiredSize
 childStatus
@@ -71127,7 +71127,7 @@ else
 LogicalSize
 percentBasis
 (
-aState
+aGridRI
 .
 PercentageBasisFor
 (
@@ -71170,9 +71170,9 @@ ContentContribution
 (
 *
 item
-aState
+aGridRI
 &
-aState
+aGridRI
 .
 mRenderingContext
 wm
@@ -71461,7 +71461,7 @@ after
 this
 point
 .
-aState
+aGridRI
 .
 mIter
 .
@@ -71510,7 +71510,7 @@ after
 this
 point
 .
-aState
+aGridRI
 .
 mIter
 .
@@ -71571,7 +71571,7 @@ SizingConstraint
 NoConstraint
 )
 {
-aState
+aGridRI
 .
 AlignJustifyContentInMasonryAxis
 (
@@ -71681,7 +71681,7 @@ ReflowChildren
 (
 GridReflowInput
 &
-aState
+aGridRI
 const
 LogicalRect
 &
@@ -71701,7 +71701,7 @@ aStatus
 WritingMode
 wm
 =
-aState
+aGridRI
 .
 mReflowInput
 -
@@ -71722,7 +71722,7 @@ wm
 ;
 MOZ_ASSERT
 (
-aState
+aGridRI
 .
 mReflowInput
 )
@@ -71776,7 +71776,7 @@ PresContext
 (
 )
 *
-aState
+aGridRI
 .
 mReflowInput
 ocBounds
@@ -71797,7 +71797,7 @@ fragmentainer
 =
 GetNearestFragmentainer
 (
-aState
+aGridRI
 )
 ;
 /
@@ -71863,7 +71863,7 @@ isSome
 )
 )
 {
-aState
+aGridRI
 .
 mInFragmentainer
 =
@@ -71878,7 +71878,7 @@ sz
 =
 MasonryLayout
 (
-aState
+aGridRI
 aContentArea
 SizingConstraint
 :
@@ -71908,7 +71908,7 @@ Block
 {
 bSize
 =
-aState
+aGridRI
 .
 mReflowInput
 -
@@ -71927,7 +71927,7 @@ NS_UNCONSTRAINEDSIZE
 {
 bSize
 =
-aState
+aGridRI
 .
 mReflowInput
 -
@@ -72000,7 +72000,7 @@ below
 .
 MasonryLayout
 (
-aState
+aGridRI
 aContentArea
 SizingConstraint
 :
@@ -72013,7 +72013,7 @@ aContainerSize
 )
 ;
 }
-aState
+aGridRI
 .
 mInFragmentainer
 =
@@ -72023,7 +72023,7 @@ bSize
 =
 ReflowInFragmentainer
 (
-aState
+aGridRI
 aContentArea
 aDesiredSize
 aStatus
@@ -72035,7 +72035,7 @@ aContainerSize
 }
 else
 {
-aState
+aGridRI
 .
 mIter
 .
@@ -72054,7 +72054,7 @@ for
 (
 ;
 !
-aState
+aGridRI
 .
 mIter
 .
@@ -72062,7 +72062,7 @@ AtEnd
 (
 )
 ;
-aState
+aGridRI
 .
 mIter
 .
@@ -72076,7 +72076,7 @@ nsIFrame
 child
 =
 *
-aState
+aGridRI
 .
 mIter
 ;
@@ -72101,11 +72101,11 @@ IsPlaceholderFrame
 info
 =
 &
-aState
+aGridRI
 .
 mGridItems
 [
-aState
+aGridRI
 .
 mIter
 .
@@ -72127,7 +72127,7 @@ Nothing
 (
 )
 nullptr
-aState
+aGridRI
 aContentArea
 aDesiredSize
 childStatus
@@ -72253,7 +72253,7 @@ CB
 LogicalMargin
 pad
 (
-aState
+aGridRI
 .
 mReflowInput
 -
@@ -72347,7 +72347,7 @@ MOZ_ASSERT
 (
 i
 <
-aState
+aGridRI
 .
 mAbsPosItems
 .
@@ -72358,7 +72358,7 @@ Length
 ;
 MOZ_ASSERT
 (
-aState
+aGridRI
 .
 mAbsPosItems
 [
@@ -72375,7 +72375,7 @@ GridArea
 &
 area
 =
-aState
+aGridRI
 .
 mAbsPosItems
 [
@@ -72387,7 +72387,7 @@ mArea
 LogicalRect
 itemCB
 =
-aState
+aGridRI
 .
 ContainingBlockForAbsPos
 (
@@ -72539,7 +72539,7 @@ PresContext
 (
 )
 *
-aState
+aGridRI
 .
 mReflowInput
 aStatus
