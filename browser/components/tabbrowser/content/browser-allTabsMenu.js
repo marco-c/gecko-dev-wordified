@@ -385,7 +385,7 @@ getElementById
 "
 allTabsMenu
 -
-tabsSeparator
+hiddenTabsSeparator
 "
 )
 filterFn
