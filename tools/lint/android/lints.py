@@ -261,6 +261,7 @@ android
 :
         
 return
+-
 1
     
 if
@@ -272,12 +273,26 @@ in
 setupargs
 :
         
-print
+setupargs
+[
+"
+log
+"
+]
+.
+debug
 (
             
+f
 "
 Skipping
 {
+setupargs
+[
+'
+name
+'
+]
 }
 :
 a
@@ -288,22 +303,11 @@ is
 required
 !
 "
-.
-format
-(
-                
-setupargs
-[
-"
-name
-"
-]
-            
-)
         
 )
         
 return
+-
 1
     
 return
