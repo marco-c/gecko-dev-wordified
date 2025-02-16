@@ -26793,7 +26793,7 @@ initial_tsn
 }
 TEST
 (
-DcSctpSocketResendInitTest
+DcSctpSocketTest
 ConnectionCanContinueFromFirstInitAck
 )
 {
@@ -27167,7 +27167,7 @@ kLargeMessageSize
 }
 TEST
 (
-DcSctpSocketResendInitTest
+DcSctpSocketTest
 ConnectionCanContinueFromSecondInitAck
 )
 {
