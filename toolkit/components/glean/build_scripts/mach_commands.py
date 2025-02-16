@@ -2777,7 +2777,7 @@ toml
 Cargo
 .
 lock
-vendor
+third_party
 /
 rust
 "
