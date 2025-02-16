@@ -20,14 +20,6 @@ if
 getBuildConfiguration
 (
 "
-mips32
-"
-)
-|
-|
-getBuildConfiguration
-(
-"
 mips64
 "
 )
