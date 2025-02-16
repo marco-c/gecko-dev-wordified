@@ -711,6 +711,15 @@ aCaps
 )
 override
 ;
+void
+GetWindowProperties
+(
+WindowProperties
+*
+aProperties
+)
+override
+;
 /
 /
 Interface

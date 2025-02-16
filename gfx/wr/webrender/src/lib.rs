@@ -1030,6 +1030,7 @@ MappableCompositor
 MappedTileInfo
 SWGLCompositeSurfaceInfo
 WindowVisibility
+WindowProperties
 }
 ;
 pub

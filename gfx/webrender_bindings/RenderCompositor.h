@@ -1106,6 +1106,15 @@ WindowVisibility
 aVisibility
 )
 ;
+virtual
+void
+GetWindowProperties
+(
+WindowProperties
+*
+aProperties
+)
+;
 /
 /
 Interface
