@@ -233,7 +233,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 "
 )

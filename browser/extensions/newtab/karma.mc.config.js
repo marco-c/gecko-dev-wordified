@@ -1783,7 +1783,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 "
 )

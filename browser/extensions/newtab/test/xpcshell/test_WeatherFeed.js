@@ -46,7 +46,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 lib
 /
@@ -77,7 +79,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 common
 /

@@ -195,7 +195,9 @@ resource
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 "
 baseVendorUrl
@@ -965,7 +967,9 @@ chrome
 :
 /
 /
-newtab
+activity
+-
+stream
 /
 content
 /
