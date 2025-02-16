@@ -1059,8 +1059,6 @@ used
 /
 *
 Inline
-#
-1
 |
 https
 :

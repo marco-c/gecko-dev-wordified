@@ -125,8 +125,6 @@ STYLESHEET_FOR_ANCESTOR
 /
 *
 Inline
-#
-0
 |
 http
 :
@@ -208,8 +206,6 @@ STYLESHEET_FOR_DESCENDANT
 /
 *
 Inline
-#
-0
 |
 http
 :
