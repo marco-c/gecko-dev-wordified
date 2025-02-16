@@ -125,6 +125,13 @@ git
 *
 *
 "
+"
+*
+*
+/
+.
+cvsignore
+"
 ]
 DEFAULT_KEEP_FILES
 =
