@@ -8009,6 +8009,7 @@ opus_extension_iterator_init
 iter
 padding
 padding_len
+nb_frames
 )
 ;
 for
@@ -8037,17 +8038,6 @@ ret
 )
 return
 ret
-;
-if
-(
-ext
-.
-frame
->
-=
-nb_frames
-)
-break
 ;
 /
 *
