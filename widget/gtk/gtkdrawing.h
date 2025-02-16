@@ -2571,11 +2571,6 @@ moz_gtk_get_titlebar_button_spacing
 (
 )
 ;
-gint
-moz_gtk_get_titlebar_preferred_height
-(
-)
-;
 /
 *
 *
