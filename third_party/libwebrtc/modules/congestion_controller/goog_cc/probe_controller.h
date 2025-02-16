@@ -591,7 +591,7 @@ double
 >
 second_allocation_probe_scale
 ;
-FieldTrialOptional
+FieldTrialParameter
 <
 double
 >
