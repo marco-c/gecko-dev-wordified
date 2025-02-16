@@ -375,6 +375,14 @@ json
 .
 isFallbackExtensionDocument
 ;
+this
+.
+addonId
+=
+json
+.
+addonId
+;
 /
 /
 Save
