@@ -5156,14 +5156,14 @@ package
 *
 /
 final
-Pref
+PrefWithoutDefault
 <
 Boolean
 >
 mFingerprintingProtection
 =
 new
-Pref
+PrefWithoutDefault
 <
 Boolean
 >
@@ -5173,7 +5173,6 @@ privacy
 .
 fingerprintingProtection
 "
-false
 )
 ;
 /
@@ -5182,14 +5181,14 @@ package
 *
 /
 final
-Pref
+PrefWithoutDefault
 <
 Boolean
 >
 mFingerprintingProtectionPrivateMode
 =
 new
-Pref
+PrefWithoutDefault
 <
 Boolean
 >
@@ -5201,7 +5200,6 @@ fingerprintingProtection
 .
 pbmode
 "
-true
 )
 ;
 /
@@ -6499,6 +6497,7 @@ tabs
 *
 /
 public
+Nullable
 boolean
 getFingerprintingProtection
 (
@@ -6541,6 +6540,7 @@ mode
 *
 /
 public
+Nullable
 boolean
 getFingerprintingProtectionPrivateBrowsing
 (
