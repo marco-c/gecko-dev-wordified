@@ -302,9 +302,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 prerendered
 /
@@ -322,9 +320,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 prerendered
 /
@@ -350,9 +346,7 @@ resource
 :
 /
 /
-activity
--
-stream
+newtab
 /
 prerendered
 /

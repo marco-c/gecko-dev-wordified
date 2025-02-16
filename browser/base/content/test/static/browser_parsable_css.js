@@ -4643,9 +4643,7 @@ if
 !
 [
 "
-activity
--
-stream
+newtab
 "
 "
 browser
