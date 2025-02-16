@@ -548,10 +548,19 @@ log
 .
 error
 (
+f
 "
 Unexpected
+result
 type
 received
+:
+{
+type
+(
+res
+)
+}
 "
 )
             
@@ -2832,7 +2841,7 @@ output
             
 log
 .
-error
+exception
 (
 msg
 )
