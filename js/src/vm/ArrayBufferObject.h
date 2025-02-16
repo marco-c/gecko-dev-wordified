@@ -500,6 +500,8 @@ void
 dataStart
 size_t
 mappedSize
+size_t
+committedSize
 )
 ;
 /
