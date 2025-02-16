@@ -84,15 +84,12 @@ use
 std
 :
 :
-{
-mem
 time
 :
 :
 {
 Duration
 Instant
-}
 }
 ;
 use
@@ -104,6 +101,8 @@ event
 :
 :
 Provider
+as
+_
 qtrace
 Datagram
 }
@@ -681,9 +680,6 @@ now
 /
 /
 ACK
-mem
-:
-:
 drop
 (
 hconn_s
@@ -1504,9 +1500,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 hconn_c
@@ -1561,9 +1554,6 @@ client
 "
 )
 ;
-mem
-:
-:
 drop
 (
 hconn_c
@@ -1599,9 +1589,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 hconn_c
@@ -1739,9 +1726,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 hconn_c
@@ -1850,9 +1834,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 hconn_c
@@ -1950,9 +1931,6 @@ now
 )
 )
 ;
-mem
-:
-:
 drop
 (
 hconn_c
@@ -2108,9 +2086,6 @@ default_http3_server
 (
 )
 ;
-mem
-:
-:
 drop
 (
 connect_peers
@@ -2441,7 +2416,7 @@ frame
 needs
 to
 be
-preceeded
+preceded
 by
 a
 /
@@ -2709,9 +2684,6 @@ default_http3_server
 (
 )
 ;
-mem
-:
-:
 drop
 (
 connect_peers
@@ -3420,7 +3392,6 @@ expect
 Set
 resumption
 token
-.
 "
 )
 ;

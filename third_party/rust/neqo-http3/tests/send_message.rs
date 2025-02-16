@@ -97,6 +97,8 @@ event
 :
 :
 Provider
+as
+_
 ;
 use
 neqo_crypto

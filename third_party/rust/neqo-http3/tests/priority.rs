@@ -97,6 +97,8 @@ event
 :
 :
 Provider
+as
+_
 ;
 use
 neqo_crypto
@@ -207,7 +209,7 @@ break
 /
 Perform
 only
-Quic
+QUIC
 transport
 handshake
 .
@@ -447,7 +449,7 @@ Connected
 /
 Exchange
 H3
-setttings
+settings
 let
 out
 =
@@ -729,11 +731,10 @@ Http3ServerEvent
 :
 Headers
 {
-stream
-:
-_
 headers
 fin
+.
+.
 }
 =
 >

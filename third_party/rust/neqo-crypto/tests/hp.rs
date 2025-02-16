@@ -81,12 +81,6 @@ those
 terms
 .
 use
-std
-:
-:
-mem
-;
-use
 neqo_crypto
 :
 :
@@ -529,9 +523,6 @@ make_hp
 TLS_AES_128_GCM_SHA256
 )
 ;
-mem
-:
-:
 drop
 (
 hp
@@ -578,9 +569,6 @@ make_hp
 TLS_CHACHA20_POLY1305_SHA256
 )
 ;
-mem
-:
-:
 drop
 (
 hp

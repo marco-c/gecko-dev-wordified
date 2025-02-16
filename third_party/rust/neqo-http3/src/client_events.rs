@@ -167,6 +167,7 @@ HSettingType
 CloseType
 Http3StreamInfo
 HttpRecvStreamEvents
+PushId
 RecvStreamEvents
 SendStreamEvents
 }
@@ -371,7 +372,7 @@ PushPromise
 {
 push_id
 :
-u64
+PushId
 request_stream_id
 :
 StreamId
@@ -396,7 +397,7 @@ PushHeaderReady
 {
 push_id
 :
-u64
+PushId
 headers
 :
 Vec
@@ -428,7 +429,7 @@ PushDataReadable
 {
 push_id
 :
-u64
+PushId
 }
 /
 /
@@ -443,7 +444,7 @@ PushCanceled
 {
 push_id
 :
-u64
+PushId
 }
 /
 /
@@ -475,7 +476,7 @@ PushReset
 {
 push_id
 :
-u64
+PushId
 error
 :
 AppError
@@ -1021,7 +1022,6 @@ ExtendedConnectType
 :
 :
 WebTransport
-.
 "
 )
 ;
@@ -1094,7 +1094,6 @@ are
 no
 other
 types
-.
 "
 )
 ;
@@ -1196,7 +1195,7 @@ push_promise
 self
 push_id
 :
-u64
+PushId
 request_stream_id
 :
 StreamId
@@ -1232,7 +1231,7 @@ push_canceled
 self
 push_id
 :
-u64
+PushId
 )
 {
 self
@@ -1264,7 +1263,7 @@ push_reset
 self
 push_id
 :
-u64
+PushId
 error
 :
 AppError
@@ -1857,7 +1856,7 @@ has_push
 self
 push_id
 :
-u64
+PushId
 )
 -
 >
@@ -1915,7 +1914,7 @@ remove_events_for_push_id
 self
 push_id
 :
-u64
+PushId
 )
 {
 self

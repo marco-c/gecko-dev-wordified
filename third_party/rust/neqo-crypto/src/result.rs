@@ -552,7 +552,6 @@ incorrect
 Message
 Authentication
 Code
-.
 "
 )
 ;

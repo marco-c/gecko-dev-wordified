@@ -627,7 +627,6 @@ remain
 in
 the
 buffer
-.
 "
 )
 ;
