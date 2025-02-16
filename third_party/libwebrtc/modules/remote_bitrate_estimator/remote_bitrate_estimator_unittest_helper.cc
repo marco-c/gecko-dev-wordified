@@ -211,7 +211,11 @@ vector
 uint32_t
 >
 &
+/
+*
 ssrcs
+*
+/
 uint32_t
 bitrate
 )
@@ -1745,7 +1749,11 @@ RemoteBitrateEstimatorTest
 GenerateAndProcessFrame
 (
 uint32_t
+/
+*
 ssrc
+*
+/
 uint32_t
 bitrate_bps
 )

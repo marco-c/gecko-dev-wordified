@@ -1342,7 +1342,11 @@ GetOrientation
 const
 char
 *
+/
+*
 deviceUniqueIdUTF8
+*
+/
 VideoRotation
 &
 orientation

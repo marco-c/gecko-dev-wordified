@@ -3085,7 +3085,11 @@ encoded_image
 const
 CodecSpecificInfo
 *
+/
+*
 codec_specific_info
+*
+/
 )
 override
 {

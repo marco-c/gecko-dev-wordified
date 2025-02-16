@@ -894,7 +894,11 @@ data
 const
 PacketOptions
 &
+/
+*
 options
+*
+/
 )
 override
 {
@@ -938,7 +942,11 @@ ArrayView
 const
 uint8_t
 >
+/
+*
 data
+*
+/
 )
 override
 {
@@ -6768,7 +6776,11 @@ RtpSenderVideoTest
 UsesMinimalVp8DescriptorWhenGenericFrameDescriptorExtensionIsUsed
 (
 int
+/
+*
 version
+*
+/
 )
 {
 const

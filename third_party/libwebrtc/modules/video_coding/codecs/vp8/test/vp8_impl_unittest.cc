@@ -3877,7 +3877,11 @@ int
 d_h
 unsigned
 int
+/
+*
 stride_align
+*
+/
 unsigned
 char
 *
@@ -6011,7 +6015,11 @@ encoded_image
 const
 CodecSpecificInfo
 *
+/
+*
 codec_specific_info
+*
+/
 )
 {
 Timestamp

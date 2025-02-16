@@ -1009,7 +1009,11 @@ VideoFrame
 &
 image
 int64_t
+/
+*
 decode_time_ms
+*
+/
 )
 override
 {
@@ -1036,7 +1040,11 @@ optional
 <
 int32_t
 >
+/
+*
 decode_time_ms
+*
+/
 std
 :
 :
@@ -1044,7 +1052,11 @@ optional
 <
 uint8_t
 >
+/
+*
 qp
+*
+/
 )
 override
 {

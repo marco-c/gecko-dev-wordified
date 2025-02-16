@@ -1246,7 +1246,11 @@ uint16_t
 GetFirstFecSeqNum
 (
 uint16_t
+/
+*
 next_media_seq_num
+*
+/
 )
 {
 Random

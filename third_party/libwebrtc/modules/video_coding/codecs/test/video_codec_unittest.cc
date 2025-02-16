@@ -431,7 +431,11 @@ optional
 <
 int32_t
 >
+/
+*
 decode_time_ms
+*
+/
 std
 :
 :
@@ -688,7 +692,11 @@ ModifyCodecSettings
 (
 VideoCodec
 *
+/
+*
 codec_settings
+*
+/
 )
 {
 }

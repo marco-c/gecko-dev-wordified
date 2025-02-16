@@ -1038,7 +1038,11 @@ int32_t
 EnableBuiltInNS
 (
 bool
+/
+*
 enable
+*
+/
 )
 override
 {

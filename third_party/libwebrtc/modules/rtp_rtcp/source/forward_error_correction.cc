@@ -4149,7 +4149,11 @@ FinishPacketRecovery
 const
 ReceivedFecPacket
 &
+/
+*
 fec_packet
+*
+/
 RecoveredPacket
 *
 recovered_packet

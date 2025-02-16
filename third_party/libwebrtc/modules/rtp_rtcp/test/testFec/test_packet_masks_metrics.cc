@@ -5656,7 +5656,11 @@ num_fec_packets
 int
 mask_bytes_fec_packet
 CodeType
+/
+*
 code_type
+*
+/
 )
 {
 for

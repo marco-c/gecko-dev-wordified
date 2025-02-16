@@ -1112,7 +1112,11 @@ void
 SetAudioBufferDelay
 (
 int
+/
+*
 delay_ms
+*
+/
 )
 override
 {
@@ -1121,7 +1125,11 @@ void
 SetCaptureOutputUsage
 (
 bool
+/
+*
 capture_output_used
+*
+/
 )
 {
 }

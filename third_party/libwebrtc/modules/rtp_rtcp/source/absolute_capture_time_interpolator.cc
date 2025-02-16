@@ -364,7 +364,11 @@ receive_time
 uint32_t
 source
 uint32_t
+/
+*
 rtp_timestamp
+*
+/
 int
 rtp_clock_frequency_hz
 )
