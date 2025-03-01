@@ -3449,6 +3449,10 @@ return
 LStackSlot
 (
 info
+LStackSlot
+:
+:
+Word
 )
 ;
 }
