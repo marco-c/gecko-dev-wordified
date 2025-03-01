@@ -1756,6 +1756,16 @@ return
 true
 ;
 }
+virtual
+bool
+WidgetTypeSupportsNativeCompositing
+(
+)
+{
+return
+true
+;
+}
 [
 [
 nodiscard

@@ -10529,6 +10529,15 @@ AllowSoftwareWebRenderOGL
 )
 ;
 }
+options
+.
+SetAllowNativeCompositor
+(
+WidgetTypeSupportsNativeCompositing
+(
+)
+)
+;
 #
 endif
 #
