@@ -1306,6 +1306,12 @@ InitMoz2DLogging
 )
 ;
 static
+void
+InitMemoryReportersForGPUProcess
+(
+)
+;
+static
 bool
 IsHeadless
 (
