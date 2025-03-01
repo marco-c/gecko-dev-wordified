@@ -15,7 +15,10 @@ use
 foreign_types
 :
 :
+{
+foreign_type
 ForeignType
+}
 ;
 /
 /
@@ -77,6 +80,7 @@ CGEventSource
 type
 CType
 =
+crate
 :
 :
 sys
@@ -198,6 +202,13 @@ Err
 }
 #
 [
+cfg_attr
+(
+feature
+=
+"
+link
+"
 link
 (
 name
@@ -211,8 +222,12 @@ kind
 framework
 "
 )
+)
 ]
 extern
+"
+C
+"
 {
 /
 /
@@ -260,6 +275,7 @@ CGEventSourceStateID
 )
 -
 >
+crate
 :
 :
 sys

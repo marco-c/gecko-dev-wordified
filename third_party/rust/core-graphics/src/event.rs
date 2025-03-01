@@ -7,6 +7,30 @@ non_upper_case_globals
 )
 ]
 use
+crate
+:
+:
+event_source
+:
+:
+CGEventSource
+;
+use
+crate
+:
+:
+geometry
+:
+:
+CGPoint
+;
+use
+bitflags
+:
+:
+bitflags
+;
+use
 core_foundation
 :
 :
@@ -30,22 +54,13 @@ CFMachPortRef
 }
 ;
 use
-event_source
-:
-:
-CGEventSource
-;
-use
 foreign_types
 :
 :
+{
+foreign_type
 ForeignType
-;
-use
-geometry
-:
-:
-CGPoint
+}
 ;
 use
 libc
@@ -132,6 +147,21 @@ h
 repr
 (
 C
+)
+]
+#
+[
+derive
+(
+Clone
+Copy
+Debug
+Default
+Eq
+Hash
+Ord
+PartialEq
+PartialOrd
 )
 ]
 pub
@@ -1291,7 +1321,6 @@ as
 /
 a
 kCFNumberIntType
-'
 .
 pub
 const
@@ -1591,7 +1620,6 @@ to
 /
 /
 CGEventGetDoubleValueField
-'
 the
 fixed
 -
@@ -1689,7 +1717,6 @@ is
 passed
 to
 CGEventGetDoubleValueField
-'
 the
 fixed
 -
@@ -3318,6 +3345,7 @@ etype
 CGEventType
 event
 :
+crate
 :
 :
 sys
@@ -3332,6 +3360,7 @@ c_void
 )
 -
 >
+crate
 :
 :
 sys
@@ -3355,6 +3384,7 @@ _etype
 CGEventType
 _event
 :
+crate
 :
 :
 sys
@@ -3369,6 +3399,7 @@ c_void
 )
 -
 >
+crate
 :
 :
 sys
@@ -3445,13 +3476,6 @@ as_ptr
 /
 /
 no_run
-/
-/
-/
-extern
-crate
-core_foundation
-;
 /
 /
 /
@@ -3973,6 +3997,7 @@ CGEvent
 type
 CType
 =
+crate
 :
 :
 sys
@@ -4733,6 +4758,13 @@ value
 }
 #
 [
+cfg_attr
+(
+feature
+=
+"
+link
+"
 link
 (
 name
@@ -4746,8 +4778,12 @@ kind
 framework
 "
 )
+)
 ]
 extern
+"
+C
+"
 {
 /
 /
@@ -4804,6 +4840,7 @@ CGEventCreate
 (
 source
 :
+crate
 :
 :
 sys
@@ -4813,6 +4850,7 @@ CGEventSourceRef
 )
 -
 >
+crate
 :
 :
 sys
@@ -4949,6 +4987,7 @@ CGEventCreateKeyboardEvent
 (
 source
 :
+crate
 :
 :
 sys
@@ -4964,6 +5003,7 @@ bool
 )
 -
 >
+crate
 :
 :
 sys
@@ -5146,6 +5186,7 @@ CGEventCreateMouseEvent
 (
 source
 :
+crate
 :
 :
 sys
@@ -5164,6 +5205,7 @@ CGMouseButton
 )
 -
 >
+crate
 :
 :
 sys
@@ -5242,6 +5284,7 @@ CGEventCreateScrollWheelEvent2
 (
 source
 :
+crate
 :
 :
 sys
@@ -5266,6 +5309,7 @@ i32
 )
 -
 >
+crate
 :
 :
 sys
@@ -5332,6 +5376,7 @@ tapLocation
 CGEventTapLocation
 event
 :
+crate
 :
 :
 sys
@@ -5348,6 +5393,7 @@ tapProxy
 CGEventTapProxy
 event
 :
+crate
 :
 :
 sys
@@ -5389,6 +5435,7 @@ libc
 pid_t
 event
 :
+crate
 :
 :
 sys
@@ -5413,6 +5460,7 @@ CGEventSetFlags
 (
 event
 :
+crate
 :
 :
 sys
@@ -5440,6 +5488,7 @@ CGEventGetFlags
 (
 event
 :
+crate
 :
 :
 sys
@@ -5477,6 +5526,7 @@ is
 not
 a
 valid
+crate
 :
 :
 sys
@@ -5489,6 +5539,7 @@ CGEventGetLocation
 (
 event
 :
+crate
 :
 :
 sys
@@ -5516,6 +5567,7 @@ CGEventSetType
 (
 event
 :
+crate
 :
 :
 sys
@@ -5550,6 +5602,7 @@ CGEventGetType
 (
 event
 :
+crate
 :
 :
 sys
@@ -5665,6 +5718,7 @@ CGEventKeyboardSetUnicodeString
 (
 event
 :
+crate
 :
 :
 sys
@@ -5703,6 +5757,7 @@ CGEventGetIntegerValueField
 (
 event
 :
+crate
 :
 :
 sys
@@ -5823,6 +5878,7 @@ CGEventSetIntegerValueField
 (
 event
 :
+crate
 :
 :
 sys
@@ -5907,6 +5963,7 @@ CGEventGetDoubleValueField
 (
 event
 :
+crate
 :
 :
 sys
@@ -6025,6 +6082,7 @@ CGEventSetDoubleValueField
 (
 event
 :
+crate
 :
 :
 sys
