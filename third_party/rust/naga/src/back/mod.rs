@@ -2304,10 +2304,6 @@ TypeInner
 :
 :
 AccelerationStructure
-{
-.
-.
-}
 =
 >
 true

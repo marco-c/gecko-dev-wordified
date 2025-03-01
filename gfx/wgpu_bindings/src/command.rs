@@ -646,7 +646,7 @@ desc
 .
 timestamp_writes
 .
-cloned
+clone
 (
 )
 }
@@ -4213,7 +4213,7 @@ src_pass
 .
 timestamp_writes
 .
-as_ref
+clone
 (
 )
 }

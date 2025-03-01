@@ -5917,6 +5917,13 @@ context
 private_caps
 workarounds
 features
+limits
+:
+limits
+.
+clone
+(
+)
 options
 :
 backend_options

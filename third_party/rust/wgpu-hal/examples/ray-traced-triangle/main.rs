@@ -3147,6 +3147,9 @@ AccelerationStructureFormat
 :
 :
 BottomLevel
+allow_compaction
+:
+false
 }
 )
 }
@@ -3192,6 +3195,9 @@ AccelerationStructureFormat
 :
 :
 TopLevel
+allow_compaction
+:
+false
 }
 )
 }
@@ -6530,7 +6536,7 @@ hal
 api
 :
 :
-Empty
+Noop
 ;
 }
 }

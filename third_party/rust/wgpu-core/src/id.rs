@@ -519,14 +519,14 @@ type
 like
 Texture
 <
-Empty
+Noop
 >
 /
 /
 /
 where
 [
-Empty
+Noop
 ]
 is
 the
@@ -580,7 +580,7 @@ each
 /
 X
 <
-Empty
+Noop
 >
 type
 with
@@ -683,7 +683,7 @@ Registry
 /
 /
 [
-Empty
+Noop
 ]
 :
 hal
@@ -692,7 +692,7 @@ hal
 api
 :
 :
-Empty
+Noop
 #
 [
 repr
