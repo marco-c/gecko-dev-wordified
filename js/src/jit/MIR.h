@@ -5434,12 +5434,6 @@ return
 resultType_
 ;
 }
-bool
-mightBeMagicType
-(
-)
-const
-;
 /
 /
 Default
