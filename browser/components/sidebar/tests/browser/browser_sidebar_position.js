@@ -263,7 +263,7 @@ style
 .
 order
 "
-7
+6
 "
 "
 Sidebar
@@ -283,7 +283,7 @@ style
 .
 order
 "
-5
+4
 "
 "
 Sidebar
@@ -383,7 +383,7 @@ style
 .
 order
 "
-7
+6
 "
 "
 Sidebar
@@ -403,7 +403,7 @@ style
 .
 order
 "
-5
+4
 "
 "
 Sidebar
