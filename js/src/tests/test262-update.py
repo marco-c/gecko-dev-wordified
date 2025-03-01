@@ -355,24 +355,6 @@ Bug
 1648139
     
 "
-resizable
--
-arraybuffer
-"
-:
-"
-!
-ArrayBuffer
-.
-prototype
-.
-resize
-"
-#
-Bug
-1670026
-    
-"
 uint8array
 -
 base64
@@ -655,22 +637,6 @@ as
 weakmap
 -
 keys
-"
-    
-"
-resizable
--
-arraybuffer
-"
-:
-"
--
--
-enable
--
-arraybuffer
--
-resizable
 "
     
 "

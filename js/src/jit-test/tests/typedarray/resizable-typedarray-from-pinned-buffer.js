@@ -1,17 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
--
--
-enable
--
-arraybuffer
--
-resizable
 let
 ab
 =

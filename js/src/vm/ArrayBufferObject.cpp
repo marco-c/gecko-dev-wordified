@@ -4962,19 +4962,6 @@ uint64_t
 >
 maxByteLength
 ;
-if
-(
-JS
-:
-:
-Prefs
-:
-:
-experimental_arraybuffer_resizable
-(
-)
-)
-{
 /
 /
 Inline
@@ -5122,7 +5109,6 @@ Some
 maxByteLengthInt
 )
 ;
-}
 }
 }
 /

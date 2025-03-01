@@ -3171,19 +3171,6 @@ uint64_t
 >
 maxByteLength
 ;
-if
-(
-JS
-:
-:
-Prefs
-:
-:
-experimental_sharedarraybuffer_growable
-(
-)
-)
-{
 /
 /
 Inline
@@ -3331,7 +3318,6 @@ Some
 maxByteLengthInt
 )
 ;
-}
 }
 }
 /
