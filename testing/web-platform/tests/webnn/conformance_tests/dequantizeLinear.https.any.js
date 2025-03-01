@@ -3698,6 +3698,13 @@ webnn_conformance_test
 buildAndExecuteGraph
 getDequantizeLinearPrecisionTolerance
 test
+/
+*
+cast_to_supported_type
+=
+*
+/
+true
 )
 ;
 }
