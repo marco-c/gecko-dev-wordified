@@ -2121,15 +2121,6 @@ data
 -
 toggle
 "
-htmlFor
-:
-raw
--
-{
-key
-}
--
-checkbox
 onClick
 :
 event
