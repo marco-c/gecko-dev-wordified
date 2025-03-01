@@ -2065,6 +2065,11 @@ origin
 persistedNotification
 .
 origin
+scope
+:
+persistedNotification
+.
+origin
 requestID
 :
 4
@@ -2116,6 +2121,11 @@ id
 }
 {
 origin
+:
+persistedNotification
+.
+origin
+scope
 :
 persistedNotification
 .
