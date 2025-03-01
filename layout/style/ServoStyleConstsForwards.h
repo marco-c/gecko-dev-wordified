@@ -474,12 +474,6 @@ LogicalAxis
 :
 uint8_t
 ;
-enum
-class
-PhysicalAxis
-:
-uint8_t
-;
 class
 SeenPtrs
 ;

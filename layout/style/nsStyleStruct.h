@@ -5081,8 +5081,8 @@ aValue
 mozilla
 :
 :
-StylePhysicalAxis
-aAxis
+Side
+aSide
 mozilla
 :
 :
@@ -5102,8 +5102,8 @@ aValue
 mozilla
 :
 :
-LogicalAxis
-aAxis
+LogicalSide
+aSide
 mozilla
 :
 :
@@ -5138,8 +5138,8 @@ aValue
 mozilla
 :
 :
-StylePhysicalAxis
-aAxis
+Side
+aSide
 mozilla
 :
 :
