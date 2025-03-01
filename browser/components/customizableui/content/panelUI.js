@@ -4776,7 +4776,9 @@ case
 appMenu_menu_HelpPopup_reportPhishingErrortoolmenu
 "
 :
-ReportFalseDeceptiveSite
+gSafeBrowsing
+.
+reportFalseDeceptiveSite
 (
 )
 ;
