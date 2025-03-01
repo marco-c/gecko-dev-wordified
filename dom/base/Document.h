@@ -24459,11 +24459,6 @@ EnsureViewTransitionOperationsHappen
 (
 )
 ;
-void
-MaybeSkipTransitionAfterVisibilityChange
-(
-)
-;
 /
 /
 Getter

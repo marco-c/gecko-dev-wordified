@@ -7070,6 +7070,13 @@ wr
 RasterSpace
 &
 aRasterSpace
+const
+wr
+:
+:
+SnapshotInfo
+*
+aSnapshot
 )
 {
 MOZ_ASSERT
@@ -7205,6 +7212,7 @@ Length
 (
 )
 aRasterSpace
+aSnapshot
 )
 ;
 return

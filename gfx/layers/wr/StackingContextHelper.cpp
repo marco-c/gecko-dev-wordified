@@ -1765,6 +1765,7 @@ ToLayoutRect
 aBounds
 )
 rasterSpace
+nullptr
 )
 ;
 if
