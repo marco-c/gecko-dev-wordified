@@ -570,6 +570,9 @@ json
 "
 promise
 "
+"
+lit
+"
 ]
 overrides
 :
