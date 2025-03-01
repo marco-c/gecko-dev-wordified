@@ -107,6 +107,12 @@ client_pid
 crash_generator_logic
 (
 client_pid
+/
+*
+user_app_data_dir
+*
+/
+nullptr
 )
 ;
 }
