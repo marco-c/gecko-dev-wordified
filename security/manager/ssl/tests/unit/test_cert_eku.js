@@ -232,7 +232,11 @@ checkCertErrorGeneric
 certdb
 cert
 expectedResult
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 )
 ;
 }
@@ -279,7 +283,11 @@ checkCertErrorGenericAtTime
 certdb
 cert
 expectedResult
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 VALIDATION_TIME
 )
 ;

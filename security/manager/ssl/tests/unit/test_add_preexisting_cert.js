@@ -269,7 +269,11 @@ checkCertErrorGeneric
 certDB
 ee
 PRErrorCodeSuccess
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 )
 ;
 /
@@ -349,7 +353,11 @@ checkCertErrorGeneric
 certDB
 ee
 SEC_ERROR_UNTRUSTED_ISSUER
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 )
 ;
 }

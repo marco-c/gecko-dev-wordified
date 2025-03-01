@@ -298,7 +298,11 @@ checkCertErrorGeneric
 certdb
 cert
 SSL_ERROR_BAD_CERT_DOMAIN
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 undefined
 "
 www
@@ -315,7 +319,11 @@ checkCertErrorGeneric
 certdb
 cert
 SSL_ERROR_BAD_CERT_DOMAIN
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 undefined
 "
 www

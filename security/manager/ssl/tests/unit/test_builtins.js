@@ -363,7 +363,11 @@ checkCertErrorGeneric
 gCertDb
 ee_pre_distrust_cert
 PRErrorCodeSuccess
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 )
 ;
 /
@@ -389,7 +393,11 @@ checkCertErrorGeneric
 gCertDb
 ee_post_distrust_cert
 MOZILLA_PKIX_ERROR_ISSUER_NO_LONGER_TRUSTED
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 )
 ;
 }

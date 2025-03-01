@@ -372,7 +372,11 @@ endEntityCertFileName
 .
 pem
 )
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 expectedResult
 )
 ;

@@ -432,7 +432,11 @@ checkCertErrorGenericAtTime
 certdb
 validCert
 PRErrorCodeSuccess
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 new
 Date
 (
@@ -507,7 +511,11 @@ checkCertErrorGenericAtTime
 certdb
 revokedCert
 SEC_ERROR_REVOKED_CERTIFICATE
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 new
 Date
 (

@@ -410,7 +410,11 @@ asyncTestCertificateUsages
 certDB
 cert
 [
-certificateUsageSSLCA
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServerCA
 ]
 )
 ;

@@ -425,7 +425,11 @@ checkCertErrorGeneric
 certdb
 eeCert
 eeExpectedError
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 )
 ;
 }

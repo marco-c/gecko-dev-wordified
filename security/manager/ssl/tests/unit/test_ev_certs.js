@@ -774,7 +774,11 @@ certdb
 asyncVerifyCertAtTime
 (
 cert
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 0
 "
 ev
@@ -1133,7 +1137,11 @@ certdb
 asyncVerifyCertAtTime
 (
 cert
-certificateUsageSSLServer
+Ci
+.
+nsIX509CertDB
+.
+verifyUsageTLSServer
 flags
 "
 ev
