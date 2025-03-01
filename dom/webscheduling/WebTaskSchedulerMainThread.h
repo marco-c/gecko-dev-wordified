@@ -239,12 +239,16 @@ WebTask
 aTask
 uint64_t
 aDelay
+EventQueuePriority
+aPriority
 )
 override
 ;
 bool
 DispatchEventLoopRunnable
 (
+EventQueuePriority
+aPriority
 )
 override
 ;
