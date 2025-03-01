@@ -63,7 +63,7 @@ async
 registration
 =
 await
-getActiveServiceWorker
+prepareActiveServiceWorker
 (
 "
 noop
@@ -122,7 +122,7 @@ const
 newRegistration
 =
 await
-getActiveServiceWorker
+prepareActiveServiceWorker
 (
 "
 noop
