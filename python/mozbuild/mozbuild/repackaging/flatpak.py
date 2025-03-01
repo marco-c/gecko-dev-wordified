@@ -1934,6 +1934,17 @@ build
 export
 "
                 
+f
+"
+-
+-
+arch
+=
+{
+arch
+}
+"
+                
 "
 -
 -
@@ -2006,6 +2017,17 @@ flatpak
 build
 -
 export
+"
+                
+f
+"
+-
+-
+arch
+=
+{
+arch
+}
 "
                 
 "
@@ -2103,6 +2125,7 @@ canonical
 permissions
 "
                 
+f
 "
 -
 -
@@ -2110,7 +2133,9 @@ branch
 =
 screenshots
 /
-x86_64
+{
+arch
+}
 "
                 
 "
