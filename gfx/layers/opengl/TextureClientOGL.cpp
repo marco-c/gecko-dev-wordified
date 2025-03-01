@@ -2054,13 +2054,7 @@ mId
 )
 ;
 }
-mozilla
-:
-:
-ipc
-:
-:
-FileDescriptor
+UniqueFileHandle
 AndroidHardwareBufferTextureData
 :
 :
@@ -2075,10 +2069,7 @@ mAndroidHardwareBuffer
 )
 {
 return
-ipc
-:
-:
-FileDescriptor
+UniqueFileHandle
 (
 )
 ;

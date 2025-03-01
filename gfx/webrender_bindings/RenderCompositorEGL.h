@@ -332,10 +332,7 @@ aNumRects
 )
 override
 ;
-ipc
-:
-:
-FileDescriptor
+UniqueFileHandle
 GetAndResetReleaseFence
 (
 )
@@ -462,10 +459,7 @@ only
 on
 android
 .
-ipc
-:
-:
-FileDescriptor
+UniqueFileHandle
 mReleaseFenceFd
 ;
 }

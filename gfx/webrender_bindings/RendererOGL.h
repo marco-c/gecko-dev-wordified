@@ -125,9 +125,7 @@ include
 "
 mozilla
 /
-ipc
-/
-FileDescriptor
+UniquePtrExtensions
 .
 h
 "
@@ -465,10 +463,7 @@ render
 thread
 only
 .
-ipc
-:
-:
-FileDescriptor
+UniqueFileHandle
 GetAndResetReleaseFence
 (
 )
