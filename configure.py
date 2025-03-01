@@ -204,31 +204,6 @@ third_party
 python
 "
 "
-six
-"
-)
-)
-sys
-.
-path
-.
-insert
-(
-0
-os
-.
-path
-.
-join
-(
-base_dir
-"
-third_party
-"
-"
-python
-"
-"
 looseversion
 "
 )
@@ -264,8 +239,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mach
 .
@@ -1495,11 +1468,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 obj
+.
+items
+(
 )
 :
             
@@ -1585,9 +1557,7 @@ if
 isinstance
 (
 obj
-six
-.
-text_type
+str
 )
 :
         
@@ -1723,9 +1693,7 @@ isinstance
 v
 (
 bytes
-six
-.
-text_type
+str
 dict
 )
 )
@@ -1771,11 +1739,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 config
+.
+items
+(
 )
         
 if
@@ -1859,16 +1826,15 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 config
 [
 "
 DEFINES
 "
 ]
+.
+items
+(
 )
     
 }
@@ -2124,11 +2090,10 @@ v
 in
 sorted
 (
-six
-.
-iteritems
-(
 sanitized_config
+.
+items
+(
 )
 )
 :
