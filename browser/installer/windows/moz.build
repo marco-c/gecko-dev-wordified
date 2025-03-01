@@ -196,3 +196,11 @@ installer
 "
 docs
 "
+DIRS
++
+=
+[
+"
+nsis
+"
+]
