@@ -13771,13 +13771,6 @@ stackMaps
 >
 add
 (
-(
-uint8_t
-*
-)
-(
-uintptr_t
-)
 trapInsnOffset
 .
 offset

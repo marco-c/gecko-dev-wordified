@@ -3193,13 +3193,6 @@ stackMaps_
 >
 add
 (
-(
-uint8_t
-*
-)
-(
-uintptr_t
-)
 assemblerOffset
 stackMap
 )
