@@ -4653,6 +4653,22 @@ update
 test
 )
         
+if
+'
+variants
+'
+in
+params
+:
+            
+del
+params
+[
+'
+variants
+'
+]
+        
 return
 _Variant
 (
