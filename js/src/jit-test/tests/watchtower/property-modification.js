@@ -145,7 +145,7 @@ p
 ;
 /
 /
-change
+modify
 -
 prop
 :
@@ -186,7 +186,7 @@ modify
 prop
 :
 a
-change
+modify
 -
 prop
 :
