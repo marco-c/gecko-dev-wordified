@@ -1342,7 +1342,7 @@ getBoolPref
 "
 browser
 .
-disable_pickers_background_tabs
+disable_pickers_in_hidden_extension_pages
 "
 )
 AppConstants
@@ -1351,13 +1351,11 @@ NIGHTLY_BUILD
 "
 Testing
 default
-behavior
-(
+of
 browser
 .
-disable_pickers_background_tabs
+disable_pickers_in_hidden_extension_pages
 pref
-)
 "
 )
 ;
