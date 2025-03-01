@@ -2268,8 +2268,6 @@ labels
 matching
 this
 regular
-"
-"
 expression
 .
 "
@@ -5644,8 +5642,6 @@ or
 json
 ;
 see
-"
-"
 taskcluster
 /
 docs

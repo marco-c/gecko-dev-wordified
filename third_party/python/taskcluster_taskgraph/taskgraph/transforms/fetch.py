@@ -1764,18 +1764,18 @@ strip
 components
 "
 f
-'
+"
 {
 fetch
 [
-"
+'
 strip
 -
 components
-"
+'
 ]
 }
-'
+"
 ]
 )
     

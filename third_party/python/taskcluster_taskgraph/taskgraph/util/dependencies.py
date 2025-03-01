@@ -110,14 +110,12 @@ func
 :
         
 assert
-(
-            
 name
 not
 in
 GROUP_BY_MAP
-        
-)
+(
+            
 f
 "
 duplicate
@@ -140,6 +138,8 @@ name
 }
 )
 "
+        
+)
         
 GROUP_BY_MAP
 [

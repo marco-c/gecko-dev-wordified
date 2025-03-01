@@ -1135,10 +1135,10 @@ schema
 or
 is_json
 (
-            
 schema
-        
 )
+(
+            
 "
 schema
 must
@@ -1148,6 +1148,8 @@ JSON
 compatible
 object
 "
+        
+)
         
 assert
 isinstance
@@ -1225,12 +1227,12 @@ assert
 not
 mem
 [
-            
 "
 registered
 "
-        
 ]
+(
+            
 "
 register_callback_action
 must
@@ -1239,6 +1241,8 @@ used
 as
 decorator
 "
+        
+)
         
 assert
 cb_name

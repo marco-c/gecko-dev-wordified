@@ -1047,6 +1047,9 @@ buf
 getvalue
 (
 )
+check
+=
+True
 )
     
 msg

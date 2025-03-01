@@ -882,34 +882,11 @@ values
             
 )
             
-#
-If
-vcsdir
-is
-already
-absolute
-this
-will
-return
-it
-unmodified
-.
-            
 "
 VCS_PATH
 "
 :
-path
-.
-join
-(
-"
-{
-task_workdir
-}
-"
 vcsdir
-)
         
 }
     
@@ -1577,17 +1554,7 @@ env
 ]
 ]
 =
-path
-.
-join
-(
-"
-{
-task_workdir
-}
-"
 cache_dir
-)
         
 add_cache
 (
