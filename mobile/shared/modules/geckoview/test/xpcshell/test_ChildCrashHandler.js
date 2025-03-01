@@ -128,10 +128,13 @@ sets
 MOZ_CRASHREPORTER_NO_REPORT
 which
 disables
-crash
 /
 /
-reports
+reporting
+crashes
+to
+the
+user
 .
 This
 test
