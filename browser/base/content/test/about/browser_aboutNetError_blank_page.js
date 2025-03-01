@@ -349,6 +349,13 @@ gBrowser
 selectedTab
 )
 ;
+await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 }
 add_task
 (
