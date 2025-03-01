@@ -418,16 +418,6 @@ true
 ]
 [
 "
-extensions
-.
-screenshots
-.
-disabled
-"
-false
-]
-[
-"
 privacy
 .
 query_stripping
