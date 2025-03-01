@@ -1239,6 +1239,11 @@ browser
 contentWindow
 )
 ;
+await
+panel
+.
+updateComplete
+;
 ok
 (
 panel
@@ -1545,6 +1550,11 @@ browser
 contentWindow
 )
 ;
+await
+panel
+.
+updateComplete
+;
 ok
 (
 panel
@@ -1777,6 +1787,11 @@ browser
 contentWindow
 )
 ;
+await
+panel
+.
+updateComplete
+;
 ok
 (
 panel
@@ -1991,6 +2006,11 @@ true
 }
 win
 )
+;
+await
+panel
+.
+updateComplete
 ;
 Assert
 .
