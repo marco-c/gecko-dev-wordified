@@ -404,6 +404,16 @@ in
 t
 .
 label
+                    
+and
+"
+ioi
+"
+not
+in
+t
+.
+label
                 
 )
             
@@ -631,6 +641,16 @@ label
 and
 "
 vt
+"
+not
+in
+t
+.
+label
+                    
+and
+"
+ioi
 "
 not
 in
