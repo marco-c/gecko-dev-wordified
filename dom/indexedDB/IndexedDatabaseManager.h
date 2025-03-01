@@ -132,6 +132,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
@@ -802,6 +809,13 @@ mPendingDeleteInfos
 ;
 nsCString
 mLocale
+;
+bool
+mLocaleInitialized
+MOZ_GUARDED_BY
+(
+sMainThreadCapability
+)
 ;
 indexedDB
 :
