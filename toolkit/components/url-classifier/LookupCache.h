@@ -1004,7 +1004,7 @@ an
 /
 entry
 static
-nsresult
+void
 GetLookupFragments
 (
 const
