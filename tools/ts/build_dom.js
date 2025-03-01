@@ -253,7 +253,7 @@ reference
 lib
 =
 "
-es2023
+es2024
 "
 /
 >
