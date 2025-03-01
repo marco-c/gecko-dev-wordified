@@ -1489,7 +1489,6 @@ move
 |
 s
 |
-{
 s
 .
 settings
@@ -1501,14 +1500,6 @@ borrow_mut
 test_hardware
 =
 v
-;
-s
-.
-update_memtest_setting
-(
-)
-;
-}
 )
 ;
 }
