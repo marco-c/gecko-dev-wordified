@@ -119,6 +119,11 @@ ExtensionProtocolHandler
 h
 "
 "
+MozSrcProtocolHandler
+.
+h
+"
+"
 PageThumbProtocolHandler
 .
 h
@@ -160,6 +165,11 @@ UNIFIED_SOURCES
 [
 "
 ExtensionProtocolHandler
+.
+cpp
+"
+"
+MozSrcProtocolHandler
 .
 cpp
 "
