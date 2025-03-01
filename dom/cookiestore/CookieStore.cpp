@@ -591,7 +591,7 @@ Length
 (
 )
 >
-1024
+4096
 )
 {
 aPromise
@@ -609,7 +609,7 @@ cannot
 be
 greater
 than
-1024
+4096
 bytes
 "
 )
