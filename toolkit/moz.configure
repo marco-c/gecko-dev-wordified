@@ -841,6 +841,9 @@ default
 "
 implied
 "
+"
+confvars
+"
 )
 and
 value
