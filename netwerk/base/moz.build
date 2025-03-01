@@ -1493,6 +1493,13 @@ EXTRA_JS_MODULES
 =
 [
 "
+EssentialDomainsRemoteSettings
+.
+sys
+.
+mjs
+"
+"
 NetUtil
 .
 sys
