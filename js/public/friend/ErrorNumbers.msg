@@ -6474,7 +6474,7 @@ mismatch
 MSG_DEF
 (
 JSMSG_WASM_BAD_IMP_ADDRESS
-1
+2
 JSEXN_WASMLINKERROR
 "
 imported
@@ -6485,6 +6485,9 @@ with
 incompatible
 address
 type
+{
+1
+}
 "
 )
 MSG_DEF
