@@ -3705,15 +3705,13 @@ fuzzy
 -
 if
                 
-if
-i
-<
-first
-:
-                    
 first
 =
+min
+(
 i
+first
+)
                 
 condition
 =
