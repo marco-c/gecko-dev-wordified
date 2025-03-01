@@ -1495,6 +1495,15 @@ for
 updater
 packages
                 
+if
+reference
+=
+=
+"
+updater_package
+"
+:
+                    
 uri
 =
 uri
