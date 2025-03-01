@@ -8778,7 +8778,7 @@ Timeout
 readyPromise
 -
 >
-MaybeRejectWithAbortError
+MaybeRejectWithTimeoutError
 (
 "
 Skipped
