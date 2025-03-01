@@ -3953,6 +3953,12 @@ MicaEnabled
 )
 ;
 static
+bool
+MicaPopupsEnabled
+(
+)
+;
+static
 void
 EnableWindowOcclusion
 (
