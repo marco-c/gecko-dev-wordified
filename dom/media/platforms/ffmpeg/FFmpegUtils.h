@@ -285,9 +285,6 @@ LIBAVCODEC_VERSION_MAJOR
 case
 AV_CODEC_ID_VP9
 :
-case
-AV_CODEC_ID_HEVC
-:
 #
 endif
 #
