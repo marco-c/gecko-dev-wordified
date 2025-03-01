@@ -1063,6 +1063,7 @@ i
 {
 int
 j
+ret
 ;
 opus_int32
 frame_ext_count
@@ -1073,7 +1074,6 @@ total_ext_count
 -
 ext_count
 ;
-int
 ret
 =
 opus_packet_extensions_parse

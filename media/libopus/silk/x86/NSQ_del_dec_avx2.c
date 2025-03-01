@@ -937,6 +937,9 @@ int
 bits
 )
 {
+opus_int64
+t
+;
 silk_assert
 (
 bits
@@ -1001,7 +1004,6 @@ bits
 63
 )
 ;
-opus_int64
 t
 =
 (

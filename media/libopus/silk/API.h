@@ -985,7 +985,7 @@ status
 *
 /
 const
-opus_int16
+opus_res
 *
 samplesIn
 /
@@ -1689,7 +1689,7 @@ data
 structure
 *
 /
-opus_int16
+opus_res
 *
 samplesOut
 /

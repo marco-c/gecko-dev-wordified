@@ -518,7 +518,7 @@ celt_sig
 OPUS_RESTRICT
 freq
 const
-opus_val16
+celt_glog
 *
 bandE
 int
@@ -961,15 +961,15 @@ start
 int
 end
 const
-opus_val16
+celt_glog
 *
 logE
 const
-opus_val16
+celt_glog
 *
 prev1logE
 const
-opus_val16
+celt_glog
 *
 prev2logE
 const

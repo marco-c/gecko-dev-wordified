@@ -368,7 +368,7 @@ opus_val32
 *
 ac
 const
-opus_val16
+celt_coef
 *
 window
 int

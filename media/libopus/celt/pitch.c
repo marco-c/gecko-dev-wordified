@@ -3277,10 +3277,15 @@ shift
 return
 EXTRACT16
 (
+MAX32
+(
+-
+Q15ONE
 MIN32
 (
 g
 Q15ONE
+)
 )
 )
 ;
