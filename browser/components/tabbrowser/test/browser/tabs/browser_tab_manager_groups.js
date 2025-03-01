@@ -1958,9 +1958,12 @@ window
 ok
 (
 groups
-[
+.
+at
+(
+-
 1
-]
+)
 .
 tabs
 [
@@ -1969,8 +1972,9 @@ tabs
 .
 selected
 "
+last
+created
 group
-1
 '
 s
 tab
