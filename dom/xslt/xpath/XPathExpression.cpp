@@ -201,6 +201,7 @@ mozilla
 dom
 {
 class
+MOZ_STACK_CLASS
 EvalContextImpl
 :
 public
@@ -723,12 +724,12 @@ return
 nullptr
 ;
 }
-UniquePtr
+Maybe
 <
 txXPathNode
 >
 contextNode
-(
+=
 txXPathNativeNode
 :
 :
@@ -736,7 +737,6 @@ createXPathNode
 (
 &
 aContextNode
-)
 )
 ;
 if
