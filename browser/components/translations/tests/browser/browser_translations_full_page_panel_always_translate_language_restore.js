@@ -266,9 +266,6 @@ page
 url
 :
 SPANISH_PAGE_URL_DOT_ORG
-downloadHandler
-:
-resolveDownloads
 }
 )
 ;

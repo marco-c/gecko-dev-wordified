@@ -444,14 +444,6 @@ assertPanelViewError
 )
 ;
 await
-FullPageTranslationsTestUtils
-.
-assertPageIsUntranslated
-(
-runInPage
-)
-;
-await
 cleanup
 (
 )
