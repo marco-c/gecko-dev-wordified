@@ -5931,6 +5931,7 @@ os
 :
 Any
 (
+            
 "
 windows
 "
@@ -5945,6 +5946,12 @@ linux
 -
 bitbar
 "
+"
+linux
+-
+lambda
+"
+        
 )
         
 #
@@ -6953,13 +6960,19 @@ worker
 os
 "
 ]
-=
-=
+in
+[
 "
 linux
 -
 bitbar
 "
+"
+linux
+-
+lambda
+"
+]
 :
         
 task_def
