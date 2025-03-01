@@ -641,6 +641,13 @@ iSockaddrLength
 =
 0
 ;
+adapterAddresses
+.
+Flags
+|
+=
+IP_ADAPTER_DHCP_ENABLED
+;
 AddAdapterAddresses
 (
 adapterAddresses
