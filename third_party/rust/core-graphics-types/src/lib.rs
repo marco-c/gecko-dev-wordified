@@ -107,14 +107,6 @@ to
 those
 terms
 .
-extern
-crate
-core_foundation
-;
-extern
-crate
-libc
-;
 pub
 mod
 base
