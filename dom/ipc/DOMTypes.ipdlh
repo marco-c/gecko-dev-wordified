@@ -1832,6 +1832,17 @@ dataSerialized
 ;
 }
 ;
+struct
+IPCNotification
+{
+nsString
+id
+;
+IPCNotificationOptions
+options
+;
+}
+;
 }
 /
 /
