@@ -238,11 +238,6 @@ colorSpace
 "
 srgb
 "
-storageFormat
-:
-"
-uint8
-"
 }
 )
 .
