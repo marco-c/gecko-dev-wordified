@@ -405,7 +405,7 @@ nsACString
 aHost
 )
 {
-MOZ_ASSERT
+if
 (
 !
 aHost
@@ -414,7 +414,7 @@ IsEmpty
 (
 )
 )
-;
+{
 mUserActivationHosts
 .
 Insert
@@ -422,6 +422,7 @@ Insert
 aHost
 )
 ;
+}
 }
 const
 nsTHashSet

@@ -857,6 +857,14 @@ userInteractionForTesting
 (
 )
 ;
+content
+.
+document
+.
+notifyUserGestureActivation
+(
+)
+;
 let
 link
 =
