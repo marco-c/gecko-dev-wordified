@@ -472,6 +472,11 @@ attribute
 ACString
 requestToken
 ;
+readonly
+attribute
+ACString
+userActionId
+;
 /
 /
 Whether
@@ -2778,6 +2783,13 @@ The
 request
 token
 *
+param
+aUserActionID
+The
+user
+action
+ID
+*
 /
 nsIContentAnalysisResponse
 makeResponseForTest
@@ -2788,6 +2800,9 @@ aAction
 in
 ACString
 aToken
+in
+ACString
+aUserActionId
 )
 ;
 /
