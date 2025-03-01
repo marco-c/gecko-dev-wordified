@@ -1272,6 +1272,10 @@ OnDeviceWebSpeech
 "
 MediaStreamTrackWebSpeech
 "
+        
+"
+WebSpeechRecognitionContext
+"
     
 ]
 )
