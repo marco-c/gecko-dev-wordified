@@ -209,7 +209,7 @@ validation
 registration
 =
 await
-prepareActiveServiceWorker
+getActiveServiceWorker
 (
 "
 noop
