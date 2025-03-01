@@ -922,6 +922,12 @@ return
 nullptr
 ;
 }
+nsContentUtils
+:
+:
+NodeIndexCache
+nodeIndexCache
+;
 /
 /
 2
@@ -1054,6 +1060,8 @@ aTextDirective
 prefix
 true
 false
+&
+nodeIndexCache
 )
 ;
 /
@@ -2059,6 +2067,8 @@ aTextDirective
 start
 true
 mustEndAtWordBoundary
+&
+nodeIndexCache
 )
 ;
 /
@@ -2451,6 +2461,8 @@ aTextDirective
 end
 true
 mustEndAtWordBoundary
+&
+nodeIndexCache
 )
 ;
 /

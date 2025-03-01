@@ -1385,6 +1385,14 @@ const
 RangeBoundary
 &
 aRangeBoundary2
+nsContentUtils
+:
+:
+NodeIndexCache
+*
+aCache
+=
+nullptr
 )
 ;
 /

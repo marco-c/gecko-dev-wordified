@@ -3384,6 +3384,18 @@ const
 RangeBoundary
 &
 aRangeBoundary2
+nsContentUtils
+:
+:
+NodeIndexCache
+*
+aCache
+/
+*
+=
+nullptr
+*
+/
 )
 {
 MOZ_ASSERT
@@ -3660,6 +3672,7 @@ ComparePoints
 (
 aRangeBoundary1
 aRangeBoundary2
+aCache
 )
 ;
 if
