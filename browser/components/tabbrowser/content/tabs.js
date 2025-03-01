@@ -3174,9 +3174,6 @@ ariaFocusedItem
 ;
 if
 (
-ariaFocusedItem
-&
-&
 isTabGroupLabel
 (
 ariaFocusedItem
@@ -9250,11 +9247,6 @@ button
 =
 =
 0
-&
-&
-this
-.
-ariaFocusedItem
 &
 &
 isTabGroupLabel
