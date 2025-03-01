@@ -12657,7 +12657,7 @@ case
 RValueAllocation
 :
 :
-ANY_FLOAT_REG
+FLOAT32_REG
 :
 return
 Float32Value
@@ -12679,7 +12679,7 @@ case
 RValueAllocation
 :
 :
-ANY_FLOAT_STACK
+FLOAT32_STACK
 :
 return
 Float32Value
@@ -14385,13 +14385,13 @@ case
 RValueAllocation
 :
 :
-ANY_FLOAT_REG
+FLOAT32_REG
 :
 case
 RValueAllocation
 :
 :
-ANY_FLOAT_STACK
+FLOAT32_STACK
 :
 case
 RValueAllocation

@@ -3321,12 +3321,6 @@ MIRType
 :
 Float32
 :
-case
-MIRType
-:
-:
-Simd128
-:
 {
 LAllocation
 *
@@ -3430,7 +3424,7 @@ alloc
 RValueAllocation
 :
 :
-AnyFloat
+Float32
 (
 ToFloatRegister
 (
@@ -3482,7 +3476,7 @@ alloc
 RValueAllocation
 :
 :
-AnyFloat
+Float32
 (
 ToStackIndex
 (
