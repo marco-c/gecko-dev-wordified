@@ -104,6 +104,14 @@ true
 }
 )
 ;
+await
+waitForTabstripOrientation
+(
+"
+vertical
+"
+)
+;
 const
 win
 =

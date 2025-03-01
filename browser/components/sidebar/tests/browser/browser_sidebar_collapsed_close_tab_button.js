@@ -61,6 +61,14 @@ true
 }
 )
 ;
+await
+waitForTabstripOrientation
+(
+"
+vertical
+"
+)
+;
 Assert
 .
 equal
