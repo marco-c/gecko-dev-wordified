@@ -1079,6 +1079,7 @@ nsIUrlClassifierFeature
 :
 blocklist
 this
+false
 )
 ;
 if
