@@ -65,8 +65,6 @@ stage_platform
 android
 -
 arm
--
-lite
 "
     
 "
@@ -89,7 +87,5 @@ arm
 profile
 -
 generate
--
-lite
 "
 }
