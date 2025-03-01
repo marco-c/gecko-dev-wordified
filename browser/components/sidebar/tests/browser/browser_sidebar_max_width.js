@@ -248,11 +248,6 @@ initialViewportOuterHeight
 )
 ;
 await
-waitForRepaint
-(
-)
-;
-await
 TestUtils
 .
 waitForCondition
@@ -333,7 +328,12 @@ width
 .
 )
 ;
-let
+await
+flushTaskQueue
+(
+)
+;
+const
 newMaxWidth
 =
 parseInt
