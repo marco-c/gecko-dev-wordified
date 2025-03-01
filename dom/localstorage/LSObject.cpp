@@ -6505,10 +6505,10 @@ SendCancel
 glean
 :
 :
-ls_request
+localstorage_request
 :
 :
-send_cancellation
+send_cancel_counter
 .
 Add
 (
