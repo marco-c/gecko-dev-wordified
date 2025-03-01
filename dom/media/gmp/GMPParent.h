@@ -392,7 +392,7 @@ ipc
 :
 CrashReporterHelper
 <
-GeckoProcessType_GMPlugin
+GMPParent
 >
 {
 friend
@@ -401,6 +401,13 @@ PGMPParent
 ;
 public
 :
+static
+constexpr
+GeckoProcessType
+PROCESS_TYPE
+=
+GeckoProcessType_GMPlugin
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 GMPParent

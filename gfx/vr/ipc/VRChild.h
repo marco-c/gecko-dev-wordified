@@ -204,7 +204,7 @@ ipc
 :
 CrashReporterHelper
 <
-GeckoProcessType_VR
+VRChild
 >
 public
 gfxVarReceiver
@@ -225,6 +225,13 @@ PVRChild
 ;
 public
 :
+static
+constexpr
+GeckoProcessType
+PROCESS_TYPE
+=
+GeckoProcessType_VR
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 VRChild

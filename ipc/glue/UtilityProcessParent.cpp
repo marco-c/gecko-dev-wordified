@@ -1057,9 +1057,6 @@ endif
 }
 GenerateCrashReport
 (
-OtherPid
-(
-)
 &
 dumpID
 )

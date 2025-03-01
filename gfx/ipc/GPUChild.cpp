@@ -2259,9 +2259,6 @@ mCreatedPairedMinidumps
 {
 GenerateCrashReport
 (
-OtherPid
-(
-)
 &
 dumpId
 )

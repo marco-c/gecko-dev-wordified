@@ -5275,9 +5275,6 @@ AddCrashAnnotations
 ;
 GenerateCrashReport
 (
-OtherPid
-(
-)
 &
 aResult
 )
