@@ -1133,6 +1133,7 @@ rule
 .
 startModifyingProperties
 (
+window
 {
 isKnown
 :
@@ -1176,6 +1177,7 @@ rule
 .
 startModifyingProperties
 (
+window
 {
 isKnown
 :
@@ -1217,6 +1219,7 @@ rule
 .
 startModifyingProperties
 (
+window
 {
 isKnown
 :
@@ -1261,6 +1264,7 @@ rule
 .
 startModifyingProperties
 (
+window
 {
 isKnown
 :

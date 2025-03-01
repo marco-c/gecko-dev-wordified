@@ -310,6 +310,20 @@ returned
 *
 param
 {
+Window
+}
+win
+*
+This
+is
+needed
+by
+the
+RuleRewriter
+.
+*
+param
+{
 CssPropertiesFront
 }
 cssProperties
@@ -330,6 +344,7 @@ RuleModificationList
 /
 startModifyingProperties
 (
+win
 cssProperties
 )
 {
@@ -344,6 +359,7 @@ return
 new
 RuleRewriter
 (
+win
 cssProperties
 .
 isKnown

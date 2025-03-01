@@ -2537,6 +2537,11 @@ startModifyingProperties
 (
 this
 .
+inspector
+.
+panelWin
+this
+.
 cssProperties
 )
 ;
@@ -3041,6 +3046,11 @@ domRule
 .
 startModifyingProperties
 (
+this
+.
+inspector
+.
+panelWin
 this
 .
 cssProperties
