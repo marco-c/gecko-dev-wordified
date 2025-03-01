@@ -369,7 +369,7 @@ aOther
 )
 const
 ;
-nsresult
+bool
 SetAlign
 (
 uint16_t
@@ -388,7 +388,7 @@ aAlign
 SVG_ALIGN_MAX_VALID
 )
 return
-NS_ERROR_FAILURE
+false
 ;
 mAlign
 =
@@ -401,7 +401,7 @@ aAlign
 )
 ;
 return
-NS_OK
+true
 ;
 }
 auto
@@ -414,7 +414,7 @@ return
 mAlign
 ;
 }
-nsresult
+bool
 SetMeetOrSlice
 (
 uint16_t
@@ -433,7 +433,7 @@ aMeetOrSlice
 SVG_MEETORSLICE_MAX_VALID
 )
 return
-NS_ERROR_FAILURE
+false
 ;
 mMeetOrSlice
 =
@@ -446,7 +446,7 @@ aMeetOrSlice
 )
 ;
 return
-NS_OK
+true
 ;
 }
 auto

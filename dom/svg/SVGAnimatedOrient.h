@@ -584,7 +584,7 @@ SVGElement
 aSVGElement
 )
 ;
-nsresult
+void
 NewValueSpecifiedUnits
 (
 uint16_t
@@ -596,7 +596,7 @@ SVGElement
 aSVGElement
 )
 ;
-nsresult
+void
 ConvertToSpecifiedUnits
 (
 uint16_t
