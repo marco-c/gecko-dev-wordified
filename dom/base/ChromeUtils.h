@@ -1208,6 +1208,13 @@ ClearStyleSheetCache
 GlobalObject
 &
 aGlobal
+const
+Optional
+<
+bool
+>
+&
+aChrome
 )
 ;
 static
@@ -1297,6 +1304,13 @@ ClearScriptCache
 GlobalObject
 &
 aGlobal
+const
+Optional
+<
+bool
+>
+&
+aChrome
 )
 ;
 static
