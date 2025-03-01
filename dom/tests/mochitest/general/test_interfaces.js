@@ -9648,9 +9648,6 @@ InstallTrigger
 insecureContext
 :
 true
-disabled
-:
-isEarlyBetaOrEarlier
 }
 /
 /
