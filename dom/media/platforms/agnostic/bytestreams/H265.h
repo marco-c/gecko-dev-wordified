@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -1645,6 +1652,12 @@ const
 ;
 bool
 HasSPS
+(
+)
+const
+;
+nsCString
+ToString
 (
 )
 const
