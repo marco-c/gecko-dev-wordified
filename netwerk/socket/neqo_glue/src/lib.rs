@@ -1137,6 +1137,9 @@ u32
 provider_flags
 :
 u32
+idle_timeout
+:
+u32
 socket
 :
 Option
@@ -1698,6 +1701,21 @@ sni
 -
 slicing
 "
+)
+)
+.
+idle_timeout
+(
+Duration
+:
+:
+from_secs
+(
+idle_timeout
+.
+into
+(
+)
 )
 )
 ;
@@ -3415,6 +3433,9 @@ u32
 provider_flags
 :
 u32
+idle_timeout
+:
+u32
 socket
 :
 i64
@@ -3460,6 +3481,7 @@ qlog_dir
 webtransport_datagram_size
 max_accumlated_time_ms
 provider_flags
+idle_timeout
 Some
 (
 socket
@@ -3564,6 +3586,9 @@ u32
 provider_flags
 :
 u32
+idle_timeout
+:
+u32
 result
 :
 &
@@ -3606,6 +3631,7 @@ qlog_dir
 webtransport_datagram_size
 max_accumlated_time_ms
 provider_flags
+idle_timeout
 None
 )
 {

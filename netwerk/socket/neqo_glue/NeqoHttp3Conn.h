@@ -132,6 +132,8 @@ uint32_t
 aMaxAccumulatedTime
 uint32_t
 aProviderFlags
+uint32_t
+aIdleTimeout
 NeqoHttp3Conn
 *
 *
@@ -160,6 +162,7 @@ aQlogDir
 aDatagramSize
 aMaxAccumulatedTime
 aProviderFlags
+aIdleTimeout
 (
 const
 mozilla
@@ -218,6 +221,8 @@ uint32_t
 aMaxAccumulatedTime
 uint32_t
 aProviderFlags
+uint32_t
+aIdleTimeout
 int64_t
 socket
 NeqoHttp3Conn
@@ -248,6 +253,7 @@ aQlogDir
 aDatagramSize
 aMaxAccumulatedTime
 aProviderFlags
+aIdleTimeout
 socket
 (
 const
