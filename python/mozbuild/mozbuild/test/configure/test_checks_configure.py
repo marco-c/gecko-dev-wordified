@@ -4695,6 +4695,18 @@ mozbuild
 '
 )
                     
+want_bootstrap
+=
+dependable
+(
+lambda
+:
+lambda
+_
+:
+False
+)
+                    
 include
 (
 '
