@@ -624,6 +624,12 @@ aTouchEvent
 .
 mButtons
 )
+mInputSource
+(
+aTouchEvent
+.
+mInputSource
+)
 {
 MOZ_ASSERT
 (
@@ -955,8 +961,6 @@ ToWidgetEvent
 nsIWidget
 *
 aWidget
-uint16_t
-aInputSource
 )
 const
 {
@@ -979,7 +983,7 @@ thread
 ;
 MOZ_ASSERT
 (
-aInputSource
+mInputSource
 =
 =
 mozilla
@@ -994,7 +998,7 @@ MouseEvent_Binding
 MOZ_SOURCE_TOUCH
 |
 |
-aInputSource
+mInputSource
 =
 =
 mozilla
@@ -1137,7 +1141,7 @@ event
 .
 mInputSource
 =
-aInputSource
+mInputSource
 ;
 event
 .

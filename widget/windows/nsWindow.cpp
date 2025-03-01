@@ -57824,6 +57824,15 @@ aPointerInfo
 .
 mButtons
 ;
+touchInput
+.
+mInputSource
+=
+MouseEvent_Binding
+:
+:
+MOZ_SOURCE_PEN
+;
 /
 /
 POINTER_INFO
@@ -57857,10 +57866,6 @@ GetModifiers
 DispatchTouchInput
 (
 touchInput
-MouseEvent_Binding
-:
-:
-MOZ_SOURCE_PEN
 )
 ;
 return
