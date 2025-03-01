@@ -1121,6 +1121,9 @@ nsCString
 >
 fragments
 ;
+nsresult
+rv
+=
 LookupCache
 :
 :
@@ -1129,6 +1132,12 @@ GetLookupFragments
 aSpec
 &
 fragments
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 for
@@ -1140,7 +1149,6 @@ tableData
 mTableData
 )
 {
-nsresult
 rv
 =
 aWorker

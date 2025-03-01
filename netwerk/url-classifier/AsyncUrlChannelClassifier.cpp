@@ -1113,6 +1113,8 @@ mFragments
 }
 else
 {
+rv
+=
 LookupCache
 :
 :
@@ -1122,10 +1124,6 @@ mURISpec
 &
 mFragments
 )
-;
-rv
-=
-NS_OK
 ;
 }
 Unused
