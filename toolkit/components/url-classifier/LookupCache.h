@@ -1020,7 +1020,7 @@ aFragments
 )
 ;
 static
-nsresult
+void
 GetLookupEntitylistFragments
 (
 const

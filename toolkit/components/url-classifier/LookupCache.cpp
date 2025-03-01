@@ -3072,7 +3072,7 @@ eTLD
 static
 *
 /
-nsresult
+void
 LookupCache
 :
 :
@@ -3189,7 +3189,6 @@ aFragments
 )
 ;
 return
-NS_OK
 ;
 }
 const
@@ -3617,9 +3616,6 @@ key
 ;
 }
 }
-return
-NS_OK
-;
 }
 /
 *
