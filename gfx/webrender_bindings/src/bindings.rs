@@ -8901,6 +8901,11 @@ CompositorSurfaceUsage
 :
 :
 Content
+|
+CompositorSurfaceUsage
+:
+:
+DebugOverlay
 =
 >
 {
@@ -8972,6 +8977,11 @@ CompositorSurfaceUsage
 :
 :
 Content
+|
+CompositorSurfaceUsage
+:
+:
+DebugOverlay
 =
 >
 {
