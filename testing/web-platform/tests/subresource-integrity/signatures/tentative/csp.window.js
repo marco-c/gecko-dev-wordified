@@ -136,7 +136,7 @@ no
 integrity
 check
 :
-loads
+blocked
 .
 "
 )
@@ -159,7 +159,7 @@ malformed
 integrity
 check
 :
-loads
+blocked
 .
 "
 )
