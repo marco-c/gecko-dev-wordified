@@ -3773,7 +3773,7 @@ frame_policy
 =
 frame
 .
-permissionsPolicy
+featurePolicy
 ;
 if
 (
