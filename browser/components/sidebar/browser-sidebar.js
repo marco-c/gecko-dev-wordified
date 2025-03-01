@@ -2949,7 +2949,14 @@ uiStateInitialized
 isPopup
 &
 &
+(
+this
+.
+sidebarRevampEnabled
+|
+|
 windowPrivacyMatches
+)
 )
 {
 const
@@ -5583,6 +5590,13 @@ chrome
 "
 |
 |
+(
+!
+this
+.
+sidebarRevampEnabled
+&
+&
 !
 this
 .
@@ -5590,6 +5604,7 @@ windowPrivacyMatches
 (
 sourceWindow
 window
+)
 )
 )
 {

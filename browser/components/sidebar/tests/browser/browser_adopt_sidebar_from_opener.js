@@ -416,9 +416,7 @@ Check
 that
 private
 windows
-don
-'
-t
+do
 adopt
 UI
 state
@@ -460,7 +458,7 @@ promiseInitialized
 ;
 Assert
 .
-notEqual
+equal
 (
 privateSidebar
 .
@@ -473,7 +471,6 @@ currentID
 "
 Category
 was
-not
 adopted
 from
 opener
@@ -485,7 +482,7 @@ sidebar
 ;
 Assert
 .
-notEqual
+equal
 (
 privateSidebar
 .
@@ -506,7 +503,6 @@ width
 "
 Width
 was
-not
 adopted
 from
 opener
