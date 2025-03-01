@@ -2320,7 +2320,7 @@ isConstant
 {
 rhsAlloc
 =
-useOrConstantAtStart
+useOrConstant
 (
 rhs
 )
@@ -2365,7 +2365,7 @@ half
 .
 rhsAlloc
 =
-useLowWordRegisterAtStart
+useLowWordRegister
 (
 rhs
 )

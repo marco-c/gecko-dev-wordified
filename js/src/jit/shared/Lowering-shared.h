@@ -2285,6 +2285,15 @@ policy
 ;
 inline
 LUse
+useLowWordRegister
+(
+MDefinition
+*
+mir
+)
+;
+inline
+LUse
 useLowWordRegisterAtStart
 (
 MDefinition
