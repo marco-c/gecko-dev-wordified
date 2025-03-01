@@ -4117,7 +4117,8 @@ partnerCode
 "
 telemetrySuffix
 :
-null
+"
+"
 orderHint
 :
 null
