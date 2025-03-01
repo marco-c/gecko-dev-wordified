@@ -1176,6 +1176,9 @@ objProp
 "
 arrProp
 :
+(
+1
+)
 [
 ]
 }
