@@ -469,16 +469,6 @@ platform
 -
 tests
 -
-privatebrowsing
-"
-    
-"
-web
--
-platform
--
-tests
--
 testharness
 "
     
@@ -528,22 +518,6 @@ platform
 tests
 -
 testharness
-"
-    
-"
-wpt
--
-privatebrowsing
-"
-:
-"
-web
--
-platform
--
-tests
--
-privatebrowsing
 "
     
 "

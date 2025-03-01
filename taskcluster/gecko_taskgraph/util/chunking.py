@@ -253,23 +253,6 @@ webgpu
 ]
     
 "
-privatebrowsing
-"
-:
-[
-"
-/
-service
--
-workers
-/
-cache
--
-storage
-"
-]
-    
-"
 webcodecs
 "
 :
