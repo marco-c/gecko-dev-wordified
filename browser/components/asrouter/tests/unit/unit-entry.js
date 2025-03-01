@@ -663,14 +663,6 @@ MOZ_APP_VERSION
 .
 0a1
 "
-isChinaRepack
-(
-)
-{
-return
-false
-;
-}
 isPlatformAndVersionAtMost
 (
 )
