@@ -13646,7 +13646,7 @@ if
 (
 cbwm
 .
-IsBidiLTR
+IsInlineReversed
 (
 )
 !
@@ -13655,7 +13655,7 @@ hypotheticalPos
 .
 mWritingMode
 .
-IsBidiLTR
+IsInlineReversed
 (
 )
 )
