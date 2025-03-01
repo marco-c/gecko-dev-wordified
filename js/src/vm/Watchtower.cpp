@@ -2470,6 +2470,8 @@ cx
 change
 -
 prop
+-
+flags
 "
 obj
 val
@@ -2497,7 +2499,7 @@ bool
 Watchtower
 :
 :
-watchPropertyModificationSlow
+watchPropertyValueChangeSlow
 (
 JSContext
 *
@@ -2539,7 +2541,7 @@ propInfo
 {
 MOZ_ASSERT
 (
-watchesPropertyModification
+watchesPropertyValueChange
 (
 obj
 )
@@ -2716,9 +2718,11 @@ AddToWatchtowerLog
 (
 cx
 "
-modify
+change
 -
 prop
+-
+value
 "
 obj
 val
@@ -2740,7 +2744,7 @@ bool
 Watchtower
 :
 :
-watchPropertyModificationSlow
+watchPropertyValueChangeSlow
 <
 AllowGC
 :
@@ -2800,7 +2804,7 @@ bool
 Watchtower
 :
 :
-watchPropertyModificationSlow
+watchPropertyValueChangeSlow
 <
 AllowGC
 :

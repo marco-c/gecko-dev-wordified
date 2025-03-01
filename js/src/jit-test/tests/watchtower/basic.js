@@ -300,6 +300,8 @@ x
 change
 -
 prop
+-
+flags
 :
 y
 add
@@ -583,6 +585,8 @@ log
 change
 -
 prop
+-
+flags
 :
 length
 "

@@ -30095,7 +30095,7 @@ if
 Watchtower
 :
 :
-watchesPropertyModification
+watchesPropertyValueChange
 (
 &
 obj

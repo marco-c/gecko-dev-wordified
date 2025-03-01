@@ -5509,14 +5509,15 @@ re
 watching
 for
 property
-modification
+value
+changes
 .
 if
 (
 Watchtower
 :
 :
-watchesPropertyModification
+watchesPropertyValueChange
 (
 obj
 )

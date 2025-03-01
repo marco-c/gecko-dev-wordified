@@ -15068,12 +15068,12 @@ true
 ;
 }
 bool
-watchesModification
+watchesPropValue
 =
 Watchtower
 :
 :
-watchesPropertyModification
+watchesPropertyValueChange
 (
 obj
 )
@@ -15082,7 +15082,7 @@ if
 (
 MOZ_UNLIKELY
 (
-watchesModification
+watchesPropValue
 )
 )
 {
@@ -15092,7 +15092,7 @@ if
 Watchtower
 :
 :
-watchPropertyModification
+watchPropertyValueChange
 <
 AllowGC
 :
@@ -15160,7 +15160,8 @@ Watchtower
 hook
 for
 property
-modifications
+value
+changes
 .
 The
 cache
@@ -15189,7 +15190,7 @@ there
 if
 (
 !
-watchesModification
+watchesPropValue
 )
 {
 TaggedSlotOffset
