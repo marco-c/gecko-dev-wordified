@@ -5122,9 +5122,32 @@ self
 is_emulator
 :
             
+#
+Emulator
+hangs
+can
+take
+up
+to
+10
+min
+for
+all
+the
+inner
+retry
+loops
+            
+#
+and
+timeouts
+to
+fire
+.
+            
 max_restarts
 =
-5
+2
             
 emulator_ok
 =
