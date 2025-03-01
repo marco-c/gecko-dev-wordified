@@ -517,13 +517,6 @@ nullptr
 void
 SetStatusErrorBits
 (
-const
-nsCOMPtr
-<
-nsIX509Cert
->
-&
-cert
 nsITransportSecurityInfo
 :
 :
