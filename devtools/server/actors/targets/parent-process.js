@@ -860,9 +860,9 @@ window
 .
 document
 .
-documentElement
+body
 .
-innerHTML
+textContent
 =
 "
 Fake
