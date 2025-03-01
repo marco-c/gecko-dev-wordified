@@ -6936,6 +6936,7 @@ lock
 /
 namespace
 detail
+MFBT_DATA
 Atomic
 <
 uint32_t

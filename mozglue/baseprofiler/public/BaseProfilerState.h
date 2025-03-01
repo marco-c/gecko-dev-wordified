@@ -2710,6 +2710,7 @@ better
 inlining
 optimization
 ?
+MFBT_DATA
 static
 Atomic
 <

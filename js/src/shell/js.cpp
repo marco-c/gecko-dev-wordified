@@ -47168,6 +47168,10 @@ static
 void
 PrintProfilerEvents_Callback
 (
+mozilla
+:
+:
+MarkerCategory
 const
 char
 *
