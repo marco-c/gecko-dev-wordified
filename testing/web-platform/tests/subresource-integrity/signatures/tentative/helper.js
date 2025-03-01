@@ -288,7 +288,12 @@ data
 ;
 return
 "
-.
+/
+subresource
+-
+integrity
+/
+signatures
 /
 resource
 .
