@@ -3194,6 +3194,9 @@ COLOR_8
 ;
 }
 }
+#
+ifdef
+DEBUG
 /
 *
 static
@@ -3474,6 +3477,8 @@ Nothing
 )
 ;
 }
+#
+endif
 bool
 MacIOSurface
 :
