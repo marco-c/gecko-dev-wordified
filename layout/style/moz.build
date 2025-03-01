@@ -1917,15 +1917,3 @@ style
 "
 ]
 )
-CONFIGURE_SUBST_FILES
-+
-=
-[
-"
-extra
--
-bindgen
--
-flags
-"
-]
