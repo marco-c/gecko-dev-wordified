@@ -369,7 +369,7 @@ crate
 logical_geometry
 :
 :
-PhysicalSide
+PhysicalAxis
 ;
 use
 crate
@@ -6778,7 +6778,7 @@ resolve
 (
 info
 .
-side
+axis
 info
 .
 position_property
@@ -7181,7 +7181,7 @@ CalcAnchorFunctionResolutionInfo
 /
 /
 Which
-side
+axis
 we
 '
 re
@@ -7258,9 +7258,9 @@ anchor
 -
 valid
 pub
-side
+axis
 :
-PhysicalSide
+PhysicalAxis
 /
 /
 /
@@ -7314,12 +7314,12 @@ Doesn
 '
 t
 matter
-side
+axis
 :
-PhysicalSide
+PhysicalAxis
 :
 :
-Left
+Vertical
 }
 }
 }

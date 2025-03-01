@@ -11248,8 +11248,8 @@ aPercentBasis
 mozilla
 :
 :
-StylePhysicalSide
-aSide
+StylePhysicalAxis
+aAxis
 mozilla
 :
 :
@@ -11344,7 +11344,7 @@ AsLengthPercentage
 ResolveWithAnchor
 (
 aPercentBasis
-aSide
+aAxis
 aProp
 )
 ;
