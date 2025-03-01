@@ -610,9 +610,6 @@ common_groups
 "
 push
 "
-"
-task
-"
 ]
     
 task_configs
@@ -709,6 +706,18 @@ show
 -
 all
 "
+"
+-
+-
+full
+"
+"
+-
+-
+all
+-
+tasks
+"
 ]
             
 {
@@ -726,14 +735,6 @@ default
 "
 :
 False
-                
-"
-dest
-"
-:
-"
-full
-"
                 
 "
 help
@@ -9301,7 +9302,7 @@ update
 =
 False
         
-full
+show_all
 =
 False
         
@@ -9757,7 +9758,7 @@ n
         
 elif
 not
-full
+show_all
 :
             
 #
