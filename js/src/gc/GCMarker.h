@@ -1190,7 +1190,7 @@ count
 )
 ;
 static
-void
+size_t
 moveWork
 (
 GCMarker
@@ -2469,7 +2469,7 @@ budget
 )
 ;
 static
-void
+size_t
 moveWork
 (
 GCMarker
