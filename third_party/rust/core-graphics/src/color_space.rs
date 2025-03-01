@@ -133,10 +133,7 @@ use
 foreign_types
 :
 :
-{
-foreign_type
 ForeignType
-}
 ;
 foreign_type
 !
@@ -156,7 +153,6 @@ CGColorSpace
 type
 CType
 =
-crate
 :
 :
 sys
@@ -334,13 +330,6 @@ result
 }
 #
 [
-cfg_attr
-(
-feature
-=
-"
-link
-"
 link
 (
 name
@@ -354,12 +343,8 @@ kind
 framework
 "
 )
-)
 ]
 extern
-"
-C
-"
 {
 /
 /
@@ -888,7 +873,6 @@ CGColorSpaceCreateDeviceRGB
 )
 -
 >
-crate
 :
 :
 sys
@@ -902,7 +886,6 @@ CGColorSpaceCreateDeviceGray
 )
 -
 >
-crate
 :
 :
 sys
@@ -919,7 +902,6 @@ CFStringRef
 )
 -
 >
-crate
 :
 :
 sys

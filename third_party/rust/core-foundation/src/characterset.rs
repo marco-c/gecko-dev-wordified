@@ -146,7 +146,7 @@ An
 immutable
 set
 of
-Unicode
+Unicde
 characters
 .
 CFCharacterSet

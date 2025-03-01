@@ -211,7 +211,7 @@ the
 type
 parameters
 with
-PhantomData
+PhantomDatas
 pub
 struct
 CFDictionary
@@ -1017,7 +1017,7 @@ the
 type
 parameters
 with
-PhantomData
+PhantomDatas
 pub
 struct
 CFMutableDictionary
