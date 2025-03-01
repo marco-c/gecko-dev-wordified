@@ -19,7 +19,6 @@ META
 global
 =
 window
-dedicatedworker
 /
 /
 META

@@ -18,7 +18,6 @@ META
 global
 =
 window
-dedicatedworker
 /
 /
 META
@@ -78,12 +77,11 @@ tanh
 xxx
 '
 ;
-validateUnaryOperation
+validateSingleInputOperation
 (
 '
 tanh
 '
-floatingPointTypes
 label
 )
 ;
