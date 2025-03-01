@@ -516,6 +516,15 @@ works
 .
 #
 if
+!
+defined
+(
+MOZ_PROFILING
+)
+&
+&
+\
+(
 defined
 (
 __x86_64__
@@ -539,6 +548,7 @@ __clang__
 defined
 (
 _MSC_VER
+)
 )
 /
 /
@@ -822,6 +832,15 @@ define
 HAS_BLENDPLANEROW_AVX2
 #
 if
+!
+defined
+(
+MOZ_PROFILING
+)
+&
+&
+\
+(
 defined
 (
 __x86_64__
@@ -845,6 +864,7 @@ __clang__
 defined
 (
 _MSC_VER
+)
 )
 /
 /
