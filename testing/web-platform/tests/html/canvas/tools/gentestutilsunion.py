@@ -9651,8 +9651,6 @@ test_yaml_directory
 =
 '
 yaml
--
-new
 '
     
 yaml_files
