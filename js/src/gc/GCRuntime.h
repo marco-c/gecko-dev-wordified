@@ -4289,11 +4289,13 @@ endif
 private
 :
 enum
+class
 IncrementalResult
 {
-ResetIncremental
+Reset
 =
 0
+Abort
 Ok
 }
 ;
