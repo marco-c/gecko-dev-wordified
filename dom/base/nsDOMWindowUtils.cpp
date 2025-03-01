@@ -7848,7 +7848,7 @@ NS_IMETHODIMP
 nsDOMWindowUtils
 :
 :
-ClearSharedStyleSheetCache
+ClearStyleSheetCache
 (
 )
 {
@@ -7867,7 +7867,7 @@ NS_IMETHODIMP
 nsDOMWindowUtils
 :
 :
-ClearSharedScriptCache
+ClearScriptCache
 (
 )
 {
