@@ -109,9 +109,7 @@ RustLibrary
 "
 test
 -
-trust
--
-anchors
+builtins
 -
 static
 "

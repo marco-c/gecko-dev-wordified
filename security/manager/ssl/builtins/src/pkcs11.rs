@@ -5543,7 +5543,7 @@ no_mangle
 pub
 unsafe
 fn
-TRUST_ANCHORS_GetFunctionList
+BUILTINSC_GetFunctionList
 (
 ppFunctionList
 :
@@ -5864,7 +5864,7 @@ crate
 pkcs11
 :
 :
-TRUST_ANCHORS_GetFunctionList
+BUILTINSC_GetFunctionList
 (
 &
 mut
