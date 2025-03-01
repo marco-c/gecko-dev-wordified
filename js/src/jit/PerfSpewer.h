@@ -836,6 +836,17 @@ WasmBaselinePerfSpewer
 =
 default
 ;
+[
+[
+nodiscard
+]
+]
+bool
+needsToRecordInstruction
+(
+)
+const
+;
 void
 recordInstruction
 (
