@@ -3728,7 +3728,7 @@ NS_FAILED
 (
 iter
 .
-Init
+InitWithoutValidatingPoints
 (
 firstBoundary
 -
