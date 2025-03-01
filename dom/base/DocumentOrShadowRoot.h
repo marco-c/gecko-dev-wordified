@@ -467,6 +467,15 @@ return
 mAdoptedStyleSheets
 ;
 }
+size_t
+FindSheetInsertionPointInTree
+(
+const
+StyleSheet
+&
+)
+const
+;
 /
 *
 *
