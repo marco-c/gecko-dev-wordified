@@ -3009,7 +3009,7 @@ tests
 /
 unit
 /
-test_builtins
+test_trust_anchors
 /
 certdata
 .
