@@ -1435,7 +1435,10 @@ bool
 &
 privateLoader
 const
+Maybe
+<
 bool
+>
 &
 chrome
 )
