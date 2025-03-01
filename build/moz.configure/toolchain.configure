@@ -13751,13 +13751,6 @@ and
 (
 developer_options
 or
-host_or_target_str
-=
-=
-"
-host
-"
-or
 c_compiler
 .
 version
