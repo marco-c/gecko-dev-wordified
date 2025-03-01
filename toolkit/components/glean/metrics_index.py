@@ -2387,7 +2387,7 @@ dotted
 case
 )
 .
-pings_by_app_or_lib_id
+pings_by_app_id
 =
 {
     
@@ -2418,34 +2418,6 @@ gecko_pings
 +
 background_update_pings
     
-+
-test_pings
-    
-#
-Not
-an
-_actual_
-app
-ID
-in
-use
-    
-#
-but
-needed
-to
-differentiate
-ping
-registration
-in
-geckoview
-builds
-    
-"
-gecko
-"
-:
-gecko_pings
 +
 test_pings
 }
