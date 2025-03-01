@@ -4358,6 +4358,7 @@ mDocGroup
 nsCompatibility
 mDocumentCompatMode
 ;
+const
 nsCOMPtr
 <
 nsIConsoleReportCollector
