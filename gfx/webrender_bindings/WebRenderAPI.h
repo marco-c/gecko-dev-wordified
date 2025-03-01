@@ -3098,6 +3098,7 @@ None
 nullptr
 nullptr
 nullptr
+nullptr
 wr
 :
 :
@@ -3529,13 +3530,6 @@ wr
 RasterSpace
 &
 aRasterSpace
-const
-wr
-:
-:
-SnapshotInfo
-*
-aSnapshot
 )
 ;
 void
