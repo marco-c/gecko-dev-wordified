@@ -81,6 +81,7 @@ Path
 from
 typing
 import
+List
 Optional
 Set
 from
@@ -667,7 +668,7 @@ close
                 
 removed_condition
 :
-list
+List
 [
 str
 ]
