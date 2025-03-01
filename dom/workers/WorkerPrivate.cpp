@@ -20967,10 +20967,6 @@ DisconnectGlobalTeardownObservers
 ;
 if
 (
-WebTaskScheduler
-*
-scheduler
-=
 data
 -
 >
@@ -20982,7 +20978,15 @@ GetExistingScheduler
 )
 )
 {
-scheduler
+data
+-
+>
+mScope
+-
+>
+GetExistingScheduler
+(
+)
 -
 >
 Disconnect

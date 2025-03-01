@@ -237,9 +237,6 @@ dom
 class
 Document
 ;
-class
-WebTaskSchedulingState
-;
 /
 *
 *
@@ -846,12 +843,6 @@ null
 nsIGlobalObject
 *
 GetCurrentGlobal
-(
-)
-;
-WebTaskSchedulingState
-*
-GetWebTaskSchedulingState
 (
 )
 ;
