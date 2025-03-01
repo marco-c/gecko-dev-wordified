@@ -1454,12 +1454,7 @@ self
 mResponsePromises
 -
 >
-GetResponseEndPromise
-(
-)
--
->
-IsResolved
+IsResponseEndPromiseResolved
 (
 )
 ;

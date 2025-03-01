@@ -7383,17 +7383,6 @@ timeout
 auto
 )
 {
-if
-(
-!
-result
--
->
-IsResolved
-(
-)
-)
-{
 result
 -
 >
@@ -7403,7 +7392,6 @@ NS_ERROR_DOM_NETWORK_ERR
 __func__
 )
 ;
-}
 IdentityCredential
 :
 :
