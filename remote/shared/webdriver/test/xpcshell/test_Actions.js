@@ -906,12 +906,12 @@ actionItem
 Expected
 "
 .
-*
 "
 to
 be
-an
-integer
+a
+finite
+number
 /
 {
 name
