@@ -138,10 +138,13 @@ addons
 about
 :
 credits
-and
 about
 :
 logins
+and
+about
+:
+rights
 will
 initiate
 network
@@ -152,6 +155,9 @@ credits
 "
 "
 logins
+"
+"
+rights
 "
 /
 /

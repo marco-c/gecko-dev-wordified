@@ -1253,6 +1253,9 @@ credits
 "
 logins
 "
+"
+rights
+"
 ]
 ;
 for

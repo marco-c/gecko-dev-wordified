@@ -721,7 +721,7 @@ gBrowser
 "
 about
 :
-rights
+robots
 "
 )
 ;

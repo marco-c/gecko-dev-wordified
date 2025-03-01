@@ -542,9 +542,6 @@ profiling
 protections
 "
 "
-rights
-"
-"
 sessionrestore
 "
 "
@@ -673,6 +670,11 @@ webrtc
 about
 :
 welcome
+"
+"
+about
+:
+rights
 "
 /
 /
