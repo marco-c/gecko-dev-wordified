@@ -1177,6 +1177,13 @@ k
 ;
 }
 }
+const
+kBlendingGPUBlendComponentFormat
+=
+'
+rgba16float
+'
+;
 g
 .
 test
@@ -1685,9 +1692,7 @@ t
 const
 textureFormat
 =
-'
-rgba16float
-'
+kBlendingGPUBlendComponentFormat
 ;
 const
 srcColor

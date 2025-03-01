@@ -932,6 +932,13 @@ format
 }
 )
 ;
+const
+kPrecisionTestFormat
+=
+'
+rgba32float
+'
+;
 g
 .
 test
@@ -1076,9 +1083,7 @@ t
 const
 format
 =
-'
-rgba32float
-'
+kPrecisionTestFormat
 ;
 await
 t

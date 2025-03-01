@@ -41,9 +41,9 @@ api
 /
 operation
 /
-texture_view
+limits
 /
-read
+max_combined_limits
 .
 spec
 .
