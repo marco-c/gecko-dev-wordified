@@ -39924,8 +39924,8 @@ emitBlock
 (
 )
 {
-ResultType
-params
+BlockType
+type
 ;
 return
 iter
@@ -39935,7 +39935,7 @@ iter
 readBlock
 (
 &
-params
+type
 )
 &
 &
@@ -39952,8 +39952,8 @@ emitLoop
 (
 )
 {
-ResultType
-params
+BlockType
+type
 ;
 if
 (
@@ -39965,7 +39965,7 @@ iter
 readLoop
 (
 &
-params
+type
 )
 )
 {
@@ -39984,7 +39984,11 @@ startLoop
 (
 &
 loopHeader
+type
+.
 params
+(
+)
 .
 length
 (
@@ -40041,8 +40045,8 @@ relativeBytecodeOffset
 )
 )
 ;
-ResultType
-params
+BlockType
+type
 ;
 MDefinition
 *
@@ -40060,7 +40064,7 @@ iter
 readIf
 (
 &
-params
+type
 &
 condition
 )
@@ -41146,8 +41150,8 @@ emitTry
 (
 )
 {
-ResultType
-params
+BlockType
+type
 ;
 if
 (
@@ -41159,7 +41163,7 @@ iter
 readTry
 (
 &
-params
+type
 )
 )
 {
@@ -41424,8 +41428,8 @@ emitTryTable
 (
 )
 {
-ResultType
-params
+BlockType
+type
 ;
 TryTableCatchVector
 catches
@@ -41440,7 +41444,7 @@ iter
 readTryTable
 (
 &
-params
+type
 &
 catches
 )
@@ -65172,7 +65176,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4DotI8x16I7x16AddS
+I32x4RelaxedDotI8x16I7x16AddS
 )
 :
 {
@@ -65395,7 +65399,7 @@ uint32_t
 SimdOp
 :
 :
-I16x8DotI8x16I7x16S
+I16x8RelaxedDotI8x16I7x16S
 )
 :
 {
