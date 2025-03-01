@@ -19076,9 +19076,13 @@ animation
 >
 UpdateDelta
 (
-aEvent
+GetFrameTime
+(
+)
 .
-mTimeStamp
+Time
+(
+)
 deltaInAppUnits
 nsSize
 (
