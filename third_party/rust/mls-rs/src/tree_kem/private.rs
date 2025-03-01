@@ -1224,8 +1224,11 @@ await
 ]
 &
 alice_signing
+Some
+(
 default_properties
 (
+)
 )
 None
 &

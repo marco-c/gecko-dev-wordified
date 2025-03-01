@@ -1333,8 +1333,11 @@ TEST_CIPHER_SUITE
 )
 TEST_GROUP
 i
+Some
+(
 default_properties
 (
+)
 )
 None
 signer

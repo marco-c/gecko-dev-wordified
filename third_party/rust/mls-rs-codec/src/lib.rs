@@ -133,6 +133,9 @@ mod
 iter
 ;
 mod
+bool
+;
+mod
 cow
 ;
 mod
@@ -792,6 +795,8 @@ Error
 impl
 <
 T
+:
+MlsDecode
 >
 MlsDecode
 for
@@ -799,13 +804,6 @@ Box
 <
 T
 >
-where
-T
-:
-MlsDecode
-+
-?
-Sized
 {
 #
 [

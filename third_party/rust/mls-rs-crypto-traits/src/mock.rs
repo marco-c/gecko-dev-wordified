@@ -62,6 +62,8 @@ kem
 :
 :
 MockKemType
+MockHash
+MockVariableLengthHash
 }
 ;
 #

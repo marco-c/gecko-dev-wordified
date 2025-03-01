@@ -418,7 +418,10 @@ signer
 SignatureSecretKey
 update_leaf_properties
 :
+Option
+<
 ConfigProperties
+>
 signing_identity
 :
 Option
@@ -3363,7 +3366,10 @@ await
 ]
 &
 encap_signer
+Some
+(
 update_leaf_properties
+)
 None
 &
 cipher_suite_provider
