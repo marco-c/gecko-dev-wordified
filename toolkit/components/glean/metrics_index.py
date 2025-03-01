@@ -1152,6 +1152,18 @@ browser
 /
 components
 /
+asrouter
+/
+metrics
+.
+yaml
+"
+    
+"
+browser
+/
+components
+/
 backup
 /
 metrics
@@ -2035,6 +2047,18 @@ py
 firefox_desktop_pings
 =
 [
+    
+"
+browser
+/
+components
+/
+asrouter
+/
+pings
+.
+yaml
+"
     
 "
 browser
