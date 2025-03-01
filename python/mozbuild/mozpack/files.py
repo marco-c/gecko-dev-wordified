@@ -4014,15 +4014,6 @@ this
 step
 .
         
-#
-See
-comment
-in
-AbsoluteSymlinkFile
-about
-Windows
-.
-        
 if
 hasattr
 (
@@ -4032,19 +4023,6 @@ symlink
 "
 )
 and
-platform
-.
-system
-(
-)
-!
-=
-"
-Windows
-"
-:
-            
-if
 os
 .
 path
@@ -4056,7 +4034,7 @@ dest
 path
 )
 :
-                
+            
 os
 .
 remove
