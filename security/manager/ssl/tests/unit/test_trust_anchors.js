@@ -100,7 +100,7 @@ let
 libraryName
 =
 "
-test_builtins
+test_trust_anchors
 "
 ;
 checkPKCS11ModuleNotPresent
@@ -131,7 +131,7 @@ libraryFile
 append
 (
 "
-test_builtins
+test_trust_anchors
 "
 )
 ;
@@ -247,7 +247,7 @@ addCertFromFile
 (
 gCertDb
 "
-test_builtins
+test_trust_anchors
 /
 ee
 -
@@ -282,7 +282,7 @@ addCertFromFile
 (
 gCertDb
 "
-test_builtins
+test_trust_anchors
 /
 ee
 -
@@ -317,7 +317,7 @@ addCertFromFile
 (
 gCertDb
 "
-test_builtins
+test_trust_anchors
 /
 int
 .
