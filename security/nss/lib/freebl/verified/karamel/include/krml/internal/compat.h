@@ -118,6 +118,7 @@ __ret
 \
 KRML_HOST_PRINTF
 (
+\
 "
 Prims
 .
@@ -137,8 +138,8 @@ d
 \
 n
 "
-\
 __FILE__
+\
 __LINE__
 )
 ;

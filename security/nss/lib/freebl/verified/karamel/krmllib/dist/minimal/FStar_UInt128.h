@@ -60,9 +60,7 @@ include
 "
 krml
 /
-internal
-/
-target
+lowstar_endianness
 .
 h
 "
@@ -82,7 +80,9 @@ include
 "
 krml
 /
-lowstar_endianness
+internal
+/
+target
 .
 h
 "

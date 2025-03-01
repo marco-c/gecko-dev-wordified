@@ -33,14 +33,14 @@ __LOWSTAR_ENDIANNESS_H
 #
 include
 <
-inttypes
+string
 .
 h
 >
 #
 include
 <
-string
+inttypes
 .
 h
 >
@@ -244,7 +244,6 @@ __CYGWIN__
 )
 |
 |
-\
 defined
 (
 __USE_SYSTEM_ENDIAN_H__
@@ -949,7 +948,6 @@ compiler
 &
 is
 always
-*
 big
 -
 endian
@@ -971,7 +969,6 @@ __ORDER_BIG_ENDIAN__
 )
 |
 |
-\
 defined
 (
 _AIX
