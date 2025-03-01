@@ -4153,7 +4153,7 @@ def
 handle_result
 (
 self
-bt_result
+gt_result
 raw_result
 last_result
 =
@@ -4164,16 +4164,15 @@ kwargs
 )
 :
         
-bandwidth_key
+goodput_key
 =
 (
             
 "
 upload
 -
-bandwidth
+goodput
 "
-            
 if
 self
 .
@@ -4183,18 +4182,17 @@ transfer_type
 "
 upload
 "
-            
 else
 "
 download
 -
-bandwidth
+goodput
 "
         
 )
         
 def
-get_bandwidth
+get_goodput
 (
 data
 )
@@ -4243,7 +4241,7 @@ custom_data
 )
                     
 if
-bandwidth_key
+goodput_key
 in
 custom_data
 :
@@ -4251,7 +4249,7 @@ custom_data
 return
 custom_data
 [
-bandwidth_key
+goodput_key
 ]
                 
 return
@@ -4274,16 +4272,16 @@ Exception
 return
 None
         
-bandwidth
+goodput
 =
-get_bandwidth
+get_goodput
 (
 raw_result
 )
         
 if
 not
-bandwidth
+goodput
 :
             
 return
@@ -4294,21 +4292,21 @@ info
 (
 f
 "
-Bandwidth
+Goodput
 :
 {
-bandwidth
+goodput
 }
 "
 )
         
 for
-b
+g
 in
-bandwidth
+goodput
 :
             
-bt_result
+gt_result
 [
 "
 measurements
@@ -4317,14 +4315,14 @@ measurements
 .
 setdefault
 (
-bandwidth_key
+goodput_key
 [
 ]
 )
 .
 append
 (
-b
+g
 )
     
 def
