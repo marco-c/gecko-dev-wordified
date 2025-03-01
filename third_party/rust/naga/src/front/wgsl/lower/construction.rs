@@ -3919,7 +3919,7 @@ ty
 mut
 ctx
 .
-as_global
+as_const
 (
 )
 )
@@ -4048,7 +4048,7 @@ ty
 mut
 ctx
 .
-as_global
+as_const
 (
 )
 )
@@ -4196,7 +4196,7 @@ base
 mut
 ctx
 .
-as_global
+as_const
 (
 )
 )
@@ -4214,7 +4214,7 @@ size
 mut
 ctx
 .
-as_global
+as_const
 (
 )
 )

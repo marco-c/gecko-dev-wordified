@@ -338,10 +338,14 @@ MAX_I32_BINDING_SIZE
 :
 u32
 =
+(
 1
 <
 <
 31
+)
+-
+1
 ;
 pub
 fn

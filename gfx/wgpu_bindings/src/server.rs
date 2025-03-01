@@ -1109,6 +1109,15 @@ dll
 into
 (
 )
+max_shader_model
+:
+wgt
+:
+:
+DxcShaderModel
+:
+:
+V6_6
 }
 }
 else

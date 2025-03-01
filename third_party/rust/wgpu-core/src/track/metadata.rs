@@ -6,6 +6,15 @@ ResourceMetadata
 type
 .
 use
+alloc
+:
+:
+vec
+:
+:
+Vec
+;
+use
 bit_vec
 :
 :

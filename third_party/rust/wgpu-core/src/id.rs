@@ -8,7 +8,7 @@ Index
 }
 ;
 use
-std
+core
 :
 :
 {
@@ -1230,7 +1230,7 @@ hash
 <
 H
 :
-std
+core
 :
 :
 hash

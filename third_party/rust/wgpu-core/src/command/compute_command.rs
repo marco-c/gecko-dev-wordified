@@ -1,5 +1,5 @@
 use
-std
+alloc
 :
 :
 sync
@@ -347,6 +347,12 @@ ComputeCommand
 >
 Result
 <
+alloc
+:
+:
+vec
+:
+:
 Vec
 <
 ArcComputeCommand
@@ -365,6 +371,15 @@ super
 ComputePassError
 PassErrorScope
 }
+;
+use
+alloc
+:
+:
+vec
+:
+:
+Vec
 ;
 let
 buffers_guard

@@ -311,7 +311,6 @@ index
 .
 lower
 (
-&
 tu
 )
 ?

@@ -7,10 +7,18 @@ mem
 :
 :
 size_of_val
+string
+:
+:
+String
 sync
 :
 :
 Arc
+vec
+:
+:
+Vec
 }
 ;
 use
@@ -488,6 +496,7 @@ DynamicDxc
 {
 dxil_path
 dxc_path
+max_shader_model
 }
 =
 >
@@ -513,6 +522,7 @@ dxil_path
 into
 (
 )
+max_shader_model
 )
 .
 map_err

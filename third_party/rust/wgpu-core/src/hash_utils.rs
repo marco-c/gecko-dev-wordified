@@ -19,7 +19,7 @@ prevent
 clashing
 with
 the
-std
+core
 :
 :
 hash
@@ -53,7 +53,7 @@ HashMap
 <
 K
 V
-std
+core
 :
 :
 hash
@@ -94,7 +94,7 @@ hashbrown
 HashSet
 <
 K
-std
+core
 :
 :
 hash
@@ -137,7 +137,7 @@ IndexMap
 <
 K
 V
-std
+core
 :
 :
 hash
