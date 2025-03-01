@@ -9144,12 +9144,15 @@ Nothing
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 imgLoader
 :
 :
 ClearCache
 (
+mozilla
+:
+:
 Maybe
 <
 bool
