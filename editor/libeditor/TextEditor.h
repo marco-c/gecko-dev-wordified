@@ -3293,14 +3293,12 @@ nsresult
 >
 HandleInsertText
 (
-EditSubAction
-aEditSubAction
 const
 nsAString
 &
 aInsertionString
-SelectionHandling
-aSelectionHandling
+InsertTextFor
+aPurpose
 )
 final
 ;

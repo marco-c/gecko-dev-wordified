@@ -599,10 +599,10 @@ rv
 InsertTextAsSubAction
 (
 stuffToPaste
-SelectionHandling
+InsertTextFor
 :
 :
-Delete
+NormalText
 )
 ;
 if

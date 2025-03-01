@@ -4424,10 +4424,10 @@ rv
 InsertTextAsSubAction
 (
 quotedStuff
-SelectionHandling
+InsertTextFor
 :
 :
-Delete
+NormalText
 )
 ;
 NS_WARNING_ASSERTION
