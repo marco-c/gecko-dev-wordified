@@ -3470,16 +3470,6 @@ browser
 /
 components
 /
-newtab
-/
-*
-*
-"
-"
-browser
-/
-components
-/
 originattributes
 /
 test
