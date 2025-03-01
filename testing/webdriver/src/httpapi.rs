@@ -1623,7 +1623,7 @@ Method
 POST
 "
 /
-sessions
+session
 /
 {
 sessionId
@@ -1645,7 +1645,7 @@ Method
 DELETE
 "
 /
-sessions
+session
 /
 {
 sessionId
@@ -1671,7 +1671,7 @@ Method
 POST
 "
 /
-sessions
+session
 /
 {
 sessionId
@@ -1699,7 +1699,7 @@ Method
 GET
 "
 /
-sessions
+session
 /
 {
 sessionId
@@ -1727,7 +1727,7 @@ Method
 DELETE
 "
 /
-sessions
+session
 /
 {
 sessionId
@@ -1759,7 +1759,7 @@ Method
 DELETE
 "
 /
-sessions
+session
 /
 {
 sessionId
@@ -1787,7 +1787,7 @@ Method
 POST
 "
 /
-sessions
+session
 /
 {
 sessionId
