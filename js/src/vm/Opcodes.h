@@ -6657,6 +6657,8 @@ objects
 *
 Operands
 :
+uint8_t
+propertyCount
 *
 Stack
 :
@@ -6671,10 +6673,10 @@ MACRO
 NewInit
 new_init
 NULL
-1
+2
 0
 1
-JOF_BYTE
+JOF_UINT8
 |
 JOF_IC
 )
