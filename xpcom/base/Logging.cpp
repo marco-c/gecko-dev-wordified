@@ -3966,8 +3966,6 @@ out
 charsWritten
 =
 size
-+
-1
 ;
 /
 /
@@ -4047,10 +4045,6 @@ out
 0
 '
 ;
-charsWritten
-+
-+
-;
 buffToWrite
 =
 allocatedBuff
@@ -4060,6 +4054,16 @@ get
 )
 ;
 }
++
++
+charsWritten
+;
+/
+/
++
+final
+\
+0
 ActuallyLog
 (
 aName
