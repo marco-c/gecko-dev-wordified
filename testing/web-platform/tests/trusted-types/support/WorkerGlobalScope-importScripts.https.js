@@ -558,7 +558,6 @@ work
 ;
 }
 }
-true
 )
 ;
 test
