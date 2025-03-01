@@ -3,16 +3,6 @@
 |
 reftest
 |
-shell
--
-option
-(
--
--
-enable
--
-float16array
-)
 slow
 skip
 -

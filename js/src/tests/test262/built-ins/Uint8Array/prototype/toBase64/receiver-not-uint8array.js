@@ -15,16 +15,6 @@ uint8array
 -
 base64
 )
-shell
--
-option
-(
--
--
-enable
--
-float16array
-)
 skip
 -
 if
