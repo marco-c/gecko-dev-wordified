@@ -181,6 +181,12 @@ FETCH_PRIORITY_IMAGES
 <
 <
 0
+USING_A11Y
+=
+1
+<
+<
+1
 }
 ;
 }
