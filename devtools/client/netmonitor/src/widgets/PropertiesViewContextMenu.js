@@ -286,6 +286,11 @@ the
 whole
 tree
 data
+(
+can
+be
+optional
+)
 *
 /
 open
@@ -407,6 +412,11 @@ copyAll
 accesskey
 "
 )
+visible
+:
+!
+!
+object
 click
 :
 (
