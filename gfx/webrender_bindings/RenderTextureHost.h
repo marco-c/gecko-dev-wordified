@@ -263,6 +263,9 @@ RenderTextureHostSWGL
 class
 RenderTextureHostWrapper
 ;
+class
+RenderDMABUFTextureHost
+;
 void
 ActivateBindAndTexParameteri
 (
@@ -780,6 +783,17 @@ virtual
 RenderDcompSurfaceTextureHost
 *
 AsRenderDcompSurfaceTextureHost
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+RenderDMABUFTextureHost
+*
+AsRenderDMABUFTextureHost
 (
 )
 {
