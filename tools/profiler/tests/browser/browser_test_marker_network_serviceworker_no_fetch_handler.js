@@ -1157,6 +1157,11 @@ classOfService
 "
 Unset
 "
+requestStatus
+:
+"
+NS_OK
+"
 requestMethod
 :
 "
