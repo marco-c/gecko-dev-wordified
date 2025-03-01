@@ -1206,6 +1206,14 @@ destroyed
 /
 getWatcher
 (
+{
+enableWindowGlobalThreadActors
+=
+false
+}
+=
+{
+}
 )
 {
 if
@@ -1228,6 +1236,9 @@ this
 conn
 createBrowserSessionContext
 (
+{
+enableWindowGlobalThreadActors
+}
 )
 )
 ;
