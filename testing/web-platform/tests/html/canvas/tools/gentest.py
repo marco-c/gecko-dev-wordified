@@ -2152,6 +2152,12 @@ CAIRO_REFERENCE
 cairo_reference
 '
     
+IMG_REFERENCE
+=
+'
+img_reference
+'
+    
 TESTHARNESS
 =
 '
@@ -2171,6 +2177,10 @@ HTML_REFERENCE
 _TemplateType
 .
 CAIRO_REFERENCE
+                        
+_TemplateType
+.
+IMG_REFERENCE
 )
 class
 MutableDictLoader
@@ -7443,6 +7453,20 @@ grid
 .
 html
 '
+            
+_TemplateType
+.
+IMG_REFERENCE
+:
+f
+'
+reftest_img
+{
+grid
+}
+.
+html
+'
         
 }
         
@@ -8347,9 +8371,17 @@ output_dir
 img_filename
 )
         
+for
+v
+in
 self
 .
-_canvas_type_params
+_variants
+:
+            
+v
+.
+canvas_type_params
 [
 canvas_type
 ]
