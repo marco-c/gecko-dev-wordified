@@ -322,9 +322,9 @@ components
 /
 DiscoveryStreamComponents
 /
-InlineTopicSelection
+InterestPicker
 /
-InlineTopicSelection
+InterestPicker
 .
 jsx
 "
