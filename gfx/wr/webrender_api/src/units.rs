@@ -1292,6 +1292,17 @@ LayoutPixel
 ;
 pub
 type
+LayoutToVisTransform
+=
+Transform3D
+<
+f32
+LayoutPixel
+VisPixel
+>
+;
+pub
+type
 LayoutToPictureTransform
 =
 Transform3D
