@@ -2433,13 +2433,7 @@ split
 (
 )
 return
-"
-"
-.
-join
-(
 flags
-)
 set_config
 (
 "

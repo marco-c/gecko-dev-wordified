@@ -1052,7 +1052,7 @@ mozbuild
 config
 :
 :
-CC_BASE_FLAGS
+BINDGEN_SYSTEM_FLAGS
 as
 CFLAGS
 ;

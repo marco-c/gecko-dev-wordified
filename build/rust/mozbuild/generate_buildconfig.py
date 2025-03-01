@@ -978,7 +978,7 @@ write
 generate_string_array
 (
 "
-CC_BASE_FLAGS
+BINDGEN_SYSTEM_FLAGS
 "
 )
 )
