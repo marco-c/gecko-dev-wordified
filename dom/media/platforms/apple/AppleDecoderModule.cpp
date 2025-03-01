@@ -1121,7 +1121,12 @@ mMimeType
 )
 {
 return
-true
+StaticPrefs
+:
+:
+media_hevc_enabled
+(
+)
 ;
 }
 if
