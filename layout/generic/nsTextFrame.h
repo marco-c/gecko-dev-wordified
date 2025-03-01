@@ -5659,6 +5659,7 @@ LineDecoration
 {
 nsIFrame
 *
+const
 mFrame
 ;
 /
@@ -5691,6 +5692,7 @@ and
 negative
 offsets
 below
+const
 nscoord
 mBaselineOffset
 ;
@@ -5743,9 +5745,11 @@ mozilla
 StyleTextDecorationLength
 mTextDecorationThickness
 ;
+const
 nscolor
 mColor
 ;
+const
 mozilla
 :
 :
@@ -5781,6 +5785,10 @@ mozilla
 StyleTextUnderlinePosition
 mTextUnderlinePosition
 ;
+const
+bool
+mAllowInkSkipping
+;
 LineDecoration
 (
 nsIFrame
@@ -5790,6 +5798,7 @@ aFrame
 const
 nscoord
 aOff
+const
 mozilla
 :
 :
@@ -5818,6 +5827,9 @@ mozilla
 :
 StyleTextDecorationStyle
 aStyle
+const
+bool
+aAllowInkSkipping
 )
 :
 mFrame
@@ -5847,6 +5859,10 @@ aStyle
 mTextUnderlinePosition
 (
 aUnderlinePosition
+)
+mAllowInkSkipping
+(
+aAllowInkSkipping
 )
 {
 }
@@ -5927,6 +5943,14 @@ mTextDecorationThickness
 aOther
 .
 mTextDecorationThickness
+&
+&
+mAllowInkSkipping
+=
+=
+aOther
+.
+mAllowInkSkipping
 ;
 }
 bool
