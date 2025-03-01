@@ -119,7 +119,7 @@ require
 -
 param
 -
-description
+name
 "
 :
 "
@@ -132,7 +132,7 @@ require
 -
 param
 -
-name
+type
 "
 :
 "
