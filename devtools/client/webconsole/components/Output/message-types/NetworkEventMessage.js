@@ -1267,6 +1267,9 @@ true
 showMessagesView
 :
 false
+targetSearchResult
+:
+null
 }
 )
 )

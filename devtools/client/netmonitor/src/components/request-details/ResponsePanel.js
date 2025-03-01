@@ -2211,6 +2211,15 @@ event
 =
 >
 {
+if
+(
+this
+.
+props
+.
+setDefaultRawResponse
+)
+{
 this
 .
 props
@@ -2224,6 +2233,7 @@ target
 checked
 )
 ;
+}
 this
 .
 toggleRawResponsePayload
