@@ -50,14 +50,6 @@ Description
 /
 Note
 :
-<
-p
-class
-=
-"
-notes
-"
->
 importScripts
 (
 "
