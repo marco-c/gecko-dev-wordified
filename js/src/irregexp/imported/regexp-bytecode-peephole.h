@@ -121,7 +121,7 @@ optimized
 bytecode
 .
 static
-Handle
+DirectHandle
 <
 TrustedByteArray
 >

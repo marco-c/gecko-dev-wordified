@@ -7234,7 +7234,7 @@ namespace
 /
 /
 static
-Handle
+DirectHandle
 <
 TrustedByteArray
 >
@@ -7289,7 +7289,7 @@ bytecode
 length
 )
 ;
-Handle
+DirectHandle
 <
 TrustedByteArray
 >
