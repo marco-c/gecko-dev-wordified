@@ -1192,7 +1192,7 @@ f32
 >
 grid_size
 :
-u16
+u8
 }
 impl
 ModularTransform
@@ -2010,7 +2010,7 @@ f32
 >
 grid_size
 :
-u16
+u8
 output_clut_table
 :
 [
@@ -3018,7 +3018,7 @@ f32
 >
 grid_size
 :
-u16
+u8
 output_clut_table
 :
 [
@@ -7138,8 +7138,6 @@ num_grid_points
 [
 0
 ]
-as
-u16
 }
 )
 )
@@ -7644,8 +7642,6 @@ grid_size
 lut
 .
 num_clut_grid_points
-as
-u16
 ;
 /
 /
@@ -8045,8 +8041,6 @@ grid_size
 lut
 .
 num_clut_grid_points
-as
-u16
 ;
 /
 /
