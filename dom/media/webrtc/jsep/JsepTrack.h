@@ -1598,6 +1598,7 @@ string
 GetFecCodecName
 (
 )
+const
 {
 return
 mFecCodec
@@ -1612,6 +1613,7 @@ string
 GetAudioPreferredCodec
 (
 )
+const
 {
 return
 mAudioPreferredCodec
@@ -1626,6 +1628,7 @@ string
 GetVideoPreferredCodec
 (
 )
+const
 {
 return
 mVideoPreferredCodec

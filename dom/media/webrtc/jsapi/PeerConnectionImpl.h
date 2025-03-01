@@ -2370,6 +2370,12 @@ RecordEndOfCallTelemetry
 (
 )
 ;
+void
+RecordSignalingTelemetry
+(
+)
+const
+;
 nsresult
 MaybeInitializeDataChannel
 (
