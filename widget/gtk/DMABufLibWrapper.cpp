@@ -1869,7 +1869,7 @@ DMABufModifiersXRGB
 )
 )
 ;
-mFormatRGBX
+mFormatRGBA
 =
 new
 DRMFormat
