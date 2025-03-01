@@ -567,6 +567,9 @@ const
 OriginAttributes
 &
 aOriginAttributes
+nsHttpConnectionInfo
+*
+aConnInfo
 )
 {
 LOG
@@ -634,6 +637,18 @@ proxyInfoArray
 )
 ;
 }
+HttpConnectionInfoCloneArgs
+infoArgs
+;
+nsHttpConnectionInfo
+:
+:
+SerializeHttpConnectionInfo
+(
+aConnInfo
+infoArgs
+)
+;
 Unused
 <
 <
@@ -651,6 +666,7 @@ aPrivateBrowsing
 proxyInfoArray
 aCaps
 aOriginAttributes
+infoArgs
 )
 ;
 }

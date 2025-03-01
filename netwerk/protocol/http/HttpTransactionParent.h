@@ -209,12 +209,10 @@ define
 HTTP_TRANSACTION_PARENT_IID
 \
 {
-\
 0xb83695cb
 0xc24b
 0x4c53
 {
-\
 0x85
 0x9b
 0x77
@@ -223,9 +221,7 @@ HTTP_TRANSACTION_PARENT_IID
 0xc5
 0x44
 0xe5
-\
 }
-\
 }
 /
 /
@@ -370,6 +366,10 @@ const
 TimeStamp
 &
 aOnStartRequestStartTime
+const
+HttpConnectionInfoCloneArgs
+&
+aArgs
 )
 ;
 mozilla
@@ -472,10 +472,6 @@ const
 TimeStamp
 &
 aLastActiveTabOptHit
-const
-HttpConnectionInfoCloneArgs
-&
-aArgs
 const
 TimeStamp
 &
@@ -725,6 +721,9 @@ const
 TimeStamp
 &
 aOnStartRequestStartTime
+nsHttpConnectionInfo
+*
+aConnInfo
 )
 ;
 void
@@ -781,9 +780,6 @@ TransactionObserverResult
 &
 &
 aTransactionObserverResult
-nsHttpConnectionInfo
-*
-aConnInfo
 const
 TimeStamp
 &
