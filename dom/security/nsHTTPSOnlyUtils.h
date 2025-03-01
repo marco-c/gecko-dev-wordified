@@ -2173,12 +2173,6 @@ nsITimer
 >
 mTimer
 ;
-bool
-mHasHTTPSRR
-{
-false
-}
-;
 }
 ;
 /
