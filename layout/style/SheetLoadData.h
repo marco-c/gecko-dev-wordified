@@ -696,6 +696,13 @@ nsIChannel
 )
 const
 ;
+void
+OnStartRequest
+(
+nsIRequest
+*
+)
+;
 /
 /
 The
@@ -737,13 +744,6 @@ nsACString
 aBytes2
 nsIChannel
 *
-aChannel
-nsIURI
-*
-aFinalChannelURI
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 NS_DECL_ISUPPORTS
