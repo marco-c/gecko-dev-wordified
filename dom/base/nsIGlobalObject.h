@@ -2456,6 +2456,17 @@ return
 false
 ;
 }
+virtual
+bool
+HasScheduledNormalOrHighPriorityWebTasks
+(
+)
+const
+{
+return
+false
+;
+}
 /
 *
 *
