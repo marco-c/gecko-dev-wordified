@@ -3343,7 +3343,7 @@ mAdoptedStyleSheets
 :
 mStyleSheets
 ;
-int32_t
+size_t
 index
 =
 sheetList
@@ -3357,8 +3357,11 @@ aSheet
 if
 (
 index
-<
-0
+=
+=
+sheetList
+.
+NoIndex
 )
 {
 /
@@ -3444,10 +3447,7 @@ IsApplicable
 {
 InsertSheetIntoAuthorData
 (
-size_t
-(
 index
-)
 aSheet
 sheetList
 )

@@ -4197,7 +4197,7 @@ SheetCount
 return
 mStyleSheets
 .
-IndexOf
+LastIndexOf
 (
 &
 aSheet
