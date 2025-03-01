@@ -14384,7 +14384,13 @@ bool
 &
 privateLoader
 const
+mozilla
+:
+:
+Maybe
+<
 bool
+>
 &
 chrome
 )
