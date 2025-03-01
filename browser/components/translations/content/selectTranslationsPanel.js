@@ -152,7 +152,7 @@ gre
 /
 modules
 /
-translation
+translations
 /
 LanguageDetector
 .

@@ -2689,7 +2689,7 @@ toolkit
 /
 components
 /
-translation
+translations
 /
 cld2
 /
