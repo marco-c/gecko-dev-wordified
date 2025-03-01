@@ -252,7 +252,7 @@ exe
 :
 [
 "
-autograph_authenticode_202404_stub
+gcp_prod_autograph_authenticode_202412_stub
 "
 ]
     
@@ -268,7 +268,7 @@ exe
 :
 [
 "
-autograph_authenticode_202404_stub
+gcp_prod_autograph_authenticode_202412_stub
 "
 ]
     
@@ -282,7 +282,7 @@ msi
 :
 [
 "
-autograph_authenticode_202404
+gcp_prod_autograph_authenticode_202412
 "
 ]
     
@@ -296,7 +296,7 @@ msix
 :
 [
 "
-autograph_authenticode_202404
+gcp_prod_autograph_authenticode_202412
 "
 ]
 }

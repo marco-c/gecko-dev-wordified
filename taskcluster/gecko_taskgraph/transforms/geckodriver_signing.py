@@ -881,7 +881,7 @@ win
 signing_format
 =
 "
-autograph_authenticode_202404
+gcp_prod_autograph_authenticode_202412
 "
     
 elif
@@ -898,7 +898,7 @@ linux
 signing_format
 =
 "
-autograph_gpg
+gcp_prod_autograph_gpg
 "
     
 elif

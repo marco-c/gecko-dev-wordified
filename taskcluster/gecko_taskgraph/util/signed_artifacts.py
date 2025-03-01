@@ -311,7 +311,7 @@ formats
 :
 [
 "
-autograph_gpg
+gcp_prod_autograph_gpg
 "
 ]
             
@@ -349,7 +349,7 @@ formats
 :
 [
 "
-autograph_gpg
+gcp_prod_autograph_gpg
 "
 ]
             
@@ -547,7 +547,7 @@ formats
 macapp
 "
 "
-autograph_widevine
+gcp_prod_autograph_widevine
 "
 ]
                 
@@ -559,7 +559,7 @@ langpack_formats
 =
 [
 "
-autograph_langpack
+gcp_prod_autograph_langpack
 "
 ]
         
@@ -664,7 +664,7 @@ formats
 :
 [
 "
-autograph_authenticode_202404
+gcp_prod_autograph_authenticode_202412
 "
 ]
             
@@ -701,11 +701,11 @@ formats
 [
                     
 "
-autograph_authenticode_202404
+gcp_prod_autograph_authenticode_202412
 "
                     
 "
-autograph_widevine
+gcp_prod_autograph_widevine
 "
                 
 ]
@@ -791,10 +791,10 @@ formats
 :
 [
 "
-autograph_gpg
+gcp_prod_autograph_gpg
 "
 "
-autograph_widevine
+gcp_prod_autograph_widevine
 "
 ]
             
@@ -845,7 +845,7 @@ formats
 :
 [
 "
-autograph_langpack
+gcp_prod_autograph_langpack
 "
 ]
                 
@@ -1007,7 +1007,7 @@ artifacts_specifications
         
 if
 "
-autograph_widevine
+gcp_prod_autograph_widevine
 "
 in
 spec
@@ -1028,7 +1028,7 @@ formats
 remove
 (
 "
-autograph_widevine
+gcp_prod_autograph_widevine
 "
 )
     
@@ -1148,7 +1148,7 @@ input
     
 if
 "
-autograph_gpg
+gcp_prod_autograph_gpg
 "
 in
 formats
