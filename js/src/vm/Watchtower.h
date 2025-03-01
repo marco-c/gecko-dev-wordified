@@ -361,8 +361,10 @@ NativeObject
 obj
 HandleId
 id
+PropertyInfo
+propInfo
 PropertyFlags
-flags
+newFlags
 )
 ;
 template
@@ -794,8 +796,10 @@ NativeObject
 obj
 HandleId
 id
+PropertyInfo
+propInfo
 PropertyFlags
-flags
+newFlags
 )
 {
 if
@@ -820,7 +824,8 @@ watchPropertyChangeSlow
 cx
 obj
 id
-flags
+propInfo
+newFlags
 )
 ;
 }
