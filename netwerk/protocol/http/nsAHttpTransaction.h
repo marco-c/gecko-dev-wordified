@@ -178,7 +178,7 @@ NullHttpTransaction
 ;
 enum
 class
-WebSocketSupport
+ExtendedCONNECTSupport
 {
 UNSURE
 NO_SUPPORT
@@ -427,12 +427,10 @@ define
 NS_AHTTPTRANSACTION_IID
 \
 {
-\
 0x2af6d634
 0x13e3
 0x494c
 {
-\
 0x89
 0x03
 0xc9
@@ -441,9 +439,7 @@ NS_AHTTPTRANSACTION_IID
 0xc2
 0x2f
 0xc0
-\
 }
-\
 }
 class
 nsAHttpTransaction

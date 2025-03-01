@@ -16339,11 +16339,11 @@ GetClientCertSent
 )
 ;
 }
-WebSocketSupport
+ExtendedCONNECTSupport
 nsHttpConnection
 :
 :
-GetWebSocketSupport
+GetExtendedCONNECTSupport
 (
 )
 {
@@ -16354,7 +16354,7 @@ LOG3
 nsHttpConnection
 :
 :
-GetWebSocketSupport
+GetExtendedCONNECTSupport
 "
 )
 )
@@ -16368,7 +16368,7 @@ UsingSpdy
 )
 {
 return
-WebSocketSupport
+ExtendedCONNECTSupport
 :
 :
 SUPPORTED
@@ -16381,7 +16381,7 @@ LOG3
 nsHttpConnection
 :
 :
-GetWebSocketSupport
+ExtendedCONNECTSupport
 checking
 spdy
 session
@@ -16398,13 +16398,13 @@ return
 mSpdySession
 -
 >
-GetWebSocketSupport
+GetExtendedCONNECTSupport
 (
 )
 ;
 }
 return
-WebSocketSupport
+ExtendedCONNECTSupport
 :
 :
 NO_SUPPORT
