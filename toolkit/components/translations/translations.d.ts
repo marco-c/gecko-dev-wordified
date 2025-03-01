@@ -871,6 +871,8 @@ item
 :
 T
 )
+:
+void
 ;
 }
 export
@@ -962,6 +964,8 @@ model
 translate
 (
 translationModel
+:
+TranslationModel
 vectorSourceText
 :
 VectorString
@@ -1457,7 +1461,6 @@ languageModelFiles
 :
 LanguageTranslationModelFiles
 }
-;
 /
 *
 *
@@ -1561,7 +1564,6 @@ trgvocab
 :
 LanguageTranslationModelFile
 }
-;
 /
 *
 *
@@ -1596,6 +1598,8 @@ keyof
 LanguageTranslationModelFiles
 ]
 :
+Bergamot
+.
 AlignedMemory
 }
 ;
@@ -1789,7 +1793,6 @@ targetVariant
 :
 string
 }
-;
 /
 *
 *
@@ -2228,3 +2231,25 @@ Promise
 <
 MessagePort
 >
+export
+type
+TranslationsPortMessages
+=
+{
+type
+:
+"
+TranslationsPort
+:
+TranslationRequest
+"
+translationId
+:
+string
+sourceText
+:
+string
+isHTML
+:
+boolean
+}
