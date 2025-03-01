@@ -606,6 +606,9 @@ stylesheet
 .
 *
 /
+[
+Throws
+]
 undefined
 clearParameters
 (
@@ -626,6 +629,9 @@ XSLTProcessor
 .
 *
 /
+[
+Throws
+]
 undefined
 reset
 (
