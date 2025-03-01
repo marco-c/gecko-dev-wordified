@@ -414,6 +414,10 @@ extern
 crate
 ipcclientcerts
 ;
+extern
+crate
+trust_anchors
+;
 #
 [
 cfg
