@@ -1021,6 +1021,17 @@ interestGroupBuyers
 [
 MAIN_ORIGIN
 ]
+privateAggregationConfig
+:
+{
+aggregationCoordinatorOrigin
+:
+window
+.
+location
+.
+origin
+}
 .
 .
 .
