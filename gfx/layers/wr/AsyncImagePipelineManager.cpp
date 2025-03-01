@@ -3114,7 +3114,6 @@ RasterSpace
 Screen
 (
 )
-nullptr
 )
 ;
 Maybe
