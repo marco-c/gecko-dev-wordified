@@ -967,6 +967,17 @@ string_list
 "
 ExperimentalFeatures
 "
+nimbus_enrollments
+:
+(
+string_list
+'
+'
+)
+=
+"
+NimbusEnrollments
+"
 headless_mode
 :
 bool
