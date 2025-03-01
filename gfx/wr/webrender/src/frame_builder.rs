@@ -1785,6 +1785,10 @@ pub
 raster_spatial_node_index
 :
 SpatialNodeIndex
+pub
+visibility_spatial_node_index
+:
+SpatialNodeIndex
 /
 /
 /

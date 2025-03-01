@@ -1917,9 +1917,10 @@ util
 :
 {
 clamp_to_scale_factor
-MaxRect
 extract_inner_rect_safe
 project_rect
+MatrixHelpers
+MaxRect
 ScaleOffset
 }
 ;
@@ -7308,6 +7309,9 @@ SpatialNodeIndex
 clip_spatial_node_index
 :
 SpatialNodeIndex
+visibility_spatial_node_index
+:
+SpatialNodeIndex
 spatial_tree
 :
 &
@@ -7435,12 +7439,17 @@ Transform
 (
 spatial_tree
 .
-get_world_transform
+get_relative_transform
 (
 clip_spatial_node_index
+visibility_spatial_node_index
 )
 .
 into_transform
+(
+)
+.
+cast_unit
 (
 )
 )
@@ -9006,6 +9015,9 @@ SpatialNodeIndex
 pic_spatial_node_index
 :
 SpatialNodeIndex
+visibility_spatial_node_index
+:
+SpatialNodeIndex
 clip_leaf_id
 :
 ClipLeafId
@@ -9108,6 +9120,7 @@ node
 handle
 prim_spatial_node_index
 pic_spatial_node_index
+visibility_spatial_node_index
 &
 mut
 local_clip_rect
@@ -9174,6 +9187,9 @@ prim_clip_chain
 &
 ClipChainInstance
 prim_spatial_node_index
+:
+SpatialNodeIndex
+visibility_spatial_node_index
 :
 SpatialNodeIndex
 spatial_tree
@@ -9310,6 +9326,7 @@ clip
 item
 .
 spatial_node_index
+visibility_spatial_node_index
 spatial_tree
 )
 ;
@@ -15049,6 +15066,9 @@ SpatialNodeIndex
 pic_spatial_node_index
 :
 SpatialNodeIndex
+visibility_spatial_node_index
+:
+SpatialNodeIndex
 local_clip_rect
 :
 &
@@ -15124,6 +15144,7 @@ clip_node
 item
 .
 spatial_node_index
+visibility_spatial_node_index
 spatial_tree
 )
 ;
