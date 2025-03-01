@@ -1303,7 +1303,7 @@ AsyncExecute
 (
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 ServiceWorkerUpdateJob
@@ -1314,9 +1314,6 @@ AsyncExecute
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 MOZ_ASSERT
@@ -1657,7 +1654,7 @@ Update
 (
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 ServiceWorkerUpdateJob
@@ -1668,9 +1665,6 @@ Update
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 MOZ_ASSERT
@@ -2904,7 +2898,7 @@ Install
 (
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 ServiceWorkerUpdateJob
@@ -2915,9 +2909,6 @@ Install
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 MOZ_ASSERT

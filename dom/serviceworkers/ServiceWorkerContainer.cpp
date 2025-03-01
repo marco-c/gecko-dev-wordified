@@ -1094,7 +1094,7 @@ ErrorResult
 aRv
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 SWC
@@ -1103,9 +1103,6 @@ Register
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 /
@@ -2112,7 +2109,7 @@ IPCServiceWorkerRegistrationDescriptorOrCopyableErrorResult
 aResult
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 SWC
@@ -2124,9 +2121,6 @@ inner
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 if

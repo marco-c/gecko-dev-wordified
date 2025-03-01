@@ -266,7 +266,7 @@ IPCClientInfo
 aForClient
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 InitServiceWorkerRegistrationParent
@@ -274,9 +274,6 @@ InitServiceWorkerRegistrationParent
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 auto

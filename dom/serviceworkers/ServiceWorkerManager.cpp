@@ -5366,7 +5366,7 @@ ServiceWorkerUpdateViaCache
 aUpdateViaCache
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 SWM
@@ -5375,9 +5375,6 @@ Register
 DOM
 {
 }
-"
-"
-_ns
 )
 ;
 nsCOMPtr

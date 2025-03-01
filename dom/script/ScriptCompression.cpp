@@ -561,7 +561,7 @@ to
 a
 helper
 thread
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 ScriptBytecodeCompress
@@ -569,9 +569,6 @@ ScriptBytecodeCompress
 JS
 {
 }
-"
-"
-_ns
 )
 ;
 PerfStats
@@ -870,7 +867,7 @@ uint8_t
 aBytecodeBufOut
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 ScriptBytecodeDecompress
@@ -878,9 +875,6 @@ ScriptBytecodeDecompress
 JS
 {
 }
-"
-"
-_ns
 )
 ;
 PerfStats

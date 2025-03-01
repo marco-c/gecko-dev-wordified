@@ -7309,7 +7309,7 @@ Update
 LAYOUT
 )
 ;
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 UpdateContainerQueryStyles
@@ -7317,9 +7317,6 @@ UpdateContainerQueryStyles
 LAYOUT
 {
 }
-"
-"
-_ns
 )
 ;
 PresShell

@@ -5440,7 +5440,7 @@ TimeStamp
 aTime
 )
 {
-AUTO_PROFILER_MARKER_TEXT
+AUTO_PROFILER_MARKER_UNTYPED
 (
 "
 NotificationController
@@ -5451,9 +5451,6 @@ WillRefresh
 A11Y
 {
 }
-"
-"
-_ns
 )
 ;
 auto
