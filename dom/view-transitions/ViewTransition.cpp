@@ -9200,7 +9200,7 @@ DocumentHidden
 readyPromise
 -
 >
-MaybeRejectWithAbortError
+MaybeRejectWithInvalidStateError
 (
 "
 Skipped
