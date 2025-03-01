@@ -215,11 +215,6 @@ WindowsAlertNotification
 =
 default
 ;
-bool
-mHandleActions
-=
-false
-;
 nsIWindowsAlertNotification
 :
 :
