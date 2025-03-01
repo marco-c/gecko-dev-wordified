@@ -1014,7 +1014,7 @@ Clear
 (
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -1028,7 +1028,7 @@ DOMSVGNumber
 aItem
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -1041,7 +1041,7 @@ uint32_t
 index
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -1057,7 +1057,7 @@ bool
 found
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -1073,7 +1073,7 @@ uint32_t
 index
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -1089,7 +1089,7 @@ uint32_t
 index
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -1102,7 +1102,7 @@ uint32_t
 index
 ErrorResult
 &
-error
+aRv
 )
 ;
 already_AddRefed
@@ -1116,7 +1116,7 @@ DOMSVGNumber
 newItem
 ErrorResult
 &
-error
+aRv
 )
 {
 return
@@ -1126,7 +1126,7 @@ newItem
 LengthNoFlush
 (
 )
-error
+aRv
 )
 ;
 }

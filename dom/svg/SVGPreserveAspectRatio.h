@@ -592,7 +592,7 @@ uint16_t
 aAlign
 ErrorResult
 &
-rv
+aRv
 )
 ;
 uint16_t
@@ -607,7 +607,7 @@ uint16_t
 aMeetOrSlice
 ErrorResult
 &
-rv
+aRv
 )
 ;
 protected

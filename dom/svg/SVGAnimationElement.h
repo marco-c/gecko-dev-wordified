@@ -485,7 +485,7 @@ GetSimpleDuration
 (
 ErrorResult
 &
-rv
+aRv
 )
 ;
 void
@@ -493,7 +493,7 @@ BeginElement
 (
 ErrorResult
 &
-rv
+aRv
 )
 {
 BeginElementAt
@@ -501,7 +501,7 @@ BeginElementAt
 0
 .
 f
-rv
+aRv
 )
 ;
 }
@@ -512,7 +512,7 @@ float
 offset
 ErrorResult
 &
-rv
+aRv
 )
 ;
 void
@@ -520,7 +520,7 @@ EndElement
 (
 ErrorResult
 &
-rv
+aRv
 )
 {
 EndElementAt
@@ -528,7 +528,7 @@ EndElementAt
 0
 .
 f
-rv
+aRv
 )
 ;
 }
@@ -539,7 +539,7 @@ float
 offset
 ErrorResult
 &
-rv
+aRv
 )
 ;
 /
