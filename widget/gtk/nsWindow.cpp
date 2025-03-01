@@ -57039,7 +57039,9 @@ size
 =
 DevicePixelsToGdkSizeRoundUp
 (
-mBounds
+GetClientBounds
+(
+)
 .
 Size
 (
