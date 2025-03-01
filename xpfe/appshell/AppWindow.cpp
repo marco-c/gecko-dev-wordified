@@ -1815,6 +1815,7 @@ Type
 :
 :
 Chrome
+false
 )
 ;
 /

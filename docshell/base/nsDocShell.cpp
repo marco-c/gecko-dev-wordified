@@ -28772,6 +28772,15 @@ mBrowsingContext
 IsTop
 (
 )
+&
+&
+!
+mBrowsingContext
+-
+>
+Windowless
+(
+)
 )
 {
 /

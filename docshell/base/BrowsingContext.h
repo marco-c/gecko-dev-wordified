@@ -2753,6 +2753,8 @@ CreateIndependent
 (
 Type
 aType
+bool
+aWindowless
 )
 ;
 /
@@ -2785,6 +2787,11 @@ false
 ;
 bool
 isForPrinting
+=
+false
+;
+bool
+windowless
 =
 false
 ;
