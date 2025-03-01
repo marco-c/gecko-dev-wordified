@@ -303,6 +303,11 @@ div
 =
 dom
 ;
+const
+MAX_STRING_LENGTH
+=
+250
+;
 function
 isObject
 (
@@ -694,7 +699,7 @@ props
 {
 cropLimit
 :
-50
+MAX_STRING_LENGTH
 noGrip
 :
 true
@@ -788,6 +793,9 @@ this
 props
 .
 expandedNodes
+maxStringLength
+:
+MAX_STRING_LENGTH
 }
 )
 ;
