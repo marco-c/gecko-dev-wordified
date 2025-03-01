@@ -9031,11 +9031,13 @@ size
 to
 /
 /
-1
-burst
+2
+bursts
 .
 output_buffer_size_frames
 =
+2
+*
 output_burst_frames
 ;
 }
