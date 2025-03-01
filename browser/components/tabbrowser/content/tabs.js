@@ -1900,6 +1900,12 @@ _invalidateCachedVisibleTabs
 (
 )
 ;
+this
+.
+_unlockTabSizing
+(
+)
+;
 /
 /
 If
