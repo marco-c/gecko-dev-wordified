@@ -598,13 +598,7 @@ mockCA
 browsingContextsForURIs
 .
 length
-testMode
-.
-shouldRunCA
-?
 1
-:
-0
 "
 Correct
 number
