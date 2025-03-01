@@ -10,6 +10,10 @@ resources
 testdriver
 .
 js
+?
+feature
+=
+bidi
 /
 /
 META
@@ -98,7 +102,7 @@ NotFoundError
 '
 )
 ;
-bluetooth_test
+bluetooth_bidi_test
 (
 (
 )

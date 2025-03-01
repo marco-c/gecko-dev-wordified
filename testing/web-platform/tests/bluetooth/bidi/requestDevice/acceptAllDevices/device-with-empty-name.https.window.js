@@ -10,6 +10,10 @@ resources
 testdriver
 .
 js
+?
+feature
+=
+bidi
 /
 /
 META
@@ -89,7 +93,7 @@ true
 .
 '
 ;
-bluetooth_test
+bluetooth_bidi_test
 (
 async
 (
