@@ -7046,6 +7046,9 @@ nsIX509Cert
 _retval
 )
 {
+AutoSearchingForClientAuthCertificates
+_
+;
 nsresult
 rv
 =
