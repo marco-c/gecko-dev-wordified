@@ -132,7 +132,7 @@ detail
 Atomic
 <
 uint32_t
-SequentiallyConsistent
+Relaxed
 >
 gChaosModeCounter
 (
@@ -142,7 +142,10 @@ gChaosModeCounter
 ChaosFeature
 gChaosFeatures
 =
-None
+ChaosFeature
+:
+:
+Any
 ;
 }
 /
