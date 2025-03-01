@@ -1902,17 +1902,6 @@ env
 }
 )
             
-#
-{
-task_workdir
-}
-is
-interpolated
-in
-run
--
-task
-            
 moz_fetches_dir
 =
 env
@@ -1923,10 +1912,6 @@ get
 MOZ_FETCHES_DIR
 "
 "
-{
-task_workdir
-}
-/
 fetches
 "
 )
@@ -3286,11 +3271,14 @@ True
 }
         
 #
-{
-task_workdir
-}
+The
+path
 is
-interpolated
+normalized
+to
+an
+absolute
+path
 in
 run
 -
@@ -3304,10 +3292,6 @@ setdefault
 MOZ_FETCHES_DIR
 "
 "
-{
-task_workdir
-}
-/
 fetches
 "
 )
