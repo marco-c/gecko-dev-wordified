@@ -60,7 +60,11 @@ glob
 import
 json
 import
+logging
+import
 os
+import
+shlex
 import
 shutil
 import
@@ -157,8 +161,95 @@ FIREFOX_BASEAPP_CHANNEL
 08
 "
 def
+run_command
+(
+log
+*
+args
+*
+*
+kwargs
+)
+:
+    
+log
+(
+        
+logging
+.
+INFO
+        
+"
+flatpak
+"
+        
+{
+"
+command
+"
+:
+shlex
+.
+join
+(
+args
+[
+0
+]
+)
+"
+cwd
+"
+:
+str
+(
+kwargs
+.
+get
+(
+"
+cwd
+"
+os
+.
+getcwd
+(
+)
+)
+)
+}
+        
+"
+Running
+:
+{
+command
+}
+(
+in
+{
+cwd
+}
+)
+"
+    
+)
+    
+return
+subprocess
+.
+run
+(
+*
+args
+*
+*
+kwargs
+)
+def
 _inject_flatpak_distribution_ini
 (
+log
 target
 )
 :
@@ -173,10 +264,10 @@ as
 git_clone_dir
 :
         
-subprocess
-.
-check_call
+run_command
 (
+            
+log
             
 [
                 
@@ -209,6 +300,10 @@ git
 git_clone_dir
             
 ]
+            
+check
+=
+True
         
 )
         
@@ -518,10 +613,10 @@ the
 base
 app
         
-subprocess
-.
-run
+run_command
 (
+            
+log
             
 [
                 
@@ -587,10 +682,10 @@ True
         
 )
         
-subprocess
-.
-run
+run_command
 (
+            
+log
             
 [
                 
@@ -730,10 +825,10 @@ exist_ok
 True
 )
         
-subprocess
-.
-check_call
+run_command
 (
+            
+log
 [
 "
 tar
@@ -753,6 +848,10 @@ infile
 cwd
 =
 lib_dir
+check
+=
+True
+        
 )
         
 if
@@ -795,6 +894,7 @@ True
             
 _inject_flatpak_distribution_ini
 (
+log
 distribution_ini
 )
         
@@ -1146,10 +1246,10 @@ png
             
 )
         
-subprocess
-.
-run
+run_command
 (
+            
+log
             
 [
                 
@@ -1199,10 +1299,10 @@ True
         
 )
         
-subprocess
-.
-run
+run_command
 (
+            
+log
             
 [
                 
@@ -1484,10 +1584,10 @@ xpi
             
 )
         
-subprocess
-.
-run
+run_command
 (
+            
+log
             
 [
                 
@@ -1793,10 +1893,34 @@ tmpdir
         
 )
         
-subprocess
-.
-run
+run_command
 (
+            
+log
+            
+[
+"
+find
+"
+"
+build
+"
+]
+            
+check
+=
+True
+            
+cwd
+=
+tmpdir
+        
+)
+        
+run_command
+(
+            
+log
             
 [
                 
@@ -1867,10 +1991,10 @@ tmpdir
         
 )
         
-subprocess
-.
-run
+run_command
 (
+            
+log
             
 [
                 
@@ -1948,10 +2072,10 @@ tmpdir
         
 )
         
-subprocess
-.
-run
+run_command
 (
+            
+log
             
 [
                 
@@ -2007,10 +2131,10 @@ tmpdir
         
 )
         
-subprocess
-.
-run
+run_command
 (
+            
+log
             
 [
 "
@@ -2069,10 +2193,10 @@ XZ_OPT
 e9
 "
         
-subprocess
-.
-run
+run_command
 (
+            
+log
             
 [
 "
