@@ -1152,7 +1152,7 @@ nsTArray
 <
 uint8_t
 >
-signatureIdentifier
+identity
 ;
 nsresult
 rv
@@ -1163,12 +1163,12 @@ security
 mls
 :
 :
-mls_generate_signature_keypair
+mls_generate_identity
 (
 &
 mDatabasePath
 &
-signatureIdentifier
+identity
 )
 ;
 /
@@ -1219,7 +1219,7 @@ std
 :
 move
 (
-signatureIdentifier
+identity
 )
 }
 )
@@ -2839,8 +2839,8 @@ security
 mls
 :
 :
-GkGroupMembers
-members
+GkGroupDetails
+details
 ;
 nsresult
 rv
@@ -2851,7 +2851,7 @@ security
 mls
 :
 :
-mls_group_members
+mls_group_details
 (
 &
 mDatabasePath
@@ -2876,7 +2876,7 @@ Length
 (
 )
 &
-members
+details
 )
 ;
 /
@@ -2925,7 +2925,7 @@ std
 :
 move
 (
-members
+details
 )
 )
 )

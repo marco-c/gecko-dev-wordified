@@ -374,7 +374,7 @@ security
 mls
 :
 :
-GkGroupMembers
+GkGroupDetails
 group_id
 group_epoch
 group_members
