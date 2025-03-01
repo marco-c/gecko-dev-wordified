@@ -244,12 +244,6 @@ MSGResult
 aResult
 )
 ;
-static
-bool
-SkipScrollWheelHack
-(
-)
-;
 /
 *
 *
