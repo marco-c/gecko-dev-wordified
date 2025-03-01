@@ -476,8 +476,6 @@ web
 platform
 -
 tests
--
-testharness
 "
     
 "
@@ -524,8 +522,6 @@ web
 platform
 -
 tests
--
-testharness
 "
     
 "
@@ -540,8 +536,6 @@ web
 platform
 -
 tests
--
-testharness
 "
     
 "
@@ -2030,8 +2024,6 @@ web
 platform
 -
 tests
--
-testharness
 "
         
 if
