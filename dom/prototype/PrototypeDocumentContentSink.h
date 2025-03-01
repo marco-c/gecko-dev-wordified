@@ -1229,9 +1229,8 @@ aProtoPI
 nsINode
 *
 aParent
-nsINode
-*
-aBeforeThis
+bool
+aInProlog
 )
 ;
 /
@@ -1316,9 +1315,6 @@ aProtoPI
 nsINode
 *
 aParent
-nsINode
-*
-aBeforeThis
 XMLStylesheetProcessingInstruction
 *
 aPINode
