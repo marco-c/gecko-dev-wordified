@@ -600,14 +600,10 @@ p
 ;
 }
 }
-if
+}
+void
+contour_end
 (
-unlikely
-(
-point
-.
-is_end_point
-)
 )
 {
 if
@@ -899,7 +895,6 @@ close_path
 (
 )
 ;
-}
 }
 void
 points_end

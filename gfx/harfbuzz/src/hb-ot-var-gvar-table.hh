@@ -420,7 +420,7 @@ unlikely
 !
 glyph_variations
 .
-alloc
+alloc_exact
 (
 plan
 -
@@ -428,7 +428,6 @@ plan
 new_to_old_gid_list
 .
 length
-true
 )
 )
 )

@@ -1150,7 +1150,7 @@ length
 ;
 points
 .
-alloc
+alloc_exact
 (
 points
 .
@@ -1159,7 +1159,6 @@ length
 num_points
 +
 4
-true
 )
 ;
 /
@@ -1736,10 +1735,9 @@ unlikely
 !
 flags
 .
-alloc
+alloc_exact
 (
 num_points
-true
 )
 )
 )
@@ -1753,12 +1751,11 @@ unlikely
 !
 x_coords
 .
-alloc
+alloc_exact
 (
 2
 *
 num_points
-true
 )
 )
 )
@@ -1772,12 +1769,11 @@ unlikely
 !
 y_coords
 .
-alloc
+alloc_exact
 (
 2
 *
 num_points
-true
 )
 )
 )

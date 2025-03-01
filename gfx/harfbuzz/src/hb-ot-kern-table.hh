@@ -2079,10 +2079,8 @@ AAT
 :
 :
 kern_accelerator_data_t
-*
+&
 accel_data
-=
-nullptr
 )
 const
 {
@@ -2432,7 +2430,6 @@ table
 apply
 (
 c
-&
 accel_data
 )
 ;

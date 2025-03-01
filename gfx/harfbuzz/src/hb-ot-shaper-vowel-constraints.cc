@@ -166,7 +166,7 @@ output_glyph
 0x25CCu
 )
 ;
-_hb_glyph_info_reset_continuation
+_hb_glyph_info_clear_continuation
 (
 &
 buffer

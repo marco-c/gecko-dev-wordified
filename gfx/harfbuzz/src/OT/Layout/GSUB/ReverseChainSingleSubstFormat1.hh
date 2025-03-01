@@ -764,13 +764,10 @@ codepoint
 ;
 if
 (
-likely
-(
 index
 =
 =
 NOT_COVERED
-)
 )
 return_trace
 (
