@@ -1674,6 +1674,9 @@ getAction
 request
 .
 requestToken
+request
+.
+userActionId
 )
 ;
 callback
