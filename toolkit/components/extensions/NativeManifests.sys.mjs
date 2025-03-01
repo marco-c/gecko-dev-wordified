@@ -706,7 +706,10 @@ manifest
 *
 returns
 {
+Promise
+<
 object
+>
 }
 The
 contents

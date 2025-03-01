@@ -299,7 +299,7 @@ object
 interface
 nsIException
 extends
-ExceptionMembers
+Exception
 {
 }
 interface
@@ -356,8 +356,7 @@ options
 object
 )
 :
-typeof
-globalThis
+Sandbox
 ;
 }
 interface
@@ -555,6 +554,14 @@ void
 }
 ;
 }
+type
+Sandbox
+=
+typeof
+globalThis
+&
+nsISupports
+;
 /
 /
 Hand
