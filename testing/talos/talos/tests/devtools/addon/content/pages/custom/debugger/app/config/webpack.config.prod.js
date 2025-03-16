@@ -768,6 +768,9 @@ code
 .
 entry
 :
+{
+main
+:
 [
 require
 .
@@ -783,6 +786,16 @@ paths
 .
 appIndexJs
 ]
+"
+big
+-
+bundle
+"
+:
+paths
+.
+appBigBundleJs
+}
 output
 :
 {
