@@ -14403,10 +14403,15 @@ the
 collection
 lock
 .
+Read
+only
+during
+arena_t
+ctor
+.
 Atomic
 <
 bool
-Relaxed
 >
 mIsDeferredPurgeEnabled
 ;
