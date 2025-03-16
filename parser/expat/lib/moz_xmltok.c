@@ -92,6 +92,13 @@ MPL
 *
 /
 #
+include
+"
+xmltok
+.
+c
+"
+#
 ifdef
 IS_LITTLE_ENDIAN
 #
