@@ -3435,6 +3435,7 @@ dav1d_sgr_params
 }
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 uint8_t
 ALIGN
@@ -3705,6 +3706,7 @@ dav1d_sgr_x_by_x
 0
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 int8_t
 ALIGN
@@ -4827,6 +4829,7 @@ filter
 }
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 int8_t
 ALIGN
@@ -7285,6 +7288,7 @@ index
 }
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 int8_t
 ALIGN
@@ -8378,6 +8382,7 @@ bs
 4
 }
 ;
+ATTR_MCMODEL_SMALL
 const
 uint16_t
 dav1d_dr_intra_derivative
@@ -8772,6 +8777,7 @@ idx
 f6
 #
 endif
+ATTR_MCMODEL_SMALL
 const
 int8_t
 ALIGN
@@ -9407,6 +9413,7 @@ and
 stddev
 is
 512
+ATTR_MCMODEL_SMALL
 const
 int16_t
 dav1d_gaussian_sequence
