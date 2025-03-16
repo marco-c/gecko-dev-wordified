@@ -15513,6 +15513,14 @@ Number
 }
 column
 *
+param
+{
+String
+|
+null
+}
+yAlign
+*
 returns
 *
 /
@@ -15523,6 +15531,7 @@ scrollEditorIntoView
 dbg
 line
 column
+yAlign
 )
 {
 const
@@ -15552,6 +15561,7 @@ scrollTo
 (
 line
 column
+yAlign
 )
 ;
 /
