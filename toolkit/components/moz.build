@@ -647,9 +647,6 @@ DIRS
 =
 [
 "
-featuregates
-"
-"
 messaging
 -
 system
