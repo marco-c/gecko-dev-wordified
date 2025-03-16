@@ -25400,13 +25400,14 @@ aSubject
 }
 if
 (
-gBrowser
+browser
+?
 .
-selectedBrowser
+ownerGlobal
 !
 =
 =
-browser
+window
 )
 {
 /
