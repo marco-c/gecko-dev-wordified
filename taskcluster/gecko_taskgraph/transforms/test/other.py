@@ -1529,7 +1529,7 @@ opt
 "
 :
 "
-windows10
+windows11
 -
 64
 /
@@ -1545,7 +1545,7 @@ opt
 "
 :
 "
-windows10
+windows11
 -
 aarch64
 /
