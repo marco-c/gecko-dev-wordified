@@ -2837,6 +2837,8 @@ TaggedParserAtomIndex
 nameForAnonymousClass
 bool
 hasNameOnStack
+uint8_t
+membersCount
 )
 {
 MOZ_ASSERT
@@ -2933,7 +2935,7 @@ JSOp
 :
 :
 NewInit
-0
+membersCount
 )
 )
 {
