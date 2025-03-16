@@ -23159,6 +23159,12 @@ return
 NS_OK
 ;
 }
+NotifyOriginInitializationStarted
+(
+*
+this
+)
+;
 /
 /
 We

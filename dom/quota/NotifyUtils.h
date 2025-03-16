@@ -163,6 +163,14 @@ QuotaManager
 aQuotaManager
 )
 ;
+void
+NotifyOriginInitializationStarted
+(
+QuotaManager
+&
+aQuotaManager
+)
+;
 }
 /
 /
