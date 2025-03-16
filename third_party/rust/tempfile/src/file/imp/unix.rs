@@ -2,12 +2,6 @@ use
 std
 :
 :
-env
-;
-use
-std
-:
-:
 ffi
 :
 :
@@ -340,6 +334,9 @@ is_absolute
 let
 cur_dir
 =
+std
+:
+:
 env
 :
 :
@@ -688,10 +685,8 @@ crate
 :
 :
 NUM_RAND_CHARS
-None
 |
 path
-_
 |
 create_unlinked
 (
