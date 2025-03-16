@@ -106,6 +106,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 vector
 >
 #
