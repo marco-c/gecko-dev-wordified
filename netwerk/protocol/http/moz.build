@@ -728,6 +728,11 @@ NetworkMarker
 cpp
 "
 "
+nsAHttpConnection
+.
+cpp
+"
+"
 nsCORSListenerProxy
 .
 cpp
