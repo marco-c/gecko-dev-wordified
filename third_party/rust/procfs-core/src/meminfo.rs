@@ -1479,7 +1479,7 @@ Part
 of
 Slab
 that
-cannot
+can
 be
 reclaimed
 on

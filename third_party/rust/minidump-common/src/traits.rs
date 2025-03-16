@@ -459,16 +459,10 @@ uses
 this
 .
 impl
-<
-'
-a
->
 Module
 for
 (
 &
-'
-a
 str
 DebugId
 )

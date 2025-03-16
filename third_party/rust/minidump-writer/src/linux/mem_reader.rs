@@ -2061,11 +2061,8 @@ new
 length
 )
 .
-ok_or_else
+ok_or
 (
-|
-|
-{
 crate
 :
 :
@@ -2135,7 +2132,6 @@ Errno
 EINVAL
 }
 )
-}
 )
 ?
 ;

@@ -1430,11 +1430,6 @@ address_size
 )
 ?
 ;
-/
-/
-TODO
-:
-segment_selector_size
 w
 .
 write_u8
@@ -1443,6 +1438,9 @@ write_u8
 )
 ?
 ;
+/
+/
+segment_selector_size
 }
 w
 .

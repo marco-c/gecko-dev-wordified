@@ -213,10 +213,6 @@ value
 }
 }
 impl
-<
-'
-buf
->
 From
 <
 ProcessReader
@@ -225,7 +221,7 @@ for
 ProcessMemory
 <
 '
-buf
+_
 >
 {
 fn
@@ -1495,16 +1491,12 @@ ctx
 }
 }
 impl
-<
-'
-a
->
 Iterator
 for
 DynIter
 <
 '
-a
+_
 >
 {
 type
@@ -3073,7 +3065,6 @@ name_offset
 )
 ?
 ;
-return
 CStr
 :
 :
@@ -3109,7 +3100,6 @@ Error
 :
 StrTabNoNulByte
 )
-;
 }
 fn
 section_offset

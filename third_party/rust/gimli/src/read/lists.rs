@@ -309,7 +309,7 @@ address_size
 =
 input
 .
-read_u8
+read_address_size
 (
 )
 ?
