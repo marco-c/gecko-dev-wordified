@@ -44,7 +44,7 @@ or
 cleared
 based
 on
-storeop
+storeOp
 ;
 import
 {
@@ -75,7 +75,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -99,7 +99,7 @@ g
 =
 makeTestGroup
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 ;
 g

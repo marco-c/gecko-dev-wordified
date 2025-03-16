@@ -2988,7 +2988,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec2
 f16
@@ -3086,7 +3086,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec2
 f16
@@ -3229,7 +3229,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec2
 f16
@@ -3339,7 +3339,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec4
 f16
@@ -3454,7 +3454,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec4
 f16
@@ -3569,7 +3569,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec4
 f16
@@ -3739,7 +3739,7 @@ of
 f16
 result
 in
-ExpectionFor32BitsScalarFromF16x2
+ExpectationFor32BitsScalarFromF16x2
 .
 *
 /
@@ -4119,7 +4119,7 @@ f32UnboundedInterval
 /
 Return
 unbounded
-expection
+expectation
 if
 f16
 Inf

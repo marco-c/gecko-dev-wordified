@@ -157,7 +157,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 TextureTestMixin
 }
 from
@@ -383,7 +383,7 @@ way
 class
 SamplerAnisotropicFilteringSlantedPlaneTest
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 copyRenderTargetToBuffer
 (

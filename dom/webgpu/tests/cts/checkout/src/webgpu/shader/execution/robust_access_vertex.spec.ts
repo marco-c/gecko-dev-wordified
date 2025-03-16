@@ -609,6 +609,7 @@ js
 ;
 import
 {
+AllFeaturesMaxLimitsGPUTest
 GPUTest
 TextureTestMixin
 }
@@ -1964,7 +1965,7 @@ F
 extends
 TextureTestMixin
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 {
 generateBufferContents

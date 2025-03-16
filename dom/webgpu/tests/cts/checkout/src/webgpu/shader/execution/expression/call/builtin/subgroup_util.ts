@@ -70,7 +70,7 @@ js
 ;
 import
 {
-kTextureFormatInfo
+getBlockInfoForTextureFormat
 }
 from
 '
@@ -96,6 +96,7 @@ js
 ;
 import
 {
+AllFeaturesMaxLimitsGPUTest
 GPUTest
 TextureTestMixin
 }
@@ -271,7 +272,7 @@ SubgroupTest
 extends
 TextureTestMixin
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 {
 }
@@ -2744,10 +2745,10 @@ blockHeight
 bytesPerBlock
 }
 =
-kTextureFormatInfo
-[
+getBlockInfoForTextureFormat
+(
 format
-]
+)
 ;
 assert
 (
@@ -3155,10 +3156,10 @@ blockHeight
 bytesPerBlock
 }
 =
-kTextureFormatInfo
-[
+getBlockInfoForTextureFormat
+(
 format
-]
+)
 ;
 assert
 (

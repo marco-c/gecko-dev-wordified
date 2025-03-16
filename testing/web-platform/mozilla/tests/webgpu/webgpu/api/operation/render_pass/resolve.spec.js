@@ -242,7 +242,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 TextureTestMixin
 }
 from
@@ -301,7 +301,7 @@ makeTestGroup
 (
 TextureTestMixin
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 )
 ;

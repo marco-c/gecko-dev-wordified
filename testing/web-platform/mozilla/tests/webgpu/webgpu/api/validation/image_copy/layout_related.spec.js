@@ -1419,7 +1419,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 t
 .
@@ -1840,7 +1840,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 t
 .
@@ -2102,7 +2102,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 t
 .
@@ -2814,7 +2814,7 @@ format
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 t
 .

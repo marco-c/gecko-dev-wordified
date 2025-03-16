@@ -330,7 +330,7 @@ t
 >
 t
 .
-skipIfTextureViewDimensionNotSupported
+skipIfTextureViewDimensionNotSupportedDeprecated
 (
 t
 .

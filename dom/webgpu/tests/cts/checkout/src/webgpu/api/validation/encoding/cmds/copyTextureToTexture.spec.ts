@@ -2384,7 +2384,7 @@ params
 ;
 t
 .
-skipIfTextureFormatNotSupported
+skipIfTextureFormatNotSupportedDeprecated
 (
 srcFormat
 dstFormat
@@ -2392,7 +2392,7 @@ dstFormat
 ;
 t
 .
-skipIfCopyTextureToTextureNotSupportedForFormat
+skipIfCopyTextureToTextureNotSupportedForFormatDeprecated
 (
 srcFormat
 dstFormat

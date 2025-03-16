@@ -215,17 +215,6 @@ powerPreference
 powerPreference
 }
 )
-/
-/
-MAINTENANCE_TODO
-:
-remove
-compatibilityMode
-once
-no
-longer
-needed
-.
 .
 .
 .
@@ -234,9 +223,6 @@ compatibility
 &
 &
 {
-compatibilityMode
-:
-true
 featureLevel
 :
 '

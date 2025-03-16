@@ -3103,7 +3103,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec2
 f16
@@ -3205,7 +3205,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec2
 f16
@@ -3352,7 +3352,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec2
 f16
@@ -3468,7 +3468,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec4
 f16
@@ -3589,7 +3589,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec4
 f16
@@ -3710,7 +3710,7 @@ reinterpretU16AsF16
 /
 /
 Generate
-expection
+expectation
 for
 vec4
 f16
@@ -3776,7 +3776,7 @@ two
 f16
 .
 interface
-ExpectionFor32BitsScalarFromF16x2
+ExpectationFor32BitsScalarFromF16x2
 {
 /
 /
@@ -3941,7 +3941,7 @@ of
 f16
 result
 in
-ExpectionFor32BitsScalarFromF16x2
+ExpectationFor32BitsScalarFromF16x2
 .
 *
 /
@@ -3968,7 +3968,7 @@ f32
 '
 )
 :
-ExpectionFor32BitsScalarFromF16x2
+ExpectationFor32BitsScalarFromF16x2
 {
 assert
 (
@@ -4371,7 +4371,7 @@ f32UnboundedInterval
 /
 Return
 unbounded
-expection
+expectation
 if
 f16
 Inf

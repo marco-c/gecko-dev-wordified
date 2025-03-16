@@ -66,7 +66,7 @@ js
 ;
 import
 {
-ShaderValidationTest
+UniqueFeaturesAndLimitsShaderValidationTest
 }
 from
 '
@@ -84,7 +84,7 @@ g
 =
 makeTestGroup
 (
-ShaderValidationTest
+UniqueFeaturesAndLimitsShaderValidationTest
 )
 ;
 g

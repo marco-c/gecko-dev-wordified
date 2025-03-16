@@ -4555,7 +4555,7 @@ feature
 ;
 t
 .
-skipIfTextureViewDimensionNotSupported
+skipIfTextureViewDimensionNotSupportedDeprecated
 (
 wgslResource
 .

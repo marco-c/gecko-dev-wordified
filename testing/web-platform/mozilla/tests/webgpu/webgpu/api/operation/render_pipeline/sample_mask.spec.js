@@ -246,7 +246,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 TextureTestMixin
 }
 from
@@ -1890,7 +1890,7 @@ F
 extends
 TextureTestMixin
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 {
 async

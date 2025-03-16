@@ -107,7 +107,7 @@ js
 ;
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -125,7 +125,7 @@ g
 =
 makeTestGroup
 (
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 )
 ;
 g

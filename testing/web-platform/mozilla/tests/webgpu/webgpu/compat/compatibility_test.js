@@ -28,7 +28,7 @@ cts
 /
 import
 {
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 }
 from
 '
@@ -48,7 +48,7 @@ export
 class
 CompatibilityTest
 extends
-ValidationTest
+AllFeaturesMaxLimitsValidationTest
 {
 async
 init

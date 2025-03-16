@@ -36,7 +36,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 TextureTestMixin
 }
 from
@@ -485,7 +485,7 @@ TextureUploadingUtils
 extends
 TextureTestMixin
 (
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 )
 {
 doFlipY

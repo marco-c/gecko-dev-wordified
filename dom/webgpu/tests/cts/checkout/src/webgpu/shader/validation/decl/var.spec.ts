@@ -789,7 +789,7 @@ true
 )
 )
 .
-beforeAllSubcases
+fn
 (
 t
 =
@@ -811,7 +811,7 @@ requiresF16
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 shader
@@ -821,15 +821,6 @@ f16
 )
 ;
 }
-}
-)
-.
-fn
-(
-t
-=
->
-{
 const
 type
 =
@@ -1339,7 +1330,7 @@ true
 )
 )
 .
-beforeAllSubcases
+fn
 (
 t
 =
@@ -1361,7 +1352,7 @@ requiresF16
 {
 t
 .
-selectDeviceOrSkipTestCase
+skipIfDeviceDoesNotHaveFeature
 (
 '
 shader
@@ -1371,15 +1362,6 @@ f16
 )
 ;
 }
-}
-)
-.
-fn
-(
-t
-=
->
-{
 const
 type
 =

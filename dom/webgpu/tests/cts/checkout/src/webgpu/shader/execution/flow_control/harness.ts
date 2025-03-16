@@ -27,7 +27,7 @@ js
 ;
 import
 {
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 }
 from
 '
@@ -59,7 +59,7 @@ runFlowControlTest
 interface
 FlowControlTest
 extends
-GPUTest
+AllFeaturesMaxLimitsGPUTest
 {
 params
 :

@@ -123,6 +123,9 @@ atomic
 bool
 '
 '
+binding_array
+'
+'
 bf16
 '
 '
@@ -506,9 +509,6 @@ await
 '
 '
 become
-'
-'
-binding_array
 '
 '
 cast

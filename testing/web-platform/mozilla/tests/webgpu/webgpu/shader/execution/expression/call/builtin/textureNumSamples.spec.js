@@ -262,6 +262,13 @@ kSampleTypeInfo
 sampled_type
 ]
 ;
+t
+.
+skipIfTextureFormatNotMultisampled
+(
+format
+)
+;
 const
 sampleCount
 =
