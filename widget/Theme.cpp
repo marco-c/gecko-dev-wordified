@@ -4662,8 +4662,18 @@ on
 this
 chunk
 of
+/
+/
 code
 .
+const
+CSSCoord
+kOuterBorderWidth
+=
+1
+.
+0f
+;
 const
 CSSCoord
 kInnerBorderWidth
@@ -4688,7 +4698,7 @@ ThemeDrawing
 :
 SnapBorderWidth
 (
-kInnerBorderWidth
+kOuterBorderWidth
 aDpiRatio
 )
 )
