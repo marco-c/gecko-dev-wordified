@@ -36456,6 +36456,12 @@ sanitizer
 SanitizeFragment
 (
 fragment
+/
+*
+aSafe
+*
+/
+true
 aError
 )
 ;
