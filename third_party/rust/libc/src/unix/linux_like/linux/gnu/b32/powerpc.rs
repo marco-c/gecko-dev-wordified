@@ -7295,3 +7295,13 @@ c_long
 =
 450
 ;
+pub
+const
+SYS_mseal
+:
+:
+:
+c_long
+=
+462
+;

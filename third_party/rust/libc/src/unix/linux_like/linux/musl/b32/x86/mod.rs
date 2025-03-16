@@ -8025,6 +8025,16 @@ c_long
 =
 450
 ;
+pub
+const
+SYS_fchmodat2
+:
+:
+:
+c_long
+=
+452
+;
 /
 /
 offsets
