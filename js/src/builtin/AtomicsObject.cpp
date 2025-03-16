@@ -5669,9 +5669,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -5829,8 +5826,6 @@ return
 true
 ;
 }
-#
-endif
 /
 *
 static
@@ -7383,9 +7378,6 @@ atomics_notify
 /
 Legacy
 name
-#
-ifdef
-NIGHTLY_BUILD
 JS_INLINABLE_FN
 (
 "
@@ -7396,8 +7388,6 @@ atomics_pause
 0
 AtomicsPause
 )
-#
-endif
 JS_FS_END
 }
 ;
