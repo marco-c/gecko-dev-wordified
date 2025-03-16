@@ -407,7 +407,9 @@ active
 ;
 ExperimentAPI
 .
-_store
+_manager
+.
+store
 .
 _deleteForTests
 (

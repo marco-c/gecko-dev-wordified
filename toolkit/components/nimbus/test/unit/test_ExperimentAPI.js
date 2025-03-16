@@ -653,7 +653,9 @@ stub
 (
 ExperimentAPI
 .
-_store
+_manager
+.
+store
 "
 get
 "
@@ -669,7 +671,9 @@ stub
 (
 ExperimentAPI
 .
-_store
+_manager
+.
+store
 "
 getExperimentForFeature
 "
@@ -738,7 +742,9 @@ ok
 (
 ExperimentAPI
 .
-_store
+_manager
+.
+store
 .
 get
 .
@@ -808,7 +814,9 @@ ok
 (
 ExperimentAPI
 .
-_store
+_manager
+.
+store
 .
 getExperimentForFeature
 .
@@ -867,7 +875,9 @@ stub
 (
 ExperimentAPI
 .
-_store
+_manager
+.
+store
 "
 getExperimentForFeature
 "
@@ -1018,7 +1028,9 @@ stub
 (
 ExperimentAPI
 .
-_store
+_manager
+.
+store
 "
 getExperimentForFeature
 "
@@ -1171,7 +1183,9 @@ stub
 (
 ExperimentAPI
 .
-_store
+_manager
+.
+store
 "
 getExperimentForFeature
 "
@@ -3051,7 +3065,9 @@ stub
 (
 ExperimentAPI
 .
-_store
+_manager
+.
+store
 "
 getAllActiveExperiments
 "
