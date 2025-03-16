@@ -1594,7 +1594,7 @@ true
 ;
 AsyncShutdown
 .
-profileBeforeChange
+profileChangeTeardown
 .
 _trigger
 (
