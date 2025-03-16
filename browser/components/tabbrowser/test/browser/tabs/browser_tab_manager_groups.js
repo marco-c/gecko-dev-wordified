@@ -1495,7 +1495,6 @@ restored
 "
 )
 ;
-await
 gBrowser
 .
 removeTabGroup
@@ -1503,7 +1502,6 @@ removeTabGroup
 group1
 )
 ;
-await
 gBrowser
 .
 removeTabGroup

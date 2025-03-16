@@ -171,7 +171,6 @@ groups
 "
 )
 ;
-await
 win
 .
 gBrowser
@@ -400,7 +399,6 @@ groups
 "
 )
 ;
-await
 win
 .
 gBrowser
@@ -984,7 +982,6 @@ tab
 ]
 )
 ;
-await
 win
 .
 gBrowser
