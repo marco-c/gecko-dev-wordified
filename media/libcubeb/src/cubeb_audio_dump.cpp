@@ -807,9 +807,6 @@ end
 )
 )
 ;
-delete
-stream
-;
 return
 CUBEB_OK
 ;
