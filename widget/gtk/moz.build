@@ -672,6 +672,11 @@ WaylandSurface
 cpp
 "
 "
+WindowSurfaceCairo
+.
+cpp
+"
+"
 WindowSurfaceWaylandMultiBuffer
 .
 cpp
