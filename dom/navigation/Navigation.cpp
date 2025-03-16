@@ -818,7 +818,7 @@ IsCurrentActiveDocument
 |
 |
 (
-NS_IsAboutBlank
+NS_IsAboutBlankAllowQueryAndFragment
 (
 doc
 -
