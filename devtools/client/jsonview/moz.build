@@ -95,9 +95,6 @@ components
 "
 css
 "
-"
-lib
-"
 ]
 DevToolsModules
 (
@@ -128,13 +125,6 @@ Sniffer
 sys
 .
 mjs
-"
-"
-viewer
--
-config
-.
-js
 "
 )
 XPCOM_MANIFESTS
