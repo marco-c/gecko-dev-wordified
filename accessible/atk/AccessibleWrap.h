@@ -414,13 +414,6 @@ AtkObject
 *
 mAtkObject
 ;
-private
-:
-uint16_t
-CreateMaiInterfaces
-(
-)
-;
 }
 ;
 }
