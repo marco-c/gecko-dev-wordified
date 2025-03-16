@@ -10072,9 +10072,6 @@ codeBase
 codeBlock
 -
 >
-segment
--
->
 base
 (
 )
