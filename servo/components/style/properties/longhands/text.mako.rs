@@ -111,7 +111,9 @@ servo_pref
 "
 layout
 .
-legacy_layout
+layout
+.
+unimplemented
 "
 animation_type
 =
