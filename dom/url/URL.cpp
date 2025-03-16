@@ -714,7 +714,7 @@ bool
 URL
 :
 :
-IsValidObjectURL
+IsBoundToBlob
 (
 const
 GlobalObject
@@ -740,7 +740,7 @@ return
 URLMainThread
 :
 :
-IsValidObjectURL
+IsBoundToBlob
 (
 aGlobal
 aURL
@@ -752,7 +752,7 @@ return
 URLWorker
 :
 :
-IsValidObjectURL
+IsBoundToBlob
 (
 aGlobal
 aURL

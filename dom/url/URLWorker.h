@@ -246,7 +246,7 @@ aRv
 ;
 static
 bool
-IsValidObjectURL
+IsBoundToBlob
 (
 const
 GlobalObject
@@ -255,7 +255,7 @@ aGlobal
 const
 nsACString
 &
-aUrl
+aURL
 ErrorResult
 &
 aRv
