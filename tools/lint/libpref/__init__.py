@@ -275,7 +275,7 @@ attribute
 "
 extensions
 .
-backgroundServiceWorkerEnabled
+backgroundServiceWorker
 .
 enabled
 "

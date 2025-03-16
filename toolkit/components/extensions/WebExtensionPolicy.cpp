@@ -3418,7 +3418,7 @@ the
 /
 extensions
 .
-backgroundServiceWorkerEnabled
+backgroundServiceWorker
 .
 enabled
 pref
