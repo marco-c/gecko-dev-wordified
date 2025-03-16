@@ -538,12 +538,12 @@ gives
 without
 alignment
 .
+/
+/
 The
 639
 causes
 issues
-/
-/
 with
 some
 hardware
@@ -558,6 +558,8 @@ HEVC
 so
 in
 this
+/
+/
 test
 we
 verify
@@ -567,8 +569,6 @@ alignment
 is
 set
 and
-/
-/
 respected
 .
 CVPixelBufferRef
@@ -761,11 +761,11 @@ wild
 are
 640x360
 480x270
+/
+/
 and
 320x180
 .
-/
-/
 Make
 sure
 that
@@ -776,6 +776,8 @@ down
 to
 exactly
 these
+/
+/
 resolutions
 .
 CVPixelBufferRef

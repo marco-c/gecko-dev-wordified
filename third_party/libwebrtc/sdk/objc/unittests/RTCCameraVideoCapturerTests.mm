@@ -319,6 +319,8 @@ so
 arbitrary
 value
 of
+/
+/
 8
 for
 both
@@ -1285,6 +1287,8 @@ take
 arguments
 tests
 .
+/
+/
 This
 is
 a
@@ -1324,11 +1328,11 @@ camera
 position
 from
 the
+/
+/
 connection
 '
 s
-/
-/
 input
 ports
 .
@@ -1844,11 +1848,11 @@ camera
 position
 from
 the
+/
+/
 connection
 '
 s
-/
-/
 input
 ports
 .
@@ -2033,9 +2037,9 @@ the
 frame
 '
 s
+/
+/
 exif
-/
-/
 we
 add
 below
@@ -2048,6 +2052,8 @@ camera
 so
 rotation
 should
+/
+/
 be
 0
 .
@@ -2594,6 +2600,8 @@ be
 started
 with
 correct
+/
+/
 device
 .
 OCMExpect
@@ -2694,9 +2702,9 @@ will
 crash
 if
 the
+/
+/
 startCapture
-/
-/
 method
 does
 not
@@ -2914,6 +2922,8 @@ be
 started
 with
 correct
+/
+/
 device
 .
 OCMExpect
@@ -3297,6 +3307,8 @@ iOS
 and
 broken
 on
+/
+/
 iOS
 16
 .

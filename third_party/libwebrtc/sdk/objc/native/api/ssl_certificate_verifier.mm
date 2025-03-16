@@ -216,6 +216,9 @@ objc_certificate_verifier_
 }
 ;
 }
+/
+/
+namespace
 namespace
 webrtc
 {

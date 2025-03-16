@@ -303,6 +303,7 @@ Objective
 C
 version
 of
+*
 webrtc
 :
 :
@@ -413,6 +414,7 @@ when
 implemented
 by
 all
+*
 derived
 classes
 .

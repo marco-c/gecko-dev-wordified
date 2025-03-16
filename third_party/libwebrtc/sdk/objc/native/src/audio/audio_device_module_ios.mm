@@ -4146,4 +4146,12 @@ endif
 /
 WEBRTC_IOS
 }
+/
+/
+namespace
+ios_adm
 }
+/
+/
+namespace
+webrtc

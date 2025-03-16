@@ -279,3 +279,7 @@ nullptr
 endif
 }
 }
+/
+/
+namespace
+webrtc

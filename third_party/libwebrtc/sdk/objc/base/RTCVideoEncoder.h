@@ -309,11 +309,11 @@ quality
 scaler
 adjusts
 the
+*
 resolution
 in
 order
 to
-*
 keep
 the
 QP
@@ -324,6 +324,7 @@ images
 within
 the
 given
+*
 range
 .
 Returning
@@ -331,7 +332,6 @@ nil
 from
 this
 function
-*
 disables
 quality
 scaling

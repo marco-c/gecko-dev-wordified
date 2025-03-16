@@ -177,8 +177,8 @@ RTCSessionDescription
 )
 to
 a
-native
 *
+native
 SessionDescriptionInterface
 (
 based
@@ -189,6 +189,7 @@ and
 SDP
 strings
 being
+*
 equal
 )
 .

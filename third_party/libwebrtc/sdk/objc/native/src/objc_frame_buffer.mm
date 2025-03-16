@@ -147,6 +147,7 @@ to
 I420BufferInterface
 by
 wrapping
+*
 RTC_OBJC_TYPE
 (
 RTCI420Buffer
