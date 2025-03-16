@@ -498,8 +498,6 @@ const
 nsString
 &
 aId
-CloseMode
-aCloseMode
 )
 ;
 nsresult
