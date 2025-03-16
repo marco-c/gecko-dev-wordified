@@ -310,6 +310,13 @@ Key
 )
 const
 ;
+nsStructuredCloneContainer
+*
+GetNavigationState
+(
+)
+const
+;
 private
 :
 ~
