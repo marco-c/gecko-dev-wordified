@@ -87,6 +87,13 @@ tree
 /
 #
 include
+<
+arm_neon
+.
+h
+>
+#
+include
 "
 common_audio
 /
@@ -109,13 +116,6 @@ arch
 .
 h
 "
-#
-include
-<
-arm_neon
-.
-h
->
 static
 inline
 void

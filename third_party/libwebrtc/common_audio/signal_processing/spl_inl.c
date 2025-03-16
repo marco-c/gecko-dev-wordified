@@ -87,13 +87,6 @@ tree
 /
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 common_audio
 /
@@ -105,6 +98,13 @@ spl_inl
 .
 h
 "
+#
+include
+<
+stdint
+.
+h
+>
 /
 /
 Table
