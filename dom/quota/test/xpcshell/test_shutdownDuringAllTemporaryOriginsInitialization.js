@@ -1182,7 +1182,9 @@ artificially
 removed
 earlier
 .
-todo
+Assert
+.
+ok
 (
 metadata1
 .
