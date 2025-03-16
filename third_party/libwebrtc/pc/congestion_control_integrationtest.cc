@@ -395,6 +395,7 @@ IsRtcOk
 )
 )
 ;
+{
 /
 /
 Check
@@ -465,6 +466,8 @@ rtcp_fb_ack_ccfb
 )
 ;
 }
+}
+{
 /
 /
 Check
@@ -475,6 +478,7 @@ also
 parsed
 it
 .
+auto
 parsed_contents
 =
 caller
@@ -534,6 +538,7 @@ rtcp_fb_ack_ccfb
 )
 )
 ;
+}
 }
 /
 /
