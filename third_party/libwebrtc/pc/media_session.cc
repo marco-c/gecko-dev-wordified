@@ -5453,6 +5453,9 @@ codecs
 {
 if
 (
+want_rtx
+&
+&
 codec
 .
 GetResiliencyType
@@ -5522,6 +5525,9 @@ break
 else
 if
 (
+want_red
+&
+&
 codec
 .
 GetResiliencyType
