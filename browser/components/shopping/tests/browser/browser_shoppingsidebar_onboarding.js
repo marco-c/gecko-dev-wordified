@@ -922,8 +922,15 @@ shown
 "
 )
 ;
-ok
+await
+ContentTaskUtils
+.
+waitForCondition
 (
+(
+)
+=
+>
 content
 .
 document
