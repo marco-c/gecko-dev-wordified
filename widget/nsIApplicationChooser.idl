@@ -226,7 +226,7 @@ in
 mozIDOMWindowProxy
 parent
 in
-ACString
+AUTF8String
 title
 )
 ;
