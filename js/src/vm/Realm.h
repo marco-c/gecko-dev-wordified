@@ -205,6 +205,15 @@ h
 #
 include
 "
+gc
+/
+WeakMap
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineCompileQueue
@@ -1523,9 +1532,6 @@ DebugEnvironments
 ;
 class
 NonSyntacticVariablesObject
-;
-class
-ObjectWeakMap
 ;
 class
 WithEnvironmentObject

@@ -2625,9 +2625,8 @@ CHECK
 weakMap
 -
 >
-add
+put
 (
-cx
 key
 value
 )
