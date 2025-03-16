@@ -626,6 +626,16 @@ aModuleType
 ModuleLoadRequest
 *
 aParent
+const
+mozilla
+:
+:
+dom
+:
+:
+SRIMetadata
+&
+aSriMetadata
 )
 {
 const

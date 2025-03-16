@@ -462,7 +462,6 @@ module
 load
 request
 .
-static
 already_AddRefed
 <
 ModuleLoadRequest
@@ -484,9 +483,6 @@ aIntegrity
 nsIURI
 *
 aReferrer
-ScriptLoader
-*
-aLoader
 ScriptLoadContext
 *
 aContext
@@ -522,6 +518,16 @@ aModuleType
 ModuleLoadRequest
 *
 aParent
+const
+mozilla
+:
+:
+dom
+:
+:
+SRIMetadata
+&
+aSriMetadata
 )
 override
 ;
