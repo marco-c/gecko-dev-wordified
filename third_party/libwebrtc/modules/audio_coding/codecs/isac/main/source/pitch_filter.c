@@ -121,7 +121,7 @@ main
 /
 source
 /
-pitch_estimator
+os_specific_inline
 .
 h
 "
@@ -140,7 +140,7 @@ main
 /
 source
 /
-os_specific_inline
+pitch_estimator
 .
 h
 "

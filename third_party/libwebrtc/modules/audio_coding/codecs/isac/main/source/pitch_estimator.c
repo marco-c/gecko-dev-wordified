@@ -384,6 +384,7 @@ square
 roots
 can
 be
+*
 removed
 from
 the
@@ -5299,9 +5300,9 @@ basis
 of
 polynomials
 of
+*
 increasing
 order
-*
 t
 =
 (
@@ -5311,7 +5312,6 @@ t
 )
 '
 ;
-*
 A
 =
 [
@@ -5337,18 +5337,17 @@ t
 4
 ]
 ;
-*
 [
 Q
 dummy
 ]
 =
+*
 qr
 (
 A
 )
 ;
-*
 P
 .
 Weight
@@ -6078,6 +6077,7 @@ and
 spectral
 gain
 penalty
+*
 functions
 *
 /
@@ -6195,6 +6195,7 @@ triangle
 for
 minimizing
 the
+*
 filter
 '
 s
@@ -6664,6 +6665,7 @@ the
 diagonals
 seperately
 to
+*
 minimize
 divisions
 )
