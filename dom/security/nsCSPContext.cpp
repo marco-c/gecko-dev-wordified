@@ -7753,10 +7753,8 @@ r
 +
 )
 {
-nsAutoCString
-reportURICstring
-=
 NS_ConvertUTF16toUTF8
+reportURICstring
 (
 reportURIs
 [
@@ -8133,10 +8131,12 @@ nsIRequest
 :
 :
 LOAD_ANONYMOUS
-;
-flags
 |
-=
+nsIChannel
+:
+:
+LOAD_BACKGROUND
+|
 nsIChannel
 :
 :
