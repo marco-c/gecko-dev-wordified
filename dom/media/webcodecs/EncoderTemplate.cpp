@@ -5355,7 +5355,6 @@ ResolveOrRejectValue
 &
 aResult
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
 MOZ_ASSERT
 (
