@@ -92,8 +92,6 @@ mozpack
 path
 as
 mozpath
-import
-six
 from
 mozbuild
 .
@@ -2299,11 +2297,10 @@ for
 target_fullname
 spec
 in
-six
-.
-iteritems
-(
 targets
+.
+items
+(
 )
 :
         
@@ -2394,9 +2391,7 @@ LIBRARY_NAME
 "
 ]
 =
-six
-.
-ensure_text
+str
 (
 name
 )
@@ -3339,9 +3334,7 @@ if
 isinstance
 (
 f
-six
-.
-string_types
+str
 )
 :
                     
@@ -4054,11 +4047,10 @@ input_value
 in
 list
 (
-six
-.
-iteritems
-(
 input_attrs
+.
+items
+(
 )
 )
 :
@@ -5625,11 +5617,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 input_variables
+.
+items
+(
 )
 ]
     
