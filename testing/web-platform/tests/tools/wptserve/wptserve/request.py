@@ -9,8 +9,6 @@ defs
 import
 base64
 import
-cgi
-import
 tempfile
 from
 http
@@ -39,6 +37,10 @@ from
 .
 import
 stash
+from
+.
+import
+cgi
 from
 .
 utils
