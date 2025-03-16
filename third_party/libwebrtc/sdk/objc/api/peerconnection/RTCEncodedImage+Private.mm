@@ -125,6 +125,8 @@ doesn
 t
 perform
 any
+/
+/
 copies
 .
 class
@@ -282,6 +284,9 @@ data_
 }
 /
 /
+namespace
+/
+/
 A
 simple
 wrapper
@@ -294,10 +299,10 @@ to
 make
 it
 usable
+/
+/
 with
 associated
-/
-/
 objects
 .
 interface
@@ -519,9 +524,9 @@ s
 kept
 alive
 as
+/
+/
 long
-/
-/
 self
 .
 buffer

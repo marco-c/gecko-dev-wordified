@@ -118,8 +118,8 @@ RTCMediaStream
 object
 .
 This
-is
 *
+is
 needed
 to
 pass

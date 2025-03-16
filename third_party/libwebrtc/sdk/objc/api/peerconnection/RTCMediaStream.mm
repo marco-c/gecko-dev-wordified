@@ -629,6 +629,8 @@ removeAudioTrack
 called
 on
 unexpected
+"
+"
 RTC_OBJC_TYPE
 (
 RTCAudioTrack
@@ -742,6 +744,8 @@ removeVideoTrack
 called
 on
 unexpected
+"
+"
 RTC_OBJC_TYPE
 (
 RTCVideoTrack

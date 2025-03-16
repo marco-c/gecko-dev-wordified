@@ -262,6 +262,10 @@ size_
 }
 ;
 }
+/
+/
+namespace
+webrtc
 implementation
 RTCVideoRendererAdapter
 {

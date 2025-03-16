@@ -202,6 +202,7 @@ injectable
 C
 +
 +
+*
 components
 .
 *
@@ -274,6 +275,7 @@ video
 encoder
 /
 decoder
+*
 factories
 *
 /

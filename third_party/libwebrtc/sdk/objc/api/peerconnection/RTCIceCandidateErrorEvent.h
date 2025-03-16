@@ -187,6 +187,7 @@ server
 for
 which
 the
+*
 failure
 occurred
 .
@@ -220,10 +221,10 @@ server
 If
 no
 host
+*
 candidate
 can
 reach
-*
 the
 server
 errorCode
@@ -235,6 +236,7 @@ the
 value
 701
 which
+*
 is
 outside
 the
@@ -243,7 +245,6 @@ error
 code
 range
 .
-*
 This
 error
 is
@@ -251,6 +252,7 @@ only
 fired
 once
 per
+*
 server
 URL
 while
@@ -290,11 +292,11 @@ server
 If
 the
 server
+*
 could
 not
 be
 reached
-*
 errorText
 will
 be
@@ -304,6 +306,7 @@ an
 implementation
 -
 specific
+*
 value
 providing
 details

@@ -192,8 +192,8 @@ of
 the
 same
 media
-type
 *
+type
 they
 will
 all
@@ -220,8 +220,8 @@ C
 they
 will
 listen
-to
 *
+to
 the
 same
 signal
@@ -234,9 +234,9 @@ layer
 Whenever
 the
 first
+*
 audio
 packet
-*
 is
 received
 the
@@ -248,6 +248,7 @@ fired
 .
 All
 the
+*
 receivers
 A
 /
@@ -256,7 +257,6 @@ B
 C
 will
 be
-*
 notified
 and
 the
@@ -266,6 +266,7 @@ the
 receiver
 '
 s
+*
 delegate
 will
 be

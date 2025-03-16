@@ -174,6 +174,7 @@ strings
 for
 private_key
 and
+*
 certificate
 .
 *

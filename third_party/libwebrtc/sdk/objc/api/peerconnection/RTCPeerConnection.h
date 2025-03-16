@@ -2234,11 +2234,11 @@ offerForConstraints
 :
 completionHandler
 call
+*
 will
 act
 as
 if
-*
 RTCOfferAnswerOptions
 :
 :
@@ -2701,8 +2701,8 @@ RTCMediaStreamTrack
 If
 mediaStreamTrack
 is
-nil
 *
+nil
 statistics
 are
 gathered

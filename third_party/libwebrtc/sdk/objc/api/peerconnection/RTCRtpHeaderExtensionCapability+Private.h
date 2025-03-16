@@ -127,6 +127,7 @@ to
 pass
 to
 the
+*
 underlying
 C
 +
@@ -156,6 +157,7 @@ RTCRtpHeaderExtensionCapability
 from
 a
 native
+*
 RtpHeaderExtensionCapability
 .
 *

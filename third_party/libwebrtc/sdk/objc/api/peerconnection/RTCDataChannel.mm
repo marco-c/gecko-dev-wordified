@@ -259,6 +259,10 @@ channel_
 }
 ;
 }
+/
+/
+namespace
+webrtc
 implementation
 RTC_OBJC_TYPE
 (

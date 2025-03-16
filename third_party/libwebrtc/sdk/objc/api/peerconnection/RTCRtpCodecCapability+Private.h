@@ -116,8 +116,8 @@ RtpCodecCapability
 representation
 of
 this
-RTCRtpCodecCapability
 *
+RTCRtpCodecCapability
 object
 .
 This
@@ -128,6 +128,7 @@ pass
 to
 the
 underlying
+*
 C
 +
 +

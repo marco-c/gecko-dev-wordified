@@ -239,6 +239,7 @@ decoder
 factories
 and
 default
+*
 ADM
 *
 /
@@ -285,6 +286,7 @@ encoder
 decoder
 factories
 and
+*
 injectable
 ADM
 *
@@ -442,8 +444,8 @@ to
 use
 an
 audio
-source
 *
+source
 with
 no
 constraints

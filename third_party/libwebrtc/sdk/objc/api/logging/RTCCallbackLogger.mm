@@ -415,6 +415,9 @@ callback_handler_
 }
 ;
 }
+/
+/
+namespace
 implementation
 RTC_OBJC_TYPE
 (

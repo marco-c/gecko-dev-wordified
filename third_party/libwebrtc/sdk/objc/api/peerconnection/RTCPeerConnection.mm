@@ -2507,6 +2507,8 @@ SessionDescriptionInterface
 on
 the
 signaling
+/
+/
 thread
 .
 return
@@ -2585,6 +2587,8 @@ SessionDescriptionInterface
 on
 the
 signaling
+/
+/
 thread
 .
 return

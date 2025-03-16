@@ -144,8 +144,8 @@ the
 associated
 RTCRtpSender
 must
-be
 *
+be
 able
 to
 send
@@ -160,6 +160,7 @@ event
 codec
 must
 be
+*
 negotiated
 .
 *
@@ -427,8 +428,8 @@ value
 last
 set
 via
-the
 *
+the
 insertDtmf
 method
 or
@@ -442,6 +443,7 @@ if
 insertDtmf
 was
 never
+*
 called
 .
 *
@@ -473,8 +475,8 @@ be
 the
 value
 last
-set
 *
+set
 via
 the
 insertDtmf
@@ -489,12 +491,12 @@ of
 50
 ms
 if
+*
 insertDtmf
 (
 )
 was
 never
-*
 called
 .
 *
