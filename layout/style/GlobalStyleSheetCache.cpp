@@ -3380,10 +3380,7 @@ sheet
 contents
 .
 auto
-[
-_
 readOnlyHandle
-]
 =
 std
 :
