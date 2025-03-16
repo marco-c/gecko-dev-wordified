@@ -327,6 +327,7 @@ tabs
 we
 created
 .
+await
 gBrowser
 .
 removeTabGroup
