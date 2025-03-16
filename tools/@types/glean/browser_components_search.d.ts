@@ -66,6 +66,10 @@ GleanEvent
 sap
 :
 {
+counts
+:
+GleanEvent
+;
 deprecatedCounts
 :
 Record
