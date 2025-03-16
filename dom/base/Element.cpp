@@ -36344,7 +36344,7 @@ nsContentUtils
 :
 CreateInertHTMLDocument
 (
-doc
+nullptr
 )
 ;
 if
@@ -36416,7 +36416,7 @@ nsContentUtils
 :
 CreateInertXMLDocument
 (
-doc
+nullptr
 )
 ;
 if
