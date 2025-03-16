@@ -156,6 +156,17 @@ endif
 #
 include
 "
+api
+/
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_processing
@@ -4198,6 +4209,9 @@ f
 AecState
 aec_state
 (
+CreateEnvironment
+(
+)
 EchoCanceller3Config
 {
 }

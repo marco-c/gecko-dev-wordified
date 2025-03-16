@@ -113,6 +113,17 @@ cmath
 #
 include
 "
+api
+/
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_processing
@@ -1150,6 +1161,9 @@ metrics
 AecState
 aec_state
 (
+CreateEnvironment
+(
+)
 EchoCanceller3Config
 {
 }

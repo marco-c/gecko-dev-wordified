@@ -122,6 +122,17 @@ h
 #
 include
 "
+api
+/
+environment
+/
+environment_factory
+.
+h
+"
+#
+include
+"
 modules
 /
 audio_processing
@@ -270,6 +281,9 @@ kNumChannels
 AecState
 aec_state
 (
+CreateEnvironment
+(
+)
 config
 kNumChannels
 )
