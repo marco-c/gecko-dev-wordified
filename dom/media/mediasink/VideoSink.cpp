@@ -4869,8 +4869,15 @@ GetImageContainer
 secondaryImageContainer
 -
 >
-ClearAllImages
+ClearImagesInHost
 (
+layers
+:
+:
+ClearImagesType
+:
+:
+All
 )
 ;
 }

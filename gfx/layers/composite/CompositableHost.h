@@ -699,6 +699,15 @@ TextureHost
 aTexture
 )
 ;
+virtual
+void
+ClearImages
+(
+ClearImagesType
+aType
+)
+{
+}
 const
 AsyncCompositableRef
 &
