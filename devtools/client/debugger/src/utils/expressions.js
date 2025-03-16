@@ -385,8 +385,10 @@ expressionResultReturn
 ;
 if
 (
-!
 valueGrip
+=
+=
+null
 |
 |
 isUnavailable
