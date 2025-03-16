@@ -46977,14 +46977,9 @@ connInfo
 >
 SetWebTransportId
 (
-gHttpHandler
--
->
-ConnMgr
-(
-)
--
->
+nsHttpConnectionInfo
+:
+:
 GenerateNewWebTransportId
 (
 )
