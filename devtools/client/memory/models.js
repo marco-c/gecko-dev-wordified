@@ -984,8 +984,6 @@ string
 /
 /
 The
-Immutable
-.
 Set
 <
 CensusTreeNode
