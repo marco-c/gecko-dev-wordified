@@ -282,6 +282,15 @@ setEnabled
 true
 )
 ;
+GleanPings
+.
+onboardingOptOut
+.
+setEnabled
+(
+true
+)
+;
 }
 )
 ;
