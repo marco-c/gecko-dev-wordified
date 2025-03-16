@@ -150,6 +150,11 @@ IdentityCredential
 .
 cpp
 "
+"
+IdentityNetworkHelpers
+.
+cpp
+"
 ]
 include
 (
