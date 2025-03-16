@@ -41022,6 +41022,9 @@ MakeAndAddRef
 ImageData
 >
 (
+GetParentObject
+(
+)
 w
 h
 *
@@ -43231,6 +43234,12 @@ do_AddRef
 new
 ImageData
 (
+aContext
+-
+>
+GetParentObject
+(
+)
 aW
 aH
 *
