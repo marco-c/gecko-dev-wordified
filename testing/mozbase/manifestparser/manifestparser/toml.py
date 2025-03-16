@@ -447,8 +447,38 @@ toml
 "
 "
     
+try
+:
+        
+from
+tomllib
 import
+TOMLDecodeError
+        
+from
+tomllib
+import
+loads
+as
+TOMLloads
+    
+except
+ImportError
+:
+        
+from
 toml
+import
+TomlDecodeError
+as
+TOMLDecodeError
+        
+from
+toml
+import
+loads
+as
+TOMLloads
     
 error
 =
@@ -463,17 +493,13 @@ try
         
 manifest
 =
-toml
-.
-loads
+TOMLloads
 (
 contents
 )
     
 except
-toml
-.
-TomlDecodeError
+TOMLDecodeError
 as
 pe
 :
