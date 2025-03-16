@@ -816,8 +816,10 @@ semantics
 e
 .
 g
-FIX
+FID
 FEC
+-
+FR
 SIM
 .
 std
