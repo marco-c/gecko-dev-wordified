@@ -3492,7 +3492,7 @@ might
 stay
 forever
 in
-unitialized
+uninitialized
 state
 .
 /
