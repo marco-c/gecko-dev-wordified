@@ -77,17 +77,6 @@ Parse
 ParserContext
 }
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 use
 crate
 :
