@@ -730,7 +730,7 @@ aboutprofiling
 /
 index
 .
-xhtml
+html
 "
 nsIAboutModule
 :
