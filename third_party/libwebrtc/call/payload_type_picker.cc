@@ -1455,7 +1455,9 @@ kDtmfCodecName
 ;
 for
 (
-auto
+const
+MapTableEntry
+&
 entry
 :
 default_audio_mappings
@@ -1623,7 +1625,9 @@ different
 .
 for
 (
-auto
+const
+MapEntry
+&
 entry
 :
 entries_
@@ -1781,7 +1785,9 @@ legal
 ;
 for
 (
-auto
+const
+MapEntry
+&
 entry
 :
 entries_

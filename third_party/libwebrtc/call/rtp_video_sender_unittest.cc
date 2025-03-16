@@ -10070,7 +10070,7 @@ CreateBitrateAllocationUpdate
 (
 /
 *
-rate_bps
+target_bitrate_bps
 =
 *
 /
@@ -10667,7 +10667,7 @@ CreateBitrateAllocationUpdate
 (
 /
 *
-rate_bps
+target_bitrate_bps
 =
 *
 /

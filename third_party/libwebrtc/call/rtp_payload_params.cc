@@ -2713,7 +2713,7 @@ num_spatial_layers
 1
 /
 *
-num_temporal_layer
+num_temporal_layers
 =
 *
 /
@@ -2745,7 +2745,7 @@ num_spatial_layers
 1
 /
 *
-num_temporal_layer
+num_temporal_layers
 =
 *
 /
@@ -2779,7 +2779,7 @@ num_spatial_layers
 kMaxSimulatedSpatialLayers
 /
 *
-num_temporal_layer
+num_temporal_layers
 =
 *
 /
