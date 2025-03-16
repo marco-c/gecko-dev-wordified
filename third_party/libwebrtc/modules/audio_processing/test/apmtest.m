@@ -1,4 +1,11 @@
 %
+/
+/
+clang
+-
+format
+off
+%
 %
 Copyright
 (

@@ -1,3 +1,10 @@
+%
+/
+/
+clang
+-
+format
+off
 function
 parsed
 =
