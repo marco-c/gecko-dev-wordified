@@ -1888,6 +1888,17 @@ IsExplicitlySet
 )
 {
 float
+zoom
+=
+UserSpaceMetrics
+:
+:
+GetZoom
+(
+this
+)
+;
+float
 authorsPathLengthEstimate
 =
 mPathLength
@@ -1895,6 +1906,8 @@ mPathLength
 GetAnimValue
 (
 )
+*
+zoom
 ;
 if
 (
