@@ -387,6 +387,16 @@ blank
 }
 )
 ;
+await
+Services
+.
+search
+.
+removeEngine
+(
+engine
+)
+;
 }
 )
 ;
