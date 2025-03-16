@@ -15172,6 +15172,7 @@ if
 !
 IsBufferSource
 (
+cx
 args
 .
 get
@@ -15182,6 +15183,18 @@ get
 toObjectOrNull
 (
 )
+/
+*
+allowShared
+*
+/
+false
+/
+*
+allowResizable
+*
+/
+false
 &
 dataPointer
 &

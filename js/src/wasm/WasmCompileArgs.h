@@ -3535,6 +3535,17 @@ getOrCreateCodeSection
 )
 const
 {
+MOZ_ASSERT
+(
+source
+(
+)
+.
+hasCodeSection
+(
+)
+)
+;
 if
 (
 hasBuffer
