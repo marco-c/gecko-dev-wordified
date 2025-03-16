@@ -31256,7 +31256,7 @@ enum
 OwnLayerType
 {
 OwnLayerForTransformWithRoundedClip
-OwnLayerForStackingContext
+OwnLayerForViewTransitionCapture
 OwnLayerForScrollbar
 OwnLayerForScrollThumb
 OwnLayerForSubdoc
