@@ -5402,6 +5402,12 @@ result
 |
 {
 let
+_
+=
+&
+closure
+;
+let
 status
 =
 match
@@ -15968,6 +15974,13 @@ new
 move
 |
 |
+{
+let
+_
+=
+&
+closure
+;
 (
 closure
 .
@@ -15978,6 +15991,7 @@ closure
 .
 user_data
 )
+}
 )
 ;
 global
