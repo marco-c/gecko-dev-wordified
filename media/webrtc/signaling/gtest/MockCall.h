@@ -712,8 +712,7 @@ DegradationPreference
 degradation_preference
 )
 override
-{
-}
+;
 void
 ReconfigureVideoEncoder
 (
@@ -1994,6 +1993,12 @@ VideoEncoder
 :
 EncoderInfo
 mEncoderInfo
+;
+webrtc
+:
+:
+DegradationPreference
+mConfiguredDegradationPreference
 ;
 }
 ;
