@@ -99,6 +99,24 @@ from
 mozdevice
 import
 ADBDevice
+APP_LINK_STARTUP_WEBSITE
+=
+"
+https
+:
+/
+/
+theme
+-
+crave
+-
+demo
+.
+myshopify
+.
+com
+/
+"
 PROD_FENIX
 =
 "
@@ -218,7 +236,6 @@ __init__
 self
 browser
 test
-test_url
 )
 :
         
@@ -239,12 +256,6 @@ self
 test
 =
 test
-        
-self
-.
-test_url
-=
-test_url
         
 self
 .
@@ -1575,9 +1586,7 @@ self
 .
 nav_start_command
 +
-self
-.
-test_url
+APP_LINK_STARTUP_WEBSITE
 )
         
 time
@@ -2034,7 +2043,8 @@ sys
 .
 argv
 )
-<
+!
+=
 3
 :
         
@@ -2077,28 +2087,6 @@ argv
 2
 ]
     
-test_url
-=
-None
-    
-if
-test
-=
-=
-"
-cold_view_nav_end
-"
-:
-        
-test_url
-=
-sys
-.
-argv
-[
-3
-]
-    
 perfherder_names
 =
 {
@@ -2127,7 +2115,6 @@ ImageAnalzer
 (
 browser
 test
-test_url
 )
     
 for
