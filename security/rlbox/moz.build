@@ -441,8 +441,6 @@ parser
 /
 expat
 /
-lib
-/
 sources
 .
 mozbuild
@@ -457,8 +455,6 @@ WASM_SOURCES
 parser
 /
 expat
-/
-lib
 /
 "
 +
@@ -487,6 +483,8 @@ LOCAL_INCLUDES
 "
 /
 parser
+/
+expat
 /
 expat
 /
