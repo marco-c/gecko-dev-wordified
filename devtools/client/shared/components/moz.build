@@ -223,17 +223,4 @@ browser
 .
 toml
 "
-"
-test
-/
-node
-/
-stubs
-/
-reps
-/
-stubs
-.
-toml
-"
 ]
