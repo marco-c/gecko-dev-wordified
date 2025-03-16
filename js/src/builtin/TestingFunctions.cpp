@@ -20013,11 +20013,16 @@ return
 false
 ;
 }
+#
+ifdef
+MOZ_MEMORY
 moz_set_max_dirty_page_modifier
 (
 value
 )
 ;
+#
+endif
 args
 .
 rval

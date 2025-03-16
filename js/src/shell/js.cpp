@@ -78338,6 +78338,9 @@ rcStderr
 gErrFile
 )
 ;
+#
+ifdef
+MOZ_MEMORY
 /
 /
 Use
@@ -78369,6 +78372,8 @@ moz_set_max_dirty_page_modifier
 4
 )
 ;
+#
+endif
 OptionParser
 op
 (
