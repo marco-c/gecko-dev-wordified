@@ -11079,6 +11079,9 @@ MutationEvent
 insecureContext
 :
 true
+nightly
+:
+false
 }
 /
 /
