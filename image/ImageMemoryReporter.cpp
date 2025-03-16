@@ -142,6 +142,17 @@ include
 "
 mozilla
 /
+ipc
+/
+SharedMemoryMapping
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 SharedSurfacesParent
@@ -741,7 +752,7 @@ mozilla
 ipc
 :
 :
-SharedMemory
+shared_memory
 :
 :
 PageAlignedSize

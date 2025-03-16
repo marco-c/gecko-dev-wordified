@@ -232,7 +232,7 @@ mozilla
 /
 ipc
 /
-SharedMemory
+SharedMemoryHandle
 .
 h
 "
@@ -2489,7 +2489,7 @@ if
 ipc
 :
 :
-SharedMemory
+shared_memory
 :
 :
 AppendPosixShmPrefix

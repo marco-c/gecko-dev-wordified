@@ -372,17 +372,6 @@ WebGLRenderingContextBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-ipc
-/
-SharedMemory
-.
-h
-"
 /
 /
 Manual

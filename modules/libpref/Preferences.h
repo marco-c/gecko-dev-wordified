@@ -201,7 +201,7 @@ mozilla
 /
 ipc
 /
-SharedMemory
+SharedMemoryHandle
 .
 h
 "
@@ -2712,6 +2712,7 @@ static
 void
 DeserializePreferences
 (
+const
 char
 *
 aStr
@@ -2719,9 +2720,6 @@ size_t
 aPrefsLen
 )
 ;
-#
-ifndef
-RUST_BINDGEN
 static
 mozilla
 :
@@ -2729,12 +2727,9 @@ mozilla
 ipc
 :
 :
-SharedMemoryHandle
+ReadOnlySharedMemoryHandle
 EnsureSnapshot
 (
-size_t
-*
-aSize
 )
 ;
 static
@@ -2748,14 +2743,10 @@ mozilla
 ipc
 :
 :
-SharedMemoryHandle
+ReadOnlySharedMemoryHandle
 &
-size_t
-aSize
 )
 ;
-#
-endif
 /
 /
 When

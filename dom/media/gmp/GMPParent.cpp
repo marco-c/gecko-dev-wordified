@@ -257,7 +257,7 @@ mozilla
 /
 ipc
 /
-SharedMemory
+SharedMemoryHandle
 .
 h
 "
@@ -2177,7 +2177,7 @@ kEnabledForMedia
 ipc
 :
 :
-SharedMemory
+shared_memory
 :
 :
 UsingPosixShm
