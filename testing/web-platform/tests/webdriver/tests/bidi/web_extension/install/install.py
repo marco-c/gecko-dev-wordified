@@ -10,7 +10,7 @@ def
 test_install_from_base64
 (
 bidi_session
-addon_data
+extension_data
 )
 :
     
@@ -40,7 +40,7 @@ base64
 value
 "
 :
-addon_data
+extension_data
 [
 "
 base64
@@ -58,7 +58,7 @@ assert
 web_extension
 =
 =
-addon_data
+extension_data
 [
 "
 id
@@ -72,7 +72,7 @@ finally
 Clean
 up
 the
-addon
+extension
 .
         
 await
@@ -96,7 +96,7 @@ def
 test_install_from_path
 (
 bidi_session
-addon_data
+extension_data
 )
 :
     
@@ -126,7 +126,7 @@ path
 path
 "
 :
-addon_data
+extension_data
 [
 "
 path
@@ -144,7 +144,7 @@ assert
 web_extension
 =
 =
-addon_data
+extension_data
 [
 "
 id
@@ -158,7 +158,7 @@ finally
 Clean
 up
 the
-addon
+extension
 .
         
 await
@@ -182,7 +182,7 @@ def
 test_install_from_archive_path
 (
 bidi_session
-addon_data
+extension_data
 )
 :
     
@@ -212,7 +212,7 @@ archivePath
 path
 "
 :
-addon_data
+extension_data
 [
 "
 archivePath
@@ -230,7 +230,7 @@ assert
 web_extension
 =
 =
-addon_data
+extension_data
 [
 "
 id
@@ -244,7 +244,7 @@ finally
 Clean
 up
 the
-addon
+extension
 .
         
 await

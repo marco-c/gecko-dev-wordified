@@ -2103,7 +2103,7 @@ until
 find_new_handle
 )
 def
-get_addon_path
+get_extension_path
 (
 filename
 )
@@ -2139,7 +2139,7 @@ filename
     
 )
 def
-get_base64_for_addon_file
+get_base64_for_extension_file
 (
 filename
 )
@@ -2149,7 +2149,7 @@ with
 open
 (
         
-get_addon_path
+get_extension_path
 (
 filename
 )
