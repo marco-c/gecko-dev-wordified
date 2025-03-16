@@ -2324,13 +2324,12 @@ aDirectoryMetadata
 nsIFile
 &
 aBaseDir
-const
-nsTArray
+nsTHashSet
 <
 nsID
 >
 &
-aKnownBodyIdList
+aKnownBodyIds
 )
 {
 /
@@ -2422,7 +2421,7 @@ dir
 &
 aDirectoryMetadata
 &
-aKnownBodyIdList
+aKnownBodyIds
 ]
 (
 const
@@ -2474,7 +2473,7 @@ removeOrphanedFiles
 &
 aDirectoryMetadata
 &
-aKnownBodyIdList
+aKnownBodyIds
 ]
 (
 nsIFile
@@ -2575,7 +2574,7 @@ true
 if
 (
 !
-aKnownBodyIdList
+aKnownBodyIds
 .
 Contains
 (
