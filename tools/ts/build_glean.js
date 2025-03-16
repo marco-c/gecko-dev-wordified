@@ -249,6 +249,15 @@ timing_distribution
 "
 GleanTimingDistribution
 "
+labeled_timing_distribution
+:
+"
+Record
+<
+string
+GleanTimingDistribution
+>
+"
 memory_distribution
 :
 "
