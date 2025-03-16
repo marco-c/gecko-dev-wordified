@@ -2466,6 +2466,11 @@ nsDirection
 eDirNext
 ;
 }
+void
+RemoveCollapsedRanges
+(
+)
+;
 /
 *
 *

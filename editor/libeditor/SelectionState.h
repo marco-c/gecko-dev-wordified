@@ -2684,6 +2684,7 @@ AutoTrackDOMRange
 RangeUpdater
 &
 aRangeUpdater
+const
 RefPtr
 <
 nsRange
@@ -2749,6 +2750,7 @@ AutoTrackDOMRange
 RangeUpdater
 &
 aRangeUpdater
+const
 OwningNonNull
 <
 nsRange
@@ -3206,6 +3208,7 @@ mStartPoint
 EditorDOMPoint
 mEndPoint
 ;
+const
 RefPtr
 <
 nsRange
@@ -3213,6 +3216,7 @@ nsRange
 *
 mRangeRefPtr
 ;
+const
 OwningNonNull
 <
 nsRange
