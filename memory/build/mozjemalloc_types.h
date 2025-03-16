@@ -1650,12 +1650,12 @@ Done
 /
 /
 There
-is
-at
-least
+may
+be
 one
-arena
-left
+or
+more
+arenas
 whose
 reuse
 grace
