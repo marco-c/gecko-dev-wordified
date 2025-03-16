@@ -105,7 +105,7 @@ T
 .
 as_keys
 :
-std
+core
 :
 :
 marker
@@ -161,7 +161,7 @@ new
 )
 as_keys
 :
-std
+core
 :
 :
 marker
@@ -247,7 +247,7 @@ len
 )
 as_keys
 :
-std
+core
 :
 :
 marker
@@ -715,7 +715,7 @@ impl
 <
 T
 :
-std
+core
 :
 :
 hash
