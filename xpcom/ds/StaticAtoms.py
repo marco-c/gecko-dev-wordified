@@ -27556,19 +27556,6 @@ fill
 "
 )
     
-PseudoElementAtom
-(
-"
-PseudoElement_detailsContent
-"
-"
-:
-details
--
-content
-"
-)
-    
 #
 CSS
 anonymous
