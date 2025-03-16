@@ -194,7 +194,6 @@ const
 defaultOutput
 =
 "
-Object
 {
 }
 "
@@ -316,10 +315,7 @@ text
 .
 toEqual
 (
-"
-{
-}
-"
+defaultOutput
 )
 ;
 expect
@@ -443,7 +439,6 @@ const
 defaultOutput
 =
 '
-Object
 {
 a
 :
@@ -632,7 +627,6 @@ const
 defaultOutput
 =
 "
-Object
 {
 p0
 :
@@ -802,7 +796,6 @@ const
 defaultOutput
 =
 '
-Object
 {
 c
 :
@@ -975,7 +968,6 @@ const
 defaultOutput
 =
 '
-Object
 {
 "
 "
@@ -1159,7 +1151,6 @@ const
 defaultOutput
 =
 '
-Object
 {
 strProp
 :
@@ -1348,7 +1339,6 @@ const
 defaultOutput
 =
 "
-Object
 {
 b
 :
@@ -3685,7 +3675,6 @@ text
 toEqual
 (
 '
-Object
 {
 class
 :

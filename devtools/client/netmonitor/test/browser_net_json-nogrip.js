@@ -303,7 +303,6 @@ values
 .
 textContent
 '
-Object
 {
 type
 :
