@@ -332,7 +332,7 @@ aHandle
 explicit
 Cursor
 (
-Handle
+MutableHandle
 &
 &
 aHandle
@@ -525,7 +525,7 @@ the
 underlying
 handle
 .
-Handle
+MutableHandle
 TakeHandle
 (
 )
@@ -739,7 +739,7 @@ Cursor
 allows
 accessing
 .
-Handle
+MutableHandle
 mHandle
 ;
 /
@@ -755,7 +755,7 @@ chunk
 Lazily
 initialized
 .
-Mapping
+MutableMapping
 mMapping
 ;
 /
