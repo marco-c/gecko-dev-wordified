@@ -2723,12 +2723,6 @@ plainObjectAssignCache
 js
 :
 :
-ArraySpeciesLookup
-arraySpeciesLookup
-;
-js
-:
-:
 PromiseLookup
 promiseLookup
 ;

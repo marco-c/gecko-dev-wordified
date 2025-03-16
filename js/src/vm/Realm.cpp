@@ -2295,12 +2295,6 @@ clearAndCompact
 (
 )
 ;
-arraySpeciesLookup
-.
-purge
-(
-)
-;
 promiseLookup
 .
 purge
