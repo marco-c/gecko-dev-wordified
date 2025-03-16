@@ -1470,20 +1470,37 @@ Dict
                             
 str
 #
-Variant
+Build
+type
                             
+Dict
+[
+                                
+str
+#
+Test
+Variant
+                                
 Dict
 [
 str
 int
 ]
 #
+{
+'
 pass
+'
 :
-X
+x
+'
 fail
+'
 :
-Y
+y
+}
+                            
+]
                         
 ]
                     

@@ -75,6 +75,7 @@ typing
 import
 Dict
 List
+Optional
 Set
 class
 FailedPlatform
@@ -275,9 +276,17 @@ json
         
 oop_permutations
 :
+Optional
+[
+            
 Dict
 [
+                
 str
+#
+Build
+type
+                
 Dict
 [
 str
@@ -287,6 +296,25 @@ str
 int
 ]
 ]
+#
+Test
+Variant
+#
+{
+'
+pass
+'
+:
+x
+'
+fail
+'
+:
+y
+}
+            
+]
+        
 ]
     
 )
