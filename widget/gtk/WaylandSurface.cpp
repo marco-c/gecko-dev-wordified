@@ -3272,7 +3272,7 @@ aSubsurfacePosition
 aSubsurfaceDesync
 *
 /
-true
+false
 /
 *
 aUseReadyToDrawCallback
