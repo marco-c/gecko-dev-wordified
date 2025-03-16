@@ -296,6 +296,12 @@ TakeData
 (
 )
 ;
+nsCString
+ToString
+(
+)
+const
+;
 protected
 :
 /
