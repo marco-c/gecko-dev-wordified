@@ -1880,6 +1880,8 @@ error
 void
 ConfigureHandshakeTimeout
 (
+bool
+uses_dtls_in_stun
 )
 ;
 void
@@ -2108,6 +2110,11 @@ false
 ;
 bool
 writable_
+=
+false
+;
+bool
+was_ever_connected_
 =
 false
 ;

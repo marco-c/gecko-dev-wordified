@@ -5183,6 +5183,15 @@ PeerConnection
 >
 weak_factory_
 ;
+bool
+CanAttemptDtlsStunPiggybacking
+(
+const
+RTCConfiguration
+&
+configuration
+)
+;
 }
 ;
 }
