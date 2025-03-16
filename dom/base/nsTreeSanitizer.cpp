@@ -6011,7 +6011,10 @@ format
 on
 }
 ;
-StaticAtomSet
+nsTreeSanitizer
+:
+:
+AtomsTable
 *
 nsTreeSanitizer
 :
@@ -6020,7 +6023,10 @@ sElementsHTML
 =
 nullptr
 ;
-StaticAtomSet
+nsTreeSanitizer
+:
+:
+AtomsTable
 *
 nsTreeSanitizer
 :
@@ -6029,7 +6035,10 @@ sAttributesHTML
 =
 nullptr
 ;
-StaticAtomSet
+nsTreeSanitizer
+:
+:
+AtomsTable
 *
 nsTreeSanitizer
 :
@@ -6038,7 +6047,10 @@ sPresAttributesHTML
 =
 nullptr
 ;
-StaticAtomSet
+nsTreeSanitizer
+:
+:
+AtomsTable
 *
 nsTreeSanitizer
 :
@@ -6047,7 +6059,10 @@ sElementsSVG
 =
 nullptr
 ;
-StaticAtomSet
+nsTreeSanitizer
+:
+:
+AtomsTable
 *
 nsTreeSanitizer
 :
@@ -6056,7 +6071,10 @@ sAttributesSVG
 =
 nullptr
 ;
-StaticAtomSet
+nsTreeSanitizer
+:
+:
+AtomsTable
 *
 nsTreeSanitizer
 :
@@ -6065,7 +6083,10 @@ sElementsMathML
 =
 nullptr
 ;
-StaticAtomSet
+nsTreeSanitizer
+:
+:
+AtomsTable
 *
 nsTreeSanitizer
 :
@@ -10178,7 +10199,7 @@ time
 sElementsHTML
 =
 new
-StaticAtomSet
+AtomsTable
 (
 std
 :
@@ -10221,7 +10242,7 @@ i
 sAttributesHTML
 =
 new
-StaticAtomSet
+AtomsTable
 (
 std
 :
@@ -10264,7 +10285,7 @@ i
 sPresAttributesHTML
 =
 new
-StaticAtomSet
+AtomsTable
 (
 std
 :
@@ -10307,7 +10328,7 @@ i
 sElementsSVG
 =
 new
-StaticAtomSet
+AtomsTable
 (
 std
 :
@@ -10350,7 +10371,7 @@ i
 sAttributesSVG
 =
 new
-StaticAtomSet
+AtomsTable
 (
 std
 :
@@ -10393,7 +10414,7 @@ i
 sElementsMathML
 =
 new
-StaticAtomSet
+AtomsTable
 (
 std
 :
@@ -10436,7 +10457,7 @@ i
 sAttributesMathML
 =
 new
-StaticAtomSet
+AtomsTable
 (
 std
 :
