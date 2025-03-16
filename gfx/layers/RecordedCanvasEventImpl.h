@@ -246,12 +246,6 @@ gfx
 :
 WriteElement
 ;
-using
-ipc
-:
-:
-SharedMemory
-;
 const
 EventType
 CANVAS_BEGIN_TRANSACTION
