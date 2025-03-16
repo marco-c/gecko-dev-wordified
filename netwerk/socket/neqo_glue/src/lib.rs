@@ -2822,6 +2822,14 @@ http3
 ecn
 "
 )
+&
+&
+stats
+.
+packets_rx
+!
+=
+0
 {
 if
 stats
