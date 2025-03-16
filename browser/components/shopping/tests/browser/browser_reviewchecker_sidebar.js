@@ -199,10 +199,6 @@ initializeUIState
 launcherVisible
 :
 true
-command
-:
-"
-"
 }
 )
 ;
