@@ -278,6 +278,7 @@ AtRuleParser
 CowRcStr
 DeclarationParser
 Parser
+ParserState
 QualifiedRuleParser
 RuleBodyItemParser
 RuleBodyParser
@@ -1770,6 +1771,10 @@ i
 '
 t
 >
+_declaration_start
+:
+&
+ParserState
 )
 -
 >

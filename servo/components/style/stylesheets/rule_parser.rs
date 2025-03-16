@@ -388,7 +388,6 @@ ParserState
 QualifiedRuleParser
 RuleBodyItemParser
 RuleBodyParser
-SourceLocation
 SourcePosition
 }
 ;
@@ -4226,9 +4225,6 @@ _
 rule_type
 :
 CssRuleType
-source_location
-:
-SourceLocation
 )
 -
 >
@@ -4256,7 +4252,6 @@ wants_first_declaration_block
 *
 /
 false
-source_location
 )
 .
 rules
@@ -4296,9 +4291,6 @@ CssRuleType
 wants_first_declaration_block
 :
 bool
-source_location
-:
-SourceLocation
 )
 -
 >
@@ -4501,7 +4493,6 @@ parser
 .
 flush_declarations
 (
-source_location
 )
 ;
 debug_assert
@@ -4792,9 +4783,6 @@ flush_declarations
 &
 mut
 self
-source_location
-:
-SourceLocation
 )
 {
 let
@@ -4848,6 +4836,17 @@ has_parsed_declarations
 return
 ;
 }
+let
+source_location
+=
+parser
+.
+declaration_parser_state
+.
+first_declaration_start
+(
+)
+;
 let
 declarations
 =
@@ -6013,7 +6012,6 @@ self
 .
 flush_declarations
 (
-source_location
 )
 ;
 let
@@ -6268,7 +6266,6 @@ CssRuleType
 :
 :
 Media
-source_location
 )
 source_location
 }
@@ -6334,7 +6331,6 @@ CssRuleType
 :
 :
 Supports
-source_location
 )
 enabled
 source_location
@@ -6531,7 +6527,6 @@ CssRuleType
 :
 Page
 true
-source_location
 )
 ;
 PageRule
@@ -6710,7 +6705,6 @@ CssRuleType
 :
 :
 Document
-source_location
 )
 source_location
 }
@@ -6760,7 +6754,6 @@ CssRuleType
 :
 :
 Container
-source_location
 )
 source_location
 }
@@ -6843,7 +6836,6 @@ CssRuleType
 :
 :
 LayerBlock
-source_location
 )
 source_location
 }
@@ -7005,7 +6997,6 @@ CssRuleType
 :
 :
 Scope
-source_location
 )
 source_location
 }
@@ -7042,7 +7033,6 @@ CssRuleType
 :
 :
 StartingStyle
-source_location
 )
 source_location
 }
@@ -7262,7 +7252,6 @@ self
 .
 flush_declarations
 (
-source_location
 )
 ;
 self
@@ -7491,7 +7480,6 @@ self
 .
 flush_declarations
 (
-source_location
 )
 ;
 let
@@ -7507,7 +7495,6 @@ CssRuleType
 :
 Style
 true
-source_location
 )
 ;
 if
@@ -7684,6 +7671,10 @@ i
 '
 t
 >
+declaration_start
+:
+&
+ParserState
 )
 -
 >
@@ -7719,6 +7710,7 @@ top
 context
 name
 input
+declaration_start
 )
 }
 }
