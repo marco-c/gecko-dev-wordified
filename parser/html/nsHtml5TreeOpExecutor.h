@@ -684,6 +684,17 @@ IsScriptExecutingImpl
 )
 ;
 }
+void
+ContinueParsingDocumentAfterCurrentScript
+(
+)
+override
+{
+ContinueParsingDocumentAfterCurrentScriptImpl
+(
+)
+;
+}
 /
 /
 Not
