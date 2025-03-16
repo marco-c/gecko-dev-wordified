@@ -144,11 +144,11 @@ and
 V
 planes
 .
+/
+/
 Having
 two
 sets
-/
-/
 alleviates
 CPU
 blockage
@@ -161,6 +161,8 @@ GPU
 is
 asked
 to
+/
+/
 render
 to
 a
@@ -168,8 +170,6 @@ texture
 that
 is
 already
-/
-/
 in
 use
 .
@@ -235,6 +235,8 @@ when
 we
 receive
 padded
+/
+/
 frames
 .
 std

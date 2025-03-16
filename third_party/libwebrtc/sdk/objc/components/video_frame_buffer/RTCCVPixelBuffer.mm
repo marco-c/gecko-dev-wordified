@@ -1874,11 +1874,11 @@ src
 pointer
 points
 to
+/
+/
 a
 byte
 corresponding
-/
-/
 to
 the
 start
@@ -1894,6 +1894,8 @@ for
 BGRA
 )
 so
+/
+/
 that
 libyuv
 scales

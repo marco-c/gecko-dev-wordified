@@ -115,8 +115,8 @@ the
 OpenGL
 (
 ES
-shaders
 *
+shaders
 used
 in
 rendering

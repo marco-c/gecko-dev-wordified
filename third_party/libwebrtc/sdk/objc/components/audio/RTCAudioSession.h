@@ -767,8 +767,8 @@ RTCAudioSession
 The
 current
 known
-use
 *
+use
 case
 of
 this
@@ -781,6 +781,7 @@ audio
 session
 for
 the
+*
 application
 *
 /

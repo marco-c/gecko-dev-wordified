@@ -610,6 +610,8 @@ vertex
 data
 when
 rotation
+/
+/
 changes
 .
 std

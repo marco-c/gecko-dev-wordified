@@ -114,8 +114,8 @@ specified
 This
 shader
 will
-render
 *
+render
 the
 video
 in
@@ -126,6 +126,7 @@ any
 color
 or
 geometric
+*
 transformations
 .
 *

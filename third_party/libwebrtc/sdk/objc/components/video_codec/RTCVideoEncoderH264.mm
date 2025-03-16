@@ -1088,6 +1088,8 @@ is
 destroyed
 this
 can
+/
+/
 happen
 .
 return
@@ -1897,6 +1899,8 @@ profile_level_id
 /
 /
 See
+/
+/
 https
 :
 /
@@ -3428,6 +3432,8 @@ encoder
 malfunction
 error
 .
+"
+"
 Resetting
 compression
 session
@@ -3818,11 +3824,11 @@ pixel
 format
 than
 the
+/
+/
 compression
 session
 is
-/
-/
 configured
 with
 make
@@ -3830,6 +3836,8 @@ sure
 the
 compression
 session
+/
+/
 is
 reset
 using
@@ -3862,12 +3870,12 @@ kCVPixelBufferPixelFormatTypeKey
 can
 contain
 either
+/
+/
 an
 array
 of
 pixel
-/
-/
 formats
 or
 a
@@ -3905,14 +3913,14 @@ acquire
 the
 pixel
 buffer
+/
+/
 pool
 we
 '
 re
 in
 an
-/
-/
 invalid
 state
 and
@@ -4047,6 +4055,8 @@ to
 non
 -
 matching
+"
+"
 pixel
 format
 .
@@ -4579,6 +4589,8 @@ emission
 frames
 or
 4
+/
+/
 minutes
 )
 .
@@ -4721,6 +4733,8 @@ to
 automatic
 frame
 rate
+/
+/
 detection
 .
 if
@@ -5185,6 +5199,8 @@ for
 freeing
 it
 when
+/
+/
 done
 .
 frame

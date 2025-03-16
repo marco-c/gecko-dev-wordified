@@ -199,11 +199,11 @@ hasn
 '
 t
 been
+*
 matched
 by
 either
 an
-*
 interrupted
 end
 event
