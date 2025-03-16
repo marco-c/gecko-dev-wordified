@@ -157,6 +157,7 @@ class
 Type
 {
 GetIterator
+ArraySpecies
 EmulatesUndefined
 Limit
 }

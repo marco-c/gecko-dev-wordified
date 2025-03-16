@@ -938,7 +938,7 @@ OptimizeArraySpeciesFuse
 final
 :
 public
-RealmFuse
+InvalidatingRealmFuse
 {
 virtual
 const
