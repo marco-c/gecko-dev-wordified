@@ -1461,6 +1461,13 @@ init
 (
 )
 ;
+TaskbarTabUI
+.
+init
+(
+window
+)
+;
 BrowserPageActions
 .
 init
