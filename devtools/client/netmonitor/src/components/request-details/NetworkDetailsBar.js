@@ -307,6 +307,8 @@ TabboxPanel
 js
 "
 )
+.
+ConnectedTabboxPanel
 )
 ;
 }
