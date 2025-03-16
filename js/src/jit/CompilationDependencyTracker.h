@@ -182,10 +182,12 @@ operator
 =
 =
 (
+const
 CompilationDependency
 &
 other
 )
+const
 =
 0
 ;
@@ -246,6 +248,7 @@ CompilationDependency
 clone
 (
 )
+const
 =
 0
 ;
@@ -328,6 +331,7 @@ nodiscard
 bool
 addDependency
 (
+const
 CompilationDependency
 &
 dep
