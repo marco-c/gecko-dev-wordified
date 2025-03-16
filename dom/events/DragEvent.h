@@ -319,13 +319,6 @@ DragEventInit
 aParam
 )
 ;
-private
-:
-bool
-mImageInputTelemetryCollected
-=
-false
-;
 protected
 :
 ~
