@@ -1159,7 +1159,7 @@ resource
 /
 modules
 /
-AboutNewTabService
+AboutNewTabRedirector
 .
 sys
 .
@@ -1308,7 +1308,7 @@ resource
 /
 modules
 /
-AboutNewTabService
+AboutNewTabRedirector
 .
 sys
 .
