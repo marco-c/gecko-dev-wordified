@@ -389,8 +389,11 @@ rv
 PersistNotification
 (
 mPrincipal
+IPCNotification
+(
 mId
 mOptions
+)
 mScope
 )
 ;
