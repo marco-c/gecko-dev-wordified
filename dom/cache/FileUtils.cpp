@@ -575,7 +575,7 @@ aType
 bool
 aCreateDirIfNotExists
 =
-true
+false
 )
 ;
 int64_t
@@ -1457,7 +1457,6 @@ BodyIdToFile
 aBaseDir
 aId
 BODY_FILE_TMP
-false
 )
 )
 ;
@@ -1472,7 +1471,6 @@ BodyIdToFile
 aBaseDir
 aId
 BODY_FILE_FINAL
-false
 )
 )
 ;
@@ -1592,7 +1590,6 @@ BodyIdToFile
 aBaseDir
 aId
 BODY_FILE_FINAL
-false
 )
 )
 ;
@@ -1656,7 +1653,6 @@ BodyIdToFile
 aBaseDir
 aId
 BODY_FILE_FINAL
-false
 )
 )
 ;
@@ -1780,7 +1776,6 @@ BodyIdToFile
 aBaseDir
 aId
 BODY_FILE_TMP
-false
 )
 )
 ;
@@ -1975,7 +1970,6 @@ BodyIdToFile
 aBaseDir
 id
 BODY_FILE_FINAL
-false
 )
 )
 ;
@@ -2030,7 +2024,6 @@ BodyIdToFile
 aBaseDir
 id
 BODY_FILE_TMP
-false
 )
 )
 ;
