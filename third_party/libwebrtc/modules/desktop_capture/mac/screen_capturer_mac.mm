@@ -2141,10 +2141,10 @@ contents
 of
 the
 previous
+/
+/
 capture
 buffer
-/
-/
 to
 capture
 over
@@ -2692,10 +2692,10 @@ display_bounds
 in
 case
 the
+/
+/
 screen
 was
-/
-/
 resized
 recently
 .
