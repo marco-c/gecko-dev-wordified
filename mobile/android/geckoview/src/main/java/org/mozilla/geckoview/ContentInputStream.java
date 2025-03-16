@@ -259,6 +259,9 @@ final
 NonNull
 String
 aUri
+final
+boolean
+aPDFOnly
 )
 {
 final
@@ -356,6 +359,9 @@ createInputStream
 ;
 if
 (
+aPDFOnly
+&
+&
 !
 checkHeaders
 (
@@ -1203,6 +1209,9 @@ final
 NonNull
 String
 aUri
+final
+boolean
+aPDFOnly
 )
 {
 return
@@ -1210,6 +1219,7 @@ new
 ContentInputStream
 (
 aUri
+aPDFOnly
 )
 ;
 }

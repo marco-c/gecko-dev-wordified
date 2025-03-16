@@ -256,9 +256,16 @@ rv
 GeckoViewContentInputStream
 :
 :
-getInstance
+GetInstance
 (
 spec
+GeckoViewContentInputStream
+:
+:
+Allow
+:
+:
+PDFOnly
 getter_AddRefs
 (
 inputStream
