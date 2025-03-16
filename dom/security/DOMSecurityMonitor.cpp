@@ -627,7 +627,7 @@ react
 -
 dom
 .
-js
+mjs
 "
 _ns
 nsLiteralCString
@@ -651,7 +651,7 @@ dom
 -
 dev
 .
-js
+mjs
 "
 )
 nsLiteralCString
