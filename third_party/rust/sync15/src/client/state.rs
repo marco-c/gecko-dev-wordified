@@ -4181,9 +4181,8 @@ get
 key
 )
 .
-map_or
+is_some_and
 (
-false
 |
 ts
 |

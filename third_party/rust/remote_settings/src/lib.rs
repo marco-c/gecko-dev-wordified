@@ -943,12 +943,6 @@ self
 collection_name
 :
 String
-app_context
-:
-Option
-<
-RemoteSettingsContext
->
 )
 -
 >
@@ -967,7 +961,6 @@ internal
 make_client
 (
 collection_name
-app_context
 )
 }
 /
@@ -1818,6 +1811,7 @@ get_attachment
 self
 record
 :
+&
 RemoteSettingsRecord
 )
 -
@@ -1885,13 +1879,9 @@ collection_name
 String
 #
 [
-cfg
+allow
 (
-feature
-=
-"
-jexl
-"
+unused
 )
 ]
 context
