@@ -923,6 +923,12 @@ nsGkAtoms
 abbr
 nullptr
 /
+*
+sentinel
+*
+/
+nullptr
+/
 /
 clang
 -
@@ -1113,6 +1119,12 @@ nsGkAtoms
 :
 :
 accentunder
+nullptr
+/
+*
+sentinel
+*
+/
 nullptr
 /
 /
