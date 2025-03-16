@@ -293,7 +293,7 @@ Angle
 Number
 Number
 Length
-Impossible
+AnimatedSimpleShadow
 Impossible
 >
 ;

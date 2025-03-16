@@ -314,7 +314,7 @@ Angle
 NonNegativeNumber
 ZeroToOneNumber
 NonNegativeLength
-Impossible
+SimpleShadow
 Impossible
 >
 ;
