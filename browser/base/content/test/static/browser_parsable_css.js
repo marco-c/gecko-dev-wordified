@@ -4643,6 +4643,11 @@ if
 !
 [
 "
+builtin
+-
+addons
+"
+"
 newtab
 "
 "
