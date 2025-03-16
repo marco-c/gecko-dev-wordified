@@ -48049,10 +48049,6 @@ mMayHaveDOMActivateEventListeners
 (
 false
 )
-mMayHavePaintEventListener
-(
-false
-)
 mMayHaveTouchEventListener
 (
 false
