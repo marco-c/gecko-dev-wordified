@@ -203,9 +203,6 @@ get
 "
 TEST_SNAP_INSTANCE
 "
-"
-firefox
-"
 )
         
 self
@@ -3159,6 +3156,15 @@ in
 24
 "
 ]
+"
+Core
+base
+should
+be
+22
+or
+24
+"
     
 def
 test_about_support
