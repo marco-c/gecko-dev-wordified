@@ -3026,7 +3026,7 @@ if
 aTime
 <
 =
-aLastFrameCallbackTime
+mLastFrameCallbackTime
 )
 {
 LOGVERBOSE
@@ -3052,7 +3052,7 @@ aTime
 return
 ;
 }
-aLastFrameCallbackTime
+mLastFrameCallbackTime
 =
 aTime
 ;
