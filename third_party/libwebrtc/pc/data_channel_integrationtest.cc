@@ -5537,6 +5537,7 @@ EXPECT_EQ
 init
 .
 maxRetransmits
+*
 callee
 (
 )
@@ -5547,7 +5548,7 @@ data_channel
 )
 -
 >
-maxRetransmits
+maxRetransmitsOpt
 (
 )
 )
