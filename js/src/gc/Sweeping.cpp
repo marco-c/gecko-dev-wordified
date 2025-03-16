@@ -4972,7 +4972,6 @@ WeakMapBase
 :
 findSweepGroupEdgesForZone
 (
-atomsZone
 this
 )
 ;
