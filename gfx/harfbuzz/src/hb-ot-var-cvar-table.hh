@@ -337,6 +337,8 @@ c
 }
 const
 TupleVariationData
+<
+>
 *
 get_tuple_var_data
 (
@@ -366,6 +368,8 @@ hb_map_t
 *
 axes_old_index_tag_map
 TupleVariationData
+<
+>
 :
 :
 tuple_variations_t
@@ -386,6 +390,8 @@ unsigned
 shared_indices
 ;
 TupleVariationData
+<
+>
 :
 :
 tuple_iterator_t
@@ -410,6 +416,8 @@ if
 (
 !
 TupleVariationData
+<
+>
 :
 :
 get_tuple_iterator
@@ -461,6 +469,8 @@ unsigned
 num_cvt_item
 const
 TupleVariationData
+<
+>
 *
 tuple_var_data
 const
@@ -495,6 +505,8 @@ unsigned
 shared_indices
 ;
 TupleVariationData
+<
+>
 :
 :
 tuple_iterator_t
@@ -532,6 +544,8 @@ if
 (
 !
 TupleVariationData
+<
+>
 :
 :
 get_tuple_iterator
@@ -682,6 +696,8 @@ has_private_points
 &
 !
 TupleVariationData
+<
+>
 :
 :
 decompile_points
@@ -755,6 +771,8 @@ unlikely
 (
 !
 TupleVariationData
+<
+>
 :
 :
 decompile_deltas
@@ -866,6 +884,8 @@ hb_serialize_context_t
 *
 c
 TupleVariationData
+<
+>
 :
 :
 tuple_variations_t
@@ -954,6 +974,8 @@ OT
 :
 :
 TupleVariationData
+<
+>
 :
 :
 tuple_variations_t
@@ -1145,6 +1167,8 @@ hb_subset_plan_t
 plan
 const
 TupleVariationData
+<
+>
 *
 tuple_var_data
 const
@@ -1382,6 +1406,8 @@ to
 *
 /
 TupleVariationData
+<
+>
 tupleVariationData
 ;
 /

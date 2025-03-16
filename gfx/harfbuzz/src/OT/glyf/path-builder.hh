@@ -252,6 +252,7 @@ FLAG_ON_CURVE
 #
 ifdef
 HB_NO_CUBIC_GLYF
+constexpr
 bool
 is_cubic
 =
