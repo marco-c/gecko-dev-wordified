@@ -2380,6 +2380,10 @@ qr
         
 ]
 and
+(
+mozinfo_tags
+:
+=
 json
 .
 loads
@@ -2390,6 +2394,7 @@ mozinfo
 tag
 "
 ]
+)
 )
 :
             
@@ -2407,17 +2412,7 @@ x
 for
 x
 in
-json
-.
-loads
-(
-mozinfo
-[
-"
-tag
-"
-]
-)
+mozinfo_tags
 ]
 )
         
