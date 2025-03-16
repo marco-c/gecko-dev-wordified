@@ -9774,6 +9774,12 @@ StyleAppearance
 :
 Toolbarbutton
 :
+case
+StyleAppearance
+:
+:
+ProgressBar
+:
 /
 /
 Return
