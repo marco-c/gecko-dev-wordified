@@ -561,6 +561,10 @@ JS_PUBLIC_API
 bool
 js_StartPerf
 (
+const
+char
+*
+outfile
 )
 ;
 [
