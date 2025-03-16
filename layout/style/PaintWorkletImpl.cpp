@@ -282,9 +282,6 @@ PaintWorkletImpl
 :
 ConstructGlobalScope
 (
-JSContext
-*
-aCx
 )
 {
 dom
