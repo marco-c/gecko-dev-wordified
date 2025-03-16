@@ -145,6 +145,16 @@ false
 ;
 )
 ;
+assertEq
+(
+getUseCounterResults
+(
+)
+.
+OptimizeArraySpeciesFuse
+2
+)
+;
 }
 test
 (
