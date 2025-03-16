@@ -369,11 +369,6 @@ DMABufSurface
 h
 "
 "
-gbm
-.
-h
-"
-"
 GtkCompositorWidget
 .
 h
