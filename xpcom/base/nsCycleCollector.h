@@ -307,11 +307,6 @@ SliceBudget
 aBudget
 )
 ;
-bool
-nsCycleCollector_maybeDoDeferredDeletion
-(
-)
-;
 already_AddRefed
 <
 nsICycleCollectorLogSink
