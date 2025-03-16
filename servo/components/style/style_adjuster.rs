@@ -4173,8 +4173,6 @@ support
 display
 :
 contents
-/
-/
 see
 bug
 1418138
@@ -4186,8 +4184,17 @@ style
 .
 pseudo
 .
-is_some
+is_some_and
 (
+|
+p
+|
+!
+p
+.
+is_part_like
+(
+)
 )
 {
 self
