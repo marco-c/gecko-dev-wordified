@@ -296,7 +296,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowalign_
+rowalign
 )
 {
 if
@@ -395,7 +395,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnalign_
+columnalign
 )
 {
 if
@@ -460,7 +460,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowlines_
+rowlines
 |
 |
 aAttribute
@@ -469,7 +469,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnlines_
+columnlines
 )
 {
 if
@@ -1039,7 +1039,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowalign_
+rowalign
 )
 {
 return
@@ -1056,7 +1056,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowlines_
+rowlines
 )
 {
 return
@@ -1073,7 +1073,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnalign_
+columnalign
 )
 {
 return
@@ -1090,7 +1090,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnlines_
+columnlines
 "
 Invalid
 attribute
@@ -3103,7 +3103,7 @@ aAttribute
 nsGkAtoms
 :
 :
-framespacing_
+framespacing
 &
 &
 elementNum
@@ -3178,7 +3178,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowspacing_
+rowspacing
 |
 |
 aAttribute
@@ -3187,7 +3187,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnspacing_
+columnspacing
 |
 |
 aAttribute
@@ -3196,7 +3196,7 @@ aAttribute
 nsGkAtoms
 :
 :
-framespacing_
+framespacing
 "
 Non
 spacing
@@ -3238,7 +3238,7 @@ if
 nsGkAtoms
 :
 :
-framespacing_
+framespacing
 =
 =
 aAttribute
@@ -3332,7 +3332,7 @@ if
 nsGkAtoms
 :
 :
-rowspacing_
+rowspacing
 =
 =
 aAttribute
@@ -3360,7 +3360,7 @@ if
 nsGkAtoms
 :
 :
-columnspacing_
+columnspacing
 =
 =
 aAttribute
@@ -3480,7 +3480,7 @@ aAttribute
 nsGkAtoms
 :
 :
-framespacing_
+framespacing
 )
 {
 if
@@ -3570,7 +3570,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowspacing_
+rowspacing
 )
 {
 aFrame
@@ -3591,7 +3591,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnspacing_
+columnspacing
 )
 {
 aFrame
@@ -3641,7 +3641,7 @@ aTableFrame
 nsGkAtoms
 :
 :
-rowspacing_
+rowspacing
 )
 ;
 ParseSpacingAttribute
@@ -3650,7 +3650,7 @@ aTableFrame
 nsGkAtoms
 :
 :
-columnspacing_
+columnspacing
 )
 ;
 ParseSpacingAttribute
@@ -3659,7 +3659,7 @@ aTableFrame
 nsGkAtoms
 :
 :
-framespacing_
+framespacing
 )
 ;
 aTableFrame
@@ -3729,7 +3729,7 @@ aTableFrame
 nsGkAtoms
 :
 :
-rowalign_
+rowalign
 true
 )
 ;
@@ -3739,7 +3739,7 @@ aTableFrame
 nsGkAtoms
 :
 :
-rowlines_
+rowlines
 true
 )
 ;
@@ -3757,7 +3757,7 @@ aTableFrame
 nsGkAtoms
 :
 :
-columnalign_
+columnalign
 true
 )
 ;
@@ -3767,7 +3767,7 @@ aTableFrame
 nsGkAtoms
 :
 :
-columnlines_
+columnlines
 true
 )
 ;
@@ -3874,7 +3874,7 @@ rowFrame
 nsGkAtoms
 :
 :
-rowalign_
+rowalign
 false
 )
 ;
@@ -3890,7 +3890,7 @@ rowFrame
 nsGkAtoms
 :
 :
-columnalign_
+columnalign
 true
 )
 ;
@@ -3936,7 +3936,7 @@ cellFrame
 nsGkAtoms
 :
 :
-rowalign_
+rowalign
 false
 )
 ;
@@ -3952,7 +3952,7 @@ cellFrame
 nsGkAtoms
 :
 :
-columnalign_
+columnalign
 false
 )
 ;
@@ -4743,7 +4743,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowspacing_
+rowspacing
 |
 |
 aAttribute
@@ -4752,7 +4752,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnspacing_
+columnspacing
 |
 |
 aAttribute
@@ -4761,7 +4761,7 @@ aAttribute
 nsGkAtoms
 :
 :
-framespacing_
+framespacing
 )
 )
 {
@@ -4827,7 +4827,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowalign_
+rowalign
 |
 |
 aAttribute
@@ -4836,7 +4836,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowlines_
+rowlines
 |
 |
 aAttribute
@@ -4845,7 +4845,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnalign_
+columnalign
 |
 |
 aAttribute
@@ -4854,7 +4854,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnlines_
+columnlines
 )
 )
 {
@@ -6923,7 +6923,7 @@ HasAttr
 nsGkAtoms
 :
 :
-rowspacing_
+rowspacing
 )
 |
 |
@@ -6941,7 +6941,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-columnspacing_
+columnspacing
 )
 |
 |
@@ -6958,7 +6958,7 @@ HasAttr
 nsGkAtoms
 :
 :
-framespacing_
+framespacing
 )
 )
 ;
@@ -7090,7 +7090,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowalign_
+rowalign
 &
 &
 aAttribute
@@ -7099,7 +7099,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnalign_
+columnalign
 )
 )
 {
@@ -7151,7 +7151,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnalign_
+columnalign
 )
 ;
 /
@@ -7385,7 +7385,7 @@ aAttribute
 nsGkAtoms
 :
 :
-rowalign_
+rowalign
 |
 |
 aAttribute
@@ -7394,7 +7394,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnalign_
+columnalign
 )
 )
 {
@@ -7447,7 +7447,7 @@ aAttribute
 nsGkAtoms
 :
 :
-columnspan_
+columnspan
 )
 )
 {

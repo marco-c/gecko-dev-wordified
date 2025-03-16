@@ -450,7 +450,7 @@ HasAttr
 nsGkAtoms
 :
 :
-list_
+list
 )
 )
 {
@@ -4762,7 +4762,7 @@ aAttribute
 nsGkAtoms
 :
 :
-list_
+list
 )
 {
 const

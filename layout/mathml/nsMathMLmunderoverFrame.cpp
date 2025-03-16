@@ -335,7 +335,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-accent_
+accent
 =
 =
 aAttribute
@@ -344,7 +344,7 @@ aAttribute
 nsGkAtoms
 :
 :
-accentunder_
+accentunder
 =
 =
 aAttribute
@@ -632,7 +632,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mover_
+mover
 )
 )
 {
@@ -1330,11 +1330,11 @@ IsAnyOfMathMLElements
 nsGkAtoms
 :
 :
-munder_
+munder
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {
@@ -1360,7 +1360,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mover_
+mover
 )
 "
 mContent
@@ -1403,7 +1403,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {
@@ -1524,11 +1524,11 @@ IsAnyOfMathMLElements
 nsGkAtoms
 :
 :
-munder_
+munder
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {
@@ -1598,7 +1598,7 @@ GetAttr
 nsGkAtoms
 :
 :
-accentunder_
+accentunder
 value
 )
 )
@@ -1682,11 +1682,11 @@ IsAnyOfMathMLElements
 nsGkAtoms
 :
 :
-mover_
+mover
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {
@@ -1754,7 +1754,7 @@ GetAttr
 nsGkAtoms
 :
 :
-accent_
+accent
 value
 )
 )
@@ -2085,11 +2085,11 @@ IsAnyOfMathMLElements
 nsGkAtoms
 :
 :
-mover_
+mover
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {
@@ -2130,7 +2130,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mover_
+mover
 )
 ?
 1
@@ -2194,11 +2194,11 @@ IsAnyOfMathMLElements
 nsGkAtoms
 :
 :
-munder_
+munder
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {
@@ -2584,7 +2584,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {
@@ -2618,7 +2618,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-munder_
+munder
 )
 )
 {
@@ -2653,7 +2653,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mover_
+mover
 )
 "
 mContent
@@ -2828,11 +2828,11 @@ IsAnyOfMathMLElements
 nsGkAtoms
 :
 :
-munder_
+munder
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {
@@ -2857,7 +2857,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mover_
+mover
 )
 )
 {
@@ -2885,7 +2885,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {
@@ -2909,7 +2909,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-munder_
+munder
 )
 )
 {
@@ -2960,7 +2960,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mover_
+mover
 )
 )
 {
@@ -3011,7 +3011,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {

@@ -2040,7 +2040,7 @@ list
 nsGkAtoms
 :
 :
-list_
+list
 roles
 :
 :
@@ -2122,7 +2122,7 @@ log
 nsGkAtoms
 :
 :
-log_
+log
 roles
 :
 :
@@ -2407,7 +2407,7 @@ note
 nsGkAtoms
 :
 :
-note_
+note
 roles
 :
 :
@@ -2692,7 +2692,7 @@ separator
 nsGkAtoms
 :
 :
-separator_
+separator
 roles
 :
 :

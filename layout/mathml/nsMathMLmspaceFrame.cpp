@@ -334,7 +334,7 @@ aAttribute
 nsGkAtoms
 :
 :
-depth_
+depth
 )
 {
 mDepth
@@ -725,7 +725,7 @@ CalculateAttributeValue
 nsGkAtoms
 :
 :
-depth_
+depth
 mDepth
 0
 fontSizeInflation

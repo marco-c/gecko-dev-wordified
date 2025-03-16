@@ -285,7 +285,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mi_
+mi
 )
 )
 {
@@ -541,7 +541,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mi_
+mi
 )
 &
 &

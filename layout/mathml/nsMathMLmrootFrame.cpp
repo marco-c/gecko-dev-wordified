@@ -332,7 +332,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mroot_
+mroot
 )
 ;
 if
@@ -420,7 +420,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mroot_
+mroot
 )
 ;
 if
@@ -487,7 +487,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mroot_
+mroot
 )
 ;
 if
@@ -529,7 +529,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mroot_
+mroot
 )
 ;
 if
@@ -1087,7 +1087,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mroot_
+mroot
 )
 ;
 nsBoundingMetrics

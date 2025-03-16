@@ -1171,7 +1171,7 @@ step
 nsGkAtoms
 :
 :
-location_
+location
 nsGkAtoms
 :
 :

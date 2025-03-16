@@ -388,7 +388,7 @@ aAttribute
 nsGkAtoms
 :
 :
-depth_
+depth
 )
 {
 mDepth
@@ -417,7 +417,7 @@ aAttribute
 nsGkAtoms
 :
 :
-lspace_
+lspace
 )
 {
 mLeadingSpace
@@ -453,7 +453,7 @@ aAttribute
 nsGkAtoms
 :
 :
-voffset_
+voffset
 )
 {
 mVerticalOffset
@@ -2549,7 +2549,7 @@ ParseAttribute
 nsGkAtoms
 :
 :
-depth_
+depth
 mDepth
 )
 ;
@@ -2588,7 +2588,7 @@ ParseAttribute
 nsGkAtoms
 :
 :
-lspace_
+lspace
 mLeadingSpace
 )
 ;
@@ -2633,7 +2633,7 @@ ParseAttribute
 nsGkAtoms
 :
 :
-voffset_
+voffset
 mVerticalOffset
 )
 ;

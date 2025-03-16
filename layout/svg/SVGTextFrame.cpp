@@ -19376,7 +19376,7 @@ aAttribute
 nsGkAtoms
 :
 :
-side_
+side
 )
 )
 {

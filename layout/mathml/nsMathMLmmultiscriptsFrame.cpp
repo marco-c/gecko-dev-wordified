@@ -373,7 +373,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mprescripts_
+mprescripts
 )
 )
 {
@@ -504,7 +504,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-msup_
+msup
 )
 ;
 AutoTArray
@@ -545,7 +545,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mprescripts_
+mprescripts
 )
 )
 {
@@ -852,7 +852,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mover_
+mover
 )
 )
 {
@@ -861,7 +861,7 @@ tag
 nsGkAtoms
 :
 :
-msup_
+msup
 ;
 }
 else
@@ -880,7 +880,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-munder_
+munder
 )
 )
 {
@@ -889,7 +889,7 @@ tag
 nsGkAtoms
 :
 :
-msub_
+msub
 ;
 }
 else
@@ -908,7 +908,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-munderover_
+munderover
 )
 )
 {
@@ -917,7 +917,7 @@ tag
 nsGkAtoms
 :
 :
-msubsup_
+msubsup
 ;
 }
 nsBoundingMetrics
@@ -1053,7 +1053,7 @@ tag
 nsGkAtoms
 :
 :
-mmultiscripts_
+mmultiscripts
 )
 {
 aFrame
@@ -1489,7 +1489,7 @@ tag
 nsGkAtoms
 :
 :
-msub_
+msub
 )
 {
 subScriptShift
@@ -2212,7 +2212,7 @@ tag
 nsGkAtoms
 :
 :
-msup_
+msup
 )
 ;
 nsIFrame
@@ -2250,7 +2250,7 @@ IsMathMLElement
 nsGkAtoms
 :
 :
-mprescripts_
+mprescripts
 )
 )
 {
@@ -2262,7 +2262,7 @@ tag
 nsGkAtoms
 :
 :
-mmultiscripts_
+mmultiscripts
 )
 {
 if
@@ -2287,7 +2287,7 @@ ReportInvalidChildError
 nsGkAtoms
 :
 :
-mprescripts_
+mprescripts
 )
 ;
 }
@@ -2457,7 +2457,7 @@ tag
 nsGkAtoms
 :
 :
-msub_
+msub
 )
 {
 /
@@ -2836,7 +2836,7 @@ tag
 nsGkAtoms
 :
 :
-msub_
+msub
 )
 {
 boundingMetrics
@@ -3414,7 +3414,7 @@ tag
 nsGkAtoms
 :
 :
-mmultiscripts_
+mmultiscripts
 |
 |
 tag
@@ -3423,7 +3423,7 @@ tag
 nsGkAtoms
 :
 :
-msubsup_
+msubsup
 )
 {
 nscoord
@@ -3704,7 +3704,7 @@ tag
 nsGkAtoms
 :
 :
-msup_
+msup
 |
 |
 tag
@@ -3713,7 +3713,7 @@ tag
 nsGkAtoms
 :
 :
-msub_
+msub
 )
 )
 |
@@ -3731,7 +3731,7 @@ tag
 nsGkAtoms
 :
 :
-msubsup_
+msubsup
 )
 |
 |
@@ -3750,7 +3750,7 @@ tag
 nsGkAtoms
 :
 :
-mmultiscripts_
+mmultiscripts
 )
 )
 {
@@ -3797,7 +3797,7 @@ tag
 nsGkAtoms
 :
 :
-msup_
+msup
 |
 |
 tag
@@ -3806,7 +3806,7 @@ tag
 nsGkAtoms
 :
 :
-msub_
+msub
 )
 )
 |
@@ -3824,7 +3824,7 @@ tag
 nsGkAtoms
 :
 :
-msubsup_
+msubsup
 )
 )
 {
@@ -3976,7 +3976,7 @@ tag
 nsGkAtoms
 :
 :
-msub_
+msub
 )
 {
 boundingMetrics
@@ -4039,7 +4039,7 @@ tag
 nsGkAtoms
 :
 :
-msup_
+msup
 )
 {
 boundingMetrics
@@ -4463,7 +4463,7 @@ tag
 nsGkAtoms
 :
 :
-msub_
+msub
 |
 |
 tag
@@ -4472,7 +4472,7 @@ tag
 nsGkAtoms
 :
 :
-msup_
+msup
 )
 {
 count
@@ -4759,7 +4759,7 @@ tag
 nsGkAtoms
 :
 :
-msub_
+msub
 )
 {
 supScriptFrame

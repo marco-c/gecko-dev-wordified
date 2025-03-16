@@ -27051,7 +27051,7 @@ aName
 nsGkAtoms
 :
 :
-annotation_xml_
+annotation_xml
 &
 &
 aName

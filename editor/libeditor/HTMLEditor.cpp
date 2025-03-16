@@ -22684,7 +22684,7 @@ aTagName
 nsGkAtoms
 :
 :
-list_
+list
 )
 {
 /

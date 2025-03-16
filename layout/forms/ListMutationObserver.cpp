@@ -181,7 +181,7 @@ GetAttr
 nsGkAtoms
 :
 :
-list_
+list
 id
 )
 )

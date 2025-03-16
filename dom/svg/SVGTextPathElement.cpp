@@ -426,7 +426,7 @@ TEXTPATH_SPACINGTYPE_EXACT
 nsGkAtoms
 :
 :
-side_
+side
 sSideMap
 TEXTPATH_SIDETYPE_LEFT
 }

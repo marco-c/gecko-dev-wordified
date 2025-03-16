@@ -1099,7 +1099,7 @@ VisualViewportOffset
 nsGkAtoms
 :
 :
-voffset_
+voffset
 ;
 /
 /
