@@ -280,6 +280,13 @@ unistd
 .
 h
 >
+#
+include
+"
+gbm
+.
+h
+"
 using
 namespace
 mozilla
