@@ -3335,13 +3335,6 @@ cpp
 "
 vm
 /
-PromiseLookup
-.
-cpp
-"
-"
-vm
-/
 PropertyAndElement
 .
 cpp
