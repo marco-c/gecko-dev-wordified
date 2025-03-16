@@ -205,7 +205,9 @@ const
 REPS
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -224,7 +226,7 @@ reps
 /
 index
 .
-js
+mjs
 "
 )
 ;

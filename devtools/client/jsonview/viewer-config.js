@@ -374,7 +374,7 @@ custom
 -
 formatter
 .
-js
+mjs
 "
 :
 "

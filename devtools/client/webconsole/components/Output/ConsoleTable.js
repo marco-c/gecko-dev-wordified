@@ -180,7 +180,9 @@ function
 )
 {
 return
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -199,8 +201,15 @@ reps
 /
 index
 .
-js
+mjs
 "
+{
+global
+:
+"
+current
+"
+}
 )
 .
 MODE

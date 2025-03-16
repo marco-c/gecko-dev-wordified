@@ -331,7 +331,9 @@ const
 MODE
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -352,8 +354,15 @@ reps
 /
 constants
 .
-js
+mjs
 "
+{
+global
+:
+"
+current
+"
+}
 )
 ;
 /
