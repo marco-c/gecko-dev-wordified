@@ -186,6 +186,7 @@ Type
 {
 Mutable
 ReadOnly
+MutableOrReadOnly
 Freezable
 }
 ;
@@ -339,6 +340,17 @@ Type
 :
 :
 ReadOnly
+>
+;
+using
+MutableOrReadOnlyMapping
+=
+Mapping
+<
+Type
+:
+:
+MutableOrReadOnly
 >
 ;
 using
