@@ -112,9 +112,7 @@ function
 (
 )
 {
-gContextMenu
-.
-addKeywordForSearchField
+AddKeywordForSearchField
 (
 )
 ;
@@ -712,9 +710,7 @@ function
 (
 )
 {
-gContextMenu
-.
-addKeywordForSearchField
+AddKeywordForSearchField
 (
 )
 ;
@@ -959,9 +955,7 @@ function
 (
 )
 {
-gContextMenu
-.
-addKeywordForSearchField
+AddKeywordForSearchField
 (
 )
 ;

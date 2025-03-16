@@ -6273,7 +6273,9 @@ browser
 /
 content
 /
-search
+preferences
+/
+dialogs
 /
 addEngine
 .
