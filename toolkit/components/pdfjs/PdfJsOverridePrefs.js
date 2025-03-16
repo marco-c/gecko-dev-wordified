@@ -152,16 +152,6 @@ annotationEditorMode
 ;
 #
 else
-pref
-(
-"
-pdfjs
-.
-enableUpdatedAddImage
-"
-true
-)
-;
 #
 if
 defined
