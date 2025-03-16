@@ -3033,6 +3033,7 @@ TabGroupRemoved
 "
 )
 ;
+await
 group
 .
 ownerGlobal

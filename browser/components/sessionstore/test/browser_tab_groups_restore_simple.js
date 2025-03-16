@@ -338,6 +338,7 @@ restored
 "
 )
 ;
+await
 win
 .
 gBrowser
