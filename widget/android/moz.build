@@ -164,6 +164,9 @@ AndroidVsync
 Base64Utils
 "
 "
+ClientAuthCertificateManager
+"
+"
 Clipboard
 "
 "
