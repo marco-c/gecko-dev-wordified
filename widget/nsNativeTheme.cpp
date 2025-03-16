@@ -858,12 +858,6 @@ case
 StyleAppearance
 :
 :
-MenulistButton
-:
-case
-StyleAppearance
-:
-:
 Menulist
 :
 case
