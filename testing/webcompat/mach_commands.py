@@ -1655,24 +1655,6 @@ verify_android_device
             
 )
             
-#
-verify_android_device
-sets
-up
-device
-/
-emulator
-and
-records
-selected
-            
-#
-one
-to
-DEVICE_SERIAL
-environment
-.
-            
 verify_android_device
 (
                 
