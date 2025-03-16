@@ -2247,6 +2247,12 @@ std
 :
 forward_as_tuple
 (
+capture_source_
+-
+>
+GetSourceId
+(
+)
 d3d11_device_
 item
 capture_source_
