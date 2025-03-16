@@ -1154,15 +1154,6 @@ CaretOffset
 const
 override
 ;
-virtual
-void
-SetCaretOffset
-(
-int32_t
-aOffset
-)
-override
-;
 /
 *
 *
