@@ -814,6 +814,10 @@ const
 EntryId
 &
 aEntryId
+const
+FileId
+&
+aFileId
 )
 ;
 bool
@@ -823,6 +827,10 @@ const
 EntryId
 &
 aEntryId
+const
+FileId
+&
+aFileId
 )
 const
 ;
@@ -958,7 +966,10 @@ mSharedLocks
 nsTHashMap
 <
 EntryId
-uint32_t
+nsTArray
+<
+FileId
+>
 >
 mDeprecatedLocks
 ;
