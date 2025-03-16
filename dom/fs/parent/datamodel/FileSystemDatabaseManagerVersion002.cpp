@@ -3954,11 +3954,11 @@ aEntryId
 {
 QM_TRY_UNWRAP
 (
+const
 bool
 exists
 DoesFileExist
 (
-mConnection
 aEntryId
 )
 )
@@ -4154,11 +4154,11 @@ aEntryId
 {
 QM_TRY_UNWRAP
 (
+const
 bool
 exists
 DoesFileExist
 (
-mConnection
 aEntryId
 )
 )
