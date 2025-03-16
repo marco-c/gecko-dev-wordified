@@ -1810,11 +1810,6 @@ DestroyInProcessCompositorSessions
 (
 )
 ;
-void
-OnBlockingProcessUnexpectedShutdown
-(
-)
-;
 /
 /
 Returns
