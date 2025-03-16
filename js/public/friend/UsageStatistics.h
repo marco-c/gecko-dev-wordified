@@ -735,6 +735,12 @@ _
 OPTIMIZE_ARRAY_SPECIES_FUSE
 OptimizeArraySpeciesFuse
 )
+\
+_
+(
+OPTIMIZE_PROMISE_LOOKUP_FUSE
+OptimizePromiseLookupFuse
+)
 /
 *
 *
