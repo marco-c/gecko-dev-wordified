@@ -1231,7 +1231,7 @@ once
 '
 compilation
 .
-BytecodeBuffer
+SharedBytes
 debugBytecode
 ;
 /

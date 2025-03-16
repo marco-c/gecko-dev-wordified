@@ -8378,7 +8378,7 @@ wasm
 :
 :
 CodeMetadata
-1200
+1136
 )
 ;
 /

@@ -1067,7 +1067,7 @@ codeMetaForAsmJS
 ;
 }
 const
-BytecodeSource
+Bytes
 &
 debugBytecode
 (
@@ -1080,10 +1080,9 @@ codeMeta
 )
 .
 debugBytecode
-.
-source
-(
-)
+-
+>
+vector
 ;
 }
 uint32_t
@@ -1188,8 +1187,8 @@ startTier2
 (
 const
 ShareableBytes
-*
-codeSection
+&
+bytecode
 JS
 :
 :
