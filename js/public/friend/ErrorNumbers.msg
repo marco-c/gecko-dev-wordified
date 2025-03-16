@@ -14865,7 +14865,7 @@ parse
 :
 missing
 '
-]
+[
 '
 before
 annotation
