@@ -114,7 +114,7 @@ servo_arc
 ;
 extern
 crate
-servo_atoms
+stylo_atoms
 ;
 extern
 crate

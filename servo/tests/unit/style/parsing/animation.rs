@@ -63,7 +63,7 @@ parsing
 parse
 ;
 use
-servo_atoms
+stylo_atoms
 :
 :
 Atom
