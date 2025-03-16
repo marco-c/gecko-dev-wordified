@@ -418,8 +418,6 @@ strstart
 state
 .
 match_start
-as
-usize
 match_len
 -
 STD_MIN_MATCH
