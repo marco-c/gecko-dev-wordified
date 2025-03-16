@@ -3965,6 +3965,16 @@ peer
 .
 if
 (
+ice_transport_
+-
+>
+config
+(
+)
+.
+dtls_handshake_in_stun
+&
+&
 dtls_
 &
 &
@@ -4013,7 +4023,7 @@ kNew
 {
 RTC_LOG
 (
-LS_ERROR
+LS_INFO
 )
 <
 <
