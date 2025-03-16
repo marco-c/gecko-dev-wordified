@@ -1113,9 +1113,10 @@ subtests
 :
             
 if
-"
-macosx1400
-"
+all
+(
+                
+p
 not
 in
 test
@@ -1126,6 +1127,19 @@ test
 platform
 "
 ]
+for
+p
+in
+(
+"
+macosx1400
+"
+"
+macosx1500
+"
+)
+            
+)
 :
                 
 yield
