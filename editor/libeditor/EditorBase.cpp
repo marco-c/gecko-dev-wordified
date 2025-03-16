@@ -34790,7 +34790,7 @@ deleteContent
 deleteTextTransaction
 -
 >
-GetText
+GetTextNode
 (
 )
 ;
