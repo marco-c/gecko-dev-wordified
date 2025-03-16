@@ -813,7 +813,14 @@ Result
 <
 nsTArray
 <
+std
+:
+:
+pair
+<
 EntryId
+FileId
+>
 >
 QMResult
 >
