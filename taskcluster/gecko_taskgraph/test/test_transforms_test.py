@@ -620,6 +620,24 @@ tasks
 =
 1
     
+expected
+=
+input_task
+    
+expected
+[
+"
+attributes
+"
+]
+[
+"
+unittest_variant
+"
+]
+=
+None
+    
 assert
 tasks
 [
@@ -627,7 +645,7 @@ tasks
 ]
 =
 =
-input_task
+expected
     
 #
 test
@@ -693,6 +711,26 @@ tasks
 =
 3
     
+expected
+=
+make_test_task
+(
+)
+    
+expected
+[
+"
+attributes
+"
+]
+[
+"
+unittest_variant
+"
+]
+=
+None
+    
 assert
 tasks
 [
@@ -700,9 +738,7 @@ tasks
 ]
 =
 =
-make_test_task
-(
-)
+expected
     
 assert
 tasks
@@ -994,11 +1030,6 @@ tasks
 2
     
 assert
-"
-unittest_variant
-"
-not
-in
 tasks
 [
 0
@@ -1008,6 +1039,13 @@ tasks
 attributes
 "
 ]
+[
+"
+unittest_variant
+"
+]
+is
+None
     
 assert
 tasks
