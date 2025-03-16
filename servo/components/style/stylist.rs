@@ -449,6 +449,7 @@ CounterStyleRule
 FontFaceRule
 FontFeatureValuesRule
 FontPaletteValuesRule
+PagePseudoClassFlags
 }
 ;
 use
@@ -463,7 +464,6 @@ CssRule
 EffectiveRulesIterator
 Origin
 OriginSet
-PagePseudoClassFlags
 PageRule
 PerOrigin
 PerOriginIter
