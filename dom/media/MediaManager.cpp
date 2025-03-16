@@ -18950,10 +18950,10 @@ file
 A
 call
 from
-Navigator
+MediaDevices
 :
 :
-mozGetUserMedia
+GetUserMedia
 *
 will
 end

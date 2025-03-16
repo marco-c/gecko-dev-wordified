@@ -147,7 +147,9 @@ class
 }
 navigator
 .
-mozGetUserMedia
+mediaDevices
+.
+getUserMedia
 (
 {
 audio
@@ -157,6 +159,10 @@ fake
 :
 true
 }
+)
+.
+then
+(
 function
 (
 aStream

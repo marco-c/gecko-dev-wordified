@@ -779,7 +779,9 @@ RTCPeerConnection
 ;
 navigator
 .
-mozGetUserMedia
+mediaDevices
+.
+getUserMedia
 (
 {
 audio
@@ -792,6 +794,10 @@ fake
 :
 true
 }
+)
+.
+then
+(
 function
 (
 s
@@ -806,7 +812,9 @@ s
 ;
 navigator
 .
-mozGetUserMedia
+mediaDevices
+.
+getUserMedia
 (
 {
 audio
@@ -819,6 +827,10 @@ fake
 :
 true
 }
+)
+.
+then
+(
 function
 (
 s

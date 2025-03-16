@@ -2503,7 +2503,7 @@ The
 constraints
 for
 this
-mozGetUserMedia
+getUserMedia
 callback
 *
 /
