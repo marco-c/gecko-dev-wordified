@@ -326,6 +326,7 @@ engines
 =
 "
 gecko
+servo
 "
 spec
 =
