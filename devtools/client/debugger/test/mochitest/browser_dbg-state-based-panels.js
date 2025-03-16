@@ -1002,7 +1002,7 @@ add_task
 (
 async
 function
-testBreakpointsPanePersistOnPauseToggle
+testBreakpointsPaneRemainsClosedWhenLogToggled
 (
 )
 {
