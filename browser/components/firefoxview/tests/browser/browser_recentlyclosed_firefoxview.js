@@ -2253,7 +2253,6 @@ grouped
 "
 )
 ;
-await
 gBrowser
 .
 removeTabGroup

@@ -601,7 +601,6 @@ left
 "
 )
 ;
-await
 win
 .
 gBrowser

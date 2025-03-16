@@ -12713,7 +12713,6 @@ hidePopup
 await
 panelHidden
 ;
-await
 gBrowser
 .
 removeTabGroup
