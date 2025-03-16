@@ -33091,6 +33091,15 @@ Suspending
 "
 JSProto_WasmSuspending
 }
+{
+"
+SuspendError
+"
+GetExceptionProtoKey
+(
+JSEXN_WASMSUSPENDERROR
+)
+}
 }
 ;
 if
