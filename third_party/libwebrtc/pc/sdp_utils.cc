@@ -333,7 +333,9 @@ GetTransportInfoByName
 (
 content
 .
-name
+mid
+(
+)
 )
 ;
 if
@@ -449,7 +451,9 @@ GetTransportInfoByName
 (
 content
 .
-name
+mid
+(
+)
 )
 ;
 fn

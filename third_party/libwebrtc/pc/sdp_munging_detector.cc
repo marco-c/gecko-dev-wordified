@@ -2144,7 +2144,9 @@ last_created_contents
 i
 ]
 .
-name
+mid
+(
+)
 !
 =
 contents_to_set
@@ -2152,7 +2154,9 @@ contents_to_set
 i
 ]
 .
-name
+mid
+(
+)
 )
 {
 RTC_LOG

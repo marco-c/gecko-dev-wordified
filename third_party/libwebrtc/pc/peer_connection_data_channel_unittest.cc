@@ -1463,10 +1463,7 @@ type
 )
 )
 ;
-std
-:
-:
-string
+auto
 audio_mid
 =
 offer_contents
@@ -1474,7 +1471,9 @@ offer_contents
 0
 ]
 .
-name
+mid
+(
+)
 ;
 ASSERT_EQ
 (
@@ -1497,10 +1496,7 @@ type
 )
 )
 ;
-std
-:
-:
-string
+auto
 data_mid
 =
 offer_contents
@@ -1508,7 +1504,9 @@ offer_contents
 2
 ]
 .
-name
+mid
+(
+)
 ;
 ASSERT_TRUE
 (
@@ -1841,7 +1839,9 @@ GetTransportInfoByName
 data_content
 -
 >
-name
+mid
+(
+)
 )
 )
 ;
