@@ -160,7 +160,7 @@ removeFromToolbar
 "
 "
 #
-toolbarItemsMenuSeparator
+customizationMenuSeparator
 "
 "
 #
@@ -201,7 +201,7 @@ removeFromToolbar
 "
 "
 #
-toolbarItemsMenuSeparator
+customizationMenuSeparator
 "
 "
 #
@@ -405,7 +405,7 @@ removeFromToolbar
 "
 "
 #
-toolbarItemsMenuSeparator
+customizationMenuSeparator
 "
 "
 #
@@ -468,7 +468,7 @@ removeFromToolbar
 "
 "
 #
-toolbarItemsMenuSeparator
+customizationMenuSeparator
 "
 "
 #
