@@ -128,7 +128,7 @@ Link
 Colors
 "
 "
-contrastControlGroup
+colorsGroup
 "
 )
 ;
