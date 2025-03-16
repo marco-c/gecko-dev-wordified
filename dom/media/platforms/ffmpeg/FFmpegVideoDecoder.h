@@ -906,6 +906,12 @@ mD3D11VADeviceContext
 =
 nullptr
 ;
+AVBufferRef
+*
+mD3D11VAHWFrameContext
+=
+nullptr
+;
 RefPtr
 <
 ID3D11Device
