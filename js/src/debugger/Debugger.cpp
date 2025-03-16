@@ -30331,6 +30331,9 @@ InvisibleKeysOk
 :
 findSweepGroupEdges
 (
+Zone
+*
+atomsZone
 )
 {
 Zone
@@ -30457,6 +30460,7 @@ Base
 :
 findSweepGroupEdges
 (
+atomsZone
 )
 ;
 }
