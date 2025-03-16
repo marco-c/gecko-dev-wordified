@@ -589,6 +589,17 @@ POST_NOTIFICATIONS
 enabling
 notifications
         
+if
+self
+.
+test
+!
+=
+"
+homeview_startup
+"
+:
+            
 self
 .
 create_background_tabs
@@ -1012,11 +1023,15 @@ elif
 self
 .
 test
-=
-=
+in
+[
 "
 mobile_restore
 "
+"
+homeview_startup
+"
+]
 :
             
 self
@@ -2035,7 +2050,7 @@ sys
 argv
 )
 <
-3
+4
 :
         
 raise
@@ -2079,19 +2094,6 @@ argv
     
 test_url
 =
-None
-    
-if
-test
-=
-=
-"
-cold_view_nav_end
-"
-:
-        
-test_url
-=
 sys
 .
 argv
@@ -2117,6 +2119,14 @@ mobile_restore
 :
 "
 tab_restore
+"
+        
+"
+homeview_startup
+"
+:
+"
+homeview_startup
 "
     
 }
