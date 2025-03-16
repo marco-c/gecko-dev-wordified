@@ -2457,6 +2457,20 @@ background_update_pings
 +
 test_pings
     
+"
+firefox
+.
+desktop
+.
+background
+.
+tasks
+"
+:
+gecko_pings
++
+background_tasks_pings
+    
 #
 Not
 an
