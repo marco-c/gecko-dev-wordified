@@ -122,6 +122,13 @@ editor
 js
 "
 "
+lezer
+-
+utils
+.
+js
+"
+"
 scope
 -
 utils
