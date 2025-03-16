@@ -499,7 +499,6 @@ remb_sender
 AsStdFunction
 (
 )
-nullptr
 )
 ;
 RtpHeaderExtensionMap
@@ -714,7 +713,6 @@ remb_sender
 AsStdFunction
 (
 )
-nullptr
 )
 ;
 EXPECT_CALL
@@ -935,7 +933,6 @@ remb_sender
 AsStdFunction
 (
 )
-nullptr
 )
 ;
 /
@@ -1126,7 +1123,6 @@ remb_sender
 AsStdFunction
 (
 )
-nullptr
 )
 ;
 controller
@@ -1323,7 +1319,6 @@ remb_sender
 AsStdFunction
 (
 )
-nullptr
 )
 ;
 /

@@ -4838,13 +4838,6 @@ packet_router
 (
 )
 )
-/
-*
-network_state_estimator
-=
-*
-/
-nullptr
 )
 receive_time_calculator_
 (

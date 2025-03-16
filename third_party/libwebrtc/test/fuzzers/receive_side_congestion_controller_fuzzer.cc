@@ -293,13 +293,6 @@ auto
 )
 {
 }
-/
-*
-network_state_estimator
-=
-*
-/
-nullptr
 )
 ;
 RtpHeaderExtensionMap
