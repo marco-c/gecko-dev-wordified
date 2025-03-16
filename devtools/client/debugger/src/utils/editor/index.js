@@ -157,7 +157,6 @@ export
 function
 getEditor
 (
-useCm6
 )
 {
 if
@@ -176,7 +175,9 @@ createEditor
 {
 cm6
 :
-useCm6
+features
+.
+codemirrorNext
 }
 )
 ;

@@ -287,10 +287,9 @@ Klass
 55
 /
 /
-console
-.
-log
-62
+const
+bla
+78
 ]
 ;
 await
