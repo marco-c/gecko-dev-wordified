@@ -4426,8 +4426,15 @@ media_hevc_enabled
 )
 &
 &
+(
 IsOnMacOS
 (
+)
+|
+|
+IsOnLinux
+(
+)
 )
 ;
 }
