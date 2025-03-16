@@ -245,7 +245,9 @@ TabPanel
 Tabs
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -264,8 +266,15 @@ tabs
 /
 Tabs
 .
-js
+mjs
 "
+{
+global
+:
+"
+current
+"
+}
 )
 ;
 /
