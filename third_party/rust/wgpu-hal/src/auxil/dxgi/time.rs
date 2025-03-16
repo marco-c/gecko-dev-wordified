@@ -516,14 +516,12 @@ kernelbase
 .
 get
 (
-c
+b
 "
 QueryInterruptTimePrecise
+\
+0
 "
-.
-to_bytes
-(
-)
 )
 .
 unwrap

@@ -97,21 +97,6 @@ token
 TokenValue
 ;
 use
-alloc
-:
-:
-{
-string
-:
-:
-String
-vec
-:
-:
-Vec
-}
-;
-use
 crate
 :
 :
@@ -194,7 +179,7 @@ Result
 T
 >
 =
-core
+std
 :
 :
 result
@@ -1382,7 +1367,7 @@ str
 )
 -
 >
-core
+std
 :
 :
 result
@@ -1466,7 +1451,7 @@ else
 {
 Err
 (
-core
+std
 :
 :
 mem
@@ -1505,7 +1490,7 @@ e
 ;
 Err
 (
-core
+std
 :
 :
 mem

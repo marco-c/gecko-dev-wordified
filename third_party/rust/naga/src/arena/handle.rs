@@ -58,7 +58,7 @@ super
 :
 UniqueArena
 use
-core
+std
 :
 :
 {
@@ -215,7 +215,7 @@ Self
 {
 kind
 :
-core
+std
 :
 :
 any

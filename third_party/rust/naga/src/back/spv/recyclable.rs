@@ -9,15 +9,6 @@ allocations
 .
 *
 /
-use
-alloc
-:
-:
-vec
-:
-:
-Vec
-;
 /
 /
 /
@@ -493,7 +484,7 @@ V
 >
 Recyclable
 for
-alloc
+std
 :
 :
 collections
