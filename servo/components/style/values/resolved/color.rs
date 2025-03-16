@@ -162,6 +162,7 @@ style
 .
 resolve_color
 (
+&
 self
 )
 }

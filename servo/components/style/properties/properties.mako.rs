@@ -13901,6 +13901,7 @@ style
 .
 resolve_color
 (
+&
 style
 .
 get_border
@@ -13924,6 +13925,7 @@ resolve_color
 self
 color
 :
+&
 computed
 :
 :
