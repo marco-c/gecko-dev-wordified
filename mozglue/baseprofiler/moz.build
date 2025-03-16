@@ -173,13 +173,6 @@ UNIFIED_SOURCES
 "
 core
 /
-Flow
-.
-cpp
-"
-"
-core
-/
 PageInformation
 .
 cpp
@@ -842,6 +835,13 @@ UNIFIED_SOURCES
 core
 /
 BaseAndGeckoProfilerDetail
+.
+cpp
+"
+"
+core
+/
+Flow
 .
 cpp
 "
