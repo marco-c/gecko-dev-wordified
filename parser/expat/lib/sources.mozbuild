@@ -89,7 +89,7 @@ expat_sources
 =
 [
 '
-xmlparse
+moz_xmlparse
 .
 c
 '

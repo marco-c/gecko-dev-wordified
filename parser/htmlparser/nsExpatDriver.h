@@ -109,7 +109,7 @@ h
 #
 include
 "
-expat
+moz_expat
 .
 h
 "
