@@ -185,6 +185,15 @@ javascript
 "
 js
 "
+"
+event
+-
+stream
+"
+:
+"
+eventsource
+"
 }
 ;
 /
