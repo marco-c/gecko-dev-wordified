@@ -3065,6 +3065,7 @@ MaybeReportFontFingerprinter
 nsIChannel
 *
 aChannel
+const
 nsACString
 &
 aOriginNoSuffix
